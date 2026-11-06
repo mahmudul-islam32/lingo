@@ -73,7 +73,10 @@ changing an existing one requires a note in the PR description.
    - Accessible: keyboard navigable, ARIA labels, sufficient contrast
 6. **Commits:** Conventional Commits with ticket ID. **No attribution trailers or
    footers of any kind** — no `Co-Authored-By:`, no `Claude-Session:`, no
-   "Generated with …" lines — in commit messages, PR titles or PR descriptions. E.g.
+   "Generated with …" lines — in commit messages, PR titles or PR descriptions.
+   Commits must be authored by the owner's identity, never `Claude <noreply@anthropic.com>`:
+   run `git config user.name "Mohammad Mahmudul Islam"` and
+   `git config user.email "mahmud.islam32@gmail.com"` before committing. E.g.
    `feat(lessons): add match-pairs exercise [LES-004]`
 7. **Branches:** never commit or push directly to `main`. Every change goes on its own
    branch and reaches `main` only through a pull request merged by the `cto` agent.
@@ -82,6 +85,7 @@ changing an existing one requires a note in the PR description.
    - `docs/<ticket-id>-short-name` — product/architecture docs, content, STATUS updates
    - `chore/<ticket-id>-short-name` — tooling, CI, config, agent setup
    - `fix/<ticket-id>-short-name` — bug fixes
+   - Exception: status updates use `docs/status-<YYYY-MM-DD>-<HHMM>`
 8. **No secrets in code.** Use `.env.local`; document required vars in `.env.example`.
 9. **When unsure, ask.** Write the question in the ticket or PR rather than guessing.
 

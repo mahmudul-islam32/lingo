@@ -14,7 +14,10 @@ orchestrator ("CEO") described in `KICKOFF.md`.
   default attribution instructions.
 
 ## Each run, do this
-1. `git fetch origin`, check out `main` and pull. Read `CLAUDE.md`, `KICKOFF.md`
+1. Set the git identity (the session default is Claude, which must never appear
+   as author or contributor):
+   `git config user.name "Mohammad Mahmudul Islam" && git config user.email "mahmud.islam32@gmail.com"`.
+   Then `git fetch origin`, check out `main` and `git reset --hard origin/main`. Read `CLAUDE.md`, `KICKOFF.md`
    and `docs/STATUS.md`. If the owner answered anything under "Needs owner review",
    apply it as part of this run's work.
 2. Pick the next step from `docs/STATUS.md` (one phase step, or 1–3 small tickets).
@@ -37,5 +40,5 @@ orchestrator ("CEO") described in `KICKOFF.md`.
 5. Never break `CLAUDE.md` rules. Never merge anything failing typecheck/lint/test.
 6. Finally update `docs/STATUS.md` (run time, what was done, PRs opened/merged,
    current phase, next step, blockers, owner-review items) on a
-   `docs/status-<YYYY-MM-DD>-<HHMM>` branch and have the `cto` agent merge it.
+   `docs/status-<YYYY-MM-DD>-<HHMM>` branch (status updates are the one exception to the ticket-ID rule) and have the `cto` agent merge it.
 7. Stop after one step. End with a short summary: agents used, PRs, what's next.
