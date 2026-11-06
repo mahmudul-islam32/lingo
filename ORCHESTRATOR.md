@@ -2,7 +2,7 @@
 
 The 5 agents run as a **fully autonomous software company**. Nobody waits for the
 owner: the agents plan features, build them, review and merge them, and ship
-releases on their own. Runs fire every day at **19:39 and 00:00 (Europe/Berlin)**
+releases on their own. Runs fire every day at **20:00 and 01:00 (Europe/Berlin)**
 and wake the dedicated "Lingo orchestrator" Claude Code session, which acts as
 the CEO and delegates to the agents in `.claude/agents/`.
 
