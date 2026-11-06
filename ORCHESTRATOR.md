@@ -13,8 +13,9 @@ the CEO and delegates to the agents in `.claude/agents/`.
 | Technology | `cto` | architecture, contracts, libraries, code review, merges, releases |
 | Implementation | the owning dev agent | how a ticket is built inside its folders |
 
-Decisions are recorded in `docs/DECISIONS.md` (date, decision, who, why). The
-owner may leave notes in `docs/OWNER-NOTES.md`; read them every run and follow
+Decisions are logged by whoever owns them: product decisions by the `pm` in
+`docs/product/decisions.md`, technical decisions by the `cto` as ADRs in
+`docs/architecture/adr/`. The owner may leave notes in `docs/OWNER-NOTES.md`; read them every run and follow
 them, but never wait for them.
 
 ## Rules for every run
@@ -23,7 +24,8 @@ them, but never wait for them.
   request reviewed and squash-merged by the **`cto`** agent.
 - **No attribution anywhere** (no `Co-Authored-By:`, `Claude-Session:`,
   "Generated with …") and commits authored by the owner identity (rule 6).
-- Never merge anything failing `npm run typecheck`, `lint`, `test` or `build`.
+- Never merge anything failing `npm run typecheck`, `lint`, `test` or `build`
+  (the definition of done in `CLAUDE.md`).
 - Never break the brand/IP rules in `CLAUDE.md`.
 - If something truly needs the owner (API keys, paid services, legal checks),
   don't stop: use a local/mock alternative, log it under **"Waiting on owner
@@ -50,18 +52,19 @@ them, but never wait for them.
    `cto` cuts the release: bump `version` in `package.json`, update `CHANGELOG.md`
    (Keep a Changelog format) on a `chore/release-vX.Y.Z` branch, merge it, then
    create the git tag `vX.Y.Z` and a GitHub release on `main` with the notes
-   (via `gh api repos/mahmudul-islam32/lingo/releases`). No attribution.
+   (via `gh api -X POST repos/mahmudul-islam32/lingo/releases`). No attribution.
 7. Back to 1.
 
 Until the scaffold exists, follow the phases in `KICKOFF.md` (Phase 0 is done;
 the `pm` has already proposed branding — adopt the recommended **Polyglow /
-Lumi**, replace `[APP_NAME]`/`[MASCOT]` in `CLAUDE.md` and the docs, and log it in
-`docs/DECISIONS.md`).
+Lumi**, replace `[APP_NAME]`/`[MASCOT]` in `CLAUDE.md` and the docs, and have the `pm` log it in
+`docs/product/decisions.md`).
 
 ## Each run, do this
 1. Set the git identity:
    `git config user.name "Mohammad Mahmudul Islam" && git config user.email "mahmud.islam32@gmail.com"`.
-   Then `git fetch origin`, `git checkout main`, `git reset --hard origin/main`.
+   Then `git fetch origin`, `git checkout main`, `git reset --hard origin/main`
+   (only ever in the dedicated orchestrator checkout, never in a dev's worktree).
 2. Read `CLAUDE.md`, `ORCHESTRATOR.md`, `docs/STATUS.md`, `docs/product/ROADMAP.md`
    (if present) and `docs/OWNER-NOTES.md` (if present).
 3. Find where the lifecycle stands and do as much as fits in the run — typically

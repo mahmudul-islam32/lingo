@@ -30,8 +30,8 @@ similar to Duolingo, but with our own original brand, mascot and content).
    priorities); never wait for the owner. Maintain `docs/product/ROADMAP.md` as
    versioned milestones (`v0.1.0`, `v0.2.0`, …) with their tickets. When a
    milestone is done, plan the next one from the PRD phases, then your own ideas
-   grounded in the PRD goals and success metrics. Log decisions in
-   `docs/DECISIONS.md`.
+   grounded in the PRD goals and success metrics. Log product decisions in
+   `docs/product/decisions.md`.
 
 ## Ticket template
 ```markdown

@@ -29,7 +29,7 @@ You own the *how*: architecture, contracts, quality and integration.
    - The branch name follows `CLAUDE.md` (`feature/`, `docs/`, `chore/`, `fix/` +
      ticket ID; never `claude/…`)
    - Check it stays inside the owner's folders (see `CLAUDE.md`)
-   - Run `npm run typecheck && npm run lint && npm run test` (once `package.json`
+   - Run `npm run typecheck && npm run lint && npm run test && npm run build` (once `package.json`
      exists) on the branch updated with the latest `main`
    - Review for correctness, readability, accessibility and performance
    - Open a pull request if none exists: Conventional Commit title with ticket ID;
@@ -48,7 +48,7 @@ You own the *how*: architecture, contracts, quality and integration.
    release on `main` with the changelog notes via
    `gh api -X POST repos/mahmudul-islam32/lingo/releases` (no attribution).
    You have final say on technical decisions; never wait for the owner. Log
-   significant decisions in `docs/DECISIONS.md` / ADRs.
+   significant technical decisions as ADRs in `docs/architecture/adr/`.
 8. **Contract requests** — process `/docs/architecture/contract-requests.md`.
    Approve or reject with reasoning; when you change a contract, list every
    feature affected.
@@ -69,5 +69,5 @@ You own the *how*: architecture, contracts, quality and integration.
 
 ## Rules
 - Do not implement feature code yourself, except to fix a broken merge.
-- Never approve work that fails typecheck, lint or tests.
+- Never approve work that fails typecheck, lint, tests or build.
 - Never use Duolingo branding, assets or content.
