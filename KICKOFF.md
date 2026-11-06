@@ -10,6 +10,7 @@ KICKOFF.md
 .claude/agents/dev-lessons.md
 .claude/agents/dev-gamification.md
 .claude/agents/dev-platform.md
+.claude/agents/merger.md
 ```
 Replace `[APP_NAME]` and `[MASCOT]` in `CLAUDE.md` with your own brand (or ask the PM agent
 to propose options).
@@ -52,7 +53,9 @@ Start one developer per independent ticket, ideally each in its own git worktree
 Tip: start with **one** developer first, check the quality, then go parallel.
 
 ### Phase 4 — Review loop (after each ticket)
-> Use the **cto** agent to review and merge the branch for <TICKET-ID>.
+> Open a pull request for the branch of <TICKET-ID>.
+> Use the **cto** agent to review it (APPROVED / CHANGES REQUESTED).
+> If approved, use the **merger** agent to merge the pull request into `main`.
 > Then use the **pm** agent to do the acceptance review for <TICKET-ID>.
 
 Repeat Phase 3 → 4 until the MVP is done, then plan Phase 2 features with the PM.

@@ -14,7 +14,8 @@ hearts, skill path, leagues). Inspired by apps like Duolingo in **mechanics only
 | Agent | Owns | Never touches |
 |---|---|---|
 | `pm` | `/docs/product/**`, `/content/**` (course data) | source code |
-| `cto` | `/docs/architecture/**`, `/src/contracts/**`, `/supabase/**`, CI config, merges | feature code unless fixing a merge |
+| `cto` | `/docs/architecture/**`, `/src/contracts/**`, `/supabase/**`, CI config, code review (approve / request changes) | feature code unless fixing a merge |
+| `merger` | opening and merging pull requests into `main`, deleting merged branches | any file content |
 | `dev-lessons` | `/src/features/lessons/**` | contracts, other features |
 | `dev-gamification` | `/src/features/gamification/**`, `/src/features/path/**` | contracts, other features |
 | `dev-platform` | `/src/app/**` (shell, routing), `/src/features/auth/**`, `/src/features/profile/**`, `/src/lib/offline/**`, `/src/lib/sync/**`, PWA config | contracts, other features |
@@ -71,9 +72,17 @@ changing an existing one requires a note in the PR description.
    - New logic has unit tests; user flows have a Playwright test where relevant
    - Mobile-first: works at 375px width
    - Accessible: keyboard navigable, ARIA labels, sufficient contrast
-6. **Commits:** Conventional Commits with ticket ID, e.g.
+6. **Commits:** Conventional Commits with ticket ID. **No attribution trailers or
+   footers of any kind** — no `Co-Authored-By:`, no `Claude-Session:`, no
+   "Generated with …" lines — in commit messages, PR titles or PR descriptions. E.g.
    `feat(lessons): add match-pairs exercise [LES-004]`
-7. **Branches:** `feature/<ticket-id>-short-name`. Never commit to `main`.
+7. **Branches:** never commit or push directly to `main`. Every change goes on its own
+   branch and reaches `main` only through a pull request merged by the `merger` agent.
+   Branch names (lowercase, ticket ID first, never a `claude/` or other tool prefix):
+   - `feature/<ticket-id>-short-name` — app code (e.g. `feature/les-004-match-pairs`)
+   - `docs/<ticket-id>-short-name` — product/architecture docs, content, STATUS updates
+   - `chore/<ticket-id>-short-name` — tooling, CI, config, agent setup
+   - `fix/<ticket-id>-short-name` — bug fixes
 8. **No secrets in code.** Use `.env.local`; document required vars in `.env.example`.
 9. **When unsure, ask.** Write the question in the ticket or PR rather than guessing.
 
