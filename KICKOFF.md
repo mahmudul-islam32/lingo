@@ -52,7 +52,8 @@ Start one developer per independent ticket, ideally each in its own git worktree
 Tip: start with **one** developer first, check the quality, then go parallel.
 
 ### Phase 4 — Review loop (after each ticket)
-> Use the **cto** agent to review and merge the branch for <TICKET-ID>.
+> Use the **cto** agent to review the branch for <TICKET-ID>, open a pull request,
+> and squash-merge it into `main` if approved (or write change requests).
 > Then use the **pm** agent to do the acceptance review for <TICKET-ID>.
 
 Repeat Phase 3 → 4 until the MVP is done, then plan Phase 2 features with the PM.
