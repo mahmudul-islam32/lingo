@@ -5,6 +5,9 @@ This file is the playbook for the **unattended** runs that fire every day at
 acting as the orchestrator ("CEO") described in `KICKOFF.md`.
 
 ## Each run, do this
+0. **Attach the repo first:** call the `add_repo` tool with owner
+   `mahmudul-islam32`, repo `lingo`, access `push`, then clone with the command
+   it returns. Without this, `git push` fails with 403.
 1. `git fetch origin` and check out `main` (create `main` from the current
    default branch if it does not exist yet). Pull the latest.
 2. Read `CLAUDE.md`, `KICKOFF.md` and `docs/STATUS.md`.
