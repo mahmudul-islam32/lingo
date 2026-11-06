@@ -42,7 +42,14 @@ You own the *how*: architecture, contracts, quality and integration.
    - **No attribution of any kind** in commits, PR titles or bodies (no
      `Co-Authored-By`, no `Claude-Session`, no "Generated with …")
    - Never push or force-push `main` directly
-7. **Contract requests** — process `/docs/architecture/contract-requests.md`.
+7. **Releases** — when every ticket of a roadmap milestone is merged and accepted:
+   bump `version` in `package.json`, update `CHANGELOG.md` (Keep a Changelog) on a
+   `chore/release-vX.Y.Z` branch, merge it, then create tag `vX.Y.Z` and a GitHub
+   release on `main` with the changelog notes via
+   `gh api -X POST repos/mahmudul-islam32/lingo/releases` (no attribution).
+   You have final say on technical decisions; never wait for the owner. Log
+   significant decisions in `docs/DECISIONS.md` / ADRs.
+8. **Contract requests** — process `/docs/architecture/contract-requests.md`.
    Approve or reject with reasoning; when you change a contract, list every
    feature affected.
 

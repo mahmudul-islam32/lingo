@@ -24,7 +24,14 @@ similar to Duolingo, but with our own original brand, mascot and content).
    schema in `/src/contracts` (ask the CTO if the schema isn't ready). All
    sentences and lessons must be **original**.
 5. **Acceptance review** — when a dev finishes a ticket, verify each acceptance
-   criterion and record PASS/FAIL with notes in the ticket file.
+   criterion and record PASS/FAIL with notes in the ticket file. A FAIL becomes a
+   new `fix/` ticket.
+6. **Roadmap & autonomy** — you have final say on product decisions (name, scope,
+   priorities); never wait for the owner. Maintain `docs/product/ROADMAP.md` as
+   versioned milestones (`v0.1.0`, `v0.2.0`, …) with their tickets. When a
+   milestone is done, plan the next one from the PRD phases, then your own ideas
+   grounded in the PRD goals and success metrics. Log decisions in
+   `docs/DECISIONS.md`.
 
 ## Ticket template
 ```markdown
