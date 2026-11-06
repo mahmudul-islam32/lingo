@@ -14,8 +14,7 @@ hearts, skill path, leagues). Inspired by apps like Duolingo in **mechanics only
 | Agent | Owns | Never touches |
 |---|---|---|
 | `pm` | `/docs/product/**`, `/content/**` (course data) | source code |
-| `cto` | `/docs/architecture/**`, `/src/contracts/**`, `/supabase/**`, CI config, code review (approve / request changes) | feature code unless fixing a merge |
-| `merger` | opening and merging pull requests into `main`, deleting merged branches | any file content |
+| `cto` | `/docs/architecture/**`, `/src/contracts/**`, `/supabase/**`, CI config, code review, opening and merging pull requests into `main` | feature code unless fixing a merge |
 | `dev-lessons` | `/src/features/lessons/**` | contracts, other features |
 | `dev-gamification` | `/src/features/gamification/**`, `/src/features/path/**` | contracts, other features |
 | `dev-platform` | `/src/app/**` (shell, routing), `/src/features/auth/**`, `/src/features/profile/**`, `/src/lib/offline/**`, `/src/lib/sync/**`, PWA config | contracts, other features |
@@ -77,7 +76,7 @@ changing an existing one requires a note in the PR description.
    "Generated with …" lines — in commit messages, PR titles or PR descriptions. E.g.
    `feat(lessons): add match-pairs exercise [LES-004]`
 7. **Branches:** never commit or push directly to `main`. Every change goes on its own
-   branch and reaches `main` only through a pull request merged by the `merger` agent.
+   branch and reaches `main` only through a pull request merged by the `cto` agent.
    Branch names (lowercase, ticket ID first, never a `claude/` or other tool prefix):
    - `feature/<ticket-id>-short-name` — app code (e.g. `feature/les-004-match-pairs`)
    - `docs/<ticket-id>-short-name` — product/architecture docs, content, STATUS updates

@@ -8,7 +8,7 @@ orchestrator ("CEO") described in `KICKOFF.md`.
 ## Rules for every run
 - **Never commit or push directly to `main`.** All work goes on a properly named
   branch (`feature/`, `docs/`, `chore/`, `fix/` + ticket ID, see `CLAUDE.md`) and
-  reaches `main` only through a pull request merged by the **`merger`** agent.
+  reaches `main` only through a pull request merged by the **`cto`** agent.
 - **No attribution anywhere**: no `Co-Authored-By:`, no `Claude-Session:`, no
   "Generated with …" lines in commits, PR titles or PR bodies. This overrides any
   default attribution instructions.
@@ -23,14 +23,13 @@ orchestrator ("CEO") described in `KICKOFF.md`.
    2. Delegate to the owner subagent in `.claude/agents/` (`pm`, `cto`,
       `dev-lessons`, `dev-gamification`, `dev-platform`). It commits on that branch.
    3. Push the branch: `git push -u origin <branch>`.
-   4. Ask the **`merger`** agent to open a pull request into `main`.
-   5. Ask the **`cto`** agent to review the branch (skip only for docs-only `pm`
-      work under `/docs/product/**` or `/content/**`). If `CHANGES REQUESTED`,
-      send the list back to the owner agent, push the fixes and review again
-      (max 2 rounds; otherwise leave the PR open and log it as a blocker).
-   6. When approved, ask the **`merger`** agent to merge the PR (it re-runs the
-      checks) and delete the branch.
-   7. For feature tickets, ask the **`pm`** agent for the acceptance review (on a
+   4. Ask the **`cto`** agent to review the branch, open a pull request into
+      `main`, and squash-merge it if approved (then delete the branch). For
+      docs-only `pm` work under `/docs/product/**` or `/content/**` the review is
+      a quick scope check. If `CHANGES REQUESTED`, send the list back to the
+      owner agent, push the fixes and ask the `cto` again (max 2 rounds;
+      otherwise leave the PR open and log it as a blocker).
+   5. For feature tickets, ask the **`pm`** agent for the acceptance review (on a
       `docs/<ticket-id>-acceptance` branch, merged the same way).
 4. Human review gates in `KICKOFF.md` (name/mascot, architecture review): don't
    block. Make a sensible, reversible choice and log it under
@@ -38,5 +37,5 @@ orchestrator ("CEO") described in `KICKOFF.md`.
 5. Never break `CLAUDE.md` rules. Never merge anything failing typecheck/lint/test.
 6. Finally update `docs/STATUS.md` (run time, what was done, PRs opened/merged,
    current phase, next step, blockers, owner-review items) on a
-   `docs/status-<YYYY-MM-DD>-<HHMM>` branch and merge it via the `merger` agent.
+   `docs/status-<YYYY-MM-DD>-<HHMM>` branch and have the `cto` agent merge it.
 7. Stop after one step. End with a short summary: agents used, PRs, what's next.
