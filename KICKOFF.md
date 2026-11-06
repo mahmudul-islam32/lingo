@@ -1,5 +1,9 @@
 # Kickoff guide — running the 5-agent team in Claude Code
 
+> **Autonomous mode:** the team now runs on its own via `ORCHESTRATOR.md`. The
+> "You review" gates below are decided by the agents themselves (`pm` for
+> product, logged in `docs/product/decisions.md`; `cto` for technology, logged as ADRs).
+
 ## 1. Set up the folder
 Put these files in an empty project folder (and run `git init`):
 ```

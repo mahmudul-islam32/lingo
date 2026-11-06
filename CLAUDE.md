@@ -13,8 +13,10 @@ hearts, skill path, leagues). Inspired by apps like Duolingo in **mechanics only
 ## Team & ownership
 | Agent | Owns | Never touches |
 |---|---|---|
-| `pm` | `/docs/product/**`, `/content/**` (course data) | source code |
-| `cto` | `/docs/architecture/**`, `/src/contracts/**`, `/supabase/**`, CI config, code review, opening and merging pull requests into `main` | feature code unless fixing a merge |
+| orchestrator (CEO session) | `CLAUDE.md`, `ORCHESTRATOR.md`, `KICKOFF.md`, `/.claude/agents/**`, `docs/STATUS.md` | feature code |
+| `pm` | `/docs/product/**` (incl. `ROADMAP.md`, product decisions in `docs/product/decisions.md`), `/content/**` (course data) | source code |
+| `cto` | `/docs/architecture/**` (technical decisions as ADRs), `/src/contracts/**`, `/supabase/**`, CI config, root tooling config, `package.json` version, `CHANGELOG.md`, releases, code review, opening and merging pull requests into `main` | feature code unless fixing a merge |
+| owner (human) | `docs/OWNER-NOTES.md` — agents read it every run, never edit it | — |
 | `dev-lessons` | `/src/features/lessons/**` | contracts, other features |
 | `dev-gamification` | `/src/features/gamification/**`, `/src/features/path/**` | contracts, other features |
 | `dev-platform` | `/src/app/**` (shell, routing), `/src/features/auth/**`, `/src/features/profile/**`, `/src/lib/offline/**`, `/src/lib/sync/**`, PWA config | contracts, other features |
@@ -67,13 +69,16 @@ changing an existing one requires a note in the PR description.
 4. **One ticket at a time.** Every change maps to a ticket ID (e.g. `LES-003`).
 5. **Definition of done:**
    - All acceptance criteria in the ticket are met
-   - `npm run typecheck`, `npm run lint`, `npm run test` all pass
+   - `npm run typecheck`, `npm run lint`, `npm run test`, `npm run build` all pass
    - New logic has unit tests; user flows have a Playwright test where relevant
    - Mobile-first: works at 375px width
    - Accessible: keyboard navigable, ARIA labels, sufficient contrast
 6. **Commits:** Conventional Commits with ticket ID. **No attribution trailers or
    footers of any kind** — no `Co-Authored-By:`, no `Claude-Session:`, no
-   "Generated with …" lines — in commit messages, PR titles or PR descriptions. E.g.
+   "Generated with …" lines — in commit messages, PR titles or PR descriptions.
+   Commits must be authored by the owner's identity, never `Claude <noreply@anthropic.com>`:
+   run `git config user.name "Mohammad Mahmudul Islam"` and
+   `git config user.email "mahmud.islam32@gmail.com"` before committing. E.g.
    `feat(lessons): add match-pairs exercise [LES-004]`
 7. **Branches:** never commit or push directly to `main`. Every change goes on its own
    branch and reaches `main` only through a pull request merged by the `cto` agent.
@@ -82,8 +87,12 @@ changing an existing one requires a note in the PR description.
    - `docs/<ticket-id>-short-name` — product/architecture docs, content, STATUS updates
    - `chore/<ticket-id>-short-name` — tooling, CI, config, agent setup
    - `fix/<ticket-id>-short-name` — bug fixes
+   - Exceptions without a ticket ID: status updates use `docs/status-<YYYY-MM-DD>-<HHMM>`,
+     releases use `chore/release-vX.Y.Z` (commit tag `[RELEASE-vX.Y.Z]`)
 8. **No secrets in code.** Use `.env.local`; document required vars in `.env.example`.
-9. **When unsure, ask.** Write the question in the ticket or PR rather than guessing.
+9. **When unsure, don't block.** Write the question in the ticket or PR, make a
+   sensible reversible choice, log it (product → `docs/product/decisions.md`,
+   technical → ADR), and continue. The team never waits for the owner.
 
 ## Commands
 ```
