@@ -57,15 +57,17 @@ test("keeps the guest id in a new tab of the same browser profile", async ({ con
 test("creating and reading the guest makes no network requests", async ({ page, baseURL }) => {
   const origin = new URL(baseURL ?? "http://localhost:3000").origin;
   // Data requests only: the page's own document and JS chunks are not data traffic, and
-  // dev-mode tooling (HMR) is excluded.
+  // dev-mode tooling (HMR) and same-origin Next.js route prefetches (RSC payloads requested
+  // by `next/link` in the bottom nav, PLT-001) are excluded.
   const dataRequests: string[] = [];
   page.on("request", (request) => {
     const url = request.url();
     const type = request.resourceType();
     const isDevTooling = url.includes("/_next/") || url.includes("__nextjs");
+    const isRoutePrefetch = url.startsWith(origin) && new URL(url).searchParams.has("_rsc");
     const isData = ["fetch", "xhr", "websocket", "eventsource", "ping"].includes(type);
     const isThirdParty = !url.startsWith(origin) && !url.startsWith("data:");
-    if ((isData && !isDevTooling) || isThirdParty) {
+    if ((isData && !isDevTooling && !isRoutePrefetch) || isThirdParty) {
       dataRequests.push(`${type} ${url}`);
     }
   });
