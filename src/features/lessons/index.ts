@@ -33,3 +33,8 @@ export {
   MatchPairsExercise,
   type MatchPairsExerciseProps,
 } from "./exercises/match-pairs/MatchPairsExercise";
+export {
+  WordBankTranslateExercise,
+  type WordBankTranslateExerciseProps,
+} from "./exercises/word-bank-translate/WordBankTranslateExercise";
+export { ListenExercise, type ListenExerciseProps } from "./exercises/listen/ListenExercise";

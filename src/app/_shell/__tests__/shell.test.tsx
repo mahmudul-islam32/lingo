@@ -2,7 +2,6 @@ import { render, screen, within } from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
 import { afterEach, beforeEach, describe, expect, it, vi } from "vitest";
 import { navigationState } from "./navigation-mock";
-import { guestProfileStore } from "@/features/profile";
 import TabsLayout from "../../(tabs)/layout";
 import LearnPage from "../../(tabs)/page";
 import ProfilePage from "../../(tabs)/profile/page";
@@ -23,8 +22,6 @@ function expectOneMainAndOneH1() {
 describe("app shell", () => {
   beforeEach(() => {
     navigationState.pathname = "/";
-    // An onboarded learner, so the tabs' OnboardingGate (PLT-004) renders the page.
-    guestProfileStore.setState({ status: "ready", onboardingComplete: true });
   });
 
   it("Learn: one main, one h1, bottom nav outside main, skip link first", async () => {
@@ -60,8 +57,7 @@ describe("app shell", () => {
     expect(screen.getByRole("link", { name: "Profile" })).toHaveAttribute("aria-current", "page");
   });
 
-  it("onboarding: no bottom nav", () => {
-    guestProfileStore.setState({ status: "ready", onboardingComplete: false });
+  it("onboarding: placeholder without the bottom nav", () => {
     render(<OnboardingPage />);
     expectOneMainAndOneH1();
     expect(screen.queryByRole("navigation")).not.toBeInTheDocument();
