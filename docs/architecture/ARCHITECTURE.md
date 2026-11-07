@@ -2,7 +2,8 @@
 
 - **Owner:** cto · **Status:** v1 (CTO-002) · **Last updated:** 2026-11-07
 - Decisions: [ADR-001 scaffold](adr/ADR-001-scaffold.md), [ADR-002 contracts](adr/ADR-002-contracts.md),
-  [ADR-003 Supabase](adr/ADR-003-supabase.md), [ADR-004 design tokens and UI primitives](adr/ADR-004-design-tokens-ui-primitives.md)
+  [ADR-003 Supabase](adr/ADR-003-supabase.md), [ADR-004 design tokens and UI primitives](adr/ADR-004-design-tokens-ui-primitives.md),
+  [ADR-005 client query cache](adr/ADR-005-client-query-cache.md)
 - Contract changes: [contract-requests.md](contract-requests.md)
 
 Every agent reads this file before starting a ticket. If code and this document
@@ -182,6 +183,9 @@ devices within seconds, which is acceptable for MVP.
   `["progress", courseId]`, `["hearts"]`, `["settings"]`, `["profile"]`,
   `["sync-status"]`. Mutations invalidate the matching keys; the sync engine
   invalidates `progress`/`settings`/`profile`/`hearts` after a pull.
+- Each key caches the raw repository fact (`["progress", courseId]` = `LessonResult[]`,
+  `["hearts"]` = stored `HeartsState`, `["settings"]` = `Settings | null`); derived
+  values come from `select`/`useMemo` over the pure rules (ADR-005).
 - `networkMode: "always"` for Dexie-backed queries so they run offline.
 - No global Redux-like store. Do not mirror Query data into Zustand.
 - **Temporary deviation (PLT-003, CR-002):** until TanStack Query is installed, the
