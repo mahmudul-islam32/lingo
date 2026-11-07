@@ -4,7 +4,6 @@ import { checkAnswer } from "../checking";
 import {
   createPlayerState,
   createSession,
-  emptyAnswerFor,
   sessionReducer,
   sessionStats,
   type PlayerState,
@@ -230,7 +229,7 @@ describe("sessionReducer", () => {
       outcome: "skipped",
       mistake: false,
       heartCost: 0,
-      answer: { type: "listen", tiles: [] },
+      answer: null,
     });
     expect(sessionStats(s.session)).toMatchObject({
       exerciseCount: 4,
@@ -255,6 +254,18 @@ describe("sessionReducer", () => {
       progressMax: 0,
       perfect: false,
     });
+    expect(LessonSessionSchema.safeParse(s.session).success).toBe(true);
+  });
+
+  it("skipped multiple choice: recorded with no answer (CR-003)", () => {
+    let s = start(mcOnlyLesson);
+    s = sessionReducer(s, { type: "skip", reason: "invalid_content", now: clock() });
+    expect(s.session.attempts.at(-1)).toMatchObject({
+      exerciseType: "multiple_choice",
+      outcome: "skipped",
+      answer: null,
+    });
+    expect(LessonSessionSchema.safeParse(s.session).success).toBe(true);
   });
 
   it("unsupported type: left out silently and not counted", () => {
@@ -354,13 +365,5 @@ describe("sessionReducer", () => {
       s = sessionReducer(s, { type: "continue", now: clock() });
       expect(s.session.status).toBe("out_of_hearts");
     });
-  });
-});
-
-describe("emptyAnswerFor", () => {
-  it("returns an empty answer of the exercise's type", () => {
-    for (const exercise of fixtureLesson.exercises) {
-      expect(emptyAnswerFor(exercise).type).toBe(exercise.type);
-    }
   });
 });

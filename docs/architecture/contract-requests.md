@@ -29,7 +29,7 @@ features, follow-up PR
 ### CR-003: Skipped attempts and "perfect" when every exercise is skipped
 
 - **Requested by:** dev-lessons · **Date:** 2026-11-07 · **Ticket:** LES-002
-- **Status:** open
+- **Status:** done
 - **Contract(s):** `src/contracts/lesson-session.ts` → `ExerciseAttemptSchema.answer`,
   `LessonResultSchema` (`perfect` refinement); `src/contracts/answer.ts` →
   `MultipleChoiceAnswerSchema`
@@ -55,7 +55,33 @@ features, follow-up PR
   `buildLessonResult` sets `perfect: mistakeCount === 0` so the result stays schema-valid.
   The all-skipped edge case gets no perfect bonus.
 
-**CTO decision:** _(pending)_
+**CTO decision:** approved (2026-11-07), branch `chore/cr-003-skipped-attempts-perfect`.
+
+- **(1) Approved, narrowed: `ExerciseAttemptSchema.answer` is nullable.** `null` means
+  "skipped without an answer" (the player's `onSkip`, any type). The refinement is
+  `answer === null ⇒ outcome === "skipped"`, not "iff": a speak exercise skipped from
+  its own "Can't speak now" button still records its `SpeakAnswer` (`skipped: true`),
+  which `checkAnswer` turns into outcome `skipped`. A magic `optionId: "skipped"` was
+  rejected because it is a valid slug that content could one day use as a real option
+  id, and empty tile/match arrays pretend an answer was given. Also added:
+  `answer.type === exerciseType` when an answer is present.
+- **(2) Approved as proposed:** `LessonResultSchema` requires
+  `perfect === (mistakeCount === 0 && exerciseCount - skippedCount >= 1)`; "perfect bonus
+  requires perfect" stays. PD-012 is the product rule and GAM-002 `isPerfectLesson`
+  already implements it, so the contract was the odd one out. Supabase migration
+  `20261107130000_lesson_results_perfect_rule.sql` replaces
+  `lesson_results_perfect_check` with the same rule. ARCHITECTURE §"Rules" updated.
+- **Workarounds removed:** `emptyAnswerFor` is deleted from
+  `src/features/lessons/player` (skips record `answer: null`), and `buildLessonResult`
+  sets `perfect: summary.perfect`.
+- **Breaking?** No. `ExerciseAttempt` is in-memory only; the tighter result rule only
+  rejects all-skipped "perfect" results, which no released client can have produced.
+  `CONTRACTS_VERSION` stays 1.
+- **Affected features:** lessons (LES-002 reducer/summary, adjusted in this branch;
+  LES-008 results screen reads `perfect` from the result; any future code reading
+  `attempt.answer` must handle `null`), gamification (none: `isPerfectLesson` already
+  follows PD-012), platform (`src/lib/offline` / sync validate `LessonResult` with the
+  schema, no code change), supabase (new migration).
 
 ### CR-002: Guest profile functions and pre-onboarding settings
 
