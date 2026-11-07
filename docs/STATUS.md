@@ -1,35 +1,44 @@
 # Project status
 
-**Last run:** 2026-11-06 (manual test run requested by owner)
-**Current phase:** Phase 0 — Product ✅ done (pending owner review of branding)
-**Next step:** Phase 1 — `cto` agent does CTO-001 (scaffold repo + tooling) and
-CTO-002 (`docs/architecture/ARCHITECTURE.md` + contracts in `/src/contracts` with zod).
-CTO-003 (Supabase) and CTO-004 (UI primitives) follow in a later run.
-**Blockers:** none.
+**Last run:** 2026-11-07 01:06 Europe/Berlin (scheduled, "Lingo agents 1am")
+**Current phase:** Phase 1 — Architecture (KICKOFF), autonomous mode
+**Current milestone:** pre-`v0.1.0` (no ROADMAP.md yet; pm writes it after the scaffold lands)
 
-## Needs owner review
-_Answer inline (e.g. "✅ approved" or your alternative); the next run applies it._
+## Open pull requests / branches awaiting merge
+| Branch | Ticket | State |
+|---|---|---|
+| `docs/brand-001-adopt-polyglow` | BRAND-001 | Pushed. PR not opened: PR create/merge blocked this run (see Blockers). |
+| `chore/cto-001-scaffold` | CTO-001 | Pushed. typecheck/lint/test/build all pass locally. PR not opened (same reason). |
+| `docs/status-2026-11-07-0106` | status | This update. |
 
-1. **App name + mascot (KICKOFF Phase 0 gate).** Provisional choice: **Polyglow**
-   with mascot **Lumi** (a small paper lantern whose glow grows with your streak;
-   palette midnight indigo + amber/gold). Alternatives: Wordsprout, Tandu; backup
-   mascot Mo the hermit crab. See `docs/product/branding-proposals.md`.
-   ⚠️ Trademark / domain / handle availability **not checked** — owner must verify.
-   `CLAUDE.md` still has `[APP_NAME]`/`[MASCOT]` placeholders; they will be replaced
-   once you confirm. Reversible: until then, code uses a single config constant.
-   - Owner answer:
-2. **MVP scope.** en → es (neutral Latin American Spanish); 1 unit × 5 lessons;
-   exercise types MC, word-bank translate, match pairs, listen (+ optional speak);
-   leagues/leaderboards deferred to Phase 2. See `docs/product/PRD.md`.
-   - Owner answer:
-3. **Open questions Q6 (minimum age 13+ / consent copy) and Q7 (TTS provider
-   licence)** in `docs/product/PRD.md` need owner input. Q2–Q5 will be decided by
-   pm/cto with defaults listed in the PRD.
-   - Owner answer:
+## Next steps
+1. Open PRs for the three branches above and have the `cto` squash-merge them
+   (order: BRAND-001, CTO-001, status).
+2. `cto` does CTO-002 (`docs/architecture/ARCHITECTURE.md` + `/src/contracts` with zod).
+3. `pm` writes `docs/product/ROADMAP.md` (v0.1.0 MVP foundation…) and the first tickets.
+
+## Blockers
+- **PR create/merge blocked in scheduled runs.** The session's auto-mode permission
+  classifier denied the `cto` agent's GitHub PR create/merge step ("External System
+  Writes"). Branch pushes still work. Fix: owner allows the GitHub MCP PR tools
+  (`create_pull_request`, `merge_pull_request`, `delete_branch`) in this session's
+  permission settings, or merges the open branches manually.
+
+## Waiting on owner (non-blocking)
+- Trademark / domain / handle check for "Polyglow" (PD-001).
+- PRD Q6 minimum age / consent copy; Q7 TTS provider licence (see `docs/product/decisions.md`).
+- Owner email is hard-coded in CLAUDE.md/ORCHESTRATOR.md (public if the repo is public).
+
+## Decisions this run
+- Product (pm): PD-001 Polyglow / Lumi; PD-002 MVP scope; PD-003 XP/hearts/goal defaults
+  (on `docs/brand-001-adopt-polyglow`).
+- Technical (cto): ADR-001 scaffold — Next.js 16.4, React 19.3, TS 5.9 (strict), Tailwind 4.3,
+  ESLint 9, Vitest 5, Playwright 1.65; exact-pinned deps; CI on PRs (on `chore/cto-001-scaffold`).
 
 ## Run log
-- 2026-11-06 — Agent team files added; scheduled runs set for 19:39 and 00:00 Europe/Berlin.
-- 2026-11-06 (manual test run) — Phase 0. Agents: `pm`. Created
-  `docs/product/PRD.md`, `docs/product/user-stories.md` (51 stories),
-  `docs/product/branding-proposals.md`. Provisional branding Polyglow/Lumi logged for
-  owner review. Remote `main` did not exist; created from local checkout and pushed.
+- 2026-11-06 — Agent team files added; scheduled runs set.
+- 2026-11-06 (manual test run) — Phase 0. `pm` wrote PRD, user stories (51), branding proposals.
+- 2026-11-06 (owner) — CHORE-001 / CHORE-002 merged: PR-only flow, autonomous loop, owner identity.
+- 2026-11-07 01:06 — Agents: `pm` (BRAND-001: decision log, Polyglow/Lumi in PRD; orchestrator
+  updated CLAUDE.md), `cto` (CTO-001 scaffold, all checks green). Both branches pushed; PRs
+  not opened because the PR create/merge step was denied by the permission classifier.
