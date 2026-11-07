@@ -7,8 +7,8 @@ hearts, skill path, leagues). Inspired by apps like Duolingo in **mechanics only
 - Do NOT use the name "Duolingo", the owl mascot, its colors-as-brand, illustrations,
   sounds, fonts, or any of its course content.
 - Our app has its own name, mascot, visual identity and original course content.
-- Working name: **[APP_NAME]** (replace once decided). Mascot: **[MASCOT]** — an
-  original character we design ourselves.
+- App name: **Polyglow** (decided, see `docs/product/decisions.md` PD-001). Mascot: **Lumi** — an
+  original paper-lantern character we design ourselves.
 
 ## Team & ownership
 | Agent | Owns | Never touches |
