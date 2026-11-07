@@ -10,7 +10,18 @@
 - #5 CHORE-003 — long runs (up to 3 h, whole features, handoff/resume) in `ORCHESTRATOR.md`.
 
 ## Handoff
-_(none — nothing unfinished)_
+_Written 2026-11-07 20:05 Berlin (run "Lingo agents 8pm"). The 11:07 test run hit the 5-hour usage limit at ~11:55; this run resumed it._
+
+| Branch | Ticket | State | Next step |
+|---|---|---|---|
+| `feature/gam-001-lumi-mascot-r` | GAM-001 | done, rebased on main | cto review → PR → merge |
+| `feature/plt-001-app-shell` | PLT-001 | done, checks green | cto review → PR → merge (after GAM-001) |
+| `feature/les-002-lesson-player` | LES-002, LES-003 | wip (checkpoint 50d36a9) | dev-lessons finishes, then cto review |
+| `feature/les-004-multiple-choice-match-pairs` | LES-004, LES-006 | wip (checkpoint 09f5551) | dev-lessons finishes tests, then cto review |
+| `feature/les-005-word-bank-listen` | LES-005, LES-007 | wip (checkpoint e7d37b8) | dev-lessons finishes tests, then cto review |
+| `feature/plt-002-pwa-offline` | PLT-002, PLT-006 | wip, local worktree only | dev-platform finishes, rebase on PLT-001 |
+| `feature/plt-004-onboarding` | PLT-004 | wip, local worktree only | dev-platform finishes, rebase on PLT-001 |
+| `chore/cto-005-coverage-tooling` | CTO-005 | not started | cto: coverage + e2e in CI |
 
 ## Next steps (next run, as one long run)
 1. `cto`: finish Phase 1 in one go — CTO-002 (`docs/architecture/ARCHITECTURE.md` + all
