@@ -1,7 +1,8 @@
 # Polyglow architecture
 
 - **Owner:** cto · **Status:** v1 (CTO-002) · **Last updated:** 2026-11-07
-- Decisions: [ADR-001 scaffold](adr/ADR-001-scaffold.md), [ADR-002 contracts](adr/ADR-002-contracts.md)
+- Decisions: [ADR-001 scaffold](adr/ADR-001-scaffold.md), [ADR-002 contracts](adr/ADR-002-contracts.md),
+  [ADR-003 Supabase](adr/ADR-003-supabase.md)
 - Contract changes: [contract-requests.md](contract-requests.md)
 
 Every agent reads this file before starting a ticket. If code and this document
@@ -151,7 +152,8 @@ lesson results, after which every aggregate is recomputed.
   (`SYNC_CONFIG`). 4xx validation/RLS error → `status: "rejected"` (kept, never
   retried, surfaced in dev tools/logs).
 - After a push, pull remote facts changed since `meta.lastPullAt` (results by
-  `created_at`, others by `updated_at`) and merge with the rules below.
+  `created_at`, others by the server-set `server_updated_at`; the cursor is a server
+  timestamp, see ADR-003) and merge with the rules below.
 - The offline indicator (US-PLT-16) reads `SyncEngine.status()` + `navigator.onLine`.
 
 ### 4.4 Conflict rules
@@ -194,7 +196,7 @@ devices within seconds, which is acceptable for MVP.
   A signed-in session keeps working offline; tokens refresh on reconnect.
 - **Guest → account migration (US-PLT-05).** After sign-up or log-in on a device with
   guest data, `migrateGuestToAccount(GuestMigrationPayload)` calls a Supabase RPC
-  (`migrate_guest_progress`, CTO-003) in one transaction:
+  (`migrate_guest_to_account`, ADR-003) in one transaction:
   - lesson results: inserted with `ON CONFLICT DO NOTHING` (union);
   - new account (no remote rows): guest profile, settings and hearts become the
     account's, `joinedAt` kept from the guest;
@@ -204,7 +206,7 @@ devices within seconds, which is acceptable for MVP.
 - **Log out** clears the Dexie database after a final sync attempt (warns if unsynced
   records remain), then starts a fresh guest.
 - RLS: every user table is `user_id = auth.uid()`; content is not stored in Postgres in
-  MVP (CTO-003).
+  MVP. Tables, policies and the RPC: ADR-003, `/supabase`.
 
 ## 7. Gamification rules (PD-003): what, where, how
 
