@@ -1,5 +1,6 @@
 import { expect, test, type Page } from "@playwright/test";
 import { expectNoSeriousA11yViolations } from "./axe";
+import { completeOnboarding } from "./onboarding-helpers";
 
 const nav = (page: Page) => page.getByRole("navigation", { name: "Main" });
 const tab = (page: Page, name: "Learn" | "Profile") => nav(page).getByRole("link", { name });
@@ -12,6 +13,9 @@ async function expectNoHorizontalScroll(page: Page) {
 }
 
 test.describe("app shell navigation", () => {
+  // The tabs need a finished onboarding (PLT-004); otherwise they redirect to /onboarding.
+  test.beforeEach(async ({ page }) => completeOnboarding(page));
+
   // Criterion 17: open /, switch to Profile and back to Learn with the bottom navigation.
   test("switches between Learn and Profile with the bottom nav", async ({ page }) => {
     await page.goto("/");
@@ -75,13 +79,6 @@ test.describe("app shell navigation", () => {
     });
   }
 
-  test("onboarding placeholder has no bottom nav", async ({ page }) => {
-    await page.goto("/onboarding");
-    await expect(page.getByRole("heading", { level: 1 })).toHaveCount(1);
-    await expect(page.getByRole("main")).toHaveCount(1);
-    await expect(nav(page)).toHaveCount(0);
-  });
-
   test("unknown path shows the 404 page without the bottom nav", async ({ page }) => {
     const response = await page.goto("/this-page-does-not-exist");
     expect(response?.status()).toBe(404);
@@ -95,10 +92,21 @@ test.describe("app shell navigation", () => {
   });
 });
 
+test.describe("app shell for a new visitor", () => {
+  test("onboarding has no bottom nav", async ({ page }) => {
+    await page.goto("/onboarding");
+    await expect(page.getByRole("heading", { level: 1 })).toHaveCount(1);
+    await expect(page.getByRole("main")).toHaveCount(1);
+    await expect(nav(page)).toHaveCount(0);
+  });
+});
+
 test.describe("app shell at 375 × 667", () => {
   test.use({ viewport: { width: 375, height: 667 } });
+  // /onboarding at 375 px is covered by onboarding.spec.ts.
+  test.beforeEach(async ({ page }) => completeOnboarding(page));
 
-  for (const path of ["/", "/profile", "/onboarding", "/this-page-does-not-exist"]) {
+  for (const path of ["/", "/profile", "/this-page-does-not-exist"]) {
     test(`${path}: no horizontal scrolling`, async ({ page }) => {
       await page.goto(path);
       await expectNoHorizontalScroll(page);
@@ -124,6 +132,7 @@ test.describe("app shell at 375 × 667", () => {
 });
 
 test.describe("accessibility (axe)", () => {
+  test.beforeEach(async ({ page }) => completeOnboarding(page));
   for (const path of ["/", "/profile", "/this-page-does-not-exist"]) {
     test(`${path} has no serious or critical axe violations`, async ({ page }) => {
       await page.goto(path);
