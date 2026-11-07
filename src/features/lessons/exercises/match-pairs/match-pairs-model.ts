@@ -71,9 +71,15 @@ export function select(
 
   if (otherSelected === null) {
     if (state.selected[side] === pairId) {
-      return { state: { ...state, selected: { ...state.selected, [side]: null } }, event: "deselected" };
+      return {
+        state: { ...state, selected: { ...state.selected, [side]: null } },
+        event: "deselected",
+      };
     }
-    return { state: { ...state, selected: { ...state.selected, [side]: pairId } }, event: "selected" };
+    return {
+      state: { ...state, selected: { ...state.selected, [side]: pairId } },
+      event: "selected",
+    };
   }
 
   const pair =

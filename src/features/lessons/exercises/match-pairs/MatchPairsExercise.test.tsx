@@ -38,7 +38,7 @@ function setup(overrides: Partial<MatchPairsExerciseProps> = {}) {
     ...overrides,
   };
   const utils = render(<MatchPairsExercise {...props} />);
-  const user = userEvent.setup({ delay: null });
+  const user = userEvent.setup({ advanceTimers: (ms) => vi.advanceTimersByTime(ms) });
   return { ...utils, props, user };
 }
 
@@ -60,11 +60,19 @@ function status() {
   return screen.getByRole("status");
 }
 
+/**
+ * RTL only recognises Jest fake timers: without this shim its async wrapper waits on a
+ * faked `setTimeout(0)` forever. Exposing `jest.advanceTimersByTime` lets it advance them.
+ */
+const globalWithJest = globalThis as typeof globalThis & { jest?: unknown };
+
 beforeEach(() => {
   vi.useFakeTimers({ toFake: ["setTimeout", "clearTimeout"] });
+  globalWithJest.jest = { advanceTimersByTime: (ms: number) => vi.advanceTimersByTime(ms) };
 });
 
 afterEach(() => {
+  delete globalWithJest.jest;
   vi.useRealTimers();
 });
 
@@ -101,9 +109,7 @@ describe("MatchPairsExercise", () => {
 
     it("keeps all pairs with a real random source", () => {
       setup({ random: Math.random });
-      expect([...columnTexts("Spanish words")].sort()).toEqual(
-        pairs.map((p) => p.learning).sort(),
-      );
+      expect([...columnTexts("Spanish words")].sort()).toEqual(pairs.map((p) => p.learning).sort());
       expect([...columnTexts("English words")].sort()).toEqual(pairs.map((p) => p.known).sort());
     });
 
@@ -121,7 +127,10 @@ describe("MatchPairsExercise", () => {
       setup({
         exercise: {
           ...exercise,
-          pairs: [...pairs.slice(0, 4), { id: "long", learning: "desafortunadamen", known: "unfortunately" }],
+          pairs: [
+            ...pairs.slice(0, 4),
+            { id: "long", learning: "desafortunadamen", known: "unfortunately" },
+          ],
         },
       });
       expect(column("Spanish words").parentElement).toHaveClass("grid-cols-2");

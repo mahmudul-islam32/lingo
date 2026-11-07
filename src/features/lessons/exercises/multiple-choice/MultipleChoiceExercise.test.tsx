@@ -137,10 +137,7 @@ describe("MultipleChoiceExercise", () => {
 
       await user.click(screen.getByRole("radio", { name: "pan" }));
       expect(screen.getByRole("radio", { name: "pan" })).toHaveAttribute("aria-checked", "true");
-      expect(screen.getByRole("radio", { name: "leche" })).toHaveAttribute(
-        "aria-checked",
-        "false",
-      );
+      expect(screen.getByRole("radio", { name: "leche" })).toHaveAttribute("aria-checked", "false");
       expect(radios().filter((r) => r.getAttribute("aria-checked") === "true")).toHaveLength(1);
       expect(props.onAnswerChange).toHaveBeenLastCalledWith({
         type: "multiple_choice",
@@ -243,7 +240,11 @@ describe("MultipleChoiceExercise", () => {
       setup();
       const agua = screen.getByRole("radio", { name: "agua" });
       agua.focus();
-      const arrow = new KeyboardEvent("keydown", { key: "ArrowDown", bubbles: true, cancelable: true });
+      const arrow = new KeyboardEvent("keydown", {
+        key: "ArrowDown",
+        bubbles: true,
+        cancelable: true,
+      });
       agua.dispatchEvent(arrow);
       expect(arrow.defaultPrevented).toBe(true);
       const digit = new KeyboardEvent("keydown", { key: "2", bubbles: true, cancelable: true });
