@@ -14,19 +14,41 @@ import {
 import { AnswerInputSchema, AnswerOutcomeSchema } from "./answer";
 import { ExerciseTypeSchema } from "./course";
 
-/** One submitted answer ("Check" press) within a session. */
-export const ExerciseAttemptSchema = z.object({
-  exerciseId: SlugSchema,
-  exerciseType: ExerciseTypeSchema,
-  answer: AnswerInputSchema,
-  outcome: AnswerOutcomeSchema,
-  /** Copied from `AnswerCheckResult.mistake` (PD-012). */
-  mistake: z.boolean(),
-  heartCost: NonNegativeIntSchema,
-  /** True when this exercise was re-queued after an earlier wrong answer. */
-  isRetry: z.boolean(),
-  answeredAt: IsoDateTimeSchema,
-});
+/**
+ * One submitted answer ("Check" press) within a session, or one skipped exercise.
+ * `answer` is `null` when the exercise was skipped without an answer (the player's
+ * "skipped" callback, e.g. listen with no audio, CR-003). A speak exercise skipped from
+ * its own "Can't speak now" button keeps its speak answer (`skipped: true`).
+ */
+export const ExerciseAttemptSchema = z
+  .object({
+    exerciseId: SlugSchema,
+    exerciseType: ExerciseTypeSchema,
+    answer: AnswerInputSchema.nullable(),
+    outcome: AnswerOutcomeSchema,
+    /** Copied from `AnswerCheckResult.mistake` (PD-012). */
+    mistake: z.boolean(),
+    heartCost: NonNegativeIntSchema,
+    /** True when this exercise was re-queued after an earlier wrong answer. */
+    isRetry: z.boolean(),
+    answeredAt: IsoDateTimeSchema,
+  })
+  .superRefine((v, ctx) => {
+    if (v.answer === null && v.outcome !== "skipped") {
+      ctx.addIssue({
+        code: "custom",
+        message: "answer may only be null for a skipped attempt",
+        path: ["answer"],
+      });
+    }
+    if (v.answer !== null && v.answer.type !== v.exerciseType) {
+      ctx.addIssue({
+        code: "custom",
+        message: "answer type must match exerciseType",
+        path: ["answer"],
+      });
+    }
+  });
 export type ExerciseAttempt = z.infer<typeof ExerciseAttemptSchema>;
 
 export const LessonSessionStatusSchema = z.enum([
@@ -89,7 +111,10 @@ export const LessonResultSchema = z
     skippedCount: NonNegativeIntSchema,
     /** firstTryCorrectCount / (exerciseCount - skippedCount), 1 when the denominator is 0. */
     accuracy: z.number().min(0).max(1),
-    /** No mistakes at all (`mistakeCount === 0`). */
+    /**
+     * PD-012 perfect lesson: no mistakes and at least 1 counted exercise
+     * (`mistakeCount === 0 && exerciseCount - skippedCount >= 1`, CR-003).
+     */
     perfect: z.boolean(),
     xp: XpBreakdownSchema,
     /** xp.base + xp.perfectBonus. */
@@ -115,10 +140,10 @@ export const LessonResultSchema = z
         path: ["firstTryCorrectCount"],
       });
     }
-    if (v.perfect !== (v.mistakeCount === 0)) {
+    if (v.perfect !== (v.mistakeCount === 0 && v.exerciseCount - v.skippedCount >= 1)) {
       ctx.addIssue({
         code: "custom",
-        message: "perfect must equal mistakeCount === 0",
+        message: "perfect must equal mistakeCount === 0 with at least 1 counted exercise",
         path: ["perfect"],
       });
     }

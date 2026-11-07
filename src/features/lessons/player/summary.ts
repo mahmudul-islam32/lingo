@@ -79,9 +79,8 @@ export interface BuildLessonResultInput {
  * parsed with `LessonResultSchema`, so an inconsistent input throws instead of being
  * saved.
  *
- * `perfect` follows the contract refinement (`mistakeCount === 0`). In the edge case
- * where every exercise was skipped, PD-012 says "not perfect" (see `summary.perfect`,
- * which decides the bonus XP) while the schema requires `perfect: true`; raised in CR-003.
+ * `perfect` is `summary.perfect` (PD-012: no mistakes and at least 1 counted exercise),
+ * the same rule as the `LessonResultSchema` refinement (CR-003).
  */
 export function buildLessonResult(
   summary: LessonSessionSummary,
@@ -102,7 +101,7 @@ export function buildLessonResult(
     mistakeCount: summary.mistakeCount,
     skippedCount: summary.skippedCount,
     accuracy: lessonAccuracy(summary),
-    perfect: summary.mistakeCount === 0,
+    perfect: summary.perfect,
     xp: input.xp,
     xpEarned: input.xp.base + input.xp.perfectBonus,
     heartsLost: Math.max(0, session.heartsAtStart - session.heartsRemaining),
