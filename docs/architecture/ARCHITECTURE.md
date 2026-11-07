@@ -317,6 +317,12 @@ CONTENT_RULES.slowPlaybackRate` (0.7) with `preservesPitch`.
 | Flows                 | Playwright (Pixel 7 + desktop) | guest first lesson, wrong answer re-queue, out of hearts, offline lesson + sync, sign-up migration |
 | Accessibility         | `@axe-core/playwright`         | no serious/critical violations on each screen (added with the first UI ticket)                     |
 
+`npm run test:coverage` (Vitest + `@vitest/coverage-v8`) writes a text summary plus HTML and
+lcov reports to `/coverage`; thresholds are not enforced yet. CI runs two jobs on every PR:
+"Typecheck, lint, test, build" (the required check) and "E2E (Playwright, Chromium)", which
+builds the app, installs Chromium with `npx playwright install --with-deps chromium` and runs
+`npm run test:e2e` against `next start`.
+
 Supabase is never called in unit tests; repositories take a client that tests replace
 with a fake. Time is injected (`now`) instead of using fake timers where possible.
 
