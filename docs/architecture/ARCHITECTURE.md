@@ -2,7 +2,7 @@
 
 - **Owner:** cto · **Status:** v1 (CTO-002) · **Last updated:** 2026-11-07
 - Decisions: [ADR-001 scaffold](adr/ADR-001-scaffold.md), [ADR-002 contracts](adr/ADR-002-contracts.md),
-  [ADR-003 Supabase](adr/ADR-003-supabase.md)
+  [ADR-003 Supabase](adr/ADR-003-supabase.md), [ADR-004 design tokens and UI primitives](adr/ADR-004-design-tokens-ui-primitives.md)
 - Contract changes: [contract-requests.md](contract-requests.md)
 
 Every agent reads this file before starting a ticket. If code and this document
@@ -49,23 +49,23 @@ Key properties:
 
 ## 2. Module boundaries
 
-| Folder                         | Owner                                | Contains                                                                          |
-| ------------------------------ | ------------------------------------ | --------------------------------------------------------------------------------- |
-| `src/contracts`                | cto                                  | zod schemas, inferred types, config constants, text normalisation, API signatures |
-| `src/app`                      | dev-platform                         | routes, layouts, providers (Query client, stores), PWA shell, manifest            |
-| `src/features/lessons`         | dev-lessons                          | lesson player, exercise components, session store, `checking/` (CheckAnswer)      |
-| `src/features/gamification`    | dev-gamification                     | `rules/` (xp, streak, hearts, daily goal, progress), results/hearts/streak UI     |
-| `src/features/path`            | dev-gamification                     | skill path UI, `rules/` (ComputePathNodes)                                        |
-| `src/features/auth`            | dev-platform                         | sign up / in / out, Google, reset, guest → account migration                      |
-| `src/features/profile`         | dev-platform                         | profile and settings screens                                                      |
-| `src/lib/offline`              | dev-platform                         | Dexie database, repositories (ProgressRepository, ProfileRepository)              |
-| `src/lib/sync`                 | dev-platform                         | SyncEngine: queue drain, backoff, pull                                            |
-| `src/lib/content` _(proposed)_ | dev-platform                         | ContentRepository: loads bundled course/lesson JSON                               |
-| `src/lib/supabase`             | cto (schema) / dev-platform (client) | Supabase browser client, generated DB types                                       |
-| `src/components/ui`            | shared                               | Button, Card, ProgressBar, Modal, Toast (CTO-004)                                 |
-| `content/**`                   | pm                                   | course JSON                                                                       |
-| `public/audio/**` _(proposed)_ | pm                                   | pre-generated TTS audio                                                           |
-| `supabase/**`                  | cto                                  | migrations, RLS, seed                                                             |
+| Folder                         | Owner                                | Contains                                                                                                                                                                        |
+| ------------------------------ | ------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `src/contracts`                | cto                                  | zod schemas, inferred types, config constants, text normalisation, API signatures                                                                                               |
+| `src/app`                      | dev-platform                         | routes, layouts, providers (Query client, stores), PWA shell, manifest                                                                                                          |
+| `src/features/lessons`         | dev-lessons                          | lesson player, exercise components, session store, `checking/` (CheckAnswer)                                                                                                    |
+| `src/features/gamification`    | dev-gamification                     | `rules/` (xp, streak, hearts, daily goal, progress), results/hearts/streak UI                                                                                                   |
+| `src/features/path`            | dev-gamification                     | skill path UI, `rules/` (ComputePathNodes)                                                                                                                                      |
+| `src/features/auth`            | dev-platform                         | sign up / in / out, Google, reset, guest → account migration                                                                                                                    |
+| `src/features/profile`         | dev-platform                         | profile and settings screens                                                                                                                                                    |
+| `src/lib/offline`              | dev-platform                         | Dexie database, repositories (ProgressRepository, ProfileRepository)                                                                                                            |
+| `src/lib/sync`                 | dev-platform                         | SyncEngine: queue drain, backoff, pull                                                                                                                                          |
+| `src/lib/content` _(proposed)_ | dev-platform                         | ContentRepository: loads bundled course/lesson JSON                                                                                                                             |
+| `src/lib/supabase`             | cto (schema) / dev-platform (client) | Supabase browser client, generated DB types                                                                                                                                     |
+| `src/components/ui`            | shared                               | design tokens + primitives (CTO-004, ADR-004): Button, IconButton, Card, ProgressBar, Dialog/Modal, Toast, HeartIcon, XpBadge, Skeleton, Spinner, VisuallyHidden, icons, `cn()` |
+| `content/**`                   | pm                                   | course JSON                                                                                                                                                                     |
+| `public/audio/**` _(proposed)_ | pm                                   | pre-generated TTS audio                                                                                                                                                         |
+| `supabase/**`                  | cto                                  | migrations, RLS, seed                                                                                                                                                           |
 
 _(proposed)_ = not yet in the `CLAUDE.md` ownership table; the orchestrator should add it.
 
