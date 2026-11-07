@@ -1,5 +1,6 @@
 import { expect, test, type Page } from "@playwright/test";
 import { expectNoSeriousA11yViolations } from "./axe";
+import { completeOnboarding } from "./onboarding-helpers";
 
 /**
  * PLT-002 (installable PWA) and the "opened offline" case of PLT-006. Runs in the
@@ -75,7 +76,7 @@ test.describe("installable PWA (production build)", () => {
 
   test("registers a service worker without console errors", async ({ page }) => {
     const errors = collectConsoleErrors(page);
-    await page.goto("/");
+    await completeOnboarding(page);
     await waitForServiceWorker(page);
     const scriptURL = await page.evaluate(
       () => navigator.serviceWorker.controller?.scriptURL ?? "",
@@ -90,8 +91,7 @@ test.describe("installable PWA (production build)", () => {
 
   // Criterion 10: one online visit, then the shell loads from the cache while offline.
   test("reloading / while offline renders the Learn page", async ({ page, context }) => {
-    await page.goto("/");
-    await expect(learnHeading(page)).toBeVisible();
+    await completeOnboarding(page);
     await waitForServiceWorker(page);
 
     await context.setOffline(true);
@@ -103,17 +103,27 @@ test.describe("installable PWA (production build)", () => {
     await expect(page.getByRole("status").filter({ hasText: "You're offline." })).toBeVisible();
   });
 
-  test("precached shell routes open offline", async ({ page, context }) => {
-    await page.goto("/");
+  test("precached shell routes open offline for a new visitor", async ({ page, context }) => {
+    // A new visitor is redirected to onboarding (PLT-004), which must work offline too.
+    await page.goto("/onboarding");
     await waitForServiceWorker(page);
     await context.setOffline(true);
-    for (const [path, name] of [
-      ["/profile", "Profile"],
-      ["/onboarding", "Get started"],
-    ] as const) {
-      await page.goto(path);
-      await expect(page.getByRole("heading", { level: 1, name })).toBeVisible();
-    }
+    await page.goto("/");
+    await expect(page).toHaveURL(/\/onboarding$/);
+    await expect(
+      page.getByRole("heading", { level: 1, name: "Learn Spanish in five minutes a day" }),
+    ).toBeVisible();
+  });
+
+  test("precached shell routes open offline for a returning learner", async ({ page, context }) => {
+    await completeOnboarding(page);
+    await waitForServiceWorker(page);
+    await context.setOffline(true);
+    await page.goto("/profile");
+    await expect(page.getByRole("heading", { level: 1, name: "Profile" })).toBeVisible();
+    // Onboarding is done, so /onboarding loads from the cache and redirects to Learn.
+    await page.goto("/onboarding");
+    await expect(learnHeading(page)).toBeVisible();
   });
 
   // Criteria 7 and 11: uncached route offline -> fallback page, accessible, "Try again".

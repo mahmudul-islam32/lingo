@@ -1,5 +1,6 @@
 import { expect, test, type Page } from "@playwright/test";
 import { expectNoSeriousA11yViolations } from "./axe";
+import { completeOnboarding } from "./onboarding-helpers";
 
 /** PLT-006. The "opened while offline" case needs the service worker: see pwa.spec.ts. */
 
@@ -12,8 +13,7 @@ const backOnlineBanner = (page: Page) =>
 
 test.describe("offline banner", () => {
   test("shows when the connection drops, then 'Back online' for 3 s", async ({ page, context }) => {
-    await page.goto("/");
-    await expect(page.getByRole("heading", { level: 1, name: "Learn" })).toBeVisible();
+    await completeOnboarding(page);
     await expect(offlineBanner(page)).toHaveCount(0);
 
     await context.setOffline(true);
@@ -38,8 +38,7 @@ test.describe("offline banner", () => {
 
   test("animates only without reduced motion", async ({ page, context }) => {
     await page.emulateMedia({ reducedMotion: "reduce" });
-    await page.goto("/");
-    await expect(page.getByRole("heading", { level: 1, name: "Learn" })).toBeVisible();
+    await completeOnboarding(page);
     await context.setOffline(true);
     await expect(offlineBanner(page)).toBeVisible({ timeout: 2_000 });
     const animation = await page
@@ -55,8 +54,7 @@ test.describe("offline banner at 375 px", () => {
   test.use({ viewport: { width: 375, height: 667 } });
 
   test("takes at most 2 lines and never covers the nav or content", async ({ page, context }) => {
-    await page.goto("/");
-    await expect(page.getByRole("heading", { level: 1, name: "Learn" })).toBeVisible();
+    await completeOnboarding(page);
     await context.setOffline(true);
     await expect(offlineBanner(page)).toBeVisible({ timeout: 2_000 });
 
