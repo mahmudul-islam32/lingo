@@ -1,0 +1,18 @@
+node_modules
+.next
+out
+build
+coverage
+playwright-report
+test-results
+package-lock.json
+next-env.d.ts
+
+# Docs owned by other agents; formatted by their owners, not by tooling.
+.claude
+CLAUDE.md
+ORCHESTRATOR.md
+KICKOFF.md
+docs/STATUS.md
+docs/OWNER-NOTES.md
+docs/product
