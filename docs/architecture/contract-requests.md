@@ -26,6 +26,37 @@ features, follow-up PR
 
 ## Requests
 
+### CR-003: Skipped attempts and "perfect" when every exercise is skipped
+
+- **Requested by:** dev-lessons · **Date:** 2026-11-07 · **Ticket:** LES-002
+- **Status:** open
+- **Contract(s):** `src/contracts/lesson-session.ts` → `ExerciseAttemptSchema.answer`,
+  `LessonResultSchema` (`perfect` refinement); `src/contracts/answer.ts` →
+  `MultipleChoiceAnswerSchema`
+- **Problem:**
+  1. A skipped attempt must carry an `answer` of the exercise's type. That works for tile,
+     match-pairs and speak answers (empty arrays), but `MultipleChoiceAnswerSchema.optionId`
+     is a required slug, so a skipped multiple-choice exercise (`onSkip("invalid_content")`)
+     has no honest "no option" value.
+  2. PD-012 says a perfect lesson needs "0 mistakes **and at least 1 counted exercise**",
+     but `LessonResultSchema` requires `perfect === (mistakeCount === 0)`. If every
+     exercise was skipped (for example all listen exercises with no audio), the
+     result has to say `perfect: true` even though PD-012 says it isn't.
+- **Proposed change:**
+  1. Make `ExerciseAttemptSchema.answer` nullable, required to be `null` iff
+     `outcome === "skipped"` (e.g. `{ outcome: "skipped", answer: null }`).
+  2. Change the refinement to `perfect === (mistakeCount === 0 && exerciseCount - skippedCount >= 1)`
+     (and keep "perfect bonus requires perfect").
+- **Breaking?:** (1) no, `ExerciseAttempt` is in-memory only. (2) It's a tighter rule on a
+  synced payload, but only for the all-skipped case, which can't have been produced yet.
+- **Workaround in place:** (1) the reducer records `{ type: "multiple_choice", optionId:
+"skipped" }` for a skipped multiple-choice exercise (`emptyAnswerFor`). (2)
+  `LessonSessionSummary.perfect` follows PD-012 and drives the XP bonus, while
+  `buildLessonResult` sets `perfect: mistakeCount === 0` so the result stays schema-valid.
+  The all-skipped edge case gets no perfect bonus.
+
+**CTO decision:** _(pending)_
+
 ### CR-002: Guest profile functions and pre-onboarding settings
 
 - **Requested by:** dev-platform · **Date:** 2026-11-07 · **Ticket:** PLT-003
