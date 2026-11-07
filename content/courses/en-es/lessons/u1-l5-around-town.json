@@ -1,0 +1,118 @@
+{
+  "id": "u1-l5-around-town",
+  "courseId": "en-es",
+  "unitId": "unit-1",
+  "title": "Around Town",
+  "tip": "Use el or la for 'the': el parque, la escuela. Ask ¿Dónde está...? to find a place.",
+  "exercises": [
+    {
+      "id": "u1-l5-ex01",
+      "type": "multiple_choice",
+      "prompt": "Which one means 'the school'?",
+      "options": [
+        { "id": "a", "text": "El parque" },
+        { "id": "b", "text": "La escuela" },
+        { "id": "c", "text": "El banco" }
+      ],
+      "correctOptionId": "b"
+    },
+    {
+      "id": "u1-l5-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which one means 'aquí'?",
+      "options": [
+        { "id": "a", "text": "Where" },
+        { "id": "b", "text": "Thank you" },
+        { "id": "c", "text": "Here" }
+      ],
+      "correctOptionId": "c"
+    },
+    {
+      "id": "u1-l5-ex03",
+      "type": "match_pairs",
+      "pairs": [
+        { "id": "p1", "learning": "el parque", "known": "the park" },
+        { "id": "p2", "learning": "el banco", "known": "the bank" },
+        { "id": "p3", "learning": "la escuela", "known": "the school" },
+        { "id": "p4", "learning": "el hospital", "known": "the hospital" },
+        { "id": "p5", "learning": "la estación", "known": "the station" }
+      ]
+    },
+    {
+      "id": "u1-l5-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Where is the bank?",
+      "tiles": ["dónde", "está", "el", "banco", "la", "parque", "aquí"],
+      "answers": ["¿Dónde está el banco?"]
+    },
+    {
+      "id": "u1-l5-ex05",
+      "type": "listen",
+      "audio": { "src": "/audio/es/donde-esta-la-estacion.mp3" },
+      "tiles": ["dónde", "está", "la", "estación", "el", "escuela", "estás"],
+      "answers": ["¿Dónde está la estación?"]
+    },
+    {
+      "id": "u1-l5-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "El hospital está aquí.",
+      "tiles": ["the", "hospital", "is", "here", "where", "park", "bank"],
+      "answers": ["The hospital is here.", "Here is the hospital."]
+    },
+    {
+      "id": "u1-l5-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which one means 'the station'?",
+      "options": [
+        { "id": "a", "text": "La estación" },
+        { "id": "b", "text": "La escuela" },
+        { "id": "c", "text": "El hospital" },
+        { "id": "d", "text": "El banco" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "u1-l5-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "The school is here.",
+      "tiles": ["la", "escuela", "está", "aquí", "el", "estás", "parque"],
+      "answers": ["La escuela está aquí.", "Aquí está la escuela."]
+    },
+    {
+      "id": "u1-l5-ex09",
+      "type": "listen",
+      "audio": { "src": "/audio/es/hola-donde-esta-el-parque.mp3" },
+      "tiles": ["hola", "dónde", "está", "el", "parque", "la", "banco", "estás"],
+      "answers": ["Hola, ¿dónde está el parque?"]
+    },
+    {
+      "id": "u1-l5-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "¿Dónde está la escuela?",
+      "tiles": ["where", "where's", "is", "the", "school", "here", "park"],
+      "answers": ["Where is the school?", "Where's the school?"]
+    },
+    {
+      "id": "u1-l5-ex11",
+      "type": "multiple_choice",
+      "prompt": "Which one means 'dónde está'?",
+      "options": [
+        { "id": "a", "text": "How are you?" },
+        { "id": "b", "text": "Where is it?" },
+        { "id": "c", "text": "Where are you from?" }
+      ],
+      "correctOptionId": "b"
+    },
+    {
+      "id": "u1-l5-ex12",
+      "type": "listen",
+      "audio": { "src": "/audio/es/el-banco-esta-aqui-gracias.mp3" },
+      "tiles": ["el", "banco", "está", "aquí", "gracias", "la", "parque", "estás"],
+      "answers": ["El banco está aquí, gracias."]
+    }
+  ]
+}
