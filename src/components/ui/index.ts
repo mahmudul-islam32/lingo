@@ -32,3 +32,5 @@ export { Skeleton, type SkeletonProps, type SkeletonShape } from "./Skeleton";
 export { Spinner, type SpinnerProps, type SpinnerSize } from "./Spinner";
 export { VisuallyHidden, type VisuallyHiddenProps } from "./VisuallyHidden";
 export { BoltIcon, CheckIcon, CloseIcon, CrossIcon, type IconProps } from "./icons";
+export { Lumi, LUMI_SIZE_PX, type LumiProps, type LumiSize } from "./Lumi";
+export { LUMI_POSES, type LumiPose } from "./lumi-poses";

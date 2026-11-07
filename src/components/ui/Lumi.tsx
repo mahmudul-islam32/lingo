@@ -1,4 +1,4 @@
-import { cn } from "@/components/ui";
+import { cn } from "./cn";
 import { LumiArtwork, type LumiPose } from "./lumi-poses";
 
 export type LumiSize = "sm" | "md" | "lg";

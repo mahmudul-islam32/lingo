@@ -3,7 +3,7 @@ import { join } from "node:path";
 import { render, screen } from "@testing-library/react";
 import { renderToStaticMarkup } from "react-dom/server";
 import { describe, expect, it } from "vitest";
-import { Lumi, LUMI_POSES, LUMI_SIZE_PX, type LumiSize } from "@/features/gamification";
+import { Lumi, LUMI_POSES, LUMI_SIZE_PX, type LumiSize } from "@/components/ui";
 
 const SIZES = Object.keys(LUMI_SIZE_PX) as LumiSize[];
 const CASES = LUMI_POSES.flatMap((pose) => SIZES.map((size) => [pose, size] as const));
@@ -80,10 +80,7 @@ describe("<Lumi /> tokens, motion and size budget (AC5, AC7, AC8)", () => {
 });
 
 describe("Lumi outline contrast (AC6)", () => {
-  const css = readFileSync(
-    join(__dirname, "..", "..", "..", "..", "components", "ui", "tokens.css"),
-    "utf8",
-  );
+  const css = readFileSync(join(__dirname, "..", "tokens.css"), "utf8");
   const pick = (scope: string, name: string): string => {
     const body = css.slice(css.indexOf(scope));
     const m = body.match(new RegExp(`--color-${name}:\\s*(#[0-9a-f]{6})`));

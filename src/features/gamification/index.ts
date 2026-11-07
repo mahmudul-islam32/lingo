@@ -3,4 +3,3 @@
  * `@/features/gamification` (ARCHITECTURE §2).
  */
 export * from "./rules";
-export * from "./mascot";
