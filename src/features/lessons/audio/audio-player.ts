@@ -52,8 +52,7 @@ export function createAudioPlayer(
   createElement: () => HTMLAudioElement = () => new Audio(),
 ): AudioPlayer {
   let element: HTMLAudioElement | null = null;
-  let current: { controller: AbortController; settle: (result: PlayResult) => void } | null =
-    null;
+  let current: { controller: AbortController; settle: (result: PlayResult) => void } | null = null;
 
   function getElement(): HTMLAudioElement {
     if (!element) {

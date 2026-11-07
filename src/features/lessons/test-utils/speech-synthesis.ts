@@ -37,7 +37,9 @@ export interface SpeechSynthesisMock {
 }
 
 /** Installs a fake speech-synthesis API on `globalThis`. Undo with `vi.unstubAllGlobals()`. */
-export function stubSpeechSynthesis(initialVoices: SpeechSynthesisVoice[] = []): SpeechSynthesisMock {
+export function stubSpeechSynthesis(
+  initialVoices: SpeechSynthesisVoice[] = [],
+): SpeechSynthesisMock {
   let voices = initialVoices;
   const target = new EventTarget();
   const speak = vi.fn<(utterance: FakeUtterance) => void>();
@@ -91,14 +93,14 @@ function domError(name: string): Error {
 export function stubMediaPlayback(behaviour: MediaPlayBehaviour | (() => MediaPlayBehaviour)) {
   vi.spyOn(HTMLMediaElement.prototype, "pause").mockImplementation(() => {});
   vi.spyOn(HTMLMediaElement.prototype, "load").mockImplementation(() => {});
-  return vi
-    .spyOn(HTMLMediaElement.prototype, "play")
-    .mockImplementation(function (this: HTMLMediaElement) {
-      const mode = typeof behaviour === "function" ? behaviour() : behaviour;
-      if (mode === "resolve") return Promise.resolve();
-      if (mode === "block") return Promise.reject(domError("NotAllowedError"));
-      if (mode === "pending") return new Promise<void>(() => {});
-      queueMicrotask(() => this.dispatchEvent(new Event("error")));
-      return Promise.reject(domError("NotSupportedError"));
-    });
+  return vi.spyOn(HTMLMediaElement.prototype, "play").mockImplementation(function (
+    this: HTMLMediaElement,
+  ) {
+    const mode = typeof behaviour === "function" ? behaviour() : behaviour;
+    if (mode === "resolve") return Promise.resolve();
+    if (mode === "block") return Promise.reject(domError("NotAllowedError"));
+    if (mode === "pending") return new Promise<void>(() => {});
+    queueMicrotask(() => this.dispatchEvent(new Event("error")));
+    return Promise.reject(domError("NotSupportedError"));
+  });
 }

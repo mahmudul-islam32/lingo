@@ -49,7 +49,9 @@ export function pickVoice(
   });
   if (!matching.length) return null;
   const score = (voice: SpeechSynthesisVoice) =>
-    (normalise(voice.lang) === wanted ? 4 : 0) + (voice.default ? 2 : 0) + (voice.localService ? 1 : 0);
+    (normalise(voice.lang) === wanted ? 4 : 0) +
+    (voice.default ? 2 : 0) +
+    (voice.localService ? 1 : 0);
   return matching.reduce((best, voice) => (score(voice) > score(best) ? voice : best));
 }
 

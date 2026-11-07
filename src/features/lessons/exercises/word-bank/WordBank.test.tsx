@@ -10,7 +10,13 @@ function setup(tiles = ["el", "gato", "come", "la"], disabled = false) {
   const onChange = vi.fn<(texts: string[]) => void>();
   const user = userEvent.setup();
   const view = render(
-    <WordBank tiles={tiles} tileLang="es" disabled={disabled} onChange={onChange} random={keepOrder} />,
+    <WordBank
+      tiles={tiles}
+      tileLang="es"
+      disabled={disabled}
+      onChange={onChange}
+      random={keepOrder}
+    />,
   );
   const answerLine = screen.getByRole("group", { name: "Your answer" });
   const bank = screen.getByRole("group", { name: "Word bank" });
@@ -20,7 +26,9 @@ function setup(tiles = ["el", "gato", "come", "la"], disabled = false) {
 /** Bank children in DOM order: tile text or "_" for a placeholder. */
 function bankLayout(bank: HTMLElement): string[] {
   return Array.from(bank.children).map((child) =>
-    child.getAttribute("aria-hidden") === "true" ? `_${child.textContent}` : (child.textContent ?? ""),
+    child.getAttribute("aria-hidden") === "true"
+      ? `_${child.textContent}`
+      : (child.textContent ?? ""),
   );
 }
 
@@ -40,7 +48,15 @@ describe("WordBank", () => {
 
   it("shuffles the tiles with the injected random source", () => {
     const onChange = vi.fn();
-    render(<WordBank tiles={["a", "b", "c", "d"]} tileLang="en" disabled={false} onChange={onChange} random={() => 0} />);
+    render(
+      <WordBank
+        tiles={["a", "b", "c", "d"]}
+        tileLang="en"
+        disabled={false}
+        onChange={onChange}
+        random={() => 0}
+      />,
+    );
     const bank = screen.getByRole("group", { name: "Word bank" });
     expect(bankLayout(bank)).toEqual(["b", "c", "d", "a"]);
   });
@@ -50,12 +66,21 @@ describe("WordBank", () => {
     await user.click(screen.getByRole("button", { name: "Add gato" }));
     await user.click(screen.getByRole("button", { name: "Add el" }));
 
-    expect(within(answerLine).getAllByRole("button").map((b) => b.textContent)).toEqual(["gato", "el"]);
-    expect(within(answerLine).getByRole("button", { name: "Remove gato" })).toHaveAttribute("lang", "es");
+    expect(
+      within(answerLine)
+        .getAllByRole("button")
+        .map((b) => b.textContent),
+    ).toEqual(["gato", "el"]);
+    expect(within(answerLine).getByRole("button", { name: "Remove gato" })).toHaveAttribute(
+      "lang",
+      "es",
+    );
     expect(within(answerLine).queryByText("Tap the words")).not.toBeInTheDocument();
     // Bank keeps its layout: placeholders (aria-hidden, invisible copy of the word) in place.
     expect(bankLayout(bank)).toEqual(["_el", "_gato", "come", "la"]);
-    expect(within(bank).getAllByTestId("word-bank-placeholder")[0]?.firstElementChild).toHaveClass("invisible");
+    expect(within(bank).getAllByTestId("word-bank-placeholder")[0]?.firstElementChild).toHaveClass(
+      "invisible",
+    );
     expect(within(bank).getAllByRole("button")).toHaveLength(2);
     expect(onChange).toHaveBeenLastCalledWith(["gato", "el"]);
   });
@@ -67,7 +92,11 @@ describe("WordBank", () => {
     await user.click(screen.getByRole("button", { name: "Remove come" }));
 
     expect(bankLayout(bank)).toEqual(["_el", "gato", "come", "la"]);
-    expect(within(answerLine).getAllByRole("button").map((b) => b.textContent)).toEqual(["el"]);
+    expect(
+      within(answerLine)
+        .getAllByRole("button")
+        .map((b) => b.textContent),
+    ).toEqual(["el"]);
     expect(onChange).toHaveBeenLastCalledWith(["el"]);
   });
 
@@ -173,7 +202,10 @@ describe("WordBank", () => {
     it("hides placeholders from assistive technology", async () => {
       const { user, bank } = setup();
       await user.click(screen.getByRole("button", { name: "Add el" }));
-      expect(within(bank).getByTestId("word-bank-placeholder")).toHaveAttribute("aria-hidden", "true");
+      expect(within(bank).getByTestId("word-bank-placeholder")).toHaveAttribute(
+        "aria-hidden",
+        "true",
+      );
     });
   });
 
@@ -182,10 +214,24 @@ describe("WordBank", () => {
       const onChange = vi.fn();
       const user = userEvent.setup();
       const { rerender } = render(
-        <WordBank tiles={["el", "gato"]} tileLang="es" disabled={false} onChange={onChange} random={keepOrder} />,
+        <WordBank
+          tiles={["el", "gato"]}
+          tileLang="es"
+          disabled={false}
+          onChange={onChange}
+          random={keepOrder}
+        />,
       );
       await user.click(screen.getByRole("button", { name: "Add el" }));
-      rerender(<WordBank tiles={["el", "gato"]} tileLang="es" disabled onChange={onChange} random={keepOrder} />);
+      rerender(
+        <WordBank
+          tiles={["el", "gato"]}
+          tileLang="es"
+          disabled
+          onChange={onChange}
+          random={keepOrder}
+        />,
+      );
       onChange.mockClear();
 
       const add = screen.getByRole("button", { name: "Add gato" });

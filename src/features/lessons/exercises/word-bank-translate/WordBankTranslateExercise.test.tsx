@@ -29,7 +29,10 @@ const toKnown: WordBankTranslateData = WordBankTranslateExerciseSchema.parse({
 
 const keepOrder = () => 0.999;
 
-function setup(exercise: WordBankTranslateData, overrides: Partial<ExerciseComponentProps<"word_bank_translate">> = {}) {
+function setup(
+  exercise: WordBankTranslateData,
+  overrides: Partial<ExerciseComponentProps<"word_bank_translate">> = {},
+) {
   const props: ExerciseComponentProps<"word_bank_translate"> = {
     exercise,
     presentationKey: `${exercise.id}:0`,
@@ -57,7 +60,9 @@ describe("WordBankTranslateExercise", () => {
     expect(heading).toHaveTextContent("Translate this sentence");
     expect(within(heading).getByText("Hello, how are you?")).toBeInTheDocument();
     expect(screen.getByRole("group", { name: "Your answer" })).toBeInTheDocument();
-    expect(within(screen.getByRole("group", { name: "Word bank" })).getAllByRole("button")).toHaveLength(6);
+    expect(
+      within(screen.getByRole("group", { name: "Word bank" })).getAllByRole("button"),
+    ).toHaveLength(6);
   });
 
   it("shuffles the tiles from the content", () => {
