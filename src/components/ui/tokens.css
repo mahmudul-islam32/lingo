@@ -1,0 +1,145 @@
+/*
+ * Polyglow design tokens (CTO-004, ADR-004). Imported once by src/app/globals.css.
+ *
+ * - Brand palette (PD-001): midnight indigo (`night-*`) + amber/gold (`glow-*`).
+ * - Semantic tokens (`canvas`, `surface`, `fg`, `primary`, `success`, `danger` …) are what
+ *   components use. They are DARK-FIRST: the defaults below are the dark theme;
+ *   `data-theme="light"` on any element switches that subtree to the warm off-white theme.
+ * - Correct/incorrect feedback colours (`success-*`, `danger-*`) are functional, not
+ *   brand colours, and are tuned for WCAG AA in both themes (see tokens.test.ts).
+ *
+ * Never use hex/rgb literals in feature code: use these tokens via Tailwind classes
+ * (`bg-canvas`, `text-fg`, `border-border`, `bg-primary text-on-primary`, …).
+ */
+
+@theme static {
+  /* Brand: midnight indigo */
+  --color-night-50: #eef0ff;
+  --color-night-100: #e0e3ff;
+  --color-night-200: #c4c9fb;
+  --color-night-300: #a2a8f2;
+  --color-night-400: #7d82e2;
+  --color-night-500: #5f61cc;
+  --color-night-600: #4a49b0;
+  --color-night-700: #3b398e;
+  --color-night-800: #2c2a6b;
+  --color-night-900: #1e1c4c;
+  --color-night-950: #0f0e2a;
+
+  /* Brand: amber / gold glow */
+  --color-glow-50: #fff9eb;
+  --color-glow-100: #ffefc6;
+  --color-glow-200: #ffdf88;
+  --color-glow-300: #ffcb4a;
+  --color-glow-400: #ffb820;
+  --color-glow-500: #f59a0b;
+  --color-glow-600: #d97706;
+  --color-glow-700: #b45309;
+  --color-glow-800: #92400e;
+  --color-glow-900: #78350f;
+
+  /* Semantic, dark theme (default) */
+  --color-canvas: #0f0e2a;
+  --color-surface: #1b1a45;
+  --color-surface-raised: #26255a;
+  --color-fg: #faf6ee;
+  --color-fg-muted: #c4c3e0;
+  --color-border: #3a3970;
+  --color-border-strong: #8a89c4;
+  --color-primary: #ffc23d;
+  --color-primary-hover: #ffd166;
+  --color-on-primary: #1e1c4c;
+  --color-focus: #ffd166;
+  --color-success: #4ade80;
+  --color-success-hover: #6ee7a0;
+  --color-on-success: #052e16;
+  --color-success-soft: #0f3a26;
+  --color-success-fg: #a7f3c4;
+  --color-danger: #f87171;
+  --color-danger-hover: #fb8f8f;
+  --color-on-danger: #3b0808;
+  --color-danger-soft: #45141c;
+  --color-danger-fg: #fecaca;
+  --color-xp: #ffc23d;
+  --color-progress: #ffc23d;
+  --color-heart: #fb7185;
+  --color-backdrop: rgb(6 5 20 / 0.72);
+
+  --radius-card: 1rem;
+  --radius-control: 0.875rem;
+
+  --animate-slide-up: slide-up 200ms ease-out;
+  --animate-fade-in: fade-in 150ms ease-out;
+  --animate-shake: shake 300ms ease-in-out;
+
+  @keyframes slide-up {
+    from {
+      transform: translateY(16px);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  @keyframes fade-in {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  @keyframes shake {
+    0%,
+    100% {
+      transform: translateX(0);
+    }
+    25% {
+      transform: translateX(-4px);
+    }
+    75% {
+      transform: translateX(4px);
+    }
+  }
+}
+
+:root {
+  color-scheme: dark;
+}
+
+/* Semantic, light theme (warm off-white). */
+[data-theme="light"] {
+  color-scheme: light;
+  --color-canvas: #fbf7f0;
+  --color-surface: #ffffff;
+  --color-surface-raised: #f3eee4;
+  --color-fg: #1e1c4c;
+  --color-fg-muted: #4a4878;
+  --color-border: #e4ddd0;
+  --color-border-strong: #7c79a6;
+  --color-primary: #ffb820;
+  --color-primary-hover: #f5a70b;
+  --color-on-primary: #1e1c4c;
+  --color-focus: #4a49b0;
+  --color-success: #15803d;
+  --color-success-hover: #166534;
+  --color-on-success: #ffffff;
+  --color-success-soft: #dcfce7;
+  --color-success-fg: #14532d;
+  --color-danger: #b91c1c;
+  --color-danger-hover: #991b1b;
+  --color-on-danger: #ffffff;
+  --color-danger-soft: #fee2e2;
+  --color-danger-fg: #7f1d1d;
+  --color-xp: #92400e;
+  --color-progress: #b45309;
+  --color-heart: #e11d48;
+  --color-backdrop: rgb(30 28 76 / 0.55);
+}
+
+/* Visible focus ring (≥ 3:1 against canvas and surface in both themes). */
+@utility focus-ring {
+  outline: 3px solid var(--color-focus);
+  outline-offset: 2px;
+}
