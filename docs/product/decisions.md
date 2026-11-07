@@ -86,3 +86,123 @@ mocks or placeholders and swap in the final answer when it arrives.
   mechanic's meaning).
 - **Reversibility:** High. Config values can be changed at any time; revisit after the
   first retention and daily-goal-hit-rate data.
+
+## PD-004: Roadmap milestones and early-start rule
+
+- **Date:** 2026-11-07
+- **Decision:** `ROADMAP.md` defines milestones after the Phase 1 architecture tickets
+  (CTO-002..004): **v0.1.0** MVP foundation, **v0.2.0** first playable lesson, **v0.3.0**
+  gamification loop, **v0.4.0** accounts and sync, **v1.0.0** launch polish, then Phase 2
+  placeholders. Tickets are written one or two milestones ahead (v0.1.0 and v0.2.0 now).
+  A ticket from the next milestone may be **started early** when its dependencies are
+  merged (e.g. LES-001, LES-004..006, GAM-002 during v0.1.0), but it still ships in its own
+  milestone's release. Analytics events (PLT-019) land in v1.0.0, before launch, because
+  the success metrics are measured from launch.
+- **Rationale:** v0.1.0 is mostly platform work; early start keeps dev-lessons and
+  dev-gamification busy without blurring what each release contains. Guest play before
+  accounts serves G1 (first lesson within 2 minutes, no account).
+- **Alternatives considered:** auth in v0.1.0 (delays the first playable lesson, the
+  thing we most need to validate); one big MVP milestone (no intermediate releases).
+- **Reversibility:** High. Tickets can move between milestones.
+
+## PD-005: MVP bottom navigation is Learn + Profile only
+
+- **Date:** 2026-11-07
+- **Decision:** The bottom navigation has two tabs, Learn and Profile. No Leaderboard tab
+  until leagues ship (Phase 2).
+- **Rationale:** An empty or "coming soon" tab is a dead end and breaks the "always
+  forward" principle. Leagues are Phase 2 (PD-002).
+- **Alternatives considered:** a disabled Leaderboard tab as a teaser.
+- **Reversibility:** High. Adding a tab later is small.
+
+## PD-006: Speak exercise and lesson tip move to v1.0.0
+
+- **Date:** 2026-11-07
+- **Decision:** v0.2.0 "all MVP exercise types" means multiple choice, translate (word
+  bank), match pairs and listen. The Speak exercise (P2, optional, browser-dependent) is
+  LES-011 and the tip card (P2) is LES-013, both in v1.0.0. Either may slip to Phase 2
+  without blocking the launch. The lesson player skips unsupported types, so content can
+  contain speak exercises before the component exists.
+- **Rationale:** Speak is optional in the PRD, works only in some browsers and needs
+  microphone permission flows; it shouldn't hold back the first playable lesson.
+- **Alternatives considered:** Speak in v0.2.0 (larger milestone, more risk).
+- **Reversibility:** High.
+
+## PD-007: Listen exercise audio fallback
+
+- **Date:** 2026-11-07
+- **Decision:** Listen exercises play the pre-generated audio file. If it is missing or
+  fails, they use the browser's speech synthesis with a Spanish voice. If no Spanish voice
+  exists, the learner sees "Audio isn't available right now." and can skip; a skipped
+  exercise is not wrong, not re-queued and not counted in accuracy or the perfect bonus.
+- **Rationale:** The TTS licence is waiting on the owner (PRD Q7). This lets us ship and
+  test listening now without shipping unlicensed audio, and nobody loses hearts because of
+  missing audio.
+- **Alternatives considered:** hide listen exercises until audio exists (removes a P0
+  exercise type); dev-only audio (doesn't work for real users).
+- **Reversibility:** High. Once licensed audio exists, the fallback just stops being used.
+
+## PD-008: XP calculation ships in v0.2.0; replays earn full XP
+
+- **Date:** 2026-11-07
+- **Decision:** The pure `calculateXp` (GAM-002) is part of v0.2.0 so the results screen
+  shows real XP. Storing totals and today's XP stays in v0.3.0. Replaying a completed
+  lesson earns the same XP as the first time (base + perfect bonus).
+- **Rationale:** A results screen without XP would test poorly and later need rework.
+  Replays earning XP supports US-GAM-14 and lets learners reach their daily goal with only
+  5 lessons of content.
+- **Alternatives considered:** reduced XP for replays (more rules to explain; revisit if
+  daily-goal data shows farming).
+- **Reversibility:** High (config/logic change).
+
+## PD-009: Temporary lesson list in v0.2.0, all lessons unlocked
+
+- **Date:** 2026-11-07
+- **Decision:** In v0.2.0, Learn shows a simple list of the 5 Unit 1 lessons, all
+  playable. The skill path with locked/available states and in-order unlocking (GAM-008)
+  replaces it in v0.3.0.
+- **Rationale:** Keeps v0.2.0 focused on the lesson engine and lets us test every lesson.
+- **Alternatives considered:** building the path in v0.2.0 (couples two milestones).
+- **Reversibility:** High.
+
+## PD-010: Answer matching rules
+
+- **Date:** 2026-11-07
+- **Decision:** Answers are compared ignoring case, extra whitespace and punctuation
+  (including `¡ ¿`). Accents and `ñ` are significant. Any accepted answer listed in the
+  content counts. No typo tolerance in MVP.
+- **Rationale:** MVP answers are built from tiles, so accents are always typed correctly
+  by the tiles themselves; ignoring them would only hide content bugs. Ignoring
+  punctuation avoids unfair failures.
+- **Alternatives considered:** accent-insensitive matching (revisit in Phase 2 with typed
+  answers).
+- **Reversibility:** High (pure function).
+
+## PD-011: No "I already have an account" in onboarding until v0.4.0
+
+- **Date:** 2026-11-07
+- **Decision:** Onboarding has no log-in entry point until accounts exist (PLT-018,
+  v0.4.0).
+- **Rationale:** A link to a feature that doesn't exist yet is a dead end.
+- **Alternatives considered:** a disabled link with "coming soon".
+- **Reversibility:** High.
+
+## PD-012: Lesson scoring rules
+
+- **Date:** 2026-11-07
+- **Decision:**
+  - A wrong answer re-queues the exercise at the end of the lesson; it comes back until
+    answered correctly. The progress bar advances only on correct answers.
+  - **Mistakes** = number of wrong "Check" results, plus 1 for each match-pairs exercise
+    with at least one mismatch.
+  - **Accuracy** = exercises correct on the first try ÷ counted exercises, rounded to a
+    whole percent. Match pairs count as first-try correct only with zero mismatches.
+    Skipped and unsupported exercises are not counted.
+  - **Perfect lesson** = 0 mistakes and at least 1 counted exercise.
+  - Match pairs are never re-queued, and from v0.3.0 cost **at most 1 heart** per
+    exercise, however many mismatches.
+- **Rationale:** Simple rules that the results screen can explain; capping match-pairs
+  heart loss avoids losing several hearts to one quick mis-tap.
+- **Alternatives considered:** a heart per mismatch (too punishing); re-queueing match
+  pairs (repetitive).
+- **Reversibility:** High.
