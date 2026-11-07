@@ -51,6 +51,7 @@ describe("LessonSessionSchema", () => {
         exerciseType: "multiple_choice",
         answer: { type: "multiple_choice", optionId: "b" },
         outcome: "incorrect",
+        mistake: true,
         heartCost: 1,
         isRetry: false,
         answeredAt: "2026-11-07T10:00:20.000Z",

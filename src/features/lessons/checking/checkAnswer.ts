@@ -10,6 +10,8 @@
  * - Apostrophes are kept ("I'm" ≠ "Im"); curly apostrophes equal straight ones.
  * - Any accepted answer counts; `answers[0]` is the canonical one shown on feedback.
  * - Speak transcripts are compared diacritic-insensitively and never cost hearts.
+ * - Match pairs with any mismatched tap are still correct, but count as one mistake
+ *   and cost at most 1 heart (PD-012, CR-001).
  */
 import {
   foldDiacritics,
@@ -29,12 +31,15 @@ function result(
   outcome: Outcome,
   correctAnswer: string | null,
   costsHeart: boolean,
+  hadMismatch = false,
 ): AnswerCheckResult {
+  const mistake = outcome === "incorrect" || (outcome === "correct" && hadMismatch);
   return {
     exerciseId,
     outcome,
     correctAnswer,
-    heartCost: outcome === "incorrect" && costsHeart ? GAME_CONFIG.heartsLostPerMistake : 0,
+    mistake,
+    heartCost: mistake && costsHeart ? GAME_CONFIG.heartsLostPerMistake : 0,
   };
 }
 
@@ -74,8 +79,8 @@ function checkTiles(
 
 /**
  * Correct when every pair of the exercise is matched exactly once with itself and
- * nothing else is submitted. Mismatched taps are live feedback and are not part of the
- * answer (ADR-002 §6); see `checkMatchPairsWithMismatches` for PD-012 accuracy.
+ * nothing else is submitted. Mismatched taps are reported separately in
+ * `answer.mismatchCount` (ADR-002 §6).
  */
 export function isMatchPairsComplete(
   exercise: ExerciseOfType<"match_pairs">,
@@ -97,7 +102,13 @@ function checkMatchPairs(
   answer: AnswerInputOfType<"match_pairs">,
 ): AnswerCheckResult {
   const correct = isMatchPairsComplete(exercise, answer);
-  return result(exercise.id, correct ? "correct" : "incorrect", null, true);
+  return result(
+    exercise.id,
+    correct ? "correct" : "incorrect",
+    null,
+    true,
+    answer.mismatchCount > 0,
+  );
 }
 
 function checkSpeak(
@@ -145,26 +156,3 @@ export const checkAnswer: CheckAnswer = (input) => {
       return assertNever(exercise);
   }
 };
-
-/** Match-pairs check plus whether any mismatch happened during play (PD-012). */
-export interface MatchPairsCheck {
-  result: AnswerCheckResult;
-  /** At least one mismatched tap: the exercise is not first-try correct and counts 1 mistake. */
-  hadMismatch: boolean;
-}
-
-/**
- * Workaround for CR-001 (docs/architecture/contract-requests.md): the contract answer
- * does not carry the mismatch count yet, so the player passes the count it tracked
- * during play. Remove once `MatchPairsAnswer.mistakeCount` exists.
- */
-export function checkMatchPairsWithMismatches(input: {
-  exercise: ExerciseOfType<"match_pairs">;
-  answer: AnswerInputOfType<"match_pairs">;
-  mismatchCount: number;
-}): MatchPairsCheck {
-  return {
-    result: checkAnswer({ exercise: input.exercise, answer: input.answer }),
-    hadMismatch: input.mismatchCount > 0,
-  };
-}

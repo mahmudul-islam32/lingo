@@ -33,10 +33,13 @@ shapes (content, lesson runtime, progress, user, sync) and one set of game rules
 5. **Canonical text normalisation lives in contracts** (`text.ts`). Both the content
    schema ("answer is buildable from tiles") and the answer checker use it, so they
    can't drift. Diacritics matter for tile answers and are folded only for speech.
-6. **Match pairs never cost hearts.** Mismatched taps get live feedback and are not
-   submitted; the exercise is correct once all pairs are matched. This keeps the
-   exercise from being re-queued after the learner has already solved it. Reversible
-   by adding a `mistakeCount` to the answer.
+6. **Match pairs are never re-queued and cost at most 1 heart** (amended by CR-001,
+   2026-11-07, to match PD-012). Mismatched taps get live feedback; the answer carries
+   `mismatchCount`. The exercise is `correct` once all pairs are matched, so it is never
+   re-queued, but any mismatch sets `AnswerCheckResult.mistake` (one mistake, not
+   first-try correct) and `heartCost = 1`, however many mismatches. `mistake` is the
+   single flag the session counts for `mistakeCount`, `perfect` and accuracy.
+   _Superseded wording:_ "match pairs never cost hearts".
 7. **Lesson results are append-only facts; aggregates are derived.** Total XP,
    streak, daily goal, completed lessons and path state are pure functions of the
    `LessonResult` set (+ `HeartsState`, `Settings`). Sync merges are a set union by

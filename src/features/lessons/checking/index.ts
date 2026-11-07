@@ -1,8 +1,1 @@
-export {
-  checkAnswer,
-  checkMatchPairsWithMismatches,
-  isMatchPairsComplete,
-  joinTiles,
-  matchesAcceptedAnswer,
-  type MatchPairsCheck,
-} from "./checkAnswer";
+export { checkAnswer, isMatchPairsComplete, joinTiles, matchesAcceptedAnswer } from "./checkAnswer";
