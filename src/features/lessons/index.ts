@@ -25,3 +25,12 @@ export {
   type FeedbackPanelProps,
 } from "./feedback/FeedbackPanel";
 export { pickCorrectHeading } from "./feedback/headings";
+export {
+  ResultsScreen,
+  formatAccuracy,
+  formatDuration,
+  toLessonResult,
+  type ResultsScreenProps,
+  type SaveLessonResult,
+  type ToLessonResultInput,
+} from "./results";
