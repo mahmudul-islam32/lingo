@@ -115,15 +115,15 @@ Quit (confirmed) discards the session; nothing but already-lost hearts persists.
 One database `polyglow`, scoped to the current identity (one identity per device at a
 time). Tables:
 
-| Table           | Key                               | Contract          | Notes            |
-| --------------- | --------------------------------- | ----------------- | ---------------- |
-| `identity`      | `"current"`                       | `Identity`        | guest or account |
-| `profile`       | `"current"`                       | `Profile`         |                  |
-| `settings`      | `"current"`                       | `Settings`        |                  |
-| `hearts`        | `"current"`                       | `HeartsState`     |                  |
-| `lessonResults` | `id`, idx `localDate`, `lessonId` | `LessonResult`    | append-only      |
-| `syncQueue`     | `id`, idx `status+nextAttemptAt`  | `SyncQueueRecord` |                  |
-| `meta`          | `"sync"`                          | `SyncMeta`        |                  |
+| Table           | Key                                                | Contract          | Notes                        |
+| --------------- | -------------------------------------------------- | ----------------- | ---------------------------- |
+| `identity`      | `"current"`                                        | `Identity`        | guest or account             |
+| `profile`       | `"current"`                                        | `Profile`         |                              |
+| `settings`      | `"current"`                                        | `Settings`        |                              |
+| `hearts`        | `"current"`                                        | `HeartsState`     |                              |
+| `lessonResults` | `id`, idx `courseId`, `lessonId`, `localDate`      | `LessonResult`    | append-only                  |
+| `syncQueue`     | `id`, idx `kind`, `status`, `status+nextAttemptAt` | `SyncQueueRecord` | `kind` coalesces LWW records |
+| `meta`          | `"sync"`                                           | `SyncMeta`        |                              |
 
 Every write is validated with the zod schema before it is stored, and every read of a
 synced/remote record is parsed (never trusted). Dexie schema versions are bumped in
@@ -184,12 +184,19 @@ devices within seconds, which is acceptable for MVP.
   invalidates `progress`/`settings`/`profile`/`hearts` after a pull.
 - `networkMode: "always"` for Dexie-backed queries so they run offline.
 - No global Redux-like store. Do not mirror Query data into Zustand.
+- **Temporary deviation (PLT-003, CR-002):** until TanStack Query is installed, the
+  profile feature's Zustand store (`guestProfileStore`) holds identity, profile and
+  settings read from `@/lib/offline`. When the first server-backed read lands (sync or
+  auth), move profile/settings reads to TanStack Query and keep only UI state in Zustand.
 
 ## 6. Auth and guest mode
 
 - **Guest (default).** First launch creates `Identity { kind: "guest", guestId }`
-  (`crypto.randomUUID()`), a profile ("Learner", initials avatar) and default settings in
-  Dexie. No network call is needed, so G1 (first lesson within 2 minutes) works even
+  (`crypto.randomUUID()`), a profile ("Learner", initials avatar) and full hearts in
+  Dexie. There is **no settings record until onboarding** picks a course and a daily goal
+  (`ProfileRepository.findSettings()` returns `null`, `getSettings()` rejects); then
+  `updateSettings` creates it with `DEFAULT_SETTINGS` for the toggles and
+  `completeOnboarding` sets `onboardedAt` (CR-002). No network call is needed, so G1 (first lesson within 2 minutes) works even
   offline. Guests play with the same rules, hearts included (PD-003 Q3).
 - **Accounts.** Supabase Auth with email + password, Google OAuth and password reset,
   using the browser client (`@supabase/supabase-js`, session persisted in

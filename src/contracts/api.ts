@@ -93,11 +93,30 @@ export interface ProgressRepository {
   saveHearts(state: HeartsState): Promise<void>;
 }
 
+/**
+ * Settings fields the learner can change (CR-002). `dailyGoalXp` is a plain number so
+ * UI input is validated at runtime: an option outside `DAILY_GOAL_OPTIONS` is rejected
+ * with a typed error and nothing is stored.
+ */
+export type SettingsPatch = Partial<
+  Pick<Settings, "courseId" | "soundEffectsEnabled" | "speakingExercisesEnabled">
+> & { dailyGoalXp?: number };
+
 export interface ProfileRepository {
   getProfile(): Promise<Profile>;
   updateProfile(update: ProfileUpdate): Promise<Profile>;
+  /** Rejects before onboarding has saved settings; use `findSettings` to check. */
   getSettings(): Promise<Settings>;
+  /** Like `getSettings`, but `null` before onboarding instead of rejecting (CR-002). */
+  findSettings(): Promise<Settings | null>;
   saveSettings(settings: Settings): Promise<void>;
+  /**
+   * Merges `patch` into the settings and returns the result (CR-002). The first call
+   * must include `courseId` and `dailyGoalXp`; missing toggles take `DEFAULT_SETTINGS`.
+   */
+  updateSettings(patch: SettingsPatch): Promise<Settings>;
+  /** Sets `Profile.onboardedAt` (kept if already set). Requires saved settings (CR-002). */
+  completeOnboarding(): Promise<Profile>;
 }
 
 /** src/lib/sync — drains the queue to Supabase when online. */

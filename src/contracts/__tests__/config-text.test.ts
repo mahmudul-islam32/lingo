@@ -2,12 +2,27 @@ import { describe, expect, it } from "vitest";
 import {
   CONTENT_RULES,
   DAILY_GOAL_OPTIONS,
+  DEFAULT_SETTINGS,
   foldDiacritics,
   GAME_CONFIG,
   GameConfigSchema,
   normalizeAnswerText,
+  SettingsSchema,
   tokenizeAnswer,
 } from "../index";
+
+describe("DEFAULT_SETTINGS (CR-002)", () => {
+  it("completes a valid Settings record once onboarding picks course and goal", () => {
+    const settings = {
+      ...DEFAULT_SETTINGS,
+      courseId: "en-es",
+      dailyGoalXp: GAME_CONFIG.defaultDailyGoalXp,
+      updatedAt: "2026-11-07T10:00:00.000Z",
+    };
+    expect(SettingsSchema.safeParse(settings).success).toBe(true);
+    expect(DEFAULT_SETTINGS).toEqual({ soundEffectsEnabled: true, speakingExercisesEnabled: true });
+  });
+});
 
 describe("GAME_CONFIG (PD-003)", () => {
   it("matches the product defaults", () => {
