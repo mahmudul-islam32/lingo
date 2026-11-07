@@ -1,7 +1,9 @@
 "use client";
 
+import { QueryClientProvider } from "@tanstack/react-query";
 import { createContext, useContext, useEffect, useMemo, useState, type ReactNode } from "react";
 import { ToastProvider, type Theme } from "@/components/ui";
+import { createQueryClient } from "@/lib/query";
 import { DEFAULT_THEME } from "./_shell/theme";
 
 interface ThemeApi {
@@ -19,10 +21,12 @@ export interface ProvidersProps {
 
 /**
  * App-wide client providers, mounted once by the root layout: the theme (applied as
- * `data-theme` on `<html>`) and the toast queue. Toasts sit above the bottom navigation.
+ * `data-theme` on `<html>`), the TanStack Query client (one per tab, ADR-005) and the
+ * toast queue. Toasts sit above the bottom navigation.
  */
 export function Providers({ children, initialTheme = DEFAULT_THEME }: ProvidersProps) {
   const [theme, setTheme] = useState<Theme>(initialTheme);
+  const [queryClient] = useState(createQueryClient);
 
   useEffect(() => {
     document.documentElement.dataset.theme = theme;
@@ -33,7 +37,7 @@ export function Providers({ children, initialTheme = DEFAULT_THEME }: ProvidersP
   return (
     <ThemeContext value={api}>
       <ToastProvider viewportClassName="bottom-[calc(env(safe-area-inset-bottom)+5rem)]">
-        {children}
+        <QueryClientProvider client={queryClient}>{children}</QueryClientProvider>
       </ToastProvider>
     </ThemeContext>
   );
