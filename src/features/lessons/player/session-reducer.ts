@@ -172,24 +172,6 @@ function end(state: PlayerState, status: LessonSession["status"]): PlayerState {
   };
 }
 
-/** Empty answer of the exercise's type, recorded on skipped attempts. */
-export function emptyAnswerFor(exercise: Exercise): AnswerInput {
-  switch (exercise.type) {
-    case "multiple_choice":
-      // The contract has no "no option" value; `skipped` is a valid slug that is never an
-      // option id in our content. Raised in CR-003.
-      return { type: "multiple_choice", optionId: "skipped" };
-    case "word_bank_translate":
-      return { type: "word_bank_translate", tiles: [] };
-    case "listen":
-      return { type: "listen", tiles: [] };
-    case "match_pairs":
-      return { type: "match_pairs", matches: [], mismatchCount: 0 };
-    case "speak":
-      return { type: "speak", skipped: true, transcripts: [] };
-  }
-}
-
 function hasAttempt(session: LessonSession, exerciseId: Slug): boolean {
   return session.attempts.some((a) => a.exerciseId === exerciseId);
 }
@@ -267,7 +249,8 @@ export function sessionReducer(state: PlayerState, action: SessionAction): Playe
       const attempt: ExerciseAttempt = {
         exerciseId: id,
         exerciseType: exercise.type,
-        answer: emptyAnswerFor(exercise),
+        // Skipped without an answer (CR-003).
+        answer: null,
         outcome: "skipped",
         mistake: false,
         heartCost: 0,

@@ -4,7 +4,6 @@ export { LessonPlayerError, type LessonPlayerErrorProps } from "./PlayerError";
 export {
   createPlayerState,
   createSession,
-  emptyAnswerFor,
   sessionReducer,
   sessionStats,
   type CreatePlayerStateInput,

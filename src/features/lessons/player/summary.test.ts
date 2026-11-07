@@ -86,6 +86,32 @@ describe("summarizeSession / buildLessonResult", () => {
     ).toThrow();
   });
 
+  it("all exercises skipped: a valid, not-perfect result with no bonus (CR-003)", () => {
+    let s = createPlayerState({
+      lesson: {
+        ...fixtureLesson,
+        exercises: fixtureLesson.exercises.filter((e) => e.id === "li-1"),
+      },
+      supportedTypes: new Set<ExerciseType>(["listen"]),
+      now: new Date("2026-11-07T10:00:00.000Z"),
+      sessionId: SESSION_ID,
+    });
+    s = sessionReducer(s, {
+      type: "skip",
+      reason: "audio_unavailable",
+      now: new Date("2026-11-07T10:00:05.000Z"),
+    });
+    const summary = summarizeSession(s.session, s.completedAt!);
+    expect(summary.perfect).toBe(false);
+    const result = buildLessonResult(summary, {
+      id: RESULT_ID,
+      xp: { base: 10, perfectBonus: 0 },
+      timeZone: "UTC",
+      localDate: "2026-11-07",
+    });
+    expect(result).toMatchObject({ exerciseCount: 1, skippedCount: 1, perfect: false });
+  });
+
   it("accuracy is 1 when nothing was counted", () => {
     expect(lessonAccuracy({ exerciseCount: 1, skippedCount: 1, firstTryCorrectCount: 0 })).toBe(1);
     expect(lessonAccuracy({ exerciseCount: 4, skippedCount: 0, firstTryCorrectCount: 3 })).toBe(
