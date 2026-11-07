@@ -25,3 +25,11 @@ export {
   type FeedbackPanelProps,
 } from "./feedback/FeedbackPanel";
 export { pickCorrectHeading } from "./feedback/headings";
+export {
+  MultipleChoiceExercise,
+  type MultipleChoiceExerciseProps,
+} from "./exercises/multiple-choice/MultipleChoiceExercise";
+export {
+  MatchPairsExercise,
+  type MatchPairsExerciseProps,
+} from "./exercises/match-pairs/MatchPairsExercise";
