@@ -21,11 +21,15 @@ export const WordBankTranslateAnswerSchema = z.object({
 export const MatchPairsAnswerSchema = z.object({
   type: z.literal("match_pairs"),
   /**
-   * Final matches. Mismatched taps during play get live feedback and are not
-   * submitted: a match-pairs exercise is correct once all pairs are matched
-   * (ADR-002). `learningPairId`/`knownPairId` are the pair ids of each column item.
+   * Final matches. A match-pairs exercise is correct once all pairs are matched
+   * (ADR-002 §6). `learningPairId`/`knownPairId` are the pair ids of each column item.
    */
   matches: z.array(z.object({ learningPairId: SlugSchema, knownPairId: SlugSchema })).max(16),
+  /**
+   * Mismatched taps during play (CR-001). Any mismatch makes the exercise one mistake,
+   * not first-try correct, and costs at most 1 heart (PD-012).
+   */
+  mismatchCount: NonNegativeIntSchema,
 });
 
 export const ListenAnswerSchema = z.object({
@@ -81,11 +85,24 @@ export const AnswerCheckResultSchema = z
      * the correct option text, the speak phrase). `null` for match pairs.
      */
     correctAnswer: z.string().nullable(),
-    /** Hearts this answer costs: 1 for incorrect non-speak answers, else 0 (PD-003). */
+    /**
+     * True when this answer counts as one mistake (PD-012): every `incorrect` outcome,
+     * plus a correct match-pairs exercise that had at least one mismatch. Drives
+     * `LessonResult.mistakeCount`, `perfect` and first-try accuracy.
+     */
+    mistake: z.boolean(),
+    /**
+     * Hearts this answer costs (PD-003, PD-012): 1 for an incorrect non-speak answer,
+     * 1 for a match-pairs exercise with any mismatch (never more), else 0.
+     */
     heartCost: NonNegativeIntSchema,
   })
-  .refine((v) => v.outcome === "incorrect" || v.heartCost === 0, {
-    message: "only incorrect answers can cost hearts",
+  .refine((v) => v.outcome === "correct" || v.mistake === (v.outcome === "incorrect"), {
+    message: "incorrect answers are always a mistake; skipped answers never are",
+    path: ["mistake"],
+  })
+  .refine((v) => v.mistake || v.heartCost === 0, {
+    message: "only mistakes can cost hearts",
     path: ["heartCost"],
   });
 export type AnswerCheckResult = z.infer<typeof AnswerCheckResultSchema>;

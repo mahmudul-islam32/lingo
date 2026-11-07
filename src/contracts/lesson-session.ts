@@ -20,6 +20,8 @@ export const ExerciseAttemptSchema = z.object({
   exerciseType: ExerciseTypeSchema,
   answer: AnswerInputSchema,
   outcome: AnswerOutcomeSchema,
+  /** Copied from `AnswerCheckResult.mistake` (PD-012). */
+  mistake: z.boolean(),
   heartCost: NonNegativeIntSchema,
   /** True when this exercise was re-queued after an earlier wrong answer. */
   isRetry: z.boolean(),
@@ -79,15 +81,15 @@ export const LessonResultSchema = z
     durationMs: NonNegativeIntSchema,
     /** Distinct exercises presented (hidden ones excluded). */
     exerciseCount: z.number().int().positive(),
-    /** Exercises answered correctly on the first attempt. */
+    /** Exercises answered correctly on the first attempt with no mistake (match pairs: no mismatch). */
     firstTryCorrectCount: NonNegativeIntSchema,
-    /** Total incorrect attempts (re-queued retries included). */
+    /** Attempts with `mistake: true` (PD-012): incorrect attempts incl. retries, plus 1 per match pairs with a mismatch. */
     mistakeCount: NonNegativeIntSchema,
     /** Speak exercises skipped; excluded from accuracy. */
     skippedCount: NonNegativeIntSchema,
     /** firstTryCorrectCount / (exerciseCount - skippedCount), 1 when the denominator is 0. */
     accuracy: z.number().min(0).max(1),
-    /** No incorrect attempts at all. */
+    /** No mistakes at all (`mistakeCount === 0`). */
     perfect: z.boolean(),
     xp: XpBreakdownSchema,
     /** xp.base + xp.perfectBonus. */
