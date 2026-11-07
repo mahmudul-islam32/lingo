@@ -7,7 +7,8 @@ export type LocalDataErrorCode =
   | "invalid_record"
   | "settings_not_set"
   | "settings_incomplete"
-  | "onboarding_prerequisites_missing";
+  | "onboarding_prerequisites_missing"
+  | "storage_failed";
 
 export class LocalDataError extends Error {
   constructor(
@@ -63,5 +64,34 @@ export class OnboardingPrerequisitesError extends LocalDataError {
       "onboarding_prerequisites_missing",
       "Choose a course and a daily goal before completing onboarding.",
     );
+  }
+}
+
+/**
+ * The device storage (IndexedDB or the in-memory fallback) failed: quota, a closed or
+ * blocked database, a browser refusing writes (PLT-008 criterion 8). The original error
+ * is in `cause`. Nothing was stored by the failed call.
+ */
+export class StorageError extends LocalDataError {
+  constructor(
+    readonly operation: string,
+    readonly cause: unknown,
+  ) {
+    super("storage_failed", `Storage failed during ${operation}: ${describeCause(cause)}`);
+  }
+}
+
+function describeCause(cause: unknown): string {
+  if (cause instanceof Error) return `${cause.name}: ${cause.message}`;
+  return String(cause);
+}
+
+/** Runs a storage operation; any non-`LocalDataError` failure becomes a `StorageError`. */
+export async function guardStorage<T>(operation: string, run: () => Promise<T>): Promise<T> {
+  try {
+    return await run();
+  } catch (error) {
+    if (error instanceof LocalDataError) throw error;
+    throw new StorageError(operation, error);
   }
 }
