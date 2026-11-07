@@ -19,6 +19,7 @@ import {
   type Profile,
   type ProfileRepository,
   type ProfileUpdate,
+  type SettingsPatch,
   type ProgressRepository,
   type Settings,
   type Slug,
@@ -47,10 +48,8 @@ export interface RepositoryDeps {
   report: CorruptRecordReporter;
 }
 
-/** Fields the learner can change. `dailyGoalXp` is a plain number so UI input is checked at runtime. */
-export type SettingsPatch = Partial<
-  Pick<Settings, "courseId" | "soundEffectsEnabled" | "speakingExercisesEnabled">
-> & { dailyGoalXp?: number };
+/** Re-exported from the contracts (CR-002). */
+export type { SettingsPatch };
 
 export interface GuestBootstrapResult {
   identity: Identity;
@@ -63,12 +62,6 @@ export interface LocalProfileRepository extends ProfileRepository {
   /** Creates the guest on first launch (idempotent) and returns everything the shell needs. */
   bootstrap(): Promise<GuestBootstrapResult>;
   getIdentity(): Promise<Identity>;
-  /** Like `getSettings`, but `null` before onboarding instead of throwing. */
-  findSettings(): Promise<Settings | null>;
-  /** Merges `patch` into the settings. The first update must set course and daily goal. */
-  updateSettings(patch: SettingsPatch): Promise<Settings>;
-  /** Sets `onboardedAt` (kept if already set). Requires saved settings. */
-  completeOnboarding(): Promise<Profile>;
 }
 
 export type LocalProgressRepository = ProgressRepository;

@@ -27,6 +27,16 @@ export const GAME_CONFIG = {
   defaultDailyGoalXp: 20 satisfies DailyGoalOption,
 } as const;
 
+/**
+ * Defaults for the settings toggles when settings are first created at onboarding
+ * (CR-002). `courseId` and `dailyGoalXp` have no default: onboarding chooses them
+ * (`GAME_CONFIG.defaultDailyGoalXp` is only the pre-selected option).
+ */
+export const DEFAULT_SETTINGS = {
+  soundEffectsEnabled: true,
+  speakingExercisesEnabled: true,
+} as const;
+
 export const CONTENT_RULES = {
   /** Multiple-choice option count range (PRD 6.1: 3–4 options). */
   multipleChoiceMinOptions: 3,

@@ -29,7 +29,7 @@ features, follow-up PR
 ### CR-002: Guest profile functions and pre-onboarding settings
 
 - **Requested by:** dev-platform · **Date:** 2026-11-07 · **Ticket:** PLT-003
-- **Status:** open
+- **Status:** done
 - **Contract(s):** `src/contracts/api.ts` → `ProfileRepository`; `src/contracts/config.ts`;
   `src/contracts/user.ts` → `SettingsSchema`, `DisplayNameSchema`
 - **Problem:**
@@ -84,7 +84,36 @@ features, follow-up PR
   `lessonResults` (for `listLessonResults(courseId)`) and a `kind` index on `syncQueue`
   (to coalesce last-write-wins records). ARCHITECTURE §4.1 could list them.
 
-**CTO decision:** (cto fills in)
+**CTO decision:** partially approved (2026-11-07), branch `chore/cr-002-profile-repository`.
+
+- **Approved: `ProfileRepository` additions** in `api.ts`: `findSettings()`,
+  `updateSettings(patch: SettingsPatch)`, `completeOnboarding()`, plus the exported
+  `SettingsPatch` type, exactly as `src/lib/offline` already implements them (the
+  implementation's own `SettingsPatch` now re-exports the contract type, and
+  `LocalProfileRepository` keeps only `bootstrap()` / `getIdentity()` on top).
+  "No `Settings` record before onboarding" is the documented state: `getSettings()`
+  rejects, `findSettings()` returns `null`. `SettingsSchema` stays strict (no nullable
+  `courseId` / `dailyGoalXp`), so a stored or synced settings record is always complete.
+- **Approved: `DEFAULT_SETTINGS`** in `config.ts` (`soundEffectsEnabled: true`,
+  `speakingExercisesEnabled: true`). `src/lib/offline/defaults.ts` reads it.
+- **Rejected: nullable guest `displayName`.** It would change a synced payload
+  (`Profile`, `GuestMigrationPayload`) and the `profiles.display_name not null` column
+  (ADR-003), i.e. a `CONTRACTS_VERSION` bump, for no MVP benefit. "Learner" is a fixed,
+  non-personal placeholder, so PLT-003 AC8 (no personal data stored) holds. If the
+  product later needs "name not chosen yet", add an optional `displayNameChosen`
+  flag instead of a null.
+- **Deferred: error codes in contracts.** UI code imports the typed errors from
+  `@/lib/offline` (public API), which is allowed. Move `LocalDataErrorCode` into the
+  contracts only when a second data layer (Supabase repositories) needs the same codes.
+- **Docs note:** ARCHITECTURE §4.1 now lists the `courseId` index on `lessonResults`
+  and the `kind` / `status` indexes on `syncQueue`. §5 records the Zustand mirror of
+  profile/settings as a temporary deviation until TanStack Query is added.
+- **Breaking?** No. New interface members are already implemented by the only
+  implementation; `CONTRACTS_VERSION` stays 1.
+- **Affected features:** platform (PLT-003 `lib/offline`, adjusted minimally in this
+  branch; PLT-004 onboarding uses `updateSettings` / `completeOnboarding`; future
+  Supabase `ProfileRepository` must implement the new members); profile (store already
+  calls these methods). Lessons and gamification: none.
 
 ### CR-001: Match-pairs answer should carry the mismatch count
 

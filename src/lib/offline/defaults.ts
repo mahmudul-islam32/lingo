@@ -1,9 +1,9 @@
 /**
- * Default records for a new guest (ARCHITECTURE §6). Values come from the contracts;
- * the few that the contracts don't define yet are listed in CR-002
- * (docs/architecture/contract-requests.md).
+ * Default records for a new guest (ARCHITECTURE §6). Values come from the contracts
+ * (`DEFAULT_SETTINGS`, `GAME_CONFIG`; CR-002).
  */
 import {
+  DEFAULT_SETTINGS,
   GAME_CONFIG,
   type HeartsState,
   type Identity,
@@ -13,7 +13,7 @@ import {
 
 /**
  * Placeholder name shown until the learner picks one (`DisplayNameSchema` requires a
- * name). Not personal data. CR-002 asks whether this should become `null`.
+ * name). Not personal data. CR-002 kept `displayName` required, so this stays.
  */
 export const DEFAULT_GUEST_DISPLAY_NAME = "Learner";
 
@@ -21,10 +21,7 @@ export const DEFAULT_GUEST_DISPLAY_NAME = "Learner";
 export const DEFAULT_SETTINGS_TOGGLES: Pick<
   Settings,
   "soundEffectsEnabled" | "speakingExercisesEnabled"
-> = {
-  soundEffectsEnabled: true,
-  speakingExercisesEnabled: true,
-};
+> = DEFAULT_SETTINGS;
 
 export function createGuestIdentity(guestId: string): Identity {
   return { kind: "guest", guestId };
