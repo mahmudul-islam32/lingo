@@ -2,6 +2,11 @@
 
 **Status:** Proposal, owner decision needed · **Owner:** pm · **Date:** 2026-11-06
 
+> **Decision (2026-11-07):** Adopted **Polyglow** with mascot **Lumi**, palette midnight
+> indigo + amber/gold. See **PD-001** in `decisions.md`. The trademark, domain and handle
+> check is still waiting on the owner (non-blocking). The proposals below are kept as the
+> original record.
+
 ## Ground rules (non-negotiable)
 
 - Nothing derived from Duolingo or any other language app: not the name, the owl or any

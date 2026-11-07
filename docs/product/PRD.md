@@ -1,8 +1,8 @@
 # Product Requirements Document — MVP
 
-**App name:** [APP_NAME] (see `branding-proposals.md`; owner to decide)
-**Mascot:** [MASCOT]
-**Status:** Draft v1 — Phase 0 · **Owner:** pm · **Last updated:** 2026-11-06
+**App name:** Polyglow (decided, see PD-001 in `decisions.md`)
+**Mascot:** Lumi, the paper lantern
+**Status:** Draft v1 — Phase 0 · **Owner:** pm · **Last updated:** 2026-11-07
 
 ---
 
@@ -11,7 +11,7 @@
 Make learning a language a daily habit that takes five minutes, works on any phone
 without an app store, and keeps working on a train with no signal.
 
-[APP_NAME] is a mobile-first Progressive Web App with short, game-like lessons. Learners
+Polyglow is a mobile-first Progressive Web App with short, game-like lessons. Learners
 move along a skill path, earn XP, keep a daily streak and protect a small stock of hearts.
 Everything about the brand, mascot, art, sound and course content is our own.
 
@@ -195,13 +195,13 @@ Measured from MVP launch, on a rolling 28-day window. MVP needs basic event trac
 
 | # | Question | Default assumption | Decide by |
 |---|---|---|---|
-| Q1 | App name and mascot | See `branding-proposals.md` recommendation | Owner, before Phase 1 |
-| Q2 | XP values, heart refill interval, daily goal options | 10 XP / +5 perfect; 1 heart per 4 h; 10/20/30/50 | CTO puts them in contracts/config; pm can tune |
-| Q3 | Do guests lose hearts? | Yes, same rules as signed-in users | pm |
+| Q1 | App name and mascot | **Decided (PD-001):** Polyglow, mascot Lumi, palette midnight indigo + amber/gold. Trademark/domain/handle check waiting on owner (non-blocking) | Decided 2026-11-07 |
+| Q2 | XP values, heart refill interval, daily goal options | **Default set (PD-003):** 10 XP / +5 perfect; 1 heart per 4 h; 10/20/30/50 | CTO puts them in contracts/config; pm can tune |
+| Q3 | Do guests lose hearts? | **Default set (PD-003):** Yes, same rules as signed-in users | pm |
 | Q4 | Streak day boundary | Learner's device local timezone, stored with each completion | CTO |
 | Q5 | Analytics vendor | Privacy-friendly, no third-party ad trackers | CTO |
-| Q6 | Minimum age / consent copy | 13+, simple terms and privacy page | Owner (legal) |
-| Q7 | TTS provider for pre-generated audio | Any provider whose licence allows commercial redistribution of the output | CTO + owner |
+| Q6 | Minimum age / consent copy | 13+, simple terms and privacy page (placeholder copy until decided) | Owner (legal), non-blocking |
+| Q7 | TTS provider for pre-generated audio | Any provider whose licence allows commercial redistribution of the output (placeholder/mock audio until decided) | CTO + owner (licence), non-blocking |
 
 ## 10. Dependencies
 
