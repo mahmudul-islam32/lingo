@@ -1,0 +1,123 @@
+{
+  "id": "u1-l3-at-the-cafe",
+  "courseId": "en-es",
+  "unitId": "unit-1",
+  "title": "At the Café",
+  "tip": "Add por favor to sound polite. Plurals end in -s or -es: dos cafés, tres panes.",
+  "exercises": [
+    {
+      "id": "u1-l3-ex01",
+      "type": "multiple_choice",
+      "prompt": "Which one means 'water'?",
+      "options": [
+        { "id": "a", "text": "Pan" },
+        { "id": "b", "text": "Agua" },
+        { "id": "c", "text": "Café" }
+      ],
+      "correctOptionId": "b"
+    },
+    {
+      "id": "u1-l3-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which one means 'please'?",
+      "options": [
+        { "id": "a", "text": "Gracias" },
+        { "id": "b", "text": "Mucho gusto" },
+        { "id": "c", "text": "Por favor" },
+        { "id": "d", "text": "Adiós" }
+      ],
+      "correctOptionId": "c"
+    },
+    {
+      "id": "u1-l3-ex03",
+      "type": "match_pairs",
+      "pairs": [
+        { "id": "p1", "learning": "café", "known": "coffee" },
+        { "id": "p2", "learning": "agua", "known": "water" },
+        { "id": "p3", "learning": "pan", "known": "bread" },
+        { "id": "p4", "learning": "por favor", "known": "please" },
+        { "id": "p5", "learning": "quiero", "known": "I want" }
+      ]
+    },
+    {
+      "id": "u1-l3-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "A coffee, please.",
+      "tiles": ["un", "café", "por", "favor", "agua", "dos", "pan"],
+      "answers": ["Un café, por favor.", "Por favor, un café."]
+    },
+    {
+      "id": "u1-l3-ex05",
+      "type": "listen",
+      "audio": { "src": "/audio/es/quiero-agua-por-favor.mp3" },
+      "tiles": ["quiero", "agua", "por", "favor", "pan", "café", "gracias"],
+      "answers": ["Quiero agua, por favor."]
+    },
+    {
+      "id": "u1-l3-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Quiero pan, por favor.",
+      "tiles": ["I", "want", "bread", "please", "water", "coffee", "you"],
+      "answers": ["I want bread, please.", "Please, I want bread."]
+    },
+    {
+      "id": "u1-l3-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which one means 'three'?",
+      "options": [
+        { "id": "a", "text": "Uno" },
+        { "id": "b", "text": "Dos" },
+        { "id": "c", "text": "Tres" }
+      ],
+      "correctOptionId": "c"
+    },
+    {
+      "id": "u1-l3-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Two coffees, please.",
+      "tiles": ["dos", "cafés", "por", "favor", "tres", "café", "agua"],
+      "answers": ["Dos cafés, por favor.", "Por favor, dos cafés."]
+    },
+    {
+      "id": "u1-l3-ex09",
+      "type": "listen",
+      "audio": { "src": "/audio/es/un-cafe-y-tres-panes.mp3" },
+      "tiles": ["un", "café", "y", "tres", "panes", "dos", "pan", "agua"],
+      "answers": ["Un café y tres panes."]
+    },
+    {
+      "id": "u1-l3-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Quiero un café, por favor.",
+      "tiles": ["I", "want", "a", "coffee", "please", "bread", "two", "water"],
+      "answers": [
+        "I want a coffee, please.",
+        "Please, I want a coffee.",
+        "I want coffee, please.",
+        "Please, I want coffee."
+      ]
+    },
+    {
+      "id": "u1-l3-ex11",
+      "type": "multiple_choice",
+      "prompt": "Which one means 'quiero'?",
+      "options": [
+        { "id": "a", "text": "I want" },
+        { "id": "b", "text": "Please" },
+        { "id": "c", "text": "Thank you" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "u1-l3-ex12",
+      "type": "listen",
+      "audio": { "src": "/audio/es/hola-quiero-tres-panes.mp3" },
+      "tiles": ["hola", "quiero", "tres", "panes", "dos", "pan", "café"],
+      "answers": ["Hola, quiero tres panes."]
+    }
+  ]
+}

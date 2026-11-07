@@ -1,0 +1,21 @@
+{
+  "id": "en-es",
+  "title": "Spanish",
+  "learningLanguage": "es",
+  "knownLanguage": "en",
+  "version": 1,
+  "units": [
+    {
+      "id": "unit-1",
+      "title": "First Steps",
+      "description": "Say hello, introduce yourself, order at a café, count to ten and find your way around town.",
+      "lessons": [
+        { "id": "u1-l1-hello", "title": "Hello!" },
+        { "id": "u1-l2-nice-to-meet-you", "title": "Nice to Meet You" },
+        { "id": "u1-l3-at-the-cafe", "title": "At the Café" },
+        { "id": "u1-l4-count-it", "title": "Count It" },
+        { "id": "u1-l5-around-town", "title": "Around Town" }
+      ]
+    }
+  ]
+}

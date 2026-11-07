@@ -1,0 +1,119 @@
+{
+  "id": "u1-l4-count-it",
+  "courseId": "en-es",
+  "unitId": "unit-1",
+  "title": "Count It",
+  "tip": "¿Cuántos? means 'how many?'. Before a word, uno becomes un: un café.",
+  "exercises": [
+    {
+      "id": "u1-l4-ex01",
+      "type": "multiple_choice",
+      "prompt": "Which one means 'five'?",
+      "options": [
+        { "id": "a", "text": "Cuatro" },
+        { "id": "b", "text": "Cinco" },
+        { "id": "c", "text": "Seis" }
+      ],
+      "correctOptionId": "b"
+    },
+    {
+      "id": "u1-l4-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which one means 'ocho'?",
+      "options": [
+        { "id": "a", "text": "Six" },
+        { "id": "b", "text": "Ten" },
+        { "id": "c", "text": "Seven" },
+        { "id": "d", "text": "Eight" }
+      ],
+      "correctOptionId": "d"
+    },
+    {
+      "id": "u1-l4-ex03",
+      "type": "match_pairs",
+      "pairs": [
+        { "id": "p1", "learning": "cuatro", "known": "four" },
+        { "id": "p2", "learning": "seis", "known": "six" },
+        { "id": "p3", "learning": "siete", "known": "seven" },
+        { "id": "p4", "learning": "nueve", "known": "nine" },
+        { "id": "p5", "learning": "diez", "known": "ten" }
+      ]
+    },
+    {
+      "id": "u1-l4-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "How many coffees?",
+      "tiles": ["cuántos", "cafés", "café", "cinco", "pan"],
+      "answers": ["¿Cuántos cafés?"]
+    },
+    {
+      "id": "u1-l4-ex05",
+      "type": "listen",
+      "audio": { "src": "/audio/es/siete-ocho-nueve-diez.mp3" },
+      "tiles": ["siete", "ocho", "nueve", "diez", "seis", "cinco", "dos"],
+      "answers": ["Siete, ocho, nueve, diez."]
+    },
+    {
+      "id": "u1-l4-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Seis cafés, por favor.",
+      "tiles": ["six", "coffees", "please", "seven", "coffee", "ten"],
+      "answers": ["Six coffees, please.", "Please, six coffees."]
+    },
+    {
+      "id": "u1-l4-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which one means 'how many'?",
+      "options": [
+        { "id": "a", "text": "¿Cuántos?" },
+        { "id": "b", "text": "¿Cómo estás?" },
+        { "id": "c", "text": "¿De dónde eres?" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "u1-l4-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I want ten, please.",
+      "tiles": ["quiero", "diez", "por", "favor", "dos", "nueve", "cuántos"],
+      "answers": ["Quiero diez, por favor.", "Por favor, quiero diez."]
+    },
+    {
+      "id": "u1-l4-ex09",
+      "type": "listen",
+      "audio": { "src": "/audio/es/cuantos-panes-tres.mp3" },
+      "tiles": ["cuántos", "panes", "tres", "pan", "seis", "dos"],
+      "answers": ["¿Cuántos panes? Tres."]
+    },
+    {
+      "id": "u1-l4-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Uno, dos, tres, cuatro, cinco.",
+      "tiles": ["one", "two", "three", "four", "five", "six", "ten"],
+      "answers": ["One, two, three, four, five."]
+    },
+    {
+      "id": "u1-l4-ex11",
+      "type": "multiple_choice",
+      "prompt": "Which one means 'siete'?",
+      "options": [
+        { "id": "a", "text": "Seven" },
+        { "id": "b", "text": "Six" },
+        { "id": "c", "text": "Nine" },
+        { "id": "d", "text": "Four" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "u1-l4-ex12",
+      "type": "listen",
+      "audio": { "src": "/audio/es/quiero-cuatro-cafes-por-favor.mp3" },
+      "tiles": ["quiero", "cuatro", "cafés", "por", "favor", "cinco", "café", "ocho"],
+      "answers": ["Quiero cuatro cafés, por favor."]
+    }
+  ]
+}

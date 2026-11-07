@@ -1,0 +1,119 @@
+{
+  "id": "u1-l2-nice-to-meet-you",
+  "courseId": "en-es",
+  "unitId": "unit-1",
+  "title": "Nice to Meet You",
+  "tip": "Soy means 'I am' and eres means 'you are'. Mucho gusto works with anyone you meet.",
+  "exercises": [
+    {
+      "id": "u1-l2-ex01",
+      "type": "multiple_choice",
+      "prompt": "Which one means 'nice to meet you'?",
+      "options": [
+        { "id": "a", "text": "Mucho gusto" },
+        { "id": "b", "text": "Buenas noches" },
+        { "id": "c", "text": "Me llamo" },
+        { "id": "d", "text": "¿Y tú?" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "u1-l2-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which one means 'soy'?",
+      "options": [
+        { "id": "a", "text": "You are" },
+        { "id": "b", "text": "And you?" },
+        { "id": "c", "text": "I am" }
+      ],
+      "correctOptionId": "c"
+    },
+    {
+      "id": "u1-l2-ex03",
+      "type": "match_pairs",
+      "pairs": [
+        { "id": "p1", "learning": "soy", "known": "I am" },
+        { "id": "p2", "learning": "eres", "known": "you are" },
+        { "id": "p3", "learning": "me llamo", "known": "my name is" },
+        { "id": "p4", "learning": "mucho gusto", "known": "nice to meet you" },
+        { "id": "p5", "learning": "¿y tú?", "known": "and you?" }
+      ]
+    },
+    {
+      "id": "u1-l2-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "My name is Lucía.",
+      "tiles": ["me", "llamo", "Lucía", "eres", "de", "gusto"],
+      "answers": ["Me llamo Lucía."]
+    },
+    {
+      "id": "u1-l2-ex05",
+      "type": "listen",
+      "audio": { "src": "/audio/es/hola-me-llamo-mateo.mp3" },
+      "tiles": ["hola", "me", "llamo", "Mateo", "te", "soy", "cómo"],
+      "answers": ["Hola, me llamo Mateo."]
+    },
+    {
+      "id": "u1-l2-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "¿Cómo te llamas?",
+      "tiles": ["what's", "what", "is", "your", "name", "my", "how"],
+      "answers": ["What's your name?", "What is your name?"]
+    },
+    {
+      "id": "u1-l2-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which one means 'Where are you from'?",
+      "options": [
+        { "id": "a", "text": "¿Cómo estás?" },
+        { "id": "b", "text": "¿De dónde eres?" },
+        { "id": "c", "text": "¿Cómo te llamas?" }
+      ],
+      "correctOptionId": "b"
+    },
+    {
+      "id": "u1-l2-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I'm from Mexico.",
+      "tiles": ["soy", "de", "México", "eres", "Chile", "me"],
+      "answers": ["Soy de México."]
+    },
+    {
+      "id": "u1-l2-ex09",
+      "type": "listen",
+      "audio": { "src": "/audio/es/mucho-gusto-soy-ines.mp3" },
+      "tiles": ["mucho", "gusto", "soy", "Inés", "eres", "de", "llamo"],
+      "answers": ["Mucho gusto, soy Inés."]
+    },
+    {
+      "id": "u1-l2-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Soy Bruno. ¿Y tú?",
+      "tiles": ["I'm", "I", "am", "Bruno", "and", "you", "are", "from"],
+      "answers": ["I'm Bruno. And you?", "I am Bruno. And you?"]
+    },
+    {
+      "id": "u1-l2-ex11",
+      "type": "multiple_choice",
+      "prompt": "Which one means 'you are'?",
+      "options": [
+        { "id": "a", "text": "Soy" },
+        { "id": "b", "text": "Gracias" },
+        { "id": "c", "text": "De" },
+        { "id": "d", "text": "Eres" }
+      ],
+      "correctOptionId": "d"
+    },
+    {
+      "id": "u1-l2-ex12",
+      "type": "listen",
+      "audio": { "src": "/audio/es/de-donde-eres.mp3" },
+      "tiles": ["de", "dónde", "eres", "soy", "cómo", "te"],
+      "answers": ["¿De dónde eres?"]
+    }
+  ]
+}

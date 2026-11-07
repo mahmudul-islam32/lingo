@@ -1,0 +1,118 @@
+{
+  "id": "u1-l1-hello",
+  "courseId": "en-es",
+  "unitId": "unit-1",
+  "title": "Hello!",
+  "tip": "Spanish questions start with ¿ and exclamations with ¡, like ¡Hola!",
+  "exercises": [
+    {
+      "id": "u1-l1-ex01",
+      "type": "multiple_choice",
+      "prompt": "Which one means 'hello'?",
+      "options": [
+        { "id": "a", "text": "Hola" },
+        { "id": "b", "text": "Adiós" },
+        { "id": "c", "text": "Gracias" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "u1-l1-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which one means 'good morning'?",
+      "options": [
+        { "id": "a", "text": "Buenas noches" },
+        { "id": "b", "text": "Buenos días" },
+        { "id": "c", "text": "Buenas tardes" }
+      ],
+      "correctOptionId": "b"
+    },
+    {
+      "id": "u1-l1-ex03",
+      "type": "match_pairs",
+      "pairs": [
+        { "id": "p1", "learning": "hola", "known": "hello" },
+        { "id": "p2", "learning": "adiós", "known": "goodbye" },
+        { "id": "p3", "learning": "gracias", "known": "thank you" },
+        { "id": "p4", "learning": "bien", "known": "fine" },
+        { "id": "p5", "learning": "buenas noches", "known": "good night" }
+      ]
+    },
+    {
+      "id": "u1-l1-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Hello, how are you?",
+      "tiles": ["hola", "cómo", "estás", "adiós", "bien", "días"],
+      "answers": ["Hola, ¿cómo estás?"]
+    },
+    {
+      "id": "u1-l1-ex05",
+      "type": "listen",
+      "audio": { "src": "/audio/es/buenos-dias.mp3" },
+      "tiles": ["buenos", "días", "buenas", "noches", "tardes"],
+      "answers": ["Buenos días"]
+    },
+    {
+      "id": "u1-l1-ex06",
+      "type": "multiple_choice",
+      "prompt": "Which one means 'gracias'?",
+      "options": [
+        { "id": "a", "text": "Goodbye" },
+        { "id": "b", "text": "Thank you" },
+        { "id": "c", "text": "Good night" }
+      ],
+      "correctOptionId": "b"
+    },
+    {
+      "id": "u1-l1-ex07",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Bien, gracias.",
+      "tiles": ["fine", "thanks", "thank", "you", "hello", "night"],
+      "answers": ["Fine, thanks.", "Fine, thank you."]
+    },
+    {
+      "id": "u1-l1-ex08",
+      "type": "listen",
+      "audio": { "src": "/audio/es/buenas-tardes-como-estas.mp3" },
+      "tiles": ["buenas", "tardes", "cómo", "estás", "noches", "buenos", "hola"],
+      "answers": ["Buenas tardes, ¿cómo estás?"]
+    },
+    {
+      "id": "u1-l1-ex09",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Fine, thank you. Goodbye!",
+      "tiles": ["bien", "gracias", "adiós", "hola", "noches", "cómo"],
+      "answers": ["Bien, gracias. ¡Adiós!"]
+    },
+    {
+      "id": "u1-l1-ex10",
+      "type": "multiple_choice",
+      "prompt": "Which one means 'good afternoon'?",
+      "options": [
+        { "id": "a", "text": "Buenos días" },
+        { "id": "b", "text": "Hola" },
+        { "id": "c", "text": "Buenas tardes" },
+        { "id": "d", "text": "Buenas noches" }
+      ],
+      "correctOptionId": "c"
+    },
+    {
+      "id": "u1-l1-ex11",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Buenos días, ¿cómo estás?",
+      "tiles": ["good", "morning", "how", "are", "you", "night", "hello", "fine"],
+      "answers": ["Good morning, how are you?"]
+    },
+    {
+      "id": "u1-l1-ex12",
+      "type": "listen",
+      "audio": { "src": "/audio/es/hola-buenas-noches.mp3" },
+      "tiles": ["hola", "buenas", "noches", "buenos", "días", "adiós"],
+      "answers": ["Hola, buenas noches."]
+    }
+  ]
+}
