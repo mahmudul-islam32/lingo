@@ -92,10 +92,11 @@ Rules:
    button is disabled and shows `nextRefillAt`.
 3. The lessons feature creates a `LessonSession` in its Zustand store: queue = exercise
    ids in content order, minus hidden ones (speak when unsupported/disabled).
-4. "Check": `checkAnswer({ exercise, answer })` → `AnswerCheckResult`. An incorrect
-   non-speak answer costs 1 heart: `loseHearts` + `ProgressRepository.saveHearts`
-   **immediately** (so quitting does not undo the loss), and the exercise id is
-   appended to the end of the queue.
+4. "Check": `checkAnswer({ exercise, answer })` → `AnswerCheckResult`. A result with
+   `heartCost > 0` (incorrect non-speak answer, or match pairs with any mismatch) costs
+   that many hearts: `loseHearts` + `ProgressRepository.saveHearts` **immediately** (so
+   quitting does not undo the loss). An `incorrect` exercise id is appended to the end
+   of the queue; match pairs are never re-queued (PD-012).
 5. Hearts reach 0 → status `out_of_hearts`, no result, no XP.
 6. Queue empty → status `completed`. The lessons feature builds a `LessonResult`
    (XP from `computeLessonXp`, `localDate` from `toLocalDate(completedAt, deviceTz)`)
@@ -217,7 +218,7 @@ are in `src/contracts/api.ts`; implementations are owned by dev-gamification in
 | Rule           | Function                   | Definition                                                                                                                                                                                                       |
 | -------------- | -------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Lesson XP      | `computeLessonXp`          | `base = xpPerLesson` (10) for every completed lesson incl. replays; `perfectBonus = perfectLessonBonusXp` (5) iff `mistakeCount === 0`.                                                                          |
-| Perfect        | (in result)                | No incorrect attempt. Skipped speak exercises don't count as mistakes.                                                                                                                                           |
+| Perfect        | (in result)                | `mistakeCount === 0`, counting attempts with `mistake: true` (PD-012: incorrect answers, plus 1 per match pairs with a mismatch). Skipped speak exercises are never mistakes.                                    |
 | Accuracy       | (in result)                | `firstTryCorrectCount / (exerciseCount − skippedCount)`; 1 if the denominator is 0.                                                                                                                              |
 | XP events      | `deriveXpEvents`           | One `XpEvent` per non-zero breakdown line of a result.                                                                                                                                                           |
 | Total XP       | `computeUserProgress`      | Sum of `xpEarned` over all results.                                                                                                                                                                              |
@@ -227,7 +228,7 @@ are in `src/contracts/api.ts`; implementations are owned by dev-gamification in
 | Daily goal     | `computeDailyGoalProgress` | Sum `xpEarned` of results with `localDate === today`; `reached = earned ≥ goalXp` (10/20/30/50).                                                                                                                 |
 | Streak         | `computeStreak`            | From distinct result `localDate`s: `current` = run of consecutive days ending today, or ending yesterday if nothing today yet; 0 otherwise. `longest` = longest run ever. `extendedToday` = today is in the set. |
 | Path unlock    | `computePathNodes`         | Course order across units. Completed if a result exists; the first not-completed lesson is available (or `in_progress` if it is the active one); the rest are locked. Completed lessons stay replayable.         |
-| Answer → heart | `checkAnswer`              | `heartCost = 1` only for `incorrect` non-speak outcomes.                                                                                                                                                         |
+| Answer → heart | `checkAnswer`              | `heartCost = 1` for `incorrect` non-speak outcomes and for match pairs with `mismatchCount > 0` (at most 1 per exercise); else 0.                                                                                |
 
 ### Streak day boundary: device local timezone
 
@@ -248,13 +249,13 @@ Intl.DateTimeFormat().resolvedOptions().timeZone)` (format `YYYY-MM-DD`) and the
 Uses `normalizeAnswerText` / `tokenizeAnswer` / `foldDiacritics` from `@/contracts`, the
 same functions the content schema uses to verify that answers are buildable.
 
-| Type                  | Correct when                                                                                                                                              | `correctAnswer`     |
-| --------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------- |
-| `multiple_choice`     | `optionId === correctOptionId`                                                                                                                            | correct option text |
-| `word_bank_translate` | `normalize(tiles.join(" "))` equals `normalize(a)` for any `a` in `answers` (diacritics matter)                                                           | `answers[0]`        |
-| `listen`              | same as word bank                                                                                                                                         | `answers[0]`        |
-| `match_pairs`         | every pair matched, each `learningPairId === knownPairId`. Mismatched taps get live feedback only and are not submitted, so match pairs never cost hearts | `null`              |
-| `speak`               | `skipped` → outcome `skipped`; else any transcript, `foldDiacritics`-ed, equals `phrase` or an `acceptedTranscripts` entry, folded the same way           | `phrase`            |
+| Type                  | Correct when                                                                                                                                                                                                                | `correctAnswer`     |
+| --------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------- |
+| `multiple_choice`     | `optionId === correctOptionId`                                                                                                                                                                                              | correct option text |
+| `word_bank_translate` | `normalize(tiles.join(" "))` equals `normalize(a)` for any `a` in `answers` (diacritics matter)                                                                                                                             | `answers[0]`        |
+| `listen`              | same as word bank                                                                                                                                                                                                           | `answers[0]`        |
+| `match_pairs`         | every pair matched, each `learningPairId === knownPairId`. Mismatched taps get live feedback and are counted in `mismatchCount`; any mismatch makes the (still correct) result a `mistake` costing 1 heart (CR-001, PD-012) | `null`              |
+| `speak`               | `skipped` → outcome `skipped`; else any transcript, `foldDiacritics`-ed, equals `phrase` or an `acceptedTranscripts` entry, folded the same way                                                                             | `phrase`            |
 
 ## 9. Content
 

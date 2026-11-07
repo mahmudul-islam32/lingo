@@ -8,13 +8,7 @@ import {
   type Exercise,
   type ExerciseOfType,
 } from "@/contracts";
-import {
-  checkAnswer,
-  checkMatchPairsWithMismatches,
-  isMatchPairsComplete,
-  joinTiles,
-  matchesAcceptedAnswer,
-} from "./index";
+import { checkAnswer, isMatchPairsComplete, joinTiles, matchesAcceptedAnswer } from "./index";
 
 /** Parses fixtures with the content schema so tests only use valid content. */
 function exercise<T extends Exercise>(value: T): T {
@@ -111,7 +105,13 @@ describe("checkAnswer: multiple choice (AC3)", () => {
   it("is correct only for the correct option", () => {
     expect(
       check({ exercise: multipleChoice, answer: { type: "multiple_choice", optionId: "b" } }),
-    ).toEqual({ exerciseId: "mc-water", outcome: "correct", correctAnswer: "Agua", heartCost: 0 });
+    ).toEqual({
+      exerciseId: "mc-water",
+      outcome: "correct",
+      mistake: false,
+      correctAnswer: "Agua",
+      heartCost: 0,
+    });
   });
 
   it.each(["a", "c", "zz"])("is incorrect for option %s and costs a heart", (optionId) => {
@@ -120,6 +120,7 @@ describe("checkAnswer: multiple choice (AC3)", () => {
     ).toEqual({
       exerciseId: "mc-water",
       outcome: "incorrect",
+      mistake: true,
       correctAnswer: "Agua",
       heartCost: HEART,
     });
@@ -131,6 +132,7 @@ describe("checkAnswer: translate with word bank (AC4–AC7)", () => {
     expect(tiles(translate, ["¡Buenos", "días!"])).toEqual({
       exerciseId: "wb-good-morning",
       outcome: "correct",
+      mistake: false,
       correctAnswer: "¡Buenos días!",
       heartCost: 0,
     });
@@ -165,6 +167,7 @@ describe("checkAnswer: translate with word bank (AC4–AC7)", () => {
     expect(tiles(translate, ["días!", "¡Buenos"])).toEqual({
       exerciseId: "wb-good-morning",
       outcome: "incorrect",
+      mistake: true,
       correctAnswer: "¡Buenos días!",
       heartCost: HEART,
     });
@@ -185,7 +188,11 @@ describe("checkAnswer: translate with word bank (AC4–AC7)", () => {
   });
 
   it("an empty answer is incorrect", () => {
-    expect(tiles(translate, [])).toMatchObject({ outcome: "incorrect", heartCost: HEART });
+    expect(tiles(translate, [])).toMatchObject({
+      outcome: "incorrect",
+      mistake: true,
+      heartCost: HEART,
+    });
     expect(tiles(translate, ["", "  "]).outcome).toBe("incorrect");
   });
 
@@ -200,6 +207,7 @@ describe("checkAnswer: listen (AC4–AC7)", () => {
     expect(heard(["feliz", "año", "nuevo"])).toEqual({
       exerciseId: "ls-year",
       outcome: "correct",
+      mistake: false,
       correctAnswer: "¡Feliz año nuevo!",
       heartCost: 0,
     });
@@ -208,6 +216,7 @@ describe("checkAnswer: listen (AC4–AC7)", () => {
   it("ñ is significant (ano ≠ año)", () => {
     expect(heard(["Feliz", "ano", "nuevo"])).toMatchObject({
       outcome: "incorrect",
+      mistake: true,
       heartCost: HEART,
     });
   });
@@ -226,9 +235,15 @@ describe("checkAnswer: match pairs (AC8)", () => {
     expect(
       check({
         exercise: matchPairs,
-        answer: { type: "match_pairs", matches: [...allMatches].reverse() },
+        answer: { type: "match_pairs", matches: [...allMatches].reverse(), mismatchCount: 0 },
       }),
-    ).toEqual({ exerciseId: "mp-animals", outcome: "correct", correctAnswer: null, heartCost: 0 });
+    ).toEqual({
+      exerciseId: "mp-animals",
+      outcome: "correct",
+      mistake: false,
+      correctAnswer: null,
+      heartCost: 0,
+    });
   });
 
   it.each([
@@ -249,30 +264,51 @@ describe("checkAnswer: match pairs (AC8)", () => {
     ],
     ["an extra match", [...allMatches, allMatches[0]!]],
   ])("is incorrect with %s", (_label, matches) => {
-    expect(check({ exercise: matchPairs, answer: { type: "match_pairs", matches } })).toEqual({
+    expect(
+      check({ exercise: matchPairs, answer: { type: "match_pairs", matches, mismatchCount: 0 } }),
+    ).toEqual({
       exerciseId: "mp-animals",
       outcome: "incorrect",
+      mistake: true,
       correctAnswer: null,
       heartCost: HEART,
     });
   });
 
-  it("reports whether any mismatch happened during play (PD-012)", () => {
-    const answer = { type: "match_pairs", matches: allMatches } as const;
-    const clean = checkMatchPairsWithMismatches({ exercise: matchPairs, answer, mismatchCount: 0 });
-    expect(clean).toEqual({
-      result: { exerciseId: "mp-animals", outcome: "correct", correctAnswer: null, heartCost: 0 },
-      hadMismatch: false,
-    });
-    const messy = checkMatchPairsWithMismatches({ exercise: matchPairs, answer, mismatchCount: 3 });
-    expect(messy.result.outcome).toBe("correct");
-    expect(messy.hadMismatch).toBe(true);
+  it("counts any mismatch as one mistake costing one heart, still correct (PD-012)", () => {
+    for (const mismatchCount of [1, 3]) {
+      expect(
+        check({
+          exercise: matchPairs,
+          answer: { type: "match_pairs", matches: allMatches, mismatchCount },
+        }),
+      ).toEqual({
+        exerciseId: "mp-animals",
+        outcome: "correct",
+        mistake: true,
+        correctAnswer: null,
+        heartCost: HEART,
+      });
+    }
+  });
+
+  it("an incomplete board is one mistake and one heart, whatever the mismatch count", () => {
+    expect(
+      check({
+        exercise: matchPairs,
+        answer: { type: "match_pairs", matches: allMatches.slice(0, 4), mismatchCount: 4 },
+      }),
+    ).toMatchObject({ outcome: "incorrect", mistake: true, heartCost: HEART });
   });
 
   it("isMatchPairsComplete is exported for the player", () => {
-    expect(isMatchPairsComplete(matchPairs, { type: "match_pairs", matches: allMatches })).toBe(
-      true,
-    );
+    expect(
+      isMatchPairsComplete(matchPairs, {
+        type: "match_pairs",
+        matches: allMatches,
+        mismatchCount: 0,
+      }),
+    ).toBe(true);
   });
 });
 
@@ -286,6 +322,7 @@ describe("checkAnswer: speak", () => {
     ).toEqual({
       exerciseId: "sp-good-morning",
       outcome: "skipped",
+      mistake: false,
       correctAnswer: "Buenos días",
       heartCost: 0,
     });
@@ -301,6 +338,7 @@ describe("checkAnswer: speak", () => {
     expect(say(["buenas noches"])).toEqual({
       exerciseId: "sp-good-morning",
       outcome: "incorrect",
+      mistake: true,
       correctAnswer: "Buenos días",
       heartCost: 0,
     });
