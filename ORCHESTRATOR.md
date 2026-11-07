@@ -69,10 +69,35 @@ Lumi**, replace `[APP_NAME]`/`[MASCOT]` in `CLAUDE.md` and the docs, and have th
    (only ever in the dedicated orchestrator checkout, never in a dev's worktree).
 2. Read `CLAUDE.md`, `ORCHESTRATOR.md`, `docs/STATUS.md`, `docs/product/ROADMAP.md`
    (if present) and `docs/OWNER-NOTES.md` (if present).
-3. Find where the lifecycle stands and do as much as fits in the run — typically
-   1–3 tickets moving forward one stage, or one release. Prefer finishing work
-   in progress (open PRs, change requests) over starting new work.
+3. Find where the lifecycle stands, then **work continuously for up to 3 hours**
+   (long runs, not small steps). See "Long runs" below.
 4. Update `docs/STATUS.md` (run time, what each agent did, PRs merged, releases,
    current milestone, next steps, blockers, "Waiting on owner (non-blocking)") on
    a `docs/status-<YYYY-MM-DD>-<HHMM>` branch, merged by the `cto`.
 5. End with a short summary: agents used, PRs merged, release (if any), what's next.
+
+## Long runs (up to 3 hours per run)
+- **Time box:** note the start time. Keep looping through the lifecycle
+  (plan → design → build → review & merge → accept → release) until about
+  **2h45m** have passed, then spend the last 15 minutes on the handoff.
+  Never stop early just because one ticket is done: pick up the next one.
+- **Unit of work = a complete feature.** Aim to ship whole user-facing features
+  end to end in one run (e.g. "a full playable lesson with all its exercise
+  types, feedback and results screen"), not a single small step. Group the
+  related tickets of a feature and drive all of them through build → merge →
+  accept in the same run. In the KICKOFF phases, do whole phases at once
+  (e.g. CTO-001…CTO-004 in one run).
+- **Parallelism:** run independent tickets on different dev agents at the same
+  time, each in its own git worktree (`git worktree add ../lingo-<ticket-id>
+  -b feature/<ticket-id>-...`), so they don't fight over one checkout.
+- **Checkpoint often:** commit and push the feature branch after every
+  meaningful chunk (green checks or not), so nothing is lost if the run ends.
+- **If the run is cut short** (time box reached, or usage/token limit hit):
+  push every branch, even unfinished ones (commit message
+  `<type>(<scope>): wip <what> [<ticket-id>]`), and write a **"Handoff"** section
+  in `docs/STATUS.md` listing each unfinished branch, what's done, what's left
+  and the exact next step. If the run is cut off before the handoff, the next
+  run reconstructs it from `git branch -r`, open PRs and the commits.
+- **Next run resumes first:** finish everything in the Handoff and all open
+  PRs/branches before starting new work. Remove a `wip` item from the Handoff
+  once it's merged.
