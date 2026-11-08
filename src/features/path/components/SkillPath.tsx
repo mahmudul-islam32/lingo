@@ -4,7 +4,13 @@ import { useCallback, useMemo } from "react";
 import { useQuery } from "@tanstack/react-query";
 import type { Slug } from "@/contracts";
 import { useToast } from "@/components/ui";
-import { useUserProgress, type UseProgressOptions } from "@/features/gamification";
+import {
+  formatHeartRefill,
+  useHearts,
+  useMinuteClock,
+  useUserProgress,
+  type UseProgressOptions,
+} from "@/features/gamification";
 import { courseQuery, type CourseLoader } from "../data/course-query";
 import { computePathNodes } from "../rules";
 import { SkillPathError } from "./SkillPathError";
@@ -21,11 +27,14 @@ export interface SkillPathProps extends UseProgressOptions {
    */
   loadCourse: CourseLoader;
   /**
-   * `useHearts().view.canStartLesson` (GAM-005). Default `true`. Injected so the path
-   * does not depend on GAM-005's hooks while they are built in parallel.
+   * Override for the 0-hearts gate. Default: `useHearts().view.canStartLesson` (GAM-005),
+   * or `true` while hearts are still loading.
    */
   canStartLesson?: boolean;
-  /** `formatHeartRefill(view, now)` (GAM-005), shown in the out-of-hearts dialog. */
+  /**
+   * Override for the out-of-hearts dialog text. Default: `formatHeartRefill(view, now)`
+   * with a minute clock that only runs while the learner is out of hearts.
+   */
   heartRefillText?: string | null;
   /** Lesson currently being played, if any (PD-018: none on Learn in MVP). */
   activeLessonId?: Slug | null;
@@ -41,12 +50,14 @@ export interface SkillPathProps extends UseProgressOptions {
  * - Results can't be read → the path still shows, Lesson 1 available, rest locked (AC14).
  * - A finished lesson invalidates `["progress", courseId]`, so nodes update without a
  *   reload (AC12).
+ * - Hearts come from `useHearts()` (AC9, AC10): at 0 hearts playable nodes open the
+ *   out-of-hearts dialog with `formatHeartRefill`; a refill reopens the path.
  */
 export function SkillPath({
   courseId,
   loadCourse,
-  canStartLesson = true,
-  heartRefillText,
+  canStartLesson: canStartLessonProp,
+  heartRefillText: heartRefillTextProp,
   activeLessonId = null,
   onNavigate,
   className,
@@ -55,6 +66,17 @@ export function SkillPath({
   const course = useQuery(courseQuery(courseId, loadCourse));
   const { status, progress } = useUserProgress(courseId, progressOptions);
   const toast = useToast();
+  const hearts = useHearts();
+
+  const canStartLesson = canStartLessonProp ?? hearts.view?.canStartLesson ?? true;
+  // Ticks once a minute only while the gate is closed and the text is ours to compute.
+  const now = useMinuteClock(heartRefillTextProp === undefined && !canStartLesson);
+  const heartRefillText =
+    heartRefillTextProp !== undefined
+      ? heartRefillTextProp
+      : hearts.view
+        ? formatHeartRefill(hearts.view, now)
+        : null;
 
   const completed = status === "success" && progress ? progress.completedLessonIds : NO_COMPLETED;
   const nodes = useMemo(
