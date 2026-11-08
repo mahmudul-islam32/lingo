@@ -1,7 +1,7 @@
 "use client";
 
 import { useRouter } from "next/navigation";
-import { useEffect, type ReactNode } from "react";
+import { useEffect, useState, type ReactNode } from "react";
 import type { StoreApi } from "zustand";
 import { useStore } from "zustand";
 import { guestProfileStore, type GuestProfileState } from "@/features/profile";
@@ -41,9 +41,14 @@ export function OnboardingGate({
   const error = useStore(store, (s) => s.error);
   const onboardingComplete = useStore(store, (s) => s.onboardingComplete);
 
-  const allowed = require === "onboarded" ? onboardingComplete : !onboardingComplete;
-  const redirectTo = require === "onboarded" ? ONBOARDING_PATH : HOME_PATH;
   const ready = status === "ready";
+  // Once onboarding itself was shown, finishing it doesn't redirect to `/`: the flow
+  // navigates on its own, straight into Lesson 1 (PLT-007 criterion 6).
+  const [admitted, setAdmitted] = useState(false);
+  if (require === "not-onboarded" && ready && !onboardingComplete && !admitted) setAdmitted(true);
+
+  const allowed = require === "onboarded" ? onboardingComplete : !onboardingComplete || admitted;
+  const redirectTo = require === "onboarded" ? ONBOARDING_PATH : HOME_PATH;
 
   useEffect(() => {
     // The root layout's GuestProfileBootstrap normally starts this; init() is idempotent.

@@ -13,6 +13,7 @@ export {
   firstLesson,
   firstLessonPath,
   getFirstLessonPath,
+  listBundledCourses,
   parseCourse,
   type BundledContentRepository,
   type LessonLocation,

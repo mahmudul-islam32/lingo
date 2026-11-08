@@ -2,7 +2,7 @@ import type { Ref } from "react";
 import type { Course, Slug } from "@/contracts";
 import { Button, Skeleton, VisuallyHidden } from "@/components/ui";
 import { RadioCardGroup } from "../../_shell/RadioCardGroup";
-import { courseSubtitle } from "../courses";
+import { courseSubtitle } from "../course-labels";
 import { StepLayout } from "./StepLayout";
 
 export const COURSE_HEADING = "What do you want to learn?";

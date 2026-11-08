@@ -82,18 +82,6 @@ describe("OnboardingGate (PLT-004 criterion 9)", () => {
     expect(router.replace).not.toHaveBeenCalled();
   });
 
-  it("finishing onboarding while on /onboarding redirects to /", () => {
-    const store = newStore();
-    store.setState({ status: "ready", onboardingComplete: false });
-    render(
-      <OnboardingGate require="not-onboarded" store={store}>
-        {content()}
-      </OnboardingGate>,
-    );
-    act(() => store.setState({ onboardingComplete: true }));
-    expect(router.replace).toHaveBeenCalledWith("/");
-  });
-
   it("shows the error UI with a retry when the profile can't be loaded", () => {
     const store = newStore();
     const init = vi.fn(async () => {});
@@ -106,6 +94,20 @@ describe("OnboardingGate (PLT-004 criterion 9)", () => {
     expect(screen.getByRole("heading", { name: "Something went wrong" })).toBeInTheDocument();
     act(() => screen.getByRole("button", { name: "Try again" }).click());
     expect(init).toHaveBeenCalledTimes(1);
+    expect(router.replace).not.toHaveBeenCalled();
+  });
+
+  it("onboarding: finishing it in place doesn't redirect to / (the flow goes to Lesson 1)", () => {
+    const store = newStore();
+    store.setState({ status: "ready", onboardingComplete: false });
+    render(
+      <OnboardingGate require="not-onboarded" store={store}>
+        {content()}
+      </OnboardingGate>,
+    );
+    expect(screen.getByRole("heading", { name: "Content" })).toBeInTheDocument();
+    act(() => store.setState({ onboardingComplete: true }));
+    expect(screen.getByRole("heading", { name: "Content" })).toBeInTheDocument();
     expect(router.replace).not.toHaveBeenCalled();
   });
 });

@@ -51,7 +51,7 @@ describe("LessonList (PLT-007)", () => {
     expect(items).toHaveLength(2);
     const first = within(items[0]!).getByRole("link", { name: "Lesson 1: Greetings" });
     expect(first).toHaveAttribute("href", "/lesson/fx-l1");
-    expect(within(first).getByText("Start")).toBeInTheDocument();
+    expect(within(first.closest("li")!).getByText("Start")).toBeInTheDocument();
     expect(screen.getByRole("link", { name: "Lesson 2: Numbers" })).toHaveAttribute(
       "href",
       "/lesson/fx-l2",
@@ -100,10 +100,10 @@ describe("LessonList completed labels (PLT-008)", () => {
     renderList({ progress: progressWith(["fx-l2"]) });
     const done = await screen.findByRole("link", { name: "Lesson 2: Numbers" });
     expect(done).toHaveAccessibleDescription("Completed");
-    expect(within(done).getByText("Start again")).toBeInTheDocument();
+    expect(within(done.closest("li")!).getByText("Start again")).toBeInTheDocument();
     const todo = screen.getByRole("link", { name: "Lesson 1: Greetings" });
-    expect(within(todo).queryByText("Completed")).toBeNull();
-    expect(within(todo).getByText("Start")).toBeInTheDocument();
+    expect(within(todo.closest("li")!).queryByText("Completed")).toBeNull();
+    expect(within(todo.closest("li")!).getByText("Start")).toBeInTheDocument();
   });
 
   it("refreshes the labels after a result is saved, without a reload", async () => {
@@ -113,13 +113,13 @@ describe("LessonList completed labels (PLT-008)", () => {
     } as unknown as ProgressRepository;
     renderList({ progress });
     const first = await screen.findByRole("link", { name: "Lesson 1: Greetings" });
-    expect(within(first).queryByText("Completed")).toBeNull();
+    expect(within(first.closest("li")!).queryByText("Completed")).toBeNull();
     ids.push("fx-l1");
     await act(async () => notifyProgressChanged(FIXTURE_COURSE_ID));
     expect(
-      await within(screen.getByRole("link", { name: "Lesson 1: Greetings" })).findByText(
-        "Completed",
-      ),
+      await within(
+        screen.getByRole("link", { name: "Lesson 1: Greetings" }).closest("li")!,
+      ).findByText("Completed"),
     ).toBeInTheDocument();
   });
 

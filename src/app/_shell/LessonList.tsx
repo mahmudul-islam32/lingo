@@ -105,46 +105,57 @@ interface LessonCardProps {
 }
 
 /**
- * One lesson: the whole card is a single link named "Lesson N: <title>" (criterion 5);
- * the Completed state is its description, shown as icon + text (not colour alone).
+ * One lesson card. The link's text is "Lesson N: <title>" (criterion 5), and it is
+ * stretched over the whole card, so the card opens with one tap or with Enter. The
+ * Completed state is the link's description, shown as icon + text (not colour alone).
  */
 function LessonCard({ id, number, title, completed }: LessonCardProps) {
   const statusId = useId();
   return (
-    <Card as="li" padding="none">
-      <Link
-        href={lessonPath(id)}
-        aria-label={`Lesson ${number}: ${title}`}
-        aria-describedby={completed ? statusId : undefined}
-        data-testid="lesson-card"
-        className={cn(
-          "flex min-h-14 w-full items-center gap-3 rounded-card p-4 text-left",
-          "hover:bg-surface-raised focus-visible:focus-ring motion-safe:transition-colors",
-        )}
+    <Card
+      as="li"
+      padding="none"
+      data-testid="lesson-card"
+      className="relative flex min-h-14 items-center gap-3 p-4 hover:bg-surface-raised motion-safe:transition-colors"
+    >
+      <span
+        aria-hidden="true"
+        className="flex size-10 shrink-0 items-center justify-center rounded-full border-2 border-border-strong font-bold"
       >
-        <span
-          aria-hidden="true"
-          className="flex size-10 shrink-0 items-center justify-center rounded-full border-2 border-border-strong font-bold"
-        >
-          {number}
-        </span>
-        <span className="flex min-w-0 flex-1 flex-col">
-          <span className="text-sm text-fg-muted">Lesson {number}</span>
-          <span className="truncate text-lg font-semibold">{title}</span>
-          {completed && (
-            <span
-              id={statusId}
-              className="mt-0.5 inline-flex items-center gap-1 text-sm font-semibold text-success-fg"
-            >
-              <CheckIcon size={16} />
-              Completed
-            </span>
+        {number}
+      </span>
+      <span className="flex min-w-0 flex-1 flex-col">
+        <Link
+          href={lessonPath(id)}
+          aria-describedby={completed ? statusId : undefined}
+          className={cn(
+            "flex flex-col rounded-card focus-visible:outline-none",
+            // Stretched link: the whole card is the tap target and shows the focus ring.
+            "after:absolute after:inset-0 after:rounded-card focus-visible:after:focus-ring",
           )}
-        </span>
-        <span className="shrink-0 rounded-control bg-primary px-4 py-2 text-sm font-semibold text-on-primary">
-          {completed ? "Start again" : "Start"}
-        </span>
-      </Link>
+        >
+          <span className="text-sm text-fg-muted">
+            Lesson {number}
+            <VisuallyHidden>:</VisuallyHidden>
+          </span>{" "}
+          <span className="truncate text-lg font-semibold">{title}</span>
+        </Link>
+        {completed && (
+          <span
+            id={statusId}
+            className="mt-0.5 inline-flex items-center gap-1 text-sm font-semibold text-success-fg"
+          >
+            <CheckIcon size={16} />
+            Completed
+          </span>
+        )}
+      </span>
+      <span
+        aria-hidden="true"
+        className="shrink-0 rounded-control bg-primary px-4 py-2 text-sm font-semibold text-on-primary"
+      >
+        {completed ? "Start again" : "Start"}
+      </span>
     </Card>
   );
 }

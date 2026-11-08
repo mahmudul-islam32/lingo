@@ -146,3 +146,11 @@ export async function getFirstLessonPath(
 ): Promise<string> {
   return firstLessonPath(await repository.getCourse(courseId));
 }
+
+/** Every bundled course, validated (onboarding's course step, PLT-004). */
+export async function listBundledCourses(
+  repository: ContentRepository = contentRepository,
+  loaders: ContentLoaders = BUNDLED_CONTENT,
+): Promise<Course[]> {
+  return Promise.all(Object.keys(loaders.courses).map((id) => repository.getCourse(id)));
+}
