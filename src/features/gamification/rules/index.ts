@@ -28,3 +28,4 @@ export {
   goalValueTextForScreenReaders,
   isGoalReached,
 } from "./daily-goal-format";
+export { formatHeartRefill, formatHeartsFull, formatRoundedDuration } from "./hearts-format";
