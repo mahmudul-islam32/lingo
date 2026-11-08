@@ -2,7 +2,8 @@
 
 - **Owner:** cto · **Status:** v1 (CTO-002) · **Last updated:** 2026-11-07
 - Decisions: [ADR-001 scaffold](adr/ADR-001-scaffold.md), [ADR-002 contracts](adr/ADR-002-contracts.md),
-  [ADR-003 Supabase](adr/ADR-003-supabase.md), [ADR-004 design tokens and UI primitives](adr/ADR-004-design-tokens-ui-primitives.md)
+  [ADR-003 Supabase](adr/ADR-003-supabase.md), [ADR-004 design tokens and UI primitives](adr/ADR-004-design-tokens-ui-primitives.md),
+  [ADR-005 client query cache](adr/ADR-005-client-query-cache.md)
 - Contract changes: [contract-requests.md](contract-requests.md)
 
 Every agent reads this file before starting a ticket. If code and this document
@@ -61,6 +62,7 @@ Key properties:
 | `src/lib/offline`              | dev-platform                         | Dexie database, repositories (ProgressRepository, ProfileRepository)                                                                                                            |
 | `src/lib/sync`                 | dev-platform                         | SyncEngine: queue drain, backoff, pull                                                                                                                                          |
 | `src/lib/content` _(proposed)_ | dev-platform                         | ContentRepository: loads bundled course/lesson JSON                                                                                                                             |
+| `src/lib/query` _(proposed)_   | cto                                  | TanStack Query client factory, shared `queryKeys`, test helpers (CTO-006, ADR-005)                                                                                              |
 | `src/lib/supabase`             | cto (schema) / dev-platform (client) | Supabase browser client, generated DB types                                                                                                                                     |
 | `src/components/ui`            | shared                               | design tokens + primitives (CTO-004, ADR-004): Button, IconButton, Card, ProgressBar, Dialog/Modal, Toast, HeartIcon, XpBadge, Skeleton, Spinner, VisuallyHidden, icons, `cn()` |
 | `content/**`                   | pm                                   | course JSON                                                                                                                                                                     |
@@ -178,16 +180,27 @@ devices within seconds, which is acceptable for MVP.
 | Server-only data (none in MVP; leaderboards in Phase 2)        | TanStack Query against Supabase                                 |
 | Content                                                        | TanStack Query over `ContentRepository` (`staleTime: Infinity`) |
 
-- Query keys: `["content", courseId]`, `["lesson", courseId, lessonId]`,
-  `["progress", courseId]`, `["hearts"]`, `["settings"]`, `["profile"]`,
-  `["sync-status"]`. Mutations invalidate the matching keys; the sync engine
-  invalidates `progress`/`settings`/`profile`/`hearts` after a pull.
-- `networkMode: "always"` for Dexie-backed queries so they run offline.
+- Client, keys and test helpers live in `src/lib/query/` (cto lane, ADR-005 decision 5):
+  `createQueryClient()` and `queryKeys` from `@/lib/query`; `renderWithQueryClient` /
+  `createTestQueryClient` / `createQueryWrapper` from `@/lib/query/testing` (tests only).
+  The single `QueryClientProvider` is mounted in `src/app/providers.tsx`.
+- Query keys (always built with `queryKeys`): `["content", courseId]`,
+  `["lesson", courseId, lessonId]`, `["progress", courseId]`, `["hearts"]`,
+  `["settings"]`, `["profile"]`, `["sync-status"]`. Mutations invalidate the matching
+  keys; the sync engine invalidates `progress`/`settings`/`profile`/`hearts` after a pull.
+- Each key caches the raw repository fact (`["progress", courseId]` = `LessonResult[]`,
+  `["hearts"]` = stored `HeartsState`, `["settings"]` = `Settings | null`); derived
+  values come from `select`/`useMemo` over the pure rules (ADR-005).
+- Default options are offline-first (`LOCAL_QUERY_DEFAULTS`): `networkMode: "always"`,
+  `retry: false`, `staleTime: Infinity`, no refetch on focus/reconnect/mount. Server-backed
+  queries opt in to `REMOTE_QUERY_OPTIONS`.
 - No global Redux-like store. Do not mirror Query data into Zustand.
-- **Temporary deviation (PLT-003, CR-002):** until TanStack Query is installed, the
-  profile feature's Zustand store (`guestProfileStore`) holds identity, profile and
-  settings read from `@/lib/offline`. When the first server-backed read lands (sync or
-  auth), move profile/settings reads to TanStack Query and keep only UI state in Zustand.
+- **Deviation being retired (PLT-003, CR-002):** the profile feature's Zustand store
+  (`guestProfileStore`) still holds identity, profile and settings read from
+  `@/lib/offline`. TanStack Query is installed since CTO-006, so the next profile/settings
+  ticket moves those reads to `useQuery` over `queryKeys.profile()` /
+  `queryKeys.settings()` and keeps only UI state in Zustand. New code must not extend the
+  store with persisted data.
 
 ## 6. Auth and guest mode
 
