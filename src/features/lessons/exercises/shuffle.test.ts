@@ -43,4 +43,8 @@ describe("shuffle", () => {
     for (let run = 0; run < 100; run += 1) orders.add(shuffle([1, 2, 3, 4]).join(","));
     expect(orders.size).toBeGreaterThan(1);
   });
+
+  it("keeps duplicate items (word-bank tiles can repeat)", () => {
+    expect(shuffle(["la", "la", "casa"], () => 0.5).filter((t) => t === "la")).toHaveLength(2);
+  });
 });

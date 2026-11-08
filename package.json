@@ -20,6 +20,7 @@
   },
   "dependencies": {
     "@serwist/next": "9.5.13",
+    "@tanstack/react-query": "5.107.1",
     "clsx": "2.1.1",
     "dexie": "4.4.7",
     "next": "16.4.5",
