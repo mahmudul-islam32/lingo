@@ -33,9 +33,30 @@ and the UI breaks in ways no unit test catches.
 4. **Time is a hook input, not cached.** `useLocalToday` / `useMinuteClock` provide
    `today` / `now`; changing them re-derives without refetching.
 
+5. **Foundation lives in `src/lib/query/` (CTO-006, lane: cto).** `@tanstack/react-query`
+   is exact-pinned (5.107.1). The folder is shared infrastructure, like `src/contracts`:
+   only the cto edits it; features consume it and request changes via
+   `contract-requests.md`.
+   - `createQueryClient()` (`@/lib/query`): offline-first defaults for on-device data,
+     exported as `LOCAL_QUERY_DEFAULTS`: `networkMode: "always"`, `retry: false`,
+     `staleTime: Infinity`, no refetch on window focus, reconnect or mount (local data
+     only changes through our own writes, which invalidate). Mutations: `networkMode:
+"always"`, `retry: false`. Server-backed (Supabase, Phase 2) queries spread
+     `REMOTE_QUERY_OPTIONS` (`networkMode: "online"`, retries, focus refetch).
+   - `queryKeys` (`@/lib/query`): the only way to build the keys in decision 1, plus
+     `["profile"]`, `["sync-status"]` and prefix keys `progressAll()` / `contentAll()` for
+     invalidation. Never write a key literal by hand.
+   - One `QueryClient` per tab, created in `src/app/providers.tsx` with `useState`.
+   - Test helpers (`@/lib/query/testing`, test files only): `createTestQueryClient()`,
+     `createQueryWrapper(client)` for `renderHook`, `renderWithQueryClient(ui, { client })`.
+
 ## Consequences
 
 - Any agent can invalidate a key after a write and every consumer stays consistent.
 - Slightly more computation per render (derivations are pure and cheap: 1,000 results
   < 50 ms, GAM-003).
 - PLT-008's `useCompletedLessonIds` must be a `select` over `LessonResult[]`.
+- The PLT-003 / CR-002 Zustand deviation (`guestProfileStore` holding profile/settings)
+  can now be retired: move those reads to `useQuery` over `queryKeys.profile()` /
+  `queryKeys.settings()` and keep only UI state in Zustand (dev-platform, next profile
+  ticket).
