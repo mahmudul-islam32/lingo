@@ -89,22 +89,40 @@ re-queued mistakes and a results screen. Results are saved on the device.
 
 ---
 
-## v0.3.0 — Gamification loop (planned)
+## v0.3.0 — Gamification loop
 
 **Goal:** finishing a lesson visibly moves XP, the streak and the daily goal; hearts
 create stakes; lessons unlock in order on the skill path.
 
-| ID | Title | Owner |
-|---|---|---|
-| GAM-003 | XP totals and today's XP from saved results | dev-gamification |
-| GAM-004 | Streak engine (pure, local-date based, DST/timezone tests) | dev-gamification |
-| GAM-005 | Hearts engine and API (lose 1 per mistake, refill 1 per 4 h, max 5) | dev-gamification |
-| GAM-006 | Daily goal progress ring on Learn | dev-gamification |
-| GAM-007 | Top bar: streak, total XP, hearts | dev-gamification |
-| GAM-008 | Skill path screen (locked / available / in progress / completed, unlock in order, 0-hearts gate) replacing the temporary list | dev-gamification |
-| GAM-009 | Lumi pose reflects streak state (glowing / ember) | dev-gamification |
-| LES-009 | Hearts in the lesson player and "out of hearts" screen | dev-lessons |
-| LES-010 | Results screen: streak and daily-goal rows with celebration | dev-lessons |
+The pure rules (XP, streak, hearts, daily goal) already shipped with GAM-002, so v0.3.0 is
+about read/write hooks, UI and the skill path (PD-017).
+
+| ID | Title | Owner | Priority | Depends on |
+|---|---|---|---|---|
+| GAM-003 | XP totals and today's XP from saved results (`computeUserProgress`, `useUserProgress`, `useLocalToday`) | dev-gamification | P0 | GAM-002, PLT-008 |
+| GAM-004 | Streak status and `useStreak` hook (engine shipped in GAM-002) | dev-gamification | P0 | GAM-003 |
+| GAM-005 | Hearts state, lose-hearts mutation and hearts meter | dev-gamification | P0 | GAM-002, PLT-003, PLT-008, CTO-004 |
+| GAM-006 | Daily goal progress ring on Learn | dev-gamification | P0 | GAM-003, CTO-004 |
+| GAM-007 | Top bar: streak, total XP, hearts | dev-gamification | P0 | GAM-003, GAM-004, GAM-005, CTO-004 |
+| GAM-008 | Skill path screen (`computePathNodes`, node states, unlock in order, 0-hearts gate) | dev-gamification | P0 | GAM-003, GAM-005, PLT-007, CTO-004, CON-001 (e2e) |
+| GAM-009 | Lumi reflects the streak (glowing / ember) | dev-gamification | P1 | GAM-001, GAM-004 |
+| LES-009 | Hearts in the lesson player and "out of hearts" screen | dev-lessons | P0 | LES-002, LES-003, GAM-005 |
+| LES-010 | Results screen: streak and daily-goal rows with celebration | dev-lessons | P1 | LES-008, GAM-003, GAM-004 |
+| PLT-009 | Mount the gamification loop on Learn and the lesson route (replaces the temporary list, locked deep links, loop e2e) | dev-platform | P0 | GAM-006, GAM-007, GAM-008, GAM-009, LES-009, LES-010, PLT-007, PLT-008 |
+
+**Parallel build plan**
+- Wave 1 (as soon as v0.2.0's PLT-008 is merged): **GAM-003** and **GAM-005**
+  (independent files; one-line barrel conflicts only). The pure `computePathNodes` part
+  of **GAM-008** (criteria 1–3) needs only contracts and can start here too.
+  dev-lessons can start **LES-009** against stubs of the GAM-005 hook signatures.
+- Wave 2: **GAM-004**, **GAM-006** (need GAM-003), the **GAM-008** screen (needs GAM-003 +
+  GAM-005), and **LES-009** with the real hooks (needs GAM-005).
+- Wave 3: **GAM-007** (needs GAM-003/004/005), **GAM-009** (needs GAM-004) and **LES-010**
+  (needs GAM-003/004). These three touch different folders.
+- Wave 4: **PLT-009** (composes everything; can stub while the last tickets are in review).
+- Across agents: dev-gamification carries the critical path (GAM-003 → GAM-004 →
+  GAM-007). dev-lessons works on LES-009 then LES-010. dev-platform is free until PLT-009
+  and may start v0.4.0 tickets that don't touch Learn (PLT-010, PLT-012) early (PD-004).
 
 ---
 
@@ -122,7 +140,7 @@ lessons finished offline sync reliably when the device reconnects.
 | PLT-014 | Sync queue: idempotent upload of lesson results (no double XP) | dev-platform |
 | PLT-015 | Offline caching of Unit 1 lessons and audio, sync on reconnect | dev-platform |
 | PLT-016 | Profile screen (name, avatar, total XP, streaks, lessons, join date) | dev-platform |
-| PLT-017 | Settings screen (daily goal, sound, speaking exercises, log out) | dev-platform |
+| PLT-017 | Settings screen (daily goal, sound, speaking exercises, appearance dark/light (PD-015), log out) | dev-platform |
 | PLT-018 | Onboarding "I already have an account" path | dev-platform |
 
 ---
