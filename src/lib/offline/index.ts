@@ -37,3 +37,4 @@ export {
   type CompletedLessonIds,
   type ProgressRepositoryLoader,
 } from "./hooks";
+export { useOnlineStatus } from "./use-online-status";
