@@ -312,3 +312,24 @@ mocks or placeholders and swap in the final answer when it arrives.
   final exercise (rewards the mistake and contradicts "hearts create stakes"); adding
   refilled hearts mid-lesson (confusing jumps in the header).
 - **Reversibility:** High.
+
+## PD-020: v0.1.0 / v0.2.0 acceptance outcomes
+
+- **Date:** 2026-11-08
+- **Decision** (the multiple-choice direction rule is PD-019, logged with CON-002):
+  - **Vocabulary rule (CON-001 criterion 4):** proper nouns (people's and country names),
+    regular plurals of taught nouns, and words that appeared inside a taught phrase ("y"
+    from "¿y tú?") count as allowed. They are not new vocabulary.
+  - **Results screen wiring:** PLT-008 mounts the merged LES-008 `ResultsScreen` in the
+    lesson route. LES-008's e2e (criterion 12) is enabled after PLT-007 and PLT-008 merge.
+    Until then LES-008 is "accepted with 1 deferred criterion".
+  - **Manifest background colour:** stays warm off-white for v0.1.0, as PLT-002 criterion 1
+    says. We revisit it with the appearance setting (PLT-017).
+  - **Unverifiable manual checks** (PLT-002 criterion 8, DevTools installability) are
+    accepted on code evidence. The cto records the manual check in the release PR.
+- **Rationale:** each remaining step has one owner, content review uses one clear rule, and
+  no release waits on checks agents can't run.
+- **Alternatives considered:** adding ResultsScreen wiring to PLT-007 instead (PLT-008
+  already needs it for its criterion 6); failing PLT-002 criterion 8 until a human runs
+  DevTools (it would block the release for a check that only happens at release time).
+- **Reversibility:** High.
