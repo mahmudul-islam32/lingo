@@ -32,7 +32,7 @@ const LESSON_1: Step[] = [
   },
   { kind: "tiles", tiles: ["hola", "cómo", "estás"] },
   { kind: "listen", tiles: ["buenos", "días"] },
-  { kind: "choice", answer: "Thank you" },
+  { kind: "choice", answer: "Gracias" },
   { kind: "tiles", tiles: ["fine", "thanks"] },
   { kind: "listen", tiles: ["buenas", "tardes", "cómo", "estás"] },
   { kind: "tiles", tiles: ["bien", "gracias", "adiós"] },
