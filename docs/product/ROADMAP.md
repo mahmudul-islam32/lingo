@@ -76,6 +76,7 @@ re-queued mistakes and a results screen. Results are saved on the device.
 | PLT-007 | Course loading, lesson route and temporary lesson list | dev-platform | P0 | PLT-001, PLT-004, LES-002 |
 | PLT-008 | Save lesson results on the device | dev-platform | P0 | PLT-003, PLT-007 |
 | CON-001 | Unit 1 content: 5 original lessons (en → es) | pm | P0 | CTO-002 |
+| CON-002 | Fix: multiple-choice prompts in English, options in Spanish (PD-019) | pm | P0 | CON-001, LES-004 |
 
 **Parallel build plan**
 - Wave 1 (contracts only): **LES-001**, **LES-004**, **LES-005**, **LES-006**, **GAM-002**,
@@ -160,7 +161,7 @@ lessons finished offline sync reliably when the device reconnects.
 | PLT-021 | Accessibility audit (findings become `fix/` tickets per owner) | dev-platform |
 | PLT-022 | Performance budget and Lighthouse mobile ≥ 90 | dev-platform |
 | PLT-023 | E2E suite: guest first lesson, offline → sync, sign-up migration, out of hearts | dev-platform |
-| CON-002 | Unit 1 content QA pass, speak exercises, final audio references | pm |
+| CON-004 | Unit 1 content QA pass, speak exercises, final audio references | pm |
 | CON-003 | UI microcopy review (kind feedback, empty/error states) | pm |
 | CTO-(tbd) | E2E in CI, TTS audio pipeline (waits on owner for the TTS licence, PRD Q7), release | cto |
 
