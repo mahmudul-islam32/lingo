@@ -206,3 +206,24 @@ mocks or placeholders and swap in the final answer when it arrives.
 - **Alternatives considered:** a heart per mismatch (too punishing); re-queueing match
   pairs (repetitive).
 - **Reversibility:** High.
+
+## PD-019: MVP multiple-choice prompts are in the known language, options in the learning language
+
+- **Date:** 2026-11-08
+- **Decision:** In MVP every `multiple_choice` exercise has its prompt in the known
+  language (English, "Which one means '<word>'?") and all options in the learning
+  language (Spanish). Spanish → English recognition is practised with
+  `word_bank_translate` `to_known`, `match_pairs` and `listen`, never with a reversed
+  multiple choice. CON-002 rewrote the 7 Unit 1 exercises that broke this rule; future
+  content (CON-004, Phase 2 units) follows it and the pm checks it in content review.
+- **Rationale:** the contract has no per-exercise or per-option language field, so
+  LES-004 marks the prompt `lang={knownLanguage}` and the options
+  `lang={learningLanguage}`. Mixed directions made screen readers pronounce words in the
+  wrong language (accessibility, PRD quality bar). One fixed direction needs no contract
+  change, keeps the UI simple, and the reverse direction is already covered by other
+  exercise types.
+- **Alternatives considered:** a `direction` field on multiple choice (contract change,
+  more UI states, not needed for Unit 1); per-option `lang` (more authoring work, easy to
+  get wrong).
+- **Reversibility:** High. If a later unit needs English options, raise a contract
+  request for a `direction` field; existing content stays valid.

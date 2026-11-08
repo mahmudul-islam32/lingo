@@ -104,11 +104,11 @@
     {
       "id": "u1-l3-ex11",
       "type": "multiple_choice",
-      "prompt": "Which one means 'quiero'?",
+      "prompt": "Which one means 'I want'?",
       "options": [
-        { "id": "a", "text": "I want" },
-        { "id": "b", "text": "Please" },
-        { "id": "c", "text": "Thank you" }
+        { "id": "a", "text": "Quiero" },
+        { "id": "b", "text": "Por favor" },
+        { "id": "c", "text": "Gracias" }
       ],
       "correctOptionId": "a"
     },
