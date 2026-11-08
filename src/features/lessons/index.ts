@@ -38,3 +38,12 @@ export {
   type WordBankTranslateExerciseProps,
 } from "./exercises/word-bank-translate/WordBankTranslateExercise";
 export { ListenExercise, type ListenExerciseProps } from "./exercises/listen/ListenExercise";
+export {
+  ResultsScreen,
+  formatAccuracy,
+  formatDuration,
+  toLessonResult,
+  type ResultsScreenProps,
+  type SaveLessonResult,
+  type ToLessonResultInput,
+} from "./results";
