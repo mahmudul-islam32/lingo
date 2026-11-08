@@ -20,11 +20,11 @@
     {
       "id": "u1-l2-ex02",
       "type": "multiple_choice",
-      "prompt": "Which one means 'soy'?",
+      "prompt": "Which one means 'I am'?",
       "options": [
-        { "id": "a", "text": "You are" },
-        { "id": "b", "text": "And you?" },
-        { "id": "c", "text": "I am" }
+        { "id": "a", "text": "Eres" },
+        { "id": "b", "text": "¿Y tú?" },
+        { "id": "c", "text": "Soy" }
       ],
       "correctOptionId": "c"
     },
