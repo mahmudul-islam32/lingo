@@ -59,7 +59,12 @@ test.describe("app shell navigation", () => {
     await expect(page.getByRole("main")).toBeFocused();
 
     await page.goto("/");
+    // The Learn lesson list (PLT-007) comes before the bottom nav in the Tab order.
+    const lessons = page.locator("main ol").getByRole("link");
+    await expect(lessons).toHaveCount(5);
     await page.keyboard.press("Tab"); // skip link
+    for (let i = 0; i < 5; i += 1) await page.keyboard.press("Tab");
+    await expect(lessons.last()).toBeFocused();
     await page.keyboard.press("Tab");
     await expect(tab(page, "Learn")).toBeFocused();
     await page.keyboard.press("Tab");

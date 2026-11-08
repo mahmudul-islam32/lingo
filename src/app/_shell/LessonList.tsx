@@ -6,7 +6,14 @@ import { useStore } from "zustand";
 import type { Course, Slug, Unit } from "@/contracts";
 import { Button, Card, CheckIcon, Lumi, Skeleton, VisuallyHidden, cn } from "@/components/ui";
 import { guestProfileStore } from "@/features/profile";
-import { DEFAULT_COURSE_ID, lessonPath, useContentRepository, useCourse } from "@/lib/content";
+import { useQueryClient } from "@tanstack/react-query";
+import {
+  DEFAULT_COURSE_ID,
+  lessonPath,
+  lessonQueryOptions,
+  useContentRepository,
+  useCourse,
+} from "@/lib/content";
 import { useCompletedLessonIds } from "@/lib/offline";
 
 export const LOADING_LESSONS_LABEL = "Loading lessons";
@@ -30,9 +37,9 @@ export function LessonList({ courseId: courseIdProp }: { courseId?: Slug }) {
   const completed = useCompletedLessonIds(courseId);
   usePreloadUnitLessons(course.status === "success" ? course.data : null);
 
-  if (course.status === "error") return <CourseError onRetry={course.retry} />;
+  if (course.status === "error") return <CourseError onRetry={() => void course.refetch()} />;
   // Completion labels appear together with the list (PLT-008 UX notes).
-  if (course.status === "loading" || completed.status === "loading") return <LessonsLoading />;
+  if (course.status === "pending" || completed.status === "loading") return <LessonsLoading />;
 
   return (
     <div className="flex flex-col gap-6">
@@ -49,17 +56,22 @@ export function LessonList({ courseId: courseIdProp }: { courseId?: Slug }) {
  */
 function usePreloadUnitLessons(course: Course | null) {
   const repository = useContentRepository();
+  const client = useQueryClient();
   useEffect(() => {
     if (!course) return;
     const ids = course.units.flatMap((u) => u.lessons.map((l) => l.id));
-    const run = () => void repository.preloadLessons(course.id, ids);
+    // Fills `["lesson", …]` too, so a lesson opened from Learn renders without a skeleton.
+    const run = () => {
+      for (const id of ids)
+        void client.prefetchQuery(lessonQueryOptions(repository, course.id, id));
+    };
     if (typeof window.requestIdleCallback === "function") {
       const handle = window.requestIdleCallback(run, { timeout: 2000 });
       return () => window.cancelIdleCallback(handle);
     }
     const timer = setTimeout(run, 200);
     return () => clearTimeout(timer);
-  }, [course, repository]);
+  }, [course, repository, client]);
 }
 
 function UnitLessons({ unit, completedIds }: { unit: Unit; completedIds: ReadonlySet<Slug> }) {
@@ -127,6 +139,8 @@ function LessonCard({ id, number, title, completed }: LessonCardProps) {
       <span className="flex min-w-0 flex-1 flex-col">
         <Link
           href={lessonPath(id)}
+          // Visible text is "Lesson N" + title; the label only adds the colon (criterion 5).
+          aria-label={`Lesson ${number}: ${title}`}
           aria-describedby={completed ? statusId : undefined}
           className={cn(
             "flex flex-col rounded-card focus-visible:outline-none",
@@ -134,10 +148,7 @@ function LessonCard({ id, number, title, completed }: LessonCardProps) {
             "after:absolute after:inset-0 after:rounded-card focus-visible:after:focus-ring",
           )}
         >
-          <span className="text-sm text-fg-muted">
-            Lesson {number}
-            <VisuallyHidden>:</VisuallyHidden>
-          </span>{" "}
+          <span className="text-sm text-fg-muted">Lesson {number}</span>{" "}
           <span className="truncate text-lg font-semibold">{title}</span>
         </Link>
         {completed && (

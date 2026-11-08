@@ -1,23 +1,21 @@
 "use client";
 
 import { useRouter } from "next/navigation";
-import { useCallback, useEffect, useRef, useState } from "react";
+import { useCallback, useState } from "react";
 import type { LessonResult, Slug, Uuid } from "@/contracts";
-import { Spinner, VisuallyHidden, useToast } from "@/components/ui";
 import {
   LessonPlayer,
   LessonPlayerError,
   LessonPlayerSkeleton,
+  ResultsScreen,
+  toLessonResult,
   type ExerciseComponentMap,
   type LessonSessionSummary,
 } from "@/features/lessons";
 import { useCourse, useLesson } from "@/lib/content";
-import { useProgressRepositoryLoader } from "@/lib/offline";
-import { resultFromSummary } from "./finish-lesson";
+import { useInvalidateProgress, useProgressRepositoryLoader } from "@/lib/offline";
 
 export const LEARN_PATH = "/";
-export const SAVED_TOAST_TITLE = "Lesson complete!";
-export const SAVE_FAILED_TOAST_TITLE = "We couldn't save this lesson on your device.";
 
 export interface LessonScreenProps {
   courseId: Slug;
@@ -31,9 +29,11 @@ export interface LessonScreenProps {
 const defaultCreateId = () => crypto.randomUUID();
 
 /**
- * Loads the course and the lesson (validated), plays it with the lessons feature's
- * `LessonPlayer` and the real exercise registry, then saves the result on the device
- * (PLT-008) and returns to Learn.
+ * `/lesson/<id>` (PLT-007): loads the course and the lesson (schema-validated), plays it
+ * with `LessonPlayer` and the real exercise registry, then shows LES-008's
+ * `ResultsScreen`, which saves the result on the device through `ProgressRepository`
+ * (PLT-008). After the save, `["progress", courseId]` is invalidated, so Learn shows
+ * the new "Completed" label without a reload.
  */
 export function LessonScreen({
   courseId,
@@ -44,91 +44,62 @@ export function LessonScreen({
   const router = useRouter();
   const course = useCourse(courseId);
   const lesson = useLesson(courseId, lessonId);
+  const loadProgress = useProgressRepositoryLoader();
+  const invalidateProgress = useInvalidateProgress();
   const [finished, setFinished] = useState<LessonResult | null>(null);
+  // Bumped by "Practice again" to start a fresh session of the same lesson.
+  const [attempt, setAttempt] = useState(0);
 
   const goToLearn = useCallback(() => router.push(LEARN_PATH), [router]);
+  const retryLoad = useCallback(() => {
+    void course.refetch();
+    void lesson.refetch();
+  }, [course, lesson]);
   const handleFinish = useCallback(
-    (summary: LessonSessionSummary) => {
-      // One id per finished session: the idempotency key of the save and of sync.
-      setFinished(resultFromSummary(summary, { id: createId() }));
-    },
+    // One id per finished session: the idempotency key of the save and of sync.
+    (summary: LessonSessionSummary) => setFinished(toLessonResult(summary, { id: createId() })),
     [createId],
   );
+  const save = useCallback(
+    async (result: LessonResult) => (await loadProgress()).saveLessonResult(result),
+    [loadProgress],
+  );
+  const handleSaved = useCallback(
+    (result: LessonResult) => void invalidateProgress(result.courseId),
+    [invalidateProgress],
+  );
+  const practiceAgain = useCallback(() => {
+    setFinished(null);
+    setAttempt((n) => n + 1);
+  }, []);
 
   if (course.status === "error" || lesson.status === "error") {
-    return (
-      <LessonPlayerError
-        onRetry={() => {
-          course.retry();
-          lesson.retry();
-        }}
-        onBack={goToLearn}
-      />
-    );
+    return <LessonPlayerError onRetry={retryLoad} onBack={goToLearn} />;
   }
-  if (course.status === "loading" || lesson.status === "loading") return <LessonPlayerSkeleton />;
+  if (course.status === "pending" || lesson.status === "pending") return <LessonPlayerSkeleton />;
 
   if (finished) {
-    // LES-008 integration point: once `ResultsScreen` is on main, render
-    //   <ResultsScreen result={finished} save={(r) => load().then((p) => p.saveLessonResult(r))}
-    //     onContinue={goToLearn} />
-    // (Completed labels refresh by themselves: the device repository notifies Learn.)
-    // and build `finished` with `toLessonResult` from `@/features/lessons` instead of
-    // `resultFromSummary`. Until then: save, then back to Learn with a toast.
-    return <SaveAndReturn result={finished} onDone={goToLearn} />;
+    return (
+      <ResultsScreen
+        result={finished}
+        save={save}
+        onSaved={handleSaved}
+        onContinue={goToLearn}
+        onRetryLesson={practiceAgain}
+      />
+    );
   }
 
   return (
     <LessonPlayer
-      key={lesson.data.id}
+      key={`${lesson.data.id}#${attempt}`}
       lesson={lesson.data}
       learningLanguage={course.data.learningLanguage}
       knownLanguage={course.data.knownLanguage}
       onFinish={handleFinish}
       onQuit={goToLearn}
+      onRetry={retryLoad}
       {...(components ? { components } : {})}
-      onRetry={() => {
-        course.retry();
-        lesson.retry();
-      }}
     />
-  );
-}
-
-/** Temporary end of lesson until LES-008: saves once, shows a toast, goes to Learn. */
-function SaveAndReturn({ result, onDone }: { result: LessonResult; onDone: () => void }) {
-  const loadProgress = useProgressRepositoryLoader();
-  const toast = useToast();
-  const savedFor = useRef<string | null>(null);
-
-  useEffect(() => {
-    if (savedFor.current === result.id) return; // StrictMode / re-render: save once
-    savedFor.current = result.id;
-    loadProgress()
-      .then((progress) => progress.saveLessonResult(result))
-      .then(
-        () =>
-          toast.show({
-            title: SAVED_TOAST_TITLE,
-            description: `+${result.xpEarned} XP`,
-            tone: "success",
-          }),
-        () =>
-          toast.show({
-            title: SAVE_FAILED_TOAST_TITLE,
-            description: "Your next lesson will still be saved.",
-            tone: "error",
-          }),
-      )
-      .finally(onDone);
-  }, [result, loadProgress, toast, onDone]);
-
-  return (
-    <main className="flex h-dvh items-center justify-center bg-canvas text-primary">
-      <div role="status" aria-label="Saving your lesson">
-        <Spinner size="lg" />
-        <VisuallyHidden>Saving your lesson</VisuallyHidden>
-      </div>
-    </main>
   );
 }

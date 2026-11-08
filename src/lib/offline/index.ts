@@ -29,10 +29,11 @@ export type { SyncQueueStore } from "./sync-queue";
 export type { CorruptRecordEvent, CorruptRecordReporter } from "./validation";
 export {
   loadLocalProgress,
+  progressQueryOptions,
   ProgressRepositoryProvider,
   useCompletedLessonIds,
+  useInvalidateProgress,
   useProgressRepositoryLoader,
   type CompletedLessonIds,
   type ProgressRepositoryLoader,
 } from "./hooks";
-export { notifyProgressChanged, subscribeProgress, type ProgressListener } from "./progress-events";

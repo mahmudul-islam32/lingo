@@ -14,7 +14,6 @@ import {
   type LocalProgressRepository,
   type RepositoryDeps,
 } from "./repositories";
-import { notifyProgressChanged } from "./progress-events";
 import type { LocalStore, StorageKind } from "./store";
 import { createSyncQueueStore, type SyncQueueStore } from "./sync-queue";
 import { warnCorruptRecord, type CorruptRecordReporter } from "./validation";
@@ -51,20 +50,9 @@ function wire(
   return {
     storage: { kind: store.kind, persistent: store.persistent, fallbackReason },
     profile: createLocalProfileRepository(store, deps),
-    progress: withProgressNotifications(createLocalProgressRepository(store, deps)),
+    progress: createLocalProgressRepository(store, deps),
     syncQueue: createSyncQueueStore(store, deps.report),
     close: () => store.close(),
-  };
-}
-
-/** Announces each successful result save, so readers of `listLessonResults` refresh. */
-function withProgressNotifications(repository: LocalProgressRepository): LocalProgressRepository {
-  return {
-    ...repository,
-    saveLessonResult: async (result) => {
-      await repository.saveLessonResult(result);
-      notifyProgressChanged(result.courseId);
-    },
   };
 }
 

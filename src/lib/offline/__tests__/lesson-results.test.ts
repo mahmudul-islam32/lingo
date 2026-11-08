@@ -3,7 +3,6 @@ import { IDBKeyRange } from "fake-indexeddb";
 import { afterEach, describe, expect, it, vi } from "vitest";
 import { DexieLocalStore, PolyglowDatabase, SCHEMA_VERSIONS } from "../db";
 import { LocalDataError, StorageError } from "../errors";
-import { subscribeProgress } from "../progress-events";
 import { createDevice, lessonResult } from "./helpers";
 
 afterEach(() => vi.restoreAllMocks());
@@ -68,29 +67,15 @@ describe("saving lesson results (PLT-008)", () => {
     expect(await second.progress.listLessonResults("spanish-from-english")).toHaveLength(1);
   });
 
-  it("notifies listeners after a successful save, for the Learn labels", async () => {
-    const session = await createDevice().open();
-    const listener = vi.fn();
-    const unsubscribe = subscribeProgress(listener);
-    await session.progress.saveLessonResult(lessonResult());
-    expect(listener).toHaveBeenCalledWith("spanish-from-english");
-    unsubscribe();
-  });
-
   it("wraps storage failures in a typed StorageError with the cause", async () => {
     const session = await createDevice().open();
     const cause = new DOMException("Quota exceeded", "QuotaExceededError");
     vi.spyOn(DexieLocalStore.prototype, "transaction").mockRejectedValue(cause);
-    const listener = vi.fn();
-    const unsubscribe = subscribeProgress(listener);
-
     const error = await session.progress.saveLessonResult(lessonResult()).catch((e: unknown) => e);
     expect(error).toBeInstanceOf(StorageError);
     expect(error).toBeInstanceOf(LocalDataError);
     expect(error).toMatchObject({ code: "storage_failed", operation: "saveLessonResult", cause });
     await expect(session.progress.listLessonResults("x")).rejects.toBeInstanceOf(StorageError);
-    expect(listener).not.toHaveBeenCalled();
-    unsubscribe();
   });
 
   it("reports a closed database as a StorageError, not a crash", async () => {

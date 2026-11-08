@@ -4,54 +4,85 @@ import { completeOnboarding } from "./onboarding-helpers";
 
 /**
  * PLT-007 (course loading, `/lesson/[lessonId]`, Learn list) and PLT-008 (results saved
- * on the device, "Completed" labels). Lesson 1 ("Hello!") of content/courses/en-es.
- *
- * Exercise types on main: multiple choice (LES-004) and match pairs (LES-006). Word bank
- * (LES-005) and listen (LES-007) are not registered yet, so the player leaves them out;
- * `playLesson1` answers whatever is shown and needs an update once they land.
+ * on the device, "Completed" labels), with the real exercise registry (LES-004..007) and
+ * the LES-008 results screen. Lesson 1 ("Hello!") of content/courses/en-es.
  */
 const LESSON_1_URL = /\/lesson\/u1-l1-hello$/;
 const FIRST_PROMPT = "Which one means 'hello'?";
 
-const MULTIPLE_CHOICE_ANSWERS: Record<string, string> = {
-  "Which one means 'hello'?": "Hola",
-  "Which one means 'good morning'?": "Buenos días",
-  "Which one means 'gracias'?": "Thank you",
-  "Which one means 'good afternoon'?": "Buenas tardes",
-};
-const PAIRS: [string, string][] = [
-  ["hola", "hello"],
-  ["adiós", "goodbye"],
-  ["gracias", "thank you"],
-  ["bien", "fine"],
-  ["buenas noches", "good night"],
+type Step =
+  | { kind: "choice"; answer: string }
+  | { kind: "pairs"; pairs: [string, string][] }
+  | { kind: "tiles"; tiles: string[] }
+  | { kind: "listen"; tiles: string[] };
+
+/** Lesson 1 in content order, answered correctly (so nothing is re-queued). */
+const LESSON_1: Step[] = [
+  { kind: "choice", answer: "Hola" },
+  { kind: "choice", answer: "Buenos días" },
+  {
+    kind: "pairs",
+    pairs: [
+      ["hola", "hello"],
+      ["adiós", "goodbye"],
+      ["gracias", "thank you"],
+      ["bien", "fine"],
+      ["buenas noches", "good night"],
+    ],
+  },
+  { kind: "tiles", tiles: ["hola", "cómo", "estás"] },
+  { kind: "listen", tiles: ["buenos", "días"] },
+  { kind: "choice", answer: "Thank you" },
+  { kind: "tiles", tiles: ["fine", "thanks"] },
+  { kind: "listen", tiles: ["buenas", "tardes", "cómo", "estás"] },
+  { kind: "tiles", tiles: ["bien", "gracias", "adiós"] },
+  { kind: "choice", answer: "Buenas tardes" },
+  { kind: "tiles", tiles: ["good", "morning", "how", "are", "you"] },
+  { kind: "listen", tiles: ["hola", "buenas", "noches"] },
 ];
 
-/** Answers every exercise of Lesson 1 correctly until the player hands back to Learn. */
+async function addTiles(page: Page, tiles: string[]) {
+  const bank = page.getByRole("group", { name: "Word bank" });
+  for (const tile of tiles) {
+    await bank
+      .getByRole("button", { name: `Add ${tile}`, exact: true })
+      .first()
+      .click();
+  }
+}
+
+/**
+ * Plays Lesson 1 correctly to the results screen. Listen exercises are answered with
+ * tiles; if the browser has no audio (placeholder clips, no speech voices), the
+ * exercise offers "Skip" instead, which is never a mistake.
+ */
 async function playLesson1(page: Page) {
   await expect(page).toHaveURL(LESSON_1_URL);
-  const learn = page.getByRole("heading", { level: 1, name: "Learn" });
-  const prompt = page.getByTestId("exercise-area").getByRole("heading", { level: 2 });
-  for (let step = 0; step < 20; step += 1) {
-    await expect(learn.or(prompt)).toBeVisible();
-    if (await learn.isVisible()) return;
-    const text = ((await prompt.textContent()) ?? "").trim();
-    if (text === "Match the pairs") {
-      for (const [learning, known] of PAIRS) {
+  for (const step of LESSON_1) {
+    await expect(
+      page.getByTestId("exercise-area").getByRole("heading", { level: 2 }),
+    ).toBeVisible();
+    if (step.kind === "choice") {
+      await page.getByRole("radio", { name: step.answer, exact: true }).click();
+      await page.getByRole("button", { name: "Check" }).click();
+    } else if (step.kind === "pairs") {
+      for (const [learning, known] of step.pairs) {
         await page.getByRole("button", { name: learning, exact: true }).click();
         await page.getByRole("button", { name: known, exact: true }).click();
       }
+    } else if (
+      step.kind === "listen" &&
+      (await page.getByRole("button", { name: "Skip" }).isVisible())
+    ) {
+      await page.getByRole("button", { name: "Skip" }).click();
+      continue;
     } else {
-      const answer = MULTIPLE_CHOICE_ANSWERS[text];
-      expect(answer, `answer for "${text}"`).toBeDefined();
-      await page.getByRole("radio", { name: answer!, exact: true }).click();
+      await addTiles(page, step.tiles);
       await page.getByRole("button", { name: "Check" }).click();
     }
     await page.getByRole("button", { name: "Continue" }).click();
-    // Prompts in Lesson 1 are unique, so the old one disappears when the next one shows.
-    await expect(prompt.filter({ hasText: text })).toHaveCount(0);
   }
-  throw new Error("Lesson 1 did not finish");
+  await expect(page.getByRole("heading", { level: 1, name: "Lesson complete!" })).toBeVisible();
 }
 
 /** Waits until Learn has loaded the Unit 1 lesson chunks in the background. */
@@ -107,7 +138,8 @@ test.describe("lesson route and lesson list (PLT-007)", () => {
       expect(Math.round(box.width)).toBe(Math.round(listBox.width));
     }
     const last = list.getByRole("listitem").last();
-    await last.scrollIntoViewIfNeeded();
+    // Scrolled to the end, the last card sits fully above the fixed bottom nav.
+    await page.evaluate(() => window.scrollTo(0, document.documentElement.scrollHeight));
     const navBox = (await page.getByRole("navigation", { name: "Main" }).boundingBox())!;
     expect((await last.boundingBox())!.y + (await last.boundingBox())!.height).toBeLessThanOrEqual(
       navBox.y,
@@ -154,10 +186,11 @@ test.describe("results saved on the device (PLT-008)", () => {
     await page.getByRole("link", { name: "Lesson 1: Hello!" }).click();
     await expect(page).toHaveURL(LESSON_1_URL);
     await playLesson1(page);
+    // LES-008 results screen; its "Continue" goes back to Learn (no reload).
+    await page.getByRole("button", { name: "Continue" }).click();
 
-    // Back on Learn without a reload: toast + label (criteria 5 and 6).
+    // Criteria 5 and 6: the new label is there without a page reload.
     await expect(page).toHaveURL(/\/$/);
-    await expect(page.getByText("Lesson complete!")).toBeVisible();
     const card = page.getByRole("link", { name: "Lesson 1: Hello!" });
     await expect(card).toHaveAccessibleDescription("Completed");
     await expect(
@@ -182,6 +215,8 @@ test.describe("results saved on the device (PLT-008)", () => {
     await context.setOffline(true);
     await page.getByRole("link", { name: "Lesson 1: Hello!" }).click();
     await playLesson1(page);
+    await expect(page.getByText("We couldn't save this lesson on your device.")).toHaveCount(0);
+    await page.getByRole("button", { name: "Continue" }).click();
     await expect(page.getByRole("link", { name: "Lesson 1: Hello!" })).toHaveAccessibleDescription(
       "Completed",
     );

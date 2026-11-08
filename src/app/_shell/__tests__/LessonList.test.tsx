@@ -9,7 +9,9 @@ import {
   FIXTURE_COURSE,
   FIXTURE_COURSE_ID,
 } from "@/lib/content/__fixtures__/fixture-course";
-import { notifyProgressChanged, ProgressRepositoryProvider } from "@/lib/offline";
+import { ProgressRepositoryProvider } from "@/lib/offline";
+import { queryKeys } from "@/lib/query";
+import { createQueryWrapper, createTestQueryClient } from "@/lib/query/testing";
 import {
   COURSE_ERROR_MESSAGE,
   EMPTY_UNIT_MESSAGE,
@@ -30,14 +32,18 @@ function renderList({
   repository = createFixtureRepository(),
   progress = progressWith([]),
 }: { repository?: BundledContentRepository; progress?: ProgressRepository } = {}) {
+  const client = createTestQueryClient();
+  const QueryWrapper = createQueryWrapper(client);
   const wrapper = ({ children }: { children: ReactNode }) => (
-    <ContentRepositoryProvider repository={repository}>
-      <ProgressRepositoryProvider load={async () => progress}>
-        {children}
-      </ProgressRepositoryProvider>
-    </ContentRepositoryProvider>
+    <QueryWrapper>
+      <ContentRepositoryProvider repository={repository}>
+        <ProgressRepositoryProvider load={async () => progress}>
+          {children}
+        </ProgressRepositoryProvider>
+      </ContentRepositoryProvider>
+    </QueryWrapper>
   );
-  return render(<LessonList courseId={FIXTURE_COURSE_ID} />, { wrapper });
+  return { client, ...render(<LessonList courseId={FIXTURE_COURSE_ID} />, { wrapper }) };
 }
 
 describe("LessonList (PLT-007)", () => {
@@ -106,16 +112,17 @@ describe("LessonList completed labels (PLT-008)", () => {
     expect(within(todo.closest("li")!).getByText("Start")).toBeInTheDocument();
   });
 
-  it("refreshes the labels after a result is saved, without a reload", async () => {
+  it('refreshes the labels when ["progress", courseId] is invalidated, without a reload', async () => {
     const ids: string[] = [];
     const progress = {
       listLessonResults: vi.fn(async () => ids.map((lessonId) => ({ lessonId }))),
     } as unknown as ProgressRepository;
-    renderList({ progress });
+    const { client } = renderList({ progress });
     const first = await screen.findByRole("link", { name: "Lesson 1: Greetings" });
     expect(within(first.closest("li")!).queryByText("Completed")).toBeNull();
     ids.push("fx-l1");
-    await act(async () => notifyProgressChanged(FIXTURE_COURSE_ID));
+    // What the lesson route does after ResultsScreen saved the result.
+    await act(() => client.invalidateQueries({ queryKey: queryKeys.progress(FIXTURE_COURSE_ID) }));
     expect(
       await within(
         screen.getByRole("link", { name: "Lesson 1: Greetings" }).closest("li")!,

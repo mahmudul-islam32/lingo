@@ -24,5 +24,11 @@ export {
   ContentValidationError,
   type ContentErrorCode,
 } from "./errors";
-export { ContentRepositoryProvider, useContentRepository, useCourse, useLesson } from "./hooks";
-export { useAsyncResource, type AsyncResource, type AsyncState } from "./use-async";
+export {
+  ContentRepositoryProvider,
+  courseQueryOptions,
+  lessonQueryOptions,
+  useContentRepository,
+  useCourse,
+  useLesson,
+} from "./hooks";

@@ -1,9 +1,10 @@
 "use client";
 
-import { createContext, useCallback, useContext, type ReactNode } from "react";
-import type { Course, Lesson, Slug } from "@/contracts";
+import { queryOptions, useQuery } from "@tanstack/react-query";
+import { createContext, useContext, type ReactNode } from "react";
+import type { ContentRepository, Slug } from "@/contracts";
+import { queryKeys } from "@/lib/query";
 import { contentRepository, type BundledContentRepository } from "./content-repository";
-import { useAsyncResource, type AsyncResource } from "./use-async";
 
 const ContentRepositoryContext = createContext<BundledContentRepository>(contentRepository);
 
@@ -22,19 +23,28 @@ export function useContentRepository(): BundledContentRepository {
   return useContext(ContentRepositoryContext);
 }
 
-/** Course manifest (query key `["content", courseId]` once TanStack Query lands). */
-export function useCourse(courseId: Slug): AsyncResource<Course> {
-  const repository = useContentRepository();
-  const load = useCallback(() => repository.getCourse(courseId), [repository, courseId]);
-  return useAsyncResource(load);
+/** `["content", courseId]` → `Course` (ADR-005). Offline defaults from `@/lib/query`. */
+export function courseQueryOptions(repository: ContentRepository, courseId: Slug) {
+  return queryOptions({
+    queryKey: queryKeys.content(courseId),
+    queryFn: () => repository.getCourse(courseId),
+  });
 }
 
-/** One lesson (query key `["lesson", courseId, lessonId]` once TanStack Query lands). */
-export function useLesson(courseId: Slug, lessonId: Slug): AsyncResource<Lesson> {
-  const repository = useContentRepository();
-  const load = useCallback(
-    () => repository.getLesson(courseId, lessonId),
-    [repository, courseId, lessonId],
-  );
-  return useAsyncResource(load);
+/** `["lesson", courseId, lessonId]` → `Lesson` (ADR-005). */
+export function lessonQueryOptions(repository: ContentRepository, courseId: Slug, lessonId: Slug) {
+  return queryOptions({
+    queryKey: queryKeys.lesson(courseId, lessonId),
+    queryFn: () => repository.getLesson(courseId, lessonId),
+  });
+}
+
+/** The course manifest, validated against `CourseSchema`. */
+export function useCourse(courseId: Slug) {
+  return useQuery(courseQueryOptions(useContentRepository(), courseId));
+}
+
+/** One lesson, validated against `LessonSchema`. */
+export function useLesson(courseId: Slug, lessonId: Slug) {
+  return useQuery(lessonQueryOptions(useContentRepository(), courseId, lessonId));
 }

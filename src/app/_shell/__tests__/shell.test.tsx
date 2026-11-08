@@ -1,6 +1,7 @@
 import { render, screen, within } from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
 import { afterEach, beforeEach, describe, expect, it, vi } from "vitest";
+import { renderWithQueryClient } from "@/lib/query/testing";
 import { navigationState } from "./navigation-mock";
 import { guestProfileStore } from "@/features/profile";
 import TabsLayout from "../../(tabs)/layout";
@@ -29,7 +30,7 @@ describe("app shell", () => {
 
   it("Learn: one main, one h1, bottom nav outside main, skip link first", async () => {
     const user = userEvent.setup();
-    render(
+    renderWithQueryClient(
       <>
         <SkipLink />
         <TabsLayout>
