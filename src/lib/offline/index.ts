@@ -26,3 +26,4 @@ export {
 } from "./session";
 export type { SyncQueueStore } from "./sync-queue";
 export type { CorruptRecordEvent, CorruptRecordReporter } from "./validation";
+export { useOnlineStatus } from "./use-online-status";
