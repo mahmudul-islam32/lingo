@@ -91,7 +91,7 @@ re-queued mistakes and a results screen. Results are saved on the device.
 | PLT-007 | Course loading, lesson route and temporary lesson list | dev-platform | P0 | PLT-001, PLT-004, LES-002 | open |
 | PLT-008 | Save lesson results on the device (also mounts `ResultsScreen`, PD-020) | dev-platform | P0 | PLT-003, PLT-007 | open |
 | CON-001 | Unit 1 content: 5 original lessons (en → es) | pm | P0 | CTO-002 | merged (not accepted: MC direction defect, fixed by CON-002) |
-| CON-002 | Multiple-choice prompt direction fix (7 items, course version 2) | pm | P0 | CON-001 | open (in cto review, `fix/con-002-mc-prompt-direction`) |
+| CON-002 | Fix: multiple-choice prompts in English, options in Spanish (PD-019, course version 2) | pm | P0 | CON-001, LES-004 | merged (2026-11-08, #36; pm acceptance pending) |
 
 **Still missing before v0.2.0 can be released**
 1. **PLT-007** merged and accepted: lesson route, Learn list, onboarding → Lesson 1,
@@ -102,7 +102,7 @@ re-queued mistakes and a results screen. Results are saved on the device.
 3. **LES-008 criterion 12:** dev-lessons removes `test.fixme` from
    `tests/e2e/lessons-results.spec.ts` once 1 and 2 are merged. The pm re-checks LES-008
    criteria 1, 10 and 12 on the real route.
-4. **CON-002** (pm, content) merged, then CON-001 re-reviewed and accepted. The
+4. **CON-002** (pm, content) is merged (#36); next CON-002 accepted and CON-001 re-reviewed and accepted. The
    `u1-l2-ex07` wording ("Which one means 'where are you from'?") is a minor CON-004
    addition and doesn't block.
 5. Release checklist (cto): CI green, including e2e; `CHANGELOG.md`; version bump.
@@ -193,7 +193,7 @@ lessons finished offline sync reliably when the device reconnects.
 | PLT-021 | Accessibility audit (findings become `fix/` tickets per owner). Inputs from the v0.2.0 review: is "Exercise 1 of N" announced on the first exercise (LES-002 AC13 note)? The storage notice uses non-token colours and a text "Dismiss" button (PLT-003 note) | dev-platform |
 | PLT-022 | Performance budget and Lighthouse mobile ≥ 90 | dev-platform |
 | PLT-023 | E2E suite: guest first lesson, offline → sync, sign-up migration, out of hearts | dev-platform |
-| CON-002 | Unit 1 content QA pass, speak exercises, final audio references | pm |
+| CON-004 | Unit 1 content QA pass, speak exercises, final audio references | pm |
 | CON-003 | UI microcopy review (kind feedback, empty/error states) | pm |
 | CTO-(tbd) | E2E in CI, TTS audio pipeline (waits on owner for the TTS licence, PRD Q7), release | cto |
 
