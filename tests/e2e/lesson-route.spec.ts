@@ -1,5 +1,5 @@
 import { expect, test, type Page } from "@playwright/test";
-import { expectNoSeriousA11yViolations, SKILL_PATH_KNOWN_ISSUES } from "./axe";
+import { expectNoSeriousA11yViolations } from "./axe";
 import {
   LESSON_1_FIRST_PROMPT as FIRST_PROMPT,
   LESSON_1_URL,
@@ -48,7 +48,7 @@ test.describe("lesson route and lesson list (PLT-007)", () => {
     const list = page.getByRole("list", { name: "First Steps" });
     await expect(list.getByRole("listitem")).toHaveCount(5);
     const names = [
-      "Lesson 1: Hello!, up next",
+      "Lesson 1: Hello!, up next. Start",
       "Lesson 2: Nice to Meet You, locked",
       "Lesson 3: At the Café, locked",
       "Lesson 4: Count It, locked",
@@ -63,7 +63,7 @@ test.describe("lesson route and lesson list (PLT-007)", () => {
       ).toHaveAccessibleName(name);
     }
 
-    await expectNoSeriousA11yViolations(page, SKILL_PATH_KNOWN_ISSUES);
+    await expectNoSeriousA11yViolations(page);
 
     // Keyboard: focus the next lesson and press Enter.
     await lesson1Node(page).focus();

@@ -1,5 +1,5 @@
 import { expect, test, type Page } from "@playwright/test";
-import { expectNoSeriousA11yViolations, SKILL_PATH_KNOWN_ISSUES } from "./axe";
+import { expectNoSeriousA11yViolations } from "./axe";
 import { completeOnboarding } from "./onboarding-helpers";
 
 /** PLT-006. The "opened while offline" case needs the service worker: see pwa.spec.ts. */
@@ -19,8 +19,7 @@ test.describe("offline banner", () => {
     await context.setOffline(true);
     await expect(offlineBanner(page)).toBeVisible({ timeout: 2_000 });
     await expect(page.getByTestId("icon-cloud-off")).toBeVisible();
-    // On Learn, so the skill path's known axe issue applies (GAM-008, see axe.ts).
-    await expectNoSeriousA11yViolations(page, SKILL_PATH_KNOWN_ISSUES);
+    await expectNoSeriousA11yViolations(page);
 
     await context.setOffline(false);
     await expect(backOnlineBanner(page)).toBeVisible({ timeout: 2_000 });
