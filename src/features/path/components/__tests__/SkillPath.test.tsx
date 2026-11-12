@@ -72,10 +72,10 @@ describe("SkillPath container (GAM-008)", () => {
     const { client, loadCourse } = setup();
 
     expect(
-      await screen.findByRole("link", { name: "Lesson 1: Hello!, completed" }),
+      await screen.findByRole("link", { name: "Lesson 1: Hello!, completed. Start again" }),
     ).toBeInTheDocument();
     expect(
-      screen.getByRole("link", { name: "Lesson 2: Nice to Meet You, up next" }),
+      screen.getByRole("link", { name: "Lesson 2: Nice to Meet You, up next. Start" }),
     ).toBeInTheDocument();
     expect(screen.getByRole("button", { name: "Lesson 3: At the Café, locked" })).toHaveAttribute(
       "aria-disabled",
@@ -89,7 +89,7 @@ describe("SkillPath container (GAM-008)", () => {
 
   it("shows 'in progress' for the active lesson", async () => {
     setup({ activeLessonId: L[0] });
-    expect(await node("Lesson 1: Hello!, in progress")).toBeInTheDocument();
+    expect(await node("Lesson 1: Hello!, in progress. Continue")).toBeInTheDocument();
   });
 
   it("opens /lesson/<id> for available and completed nodes (AC7)", async () => {
@@ -123,10 +123,10 @@ describe("SkillPath container (GAM-008)", () => {
 
   it("updates nodes after a lesson without a reload (AC12)", async () => {
     const { client } = setup();
-    expect(await node("Lesson 1: Hello!, up next")).toBeInTheDocument();
+    expect(await node("Lesson 1: Hello!, up next. Start")).toBeInTheDocument();
     session.progress.listLessonResults.mockResolvedValue(done(L[0]));
     await act(() => client.invalidateQueries({ queryKey: queryKeys.progress(COURSE) }));
-    expect(await node("Lesson 1: Hello!, completed")).toBeInTheDocument();
+    expect(await node("Lesson 1: Hello!, completed. Start again")).toBeInTheDocument();
     expect(screen.getByRole("link", { name: /Lesson 2: .*up next/ })).toBeInTheDocument();
   });
 
@@ -150,14 +150,14 @@ describe("SkillPath container (GAM-008)", () => {
     const { user } = setup({ loadCourse });
     expect(await screen.findByText("We couldn't load the course.")).toBeInTheDocument();
     await user.click(screen.getByRole("button", { name: "Try again" }));
-    expect(await node("Lesson 1: Hello!, up next")).toBeInTheDocument();
+    expect(await node("Lesson 1: Hello!, up next. Start")).toBeInTheDocument();
     expect(loadCourse).toHaveBeenCalledTimes(2);
   });
 
   it("results error: path still shows with Lesson 1 available, no banner (AC14)", async () => {
     session.progress.listLessonResults.mockRejectedValue(new Error("quota"));
     setup();
-    expect(await node("Lesson 1: Hello!, up next")).toBeInTheDocument();
+    expect(await node("Lesson 1: Hello!, up next. Start")).toBeInTheDocument();
     expect(screen.getByRole("button", { name: /Lesson 2: .*locked/ })).toBeInTheDocument();
     // The toast queue's (empty) live regions are the only alerts: no error banner.
     for (const alert of screen.queryAllByRole("alert")) expect(alert).toBeEmptyDOMElement();
@@ -168,7 +168,7 @@ describe("SkillPath container (GAM-008)", () => {
 describe("SkillPath hearts wiring (GAM-008 AC9/AC10 via useHearts, GAM-005)", () => {
   it("full hearts: playable nodes are links without any hearts props", async () => {
     setup();
-    expect(await node("Lesson 1: Hello!, up next")).toBeInTheDocument();
+    expect(await node("Lesson 1: Hello!, up next. Start")).toBeInTheDocument();
     expect(screen.queryByText("No hearts left")).not.toBeInTheDocument();
   });
 
@@ -187,7 +187,7 @@ describe("SkillPath hearts wiring (GAM-008 AC9/AC10 via useHearts, GAM-005)", ()
     const now = new Date();
     session.progress.getHearts.mockResolvedValue(loseHearts(createFullHearts(now), 5, now));
     setup({ canStartLesson: true });
-    expect(await node("Lesson 1: Hello!, up next")).toBeInTheDocument();
+    expect(await node("Lesson 1: Hello!, up next. Start")).toBeInTheDocument();
   });
 
   it("a heart refill (hearts invalidation) reopens the path without a reload", async () => {
@@ -197,6 +197,6 @@ describe("SkillPath hearts wiring (GAM-008 AC9/AC10 via useHearts, GAM-005)", ()
     expect(await screen.findByRole("button", { name: /Lesson 1: .*up next/ })).toBeInTheDocument();
     session.progress.getHearts.mockResolvedValue(createFullHearts(new Date()));
     await act(() => client.invalidateQueries({ queryKey: queryKeys.hearts() }));
-    expect(await node("Lesson 1: Hello!, up next")).toBeInTheDocument();
+    expect(await node("Lesson 1: Hello!, up next. Start")).toBeInTheDocument();
   });
 });

@@ -4,16 +4,6 @@ import { expect, type Page } from "@playwright/test";
 /** Impacts that fail the build (PLT-001 criterion 16, ARCHITECTURE §12). */
 const BLOCKING_IMPACTS = new Set(["serious", "critical"]);
 
-/**
- * FIXME(GAM-008, dev-gamification; found in PLT-009): skill-path nodes fail axe
- * `label-content-name-mismatch` (WCAG 2.5.3, serious). The node's `aria-label`
- * ("Lesson 1: Hello!, completed") doesn't contain its visible text ("Lesson 1 Hello!
- * Completed · Start again"), and axe also flags the zigzag-offset locked nodes. The fix
- * lives in `src/features/path` (not dev-platform's lane). Pass this on pages that show
- * the path (Learn); remove it with the fix. Every other rule still runs.
- */
-export const SKILL_PATH_KNOWN_ISSUES = { knownIssues: ["label-content-name-mismatch"] } as const;
-
 export interface A11yCheckOptions {
   /**
    * Rule ids to skip because of a known, filed issue in another lane. Every entry needs

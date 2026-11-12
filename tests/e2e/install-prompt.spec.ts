@@ -1,5 +1,5 @@
 import { devices, expect, test, type Page } from "@playwright/test";
-import { expectNoSeriousA11yViolations, SKILL_PATH_KNOWN_ISSUES } from "./axe";
+import { expectNoSeriousA11yViolations } from "./axe";
 import { completeOnboarding } from "./onboarding-helpers";
 
 /**
@@ -38,8 +38,7 @@ test.describe("install card", () => {
     const card = installCard(page);
     await expect(card).toBeVisible();
     await expect(card).toContainText("Open it from your home screen, even offline.");
-    // On Learn, so the skill path's known axe issue applies (GAM-008, see axe.ts).
-    await expectNoSeriousA11yViolations(page, SKILL_PATH_KNOWN_ISSUES);
+    await expectNoSeriousA11yViolations(page);
 
     // Both buttons fit at 375 px (Pixel 7 is 412 px; check against the card box).
     const install = card.getByRole("button", { name: "Install" });

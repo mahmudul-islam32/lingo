@@ -49,7 +49,7 @@ describe("app shell", () => {
     // (jsdom has no IndexedDB: progress and hearts come from the in-memory fallback.)
     // The default course (en-de, CTO-008) is pm content: nodes are found by "Lesson N:".
     const hearts = await screen.findByRole("button", { name: "Hearts: 5 of 5" });
-    const first = await screen.findByRole("link", { name: /^Lesson 1: .*, up next$/ });
+    const first = await screen.findByRole("link", { name: /^Lesson 1: .*, up next/ });
     const nodes = [
       ...screen.queryAllByRole("link", { name: /^Lesson \d+: / }),
       ...screen.queryAllByRole("button", { name: /^Lesson \d+: / }),
