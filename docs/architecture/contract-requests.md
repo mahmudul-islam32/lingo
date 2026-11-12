@@ -26,6 +26,58 @@ features, follow-up PR
 
 ## Requests
 
+### CTO-008: German course support (cto-initiated change notice)
+
+- **Requested by:** cto (owner direction, PD-030) · **Date:** 2026-11-12 · **Ticket:** CTO-008
+- **Status:** done
+- **Contract(s):** `course.ts` (`CEFR_LEVELS`, `CefrLevelSchema`, `cefrLevelIndex`,
+  `CourseLevelSchema`, `Course.levels`, `Unit.level`, `flattenCourseLessons`,
+  `groupUnitsByLevel`, unit/course size limits), `config.ts` (`CONTENT_RULES`), `text.ts`
+  (German quotes as punctuation; `foldDiacritics` folds ß → ss), new `language.ts`
+  (`SPEECH_LOCALES`, `speechLocale`)
+- **Breaking?:** no. Level fields are optional (en-es unchanged); no persisted or synced
+  shape changes; `CONTRACTS_VERSION` stays 1. Decisions in
+  [ADR-008](adr/ADR-008-german-course-cefr-levels.md).
+
+**Affected features and follow-ups:**
+
+- **pm (content):** author en-de per ADR-008 and PD-037. The `content/courses/en-de`
+  skeleton (level A1, unit `de-a1-u01`, one placeholder lesson `de-a1-u01-l1-hallo`) is
+  yours to replace in CON-DE-A1-01. Every lesson needs one line in
+  `src/lib/content/bundled-content.ts` (cto lane): list new lesson ids in your PR and the
+  cto adds the lines before merging (tests fail until the map matches).
+- **dev-lessons (LES-014 / LES-011):**
+  1. `src/features/lessons/audio/use-audio-playback.ts` / `speech-fallback.ts`: call
+     `findVoice(speechLocale(lang))` instead of `findVoice(lang)`. Today `pickVoice("de")`
+     accepts any `de-*` voice and only prefers `default`/`localService`, so a device can
+     read German with `de-CH`/`de-AT`; with `de-DE` the existing exact-match score (4)
+     picks `de-DE` first and still falls back to any `de-*` voice (PD-034). Test: voices
+     `[de-CH (default), de-DE]` with `lang: "de"` → `de-DE`; Spanish unchanged. Nothing in
+     the audio code is hard-coded to Spanish.
+  2. Speak exercise (LES-011): `SpeechRecognition.lang = speechLocale(course.learningLanguage)`.
+     `checking/` needs no change: it calls the contract helpers (`foldDiacritics` now
+     folds ß → ss).
+  3. `multiple_choice.audio` and `word_bank_translate.audio` are in the contract but not
+     rendered by `MultipleChoiceExercise` / `WordBankTranslateExercise` (LES-004). The pm
+     should open a LES ticket if German content uses them.
+  4. Word bank: tiles that differ only by case ("Essen"/"essen") are the same token for
+     checking; show them as authored (no change needed).
+- **dev-platform (PLT-024):**
+  1. Onboarding still calls `listBundledCourses()` (German and Spanish). Switch the course
+     step to `listAvailableCourses()` (German only, PD-030), with the e2e updates.
+  2. `src/app/onboarding/steps/Welcome.tsx` "Learn Spanish in five minutes a day" → from
+     the default course's data; update `tests/e2e/onboarding.spec.ts` and `pwa.spec.ts`.
+  3. Done by the cto in CTO-008 (integration only, so `en-de` as default doesn't break
+     `en-es`): `/lesson/[lessonId]` prerenders the lessons of every registered course and
+     resolves the course with `bundledCourseIdOfLesson`; `LESSON_ROUTES` precaches all
+     courses; app unit tests no longer assume en-es lesson titles; the onboarding keyboard
+     e2e moves from German to Spanish with ArrowDown.
+  4. Learn: "German · A1" caption from `unit.level` / `groupUnitsByLevel`.
+- **dev-gamification (GAM-010):** level headers and "Coming soon" levels from
+  `groupUnitsByLevel(course)`; lesson order from `flattenCourseLessons(course)` (same as
+  today's unit order, so `computePathNodes` keeps working). Test fixture:
+  `src/lib/content/__fixtures__/german-fixture-course.ts` (A1 2 × 2, A2 empty).
+
 ### CR-003: Skipped attempts and "perfect" when every exercise is skipped
 
 - **Requested by:** dev-lessons · **Date:** 2026-11-07 · **Ticket:** LES-002

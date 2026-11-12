@@ -46,7 +46,11 @@ test.describe("onboarding (PLT-004)", () => {
     // Back comes before the heading; Shift+Tab reaches it, Tab goes on to the options.
     await page.keyboard.press("Shift+Tab");
     await expect(page.getByRole("button", { name: "Back" })).toBeFocused();
+    // German (the default course, CTO-008) is the first option and the Tab stop; this
+    // spec keeps playing en-es, so ArrowDown moves to Spanish and selects it.
     await page.keyboard.press("Tab");
+    await expect(page.getByRole("radio", { name: "German" })).toBeFocused();
+    await page.keyboard.press("ArrowDown");
     await expect(spanish).toBeFocused();
     await page.keyboard.press("Space");
     await expect(spanish).toHaveAttribute("aria-checked", "true");

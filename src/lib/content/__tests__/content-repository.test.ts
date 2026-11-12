@@ -1,5 +1,6 @@
 // @vitest-environment node
 import { describe, expect, it, vi } from "vitest";
+import { groupUnitsByLevel } from "@/contracts";
 import {
   ContentNotFoundError,
   ContentValidationError,
@@ -10,8 +11,17 @@ import {
   firstLessonPath,
   getFirstLessonPath,
   lessonPath,
+  COURSE_REGISTRY,
+  listAvailableCourses,
+  listBundledCourses,
 } from "../index";
-import { bundledLessonIds, bundledLessonPaths } from "../static-params";
+import {
+  allBundledLessonPaths,
+  bundledCourseIdOfLesson,
+  bundledCourseIds,
+  bundledLessonIds,
+  bundledLessonPaths,
+} from "../static-params";
 import {
   createFixtureRepository,
   FIXTURE_COURSE,
@@ -19,6 +29,12 @@ import {
   FIXTURE_LESSONS,
   fixtureLoaders,
 } from "../__fixtures__/fixture-course";
+import {
+  createGermanFixtureRepository,
+  GERMAN_FIXTURE_COURSE,
+  GERMAN_FIXTURE_COURSE_ID,
+  GERMAN_FIXTURE_LESSONS,
+} from "../__fixtures__/german-fixture-course";
 
 describe("ContentRepository (fixture course)", () => {
   it("loads and validates the course and a lesson", async () => {
@@ -110,22 +126,89 @@ describe("ContentRepository (fixture course)", () => {
   });
 });
 
-describe("bundled content (content/courses/en-es)", () => {
-  it("loads the default course and every lesson in it", async () => {
-    const course = await contentRepository.getCourse(DEFAULT_COURSE_ID);
-    expect(course.id).toBe("en-es");
+describe.each(["en-de", "en-es"])("bundled content (content/courses/%s)", (courseId) => {
+  it("loads the course and every lesson in it", async () => {
+    const course = await contentRepository.getCourse(courseId);
+    expect(course.id).toBe(courseId);
     const ids = course.units.flatMap((u) => u.lessons.map((l) => l.id));
     expect(ids.length).toBeGreaterThan(0);
     for (const id of ids) {
-      const lesson = await contentRepository.getLesson(DEFAULT_COURSE_ID, id);
+      const lesson = await contentRepository.getLesson(courseId, id);
       expect(lesson.id).toBe(id);
     }
   });
+});
 
-  it("exposes the first lesson path for onboarding and the prerendered lesson routes", async () => {
-    expect(await getFirstLessonPath(DEFAULT_COURSE_ID)).toBe("/lesson/u1-l1-hello");
-    expect(bundledLessonIds(DEFAULT_COURSE_ID)[0]).toBe("u1-l1-hello");
-    expect(bundledLessonPaths(DEFAULT_COURSE_ID)).toContain("/lesson/u1-l5-around-town");
+describe("course registry (CTO-008)", () => {
+  it("defaults to German for English speakers, A1, and keeps en-es bundled", async () => {
+    expect(DEFAULT_COURSE_ID).toBe("en-de");
+    expect(bundledCourseIds()).toEqual(["en-de", "en-es"]);
+    const german = await contentRepository.getCourse("en-de");
+    expect(german).toMatchObject({
+      title: "German",
+      learningLanguage: "de",
+      knownLanguage: "en",
+    });
+    expect(german.levels?.[0]?.level).toBe("A1");
+    expect(german.units[0]!.level).toBe("A1");
+    expect((await listBundledCourses()).map((c) => c.id)).toEqual(["en-de", "en-es"]);
+  });
+
+  it("lists en-de as available and keeps the hidden en-es loadable (PD-030)", async () => {
+    expect(COURSE_REGISTRY).toEqual([
+      { id: "en-de", visibility: "available" },
+      { id: "en-es", visibility: "hidden" },
+    ]);
+    expect((await listAvailableCourses()).map((c) => c.id)).toEqual(["en-de"]);
+    expect((await contentRepository.getCourse("en-es")).title).toBe("Spanish");
+    const repo = createGermanFixtureRepository();
+    expect(
+      (
+        await listAvailableCourses(repo, [
+          { id: "en-de", visibility: "hidden" },
+          { id: GERMAN_FIXTURE_COURSE_ID, visibility: "available" },
+        ])
+      ).map((c) => c.id),
+    ).toEqual(["en-de"]);
+    expect(await listAvailableCourses(repo, [])).toEqual([]);
+  });
+
+  it("exposes first lesson paths and the prerendered lesson routes of every course", async () => {
+    expect(await getFirstLessonPath(DEFAULT_COURSE_ID)).toBe(
+      lessonPath(bundledLessonIds(DEFAULT_COURSE_ID)[0]!),
+    );
+    expect(await getFirstLessonPath("en-es")).toBe("/lesson/u1-l1-hello");
+    expect(bundledLessonIds("en-es")[0]).toBe("u1-l1-hello");
+    expect(bundledLessonPaths("en-es")).toContain("/lesson/u1-l5-around-town");
     expect(bundledLessonIds("unknown")).toEqual([]);
+    expect(bundledLessonIds("__proto__")).toEqual([]);
+    expect(allBundledLessonPaths()).toEqual([
+      ...bundledLessonPaths("en-de"),
+      ...bundledLessonPaths("en-es"),
+    ]);
+  });
+
+  it("finds the course of a lesson; lesson ids are unique across courses", () => {
+    expect(bundledCourseIdOfLesson("u1-l1-hello")).toBe("en-es");
+    expect(bundledCourseIdOfLesson(bundledLessonIds("en-de")[0]!)).toBe("en-de");
+    expect(bundledCourseIdOfLesson("nope")).toBeNull();
+    const all = bundledCourseIds().flatMap(bundledLessonIds);
+    expect(new Set(all).size).toBe(all.length);
+  });
+});
+
+describe("German fixture course (CTO-008 criterion 12)", () => {
+  it("has A1 with 2 units × 2 lessons and A2 without units, all loadable", async () => {
+    const repo = createGermanFixtureRepository();
+    const course = await repo.getCourse(GERMAN_FIXTURE_COURSE_ID);
+    expect(course).toEqual(GERMAN_FIXTURE_COURSE);
+    expect(groupUnitsByLevel(course).map((g) => [g.level.level, g.units.length])).toEqual([
+      ["A1", 2],
+      ["A2", 0],
+    ]);
+    expect(course.units.map((u) => u.lessons.length)).toEqual([2, 2]);
+    for (const id of Object.keys(GERMAN_FIXTURE_LESSONS)) {
+      expect((await repo.getLesson(GERMAN_FIXTURE_COURSE_ID, id)).id).toBe(id);
+    }
   });
 });

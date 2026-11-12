@@ -7,6 +7,7 @@ import type { Settings } from "@/contracts";
 import { guestProfileStore } from "@/features/profile";
 import { installPromptStore } from "../_pwa/install-prompt-store";
 import { FLASH_TOAST_KEY } from "../_shell/flash-toast";
+import { DEFAULT_COURSE_ID } from "@/lib/content/constants";
 import LearnPage, { metadata } from "./page";
 import ProfilePage, { metadata as profileMetadata } from "./profile/page";
 
@@ -89,7 +90,7 @@ describe("LearnPage (PLT-009)", () => {
 
   it("uses the default course before settings are read; SkillPath gets a course loader", () => {
     renderLearn();
-    expect(screen.getByTestId("skill-path")).toHaveTextContent("skill-path:en-es");
+    expect(screen.getByTestId("skill-path")).toHaveTextContent(`skill-path:${DEFAULT_COURSE_ID}`);
     const path = mocks.calls.find((c) => c.name === "skill-path")!;
     expect(typeof path.props.loadCourse).toBe("function");
   });

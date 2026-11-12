@@ -3,8 +3,7 @@ import path from "node:path";
 import { describe, expect, it } from "vitest";
 import { BRAND_HEX } from "@/components/ui";
 import manifest from "../../manifest";
-import { DEFAULT_COURSE_ID } from "@/lib/content/constants";
-import { bundledLessonPaths } from "@/lib/content/static-params";
+import { allBundledLessonPaths } from "@/lib/content/static-params";
 import { ICONS, LESSON_ROUTES, PRECACHED_ROUTES, isSupabaseRequest } from "../pwa-config";
 
 const PUBLIC_DIR = path.resolve(__dirname, "../../../../public");
@@ -70,7 +69,7 @@ describe("service worker config (PLT-002)", () => {
   });
 
   it("precaches every prerendered lesson page (PLT-007 criterion 7)", () => {
-    expect(LESSON_ROUTES).toEqual(bundledLessonPaths(DEFAULT_COURSE_ID));
+    expect(LESSON_ROUTES).toEqual(allBundledLessonPaths());
     expect(PRECACHED_ROUTES).toEqual(expect.arrayContaining([...LESSON_ROUTES]));
   });
 
