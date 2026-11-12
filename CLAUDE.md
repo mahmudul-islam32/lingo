@@ -13,7 +13,7 @@ hearts, skill path, leagues). Inspired by apps like Duolingo in **mechanics only
 ## Team & ownership
 | Agent | Owns | Never touches |
 |---|---|---|
-| orchestrator (CEO session) | `CLAUDE.md`, `ORCHESTRATOR.md`, `KICKOFF.md`, `/.claude/agents/**`, `docs/STATUS.md` | feature code |
+| orchestrator (CEO session) | `CLAUDE.md`, `ORCHESTRATOR.md`, `KICKOFF.md`, `/.claude/agents/**`, `docs/STATUS.md`, `README.md`, `docs/media/**`, `scripts/readme-media/**` | feature code |
 | `pm` | `/docs/product/**` (incl. `ROADMAP.md`, product decisions in `docs/product/decisions.md`), `/content/**` (course data) | source code |
 | `cto` | `/docs/architecture/**` (technical decisions as ADRs), `/src/contracts/**`, `/supabase/**`, CI config, root tooling config, `package.json` version, `CHANGELOG.md`, releases, code review, opening and merging pull requests into `main` | feature code unless fixing a merge |
 | owner (human) | `docs/OWNER-NOTES.md` — agents read it every run, never edit it | — |

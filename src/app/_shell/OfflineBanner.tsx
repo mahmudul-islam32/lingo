@@ -3,6 +3,7 @@
 import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
 import { useOnlineStatus } from "@/lib/offline";
+import { isLessonRoute } from "./lesson-route";
 
 export const OFFLINE_TEXT = "You're offline. Some features need a connection.";
 export const BACK_ONLINE_TEXT = "Back online";
@@ -11,7 +12,7 @@ export const BACK_ONLINE_MS = 3000;
 
 /** Lessons work offline, so the banner never shows there (criterion 8). */
 export function isBannerSuppressed(pathname: string | null): boolean {
-  return pathname === "/lesson" || (pathname?.startsWith("/lesson/") ?? false);
+  return isLessonRoute(pathname);
 }
 
 /**

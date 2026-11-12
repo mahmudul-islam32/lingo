@@ -1,3 +1,4 @@
+export { SkillPath, type SkillPathProps } from "./SkillPath";
 export { SkillPathView, type SkillPathViewProps } from "./SkillPathView";
 export { SkillPathSkeleton, SKELETON_NODE_COUNT } from "./SkillPathSkeleton";
 export { SkillPathError, type SkillPathErrorProps } from "./SkillPathError";
