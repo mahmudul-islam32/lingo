@@ -140,5 +140,7 @@ describe("lesson engine integration: en-es u1-l1-hello", () => {
       xpEarned: 15,
       heartsLost: 0,
     });
-  });
+    // Plays 12 real exercises with userEvent: ~1 s alone, but it can pass 5 s under
+    // full-suite load (jsdom per file), so it gets a longer timeout.
+  }, 20_000);
 });
