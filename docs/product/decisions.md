@@ -18,6 +18,8 @@ mocks or placeholders and swap in the final answer when it arrives.
 | Trademark, domain and social-handle check for "Polyglow" | Use "Polyglow" as the working name; no paid domain or handle registration | PD-001 |
 | PRD Q6: minimum age / consent copy | 13+ assumption; placeholder terms and privacy page marked "draft" | PRD §9 |
 | PRD Q7: TTS licence for pre-generated audio | Placeholder/mock audio files (or locally generated dev-only audio) not shipped to production | PRD §9 |
+| Native-speaker review of German content | pm self-review against CDS-1…13; a "needs native review" list kept in CON-DE-A1-QA | PD-038 |
+| Legal check of mentioning exam names in marketing | No exam brand names in the app or store copy | PD-035 |
 
 ---
 
@@ -396,3 +398,187 @@ mocks or placeholders and swap in the final answer when it arrives.
   bump (process over outcome).
 - **Reversibility:** High. All three are copy or hook-level choices, with no contract or
   data change.
+
+_PD-022 to PD-029 are not used: the German track starts at PD-030 so its decisions stay
+together._
+
+## PD-030: Pivot: German is the primary course; Spanish is kept but hidden
+
+- **Date:** 2026-11-12
+- **Decision:**
+  1. On the owner's direction, **English → German (course id `en-de`)** is Polyglow's
+     primary course and the current top priority. We build German from **A1 to C1**,
+     starting with A1 (`curriculum-german.md`, `market-analysis-german.md`).
+  2. **CEFR levels are the top of the path hierarchy:** Course → Level (A1, A2, B1, B2, C1)
+     → Unit → Lesson. Levels without content yet are shown as "Coming soon" (GAM-010). The
+     cto chooses the contract shape (CTO-008).
+  3. **The Spanish course (`en-es`) is kept, not deleted.** It is **hidden** from onboarding:
+     the course step lists only available courses (German), followed by the existing
+     "More languages coming soon" line. Spanish isn't mentioned by name. Content files,
+     tests and lesson routes for `en-es` stay. A guest whose settings already say `en-es`
+     keeps playing Spanish with all their progress (PLT-024). No Spanish units are added
+     until the German track reaches its milestones (Spanish units 2–5 move from Phase 2 to
+     "later").
+  4. **`en-de` becomes the default course** (`DEFAULT_COURSE_ID`, CTO-008).
+  5. PRD personas and §3 now refer to German (PRD updated with a pointer to this entry).
+- **Rationale:** the owner changed direction. German has a large, motivated, often
+  deadline-driven adult audience (visas, jobs, study) for whom CEFR levels are the product,
+  so a level-based path fits better than a flat list of units. Keeping Spanish costs nothing,
+  protects existing test users' progress and keeps a second course in the codebase, which
+  keeps the multi-course code honest. Deleting it would throw away accepted work (CON-001,
+  CON-002).
+- **Alternatives considered:** delete Spanish (irreversible, breaks existing guests); show
+  Spanish as a selectable second course (splits attention and QA, invites "why so little
+  content?"); a disabled "Spanish: coming later" card (a dead end in onboarding, PD-005
+  reasoning); levels as plain unit titles without a level layer (can't show "Coming soon"
+  levels or level progress).
+- **Reversibility:** High. Unhiding Spanish is a registry flag; content is additive.
+
+## PD-031: Launch market and first known language: English → German
+
+- **Date:** 2026-11-12
+- **Decision:** The first German course is **for English speakers (`en-de`)**. The launch
+  market is English-speaking adults moving to or newly arrived in Germany (first India and
+  other English-proficient source countries, and expats inside Germany), with US/UK hobby
+  and heritage learners second (`market-analysis-german.md` §8). Recommended Phase 2 known
+  languages, in order: **Ukrainian (`uk-de`), Arabic (`ar-de`, needs RTL), Turkish
+  (`tr-de`), Spanish (`es-de`)**. Each needs UI localisation first.
+- **Rationale:** English is the shared language of the most addressable digital,
+  pre-arrival segments, and the UI is English only. One known language keeps the content
+  pipeline simple while we scale to C1. The largest in-country groups are best served in
+  their own language, which needs localisation work we haven't done.
+- **Alternatives considered:** Ukrainian or Arabic first (bigger in-country need, but needs
+  UI localisation, and RTL for Arabic, before any lesson ships); several known languages at
+  once (multiplies content work).
+- **Reversibility:** Medium. Adding known languages is additive. The order of Phase 2
+  languages is revisited with post-launch data.
+
+## PD-032: German variant and register
+
+- **Date:** 2026-11-12
+- **Decision:** Content uses **standard German as used in Germany** (`de-DE`), current
+  official spelling with `ß`. Both **`du` and `Sie` are taught from Unit 1**: `Sie` in
+  service and official scenarios (bakery staff, doctor, registration office, landlord),
+  `du` among classmates, friends and family. English prompts mark the register where it
+  matters ("(formal)", "(to a friend)"). Austrian and Swiss words and variants are not
+  taught at A1. Notes for them are a Phase 2 idea, and C1 includes awareness of the variants.
+- **Rationale:** most of our target learners move to Germany, and exams accept standard
+  German. Learners need `Sie` from day one for appointments and offices, and `du` socially.
+- **Alternatives considered:** `du` only at A1 (easier, but leaves learners unprepared for
+  offices and doctors); a pluricentric mix (confusing for beginners).
+- **Reversibility:** High (content).
+
+## PD-033: German answer matching: umlauts and ß count, case doesn't
+
+- **Date:** 2026-11-12
+- **Decision:**
+  1. **`ä ö ü ß` are significant** in tile and listen answers: `schon ≠ schön`, `Straße ≠
+     Strasse`. No `ss → ß` or `ae → ä` folding in the shared normalisation. Tiles always
+     carry the correct spelling, so learners can't get it wrong by typing.
+  2. **Capitalisation stays ignored** (PD-010 unchanged). Noun capitalisation is taught
+     through tiles shown in their authored case (nouns capitalised) and the canonical answer
+     in the feedback panel. Consequence: content never offers `sie` and `Sie` in the same
+     tile set (PD-037).
+  3. **Typed answers (Phase 2):** `ss` is accepted for `ß` and `ae / oe / ue` for `ä / ö /
+     ü`, as correct with a spelling note ("In German this is written 'Straße'"). A lowercase
+     noun is accepted with a note. These rules apply only to typed answers and need a
+     checker change at that time.
+  4. **Speech** (LES-011) stays diacritic-insensitive (`foldDiacritics`), as now.
+- **Rationale:** the normalisation is shared by schema validation and answer checking, so
+  folding `ß` there would let content bugs through and change the meaning of minimal pairs.
+  Case-sensitive tile matching would add no learning value (tiles fix the case) and would
+  fail learners on sentence-initial words. Lenient typed input respects learners without a
+  German keyboard and Swiss usage (`ss`).
+- **Alternatives considered:** case-sensitive matching for German (fails on sentence starts,
+  needs a per-course rule); accepting `ss` for `ß` everywhere (hides content bugs).
+- **Reversibility:** High (pure function, Phase 2 rules not built yet).
+
+## PD-034: German audio voice and fallback
+
+- **Date:** 2026-11-12
+- **Decision:** German audio uses a **`de-DE`** voice. Pre-generated audio paths are
+  `/audio/de/<level>/<unit>/<exercise-id>.mp3` (e.g. `/audio/de/a1/u01/de-a1-u01-l1-ex05.mp3`).
+  When a file is missing or fails, the speech-synthesis fallback picks a `de-DE` voice, then
+  any `de-*` voice, and otherwise shows the PD-007 "Audio isn't available right now." skip.
+  Slow playback stays at 0.7× (PD-014). The speech locale comes from the course (CTO-008),
+  not from code that assumes Spanish. Later, dialogues may use two distinct voices.
+- **Rationale:** the TTS licence is still waiting on the owner (PRD Q7); this keeps German
+  listening exercises playable now without unlicensed audio.
+- **Alternatives considered:** hide listen exercises in German until audio exists (removes a
+  core skill from the exam-oriented course).
+- **Reversibility:** High.
+
+## PD-035: Exam alignment and claims
+
+- **Date:** 2026-11-12
+- **Decision:** The path is **CEFR-aligned**. Each level has can-do goals and ends with a
+  checkpoint. In-app and store copy says "CEFR A1" and describes what learners can do. It
+  **never names exam brands, never claims certification or guaranteed exam success, and
+  never states visa or legal requirements**. Exam names appear only in internal documents
+  (market analysis). No exam task, sample paper, rating scale or word-list wording is
+  copied, paraphrased or imitated. The legal check on mentioning exam names in marketing is
+  an owner item (non-blocking).
+- **Rationale:** exam names are trademarks, legal requirements change often, and an
+  overstated claim would damage trust. Can-do wording is honest and still motivating.
+- **Alternatives considered:** "Exam prep for <exam>" positioning (legal risk, narrows the
+  brand).
+- **Reversibility:** Medium (marketing copy can change after the legal check).
+
+## PD-036: German release plan; v0.4.0 paused until A1 ships
+
+- **Date:** 2026-11-12
+- **Decision:**
+  - German A1 ships in three milestones: **v0.3.1** (course support + A1 units 1–4),
+    **v0.3.2** (units 5–8), **v0.3.3** (units 9–12 + A1 QA = "German A1 complete").
+  - **v0.4.0 (accounts and sync) is paused until v0.3.3 ships.** v0.3.0 (gamification loop)
+    continues: German needs the path, hearts and XP.
+  - After A1: v0.4.0 resumes in parallel with **v0.5.0 German A2**. **v1.0.0** (launch polish)
+    launches with **A1 + A2**. **B1, B2 and C1** follow as **v1.1.0, v1.2.0, v1.3.0**, each
+    with the Phase 2 exercise types it needs (curriculum §6).
+- **Rationale:** the owner asked for German lessons first. Splitting A1 into three releases
+  gives a playable German course early (units 1–4) and lets dev work (CTO-008, PLT-024,
+  GAM-010, LES-014) land in the first slice. A1 + A2 is enough for a public launch for the
+  visa, spouse and pre-arrival segments. B1+ needs new exercise types, which would delay the
+  launch by months.
+- **Alternatives considered:** one A1 milestone (no playable German for a long time);
+  launching only after C1 (very late feedback on the habit loop); continuing v0.4.0 in
+  parallel now (splits dev-platform between accounts and the German course wiring).
+- **Reversibility:** High (roadmap order).
+
+## PD-037: German content conventions
+
+- **Date:** 2026-11-12
+- **Decision:** All German content follows the **German content standard CDS-1…13** in
+  `curriculum-german.md` §7. The key points:
+  - Ids: unit `de-a1-uNN`, lesson `de-a1-uNN-lN-<slug>`, exercise `de-a1-uNN-lN-exNN`.
+    Lesson ids are unique across all courses.
+  - 5 lessons per unit. Lessons 1–4 introduce 5–8 items, lesson 5 is a scenario with 2–6.
+  - Every noun is taught with its article. Plurals are taught with `die`. Tiles keep authored
+    case. `sie` and `Sie` never share a tile set. No capital `ẞ`. Numbers in tiles are
+    written as words.
+  - Unit and lesson titles are in English (UI language and language tagging, PD-019).
+  - Person and job nouns accept both forms. A1 uses paired forms, no gender symbols.
+  - The PD-020 vocabulary rule also allows forms of taught verbs whose pattern has been
+    taught (e.g. `wir kommen` once regular endings are taught in Unit 2).
+- **Rationale:** consistent rules make 390 lessons reviewable and keep the answer checker
+  fair (PD-033).
+- **Alternatives considered:** German unit titles (screen readers would read them with an
+  English voice); gender star forms (harder for beginners, still debated in standard usage).
+- **Reversibility:** High.
+
+## PD-038: A1 scope and quality bar
+
+- **Date:** 2026-11-12
+- **Decision:** A1 = **12 units × 5 lessons = 60 lessons, ~400 new items**, 10–12
+  exercises per lesson. One `CON-DE-A1-NN` ticket per unit plus `CON-DE-A1-QA`. Before A1 is
+  "complete" (v0.3.3), CON-DE-A1-QA checks vocabulary progression, grammar coverage and
+  answer alternatives across all 60 lessons. A **native-speaker review** is requested from
+  the owner (non-blocking). Until it happens, the pm self-reviews against CDS-1…13 and keeps
+  a "needs native review" list in CON-DE-A1-QA. Native review becomes **blocking for the
+  v1.0.0 public launch**.
+- **Rationale:** 12 units cover the A1 can-do goals and the everyday scenarios (registration
+  office, bakery, supermarket, doctor, flat, train, work) and stay small enough to ship in
+  three slices. Wrong German would undermine the product's credibility at launch.
+- **Alternatives considered:** 8 units (misses doctor, flat or offices); 15 units (more
+  content before any release).
+- **Reversibility:** High.
