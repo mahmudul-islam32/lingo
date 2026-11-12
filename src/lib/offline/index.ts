@@ -27,3 +27,17 @@ export {
 export type { SyncQueueStore } from "./sync-queue";
 export type { CorruptRecordEvent, CorruptRecordReporter } from "./validation";
 export { useOnlineStatus } from "./use-online-status";
+export {
+  INSTALL_DISMISS_MS,
+  INSTALL_DISMISSED_KEY,
+  isDismissalActive,
+  isIosDevice,
+  isStandaloneDisplay,
+  readInstallDismissedAt,
+  shouldShowInstallCard,
+  writeInstallDismissedAt,
+  type InstallCardInput,
+  type InstallCardMode,
+  type MatchMediaLike,
+  type NavigatorLike,
+} from "./install-prompt";
