@@ -3,7 +3,9 @@ import type { ReactNode } from "react";
 import { BRAND_HEX } from "@/components/ui";
 import { GuestProfileBootstrap } from "@/features/profile";
 import { ICONS } from "./_pwa/pwa-config";
+import { InstallPromptCapture } from "./_shell/InstallCard";
 import { ServiceWorkerRegistration } from "./_shell/ServiceWorkerRegistration";
+import { UpdateToast } from "./_shell/UpdateToast";
 import { APP_DESCRIPTION, APP_NAME, TITLE_TEMPLATE } from "./_shell/app-name";
 import { SkipLink } from "./_shell/SkipLink";
 import { DEFAULT_THEME } from "./_shell/theme";
@@ -35,7 +37,8 @@ export const viewport: Viewport = {
 
 /**
  * Root layout: `<html lang="en">`, the skip link (first focusable element), app
- * providers, the service worker registration (PLT-002, production only) and the
+ * providers, the install-prompt capture and update toast (PLT-005), the service worker
+ * registration (PLT-002, production only) and the
  * guest-profile bootstrap (PLT-003), whose storage notice renders
  * directly above `<main>`. It has no `<main>` or `<h1>` itself: each route renders
  * exactly one of each (the `(tabs)` layout owns `<main>` for Learn and Profile).
@@ -46,6 +49,8 @@ export default function RootLayout({ children }: Readonly<{ children: ReactNode 
       <body className="flex min-h-full flex-col overflow-x-hidden bg-canvas pt-[env(safe-area-inset-top)] text-fg">
         <SkipLink />
         <Providers>
+          <InstallPromptCapture />
+          <UpdateToast />
           <ServiceWorkerRegistration />
           <GuestProfileBootstrap />
           {children}

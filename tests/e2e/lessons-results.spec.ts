@@ -2,6 +2,9 @@ import { expect, test } from "@playwright/test";
 
 /**
  * LES-008 criteria 10 and 12: the routed results flow with CON-001 content, keyboard only.
+ * LES-010 criterion 15: a new guest's first lesson shows "Streak started!", "1 day" and
+ * "15 / 20 XP" (default goal 20), and the whole screen (banner and both rows included)
+ * still fits 375 × 667.
  *
  * FIXME: needs the lesson route (`/lesson/[lessonId]`, PLT-007), onboarding and the
  * device storage that saves results (PLT-008). Until those land on `main` there is no
@@ -27,7 +30,17 @@ test.describe("LES-008 lesson results", () => {
     await expect(stats.getByRole("listitem").nth(0)).toContainText("15");
     await expect(stats.getByRole("listitem").nth(1)).toContainText("100 %");
     await expect(page.getByText("Perfect lesson! +5 bonus XP")).toBeVisible();
-    // Criterion 10: no scrolling needed at 375 × 667.
+    // LES-010 AC 15: first lesson of a new guest (default goal 20).
+    const banner = page.getByTestId("celebration-banner");
+    await expect(banner).toContainText("Streak started!");
+    await expect(banner).toBeInViewport();
+    await expect(stats.getByRole("listitem")).toHaveCount(5);
+    await expect(stats.getByRole("listitem").nth(3)).toContainText("Streak started!");
+    await expect(stats.getByRole("listitem").nth(3)).toContainText("1 day");
+    await expect(stats.getByRole("listitem").nth(4)).toContainText("Daily goal");
+    await expect(stats.getByRole("listitem").nth(4)).toContainText("15 / 20 XP");
+    await expect(stats.getByRole("listitem").nth(4)).toBeInViewport();
+    // Criterion 10 (LES-008) / 12 (LES-010): no scrolling needed at 375 × 667.
     const continueButton = page.getByRole("button", { name: "Continue" });
     await expect(continueButton).toBeInViewport();
     const scrolls = await page.evaluate(

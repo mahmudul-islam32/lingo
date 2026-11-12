@@ -1,6 +1,37 @@
+/**
+ * Test stubs for `getLocalSession()` from `@/lib/offline`: only the reads/writes the
+ * gamification hooks use. Tests `vi.mock("@/lib/offline", ...)` with one of these.
+ *
+ * - `createStubSession()`: progress/settings/hearts reads as bare `vi.fn()`s (GAM-003/006).
+ * - `createHeartsSessionStub(initial)`: hearts read + write with defaults (GAM-005).
+ */
 import { vi } from "vitest";
-import type { HeartsState } from "@/contracts";
+import type { HeartsState, LessonResult, Settings } from "@/contracts";
 import type { LocalSession } from "@/lib/offline";
+
+export const HOUR = 60 * 60 * 1000;
+
+export interface StubSession {
+  progress: {
+    listLessonResults: ReturnType<typeof vi.fn<(courseId: string) => Promise<LessonResult[]>>>;
+    getHearts: ReturnType<typeof vi.fn<() => Promise<HeartsState>>>;
+    saveHearts: ReturnType<typeof vi.fn<(state: HeartsState) => Promise<void>>>;
+  };
+  profile: {
+    findSettings: ReturnType<typeof vi.fn<() => Promise<Settings | null>>>;
+  };
+}
+
+export function createStubSession(): StubSession {
+  return {
+    progress: {
+      listLessonResults: vi.fn(),
+      getHearts: vi.fn(),
+      saveHearts: vi.fn(async () => undefined),
+    },
+    profile: { findSettings: vi.fn() },
+  };
+}
 
 /** A minimal `LocalSession` whose hearts methods are `vi.fn()`s. */
 export function createHeartsSessionStub(initial?: HeartsState) {
@@ -13,6 +44,11 @@ export function createHeartsSessionStub(initial?: HeartsState) {
   return { session, getHearts, saveHearts };
 }
 
+/** Promise that never settles (keeps a query in "loading"). */
+export function pending<T>(): Promise<T> {
+  return new Promise<T>(() => {});
+}
+
 export function deferred<T = void>() {
   let resolve!: (value: T) => void;
   let reject!: (error: unknown) => void;
@@ -23,4 +59,8 @@ export function deferred<T = void>() {
   return { promise, resolve, reject };
 }
 
-export const HOUR = 60 * 60 * 1000;
+/** Stubs `document.visibilityState` and dispatches `visibilitychange`. */
+export function becomeVisible(state: DocumentVisibilityState = "visible") {
+  Object.defineProperty(document, "visibilityState", { configurable: true, get: () => state });
+  document.dispatchEvent(new Event("visibilitychange"));
+}

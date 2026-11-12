@@ -1,12 +1,17 @@
-import { act, render, screen, waitFor, within } from "@testing-library/react";
+import { act, screen, waitFor, within } from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
 import { StrictMode } from "react";
 import { afterEach, describe, expect, it, vi } from "vitest";
 import { LessonResultSchema, type LessonResult } from "@/contracts";
+import { renderWithQueryClient } from "@/lib/query/testing";
 import { toLessonResult } from "./result";
 import { ResultsScreen, type ResultsScreenProps } from "./ResultsScreen";
 import { MAX_COUNT_UP_MS } from "./use-count-up";
 import { OTHER_RESULT_ID, oneMistakeSummary, perfectSummary, RESULT_ID } from "./testing/fixtures";
+
+// LES-008 tests: the LES-010 progress read never resolves, so only the three stats show.
+// The streak and daily-goal rows are covered in ResultsScreen.streak-goal.test.tsx.
+vi.mock("@/lib/offline", () => ({ getLocalSession: () => new Promise(() => {}) }));
 
 const perfectResult = toLessonResult(perfectSummary, { id: RESULT_ID, timeZone: "UTC" });
 const oneMistakeResult = toLessonResult(oneMistakeSummary, { id: RESULT_ID, timeZone: "UTC" });
@@ -23,7 +28,7 @@ function setup(props: Partial<ResultsScreenProps> = {}) {
     onSaved,
     ...props,
   };
-  const view = render(<ResultsScreen {...all} />);
+  const view = renderWithQueryClient(<ResultsScreen {...all} />);
   // `save` is the default mock; tests that pass their own keep a reference to it.
   return { user, save, onContinue, onSaved, view, props: all };
 }
@@ -130,7 +135,7 @@ describe("ResultsScreen", () => {
 
     it("StrictMode double effects save once", async () => {
       const save = vi.fn(() => Promise.resolve());
-      render(
+      renderWithQueryClient(
         <StrictMode>
           <ResultsScreen result={perfectResult} save={save} onContinue={vi.fn()} />
         </StrictMode>,
