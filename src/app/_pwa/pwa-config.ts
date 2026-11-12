@@ -1,5 +1,6 @@
 /** Shared PWA constants (PLT-002), used by the manifest, layout metadata and tests. */
 // Relative JSON import on purpose: `next.config.ts` loads this file (no `@/` alias there).
+import enDeCourse from "../../../content/courses/en-de/course.json";
 import enEsCourse from "../../../content/courses/en-es/course.json";
 
 export const ICONS = {
@@ -19,12 +20,15 @@ export const SW_URL = "/sw.js";
 export const SW_SCOPE = "/";
 
 /**
- * The prerendered `/lesson/<id>` pages of the bundled course (PLT-007 criterion 7), so a
- * lesson opens offline even on a cold start. Read straight from the manifest; the unit
- * test checks it against the schema-validated `bundledLessonPaths` from `@/lib/content`.
+ * The prerendered `/lesson/<id>` pages of every bundled course (PLT-007 criterion 7,
+ * CTO-008), so a lesson opens offline even on a cold start. Read straight from the
+ * manifests (same order as the registry); the unit test checks it against the
+ * schema-validated `allBundledLessonPaths` from `@/lib/content/static-params`.
  */
-export const LESSON_ROUTES: readonly string[] = enEsCourse.units.flatMap((unit) =>
-  unit.lessons.map((lesson) => `/lesson/${encodeURIComponent(lesson.id)}`),
+export const LESSON_ROUTES: readonly string[] = [enDeCourse, enEsCourse].flatMap((course) =>
+  course.units.flatMap((unit) =>
+    unit.lessons.map((lesson) => `/lesson/${encodeURIComponent(lesson.id)}`),
+  ),
 );
 
 /**

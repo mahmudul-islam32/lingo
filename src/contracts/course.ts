@@ -13,6 +13,19 @@ import { AudioPathSchema, findDuplicates, LanguageCodeSchema, SlugSchema } from 
 import { CONTENT_RULES } from "./config";
 import { tokenizeAnswer } from "./text";
 
+/**
+ * CEFR level (ADR-008). A course that declares `levels` tags every unit with one of
+ * them; courses without levels (the original en-es course) stay valid.
+ */
+export const CEFR_LEVELS = ["A1", "A2", "B1", "B2", "C1", "C2"] as const;
+export const CefrLevelSchema = z.enum(CEFR_LEVELS);
+export type CefrLevel = z.infer<typeof CefrLevelSchema>;
+
+/** Position of a level in `CEFR_LEVELS` (A1 = 0). Pure helper for ordering rules. */
+export function cefrLevelIndex(level: CefrLevel): number {
+  return CEFR_LEVELS.indexOf(level);
+}
+
 /** Short authored text shown to the learner. */
 const TextSchema = z.string().trim().min(1).max(280);
 
@@ -37,7 +50,7 @@ export type AudioClip = z.infer<typeof AudioClipSchema>;
  * Accepted answers for tile-based exercises. The first entry is the canonical answer
  * shown on a wrong attempt; further entries are accepted alternatives (US-CON-03).
  */
-const AcceptedAnswersSchema = z.array(TextSchema).min(1).max(10);
+const AcceptedAnswersSchema = z.array(TextSchema).min(1).max(CONTENT_RULES.maxAcceptedAnswers);
 
 /** Tiles offered in a word bank: answer tiles plus distractors. */
 const TilesSchema = z
@@ -123,7 +136,7 @@ export type MultipleChoiceExercise = z.infer<typeof MultipleChoiceExerciseSchema
 
 /**
  * Which way a translation goes: `to_learning` = prompt in the known language
- * (English), answer in the learning language (Spanish); `to_known` = the reverse.
+ * (English), answer in the learning language (e.g. German); `to_known` = the reverse.
  */
 export const TranslationDirectionSchema = z.enum(["to_learning", "to_known"]);
 export type TranslationDirection = z.infer<typeof TranslationDirectionSchema>;
@@ -264,9 +277,89 @@ export const UnitSchema = z.strictObject({
   id: SlugSchema,
   title: TextSchema,
   description: TextSchema.optional(),
-  lessons: z.array(LessonSummarySchema).min(1),
+  /** CEFR level of the unit. Required iff the course declares `levels` (ADR-008). */
+  level: CefrLevelSchema.optional(),
+  lessons: z
+    .array(LessonSummarySchema)
+    .min(CONTENT_RULES.unitMinLessons)
+    .max(CONTENT_RULES.unitMaxLessons),
 });
 export type Unit = z.infer<typeof UnitSchema>;
+
+/**
+ * A CEFR level of a course: the top layer of the path (PD-030), Course → Level → Unit →
+ * Lesson. Units point at their level with `Unit.level`; a level may have no units yet
+ * (shown as "Coming soon", GAM-010).
+ */
+export const CourseLevelSchema = z.strictObject({
+  level: CefrLevelSchema,
+  /** English display title, e.g. "A1 · Beginner". */
+  title: z.string().trim().min(1).max(40),
+  description: TextSchema.optional(),
+});
+export type CourseLevel = z.infer<typeof CourseLevelSchema>;
+
+/** Level rules of a course manifest (ADR-008); see `CourseSchema.levels`. */
+function refineLevels(
+  value: {
+    levels?: { level: CefrLevel }[] | undefined;
+    units: { level?: CefrLevel | undefined }[];
+  },
+  ctx: z.RefinementCtx,
+): void {
+  const { units } = value;
+  if (!value.levels) {
+    units.forEach((unit, index) => {
+      if (unit.level !== undefined) {
+        ctx.addIssue({
+          code: "custom",
+          message: "unit has a level but the course declares no levels",
+          path: ["units", index, "level"],
+        });
+      }
+    });
+    return;
+  }
+  const declared = value.levels.map((l) => l.level);
+  for (const level of findDuplicates(declared)) {
+    ctx.addIssue({ code: "custom", message: `level ${level} is declared twice`, path: ["levels"] });
+  }
+  const indexes = declared.map(cefrLevelIndex);
+  if (indexes.some((current, i) => i > 0 && current < indexes[i - 1]!)) {
+    ctx.addIssue({
+      code: "custom",
+      message: "levels must be in CEFR order (A1, A2, B1, B2, C1, C2)",
+      path: ["levels"],
+    });
+  }
+  let previous = -1;
+  units.forEach((unit, index) => {
+    if (unit.level === undefined) {
+      ctx.addIssue({
+        code: "custom",
+        message: "every unit needs a level when the course declares levels",
+        path: ["units", index, "level"],
+      });
+      return;
+    }
+    if (!declared.includes(unit.level)) {
+      ctx.addIssue({
+        code: "custom",
+        message: `unit level ${unit.level} is not one of the course levels`,
+        path: ["units", index, "level"],
+      });
+    }
+    const current = cefrLevelIndex(unit.level);
+    if (current < previous) {
+      ctx.addIssue({
+        code: "custom",
+        message: "units must be grouped by level in CEFR order",
+        path: ["units", index, "level"],
+      });
+    }
+    previous = Math.max(previous, current);
+  });
+}
 
 /** Course manifest: `content/courses/<courseId>/course.json`. */
 export const CourseSchema = z
@@ -279,7 +372,14 @@ export const CourseSchema = z
     knownLanguage: LanguageCodeSchema,
     /** Content revision, bumped on every content change; used for cache busting. */
     version: z.number().int().positive(),
-    units: z.array(UnitSchema).min(1),
+    /**
+     * The course's CEFR levels in CEFR order, each declared once (ADR-008). A level may
+     * have no units yet ("Coming soon"). Optional for backward compatibility (en-es has
+     * none); when present every unit has a `level` from this list and units are grouped
+     * by level in CEFR order, so the unit order is the path order.
+     */
+    levels: z.array(CourseLevelSchema).min(1).max(CEFR_LEVELS.length).optional(),
+    units: z.array(UnitSchema).min(1).max(CONTENT_RULES.courseMaxUnits),
   })
   .superRefine((value, ctx) => {
     if (value.learningLanguage === value.knownLanguage) {
@@ -296,5 +396,44 @@ export const CourseSchema = z
     for (const id of findDuplicates(lessonIds)) {
       ctx.addIssue({ code: "custom", message: `duplicate lesson id "${id}"`, path: ["units"] });
     }
+    if (lessonIds.length > CONTENT_RULES.courseMaxLessons) {
+      ctx.addIssue({
+        code: "custom",
+        message: `a course has at most ${CONTENT_RULES.courseMaxLessons} lessons`,
+        path: ["units"],
+      });
+    }
+    refineLevels(value, ctx);
   });
 export type Course = z.infer<typeof CourseSchema>;
+
+/** One lesson in path order with its unit and level (`null` for courses without levels). */
+export interface CourseLessonEntry {
+  lesson: LessonSummary;
+  unit: Unit;
+  level: CefrLevel | null;
+}
+
+/**
+ * Every lesson of a course in unlock/path order: A1 unit 1 lesson 1 … last level's last
+ * lesson (ADR-008). Pure; `computePathNodes` and the content layer use this order.
+ */
+export function flattenCourseLessons(course: Course): CourseLessonEntry[] {
+  return course.units.flatMap((unit) =>
+    unit.lessons.map((lesson) => ({ lesson, unit, level: unit.level ?? null })),
+  );
+}
+
+/** A declared level with its units in course order (empty for "Coming soon" levels). */
+export interface CourseLevelGroup {
+  level: CourseLevel;
+  units: Unit[];
+}
+
+/** Units grouped by the course's declared levels, in CEFR order; `[]` without levels. */
+export function groupUnitsByLevel(course: Course): CourseLevelGroup[] {
+  return (course.levels ?? []).map((level) => ({
+    level,
+    units: course.units.filter((unit) => unit.level === level.level),
+  }));
+}

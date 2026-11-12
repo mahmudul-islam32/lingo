@@ -1,7 +1,13 @@
 import { describe, expect, it } from "vitest";
 import {
+  CEFR_LEVELS,
+  CefrLevelSchema,
+  cefrLevelIndex,
+  CONTENT_RULES,
   CourseSchema,
   ExerciseSchema,
+  flattenCourseLessons,
+  groupUnitsByLevel,
   isBuildableFromTiles,
   LessonSchema,
   type Exercise,
@@ -84,7 +90,7 @@ describe("ExerciseSchema", () => {
     });
 
     it("rejects too many tiles", () => {
-      const tiles = Array.from({ length: 17 }, (_, i) => `w${i}`);
+      const tiles = Array.from({ length: CONTENT_RULES.wordBankMaxTiles + 1 }, (_, i) => `w${i}`);
       expect(ExerciseSchema.safeParse({ ...wordBank, tiles, answers: ["w1"] }).success).toBe(false);
     });
   });
@@ -141,7 +147,10 @@ describe("LessonSchema", () => {
 
   it("rejects an empty lesson and an over-long tip", () => {
     expect(LessonSchema.safeParse({ ...lesson, exercises: [] }).success).toBe(false);
-    expect(LessonSchema.safeParse({ ...lesson, tip: "x".repeat(201) }).success).toBe(false);
+    expect(
+      LessonSchema.safeParse({ ...lesson, tip: "x".repeat(CONTENT_RULES.lessonTipMaxLength + 1) })
+        .success,
+    ).toBe(false);
   });
 
   it("reports the path of a nested invalid exercise", () => {
@@ -169,5 +178,184 @@ describe("CourseSchema", () => {
   it("rejects an invalid language tag and a non-positive version", () => {
     expect(CourseSchema.safeParse({ ...course, learningLanguage: "Spanish" }).success).toBe(false);
     expect(CourseSchema.safeParse({ ...course, version: 0 }).success).toBe(false);
+  });
+});
+
+describe("CEFR levels (CTO-008, ADR-008)", () => {
+  const unit = (id: string, level?: string) => ({
+    id,
+    title: `Unit ${id}`,
+    ...(level ? { level } : {}),
+    lessons: [{ id: `${id}-l1`, title: "Lesson" }],
+  });
+  const lvl = (level: string): { level: string; title: string; description?: string } => ({
+    level,
+    title: `${level} · Title`,
+  });
+  const german = (levels: string[] | undefined, units: ReturnType<typeof unit>[]) => ({
+    id: "en-de",
+    title: "German",
+    learningLanguage: "de",
+    knownLanguage: "en",
+    version: 1,
+    ...(levels ? { levels: levels.map(lvl) } : {}),
+    units,
+  });
+  const parse = (value: unknown) => CourseSchema.safeParse(value);
+
+  it("lists the six CEFR levels in order", () => {
+    expect(CEFR_LEVELS).toEqual(["A1", "A2", "B1", "B2", "C1", "C2"]);
+    expect(cefrLevelIndex("B1")).toBe(2);
+    expect(CefrLevelSchema.safeParse("a1").success).toBe(false);
+  });
+
+  it("keeps courses without levels valid (backward compatible with en-es)", () => {
+    expect(parse(course).success).toBe(true);
+    expect(groupUnitsByLevel(course)).toEqual([]);
+  });
+
+  it("accepts levels with titles and descriptions, and a level with no units yet", () => {
+    const value = german(["A1", "A2"], [unit("a1-u1", "A1"), unit("a1-u2", "A1")]);
+    value.levels![0] = { level: "A1", title: "A1 · Beginner", description: "Basics." };
+    const result = parse(value);
+    expect(issues(result)).toEqual([]);
+    const groups = groupUnitsByLevel(result.data!);
+    expect(groups.map((g) => [g.level.level, g.units.map((u) => u.id)])).toEqual([
+      ["A1", ["a1-u1", "a1-u2"]],
+      ["A2", []],
+    ]);
+  });
+
+  it("validates level titles and descriptions", () => {
+    const value = german(["A1"], [unit("u1", "A1")]);
+    expect(parse({ ...value, levels: [{ level: "A1", title: "" }] }).success).toBe(false);
+    expect(
+      parse({ ...value, levels: [{ level: "A1", title: "A1", description: "x".repeat(281) }] })
+        .success,
+    ).toBe(false);
+    expect(parse({ ...value, levels: [{ level: "A1", title: "A1", extra: 1 }] }).success).toBe(
+      false,
+    );
+  });
+
+  it("rejects levels out of CEFR order and a level declared twice", () => {
+    expect(issues(parse(german(["A2", "A1"], [unit("u1", "A1")])))).toContain(
+      "levels must be in CEFR order (A1, A2, B1, B2, C1, C2)",
+    );
+    expect(issues(parse(german(["A1", "A1"], [unit("u1", "A1")])))).toContain(
+      "level A1 is declared twice",
+    );
+  });
+
+  it("puts every unit in exactly one declared level", () => {
+    // `Unit.level` is a single value, so a unit can't sit in two levels by construction;
+    // the same unit listed twice is a duplicate unit id.
+    expect(issues(parse(german(["A1", "A2"], [unit("u1", "A1"), unit("u1", "A2")])))).toContain(
+      'duplicate unit id "u1"',
+    );
+    expect(issues(parse(german(["A1"], [unit("u1")])))).toContain(
+      "every unit needs a level when the course declares levels",
+    );
+    expect(issues(parse(german(["A1"], [unit("u1", "B1")])))).toContain(
+      "unit level B1 is not one of the course levels",
+    );
+    expect(issues(parse(german(undefined, [unit("u1", "A1")])))).toContain(
+      "unit has a level but the course declares no levels",
+    );
+  });
+
+  it("requires units grouped by level in CEFR order", () => {
+    const result = parse(
+      german(["A1", "A2"], [unit("u1", "A1"), unit("u2", "A2"), unit("u3", "A1")]),
+    );
+    expect(issues(result)).toContain("units must be grouped by level in CEFR order");
+  });
+
+  it("flattens lessons in path order across two levels", () => {
+    const twoLevels = CourseSchema.parse({
+      ...german(["A1", "A2"], []),
+      units: [
+        {
+          id: "a1-u1",
+          level: "A1",
+          title: "U",
+          lessons: [
+            { id: "a", title: "A" },
+            { id: "b", title: "B" },
+          ],
+        },
+        { id: "a2-u1", level: "A2", title: "U", lessons: [{ id: "c", title: "C" }] },
+      ],
+    });
+    expect(flattenCourseLessons(twoLevels).map((e) => [e.level, e.unit.id, e.lesson.id])).toEqual([
+      ["A1", "a1-u1", "a"],
+      ["A1", "a1-u1", "b"],
+      ["A2", "a2-u1", "c"],
+    ]);
+    expect(flattenCourseLessons(course).map((e) => e.level)).toEqual([null, null]);
+  });
+
+  it("allows the large course sizes a real curriculum needs", () => {
+    const units = Array.from({ length: CONTENT_RULES.courseMaxUnits }, (_, u) => ({
+      id: `a1-u${u}`,
+      title: "Unit",
+      level: "A1",
+      lessons: Array.from({ length: 10 }, (_, l) => ({ id: `a1-u${u}-l${l}`, title: "L" })),
+    }));
+    expect(issues(parse(german(["A1"], units)))).toEqual([]);
+    expect(parse(german(["A1"], [...units, { ...units[0]!, id: "extra" }])).success).toBe(false);
+    const bigUnit = {
+      ...unit("a1-u1", "A1"),
+      lessons: Array.from({ length: CONTENT_RULES.unitMaxLessons + 1 }, (_, l) => ({
+        id: `l${l}`,
+        title: "L",
+      })),
+    };
+    expect(parse(german(["A1"], [bigUnit])).success).toBe(false);
+  });
+});
+
+describe("German tiles (CTO-008, ADR-008)", () => {
+  const germanWordBank = {
+    id: "de-ex1",
+    type: "word_bank_translate",
+    direction: "to_learning",
+    prompt: "The dog is beautiful.",
+    tiles: ["Der", "Hund", "ist", "schön", "schon", "Straße"],
+    answers: ["Der Hund ist schön.", "der hund ist schön"],
+  } as const;
+
+  it("builds answers from capitalised noun tiles, case-insensitively", () => {
+    expect(ExerciseSchema.safeParse(germanWordBank).success).toBe(true);
+    expect(isBuildableFromTiles("Der Hund ist schön.", ["der", "hund", "ist", "schön"])).toBe(true);
+    expect(isBuildableFromTiles("die Straße", ["Die", "STRASSE"])).toBe(false);
+  });
+
+  it("keeps hyphenated compounds buildable (U-Bahn → u bahn)", () => {
+    expect(isBuildableFromTiles("Ich nehme die U-Bahn.", ["Ich", "nehme", "die", "U-Bahn"])).toBe(
+      true,
+    );
+    expect(
+      isBuildableFromTiles("Ich schreibe eine E-Mail", ["Ich", "schreibe", "eine", "E-Mail"]),
+    ).toBe(true);
+  });
+
+  it("treats umlauts and ß as significant for tiles", () => {
+    expect(isBuildableFromTiles("Der Hund ist schön", ["Der", "Hund", "ist", "schon"])).toBe(false);
+    expect(isBuildableFromTiles("die Strasse", ["die", "Straße"])).toBe(false);
+    const result = ExerciseSchema.safeParse({
+      ...germanWordBank,
+      answers: ["Der Hund ist schoen"],
+    });
+    expect(issues(result)).toContain('answer "Der Hund ist schoen" cannot be built from the tiles');
+  });
+
+  it("accepts up to CONTENT_RULES.wordBankMaxTiles tiles and maxAcceptedAnswers answers", () => {
+    const tiles = Array.from({ length: CONTENT_RULES.wordBankMaxTiles }, (_, i) => `w${i}`);
+    const answers = Array.from({ length: CONTENT_RULES.maxAcceptedAnswers }, () => "w0 w1");
+    expect(ExerciseSchema.safeParse({ ...germanWordBank, tiles, answers }).success).toBe(true);
+    expect(
+      ExerciseSchema.safeParse({ ...germanWordBank, tiles: [...tiles, "x"], answers }).success,
+    ).toBe(false);
   });
 });

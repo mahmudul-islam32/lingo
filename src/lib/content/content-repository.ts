@@ -15,7 +15,12 @@ import {
   type Unit,
 } from "@/contracts";
 import type { z } from "zod";
-import { BUNDLED_CONTENT, type ContentLoaders } from "./bundled-content";
+import {
+  BUNDLED_CONTENT,
+  COURSE_REGISTRY,
+  type ContentLoaders,
+  type CourseRegistryEntry,
+} from "./bundled-content";
 import { lessonPath } from "./constants";
 import { ContentNotFoundError, ContentValidationError } from "./errors";
 
@@ -147,10 +152,26 @@ export async function getFirstLessonPath(
   return firstLessonPath(await repository.getCourse(courseId));
 }
 
-/** Every bundled course, validated (onboarding's course step, PLT-004). */
+/**
+ * Every bundled course, validated, hidden ones included. Onboarding's course step uses it
+ * until PLT-024 switches to `listAvailableCourses`.
+ */
 export async function listBundledCourses(
   repository: ContentRepository = contentRepository,
   loaders: ContentLoaders = BUNDLED_CONTENT,
 ): Promise<Course[]> {
   return Promise.all(Object.keys(loaders.courses).map((id) => repository.getCourse(id)));
+}
+
+/**
+ * The `available` courses of the registry, in registry order, validated: what onboarding
+ * offers (PD-030, PLT-024). Hidden courses (en-es) still load with `getCourse`.
+ */
+export async function listAvailableCourses(
+  repository: ContentRepository = contentRepository,
+  registry: readonly CourseRegistryEntry[] = COURSE_REGISTRY,
+): Promise<Course[]> {
+  return Promise.all(
+    registry.filter((c) => c.visibility === "available").map((c) => repository.getCourse(c.id)),
+  );
 }
