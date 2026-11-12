@@ -1,0 +1,128 @@
+{
+  "id": "de-a1-u06-l5-photos",
+  "courseId": "en-de",
+  "unitId": "de-a1-u06",
+  "title": "Photos on the Phone",
+  "tip": "One person: Das ist meine Oma. Two or more people: Das sind meine Eltern.",
+  "exercises": [
+    {
+      "id": "de-a1-u06-l5-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        { "id": "p1", "learning": "wer ist das?", "known": "who is that?" },
+        { "id": "p2", "learning": "groß", "known": "tall / big" },
+        { "id": "p3", "learning": "klein", "known": "short / small" },
+        { "id": "p4", "learning": "nett", "known": "nice" },
+        { "id": "p5", "learning": "süß", "known": "cute" }
+      ]
+    },
+    {
+      "id": "de-a1-u06-l5-ex02",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a1/u06/de-a1-u06-l5-ex02.mp3" },
+      "tiles": ["wer", "ist", "das", "deine", "Oma", "dein", "Opa", "sind"],
+      "answers": ["Wer ist das? Deine Oma?"]
+    },
+    {
+      "id": "de-a1-u06-l5-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'These are my parents.'?",
+      "options": [
+        { "id": "a", "text": "Das ist meine Eltern." },
+        { "id": "b", "text": "Das sind meine Eltern." },
+        { "id": "c", "text": "Das sind mein Eltern." },
+        { "id": "d", "text": "Das sind meine Kinder." }
+      ],
+      "correctOptionId": "b"
+    },
+    {
+      "id": "de-a1-u06-l5-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Who is that? Your brother? (to a friend)",
+      "tiles": ["wer", "ist", "das", "dein", "Bruder", "deine", "sind", "Schwester"],
+      "answers": ["Wer ist das? Dein Bruder?"]
+    },
+    {
+      "id": "de-a1-u06-l5-ex05",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a1/u06/de-a1-u06-l5-ex05.mp3" },
+      "tiles": ["das", "sind", "meine", "Kinder", "Ole", "und", "Jana", "ist", "mein", "Kind"],
+      "answers": ["Das sind meine Kinder, Ole und Jana."]
+    },
+    {
+      "id": "de-a1-u06-l5-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Deine Katze ist süß.",
+      "tiles": ["your", "cat", "is", "cute", "sweet", "dog", "my", "are"],
+      "answers": ["Your cat is cute.", "Your cat is sweet."]
+    },
+    {
+      "id": "de-a1-u06-l5-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'My brother is tall.'?",
+      "options": [
+        { "id": "a", "text": "Mein Bruder ist klein." },
+        { "id": "b", "text": "Meine Bruder ist groß." },
+        { "id": "c", "text": "Mein Bruder ist groß." },
+        { "id": "d", "text": "Mein Bruder sind groß." }
+      ],
+      "correctOptionId": "c"
+    },
+    {
+      "id": "de-a1-u06-l5-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "My grandparents are very nice.",
+      "tiles": ["meine", "Großeltern", "sind", "sehr", "nett", "mein", "ist", "süß"],
+      "answers": ["Meine Großeltern sind sehr nett."]
+    },
+    {
+      "id": "de-a1-u06-l5-ex09",
+      "type": "multiple_choice",
+      "prompt": "Which one means 'nice'?",
+      "options": [
+        { "id": "a", "text": "süß" },
+        { "id": "b", "text": "groß" },
+        { "id": "c", "text": "klein" },
+        { "id": "d", "text": "nett" }
+      ],
+      "correctOptionId": "d"
+    },
+    {
+      "id": "de-a1-u06-l5-ex10",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a1/u06/de-a1-u06-l5-ex10.mp3" },
+      "tiles": ["meine", "Tochter", "ist", "klein", "und", "süß", "groß", "mein", "sind"],
+      "answers": ["Meine Tochter ist klein und süß."]
+    },
+    {
+      "id": "de-a1-u06-l5-ex11",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Frau Weber ist sehr nett.",
+      "tiles": ["Mrs", "Ms", "Weber", "is", "very", "nice", "wife", "cute", "the"],
+      "answers": ["Mrs Weber is very nice.", "Ms Weber is very nice."]
+    },
+    {
+      "id": "de-a1-u06-l5-ex12",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "These are Malik and his partner.",
+      "tiles": [
+        "das",
+        "sind",
+        "Malik",
+        "und",
+        "sein",
+        "seine",
+        "Partner",
+        "Partnerin",
+        "ihr",
+        "ist"
+      ],
+      "answers": ["Das sind Malik und sein Partner.", "Das sind Malik und seine Partnerin."]
+    }
+  ]
+}

@@ -3,7 +3,7 @@
   "title": "German",
   "learningLanguage": "de",
   "knownLanguage": "en",
-  "version": 2,
+  "version": 3,
   "levels": [
     {
       "level": "A1",
@@ -136,6 +136,118 @@
         {
           "id": "de-a1-u04-l5-saturday-bakery",
           "title": "Saturday Morning at the Bakery"
+        }
+      ]
+    },
+    {
+      "id": "de-a1-u05",
+      "level": "A1",
+      "title": "At the Supermarket",
+      "description": "Say what you need, find things on the shelves, talk about quantities and pay at the checkout.",
+      "lessons": [
+        {
+          "id": "de-a1-u05-l1-fruit-and-vegetables",
+          "title": "Fruit and Vegetables"
+        },
+        {
+          "id": "de-a1-u05-l2-i-need",
+          "title": "I Need a…"
+        },
+        {
+          "id": "de-a1-u05-l3-more-than-one",
+          "title": "More Than One"
+        },
+        {
+          "id": "de-a1-u05-l4-no-milk-today",
+          "title": "No Milk Today"
+        },
+        {
+          "id": "de-a1-u05-l5-checkout",
+          "title": "At the Checkout"
+        }
+      ]
+    },
+    {
+      "id": "de-a1-u06",
+      "level": "A1",
+      "title": "Family and Friends",
+      "description": "Introduce your family, talk about brothers, sisters, partners and pets, and describe people in your photos.",
+      "lessons": [
+        {
+          "id": "de-a1-u06-l1-my-family",
+          "title": "My Family"
+        },
+        {
+          "id": "de-a1-u06-l2-brothers-and-sisters",
+          "title": "Brothers and Sisters"
+        },
+        {
+          "id": "de-a1-u06-l3-your-family",
+          "title": "Your Family?"
+        },
+        {
+          "id": "de-a1-u06-l4-grandparents-and-pets",
+          "title": "Grandparents and Pets"
+        },
+        {
+          "id": "de-a1-u06-l5-photos",
+          "title": "Photos on the Phone"
+        }
+      ]
+    },
+    {
+      "id": "de-a1-u07",
+      "level": "A1",
+      "title": "My Day",
+      "description": "Tell the time, name the days of the week, describe your daily routine and arrange to meet.",
+      "lessons": [
+        {
+          "id": "de-a1-u07-l1-what-time-is-it",
+          "title": "What Time Is It?"
+        },
+        {
+          "id": "de-a1-u07-l2-days-of-the-week",
+          "title": "Days of the Week"
+        },
+        {
+          "id": "de-a1-u07-l3-morning-routine",
+          "title": "Morning Routine"
+        },
+        {
+          "id": "de-a1-u07-l4-separable-verbs",
+          "title": "Separable Verbs"
+        },
+        {
+          "id": "de-a1-u07-l5-making-a-plan",
+          "title": "Making a Plan"
+        }
+      ]
+    },
+    {
+      "id": "de-a1-u08",
+      "level": "A1",
+      "title": "Free Time",
+      "description": "Talk about your hobbies, what you like doing and what you can do, and make plans for the weekend.",
+      "lessons": [
+        {
+          "id": "de-a1-u08-l1-hobbies",
+          "title": "Hobbies"
+        },
+        {
+          "id": "de-a1-u08-l2-i-like",
+          "title": "I Like…"
+        },
+        {
+          "id": "de-a1-u08-l3-on-the-move",
+          "title": "On the Move"
+        },
+        {
+          "id": "de-a1-u08-l4-i-can-swim",
+          "title": "I Can Swim"
+        },
+        {
+          "id": "de-a1-u08-l5-weekend-plans",
+          "title": "Weekend Plans"
         }
       ]
     }

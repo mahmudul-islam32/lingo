@@ -1,0 +1,157 @@
+{
+  "id": "de-a1-u06-l3-your-family",
+  "courseId": "en-de",
+  "unitId": "de-a1-u06",
+  "title": "Your Family?",
+  "tip": "Formal Ihr (your) has a capital I, like Sie. Dein and Ihr work like mein: deine Mutter, Ihre Kinder.",
+  "exercises": [
+    {
+      "id": "de-a1-u06-l3-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        { "id": "p1", "learning": "verheiratet", "known": "married" },
+        { "id": "p2", "learning": "ledig", "known": "single" },
+        { "id": "p3", "learning": "der Mann", "known": "the husband" },
+        { "id": "p4", "learning": "die Frau", "known": "the wife" },
+        { "id": "p5", "learning": "die Partnerin", "known": "the partner (female)" }
+      ]
+    },
+    {
+      "id": "de-a1-u06-l3-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which one means 'your sister (to a friend)'?",
+      "options": [
+        { "id": "a", "text": "deine Schwester" },
+        { "id": "b", "text": "dein Schwester" },
+        { "id": "c", "text": "Ihre Schwester" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "de-a1-u06-l3-ex03",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Are you married? (formal)",
+      "tiles": ["sind", "Sie", "verheiratet", "bist", "du", "ledig"],
+      "answers": ["Sind Sie verheiratet?"]
+    },
+    {
+      "id": "de-a1-u06-l3-ex04",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a1/u06/de-a1-u06-l3-ex04.mp3" },
+      "tiles": ["nein", "ich", "bin", "ledig", "ja", "verheiratet", "bist"],
+      "answers": ["Nein, ich bin ledig."]
+    },
+    {
+      "id": "de-a1-u06-l3-ex05",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Meine Frau heißt Ewa.",
+      "tiles": ["my", "wife", "is", "called", "Ewa", "woman", "husband", "his"],
+      "answers": ["My wife is called Ewa."]
+    },
+    {
+      "id": "de-a1-u06-l3-ex06",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'Is that your husband? (formal)'?",
+      "options": [
+        { "id": "a", "text": "Ist das Ihr Mann?" },
+        { "id": "b", "text": "Ist das Ihre Mann?" },
+        { "id": "c", "text": "Ist das dein Mann?" },
+        { "id": "d", "text": "Ist das Ihr Frau?" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "de-a1-u06-l3-ex07",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "We're married and have no children.",
+      "tiles": [
+        "wir",
+        "sind",
+        "verheiratet",
+        "und",
+        "haben",
+        "keine",
+        "Kinder",
+        "kein",
+        "habt",
+        "ledig"
+      ],
+      "answers": [
+        "Wir sind verheiratet und haben keine Kinder.",
+        "Wir haben keine Kinder und sind verheiratet."
+      ]
+    },
+    {
+      "id": "de-a1-u06-l3-ex08",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'Where do your parents live? (to a friend)'?",
+      "options": [
+        { "id": "a", "text": "Wo wohnen dein Eltern?" },
+        { "id": "b", "text": "Wo wohnt deine Eltern?" },
+        { "id": "c", "text": "Wo wohnen Ihre Eltern?" },
+        { "id": "d", "text": "Wo wohnen deine Eltern?" }
+      ],
+      "correctOptionId": "d"
+    },
+    {
+      "id": "de-a1-u06-l3-ex09",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a1/u06/de-a1-u06-l3-ex09.mp3" },
+      "tiles": [
+        "ich",
+        "heiße",
+        "Ines",
+        "meine",
+        "Partnerin",
+        "heißt",
+        "Chiara",
+        "mein",
+        "Partner",
+        "Frau"
+      ],
+      "answers": ["Ich heiße Ines. Meine Partnerin heißt Chiara."]
+    },
+    {
+      "id": "de-a1-u06-l3-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Hast du einen Partner?",
+      "tiles": ["do", "you", "have", "a", "partner", "has", "husband", "the"],
+      "answers": ["Do you have a partner?"]
+    },
+    {
+      "id": "de-a1-u06-l3-ex11",
+      "type": "multiple_choice",
+      "prompt": "Which one means 'single'?",
+      "options": [
+        { "id": "a", "text": "verheiratet" },
+        { "id": "b", "text": "jünger" },
+        { "id": "c", "text": "ledig" },
+        { "id": "d", "text": "älter" }
+      ],
+      "correctOptionId": "c"
+    },
+    {
+      "id": "de-a1-u06-l3-ex12",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I'm single and I have a son.",
+      "tiles": [
+        "ich",
+        "bin",
+        "ledig",
+        "und",
+        "habe",
+        "einen",
+        "Sohn",
+        "ein",
+        "verheiratet",
+        "Tochter"
+      ],
+      "answers": ["Ich bin ledig und habe einen Sohn.", "Ich habe einen Sohn und bin ledig."]
+    }
+  ]
+}

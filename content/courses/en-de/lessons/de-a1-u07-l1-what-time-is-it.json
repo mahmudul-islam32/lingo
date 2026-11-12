@@ -1,0 +1,146 @@
+{
+  "id": "de-a1-u07-l1-what-time-is-it",
+  "courseId": "en-de",
+  "unitId": "de-a1-u07",
+  "title": "What Time Is It?",
+  "tip": "German 'halb neun' means half past eight: half way to nine. Use um for 'at': um acht Uhr.",
+  "exercises": [
+    {
+      "id": "de-a1-u07-l1-ex01",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'What time is it?'",
+      "options": [
+        { "id": "a", "text": "Wie alt ist es?" },
+        { "id": "b", "text": "Wie spät ist es?" },
+        { "id": "c", "text": "Wo ist die Uhr?" },
+        { "id": "d", "text": "Wie geht es?" }
+      ],
+      "correctOptionId": "b"
+    },
+    {
+      "id": "de-a1-u07-l1-ex02",
+      "type": "match_pairs",
+      "pairs": [
+        { "id": "p1", "learning": "wie spät ist es?", "known": "what time is it?" },
+        { "id": "p2", "learning": "die Uhr", "known": "the clock" },
+        { "id": "p3", "learning": "halb neun", "known": "half past eight" },
+        { "id": "p4", "learning": "Viertel nach", "known": "quarter past" },
+        { "id": "p5", "learning": "Viertel vor", "known": "quarter to" }
+      ]
+    },
+    {
+      "id": "de-a1-u07-l1-ex03",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a1/u07/de-a1-u07-l1-ex03.mp3" },
+      "tiles": ["es", "ist", "acht", "Uhr", "achtzehn", "halb", "neun"],
+      "answers": ["Es ist acht Uhr."]
+    },
+    {
+      "id": "de-a1-u07-l1-ex04",
+      "type": "multiple_choice",
+      "prompt": "Which one means 'half past eight' (8:30)?",
+      "options": [
+        { "id": "a", "text": "halb acht" },
+        { "id": "b", "text": "acht Uhr" },
+        { "id": "c", "text": "halb neun" },
+        { "id": "d", "text": "Viertel nach acht" }
+      ],
+      "correctOptionId": "c"
+    },
+    {
+      "id": "de-a1-u07-l1-ex05",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "It's half past seven.",
+      "tiles": ["es", "ist", "halb", "acht", "sieben", "Viertel", "Uhr"],
+      "answers": ["Es ist halb acht.", "Halb acht ist es."]
+    },
+    {
+      "id": "de-a1-u07-l1-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Es ist Viertel nach drei.",
+      "tiles": ["it's", "it", "is", "a", "quarter", "past", "three", "to", "thirteen", "four"],
+      "answers": [
+        "It's quarter past three.",
+        "It is quarter past three.",
+        "It's a quarter past three.",
+        "It is a quarter past three."
+      ]
+    },
+    {
+      "id": "de-a1-u07-l1-ex07",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a1/u07/de-a1-u07-l1-ex07.mp3" },
+      "tiles": ["es", "ist", "Viertel", "vor", "zehn", "nach", "elf", "halb"],
+      "answers": ["Es ist Viertel vor zehn."]
+    },
+    {
+      "id": "de-a1-u07-l1-ex08",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'The course is at nine o'clock'?",
+      "options": [
+        { "id": "a", "text": "Der Kurs ist in neun Uhr." },
+        { "id": "b", "text": "Der Kurs ist um neun Uhr." },
+        { "id": "c", "text": "Die Kurs ist um neun Uhr." }
+      ],
+      "correctOptionId": "b"
+    },
+    {
+      "id": "de-a1-u07-l1-ex09",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "We eat at half past twelve.",
+      "tiles": ["wir", "essen", "um", "halb", "eins", "zwölf", "esst", "ihr"],
+      "answers": ["Wir essen um halb eins.", "Um halb eins essen wir."]
+    },
+    {
+      "id": "de-a1-u07-l1-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Ich lerne um sieben Uhr Deutsch.",
+      "tiles": [
+        "I",
+        "learn",
+        "I'm",
+        "learning",
+        "German",
+        "at",
+        "seven",
+        "o'clock",
+        "eleven",
+        "English",
+        "in"
+      ],
+      "answers": [
+        "I learn German at seven o'clock.",
+        "I'm learning German at seven o'clock.",
+        "At seven o'clock I learn German.",
+        "At seven o'clock I'm learning German.",
+        "I learn German at seven.",
+        "I'm learning German at seven.",
+        "At seven I learn German.",
+        "At seven I'm learning German."
+      ]
+    },
+    {
+      "id": "de-a1-u07-l1-ex11",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a1/u07/de-a1-u07-l1-ex11.mp3" },
+      "tiles": ["ich", "trinke", "um", "halb", "neun", "Kaffee", "acht", "Tee", "trinkst"],
+      "answers": ["Ich trinke um halb neun Kaffee."]
+    },
+    {
+      "id": "de-a1-u07-l1-ex12",
+      "type": "multiple_choice",
+      "prompt": "Which one means 'quarter to six'?",
+      "options": [
+        { "id": "a", "text": "Viertel nach sechs" },
+        { "id": "b", "text": "halb sechs" },
+        { "id": "c", "text": "Viertel vor sieben" },
+        { "id": "d", "text": "Viertel vor sechs" }
+      ],
+      "correctOptionId": "d"
+    }
+  ]
+}

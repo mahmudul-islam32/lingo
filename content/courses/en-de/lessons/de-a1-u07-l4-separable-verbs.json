@@ -1,0 +1,162 @@
+{
+  "id": "de-a1-u07-l4-separable-verbs",
+  "courseId": "en-de",
+  "unitId": "de-a1-u07",
+  "title": "Separable Verbs",
+  "tip": "Separable verbs split: einkaufen → Ich kaufe am Samstag ein. The first part goes to the end.",
+  "exercises": [
+    {
+      "id": "de-a1-u07-l4-ex01",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'I go shopping on Saturday'?",
+      "options": [
+        { "id": "a", "text": "Ich einkaufe am Samstag." },
+        { "id": "b", "text": "Ich kaufe am Samstag an." },
+        { "id": "c", "text": "Ich kaufe am Samstag ein." }
+      ],
+      "correctOptionId": "c"
+    },
+    {
+      "id": "de-a1-u07-l4-ex02",
+      "type": "match_pairs",
+      "pairs": [
+        { "id": "p1", "learning": "einkaufen", "known": "to go shopping" },
+        { "id": "p2", "learning": "anfangen", "known": "to start" },
+        { "id": "p3", "learning": "anrufen", "known": "to call (on the phone)" },
+        { "id": "p4", "learning": "fernsehen", "known": "to watch TV" },
+        { "id": "p5", "learning": "mittags", "known": "at midday" }
+      ]
+    },
+    {
+      "id": "de-a1-u07-l4-ex03",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "The course starts at nine.",
+      "tiles": ["der", "Kurs", "fängt", "um", "neun", "Uhr", "an", "anfängt", "die", "ein"],
+      "answers": [
+        "Der Kurs fängt um neun an.",
+        "Um neun fängt der Kurs an.",
+        "Der Kurs fängt um neun Uhr an.",
+        "Um neun Uhr fängt der Kurs an."
+      ]
+    },
+    {
+      "id": "de-a1-u07-l4-ex04",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a1/u07/de-a1-u07-l4-ex04.mp3" },
+      "tiles": ["abends", "sehe", "ich", "fern", "fernsehe", "mittags", "an"],
+      "answers": ["Abends sehe ich fern."]
+    },
+    {
+      "id": "de-a1-u07-l4-ex05",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I'm calling my mother.",
+      "tiles": ["ich", "rufe", "meine", "Mutter", "an", "mein", "anrufe", "ein"],
+      "answers": ["Ich rufe meine Mutter an.", "Meine Mutter rufe ich an."]
+    },
+    {
+      "id": "de-a1-u07-l4-ex06",
+      "type": "multiple_choice",
+      "prompt": "Which one means 'in the evening'?",
+      "options": [
+        { "id": "a", "text": "mittags" },
+        { "id": "b", "text": "morgens" },
+        { "id": "c", "text": "abends" },
+        { "id": "d", "text": "früh" }
+      ],
+      "correctOptionId": "c"
+    },
+    {
+      "id": "de-a1-u07-l4-ex07",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Mittags kaufe ich ein.",
+      "tiles": ["at", "midday", "noon", "I", "go", "shopping", "I'm", "going", "buy", "night"],
+      "answers": [
+        "At midday I go shopping.",
+        "I go shopping at midday.",
+        "At midday I'm going shopping.",
+        "I'm going shopping at midday.",
+        "At noon I go shopping.",
+        "I go shopping at noon.",
+        "At noon I'm going shopping.",
+        "I'm going shopping at noon."
+      ]
+    },
+    {
+      "id": "de-a1-u07-l4-ex08",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a1/u07/de-a1-u07-l4-ex08.mp3" },
+      "tiles": ["der", "Kurs", "fängt", "am", "Montag", "an", "um", "Dienstag", "ein"],
+      "answers": ["Der Kurs fängt am Montag an."]
+    },
+    {
+      "id": "de-a1-u07-l4-ex09",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'In the evening we watch TV'?",
+      "options": [
+        { "id": "a", "text": "Abends wir sehen fern." },
+        { "id": "b", "text": "Abends fernsehen wir." },
+        { "id": "c", "text": "Abends sehen wir fern." },
+        { "id": "d", "text": "Abends sehen wir an." }
+      ],
+      "correctOptionId": "c"
+    },
+    {
+      "id": "de-a1-u07-l4-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "On Thursday Lukas calls his grandma.",
+      "tiles": ["am", "Donnerstag", "ruft", "Lukas", "seine", "Oma", "an", "sein", "ihre", "ein"],
+      "answers": [
+        "Am Donnerstag ruft Lukas seine Oma an.",
+        "Lukas ruft am Donnerstag seine Oma an.",
+        "Lukas ruft seine Oma am Donnerstag an."
+      ]
+    },
+    {
+      "id": "de-a1-u07-l4-ex11",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a1/u07/de-a1-u07-l4-ex11.mp3" },
+      "tiles": [
+        "ich",
+        "kaufe",
+        "heute",
+        "ein",
+        "und",
+        "sehe",
+        "abends",
+        "fern",
+        "an",
+        "mittags",
+        "kaufst"
+      ],
+      "answers": ["Ich kaufe heute ein und sehe abends fern."]
+    },
+    {
+      "id": "de-a1-u07-l4-ex12",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Am Samstag kaufen wir ein.",
+      "tiles": [
+        "on",
+        "Saturday",
+        "we",
+        "go",
+        "shopping",
+        "we're",
+        "going",
+        "Sunday",
+        "buy",
+        "they"
+      ],
+      "answers": [
+        "On Saturday we go shopping.",
+        "We go shopping on Saturday.",
+        "On Saturday we're going shopping.",
+        "We're going shopping on Saturday."
+      ]
+    }
+  ]
+}

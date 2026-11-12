@@ -1,0 +1,131 @@
+{
+  "id": "de-a1-u05-l1-fruit-and-vegetables",
+  "courseId": "en-de",
+  "unitId": "de-a1-u05",
+  "title": "Fruit and Vegetables",
+  "tip": "Many plurals add -n: die Banane → die Bananen. Some change the vowel: der Apfel → die Äpfel.",
+  "exercises": [
+    {
+      "id": "de-a1-u05-l1-ex01",
+      "type": "multiple_choice",
+      "prompt": "Which one means 'the apple'?",
+      "options": [
+        { "id": "a", "text": "der Apfel" },
+        { "id": "b", "text": "die Apfel" },
+        { "id": "c", "text": "das Apfel" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "de-a1-u05-l1-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which one means 'the apples'?",
+      "options": [
+        { "id": "a", "text": "die Apfel" },
+        { "id": "b", "text": "die Äpfel" },
+        { "id": "c", "text": "die Äpfeln" }
+      ],
+      "correctOptionId": "b"
+    },
+    {
+      "id": "de-a1-u05-l1-ex03",
+      "type": "match_pairs",
+      "pairs": [
+        { "id": "p1", "learning": "der Apfel", "known": "the apple" },
+        { "id": "p2", "learning": "die Banane", "known": "the banana" },
+        { "id": "p3", "learning": "die Tomate", "known": "the tomato" },
+        { "id": "p4", "learning": "die Kartoffel", "known": "the potato" },
+        { "id": "p5", "learning": "die Zwiebel", "known": "the onion" }
+      ]
+    },
+    {
+      "id": "de-a1-u05-l1-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "The bananas are cheap.",
+      "tiles": ["die", "Bananen", "sind", "billig", "Banane", "ist", "teuer"],
+      "answers": ["Die Bananen sind billig.", "Billig sind die Bananen."]
+    },
+    {
+      "id": "de-a1-u05-l1-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which one means 'the vegetables'?",
+      "options": [
+        { "id": "a", "text": "das Obst" },
+        { "id": "b", "text": "der Gemüse" },
+        { "id": "c", "text": "das Gemüse" }
+      ],
+      "correctOptionId": "c"
+    },
+    {
+      "id": "de-a1-u05-l1-ex06",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a1/u05/de-a1-u05-l1-ex06.mp3" },
+      "tiles": ["ich", "möchte", "zwei", "Äpfel", "bitte", "Apfel", "drei", "eine"],
+      "answers": ["Ich möchte zwei Äpfel, bitte."]
+    },
+    {
+      "id": "de-a1-u05-l1-ex07",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Das Gemüse ist lecker.",
+      "tiles": ["the", "vegetables", "are", "tasty", "delicious", "is", "fruit", "expensive"],
+      "answers": ["The vegetables are tasty.", "The vegetables are delicious."]
+    },
+    {
+      "id": "de-a1-u05-l1-ex08",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'I'd like an onion'?",
+      "options": [
+        { "id": "a", "text": "Ich möchte ein Zwiebel." },
+        { "id": "b", "text": "Ich möchte eine Zwiebel." },
+        { "id": "c", "text": "Ich möchte eine Zwiebeln." }
+      ],
+      "correctOptionId": "b"
+    },
+    {
+      "id": "de-a1-u05-l1-ex09",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a1/u05/de-a1-u05-l1-ex09.mp3" },
+      "tiles": ["die", "Tomaten", "sind", "sehr", "lecker", "Tomate", "ist", "das"],
+      "answers": ["Die Tomaten sind sehr lecker."]
+    },
+    {
+      "id": "de-a1-u05-l1-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I'd like a banana and two onions.",
+      "tiles": [
+        "ich",
+        "möchte",
+        "eine",
+        "Banane",
+        "und",
+        "zwei",
+        "Zwiebeln",
+        "ein",
+        "Zwiebel",
+        "drei"
+      ],
+      "answers": [
+        "Ich möchte eine Banane und zwei Zwiebeln.",
+        "Ich möchte zwei Zwiebeln und eine Banane."
+      ]
+    },
+    {
+      "id": "de-a1-u05-l1-ex11",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Was kosten die Kartoffeln?",
+      "tiles": ["how", "much", "are", "the", "potatoes", "is", "onions", "what"],
+      "answers": ["How much are the potatoes?"]
+    },
+    {
+      "id": "de-a1-u05-l1-ex12",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a1/u05/de-a1-u05-l1-ex12.mp3" },
+      "tiles": ["wo", "ist", "das", "Gemüse", "Obst", "was", "der", "hier"],
+      "answers": ["Wo ist das Gemüse?"]
+    }
+  ]
+}

@@ -1,0 +1,126 @@
+{
+  "id": "de-a1-u05-l4-no-milk-today",
+  "courseId": "en-de",
+  "unitId": "de-a1-u05",
+  "title": "No Milk Today",
+  "tip": "Use kein with nouns and nicht with everything else. Answer a negative question with doch.",
+  "exercises": [
+    {
+      "id": "de-a1-u05-l4-ex01",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'I have no milk'?",
+      "options": [
+        { "id": "a", "text": "Ich habe keine Milch." },
+        { "id": "b", "text": "Ich habe nicht Milch." },
+        { "id": "c", "text": "Ich habe kein Milch." }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "de-a1-u05-l4-ex02",
+      "type": "match_pairs",
+      "pairs": [
+        { "id": "p1", "learning": "kein", "known": "no / not a" },
+        { "id": "p2", "learning": "nicht", "known": "not" },
+        { "id": "p3", "learning": "leider", "known": "unfortunately" },
+        { "id": "p4", "learning": "heute", "known": "today" },
+        { "id": "p5", "learning": "doch", "known": "yes (to a negative question)" }
+      ]
+    },
+    {
+      "id": "de-a1-u05-l4-ex03",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "The milk isn't cold.",
+      "tiles": ["die", "Milch", "ist", "nicht", "kalt", "keine", "kein", "heiß"],
+      "answers": ["Die Milch ist nicht kalt.", "Kalt ist die Milch nicht."]
+    },
+    {
+      "id": "de-a1-u05-l4-ex04",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a1/u05/de-a1-u05-l4-ex04.mp3" },
+      "tiles": ["wir", "haben", "leider", "keine", "Eier", "mehr", "kein", "nicht", "Ei"],
+      "answers": ["Wir haben leider keine Eier mehr."]
+    },
+    {
+      "id": "de-a1-u05-l4-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'I don't need an apple'?",
+      "options": [
+        { "id": "a", "text": "Ich brauche nicht einen Apfel." },
+        { "id": "b", "text": "Ich brauche keinen Apfel." },
+        { "id": "c", "text": "Ich brauche kein Apfel." }
+      ],
+      "correctOptionId": "b"
+    },
+    {
+      "id": "de-a1-u05-l4-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Hast du keinen Reis?",
+      "tiles": ["don't", "you", "have", "any", "rice", "do", "no", "cheese", "we"],
+      "answers": [
+        "Don't you have any rice?",
+        "Don't you have rice?",
+        "Do you have no rice?",
+        "Have you no rice?"
+      ]
+    },
+    {
+      "id": "de-a1-u05-l4-ex07",
+      "type": "multiple_choice",
+      "prompt": "'Don't you have any rice?' Which answer means 'Yes, I do'?",
+      "options": [
+        { "id": "a", "text": "Ja, ich habe keinen Reis." },
+        { "id": "b", "text": "Nein, ich habe Reis." },
+        { "id": "c", "text": "Doch, ich habe Reis." }
+      ],
+      "correctOptionId": "c"
+    },
+    {
+      "id": "de-a1-u05-l4-ex08",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a1/u05/de-a1-u05-l4-ex08.mp3" },
+      "tiles": ["ich", "kaufe", "heute", "kein", "Brot", "keine", "nicht", "Brote"],
+      "answers": ["Ich kaufe heute kein Brot."]
+    },
+    {
+      "id": "de-a1-u05-l4-ex09",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Unfortunately, the cheese isn't cheap.",
+      "tiles": ["der", "Käse", "ist", "leider", "nicht", "billig", "kein", "keinen", "teuer"],
+      "answers": [
+        "Der Käse ist leider nicht billig.",
+        "Leider ist der Käse nicht billig.",
+        "Billig ist der Käse leider nicht."
+      ]
+    },
+    {
+      "id": "de-a1-u05-l4-ex10",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'That isn't a bread roll'?",
+      "options": [
+        { "id": "a", "text": "Das ist kein Brötchen." },
+        { "id": "b", "text": "Das ist nicht Brötchen." },
+        { "id": "c", "text": "Das ist keine Brötchen." }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "de-a1-u05-l4-ex11",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Doch, ich habe Eier.",
+      "tiles": ["yes", "I", "do", "have", "eggs", "no", "don't", "any"],
+      "answers": ["Yes, I do have eggs.", "Yes, I have eggs."]
+    },
+    {
+      "id": "de-a1-u05-l4-ex12",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a1/u05/de-a1-u05-l4-ex12.mp3" },
+      "tiles": ["haben", "Sie", "keine", "Bananen", "mehr", "kein", "Banane", "nicht"],
+      "answers": ["Haben Sie keine Bananen mehr?"]
+    }
+  ]
+}

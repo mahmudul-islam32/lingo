@@ -1,0 +1,126 @@
+{
+  "id": "de-a1-u06-l2-brothers-and-sisters",
+  "courseId": "en-de",
+  "unitId": "de-a1-u06",
+  "title": "Brothers and Sisters",
+  "tip": "After haben, der words change: Ich habe einen Bruder. Mein changes too: meinen Kaffee.",
+  "exercises": [
+    {
+      "id": "de-a1-u06-l2-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        { "id": "p1", "learning": "der Bruder", "known": "the brother" },
+        { "id": "p2", "learning": "die Schwester", "known": "the sister" },
+        { "id": "p3", "learning": "der Sohn", "known": "the son" },
+        { "id": "p4", "learning": "die Tochter", "known": "the daughter" },
+        { "id": "p5", "learning": "älter", "known": "older" }
+      ]
+    },
+    {
+      "id": "de-a1-u06-l2-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'I have a brother.'?",
+      "options": [
+        { "id": "a", "text": "Ich habe einen Bruder." },
+        { "id": "b", "text": "Ich habe ein Bruder." },
+        { "id": "c", "text": "Ich habe eine Bruder." },
+        { "id": "d", "text": "Ich hat einen Bruder." }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "de-a1-u06-l2-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which one means 'the siblings'?",
+      "options": [
+        { "id": "a", "text": "die Schwestern" },
+        { "id": "b", "text": "die Eltern" },
+        { "id": "c", "text": "die Geschwister" },
+        { "id": "d", "text": "die Kinder" }
+      ],
+      "correctOptionId": "c"
+    },
+    {
+      "id": "de-a1-u06-l2-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Do you have siblings? (to a friend)",
+      "tiles": ["hast", "du", "Geschwister", "habe", "ich", "Schwester", "keine"],
+      "answers": ["Hast du Geschwister?"]
+    },
+    {
+      "id": "de-a1-u06-l2-ex05",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a1/u06/de-a1-u06-l2-ex05.mp3" },
+      "tiles": ["nein", "ich", "habe", "keine", "Geschwister", "kein", "hast", "ja"],
+      "answers": ["Nein, ich habe keine Geschwister."]
+    },
+    {
+      "id": "de-a1-u06-l2-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Meine Schwester ist jünger.",
+      "tiles": ["my", "sister", "is", "younger", "older", "brother", "are", "the"],
+      "answers": ["My sister is younger."]
+    },
+    {
+      "id": "de-a1-u06-l2-ex07",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Mira has a son and a daughter.",
+      "tiles": ["Mira", "hat", "einen", "Sohn", "und", "eine", "Tochter", "ein", "habe"],
+      "answers": ["Mira hat einen Sohn und eine Tochter.", "Mira hat eine Tochter und einen Sohn."]
+    },
+    {
+      "id": "de-a1-u06-l2-ex08",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'My brother is older.'?",
+      "options": [
+        { "id": "a", "text": "Meine Bruder ist älter." },
+        { "id": "b", "text": "Mein Bruder ist jünger." },
+        { "id": "c", "text": "Mein Bruder ist älter." },
+        { "id": "d", "text": "Mein Bruder sind älter." }
+      ],
+      "correctOptionId": "c"
+    },
+    {
+      "id": "de-a1-u06-l2-ex09",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a1/u06/de-a1-u06-l2-ex09.mp3" },
+      "tiles": ["meine", "Tochter", "heißt", "Selin", "sie", "ist", "zwölf", "mein", "Sohn", "elf"],
+      "answers": ["Meine Tochter heißt Selin. Sie ist zwölf."]
+    },
+    {
+      "id": "de-a1-u06-l2-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Ich habe zwei Schwestern und einen Bruder.",
+      "tiles": ["I", "have", "two", "sisters", "and", "a", "one", "brother", "sister", "has"],
+      "answers": [
+        "I have two sisters and a brother.",
+        "I have two sisters and one brother.",
+        "I have a brother and two sisters.",
+        "I have one brother and two sisters."
+      ]
+    },
+    {
+      "id": "de-a1-u06-l2-ex11",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'I need my coffee.'?",
+      "options": [
+        { "id": "a", "text": "Ich brauche mein Kaffee." },
+        { "id": "b", "text": "Ich brauche meinen Kaffee." },
+        { "id": "c", "text": "Ich brauche meine Kaffee." },
+        { "id": "d", "text": "Ich brauche einen Kaffee." }
+      ],
+      "correctOptionId": "b"
+    },
+    {
+      "id": "de-a1-u06-l2-ex12",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a1/u06/de-a1-u06-l2-ex12.mp3" },
+      "tiles": ["mein", "Bruder", "Jonas", "ist", "älter", "meine", "jünger", "sind"],
+      "answers": ["Mein Bruder Jonas ist älter."]
+    }
+  ]
+}
