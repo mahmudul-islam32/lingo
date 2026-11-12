@@ -1,9 +1,13 @@
 "use client";
 
-import { useEffect, useId, useRef, type ReactNode } from "react";
+import { useEffect, useId, useRef, useState, type ReactNode } from "react";
 import type { LessonResult } from "@/contracts";
 import { BoltIcon, Button, Card, Lumi, VisuallyHidden } from "@/components/ui";
+import { useProgressInputs } from "@/features/gamification";
+import { CelebrationBanner } from "./CelebrationBanner";
 import { formatAccuracy, formatDuration } from "./format";
+import { computeLessonImpact } from "./lesson-impact";
+import { ResultsGamificationRows } from "./ResultsGamificationRows";
 import { useCountUp } from "./use-count-up";
 import { useSaveResult, type SaveLessonResult } from "./use-save-result";
 
@@ -57,16 +61,41 @@ export function ResultsScreen({
   const xpShown = useCountUp(result.xpEarned);
   const perfectBonus = result.xp.perfectBonus;
 
+  // LES-010: streak and daily goal before/after this lesson. The query is normally warm
+  // from the lesson player; if not, the rows appear as soon as the local read resolves.
+  // Pure and a single pass over the results, so it simply runs on every render.
+  const impact = computeLessonImpact(result, useProgressInputs(result.courseId));
+  const celebration = impact?.celebration ?? null;
+
   useEffect(() => {
     headingRef.current?.focus();
   }, []);
+
+  // AC 7: announce the celebration once per result, after the heading focus has run.
+  const [announcement, setAnnouncement] = useState("");
+  const announcedFor = useRef<string | null>(null);
+  useEffect(() => {
+    if (!celebration || announcedFor.current === result.id) return;
+    announcedFor.current = result.id;
+    const text = celebration;
+    let fired = false;
+    const frame = requestAnimationFrame(() => {
+      fired = true;
+      setAnnouncement(text);
+    });
+    return () => {
+      if (fired) return;
+      cancelAnimationFrame(frame);
+      announcedFor.current = null; // StrictMode / unmount before the frame: try again
+    };
+  }, [celebration, result.id]);
 
   return (
     <section
       aria-labelledby={headingId}
       className="mx-auto flex min-h-dvh w-full max-w-md flex-col bg-canvas px-4 pt-6 pb-4 text-fg"
     >
-      <div className="flex flex-1 flex-col items-center gap-4 text-center">
+      <div className="flex flex-1 flex-col items-center gap-3 text-center">
         <div className="flex size-24 shrink-0 items-center justify-center">
           <Lumi pose="celebrating" size="md" />
         </div>
@@ -84,6 +113,8 @@ export function ResultsScreen({
           <p className="font-semibold text-xp">Perfect lesson! +{perfectBonus} bonus XP</p>
         )}
 
+        {celebration && <CelebrationBanner text={celebration} />}
+
         <ul
           aria-label="Lesson stats"
           className="grid w-full grid-cols-1 gap-2 min-[340px]:grid-cols-3"
@@ -97,6 +128,7 @@ export function ResultsScreen({
           </StatCard>
           <StatCard label="Accuracy">{formatAccuracy(result.accuracy)}</StatCard>
           <StatCard label="Time">{formatDuration(result.durationMs)}</StatCard>
+          {impact && <ResultsGamificationRows impact={impact} />}
         </ul>
 
         {status === "error" && (
@@ -111,6 +143,9 @@ export function ResultsScreen({
           </div>
         )}
         <VisuallyHidden role="status">{status === "saved" ? "Lesson saved." : ""}</VisuallyHidden>
+        <VisuallyHidden aria-live="polite" data-testid="celebration-announcement">
+          {announcement}
+        </VisuallyHidden>
       </div>
 
       <div className="flex flex-col gap-2 pt-4">
