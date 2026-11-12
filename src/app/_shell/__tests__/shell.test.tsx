@@ -44,13 +44,15 @@ describe("app shell", () => {
     expect(main).not.toContainElement(nav);
     expect(main.className).toContain("env(safe-area-inset-bottom)");
 
-    // The lesson list (PLT-007) comes before the bottom nav in the Tab order.
-    const lastLesson = await screen.findByRole("link", { name: "Lesson 5: Around Town" });
+    // The lesson list (PLT-007) comes before the bottom nav in the Tab order. The default
+    // course (en-de, CTO-008) is pm content, so lessons are found by their "Lesson N:" name.
+    await screen.findByRole("link", { name: /^Lesson 1: / });
+    const lessons = screen.getAllByRole("link", { name: /^Lesson \d+: / });
     await user.tab();
     expect(screen.getByRole("link", { name: "Skip to content" })).toHaveFocus();
     await user.tab();
-    expect(screen.getByRole("link", { name: "Lesson 1: Hello!" })).toHaveFocus();
-    lastLesson.focus();
+    expect(lessons[0]).toHaveFocus();
+    lessons.at(-1)!.focus();
     await user.tab();
     expect(within(nav).getByRole("link", { name: "Learn" })).toHaveFocus();
   });

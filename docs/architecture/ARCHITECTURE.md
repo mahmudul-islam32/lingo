@@ -4,7 +4,8 @@
 - Decisions: [ADR-001 scaffold](adr/ADR-001-scaffold.md), [ADR-002 contracts](adr/ADR-002-contracts.md),
   [ADR-003 Supabase](adr/ADR-003-supabase.md), [ADR-004 design tokens and UI primitives](adr/ADR-004-design-tokens-ui-primitives.md),
   [ADR-005 client query cache](adr/ADR-005-client-query-cache.md),
-  [ADR-006 webpack production build](adr/ADR-006-webpack-production-build-serwist.md), [ADR-007 release tagging](adr/ADR-007-release-tagging-v0.1.0-v0.2.0.md)
+  [ADR-006 webpack production build](adr/ADR-006-webpack-production-build-serwist.md), [ADR-007 release tagging](adr/ADR-007-release-tagging-v0.1.0-v0.2.0.md),
+  [ADR-008 German course and CEFR levels](adr/ADR-008-german-course-cefr-levels.md)
 - Contract changes: [contract-requests.md](contract-requests.md)
 
 Every agent reads this file before starting a ticket. If code and this document
@@ -269,6 +270,10 @@ Intl.DateTimeFormat().resolvedOptions().timeZone)` (format `YYYY-MM-DD`) and the
 
 Uses `normalizeAnswerText` / `tokenizeAnswer` / `foldDiacritics` from `@/contracts`, the
 same functions the content schema uses to verify that answers are buildable.
+German (ADR-008, PD-033): umlauts and ß are significant ("schon" ≠ "schön", no ss/ae
+folding), case is ignored (capitalised noun tiles), German quotes are punctuation, hyphens
+split words; speech (`foldDiacritics`) folds umlauts and ß → ss. Speech locale:
+`speechLocale(course.learningLanguage)` (`de` → `de-DE`).
 
 | Type                  | Correct when                                                                                                                                                                                                                | `correctAnswer`     |
 | --------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------- |
@@ -282,6 +287,15 @@ same functions the content schema uses to verify that answers are buildable.
 
 - Layout: `content/courses/<courseId>/course.json` (`CourseSchema`) and
   `content/courses/<courseId>/lessons/<lessonId>.json` (`LessonSchema`).
+- Courses (CTO-008, ADR-008): `COURSE_REGISTRY` in `src/lib/content/bundled-content.ts`
+  lists `en-de` (German, `available`, `DEFAULT_COURSE_ID`) and `en-es` (`hidden`: not
+  offered, still loadable, PD-030), with one loader line per lesson. Lesson and exercise
+  ids are unique across all courses (the route is `/lesson/<lessonId>`); en-de uses
+  `de-a1-u01`, `de-a1-u01-l1-<slug>`, `de-a1-u01-l1-ex01` (PD-037).
+- CEFR levels: `Course.levels` (`{ level, title, description? }`, CEFR order, a level may
+  have no units yet) plus `Unit.level` on every unit, units grouped by level in CEFR
+  order; both optional (en-es has none). Path order: `flattenCourseLessons`. Size limits
+  live in `CONTENT_RULES`.
 - Content schemas are strict (unknown keys fail). `src/contracts/__tests__/content.test.ts`
   validates every file in CI and checks cross-file rules: one lesson file per manifest
   entry, matching `courseId`/`unitId`, and (when `CONTENT_REQUIRE_AUDIO=1`, enabled

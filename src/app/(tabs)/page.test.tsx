@@ -10,8 +10,9 @@ describe("LearnPage", () => {
     expect(screen.getAllByRole("heading", { level: 1 })).toHaveLength(1);
     expect(screen.getByRole("heading", { level: 1, name: "Learn" })).toBeInTheDocument();
     expect(screen.getByRole("status", { name: "Loading lessons" })).toBeInTheDocument();
-    // Bundled Unit 1; jsdom has no IndexedDB, so progress uses the in-memory fallback.
-    expect(await screen.findByRole("link", { name: "Lesson 1: Hello!" })).toBeInTheDocument();
+    // Bundled Unit 1 of the default course (en-de, CTO-008; titles are pm content); jsdom
+    // has no IndexedDB, so progress uses the in-memory fallback.
+    expect(await screen.findByRole("link", { name: /^Lesson 1: / })).toBeInTheDocument();
     expect(metadata.title).toBe("Learn");
   });
 });

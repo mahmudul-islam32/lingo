@@ -107,6 +107,25 @@ test.describe("lesson route and lesson list (PLT-007)", () => {
     await expect(page.getByRole("navigation", { name: "Main" })).toHaveCount(0);
   });
 
+  test("CTO-008: choosing German (the default course) opens the first A1 lesson", async ({
+    page,
+  }) => {
+    await page.goto("/onboarding");
+    await page.getByRole("button", { name: "Get started" }).click();
+    await page.getByRole("radio", { name: "German" }).click();
+    await page.getByRole("button", { name: "Continue" }).click();
+    await page.getByRole("radio", { name: "Casual 10 XP" }).click();
+    await page.getByRole("button", { name: "Start learning" }).click();
+
+    // en-de lesson ids follow ADR-008 (`de-a1-u01-l1-…`); the content itself is the pm's.
+    await expect(page).toHaveURL(/\/lesson\/de-a1-u01-l1-[a-z0-9-]+$/);
+    await expect(
+      page.getByTestId("exercise-area").getByRole("heading", { level: 2 }),
+    ).toBeVisible();
+    await page.goto("/");
+    await expect(page.getByRole("link", { name: /^Lesson 1: / })).toBeVisible();
+  });
+
   test("criteria 4, 5, 11 and 12: Learn lists Unit 1 as an ordered list of lesson cards", async ({
     page,
   }) => {

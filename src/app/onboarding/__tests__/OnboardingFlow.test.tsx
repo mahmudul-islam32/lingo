@@ -78,9 +78,11 @@ describe("onboarding flow (PLT-004)", () => {
     const group = await toCourseStep(user);
     expect(screen.getByText("Step 2 of 3")).toBeInTheDocument();
     const radios = within(group).getAllByRole("radio");
-    expect(radios).toHaveLength(1);
-    expect(radios[0]).toHaveAccessibleName("Spanish");
+    // Default course first (CTO-008): German, then Spanish.
+    expect(radios).toHaveLength(2);
+    expect(radios[0]).toHaveAccessibleName("German");
     expect(radios[0]).toHaveAccessibleDescription("for English speakers");
+    expect(radios[1]).toHaveAccessibleName("Spanish");
     expect(radios[0]).toHaveAttribute("aria-checked", "false");
     const more = screen.getByText(MORE_LANGUAGES_TEXT);
     expect(group).not.toContainElement(more);
