@@ -4,7 +4,10 @@ import { InstallCard } from "../_shell/InstallCard";
 
 export const metadata: Metadata = { title: "Learn" };
 
-/** Learn tab: the install card (PLT-005), then the empty state until the lesson list (PLT-007) and skill path (GAM-008). */
+/**
+ * Learn tab: the install card (PLT-005), then the empty state until the lesson list
+ * (PLT-007) and skill path (GAM-008).
+ */
 export default function LearnPage() {
   return (
     <div className="flex flex-col gap-6">
