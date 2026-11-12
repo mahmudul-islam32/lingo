@@ -56,11 +56,11 @@
     {
       "id": "u1-l1-ex06",
       "type": "multiple_choice",
-      "prompt": "Which one means 'gracias'?",
+      "prompt": "Which one means 'thank you'?",
       "options": [
-        { "id": "a", "text": "Goodbye" },
-        { "id": "b", "text": "Thank you" },
-        { "id": "c", "text": "Good night" }
+        { "id": "a", "text": "Adiós" },
+        { "id": "b", "text": "Gracias" },
+        { "id": "c", "text": "Buenas noches" }
       ],
       "correctOptionId": "b"
     },
