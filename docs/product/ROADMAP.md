@@ -1,7 +1,12 @@
 # Polyglow Roadmap
 
-**Owner:** pm · **Last updated:** 2026-11-07 · **Source:** `PRD.md`, `user-stories.md`,
-decisions in `decisions.md` (PD-004 onward cover this roadmap)
+**Owner:** pm · **Last updated:** 2026-11-08 (acceptance review of v0.1.0 and v0.2.0) ·
+**Source:** `PRD.md`, `user-stories.md`, decisions in `decisions.md` (PD-004 onward cover
+this roadmap)
+
+**Status values:** **open** = not merged on `main` yet · **merged** = on `main`, PM
+acceptance pending or failed · **accepted** = on `main` and every criterion passed in the
+"PM acceptance" section of the ticket.
 
 Each milestone is a versioned release. The `cto` cuts the release when every ticket in it
 has been merged and accepted (`ORCHESTRATOR.md`, step 6). Tickets live in
@@ -20,9 +25,9 @@ Owners: `dev-platform` (PLT-), `dev-lessons` (LES-), `dev-gamification` (GAM-), 
 | ID | Title | Owner | Status |
 |---|---|---|---|
 | CTO-001 | Scaffold, tooling, CI | cto | Merged (#4) |
-| CTO-002 | `ARCHITECTURE.md` and all contracts with zod schemas in `/src/contracts` | cto | In progress |
-| CTO-003 | Supabase schema, RLS, seed (local/mock) | cto | In progress |
-| CTO-004 | Shared UI primitives (Button, Card, ProgressBar, Modal, Toast) and design tokens | cto | In progress |
+| CTO-002 | `ARCHITECTURE.md` and all contracts with zod schemas in `/src/contracts` | cto | Merged (on `main` b5f30ec) |
+| CTO-003 | Supabase schema, RLS, seed (local/mock) | cto | Merged (on `main` b5f30ec) |
+| CTO-004 | Shared UI primitives (Button, Card, ProgressBar, Modal, Toast) and design tokens | cto | Merged (on `main` b5f30ec) |
 
 No PLT/LES/GAM ticket starts until CTO-002 is merged. Tickets that use UI also wait for
 CTO-004.
@@ -34,15 +39,25 @@ CTO-004.
 **Goal:** a new visitor can open Polyglow, install it, finish onboarding as a guest and
 move around an accessible, branded app shell that still loads offline.
 
-| ID | Title | Owner | Priority | Depends on |
-|---|---|---|---|---|
-| PLT-001 | App shell, routing and bottom navigation | dev-platform | P0 | CTO-002, CTO-004 |
-| PLT-002 | Installable PWA: manifest, icons, service worker, offline shell | dev-platform | P0 | PLT-001 |
-| PLT-003 | Guest mode: on-device learner profile | dev-platform | P0 | CTO-002 |
-| PLT-004 | Onboarding: choose course and daily goal | dev-platform | P0 | PLT-001, PLT-003, GAM-001 (soft) |
-| PLT-005 | Install prompt and app-update notification | dev-platform | P1 | PLT-002, CTO-004 |
-| PLT-006 | Offline indicator and `useOnlineStatus` hook | dev-platform | P1 | PLT-001 |
-| GAM-001 | Lumi mascot component (4 static poses) | dev-gamification | P0 | CTO-004 |
+| ID | Title | Owner | Priority | Depends on | Status |
+|---|---|---|---|---|---|
+| PLT-001 | App shell, routing and bottom navigation | dev-platform | P0 | CTO-002, CTO-004 | accepted (2026-11-08) |
+| PLT-002 | Installable PWA: manifest, icons, service worker, offline shell | dev-platform | P0 | PLT-001 | accepted (2026-11-08; AC8 manual DevTools check moves to the release PR) |
+| PLT-003 | Guest mode: on-device learner profile | dev-platform | P0 | CTO-002 | accepted (2026-11-08) |
+| PLT-004 | Onboarding: choose course and daily goal | dev-platform | P0 | PLT-001, PLT-003, GAM-001 (soft) | accepted (2026-11-08) |
+| PLT-005 | Install prompt and app-update notification | dev-platform | P1 | PLT-002, CTO-004 | open |
+| PLT-006 | Offline indicator and `useOnlineStatus` hook | dev-platform | P1 | PLT-001 | accepted (2026-11-08) |
+| GAM-001 | Lumi mascot component (4 static poses) | dev-gamification | P0 | CTO-004 | accepted (2026-11-08, incl. pm brand/originality check) |
+
+**Still missing before v0.1.0 can be released**
+1. **PLT-005** (install prompt and update toast) merged and accepted. It is the only open
+   ticket in the milestone.
+2. Release checklist (cto, `ORCHESTRATOR.md` step 6): the manual Chrome DevTools >
+   Application > Manifest check on `npm run build && npm run start`, recorded in the
+   release PR (PLT-002 AC8, PD-020); the CI e2e job green, including the `pwa-prod`
+   project; `CHANGELOG.md` and the version bump.
+
+There are no FAIL items in v0.1.0, so it needs no fix tickets.
 
 **Parallel build plan**
 - Wave 1 (as soon as CTO-002 and CTO-004 are merged): **PLT-001**, **PLT-003**, **GAM-001**.
@@ -62,21 +77,38 @@ move around an accessible, branded app shell that still loads offline.
 (multiple choice, word-bank translation, match pairs, listening), with feedback,
 re-queued mistakes and a results screen. Results are saved on the device.
 
-| ID | Title | Owner | Priority | Depends on |
-|---|---|---|---|---|
-| LES-001 | Answer checking (`checkAnswer`) | dev-lessons | P0 | CTO-002 |
-| LES-002 | Lesson player: flow, progress bar, quit dialog, re-queue | dev-lessons | P0 | CTO-002, CTO-004, LES-001 |
-| LES-003 | Correct / incorrect feedback panel | dev-lessons | P0 | LES-002, CTO-004 |
-| LES-004 | Multiple-choice exercise | dev-lessons | P0 | CTO-002 |
-| LES-005 | Translate exercise (word bank) | dev-lessons | P0 | CTO-002 |
-| LES-006 | Match-pairs exercise | dev-lessons | P0 | CTO-002 |
-| LES-007 | Listen exercise (word bank, normal and slow audio) | dev-lessons | P0 | CTO-002, LES-005 |
-| LES-008 | Lesson results screen | dev-lessons | P0 | LES-002, GAM-002, PLT-008, CON-001 (e2e only) |
-| GAM-002 | XP calculation (`calculateXp`) | dev-gamification | P0 | CTO-002 |
-| PLT-007 | Course loading, lesson route and temporary lesson list | dev-platform | P0 | PLT-001, PLT-004, LES-002 |
-| PLT-008 | Save lesson results on the device | dev-platform | P0 | PLT-003, PLT-007 |
-| CON-001 | Unit 1 content: 5 original lessons (en → es) | pm | P0 | CTO-002 |
-| CON-002 | Fix: multiple-choice prompts in English, options in Spanish (PD-019) | pm | P0 | CON-001, LES-004 |
+| ID | Title | Owner | Priority | Depends on | Status |
+|---|---|---|---|---|---|
+| LES-001 | Answer checking (`checkAnswer`) | dev-lessons | P0 | CTO-002 | accepted (2026-11-08) |
+| LES-002 | Lesson player: flow, progress bar, quit dialog, re-queue | dev-lessons | P0 | CTO-002, CTO-004, LES-001 | accepted (2026-11-08) |
+| LES-003 | Correct / incorrect feedback panel | dev-lessons | P0 | LES-002, CTO-004 | accepted (2026-11-08) |
+| LES-004 | Multiple-choice exercise | dev-lessons | P0 | CTO-002 | accepted (2026-11-08; real-content `lang` tagging depends on CON-002) |
+| LES-005 | Translate exercise (word bank) | dev-lessons | P0 | CTO-002 | accepted (2026-11-08) |
+| LES-006 | Match-pairs exercise | dev-lessons | P0 | CTO-002 | accepted (2026-11-08) |
+| LES-007 | Listen exercise (word bank, normal and slow audio) | dev-lessons | P0 | CTO-002, LES-005 | accepted (2026-11-08) |
+| LES-008 | Lesson results screen | dev-lessons | P0 | LES-002, GAM-002, PLT-008, CON-001 (e2e only) | merged (11/12 PASS; AC12 e2e deferred until PLT-007 + PLT-008) |
+| GAM-002 | XP calculation (`calculateXp`) | dev-gamification | P0 | CTO-002 | accepted (2026-11-08) |
+| PLT-007 | Course loading, lesson route and temporary lesson list | dev-platform | P0 | PLT-001, PLT-004, LES-002 | open |
+| PLT-008 | Save lesson results on the device (also mounts `ResultsScreen`, PD-020) | dev-platform | P0 | PLT-003, PLT-007 | open |
+| CON-001 | Unit 1 content: 5 original lessons (en → es) | pm | P0 | CTO-002 | merged (not accepted: MC direction defect, fixed by CON-002) |
+| CON-002 | Fix: multiple-choice prompts in English, options in Spanish (PD-019, course version 2) | pm | P0 | CON-001, LES-004 | merged (2026-11-08, #36; pm acceptance pending) |
+
+**Still missing before v0.2.0 can be released**
+1. **PLT-007** merged and accepted: lesson route, Learn list, onboarding → Lesson 1,
+   offline lesson data. Its review also re-checks PLT-004 criterion 8's new target and
+   PLT-006 criterion 8 on the real `/lesson/*` route.
+2. **PLT-008** merged and accepted, including mounting `ResultsScreen` after `onFinish`
+   (PM note in the ticket, PD-020).
+3. **LES-008 criterion 12:** dev-lessons removes `test.fixme` from
+   `tests/e2e/lessons-results.spec.ts` once 1 and 2 are merged. The pm re-checks LES-008
+   criteria 1, 10 and 12 on the real route.
+4. **CON-002** (pm, content) is merged (#36); next CON-002 accepted and CON-001 re-reviewed and accepted. The
+   `u1-l2-ex07` wording ("Which one means 'where are you from'?") is a minor CON-004
+   addition and doesn't block.
+5. Release checklist (cto): CI green, including e2e; `CHANGELOG.md`; version bump.
+
+v0.2.0 doesn't depend on v0.1.0's PLT-005, but releases go in order, so v0.1.0 ships
+first.
 
 **Parallel build plan**
 - Wave 1 (contracts only): **LES-001**, **LES-004**, **LES-005**, **LES-006**, **GAM-002**,
@@ -158,7 +190,7 @@ lessons finished offline sync reliably when the device reconnects.
 | LES-013 | Lesson tip card (P2) | dev-lessons |
 | PLT-019 | Analytics events for the PRD success metrics | dev-platform |
 | PLT-020 | Draft terms and privacy pages, 13+ notice | dev-platform |
-| PLT-021 | Accessibility audit (findings become `fix/` tickets per owner) | dev-platform |
+| PLT-021 | Accessibility audit (findings become `fix/` tickets per owner). Inputs from the v0.2.0 review: is "Exercise 1 of N" announced on the first exercise (LES-002 AC13 note)? The storage notice uses non-token colours and a text "Dismiss" button (PLT-003 note) | dev-platform |
 | PLT-022 | Performance budget and Lighthouse mobile ≥ 90 | dev-platform |
 | PLT-023 | E2E suite: guest first lesson, offline → sync, sign-up migration, out of hearts | dev-platform |
 | CON-004 | Unit 1 content QA pass, speak exercises, final audio references | pm |
@@ -178,8 +210,9 @@ Ordered by expected impact on the PRD goals (G2 retention first):
 5. Weekly XP leagues and leaderboards (Supabase Realtime), Leaderboard tab
 6. Achievements and badges
 7. Friends: follow, see friends' streaks
-8. Image-based multiple choice, typed translation with diacritic tolerance, tap-to-hear
-   word tiles
+8. Image-based multiple choice, reverse-direction multiple choice (Spanish prompt,
+   English options; needs a contract `direction` field, PD-019), typed translation with
+   diacritic tolerance, tap-to-hear word tiles
 9. Mascot animations and reactions across the lesson flow
 10. Apple sign-in
 
