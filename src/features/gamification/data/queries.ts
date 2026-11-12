@@ -28,7 +28,11 @@ export function progressQuery(courseId: Slug) {
   });
 }
 
-/** `["hearts"]`: stored hearts state (not refilled). */
+/**
+ * `["hearts"]`: stored hearts state (not refilled). `staleTime: Infinity` and no refetch on
+ * focus are set explicitly (GAM-005), so a refetch never overwrites a pending optimistic
+ * loss even if the client defaults change (ADR-005 §3).
+ */
 export function heartsQuery() {
   return queryOptions({
     queryKey: queryKeys.hearts(),
@@ -36,6 +40,8 @@ export function heartsQuery() {
       const session = await getLocalSession();
       return session.progress.getHearts();
     },
+    staleTime: Infinity,
+    refetchOnWindowFocus: false,
   });
 }
 
