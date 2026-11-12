@@ -40,3 +40,15 @@ export const oneMistakeSummary: LessonSessionSummary = {
   mistakeCount: 1,
   perfect: false,
 };
+
+/** The lesson's own local date in the fixtures above (UTC). */
+export const LESSON_DATE = "2026-11-07";
+export const YESTERDAY = "2026-11-06";
+export const FIXTURE_NOW = new Date("2026-11-07T10:03:07.000Z");
+
+let seq = 0;
+/** A distinct, schema-valid v4 uuid for earlier stored results. */
+export function nextResultId(): string {
+  seq += 1;
+  return `00000000-0000-4000-8000-${String(seq).padStart(12, "0")}`;
+}
