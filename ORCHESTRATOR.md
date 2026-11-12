@@ -44,7 +44,9 @@ them, but never wait for them.
 3. **Build** — the owning dev agent implements one ticket on
    `feature/<ticket-id>-short-name`, with tests. Independent tickets may be built
    by different devs in the same run.
-4. **Review & merge** — `cto` reviews, opens the PR and squash-merges it, or
+4. **Review & merge** — `cto` reviews, opens the PR and squash-merges it (always after
+   the revert guard in `.claude/agents/cto.md`: the diff against current `main` may only
+   touch the ticket's files), or
    sends change requests back to the dev (max 2 rounds, then leave the PR open
    and log a blocker).
 5. **Accept** — `pm` verifies each acceptance criterion (PASS/FAIL in the ticket)
