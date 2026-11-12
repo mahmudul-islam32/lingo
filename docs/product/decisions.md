@@ -354,3 +354,45 @@ mocks or placeholders and swap in the final answer when it arrives.
   already needs it for its criterion 6); failing PLT-002 criterion 8 until a human runs
   DevTools (it would block the release for a check that only happens at release time).
 - **Reversibility:** High.
+
+## PD-021: Release acceptance answers (celebration copy, hearts read errors, schema bump)
+
+- **Date:** 2026-11-12
+- **Decision:**
+  1. **LES-010 streak copy.** When a lesson extends the streak and the new streak is 1
+     day (first lesson ever, **or** the first lesson after a broken streak), the row says
+     "Streak started!" and "1 day". From 2 days on it says "Streak extended!". When that
+     same lesson also newly reaches the daily goal, the single banner says **"Streak
+     started and daily goal reached!"** (or "Streak extended and daily goal reached!" from
+     day 2). This amends LES-010 criteria 4 and 6, which only named the first-ever case
+     and the "extended" wording. The merged `celebrationText` already does this.
+  2. **Hearts read error = full hearts, everywhere.** If the stored hearts can't be read,
+     every consumer treats the learner as having full hearts. That was already the rule
+     for GAM-005 and LES-009 criterion 16. It now also applies to GAM-003's
+     `useProgressInputs` / `useUserProgress`: a hearts failure alone no longer makes
+     `status: "error"`. The hook returns `success` with `hearts = createFullHearts(now)`
+     and logs a warning. `status: "error"` stays for a **results** read failure (GAM-003
+     criterion 11), where callers already have fallbacks. Recorded as new GAM-003
+     criterion 15, for dev-gamification in v0.3.0.
+  3. **PLT-008 criterion 9 (Dexie version bump) amended.** Bump the Dexie version only
+     when the stores change. PLT-003's v1 schema already had `lessonResults` and
+     `syncQueue` with the needed indexes, so no migration is needed. What the criterion
+     protects is that no PLT-003 guest profile is lost, and a unit test covers that.
+- **Rationale:**
+  1. "Streak extended!" on day 1 reads as wrong to a learner who just lost a streak or has
+     never had one. One combined banner keeps the screen within 375 × 667 (LES-010
+     criterion 12).
+  2. Hearts are a side input to progress. If a hearts read error turned into
+     `status: "error"`, it would blank the learner's XP, streak and daily goal in the top
+     bar, on the path and on the results screen (LES-010 criterion 10 would show "–" for
+     the streak) because of an unrelated storage hiccup. "No dead ends" (PD-018) and one
+     rule for every consumer is simpler and kinder. The risk is that a learner plays with
+     hearts they don't have, which is acceptable for a rare storage failure on a guest
+     device.
+  3. A no-op `version(2)` adds a migration path to test and gives the learner nothing.
+- **Alternatives considered:** separate error states per consumer for hearts (more UI
+  states, inconsistent); "Streak extended!" for every extension (inaccurate on day 1);
+  two banners when both events happen (too tall at 375 px); requiring the no-op Dexie
+  bump (process over outcome).
+- **Reversibility:** High. All three are copy or hook-level choices, with no contract or
+  data change.
