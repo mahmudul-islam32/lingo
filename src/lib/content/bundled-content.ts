@@ -178,6 +178,67 @@ export const BUNDLED_CONTENT: ContentLoaders = {
       "de-a1-u08-l5-weekend-plans": json(
         () => import("../../../content/courses/en-de/lessons/de-a1-u08-l5-weekend-plans.json"),
       ),
+      "de-a1-u09-l1-getting-around": json(
+        () => import("../../../content/courses/en-de/lessons/de-a1-u09-l1-getting-around.json"),
+      ),
+      "de-a1-u09-l2-buying-a-ticket": json(
+        () => import("../../../content/courses/en-de/lessons/de-a1-u09-l2-buying-a-ticket.json"),
+      ),
+      "de-a1-u09-l3-departures": json(
+        () => import("../../../content/courses/en-de/lessons/de-a1-u09-l3-departures.json"),
+      ),
+      "de-a1-u09-l4-changing-trains": json(
+        () => import("../../../content/courses/en-de/lessons/de-a1-u09-l4-changing-trains.json"),
+      ),
+      "de-a1-u09-l5-which-way": json(
+        () => import("../../../content/courses/en-de/lessons/de-a1-u09-l5-which-way.json"),
+      ),
+      "de-a1-u10-l1-rooms": json(
+        () => import("../../../content/courses/en-de/lessons/de-a1-u10-l1-rooms.json"),
+      ),
+      "de-a1-u10-l2-furniture": json(
+        () => import("../../../content/courses/en-de/lessons/de-a1-u10-l2-furniture.json"),
+      ),
+      "de-a1-u10-l3-there-is": json(
+        () => import("../../../content/courses/en-de/lessons/de-a1-u10-l3-there-is.json"),
+      ),
+      "de-a1-u10-l4-big-small-bright": json(
+        () => import("../../../content/courses/en-de/lessons/de-a1-u10-l4-big-small-bright.json"),
+      ),
+      "de-a1-u10-l5-the-viewing": json(
+        () => import("../../../content/courses/en-de/lessons/de-a1-u10-l5-the-viewing.json"),
+      ),
+      "de-a1-u11-l1-the-body": json(
+        () => import("../../../content/courses/en-de/lessons/de-a1-u11-l1-the-body.json"),
+      ),
+      "de-a1-u11-l2-what-hurts": json(
+        () => import("../../../content/courses/en-de/lessons/de-a1-u11-l2-what-hurts.json"),
+      ),
+      "de-a1-u11-l3-appointment": json(
+        () => import("../../../content/courses/en-de/lessons/de-a1-u11-l3-appointment.json"),
+      ),
+      "de-a1-u11-l4-reception": json(
+        () => import("../../../content/courses/en-de/lessons/de-a1-u11-l4-reception.json"),
+      ),
+      "de-a1-u11-l5-pharmacy": json(
+        () => import("../../../content/courses/en-de/lessons/de-a1-u11-l5-pharmacy.json"),
+      ),
+      "de-a1-u12-l1-months": json(
+        () => import("../../../content/courses/en-de/lessons/de-a1-u12-l1-months.json"),
+      ),
+      "de-a1-u12-l2-dates": json(
+        () => import("../../../content/courses/en-de/lessons/de-a1-u12-l2-dates.json"),
+      ),
+      "de-a1-u12-l3-registration-office": json(
+        () =>
+          import("../../../content/courses/en-de/lessons/de-a1-u12-l3-registration-office.json"),
+      ),
+      "de-a1-u12-l4-jobs": json(
+        () => import("../../../content/courses/en-de/lessons/de-a1-u12-l4-jobs.json"),
+      ),
+      "de-a1-u12-l5-a1-checkpoint": json(
+        () => import("../../../content/courses/en-de/lessons/de-a1-u12-l5-a1-checkpoint.json"),
+      ),
     },
     "en-es": {
       "u1-l1-hello": json(() => import("../../../content/courses/en-es/lessons/u1-l1-hello.json")),
