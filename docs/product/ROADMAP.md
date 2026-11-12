@@ -1,6 +1,7 @@
 # Polyglow Roadmap
 
-**Owner:** pm · **Last updated:** 2026-11-12 (final acceptance of v0.1.0 and v0.2.0) ·
+**Owner:** pm · **Last updated:** 2026-11-12 (German pivot: German track inserted after
+v0.3.0, v0.4.0 paused; PD-030, PD-036) ·
 **Source:** `PRD.md`, `user-stories.md`, decisions in `decisions.md` (PD-004 onward cover
 this roadmap)
 
@@ -166,15 +167,95 @@ about read/write hooks, UI and the skill path (PD-017).
   (needs GAM-003/004). These three touch different folders.
 - Wave 4: **PLT-009** (composes everything; can stub while the last tickets are in review).
 - Across agents: dev-gamification carries the critical path (GAM-003 → GAM-004 →
-  GAM-007). dev-lessons works on LES-009 then LES-010. dev-platform is free until PLT-009
-  and may start v0.4.0 tickets that don't touch Learn (PLT-010, PLT-012) early (PD-004).
+  GAM-007). dev-lessons works on LES-009 then LES-010. dev-platform is free until PLT-009.
+  The v0.4.0 early start (PLT-010, PLT-012) is withdrawn: v0.4.0 is paused (PD-036). Once
+  CTO-008 is merged, dev-platform, dev-lessons and dev-gamification take PLT-024, LES-014
+  and GAM-010 from v0.3.1.
 
 ---
 
-## v0.4.0 — Accounts and sync (planned)
+## German track (current priority, PD-030, PD-036)
+
+The owner moved the product to **German**: English → German (`en-de`), CEFR A1 → C1, A1
+first. Market: `market-analysis-german.md`. Curriculum and content standard (CDS-1…13):
+`curriculum-german.md`. The Spanish course stays in the codebase but is hidden from
+onboarding (PD-030).
+
+Order of work: v0.3.0 finishes as planned (German needs the path, hearts and XP), and the
+German tech tickets can start **now** in parallel because they touch other files or come
+after GAM-008 / PLT-009. **v0.4.0 is paused until v0.3.3 ships.**
+
+### v0.3.1 — German A1, part 1: course support + Units 1–4
+
+**Goal:** a new visitor is onboarded into German and can play A1 Units 1–4 on a path
+grouped by CEFR level.
+
+| ID | Title | Owner | Priority | Depends on |
+|---|---|---|---|---|
+| CTO-008 | German course support: CEFR level layer, course registry, `en-de` default, German normalisation tests, speech locale | cto | P0 | CTO-002 |
+| PLT-024 | German course in onboarding and Learn (registry, preselect, lesson route across courses, Spanish guests unchanged) | dev-platform | P0 | CTO-008, CON-DE-A1-01, PLT-009 (soft) |
+| GAM-010 | Skill path with CEFR levels and many units (level/unit headers, collapse, "Coming soon") | dev-gamification | P0 | CTO-008, GAM-008 |
+| LES-014 | German in the lesson player (de-DE speech fallback, authored-case tiles, long words at 375 px) | dev-lessons | P0 | CTO-008, LES-007 |
+| CON-DE-A1-01 | A1 Unit 1 "Hello!" (creates `en-de/course.json`) | pm | P0 | CTO-008 |
+| CON-DE-A1-02 | A1 Unit 2 "Where Are You From?" | pm | P0 | CON-DE-A1-01 |
+| CON-DE-A1-03 | A1 Unit 3 "Numbers and Letters" | pm | P0 | CON-DE-A1-02 |
+| CON-DE-A1-04 | A1 Unit 4 "At the Bakery" | pm | P0 | CON-DE-A1-03 |
+
+**Parallel build plan**
+- Wave 1: **CTO-008**. Meanwhile the pm drafts CON-DE-A1-01 lesson files against today's
+  `LessonSchema` (unchanged) and adds the manifest once CTO-008 is merged.
+- Wave 2 (after CTO-008): **PLT-024**, **GAM-010**, **LES-014** in parallel (three different
+  folders), and **CON-DE-A1-01 → 04** in sequence (pm).
+- Wave 3: PLT-024's e2e test with real German content (needs CON-DE-A1-01).
+
+### v0.3.2 — German A1, part 2: Units 5–8
+
+| ID | Title | Owner | Priority | Depends on |
+|---|---|---|---|---|
+| CON-DE-A1-05 | A1 Unit 5 "At the Supermarket" | pm | P0 | CON-DE-A1-04 |
+| CON-DE-A1-06 | A1 Unit 6 "Family and Friends" | pm | P0 | CON-DE-A1-05 |
+| CON-DE-A1-07 | A1 Unit 7 "My Day" | pm | P0 | CON-DE-A1-06 |
+| CON-DE-A1-08 | A1 Unit 8 "Free Time" | pm | P0 | CON-DE-A1-07 |
+
+Content only. Devs pick up any `fix/` tickets from the v0.3.1 review, then v0.3.0 / v0.3.1
+leftovers. dev-platform may start **PLT-015** groundwork (offline caching for many lessons)
+only if it doesn't touch accounts.
+
+### v0.3.3 — German A1, part 3: Units 9–12 + QA ("German A1 complete")
+
+| ID | Title | Owner | Priority | Depends on |
+|---|---|---|---|---|
+| CON-DE-A1-09 | A1 Unit 9 "By Bus and Train" | pm | P0 | CON-DE-A1-08 |
+| CON-DE-A1-10 | A1 Unit 10 "The New Flat" | pm | P0 | CON-DE-A1-09 |
+| CON-DE-A1-11 | A1 Unit 11 "At the Doctor's" | pm | P0 | CON-DE-A1-10 |
+| CON-DE-A1-12 | A1 Unit 12 "Offices and Work" (incl. A1 checkpoint lesson) | pm | P0 | CON-DE-A1-11 |
+| CON-DE-A1-QA | A1 content QA pass over all 60 lessons | pm | P0 | CON-DE-A1-01…12, LES-014, GAM-010, PLT-024 |
+
+When v0.3.3 is released, **v0.4.0 resumes** and **v0.5.0 German A2** starts in parallel
+(content is pm work, accounts are dev-platform work).
+
+### Later German levels (planned)
+
+| Milestone | Content | Content tickets (planned) | Tech needed (planned, curriculum §6) |
+|---|---|---|---|
+| **v0.5.0 — German A2** | 14 units, ~70 lessons, ~600 new items | CON-DE-A2-01 … CON-DE-A2-14, CON-DE-A2-QA | Gender-choice exercise (LES, contract), reverse multiple choice (`direction`, PD-019), grammar note card (contract) |
+| **v1.1.0 — German B1** | 16 units, ~80 lessons, ~1,000 items | CON-DE-B1-01 … 16, CON-DE-B1-QA | Cloze exercise, typed answers with `ss` / umlaut leniency (PD-033), reading passage |
+| **v1.2.0 — German B2** | 18 units, ~90 lessons, ~1,500 items | CON-DE-B2-01 … 18, CON-DE-B2-QA | Longer listening comprehension, guided writing (TBD), healthcare elective path |
+| **v1.3.0 — German C1** | 18 units, ~90 lessons, ~1,500 items | CON-DE-C1-01 … 18, CON-DE-C1-QA | Academic reading and register exercises, academic elective path |
+
+Public launch (v1.0.0) ships with **A1 + A2** (PD-036). A native-speaker review of A1 and A2
+is blocking for v1.0.0 (PD-038).
+
+---
+
+## v0.4.0 — Accounts and sync (planned, **paused until v0.3.3 "German A1 complete" ships**, PD-036)
 
 **Goal:** a guest can create an account (email or Google) without losing progress, and
 lessons finished offline sync reliably when the device reconnects.
+
+Paused on 2026-11-12 by the German pivot. No v0.4.0 ticket is started until v0.3.3 is
+released. The early start of PLT-010 / PLT-012 noted in v0.3.0 is withdrawn. PLT-015 now
+also covers caching the German A1 lessons (60 lesson files plus audio), not only Unit 1.
 
 | ID | Title | Owner |
 |---|---|---|
@@ -205,7 +286,9 @@ lessons finished offline sync reliably when the device reconnects.
 | PLT-021 | Accessibility audit (findings become `fix/` tickets per owner). Inputs from the v0.2.0 review: is "Exercise 1 of N" announced on the first exercise (LES-002 AC13 note)? The storage notice uses non-token colours and a text "Dismiss" button (PLT-003 note) | dev-platform |
 | PLT-022 | Performance budget and Lighthouse mobile ≥ 90 | dev-platform |
 | PLT-023 | E2E suite: guest first lesson, offline → sync, sign-up migration, out of hearts | dev-platform |
-| CON-004 | Unit 1 content QA pass, speak exercises, final audio references | pm |
+| CON-004 | Spanish Unit 1 QA, speak exercises, final audio references. **Deferred** while Spanish is hidden (PD-030); only the `u1-l2-ex07` wording fix stays, as a small content fix | pm |
+| CON-DE-SPK | German A1–A2 speak exercises and final `de-DE` audio references (with LES-011) | pm |
+| CON-DE-NR | Native-speaker review of A1 + A2 fixed (blocking for launch, PD-038) | pm |
 | CON-003 | UI microcopy review (kind feedback, empty/error states) | pm |
 | CTO-(tbd) | E2E in CI, TTS audio pipeline (waits on owner for the TTS licence, PRD Q7), release | cto |
 
@@ -218,7 +301,8 @@ Ordered by expected impact on the PRD goals (G2 retention first):
 1. Streak freeze and streak repair
 2. Practice / review mode (spaced repetition of weak words) that earns hearts back
 3. Daily reminders via Web Push
-4. Units 2–5 of the Spanish course, unit checkpoints and "jump ahead" tests
+4. Level checkpoints and "jump ahead" / placement tests for German (Spanish units 2–5 are
+   "later" while Spanish is hidden, PD-030)
 5. Weekly XP leagues and leaderboards (Supabase Realtime), Leaderboard tab
 6. Achievements and badges
 7. Friends: follow, see friends' streaks
@@ -230,5 +314,8 @@ Ordered by expected impact on the PRD goals (G2 retention first):
 
 ## Phase 3 (placeholders)
 
-Additional courses, stories and dialogue lessons, pronunciation scoring, subscription,
-native wrappers (only if PWA limits block growth), localized UI, teacher tools.
+Additional known languages for German (`uk-de`, `ar-de` with RTL, `tr-de`, `es-de`; PD-031,
+these need a localised UI), German electives (healthcare B1–B2, academic B2–C1), "deadline
+mode" (target level by date), stories and dialogue lessons, pronunciation scoring,
+subscription (pricing hypotheses in `market-analysis-german.md` §6), native wrappers (only
+if PWA limits block growth), teacher tools and B2B cohorts.

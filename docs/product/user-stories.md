@@ -81,3 +81,15 @@ Personas: **learner** (any user), **guest** (no account), **signed-in learner**,
 | US-CON-01 | As a beginner, I want Unit 1 to teach everyday basics (greetings, introductions, food, numbers, places) so that I can use them right away. | P0 |
 | US-CON-02 | As a learner, I want every listening exercise to have clear native-quality audio so that I learn correct pronunciation. | P0 |
 | US-CON-03 | As a learner, I want sentences to accept reasonable alternative translations so that I'm not marked wrong for a valid answer. | P1 |
+
+## German track (added 2026-11-12, PD-030)
+
+| ID | Story | Priority |
+|---|---|---|
+| US-DE-01 | As a newcomer to Germany, I want lessons built on everyday situations (registration office, bakery, supermarket, doctor, flat, train, work) so that I can handle my first weeks. | P0 |
+| US-DE-02 | As a learner with a visa, job or study goal, I want the path organised by CEFR level (A1 to C1) so that I always know my level and what comes next. | P0 |
+| US-DE-03 | As a beginner, I want every noun taught with its article and shown with a capital letter so that I learn gender and spelling from the start. | P0 |
+| US-DE-04 | As a learner, I want my umlauts and ß checked correctly and German audio even when a recording is missing, so that I'm never marked wrong because of a technical problem. | P0 |
+| US-DE-05 | As a learner, I want to practise both "du" and "Sie" so that I speak correctly with friends and with officials. | P0 |
+| US-DE-06 | As a learner finishing a level, I want a checkpoint that reviews the whole level so that I know I'm ready for the next one. | P1 |
+| US-DE-07 | As a learner who needs a level by a deadline, I want a daily goal that gets me there in time so that I can plan my learning (Phase 2 "deadline mode"). | P2 |

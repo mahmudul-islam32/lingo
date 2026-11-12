@@ -2,7 +2,7 @@
 
 **App name:** Polyglow (decided, see PD-001 in `decisions.md`)
 **Mascot:** Lumi, the paper lantern
-**Status:** Draft v1 — Phase 0 · **Owner:** pm · **Last updated:** 2026-11-07
+**Status:** Draft v1.1 (German pivot, see §3) · **Owner:** pm · **Last updated:** 2026-11-12
 
 ---
 
@@ -23,12 +23,24 @@ Everything about the brand, mascot, art, sound and course content is our own.
 | **Returning learner** (secondary) | Studied Spanish at school years ago and forgot most of it. | Quick wins and a way to keep a habit going. |
 | **Try-before-commit visitor** | Arrives from a shared link and doesn't want to make an account yet. | Start a lesson in under 30 seconds as a guest, keep the progress when signing up later. |
 
+German track personas (PD-031): skilled workers and nurses preparing to move, spouses who
+need A1, international students, expats in Germany, then hobby and heritage learners
+(`market-analysis-german.md` §2). The personas above apply with "German" for "Spanish".
+
 Out of scope for MVP: children under 13 (would bring COPPA/GDPR-K obligations), teachers
 and classrooms, advanced learners.
 
 ## 3. First course — language pair
 
-**MVP course: English speakers learning Spanish (`en` → `es`).**
+> **Changed 2026-11-12 (PD-030, PD-031):** the primary course is now **English speakers
+> learning German (`en-de`)**, organised by CEFR level from A1 to C1. See
+> `market-analysis-german.md` for the market and personas (skilled workers, nurses, spouses,
+> students, expats, hobby and heritage learners) and `curriculum-german.md` for the
+> curriculum. The Spanish course below is kept but hidden from onboarding. The text below
+> is the original MVP rationale and stays as history. Where this PRD says "Spanish", read
+> "the active course".
+
+**Original MVP course: English speakers learning Spanish (`en` → `es`).**
 
 Why:
 - Spanish is the language English speakers most often choose to learn, so it gives the
