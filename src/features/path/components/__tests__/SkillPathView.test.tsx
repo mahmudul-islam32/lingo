@@ -63,7 +63,21 @@ function setup(
 }
 
 /** A node control (link or button) by its accessible name. */
-const node = (name: string | RegExp) => screen.getByLabelText(name);
+function node(name: string | RegExp): HTMLElement {
+  const matches = [
+    ...screen.queryAllByRole("link", { name }),
+    ...screen.queryAllByRole("button", { name }),
+  ];
+  expect(matches, `one node named ${String(name)}`).toHaveLength(1);
+  return matches[0]!;
+}
+function expectNames(elements: HTMLElement[], names: string[]) {
+  expect(elements).toHaveLength(names.length);
+  elements.forEach((element, i) => expect(element).toHaveAccessibleName(names[i]));
+}
+const queryNode = (name: string | RegExp) =>
+  [...screen.queryAllByRole("link", { name }), ...screen.queryAllByRole("button", { name })][0] ??
+  null;
 const controls = (listName = "First Steps") =>
   within(screen.getByRole("list", { name: listName }))
     .getAllByRole("listitem")
@@ -144,10 +158,10 @@ describe("SkillPathView: structure (AC4)", () => {
 
 describe("SkillPathView: states and accessible names (AC5, AC6)", () => {
   it.each<{ state: PathNode["state"]; text: string; icon: string | null; suffix: string }>([
-    { state: "completed", text: "Completed", icon: "check", suffix: "completed" },
-    { state: "available", text: "Start", icon: null, suffix: "up next" },
+    { state: "completed", text: "Completed", icon: "check", suffix: "completed. Start again" },
+    { state: "available", text: "Start", icon: null, suffix: "up next. Start" },
     { state: "locked", text: "Locked", icon: "lock", suffix: "locked" },
-    { state: "in_progress", text: "Continue", icon: "half-ring", suffix: "in progress" },
+    { state: "in_progress", text: "Continue", icon: "half-ring", suffix: "in progress. Continue" },
   ])("$state: icon and text '$text', name ', $suffix'", ({ state, text, icon, suffix }) => {
     // L1 completed, L2 in progress or available, L3 locked.
     setup({ completed: [L[0]], active: state === "in_progress" ? L[1] : null });
@@ -166,14 +180,14 @@ describe("SkillPathView: states and accessible names (AC5, AC6)", () => {
 
   it("completed nodes say 'Start again' (AC7)", () => {
     setup({ completed: [L[0]] });
-    expect(node("Lesson 1: Hello!, completed")).toHaveTextContent("Start again");
-    expect(node("Lesson 2: Nice to Meet You, up next")).not.toHaveTextContent("Start again");
+    expect(node("Lesson 1: Hello!, completed. Start again")).toHaveTextContent("Start again");
+    expect(node("Lesson 2: Nice to Meet You, up next. Start")).not.toHaveTextContent("Start again");
   });
 
   it("names every node of a new learner", () => {
     setup();
-    expect(controls().map((c) => c.getAttribute("aria-label"))).toEqual([
-      "Lesson 1: Hello!, up next",
+    expectNames(controls(), [
+      "Lesson 1: Hello!, up next. Start",
       "Lesson 2: Nice to Meet You, locked",
       "Lesson 3: At the Café, locked",
       "Lesson 4: Count It, locked",
@@ -181,11 +195,50 @@ describe("SkillPathView: states and accessible names (AC5, AC6)", () => {
     ]);
   });
 
+  it.each<[string, string[], string | null]>([
+    ["new learner", [], null],
+    ["one done, one in progress", [L[0]], L[1]],
+    ["all done", [...L], null],
+  ])(
+    "label in name (WCAG 2.5.3, FIX-002), %s: no aria-label, the name contains the visible text in order",
+    (_, completed, active) => {
+      setup({ completed, active });
+      const normalise = (text: string) =>
+        text
+          .toLowerCase()
+          .replace(/[^\p{L}\p{N}]+/gu, " ")
+          .trim();
+      for (const control of controls()) {
+        expect(control).not.toHaveAttribute("aria-label");
+        expect(control).not.toHaveAttribute("aria-labelledby");
+        const visible = control.querySelector(':scope > [aria-hidden="true"]:not([data-testid])');
+        expect(visible).not.toBeNull();
+        const hidden = control.querySelector(".sr-only");
+        expect(control).toHaveAccessibleName(hidden!.textContent!);
+        // Each visible line, in order, is a subsequence of the name's words.
+        let name = ` ${normalise(hidden!.textContent!)} `;
+        const lines = Array.from(visible!.children, (c) => normalise(c.textContent!));
+        expect(lines.length).toBeGreaterThanOrEqual(3);
+        for (const line of lines) {
+          const at = name.indexOf(` ${line} `);
+          expect(at, `"${line}" in "${name}"`).toBeGreaterThanOrEqual(0);
+          name = name.slice(at + line.length + 1);
+        }
+      }
+    },
+  );
+
+  it("the 'No hearts left' hint is the description, not part of the name", () => {
+    setup({ canStartLesson: false });
+    const control = node("Lesson 1: Hello!, up next. Start");
+    expect(control).toHaveAccessibleDescription("No hearts left");
+  });
+
   it("all 5 done: every node completed, none up next", () => {
     setup({ completed: [...L] });
     expect(screen.getByText("5 of 5 lessons completed")).toBeInTheDocument();
     for (const c of controls()) expect(c).toHaveAttribute("data-state", "completed");
-    expect(screen.queryByLabelText(/up next/)).toBeNull();
+    expect(queryNode(/up next/)).toBeNull();
   });
 
   it("only locked nodes are aria-disabled", () => {
@@ -223,7 +276,7 @@ describe("SkillPathView: activation (AC7, AC8)", () => {
 
   it("an in-progress node opens the lesson", async () => {
     const { user } = setup({ active: L[0] });
-    await user.click(node("Lesson 1: Hello!, in progress"));
+    await user.click(node("Lesson 1: Hello!, in progress. Continue"));
     expect(followed).toEqual([`/lesson/${L[0]}`]);
   });
 
@@ -298,7 +351,7 @@ describe("SkillPathView: activation (AC7, AC8)", () => {
       { lessonId: L[0], unitId: "unit-1", state: "locked" },
     ];
     const { user, onLockedLesson } = setup({ nodes });
-    expect(screen.queryByLabelText(/orphan/)).toBeNull();
+    expect(queryNode(/orphan/)).toBeNull();
     await user.click(node(/^Lesson 1:/));
     expect(onLockedLesson).toHaveBeenCalledWith(
       "Finish the earlier lessons to unlock this one.",
@@ -379,11 +432,26 @@ describe("SkillPathView: 0-hearts gate (AC9, AC10)", () => {
   });
 });
 
-describe("SkillPathView: scroll to the next lesson (AC11, AC12)", () => {
+describe("SkillPathView: scroll to the next lesson (AC11, AC12, FIX-002)", () => {
+  const RECT = { top: 900, height: 80, width: 176 } as const;
+
+  /** Gives the nodes a layout (jsdom has none) and records window.scrollTo. */
   function mockMotion(reduce: boolean | null) {
+    vi.spyOn(HTMLElement.prototype, "getBoundingClientRect").mockReturnValue({
+      ...RECT,
+      left: 0,
+      right: RECT.width,
+      bottom: RECT.top + RECT.height,
+      x: 0,
+      y: RECT.top,
+      toJSON: () => ({}),
+    } as DOMRect);
+    vi.spyOn(window, "innerHeight", "get").mockReturnValue(600);
+    vi.spyOn(window, "scrollY", "get").mockReturnValue(100);
     const scroll = vi.fn();
-    Object.defineProperty(HTMLElement.prototype, "scrollIntoView", {
+    Object.defineProperty(window, "scrollTo", {
       configurable: true,
+      writable: true,
       value: scroll,
     });
     if (reduce !== null) {
@@ -397,29 +465,61 @@ describe("SkillPathView: scroll to the next lesson (AC11, AC12)", () => {
     return scroll;
   }
 
+  const intoView = vi.fn();
+  const originalScrollTo = window.scrollTo;
+  beforeEach(() => {
+    intoView.mockClear();
+    Object.defineProperty(HTMLElement.prototype, "scrollIntoView", {
+      configurable: true,
+      value: intoView,
+    });
+  });
+
   afterEach(() => {
     delete (HTMLElement.prototype as Partial<HTMLElement>).scrollIntoView;
     delete (window as Partial<Window>).matchMedia;
+    Object.defineProperty(window, "scrollTo", {
+      configurable: true,
+      writable: true,
+      value: originalScrollTo,
+    });
   });
 
-  it("smooth-scrolls the available node into view on open", () => {
+  // Centre: scrollY + top - (innerHeight - height) / 2 = 100 + 900 - 260.
+  const CENTRED = 740;
+
+  it("smooth-scrolls the window so the available node is centred", () => {
     const scroll = mockMotion(false);
     setup({ completed: [L[0]] });
-    expect(scroll).toHaveBeenCalledTimes(1);
-    expect(scroll.mock.contexts[0]).toBe(node(/^Lesson 2:/));
-    expect(scroll).toHaveBeenCalledWith({ block: "center", inline: "nearest", behavior: "smooth" });
+    expect(scroll).toHaveBeenCalledExactlyOnceWith({ top: CENTRED, behavior: "smooth" });
+  });
+
+  it("never calls scrollIntoView, which would move Chromium's Tab starting point", () => {
+    mockMotion(false);
+    setup({ completed: [L[0]] });
+    expect(intoView).not.toHaveBeenCalled();
+  });
+
+  it("leaves focus and the Tab order alone: the first Tab goes to the first node", async () => {
+    mockMotion(false);
+    const { user } = setup({ completed: [L[0]] });
+    expect(document.body).toHaveFocus();
+    await user.tab();
+    expect(node(/^Lesson 1:/)).toHaveFocus();
   });
 
   it("scrolls to the frontier button at 0 hearts too", () => {
     const scroll = mockMotion(false);
+    const rect = vi.mocked(HTMLElement.prototype.getBoundingClientRect);
     setup({ completed: [L[0]], canStartLesson: false });
-    expect(scroll.mock.contexts[0]).toBe(node(/^Lesson 2:/));
+    expect(rect.mock.contexts).toContain(node(/^Lesson 2:/));
+    expect(scroll).toHaveBeenCalledTimes(1);
   });
 
   it("jumps without animation under prefers-reduced-motion", () => {
     const scroll = mockMotion(true);
     setup();
-    expect(scroll).toHaveBeenCalledWith(expect.objectContaining({ behavior: "auto" }));
+    expect(scroll).toHaveBeenCalledWith({ top: CENTRED, behavior: "auto" });
   });
 
   it("scrolls smoothly when matchMedia is missing", () => {
@@ -434,9 +534,15 @@ describe("SkillPathView: scroll to the next lesson (AC11, AC12)", () => {
     expect(scroll).not.toHaveBeenCalled();
   });
 
-  it("works when scrollIntoView is missing (jsdom, old browsers)", () => {
-    expect("scrollIntoView" in HTMLElement.prototype).toBe(false);
+  it("does not scroll when the nodes have no layout (jsdom, hidden)", () => {
+    const scroll = vi.fn();
+    Object.defineProperty(window, "scrollTo", {
+      configurable: true,
+      writable: true,
+      value: scroll,
+    });
     expect(() => setup()).not.toThrow();
+    expect(scroll).not.toHaveBeenCalled();
   });
 
   it("updates without a reload after finishing a lesson, without scrolling again", () => {
@@ -462,10 +568,7 @@ describe("SkillPathView: multiple units and empty state (AC15)", () => {
   it("renders one section per unit and numbers lessons globally", () => {
     setup({ course: twoUnitCourse, completed: ["a1", "a2"] });
     expect(screen.getAllByRole("region")).toHaveLength(2);
-    expect(controls("Next Steps").map((c) => c.getAttribute("aria-label"))).toEqual([
-      "Lesson 3: B1, up next",
-      "Lesson 4: B2, locked",
-    ]);
+    expectNames(controls("Next Steps"), ["Lesson 3: B1, up next. Start", "Lesson 4: B2, locked"]);
     expect(screen.getByText("2 of 2 lessons completed")).toBeInTheDocument();
     expect(screen.getByText("0 of 2 lessons completed")).toBeInTheDocument();
   });
@@ -539,7 +642,14 @@ describe("path copy", () => {
     expect(pathCopy.unitProgressText(0, 5)).toBe("0 of 5 lessons completed");
     expect(pathCopy.unitProgressText(1, 1)).toBe("1 of 1 lesson completed");
     expect(pathCopy.nodeAccessibleName(3, "At the Café", "in_progress")).toBe(
-      "Lesson 3: At the Café, in progress",
+      "Lesson 3: At the Café, in progress. Continue",
+    );
+    expect(pathCopy.nodeAccessibleName(1, "Hello!", "completed")).toBe(
+      "Lesson 1: Hello!, completed. Start again",
+    );
+    expect(pathCopy.nodeAccessibleName(2, "Hi", "available")).toBe("Lesson 2: Hi, up next. Start");
+    expect(pathCopy.nodeAccessibleName(5, "Around Town", "locked")).toBe(
+      "Lesson 5: Around Town, locked",
     );
     expect(pathCopy.lockedToastText(2)).toBe("Finish Lesson 2 to unlock this one.");
     expect(pathCopy.lockedToastText(null)).toBe("Finish the earlier lessons to unlock this one.");

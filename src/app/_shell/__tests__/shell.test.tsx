@@ -56,7 +56,7 @@ describe("app shell", () => {
     await user.tab();
     expect(hearts).toHaveFocus();
     await user.tab();
-    expect(screen.getByRole("link", { name: "Lesson 1: Hello!, up next" })).toHaveFocus();
+    expect(screen.getByRole("link", { name: "Lesson 1: Hello!, up next. Start" })).toHaveFocus();
     lastLesson.focus();
     await user.tab();
     expect(within(nav).getByRole("link", { name: "Learn" })).toHaveFocus();

@@ -1,5 +1,5 @@
 import { expect, test, type Page } from "@playwright/test";
-import { expectNoSeriousA11yViolations, SKILL_PATH_KNOWN_ISSUES } from "./axe";
+import { expectNoSeriousA11yViolations } from "./axe";
 import { answerFirstExerciseWrong, LESSON_1_URL, playLesson1 } from "./helpers/lesson-1";
 import { seedHearts } from "./helpers/seed";
 import { completeOnboarding } from "./onboarding-helpers";
@@ -13,7 +13,6 @@ test.use({ viewport: { width: 375, height: 667 } });
 
 const LOCKED_TOAST = "Finish the earlier lessons first.";
 
-const LEARN_AXE = SKILL_PATH_KNOWN_ISSUES;
 const OUT_OF_HEARTS = "You're out of hearts";
 
 const topBar = (page: Page) => page.getByRole("region", { name: "Your progress" });
@@ -71,7 +70,7 @@ test.describe("Learn with the gamification loop (PLT-009)", () => {
     ).toBe(true);
 
     // AC 8: mid-unit Learn.
-    await expectNoSeriousA11yViolations(page, LEARN_AXE);
+    await expectNoSeriousA11yViolations(page);
   });
 
   test("AC 10 out of hearts: 1 heart, a wrong answer, then 0 hearts on Learn and the dialog", async ({
@@ -93,7 +92,7 @@ test.describe("Learn with the gamification loop (PLT-009)", () => {
     await expect(page).toHaveURL(/\/$/);
     await expect(page.getByRole("button", { name: "Hearts: 0 of 5" })).toBeVisible();
     // AC 8: Learn at 0 hearts.
-    await expectNoSeriousA11yViolations(page, LEARN_AXE);
+    await expectNoSeriousA11yViolations(page);
 
     // Activating Lesson 1 (keyboard) opens the dialog instead of the lesson.
     await page.getByRole("button", { name: "Lesson 1: Hello!, up next" }).press("Enter");
@@ -180,6 +179,6 @@ test.describe("Learn with the gamification loop (PLT-009)", () => {
     expect(lastBox.y + lastBox.height).toBeLessThanOrEqual(navBox.y);
 
     // AC 8: new learner.
-    await expectNoSeriousA11yViolations(page, LEARN_AXE);
+    await expectNoSeriousA11yViolations(page);
   });
 });

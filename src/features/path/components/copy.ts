@@ -23,9 +23,34 @@ const STATE_NAME: Record<PathNodeState, string> = {
 /** Extra action text on completed nodes (AC7). */
 export const REPLAY_TEXT = "Start again";
 
-/** "Lesson 2: Nice to Meet You, up next" (AC6). */
+/**
+ * Visible action text of a node, when it differs from the state word of its name:
+ * "Start", "Continue", "Start again". Locked nodes show "Locked", already in the name.
+ */
+function nodeActionText(state: PathNodeState): string | null {
+  switch (state) {
+    case "completed":
+      return REPLAY_TEXT;
+    case "locked":
+      return null;
+    default:
+      return STATE_TEXT[state];
+  }
+}
+
+/**
+ * Accessible name of a node (AC6 + FIX-002, WCAG 2.5.3 Label in Name): starts with
+ * "Lesson N: <title>, <state>" and then contains the rest of the visible text, in the
+ * visible order (matching ignores case and punctuation):
+ * - "Lesson 2: Nice to Meet You, up next. Start"
+ * - "Lesson 1: Hello!, completed. Start again" (visible "Completed · Start again")
+ * - "Lesson 3: At the Café, in progress. Continue"
+ * - "Lesson 5: Around Town, locked" (visible "Locked")
+ */
 export function nodeAccessibleName(number: number, title: string, state: PathNodeState): string {
-  return `Lesson ${number}: ${title}, ${STATE_NAME[state]}`;
+  const base = `Lesson ${number}: ${title}, ${STATE_NAME[state]}`;
+  const action = nodeActionText(state);
+  return action === null ? base : `${base}. ${action}`;
 }
 
 /** "Lesson 2" (AC4). */

@@ -1,5 +1,5 @@
 import { expect, test, type Page } from "@playwright/test";
-import { expectNoSeriousA11yViolations, SKILL_PATH_KNOWN_ISSUES } from "./axe";
+import { expectNoSeriousA11yViolations } from "./axe";
 import { completeOnboarding } from "./onboarding-helpers";
 
 const nav = (page: Page) => page.getByRole("navigation", { name: "Main" });
@@ -50,14 +50,6 @@ test.describe("app shell navigation", () => {
     browserName,
   }) => {
     test.skip(browserName === "webkit", "WebKit does not Tab to links by default");
-    // FIXME(GAM-008, dev-gamification; found in PLT-009): the skill path calls
-    // `scrollIntoView` on the next lesson when it loads, and Chromium moves the
-    // sequential focus starting point there, so the first Tab skips the skip link and the
-    // top bar. Neutralised here so this spec keeps testing the shell's Tab order; remove
-    // with the fix in `src/features/path`.
-    await page.addInitScript(() => {
-      Element.prototype.scrollIntoView = () => {};
-    });
     await page.goto("/");
     await expect(page.getByRole("button", { name: "Lesson 5: Around Town, locked" })).toBeVisible();
     await page.keyboard.press("Tab");
@@ -158,8 +150,7 @@ test.describe("accessibility (axe)", () => {
     test(`${path} has no serious or critical axe violations`, async ({ page }) => {
       await page.goto(path);
       await expect(page.getByRole("heading", { level: 1 })).toBeVisible();
-      // Learn shows the skill path, whose known axe issue is skipped (GAM-008, see axe.ts).
-      await expectNoSeriousA11yViolations(page, path === "/" ? SKILL_PATH_KNOWN_ISSUES : {});
+      await expectNoSeriousA11yViolations(page);
     });
   }
 });
