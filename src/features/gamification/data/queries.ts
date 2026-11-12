@@ -1,5 +1,5 @@
 /**
- * Query-option factories for the gamification reads (GAM-003, shared with GAM-005).
+ * Query-option factories for the gamification reads (GAM-003, GAM-005).
  *
  * ADR-005 (binding): each key caches the raw repository fact only.
  * - `["progress", courseId]` → `LessonResult[]` (the course's stored results)
@@ -9,8 +9,8 @@
  *
  * Reads go through `@/lib/offline` (never Dexie directly). Keys come from `queryKeys`.
  * Options are the client's offline-first defaults (`LOCAL_QUERY_DEFAULTS`: `networkMode:
- * "always"`, `retry: false`, `staleTime: Infinity`, no focus refetch), so a factory is only
- * `queryKey` + `queryFn`.
+ * "always"`, `retry: false`, `staleTime: Infinity`, no focus refetch), so a factory is
+ * normally only `queryKey` + `queryFn`.
  */
 import { queryOptions } from "@tanstack/react-query";
 import type { HeartsState, LessonResult, Settings, Slug } from "@/contracts";
@@ -29,9 +29,10 @@ export function progressQuery(courseId: Slug) {
 }
 
 /**
- * `["hearts"]`: stored hearts state (not refilled). `staleTime: Infinity` and no refetch on
- * focus are set explicitly (GAM-005), so a refetch never overwrites a pending optimistic
- * loss even if the client defaults change (ADR-005 §3).
+ * `["hearts"]`: the stored `HeartsState` (not refilled). `staleTime: Infinity` and no
+ * refetch on focus are repeated here on purpose: they are load-bearing for this key, so a
+ * refetch never overwrites a pending optimistic loss (ADR-005 §3), even if a caller's
+ * client uses other defaults.
  */
 export function heartsQuery() {
   return queryOptions({
