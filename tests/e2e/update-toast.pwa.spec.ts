@@ -1,4 +1,5 @@
 import { expect, test, type Page } from "@playwright/test";
+import { waitForServiceWorker } from "./helpers/service-worker";
 import { completeOnboarding } from "./onboarding-helpers";
 
 /**
@@ -9,13 +10,6 @@ import { completeOnboarding } from "./onboarding-helpers";
 const TITLE = "A new version of Polyglow is ready";
 
 const updateToast = (page: Page) => page.getByRole("status").filter({ hasText: TITLE });
-
-async function waitForServiceWorker(page: Page) {
-  await page.evaluate(async () => {
-    await navigator.serviceWorker.ready;
-  });
-  await page.waitForFunction(() => navigator.serviceWorker.controller !== null);
-}
 
 /**
  * Installs a second worker version and resolves once it is waiting. Playwright can't

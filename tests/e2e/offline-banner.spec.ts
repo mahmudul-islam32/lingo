@@ -1,5 +1,5 @@
 import { expect, test, type Page } from "@playwright/test";
-import { expectNoSeriousA11yViolations } from "./axe";
+import { expectNoSeriousA11yViolations, SKILL_PATH_KNOWN_ISSUES } from "./axe";
 import { completeOnboarding } from "./onboarding-helpers";
 
 /** PLT-006. The "opened while offline" case needs the service worker: see pwa.spec.ts. */
@@ -19,7 +19,8 @@ test.describe("offline banner", () => {
     await context.setOffline(true);
     await expect(offlineBanner(page)).toBeVisible({ timeout: 2_000 });
     await expect(page.getByTestId("icon-cloud-off")).toBeVisible();
-    await expectNoSeriousA11yViolations(page);
+    // On Learn, so the skill path's known axe issue applies (GAM-008, see axe.ts).
+    await expectNoSeriousA11yViolations(page, SKILL_PATH_KNOWN_ISSUES);
 
     await context.setOffline(false);
     await expect(backOnlineBanner(page)).toBeVisible({ timeout: 2_000 });
@@ -65,9 +66,17 @@ test.describe("offline banner at 375 px", () => {
     }));
     expect(height).toBeLessThanOrEqual(lineHeight * 2 + 1);
 
-    const bannerBox = await page.getByTestId("offline-banner").boundingBox();
-    const navBox = await page.getByRole("navigation", { name: "Main" }).boundingBox();
-    const mainBox = await page.getByRole("main").boundingBox();
+    // Measured in one go: Learn's skill path may still be smooth-scrolling its next
+    // lesson into view (GAM-008), which would skew boxes read one after another.
+    const boxes = await page.evaluate(() => {
+      const rect = (el: Element | null) => el?.getBoundingClientRect() ?? null;
+      return {
+        banner: rect(document.querySelector('[data-testid="offline-banner"]')),
+        nav: rect(document.querySelector('nav[aria-label="Main"]')),
+        main: rect(document.querySelector("main")),
+      };
+    });
+    const { banner: bannerBox, nav: navBox, main: mainBox } = boxes;
     expect(bannerBox && navBox && mainBox).toBeTruthy();
     // In the document flow above <main>: no overlap with the content or the nav.
     expect(bannerBox!.y + bannerBox!.height).toBeLessThanOrEqual(mainBox!.y + 0.5);
