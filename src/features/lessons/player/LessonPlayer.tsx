@@ -86,6 +86,24 @@ const defaultRetry = () => window.location.reload();
 const ENTER_IGNORED_TARGETS =
   "button, a[href], input, textarea, select, [role=radio], [contenteditable=''], [contenteditable='true']";
 
+/**
+ * Exception to the above (FIX-001): a choice option (`role=radio`, ARIA radio pattern)
+ * has no Enter behaviour of its own once it is selected (arrow keys select), so Enter
+ * there means "Check" and a keyboard user doesn't have to Tab to the button
+ * (LES-002 AC3). An unselected option keeps its native activation (Enter selects it),
+ * except during feedback, where options are locked and Enter means "Continue".
+ */
+const ENTER_PASSTHROUGH_CHECKED = "[role=radio][aria-checked=true], input[type=radio]:checked";
+const ENTER_PASSTHROUGH_ANY = "[role=radio], input[type=radio]";
+
+/** True when the focused element handles Enter itself and the shortcut must stand back. */
+function targetOwnsEnter(target: EventTarget | null, inFeedback: boolean): boolean {
+  if (!(target instanceof Element)) return false;
+  const owner = target.closest(ENTER_IGNORED_TARGETS);
+  if (!owner) return false;
+  return !owner.matches(inFeedback ? ENTER_PASSTHROUGH_ANY : ENTER_PASSTHROUGH_CHECKED);
+}
+
 function supportedTypesOf(components: ExerciseComponentMap): Set<ExerciseType> {
   const types = new Set<ExerciseType>();
   for (const [type, component] of Object.entries(components)) {
@@ -218,8 +236,7 @@ export function LessonPlayer({
         return;
       }
       if (event.key !== "Enter" || event.altKey || event.ctrlKey || event.metaKey) return;
-      const target = event.target instanceof Element ? event.target : null;
-      if (target?.closest(ENTER_IGNORED_TARGETS)) return;
+      if (targetOwnsEnter(event.target, current.phase === "feedback")) return;
       if (current.phase === "answering") {
         if (!current.pendingAnswer) return;
         event.preventDefault();

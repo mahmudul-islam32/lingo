@@ -19,11 +19,11 @@
     {
       "id": "u1-l5-ex02",
       "type": "multiple_choice",
-      "prompt": "Which one means 'aquí'?",
+      "prompt": "Which one means 'here'?",
       "options": [
-        { "id": "a", "text": "Where" },
-        { "id": "b", "text": "Thank you" },
-        { "id": "c", "text": "Here" }
+        { "id": "a", "text": "¿Dónde está?" },
+        { "id": "b", "text": "Gracias" },
+        { "id": "c", "text": "Aquí" }
       ],
       "correctOptionId": "c"
     },
@@ -99,11 +99,11 @@
     {
       "id": "u1-l5-ex11",
       "type": "multiple_choice",
-      "prompt": "Which one means 'dónde está'?",
+      "prompt": "Which one means 'where is'?",
       "options": [
-        { "id": "a", "text": "How are you?" },
-        { "id": "b", "text": "Where is it?" },
-        { "id": "c", "text": "Where are you from?" }
+        { "id": "a", "text": "¿Cómo estás?" },
+        { "id": "b", "text": "¿Dónde está?" },
+        { "id": "c", "text": "¿De dónde eres?" }
       ],
       "correctOptionId": "b"
     },

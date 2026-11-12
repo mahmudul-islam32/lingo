@@ -19,12 +19,12 @@
     {
       "id": "u1-l4-ex02",
       "type": "multiple_choice",
-      "prompt": "Which one means 'ocho'?",
+      "prompt": "Which one means 'eight'?",
       "options": [
-        { "id": "a", "text": "Six" },
-        { "id": "b", "text": "Ten" },
-        { "id": "c", "text": "Seven" },
-        { "id": "d", "text": "Eight" }
+        { "id": "a", "text": "Seis" },
+        { "id": "b", "text": "Diez" },
+        { "id": "c", "text": "Siete" },
+        { "id": "d", "text": "Ocho" }
       ],
       "correctOptionId": "d"
     },
@@ -58,9 +58,9 @@
       "id": "u1-l4-ex06",
       "type": "word_bank_translate",
       "direction": "to_known",
-      "prompt": "Seis cafés, por favor.",
-      "tiles": ["six", "coffees", "please", "seven", "coffee", "ten"],
-      "answers": ["Six coffees, please.", "Please, six coffees."]
+      "prompt": "Ocho cafés, por favor.",
+      "tiles": ["eight", "coffees", "please", "six", "coffee", "ten"],
+      "answers": ["Eight coffees, please.", "Please, eight coffees."]
     },
     {
       "id": "u1-l4-ex07",
@@ -99,12 +99,12 @@
     {
       "id": "u1-l4-ex11",
       "type": "multiple_choice",
-      "prompt": "Which one means 'siete'?",
+      "prompt": "Which one means 'seven'?",
       "options": [
-        { "id": "a", "text": "Seven" },
-        { "id": "b", "text": "Six" },
-        { "id": "c", "text": "Nine" },
-        { "id": "d", "text": "Four" }
+        { "id": "a", "text": "Siete" },
+        { "id": "b", "text": "Seis" },
+        { "id": "c", "text": "Nueve" },
+        { "id": "d", "text": "Cuatro" }
       ],
       "correctOptionId": "a"
     },
