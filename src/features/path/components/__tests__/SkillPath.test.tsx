@@ -3,7 +3,7 @@ import userEvent from "@testing-library/user-event";
 import { afterEach, beforeEach, describe, expect, it, vi } from "vitest";
 import type { Course } from "@/contracts";
 import { ToastProvider } from "@/components/ui";
-import { createFullHearts } from "@/features/gamification";
+import { createFullHearts, loseHearts } from "@/features/gamification";
 import { SkillPath, courseQuery, type SkillPathProps } from "@/features/path";
 import { queryKeys } from "@/lib/query";
 import { createTestQueryClient, renderWithQueryClient } from "@/lib/query/testing";
@@ -162,5 +162,41 @@ describe("SkillPath container (GAM-008)", () => {
     // The toast queue's (empty) live regions are the only alerts: no error banner.
     for (const alert of screen.queryAllByRole("alert")) expect(alert).toBeEmptyDOMElement();
     expect(screen.queryByText("We couldn't load the course.")).not.toBeInTheDocument();
+  });
+});
+
+describe("SkillPath hearts wiring (GAM-008 AC9/AC10 via useHearts, GAM-005)", () => {
+  it("full hearts: playable nodes are links without any hearts props", async () => {
+    setup();
+    expect(await node("Lesson 1: Hello!, up next")).toBeInTheDocument();
+    expect(screen.queryByText("No hearts left")).not.toBeInTheDocument();
+  });
+
+  it("0 stored hearts: the gate closes and the dialog shows formatHeartRefill text", async () => {
+    const now = new Date();
+    session.progress.getHearts.mockResolvedValue(loseHearts(createFullHearts(now), 5, now));
+    const { user } = setup();
+    const start = await screen.findByRole("button", { name: /Lesson 1: .*up next/ });
+    await user.click(start);
+    const dialog = await screen.findByRole("dialog", { name: "You're out of hearts" });
+    expect(dialog).toHaveTextContent(/Next heart in (4 h|3 h 59 min)/);
+    expect(followed).toEqual([]);
+  });
+
+  it("props still override the hook (canStartLesson, heartRefillText)", async () => {
+    const now = new Date();
+    session.progress.getHearts.mockResolvedValue(loseHearts(createFullHearts(now), 5, now));
+    setup({ canStartLesson: true });
+    expect(await node("Lesson 1: Hello!, up next")).toBeInTheDocument();
+  });
+
+  it("a heart refill (hearts invalidation) reopens the path without a reload", async () => {
+    const now = new Date();
+    session.progress.getHearts.mockResolvedValue(loseHearts(createFullHearts(now), 5, now));
+    const { client } = setup();
+    expect(await screen.findByRole("button", { name: /Lesson 1: .*up next/ })).toBeInTheDocument();
+    session.progress.getHearts.mockResolvedValue(createFullHearts(new Date()));
+    await act(() => client.invalidateQueries({ queryKey: queryKeys.hearts() }));
+    expect(await node("Lesson 1: Hello!, up next")).toBeInTheDocument();
   });
 });

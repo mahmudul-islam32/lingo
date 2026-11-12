@@ -1,17 +1,21 @@
 /**
- * Test stubs for `getLocalSession()` from `@/lib/offline`: only the methods the gamification
- * hooks use. Tests `vi.mock("@/lib/offline", ...)` and return one of these sessions.
- * - `createStubSession`: progress reads (results, hearts, settings), GAM-003.
- * - `createHeartsSessionStub`: hearts read and write, GAM-005.
+ * Test stubs for `getLocalSession()` from `@/lib/offline`: only the reads/writes the
+ * gamification hooks use. Tests `vi.mock("@/lib/offline", ...)` with one of these.
+ *
+ * - `createStubSession()`: progress/settings/hearts reads as bare `vi.fn()`s (GAM-003/006).
+ * - `createHeartsSessionStub(initial)`: hearts read + write with defaults (GAM-005).
  */
 import { vi } from "vitest";
 import type { HeartsState, LessonResult, Settings } from "@/contracts";
 import type { LocalSession } from "@/lib/offline";
 
+export const HOUR = 60 * 60 * 1000;
+
 export interface StubSession {
   progress: {
     listLessonResults: ReturnType<typeof vi.fn<(courseId: string) => Promise<LessonResult[]>>>;
     getHearts: ReturnType<typeof vi.fn<() => Promise<HeartsState>>>;
+    saveHearts: ReturnType<typeof vi.fn<(state: HeartsState) => Promise<void>>>;
   };
   profile: {
     findSettings: ReturnType<typeof vi.fn<() => Promise<Settings | null>>>;
@@ -20,7 +24,11 @@ export interface StubSession {
 
 export function createStubSession(): StubSession {
   return {
-    progress: { listLessonResults: vi.fn(), getHearts: vi.fn() },
+    progress: {
+      listLessonResults: vi.fn(),
+      getHearts: vi.fn(),
+      saveHearts: vi.fn(async () => undefined),
+    },
     profile: { findSettings: vi.fn() },
   };
 }
@@ -56,5 +64,3 @@ export function becomeVisible(state: DocumentVisibilityState = "visible") {
   Object.defineProperty(document, "visibilityState", { configurable: true, get: () => state });
   document.dispatchEvent(new Event("visibilitychange"));
 }
-
-export const HOUR = 60 * 60 * 1000;
