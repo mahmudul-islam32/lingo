@@ -3,7 +3,8 @@
 - **Owner:** cto · **Status:** v1 (CTO-002) · **Last updated:** 2026-11-07
 - Decisions: [ADR-001 scaffold](adr/ADR-001-scaffold.md), [ADR-002 contracts](adr/ADR-002-contracts.md),
   [ADR-003 Supabase](adr/ADR-003-supabase.md), [ADR-004 design tokens and UI primitives](adr/ADR-004-design-tokens-ui-primitives.md),
-  [ADR-005 client query cache](adr/ADR-005-client-query-cache.md)
+  [ADR-005 client query cache](adr/ADR-005-client-query-cache.md),
+  [ADR-006 webpack production build](adr/ADR-006-webpack-production-build-serwist.md), [ADR-007 release tagging](adr/ADR-007-release-tagging-v0.1.0-v0.2.0.md)
 - Contract changes: [contract-requests.md](contract-requests.md)
 
 Every agent reads this file before starting a ticket. If code and this document
