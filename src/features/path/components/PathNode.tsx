@@ -110,7 +110,17 @@ export function PathNodeItem({
       >
         <StateIcon state={state} />
       </span>
-      <span className="flex flex-col items-center rounded-control bg-canvas px-2">
+      {/*
+        FIX-002 (WCAG 2.5.3): the name comes from this text, not an aria-label. It holds
+        the visible text below in the same order, plus the punctuation and state word
+        ("up next") that only screen readers need. The visible copy is aria-hidden so it
+        isn't read twice.
+      */}
+      <span className="sr-only">{name}</span>
+      <span
+        aria-hidden="true"
+        className="flex flex-col items-center rounded-control bg-canvas px-2"
+      >
         <span className="text-sm font-semibold text-fg-muted">{lessonNumberText(number)}</span>
         <span className="font-bold text-fg">{title}</span>
         <span className={cn("text-sm font-semibold", locked ? "text-fg-muted" : "text-progress")}>
@@ -135,7 +145,6 @@ export function PathNodeItem({
         <Link
           ref={controlRef as Ref<HTMLAnchorElement>}
           href={lessonHref(lessonId)}
-          aria-label={name}
           data-state={state}
           className={className}
           onClick={() => onNavigate?.(lessonId)}
@@ -153,7 +162,6 @@ export function PathNodeItem({
         <button
           ref={controlRef as Ref<HTMLButtonElement>}
           type="button"
-          aria-label={name}
           aria-disabled={locked ? "true" : undefined}
           aria-describedby={showNoHearts ? noHeartsId : undefined}
           data-state={state}
