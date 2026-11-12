@@ -1,0 +1,215 @@
+{
+  "id": "de-a1-u12-l5-a1-checkpoint",
+  "courseId": "en-de",
+  "unitId": "de-a1-u12",
+  "title": "A1 Checkpoint: Your First Week",
+  "tip": "This lesson reviews all of A1. Follow Lina through her first week in Germany.",
+  "exercises": [
+    {
+      "id": "de-a1-u12-l5-ex01",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I come from India. Now I live in Bonn.",
+      "tiles": [
+        "ich",
+        "komme",
+        "aus",
+        "Indien",
+        "jetzt",
+        "wohne",
+        "ich",
+        "in",
+        "Bonn",
+        "wohnst",
+        "nach",
+        "kommst"
+      ],
+      "answers": [
+        "Ich komme aus Indien. Jetzt wohne ich in Bonn.",
+        "Ich komme aus Indien. Ich wohne jetzt in Bonn.",
+        "Ich komme aus Indien. In Bonn wohne ich jetzt.",
+        "Aus Indien komme ich. Jetzt wohne ich in Bonn.",
+        "Aus Indien komme ich. Ich wohne jetzt in Bonn.",
+        "Aus Indien komme ich. In Bonn wohne ich jetzt."
+      ]
+    },
+    {
+      "id": "de-a1-u12-l5-ex02",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a1/u12/de-a1-u12-l5-ex02.mp3" },
+      "tiles": ["mein", "Name", "ist", "Lina", "Rao", "R", "A", "O", "U", "E", "heiße"],
+      "answers": ["Mein Name ist Lina Rao: R, A, O."]
+    },
+    {
+      "id": "de-a1-u12-l5-ex03",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Ein Kaffee zum Mitnehmen, bitte. Was kostet das?",
+      "tiles": [
+        "a",
+        "coffee",
+        "to",
+        "take",
+        "away",
+        "please",
+        "how",
+        "much",
+        "is",
+        "that",
+        "what",
+        "does",
+        "cost",
+        "tea"
+      ],
+      "answers": [
+        "A coffee to take away, please. How much is that?",
+        "A coffee to take away, please. How much does that cost?",
+        "A coffee to take away, please. What does that cost?"
+      ]
+    },
+    {
+      "id": "de-a1-u12-l5-ex04",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'We have no more milk'?",
+      "options": [
+        { "id": "a", "text": "Wir haben nicht Milch mehr." },
+        { "id": "b", "text": "Wir haben kein Milch mehr." },
+        { "id": "c", "text": "Wir haben keine Milch mehr." },
+        { "id": "d", "text": "Wir hat keine Milch mehr." }
+      ],
+      "correctOptionId": "c"
+    },
+    {
+      "id": "de-a1-u12-l5-ex05",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Die Wohnung ist hell. Es gibt einen Balkon.",
+      "tiles": [
+        "the",
+        "flat",
+        "apartment",
+        "is",
+        "is",
+        "bright",
+        "there",
+        "there's",
+        "a",
+        "balcony",
+        "dark",
+        "kitchen"
+      ],
+      "answers": [
+        "The flat is bright. There is a balcony.",
+        "The flat is bright. There's a balcony.",
+        "The apartment is bright. There is a balcony.",
+        "The apartment is bright. There's a balcony."
+      ]
+    },
+    {
+      "id": "de-a1-u12-l5-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "On Wednesday I get up at six.",
+      "tiles": ["am", "Mittwoch", "stehe", "ich", "um", "sechs", "auf", "stehst", "Montag", "an"],
+      "answers": [
+        "Am Mittwoch stehe ich um sechs auf.",
+        "Ich stehe am Mittwoch um sechs auf.",
+        "Um sechs stehe ich am Mittwoch auf.",
+        "Ich stehe um sechs am Mittwoch auf."
+      ]
+    },
+    {
+      "id": "de-a1-u12-l5-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'Excuse me, how do I get to the station?'",
+      "options": [
+        { "id": "a", "text": "Entschuldigung, wie komme ich zur Bahnhof?" },
+        { "id": "b", "text": "Entschuldigung, wie komme ich zum Bahnhof?" },
+        { "id": "c", "text": "Entschuldigung, wo komme ich zum Bahnhof?" },
+        { "id": "d", "text": "Entschuldigung, wie kommt ich zum Bahnhof?" }
+      ],
+      "correctOptionId": "b"
+    },
+    {
+      "id": "de-a1-u12-l5-ex08",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a1/u12/de-a1-u12-l5-ex08.mp3" },
+      "tiles": [
+        "mein",
+        "Kopf",
+        "tut",
+        "weh",
+        "ich",
+        "habe",
+        "einen",
+        "Termin",
+        "um",
+        "zehn",
+        "tun",
+        "meine",
+        "elf"
+      ],
+      "answers": ["Mein Kopf tut weh. Ich habe einen Termin um zehn."]
+    },
+    {
+      "id": "de-a1-u12-l5-ex09",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'My brother has two children'?",
+      "options": [
+        { "id": "a", "text": "Mein Bruder hat zwei Kinder." },
+        { "id": "b", "text": "Meine Bruder hat zwei Kinder." },
+        { "id": "c", "text": "Mein Bruder hat zwei Kind." },
+        { "id": "d", "text": "Mein Bruder habe zwei Kinder." }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "de-a1-u12-l5-ex10",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a1/u12/de-a1-u12-l5-ex10.mp3" },
+      "tiles": [
+        "ich",
+        "koche",
+        "gern",
+        "kannst",
+        "du",
+        "auch",
+        "kochen",
+        "kann",
+        "kochst",
+        "nicht"
+      ],
+      "answers": ["Ich koche gern. Kannst du auch kochen?"]
+    },
+    {
+      "id": "de-a1-u12-l5-ex11",
+      "type": "match_pairs",
+      "pairs": [
+        { "id": "p1", "learning": "der Kollege", "known": "the colleague (male)" },
+        { "id": "p2", "learning": "die Kollegin", "known": "the colleague (female)" },
+        { "id": "p3", "learning": "willkommen", "known": "welcome" },
+        { "id": "p4", "learning": "das Formular", "known": "the form" },
+        { "id": "p5", "learning": "am ersten Juni", "known": "on the first of June" }
+      ]
+    },
+    {
+      "id": "de-a1-u12-l5-ex12",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a1/u12/de-a1-u12-l5-ex12.mp3" },
+      "tiles": [
+        "hallo",
+        "ich",
+        "bin",
+        "Johanna",
+        "deine",
+        "Kollegin",
+        "willkommen",
+        "Lina",
+        "dein",
+        "Kollege",
+        "bist"
+      ],
+      "answers": ["Hallo, ich bin Johanna, deine Kollegin. Willkommen, Lina!"]
+    }
+  ]
+}

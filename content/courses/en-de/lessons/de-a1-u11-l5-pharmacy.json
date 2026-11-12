@@ -1,0 +1,179 @@
+{
+  "id": "de-a1-u11-l5-pharmacy",
+  "courseId": "en-de",
+  "unitId": "de-a1-u11",
+  "title": "At the Pharmacy",
+  "tip": "Instructions use the Sie form with the verb first: Nehmen Sie die Tabletten dreimal täglich.",
+  "exercises": [
+    {
+      "id": "de-a1-u11-l5-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        { "id": "p1", "learning": "die Apotheke", "known": "the pharmacy" },
+        { "id": "p2", "learning": "die Tablette", "known": "the tablet" },
+        { "id": "p3", "learning": "das Medikament", "known": "the medicine" },
+        { "id": "p4", "learning": "dreimal täglich", "known": "three times a day" },
+        { "id": "p5", "learning": "Gute Besserung!", "known": "Get well soon!" }
+      ]
+    },
+    {
+      "id": "de-a1-u11-l5-ex02",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a1/u11/de-a1-u11-l5-ex02.mp3" },
+      "tiles": [
+        "guten",
+        "Tag",
+        "ich",
+        "habe",
+        "Husten",
+        "und",
+        "Halsschmerzen",
+        "hat",
+        "Kopfschmerzen",
+        "Fieber"
+      ],
+      "answers": ["Guten Tag, ich habe Husten und Halsschmerzen."]
+    },
+    {
+      "id": "de-a1-u11-l5-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'Take the tablets three times a day. (formal)'?",
+      "options": [
+        { "id": "a", "text": "Nehmen Sie die Tabletten dreimal täglich." },
+        { "id": "b", "text": "Nimmst Sie die Tabletten dreimal täglich." },
+        { "id": "c", "text": "Nehmen die Tabletten Sie dreimal täglich." },
+        { "id": "d", "text": "Nehmt Sie die Tabletten dreimal täglich." }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "de-a1-u11-l5-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Is there a pharmacy here?",
+      "tiles": ["gibt", "es", "hier", "eine", "Apotheke", "ein", "einen", "die"],
+      "answers": ["Gibt es hier eine Apotheke?", "Gibt es eine Apotheke hier?"]
+    },
+    {
+      "id": "de-a1-u11-l5-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which one means 'the medicine'?",
+      "options": [
+        { "id": "a", "text": "der Medikament" },
+        { "id": "b", "text": "die Medikament" },
+        { "id": "c", "text": "das Medikament" }
+      ],
+      "correctOptionId": "c"
+    },
+    {
+      "id": "de-a1-u11-l5-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Nehmen Sie die Tabletten dreimal täglich.",
+      "tiles": [
+        "take",
+        "the",
+        "tablets",
+        "pills",
+        "three",
+        "times",
+        "a",
+        "day",
+        "twice",
+        "tablet",
+        "week"
+      ],
+      "answers": ["Take the tablets three times a day.", "Take the pills three times a day."]
+    },
+    {
+      "id": "de-a1-u11-l5-ex07",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a1/u11/de-a1-u11-l5-ex07.mp3" },
+      "tiles": [
+        "wie",
+        "oft",
+        "muss",
+        "ich",
+        "die",
+        "Tabletten",
+        "nehmen",
+        "viel",
+        "musst",
+        "Tablette"
+      ],
+      "answers": ["Wie oft muss ich die Tabletten nehmen?"]
+    },
+    {
+      "id": "de-a1-u11-l5-ex08",
+      "type": "multiple_choice",
+      "prompt": "Which one means 'Get well soon!'?",
+      "options": [
+        { "id": "a", "text": "Gute Nacht!" },
+        { "id": "b", "text": "Gute Besserung!" },
+        { "id": "c", "text": "Guten Tag!" },
+        { "id": "d", "text": "Bis dann!" }
+      ],
+      "correctOptionId": "b"
+    },
+    {
+      "id": "de-a1-u11-l5-ex09",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "My head hurts and I have a fever.",
+      "tiles": [
+        "mein",
+        "Kopf",
+        "tut",
+        "weh",
+        "und",
+        "ich",
+        "habe",
+        "Fieber",
+        "tun",
+        "meine",
+        "hat"
+      ],
+      "answers": [
+        "Mein Kopf tut weh und ich habe Fieber.",
+        "Ich habe Fieber und mein Kopf tut weh."
+      ]
+    },
+    {
+      "id": "de-a1-u11-l5-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "The tablets cost eight euros.",
+      "tiles": ["die", "Tabletten", "kosten", "acht", "Euro", "kostet", "Tablette", "Cent"],
+      "answers": ["Die Tabletten kosten acht Euro."]
+    },
+    {
+      "id": "de-a1-u11-l5-ex11",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a1/u11/de-a1-u11-l5-ex11.mp3" },
+      "tiles": ["gute", "Besserung", "Herr", "Okafor", "guten", "Frau", "Tag"],
+      "answers": ["Gute Besserung, Herr Okafor!"]
+    },
+    {
+      "id": "de-a1-u11-l5-ex12",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Mein Sohn hat Husten. Haben Sie ein Medikament?",
+      "tiles": [
+        "my",
+        "son",
+        "has",
+        "a",
+        "cough",
+        "do",
+        "you",
+        "have",
+        "any",
+        "medicine",
+        "daughter",
+        "fever",
+        "is"
+      ],
+      "answers": ["My son has a cough. Do you have any medicine?"]
+    }
+  ]
+}

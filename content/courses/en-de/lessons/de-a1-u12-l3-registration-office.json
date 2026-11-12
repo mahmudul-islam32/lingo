@@ -1,0 +1,164 @@
+{
+  "id": "de-a1-u12-l3-registration-office",
+  "courseId": "en-de",
+  "unitId": "de-a1-u12",
+  "title": "The Registration Office",
+  "tip": "At the office you say Sie and Ihr: Wie ist Ihr Vorname? Ausfüllen splits: Füllen Sie das Formular aus.",
+  "exercises": [
+    {
+      "id": "de-a1-u12-l3-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        { "id": "p1", "learning": "die Anmeldung", "known": "the registration" },
+        { "id": "p2", "learning": "das Bürgeramt", "known": "the citizens' office" },
+        { "id": "p3", "learning": "das Formular", "known": "the form" },
+        { "id": "p4", "learning": "der Vorname", "known": "the first name" },
+        { "id": "p5", "learning": "die Unterschrift", "known": "the signature" }
+      ]
+    },
+    {
+      "id": "de-a1-u12-l3-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which one means 'the date of birth'?",
+      "options": [
+        { "id": "a", "text": "der Geburtsdatum" },
+        { "id": "b", "text": "das Geburtsdatum" },
+        { "id": "c", "text": "die Geburtsdatum" }
+      ],
+      "correctOptionId": "b"
+    },
+    {
+      "id": "de-a1-u12-l3-ex03",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a1/u12/de-a1-u12-l3-ex03.mp3" },
+      "tiles": ["Entschuldigung", "wo", "ist", "das", "Bürgeramt", "wer", "der", "sind"],
+      "answers": ["Entschuldigung, wo ist das Bürgeramt?"]
+    },
+    {
+      "id": "de-a1-u12-l3-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Good morning! I'd like to do the registration.",
+      "tiles": [
+        "guten",
+        "Morgen",
+        "ich",
+        "möchte",
+        "die",
+        "Anmeldung",
+        "machen",
+        "mache",
+        "der",
+        "Abend"
+      ],
+      "answers": [
+        "Guten Morgen! Ich möchte die Anmeldung machen.",
+        "Guten Morgen! Die Anmeldung möchte ich machen."
+      ]
+    },
+    {
+      "id": "de-a1-u12-l3-ex05",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Please fill in the form. (formal)",
+      "tiles": ["füllen", "Sie", "bitte", "das", "Formular", "aus", "füllt", "der", "du"],
+      "answers": [
+        "Füllen Sie bitte das Formular aus.",
+        "Bitte füllen Sie das Formular aus.",
+        "Füllen Sie das Formular bitte aus.",
+        "Füllen Sie das Formular aus, bitte.",
+        "Das Formular füllen Sie bitte aus."
+      ]
+    },
+    {
+      "id": "de-a1-u12-l3-ex06",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'What is your surname? (formal)'?",
+      "options": [
+        { "id": "a", "text": "Wie ist Ihre Nachname?" },
+        { "id": "b", "text": "Wie ist dein Nachname?" },
+        { "id": "c", "text": "Wie ist Ihr Vorname?" },
+        { "id": "d", "text": "Wie ist Ihr Nachname?" }
+      ],
+      "correctOptionId": "d"
+    },
+    {
+      "id": "de-a1-u12-l3-ex07",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Mein Vorname ist Ravi, mein Nachname ist Menon.",
+      "tiles": [
+        "my",
+        "my",
+        "first",
+        "name",
+        "is",
+        "is",
+        "Ravi",
+        "surname",
+        "Menon",
+        "your",
+        "the",
+        "his"
+      ],
+      "answers": ["My first name is Ravi, my surname is Menon."]
+    },
+    {
+      "id": "de-a1-u12-l3-ex08",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a1/u12/de-a1-u12-l3-ex08.mp3" },
+      "tiles": ["wie", "ist", "Ihre", "Adresse", "bitte", "Ihr", "deine", "was"],
+      "answers": ["Wie ist Ihre Adresse, bitte?"]
+    },
+    {
+      "id": "de-a1-u12-l3-ex09",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "My address is Lindenweg eight.",
+      "tiles": ["meine", "Adresse", "ist", "Lindenweg", "acht", "mein", "achtzig", "sind"],
+      "answers": ["Meine Adresse ist Lindenweg acht.", "Lindenweg acht ist meine Adresse."]
+    },
+    {
+      "id": "de-a1-u12-l3-ex10",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'I have to fill in the form'?",
+      "options": [
+        { "id": "a", "text": "Ich muss das Formular füllen aus." },
+        { "id": "b", "text": "Ich muss das Formular ausfüllen." },
+        { "id": "c", "text": "Ich muss ausfüllen das Formular." },
+        { "id": "d", "text": "Ich müssen das Formular ausfüllen." }
+      ],
+      "correctOptionId": "b"
+    },
+    {
+      "id": "de-a1-u12-l3-ex11",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a1/u12/de-a1-u12-l3-ex11.mp3" },
+      "tiles": ["ich", "bin", "am", "dritten", "März", "geboren", "drei", "Mai", "um"],
+      "answers": ["Ich bin am dritten März geboren."]
+    },
+    {
+      "id": "de-a1-u12-l3-ex12",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Hier ist das Formular. Ihre Unterschrift, bitte.",
+      "tiles": [
+        "here",
+        "is",
+        "here's",
+        "the",
+        "form",
+        "your",
+        "signature",
+        "please",
+        "name",
+        "my",
+        "a"
+      ],
+      "answers": [
+        "Here is the form. Your signature, please.",
+        "Here's the form. Your signature, please."
+      ]
+    }
+  ]
+}

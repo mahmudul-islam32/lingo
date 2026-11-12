@@ -3,7 +3,7 @@
   "title": "German",
   "learningLanguage": "de",
   "knownLanguage": "en",
-  "version": 3,
+  "version": 4,
   "levels": [
     {
       "level": "A1",
@@ -248,6 +248,118 @@
         {
           "id": "de-a1-u08-l5-weekend-plans",
           "title": "Weekend Plans"
+        }
+      ]
+    },
+    {
+      "id": "de-a1-u09",
+      "level": "A1",
+      "title": "By Bus and Train",
+      "description": "Buy a ticket, find your platform, deal with a delay and ask the way.",
+      "lessons": [
+        {
+          "id": "de-a1-u09-l1-getting-around",
+          "title": "Getting Around"
+        },
+        {
+          "id": "de-a1-u09-l2-buying-a-ticket",
+          "title": "Buying a Ticket"
+        },
+        {
+          "id": "de-a1-u09-l3-departures",
+          "title": "Departures and Platforms"
+        },
+        {
+          "id": "de-a1-u09-l4-changing-trains",
+          "title": "I Have to Change"
+        },
+        {
+          "id": "de-a1-u09-l5-which-way",
+          "title": "Which Way?"
+        }
+      ]
+    },
+    {
+      "id": "de-a1-u10",
+      "level": "A1",
+      "title": "The New Flat",
+      "description": "Name rooms and furniture, describe a flat and ask the right questions at a viewing.",
+      "lessons": [
+        {
+          "id": "de-a1-u10-l1-rooms",
+          "title": "Rooms"
+        },
+        {
+          "id": "de-a1-u10-l2-furniture",
+          "title": "Furniture"
+        },
+        {
+          "id": "de-a1-u10-l3-there-is",
+          "title": "There Is…"
+        },
+        {
+          "id": "de-a1-u10-l4-big-small-bright",
+          "title": "Big, Small, Bright"
+        },
+        {
+          "id": "de-a1-u10-l5-the-viewing",
+          "title": "The Viewing"
+        }
+      ]
+    },
+    {
+      "id": "de-a1-u11",
+      "level": "A1",
+      "title": "At the Doctor's",
+      "description": "Say what hurts, make an appointment, check in at the practice and get your medicine.",
+      "lessons": [
+        {
+          "id": "de-a1-u11-l1-the-body",
+          "title": "The Body"
+        },
+        {
+          "id": "de-a1-u11-l2-what-hurts",
+          "title": "What Hurts?"
+        },
+        {
+          "id": "de-a1-u11-l3-appointment",
+          "title": "Making an Appointment"
+        },
+        {
+          "id": "de-a1-u11-l4-reception",
+          "title": "At the Reception"
+        },
+        {
+          "id": "de-a1-u11-l5-pharmacy",
+          "title": "At the Pharmacy"
+        }
+      ]
+    },
+    {
+      "id": "de-a1-u12",
+      "level": "A1",
+      "title": "Offices and Work",
+      "description": "Give dates, register your address, fill in a form, talk about your job, and finish A1 with a review of your first week.",
+      "lessons": [
+        {
+          "id": "de-a1-u12-l1-months",
+          "title": "Months"
+        },
+        {
+          "id": "de-a1-u12-l2-dates",
+          "title": "Dates"
+        },
+        {
+          "id": "de-a1-u12-l3-registration-office",
+          "title": "The Registration Office"
+        },
+        {
+          "id": "de-a1-u12-l4-jobs",
+          "title": "Jobs"
+        },
+        {
+          "id": "de-a1-u12-l5-a1-checkpoint",
+          "title": "A1 Checkpoint: Your First Week"
         }
       ]
     }

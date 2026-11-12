@@ -1,0 +1,134 @@
+{
+  "id": "de-a1-u10-l2-furniture",
+  "courseId": "en-de",
+  "unitId": "de-a1-u10",
+  "title": "Furniture",
+  "tip": "Furniture comes in all three genders: der Tisch, die Lampe, das Bett. Learn each noun with its article.",
+  "exercises": [
+    {
+      "id": "de-a1-u10-l2-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        { "id": "p1", "learning": "der Tisch", "known": "the table" },
+        { "id": "p2", "learning": "der Stuhl", "known": "the chair" },
+        { "id": "p3", "learning": "das Bett", "known": "the bed" },
+        { "id": "p4", "learning": "der Schrank", "known": "the wardrobe / cupboard" },
+        { "id": "p5", "learning": "die Lampe", "known": "the lamp" }
+      ]
+    },
+    {
+      "id": "de-a1-u10-l2-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which one means 'the chair'?",
+      "options": [
+        { "id": "a", "text": "die Stuhl" },
+        { "id": "b", "text": "der Stuhl" },
+        { "id": "c", "text": "das Stuhl" }
+      ],
+      "correctOptionId": "b"
+    },
+    {
+      "id": "de-a1-u10-l2-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which one means 'the bed'?",
+      "options": [
+        { "id": "a", "text": "der Bett" },
+        { "id": "b", "text": "die Bett" },
+        { "id": "c", "text": "das Bett" }
+      ],
+      "correctOptionId": "c"
+    },
+    {
+      "id": "de-a1-u10-l2-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "The sofa is new.",
+      "tiles": ["das", "Sofa", "ist", "neu", "alt", "der", "sind"],
+      "answers": ["Das Sofa ist neu.", "Neu ist das Sofa."]
+    },
+    {
+      "id": "de-a1-u10-l2-ex05",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a1/u10/de-a1-u10-l2-ex05.mp3" },
+      "tiles": ["der", "Tisch", "ist", "sehr", "klein", "groß", "die", "Stuhl"],
+      "answers": ["Der Tisch ist sehr klein."]
+    },
+    {
+      "id": "de-a1-u10-l2-ex06",
+      "type": "multiple_choice",
+      "prompt": "Which one means 'the lamp'?",
+      "options": [
+        { "id": "a", "text": "die Lampe" },
+        { "id": "b", "text": "der Lampe" },
+        { "id": "c", "text": "das Lampe" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "de-a1-u10-l2-ex07",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Ich brauche einen Schrank.",
+      "tiles": ["I", "need", "a", "wardrobe", "cupboard", "an", "table", "have"],
+      "answers": ["I need a wardrobe.", "I need a cupboard."]
+    },
+    {
+      "id": "de-a1-u10-l2-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "We need a bed and a lamp.",
+      "tiles": [
+        "wir",
+        "brauchen",
+        "ein",
+        "Bett",
+        "und",
+        "eine",
+        "Lampe",
+        "einen",
+        "brauche",
+        "der"
+      ],
+      "answers": [
+        "Wir brauchen ein Bett und eine Lampe.",
+        "Wir brauchen eine Lampe und ein Bett.",
+        "Ein Bett und eine Lampe brauchen wir.",
+        "Eine Lampe und ein Bett brauchen wir."
+      ]
+    },
+    {
+      "id": "de-a1-u10-l2-ex09",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a1/u10/de-a1-u10-l2-ex09.mp3" },
+      "tiles": ["ist", "das", "Sofa", "neu", "der", "Bett", "alt", "sind"],
+      "answers": ["Ist das Sofa neu?"]
+    },
+    {
+      "id": "de-a1-u10-l2-ex10",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'I'm buying a wardrobe'?",
+      "options": [
+        { "id": "a", "text": "Ich kaufe ein Schrank." },
+        { "id": "b", "text": "Ich kaufen einen Schrank." },
+        { "id": "c", "text": "Ich kaufe einen Schrank." },
+        { "id": "d", "text": "Ich kaufe eine Schrank." }
+      ],
+      "correctOptionId": "c"
+    },
+    {
+      "id": "de-a1-u10-l2-ex11",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Die Lampen sind teuer.",
+      "tiles": ["the", "lamps", "are", "expensive", "lamp", "is", "cheap"],
+      "answers": ["The lamps are expensive."]
+    },
+    {
+      "id": "de-a1-u10-l2-ex12",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a1/u10/de-a1-u10-l2-ex12.mp3" },
+      "tiles": ["Jonas", "hat", "kein", "Sofa", "keine", "keinen", "habe", "einen"],
+      "answers": ["Jonas hat kein Sofa."]
+    }
+  ]
+}

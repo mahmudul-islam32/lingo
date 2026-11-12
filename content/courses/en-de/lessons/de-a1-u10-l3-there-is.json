@@ -1,0 +1,130 @@
+{
+  "id": "de-a1-u10-l3-there-is",
+  "courseId": "en-de",
+  "unitId": "de-a1-u10",
+  "title": "There Is…",
+  "tip": "'Es gibt' takes the accusative: Es gibt einen Balkon. For 'no', use kein: Es gibt keinen Balkon.",
+  "exercises": [
+    {
+      "id": "de-a1-u10-l3-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        { "id": "p1", "learning": "es gibt", "known": "there is / there are" },
+        { "id": "p2", "learning": "das Fenster", "known": "the window" },
+        { "id": "p3", "learning": "die Waschmaschine", "known": "the washing machine" },
+        { "id": "p4", "learning": "der Kühlschrank", "known": "the fridge" },
+        { "id": "p5", "learning": "die Heizung", "known": "the heating" }
+      ]
+    },
+    {
+      "id": "de-a1-u10-l3-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'There is a balcony'?",
+      "options": [
+        { "id": "a", "text": "Es gibt ein Balkon." },
+        { "id": "b", "text": "Es gibt einen Balkon." },
+        { "id": "c", "text": "Es ist einen Balkon." },
+        { "id": "d", "text": "Es gibt der Balkon." }
+      ],
+      "correctOptionId": "b"
+    },
+    {
+      "id": "de-a1-u10-l3-ex03",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "There is a fridge.",
+      "tiles": ["es", "gibt", "einen", "Kühlschrank", "ein", "ist", "der"],
+      "answers": ["Es gibt einen Kühlschrank.", "Einen Kühlschrank gibt es."]
+    },
+    {
+      "id": "de-a1-u10-l3-ex04",
+      "type": "multiple_choice",
+      "prompt": "Which one means 'the fridge'?",
+      "options": [
+        { "id": "a", "text": "das Kühlschrank" },
+        { "id": "b", "text": "die Kühlschrank" },
+        { "id": "c", "text": "der Kühlschrank" }
+      ],
+      "correctOptionId": "c"
+    },
+    {
+      "id": "de-a1-u10-l3-ex05",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a1/u10/de-a1-u10-l3-ex05.mp3" },
+      "tiles": ["gibt", "es", "eine", "Waschmaschine", "einen", "ist", "ein", "Heizung"],
+      "answers": ["Gibt es eine Waschmaschine?"]
+    },
+    {
+      "id": "de-a1-u10-l3-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Es gibt keinen Kühlschrank.",
+      "tiles": ["there", "is", "no", "fridge", "isn't", "a", "are", "heating"],
+      "answers": ["There is no fridge.", "There isn't a fridge."]
+    },
+    {
+      "id": "de-a1-u10-l3-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which one means 'the heating'?",
+      "options": [
+        { "id": "a", "text": "die Heizung" },
+        { "id": "b", "text": "der Heizung" },
+        { "id": "c", "text": "das Heizung" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "de-a1-u10-l3-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "The flat has four windows.",
+      "tiles": ["die", "Wohnung", "hat", "vier", "Fenster", "fünf", "haben", "das"],
+      "answers": ["Die Wohnung hat vier Fenster.", "Vier Fenster hat die Wohnung."]
+    },
+    {
+      "id": "de-a1-u10-l3-ex09",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a1/u10/de-a1-u10-l3-ex09.mp3" },
+      "tiles": ["leider", "gibt", "es", "keinen", "Balkon", "keine", "ein", "ist"],
+      "answers": ["Leider gibt es keinen Balkon."]
+    },
+    {
+      "id": "de-a1-u10-l3-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "There is no heating.",
+      "tiles": ["es", "gibt", "keine", "Heizung", "keinen", "kein", "ist", "nicht"],
+      "answers": ["Es gibt keine Heizung.", "Keine Heizung gibt es."]
+    },
+    {
+      "id": "de-a1-u10-l3-ex11",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'There is no washing machine'?",
+      "options": [
+        { "id": "a", "text": "Es gibt keinen Waschmaschine." },
+        { "id": "b", "text": "Es gibt nicht Waschmaschine." },
+        { "id": "c", "text": "Es ist keine Waschmaschine." },
+        { "id": "d", "text": "Es gibt keine Waschmaschine." }
+      ],
+      "correctOptionId": "d"
+    },
+    {
+      "id": "de-a1-u10-l3-ex12",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a1/u10/de-a1-u10-l3-ex12.mp3" },
+      "tiles": [
+        "hier",
+        "gibt",
+        "es",
+        "einen",
+        "Kühlschrank",
+        "und",
+        "zwei",
+        "Fenster",
+        "ein",
+        "drei"
+      ],
+      "answers": ["Hier gibt es einen Kühlschrank und zwei Fenster."]
+    }
+  ]
+}

@@ -1,0 +1,121 @@
+{
+  "id": "de-a1-u10-l4-big-small-bright",
+  "courseId": "en-de",
+  "unitId": "de-a1-u10",
+  "title": "Big, Small, Bright",
+  "tip": "After ist, adjectives don't change: Das Zimmer ist hell. Zu means 'too': Das Zimmer ist zu klein.",
+  "exercises": [
+    {
+      "id": "de-a1-u10-l4-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        { "id": "p1", "learning": "hell", "known": "bright" },
+        { "id": "p2", "learning": "dunkel", "known": "dark" },
+        { "id": "p3", "learning": "ruhig", "known": "quiet" },
+        { "id": "p4", "learning": "laut", "known": "noisy" },
+        { "id": "p5", "learning": "schön", "known": "beautiful" }
+      ]
+    },
+    {
+      "id": "de-a1-u10-l4-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which one means 'quiet'?",
+      "options": [
+        { "id": "a", "text": "laut" },
+        { "id": "b", "text": "hell" },
+        { "id": "c", "text": "ruhig" },
+        { "id": "d", "text": "dunkel" }
+      ],
+      "correctOptionId": "c"
+    },
+    {
+      "id": "de-a1-u10-l4-ex03",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "The kitchen is very bright.",
+      "tiles": ["die", "Küche", "ist", "sehr", "hell", "dunkel", "zu", "der"],
+      "answers": ["Die Küche ist sehr hell.", "Sehr hell ist die Küche."]
+    },
+    {
+      "id": "de-a1-u10-l4-ex04",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a1/u10/de-a1-u10-l4-ex04.mp3" },
+      "tiles": ["das", "Schlafzimmer", "ist", "zu", "dunkel", "sehr", "hell", "Wohnzimmer"],
+      "answers": ["Das Schlafzimmer ist zu dunkel."]
+    },
+    {
+      "id": "de-a1-u10-l4-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'The room is too small'?",
+      "options": [
+        { "id": "a", "text": "Das Zimmer ist zu klein." },
+        { "id": "b", "text": "Das Zimmer ist sehr klein." },
+        { "id": "c", "text": "Das Zimmer zu klein ist." },
+        { "id": "d", "text": "Das Zimmer ist zu groß." }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "de-a1-u10-l4-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Die Wohnung ist zu laut.",
+      "tiles": ["the", "flat", "is", "too", "noisy", "loud", "very", "quiet"],
+      "answers": ["The flat is too noisy.", "The flat is too loud."]
+    },
+    {
+      "id": "de-a1-u10-l4-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which one means 'beautiful'?",
+      "options": [
+        { "id": "a", "text": "laut" },
+        { "id": "b", "text": "schön" },
+        { "id": "c", "text": "dunkel" },
+        { "id": "d", "text": "neu" }
+      ],
+      "correctOptionId": "b"
+    },
+    {
+      "id": "de-a1-u10-l4-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Is the bedroom quiet?",
+      "tiles": ["ist", "das", "Schlafzimmer", "ruhig", "laut", "sind", "der"],
+      "answers": ["Ist das Schlafzimmer ruhig?"]
+    },
+    {
+      "id": "de-a1-u10-l4-ex09",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a1/u10/de-a1-u10-l4-ex09.mp3" },
+      "tiles": ["mein", "Wohnzimmer", "ist", "hell", "und", "ruhig", "meine", "laut", "dunkel"],
+      "answers": ["Mein Wohnzimmer ist hell und ruhig."]
+    },
+    {
+      "id": "de-a1-u10-l4-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "The flat is beautiful and not too expensive.",
+      "tiles": ["die", "Wohnung", "ist", "schön", "und", "nicht", "zu", "teuer", "sehr", "billig"],
+      "answers": ["Die Wohnung ist schön und nicht zu teuer."]
+    },
+    {
+      "id": "de-a1-u10-l4-ex11",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'The rooms are dark'?",
+      "options": [
+        { "id": "a", "text": "Die Zimmer ist dunkel." },
+        { "id": "b", "text": "Das Zimmer sind dunkel." },
+        { "id": "c", "text": "Die Zimmer sind hell." },
+        { "id": "d", "text": "Die Zimmer sind dunkel." }
+      ],
+      "correctOptionId": "d"
+    },
+    {
+      "id": "de-a1-u10-l4-ex12",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a1/u10/de-a1-u10-l4-ex12.mp3" },
+      "tiles": ["die", "Lampe", "ist", "sehr", "schön", "zu", "Lampen", "sind"],
+      "answers": ["Die Lampe ist sehr schön."]
+    }
+  ]
+}

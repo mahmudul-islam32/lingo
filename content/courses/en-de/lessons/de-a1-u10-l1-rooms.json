@@ -1,0 +1,152 @@
+{
+  "id": "de-a1-u10-l1-rooms",
+  "courseId": "en-de",
+  "unitId": "de-a1-u10",
+  "title": "Rooms",
+  "tip": "Zimmer is the same in the plural: ein Zimmer, zwei Zimmer. Learn every room with der, die or das.",
+  "exercises": [
+    {
+      "id": "de-a1-u10-l1-ex01",
+      "type": "multiple_choice",
+      "prompt": "Which one means 'the kitchen'?",
+      "options": [
+        { "id": "a", "text": "der Küche" },
+        { "id": "b", "text": "die Küche" },
+        { "id": "c", "text": "das Küche" }
+      ],
+      "correctOptionId": "b"
+    },
+    {
+      "id": "de-a1-u10-l1-ex02",
+      "type": "match_pairs",
+      "pairs": [
+        { "id": "p1", "learning": "die Wohnung", "known": "the flat" },
+        { "id": "p2", "learning": "das Zimmer", "known": "the room" },
+        { "id": "p3", "learning": "die Küche", "known": "the kitchen" },
+        { "id": "p4", "learning": "das Bad", "known": "the bathroom" },
+        { "id": "p5", "learning": "der Balkon", "known": "the balcony" }
+      ]
+    },
+    {
+      "id": "de-a1-u10-l1-ex03",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "The flat has a balcony.",
+      "tiles": ["die", "Wohnung", "hat", "einen", "Balkon", "ein", "eine", "der"],
+      "answers": ["Die Wohnung hat einen Balkon.", "Einen Balkon hat die Wohnung."]
+    },
+    {
+      "id": "de-a1-u10-l1-ex04",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a1/u10/de-a1-u10-l1-ex04.mp3" },
+      "tiles": ["das", "Wohnzimmer", "ist", "groß", "Schlafzimmer", "klein", "die", "sind"],
+      "answers": ["Das Wohnzimmer ist groß."]
+    },
+    {
+      "id": "de-a1-u10-l1-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which one means 'the bathroom'?",
+      "options": [
+        { "id": "a", "text": "die Bad" },
+        { "id": "b", "text": "der Bad" },
+        { "id": "c", "text": "das Bad" }
+      ],
+      "correctOptionId": "c"
+    },
+    {
+      "id": "de-a1-u10-l1-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Das Schlafzimmer ist klein.",
+      "tiles": ["the", "bedroom", "is", "small", "big", "kitchen", "are"],
+      "answers": ["The bedroom is small."]
+    },
+    {
+      "id": "de-a1-u10-l1-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which one means 'the balcony'?",
+      "options": [
+        { "id": "a", "text": "der Balkon" },
+        { "id": "b", "text": "die Balkon" },
+        { "id": "c", "text": "das Balkon" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "de-a1-u10-l1-ex08",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a1/u10/de-a1-u10-l1-ex08.mp3" },
+      "tiles": ["Entschuldigung", "wo", "ist", "das", "Bad", "die", "Küche", "wie", "sind"],
+      "answers": ["Entschuldigung, wo ist das Bad?"]
+    },
+    {
+      "id": "de-a1-u10-l1-ex09",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "The flat has three rooms and a kitchen.",
+      "tiles": [
+        "die",
+        "Wohnung",
+        "hat",
+        "drei",
+        "Zimmer",
+        "und",
+        "eine",
+        "Küche",
+        "einen",
+        "zwei",
+        "ist"
+      ],
+      "answers": [
+        "Die Wohnung hat drei Zimmer und eine Küche.",
+        "Die Wohnung hat eine Küche und drei Zimmer.",
+        "Drei Zimmer und eine Küche hat die Wohnung.",
+        "Eine Küche und drei Zimmer hat die Wohnung."
+      ]
+    },
+    {
+      "id": "de-a1-u10-l1-ex10",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'The living room is big'?",
+      "options": [
+        { "id": "a", "text": "Der Wohnzimmer ist groß." },
+        { "id": "b", "text": "Das Wohnzimmer sind groß." },
+        { "id": "c", "text": "Das Wohnzimmer ist klein." },
+        { "id": "d", "text": "Das Wohnzimmer ist groß." }
+      ],
+      "correctOptionId": "d"
+    },
+    {
+      "id": "de-a1-u10-l1-ex11",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Hast du einen Balkon, Amira?",
+      "tiles": ["do", "you", "have", "a", "balcony", "Amira", "kitchen", "are", "an"],
+      "answers": [
+        "Do you have a balcony, Amira?",
+        "Amira, do you have a balcony?",
+        "Have you a balcony, Amira?",
+        "Amira, have you a balcony?"
+      ]
+    },
+    {
+      "id": "de-a1-u10-l1-ex12",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a1/u10/de-a1-u10-l1-ex12.mp3" },
+      "tiles": [
+        "meine",
+        "Wohnung",
+        "hat",
+        "zwei",
+        "Zimmer",
+        "und",
+        "einen",
+        "Balkon",
+        "mein",
+        "ein",
+        "drei"
+      ],
+      "answers": ["Meine Wohnung hat zwei Zimmer und einen Balkon."]
+    }
+  ]
+}

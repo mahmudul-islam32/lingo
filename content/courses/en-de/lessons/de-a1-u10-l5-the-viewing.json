@@ -1,0 +1,132 @@
+{
+  "id": "de-a1-u10-l5-the-viewing",
+  "courseId": "en-de",
+  "unitId": "de-a1-u10",
+  "title": "The Viewing",
+  "tip": "Use Sie at a viewing. Ask about rent and size: Wie viel kostet die Miete? Wie groß ist die Wohnung?",
+  "exercises": [
+    {
+      "id": "de-a1-u10-l5-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        { "id": "p1", "learning": "die Miete", "known": "the rent" },
+        { "id": "p2", "learning": "der Quadratmeter", "known": "the square metre" },
+        { "id": "p3", "learning": "die Besichtigung", "known": "the viewing" },
+        { "id": "p4", "learning": "der Vermieter", "known": "the landlord" },
+        { "id": "p5", "learning": "frei", "known": "available" }
+      ]
+    },
+    {
+      "id": "de-a1-u10-l5-ex02",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a1/u10/de-a1-u10-l5-ex02.mp3" },
+      "tiles": [
+        "guten",
+        "Tag",
+        "ich",
+        "bin",
+        "Frau",
+        "Brandt",
+        "die",
+        "Vermieterin",
+        "der",
+        "Vermieter",
+        "Herr"
+      ],
+      "answers": ["Guten Tag, ich bin Frau Brandt, die Vermieterin."]
+    },
+    {
+      "id": "de-a1-u10-l5-ex03",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a1/u10/de-a1-u10-l5-ex03.mp3" },
+      "tiles": ["guten", "Tag", "ist", "die", "Wohnung", "frei", "sind", "Abend", "Miete"],
+      "answers": ["Guten Tag! Ist die Wohnung frei?"]
+    },
+    {
+      "id": "de-a1-u10-l5-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "The flat is available immediately.",
+      "tiles": ["die", "Wohnung", "ist", "ab", "sofort", "frei", "sind", "Miete", "nicht"],
+      "answers": [
+        "Die Wohnung ist ab sofort frei.",
+        "Ab sofort ist die Wohnung frei.",
+        "Frei ist die Wohnung ab sofort.",
+        "Die Wohnung ist frei ab sofort."
+      ]
+    },
+    {
+      "id": "de-a1-u10-l5-ex05",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Die Besichtigung ist um zehn Uhr.",
+      "tiles": ["the", "viewing", "is", "at", "ten", "o'clock", "on", "eleven", "rent"],
+      "answers": ["The viewing is at ten o'clock.", "The viewing is at ten."]
+    },
+    {
+      "id": "de-a1-u10-l5-ex06",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'How big is the flat?'",
+      "options": [
+        { "id": "a", "text": "Wie viel ist die Wohnung groß?" },
+        { "id": "b", "text": "Wie groß ist die Wohnung?" },
+        { "id": "c", "text": "Wie groß die Wohnung ist?" }
+      ],
+      "correctOptionId": "b"
+    },
+    {
+      "id": "de-a1-u10-l5-ex07",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "The flat has sixty square metres.",
+      "tiles": ["die", "Wohnung", "hat", "sechzig", "Quadratmeter", "sechzehn", "ist", "Miete"],
+      "answers": ["Die Wohnung hat sechzig Quadratmeter.", "Sechzig Quadratmeter hat die Wohnung."]
+    },
+    {
+      "id": "de-a1-u10-l5-ex08",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'How much is the rent?'",
+      "options": [
+        { "id": "a", "text": "Wie viele kostet die Miete?" },
+        { "id": "b", "text": "Wie viel kosten die Miete?" },
+        { "id": "c", "text": "Wie viel kostet die Miete?" }
+      ],
+      "correctOptionId": "c"
+    },
+    {
+      "id": "de-a1-u10-l5-ex09",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a1/u10/de-a1-u10-l5-ex09.mp3" },
+      "tiles": ["die", "Miete", "ist", "achthundert", "Euro", "achtzig", "hundert", "kostet"],
+      "answers": ["Die Miete ist achthundert Euro."]
+    },
+    {
+      "id": "de-a1-u10-l5-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Die Miete ist nicht zu teuer.",
+      "tiles": ["the", "rent", "isn't", "is", "not", "too", "expensive", "very", "cheap"],
+      "answers": ["The rent isn't too expensive.", "The rent is not too expensive."]
+    },
+    {
+      "id": "de-a1-u10-l5-ex11",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Do you have a washing machine? (formal)",
+      "tiles": ["haben", "Sie", "eine", "Waschmaschine", "hast", "einen", "Heizung"],
+      "answers": ["Haben Sie eine Waschmaschine?"]
+    },
+    {
+      "id": "de-a1-u10-l5-ex12",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'I'll take the flat!'?",
+      "options": [
+        { "id": "a", "text": "Ich nimmst die Wohnung!" },
+        { "id": "b", "text": "Ich nehme der Wohnung!" },
+        { "id": "c", "text": "Ich die Wohnung nehme!" },
+        { "id": "d", "text": "Ich nehme die Wohnung!" }
+      ],
+      "correctOptionId": "d"
+    }
+  ]
+}
