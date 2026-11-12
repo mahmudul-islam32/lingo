@@ -1,12 +1,13 @@
 # Polyglow Roadmap
 
-**Owner:** pm · **Last updated:** 2026-11-08 (acceptance review of v0.1.0 and v0.2.0) ·
+**Owner:** pm · **Last updated:** 2026-11-12 (final acceptance of v0.1.0 and v0.2.0) ·
 **Source:** `PRD.md`, `user-stories.md`, decisions in `decisions.md` (PD-004 onward cover
 this roadmap)
 
 **Status values:** **open** = not merged on `main` yet · **merged** = on `main`, PM
 acceptance pending or failed · **accepted** = on `main` and every criterion passed in the
-"PM acceptance" section of the ticket.
+"PM acceptance" section of the ticket. A milestone is **ready for release** when every
+ticket in it is accepted; the cto then runs the release checklist.
 
 Each milestone is a versioned release. The `cto` cuts the release when every ticket in it
 has been merged and accepted (`ORCHESTRATOR.md`, step 6). Tickets live in
@@ -36,6 +37,9 @@ CTO-004.
 
 ## v0.1.0 — MVP foundation
 
+**Milestone status: ready for release** (pm, 2026-11-12). Every ticket is accepted. Only
+the cto release checklist remains (see below).
+
 **Goal:** a new visitor can open Polyglow, install it, finish onboarding as a guest and
 move around an accessible, branded app shell that still loads offline.
 
@@ -45,19 +49,23 @@ move around an accessible, branded app shell that still loads offline.
 | PLT-002 | Installable PWA: manifest, icons, service worker, offline shell | dev-platform | P0 | PLT-001 | accepted (2026-11-08; AC8 manual DevTools check moves to the release PR) |
 | PLT-003 | Guest mode: on-device learner profile | dev-platform | P0 | CTO-002 | accepted (2026-11-08) |
 | PLT-004 | Onboarding: choose course and daily goal | dev-platform | P0 | PLT-001, PLT-003, GAM-001 (soft) | accepted (2026-11-08) |
-| PLT-005 | Install prompt and app-update notification | dev-platform | P1 | PLT-002, CTO-004 | open |
-| PLT-006 | Offline indicator and `useOnlineStatus` hook | dev-platform | P1 | PLT-001 | accepted (2026-11-08) |
+| PLT-005 | Install prompt and app-update notification | dev-platform | P1 | PLT-002, CTO-004 | accepted (2026-11-12, #42) |
+| PLT-006 | Offline indicator and `useOnlineStatus` hook | dev-platform | P1 | PLT-001 | accepted (2026-11-08; AC8 re-checked on the real `/lesson/*` route 2026-11-12) |
 | GAM-001 | Lumi mascot component (4 static poses) | dev-gamification | P0 | CTO-004 | accepted (2026-11-08, incl. pm brand/originality check) |
 
-**Still missing before v0.1.0 can be released**
-1. **PLT-005** (install prompt and update toast) merged and accepted. It is the only open
-   ticket in the milestone.
-2. Release checklist (cto, `ORCHESTRATOR.md` step 6): the manual Chrome DevTools >
-   Application > Manifest check on `npm run build && npm run start`, recorded in the
-   release PR (PLT-002 AC8, PD-020); the CI e2e job green, including the `pwa-prod`
-   project; `CHANGELOG.md` and the version bump.
+**Still missing before v0.1.0 can be released.** No product blockers. Release checklist
+only (cto, `ORCHESTRATOR.md` step 6):
+1. The manual Chrome DevTools > Application > Manifest check on
+   `npm run build && npm run start`, recorded in the release PR (PLT-002 AC8, PD-020).
+2. CI green on the release commit, including the e2e job and the `pwa-prod` project
+   (`update-toast.pwa.spec.ts` for PLT-005, `pwa.spec.ts`).
+3. `CHANGELOG.md` and the version bump.
 
-There are no FAIL items in v0.1.0, so it needs no fix tickets.
+There are no FAIL items in v0.1.0, so it needs no fix tickets. Note for the cto: `main`
+already contains v0.2.0 and part of v0.3.0, so a v0.1.0 tag on today's `main` would
+include them. Whether to tag an earlier commit or cut v0.1.0 and v0.2.0 back to back from
+the same commit is a release-process choice for the cto. Product-wise, both milestones are
+accepted, so either is fine.
 
 **Parallel build plan**
 - Wave 1 (as soon as CTO-002 and CTO-004 are merged): **PLT-001**, **PLT-003**, **GAM-001**.
@@ -73,6 +81,9 @@ There are no FAIL items in v0.1.0, so it needs no fix tickets.
 
 ## v0.2.0 — First playable lesson
 
+**Milestone status: ready for release** (pm, 2026-11-12). Every ticket is accepted. Only
+the cto release checklist remains (see below).
+
 **Goal:** a guest goes from onboarding straight into Lesson 1 and plays a full lesson
 (multiple choice, word-bank translation, match pairs, listening), with feedback,
 re-queued mistakes and a results screen. Results are saved on the device.
@@ -86,29 +97,30 @@ re-queued mistakes and a results screen. Results are saved on the device.
 | LES-005 | Translate exercise (word bank) | dev-lessons | P0 | CTO-002 | accepted (2026-11-08) |
 | LES-006 | Match-pairs exercise | dev-lessons | P0 | CTO-002 | accepted (2026-11-08) |
 | LES-007 | Listen exercise (word bank, normal and slow audio) | dev-lessons | P0 | CTO-002, LES-005 | accepted (2026-11-08) |
-| LES-008 | Lesson results screen | dev-lessons | P0 | LES-002, GAM-002, PLT-008, CON-001 (e2e only) | merged (11/12 PASS; AC12 e2e deferred until PLT-007 + PLT-008) |
+| LES-008 | Lesson results screen | dev-lessons | P0 | LES-002, GAM-002, PLT-008, CON-001 (e2e only) | accepted (2026-11-12; AC1, 10, 12 re-checked on the real route, e2e enabled) |
 | GAM-002 | XP calculation (`calculateXp`) | dev-gamification | P0 | CTO-002 | accepted (2026-11-08) |
-| PLT-007 | Course loading, lesson route and temporary lesson list | dev-platform | P0 | PLT-001, PLT-004, LES-002 | open |
-| PLT-008 | Save lesson results on the device (also mounts `ResultsScreen`, PD-020) | dev-platform | P0 | PLT-003, PLT-007 | open |
-| CON-001 | Unit 1 content: 5 original lessons (en → es) | pm | P0 | CTO-002 | merged (not accepted: MC direction defect, fixed by CON-002) |
-| CON-002 | Fix: multiple-choice prompts in English, options in Spanish (PD-019, course version 2) | pm | P0 | CON-001, LES-004 | merged (2026-11-08, #36; pm acceptance pending) |
+| PLT-007 | Course loading, lesson route and temporary lesson list | dev-platform | P0 | PLT-001, PLT-004, LES-002 | accepted (2026-11-12, #46; also verifies PLT-004 AC8's new target) |
+| PLT-008 | Save lesson results on the device (also mounts `ResultsScreen`, PD-020) | dev-platform | P0 | PLT-003, PLT-007 | accepted (2026-11-12, #46; AC9 amended by PD-021) |
+| CON-001 | Unit 1 content: 5 original lessons (en → es) | pm | P0 | CTO-002 | accepted (2026-11-12, re-review after CON-002) |
+| CON-002 | Fix: multiple-choice prompts in English, options in Spanish (PD-019, course version 2) | pm | P0 | CON-001, LES-004 | accepted (2026-11-12, #36) |
+| FIX-001 | Fix: Enter on a selected multiple-choice option checks the answer (LES-002 AC3 with real components) | dev-lessons | P0 | LES-002, LES-004 | accepted (2026-11-12, #37; ticket file written after the merge) |
 
-**Still missing before v0.2.0 can be released**
-1. **PLT-007** merged and accepted: lesson route, Learn list, onboarding → Lesson 1,
-   offline lesson data. Its review also re-checks PLT-004 criterion 8's new target and
-   PLT-006 criterion 8 on the real `/lesson/*` route.
-2. **PLT-008** merged and accepted, including mounting `ResultsScreen` after `onFinish`
-   (PM note in the ticket, PD-020).
-3. **LES-008 criterion 12:** dev-lessons removes `test.fixme` from
-   `tests/e2e/lessons-results.spec.ts` once 1 and 2 are merged. The pm re-checks LES-008
-   criteria 1, 10 and 12 on the real route.
-4. **CON-002** (pm, content) is merged (#36); next CON-002 accepted and CON-001 re-reviewed and accepted. The
-   `u1-l2-ex07` wording ("Which one means 'where are you from'?") is a minor CON-004
-   addition and doesn't block.
-5. Release checklist (cto): CI green, including e2e; `CHANGELOG.md`; version bump.
+**Still missing before v0.2.0 can be released.** No product blockers. Release checklist
+only (cto):
+1. CI green on the release commit, including the e2e job: `lesson-route.spec.ts`,
+   `lessons-results.spec.ts` (no `test.fixme` left) and `lesson-offline.pwa.spec.ts`.
+   The pm accepted these on code and test evidence. If any of them is red at release
+   time, the release stops and the failure becomes a `fix/` ticket.
+2. `CHANGELOG.md` and the version bump. The changelog should mention FIX-001.
 
-v0.2.0 doesn't depend on v0.1.0's PLT-005, but releases go in order, so v0.1.0 ships
-first.
+Not blocking, already scheduled:
+- `u1-l2-ex07` prompt capitalisation ("Where" → "where"): CON-004, v1.0.0.
+- GAM-003 criterion 15 (hearts read error → full hearts, PD-021): v0.3.0, before GAM-003
+  is accepted.
+- An assertion that the offline lesson e2e shows no banner (PLT-006 nice-to-have): PLT-023,
+  v1.0.0.
+
+Releases go in order: v0.1.0 first, then v0.2.0.
 
 **Parallel build plan**
 - Wave 1 (contracts only): **LES-001**, **LES-004**, **LES-005**, **LES-006**, **GAM-002**,
@@ -132,7 +144,7 @@ about read/write hooks, UI and the skill path (PD-017).
 
 | ID | Title | Owner | Priority | Depends on |
 |---|---|---|---|---|
-| GAM-003 | XP totals and today's XP from saved results (`computeUserProgress`, `useUserProgress`, `useLocalToday`) | dev-gamification | P0 | GAM-002, PLT-008 |
+| GAM-003 | XP totals and today's XP from saved results (`computeUserProgress`, `useUserProgress`, `useLocalToday`); new AC15: hearts read error → full hearts (PD-021) | dev-gamification | P0 | GAM-002, PLT-008 |
 | GAM-004 | Streak status and `useStreak` hook (engine shipped in GAM-002) | dev-gamification | P0 | GAM-003 |
 | GAM-005 | Hearts state, lose-hearts mutation and hearts meter | dev-gamification | P0 | GAM-002, PLT-003, PLT-008, CTO-004 |
 | GAM-006 | Daily goal progress ring on Learn | dev-gamification | P0 | GAM-003, CTO-004 |
