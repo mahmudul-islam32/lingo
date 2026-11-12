@@ -17,11 +17,11 @@ describe("goal options", () => {
 });
 
 describe("course loader", () => {
-  it("loads the bundled en-es course, valid against CourseSchema", async () => {
+  it("loads the bundled courses, default en-de first, valid against CourseSchema", async () => {
     const courses = await loadCourses();
-    expect(courses.map((c) => c.id)).toEqual(["en-es"]);
-    expect(() => CourseSchema.parse(courses[0])).not.toThrow();
-    expect(courses[0]!.title).toBe("Spanish");
+    expect(courses.map((c) => c.id)).toEqual(["en-de", "en-es"]);
+    for (const course of courses) expect(() => CourseSchema.parse(course)).not.toThrow();
+    expect(courses.map((c) => c.title)).toEqual(["German", "Spanish"]);
     expect(courseSubtitle(courses[0]!)).toBe("for English speakers");
   });
 

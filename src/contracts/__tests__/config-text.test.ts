@@ -64,3 +64,46 @@ describe("text normalisation", () => {
     expect(foldDiacritics("¿Qué tal, señor?")).toBe("que tal senor");
   });
 });
+
+describe("German normalisation (CTO-008, ADR-008, PD-033)", () => {
+  const same = (a: string, b: string) => normalizeAnswerText(a) === normalizeAnswerText(b);
+
+  it("keeps ä ö ü ß distinct and folds neither ss nor ae/oe/ue", () => {
+    expect(same("schön", "schon")).toBe(false);
+    expect(same("Straße", "Strasse")).toBe(false);
+    expect(same("Brüder", "Bruder")).toBe(false);
+    expect(same("Grüße", "Grusse")).toBe(false);
+    expect(same("Müller", "Mueller")).toBe(false);
+  });
+
+  it("ignores case, including upper-case umlauts and capital ẞ", () => {
+    expect(same("Brot", "brot")).toBe(true);
+    expect(same("ÄPFEL", "äpfel")).toBe(true);
+    expect(same("Der Hund", "der hund")).toBe(true);
+    expect(normalizeAnswerText("STRAẞE")).toBe("straße");
+  });
+
+  it("treats NFD input like NFC input", () => {
+    expect(normalizeAnswerText("scho\u0308n")).toBe("schön");
+    expect(same("Gru\u0308\u00dfe", "Grüße")).toBe(true);
+  });
+
+  it("strips German quotation marks and keeps apostrophes", () => {
+    expect(normalizeAnswerText("„Hallo“")).toBe("hallo");
+    expect(normalizeAnswerText("»Tschüss« ›ja‹")).toBe("tschüss ja");
+    expect(same("Wie geht’s?", "wie geht's")).toBe(true);
+    expect(same("Wie geht's", "Wie gehts")).toBe(false);
+  });
+
+  it("splits hyphenated compounds into words, for tiles and answers alike", () => {
+    expect(tokenizeAnswer("Ich nehme die U-Bahn.")).toEqual(["ich", "nehme", "die", "u", "bahn"]);
+    expect(tokenizeAnswer("S-Bahn")).toEqual(["s", "bahn"]);
+    expect(same("Ich schreibe eine E-Mail.", "ich schreibe eine e-mail")).toBe(true);
+  });
+
+  it("folds umlauts (ö → o) and ß (→ ss) for speech comparisons only", () => {
+    expect(foldDiacritics("schön")).toBe("schon");
+    expect(foldDiacritics("Schöne Grüße!")).toBe("schone grusse");
+    expect(foldDiacritics("Grüsse")).toBe(foldDiacritics("Grüße"));
+  });
+});

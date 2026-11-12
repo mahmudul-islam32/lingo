@@ -4,7 +4,14 @@
  *
  * Server components (build time) import `@/lib/content/static-params` instead.
  */
-export { BUNDLED_CONTENT, type ContentLoaders, type JsonLoader } from "./bundled-content";
+export {
+  BUNDLED_CONTENT,
+  COURSE_REGISTRY,
+  type ContentLoaders,
+  type CourseRegistryEntry,
+  type CourseVisibility,
+  type JsonLoader,
+} from "./bundled-content";
 export { DEFAULT_COURSE_ID, lessonPath } from "./constants";
 export {
   contentRepository,
@@ -13,6 +20,7 @@ export {
   firstLesson,
   firstLessonPath,
   getFirstLessonPath,
+  listAvailableCourses,
   listBundledCourses,
   parseCourse,
   type BundledContentRepository,

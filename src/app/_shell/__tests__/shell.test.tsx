@@ -47,16 +47,22 @@ describe("app shell", () => {
 
     // PLT-009: top bar, then the skill path, then the bottom nav in the Tab order.
     // (jsdom has no IndexedDB: progress and hearts come from the in-memory fallback.)
+    // The default course (en-de, CTO-008) is pm content: nodes are found by "Lesson N:".
     const hearts = await screen.findByRole("button", { name: "Hearts: 5 of 5" });
-    const lastLesson = await screen.findByRole("button", {
-      name: "Lesson 5: Around Town, locked",
-    });
+    const first = await screen.findByRole("link", { name: /^Lesson 1: .*, up next/ });
+    const nodes = [
+      ...screen.queryAllByRole("link", { name: /^Lesson \d+: / }),
+      ...screen.queryAllByRole("button", { name: /^Lesson \d+: / }),
+    ];
+    const lastLesson = nodes
+      .sort((a, b) => (a.compareDocumentPosition(b) & Node.DOCUMENT_POSITION_FOLLOWING ? -1 : 1))
+      .at(-1)!;
     await user.tab();
     expect(screen.getByRole("link", { name: "Skip to content" })).toHaveFocus();
     await user.tab();
     expect(hearts).toHaveFocus();
     await user.tab();
-    expect(screen.getByRole("link", { name: "Lesson 1: Hello!, up next. Start" })).toHaveFocus();
+    expect(first).toHaveFocus();
     lastLesson.focus();
     await user.tab();
     expect(within(nav).getByRole("link", { name: "Learn" })).toHaveFocus();
