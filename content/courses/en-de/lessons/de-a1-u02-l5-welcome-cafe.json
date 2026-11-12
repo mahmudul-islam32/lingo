@@ -8,7 +8,7 @@
     {
       "id": "de-a1-u02-l5-ex01",
       "type": "multiple_choice",
-      "prompt": "Which one means 'who?'?",
+      "prompt": "Which one means 'who?'",
       "options": [
         { "id": "a", "text": "Wer?" },
         { "id": "b", "text": "Was?" },
@@ -96,7 +96,8 @@
       "answers": [
         "Wir lernen hier Deutsch.",
         "Hier lernen wir Deutsch.",
-        "Wir lernen Deutsch hier."
+        "Wir lernen Deutsch hier.",
+        "Deutsch lernen wir hier."
       ]
     },
     {
