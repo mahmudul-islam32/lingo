@@ -163,10 +163,22 @@ describe("useUserProgress (GAM-003 AC9–AC11, AC13)", () => {
     await waitFor(() => expect(result.current).toEqual({ status: "error", progress: null }));
   });
 
-  it("returns status 'error' when hearts can't be read", async () => {
+  it("counts a hearts read failure as full hearts, with one warning (AC15, PD-021)", async () => {
+    const warn = vi.spyOn(console, "warn").mockImplementation(() => {});
+    vi.spyOn(console, "error").mockImplementation(() => {});
     session.progress.getHearts.mockRejectedValue(new Error("corrupt"));
     const { result } = setup();
-    await waitFor(() => expect(result.current.status).toBe("error"));
+    await waitFor(() => expect(result.current.status).toBe("success"));
+    expect(result.current.progress?.hearts.current).toBe(GAME_CONFIG.maxHearts);
+    expect(warn).toHaveBeenCalledTimes(1);
+  });
+
+  it("returns status 'error' when both results and hearts can't be read", async () => {
+    vi.spyOn(console, "warn").mockImplementation(() => {});
+    session.progress.listLessonResults.mockRejectedValue(new Error("quota"));
+    session.progress.getHearts.mockRejectedValue(new Error("corrupt"));
+    const { result } = setup();
+    await waitFor(() => expect(result.current).toEqual({ status: "error", progress: null }));
   });
 });
 
@@ -183,5 +195,49 @@ describe("useProgressInputs (raw inputs for LES-010)", () => {
     await waitFor(() => expect(result.current.status).toBe("success"));
     expect(result.current).toMatchObject({ results, hearts, goalXp: 50, today: "2026-11-07" });
     expect(result.current.now.toISOString()).toBe(NOW.toISOString());
+  });
+
+  function renderInputs() {
+    return renderHook(() => useProgressInputs(COURSE, { timeZone: TZ }), {
+      wrapper: createQueryWrapper(),
+    });
+  }
+
+  it("hearts error + results OK → success with full hearts at now (AC15)", async () => {
+    const warn = vi.spyOn(console, "warn").mockImplementation(() => {});
+    const results = [makeResult({ courseId: COURSE })];
+    session.progress.listLessonResults.mockResolvedValue(results);
+    session.progress.getHearts.mockRejectedValue(new Error("corrupt"));
+    const { result } = renderInputs();
+    await waitFor(() => expect(result.current.status).toBe("success"));
+    expect(result.current.results).toBe(results);
+    expect(result.current.hearts).toEqual(createFullHearts(NOW));
+    expect(warn).toHaveBeenCalledTimes(1);
+    expect(warn.mock.calls[0]?.[0]).toMatch(/hearts/);
+  });
+
+  it("results error → error", async () => {
+    session.progress.listLessonResults.mockRejectedValue(new Error("quota"));
+    const { result } = renderInputs();
+    await waitFor(() => expect(result.current.status).toBe("error"));
+    expect(result.current).toMatchObject({ results: null, hearts: null });
+  });
+
+  it("results error + hearts error → error", async () => {
+    vi.spyOn(console, "warn").mockImplementation(() => {});
+    session.progress.listLessonResults.mockRejectedValue(new Error("quota"));
+    session.progress.getHearts.mockRejectedValue(new Error("corrupt"));
+    const { result } = renderInputs();
+    await waitFor(() => expect(result.current.status).toBe("error"));
+    expect(result.current).toMatchObject({ results: null, hearts: null });
+  });
+
+  it("stays loading while results are read even if hearts already failed", async () => {
+    vi.spyOn(console, "warn").mockImplementation(() => {});
+    session.progress.listLessonResults.mockReturnValue(pending());
+    session.progress.getHearts.mockRejectedValue(new Error("corrupt"));
+    const { result } = renderInputs();
+    await act(async () => {});
+    expect(result.current.status).toBe("loading");
   });
 });

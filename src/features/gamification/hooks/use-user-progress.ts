@@ -1,6 +1,6 @@
 "use client";
 
-import { useMemo } from "react";
+import { useEffect, useMemo } from "react";
 import { useQuery } from "@tanstack/react-query";
 import {
   GAME_CONFIG,
@@ -12,6 +12,7 @@ import {
   type UserProgress,
 } from "@/contracts";
 import { heartsQuery, progressQuery, settingsQuery } from "../data/queries";
+import { createFullHearts } from "../rules/hearts";
 import { computeUserProgress } from "../rules/progress";
 import { useLocalToday, type UseLocalTodayOptions } from "./use-local-today";
 
@@ -35,7 +36,9 @@ export type UseProgressOptions = UseLocalTodayOptions;
  * Reads the stored results (`["progress", courseId]`), hearts (`["hearts"]`) and settings
  * (`["settings"]`) through `@/lib/offline`, plus today's local date.
  *
- * - `status` is `"error"` if results or hearts can't be read (never throws).
+ * - `status` is `"error"` only if the results can't be read (never throws).
+ * - A hearts read failure counts as full hearts at `now` (`createFullHearts`), the same
+ *   rule as GAM-005/LES-009 (PD-021, GAM-003 AC15), and logs one `console.warn`.
  * - A settings failure or `null` settings (before onboarding) falls back to the default goal.
  */
 export function useProgressInputs(
@@ -50,13 +53,26 @@ export function useProgressInputs(
   const goalXp: DailyGoalXp = settings.data?.dailyGoalXp ?? GAME_CONFIG.defaultDailyGoalXp;
   const clock = { goalXp, today, now };
 
-  if (results.isError || hearts.isError) {
+  const heartsError = hearts.data === undefined ? hearts.error : null;
+  useEffect(() => {
+    if (heartsError) {
+      console.warn("[progress] could not read hearts; using full hearts", heartsError);
+    }
+  }, [heartsError]);
+  // Memoised on `now` so a failed read gives a stable object between clock ticks.
+  const fallbackHearts = useMemo(
+    () => (heartsError ? createFullHearts(now) : null),
+    [heartsError, now],
+  );
+
+  if (results.isError) {
     return { status: "error", results: null, hearts: null, ...clock };
   }
-  if (results.data === undefined || hearts.data === undefined || settings.isPending) {
+  const heartsState = hearts.data ?? fallbackHearts;
+  if (results.data === undefined || heartsState === null || settings.isPending) {
     return { status: "loading", results: null, hearts: null, ...clock };
   }
-  return { status: "success", results: results.data, hearts: hearts.data, ...clock };
+  return { status: "success", results: results.data, hearts: heartsState, ...clock };
 }
 
 export interface UserProgressState {
