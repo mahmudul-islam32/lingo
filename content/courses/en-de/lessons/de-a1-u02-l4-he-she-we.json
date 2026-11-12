@@ -1,0 +1,131 @@
+{
+  "id": "de-a1-u02-l4-he-she-we",
+  "courseId": "en-de",
+  "unitId": "de-a1-u02",
+  "title": "He, She, We",
+  "tip": "In German, sie means 'she' or 'they'. The verb ending tells you: sie wohnt (she), sie wohnen (they).",
+  "exercises": [
+    {
+      "id": "de-a1-u02-l4-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        { "id": "p1", "learning": "er", "known": "he" },
+        { "id": "p2", "learning": "wir", "known": "we" },
+        { "id": "p3", "learning": "ihr", "known": "you (to friends)" },
+        { "id": "p4", "learning": "der Freund", "known": "the friend (male)" },
+        { "id": "p5", "learning": "die Freundin", "known": "the friend (female)" }
+      ]
+    },
+    {
+      "id": "de-a1-u02-l4-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'He comes from India.'?",
+      "options": [
+        { "id": "a", "text": "Er kommst aus Indien." },
+        { "id": "b", "text": "Er komme aus Indien." },
+        { "id": "c", "text": "Er kommen aus Indien." },
+        { "id": "d", "text": "Er kommt aus Indien." }
+      ],
+      "correctOptionId": "d"
+    },
+    {
+      "id": "de-a1-u02-l4-ex03",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "She lives in Zürich.",
+      "tiles": ["sie", "wohnt", "in", "Zürich", "wohnen", "er", "aus"],
+      "answers": ["Sie wohnt in Zürich."]
+    },
+    {
+      "id": "de-a1-u02-l4-ex04",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'We're learning German.'?",
+      "options": [
+        { "id": "a", "text": "Wir lernen Deutsch." },
+        { "id": "b", "text": "Wir lernt Deutsch." },
+        { "id": "c", "text": "Wir lernst Deutsch." },
+        { "id": "d", "text": "Wir lerne Deutsch." }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "de-a1-u02-l4-ex05",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a1/u02/de-a1-u02-l4-ex05.mp3" },
+      "tiles": ["woher", "kommt", "ihr", "kommen", "wir", "wo"],
+      "answers": ["Woher kommt ihr?"]
+    },
+    {
+      "id": "de-a1-u02-l4-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Wir wohnen jetzt in Graz.",
+      "tiles": ["we", "live", "now", "in", "Graz", "they", "lives", "here"],
+      "answers": ["We live in Graz now.", "Now we live in Graz.", "We now live in Graz."]
+    },
+    {
+      "id": "de-a1-u02-l4-ex07",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "They live in Berlin. (two or more people)",
+      "tiles": ["sie", "wohnen", "in", "Berlin", "wohnt", "wir", "aus"],
+      "answers": ["Sie wohnen in Berlin."]
+    },
+    {
+      "id": "de-a1-u02-l4-ex08",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'You live in Hamburg. (to two friends)'?",
+      "options": [
+        { "id": "a", "text": "Ihr wohnen in Hamburg." },
+        { "id": "b", "text": "Ihr wohnt in Hamburg." },
+        { "id": "c", "text": "Ihr wohnst in Hamburg." },
+        { "id": "d", "text": "Wir wohnt in Hamburg." }
+      ],
+      "correctOptionId": "b"
+    },
+    {
+      "id": "de-a1-u02-l4-ex09",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a1/u02/de-a1-u02-l4-ex09.mp3" },
+      "tiles": ["mein", "Freund", "Tarek", "lernt", "Deutsch", "Freundin", "lernen", "er"],
+      "answers": ["Mein Freund Tarek lernt Deutsch."]
+    },
+    {
+      "id": "de-a1-u02-l4-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Mein Freund wohnt in Wien.",
+      "tiles": ["my", "friend", "lives", "in", "Vienna", "live", "Berlin", "we"],
+      "answers": ["My friend lives in Vienna."]
+    },
+    {
+      "id": "de-a1-u02-l4-ex11",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "We are friends.",
+      "tiles": ["wir", "sind", "Freunde", "Freundinnen", "ihr", "Freund", "er"],
+      "answers": ["Wir sind Freunde.", "Wir sind Freundinnen."]
+    },
+    {
+      "id": "de-a1-u02-l4-ex12",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a1/u02/de-a1-u02-l4-ex12.mp3" },
+      "tiles": [
+        "Amira",
+        "und",
+        "Ravi",
+        "kommen",
+        "aus",
+        "Indien",
+        "sie",
+        "wohnen",
+        "jetzt",
+        "in",
+        "Hamburg",
+        "kommt",
+        "wohnt"
+      ],
+      "answers": ["Amira und Ravi kommen aus Indien. Sie wohnen jetzt in Hamburg."]
+    }
+  ]
+}

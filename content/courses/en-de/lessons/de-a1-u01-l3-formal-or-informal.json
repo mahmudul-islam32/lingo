@@ -1,0 +1,124 @@
+{
+  "id": "de-a1-u01-l3-formal-or-informal",
+  "courseId": "en-de",
+  "unitId": "de-a1-u01",
+  "title": "Formal or Informal",
+  "tip": "Use 'du' with friends and 'Sie' with people you don't know. 'Sie' always has a capital S.",
+  "exercises": [
+    {
+      "id": "de-a1-u01-l3-ex01",
+      "type": "multiple_choice",
+      "prompt": "Which one means 'What's your name? (formal)'?",
+      "options": [
+        { "id": "a", "text": "Wie heißen Sie?" },
+        { "id": "b", "text": "Wie heißt du?" },
+        { "id": "c", "text": "Wie heißt Sie?" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "de-a1-u01-l3-ex02",
+      "type": "match_pairs",
+      "pairs": [
+        { "id": "p1", "learning": "Sie", "known": "you (formal)" },
+        { "id": "p2", "learning": "du", "known": "you (to a friend)" },
+        { "id": "p3", "learning": "danke", "known": "thank you" },
+        { "id": "p4", "learning": "bitte", "known": "please" },
+        { "id": "p5", "learning": "freut mich", "known": "nice to meet you" }
+      ]
+    },
+    {
+      "id": "de-a1-u01-l3-ex03",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "What's your name? (formal)",
+      "tiles": ["wie", "heißen", "Sie", "heißt", "du", "ich"],
+      "answers": ["Wie heißen Sie?"]
+    },
+    {
+      "id": "de-a1-u01-l3-ex04",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a1/u01/de-a1-u01-l3-ex04.mp3" },
+      "tiles": ["guten", "Tag", "Frau", "Yilmaz", "Herr", "Abend", "gute"],
+      "answers": ["Guten Tag, Frau Yilmaz!"]
+    },
+    {
+      "id": "de-a1-u01-l3-ex05",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Freut mich, Herr Kowalski.",
+      "tiles": ["nice", "to", "meet", "you", "Mr", "Kowalski", "Mrs", "thank", "please"],
+      "answers": ["Nice to meet you, Mr Kowalski."]
+    },
+    {
+      "id": "de-a1-u01-l3-ex06",
+      "type": "multiple_choice",
+      "prompt": "Which one means 'thank you'?",
+      "options": [
+        { "id": "a", "text": "Bitte!" },
+        { "id": "b", "text": "Tschüss!" },
+        { "id": "c", "text": "Danke!" }
+      ],
+      "correctOptionId": "c"
+    },
+    {
+      "id": "de-a1-u01-l3-ex07",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "My name is David Wagner.",
+      "tiles": ["ich", "heiße", "David", "Wagner", "mein", "Name", "ist", "Sie"],
+      "answers": [
+        "Ich heiße David Wagner.",
+        "Mein Name ist David Wagner.",
+        "David Wagner ist mein Name.",
+        "David Wagner heiße ich."
+      ]
+    },
+    {
+      "id": "de-a1-u01-l3-ex08",
+      "type": "multiple_choice",
+      "prompt": "Which one means 'And what's your name? (formal)'?",
+      "options": [
+        { "id": "a", "text": "Und wie heißt du?" },
+        { "id": "b", "text": "Und wie heißen Sie?" },
+        { "id": "c", "text": "Und wie heißen du?" }
+      ],
+      "correctOptionId": "b"
+    },
+    {
+      "id": "de-a1-u01-l3-ex09",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a1/u01/de-a1-u01-l3-ex09.mp3" },
+      "tiles": ["wie", "heißen", "Sie", "bitte", "heißt", "du", "danke"],
+      "answers": ["Wie heißen Sie, bitte?"]
+    },
+    {
+      "id": "de-a1-u01-l3-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Danke, Frau Nguyen!",
+      "tiles": ["thank", "you", "thanks", "Mrs", "Ms", "Nguyen", "please"],
+      "answers": [
+        "Thank you, Mrs Nguyen!",
+        "Thank you, Ms Nguyen!",
+        "Thanks, Mrs Nguyen!",
+        "Thanks, Ms Nguyen!"
+      ]
+    },
+    {
+      "id": "de-a1-u01-l3-ex11",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Nice to meet you, Ms Schulz.",
+      "tiles": ["freut", "mich", "Frau", "Schulz", "Herr", "danke", "bitte"],
+      "answers": ["Freut mich, Frau Schulz."]
+    },
+    {
+      "id": "de-a1-u01-l3-ex12",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a1/u01/de-a1-u01-l3-ex12.mp3" },
+      "tiles": ["danke", "Herr", "Becker", "auf", "Wiedersehen", "bitte", "Frau", "tschüss"],
+      "answers": ["Danke, Herr Becker. Auf Wiedersehen!"]
+    }
+  ]
+}

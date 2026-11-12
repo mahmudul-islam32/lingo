@@ -1,0 +1,151 @@
+{
+  "id": "de-a1-u01-l5-language-school",
+  "courseId": "en-de",
+  "unitId": "de-a1-u01",
+  "title": "First Day at the Language School",
+  "tip": "Sein means 'to be': ich bin, du bist, Sie sind. Use 'Sie' with your teacher.",
+  "exercises": [
+    {
+      "id": "de-a1-u01-l5-ex01",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'Excuse me, are you Malik? (to a classmate)'?",
+      "options": [
+        { "id": "a", "text": "Entschuldigung, bist du Malik?" },
+        { "id": "b", "text": "Entschuldigung, sind du Malik?" },
+        { "id": "c", "text": "Entschuldigung, bist Sie Malik?" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "de-a1-u01-l5-ex02",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Nein, ich bin Jonas. Und du?",
+      "tiles": ["no", "I'm", "I", "am", "Jonas", "and", "you", "yes", "are"],
+      "answers": ["No, I'm Jonas. And you?", "No, I am Jonas. And you?"]
+    },
+    {
+      "id": "de-a1-u01-l5-ex03",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I'm Mira. Nice to meet you!",
+      "tiles": ["ich", "bin", "heiße", "mein", "Name", "ist", "Mira", "freut", "mich"],
+      "answers": [
+        "Ich bin Mira. Freut mich!",
+        "Ich heiße Mira. Freut mich!",
+        "Mein Name ist Mira. Freut mich!",
+        "Mira ist mein Name. Freut mich!",
+        "Mira bin ich. Freut mich!",
+        "Mira heiße ich. Freut mich!"
+      ]
+    },
+    {
+      "id": "de-a1-u01-l5-ex04",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'Excuse me, are you the teacher? (formal)'?",
+      "options": [
+        { "id": "a", "text": "Entschuldigung, bist du die Lehrerin?" },
+        { "id": "b", "text": "Entschuldigung, sind Sie der Lehrerin?" },
+        { "id": "c", "text": "Entschuldigung, sind Sie die Lehrerin?" }
+      ],
+      "correctOptionId": "c"
+    },
+    {
+      "id": "de-a1-u01-l5-ex05",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a1/u01/de-a1-u01-l5-ex05.mp3" },
+      "tiles": [
+        "ja",
+        "ich",
+        "bin",
+        "Frau",
+        "Brandt",
+        "guten",
+        "Morgen",
+        "nein",
+        "Herr",
+        "Sie",
+        "sind"
+      ],
+      "answers": ["Ja, ich bin Frau Brandt. Guten Morgen!"]
+    },
+    {
+      "id": "de-a1-u01-l5-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Good morning, Ms Brandt! I'm Mira.",
+      "tiles": ["guten", "Morgen", "Frau", "Brandt", "ich", "bin", "Mira", "heiße", "Tag", "Herr"],
+      "answers": [
+        "Guten Morgen, Frau Brandt! Ich bin Mira.",
+        "Guten Morgen, Frau Brandt! Ich heiße Mira.",
+        "Guten Morgen, Frau Brandt! Mira bin ich.",
+        "Guten Morgen, Frau Brandt! Mira heiße ich."
+      ]
+    },
+    {
+      "id": "de-a1-u01-l5-ex07",
+      "type": "match_pairs",
+      "pairs": [
+        { "id": "p1", "learning": "ich bin", "known": "I am" },
+        { "id": "p2", "learning": "du bist", "known": "you are (to a friend)" },
+        { "id": "p3", "learning": "Sie sind", "known": "you are (formal)" },
+        { "id": "p4", "learning": "ja", "known": "yes" },
+        { "id": "p5", "learning": "nein", "known": "no" }
+      ]
+    },
+    {
+      "id": "de-a1-u01-l5-ex08",
+      "type": "multiple_choice",
+      "prompt": "Which one means 'Nice to meet you! How are you? (formal)'?",
+      "options": [
+        { "id": "a", "text": "Freut mich! Wie geht es dir?" },
+        { "id": "b", "text": "Freut mich! Wie geht es Ihnen?" },
+        { "id": "c", "text": "Danke! Wie geht es Ihnen?" }
+      ],
+      "correctOptionId": "b"
+    },
+    {
+      "id": "de-a1-u01-l5-ex09",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Very good, thanks. And you? (formal)",
+      "tiles": ["sehr", "gut", "danke", "und", "Ihnen", "dir", "nicht", "auch"],
+      "answers": ["Sehr gut, danke. Und Ihnen?", "Danke, sehr gut. Und Ihnen?"]
+    },
+    {
+      "id": "de-a1-u01-l5-ex10",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a1/u01/de-a1-u01-l5-ex10.mp3" },
+      "tiles": ["danke", "auch", "sehr", "gut", "nicht", "bitte", "so"],
+      "answers": ["Danke, auch sehr gut."]
+    },
+    {
+      "id": "de-a1-u01-l5-ex11",
+      "type": "multiple_choice",
+      "prompt": "Which one means 'the teacher (a man)'?",
+      "options": [
+        { "id": "a", "text": "der Lehrerin" },
+        { "id": "b", "text": "der Lehrer" },
+        { "id": "c", "text": "die Lehrer" }
+      ],
+      "correctOptionId": "b"
+    },
+    {
+      "id": "de-a1-u01-l5-ex12",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a1/u01/de-a1-u01-l5-ex12.mp3" },
+      "tiles": [
+        "auf",
+        "Wiedersehen",
+        "Frau",
+        "Brandt",
+        "tschüss",
+        "Jonas",
+        "Herr",
+        "hallo",
+        "gute"
+      ],
+      "answers": ["Auf Wiedersehen, Frau Brandt! Tschüss, Jonas!"]
+    }
+  ]
+}

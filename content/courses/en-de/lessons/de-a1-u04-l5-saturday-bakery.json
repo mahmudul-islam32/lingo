@@ -1,0 +1,126 @@
+{
+  "id": "de-a1-u04-l5-saturday-bakery",
+  "courseId": "en-de",
+  "unitId": "de-a1-u04",
+  "title": "Saturday Morning at the Bakery",
+  "tip": "Staff and customers say 'Sie' to each other. 'Zum Mitnehmen' means you take your order away.",
+  "exercises": [
+    {
+      "id": "de-a1-u04-l5-ex01",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'What would you like? (formal)'?",
+      "options": [
+        { "id": "a", "text": "Was möchtest du?" },
+        { "id": "b", "text": "Was möchten Sie?" },
+        { "id": "c", "text": "Was kostet das?" }
+      ],
+      "correctOptionId": "b"
+    },
+    {
+      "id": "de-a1-u04-l5-ex02",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a1/u04/de-a1-u04-l5-ex02.mp3" },
+      "tiles": ["guten", "Morgen", "haben", "Sie", "Brezeln", "hast", "Brezel", "Tag"],
+      "answers": ["Guten Morgen! Haben Sie Brezeln?"]
+    },
+    {
+      "id": "de-a1-u04-l5-ex03",
+      "type": "match_pairs",
+      "pairs": [
+        { "id": "p1", "learning": "zum Mitnehmen", "known": "to take away" },
+        { "id": "p2", "learning": "essen", "known": "to eat" },
+        { "id": "p3", "learning": "trinken", "known": "to drink" },
+        { "id": "p4", "learning": "mit Karte", "known": "by card" },
+        { "id": "p5", "learning": "bar", "known": "in cash" }
+      ]
+    },
+    {
+      "id": "de-a1-u04-l5-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Would you like to eat here? (formal)",
+      "tiles": ["möchten", "Sie", "hier", "essen", "möchtest", "du", "trinken"],
+      "answers": ["Möchten Sie hier essen?"]
+    },
+    {
+      "id": "de-a1-u04-l5-ex05",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Nein, zum Mitnehmen, bitte.",
+      "tiles": ["no", "to", "take", "away", "please", "yes", "eat", "here"],
+      "answers": ["No, to take away, please."]
+    },
+    {
+      "id": "de-a1-u04-l5-ex06",
+      "type": "multiple_choice",
+      "prompt": "Which one means 'to drink'?",
+      "options": [
+        { "id": "a", "text": "essen" },
+        { "id": "b", "text": "kosten" },
+        { "id": "c", "text": "trinken" },
+        { "id": "d", "text": "machen" }
+      ],
+      "correctOptionId": "c"
+    },
+    {
+      "id": "de-a1-u04-l5-ex07",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a1/u04/de-a1-u04-l5-ex07.mp3" },
+      "tiles": [
+        "das",
+        "macht",
+        "zusammen",
+        "acht",
+        "Euro",
+        "dreißig",
+        "achtzig",
+        "dreizehn",
+        "Cent"
+      ],
+      "answers": ["Das macht zusammen acht Euro dreißig."]
+    },
+    {
+      "id": "de-a1-u04-l5-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "By card, please.",
+      "tiles": ["mit", "Karte", "bitte", "bar", "danke", "Euro"],
+      "answers": ["Mit Karte, bitte.", "Bitte mit Karte."]
+    },
+    {
+      "id": "de-a1-u04-l5-ex09",
+      "type": "multiple_choice",
+      "prompt": "Which one means 'in cash'?",
+      "options": [
+        { "id": "a", "text": "mit Karte" },
+        { "id": "b", "text": "zum Mitnehmen" },
+        { "id": "c", "text": "zusammen" },
+        { "id": "d", "text": "bar" }
+      ],
+      "correctOptionId": "d"
+    },
+    {
+      "id": "de-a1-u04-l5-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Haben Sie Milch?",
+      "tiles": ["do", "you", "have", "milk", "any", "water", "a", "tea"],
+      "answers": ["Do you have milk?", "Do you have any milk?"]
+    },
+    {
+      "id": "de-a1-u04-l5-ex11",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a1/u04/de-a1-u04-l5-ex11.mp3" },
+      "tiles": ["ich", "trinke", "hier", "eine", "Tasse", "Tee", "esse", "ein", "Kaffee"],
+      "answers": ["Ich trinke hier eine Tasse Tee."]
+    },
+    {
+      "id": "de-a1-u04-l5-ex12",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Thank you, that's all.",
+      "tiles": ["danke", "das", "ist", "alles", "macht", "bitte", "alt"],
+      "answers": ["Danke, das ist alles.", "Das ist alles, danke."]
+    }
+  ]
+}

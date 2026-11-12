@@ -1,0 +1,133 @@
+{
+  "id": "de-a1-u04-l4-what-does-it-cost",
+  "courseId": "en-de",
+  "unitId": "de-a1-u04",
+  "title": "What Does It Cost?",
+  "tip": "Say 2,50 € as zwei Euro fünfzig. Euro and Cent don't change in the plural.",
+  "exercises": [
+    {
+      "id": "de-a1-u04-l4-ex01",
+      "type": "multiple_choice",
+      "prompt": "Which one means '€2.50'?",
+      "options": [
+        { "id": "a", "text": "zwei Euro fünfzehn" },
+        { "id": "b", "text": "fünfzig Euro zwei" },
+        { "id": "c", "text": "zwei Euro fünfzig" }
+      ],
+      "correctOptionId": "c"
+    },
+    {
+      "id": "de-a1-u04-l4-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'How much is the bread?'",
+      "options": [
+        { "id": "a", "text": "Was kostet das Brot?" },
+        { "id": "b", "text": "Was kosten das Brot?" },
+        { "id": "c", "text": "Wo ist das Brot?" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "de-a1-u04-l4-ex03",
+      "type": "match_pairs",
+      "pairs": [
+        { "id": "p1", "learning": "was kostet …?", "known": "how much is …?" },
+        { "id": "p2", "learning": "der Euro", "known": "the euro" },
+        { "id": "p3", "learning": "der Cent", "known": "the cent" },
+        { "id": "p4", "learning": "teuer", "known": "expensive" },
+        { "id": "p5", "learning": "billig", "known": "cheap" }
+      ]
+    },
+    {
+      "id": "de-a1-u04-l4-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "How much is the cake?",
+      "tiles": ["was", "kostet", "der", "Kuchen", "kosten", "die", "wie"],
+      "answers": ["Was kostet der Kuchen?"]
+    },
+    {
+      "id": "de-a1-u04-l4-ex05",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a1/u04/de-a1-u04-l4-ex05.mp3" },
+      "tiles": ["das", "macht", "drei", "Euro", "zwanzig", "dreißig", "Cent", "zwei"],
+      "answers": ["Das macht drei Euro zwanzig."]
+    },
+    {
+      "id": "de-a1-u04-l4-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Die Brezel kostet achtzig Cent.",
+      "tiles": ["the", "pretzel", "costs", "eighty", "cents", "eighteen", "euros", "cake"],
+      "answers": ["The pretzel costs eighty cents."]
+    },
+    {
+      "id": "de-a1-u04-l4-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which one means 'expensive'?",
+      "options": [
+        { "id": "a", "text": "billig" },
+        { "id": "b", "text": "teuer" },
+        { "id": "c", "text": "lecker" },
+        { "id": "d", "text": "kalt" }
+      ],
+      "correctOptionId": "b"
+    },
+    {
+      "id": "de-a1-u04-l4-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "The coffee is cheap.",
+      "tiles": ["der", "Kaffee", "ist", "billig", "teuer", "das", "kostet"],
+      "answers": ["Der Kaffee ist billig.", "Billig ist der Kaffee."]
+    },
+    {
+      "id": "de-a1-u04-l4-ex09",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a1/u04/de-a1-u04-l4-ex09.mp3" },
+      "tiles": [
+        "das",
+        "macht",
+        "zusammen",
+        "sieben",
+        "Euro",
+        "vierzig",
+        "siebzig",
+        "vierzehn",
+        "Cent"
+      ],
+      "answers": ["Das macht zusammen sieben Euro vierzig."]
+    },
+    {
+      "id": "de-a1-u04-l4-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Das macht zusammen fünf Euro.",
+      "tiles": ["that", "comes", "to", "five", "euros", "altogether", "fifty", "is", "cents"],
+      "answers": [
+        "That comes to five euros altogether.",
+        "Altogether, that comes to five euros.",
+        "That is five euros altogether.",
+        "Altogether, that is five euros."
+      ]
+    },
+    {
+      "id": "de-a1-u04-l4-ex11",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'The bread rolls cost forty cents'?",
+      "options": [
+        { "id": "a", "text": "Die Brötchen kostet vierzig Cent." },
+        { "id": "b", "text": "Die Brötchen kosten vierzehn Cent." },
+        { "id": "c", "text": "Die Brötchen kosten vierzig Cent." }
+      ],
+      "correctOptionId": "c"
+    },
+    {
+      "id": "de-a1-u04-l4-ex12",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a1/u04/de-a1-u04-l4-ex12.mp3" },
+      "tiles": ["eine", "Tasse", "Tee", "kostet", "zwei", "Euro", "kosten", "Cent", "drei"],
+      "answers": ["Eine Tasse Tee kostet zwei Euro."]
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "id": "de-a1-u01-l1-hello",
+  "courseId": "en-de",
+  "unitId": "de-a1-u01",
+  "title": "Hello and Goodbye",
+  "tip": "Guten Morgen, guten Tag and guten Abend follow the time of day. Tschüss is casual, auf Wiedersehen is polite.",
+  "exercises": [
+    {
+      "id": "de-a1-u01-l1-ex01",
+      "type": "multiple_choice",
+      "prompt": "Which one means 'hello'?",
+      "options": [
+        { "id": "a", "text": "Hallo!" },
+        { "id": "b", "text": "Tschüss!" },
+        { "id": "c", "text": "Gute Nacht!" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "de-a1-u01-l1-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which one means 'hello' in the morning?",
+      "options": [
+        { "id": "a", "text": "Guten Abend!" },
+        { "id": "b", "text": "Guten Morgen!" },
+        { "id": "c", "text": "Gute Nacht!" }
+      ],
+      "correctOptionId": "b"
+    },
+    {
+      "id": "de-a1-u01-l1-ex03",
+      "type": "match_pairs",
+      "pairs": [
+        { "id": "p1", "learning": "hallo", "known": "hi" },
+        { "id": "p2", "learning": "guten Morgen", "known": "good morning" },
+        { "id": "p3", "learning": "guten Abend", "known": "good evening" },
+        { "id": "p4", "learning": "gute Nacht", "known": "good night" },
+        { "id": "p5", "learning": "tschüss", "known": "bye" }
+      ]
+    },
+    {
+      "id": "de-a1-u01-l1-ex04",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a1/u01/de-a1-u01-l1-ex04.mp3" },
+      "tiles": ["guten", "Morgen", "Aylin", "Abend", "gute", "Nacht"],
+      "answers": ["Guten Morgen, Aylin!"]
+    },
+    {
+      "id": "de-a1-u01-l1-ex05",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Good evening, Jonas!",
+      "tiles": ["guten", "Abend", "Jonas", "Morgen", "Tag", "tschüss"],
+      "answers": ["Guten Abend, Jonas!"]
+    },
+    {
+      "id": "de-a1-u01-l1-ex06",
+      "type": "multiple_choice",
+      "prompt": "Which one means 'hello' in the evening?",
+      "options": [
+        { "id": "a", "text": "Guten Morgen!" },
+        { "id": "b", "text": "Gute Nacht!" },
+        { "id": "c", "text": "Guten Abend!" }
+      ],
+      "correctOptionId": "c"
+    },
+    {
+      "id": "de-a1-u01-l1-ex07",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Tschüss, Mia!",
+      "tiles": ["bye", "Mia", "hello", "good", "night", "morning"],
+      "answers": ["Bye, Mia!"]
+    },
+    {
+      "id": "de-a1-u01-l1-ex08",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a1/u01/de-a1-u01-l1-ex08.mp3" },
+      "tiles": ["gute", "Nacht", "Lukas", "guten", "Tag", "auf"],
+      "answers": ["Gute Nacht, Lukas!"]
+    },
+    {
+      "id": "de-a1-u01-l1-ex09",
+      "type": "multiple_choice",
+      "prompt": "Which one means 'goodbye' (formal)?",
+      "options": [
+        { "id": "a", "text": "Tschüss!" },
+        { "id": "b", "text": "Auf Wiedersehen!" },
+        { "id": "c", "text": "Guten Abend!" }
+      ],
+      "correctOptionId": "b"
+    },
+    {
+      "id": "de-a1-u01-l1-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Guten Tag, Priya!",
+      "tiles": ["hello", "good", "day", "Priya", "evening", "bye"],
+      "answers": ["Hello, Priya!", "Good day, Priya!"]
+    },
+    {
+      "id": "de-a1-u01-l1-ex11",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a1/u01/de-a1-u01-l1-ex11.mp3" },
+      "tiles": ["auf", "Wiedersehen", "Fatima", "tschüss", "guten", "Abend"],
+      "answers": ["Auf Wiedersehen, Fatima!"]
+    },
+    {
+      "id": "de-a1-u01-l1-ex12",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Bye, Ravi!",
+      "tiles": ["tschüss", "Ravi", "hallo", "auf", "Nacht"],
+      "answers": ["Tschüss, Ravi!"]
+    }
+  ]
+}

@@ -1,0 +1,139 @@
+{
+  "id": "de-a1-u03-l5-spell-it",
+  "courseId": "en-de",
+  "unitId": "de-a1-u03",
+  "title": "Spell It, Please",
+  "tip": "ß is a letter of its own. It sounds like a sharp s. When you spell, call it Eszett.",
+  "exercises": [
+    {
+      "id": "de-a1-u03-l5-ex01",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'How do you spell that?'?",
+      "options": [
+        { "id": "a", "text": "Wie schreibt das man?" },
+        { "id": "b", "text": "Wie schreibt man das?" },
+        { "id": "c", "text": "Wie heißt man das?" }
+      ],
+      "correctOptionId": "b"
+    },
+    {
+      "id": "de-a1-u03-l5-ex02",
+      "type": "match_pairs",
+      "pairs": [
+        { "id": "p1", "learning": "das Alphabet", "known": "the alphabet" },
+        { "id": "p2", "learning": "buchstabieren", "known": "to spell" },
+        { "id": "p3", "learning": "langsam", "known": "slowly" },
+        { "id": "p4", "learning": "noch einmal", "known": "again" },
+        { "id": "p5", "learning": "das Eszett", "known": "the letter ß" }
+      ]
+    },
+    {
+      "id": "de-a1-u03-l5-ex03",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a1/u03/de-a1-u03-l5-ex03.mp3" },
+      "tiles": ["ich", "heiße", "Jörg", "J", "Ö", "R", "G", "O", "E", "heißt"],
+      "answers": ["Ich heiße Jörg: J, Ö, R, G."]
+    },
+    {
+      "id": "de-a1-u03-l5-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Again, please. Slowly, please.",
+      "tiles": ["noch", "einmal", "bitte", "bitte", "langsam", "danke", "jetzt", "hier"],
+      "answers": [
+        "Noch einmal, bitte. Langsam, bitte.",
+        "Bitte noch einmal. Bitte langsam.",
+        "Noch einmal, bitte. Bitte langsam.",
+        "Bitte noch einmal. Langsam, bitte."
+      ]
+    },
+    {
+      "id": "de-a1-u03-l5-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which one means 'the letter ß'?",
+      "options": [
+        { "id": "a", "text": "der Eszett" },
+        { "id": "b", "text": "die Eszett" },
+        { "id": "c", "text": "das Eszett" }
+      ],
+      "correctOptionId": "c"
+    },
+    {
+      "id": "de-a1-u03-l5-ex06",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a1/u03/de-a1-u03-l5-ex06.mp3" },
+      "tiles": ["Krüger", "K", "R", "Ü", "G", "E", "R", "U", "A", "I"],
+      "answers": ["Krüger: K, R, Ü, G, E, R."]
+    },
+    {
+      "id": "de-a1-u03-l5-ex07",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Wie schreibt man das? Langsam, bitte.",
+      "tiles": ["how", "do", "you", "spell", "that", "slowly", "please", "slow", "again", "is"],
+      "answers": [
+        "How do you spell that? Slowly, please.",
+        "How do you spell that? Please, slowly."
+      ]
+    },
+    {
+      "id": "de-a1-u03-l5-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I'm learning the alphabet.",
+      "tiles": ["ich", "lerne", "das", "Alphabet", "der", "die", "lernst"],
+      "answers": ["Ich lerne das Alphabet."]
+    },
+    {
+      "id": "de-a1-u03-l5-ex09",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a1/u03/de-a1-u03-l5-ex09.mp3" },
+      "tiles": [
+        "die",
+        "Adresse",
+        "ist",
+        "Mühlenstraße",
+        "achtzehn",
+        "achtzig",
+        "Telefonnummer",
+        "acht"
+      ],
+      "answers": ["Die Adresse ist Mühlenstraße achtzehn."]
+    },
+    {
+      "id": "de-a1-u03-l5-ex10",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'Ms Jäger spells slowly'?",
+      "options": [
+        { "id": "a", "text": "Frau Jäger buchstabiere langsam." },
+        { "id": "b", "text": "Frau Jäger buchstabierst langsam." },
+        { "id": "c", "text": "Frau Jäger buchstabiert langsam." }
+      ],
+      "correctOptionId": "c"
+    },
+    {
+      "id": "de-a1-u03-l5-ex11",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "And the phone number? Slowly, please.",
+      "tiles": [
+        "und",
+        "die",
+        "Telefonnummer",
+        "langsam",
+        "bitte",
+        "Handynummer",
+        "noch",
+        "Adresse"
+      ],
+      "answers": ["Und die Telefonnummer? Langsam, bitte.", "Und die Telefonnummer? Bitte langsam."]
+    },
+    {
+      "id": "de-a1-u03-l5-ex12",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a1/u03/de-a1-u03-l5-ex12.mp3" },
+      "tiles": ["Frau", "Jäger", "J", "Ä", "G", "E", "R", "A", "Herr", "Ö"],
+      "answers": ["Frau Jäger: J, Ä, G, E, R."]
+    }
+  ]
+}

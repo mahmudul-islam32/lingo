@@ -1,0 +1,152 @@
+{
+  "id": "de-a1-u03-l4-big-numbers",
+  "courseId": "en-de",
+  "unitId": "de-a1-u03",
+  "title": "Big Numbers",
+  "tip": "German says the units first: 24 is vierundzwanzig, 'four and twenty'.",
+  "exercises": [
+    {
+      "id": "de-a1-u03-l4-ex01",
+      "type": "multiple_choice",
+      "prompt": "Which one means 'twenty-four'?",
+      "options": [
+        { "id": "a", "text": "zwanzigvier" },
+        { "id": "b", "text": "vierundzwanzig" },
+        { "id": "c", "text": "zwanzigundvier" },
+        { "id": "d", "text": "vierzehn" }
+      ],
+      "correctOptionId": "b"
+    },
+    {
+      "id": "de-a1-u03-l4-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which one means 'thirty'?",
+      "options": [
+        { "id": "a", "text": "dreizehn" },
+        { "id": "b", "text": "dreizig" },
+        { "id": "c", "text": "dreißig" }
+      ],
+      "correctOptionId": "c"
+    },
+    {
+      "id": "de-a1-u03-l4-ex03",
+      "type": "match_pairs",
+      "pairs": [
+        { "id": "p1", "learning": "dreißig", "known": "thirty" },
+        { "id": "p2", "learning": "sechzig", "known": "sixty" },
+        { "id": "p3", "learning": "siebzig", "known": "seventy" },
+        { "id": "p4", "learning": "hundert", "known": "a hundred" },
+        { "id": "p5", "learning": "die Handynummer", "known": "the mobile number" }
+      ]
+    },
+    {
+      "id": "de-a1-u03-l4-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I am twenty-five years old.",
+      "tiles": ["ich", "bin", "fünfundzwanzig", "Jahre", "alt", "zwanzig", "fünf", "fünfzig"],
+      "answers": ["Ich bin fünfundzwanzig Jahre alt.", "Ich bin fünfundzwanzig."]
+    },
+    {
+      "id": "de-a1-u03-l4-ex05",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a1/u03/de-a1-u03-l4-ex05.mp3" },
+      "tiles": ["Herr", "Novak", "ist", "siebzig", "Jahre", "alt", "siebzehn", "sieben", "Frau"],
+      "answers": ["Herr Novak ist siebzig Jahre alt."]
+    },
+    {
+      "id": "de-a1-u03-l4-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Die Handynummer ist null eins sieben sechs, dreiundzwanzig, vierundachtzig.",
+      "tiles": [
+        "the",
+        "mobile",
+        "number",
+        "is",
+        "zero",
+        "one",
+        "seven",
+        "six",
+        "twenty-three",
+        "eighty-four",
+        "two",
+        "three",
+        "eight",
+        "four"
+      ],
+      "answers": [
+        "The mobile number is zero one seven six, twenty-three, eighty-four.",
+        "The mobile number is zero one seven six two three eight four.",
+        "The mobile number is zero one seven six, twenty-three, eight four.",
+        "The mobile number is zero one seven six, two three, eighty-four."
+      ]
+    },
+    {
+      "id": "de-a1-u03-l4-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which one means 'fifty-eight'?",
+      "options": [
+        { "id": "a", "text": "fünfundachtzig" },
+        { "id": "b", "text": "fünfzigacht" },
+        { "id": "c", "text": "achtzehn" },
+        { "id": "d", "text": "achtundfünfzig" }
+      ],
+      "correctOptionId": "d"
+    },
+    {
+      "id": "de-a1-u03-l4-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Do you have a mobile number? (formal)",
+      "tiles": ["haben", "Sie", "eine", "Handynummer", "hast", "Telefonnummer", "ein"],
+      "answers": ["Haben Sie eine Handynummer?"]
+    },
+    {
+      "id": "de-a1-u03-l4-ex09",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a1/u03/de-a1-u03-l4-ex09.mp3" },
+      "tiles": ["ich", "bin", "achtunddreißig", "und", "du", "dreiundachtzig", "achtzehn", "dir"],
+      "answers": ["Ich bin achtunddreißig. Und du?"]
+    },
+    {
+      "id": "de-a1-u03-l4-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Er ist einundvierzig Jahre alt.",
+      "tiles": ["he", "is", "forty-one", "years", "old", "fourteen", "fifty-one", "she"],
+      "answers": ["He is forty-one years old.", "He is forty-one."]
+    },
+    {
+      "id": "de-a1-u03-l4-ex11",
+      "type": "multiple_choice",
+      "prompt": "Which one means 'a hundred'?",
+      "options": [
+        { "id": "a", "text": "neunzig" },
+        { "id": "b", "text": "hundert" },
+        { "id": "c", "text": "neunzehn" }
+      ],
+      "correctOptionId": "b"
+    },
+    {
+      "id": "de-a1-u03-l4-ex12",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a1/u03/de-a1-u03-l4-ex12.mp3" },
+      "tiles": [
+        "die",
+        "Handynummer",
+        "ist",
+        "null",
+        "eins",
+        "sechs",
+        "zwei",
+        "siebenundfünfzig",
+        "dreißig",
+        "fünfundsiebzig",
+        "dreizehn",
+        "Telefonnummer"
+      ],
+      "answers": ["Die Handynummer ist null eins sechs zwei, siebenundfünfzig, dreißig."]
+    }
+  ]
+}

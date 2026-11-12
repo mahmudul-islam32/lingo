@@ -1,0 +1,117 @@
+{
+  "id": "de-a1-u04-l2-der-die-das",
+  "courseId": "en-de",
+  "unitId": "de-a1-u04",
+  "title": "Der, Die, Das",
+  "tip": "There is no simple rule for der, die or das, so learn the article with the noun: der Kaffee.",
+  "exercises": [
+    {
+      "id": "de-a1-u04-l2-ex01",
+      "type": "multiple_choice",
+      "prompt": "Which one means 'the coffee'?",
+      "options": [
+        { "id": "a", "text": "der Kaffee" },
+        { "id": "b", "text": "die Kaffee" },
+        { "id": "c", "text": "das Kaffee" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "de-a1-u04-l2-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which one means 'the milk'?",
+      "options": [
+        { "id": "a", "text": "der Milch" },
+        { "id": "b", "text": "das Milch" },
+        { "id": "c", "text": "die Milch" }
+      ],
+      "correctOptionId": "c"
+    },
+    {
+      "id": "de-a1-u04-l2-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which one means 'the water'?",
+      "options": [
+        { "id": "a", "text": "die Wasser" },
+        { "id": "b", "text": "das Wasser" },
+        { "id": "c", "text": "der Wasser" }
+      ],
+      "correctOptionId": "b"
+    },
+    {
+      "id": "de-a1-u04-l2-ex04",
+      "type": "match_pairs",
+      "pairs": [
+        { "id": "p1", "learning": "der Kaffee", "known": "the coffee" },
+        { "id": "p2", "learning": "der Tee", "known": "the tea" },
+        { "id": "p3", "learning": "das Wasser", "known": "the water" },
+        { "id": "p4", "learning": "heiß", "known": "hot" },
+        { "id": "p5", "learning": "kalt", "known": "cold" }
+      ]
+    },
+    {
+      "id": "de-a1-u04-l2-ex05",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "The coffee is hot.",
+      "tiles": ["der", "Kaffee", "ist", "heiß", "die", "kalt", "das"],
+      "answers": ["Der Kaffee ist heiß.", "Heiß ist der Kaffee."]
+    },
+    {
+      "id": "de-a1-u04-l2-ex06",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a1/u04/de-a1-u04-l2-ex06.mp3" },
+      "tiles": ["das", "Wasser", "ist", "kalt", "heiß", "der", "Milch"],
+      "answers": ["Das Wasser ist kalt."]
+    },
+    {
+      "id": "de-a1-u04-l2-ex07",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Der Tee ist sehr heiß.",
+      "tiles": ["the", "tea", "is", "very", "hot", "cold", "coffee", "a"],
+      "answers": ["The tea is very hot."]
+    },
+    {
+      "id": "de-a1-u04-l2-ex08",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'The milk is cold'?",
+      "options": [
+        { "id": "a", "text": "Die Milch ist kalt." },
+        { "id": "b", "text": "Der Milch ist kalt." },
+        { "id": "c", "text": "Die Milch ist heiß." }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "de-a1-u04-l2-ex09",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "The cake is delicious.",
+      "tiles": ["der", "Kuchen", "ist", "lecker", "das", "Brot", "kalt"],
+      "answers": ["Der Kuchen ist lecker.", "Lecker ist der Kuchen."]
+    },
+    {
+      "id": "de-a1-u04-l2-ex10",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a1/u04/de-a1-u04-l2-ex10.mp3" },
+      "tiles": ["ist", "der", "Tee", "heiß", "die", "kalt", "Kaffee"],
+      "answers": ["Ist der Tee heiß?"]
+    },
+    {
+      "id": "de-a1-u04-l2-ex11",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Die Brezel ist lecker.",
+      "tiles": ["the", "pretzel", "is", "tasty", "delicious", "bread", "hot"],
+      "answers": ["The pretzel is tasty.", "The pretzel is delicious."]
+    },
+    {
+      "id": "de-a1-u04-l2-ex12",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a1/u04/de-a1-u04-l2-ex12.mp3" },
+      "tiles": ["hallo", "der", "Kaffee", "ist", "lecker", "Tee", "heiß", "das"],
+      "answers": ["Hallo! Der Kaffee ist lecker."]
+    }
+  ]
+}

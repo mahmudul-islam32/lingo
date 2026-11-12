@@ -1,0 +1,132 @@
+{
+  "id": "de-a1-u02-l1-countries",
+  "courseId": "en-de",
+  "unitId": "de-a1-u02",
+  "title": "Countries",
+  "tip": "Most countries have no article: aus Deutschland. But it is die Schweiz, so: aus der Schweiz.",
+  "exercises": [
+    {
+      "id": "de-a1-u02-l1-ex01",
+      "type": "multiple_choice",
+      "prompt": "Which one means 'Germany'?",
+      "options": [
+        { "id": "a", "text": "Deutschland" },
+        { "id": "b", "text": "Österreich" },
+        { "id": "c", "text": "die Schweiz" },
+        { "id": "d", "text": "Indien" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "de-a1-u02-l1-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which one means 'Where are you from? (to a friend)'?",
+      "options": [
+        { "id": "a", "text": "Wie heißt du?" },
+        { "id": "b", "text": "Woher kommst du?" },
+        { "id": "c", "text": "Woher kommen du?" },
+        { "id": "d", "text": "Wie geht's?" }
+      ],
+      "correctOptionId": "b"
+    },
+    {
+      "id": "de-a1-u02-l1-ex03",
+      "type": "match_pairs",
+      "pairs": [
+        { "id": "p1", "learning": "Deutschland", "known": "Germany" },
+        { "id": "p2", "learning": "Österreich", "known": "Austria" },
+        { "id": "p3", "learning": "die Schweiz", "known": "Switzerland" },
+        { "id": "p4", "learning": "Indien", "known": "India" },
+        { "id": "p5", "learning": "woher?", "known": "where from?" }
+      ]
+    },
+    {
+      "id": "de-a1-u02-l1-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I'm from Austria.",
+      "tiles": ["ich", "komme", "aus", "Österreich", "kommst", "du", "Deutschland"],
+      "answers": ["Ich komme aus Österreich."]
+    },
+    {
+      "id": "de-a1-u02-l1-ex05",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a1/u02/de-a1-u02-l1-ex05.mp3" },
+      "tiles": ["woher", "kommst", "du", "wie", "komme", "Sie"],
+      "answers": ["Woher kommst du?"]
+    },
+    {
+      "id": "de-a1-u02-l1-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Ich komme aus Indien.",
+      "tiles": ["I", "I'm", "am", "come", "from", "India", "Germany", "you"],
+      "answers": ["I come from India.", "I'm from India.", "I am from India."]
+    },
+    {
+      "id": "de-a1-u02-l1-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'I'm from Switzerland.'?",
+      "options": [
+        { "id": "a", "text": "Ich komme aus der Schweiz." },
+        { "id": "b", "text": "Ich komme aus Schweiz." },
+        { "id": "c", "text": "Ich komme aus die Schweiz." },
+        { "id": "d", "text": "Ich kommst aus der Schweiz." }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "de-a1-u02-l1-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Where are you from? (formal)",
+      "tiles": ["woher", "kommen", "Sie", "kommst", "du", "wie"],
+      "answers": ["Woher kommen Sie?"]
+    },
+    {
+      "id": "de-a1-u02-l1-ex09",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a1/u02/de-a1-u02-l1-ex09.mp3" },
+      "tiles": ["ich", "komme", "aus", "der", "Schweiz", "die", "kommst", "Deutschland"],
+      "answers": ["Ich komme aus der Schweiz."]
+    },
+    {
+      "id": "de-a1-u02-l1-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Du kommst aus Deutschland.",
+      "tiles": ["you", "you're", "are", "come", "from", "Germany", "I", "Austria"],
+      "answers": ["You come from Germany.", "You're from Germany.", "You are from Germany."]
+    },
+    {
+      "id": "de-a1-u02-l1-ex11",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'I'm from Germany.'?",
+      "options": [
+        { "id": "a", "text": "Ich kommst aus Deutschland." },
+        { "id": "b", "text": "Ich komme Deutschland." },
+        { "id": "c", "text": "Ich komme aus Deutschland." },
+        { "id": "d", "text": "Du komme aus Deutschland." }
+      ],
+      "correctOptionId": "c"
+    },
+    {
+      "id": "de-a1-u02-l1-ex12",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a1/u02/de-a1-u02-l1-ex12.mp3" },
+      "tiles": [
+        "ich",
+        "ich",
+        "heiße",
+        "Priya",
+        "komme",
+        "aus",
+        "Indien",
+        "du",
+        "kommst",
+        "Österreich"
+      ],
+      "answers": ["Ich heiße Priya. Ich komme aus Indien."]
+    }
+  ]
+}

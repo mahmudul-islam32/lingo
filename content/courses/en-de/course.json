@@ -1,0 +1,143 @@
+{
+  "id": "en-de",
+  "title": "German",
+  "learningLanguage": "de",
+  "knownLanguage": "en",
+  "version": 2,
+  "levels": [
+    {
+      "level": "A1",
+      "title": "A1 · Beginner"
+    },
+    {
+      "level": "A2",
+      "title": "A2 · Elementary"
+    },
+    {
+      "level": "B1",
+      "title": "B1 · Intermediate"
+    },
+    {
+      "level": "B2",
+      "title": "B2 · Upper intermediate"
+    },
+    {
+      "level": "C1",
+      "title": "C1 · Advanced"
+    }
+  ],
+  "units": [
+    {
+      "id": "de-a1-u01",
+      "level": "A1",
+      "title": "Hello!",
+      "description": "Say hello and goodbye, introduce yourself and ask how someone is, with friends and with strangers.",
+      "lessons": [
+        {
+          "id": "de-a1-u01-l1-hello",
+          "title": "Hello and Goodbye"
+        },
+        {
+          "id": "de-a1-u01-l2-whats-your-name",
+          "title": "What's Your Name?"
+        },
+        {
+          "id": "de-a1-u01-l3-formal-or-informal",
+          "title": "Formal or Informal"
+        },
+        {
+          "id": "de-a1-u01-l4-how-are-you",
+          "title": "How Are You?"
+        },
+        {
+          "id": "de-a1-u01-l5-language-school",
+          "title": "First Day at the Language School"
+        }
+      ]
+    },
+    {
+      "id": "de-a1-u02",
+      "level": "A1",
+      "title": "Where Are You From?",
+      "description": "Say where you come from, where you live and which languages you speak, and ask other people.",
+      "lessons": [
+        {
+          "id": "de-a1-u02-l1-countries",
+          "title": "Countries"
+        },
+        {
+          "id": "de-a1-u02-l2-where-do-you-live",
+          "title": "Where Do You Live?"
+        },
+        {
+          "id": "de-a1-u02-l3-languages",
+          "title": "Languages"
+        },
+        {
+          "id": "de-a1-u02-l4-he-she-we",
+          "title": "He, She, We"
+        },
+        {
+          "id": "de-a1-u02-l5-welcome-cafe",
+          "title": "The Welcome Café"
+        }
+      ]
+    },
+    {
+      "id": "de-a1-u03",
+      "level": "A1",
+      "title": "Numbers and Letters",
+      "description": "Count to 100, give your phone number and age, and spell your name letter by letter.",
+      "lessons": [
+        {
+          "id": "de-a1-u03-l1-count-to-six",
+          "title": "Count to Six"
+        },
+        {
+          "id": "de-a1-u03-l2-count-to-twelve",
+          "title": "Count to Twelve"
+        },
+        {
+          "id": "de-a1-u03-l3-how-old-are-you",
+          "title": "How Old Are You?"
+        },
+        {
+          "id": "de-a1-u03-l4-big-numbers",
+          "title": "Big Numbers"
+        },
+        {
+          "id": "de-a1-u03-l5-spell-it",
+          "title": "Spell It, Please"
+        }
+      ]
+    },
+    {
+      "id": "de-a1-u04",
+      "level": "A1",
+      "title": "At the Bakery",
+      "description": "Order bread, cake and coffee politely, ask what things cost and pay at the counter.",
+      "lessons": [
+        {
+          "id": "de-a1-u04-l1-bread-and-rolls",
+          "title": "Bread and Rolls"
+        },
+        {
+          "id": "de-a1-u04-l2-der-die-das",
+          "title": "Der, Die, Das"
+        },
+        {
+          "id": "de-a1-u04-l3-id-like",
+          "title": "I'd Like…"
+        },
+        {
+          "id": "de-a1-u04-l4-what-does-it-cost",
+          "title": "What Does It Cost?"
+        },
+        {
+          "id": "de-a1-u04-l5-saturday-bakery",
+          "title": "Saturday Morning at the Bakery"
+        }
+      ]
+    }
+  ]
+}
