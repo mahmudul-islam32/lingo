@@ -59,7 +59,12 @@ test.describe("app shell navigation", () => {
     await expect(page.getByRole("main")).toBeFocused();
 
     await page.goto("/");
+    // The Learn lesson list (PLT-007) comes before the bottom nav in the Tab order.
+    const lessons = page.locator("main ol").getByRole("link");
+    await expect(lessons).toHaveCount(5);
     await page.keyboard.press("Tab"); // skip link
+    for (let i = 0; i < 5; i += 1) await page.keyboard.press("Tab");
+    await expect(lessons.last()).toBeFocused();
     await page.keyboard.press("Tab");
     await expect(tab(page, "Learn")).toBeFocused();
     await page.keyboard.press("Tab");
@@ -122,7 +127,9 @@ test.describe("app shell at 375 × 667", () => {
       expect(box?.width).toBeGreaterThanOrEqual(44);
       expect(box?.height).toBeGreaterThanOrEqual(44);
     }
-    // Scroll to the bottom; the last element in <main> must end above the nav.
+    // Wait for the lesson list (PLT-007) so the page has its final height, then scroll to
+    // the bottom; the last element in <main> must end above the nav.
+    await expect(page.locator("main ol").getByRole("link")).toHaveCount(5);
     await page.evaluate(() => window.scrollTo(0, document.body.scrollHeight));
     const navBox = await nav(page).boundingBox();
     const lastBox = await page.locator("main > * > *:last-child").last().boundingBox();

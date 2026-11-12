@@ -1,6 +1,7 @@
 import { render, screen, within } from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
 import { afterEach, beforeEach, describe, expect, it, vi } from "vitest";
+import { renderWithQueryClient } from "@/lib/query/testing";
 import { navigationState } from "./navigation-mock";
 import { guestProfileStore } from "@/features/profile";
 import TabsLayout from "../../(tabs)/layout";
@@ -29,7 +30,7 @@ describe("app shell", () => {
 
   it("Learn: one main, one h1, bottom nav outside main, skip link first", async () => {
     const user = userEvent.setup();
-    render(
+    renderWithQueryClient(
       <>
         <SkipLink />
         <TabsLayout>
@@ -43,8 +44,13 @@ describe("app shell", () => {
     expect(main).not.toContainElement(nav);
     expect(main.className).toContain("env(safe-area-inset-bottom)");
 
+    // The lesson list (PLT-007) comes before the bottom nav in the Tab order.
+    const lastLesson = await screen.findByRole("link", { name: "Lesson 5: Around Town" });
     await user.tab();
     expect(screen.getByRole("link", { name: "Skip to content" })).toHaveFocus();
+    await user.tab();
+    expect(screen.getByRole("link", { name: "Lesson 1: Hello!" })).toHaveFocus();
+    lastLesson.focus();
     await user.tab();
     expect(within(nav).getByRole("link", { name: "Learn" })).toHaveFocus();
   });

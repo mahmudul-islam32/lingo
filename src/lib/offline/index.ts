@@ -8,6 +8,7 @@ export {
   OnboardingPrerequisitesError,
   SettingsIncompleteError,
   SettingsNotSetError,
+  StorageError,
   type LocalDataErrorCode,
 } from "./errors";
 export type {
@@ -26,6 +27,16 @@ export {
 } from "./session";
 export type { SyncQueueStore } from "./sync-queue";
 export type { CorruptRecordEvent, CorruptRecordReporter } from "./validation";
+export {
+  loadLocalProgress,
+  progressQueryOptions,
+  ProgressRepositoryProvider,
+  useCompletedLessonIds,
+  useInvalidateProgress,
+  useProgressRepositoryLoader,
+  type CompletedLessonIds,
+  type ProgressRepositoryLoader,
+} from "./hooks";
 export { useOnlineStatus } from "./use-online-status";
 export {
   INSTALL_DISMISS_MS,

@@ -1,6 +1,7 @@
 import { describe, expect, it } from "vitest";
 import { CourseSchema, DAILY_GOAL_OPTIONS } from "@/contracts";
-import { courseSubtitle, languageName, loadCourses } from "../courses";
+import { listBundledCourses as loadCourses } from "@/lib/content";
+import { courseSubtitle, languageName } from "../course-labels";
 import { GOAL_OPTIONS } from "../goal-options";
 
 describe("goal options", () => {

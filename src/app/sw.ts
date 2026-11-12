@@ -25,7 +25,7 @@ declare const self: ServiceWorkerGlobalScope;
 
 /**
  * Runtime caching, first match wins. Later tickets append their rules above
- * `defaultCache`: lesson chunks (PLT-007) and `/audio/**` CacheFirst `audio-v<version>`
+ * `defaultCache`: `/audio/**` CacheFirst `audio-v<version>`
  * (PLT-015).
  */
 const runtimeCaching: RuntimeCaching[] = [

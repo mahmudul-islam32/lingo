@@ -3,15 +3,21 @@
 import { useRouter } from "next/navigation";
 import { useCallback, useEffect, useId, useRef, useState } from "react";
 import type { StoreApi } from "zustand";
-import type { DailyGoalXp, Slug } from "@/contracts";
+import type { Course, DailyGoalXp, Slug } from "@/contracts";
 import { guestProfileStore, type GuestProfileState } from "@/features/profile";
 import { HOME_PATH } from "../_shell/OnboardingGate";
-import { loadCourses as defaultLoadCourses, type LoadCourses } from "./courses";
+import { firstLessonPath, listBundledCourses } from "@/lib/content";
 import { CourseStep, type CoursesState } from "./steps/CourseStep";
 import { GoalStep } from "./steps/GoalStep";
 import { Welcome } from "./steps/Welcome";
 
 export type OnboardingStep = "welcome" | "course" | "goal";
+
+/** Loads the courses offered at onboarding. Injected in tests. */
+export type LoadCourses = () => Promise<Course[]>;
+
+/** The bundled, schema-validated courses from `@/lib/content` (PLT-007). */
+const defaultLoadCourses: LoadCourses = () => listBundledCourses();
 
 export interface OnboardingFlowProps {
   loadCourses?: LoadCourses;
@@ -22,7 +28,7 @@ export interface OnboardingFlowProps {
  * Three-step onboarding on one route (PLT-004). Choices live here in `useState`, so Back
  * keeps them and a reload starts over at Welcome with nothing saved. Only "Start
  * learning" writes: settings (course + daily goal) through the guest profile store, then
- * `onboardedAt`, then `router.replace("/")`.
+ * `onboardedAt`, then `router.replace` to the course's first lesson (PLT-007).
  *
  * Saving goes through the PLT-003 Zustand store, not a TanStack Query mutation: Query is
  * not installed yet (ARCHITECTURE §5, temporary deviation PLT-003/CR-002).
@@ -83,7 +89,10 @@ export function OnboardingFlow({
       const state = store.getState();
       await state.updateSettings({ courseId, dailyGoalXp: goal });
       await state.completeOnboarding();
-      router.replace(HOME_PATH);
+      // PLT-007 criterion 6: straight into the course's first lesson.
+      const course =
+        courses.status === "ready" ? courses.courses.find((c) => c.id === courseId) : undefined;
+      router.replace(course ? firstLessonPath(course) : HOME_PATH);
     } catch {
       setSaveFailed(true);
       setSaving(false);

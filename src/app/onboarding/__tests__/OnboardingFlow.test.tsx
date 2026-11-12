@@ -4,7 +4,7 @@ import { beforeEach, describe, expect, it, vi } from "vitest";
 import type { Course } from "@/contracts";
 import { createGuestProfileStore } from "@/features/profile";
 import { openLocalSession, type LocalSession } from "@/lib/offline";
-import { loadCourses } from "../courses";
+import { listBundledCourses as loadCourses } from "@/lib/content";
 import { OnboardingFlow } from "../OnboardingFlow";
 import OnboardingPage, { metadata } from "../page";
 import { MORE_LANGUAGES_TEXT, NO_COURSES_TEXT } from "../steps/CourseStep";
@@ -191,14 +191,14 @@ describe("onboarding flow (PLT-004)", () => {
     expect(h1()).toHaveFocus();
   });
 
-  it("8: Start learning saves course + goal to the guest profile, completes onboarding, goes to /", async () => {
+  it("8: Start learning saves course + goal to the guest profile, completes onboarding, goes to Lesson 1", async () => {
     const { store, session } = await memoryStore();
     const { user } = await renderFlow({ store });
     await toGoalStep(user);
     await user.click(screen.getByRole("radio", { name: "Regular 20 XP" }));
     await user.click(screen.getByRole("button", { name: "Start learning" }));
 
-    await waitFor(() => expect(router.replace).toHaveBeenCalledWith("/"));
+    await waitFor(() => expect(router.replace).toHaveBeenCalledWith("/lesson/u1-l1-hello"));
     expect(router.push).not.toHaveBeenCalled();
     const saved = await session.profile.findSettings();
     expect(saved).toMatchObject({
@@ -246,7 +246,7 @@ describe("onboarding flow (PLT-004)", () => {
     const start = screen.getByRole("button", { name: "Start learning" });
     expect(start).toBeEnabled();
     await user.click(start);
-    await waitFor(() => expect(router.replace).toHaveBeenCalledWith("/"));
+    await waitFor(() => expect(router.replace).toHaveBeenCalledWith("/lesson/u1-l1-hello"));
     expect(updateSettings).toHaveBeenLastCalledWith({ courseId: "en-es", dailyGoalXp: 30 });
   });
 

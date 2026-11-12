@@ -32,6 +32,7 @@ import {
   identityId,
 } from "./defaults";
 import {
+  guardStorage,
   InvalidDailyGoalError,
   InvalidRecordError,
   OnboardingPrerequisitesError,
@@ -277,7 +278,27 @@ export function createLocalProfileRepository(
   };
 }
 
+/**
+ * Every method rejects with a typed error only: `InvalidRecordError` for invalid input,
+ * `StorageError` (with `cause`) for any storage failure (PLT-008 criterion 8).
+ */
 export function createLocalProgressRepository(
+  store: LocalStore,
+  deps: RepositoryDeps,
+): LocalProgressRepository {
+  const repository = createUnguardedProgressRepository(store, deps);
+  return {
+    getIdentity: () => guardStorage("getIdentity", () => repository.getIdentity()),
+    listLessonResults: (courseId) =>
+      guardStorage("listLessonResults", () => repository.listLessonResults(courseId)),
+    saveLessonResult: (result) =>
+      guardStorage("saveLessonResult", () => repository.saveLessonResult(result)),
+    getHearts: () => guardStorage("getHearts", () => repository.getHearts()),
+    saveHearts: (state) => guardStorage("saveHearts", () => repository.saveHearts(state)),
+  };
+}
+
+function createUnguardedProgressRepository(
   store: LocalStore,
   deps: RepositoryDeps,
 ): LocalProgressRepository {

@@ -23,7 +23,7 @@ async function axeAfterAnimations(page: Page) {
 }
 
 test.describe("onboarding (PLT-004)", () => {
-  // Criterion 15: keyboard only, as a new visitor; lands on / and stays there after reload.
+  // Criterion 15: keyboard only, as a new visitor; lands in Lesson 1, then Learn stays home.
   test("a new visitor completes onboarding with the keyboard only", async ({
     page,
     browserName,
@@ -66,7 +66,9 @@ test.describe("onboarding (PLT-004)", () => {
     await expect(page.getByRole("button", { name: "Start learning" })).toBeFocused();
     await page.keyboard.press("Enter");
 
-    await expect(page).toHaveURL(/\/$/);
+    // PLT-007 criterion 6: "Start learning" opens Lesson 1; Learn is home from then on.
+    await expect(page).toHaveURL(/\/lesson\/u1-l1-hello$/);
+    await page.goto("/");
     await expect(h1(page)).toHaveText("Learn");
     await page.reload();
     await expect(h1(page)).toHaveText("Learn");
