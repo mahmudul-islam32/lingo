@@ -1,6 +1,7 @@
 import { render, screen, within } from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
 import { afterEach, beforeEach, describe, expect, it, vi } from "vitest";
+import { ToastProvider } from "@/components/ui";
 import { renderWithQueryClient } from "@/lib/query/testing";
 import { navigationState } from "./navigation-mock";
 import { guestProfileStore } from "@/features/profile";
@@ -31,12 +32,12 @@ describe("app shell", () => {
   it("Learn: one main, one h1, bottom nav outside main, skip link first", async () => {
     const user = userEvent.setup();
     renderWithQueryClient(
-      <>
+      <ToastProvider>
         <SkipLink />
         <TabsLayout>
           <LearnPage />
         </TabsLayout>
-      </>,
+      </ToastProvider>,
     );
     expectOneMainAndOneH1();
     const main = screen.getByRole("main");
@@ -44,15 +45,25 @@ describe("app shell", () => {
     expect(main).not.toContainElement(nav);
     expect(main.className).toContain("env(safe-area-inset-bottom)");
 
-    // The lesson list (PLT-007) comes before the bottom nav in the Tab order. The default
-    // course (en-de, CTO-008) is pm content, so lessons are found by their "Lesson N:" name.
-    await screen.findByRole("link", { name: /^Lesson 1: / });
-    const lessons = screen.getAllByRole("link", { name: /^Lesson \d+: / });
+    // PLT-009: top bar, then the skill path, then the bottom nav in the Tab order.
+    // (jsdom has no IndexedDB: progress and hearts come from the in-memory fallback.)
+    // The default course (en-de, CTO-008) is pm content: nodes are found by "Lesson N:".
+    const hearts = await screen.findByRole("button", { name: "Hearts: 5 of 5" });
+    const first = await screen.findByRole("link", { name: /^Lesson 1: .*, up next$/ });
+    const nodes = [
+      ...screen.queryAllByRole("link", { name: /^Lesson \d+: / }),
+      ...screen.queryAllByRole("button", { name: /^Lesson \d+: / }),
+    ];
+    const lastLesson = nodes
+      .sort((a, b) => (a.compareDocumentPosition(b) & Node.DOCUMENT_POSITION_FOLLOWING ? -1 : 1))
+      .at(-1)!;
     await user.tab();
     expect(screen.getByRole("link", { name: "Skip to content" })).toHaveFocus();
     await user.tab();
-    expect(lessons[0]).toHaveFocus();
-    lessons.at(-1)!.focus();
+    expect(hearts).toHaveFocus();
+    await user.tab();
+    expect(first).toHaveFocus();
+    lastLesson.focus();
     await user.tab();
     expect(within(nav).getByRole("link", { name: "Learn" })).toHaveFocus();
   });
@@ -70,7 +81,7 @@ describe("app shell", () => {
 
   it("onboarding: no bottom nav", () => {
     guestProfileStore.setState({ status: "ready", onboardingComplete: false });
-    render(<OnboardingPage />);
+    renderWithQueryClient(<OnboardingPage />);
     expectOneMainAndOneH1();
     expect(screen.queryByRole("navigation")).not.toBeInTheDocument();
   });

@@ -3,7 +3,19 @@ import type { ReactNode } from "react";
 import { describe, expect, it, vi } from "vitest";
 import type { ProgressRepository } from "@/contracts";
 import { createQueryWrapper, createTestQueryClient } from "@/lib/query/testing";
-import { ProgressRepositoryProvider, useCompletedLessonIds, useInvalidateProgress } from "../hooks";
+import { useQuery } from "@tanstack/react-query";
+import {
+  ProgressRepositoryProvider,
+  progressQueryOptions,
+  useInvalidateProgress,
+  useProgressRepositoryLoader,
+} from "../hooks";
+
+/** `["progress", courseId]` as a consumer (e.g. GAM-003, the lesson route) reads it. */
+function useLessonIds(courseId: string): string[] | undefined {
+  const query = useQuery(progressQueryOptions(useProgressRepositoryLoader(), courseId));
+  return query.data?.map((r) => r.lessonId);
+}
 
 function setup(lessonIds: string[]) {
   const progress = {
@@ -20,28 +32,27 @@ function setup(lessonIds: string[]) {
   return { progress, wrapper };
 }
 
-describe("useCompletedLessonIds (PLT-008)", () => {
-  it("is the distinct lesson ids of the course's results", async () => {
-    const { wrapper } = setup(["a", "b", "a"]);
-    const { result } = renderHook(() => useCompletedLessonIds("c"), { wrapper });
-    expect(result.current.status).toBe("loading");
-    await waitFor(() => expect(result.current.status).toBe("ready"));
-    expect([...result.current.ids]).toEqual(["a", "b"]);
+describe("progressQueryOptions + useInvalidateProgress (PLT-008)", () => {
+  it("reads the course's raw results through the injected repository", async () => {
+    const { wrapper, progress } = setup(["a", "b"]);
+    const { result } = renderHook(() => useLessonIds("c"), { wrapper });
+    await waitFor(() => expect(result.current).toEqual(["a", "b"]));
+    expect(progress.listLessonResults).toHaveBeenCalledWith("c");
   });
 
-  it("an invalidation after a save also refreshes a list that is not mounted (Learn)", async () => {
+  it("an invalidation after a save also refreshes a query that is not mounted (Learn)", async () => {
     const ids = ["a"];
     const { wrapper, progress } = setup(ids);
-    const learn = renderHook(() => useCompletedLessonIds("c"), { wrapper });
-    await waitFor(() => expect(learn.result.current.status).toBe("ready"));
+    const learn = renderHook(() => useLessonIds("c"), { wrapper });
+    await waitFor(() => expect(learn.result.current).toEqual(["a"]));
     learn.unmount(); // the learner opens a lesson
 
     ids.push("b");
     const writer = renderHook(() => useInvalidateProgress(), { wrapper });
     await act(() => writer.result.current("c"));
 
-    const again = renderHook(() => useCompletedLessonIds("c"), { wrapper });
-    await waitFor(() => expect([...again.result.current.ids]).toEqual(["a", "b"]));
+    const again = renderHook(() => useLessonIds("c"), { wrapper });
+    await waitFor(() => expect(again.result.current).toEqual(["a", "b"]));
     expect(progress.listLessonResults).toHaveBeenCalledTimes(2);
   });
 });

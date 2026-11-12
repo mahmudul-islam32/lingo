@@ -1,10 +1,12 @@
-import { act, render, screen, waitFor, within } from "@testing-library/react";
+import { act, screen, waitFor, within } from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
 import { beforeEach, describe, expect, it, vi } from "vitest";
 import type { Course } from "@/contracts";
 import { createGuestProfileStore } from "@/features/profile";
 import { openLocalSession, type LocalSession } from "@/lib/offline";
 import { listBundledCourses as loadCourses } from "@/lib/content";
+import { queryKeys } from "@/lib/query";
+import { createTestQueryClient, renderWithQueryClient } from "@/lib/query/testing";
 import { OnboardingFlow } from "../OnboardingFlow";
 import OnboardingPage, { metadata } from "../page";
 import { MORE_LANGUAGES_TEXT, NO_COURSES_TEXT } from "../steps/CourseStep";
@@ -30,11 +32,15 @@ async function renderFlow(
   options: {
     load?: () => Promise<Course[]>;
     store?: ReturnType<typeof createGuestProfileStore>;
+    client?: ReturnType<typeof createTestQueryClient>;
   } = {},
 ) {
   const store = options.store ?? (await memoryStore()).store;
   const user = userEvent.setup();
-  render(<OnboardingFlow loadCourses={options.load ?? (async () => courses)} store={store} />);
+  renderWithQueryClient(
+    <OnboardingFlow loadCourses={options.load ?? (async () => courses)} store={store} />,
+    { client: options.client ?? createTestQueryClient() },
+  );
   return { user, store };
 }
 
@@ -193,6 +199,25 @@ describe("onboarding flow (PLT-004)", () => {
     expect(h1()).toHaveFocus();
   });
 
+  it("PLT-009: Start learning refreshes the cached settings, so the chosen goal is read", async () => {
+    const { store, session } = await memoryStore();
+    const client = createTestQueryClient();
+    const queryFn = vi.fn(() => session.profile.findSettings());
+    client.setQueryDefaults(queryKeys.settings(), { queryFn });
+    // A settings read from before onboarding (`null`), as GAM-003 would have cached it.
+    client.setQueryData(queryKeys.settings(), null);
+    const { user } = await renderFlow({ store, client });
+    await toGoalStep(user);
+    await user.click(screen.getByRole("radio", { name: "Regular 20 XP" }));
+    await user.click(screen.getByRole("button", { name: "Start learning" }));
+
+    await waitFor(() => expect(router.replace).toHaveBeenCalledWith("/lesson/u1-l1-hello"));
+    await waitFor(() =>
+      expect(client.getQueryData(queryKeys.settings())).toMatchObject({ dailyGoalXp: 20 }),
+    );
+    expect(queryFn).toHaveBeenCalled();
+  });
+
   it("8: Start learning saves course + goal to the guest profile, completes onboarding, goes to Lesson 1", async () => {
     const { store, session } = await memoryStore();
     const { user } = await renderFlow({ store });
@@ -291,7 +316,7 @@ describe("onboarding page", () => {
     const { store } = await memoryStore();
     const { guestProfileStore } = await import("@/features/profile");
     guestProfileStore.setState({ ...store.getState() });
-    render(<OnboardingPage />);
+    renderWithQueryClient(<OnboardingPage />);
     expect(screen.getAllByRole("main")).toHaveLength(1);
     expect(screen.getAllByRole("heading", { level: 1 })).toHaveLength(1);
     expect(screen.queryByRole("navigation")).not.toBeInTheDocument();
