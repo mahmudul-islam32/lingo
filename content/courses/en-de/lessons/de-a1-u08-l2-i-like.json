@@ -1,0 +1,122 @@
+{
+  "id": "de-a1-u08-l2-i-like",
+  "courseId": "en-de",
+  "unitId": "de-a1-u08",
+  "title": "I Like…",
+  "tip": "Ich mag + a thing (Ich mag Filme). An activity + gern (Ich koche gern). Lieber means 'rather'.",
+  "exercises": [
+    {
+      "id": "de-a1-u08-l2-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        { "id": "p1", "learning": "ich mag", "known": "I like" },
+        { "id": "p2", "learning": "lieber", "known": "rather" },
+        { "id": "p3", "learning": "das Buch", "known": "the book" },
+        { "id": "p4", "learning": "der Film", "known": "the film" },
+        { "id": "p5", "learning": "die Serie", "known": "the series" }
+      ]
+    },
+    {
+      "id": "de-a1-u08-l2-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'I like films'?",
+      "options": [
+        { "id": "a", "text": "Ich mag Filme." },
+        { "id": "b", "text": "Ich gern Filme." },
+        { "id": "c", "text": "Ich magst Filme." },
+        { "id": "d", "text": "Ich bin gern Filme." }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "de-a1-u08-l2-ex03",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I like cooking.",
+      "tiles": ["ich", "koche", "gern", "mag", "kochst", "nicht"],
+      "answers": ["Ich koche gern.", "Gern koche ich."]
+    },
+    {
+      "id": "de-a1-u08-l2-ex04",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a1/u08/de-a1-u08-l2-ex04.mp3" },
+      "tiles": ["ich", "tanze", "nicht", "gern", "tanzt", "mag", "lieber"],
+      "answers": ["Ich tanze nicht gern."]
+    },
+    {
+      "id": "de-a1-u08-l2-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'I like dancing'?",
+      "options": [
+        { "id": "a", "text": "Ich gern tanze." },
+        { "id": "b", "text": "Ich tanze gern." },
+        { "id": "c", "text": "Ich mag tanze." },
+        { "id": "d", "text": "Ich tanzt gern." }
+      ],
+      "correctOptionId": "b"
+    },
+    {
+      "id": "de-a1-u08-l2-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Magst du Serien?",
+      "tiles": ["do", "you", "like", "series", "TV", "shows", "films", "I", "does"],
+      "answers": ["Do you like TV shows?", "Do you like TV series?", "Do you like series?"]
+    },
+    {
+      "id": "de-a1-u08-l2-ex07",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I like the book.",
+      "tiles": ["ich", "mag", "das", "Buch", "magst", "der", "Film"],
+      "answers": ["Ich mag das Buch.", "Das Buch mag ich."]
+    },
+    {
+      "id": "de-a1-u08-l2-ex08",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'I'd rather read'?",
+      "options": [
+        { "id": "a", "text": "Ich lieber lese." },
+        { "id": "b", "text": "Ich mag lieber lese." },
+        { "id": "c", "text": "Ich lese nicht gern." },
+        { "id": "d", "text": "Ich lese lieber." }
+      ],
+      "correctOptionId": "d"
+    },
+    {
+      "id": "de-a1-u08-l2-ex09",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a1/u08/de-a1-u08-l2-ex09.mp3" },
+      "tiles": ["magst", "du", "Filme", "mag", "ich", "Serien", "Film"],
+      "answers": ["Magst du Filme?"]
+    },
+    {
+      "id": "de-a1-u08-l2-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Do you like reading? (to a friend)",
+      "tiles": ["liest", "du", "gern", "lese", "mag", "nicht"],
+      "answers": ["Liest du gern?"]
+    },
+    {
+      "id": "de-a1-u08-l2-ex11",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Ich spiele lieber Fußball.",
+      "tiles": ["I'd", "rather", "play", "football", "prefer", "playing", "I", "like", "soccer"],
+      "answers": [
+        "I'd rather play football.",
+        "I'd rather play soccer.",
+        "I prefer playing football.",
+        "I prefer playing soccer."
+      ]
+    },
+    {
+      "id": "de-a1-u08-l2-ex12",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a1/u08/de-a1-u08-l2-ex12.mp3" },
+      "tiles": ["ich", "koche", "nicht", "gern", "ich", "esse", "lieber", "mag", "trinke"],
+      "answers": ["Ich koche nicht gern. Ich esse lieber."]
+    }
+  ]
+}

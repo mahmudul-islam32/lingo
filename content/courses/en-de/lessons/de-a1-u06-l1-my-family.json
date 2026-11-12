@@ -1,0 +1,129 @@
+{
+  "id": "de-a1-u06-l1-my-family",
+  "courseId": "en-de",
+  "unitId": "de-a1-u06",
+  "title": "My Family",
+  "tip": "Use mein with der and das words, meine with die words and plurals: mein Vater, meine Eltern.",
+  "exercises": [
+    {
+      "id": "de-a1-u06-l1-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        { "id": "p1", "learning": "die Familie", "known": "the family" },
+        { "id": "p2", "learning": "die Mutter", "known": "the mother" },
+        { "id": "p3", "learning": "der Vater", "known": "the father" },
+        { "id": "p4", "learning": "die Eltern", "known": "the parents" },
+        { "id": "p5", "learning": "das Kind", "known": "the child" }
+      ]
+    },
+    {
+      "id": "de-a1-u06-l1-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which one means 'the father'?",
+      "options": [
+        { "id": "a", "text": "die Vater" },
+        { "id": "b", "text": "der Vater" },
+        { "id": "c", "text": "das Vater" }
+      ],
+      "correctOptionId": "b"
+    },
+    {
+      "id": "de-a1-u06-l1-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which one means 'my mother'?",
+      "options": [
+        { "id": "a", "text": "meine Mutter" },
+        { "id": "b", "text": "mein Mutter" },
+        { "id": "c", "text": "meine Vater" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "de-a1-u06-l1-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "My father is called Kemal.",
+      "tiles": ["mein", "Vater", "heißt", "Kemal", "meine", "Mutter", "heiße"],
+      "answers": ["Mein Vater heißt Kemal.", "Kemal heißt mein Vater."]
+    },
+    {
+      "id": "de-a1-u06-l1-ex05",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a1/u06/de-a1-u06-l1-ex05.mp3" },
+      "tiles": ["meine", "Familie", "wohnt", "in", "Hamburg", "mein", "wohnen", "aus"],
+      "answers": ["Meine Familie wohnt in Hamburg."]
+    },
+    {
+      "id": "de-a1-u06-l1-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Meine Eltern kommen aus Indien.",
+      "tiles": ["my", "parents", "come", "are", "from", "India", "comes", "father"],
+      "answers": ["My parents come from India.", "My parents are from India."]
+    },
+    {
+      "id": "de-a1-u06-l1-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'My children are learning German.'?",
+      "options": [
+        { "id": "a", "text": "Meine Kinder lernen Deutsch." },
+        { "id": "b", "text": "Mein Kinder lernen Deutsch." },
+        { "id": "c", "text": "Meine Kinder lernt Deutsch." },
+        { "id": "d", "text": "Mein Kind lernen Deutsch." }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "de-a1-u06-l1-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I have two children.",
+      "tiles": ["ich", "habe", "zwei", "Kinder", "Kind", "hast", "ein"],
+      "answers": ["Ich habe zwei Kinder.", "Zwei Kinder habe ich."]
+    },
+    {
+      "id": "de-a1-u06-l1-ex09",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a1/u06/de-a1-u06-l1-ex09.mp3" },
+      "tiles": [
+        "mein",
+        "Vater",
+        "spricht",
+        "Arabisch",
+        "und",
+        "Englisch",
+        "meine",
+        "sprechen",
+        "Deutsch"
+      ],
+      "answers": ["Mein Vater spricht Arabisch und Englisch."]
+    },
+    {
+      "id": "de-a1-u06-l1-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Das ist meine Mutter.",
+      "tiles": ["this", "that", "is", "my", "mother", "father", "the", "are"],
+      "answers": ["This is my mother.", "That is my mother."]
+    },
+    {
+      "id": "de-a1-u06-l1-ex11",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'My child is six years old.'?",
+      "options": [
+        { "id": "a", "text": "Mein Kind ist sechs Jahre alt." },
+        { "id": "b", "text": "Meine Kind ist sechs Jahre alt." },
+        { "id": "c", "text": "Mein Kind ist sechzehn Jahre alt." },
+        { "id": "d", "text": "Mein Kind bist sechs Jahre alt." }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "de-a1-u06-l1-ex12",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a1/u06/de-a1-u06-l1-ex12.mp3" },
+      "tiles": ["mein", "Kind", "heißt", "Nia", "und", "ist", "sechs", "meine", "sieben", "hat"],
+      "answers": ["Mein Kind heißt Nia und ist sechs."]
+    }
+  ]
+}

@@ -1,0 +1,150 @@
+{
+  "id": "de-a1-u11-l3-appointment",
+  "courseId": "en-de",
+  "unitId": "de-a1-u11",
+  "title": "Making an Appointment",
+  "tip": "Seit gestern means since yesterday. German uses the present tense: Ich habe seit gestern Fieber.",
+  "exercises": [
+    {
+      "id": "de-a1-u11-l3-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        { "id": "p1", "learning": "der Termin", "known": "the appointment" },
+        { "id": "p2", "learning": "die Praxis", "known": "the practice" },
+        { "id": "p3", "learning": "die Ärztin", "known": "the doctor (female)" },
+        { "id": "p4", "learning": "gestern", "known": "yesterday" },
+        { "id": "p5", "learning": "dringend", "known": "urgent" }
+      ]
+    },
+    {
+      "id": "de-a1-u11-l3-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'I need an appointment'?",
+      "options": [
+        { "id": "a", "text": "Ich brauche ein Termin." },
+        { "id": "b", "text": "Ich brauche einen Termin." },
+        { "id": "c", "text": "Ich brauchst einen Termin." },
+        { "id": "d", "text": "Ich brauche einer Termin." }
+      ],
+      "correctOptionId": "b"
+    },
+    {
+      "id": "de-a1-u11-l3-ex03",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I've had a fever since yesterday.",
+      "tiles": ["ich", "habe", "seit", "gestern", "Fieber", "hat", "heute", "Husten"],
+      "answers": [
+        "Ich habe seit gestern Fieber.",
+        "Seit gestern habe ich Fieber.",
+        "Ich habe Fieber seit gestern.",
+        "Fieber habe ich seit gestern."
+      ]
+    },
+    {
+      "id": "de-a1-u11-l3-ex04",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a1/u11/de-a1-u11-l3-ex04.mp3" },
+      "tiles": ["haben", "Sie", "heute", "einen", "Termin", "frei", "morgen", "ein", "hast"],
+      "answers": ["Haben Sie heute einen Termin frei?"]
+    },
+    {
+      "id": "de-a1-u11-l3-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which one means 'the doctor (female)'?",
+      "options": [
+        { "id": "a", "text": "der Ärztin" },
+        { "id": "b", "text": "die Arztin" },
+        { "id": "c", "text": "das Ärztin" },
+        { "id": "d", "text": "die Ärztin" }
+      ],
+      "correctOptionId": "d"
+    },
+    {
+      "id": "de-a1-u11-l3-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Mein Rücken tut seit gestern weh.",
+      "tiles": [
+        "my",
+        "back",
+        "has",
+        "been",
+        "hurting",
+        "since",
+        "yesterday",
+        "hurts",
+        "today",
+        "is"
+      ],
+      "answers": [
+        "My back has been hurting since yesterday.",
+        "Since yesterday my back has been hurting."
+      ]
+    },
+    {
+      "id": "de-a1-u11-l3-ex07",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "My doctor is very nice.",
+      "tiles": ["mein", "Arzt", "meine", "Ärztin", "ist", "sehr", "nett", "sind", "klein"],
+      "answers": ["Mein Arzt ist sehr nett.", "Meine Ärztin ist sehr nett."]
+    },
+    {
+      "id": "de-a1-u11-l3-ex08",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a1/u11/de-a1-u11-l3-ex08.mp3" },
+      "tiles": ["guten", "Tag", "ich", "brauche", "einen", "Termin", "ein", "Morgen", "brauchst"],
+      "answers": ["Guten Tag, ich brauche einen Termin."]
+    },
+    {
+      "id": "de-a1-u11-l3-ex09",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'Can you come tomorrow at nine? (formal)'?",
+      "options": [
+        { "id": "a", "text": "Können Sie kommen morgen um neun?" },
+        { "id": "b", "text": "Können Sie morgen um neun kommen?" },
+        { "id": "c", "text": "Kannst Sie morgen um neun kommen?" },
+        { "id": "d", "text": "Können Sie gestern um neun kommen?" }
+      ],
+      "correctOptionId": "b"
+    },
+    {
+      "id": "de-a1-u11-l3-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Yes, it's urgent.",
+      "tiles": ["ja", "es", "ist", "dringend", "nein", "nicht", "sind"],
+      "answers": ["Ja, es ist dringend."]
+    },
+    {
+      "id": "de-a1-u11-l3-ex11",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a1/u11/de-a1-u11-l3-ex11.mp3" },
+      "tiles": [
+        "die",
+        "Ärztin",
+        "hat",
+        "morgen",
+        "um",
+        "zehn",
+        "Uhr",
+        "einen",
+        "Termin",
+        "frei",
+        "Arzt",
+        "gestern",
+        "ein"
+      ],
+      "answers": ["Die Ärztin hat morgen um zehn Uhr einen Termin frei."]
+    },
+    {
+      "id": "de-a1-u11-l3-ex12",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Die Praxis ist nicht weit.",
+      "tiles": ["the", "practice", "surgery", "is", "not", "far", "near", "are", "a"],
+      "answers": ["The practice is not far.", "The surgery is not far."]
+    }
+  ]
+}

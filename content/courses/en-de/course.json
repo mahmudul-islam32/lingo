@@ -3,15 +3,365 @@
   "title": "German",
   "learningLanguage": "de",
   "knownLanguage": "en",
-  "version": 1,
-  "levels": [{ "level": "A1", "title": "A1 · Beginner" }],
+  "version": 4,
+  "levels": [
+    {
+      "level": "A1",
+      "title": "A1 · Beginner"
+    },
+    {
+      "level": "A2",
+      "title": "A2 · Elementary"
+    },
+    {
+      "level": "B1",
+      "title": "B1 · Intermediate"
+    },
+    {
+      "level": "B2",
+      "title": "B2 · Upper intermediate"
+    },
+    {
+      "level": "C1",
+      "title": "C1 · Advanced"
+    }
+  ],
   "units": [
     {
       "id": "de-a1-u01",
       "level": "A1",
       "title": "Hello!",
-      "description": "Placeholder unit: the pm replaces it with the real A1 content (CON-DE-A1-01).",
-      "lessons": [{ "id": "de-a1-u01-l1-hallo", "title": "Hallo!" }]
+      "description": "Say hello and goodbye, introduce yourself and ask how someone is, with friends and with strangers.",
+      "lessons": [
+        {
+          "id": "de-a1-u01-l1-hello",
+          "title": "Hello and Goodbye"
+        },
+        {
+          "id": "de-a1-u01-l2-whats-your-name",
+          "title": "What's Your Name?"
+        },
+        {
+          "id": "de-a1-u01-l3-formal-or-informal",
+          "title": "Formal or Informal"
+        },
+        {
+          "id": "de-a1-u01-l4-how-are-you",
+          "title": "How Are You?"
+        },
+        {
+          "id": "de-a1-u01-l5-language-school",
+          "title": "First Day at the Language School"
+        }
+      ]
+    },
+    {
+      "id": "de-a1-u02",
+      "level": "A1",
+      "title": "Where Are You From?",
+      "description": "Say where you come from, where you live and which languages you speak, and ask other people.",
+      "lessons": [
+        {
+          "id": "de-a1-u02-l1-countries",
+          "title": "Countries"
+        },
+        {
+          "id": "de-a1-u02-l2-where-do-you-live",
+          "title": "Where Do You Live?"
+        },
+        {
+          "id": "de-a1-u02-l3-languages",
+          "title": "Languages"
+        },
+        {
+          "id": "de-a1-u02-l4-he-she-we",
+          "title": "He, She, We"
+        },
+        {
+          "id": "de-a1-u02-l5-welcome-cafe",
+          "title": "The Welcome Café"
+        }
+      ]
+    },
+    {
+      "id": "de-a1-u03",
+      "level": "A1",
+      "title": "Numbers and Letters",
+      "description": "Count to 100, give your phone number and age, and spell your name letter by letter.",
+      "lessons": [
+        {
+          "id": "de-a1-u03-l1-count-to-six",
+          "title": "Count to Six"
+        },
+        {
+          "id": "de-a1-u03-l2-count-to-twelve",
+          "title": "Count to Twelve"
+        },
+        {
+          "id": "de-a1-u03-l3-how-old-are-you",
+          "title": "How Old Are You?"
+        },
+        {
+          "id": "de-a1-u03-l4-big-numbers",
+          "title": "Big Numbers"
+        },
+        {
+          "id": "de-a1-u03-l5-spell-it",
+          "title": "Spell It, Please"
+        }
+      ]
+    },
+    {
+      "id": "de-a1-u04",
+      "level": "A1",
+      "title": "At the Bakery",
+      "description": "Order bread, cake and coffee politely, ask what things cost and pay at the counter.",
+      "lessons": [
+        {
+          "id": "de-a1-u04-l1-bread-and-rolls",
+          "title": "Bread and Rolls"
+        },
+        {
+          "id": "de-a1-u04-l2-der-die-das",
+          "title": "Der, Die, Das"
+        },
+        {
+          "id": "de-a1-u04-l3-id-like",
+          "title": "I'd Like…"
+        },
+        {
+          "id": "de-a1-u04-l4-what-does-it-cost",
+          "title": "What Does It Cost?"
+        },
+        {
+          "id": "de-a1-u04-l5-saturday-bakery",
+          "title": "Saturday Morning at the Bakery"
+        }
+      ]
+    },
+    {
+      "id": "de-a1-u05",
+      "level": "A1",
+      "title": "At the Supermarket",
+      "description": "Say what you need, find things on the shelves, talk about quantities and pay at the checkout.",
+      "lessons": [
+        {
+          "id": "de-a1-u05-l1-fruit-and-vegetables",
+          "title": "Fruit and Vegetables"
+        },
+        {
+          "id": "de-a1-u05-l2-i-need",
+          "title": "I Need a…"
+        },
+        {
+          "id": "de-a1-u05-l3-more-than-one",
+          "title": "More Than One"
+        },
+        {
+          "id": "de-a1-u05-l4-no-milk-today",
+          "title": "No Milk Today"
+        },
+        {
+          "id": "de-a1-u05-l5-checkout",
+          "title": "At the Checkout"
+        }
+      ]
+    },
+    {
+      "id": "de-a1-u06",
+      "level": "A1",
+      "title": "Family and Friends",
+      "description": "Introduce your family, talk about brothers, sisters, partners and pets, and describe people in your photos.",
+      "lessons": [
+        {
+          "id": "de-a1-u06-l1-my-family",
+          "title": "My Family"
+        },
+        {
+          "id": "de-a1-u06-l2-brothers-and-sisters",
+          "title": "Brothers and Sisters"
+        },
+        {
+          "id": "de-a1-u06-l3-your-family",
+          "title": "Your Family?"
+        },
+        {
+          "id": "de-a1-u06-l4-grandparents-and-pets",
+          "title": "Grandparents and Pets"
+        },
+        {
+          "id": "de-a1-u06-l5-photos",
+          "title": "Photos on the Phone"
+        }
+      ]
+    },
+    {
+      "id": "de-a1-u07",
+      "level": "A1",
+      "title": "My Day",
+      "description": "Tell the time, name the days of the week, describe your daily routine and arrange to meet.",
+      "lessons": [
+        {
+          "id": "de-a1-u07-l1-what-time-is-it",
+          "title": "What Time Is It?"
+        },
+        {
+          "id": "de-a1-u07-l2-days-of-the-week",
+          "title": "Days of the Week"
+        },
+        {
+          "id": "de-a1-u07-l3-morning-routine",
+          "title": "Morning Routine"
+        },
+        {
+          "id": "de-a1-u07-l4-separable-verbs",
+          "title": "Separable Verbs"
+        },
+        {
+          "id": "de-a1-u07-l5-making-a-plan",
+          "title": "Making a Plan"
+        }
+      ]
+    },
+    {
+      "id": "de-a1-u08",
+      "level": "A1",
+      "title": "Free Time",
+      "description": "Talk about your hobbies, what you like doing and what you can do, and make plans for the weekend.",
+      "lessons": [
+        {
+          "id": "de-a1-u08-l1-hobbies",
+          "title": "Hobbies"
+        },
+        {
+          "id": "de-a1-u08-l2-i-like",
+          "title": "I Like…"
+        },
+        {
+          "id": "de-a1-u08-l3-on-the-move",
+          "title": "On the Move"
+        },
+        {
+          "id": "de-a1-u08-l4-i-can-swim",
+          "title": "I Can Swim"
+        },
+        {
+          "id": "de-a1-u08-l5-weekend-plans",
+          "title": "Weekend Plans"
+        }
+      ]
+    },
+    {
+      "id": "de-a1-u09",
+      "level": "A1",
+      "title": "By Bus and Train",
+      "description": "Buy a ticket, find your platform, deal with a delay and ask the way.",
+      "lessons": [
+        {
+          "id": "de-a1-u09-l1-getting-around",
+          "title": "Getting Around"
+        },
+        {
+          "id": "de-a1-u09-l2-buying-a-ticket",
+          "title": "Buying a Ticket"
+        },
+        {
+          "id": "de-a1-u09-l3-departures",
+          "title": "Departures and Platforms"
+        },
+        {
+          "id": "de-a1-u09-l4-changing-trains",
+          "title": "I Have to Change"
+        },
+        {
+          "id": "de-a1-u09-l5-which-way",
+          "title": "Which Way?"
+        }
+      ]
+    },
+    {
+      "id": "de-a1-u10",
+      "level": "A1",
+      "title": "The New Flat",
+      "description": "Name rooms and furniture, describe a flat and ask the right questions at a viewing.",
+      "lessons": [
+        {
+          "id": "de-a1-u10-l1-rooms",
+          "title": "Rooms"
+        },
+        {
+          "id": "de-a1-u10-l2-furniture",
+          "title": "Furniture"
+        },
+        {
+          "id": "de-a1-u10-l3-there-is",
+          "title": "There Is…"
+        },
+        {
+          "id": "de-a1-u10-l4-big-small-bright",
+          "title": "Big, Small, Bright"
+        },
+        {
+          "id": "de-a1-u10-l5-the-viewing",
+          "title": "The Viewing"
+        }
+      ]
+    },
+    {
+      "id": "de-a1-u11",
+      "level": "A1",
+      "title": "At the Doctor's",
+      "description": "Say what hurts, make an appointment, check in at the practice and get your medicine.",
+      "lessons": [
+        {
+          "id": "de-a1-u11-l1-the-body",
+          "title": "The Body"
+        },
+        {
+          "id": "de-a1-u11-l2-what-hurts",
+          "title": "What Hurts?"
+        },
+        {
+          "id": "de-a1-u11-l3-appointment",
+          "title": "Making an Appointment"
+        },
+        {
+          "id": "de-a1-u11-l4-reception",
+          "title": "At the Reception"
+        },
+        {
+          "id": "de-a1-u11-l5-pharmacy",
+          "title": "At the Pharmacy"
+        }
+      ]
+    },
+    {
+      "id": "de-a1-u12",
+      "level": "A1",
+      "title": "Offices and Work",
+      "description": "Give dates, register your address, fill in a form, talk about your job, and finish A1 with a review of your first week.",
+      "lessons": [
+        {
+          "id": "de-a1-u12-l1-months",
+          "title": "Months"
+        },
+        {
+          "id": "de-a1-u12-l2-dates",
+          "title": "Dates"
+        },
+        {
+          "id": "de-a1-u12-l3-registration-office",
+          "title": "The Registration Office"
+        },
+        {
+          "id": "de-a1-u12-l4-jobs",
+          "title": "Jobs"
+        },
+        {
+          "id": "de-a1-u12-l5-a1-checkpoint",
+          "title": "A1 Checkpoint: Your First Week"
+        }
+      ]
     }
   ]
 }

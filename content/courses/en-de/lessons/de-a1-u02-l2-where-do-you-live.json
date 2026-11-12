@@ -1,0 +1,117 @@
+{
+  "id": "de-a1-u02-l2-where-do-you-live",
+  "courseId": "en-de",
+  "unitId": "de-a1-u02",
+  "title": "Where Do You Live?",
+  "tip": "The verb is always the second part of a German sentence: Jetzt wohne ich in Wien.",
+  "exercises": [
+    {
+      "id": "de-a1-u02-l2-ex01",
+      "type": "multiple_choice",
+      "prompt": "Which one means 'Where do you live? (to a friend)'?",
+      "options": [
+        { "id": "a", "text": "Wo wohnst du?" },
+        { "id": "b", "text": "Woher wohnst du?" },
+        { "id": "c", "text": "Woher kommst du?" },
+        { "id": "d", "text": "Wo wohne du?" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "de-a1-u02-l2-ex02",
+      "type": "match_pairs",
+      "pairs": [
+        { "id": "p1", "learning": "wo?", "known": "where?" },
+        { "id": "p2", "learning": "die Stadt", "known": "the city" },
+        { "id": "p3", "learning": "das Land", "known": "the country" },
+        { "id": "p4", "learning": "die Adresse", "known": "the address" },
+        { "id": "p5", "learning": "jetzt", "known": "now" }
+      ]
+    },
+    {
+      "id": "de-a1-u02-l2-ex03",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I live in Hamburg.",
+      "tiles": ["ich", "wohne", "in", "Hamburg", "wohnst", "aus", "Berlin"],
+      "answers": ["Ich wohne in Hamburg."]
+    },
+    {
+      "id": "de-a1-u02-l2-ex04",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a1/u02/de-a1-u02-l2-ex04.mp3" },
+      "tiles": ["wo", "wohnen", "Sie", "woher", "wohnst", "du"],
+      "answers": ["Wo wohnen Sie?"]
+    },
+    {
+      "id": "de-a1-u02-l2-ex05",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Now I live in Vienna.",
+      "tiles": ["jetzt", "wohne", "ich", "in", "Wien", "wohnst", "aus", "du"],
+      "answers": ["Jetzt wohne ich in Wien.", "Ich wohne jetzt in Wien."]
+    },
+    {
+      "id": "de-a1-u02-l2-ex06",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'Now I live in Berlin.'?",
+      "options": [
+        { "id": "a", "text": "Jetzt ich wohne in Berlin." },
+        { "id": "b", "text": "Jetzt wohne ich in Berlin." },
+        { "id": "c", "text": "Jetzt wohnst ich in Berlin." },
+        { "id": "d", "text": "Jetzt wohne in Berlin ich." }
+      ],
+      "correctOptionId": "b"
+    },
+    {
+      "id": "de-a1-u02-l2-ex07",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Wo wohnst du jetzt?",
+      "tiles": ["where", "do", "you", "live", "now", "are", "from", "come"],
+      "answers": ["Where do you live now?"]
+    },
+    {
+      "id": "de-a1-u02-l2-ex08",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a1/u02/de-a1-u02-l2-ex08.mp3" },
+      "tiles": ["ich", "wohne", "hier", "in", "Graz", "wohnst", "jetzt", "aus"],
+      "answers": ["Ich wohne hier in Graz."]
+    },
+    {
+      "id": "de-a1-u02-l2-ex09",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Ich wohne jetzt hier.",
+      "tiles": ["I", "live", "here", "now", "you", "there", "from"],
+      "answers": ["I live here now.", "Now I live here.", "I now live here."]
+    },
+    {
+      "id": "de-a1-u02-l2-ex10",
+      "type": "multiple_choice",
+      "prompt": "Which one means 'the country'?",
+      "options": [
+        { "id": "a", "text": "der Land" },
+        { "id": "b", "text": "die Land" },
+        { "id": "c", "text": "die Stadt" },
+        { "id": "d", "text": "das Land" }
+      ],
+      "correctOptionId": "d"
+    },
+    {
+      "id": "de-a1-u02-l2-ex11",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Where do you live, Mr Novak? (formal)",
+      "tiles": ["wo", "wohnen", "Sie", "Herr", "Novak", "woher", "wohnst", "du"],
+      "answers": ["Wo wohnen Sie, Herr Novak?", "Herr Novak, wo wohnen Sie?"]
+    },
+    {
+      "id": "de-a1-u02-l2-ex12",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a1/u02/de-a1-u02-l2-ex12.mp3" },
+      "tiles": ["wie", "ist", "die", "Adresse", "wo", "das", "Stadt"],
+      "answers": ["Wie ist die Adresse?"]
+    }
+  ]
+}

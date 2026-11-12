@@ -1,0 +1,117 @@
+{
+  "id": "de-a1-u05-l3-more-than-one",
+  "courseId": "en-de",
+  "unitId": "de-a1-u05",
+  "title": "More Than One",
+  "tip": "Plurals always take die: die Flaschen, die Eier, die Äpfel. Count with wie viele?, measure with wie viel?",
+  "exercises": [
+    {
+      "id": "de-a1-u05-l3-ex01",
+      "type": "multiple_choice",
+      "prompt": "Which one means 'the bottles'?",
+      "options": [
+        { "id": "a", "text": "die Flasche" },
+        { "id": "b", "text": "die Flaschen" },
+        { "id": "c", "text": "das Flaschen" }
+      ],
+      "correctOptionId": "b"
+    },
+    {
+      "id": "de-a1-u05-l3-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which one means 'the loaves of bread'?",
+      "options": [
+        { "id": "a", "text": "die Brote" },
+        { "id": "b", "text": "die Brots" },
+        { "id": "c", "text": "die Bröte" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "de-a1-u05-l3-ex03",
+      "type": "match_pairs",
+      "pairs": [
+        { "id": "p1", "learning": "die Flasche", "known": "the bottle" },
+        { "id": "p2", "learning": "die Packung", "known": "the pack" },
+        { "id": "p3", "learning": "das Kilo", "known": "the kilo" },
+        { "id": "p4", "learning": "wie viel?", "known": "how much?" },
+        { "id": "p5", "learning": "wie viele?", "known": "how many?" }
+      ]
+    },
+    {
+      "id": "de-a1-u05-l3-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "How many eggs do you need? (to a friend)",
+      "tiles": ["wie", "viele", "Eier", "brauchst", "du", "Ei", "braucht", "kaufst"],
+      "answers": ["Wie viele Eier brauchst du?"]
+    },
+    {
+      "id": "de-a1-u05-l3-ex05",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a1/u05/de-a1-u05-l3-ex05.mp3" },
+      "tiles": ["ich", "kaufe", "zwei", "Kilo", "Kartoffeln", "Kilos", "drei", "Kartoffel"],
+      "answers": ["Ich kaufe zwei Kilo Kartoffeln."]
+    },
+    {
+      "id": "de-a1-u05-l3-ex06",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'How much milk do we need?'",
+      "options": [
+        { "id": "a", "text": "Wie viel Milch brauchen wir?" },
+        { "id": "b", "text": "Wie viele Milch brauchen wir?" },
+        { "id": "c", "text": "Wie viel Milch brauchst wir?" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "de-a1-u05-l3-ex07",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Wir brauchen drei Flaschen Wasser.",
+      "tiles": ["we", "need", "three", "bottles", "of", "water", "bottle", "milk", "a"],
+      "answers": ["We need three bottles of water."]
+    },
+    {
+      "id": "de-a1-u05-l3-ex08",
+      "type": "multiple_choice",
+      "prompt": "Which one means 'the coffees'?",
+      "options": [
+        { "id": "a", "text": "die Kaffeen" },
+        { "id": "b", "text": "die Käffee" },
+        { "id": "c", "text": "die Kaffees" }
+      ],
+      "correctOptionId": "c"
+    },
+    {
+      "id": "de-a1-u05-l3-ex09",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a1/u05/de-a1-u05-l3-ex09.mp3" },
+      "tiles": ["die", "Äpfel", "kosten", "zwei", "Euro", "das", "Kilo", "Apfel", "kostet", "Cent"],
+      "answers": ["Die Äpfel kosten zwei Euro das Kilo."]
+    },
+    {
+      "id": "de-a1-u05-l3-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Two packs of rice, please.",
+      "tiles": ["zwei", "Packungen", "Reis", "bitte", "Packung", "Flaschen", "drei"],
+      "answers": ["Zwei Packungen Reis, bitte.", "Bitte zwei Packungen Reis."]
+    },
+    {
+      "id": "de-a1-u05-l3-ex11",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Wie viel kostet eine Packung Butter?",
+      "tiles": ["how", "much", "is", "a", "pack", "of", "butter", "does", "cost", "cheese", "many"],
+      "answers": ["How much is a pack of butter?", "How much does a pack of butter cost?"]
+    },
+    {
+      "id": "de-a1-u05-l3-ex12",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a1/u05/de-a1-u05-l3-ex12.mp3" },
+      "tiles": ["wir", "brauchen", "zehn", "Eier", "und", "viel", "Obst", "viele", "Ei", "elf"],
+      "answers": ["Wir brauchen zehn Eier und viel Obst."]
+    }
+  ]
+}

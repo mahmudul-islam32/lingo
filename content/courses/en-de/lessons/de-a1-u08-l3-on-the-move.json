@@ -1,0 +1,121 @@
+{
+  "id": "de-a1-u08-l3-on-the-move",
+  "courseId": "en-de",
+  "unitId": "de-a1-u08",
+  "title": "On the Move",
+  "tip": "Some verbs change their vowel: ich fahre, du fährst, er fährt; ich laufe, du läufst, sie läuft.",
+  "exercises": [
+    {
+      "id": "de-a1-u08-l3-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        { "id": "p1", "learning": "fahren", "known": "to ride / to drive" },
+        { "id": "p2", "learning": "das Fahrrad", "known": "the bicycle" },
+        { "id": "p3", "learning": "laufen", "known": "to run" },
+        { "id": "p4", "learning": "wandern", "known": "to hike" },
+        { "id": "p5", "learning": "oft", "known": "often" }
+      ]
+    },
+    {
+      "id": "de-a1-u08-l3-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which one means 'the park'?",
+      "options": [
+        { "id": "a", "text": "der Park" },
+        { "id": "b", "text": "die Park" },
+        { "id": "c", "text": "das Park" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "de-a1-u08-l3-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'Do you cycle often?'",
+      "options": [
+        { "id": "a", "text": "Fahrst du oft Fahrrad?" },
+        { "id": "b", "text": "Fährst du oft Fahrrad?" },
+        { "id": "c", "text": "Fährt du oft Fahrrad?" },
+        { "id": "d", "text": "Fahren du oft Fahrrad?" }
+      ],
+      "correctOptionId": "b"
+    },
+    {
+      "id": "de-a1-u08-l3-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "She often runs.",
+      "tiles": ["sie", "läuft", "oft", "laufe", "er", "laufen"],
+      "answers": ["Sie läuft oft.", "Oft läuft sie."]
+    },
+    {
+      "id": "de-a1-u08-l3-ex05",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a1/u08/de-a1-u08-l3-ex05.mp3" },
+      "tiles": ["wir", "wandern", "am", "Sonntag", "wandert", "ihr", "Samstag"],
+      "answers": ["Wir wandern am Sonntag."]
+    },
+    {
+      "id": "de-a1-u08-l3-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Mein Vater fährt oft Fahrrad.",
+      "tiles": ["my", "father", "often", "cycles", "rides", "his", "bike", "mother", "drives"],
+      "answers": [
+        "My father often cycles.",
+        "My father cycles often.",
+        "My father often rides his bike.",
+        "My father rides his bike often."
+      ]
+    },
+    {
+      "id": "de-a1-u08-l3-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'Are you running today?'",
+      "options": [
+        { "id": "a", "text": "Laufst du heute?" },
+        { "id": "b", "text": "Läuft du heute?" },
+        { "id": "c", "text": "Laufen du heute?" },
+        { "id": "d", "text": "Läufst du heute?" }
+      ],
+      "correctOptionId": "d"
+    },
+    {
+      "id": "de-a1-u08-l3-ex08",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a1/u08/de-a1-u08-l3-ex08.mp3" },
+      "tiles": ["der", "Park", "hier", "ist", "groß", "die", "klein", "sind"],
+      "answers": ["Der Park hier ist groß."]
+    },
+    {
+      "id": "de-a1-u08-l3-ex09",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Do you like hiking? (to a friend)",
+      "tiles": ["wanderst", "du", "gern", "wandere", "oft", "nicht"],
+      "answers": ["Wanderst du gern?"]
+    },
+    {
+      "id": "de-a1-u08-l3-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I'm running to the park.",
+      "tiles": ["ich", "laufe", "in", "den", "Park", "läufst", "der", "oft"],
+      "answers": ["Ich laufe in den Park.", "In den Park laufe ich."]
+    },
+    {
+      "id": "de-a1-u08-l3-ex11",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a1/u08/de-a1-u08-l3-ex11.mp3" },
+      "tiles": ["fährst", "du", "am", "Samstag", "Fahrrad", "fahre", "fährt", "Sonntag"],
+      "answers": ["Fährst du am Samstag Fahrrad?"]
+    },
+    {
+      "id": "de-a1-u08-l3-ex12",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Meine Freundin wandert oft.",
+      "tiles": ["my", "friend", "often", "hikes", "hike", "runs", "sister"],
+      "answers": ["My friend often hikes.", "My friend hikes often."]
+    }
+  ]
+}

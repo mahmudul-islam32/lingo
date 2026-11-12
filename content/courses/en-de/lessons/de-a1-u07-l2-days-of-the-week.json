@@ -1,0 +1,162 @@
+{
+  "id": "de-a1-u07-l2-days-of-the-week",
+  "courseId": "en-de",
+  "unitId": "de-a1-u07",
+  "title": "Days of the Week",
+  "tip": "Days are der words. On Monday = am Montag. Day first? Verb second: Am Montag lerne ich Deutsch.",
+  "exercises": [
+    {
+      "id": "de-a1-u07-l2-ex01",
+      "type": "multiple_choice",
+      "prompt": "Which one means 'Sunday'?",
+      "options": [
+        { "id": "a", "text": "der Samstag" },
+        { "id": "b", "text": "der Montag" },
+        { "id": "c", "text": "der Sonntag" },
+        { "id": "d", "text": "der Mittwoch" }
+      ],
+      "correctOptionId": "c"
+    },
+    {
+      "id": "de-a1-u07-l2-ex02",
+      "type": "match_pairs",
+      "pairs": [
+        { "id": "p1", "learning": "der Montag", "known": "Monday" },
+        { "id": "p2", "learning": "der Dienstag", "known": "Tuesday" },
+        { "id": "p3", "learning": "der Mittwoch", "known": "Wednesday" },
+        { "id": "p4", "learning": "der Donnerstag", "known": "Thursday" },
+        { "id": "p5", "learning": "der Freitag", "known": "Friday" }
+      ]
+    },
+    {
+      "id": "de-a1-u07-l2-ex03",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a1/u07/de-a1-u07-l2-ex03.mp3" },
+      "tiles": ["am", "Samstag", "kaufe", "ich", "Brot", "Sonntag", "kaufst", "um"],
+      "answers": ["Am Samstag kaufe ich Brot."]
+    },
+    {
+      "id": "de-a1-u07-l2-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "On Monday I learn German.",
+      "tiles": ["am", "Montag", "lerne", "ich", "Deutsch", "um", "lernst", "Mittwoch"],
+      "answers": [
+        "Am Montag lerne ich Deutsch.",
+        "Ich lerne am Montag Deutsch.",
+        "Ich lerne Deutsch am Montag.",
+        "Deutsch lerne ich am Montag."
+      ]
+    },
+    {
+      "id": "de-a1-u07-l2-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'On Sunday I drink coffee'?",
+      "options": [
+        { "id": "a", "text": "Am Sonntag ich trinke Kaffee." },
+        { "id": "b", "text": "Am Sonntag trinke ich Kaffee." },
+        { "id": "c", "text": "Um Sonntag trinke ich Kaffee." },
+        { "id": "d", "text": "Am Sonntag trinkt ich Kaffee." }
+      ],
+      "correctOptionId": "b"
+    },
+    {
+      "id": "de-a1-u07-l2-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Am Dienstag ist der Kurs um neun.",
+      "tiles": [
+        "on",
+        "Tuesday",
+        "the",
+        "course",
+        "is",
+        "at",
+        "nine",
+        "o'clock",
+        "Thursday",
+        "ten",
+        "in"
+      ],
+      "answers": [
+        "On Tuesday the course is at nine.",
+        "On Tuesday the course is at nine o'clock.",
+        "The course is at nine on Tuesday.",
+        "The course is at nine o'clock on Tuesday.",
+        "The course is on Tuesday at nine.",
+        "The course is on Tuesday at nine o'clock."
+      ]
+    },
+    {
+      "id": "de-a1-u07-l2-ex07",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a1/u07/de-a1-u07-l2-ex07.mp3" },
+      "tiles": ["am", "Freitag", "essen", "wir", "Kuchen", "esst", "Montag", "um"],
+      "answers": ["Am Freitag essen wir Kuchen."]
+    },
+    {
+      "id": "de-a1-u07-l2-ex08",
+      "type": "multiple_choice",
+      "prompt": "Which one means 'on Thursday'?",
+      "options": [
+        { "id": "a", "text": "um Donnerstag" },
+        { "id": "b", "text": "am Donnerstag" },
+        { "id": "c", "text": "in Donnerstag" },
+        { "id": "d", "text": "am Dienstag" }
+      ],
+      "correctOptionId": "b"
+    },
+    {
+      "id": "de-a1-u07-l2-ex09",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "On Saturday we buy apples.",
+      "tiles": ["am", "Samstag", "kaufen", "wir", "Äpfel", "Apfel", "kauft", "Sonntag"],
+      "answers": [
+        "Am Samstag kaufen wir Äpfel.",
+        "Wir kaufen am Samstag Äpfel.",
+        "Wir kaufen Äpfel am Samstag.",
+        "Äpfel kaufen wir am Samstag."
+      ]
+    },
+    {
+      "id": "de-a1-u07-l2-ex10",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a1/u07/de-a1-u07-l2-ex10.mp3" },
+      "tiles": [
+        "am",
+        "Mittwoch",
+        "lernen",
+        "wir",
+        "um",
+        "halb",
+        "acht",
+        "Deutsch",
+        "Montag",
+        "lernt",
+        "neun"
+      ],
+      "answers": ["Am Mittwoch lernen wir um halb acht Deutsch."]
+    },
+    {
+      "id": "de-a1-u07-l2-ex11",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'Today is Friday'?",
+      "options": [
+        { "id": "a", "text": "Heute ist am Freitag." },
+        { "id": "b", "text": "Heute bin Freitag." },
+        { "id": "c", "text": "Heute ist Freitag." },
+        { "id": "d", "text": "Heute Freitag ist." }
+      ],
+      "correctOptionId": "c"
+    },
+    {
+      "id": "de-a1-u07-l2-ex12",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Was machst du am Sonntag?",
+      "tiles": ["what", "are", "you", "doing", "on", "Sunday", "do", "Saturday", "where"],
+      "answers": ["What are you doing on Sunday?", "On Sunday, what are you doing?"]
+    }
+  ]
+}

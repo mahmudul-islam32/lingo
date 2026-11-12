@@ -1,0 +1,140 @@
+{
+  "id": "de-a1-u09-l1-getting-around",
+  "courseId": "en-de",
+  "unitId": "de-a1-u09",
+  "title": "Getting Around",
+  "tip": "By bus is mit dem Bus, by tram is mit der Straßenbahn. Learn them as fixed phrases.",
+  "exercises": [
+    {
+      "id": "de-a1-u09-l1-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        { "id": "p1", "learning": "der Bus", "known": "the bus" },
+        { "id": "p2", "learning": "die U-Bahn", "known": "the underground" },
+        { "id": "p3", "learning": "die Straßenbahn", "known": "the tram" },
+        { "id": "p4", "learning": "das Auto", "known": "the car" },
+        { "id": "p5", "learning": "zu Fuß", "known": "on foot" }
+      ]
+    },
+    {
+      "id": "de-a1-u09-l1-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which one means 'the bus'?",
+      "options": [
+        { "id": "a", "text": "der Bus" },
+        { "id": "b", "text": "die Bus" },
+        { "id": "c", "text": "das Bus" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "de-a1-u09-l1-ex03",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I'm going by bus.",
+      "tiles": ["ich", "fahre", "mit", "dem", "Bus", "der", "fährst", "Auto"],
+      "answers": ["Ich fahre mit dem Bus.", "Mit dem Bus fahre ich."]
+    },
+    {
+      "id": "de-a1-u09-l1-ex04",
+      "type": "multiple_choice",
+      "prompt": "Which one means 'by tram'?",
+      "options": [
+        { "id": "a", "text": "mit der Straßenbahn" },
+        { "id": "b", "text": "mit dem Straßenbahn" },
+        { "id": "c", "text": "mit die Straßenbahn" },
+        { "id": "d", "text": "zu Straßenbahn" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "de-a1-u09-l1-ex05",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a1/u09/de-a1-u09-l1-ex05.mp3" },
+      "tiles": ["ich", "gehe", "heute", "zu", "Fuß", "fahre", "Auto", "gehst"],
+      "answers": ["Ich gehe heute zu Fuß."]
+    },
+    {
+      "id": "de-a1-u09-l1-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Fährst du mit der U-Bahn?",
+      "tiles": ["do", "you", "go", "by", "underground", "subway", "are", "going", "car", "bus"],
+      "answers": [
+        "Are you going by underground?",
+        "Are you going by subway?",
+        "Do you go by underground?",
+        "Do you go by subway?"
+      ]
+    },
+    {
+      "id": "de-a1-u09-l1-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which one means 'the car'?",
+      "options": [
+        { "id": "a", "text": "der Auto" },
+        { "id": "b", "text": "die Auto" },
+        { "id": "c", "text": "das Auto" }
+      ],
+      "correctOptionId": "c"
+    },
+    {
+      "id": "de-a1-u09-l1-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "We're going by underground today.",
+      "tiles": ["wir", "fahren", "heute", "mit", "der", "U-Bahn", "dem", "fahrt", "morgen"],
+      "answers": [
+        "Wir fahren heute mit der U-Bahn.",
+        "Heute fahren wir mit der U-Bahn.",
+        "Mit der U-Bahn fahren wir heute."
+      ]
+    },
+    {
+      "id": "de-a1-u09-l1-ex09",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a1/u09/de-a1-u09-l1-ex09.mp3" },
+      "tiles": ["Mira", "fährt", "mit", "der", "Straßenbahn", "dem", "fahre", "Bus"],
+      "answers": ["Mira fährt mit der Straßenbahn."]
+    },
+    {
+      "id": "de-a1-u09-l1-ex10",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'I'm going on foot'?",
+      "options": [
+        { "id": "a", "text": "Ich gehe zu Fuß." },
+        { "id": "b", "text": "Ich fahre zu Fuß." },
+        { "id": "c", "text": "Ich gehe mit Fuß." },
+        { "id": "d", "text": "Ich gehen zu Fuß." }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "de-a1-u09-l1-ex11",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Wir fahren mit der Bahn.",
+      "tiles": ["we", "are", "going", "go", "by", "train", "car", "they", "bus"],
+      "answers": ["We are going by train.", "We go by train."]
+    },
+    {
+      "id": "de-a1-u09-l1-ex12",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a1/u09/de-a1-u09-l1-ex12.mp3" },
+      "tiles": [
+        "hallo",
+        "Jonas",
+        "fährst",
+        "du",
+        "heute",
+        "mit",
+        "dem",
+        "Auto",
+        "fahre",
+        "der",
+        "morgen"
+      ],
+      "answers": ["Hallo Jonas! Fährst du heute mit dem Auto?"]
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "id": "de-a1-u04-l1-bread-and-rolls",
+  "courseId": "en-de",
+  "unitId": "de-a1-u04",
+  "title": "Bread and Rolls",
+  "tip": "Learn every noun with der, die or das. The article is part of the word: das Brot, die Brezel.",
+  "exercises": [
+    {
+      "id": "de-a1-u04-l1-ex01",
+      "type": "multiple_choice",
+      "prompt": "Which one means 'the bread'?",
+      "options": [
+        { "id": "a", "text": "der Brot" },
+        { "id": "b", "text": "das Brot" },
+        { "id": "c", "text": "die Brot" }
+      ],
+      "correctOptionId": "b"
+    },
+    {
+      "id": "de-a1-u04-l1-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which one means 'the pretzel'?",
+      "options": [
+        { "id": "a", "text": "die Brezel" },
+        { "id": "b", "text": "der Brezel" },
+        { "id": "c", "text": "das Brezel" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "de-a1-u04-l1-ex03",
+      "type": "match_pairs",
+      "pairs": [
+        { "id": "p1", "learning": "das Brot", "known": "the bread" },
+        { "id": "p2", "learning": "das Brötchen", "known": "the bread roll" },
+        { "id": "p3", "learning": "die Brezel", "known": "the pretzel" },
+        { "id": "p4", "learning": "der Kuchen", "known": "the cake" },
+        { "id": "p5", "learning": "die Bäckerei", "known": "the bakery" }
+      ]
+    },
+    {
+      "id": "de-a1-u04-l1-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "This is the bakery.",
+      "tiles": ["das", "ist", "die", "Bäckerei", "der", "Kuchen", "Brot"],
+      "answers": ["Das ist die Bäckerei."]
+    },
+    {
+      "id": "de-a1-u04-l1-ex05",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a1/u04/de-a1-u04-l1-ex05.mp3" },
+      "tiles": ["guten", "Morgen", "zwei", "Brötchen", "bitte", "drei", "Brot", "Tag"],
+      "answers": ["Guten Morgen! Zwei Brötchen, bitte."]
+    },
+    {
+      "id": "de-a1-u04-l1-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Das ist der Kuchen.",
+      "tiles": ["this", "is", "the", "cake", "that", "bread", "a", "pretzel"],
+      "answers": ["This is the cake.", "That is the cake."]
+    },
+    {
+      "id": "de-a1-u04-l1-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which one means 'the bakery'?",
+      "options": [
+        { "id": "a", "text": "das Bäckerei" },
+        { "id": "b", "text": "der Bäckerei" },
+        { "id": "c", "text": "die Bäckerei" }
+      ],
+      "correctOptionId": "c"
+    },
+    {
+      "id": "de-a1-u04-l1-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Two bread rolls, please.",
+      "tiles": ["zwei", "Brötchen", "bitte", "drei", "Brot", "Brezel", "danke"],
+      "answers": ["Zwei Brötchen, bitte.", "Bitte zwei Brötchen."]
+    },
+    {
+      "id": "de-a1-u04-l1-ex09",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a1/u04/de-a1-u04-l1-ex09.mp3" },
+      "tiles": ["hallo", "drei", "Brezeln", "bitte", "Brezel", "zwei", "danke"],
+      "answers": ["Hallo! Drei Brezeln, bitte."]
+    },
+    {
+      "id": "de-a1-u04-l1-ex10",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'Is this the bakery?'",
+      "options": [
+        { "id": "a", "text": "Wo ist die Bäckerei?" },
+        { "id": "b", "text": "Ist das die Bäckerei?" },
+        { "id": "c", "text": "Ist das der Kuchen?" }
+      ],
+      "correctOptionId": "b"
+    },
+    {
+      "id": "de-a1-u04-l1-ex11",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Wo ist die Bäckerei?",
+      "tiles": ["where", "is", "the", "bakery", "cake", "how", "bread"],
+      "answers": ["Where is the bakery?"]
+    },
+    {
+      "id": "de-a1-u04-l1-ex12",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a1/u04/de-a1-u04-l1-ex12.mp3" },
+      "tiles": ["ja", "das", "ist", "der", "Kuchen", "nein", "die", "Brot"],
+      "answers": ["Ja, das ist der Kuchen."]
+    }
+  ]
+}

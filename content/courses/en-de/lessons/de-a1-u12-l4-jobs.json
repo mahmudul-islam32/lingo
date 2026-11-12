@@ -1,0 +1,168 @@
+{
+  "id": "de-a1-u12-l4-jobs",
+  "courseId": "en-de",
+  "unitId": "de-a1-u12",
+  "title": "Jobs",
+  "tip": "No article before jobs: Ich bin Ingenieurin. Ich arbeite als Krankenpfleger. Wollen: ich will, du willst.",
+  "exercises": [
+    {
+      "id": "de-a1-u12-l4-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        { "id": "p1", "learning": "der Beruf", "known": "the job" },
+        { "id": "p2", "learning": "die Firma", "known": "the company" },
+        { "id": "p3", "learning": "der Ingenieur", "known": "the engineer (male)" },
+        { "id": "p4", "learning": "die Krankenpflegerin", "known": "the nurse (female)" },
+        { "id": "p5", "learning": "ich will", "known": "I want" }
+      ]
+    },
+    {
+      "id": "de-a1-u12-l4-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'I'm an engineer'? (a woman speaking)",
+      "options": [
+        { "id": "a", "text": "Ich bin als Ingenieurin." },
+        { "id": "b", "text": "Ich bin Ingenieurin." },
+        { "id": "c", "text": "Ich bin Ingenieur." },
+        { "id": "d", "text": "Ich habe Ingenieurin." }
+      ],
+      "correctOptionId": "b"
+    },
+    {
+      "id": "de-a1-u12-l4-ex03",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I work as a nurse.",
+      "tiles": [
+        "ich",
+        "arbeite",
+        "als",
+        "Krankenpfleger",
+        "Krankenpflegerin",
+        "eine",
+        "arbeitest",
+        "der"
+      ],
+      "answers": [
+        "Ich arbeite als Krankenpfleger.",
+        "Ich arbeite als Krankenpflegerin.",
+        "Als Krankenpfleger arbeite ich.",
+        "Als Krankenpflegerin arbeite ich."
+      ]
+    },
+    {
+      "id": "de-a1-u12-l4-ex04",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a1/u12/de-a1-u12-l4-ex04.mp3" },
+      "tiles": ["was", "ist", "dein", "Beruf", "wie", "deine", "bist"],
+      "answers": ["Was ist dein Beruf?"]
+    },
+    {
+      "id": "de-a1-u12-l4-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which one means 'the company'?",
+      "options": [
+        { "id": "a", "text": "der Firma" },
+        { "id": "b", "text": "das Firma" },
+        { "id": "c", "text": "die Firma" }
+      ],
+      "correctOptionId": "c"
+    },
+    {
+      "id": "de-a1-u12-l4-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Meine Schwester arbeitet als Ingenieurin in Stuttgart.",
+      "tiles": [
+        "my",
+        "sister",
+        "works",
+        "as",
+        "an",
+        "engineer",
+        "in",
+        "Stuttgart",
+        "a",
+        "brother",
+        "work"
+      ],
+      "answers": [
+        "My sister works as an engineer in Stuttgart.",
+        "My sister works in Stuttgart as an engineer.",
+        "In Stuttgart my sister works as an engineer."
+      ]
+    },
+    {
+      "id": "de-a1-u12-l4-ex07",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a1/u12/de-a1-u12-l4-ex07.mp3" },
+      "tiles": ["ich", "will", "in", "Deutschland", "arbeiten", "willst", "arbeite", "aus"],
+      "answers": ["Ich will in Deutschland arbeiten."]
+    },
+    {
+      "id": "de-a1-u12-l4-ex08",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'Do you want to work in Munich? (to a friend)'?",
+      "options": [
+        { "id": "a", "text": "Willst du in München arbeiten?" },
+        { "id": "b", "text": "Willst du arbeiten in München?" },
+        { "id": "c", "text": "Will du in München arbeiten?" },
+        { "id": "d", "text": "Wollen Sie in München arbeiten?" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "de-a1-u12-l4-ex09",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "My company is in Frankfurt.",
+      "tiles": ["meine", "Firma", "ist", "in", "Frankfurt", "mein", "sind", "aus"],
+      "answers": ["Meine Firma ist in Frankfurt.", "In Frankfurt ist meine Firma."]
+    },
+    {
+      "id": "de-a1-u12-l4-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Do you want to work as an engineer? (to a friend)",
+      "tiles": [
+        "willst",
+        "du",
+        "als",
+        "Ingenieur",
+        "Ingenieurin",
+        "arbeiten",
+        "will",
+        "arbeitest",
+        "ein"
+      ],
+      "answers": ["Willst du als Ingenieurin arbeiten?", "Willst du als Ingenieur arbeiten?"]
+    },
+    {
+      "id": "de-a1-u12-l4-ex11",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a1/u12/de-a1-u12-l4-ex11.mp3" },
+      "tiles": [
+        "mein",
+        "Vater",
+        "ist",
+        "Krankenpfleger",
+        "er",
+        "arbeitet",
+        "in",
+        "Köln",
+        "Krankenpflegerin",
+        "sie",
+        "meine"
+      ],
+      "answers": ["Mein Vater ist Krankenpfleger. Er arbeitet in Köln."]
+    },
+    {
+      "id": "de-a1-u12-l4-ex12",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Frau Haddad will als Ärztin arbeiten.",
+      "tiles": ["Ms", "Haddad", "wants", "to", "work", "as", "a", "doctor", "nurse", "want", "an"],
+      "answers": ["Ms Haddad wants to work as a doctor."]
+    }
+  ]
+}

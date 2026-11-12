@@ -1,0 +1,144 @@
+{
+  "id": "de-a1-u09-l4-changing-trains",
+  "courseId": "en-de",
+  "unitId": "de-a1-u09",
+  "title": "I Have to Change",
+  "tip": "With müssen, the second verb goes to the end: Ich muss in Köln umsteigen.",
+  "exercises": [
+    {
+      "id": "de-a1-u09-l4-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        { "id": "p1", "learning": "ich muss", "known": "I have to" },
+        { "id": "p2", "learning": "umsteigen", "known": "to change (trains, buses)" },
+        { "id": "p3", "learning": "die Haltestelle", "known": "the stop" },
+        { "id": "p4", "learning": "der Bahnhof", "known": "the station" },
+        { "id": "p5", "learning": "wohin?", "known": "where to?" }
+      ]
+    },
+    {
+      "id": "de-a1-u09-l4-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'I have to change in Cologne'?",
+      "options": [
+        { "id": "a", "text": "Ich musst in Köln umsteigen." },
+        { "id": "b", "text": "Ich muss in Köln steige um." },
+        { "id": "c", "text": "Ich muss in Köln umsteigen." },
+        { "id": "d", "text": "Ich steige muss in Köln um." }
+      ],
+      "correctOptionId": "c"
+    },
+    {
+      "id": "de-a1-u09-l4-ex03",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "We have to change in Hanover.",
+      "tiles": ["wir", "müssen", "in", "Hannover", "umsteigen", "musst", "nach", "ihr"],
+      "answers": [
+        "Wir müssen in Hannover umsteigen.",
+        "In Hannover müssen wir umsteigen.",
+        "Umsteigen müssen wir in Hannover."
+      ]
+    },
+    {
+      "id": "de-a1-u09-l4-ex04",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a1/u09/de-a1-u09-l4-ex04.mp3" },
+      "tiles": ["die", "nächste", "Haltestelle", "ist", "der", "Bahnhof", "sind", "Bus", "hier"],
+      "answers": ["Die nächste Haltestelle ist der Bahnhof."]
+    },
+    {
+      "id": "de-a1-u09-l4-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'Where are you going?' (to a friend)",
+      "options": [
+        { "id": "a", "text": "Wo fährst du?" },
+        { "id": "b", "text": "Woher fährst du?" },
+        { "id": "c", "text": "Wohin fahrt du?" },
+        { "id": "d", "text": "Wohin fährst du?" }
+      ],
+      "correctOptionId": "d"
+    },
+    {
+      "id": "de-a1-u09-l4-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I have to go shopping today.",
+      "tiles": ["ich", "muss", "heute", "einkaufen", "musst", "du", "morgen"],
+      "answers": [
+        "Ich muss heute einkaufen.",
+        "Heute muss ich einkaufen.",
+        "Einkaufen muss ich heute."
+      ]
+    },
+    {
+      "id": "de-a1-u09-l4-ex07",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a1/u09/de-a1-u09-l4-ex07.mp3" },
+      "tiles": [
+        "der",
+        "Zug",
+        "nach",
+        "München",
+        "hat",
+        "Verspätung",
+        "Sie",
+        "müssen",
+        "in",
+        "Nürnberg",
+        "umsteigen",
+        "ist",
+        "musst",
+        "ab"
+      ],
+      "answers": ["Der Zug nach München hat Verspätung. Sie müssen in Nürnberg umsteigen."]
+    },
+    {
+      "id": "de-a1-u09-l4-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Wohin fahren Sie?",
+      "tiles": ["where", "are", "you", "going", "do", "go", "to", "from", "they"],
+      "answers": [
+        "Where are you going?",
+        "Where are you going to?",
+        "Where do you go?",
+        "Where do you go to?"
+      ]
+    },
+    {
+      "id": "de-a1-u09-l4-ex09",
+      "type": "multiple_choice",
+      "prompt": "Which one means 'the station'?",
+      "options": [
+        { "id": "a", "text": "der Bahnhof" },
+        { "id": "b", "text": "die Bahnhof" },
+        { "id": "c", "text": "das Bahnhof" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "de-a1-u09-l4-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Do you have to change? (to a friend)",
+      "tiles": ["musst", "du", "umsteigen", "muss", "ich", "steigst", "um"],
+      "answers": ["Musst du umsteigen?"]
+    },
+    {
+      "id": "de-a1-u09-l4-ex11",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a1/u09/de-a1-u09-l4-ex11.mp3" },
+      "tiles": ["der", "nächste", "Bus", "fährt", "um", "zwölf", "Uhr", "ab", "an", "die", "elf"],
+      "answers": ["Der nächste Bus fährt um zwölf Uhr ab."]
+    },
+    {
+      "id": "de-a1-u09-l4-ex12",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Where is the next stop?",
+      "tiles": ["wo", "ist", "die", "nächste", "Haltestelle", "wohin", "der", "Bahnhof"],
+      "answers": ["Wo ist die nächste Haltestelle?"]
+    }
+  ]
+}

@@ -1,0 +1,119 @@
+{
+  "id": "de-a1-u03-l3-how-old-are-you",
+  "courseId": "en-de",
+  "unitId": "de-a1-u03",
+  "title": "How Old Are You?",
+  "tip": "Age uses sein: Ich bin zwanzig Jahre alt. Yes/no questions start with the verb: Bist du zwanzig?",
+  "exercises": [
+    {
+      "id": "de-a1-u03-l3-ex01",
+      "type": "multiple_choice",
+      "prompt": "Which one means 'sixteen'?",
+      "options": [
+        { "id": "a", "text": "sechszehn" },
+        { "id": "b", "text": "sechzehn" },
+        { "id": "c", "text": "sechs" },
+        { "id": "d", "text": "siebzehn" }
+      ],
+      "correctOptionId": "b"
+    },
+    {
+      "id": "de-a1-u03-l3-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'How old are you? (to a friend)'?",
+      "options": [
+        { "id": "a", "text": "Wie alt bist du?" },
+        { "id": "b", "text": "Wie alt sind du?" },
+        { "id": "c", "text": "Wie alt sind Sie?" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "de-a1-u03-l3-ex03",
+      "type": "match_pairs",
+      "pairs": [
+        { "id": "p1", "learning": "siebzehn", "known": "seventeen" },
+        { "id": "p2", "learning": "neunzehn", "known": "nineteen" },
+        { "id": "p3", "learning": "zwanzig", "known": "twenty" },
+        { "id": "p4", "learning": "alt", "known": "old" },
+        { "id": "p5", "learning": "das Jahr", "known": "the year" }
+      ]
+    },
+    {
+      "id": "de-a1-u03-l3-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I am eighteen years old.",
+      "tiles": ["ich", "bin", "achtzehn", "Jahre", "alt", "Jahr", "bist", "dreizehn"],
+      "answers": ["Ich bin achtzehn Jahre alt.", "Ich bin achtzehn."]
+    },
+    {
+      "id": "de-a1-u03-l3-ex05",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a1/u03/de-a1-u03-l3-ex05.mp3" },
+      "tiles": ["wie", "alt", "sind", "Sie", "ich", "bin", "neunzehn", "bist", "neun", "fünfzehn"],
+      "answers": ["Wie alt sind Sie? Ich bin neunzehn."]
+    },
+    {
+      "id": "de-a1-u03-l3-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Bist du zwanzig?",
+      "tiles": ["are", "you", "twenty", "is", "he", "twelve"],
+      "answers": ["Are you twenty?"]
+    },
+    {
+      "id": "de-a1-u03-l3-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'Do you have a phone number? (to a friend)'?",
+      "options": [
+        { "id": "a", "text": "Habe du eine Telefonnummer?" },
+        { "id": "b", "text": "Hat du eine Telefonnummer?" },
+        { "id": "c", "text": "Hast du eine Telefonnummer?" },
+        { "id": "d", "text": "Haben du eine Telefonnummer?" }
+      ],
+      "correctOptionId": "c"
+    },
+    {
+      "id": "de-a1-u03-l3-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Is he sixteen?",
+      "tiles": ["ist", "er", "sechzehn", "bist", "sechs", "siebzehn"],
+      "answers": ["Ist er sechzehn?"]
+    },
+    {
+      "id": "de-a1-u03-l3-ex09",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a1/u03/de-a1-u03-l3-ex09.mp3" },
+      "tiles": ["haben", "Sie", "eine", "Telefonnummer", "Herr", "Okafor", "hast", "ein", "Frau"],
+      "answers": ["Haben Sie eine Telefonnummer, Herr Okafor?"]
+    },
+    {
+      "id": "de-a1-u03-l3-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Er hat drei Freunde in Hamburg.",
+      "tiles": ["he", "has", "three", "friends", "in", "Hamburg", "have", "thirteen", "friend"],
+      "answers": ["He has three friends in Hamburg.", "In Hamburg he has three friends."]
+    },
+    {
+      "id": "de-a1-u03-l3-ex11",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'I have two friends here'?",
+      "options": [
+        { "id": "a", "text": "Ich hat zwei Freunde hier." },
+        { "id": "b", "text": "Ich habe zwei Freunde hier." },
+        { "id": "c", "text": "Ich hast zwei Freunde hier." }
+      ],
+      "correctOptionId": "b"
+    },
+    {
+      "id": "de-a1-u03-l3-ex12",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a1/u03/de-a1-u03-l3-ex12.mp3" },
+      "tiles": ["Leyla", "ist", "siebzehn", "Jahre", "alt", "Jahr", "sechzehn", "hat"],
+      "answers": ["Leyla ist siebzehn Jahre alt."]
+    }
+  ]
+}

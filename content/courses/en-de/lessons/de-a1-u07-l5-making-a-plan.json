@@ -1,0 +1,144 @@
+{
+  "id": "de-a1-u07-l5-making-a-plan",
+  "courseId": "en-de",
+  "unitId": "de-a1-u07",
+  "title": "Making a Plan",
+  "tip": "Ask wann? for 'when?'. Answer with am for days and um for times: am Freitag um acht.",
+  "exercises": [
+    {
+      "id": "de-a1-u07-l5-ex01",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'Do you have time tomorrow? (to a friend)'?",
+      "options": [
+        { "id": "a", "text": "Hast du morgens Zeit?" },
+        { "id": "b", "text": "Haben du morgen Zeit?" },
+        { "id": "c", "text": "Hast du morgen Zeit?" },
+        { "id": "d", "text": "Bist du morgen Zeit?" }
+      ],
+      "correctOptionId": "c"
+    },
+    {
+      "id": "de-a1-u07-l5-ex02",
+      "type": "match_pairs",
+      "pairs": [
+        { "id": "p1", "learning": "morgen", "known": "tomorrow" },
+        { "id": "p2", "learning": "Zeit haben", "known": "to have time" },
+        { "id": "p3", "learning": "wann?", "known": "when?" },
+        { "id": "p4", "learning": "das Wochenende", "known": "the weekend" },
+        { "id": "p5", "learning": "bis dann", "known": "see you then" }
+      ]
+    },
+    {
+      "id": "de-a1-u07-l5-ex03",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a1/u07/de-a1-u07-l5-ex03.mp3" },
+      "tiles": ["hallo", "Bastian", "hast", "du", "am", "Samstag", "Zeit", "habe", "um", "Sonntag"],
+      "answers": ["Hallo Bastian! Hast du am Samstag Zeit?"]
+    },
+    {
+      "id": "de-a1-u07-l5-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Ja, am Samstag habe ich Zeit.",
+      "tiles": ["yes", "I", "have", "time", "on", "Saturday", "no", "Sunday", "at"],
+      "answers": ["Yes, I have time on Saturday.", "Yes, on Saturday I have time."]
+    },
+    {
+      "id": "de-a1-u07-l5-ex05",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "When does the course start?",
+      "tiles": ["wann", "fängt", "der", "Kurs", "an", "wo", "anfängt", "die"],
+      "answers": ["Wann fängt der Kurs an?"]
+    },
+    {
+      "id": "de-a1-u07-l5-ex06",
+      "type": "multiple_choice",
+      "prompt": "Which one means 'the weekend'?",
+      "options": [
+        { "id": "a", "text": "der Wochenende" },
+        { "id": "b", "text": "die Wochenende" },
+        { "id": "c", "text": "das Wochenende" }
+      ],
+      "correctOptionId": "c"
+    },
+    {
+      "id": "de-a1-u07-l5-ex07",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a1/u07/de-a1-u07-l5-ex07.mp3" },
+      "tiles": ["wann", "stehst", "du", "am", "Sonntag", "auf", "stehe", "wo", "um"],
+      "answers": ["Wann stehst du am Sonntag auf?"]
+    },
+    {
+      "id": "de-a1-u07-l5-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Tomorrow I'm getting up early.",
+      "tiles": ["morgen", "stehe", "ich", "früh", "auf", "morgens", "aufstehe", "stehst"],
+      "answers": ["Morgen stehe ich früh auf.", "Ich stehe morgen früh auf."]
+    },
+    {
+      "id": "de-a1-u07-l5-ex09",
+      "type": "multiple_choice",
+      "prompt": "Which one means 'see you then'?",
+      "options": [
+        { "id": "a", "text": "bis morgen" },
+        { "id": "b", "text": "bis dann" },
+        { "id": "c", "text": "danke" },
+        { "id": "d", "text": "guten Abend" }
+      ],
+      "correctOptionId": "b"
+    },
+    {
+      "id": "de-a1-u07-l5-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "At the weekend we watch TV.",
+      "tiles": ["am", "Wochenende", "sehen", "wir", "fern", "an", "um", "seht"],
+      "answers": ["Am Wochenende sehen wir fern.", "Wir sehen am Wochenende fern."]
+    },
+    {
+      "id": "de-a1-u07-l5-ex11",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a1/u07/de-a1-u07-l5-ex11.mp3" },
+      "tiles": [
+        "gut",
+        "am",
+        "Freitag",
+        "um",
+        "halb",
+        "acht",
+        "bis",
+        "dann",
+        "Montag",
+        "neun",
+        "Viertel"
+      ],
+      "answers": ["Gut, am Freitag um halb acht. Bis dann!"]
+    },
+    {
+      "id": "de-a1-u07-l5-ex12",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Wann hast du morgen Zeit?",
+      "tiles": [
+        "when",
+        "do",
+        "you",
+        "have",
+        "time",
+        "tomorrow",
+        "are",
+        "free",
+        "where",
+        "how",
+        "morning"
+      ],
+      "answers": [
+        "When do you have time tomorrow?",
+        "When are you free tomorrow?",
+        "When do you have free time tomorrow?"
+      ]
+    }
+  ]
+}

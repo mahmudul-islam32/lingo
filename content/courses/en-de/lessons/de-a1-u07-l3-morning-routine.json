@@ -1,0 +1,161 @@
+{
+  "id": "de-a1-u07-l3-morning-routine",
+  "courseId": "en-de",
+  "unitId": "de-a1-u07",
+  "title": "Morning Routine",
+  "tip": "With aufstehen, the 'auf' jumps to the end: Ich stehe um sieben auf.",
+  "exercises": [
+    {
+      "id": "de-a1-u07-l3-ex01",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'I get up at seven'?",
+      "options": [
+        { "id": "a", "text": "Ich aufstehe um sieben." },
+        { "id": "b", "text": "Um sieben ich stehe auf." },
+        { "id": "c", "text": "Ich stehe um sieben auf." }
+      ],
+      "correctOptionId": "c"
+    },
+    {
+      "id": "de-a1-u07-l3-ex02",
+      "type": "match_pairs",
+      "pairs": [
+        { "id": "p1", "learning": "aufstehen", "known": "to get up" },
+        { "id": "p2", "learning": "frühstücken", "known": "to have breakfast" },
+        { "id": "p3", "learning": "duschen", "known": "to shower" },
+        { "id": "p4", "learning": "arbeiten", "known": "to work" },
+        { "id": "p5", "learning": "früh", "known": "early" }
+      ]
+    },
+    {
+      "id": "de-a1-u07-l3-ex03",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I get up at six.",
+      "tiles": ["ich", "stehe", "um", "sechs", "Uhr", "auf", "aufstehe", "sieben", "stehst"],
+      "answers": [
+        "Ich stehe um sechs auf.",
+        "Um sechs stehe ich auf.",
+        "Ich stehe um sechs Uhr auf.",
+        "Um sechs Uhr stehe ich auf."
+      ]
+    },
+    {
+      "id": "de-a1-u07-l3-ex04",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a1/u07/de-a1-u07-l3-ex04.mp3" },
+      "tiles": [
+        "morgens",
+        "dusche",
+        "ich",
+        "und",
+        "frühstücke",
+        "dann",
+        "duschst",
+        "früh",
+        "frühstückst"
+      ],
+      "answers": ["Morgens dusche ich und frühstücke dann."]
+    },
+    {
+      "id": "de-a1-u07-l3-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which one means 'to have breakfast'?",
+      "options": [
+        { "id": "a", "text": "früh" },
+        { "id": "b", "text": "duschen" },
+        { "id": "c", "text": "frühstücken" },
+        { "id": "d", "text": "arbeiten" }
+      ],
+      "correctOptionId": "c"
+    },
+    {
+      "id": "de-a1-u07-l3-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Morgens arbeite ich in Berlin.",
+      "tiles": ["in", "in", "the", "morning", "mornings", "I", "work", "Berlin", "evening", "live"],
+      "answers": [
+        "In the morning I work in Berlin.",
+        "I work in Berlin in the morning.",
+        "In the mornings I work in Berlin.",
+        "I work in Berlin in the mornings.",
+        "I work in the morning in Berlin.",
+        "I work in the mornings in Berlin."
+      ]
+    },
+    {
+      "id": "de-a1-u07-l3-ex07",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a1/u07/de-a1-u07-l3-ex07.mp3" },
+      "tiles": ["ich", "stehe", "früh", "auf", "und", "dusche", "aufstehe", "duschst", "dann"],
+      "answers": ["Ich stehe früh auf und dusche."]
+    },
+    {
+      "id": "de-a1-u07-l3-ex08",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'Then I have breakfast'?",
+      "options": [
+        { "id": "a", "text": "Dann ich frühstücke." },
+        { "id": "b", "text": "Dann frühstücke ich." },
+        { "id": "c", "text": "Dann frühstückst ich." },
+        { "id": "d", "text": "Dann frühstücken ich." }
+      ],
+      "correctOptionId": "b"
+    },
+    {
+      "id": "de-a1-u07-l3-ex09",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "In the morning I get up early.",
+      "tiles": ["morgens", "stehe", "ich", "früh", "auf", "aufstehe", "dann", "stehst"],
+      "answers": [
+        "Morgens stehe ich früh auf.",
+        "Ich stehe morgens früh auf.",
+        "Ich stehe früh morgens auf.",
+        "Früh morgens stehe ich auf.",
+        "Morgens früh stehe ich auf."
+      ]
+    },
+    {
+      "id": "de-a1-u07-l3-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "On Wednesday I have breakfast at half past eight.",
+      "tiles": [
+        "am",
+        "Mittwoch",
+        "frühstücke",
+        "ich",
+        "um",
+        "halb",
+        "neun",
+        "acht",
+        "frühstückst",
+        "Uhr"
+      ],
+      "answers": [
+        "Am Mittwoch frühstücke ich um halb neun.",
+        "Ich frühstücke am Mittwoch um halb neun.",
+        "Um halb neun frühstücke ich am Mittwoch.",
+        "Am Mittwoch um halb neun frühstücke ich.",
+        "Ich frühstücke um halb neun am Mittwoch."
+      ]
+    },
+    {
+      "id": "de-a1-u07-l3-ex11",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a1/u07/de-a1-u07-l3-ex11.mp3" },
+      "tiles": ["wir", "frühstücken", "um", "sieben", "Uhr", "frühstückt", "elf", "früh"],
+      "answers": ["Wir frühstücken um sieben Uhr."]
+    },
+    {
+      "id": "de-a1-u07-l3-ex12",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Malik steht um halb sieben auf.",
+      "tiles": ["Malik", "gets", "up", "at", "half", "past", "six", "thirty", "seven", "get", "to"],
+      "answers": ["Malik gets up at half past six.", "Malik gets up at six thirty."]
+    }
+  ]
+}

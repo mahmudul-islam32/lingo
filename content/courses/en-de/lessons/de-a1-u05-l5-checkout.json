@@ -1,0 +1,114 @@
+{
+  "id": "de-a1-u05-l5-checkout",
+  "courseId": "en-de",
+  "unitId": "de-a1-u05",
+  "title": "At the Checkout",
+  "tip": "Staff and customers say Sie. Der still changes to den: Wo finde ich den Reis?",
+  "exercises": [
+    {
+      "id": "de-a1-u05-l5-ex01",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'Where can I find the rice?'",
+      "options": [
+        { "id": "a", "text": "Wo finde ich der Reis?" },
+        { "id": "b", "text": "Wo finde ich den Reis?" },
+        { "id": "c", "text": "Wo findet ich den Reis?" }
+      ],
+      "correctOptionId": "b"
+    },
+    {
+      "id": "de-a1-u05-l5-ex02",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a1/u05/de-a1-u05-l5-ex02.mp3" },
+      "tiles": ["Entschuldigung", "wo", "finde", "ich", "die", "Butter", "den", "was", "Käse"],
+      "answers": ["Entschuldigung, wo finde ich die Butter?"]
+    },
+    {
+      "id": "de-a1-u05-l5-ex03",
+      "type": "match_pairs",
+      "pairs": [
+        { "id": "p1", "learning": "die Kasse", "known": "the checkout" },
+        { "id": "p2", "learning": "die Tüte", "known": "the bag" },
+        { "id": "p3", "learning": "der Kassenbon", "known": "the receipt" },
+        { "id": "p4", "learning": "das Regal", "known": "the shelf" },
+        { "id": "p5", "learning": "sonst noch etwas?", "known": "anything else?" }
+      ]
+    },
+    {
+      "id": "de-a1-u05-l5-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Brauchen Sie eine Tüte?",
+      "tiles": ["do", "you", "need", "a", "bag", "the", "receipt", "buy"],
+      "answers": ["Do you need a bag?"]
+    },
+    {
+      "id": "de-a1-u05-l5-ex05",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I don't need a bag, thank you.",
+      "tiles": ["ich", "brauche", "keine", "Tüte", "danke", "kein", "nicht", "bitte"],
+      "answers": ["Ich brauche keine Tüte, danke.", "Danke, ich brauche keine Tüte."]
+    },
+    {
+      "id": "de-a1-u05-l5-ex06",
+      "type": "multiple_choice",
+      "prompt": "Which one means 'the shelf'?",
+      "options": [
+        { "id": "a", "text": "der Regal" },
+        { "id": "b", "text": "die Regal" },
+        { "id": "c", "text": "das Regal" }
+      ],
+      "correctOptionId": "c"
+    },
+    {
+      "id": "de-a1-u05-l5-ex07",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a1/u05/de-a1-u05-l5-ex07.mp3" },
+      "tiles": ["guten", "Tag", "sonst", "noch", "etwas", "Morgen", "einmal", "was"],
+      "answers": ["Guten Tag! Sonst noch etwas?"]
+    },
+    {
+      "id": "de-a1-u05-l5-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Where can I find the onions?",
+      "tiles": ["wo", "finde", "ich", "die", "Zwiebeln", "den", "Zwiebel", "was"],
+      "answers": ["Wo finde ich die Zwiebeln?"]
+    },
+    {
+      "id": "de-a1-u05-l5-ex09",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'Would you like the receipt? (formal)'?",
+      "options": [
+        { "id": "a", "text": "Möchten Sie den Kassenbon?" },
+        { "id": "b", "text": "Möchten Sie der Kassenbon?" },
+        { "id": "c", "text": "Möchtest Sie den Kassenbon?" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "de-a1-u05-l5-ex10",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a1/u05/de-a1-u05-l5-ex10.mp3" },
+      "tiles": ["das", "macht", "zusammen", "zwölf", "Euro", "vierzig", "vierzehn", "zwei", "Cent"],
+      "answers": ["Das macht zusammen zwölf Euro vierzig."]
+    },
+    {
+      "id": "de-a1-u05-l5-ex11",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Wo ist die Kasse?",
+      "tiles": ["where", "is", "where's", "the", "checkout", "bag", "shelf", "what"],
+      "answers": ["Where is the checkout?", "Where's the checkout?"]
+    },
+    {
+      "id": "de-a1-u05-l5-ex12",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "No, thank you, that's all.",
+      "tiles": ["nein", "danke", "das", "ist", "alles", "doch", "bitte", "etwas"],
+      "answers": ["Nein, danke, das ist alles.", "Nein, das ist alles, danke."]
+    }
+  ]
+}

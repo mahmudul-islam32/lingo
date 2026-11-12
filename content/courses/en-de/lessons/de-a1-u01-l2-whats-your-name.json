@@ -1,0 +1,122 @@
+{
+  "id": "de-a1-u01-l2-whats-your-name",
+  "courseId": "en-de",
+  "unitId": "de-a1-u01",
+  "title": "What's Your Name?",
+  "tip": "Every German noun starts with a capital letter: der Name. Ask a friend: Wie heißt du?",
+  "exercises": [
+    {
+      "id": "de-a1-u01-l2-ex01",
+      "type": "multiple_choice",
+      "prompt": "Which one means 'my name is'?",
+      "options": [
+        { "id": "a", "text": "Mein Name ist" },
+        { "id": "b", "text": "Wie heißt du?" },
+        { "id": "c", "text": "Du heißt" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "de-a1-u01-l2-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which one means 'What's your name? (to a friend)'?",
+      "options": [
+        { "id": "a", "text": "Wie heiße du?" },
+        { "id": "b", "text": "Wie heißt du?" },
+        { "id": "c", "text": "Wie heißt ich?" }
+      ],
+      "correctOptionId": "b"
+    },
+    {
+      "id": "de-a1-u01-l2-ex03",
+      "type": "match_pairs",
+      "pairs": [
+        { "id": "p1", "learning": "ich", "known": "I" },
+        { "id": "p2", "learning": "du", "known": "you (to a friend)" },
+        { "id": "p3", "learning": "der Name", "known": "the name" },
+        { "id": "p4", "learning": "und", "known": "and" },
+        { "id": "p5", "learning": "ich heiße", "known": "my name is" }
+      ]
+    },
+    {
+      "id": "de-a1-u01-l2-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "My name is Lena.",
+      "tiles": ["ich", "heiße", "Lena", "mein", "Name", "ist", "du"],
+      "answers": [
+        "Ich heiße Lena.",
+        "Mein Name ist Lena.",
+        "Lena ist mein Name.",
+        "Lena heiße ich."
+      ]
+    },
+    {
+      "id": "de-a1-u01-l2-ex05",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a1/u01/de-a1-u01-l2-ex05.mp3" },
+      "tiles": ["hallo", "ich", "heiße", "Mehmet", "du", "heißt", "wie"],
+      "answers": ["Hallo, ich heiße Mehmet."]
+    },
+    {
+      "id": "de-a1-u01-l2-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Wie heißt du?",
+      "tiles": ["what's", "what", "is", "your", "name", "my"],
+      "answers": ["What's your name?", "What is your name?"]
+    },
+    {
+      "id": "de-a1-u01-l2-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which one means 'the name'?",
+      "options": [
+        { "id": "a", "text": "mein Name" },
+        { "id": "b", "text": "ich heiße" },
+        { "id": "c", "text": "der Name" }
+      ],
+      "correctOptionId": "c"
+    },
+    {
+      "id": "de-a1-u01-l2-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "My name is Arjun. And you?",
+      "tiles": ["ich", "heiße", "Arjun", "und", "du", "heißt", "mein"],
+      "answers": ["Ich heiße Arjun. Und du?", "Arjun heiße ich. Und du?"]
+    },
+    {
+      "id": "de-a1-u01-l2-ex09",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a1/u01/de-a1-u01-l2-ex09.mp3" },
+      "tiles": ["wie", "heißt", "du", "heiße", "ich", "und"],
+      "answers": ["Wie heißt du?"]
+    },
+    {
+      "id": "de-a1-u01-l2-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Mein Name ist Sofia.",
+      "tiles": ["my", "name", "is", "Sofia", "your", "what", "and"],
+      "answers": ["My name is Sofia.", "Sofia is my name."]
+    },
+    {
+      "id": "de-a1-u01-l2-ex11",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'Your name is Nora. (to a friend)'?",
+      "options": [
+        { "id": "a", "text": "Ich heiße Nora." },
+        { "id": "b", "text": "Du heiße Nora." },
+        { "id": "c", "text": "Du heißt Nora." }
+      ],
+      "correctOptionId": "c"
+    },
+    {
+      "id": "de-a1-u01-l2-ex12",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a1/u01/de-a1-u01-l2-ex12.mp3" },
+      "tiles": ["mein", "Name", "ist", "Tomasz", "ich", "heißt", "und"],
+      "answers": ["Mein Name ist Tomasz."]
+    }
+  ]
+}

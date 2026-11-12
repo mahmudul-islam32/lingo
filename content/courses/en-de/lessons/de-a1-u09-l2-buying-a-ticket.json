@@ -1,0 +1,140 @@
+{
+  "id": "de-a1-u09-l2-buying-a-ticket",
+  "courseId": "en-de",
+  "unitId": "de-a1-u09",
+  "title": "Buying a Ticket",
+  "tip": "Use nach with cities: nach Hamburg. Nehmen changes its vowel: ich nehme, du nimmst.",
+  "exercises": [
+    {
+      "id": "de-a1-u09-l2-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        { "id": "p1", "learning": "die Fahrkarte", "known": "the ticket" },
+        { "id": "p2", "learning": "einfach", "known": "one-way" },
+        { "id": "p3", "learning": "hin und zurück", "known": "return (there and back)" },
+        { "id": "p4", "learning": "der Automat", "known": "the ticket machine" },
+        { "id": "p5", "learning": "nehmen", "known": "to take" }
+      ]
+    },
+    {
+      "id": "de-a1-u09-l2-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which one means 'the ticket'?",
+      "options": [
+        { "id": "a", "text": "der Fahrkarte" },
+        { "id": "b", "text": "die Fahrkarte" },
+        { "id": "c", "text": "das Fahrkarte" }
+      ],
+      "correctOptionId": "b"
+    },
+    {
+      "id": "de-a1-u09-l2-ex03",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "A ticket to Hamburg, please.",
+      "tiles": ["eine", "Fahrkarte", "nach", "Hamburg", "bitte", "ein", "in", "danke"],
+      "answers": ["Eine Fahrkarte nach Hamburg, bitte.", "Bitte eine Fahrkarte nach Hamburg."]
+    },
+    {
+      "id": "de-a1-u09-l2-ex04",
+      "type": "multiple_choice",
+      "prompt": "Which one means 'one-way' (ticket)?",
+      "options": [
+        { "id": "a", "text": "hin und zurück" },
+        { "id": "b", "text": "zum Mitnehmen" },
+        { "id": "c", "text": "einfach" },
+        { "id": "d", "text": "noch einmal" }
+      ],
+      "correctOptionId": "c"
+    },
+    {
+      "id": "de-a1-u09-l2-ex05",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a1/u09/de-a1-u09-l2-ex05.mp3" },
+      "tiles": ["nach", "Köln", "hin", "und", "zurück", "bitte", "in", "einfach", "danke"],
+      "answers": ["Nach Köln, hin und zurück, bitte."]
+    },
+    {
+      "id": "de-a1-u09-l2-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I'm taking the bus.",
+      "tiles": ["ich", "nehme", "den", "Bus", "nimmst", "der", "du"],
+      "answers": ["Ich nehme den Bus.", "Den Bus nehme ich."]
+    },
+    {
+      "id": "de-a1-u09-l2-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'Are you taking the tram?' (to a friend)",
+      "options": [
+        { "id": "a", "text": "Nimmst du die Straßenbahn?" },
+        { "id": "b", "text": "Nehmst du die Straßenbahn?" },
+        { "id": "c", "text": "Nimmt du die Straßenbahn?" },
+        { "id": "d", "text": "Nehmen du die Straßenbahn?" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "de-a1-u09-l2-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Die Fahrkarte nach Bremen kostet zwanzig Euro.",
+      "tiles": ["the", "ticket", "to", "Bremen", "costs", "is", "twenty", "euros", "from", "ten"],
+      "answers": [
+        "The ticket to Bremen costs twenty euros.",
+        "The ticket to Bremen is twenty euros."
+      ]
+    },
+    {
+      "id": "de-a1-u09-l2-ex09",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a1/u09/de-a1-u09-l2-ex09.mp3" },
+      "tiles": ["Entschuldigung", "wo", "ist", "der", "Automat", "die", "wer", "sind"],
+      "answers": ["Entschuldigung, wo ist der Automat?"]
+    },
+    {
+      "id": "de-a1-u09-l2-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I need a return ticket to Munich.",
+      "tiles": [
+        "ich",
+        "brauche",
+        "eine",
+        "Fahrkarte",
+        "nach",
+        "München",
+        "hin",
+        "und",
+        "zurück",
+        "einfach",
+        "in",
+        "ein"
+      ],
+      "answers": [
+        "Ich brauche eine Fahrkarte nach München, hin und zurück.",
+        "Ich brauche eine Fahrkarte hin und zurück nach München.",
+        "Nach München brauche ich eine Fahrkarte, hin und zurück."
+      ]
+    },
+    {
+      "id": "de-a1-u09-l2-ex11",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'I'm going to Leipzig'?",
+      "options": [
+        { "id": "a", "text": "Ich fahre in Leipzig." },
+        { "id": "b", "text": "Ich fahre nach Leipzig." },
+        { "id": "c", "text": "Ich fahre aus Leipzig." },
+        { "id": "d", "text": "Ich fahre zu Leipzig." }
+      ],
+      "correctOptionId": "b"
+    },
+    {
+      "id": "de-a1-u09-l2-ex12",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a1/u09/de-a1-u09-l2-ex12.mp3" },
+      "tiles": ["ich", "nehme", "die", "Bahn", "nach", "Dresden", "nimmst", "in", "der"],
+      "answers": ["Ich nehme die Bahn nach Dresden."]
+    }
+  ]
+}

@@ -1,0 +1,149 @@
+{
+  "id": "de-a1-u11-l2-what-hurts",
+  "courseId": "en-de",
+  "unitId": "de-a1-u11",
+  "title": "What Hurts?",
+  "tip": "One thing hurts: tut weh. Two or more: tun weh. Mein Kopf tut weh, meine Augen tun weh.",
+  "exercises": [
+    {
+      "id": "de-a1-u11-l2-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        { "id": "p1", "learning": "tut weh", "known": "hurts" },
+        { "id": "p2", "learning": "die Schmerzen", "known": "the pain" },
+        { "id": "p3", "learning": "krank", "known": "ill" },
+        { "id": "p4", "learning": "das Fieber", "known": "the fever" },
+        { "id": "p5", "learning": "der Husten", "known": "the cough" }
+      ]
+    },
+    {
+      "id": "de-a1-u11-l2-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'My eyes hurt'?",
+      "options": [
+        { "id": "a", "text": "Meine Augen tut weh." },
+        { "id": "b", "text": "Mein Augen tun weh." },
+        { "id": "c", "text": "Meine Augen tun weh." },
+        { "id": "d", "text": "Meine Auge tun weh." }
+      ],
+      "correctOptionId": "c"
+    },
+    {
+      "id": "de-a1-u11-l2-ex03",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "My head hurts.",
+      "tiles": ["mein", "Kopf", "tut", "weh", "meine", "tun", "Bauch"],
+      "answers": ["Mein Kopf tut weh."]
+    },
+    {
+      "id": "de-a1-u11-l2-ex04",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a1/u11/de-a1-u11-l2-ex04.mp3" },
+      "tiles": ["ich", "habe", "Kopfschmerzen", "und", "Fieber", "hat", "Husten", "Bauchschmerzen"],
+      "answers": ["Ich habe Kopfschmerzen und Fieber."]
+    },
+    {
+      "id": "de-a1-u11-l2-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'I have a headache'?",
+      "options": [
+        { "id": "a", "text": "Ich bin Kopfschmerzen." },
+        { "id": "b", "text": "Ich habe Kopfschmerzen." },
+        { "id": "c", "text": "Ich habe Bauchschmerzen." },
+        { "id": "d", "text": "Mein Kopfschmerzen tut weh." }
+      ],
+      "correctOptionId": "b"
+    },
+    {
+      "id": "de-a1-u11-l2-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Meine Beine tun weh.",
+      "tiles": ["my", "legs", "hurt", "hurts", "leg", "arms"],
+      "answers": ["My legs hurt."]
+    },
+    {
+      "id": "de-a1-u11-l2-ex07",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I have a sore throat.",
+      "tiles": [
+        "ich",
+        "habe",
+        "Halsschmerzen",
+        "mein",
+        "Hals",
+        "tut",
+        "weh",
+        "Kopfschmerzen",
+        "tun",
+        "bin"
+      ],
+      "answers": ["Ich habe Halsschmerzen.", "Mein Hals tut weh.", "Halsschmerzen habe ich."]
+    },
+    {
+      "id": "de-a1-u11-l2-ex08",
+      "type": "multiple_choice",
+      "prompt": "Which one means 'ill'?",
+      "options": [
+        { "id": "a", "text": "kalt" },
+        { "id": "b", "text": "klein" },
+        { "id": "c", "text": "nett" },
+        { "id": "d", "text": "krank" }
+      ],
+      "correctOptionId": "d"
+    },
+    {
+      "id": "de-a1-u11-l2-ex09",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a1/u11/de-a1-u11-l2-ex09.mp3" },
+      "tiles": [
+        "mein",
+        "Rücken",
+        "tut",
+        "weh",
+        "ich",
+        "habe",
+        "Rückenschmerzen",
+        "tun",
+        "meine",
+        "hat"
+      ],
+      "answers": ["Mein Rücken tut weh. Ich habe Rückenschmerzen."]
+    },
+    {
+      "id": "de-a1-u11-l2-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Do you have a fever? (to a friend)",
+      "tiles": ["hast", "du", "Fieber", "habe", "Husten", "bist", "ich"],
+      "answers": ["Hast du Fieber?"]
+    },
+    {
+      "id": "de-a1-u11-l2-ex11",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'Where does it hurt?'",
+      "options": [
+        { "id": "a", "text": "Wo tut es weh?" },
+        { "id": "b", "text": "Wo tun es weh?" },
+        { "id": "c", "text": "Wo es tut weh?" },
+        { "id": "d", "text": "Wo tut weh es?" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "de-a1-u11-l2-ex12",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Sie ist krank und hat Fieber.",
+      "tiles": ["she", "is", "ill", "sick", "and", "has", "a", "fever", "he", "cough", "have"],
+      "answers": [
+        "She is ill and has a fever.",
+        "She is sick and has a fever.",
+        "She has a fever and is ill.",
+        "She has a fever and is sick."
+      ]
+    }
+  ]
+}

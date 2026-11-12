@@ -1,0 +1,136 @@
+{
+  "id": "de-a1-u08-l4-i-can-swim",
+  "courseId": "en-de",
+  "unitId": "de-a1-u08",
+  "title": "I Can Swim",
+  "tip": "With können, the second verb goes to the very end: Ich kann gut schwimmen.",
+  "exercises": [
+    {
+      "id": "de-a1-u08-l4-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        { "id": "p1", "learning": "ich kann", "known": "I can" },
+        { "id": "p2", "learning": "singen", "known": "to sing" },
+        { "id": "p3", "learning": "malen", "known": "to paint" },
+        { "id": "p4", "learning": "die Gitarre", "known": "the guitar" },
+        { "id": "p5", "learning": "das Klavier", "known": "the piano" }
+      ]
+    },
+    {
+      "id": "de-a1-u08-l4-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'I can play the piano'?",
+      "options": [
+        { "id": "a", "text": "Ich kann spielen Klavier." },
+        { "id": "b", "text": "Ich kann Klavier spielen." },
+        { "id": "c", "text": "Ich spielen kann Klavier." },
+        { "id": "d", "text": "Ich kann Klavier spiele." }
+      ],
+      "correctOptionId": "b"
+    },
+    {
+      "id": "de-a1-u08-l4-ex03",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I can swim well.",
+      "tiles": ["ich", "kann", "gut", "schwimmen", "kannst", "schwimme", "du"],
+      "answers": [
+        "Ich kann gut schwimmen.",
+        "Schwimmen kann ich gut.",
+        "Gut schwimmen kann ich.",
+        "Gut kann ich schwimmen."
+      ]
+    },
+    {
+      "id": "de-a1-u08-l4-ex04",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a1/u08/de-a1-u08-l4-ex04.mp3" },
+      "tiles": ["kannst", "du", "Gitarre", "spielen", "kann", "ich", "spielst", "Klavier"],
+      "answers": ["Kannst du Gitarre spielen?"]
+    },
+    {
+      "id": "de-a1-u08-l4-ex05",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Can you sing? (to a friend)",
+      "tiles": ["kannst", "du", "singen", "kann", "singst", "ich"],
+      "answers": ["Kannst du singen?"]
+    },
+    {
+      "id": "de-a1-u08-l4-ex06",
+      "type": "multiple_choice",
+      "prompt": "Which one means 'the guitar'?",
+      "options": [
+        { "id": "a", "text": "der Gitarre" },
+        { "id": "b", "text": "das Gitarre" },
+        { "id": "c", "text": "die Gitarre" }
+      ],
+      "correctOptionId": "c"
+    },
+    {
+      "id": "de-a1-u08-l4-ex07",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "He can't cook.",
+      "tiles": ["er", "kann", "nicht", "kochen", "kocht", "kein", "gut"],
+      "answers": ["Er kann nicht kochen.", "Kochen kann er nicht."]
+    },
+    {
+      "id": "de-a1-u08-l4-ex08",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a1/u08/de-a1-u08-l4-ex08.mp3" },
+      "tiles": [
+        "ich",
+        "kann",
+        "ein",
+        "bisschen",
+        "Klavier",
+        "spielen",
+        "kannst",
+        "Gitarre",
+        "spiele"
+      ],
+      "answers": ["Ich kann ein bisschen Klavier spielen."]
+    },
+    {
+      "id": "de-a1-u08-l4-ex09",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Kannst du malen?",
+      "tiles": ["can", "you", "paint", "draw", "sing", "I"],
+      "answers": ["Can you paint?", "Can you draw?"]
+    },
+    {
+      "id": "de-a1-u08-l4-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "We can play football on Saturday.",
+      "tiles": ["wir", "können", "am", "Samstag", "Fußball", "spielen", "spielt", "Sonntag", "ihr"],
+      "answers": [
+        "Wir können am Samstag Fußball spielen.",
+        "Am Samstag können wir Fußball spielen.",
+        "Fußball können wir am Samstag spielen.",
+        "Wir können Fußball am Samstag spielen."
+      ]
+    },
+    {
+      "id": "de-a1-u08-l4-ex11",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'Can you swim well?'",
+      "options": [
+        { "id": "a", "text": "Kannst du gut schwimmen?" },
+        { "id": "b", "text": "Kannst du schwimmen gut?" },
+        { "id": "c", "text": "Kann du gut schwimmen?" },
+        { "id": "d", "text": "Kannst du gut schwimmst?" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "de-a1-u08-l4-ex12",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a1/u08/de-a1-u08-l4-ex12.mp3" },
+      "tiles": ["Leyla", "singt", "gern", "sie", "kann", "auch", "gut", "malen", "singen", "malt"],
+      "answers": ["Leyla singt gern. Sie kann auch gut malen."]
+    }
+  ]
+}

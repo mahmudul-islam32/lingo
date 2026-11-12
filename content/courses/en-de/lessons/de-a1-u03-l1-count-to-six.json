@@ -1,0 +1,118 @@
+{
+  "id": "de-a1-u03-l1-count-to-six",
+  "courseId": "en-de",
+  "unitId": "de-a1-u03",
+  "title": "Count to Six",
+  "tip": "Zero is null. The ü in fünf is its own sound: say 'ee' with rounded lips.",
+  "exercises": [
+    {
+      "id": "de-a1-u03-l1-ex01",
+      "type": "multiple_choice",
+      "prompt": "Which one means 'three'?",
+      "options": [
+        { "id": "a", "text": "zwei" },
+        { "id": "b", "text": "drei" },
+        { "id": "c", "text": "vier" }
+      ],
+      "correctOptionId": "b"
+    },
+    {
+      "id": "de-a1-u03-l1-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which one means 'five'?",
+      "options": [
+        { "id": "a", "text": "vier" },
+        { "id": "b", "text": "sechs" },
+        { "id": "c", "text": "fünf" },
+        { "id": "d", "text": "eins" }
+      ],
+      "correctOptionId": "c"
+    },
+    {
+      "id": "de-a1-u03-l1-ex03",
+      "type": "match_pairs",
+      "pairs": [
+        { "id": "p1", "learning": "null", "known": "zero" },
+        { "id": "p2", "learning": "eins", "known": "one" },
+        { "id": "p3", "learning": "zwei", "known": "two" },
+        { "id": "p4", "learning": "vier", "known": "four" },
+        { "id": "p5", "learning": "sechs", "known": "six" }
+      ]
+    },
+    {
+      "id": "de-a1-u03-l1-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "One, two, three.",
+      "tiles": ["eins", "zwei", "drei", "vier", "sechs"],
+      "answers": ["Eins, zwei, drei."]
+    },
+    {
+      "id": "de-a1-u03-l1-ex05",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a1/u03/de-a1-u03-l1-ex05.mp3" },
+      "tiles": ["vier", "fünf", "sechs", "drei", "null", "zwei"],
+      "answers": ["Vier, fünf, sechs."]
+    },
+    {
+      "id": "de-a1-u03-l1-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Zwei und zwei ist vier.",
+      "tiles": ["two", "and", "two", "is", "four", "are", "three", "five"],
+      "answers": ["Two and two is four.", "Two and two are four."]
+    },
+    {
+      "id": "de-a1-u03-l1-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which one means 'zero'?",
+      "options": [
+        { "id": "a", "text": "null" },
+        { "id": "b", "text": "eins" },
+        { "id": "c", "text": "sechs" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "de-a1-u03-l1-ex08",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a1/u03/de-a1-u03-l1-ex08.mp3" },
+      "tiles": ["drei", "und", "drei", "ist", "sechs", "zwei", "vier", "fünf"],
+      "answers": ["Drei und drei ist sechs."]
+    },
+    {
+      "id": "de-a1-u03-l1-ex09",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Zero, one, two.",
+      "tiles": ["null", "eins", "zwei", "drei", "fünf"],
+      "answers": ["Null, eins, zwei."]
+    },
+    {
+      "id": "de-a1-u03-l1-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Fünf, vier, drei, zwei, eins, null!",
+      "tiles": ["five", "four", "three", "two", "one", "zero", "six", "ten"],
+      "answers": ["Five, four, three, two, one, zero!"]
+    },
+    {
+      "id": "de-a1-u03-l1-ex11",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'One and five is six'?",
+      "options": [
+        { "id": "a", "text": "Eins und vier ist sechs." },
+        { "id": "b", "text": "Eins und fünf ist sechs." },
+        { "id": "c", "text": "Eins und fünf ist vier." }
+      ],
+      "correctOptionId": "b"
+    },
+    {
+      "id": "de-a1-u03-l1-ex12",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a1/u03/de-a1-u03-l1-ex12.mp3" },
+      "tiles": ["null", "eins", "zwei", "drei", "vier", "fünf", "sechs", "und", "ist"],
+      "answers": ["Null, eins, zwei, drei, vier, fünf, sechs."]
+    }
+  ]
+}

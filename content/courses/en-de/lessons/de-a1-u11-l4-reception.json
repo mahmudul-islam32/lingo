@@ -1,0 +1,143 @@
+{
+  "id": "de-a1-u11-l4-reception",
+  "courseId": "en-de",
+  "unitId": "de-a1-u11",
+  "title": "At the Reception",
+  "tip": "Darf ich …? asks for permission. The second verb goes to the end: Darf ich hier warten?",
+  "exercises": [
+    {
+      "id": "de-a1-u11-l4-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        { "id": "p1", "learning": "die Krankenkasse", "known": "the health insurance company" },
+        { "id": "p2", "learning": "die Versichertenkarte", "known": "the health insurance card" },
+        { "id": "p3", "learning": "das Wartezimmer", "known": "the waiting room" },
+        { "id": "p4", "learning": "Nehmen Sie bitte Platz.", "known": "Please take a seat." },
+        { "id": "p5", "learning": "darf ich …?", "known": "may I …?" }
+      ]
+    },
+    {
+      "id": "de-a1-u11-l4-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'May I wait here?'",
+      "options": [
+        { "id": "a", "text": "Darf ich warten hier?" },
+        { "id": "b", "text": "Darf ich hier warten?" },
+        { "id": "c", "text": "Dürfen ich hier warten?" },
+        { "id": "d", "text": "Darf ich hier warte?" }
+      ],
+      "correctOptionId": "b"
+    },
+    {
+      "id": "de-a1-u11-l4-ex03",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Here is my health insurance card.",
+      "tiles": ["hier", "ist", "meine", "Versichertenkarte", "mein", "Krankenkasse", "sind"],
+      "answers": ["Hier ist meine Versichertenkarte.", "Meine Versichertenkarte ist hier."]
+    },
+    {
+      "id": "de-a1-u11-l4-ex04",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a1/u11/de-a1-u11-l4-ex04.mp3" },
+      "tiles": ["nehmen", "Sie", "bitte", "Platz", "nimmst", "du", "danke"],
+      "answers": ["Nehmen Sie bitte Platz."]
+    },
+    {
+      "id": "de-a1-u11-l4-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which one means 'the waiting room'?",
+      "options": [
+        { "id": "a", "text": "das Schlafzimmer" },
+        { "id": "b", "text": "das Wohnzimmer" },
+        { "id": "c", "text": "die Krankenkasse" },
+        { "id": "d", "text": "das Wartezimmer" }
+      ],
+      "correctOptionId": "d"
+    },
+    {
+      "id": "de-a1-u11-l4-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Wie heißt Ihre Krankenkasse?",
+      "tiles": [
+        "what",
+        "is",
+        "your",
+        "health",
+        "insurance",
+        "company",
+        "called",
+        "the",
+        "name",
+        "of",
+        "card",
+        "are"
+      ],
+      "answers": [
+        "What is your health insurance company called?",
+        "What is the name of your health insurance company?"
+      ]
+    },
+    {
+      "id": "de-a1-u11-l4-ex07",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "May I call tomorrow?",
+      "tiles": ["darf", "ich", "morgen", "anrufen", "gestern", "du", "rufe", "an"],
+      "answers": ["Darf ich morgen anrufen?"]
+    },
+    {
+      "id": "de-a1-u11-l4-ex08",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a1/u11/de-a1-u11-l4-ex08.mp3" },
+      "tiles": ["haben", "Sie", "Ihre", "Versichertenkarte", "hast", "du", "deine", "Krankenkasse"],
+      "answers": ["Haben Sie Ihre Versichertenkarte?"]
+    },
+    {
+      "id": "de-a1-u11-l4-ex09",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'Please wait here. (formal)'?",
+      "options": [
+        { "id": "a", "text": "Wartet Sie bitte hier." },
+        { "id": "b", "text": "Warten bitte Sie hier." },
+        { "id": "c", "text": "Warten Sie bitte hier." },
+        { "id": "d", "text": "Warte Sie bitte hier." }
+      ],
+      "correctOptionId": "c"
+    },
+    {
+      "id": "de-a1-u11-l4-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "The doctor is coming now.",
+      "tiles": ["der", "Arzt", "die", "Ärztin", "kommt", "jetzt", "kommen", "heute"],
+      "answers": [
+        "Der Arzt kommt jetzt.",
+        "Die Ärztin kommt jetzt.",
+        "Jetzt kommt der Arzt.",
+        "Jetzt kommt die Ärztin."
+      ]
+    },
+    {
+      "id": "de-a1-u11-l4-ex11",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a1/u11/de-a1-u11-l4-ex11.mp3" },
+      "tiles": ["das", "Wartezimmer", "ist", "hier", "rechts", "links", "Zimmer", "sind"],
+      "answers": ["Das Wartezimmer ist hier rechts."]
+    },
+    {
+      "id": "de-a1-u11-l4-ex12",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Darf ich hier Wasser trinken?",
+      "tiles": ["may", "I", "drink", "water", "here", "can", "some", "eat", "you", "there"],
+      "answers": [
+        "May I drink water here?",
+        "Can I drink water here?",
+        "May I drink some water here?",
+        "Can I drink some water here?"
+      ]
+    }
+  ]
+}

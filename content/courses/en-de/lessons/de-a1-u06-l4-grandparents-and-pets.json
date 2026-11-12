@@ -1,0 +1,119 @@
+{
+  "id": "de-a1-u06-l4-grandparents-and-pets",
+  "courseId": "en-de",
+  "unitId": "de-a1-u06",
+  "title": "Grandparents and Pets",
+  "tip": "Sein means his and ihr means her: Ben und seine Katze, Lea und ihr Hund.",
+  "exercises": [
+    {
+      "id": "de-a1-u06-l4-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        { "id": "p1", "learning": "die Großeltern", "known": "the grandparents" },
+        { "id": "p2", "learning": "die Oma", "known": "grandma" },
+        { "id": "p3", "learning": "der Opa", "known": "grandpa" },
+        { "id": "p4", "learning": "der Hund", "known": "the dog" },
+        { "id": "p5", "learning": "die Katze", "known": "the cat" }
+      ]
+    },
+    {
+      "id": "de-a1-u06-l4-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which one means 'the photo'?",
+      "options": [
+        { "id": "a", "text": "der Foto" },
+        { "id": "b", "text": "die Foto" },
+        { "id": "c", "text": "das Foto" }
+      ],
+      "correctOptionId": "c"
+    },
+    {
+      "id": "de-a1-u06-l4-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'Ben has a cat. His cat is called Momo.'?",
+      "options": [
+        { "id": "a", "text": "Ben hat eine Katze. Seine Katze heißt Momo." },
+        { "id": "b", "text": "Ben hat eine Katze. Ihre Katze heißt Momo." },
+        { "id": "c", "text": "Ben hat eine Katze. Sein Katze heißt Momo." }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "de-a1-u06-l4-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Do you have a dog? (to a friend)",
+      "tiles": ["hast", "du", "einen", "Hund", "ein", "eine", "Katze", "habe"],
+      "answers": ["Hast du einen Hund?"]
+    },
+    {
+      "id": "de-a1-u06-l4-ex05",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a1/u06/de-a1-u06-l4-ex05.mp3" },
+      "tiles": ["meine", "Großeltern", "wohnen", "in", "Salzburg", "mein", "wohnt", "aus"],
+      "answers": ["Meine Großeltern wohnen in Salzburg."]
+    },
+    {
+      "id": "de-a1-u06-l4-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Lea und ihr Hund wohnen in Bonn.",
+      "tiles": ["Lea", "and", "her", "his", "dog", "live", "lives", "in", "Bonn", "cat"],
+      "answers": ["Lea and her dog live in Bonn."]
+    },
+    {
+      "id": "de-a1-u06-l4-ex07",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Emil and his husband live in Leipzig.",
+      "tiles": ["Emil", "und", "sein", "Mann", "wohnen", "in", "Leipzig", "ihr", "wohnt", "Frau"],
+      "answers": ["Emil und sein Mann wohnen in Leipzig."]
+    },
+    {
+      "id": "de-a1-u06-l4-ex08",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'Grandma has a cat.'?",
+      "options": [
+        { "id": "a", "text": "Oma hat einen Katze." },
+        { "id": "b", "text": "Oma hat eine Katze." },
+        { "id": "c", "text": "Oma hat ein Katze." },
+        { "id": "d", "text": "Opa hat eine Katze." }
+      ],
+      "correctOptionId": "b"
+    },
+    {
+      "id": "de-a1-u06-l4-ex09",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a1/u06/de-a1-u06-l4-ex09.mp3" },
+      "tiles": ["mein", "Opa", "ist", "achtzig", "Jahre", "alt", "meine", "Oma", "achtzehn"],
+      "answers": ["Mein Opa ist achtzig Jahre alt."]
+    },
+    {
+      "id": "de-a1-u06-l4-ex10",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'Nia is ten. Her grandpa is seventy.'?",
+      "options": [
+        { "id": "a", "text": "Nia ist zehn. Sein Opa ist siebzig." },
+        { "id": "b", "text": "Nia ist zehn. Ihre Opa ist siebzig." },
+        { "id": "c", "text": "Nia ist zehn. Ihr Opa ist siebzehn." },
+        { "id": "d", "text": "Nia ist zehn. Ihr Opa ist siebzig." }
+      ],
+      "correctOptionId": "d"
+    },
+    {
+      "id": "de-a1-u06-l4-ex11",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Hast du ein Foto?",
+      "tiles": ["do", "you", "have", "a", "photo", "has", "the", "dog"],
+      "answers": ["Do you have a photo?"]
+    },
+    {
+      "id": "de-a1-u06-l4-ex12",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a1/u06/de-a1-u06-l4-ex12.mp3" },
+      "tiles": ["meine", "Oma", "und", "ihr", "Hund", "wohnen", "in", "Kiel", "sein", "wohnt"],
+      "answers": ["Meine Oma und ihr Hund wohnen in Kiel."]
+    }
+  ]
+}

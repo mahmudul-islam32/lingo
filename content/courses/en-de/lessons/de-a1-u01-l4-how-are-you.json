@@ -1,0 +1,114 @@
+{
+  "id": "de-a1-u01-l4-how-are-you",
+  "courseId": "en-de",
+  "unitId": "de-a1-u01",
+  "title": "How Are You?",
+  "tip": "Ask a friend 'Wie geht's?' and a stranger 'Wie geht es Ihnen?'. A short answer: Gut, danke.",
+  "exercises": [
+    {
+      "id": "de-a1-u01-l4-ex01",
+      "type": "multiple_choice",
+      "prompt": "Which one means 'How are you? (to a friend)'?",
+      "options": [
+        { "id": "a", "text": "Wie geht's?" },
+        { "id": "b", "text": "Wie geht es Ihnen?" },
+        { "id": "c", "text": "Wie heißen Sie?" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "de-a1-u01-l4-ex02",
+      "type": "match_pairs",
+      "pairs": [
+        { "id": "p1", "learning": "gut", "known": "good" },
+        { "id": "p2", "learning": "sehr", "known": "very" },
+        { "id": "p3", "learning": "auch", "known": "too" },
+        { "id": "p4", "learning": "nicht so gut", "known": "not so good" },
+        { "id": "p5", "learning": "und dir?", "known": "and you? (to a friend)" }
+      ]
+    },
+    {
+      "id": "de-a1-u01-l4-ex03",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I'm fine, thanks.",
+      "tiles": ["gut", "danke", "sehr", "bitte", "nicht", "auch"],
+      "answers": ["Gut, danke.", "Danke, gut."]
+    },
+    {
+      "id": "de-a1-u01-l4-ex04",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a1/u01/de-a1-u01-l4-ex04.mp3" },
+      "tiles": ["wie", "geht's", "Leila", "Ihnen", "heißt", "gut"],
+      "answers": ["Wie geht's, Leila?"]
+    },
+    {
+      "id": "de-a1-u01-l4-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which one means 'How are you? (formal)'?",
+      "options": [
+        { "id": "a", "text": "Wie geht es du?" },
+        { "id": "b", "text": "Wie geht es Sie?" },
+        { "id": "c", "text": "Wie geht es Ihnen?" }
+      ],
+      "correctOptionId": "c"
+    },
+    {
+      "id": "de-a1-u01-l4-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Sehr gut, danke. Und dir?",
+      "tiles": ["very", "good", "well", "thanks", "and", "you", "not", "too"],
+      "answers": ["Very good, thanks. And you?", "Very well, thanks. And you?"]
+    },
+    {
+      "id": "de-a1-u01-l4-ex07",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "How are you? (formal)",
+      "tiles": ["wie", "geht", "es", "Ihnen", "geht's", "dir", "und"],
+      "answers": ["Wie geht es Ihnen?"]
+    },
+    {
+      "id": "de-a1-u01-l4-ex08",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a1/u01/de-a1-u01-l4-ex08.mp3" },
+      "tiles": ["nicht", "so", "gut", "und", "Ihnen", "sehr", "auch", "dir"],
+      "answers": ["Nicht so gut. Und Ihnen?"]
+    },
+    {
+      "id": "de-a1-u01-l4-ex09",
+      "type": "multiple_choice",
+      "prompt": "Which one means 'Good, thanks. And you? (formal)'?",
+      "options": [
+        { "id": "a", "text": "Gut, danke. Und dir?" },
+        { "id": "b", "text": "Gut, danke. Und Ihnen?" },
+        { "id": "c", "text": "Gut, bitte. Und Ihnen?" }
+      ],
+      "correctOptionId": "b"
+    },
+    {
+      "id": "de-a1-u01-l4-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Good, thanks. And you? (to a friend)",
+      "tiles": ["gut", "danke", "und", "dir", "Ihnen", "bitte", "sehr"],
+      "answers": ["Gut, danke. Und dir?", "Danke, gut. Und dir?"]
+    },
+    {
+      "id": "de-a1-u01-l4-ex11",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Wie geht es Ihnen, Frau Novak?",
+      "tiles": ["how", "are", "you", "Mrs", "Ms", "Novak", "what", "Mr"],
+      "answers": ["How are you, Mrs Novak?", "How are you, Ms Novak?"]
+    },
+    {
+      "id": "de-a1-u01-l4-ex12",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a1/u01/de-a1-u01-l4-ex12.mp3" },
+      "tiles": ["auch", "gut", "danke", "sehr", "nicht", "bitte"],
+      "answers": ["Auch gut, danke!"]
+    }
+  ]
+}

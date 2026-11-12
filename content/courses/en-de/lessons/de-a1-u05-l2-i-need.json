@@ -1,0 +1,122 @@
+{
+  "id": "de-a1-u05-l2-i-need",
+  "courseId": "en-de",
+  "unitId": "de-a1-u05",
+  "title": "I Need a…",
+  "tip": "Only der changes after most verbs: der Käse → Ich kaufe den Käse. Ein becomes einen.",
+  "exercises": [
+    {
+      "id": "de-a1-u05-l2-ex01",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'I need an apple'?",
+      "options": [
+        { "id": "a", "text": "Ich brauche einen Apfel." },
+        { "id": "b", "text": "Ich brauche ein Apfel." },
+        { "id": "c", "text": "Ich brauche eine Apfel." }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "de-a1-u05-l2-ex02",
+      "type": "match_pairs",
+      "pairs": [
+        { "id": "p1", "learning": "brauchen", "known": "to need" },
+        { "id": "p2", "learning": "kaufen", "known": "to buy" },
+        { "id": "p3", "learning": "der Käse", "known": "the cheese" },
+        { "id": "p4", "learning": "der Reis", "known": "the rice" },
+        { "id": "p5", "learning": "das Ei", "known": "the egg" }
+      ]
+    },
+    {
+      "id": "de-a1-u05-l2-ex03",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I'm buying the cheese.",
+      "tiles": ["ich", "kaufe", "den", "Käse", "der", "brauche", "die"],
+      "answers": ["Ich kaufe den Käse."]
+    },
+    {
+      "id": "de-a1-u05-l2-ex04",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'We need the rice'?",
+      "options": [
+        { "id": "a", "text": "Wir brauchen der Reis." },
+        { "id": "b", "text": "Wir brauchen den Reis." },
+        { "id": "c", "text": "Wir brauchen dem Reis." }
+      ],
+      "correctOptionId": "b"
+    },
+    {
+      "id": "de-a1-u05-l2-ex05",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a1/u05/de-a1-u05-l2-ex05.mp3" },
+      "tiles": ["ich", "brauche", "Butter", "und", "Eier", "Ei", "kaufe", "Käse"],
+      "answers": ["Ich brauche Butter und Eier."]
+    },
+    {
+      "id": "de-a1-u05-l2-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Kaufst du den Reis?",
+      "tiles": ["are", "you", "buying", "the", "rice", "do", "buy", "cheese", "we"],
+      "answers": ["Are you buying the rice?", "Do you buy the rice?"]
+    },
+    {
+      "id": "de-a1-u05-l2-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which one means 'the egg'?",
+      "options": [
+        { "id": "a", "text": "der Ei" },
+        { "id": "b", "text": "die Ei" },
+        { "id": "c", "text": "das Ei" }
+      ],
+      "correctOptionId": "c"
+    },
+    {
+      "id": "de-a1-u05-l2-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Do you need a coffee? (to a friend)",
+      "tiles": ["brauchst", "du", "einen", "Kaffee", "ein", "eine", "braucht"],
+      "answers": ["Brauchst du einen Kaffee?"]
+    },
+    {
+      "id": "de-a1-u05-l2-ex09",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a1/u05/de-a1-u05-l2-ex09.mp3" },
+      "tiles": ["wir", "kaufen", "einen", "Kuchen", "ein", "Käse", "brauchen", "die"],
+      "answers": ["Wir kaufen einen Kuchen."]
+    },
+    {
+      "id": "de-a1-u05-l2-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Ich kaufe Butter und Käse.",
+      "tiles": ["I'm", "I", "buying", "buy", "butter", "and", "cheese", "eggs", "rice"],
+      "answers": [
+        "I'm buying butter and cheese.",
+        "I buy butter and cheese.",
+        "I'm buying cheese and butter.",
+        "I buy cheese and butter."
+      ]
+    },
+    {
+      "id": "de-a1-u05-l2-ex11",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a1/u05/de-a1-u05-l2-ex11.mp3" },
+      "tiles": ["ich", "brauche", "den", "Reis", "und", "die", "Butter", "der", "das", "Eier"],
+      "answers": ["Ich brauche den Reis und die Butter."]
+    },
+    {
+      "id": "de-a1-u05-l2-ex12",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'I'm buying the eggs'?",
+      "options": [
+        { "id": "a", "text": "Ich kaufe den Eier." },
+        { "id": "b", "text": "Ich kaufe das Eier." },
+        { "id": "c", "text": "Ich kaufe die Eier." }
+      ],
+      "correctOptionId": "c"
+    }
+  ]
+}

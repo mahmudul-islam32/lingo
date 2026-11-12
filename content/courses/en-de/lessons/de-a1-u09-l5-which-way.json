@@ -1,0 +1,146 @@
+{
+  "id": "de-a1-u09-l5-which-way",
+  "courseId": "en-de",
+  "unitId": "de-a1-u09",
+  "title": "Which Way?",
+  "tip": "Instructions: verb first, then Sie: Gehen Sie links! Ask the way: Wie komme ich zum Bahnhof?",
+  "exercises": [
+    {
+      "id": "de-a1-u09-l5-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        { "id": "p1", "learning": "geradeaus", "known": "straight ahead" },
+        { "id": "p2", "learning": "links", "known": "left" },
+        { "id": "p3", "learning": "rechts", "known": "right" },
+        { "id": "p4", "learning": "weit", "known": "far" },
+        { "id": "p5", "learning": "nah", "known": "near" }
+      ]
+    },
+    {
+      "id": "de-a1-u09-l5-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'Go straight ahead!' (formal)",
+      "options": [
+        { "id": "a", "text": "Sie gehen geradeaus." },
+        { "id": "b", "text": "Gehen Sie geradeaus!" },
+        { "id": "c", "text": "Gehst du geradeaus?" },
+        { "id": "d", "text": "Gehen geradeaus Sie!" }
+      ],
+      "correctOptionId": "b"
+    },
+    {
+      "id": "de-a1-u09-l5-ex03",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Excuse me, how do I get to the station?",
+      "tiles": ["Entschuldigung", "wie", "komme", "ich", "zum", "Bahnhof", "zur", "kommst", "wo"],
+      "answers": ["Entschuldigung, wie komme ich zum Bahnhof?"]
+    },
+    {
+      "id": "de-a1-u09-l5-ex04",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a1/u09/de-a1-u09-l5-ex04.mp3" },
+      "tiles": ["gehen", "Sie", "geradeaus", "und", "dann", "links", "rechts", "gehst", "nah"],
+      "answers": ["Gehen Sie geradeaus und dann links."]
+    },
+    {
+      "id": "de-a1-u09-l5-ex05",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Take the tram! (formal)",
+      "tiles": ["nehmen", "Sie", "die", "Straßenbahn", "nimmst", "du", "der"],
+      "answers": ["Nehmen Sie die Straßenbahn!"]
+    },
+    {
+      "id": "de-a1-u09-l5-ex06",
+      "type": "multiple_choice",
+      "prompt": "Which one means 'right' (direction)?",
+      "options": [
+        { "id": "a", "text": "links" },
+        { "id": "b", "text": "geradeaus" },
+        { "id": "c", "text": "rechts" },
+        { "id": "d", "text": "weit" }
+      ],
+      "correctOptionId": "c"
+    },
+    {
+      "id": "de-a1-u09-l5-ex07",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Ist der Bahnhof weit?",
+      "tiles": ["is", "the", "station", "far", "away", "near", "stop", "are"],
+      "answers": ["Is the station far?", "Is the station far away?"]
+    },
+    {
+      "id": "de-a1-u09-l5-ex08",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a1/u09/de-a1-u09-l5-ex08.mp3" },
+      "tiles": [
+        "nein",
+        "die",
+        "Haltestelle",
+        "ist",
+        "nah",
+        "gehen",
+        "Sie",
+        "hier",
+        "rechts",
+        "weit",
+        "links",
+        "der"
+      ],
+      "answers": ["Nein, die Haltestelle ist nah. Gehen Sie hier rechts."]
+    },
+    {
+      "id": "de-a1-u09-l5-ex09",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "You have to change here. (formal)",
+      "tiles": ["Sie", "müssen", "hier", "umsteigen", "musst", "ich", "links"],
+      "answers": [
+        "Sie müssen hier umsteigen.",
+        "Hier müssen Sie umsteigen.",
+        "Umsteigen müssen Sie hier."
+      ]
+    },
+    {
+      "id": "de-a1-u09-l5-ex10",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'Is it far?'",
+      "options": [
+        { "id": "a", "text": "Ist es weit?" },
+        { "id": "b", "text": "Ist es nah?" },
+        { "id": "c", "text": "Es ist weit." },
+        { "id": "d", "text": "Ist weit es?" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "de-a1-u09-l5-ex11",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Go left and then straight ahead. (formal)",
+      "tiles": ["gehen", "Sie", "links", "und", "dann", "geradeaus", "rechts", "gehst", "weit"],
+      "answers": ["Gehen Sie links und dann geradeaus.", "Gehen Sie links, dann geradeaus."]
+    },
+    {
+      "id": "de-a1-u09-l5-ex12",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a1/u09/de-a1-u09-l5-ex12.mp3" },
+      "tiles": [
+        "wie",
+        "komme",
+        "ich",
+        "zur",
+        "Haltestelle",
+        "ist",
+        "es",
+        "weit",
+        "zum",
+        "nah",
+        "kommst"
+      ],
+      "answers": ["Wie komme ich zur Haltestelle? Ist es weit?"]
+    }
+  ]
+}

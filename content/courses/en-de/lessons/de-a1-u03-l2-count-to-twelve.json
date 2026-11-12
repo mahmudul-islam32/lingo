@@ -1,0 +1,169 @@
+{
+  "id": "de-a1-u03-l2-count-to-twelve",
+  "courseId": "en-de",
+  "unitId": "de-a1-u03",
+  "title": "Count to Twelve",
+  "tip": "Elf and zwölf are one word each. Read phone numbers digit by digit: null, eins, sieben.",
+  "exercises": [
+    {
+      "id": "de-a1-u03-l2-ex01",
+      "type": "multiple_choice",
+      "prompt": "Which one means 'twelve'?",
+      "options": [
+        { "id": "a", "text": "zehn" },
+        { "id": "b", "text": "elf" },
+        { "id": "c", "text": "zwölf" },
+        { "id": "d", "text": "zwei" }
+      ],
+      "correctOptionId": "c"
+    },
+    {
+      "id": "de-a1-u03-l2-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which one means 'the phone number'?",
+      "options": [
+        { "id": "a", "text": "der Telefonnummer" },
+        { "id": "b", "text": "die Telefonnummer" },
+        { "id": "c", "text": "das Telefonnummer" }
+      ],
+      "correctOptionId": "b"
+    },
+    {
+      "id": "de-a1-u03-l2-ex03",
+      "type": "match_pairs",
+      "pairs": [
+        { "id": "p1", "learning": "sieben", "known": "seven" },
+        { "id": "p2", "learning": "acht", "known": "eight" },
+        { "id": "p3", "learning": "neun", "known": "nine" },
+        { "id": "p4", "learning": "elf", "known": "eleven" },
+        { "id": "p5", "learning": "die Telefonnummer", "known": "the phone number" }
+      ]
+    },
+    {
+      "id": "de-a1-u03-l2-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Seven, eight, nine, ten.",
+      "tiles": ["sieben", "acht", "neun", "zehn", "elf", "sechs", "zwölf"],
+      "answers": ["Sieben, acht, neun, zehn."]
+    },
+    {
+      "id": "de-a1-u03-l2-ex05",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a1/u03/de-a1-u03-l2-ex05.mp3" },
+      "tiles": [
+        "die",
+        "Telefonnummer",
+        "ist",
+        "null",
+        "acht",
+        "neun",
+        "zwei",
+        "sieben",
+        "elf",
+        "zehn",
+        "sechs"
+      ],
+      "answers": ["Die Telefonnummer ist null acht neun zwei sieben."]
+    },
+    {
+      "id": "de-a1-u03-l2-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Die Telefonnummer ist null sieben eins acht.",
+      "tiles": [
+        "the",
+        "phone",
+        "number",
+        "is",
+        "zero",
+        "seven",
+        "one",
+        "eight",
+        "eleven",
+        "six",
+        "my"
+      ],
+      "answers": ["The phone number is zero seven one eight."]
+    },
+    {
+      "id": "de-a1-u03-l2-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which one means 'eleven'?",
+      "options": [
+        { "id": "a", "text": "eins" },
+        { "id": "b", "text": "zwölf" },
+        { "id": "c", "text": "acht" },
+        { "id": "d", "text": "elf" }
+      ],
+      "correctOptionId": "d"
+    },
+    {
+      "id": "de-a1-u03-l2-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Here is the phone number: zero four seven two.",
+      "tiles": [
+        "hier",
+        "ist",
+        "die",
+        "Telefonnummer",
+        "null",
+        "vier",
+        "sieben",
+        "zwei",
+        "neun",
+        "elf",
+        "Name"
+      ],
+      "answers": ["Hier ist die Telefonnummer: null vier sieben zwei."]
+    },
+    {
+      "id": "de-a1-u03-l2-ex09",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a1/u03/de-a1-u03-l2-ex09.mp3" },
+      "tiles": ["zehn", "elf", "zwölf", "danke", "bitte", "zwei", "acht"],
+      "answers": ["Zehn, elf, zwölf. Danke!"]
+    },
+    {
+      "id": "de-a1-u03-l2-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Wie ist die Telefonnummer?",
+      "tiles": ["what", "is", "the", "phone", "number", "how", "where", "a"],
+      "answers": ["What is the phone number?"]
+    },
+    {
+      "id": "de-a1-u03-l2-ex11",
+      "type": "multiple_choice",
+      "prompt": "Which one means 'nine'?",
+      "options": [
+        { "id": "a", "text": "nein" },
+        { "id": "b", "text": "neun" },
+        { "id": "c", "text": "neu" }
+      ],
+      "correctOptionId": "b"
+    },
+    {
+      "id": "de-a1-u03-l2-ex12",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a1/u03/de-a1-u03-l2-ex12.mp3" },
+      "tiles": [
+        "ich",
+        "bin",
+        "Jonas",
+        "die",
+        "Telefonnummer",
+        "ist",
+        "null",
+        "sechs",
+        "neun",
+        "drei",
+        "acht",
+        "zehn",
+        "heiße"
+      ],
+      "answers": ["Ich bin Jonas. Die Telefonnummer ist null sechs neun drei."]
+    }
+  ]
+}

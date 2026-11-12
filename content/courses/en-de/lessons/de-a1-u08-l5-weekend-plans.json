@@ -1,0 +1,151 @@
+{
+  "id": "de-a1-u08-l5-weekend-plans",
+  "courseId": "en-de",
+  "unitId": "de-a1-u08",
+  "title": "Weekend Plans",
+  "tip": "Hast du Lust? means 'Do you feel like it?' Say yes with 'Toll!' or no with 'Schade, ich habe keine Zeit.'",
+  "exercises": [
+    {
+      "id": "de-a1-u08-l5-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        { "id": "p1", "learning": "das Kino", "known": "the cinema" },
+        { "id": "p2", "learning": "gehen", "known": "to go (on foot)" },
+        { "id": "p3", "learning": "Lust haben", "known": "to feel like it" },
+        { "id": "p4", "learning": "die Freizeit", "known": "free time" },
+        { "id": "p5", "learning": "schade", "known": "what a pity" }
+      ]
+    },
+    {
+      "id": "de-a1-u08-l5-ex02",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a1/u08/de-a1-u08-l5-ex02.mp3" },
+      "tiles": ["hallo", "Aylin", "hast", "du", "am", "Samstag", "Zeit", "habe", "ich", "Sonntag"],
+      "answers": ["Hallo Aylin! Hast du am Samstag Zeit?"]
+    },
+    {
+      "id": "de-a1-u08-l5-ex03",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Ja! Am Wochenende habe ich Freizeit.",
+      "tiles": ["yes", "at", "the", "weekend", "I", "have", "free", "time", "on", "no", "work"],
+      "answers": [
+        "Yes! I have free time at the weekend.",
+        "Yes! At the weekend I have free time.",
+        "Yes! I have free time on the weekend.",
+        "Yes! On the weekend I have free time."
+      ]
+    },
+    {
+      "id": "de-a1-u08-l5-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Do you feel like it? We can go to the park.",
+      "tiles": [
+        "hast",
+        "du",
+        "Lust",
+        "wir",
+        "können",
+        "in",
+        "den",
+        "Park",
+        "gehen",
+        "habe",
+        "der",
+        "geht"
+      ],
+      "answers": [
+        "Hast du Lust? Wir können in den Park gehen.",
+        "Wir können in den Park gehen. Hast du Lust?",
+        "Hast du Lust? In den Park können wir gehen."
+      ]
+    },
+    {
+      "id": "de-a1-u08-l5-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'I don't feel like it'?",
+      "options": [
+        { "id": "a", "text": "Ich habe nicht Lust." },
+        { "id": "b", "text": "Ich bin keine Lust." },
+        { "id": "c", "text": "Ich habe keine Lust." },
+        { "id": "d", "text": "Ich habe kein Lust." }
+      ],
+      "correctOptionId": "c"
+    },
+    {
+      "id": "de-a1-u08-l5-ex06",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a1/u08/de-a1-u08-l5-ex06.mp3" },
+      "tiles": [
+        "schade",
+        "ich",
+        "laufe",
+        "nicht",
+        "gern",
+        "ich",
+        "mag",
+        "Filme",
+        "läufst",
+        "toll",
+        "magst"
+      ],
+      "answers": ["Schade, ich laufe nicht gern. Ich mag Filme."]
+    },
+    {
+      "id": "de-a1-u08-l5-ex07",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "On Monday the cinema is cheap.",
+      "tiles": ["am", "Montag", "ist", "das", "Kino", "billig", "teuer", "der", "sind"],
+      "answers": ["Am Montag ist das Kino billig.", "Das Kino ist am Montag billig."]
+    },
+    {
+      "id": "de-a1-u08-l5-ex08",
+      "type": "multiple_choice",
+      "prompt": "Which one means 'great'?",
+      "options": [
+        { "id": "a", "text": "schade" },
+        { "id": "b", "text": "toll" },
+        { "id": "c", "text": "lecker" },
+        { "id": "d", "text": "teuer" }
+      ],
+      "correctOptionId": "b"
+    },
+    {
+      "id": "de-a1-u08-l5-ex09",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Great! When does the film start?",
+      "tiles": ["toll", "wann", "fängt", "der", "Film", "an", "schade", "fängst", "die"],
+      "answers": ["Toll! Wann fängt der Film an?"]
+    },
+    {
+      "id": "de-a1-u08-l5-ex10",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a1/u08/de-a1-u08-l5-ex10.mp3" },
+      "tiles": ["der", "Film", "fängt", "um", "halb", "acht", "an", "neun", "am"],
+      "answers": ["Der Film fängt um halb acht an."]
+    },
+    {
+      "id": "de-a1-u08-l5-ex11",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'We can go on Saturday at eight'?",
+      "options": [
+        { "id": "a", "text": "Wir können gehen am Samstag um acht." },
+        { "id": "b", "text": "Wir gehen können am Samstag um acht." },
+        { "id": "c", "text": "Wir könnt am Samstag um acht gehen." },
+        { "id": "d", "text": "Wir können am Samstag um acht gehen." }
+      ],
+      "correctOptionId": "d"
+    },
+    {
+      "id": "de-a1-u08-l5-ex12",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Great, I feel like it! See you then!",
+      "tiles": ["toll", "ich", "habe", "Lust", "bis", "dann", "hast", "keine", "schade"],
+      "answers": ["Toll, ich habe Lust! Bis dann!"]
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "id": "de-a1-u04-l3-id-like",
+  "courseId": "en-de",
+  "unitId": "de-a1-u04",
+  "title": "I'd Like…",
+  "tip": "'Ich möchte' is the polite way to order: ein Brötchen (das), eine Brezel (die).",
+  "exercises": [
+    {
+      "id": "de-a1-u04-l3-ex01",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'I'd like a pretzel'?",
+      "options": [
+        { "id": "a", "text": "Ich möchte ein Brezel." },
+        { "id": "b", "text": "Ich möchte ein Brötchen." },
+        { "id": "c", "text": "Ich möchte eine Brezel." }
+      ],
+      "correctOptionId": "c"
+    },
+    {
+      "id": "de-a1-u04-l3-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which one means 'the cup'?",
+      "options": [
+        { "id": "a", "text": "die Tasse" },
+        { "id": "b", "text": "der Tasse" },
+        { "id": "c", "text": "das Tasse" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "de-a1-u04-l3-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which one means 'the piece'?",
+      "options": [
+        { "id": "a", "text": "der Stück" },
+        { "id": "b", "text": "das Stück" },
+        { "id": "c", "text": "die Stück" }
+      ],
+      "correctOptionId": "b"
+    },
+    {
+      "id": "de-a1-u04-l3-ex04",
+      "type": "match_pairs",
+      "pairs": [
+        { "id": "p1", "learning": "ich möchte", "known": "I'd like" },
+        { "id": "p2", "learning": "die Tasse", "known": "the cup" },
+        { "id": "p3", "learning": "das Stück", "known": "the piece" },
+        { "id": "p4", "learning": "noch", "known": "one more" },
+        { "id": "p5", "learning": "gern", "known": "gladly" }
+      ]
+    },
+    {
+      "id": "de-a1-u04-l3-ex05",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I'd like a bread roll, please.",
+      "tiles": ["ich", "möchte", "ein", "Brötchen", "bitte", "eine", "Brot", "danke"],
+      "answers": ["Ich möchte ein Brötchen, bitte.", "Ich möchte bitte ein Brötchen."]
+    },
+    {
+      "id": "de-a1-u04-l3-ex06",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a1/u04/de-a1-u04-l3-ex06.mp3" },
+      "tiles": ["ich", "möchte", "eine", "Tasse", "Tee", "ein", "Kaffee", "Milch"],
+      "answers": ["Ich möchte eine Tasse Tee."]
+    },
+    {
+      "id": "de-a1-u04-l3-ex07",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Ich möchte ein Stück Kuchen.",
+      "tiles": ["I'd", "I", "would", "like", "a", "piece", "of", "cake", "bread", "the"],
+      "answers": ["I'd like a piece of cake.", "I would like a piece of cake."]
+    },
+    {
+      "id": "de-a1-u04-l3-ex08",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'Another cup of coffee?'",
+      "options": [
+        { "id": "a", "text": "Noch ein Tasse Kaffee?" },
+        { "id": "b", "text": "Noch eine Tasse Kaffee?" },
+        { "id": "c", "text": "Eine Tasse Tee?" }
+      ],
+      "correctOptionId": "b"
+    },
+    {
+      "id": "de-a1-u04-l3-ex09",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Another bread roll, please.",
+      "tiles": ["noch", "ein", "Brötchen", "bitte", "eine", "Brezel", "zwei"],
+      "answers": ["Noch ein Brötchen, bitte.", "Bitte noch ein Brötchen."]
+    },
+    {
+      "id": "de-a1-u04-l3-ex10",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a1/u04/de-a1-u04-l3-ex10.mp3" },
+      "tiles": ["ja", "gern", "noch", "ein", "Stück", "Kuchen", "bitte", "eine", "Brot", "nein"],
+      "answers": ["Ja, gern. Noch ein Stück Kuchen, bitte."]
+    },
+    {
+      "id": "de-a1-u04-l3-ex11",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Möchtest du eine Tasse Tee?",
+      "tiles": ["would", "you", "like", "a", "cup", "of", "tea", "coffee", "I", "the"],
+      "answers": ["Would you like a cup of tea?"]
+    },
+    {
+      "id": "de-a1-u04-l3-ex12",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a1/u04/de-a1-u04-l3-ex12.mp3" },
+      "tiles": ["ich", "möchte", "ein", "Wasser", "bitte", "eine", "Milch", "Tee"],
+      "answers": ["Ich möchte ein Wasser, bitte."]
+    }
+  ]
+}

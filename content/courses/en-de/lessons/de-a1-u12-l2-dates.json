@@ -1,0 +1,155 @@
+{
+  "id": "de-a1-u12-l2-dates",
+  "courseId": "en-de",
+  "unitId": "de-a1-u12",
+  "title": "Dates",
+  "tip": "Dates use ordinals: am ersten Mai, am dritten Juni. Learn the odd ones: ersten, dritten, siebten.",
+  "exercises": [
+    {
+      "id": "de-a1-u12-l2-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        { "id": "p1", "learning": "der Juli", "known": "July" },
+        { "id": "p2", "learning": "der August", "known": "August" },
+        { "id": "p3", "learning": "der September", "known": "September" },
+        { "id": "p4", "learning": "der Oktober", "known": "October" },
+        { "id": "p5", "learning": "der Dezember", "known": "December" }
+      ]
+    },
+    {
+      "id": "de-a1-u12-l2-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which one means 'on the third of May'?",
+      "options": [
+        { "id": "a", "text": "am dritten Mai" },
+        { "id": "b", "text": "am dreiten Mai" },
+        { "id": "c", "text": "um dritten Mai" },
+        { "id": "d", "text": "am drei Mai" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "de-a1-u12-l2-ex03",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a1/u12/de-a1-u12-l2-ex03.mp3" },
+      "tiles": ["ich", "bin", "am", "siebten", "Juli", "geboren", "sieben", "Juni", "um"],
+      "answers": ["Ich bin am siebten Juli geboren."]
+    },
+    {
+      "id": "de-a1-u12-l2-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I was born on the first of August.",
+      "tiles": ["ich", "bin", "am", "ersten", "August", "geboren", "eins", "habe", "Oktober"],
+      "answers": ["Ich bin am ersten August geboren.", "Am ersten August bin ich geboren."]
+    },
+    {
+      "id": "de-a1-u12-l2-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which one means 'December'?",
+      "options": [
+        { "id": "a", "text": "der November" },
+        { "id": "b", "text": "die Dezember" },
+        { "id": "c", "text": "der Dezember" },
+        { "id": "d", "text": "der September" }
+      ],
+      "correctOptionId": "c"
+    },
+    {
+      "id": "de-a1-u12-l2-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Wann bist du geboren?",
+      "tiles": ["when", "were", "you", "born", "where", "are", "was", "I"],
+      "answers": ["When were you born?"]
+    },
+    {
+      "id": "de-a1-u12-l2-ex07",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a1/u12/de-a1-u12-l2-ex07.mp3" },
+      "tiles": [
+        "der",
+        "Kurs",
+        "fängt",
+        "am",
+        "zweiten",
+        "September",
+        "an",
+        "zwei",
+        "um",
+        "November"
+      ],
+      "answers": ["Der Kurs fängt am zweiten September an."]
+    },
+    {
+      "id": "de-a1-u12-l2-ex08",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'My appointment is on the twelfth of October'?",
+      "options": [
+        { "id": "a", "text": "Mein Termin ist am zwölf Oktober." },
+        { "id": "b", "text": "Mein Termin ist um zwölften Oktober." },
+        { "id": "c", "text": "Mein Termin am zwölften Oktober ist." },
+        { "id": "d", "text": "Mein Termin ist am zwölften Oktober." }
+      ],
+      "correctOptionId": "d"
+    },
+    {
+      "id": "de-a1-u12-l2-ex09",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "On the fourth of November I'm going to Hamburg.",
+      "tiles": [
+        "am",
+        "vierten",
+        "November",
+        "fahre",
+        "ich",
+        "nach",
+        "Hamburg",
+        "fährst",
+        "vier",
+        "um"
+      ],
+      "answers": [
+        "Am vierten November fahre ich nach Hamburg.",
+        "Ich fahre am vierten November nach Hamburg.",
+        "Nach Hamburg fahre ich am vierten November.",
+        "Ich fahre nach Hamburg am vierten November."
+      ]
+    },
+    {
+      "id": "de-a1-u12-l2-ex10",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a1/u12/de-a1-u12-l2-ex10.mp3" },
+      "tiles": ["wann", "ist", "der", "Termin", "am", "dritten", "Dezember", "wo", "drei", "um"],
+      "answers": ["Wann ist der Termin? Am dritten Dezember."]
+    },
+    {
+      "id": "de-a1-u12-l2-ex11",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Ich bin am siebten Oktober geboren.",
+      "tiles": ["I", "was", "born", "on", "the", "seventh", "of", "October", "seven", "is", "in"],
+      "answers": [
+        "I was born on the seventh of October.",
+        "I was born on October the seventh.",
+        "I was born on October seventh.",
+        "On the seventh of October I was born.",
+        "On October the seventh I was born.",
+        "On October seventh I was born."
+      ]
+    },
+    {
+      "id": "de-a1-u12-l2-ex12",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'I was born on the first of July'?",
+      "options": [
+        { "id": "a", "text": "Ich bin am einsten Juli geboren." },
+        { "id": "b", "text": "Ich bin am ersten Juli geboren." },
+        { "id": "c", "text": "Ich habe am ersten Juli geboren." },
+        { "id": "d", "text": "Ich bin am erste Juli geboren." }
+      ],
+      "correctOptionId": "b"
+    }
+  ]
+}

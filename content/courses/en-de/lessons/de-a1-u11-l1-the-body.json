@@ -1,0 +1,137 @@
+{
+  "id": "de-a1-u11-l1-the-body",
+  "courseId": "en-de",
+  "unitId": "de-a1-u11",
+  "title": "The Body",
+  "tip": "Body parts are nouns: they start with a capital and have an article, like der Kopf and das Bein.",
+  "exercises": [
+    {
+      "id": "de-a1-u11-l1-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        { "id": "p1", "learning": "der Kopf", "known": "the head" },
+        { "id": "p2", "learning": "der Bauch", "known": "the stomach" },
+        { "id": "p3", "learning": "der Rücken", "known": "the back" },
+        { "id": "p4", "learning": "der Hals", "known": "the throat / neck" },
+        { "id": "p5", "learning": "das Bein", "known": "the leg" }
+      ]
+    },
+    {
+      "id": "de-a1-u11-l1-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which one means 'the head'?",
+      "options": [
+        { "id": "a", "text": "die Kopf" },
+        { "id": "b", "text": "der Kopf" },
+        { "id": "c", "text": "das Kopf" }
+      ],
+      "correctOptionId": "b"
+    },
+    {
+      "id": "de-a1-u11-l1-ex03",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "This is my back.",
+      "tiles": ["das", "ist", "mein", "Rücken", "meine", "Arm", "sind"],
+      "answers": ["Das ist mein Rücken."]
+    },
+    {
+      "id": "de-a1-u11-l1-ex04",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a1/u11/de-a1-u11-l1-ex04.mp3" },
+      "tiles": ["der", "Hund", "hat", "vier", "Beine", "Bein", "zwei", "habe"],
+      "answers": ["Der Hund hat vier Beine."]
+    },
+    {
+      "id": "de-a1-u11-l1-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which one means 'the eyes'?",
+      "options": [
+        { "id": "a", "text": "das Augen" },
+        { "id": "b", "text": "die Auge" },
+        { "id": "c", "text": "die Augen" },
+        { "id": "d", "text": "der Augen" }
+      ],
+      "correctOptionId": "c"
+    },
+    {
+      "id": "de-a1-u11-l1-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Mein Kopf ist heiß.",
+      "tiles": ["my", "head", "is", "hot", "cold", "back", "your"],
+      "answers": ["My head is hot."]
+    },
+    {
+      "id": "de-a1-u11-l1-ex07",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "The cat has two eyes and four legs.",
+      "tiles": [
+        "die",
+        "Katze",
+        "hat",
+        "zwei",
+        "Augen",
+        "und",
+        "vier",
+        "Beine",
+        "Auge",
+        "Bein",
+        "habe"
+      ],
+      "answers": [
+        "Die Katze hat zwei Augen und vier Beine.",
+        "Die Katze hat vier Beine und zwei Augen.",
+        "Zwei Augen und vier Beine hat die Katze.",
+        "Vier Beine und zwei Augen hat die Katze."
+      ]
+    },
+    {
+      "id": "de-a1-u11-l1-ex08",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'I have two arms'?",
+      "options": [
+        { "id": "a", "text": "Ich habe zwei Arm." },
+        { "id": "b", "text": "Ich hat zwei Arme." },
+        { "id": "c", "text": "Ich habe zwei Armen." },
+        { "id": "d", "text": "Ich habe zwei Arme." }
+      ],
+      "correctOptionId": "d"
+    },
+    {
+      "id": "de-a1-u11-l1-ex09",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a1/u11/de-a1-u11-l1-ex09.mp3" },
+      "tiles": ["mein", "Hals", "ist", "kalt", "meine", "heiß", "Kopf", "sind"],
+      "answers": ["Mein Hals ist kalt."]
+    },
+    {
+      "id": "de-a1-u11-l1-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Ist das dein Arm?",
+      "tiles": ["is", "that", "this", "your", "arm", "my", "leg", "are"],
+      "answers": ["Is that your arm?", "Is this your arm?"]
+    },
+    {
+      "id": "de-a1-u11-l1-ex11",
+      "type": "multiple_choice",
+      "prompt": "Which one means 'the arm'?",
+      "options": [
+        { "id": "a", "text": "das Bein" },
+        { "id": "b", "text": "der Bauch" },
+        { "id": "c", "text": "der Arm" },
+        { "id": "d", "text": "der Hals" }
+      ],
+      "correctOptionId": "c"
+    },
+    {
+      "id": "de-a1-u11-l1-ex12",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a1/u11/de-a1-u11-l1-ex12.mp3" },
+      "tiles": ["wie", "viele", "Beine", "hat", "die", "Katze", "viel", "hast", "Bein"],
+      "answers": ["Wie viele Beine hat die Katze?"]
+    }
+  ]
+}

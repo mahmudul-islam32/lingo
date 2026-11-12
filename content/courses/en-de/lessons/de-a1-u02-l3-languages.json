@@ -1,0 +1,131 @@
+{
+  "id": "de-a1-u02-l3-languages",
+  "courseId": "en-de",
+  "unitId": "de-a1-u02",
+  "title": "Languages",
+  "tip": "In 'du sprichst' and 'er spricht' the e changes to i. With ich it stays e: ich spreche.",
+  "exercises": [
+    {
+      "id": "de-a1-u02-l3-ex01",
+      "type": "multiple_choice",
+      "prompt": "Which one means 'Turkish'?",
+      "options": [
+        { "id": "a", "text": "Arabisch" },
+        { "id": "b", "text": "Türkisch" },
+        { "id": "c", "text": "Englisch" },
+        { "id": "d", "text": "Deutsch" }
+      ],
+      "correctOptionId": "b"
+    },
+    {
+      "id": "de-a1-u02-l3-ex02",
+      "type": "match_pairs",
+      "pairs": [
+        { "id": "p1", "learning": "Deutsch", "known": "German" },
+        { "id": "p2", "learning": "Englisch", "known": "English" },
+        { "id": "p3", "learning": "Arabisch", "known": "Arabic" },
+        { "id": "p4", "learning": "Türkisch", "known": "Turkish" },
+        { "id": "p5", "learning": "ein bisschen", "known": "a little" }
+      ]
+    },
+    {
+      "id": "de-a1-u02-l3-ex03",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I speak German and English.",
+      "tiles": ["ich", "spreche", "Deutsch", "und", "Englisch", "sprichst", "Arabisch", "du"],
+      "answers": ["Ich spreche Deutsch und Englisch.", "Ich spreche Englisch und Deutsch."]
+    },
+    {
+      "id": "de-a1-u02-l3-ex04",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'You speak German. (to a friend)'?",
+      "options": [
+        { "id": "a", "text": "Du sprechst Deutsch." },
+        { "id": "b", "text": "Du sprecht Deutsch." },
+        { "id": "c", "text": "Du sprichst Deutsch." },
+        { "id": "d", "text": "Du spricht Deutsch." }
+      ],
+      "correctOptionId": "c"
+    },
+    {
+      "id": "de-a1-u02-l3-ex05",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a1/u02/de-a1-u02-l3-ex05.mp3" },
+      "tiles": ["du", "sprichst", "sehr", "gut", "Deutsch", "spreche", "Englisch", "ich"],
+      "answers": ["Du sprichst sehr gut Deutsch."]
+    },
+    {
+      "id": "de-a1-u02-l3-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Ich spreche ein bisschen Arabisch.",
+      "tiles": ["I", "speak", "a", "little", "bit", "of", "Arabic", "English", "you"],
+      "answers": [
+        "I speak a little Arabic.",
+        "I speak a little bit of Arabic.",
+        "I speak a bit of Arabic."
+      ]
+    },
+    {
+      "id": "de-a1-u02-l3-ex07",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Now I'm learning German.",
+      "tiles": ["jetzt", "lerne", "ich", "Deutsch", "lernst", "du", "spreche"],
+      "answers": ["Jetzt lerne ich Deutsch.", "Ich lerne jetzt Deutsch."]
+    },
+    {
+      "id": "de-a1-u02-l3-ex08",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'Amira speaks Arabic.'?",
+      "options": [
+        { "id": "a", "text": "Amira spricht Arabisch." },
+        { "id": "b", "text": "Amira sprecht Arabisch." },
+        { "id": "c", "text": "Amira sprechst Arabisch." },
+        { "id": "d", "text": "Amira spreche Arabisch." }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "de-a1-u02-l3-ex09",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a1/u02/de-a1-u02-l3-ex09.mp3" },
+      "tiles": [
+        "Jonas",
+        "spricht",
+        "Englisch",
+        "und",
+        "ein",
+        "bisschen",
+        "Türkisch",
+        "sprichst",
+        "Deutsch"
+      ],
+      "answers": ["Jonas spricht Englisch und ein bisschen Türkisch."]
+    },
+    {
+      "id": "de-a1-u02-l3-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Priya spricht Englisch und Deutsch.",
+      "tiles": ["Priya", "speaks", "speak", "English", "and", "German", "Arabic", "a"],
+      "answers": ["Priya speaks English and German.", "Priya speaks German and English."]
+    },
+    {
+      "id": "de-a1-u02-l3-ex11",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a1/u02/de-a1-u02-l3-ex11.mp3" },
+      "tiles": ["ich", "spreche", "ein", "bisschen", "Deutsch", "sprichst", "Arabisch", "lerne"],
+      "answers": ["Ich spreche ein bisschen Deutsch."]
+    },
+    {
+      "id": "de-a1-u02-l3-ex12",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "You speak a little English. (to a friend)",
+      "tiles": ["du", "sprichst", "ein", "bisschen", "Englisch", "spricht", "Sie", "sprechen"],
+      "answers": ["Du sprichst ein bisschen Englisch."]
+    }
+  ]
+}

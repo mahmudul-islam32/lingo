@@ -58,3 +58,76 @@ _(cto)_
 
 ## Review
 _(pm self-review of CDS-1…13 and criteria 3–6)_
+
+## PM self-review
+_Date: 2026-11-12 · Reviewer: pm · Native review still pending (PD-038)._
+
+**Files:** `content/courses/en-de/lessons/de-a1-u08-l1-hobbies.json`, `…-l2-i-like.json`,
+`…-l3-on-the-move.json`, `…-l4-i-can-swim.json`, `…-l5-weekend-plans.json`. The unit
+fragment for `course.json` was handed to the orchestrator; the pm doesn't edit `course.json`
+in this worktree.
+
+| Lesson | Exercises | MC | Word bank (to_learning / to_known) | Match | Listen |
+|---|---|---|---|---|---|
+| L1 Hobbies | 12 | 4 | 4 (2 / 2) | 1 | 3 |
+| L2 I Like… | 12 | 3 | 5 (3 / 2) | 1 | 3 |
+| L3 On the Move | 12 | 3 | 5 (3 / 2) | 1 | 3 |
+| L4 I Can Swim | 12 | 3 | 5 (4 / 1) | 1 | 3 |
+| L5 Weekend Plans | 12 | 3 | 5 (4 / 1) | 1 | 3 |
+
+**CDS checks**
+1. CDS-1 Files: PASS for the lesson files (ids and titles exactly as criterion 1). The
+   `course.json` entry and version bump are done by the orchestrator.
+2. CDS-2 Mix: PASS (table above).
+3. CDS-3 Vocabulary: PASS, with notes. Each lesson brings in only its appendix items
+   (7 / 6 / 6 / 5 / 6). Extras I used: names (Aylin, Leyla); regular plurals (`Filme`,
+   `Serien`); verb forms whose pattern is already taught (`er liest`, `sie läuft`, `er fährt`,
+   `höre / hörst` from `Musik hören`, `er kann`, `wir können`, `fängst`); `am Wochenende`
+   (U7); `der Film fängt … an` (U7 `anfangen`). `ins Kino` was left out on purpose
+   because `ins` isn't taught, so the cinema is used with `das Kino ist …`. Borderline:
+   `in den Park` (direction, `in` + accusative `den`). Both words are taught but this use
+   is new. It goes on the CON-DE-A1-QA list.
+4. CDS-4 Alternatives: PASS. Word banks list the topicalised orders the tiles allow
+   (`Fußball spiele ich.`, `Gern koche ich.`, `Kochen kann er nicht.`, all four `können` orders
+   in L4 ex03 / ex10). English alternatives cover football / soccer, TV shows / series,
+   paint / draw, cycles / rides his bike, at / on the weekend. Listen answers are the exact
+   transcript.
+5. CDS-5 Distractors: PASS. Every word bank has 2–4 tiles that appear in no accepted answer.
+   I checked each set so that no distractor combination gives a valid translation that
+   isn't listed. For example, `gern` was taken out of L2 ex07 because `Ich mag das Buch gern`
+   would be valid, and `sehr` was not used in L4 ex03.
+6. CDS-6 Conventions: PASS. Umlauts and ß are correct (`Fußball`, `fährst`, `läuft`, `groß`,
+   `fängt`), nouns are capitalised, match pairs have articles, tiles are in authored case,
+   and no tile set has `Sie` (only `sie` in L3 ex04 and L4 ex12). `(to a friend)` is marked
+   where needed.
+7. CDS-7: PASS. All MC prompts are in English and all options in German, with the standard
+   wording.
+8. CDS-8: PASS. Sentences and scenario are original, with no brands or titles.
+9. CDS-9: PASS. Every audio path is `/audio/de/a1/u08/<exercise-id>.mp3`.
+10. CDS-10: PASS. Tips are 60–105 characters.
+11. CDS-11: PASS.
+12. CDS-12: hand-checked for schema rules (strict keys, 3–4 options, 5 pairs, ≤16 tiles,
+    every answer buildable after normalisation). `npm run test` is to be run by the
+    orchestrator.
+13. CDS-13: PASS. The longest prompt is 55 characters and the longest tile is 9.
+
+**Unit criteria**
+- 3: PASS. `gern / nicht gern` + verb: L2 ex03, ex04, ex05, ex10, ex12; L3 ex09; L5 ex06.
+  `mögen` + noun: L2 ex02, ex06, ex07, ex09; L5 ex06. Contrast MC: L2 ex02 (and ex05).
+- 4: PASS. Stem change in the du / er / sie form: L1 ex05, ex06; L3 ex03, ex04, ex06,
+  ex07, ex11.
+- 5: PASS. Word banks with `können` and the infinitive at the end: L4 ex03, ex05, ex07,
+  ex10; L5 ex04 (plus L4 ex09, to_known). MC with the infinitive in second position as a
+  distractor: L4 ex02, L4 ex11, L5 ex11.
+- 6: PASS. In L5 Aylin and a friend agree on a plan with `Hast du Lust?` / `Ich habe Lust`
+  (ex04, ex05, ex12), a day (`am Samstag`, ex02, ex11) and a time (`um halb acht`,
+  `um acht`, ex10, ex11).
+
+**Needs native review (to CON-DE-A1-QA)**
+- `Ich laufe in den Park.` (natural enough for "I'm running to the park", or is `gehen`
+  better once it is taught?)
+- `Hast du Lust? In den Park können wir gehen.` and `Gut kann ich schwimmen.`: accepted as
+  grammatical but marked orders.
+- `Wir können Fußball am Samstag spielen.`: accepted, but less natural than the time-first
+  order.
+- `Wir können am Samstag um acht gehen.` with no destination (it depends on context).

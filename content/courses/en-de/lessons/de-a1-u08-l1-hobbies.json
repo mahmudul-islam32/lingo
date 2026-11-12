@@ -1,0 +1,121 @@
+{
+  "id": "de-a1-u08-l1-hobbies",
+  "courseId": "en-de",
+  "unitId": "de-a1-u08",
+  "title": "Hobbies",
+  "tip": "Lesen changes its vowel: ich lese, but du liest and er liest.",
+  "exercises": [
+    {
+      "id": "de-a1-u08-l1-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        { "id": "p1", "learning": "schwimmen", "known": "to swim" },
+        { "id": "p2", "learning": "kochen", "known": "to cook" },
+        { "id": "p3", "learning": "tanzen", "known": "to dance" },
+        { "id": "p4", "learning": "der Fußball", "known": "football" },
+        { "id": "p5", "learning": "Musik hören", "known": "to listen to music" }
+      ]
+    },
+    {
+      "id": "de-a1-u08-l1-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which one means 'to read'?",
+      "options": [
+        { "id": "a", "text": "lernen" },
+        { "id": "b", "text": "lesen" },
+        { "id": "c", "text": "essen" },
+        { "id": "d", "text": "kochen" }
+      ],
+      "correctOptionId": "b"
+    },
+    {
+      "id": "de-a1-u08-l1-ex03",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I play football.",
+      "tiles": ["ich", "spiele", "Fußball", "spielst", "du", "kochen", "der"],
+      "answers": ["Ich spiele Fußball.", "Fußball spiele ich."]
+    },
+    {
+      "id": "de-a1-u08-l1-ex04",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a1/u08/de-a1-u08-l1-ex04.mp3" },
+      "tiles": ["spielst", "du", "Fußball", "spiele", "ich", "Musik"],
+      "answers": ["Spielst du Fußball?"]
+    },
+    {
+      "id": "de-a1-u08-l1-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'Do you read a lot?'",
+      "options": [
+        { "id": "a", "text": "Liest du viel?" },
+        { "id": "b", "text": "Lest du viel?" },
+        { "id": "c", "text": "Lesen du viel?" },
+        { "id": "d", "text": "Lese du viel?" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "de-a1-u08-l1-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Er liest viel.",
+      "tiles": ["he", "reads", "a", "lot", "read", "she", "cooks"],
+      "answers": ["He reads a lot."]
+    },
+    {
+      "id": "de-a1-u08-l1-ex07",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a1/u08/de-a1-u08-l1-ex07.mp3" },
+      "tiles": ["abends", "höre", "ich", "Musik", "hörst", "morgens", "du"],
+      "answers": ["Abends höre ich Musik."]
+    },
+    {
+      "id": "de-a1-u08-l1-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "We're cooking today.",
+      "tiles": ["wir", "kochen", "heute", "kocht", "ihr", "morgen"],
+      "answers": ["Wir kochen heute.", "Heute kochen wir."]
+    },
+    {
+      "id": "de-a1-u08-l1-ex09",
+      "type": "multiple_choice",
+      "prompt": "Which one means 'to dance'?",
+      "options": [
+        { "id": "a", "text": "trinken" },
+        { "id": "b", "text": "kochen" },
+        { "id": "c", "text": "tanzen" },
+        { "id": "d", "text": "schwimmen" }
+      ],
+      "correctOptionId": "c"
+    },
+    {
+      "id": "de-a1-u08-l1-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Meine Schwester tanzt sehr gut.",
+      "tiles": ["my", "sister", "dances", "very", "well", "dance", "brother", "good"],
+      "answers": ["My sister dances very well."]
+    },
+    {
+      "id": "de-a1-u08-l1-ex11",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a1/u08/de-a1-u08-l1-ex11.mp3" },
+      "tiles": ["am", "Sonntag", "schwimmen", "wir", "Samstag", "schwimmt", "ihr"],
+      "answers": ["Am Sonntag schwimmen wir."]
+    },
+    {
+      "id": "de-a1-u08-l1-ex12",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'What do you do at the weekend?'",
+      "options": [
+        { "id": "a", "text": "Was macht du am Wochenende?" },
+        { "id": "b", "text": "Wo machst du am Wochenende?" },
+        { "id": "c", "text": "Was machst du am Wochenende?" },
+        { "id": "d", "text": "Was machst du am Montag?" }
+      ],
+      "correctOptionId": "c"
+    }
+  ]
+}
