@@ -1,6 +1,7 @@
 # Polyglow Roadmap
 
-**Owner:** pm · **Last updated:** 2026-11-12 (final acceptance of v0.1.0 and v0.2.0) ·
+**Owner:** pm · **Last updated:** 2026-11-12 (final acceptance of v0.1.0 and v0.2.0;
+v0.4.0 tickets written) ·
 **Source:** `PRD.md`, `user-stories.md`, decisions in `decisions.md` (PD-004 onward cover
 this roadmap)
 
@@ -167,26 +168,83 @@ about read/write hooks, UI and the skill path (PD-017).
 - Wave 4: **PLT-009** (composes everything; can stub while the last tickets are in review).
 - Across agents: dev-gamification carries the critical path (GAM-003 → GAM-004 →
   GAM-007). dev-lessons works on LES-009 then LES-010. dev-platform is free until PLT-009
-  and may start v0.4.0 tickets that don't touch Learn (PLT-010, PLT-012) early (PD-004).
+  and may start v0.4.0 tickets that don't touch Learn early (PD-004): PLT-010 once
+  CTO-007 is in, and the audio part of PLT-015. PLT-016 waits for PLT-009.
 
 ---
 
-## v0.4.0 — Accounts and sync (planned)
+## v0.4.0 — Accounts and sync
 
-**Goal:** a guest can create an account (email or Google) without losing progress, and
-lessons finished offline sync reliably when the device reconnects.
+**Milestone status: tickets written** (pm, 2026-11-12). Next: cto design step (CTO-007
+plus Technical notes on each ticket), then build.
 
-| ID | Title | Owner |
-|---|---|---|
-| PLT-010 | Supabase client, email sign-up, log-in, log-out, session handling | dev-platform |
-| PLT-011 | Google sign-in | dev-platform |
-| PLT-012 | Password reset by email | dev-platform |
-| PLT-013 | "Save your progress" prompt and guest → account migration | dev-platform |
-| PLT-014 | Sync queue: idempotent upload of lesson results (no double XP) | dev-platform |
-| PLT-015 | Offline caching of Unit 1 lessons and audio, sync on reconnect | dev-platform |
-| PLT-016 | Profile screen (name, avatar, total XP, streaks, lessons, join date) | dev-platform |
-| PLT-017 | Settings screen (daily goal, sound, speaking exercises, appearance dark/light (PD-015), log out) | dev-platform |
-| PLT-018 | Onboarding "I already have an account" path | dev-platform |
+**Goal:** a guest can create an account (email + password or Google) without losing
+progress, a returning learner can log in on a new device, lessons finished offline sync
+reliably when the device reconnects, and every learner has a profile and settings
+(daily goal, dark/light appearance, log out).
+
+**No hosted Supabase project yet (PD-022).** Everything is built and tested against the
+in-memory **demo backend** behind a backend gateway, plus the local Supabase CLI stack
+where useful. Production builds without credentials run in `off` mode (guest only, no
+account entry points). Real credentials are a config switch. Product decisions for this
+milestone: PD-022 to PD-029.
+
+| ID | Title | Owner | Priority | Depends on | Status |
+|---|---|---|---|---|---|
+| CTO-007 | Backend gateway interfaces (auth, data, migrate RPC), backend-mode env vars in `.env.example`, demo mode in CI e2e, `identity` query key (proposed ID) | cto | P0 | CTO-003, CTO-006 | open |
+| PLT-010 | Backend gateway, demo backend, email sign-up and log-in, session | dev-platform | P0 | CTO-003, CTO-004, CTO-006, CTO-007 | open |
+| PLT-011 | Google sign-in | dev-platform | P0 | PLT-010 | open |
+| PLT-012 | Password reset by email | dev-platform | P1 | PLT-010 | open |
+| PLT-013 | "Save your progress" prompt and guest → account handover | dev-platform | P0 | PLT-010, PLT-014, PLT-009, PLT-016 | open |
+| PLT-014 | Sync engine: idempotent push, pull and merge (no double XP) | dev-platform | P0 | PLT-010, CTO-007, PLT-008 | open |
+| PLT-015 | Sync status in the offline indicator, reconnect flow and Unit 1 audio warm-up | dev-platform | P0 | PLT-014, PLT-006, PLT-007, PLT-002 | open |
+| PLT-016 | Profile screen and profile/settings reads through TanStack Query | dev-platform | P0 | PLT-009, GAM-003, GAM-004, CTO-004, CTO-006 | open |
+| PLT-017 | Settings screen: daily goal, appearance (dark/light), account and log out | dev-platform | P0 | PLT-016, PLT-010, PLT-014, GAM-006, CTO-004 | open |
+| PLT-018 | Onboarding "I already have an account" path | dev-platform | P1 | PLT-010, PLT-013, PLT-014, PLT-017, PLT-004 | open |
+
+Changes to the reserved list (PD-023, PD-026): PLT-010 no longer contains log out (it
+moves to PLT-017). PLT-015 drops lesson precaching (done in PLT-007). PLT-016 also retires
+the Zustand mirror of profile/settings (ARCHITECTURE §5). PLT-017 drops the sound and
+speaking toggles (they come with LES-012 / LES-011) and the name/avatar edit (new PLT-024,
+v1.0.0).
+
+**Waiting on owner (non-blocking)**
+- **Hosted Supabase project:** URL + anon key, Google OAuth client, SMTP sender for auth
+  emails, production site URL and redirect URLs (`/auth/callback`, `/reset-password`),
+  email confirmations off (PD-023). Until then, demo backend + `off` mode in production
+  (PD-022). When it arrives, the cto sets the env vars, runs the shared behaviour suites
+  (PLT-010 criterion 19, PLT-014 criterion 16) and the e2e suite against it, and records
+  the result in the release PR. This needs no ticket.
+
+**Release note for the cto:** v0.4.0 is accepted on demo mode. If the hosted project
+still doesn't exist at release time, the release ships with accounts in `off` mode for
+production, and the release notes say so.
+
+**Parallel build plan** (all tickets are dev-platform. Run several dev-platform agents
+at once, each in its own worktree. Shared files are listed so merges stay small.)
+- **Wave 0 (cto):** **CTO-007** and the Technical notes on PLT-010..PLT-018. PLT-016 and
+  the audio part of PLT-015 don't need CTO-007 and can start in parallel.
+- **Wave 1:** **PLT-010** (gateway, demo backend, `/signup`, `/login`), **PLT-016** (profile
+  + TanStack Query move; start after PLT-009 merges, since both touch the settings read),
+  and **PLT-015 criteria 7–9 and 11** (audio cache and warm-up: `sw.ts`, `_pwa/*`).
+  Disjoint folders.
+- **Wave 2 (after PLT-010):** **PLT-014** (`src/lib/sync`), **PLT-011** (Google +
+  `/auth/callback`) and **PLT-012** (`/forgot-password`, `/reset-password`), plus
+  **PLT-017 criteria 1–9** (settings screen, daily goal, appearance; after PLT-016).
+  Shared files: PLT-011 and PLT-012 both touch the `/login` page (one link and one
+  button). PLT-014 and PLT-017 both touch `src/app/providers.tsx` (engine mount, theme
+  first paint), so the second to merge rebases.
+- **Wave 3 (after PLT-014):** **PLT-013** (handover + prompt on Learn + card on Profile),
+  **PLT-015** sync-status part (`OfflineBanner.tsx`), and **PLT-017** account section and
+  log out.
+- **Wave 4:** **PLT-018** (welcome-step button, `from=onboarding`; needs PLT-013 and
+  PLT-017's log out).
+- **Critical path:** CTO-007 → PLT-010 → PLT-014 → PLT-013 → PLT-018.
+- **Other agents:** dev-lessons and dev-gamification have no v0.4.0 tickets. They may
+  start v1.0.0 tickets early once the pm writes them (PD-004): LES-012 sound effects
+  and LES-013 tip card. The Settings toggle for sound is mounted by dev-platform, and
+  the pm will spell out the split in the LES-012 ticket. pm: v1.0.0 tickets come next,
+  starting with the LES- ones.
 
 ---
 
@@ -197,14 +255,15 @@ lessons finished offline sync reliably when the device reconnects.
 
 | ID | Title | Owner |
 |---|---|---|
-| LES-011 | Speak exercise (optional, skippable, never costs a heart; P2) | dev-lessons |
-| LES-012 | Sound effects (correct, incorrect, lesson complete; respects setting) | dev-lessons |
+| LES-011 | Speak exercise (optional, skippable, never costs a heart; P2). Brings the "Speaking exercises" toggle to Settings (PD-026) | dev-lessons |
+| LES-012 | Sound effects (correct, incorrect, lesson complete; respects setting). Brings the "Sound effects" toggle to Settings (PD-026) | dev-lessons |
 | LES-013 | Lesson tip card (P2) | dev-lessons |
 | PLT-019 | Analytics events for the PRD success metrics | dev-platform |
 | PLT-020 | Draft terms and privacy pages, 13+ notice | dev-platform |
 | PLT-021 | Accessibility audit (findings become `fix/` tickets per owner). Inputs from the v0.2.0 review: is "Exercise 1 of N" announced on the first exercise (LES-002 AC13 note)? The storage notice uses non-token colours and a text "Dismiss" button (PLT-003 note) | dev-platform |
 | PLT-022 | Performance budget and Lighthouse mobile ≥ 90 | dev-platform |
 | PLT-023 | E2E suite: guest first lesson, offline → sync, sign-up migration, out of hearts | dev-platform |
+| PLT-024 | Edit display name and preset avatar (US-PLT-11, P2; may slip to Phase 2, PD-026) | dev-platform |
 | CON-004 | Unit 1 content QA pass, speak exercises, final audio references | pm |
 | CON-003 | UI microcopy review (kind feedback, empty/error states) | pm |
 | CTO-(tbd) | E2E in CI, TTS audio pipeline (waits on owner for the TTS licence, PRD Q7), release | cto |

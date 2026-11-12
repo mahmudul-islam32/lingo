@@ -18,6 +18,7 @@ mocks or placeholders and swap in the final answer when it arrives.
 | Trademark, domain and social-handle check for "Polyglow" | Use "Polyglow" as the working name; no paid domain or handle registration | PD-001 |
 | PRD Q6: minimum age / consent copy | 13+ assumption; placeholder terms and privacy page marked "draft" | PRD §9 |
 | PRD Q7: TTS licence for pre-generated audio | Placeholder/mock audio files (or locally generated dev-only audio) not shipped to production | PRD §9 |
+| Hosted Supabase project: project URL and anon key, Google OAuth client (id/secret), SMTP sender for auth emails, production site URL and redirect URLs (`/auth/callback`, `/reset-password`), email confirmation setting matching PD-023 | v0.4.0 is built and tested against the in-memory **demo backend** and the local Supabase CLI stack. Production builds without credentials run in `off` mode (guest only, no account entry points). Going live = setting env vars, no code change | PD-022 |
 
 ---
 
@@ -396,3 +397,179 @@ mocks or placeholders and swap in the final answer when it arrives.
   bump (process over outcome).
 - **Reversibility:** High. All three are copy or hook-level choices, with no contract or
   data change.
+
+## PD-022: Accounts are built against a demo backend; a hosted Supabase project is a config switch
+
+- **Date:** 2026-11-12
+- **Decision:**
+  - There is no hosted Supabase project yet (waiting on the owner). v0.4.0 is built so
+    that nothing waits for it. The app reaches the backend only through a **backend
+    gateway** interface (auth + data + the migrate RPC, defined by the cto, CTO-007), with
+    three modes picked from public env vars (PLT-010 criterion 1):
+    - **`supabase`**: the real supabase-js client, when the URL and anon key are set.
+    - **`demo`**: an in-memory fake that follows ADR-003's rules (insert-or-ignore
+      results, stale-update skip, earliest `joined_at`, server cursor, per-user
+      isolation, guest-migration merge), kept in `localStorage` so it survives reloads.
+      Used for unit tests, e2e, local dev and preview builds, when
+      `NEXT_PUBLIC_DEMO_BACKEND=1`.
+    - **`off`**: no backend. Guest only, exactly the v0.3.0 behaviour, with no "Create
+      account" or "Log in" anywhere.
+  - Demo mode is labelled on every auth screen ("Demo mode: accounts are stored on this
+    device only.").
+  - **Production builds without credentials ship in `off` mode.** Real learners never
+    create a demo account that can't sync. v0.4.0 can be released and accepted on demo
+    mode. Turning accounts on for real users only means setting the env vars and
+    re-running the e2e suite against the hosted project (a release-checklist item, not a
+    ticket).
+  - The shared behaviour suites (PLT-010 criterion 19, PLT-014 criterion 16) also run
+    against a local `supabase start` stack when its env vars are present. This keeps
+    the demo backend honest.
+- **Rationale:** "The team never waits for the owner" (CLAUDE.md rule 9). A gateway with
+  a fake is also what ARCHITECTURE §12 asks for ("Supabase is never called in unit
+  tests"). Hiding accounts in `off` mode avoids a fake account system in front of real
+  users, which would break the promise "your progress is safe".
+- **Alternatives considered:** waiting for the hosted project (blocks the milestone);
+  shipping the demo backend to production (accounts that don't work across devices);
+  mocking supabase-js at the HTTP level with MSW (couples tests to PostgREST details and
+  doesn't help e2e or previews); a hosted free-tier project created by an agent (needs
+  owner credentials and billing ownership).
+- **Reversibility:** High. The mode is configuration. The demo backend stays useful for
+  tests after the hosted project exists.
+
+## PD-023: v0.4.0 scope and ticket shape
+
+- **Date:** 2026-11-12
+- **Decision:**
+  - **Auth methods:** email + password and Google, as the PRD says (§6.1). No magic link
+    in MVP (Phase 2 candidate). Passwords are 8–72 characters (matches
+    `minimum_password_length` in `supabase/config.toml`).
+  - **No email confirmation before use** in MVP: sign-up signs the learner in at once.
+    The hosted project must set confirmations off to match. Revisit with the draft terms
+    and privacy pages (PLT-020, v1.0.0) before launch.
+  - Log-in and reset errors never reveal whether an email has an account. Sign-up does
+    say "already exists" (the learner needs that to recover).
+  - **PLT-010** is retitled "Backend gateway, demo backend, email sign-up and log-in,
+    session". The full **log out** (final sync, unsynced warning, data wipe) moves to
+    **PLT-017** with the rest of the account section. The gateway's `signOut` stays in
+    PLT-010.
+  - **PLT-015** is retitled "Sync status in the offline indicator, reconnect flow and
+    Unit 1 audio warm-up", because Unit 1 lessons are already precached (PLT-007
+    criterion 7).
+  - **PLT-016** also moves identity/profile/settings reads from Zustand to TanStack Query
+    (ARCHITECTURE §5 deviation retired).
+  - **CTO-007** (cto, proposed ID) defines the gateway interfaces, the env vars in
+    `.env.example`, and the CI env for demo mode before PLT-010 starts.
+- **Rationale:** each ticket fits one focused session, and every ticket can be tested
+  without a hosted project. Moving log out next to the account section keeps all the
+  "data leaves the device" rules in one place. Magic links need deep-link handling in an
+  installed PWA, which is more risk than value for MVP.
+- **Alternatives considered:** magic link as the only email method (PWA deep-link
+  issues, the PRD says password); required email confirmation (adds a step between the
+  first lesson and a saved account, which hurts the ≥ 25 % conversion metric); a separate
+  log-out ticket (no reserved ID; it belongs with Settings).
+- **Reversibility:** High. Confirmation and magic link are configuration plus a screen.
+
+## PD-024: Guest → account handover always merges, never asks
+
+- **Date:** 2026-11-12
+- **Decision:**
+  - Every sign-in path (email, Google, password reset) runs the same handover (PLT-013).
+    A guest who finished onboarding is migrated with `migrate_guest_to_account`, whether
+    the account is new or already exists. Lesson results are unioned. Profile, settings
+    and hearts follow "newer `updatedAt` wins", and the join date is the earliest.
+  - A guest who never finished onboarding has nothing worth migrating (and no valid
+    `Settings` for the payload). The device simply adopts the account and pulls
+    (PLT-018).
+  - Guest data is deleted only after the server confirmed the migration. A failed
+    handover leaves the learner signed in on a guest device, and it retries on the next
+    start or reconnect.
+  - The profile keeps the guest's name and initials avatar. We don't import the Google
+    name or photo.
+- **Rationale:** a union never loses a finished lesson (PRD principle "offline is
+  normal: never lose a finished lesson"). Asking "keep this device's or the account's
+  progress?" is a hard question for a beginner and can only lose data. Not importing
+  Google profile data keeps the privacy story simple.
+- **Alternatives considered:** a choice dialog on conflict; migrating only into new
+  accounts (an existing user's lessons finished as a guest would be lost); importing the
+  Google name (personal data we don't need yet).
+- **Reversibility:** Medium. Merged data can't be un-merged, but the rule only adds.
+
+## PD-025: When the "Save your progress" prompt appears
+
+- **Date:** 2026-11-12
+- **Decision:** the prompt shows on Learn after a guest returns from a completed lesson,
+  at most once per local day and at most 3 times in total. It only shows when accounts
+  are enabled and the device is online. "Not now", Escape and close all count as a
+  dismissal. A permanent, non-interrupting card on Profile and the Settings account
+  section offer the same choice at any time.
+- **Rationale:** the PRD asks for the prompt "after the first completed lesson" (US-PLT-04)
+  and targets ≥ 25 % conversion within 7 days. Up to three asks on different days covers
+  that window without nagging. It is shown on Learn, not on the results screen, so the
+  celebration (LES-010) isn't interrupted and dev-lessons' screen doesn't change. Offline
+  it would lead straight to a disabled form.
+- **Alternatives considered:** after every lesson (nagging); only once (low conversion);
+  inside the results screen (competes with the streak and goal celebration).
+- **Reversibility:** High. The counters and limits are constants. Tune them with
+  PLT-019 analytics.
+
+## PD-026: Settings in v0.4.0: daily goal, appearance, account
+
+- **Date:** 2026-11-12
+- **Decision:** `/settings` opens from a gear on Profile (the bottom navigation stays
+  Learn + Profile, PD-005). In v0.4.0 it holds: daily goal, appearance (dark/light),
+  account (email + log out, or create account / log in for guests). The **sound effects**
+  and **speaking exercises** toggles ship with the features they control (LES-012 and
+  LES-011, v1.0.0). The stored `Settings` fields already exist, so no contract change is
+  needed. **Editing the name and avatar** (US-PLT-11, P2) is a new ticket **PLT-024** in
+  v1.0.0, which may slip to Phase 2.
+- **Rationale:** a switch that changes nothing is a broken promise ("always forward", no
+  dead ends). Name editing is P2 and needs preset avatar artwork that doesn't exist yet.
+- **Alternatives considered:** showing all PRD toggles now (two of them inert until
+  v1.0.0); settings as a section inside Profile (a long page at 375 px, mixes stats and
+  controls).
+- **Reversibility:** High.
+
+## PD-027: Appearance is a device preference
+
+- **Date:** 2026-11-12
+- **Decision:** the Dark / Light choice (PD-015) is stored on the device
+  (`localStorage`). It is applied before the first paint, works for guests and offline,
+  isn't synced, and is kept on log out. The manifest background colour stays as decided
+  in PD-020.
+- **Rationale:** `Settings` has no theme field. Syncing it would need a contract change,
+  a Supabase migration and a `CONTRACTS_VERSION` discussion for a cosmetic value.
+  Different devices can reasonably have different themes (e.g. phone dark, laptop light).
+- **Alternatives considered:** adding `appearance` to `Settings` (contract + migration
+  work for little value); following `prefers-color-scheme` (rejected in PD-015 for MVP).
+- **Reversibility:** High. It can move into `Settings` later with a contract request.
+
+## PD-028: Log-out rules
+
+- **Date:** 2026-11-12
+- **Decision:** log out makes one sync attempt first (up to 10 s). If lesson results are
+  still unsynced, a dialog names how many and lets the learner stay logged in (default)
+  or log out anyway. Logging out deletes every piece of learner data on the device and
+  starts a fresh guest at the onboarding welcome screen. Device preferences (theme,
+  install-prompt dismissal) stay. Log out works offline.
+- **Rationale:** US-PLT-09 is about shared devices: the next person must not see the
+  previous learner's data. A warning with a count makes the only way to lose data an
+  informed choice.
+- **Alternatives considered:** keeping the data as a guest after log out (leaks the
+  account's progress on a shared device); blocking log out while offline (traps a
+  learner on a shared device).
+- **Reversibility:** High.
+
+## PD-029: A daily goal change applies to today immediately
+
+- **Date:** 2026-11-12
+- **Decision:** changing the daily goal in Settings takes effect for the current local
+  day at once. The goal ring and the results screen recompute "reached" with the new
+  goal, so it can become reached or not reached. The XP earned and the streak never
+  change, because the streak depends only on completed lessons (PRD §6.1).
+- **Rationale:** the goal is derived state (ARCHITECTURE §4.2). Storing the goal per day
+  would add a new synced fact for an edge case. Lowering the goal to "reach" it is
+  harmless: the streak doesn't depend on it.
+- **Alternatives considered:** applying the change from tomorrow (needs a per-day goal
+  history); freezing "reached" once reached today (more state, inconsistent with the
+  ring).
+- **Reversibility:** High.
