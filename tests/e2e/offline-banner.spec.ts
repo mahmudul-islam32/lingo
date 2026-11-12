@@ -65,9 +65,17 @@ test.describe("offline banner at 375 px", () => {
     }));
     expect(height).toBeLessThanOrEqual(lineHeight * 2 + 1);
 
-    const bannerBox = await page.getByTestId("offline-banner").boundingBox();
-    const navBox = await page.getByRole("navigation", { name: "Main" }).boundingBox();
-    const mainBox = await page.getByRole("main").boundingBox();
+    // Measured in one go: Learn's skill path may still be smooth-scrolling its next
+    // lesson into view (GAM-008), which would skew boxes read one after another.
+    const boxes = await page.evaluate(() => {
+      const rect = (el: Element | null) => el?.getBoundingClientRect() ?? null;
+      return {
+        banner: rect(document.querySelector('[data-testid="offline-banner"]')),
+        nav: rect(document.querySelector('nav[aria-label="Main"]')),
+        main: rect(document.querySelector("main")),
+      };
+    });
+    const { banner: bannerBox, nav: navBox, main: mainBox } = boxes;
     expect(bannerBox && navBox && mainBox).toBeTruthy();
     // In the document flow above <main>: no overlap with the content or the nav.
     expect(bannerBox!.y + bannerBox!.height).toBeLessThanOrEqual(mainBox!.y + 0.5);

@@ -1,6 +1,7 @@
 import { render, screen, within } from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
 import { afterEach, beforeEach, describe, expect, it, vi } from "vitest";
+import { ToastProvider } from "@/components/ui";
 import { renderWithQueryClient } from "@/lib/query/testing";
 import { navigationState } from "./navigation-mock";
 import { guestProfileStore } from "@/features/profile";
@@ -31,12 +32,12 @@ describe("app shell", () => {
   it("Learn: one main, one h1, bottom nav outside main, skip link first", async () => {
     const user = userEvent.setup();
     renderWithQueryClient(
-      <>
+      <ToastProvider>
         <SkipLink />
         <TabsLayout>
           <LearnPage />
         </TabsLayout>
-      </>,
+      </ToastProvider>,
     );
     expectOneMainAndOneH1();
     const main = screen.getByRole("main");
@@ -44,12 +45,18 @@ describe("app shell", () => {
     expect(main).not.toContainElement(nav);
     expect(main.className).toContain("env(safe-area-inset-bottom)");
 
-    // The lesson list (PLT-007) comes before the bottom nav in the Tab order.
-    const lastLesson = await screen.findByRole("link", { name: "Lesson 5: Around Town" });
+    // PLT-009: top bar, then the skill path, then the bottom nav in the Tab order.
+    // (jsdom has no IndexedDB: progress and hearts come from the in-memory fallback.)
+    const hearts = await screen.findByRole("button", { name: "Hearts: 5 of 5" });
+    const lastLesson = await screen.findByRole("button", {
+      name: "Lesson 5: Around Town, locked",
+    });
     await user.tab();
     expect(screen.getByRole("link", { name: "Skip to content" })).toHaveFocus();
     await user.tab();
-    expect(screen.getByRole("link", { name: "Lesson 1: Hello!" })).toHaveFocus();
+    expect(hearts).toHaveFocus();
+    await user.tab();
+    expect(screen.getByRole("link", { name: "Lesson 1: Hello!, up next. Start" })).toHaveFocus();
     lastLesson.focus();
     await user.tab();
     expect(within(nav).getByRole("link", { name: "Learn" })).toHaveFocus();
@@ -68,7 +75,7 @@ describe("app shell", () => {
 
   it("onboarding: no bottom nav", () => {
     guestProfileStore.setState({ status: "ready", onboardingComplete: false });
-    render(<OnboardingPage />);
+    renderWithQueryClient(<OnboardingPage />);
     expectOneMainAndOneH1();
     expect(screen.queryByRole("navigation")).not.toBeInTheDocument();
   });

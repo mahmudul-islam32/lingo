@@ -13,6 +13,7 @@ import {
   unitProgressText,
 } from "./copy";
 import { PathNodeItem } from "./PathNode";
+import { scrollToCenter } from "./scroll-to-center";
 
 export interface SkillPathViewProps {
   /** Course manifest: unit titles, lesson titles and order. */
@@ -88,14 +89,12 @@ export function SkillPathView({
   const [outOfHeartsOpen, setOutOfHeartsOpen] = useState(false);
 
   // AC11: bring the next lesson into view on the first render only (not on updates).
+  // FIX-002: by scroll position, not `scrollIntoView`, so the Tab order still starts at
+  // the top of the page (skip link, top bar).
   useEffect(() => {
     const target = frontierRef.current;
-    if (!target || typeof target.scrollIntoView !== "function") return;
-    target.scrollIntoView({
-      block: "center",
-      inline: "nearest",
-      behavior: prefersReducedMotion() ? "auto" : "smooth",
-    });
+    if (!target) return;
+    scrollToCenter(target, prefersReducedMotion() ? "auto" : "smooth");
   }, []);
 
   function blocked(node: PathNode, element: HTMLElement) {

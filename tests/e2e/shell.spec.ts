@@ -51,6 +51,7 @@ test.describe("app shell navigation", () => {
   }) => {
     test.skip(browserName === "webkit", "WebKit does not Tab to links by default");
     await page.goto("/");
+    await expect(page.getByRole("button", { name: "Lesson 5: Around Town, locked" })).toBeVisible();
     await page.keyboard.press("Tab");
     const skip = page.getByRole("link", { name: "Skip to content" });
     await expect(skip).toBeFocused();
@@ -59,12 +60,16 @@ test.describe("app shell navigation", () => {
     await expect(page.getByRole("main")).toBeFocused();
 
     await page.goto("/");
-    // The Learn lesson list (PLT-007) comes before the bottom nav in the Tab order.
-    const lessons = page.locator("main ol").getByRole("link");
-    await expect(lessons).toHaveCount(5);
+    // PLT-009: the top bar (hearts) and the skill path come before the bottom nav.
+    const hearts = page.getByRole("button", { name: /^Hearts: / });
+    const lastNode = page.getByRole("button", { name: "Lesson 5: Around Town, locked" });
+    await expect(lastNode).toBeVisible();
     await page.keyboard.press("Tab"); // skip link
-    for (let i = 0; i < 5; i += 1) await page.keyboard.press("Tab");
-    await expect(lessons.last()).toBeFocused();
+    await page.keyboard.press("Tab");
+    await expect(hearts).toBeFocused();
+    await page.keyboard.press("Tab");
+    await expect(page.getByRole("link", { name: "Lesson 1: Hello!, up next" })).toBeFocused();
+    await lastNode.focus();
     await page.keyboard.press("Tab");
     await expect(tab(page, "Learn")).toBeFocused();
     await page.keyboard.press("Tab");
@@ -127,12 +132,13 @@ test.describe("app shell at 375 × 667", () => {
       expect(box?.width).toBeGreaterThanOrEqual(44);
       expect(box?.height).toBeGreaterThanOrEqual(44);
     }
-    // Wait for the lesson list (PLT-007) so the page has its final height, then scroll to
-    // the bottom; the last element in <main> must end above the nav.
-    await expect(page.locator("main ol").getByRole("link")).toHaveCount(5);
+    // Wait for the skill path (PLT-009) so the page has its final height, then scroll to
+    // the bottom; the last path node must end above the nav.
+    const lastNode = page.getByRole("button", { name: "Lesson 5: Around Town, locked" });
+    await expect(lastNode).toBeVisible();
     await page.evaluate(() => window.scrollTo(0, document.body.scrollHeight));
     const navBox = await nav(page).boundingBox();
-    const lastBox = await page.locator("main > * > *:last-child").last().boundingBox();
+    const lastBox = await lastNode.boundingBox();
     expect(navBox && lastBox).toBeTruthy();
     expect(lastBox!.y + lastBox!.height).toBeLessThanOrEqual(navBox!.y);
   });

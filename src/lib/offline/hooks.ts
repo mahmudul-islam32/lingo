@@ -1,8 +1,8 @@
 "use client";
 
-import { queryOptions, useQuery, useQueryClient } from "@tanstack/react-query";
+import { queryOptions, useQueryClient } from "@tanstack/react-query";
 import { createContext, createElement, useCallback, useContext, type ReactNode } from "react";
-import type { LessonResult, ProgressRepository, Slug } from "@/contracts";
+import type { ProgressRepository, Slug } from "@/contracts";
 import { queryKeys } from "@/lib/query";
 import { getLocalSession } from "./session";
 
@@ -35,32 +35,6 @@ export function progressQueryOptions(load: ProgressRepositoryLoader, courseId: S
     queryKey: queryKeys.progress(courseId),
     queryFn: async () => (await load()).listLessonResults(courseId),
   });
-}
-
-export interface CompletedLessonIds {
-  status: "loading" | "ready";
-  /** Lessons with at least one saved result. Empty when reading failed (PLT-008 UX). */
-  ids: ReadonlySet<Slug>;
-}
-
-const EMPTY: ReadonlySet<Slug> = new Set();
-
-function selectCompletedIds(results: LessonResult[]): ReadonlySet<Slug> {
-  return new Set(results.map((r) => r.lessonId));
-}
-
-/**
- * Distinct `lessonId`s of `listLessonResults(courseId)` (PLT-008 criterion 5), a
- * `select` over `["progress", courseId]` (ADR-005). A read error counts as "nothing
- * completed yet", so the learner can still start every lesson.
- */
-export function useCompletedLessonIds(courseId: Slug): CompletedLessonIds {
-  const query = useQuery({
-    ...progressQueryOptions(useProgressRepositoryLoader(), courseId),
-    select: selectCompletedIds,
-  });
-  if (query.status === "pending") return { status: "loading", ids: EMPTY };
-  return { status: "ready", ids: query.data ?? EMPTY };
 }
 
 /**

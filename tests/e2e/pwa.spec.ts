@@ -1,5 +1,6 @@
 import { expect, test, type Page } from "@playwright/test";
 import { expectNoSeriousA11yViolations } from "./axe";
+import { waitForServiceWorker } from "./helpers/service-worker";
 import { completeOnboarding } from "./onboarding-helpers";
 
 /**
@@ -9,14 +10,6 @@ import { completeOnboarding } from "./onboarding-helpers";
  */
 
 const learnHeading = (page: Page) => page.getByRole("heading", { level: 1, name: "Learn" });
-
-/** Waits until the service worker is active (precache finished) and controls the page. */
-async function waitForServiceWorker(page: Page) {
-  await page.evaluate(async () => {
-    await navigator.serviceWorker.ready;
-  });
-  await page.waitForFunction(() => navigator.serviceWorker.controller !== null);
-}
 
 function collectConsoleErrors(page: Page): string[] {
   const errors: string[] = [];

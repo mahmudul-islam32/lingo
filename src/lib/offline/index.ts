@@ -31,10 +31,8 @@ export {
   loadLocalProgress,
   progressQueryOptions,
   ProgressRepositoryProvider,
-  useCompletedLessonIds,
   useInvalidateProgress,
   useProgressRepositoryLoader,
-  type CompletedLessonIds,
   type ProgressRepositoryLoader,
 } from "./hooks";
 export { useOnlineStatus } from "./use-online-status";

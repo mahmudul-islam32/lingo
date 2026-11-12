@@ -3,16 +3,25 @@ import userEvent from "@testing-library/user-event";
 import type { ReactNode } from "react";
 import { beforeEach, describe, expect, it, vi } from "vitest";
 import type { ProgressRepository } from "@/contracts";
+import { ToastProvider } from "@/components/ui";
 import type { ExerciseComponentMap, ExerciseComponentProps } from "@/features/lessons";
 import { ContentRepositoryProvider, type BundledContentRepository } from "@/lib/content";
 import {
   createFixtureRepository,
   FIXTURE_COURSE_ID,
 } from "@/lib/content/__fixtures__/fixture-course";
-import { openLocalSession, ProgressRepositoryProvider, StorageError } from "@/lib/offline";
+import {
+  getLocalSession,
+  openLocalSession,
+  ProgressRepositoryProvider,
+  resetLocalSession,
+  StorageError,
+} from "@/lib/offline";
+import { lessonResult } from "@/lib/offline/__tests__/helpers";
 import { queryKeys } from "@/lib/query";
 import { createTestQueryClient, renderWithQueryClient } from "@/lib/query/testing";
-import { LEARN_PATH, LessonScreen } from "../LessonScreen";
+import { FLASH_TOAST_KEY } from "../../../_shell/flash-toast";
+import { LEARN_PATH, LOCKED_LESSON_TOAST, LessonScreen } from "../LessonScreen";
 
 const router = vi.hoisted(() => ({ push: vi.fn(), replace: vi.fn(), prefetch: vi.fn() }));
 vi.mock("next/navigation", () => ({ useRouter: () => router, usePathname: () => "/lesson/x" }));
@@ -51,23 +60,27 @@ const components: ExerciseComponentMap = { multiple_choice: StubChoice };
 function renderScreen({
   repository = createFixtureRepository(),
   progress,
+  lessonId = "fx-l1",
 }: {
   repository?: BundledContentRepository;
   progress: ProgressRepository;
+  lessonId?: string;
 }) {
   const client = createTestQueryClient();
   const Providers = ({ children }: { children: ReactNode }) => (
-    <ContentRepositoryProvider repository={repository}>
-      <ProgressRepositoryProvider load={async () => progress}>
-        {children}
-      </ProgressRepositoryProvider>
-    </ContentRepositoryProvider>
+    <ToastProvider>
+      <ContentRepositoryProvider repository={repository}>
+        <ProgressRepositoryProvider load={async () => progress}>
+          {children}
+        </ProgressRepositoryProvider>
+      </ContentRepositoryProvider>
+    </ToastProvider>
   );
   return renderWithQueryClient(
     <Providers>
       <LessonScreen
         courseId={FIXTURE_COURSE_ID}
-        lessonId="fx-l1"
+        lessonId={lessonId}
         components={components}
         createId={() => RESULT_ID}
       />
@@ -86,7 +99,13 @@ async function playToTheEnd() {
   return user;
 }
 
-beforeEach(() => router.push.mockReset());
+beforeEach(() => {
+  router.push.mockReset();
+  router.replace.mockReset();
+  // jsdom has no IndexedDB: hearts and path progress use a fresh in-memory session.
+  resetLocalSession();
+  window.sessionStorage.clear();
+});
 
 describe("LessonScreen (PLT-007, PLT-008)", () => {
   it("shows the skeleton, then the first exercise of the lesson", async () => {
@@ -161,5 +180,56 @@ describe("LessonScreen (PLT-007, PLT-008)", () => {
     await playToTheEnd();
     expect(await screen.findByText(SAVE_ERROR_MESSAGE)).toBeInTheDocument();
     expect(screen.getByRole("heading", { level: 1, name: RESULTS_HEADING })).toBeVisible();
+  });
+});
+
+describe("LessonScreen locked deep links (PLT-009 AC 4)", () => {
+  it("a locked lesson queues the toast for Learn, redirects there and never renders the player", async () => {
+    const session = await openLocalSession({ forceMemory: true });
+    renderScreen({ progress: session.progress, lessonId: "fx-l2" });
+    await waitFor(() => expect(router.replace).toHaveBeenCalledTimes(1));
+    expect(window.sessionStorage.getItem(FLASH_TOAST_KEY)).toBe(LOCKED_LESSON_TOAST);
+    expect(router.replace).toHaveBeenCalledWith(LEARN_PATH);
+    expect(screen.getByTestId("player-skeleton")).toBeInTheDocument();
+    expect(screen.queryByRole("heading", { level: 2 })).not.toBeInTheDocument();
+  });
+
+  it("the next lesson opens once the earlier one is completed", async () => {
+    const shared = await getLocalSession();
+    await shared.progress.saveLessonResult(
+      lessonResult({ courseId: FIXTURE_COURSE_ID, unitId: "fx-unit-1", lessonId: "fx-l1" }),
+    );
+    const session = await openLocalSession({ forceMemory: true });
+    renderScreen({ progress: session.progress, lessonId: "fx-l2" });
+    expect(
+      await screen.findByRole("heading", { level: 2, name: "Which one means 'hello'?" }),
+    ).toBeInTheDocument();
+    expect(router.replace).not.toHaveBeenCalled();
+    expect(window.sessionStorage.getItem(FLASH_TOAST_KEY)).toBeNull();
+  });
+
+  it("a completed lesson opens again (replay)", async () => {
+    const shared = await getLocalSession();
+    await shared.progress.saveLessonResult(
+      lessonResult({ courseId: FIXTURE_COURSE_ID, unitId: "fx-unit-1", lessonId: "fx-l1" }),
+    );
+    const session = await openLocalSession({ forceMemory: true });
+    renderScreen({ progress: session.progress, lessonId: "fx-l1" });
+    expect(
+      await screen.findByRole("heading", { level: 2, name: "Which one means 'hello'?" }),
+    ).toBeInTheDocument();
+    expect(router.replace).not.toHaveBeenCalled();
+  });
+
+  it("at 0 hearts the lesson shows the out-of-hearts screen (HeartsLessonPlayer)", async () => {
+    const shared = await getLocalSession();
+    const now = new Date().toISOString();
+    await shared.progress.saveHearts({ current: 0, refillStartedAt: now, updatedAt: now });
+    const session = await openLocalSession({ forceMemory: true });
+    renderScreen({ progress: session.progress });
+    expect(
+      await screen.findByRole("heading", { level: 1, name: "You're out of hearts" }),
+    ).toBeInTheDocument();
+    expect(router.replace).not.toHaveBeenCalled();
   });
 });

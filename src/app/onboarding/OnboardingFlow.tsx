@@ -1,5 +1,6 @@
 "use client";
 
+import { useQueryClient } from "@tanstack/react-query";
 import { useRouter } from "next/navigation";
 import { useCallback, useEffect, useId, useRef, useState } from "react";
 import type { StoreApi } from "zustand";
@@ -7,6 +8,7 @@ import type { Course, DailyGoalXp, Slug } from "@/contracts";
 import { guestProfileStore, type GuestProfileState } from "@/features/profile";
 import { HOME_PATH } from "../_shell/OnboardingGate";
 import { firstLessonPath, listBundledCourses } from "@/lib/content";
+import { queryKeys } from "@/lib/query";
 import { CourseStep, type CoursesState } from "./steps/CourseStep";
 import { GoalStep } from "./steps/GoalStep";
 import { Welcome } from "./steps/Welcome";
@@ -30,14 +32,17 @@ export interface OnboardingFlowProps {
  * learning" writes: settings (course + daily goal) through the guest profile store, then
  * `onboardedAt`, then `router.replace` to the course's first lesson (PLT-007).
  *
- * Saving goes through the PLT-003 Zustand store, not a TanStack Query mutation: Query is
- * not installed yet (ARCHITECTURE §5, temporary deviation PLT-003/CR-002).
+ * Saving goes through the PLT-003 Zustand store, not a TanStack Query mutation
+ * (ARCHITECTURE §5, temporary deviation PLT-003/CR-002). Afterwards `["settings"]` is
+ * invalidated (PLT-009), so the daily goal and course read by gamification (GAM-003) are
+ * the ones just chosen, also if settings were cached before onboarding.
  */
 export function OnboardingFlow({
   loadCourses = defaultLoadCourses,
   store = guestProfileStore,
 }: OnboardingFlowProps) {
   const router = useRouter();
+  const queryClient = useQueryClient();
   const headingId = useId();
   const headingRef = useRef<HTMLHeadingElement>(null);
   const [step, setStep] = useState<OnboardingStep>("welcome");
@@ -89,6 +94,9 @@ export function OnboardingFlow({
       const state = store.getState();
       await state.updateSettings({ courseId, dailyGoalXp: goal });
       await state.completeOnboarding();
+      // `refetchType: "all"`: no settings query may be mounted here (app defaults don't
+      // refetch on mount), so inactive ones are refreshed too.
+      void queryClient.invalidateQueries({ queryKey: queryKeys.settings(), refetchType: "all" });
       // PLT-007 criterion 6: straight into the course's first lesson.
       const course =
         courses.status === "ready" ? courses.courses.find((c) => c.id === courseId) : undefined;
