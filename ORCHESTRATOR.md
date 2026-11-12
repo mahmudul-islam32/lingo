@@ -74,7 +74,21 @@ Lumi**, replace `[APP_NAME]`/`[MASCOT]` in `CLAUDE.md` and the docs, and have th
 4. Update `docs/STATUS.md` (run time, what each agent did, PRs merged, releases,
    current milestone, next steps, blockers, "Waiting on owner (non-blocking)") on
    a `docs/status-<YYYY-MM-DD>-<HHMM>` branch, merged by the `cto`.
-5. End with a short summary: agents used, PRs merged, release (if any), what's next.
+5. **Refresh the README showcase** (same `docs/status-…` branch, every run):
+   - Build the latest `main` (`npm ci && npm run build`), start it with
+     `npx next start -p 3200`, then run
+     `BASE_URL=http://localhost:3200 CHROMIUM_PATH=/opt/pw-browsers/chromium node scripts/readme-media/capture.mjs`
+     and `scripts/readme-media/encode.sh`. This rewrites `docs/media/` from the real app.
+   - For important features that are built but still unmerged, capture them from their
+     branch into `docs/media/preview/` (`MEDIA_DIR=docs/media/preview ONLY=<flow>`) and
+     show them under "Coming next"; move them up once merged and delete stale previews.
+   - When a new screen lands, add a flow for it to `scripts/readme-media/capture.mjs`
+     and a screenshot/GIF to `README.md`.
+   - Update `README.md`: "Last updated" date, version, the "What you can do today"
+     sections, "Coming next", and the roadmap table. Only show what really works on
+     `main`; label previews clearly. Look at the screenshots before committing.
+   - Keep media small (GIFs ≤ ~2 MB, phone viewport). Don't commit unchanged media.
+6. End with a short summary: agents used, PRs merged, release (if any), what's next.
 
 ## Long runs (up to 3 hours per run)
 - **Time box:** note the start time. Keep looping through the lifecycle
