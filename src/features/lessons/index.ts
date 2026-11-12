@@ -47,3 +47,14 @@ export {
   type SaveLessonResult,
   type ToLessonResultInput,
 } from "./results";
+export {
+  HeartsLessonPlayer,
+  LessonHeartsMeter,
+  OutOfHeartsScreen,
+  OUT_OF_HEARTS_HEADING,
+  OUT_OF_HEARTS_REASSURANCE,
+  heartLossAnnouncement,
+  type HeartsLessonPlayerProps,
+  type LessonHeartsMeterProps,
+  type OutOfHeartsScreenProps,
+} from "./hearts";
