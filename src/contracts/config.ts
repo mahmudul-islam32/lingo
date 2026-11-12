@@ -46,10 +46,19 @@ export const CONTENT_RULES = {
   /** Hard bounds on exercises per lesson; content targets 10–12. */
   lessonMinExercises: 1,
   lessonMaxExercises: 20,
-  /** Max tiles in a word bank (answer tiles + distractors). */
-  wordBankMaxTiles: 16,
-  /** Max characters for a lesson tip (PRD: "a short tip line"). */
-  lessonTipMaxLength: 200,
+  /** Max tiles in a word bank (answer tiles + distractors); raised for B2/C1 sentences. */
+  wordBankMaxTiles: 24,
+  /** Max accepted answers per tile exercise (word-order and du/ihr/Sie variants). */
+  maxAcceptedAnswers: 20,
+  /** Max characters for a lesson tip (PRD: "a short tip line"; grammar tips need more). */
+  lessonTipMaxLength: 280,
+  /** Lessons per unit (ADR-008). */
+  unitMinLessons: 1,
+  unitMaxLessons: 30,
+  /** Units per course manifest, across all levels (A1–C1 plans ~10–20 per level). */
+  courseMaxUnits: 150,
+  /** Lessons per course manifest, across all units. */
+  courseMaxLessons: 2000,
   /** `playbackRate` used for the slow replay when no dedicated slow file exists. */
   slowPlaybackRate: 0.7,
 } as const;

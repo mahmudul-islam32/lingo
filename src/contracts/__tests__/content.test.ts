@@ -25,8 +25,42 @@ const courseIds = existsSync(COURSES_DIR)
   : [];
 
 describe("content/courses", () => {
-  it("layout is readable (passes vacuously until content exists)", () => {
-    expect(Array.isArray(courseIds)).toBe(true);
+  it("layout is readable and ships the en-de and en-es courses (CTO-008)", () => {
+    expect(courseIds).toEqual(expect.arrayContaining(["en-de", "en-es"]));
+  });
+
+  const lessonPaths = courseIds.flatMap((id) => {
+    const dir = join(COURSES_DIR, id, "lessons");
+    return existsSync(dir)
+      ? readdirSync(dir)
+          .filter((f) => f.endsWith(".json"))
+          .map((f) => join(dir, f))
+      : [];
+  });
+  const duplicates = (ids: string[]) => ids.filter((id, i) => ids.indexOf(id) !== i);
+
+  it("lesson ids are unique across all courses (the route is /lesson/<lessonId>)", () => {
+    const manifestIds = courseIds.flatMap((id) => {
+      const course = CourseSchema.safeParse(readJson(join(COURSES_DIR, id, "course.json")));
+      return (course.data?.units ?? []).flatMap((u) => u.lessons.map((l) => l.id));
+    });
+    expect(duplicates(manifestIds)).toEqual([]);
+    expect(duplicates(lessonPaths.map((p) => p.split(/[\\/]/).at(-1)!))).toEqual([]);
+  });
+
+  it("exercise ids are unique across all lessons of all courses (CTO-008)", () => {
+    const ids = lessonPaths.flatMap((path) => {
+      const lesson = LessonSchema.safeParse(readJson(path));
+      return (lesson.data?.exercises ?? []).map((e) => e.id);
+    });
+    expect(duplicates(ids)).toEqual([]);
+  });
+
+  it("en-de is German for English speakers with CEFR levels on every unit (ADR-008)", () => {
+    const course = CourseSchema.parse(readJson(join(COURSES_DIR, "en-de", "course.json")));
+    expect(course).toMatchObject({ learningLanguage: "de", knownLanguage: "en" });
+    expect(course.levels?.[0]?.level).toBe("A1");
+    expect(course.units.every((u) => u.level !== undefined)).toBe(true);
   });
 
   describe.each(courseIds)("course %s", (courseDir) => {
