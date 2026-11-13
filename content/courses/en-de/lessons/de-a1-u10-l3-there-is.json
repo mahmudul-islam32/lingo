@@ -112,19 +112,8 @@
       "id": "de-a1-u10-l3-ex12",
       "type": "listen",
       "audio": { "src": "/audio/de/a1/u10/de-a1-u10-l3-ex12.mp3" },
-      "tiles": [
-        "hier",
-        "gibt",
-        "es",
-        "einen",
-        "Kühlschrank",
-        "und",
-        "zwei",
-        "Fenster",
-        "ein",
-        "drei"
-      ],
-      "answers": ["Hier gibt es einen Kühlschrank und zwei Fenster."]
+      "tiles": ["doch", "hier", "gibt", "es", "einen", "Kühlschrank", "ja", "keinen", "ein"],
+      "answers": ["Doch, hier gibt es einen Kühlschrank."]
     }
   ]
 }

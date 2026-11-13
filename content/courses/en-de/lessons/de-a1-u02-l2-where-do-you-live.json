@@ -34,7 +34,7 @@
       "direction": "to_learning",
       "prompt": "I live in Hamburg.",
       "tiles": ["ich", "wohne", "in", "Hamburg", "wohnst", "aus", "Berlin"],
-      "answers": ["Ich wohne in Hamburg."]
+      "answers": ["Ich wohne in Hamburg.", "In Hamburg wohne ich."]
     },
     {
       "id": "de-a1-u02-l2-ex04",
@@ -49,7 +49,7 @@
       "direction": "to_learning",
       "prompt": "Now I live in Vienna.",
       "tiles": ["jetzt", "wohne", "ich", "in", "Wien", "wohnst", "aus", "du"],
-      "answers": ["Jetzt wohne ich in Wien.", "Ich wohne jetzt in Wien."]
+      "answers": ["Jetzt wohne ich in Wien.", "Ich wohne jetzt in Wien.", "In Wien wohne ich jetzt."]
     },
     {
       "id": "de-a1-u02-l2-ex06",

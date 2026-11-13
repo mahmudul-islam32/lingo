@@ -34,7 +34,12 @@
       "direction": "to_learning",
       "prompt": "I speak German and English.",
       "tiles": ["ich", "spreche", "Deutsch", "und", "Englisch", "sprichst", "Arabisch", "du"],
-      "answers": ["Ich spreche Deutsch und Englisch.", "Ich spreche Englisch und Deutsch."]
+      "answers": [
+        "Ich spreche Deutsch und Englisch.",
+        "Ich spreche Englisch und Deutsch.",
+        "Deutsch und Englisch spreche ich.",
+        "Englisch und Deutsch spreche ich."
+      ]
     },
     {
       "id": "de-a1-u02-l3-ex04",
@@ -73,7 +78,7 @@
       "direction": "to_learning",
       "prompt": "Now I'm learning German.",
       "tiles": ["jetzt", "lerne", "ich", "Deutsch", "lernst", "du", "spreche"],
-      "answers": ["Jetzt lerne ich Deutsch.", "Ich lerne jetzt Deutsch."]
+      "answers": ["Jetzt lerne ich Deutsch.", "Ich lerne jetzt Deutsch.", "Deutsch lerne ich jetzt."]
     },
     {
       "id": "de-a1-u02-l3-ex08",

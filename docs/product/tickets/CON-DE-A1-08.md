@@ -40,7 +40,7 @@ so that I can join activities and plan a weekend.
 | 2 | I Like… | nicht gern (not like doing; "gern" + verb = like doing, extends Unit 4), lieber (rather / prefer), mögen: ich mag, du magst (to like), das Buch (the book), der Film (the film / movie), die Serie (the series / TV show) | 6 |
 | 3 | On the Move | fahren: du fährst (to go / ride / drive), das Fahrrad (the bicycle), laufen: du läufst (to run / walk), wandern (to hike), der Park (the park), oft (often) | 6 |
 | 4 | I Can Swim | können: ich kann, du kannst (can / to be able to), singen (to sing), malen (to paint / draw), die Gitarre (the guitar), das Klavier (the piano) | 5 |
-| 5 | Weekend Plans | das Kino (the cinema), gehen (to go, on foot), Lust haben (to feel like), die Freizeit (free time), toll (great), schade (what a pity) | 6 |
+| 5 | Weekend Plans | das Kino / ins Kino (the cinema / to the cinema, fixed chunk, PD-040), gehen (to go, on foot), Lust haben (to feel like), die Freizeit (free time), toll (great), schade (what a pity) | 6 |
 
 Unit total: 30 items.
 
