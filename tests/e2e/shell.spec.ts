@@ -1,6 +1,11 @@
 import { expect, test, type Page } from "@playwright/test";
 import { expectNoSeriousA11yViolations } from "./axe";
+import { GERMAN_LESSONS, GERMAN_LESSON_1, nodeNamePattern } from "./helpers/course";
 import { completeOnboarding } from "./onboarding-helpers";
+
+/** The skill path's last node for a new learner (PLT-024: German, from the course data). */
+const lastNodeOf = (page: Page) =>
+  page.getByRole("button", { name: nodeNamePattern(GERMAN_LESSONS.at(-1)!, "locked") });
 
 const nav = (page: Page) => page.getByRole("navigation", { name: "Main" });
 const tab = (page: Page, name: "Learn" | "Profile") => nav(page).getByRole("link", { name });
@@ -51,7 +56,7 @@ test.describe("app shell navigation", () => {
   }) => {
     test.skip(browserName === "webkit", "WebKit does not Tab to links by default");
     await page.goto("/");
-    await expect(page.getByRole("button", { name: "Lesson 5: Around Town, locked" })).toBeVisible();
+    await expect(lastNodeOf(page)).toBeVisible();
     await page.keyboard.press("Tab");
     const skip = page.getByRole("link", { name: "Skip to content" });
     await expect(skip).toBeFocused();
@@ -62,15 +67,31 @@ test.describe("app shell navigation", () => {
     await page.goto("/");
     // PLT-009: the top bar (hearts) and the skill path come before the bottom nav.
     const hearts = page.getByRole("button", { name: /^Hearts: / });
-    const lastNode = page.getByRole("button", { name: "Lesson 5: Around Town, locked" });
+    const lastNode = lastNodeOf(page);
     await expect(lastNode).toBeVisible();
     await page.keyboard.press("Tab"); // skip link
     await page.keyboard.press("Tab");
     await expect(hearts).toBeFocused();
     await page.keyboard.press("Tab");
-    await expect(page.getByRole("link", { name: "Lesson 1: Hello!, up next" })).toBeFocused();
+    // GAM-010 puts the current level's expand/collapse button (A1) before the first
+    // lesson; Tab past it when it is there.
+    const levelToggle = page.getByRole("button", { name: /\bA1\b/ });
+    if (
+      (await levelToggle.count()) > 0 &&
+      (await levelToggle.first().evaluate((el) => el === document.activeElement))
+    ) {
+      await page.keyboard.press("Tab");
+    }
+    await expect(
+      page.getByRole("link", { name: nodeNamePattern(GERMAN_LESSON_1, "up next") }),
+    ).toBeFocused();
     await lastNode.focus();
-    await page.keyboard.press("Tab");
+    // After the last A1 lesson the next Tab stop is the bottom nav, unless GAM-010's
+    // "Coming soon" levels add their own controls in between.
+    for (let i = 0; i < 8; i += 1) {
+      await page.keyboard.press("Tab");
+      if (await tab(page, "Learn").evaluate((el) => el === document.activeElement)) break;
+    }
     await expect(tab(page, "Learn")).toBeFocused();
     await page.keyboard.press("Tab");
     await expect(tab(page, "Profile")).toBeFocused();
@@ -134,7 +155,7 @@ test.describe("app shell at 375 × 667", () => {
     }
     // Wait for the skill path (PLT-009) so the page has its final height, then scroll to
     // the bottom; the last path node must end above the nav.
-    const lastNode = page.getByRole("button", { name: "Lesson 5: Around Town, locked" });
+    const lastNode = lastNodeOf(page);
     await expect(lastNode).toBeVisible();
     await page.evaluate(() => window.scrollTo(0, document.body.scrollHeight));
     const navBox = await nav(page).boundingBox();
