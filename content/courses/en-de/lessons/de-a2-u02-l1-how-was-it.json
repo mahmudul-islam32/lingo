@@ -1,0 +1,137 @@
+{
+  "id": "de-a2-u02-l1-how-was-it",
+  "courseId": "en-de",
+  "unitId": "de-a2-u02",
+  "title": "How Was It?",
+  "tip": "The past of sein and haben: ich war, du warst, wir waren; ich hatte, du hattest, wir hatten. Wie war dein Wochenende? Es war toll.",
+  "exercises": [
+    {
+      "id": "de-a2-u02-l1-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        { "id": "p1", "learning": "letzte Woche", "known": "last week" },
+        { "id": "p2", "learning": "letztes Wochenende", "known": "last weekend" },
+        { "id": "p3", "learning": "vorgestern", "known": "the day before yesterday" },
+        { "id": "p4", "learning": "langweilig", "known": "boring" },
+        { "id": "p5", "learning": "interessant", "known": "interesting" }
+      ]
+    },
+    {
+      "id": "de-a2-u02-l1-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'Were you ill? (to a friend)'?",
+      "options": [
+        { "id": "a", "text": "Warst du krank?" },
+        { "id": "b", "text": "Wart du krank?" },
+        { "id": "c", "text": "Hattest du krank?" },
+        { "id": "d", "text": "Bist du krank?" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "de-a2-u02-l1-ex03",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "How was your weekend? (to a friend)",
+      "tiles": ["wie", "war", "dein", "Wochenende", "ist", "deine", "warst"],
+      "answers": ["Wie war dein Wochenende?"]
+    },
+    {
+      "id": "de-a2-u02-l1-ex04",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a2/u02/de-a2-u02-l1-ex04.mp3" },
+      "tiles": ["es", "war", "toll", "aber", "am", "Sonntag", "war", "ich", "krank", "ist", "Samstag"],
+      "answers": ["Es war toll, aber am Sonntag war ich krank."]
+    },
+    {
+      "id": "de-a2-u02-l1-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'We didn't have time'?",
+      "options": [
+        { "id": "a", "text": "Wir hatten keine Zeit." },
+        { "id": "b", "text": "Wir hatten nicht Zeit." },
+        { "id": "c", "text": "Wir hattet keine Zeit." },
+        { "id": "d", "text": "Wir waren keine Zeit." }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "de-a2-u02-l1-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Letzte Woche war ich in Hamburg.",
+      "tiles": ["last", "week", "I", "was", "in", "Hamburg", "were", "am", "weekend"],
+      "answers": ["Last week I was in Hamburg.", "I was in Hamburg last week."]
+    },
+    {
+      "id": "de-a2-u02-l1-ex07",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Were you in Vienna last weekend? (to two friends)",
+      "tiles": ["wart", "ihr", "letztes", "Wochenende", "in", "Wien", "waren", "letzte", "seid"],
+      "answers": ["Wart ihr letztes Wochenende in Wien?"]
+    },
+    {
+      "id": "de-a2-u02-l1-ex08",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a2/u02/de-a2-u02-l1-ex08.mp3" },
+      "tiles": ["vorgestern", "hatte", "Jonas", "Geburtstag", "hattest", "gestern", "hat"],
+      "answers": ["Vorgestern hatte Jonas Geburtstag."]
+    },
+    {
+      "id": "de-a2-u02-l1-ex09",
+      "type": "multiple_choice",
+      "prompt": "Which one means 'boring'?",
+      "options": [
+        { "id": "a", "text": "langweilig" },
+        { "id": "b", "text": "interessant" },
+        { "id": "c", "text": "lecker" },
+        { "id": "d", "text": "toll" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "de-a2-u02-l1-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Der Film war interessant, aber das Buch war langweilig.",
+      "tiles": [
+        "the",
+        "the",
+        "film",
+        "movie",
+        "was",
+        "was",
+        "interesting",
+        "but",
+        "book",
+        "boring",
+        "is",
+        "were"
+      ],
+      "answers": [
+        "The film was interesting, but the book was boring.",
+        "The movie was interesting, but the book was boring."
+      ]
+    },
+    {
+      "id": "de-a2-u02-l1-ex11",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a2/u02/de-a2-u02-l1-ex11.mp3" },
+      "tiles": ["meine", "Eltern", "waren", "letzte", "Woche", "in", "Österreich", "war", "letztes", "mein"],
+      "answers": ["Meine Eltern waren letzte Woche in Österreich."]
+    },
+    {
+      "id": "de-a2-u02-l1-ex12",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "The day before yesterday I had a headache.",
+      "tiles": ["vorgestern", "hatte", "ich", "Kopfschmerzen", "hattest", "habe", "gestern"],
+      "answers": [
+        "Vorgestern hatte ich Kopfschmerzen.",
+        "Ich hatte vorgestern Kopfschmerzen.",
+        "Kopfschmerzen hatte ich vorgestern."
+      ]
+    }
+  ]
+}

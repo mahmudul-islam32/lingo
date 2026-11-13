@@ -1,0 +1,150 @@
+{
+  "id": "de-a2-u02-l2-what-did-you-do",
+  "courseId": "en-de",
+  "unitId": "de-a2-u02",
+  "title": "What Did You Do?",
+  "tip": "Perfekt: haben in position 2, the participle at the end: Ich habe Fußball gespielt. Regular participles: ge- + stem + -t (gekauft), -et after t (gearbeitet).",
+  "exercises": [
+    {
+      "id": "de-a2-u02-l2-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        { "id": "p1", "learning": "gemacht", "known": "done / made" },
+        { "id": "p2", "learning": "gekauft", "known": "bought" },
+        { "id": "p3", "learning": "gekocht", "known": "cooked" },
+        { "id": "p4", "learning": "gestern Abend", "known": "last night" },
+        { "id": "p5", "learning": "zu Hause", "known": "at home" }
+      ]
+    },
+    {
+      "id": "de-a2-u02-l2-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'I played football'?",
+      "options": [
+        { "id": "a", "text": "Ich habe gespielt Fußball." },
+        { "id": "b", "text": "Ich habe Fußball gespielt." },
+        { "id": "c", "text": "Ich bin Fußball gespielt." },
+        { "id": "d", "text": "Ich habe Fußball spielt." }
+      ],
+      "correctOptionId": "b"
+    },
+    {
+      "id": "de-a2-u02-l2-ex03",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Yesterday evening I cooked.",
+      "tiles": ["gestern", "Abend", "habe", "ich", "gekocht", "hat", "koche", "kochen"],
+      "answers": ["Gestern Abend habe ich gekocht.", "Ich habe gestern Abend gekocht."]
+    },
+    {
+      "id": "de-a2-u02-l2-ex04",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a2/u02/de-a2-u02-l2-ex04.mp3" },
+      "tiles": ["am", "Samstag", "haben", "wir", "Fußball", "gespielt", "habt", "spielen", "Sonntag"],
+      "answers": ["Am Samstag haben wir Fußball gespielt."]
+    },
+    {
+      "id": "de-a2-u02-l2-ex05",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Was hast du gestern gemacht?",
+      "tiles": ["what", "did", "you", "do", "yesterday", "have", "done", "made", "does"],
+      "answers": ["What did you do yesterday?"]
+    },
+    {
+      "id": "de-a2-u02-l2-ex06",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'Lena worked a lot'?",
+      "options": [
+        { "id": "a", "text": "Lena hat viel gearbeitet." },
+        { "id": "b", "text": "Lena hat viel gearbeitt." },
+        { "id": "c", "text": "Lena hat viel arbeitet." },
+        { "id": "d", "text": "Lena hat gearbeitet viel." }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "de-a2-u02-l2-ex07",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "We bought bread and cheese.",
+      "tiles": ["wir", "haben", "Brot", "und", "Käse", "gekauft", "hat", "habt", "kaufen"],
+      "answers": [
+        "Wir haben Brot und Käse gekauft.",
+        "Wir haben Käse und Brot gekauft.",
+        "Brot und Käse haben wir gekauft.",
+        "Käse und Brot haben wir gekauft."
+      ]
+    },
+    {
+      "id": "de-a2-u02-l2-ex08",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a2/u02/de-a2-u02-l2-ex08.mp3" },
+      "tiles": [
+        "gestern",
+        "Abend",
+        "hat",
+        "Kemal",
+        "zu",
+        "Hause",
+        "gearbeitet",
+        "habe",
+        "arbeitet",
+        "morgen"
+      ],
+      "answers": ["Gestern Abend hat Kemal zu Hause gearbeitet."]
+    },
+    {
+      "id": "de-a2-u02-l2-ex09",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Did you cook at home? (to a friend)",
+      "tiles": ["hast", "du", "zu", "Hause", "gekocht", "habe", "kochst", "hat"],
+      "answers": ["Hast du zu Hause gekocht?"]
+    },
+    {
+      "id": "de-a2-u02-l2-ex10",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'What did you do at the weekend? (to a friend)'?",
+      "options": [
+        { "id": "a", "text": "Was hast du am Wochenende gemacht?" },
+        { "id": "b", "text": "Was du hast am Wochenende gemacht?" },
+        { "id": "c", "text": "Was bist du am Wochenende gemacht?" },
+        { "id": "d", "text": "Was hast du am Wochenende gemachen?" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "de-a2-u02-l2-ex11",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Ich habe Brötchen gekauft.",
+      "tiles": ["I", "have", "bought", "bread", "rolls", "buy", "has", "roll"],
+      "answers": [
+        "I bought bread rolls.",
+        "I have bought bread rolls.",
+        "I bought rolls.",
+        "I have bought rolls."
+      ]
+    },
+    {
+      "id": "de-a2-u02-l2-ex12",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a2/u02/de-a2-u02-l2-ex12.mp3" },
+      "tiles": [
+        "was",
+        "hast",
+        "du",
+        "gestern",
+        "gemacht",
+        "ich",
+        "habe",
+        "gearbeitet",
+        "hat",
+        "machst",
+        "morgen"
+      ],
+      "answers": ["Was hast du gestern gemacht? Ich habe gearbeitet."]
+    }
+  ]
+}

@@ -1,0 +1,128 @@
+{
+  "id": "de-a2-u04-l3-who-gets-what",
+  "courseId": "en-de",
+  "unitId": "de-a2-u04",
+  "title": "Who Gets What?",
+  "tip": "Who gets something? Use the dative: dem Mann, der Frau, den Kindern. The person goes before the thing: Ich schenke meiner Mutter Blumen.",
+  "exercises": [
+    {
+      "id": "de-a2-u04-l3-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        { "id": "p1", "learning": "geben", "known": "to give" },
+        { "id": "p2", "learning": "die Blumen", "known": "the flowers" },
+        { "id": "p3", "learning": "die Schokolade", "known": "chocolate" },
+        { "id": "p4", "learning": "die Kerze", "known": "the candle" },
+        { "id": "p5", "learning": "dem Kind", "known": "to the child" }
+      ]
+    },
+    {
+      "id": "de-a2-u04-l3-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'We're giving the teacher a candle.'?",
+      "options": [
+        { "id": "a", "text": "Wir geben dem Lehrer eine Kerze." },
+        { "id": "b", "text": "Wir geben den Lehrer eine Kerze." },
+        { "id": "c", "text": "Wir geben der Lehrer eine Kerze." }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "de-a2-u04-l3-ex03",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I'm giving my mother flowers.",
+      "tiles": ["ich", "schenke", "meiner", "Mutter", "Blumen", "meine", "meinem", "gibst"],
+      "answers": [
+        "Ich schenke meiner Mutter Blumen.",
+        "Meiner Mutter schenke ich Blumen.",
+        "Blumen schenke ich meiner Mutter."
+      ]
+    },
+    {
+      "id": "de-a2-u04-l3-ex04",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a2/u04/de-a2-u04-l3-ex04.mp3" },
+      "tiles": ["wir", "geben", "den", "Kindern", "Schokolade", "dem", "Kinder", "gibt"],
+      "answers": ["Wir geben den Kindern Schokolade."]
+    },
+    {
+      "id": "de-a2-u04-l3-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'Selin is giving a friend a candle.'?",
+      "options": [
+        { "id": "a", "text": "Selin schenkt einen Freund eine Kerze." },
+        { "id": "b", "text": "Selin schenkt einem Freund eine Kerze." },
+        { "id": "c", "text": "Selin schenkt ein Freund eine Kerze." },
+        { "id": "d", "text": "Selin schenkt einer Freund eine Kerze." }
+      ],
+      "correctOptionId": "b"
+    },
+    {
+      "id": "de-a2-u04-l3-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Are you giving the child chocolate? (to a friend)",
+      "tiles": ["gibst", "du", "dem", "Kind", "Schokolade", "den", "gebe", "gibt"],
+      "answers": ["Gibst du dem Kind Schokolade?"]
+    },
+    {
+      "id": "de-a2-u04-l3-ex07",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Ich schenke meiner Kollegin eine Kerze.",
+      "tiles": ["I'm", "giving", "my", "colleague", "a", "candle", "to", "his", "flowers"],
+      "answers": ["I'm giving my colleague a candle.", "I'm giving a candle to my colleague."]
+    },
+    {
+      "id": "de-a2-u04-l3-ex08",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'Hana is giving the woman the flowers.'?",
+      "options": [
+        { "id": "a", "text": "Hana gibt die Frau die Blumen." },
+        { "id": "b", "text": "Hana gibt dem Frau die Blumen." },
+        { "id": "c", "text": "Hana gibt den Frau die Blumen." },
+        { "id": "d", "text": "Hana gibt der Frau die Blumen." }
+      ],
+      "correctOptionId": "d"
+    },
+    {
+      "id": "de-a2-u04-l3-ex09",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a2/u04/de-a2-u04-l3-ex09.mp3" },
+      "tiles": ["ich", "gebe", "den", "Gästen", "Kuchen", "und", "Kaffee", "Gäste", "dem", "gibst"],
+      "answers": ["Ich gebe den Gästen Kuchen und Kaffee."]
+    },
+    {
+      "id": "de-a2-u04-l3-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "My father is giving my grandma chocolate.",
+      "tiles": ["mein", "Vater", "schenkt", "meiner", "Oma", "Schokolade", "meinen", "meinem", "schenke"],
+      "answers": [
+        "Mein Vater schenkt meiner Oma Schokolade.",
+        "Meiner Oma schenkt mein Vater Schokolade.",
+        "Schokolade schenkt mein Vater meiner Oma."
+      ]
+    },
+    {
+      "id": "de-a2-u04-l3-ex11",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'I'm giving my brother a book.'?",
+      "options": [
+        { "id": "a", "text": "Ich gebe meinen Bruder ein Buch." },
+        { "id": "b", "text": "Ich gebe mein Bruder ein Buch." },
+        { "id": "c", "text": "Ich gebe meiner Bruder ein Buch." },
+        { "id": "d", "text": "Ich gebe meinem Bruder ein Buch." }
+      ],
+      "correctOptionId": "d"
+    },
+    {
+      "id": "de-a2-u04-l3-ex12",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a2/u04/de-a2-u04-l3-ex12.mp3" },
+      "tiles": ["gibst", "du", "der", "Lehrerin", "die", "Blumen", "dem", "gibt", "den"],
+      "answers": ["Gibst du der Lehrerin die Blumen?"]
+    }
+  ]
+}

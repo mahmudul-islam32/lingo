@@ -1,0 +1,148 @@
+{
+  "id": "de-a2-u04-l5-office-birthday",
+  "courseId": "en-de",
+  "unitId": "de-a2-u04",
+  "title": "Scenario: Cake at the Office",
+  "tip": "In many German offices, the birthday person brings the cake. Mitbringen is separable: Ich bringe eine Torte mit. In the past: Ich habe Kuchen mitgebracht.",
+  "exercises": [
+    {
+      "id": "de-a2-u04-l5-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        { "id": "p1", "learning": "mitbringen", "known": "to bring along" },
+        { "id": "p2", "learning": "die Torte", "known": "the layer cake" },
+        { "id": "p3", "learning": "die Überraschung", "known": "the surprise" },
+        { "id": "p4", "learning": "viel Spaß", "known": "have fun" },
+        { "id": "p5", "learning": "der Kuchen", "known": "the cake" }
+      ]
+    },
+    {
+      "id": "de-a2-u04-l5-ex02",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a2/u04/de-a2-u04-l5-ex02.mp3" },
+      "tiles": [
+        "heute",
+        "hat",
+        "Nadia",
+        "Geburtstag",
+        "sie",
+        "bringt",
+        "eine",
+        "Torte",
+        "mit",
+        "bringst",
+        "einen",
+        "habe"
+      ],
+      "answers": ["Heute hat Nadia Geburtstag. Sie bringt eine Torte mit."]
+    },
+    {
+      "id": "de-a2-u04-l5-ex03",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I've brought a cake.",
+      "tiles": ["ich", "habe", "einen", "Kuchen", "mitgebracht", "bin", "ein", "mitbringen"],
+      "answers": ["Ich habe einen Kuchen mitgebracht.", "Einen Kuchen habe ich mitgebracht."]
+    },
+    {
+      "id": "de-a2-u04-l5-ex04",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'I'm bringing a layer cake.'?",
+      "options": [
+        { "id": "a", "text": "Ich mitbringe eine Torte." },
+        { "id": "b", "text": "Ich bringe mit eine Torte." },
+        { "id": "c", "text": "Ich bringe einen Torte mit." },
+        { "id": "d", "text": "Ich bringe eine Torte mit." }
+      ],
+      "correctOptionId": "d"
+    },
+    {
+      "id": "de-a2-u04-l5-ex05",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Happy birthday, Nadia! We congratulate you. (to a friend)",
+      "tiles": ["herzlichen", "Glückwunsch", "Nadia", "wir", "gratulieren", "dir", "dich", "gratuliert", "euch"],
+      "answers": [
+        "Herzlichen Glückwunsch, Nadia! Wir gratulieren dir.",
+        "Herzlichen Glückwunsch, Nadia! Dir gratulieren wir."
+      ]
+    },
+    {
+      "id": "de-a2-u04-l5-ex06",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'We have a surprise for you. (to a friend)'?",
+      "options": [
+        { "id": "a", "text": "Wir haben eine Überraschung für dir." },
+        { "id": "b", "text": "Wir haben eine Überraschung für dich." },
+        { "id": "c", "text": "Wir haben eine Überraschung für du." },
+        { "id": "d", "text": "Wir hat eine Überraschung für dich." }
+      ],
+      "correctOptionId": "b"
+    },
+    {
+      "id": "de-a2-u04-l5-ex07",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a2/u04/de-a2-u04-l5-ex07.mp3" },
+      "tiles": ["die", "Torte", "ist", "toll", "danke", "Nadia", "der", "sind", "Kuchen"],
+      "answers": ["Die Torte ist toll! Danke, Nadia."]
+    },
+    {
+      "id": "de-a2-u04-l5-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "We're giving you a candle. (to a friend)",
+      "tiles": ["wir", "schenken", "dir", "eine", "Kerze", "dich", "euch", "schenkt", "einen"],
+      "answers": ["Wir schenken dir eine Kerze.", "Eine Kerze schenken wir dir.", "Dir schenken wir eine Kerze."]
+    },
+    {
+      "id": "de-a2-u04-l5-ex09",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a2/u04/de-a2-u04-l5-ex09.mp3" },
+      "tiles": ["Nadia", "hat", "uns", "eine", "Torte", "mitgebracht", "ist", "mitbringen", "einen"],
+      "answers": ["Nadia hat uns eine Torte mitgebracht."]
+    },
+    {
+      "id": "de-a2-u04-l5-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Viel Spaß am Wochenende!",
+      "tiles": ["have", "fun", "at", "on", "the", "weekend", "day", "Monday"],
+      "answers": ["Have fun at the weekend!", "Have fun on the weekend!"]
+    },
+    {
+      "id": "de-a2-u04-l5-ex11",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'She likes the present.'?",
+      "options": [
+        { "id": "a", "text": "Sie gefällt das Geschenk." },
+        { "id": "b", "text": "Das Geschenk gefällt sie." },
+        { "id": "c", "text": "Das Geschenk gefällt ihr." },
+        { "id": "d", "text": "Das Geschenk gefällt ihm." }
+      ],
+      "correctOptionId": "c"
+    },
+    {
+      "id": "de-a2-u04-l5-ex12",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Thanks for the surprise! I like the present.",
+      "tiles": [
+        "danke",
+        "für",
+        "die",
+        "Überraschung",
+        "das",
+        "Geschenk",
+        "gefällt",
+        "mir",
+        "mich",
+        "gefalle",
+        "dich"
+      ],
+      "answers": [
+        "Danke für die Überraschung! Das Geschenk gefällt mir.",
+        "Danke für die Überraschung! Mir gefällt das Geschenk."
+      ]
+    }
+  ]
+}

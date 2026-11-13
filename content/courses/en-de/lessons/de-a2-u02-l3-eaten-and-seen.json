@@ -1,0 +1,126 @@
+{
+  "id": "de-a2-u02-l3-eaten-and-seen",
+  "courseId": "en-de",
+  "unitId": "de-a2-u02",
+  "title": "Eaten, Drunk, Seen",
+  "tip": "Many common verbs have participles ending in -en: gegessen, getrunken, gesehen, geschlafen. Ich habe Kuchen gegessen. In the present: du siehst, du schläfst.",
+  "exercises": [
+    {
+      "id": "de-a2-u02-l3-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        { "id": "p1", "learning": "gegessen", "known": "eaten" },
+        { "id": "p2", "learning": "getrunken", "known": "drunk" },
+        { "id": "p3", "learning": "gesehen", "known": "seen" },
+        { "id": "p4", "learning": "geschlafen", "known": "slept" },
+        { "id": "p5", "learning": "getroffen", "known": "met" }
+      ]
+    },
+    {
+      "id": "de-a2-u02-l3-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'I ate cake'?",
+      "options": [
+        { "id": "a", "text": "Ich habe Kuchen gegessen." },
+        { "id": "b", "text": "Ich habe Kuchen gegesst." },
+        { "id": "c", "text": "Ich habe gegessen Kuchen." },
+        { "id": "d", "text": "Ich bin Kuchen gegessen." }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "de-a2-u02-l3-ex03",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Do you sleep a lot? (to a friend)",
+      "tiles": ["schläfst", "du", "viel", "schlafst", "schläft", "viele"],
+      "answers": ["Schläfst du viel?"]
+    },
+    {
+      "id": "de-a2-u02-l3-ex04",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a2/u02/de-a2-u02-l3-ex04.mp3" },
+      "tiles": ["gestern", "habe", "ich", "einen", "Film", "gesehen", "ein", "hat", "siehst"],
+      "answers": ["Gestern habe ich einen Film gesehen."]
+    },
+    {
+      "id": "de-a2-u02-l3-ex05",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Wir haben Deutsch gesprochen.",
+      "tiles": ["we", "spoke", "German", "have", "spoken", "speak", "English"],
+      "answers": ["We spoke German.", "We have spoken German."]
+    },
+    {
+      "id": "de-a2-u02-l3-ex06",
+      "type": "multiple_choice",
+      "prompt": "Which one means 'you see' (to a friend)?",
+      "options": [
+        { "id": "a", "text": "du siehst" },
+        { "id": "b", "text": "du sehst" },
+        { "id": "c", "text": "du sieht" },
+        { "id": "d", "text": "du seht" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "de-a2-u02-l3-ex07",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I met Ana on Saturday.",
+      "tiles": ["ich", "habe", "Ana", "am", "Samstag", "getroffen", "triffst", "hat", "Sonntag"],
+      "answers": [
+        "Ich habe Ana am Samstag getroffen.",
+        "Am Samstag habe ich Ana getroffen.",
+        "Ich habe am Samstag Ana getroffen.",
+        "Ana habe ich am Samstag getroffen."
+      ]
+    },
+    {
+      "id": "de-a2-u02-l3-ex08",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a2/u02/de-a2-u02-l3-ex08.mp3" },
+      "tiles": ["hast", "du", "gut", "geschlafen", "schläfst", "habe", "gesehen"],
+      "answers": ["Hast du gut geschlafen?"]
+    },
+    {
+      "id": "de-a2-u02-l3-ex09",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Yesterday I read a book.",
+      "tiles": ["gestern", "habe", "ich", "ein", "Buch", "gelesen", "lese", "einen", "hat"],
+      "answers": [
+        "Gestern habe ich ein Buch gelesen.",
+        "Ich habe gestern ein Buch gelesen.",
+        "Ein Buch habe ich gestern gelesen."
+      ]
+    },
+    {
+      "id": "de-a2-u02-l3-ex10",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'Did you speak German? (to a friend)'?",
+      "options": [
+        { "id": "a", "text": "Hast du gesprochen Deutsch?" },
+        { "id": "b", "text": "Hast du Deutsch gesprecht?" },
+        { "id": "c", "text": "Hast du Deutsch gesprochen?" },
+        { "id": "d", "text": "Bist du Deutsch gesprochen?" }
+      ],
+      "correctOptionId": "c"
+    },
+    {
+      "id": "de-a2-u02-l3-ex11",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Gestern Abend habe ich Tee getrunken.",
+      "tiles": ["I", "drank", "tea", "last", "night", "have", "drunk", "coffee", "week"],
+      "answers": ["I drank tea last night.", "Last night I drank tea."]
+    },
+    {
+      "id": "de-a2-u02-l3-ex12",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a2/u02/de-a2-u02-l3-ex12.mp3" },
+      "tiles": ["triffst", "du", "Ana", "am", "Sonntag", "trifft", "treffe", "Samstag"],
+      "answers": ["Triffst du Ana am Sonntag?"]
+    }
+  ]
+}

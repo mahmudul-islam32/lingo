@@ -1,0 +1,146 @@
+{
+  "id": "de-a2-u04-l1-invitations",
+  "courseId": "en-de",
+  "unitId": "de-a2-u04",
+  "title": "Invitations",
+  "tip": "Einladen is separable: the ein goes to the end. Ich lade dich ein. Say yes with 'Ja, gern!' or no with 'Ich kann leider nicht.'",
+  "exercises": [
+    {
+      "id": "de-a2-u04-l1-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        { "id": "p1", "learning": "feiern", "known": "to celebrate" },
+        { "id": "p2", "learning": "die Einladung", "known": "the invitation" },
+        { "id": "p3", "learning": "die Hochzeit", "known": "the wedding" },
+        { "id": "p4", "learning": "der Gast", "known": "the guest" },
+        { "id": "p5", "learning": "die Feier", "known": "the celebration" }
+      ]
+    },
+    {
+      "id": "de-a2-u04-l1-ex02",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a2/u04/de-a2-u04-l1-ex02.mp3" },
+      "tiles": [
+        "die",
+        "Feier",
+        "ist",
+        "am",
+        "Samstag",
+        "wie",
+        "viele",
+        "Gäste",
+        "kommen",
+        "viel",
+        "Gast",
+        "kommt"
+      ],
+      "answers": ["Die Feier ist am Samstag. Wie viele Gäste kommen?"]
+    },
+    {
+      "id": "de-a2-u04-l1-ex03",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "We're celebrating on Saturday.",
+      "tiles": ["wir", "feiern", "am", "Samstag", "feiert", "Sonntag", "um"],
+      "answers": ["Wir feiern am Samstag.", "Am Samstag feiern wir."]
+    },
+    {
+      "id": "de-a2-u04-l1-ex04",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a2/u04/de-a2-u04-l1-ex04.mp3" },
+      "tiles": [
+        "wir",
+        "feiern",
+        "am",
+        "Freitag",
+        "ich",
+        "lade",
+        "dich",
+        "ein",
+        "lädst",
+        "mich",
+        "Samstag"
+      ],
+      "answers": ["Wir feiern am Freitag. Ich lade dich ein."]
+    },
+    {
+      "id": "de-a2-u04-l1-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'I'm inviting you. (to a friend)'?",
+      "options": [
+        { "id": "a", "text": "Ich einlade dich." },
+        { "id": "b", "text": "Ich lade dich ein." },
+        { "id": "c", "text": "Ich lade ein dich." },
+        { "id": "d", "text": "Ich lade du ein." }
+      ],
+      "correctOptionId": "b"
+    },
+    {
+      "id": "de-a2-u04-l1-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Danke für die Einladung!",
+      "tiles": ["thanks", "for", "the", "invitation", "wedding", "guest", "a"],
+      "answers": ["Thanks for the invitation!"]
+    },
+    {
+      "id": "de-a2-u04-l1-ex07",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a2/u04/de-a2-u04-l1-ex07.mp3" },
+      "tiles": ["die", "Hochzeit", "ist", "im", "Juni", "in", "Graz", "der", "Juli", "sind"],
+      "answers": ["Die Hochzeit ist im Juni in Graz."]
+    },
+    {
+      "id": "de-a2-u04-l1-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Are you inviting Lukas and Mira? (to a friend)",
+      "tiles": ["lädst", "du", "Lukas", "und", "Mira", "ein", "lade", "ladet", "mich"],
+      "answers": ["Lädst du Lukas und Mira ein?", "Lädst du Mira und Lukas ein?"]
+    },
+    {
+      "id": "de-a2-u04-l1-ex09",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'Unfortunately I can't.'?",
+      "options": [
+        { "id": "a", "text": "Ich leider kann nicht." },
+        { "id": "b", "text": "Ich kannst leider nicht." },
+        { "id": "c", "text": "Ich kann leider nicht." },
+        { "id": "d", "text": "Ich kann nicht leider." }
+      ],
+      "correctOptionId": "c"
+    },
+    {
+      "id": "de-a2-u04-l1-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Yes, gladly! I'm coming on Saturday.",
+      "tiles": ["ja", "gern", "ich", "komme", "am", "Samstag", "kommst", "nein", "um"],
+      "answers": ["Ja, gern! Ich komme am Samstag.", "Ja, gern! Am Samstag komme ich."]
+    },
+    {
+      "id": "de-a2-u04-l1-ex11",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'We're inviting the guests.'?",
+      "options": [
+        { "id": "a", "text": "Wir laden die Gäste." },
+        { "id": "b", "text": "Wir einladen die Gäste." },
+        { "id": "c", "text": "Wir laden die Gäste ein." },
+        { "id": "d", "text": "Wir lädt die Gäste ein." }
+      ],
+      "correctOptionId": "c"
+    },
+    {
+      "id": "de-a2-u04-l1-ex12",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Die Party ist am Samstag um acht.",
+      "tiles": ["the", "party", "is", "on", "Saturday", "at", "eight", "wedding", "Sunday", "are"],
+      "answers": [
+        "The party is on Saturday at eight.",
+        "The party is at eight on Saturday.",
+        "On Saturday the party is at eight."
+      ]
+    }
+  ]
+}

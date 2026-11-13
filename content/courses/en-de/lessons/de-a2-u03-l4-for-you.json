@@ -1,0 +1,120 @@
+{
+  "id": "de-a2-u03-l4-for-you",
+  "courseId": "en-de",
+  "unitId": "de-a2-u03",
+  "title": "For You",
+  "tip": "für, ohne, durch and um take the accusative: für dich, um den See. Careful: um + time = at (um acht), um + place = around (um den See).",
+  "exercises": [
+    {
+      "id": "de-a2-u03-l4-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        { "id": "p1", "learning": "mich", "known": "me" },
+        { "id": "p2", "learning": "dich", "known": "you (to a friend)" },
+        { "id": "p3", "learning": "ihn", "known": "him" },
+        { "id": "p4", "learning": "uns", "known": "us" },
+        { "id": "p5", "learning": "euch", "known": "you (to friends)" }
+      ]
+    },
+    {
+      "id": "de-a2-u03-l4-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'This is for you (to a friend)'?",
+      "options": [
+        { "id": "a", "text": "Das ist für du." },
+        { "id": "b", "text": "Das ist für dich." },
+        { "id": "c", "text": "Das ist für mich." },
+        { "id": "d", "text": "Das ist ohne dich." }
+      ],
+      "correctOptionId": "b"
+    },
+    {
+      "id": "de-a2-u03-l4-ex03",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I'm visiting you tomorrow. (to a friend)",
+      "tiles": ["ich", "besuche", "dich", "morgen", "du", "besuchst", "mich", "heute"],
+      "answers": [
+        "Ich besuche dich morgen.",
+        "Morgen besuche ich dich.",
+        "Dich besuche ich morgen."
+      ]
+    },
+    {
+      "id": "de-a2-u03-l4-ex04",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a2/u03/de-a2-u03-l4-ex04.mp3" },
+      "tiles": ["wir", "treffen", "ihn", "morgen", "er", "trefft", "heute", "uns"],
+      "answers": ["Wir treffen ihn morgen."]
+    },
+    {
+      "id": "de-a2-u03-l4-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'Are you coming without me? (to a friend)'?",
+      "options": [
+        { "id": "a", "text": "Kommst du ohne ich?" },
+        { "id": "b", "text": "Kommst du für mich?" },
+        { "id": "c", "text": "Kommst du ohne mich?" }
+      ],
+      "correctOptionId": "c"
+    },
+    {
+      "id": "de-a2-u03-l4-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "We walked through the city.",
+      "tiles": ["wir", "sind", "durch", "die", "Stadt", "gelaufen", "haben", "der", "um"],
+      "answers": ["Wir sind durch die Stadt gelaufen.", "Durch die Stadt sind wir gelaufen."]
+    },
+    {
+      "id": "de-a2-u03-l4-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'We hiked around the lake'?",
+      "options": [
+        { "id": "a", "text": "Wir sind um der See gewandert." },
+        { "id": "b", "text": "Wir haben um den See gewandert." },
+        { "id": "c", "text": "Wir sind durch den See gewandert." },
+        { "id": "d", "text": "Wir sind um den See gewandert." }
+      ],
+      "correctOptionId": "d"
+    },
+    {
+      "id": "de-a2-u03-l4-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Der Kuchen ist für euch.",
+      "tiles": ["the", "cake", "is", "for", "you", "us", "are", "bread"],
+      "answers": ["The cake is for you."]
+    },
+    {
+      "id": "de-a2-u03-l4-ex09",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a2/u03/de-a2-u03-l4-ex09.mp3" },
+      "tiles": ["ohne", "dich", "ist", "es", "langweilig", "du", "interessant", "sind"],
+      "answers": ["Ohne dich ist es langweilig."]
+    },
+    {
+      "id": "de-a2-u03-l4-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Can you call me? (to a friend)",
+      "tiles": ["kannst", "du", "mich", "anrufen", "ich", "kann", "dich"],
+      "answers": ["Kannst du mich anrufen?"]
+    },
+    {
+      "id": "de-a2-u03-l4-ex11",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Is the coffee for us?",
+      "tiles": ["ist", "der", "Kaffee", "für", "uns", "wir", "den", "ohne"],
+      "answers": ["Ist der Kaffee für uns?"]
+    },
+    {
+      "id": "de-a2-u03-l4-ex12",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a2/u03/de-a2-u03-l4-ex12.mp3" },
+      "tiles": ["am", "Sonntag", "laufen", "wir", "um", "den", "See", "der", "durch", "Samstag"],
+      "answers": ["Am Sonntag laufen wir um den See."]
+    }
+  ]
+}

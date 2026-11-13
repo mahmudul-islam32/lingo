@@ -1,0 +1,117 @@
+{
+  "id": "de-a2-u04-l4-i-like-it",
+  "courseId": "en-de",
+  "unitId": "de-a2-u04",
+  "title": "I Like It",
+  "tip": "Gefallen works the other way round: Das Buch gefällt mir = I like the book. Gehören and helfen take the dative too: Kannst du mir helfen?",
+  "exercises": [
+    {
+      "id": "de-a2-u04-l4-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        { "id": "p1", "learning": "gefallen", "known": "to please" },
+        { "id": "p2", "learning": "gehören", "known": "to belong to" },
+        { "id": "p3", "learning": "helfen", "known": "to help" },
+        { "id": "p4", "learning": "zeigen", "known": "to show" },
+        { "id": "p5", "learning": "ihnen", "known": "to them" }
+      ]
+    },
+    {
+      "id": "de-a2-u04-l4-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'I like the present.'?",
+      "options": [
+        { "id": "a", "text": "Das Geschenk gefällt mir." },
+        { "id": "b", "text": "Ich gefalle das Geschenk." },
+        { "id": "c", "text": "Das Geschenk gefällt mich." },
+        { "id": "d", "text": "Das Geschenk gefalle mir." }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "de-a2-u04-l4-ex03",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Do you like the candle? (to a friend)",
+      "tiles": ["gefällt", "dir", "die", "Kerze", "gefallen", "dich", "du"],
+      "answers": ["Gefällt dir die Kerze?"]
+    },
+    {
+      "id": "de-a2-u04-l4-ex04",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a2/u04/de-a2-u04-l4-ex04.mp3" },
+      "tiles": ["die", "Gitarre", "gehört", "ihm", "nicht", "mir", "ihn", "gehören", "mich"],
+      "answers": ["Die Gitarre gehört ihm, nicht mir."]
+    },
+    {
+      "id": "de-a2-u04-l4-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'Can you help me? (to a friend)'?",
+      "options": [
+        { "id": "a", "text": "Kannst du mich helfen?" },
+        { "id": "b", "text": "Kannst du helfen mir?" },
+        { "id": "c", "text": "Kannst du mir helfen?" },
+        { "id": "d", "text": "Kannst du mir hilfst?" }
+      ],
+      "correctOptionId": "c"
+    },
+    {
+      "id": "de-a2-u04-l4-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I'm showing her the photo.",
+      "tiles": ["ich", "zeige", "ihr", "das", "Foto", "ihm", "zeigst", "sie"],
+      "answers": ["Ich zeige ihr das Foto.", "Das Foto zeige ich ihr.", "Ihr zeige ich das Foto."]
+    },
+    {
+      "id": "de-a2-u04-l4-ex07",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Gehört dir das Buch?",
+      "tiles": ["does", "the", "book", "belong", "to", "you", "me", "is", "photo"],
+      "answers": ["Does the book belong to you?"]
+    },
+    {
+      "id": "de-a2-u04-l4-ex08",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a2/u04/de-a2-u04-l4-ex08.mp3" },
+      "tiles": ["meine", "Eltern", "feiern", "heute", "wir", "helfen", "ihnen", "hilft", "ihn", "feiert"],
+      "answers": ["Meine Eltern feiern heute. Wir helfen ihnen."]
+    },
+    {
+      "id": "de-a2-u04-l4-ex09",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'The bike belongs to the woman.'?",
+      "options": [
+        { "id": "a", "text": "Das Fahrrad gehört die Frau." },
+        { "id": "b", "text": "Das Fahrrad gehört der Frau." },
+        { "id": "c", "text": "Das Fahrrad gehört den Frau." },
+        { "id": "d", "text": "Das Fahrrad gehört dem Frau." }
+      ],
+      "correctOptionId": "b"
+    },
+    {
+      "id": "de-a2-u04-l4-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "My parents like the photo.",
+      "tiles": ["das", "Foto", "gefällt", "meinen", "Eltern", "gefallen", "meine", "mir"],
+      "answers": ["Das Foto gefällt meinen Eltern.", "Meinen Eltern gefällt das Foto."]
+    },
+    {
+      "id": "de-a2-u04-l4-ex11",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Are you helping him today? (to a friend)",
+      "tiles": ["hilfst", "du", "ihm", "heute", "ihn", "helfe", "hilft"],
+      "answers": ["Hilfst du ihm heute?"]
+    },
+    {
+      "id": "de-a2-u04-l4-ex12",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a2/u04/de-a2-u04-l4-ex12.mp3" },
+      "tiles": ["die", "Blumen", "gefallen", "ihr", "sehr", "gefällt", "ihm", "sie"],
+      "answers": ["Die Blumen gefallen ihr sehr."]
+    }
+  ]
+}
