@@ -582,3 +582,103 @@ together._
 - **Alternatives considered:** 8 units (misses doctor, flat or offices); 15 units (more
   content before any release).
 - **Reversibility:** High.
+
+## PD-039: `im` + month is taught in early A2, not in A1
+
+- **Date:** 2026-11-12
+- **Decision:** A1 does not teach `im` + month (`im Mai`). A1 dates use only `am` + ordinal +
+  month (`am dritten Mai`) and `ab` / `bis` + month (`ab Juni`), which Unit 12 already
+  teaches. `im` + month and seasons (`im Sommer`) go into the **first A2 unit** (v0.5.0),
+  together with `in` + dative, where `im` = `in dem` can be explained. A1 content must not
+  use `im` anywhere (CON-DE-A1-QA check: 0 uses).
+- **Rationale:** `im` is a dative contraction. Teaching it as a loose chunk in the last A1
+  unit would add an item that can't be recycled before the checkpoint. `ab` / `bis` / `am`
+  already cover the A1 can-do ("say my date of birth", "say when something starts").
+- **Alternatives considered:** add `im Mai` to the U12 L1 appendix (8 items, but no later
+  lesson to recycle it and no grammar explanation possible yet).
+- **Reversibility:** High (content).
+
+## PD-040: `ins Kino` is taught as a fixed chunk in Unit 8; no other `in` + accusative in A1
+
+- **Date:** 2026-11-12
+- **Decision:** `ins Kino (gehen)` is taught in Unit 8 lesson 5 as part of the `das Kino`
+  entry ("the cinema / to the cinema"), like `aus der Schweiz` (U2) and `mit dem Bus` (U9).
+  It doesn't add to the item count. `in den Park` (U8 L3 ex10, L5 ex04) is removed, because
+  `in` + accusative for direction is a two-way preposition (A2, see CON-DE-A1-10 out of
+  scope). The weekend-plan scenario now uses `Wir können ins Kino gehen.`
+- **Rationale:** "go to the cinema" is the most natural weekend plan and the scenario
+  needs a destination. A single fixed chunk is learnable without case grammar; a productive
+  `in den / ins / in die` pattern is not.
+- **Alternatives considered:** keep `in den Park` (teaches a pattern we can't explain yet);
+  no destination at all (`Wir können am Samstag gehen.`, unnatural).
+- **Reversibility:** High.
+
+## PD-041: `achthundert` is an allowed extra; hundreds are taught in A2
+
+- **Date:** 2026-11-12
+- **Decision:** `achthundert` (U10 L5 ex09, the invented rent) stays as an **allowed extra**:
+  a compound of two taught words (`acht`, `hundert`, U3) built the way learners already know
+  from `-zehn` / `-zig`. In A1, hundreds (`zweihundert` … `neunhundert`) appear only for
+  **recognition** (listen or multiple choice), never as a word the learner must produce in a
+  `to_learning` word bank, and never more than one per lesson. Numbers 100–1000 and beyond
+  are taught systematically in A2 (prices, rents, years).
+- **Rationale:** a realistic rent needs hundreds, and the compound is transparent. Teaching
+  all hundreds in Unit 3 would break its "numbers 0–100" scope; inventing a rent of
+  `neunzig Euro` would be unrealistic.
+- **Alternatives considered:** add hundreds to U3 L4 (out of scope there); avoid rents in
+  numbers (weakens the viewing scenario's rent question).
+- **Reversibility:** High.
+
+## PD-042: Platform wording: `das Gleis` = "the platform"; no preposition with Gleis in A1
+
+- **Date:** 2026-11-12
+- **Decision:** `das Gleis` is glossed **"the platform"** on the English side (the word
+  English-speaking travellers look for), and "track" is accepted wherever a `to_known`
+  answer could use it. German content uses `Gleis` + number **without article and without
+  preposition** (`Ist das Gleis fünf?`, where `das` = "that"). `auf Gleis fünf` / `von Gleis
+  fünf`, `der Bahnsteig` and delay minutes (`zehn Minuten Verspätung`) are A2 (dative,
+  plural of `Minute`). Announcements in A1 stay one or two short sentences (`Der Zug nach
+  Leipzig hat leider Verspätung.`).
+- **Rationale:** German stations sign and announce `Gleis`, not `Bahnsteig`, so learners must
+  recognise `Gleis` first. "Platform" is what an English speaker means. Avoiding the
+  preposition keeps A1 free of the dative.
+- **Alternatives considered:** gloss as "track" (literal, but confusing to learners); teach
+  `der Bahnsteig` too (rarely heard in announcements).
+- **Reversibility:** High.
+
+## PD-043: Word-order alternatives in A1 word banks
+
+- **Date:** 2026-11-12
+- **Decision:** For every `to_learning` word bank, the accepted answers include:
+  1. the canonical order;
+  2. every V2 order that fronts a time, place or prepositional phrase (`In Hamburg wohne
+     ich.`, `Am Montag arbeite ich.`);
+  3. object-first orders when the object is one short noun phrase (`Den Käse kaufe ich.`,
+     `Fußball spiele ich.`).
+  Not accepted: split constituents (`Englisch sprichst du ein bisschen.`), more than one
+  fronted element, and orders that break V2. Translations keep the prompt's sentence order
+  for two-sentence answers (U1 policy). Listen exercises accept only the transcript.
+  When an odd or marked order can be made unbuildable by changing a distractor tile without
+  weakening the exercise, the tile set is changed instead of accepting it. When it can't,
+  a grammatical order is accepted and, if a native speaker might reject it, it goes on the
+  "needs native review" list in CON-DE-A1-QA.
+- **Rationale:** the units were written in parallel and treated fronted phrases
+  differently (Unit 2 rejected `In Hamburg wohne ich.`, Units 9 and 12 accepted the same
+  pattern). One rule keeps the checker fair (CDS-4, CDS-5) and predictable for learners.
+- **Alternatives considered:** canonical order only (fails learners on correct German); all
+  permutations (impossible to review, accepts odd German).
+- **Reversibility:** High.
+
+## PD-044: Multiple-choice prompt punctuation (CDS-7 clarification)
+
+- **Date:** 2026-11-12
+- **Decision:** MC prompts follow "Which one means '…'?" / "Which sentence means '…'?". A
+  register or speaker note goes **inside** the quotes at the end, in parentheses:
+  "Which sentence means 'Where are you going? (to a friend)'?". When the quoted English
+  already ends in `?` or `!` and has no note, no extra `?` is added after the quote
+  ("Which sentence means 'Is it far?'"). Short glosses of a single word may stay outside
+  ("Which one means 'right' (direction)?").
+- **Rationale:** the parallel units used three different patterns. Screen readers read the
+  prompt as one sentence, so one consistent pattern is easier to follow.
+- **Alternatives considered:** always add the closing `?` ("'Is it far?'?", reads badly).
+- **Reversibility:** High.

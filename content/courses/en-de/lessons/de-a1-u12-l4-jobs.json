@@ -19,7 +19,7 @@
     {
       "id": "de-a1-u12-l4-ex02",
       "type": "multiple_choice",
-      "prompt": "Which sentence means 'I'm an engineer'? (a woman speaking)",
+      "prompt": "Which sentence means 'I'm an engineer. (a woman speaking)'?",
       "options": [
         { "id": "a", "text": "Ich bin als Ingenieurin." },
         { "id": "b", "text": "Ich bin Ingenieurin." },
@@ -115,9 +115,9 @@
       "id": "de-a1-u12-l4-ex09",
       "type": "word_bank_translate",
       "direction": "to_learning",
-      "prompt": "My company is in Frankfurt.",
-      "tiles": ["meine", "Firma", "ist", "in", "Frankfurt", "mein", "sind", "aus"],
-      "answers": ["Meine Firma ist in Frankfurt.", "In Frankfurt ist meine Firma."]
+      "prompt": "May I start on Monday?",
+      "tiles": ["darf", "ich", "am", "Montag", "anfangen", "fange", "an", "Dienstag", "muss"],
+      "answers": ["Darf ich am Montag anfangen?"]
     },
     {
       "id": "de-a1-u12-l4-ex10",

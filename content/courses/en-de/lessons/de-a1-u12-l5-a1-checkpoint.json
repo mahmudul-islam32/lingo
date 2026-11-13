@@ -44,7 +44,7 @@
       "id": "de-a1-u12-l5-ex03",
       "type": "word_bank_translate",
       "direction": "to_known",
-      "prompt": "Ein Kaffee zum Mitnehmen, bitte. Was kostet das?",
+      "prompt": "Einen Kaffee zum Mitnehmen, bitte. Was kostet das?",
       "tiles": [
         "a",
         "coffee",
@@ -135,21 +135,21 @@
       "type": "listen",
       "audio": { "src": "/audio/de/a1/u12/de-a1-u12-l5-ex08.mp3" },
       "tiles": [
-        "mein",
-        "Kopf",
-        "tut",
-        "weh",
         "ich",
         "habe",
         "einen",
         "Termin",
         "um",
         "zehn",
-        "tun",
-        "meine",
-        "elf"
+        "darf",
+        "ich",
+        "hier",
+        "warten",
+        "elf",
+        "ein",
+        "muss"
       ],
-      "answers": ["Mein Kopf tut weh. Ich habe einen Termin um zehn."]
+      "answers": ["Ich habe einen Termin um zehn. Darf ich hier warten?"]
     },
     {
       "id": "de-a1-u12-l5-ex09",

@@ -65,8 +65,8 @@
       "id": "de-a1-u05-l5-ex07",
       "type": "listen",
       "audio": { "src": "/audio/de/a1/u05/de-a1-u05-l5-ex07.mp3" },
-      "tiles": ["guten", "Tag", "sonst", "noch", "etwas", "Morgen", "einmal", "was"],
-      "answers": ["Guten Tag! Sonst noch etwas?"]
+      "tiles": ["danke", "sonst", "noch", "etwas", "bitte", "einmal", "was"],
+      "answers": ["Danke! Sonst noch etwas?"]
     },
     {
       "id": "de-a1-u05-l5-ex08",
@@ -91,8 +91,21 @@
       "id": "de-a1-u05-l5-ex10",
       "type": "listen",
       "audio": { "src": "/audio/de/a1/u05/de-a1-u05-l5-ex10.mp3" },
-      "tiles": ["das", "macht", "zusammen", "zwölf", "Euro", "vierzig", "vierzehn", "zwei", "Cent"],
-      "answers": ["Das macht zusammen zwölf Euro vierzig."]
+      "tiles": [
+        "das",
+        "macht",
+        "zwölf",
+        "Euro",
+        "vierzig",
+        "hier",
+        "ist",
+        "der",
+        "Kassenbon",
+        "vierzehn",
+        "zwei",
+        "die"
+      ],
+      "answers": ["Das macht zwölf Euro vierzig. Hier ist der Kassenbon."]
     },
     {
       "id": "de-a1-u05-l5-ex11",
@@ -106,9 +119,12 @@
       "id": "de-a1-u05-l5-ex12",
       "type": "word_bank_translate",
       "direction": "to_learning",
-      "prompt": "No, thank you, that's all.",
-      "tiles": ["nein", "danke", "das", "ist", "alles", "doch", "bitte", "etwas"],
-      "answers": ["Nein, danke, das ist alles.", "Nein, das ist alles, danke."]
+      "prompt": "No, that's all. The receipt, please.",
+      "tiles": ["nein", "das", "ist", "alles", "den", "Kassenbon", "bitte", "der", "doch", "etwas"],
+      "answers": [
+        "Nein, das ist alles. Den Kassenbon, bitte.",
+        "Nein, das ist alles. Bitte den Kassenbon."
+      ]
     }
   ]
 }
