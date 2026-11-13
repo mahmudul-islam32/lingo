@@ -5,6 +5,7 @@ import {
   CONTENT_RULES,
   ListenExerciseSchema,
   type AnswerInputOfType,
+  type LanguageCode,
   type ListenExercise as ListenData,
 } from "@/contracts";
 import { createAudioPlayer } from "../../audio/audio-player";
@@ -35,8 +36,17 @@ const withSlowFile: ListenData = ListenExerciseSchema.parse({
   answers: ["Buenos días"],
 });
 
+/** A German listen exercise as authored in en-de A1 (capitalised nouns, umlaut, `!`). */
+const german: ListenData = ListenExerciseSchema.parse({
+  id: "de-a1-u04-l1-ex05",
+  type: "listen",
+  audio: { src: "/audio/de/a1/u04/de-a1-u04-l1-ex05.mp3" },
+  tiles: ["guten", "Morgen", "zwei", "Brötchen", "bitte", "drei", "Brot", "Tag"],
+  answers: ["Guten Morgen! Zwei Brötchen, bitte."],
+});
+
 /** Real adapters over stubbed browser APIs; one fresh audio element per test. */
-function makeAudio(): { audio: ListenAudio; elements: HTMLAudioElement[] } {
+function makeAudio(voiceTimeoutMs = 30): { audio: ListenAudio; elements: HTMLAudioElement[] } {
   const elements: HTMLAudioElement[] = [];
   return {
     elements,
@@ -46,21 +56,31 @@ function makeAudio(): { audio: ListenAudio; elements: HTMLAudioElement[] } {
         elements.push(el);
         return el;
       }),
-      speech: createSpeechFallback({ voiceTimeoutMs: 30 }),
+      speech: createSpeechFallback({ voiceTimeoutMs }),
     },
   };
 }
 
 function setup(
   behaviour: MediaPlayBehaviour | (() => MediaPlayBehaviour),
-  { data = exercise, disabled = false }: { data?: ListenData; disabled?: boolean } = {},
+  {
+    data = exercise,
+    disabled = false,
+    learningLanguage = "es",
+    voiceTimeoutMs,
+  }: {
+    data?: ListenData;
+    disabled?: boolean;
+    learningLanguage?: LanguageCode;
+    voiceTimeoutMs?: number;
+  } = {},
 ) {
   const playSpy = stubMediaPlayback(behaviour);
-  const { audio, elements } = makeAudio();
+  const { audio, elements } = makeAudio(voiceTimeoutMs);
   const props: ExerciseComponentProps<"listen"> = {
     exercise: data,
     presentationKey: `${data.id}:0`,
-    learningLanguage: "es",
+    learningLanguage,
     knownLanguage: "en",
     headingId: "exercise-heading",
     disabled,
@@ -226,25 +246,35 @@ describe("ListenExercise", () => {
     expect(speech.lastUtterance()?.lang).toBe("es-ES");
   });
 
-  it("with no file and no Spanish voice, shows the message and Skip reports audio_unavailable", async () => {
-    stubSpeechSynthesis([fakeVoice("en-GB")]);
-    const { props, user } = setup("error");
-    expect(await screen.findByText("Audio isn't available right now.")).toBeInTheDocument();
-    expect(screen.queryByRole("button", { name: "Play audio" })).not.toBeInTheDocument();
-    // Check stays disabled: the answer is cleared and the tiles are locked.
-    expect(props.onAnswerChange).toHaveBeenLastCalledWith(null);
-    for (const tile of within(screen.getByRole("group", { name: "Word bank" })).getAllByRole(
-      "button",
-    )) {
-      expect(tile).toBeDisabled();
-    }
-    await user.click(screen.getByRole("button", { name: "Skip" }));
-    expect(props.onSkip).toHaveBeenCalledWith("audio_unavailable");
-  });
+  // Language-agnostic (LES-014): no voice of the learning language → PD-007 skip. The voice
+  // timeout is 0 so `findVoice` resolves at once (no real-time race with `findBy*`), and
+  // the answer reset (a passive effect after the async status update) is awaited.
+  it.each([
+    { learningLanguage: "de", data: german, voices: ["en-GB", "es-ES", "fr-FR"] },
+    { learningLanguage: "es", data: exercise, voices: ["en-GB", "de-DE"] },
+  ])(
+    "with no file and no $learningLanguage voice, shows the message and Skip reports audio_unavailable",
+    async ({ learningLanguage, data, voices }) => {
+      const speech = stubSpeechSynthesis(voices.map((lang) => fakeVoice(lang)));
+      const { props, user } = setup("error", { data, learningLanguage, voiceTimeoutMs: 0 });
+      expect(await screen.findByText("Audio isn't available right now.")).toBeInTheDocument();
+      expect(screen.queryByRole("button", { name: "Play audio" })).not.toBeInTheDocument();
+      expect(speech.speak).not.toHaveBeenCalled();
+      // Check stays disabled: the answer is cleared and the tiles are locked.
+      await waitFor(() => expect(props.onAnswerChange).toHaveBeenLastCalledWith(null));
+      for (const tile of within(screen.getByRole("group", { name: "Word bank" })).getAllByRole(
+        "button",
+      )) {
+        expect(tile).toBeDisabled();
+      }
+      await user.click(screen.getByRole("button", { name: "Skip" }));
+      expect(props.onSkip).toHaveBeenCalledWith("audio_unavailable");
+    },
+  );
 
   it("treats a browser without speech synthesis like no voice", async () => {
     stubNoSpeechSynthesis();
-    const { props, user } = setup("error");
+    const { props, user } = setup("error", { voiceTimeoutMs: 0 });
     await user.click(await screen.findByRole("button", { name: "Skip" }));
     expect(props.onSkip).toHaveBeenCalledWith("audio_unavailable");
   });
@@ -307,5 +337,78 @@ describe("ListenExercise", () => {
     view.unmount();
     expect(pause.mock.calls.length).toBeGreaterThan(before);
     expect(speech.cancel).toHaveBeenCalled();
+  });
+});
+
+describe("ListenExercise in German (LES-014, PD-034)", () => {
+  async function fallbackVoice(voices: SpeechSynthesisVoice[]) {
+    const speech = stubSpeechSynthesis(voices);
+    setup("error", { data: german, learningLanguage: "de" });
+    await waitFor(() => expect(speech.speak).toHaveBeenCalledTimes(1));
+    return speech.lastUtterance();
+  }
+
+  it("prefers de-DE over the default de-CH voice", async () => {
+    const utterance = await fallbackVoice([
+      fakeVoice("de-CH", { default: true }),
+      fakeVoice("de-DE", { localService: false }),
+    ]);
+    expect(utterance?.voice?.lang).toBe("de-DE");
+    expect(utterance?.lang).toBe("de-DE");
+    expect(utterance?.text).toBe("Guten Morgen! Zwei Brötchen, bitte.");
+  });
+
+  it("falls back to any de-* voice (de-AT) when there is no de-DE voice", async () => {
+    const utterance = await fallbackVoice([
+      fakeVoice("en-US", { default: true }),
+      fakeVoice("de-AT"),
+    ]);
+    expect(utterance?.voice?.lang).toBe("de-AT");
+  });
+
+  it("never picks a Spanish or English voice for German", async () => {
+    const speech = stubSpeechSynthesis([
+      fakeVoice("es-ES", { default: true }),
+      fakeVoice("en-US"),
+      fakeVoice("en-DE"),
+    ]);
+    setup("error", { data: german, learningLanguage: "de", voiceTimeoutMs: 0 });
+    expect(await screen.findByText("Audio isn't available right now.")).toBeInTheDocument();
+    expect(speech.speak).not.toHaveBeenCalled();
+  });
+
+  it("speaks German at 1× and at CONTENT_RULES.slowPlaybackRate for Slow", async () => {
+    const speech = stubSpeechSynthesis([fakeVoice("de-DE")]);
+    const { user } = setup("error", { data: german, learningLanguage: "de" });
+    await waitFor(() => expect(speech.speak).toHaveBeenCalledTimes(1));
+    expect(speech.lastUtterance()?.rate).toBe(1);
+    await user.click(slowButton());
+    expect(speech.lastUtterance()?.rate).toBe(CONTENT_RULES.slowPlaybackRate);
+    expect(speech.lastUtterance()?.voice?.lang).toBe("de-DE");
+  });
+
+  it("Slow plays the German file at CONTENT_RULES.slowPlaybackRate", async () => {
+    stubSpeechSynthesis([fakeVoice("de-DE")]);
+    const { playSpy, user, element } = setup("resolve", { data: german, learningLanguage: "de" });
+    await waitFor(() => expect(playSpy).toHaveBeenCalledTimes(1));
+    await user.click(slowButton());
+    expect(element().getAttribute("src")).toBe(german.audio.src);
+    expect(element().playbackRate).toBe(CONTENT_RULES.slowPlaybackRate);
+  });
+
+  it("renders the tiles in authored case with lang=de", async () => {
+    stubSpeechSynthesis([fakeVoice("de-DE")]);
+    setup("resolve", { data: german, learningLanguage: "de" });
+    const bank = screen.getByRole("group", { name: "Word bank" });
+    const texts = within(bank)
+      .getAllByRole("button")
+      .map((tile) => {
+        expect(tile).toHaveAttribute("lang", "de");
+        return tile.textContent;
+      });
+    expect(texts.sort()).toEqual([...german.tiles].sort());
+    expect(screen.getByRole("button", { name: "Add Brötchen" })).toHaveTextContent(/^Brötchen$/);
+    expect(screen.getByRole("button", { name: "Add guten" })).toHaveTextContent(/^guten$/);
+    await waitFor(() => expect(playButton()).not.toHaveAttribute("aria-busy"));
   });
 });

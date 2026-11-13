@@ -1,4 +1,5 @@
 import { afterEach, describe, expect, it, vi } from "vitest";
+import { speechLocale } from "@/contracts";
 import {
   fakeVoice,
   stubNoSpeechSynthesis,
@@ -26,6 +27,35 @@ describe("pickVoice", () => {
     const def = fakeVoice("es-US", { default: true, localService: false });
     expect(pickVoice([mx, def], "es")).toBe(def);
     expect(pickVoice([es, mx], "es")).toBe(mx);
+  });
+});
+
+describe("pickVoice with the course speech locale (LES-014, PD-034)", () => {
+  const de = speechLocale("de");
+
+  it("maps German to de-DE and keeps Spanish as es", () => {
+    expect(de).toBe("de-DE");
+    expect(speechLocale("es")).toBe("es");
+  });
+
+  it("de-DE beats a default de-CH voice", () => {
+    const ch = fakeVoice("de-CH", { default: true });
+    const deDE = fakeVoice("de-DE", { localService: false });
+    expect(pickVoice([ch, deDE], de)).toBe(deDE);
+  });
+
+  it("falls back to any de-* voice, then null; never es or en", () => {
+    expect(pickVoice([fakeVoice("en-US", { default: true }), fakeVoice("de-AT")], de)?.lang).toBe(
+      "de-AT",
+    );
+    expect(pickVoice([fakeVoice("es-ES"), fakeVoice("en-GB")], de)).toBeNull();
+    expect(pickVoice([fakeVoice("dex-XX")], de)).toBeNull();
+  });
+
+  it("Spanish keeps its behaviour (default es-* voice wins, no region preference)", () => {
+    const mx = fakeVoice("es-MX", { default: true });
+    const es = fakeVoice("es-ES");
+    expect(pickVoice([es, mx], speechLocale("es"))).toBe(mx);
   });
 });
 
