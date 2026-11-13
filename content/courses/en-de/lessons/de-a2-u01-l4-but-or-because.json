@@ -113,7 +113,18 @@
       "type": "word_bank_translate",
       "direction": "to_learning",
       "prompt": "We're not hiking today because it's raining.",
-      "tiles": ["wir", "wandern", "heute", "nicht", "denn", "es", "regnet", "aber", "wandert", "schneit"],
+      "tiles": [
+        "wir",
+        "wandern",
+        "heute",
+        "nicht",
+        "denn",
+        "es",
+        "regnet",
+        "aber",
+        "wandert",
+        "schneit"
+      ],
       "answers": [
         "Wir wandern heute nicht, denn es regnet.",
         "Heute wandern wir nicht, denn es regnet."
@@ -144,7 +155,18 @@
       "type": "word_bank_translate",
       "direction": "to_known",
       "prompt": "Ich schwimme heute nicht, denn es ist windig.",
-      "tiles": ["I'm", "not", "swimming", "today", "because", "it's", "windy", "but", "or", "sunny"],
+      "tiles": [
+        "I'm",
+        "not",
+        "swimming",
+        "today",
+        "because",
+        "it's",
+        "windy",
+        "but",
+        "or",
+        "sunny"
+      ],
       "answers": [
         "I'm not swimming today because it's windy.",
         "Today I'm not swimming because it's windy.",

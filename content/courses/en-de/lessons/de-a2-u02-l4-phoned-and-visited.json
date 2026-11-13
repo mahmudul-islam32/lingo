@@ -33,7 +33,17 @@
       "type": "word_bank_translate",
       "direction": "to_learning",
       "prompt": "I called my mother yesterday.",
-      "tiles": ["ich", "habe", "gestern", "meine", "Mutter", "angerufen", "angeruft", "mein", "rufe"],
+      "tiles": [
+        "ich",
+        "habe",
+        "gestern",
+        "meine",
+        "Mutter",
+        "angerufen",
+        "angeruft",
+        "mein",
+        "rufe"
+      ],
       "answers": [
         "Ich habe gestern meine Mutter angerufen.",
         "Gestern habe ich meine Mutter angerufen.",

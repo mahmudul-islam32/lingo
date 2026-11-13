@@ -32,7 +32,19 @@
       "id": "de-a2-u04-l2-ex03",
       "type": "listen",
       "audio": { "src": "/audio/de/a2/u04/de-a2-u04-l2-ex03.mp3" },
-      "tiles": ["alles", "Gute", "Jana", "das", "Geschenk", "ist", "für", "dich", "dir", "gut", "sind"],
+      "tiles": [
+        "alles",
+        "Gute",
+        "Jana",
+        "das",
+        "Geschenk",
+        "ist",
+        "für",
+        "dich",
+        "dir",
+        "gut",
+        "sind"
+      ],
       "answers": ["Alles Gute, Jana! Das Geschenk ist für dich."]
     },
     {
@@ -41,7 +53,11 @@
       "direction": "to_learning",
       "prompt": "I'm giving you a book. (to a friend)",
       "tiles": ["ich", "schenke", "dir", "ein", "Buch", "dich", "schenkst", "eine"],
-      "answers": ["Ich schenke dir ein Buch.", "Ein Buch schenke ich dir.", "Dir schenke ich ein Buch."]
+      "answers": [
+        "Ich schenke dir ein Buch.",
+        "Ein Buch schenke ich dir.",
+        "Dir schenke ich ein Buch."
+      ]
     },
     {
       "id": "de-a2-u04-l2-ex05",
@@ -60,7 +76,19 @@
       "type": "word_bank_translate",
       "direction": "to_known",
       "prompt": "Mein Bruder schenkt mir ein Fahrrad.",
-      "tiles": ["my", "brother", "is", "giving", "me", "a", "bicycle", "bike", "sister", "I", "the"],
+      "tiles": [
+        "my",
+        "brother",
+        "is",
+        "giving",
+        "me",
+        "a",
+        "bicycle",
+        "bike",
+        "sister",
+        "I",
+        "the"
+      ],
       "answers": ["My brother is giving me a bicycle.", "My brother is giving me a bike."]
     },
     {

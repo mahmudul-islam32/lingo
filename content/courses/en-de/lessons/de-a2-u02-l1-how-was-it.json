@@ -40,7 +40,19 @@
       "id": "de-a2-u02-l1-ex04",
       "type": "listen",
       "audio": { "src": "/audio/de/a2/u02/de-a2-u02-l1-ex04.mp3" },
-      "tiles": ["es", "war", "toll", "aber", "am", "Sonntag", "war", "ich", "krank", "ist", "Samstag"],
+      "tiles": [
+        "es",
+        "war",
+        "toll",
+        "aber",
+        "am",
+        "Sonntag",
+        "war",
+        "ich",
+        "krank",
+        "ist",
+        "Samstag"
+      ],
       "answers": ["Es war toll, aber am Sonntag war ich krank."]
     },
     {
@@ -118,7 +130,18 @@
       "id": "de-a2-u02-l1-ex11",
       "type": "listen",
       "audio": { "src": "/audio/de/a2/u02/de-a2-u02-l1-ex11.mp3" },
-      "tiles": ["meine", "Eltern", "waren", "letzte", "Woche", "in", "Österreich", "war", "letztes", "mein"],
+      "tiles": [
+        "meine",
+        "Eltern",
+        "waren",
+        "letzte",
+        "Woche",
+        "in",
+        "Österreich",
+        "war",
+        "letztes",
+        "mein"
+      ],
       "answers": ["Meine Eltern waren letzte Woche in Österreich."]
     },
     {

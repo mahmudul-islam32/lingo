@@ -61,7 +61,17 @@
       "type": "word_bank_translate",
       "direction": "to_learning",
       "prompt": "Happy birthday, Nadia! We congratulate you. (to a friend)",
-      "tiles": ["herzlichen", "Glückwunsch", "Nadia", "wir", "gratulieren", "dir", "dich", "gratuliert", "euch"],
+      "tiles": [
+        "herzlichen",
+        "Glückwunsch",
+        "Nadia",
+        "wir",
+        "gratulieren",
+        "dir",
+        "dich",
+        "gratuliert",
+        "euch"
+      ],
       "answers": [
         "Herzlichen Glückwunsch, Nadia! Wir gratulieren dir.",
         "Herzlichen Glückwunsch, Nadia! Dir gratulieren wir."
@@ -92,13 +102,27 @@
       "direction": "to_learning",
       "prompt": "We're giving you a candle. (to a friend)",
       "tiles": ["wir", "schenken", "dir", "eine", "Kerze", "dich", "euch", "schenkt", "einen"],
-      "answers": ["Wir schenken dir eine Kerze.", "Eine Kerze schenken wir dir.", "Dir schenken wir eine Kerze."]
+      "answers": [
+        "Wir schenken dir eine Kerze.",
+        "Eine Kerze schenken wir dir.",
+        "Dir schenken wir eine Kerze."
+      ]
     },
     {
       "id": "de-a2-u04-l5-ex09",
       "type": "listen",
       "audio": { "src": "/audio/de/a2/u04/de-a2-u04-l5-ex09.mp3" },
-      "tiles": ["Nadia", "hat", "uns", "eine", "Torte", "mitgebracht", "ist", "mitbringen", "einen"],
+      "tiles": [
+        "Nadia",
+        "hat",
+        "uns",
+        "eine",
+        "Torte",
+        "mitgebracht",
+        "ist",
+        "mitbringen",
+        "einen"
+      ],
       "answers": ["Nadia hat uns eine Torte mitgebracht."]
     },
     {

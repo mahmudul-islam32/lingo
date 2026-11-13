@@ -20,7 +20,18 @@
       "id": "de-a2-u01-l5-ex02",
       "type": "listen",
       "audio": { "src": "/audio/de/a2/u01/de-a2-u01-l5-ex02.mp3" },
-      "tiles": ["heute", "Abend", "gibt", "es", "vielleicht", "ein", "Gewitter", "eine", "ist", "morgen"],
+      "tiles": [
+        "heute",
+        "Abend",
+        "gibt",
+        "es",
+        "vielleicht",
+        "ein",
+        "Gewitter",
+        "eine",
+        "ist",
+        "morgen"
+      ],
       "answers": ["Heute Abend gibt es vielleicht ein Gewitter."]
     },
     {

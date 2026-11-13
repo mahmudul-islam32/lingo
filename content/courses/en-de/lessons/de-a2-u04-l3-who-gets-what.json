@@ -98,7 +98,17 @@
       "type": "word_bank_translate",
       "direction": "to_learning",
       "prompt": "My father is giving my grandma chocolate.",
-      "tiles": ["mein", "Vater", "schenkt", "meiner", "Oma", "Schokolade", "meinen", "meinem", "schenke"],
+      "tiles": [
+        "mein",
+        "Vater",
+        "schenkt",
+        "meiner",
+        "Oma",
+        "Schokolade",
+        "meinen",
+        "meinem",
+        "schenke"
+      ],
       "answers": [
         "Mein Vater schenkt meiner Oma Schokolade.",
         "Meiner Oma schenkt mein Vater Schokolade.",
