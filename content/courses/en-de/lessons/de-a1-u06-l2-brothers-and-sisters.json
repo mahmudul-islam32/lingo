@@ -69,7 +69,12 @@
       "direction": "to_learning",
       "prompt": "Mira has a son and a daughter.",
       "tiles": ["Mira", "hat", "einen", "Sohn", "und", "eine", "Tochter", "ein", "habe"],
-      "answers": ["Mira hat einen Sohn und eine Tochter.", "Mira hat eine Tochter und einen Sohn."]
+      "answers": [
+        "Mira hat einen Sohn und eine Tochter.",
+        "Mira hat eine Tochter und einen Sohn.",
+        "Einen Sohn und eine Tochter hat Mira.",
+        "Eine Tochter und einen Sohn hat Mira."
+      ]
     },
     {
       "id": "de-a1-u06-l2-ex08",

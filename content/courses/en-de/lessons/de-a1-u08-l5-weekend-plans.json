@@ -10,7 +10,7 @@
       "type": "match_pairs",
       "pairs": [
         { "id": "p1", "learning": "das Kino", "known": "the cinema" },
-        { "id": "p2", "learning": "gehen", "known": "to go (on foot)" },
+        { "id": "p2", "learning": "ins Kino gehen", "known": "to go to the cinema" },
         { "id": "p3", "learning": "Lust haben", "known": "to feel like it" },
         { "id": "p4", "learning": "die Freizeit", "known": "free time" },
         { "id": "p5", "learning": "schade", "known": "what a pity" }
@@ -20,8 +20,21 @@
       "id": "de-a1-u08-l5-ex02",
       "type": "listen",
       "audio": { "src": "/audio/de/a1/u08/de-a1-u08-l5-ex02.mp3" },
-      "tiles": ["hallo", "Aylin", "hast", "du", "am", "Samstag", "Zeit", "habe", "ich", "Sonntag"],
-      "answers": ["Hallo Aylin! Hast du am Samstag Zeit?"]
+      "tiles": [
+        "hallo",
+        "Aylin",
+        "hast",
+        "du",
+        "am",
+        "Wochenende",
+        "Zeit",
+        "und",
+        "Lust",
+        "habe",
+        "ich",
+        "Samstag"
+      ],
+      "answers": ["Hallo Aylin! Hast du am Wochenende Zeit und Lust?"]
     },
     {
       "id": "de-a1-u08-l5-ex03",
@@ -40,25 +53,24 @@
       "id": "de-a1-u08-l5-ex04",
       "type": "word_bank_translate",
       "direction": "to_learning",
-      "prompt": "Do you feel like it? We can go to the park.",
+      "prompt": "Do you feel like it? We can go to the cinema.",
       "tiles": [
         "hast",
         "du",
         "Lust",
         "wir",
         "können",
-        "in",
-        "den",
-        "Park",
+        "ins",
+        "Kino",
         "gehen",
         "habe",
-        "der",
+        "das",
         "geht"
       ],
       "answers": [
-        "Hast du Lust? Wir können in den Park gehen.",
-        "Wir können in den Park gehen. Hast du Lust?",
-        "Hast du Lust? In den Park können wir gehen."
+        "Hast du Lust? Wir können ins Kino gehen.",
+        "Wir können ins Kino gehen. Hast du Lust?",
+        "Hast du Lust? Ins Kino können wir gehen."
       ]
     },
     {
@@ -130,12 +142,12 @@
     {
       "id": "de-a1-u08-l5-ex11",
       "type": "multiple_choice",
-      "prompt": "Which sentence means 'We can go on Saturday at eight'?",
+      "prompt": "Which sentence means 'We can go to the cinema on Saturday at eight'?",
       "options": [
-        { "id": "a", "text": "Wir können gehen am Samstag um acht." },
-        { "id": "b", "text": "Wir gehen können am Samstag um acht." },
-        { "id": "c", "text": "Wir könnt am Samstag um acht gehen." },
-        { "id": "d", "text": "Wir können am Samstag um acht gehen." }
+        { "id": "a", "text": "Wir können gehen am Samstag um acht ins Kino." },
+        { "id": "b", "text": "Wir gehen können am Samstag um acht ins Kino." },
+        { "id": "c", "text": "Wir könnt am Samstag um acht ins Kino gehen." },
+        { "id": "d", "text": "Wir können am Samstag um acht ins Kino gehen." }
       ],
       "correctOptionId": "d"
     },

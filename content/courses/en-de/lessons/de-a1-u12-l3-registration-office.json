@@ -31,8 +31,8 @@
       "id": "de-a1-u12-l3-ex03",
       "type": "listen",
       "audio": { "src": "/audio/de/a1/u12/de-a1-u12-l3-ex03.mp3" },
-      "tiles": ["Entschuldigung", "wo", "ist", "das", "Bürgeramt", "wer", "der", "sind"],
-      "answers": ["Entschuldigung, wo ist das Bürgeramt?"]
+      "tiles": ["Entschuldigung", "gibt", "es", "hier", "ein", "Bürgeramt", "wo", "ist", "eine"],
+      "answers": ["Entschuldigung, gibt es hier ein Bürgeramt?"]
     },
     {
       "id": "de-a1-u12-l3-ex04",
@@ -121,12 +121,12 @@
     {
       "id": "de-a1-u12-l3-ex10",
       "type": "multiple_choice",
-      "prompt": "Which sentence means 'I have to fill in the form'?",
+      "prompt": "Which sentence means 'May I fill in the form here?'",
       "options": [
-        { "id": "a", "text": "Ich muss das Formular füllen aus." },
-        { "id": "b", "text": "Ich muss das Formular ausfüllen." },
-        { "id": "c", "text": "Ich muss ausfüllen das Formular." },
-        { "id": "d", "text": "Ich müssen das Formular ausfüllen." }
+        { "id": "a", "text": "Darf ich das Formular hier füllen aus?" },
+        { "id": "b", "text": "Darf ich das Formular hier ausfüllen?" },
+        { "id": "c", "text": "Darf ich ausfüllen das Formular hier?" },
+        { "id": "d", "text": "Dürfen ich das Formular hier ausfüllen?" }
       ],
       "correctOptionId": "b"
     },

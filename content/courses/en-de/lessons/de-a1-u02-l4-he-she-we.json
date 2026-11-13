@@ -34,7 +34,7 @@
       "direction": "to_learning",
       "prompt": "She lives in Zürich.",
       "tiles": ["sie", "wohnt", "in", "Zürich", "wohnen", "er", "aus"],
-      "answers": ["Sie wohnt in Zürich."]
+      "answers": ["Sie wohnt in Zürich.", "In Zürich wohnt sie."]
     },
     {
       "id": "de-a1-u02-l4-ex04",
@@ -69,7 +69,7 @@
       "direction": "to_learning",
       "prompt": "They live in Berlin. (two or more people)",
       "tiles": ["sie", "wohnen", "in", "Berlin", "wohnt", "wir", "aus"],
-      "answers": ["Sie wohnen in Berlin."]
+      "answers": ["Sie wohnen in Berlin.", "In Berlin wohnen sie."]
     },
     {
       "id": "de-a1-u02-l4-ex08",
