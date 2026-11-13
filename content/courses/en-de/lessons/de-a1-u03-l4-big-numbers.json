@@ -98,9 +98,9 @@
       "id": "de-a1-u03-l4-ex08",
       "type": "word_bank_translate",
       "direction": "to_learning",
-      "prompt": "Do you have a mobile number? (formal)",
-      "tiles": ["haben", "Sie", "eine", "Handynummer", "hast", "Telefonnummer", "ein"],
-      "answers": ["Haben Sie eine Handynummer?"]
+      "prompt": "Do you have the mobile number? (formal)",
+      "tiles": ["haben", "Sie", "die", "Handynummer", "hast", "Telefonnummer", "der"],
+      "answers": ["Haben Sie die Handynummer?"]
     },
     {
       "id": "de-a1-u03-l4-ex09",

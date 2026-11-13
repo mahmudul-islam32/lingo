@@ -65,12 +65,12 @@
     {
       "id": "de-a1-u03-l3-ex07",
       "type": "multiple_choice",
-      "prompt": "Which sentence means 'Do you have a phone number? (to a friend)'?",
+      "prompt": "Which sentence means 'Do you have the phone number? (to a friend)'?",
       "options": [
-        { "id": "a", "text": "Habe du eine Telefonnummer?" },
-        { "id": "b", "text": "Hat du eine Telefonnummer?" },
-        { "id": "c", "text": "Hast du eine Telefonnummer?" },
-        { "id": "d", "text": "Haben du eine Telefonnummer?" }
+        { "id": "a", "text": "Habe du die Telefonnummer?" },
+        { "id": "b", "text": "Hat du die Telefonnummer?" },
+        { "id": "c", "text": "Hast du die Telefonnummer?" },
+        { "id": "d", "text": "Haben du die Telefonnummer?" }
       ],
       "correctOptionId": "c"
     },
@@ -86,8 +86,8 @@
       "id": "de-a1-u03-l3-ex09",
       "type": "listen",
       "audio": { "src": "/audio/de/a1/u03/de-a1-u03-l3-ex09.mp3" },
-      "tiles": ["haben", "Sie", "eine", "Telefonnummer", "Herr", "Okafor", "hast", "ein", "Frau"],
-      "answers": ["Haben Sie eine Telefonnummer, Herr Okafor?"]
+      "tiles": ["haben", "Sie", "die", "Telefonnummer", "Herr", "Okafor", "hast", "der", "Frau"],
+      "answers": ["Haben Sie die Telefonnummer, Herr Okafor?"]
     },
     {
       "id": "de-a1-u03-l3-ex10",

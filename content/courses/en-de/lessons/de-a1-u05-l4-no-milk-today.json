@@ -58,13 +58,8 @@
       "type": "word_bank_translate",
       "direction": "to_known",
       "prompt": "Hast du keinen Reis?",
-      "tiles": ["don't", "you", "have", "any", "rice", "do", "no", "cheese", "we"],
-      "answers": [
-        "Don't you have any rice?",
-        "Don't you have rice?",
-        "Do you have no rice?",
-        "Have you no rice?"
-      ]
+      "tiles": ["don't", "you", "have", "any", "rice", "do", "eggs", "cheese", "we"],
+      "answers": ["Don't you have any rice?", "Don't you have rice?"]
     },
     {
       "id": "de-a1-u05-l4-ex07",
