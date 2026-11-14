@@ -18,7 +18,7 @@ mocks or placeholders and swap in the final answer when it arrives.
 | Trademark, domain and social-handle check for "Polyglow" | Use "Polyglow" as the working name; no paid domain or handle registration | PD-001 |
 | PRD Q6: minimum age / consent copy | 13+ assumption; placeholder terms and privacy page marked "draft" | PRD §9 |
 | PRD Q7: TTS licence for pre-generated audio | Placeholder/mock audio files (or locally generated dev-only audio) not shipped to production | PRD §9 |
-| Native-speaker review of German content | pm self-review against CDS-1…13; a "needs native review" list kept in CON-DE-A1-QA | PD-038 |
+| Native-speaker review of German content (A1 and A2) | pm self-review against CDS-1…13 (A2: CDS-1…19); "needs native review" lists kept in CON-DE-A1-QA and CON-DE-A2-QA | PD-038, PD-047 |
 | Legal check of mentioning exam names in marketing | No exam brand names in the app or store copy | PD-035 |
 
 ---
@@ -681,4 +681,163 @@ together._
 - **Rationale:** the parallel units used three different patterns. Screen readers read the
   prompt as one sentence, so one consistent pattern is easier to follow.
 - **Alternatives considered:** always add the closing `?` ("'Is it far?'?", reads badly).
+- **Reversibility:** High.
+
+## PD-045: A2 structure and grammar order (14 units)
+
+- **Date:** 2026-11-13
+- **Decision:** German A2 has **14 units × 5 lessons = 70 lessons** (`curriculum-german.md`
+  §4b), in this order: U1 Weather and Seasons (`im` + month, `aber / oder / denn`) · U2 How
+  Was Your Weekend? (`war / hatte`, Perfekt with `haben`) · U3 Holiday Stories (Perfekt with
+  `sein`, accusative pronouns and prepositions) · U4 Gifts and Celebrations (dative articles,
+  pronouns, dative verbs) · U5 Errands in Town (dative prepositions, hundreds and years) ·
+  U6 Clothes and Shopping (basic adjective endings) · U7 Health and Sport (reflexive verbs,
+  `du / ihr` imperative, `sollen`) · U8 Appointments and Phone Calls (past modals, `weil`,
+  minutes) · U9 At Home and the Neighbours (two-way prepositions) · U10 Train and Hotel
+  (`auf / von Gleis`, `Bahnsteig`, delay minutes) · U11 Work and Job Search (`dass`) · U12
+  Offices and Letters (`wenn`, `deshalb / trotzdem`, `ob`) · U13 Media and Comparisons
+  (comparative, superlative) · U14 Plans and the Future (`werden`) with the **A2 checkpoint**
+  as U14 L5. The A1 deferrals land as follows: PD-039 → U1, PD-041 → U5 L3, PD-042 → U8 L2
+  and U10 L1–L2, PD-040 → U9 L3. Three A1 native-review items are resolved in A2 (`nach
+  links / rechts` U5, `Bei welcher Krankenkasse …?` U7, `sich anmelden` U12).
+- **Rationale:** the past tense is needed in almost every later scenario, so it comes first.
+  The dative is split into two units so pronouns and verbs settle before prepositions.
+  Adjective endings come after both cases are known, and two-way prepositions come after
+  both cases have been practised, then get applied at once in travel. The three subordinate
+  clauses are spread over U8, U11 and U12 so each is recycled before the next one. Every
+  scenario the owner asked for has a unit (work, phone calls, clothes, celebrations,
+  travel / hotel, weather, health and sport, flat and neighbours, offices and letters,
+  media), plus bank and post.
+- **Alternatives considered:** 12 units (would drop bank / post or media, or overload units
+  with two grammar points); dative in one unit (too much for 5 lessons); all subordinate
+  clauses in one unit (no recycling before the checkpoint); adjective endings in B1 only
+  (A2 learners meet them in every shop and ad).
+- **Reversibility:** High (content order; ids are assigned per unit).
+
+## PD-046: A2 size target is ~460 appendix entries, not ~600
+
+- **Date:** 2026-11-13
+- **Decision:** A2's target is **~460 appendix entries** (planned: 459), which gives well over
+  600 word forms once regular participles, comparatives, adjective endings and numbers are
+  counted. The CDS-3 per-lesson ranges stay the same as A1 (L1–L4: 5–8 items, L5: 2–6).
+  The curriculum table now reads "~460 appendix entries, ~600+ word forms".
+- **Rationale:** ~600 entries would need ~43 per unit and break the per-lesson ranges that
+  keep lessons short (A1 came out at 375 entries for a ~400 target). A2 adds a lot of
+  grammar, and grammar patterns multiply forms without adding entries. Recycling beats
+  breadth for retention (PRD G2).
+- **Alternatives considered:** widen CDS-3 to 6–10 items per lesson (longer, harder
+  lessons); add 2 more units (later launch for little gain).
+- **Reversibility:** High. B1 can pick up vocabulary breadth with reading passages.
+
+## PD-047: A2 content standard additions (CDS-14 … CDS-19) and a 14-exercise checkpoint
+
+- **Date:** 2026-11-13
+- **Decision:** A2 content follows CDS-1 … CDS-13 plus the new A2 rules in
+  `curriculum-german.md` §7: CDS-14 grammar drill (≥ 4 exercises per pattern lesson, 1 MC
+  with typical-error distractors), CDS-15 tips up to **200 characters** with one German
+  example (A1's 120 stays for A1), CDS-16 extended allowed extras (regular participles,
+  case forms, endings, comparatives, numbers once their pattern is taught), CDS-17 case-only
+  tile pairs (`ihnen / Ihnen`, `ihr / Ihr` never in one set), CDS-18 number words over 24
+  characters only as MC options, CDS-19 tense and clause mapping (PD-048). CDS-1, 9 and 12
+  are generalised to any level (`/audio/de/a2/uNN/…`, `de-a2-uNN-lN-exNN`). The **A2
+  checkpoint has 14 exercises**, one per unit (CDS-2's 10–12 doesn't apply to it; the type
+  mix does).
+- **Rationale:** A2 grammar needs a slightly longer tip to state a rule with an example (the
+  contract already allows 280). A checkpoint that reviews every unit needs one exercise per
+  unit, and the contract allows up to 20. The other rules make parallel writing reviewable.
+- **Alternatives considered:** keep 120-character tips (no room for a rule and an example);
+  a 12-exercise checkpoint that merges units (some units go unreviewed).
+- **Reversibility:** High.
+
+## PD-048: Tense and clause rules for answers in A2
+
+- **Date:** 2026-11-13
+- **Decision:** (CDS-19) English simple past and present perfect both map to the German
+  **Perfekt**, except `sein`, `haben` and modals, which use the **Präteritum**. No
+  Präteritum of other verbs appears in A2 tiles. `to_known` answers accept only natural
+  English ("I played … yesterday", not "I have played … yesterday"). English "will" →
+  German present + time word before U14; from U14 `werden`, with the present also accepted
+  when there's a time word and the tiles allow it. In subordinate clauses, main clause first
+  is canonical; for `weil` and `wenn` the clause-first order is also accepted; `dass` and
+  `ob` clauses stay after the main clause; PD-043 applies inside each clause; `weil` + V2
+  (spoken German) is never accepted. Before U9, `in / an / auf` + article appear only in
+  listed chunks.
+- **Rationale:** these are the choices where parallel writers would otherwise disagree
+  (the A1 lesson from PD-043). They follow how standard German is spoken and written and
+  keep the checker predictable.
+- **Alternatives considered:** accept Präteritum of all verbs (learners can't build it; it
+  is B1 narration); accept `weil` + V2 (common in speech, but wrong in writing and on
+  exams); `werden` for every "will" (unnatural German).
+- **Reversibility:** High.
+
+## PD-049: A2 ships with the four current exercise types; one `cloze` type is proposed
+
+- **Date:** 2026-11-13
+- **Decision:**
+  1. **A2 needs no new exercise type to ship.** Gender, case, adjective endings and two-way
+     prepositions are drilled with full-sentence MCs whose options differ only in the
+     article or ending, word banks with competing ending / article tiles, and paired Wo? /
+     Wohin? MCs (curriculum §5). v0.5.0 is not blocked by any engine work.
+  2. We propose **one generic `cloze` type** (1–2 gaps, 2–4 options per gap): contract
+     **CTO-009** and component **LES-015**, both **P1**, in v0.5.0 but **non-blocking**. A
+     **gender-choice** drill is a one-gap cloze (`___ Tisch` → `der / die / das`), so no
+     separate type is built. When LES-015 has shipped in a release, a follow-up content
+     ticket adds 1–2 cloze exercises to the A2 lessons that drill endings and prepositions
+     (U4, U6, U9, U10) with new exercise ids; existing ids are not touched.
+  3. **Not needed for A2:** reverse-direction MC (PD-019 stays), sentence-order with clause
+     tiles (word tiles are enough), a grammar note card with tables (the tip covers A2,
+     PD-050), typed answers (B1).
+  4. The ROADMAP's earlier v0.5.0 tech list ("gender-choice exercise, reverse MC, grammar
+     note card") is replaced by CTO-009, LES-015 and LES-013.
+- **Rationale:** content can't wait for engine work: the writers start now. The MC
+  technique works and was already used for A1 accusatives. A cloze gives a faster, more
+  focused drill for endings, and B1 needs it anyway (curriculum §6); one flexible type is
+  cheaper than separate gender-choice and case-choice types.
+- **Alternatives considered:** block A2 on cloze (delays v0.5.0 and the v1.0.0 launch); a
+  separate gender-choice type (duplicates cloze); build nothing until B1 (A2 endings are
+  where learners stall, market analysis risk table).
+- **Reversibility:** High. The content follow-up is additive.
+
+## PD-050: Lesson tip card (LES-013) moves into v0.5.0
+
+- **Date:** 2026-11-13
+- **Decision:** LES-013 (tip card, previously P2 in v1.0.0) moves to **v0.5.0 as P1**. The
+  lesson player doesn't show `tip` today (checked in `src/features/lessons`: no rendering of
+  the field), and A2 relies on tips to state each grammar rule (CDS-15).
+- **Rationale:** the tip is our only grammar explanation until a note card exists. Without
+  it, A2 learners meet the dative or adjective endings with no rule at all.
+- **Alternatives considered:** put rules in MC prompts (prompts would exceed 80
+  characters); wait for v1.0.0 (A2 would ship without any explanation).
+- **Reversibility:** High.
+
+## PD-051: Safe topics in A2 scenarios
+
+- **Date:** 2026-11-13
+- **Decision:** Extending CDS-11 and PD-035 for A2's real-life scenarios: no statements of
+  law or rules (sick notes, quiet hours, tenancy and utility costs, contracts, minimum wage,
+  passenger rights, customs, banking fees, deadlines, fines); no medical diagnoses, doses or
+  treatment advice; no religious holidays; no alcohol; no brands (devices, apps, banks,
+  train operators, hotels, stores, media); job interviews don't evaluate age, religion,
+  health, family plans or origin. House rules are a building's own rules.
+- **Rationale:** these are the A2 scenarios where content could drift into advice or claims
+  that are wrong, change over time, or exclude learners.
+- **Alternatives considered:** a "Life in Germany" fact layer (B1 orientation topics, needs
+  legal review first).
+- **Reversibility:** High.
+
+## PD-052: Parallel writing of A2: appendices are the contract
+
+- **Date:** 2026-11-13
+- **Decision:** A2 is written by **4 writers in parallel per wave** (ROADMAP v0.5.0). A
+  unit ticket depends on the **appendices** of earlier units, not on their lesson files, so
+  units in the same wave can be written at the same time. A writer may use A1, earlier A2
+  appendices and earlier lessons of the own unit only. If a writer needs a word that isn't
+  in any appendix, they either rewrite the sentence or note the request in their ticket's
+  self-review; they never add it silently. CON-DE-A2-QA moves every accepted addition into
+  an appendix. Each writer hands the unit fragment for `course.json` to the orchestrator
+  (as in A1); units are merged in unit order.
+- **Rationale:** sequential writing of 14 units would take too long; fixed appendices make
+  parallel writing safe and the QA check mechanical.
+- **Alternatives considered:** one writer in sequence (slow); free writing then QA
+  (many cross-unit vocabulary conflicts, as A1 QA showed).
 - **Reversibility:** High.
