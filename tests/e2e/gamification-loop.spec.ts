@@ -9,6 +9,7 @@ import {
   lessonUrl,
   nodeNamePattern,
   playLesson,
+  unitNamePattern,
 } from "./helpers/course";
 import { seedHearts } from "./helpers/seed";
 import { completeOnboarding } from "./onboarding-helpers";
@@ -175,7 +176,7 @@ test.describe("Learn with the gamification loop (PLT-009)", () => {
     const lumi = (await page.getByTestId("streak-lumi").boundingBox())!;
     const ring = (await page.getByRole("progressbar").boundingBox())!;
     const unit = (await page
-      .getByRole("heading", { level: 2, name: UNIT_1.title, exact: true })
+      .getByRole("heading", { name: unitNamePattern(UNIT_1) })
       .boundingBox())!;
     expect(bar.y + bar.height).toBeLessThanOrEqual(lumi.y + 1);
     expect(Math.abs(lumi.y + lumi.height / 2 - (ring.y + ring.height / 2))).toBeLessThan(40);

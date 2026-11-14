@@ -97,6 +97,14 @@ export function nodeNamePattern(
   );
 }
 
+/**
+ * Regex for a unit header or unit list name, matched by title: "Hello!" (GAM-008) or
+ * GAM-010's "Unit 1: Hello!" (the accessible name may have a space before the colon).
+ */
+export function unitNamePattern(unit: { title: string }): RegExp {
+  return new RegExp(`^(?:Unit \\d+ ?: )?${escapeRegex(unit.title)}$`);
+}
+
 /** Lower-cased words without punctuation (the PD-010/ADR-008 comparison, simplified). */
 function words(text: string): string[] {
   return text
