@@ -7,7 +7,9 @@ import {
   germanLesson1,
   lessonUrl,
   nodeNamePattern,
+  passTipCard,
   playLesson,
+  unitNamePattern,
 } from "./helpers/course";
 import { completeOnboarding } from "./onboarding-helpers";
 
@@ -49,6 +51,7 @@ test.describe("lesson route and lesson list (PLT-007)", () => {
     // en-de lesson ids follow ADR-008 (`de-a1-u01-l1-…`); the content itself is the pm's.
     expect(LESSON_1.id).toMatch(/^de-a1-u01-l1-[a-z0-9-]+$/);
     await expect(page).toHaveURL(lessonUrl(LESSON_1.id));
+    await passTipCard(page); // LES-013
     await expect(
       page.getByRole("heading", { level: 2, name: FIRST_PROMPT, exact: true }),
     ).toBeVisible();
@@ -63,14 +66,12 @@ test.describe("lesson route and lesson list (PLT-007)", () => {
   }) => {
     await page.setViewportSize({ width: 375, height: 667 });
     await completeOnboarding(page);
-    await expect(
-      page.getByRole("heading", { level: 2, name: UNIT_1.title, exact: true }),
-    ).toBeVisible();
+    await expect(page.getByRole("heading", { name: unitNamePattern(UNIT_1) })).toBeVisible();
     await expect(
       page.getByText(`0 of ${UNIT_1.lessons.length} lessons completed`).first(),
     ).toBeVisible();
 
-    const list = page.getByRole("list", { name: UNIT_1.title, exact: true });
+    const list = page.getByRole("list", { name: unitNamePattern(UNIT_1) });
     await expect(list.getByRole("listitem")).toHaveCount(UNIT_1.lessons.length);
     const names = GERMAN_LESSONS.slice(0, UNIT_1.lessons.length).map((lesson, index) =>
       nodeNamePattern(lesson, index === 0 ? "up next" : "locked"),
@@ -112,6 +113,7 @@ test.describe("lesson route and lesson list (PLT-007)", () => {
     await context.setOffline(true);
     await lesson1Node(page).click();
     await expect(page).toHaveURL(lessonUrl(LESSON_1.id));
+    await passTipCard(page); // LES-013
     await expect(
       page.getByRole("heading", { level: 2, name: FIRST_PROMPT, exact: true }),
     ).toBeVisible();

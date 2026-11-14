@@ -46,16 +46,31 @@ function nodeActionText(state: PathNodeState): string | null {
  * - "Lesson 1: Hello!, completed. Start again" (visible "Completed · Start again")
  * - "Lesson 3: At the Café, in progress. Continue"
  * - "Lesson 5: Around Town, locked" (visible "Locked")
+ *
+ * GAM-010: in a course with CEFR levels, lessons are numbered within their unit and the
+ * name starts with the unit: "Unit 3, Lesson 2: Bread, up next. Start" (visible
+ * "Unit 3 · Lesson 2", so the visible label still starts the name).
  */
-export function nodeAccessibleName(number: number, title: string, state: PathNodeState): string {
-  const base = `Lesson ${number}: ${title}, ${STATE_NAME[state]}`;
+export function nodeAccessibleName(
+  number: number,
+  title: string,
+  state: PathNodeState,
+  unitNumber: number | null = null,
+): string {
+  const base = `${lessonPrefix(number, unitNumber, ", ")}: ${title}, ${STATE_NAME[state]}`;
   const action = nodeActionText(state);
   return action === null ? base : `${base}. ${action}`;
 }
 
-/** "Lesson 2" (AC4). */
-export function lessonNumberText(number: number): string {
-  return `Lesson ${number}`;
+function lessonPrefix(number: number, unitNumber: number | null, separator: string): string {
+  return unitNumber === null
+    ? `Lesson ${number}`
+    : `Unit ${unitNumber}${separator}Lesson ${number}`;
+}
+
+/** "Lesson 2" (GAM-008 AC4), or "Unit 3 · Lesson 2" in a course with levels (GAM-010). */
+export function lessonNumberText(number: number, unitNumber: number | null = null): string {
+  return lessonPrefix(number, unitNumber, " · ");
 }
 
 /** "3 of 5 lessons completed" (AC4). Singular for a one-lesson unit. */
@@ -63,12 +78,26 @@ export function unitProgressText(completed: number, total: number): string {
   return `${completed} of ${total} ${total === 1 ? "lesson" : "lessons"} completed`;
 }
 
-/** Toast for a locked node (AC8). `null` when there is no lesson to finish first. */
-export function lockedToastText(unlockLessonNumber: number | null): string {
+/**
+ * Toast for a locked node (AC8). `null` when there is no lesson to finish first. With a
+ * unit number (GAM-010 AC5): "Finish Unit 2, Lesson 4 to unlock this one."
+ */
+export function lockedToastText(
+  unlockLessonNumber: number | null,
+  unlockUnitNumber: number | null = null,
+): string {
   return unlockLessonNumber === null
     ? "Finish the earlier lessons to unlock this one."
-    : `Finish Lesson ${unlockLessonNumber} to unlock this one.`;
+    : `Finish ${lessonPrefix(unlockLessonNumber, unlockUnitNumber, ", ")} to unlock this one.`;
 }
+
+/** "Unit 3" in a unit header (GAM-010 AC4). */
+export function unitNumberText(number: number): string {
+  return `Unit ${number}`;
+}
+
+/** Shown for a declared level without units (GAM-010 AC3). */
+export const COMING_SOON_TEXT = "Coming soon";
 
 export const NO_HEARTS_TEXT = "No hearts left";
 export const OUT_OF_HEARTS_TITLE = "You're out of hearts";
