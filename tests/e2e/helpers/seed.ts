@@ -34,3 +34,38 @@ export async function seedHearts(page: Page, current: number): Promise<void> {
   );
   await page.reload();
 }
+
+/**
+ * PLT-024 AC 8: sets the stored settings' `courseId` (`settings` table, key `"current"`)
+ * and reloads, e.g. `"en-es"` for a guest who chose Spanish before it was hidden
+ * (PD-030). Call it after onboarding (the settings record exists then).
+ */
+export async function seedSettingsCourse(page: Page, courseId: string): Promise<void> {
+  await page.evaluate(
+    ({ name, courseId }) =>
+      new Promise<void>((resolve, reject) => {
+        const open = indexedDB.open(name);
+        open.onerror = () => reject(open.error);
+        open.onsuccess = () => {
+          const db = open.result;
+          const tx = db.transaction("settings", "readwrite");
+          const store = tx.objectStore("settings");
+          const read = store.get("current");
+          read.onsuccess = () => {
+            if (!read.result) {
+              reject(new Error("no settings stored yet: finish onboarding first"));
+              return;
+            }
+            store.put({ ...read.result, courseId }, "current");
+          };
+          tx.oncomplete = () => {
+            db.close();
+            resolve();
+          };
+          tx.onerror = () => reject(tx.error);
+        };
+      }),
+    { name: DB_NAME, courseId },
+  );
+  await page.reload();
+}
