@@ -360,6 +360,21 @@ export const BUNDLED_CONTENT: ContentLoaders = {
       "de-a2-u08-l5-voicemail": json(
         () => import("../../../content/courses/en-de/lessons/de-a2-u08-l5-voicemail.json"),
       ),
+      "de-a2-u09-l1-where-is-it": json(
+        () => import("../../../content/courses/en-de/lessons/de-a2-u09-l1-where-is-it.json"),
+      ),
+      "de-a2-u09-l2-between": json(
+        () => import("../../../content/courses/en-de/lessons/de-a2-u09-l2-between.json"),
+      ),
+      "de-a2-u09-l3-where-does-it-go": json(
+        () => import("../../../content/courses/en-de/lessons/de-a2-u09-l3-where-does-it-go.json"),
+      ),
+      "de-a2-u09-l4-neighbours": json(
+        () => import("../../../content/courses/en-de/lessons/de-a2-u09-l4-neighbours.json"),
+      ),
+      "de-a2-u09-l5-repairs": json(
+        () => import("../../../content/courses/en-de/lessons/de-a2-u09-l5-repairs.json"),
+      ),
     },
     "en-es": {
       "u1-l1-hello": json(() => import("../../../content/courses/en-es/lessons/u1-l1-hello.json")),

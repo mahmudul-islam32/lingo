@@ -3,7 +3,7 @@
   "title": "German",
   "learningLanguage": "de",
   "knownLanguage": "en",
-  "version": 9,
+  "version": 10,
   "levels": [
     {
       "level": "A1",
@@ -584,6 +584,34 @@
         {
           "id": "de-a2-u08-l5-voicemail",
           "title": "Scenario: A Message on the Mailbox"
+        }
+      ]
+    },
+    {
+      "id": "de-a2-u09",
+      "level": "A2",
+      "title": "At Home and the Neighbours",
+      "description": "Say where things are and where they go, meet your neighbours and report a repair.",
+      "lessons": [
+        {
+          "id": "de-a2-u09-l1-where-is-it",
+          "title": "Where Is It?"
+        },
+        {
+          "id": "de-a2-u09-l2-between",
+          "title": "In Front, Behind, Between"
+        },
+        {
+          "id": "de-a2-u09-l3-where-does-it-go",
+          "title": "Where Does It Go?"
+        },
+        {
+          "id": "de-a2-u09-l4-neighbours",
+          "title": "Good Neighbours"
+        },
+        {
+          "id": "de-a2-u09-l5-repairs",
+          "title": "Scenario: The Tap Is Dripping"
         }
       ]
     }
