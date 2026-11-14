@@ -22,6 +22,7 @@ import type {
 import { VisuallyHidden } from "@/components/ui";
 import { checkAnswer } from "../checking";
 import { exerciseComponents } from "../exercises/registry";
+import { TipCard, TipStartBar } from "../tip";
 import type {
   ExerciseComponentMap,
   ExerciseComponentProps,
@@ -123,6 +124,8 @@ function useLatest<T>(value: T) {
 /**
  * Lesson player (LES-002): one exercise at a time, progress bar, Check/Continue,
  * re-queue of wrong answers (PD-012), quit confirmation, feedback panel (LES-003).
+ * A lesson with a `tip` opens on a tip card (LES-013) until "Start"; the card is not an
+ * exercise (no progress, accuracy or hearts) and the quit dialog works from it.
  *
  * The session is created once per mount: render it with `key={lesson.id}` if the lesson
  * can change under the same route.
@@ -160,6 +163,11 @@ export function LessonPlayer({
 
   const baseId = useId();
   const headingId = `${baseId}-prompt`;
+  const tipHeadingId = `${baseId}-tip-heading`;
+  const tipTextId = `${baseId}-tip-text`;
+  const tip = lesson.tip?.trim() ?? "";
+  const [showTip, setShowTip] = useState(tip.length > 0);
+  const startButtonRef = useRef<HTMLButtonElement>(null);
   const closeButtonRef = useRef<HTMLButtonElement>(null);
   const exerciseAreaRef = useRef<HTMLDivElement>(null);
   const [quitOpen, setQuitOpen] = useState(false);
@@ -217,6 +225,11 @@ export function LessonPlayer({
     [dispatch, nowRef],
   );
 
+  const startLesson = useCallback(() => {
+    dispatch({ type: "start", now: nowRef.current() });
+    setShowTip(false);
+  }, [dispatch, nowRef]);
+
   const openQuit = useCallback(() => setQuitOpen(true), []);
   const keepLearning = useCallback(() => setQuitOpen(false), []);
   const confirmQuit = useCallback(() => {
@@ -251,13 +264,18 @@ export function LessonPlayer({
   }, [store, quitOpenRef, openQuit, handleCheck, handleContinue]);
 
   // -- Focus the prompt heading on each new exercise (criterion 13) --------------------
+  // While the tip card is shown, "Start" has focus instead (LES-013 AC6).
   const { presentationKey } = state;
   useEffect(() => {
+    if (showTip) {
+      startButtonRef.current?.focus();
+      return;
+    }
     if (!presentationKey) return;
     const heading = document.getElementById(headingId);
     if (heading) heading.focus();
     else exerciseAreaRef.current?.focus();
-  }, [presentationKey, headingId]);
+  }, [presentationKey, headingId, showTip]);
 
   // -- Render --------------------------------------------------------------------------
   const stats = sessionStats(state.session);
@@ -301,7 +319,7 @@ export function LessonPlayer({
       />
 
       <VisuallyHidden role="status" aria-live="polite" aria-atomic="true">
-        {state.phase === "answering" && state.presentationKey ? valueText : ""}
+        {!showTip && state.phase === "answering" && state.presentationKey ? valueText : ""}
       </VisuallyHidden>
 
       <main
@@ -311,7 +329,15 @@ export function LessonPlayer({
         data-testid="exercise-area"
         className="min-h-0 flex-1 overflow-y-auto focus:outline-none"
       >
-        {exercise && Component && state.presentationKey && (
+        {showTip && (
+          <TipCard
+            tip={tip}
+            knownLanguage={knownLanguage}
+            textId={tipTextId}
+            headingId={tipHeadingId}
+          />
+        )}
+        {!showTip && exercise && Component && state.presentationKey && (
           <div
             key={state.presentationKey}
             className="mx-auto w-full max-w-2xl px-4 py-4 motion-safe:animate-slide-up"
@@ -332,7 +358,10 @@ export function LessonPlayer({
         )}
       </main>
 
-      {state.phase !== "ended" && (
+      {showTip && state.phase !== "ended" && (
+        <TipStartBar onStart={startLesson} describedBy={tipTextId} startRef={startButtonRef} />
+      )}
+      {!showTip && state.phase !== "ended" && (
         <ActionBar
           feedback={feedback}
           canCheck={state.pendingAnswer !== null}

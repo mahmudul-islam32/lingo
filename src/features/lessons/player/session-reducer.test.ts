@@ -119,6 +119,22 @@ describe("sessionReducer", () => {
     expect(LessonSessionSchema.safeParse(s.session).success).toBe(true);
   });
 
+  it("start (LES-013 tip card): moves startedAt to Start, changes nothing else", () => {
+    const s = start();
+    const started = sessionReducer(s, { type: "start", now: new Date("2026-11-07T10:00:30.000Z") });
+    expect(started.session.startedAt).toBe("2026-11-07T10:00:30.000Z");
+    expect(started.currentId).toBe(s.currentId);
+    expect(started.presentationKey).toBe(s.presentationKey);
+    expect(started.session.queue).toEqual(s.session.queue);
+    expect(started.session.heartsRemaining).toBe(s.session.heartsRemaining);
+  });
+
+  it("start is ignored once an exercise was answered", () => {
+    const s = answer(start(), correctAnswer(start()));
+    const again = sessionReducer(s, { type: "start", now: new Date("2026-11-07T11:00:00.000Z") });
+    expect(again).toBe(s);
+  });
+
   it("one wrong then correct: re-queues at the end and comes back", () => {
     let s = start();
     const wrong = wrongAnswer(s);

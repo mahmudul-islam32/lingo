@@ -7,6 +7,7 @@ import {
   germanLesson1,
   lessonUrl,
   nodeNamePattern,
+  passTipCard,
   playLesson,
   readLesson,
   SPANISH,
@@ -90,6 +91,7 @@ test.describe("German course (PLT-024)", () => {
     // AC 4: straight into en-de's first lesson (from the course data).
     await expect(page).toHaveURL(lessonUrl(GERMAN_LESSON_1.id));
     // AC 10: German text is marked as German.
+    await passTipCard(page, { keyboard: true });
     await expect(page.locator('[data-testid="exercise-area"] [lang="de"]').first()).toBeAttached();
     await playLesson(page, germanLesson1(), { keyboard: true });
     const stats = page.getByRole("list", { name: "Lesson stats" });
