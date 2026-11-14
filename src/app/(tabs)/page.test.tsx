@@ -3,7 +3,7 @@ import type { ReactElement } from "react";
 import { ToastProvider } from "@/components/ui";
 import { renderWithQueryClient } from "@/lib/query/testing";
 import { beforeEach, describe, expect, it, vi } from "vitest";
-import type { Settings } from "@/contracts";
+import type { Settings, UserProgress } from "@/contracts";
 import { guestProfileStore } from "@/features/profile";
 import { installPromptStore } from "../_pwa/install-prompt-store";
 import { FLASH_TOAST_KEY } from "../_shell/flash-toast";
@@ -14,6 +14,10 @@ import ProfilePage, { metadata as profileMetadata } from "./profile/page";
 /** The feature blocks are mocked: this tests Learn's composition only (PLT-009 AC 1, 2). */
 const mocks = vi.hoisted(() => ({
   settings: null as Settings | null,
+  progress: {
+    status: "success" as "loading" | "error" | "success",
+    progress: null as Pick<UserProgress, "completedLessonIds"> | null,
+  },
   calls: [] as { name: string; props: Record<string, unknown> }[],
 }));
 
@@ -33,6 +37,7 @@ vi.mock("@/features/gamification", () => {
     GamificationTopBar: block("top-bar"),
     StreakLumi: block("streak-lumi"),
     DailyGoalRing: block("daily-goal-ring"),
+    useUserProgress: () => mocks.progress,
     settingsQuery: () => ({
       queryKey: ["settings"],
       queryFn: async () => mocks.settings,
@@ -51,6 +56,7 @@ vi.mock("@/features/path", () => ({
 
 beforeEach(() => {
   mocks.settings = null;
+  mocks.progress = { status: "success", progress: { completedLessonIds: [] } };
   mocks.calls = [];
   window.sessionStorage.clear();
 });
@@ -95,18 +101,67 @@ describe("LearnPage (PLT-009)", () => {
     expect(typeof path.props.loadCourse).toBe("function");
   });
 
-  it("follows Settings.courseId once settings are read", async () => {
+  it("follows Settings.courseId once settings are read (a Spanish guest keeps en-es)", async () => {
     mocks.settings = {
-      courseId: "fx-es",
+      courseId: "en-es",
       dailyGoalXp: 20,
       soundEffectsEnabled: true,
       speakingExercisesEnabled: true,
     } as Settings;
     renderLearn();
     await waitFor(() =>
-      expect(screen.getByTestId("skill-path")).toHaveTextContent("skill-path:fx-es"),
+      expect(screen.getByTestId("skill-path")).toHaveTextContent("skill-path:en-es"),
     );
-    expect(screen.getByTestId("top-bar")).toHaveTextContent("top-bar:fx-es");
+    expect(screen.getByTestId("top-bar")).toHaveTextContent("top-bar:en-es");
+    expect(screen.getByTestId("streak-lumi")).toHaveTextContent("streak-lumi:en-es");
+    expect(screen.getByTestId("daily-goal-ring")).toHaveTextContent("daily-goal-ring:en-es");
+    // PLT-024 AC 8: the Spanish course has no levels, so the caption is its name only.
+    await waitFor(() => expect(screen.getByTestId("course-caption")).toHaveTextContent("Spanish"));
+    expect(screen.getByTestId("course-caption")).toHaveTextContent(/^Spanish$/);
+  });
+
+  it("PLT-024 AC 7: an unknown Settings.courseId (course removed) falls back to en-de", async () => {
+    mocks.settings = {
+      courseId: "xx-removed",
+      dailyGoalXp: 20,
+      soundEffectsEnabled: true,
+      speakingExercisesEnabled: true,
+    } as Settings;
+    renderLearn();
+    expect(await screen.findByText("German · A1")).toBeInTheDocument();
+    expect(screen.getByTestId("skill-path")).toHaveTextContent(`skill-path:${DEFAULT_COURSE_ID}`);
+    expect(mocks.calls.some((c) => c.props.courseId === "xx-removed")).toBe(false);
+  });
+
+  it("PLT-024 AC 9: the caption 'German · A1' sits above the path, as text", async () => {
+    renderLearn();
+    const caption = screen.getByTestId("course-caption");
+    expect(await screen.findByText("German · A1")).toBe(caption);
+    expect(caption.tagName).toBe("P");
+    expect(
+      screen.getByTestId("learn-header").compareDocumentPosition(caption) &
+        Node.DOCUMENT_POSITION_FOLLOWING,
+    ).toBeTruthy();
+    expect(
+      caption.compareDocumentPosition(screen.getByTestId("skill-path")) &
+        Node.DOCUMENT_POSITION_FOLLOWING,
+    ).toBeTruthy();
+  });
+
+  it("PLT-024 AC 9: the caption waits for progress, then shows the available lesson's level", async () => {
+    mocks.progress = { status: "loading", progress: null };
+    const { rerender } = renderLearn();
+    // Course is bundled (resolves quickly); progress still loading → empty, same height.
+    await new Promise((r) => setTimeout(r, 20));
+    expect(screen.getByTestId("course-caption")).toBeEmptyDOMElement();
+    mocks.progress = { status: "error", progress: null };
+    rerender(
+      <ToastProvider>
+        <LearnPage />
+      </ToastProvider>,
+    );
+    // A results read error counts as nothing completed (like the path).
+    expect(await screen.findByText("German · A1")).toBeInTheDocument();
   });
 
   it("has no temporary lesson list and no page-level spinner (AC 2, AC 11)", () => {

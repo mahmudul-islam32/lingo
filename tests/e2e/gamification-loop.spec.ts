@@ -1,15 +1,33 @@
 import { expect, test, type Page } from "@playwright/test";
 import { expectNoSeriousA11yViolations } from "./axe";
-import { answerFirstExerciseWrong, LESSON_1_URL, playLesson1 } from "./helpers/lesson-1";
+import {
+  answerWrong,
+  GERMAN,
+  GERMAN_LESSONS,
+  GERMAN_LESSON_1,
+  germanLesson1,
+  lessonUrl,
+  nodeNamePattern,
+  playLesson,
+} from "./helpers/course";
 import { seedHearts } from "./helpers/seed";
 import { completeOnboarding } from "./onboarding-helpers";
 
 /**
- * PLT-009: the v0.3.0 loop on Learn and in the lesson route, with CON-001 content at the
- * mobile size (375 × 667). Learn = GamificationTopBar, StreakLumi + DailyGoalRing,
- * SkillPath; lessons run in HeartsLessonPlayer.
+ * PLT-009: the v0.3.0 loop on Learn and in the lesson route at the mobile size
+ * (375 × 667). Learn = GamificationTopBar, StreakLumi + DailyGoalRing, course caption
+ * (PLT-024), SkillPath; lessons run in HeartsLessonPlayer. Since PLT-024 with the German
+ * course (en-de); ids, titles and answers come from `content/courses/en-de`.
  */
 test.use({ viewport: { width: 375, height: 667 } });
+
+const UNIT_1 = GERMAN.units[0]!;
+const LESSON_1 = GERMAN_LESSON_1;
+const LESSON_2 = GERMAN_LESSONS[1]!;
+const LESSON_3 = GERMAN_LESSONS[2]!;
+const LAST_LESSON = GERMAN_LESSONS.at(-1)!;
+const lesson1 = (page: Page, state: "up next" | "completed") =>
+  page.getByRole("link", { name: nodeNamePattern(LESSON_1, state) });
 
 const LOCKED_TOAST = "Finish the earlier lessons first.";
 
@@ -33,16 +51,19 @@ test.describe("Learn with the gamification loop (PLT-009)", () => {
     // AC 5: "Start learning" goes straight to Lesson 1 (keyboard for the choices).
     await page.goto("/onboarding");
     await page.getByRole("button", { name: "Get started" }).press("Enter");
-    await page.getByRole("radio", { name: "Spanish" }).click();
+    await expect(page.getByRole("radio", { name: "German" })).toHaveAttribute(
+      "aria-checked",
+      "true",
+    );
     await page.getByRole("button", { name: "Continue" }).press("Enter");
     await page.getByRole("radio", { name: "Regular 20 XP" }).click();
     await page.getByRole("button", { name: "Start learning" }).press("Enter");
-    await expect(page).toHaveURL(LESSON_1_URL);
+    await expect(page).toHaveURL(lessonUrl(LESSON_1.id));
 
     // AC 3: hearts in the lesson (HeartsLessonPlayer), then the LES-008/LES-010 results.
     await expect(page.getByTestId("lesson-hearts-meter")).toBeVisible();
     await expect(page.getByRole("img", { name: "Hearts: 5 of 5" })).toBeVisible();
-    await playLesson1(page);
+    await playLesson(page, germanLesson1());
     await expect(page.getByTestId("celebration-banner")).toContainText("Streak started!");
     const stats = page.getByRole("list", { name: "Lesson stats" });
     await expect(stats.getByRole("listitem").nth(0)).toContainText("15");
@@ -60,11 +81,12 @@ test.describe("Learn with the gamification loop (PLT-009)", () => {
     await expect(page.getByRole("button", { name: "Hearts: 5 of 5" })).toBeVisible();
     await expect(page.getByRole("progressbar", { name: "Daily goal" })).toBeVisible();
     await expect(page.getByText("15 / 20 XP")).toBeVisible();
-    await expect(page.getByRole("link", { name: "Lesson 1: Hello!, completed" })).toBeVisible();
+    await expect(lesson1(page, "completed")).toBeVisible();
     await expect(
-      page.getByRole("link", { name: "Lesson 2: Nice to Meet You, up next" }),
+      page.getByRole("link", { name: nodeNamePattern(LESSON_2, "up next") }),
     ).toBeVisible();
-    await expect(page.getByText("1 of 5 lessons completed")).toBeVisible();
+    await expect(page.getByText(`1 of ${UNIT_1.lessons.length} lessons completed`)).toBeVisible();
+    await expect(page.getByTestId("course-caption")).toHaveText("German · A1");
     expect(
       await page.evaluate(() => (window as unknown as { __noReload?: boolean }).__noReload),
     ).toBe(true);
@@ -80,8 +102,9 @@ test.describe("Learn with the gamification loop (PLT-009)", () => {
     await seedHearts(page, 1);
     await expect(page.getByRole("button", { name: "Hearts: 1 of 5" })).toBeVisible();
 
-    await page.getByRole("link", { name: "Lesson 1: Hello!, up next" }).click();
-    await answerFirstExerciseWrong(page);
+    await lesson1(page, "up next").click();
+    await expect(page).toHaveURL(lessonUrl(LESSON_1.id));
+    await answerWrong(page, germanLesson1().exercises[0]!);
     const heading = page.getByRole("heading", { level: 1, name: OUT_OF_HEARTS });
     await expect(heading).toBeVisible();
     await expect(heading).toBeFocused();
@@ -95,7 +118,7 @@ test.describe("Learn with the gamification loop (PLT-009)", () => {
     await expectNoSeriousA11yViolations(page);
 
     // Activating Lesson 1 (keyboard) opens the dialog instead of the lesson.
-    await page.getByRole("button", { name: "Lesson 1: Hello!, up next" }).press("Enter");
+    await page.getByRole("button", { name: nodeNamePattern(LESSON_1, "up next") }).press("Enter");
     const dialog = page.getByRole("dialog", { name: OUT_OF_HEARTS });
     await expect(dialog).toBeVisible();
     await expect(page).toHaveURL(/\/$/);
@@ -107,14 +130,14 @@ test.describe("Learn with the gamification loop (PLT-009)", () => {
     page,
   }) => {
     await completeOnboarding(page);
-    await page.goto("/lesson/u1-l3-at-the-cafe");
+    await page.goto(`/lesson/${LESSON_3.id}`);
     await expect(page).toHaveURL(/\/$/);
     await expect(page.getByText(LOCKED_TOAST)).toBeVisible();
     await expect(page.getByTestId("exercise-area")).toHaveCount(0);
-    await expect(page.getByRole("link", { name: "Lesson 1: Hello!, up next" })).toBeVisible();
+    await expect(lesson1(page, "up next")).toBeVisible();
 
     // Available lessons still open; unknown ids still 404.
-    await page.goto("/lesson/u1-l1-hello");
+    await page.goto(`/lesson/${LESSON_1.id}`);
     await expect(
       page.getByTestId("exercise-area").getByRole("heading", { level: 2 }),
     ).toBeVisible();
@@ -126,7 +149,7 @@ test.describe("Learn with the gamification loop (PLT-009)", () => {
     page,
   }) => {
     await completeOnboarding(page);
-    const lastNode = page.getByRole("button", { name: "Lesson 5: Around Town, locked" });
+    const lastNode = page.getByRole("button", { name: nodeNamePattern(LAST_LESSON, "locked") });
     await expect(lastNode).toBeVisible();
 
     // UX empty state: 0-day streak, 0 XP, 5 hearts, "0 / 20 XP", Lesson 1 up next.
@@ -134,7 +157,7 @@ test.describe("Learn with the gamification loop (PLT-009)", () => {
     await expect(page.getByRole("img", { name: "Total XP: 0" })).toBeVisible();
     await expect(page.getByRole("button", { name: "Hearts: 5 of 5" })).toBeVisible();
     await expect(page.getByText("0 / 20 XP")).toBeVisible();
-    await expect(page.getByRole("link", { name: "Lesson 1: Hello!, up next" })).toBeVisible();
+    await expect(lesson1(page, "up next")).toBeVisible();
 
     // AC 1: one h1; top bar, then Lumi + ring, then the path. (The path scrolls its next
     // lesson into view on load; measure from the top.)
@@ -152,7 +175,7 @@ test.describe("Learn with the gamification loop (PLT-009)", () => {
     const lumi = (await page.getByTestId("streak-lumi").boundingBox())!;
     const ring = (await page.getByRole("progressbar").boundingBox())!;
     const unit = (await page
-      .getByRole("heading", { level: 2, name: "First Steps" })
+      .getByRole("heading", { level: 2, name: UNIT_1.title, exact: true })
       .boundingBox())!;
     expect(bar.y + bar.height).toBeLessThanOrEqual(lumi.y + 1);
     expect(Math.abs(lumi.y + lumi.height / 2 - (ring.y + ring.height / 2))).toBeLessThan(40);
