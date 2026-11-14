@@ -1,0 +1,219 @@
+{
+  "id": "de-a2-u10-l3-booking-a-room",
+  "courseId": "en-de",
+  "unitId": "de-a2-u10",
+  "title": "Booking a Room",
+  "tip": "Prices are one word: „hundertzwanzig Euro pro Nacht“. Adjectives keep their endings: „Haben Sie ein ruhiges Zimmer?“",
+  "exercises": [
+    {
+      "id": "de-a2-u10-l3-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        { "id": "p1", "learning": "das Einzelzimmer", "known": "the single room" },
+        { "id": "p2", "learning": "das Doppelzimmer", "known": "the double room" },
+        { "id": "p3", "learning": "das Frühstück", "known": "breakfast" },
+        { "id": "p4", "learning": "die Bestätigung", "known": "the confirmation" },
+        { "id": "p5", "learning": "buchen", "known": "to book" }
+      ]
+    },
+    {
+      "id": "de-a2-u10-l3-ex02",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a2/u10/de-a2-u10-l3-ex02.mp3" },
+      "tiles": [
+        "ich",
+        "möchte",
+        "ein",
+        "Einzelzimmer",
+        "für",
+        "zwei",
+        "Nächte",
+        "buchen",
+        "Doppelzimmer",
+        "Nacht",
+        "eine"
+      ],
+      "answers": ["Ich möchte ein Einzelzimmer für zwei Nächte buchen."]
+    },
+    {
+      "id": "de-a2-u10-l3-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'Do you have a quiet room? (formal)'?",
+      "options": [
+        { "id": "a", "text": "Haben Sie ein ruhige Zimmer?" },
+        { "id": "b", "text": "Haben Sie ein ruhiges Zimmer?" },
+        { "id": "c", "text": "Haben Sie ein ruhiger Zimmer?" },
+        { "id": "d", "text": "Haben Sie ein ruhigen Zimmer?" }
+      ],
+      "correctOptionId": "b"
+    },
+    {
+      "id": "de-a2-u10-l3-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "The double room costs 120 euros per night.",
+      "tiles": [
+        "das",
+        "Doppelzimmer",
+        "kostet",
+        "hundertzwanzig",
+        "Euro",
+        "pro",
+        "Nacht",
+        "Einzelzimmer",
+        "kosten",
+        "Nächte"
+      ],
+      "answers": [
+        "Das Doppelzimmer kostet hundertzwanzig Euro pro Nacht.",
+        "Pro Nacht kostet das Doppelzimmer hundertzwanzig Euro.",
+        "Das Doppelzimmer kostet pro Nacht hundertzwanzig Euro."
+      ]
+    },
+    {
+      "id": "de-a2-u10-l3-ex05",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Wir möchten ein Doppelzimmer mit Frühstück.",
+      "tiles": [
+        "we",
+        "would",
+        "like",
+        "a",
+        "double",
+        "room",
+        "with",
+        "breakfast",
+        "single",
+        "without",
+        "I"
+      ],
+      "answers": ["We would like a double room with breakfast."]
+    },
+    {
+      "id": "de-a2-u10-l3-ex06",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a2/u10/de-a2-u10-l3-ex06.mp3" },
+      "tiles": [
+        "das",
+        "Doppelzimmer",
+        "mit",
+        "Frühstück",
+        "kostet",
+        "hundertfünfzig",
+        "Euro",
+        "Einzelzimmer",
+        "fünfzig",
+        "ohne"
+      ],
+      "answers": ["Das Doppelzimmer mit Frühstück kostet hundertfünfzig Euro."]
+    },
+    {
+      "id": "de-a2-u10-l3-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'I have booked a room.'?",
+      "options": [
+        { "id": "a", "text": "Ich bin ein Zimmer gebucht." },
+        { "id": "b", "text": "Ich habe ein Zimmer gebuchen." },
+        { "id": "c", "text": "Ich habe ein Zimmer gebucht." },
+        { "id": "d", "text": "Ich habe gebucht ein Zimmer." }
+      ],
+      "correctOptionId": "c"
+    },
+    {
+      "id": "de-a2-u10-l3-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Here is the confirmation for the double room.",
+      "tiles": [
+        "hier",
+        "ist",
+        "die",
+        "Bestätigung",
+        "für",
+        "das",
+        "Doppelzimmer",
+        "Einzelzimmer",
+        "den",
+        "sind"
+      ],
+      "answers": [
+        "Hier ist die Bestätigung für das Doppelzimmer.",
+        "Die Bestätigung für das Doppelzimmer ist hier."
+      ]
+    },
+    {
+      "id": "de-a2-u10-l3-ex09",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a2/u10/de-a2-u10-l3-ex09.mp3" },
+      "tiles": [
+        "haben",
+        "Sie",
+        "ein",
+        "ruhiges",
+        "Zimmer",
+        "mit",
+        "Frühstück",
+        "ruhige",
+        "ohne",
+        "hast"
+      ],
+      "answers": ["Haben Sie ein ruhiges Zimmer mit Frühstück?"]
+    },
+    {
+      "id": "de-a2-u10-l3-ex10",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'Two nights cost 240 euros.'?",
+      "options": [
+        { "id": "a", "text": "Zwei Nächte kostet zweihundertvierzig Euro." },
+        { "id": "b", "text": "Zwei Nacht kosten zweihundertvierzig Euro." },
+        { "id": "c", "text": "Zwei Nächte kosten zweihundertvierzig Euro." },
+        { "id": "d", "text": "Zwei Nächte kosten zweihundertvierzehn Euro." }
+      ],
+      "correctOptionId": "c"
+    },
+    {
+      "id": "de-a2-u10-l3-ex11",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "We have booked a quiet double room.",
+      "tiles": [
+        "wir",
+        "haben",
+        "ein",
+        "ruhiges",
+        "Doppelzimmer",
+        "gebucht",
+        "ruhige",
+        "sind",
+        "einen"
+      ],
+      "answers": [
+        "Wir haben ein ruhiges Doppelzimmer gebucht.",
+        "Ein ruhiges Doppelzimmer haben wir gebucht."
+      ]
+    },
+    {
+      "id": "de-a2-u10-l3-ex12",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Wir haben zwei Nächte mit Frühstück gebucht.",
+      "tiles": [
+        "we",
+        "booked",
+        "have",
+        "two",
+        "nights",
+        "with",
+        "breakfast",
+        "without",
+        "three",
+        "are"
+      ],
+      "answers": [
+        "We booked two nights with breakfast.",
+        "We have booked two nights with breakfast."
+      ]
+    }
+  ]
+}

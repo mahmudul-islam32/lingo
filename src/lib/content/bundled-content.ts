@@ -375,6 +375,21 @@ export const BUNDLED_CONTENT: ContentLoaders = {
       "de-a2-u09-l5-repairs": json(
         () => import("../../../content/courses/en-de/lessons/de-a2-u09-l5-repairs.json"),
       ),
+      "de-a2-u10-l1-which-platform": json(
+        () => import("../../../content/courses/en-de/lessons/de-a2-u10-l1-which-platform.json"),
+      ),
+      "de-a2-u10-l2-ten-minutes-late": json(
+        () => import("../../../content/courses/en-de/lessons/de-a2-u10-l2-ten-minutes-late.json"),
+      ),
+      "de-a2-u10-l3-booking-a-room": json(
+        () => import("../../../content/courses/en-de/lessons/de-a2-u10-l3-booking-a-room.json"),
+      ),
+      "de-a2-u10-l4-reception": json(
+        () => import("../../../content/courses/en-de/lessons/de-a2-u10-l4-reception.json"),
+      ),
+      "de-a2-u10-l5-missed-connection": json(
+        () => import("../../../content/courses/en-de/lessons/de-a2-u10-l5-missed-connection.json"),
+      ),
     },
     "en-es": {
       "u1-l1-hello": json(() => import("../../../content/courses/en-es/lessons/u1-l1-hello.json")),

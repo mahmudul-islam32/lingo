@@ -1,0 +1,169 @@
+{
+  "id": "de-a2-u10-l1-which-platform",
+  "courseId": "en-de",
+  "unitId": "de-a2-u10",
+  "title": "Which Platform?",
+  "tip": "Platforms take no article: „auf Gleis drei“ (where), „von Gleis drei“ (from where). The platform itself is der Bahnsteig: „Ich stehe auf dem Bahnsteig.“",
+  "exercises": [
+    {
+      "id": "de-a2-u10-l1-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        { "id": "p1", "learning": "auf Gleis drei", "known": "on platform three" },
+        { "id": "p2", "learning": "von Gleis acht", "known": "from platform eight" },
+        { "id": "p3", "learning": "der Bahnsteig", "known": "the platform" },
+        { "id": "p4", "learning": "der Wagen", "known": "the carriage" },
+        { "id": "p5", "learning": "die Reservierung", "known": "the reservation" }
+      ]
+    },
+    {
+      "id": "de-a2-u10-l1-ex02",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a2/u10/de-a2-u10-l1-ex02.mp3" },
+      "tiles": [
+        "der",
+        "Zug",
+        "nach",
+        "Basel",
+        "fährt",
+        "von",
+        "Gleis",
+        "acht",
+        "auf",
+        "fährst",
+        "elf"
+      ],
+      "answers": ["Der Zug nach Basel fährt von Gleis acht."]
+    },
+    {
+      "id": "de-a2-u10-l1-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'The train is on platform three.'?",
+      "options": [
+        { "id": "a", "text": "Der Zug steht in Gleis drei." },
+        { "id": "b", "text": "Der Zug steht auf Gleis drei." },
+        { "id": "c", "text": "Der Zug steht von Gleis drei." },
+        { "id": "d", "text": "Der Zug steht zu Gleis drei." }
+      ],
+      "correctOptionId": "b"
+    },
+    {
+      "id": "de-a2-u10-l1-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Where is the platform?",
+      "tiles": ["wo", "ist", "der", "Bahnsteig", "wohin", "sind", "Gleis"],
+      "answers": ["Wo ist der Bahnsteig?"]
+    },
+    {
+      "id": "de-a2-u10-l1-ex05",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a2/u10/de-a2-u10-l1-ex05.mp3" },
+      "tiles": [
+        "der",
+        "Zug",
+        "nach",
+        "Hamburg",
+        "steht",
+        "auf",
+        "Gleis",
+        "zwölf",
+        "von",
+        "zwei",
+        "stehe"
+      ],
+      "answers": ["Der Zug nach Hamburg steht auf Gleis zwölf."]
+    },
+    {
+      "id": "de-a2-u10-l1-ex06",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'I have reserved a seat.'?",
+      "options": [
+        { "id": "a", "text": "Ich habe ein Platz reserviert." },
+        { "id": "b", "text": "Ich bin einen Platz reserviert." },
+        { "id": "c", "text": "Ich habe einen Platz reserviert." },
+        { "id": "d", "text": "Ich habe reserviert einen Platz." }
+      ],
+      "correctOptionId": "c"
+    },
+    {
+      "id": "de-a2-u10-l1-ex07",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Wagen sieben, Platz zweiundvierzig.",
+      "tiles": ["carriage", "car", "seven", "seat", "forty-two", "platform", "seventeen", "train"],
+      "answers": ["Carriage seven, seat forty-two.", "Car seven, seat forty-two."]
+    },
+    {
+      "id": "de-a2-u10-l1-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I have a reservation for carriage seven.",
+      "tiles": [
+        "ich",
+        "habe",
+        "eine",
+        "Reservierung",
+        "für",
+        "Wagen",
+        "sieben",
+        "einen",
+        "hast",
+        "elf"
+      ],
+      "answers": [
+        "Ich habe eine Reservierung für Wagen sieben.",
+        "Für Wagen sieben habe ich eine Reservierung.",
+        "Ich habe für Wagen sieben eine Reservierung."
+      ]
+    },
+    {
+      "id": "de-a2-u10-l1-ex09",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a2/u10/de-a2-u10-l1-ex09.mp3" },
+      "tiles": [
+        "Entschuldigung",
+        "das",
+        "ist",
+        "mein",
+        "Platz",
+        "ich",
+        "habe",
+        "ihn",
+        "reserviert",
+        "dein",
+        "es",
+        "hat"
+      ],
+      "answers": ["Entschuldigung, das ist mein Platz. Ich habe ihn reserviert."]
+    },
+    {
+      "id": "de-a2-u10-l1-ex10",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'I'm standing on the platform.'?",
+      "options": [
+        { "id": "a", "text": "Ich stehe auf den Bahnsteig." },
+        { "id": "b", "text": "Ich stehe auf dem Bahnsteig." },
+        { "id": "c", "text": "Ich stehe auf der Bahnsteig." },
+        { "id": "d", "text": "Ich stehe auf Bahnsteig." }
+      ],
+      "correctOptionId": "b"
+    },
+    {
+      "id": "de-a2-u10-l1-ex11",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Excuse me, is this seat free?",
+      "tiles": ["Entschuldigung", "ist", "dieser", "Platz", "frei", "diese", "sind", "Wagen"],
+      "answers": ["Entschuldigung, ist dieser Platz frei?"]
+    },
+    {
+      "id": "de-a2-u10-l1-ex12",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Der Bahnsteig ist links.",
+      "tiles": ["the", "platform", "is", "on", "the", "left", "right", "are", "at"],
+      "answers": ["The platform is on the left."]
+    }
+  ]
+}
