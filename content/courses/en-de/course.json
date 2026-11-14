@@ -3,7 +3,7 @@
   "title": "German",
   "learningLanguage": "de",
   "knownLanguage": "en",
-  "version": 12,
+  "version": 13,
   "levels": [
     {
       "level": "A1",
@@ -668,6 +668,34 @@
         {
           "id": "de-a2-u11-l5-job-offer",
           "title": "Scenario: The Job Offer"
+        }
+      ]
+    },
+    {
+      "id": "de-a2-u12",
+      "level": "A2",
+      "title": "Offices and Letters",
+      "description": "Read and answer formal emails and letters, bring the right documents, and use wenn, deshalb and trotzdem.",
+      "lessons": [
+        {
+          "id": "de-a2-u12-l1-letters-and-emails",
+          "title": "Letters and Emails"
+        },
+        {
+          "id": "de-a2-u12-l2-documents",
+          "title": "Documents"
+        },
+        {
+          "id": "de-a2-u12-l3-if-you-have-questions",
+          "title": "If You Have Questions"
+        },
+        {
+          "id": "de-a2-u12-l4-school-and-daycare",
+          "title": "School and Daycare"
+        },
+        {
+          "id": "de-a2-u12-l5-letter-from-the-landlord",
+          "title": "Scenario: A Letter from the Property Management"
         }
       ]
     }

@@ -1,0 +1,168 @@
+{
+  "id": "de-a2-u12-l2-documents",
+  "courseId": "en-de",
+  "unitId": "de-a2-u12",
+  "title": "Documents",
+  "tip": "„Sich anmelden“ is reflexive: „Ich möchte mich anmelden.“ Polite requests put the verb first: „Bitte unterschreiben Sie hier.“ And wissen: ich weiß, du weißt.",
+  "exercises": [
+    {
+      "id": "de-a2-u12-l2-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        { "id": "p1", "learning": "die Unterlagen", "known": "the documents / papers" },
+        { "id": "p2", "learning": "der Pass", "known": "the passport" },
+        { "id": "p3", "learning": "die Kopie", "known": "the copy" },
+        { "id": "p4", "learning": "die Bescheinigung", "known": "the certificate" },
+        { "id": "p5", "learning": "unterschreiben", "known": "to sign" }
+      ]
+    },
+    {
+      "id": "de-a2-u12-l2-ex02",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a2/u12/de-a2-u12-l2-ex02.mp3" },
+      "tiles": ["guten", "Tag", "ich", "möchte", "mich", "anmelden", "mir", "dich", "melden"],
+      "answers": ["Guten Tag, ich möchte mich anmelden."]
+    },
+    {
+      "id": "de-a2-u12-l2-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'I'd like to register.'?",
+      "options": [
+        { "id": "a", "text": "Ich möchte anmelden mich." },
+        { "id": "b", "text": "Ich möchte mir anmelden." },
+        { "id": "c", "text": "Ich möchte mich anmelden." },
+        { "id": "d", "text": "Ich möchte anmelden." }
+      ],
+      "correctOptionId": "c"
+    },
+    {
+      "id": "de-a2-u12-l2-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Please bring your passport. (formal)",
+      "tiles": ["bringen", "Sie", "bitte", "Ihren", "Pass", "mit", "Ihr", "deinen", "bringst"],
+      "answers": [
+        "Bringen Sie bitte Ihren Pass mit.",
+        "Bitte bringen Sie Ihren Pass mit.",
+        "Bringen Sie Ihren Pass bitte mit.",
+        "Bringen Sie Ihren Pass mit, bitte."
+      ]
+    },
+    {
+      "id": "de-a2-u12-l2-ex05",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Ich brauche eine Kopie von meinem Pass.",
+      "tiles": ["I", "need", "a", "copy", "of", "my", "passport", "your", "have", "sign"],
+      "answers": ["I need a copy of my passport."]
+    },
+    {
+      "id": "de-a2-u12-l2-ex06",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'Please sign here. (formal)'?",
+      "options": [
+        { "id": "a", "text": "Bitte unterschreiben Sie hier." },
+        { "id": "b", "text": "Bitte Sie unterschreiben hier." },
+        { "id": "c", "text": "Bitte unterschreibst Sie hier." },
+        { "id": "d", "text": "Bitte unterschreiben hier Sie." }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "de-a2-u12-l2-ex07",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a2/u12/de-a2-u12-l2-ex07.mp3" },
+      "tiles": ["ich", "weiß", "es", "nicht", "weißt", "du", "es", "wissen", "kein", "bist"],
+      "answers": ["Ich weiß es nicht. Weißt du es?"]
+    },
+    {
+      "id": "de-a2-u12-l2-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Which documents do I need?",
+      "tiles": ["welche", "Unterlagen", "brauche", "ich", "welcher", "brauchst", "was"],
+      "answers": ["Welche Unterlagen brauche ich?"]
+    },
+    {
+      "id": "de-a2-u12-l2-ex09",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I need a certificate for the bank.",
+      "tiles": [
+        "ich",
+        "brauche",
+        "eine",
+        "Bescheinigung",
+        "für",
+        "die",
+        "Bank",
+        "einen",
+        "der",
+        "brauchst"
+      ],
+      "answers": [
+        "Ich brauche eine Bescheinigung für die Bank.",
+        "Ich brauche für die Bank eine Bescheinigung.",
+        "Für die Bank brauche ich eine Bescheinigung.",
+        "Eine Bescheinigung brauche ich für die Bank."
+      ]
+    },
+    {
+      "id": "de-a2-u12-l2-ex10",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'Do you know that? (to a friend)'?",
+      "options": [
+        { "id": "a", "text": "Weiß du das?" },
+        { "id": "b", "text": "Wisst du das?" },
+        { "id": "c", "text": "Weißt du das?" },
+        { "id": "d", "text": "Wissen du das?" }
+      ],
+      "correctOptionId": "c"
+    },
+    {
+      "id": "de-a2-u12-l2-ex11",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a2/u12/de-a2-u12-l2-ex11.mp3" },
+      "tiles": [
+        "bitte",
+        "unterschreiben",
+        "Sie",
+        "hier",
+        "und",
+        "bringen",
+        "Sie",
+        "eine",
+        "Kopie",
+        "mit",
+        "unterschreibst",
+        "einen",
+        "bringst"
+      ],
+      "answers": ["Bitte unterschreiben Sie hier und bringen Sie eine Kopie mit."]
+    },
+    {
+      "id": "de-a2-u12-l2-ex12",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Haben Sie die Unterlagen und den Pass?",
+      "tiles": [
+        "do",
+        "you",
+        "have",
+        "the",
+        "documents",
+        "papers",
+        "and",
+        "the",
+        "passport",
+        "are",
+        "a",
+        "my"
+      ],
+      "answers": [
+        "Do you have the documents and the passport?",
+        "Do you have the papers and the passport?"
+      ]
+    }
+  ]
+}
