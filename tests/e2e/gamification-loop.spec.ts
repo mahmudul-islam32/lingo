@@ -3,6 +3,7 @@ import { expectNoSeriousA11yViolations } from "./axe";
 import {
   answerWrong,
   GERMAN,
+  GERMAN_LAST_FIRST_LEVEL_LESSON,
   GERMAN_LESSONS,
   GERMAN_LESSON_1,
   germanLesson1,
@@ -26,7 +27,7 @@ const UNIT_1 = GERMAN.units[0]!;
 const LESSON_1 = GERMAN_LESSON_1;
 const LESSON_2 = GERMAN_LESSONS[1]!;
 const LESSON_3 = GERMAN_LESSONS[2]!;
-const LAST_LESSON = GERMAN_LESSONS.at(-1)!;
+const LAST_LESSON = GERMAN_LAST_FIRST_LEVEL_LESSON;
 const lesson1 = (page: Page, state: "up next" | "completed") =>
   page.getByRole("link", { name: nodeNamePattern(LESSON_1, state) });
 

@@ -71,6 +71,14 @@ export function courseLessons(course: CourseJson) {
 export const GERMAN = readCourse("en-de");
 export const GERMAN_LESSONS = courseLessons(GERMAN);
 export const GERMAN_LESSON_1 = GERMAN_LESSONS[0]!;
+/**
+ * The last lesson of the first level (A1). A new learner sees only that level expanded
+ * (GAM-010), so it is the last node on the path; later levels (A2 since CON-DE-A2-01)
+ * are collapsed and render no nodes.
+ */
+export const GERMAN_LAST_FIRST_LEVEL_LESSON = GERMAN_LESSONS.filter(
+  (lesson) => lesson.unit.level === GERMAN_LESSON_1.unit.level,
+).at(-1)!;
 
 /** The hidden Spanish course (`en-es`), kept for existing guests (PD-030, PLT-024 AC 8). */
 export const SPANISH = readCourse("en-es");
