@@ -1,0 +1,180 @@
+{
+  "id": "de-a2-u07-l4-the-doctor-says",
+  "courseId": "en-de",
+  "unitId": "de-a2-u07",
+  "title": "The Doctor Says…",
+  "tip": "sollen = someone else says you should. The infinitive goes to the end: Ich soll viel schlafen. Du sollst nicht joggen. In the past: Ich habe mich verletzt.",
+  "exercises": [
+    {
+      "id": "de-a2-u07-l4-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        { "id": "p1", "learning": "die Erkältung", "known": "the cold" },
+        { "id": "p2", "learning": "erkältet sein", "known": "to have a cold" },
+        { "id": "p3", "learning": "die Grippe", "known": "the flu" },
+        { "id": "p4", "learning": "sich verletzen", "known": "to hurt oneself" },
+        { "id": "p5", "learning": "krankgeschrieben sein", "known": "to be signed off sick" }
+      ]
+    },
+    {
+      "id": "de-a2-u07-l4-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'I'm supposed to sleep a lot.'?",
+      "options": [
+        { "id": "a", "text": "Ich soll schlafen viel." },
+        { "id": "b", "text": "Ich soll viel schlafen." },
+        { "id": "c", "text": "Ich sollst viel schlafen." },
+        { "id": "d", "text": "Ich soll viel geschlafen." }
+      ],
+      "correctOptionId": "b"
+    },
+    {
+      "id": "de-a2-u07-l4-ex03",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "You're not supposed to jog. (to a friend)",
+      "tiles": ["du", "sollst", "nicht", "joggen", "soll", "joggst", "kein"],
+      "answers": ["Du sollst nicht joggen."]
+    },
+    {
+      "id": "de-a2-u07-l4-ex04",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a2/u07/de-a2-u07-l4-ex04.mp3" },
+      "tiles": [
+        "ich",
+        "habe",
+        "eine",
+        "Erkältung",
+        "ich",
+        "soll",
+        "viel",
+        "Tee",
+        "trinken",
+        "bin",
+        "sollst",
+        "trinke"
+      ],
+      "answers": ["Ich habe eine Erkältung. Ich soll viel Tee trinken."]
+    },
+    {
+      "id": "de-a2-u07-l4-ex05",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I have a cold.",
+      "tiles": ["ich", "bin", "erkältet", "habe", "krank", "Grippe"],
+      "answers": ["Ich bin erkältet."]
+    },
+    {
+      "id": "de-a2-u07-l4-ex06",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'I've hurt myself.'?",
+      "options": [
+        { "id": "a", "text": "Ich habe mich verletzt." },
+        { "id": "b", "text": "Ich bin mich verletzt." },
+        { "id": "c", "text": "Ich habe mir verletzt." },
+        { "id": "d", "text": "Ich habe verletzt mich." }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "de-a2-u07-l4-ex07",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a2/u07/de-a2-u07-l4-ex07.mp3" },
+      "tiles": [
+        "ich",
+        "habe",
+        "mich",
+        "verletzt",
+        "mein",
+        "Arm",
+        "tut",
+        "weh",
+        "bin",
+        "Bein",
+        "tun"
+      ],
+      "answers": ["Ich habe mich verletzt. Mein Arm tut weh."]
+    },
+    {
+      "id": "de-a2-u07-l4-ex08",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'Which health insurer are you with? (formal)'?",
+      "options": [
+        { "id": "a", "text": "Bei welche Krankenkasse sind Sie?" },
+        { "id": "b", "text": "Bei welcher Krankenkasse bist Sie?" },
+        { "id": "c", "text": "Bei welchem Krankenkasse sind Sie?" },
+        { "id": "d", "text": "Bei welcher Krankenkasse sind Sie?" }
+      ],
+      "correctOptionId": "d"
+    },
+    {
+      "id": "de-a2-u07-l4-ex09",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I'm signed off sick this week.",
+      "tiles": ["ich", "bin", "diese", "Woche", "krankgeschrieben", "habe", "dieser", "krank"],
+      "answers": ["Ich bin diese Woche krankgeschrieben.", "Diese Woche bin ich krankgeschrieben."]
+    },
+    {
+      "id": "de-a2-u07-l4-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Du sollst viel Wasser trinken.",
+      "tiles": [
+        "you",
+        "should",
+        "drink",
+        "a",
+        "lot",
+        "of",
+        "water",
+        "are",
+        "supposed",
+        "to",
+        "tea"
+      ],
+      "answers": ["You should drink a lot of water.", "You are supposed to drink a lot of water."]
+    },
+    {
+      "id": "de-a2-u07-l4-ex11",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a2/u07/de-a2-u07-l4-ex11.mp3" },
+      "tiles": [
+        "bei",
+        "welcher",
+        "Krankenkasse",
+        "sind",
+        "Sie",
+        "Frau",
+        "Okafor",
+        "welche",
+        "bist",
+        "Herr"
+      ],
+      "answers": ["Bei welcher Krankenkasse sind Sie, Frau Okafor?"]
+    },
+    {
+      "id": "de-a2-u07-l4-ex12",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Lukas has the flu. He's supposed to rest.",
+      "tiles": [
+        "Lukas",
+        "hat",
+        "die",
+        "Grippe",
+        "er",
+        "soll",
+        "sich",
+        "ausruhen",
+        "ihn",
+        "sollst",
+        "ist"
+      ],
+      "answers": [
+        "Lukas hat die Grippe. Er soll sich ausruhen.",
+        "Lukas hat Grippe. Er soll sich ausruhen."
+      ]
+    }
+  ]
+}

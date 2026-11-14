@@ -3,7 +3,7 @@
   "title": "German",
   "learningLanguage": "de",
   "knownLanguage": "en",
-  "version": 7,
+  "version": 8,
   "levels": [
     {
       "level": "A1",
@@ -528,6 +528,34 @@
         {
           "id": "de-a2-u06-l5-exchange",
           "title": "Scenario: Exchanging a Jacket"
+        }
+      ]
+    },
+    {
+      "id": "de-a2-u07",
+      "level": "A2",
+      "title": "Health and Sport",
+      "description": "Talk about sport and how you feel, give advice to friends, and say what the doctor told you.",
+      "lessons": [
+        {
+          "id": "de-a2-u07-l1-sport",
+          "title": "Sport"
+        },
+        {
+          "id": "de-a2-u07-l2-how-do-you-feel",
+          "title": "How Do You Feel?"
+        },
+        {
+          "id": "de-a2-u07-l3-drink-water",
+          "title": "Drink Water!"
+        },
+        {
+          "id": "de-a2-u07-l4-the-doctor-says",
+          "title": "The Doctor Says…"
+        },
+        {
+          "id": "de-a2-u07-l5-back-in-training",
+          "title": "Scenario: Back at Training"
         }
       ]
     }

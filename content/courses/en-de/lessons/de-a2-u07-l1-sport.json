@@ -1,0 +1,157 @@
+{
+  "id": "de-a2-u07-l1-sport",
+  "courseId": "en-de",
+  "unitId": "de-a2-u07",
+  "title": "Sport",
+  "tip": "Sport machen = to do sport. Put gern after the verb to say you like doing it: Ich mache gern Sport. With days, use am: Ich trainiere am Freitag.",
+  "exercises": [
+    {
+      "id": "de-a2-u07-l1-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        { "id": "p1", "learning": "der Sport", "known": "sport" },
+        { "id": "p2", "learning": "joggen", "known": "to jog" },
+        { "id": "p3", "learning": "das Fitnessstudio", "known": "the gym" },
+        { "id": "p4", "learning": "der Verein", "known": "the club" },
+        { "id": "p5", "learning": "die Mannschaft", "known": "the team" }
+      ]
+    },
+    {
+      "id": "de-a2-u07-l1-ex02",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I like doing sport.",
+      "tiles": ["ich", "mache", "gern", "Sport", "machst", "nicht", "gut"],
+      "answers": ["Ich mache gern Sport.", "Sport mache ich gern."]
+    },
+    {
+      "id": "de-a2-u07-l1-ex03",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a2/u07/de-a2-u07-l1-ex03.mp3" },
+      "tiles": ["wir", "joggen", "morgens", "Sport", "ist", "gesund", "joggt", "abends", "sind"],
+      "answers": ["Wir joggen morgens. Sport ist gesund."]
+    },
+    {
+      "id": "de-a2-u07-l1-ex04",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'I train on Tuesday and on Friday.'?",
+      "options": [
+        { "id": "a", "text": "Ich trainierst am Dienstag und am Freitag." },
+        { "id": "b", "text": "Am Dienstag ich trainiere und am Freitag." },
+        { "id": "c", "text": "Ich trainiere am Dienstag und am Freitag." },
+        { "id": "d", "text": "Ich trainiere um Dienstag und um Freitag." }
+      ],
+      "correctOptionId": "c"
+    },
+    {
+      "id": "de-a2-u07-l1-ex05",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "We train on Wednesday and on Saturday.",
+      "tiles": [
+        "wir",
+        "trainieren",
+        "am",
+        "Mittwoch",
+        "und",
+        "am",
+        "Samstag",
+        "trainiert",
+        "um",
+        "Sonntag"
+      ],
+      "answers": [
+        "Wir trainieren am Mittwoch und am Samstag.",
+        "Am Mittwoch und am Samstag trainieren wir.",
+        "Wir trainieren am Samstag und am Mittwoch.",
+        "Am Samstag und am Mittwoch trainieren wir."
+      ]
+    },
+    {
+      "id": "de-a2-u07-l1-ex06",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a2/u07/de-a2-u07-l1-ex06.mp3" },
+      "tiles": [
+        "mein",
+        "Verein",
+        "hat",
+        "eine",
+        "Mannschaft",
+        "sie",
+        "spielt",
+        "am",
+        "Sonntag",
+        "meine",
+        "habe",
+        "spielen"
+      ],
+      "answers": ["Mein Verein hat eine Mannschaft. Sie spielt am Sonntag."]
+    },
+    {
+      "id": "de-a2-u07-l1-ex07",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Sport ist gesund.",
+      "tiles": ["sport", "is", "healthy", "sports", "are", "good"],
+      "answers": ["Sport is healthy.", "Sports are healthy."]
+    },
+    {
+      "id": "de-a2-u07-l1-ex08",
+      "type": "multiple_choice",
+      "prompt": "Which one means 'the gym'?",
+      "options": [
+        { "id": "a", "text": "der Fitnessstudio" },
+        { "id": "b", "text": "das Fitnessstudio" },
+        { "id": "c", "text": "die Fitnessstudio" },
+        { "id": "d", "text": "der Verein" }
+      ],
+      "correctOptionId": "b"
+    },
+    {
+      "id": "de-a2-u07-l1-ex09",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Is there a gym here?",
+      "tiles": ["gibt", "es", "hier", "ein", "Fitnessstudio", "einen", "ist", "Verein"],
+      "answers": ["Gibt es hier ein Fitnessstudio?"]
+    },
+    {
+      "id": "de-a2-u07-l1-ex10",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a2/u07/de-a2-u07-l1-ex10.mp3" },
+      "tiles": [
+        "ich",
+        "jogge",
+        "nicht",
+        "gern",
+        "ich",
+        "schwimme",
+        "lieber",
+        "joggst",
+        "schwimmst",
+        "mehr"
+      ],
+      "answers": ["Ich jogge nicht gern. Ich schwimme lieber."]
+    },
+    {
+      "id": "de-a2-u07-l1-ex11",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'Kemal jogs in the morning.'?",
+      "options": [
+        { "id": "a", "text": "Kemal joggt morgens." },
+        { "id": "b", "text": "Kemal jogge morgens." },
+        { "id": "c", "text": "Kemal joggen morgens." },
+        { "id": "d", "text": "Morgens Kemal joggt." }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "de-a2-u07-l1-ex12",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Die Mannschaft trainiert am Donnerstag.",
+      "tiles": ["the", "team", "trains", "on", "Thursday", "Tuesday", "plays", "at"],
+      "answers": ["The team trains on Thursday.", "On Thursday the team trains."]
+    }
+  ]
+}

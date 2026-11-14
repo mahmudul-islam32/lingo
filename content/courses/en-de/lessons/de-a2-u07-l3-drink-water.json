@@ -1,0 +1,134 @@
+{
+  "id": "de-a2-u07-l3-drink-water",
+  "courseId": "en-de",
+  "unitId": "de-a2-u07",
+  "title": "Drink Water!",
+  "tip": "du imperative: drop du and -st: du trinkst → Trink! Stem changes stay: du nimmst → Nimm! ihr imperative: drop ihr: ihr macht → Macht! Be: Sei! / Seid!",
+  "exercises": [
+    {
+      "id": "de-a2-u07-l3-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        { "id": "p1", "learning": "vorsichtig", "known": "careful" },
+        { "id": "p2", "learning": "genug", "known": "enough" },
+        { "id": "p3", "learning": "Iss!", "known": "Eat!" },
+        { "id": "p4", "learning": "Lies!", "known": "Read!" },
+        { "id": "p5", "learning": "Hilf!", "known": "Help!" }
+      ]
+    },
+    {
+      "id": "de-a2-u07-l3-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'Drink a lot of water! (to a friend)'?",
+      "options": [
+        { "id": "a", "text": "Trink viel Wasser!" },
+        { "id": "b", "text": "Trinkst viel Wasser!" },
+        { "id": "c", "text": "Du trink viel Wasser!" },
+        { "id": "d", "text": "Trinkt viel Wasser!" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "de-a2-u07-l3-ex03",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Stay at home! (to a friend)",
+      "tiles": ["bleib", "zu", "Hause", "bleibt", "bleibst", "nach"],
+      "answers": ["Bleib zu Hause!"]
+    },
+    {
+      "id": "de-a2-u07-l3-ex04",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a2/u07/de-a2-u07-l3-ex04.mp3" },
+      "tiles": [
+        "du",
+        "bist",
+        "krank",
+        "ruh",
+        "dich",
+        "aus",
+        "und",
+        "trink",
+        "viel",
+        "Tee",
+        "ruhst",
+        "mich",
+        "trinkst"
+      ],
+      "answers": ["Du bist krank. Ruh dich aus und trink viel Tee!"]
+    },
+    {
+      "id": "de-a2-u07-l3-ex05",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Take a tablet! (to a friend)",
+      "tiles": ["nimm", "eine", "Tablette", "nimmst", "nehmt", "einen"],
+      "answers": ["Nimm eine Tablette!"]
+    },
+    {
+      "id": "de-a2-u07-l3-ex06",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'Eat a lot of fruit! (to a friend)'?",
+      "options": [
+        { "id": "a", "text": "Esse viel Obst!" },
+        { "id": "b", "text": "Isst viel Obst!" },
+        { "id": "c", "text": "Iss viel Obst!" },
+        { "id": "d", "text": "Ess viel Obst!" }
+      ],
+      "correctOptionId": "c"
+    },
+    {
+      "id": "de-a2-u07-l3-ex07",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Take a break! (to friends)",
+      "tiles": ["macht", "eine", "Pause", "mach", "machen", "einen"],
+      "answers": ["Macht eine Pause!"]
+    },
+    {
+      "id": "de-a2-u07-l3-ex08",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a2/u07/de-a2-u07-l3-ex08.mp3" },
+      "tiles": ["seid", "vorsichtig", "es", "regnet", "sei", "schneit", "ist"],
+      "answers": ["Seid vorsichtig! Es regnet."]
+    },
+    {
+      "id": "de-a2-u07-l3-ex09",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Lies das Buch! Es ist toll.",
+      "tiles": ["read", "the", "book", "it", "is", "great", "reads", "film", "was"],
+      "answers": ["Read the book! It is great."]
+    },
+    {
+      "id": "de-a2-u07-l3-ex10",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'Help me, please! (to friends)'?",
+      "options": [
+        { "id": "a", "text": "Hilf mir bitte!" },
+        { "id": "b", "text": "Helft mich bitte!" },
+        { "id": "c", "text": "Helfen mir bitte!" },
+        { "id": "d", "text": "Helft mir bitte!" }
+      ],
+      "correctOptionId": "d"
+    },
+    {
+      "id": "de-a2-u07-l3-ex11",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a2/u07/de-a2-u07-l3-ex11.mp3" },
+      "tiles": ["komm", "Leyla", "wir", "machen", "eine", "Pause", "kommt", "macht", "einen"],
+      "answers": ["Komm, Leyla! Wir machen eine Pause."]
+    },
+    {
+      "id": "de-a2-u07-l3-ex12",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Be careful and drink enough water! (to a friend)",
+      "tiles": ["sei", "vorsichtig", "und", "trink", "genug", "Wasser", "seid", "trinkt", "bist"],
+      "answers": [
+        "Sei vorsichtig und trink genug Wasser!",
+        "Trink genug Wasser und sei vorsichtig!"
+      ]
+    }
+  ]
+}
