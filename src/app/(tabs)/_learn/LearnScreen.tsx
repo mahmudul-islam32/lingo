@@ -9,9 +9,11 @@ import {
   settingsQuery,
 } from "@/features/gamification";
 import { SkillPath } from "@/features/path";
-import { DEFAULT_COURSE_ID, useContentRepository } from "@/lib/content";
+import { useContentRepository } from "@/lib/content";
 import { useFlashToast } from "../../_shell/flash-toast";
 import { InstallCard } from "../../_shell/InstallCard";
+import { CourseCaption } from "./CourseCaption";
+import { learnCourseId } from "./course-caption";
 import { usePreloadCourseLessons } from "./use-preload-course-lessons";
 
 /**
@@ -22,13 +24,16 @@ import { usePreloadCourseLessons } from "./use-preload-course-lessons";
  * own: each block shows its own skeleton and error state (AC 11).
  *
  * The course is `Settings.courseId` from `["settings"]` (ADR-005), falling back to
- * `DEFAULT_COURSE_ID` before settings are read. Everything reads Dexie and the bundled
+ * `DEFAULT_COURSE_ID` (`en-de`) before settings are read or when the course isn't
+ * registered any more (PLT-024 AC 7). Guests already on `en-es` keep Spanish (AC 8).
+ * Above the path, `CourseCaption` names the course and current level, e.g. "German · A1"
+ * (AC 9). Everything reads Dexie and the bundled
  * content, so Learn renders progress offline (AC 7); the course's lessons are preloaded
  * so they open offline too (PLT-007 criterion 7).
  */
 export function LearnScreen() {
   const settings = useQuery(settingsQuery());
-  const courseId = settings.data?.courseId ?? DEFAULT_COURSE_ID;
+  const courseId = learnCourseId(settings.data?.courseId);
   const { getCourse } = useContentRepository();
   usePreloadCourseLessons(courseId);
   // E.g. "Finish the earlier lessons first." after a locked lesson's URL (AC 4).
@@ -43,6 +48,7 @@ export function LearnScreen() {
         <StreakLumi courseId={courseId} className="min-w-0 flex-1" />
         <DailyGoalRing courseId={courseId} className="shrink-0" />
       </div>
+      <CourseCaption courseId={courseId} />
       <SkillPath courseId={courseId} loadCourse={getCourse} className="px-0" />
     </div>
   );

@@ -47,12 +47,14 @@ describe("app shell", () => {
 
     // PLT-009: top bar, then the skill path, then the bottom nav in the Tab order.
     // (jsdom has no IndexedDB: progress and hearts come from the in-memory fallback.)
-    // The default course (en-de, CTO-008) is pm content: nodes are found by "Lesson N:".
+    // The default course (en-de, CTO-008) is pm content: nodes are found by
+    // "Unit N, Lesson M:" (GAM-010); the current level's header button comes first.
     const hearts = await screen.findByRole("button", { name: "Hearts: 5 of 5" });
-    const first = await screen.findByRole("link", { name: /^Lesson 1: .*, up next/ });
+    const level = await screen.findByRole("button", { name: /^A1 · /, expanded: true });
+    const first = await screen.findByRole("link", { name: /^Unit 1, Lesson 1: .*, up next/ });
     const nodes = [
-      ...screen.queryAllByRole("link", { name: /^Lesson \d+: / }),
-      ...screen.queryAllByRole("button", { name: /^Lesson \d+: / }),
+      ...screen.queryAllByRole("link", { name: /^Unit \d+, Lesson \d+: / }),
+      ...screen.queryAllByRole("button", { name: /^Unit \d+, Lesson \d+: / }),
     ];
     const lastLesson = nodes
       .sort((a, b) => (a.compareDocumentPosition(b) & Node.DOCUMENT_POSITION_FOLLOWING ? -1 : 1))
@@ -61,6 +63,8 @@ describe("app shell", () => {
     expect(screen.getByRole("link", { name: "Skip to content" })).toHaveFocus();
     await user.tab();
     expect(hearts).toHaveFocus();
+    await user.tab();
+    expect(level).toHaveFocus();
     await user.tab();
     expect(first).toHaveFocus();
     lastLesson.focus();

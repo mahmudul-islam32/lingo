@@ -11,6 +11,10 @@ import {
   FIXTURE_COURSE_ID,
 } from "@/lib/content/__fixtures__/fixture-course";
 import {
+  createGermanFixtureRepository,
+  GERMAN_FIXTURE_COURSE_ID,
+} from "@/lib/content/__fixtures__/german-fixture-course";
+import {
   getLocalSession,
   openLocalSession,
   ProgressRepositoryProvider,
@@ -55,16 +59,52 @@ function StubChoice({
   );
 }
 
-const components: ExerciseComponentMap = { multiple_choice: StubChoice };
+/** Builds the first accepted answer from its words (the stub matches tiles by text). */
+function StubWordBank({
+  exercise,
+  headingId,
+  disabled,
+  onAnswerChange,
+}: ExerciseComponentProps<"word_bank_translate">) {
+  return (
+    <div>
+      <h2 id={headingId} tabIndex={-1}>
+        {exercise.prompt}
+      </h2>
+      <button
+        type="button"
+        disabled={disabled}
+        onClick={() =>
+          onAnswerChange({
+            type: "word_bank_translate",
+            tiles: exercise.answers[0]!.replace(/[.,!?]/g, "").split(" "),
+          })
+        }
+      >
+        Pick correct
+      </button>
+    </div>
+  );
+}
+
+const components: ExerciseComponentMap = {
+  multiple_choice: StubChoice,
+  word_bank_translate: StubWordBank,
+};
 
 function renderScreen({
   repository = createFixtureRepository(),
   progress,
   lessonId = "fx-l1",
+  courseId = FIXTURE_COURSE_ID,
+  withStubs = true,
 }: {
   repository?: BundledContentRepository;
   progress: ProgressRepository;
   lessonId?: string;
+  courseId?: string;
+  /** `false`: the lessons feature's real exercise registry. */
+  withStubs?: boolean;
 }) {
   const client = createTestQueryClient();
   const Providers = ({ children }: { children: ReactNode }) => (
@@ -79,9 +119,9 @@ function renderScreen({
   return renderWithQueryClient(
     <Providers>
       <LessonScreen
-        courseId={FIXTURE_COURSE_ID}
+        courseId={courseId}
         lessonId={lessonId}
-        components={components}
+        {...(withStubs ? { components } : {})}
         createId={() => RESULT_ID}
       />
     </Providers>,
@@ -231,5 +271,60 @@ describe("LessonScreen locked deep links (PLT-009 AC 4)", () => {
       await screen.findByRole("heading", { level: 1, name: "You're out of hearts" }),
     ).toBeInTheDocument();
     expect(router.replace).not.toHaveBeenCalled();
+  });
+});
+
+describe("LessonScreen with the German course (PLT-024 AC 5, 10)", () => {
+  const GERMAN_LESSON = "de-a1-u01-l1-hallo";
+
+  it("plays an en-de lesson and saves the result with courseId en-de", async () => {
+    const session = await openLocalSession({ forceMemory: true });
+    renderScreen({
+      repository: createGermanFixtureRepository(),
+      progress: session.progress,
+      courseId: GERMAN_FIXTURE_COURSE_ID,
+      lessonId: GERMAN_LESSON,
+    });
+    await playToTheEnd();
+    expect(await screen.findByRole("heading", { level: 1, name: RESULTS_HEADING })).toBeVisible();
+    await waitFor(async () =>
+      expect(await session.progress.listLessonResults(GERMAN_FIXTURE_COURSE_ID)).toEqual([
+        expect.objectContaining({
+          courseId: "en-de",
+          unitId: "de-a1-u01",
+          lessonId: GERMAN_LESSON,
+          perfect: true,
+        }),
+      ]),
+    );
+    expect(await session.progress.listLessonResults(FIXTURE_COURSE_ID)).toEqual([]);
+  });
+
+  it('marks German text with lang="de" from the course (real exercise registry)', async () => {
+    const session = await openLocalSession({ forceMemory: true });
+    renderScreen({
+      repository: createGermanFixtureRepository(),
+      progress: session.progress,
+      courseId: GERMAN_FIXTURE_COURSE_ID,
+      lessonId: GERMAN_LESSON,
+      withStubs: false,
+    });
+    expect(
+      await screen.findByRole("heading", { level: 2, name: "Which one means 'beautiful'?" }),
+    ).toBeInTheDocument();
+    const option = screen.getByText("schön");
+    expect(option.closest("[lang]")).toHaveAttribute("lang", "de");
+    // The English prompt is not marked as German.
+    expect(screen.getByRole("heading", { level: 2 }).closest('[lang="de"]')).toBeNull();
+  });
+
+  it('uses the course\'s language, not a fixed one: the es fixture is marked lang="es"', async () => {
+    const session = await openLocalSession({ forceMemory: true });
+    renderScreen({ progress: session.progress, withStubs: false });
+    expect(
+      await screen.findByRole("heading", { level: 2, name: "Which one means 'hello'?" }),
+    ).toBeInTheDocument();
+    expect(screen.getByText("Hola").closest("[lang]")).toHaveAttribute("lang", "es");
+    expect(document.querySelector('[lang="de"]')).toBeNull();
   });
 });

@@ -7,7 +7,7 @@ import type { StoreApi } from "zustand";
 import type { Course, DailyGoalXp, Slug } from "@/contracts";
 import { guestProfileStore, type GuestProfileState } from "@/features/profile";
 import { HOME_PATH } from "../_shell/OnboardingGate";
-import { firstLessonPath, listBundledCourses } from "@/lib/content";
+import { DEFAULT_COURSE_ID, firstLessonPath, listAvailableCourses } from "@/lib/content";
 import { queryKeys } from "@/lib/query";
 import { CourseStep, type CoursesState } from "./steps/CourseStep";
 import { GoalStep } from "./steps/GoalStep";
@@ -18,12 +18,27 @@ export type OnboardingStep = "welcome" | "course" | "goal";
 /** Loads the courses offered at onboarding. Injected in tests. */
 export type LoadCourses = () => Promise<Course[]>;
 
-/** The bundled, schema-validated courses from `@/lib/content` (PLT-007). */
-const defaultLoadCourses: LoadCourses = () => listBundledCourses();
+/**
+ * The `available` courses of the registry (CTO-008), schema-validated: German only for
+ * now (PD-030). Hidden courses (Spanish) are not offered or named (PLT-024 AC 1).
+ */
+const defaultLoadCourses: LoadCourses = () => listAvailableCourses();
 
 export interface OnboardingFlowProps {
   loadCourses?: LoadCourses;
   store?: StoreApi<GuestProfileState>;
+  /** Course whose language the Welcome heading names (PLT-024 AC 3). Tests only. */
+  defaultCourseId?: Slug;
+}
+
+/**
+ * The course "Continue" and "Start learning" use: the learner's choice, else the only
+ * available course (PLT-024 AC 2: preselected when exactly one course is offered).
+ */
+export function effectiveCourseId(chosen: Slug | null, courses: CoursesState): Slug | null {
+  if (chosen !== null) return chosen;
+  if (courses.status === "ready" && courses.courses.length === 1) return courses.courses[0]!.id;
+  return null;
 }
 
 /**
@@ -40,17 +55,19 @@ export interface OnboardingFlowProps {
 export function OnboardingFlow({
   loadCourses = defaultLoadCourses,
   store = guestProfileStore,
+  defaultCourseId = DEFAULT_COURSE_ID,
 }: OnboardingFlowProps) {
   const router = useRouter();
   const queryClient = useQueryClient();
   const headingId = useId();
   const headingRef = useRef<HTMLHeadingElement>(null);
   const [step, setStep] = useState<OnboardingStep>("welcome");
-  const [courseId, setCourseId] = useState<Slug | null>(null);
+  const [chosenCourseId, setCourseId] = useState<Slug | null>(null);
   const [goal, setGoal] = useState<DailyGoalXp | null>(null);
   const [courses, setCourses] = useState<CoursesState>({ status: "loading" });
   const [saving, setSaving] = useState(false);
   const [saveFailed, setSaveFailed] = useState(false);
+  const selectedCourseId = effectiveCourseId(chosenCourseId, courses);
 
   // Resolves to the next courses state; never sets state synchronously.
   const readCourses = useCallback(
@@ -87,6 +104,7 @@ export function OnboardingFlow({
   }, [step]);
 
   async function finish() {
+    const courseId = selectedCourseId; // the choice, or the preselected only course
     if (courseId === null || goal === null || saving) return;
     setSaving(true);
     setSaveFailed(false);
@@ -110,13 +128,13 @@ export function OnboardingFlow({
   const common = { headingId, headingRef };
   switch (step) {
     case "welcome":
-      return <Welcome {...common} onStart={() => setStep("course")} />;
+      return <Welcome {...common} courseId={defaultCourseId} onStart={() => setStep("course")} />;
     case "course":
       return (
         <CourseStep
           {...common}
           courses={courses}
-          selected={courseId}
+          selected={selectedCourseId}
           onSelect={setCourseId}
           onRetry={retryCourses}
           onBack={() => setStep("welcome")}

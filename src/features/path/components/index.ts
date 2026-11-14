@@ -5,3 +5,4 @@ export { SkillPathError, type SkillPathErrorProps } from "./SkillPathError";
 export { PathNodeItem, type PathNodeItemProps } from "./PathNode";
 export { LockIcon, type LockIconProps } from "./LockIcon";
 export * as pathCopy from "./copy";
+export { ChevronIcon, type ChevronIconProps } from "./ChevronIcon";
