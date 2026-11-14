@@ -1,59 +1,64 @@
 import { expect, test, type Page } from "@playwright/test";
 import { expectNoSeriousA11yViolations } from "./axe";
 import {
-  LESSON_1_FIRST_PROMPT as FIRST_PROMPT,
-  LESSON_1_URL,
-  playLesson1,
-} from "./helpers/lesson-1";
+  GERMAN,
+  GERMAN_LESSONS,
+  GERMAN_LESSON_1,
+  germanLesson1,
+  lessonUrl,
+  nodeNamePattern,
+  passTipCard,
+  playLesson,
+  unitNamePattern,
+} from "./helpers/course";
 import { completeOnboarding } from "./onboarding-helpers";
 
 /**
  * PLT-007 (course loading, `/lesson/[lessonId]`) and PLT-008 (results saved on the
  * device), with the real exercise registry (LES-004..007) and the LES-008 results screen.
  * Since PLT-009 Learn shows the GAM-008 skill path instead of the temporary lesson list.
- * Lesson 1 ("Hello!") of content/courses/en-es.
+ * Since PLT-024 the course is German (en-de, the default and only offered course); ids,
+ * titles and answers come from `content/courses/en-de` (helpers/course.ts). The hidden
+ * Spanish course is covered with a seeded guest in `german-course.spec.ts`.
  */
-const lesson1Node = (page: Page) => page.getByRole("link", { name: /^Lesson 1: Hello!, / });
+const UNIT_1 = GERMAN.units[0]!;
+const LESSON_1 = GERMAN_LESSON_1;
+const LESSON_2 = GERMAN_LESSONS[1]!;
+const FIRST_PROMPT = (() => {
+  const first = germanLesson1().exercises[0]!;
+  if (first.type !== "multiple_choice") throw new Error("Lesson 1 starts with a choice");
+  return first.prompt;
+})();
 
-/** Waits until Learn has loaded the Unit 1 lesson chunks in the background. */
+const lesson1Node = (page: Page) =>
+  page.getByRole("link", { name: nodeNamePattern(LESSON_1, "up next") });
+
+/** Waits until Learn has loaded the course's lesson chunks in the background. */
 async function waitForLessonPreload(page: Page) {
   await page.waitForLoadState("networkidle");
 }
 
 test.describe("lesson route and lesson list (PLT-007)", () => {
-  test("criteria 6 and 13: a new visitor completes onboarding and sees Lesson 1's first exercise", async ({
+  test("criteria 6 and 13 / PLT-024 AC 4: a new visitor completes onboarding and sees the first German exercise", async ({
     page,
   }) => {
     await page.goto("/onboarding");
     await page.getByRole("button", { name: "Get started" }).click();
-    await page.getByRole("radio", { name: "Spanish" }).click();
-    await page.getByRole("button", { name: "Continue" }).click();
-    await page.getByRole("radio", { name: "Casual 10 XP" }).click();
-    await page.getByRole("button", { name: "Start learning" }).click();
-
-    await expect(page).toHaveURL(LESSON_1_URL);
-    await expect(page.getByRole("heading", { level: 2, name: FIRST_PROMPT })).toBeVisible();
-    // Criterion 3: full screen, no bottom navigation.
-    await expect(page.getByRole("navigation", { name: "Main" })).toHaveCount(0);
-  });
-
-  test("CTO-008: choosing German (the default course) opens the first A1 lesson", async ({
-    page,
-  }) => {
-    await page.goto("/onboarding");
-    await page.getByRole("button", { name: "Get started" }).click();
-    await page.getByRole("radio", { name: "German" }).click();
-    await page.getByRole("button", { name: "Continue" }).click();
+    await page.getByRole("button", { name: "Continue" }).click(); // German is preselected
     await page.getByRole("radio", { name: "Casual 10 XP" }).click();
     await page.getByRole("button", { name: "Start learning" }).click();
 
     // en-de lesson ids follow ADR-008 (`de-a1-u01-l1-…`); the content itself is the pm's.
-    await expect(page).toHaveURL(/\/lesson\/de-a1-u01-l1-[a-z0-9-]+$/);
+    expect(LESSON_1.id).toMatch(/^de-a1-u01-l1-[a-z0-9-]+$/);
+    await expect(page).toHaveURL(lessonUrl(LESSON_1.id));
+    await passTipCard(page); // LES-013
     await expect(
-      page.getByTestId("exercise-area").getByRole("heading", { level: 2 }),
+      page.getByRole("heading", { level: 2, name: FIRST_PROMPT, exact: true }),
     ).toBeVisible();
+    // Criterion 3: full screen, no bottom navigation.
+    await expect(page.getByRole("navigation", { name: "Main" })).toHaveCount(0);
     await page.goto("/");
-    await expect(page.getByRole("link", { name: /^Lesson 1: .*, up next/ })).toBeVisible();
+    await expect(lesson1Node(page)).toBeVisible();
   });
 
   test("criteria 4, 5, 11 and 12 (since PLT-009): Learn shows Unit 1 on the skill path", async ({
@@ -61,18 +66,16 @@ test.describe("lesson route and lesson list (PLT-007)", () => {
   }) => {
     await page.setViewportSize({ width: 375, height: 667 });
     await completeOnboarding(page);
-    await expect(page.getByRole("heading", { level: 2, name: "First Steps" })).toBeVisible();
-    await expect(page.getByText("0 of 5 lessons completed")).toBeVisible();
+    await expect(page.getByRole("heading", { name: unitNamePattern(UNIT_1) })).toBeVisible();
+    await expect(
+      page.getByText(`0 of ${UNIT_1.lessons.length} lessons completed`).first(),
+    ).toBeVisible();
 
-    const list = page.getByRole("list", { name: "First Steps" });
-    await expect(list.getByRole("listitem")).toHaveCount(5);
-    const names = [
-      "Lesson 1: Hello!, up next. Start",
-      "Lesson 2: Nice to Meet You, locked",
-      "Lesson 3: At the Café, locked",
-      "Lesson 4: Count It, locked",
-      "Lesson 5: Around Town, locked",
-    ];
+    const list = page.getByRole("list", { name: unitNamePattern(UNIT_1) });
+    await expect(list.getByRole("listitem")).toHaveCount(UNIT_1.lessons.length);
+    const names = GERMAN_LESSONS.slice(0, UNIT_1.lessons.length).map((lesson, index) =>
+      nodeNamePattern(lesson, index === 0 ? "up next" : "locked"),
+    );
     for (const [index, name] of names.entries()) {
       await expect(
         list
@@ -87,7 +90,7 @@ test.describe("lesson route and lesson list (PLT-007)", () => {
     // Keyboard: focus the next lesson and press Enter.
     await lesson1Node(page).focus();
     await page.keyboard.press("Enter");
-    await expect(page).toHaveURL(LESSON_1_URL);
+    await expect(page).toHaveURL(lessonUrl(LESSON_1.id));
     await expect(page.getByRole("navigation", { name: "Main" })).toHaveCount(0);
   });
 
@@ -109,8 +112,11 @@ test.describe("lesson route and lesson list (PLT-007)", () => {
 
     await context.setOffline(true);
     await lesson1Node(page).click();
-    await expect(page).toHaveURL(LESSON_1_URL);
-    await expect(page.getByRole("heading", { level: 2, name: FIRST_PROMPT })).toBeVisible();
+    await expect(page).toHaveURL(lessonUrl(LESSON_1.id));
+    await passTipCard(page); // LES-013
+    await expect(
+      page.getByRole("heading", { level: 2, name: FIRST_PROMPT, exact: true }),
+    ).toBeVisible();
     await context.setOffline(false);
   });
 });
@@ -121,21 +127,21 @@ test.describe("results saved on the device (PLT-008)", () => {
   }) => {
     await completeOnboarding(page);
     await lesson1Node(page).click();
-    await expect(page).toHaveURL(LESSON_1_URL);
-    await playLesson1(page);
+    await playLesson(page, germanLesson1());
     // LES-008 results screen; its "Continue" goes back to Learn (no reload).
     await page.getByRole("button", { name: "Continue" }).click();
 
     // Criteria 5 and 6: the new state is there without a page reload.
     await expect(page).toHaveURL(/\/$/);
-    await expect(page.getByRole("link", { name: "Lesson 1: Hello!, completed" })).toBeVisible();
+    const completed = page.getByRole("link", { name: nodeNamePattern(LESSON_1, "completed") });
+    await expect(completed).toBeVisible();
     await expect(
-      page.getByRole("link", { name: "Lesson 2: Nice to Meet You, up next" }),
+      page.getByRole("link", { name: nodeNamePattern(LESSON_2, "up next") }),
     ).toBeVisible();
 
     // Criterion 7: survives a reload.
     await page.reload();
-    await expect(page.getByRole("link", { name: "Lesson 1: Hello!, completed" })).toBeVisible();
+    await expect(completed).toBeVisible();
   });
 
   test("a lesson finished offline is saved and shown as completed", async ({ page, context }) => {
@@ -145,10 +151,12 @@ test.describe("results saved on the device (PLT-008)", () => {
 
     await context.setOffline(true);
     await lesson1Node(page).click();
-    await playLesson1(page);
+    await playLesson(page, germanLesson1());
     await expect(page.getByText("We couldn't save this lesson on your device.")).toHaveCount(0);
     await page.getByRole("button", { name: "Continue" }).click();
-    await expect(page.getByRole("link", { name: "Lesson 1: Hello!, completed" })).toBeVisible();
+    await expect(
+      page.getByRole("link", { name: nodeNamePattern(LESSON_1, "completed") }),
+    ).toBeVisible();
     await context.setOffline(false);
   });
 });
