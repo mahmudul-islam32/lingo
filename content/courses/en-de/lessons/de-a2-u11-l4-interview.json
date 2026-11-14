@@ -1,0 +1,179 @@
+{
+  "id": "de-a2-u11-l4-interview",
+  "courseId": "en-de",
+  "unitId": "de-a2-u11",
+  "title": "The Interview",
+  "tip": "In an interview, use Sie. In sich vorstellen, vor goes to the end: „Stellen Sie sich bitte vor.“ Experience takes the Perfekt: „Ich habe drei Jahre als Ingenieurin gearbeitet.“",
+  "exercises": [
+    {
+      "id": "de-a2-u11-l4-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        { "id": "p1", "learning": "das Vorstellungsgespräch", "known": "the job interview" },
+        { "id": "p2", "learning": "die Frage", "known": "the question" },
+        { "id": "p3", "learning": "die Sprache", "known": "the language" },
+        { "id": "p4", "learning": "zuverlässig", "known": "reliable" },
+        { "id": "p5", "learning": "flexibel", "known": "flexible" }
+      ]
+    },
+    {
+      "id": "de-a2-u11-l4-ex02",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a2/u11/de-a2-u11-l4-ex02.mp3" },
+      "tiles": [
+        "guten",
+        "Tag",
+        "stellen",
+        "Sie",
+        "sich",
+        "bitte",
+        "vor",
+        "stellst",
+        "dich",
+        "mich"
+      ],
+      "answers": ["Guten Tag! Stellen Sie sich bitte vor."]
+    },
+    {
+      "id": "de-a2-u11-l4-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'Please introduce yourself. (formal)'?",
+      "options": [
+        { "id": "a", "text": "Stellen Sie bitte vor." },
+        { "id": "b", "text": "Stellen Sie sich bitte vor." },
+        { "id": "c", "text": "Stellen Sie mich bitte vor." },
+        { "id": "d", "text": "Vorstellen Sie sich bitte." }
+      ],
+      "correctOptionId": "b"
+    },
+    {
+      "id": "de-a2-u11-l4-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Which languages do you speak? (formal)",
+      "tiles": ["welche", "Sprachen", "sprechen", "Sie", "sprichst", "welcher", "Sprache"],
+      "answers": ["Welche Sprachen sprechen Sie?"]
+    },
+    {
+      "id": "de-a2-u11-l4-ex05",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I'm reliable and flexible.",
+      "tiles": ["ich", "bin", "zuverlässig", "und", "flexibel", "bist", "ist", "oder"],
+      "answers": ["Ich bin zuverlässig und flexibel.", "Ich bin flexibel und zuverlässig."]
+    },
+    {
+      "id": "de-a2-u11-l4-ex06",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a2/u11/de-a2-u11-l4-ex06.mp3" },
+      "tiles": ["Frau", "Rahimi", "was", "sind", "Ihre", "Stärken", "Stärke", "ist", "deine"],
+      "answers": ["Frau Rahimi, was sind Ihre Stärken?"]
+    },
+    {
+      "id": "de-a2-u11-l4-ex07",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I worked as an engineer for three years.",
+      "tiles": [
+        "ich",
+        "habe",
+        "drei",
+        "Jahre",
+        "als",
+        "Ingenieur",
+        "Ingenieurin",
+        "gearbeitet",
+        "bin",
+        "Jahren",
+        "arbeite"
+      ],
+      "answers": [
+        "Ich habe drei Jahre als Ingenieurin gearbeitet.",
+        "Ich habe drei Jahre als Ingenieur gearbeitet.",
+        "Ich habe als Ingenieurin drei Jahre gearbeitet.",
+        "Ich habe als Ingenieur drei Jahre gearbeitet.",
+        "Drei Jahre habe ich als Ingenieurin gearbeitet.",
+        "Drei Jahre habe ich als Ingenieur gearbeitet.",
+        "Als Ingenieurin habe ich drei Jahre gearbeitet.",
+        "Als Ingenieur habe ich drei Jahre gearbeitet."
+      ]
+    },
+    {
+      "id": "de-a2-u11-l4-ex08",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'Do you have any more questions? (formal)'?",
+      "options": [
+        { "id": "a", "text": "Haben Sie noch Fragen?" },
+        { "id": "b", "text": "Haben Sie noch Frage?" },
+        { "id": "c", "text": "Hast Sie noch Fragen?" },
+        { "id": "d", "text": "Sind Sie noch Fragen?" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "de-a2-u11-l4-ex09",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I believe that I can work on Saturday.",
+      "tiles": [
+        "ich",
+        "glaube",
+        "dass",
+        "ich",
+        "am",
+        "Samstag",
+        "arbeiten",
+        "kann",
+        "kannst",
+        "arbeitest",
+        "Sonntag"
+      ],
+      "answers": [
+        "Ich glaube, dass ich am Samstag arbeiten kann.",
+        "Ich glaube, ich kann am Samstag arbeiten.",
+        "Ich glaube, am Samstag kann ich arbeiten.",
+        "Ich kann am Samstag arbeiten, glaube ich.",
+        "Am Samstag kann ich arbeiten, glaube ich."
+      ]
+    },
+    {
+      "id": "de-a2-u11-l4-ex10",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a2/u11/de-a2-u11-l4-ex10.mp3" },
+      "tiles": [
+        "ich",
+        "spreche",
+        "Arabisch",
+        "Englisch",
+        "und",
+        "ein",
+        "bisschen",
+        "Deutsch",
+        "sprichst",
+        "Türkisch",
+        "eine"
+      ],
+      "answers": ["Ich spreche Arabisch, Englisch und ein bisschen Deutsch."]
+    },
+    {
+      "id": "de-a2-u11-l4-ex11",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Morgen habe ich ein Vorstellungsgespräch.",
+      "tiles": ["I", "have", "a", "job", "interview", "tomorrow", "today", "had", "has"],
+      "answers": ["I have a job interview tomorrow.", "Tomorrow I have a job interview."]
+    },
+    {
+      "id": "de-a2-u11-l4-ex12",
+      "type": "multiple_choice",
+      "prompt": "Which one means 'the strength'?",
+      "options": [
+        { "id": "a", "text": "die Stärke" },
+        { "id": "b", "text": "der Stärke" },
+        { "id": "c", "text": "die Sprache" },
+        { "id": "d", "text": "die Frage" }
+      ],
+      "correctOptionId": "a"
+    }
+  ]
+}

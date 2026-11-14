@@ -1,0 +1,206 @@
+{
+  "id": "de-a2-u11-l3-i-think-that",
+  "courseId": "en-de",
+  "unitId": "de-a2-u11",
+  "title": "I Think That…",
+  "tip": "After dass the verb goes to the end: „Ich glaube, dass die Stelle interessant ist.“ With a modal, the modal is last: „…, dass ich gut Deutsch sprechen kann.“",
+  "exercises": [
+    {
+      "id": "de-a2-u11-l3-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        { "id": "p1", "learning": "dass", "known": "that (verb at the end)" },
+        { "id": "p2", "learning": "glauben", "known": "to believe" },
+        { "id": "p3", "learning": "hoffen", "known": "to hope" },
+        { "id": "p4", "learning": "wichtig", "known": "important" },
+        { "id": "p5", "learning": "richtig", "known": "right / correct" }
+      ]
+    },
+    {
+      "id": "de-a2-u11-l3-ex02",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a2/u11/de-a2-u11-l3-ex02.mp3" },
+      "tiles": [
+        "ich",
+        "glaube",
+        "dass",
+        "die",
+        "Stelle",
+        "interessant",
+        "ist",
+        "glaubst",
+        "sind",
+        "das"
+      ],
+      "answers": ["Ich glaube, dass die Stelle interessant ist."]
+    },
+    {
+      "id": "de-a2-u11-l3-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'I think that experience is important.'?",
+      "options": [
+        { "id": "a", "text": "Ich finde, dass Erfahrung ist wichtig." },
+        { "id": "b", "text": "Ich finde, dass Erfahrung wichtig ist." },
+        { "id": "c", "text": "Ich finde, dass ist Erfahrung wichtig." },
+        { "id": "d", "text": "Ich finde, Erfahrung dass wichtig ist." }
+      ],
+      "correctOptionId": "b"
+    },
+    {
+      "id": "de-a2-u11-l3-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I hope that the company invites me.",
+      "tiles": [
+        "ich",
+        "hoffe",
+        "dass",
+        "die",
+        "Firma",
+        "mich",
+        "einlädt",
+        "einladen",
+        "mir",
+        "hoffst"
+      ],
+      "answers": [
+        "Ich hoffe, dass die Firma mich einlädt.",
+        "Ich hoffe, dass mich die Firma einlädt."
+      ]
+    },
+    {
+      "id": "de-a2-u11-l3-ex05",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I think that's right.",
+      "tiles": ["ich", "denke", "dass", "das", "richtig", "ist", "denkst", "wichtig", "sind"],
+      "answers": [
+        "Ich denke, dass das richtig ist.",
+        "Ich denke, das ist richtig.",
+        "Das ist richtig, denke ich."
+      ]
+    },
+    {
+      "id": "de-a2-u11-l3-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I think that I can speak German well.",
+      "tiles": [
+        "ich",
+        "glaube",
+        "dass",
+        "ich",
+        "gut",
+        "Deutsch",
+        "sprechen",
+        "kann",
+        "kannst",
+        "sprichst",
+        "glaubst"
+      ],
+      "answers": [
+        "Ich glaube, dass ich gut Deutsch sprechen kann.",
+        "Ich glaube, dass ich Deutsch gut sprechen kann.",
+        "Ich glaube, ich kann gut Deutsch sprechen.",
+        "Ich glaube, ich kann Deutsch gut sprechen.",
+        "Ich glaube, Deutsch kann ich gut sprechen.",
+        "Ich kann gut Deutsch sprechen, glaube ich.",
+        "Ich kann Deutsch gut sprechen, glaube ich.",
+        "Deutsch kann ich gut sprechen, glaube ich."
+      ]
+    },
+    {
+      "id": "de-a2-u11-l3-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'I think that I can work part-time.'?",
+      "options": [
+        { "id": "a", "text": "Ich denke, dass ich in Teilzeit arbeiten kann." },
+        { "id": "b", "text": "Ich denke, dass ich kann in Teilzeit arbeiten." },
+        { "id": "c", "text": "Ich denke, dass ich in Teilzeit kann arbeiten." },
+        { "id": "d", "text": "Ich denke, dass kann ich in Teilzeit arbeiten." }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "de-a2-u11-l3-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Ich finde, dass das Gehalt gut ist.",
+      "tiles": ["I", "think", "that", "the", "salary", "is", "good", "are", "job", "hope"],
+      "answers": [
+        "I think that the salary is good.",
+        "I think the salary is good.",
+        "The salary is good, I think."
+      ]
+    },
+    {
+      "id": "de-a2-u11-l3-ex09",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a2/u11/de-a2-u11-l3-ex09.mp3" },
+      "tiles": [
+        "ich",
+        "hoffe",
+        "dass",
+        "ich",
+        "das",
+        "richtig",
+        "gemacht",
+        "habe",
+        "bin",
+        "mache",
+        "hoffst"
+      ],
+      "answers": ["Ich hoffe, dass ich das richtig gemacht habe."]
+    },
+    {
+      "id": "de-a2-u11-l3-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I believe that Nadia sent the application.",
+      "tiles": [
+        "ich",
+        "glaube",
+        "dass",
+        "Nadia",
+        "die",
+        "Bewerbung",
+        "geschickt",
+        "hat",
+        "hast",
+        "ist",
+        "schickt"
+      ],
+      "answers": [
+        "Ich glaube, dass Nadia die Bewerbung geschickt hat.",
+        "Ich glaube, Nadia hat die Bewerbung geschickt.",
+        "Ich glaube, die Bewerbung hat Nadia geschickt.",
+        "Nadia hat die Bewerbung geschickt, glaube ich.",
+        "Die Bewerbung hat Nadia geschickt, glaube ich."
+      ]
+    },
+    {
+      "id": "de-a2-u11-l3-ex11",
+      "type": "multiple_choice",
+      "prompt": "Which one means 'important'?",
+      "options": [
+        { "id": "a", "text": "wichtig" },
+        { "id": "b", "text": "richtig" },
+        { "id": "c", "text": "interessant" },
+        { "id": "d", "text": "langweilig" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "de-a2-u11-l3-ex12",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Glaubst du, dass Erfahrung wichtig ist?",
+      "tiles": ["do", "you", "think", "that", "experience", "is", "important", "are", "right", "I"],
+      "answers": [
+        "Do you think that experience is important?",
+        "Do you think experience is important?",
+        "Is experience important, do you think?"
+      ]
+    }
+  ]
+}

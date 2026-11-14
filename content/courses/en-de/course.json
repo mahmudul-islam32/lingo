@@ -3,7 +3,7 @@
   "title": "German",
   "learningLanguage": "de",
   "knownLanguage": "en",
-  "version": 11,
+  "version": 12,
   "levels": [
     {
       "level": "A1",
@@ -640,6 +640,34 @@
         {
           "id": "de-a2-u10-l5-missed-connection",
           "title": "Scenario: Missed Connection"
+        }
+      ]
+    },
+    {
+      "id": "de-a2-u11",
+      "level": "A2",
+      "title": "Work and Job Search",
+      "description": "Read job ads, talk about your experience, get through an interview and say what you think with dass.",
+      "lessons": [
+        {
+          "id": "de-a2-u11-l1-job-ads",
+          "title": "Job Ads"
+        },
+        {
+          "id": "de-a2-u11-l2-applying",
+          "title": "Applying"
+        },
+        {
+          "id": "de-a2-u11-l3-i-think-that",
+          "title": "I Think That…"
+        },
+        {
+          "id": "de-a2-u11-l4-interview",
+          "title": "The Interview"
+        },
+        {
+          "id": "de-a2-u11-l5-job-offer",
+          "title": "Scenario: The Job Offer"
         }
       ]
     }
