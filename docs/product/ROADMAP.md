@@ -1,7 +1,7 @@
 # Polyglow Roadmap
 
-**Owner:** pm · **Last updated:** 2026-11-12 (German pivot: German track inserted after
-v0.3.0, v0.4.0 paused; PD-030, PD-036) ·
+**Owner:** pm · **Last updated:** 2026-11-13 (v0.5.0 German A2 planned in full: 14 unit
+tickets, QA, LES-013 moved in, cloze proposal; PD-045 … PD-052) ·
 **Source:** `PRD.md`, `user-stories.md`, decisions in `decisions.md` (PD-004 onward cover
 this roadmap)
 
@@ -232,13 +232,62 @@ only if it doesn't touch accounts.
 | CON-DE-A1-QA | A1 content QA pass over all 60 lessons | pm | P0 | CON-DE-A1-01…12, LES-014, GAM-010, PLT-024 |
 
 When v0.3.3 is released, **v0.4.0 resumes** and **v0.5.0 German A2** starts in parallel
-(content is pm work, accounts are dev-platform work).
+(content is pm work, accounts are dev-platform work). A2 **writing** can start now from the
+ticket appendices (PD-052); merging into `main` follows the v0.3.3 release.
+
+### v0.5.0 — German A2 ("German A2 complete")
+
+**Goal:** a learner who finished A1 can play all of A2 (14 units, 70 lessons, ~460 new items,
+PD-045, PD-046) on the path under "A2 · Elementary", with a grammar tip before each lesson,
+and finish with the A2 checkpoint. Plan: `curriculum-german.md` §4b; content standard
+CDS-1 … CDS-19 (§7).
+
+| ID | Title | Owner | Priority | Depends on | Wave |
+|---|---|---|---|---|---|
+| CON-DE-A2-01 | A2 Unit 1 "Weather and Seasons" (`im` + month, `aber / oder / denn`) | pm (writer 1) | P0 | CON-DE-A1-QA | 1 |
+| CON-DE-A2-02 | A2 Unit 2 "How Was Your Weekend?" (`war / hatte`, Perfekt with `haben`) | pm (writer 2) | P0 | appendix of 01 | 1 |
+| CON-DE-A2-03 | A2 Unit 3 "Holiday Stories" (Perfekt with `sein`, accusative pronouns / prepositions) | pm (writer 3) | P0 | appendices of 01–02 | 1 |
+| CON-DE-A2-04 | A2 Unit 4 "Gifts and Celebrations" (dative: articles, pronouns, verbs) | pm (writer 4) | P0 | appendices of 01–03 | 1 |
+| CON-DE-A2-05 | A2 Unit 5 "Errands in Town" (dative prepositions, hundreds, years) | pm (writer 1) | P0 | appendices of 01–04 | 2 |
+| CON-DE-A2-06 | A2 Unit 6 "Clothes and Shopping" (basic adjective endings) | pm (writer 2) | P0 | appendices of 01–05 | 2 |
+| CON-DE-A2-07 | A2 Unit 7 "Health and Sport" (reflexive verbs, `du / ihr` imperative, `sollen`) | pm (writer 3) | P0 | appendices of 01–06 | 2 |
+| CON-DE-A2-08 | A2 Unit 8 "Appointments and Phone Calls" (past modals, `weil`, minutes) | pm (writer 4) | P0 | appendices of 01–07 | 2 |
+| CON-DE-A2-09 | A2 Unit 9 "At Home and the Neighbours" (two-way prepositions) | pm (writer 1) | P0 | appendices of 01–08 | 3 |
+| CON-DE-A2-10 | A2 Unit 10 "Train and Hotel" (`auf / von Gleis`, `Bahnsteig`, delay minutes) | pm (writer 2) | P0 | appendices of 01–09 | 3 |
+| CON-DE-A2-11 | A2 Unit 11 "Work and Job Search" (`dass`) | pm (writer 3) | P0 | appendices of 01–10 | 3 |
+| CON-DE-A2-12 | A2 Unit 12 "Offices and Letters" (`wenn`, `deshalb / trotzdem`, `ob`) | pm (writer 4) | P0 | appendices of 01–11 | 3 |
+| CON-DE-A2-13 | A2 Unit 13 "Media and Comparisons" (comparative, superlative) | pm (writer 1) | P0 | appendices of 01–12 | 4 |
+| CON-DE-A2-14 | A2 Unit 14 "Plans and the Future" (`werden`) + A2 checkpoint | pm (writer 2) | P0 | appendices of 01–13 | 4 |
+| CON-DE-A2-QA | A2 content QA pass over all 70 lessons | pm | P0 | CON-DE-A2-01…14 | 5 |
+| LES-013 | Lesson tip card (moved from v1.0.0, PD-050) | dev-lessons | P1 | LES-002, LES-014 | any |
+| CTO-009 | Contract for a `cloze` exercise type (non-blocking, PD-049) | cto | P1 | CTO-008 | any |
+| LES-015 | Cloze exercise component (non-blocking, PD-049) | dev-lessons | P1 | CTO-009, LES-002, LES-003, LES-014 | after CTO-009 |
+
+**Parallel build plan (4 writers per wave, PD-052)**
+- **Wave 1:** CON-DE-A2-01, 02, 03, 04 in parallel. Each writer uses only A1 and the
+  appendices of earlier units (all appendices are fixed in the tickets), never the other
+  writers' lesson files.
+- **Wave 2:** CON-DE-A2-05, 06, 07, 08. Starts when wave 1's self-reviews are in, so any
+  vocabulary requests from wave 1 are settled first (the pm amends the appendices if needed).
+- **Wave 3:** CON-DE-A2-09, 10, 11, 12.
+- **Wave 4:** CON-DE-A2-13 and 14 (writers 1–2). Writers 3–4 start the cross-unit
+  consistency pass for CON-DE-A2-QA criterion 1 on waves 1–3 (vocabulary additions list,
+  coverage-map counts), which the QA ticket then completes.
+- **Wave 5:** CON-DE-A2-QA (pm), including the playthrough on the preview with LES-013.
+- Units are merged into `course.json` in unit order by the orchestrator; a partially
+  merged A2 is playable because the path shows the merged A2 units under the A2 header.
+- **Dev work** runs alongside v0.4.0: **LES-013** first (P1, A2 depends on tips being
+  visible; must be merged before the A2 QA playthrough), then **CTO-009 → LES-015** if
+  capacity allows. Neither cloze ticket blocks the v0.5.0 release; if they slip, they move
+  to the next milestone and the cloze content follow-up waits with them.
+- **Ready for release** when CON-DE-A2-01…14, CON-DE-A2-QA and LES-013 are accepted.
 
 ### Later German levels (planned)
 
 | Milestone | Content | Content tickets (planned) | Tech needed (planned, curriculum §6) |
 |---|---|---|---|
-| **v0.5.0 — German A2** | 14 units, ~70 lessons, ~600 new items | CON-DE-A2-01 … CON-DE-A2-14, CON-DE-A2-QA | Gender-choice exercise (LES, contract), reverse multiple choice (`direction`, PD-019), grammar note card (contract) |
+| **v0.5.0 — German A2** | See the section above | CON-DE-A2-01 … 14, CON-DE-A2-QA | LES-013 (tip card), CTO-009 + LES-015 (cloze, non-blocking, PD-049). Gender choice = one-gap cloze; reverse MC and grammar note card not needed for A2 |
+| **v0.5.x — A2 cloze follow-up** (planned) | 1–2 cloze exercises in A2 lessons drilling endings and prepositions (U4, U6, U9, U10), new ids only | CON-DE-A2-CLZ (planned) | Needs LES-015 in a release |
 | **v1.1.0 — German B1** | 16 units, ~80 lessons, ~1,000 items | CON-DE-B1-01 … 16, CON-DE-B1-QA | Cloze exercise, typed answers with `ss` / umlaut leniency (PD-033), reading passage |
 | **v1.2.0 — German B2** | 18 units, ~90 lessons, ~1,500 items | CON-DE-B2-01 … 18, CON-DE-B2-QA | Longer listening comprehension, guided writing (TBD), healthcare elective path |
 | **v1.3.0 — German C1** | 18 units, ~90 lessons, ~1,500 items | CON-DE-C1-01 … 18, CON-DE-C1-QA | Academic reading and register exercises, academic elective path |
@@ -280,7 +329,7 @@ also covers caching the German A1 lessons (60 lesson files plus audio), not only
 |---|---|---|
 | LES-011 | Speak exercise (optional, skippable, never costs a heart; P2) | dev-lessons |
 | LES-012 | Sound effects (correct, incorrect, lesson complete; respects setting) | dev-lessons |
-| LES-013 | Lesson tip card (P2) | dev-lessons |
+| ~~LES-013~~ | Lesson tip card: **moved to v0.5.0 as P1** (PD-050) | dev-lessons |
 | PLT-019 | Analytics events for the PRD success metrics | dev-platform |
 | PLT-020 | Draft terms and privacy pages, 13+ notice | dev-platform |
 | PLT-021 | Accessibility audit (findings become `fix/` tickets per owner). Inputs from the v0.2.0 review: is "Exercise 1 of N" announced on the first exercise (LES-002 AC13 note)? The storage notice uses non-token colours and a text "Dismiss" button (PLT-003 note) | dev-platform |
