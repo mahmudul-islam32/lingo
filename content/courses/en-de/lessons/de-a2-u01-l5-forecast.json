@@ -1,0 +1,217 @@
+{
+  "id": "de-a2-u01-l5-forecast",
+  "courseId": "en-de",
+  "unitId": "de-a2-u01",
+  "title": "Scenario: The Weekend Forecast",
+  "tip": "Forecasts and plans use the present tense with a time word or vielleicht: Am Sonntag scheint die Sonne. Vielleicht regnet es.",
+  "exercises": [
+    {
+      "id": "de-a2-u01-l5-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        { "id": "p1", "learning": "der Wetterbericht", "known": "the weather forecast" },
+        { "id": "p2", "learning": "das Gewitter", "known": "the thunderstorm" },
+        { "id": "p3", "learning": "heute Abend", "known": "this evening" },
+        { "id": "p4", "learning": "draußen", "known": "outside" },
+        { "id": "p5", "learning": "drinnen", "known": "inside" }
+      ]
+    },
+    {
+      "id": "de-a2-u01-l5-ex02",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a2/u01/de-a2-u01-l5-ex02.mp3" },
+      "tiles": [
+        "heute",
+        "Abend",
+        "gibt",
+        "es",
+        "vielleicht",
+        "ein",
+        "Gewitter",
+        "eine",
+        "ist",
+        "morgen"
+      ],
+      "answers": ["Heute Abend gibt es vielleicht ein Gewitter."]
+    },
+    {
+      "id": "de-a2-u01-l5-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'Maybe it will rain on Sunday'?",
+      "options": [
+        { "id": "a", "text": "Am Sonntag es regnet vielleicht." },
+        { "id": "b", "text": "Am Sonntag regnet vielleicht." },
+        { "id": "c", "text": "Am Sonntag regnet es vielleicht." },
+        { "id": "d", "text": "Vielleicht am Sonntag es regnet." }
+      ],
+      "correctOptionId": "c"
+    },
+    {
+      "id": "de-a2-u01-l5-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Tarek, can we hike on Sunday?",
+      "tiles": ["Tarek", "können", "wir", "am", "Sonntag", "wandern", "kann", "um", "Samstag"],
+      "answers": ["Tarek, können wir am Sonntag wandern?"]
+    },
+    {
+      "id": "de-a2-u01-l5-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'I'm reading the weather forecast'?",
+      "options": [
+        { "id": "a", "text": "Ich lese der Wetterbericht." },
+        { "id": "b", "text": "Ich lese den Wetterbericht." },
+        { "id": "c", "text": "Ich lese das Wetterbericht." },
+        { "id": "d", "text": "Ich liest den Wetterbericht." }
+      ],
+      "correctOptionId": "b"
+    },
+    {
+      "id": "de-a2-u01-l5-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Vielleicht gibt es heute Abend ein Gewitter.",
+      "tiles": [
+        "maybe",
+        "there",
+        "will",
+        "be",
+        "a",
+        "thunderstorm",
+        "tonight",
+        "this",
+        "evening",
+        "the",
+        "rain",
+        "morning"
+      ],
+      "answers": [
+        "Maybe there will be a thunderstorm tonight.",
+        "Maybe there will be a thunderstorm this evening.",
+        "Maybe tonight there will be a thunderstorm.",
+        "Maybe this evening there will be a thunderstorm.",
+        "Tonight maybe there will be a thunderstorm.",
+        "This evening maybe there will be a thunderstorm."
+      ]
+    },
+    {
+      "id": "de-a2-u01-l5-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'It's cold outside'?",
+      "options": [
+        { "id": "a", "text": "Draußen es ist kalt." },
+        { "id": "b", "text": "Drinnen ist es kalt." },
+        { "id": "c", "text": "Draußen ist es kalt." },
+        { "id": "d", "text": "Draußen ist kalt." }
+      ],
+      "correctOptionId": "c"
+    },
+    {
+      "id": "de-a2-u01-l5-ex08",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a2/u01/de-a2-u01-l5-ex08.mp3" },
+      "tiles": [
+        "am",
+        "Sonntag",
+        "scheint",
+        "die",
+        "Sonne",
+        "es",
+        "sind",
+        "zweiundzwanzig",
+        "Grad",
+        "ist",
+        "Samstag",
+        "zwanzig"
+      ],
+      "answers": ["Am Sonntag scheint die Sonne. Es sind zweiundzwanzig Grad."]
+    },
+    {
+      "id": "de-a2-u01-l5-ex09",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "It's raining today, but on Sunday it's sunny.",
+      "tiles": [
+        "heute",
+        "regnet",
+        "es",
+        "aber",
+        "am",
+        "Sonntag",
+        "ist",
+        "es",
+        "sonnig",
+        "denn",
+        "oder",
+        "sind"
+      ],
+      "answers": [
+        "Heute regnet es, aber am Sonntag ist es sonnig.",
+        "Es regnet heute, aber am Sonntag ist es sonnig.",
+        "Heute regnet es, aber es ist am Sonntag sonnig.",
+        "Es regnet heute, aber es ist am Sonntag sonnig.",
+        "Heute regnet es, aber es ist sonnig am Sonntag.",
+        "Es regnet heute, aber es ist sonnig am Sonntag."
+      ]
+    },
+    {
+      "id": "de-a2-u01-l5-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Vielleicht wandern wir am Sonntag.",
+      "tiles": ["maybe", "we'll", "hike", "on", "Sunday", "Saturday", "never", "swim"],
+      "answers": [
+        "Maybe we'll hike on Sunday.",
+        "We'll maybe hike on Sunday.",
+        "On Sunday maybe we'll hike."
+      ]
+    },
+    {
+      "id": "de-a2-u01-l5-ex11",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a2/u01/de-a2-u01-l5-ex11.mp3" },
+      "tiles": [
+        "am",
+        "Samstag",
+        "ist",
+        "es",
+        "bewölkt",
+        "und",
+        "windig",
+        "aber",
+        "es",
+        "regnet",
+        "nicht",
+        "Sonntag",
+        "denn",
+        "sonnig"
+      ],
+      "answers": ["Am Samstag ist es bewölkt und windig, aber es regnet nicht."]
+    },
+    {
+      "id": "de-a2-u01-l5-ex12",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "We're cooking inside tonight because it's raining.",
+      "tiles": [
+        "wir",
+        "kochen",
+        "heute",
+        "Abend",
+        "drinnen",
+        "denn",
+        "es",
+        "regnet",
+        "draußen",
+        "aber",
+        "kocht"
+      ],
+      "answers": [
+        "Wir kochen heute Abend drinnen, denn es regnet.",
+        "Heute Abend kochen wir drinnen, denn es regnet.",
+        "Drinnen kochen wir heute Abend, denn es regnet.",
+        "Wir kochen drinnen heute Abend, denn es regnet."
+      ]
+    }
+  ]
+}

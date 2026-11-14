@@ -1,0 +1,122 @@
+{
+  "id": "de-a2-u01-l1-weather",
+  "courseId": "en-de",
+  "unitId": "de-a2-u01",
+  "title": "What's the Weather Like?",
+  "tip": "Weather uses es as the subject: Es regnet. Es ist warm. After a time word, es comes after the verb: Heute regnet es.",
+  "exercises": [
+    {
+      "id": "de-a2-u01-l1-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        { "id": "p1", "learning": "das Wetter", "known": "the weather" },
+        { "id": "p2", "learning": "die Sonne", "known": "the sun" },
+        { "id": "p3", "learning": "der Regen", "known": "the rain" },
+        { "id": "p4", "learning": "windig", "known": "windy" },
+        { "id": "p5", "learning": "es regnet", "known": "it's raining" }
+      ]
+    },
+    {
+      "id": "de-a2-u01-l1-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'It's raining today'?",
+      "options": [
+        { "id": "a", "text": "Heute regnet." },
+        { "id": "b", "text": "Heute regnet es." },
+        { "id": "c", "text": "Heute es regnet." },
+        { "id": "d", "text": "Es heute regnet." }
+      ],
+      "correctOptionId": "b"
+    },
+    {
+      "id": "de-a2-u01-l1-ex03",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "What's the weather like in Hamburg?",
+      "tiles": ["wie", "ist", "das", "Wetter", "in", "Hamburg", "was", "der", "sind"],
+      "answers": ["Wie ist das Wetter in Hamburg?", "Wie ist in Hamburg das Wetter?"]
+    },
+    {
+      "id": "de-a2-u01-l1-ex04",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a2/u01/de-a2-u01-l1-ex04.mp3" },
+      "tiles": ["ich", "mag", "den", "Regen", "nicht", "der", "magst", "regnet"],
+      "answers": ["Ich mag den Regen nicht."]
+    },
+    {
+      "id": "de-a2-u01-l1-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'It's windy'?",
+      "options": [
+        { "id": "a", "text": "Es windig." },
+        { "id": "b", "text": "Ist windig." },
+        { "id": "c", "text": "Es ist windig." },
+        { "id": "d", "text": "Es windig ist." }
+      ],
+      "correctOptionId": "c"
+    },
+    {
+      "id": "de-a2-u01-l1-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Die Sonne scheint.",
+      "tiles": ["the", "sun", "is", "shining", "shines", "rain", "it", "raining"],
+      "answers": ["The sun is shining.", "The sun shines."]
+    },
+    {
+      "id": "de-a2-u01-l1-ex07",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a2/u01/de-a2-u01-l1-ex07.mp3" },
+      "tiles": ["wie", "ist", "das", "Wetter", "heute", "was", "gestern", "der"],
+      "answers": ["Wie ist das Wetter heute?"]
+    },
+    {
+      "id": "de-a2-u01-l1-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "It's warm today.",
+      "tiles": ["es", "ist", "heute", "warm", "kalt", "regnet", "sind"],
+      "answers": [
+        "Heute ist es warm.",
+        "Es ist heute warm.",
+        "Es ist warm heute.",
+        "Warm ist es heute."
+      ]
+    },
+    {
+      "id": "de-a2-u01-l1-ex09",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Es regnet seit gestern.",
+      "tiles": ["it", "has", "been", "raining", "since", "yesterday", "is", "today", "rain"],
+      "answers": ["It has been raining since yesterday.", "Since yesterday it has been raining."]
+    },
+    {
+      "id": "de-a2-u01-l1-ex10",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'The sun is shining in Munich'?",
+      "options": [
+        { "id": "a", "text": "In München die Sonne scheint." },
+        { "id": "b", "text": "In München scheint die Sonne." },
+        { "id": "c", "text": "In München scheinen die Sonne." },
+        { "id": "d", "text": "In München scheint der Sonne." }
+      ],
+      "correctOptionId": "b"
+    },
+    {
+      "id": "de-a2-u01-l1-ex11",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a2/u01/de-a2-u01-l1-ex11.mp3" },
+      "tiles": ["es", "ist", "kalt", "und", "windig", "warm", "sind", "Wetter"],
+      "answers": ["Es ist kalt und windig."]
+    },
+    {
+      "id": "de-a2-u01-l1-ex12",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "It's raining in Hamburg.",
+      "tiles": ["in", "Hamburg", "regnet", "es", "ist", "scheint", "Berlin"],
+      "answers": ["In Hamburg regnet es.", "Es regnet in Hamburg."]
+    }
+  ]
+}

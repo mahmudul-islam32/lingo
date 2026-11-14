@@ -55,6 +55,8 @@ describe("app shell", () => {
     const nodes = [
       ...screen.queryAllByRole("link", { name: /^Unit \d+, Lesson \d+: / }),
       ...screen.queryAllByRole("button", { name: /^Unit \d+, Lesson \d+: / }),
+      // Collapsed later levels with content (A2 since CON-DE-A2-01) follow the last node.
+      ...screen.queryAllByRole("button", { name: /^[ABC][12] · / }),
     ];
     const lastLesson = nodes
       .sort((a, b) => (a.compareDocumentPosition(b) & Node.DOCUMENT_POSITION_FOLLOWING ? -1 : 1))

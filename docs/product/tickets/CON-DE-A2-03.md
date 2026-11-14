@@ -86,3 +86,77 @@ _(cto)_
 
 ## Review
 _(pm self-review of CDS-1…19 and criteria 3–8)_
+
+## PM self-review
+_2026-11-13 · pm (writer) · Written against A1 appendices + CON-DE-A1-QA extras and the
+CON-DE-A2-01 / -02 appendices only (PD-052). No other writer's lesson files were read. The
+schema test (`npm run test`) is run by the orchestrator; every answer below was hand-checked
+as buildable from its tiles, with no answer needing the same tile twice._
+
+### Files
+- `content/courses/en-de/lessons/de-a2-u03-l1-on-holiday.json`
+- `content/courses/en-de/lessons/de-a2-u03-l2-we-travelled.json`
+- `content/courses/en-de/lessons/de-a2-u03-l3-how-long.json`
+- `content/courses/en-de/lessons/de-a2-u03-l4-for-you.json`
+- `content/courses/en-de/lessons/de-a2-u03-l5-postcard.json`
+- Unit fragment for `course.json` handed to the orchestrator (not edited by the pm).
+
+### Mix per lesson (CDS-2)
+| Lesson | Total | MC | Word bank (to_learning / to_known) | Match | Listen |
+|---|---|---|---|---|---|
+| L1 | 12 | 4 | 5 (3 / 2) | 1 | 2 |
+| L2 | 12 | 4 | 4 (3 / 1) | 1 | 3 |
+| L3 | 12 | 3 | 5 (3 / 2) | 1 | 3 |
+| L4 | 12 | 3 | 5 (4 / 1) | 1 | 3 |
+| L5 | 12 | 3 | 5 (4 / 1) | 1 | 3 |
+
+New items per lesson: 7 / 7 / 8 / 8 / 6 = 36, exactly the appendix (CDS-3 ranges met).
+
+### CDS results
+| Rule | Result | Note |
+|---|---|---|
+| CDS-1 | PASS (fragment) | Ids and titles as criterion 1; `course.json` and `version` left to the orchestrator |
+| CDS-2 | PASS | Table above; match pairs have exactly 5 pairs |
+| CDS-3 | PASS | Only A1, A2-U1/U2 and own-unit items. Allowed extras used: `gefrühstückt` (L3 ex10, regular participle, CDS-16), `trefft`, `bleibst`, `schickt` (taught patterns). No new word added |
+| CDS-4 | PASS | V2 fronting and object-first orders listed (PD-043); swapped `oder` alternatives in L1 ex12; vocative-first in L5 ex12 |
+| CDS-5 | PASS | 2–4 distractors in every tile set; meaning-changing combinations (`um` vs `durch`, other city, present tense) are wrong answers, not unlisted valid ones |
+| CDS-6 | PASS | Umlauts / `ß` correct, no `ẞ`, nouns capitalised, articles on all match nouns, tiles in authored case (`liebe`, `lieber`, `viele` lower case); no `sie`+`Sie`, `ihr`+`Ihr` |
+| CDS-7 | PASS | All MC prompts English, options German, PD-044 punctuation |
+| CDS-8 | PASS | Original sentences; real DACH cities only; no brands |
+| CDS-9 | PASS | All 14 listens use `/audio/de/a2/u03/<exercise-id>.mp3` |
+| CDS-11 | PASS | Holiday topics only |
+| CDS-12 | PASS (test pending) | Ids `de-a2-u03-lN-exNN`, ex01–ex12 per lesson |
+| CDS-13 | PASS | Longest prompt 66 characters (L4 ex05); longest tile `gefrühstückt` (12) |
+| CDS-14 | PASS | L2 (pattern lesson): 9 exercises need the `sein` Perfekt; ex02 and ex07 have wrong-auxiliary, participle-position and wrong-participle distractors |
+| CDS-15 | PASS | Tips 106–137 characters, each with a rule and a German example |
+| CDS-16 | PASS | Only appendix `sein` participles; no `abgefahren`, `umgestiegen`, `geschwommen` |
+| CDS-17 | PASS | No `ihnen`/`Ihnen` or `ihr`/`Ihr` in any set |
+| CDS-18 | PASS | Numbers as words (`acht`, `sechs`, `zwei`) |
+| CDS-19 | PASS | Perfekt for past events, `war` for `sein`; `to_known` English natural ("We went hiking on Sunday"); "Have you come by plane?" accepted only where there is no time word; no `in/an/auf` + article except `am Meer` and `im Sommer` (`ins Kino`, `zum` from A1 chunks) |
+
+### Unit criteria
+| # | Result | Evidence |
+|---|---|---|
+| 3 | PASS | `sein` Perfekt in 11 word banks across L2–L5 (to_learning: L2 ex03, ex08, ex10; L3 ex03, ex10; L4 ex06; L5 ex04, ex06; to_known: L2 ex06, L3 ex08, ex12) plus 5 listens (L2 ex05, ex12; L3 ex04, ex07, ex11). Every appendix participle used: gefahren, geflogen (L2 ex01, ex07), gegangen, gekommen, angekommen, geblieben, aufgestanden, gewandert, gelaufen, passiert |
+| 4 | PASS | 7 MCs with a `haben`/`sein` choice (L2 ex02 `Ich habe mit dem Zug nach Wien gefahren.`, ex07, ex11; L3 ex05, ex09; L4 ex07; L5 ex09). `habe` + `bin` tiles together: L2 ex03, L3 ex10 |
+| 5 | PASS | mich L4 ex05, ex10; dich L4 ex02, ex03, ex09, L5 ex12; ihn L4 ex04; uns L4 ex11; euch L4 ex08. `für` + pronoun: L4 ex02, ex08, ex11, L5 ex12. `ohne`: L4 ex05, ex09. `durch die Stadt` L4 ex06; `um den See` L4 ex07, ex12, L5 ex06 |
+| 6 | PASS | `um` (around) only with `den See`; no sentence mixes it with a time; L4 tip names both meanings |
+| 7 | PASS | `Liebe Oma` L5 ex03; `Lieber Opa` L5 ex02; `Viele Grüße` L5 ex01, ex05, ex11 |
+| 8 | PASS | Wien, Graz, Hamburg, Innsbruck, Salzburg, Österreich only |
+
+### Decisions and uncertainties (needs native review)
+1. Marked but grammatical orders accepted because the tiles can't prevent them (PD-043):
+   L1 ex04 `Urlaub machen wir in Österreich.`, L3 ex06 `Ein Zimmer brauche ich für zwei
+   Nächte.`, L4 ex03 `Dich besuche ich morgen.`, L5 ex04 `Wir sind in Innsbruck am Montag
+   angekommen.` (place before time).
+2. L1 ex04 prompt "We're on holiday in Austria." for `Wir machen Urlaub in Österreich.`
+   (English has no exact equivalent of `Urlaub machen`).
+3. L1 ex02 avoids `die See` as a distractor (it is a real word, "the sea"); `das See` and
+   `das Meer` are used instead.
+4. `zum Flughafen` (L2 ex09) reuses the A1 chunk `Wie komme ich zum …?`; no free `zum` +
+   noun elsewhere.
+5. `für zwei Nächte` is used with `brauchen` (a booking need), not with `geblieben`, because
+   `Ich bin für zwei Nächte geblieben` is less idiomatic than `zwei Nächte geblieben`.
+6. Not used, to stay inside the appendices: `in den Bergen`, `am See`, `nach Hause`, `die
+   Alpen`, `die Stunde`, `lang`. The L5 title mentions the Alps; the content says `die
+   Berge` and Innsbruck. No vocabulary request is raised.

@@ -94,3 +94,102 @@ unit.
 
 ## Review
 _(pm self-review of CDS-1…19 and criteria 3–8)_
+
+## PM self-review
+_2026-11-13, pm. Self-review only. Native-speaker review is pending (PD-038), and the schema
+test is run by the orchestrator. Written against A1 appendices and CON-DE-A1-QA extras only
+(PD-052); no other A2 lesson files were read._
+
+**Files:** `content/courses/en-de/lessons/de-a2-u01-l1-weather.json`, `…-l2-seasons.json`,
+`…-l3-birthdays.json`, `…-l4-but-or-because.json`, `…-l5-forecast.json`. The unit fragment
+(id, title, description, lessons) goes to the orchestrator, who inserts it as the first A2
+unit after `de-a1-u12` with `"level": "A2"` and bumps `version`. The pm didn't edit
+`course.json`.
+
+**Mix per lesson (CDS-2):**
+| Lesson | Ex. | MC | WB (to_learning / to_known) | Match | Listen |
+|---|---|---|---|---|---|
+| L1 Weather | 12 | 3 | 5 (3 / 2) | 1 | 3 |
+| L2 Seasons | 12 | 4 | 4 (2 / 2) | 1 | 3 |
+| L3 Birthdays | 12 | 3 | 5 (3 / 2) | 1 | 3 |
+| L4 But, Or, Because | 12 | 3 | 6 (4 / 2) | 1 | 2 |
+| L5 Forecast | 12 | 3 | 5 (3 / 2) | 1 | 3 |
+| **Unit** | **60** | **16** | **25 (15 / 10)** | **5** | **14** |
+
+**CDS checks:**
+- CDS-1: PASS for file names, lesson ids and titles. The `course.json` insert and version
+  bump are the orchestrator's step.
+- CDS-2: PASS (table above).
+- CDS-3 / CDS-16: PASS. Every appendix item is used in its lesson (L1 8, L2 8, L3 7, L4 7,
+  L5 6). Everything else is A1: `kalt`, `heute`, `gestern`, `seit gestern`, `morgen`, months,
+  `am` + day / ordinal, `es gibt`, `viel`, `oft`, `mögen`, `wandern`, `schwimmen`, `kochen`,
+  `lesen`, `können`, `ins Kino`, `Zeit`, `schön`, numbers. Allowed extras: `es` (from taught
+  phrases `es gibt`, `wie geht es`, `wie spät ist es`), `seit` (from `seit gestern`), `Abend`
+  (from `guten Abend`, then `heute Abend` in L5), regular plurals `Tage`, `Jahreszeiten`,
+  regular forms `wandere`, `wanderst`, `wandert`, `kocht`, `arbeitest`. Proper nouns:
+  Hamburg, Berlin, München, Innsbruck, Wien, Tarek. Not used, because no appendix has them:
+  `bleiben`, `zu Hause`, `Ski`, `war`, `werden`, `sagen`, `nur`, `ganz`.
+- CDS-4: PASS. Fronted time / place variants (PD-043) and subject-first variants are
+  accepted; `oder` questions accept both orders of the alternatives. Listen answers are the
+  transcript only.
+- CDS-5: PASS. 3 distractors in every word bank and listen. Each tile set was checked for
+  unlisted valid translations; duplicated words have duplicate tiles (`den` ×2 L2 ex10,
+  `es` ×2 L4 ex04 / L5 ex09 / L5 ex11, `wir` ×2 L4 ex11, `it's` ×2 L4 ex07).
+- CDS-6 / CDS-17: PASS. Umlauts and ß correct (`Frühling`, `März`, `bewölkt`, `draußen`,
+  `fünf`, `zwölf`, `München`, `schön`), no capital ẞ, nouns capitalised with articles in all
+  match pairs, tiles in authored case. No `sie` / `Sie`, `ihr` / `Ihr` or `ihnen` / `Ihnen` in
+  any tile set. No German quotation marks were needed (no quoted German inside German text).
+- CDS-7: PASS. 16 MCs, English prompts, German options, PD-044 punctuation.
+- CDS-8 / CDS-11 / PD-051: PASS. All sentences and the Tarek hike scenario are original; no
+  brands, no claims, no sensitive topics.
+- CDS-9: PASS. 14 listen exercises use `/audio/de/a2/u01/<exercise-id>.mp3`.
+- CDS-12: ids `de-a2-u01-lN-exNN`, unique. Buildability checked by hand.
+- CDS-13: PASS. Longest prompt 57 characters (L5 ex05); longest tile `zweiundzwanzig` (14).
+- CDS-14: PASS. Patterns and drills: L1 weather `es` (ex02, ex05, ex08, ex09, ex11, ex12; MC
+  ex02 with `Heute regnet.` / `Heute es regnet.`); L2 `im` + season (ex02, ex03, ex04, ex06,
+  ex07, ex08; MC ex02 with `Am Winter` / `In Winter` / no `es`); L3 `im` + month (ex02, ex03,
+  ex05, ex06, ex08, ex09; MC ex02 with `am Mai` / `in Mai` / `um Mai`); L4 `aber / oder /
+  denn` (10 exercises; MC ex02 and ex06 with verb-final and inverted distractors); L5 present
+  for the future (ex02, ex03, ex08, ex09, ex10, ex11; MC ex03 with V2 and missing-`es` errors).
+- CDS-15: PASS. Tips 102–126 characters, each with a rule and a German example.
+- CDS-18: PASS. All numbers are words; no digits anywhere in tiles, answers or prompts.
+- CDS-19: PASS. No Präteritum, no Perfekt, no `werden`; "will" in English prompts maps to
+  the present with a time word or `vielleicht` (L5 ex03, ex06). `in / an / auf` + article
+  only as `im` + month / season, `am` + day / date (A1) and `ins Kino` (A1 chunk).
+
+**Ticket criteria:**
+- 1: PASS (fragment). Ids, titles, order and description as specified.
+- 3: PASS. `im` + month / season in 12 exercises across L2–L3 (L2 ex02, ex03, ex04, ex06,
+  ex07, ex08; L3 ex02, ex03, ex05, ex06, ex08, ex09) with 9 different months and seasons.
+  L3 ex02 contrasts `im Mai` with `am Mai` and `in Mai`. The L3 tip explains `im = in dem`.
+  `im` is never used with any other noun (only as a distractor tile next to months / seasons).
+- 4: PASS. Weather `es` in 20+ exercises (L1 alone: 6); L1 ex02 has the distractor `Heute regnet.`
+- 5: PASS. Word banks: `aber` L4 ex03, ex07, L5 ex09; `oder` L4 ex05, ex11; `denn` L4 ex09,
+  ex12, L5 ex12. L4 ex02 has `…, denn es kalt ist.`
+- 6: PASS. `zwanzig Grad`, `minus fünf Grad`, `zweiundzwanzig Grad`, all in words.
+- 7: PASS. L5 has 3 forecast listens (ex02, ex08, ex11), one or two sentences each.
+- 8: PASS. No `werden`.
+
+**Deviations from the ticket seeds:**
+- `Wir bleiben heute drinnen` (L4 / L5 seed) is not used: `bleiben` is in no A1 or A2 U1
+  appendix. L5 uses `Wir kochen heute Abend drinnen, denn es regnet.` instead. Request for
+  CON-DE-A2-QA: add `bleiben` to an early A2 appendix if wanted.
+- The criterion 7 example `am Abend` is replaced by `heute Abend` (the L5 item), to keep
+  `an` + article to listed chunks (CDS-19.5).
+- `gestern` (L1 seed) appears only as `seit gestern` (`Es regnet seit gestern.`) and as a
+  distractor, because `war` is U2.
+
+**Needs native review (for CON-DE-A2-QA):**
+1. Temperatures with `es sind` (`Es sind minus fünf Grad.`, `Heute sind es zwanzig Grad`).
+   `es ist zwanzig Grad` is also common; no tile set or MC offers both, so neither is
+   marked wrong.
+2. Accepted spoken right-dislocated orders: L1 ex08 `Es ist warm heute.`, L3 ex12 `Es ist
+   immer windig hier.`, L4 ex05 `Ist es warm oder kalt in Wien?`, L5 ex09 `…, aber es ist
+   sonnig am Sonntag.`, L5 ex12 `Wir kochen drinnen heute Abend, …` (place before time).
+3. Accepted marked fronting: L1 ex08 `Warm ist es heute.`, L3 ex12 `Immer ist es hier
+   windig.` / `Windig ist es hier immer.`, L2 ex03 `Oft schwimme ich im Sommer.`
+4. Rejected: L4 ex03 `Es ist kalt, aber sonnig.` for "sunny but cold" (reversed focus);
+   L5 ex04 `Tarek, wandern wir am Sonntag?` for "can we hike" (no modal). Fair, or accept?
+5. L3 ex09 distractor `Im April ist es schön warm.` is itself good German ("nicely warm");
+   it is wrong only as a translation of "already warm". Keep as the schon / schön contrast?
+6. L1 ex06 accepts `The sun shines.` besides `The sun is shining.`

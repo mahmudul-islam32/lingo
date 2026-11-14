@@ -1,0 +1,124 @@
+{
+  "id": "de-a2-u03-l2-we-travelled",
+  "courseId": "en-de",
+  "unitId": "de-a2-u03",
+  "title": "We Went by Train",
+  "tip": "Verbs of movement use sein in the Perfekt, not haben: Ich bin nach Graz gefahren. Wir sind um acht angekommen.",
+  "exercises": [
+    {
+      "id": "de-a2-u03-l2-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        { "id": "p1", "learning": "gefahren", "known": "travelled (by train, car)" },
+        { "id": "p2", "learning": "geflogen", "known": "flown" },
+        { "id": "p3", "learning": "gegangen", "known": "gone (on foot)" },
+        { "id": "p4", "learning": "das Flugzeug", "known": "the plane" },
+        { "id": "p5", "learning": "der Flughafen", "known": "the airport" }
+      ]
+    },
+    {
+      "id": "de-a2-u03-l2-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'I went to Vienna by train'?",
+      "options": [
+        { "id": "a", "text": "Ich habe mit dem Zug nach Wien gefahren." },
+        { "id": "b", "text": "Ich bin mit dem Zug nach Wien gefahren." },
+        { "id": "c", "text": "Ich bin gefahren mit dem Zug nach Wien." },
+        { "id": "d", "text": "Ich bin mit dem Zug nach Wien fahren." }
+      ],
+      "correctOptionId": "b"
+    },
+    {
+      "id": "de-a2-u03-l2-ex03",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I went to Vienna.",
+      "tiles": ["ich", "bin", "nach", "Wien", "gefahren", "habe", "fahre", "Graz"],
+      "answers": ["Ich bin nach Wien gefahren.", "Nach Wien bin ich gefahren."]
+    },
+    {
+      "id": "de-a2-u03-l2-ex04",
+      "type": "multiple_choice",
+      "prompt": "Which one means 'the airport'?",
+      "options": [
+        { "id": "a", "text": "die Flughafen" },
+        { "id": "b", "text": "das Flughafen" },
+        { "id": "c", "text": "der Flughafen" }
+      ],
+      "correctOptionId": "c"
+    },
+    {
+      "id": "de-a2-u03-l2-ex05",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a2/u03/de-a2-u03-l2-ex05.mp3" },
+      "tiles": ["wir", "sind", "um", "acht", "angekommen", "haben", "ankommen", "sieben"],
+      "answers": ["Wir sind um acht angekommen."]
+    },
+    {
+      "id": "de-a2-u03-l2-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Bist du mit dem Flugzeug gekommen?",
+      "tiles": ["did", "you", "come", "by", "plane", "have", "are", "train", "car"],
+      "answers": ["Did you come by plane?", "Have you come by plane?"]
+    },
+    {
+      "id": "de-a2-u03-l2-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'We flew to Hamburg'?",
+      "options": [
+        { "id": "a", "text": "Wir haben nach Hamburg geflogen." },
+        { "id": "b", "text": "Wir sind nach Hamburg gefliegt." },
+        { "id": "c", "text": "Wir sind geflogen nach Hamburg." },
+        { "id": "d", "text": "Wir sind nach Hamburg geflogen." }
+      ],
+      "correctOptionId": "d"
+    },
+    {
+      "id": "de-a2-u03-l2-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "She went to the cinema yesterday.",
+      "tiles": ["sie", "ist", "gestern", "ins", "Kino", "gegangen", "hat", "geht", "morgen"],
+      "answers": [
+        "Sie ist gestern ins Kino gegangen.",
+        "Gestern ist sie ins Kino gegangen.",
+        "Ins Kino ist sie gestern gegangen."
+      ]
+    },
+    {
+      "id": "de-a2-u03-l2-ex09",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a2/u03/de-a2-u03-l2-ex09.mp3" },
+      "tiles": ["wie", "komme", "ich", "zum", "Flughafen", "zur", "kommst", "wo"],
+      "answers": ["Wie komme ich zum Flughafen?"]
+    },
+    {
+      "id": "de-a2-u03-l2-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Did you come on foot? (to a friend)",
+      "tiles": ["bist", "du", "zu", "Fuß", "gekommen", "hast", "kommst", "Auto"],
+      "answers": ["Bist du zu Fuß gekommen?"]
+    },
+    {
+      "id": "de-a2-u03-l2-ex11",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'I saw the plane'?",
+      "options": [
+        { "id": "a", "text": "Ich habe das Flugzeug gesehen." },
+        { "id": "b", "text": "Ich bin das Flugzeug gesehen." },
+        { "id": "c", "text": "Ich habe das Flugzeug gesieht." },
+        { "id": "d", "text": "Ich habe gesehen das Flugzeug." }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "de-a2-u03-l2-ex12",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a2/u03/de-a2-u03-l2-ex12.mp3" },
+      "tiles": ["wann", "seid", "ihr", "angekommen", "habt", "sind", "wo", "ankommen"],
+      "answers": ["Wann seid ihr angekommen?"]
+    }
+  ]
+}
