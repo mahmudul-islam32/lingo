@@ -1,0 +1,165 @@
+{
+  "id": "de-a2-u08-l2-minutes-and-hours",
+  "courseId": "en-de",
+  "unitId": "de-a2-u08",
+  "title": "Minutes and Hours",
+  "tip": "For time from now, use „in“ + dative: „in zehn Minuten“, „in einer Stunde“. Half an hour is „eine halbe Stunde“.",
+  "exercises": [
+    {
+      "id": "de-a2-u08-l2-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        { "id": "p1", "learning": "die Minute", "known": "the minute" },
+        { "id": "p2", "learning": "die Stunde", "known": "the hour" },
+        { "id": "p3", "learning": "eine halbe Stunde", "known": "half an hour" },
+        { "id": "p4", "learning": "später", "known": "later" },
+        { "id": "p5", "learning": "gleich", "known": "in a moment" }
+      ]
+    },
+    {
+      "id": "de-a2-u08-l2-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which one means 'the minutes'?",
+      "options": [
+        { "id": "a", "text": "die Minute" },
+        { "id": "b", "text": "der Minuten" },
+        { "id": "c", "text": "die Minuten" },
+        { "id": "d", "text": "das Minuten" }
+      ],
+      "correctOptionId": "c"
+    },
+    {
+      "id": "de-a2-u08-l2-ex03",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a2/u08/de-a2-u08-l2-ex03.mp3" },
+      "tiles": [
+        "hallo",
+        "Ana",
+        "ich",
+        "komme",
+        "in",
+        "zehn",
+        "Minuten",
+        "kommst",
+        "Minute",
+        "Stunden"
+      ],
+      "answers": ["Hallo Ana, ich komme in zehn Minuten."]
+    },
+    {
+      "id": "de-a2-u08-l2-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "The bus is coming in twenty minutes.",
+      "tiles": ["der", "Bus", "kommt", "in", "zwanzig", "Minuten", "kommen", "Stunden", "um"],
+      "answers": ["Der Bus kommt in zwanzig Minuten.", "In zwanzig Minuten kommt der Bus."]
+    },
+    {
+      "id": "de-a2-u08-l2-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'I'm coming in an hour.'?",
+      "options": [
+        { "id": "a", "text": "Ich komme in eine Stunde." },
+        { "id": "b", "text": "Ich komme in einer Stunde." },
+        { "id": "c", "text": "Ich komme in einem Stunde." },
+        { "id": "d", "text": "Ich komme um eine Stunde." }
+      ],
+      "correctOptionId": "b"
+    },
+    {
+      "id": "de-a2-u08-l2-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Ich komme gleich!",
+      "tiles": ["I'm", "coming", "right", "away", "later", "late", "you"],
+      "answers": ["I'm coming right away!"]
+    },
+    {
+      "id": "de-a2-u08-l2-ex07",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a2/u08/de-a2-u08-l2-ex07.mp3" },
+      "tiles": [
+        "Entschuldigung",
+        "ich",
+        "komme",
+        "zu",
+        "spät",
+        "der",
+        "Bus",
+        "hat",
+        "Verspätung",
+        "später",
+        "kommt",
+        "ist"
+      ],
+      "answers": ["Entschuldigung, ich komme zu spät. Der Bus hat Verspätung."]
+    },
+    {
+      "id": "de-a2-u08-l2-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I waited half an hour.",
+      "tiles": ["ich", "habe", "eine", "halbe", "Stunde", "gewartet", "bin", "halb", "warten"],
+      "answers": ["Ich habe eine halbe Stunde gewartet.", "Eine halbe Stunde habe ich gewartet."]
+    },
+    {
+      "id": "de-a2-u08-l2-ex09",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'I'll call you later. (to a friend)'?",
+      "options": [
+        { "id": "a", "text": "Ich rufe dich an später." },
+        { "id": "b", "text": "Ich später rufe dich an." },
+        { "id": "c", "text": "Ich rufe dich zu spät an." },
+        { "id": "d", "text": "Ich rufe dich später an." }
+      ],
+      "correctOptionId": "d"
+    },
+    {
+      "id": "de-a2-u08-l2-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Can you come in ten minutes? (formal)",
+      "tiles": ["können", "Sie", "in", "zehn", "Minuten", "kommen", "kannst", "kommt", "Stunden"],
+      "answers": ["Können Sie in zehn Minuten kommen?"]
+    },
+    {
+      "id": "de-a2-u08-l2-ex11",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a2/u08/de-a2-u08-l2-ex11.mp3" },
+      "tiles": [
+        "die",
+        "Ärztin",
+        "hat",
+        "in",
+        "einer",
+        "Stunde",
+        "Zeit",
+        "eine",
+        "Stunden",
+        "haben"
+      ],
+      "answers": ["Die Ärztin hat in einer Stunde Zeit."]
+    },
+    {
+      "id": "de-a2-u08-l2-ex12",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Der Zug kommt eine halbe Stunde später.",
+      "tiles": [
+        "the",
+        "train",
+        "is",
+        "coming",
+        "comes",
+        "half",
+        "an",
+        "hour",
+        "later",
+        "earlier",
+        "minutes",
+        "bus"
+      ],
+      "answers": ["The train is coming half an hour later.", "The train comes half an hour later."]
+    }
+  ]
+}

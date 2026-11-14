@@ -1,0 +1,160 @@
+{
+  "id": "de-a2-u08-l1-on-the-phone",
+  "courseId": "en-de",
+  "unitId": "de-a2-u08",
+  "title": "On the Phone",
+  "tip": "Start a call with „Hier spricht …“ or just your surname. Say goodbye with „Auf Wiederhören!“: on the phone you hear, you don't see.",
+  "exercises": [
+    {
+      "id": "de-a2-u08-l1-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        { "id": "p1", "learning": "das Telefon", "known": "the telephone" },
+        { "id": "p2", "learning": "die Nachricht", "known": "the message" },
+        { "id": "p3", "learning": "zurückrufen", "known": "to call back" },
+        { "id": "p4", "learning": "besetzt", "known": "busy (phone line)" },
+        { "id": "p5", "learning": "auf Wiederhören", "known": "goodbye (on the phone)" }
+      ]
+    },
+    {
+      "id": "de-a2-u08-l1-ex02",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a2/u08/de-a2-u08-l1-ex02.mp3" },
+      "tiles": ["guten", "Tag", "hier", "spricht", "Yusuf", "Demir", "sprichst", "ist", "Morgen"],
+      "answers": ["Guten Tag, hier spricht Yusuf Demir."]
+    },
+    {
+      "id": "de-a2-u08-l1-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which one means 'Goodbye!' (on the phone)?",
+      "options": [
+        { "id": "a", "text": "Auf Wiedersehen!" },
+        { "id": "b", "text": "Guten Tag!" },
+        { "id": "c", "text": "Auf Wiederhören!" },
+        { "id": "d", "text": "Moment, bitte!" }
+      ],
+      "correctOptionId": "c"
+    },
+    {
+      "id": "de-a2-u08-l1-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Please call me back. (formal)",
+      "tiles": ["bitte", "rufen", "Sie", "mich", "zurück", "rufst", "dich", "an"],
+      "answers": [
+        "Bitte rufen Sie mich zurück.",
+        "Rufen Sie mich bitte zurück.",
+        "Rufen Sie mich zurück, bitte."
+      ]
+    },
+    {
+      "id": "de-a2-u08-l1-ex05",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a2/u08/de-a2-u08-l1-ex05.mp3" },
+      "tiles": ["Moment", "bitte", "wie", "ist", "Ihr", "Name", "dein", "sind", "heißt"],
+      "answers": ["Moment, bitte. Wie ist Ihr Name?"]
+    },
+    {
+      "id": "de-a2-u08-l1-ex06",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'The line is busy.'?",
+      "options": [
+        { "id": "a", "text": "Es besetzt ist." },
+        { "id": "b", "text": "Es ist besetzt." },
+        { "id": "c", "text": "Es sind besetzt." },
+        { "id": "d", "text": "Es ist frei." }
+      ],
+      "correctOptionId": "b"
+    },
+    {
+      "id": "de-a2-u08-l1-ex07",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Ist das dein Telefon?",
+      "tiles": ["is", "that", "this", "your", "phone", "telephone", "my", "are", "a"],
+      "answers": [
+        "Is that your phone?",
+        "Is this your phone?",
+        "Is that your telephone?",
+        "Is this your telephone?"
+      ]
+    },
+    {
+      "id": "de-a2-u08-l1-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "This is Amira Haddad speaking. Can I speak to Mrs Weber?",
+      "tiles": [
+        "hier",
+        "spricht",
+        "Amira",
+        "Haddad",
+        "kann",
+        "ich",
+        "mit",
+        "Frau",
+        "Weber",
+        "sprechen",
+        "kannst",
+        "sprichst",
+        "Herr"
+      ],
+      "answers": [
+        "Hier spricht Amira Haddad. Kann ich mit Frau Weber sprechen?",
+        "Hier spricht Amira Haddad. Kann ich Frau Weber sprechen?"
+      ]
+    },
+    {
+      "id": "de-a2-u08-l1-ex09",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a2/u08/de-a2-u08-l1-ex09.mp3" },
+      "tiles": [
+        "hallo",
+        "Jonas",
+        "hier",
+        "ist",
+        "Mei",
+        "ruf",
+        "mich",
+        "bitte",
+        "zurück",
+        "rufst",
+        "dich",
+        "spricht"
+      ],
+      "answers": ["Hallo Jonas, hier ist Mei. Ruf mich bitte zurück!"]
+    },
+    {
+      "id": "de-a2-u08-l1-ex10",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'Can you call me back? (to a friend)'?",
+      "options": [
+        { "id": "a", "text": "Kannst du mich rufen zurück?" },
+        { "id": "b", "text": "Kannst du mich zurückrufen?" },
+        { "id": "c", "text": "Kannst du mich zurückrufst?" },
+        { "id": "d", "text": "Kannst du dich zurückrufen?" }
+      ],
+      "correctOptionId": "b"
+    },
+    {
+      "id": "de-a2-u08-l1-ex11",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I have a message for you. (formal)",
+      "tiles": ["ich", "habe", "eine", "Nachricht", "für", "Sie", "hast", "einen", "dich"],
+      "answers": [
+        "Ich habe eine Nachricht für Sie.",
+        "Für Sie habe ich eine Nachricht.",
+        "Ich habe für Sie eine Nachricht."
+      ]
+    },
+    {
+      "id": "de-a2-u08-l1-ex12",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Danke, Herr Yilmaz. Auf Wiederhören!",
+      "tiles": ["thanks", "thank", "you", "Mr", "Yilmaz", "goodbye", "hello", "Mrs", "see"],
+      "answers": ["Thanks, Mr Yilmaz. Goodbye!", "Thank you, Mr Yilmaz. Goodbye!"]
+    }
+  ]
+}

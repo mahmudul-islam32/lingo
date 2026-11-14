@@ -1,0 +1,197 @@
+{
+  "id": "de-a2-u08-l3-moving-an-appointment",
+  "courseId": "en-de",
+  "unitId": "de-a2-u08",
+  "title": "Moving an Appointment",
+  "tip": "Verschieben stays in one piece, but absagen splits: „Ich sage den Termin ab.“ Ask politely with „Passt Ihnen Dienstag?“ (passen + dative).",
+  "exercises": [
+    {
+      "id": "de-a2-u08-l3-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        { "id": "p1", "learning": "verschieben", "known": "to move, to postpone" },
+        { "id": "p2", "learning": "absagen", "known": "to cancel" },
+        { "id": "p3", "learning": "der Friseur", "known": "the hairdresser" },
+        { "id": "p4", "learning": "möglich", "known": "possible" },
+        { "id": "p5", "learning": "am Nachmittag", "known": "in the afternoon" }
+      ]
+    },
+    {
+      "id": "de-a2-u08-l3-ex02",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a2/u08/de-a2-u08-l3-ex02.mp3" },
+      "tiles": [
+        "guten",
+        "Tag",
+        "ich",
+        "möchte",
+        "meinen",
+        "Termin",
+        "verschieben",
+        "meine",
+        "absagen",
+        "möchtest"
+      ],
+      "answers": ["Guten Tag, ich möchte meinen Termin verschieben."]
+    },
+    {
+      "id": "de-a2-u08-l3-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'Unfortunately I have to cancel the appointment.'?",
+      "options": [
+        { "id": "a", "text": "Ich muss leider absagen den Termin." },
+        { "id": "b", "text": "Ich muss den Termin leider absagen." },
+        { "id": "c", "text": "Ich muss den Termin leider sage ab." },
+        { "id": "d", "text": "Ich absage den Termin leider." }
+      ],
+      "correctOptionId": "b"
+    },
+    {
+      "id": "de-a2-u08-l3-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Does Tuesday morning suit you? (formal)",
+      "tiles": ["passt", "Ihnen", "Dienstag", "am", "Vormittag", "passen", "dir", "Nachmittag"],
+      "answers": ["Passt Ihnen Dienstag am Vormittag?"]
+    },
+    {
+      "id": "de-a2-u08-l3-ex05",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Ist das möglich?",
+      "tiles": ["is", "that", "this", "it", "possible", "are", "not", "late"],
+      "answers": ["Is that possible?", "Is this possible?", "Is it possible?"]
+    },
+    {
+      "id": "de-a2-u08-l3-ex06",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'I'd like to move my appointment.'?",
+      "options": [
+        { "id": "a", "text": "Ich möchte mein Termin verschieben." },
+        { "id": "b", "text": "Ich möchte verschieben meinen Termin." },
+        { "id": "c", "text": "Ich möchte meinen Termin verschieben." },
+        { "id": "d", "text": "Ich möchte meinen Termin verschiebe." }
+      ],
+      "correctOptionId": "c"
+    },
+    {
+      "id": "de-a2-u08-l3-ex07",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a2/u08/de-a2-u08-l3-ex07.mp3" },
+      "tiles": [
+        "am",
+        "Freitag",
+        "haben",
+        "wir",
+        "am",
+        "Nachmittag",
+        "einen",
+        "Termin",
+        "frei",
+        "hat",
+        "ein",
+        "Vormittag"
+      ],
+      "answers": ["Am Freitag haben wir am Nachmittag einen Termin frei."]
+    },
+    {
+      "id": "de-a2-u08-l3-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Ich habe am Montag einen Termin beim Friseur.",
+      "tiles": [
+        "I",
+        "have",
+        "an",
+        "appointment",
+        "at",
+        "the",
+        "hairdresser's",
+        "on",
+        "Monday",
+        "Tuesday",
+        "a",
+        "has"
+      ],
+      "answers": [
+        "I have an appointment at the hairdresser's on Monday.",
+        "On Monday I have an appointment at the hairdresser's.",
+        "I have an appointment on Monday at the hairdresser's."
+      ]
+    },
+    {
+      "id": "de-a2-u08-l3-ex09",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Unfortunately I have to cancel my appointment.",
+      "tiles": [
+        "ich",
+        "muss",
+        "meinen",
+        "Termin",
+        "leider",
+        "absagen",
+        "sage",
+        "ab",
+        "mein",
+        "musst"
+      ],
+      "answers": [
+        "Ich muss meinen Termin leider absagen.",
+        "Leider muss ich meinen Termin absagen.",
+        "Ich muss leider meinen Termin absagen."
+      ]
+    },
+    {
+      "id": "de-a2-u08-l3-ex10",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'Does Monday suit you? (to a friend)'?",
+      "options": [
+        { "id": "a", "text": "Passt dich Montag?" },
+        { "id": "b", "text": "Passt du Montag?" },
+        { "id": "c", "text": "Passt dir Montag?" },
+        { "id": "d", "text": "Passen dir Montag?" }
+      ],
+      "correctOptionId": "c"
+    },
+    {
+      "id": "de-a2-u08-l3-ex11",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a2/u08/de-a2-u08-l3-ex11.mp3" },
+      "tiles": [
+        "ist",
+        "Donnerstag",
+        "am",
+        "Vormittag",
+        "möglich",
+        "Nachmittag",
+        "sind",
+        "Dienstag"
+      ],
+      "answers": ["Ist Donnerstag am Vormittag möglich?"]
+    },
+    {
+      "id": "de-a2-u08-l3-ex12",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I'm cancelling the appointment at the hairdresser's.",
+      "tiles": [
+        "ich",
+        "sage",
+        "den",
+        "Termin",
+        "beim",
+        "Friseur",
+        "bei",
+        "der",
+        "Friseurin",
+        "ab",
+        "absage"
+      ],
+      "answers": [
+        "Ich sage den Termin beim Friseur ab.",
+        "Ich sage den Termin bei der Friseurin ab."
+      ]
+    }
+  ]
+}

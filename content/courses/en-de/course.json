@@ -3,7 +3,7 @@
   "title": "German",
   "learningLanguage": "de",
   "knownLanguage": "en",
-  "version": 8,
+  "version": 9,
   "levels": [
     {
       "level": "A1",
@@ -556,6 +556,34 @@
         {
           "id": "de-a2-u07-l5-back-in-training",
           "title": "Scenario: Back at Training"
+        }
+      ]
+    },
+    {
+      "id": "de-a2-u08",
+      "level": "A2",
+      "title": "Appointments and Phone Calls",
+      "description": "Make, move and cancel appointments by phone, leave a message and give reasons with weil.",
+      "lessons": [
+        {
+          "id": "de-a2-u08-l1-on-the-phone",
+          "title": "On the Phone"
+        },
+        {
+          "id": "de-a2-u08-l2-minutes-and-hours",
+          "title": "Minutes and Hours"
+        },
+        {
+          "id": "de-a2-u08-l3-moving-an-appointment",
+          "title": "Moving an Appointment"
+        },
+        {
+          "id": "de-a2-u08-l4-because",
+          "title": "Because I Was Ill"
+        },
+        {
+          "id": "de-a2-u08-l5-voicemail",
+          "title": "Scenario: A Message on the Mailbox"
         }
       ]
     }
