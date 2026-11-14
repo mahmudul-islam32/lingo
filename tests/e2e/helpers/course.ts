@@ -161,13 +161,26 @@ async function choose(page: Page, text: string, keyboard: boolean) {
   await expect(radio).toBeChecked();
 }
 
+/**
+ * LES-013: a lesson with a `tip` opens on a tip card (its own `<h2>` "Tip") with "Start".
+ * Waits until the lesson has rendered, then presses "Start" if the card is shown. A no-op
+ * on later exercises and for lessons without a tip.
+ */
+export async function passTipCard(page: Page, { keyboard = false }: PlayOptions = {}) {
+  await expect(page.getByTestId("exercise-area").getByRole("heading", { level: 2 })).toBeVisible();
+  const card = page.getByTestId("tip-card");
+  if (!(await card.isVisible())) return;
+  await activate(page, "Start", keyboard);
+  await expect(card).toHaveCount(0);
+}
+
 /** Answers one exercise correctly and continues past the feedback. */
 export async function answerCorrectly(
   page: Page,
   exercise: ExerciseJson,
   { keyboard = false }: PlayOptions = {},
 ): Promise<void> {
-  await expect(page.getByTestId("exercise-area").getByRole("heading", { level: 2 })).toBeVisible();
+  await passTipCard(page, { keyboard });
   // No audio in headless Chromium (placeholder clips, no voices): a listen exercise offers
   // "Skip" instead, which is never a mistake. Otherwise it is answered with tiles.
   if (
@@ -213,6 +226,7 @@ export async function answerWrong(
   { keyboard = false }: PlayOptions = {},
 ): Promise<void> {
   if (exercise.type !== "multiple_choice") throw new Error(`${exercise.id}: not multiple choice`);
+  await passTipCard(page, { keyboard });
   await expect(
     page.getByRole("heading", { level: 2, name: exercise.prompt, exact: true }),
   ).toBeVisible();
