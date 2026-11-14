@@ -3,7 +3,7 @@
   "title": "German",
   "learningLanguage": "de",
   "knownLanguage": "en",
-  "version": 6,
+  "version": 7,
   "levels": [
     {
       "level": "A1",
@@ -472,6 +472,62 @@
         {
           "id": "de-a2-u04-l5-office-birthday",
           "title": "Scenario: Cake at the Office"
+        }
+      ]
+    },
+    {
+      "id": "de-a2-u05",
+      "level": "A2",
+      "title": "Errands in Town",
+      "description": "Go to the bank and the post office, say where you are and since when, and use big numbers.",
+      "lessons": [
+        {
+          "id": "de-a2-u05-l1-going-to",
+          "title": "To the Bank, to the Post Office"
+        },
+        {
+          "id": "de-a2-u05-l2-where-are-you",
+          "title": "Where Are You?"
+        },
+        {
+          "id": "de-a2-u05-l3-hundreds",
+          "title": "Hundreds and Thousands"
+        },
+        {
+          "id": "de-a2-u05-l4-since-when",
+          "title": "Since When?"
+        },
+        {
+          "id": "de-a2-u05-l5-post-office",
+          "title": "Scenario: At the Post Office"
+        }
+      ]
+    },
+    {
+      "id": "de-a2-u06",
+      "level": "A2",
+      "title": "Clothes and Shopping",
+      "description": "Describe clothes by colour and size, try things on and exchange them: adjective endings.",
+      "lessons": [
+        {
+          "id": "de-a2-u06-l1-clothes",
+          "title": "Clothes"
+        },
+        {
+          "id": "de-a2-u06-l2-colours",
+          "title": "Colours"
+        },
+        {
+          "id": "de-a2-u06-l3-the-blue-jumper",
+          "title": "The Blue Jumper"
+        },
+        {
+          "id": "de-a2-u06-l4-a-red-dress",
+          "title": "A Red Dress"
+        },
+        {
+          "id": "de-a2-u06-l5-exchange",
+          "title": "Scenario: Exchanging a Jacket"
         }
       ]
     }

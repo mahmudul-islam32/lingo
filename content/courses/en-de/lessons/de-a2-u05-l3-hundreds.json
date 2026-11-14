@@ -1,0 +1,186 @@
+{
+  "id": "de-a2-u05-l3-hundreds",
+  "courseId": "en-de",
+  "unitId": "de-a2-u05",
+  "title": "Hundreds and Thousands",
+  "tip": "Hundreds come first, then the rest: 350 = dreihundertfünfzig. Years up to 1999 use hundreds: 1990 = neunzehnhundertneunzig. From 2000: 2020 = zweitausendzwanzig.",
+  "exercises": [
+    {
+      "id": "de-a2-u05-l3-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        { "id": "p1", "learning": "das Geld", "known": "money" },
+        { "id": "p2", "learning": "der Geldautomat", "known": "the cash machine" },
+        { "id": "p3", "learning": "tausend", "known": "thousand" },
+        { "id": "p4", "learning": "die Million", "known": "the million" },
+        { "id": "p5", "learning": "zweihundert", "known": "two hundred" }
+      ]
+    },
+    {
+      "id": "de-a2-u05-l3-ex02",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a2/u05/de-a2-u05-l3-ex02.mp3" },
+      "tiles": [
+        "das",
+        "kostet",
+        "dreihundertfünfzig",
+        "Euro",
+        "dreihundertfünfzehn",
+        "kosten",
+        "Cent"
+      ],
+      "answers": ["Das kostet dreihundertfünfzig Euro."]
+    },
+    {
+      "id": "de-a2-u05-l3-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which one means '350'?",
+      "options": [
+        { "id": "a", "text": "fünfzigdreihundert" },
+        { "id": "b", "text": "dreihundertfünfzig" },
+        { "id": "c", "text": "dreihundertfünfzehn" },
+        { "id": "d", "text": "dreihundertfünf" }
+      ],
+      "correctOptionId": "b"
+    },
+    {
+      "id": "de-a2-u05-l3-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I'd like to withdraw 200 euros.",
+      "tiles": [
+        "ich",
+        "möchte",
+        "zweihundert",
+        "Euro",
+        "abheben",
+        "hundert",
+        "zweitausend",
+        "möchtest"
+      ],
+      "answers": ["Ich möchte zweihundert Euro abheben.", "Zweihundert Euro möchte ich abheben."]
+    },
+    {
+      "id": "de-a2-u05-l3-ex05",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a2/u05/de-a2-u05-l3-ex05.mp3" },
+      "tiles": [
+        "ich",
+        "brauche",
+        "Geld",
+        "wo",
+        "ist",
+        "der",
+        "Geldautomat",
+        "brauchst",
+        "die",
+        "wohin"
+      ],
+      "answers": ["Ich brauche Geld. Wo ist der Geldautomat?"]
+    },
+    {
+      "id": "de-a2-u05-l3-ex06",
+      "type": "multiple_choice",
+      "prompt": "Which one means '1990' (a year)?",
+      "options": [
+        { "id": "a", "text": "tausendneunhundertneunzig" },
+        { "id": "b", "text": "neunzehnneunzig" },
+        { "id": "c", "text": "neunzehnhundertneunzig" },
+        { "id": "d", "text": "neunzigneunzehn" }
+      ],
+      "correctOptionId": "c"
+    },
+    {
+      "id": "de-a2-u05-l3-ex07",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I was born in 1990.",
+      "tiles": ["ich", "bin", "neunzehnhundertneunzig", "geboren", "habe", "im", "tausend"],
+      "answers": [
+        "Ich bin neunzehnhundertneunzig geboren.",
+        "Neunzehnhundertneunzig bin ich geboren."
+      ]
+    },
+    {
+      "id": "de-a2-u05-l3-ex08",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a2/u05/de-a2-u05-l3-ex08.mp3" },
+      "tiles": [
+        "wir",
+        "sind",
+        "zweitausendzwanzig",
+        "nach",
+        "Deutschland",
+        "gekommen",
+        "haben",
+        "zweitausendzwölf",
+        "aus"
+      ],
+      "answers": ["Wir sind zweitausendzwanzig nach Deutschland gekommen."]
+    },
+    {
+      "id": "de-a2-u05-l3-ex09",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Die Miete ist achthundertfünfzig Euro.",
+      "tiles": [
+        "the",
+        "rent",
+        "is",
+        "eight",
+        "hundred",
+        "and",
+        "fifty",
+        "euros",
+        "fifteen",
+        "eighty",
+        "are"
+      ],
+      "answers": [
+        "The rent is eight hundred and fifty euros.",
+        "The rent is eight hundred fifty euros."
+      ]
+    },
+    {
+      "id": "de-a2-u05-l3-ex10",
+      "type": "multiple_choice",
+      "prompt": "Which one means '2,000'?",
+      "options": [
+        { "id": "a", "text": "zweihundert" },
+        { "id": "b", "text": "zwanzigtausend" },
+        { "id": "c", "text": "tausendzwei" },
+        { "id": "d", "text": "zweitausend" }
+      ],
+      "correctOptionId": "d"
+    },
+    {
+      "id": "de-a2-u05-l3-ex11",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I'm withdrawing 300 euros.",
+      "tiles": ["ich", "hebe", "dreihundert", "Euro", "ab", "abheben", "dreizehn", "hebst"],
+      "answers": ["Ich hebe dreihundert Euro ab.", "Dreihundert Euro hebe ich ab."]
+    },
+    {
+      "id": "de-a2-u05-l3-ex12",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a2/u05/de-a2-u05-l3-ex12.mp3" },
+      "tiles": [
+        "die",
+        "Wohnung",
+        "kostet",
+        "eine",
+        "Million",
+        "Euro",
+        "das",
+        "ist",
+        "sehr",
+        "teuer",
+        "tausend",
+        "billig",
+        "kosten"
+      ],
+      "answers": ["Die Wohnung kostet eine Million Euro? Das ist sehr teuer!"]
+    }
+  ]
+}

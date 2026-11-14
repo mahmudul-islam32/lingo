@@ -1,0 +1,157 @@
+{
+  "id": "de-a2-u06-l1-clothes",
+  "courseId": "en-de",
+  "unitId": "de-a2-u06",
+  "title": "Clothes",
+  "tip": "Learn every piece of clothing with its article: der Pullover, die Jacke, das Kleid. Die Hose is singular in German but 'trousers' is plural: Die Hose ist neu.",
+  "exercises": [
+    {
+      "id": "de-a2-u06-l1-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        { "id": "p1", "learning": "die Hose", "known": "the trousers" },
+        { "id": "p2", "learning": "das Hemd", "known": "the shirt" },
+        { "id": "p3", "learning": "der Pullover", "known": "the jumper" },
+        { "id": "p4", "learning": "das Kleid", "known": "the dress" },
+        { "id": "p5", "learning": "der Rock", "known": "the skirt" }
+      ]
+    },
+    {
+      "id": "de-a2-u06-l1-ex02",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a2/u06/de-a2-u06-l1-ex02.mp3" },
+      "tiles": ["ich", "brauche", "eine", "Jacke", "und", "Schuhe", "einen", "Schuh", "brauchst"],
+      "answers": ["Ich brauche eine Jacke und Schuhe."]
+    },
+    {
+      "id": "de-a2-u06-l1-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which one means 'the dress'?",
+      "options": [
+        { "id": "a", "text": "der Kleid" },
+        { "id": "b", "text": "die Kleid" },
+        { "id": "c", "text": "das Kleid" }
+      ],
+      "correctOptionId": "c"
+    },
+    {
+      "id": "de-a2-u06-l1-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I need a jumper.",
+      "tiles": ["ich", "brauche", "einen", "Pullover", "ein", "eine", "Hemd"],
+      "answers": ["Ich brauche einen Pullover.", "Einen Pullover brauche ich."]
+    },
+    {
+      "id": "de-a2-u06-l1-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'The trousers are new.'?",
+      "options": [
+        { "id": "a", "text": "Die Hose ist neu." },
+        { "id": "b", "text": "Die Hose sind neu." },
+        { "id": "c", "text": "Der Hose ist neu." },
+        { "id": "d", "text": "Das Hose ist neu." }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "de-a2-u06-l1-ex06",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a2/u06/de-a2-u06-l1-ex06.mp3" },
+      "tiles": ["der", "Rock", "ist", "schön", "aber", "teuer", "die", "billig", "sind"],
+      "answers": ["Der Rock ist schön, aber teuer."]
+    },
+    {
+      "id": "de-a2-u06-l1-ex07",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Die Schuhe kosten achtzig Euro.",
+      "tiles": ["the", "shoes", "cost", "eighty", "euros", "shoe", "costs", "eighteen"],
+      "answers": ["The shoes cost eighty euros."]
+    },
+    {
+      "id": "de-a2-u06-l1-ex08",
+      "type": "multiple_choice",
+      "prompt": "Which one means 'the shoes'?",
+      "options": [
+        { "id": "a", "text": "die Schuh" },
+        { "id": "b", "text": "die Schuhe" },
+        { "id": "c", "text": "der Schuhe" },
+        { "id": "d", "text": "die Schuhen" }
+      ],
+      "correctOptionId": "b"
+    },
+    {
+      "id": "de-a2-u06-l1-ex09",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Do you need a dress or a skirt? (to a friend)",
+      "tiles": [
+        "brauchst",
+        "du",
+        "ein",
+        "Kleid",
+        "oder",
+        "einen",
+        "Rock",
+        "brauche",
+        "eine",
+        "Hose"
+      ],
+      "answers": [
+        "Brauchst du ein Kleid oder einen Rock?",
+        "Brauchst du einen Rock oder ein Kleid?"
+      ]
+    },
+    {
+      "id": "de-a2-u06-l1-ex10",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a2/u06/de-a2-u06-l1-ex10.mp3" },
+      "tiles": [
+        "ich",
+        "kaufe",
+        "heute",
+        "Kleidung",
+        "für",
+        "meine",
+        "Tochter",
+        "kaufst",
+        "meinen",
+        "Sohn"
+      ],
+      "answers": ["Ich kaufe heute Kleidung für meine Tochter."]
+    },
+    {
+      "id": "de-a2-u06-l1-ex11",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'I like the shirt.'?",
+      "options": [
+        { "id": "a", "text": "Ich gefalle das Hemd." },
+        { "id": "b", "text": "Das Hemd gefällt mich." },
+        { "id": "c", "text": "Das Hemd gefällt mir." },
+        { "id": "d", "text": "Der Hemd gefällt mir." }
+      ],
+      "correctOptionId": "c"
+    },
+    {
+      "id": "de-a2-u06-l1-ex12",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "The jacket costs forty euros. That's expensive!",
+      "tiles": [
+        "die",
+        "Jacke",
+        "kostet",
+        "vierzig",
+        "Euro",
+        "das",
+        "ist",
+        "teuer",
+        "billig",
+        "kosten",
+        "vierzehn"
+      ],
+      "answers": ["Die Jacke kostet vierzig Euro. Das ist teuer!"]
+    }
+  ]
+}

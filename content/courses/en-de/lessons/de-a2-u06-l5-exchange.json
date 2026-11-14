@@ -1,0 +1,207 @@
+{
+  "id": "de-a2-u06-l5-exchange",
+  "courseId": "en-de",
+  "unitId": "de-a2-u06",
+  "title": "Scenario: Exchanging a Jacket",
+  "tip": "Stehen + dative means 'to suit': Das steht dir gut. Passen is about the size: Die Jacke passt mir. To exchange something, say: Ich möchte die Jacke umtauschen.",
+  "exercises": [
+    {
+      "id": "de-a2-u06-l5-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        { "id": "p1", "learning": "umtauschen", "known": "to exchange" },
+        { "id": "p2", "learning": "zurückgeben", "known": "to give back" },
+        { "id": "p3", "learning": "kaputt", "known": "broken" },
+        { "id": "p4", "learning": "im Angebot", "known": "on sale" },
+        { "id": "p5", "learning": "der Kassenbon", "known": "the receipt" }
+      ]
+    },
+    {
+      "id": "de-a2-u06-l5-ex02",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a2/u06/de-a2-u06-l5-ex02.mp3" },
+      "tiles": [
+        "guten",
+        "Tag",
+        "ich",
+        "möchte",
+        "diese",
+        "Jacke",
+        "umtauschen",
+        "dieser",
+        "möchtest",
+        "zurückgeben"
+      ],
+      "answers": ["Guten Tag! Ich möchte diese Jacke umtauschen."]
+    },
+    {
+      "id": "de-a2-u06-l5-ex03",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "The jacket is broken. I bought it last week.",
+      "tiles": [
+        "die",
+        "Jacke",
+        "ist",
+        "kaputt",
+        "ich",
+        "habe",
+        "sie",
+        "letzte",
+        "Woche",
+        "gekauft",
+        "bin",
+        "ihn",
+        "kaufe"
+      ],
+      "answers": [
+        "Die Jacke ist kaputt. Ich habe sie letzte Woche gekauft.",
+        "Die Jacke ist kaputt. Letzte Woche habe ich sie gekauft."
+      ]
+    },
+    {
+      "id": "de-a2-u06-l5-ex04",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'I'd like to return the jacket.'?",
+      "options": [
+        { "id": "a", "text": "Ich möchte die Jacke zurückgeben." },
+        { "id": "b", "text": "Ich möchte zurückgeben die Jacke." },
+        { "id": "c", "text": "Ich zurückgebe die Jacke." },
+        { "id": "d", "text": "Ich möchte der Jacke zurückgeben." }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "de-a2-u06-l5-ex05",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a2/u06/de-a2-u06-l5-ex05.mp3" },
+      "tiles": ["der", "graue", "Pullover", "ist", "im", "Angebot", "grauen", "sind", "die"],
+      "answers": ["Der graue Pullover ist im Angebot."]
+    },
+    {
+      "id": "de-a2-u06-l5-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Amira, the green jacket looks good on you. (to a friend)",
+      "tiles": [
+        "Amira",
+        "die",
+        "grüne",
+        "Jacke",
+        "steht",
+        "dir",
+        "gut",
+        "grünen",
+        "dich",
+        "stehst"
+      ],
+      "answers": ["Amira, die grüne Jacke steht dir gut.", "Amira, dir steht die grüne Jacke gut."]
+    },
+    {
+      "id": "de-a2-u06-l5-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'The coat doesn't suit me.'?",
+      "options": [
+        { "id": "a", "text": "Der Mantel steht mich nicht." },
+        { "id": "b", "text": "Der Mantel steht mir nicht." },
+        { "id": "c", "text": "Ich stehe den Mantel nicht." },
+        { "id": "d", "text": "Der Mantel steht nicht mir." }
+      ],
+      "correctOptionId": "b"
+    },
+    {
+      "id": "de-a2-u06-l5-ex08",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a2/u06/de-a2-u06-l5-ex08.mp3" },
+      "tiles": [
+        "kann",
+        "ich",
+        "das",
+        "anprobieren",
+        "wo",
+        "ist",
+        "die",
+        "Umkleidekabine",
+        "kannst",
+        "wer",
+        "der"
+      ],
+      "answers": ["Kann ich das anprobieren? Wo ist die Umkleidekabine?"]
+    },
+    {
+      "id": "de-a2-u06-l5-ex09",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Diese Jacke ist im Angebot und passt mir gut.",
+      "tiles": [
+        "this",
+        "jacket",
+        "is",
+        "on",
+        "sale",
+        "and",
+        "fits",
+        "me",
+        "well",
+        "coat",
+        "fit",
+        "are"
+      ],
+      "answers": ["This jacket is on sale and fits me well."]
+    },
+    {
+      "id": "de-a2-u06-l5-ex10",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'Do you have a black jacket? (formal)'?",
+      "options": [
+        { "id": "a", "text": "Haben Sie eine schwarzen Jacke?" },
+        { "id": "b", "text": "Haben Sie eine schwarzer Jacke?" },
+        { "id": "c", "text": "Haben Sie eine schwarzes Jacke?" },
+        { "id": "d", "text": "Haben Sie eine schwarze Jacke?" }
+      ],
+      "correctOptionId": "d"
+    },
+    {
+      "id": "de-a2-u06-l5-ex11",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I'd like to exchange the jacket. Here is the receipt.",
+      "tiles": [
+        "ich",
+        "möchte",
+        "die",
+        "Jacke",
+        "umtauschen",
+        "hier",
+        "ist",
+        "der",
+        "Kassenbon",
+        "möchtest",
+        "den",
+        "sind"
+      ],
+      "answers": ["Ich möchte die Jacke umtauschen. Hier ist der Kassenbon."]
+    },
+    {
+      "id": "de-a2-u06-l5-ex12",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a2/u06/de-a2-u06-l5-ex12.mp3" },
+      "tiles": [
+        "das",
+        "blaue",
+        "Kleid",
+        "steht",
+        "dir",
+        "gut",
+        "es",
+        "ist",
+        "im",
+        "Angebot",
+        "blauen",
+        "dich",
+        "sind"
+      ],
+      "answers": ["Das blaue Kleid steht dir gut. Es ist im Angebot."]
+    }
+  ]
+}
