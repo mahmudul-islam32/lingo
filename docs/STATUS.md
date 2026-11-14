@@ -1,41 +1,56 @@
 # Project status
 
-**Last update:** 2026-11-07 ~11:10 Europe/Berlin (owner-attended session, after the 01:06 scheduled run)
-**Current phase:** Phase 1 — Architecture (KICKOFF), autonomous mode with 3-hour long runs
-**Current milestone:** pre-`v0.1.0` (no ROADMAP.md yet)
+**Last update:** 2026-11-14 ~01:20 Europe/Berlin (scheduled 01:00 run, in progress)
+**Version on `main`:** 0.2.0 · **Course priority:** German (en-de), A1 → C1 (owner request;
+Spanish stays loadable but hidden)
+**Current milestone:** German A1 release (v0.3.x), then German A2 (v0.5.0). v0.4.0 (accounts &
+sync) is paused until German A1 ships.
 
-## Merged today
-- #3 BRAND-001 — Polyglow / Lumi adopted, `docs/product/decisions.md` (PD-001…PD-003).
-- #4 CTO-001 — Next.js scaffold, tooling and CI (typecheck/lint/test/build green).
-- #5 CHORE-003 — long runs (up to 3 h, whole features, handoff/resume) in `ORCHESTRATOR.md`.
+## Where things stand
+- **On `main`:** app shell, PWA, onboarding, lesson engine with 4 exercise types, gamification
+  (XP, streaks, hearts, daily goal, skill path), v0.2.0 release (#48), German market analysis
+  and A1–C1 curriculum (#51), German course support and CEFR levels in the contracts (#52),
+  **complete German A1: 12 units, 60 lessons** (#53) and its QA pass (#54).
+- **Built, waiting for the `cto` merge queue (in this order):**
+  1. `feature/plt-024-german-onboarding-learn`: German as the default course in onboarding and Learn
+  2. `feature/gam-010-path-levels`: CEFR level headers on the skill path (follow-up test
+     patch for the renamed nodes goes with it)
+  3. `feature/les-014-german-audio-tiles`: German audio and tile handling
+  4. `feature/les-013-tip-card`: lesson tip card (the e2e must press "Start"; needs axe-core)
+  5. `docs/pm-006-german-a2-plan`: A2 curriculum, tickets CON-DE-A2-01..14/QA, decisions
+  6. `docs/con-de-a2-units-01-04`: **German A2 Units 1–4**, 20 lessons and 240 exercises.
+     Content tests are green. It includes the 20 loader lines in `src/lib/content/bundled-content.ts`,
+     which the cto reviews as their own.
 
 ## Handoff
-_(none — nothing unfinished)_
-
-## Next steps (next run, as one long run)
-1. `cto`: finish Phase 1 in one go — CTO-002 (`docs/architecture/ARCHITECTURE.md` + all
-   contracts in `/src/contracts` with zod), CTO-003 (Supabase schema, RLS, seed — local/mock,
-   no keys needed), CTO-004 (shared UI primitives in `/src/components/ui`).
-2. `pm`: `docs/product/ROADMAP.md` (v0.1.0 MVP foundation, v0.2.0 first playable lesson …),
-   tickets in `docs/product/tickets/`, and the first course unit in `/content/`.
-3. `cto` adds technical notes/owners to tickets; then devs start building in parallel.
+- **Merge queue above:** the `cto` resumes it in order. After each merge, rebase the next
+  branch on `main` and re-run the revert guard (`git diff --stat origin/main <head>` touches
+  only the ticket's files).
+- **German A2 Wave 2 (Units 5–8), being written:** worktrees `../lingo-de2-u05` … `u08`
+  (local branches `docs/con-de-a2-0N-wip`), with the tickets on `docs/pm-006-german-a2-plan`.
+  - When the lessons and the scratchpad fragments are done, the orchestrator adds the units to
+    `course.json` with level A2, adds the loader lines, runs the content tests and pushes
+    `docs/con-de-a2-units-05-08`.
+  - If a unit is unfinished at run end, push its wip branch as is.
+- **Then:** A2 Wave 3 (Units 9–11), Wave 4 (Units 12–14), CON-DE-A2-QA. Then German A1
+  release acceptance (`pm`) and release (`cto`). Then B1 planning.
 
 ## Blockers
-- Unattended runs were blocked from opening/merging PRs by the permission classifier
-  (01:06 run). Owner is adding `.claude/settings.json` with allow rules for the GitHub PR
-  tools, git and npm. If the next run is still blocked, it pushes branches and records it here.
+- The 5-hour usage limit has cut the last runs short. Agents are resumed (not restarted)
+  after the reset, and fewer writers run in parallel.
 
 ## Waiting on owner (non-blocking)
-- Trademark / domain / handle check for "Polyglow" (PD-001).
-- PRD Q6 minimum age / consent copy; Q7 TTS provider licence (see `docs/product/decisions.md`).
-- Owner email is hard-coded in CLAUDE.md / ORCHESTRATOR.md (public if the repo is public).
-- Stale branch `docs/status-2026-11-07-0106` (superseded by this update) can be deleted.
+- Push tags `v0.1.0` / `v0.2.0` (tag push returns HTTP 403 for the agents).
+- PR #35 (CHORE-005) awaits the owner.
+- Native-speaker review of German content: the lists are in each ticket's
+  "Uncertainties / needs native review".
+- Hosted Supabase project and keys (v0.4.0, paused).
+- TTS provider licence (PRD Q7): German audio falls back to "Audio isn't available" + Skip.
+- Trademark / domain check for "Polyglow" (PD-001).
 
 ## Run log
-- 2026-11-06 — Agent team files added; scheduled runs set.
-- 2026-11-06 (manual test run) — Phase 0. `pm` wrote PRD, user stories (51), branding proposals.
-- 2026-11-06 (owner) — CHORE-001 / CHORE-002 merged: PR-only flow, autonomous loop, owner identity.
-- 2026-11-07 01:06 — `pm` BRAND-001, `cto` CTO-001 scaffold (all checks green). PR
-  create/merge denied by the permission classifier; branches pushed.
-- 2026-11-07 (owner-attended) — PRs #3, #4, #5 opened and squash-merged; scheduled prompts
-  updated for 3-hour runs.
+- 2026-11-06 … 11-11: Phase 0–1, v0.1.0 and v0.2.0 built and merged (#2–#50).
+- 2026-11-12: owner pivot to German. Market analysis and curriculum, contracts, A1 Units 1–12 (#51–#53).
+- 2026-11-13 01:00 run: A1 QA merged (#54). A2 plan written, A2 Units 1–4 written and pushed.
+  The run was cut short by the usage limit.
+- 2026-11-14 01:00 run: resumed the cto merge queue and the A2 Wave 2 writers (in progress).
