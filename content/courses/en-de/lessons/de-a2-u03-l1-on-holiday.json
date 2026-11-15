@@ -1,0 +1,131 @@
+{
+  "id": "de-a2-u03-l1-on-holiday",
+  "courseId": "en-de",
+  "unitId": "de-a2-u03",
+  "title": "On Holiday",
+  "tip": "Urlaub machen means to go on holiday: Wir machen Urlaub in Österreich. Learn am Meer (at the seaside) as one fixed phrase.",
+  "exercises": [
+    {
+      "id": "de-a2-u03-l1-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        { "id": "p1", "learning": "der Urlaub", "known": "the holiday" },
+        { "id": "p2", "learning": "die Reise", "known": "the trip" },
+        { "id": "p3", "learning": "das Meer", "known": "the sea" },
+        { "id": "p4", "learning": "der See", "known": "the lake" },
+        { "id": "p5", "learning": "der Koffer", "known": "the suitcase" }
+      ]
+    },
+    {
+      "id": "de-a2-u03-l1-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which one means 'the lake'?",
+      "options": [
+        { "id": "a", "text": "der See" },
+        { "id": "b", "text": "das See" },
+        { "id": "c", "text": "das Meer" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "de-a2-u03-l1-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which one means 'the mountains'?",
+      "options": [
+        { "id": "a", "text": "die Bergen" },
+        { "id": "b", "text": "die Berge" },
+        { "id": "c", "text": "der Berge" },
+        { "id": "d", "text": "das Berg" }
+      ],
+      "correctOptionId": "b"
+    },
+    {
+      "id": "de-a2-u03-l1-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "We're on holiday in Austria.",
+      "tiles": ["wir", "machen", "Urlaub", "in", "Österreich", "macht", "Reise", "nach"],
+      "answers": [
+        "Wir machen Urlaub in Österreich.",
+        "In Österreich machen wir Urlaub.",
+        "Urlaub machen wir in Österreich."
+      ]
+    },
+    {
+      "id": "de-a2-u03-l1-ex05",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a2/u03/de-a2-u03-l1-ex05.mp3" },
+      "tiles": ["der", "See", "war", "sehr", "schön", "ist", "Meer", "das"],
+      "answers": ["Der See war sehr schön."]
+    },
+    {
+      "id": "de-a2-u03-l1-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Wir machen Urlaub am Meer.",
+      "tiles": ["we", "are", "on", "holiday", "at", "the", "seaside", "by", "sea", "lake", "in"],
+      "answers": [
+        "We are on holiday at the seaside.",
+        "We are on holiday by the sea.",
+        "We are on holiday at the sea.",
+        "We are at the seaside on holiday.",
+        "We are by the sea on holiday."
+      ]
+    },
+    {
+      "id": "de-a2-u03-l1-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'The hotel is small but nice'?",
+      "options": [
+        { "id": "a", "text": "Der Hotel ist klein, aber schön." },
+        { "id": "b", "text": "Das Hotel ist klein, aber schon." },
+        { "id": "c", "text": "Das Hotel ist klein, aber schön." },
+        { "id": "d", "text": "Die Hotel sind klein, aber schön." }
+      ],
+      "correctOptionId": "c"
+    },
+    {
+      "id": "de-a2-u03-l1-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Where is my suitcase?",
+      "tiles": ["wo", "ist", "mein", "Koffer", "meine", "sind", "wer", "Reise"],
+      "answers": ["Wo ist mein Koffer?"]
+    },
+    {
+      "id": "de-a2-u03-l1-ex09",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a2/u03/de-a2-u03-l1-ex09.mp3" },
+      "tiles": ["im", "Sommer", "machen", "wir", "Urlaub", "am", "Meer", "Winter", "macht", "See"],
+      "answers": ["Im Sommer machen wir Urlaub am Meer."]
+    },
+    {
+      "id": "de-a2-u03-l1-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Wie war die Reise?",
+      "tiles": ["how", "was", "the", "trip", "journey", "is", "were", "holiday"],
+      "answers": ["How was the trip?", "How was the journey?"]
+    },
+    {
+      "id": "de-a2-u03-l1-ex11",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'I like the mountains'?",
+      "options": [
+        { "id": "a", "text": "Ich mag die Berge." },
+        { "id": "b", "text": "Ich mag die Bergen." },
+        { "id": "c", "text": "Ich mögen die Berge." },
+        { "id": "d", "text": "Ich mag der Berge." }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "de-a2-u03-l1-ex12",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Do you like the sea or the mountains? (to a friend)",
+      "tiles": ["magst", "du", "das", "Meer", "oder", "die", "Berge", "mag", "aber", "See", "der"],
+      "answers": ["Magst du das Meer oder die Berge?", "Magst du die Berge oder das Meer?"]
+    }
+  ]
+}

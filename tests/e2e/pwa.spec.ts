@@ -104,7 +104,7 @@ test.describe("installable PWA (production build)", () => {
     await page.goto("/");
     await expect(page).toHaveURL(/\/onboarding$/);
     await expect(
-      page.getByRole("heading", { level: 1, name: "Learn Spanish in five minutes a day" }),
+      page.getByRole("heading", { level: 1, name: "Learn German in five minutes a day" }),
     ).toBeVisible();
   });
 

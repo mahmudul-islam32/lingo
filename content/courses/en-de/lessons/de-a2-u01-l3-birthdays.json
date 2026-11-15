@@ -1,0 +1,129 @@
+{
+  "id": "de-a2-u01-l3-birthdays",
+  "courseId": "en-de",
+  "unitId": "de-a2-u01",
+  "title": "Birthdays and Months",
+  "tip": "im = in dem. Use it with months and seasons: im Mai, im Winter. Dates keep am + ordinal: am dritten Mai.",
+  "exercises": [
+    {
+      "id": "de-a2-u01-l3-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        { "id": "p1", "learning": "der Geburtstag", "known": "the birthday" },
+        { "id": "p2", "learning": "die Woche", "known": "the week" },
+        { "id": "p3", "learning": "der Tag", "known": "the day" },
+        { "id": "p4", "learning": "immer", "known": "always" },
+        { "id": "p5", "learning": "manchmal", "known": "sometimes" }
+      ]
+    },
+    {
+      "id": "de-a2-u01-l3-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'My birthday is in May'?",
+      "options": [
+        { "id": "a", "text": "Mein Geburtstag ist am Mai." },
+        { "id": "b", "text": "Mein Geburtstag ist in Mai." },
+        { "id": "c", "text": "Mein Geburtstag ist im Mai." },
+        { "id": "d", "text": "Mein Geburtstag ist um Mai." }
+      ],
+      "correctOptionId": "c"
+    },
+    {
+      "id": "de-a2-u01-l3-ex03",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a2/u01/de-a2-u01-l3-ex03.mp3" },
+      "tiles": ["wann", "hast", "du", "Geburtstag", "im", "Juli", "am", "habe", "Juni"],
+      "answers": ["Wann hast du Geburtstag? Im Juli."]
+    },
+    {
+      "id": "de-a2-u01-l3-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "My birthday is on the third of March.",
+      "tiles": ["mein", "Geburtstag", "ist", "am", "dritten", "März", "im", "drei", "meine"],
+      "answers": ["Mein Geburtstag ist am dritten März.", "Am dritten März ist mein Geburtstag."]
+    },
+    {
+      "id": "de-a2-u01-l3-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'It never snows in May'?",
+      "options": [
+        { "id": "a", "text": "Im Mai schneit es immer." },
+        { "id": "b", "text": "Im Mai schneit es nie." },
+        { "id": "c", "text": "Im Mai schneit nie." },
+        { "id": "d", "text": "Am Mai schneit es nie." }
+      ],
+      "correctOptionId": "b"
+    },
+    {
+      "id": "de-a2-u01-l3-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Ich habe im Oktober Geburtstag.",
+      "tiles": ["my", "birthday", "is", "in", "October", "on", "I", "the"],
+      "answers": ["My birthday is in October."]
+    },
+    {
+      "id": "de-a2-u01-l3-ex07",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a2/u01/de-a2-u01-l3-ex07.mp3" },
+      "tiles": ["die", "Woche", "hat", "sieben", "Tage", "der", "Tag", "haben"],
+      "answers": ["Die Woche hat sieben Tage."]
+    },
+    {
+      "id": "de-a2-u01-l3-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Is your birthday in June? (to a friend)",
+      "tiles": ["ist", "dein", "Geburtstag", "im", "Juni", "am", "mein", "Juli"],
+      "answers": ["Ist dein Geburtstag im Juni?", "Ist im Juni dein Geburtstag?"]
+    },
+    {
+      "id": "de-a2-u01-l3-ex09",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'It's already warm in April'?",
+      "options": [
+        { "id": "a", "text": "Im April ist es schön warm." },
+        { "id": "b", "text": "Im April ist es schon warm." },
+        { "id": "c", "text": "Am April ist es schon warm." },
+        { "id": "d", "text": "Im April es ist schon warm." }
+      ],
+      "correctOptionId": "b"
+    },
+    {
+      "id": "de-a2-u01-l3-ex10",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a2/u01/de-a2-u01-l3-ex10.mp3" },
+      "tiles": ["am", "Sonntag", "arbeite", "ich", "nie", "immer", "um", "arbeitest"],
+      "answers": ["Am Sonntag arbeite ich nie."]
+    },
+    {
+      "id": "de-a2-u01-l3-ex11",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Am Montag habe ich manchmal Zeit.",
+      "tiles": ["I", "sometimes", "have", "time", "on", "Mondays", "never", "always", "has"],
+      "answers": [
+        "I sometimes have time on Mondays.",
+        "Sometimes I have time on Mondays.",
+        "On Mondays I sometimes have time.",
+        "On Mondays sometimes I have time.",
+        "I have time on Mondays sometimes."
+      ]
+    },
+    {
+      "id": "de-a2-u01-l3-ex12",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "It's always windy here.",
+      "tiles": ["hier", "ist", "es", "immer", "windig", "nie", "warm", "sind"],
+      "answers": [
+        "Hier ist es immer windig.",
+        "Es ist hier immer windig.",
+        "Es ist immer windig hier.",
+        "Immer ist es hier windig.",
+        "Windig ist es hier immer."
+      ]
+    }
+  ]
+}

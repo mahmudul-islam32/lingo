@@ -1,0 +1,136 @@
+{
+  "id": "de-a2-u03-l5-postcard",
+  "courseId": "en-de",
+  "unitId": "de-a2-u03",
+  "title": "Scenario: A Postcard from the Alps",
+  "tip": "Letters start with Liebe for a woman and Lieber for a man: Liebe Oma, Lieber Opa. End with Viele Grüße.",
+  "exercises": [
+    {
+      "id": "de-a2-u03-l5-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        { "id": "p1", "learning": "die Postkarte", "known": "the postcard" },
+        { "id": "p2", "learning": "die Aussicht", "known": "the view" },
+        { "id": "p3", "learning": "schicken", "known": "to send" },
+        { "id": "p4", "learning": "schreiben", "known": "to write" },
+        { "id": "p5", "learning": "viele Grüße", "known": "best wishes" }
+      ]
+    },
+    {
+      "id": "de-a2-u03-l5-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which one means 'Dear Grandpa' (in a letter)?",
+      "options": [
+        { "id": "a", "text": "Lieber Opa," },
+        { "id": "b", "text": "Liebe Opa," },
+        { "id": "c", "text": "Lieber Oma," }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "de-a2-u03-l5-ex03",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a2/u03/de-a2-u03-l5-ex03.mp3" },
+      "tiles": ["liebe", "Oma", "ich", "bin", "in", "Innsbruck", "lieber", "Opa", "habe"],
+      "answers": ["Liebe Oma, ich bin in Innsbruck."]
+    },
+    {
+      "id": "de-a2-u03-l5-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "We arrived in Innsbruck on Monday.",
+      "tiles": [
+        "wir",
+        "sind",
+        "am",
+        "Montag",
+        "in",
+        "Innsbruck",
+        "angekommen",
+        "haben",
+        "nach",
+        "Sonntag"
+      ],
+      "answers": [
+        "Wir sind am Montag in Innsbruck angekommen.",
+        "Am Montag sind wir in Innsbruck angekommen.",
+        "In Innsbruck sind wir am Montag angekommen.",
+        "Wir sind in Innsbruck am Montag angekommen."
+      ]
+    },
+    {
+      "id": "de-a2-u03-l5-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which one means 'best wishes' (in a letter)?",
+      "options": [
+        { "id": "a", "text": "Vielen Grüße" },
+        { "id": "b", "text": "Viele Grüße" },
+        { "id": "c", "text": "Viel Grüße" },
+        { "id": "d", "text": "Viele Grüßen" }
+      ],
+      "correctOptionId": "b"
+    },
+    {
+      "id": "de-a2-u03-l5-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "We hiked around the lake.",
+      "tiles": ["wir", "sind", "um", "den", "See", "gewandert", "haben", "der", "durch"],
+      "answers": ["Wir sind um den See gewandert.", "Um den See sind wir gewandert."]
+    },
+    {
+      "id": "de-a2-u03-l5-ex07",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a2/u03/de-a2-u03-l5-ex07.mp3" },
+      "tiles": ["hier", "ist", "die", "Aussicht", "sehr", "schön", "der", "schon", "sind"],
+      "answers": ["Hier ist die Aussicht sehr schön."]
+    },
+    {
+      "id": "de-a2-u03-l5-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Schreibst du eine Postkarte?",
+      "tiles": ["are", "you", "writing", "a", "postcard", "is", "sending", "the"],
+      "answers": ["Are you writing a postcard?"]
+    },
+    {
+      "id": "de-a2-u03-l5-ex09",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'I wrote a postcard'?",
+      "options": [
+        { "id": "a", "text": "Ich bin eine Postkarte geschrieben." },
+        { "id": "b", "text": "Ich habe eine Postkarte geschreibt." },
+        { "id": "c", "text": "Ich habe geschrieben eine Postkarte." },
+        { "id": "d", "text": "Ich habe eine Postkarte geschrieben." }
+      ],
+      "correctOptionId": "d"
+    },
+    {
+      "id": "de-a2-u03-l5-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "We're sending the postcard tomorrow.",
+      "tiles": ["wir", "schicken", "die", "Postkarte", "morgen", "schickt", "der", "gestern"],
+      "answers": [
+        "Wir schicken die Postkarte morgen.",
+        "Morgen schicken wir die Postkarte.",
+        "Die Postkarte schicken wir morgen."
+      ]
+    },
+    {
+      "id": "de-a2-u03-l5-ex11",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a2/u03/de-a2-u03-l5-ex11.mp3" },
+      "tiles": ["viele", "Grüße", "aus", "Innsbruck", "nach", "Salzburg", "liebe"],
+      "answers": ["Viele Grüße aus Innsbruck!"]
+    },
+    {
+      "id": "de-a2-u03-l5-ex12",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "The postcard is for you, Grandma.",
+      "tiles": ["die", "Postkarte", "ist", "für", "dich", "Oma", "Opa", "du", "sind"],
+      "answers": ["Die Postkarte ist für dich, Oma.", "Oma, die Postkarte ist für dich."]
+    }
+  ]
+}

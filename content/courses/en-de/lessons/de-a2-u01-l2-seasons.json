@@ -1,0 +1,135 @@
+{
+  "id": "de-a2-u01-l2-seasons",
+  "courseId": "en-de",
+  "unitId": "de-a2-u01",
+  "title": "Seasons",
+  "tip": "The seasons are all der words and take im: im Sommer, im Winter. Weather keeps es: Im Winter schneit es.",
+  "exercises": [
+    {
+      "id": "de-a2-u01-l2-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        { "id": "p1", "learning": "die Jahreszeit", "known": "the season" },
+        { "id": "p2", "learning": "der Frühling", "known": "spring" },
+        { "id": "p3", "learning": "der Sommer", "known": "summer" },
+        { "id": "p4", "learning": "der Herbst", "known": "autumn" },
+        { "id": "p5", "learning": "der Winter", "known": "winter" }
+      ]
+    },
+    {
+      "id": "de-a2-u01-l2-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'It snows in winter'?",
+      "options": [
+        { "id": "a", "text": "Im Winter schneit." },
+        { "id": "b", "text": "Am Winter schneit es." },
+        { "id": "c", "text": "Im Winter schneit es." },
+        { "id": "d", "text": "In Winter schneit es." }
+      ],
+      "correctOptionId": "c"
+    },
+    {
+      "id": "de-a2-u01-l2-ex03",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "In summer I often swim.",
+      "tiles": ["im", "Sommer", "schwimme", "ich", "oft", "am", "schwimmst", "Winter"],
+      "answers": [
+        "Im Sommer schwimme ich oft.",
+        "Ich schwimme im Sommer oft.",
+        "Ich schwimme oft im Sommer.",
+        "Oft schwimme ich im Sommer."
+      ]
+    },
+    {
+      "id": "de-a2-u01-l2-ex04",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a2/u01/de-a2-u01-l2-ex04.mp3" },
+      "tiles": ["im", "Winter", "wandere", "ich", "nicht", "am", "wanderst", "Sommer"],
+      "answers": ["Im Winter wandere ich nicht."]
+    },
+    {
+      "id": "de-a2-u01-l2-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which one means 'the snow'?",
+      "options": [
+        { "id": "a", "text": "die Schnee" },
+        { "id": "b", "text": "der Schnee" },
+        { "id": "c", "text": "das Schnee" },
+        { "id": "d", "text": "der Regen" }
+      ],
+      "correctOptionId": "b"
+    },
+    {
+      "id": "de-a2-u01-l2-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Im Herbst regnet es oft.",
+      "tiles": ["it", "often", "rains", "in", "the", "autumn", "snows", "winter", "is"],
+      "answers": [
+        "It often rains in autumn.",
+        "It often rains in the autumn.",
+        "In autumn it often rains.",
+        "In the autumn it often rains.",
+        "It rains often in autumn.",
+        "It rains often in the autumn.",
+        "In autumn it rains often.",
+        "In the autumn it rains often."
+      ]
+    },
+    {
+      "id": "de-a2-u01-l2-ex07",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a2/u01/de-a2-u01-l2-ex07.mp3" },
+      "tiles": ["im", "Frühling", "scheint", "die", "Sonne", "oft", "am", "scheinen", "der"],
+      "answers": ["Im Frühling scheint die Sonne oft."]
+    },
+    {
+      "id": "de-a2-u01-l2-ex08",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'There's a lot of snow in winter'?",
+      "options": [
+        { "id": "a", "text": "Im Winter gibt viel Schnee." },
+        { "id": "b", "text": "Im Winter es gibt viel Schnee." },
+        { "id": "c", "text": "Am Winter gibt es viel Schnee." },
+        { "id": "d", "text": "Im Winter gibt es viel Schnee." }
+      ],
+      "correctOptionId": "d"
+    },
+    {
+      "id": "de-a2-u01-l2-ex09",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "It's snowing in Innsbruck.",
+      "tiles": ["in", "Innsbruck", "schneit", "es", "ist", "Schnee", "regnet"],
+      "answers": ["In Innsbruck schneit es.", "Es schneit in Innsbruck."]
+    },
+    {
+      "id": "de-a2-u01-l2-ex10",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a2/u01/de-a2-u01-l2-ex10.mp3" },
+      "tiles": ["ich", "mag", "den", "Winter", "und", "den", "Schnee", "der", "magst", "Sommer"],
+      "answers": ["Ich mag den Winter und den Schnee."]
+    },
+    {
+      "id": "de-a2-u01-l2-ex11",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Es gibt vier Jahreszeiten.",
+      "tiles": ["there", "are", "four", "seasons", "is", "season", "three"],
+      "answers": ["There are four seasons."]
+    },
+    {
+      "id": "de-a2-u01-l2-ex12",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'I like spring'?",
+      "options": [
+        { "id": "a", "text": "Ich mag der Frühling." },
+        { "id": "b", "text": "Ich mag die Frühling." },
+        { "id": "c", "text": "Ich mag den Frühling." },
+        { "id": "d", "text": "Ich mag das Frühling." }
+      ],
+      "correctOptionId": "c"
+    }
+  ]
+}

@@ -108,6 +108,11 @@ describe("lesson engine integration: en-es u1-l1-hello", () => {
     const progress = screen.getByRole("progressbar");
     expect(progress).toHaveAttribute("aria-valuemax", String(lesson.exercises.length));
 
+    // The lesson's tip card comes first (LES-013): it doesn't move the progress bar.
+    expect(lesson.tip).toBeTruthy();
+    expect(progress).toHaveAttribute("aria-valuenow", "0");
+    await user.click(screen.getByRole("button", { name: "Start" }));
+
     for (const [index, exercise] of lesson.exercises.entries()) {
       expect(progress).toHaveAttribute("aria-valuenow", String(index));
       await answerCorrectly(user, exercise);
