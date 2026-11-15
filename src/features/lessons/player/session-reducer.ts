@@ -130,7 +130,13 @@ export type SessionAction =
   | { type: "check"; answer: AnswerInput; result: AnswerCheckResult; now: Date }
   | { type: "continue"; now: Date }
   | { type: "skip"; reason: ExerciseSkipReason; now: Date }
-  | { type: "quit" };
+  | { type: "quit" }
+  /**
+   * The first exercise appears after the tip card's "Start" (LES-013): `startedAt` moves
+   * to that moment, so the lesson time doesn't include reading the tip. Ignored once an
+   * exercise has been answered.
+   */
+  | { type: "start"; now: Date };
 
 /** Moves to `queue[0]`, or leaves `currentId` null when the queue is empty. */
 function present(state: PlayerState): PlayerState {
@@ -181,6 +187,11 @@ export function sessionReducer(state: PlayerState, action: SessionAction): Playe
   if (state.session.status !== "in_progress") return state;
 
   switch (action.type) {
+    case "start": {
+      if (state.session.attempts.length > 0) return state;
+      return { ...state, session: { ...state.session, startedAt: action.now.toISOString() } };
+    }
+
     case "answer_changed": {
       if (state.phase !== "answering" || state.currentId === null) return state;
       if (action.answer !== null && action.answer.type !== state.exercises[state.currentId]?.type) {

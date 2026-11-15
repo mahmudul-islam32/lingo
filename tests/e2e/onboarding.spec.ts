@@ -1,8 +1,10 @@
 import { expect, test, type Page } from "@playwright/test";
 import { expectNoSeriousA11yViolations } from "./axe";
+import { GERMAN_LESSON_1, lessonUrl } from "./helpers/course";
 import { completeOnboarding } from "./onboarding-helpers";
 
-const WELCOME = "Learn Spanish in five minutes a day";
+/** PLT-024 AC 3: the language name comes from the default course (en-de). */
+const WELCOME = "Learn German in five minutes a day";
 const COURSE = "What do you want to learn?";
 const GOAL = "Choose a daily goal";
 
@@ -41,19 +43,17 @@ test.describe("onboarding (PLT-004)", () => {
     await expect(h1(page)).toHaveText(COURSE);
     await expect(h1(page)).toBeFocused();
     await expect(page.getByText("Step 2 of 3")).toBeVisible();
-    const spanish = page.getByRole("radio", { name: "Spanish" });
-    await expect(spanish).toBeVisible(); // course data loaded
-    // Back comes before the heading; Shift+Tab reaches it, Tab goes on to the options.
+    const german = page.getByRole("radio", { name: "German" });
+    await expect(german).toBeVisible(); // course data loaded
+    // PLT-024 AC 1, 2: German is the only course, preselected; Spanish isn't offered.
+    await expect(page.getByRole("radio")).toHaveCount(1);
+    await expect(german).toHaveAttribute("aria-checked", "true");
+    await expect(page.getByText("Spanish")).toHaveCount(0);
+    // Back comes before the heading; Shift+Tab reaches it, Tab goes on to the option.
     await page.keyboard.press("Shift+Tab");
     await expect(page.getByRole("button", { name: "Back" })).toBeFocused();
-    // German (the default course, CTO-008) is the first option and the Tab stop; this
-    // spec keeps playing en-es, so ArrowDown moves to Spanish and selects it.
     await page.keyboard.press("Tab");
-    await expect(page.getByRole("radio", { name: "German" })).toBeFocused();
-    await page.keyboard.press("ArrowDown");
-    await expect(spanish).toBeFocused();
-    await page.keyboard.press("Space");
-    await expect(spanish).toHaveAttribute("aria-checked", "true");
+    await expect(german).toBeFocused();
     await page.keyboard.press("Tab");
     await expect(page.getByRole("button", { name: "Continue" })).toBeFocused();
     await page.keyboard.press("Enter");
@@ -70,8 +70,9 @@ test.describe("onboarding (PLT-004)", () => {
     await expect(page.getByRole("button", { name: "Start learning" })).toBeFocused();
     await page.keyboard.press("Enter");
 
-    // PLT-007 criterion 6: "Start learning" opens Lesson 1; Learn is home from then on.
-    await expect(page).toHaveURL(/\/lesson\/u1-l1-hello$/);
+    // PLT-007 criterion 6 / PLT-024 AC 4: "Start learning" opens the first German lesson;
+    // Learn is home from then on.
+    await expect(page).toHaveURL(lessonUrl(GERMAN_LESSON_1.id));
     await page.goto("/");
     await expect(h1(page)).toHaveText("Learn");
     await page.reload();
@@ -96,11 +97,11 @@ test.describe("onboarding (PLT-004)", () => {
   }) => {
     await page.goto("/onboarding");
     await page.getByRole("button", { name: "Get started" }).click();
-    await page.getByRole("radio", { name: "Spanish" }).click();
+    await page.getByRole("radio", { name: "German" }).click();
     await page.getByRole("button", { name: "Continue" }).click();
     await page.getByRole("radio", { name: "Serious 30 XP" }).click();
     await page.getByRole("button", { name: "Back" }).click();
-    await expect(page.getByRole("radio", { name: "Spanish" })).toHaveAttribute(
+    await expect(page.getByRole("radio", { name: "German" })).toHaveAttribute(
       "aria-checked",
       "true",
     );
@@ -115,9 +116,8 @@ test.describe("onboarding (PLT-004)", () => {
     await expect(h1(page)).toHaveText(WELCOME);
     await axeAfterAnimations(page);
     await page.getByRole("button", { name: "Get started" }).click();
-    await expect(page.getByRole("radio", { name: "Spanish" })).toBeVisible();
+    await expect(page.getByRole("radio", { name: "German" })).toBeVisible();
     await axeAfterAnimations(page);
-    await page.getByRole("radio", { name: "Spanish" }).click();
     await page.getByRole("button", { name: "Continue" }).click();
     await expect(h1(page)).toHaveText(GOAL);
     await axeAfterAnimations(page);
@@ -153,9 +153,9 @@ test.describe("onboarding at 375 × 667 (criterion 13)", () => {
     await expect(h1(page)).toHaveText(WELCOME);
     await expectStepFits(page, "Get started");
     await page.getByRole("button", { name: "Get started" }).click();
-    await expect(page.getByRole("radio", { name: "Spanish" })).toBeVisible();
+    // PLT-024 AC 13: the German card fits in full.
+    await expect(page.getByRole("radio", { name: "German" })).toBeVisible();
     await expectStepFits(page, "Continue");
-    await page.getByRole("radio", { name: "Spanish" }).click();
     await page.getByRole("button", { name: "Continue" }).click();
     await expect(h1(page)).toHaveText(GOAL);
     await expect(page.getByRole("radio")).toHaveCount(4);

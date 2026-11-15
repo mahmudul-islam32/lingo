@@ -7,3 +7,13 @@ export {
   resolvePathActivation,
   type PathActivation,
 } from "./activation";
+export {
+  buildPathSections,
+  defaultExpandedLevel,
+  findPathLesson,
+  pathLevelState,
+  type PathLessonEntry,
+  type PathLevelSection,
+  type PathLevelState,
+  type PathUnitSection,
+} from "./path-sections";
