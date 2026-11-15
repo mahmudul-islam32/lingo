@@ -262,3 +262,7 @@ listen; `Ich laufe in den Park.`, `Mein Hals ist kalt.`, `Have you no rice?` and
 
 **Ticket status:** criteria 1–6 and 9 PASS; 7 OPEN (playthrough on the preview); 8 PASS with
 the native-review list above; 10 pending the orchestrator's test run.
+
+**PM acceptance (2026-11-15, PM-ACC3):** criterion 10 PASS (merged #54 with green CI).
+**Criterion 7 FAIL:** only A1 Lesson 1 has been played (390 × 844) → FIX-004, which runs after
+LES-014 (#55).
