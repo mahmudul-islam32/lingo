@@ -52,9 +52,26 @@
       "id": "de-a2-u12-l2-ex05",
       "type": "word_bank_translate",
       "direction": "to_known",
-      "prompt": "Ich brauche eine Kopie von meinem Pass.",
-      "tiles": ["I", "need", "a", "copy", "of", "my", "passport", "your", "have", "sign"],
-      "answers": ["I need a copy of my passport."]
+      "prompt": "Ich soll eine Kopie von meinem Pass mitbringen.",
+      "tiles": [
+        "I'm",
+        "I",
+        "supposed",
+        "should",
+        "to",
+        "bring",
+        "a",
+        "copy",
+        "of",
+        "my",
+        "passport",
+        "your",
+        "sign"
+      ],
+      "answers": [
+        "I'm supposed to bring a copy of my passport.",
+        "I should bring a copy of my passport."
+      ]
     },
     {
       "id": "de-a2-u12-l2-ex06",
@@ -144,24 +161,28 @@
       "id": "de-a2-u12-l2-ex12",
       "type": "word_bank_translate",
       "direction": "to_known",
-      "prompt": "Haben Sie die Unterlagen und den Pass?",
+      "prompt": "Sie sollen die Unterlagen und den Pass mitbringen.",
       "tiles": [
-        "do",
         "you",
-        "have",
+        "should",
+        "are",
+        "supposed",
+        "to",
+        "bring",
         "the",
         "documents",
         "papers",
         "and",
         "the",
         "passport",
-        "are",
         "a",
         "my"
       ],
       "answers": [
-        "Do you have the documents and the passport?",
-        "Do you have the papers and the passport?"
+        "You should bring the documents and the passport.",
+        "You should bring the papers and the passport.",
+        "You are supposed to bring the documents and the passport.",
+        "You are supposed to bring the papers and the passport."
       ]
     }
   ]

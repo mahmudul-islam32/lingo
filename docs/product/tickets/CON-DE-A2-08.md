@@ -64,10 +64,10 @@ couldn't come, so that I can handle practices, offices and services without help
 | 1 | On the Phone | das Telefon (the telephone), hier spricht … (this is … speaking), Moment, bitte (one moment, please), die Nachricht (the message), zurückrufen (to call back), auf Wiederhören (goodbye, on the phone), besetzt (busy / engaged) | 7 |
 | 2 | Minutes and Hours | die Minute / die Minuten (the minute / minutes), die Stunde / die Stunden (the hour / hours), eine halbe Stunde (half an hour), in + time (in: in zehn Minuten, in einer Stunde), später (later), gleich (in a moment / right away), zu spät (too late / late) | 7 |
 | 3 | Moving an Appointment | verschieben (to move / postpone), absagen (to cancel), der Friseur / die Friseurin (the hairdresser), möglich (possible), der Vormittag / am Vormittag (the morning / in the morning, before noon), der Nachmittag / am Nachmittag (the afternoon / in the afternoon), passen (+ dative: to suit: Passt Ihnen Montag?; new meaning, "fit" is U6) | 7 |
-| 4 | Because I Was Ill | warum? (why?), weil (because, verb at the end), konnte (could / was able to), musste (had to), wollte (wanted to), durfte (was allowed to), vergessen / vergessen (to forget / forgotten) | 7 |
+| 4 | Because I Was Ill | warum? (why?), weil (because, verb at the end), konnte (could / was able to), musste (had to), wollte (wanted to), durfte (was allowed to), vergessen / vergessen (to forget / forgotten), lange (for a long time; added by CON-DE-A2-QA, used in L4 ex08) | 8 |
 | 5 | A Message on the Mailbox | die Mailbox (the voicemail), Bescheid sagen (to let someone know), erreichen (to reach), sich melden (to get in touch) | 4 |
 
-Unit total: 32 items. All persons of the past modals (`du konntest`, `wir mussten`) are
+Unit total: 33 items (32 + `lange`, added by CON-DE-A2-QA). All persons of the past modals (`du konntest`, `wir mussten`) are
 allowed extras after L4 (same endings as `war`, U2).
 
 ## Out of scope

@@ -139,9 +139,26 @@
       "id": "de-a2-u08-l5-ex09",
       "type": "word_bank_translate",
       "direction": "to_known",
-      "prompt": "Hier ist die Mailbox von Emil Becker.",
-      "tiles": ["this", "is", "Emil", "Becker's", "voicemail", "mailbox", "the", "are", "phone"],
-      "answers": ["This is Emil Becker's voicemail.", "This is Emil Becker's mailbox."]
+      "prompt": "Sie sollen bitte Emil Becker zurückrufen.",
+      "tiles": [
+        "you're",
+        "supposed",
+        "you",
+        "should",
+        "to",
+        "call",
+        "Emil",
+        "Becker",
+        "back",
+        "can",
+        "me"
+      ],
+      "answers": [
+        "You're supposed to call Emil Becker back.",
+        "You should call Emil Becker back.",
+        "You're supposed to call back Emil Becker.",
+        "You should call back Emil Becker."
+      ]
     },
     {
       "id": "de-a2-u08-l5-ex10",

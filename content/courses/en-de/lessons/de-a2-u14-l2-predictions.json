@@ -63,13 +63,24 @@
       "id": "de-a2-u14-l2-ex06",
       "type": "word_bank_translate",
       "direction": "to_known",
-      "prompt": "Sie kommt sicher.",
-      "tiles": ["she", "is", "she's", "surely", "definitely", "coming", "he", "not"],
+      "prompt": "Der Zug hat sicher Verspätung.",
+      "tiles": [
+        "the",
+        "train",
+        "is",
+        "surely",
+        "definitely",
+        "late",
+        "delayed",
+        "bus",
+        "not",
+        "early"
+      ],
       "answers": [
-        "She is surely coming.",
-        "She's surely coming.",
-        "She is definitely coming.",
-        "She's definitely coming."
+        "The train is surely late.",
+        "The train is definitely late.",
+        "The train is surely delayed.",
+        "The train is definitely delayed."
       ]
     },
     {
@@ -90,12 +101,12 @@
     {
       "id": "de-a2-u14-l2-ex09",
       "type": "multiple_choice",
-      "prompt": "Which sentence means 'He will definitely come.'?",
+      "prompt": "Which sentence means 'The train will definitely be late.'?",
       "options": [
-        { "id": "a", "text": "Er wird kommen bestimmt." },
-        { "id": "b", "text": "Er wird bestimmt kommen." },
-        { "id": "c", "text": "Er wird bestimmt kommt." },
-        { "id": "d", "text": "Er wirst bestimmt kommen." }
+        { "id": "a", "text": "Der Zug wird haben bestimmt Verspätung." },
+        { "id": "b", "text": "Der Zug wird bestimmt Verspätung haben." },
+        { "id": "c", "text": "Der Zug wird bestimmt Verspätung hat." },
+        { "id": "d", "text": "Der Zug wirst bestimmt Verspätung haben." }
       ],
       "correctOptionId": "b"
     },
