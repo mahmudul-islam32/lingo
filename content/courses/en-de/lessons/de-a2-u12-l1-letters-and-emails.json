@@ -1,0 +1,186 @@
+{
+  "id": "de-a2-u12-l1-letters-and-emails",
+  "courseId": "en-de",
+  "unitId": "de-a2-u12",
+  "title": "Letters and Emails",
+  "tip": "Formal letters start with „Sehr geehrte Frau …,“ for a woman and „Sehr geehrter Herr …,“ for a man. End them with „Mit freundlichen Grüßen“.",
+  "exercises": [
+    {
+      "id": "de-a2-u12-l1-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        { "id": "p1", "learning": "die E-Mail", "known": "the email" },
+        { "id": "p2", "learning": "der Betreff", "known": "the subject line" },
+        { "id": "p3", "learning": "die Antwort", "known": "the answer / reply" },
+        { "id": "p4", "learning": "antworten", "known": "to answer / reply" },
+        { "id": "p5", "learning": "mit freundlichen Grüßen", "known": "kind regards" }
+      ]
+    },
+    {
+      "id": "de-a2-u12-l1-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which one means 'Dear Sir or Madam,' (formal letter)?",
+      "options": [
+        { "id": "a", "text": "Sehr geehrter Damen und Herren," },
+        { "id": "b", "text": "Sehr geehrte Damen und Herren," },
+        { "id": "c", "text": "Sehr geehrten Damen und Herren," },
+        { "id": "d", "text": "Sehr geehrte Damen und Herr," }
+      ],
+      "correctOptionId": "b"
+    },
+    {
+      "id": "de-a2-u12-l1-ex03",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a2/u12/de-a2-u12-l1-ex03.mp3" },
+      "tiles": [
+        "sehr",
+        "geehrte",
+        "Frau",
+        "Okafor",
+        "danke",
+        "für",
+        "Ihre",
+        "E-Mail",
+        "geehrter",
+        "deine",
+        "Herr"
+      ],
+      "answers": ["Sehr geehrte Frau Okafor, danke für Ihre E-Mail."]
+    },
+    {
+      "id": "de-a2-u12-l1-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Dear Mr Wagner, thanks for your email. (formal)",
+      "tiles": [
+        "sehr",
+        "geehrter",
+        "Herr",
+        "Wagner",
+        "danke",
+        "für",
+        "Ihre",
+        "E-Mail",
+        "geehrte",
+        "Frau",
+        "Liebe",
+        "deine"
+      ],
+      "answers": ["Sehr geehrter Herr Wagner, danke für Ihre E-Mail."]
+    },
+    {
+      "id": "de-a2-u12-l1-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which one means 'Kind regards' (end of a formal letter)?",
+      "options": [
+        { "id": "a", "text": "Mit freundlichen Grüßen" },
+        { "id": "b", "text": "Mit freundlichen Grüße" },
+        { "id": "c", "text": "Mit freundliche Grüßen" },
+        { "id": "d", "text": "Mit freundlich Grüßen" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "de-a2-u12-l1-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Ich antworte Ihnen morgen.",
+      "tiles": ["I'll", "answer", "reply", "to", "you", "tomorrow", "today", "me", "yesterday"],
+      "answers": ["I'll answer you tomorrow.", "I'll reply to you tomorrow."]
+    },
+    {
+      "id": "de-a2-u12-l1-ex07",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a2/u12/de-a2-u12-l1-ex07.mp3" },
+      "tiles": ["Ihre", "E-Mail", "hat", "keinen", "Betreff", "keine", "haben", "deine"],
+      "answers": ["Ihre E-Mail hat keinen Betreff."]
+    },
+    {
+      "id": "de-a2-u12-l1-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Thanks for your reply. (formal)",
+      "tiles": ["danke", "für", "Ihre", "Antwort", "deine", "antworten", "dein"],
+      "answers": ["Danke für Ihre Antwort."]
+    },
+    {
+      "id": "de-a2-u12-l1-ex09",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'Mr Wagner hasn't answered me yet.'?",
+      "options": [
+        { "id": "a", "text": "Herr Wagner hat mir noch nicht geantwortet." },
+        { "id": "b", "text": "Herr Wagner hat mich noch nicht geantwortet." },
+        { "id": "c", "text": "Herr Wagner hat noch nicht mir geantwortet." },
+        { "id": "d", "text": "Herr Wagner ist mir noch nicht geantwortet." }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "de-a2-u12-l1-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Dear Sir or Madam, I have a question.",
+      "tiles": [
+        "sehr",
+        "geehrte",
+        "Damen",
+        "und",
+        "Herren",
+        "ich",
+        "habe",
+        "eine",
+        "Frage",
+        "geehrter",
+        "hast",
+        "einen"
+      ],
+      "answers": [
+        "Sehr geehrte Damen und Herren, ich habe eine Frage.",
+        "Sehr geehrte Damen und Herren, eine Frage habe ich."
+      ]
+    },
+    {
+      "id": "de-a2-u12-l1-ex11",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a2/u12/de-a2-u12-l1-ex11.mp3" },
+      "tiles": [
+        "ich",
+        "schreibe",
+        "Ihnen",
+        "morgen",
+        "eine",
+        "E-Mail",
+        "schreibst",
+        "dir",
+        "einen"
+      ],
+      "answers": ["Ich schreibe Ihnen morgen eine E-Mail."]
+    },
+    {
+      "id": "de-a2-u12-l1-ex12",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Sehr geehrte Damen und Herren, ich habe Ihre E-Mail gelesen.",
+      "tiles": [
+        "dear",
+        "Sir",
+        "or",
+        "Madam",
+        "I",
+        "have",
+        "I've",
+        "read",
+        "your",
+        "email",
+        "my",
+        "and",
+        "letter"
+      ],
+      "answers": [
+        "Dear Sir or Madam, I have read your email.",
+        "Dear Sir or Madam, I've read your email.",
+        "Dear Sir or Madam, I read your email."
+      ]
+    }
+  ]
+}

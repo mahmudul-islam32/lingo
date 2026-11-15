@@ -405,6 +405,53 @@ export const BUNDLED_CONTENT: ContentLoaders = {
       "de-a2-u11-l5-job-offer": json(
         () => import("../../../content/courses/en-de/lessons/de-a2-u11-l5-job-offer.json"),
       ),
+      "de-a2-u12-l1-letters-and-emails": json(
+        () => import("../../../content/courses/en-de/lessons/de-a2-u12-l1-letters-and-emails.json"),
+      ),
+      "de-a2-u12-l2-documents": json(
+        () => import("../../../content/courses/en-de/lessons/de-a2-u12-l2-documents.json"),
+      ),
+      "de-a2-u12-l3-if-you-have-questions": json(
+        () =>
+          import("../../../content/courses/en-de/lessons/de-a2-u12-l3-if-you-have-questions.json"),
+      ),
+      "de-a2-u12-l4-school-and-daycare": json(
+        () => import("../../../content/courses/en-de/lessons/de-a2-u12-l4-school-and-daycare.json"),
+      ),
+      "de-a2-u12-l5-letter-from-the-landlord": json(
+        () =>
+          import("../../../content/courses/en-de/lessons/de-a2-u12-l5-letter-from-the-landlord.json"),
+      ),
+      "de-a2-u13-l1-phone-and-internet": json(
+        () => import("../../../content/courses/en-de/lessons/de-a2-u13-l1-phone-and-internet.json"),
+      ),
+      "de-a2-u13-l2-faster-and-cheaper": json(
+        () => import("../../../content/courses/en-de/lessons/de-a2-u13-l2-faster-and-cheaper.json"),
+      ),
+      "de-a2-u13-l3-best-of-all": json(
+        () => import("../../../content/courses/en-de/lessons/de-a2-u13-l3-best-of-all.json"),
+      ),
+      "de-a2-u13-l4-news-and-opinions": json(
+        () => import("../../../content/courses/en-de/lessons/de-a2-u13-l4-news-and-opinions.json"),
+      ),
+      "de-a2-u13-l5-screen-time": json(
+        () => import("../../../content/courses/en-de/lessons/de-a2-u13-l5-screen-time.json"),
+      ),
+      "de-a2-u14-l1-i-will": json(
+        () => import("../../../content/courses/en-de/lessons/de-a2-u14-l1-i-will.json"),
+      ),
+      "de-a2-u14-l2-predictions": json(
+        () => import("../../../content/courses/en-de/lessons/de-a2-u14-l2-predictions.json"),
+      ),
+      "de-a2-u14-l3-goals": json(
+        () => import("../../../content/courses/en-de/lessons/de-a2-u14-l3-goals.json"),
+      ),
+      "de-a2-u14-l4-about-me": json(
+        () => import("../../../content/courses/en-de/lessons/de-a2-u14-l4-about-me.json"),
+      ),
+      "de-a2-u14-l5-a2-checkpoint": json(
+        () => import("../../../content/courses/en-de/lessons/de-a2-u14-l5-a2-checkpoint.json"),
+      ),
     },
     "en-es": {
       "u1-l1-hello": json(() => import("../../../content/courses/en-es/lessons/u1-l1-hello.json")),

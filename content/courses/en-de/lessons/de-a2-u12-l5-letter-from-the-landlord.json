@@ -1,0 +1,235 @@
+{
+  "id": "de-a2-u12-l5-letter-from-the-landlord",
+  "courseId": "en-de",
+  "unitId": "de-a2-u12",
+  "title": "Scenario: A Letter from the Property Management",
+  "tip": "Notices often say „Bitte beachten Sie: …“ (please note). Reply like any formal email: „Sehr geehrte Frau Schulte, …“ and end with „Mit freundlichen Grüßen“.",
+  "exercises": [
+    {
+      "id": "de-a2-u12-l5-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        { "id": "p1", "learning": "die Hausverwaltung", "known": "the property management" },
+        {
+          "id": "p2",
+          "learning": "der Handwerker / die Handwerkerin",
+          "known": "the tradesperson"
+        },
+        { "id": "p3", "learning": "die Nebenkosten", "known": "the service charges" },
+        { "id": "p4", "learning": "informieren", "known": "to inform" },
+        { "id": "p5", "learning": "bitte beachten Sie", "known": "please note" }
+      ]
+    },
+    {
+      "id": "de-a2-u12-l5-ex02",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a2/u12/de-a2-u12-l5-ex02.mp3" },
+      "tiles": [
+        "am",
+        "Montag",
+        "kommt",
+        "ein",
+        "Handwerker",
+        "und",
+        "repariert",
+        "die",
+        "Heizung",
+        "einen",
+        "kommen",
+        "der"
+      ],
+      "answers": ["Am Montag kommt ein Handwerker und repariert die Heizung."]
+    },
+    {
+      "id": "de-a2-u12-l5-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which one means 'Please note:' (in a notice)?",
+      "options": [
+        { "id": "a", "text": "Bitte Sie beachten:" },
+        { "id": "b", "text": "Bitte beachtest Sie:" },
+        { "id": "c", "text": "Bitte beachten Sie:" },
+        { "id": "d", "text": "Beachten bitte Sie:" }
+      ],
+      "correctOptionId": "c"
+    },
+    {
+      "id": "de-a2-u12-l5-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "The property management informs you in writing. (formal)",
+      "tiles": [
+        "die",
+        "Hausverwaltung",
+        "informiert",
+        "Sie",
+        "schriftlich",
+        "informieren",
+        "persönlich",
+        "der"
+      ],
+      "answers": [
+        "Die Hausverwaltung informiert Sie schriftlich.",
+        "Schriftlich informiert Sie die Hausverwaltung."
+      ]
+    },
+    {
+      "id": "de-a2-u12-l5-ex05",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a2/u12/de-a2-u12-l5-ex05.mp3" },
+      "tiles": [
+        "bitte",
+        "beachten",
+        "Sie",
+        "am",
+        "Montag",
+        "gibt",
+        "es",
+        "von",
+        "acht",
+        "bis",
+        "zwölf",
+        "Uhr",
+        "kein",
+        "Wasser",
+        "keine",
+        "ist",
+        "elf"
+      ],
+      "answers": ["Bitte beachten Sie: Am Montag gibt es von acht bis zwölf Uhr kein Wasser."]
+    },
+    {
+      "id": "de-a2-u12-l5-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Dear Ms Schulte, thanks for your letter. (formal)",
+      "tiles": [
+        "sehr",
+        "geehrte",
+        "Frau",
+        "Schulte",
+        "danke",
+        "für",
+        "Ihren",
+        "Brief",
+        "geehrter",
+        "Ihre",
+        "deinen"
+      ],
+      "answers": ["Sehr geehrte Frau Schulte, danke für Ihren Brief."]
+    },
+    {
+      "id": "de-a2-u12-l5-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'I work on Monday, so I'm not at home.'?",
+      "options": [
+        { "id": "a", "text": "Ich arbeite am Montag, deshalb ich bin nicht zu Hause." },
+        { "id": "b", "text": "Ich arbeite am Montag, deshalb bin ich nicht zu Hause." },
+        { "id": "c", "text": "Ich arbeite am Montag, trotzdem bin ich nicht zu Hause." },
+        { "id": "d", "text": "Ich arbeite am Montag, deshalb bin ich nicht nach Hause." }
+      ],
+      "correctOptionId": "b"
+    },
+    {
+      "id": "de-a2-u12-l5-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Can the tradesperson come on Tuesday?",
+      "tiles": [
+        "kann",
+        "der",
+        "Handwerker",
+        "die",
+        "Handwerkerin",
+        "am",
+        "Dienstag",
+        "kommen",
+        "kommt",
+        "im",
+        "können"
+      ],
+      "answers": [
+        "Kann der Handwerker am Dienstag kommen?",
+        "Kann die Handwerkerin am Dienstag kommen?",
+        "Kann am Dienstag der Handwerker kommen?",
+        "Kann am Dienstag die Handwerkerin kommen?"
+      ]
+    },
+    {
+      "id": "de-a2-u12-l5-ex09",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Ich habe eine Frage zu den Nebenkosten.",
+      "tiles": [
+        "I",
+        "have",
+        "a",
+        "question",
+        "about",
+        "the",
+        "service",
+        "utility",
+        "charges",
+        "rent",
+        "an",
+        "has"
+      ],
+      "answers": [
+        "I have a question about the service charges.",
+        "I have a question about the utility charges."
+      ]
+    },
+    {
+      "id": "de-a2-u12-l5-ex10",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a2/u12/de-a2-u12-l5-ex10.mp3" },
+      "tiles": [
+        "wenn",
+        "Sie",
+        "Fragen",
+        "haben",
+        "informieren",
+        "wir",
+        "Sie",
+        "gern",
+        "informiert",
+        "uns",
+        "Frage"
+      ],
+      "answers": ["Wenn Sie Fragen haben, informieren wir Sie gern."]
+    },
+    {
+      "id": "de-a2-u12-l5-ex11",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I don't know if I'm at home on Monday.",
+      "tiles": [
+        "ich",
+        "weiß",
+        "nicht",
+        "ob",
+        "ich",
+        "am",
+        "Montag",
+        "zu",
+        "Hause",
+        "bin",
+        "nach",
+        "wenn",
+        "bist"
+      ],
+      "answers": ["Ich weiß nicht, ob ich am Montag zu Hause bin."]
+    },
+    {
+      "id": "de-a2-u12-l5-ex12",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'If I'm not at home, my neighbour has the key.'?",
+      "options": [
+        { "id": "a", "text": "Wenn ich nicht zu Hause bin, mein Nachbar hat den Schlüssel." },
+        { "id": "b", "text": "Wenn ich bin nicht zu Hause, hat mein Nachbar den Schlüssel." },
+        { "id": "c", "text": "Wenn ich nicht zu Hause bin, hat mein Nachbar den Schlüssel." },
+        { "id": "d", "text": "Wenn ich nicht zu Hause bin, hat mein Nachbar der Schlüssel." }
+      ],
+      "correctOptionId": "c"
+    }
+  ]
+}

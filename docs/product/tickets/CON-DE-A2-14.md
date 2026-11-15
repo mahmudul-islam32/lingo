@@ -91,3 +91,77 @@ _(cto)_
 
 ## Review
 _(pm self-review of CDS-1…19 and criteria 3–8)_
+
+## PM self-review
+
+_2026-11-15 · pm (content writer) · I checked every exercise by hand against CDS-1…19, criteria
+3–8 and the zod schemas in `src/contracts/course.ts`: field names, the `type` discriminator, MC
+option ids, 5 pairs, and that each answer can be built from its tiles under the PD-033
+normalisation in `text.ts`. I checked vocabulary against the A1 appendices, CON-DE-A1-QA, the
+CON-DE-A2-01…12 appendices and the CON-DE-A2-13 appendix (PD-052). The orchestrator runs the
+schema test._
+
+### Files
+- `content/courses/en-de/lessons/de-a2-u14-l1-i-will.json` (12 exercises)
+- `content/courses/en-de/lessons/de-a2-u14-l2-predictions.json` (12)
+- `content/courses/en-de/lessons/de-a2-u14-l3-goals.json` (12)
+- `content/courses/en-de/lessons/de-a2-u14-l4-about-me.json` (12)
+- `content/courses/en-de/lessons/de-a2-u14-l5-a2-checkpoint.json` (14, PD-047)
+- The unit fragment for `course.json` (`de-a2-unit-14.json`) goes to the orchestrator. I did not
+  edit `course.json`.
+
+### Mix per lesson (CDS-2)
+| Lesson | MC | WB (to_learning / to_known) | Match | Listen | Total |
+|---|---|---|---|---|---|
+| L1 | 3 | 5 (3 / 2) | 1 | 3 | 12 |
+| L2 | 3 | 5 (3 / 2) | 1 | 3 | 12 |
+| L3 | 4 | 5 (3 / 2) | 1 | 2 | 12 |
+| L4 | 3 | 5 (3 / 2) | 1 | 3 | 12 |
+| L5 | 3 | 7 (5 / 2) | 1 | 3 | 14 |
+
+### CDS results
+| Rule | Result | Note |
+|---|---|---|
+| CDS-1 Files | PASS (fragment) | Ids and titles match criterion 1. The orchestrator inserts the unit after `de-a2-u13` with `level: "A2"` and bumps `version`. |
+| CDS-2 Mix | PASS | See the table above. L5 has 14 exercises (PD-047 exception); the type mix holds. |
+| CDS-3 Vocabulary | PASS (1 deviation from the outline, see doubt 1) | Each lesson uses every item in its appendix row. Other words come from A1 and A2-01…13. Extras: invented names (Lina, Johanna); real cities (Wien, Berlin, Bonn); forms of taught verbs (`wir werden`, `werdet`, `plane`, `lese`, `bestehe`, `übe`, `ziehen … um`); regular plurals (`Wolken`, `Fragen`, `Kollegen`); adjective endings of taught adjectives and the regular comparative `schneller` (CDS-16). Irregular participles only from appendices (`gefahren`, `umgezogen`, `mitgebracht`); `eingeladen` and `gegeben` are deliberately not used. L5 adds only `geschafft` (`schaffen`) and `die Erinnerung`. |
+| CDS-4 Alternatives | PASS | Time-first / PP-first orders (L1 ex06, ex10, ex12; L2 ex03, ex10; L3 ex06, ex10; L5 ex01, ex05, ex14), object-first short NP (L1 ex12, L3 ex03, L5 ex04), `weil` / `wenn` clause-first (L4 ex08, L5 ex08, ex12), `we're` / `he'll` / `I'll` / `I've`, `autumn` / `fall`, `small` / `little`, `satisfied` / `content`, `trip` / `journey`, `surely` / `definitely`. Listens accept the transcript only. |
+| CDS-5 Distractors | PASS | Every word bank and listen has 2–4 distractors beyond the canonical answer. I left out tiles that would build unlisted valid answers: `machst` (L1 ex03), `mache` (L3 ex03), `denn` (L4 ex08, L5 ex08), `regnet` (L2 ex12), `will` (L1 ex08), `gemacht` (L5 ex14). The remaining distractor combinations make sentences with another meaning (`Heute wird es regnen.`, `Ich kann nicht kommen, weil ich krank bin.`); none of them translates its prompt. |
+| CDS-6 Conventions | PASS | Umlauts and `ß` are correct (`nächstes`, `Prüfung`, `üben`, `glücklich`, `groß`, `schöne`, `Verspätung`, `früh`, `spät`); no capital `ẞ`. Nouns are capitalised and other tiles lower case. No set has both `sie` / `Sie`, `ihr` / `Ihr` or `ihnen` / `Ihnen` (`sie` appears only in L2 ex11). Register is marked: "(to a friend)" in L1 ex03, L3 ex11, L5 ex12. No digits in tiles. Tips use „…“. |
+| CDS-7 MC direction | PASS | English prompts, German options, PD-044 punctuation. |
+| CDS-8 Originality | PASS | All sentences and the checkpoint story are original. No brands, exam names or media titles. |
+| CDS-9 Audio | PASS | All 14 listens use `/audio/de/a2/u14/<id>.mp3`. |
+| CDS-11 Safe | PASS | No legal, visa, medical or exam claims; `erkältet` is used only to describe how Lina felt, with no advice. |
+| CDS-12 Ids | PASS | `de-a2-u14-lN-exNN`, unique. MC options are `a`–`d`, pairs `p1`–`p5`. |
+| CDS-13 Fit | PASS | The longest prompt is 63 characters (L3 ex11). The longest tile is `wahrscheinlich` (14). |
+| CDS-14 Drill | PASS | No row is marked *pattern*, but `werden` is still drilled with typical-error MCs: L1 ex02 (V2 instead of a final infinitive, `wird` for `werde`, a finite form at the end), L1 ex05, L2 ex09 (`wirst`, `kommt`, wrong order), L3 ex11 (separable verb split after `werden`). |
+| CDS-15 Tip | PASS | All 5 tips name the rule and give one German example; the longest is about 150 characters. The L5 tip starts "This lesson reviews all of A2." |
+| CDS-16 | PASS | Endings are nominative / accusative only; no dative attributive adjective is used. |
+| CDS-17 | PASS | No tile set has `ihr` / `Ihr` or `ihnen` / `Ihnen`. |
+| CDS-18 | PASS | Numbers are words (`zehn Minuten`, `einem Jahr`). |
+| CDS-19 | PASS | `war`, `hatte` and `konnte` are Präteritum; other past verbs use the Perfekt (`gekocht`, `gefahren`, `umgezogen`, `mitgebracht`, `geschafft`). "Will" → `werden`. The present is also accepted where the English has a time word and the tiles allow it (L1 ex06, L2 ex03); in the other exercises the present form is not in the tiles. `dass` clauses come after the main clause; `weil` / `wenn` are accepted in both orders. |
+
+### Unit criteria 3–8
+| # | Result | Evidence |
+|---|---|---|
+| 3 | PASS | `werden` + infinitive appears in 15 exercises: L1 ex02–ex07, ex10–ex12; L2 ex03, ex09, ex12; L3 ex03, ex11, ex12; L5 ex14. `ich werde` (L1 ex02, ex06, ex07, ex12), `du wirst` (L1 ex03, ex11; L3 ex11), `er / sie / es wird` (L1 ex05, ex10; L2 ex03, ex09), `wir werden` (L1 ex04). The present is also accepted in L1 ex06 and L2 ex03. |
+| 4 | PASS | `werden` = "become" appears in L2 ex01, ex02, ex04, ex05, ex08, ex10. L2 ex02 is the MC for "It's getting cold." with `Es wird kalt.` (correct), `Es ist kalt.` and `Es werdet kalt.`. |
+| 5 | PASS | Attributive endings in L4 ex02 (acc. `eine kleine`, `eine neue`), ex03 (acc. `ein neues`), ex09 (acc. `einen netten`), ex11 (nom. `meine neue`), ex12 (nom. `meine neue`). |
+| 6 | PASS | 14 exercises, one per unit: U1 ex01 (weather, `aber`), U2 ex02 (Perfekt with `haben`), U3 ex03 (Perfekt with `sein`, `die Erinnerung`), U4 ex04 (dative plural, `mitgebracht`), U5 ex05 (`seit` + dative), U6 ex06 (adjective endings), U7 ex07 (reflexive, `erkältet`), U8 ex08 (`konnte`, `weil`), U9 ex09 (Wohin? + accusative), U10 ex10 (`… Minuten Verspätung`), U11 ex11 (`dass`), U12 ex12 (`wenn`, imperative), U13 ex13 (match: comparison and media), U14 ex14 (`werden`, `stolz`, `Ich habe es geschafft!`). Mix: 3 MC, 7 WB (5 / 2), 1 match, 3 listen. Only `schaffen` and `die Erinnerung` are new. The tip starts "This lesson reviews all of A2." and the story ends on `Ich habe es geschafft!`. |
+| 7 | PASS | `die Prüfung` is a generic exam (`Ich werde die Prüfung machen.`, `Ich hoffe, dass ich die Prüfung bestehe.`). No exam names, levels, pass guarantees or certificates. |
+| 8 | PENDING (orchestrator) | Once this fragment is added after `de-a2-u13`, A2 has 14 units and 70 lessons, provided U11–U13 are merged. |
+
+### Uncertainties / needs native review
+1. **`der Job` is not used.** The outline has `Mein Ziel ist ein neuer Job.` and `einen neuen Job`, but `Job`
+   is in no appendix (PD-052). I used `die Stelle` (U11) instead: `Mein Ziel ist eine neue Stelle.` (L3 ex02),
+   `eine neue Stelle` (L4 ex02, ex12; L5 ex11). The masculine accusative ending is drilled with `einen
+   netten Chef` (L4 ex09). CON-DE-A2-QA may add `der Job` if wanted.
+2. `weiter` is always separated from `lernen` by `Deutsch` (`Ich werde weiter Deutsch lernen.`), because
+   `weiter lernen` with nothing in between is normally written as one word, `weiterlernen`.
+3. L2 ex12 accepts the object-first `Viele Wolken gibt es.` (PD-043 rule 3). It is grammatical but marked.
+4. L3 ex06 accepts `Ich übe abends immer.` and `Abends übe ich immer.`; `Immer übe ich abends.` can be built from the tiles and is rejected as marked.
+5. L5 ex04 accepts the dative-first `Meinen Kollegen habe ich eine Torte mitgebracht.`. Only the plural `Kollegen` is offered, not `Kolleginnen`.
+6. L4 ex02 accepts the swapped coordination (`… eine neue Stelle und eine kleine Wohnung.`).
+7. L2 ex06 translates `Sie kommt sicher.` as "She is surely coming." / "She's definitely coming."; "She's sure to come" is not offered.
+8. L5 ex01 accepts `… aber es ist im Sommer warm.` (marked but grammatical).
+9. **Unit 13 dependency:** L5 ex13 uses `das Handy`, `die Nachrichten`, `schneller`, `am besten` and `so groß wie` from CON-DE-A2-13; these appear in the finished U13 lessons.

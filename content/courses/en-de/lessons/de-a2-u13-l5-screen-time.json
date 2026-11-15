@@ -1,0 +1,215 @@
+{
+  "id": "de-a2-u13-l5-screen-time",
+  "courseId": "en-de",
+  "unitId": "de-a2-u13",
+  "title": "Scenario: Screen Time",
+  "tip": "„Ausschalten“ and „einschalten“ are separable: „Wir schalten die Handys aus.“ Imperative: „Schalt bitte den Laptop aus!“ More or less? mehr – weniger.",
+  "exercises": [
+    {
+      "id": "de-a2-u13-l5-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        { "id": "p1", "learning": "die Bildschirmzeit", "known": "screen time" },
+        { "id": "p2", "learning": "weniger", "known": "less / fewer" },
+        { "id": "p3", "learning": "zu viel", "known": "too much" },
+        { "id": "p4", "learning": "ausschalten", "known": "to switch off" },
+        { "id": "p5", "learning": "einschalten", "known": "to switch on" }
+      ]
+    },
+    {
+      "id": "de-a2-u13-l5-ex02",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a2/u13/de-a2-u13-l5-ex02.mp3" },
+      "tiles": [
+        "Lina",
+        "du",
+        "hast",
+        "heute",
+        "zu",
+        "viel",
+        "Bildschirmzeit",
+        "hat",
+        "weniger",
+        "mehr"
+      ],
+      "answers": ["Lina, du hast heute zu viel Bildschirmzeit."]
+    },
+    {
+      "id": "de-a2-u13-l5-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'Please switch off your phone! (to a child)'?",
+      "options": [
+        { "id": "a", "text": "Ausschalt bitte dein Handy!" },
+        { "id": "b", "text": "Schaltest bitte dein Handy aus!" },
+        { "id": "c", "text": "Schalt bitte dein Handy aus!" },
+        { "id": "d", "text": "Schalt bitte dein Handy ein!" }
+      ],
+      "correctOptionId": "c"
+    },
+    {
+      "id": "de-a2-u13-l5-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Mats, you play on the computer too much.",
+      "tiles": ["Mats", "du", "spielst", "zu", "viel", "am", "Computer", "spielt", "im", "weniger"],
+      "answers": [
+        "Mats, du spielst zu viel am Computer.",
+        "Mats, du spielst am Computer zu viel.",
+        "Mats, am Computer spielst du zu viel."
+      ]
+    },
+    {
+      "id": "de-a2-u13-l5-ex05",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a2/u13/de-a2-u13-l5-ex05.mp3" },
+      "tiles": [
+        "wenn",
+        "wir",
+        "zusammen",
+        "essen",
+        "schalten",
+        "wir",
+        "die",
+        "Handys",
+        "aus",
+        "ein",
+        "dass",
+        "Handy"
+      ],
+      "answers": ["Wenn wir zusammen essen, schalten wir die Handys aus."]
+    },
+    {
+      "id": "de-a2-u13-l5-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "If you're tired, switch off the laptop! (to a child)",
+      "tiles": [
+        "wenn",
+        "du",
+        "müde",
+        "bist",
+        "schalt",
+        "den",
+        "Laptop",
+        "aus",
+        "ein",
+        "der",
+        "ist"
+      ],
+      "answers": [
+        "Wenn du müde bist, schalt den Laptop aus!",
+        "Schalt den Laptop aus, wenn du müde bist!"
+      ]
+    },
+    {
+      "id": "de-a2-u13-l5-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'I want to chat less.'?",
+      "options": [
+        { "id": "a", "text": "Ich will chatten weniger." },
+        { "id": "b", "text": "Ich will weniger chatte." },
+        { "id": "c", "text": "Ich will mehr chatten." },
+        { "id": "d", "text": "Ich will weniger chatten." }
+      ],
+      "correctOptionId": "d"
+    },
+    {
+      "id": "de-a2-u13-l5-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Wie viele Stunden seid ihr pro Tag online?",
+      "tiles": [
+        "how",
+        "many",
+        "hours",
+        "are",
+        "you",
+        "online",
+        "per",
+        "a",
+        "day",
+        "much",
+        "is",
+        "week"
+      ],
+      "answers": [
+        "How many hours are you online per day?",
+        "How many hours a day are you online?",
+        "How many hours per day are you online?",
+        "How many hours are you online a day?"
+      ]
+    },
+    {
+      "id": "de-a2-u13-l5-ex09",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a2/u13/de-a2-u13-l5-ex09.mp3" },
+      "tiles": [
+        "ab",
+        "heute",
+        "haben",
+        "wir",
+        "eine",
+        "Stunde",
+        "Bildschirmzeit",
+        "pro",
+        "Tag",
+        "einen",
+        "Stunden",
+        "hat"
+      ],
+      "answers": ["Ab heute haben wir eine Stunde Bildschirmzeit pro Tag."]
+    },
+    {
+      "id": "de-a2-u13-l5-ex10",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'Lina chats more than Mats.'?",
+      "options": [
+        { "id": "a", "text": "Lina chattet mehr wie Mats." },
+        { "id": "b", "text": "Lina chattet mehr als Mats." },
+        { "id": "c", "text": "Lina chattet viel als Mats." },
+        { "id": "d", "text": "Lina chattet am meisten als Mats." }
+      ],
+      "correctOptionId": "b"
+    },
+    {
+      "id": "de-a2-u13-l5-ex11",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Please switch on the radio. (to two children)",
+      "tiles": ["schaltet", "bitte", "das", "Radio", "ein", "schalt", "aus", "der"],
+      "answers": [
+        "Schaltet bitte das Radio ein!",
+        "Schaltet das Radio bitte ein!",
+        "Bitte schaltet das Radio ein!",
+        "Schaltet das Radio ein, bitte!"
+      ]
+    },
+    {
+      "id": "de-a2-u13-l5-ex12",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Das stimmt. Wir schalten die Handys um acht aus.",
+      "tiles": [
+        "that's",
+        "right",
+        "true",
+        "we",
+        "switch",
+        "off",
+        "the",
+        "phones",
+        "at",
+        "eight",
+        "on",
+        "phone",
+        "seven"
+      ],
+      "answers": [
+        "That's right. We switch off the phones at eight.",
+        "That's true. We switch off the phones at eight.",
+        "That's right. We switch the phones off at eight.",
+        "That's true. We switch the phones off at eight."
+      ]
+    }
+  ]
+}
