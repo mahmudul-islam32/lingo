@@ -163,10 +163,67 @@ describe("useUserProgress (GAM-003 AC9–AC11, AC13)", () => {
     await waitFor(() => expect(result.current).toEqual({ status: "error", progress: null }));
   });
 
-  it("returns status 'error' when hearts can't be read", async () => {
+  it("hearts fail, results OK → success with full hearts (GAM-003 AC15, FIX-003 AC2)", async () => {
+    const warn = vi.spyOn(console, "warn").mockImplementation(() => {});
+    session.progress.listLessonResults.mockResolvedValue([
+      makeResult({ courseId: COURSE, lessonId: "lesson-1", localDate: "2026-11-06" }),
+      makeResult({ courseId: COURSE, lessonId: "lesson-2", localDate: "2026-11-07" }),
+    ]);
+    session.progress.getHearts.mockRejectedValue(new Error("corrupt"));
+    const { result, client, rerender } = setup();
+
+    await waitFor(() => expect(result.current.status).toBe("success"));
+    const progress = UserProgressSchema.parse(result.current.progress);
+    expect(progress).toMatchObject({
+      totalXp: 30,
+      completedLessonIds: ["lesson-1", "lesson-2"],
+      streak: { current: 2, extendedToday: true },
+      dailyGoal: { earnedXp: 15, goalXp: 50, localDate: "2026-11-07" },
+      hearts: { current: GAME_CONFIG.maxHearts },
+    });
+
+    // AC3: one warning per failed read, not per render.
+    rerender();
+    rerender();
+    expect(warn).toHaveBeenCalledTimes(1);
+    // AC4: the fallback is neither saved nor cached (ADR-005).
+    expect(session.progress.saveHearts).not.toHaveBeenCalled();
+    expect(client.getQueryData(queryKeys.hearts())).toBeUndefined();
+  });
+
+  it("warns once more for a second failed hearts read (FIX-003 AC3)", async () => {
+    const warn = vi.spyOn(console, "warn").mockImplementation(() => {});
+    session.progress.getHearts.mockRejectedValue(new Error("corrupt"));
+    const { result, client } = setup();
+    await waitFor(() => expect(result.current.status).toBe("success"));
+    expect(warn).toHaveBeenCalledTimes(1);
+
+    vi.setSystemTime(NOW.getTime() + 1000);
+    await act(() => client.invalidateQueries({ queryKey: queryKeys.hearts() }));
+    await waitFor(() => expect(warn).toHaveBeenCalledTimes(2));
+    expect(result.current.status).toBe("success");
+  });
+
+  it("several hooks on one failed hearts read log one warning (FIX-003 AC3)", async () => {
+    const warn = vi.spyOn(console, "warn").mockImplementation(() => {});
+    session.progress.getHearts.mockRejectedValue(new Error("corrupt"));
+    const client = createTestQueryClient();
+    const { result } = renderHook(
+      () => [useUserProgress(COURSE, { timeZone: TZ }), useUserProgress(COURSE, { timeZone: TZ })],
+      { wrapper: createQueryWrapper(client) },
+    );
+    await waitFor(() =>
+      expect(result.current.map((p) => p.status)).toEqual(["success", "success"]),
+    );
+    expect(warn).toHaveBeenCalledTimes(1);
+  });
+
+  it("results fail and hearts fail → error (AC11, FIX-003 AC5)", async () => {
+    vi.spyOn(console, "warn").mockImplementation(() => {});
+    session.progress.listLessonResults.mockRejectedValue(new Error("quota"));
     session.progress.getHearts.mockRejectedValue(new Error("corrupt"));
     const { result } = setup();
-    await waitFor(() => expect(result.current.status).toBe("error"));
+    await waitFor(() => expect(result.current).toEqual({ status: "error", progress: null }));
   });
 });
 
@@ -183,5 +240,37 @@ describe("useProgressInputs (raw inputs for LES-010)", () => {
     await waitFor(() => expect(result.current.status).toBe("success"));
     expect(result.current).toMatchObject({ results, hearts, goalXp: 50, today: "2026-11-07" });
     expect(result.current.now.toISOString()).toBe(NOW.toISOString());
+  });
+
+  it("hearts fail, results OK → success with full hearts and the real results (FIX-003 AC1)", async () => {
+    vi.spyOn(console, "warn").mockImplementation(() => {});
+    const results = [makeResult({ courseId: COURSE })];
+    session.progress.listLessonResults.mockResolvedValue(results);
+    session.progress.getHearts.mockRejectedValue(new Error("corrupt"));
+    const { result } = renderHook(() => useProgressInputs(COURSE, { timeZone: TZ }), {
+      wrapper: createQueryWrapper(),
+    });
+    await waitFor(() => expect(result.current.status).toBe("success"));
+    expect(result.current.results).toBe(results);
+    expect(result.current.hearts).toEqual(createFullHearts(result.current.now));
+  });
+
+  it("keeps cached hearts when only a refetch of them fails", async () => {
+    vi.spyOn(console, "warn").mockImplementation(() => {});
+    const client = createTestQueryClient();
+    const stored = HeartsStateSchema.parse({
+      current: 2,
+      refillStartedAt: NOW.toISOString(),
+      updatedAt: NOW.toISOString(),
+    });
+    session.progress.getHearts.mockResolvedValue(stored);
+    const { result } = renderHook(() => useProgressInputs(COURSE, { timeZone: TZ }), {
+      wrapper: createQueryWrapper(client),
+    });
+    await waitFor(() => expect(result.current.status).toBe("success"));
+    session.progress.getHearts.mockRejectedValue(new Error("corrupt"));
+    await act(() => client.refetchQueries({ queryKey: queryKeys.hearts() }));
+    await waitFor(() => expect(client.getQueryState(queryKeys.hearts())?.status).toBe("error"));
+    expect(result.current).toMatchObject({ status: "success", hearts: stored });
   });
 });
