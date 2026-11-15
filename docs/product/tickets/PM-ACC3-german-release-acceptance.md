@@ -37,7 +37,7 @@
 | v0.3.1 German A1 part 1 | **Not ready.** 7 of 8 accepted | LES-014 pending #55 |
 | v0.3.2 German A1 part 2 | **Accepted** (all 4) | none of its own; release order (PD-054) |
 | v0.3.3 German A1 part 3 + QA | **Not ready.** 4 of 5 accepted | CON-DE-A1-QA criterion 7 FAIL → **FIX-004** (needs #55) |
-| v0.5.0 German A2 | **Not ready.** 15 of 16 required tickets accepted | CON-DE-A2-QA pending merge of `docs/con-de-a2-qa` (criterion 11 voice part pending #55) |
+| v0.5.0 German A2 | **Not ready.** 15 of 16 required tickets accepted | CON-DE-A2-QA merged as #64 after this review (criterion 11 voice part pending #55) |
 
 CTO-009 and LES-015 (cloze) haven't started (no `cloze` in `src/`). They are non-blocking
 (PD-049) and move to v0.5.1 (ROADMAP).
@@ -305,7 +305,7 @@ Every unit ticket has 8 criteria: 1 = unit id, title, description and lesson ord
 All 130 German lessons have a `tip` (count of `"tip"` in `content/courses/en-de/lessons`), so
 LES-013 shows a card before every German lesson.
 
-### CON-DE-A2-QA — **PASS pending merge of `docs/con-de-a2-qa`**
+### CON-DE-A2-QA — **PASS (merged as #64, 14f302a, after this review)**
 | # | Verdict | Evidence (report in `/home/user/lingo-de2-qa/docs/product/tickets/CON-DE-A2-QA.md`) |
 |---|---|---|
 | 1 | PASS pending merge | 0 open. 3 appendix additions (`lange`, `sagen`, `kommen`). The mechanical lexical scan is recommended, not blocking (accepted by the pm, see below) |
@@ -343,7 +343,7 @@ accept it now.
 They move to **v0.5.1** together with the A2 cloze content follow-up (ROADMAP, PD-049).
 
 **v0.5.0 verdict: not ready.** What blocks it:
-1. Merge `docs/con-de-a2-qa` (A2 QA edits, course `version` 16).
+1. ~~Merge `docs/con-de-a2-qa`~~ Done: #64 (A2 QA edits, course `version` 16).
 2. #55 merged and LES-014 re-checked, because A2 QA criterion 11 needs the German voice and
    LES-013 lists it.
 
