@@ -1,0 +1,231 @@
+{
+  "id": "de-a2-u13-l4-news-and-opinions",
+  "courseId": "en-de",
+  "unitId": "de-a2-u13",
+  "title": "News and Opinions",
+  "tip": "After „meiner Meinung nach“ the verb comes next: „Meiner Meinung nach ist die Werbung zu laut.“ After dass it goes to the end: „…, dass der Artikel interessant ist.“",
+  "exercises": [
+    {
+      "id": "de-a2-u13-l4-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        { "id": "p1", "learning": "die Zeitung", "known": "the newspaper" },
+        { "id": "p2", "learning": "das Radio", "known": "the radio" },
+        { "id": "p3", "learning": "der Artikel", "known": "the article" },
+        { "id": "p4", "learning": "die Werbung", "known": "advertising / the ads" },
+        { "id": "p5", "learning": "das stimmt", "known": "that's right" }
+      ]
+    },
+    {
+      "id": "de-a2-u13-l4-ex02",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a2/u13/de-a2-u13-l4-ex02.mp3" },
+      "tiles": ["ich", "lese", "die", "Zeitung", "online", "liest", "der", "Radio"],
+      "answers": ["Ich lese die Zeitung online."]
+    },
+    {
+      "id": "de-a2-u13-l4-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'In my opinion, the ads are too loud.'?",
+      "options": [
+        { "id": "a", "text": "Meiner Meinung nach die Werbung ist zu laut." },
+        { "id": "b", "text": "Meiner Meinung nach ist die Werbung zu laut." },
+        { "id": "c", "text": "Meine Meinung nach ist die Werbung zu laut." },
+        { "id": "d", "text": "Meiner Meinung nach ist die Werbung zu leise." }
+      ],
+      "correctOptionId": "b"
+    },
+    {
+      "id": "de-a2-u13-l4-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "The news is on the radio at eight.",
+      "tiles": [
+        "im",
+        "Radio",
+        "kommen",
+        "um",
+        "acht",
+        "die",
+        "Nachrichten",
+        "kommt",
+        "am",
+        "Nachricht"
+      ],
+      "answers": [
+        "Im Radio kommen um acht die Nachrichten.",
+        "Im Radio kommen die Nachrichten um acht.",
+        "Um acht kommen im Radio die Nachrichten.",
+        "Um acht kommen die Nachrichten im Radio.",
+        "Die Nachrichten kommen um acht im Radio.",
+        "Die Nachrichten kommen im Radio um acht."
+      ]
+    },
+    {
+      "id": "de-a2-u13-l4-ex05",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a2/u13/de-a2-u13-l4-ex05.mp3" },
+      "tiles": [
+        "meiner",
+        "Meinung",
+        "nach",
+        "ist",
+        "der",
+        "Artikel",
+        "zu",
+        "lang",
+        "meine",
+        "die",
+        "sind"
+      ],
+      "answers": ["Meiner Meinung nach ist der Artikel zu lang."]
+    },
+    {
+      "id": "de-a2-u13-l4-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I think that the article is interesting.",
+      "tiles": [
+        "ich",
+        "finde",
+        "dass",
+        "der",
+        "Artikel",
+        "interessant",
+        "ist",
+        "das",
+        "sind",
+        "denn"
+      ],
+      "answers": [
+        "Ich finde, dass der Artikel interessant ist.",
+        "Ich finde, der Artikel ist interessant.",
+        "Der Artikel ist interessant, finde ich."
+      ]
+    },
+    {
+      "id": "de-a2-u13-l4-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'I think that the newspaper is too expensive.'?",
+      "options": [
+        { "id": "a", "text": "Ich glaube, dass die Zeitung zu teuer ist." },
+        { "id": "b", "text": "Ich glaube, dass die Zeitung ist zu teuer." },
+        { "id": "c", "text": "Ich glaube, die Zeitung zu teuer ist." },
+        { "id": "d", "text": "Ich glaube, dass die Zeitung zu teuer sind." }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "de-a2-u13-l4-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Das stimmt. Die Werbung im Radio ist zu laut.",
+      "tiles": [
+        "that's",
+        "right",
+        "true",
+        "the",
+        "ads",
+        "advertising",
+        "on",
+        "the",
+        "radio",
+        "are",
+        "is",
+        "too",
+        "loud",
+        "quiet",
+        "newspaper",
+        "very"
+      ],
+      "answers": [
+        "That's right. The ads on the radio are too loud.",
+        "That's true. The ads on the radio are too loud.",
+        "That's right. The advertising on the radio is too loud.",
+        "That's true. The advertising on the radio is too loud."
+      ]
+    },
+    {
+      "id": "de-a2-u13-l4-ex09",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a2/u13/de-a2-u13-l4-ex09.mp3" },
+      "tiles": [
+        "liest",
+        "du",
+        "die",
+        "Zeitung",
+        "oder",
+        "hörst",
+        "du",
+        "Radio",
+        "aber",
+        "lest",
+        "hört"
+      ],
+      "answers": ["Liest du die Zeitung oder hörst du Radio?"]
+    },
+    {
+      "id": "de-a2-u13-l4-ex10",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'What's your opinion? (to a friend)'?",
+      "options": [
+        { "id": "a", "text": "Was ist dein Meinung?" },
+        { "id": "b", "text": "Was ist deine Meinung?" },
+        { "id": "c", "text": "Was ist deiner Meinung?" },
+        { "id": "d", "text": "Was sind deine Meinung?" }
+      ],
+      "correctOptionId": "b"
+    },
+    {
+      "id": "de-a2-u13-l4-ex11",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "In my opinion, the radio is better than the newspaper.",
+      "tiles": [
+        "meiner",
+        "Meinung",
+        "nach",
+        "ist",
+        "das",
+        "Radio",
+        "besser",
+        "als",
+        "die",
+        "Zeitung",
+        "wie",
+        "guter",
+        "meine"
+      ],
+      "answers": [
+        "Meiner Meinung nach ist das Radio besser als die Zeitung.",
+        "Das Radio ist meiner Meinung nach besser als die Zeitung."
+      ]
+    },
+    {
+      "id": "de-a2-u13-l4-ex12",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Ich finde, dass die Nachrichten im Radio wichtig sind.",
+      "tiles": [
+        "I",
+        "think",
+        "that",
+        "the",
+        "news",
+        "on",
+        "the",
+        "radio",
+        "is",
+        "important",
+        "are",
+        "message",
+        "newspaper"
+      ],
+      "answers": [
+        "I think that the news on the radio is important.",
+        "I think the news on the radio is important.",
+        "The news on the radio is important, I think."
+      ]
+    }
+  ]
+}

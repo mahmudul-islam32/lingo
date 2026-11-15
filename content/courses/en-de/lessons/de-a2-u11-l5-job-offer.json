@@ -1,0 +1,238 @@
+{
+  "id": "de-a2-u11-l5-job-offer",
+  "courseId": "en-de",
+  "unitId": "de-a2-u11",
+  "title": "Scenario: The Job Offer",
+  "tip": "A Zusage says yes, an Absage says no. After dass the modal still goes last: „Ich glaube, dass ich gut im Team arbeiten kann.“",
+  "exercises": [
+    {
+      "id": "de-a2-u11-l5-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        { "id": "p1", "learning": "die Zusage", "known": "the job offer / acceptance" },
+        { "id": "p2", "learning": "die Absage", "known": "the rejection" },
+        { "id": "p3", "learning": "der Vertrag", "known": "the contract" },
+        { "id": "p4", "learning": "die Chefin", "known": "the boss (female)" },
+        { "id": "p5", "learning": "das Team", "known": "the team" }
+      ]
+    },
+    {
+      "id": "de-a2-u11-l5-ex02",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a2/u11/de-a2-u11-l5-ex02.mp3" },
+      "tiles": [
+        "guten",
+        "Tag",
+        "Frau",
+        "Okoye",
+        "hier",
+        "spricht",
+        "Martin",
+        "Brandt",
+        "Sie",
+        "haben",
+        "die",
+        "Stelle",
+        "hat",
+        "der",
+        "sprichst"
+      ],
+      "answers": ["Guten Tag, Frau Okoye. Hier spricht Martin Brandt. Sie haben die Stelle!"]
+    },
+    {
+      "id": "de-a2-u11-l5-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which one means 'the job offer'?",
+      "options": [
+        { "id": "a", "text": "die Zusage" },
+        { "id": "b", "text": "die Absage" },
+        { "id": "c", "text": "der Vertrag" },
+        { "id": "d", "text": "das Gehalt" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "de-a2-u11-l5-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I'm glad because I have a job offer!",
+      "tiles": [
+        "ich",
+        "freue",
+        "mich",
+        "weil",
+        "ich",
+        "eine",
+        "Zusage",
+        "habe",
+        "hast",
+        "mir",
+        "einen"
+      ],
+      "answers": [
+        "Ich freue mich, weil ich eine Zusage habe!",
+        "Weil ich eine Zusage habe, freue ich mich!"
+      ]
+    },
+    {
+      "id": "de-a2-u11-l5-ex05",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a2/u11/de-a2-u11-l5-ex05.mp3" },
+      "tiles": ["herzlichen", "Glückwunsch", "wann", "fängst", "du", "an", "fange", "wo", "fängt"],
+      "answers": ["Herzlichen Glückwunsch! Wann fängst du an?"]
+    },
+    {
+      "id": "de-a2-u11-l5-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "The boss shows me the office.",
+      "tiles": [
+        "der",
+        "Chef",
+        "die",
+        "Chefin",
+        "zeigt",
+        "mir",
+        "das",
+        "Büro",
+        "mich",
+        "zeige",
+        "dem"
+      ],
+      "answers": [
+        "Der Chef zeigt mir das Büro.",
+        "Die Chefin zeigt mir das Büro.",
+        "Mir zeigt der Chef das Büro.",
+        "Mir zeigt die Chefin das Büro.",
+        "Das Büro zeigt mir der Chef.",
+        "Das Büro zeigt mir die Chefin."
+      ]
+    },
+    {
+      "id": "de-a2-u11-l5-ex07",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I think that I can work well in a team.",
+      "tiles": [
+        "ich",
+        "glaube",
+        "dass",
+        "ich",
+        "gut",
+        "im",
+        "Team",
+        "arbeiten",
+        "kann",
+        "kannst",
+        "in",
+        "glaubst"
+      ],
+      "answers": [
+        "Ich glaube, dass ich gut im Team arbeiten kann.",
+        "Ich glaube, dass ich im Team gut arbeiten kann.",
+        "Ich glaube, ich kann gut im Team arbeiten.",
+        "Ich glaube, ich kann im Team gut arbeiten.",
+        "Ich glaube, im Team kann ich gut arbeiten.",
+        "Ich kann gut im Team arbeiten, glaube ich.",
+        "Ich kann im Team gut arbeiten, glaube ich.",
+        "Im Team kann ich gut arbeiten, glaube ich."
+      ]
+    },
+    {
+      "id": "de-a2-u11-l5-ex08",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'Here is your contract. (formal)'?",
+      "options": [
+        { "id": "a", "text": "Hier ist Ihr Vertrag." },
+        { "id": "b", "text": "Hier ist Ihre Vertrag." },
+        { "id": "c", "text": "Hier ist Ihren Vertrag." },
+        { "id": "d", "text": "Hier sind Ihr Vertrag." }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "de-a2-u11-l5-ex09",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Ich glaube, dass die Chefin meinen Lebenslauf gelesen hat.",
+      "tiles": [
+        "I",
+        "think",
+        "that",
+        "the",
+        "boss",
+        "read",
+        "my",
+        "CV",
+        "has",
+        "your",
+        "reads",
+        "a"
+      ],
+      "answers": [
+        "I think that the boss read my CV.",
+        "I think the boss read my CV.",
+        "I think that the boss has read my CV.",
+        "I think the boss has read my CV.",
+        "The boss read my CV, I think.",
+        "The boss has read my CV, I think."
+      ]
+    },
+    {
+      "id": "de-a2-u11-l5-ex10",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a2/u11/de-a2-u11-l5-ex10.mp3" },
+      "tiles": [
+        "willkommen",
+        "im",
+        "Team",
+        "das",
+        "ist",
+        "Ihre",
+        "Kollegin",
+        "Frau",
+        "Mensah",
+        "Ihr",
+        "Kollege",
+        "Herr"
+      ],
+      "answers": ["Willkommen im Team! Das ist Ihre Kollegin, Frau Mensah."]
+    },
+    {
+      "id": "de-a2-u11-l5-ex11",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I applied as a hairdresser.",
+      "tiles": [
+        "ich",
+        "habe",
+        "mich",
+        "als",
+        "Friseur",
+        "Friseurin",
+        "beworben",
+        "bin",
+        "mir",
+        "bewerbe"
+      ],
+      "answers": [
+        "Ich habe mich als Friseurin beworben.",
+        "Ich habe mich als Friseur beworben.",
+        "Als Friseurin habe ich mich beworben.",
+        "Als Friseur habe ich mich beworben."
+      ]
+    },
+    {
+      "id": "de-a2-u11-l5-ex12",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'When can I start?'",
+      "options": [
+        { "id": "a", "text": "Wann kann ich anfangen?" },
+        { "id": "b", "text": "Wann kann ich fangen an?" },
+        { "id": "c", "text": "Wann ich kann anfangen?" },
+        { "id": "d", "text": "Wann kann ich anfange?" }
+      ],
+      "correctOptionId": "a"
+    }
+  ]
+}

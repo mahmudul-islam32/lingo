@@ -227,10 +227,13 @@ listen; `Ich laufe in den Park.`, `Mein Hals ist kalt.`, `Have you no rice?` and
    Fahrkarte, hin und zurück.`, u10-l5-ex04 `Frei ist die Wohnung ab sofort.`, u11-l3-ex03
    `Fieber habe ich seit gestern.`
 4. u09-l5-ex08 / ex11 and u09-l5-ex04: `Gehen Sie hier rechts.` / `Gehen Sie links …` vs
-   `nach rechts / nach links`.
+   `nach rechts / nach links`. **Resolved in A2** (CON-DE-A2-QA): `nach links / nach rechts`
+   is taught in de-a2-u05-l2 (ex01, ex06, ex12).
 5. u11-l4-ex06: `Wie heißt Ihre Krankenkasse?` (vs the dative `Bei welcher Krankenkasse sind
-   Sie?`, A2).
+   Sie?`, A2). **Resolved in A2** (CON-DE-A2-QA): `Bei welcher Krankenkasse sind Sie?` is
+   taught in de-a2-u07-l4 (ex08, ex11).
 6. u12-l3-ex04: `Ich möchte die Anmeldung machen.` (vs `mich anmelden`, not taught).
+   **Resolved in A2** (CON-DE-A2-QA): `sich anmelden` is taught in de-a2-u12-l2 (ex02, ex03).
 7. u05-l3-ex11: `eine Packung Butter` (vs `ein Stück Butter`).
 8. All new German written in this QA pass: u03-l3-ex07, ex09, u03-l4-ex08 (`Haben Sie die
    Handynummer?`), u05-l5-ex07, ex10, ex12 (`Den Kassenbon, bitte.`), u08-l3-ex10,

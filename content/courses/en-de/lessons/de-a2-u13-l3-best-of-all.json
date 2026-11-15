@@ -1,0 +1,150 @@
+{
+  "id": "de-a2-u13-l3-best-of-all",
+  "courseId": "en-de",
+  "unitId": "de-a2-u13",
+  "title": "Best of All",
+  "tip": "Superlative: am …-sten, „Im Winter ist es am kältesten.“ gut, besser, am besten; gern, lieber, am liebsten; viel, mehr, am meisten. Die Nachrichten = the news (die Nachricht = message).",
+  "exercises": [
+    {
+      "id": "de-a2-u13-l3-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        { "id": "p1", "learning": "die Sendung", "known": "the programme / show" },
+        { "id": "p2", "learning": "der Krimi", "known": "the crime show" },
+        { "id": "p3", "learning": "die Nachrichten", "known": "the news" },
+        { "id": "p4", "learning": "am liebsten", "known": "like best / most of all" },
+        { "id": "p5", "learning": "am besten", "known": "best" }
+      ]
+    },
+    {
+      "id": "de-a2-u13-l3-ex02",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a2/u13/de-a2-u13-l3-ex02.mp3" },
+      "tiles": ["ich", "sehe", "am", "liebsten", "Krimis", "lieber", "besten", "siehst"],
+      "answers": ["Ich sehe am liebsten Krimis."]
+    },
+    {
+      "id": "de-a2-u13-l3-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'This show is the best.'?",
+      "options": [
+        { "id": "a", "text": "Diese Sendung ist am gutesten." },
+        { "id": "b", "text": "Diese Sendung ist am besten." },
+        { "id": "c", "text": "Diese Sendung ist am beste." },
+        { "id": "d", "text": "Diese Sendung ist besser." }
+      ],
+      "correctOptionId": "b"
+    },
+    {
+      "id": "de-a2-u13-l3-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Who reads the most?",
+      "tiles": ["wer", "liest", "am", "meisten", "mehr", "wie", "lesen"],
+      "answers": ["Wer liest am meisten?"]
+    },
+    {
+      "id": "de-a2-u13-l3-ex05",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a2/u13/de-a2-u13-l3-ex05.mp3" },
+      "tiles": ["im", "Winter", "ist", "es", "am", "kältesten", "kälter", "Sommer", "als"],
+      "answers": ["Im Winter ist es am kältesten."]
+    },
+    {
+      "id": "de-a2-u13-l3-ex06",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'The news is on at eight.'?",
+      "options": [
+        { "id": "a", "text": "Die Nachricht kommt um acht." },
+        { "id": "b", "text": "Die Nachrichten kommt um acht." },
+        { "id": "c", "text": "Die Nachrichten kommen am acht." },
+        { "id": "d", "text": "Die Nachrichten kommen um acht." }
+      ],
+      "correctOptionId": "d"
+    },
+    {
+      "id": "de-a2-u13-l3-ex07",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Mein Bruder ist am ältesten.",
+      "tiles": ["my", "brother", "is", "the", "oldest", "older", "a", "sister"],
+      "answers": ["My brother is the oldest.", "My brother is oldest."]
+    },
+    {
+      "id": "de-a2-u13-l3-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Welche Sendung siehst du am liebsten?",
+      "tiles": [
+        "which",
+        "what",
+        "show",
+        "programme",
+        "do",
+        "you",
+        "like",
+        "watching",
+        "best",
+        "are",
+        "better",
+        "more"
+      ],
+      "answers": [
+        "Which show do you like watching best?",
+        "Which programme do you like watching best?",
+        "What show do you like watching best?",
+        "What programme do you like watching best?",
+        "Which show do you like best?",
+        "Which programme do you like best?",
+        "What show do you like best?",
+        "What programme do you like best?"
+      ]
+    },
+    {
+      "id": "de-a2-u13-l3-ex09",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a2/u13/de-a2-u13-l3-ex09.mp3" },
+      "tiles": [
+        "mein",
+        "Vater",
+        "sieht",
+        "am",
+        "liebsten",
+        "die",
+        "Nachrichten",
+        "Nachricht",
+        "lieber",
+        "siehst"
+      ],
+      "answers": ["Mein Vater sieht am liebsten die Nachrichten."]
+    },
+    {
+      "id": "de-a2-u13-l3-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Which app is the fastest?",
+      "tiles": ["welche", "App", "ist", "am", "schnellsten", "schneller", "welcher", "als"],
+      "answers": ["Welche App ist am schnellsten?"]
+    },
+    {
+      "id": "de-a2-u13-l3-ex11",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'I like crime shows, but I like the news best.'?",
+      "options": [
+        { "id": "a", "text": "Ich sehe gern Krimis, aber am liebsten ich sehe die Nachrichten." },
+        { "id": "b", "text": "Ich sehe gern Krimis, aber am gernsten sehe ich die Nachrichten." },
+        { "id": "c", "text": "Ich sehe gern Krimis, aber am liebsten sehe ich die Nachrichten." },
+        { "id": "d", "text": "Ich sehe gern Krimis, aber am lieber sehe ich die Nachrichten." }
+      ],
+      "correctOptionId": "c"
+    },
+    {
+      "id": "de-a2-u13-l3-ex12",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "My daughter likes reading most of all.",
+      "tiles": ["meine", "Tochter", "liest", "am", "liebsten", "lieber", "lest", "mein"],
+      "answers": ["Meine Tochter liest am liebsten.", "Am liebsten liest meine Tochter."]
+    }
+  ]
+}

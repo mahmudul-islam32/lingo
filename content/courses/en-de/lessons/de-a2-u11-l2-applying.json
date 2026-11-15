@@ -1,0 +1,189 @@
+{
+  "id": "de-a2-u11-l2-applying",
+  "courseId": "en-de",
+  "unitId": "de-a2-u11",
+  "title": "Applying",
+  "tip": "sich bewerben is reflexive: „Ich bewerbe mich als Ingenieur.“ In the Perfekt, mich goes after habe: „Ich habe mich bei einer Firma beworben.“",
+  "exercises": [
+    {
+      "id": "de-a2-u11-l2-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        { "id": "p1", "learning": "sich bewerben", "known": "to apply (for a job)" },
+        { "id": "p2", "learning": "die Bewerbung", "known": "the application" },
+        { "id": "p3", "learning": "der Lebenslauf", "known": "the CV / résumé" },
+        { "id": "p4", "learning": "das Zeugnis", "known": "the certificate / reference" },
+        { "id": "p5", "learning": "die Ausbildung", "known": "the vocational training" }
+      ]
+    },
+    {
+      "id": "de-a2-u11-l2-ex02",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a2/u11/de-a2-u11-l2-ex02.mp3" },
+      "tiles": ["ich", "bewerbe", "mich", "als", "Lehrerin", "in", "Graz", "dich", "mir", "bin"],
+      "answers": ["Ich bewerbe mich als Lehrerin in Graz."]
+    },
+    {
+      "id": "de-a2-u11-l2-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'I applied to a company in Cologne.'?",
+      "options": [
+        { "id": "a", "text": "Ich habe mich bei einer Firma in Köln beworben." },
+        { "id": "b", "text": "Ich habe bei einer Firma in Köln beworben." },
+        { "id": "c", "text": "Ich bin mich bei einer Firma in Köln beworben." },
+        { "id": "d", "text": "Ich habe mich bei einer Firma in Köln bewerbt." }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "de-a2-u11-l2-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I'm applying as an engineer.",
+      "tiles": ["ich", "bewerbe", "mich", "als", "Ingenieur", "Ingenieurin", "mir", "ein", "bin"],
+      "answers": [
+        "Ich bewerbe mich als Ingenieur.",
+        "Ich bewerbe mich als Ingenieurin.",
+        "Als Ingenieur bewerbe ich mich.",
+        "Als Ingenieurin bewerbe ich mich."
+      ]
+    },
+    {
+      "id": "de-a2-u11-l2-ex05",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a2/u11/de-a2-u11-l2-ex05.mp3" },
+      "tiles": [
+        "hier",
+        "ist",
+        "mein",
+        "Lebenslauf",
+        "das",
+        "Zeugnis",
+        "schicke",
+        "ich",
+        "morgen",
+        "meine",
+        "schickst",
+        "der"
+      ],
+      "answers": ["Hier ist mein Lebenslauf. Das Zeugnis schicke ich morgen."]
+    },
+    {
+      "id": "de-a2-u11-l2-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Ich habe in Indien studiert.",
+      "tiles": ["I", "studied", "in", "India", "study", "Germany", "from"],
+      "answers": ["I studied in India."]
+    },
+    {
+      "id": "de-a2-u11-l2-ex07",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I did my training as a nurse.",
+      "tiles": [
+        "ich",
+        "habe",
+        "meine",
+        "Ausbildung",
+        "als",
+        "Krankenpfleger",
+        "Krankenpflegerin",
+        "gemacht",
+        "bin",
+        "mein",
+        "macht"
+      ],
+      "answers": [
+        "Ich habe meine Ausbildung als Krankenpflegerin gemacht.",
+        "Ich habe meine Ausbildung als Krankenpfleger gemacht.",
+        "Meine Ausbildung habe ich als Krankenpflegerin gemacht.",
+        "Meine Ausbildung habe ich als Krankenpfleger gemacht.",
+        "Ich habe als Krankenpflegerin meine Ausbildung gemacht.",
+        "Ich habe als Krankenpfleger meine Ausbildung gemacht.",
+        "Als Krankenpflegerin habe ich meine Ausbildung gemacht.",
+        "Als Krankenpfleger habe ich meine Ausbildung gemacht."
+      ]
+    },
+    {
+      "id": "de-a2-u11-l2-ex08",
+      "type": "multiple_choice",
+      "prompt": "Which one means 'the application'?",
+      "options": [
+        { "id": "a", "text": "die Bewerbung" },
+        { "id": "b", "text": "der Bewerbung" },
+        { "id": "c", "text": "das Bewerbung" },
+        { "id": "d", "text": "die Ausbildung" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "de-a2-u11-l2-ex09",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I'm applying because the job is interesting.",
+      "tiles": [
+        "ich",
+        "bewerbe",
+        "mich",
+        "weil",
+        "die",
+        "Stelle",
+        "interessant",
+        "ist",
+        "sind",
+        "mir",
+        "der"
+      ],
+      "answers": [
+        "Ich bewerbe mich, weil die Stelle interessant ist.",
+        "Weil die Stelle interessant ist, bewerbe ich mich."
+      ]
+    },
+    {
+      "id": "de-a2-u11-l2-ex10",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a2/u11/de-a2-u11-l2-ex10.mp3" },
+      "tiles": [
+        "mein",
+        "Studium",
+        "war",
+        "in",
+        "Zürich",
+        "dann",
+        "habe",
+        "ich",
+        "in",
+        "Wien",
+        "gearbeitet",
+        "ist",
+        "bin",
+        "arbeite"
+      ],
+      "answers": ["Mein Studium war in Zürich. Dann habe ich in Wien gearbeitet."]
+    },
+    {
+      "id": "de-a2-u11-l2-ex11",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'Where did you study? (formal)'?",
+      "options": [
+        { "id": "a", "text": "Wo haben Sie studiert?" },
+        { "id": "b", "text": "Wo sind Sie studiert?" },
+        { "id": "c", "text": "Wo haben Sie gestudiert?" },
+        { "id": "d", "text": "Wo haben Sie studieren?" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "de-a2-u11-l2-ex12",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Ich musste die Bewerbung gestern schicken.",
+      "tiles": ["I", "had", "to", "send", "the", "application", "yesterday", "sent", "a", "letter"],
+      "answers": [
+        "I had to send the application yesterday.",
+        "Yesterday I had to send the application."
+      ]
+    }
+  ]
+}

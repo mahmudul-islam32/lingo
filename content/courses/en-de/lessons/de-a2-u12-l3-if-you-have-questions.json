@@ -1,0 +1,211 @@
+{
+  "id": "de-a2-u12-l3-if-you-have-questions",
+  "courseId": "en-de",
+  "unitId": "de-a2-u12",
+  "title": "If You Have Questions",
+  "tip": "wenn sends the verb to the end. Clause first? Then verb, comma, verb: „Wenn Sie Fragen haben, rufen Sie uns an.“ Don't mix it up with wann? (when?), which asks a question.",
+  "exercises": [
+    {
+      "id": "de-a2-u12-l3-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        { "id": "p1", "learning": "das Dokument", "known": "the document" },
+        { "id": "p2", "learning": "die Öffnungszeiten", "known": "the opening hours" },
+        { "id": "p3", "learning": "schriftlich", "known": "in writing" },
+        { "id": "p4", "learning": "persönlich", "known": "in person" },
+        { "id": "p5", "learning": "geschlossen", "known": "closed" }
+      ]
+    },
+    {
+      "id": "de-a2-u12-l3-ex02",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a2/u12/de-a2-u12-l3-ex02.mp3" },
+      "tiles": [
+        "wenn",
+        "Sie",
+        "Fragen",
+        "haben",
+        "rufen",
+        "Sie",
+        "uns",
+        "an",
+        "Frage",
+        "rufst",
+        "euch"
+      ],
+      "answers": ["Wenn Sie Fragen haben, rufen Sie uns an."]
+    },
+    {
+      "id": "de-a2-u12-l3-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'If you have questions, call us. (formal)'?",
+      "options": [
+        { "id": "a", "text": "Wenn Sie Fragen haben, Sie rufen uns an." },
+        { "id": "b", "text": "Wenn Sie haben Fragen, rufen Sie uns an." },
+        { "id": "c", "text": "Wenn Sie Fragen haben, rufen Sie uns an." },
+        { "id": "d", "text": "Wenn Sie Fragen haben, rufen uns Sie an." }
+      ],
+      "correctOptionId": "c"
+    },
+    {
+      "id": "de-a2-u12-l3-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "If a document is missing, we'll send you a letter. (formal)",
+      "tiles": [
+        "wenn",
+        "ein",
+        "Dokument",
+        "fehlt",
+        "schicken",
+        "wir",
+        "Ihnen",
+        "einen",
+        "Brief",
+        "fehlen",
+        "dir",
+        "eine"
+      ],
+      "answers": [
+        "Wenn ein Dokument fehlt, schicken wir Ihnen einen Brief.",
+        "Wir schicken Ihnen einen Brief, wenn ein Dokument fehlt.",
+        "Einen Brief schicken wir Ihnen, wenn ein Dokument fehlt.",
+        "Ihnen schicken wir einen Brief, wenn ein Dokument fehlt."
+      ]
+    },
+    {
+      "id": "de-a2-u12-l3-ex05",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "You can do that in writing or in person. (formal)",
+      "tiles": [
+        "Sie",
+        "können",
+        "das",
+        "schriftlich",
+        "oder",
+        "persönlich",
+        "machen",
+        "kannst",
+        "aber",
+        "macht"
+      ],
+      "answers": [
+        "Sie können das schriftlich oder persönlich machen.",
+        "Sie können das persönlich oder schriftlich machen.",
+        "Das können Sie schriftlich oder persönlich machen.",
+        "Das können Sie persönlich oder schriftlich machen.",
+        "Schriftlich oder persönlich können Sie das machen.",
+        "Persönlich oder schriftlich können Sie das machen."
+      ]
+    },
+    {
+      "id": "de-a2-u12-l3-ex06",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a2/u12/de-a2-u12-l3-ex06.mp3" },
+      "tiles": [
+        "das",
+        "Bürgeramt",
+        "ist",
+        "am",
+        "Freitag",
+        "geschlossen",
+        "geöffnet",
+        "im",
+        "sind"
+      ],
+      "answers": ["Das Bürgeramt ist am Freitag geschlossen."]
+    },
+    {
+      "id": "de-a2-u12-l3-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'When is the citizens' office open?'",
+      "options": [
+        { "id": "a", "text": "Wann das Bürgeramt ist geöffnet?" },
+        { "id": "b", "text": "Wenn ist das Bürgeramt geöffnet?" },
+        { "id": "c", "text": "Wann ist das Bürgeramt geschlossen?" },
+        { "id": "d", "text": "Wann ist das Bürgeramt geöffnet?" }
+      ],
+      "correctOptionId": "d"
+    },
+    {
+      "id": "de-a2-u12-l3-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Wenn das Bürgeramt geschlossen ist, können Sie eine E-Mail schreiben.",
+      "tiles": [
+        "if",
+        "when",
+        "the",
+        "citizens'",
+        "office",
+        "is",
+        "closed",
+        "you",
+        "can",
+        "write",
+        "an",
+        "email",
+        "open",
+        "a",
+        "are"
+      ],
+      "answers": [
+        "If the citizens' office is closed, you can write an email.",
+        "When the citizens' office is closed, you can write an email.",
+        "You can write an email if the citizens' office is closed.",
+        "You can write an email when the citizens' office is closed."
+      ]
+    },
+    {
+      "id": "de-a2-u12-l3-ex09",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a2/u12/de-a2-u12-l3-ex09.mp3" },
+      "tiles": [
+        "am",
+        "Montag",
+        "ist",
+        "das",
+        "Bürgeramt",
+        "von",
+        "acht",
+        "bis",
+        "zwölf",
+        "Uhr",
+        "geöffnet",
+        "im",
+        "zwei",
+        "geschlossen"
+      ],
+      "answers": ["Am Montag ist das Bürgeramt von acht bis zwölf Uhr geöffnet."]
+    },
+    {
+      "id": "de-a2-u12-l3-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Which document is missing?",
+      "tiles": ["welches", "Dokument", "fehlt", "welcher", "fehlen", "das"],
+      "answers": ["Welches Dokument fehlt?"]
+    },
+    {
+      "id": "de-a2-u12-l3-ex11",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'If it's closed, I'll come on Monday.'?",
+      "options": [
+        { "id": "a", "text": "Wenn es ist geschlossen, komme ich am Montag." },
+        { "id": "b", "text": "Wenn es geschlossen ist, ich komme am Montag." },
+        { "id": "c", "text": "Wenn ist es geschlossen, komme ich am Montag." },
+        { "id": "d", "text": "Wenn es geschlossen ist, komme ich am Montag." }
+      ],
+      "correctOptionId": "d"
+    },
+    {
+      "id": "de-a2-u12-l3-ex12",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Wie sind die Öffnungszeiten am Montag?",
+      "tiles": ["what", "are", "the", "opening", "hours", "on", "Monday", "is", "in", "Friday"],
+      "answers": ["What are the opening hours on Monday?"]
+    }
+  ]
+}

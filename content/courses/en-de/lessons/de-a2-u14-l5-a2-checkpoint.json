@@ -1,0 +1,273 @@
+{
+  "id": "de-a2-u14-l5-a2-checkpoint",
+  "courseId": "en-de",
+  "unitId": "de-a2-u14",
+  "title": "A2 Checkpoint: Your First Year",
+  "tip": "This lesson reviews all of A2. Follow Lina through her first year: „Ich habe es geschafft!“",
+  "exercises": [
+    {
+      "id": "de-a2-u14-l5-ex01",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "In winter it sometimes snows, but in summer it's warm.",
+      "tiles": [
+        "im",
+        "Winter",
+        "schneit",
+        "es",
+        "manchmal",
+        "aber",
+        "im",
+        "Sommer",
+        "ist",
+        "es",
+        "warm",
+        "regnet",
+        "nie",
+        "oder"
+      ],
+      "answers": [
+        "Im Winter schneit es manchmal, aber im Sommer ist es warm.",
+        "Im Winter schneit es manchmal, aber es ist im Sommer warm.",
+        "Es schneit im Winter manchmal, aber im Sommer ist es warm.",
+        "Es schneit im Winter manchmal, aber es ist im Sommer warm.",
+        "Es schneit manchmal im Winter, aber im Sommer ist es warm.",
+        "Es schneit manchmal im Winter, aber es ist im Sommer warm.",
+        "Manchmal schneit es im Winter, aber im Sommer ist es warm.",
+        "Manchmal schneit es im Winter, aber es ist im Sommer warm."
+      ]
+    },
+    {
+      "id": "de-a2-u14-l5-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'At the weekend I cooked with Johanna.'?",
+      "options": [
+        { "id": "a", "text": "Am Wochenende ich habe mit Johanna gekocht." },
+        { "id": "b", "text": "Am Wochenende habe ich mit Johanna gekocht." },
+        { "id": "c", "text": "Am Wochenende bin ich mit Johanna gekocht." },
+        { "id": "d", "text": "Am Wochenende habe ich gekocht mit Johanna." }
+      ],
+      "correctOptionId": "b"
+    },
+    {
+      "id": "de-a2-u14-l5-ex03",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a2/u14/de-a2-u14-l5-ex03.mp3" },
+      "tiles": [
+        "im",
+        "Sommer",
+        "bin",
+        "ich",
+        "nach",
+        "Wien",
+        "gefahren",
+        "das",
+        "ist",
+        "eine",
+        "schöne",
+        "Erinnerung",
+        "habe",
+        "schön",
+        "einen"
+      ],
+      "answers": ["Im Sommer bin ich nach Wien gefahren. Das ist eine schöne Erinnerung."]
+    },
+    {
+      "id": "de-a2-u14-l5-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I brought my colleagues a cake.",
+      "tiles": [
+        "ich",
+        "habe",
+        "meinen",
+        "Kollegen",
+        "eine",
+        "Torte",
+        "mitgebracht",
+        "meine",
+        "bin",
+        "einen"
+      ],
+      "answers": [
+        "Ich habe meinen Kollegen eine Torte mitgebracht.",
+        "Meinen Kollegen habe ich eine Torte mitgebracht.",
+        "Eine Torte habe ich meinen Kollegen mitgebracht."
+      ]
+    },
+    {
+      "id": "de-a2-u14-l5-ex05",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Seit einem Jahr wohne ich in Bonn.",
+      "tiles": [
+        "I",
+        "have",
+        "I've",
+        "lived",
+        "been",
+        "living",
+        "in",
+        "Bonn",
+        "for",
+        "a",
+        "year",
+        "since"
+      ],
+      "answers": [
+        "I have lived in Bonn for a year.",
+        "I've lived in Bonn for a year.",
+        "I have been living in Bonn for a year.",
+        "I've been living in Bonn for a year.",
+        "For a year I have lived in Bonn.",
+        "For a year I've lived in Bonn."
+      ]
+    },
+    {
+      "id": "de-a2-u14-l5-ex06",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'I'm buying a warm coat for the winter.'?",
+      "options": [
+        { "id": "a", "text": "Ich kaufe einen warmen Mantel für den Winter." },
+        { "id": "b", "text": "Ich kaufe ein warmer Mantel für den Winter." },
+        { "id": "c", "text": "Ich kaufe einen warme Mantel für den Winter." },
+        { "id": "d", "text": "Ich kaufe einen warmen Mantel für der Winter." }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "de-a2-u14-l5-ex07",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a2/u14/de-a2-u14-l5-ex07.mp3" },
+      "tiles": [
+        "ich",
+        "war",
+        "erkältet",
+        "aber",
+        "jetzt",
+        "fühle",
+        "ich",
+        "mich",
+        "besser",
+        "mir",
+        "bin",
+        "fühlst"
+      ],
+      "answers": ["Ich war erkältet, aber jetzt fühle ich mich besser."]
+    },
+    {
+      "id": "de-a2-u14-l5-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I couldn't come because I was ill.",
+      "tiles": [
+        "ich",
+        "konnte",
+        "nicht",
+        "kommen",
+        "weil",
+        "ich",
+        "krank",
+        "war",
+        "bin",
+        "musste",
+        "kann"
+      ],
+      "answers": [
+        "Ich konnte nicht kommen, weil ich krank war.",
+        "Weil ich krank war, konnte ich nicht kommen."
+      ]
+    },
+    {
+      "id": "de-a2-u14-l5-ex09",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'I'm putting the box in the cellar.'?",
+      "options": [
+        { "id": "a", "text": "Ich stelle die Kiste im Keller." },
+        { "id": "b", "text": "Ich stelle die Kiste in dem Keller." },
+        { "id": "c", "text": "Ich stehe die Kiste in den Keller." },
+        { "id": "d", "text": "Ich stelle die Kiste in den Keller." }
+      ],
+      "correctOptionId": "d"
+    },
+    {
+      "id": "de-a2-u14-l5-ex10",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a2/u14/de-a2-u14-l5-ex10.mp3" },
+      "tiles": ["mein", "Zug", "hatte", "zehn", "Minuten", "Verspätung", "Minute", "hat", "elf"],
+      "answers": ["Mein Zug hatte zehn Minuten Verspätung."]
+    },
+    {
+      "id": "de-a2-u14-l5-ex11",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Ich finde, dass meine neue Stelle interessant ist.",
+      "tiles": [
+        "I",
+        "think",
+        "that",
+        "my",
+        "new",
+        "job",
+        "is",
+        "interesting",
+        "boring",
+        "the",
+        "old"
+      ],
+      "answers": [
+        "I think that my new job is interesting.",
+        "I think my new job is interesting.",
+        "My new job is interesting, I think."
+      ]
+    },
+    {
+      "id": "de-a2-u14-l5-ex12",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Call me if you have questions. (to a friend)",
+      "tiles": ["ruf", "mich", "an", "wenn", "du", "Fragen", "hast", "dich", "hat", "ob"],
+      "answers": ["Ruf mich an, wenn du Fragen hast.", "Wenn du Fragen hast, ruf mich an."]
+    },
+    {
+      "id": "de-a2-u14-l5-ex13",
+      "type": "match_pairs",
+      "pairs": [
+        { "id": "p1", "learning": "das Handy", "known": "the mobile phone" },
+        { "id": "p2", "learning": "die Nachrichten", "known": "the news" },
+        { "id": "p3", "learning": "schneller", "known": "faster" },
+        { "id": "p4", "learning": "am besten", "known": "best" },
+        { "id": "p5", "learning": "so groß wie", "known": "as big as" }
+      ]
+    },
+    {
+      "id": "de-a2-u14-l5-ex14",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I'll keep learning German, but today I'm proud: I made it!",
+      "tiles": [
+        "ich",
+        "werde",
+        "weiter",
+        "Deutsch",
+        "lernen",
+        "aber",
+        "heute",
+        "bin",
+        "ich",
+        "stolz",
+        "ich",
+        "habe",
+        "es",
+        "geschafft",
+        "wird",
+        "schaffen",
+        "bist"
+      ],
+      "answers": [
+        "Ich werde weiter Deutsch lernen, aber heute bin ich stolz: Ich habe es geschafft!",
+        "Ich werde weiter Deutsch lernen, aber ich bin heute stolz: Ich habe es geschafft!"
+      ]
+    }
+  ]
+}

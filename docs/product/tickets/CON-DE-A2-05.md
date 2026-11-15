@@ -88,3 +88,87 @@ _(cto)_
 
 ## Review
 _(pm self-review of CDS-1…19 and criteria 3–8)_
+
+## PM self-review
+
+_2026-11-14 · pm (content writer) · I checked each exercise by hand against CDS-1…19, criteria
+3–8 and the contract schemas (`src/contracts/course.ts`: field names, `type` discriminator,
+3–4 MC options, 5 pairs, every answer buildable from the tiles after PD-033 normalisation).
+Vocabulary was checked against the A1 appendices, CON-DE-A1-QA and the CON-DE-A2-01…04
+appendices only (PD-052). I did not read the other writers' lesson files. The schema test is
+run by the orchestrator._
+
+### Files
+- `content/courses/en-de/lessons/de-a2-u05-l1-going-to.json` (12 exercises)
+- `content/courses/en-de/lessons/de-a2-u05-l2-where-are-you.json` (12)
+- `content/courses/en-de/lessons/de-a2-u05-l3-hundreds.json` (12)
+- `content/courses/en-de/lessons/de-a2-u05-l4-since-when.json` (12)
+- `content/courses/en-de/lessons/de-a2-u05-l5-post-office.json` (12)
+- The unit fragment for `course.json` goes to the orchestrator. I did not edit `course.json`.
+
+### Mix per lesson (CDS-2)
+| Lesson | MC | WB (to_learning / to_known) | Match | Listen | Total |
+|---|---|---|---|---|---|
+| L1 | 3 | 5 (3 / 2) | 1 | 3 | 12 |
+| L2 | 4 | 4 (3 / 1) | 1 | 3 | 12 |
+| L3 | 3 | 4 (3 / 1) | 1 | 4 | 12 |
+| L4 | 3 | 5 (4 / 1) | 1 | 3 | 12 |
+| L5 | 3 | 5 (4 / 1) | 1 | 3 | 12 |
+
+### CDS results
+| Rule | Result | Note |
+|---|---|---|
+| CDS-1 Files | PASS (fragment) | Ids and titles match criterion 1. The orchestrator inserts the unit after `de-a2-u04` with `level: "A2"` and bumps `version`. |
+| CDS-2 Mix | PASS | See the table above. |
+| CDS-3 Vocabulary | PASS | Every appendix item is used in its own lesson. Other words come from A1 and A2-01…04. Extras: invented names (Ana, Ravi), the cities Köln and Berlin, the country Indien and `aus der Schweiz` (A1 U2), regular forms of taught verbs (`hebe … ab`, `hebst`, `bezahlen Sie`, `arbeitest`, `schickst`), the regular plural `Briefmarken`, the dative plurals `Jahren`, `Monaten`, `Eltern` (U4 L3 pattern), the regular participles `gewohnt` (MC distractor) and `eröffnet` (inseparable `er-` verb, CDS-16), numbers after L3 (`zweitausendzwölf`, `zweitausendeinundzwanzig`, CDS-16), and `Karte` only in the A1 chunk `mit Karte`. `Geld` and numbers over 100 are not used before L3. No new words were added. |
+| CDS-4 Alternatives | PASS | Following PD-043, I accepted fronted prepositional phrases, fronted time phrases and short fronted objects (`Zum Supermarkt gehe ich.`, `Gegenüber vom Supermarkt ist die Bank.`, `Neunzehnhundertneunzig bin ich geboren.`, `Bei der Bank arbeite ich seit einem Jahr.`, `Den Brief möchte ich nach Berlin schicken.`). Listens accept the transcript only. Marked Mittelfeld orders are rejected (see uncertainties). |
+| CDS-5 Distractors | PASS | Every word bank and listen has 3–4 tiles beyond the canonical answer. The distractors can build some sentences with a different meaning (`Die Post ist gegenüber vom Supermarkt.`, `Ich möchte hundert Euro abheben.`, `Is this the street to the post office?`), but none of them translates the prompt. Where an answer needs a tile twice, the set has it twice (`the` in L1 ex07, `nach` in L2 ex06, `seit` in L4 ex09). |
+| CDS-6 Conventions | PASS | Umlauts and `ß` are correct (`Straße`, `gegenüber`, `eröffnen`, `möchte`, `Köln`, `zwölf`, `fünfzig`), and there is no capital `ẞ`. Nouns (including `Hause`) are capitalised and other tiles are lower case. `Sie` appears in L1 ex10, L2 ex06, L4 ex04, ex09, L5 ex05 and ex09. Lower-case `sie` appears only in L2 ex10. No set has `ihr`/`Ihr` or `ihnen`/`Ihnen`. No digits appear in tiles. |
+| CDS-7 MC direction | PASS | English prompts, German options, PD-044 punctuation (L5 ex07 ends in `?'` with no extra `?`; number glosses like `'1990' (a year)` stay outside the quotes). |
+| CDS-8 Originality | PASS | All sentences, names and amounts are invented. No bank, post or store brands. |
+| CDS-9 Audio | PASS | All 16 listens use `/audio/de/a2/u05/<id>.mp3`. |
+| CDS-11 Safe | PASS | No fees, interest, transfers, loans, customs or postage rules. The prices (`zwölf Euro`, the rent of `achthundertfünfzig Euro`) are invented single amounts. |
+| CDS-12 Ids | PASS | `de-a2-u05-lN-exNN`, unique. |
+| CDS-13 Fit | PASS | The longest prompt is 64 characters (L1 ex09). The longest tile is `zweitausendeinundzwanzig` (24, L5 ex10), then `neunzehnhundertneunzig` (22). |
+| CDS-14 Drill | PASS | L3 (the *pattern* lesson): 11 of 12 exercises need hundreds, thousands, a million or years. L3 ex03 (`fünfzigdreihundert`, `dreihundertfünfzehn`) and L3 ex06 (`tausendneunhundertneunzig`, `neunzehnneunzig`, English-style year errors) are MCs with typical-error distractors. |
+| CDS-15 Tip | PASS | All 5 tips name the rule and give a German example. The longest is about 160 characters (L3). |
+| CDS-16 | PASS | Numbers over 100 appear only from L3 on. `eröffnet` and `gewohnt` are regular participles. |
+| CDS-17 | PASS | No `ihnen`/`Ihnen` or `ihr`/`Ihr` anywhere. Every MC and word-bank prompt that needs the formal `Sie` says "(formal)" (L2 ex12, L4 ex04, ex07). |
+| CDS-18 | PASS | `tausendneunhundertneunzig` (25 characters) appears only as an MC option. All number words in tiles are 24 characters or fewer. English prompts use digits for amounts and years. |
+| CDS-19 | PASS | "I came … two years ago" → Perfekt with `sein` (L4 ex06). "I opened … a week ago" → Perfekt (L4 ex10). `seit` sentences use the present (L4 ex03, ex04, ex05, ex09, ex12; L5 ex10). There is no `in / an / auf` + article; `in` appears only without an article (`in Deutschland`, `in Köln`), and `im` only as a wrong distractor tile in L3 ex07. |
+
+### Unit criteria 3–8
+| # | Result | Evidence |
+|---|---|---|
+| 3 | PASS | `zu` (bare or as `zum`/`zur`): L1 ex02–ex05, ex07–ex09, ex11, ex12; L2 ex11 (`zu Ana`); L5 ex05. `bei`: L2 ex01–ex03, ex10; L4 ex12; L5 ex12. `von`: L2 ex01, ex04, ex07, ex10; L5 ex08 (`von meiner Oma`). `mit`: L1 ex11; L2 ex05, ex11; L5 ex09, ex11, ex12. `seit`: L4 ex01, ex03, ex04, ex05, ex09, ex12; L5 ex10. `aus der Schweiz`: L5 ex04, explained in the L5 tip. `nach Hause`: L1 ex01, ex06, ex08; L5 ex11. |
+| 4 | PASS | `zum` L1 ex04, `zur` L1 ex02, `beim` L2 ex02, `vom` L2 ex04. L1 ex03 offers `Ich gehe zur Post.` / `zum Post` / `zu die Post` / `nach Post`. `zu der` and `bei dem` are never distractors. |
+| 5 | PASS | L1 ex06 (`nach Hause` correct, `zu Hause` as a distractor) and L2 ex08 (`zu Hause` correct, `nach Hause` as a distractor). |
+| 6 | PASS | Hundreds appear in 6 exercises (L3 ex01, ex02, ex03, ex04, ex09, ex11). Two of them are to_learning word banks (L3 ex04, ex11). `tausend`: L3 ex01, ex08, ex10 (also L3 ex06 MC and L5 ex10). Years: L3 ex06 (MC), ex07, ex08, L5 ex10. |
+| 7 | PASS | `seit` + present appears in L4 ex03, ex04, ex05, ex09, ex12 and L5 ex10. L4 ex03 has the distractor `Ich habe seit zwei Jahren hier gewohnt.` |
+| 8 | PASS | See CDS-11. |
+
+### Uncertainties / needs native review
+1. **Marked orders are rejected.** This is a deliberate exception to PD-043, as in U4. These
+   orders can all be built from the tiles: `Ich gehe zu Ana mit meinem Bruder.` (L2 ex11),
+   `Ich arbeite bei der Bank seit einem Jahr.` (L4 ex12), `Ich bin nach Deutschland vor zwei
+   Jahren gekommen.` (L4 ex06), `Ich möchte nach Berlin den Brief schicken.` (L5 ex06), `Ich
+   bin bei der Post mit meiner Schwester.` (L5 ex12) and the echo question `Wohnen Sie seit
+   wann in Deutschland?` (L4 ex04). The L4 ex12 order is common in speech, so QA may want to
+   add it.
+2. **`bei der Bank` / `bei der Post` for location** (L2, L4 ex12, L5 ex12) sounds natural for
+   "at the bank / post office" and for working there. Some speakers prefer `in der Bank` /
+   `auf der Post`, which are U9. Please confirm.
+3. `gegenüber dem Supermarkt` (without `von`) is also correct standard German. I left out a
+   `dem` tile so it can't be built. Only `gegenüber vom …` is taught.
+4. L1 ex07: `Ist das die Straße zur Bank?` → "Is this / that the street to the bank?" "The way
+   to the bank" would be more idiomatic, but `der Weg` isn't taught.
+5. L3 ex09 accepts both "eight hundred and fifty" (UK) and "eight hundred fifty" (US).
+6. L3 ex06: the distractor `neunzehnneunzig` copies the English "nineteen ninety". It isn't a
+   German form, but it is the typical learner error.
+7. L2 ex12: `Gehen Sie bitte links.` (without `nach`) is also correct, but it isn't offered.
+8. L3 ex12 (a flat for a million euros, "very expensive") is a playful amount, not a market
+   claim. Swap it if QA finds it off-tone.
+9. L4 ex04 maps "How long have you lived …?" to `Seit wann …?` (the appendix gloss). `Wie
+   lange wohnen Sie schon …?` is also natural, but there is no `lange` tile.
+10. In L1, bare `zu` (without an article) appears only as a distractor tile. The first bare
+    `zu` + name is in L2 ex11. Criterion 3 counts `zum` / `zur` as `zu`.

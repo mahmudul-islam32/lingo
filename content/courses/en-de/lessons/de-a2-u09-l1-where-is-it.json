@@ -1,0 +1,151 @@
+{
+  "id": "de-a2-u09-l1-where-is-it",
+  "courseId": "en-de",
+  "unitId": "de-a2-u09",
+  "title": "Where Is It?",
+  "tip": "Wo? takes the dative: „Das Buch liegt auf dem Tisch.“ der/das → dem, die → der; in dem → im, an dem → am. liegen = lying flat, stehen = standing upright.",
+  "exercises": [
+    {
+      "id": "de-a2-u09-l1-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        { "id": "p1", "learning": "auf", "known": "on (on top of)" },
+        { "id": "p2", "learning": "unter", "known": "under" },
+        { "id": "p3", "learning": "neben", "known": "next to" },
+        { "id": "p4", "learning": "über", "known": "above / over" },
+        { "id": "p5", "learning": "die Wand", "known": "the wall" }
+      ]
+    },
+    {
+      "id": "de-a2-u09-l1-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'The book is on the table.'?",
+      "options": [
+        { "id": "a", "text": "Das Buch liegt auf dem Tisch." },
+        { "id": "b", "text": "Das Buch liegt auf den Tisch." },
+        { "id": "c", "text": "Das Buch liegt auf der Tisch." },
+        { "id": "d", "text": "Das Buch liegt auf die Tisch." }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "de-a2-u09-l1-ex03",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a2/u09/de-a2-u09-l1-ex03.mp3" },
+      "tiles": ["die", "Katze", "ist", "unter", "dem", "Bett", "den", "der", "neben"],
+      "answers": ["Die Katze ist unter dem Bett."]
+    },
+    {
+      "id": "de-a2-u09-l1-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "The lamp is next to the sofa.",
+      "tiles": ["die", "Lampe", "steht", "neben", "dem", "Sofa", "den", "der", "stehen"],
+      "answers": ["Die Lampe steht neben dem Sofa.", "Neben dem Sofa steht die Lampe."]
+    },
+    {
+      "id": "de-a2-u09-l1-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'The photo is on the wall.'?",
+      "options": [
+        { "id": "a", "text": "Das Foto ist an die Wand." },
+        { "id": "b", "text": "Das Foto ist an der Wand." },
+        { "id": "c", "text": "Das Foto ist an dem Wand." },
+        { "id": "d", "text": "Das Foto ist auf der Wand." }
+      ],
+      "correctOptionId": "b"
+    },
+    {
+      "id": "de-a2-u09-l1-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Die Lampe ist über dem Tisch.",
+      "tiles": ["the", "lamp", "is", "above", "the", "table", "over", "under", "on"],
+      "answers": ["The lamp is above the table.", "The lamp is over the table."]
+    },
+    {
+      "id": "de-a2-u09-l1-ex07",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a2/u09/de-a2-u09-l1-ex07.mp3" },
+      "tiles": ["mein", "Buch", "liegt", "im", "Schrank", "am", "liegen", "meine"],
+      "answers": ["Mein Buch liegt im Schrank."]
+    },
+    {
+      "id": "de-a2-u09-l1-ex08",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'The milk is in the fridge.'?",
+      "options": [
+        { "id": "a", "text": "Die Milch steht in den Kühlschrank." },
+        { "id": "b", "text": "Die Milch steht in der Kühlschrank." },
+        { "id": "c", "text": "Die Milch steht im Kühlschrank." },
+        { "id": "d", "text": "Die Milch steht in Kühlschrank." }
+      ],
+      "correctOptionId": "c"
+    },
+    {
+      "id": "de-a2-u09-l1-ex09",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "The chair is by the window.",
+      "tiles": ["der", "Stuhl", "steht", "am", "Fenster", "im", "den", "stehen"],
+      "answers": ["Der Stuhl steht am Fenster.", "Am Fenster steht der Stuhl."]
+    },
+    {
+      "id": "de-a2-u09-l1-ex10",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a2/u09/de-a2-u09-l1-ex10.mp3" },
+      "tiles": [
+        "wo",
+        "ist",
+        "die",
+        "Katze",
+        "sie",
+        "liegt",
+        "auf",
+        "dem",
+        "Sofa",
+        "den",
+        "wohin",
+        "er"
+      ],
+      "answers": ["Wo ist die Katze? Sie liegt auf dem Sofa."]
+    },
+    {
+      "id": "de-a2-u09-l1-ex11",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "The shoes are under the bed.",
+      "tiles": ["die", "Schuhe", "stehen", "unter", "dem", "Bett", "sind", "den", "der", "ist"],
+      "answers": [
+        "Die Schuhe stehen unter dem Bett.",
+        "Die Schuhe sind unter dem Bett.",
+        "Unter dem Bett stehen die Schuhe.",
+        "Unter dem Bett sind die Schuhe."
+      ]
+    },
+    {
+      "id": "de-a2-u09-l1-ex12",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Der Hund liegt neben dem Stuhl.",
+      "tiles": [
+        "the",
+        "dog",
+        "is",
+        "lying",
+        "next",
+        "to",
+        "the",
+        "chair",
+        "lies",
+        "under",
+        "table"
+      ],
+      "answers": [
+        "The dog is lying next to the chair.",
+        "The dog is next to the chair.",
+        "The dog lies next to the chair."
+      ]
+    }
+  ]
+}

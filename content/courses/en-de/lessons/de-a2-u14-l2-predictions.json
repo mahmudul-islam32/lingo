@@ -1,0 +1,174 @@
+{
+  "id": "de-a2-u14-l2-predictions",
+  "courseId": "en-de",
+  "unitId": "de-a2-u14",
+  "title": "It Will Rain",
+  "tip": "werden alone means become or get: „Es wird kalt.“ With an infinitive at the end it is the future: „Morgen wird es regnen.“",
+  "exercises": [
+    {
+      "id": "de-a2-u14-l2-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        { "id": "p1", "learning": "die Wolke", "known": "the cloud" },
+        { "id": "p2", "learning": "der Nebel", "known": "the fog" },
+        { "id": "p3", "learning": "wahrscheinlich", "known": "probably" },
+        { "id": "p4", "learning": "bestimmt", "known": "definitely" },
+        { "id": "p5", "learning": "es wird dunkel", "known": "it's getting dark" }
+      ]
+    },
+    {
+      "id": "de-a2-u14-l2-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'It's getting cold.'?",
+      "options": [
+        { "id": "a", "text": "Es ist kalt." },
+        { "id": "b", "text": "Es wird kalt." },
+        { "id": "c", "text": "Es werdet kalt." }
+      ],
+      "correctOptionId": "b"
+    },
+    {
+      "id": "de-a2-u14-l2-ex03",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Tomorrow it will rain.",
+      "tiles": ["morgen", "wird", "es", "regnen", "regnet", "werde", "heute"],
+      "answers": [
+        "Morgen wird es regnen.",
+        "Es wird morgen regnen.",
+        "Morgen regnet es.",
+        "Es regnet morgen."
+      ]
+    },
+    {
+      "id": "de-a2-u14-l2-ex04",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a2/u14/de-a2-u14-l2-ex04.mp3" },
+      "tiles": ["am", "Abend", "wird", "es", "dunkel", "hell", "werden", "ist"],
+      "answers": ["Am Abend wird es dunkel."]
+    },
+    {
+      "id": "de-a2-u14-l2-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'That will probably be expensive.'?",
+      "options": [
+        { "id": "a", "text": "Das wird teuer wahrscheinlich." },
+        { "id": "b", "text": "Das werde wahrscheinlich teuer." },
+        { "id": "c", "text": "Das ist wahrscheinlich billig." },
+        { "id": "d", "text": "Das wird wahrscheinlich teuer." }
+      ],
+      "correctOptionId": "d"
+    },
+    {
+      "id": "de-a2-u14-l2-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Der Zug hat sicher Verspätung.",
+      "tiles": [
+        "the",
+        "train",
+        "is",
+        "surely",
+        "definitely",
+        "late",
+        "delayed",
+        "bus",
+        "not",
+        "early"
+      ],
+      "answers": [
+        "The train is surely late.",
+        "The train is definitely late.",
+        "The train is surely delayed.",
+        "The train is definitely delayed."
+      ]
+    },
+    {
+      "id": "de-a2-u14-l2-ex07",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a2/u14/de-a2-u14-l2-ex07.mp3" },
+      "tiles": ["heute", "Abend", "gibt", "es", "Nebel", "und", "Wolken", "Wolke", "Regen", "ist"],
+      "answers": ["Heute Abend gibt es Nebel und Wolken."]
+    },
+    {
+      "id": "de-a2-u14-l2-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "It's getting warm. Summer is coming.",
+      "tiles": ["es", "wird", "warm", "der", "Sommer", "kommt", "ist", "die", "Winter"],
+      "answers": ["Es wird warm. Der Sommer kommt."]
+    },
+    {
+      "id": "de-a2-u14-l2-ex09",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'The train will definitely be late.'?",
+      "options": [
+        { "id": "a", "text": "Der Zug wird haben bestimmt Verspätung." },
+        { "id": "b", "text": "Der Zug wird bestimmt Verspätung haben." },
+        { "id": "c", "text": "Der Zug wird bestimmt Verspätung hat." },
+        { "id": "d", "text": "Der Zug wirst bestimmt Verspätung haben." }
+      ],
+      "correctOptionId": "b"
+    },
+    {
+      "id": "de-a2-u14-l2-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Im Herbst wird es früh dunkel.",
+      "tiles": ["in", "the", "autumn", "fall", "it", "gets", "dark", "early", "light", "is"],
+      "answers": [
+        "In autumn it gets dark early.",
+        "In the autumn it gets dark early.",
+        "In the fall it gets dark early.",
+        "In fall it gets dark early.",
+        "It gets dark early in autumn.",
+        "It gets dark early in the autumn.",
+        "It gets dark early in the fall.",
+        "It gets dark early in fall."
+      ]
+    },
+    {
+      "id": "de-a2-u14-l2-ex11",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a2/u14/de-a2-u14-l2-ex11.mp3" },
+      "tiles": [
+        "sie",
+        "kommt",
+        "sicher",
+        "aber",
+        "wahrscheinlich",
+        "zu",
+        "spät",
+        "später",
+        "kommen",
+        "oder"
+      ],
+      "answers": ["Sie kommt sicher, aber wahrscheinlich zu spät."]
+    },
+    {
+      "id": "de-a2-u14-l2-ex12",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "There are a lot of clouds. It will probably rain.",
+      "tiles": [
+        "es",
+        "gibt",
+        "viele",
+        "Wolken",
+        "es",
+        "wird",
+        "wahrscheinlich",
+        "regnen",
+        "Wolke",
+        "viel",
+        "bestimmt"
+      ],
+      "answers": [
+        "Es gibt viele Wolken. Es wird wahrscheinlich regnen.",
+        "Es gibt viele Wolken. Wahrscheinlich wird es regnen.",
+        "Viele Wolken gibt es. Es wird wahrscheinlich regnen.",
+        "Viele Wolken gibt es. Wahrscheinlich wird es regnen."
+      ]
+    }
+  ]
+}

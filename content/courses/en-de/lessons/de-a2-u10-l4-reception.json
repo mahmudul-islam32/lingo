@@ -1,0 +1,178 @@
+{
+  "id": "de-a2-u10-l4-reception",
+  "courseId": "en-de",
+  "unitId": "de-a2-u10",
+  "title": "At Reception",
+  "tip": "Floors use ordinals with im (= in dem): „im zweiten Stock“, „im dritten Stock“. At reception you hear Sie and Ihr: „Ihr Zimmer ist im dritten Stock.“",
+  "exercises": [
+    {
+      "id": "de-a2-u10-l4-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        { "id": "p1", "learning": "die Rezeption", "known": "the reception" },
+        { "id": "p2", "learning": "der Aufzug", "known": "the lift / elevator" },
+        { "id": "p3", "learning": "das Handtuch", "known": "the towel" },
+        { "id": "p4", "learning": "die Dusche", "known": "the shower" },
+        { "id": "p5", "learning": "das Passwort", "known": "the password" }
+      ]
+    },
+    {
+      "id": "de-a2-u10-l4-ex02",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a2/u10/de-a2-u10-l4-ex02.mp3" },
+      "tiles": ["Ihr", "Zimmer", "ist", "im", "dritten", "Stock", "dein", "drei", "am"],
+      "answers": ["Ihr Zimmer ist im dritten Stock."]
+    },
+    {
+      "id": "de-a2-u10-l4-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'The lift is on the left.'?",
+      "options": [
+        { "id": "a", "text": "Der Aufzug ist nach links." },
+        { "id": "b", "text": "Die Aufzug ist links." },
+        { "id": "c", "text": "Der Aufzug ist links." },
+        { "id": "d", "text": "Der Aufzug sind links." }
+      ],
+      "correctOptionId": "c"
+    },
+    {
+      "id": "de-a2-u10-l4-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "The shower isn't working.",
+      "tiles": ["die", "Dusche", "funktioniert", "nicht", "kein", "funktionieren", "der"],
+      "answers": ["Die Dusche funktioniert nicht."]
+    },
+    {
+      "id": "de-a2-u10-l4-ex05",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "What's the password for the Wi-Fi?",
+      "tiles": ["wie", "was", "ist", "das", "Passwort", "für", "das", "WLAN", "der", "sind"],
+      "answers": ["Wie ist das Passwort für das WLAN?", "Was ist das Passwort für das WLAN?"]
+    },
+    {
+      "id": "de-a2-u10-l4-ex06",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a2/u10/de-a2-u10-l4-ex06.mp3" },
+      "tiles": [
+        "der",
+        "Aufzug",
+        "ist",
+        "links",
+        "neben",
+        "der",
+        "Rezeption",
+        "rechts",
+        "die",
+        "den"
+      ],
+      "answers": ["Der Aufzug ist links, neben der Rezeption."]
+    },
+    {
+      "id": "de-a2-u10-l4-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'My room is on the second floor.'?",
+      "options": [
+        { "id": "a", "text": "Mein Zimmer ist im zwei Stock." },
+        { "id": "b", "text": "Mein Zimmer ist im zweiten Stock." },
+        { "id": "c", "text": "Mein Zimmer ist in den zweiten Stock." },
+        { "id": "d", "text": "Mein Zimmer ist im zweite Stock." }
+      ],
+      "correctOptionId": "b"
+    },
+    {
+      "id": "de-a2-u10-l4-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Ich brauche ein Handtuch, bitte.",
+      "tiles": ["I", "need", "a", "towel", "please", "the", "shower", "have"],
+      "answers": ["I need a towel, please."]
+    },
+    {
+      "id": "de-a2-u10-l4-ex09",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a2/u10/de-a2-u10-l4-ex09.mp3" },
+      "tiles": [
+        "hier",
+        "ist",
+        "Ihr",
+        "Schlüssel",
+        "das",
+        "Frühstück",
+        "ist",
+        "um",
+        "sieben",
+        "Uhr",
+        "dein",
+        "sind",
+        "elf"
+      ],
+      "answers": ["Hier ist Ihr Schlüssel. Das Frühstück ist um sieben Uhr."]
+    },
+    {
+      "id": "de-a2-u10-l4-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Excuse me, the shower in my room isn't working.",
+      "tiles": [
+        "Entschuldigung",
+        "die",
+        "Dusche",
+        "in",
+        "meinem",
+        "Zimmer",
+        "funktioniert",
+        "nicht",
+        "meinen",
+        "im",
+        "kein"
+      ],
+      "answers": [
+        "Entschuldigung, die Dusche in meinem Zimmer funktioniert nicht.",
+        "Entschuldigung, in meinem Zimmer funktioniert die Dusche nicht."
+      ]
+    },
+    {
+      "id": "de-a2-u10-l4-ex11",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'I'm going to the reception.'?",
+      "options": [
+        { "id": "a", "text": "Ich gehe zum Rezeption." },
+        { "id": "b", "text": "Ich gehe zur Rezeption." },
+        { "id": "c", "text": "Ich gehe zu die Rezeption." },
+        { "id": "d", "text": "Ich gehe nach Rezeption." }
+      ],
+      "correctOptionId": "b"
+    },
+    {
+      "id": "de-a2-u10-l4-ex12",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Ihr Zimmer ist im vierten Stock. Der Aufzug ist rechts.",
+      "tiles": [
+        "your",
+        "room",
+        "is",
+        "on",
+        "the",
+        "fourth",
+        "floor",
+        "the",
+        "lift",
+        "elevator",
+        "is",
+        "on",
+        "the",
+        "right",
+        "left",
+        "four",
+        "my"
+      ],
+      "answers": [
+        "Your room is on the fourth floor. The lift is on the right.",
+        "Your room is on the fourth floor. The elevator is on the right."
+      ]
+    }
+  ]
+}

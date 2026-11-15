@@ -1,0 +1,150 @@
+{
+  "id": "de-a2-u09-l3-where-does-it-go",
+  "courseId": "en-de",
+  "unitId": "de-a2-u09",
+  "title": "Where Does It Go?",
+  "tip": "Wohin? takes the accusative: „Ich lege das Buch auf den Tisch.“ liegen / stehen = where it is; legen / stellen = where you put it. ins = in das, like „ins Kino“ from A1.",
+  "exercises": [
+    {
+      "id": "de-a2-u09-l3-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        { "id": "p1", "learning": "legen", "known": "to put (lying flat)" },
+        { "id": "p2", "learning": "stellen", "known": "to put (standing up)" },
+        { "id": "p3", "learning": "der Keller", "known": "the cellar" },
+        { "id": "p4", "learning": "die Kiste", "known": "the box" },
+        { "id": "p5", "learning": "ins Wohnzimmer", "known": "into the living room" }
+      ]
+    },
+    {
+      "id": "de-a2-u09-l3-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'I'm putting the book on the table.'?",
+      "options": [
+        { "id": "a", "text": "Ich lege das Buch auf dem Tisch." },
+        { "id": "b", "text": "Ich liege das Buch auf den Tisch." },
+        { "id": "c", "text": "Ich lege das Buch auf den Tisch." },
+        { "id": "d", "text": "Ich lege das Buch auf der Tisch." }
+      ],
+      "correctOptionId": "c"
+    },
+    {
+      "id": "de-a2-u09-l3-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'The postcard is on the table.'?",
+      "options": [
+        { "id": "a", "text": "Die Postkarte liegt auf dem Tisch." },
+        { "id": "b", "text": "Die Postkarte legt auf dem Tisch." },
+        { "id": "c", "text": "Die Postkarte liegt auf den Tisch." },
+        { "id": "d", "text": "Die Postkarte legt auf den Tisch." }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "de-a2-u09-l3-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "We're putting the sofa in the living room.",
+      "tiles": ["wir", "stellen", "das", "Sofa", "ins", "Wohnzimmer", "im", "legen", "stehen"],
+      "answers": [
+        "Wir stellen das Sofa ins Wohnzimmer.",
+        "Ins Wohnzimmer stellen wir das Sofa.",
+        "Das Sofa stellen wir ins Wohnzimmer."
+      ]
+    },
+    {
+      "id": "de-a2-u09-l3-ex05",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a2/u09/de-a2-u09-l3-ex05.mp3" },
+      "tiles": ["ich", "hänge", "das", "Bild", "an", "die", "Wand", "der", "hängt", "auf"],
+      "answers": ["Ich hänge das Bild an die Wand."]
+    },
+    {
+      "id": "de-a2-u09-l3-ex06",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'I'm putting the lamp next to the bed.'?",
+      "options": [
+        { "id": "a", "text": "Ich stelle die Lampe neben dem Bett." },
+        { "id": "b", "text": "Ich stehe die Lampe neben das Bett." },
+        { "id": "c", "text": "Ich stelle die Lampe neben der Bett." },
+        { "id": "d", "text": "Ich stelle die Lampe neben das Bett." }
+      ],
+      "correctOptionId": "d"
+    },
+    {
+      "id": "de-a2-u09-l3-ex07",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I'm putting the boxes in the cellar.",
+      "tiles": ["ich", "stelle", "die", "Kisten", "in", "den", "Keller", "dem", "im", "stehe"],
+      "answers": [
+        "Ich stelle die Kisten in den Keller.",
+        "In den Keller stelle ich die Kisten.",
+        "Die Kisten stelle ich in den Keller."
+      ]
+    },
+    {
+      "id": "de-a2-u09-l3-ex08",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a2/u09/de-a2-u09-l3-ex08.mp3" },
+      "tiles": [
+        "wohin",
+        "stellen",
+        "wir",
+        "den",
+        "Tisch",
+        "in",
+        "die",
+        "Küche",
+        "wo",
+        "der",
+        "dem"
+      ],
+      "answers": ["Wohin stellen wir den Tisch? In die Küche."]
+    },
+    {
+      "id": "de-a2-u09-l3-ex09",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'The bike is in the cellar.'?",
+      "options": [
+        { "id": "a", "text": "Das Fahrrad stellt im Keller." },
+        { "id": "b", "text": "Das Fahrrad steht im Keller." },
+        { "id": "c", "text": "Das Fahrrad steht in den Keller." },
+        { "id": "d", "text": "Das Fahrrad stellt in den Keller." }
+      ],
+      "correctOptionId": "b"
+    },
+    {
+      "id": "de-a2-u09-l3-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Leg das Buch bitte in die Kiste!",
+      "tiles": ["please", "put", "the", "book", "in", "the", "box", "into", "on", "is"],
+      "answers": [
+        "Please put the book in the box!",
+        "Put the book in the box, please!",
+        "Please put the book into the box!",
+        "Put the book into the box, please!"
+      ]
+    },
+    {
+      "id": "de-a2-u09-l3-ex11",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a2/u09/de-a2-u09-l3-ex11.mp3" },
+      "tiles": ["wir", "legen", "den", "Teppich", "ins", "Schlafzimmer", "im", "dem", "liegen"],
+      "answers": ["Wir legen den Teppich ins Schlafzimmer."]
+    },
+    {
+      "id": "de-a2-u09-l3-ex12",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I'm hanging my jacket in the wardrobe.",
+      "tiles": ["ich", "hänge", "meine", "Jacke", "in", "den", "Schrank", "im", "dem", "hängt"],
+      "answers": [
+        "Ich hänge meine Jacke in den Schrank.",
+        "In den Schrank hänge ich meine Jacke.",
+        "Meine Jacke hänge ich in den Schrank."
+      ]
+    }
+  ]
+}

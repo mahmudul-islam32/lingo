@@ -1,0 +1,211 @@
+{
+  "id": "de-a2-u09-l5-repairs",
+  "courseId": "en-de",
+  "unitId": "de-a2-u09",
+  "title": "Scenario: The Tap Is Dripping",
+  "tip": "Report a problem in the present: „Die Heizung funktioniert nicht.“ „Im Bad tropft es.“ For what happened, use the Perfekt: „Ich habe meinen Schlüssel verloren.“",
+  "exercises": [
+    {
+      "id": "de-a2-u09-l5-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "der Hausmeister / die Hausmeisterin",
+          "known": "the caretaker"
+        },
+        { "id": "p2", "learning": "reparieren", "known": "to repair" },
+        { "id": "p3", "learning": "funktionieren", "known": "to work (of a machine)" },
+        { "id": "p4", "learning": "der Schlüssel", "known": "the key" },
+        { "id": "p5", "learning": "tropfen", "known": "to drip" }
+      ]
+    },
+    {
+      "id": "de-a2-u09-l5-ex02",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a2/u09/de-a2-u09-l5-ex02.mp3" },
+      "tiles": [
+        "guten",
+        "Tag",
+        "Frau",
+        "Brandt",
+        "hier",
+        "spricht",
+        "Daniel",
+        "Osei",
+        "Herr",
+        "sprichst",
+        "ist"
+      ],
+      "answers": ["Guten Tag, Frau Brandt, hier spricht Daniel Osei."]
+    },
+    {
+      "id": "de-a2-u09-l5-ex03",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "The heating hasn't been working since yesterday.",
+      "tiles": [
+        "seit",
+        "gestern",
+        "funktioniert",
+        "die",
+        "Heizung",
+        "nicht",
+        "funktionieren",
+        "kein",
+        "heute"
+      ],
+      "answers": [
+        "Die Heizung funktioniert seit gestern nicht.",
+        "Seit gestern funktioniert die Heizung nicht."
+      ]
+    },
+    {
+      "id": "de-a2-u09-l5-ex04",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'It's dripping in the bathroom.'?",
+      "options": [
+        { "id": "a", "text": "Im Bad es tropft." },
+        { "id": "b", "text": "Im Bad tropft es." },
+        { "id": "c", "text": "Ins Bad tropft es." },
+        { "id": "d", "text": "In Bad tropft es." }
+      ],
+      "correctOptionId": "b"
+    },
+    {
+      "id": "de-a2-u09-l5-ex05",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I lost my key.",
+      "tiles": ["ich", "habe", "meinen", "Schlüssel", "verloren", "bin", "mein", "verliere"],
+      "answers": ["Ich habe meinen Schlüssel verloren.", "Meinen Schlüssel habe ich verloren."]
+    },
+    {
+      "id": "de-a2-u09-l5-ex06",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a2/u09/de-a2-u09-l5-ex06.mp3" },
+      "tiles": [
+        "können",
+        "Sie",
+        "die",
+        "Heizung",
+        "heute",
+        "reparieren",
+        "kannst",
+        "repariert",
+        "morgen"
+      ],
+      "answers": ["Können Sie die Heizung heute reparieren?"]
+    },
+    {
+      "id": "de-a2-u09-l5-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'I left my key in the flat.'?",
+      "options": [
+        { "id": "a", "text": "Ich habe meinen Schlüssel in die Wohnung vergessen." },
+        { "id": "b", "text": "Ich bin meinen Schlüssel in der Wohnung vergessen." },
+        { "id": "c", "text": "Ich habe meinen Schlüssel vergessen in der Wohnung." },
+        { "id": "d", "text": "Ich habe meinen Schlüssel in der Wohnung vergessen." }
+      ],
+      "correctOptionId": "d"
+    },
+    {
+      "id": "de-a2-u09-l5-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Die Waschmaschine im Keller ist kaputt.",
+      "tiles": [
+        "the",
+        "washing",
+        "machine",
+        "in",
+        "the",
+        "cellar",
+        "is",
+        "broken",
+        "basement",
+        "kitchen",
+        "are",
+        "new"
+      ],
+      "answers": [
+        "The washing machine in the cellar is broken.",
+        "The washing machine in the basement is broken."
+      ]
+    },
+    {
+      "id": "de-a2-u09-l5-ex09",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a2/u09/de-a2-u09-l5-ex09.mp3" },
+      "tiles": [
+        "gestern",
+        "konnte",
+        "ich",
+        "nicht",
+        "duschen",
+        "das",
+        "Wasser",
+        "war",
+        "kalt",
+        "kann",
+        "ist",
+        "warm"
+      ],
+      "answers": ["Gestern konnte ich nicht duschen. Das Wasser war kalt."]
+    },
+    {
+      "id": "de-a2-u09-l5-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Can you come tomorrow morning? (formal)",
+      "tiles": [
+        "können",
+        "Sie",
+        "morgen",
+        "am",
+        "Vormittag",
+        "kommen",
+        "kannst",
+        "Nachmittag",
+        "im"
+      ],
+      "answers": ["Können Sie morgen am Vormittag kommen?", "Können Sie morgen Vormittag kommen?"]
+    },
+    {
+      "id": "de-a2-u09-l5-ex11",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'The caretaker repaired the heating.'?",
+      "options": [
+        { "id": "a", "text": "Der Hausmeister hat die Heizung gerepariert." },
+        { "id": "b", "text": "Der Hausmeister ist die Heizung repariert." },
+        { "id": "c", "text": "Der Hausmeister hat die Heizung repariert." },
+        { "id": "d", "text": "Der Hausmeister hat repariert die Heizung." }
+      ],
+      "correctOptionId": "c"
+    },
+    {
+      "id": "de-a2-u09-l5-ex12",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Thank you! I'm putting the key on the table.",
+      "tiles": [
+        "danke",
+        "ich",
+        "lege",
+        "den",
+        "Schlüssel",
+        "auf",
+        "den",
+        "Tisch",
+        "dem",
+        "liege",
+        "liegt"
+      ],
+      "answers": [
+        "Danke! Ich lege den Schlüssel auf den Tisch.",
+        "Danke! Den Schlüssel lege ich auf den Tisch.",
+        "Danke! Auf den Tisch lege ich den Schlüssel."
+      ]
+    }
+  ]
+}
