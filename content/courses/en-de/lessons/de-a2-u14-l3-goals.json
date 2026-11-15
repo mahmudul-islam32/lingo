@@ -72,7 +72,12 @@
       "direction": "to_learning",
       "prompt": "I always practise in the evening.",
       "tiles": ["ich", "übe", "immer", "abends", "üben", "nie", "morgens"],
-      "answers": ["Ich übe immer abends.", "Abends übe ich immer.", "Ich übe abends immer."]
+      "answers": [
+        "Ich übe immer abends.",
+        "Abends übe ich immer.",
+        "Ich übe abends immer.",
+        "Immer übe ich abends."
+      ]
     },
     {
       "id": "de-a2-u14-l3-ex07",
@@ -90,9 +95,22 @@
       "id": "de-a2-u14-l3-ex08",
       "type": "word_bank_translate",
       "direction": "to_known",
-      "prompt": "Mein Traum ist ein kleines Haus.",
-      "tiles": ["my", "dream", "is", "a", "small", "little", "house", "flat", "big", "the"],
-      "answers": ["My dream is a small house.", "My dream is a little house."]
+      "prompt": "Ich weiß nicht, ob ich die Prüfung bestehe.",
+      "tiles": [
+        "I",
+        "don't",
+        "know",
+        "if",
+        "whether",
+        "I'll",
+        "pass",
+        "the",
+        "exam",
+        "when",
+        "fail",
+        "a"
+      ],
+      "answers": ["I don't know if I'll pass the exam.", "I don't know whether I'll pass the exam."]
     },
     {
       "id": "de-a2-u14-l3-ex09",

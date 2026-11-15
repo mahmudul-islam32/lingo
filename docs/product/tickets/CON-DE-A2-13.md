@@ -61,11 +61,11 @@ so that I can share opinions in everyday conversations.
 |---|---|---|---|
 | 1 | Phone and Internet | das Handy (the mobile phone / cell phone), das Internet (the internet), die App (the app), online (online), der Laptop (the laptop), der Computer (the computer), chatten (to chat, online) | 7 |
 | 2 | Faster and Cheaper | *pattern:* comparative -er (+ umlaut for alt, groß, jung, kalt, warm, lang, kurz); als (than; "as" with jobs is A1), so … wie (as … as), schnell (fast), leicht (easy / light), schwer (difficult / heavy), praktisch (practical) | 6 |
-| 3 | Best of All | *pattern:* superlative am …-sten; am besten (best), am liebsten (most of all / like best), am meisten (most), die Sendung (the programme / show), der Krimi (the crime show / thriller), die Nachrichten (the news) | 6 |
+| 3 | Best of All | *pattern:* superlative am …-sten; am besten (best), am liebsten (most of all / like best), am meisten (most), die Sendung (the programme / show), der Krimi (the crime show / thriller), die Nachrichten (the news), kommen (to be on, of a programme: Die Nachrichten kommen um acht.; new meaning of the A1 verb, added by CON-DE-A2-QA, used in L3 ex06) | 7 |
 | 4 | News and Opinions | die Zeitung (the newspaper), das Radio (the radio), der Artikel (the article), die Werbung (advertising / the ads), die Meinung (the opinion), meiner Meinung nach (in my opinion, fixed chunk), das stimmt (that's right / true) | 7 |
 | 5 | Screen Time | die Bildschirmzeit (screen time), weniger (less / fewer), zu viel (too much), ausschalten (to switch off), einschalten (to switch on) | 5 |
 
-Unit total: 31 items. `besser` (U7), `lieber` and `mehr` (A1) are now part of the system.
+Unit total: 32 items (31 + `kommen` for programmes, added by CON-DE-A2-QA). `besser` (U7), `lieber` and `mehr` (A1) are now part of the system.
 `die Handynummer` (A1) shows `das Handy`; `die Nachricht` (U8, message) vs `die Nachrichten`
 (news) is pointed out in the L3 tip.
 
