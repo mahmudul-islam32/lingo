@@ -16,7 +16,7 @@
 // New flows: add an entry to FLOWS.
 
 import { chromium } from "@playwright/test";
-import { mkdir, rm, writeFile } from "node:fs/promises";
+import { mkdir, readFile, rm, writeFile } from "node:fs/promises";
 import { execFileSync } from "node:child_process";
 import path from "node:path";
 
@@ -30,6 +30,11 @@ const ONLY = process.env.ONLY?.split(",")
 const VIEWPORT = { width: 390, height: 844 };
 const pause = (ms) => new Promise((r) => setTimeout(r, ms));
 
+/** A selectable option (course, goal): a radio or a toggle button, by accessible name. */
+function option(page, name) {
+  return page.getByRole("radio", { name }).or(page.getByRole("button", { name })).first();
+}
+
 async function onboard(page, opts = {}) {
   const { shots, slow = 0 } = opts;
   await page.goto(`${BASE_URL}/onboarding`);
@@ -37,15 +42,17 @@ async function onboard(page, opts = {}) {
   await pause(400 + slow);
   if (shots) await shots("onboarding-1-welcome");
   await page.getByRole("button", { name: "Get started" }).click();
-  await page.getByRole("radio", { name: "Spanish" }).waitFor();
+  const course = option(page, /^German/);
+  await course.waitFor();
   await pause(slow);
-  await page.getByRole("radio", { name: "Spanish" }).click();
+  await course.click();
   await pause(300 + slow);
   if (shots) await shots("onboarding-2-course");
   await page.getByRole("button", { name: "Continue" }).click();
-  await page.getByRole("radio", { name: /Regular/ }).waitFor();
+  const goal = option(page, /^Regular/);
+  await goal.waitFor();
   await pause(slow);
-  await page.getByRole("radio", { name: /Regular/ }).click();
+  await goal.click();
   await pause(300 + slow);
   if (shots) await shots("onboarding-3-goal");
   await page.getByRole("button", { name: "Start learning" }).click();
@@ -57,34 +64,53 @@ async function onboard(page, opts = {}) {
   await pause(600 + slow);
 }
 
-/** Lesson 1 ("Hello!") steps in content order, answered correctly. */
-const LESSON_1 = [
-  { kind: "choice", answer: "Hola" },
-  { kind: "choice", answer: "Buenos días" },
-  {
-    kind: "pairs",
-    pairs: [
-      ["hola", "hello"],
-      ["adiós", "goodbye"],
-      ["gracias", "thank you"],
-      ["bien", "fine"],
-      ["buenas noches", "good night"],
-    ],
-  },
-  { kind: "tiles", tiles: ["hola", "cómo", "estás"] },
-  { kind: "listen", tiles: ["buenos", "días"] },
-  { kind: "choice", answer: "Gracias" },
-  { kind: "tiles", tiles: ["fine", "thanks"] },
-  { kind: "listen", tiles: ["buenas", "tardes", "cómo", "estás"] },
-  { kind: "tiles", tiles: ["bien", "gracias", "adiós"] },
-  { kind: "choice", answer: "Buenas tardes" },
-  { kind: "tiles", tiles: ["good", "morning", "how", "are", "you"] },
-  { kind: "listen", tiles: ["hola", "buenas", "noches"] },
-];
+/** First German lesson; the lesson flow reads its answers straight from the content file. */
+const LESSON_ID = "de-a1-u01-l1-hello";
+const LESSON_FILE = `content/courses/en-de/lessons/${LESSON_ID}.json`;
+
+/** Turns a lesson exercise into a capture step with the correct answer. */
+function toStep(ex) {
+  if (ex.type === "multiple_choice") {
+    const right = ex.options.find((o) => o.id === ex.correctOptionId);
+    const wrong = ex.options.find((o) => o.id !== ex.correctOptionId);
+    return { kind: "choice", answer: right.text, wrongAnswer: wrong.text };
+  }
+  if (ex.type === "match_pairs") {
+    return { kind: "pairs", pairs: ex.pairs.map((p) => [p.learning, p.known]) };
+  }
+  // Word bank / listen: pick tiles for the first accepted answer (case-insensitive match).
+  const words = ex.answers[0].split(/[^\p{L}'-]+/u).filter(Boolean);
+  const pool = [...ex.tiles];
+  const tiles = words.map((w) => {
+    const i = pool.findIndex((t) => t.toLowerCase() === w.toLowerCase());
+    return i >= 0 ? pool.splice(i, 1)[0] : w;
+  });
+  return { kind: ex.type === "listen" ? "listen" : "tiles", tiles };
+}
+
+async function lessonSteps() {
+  const lesson = JSON.parse(await readFile(LESSON_FILE, "utf8"));
+  return lesson.exercises.map(toStep);
+}
 
 async function lessonRouteExists(page) {
-  const res = await page.request.get(`${BASE_URL}/lesson/u1-l1-hello`);
+  const res = await page.request.get(`${BASE_URL}/lesson/${LESSON_ID}`);
   return res.status() < 400;
+}
+
+/** Passes the tip card (LES-013) if the lesson opens on one. */
+async function passTip(page, shot) {
+  const start = page.getByRole("button", { name: "Start", exact: true });
+  if (
+    await start.waitFor({ timeout: 3000 }).then(
+      () => true,
+      () => false,
+    )
+  ) {
+    await pause(900);
+    if (shot) await shot("lesson-tip");
+    await start.click();
+  }
 }
 
 async function addTiles(page, tiles, slow) {
@@ -216,15 +242,17 @@ const FLOWS = {
       }
       await onboard(page, { stayInLesson: true });
       if (!new URL(page.url()).pathname.startsWith("/lesson/")) {
-        await page.goto(`${BASE_URL}/lesson/u1-l1-hello`);
+        await page.goto(`${BASE_URL}/lesson/${LESSON_ID}`);
       }
+      await passTip(page, shot);
       const slow = 250;
       const heading = () => page.getByTestId("exercise-area").getByRole("heading", { level: 2 });
       // A wrong first answer is re-queued to the end of the lesson.
+      const lesson = await lessonSteps();
       const steps = [
-        { kind: "choice", answer: "Adiós", wrong: true },
-        ...LESSON_1.slice(1),
-        LESSON_1[0],
+        { ...lesson[0], answer: lesson[0].wrongAnswer, wrong: true },
+        ...lesson.slice(1),
+        lesson[0],
       ];
       for (const [i, step] of steps.entries()) {
         await heading().waitFor();
@@ -252,14 +280,14 @@ const FLOWS = {
               () => false,
             ))
         ) {
-          if (i === 4) await shot("lesson-listen");
+          if (i === 3) await shot("lesson-listen");
           await page.getByRole("button", { name: "Skip" }).click();
           continue;
         } else {
-          if (step.kind === "listen" && i === 4) await shot("lesson-listen");
+          if (step.kind === "listen" && i === 3) await shot("lesson-listen");
           await addTiles(page, step.tiles, slow);
           await pause(300);
-          if (i === 3) await shot("lesson-word-bank");
+          if (i === 4) await shot("lesson-word-bank");
           await page.getByRole("button", { name: "Check" }).click();
         }
         await page.getByRole("button", { name: "Continue" }).waitFor();

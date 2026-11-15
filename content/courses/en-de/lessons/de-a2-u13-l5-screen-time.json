@@ -188,27 +188,27 @@
       "id": "de-a2-u13-l5-ex12",
       "type": "word_bank_translate",
       "direction": "to_known",
-      "prompt": "Das stimmt. Wir schalten die Handys um acht aus.",
+      "prompt": "Es ist spät, deshalb schalten wir die Handys aus.",
       "tiles": [
-        "that's",
-        "right",
-        "true",
+        "it's",
+        "late",
+        "so",
         "we",
+        "we're",
         "switch",
+        "switching",
         "off",
         "the",
         "phones",
-        "at",
-        "eight",
+        "early",
         "on",
-        "phone",
-        "seven"
+        "phone"
       ],
       "answers": [
-        "That's right. We switch off the phones at eight.",
-        "That's true. We switch off the phones at eight.",
-        "That's right. We switch the phones off at eight.",
-        "That's true. We switch the phones off at eight."
+        "It's late, so we switch off the phones.",
+        "It's late, so we switch the phones off.",
+        "It's late, so we're switching off the phones.",
+        "It's late, so we're switching the phones off."
       ]
     }
   ]
