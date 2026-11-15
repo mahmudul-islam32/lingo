@@ -308,9 +308,13 @@ request in one invented situation, not a legal rule. One borderline item is list
 review: U7 L3 ex05 `Nimm eine Tablette!` (from the ticket; a friend's suggestion, no dose).
 
 ### Criterion 11: playthrough
-**Pending: orchestrator browser playthrough.** This pass had no browser. Needed: 1 lesson per
-unit plus the checkpoint at 375 × 667 with the German speech fallback, and the tip card once
-LES-013 is merged. Include U14 L2, which has two changed exercises (ex06, ex09).
+**PASS (orchestrator, 2026-11-15).** A scripted Chromium playthrough at 375 × 667 on a build of
+`main` (with LES-013 tip cards) plus this branch's A2 content played 16 lessons to "Lesson
+complete!" with the correct answers from the content files: one per unit (U1 L3, U2 L2, U3 L4,
+U4 L1, U5 L1, U6 L1, U7 L3, U8 L1, U9 L2, U10 L1, U11 L1, U12 L4, U13 L4, U14 L1), U14 L2 and the
+A2 checkpoint. Every correct answer was accepted (0 "Not quite"), no screen scrolled sideways,
+every tip card showed and fit, listen exercises showed the speech fallback / Skip. 0 issues, so
+no `fix/` tickets.
 
 ### Criterion 12: needs native review (non-blocking until v1.0.0, PD-038)
 No native review has been arranged. Consolidated from the 14 unit tickets plus this QA pass:
@@ -371,18 +375,21 @@ U8 uncertainty 7 (decided above); U12 uncertainty 2 (`sagen` added to the append
 uncertainty 2 (`kommen` added); U7 / U9 `unser`, U8 `die Nummer`, U9 `ans`, U14 `der Job` (not
 used; no change needed).
 
-### Criterion 13 (PASS, test pending)
+### Criterion 13 (PASS)
 Ids unchanged; no lesson added or removed (70 A2 lessons listed in `course.json`); `version` 15 →
 16. Every edit keeps the existing JSON structure (`answers` arrays of strings; MC `options` with
-the same ids and `correctOptionId`; `type`, `direction` and ids untouched). `npm run test`:
-pending, for the orchestrator.
+the same ids and `correctOptionId`; `type`, `direction` and ids untouched). `npm run test`
+(content, contracts, integration): 329 passed (orchestrator).
 
 ### Still unchecked (for a scripted follow-up)
 1. Mechanical lexical scan of every token in all 70 files against the appendices (criterion 1).
 2. Full permutation check of multi-answer word banks for unlisted valid orders (criterion 6);
    about 40 were spot-checked by hand.
-3. The browser playthrough (criterion 11).
+3. ~~The browser playthrough (criterion 11).~~ Done, see criterion 11.
+4. Orchestrator script results: 0 unbuildable answers (1,836 accepted answers checked against
+   their tiles); 0 case-only tile pairs, digits in tiles, over-length tiles/prompts/tips,
+   ordering-rule hits or duplicate exercises across A1 and A2.
 
 **Ticket status:** criteria 1–10 and 12 PASS (1, 3 and 6 after fixes, with the scripted
-follow-ups above recommended but not blocking); 11 pending (orchestrator browser playthrough);
-13 PASS, `npm run test` pending.
+follow-ups above recommended but not blocking); 11 PASS (scripted playthrough);
+13 PASS.
