@@ -63,9 +63,25 @@
       "id": "de-a2-u14-l4-ex05",
       "type": "word_bank_translate",
       "direction": "to_known",
-      "prompt": "Ich vermisse meine Familie.",
-      "tiles": ["I", "miss", "my", "family", "parents", "her", "forget"],
-      "answers": ["I miss my family."]
+      "prompt": "Ich vermisse meine Familie, trotzdem bin ich glücklich.",
+      "tiles": [
+        "I",
+        "miss",
+        "my",
+        "family",
+        "but",
+        "I'm",
+        "still",
+        "happy",
+        "anyway",
+        "so",
+        "parents",
+        "sad"
+      ],
+      "answers": [
+        "I miss my family, but I'm still happy.",
+        "I miss my family, but I'm happy anyway."
+      ]
     },
     {
       "id": "de-a2-u14-l4-ex06",

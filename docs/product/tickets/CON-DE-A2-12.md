@@ -70,10 +70,10 @@ which documents to bring, so that I can deal with offices, schools and my landlo
 | 1 | Letters and Emails | die E-Mail (the email), Sehr geehrte Damen und Herren (Dear Sir or Madam), Sehr geehrte Frau … / Sehr geehrter Herr … (Dear Ms … / Dear Mr …), Mit freundlichen Grüßen (Kind regards / Yours sincerely), der Betreff (the subject line), die Antwort (the answer / reply), antworten (+ dative: to answer / reply) | 7 |
 | 2 | Documents | die Unterlagen (the documents / papers), der Pass (the passport), die Kopie (the copy), unterschreiben (to sign), sich anmelden (to register), die Bescheinigung (the certificate / confirmation), wissen: ich weiß, du weißt (to know) | 7 |
 | 3 | If You Have Questions | wenn (if / when, verb at the end), fehlen (to be missing), das Dokument (the document), schriftlich (in writing), persönlich (in person), die Öffnungszeiten (the opening hours), geöffnet / geschlossen (open / closed) | 7 |
-| 4 | School and Daycare | deshalb (that's why / so), trotzdem (still / anyway), ob (whether / if), die Kita (the daycare centre / nursery), die Schule (the school), der Elternabend (the parents' evening) | 6 |
+| 4 | School and Daycare | deshalb (that's why / so), trotzdem (still / anyway), ob (whether / if), die Kita (the daycare centre / nursery), die Schule (the school), der Elternabend (the parents' evening), sagen (to say / tell: Können Sie mir sagen, ob …?; added by CON-DE-A2-QA, used in L4 ex06) | 7 |
 | 5 | A Letter from the Property Management | die Hausverwaltung (the property management), der Handwerker / die Handwerkerin (the tradesperson), die Nebenkosten (the utility / service charges), informieren (to inform), bitte beachten Sie (please note) | 5 |
 
-Unit total: 32 items. `Damen` and `Herren` count only inside the greeting chunk.
+Unit total: 33 items (32 + `sagen`, added by CON-DE-A2-QA). `Damen` and `Herren` count only inside the greeting chunk.
 `das Formular`, `ausfüllen`, `die Unterschrift`, `das Bürgeramt` (A1 U12), `der Brief` (U5),
 `die Frage` (U11) and `schreiben` (U3) are recycled.
 
