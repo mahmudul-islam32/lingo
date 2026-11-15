@@ -2,6 +2,7 @@ import { readFileSync } from "node:fs";
 import path from "node:path";
 import { expect, test, type Page } from "@playwright/test";
 import { expectNoSeriousA11yViolations } from "./axe";
+import { passTipCard } from "./helpers/course";
 
 /**
  * LES-014 AC 7-9 in a real browser: a German lesson with long compounds
@@ -157,6 +158,10 @@ test.describe("German lesson in the browser (LES-014 AC 7-9)", () => {
     await seedCompletedLessons(page, lessonsBefore());
     await page.goto(`/lesson/${LESSON_ID}`);
     await expect(page).toHaveURL(new RegExp(`/lesson/${LESSON_ID}$`));
+    // LES-013: the lesson opens on its tip card; check it fits too, then press "Start".
+    await expect(page.getByTestId("tip-card")).toBeVisible();
+    await expectNoHorizontalOverflow(page, "tip card");
+    await passTipCard(page);
 
     const checkedTypes = new Set<string>();
     for (const exercise of lesson.exercises) {
