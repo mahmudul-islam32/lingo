@@ -1,0 +1,167 @@
+{
+  "id": "de-a2-u02-l5-monday-at-work",
+  "courseId": "en-de",
+  "unitId": "de-a2-u02",
+  "title": "Scenario: Monday at Work",
+  "tip": "Monday small talk: Wie war dein Wochenende? Answer with war, hatte or the Perfekt: Nichts Besonderes. Ich habe viel gelesen.",
+  "exercises": [
+    {
+      "id": "de-a2-u02-l5-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        { "id": "p1", "learning": "das Büro", "known": "the office" },
+        { "id": "p2", "learning": "die Pause", "known": "the break" },
+        { "id": "p3", "learning": "erzählen", "known": "to tell" },
+        { "id": "p4", "learning": "nichts Besonderes", "known": "nothing special" },
+        { "id": "p5", "learning": "ziemlich", "known": "quite / fairly" }
+      ]
+    },
+    {
+      "id": "de-a2-u02-l5-ex02",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a2/u02/de-a2-u02-l5-ex02.mp3" },
+      "tiles": [
+        "guten",
+        "Morgen",
+        "Emre",
+        "wie",
+        "war",
+        "dein",
+        "Wochenende",
+        "Abend",
+        "ist",
+        "deine"
+      ],
+      "answers": ["Guten Morgen, Emre! Wie war dein Wochenende?"]
+    },
+    {
+      "id": "de-a2-u02-l5-ex03",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Nothing special. I tidied up and watched TV.",
+      "tiles": [
+        "nichts",
+        "Besonderes",
+        "ich",
+        "habe",
+        "aufgeräumt",
+        "und",
+        "ferngesehen",
+        "bin",
+        "gefernsehen",
+        "etwas"
+      ],
+      "answers": [
+        "Nichts Besonderes. Ich habe aufgeräumt und ferngesehen.",
+        "Nichts Besonderes. Ich habe ferngesehen und aufgeräumt."
+      ]
+    },
+    {
+      "id": "de-a2-u02-l5-ex04",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'The weekend was quite boring'?",
+      "options": [
+        { "id": "a", "text": "Das Wochenende hatte ziemlich langweilig." },
+        { "id": "b", "text": "Das Wochenende war ziemlich langweilig." },
+        { "id": "c", "text": "Das Wochenende ist ziemlich langweilig." },
+        { "id": "d", "text": "Das Wochenende waren ziemlich langweilig." }
+      ],
+      "correctOptionId": "b"
+    },
+    {
+      "id": "de-a2-u02-l5-ex05",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Und du, Nora? Was hast du gemacht?",
+      "tiles": ["and", "you", "you", "Nora", "what", "did", "do", "have", "does", "are"],
+      "answers": ["And you, Nora? What did you do?"]
+    },
+    {
+      "id": "de-a2-u02-l5-ex06",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a2/u02/de-a2-u02-l5-ex06.mp3" },
+      "tiles": [
+        "ich",
+        "habe",
+        "meine",
+        "Schwester",
+        "besucht",
+        "es",
+        "war",
+        "toll",
+        "mein",
+        "gebesucht",
+        "ist"
+      ],
+      "answers": ["Ich habe meine Schwester besucht. Es war toll."]
+    },
+    {
+      "id": "de-a2-u02-l5-ex07",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Do you have a break now? (to a colleague, informal)",
+      "tiles": ["hast", "du", "jetzt", "Pause", "habe", "hat", "Büro"],
+      "answers": ["Hast du jetzt Pause?"]
+    },
+    {
+      "id": "de-a2-u02-l5-ex08",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'Who paid for the coffee yesterday?'",
+      "options": [
+        { "id": "a", "text": "Wer hat gestern bezahlt den Kaffee?" },
+        { "id": "b", "text": "Wer hat gestern den Kaffee gebezahlt?" },
+        { "id": "c", "text": "Wer ist gestern den Kaffee bezahlt?" },
+        { "id": "d", "text": "Wer hat gestern den Kaffee bezahlt?" }
+      ],
+      "correctOptionId": "d"
+    },
+    {
+      "id": "de-a2-u02-l5-ex09",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "The office was quiet and I worked a lot.",
+      "tiles": [
+        "das",
+        "Büro",
+        "war",
+        "ruhig",
+        "und",
+        "ich",
+        "habe",
+        "viel",
+        "gearbeitet",
+        "ist",
+        "hat",
+        "laut"
+      ],
+      "answers": ["Das Büro war ruhig und ich habe viel gearbeitet."]
+    },
+    {
+      "id": "de-a2-u02-l5-ex10",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a2/u02/de-a2-u02-l5-ex10.mp3" },
+      "tiles": ["hat", "Emre", "etwas", "erzählt", "habe", "geerzählt", "erzählen"],
+      "answers": ["Hat Emre etwas erzählt?"]
+    },
+    {
+      "id": "de-a2-u02-l5-ex11",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'Were you ill last week? (to a colleague, informal)'?",
+      "options": [
+        { "id": "a", "text": "Hattest du letzte Woche krank?" },
+        { "id": "b", "text": "Warst du letztes Woche krank?" },
+        { "id": "c", "text": "Warst du letzte Woche krank?" },
+        { "id": "d", "text": "Wart du letzte Woche krank?" }
+      ],
+      "correctOptionId": "c"
+    },
+    {
+      "id": "de-a2-u02-l5-ex12",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Das Wochenende war ziemlich gut.",
+      "tiles": ["the", "weekend", "was", "quite", "pretty", "good", "is", "were", "week"],
+      "answers": ["The weekend was quite good.", "The weekend was pretty good."]
+    }
+  ]
+}

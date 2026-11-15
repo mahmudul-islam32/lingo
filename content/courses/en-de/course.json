@@ -3,7 +3,7 @@
   "title": "German",
   "learningLanguage": "de",
   "knownLanguage": "en",
-  "version": 5,
+  "version": 6,
   "levels": [
     {
       "level": "A1",
@@ -360,6 +360,118 @@
         {
           "id": "de-a1-u12-l5-a1-checkpoint",
           "title": "A1 Checkpoint: Your First Week"
+        }
+      ]
+    },
+    {
+      "id": "de-a2-u01",
+      "level": "A2",
+      "title": "Weather and Seasons",
+      "description": "Talk about the weather and the seasons, say when things happen, and link ideas with aber, oder and denn.",
+      "lessons": [
+        {
+          "id": "de-a2-u01-l1-weather",
+          "title": "What's the Weather Like?"
+        },
+        {
+          "id": "de-a2-u01-l2-seasons",
+          "title": "Seasons"
+        },
+        {
+          "id": "de-a2-u01-l3-birthdays",
+          "title": "Birthdays and Months"
+        },
+        {
+          "id": "de-a2-u01-l4-but-or-because",
+          "title": "But, Or, Because"
+        },
+        {
+          "id": "de-a2-u01-l5-forecast",
+          "title": "Scenario: The Weekend Forecast"
+        }
+      ]
+    },
+    {
+      "id": "de-a2-u02",
+      "level": "A2",
+      "title": "How Was Your Weekend?",
+      "description": "Say how things were and what you did: the past with war, hatte and the Perfekt with haben.",
+      "lessons": [
+        {
+          "id": "de-a2-u02-l1-how-was-it",
+          "title": "How Was It?"
+        },
+        {
+          "id": "de-a2-u02-l2-what-did-you-do",
+          "title": "What Did You Do?"
+        },
+        {
+          "id": "de-a2-u02-l3-eaten-and-seen",
+          "title": "Eaten, Drunk, Seen"
+        },
+        {
+          "id": "de-a2-u02-l4-phoned-and-visited",
+          "title": "Phoned, Visited, Paid"
+        },
+        {
+          "id": "de-a2-u02-l5-monday-at-work",
+          "title": "Scenario: Monday at Work"
+        }
+      ]
+    },
+    {
+      "id": "de-a2-u03",
+      "level": "A2",
+      "title": "Holiday Stories",
+      "description": "Tell where you went, how you travelled and how long you stayed, and say who something is for.",
+      "lessons": [
+        {
+          "id": "de-a2-u03-l1-on-holiday",
+          "title": "On Holiday"
+        },
+        {
+          "id": "de-a2-u03-l2-we-travelled",
+          "title": "We Went by Train"
+        },
+        {
+          "id": "de-a2-u03-l3-how-long",
+          "title": "How Long Did You Stay?"
+        },
+        {
+          "id": "de-a2-u03-l4-for-you",
+          "title": "For You"
+        },
+        {
+          "id": "de-a2-u03-l5-postcard",
+          "title": "Scenario: A Postcard from the Alps"
+        }
+      ]
+    },
+    {
+      "id": "de-a2-u04",
+      "level": "A2",
+      "title": "Gifts and Celebrations",
+      "description": "Invite and congratulate people, give presents, and say what you like: the dative.",
+      "lessons": [
+        {
+          "id": "de-a2-u04-l1-invitations",
+          "title": "Invitations"
+        },
+        {
+          "id": "de-a2-u04-l2-happy-birthday",
+          "title": "Happy Birthday!"
+        },
+        {
+          "id": "de-a2-u04-l3-who-gets-what",
+          "title": "Who Gets What?"
+        },
+        {
+          "id": "de-a2-u04-l4-i-like-it",
+          "title": "I Like It"
+        },
+        {
+          "id": "de-a2-u04-l5-office-birthday",
+          "title": "Scenario: Cake at the Office"
         }
       ]
     }

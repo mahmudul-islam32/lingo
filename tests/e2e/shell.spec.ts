@@ -1,11 +1,11 @@
 import { expect, test, type Page } from "@playwright/test";
 import { expectNoSeriousA11yViolations } from "./axe";
-import { GERMAN_LESSONS, GERMAN_LESSON_1, nodeNamePattern } from "./helpers/course";
+import { GERMAN_LAST_FIRST_LEVEL_LESSON, GERMAN_LESSON_1, nodeNamePattern } from "./helpers/course";
 import { completeOnboarding } from "./onboarding-helpers";
 
-/** The skill path's last node for a new learner (PLT-024: German, from the course data). */
+/** The skill path's last node for a new learner: the last A1 lesson (GAM-010 collapses A2). */
 const lastNodeOf = (page: Page) =>
-  page.getByRole("button", { name: nodeNamePattern(GERMAN_LESSONS.at(-1)!, "locked") });
+  page.getByRole("button", { name: nodeNamePattern(GERMAN_LAST_FIRST_LEVEL_LESSON, "locked") });
 
 const nav = (page: Page) => page.getByRole("navigation", { name: "Main" });
 const tab = (page: Page, name: "Learn" | "Profile") => nav(page).getByRole("link", { name });
