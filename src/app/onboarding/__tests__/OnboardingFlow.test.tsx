@@ -4,14 +4,25 @@ import { beforeEach, describe, expect, it, vi } from "vitest";
 import type { Course } from "@/contracts";
 import { createGuestProfileStore } from "@/features/profile";
 import { openLocalSession, type LocalSession } from "@/lib/offline";
-import { listBundledCourses as loadCourses } from "@/lib/content";
+import {
+  ContentRepositoryProvider,
+  firstLessonPath,
+  listAvailableCourses as loadCourses,
+  listBundledCourses,
+} from "@/lib/content";
+import {
+  createFixtureRepository,
+  FIXTURE_COURSE_ID,
+} from "@/lib/content/__fixtures__/fixture-course";
 import { queryKeys } from "@/lib/query";
 import { createTestQueryClient, renderWithQueryClient } from "@/lib/query/testing";
-import { OnboardingFlow } from "../OnboardingFlow";
+import { effectiveCourseId, OnboardingFlow } from "../OnboardingFlow";
 import OnboardingPage, { metadata } from "../page";
 import { MORE_LANGUAGES_TEXT, NO_COURSES_TEXT } from "../steps/CourseStep";
 import { SAVE_ERROR_TEXT } from "../steps/GoalStep";
-import { WELCOME_HEADING } from "../steps/Welcome";
+import { WELCOME_FALLBACK_HEADING, welcomeHeading } from "../steps/Welcome";
+
+const WELCOME_HEADING = welcomeHeading("German");
 
 const router = vi.hoisted(() => ({ replace: vi.fn(), push: vi.fn() }));
 vi.mock("next/navigation", () => ({
@@ -44,6 +55,9 @@ async function renderFlow(
   return { user, store };
 }
 
+/** From the course data (PLT-024 AC 4), never hard-coded: `/lesson/de-a1-u01-l1-…`. */
+const firstGermanLesson = () => firstLessonPath(courses[0]!);
+
 const h1 = () => screen.getByRole("heading", { level: 1 });
 
 async function toCourseStep(user: ReturnType<typeof userEvent.setup>) {
@@ -53,7 +67,8 @@ async function toCourseStep(user: ReturnType<typeof userEvent.setup>) {
 
 async function toGoalStep(user: ReturnType<typeof userEvent.setup>) {
   await toCourseStep(user);
-  await user.click(screen.getByRole("radio", { name: "Spanish" }));
+  // German is the only available course, so it is preselected (PLT-024 AC 2).
+  expect(screen.getByRole("radio", { name: "German" })).toHaveAttribute("aria-checked", "true");
   await user.click(screen.getByRole("button", { name: "Continue" }));
   return screen.getByRole("radiogroup", { name: "Choose a daily goal" });
 }
@@ -66,7 +81,7 @@ describe("onboarding flow (PLT-004)", () => {
 
   it("1, 2: Welcome step with Lumi (happy), heading, one primary button, no log-in link", async () => {
     await renderFlow();
-    expect(h1()).toHaveTextContent(WELCOME_HEADING);
+    expect(await screen.findByRole("heading", { level: 1, name: WELCOME_HEADING })).toBeVisible();
     expect(screen.getByText("Short lessons, real progress.")).toBeInTheDocument();
     expect(screen.getAllByRole("button")).toHaveLength(1);
     expect(screen.getByRole("button", { name: "Get started" })).toBeEnabled();
@@ -79,24 +94,101 @@ describe("onboarding flow (PLT-004)", () => {
     expect(metadata.title).toBe("Get started");
   });
 
-  it("1, 3: Course step lists the course, coming-soon line, Continue disabled until selected", async () => {
-    const { user } = await renderFlow();
+  it("PLT-024 1, 2: Course step lists only German, preselected, Continue enabled; Spanish isn't named", async () => {
+    const { user } = await renderFlow({ load: () => loadCourses() });
     const group = await toCourseStep(user);
     expect(screen.getByText("Step 2 of 3")).toBeInTheDocument();
     const radios = within(group).getAllByRole("radio");
-    // Default course first (CTO-008): German, then Spanish.
-    expect(radios).toHaveLength(2);
+    expect(radios).toHaveLength(1);
     expect(radios[0]).toHaveAccessibleName("German");
     expect(radios[0]).toHaveAccessibleDescription("for English speakers");
-    expect(radios[1]).toHaveAccessibleName("Spanish");
-    expect(radios[0]).toHaveAttribute("aria-checked", "false");
+    expect(radios[0]).toHaveAttribute("aria-checked", "true");
+    expect(within(radios[0]!).getByTestId("check-icon")).toBeInTheDocument();
+    expect(screen.queryByText(/Spanish/)).not.toBeInTheDocument();
     const more = screen.getByText(MORE_LANGUAGES_TEXT);
     expect(group).not.toContainElement(more);
-    expect(screen.getByRole("button", { name: "Continue" })).toBeDisabled();
+    expect(screen.getByRole("button", { name: "Continue" })).toBeEnabled();
 
+    // Selecting it again keeps it selected.
     await user.click(radios[0]!);
     expect(radios[0]).toHaveAttribute("aria-checked", "true");
     expect(screen.getByRole("button", { name: "Continue" })).toBeEnabled();
+  });
+
+  it("PLT-024 2 (PLT-004 3): with two or more courses nothing is preselected", async () => {
+    const { user } = await renderFlow({ load: () => listBundledCourses() });
+    const group = await toCourseStep(user);
+    const radios = within(group).getAllByRole("radio");
+    expect(radios).toHaveLength(2);
+    expect(radios.map((r) => r.getAttribute("aria-checked"))).toEqual(["false", "false"]);
+    expect(screen.getByRole("button", { name: "Continue" })).toBeDisabled();
+    await user.click(screen.getByRole("radio", { name: "Spanish" }));
+    expect(screen.getByRole("radio", { name: "Spanish" })).toHaveAttribute("aria-checked", "true");
+    expect(screen.getByRole("button", { name: "Continue" })).toBeEnabled();
+  });
+
+  it("PLT-024 2: effectiveCourseId prefers the choice, else the only course", () => {
+    const [german] = courses;
+    expect(effectiveCourseId(null, { status: "loading" })).toBeNull();
+    expect(effectiveCourseId(null, { status: "error" })).toBeNull();
+    expect(effectiveCourseId(null, { status: "ready", courses: [] })).toBeNull();
+    expect(effectiveCourseId(null, { status: "ready", courses: [german!] })).toBe("en-de");
+    expect(effectiveCourseId("en-es", { status: "ready", courses: [german!] })).toBe("en-es");
+    expect(
+      effectiveCourseId(null, { status: "ready", courses: [german!, { ...german!, id: "x" }] }),
+    ).toBeNull();
+  });
+
+  it("PLT-024 3: the Welcome heading names the default course's language (en-es → Spanish)", async () => {
+    const { store } = await memoryStore();
+    renderWithQueryClient(
+      <OnboardingFlow loadCourses={async () => courses} store={store} defaultCourseId="en-es" />,
+    );
+    expect(
+      await screen.findByRole("heading", {
+        level: 1,
+        name: "Learn Spanish in five minutes a day",
+      }),
+    ).toBeInTheDocument();
+  });
+
+  it("PLT-024 3: the heading comes from the course data (fixture repository), with a static fallback", async () => {
+    const { store } = await memoryStore();
+    let release: () => void = () => {};
+    const gate = new Promise<void>((r) => (release = r));
+    const fixture = createFixtureRepository();
+    const repository = {
+      ...fixture,
+      getCourse: async (id: string) => {
+        await gate;
+        return fixture.getCourse(id);
+      },
+    };
+    renderWithQueryClient(
+      <ContentRepositoryProvider repository={repository}>
+        <OnboardingFlow
+          loadCourses={async () => courses}
+          store={store}
+          defaultCourseId={FIXTURE_COURSE_ID}
+        />
+      </ContentRepositoryProvider>,
+    );
+    expect(h1()).toHaveTextContent(WELCOME_FALLBACK_HEADING);
+    expect(h1()).not.toHaveTextContent(/German|Spanish/);
+    await act(async () => release());
+    // The fixture course learns `es`: the name comes from `Intl.DisplayNames`.
+    expect(
+      await screen.findByRole("heading", { level: 1, name: welcomeHeading("Spanish") }),
+    ).toBeInTheDocument();
+  });
+
+  it("PLT-024 3: a course that can't be read keeps the fallback heading", async () => {
+    const { store } = await memoryStore();
+    renderWithQueryClient(
+      <OnboardingFlow loadCourses={async () => courses} store={store} defaultCourseId="nope" />,
+    );
+    await waitFor(() => expect(h1()).toHaveTextContent(WELCOME_FALLBACK_HEADING));
+    expect(screen.getByRole("button", { name: "Get started" })).toBeEnabled();
   });
 
   it("3: shows skeletons while courses load", async () => {
@@ -107,7 +199,8 @@ describe("onboarding flow (PLT-004)", () => {
     expect(screen.getByRole("status")).toHaveTextContent("Loading courses");
     expect(screen.getByRole("button", { name: "Continue" })).toBeDisabled();
     await act(async () => resolve(courses));
-    expect(screen.getByRole("radio", { name: "Spanish" })).toBeInTheDocument();
+    expect(screen.getByRole("radio", { name: "German" })).toBeInTheDocument();
+    expect(screen.getByRole("button", { name: "Continue" })).toBeEnabled();
   });
 
   it("4: goal step shows the four options from contracts, none preselected, Start disabled", async () => {
@@ -171,7 +264,7 @@ describe("onboarding flow (PLT-004)", () => {
     await user.click(screen.getByRole("radio", { name: "Intense 50 XP" }));
     await user.click(screen.getByRole("button", { name: "Back" }));
     expect(screen.getByText("Step 2 of 3")).toBeInTheDocument();
-    expect(screen.getByRole("radio", { name: "Spanish" })).toHaveAttribute("aria-checked", "true");
+    expect(screen.getByRole("radio", { name: "German" })).toHaveAttribute("aria-checked", "true");
     expect(screen.getByRole("button", { name: "Continue" })).toBeEnabled();
 
     await user.click(screen.getByRole("button", { name: "Continue" }));
@@ -181,7 +274,7 @@ describe("onboarding flow (PLT-004)", () => {
     );
     await user.click(screen.getByRole("button", { name: "Back" }));
     await user.click(screen.getByRole("button", { name: "Back" }));
-    expect(h1()).toHaveTextContent(WELCOME_HEADING);
+    await waitFor(() => expect(h1()).toHaveTextContent(WELCOME_HEADING));
   });
 
   it("7: focus moves to the new step's h1 on each step change", async () => {
@@ -190,7 +283,7 @@ describe("onboarding flow (PLT-004)", () => {
     await toCourseStep(user);
     expect(h1()).toHaveTextContent("What do you want to learn?");
     expect(h1()).toHaveFocus();
-    await user.click(screen.getByRole("radio", { name: "Spanish" }));
+    await user.click(screen.getByRole("radio", { name: "German" }));
     await user.click(screen.getByRole("button", { name: "Continue" }));
     expect(h1()).toHaveTextContent("Choose a daily goal");
     expect(h1()).toHaveFocus();
@@ -211,11 +304,16 @@ describe("onboarding flow (PLT-004)", () => {
     await user.click(screen.getByRole("radio", { name: "Regular 20 XP" }));
     await user.click(screen.getByRole("button", { name: "Start learning" }));
 
-    await waitFor(() => expect(router.replace).toHaveBeenCalledWith("/lesson/u1-l1-hello"));
+    await waitFor(() => expect(router.replace).toHaveBeenCalledWith(firstGermanLesson()));
     await waitFor(() =>
       expect(client.getQueryData(queryKeys.settings())).toMatchObject({ dailyGoalXp: 20 }),
     );
     expect(queryFn).toHaveBeenCalled();
+  });
+
+  it("PLT-024 4: the first lesson path is en-de's first A1 lesson", () => {
+    expect(courses.map((c) => c.id)).toEqual(["en-de"]);
+    expect(firstGermanLesson()).toMatch(/^\/lesson\/de-a1-u01-l1-[a-z0-9-]+$/);
   });
 
   it("8: Start learning saves course + goal to the guest profile, completes onboarding, goes to Lesson 1", async () => {
@@ -225,11 +323,11 @@ describe("onboarding flow (PLT-004)", () => {
     await user.click(screen.getByRole("radio", { name: "Regular 20 XP" }));
     await user.click(screen.getByRole("button", { name: "Start learning" }));
 
-    await waitFor(() => expect(router.replace).toHaveBeenCalledWith("/lesson/u1-l1-hello"));
+    await waitFor(() => expect(router.replace).toHaveBeenCalledWith(firstGermanLesson()));
     expect(router.push).not.toHaveBeenCalled();
     const saved = await session.profile.findSettings();
     expect(saved).toMatchObject({
-      courseId: "en-es",
+      courseId: "en-de",
       dailyGoalXp: 20,
       soundEffectsEnabled: true,
       speakingExercisesEnabled: true,
@@ -273,8 +371,8 @@ describe("onboarding flow (PLT-004)", () => {
     const start = screen.getByRole("button", { name: "Start learning" });
     expect(start).toBeEnabled();
     await user.click(start);
-    await waitFor(() => expect(router.replace).toHaveBeenCalledWith("/lesson/u1-l1-hello"));
-    expect(updateSettings).toHaveBeenLastCalledWith({ courseId: "en-es", dailyGoalXp: 30 });
+    await waitFor(() => expect(router.replace).toHaveBeenCalledWith(firstGermanLesson()));
+    expect(updateSettings).toHaveBeenLastCalledWith({ courseId: "en-de", dailyGoalXp: 30 });
   });
 
   it("11: a failure to mark onboarding complete also shows the alert", async () => {
@@ -298,7 +396,7 @@ describe("onboarding flow (PLT-004)", () => {
     expect(screen.getByRole("button", { name: "Continue" })).toBeDisabled();
 
     await user.click(screen.getByRole("button", { name: "Try again" }));
-    expect(await screen.findByRole("radio", { name: "Spanish" })).toBeInTheDocument();
+    expect(await screen.findByRole("radio", { name: "German" })).toBeInTheDocument();
     expect(load).toHaveBeenCalledTimes(2);
   });
 
