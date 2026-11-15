@@ -80,12 +80,14 @@ export function ListenExercise({
           <Button
             variant="secondary"
             size="lg"
-            aria-label="Play slowly"
+            // WCAG 2.5.3: the name must contain all visible text ("Slow 0.7×"), badge included.
+            aria-label={`Slow ${SLOW_BADGE} speed`}
             disabled={disabled}
             onClick={() => play("slow")}
             className="min-w-12"
           >
-            <span>Slow</span>
+            <span>Slow</span>{" "}
+            {/* The space keeps "Slow" and the badge separate words for axe's text check. */}
             <span
               aria-hidden="true"
               className="ml-1 rounded-full bg-surface px-1.5 text-xs font-bold text-fg-muted"

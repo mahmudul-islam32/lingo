@@ -96,7 +96,7 @@ function setup(
 }
 
 const playButton = () => screen.getByRole("button", { name: "Play audio" });
-const slowButton = () => screen.getByRole("button", { name: "Play slowly" });
+const slowButton = () => screen.getByRole("button", { name: "Slow 0.7× speed" });
 
 afterEach(() => {
   cleanup(); // unmount (stops audio) while the media stubs are still installed
@@ -112,7 +112,10 @@ describe("ListenExercise", () => {
     expect(heading).toHaveAttribute("id", "exercise-heading");
     expect(heading).toHaveAttribute("tabindex", "-1");
     expect(playButton()).toBeInTheDocument();
-    expect(slowButton()).toHaveTextContent(`Slow${CONTENT_RULES.slowPlaybackRate}×`);
+    const slowText = `Slow ${CONTENT_RULES.slowPlaybackRate}×`;
+    expect(slowButton()).toHaveTextContent(slowText);
+    // WCAG 2.5.3 (LES-014 AC 9): the accessible name contains the visible text.
+    expect(slowButton().getAttribute("aria-label")).toContain(slowText);
     const bank = screen.getByRole("group", { name: "Word bank" });
     for (const tile of within(bank).getAllByRole("button"))
       expect(tile).toHaveAttribute("lang", "es");
