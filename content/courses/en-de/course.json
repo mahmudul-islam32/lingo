@@ -3,7 +3,7 @@
   "title": "German",
   "learningLanguage": "de",
   "knownLanguage": "en",
-  "version": 14,
+  "version": 15,
   "levels": [
     {
       "level": "A1",
@@ -724,6 +724,34 @@
         {
           "id": "de-a2-u13-l5-screen-time",
           "title": "Scenario: Screen Time"
+        }
+      ]
+    },
+    {
+      "id": "de-a2-u14",
+      "level": "A2",
+      "title": "Plans and the Future",
+      "description": "Talk about plans, goals and predictions with werden, and finish A2 with a review of your first year.",
+      "lessons": [
+        {
+          "id": "de-a2-u14-l1-i-will",
+          "title": "I Will…"
+        },
+        {
+          "id": "de-a2-u14-l2-predictions",
+          "title": "It Will Rain"
+        },
+        {
+          "id": "de-a2-u14-l3-goals",
+          "title": "Goals"
+        },
+        {
+          "id": "de-a2-u14-l4-about-me",
+          "title": "About Me"
+        },
+        {
+          "id": "de-a2-u14-l5-a2-checkpoint",
+          "title": "A2 Checkpoint: Your First Year"
         }
       ]
     }

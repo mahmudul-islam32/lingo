@@ -1,0 +1,165 @@
+{
+  "id": "de-a2-u14-l1-i-will",
+  "courseId": "en-de",
+  "unitId": "de-a2-u14",
+  "title": "I Will…",
+  "tip": "Future: werden + infinitive at the end: „Ich werde Deutsch lernen.“ Forms: ich werde, du wirst, er / sie / es wird, wir werden.",
+  "exercises": [
+    {
+      "id": "de-a2-u14-l1-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        { "id": "p1", "learning": "bald", "known": "soon" },
+        { "id": "p2", "learning": "nächstes Jahr", "known": "next year" },
+        { "id": "p3", "learning": "die Zukunft", "known": "the future" },
+        { "id": "p4", "learning": "der Plan", "known": "the plan" },
+        { "id": "p5", "learning": "planen", "known": "to plan" }
+      ]
+    },
+    {
+      "id": "de-a2-u14-l1-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'I will live in Vienna next year.'?",
+      "options": [
+        { "id": "a", "text": "Ich werde wohnen nächstes Jahr in Wien." },
+        { "id": "b", "text": "Ich wird nächstes Jahr in Wien wohnen." },
+        { "id": "c", "text": "Ich werde nächstes Jahr in Wien wohnen." },
+        { "id": "d", "text": "Ich werde nächstes Jahr in Wien wohne." }
+      ],
+      "correctOptionId": "c"
+    },
+    {
+      "id": "de-a2-u14-l1-ex03",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Will you do the course? (to a friend)",
+      "tiles": ["wirst", "du", "den", "Kurs", "machen", "werde", "der", "wird"],
+      "answers": ["Wirst du den Kurs machen?"]
+    },
+    {
+      "id": "de-a2-u14-l1-ex04",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a2/u14/de-a2-u14-l1-ex04.mp3" },
+      "tiles": ["wir", "werden", "bald", "eine", "Wohnung", "suchen", "werdet", "einen", "sucht"],
+      "answers": ["Wir werden bald eine Wohnung suchen."]
+    },
+    {
+      "id": "de-a2-u14-l1-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'She will come soon.'?",
+      "options": [
+        { "id": "a", "text": "Sie wird bald kommen." },
+        { "id": "b", "text": "Sie werde bald kommen." },
+        { "id": "c", "text": "Sie wirst bald kommen." },
+        { "id": "d", "text": "Sie wird kommen bald." }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "de-a2-u14-l1-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "In future I will read more.",
+      "tiles": ["in", "Zukunft", "werde", "ich", "mehr", "lesen", "lese", "wird", "wirst"],
+      "answers": [
+        "In Zukunft werde ich mehr lesen.",
+        "Ich werde in Zukunft mehr lesen.",
+        "In Zukunft lese ich mehr.",
+        "Ich lese in Zukunft mehr."
+      ]
+    },
+    {
+      "id": "de-a2-u14-l1-ex07",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a2/u14/de-a2-u14-l1-ex07.mp3" },
+      "tiles": [
+        "das",
+        "ist",
+        "mein",
+        "Plan",
+        "nächstes",
+        "Jahr",
+        "werde",
+        "ich",
+        "in",
+        "Wien",
+        "wohnen",
+        "meine",
+        "wohne",
+        "wird"
+      ],
+      "answers": ["Das ist mein Plan: Nächstes Jahr werde ich in Wien wohnen."]
+    },
+    {
+      "id": "de-a2-u14-l1-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Wir planen eine Reise.",
+      "tiles": ["we", "are", "we're", "planning", "a", "trip", "journey", "the", "flat"],
+      "answers": [
+        "We are planning a trip.",
+        "We're planning a trip.",
+        "We are planning a journey.",
+        "We're planning a journey."
+      ]
+    },
+    {
+      "id": "de-a2-u14-l1-ex09",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'I'm planning the weekend.'?",
+      "options": [
+        { "id": "a", "text": "Ich planen das Wochenende." },
+        { "id": "b", "text": "Ich plane das Wochenende." },
+        { "id": "c", "text": "Ich plane der Wochenende." },
+        { "id": "d", "text": "Ich werde das Wochenende." }
+      ],
+      "correctOptionId": "b"
+    },
+    {
+      "id": "de-a2-u14-l1-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Er wird bald Deutsch lernen.",
+      "tiles": ["he", "will", "he'll", "learn", "German", "soon", "speak", "she", "now"],
+      "answers": [
+        "He will learn German soon.",
+        "He will soon learn German.",
+        "He'll learn German soon.",
+        "He'll soon learn German.",
+        "Soon he will learn German.",
+        "Soon he'll learn German."
+      ]
+    },
+    {
+      "id": "de-a2-u14-l1-ex11",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a2/u14/de-a2-u14-l1-ex11.mp3" },
+      "tiles": [
+        "wirst",
+        "du",
+        "nächstes",
+        "Jahr",
+        "in",
+        "Berlin",
+        "arbeiten",
+        "werde",
+        "arbeitest",
+        "nächste"
+      ],
+      "answers": ["Wirst du nächstes Jahr in Berlin arbeiten?"]
+    },
+    {
+      "id": "de-a2-u14-l1-ex12",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I will plan the trip soon.",
+      "tiles": ["bald", "werde", "ich", "die", "Reise", "planen", "der", "wird", "Plan"],
+      "answers": [
+        "Ich werde bald die Reise planen.",
+        "Ich werde die Reise bald planen.",
+        "Bald werde ich die Reise planen.",
+        "Die Reise werde ich bald planen."
+      ]
+    }
+  ]
+}
