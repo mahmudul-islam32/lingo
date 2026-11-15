@@ -422,6 +422,21 @@ export const BUNDLED_CONTENT: ContentLoaders = {
         () =>
           import("../../../content/courses/en-de/lessons/de-a2-u12-l5-letter-from-the-landlord.json"),
       ),
+      "de-a2-u13-l1-phone-and-internet": json(
+        () => import("../../../content/courses/en-de/lessons/de-a2-u13-l1-phone-and-internet.json"),
+      ),
+      "de-a2-u13-l2-faster-and-cheaper": json(
+        () => import("../../../content/courses/en-de/lessons/de-a2-u13-l2-faster-and-cheaper.json"),
+      ),
+      "de-a2-u13-l3-best-of-all": json(
+        () => import("../../../content/courses/en-de/lessons/de-a2-u13-l3-best-of-all.json"),
+      ),
+      "de-a2-u13-l4-news-and-opinions": json(
+        () => import("../../../content/courses/en-de/lessons/de-a2-u13-l4-news-and-opinions.json"),
+      ),
+      "de-a2-u13-l5-screen-time": json(
+        () => import("../../../content/courses/en-de/lessons/de-a2-u13-l5-screen-time.json"),
+      ),
     },
     "en-es": {
       "u1-l1-hello": json(() => import("../../../content/courses/en-es/lessons/u1-l1-hello.json")),

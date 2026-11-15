@@ -3,7 +3,7 @@
   "title": "German",
   "learningLanguage": "de",
   "knownLanguage": "en",
-  "version": 13,
+  "version": 14,
   "levels": [
     {
       "level": "A1",
@@ -696,6 +696,34 @@
         {
           "id": "de-a2-u12-l5-letter-from-the-landlord",
           "title": "Scenario: A Letter from the Property Management"
+        }
+      ]
+    },
+    {
+      "id": "de-a2-u13",
+      "level": "A2",
+      "title": "Media and Comparisons",
+      "description": "Talk about phones, news and TV, compare things and say what you like best.",
+      "lessons": [
+        {
+          "id": "de-a2-u13-l1-phone-and-internet",
+          "title": "Phone and Internet"
+        },
+        {
+          "id": "de-a2-u13-l2-faster-and-cheaper",
+          "title": "Faster and Cheaper"
+        },
+        {
+          "id": "de-a2-u13-l3-best-of-all",
+          "title": "Best of All"
+        },
+        {
+          "id": "de-a2-u13-l4-news-and-opinions",
+          "title": "News and Opinions"
+        },
+        {
+          "id": "de-a2-u13-l5-screen-time",
+          "title": "Scenario: Screen Time"
         }
       ]
     }

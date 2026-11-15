@@ -1,0 +1,156 @@
+{
+  "id": "de-a2-u13-l1-phone-and-internet",
+  "courseId": "en-de",
+  "unitId": "de-a2-u13",
+  "title": "Phone and Internet",
+  "tip": "Many media words come from English and have a gender: das Handy, das Internet, die App, der Laptop. „Chatten“ is regular: „Ich chatte abends mit meiner Schwester.“",
+  "exercises": [
+    {
+      "id": "de-a2-u13-l1-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        { "id": "p1", "learning": "das Handy", "known": "the mobile phone" },
+        { "id": "p2", "learning": "das Internet", "known": "the internet" },
+        { "id": "p3", "learning": "die App", "known": "the app" },
+        { "id": "p4", "learning": "der Laptop", "known": "the laptop" },
+        { "id": "p5", "learning": "chatten", "known": "to chat (online)" }
+      ]
+    },
+    {
+      "id": "de-a2-u13-l1-ex02",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a2/u13/de-a2-u13-l1-ex02.mp3" },
+      "tiles": [
+        "ich",
+        "chatte",
+        "abends",
+        "mit",
+        "meiner",
+        "Schwester",
+        "chattest",
+        "meinem",
+        "morgens"
+      ],
+      "answers": ["Ich chatte abends mit meiner Schwester."]
+    },
+    {
+      "id": "de-a2-u13-l1-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'My laptop is broken.'?",
+      "options": [
+        { "id": "a", "text": "Meine Laptop ist kaputt." },
+        { "id": "b", "text": "Mein Laptop ist kaputt." },
+        { "id": "c", "text": "Mein Laptop sind kaputt." },
+        { "id": "d", "text": "Mein Laptop ist neu." }
+      ],
+      "correctOptionId": "b"
+    },
+    {
+      "id": "de-a2-u13-l1-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Are you online? (to a friend)",
+      "tiles": ["bist", "du", "online", "ist", "dich", "hast"],
+      "answers": ["Bist du online?"]
+    },
+    {
+      "id": "de-a2-u13-l1-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'The app is new.'?",
+      "options": [
+        { "id": "a", "text": "Der App ist neu." },
+        { "id": "b", "text": "Das App ist neu." },
+        { "id": "c", "text": "Die App ist neu." },
+        { "id": "d", "text": "Die App sind neu." }
+      ],
+      "correctOptionId": "c"
+    },
+    {
+      "id": "de-a2-u13-l1-ex06",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a2/u13/de-a2-u13-l1-ex06.mp3" },
+      "tiles": [
+        "mein",
+        "Laptop",
+        "ist",
+        "kaputt",
+        "ich",
+        "brauche",
+        "einen",
+        "neuen",
+        "Computer",
+        "meine",
+        "neue",
+        "ein"
+      ],
+      "answers": ["Mein Laptop ist kaputt. Ich brauche einen neuen Computer."]
+    },
+    {
+      "id": "de-a2-u13-l1-ex07",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Ich schreibe eine Nachricht.",
+      "tiles": ["I", "am", "writing", "write", "a", "message", "the", "news", "read"],
+      "answers": ["I am writing a message.", "I write a message."]
+    },
+    {
+      "id": "de-a2-u13-l1-ex08",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'Do you chat with Farah? (to a friend)'?",
+      "options": [
+        { "id": "a", "text": "Chatte du mit Farah?" },
+        { "id": "b", "text": "Chatten du mit Farah?" },
+        { "id": "c", "text": "Chattet du mit Farah?" },
+        { "id": "d", "text": "Chattest du mit Farah?" }
+      ],
+      "correctOptionId": "d"
+    },
+    {
+      "id": "de-a2-u13-l1-ex09",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "My sister has a new laptop.",
+      "tiles": ["meine", "Schwester", "hat", "einen", "neuen", "Laptop", "ein", "neuer", "hast"],
+      "answers": [
+        "Meine Schwester hat einen neuen Laptop.",
+        "Einen neuen Laptop hat meine Schwester."
+      ]
+    },
+    {
+      "id": "de-a2-u13-l1-ex10",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a2/u13/de-a2-u13-l1-ex10.mp3" },
+      "tiles": ["hast", "du", "Internet", "auf", "dem", "Handy", "den", "hat", "im"],
+      "answers": ["Hast du Internet auf dem Handy?"]
+    },
+    {
+      "id": "de-a2-u13-l1-ex11",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "The computer is old, but the laptop is new.",
+      "tiles": [
+        "der",
+        "Computer",
+        "ist",
+        "alt",
+        "aber",
+        "der",
+        "Laptop",
+        "ist",
+        "neu",
+        "die",
+        "oder",
+        "sind"
+      ],
+      "answers": ["Der Computer ist alt, aber der Laptop ist neu."]
+    },
+    {
+      "id": "de-a2-u13-l1-ex12",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Bist du heute Abend online?",
+      "tiles": ["are", "you", "online", "this", "evening", "tonight", "is", "morning", "the"],
+      "answers": ["Are you online this evening?", "Are you online tonight?"]
+    }
+  ]
+}
