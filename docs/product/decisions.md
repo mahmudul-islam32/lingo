@@ -841,3 +841,83 @@ together._
 - **Alternatives considered:** one writer in sequence (slow); free writing then QA
   (many cross-unit vocabulary conflicts, as A1 QA showed).
 - **Reversibility:** High.
+
+## PD-053: Word-order acceptance rule for A2 word banks (extends PD-043)
+
+- **Date:** 2026-11-15
+- **Decision:** Applied in CON-DE-A2-QA to all 14 A2 units. For `to_learning` word banks
+  (and the matching `to_known` English), on top of PD-043:
+  1. **Fronting:** PD-043's fronted time, place and prepositional phrases and short-object
+     fronting, plus a fronted predicative adjective, manner or frequency adverb or bare
+     infinitive (`Müde fühlt er sich.`, `Immer übe ich abends.`), are **accepted when the
+     tiles can't block them**. Each one goes on the "needs native review" list. When a
+     distractor change can make a marked order unbuildable without weakening the exercise,
+     the tiles change instead (PD-043).
+  2. **Middle-field adverbials may swap order:** time, place, direction, company, `seit` /
+     `vor` phrases and `trotzdem` are accepted in either buildable order (`Ich arbeite seit
+     einem Jahr bei der Bank.` / `… bei der Bank seit einem Jahr.`).
+  3. **Pronoun and object order stays fixed:** pronoun before noun (a reflexive pronoun
+     right after the finite verb or subject), dative noun before indefinite accusative noun,
+     noun object before a directional complement. Other orders are rejected (`Ich schenke
+     Blumen meiner Mutter.`, `Ich habe im März mich verletzt.`).
+  4. **`dass`-less and "…, glaube ich" orders are accepted** with `glauben / denken / finden
+     / hoffen` when the tiles allow them, with PD-043 inside each clause. `Dass …, glaube
+     ich.` is never accepted (CDS-19.4). In `to_known`, "X, I think." is accepted the same way.
+  5. Still rejected: echo questions, two clauses or sentences in reversed order, and `weil`
+     + V2 (PD-048).
+- **Rationale:** the four parallel writers (PD-052) treated marked orders differently (U4,
+  U5, U7, U8, U10, U12, U14), and 20 of the 28 QA changes aligned them. Learners shouldn't
+  lose a heart for correct German, but the checker must stay predictable and the content
+  reviewable. Fixed pronoun and object order is a core A2 rule, so relaxing it would teach
+  errors.
+- **Alternatives considered:** canonical order only (fails correct German); accept every
+  buildable order (accepts wrong pronoun and case order); decide per writer (inconsistent,
+  the A1 problem again).
+- **Reversibility:** High. Answer lists can be narrowed after the native review (CON-DE-NR).
+
+## PD-054: Release plan for the German track: one combined v0.5.0 release
+
+- **Date:** 2026-11-15
+- **Decision:** Acceptance in `tickets/PM-ACC3-german-release-acceptance.md`.
+  1. v0.3.0, v0.3.1, v0.3.2 and v0.3.3 are **not tagged separately**. The cto cuts **one
+     combined release, v0.5.0**, from a single release commit once these are on `main`:
+     LES-014 (#55, re-checked by the pm), FIX-003, the A2 QA branch `docs/con-de-a2-qa`,
+     and a passing FIX-004 playthrough.
+  2. The `CHANGELOG.md` entry for 0.5.0 lists the tickets in one block per milestone
+     (Gamification loop; German A1; German A2), with an ADR-007-style note that v0.3.0–v0.3.3
+     were accepted but not tagged on their own.
+  3. Version numbers keep going up. The accounts and sync milestone (formerly v0.4.0) is
+     renumbered **v0.6.0** and resumes now. The `v0.4.0` number is not used.
+  4. CTO-009 and LES-015 (cloze) move to **v0.5.1** with the A2 cloze content follow-up.
+     They don't block v0.5.0 (PD-049).
+  5. German B1 planning (v1.1.0) starts now, in parallel with v0.6.0 and v1.0.0.
+- **Rationale:** #55 and FIX-003 land after the A2 units (#60–#63), so no `main` commit holds
+  the v0.3.x milestones without 70 playable A2 lessons. A v0.3.x tag would ship A2 under an
+  A1 label, and back-to-back tags on one commit would be identical builds. One release with
+  honest notes is simpler and still traceable. The v0.1.0 / v0.2.0 approach (tag the earliest
+  commit that contains the milestone, ADR-007) doesn't work here because that commit doesn't
+  exist. Releasing A2 before accounts follows PD-036 (A1 + A2 at launch). Guests can play all
+  of it now.
+- **Alternatives considered:** back-to-back v0.3.0 … v0.3.3 + v0.5.0 tags on one commit
+  (five identical builds); a release branch from the #58 commit with #55 and FIX-003
+  cherry-picked (extra process, tags off `main`); holding A2 until accounts ship as v0.4.0
+  (delays content for no product reason); keeping the accounts milestone as v0.4.0 after
+  v0.5.0 (version numbers would go backwards).
+- **Reversibility:** Medium. Once v0.5.0 is tagged, the numbering is fixed. Until then the
+  cto may tag differently if CI history allows it.
+
+## PD-055: Prompt audio on multiple choice and word banks waits for v1.0.0
+
+- **Date:** 2026-11-15
+- **Decision:** Answer to the CTO-008 criterion 21 finding: `multiple_choice.audio` and
+  `word_bank_translate.audio` are in the contract but not rendered. Until a LES ticket
+  renders them, German content puts listening only in `listen` exercises, and any `audio`
+  field on other types is treated as unused. A ticket **LES-016 "Play prompt audio on
+  multiple choice and to_known word banks"** is planned for v1.0.0, together with the TTS
+  audio pipeline (CON-DE-SPK).
+- **Rationale:** A1 and A2 already have 2–3 listens per lesson, which is enough listening
+  practice for now. Prompt audio without real recordings would just mean more speech
+  synthesis, so it is worth more once the audio pipeline exists.
+- **Alternatives considered:** build it now (dev-lessons is busy with LES-014, FIX-005 and
+  LES-015); drop the fields from the contract (B1 announcements need them).
+- **Reversibility:** High.
