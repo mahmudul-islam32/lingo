@@ -1,0 +1,170 @@
+{
+  "id": "de-a2-u09-l4-neighbours",
+  "courseId": "en-de",
+  "unitId": "de-a2-u09",
+  "title": "Good Neighbours",
+  "tip": "Rubbish goes somewhere, so it takes the accusative: „Der Müll kommt in die Mülltonne.“ To check politely if it's a good moment, ask „Störe ich?“",
+  "exercises": [
+    {
+      "id": "de-a2-u09-l4-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        { "id": "p1", "learning": "der Nachbar / die Nachbarin", "known": "the neighbour" },
+        { "id": "p2", "learning": "der Müll", "known": "the rubbish" },
+        { "id": "p3", "learning": "die Mülltonne", "known": "the bin" },
+        { "id": "p4", "learning": "trennen", "known": "to separate / sort" },
+        { "id": "p5", "learning": "die Hausordnung", "known": "the house rules" }
+      ]
+    },
+    {
+      "id": "de-a2-u09-l4-ex02",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a2/u09/de-a2-u09-l4-ex02.mp3" },
+      "tiles": ["hallo", "ich", "bin", "die", "neue", "Nachbarin", "neuen", "bist", "Nachbar"],
+      "answers": ["Hallo, ich bin die neue Nachbarin."]
+    },
+    {
+      "id": "de-a2-u09-l4-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'The rubbish goes in the bin.'?",
+      "options": [
+        { "id": "a", "text": "Der Müll kommt in der Mülltonne." },
+        { "id": "b", "text": "Der Müll kommt in die Mülltonne." },
+        { "id": "c", "text": "Der Müll kommt in den Mülltonne." },
+        { "id": "d", "text": "Der Müll kommt im Mülltonne." }
+      ],
+      "correctOptionId": "b"
+    },
+    {
+      "id": "de-a2-u09-l4-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "In this building we separate the rubbish.",
+      "tiles": ["in", "diesem", "Haus", "trennen", "wir", "den", "Müll", "dieses", "der", "trennt"],
+      "answers": [
+        "In diesem Haus trennen wir den Müll.",
+        "Wir trennen in diesem Haus den Müll.",
+        "Wir trennen den Müll in diesem Haus.",
+        "Den Müll trennen wir in diesem Haus."
+      ]
+    },
+    {
+      "id": "de-a2-u09-l4-ex05",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a2/u09/de-a2-u09-l4-ex05.mp3" },
+      "tiles": ["bitte", "sprechen", "Sie", "abends", "leise", "laut", "sprichst", "morgens"],
+      "answers": ["Bitte sprechen Sie abends leise."]
+    },
+    {
+      "id": "de-a2-u09-l4-ex06",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'Am I disturbing you?'",
+      "options": [
+        { "id": "a", "text": "Störst ich?" },
+        { "id": "b", "text": "Stört ich?" },
+        { "id": "c", "text": "Störe mich?" },
+        { "id": "d", "text": "Störe ich?" }
+      ],
+      "correctOptionId": "d"
+    },
+    {
+      "id": "de-a2-u09-l4-ex07",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Excuse me, am I disturbing you? (formal)",
+      "tiles": ["Entschuldigung", "störe", "ich", "Sie", "stört", "mich", "dich"],
+      "answers": ["Entschuldigung, störe ich Sie?", "Entschuldigung, störe ich?"]
+    },
+    {
+      "id": "de-a2-u09-l4-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Die Hausordnung hängt im Keller.",
+      "tiles": [
+        "the",
+        "house",
+        "rules",
+        "are",
+        "in",
+        "the",
+        "cellar",
+        "hanging",
+        "basement",
+        "is",
+        "kitchen"
+      ],
+      "answers": [
+        "The house rules are in the cellar.",
+        "The house rules are in the basement.",
+        "The house rules are hanging in the cellar.",
+        "The house rules are hanging in the basement."
+      ]
+    },
+    {
+      "id": "de-a2-u09-l4-ex09",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'The bin is behind the house.'?",
+      "options": [
+        { "id": "a", "text": "Die Mülltonne steht hinter dem Haus." },
+        { "id": "b", "text": "Die Mülltonne steht hinter das Haus." },
+        { "id": "c", "text": "Die Mülltonne stellt hinter dem Haus." },
+        { "id": "d", "text": "Die Mülltonne steht hinter der Haus." }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "de-a2-u09-l4-ex10",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a2/u09/de-a2-u09-l4-ex10.mp3" },
+      "tiles": [
+        "hallo",
+        "Frau",
+        "Nowak",
+        "wo",
+        "steht",
+        "die",
+        "Mülltonne",
+        "stellt",
+        "Herr",
+        "wohin"
+      ],
+      "answers": ["Hallo, Frau Nowak, wo steht die Mülltonne?"]
+    },
+    {
+      "id": "de-a2-u09-l4-ex11",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Kids, please be quiet! (to several children)",
+      "tiles": ["Kinder", "seid", "bitte", "leise", "sei", "laut", "sind"],
+      "answers": [
+        "Kinder, seid bitte leise!",
+        "Kinder, bitte seid leise!",
+        "Kinder, seid leise, bitte!"
+      ]
+    },
+    {
+      "id": "de-a2-u09-l4-ex12",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Herr Okafor ist mein Nachbar. Er ist sehr nett.",
+      "tiles": [
+        "Mr",
+        "Okafor",
+        "is",
+        "my",
+        "neighbour",
+        "he",
+        "is",
+        "very",
+        "nice",
+        "Mrs",
+        "your",
+        "kind"
+      ],
+      "answers": [
+        "Mr Okafor is my neighbour. He is very nice.",
+        "Mr Okafor is my neighbour. He is very kind."
+      ]
+    }
+  ]
+}

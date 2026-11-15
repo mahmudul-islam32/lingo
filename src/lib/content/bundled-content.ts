@@ -360,6 +360,51 @@ export const BUNDLED_CONTENT: ContentLoaders = {
       "de-a2-u08-l5-voicemail": json(
         () => import("../../../content/courses/en-de/lessons/de-a2-u08-l5-voicemail.json"),
       ),
+      "de-a2-u09-l1-where-is-it": json(
+        () => import("../../../content/courses/en-de/lessons/de-a2-u09-l1-where-is-it.json"),
+      ),
+      "de-a2-u09-l2-between": json(
+        () => import("../../../content/courses/en-de/lessons/de-a2-u09-l2-between.json"),
+      ),
+      "de-a2-u09-l3-where-does-it-go": json(
+        () => import("../../../content/courses/en-de/lessons/de-a2-u09-l3-where-does-it-go.json"),
+      ),
+      "de-a2-u09-l4-neighbours": json(
+        () => import("../../../content/courses/en-de/lessons/de-a2-u09-l4-neighbours.json"),
+      ),
+      "de-a2-u09-l5-repairs": json(
+        () => import("../../../content/courses/en-de/lessons/de-a2-u09-l5-repairs.json"),
+      ),
+      "de-a2-u10-l1-which-platform": json(
+        () => import("../../../content/courses/en-de/lessons/de-a2-u10-l1-which-platform.json"),
+      ),
+      "de-a2-u10-l2-ten-minutes-late": json(
+        () => import("../../../content/courses/en-de/lessons/de-a2-u10-l2-ten-minutes-late.json"),
+      ),
+      "de-a2-u10-l3-booking-a-room": json(
+        () => import("../../../content/courses/en-de/lessons/de-a2-u10-l3-booking-a-room.json"),
+      ),
+      "de-a2-u10-l4-reception": json(
+        () => import("../../../content/courses/en-de/lessons/de-a2-u10-l4-reception.json"),
+      ),
+      "de-a2-u10-l5-missed-connection": json(
+        () => import("../../../content/courses/en-de/lessons/de-a2-u10-l5-missed-connection.json"),
+      ),
+      "de-a2-u11-l1-job-ads": json(
+        () => import("../../../content/courses/en-de/lessons/de-a2-u11-l1-job-ads.json"),
+      ),
+      "de-a2-u11-l2-applying": json(
+        () => import("../../../content/courses/en-de/lessons/de-a2-u11-l2-applying.json"),
+      ),
+      "de-a2-u11-l3-i-think-that": json(
+        () => import("../../../content/courses/en-de/lessons/de-a2-u11-l3-i-think-that.json"),
+      ),
+      "de-a2-u11-l4-interview": json(
+        () => import("../../../content/courses/en-de/lessons/de-a2-u11-l4-interview.json"),
+      ),
+      "de-a2-u11-l5-job-offer": json(
+        () => import("../../../content/courses/en-de/lessons/de-a2-u11-l5-job-offer.json"),
+      ),
     },
     "en-es": {
       "u1-l1-hello": json(() => import("../../../content/courses/en-es/lessons/u1-l1-hello.json")),

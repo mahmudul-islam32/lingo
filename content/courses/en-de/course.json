@@ -3,7 +3,7 @@
   "title": "German",
   "learningLanguage": "de",
   "knownLanguage": "en",
-  "version": 9,
+  "version": 12,
   "levels": [
     {
       "level": "A1",
@@ -584,6 +584,90 @@
         {
           "id": "de-a2-u08-l5-voicemail",
           "title": "Scenario: A Message on the Mailbox"
+        }
+      ]
+    },
+    {
+      "id": "de-a2-u09",
+      "level": "A2",
+      "title": "At Home and the Neighbours",
+      "description": "Say where things are and where they go, meet your neighbours and report a repair.",
+      "lessons": [
+        {
+          "id": "de-a2-u09-l1-where-is-it",
+          "title": "Where Is It?"
+        },
+        {
+          "id": "de-a2-u09-l2-between",
+          "title": "In Front, Behind, Between"
+        },
+        {
+          "id": "de-a2-u09-l3-where-does-it-go",
+          "title": "Where Does It Go?"
+        },
+        {
+          "id": "de-a2-u09-l4-neighbours",
+          "title": "Good Neighbours"
+        },
+        {
+          "id": "de-a2-u09-l5-repairs",
+          "title": "Scenario: The Tap Is Dripping"
+        }
+      ]
+    },
+    {
+      "id": "de-a2-u10",
+      "level": "A2",
+      "title": "Train and Hotel",
+      "description": "Understand platforms and delays, deal with a missed connection, and book and check into a hotel.",
+      "lessons": [
+        {
+          "id": "de-a2-u10-l1-which-platform",
+          "title": "Which Platform?"
+        },
+        {
+          "id": "de-a2-u10-l2-ten-minutes-late",
+          "title": "Ten Minutes Late"
+        },
+        {
+          "id": "de-a2-u10-l3-booking-a-room",
+          "title": "Booking a Room"
+        },
+        {
+          "id": "de-a2-u10-l4-reception",
+          "title": "At Reception"
+        },
+        {
+          "id": "de-a2-u10-l5-missed-connection",
+          "title": "Scenario: Missed Connection"
+        }
+      ]
+    },
+    {
+      "id": "de-a2-u11",
+      "level": "A2",
+      "title": "Work and Job Search",
+      "description": "Read job ads, talk about your experience, get through an interview and say what you think with dass.",
+      "lessons": [
+        {
+          "id": "de-a2-u11-l1-job-ads",
+          "title": "Job Ads"
+        },
+        {
+          "id": "de-a2-u11-l2-applying",
+          "title": "Applying"
+        },
+        {
+          "id": "de-a2-u11-l3-i-think-that",
+          "title": "I Think That…"
+        },
+        {
+          "id": "de-a2-u11-l4-interview",
+          "title": "The Interview"
+        },
+        {
+          "id": "de-a2-u11-l5-job-offer",
+          "title": "Scenario: The Job Offer"
         }
       ]
     }
