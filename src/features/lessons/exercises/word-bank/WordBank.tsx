@@ -36,10 +36,16 @@ export interface WordBankProps {
 /** Where focus should go after the DOM changes (set in handlers, applied after render). */
 type FocusTarget = { kind: "bank"; slot: number } | { kind: "answer"; index: number } | "line";
 
-/** Tile height ≥ 44 px (CTO-004 `md` control size); wraps long words instead of scrolling. */
+/**
+ * Tile height ≥ 44 px (CTO-004 `md` control size). Long words (German compounds such as
+ * "Krankenversicherungskarte") wrap inside the tile instead of widening it (LES-014):
+ * `overflow-wrap: anywhere` also lowers the tile's min-content width, so a flex row can
+ * shrink it to the container; `hyphens: auto` uses the tile's `lang` to hyphenate nicely.
+ * Text is rendered exactly as authored (never case-transformed: German noun capitals).
+ */
 const tileClasses =
-  "inline-flex min-h-11 max-w-full items-center justify-center rounded-control border-2 px-3 " +
-  "py-1.5 text-base font-semibold break-words";
+  "inline-flex min-h-11 max-w-full min-w-0 items-center justify-center rounded-control " +
+  "border-2 px-3 py-1.5 text-center text-base font-semibold wrap-anywhere hyphens-auto";
 
 /** One ruled line every 3.25 rem (tile height + gap). */
 const ruledLines =
@@ -188,6 +194,7 @@ export function WordBank({ tiles, tileLang, disabled, onChange, random }: WordBa
               key={tile.id}
               aria-hidden="true"
               data-testid="word-bank-placeholder"
+              lang={tileLang}
               className={cn(tileClasses, "border-border bg-surface")}
             >
               <span className="invisible">{tile.text}</span>
@@ -258,7 +265,7 @@ function Tile({ ref, lang, label, disabled, onClick, onKeyDown, children }: Tile
         "enabled:hover:bg-surface disabled:cursor-not-allowed disabled:opacity-60",
       )}
     >
-      {children}
+      <span className="min-w-0">{children}</span>
     </button>
   );
 }

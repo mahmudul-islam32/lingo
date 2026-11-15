@@ -1,7 +1,7 @@
 "use client";
 
 import { useCallback, useEffect, useRef, useState } from "react";
-import { CONTENT_RULES, type AudioClip, type LanguageCode } from "@/contracts";
+import { CONTENT_RULES, speechLocale, type AudioClip, type LanguageCode } from "@/contracts";
 import type { ListenAudio } from "./listen-audio";
 
 /**
@@ -18,7 +18,11 @@ export interface UseAudioPlaybackOptions {
   clip: AudioClip;
   /** Text read by the speech fallback (`answers[0]`). */
   transcript: string;
-  /** Learning language, used to pick the speech voice. */
+  /**
+   * Learning language (`course.learningLanguage`, e.g. `de`). The speech fallback looks for
+   * a voice of `speechLocale(lang)` (`de` → `de-DE`), then any voice of the base language
+   * (`de-*`), else reports `unavailable` (PD-007, PD-034).
+   */
   lang: LanguageCode;
   audio: ListenAudio;
 }
@@ -67,7 +71,7 @@ export function useAudioPlayback({
       fileFailed.current = true;
       if (!voicePromise.current) {
         setStatus("loading");
-        voicePromise.current = audio.speech.findVoice(lang);
+        voicePromise.current = audio.speech.findVoice(speechLocale(lang));
       }
       const voice = await voicePromise.current;
       if (request !== requestId.current) return;

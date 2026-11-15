@@ -102,7 +102,7 @@ export function FeedbackPanel({
         {correctAnswer && (
           <p className="break-words">
             <span>Correct answer: </span>
-            <strong lang={answerLang} className="font-bold">
+            <strong lang={answerLang} className="font-bold hyphens-auto">
               {correctAnswer}
             </strong>
           </p>
