@@ -3,7 +3,7 @@
   "title": "German",
   "learningLanguage": "de",
   "knownLanguage": "en",
-  "version": 6,
+  "version": 15,
   "levels": [
     {
       "level": "A1",
@@ -472,6 +472,286 @@
         {
           "id": "de-a2-u04-l5-office-birthday",
           "title": "Scenario: Cake at the Office"
+        }
+      ]
+    },
+    {
+      "id": "de-a2-u05",
+      "level": "A2",
+      "title": "Errands in Town",
+      "description": "Go to the bank and the post office, say where you are and since when, and use big numbers.",
+      "lessons": [
+        {
+          "id": "de-a2-u05-l1-going-to",
+          "title": "To the Bank, to the Post Office"
+        },
+        {
+          "id": "de-a2-u05-l2-where-are-you",
+          "title": "Where Are You?"
+        },
+        {
+          "id": "de-a2-u05-l3-hundreds",
+          "title": "Hundreds and Thousands"
+        },
+        {
+          "id": "de-a2-u05-l4-since-when",
+          "title": "Since When?"
+        },
+        {
+          "id": "de-a2-u05-l5-post-office",
+          "title": "Scenario: At the Post Office"
+        }
+      ]
+    },
+    {
+      "id": "de-a2-u06",
+      "level": "A2",
+      "title": "Clothes and Shopping",
+      "description": "Describe clothes by colour and size, try things on and exchange them: adjective endings.",
+      "lessons": [
+        {
+          "id": "de-a2-u06-l1-clothes",
+          "title": "Clothes"
+        },
+        {
+          "id": "de-a2-u06-l2-colours",
+          "title": "Colours"
+        },
+        {
+          "id": "de-a2-u06-l3-the-blue-jumper",
+          "title": "The Blue Jumper"
+        },
+        {
+          "id": "de-a2-u06-l4-a-red-dress",
+          "title": "A Red Dress"
+        },
+        {
+          "id": "de-a2-u06-l5-exchange",
+          "title": "Scenario: Exchanging a Jacket"
+        }
+      ]
+    },
+    {
+      "id": "de-a2-u07",
+      "level": "A2",
+      "title": "Health and Sport",
+      "description": "Talk about sport and how you feel, give advice to friends, and say what the doctor told you.",
+      "lessons": [
+        {
+          "id": "de-a2-u07-l1-sport",
+          "title": "Sport"
+        },
+        {
+          "id": "de-a2-u07-l2-how-do-you-feel",
+          "title": "How Do You Feel?"
+        },
+        {
+          "id": "de-a2-u07-l3-drink-water",
+          "title": "Drink Water!"
+        },
+        {
+          "id": "de-a2-u07-l4-the-doctor-says",
+          "title": "The Doctor Says…"
+        },
+        {
+          "id": "de-a2-u07-l5-back-in-training",
+          "title": "Scenario: Back at Training"
+        }
+      ]
+    },
+    {
+      "id": "de-a2-u08",
+      "level": "A2",
+      "title": "Appointments and Phone Calls",
+      "description": "Make, move and cancel appointments by phone, leave a message and give reasons with weil.",
+      "lessons": [
+        {
+          "id": "de-a2-u08-l1-on-the-phone",
+          "title": "On the Phone"
+        },
+        {
+          "id": "de-a2-u08-l2-minutes-and-hours",
+          "title": "Minutes and Hours"
+        },
+        {
+          "id": "de-a2-u08-l3-moving-an-appointment",
+          "title": "Moving an Appointment"
+        },
+        {
+          "id": "de-a2-u08-l4-because",
+          "title": "Because I Was Ill"
+        },
+        {
+          "id": "de-a2-u08-l5-voicemail",
+          "title": "Scenario: A Message on the Mailbox"
+        }
+      ]
+    },
+    {
+      "id": "de-a2-u09",
+      "level": "A2",
+      "title": "At Home and the Neighbours",
+      "description": "Say where things are and where they go, meet your neighbours and report a repair.",
+      "lessons": [
+        {
+          "id": "de-a2-u09-l1-where-is-it",
+          "title": "Where Is It?"
+        },
+        {
+          "id": "de-a2-u09-l2-between",
+          "title": "In Front, Behind, Between"
+        },
+        {
+          "id": "de-a2-u09-l3-where-does-it-go",
+          "title": "Where Does It Go?"
+        },
+        {
+          "id": "de-a2-u09-l4-neighbours",
+          "title": "Good Neighbours"
+        },
+        {
+          "id": "de-a2-u09-l5-repairs",
+          "title": "Scenario: The Tap Is Dripping"
+        }
+      ]
+    },
+    {
+      "id": "de-a2-u10",
+      "level": "A2",
+      "title": "Train and Hotel",
+      "description": "Understand platforms and delays, deal with a missed connection, and book and check into a hotel.",
+      "lessons": [
+        {
+          "id": "de-a2-u10-l1-which-platform",
+          "title": "Which Platform?"
+        },
+        {
+          "id": "de-a2-u10-l2-ten-minutes-late",
+          "title": "Ten Minutes Late"
+        },
+        {
+          "id": "de-a2-u10-l3-booking-a-room",
+          "title": "Booking a Room"
+        },
+        {
+          "id": "de-a2-u10-l4-reception",
+          "title": "At Reception"
+        },
+        {
+          "id": "de-a2-u10-l5-missed-connection",
+          "title": "Scenario: Missed Connection"
+        }
+      ]
+    },
+    {
+      "id": "de-a2-u11",
+      "level": "A2",
+      "title": "Work and Job Search",
+      "description": "Read job ads, talk about your experience, get through an interview and say what you think with dass.",
+      "lessons": [
+        {
+          "id": "de-a2-u11-l1-job-ads",
+          "title": "Job Ads"
+        },
+        {
+          "id": "de-a2-u11-l2-applying",
+          "title": "Applying"
+        },
+        {
+          "id": "de-a2-u11-l3-i-think-that",
+          "title": "I Think That…"
+        },
+        {
+          "id": "de-a2-u11-l4-interview",
+          "title": "The Interview"
+        },
+        {
+          "id": "de-a2-u11-l5-job-offer",
+          "title": "Scenario: The Job Offer"
+        }
+      ]
+    },
+    {
+      "id": "de-a2-u12",
+      "level": "A2",
+      "title": "Offices and Letters",
+      "description": "Read and answer formal emails and letters, bring the right documents, and use wenn, deshalb and trotzdem.",
+      "lessons": [
+        {
+          "id": "de-a2-u12-l1-letters-and-emails",
+          "title": "Letters and Emails"
+        },
+        {
+          "id": "de-a2-u12-l2-documents",
+          "title": "Documents"
+        },
+        {
+          "id": "de-a2-u12-l3-if-you-have-questions",
+          "title": "If You Have Questions"
+        },
+        {
+          "id": "de-a2-u12-l4-school-and-daycare",
+          "title": "School and Daycare"
+        },
+        {
+          "id": "de-a2-u12-l5-letter-from-the-landlord",
+          "title": "Scenario: A Letter from the Property Management"
+        }
+      ]
+    },
+    {
+      "id": "de-a2-u13",
+      "level": "A2",
+      "title": "Media and Comparisons",
+      "description": "Talk about phones, news and TV, compare things and say what you like best.",
+      "lessons": [
+        {
+          "id": "de-a2-u13-l1-phone-and-internet",
+          "title": "Phone and Internet"
+        },
+        {
+          "id": "de-a2-u13-l2-faster-and-cheaper",
+          "title": "Faster and Cheaper"
+        },
+        {
+          "id": "de-a2-u13-l3-best-of-all",
+          "title": "Best of All"
+        },
+        {
+          "id": "de-a2-u13-l4-news-and-opinions",
+          "title": "News and Opinions"
+        },
+        {
+          "id": "de-a2-u13-l5-screen-time",
+          "title": "Scenario: Screen Time"
+        }
+      ]
+    },
+    {
+      "id": "de-a2-u14",
+      "level": "A2",
+      "title": "Plans and the Future",
+      "description": "Talk about plans, goals and predictions with werden, and finish A2 with a review of your first year.",
+      "lessons": [
+        {
+          "id": "de-a2-u14-l1-i-will",
+          "title": "I Will…"
+        },
+        {
+          "id": "de-a2-u14-l2-predictions",
+          "title": "It Will Rain"
+        },
+        {
+          "id": "de-a2-u14-l3-goals",
+          "title": "Goals"
+        },
+        {
+          "id": "de-a2-u14-l4-about-me",
+          "title": "About Me"
+        },
+        {
+          "id": "de-a2-u14-l5-a2-checkpoint",
+          "title": "A2 Checkpoint: Your First Year"
         }
       ]
     }

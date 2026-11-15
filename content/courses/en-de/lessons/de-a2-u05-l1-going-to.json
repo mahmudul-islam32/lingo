@@ -1,0 +1,154 @@
+{
+  "id": "de-a2-u05-l1-going-to",
+  "courseId": "en-de",
+  "unitId": "de-a2-u05",
+  "title": "To the Bank, to the Post Office",
+  "tip": "zu takes the dative: zum = zu dem, zur = zu der. Ich gehe zur Bank, zum Supermarkt. You know it from „Wie komme ich zum Bahnhof?“ Home is different: nach Hause.",
+  "exercises": [
+    {
+      "id": "de-a2-u05-l1-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        { "id": "p1", "learning": "die Bank", "known": "the bank" },
+        { "id": "p2", "learning": "die Post", "known": "the post office" },
+        { "id": "p3", "learning": "der Supermarkt", "known": "the supermarket" },
+        { "id": "p4", "learning": "die Straße", "known": "the street" },
+        { "id": "p5", "learning": "nach Hause", "known": "home (direction)" }
+      ]
+    },
+    {
+      "id": "de-a2-u05-l1-ex02",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a2/u05/de-a2-u05-l1-ex02.mp3" },
+      "tiles": [
+        "ich",
+        "gehe",
+        "zur",
+        "Bank",
+        "und",
+        "dann",
+        "zum",
+        "Supermarkt",
+        "der",
+        "gehst",
+        "Post"
+      ],
+      "answers": ["Ich gehe zur Bank und dann zum Supermarkt."]
+    },
+    {
+      "id": "de-a2-u05-l1-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'I'm going to the post office.'?",
+      "options": [
+        { "id": "a", "text": "Ich gehe zur Post." },
+        { "id": "b", "text": "Ich gehe zum Post." },
+        { "id": "c", "text": "Ich gehe zu die Post." },
+        { "id": "d", "text": "Ich gehe nach Post." }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "de-a2-u05-l1-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I'm going to the supermarket.",
+      "tiles": ["ich", "gehe", "zum", "Supermarkt", "zur", "der", "gehst"],
+      "answers": ["Ich gehe zum Supermarkt.", "Zum Supermarkt gehe ich."]
+    },
+    {
+      "id": "de-a2-u05-l1-ex05",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a2/u05/de-a2-u05-l1-ex05.mp3" },
+      "tiles": ["wie", "komme", "ich", "zum", "Bahnhof", "zur", "kommst", "wo"],
+      "answers": ["Wie komme ich zum Bahnhof?"]
+    },
+    {
+      "id": "de-a2-u05-l1-ex06",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'I'm going home now.'?",
+      "options": [
+        { "id": "a", "text": "Ich gehe jetzt nach Hause." },
+        { "id": "b", "text": "Ich gehe jetzt zu Hause." },
+        { "id": "c", "text": "Ich gehe jetzt zum Hause." },
+        { "id": "d", "text": "Ich bin jetzt nach Hause." }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "de-a2-u05-l1-ex07",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Ist das die Straße zur Bank?",
+      "tiles": [
+        "is",
+        "this",
+        "the",
+        "the",
+        "street",
+        "to",
+        "bank",
+        "that",
+        "post",
+        "office",
+        "are"
+      ],
+      "answers": ["Is this the street to the bank?", "Is that the street to the bank?"]
+    },
+    {
+      "id": "de-a2-u05-l1-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "We're going to the post office and then home.",
+      "tiles": ["wir", "gehen", "zur", "Post", "und", "dann", "nach", "Hause", "zu", "zum", "geht"],
+      "answers": ["Wir gehen zur Post und dann nach Hause."]
+    },
+    {
+      "id": "de-a2-u05-l1-ex09",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'Are you going to the bank? (to a friend)'?",
+      "options": [
+        { "id": "a", "text": "Gehst du zur Bank?" },
+        { "id": "b", "text": "Gehst du zum Bank?" },
+        { "id": "c", "text": "Gehst du zu die Bank?" },
+        { "id": "d", "text": "Gehst du nach die Bank?" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "de-a2-u05-l1-ex10",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a2/u05/de-a2-u05-l1-ex10.mp3" },
+      "tiles": [
+        "die",
+        "Post",
+        "ist",
+        "nicht",
+        "weit",
+        "gehen",
+        "Sie",
+        "hier",
+        "geradeaus",
+        "Bank",
+        "nah",
+        "gehst"
+      ],
+      "answers": ["Die Post ist nicht weit. Gehen Sie hier geradeaus."]
+    },
+    {
+      "id": "de-a2-u05-l1-ex11",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Ich fahre mit dem Bus zum Supermarkt.",
+      "tiles": ["I'm", "going", "to", "the", "supermarket", "by", "bus", "I", "go", "train", "at"],
+      "answers": ["I'm going to the supermarket by bus.", "I go to the supermarket by bus."]
+    },
+    {
+      "id": "de-a2-u05-l1-ex12",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Excuse me, how do I get to the post office?",
+      "tiles": ["Entschuldigung", "wie", "komme", "ich", "zur", "Post", "zum", "kommst", "wo"],
+      "answers": ["Entschuldigung, wie komme ich zur Post?"]
+    }
+  ]
+}

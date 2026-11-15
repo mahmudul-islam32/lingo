@@ -1,0 +1,130 @@
+{
+  "id": "de-a2-u07-l2-how-do-you-feel",
+  "courseId": "en-de",
+  "unitId": "de-a2-u07",
+  "title": "How Do You Feel?",
+  "tip": "Reflexive verbs need a pronoun: Ich fühle mich gut. Du fühlst dich müde. Er fühlt sich besser. Ausruhen is separable: Ich ruhe mich heute aus.",
+  "exercises": [
+    {
+      "id": "de-a2-u07-l2-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        { "id": "p1", "learning": "sich fühlen", "known": "to feel" },
+        { "id": "p2", "learning": "müde", "known": "tired" },
+        { "id": "p3", "learning": "fit", "known": "fit" },
+        { "id": "p4", "learning": "besser", "known": "better" },
+        { "id": "p5", "learning": "sich ausruhen", "known": "to rest" }
+      ]
+    },
+    {
+      "id": "de-a2-u07-l2-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'I feel good.'?",
+      "options": [
+        { "id": "a", "text": "Ich fühle gut." },
+        { "id": "b", "text": "Ich fühle mir gut." },
+        { "id": "c", "text": "Ich fühle mich gut." },
+        { "id": "d", "text": "Ich fühlt mich gut." }
+      ],
+      "correctOptionId": "c"
+    },
+    {
+      "id": "de-a2-u07-l2-ex03",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I don't feel well.",
+      "tiles": ["ich", "fühle", "mich", "nicht", "gut", "mir", "fühlst", "dich"],
+      "answers": ["Ich fühle mich nicht gut."]
+    },
+    {
+      "id": "de-a2-u07-l2-ex04",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a2/u07/de-a2-u07-l2-ex04.mp3" },
+      "tiles": ["wie", "fühlst", "du", "dich", "bist", "du", "müde", "fühle", "mich", "bin"],
+      "answers": ["Wie fühlst du dich? Bist du müde?"]
+    },
+    {
+      "id": "de-a2-u07-l2-ex05",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "He feels tired.",
+      "tiles": ["er", "fühlt", "sich", "müde", "ihn", "fühle", "mich"],
+      "answers": ["Er fühlt sich müde.", "Müde fühlt er sich."]
+    },
+    {
+      "id": "de-a2-u07-l2-ex06",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'How do you feel? (to friends)'?",
+      "options": [
+        { "id": "a", "text": "Wie fühlt ihr euch?" },
+        { "id": "b", "text": "Wie fühlt ihr sich?" },
+        { "id": "c", "text": "Wie fühlt ihr uns?" },
+        { "id": "d", "text": "Wie fühlst ihr euch?" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "de-a2-u07-l2-ex07",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a2/u07/de-a2-u07-l2-ex07.mp3" },
+      "tiles": ["es", "geht", "mir", "besser", "heute", "bin", "ich", "fit", "mich", "gut", "ist"],
+      "answers": ["Es geht mir besser. Heute bin ich fit."]
+    },
+    {
+      "id": "de-a2-u07-l2-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I'm resting today.",
+      "tiles": ["ich", "ruhe", "mich", "heute", "aus", "ruhst", "dich", "mir"],
+      "answers": ["Ich ruhe mich heute aus.", "Heute ruhe ich mich aus."]
+    },
+    {
+      "id": "de-a2-u07-l2-ex09",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Wir fühlen uns fit.",
+      "tiles": ["we", "feel", "fit", "tired", "feels", "they"],
+      "answers": ["We feel fit."]
+    },
+    {
+      "id": "de-a2-u07-l2-ex10",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'I'm feeling better.'?",
+      "options": [
+        { "id": "a", "text": "Es geht mich besser." },
+        { "id": "b", "text": "Ich geht mir besser." },
+        { "id": "c", "text": "Es gehe mir besser." },
+        { "id": "d", "text": "Es geht mir besser." }
+      ],
+      "correctOptionId": "d"
+    },
+    {
+      "id": "de-a2-u07-l2-ex11",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a2/u07/de-a2-u07-l2-ex11.mp3" },
+      "tiles": [
+        "Mira",
+        "fühlt",
+        "sich",
+        "nicht",
+        "gut",
+        "sie",
+        "ruht",
+        "sich",
+        "aus",
+        "ruhe",
+        "mich",
+        "ihr"
+      ],
+      "answers": ["Mira fühlt sich nicht gut. Sie ruht sich aus."]
+    },
+    {
+      "id": "de-a2-u07-l2-ex12",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Er ruht sich am Sonntag aus.",
+      "tiles": ["he", "rests", "on", "Sunday", "Saturday", "rest", "at"],
+      "answers": ["He rests on Sunday.", "On Sunday he rests."]
+    }
+  ]
+}

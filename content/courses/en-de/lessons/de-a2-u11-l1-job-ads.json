@@ -1,0 +1,196 @@
+{
+  "id": "de-a2-u11-l1-job-ads",
+  "courseId": "en-de",
+  "unitId": "de-a2-u11",
+  "title": "Job Ads",
+  "tip": "In job ads, Vollzeit and Teilzeit have no article: „Die Stelle ist in Teilzeit.“ Pay is often per month: „zweitausendfünfhundert Euro pro Monat“.",
+  "exercises": [
+    {
+      "id": "de-a2-u11-l1-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        { "id": "p1", "learning": "die Stelle", "known": "the job / position" },
+        { "id": "p2", "learning": "die Stellenanzeige", "known": "the job ad" },
+        { "id": "p3", "learning": "in Vollzeit", "known": "full-time" },
+        { "id": "p4", "learning": "in Teilzeit", "known": "part-time" },
+        { "id": "p5", "learning": "die Erfahrung", "known": "experience" }
+      ]
+    },
+    {
+      "id": "de-a2-u11-l1-ex02",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a2/u11/de-a2-u11-l1-ex02.mp3" },
+      "tiles": [
+        "die",
+        "Firma",
+        "sucht",
+        "eine",
+        "Krankenpflegerin",
+        "in",
+        "Vollzeit",
+        "Teilzeit",
+        "suchst",
+        "einen"
+      ],
+      "answers": ["Die Firma sucht eine Krankenpflegerin in Vollzeit."]
+    },
+    {
+      "id": "de-a2-u11-l1-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which one means 'part-time'?",
+      "options": [
+        { "id": "a", "text": "in Teilzeit" },
+        { "id": "b", "text": "in Vollzeit" },
+        { "id": "c", "text": "die Erfahrung" },
+        { "id": "d", "text": "das Gehalt" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "de-a2-u11-l1-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I'd like to work full-time.",
+      "tiles": ["ich", "möchte", "in", "Vollzeit", "arbeiten", "Teilzeit", "möchtest", "arbeite"],
+      "answers": [
+        "Ich möchte in Vollzeit arbeiten.",
+        "Ich möchte Vollzeit arbeiten.",
+        "In Vollzeit möchte ich arbeiten.",
+        "Vollzeit möchte ich arbeiten."
+      ]
+    },
+    {
+      "id": "de-a2-u11-l1-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'You have two years of experience. (formal)'?",
+      "options": [
+        { "id": "a", "text": "Sie haben zwei Jahre Erfahrung." },
+        { "id": "b", "text": "Sie haben zwei Jahren Erfahrung." },
+        { "id": "c", "text": "Sie sind zwei Jahre Erfahrung." },
+        { "id": "d", "text": "Sie haben Erfahrung zwei Jahre." }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "de-a2-u11-l1-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "How much do I earn?",
+      "tiles": ["wie", "viel", "verdiene", "ich", "verdienst", "viele", "wo"],
+      "answers": ["Wie viel verdiene ich?"]
+    },
+    {
+      "id": "de-a2-u11-l1-ex07",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a2/u11/de-a2-u11-l1-ex07.mp3" },
+      "tiles": [
+        "Sie",
+        "verdienen",
+        "zweitausendfünfhundert",
+        "Euro",
+        "pro",
+        "Monat",
+        "verdient",
+        "Woche",
+        "zweitausend"
+      ],
+      "answers": ["Sie verdienen zweitausendfünfhundert Euro pro Monat."]
+    },
+    {
+      "id": "de-a2-u11-l1-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Die Stelle ist in Teilzeit, zwanzig Stunden pro Woche.",
+      "tiles": [
+        "the",
+        "job",
+        "position",
+        "is",
+        "part-time",
+        "twenty",
+        "hours",
+        "a",
+        "per",
+        "week",
+        "full-time",
+        "month",
+        "day"
+      ],
+      "answers": [
+        "The job is part-time, twenty hours a week.",
+        "The job is part-time, twenty hours per week.",
+        "The position is part-time, twenty hours a week.",
+        "The position is part-time, twenty hours per week."
+      ]
+    },
+    {
+      "id": "de-a2-u11-l1-ex09",
+      "type": "multiple_choice",
+      "prompt": "Which one means 'the salary'?",
+      "options": [
+        { "id": "a", "text": "das Gehalt" },
+        { "id": "b", "text": "die Gehalt" },
+        { "id": "c", "text": "der Gehalt" },
+        { "id": "d", "text": "die Stelle" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "de-a2-u11-l1-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I read the job ad yesterday.",
+      "tiles": ["ich", "habe", "gestern", "die", "Stellenanzeige", "gelesen", "bin", "der", "lese"],
+      "answers": [
+        "Ich habe gestern die Stellenanzeige gelesen.",
+        "Gestern habe ich die Stellenanzeige gelesen.",
+        "Ich habe die Stellenanzeige gestern gelesen.",
+        "Die Stellenanzeige habe ich gestern gelesen."
+      ]
+    },
+    {
+      "id": "de-a2-u11-l1-ex11",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a2/u11/de-a2-u11-l1-ex11.mp3" },
+      "tiles": [
+        "die",
+        "Stelle",
+        "ist",
+        "ab",
+        "sofort",
+        "frei",
+        "haben",
+        "Sie",
+        "Erfahrung",
+        "hast",
+        "du",
+        "sind"
+      ],
+      "answers": ["Die Stelle ist ab sofort frei. Haben Sie Erfahrung?"]
+    },
+    {
+      "id": "de-a2-u11-l1-ex12",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I have no experience as a teacher.",
+      "tiles": [
+        "ich",
+        "habe",
+        "keine",
+        "Erfahrung",
+        "als",
+        "Lehrer",
+        "Lehrerin",
+        "kein",
+        "einen",
+        "bin"
+      ],
+      "answers": [
+        "Ich habe keine Erfahrung als Lehrer.",
+        "Ich habe keine Erfahrung als Lehrerin.",
+        "Als Lehrer habe ich keine Erfahrung.",
+        "Als Lehrerin habe ich keine Erfahrung."
+      ]
+    }
+  ]
+}

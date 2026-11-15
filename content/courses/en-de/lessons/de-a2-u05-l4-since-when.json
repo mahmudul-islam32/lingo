@@ -1,0 +1,176 @@
+{
+  "id": "de-a2-u05-l4-since-when",
+  "courseId": "en-de",
+  "unitId": "de-a2-u05",
+  "title": "Since When?",
+  "tip": "seit + dative uses the present tense: Ich wohne seit einem Jahr hier = I've lived here for a year. vor + dative means ago: vor zwei Jahren.",
+  "exercises": [
+    {
+      "id": "de-a2-u05-l4-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        { "id": "p1", "learning": "das Konto", "known": "the bank account" },
+        { "id": "p2", "learning": "eröffnen", "known": "to open (an account)" },
+        { "id": "p3", "learning": "der Ausweis", "known": "the ID card" },
+        { "id": "p4", "learning": "die Bankkarte", "known": "the bank card" },
+        { "id": "p5", "learning": "seit wann?", "known": "since when?" }
+      ]
+    },
+    {
+      "id": "de-a2-u05-l4-ex02",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a2/u05/de-a2-u05-l4-ex02.mp3" },
+      "tiles": ["ich", "möchte", "ein", "Konto", "eröffnen", "einen", "möchtest", "Bankkarte"],
+      "answers": ["Ich möchte ein Konto eröffnen."]
+    },
+    {
+      "id": "de-a2-u05-l4-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'I've lived here for two years.'?",
+      "options": [
+        { "id": "a", "text": "Ich habe seit zwei Jahren hier gewohnt." },
+        { "id": "b", "text": "Ich wohne seit zwei Jahren hier." },
+        { "id": "c", "text": "Ich wohne vor zwei Jahren hier." },
+        { "id": "d", "text": "Ich wohne für zwei Jahren hier." }
+      ],
+      "correctOptionId": "b"
+    },
+    {
+      "id": "de-a2-u05-l4-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "How long have you lived in Germany? (formal)",
+      "tiles": ["seit", "wann", "wohnen", "Sie", "in", "Deutschland", "wohnt", "vor", "wie"],
+      "answers": ["Seit wann wohnen Sie in Deutschland?"]
+    },
+    {
+      "id": "de-a2-u05-l4-ex05",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a2/u05/de-a2-u05-l4-ex05.mp3" },
+      "tiles": ["ich", "wohne", "seit", "drei", "Monaten", "in", "Köln", "vor", "Monat", "habe"],
+      "answers": ["Ich wohne seit drei Monaten in Köln."]
+    },
+    {
+      "id": "de-a2-u05-l4-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I came to Germany two years ago.",
+      "tiles": [
+        "ich",
+        "bin",
+        "vor",
+        "zwei",
+        "Jahren",
+        "nach",
+        "Deutschland",
+        "gekommen",
+        "seit",
+        "habe",
+        "Jahre"
+      ],
+      "answers": [
+        "Ich bin vor zwei Jahren nach Deutschland gekommen.",
+        "Vor zwei Jahren bin ich nach Deutschland gekommen."
+      ]
+    },
+    {
+      "id": "de-a2-u05-l4-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'Do you have an ID card? (formal)'?",
+      "options": [
+        { "id": "a", "text": "Haben Sie ein Ausweis?" },
+        { "id": "b", "text": "Haben Sie eine Ausweis?" },
+        { "id": "c", "text": "Hast Sie einen Ausweis?" },
+        { "id": "d", "text": "Haben Sie einen Ausweis?" }
+      ],
+      "correctOptionId": "d"
+    },
+    {
+      "id": "de-a2-u05-l4-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Hier ist meine Bankkarte.",
+      "tiles": ["here", "is", "my", "bank", "card", "account", "your", "are"],
+      "answers": ["Here is my bank card."]
+    },
+    {
+      "id": "de-a2-u05-l4-ex09",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a2/u05/de-a2-u05-l4-ex09.mp3" },
+      "tiles": [
+        "seit",
+        "wann",
+        "haben",
+        "Sie",
+        "das",
+        "Konto",
+        "seit",
+        "einem",
+        "Jahr",
+        "vor",
+        "einen",
+        "Jahren"
+      ],
+      "answers": ["Seit wann haben Sie das Konto? Seit einem Jahr."]
+    },
+    {
+      "id": "de-a2-u05-l4-ex10",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'I opened the account a week ago.'?",
+      "options": [
+        { "id": "a", "text": "Ich habe das Konto vor einer Woche eröffnet." },
+        { "id": "b", "text": "Ich habe das Konto seit einer Woche eröffnet." },
+        { "id": "c", "text": "Ich habe das Konto vor eine Woche eröffnet." },
+        { "id": "d", "text": "Ich bin das Konto vor einer Woche eröffnet." }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "de-a2-u05-l4-ex11",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I'd like to withdraw money. Here is my bank card.",
+      "tiles": [
+        "ich",
+        "möchte",
+        "Geld",
+        "abheben",
+        "hier",
+        "ist",
+        "meine",
+        "Bankkarte",
+        "mein",
+        "Konto",
+        "möchtest"
+      ],
+      "answers": [
+        "Ich möchte Geld abheben. Hier ist meine Bankkarte.",
+        "Geld möchte ich abheben. Hier ist meine Bankkarte."
+      ]
+    },
+    {
+      "id": "de-a2-u05-l4-ex12",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I've worked at the bank for a year.",
+      "tiles": [
+        "ich",
+        "arbeite",
+        "seit",
+        "einem",
+        "Jahr",
+        "bei",
+        "der",
+        "Bank",
+        "vor",
+        "einen",
+        "arbeitest"
+      ],
+      "answers": [
+        "Ich arbeite seit einem Jahr bei der Bank.",
+        "Seit einem Jahr arbeite ich bei der Bank.",
+        "Bei der Bank arbeite ich seit einem Jahr."
+      ]
+    }
+  ]
+}

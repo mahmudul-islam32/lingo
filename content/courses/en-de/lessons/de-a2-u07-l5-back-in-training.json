@@ -1,0 +1,186 @@
+{
+  "id": "de-a2-u07-l5-back-in-training",
+  "courseId": "en-de",
+  "unitId": "de-a2-u07",
+  "title": "Scenario: Back at Training",
+  "tip": "Many people in Germany do sport in a local Verein. Sich freuen is reflexive: Ich freue mich! Wir freuen uns! In the past: Wir haben gewonnen. Wir haben verloren.",
+  "exercises": [
+    {
+      "id": "de-a2-u07-l5-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        { "id": "p1", "learning": "der Fuß", "known": "the foot" },
+        { "id": "p2", "learning": "das Spiel", "known": "the game" },
+        { "id": "p3", "learning": "gewinnen", "known": "to win" },
+        { "id": "p4", "learning": "verlieren", "known": "to lose" },
+        { "id": "p5", "learning": "Ich freue mich!", "known": "I'm glad!" }
+      ]
+    },
+    {
+      "id": "de-a2-u07-l5-ex02",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a2/u07/de-a2-u07-l5-ex02.mp3" },
+      "tiles": ["hallo", "Tomasz", "wie", "geht", "es", "deinem", "Fuß", "deinen", "dein", "ist"],
+      "answers": ["Hallo, Tomasz! Wie geht es deinem Fuß?"]
+    },
+    {
+      "id": "de-a2-u07-l5-ex03",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "My foot is better. I'm glad!",
+      "tiles": [
+        "mein",
+        "Fuß",
+        "ist",
+        "besser",
+        "ich",
+        "freue",
+        "mich",
+        "meine",
+        "Füße",
+        "sind",
+        "mir"
+      ],
+      "answers": ["Mein Fuß ist besser. Ich freue mich!"]
+    },
+    {
+      "id": "de-a2-u07-l5-ex04",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'We're glad!'",
+      "options": [
+        { "id": "a", "text": "Wir freuen euch!" },
+        { "id": "b", "text": "Wir freuen uns!" },
+        { "id": "c", "text": "Wir freuen!" },
+        { "id": "d", "text": "Wir freut uns!" }
+      ],
+      "correctOptionId": "b"
+    },
+    {
+      "id": "de-a2-u07-l5-ex05",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a2/u07/de-a2-u07-l5-ex05.mp3" },
+      "tiles": [
+        "am",
+        "Sonntag",
+        "haben",
+        "wir",
+        "ein",
+        "Spiel",
+        "kommst",
+        "du",
+        "einen",
+        "hat",
+        "kommt"
+      ],
+      "answers": ["Am Sonntag haben wir ein Spiel. Kommst du?"]
+    },
+    {
+      "id": "de-a2-u07-l5-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Take a break, Tomasz! Your foot hurts. (to a friend)",
+      "tiles": [
+        "mach",
+        "eine",
+        "Pause",
+        "Tomasz",
+        "dein",
+        "Fuß",
+        "tut",
+        "weh",
+        "macht",
+        "deine",
+        "tun"
+      ],
+      "answers": [
+        "Mach eine Pause, Tomasz! Dein Fuß tut weh.",
+        "Tomasz, mach eine Pause! Dein Fuß tut weh."
+      ]
+    },
+    {
+      "id": "de-a2-u07-l5-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'We won!'",
+      "options": [
+        { "id": "a", "text": "Wir sind gewonnen!" },
+        { "id": "b", "text": "Wir haben gewinnt!" },
+        { "id": "c", "text": "Wir haben gewonnen!" },
+        { "id": "d", "text": "Wir haben gewinnen!" }
+      ],
+      "correctOptionId": "c"
+    },
+    {
+      "id": "de-a2-u07-l5-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Wir haben das Spiel verloren, aber es war toll.",
+      "tiles": ["we", "lost", "the", "game", "but", "it", "was", "great", "won", "were", "match"],
+      "answers": ["We lost the game, but it was great.", "We lost the match, but it was great."]
+    },
+    {
+      "id": "de-a2-u07-l5-ex09",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a2/u07/de-a2-u07-l5-ex09.mp3" },
+      "tiles": [
+        "die",
+        "Mannschaft",
+        "hat",
+        "gewonnen",
+        "wir",
+        "freuen",
+        "uns",
+        "haben",
+        "verloren",
+        "euch"
+      ],
+      "answers": ["Die Mannschaft hat gewonnen. Wir freuen uns!"]
+    },
+    {
+      "id": "de-a2-u07-l5-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Did you win? (to friends)",
+      "tiles": ["habt", "ihr", "gewonnen", "hast", "du", "gewinnt", "seid"],
+      "answers": ["Habt ihr gewonnen?"]
+    },
+    {
+      "id": "de-a2-u07-l5-ex11",
+      "type": "multiple_choice",
+      "prompt": "Which one means 'the feet'?",
+      "options": [
+        { "id": "a", "text": "die Füße" },
+        { "id": "b", "text": "die Fuße" },
+        { "id": "c", "text": "die Füßen" },
+        { "id": "d", "text": "die Fußen" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "de-a2-u07-l5-ex12",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "In March I hurt myself. Now I'm fit.",
+      "tiles": [
+        "im",
+        "März",
+        "habe",
+        "ich",
+        "mich",
+        "verletzt",
+        "jetzt",
+        "bin",
+        "ich",
+        "fit",
+        "mir",
+        "bist",
+        "Mai"
+      ],
+      "answers": [
+        "Im März habe ich mich verletzt. Jetzt bin ich fit.",
+        "Ich habe mich im März verletzt. Jetzt bin ich fit.",
+        "Im März habe ich mich verletzt. Ich bin jetzt fit.",
+        "Ich habe mich im März verletzt. Ich bin jetzt fit."
+      ]
+    }
+  ]
+}

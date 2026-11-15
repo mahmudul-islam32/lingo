@@ -1,0 +1,202 @@
+{
+  "id": "de-a2-u10-l5-missed-connection",
+  "courseId": "en-de",
+  "unitId": "de-a2-u10",
+  "title": "Scenario: Missed Connection",
+  "tip": "Report a problem in the past: „Ich konnte den Zug nicht nehmen.“ (konnte + infinitive at the end) and „Ich habe meinen Anschluss verpasst.“ (Perfekt).",
+  "exercises": [
+    {
+      "id": "de-a2-u10-l5-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        { "id": "p1", "learning": "das Problem", "known": "the problem" },
+        { "id": "p2", "learning": "stornieren", "known": "to cancel (a booking)" },
+        { "id": "p3", "learning": "heute Nacht", "known": "tonight" },
+        { "id": "p4", "learning": "die Kreditkarte", "known": "the credit card" },
+        { "id": "p5", "learning": "der Anschluss", "known": "the connection" }
+      ]
+    },
+    {
+      "id": "de-a2-u10-l5-ex02",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a2/u10/de-a2-u10-l5-ex02.mp3" },
+      "tiles": [
+        "der",
+        "Zug",
+        "nach",
+        "Zürich",
+        "hat",
+        "vierzig",
+        "Minuten",
+        "Verspätung",
+        "er",
+        "fährt",
+        "von",
+        "Gleis",
+        "neun",
+        "ist",
+        "auf",
+        "vierzehn"
+      ],
+      "answers": ["Der Zug nach Zürich hat vierzig Minuten Verspätung. Er fährt von Gleis neun."]
+    },
+    {
+      "id": "de-a2-u10-l5-ex03",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I missed my connection.",
+      "tiles": ["ich", "habe", "meinen", "Anschluss", "verpasst", "bin", "mein", "verpassen"],
+      "answers": ["Ich habe meinen Anschluss verpasst.", "Meinen Anschluss habe ich verpasst."]
+    },
+    {
+      "id": "de-a2-u10-l5-ex04",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a2/u10/de-a2-u10-l5-ex04.mp3" },
+      "tiles": [
+        "guten",
+        "Abend",
+        "hier",
+        "spricht",
+        "Tomasz",
+        "Nowak",
+        "ich",
+        "habe",
+        "ein",
+        "Zimmer",
+        "für",
+        "heute",
+        "Nacht",
+        "gebucht",
+        "Morgen",
+        "bin",
+        "buchen"
+      ],
+      "answers": [
+        "Guten Abend, hier spricht Tomasz Nowak. Ich habe ein Zimmer für heute Nacht gebucht."
+      ]
+    },
+    {
+      "id": "de-a2-u10-l5-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'I couldn't take the train.'?",
+      "options": [
+        { "id": "a", "text": "Ich konnte den Zug nicht nehme." },
+        { "id": "b", "text": "Ich kann den Zug nicht nehmen." },
+        { "id": "c", "text": "Ich konnte den Zug nicht nehmen." },
+        { "id": "d", "text": "Ich konnte nicht nehmen den Zug." }
+      ],
+      "correctOptionId": "c"
+    },
+    {
+      "id": "de-a2-u10-l5-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I'm arriving later tonight.",
+      "tiles": ["ich", "komme", "heute", "Nacht", "später", "an", "kommst", "ankommen", "gleich"],
+      "answers": [
+        "Ich komme heute Nacht später an.",
+        "Heute Nacht komme ich später an.",
+        "Ich komme später heute Nacht an."
+      ]
+    },
+    {
+      "id": "de-a2-u10-l5-ex07",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a2/u10/de-a2-u10-l5-ex07.mp3" },
+      "tiles": [
+        "kein",
+        "Problem",
+        "Herr",
+        "Nowak",
+        "wann",
+        "sind",
+        "Sie",
+        "im",
+        "Hotel",
+        "keine",
+        "ins",
+        "bist"
+      ],
+      "answers": ["Kein Problem, Herr Nowak. Wann sind Sie im Hotel?"]
+    },
+    {
+      "id": "de-a2-u10-l5-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Can I pay by credit card?",
+      "tiles": ["kann", "ich", "mit", "Kreditkarte", "bezahlen", "bar", "kannst", "bezahlt"],
+      "answers": ["Kann ich mit Kreditkarte bezahlen?"]
+    },
+    {
+      "id": "de-a2-u10-l5-ex09",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'My train was 30 minutes late.'?",
+      "options": [
+        { "id": "a", "text": "Mein Zug war dreißig Minuten Verspätung." },
+        { "id": "b", "text": "Mein Zug hatte dreißig Minuten Verspätung." },
+        { "id": "c", "text": "Mein Zug hatte dreißig Minute Verspätung." },
+        { "id": "d", "text": "Mein Zug hatte Verspätung dreißig Minuten." }
+      ],
+      "correctOptionId": "b"
+    },
+    {
+      "id": "de-a2-u10-l5-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Ich möchte die Reservierung für morgen stornieren.",
+      "tiles": [
+        "I",
+        "would",
+        "like",
+        "to",
+        "cancel",
+        "the",
+        "reservation",
+        "for",
+        "tomorrow",
+        "book",
+        "today",
+        "booked"
+      ],
+      "answers": ["I would like to cancel the reservation for tomorrow."]
+    },
+    {
+      "id": "de-a2-u10-l5-ex11",
+      "type": "multiple_choice",
+      "prompt": "Which one means 'the credit card'?",
+      "options": [
+        { "id": "a", "text": "der Kreditkarte" },
+        { "id": "b", "text": "die Bankkarte" },
+        { "id": "c", "text": "die Kreditkarte" },
+        { "id": "d", "text": "das Kreditkarte" }
+      ],
+      "correctOptionId": "c"
+    },
+    {
+      "id": "de-a2-u10-l5-ex12",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I'm taking the tram from the station to the hotel.",
+      "tiles": [
+        "ich",
+        "nehme",
+        "die",
+        "Straßenbahn",
+        "vom",
+        "Bahnhof",
+        "zum",
+        "Hotel",
+        "von",
+        "zur",
+        "nimmst"
+      ],
+      "answers": [
+        "Ich nehme die Straßenbahn vom Bahnhof zum Hotel.",
+        "Vom Bahnhof nehme ich die Straßenbahn zum Hotel.",
+        "Ich nehme vom Bahnhof die Straßenbahn zum Hotel.",
+        "Die Straßenbahn nehme ich vom Bahnhof zum Hotel.",
+        "Zum Hotel nehme ich die Straßenbahn vom Bahnhof."
+      ]
+    }
+  ]
+}

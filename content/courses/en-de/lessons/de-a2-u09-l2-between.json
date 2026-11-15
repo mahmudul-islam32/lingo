@@ -1,0 +1,152 @@
+{
+  "id": "de-a2-u09-l2-between",
+  "courseId": "en-de",
+  "unitId": "de-a2-u09",
+  "title": "In Front, Behind, Between",
+  "tip": "vor, hinter and zwischen also take the dative for Wo?: „Der Teppich liegt vor dem Sofa.“ hängen = to be hanging: „Das Bild hängt an der Wand.“",
+  "exercises": [
+    {
+      "id": "de-a2-u09-l2-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        { "id": "p1", "learning": "vor", "known": "in front of" },
+        { "id": "p2", "learning": "hinter", "known": "behind" },
+        { "id": "p3", "learning": "zwischen", "known": "between" },
+        { "id": "p4", "learning": "das Bild", "known": "the picture" },
+        { "id": "p5", "learning": "die Ecke", "known": "the corner" }
+      ]
+    },
+    {
+      "id": "de-a2-u09-l2-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'The picture is hanging on the wall.'?",
+      "options": [
+        { "id": "a", "text": "Das Bild hängt an die Wand." },
+        { "id": "b", "text": "Das Bild hängt auf der Wand." },
+        { "id": "c", "text": "Das Bild hängt an der Wand." },
+        { "id": "d", "text": "Das Bild hängen an der Wand." }
+      ],
+      "correctOptionId": "c"
+    },
+    {
+      "id": "de-a2-u09-l2-ex03",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a2/u09/de-a2-u09-l2-ex03.mp3" },
+      "tiles": ["die", "Schuhe", "stehen", "vor", "der", "Tür", "den", "steht", "hinter"],
+      "answers": ["Die Schuhe stehen vor der Tür."]
+    },
+    {
+      "id": "de-a2-u09-l2-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "The rug is between the bed and the wardrobe.",
+      "tiles": [
+        "der",
+        "Teppich",
+        "liegt",
+        "zwischen",
+        "dem",
+        "Bett",
+        "und",
+        "dem",
+        "Schrank",
+        "den",
+        "steht",
+        "die"
+      ],
+      "answers": [
+        "Der Teppich liegt zwischen dem Bett und dem Schrank.",
+        "Zwischen dem Bett und dem Schrank liegt der Teppich.",
+        "Der Teppich liegt zwischen dem Schrank und dem Bett.",
+        "Zwischen dem Schrank und dem Bett liegt der Teppich."
+      ]
+    },
+    {
+      "id": "de-a2-u09-l2-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'The lamp is in the corner.'?",
+      "options": [
+        { "id": "a", "text": "Die Lampe steht in der Ecke." },
+        { "id": "b", "text": "Die Lampe steht in die Ecke." },
+        { "id": "c", "text": "Die Lampe steht im Ecke." },
+        { "id": "d", "text": "Die Lampe steht an die Ecke." }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "de-a2-u09-l2-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Hinter dem Sofa ist ein Fenster.",
+      "tiles": ["there", "is", "a", "window", "behind", "the", "sofa", "in", "front", "of"],
+      "answers": [
+        "There is a window behind the sofa.",
+        "Behind the sofa there is a window.",
+        "Behind the sofa is a window."
+      ]
+    },
+    {
+      "id": "de-a2-u09-l2-ex07",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a2/u09/de-a2-u09-l2-ex07.mp3" },
+      "tiles": ["das", "Bild", "hängt", "über", "dem", "Sofa", "den", "hängen", "unter"],
+      "answers": ["Das Bild hängt über dem Sofa."]
+    },
+    {
+      "id": "de-a2-u09-l2-ex08",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'The dog is lying in front of the door.'?",
+      "options": [
+        { "id": "a", "text": "Der Hund liegt vor die Tür." },
+        { "id": "b", "text": "Der Hund liegt hinter der Tür." },
+        { "id": "c", "text": "Der Hund liegt vor dem Tür." },
+        { "id": "d", "text": "Der Hund liegt vor der Tür." }
+      ],
+      "correctOptionId": "d"
+    },
+    {
+      "id": "de-a2-u09-l2-ex09",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "The picture is hanging between the windows.",
+      "tiles": ["das", "Bild", "hängt", "zwischen", "den", "Fenstern", "Fenster", "dem", "hängen"],
+      "answers": ["Das Bild hängt zwischen den Fenstern.", "Zwischen den Fenstern hängt das Bild."]
+    },
+    {
+      "id": "de-a2-u09-l2-ex10",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a2/u09/de-a2-u09-l2-ex10.mp3" },
+      "tiles": ["wo", "ist", "Emre", "er", "steht", "hinter", "der", "Tür", "die", "vor", "wohin"],
+      "answers": ["Wo ist Emre? Er steht hinter der Tür."]
+    },
+    {
+      "id": "de-a2-u09-l2-ex11",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "The cat is sleeping in the corner.",
+      "tiles": ["die", "Katze", "schläft", "in", "der", "Ecke", "im", "den", "schlafe"],
+      "answers": ["Die Katze schläft in der Ecke.", "In der Ecke schläft die Katze."]
+    },
+    {
+      "id": "de-a2-u09-l2-ex12",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Der Teppich vor dem Sofa ist neu.",
+      "tiles": [
+        "the",
+        "rug",
+        "in",
+        "front",
+        "of",
+        "the",
+        "sofa",
+        "is",
+        "new",
+        "carpet",
+        "behind",
+        "old"
+      ],
+      "answers": ["The rug in front of the sofa is new.", "The carpet in front of the sofa is new."]
+    }
+  ]
+}

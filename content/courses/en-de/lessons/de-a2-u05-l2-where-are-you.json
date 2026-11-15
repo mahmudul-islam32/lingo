@@ -1,0 +1,154 @@
+{
+  "id": "de-a2-u05-l2-where-are-you",
+  "courseId": "en-de",
+  "unitId": "de-a2-u05",
+  "title": "Where Are You?",
+  "tip": "bei, von and mit take the dative: beim Arzt (= bei dem), vom Bahnhof (= von dem), mit meinem Bruder. Gegenüber vom Supermarkt = opposite the supermarket.",
+  "exercises": [
+    {
+      "id": "de-a2-u05-l2-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        { "id": "p1", "learning": "bei der Bank", "known": "at the bank" },
+        { "id": "p2", "learning": "beim Arzt", "known": "at the doctor's" },
+        { "id": "p3", "learning": "vom Bahnhof", "known": "from the station" },
+        { "id": "p4", "learning": "nach links", "known": "to the left" },
+        { "id": "p5", "learning": "gegenüber", "known": "opposite" }
+      ]
+    },
+    {
+      "id": "de-a2-u05-l2-ex02",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a2/u05/de-a2-u05-l2-ex02.mp3" },
+      "tiles": ["wo", "bist", "du", "ich", "bin", "beim", "Arzt", "bei", "wohin", "vom"],
+      "answers": ["Wo bist du? Ich bin beim Arzt."]
+    },
+    {
+      "id": "de-a2-u05-l2-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'I'm at my sister's.'?",
+      "options": [
+        { "id": "a", "text": "Ich bin bei meiner Schwester." },
+        { "id": "b", "text": "Ich bin bei meine Schwester." },
+        { "id": "c", "text": "Ich bin bei meinen Schwester." },
+        { "id": "d", "text": "Ich bin zu meiner Schwester." }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "de-a2-u05-l2-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I'm coming from the station.",
+      "tiles": ["ich", "komme", "vom", "Bahnhof", "von", "der", "zum", "kommst"],
+      "answers": ["Ich komme vom Bahnhof.", "Vom Bahnhof komme ich."]
+    },
+    {
+      "id": "de-a2-u05-l2-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'I'm going with my brother.'?",
+      "options": [
+        { "id": "a", "text": "Ich gehe mit meinem Bruder." },
+        { "id": "b", "text": "Ich gehe mit meinen Bruder." },
+        { "id": "c", "text": "Ich gehe mit mein Bruder." },
+        { "id": "d", "text": "Ich gehe mit meiner Bruder." }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "de-a2-u05-l2-ex06",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a2/u05/de-a2-u05-l2-ex06.mp3" },
+      "tiles": [
+        "gehen",
+        "Sie",
+        "nach",
+        "links",
+        "und",
+        "dann",
+        "nach",
+        "rechts",
+        "zu",
+        "geradeaus",
+        "gehst"
+      ],
+      "answers": ["Gehen Sie nach links und dann nach rechts."]
+    },
+    {
+      "id": "de-a2-u05-l2-ex07",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "The bank is opposite the supermarket.",
+      "tiles": ["die", "Bank", "ist", "gegenüber", "vom", "Supermarkt", "der", "zum", "Post"],
+      "answers": [
+        "Die Bank ist gegenüber vom Supermarkt.",
+        "Gegenüber vom Supermarkt ist die Bank."
+      ]
+    },
+    {
+      "id": "de-a2-u05-l2-ex08",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'I'm at home.'?",
+      "options": [
+        { "id": "a", "text": "Ich bin zu Hause." },
+        { "id": "b", "text": "Ich bin nach Hause." },
+        { "id": "c", "text": "Ich bin bei Hause." },
+        { "id": "d", "text": "Ich bin zum Hause." }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "de-a2-u05-l2-ex09",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Ich wohne bei meinen Eltern.",
+      "tiles": ["I", "live", "with", "my", "parents", "at", "from", "brother", "sister"],
+      "answers": ["I live with my parents."]
+    },
+    {
+      "id": "de-a2-u05-l2-ex10",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a2/u05/de-a2-u05-l2-ex10.mp3" },
+      "tiles": [
+        "Ana",
+        "kommt",
+        "vom",
+        "Supermarkt",
+        "sie",
+        "ist",
+        "jetzt",
+        "bei",
+        "der",
+        "Bank",
+        "von",
+        "beim",
+        "kommst"
+      ],
+      "answers": ["Ana kommt vom Supermarkt. Sie ist jetzt bei der Bank."]
+    },
+    {
+      "id": "de-a2-u05-l2-ex11",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I'm going to Ana's with my brother.",
+      "tiles": ["ich", "gehe", "mit", "meinem", "Bruder", "zu", "Ana", "meinen", "zum", "gehst"],
+      "answers": [
+        "Ich gehe mit meinem Bruder zu Ana.",
+        "Mit meinem Bruder gehe ich zu Ana.",
+        "Zu Ana gehe ich mit meinem Bruder."
+      ]
+    },
+    {
+      "id": "de-a2-u05-l2-ex12",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'Please go left. (formal)'?",
+      "options": [
+        { "id": "a", "text": "Gehen Sie bitte nach links." },
+        { "id": "b", "text": "Gehen Sie bitte zu links." },
+        { "id": "c", "text": "Gehen Sie bitte zum links." },
+        { "id": "d", "text": "Gehen Sie bitte links nach." }
+      ],
+      "correctOptionId": "a"
+    }
+  ]
+}

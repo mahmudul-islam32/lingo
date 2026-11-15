@@ -1,0 +1,166 @@
+{
+  "id": "de-a2-u10-l2-ten-minutes-late",
+  "courseId": "en-de",
+  "unitId": "de-a2-u10",
+  "title": "Ten Minutes Late",
+  "tip": "Delays: „Der Zug hat zehn Minuten Verspätung.“ (haben, plural Minuten). Cancelled: „Der Zug fällt heute aus.“ The aus goes to the end, like other separable verbs.",
+  "exercises": [
+    {
+      "id": "de-a2-u10-l2-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        { "id": "p1", "learning": "die Durchsage", "known": "the announcement" },
+        { "id": "p2", "learning": "der Anschluss", "known": "the connection" },
+        { "id": "p3", "learning": "die Abfahrt", "known": "the departure" },
+        { "id": "p4", "learning": "die Ankunft", "known": "the arrival" },
+        { "id": "p5", "learning": "verpassen", "known": "to miss" }
+      ]
+    },
+    {
+      "id": "de-a2-u10-l2-ex02",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a2/u10/de-a2-u10-l2-ex02.mp3" },
+      "tiles": [
+        "der",
+        "Zug",
+        "nach",
+        "Linz",
+        "fährt",
+        "heute",
+        "von",
+        "Gleis",
+        "vier",
+        "auf",
+        "fährst",
+        "vierzehn"
+      ],
+      "answers": ["Der Zug nach Linz fährt heute von Gleis vier."]
+    },
+    {
+      "id": "de-a2-u10-l2-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'The train is ten minutes late.'?",
+      "options": [
+        { "id": "a", "text": "Der Zug ist zehn Minuten Verspätung." },
+        { "id": "b", "text": "Der Zug hat zehn Minute Verspätung." },
+        { "id": "c", "text": "Der Zug hat zehn Minuten Verspätung." },
+        { "id": "d", "text": "Der Zug hat Verspätung zehn Minuten." }
+      ],
+      "correctOptionId": "c"
+    },
+    {
+      "id": "de-a2-u10-l2-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "The train is cancelled today.",
+      "tiles": ["der", "Zug", "fällt", "heute", "aus", "hat", "morgen", "Bus"],
+      "answers": ["Der Zug fällt heute aus.", "Heute fällt der Zug aus."]
+    },
+    {
+      "id": "de-a2-u10-l2-ex05",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a2/u10/de-a2-u10-l2-ex05.mp3" },
+      "tiles": [
+        "der",
+        "Zug",
+        "nach",
+        "Graz",
+        "hat",
+        "zwanzig",
+        "Minuten",
+        "Verspätung",
+        "ist",
+        "Minute",
+        "zehn"
+      ],
+      "answers": ["Der Zug nach Graz hat zwanzig Minuten Verspätung."]
+    },
+    {
+      "id": "de-a2-u10-l2-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Ich habe meinen Anschluss verpasst.",
+      "tiles": ["I", "have", "missed", "my", "connection", "train", "your", "has"],
+      "answers": ["I missed my connection.", "I have missed my connection."]
+    },
+    {
+      "id": "de-a2-u10-l2-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which one means 'the arrival'?",
+      "options": [
+        { "id": "a", "text": "die Abfahrt" },
+        { "id": "b", "text": "die Ankunft" },
+        { "id": "c", "text": "der Anschluss" },
+        { "id": "d", "text": "die Durchsage" }
+      ],
+      "correctOptionId": "b"
+    },
+    {
+      "id": "de-a2-u10-l2-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "The departure is at eight o'clock.",
+      "tiles": ["die", "Abfahrt", "ist", "um", "acht", "Uhr", "Ankunft", "der", "halb"],
+      "answers": ["Die Abfahrt ist um acht Uhr.", "Um acht Uhr ist die Abfahrt."]
+    },
+    {
+      "id": "de-a2-u10-l2-ex09",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a2/u10/de-a2-u10-l2-ex09.mp3" },
+      "tiles": [
+        "ich",
+        "habe",
+        "die",
+        "Durchsage",
+        "nicht",
+        "gehört",
+        "fällt",
+        "der",
+        "Zug",
+        "aus",
+        "hat",
+        "Ankunft",
+        "hast"
+      ],
+      "answers": ["Ich habe die Durchsage nicht gehört. Fällt der Zug aus?"]
+    },
+    {
+      "id": "de-a2-u10-l2-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "My train is fifteen minutes late.",
+      "tiles": [
+        "mein",
+        "Zug",
+        "hat",
+        "fünfzehn",
+        "Minuten",
+        "Verspätung",
+        "ist",
+        "Minute",
+        "meine"
+      ],
+      "answers": ["Mein Zug hat fünfzehn Minuten Verspätung."]
+    },
+    {
+      "id": "de-a2-u10-l2-ex11",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'Did you miss the connection? (to a friend)'?",
+      "options": [
+        { "id": "a", "text": "Bist du den Anschluss verpasst?" },
+        { "id": "b", "text": "Hast du der Anschluss verpasst?" },
+        { "id": "c", "text": "Hast du den Anschluss verpassen?" },
+        { "id": "d", "text": "Hast du den Anschluss verpasst?" }
+      ],
+      "correctOptionId": "d"
+    },
+    {
+      "id": "de-a2-u10-l2-ex12",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Die Ankunft ist um neun Uhr.",
+      "tiles": ["the", "arrival", "is", "at", "nine", "o'clock", "departure", "are", "in"],
+      "answers": ["The arrival is at nine o'clock.", "The arrival is at nine."]
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "id": "de-a2-u06-l3-the-blue-jumper",
+  "courseId": "en-de",
+  "unitId": "de-a2-u06",
+  "title": "The Blue Jumper",
+  "tip": "After der, die, das the adjective ends in -e: der blaue Pullover. Masculine objects and plurals take -en: Ich suche den blauen Pullover. Die schwarzen Schuhe.",
+  "exercises": [
+    {
+      "id": "de-a2-u06-l3-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        { "id": "p1", "learning": "der Mantel", "known": "the coat" },
+        { "id": "p2", "learning": "das T-Shirt", "known": "the T-shirt" },
+        { "id": "p3", "learning": "die Socken", "known": "the socks" },
+        { "id": "p4", "learning": "suchen", "known": "to look for" },
+        { "id": "p5", "learning": "welcher?", "known": "which?" }
+      ]
+    },
+    {
+      "id": "de-a2-u06-l3-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'I'm looking for the blue jumper.'?",
+      "options": [
+        { "id": "a", "text": "Ich suche den blaue Pullover." },
+        { "id": "b", "text": "Ich suche den blauen Pullover." },
+        { "id": "c", "text": "Ich suche den blauer Pullover." },
+        { "id": "d", "text": "Ich suche den blaues Pullover." }
+      ],
+      "correctOptionId": "b"
+    },
+    {
+      "id": "de-a2-u06-l3-ex03",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a2/u06/de-a2-u06-l3-ex03.mp3" },
+      "tiles": ["der", "blaue", "Pullover", "ist", "schön", "blauen", "die", "sind"],
+      "answers": ["Der blaue Pullover ist schön."]
+    },
+    {
+      "id": "de-a2-u06-l3-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I'm looking for the black coat.",
+      "tiles": ["ich", "suche", "den", "schwarzen", "Mantel", "der", "schwarze", "suchst"],
+      "answers": ["Ich suche den schwarzen Mantel.", "Den schwarzen Mantel suche ich."]
+    },
+    {
+      "id": "de-a2-u06-l3-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'The red jacket is new.'?",
+      "options": [
+        { "id": "a", "text": "Die roten Jacke ist neu." },
+        { "id": "b", "text": "Die roter Jacke ist neu." },
+        { "id": "c", "text": "Die rotes Jacke ist neu." },
+        { "id": "d", "text": "Die rote Jacke ist neu." }
+      ],
+      "correctOptionId": "d"
+    },
+    {
+      "id": "de-a2-u06-l3-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Welcher Mantel gefällt dir?",
+      "tiles": ["which", "coat", "do", "you", "like", "jacket", "does", "the"],
+      "answers": ["Which coat do you like?"]
+    },
+    {
+      "id": "de-a2-u06-l3-ex07",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a2/u06/de-a2-u06-l3-ex07.mp3" },
+      "tiles": ["dieses", "T-Shirt", "ist", "schön", "aber", "teuer", "dieser", "diese", "billig"],
+      "answers": ["Dieses T-Shirt ist schön, aber teuer."]
+    },
+    {
+      "id": "de-a2-u06-l3-ex08",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'I'm buying the white T-shirt.'?",
+      "options": [
+        { "id": "a", "text": "Ich kaufe das weiße T-Shirt." },
+        { "id": "b", "text": "Ich kaufe das weißen T-Shirt." },
+        { "id": "c", "text": "Ich kaufe das weißer T-Shirt." },
+        { "id": "d", "text": "Ich kaufe das weißes T-Shirt." }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "de-a2-u06-l3-ex09",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "The black socks are cheap.",
+      "tiles": ["die", "schwarzen", "Socken", "sind", "billig", "schwarze", "ist", "Socke"],
+      "answers": ["Die schwarzen Socken sind billig."]
+    },
+    {
+      "id": "de-a2-u06-l3-ex10",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a2/u06/de-a2-u06-l3-ex10.mp3" },
+      "tiles": ["welche", "Jacke", "suchst", "du", "die", "grüne", "welcher", "grünen", "suche"],
+      "answers": ["Welche Jacke suchst du? Die grüne."]
+    },
+    {
+      "id": "de-a2-u06-l3-ex11",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "This coat is warm, but expensive.",
+      "tiles": ["dieser", "Mantel", "ist", "warm", "aber", "teuer", "dieses", "diese", "sind"],
+      "answers": ["Dieser Mantel ist warm, aber teuer."]
+    },
+    {
+      "id": "de-a2-u06-l3-ex12",
+      "type": "multiple_choice",
+      "prompt": "Which one means 'Which T-shirt?'",
+      "options": [
+        { "id": "a", "text": "Welcher T-Shirt?" },
+        { "id": "b", "text": "Welche T-Shirt?" },
+        { "id": "c", "text": "Welches T-Shirt?" }
+      ],
+      "correctOptionId": "c"
+    }
+  ]
+}

@@ -1,0 +1,191 @@
+{
+  "id": "de-a2-u14-l4-about-me",
+  "courseId": "en-de",
+  "unitId": "de-a2-u14",
+  "title": "About Me",
+  "tip": "Adjective endings after ein / mein: „eine kleine Wohnung“, „ein neues Leben“, „einen netten Chef“. After sein there is no ending: „Ich bin stolz.“",
+  "exercises": [
+    {
+      "id": "de-a2-u14-l4-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        { "id": "p1", "learning": "das Leben", "known": "life" },
+        { "id": "p2", "learning": "glücklich", "known": "happy" },
+        { "id": "p3", "learning": "zufrieden", "known": "satisfied" },
+        { "id": "p4", "learning": "stolz", "known": "proud" },
+        { "id": "p5", "learning": "die Heimat", "known": "home country" }
+      ]
+    },
+    {
+      "id": "de-a2-u14-l4-ex02",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I have a small flat and a new job.",
+      "tiles": [
+        "ich",
+        "habe",
+        "eine",
+        "kleine",
+        "Wohnung",
+        "und",
+        "eine",
+        "neue",
+        "Stelle",
+        "kleinen",
+        "neuen",
+        "ein"
+      ],
+      "answers": [
+        "Ich habe eine kleine Wohnung und eine neue Stelle.",
+        "Ich habe eine neue Stelle und eine kleine Wohnung."
+      ]
+    },
+    {
+      "id": "de-a2-u14-l4-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'I have a new life.'?",
+      "options": [
+        { "id": "a", "text": "Ich habe ein neuer Leben." },
+        { "id": "b", "text": "Ich habe ein neues Leben." },
+        { "id": "c", "text": "Ich habe einen neuen Leben." },
+        { "id": "d", "text": "Ich habe ein neue Leben." }
+      ],
+      "correctOptionId": "b"
+    },
+    {
+      "id": "de-a2-u14-l4-ex04",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a2/u14/de-a2-u14-l4-ex04.mp3" },
+      "tiles": ["ich", "bin", "glücklich", "und", "zufrieden", "müde", "bist", "oder"],
+      "answers": ["Ich bin glücklich und zufrieden."]
+    },
+    {
+      "id": "de-a2-u14-l4-ex05",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Ich vermisse meine Familie.",
+      "tiles": ["I", "miss", "my", "family", "parents", "her", "forget"],
+      "answers": ["I miss my family."]
+    },
+    {
+      "id": "de-a2-u14-l4-ex06",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'I miss my home country.'?",
+      "options": [
+        { "id": "a", "text": "Ich vermisse mein Heimat." },
+        { "id": "b", "text": "Ich vermisse meinen Heimat." },
+        { "id": "c", "text": "Ich vermisse meiner Heimat." },
+        { "id": "d", "text": "Ich vermisse meine Heimat." }
+      ],
+      "correctOptionId": "d"
+    },
+    {
+      "id": "de-a2-u14-l4-ex07",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a2/u14/de-a2-u14-l4-ex07.mp3" },
+      "tiles": [
+        "mein",
+        "Leben",
+        "in",
+        "Deutschland",
+        "ist",
+        "schön",
+        "aber",
+        "ich",
+        "vermisse",
+        "meine",
+        "Heimat",
+        "meinen",
+        "denn",
+        "schon"
+      ],
+      "answers": ["Mein Leben in Deutschland ist schön, aber ich vermisse meine Heimat."]
+    },
+    {
+      "id": "de-a2-u14-l4-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I'm proud because I speak German now.",
+      "tiles": [
+        "ich",
+        "bin",
+        "stolz",
+        "weil",
+        "ich",
+        "jetzt",
+        "Deutsch",
+        "spreche",
+        "sprichst",
+        "glücklich",
+        "bist"
+      ],
+      "answers": [
+        "Ich bin stolz, weil ich jetzt Deutsch spreche.",
+        "Weil ich jetzt Deutsch spreche, bin ich stolz."
+      ]
+    },
+    {
+      "id": "de-a2-u14-l4-ex09",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'I have a nice boss.'?",
+      "options": [
+        { "id": "a", "text": "Ich habe einen netten Chef." },
+        { "id": "b", "text": "Ich habe einen nette Chef." },
+        { "id": "c", "text": "Ich habe ein netter Chef." },
+        { "id": "d", "text": "Ich habe einen netter Chef." }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "de-a2-u14-l4-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Das Leben hier ist gut. Ich bin zufrieden.",
+      "tiles": ["life", "here", "is", "good", "I'm", "I", "am", "satisfied", "content", "the"],
+      "answers": [
+        "Life here is good. I'm satisfied.",
+        "Life here is good. I am satisfied.",
+        "Life here is good. I'm content.",
+        "Life here is good. I am content."
+      ]
+    },
+    {
+      "id": "de-a2-u14-l4-ex11",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a2/u14/de-a2-u14-l4-ex11.mp3" },
+      "tiles": [
+        "meine",
+        "neue",
+        "Wohnung",
+        "ist",
+        "klein",
+        "aber",
+        "hell",
+        "neuen",
+        "kleine",
+        "oder"
+      ],
+      "answers": ["Meine neue Wohnung ist klein, aber hell."]
+    },
+    {
+      "id": "de-a2-u14-l4-ex12",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "My new job is interesting. I'm happy.",
+      "tiles": [
+        "meine",
+        "neue",
+        "Stelle",
+        "ist",
+        "interessant",
+        "ich",
+        "bin",
+        "glücklich",
+        "mein",
+        "neuen",
+        "langweilig"
+      ],
+      "answers": ["Meine neue Stelle ist interessant. Ich bin glücklich."]
+    }
+  ]
+}

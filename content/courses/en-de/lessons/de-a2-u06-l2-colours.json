@@ -1,0 +1,168 @@
+{
+  "id": "de-a2-u06-l2-colours",
+  "courseId": "en-de",
+  "unitId": "de-a2-u06",
+  "title": "Colours",
+  "tip": "After ist or sind, a colour has no ending: Die Jacke ist blau. Ask about a colour with haben: Welche Farbe hat die Jacke?",
+  "exercises": [
+    {
+      "id": "de-a2-u06-l2-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        { "id": "p1", "learning": "rot", "known": "red" },
+        { "id": "p2", "learning": "blau", "known": "blue" },
+        { "id": "p3", "learning": "grün", "known": "green" },
+        { "id": "p4", "learning": "gelb", "known": "yellow" },
+        { "id": "p5", "learning": "schwarz", "known": "black" }
+      ]
+    },
+    {
+      "id": "de-a2-u06-l2-ex02",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a2/u06/de-a2-u06-l2-ex02.mp3" },
+      "tiles": [
+        "welche",
+        "Farbe",
+        "hat",
+        "die",
+        "Jacke",
+        "sie",
+        "ist",
+        "grau",
+        "welcher",
+        "hast",
+        "grün"
+      ],
+      "answers": ["Welche Farbe hat die Jacke? Sie ist grau."]
+    },
+    {
+      "id": "de-a2-u06-l2-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'The shirt is white.'?",
+      "options": [
+        { "id": "a", "text": "Das Hemd ist weiß." },
+        { "id": "b", "text": "Das Hemd ist weiße." },
+        { "id": "c", "text": "Der Hemd ist weiß." },
+        { "id": "d", "text": "Das Hemd ist schwarz." }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "de-a2-u06-l2-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "What colour is the dress?",
+      "tiles": ["welche", "Farbe", "hat", "das", "Kleid", "hast", "der", "haben"],
+      "answers": ["Welche Farbe hat das Kleid?"]
+    },
+    {
+      "id": "de-a2-u06-l2-ex05",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a2/u06/de-a2-u06-l2-ex05.mp3" },
+      "tiles": [
+        "der",
+        "Rock",
+        "ist",
+        "rot",
+        "und",
+        "die",
+        "Schuhe",
+        "sind",
+        "schwarz",
+        "das",
+        "Schuh",
+        "weiß"
+      ],
+      "answers": ["Der Rock ist rot und die Schuhe sind schwarz."]
+    },
+    {
+      "id": "de-a2-u06-l2-ex06",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'What colour are the shoes?'",
+      "options": [
+        { "id": "a", "text": "Welche Farbe hat die Schuhe?" },
+        { "id": "b", "text": "Welche Farbe haben die Schuhe?" },
+        { "id": "c", "text": "Welche Farbe haben der Schuhe?" },
+        { "id": "d", "text": "Welcher Farbe haben die Schuhe?" }
+      ],
+      "correctOptionId": "b"
+    },
+    {
+      "id": "de-a2-u06-l2-ex07",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Die Hose ist grün.",
+      "tiles": ["the", "trousers", "pants", "are", "green", "is", "grey"],
+      "answers": ["The trousers are green.", "The pants are green."]
+    },
+    {
+      "id": "de-a2-u06-l2-ex08",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a2/u06/de-a2-u06-l2-ex08.mp3" },
+      "tiles": ["ist", "dein", "Pullover", "grau", "oder", "grün", "mein", "aber", "blau"],
+      "answers": ["Ist dein Pullover grau oder grün?"]
+    },
+    {
+      "id": "de-a2-u06-l2-ex09",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'The jacket is yellow.'?",
+      "options": [
+        { "id": "a", "text": "Die Jacke ist grün." },
+        { "id": "b", "text": "Die Jacke ist gelbe." },
+        { "id": "c", "text": "Der Jacke ist gelb." },
+        { "id": "d", "text": "Die Jacke ist gelb." }
+      ],
+      "correctOptionId": "d"
+    },
+    {
+      "id": "de-a2-u06-l2-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "My shoes are black and white.",
+      "tiles": ["meine", "Schuhe", "sind", "schwarz", "und", "weiß", "mein", "ist", "schwarze"],
+      "answers": ["Meine Schuhe sind schwarz und weiß.", "Meine Schuhe sind weiß und schwarz."]
+    },
+    {
+      "id": "de-a2-u06-l2-ex11",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a2/u06/de-a2-u06-l2-ex11.mp3" },
+      "tiles": [
+        "die",
+        "Farbe",
+        "ist",
+        "schön",
+        "ich",
+        "nehme",
+        "das",
+        "Kleid",
+        "nimmst",
+        "der",
+        "rot"
+      ],
+      "answers": ["Die Farbe ist schön. Ich nehme das Kleid."]
+    },
+    {
+      "id": "de-a2-u06-l2-ex12",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I like the colour. The dress is red.",
+      "tiles": [
+        "die",
+        "Farbe",
+        "gefällt",
+        "mir",
+        "das",
+        "Kleid",
+        "ist",
+        "rot",
+        "mich",
+        "sind",
+        "rote"
+      ],
+      "answers": [
+        "Die Farbe gefällt mir. Das Kleid ist rot.",
+        "Mir gefällt die Farbe. Das Kleid ist rot."
+      ]
+    }
+  ]
+}

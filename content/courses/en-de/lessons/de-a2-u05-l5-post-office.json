@@ -1,0 +1,188 @@
+{
+  "id": "de-a2-u05-l5-post-office",
+  "courseId": "en-de",
+  "unitId": "de-a2-u05",
+  "title": "Scenario: At the Post Office",
+  "tip": "aus and nach take the dative. Most countries need no article: nach Indien, aus Indien. Die Schweiz keeps its article: aus der Schweiz (der = dative of die).",
+  "exercises": [
+    {
+      "id": "de-a2-u05-l5-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        { "id": "p1", "learning": "das Paket", "known": "the parcel" },
+        { "id": "p2", "learning": "der Brief", "known": "the letter" },
+        { "id": "p3", "learning": "die Briefmarke", "known": "the stamp" },
+        { "id": "p4", "learning": "der Schalter", "known": "the counter" },
+        { "id": "p5", "learning": "die Post", "known": "the post office" }
+      ]
+    },
+    {
+      "id": "de-a2-u05-l5-ex02",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a2/u05/de-a2-u05-l5-ex02.mp3" },
+      "tiles": [
+        "guten",
+        "Tag",
+        "ich",
+        "möchte",
+        "ein",
+        "Paket",
+        "nach",
+        "Indien",
+        "schicken",
+        "aus",
+        "einen",
+        "schickst"
+      ],
+      "answers": ["Guten Tag! Ich möchte ein Paket nach Indien schicken."]
+    },
+    {
+      "id": "de-a2-u05-l5-ex03",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I need three stamps.",
+      "tiles": ["ich", "brauche", "drei", "Briefmarken", "Briefmarke", "brauchst", "Brief"],
+      "answers": ["Ich brauche drei Briefmarken.", "Drei Briefmarken brauche ich."]
+    },
+    {
+      "id": "de-a2-u05-l5-ex04",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'The letter is from Switzerland.'?",
+      "options": [
+        { "id": "a", "text": "Der Brief ist aus die Schweiz." },
+        { "id": "b", "text": "Der Brief ist aus der Schweiz." },
+        { "id": "c", "text": "Der Brief ist aus Schweiz." },
+        { "id": "d", "text": "Der Brief ist aus dem Schweiz." }
+      ],
+      "correctOptionId": "b"
+    },
+    {
+      "id": "de-a2-u05-l5-ex05",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a2/u05/de-a2-u05-l5-ex05.mp3" },
+      "tiles": ["bitte", "gehen", "Sie", "zum", "Schalter", "drei", "zur", "gehst", "zwei"],
+      "answers": ["Bitte gehen Sie zum Schalter drei."]
+    },
+    {
+      "id": "de-a2-u05-l5-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I'd like to send the letter to Berlin.",
+      "tiles": [
+        "ich",
+        "möchte",
+        "den",
+        "Brief",
+        "nach",
+        "Berlin",
+        "schicken",
+        "der",
+        "zu",
+        "Paket"
+      ],
+      "answers": [
+        "Ich möchte den Brief nach Berlin schicken.",
+        "Den Brief möchte ich nach Berlin schicken.",
+        "Nach Berlin möchte ich den Brief schicken."
+      ]
+    },
+    {
+      "id": "de-a2-u05-l5-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'How much is the parcel to India?'",
+      "options": [
+        { "id": "a", "text": "Was kostet das Paket zu Indien?" },
+        { "id": "b", "text": "Was kostet das Paket zum Indien?" },
+        { "id": "c", "text": "Was kostet das Paket nach Indien?" },
+        { "id": "d", "text": "Was kostet das Paket bei Indien?" }
+      ],
+      "correctOptionId": "c"
+    },
+    {
+      "id": "de-a2-u05-l5-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Der Brief ist von meiner Oma.",
+      "tiles": ["the", "letter", "is", "from", "my", "grandma", "parcel", "to", "grandpa"],
+      "answers": ["The letter is from my grandma."]
+    },
+    {
+      "id": "de-a2-u05-l5-ex09",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a2/u05/de-a2-u05-l5-ex09.mp3" },
+      "tiles": [
+        "das",
+        "macht",
+        "zwölf",
+        "Euro",
+        "bezahlen",
+        "Sie",
+        "bar",
+        "oder",
+        "mit",
+        "Karte",
+        "zwanzig",
+        "bezahlt",
+        "und"
+      ],
+      "answers": ["Das macht zwölf Euro. Bezahlen Sie bar oder mit Karte?"]
+    },
+    {
+      "id": "de-a2-u05-l5-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Ravi has lived in Germany since 2021.",
+      "tiles": [
+        "Ravi",
+        "wohnt",
+        "seit",
+        "zweitausendeinundzwanzig",
+        "in",
+        "Deutschland",
+        "vor",
+        "wohne",
+        "aus"
+      ],
+      "answers": [
+        "Ravi wohnt seit zweitausendeinundzwanzig in Deutschland.",
+        "Seit zweitausendeinundzwanzig wohnt Ravi in Deutschland.",
+        "In Deutschland wohnt Ravi seit zweitausendeinundzwanzig."
+      ]
+    },
+    {
+      "id": "de-a2-u05-l5-ex11",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'I'm going home with the parcel.'?",
+      "options": [
+        { "id": "a", "text": "Ich gehe mit das Paket nach Hause." },
+        { "id": "b", "text": "Ich gehe mit dem Paket zu Hause." },
+        { "id": "c", "text": "Ich gehe mit den Paket nach Hause." },
+        { "id": "d", "text": "Ich gehe mit dem Paket nach Hause." }
+      ],
+      "correctOptionId": "d"
+    },
+    {
+      "id": "de-a2-u05-l5-ex12",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I'm at the post office with my sister.",
+      "tiles": [
+        "ich",
+        "bin",
+        "mit",
+        "meiner",
+        "Schwester",
+        "bei",
+        "der",
+        "Post",
+        "meine",
+        "zur",
+        "beim"
+      ],
+      "answers": [
+        "Ich bin mit meiner Schwester bei der Post.",
+        "Mit meiner Schwester bin ich bei der Post."
+      ]
+    }
+  ]
+}

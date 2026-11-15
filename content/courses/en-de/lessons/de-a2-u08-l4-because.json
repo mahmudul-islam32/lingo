@@ -1,0 +1,207 @@
+{
+  "id": "de-a2-u08-l4-because",
+  "courseId": "en-de",
+  "unitId": "de-a2-u08",
+  "title": "Because I Was Ill",
+  "tip": "After „weil“ the verb goes to the end: „…, weil ich krank war.“ Past modals: ich konnte, musste, wollte, durfte, with the infinitive at the end.",
+  "exercises": [
+    {
+      "id": "de-a2-u08-l4-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        { "id": "p1", "learning": "warum?", "known": "why?" },
+        { "id": "p2", "learning": "weil", "known": "because" },
+        { "id": "p3", "learning": "konnte", "known": "could, was able to" },
+        { "id": "p4", "learning": "musste", "known": "had to" },
+        { "id": "p5", "learning": "vergessen", "known": "to forget" }
+      ]
+    },
+    {
+      "id": "de-a2-u08-l4-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'I didn't come because I was ill.'?",
+      "options": [
+        { "id": "a", "text": "Ich bin nicht gekommen, weil ich war krank." },
+        { "id": "b", "text": "Ich bin nicht gekommen, weil war ich krank." },
+        { "id": "c", "text": "Ich habe nicht gekommen, weil ich krank war." },
+        { "id": "d", "text": "Ich bin nicht gekommen, weil ich krank war." }
+      ],
+      "correctOptionId": "d"
+    },
+    {
+      "id": "de-a2-u08-l4-ex03",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a2/u08/de-a2-u08-l4-ex03.mp3" },
+      "tiles": ["warum", "bist", "du", "gestern", "nicht", "gekommen", "hast", "weil", "kommen"],
+      "answers": ["Warum bist du gestern nicht gekommen?"]
+    },
+    {
+      "id": "de-a2-u08-l4-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I couldn't come because I had to work.",
+      "tiles": [
+        "ich",
+        "konnte",
+        "nicht",
+        "kommen",
+        "weil",
+        "ich",
+        "arbeiten",
+        "musste",
+        "muss",
+        "kann",
+        "gekommen"
+      ],
+      "answers": [
+        "Ich konnte nicht kommen, weil ich arbeiten musste.",
+        "Weil ich arbeiten musste, konnte ich nicht kommen."
+      ]
+    },
+    {
+      "id": "de-a2-u08-l4-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'I wanted to call, but I forgot.'?",
+      "options": [
+        { "id": "a", "text": "Ich wollte anrufen, aber ich habe es vergesst." },
+        { "id": "b", "text": "Ich wollte anrufen, aber ich habe es vergessen." },
+        { "id": "c", "text": "Ich will anrufen, aber ich habe es vergessen." },
+        { "id": "d", "text": "Ich wollte anrufen, aber ich bin es vergessen." }
+      ],
+      "correctOptionId": "b"
+    },
+    {
+      "id": "de-a2-u08-l4-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I'm tired because I get up at five.",
+      "tiles": [
+        "ich",
+        "bin",
+        "müde",
+        "weil",
+        "ich",
+        "um",
+        "fünf",
+        "aufstehe",
+        "stehe",
+        "auf",
+        "bist"
+      ],
+      "answers": [
+        "Ich bin müde, weil ich um fünf aufstehe.",
+        "Weil ich um fünf aufstehe, bin ich müde."
+      ]
+    },
+    {
+      "id": "de-a2-u08-l4-ex07",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a2/u08/de-a2-u08-l4-ex07.mp3" },
+      "tiles": [
+        "ich",
+        "durfte",
+        "nicht",
+        "joggen",
+        "weil",
+        "ich",
+        "erkältet",
+        "war",
+        "darf",
+        "bin",
+        "gejoggt"
+      ],
+      "answers": ["Ich durfte nicht joggen, weil ich erkältet war."]
+    },
+    {
+      "id": "de-a2-u08-l4-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Ich musste lange warten.",
+      "tiles": ["I", "had", "to", "wait", "a", "long", "time", "for", "have", "must", "short"],
+      "answers": ["I had to wait a long time.", "I had to wait for a long time."]
+    },
+    {
+      "id": "de-a2-u08-l4-ex09",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I'm calling because I forgot the appointment.",
+      "tiles": [
+        "ich",
+        "rufe",
+        "an",
+        "weil",
+        "ich",
+        "den",
+        "Termin",
+        "vergessen",
+        "habe",
+        "bin",
+        "hat",
+        "der"
+      ],
+      "answers": [
+        "Ich rufe an, weil ich den Termin vergessen habe.",
+        "Weil ich den Termin vergessen habe, rufe ich an."
+      ]
+    },
+    {
+      "id": "de-a2-u08-l4-ex10",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'Sara wasn't allowed to swim.'?",
+      "options": [
+        { "id": "a", "text": "Sara durfte nicht schwimmt." },
+        { "id": "b", "text": "Sara darf nicht schwimmen." },
+        { "id": "c", "text": "Sara durfte schwimmen nicht." },
+        { "id": "d", "text": "Sara durfte nicht schwimmen." }
+      ],
+      "correctOptionId": "d"
+    },
+    {
+      "id": "de-a2-u08-l4-ex11",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Why didn't you come? – Because I was ill. (to a friend)",
+      "tiles": [
+        "warum",
+        "bist",
+        "du",
+        "nicht",
+        "gekommen",
+        "weil",
+        "ich",
+        "krank",
+        "war",
+        "hast",
+        "bin",
+        "kommen"
+      ],
+      "answers": ["Warum bist du nicht gekommen? Weil ich krank war."]
+    },
+    {
+      "id": "de-a2-u08-l4-ex12",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Ich konnte nicht anrufen, weil mein Telefon kaputt war.",
+      "tiles": [
+        "I",
+        "couldn't",
+        "call",
+        "because",
+        "my",
+        "phone",
+        "telephone",
+        "was",
+        "broken",
+        "can't",
+        "is",
+        "your"
+      ],
+      "answers": [
+        "I couldn't call because my phone was broken.",
+        "I couldn't call because my telephone was broken.",
+        "Because my phone was broken, I couldn't call.",
+        "Because my telephone was broken, I couldn't call."
+      ]
+    }
+  ]
+}

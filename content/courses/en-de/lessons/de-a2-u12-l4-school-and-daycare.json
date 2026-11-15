@@ -1,0 +1,245 @@
+{
+  "id": "de-a2-u12-l4-school-and-daycare",
+  "courseId": "en-de",
+  "unitId": "de-a2-u12",
+  "title": "School and Daycare",
+  "tip": "After deshalb and trotzdem the verb comes next: „Deshalb komme ich später.“ After ob the verb goes to the end: „Ich weiß nicht, ob ich kommen kann.“",
+  "exercises": [
+    {
+      "id": "de-a2-u12-l4-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        { "id": "p1", "learning": "die Kita", "known": "the daycare centre" },
+        { "id": "p2", "learning": "die Schule", "known": "the school" },
+        { "id": "p3", "learning": "der Elternabend", "known": "the parents' evening" },
+        { "id": "p4", "learning": "deshalb", "known": "that's why / so" },
+        { "id": "p5", "learning": "trotzdem", "known": "still / anyway" }
+      ]
+    },
+    {
+      "id": "de-a2-u12-l4-ex02",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a2/u12/de-a2-u12-l4-ex02.mp3" },
+      "tiles": [
+        "mein",
+        "Sohn",
+        "ist",
+        "krank",
+        "deshalb",
+        "kommt",
+        "er",
+        "heute",
+        "nicht",
+        "in",
+        "die",
+        "Kita",
+        "kommen",
+        "den",
+        "ins"
+      ],
+      "answers": ["Mein Sohn ist krank, deshalb kommt er heute nicht in die Kita."]
+    },
+    {
+      "id": "de-a2-u12-l4-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'Tarek is ill, so he isn't coming today.'?",
+      "options": [
+        { "id": "a", "text": "Tarek ist krank, deshalb er kommt heute nicht." },
+        { "id": "b", "text": "Tarek ist krank, deshalb kommt er heute nicht." },
+        { "id": "c", "text": "Tarek ist krank, deshalb er heute nicht kommt." },
+        { "id": "d", "text": "Tarek ist krank, trotzdem kommt er heute nicht." }
+      ],
+      "correctOptionId": "b"
+    },
+    {
+      "id": "de-a2-u12-l4-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "It's raining, but the children are playing outside anyway.",
+      "tiles": [
+        "es",
+        "regnet",
+        "trotzdem",
+        "spielen",
+        "die",
+        "Kinder",
+        "draußen",
+        "spielt",
+        "deshalb",
+        "der"
+      ],
+      "answers": [
+        "Es regnet, trotzdem spielen die Kinder draußen.",
+        "Es regnet, die Kinder spielen trotzdem draußen.",
+        "Es regnet, draußen spielen die Kinder trotzdem."
+      ]
+    },
+    {
+      "id": "de-a2-u12-l4-ex05",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I don't know if I can come to the parents' evening.",
+      "tiles": [
+        "ich",
+        "weiß",
+        "nicht",
+        "ob",
+        "ich",
+        "zum",
+        "Elternabend",
+        "kommen",
+        "kann",
+        "wenn",
+        "weißt",
+        "zur"
+      ],
+      "answers": ["Ich weiß nicht, ob ich zum Elternabend kommen kann."]
+    },
+    {
+      "id": "de-a2-u12-l4-ex06",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'Can you tell me if the daycare is open? (formal)'?",
+      "options": [
+        { "id": "a", "text": "Können Sie mir sagen, ob ist die Kita geöffnet?" },
+        { "id": "b", "text": "Können Sie mir sagen, wenn die Kita geöffnet ist?" },
+        { "id": "c", "text": "Können Sie mich sagen, ob die Kita geöffnet ist?" },
+        { "id": "d", "text": "Können Sie mir sagen, ob die Kita geöffnet ist?" }
+      ],
+      "correctOptionId": "d"
+    },
+    {
+      "id": "de-a2-u12-l4-ex07",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a2/u12/de-a2-u12-l4-ex07.mp3" },
+      "tiles": [
+        "ich",
+        "bin",
+        "müde",
+        "trotzdem",
+        "gehe",
+        "ich",
+        "zum",
+        "Elternabend",
+        "gehst",
+        "deshalb",
+        "zur"
+      ],
+      "answers": ["Ich bin müde, trotzdem gehe ich zum Elternabend."]
+    },
+    {
+      "id": "de-a2-u12-l4-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Der Elternabend ist am Dienstag um sieben Uhr.",
+      "tiles": [
+        "the",
+        "parents'",
+        "evening",
+        "is",
+        "on",
+        "Tuesday",
+        "at",
+        "seven",
+        "o'clock",
+        "Thursday",
+        "in",
+        "are"
+      ],
+      "answers": [
+        "The parents' evening is on Tuesday at seven.",
+        "The parents' evening is on Tuesday at seven o'clock.",
+        "The parents' evening is at seven on Tuesday.",
+        "The parents' evening is at seven o'clock on Tuesday."
+      ]
+    },
+    {
+      "id": "de-a2-u12-l4-ex09",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I'm working until six o'clock, so I'll come later.",
+      "tiles": [
+        "ich",
+        "arbeite",
+        "bis",
+        "sechs",
+        "Uhr",
+        "deshalb",
+        "komme",
+        "ich",
+        "später",
+        "trotzdem",
+        "kommst",
+        "um"
+      ],
+      "answers": [
+        "Ich arbeite bis sechs Uhr, deshalb komme ich später.",
+        "Ich arbeite bis sechs Uhr, ich komme deshalb später.",
+        "Ich arbeite bis sechs Uhr, später komme ich deshalb.",
+        "Bis sechs Uhr arbeite ich, deshalb komme ich später.",
+        "Bis sechs Uhr arbeite ich, ich komme deshalb später.",
+        "Bis sechs Uhr arbeite ich, später komme ich deshalb."
+      ]
+    },
+    {
+      "id": "de-a2-u12-l4-ex10",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'It's cold, but we're going to school anyway.'?",
+      "options": [
+        { "id": "a", "text": "Es ist kalt, trotzdem wir gehen zur Schule." },
+        { "id": "b", "text": "Es ist kalt, trotzdem gehen wir zur Schule." },
+        { "id": "c", "text": "Es ist kalt, deshalb gehen wir zur Schule." },
+        { "id": "d", "text": "Es ist kalt, trotzdem gehen wir zum Schule." }
+      ],
+      "correctOptionId": "b"
+    },
+    {
+      "id": "de-a2-u12-l4-ex11",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a2/u12/de-a2-u12-l4-ex11.mp3" },
+      "tiles": [
+        "weißt",
+        "du",
+        "ob",
+        "die",
+        "Kita",
+        "morgen",
+        "geöffnet",
+        "ist",
+        "weiß",
+        "wenn",
+        "sind"
+      ],
+      "answers": ["Weißt du, ob die Kita morgen geöffnet ist?"]
+    },
+    {
+      "id": "de-a2-u12-l4-ex12",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Meine Tochter ist krank, deshalb bleibt sie heute zu Hause.",
+      "tiles": [
+        "my",
+        "daughter",
+        "is",
+        "ill",
+        "sick",
+        "so",
+        "she's",
+        "staying",
+        "at",
+        "home",
+        "today",
+        "he's",
+        "son",
+        "tomorrow"
+      ],
+      "answers": [
+        "My daughter is ill, so she's staying at home today.",
+        "My daughter is sick, so she's staying at home today.",
+        "My daughter is ill, so today she's staying at home.",
+        "My daughter is sick, so today she's staying at home.",
+        "My daughter is ill today, so she's staying at home.",
+        "My daughter is sick today, so she's staying at home."
+      ]
+    }
+  ]
+}

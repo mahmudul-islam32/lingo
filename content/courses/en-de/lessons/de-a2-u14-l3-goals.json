@@ -1,0 +1,133 @@
+{
+  "id": "de-a2-u14-l3-goals",
+  "courseId": "en-de",
+  "unitId": "de-a2-u14",
+  "title": "Goals",
+  "tip": "Separable verbs split in the present: „Wir ziehen im Mai um.“ After werden they stay whole at the end: „Wirst du bald umziehen?“",
+  "exercises": [
+    {
+      "id": "de-a2-u14-l3-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        { "id": "p1", "learning": "das Ziel", "known": "the goal" },
+        { "id": "p2", "learning": "die Prüfung", "known": "the exam" },
+        { "id": "p3", "learning": "der Traum", "known": "the dream" },
+        { "id": "p4", "learning": "üben", "known": "to practise" },
+        { "id": "p5", "learning": "umziehen", "known": "to move house" }
+      ]
+    },
+    {
+      "id": "de-a2-u14-l3-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'My goal is a new job.'?",
+      "options": [
+        { "id": "a", "text": "Mein Ziel ist eine neue Stelle." },
+        { "id": "b", "text": "Mein Ziel ist ein neue Stelle." },
+        { "id": "c", "text": "Meine Ziel ist eine neue Stelle." },
+        { "id": "d", "text": "Mein Ziel ist eine neuen Stelle." }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "de-a2-u14-l3-ex03",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I will take the exam.",
+      "tiles": ["ich", "werde", "die", "Prüfung", "machen", "der", "wird", "das"],
+      "answers": ["Ich werde die Prüfung machen.", "Die Prüfung werde ich machen."]
+    },
+    {
+      "id": "de-a2-u14-l3-ex04",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a2/u14/de-a2-u14-l3-ex04.mp3" },
+      "tiles": [
+        "ich",
+        "hoffe",
+        "dass",
+        "ich",
+        "die",
+        "Prüfung",
+        "bestehe",
+        "bestehen",
+        "weil",
+        "hoffen"
+      ],
+      "answers": ["Ich hoffe, dass ich die Prüfung bestehe."]
+    },
+    {
+      "id": "de-a2-u14-l3-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'We're moving house in May.'?",
+      "options": [
+        { "id": "a", "text": "Wir umziehen im Mai." },
+        { "id": "b", "text": "Wir ziehen im Mai um." },
+        { "id": "c", "text": "Wir ziehen um im Mai." },
+        { "id": "d", "text": "Wir ziehen am Mai um." }
+      ],
+      "correctOptionId": "b"
+    },
+    {
+      "id": "de-a2-u14-l3-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I always practise in the evening.",
+      "tiles": ["ich", "übe", "immer", "abends", "üben", "nie", "morgens"],
+      "answers": ["Ich übe immer abends.", "Abends übe ich immer.", "Ich übe abends immer."]
+    },
+    {
+      "id": "de-a2-u14-l3-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'I'm continuing to learn German.'?",
+      "options": [
+        { "id": "a", "text": "Ich weiter lerne Deutsch." },
+        { "id": "b", "text": "Ich lernen weiter Deutsch." },
+        { "id": "c", "text": "Weiter ich lerne Deutsch." },
+        { "id": "d", "text": "Ich lerne weiter Deutsch." }
+      ],
+      "correctOptionId": "d"
+    },
+    {
+      "id": "de-a2-u14-l3-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Mein Traum ist ein kleines Haus.",
+      "tiles": ["my", "dream", "is", "a", "small", "little", "house", "flat", "big", "the"],
+      "answers": ["My dream is a small house.", "My dream is a little house."]
+    },
+    {
+      "id": "de-a2-u14-l3-ex09",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a2/u14/de-a2-u14-l3-ex09.mp3" },
+      "tiles": ["wir", "ziehen", "im", "Mai", "um", "am", "Juni", "ziehe"],
+      "answers": ["Wir ziehen im Mai um."]
+    },
+    {
+      "id": "de-a2-u14-l3-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "We moved house a year ago.",
+      "tiles": ["wir", "sind", "vor", "einem", "Jahr", "umgezogen", "haben", "seit", "umziehen"],
+      "answers": ["Wir sind vor einem Jahr umgezogen.", "Vor einem Jahr sind wir umgezogen."]
+    },
+    {
+      "id": "de-a2-u14-l3-ex11",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'Will you move house soon? (to a friend)'?",
+      "options": [
+        { "id": "a", "text": "Wirst du bald ziehen um?" },
+        { "id": "b", "text": "Wirst du bald umziehst?" },
+        { "id": "c", "text": "Wirst du bald umziehen?" },
+        { "id": "d", "text": "Wird du bald umziehen?" }
+      ],
+      "correctOptionId": "c"
+    },
+    {
+      "id": "de-a2-u14-l3-ex12",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Ich werde weiter Deutsch lernen.",
+      "tiles": ["I", "will", "I'll", "keep", "learning", "German", "English", "speaking"],
+      "answers": ["I will keep learning German.", "I'll keep learning German."]
+    }
+  ]
+}
