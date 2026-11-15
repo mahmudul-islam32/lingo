@@ -204,6 +204,19 @@ describe("GamificationTopBar (GAM-007)", () => {
     expect(screen.queryByRole("alert")).not.toBeInTheDocument();
   });
 
+  it("hearts error with saved results: real streak and XP, 5 hearts, no banner (FIX-003 AC7)", async () => {
+    vi.spyOn(console, "warn").mockImplementation(() => {});
+    session.progress.listLessonResults.mockResolvedValue([onDay(today()), onDay(today(), 10)]);
+    session.progress.getHearts.mockRejectedValue(new Error("corrupt"));
+    renderBar();
+    expect(await screen.findByRole("img", { name: "Total XP: 25" })).toHaveTextContent("25 XP");
+    expect(screen.getByRole("img", { name: /^Streak: 1 day/ })).toBeInTheDocument();
+    expect(screen.getByRole("button", { name: "Hearts: 5 of 5" })).toBeInTheDocument();
+    expect(screen.queryByRole("img", { name: "XP unavailable" })).not.toBeInTheDocument();
+    expect(screen.queryByRole("alert")).not.toBeInTheDocument();
+    expect(session.progress.saveHearts).not.toHaveBeenCalled();
+  });
+
   it("hearts button meets the 44 px target and has a visible focus ring (AC12)", () => {
     renderBar(seeded([]));
     const button = screen.getByRole("button", { name: /Hearts/ });

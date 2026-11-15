@@ -163,6 +163,18 @@ describe("SkillPath container (GAM-008)", () => {
     for (const alert of screen.queryAllByRole("alert")) expect(alert).toBeEmptyDOMElement();
     expect(screen.queryByText("We couldn't load the course.")).not.toBeInTheDocument();
   });
+
+  it("hearts read error: saved results still show as completed, not the Lesson 1 fallback (FIX-003 AC7)", async () => {
+    vi.spyOn(console, "warn").mockImplementation(() => {});
+    session.progress.listLessonResults.mockResolvedValue(done(L[0]));
+    session.progress.getHearts.mockRejectedValue(new Error("corrupt"));
+    setup();
+    expect(await node("Lesson 1: Hello!, completed. Start again")).toBeInTheDocument();
+    expect(screen.getByRole("link", { name: /Lesson 2: .*up next/ })).toBeInTheDocument();
+    expect(screen.getByText("1 of 5 lessons completed")).toBeInTheDocument();
+    expect(screen.queryByText("No hearts left")).not.toBeInTheDocument();
+    expect(session.progress.saveHearts).not.toHaveBeenCalled();
+  });
 });
 
 describe("SkillPath hearts wiring (GAM-008 AC9/AC10 via useHearts, GAM-005)", () => {

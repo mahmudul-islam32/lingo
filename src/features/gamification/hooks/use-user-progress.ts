@@ -1,6 +1,6 @@
 "use client";
 
-import { useMemo } from "react";
+import { useEffect, useMemo } from "react";
 import { useQuery } from "@tanstack/react-query";
 import {
   GAME_CONFIG,
@@ -12,6 +12,7 @@ import {
   type UserProgress,
 } from "@/contracts";
 import { heartsQuery, progressQuery, settingsQuery } from "../data/queries";
+import { createFullHearts } from "../rules/hearts";
 import { computeUserProgress } from "../rules/progress";
 import { useLocalToday, type UseLocalTodayOptions } from "./use-local-today";
 
@@ -35,7 +36,12 @@ export type UseProgressOptions = UseLocalTodayOptions;
  * Reads the stored results (`["progress", courseId]`), hearts (`["hearts"]`) and settings
  * (`["settings"]`) through `@/lib/offline`, plus today's local date.
  *
- * - `status` is `"error"` if results or hearts can't be read (never throws).
+ * - `status` is `"error"` if the results can't be read (never throws), whether or not the
+ *   hearts read fails too (GAM-003 AC11).
+ * - A hearts read error with no stored hearts in the cache counts as full hearts
+ *   (`createFullHearts(now)`, PD-021, GAM-003 AC15, FIX-003): XP, streak, goal and path
+ *   progress stay visible. The fallback is derived per render: never saved, never written
+ *   to the `["hearts"]` cache (ADR-005). One `console.warn` per failed read.
  * - A settings failure or `null` settings (before onboarding) falls back to the default goal.
  */
 export function useProgressInputs(
@@ -50,13 +56,38 @@ export function useProgressInputs(
   const goalXp: DailyGoalXp = settings.data?.dailyGoalXp ?? GAME_CONFIG.defaultDailyGoalXp;
   const clock = { goalXp, today, now };
 
-  if (results.isError || hearts.isError) {
+  useWarnOnHeartsReadError(hearts.error, hearts.errorUpdatedAt);
+
+  const heartsFailed = hearts.isError && hearts.data === undefined;
+  // Memoised on `now` so `useUserProgress` doesn't re-derive on every render.
+  const fallbackHearts = useMemo(
+    () => (heartsFailed ? createFullHearts(now) : null),
+    [heartsFailed, now],
+  );
+  const heartsState = hearts.data ?? fallbackHearts ?? undefined;
+
+  if (results.isError) {
     return { status: "error", results: null, hearts: null, ...clock };
   }
-  if (results.data === undefined || hearts.data === undefined || settings.isPending) {
+  if (results.data === undefined || heartsState === undefined || settings.isPending) {
     return { status: "loading", results: null, hearts: null, ...clock };
   }
-  return { status: "success", results: results.data, hearts: hearts.data, ...clock };
+  return { status: "success", results: results.data, hearts: heartsState, ...clock };
+}
+
+/**
+ * Last `errorUpdatedAt` warned about per error object. Every `useProgressInputs` caller
+ * (top bar, streak, ring, path) observes the same failed `["hearts"]` read, so this keeps
+ * it to one warning per failed read instead of one per hook instance or render.
+ */
+const warnedHeartsReads = new WeakMap<Error, number>();
+
+function useWarnOnHeartsReadError(error: Error | null, errorUpdatedAt: number) {
+  useEffect(() => {
+    if (!error || warnedHeartsReads.get(error) === errorUpdatedAt) return;
+    warnedHeartsReads.set(error, errorUpdatedAt);
+    console.warn("[progress] could not read hearts; counting full hearts", error);
+  }, [error, errorUpdatedAt]);
 }
 
 export interface UserProgressState {
