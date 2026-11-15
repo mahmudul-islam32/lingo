@@ -1,0 +1,141 @@
+{
+  "id": "de-a2-u03-l3-how-long",
+  "courseId": "en-de",
+  "unitId": "de-a2-u03",
+  "title": "How Long Did You Stay?",
+  "tip": "bleiben also takes sein: Ich bin eine Woche geblieben. Movement and change use sein; most other verbs use haben: Ich habe gefrühstückt.",
+  "exercises": [
+    {
+      "id": "de-a2-u03-l3-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        { "id": "p1", "learning": "bleiben", "known": "to stay" },
+        { "id": "p2", "learning": "wie lange?", "known": "how long?" },
+        { "id": "p3", "learning": "die Nacht", "known": "the night" },
+        { "id": "p4", "learning": "aufgestanden", "known": "got up" },
+        { "id": "p5", "learning": "passieren", "known": "to happen" }
+      ]
+    },
+    {
+      "id": "de-a2-u03-l3-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which one means 'the nights'?",
+      "options": [
+        { "id": "a", "text": "die Nachte" },
+        { "id": "b", "text": "die Nächten" },
+        { "id": "c", "text": "die Nächte" },
+        { "id": "d", "text": "der Nächte" }
+      ],
+      "correctOptionId": "c"
+    },
+    {
+      "id": "de-a2-u03-l3-ex03",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "How long did you stay? (to a friend)",
+      "tiles": ["wie", "lange", "bist", "du", "geblieben", "hast", "wann", "bleibst"],
+      "answers": ["Wie lange bist du geblieben?"]
+    },
+    {
+      "id": "de-a2-u03-l3-ex04",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a2/u03/de-a2-u03-l3-ex04.mp3" },
+      "tiles": ["wir", "sind", "eine", "Woche", "in", "Graz", "geblieben", "haben", "Wien", "zwei"],
+      "answers": ["Wir sind eine Woche in Graz geblieben."]
+    },
+    {
+      "id": "de-a2-u03-l3-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'I got up early'?",
+      "options": [
+        { "id": "a", "text": "Ich bin früh aufgestanden." },
+        { "id": "b", "text": "Ich habe früh aufgestanden." },
+        { "id": "c", "text": "Ich bin früh aufgesteht." },
+        { "id": "d", "text": "Ich bin früh gestanden auf." }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "de-a2-u03-l3-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I need a room for two nights.",
+      "tiles": ["ich", "brauche", "ein", "Zimmer", "für", "zwei", "Nächte", "Nacht", "eine", "mit"],
+      "answers": [
+        "Ich brauche ein Zimmer für zwei Nächte.",
+        "Für zwei Nächte brauche ich ein Zimmer.",
+        "Ein Zimmer brauche ich für zwei Nächte."
+      ]
+    },
+    {
+      "id": "de-a2-u03-l3-ex07",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a2/u03/de-a2-u03-l3-ex07.mp3" },
+      "tiles": ["was", "ist", "gestern", "passiert", "hat", "wer", "heute", "passieren"],
+      "answers": ["Was ist gestern passiert?"]
+    },
+    {
+      "id": "de-a2-u03-l3-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Am Sonntag sind wir gewandert.",
+      "tiles": ["we", "went", "hiking", "on", "Sunday", "hiked", "Saturday", "go"],
+      "answers": [
+        "We went hiking on Sunday.",
+        "We hiked on Sunday.",
+        "On Sunday we went hiking.",
+        "On Sunday we hiked."
+      ]
+    },
+    {
+      "id": "de-a2-u03-l3-ex09",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'We stayed at home'?",
+      "options": [
+        { "id": "a", "text": "Wir haben zu Hause geblieben." },
+        { "id": "b", "text": "Wir sind zu Hause gebleibt." },
+        { "id": "c", "text": "Wir sind zu Hause geblieben." },
+        { "id": "d", "text": "Wir sind geblieben zu Hause." }
+      ],
+      "correctOptionId": "c"
+    },
+    {
+      "id": "de-a2-u03-l3-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I got up at six and had breakfast.",
+      "tiles": [
+        "ich",
+        "bin",
+        "um",
+        "sechs",
+        "aufgestanden",
+        "und",
+        "habe",
+        "gefrühstückt",
+        "hat",
+        "ist",
+        "sieben"
+      ],
+      "answers": [
+        "Ich bin um sechs aufgestanden und habe gefrühstückt.",
+        "Um sechs bin ich aufgestanden und habe gefrühstückt."
+      ]
+    },
+    {
+      "id": "de-a2-u03-l3-ex11",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a2/u03/de-a2-u03-l3-ex11.mp3" },
+      "tiles": ["ich", "bin", "gestern", "viel", "gelaufen", "habe", "laufe", "heute"],
+      "answers": ["Ich bin gestern viel gelaufen."]
+    },
+    {
+      "id": "de-a2-u03-l3-ex12",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Wie lange seid ihr in Wien geblieben?",
+      "tiles": ["how", "long", "did", "you", "stay", "in", "Vienna", "are", "Graz", "stayed"],
+      "answers": ["How long did you stay in Vienna?"]
+    }
+  ]
+}

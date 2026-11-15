@@ -1,0 +1,155 @@
+{
+  "id": "de-a2-u02-l4-phoned-and-visited",
+  "courseId": "en-de",
+  "unitId": "de-a2-u02",
+  "title": "Phoned, Visited, Paid",
+  "tip": "Separable verbs put ge in the middle: eingekauft, angerufen. Verbs with be- or -ieren take no ge: Ich habe Oma besucht. Wir haben telefoniert.",
+  "exercises": [
+    {
+      "id": "de-a2-u02-l4-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        { "id": "p1", "learning": "aufräumen", "known": "to tidy up" },
+        { "id": "p2", "learning": "besuchen", "known": "to visit" },
+        { "id": "p3", "learning": "bezahlen", "known": "to pay" },
+        { "id": "p4", "learning": "telefonieren", "known": "to talk on the phone" },
+        { "id": "p5", "learning": "ferngesehen", "known": "watched TV" }
+      ]
+    },
+    {
+      "id": "de-a2-u02-l4-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'I went shopping on Saturday'?",
+      "options": [
+        { "id": "a", "text": "Ich habe am Samstag geeinkauft." },
+        { "id": "b", "text": "Ich habe am Samstag eingekauft." },
+        { "id": "c", "text": "Ich habe am Samstag eingekaufen." },
+        { "id": "d", "text": "Ich bin am Samstag eingekauft." }
+      ],
+      "correctOptionId": "b"
+    },
+    {
+      "id": "de-a2-u02-l4-ex03",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I called my mother yesterday.",
+      "tiles": [
+        "ich",
+        "habe",
+        "gestern",
+        "meine",
+        "Mutter",
+        "angerufen",
+        "angeruft",
+        "mein",
+        "rufe"
+      ],
+      "answers": [
+        "Ich habe gestern meine Mutter angerufen.",
+        "Gestern habe ich meine Mutter angerufen.",
+        "Ich habe meine Mutter gestern angerufen.",
+        "Meine Mutter habe ich gestern angerufen."
+      ]
+    },
+    {
+      "id": "de-a2-u02-l4-ex04",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a2/u02/de-a2-u02-l4-ex04.mp3" },
+      "tiles": [
+        "am",
+        "Sonntag",
+        "haben",
+        "wir",
+        "Oma",
+        "und",
+        "Opa",
+        "besucht",
+        "gebesucht",
+        "besuchen",
+        "Samstag"
+      ],
+      "answers": ["Am Sonntag haben wir Oma und Opa besucht."]
+    },
+    {
+      "id": "de-a2-u02-l4-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'Did you pay the rent? (formal)'?",
+      "options": [
+        { "id": "a", "text": "Haben Sie die Miete gebezahlt?" },
+        { "id": "b", "text": "Haben Sie bezahlt die Miete?" },
+        { "id": "c", "text": "Sind Sie die Miete bezahlt?" },
+        { "id": "d", "text": "Haben Sie die Miete bezahlt?" }
+      ],
+      "correctOptionId": "d"
+    },
+    {
+      "id": "de-a2-u02-l4-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "We tidied up the flat.",
+      "tiles": ["wir", "haben", "die", "Wohnung", "aufgeräumt", "geaufräumt", "aufräumen", "hat"],
+      "answers": ["Wir haben die Wohnung aufgeräumt.", "Die Wohnung haben wir aufgeräumt."]
+    },
+    {
+      "id": "de-a2-u02-l4-ex07",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a2/u02/de-a2-u02-l4-ex07.mp3" },
+      "tiles": ["hast", "du", "gestern", "Abend", "ferngesehen", "gefernsehen", "siehst", "habe"],
+      "answers": ["Hast du gestern Abend ferngesehen?"]
+    },
+    {
+      "id": "de-a2-u02-l4-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Ich habe gestern Abend telefoniert.",
+      "tiles": ["I", "talked", "on", "the", "phone", "last", "night", "have", "talk", "week"],
+      "answers": ["I talked on the phone last night.", "Last night I talked on the phone."]
+    },
+    {
+      "id": "de-a2-u02-l4-ex09",
+      "type": "multiple_choice",
+      "prompt": "Which one means 'watched TV'?",
+      "options": [
+        { "id": "a", "text": "gefernsehen" },
+        { "id": "b", "text": "ferngeseht" },
+        { "id": "c", "text": "fernsehen" },
+        { "id": "d", "text": "ferngesehen" }
+      ],
+      "correctOptionId": "d"
+    },
+    {
+      "id": "de-a2-u02-l4-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Did you talk on the phone yesterday? (to two friends)",
+      "tiles": ["habt", "ihr", "gestern", "telefoniert", "getelefoniert", "haben", "hat"],
+      "answers": ["Habt ihr gestern telefoniert?"]
+    },
+    {
+      "id": "de-a2-u02-l4-ex11",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a2/u02/de-a2-u02-l4-ex11.mp3" },
+      "tiles": [
+        "ich",
+        "habe",
+        "eingekauft",
+        "und",
+        "die",
+        "Küche",
+        "aufgeräumt",
+        "der",
+        "geeinkauft",
+        "hat"
+      ],
+      "answers": ["Ich habe eingekauft und die Küche aufgeräumt."]
+    },
+    {
+      "id": "de-a2-u02-l4-ex12",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Gestern hat Selin die Miete bezahlt.",
+      "tiles": ["yesterday", "Selin", "paid", "the", "rent", "has", "pays", "flat"],
+      "answers": ["Yesterday Selin paid the rent.", "Selin paid the rent yesterday."]
+    }
+  ]
+}

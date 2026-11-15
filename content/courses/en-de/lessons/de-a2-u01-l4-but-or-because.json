@@ -1,0 +1,177 @@
+{
+  "id": "de-a2-u01-l4-but-or-because",
+  "courseId": "en-de",
+  "unitId": "de-a2-u01",
+  "title": "But, Or, Because",
+  "tip": "aber, oder and denn link two main clauses and don't change the word order. The verb stays second: Es ist kalt, denn es schneit.",
+  "exercises": [
+    {
+      "id": "de-a2-u01-l4-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        { "id": "p1", "learning": "aber", "known": "but" },
+        { "id": "p2", "learning": "oder", "known": "or" },
+        { "id": "p3", "learning": "denn", "known": "because" },
+        { "id": "p4", "learning": "sonnig", "known": "sunny" },
+        { "id": "p5", "learning": "bewölkt", "known": "cloudy" }
+      ]
+    },
+    {
+      "id": "de-a2-u01-l4-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'I'm not swimming because it's cold'?",
+      "options": [
+        { "id": "a", "text": "Ich schwimme nicht, denn es kalt ist." },
+        { "id": "b", "text": "Ich schwimme nicht, denn ist es kalt." },
+        { "id": "c", "text": "Ich schwimme nicht, denn es ist kalt." },
+        { "id": "d", "text": "Ich schwimme nicht, aber es ist kalt." }
+      ],
+      "correctOptionId": "c"
+    },
+    {
+      "id": "de-a2-u01-l4-ex03",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "It's sunny but cold.",
+      "tiles": ["es", "ist", "sonnig", "aber", "kalt", "oder", "denn", "warm"],
+      "answers": ["Es ist sonnig, aber kalt."]
+    },
+    {
+      "id": "de-a2-u01-l4-ex04",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a2/u01/de-a2-u01-l4-ex04.mp3" },
+      "tiles": [
+        "heute",
+        "ist",
+        "es",
+        "bewölkt",
+        "aber",
+        "es",
+        "regnet",
+        "nicht",
+        "denn",
+        "sonnig",
+        "oder"
+      ],
+      "answers": ["Heute ist es bewölkt, aber es regnet nicht."]
+    },
+    {
+      "id": "de-a2-u01-l4-ex05",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Is it warm or cold in Vienna?",
+      "tiles": ["ist", "es", "in", "Wien", "warm", "oder", "kalt", "aber", "denn", "sind"],
+      "answers": [
+        "Ist es in Wien warm oder kalt?",
+        "Ist es warm oder kalt in Wien?",
+        "Ist es in Wien kalt oder warm?",
+        "Ist es kalt oder warm in Wien?"
+      ]
+    },
+    {
+      "id": "de-a2-u01-l4-ex06",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'It's cloudy, but it's warm'?",
+      "options": [
+        { "id": "a", "text": "Es ist bewölkt, aber es warm ist." },
+        { "id": "b", "text": "Es ist bewölkt, aber ist es warm." },
+        { "id": "c", "text": "Es ist bewölkt, oder es ist warm." },
+        { "id": "d", "text": "Es ist bewölkt, aber es ist warm." }
+      ],
+      "correctOptionId": "d"
+    },
+    {
+      "id": "de-a2-u01-l4-ex07",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Es ist sonnig, aber es sind minus fünf Grad.",
+      "tiles": ["it's", "it's", "sunny", "but", "minus", "five", "degrees", "cloudy", "or", "four"],
+      "answers": ["It's sunny, but it's minus five degrees."]
+    },
+    {
+      "id": "de-a2-u01-l4-ex08",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a2/u01/de-a2-u01-l4-ex08.mp3" },
+      "tiles": [
+        "heute",
+        "sind",
+        "es",
+        "zwanzig",
+        "Grad",
+        "und",
+        "die",
+        "Sonne",
+        "scheint",
+        "ist",
+        "zwölf",
+        "aber"
+      ],
+      "answers": ["Heute sind es zwanzig Grad und die Sonne scheint."]
+    },
+    {
+      "id": "de-a2-u01-l4-ex09",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "We're not hiking today because it's raining.",
+      "tiles": [
+        "wir",
+        "wandern",
+        "heute",
+        "nicht",
+        "denn",
+        "es",
+        "regnet",
+        "aber",
+        "wandert",
+        "schneit"
+      ],
+      "answers": [
+        "Wir wandern heute nicht, denn es regnet.",
+        "Heute wandern wir nicht, denn es regnet."
+      ]
+    },
+    {
+      "id": "de-a2-u01-l4-ex10",
+      "type": "multiple_choice",
+      "prompt": "Which one means 'minus five degrees'?",
+      "options": [
+        { "id": "a", "text": "minus fünfzehn Grad" },
+        { "id": "b", "text": "minus fünf Grad" },
+        { "id": "c", "text": "minus fünfzig Grad" },
+        { "id": "d", "text": "minus vier Grad" }
+      ],
+      "correctOptionId": "b"
+    },
+    {
+      "id": "de-a2-u01-l4-ex11",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Are we cooking or going to the cinema?",
+      "tiles": ["kochen", "wir", "oder", "gehen", "wir", "ins", "Kino", "aber", "denn", "kocht"],
+      "answers": ["Kochen wir oder gehen wir ins Kino?", "Gehen wir ins Kino oder kochen wir?"]
+    },
+    {
+      "id": "de-a2-u01-l4-ex12",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Ich schwimme heute nicht, denn es ist windig.",
+      "tiles": [
+        "I'm",
+        "not",
+        "swimming",
+        "today",
+        "because",
+        "it's",
+        "windy",
+        "but",
+        "or",
+        "sunny"
+      ],
+      "answers": [
+        "I'm not swimming today because it's windy.",
+        "Today I'm not swimming because it's windy.",
+        "I'm not swimming because it's windy today."
+      ]
+    }
+  ]
+}

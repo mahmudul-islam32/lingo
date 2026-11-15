@@ -239,6 +239,66 @@ export const BUNDLED_CONTENT: ContentLoaders = {
       "de-a1-u12-l5-a1-checkpoint": json(
         () => import("../../../content/courses/en-de/lessons/de-a1-u12-l5-a1-checkpoint.json"),
       ),
+      "de-a2-u01-l1-weather": json(
+        () => import("../../../content/courses/en-de/lessons/de-a2-u01-l1-weather.json"),
+      ),
+      "de-a2-u01-l2-seasons": json(
+        () => import("../../../content/courses/en-de/lessons/de-a2-u01-l2-seasons.json"),
+      ),
+      "de-a2-u01-l3-birthdays": json(
+        () => import("../../../content/courses/en-de/lessons/de-a2-u01-l3-birthdays.json"),
+      ),
+      "de-a2-u01-l4-but-or-because": json(
+        () => import("../../../content/courses/en-de/lessons/de-a2-u01-l4-but-or-because.json"),
+      ),
+      "de-a2-u01-l5-forecast": json(
+        () => import("../../../content/courses/en-de/lessons/de-a2-u01-l5-forecast.json"),
+      ),
+      "de-a2-u02-l1-how-was-it": json(
+        () => import("../../../content/courses/en-de/lessons/de-a2-u02-l1-how-was-it.json"),
+      ),
+      "de-a2-u02-l2-what-did-you-do": json(
+        () => import("../../../content/courses/en-de/lessons/de-a2-u02-l2-what-did-you-do.json"),
+      ),
+      "de-a2-u02-l3-eaten-and-seen": json(
+        () => import("../../../content/courses/en-de/lessons/de-a2-u02-l3-eaten-and-seen.json"),
+      ),
+      "de-a2-u02-l4-phoned-and-visited": json(
+        () => import("../../../content/courses/en-de/lessons/de-a2-u02-l4-phoned-and-visited.json"),
+      ),
+      "de-a2-u02-l5-monday-at-work": json(
+        () => import("../../../content/courses/en-de/lessons/de-a2-u02-l5-monday-at-work.json"),
+      ),
+      "de-a2-u03-l1-on-holiday": json(
+        () => import("../../../content/courses/en-de/lessons/de-a2-u03-l1-on-holiday.json"),
+      ),
+      "de-a2-u03-l2-we-travelled": json(
+        () => import("../../../content/courses/en-de/lessons/de-a2-u03-l2-we-travelled.json"),
+      ),
+      "de-a2-u03-l3-how-long": json(
+        () => import("../../../content/courses/en-de/lessons/de-a2-u03-l3-how-long.json"),
+      ),
+      "de-a2-u03-l4-for-you": json(
+        () => import("../../../content/courses/en-de/lessons/de-a2-u03-l4-for-you.json"),
+      ),
+      "de-a2-u03-l5-postcard": json(
+        () => import("../../../content/courses/en-de/lessons/de-a2-u03-l5-postcard.json"),
+      ),
+      "de-a2-u04-l1-invitations": json(
+        () => import("../../../content/courses/en-de/lessons/de-a2-u04-l1-invitations.json"),
+      ),
+      "de-a2-u04-l2-happy-birthday": json(
+        () => import("../../../content/courses/en-de/lessons/de-a2-u04-l2-happy-birthday.json"),
+      ),
+      "de-a2-u04-l3-who-gets-what": json(
+        () => import("../../../content/courses/en-de/lessons/de-a2-u04-l3-who-gets-what.json"),
+      ),
+      "de-a2-u04-l4-i-like-it": json(
+        () => import("../../../content/courses/en-de/lessons/de-a2-u04-l4-i-like-it.json"),
+      ),
+      "de-a2-u04-l5-office-birthday": json(
+        () => import("../../../content/courses/en-de/lessons/de-a2-u04-l5-office-birthday.json"),
+      ),
     },
     "en-es": {
       "u1-l1-hello": json(() => import("../../../content/courses/en-es/lessons/u1-l1-hello.json")),

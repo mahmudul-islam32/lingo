@@ -1,0 +1,172 @@
+{
+  "id": "de-a2-u04-l2-happy-birthday",
+  "courseId": "en-de",
+  "unitId": "de-a2-u04",
+  "title": "Happy Birthday!",
+  "tip": "Who gets something? Use the dative: mir (to me), dir (to you), formal Ihnen. Gratulieren takes the dative too: Ich gratuliere dir.",
+  "exercises": [
+    {
+      "id": "de-a2-u04-l2-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        { "id": "p1", "learning": "herzlichen Glückwunsch", "known": "congratulations" },
+        { "id": "p2", "learning": "alles Gute", "known": "all the best" },
+        { "id": "p3", "learning": "das Geschenk", "known": "the present" },
+        { "id": "p4", "learning": "schenken", "known": "to give as a present" },
+        { "id": "p5", "learning": "gratulieren", "known": "to congratulate" }
+      ]
+    },
+    {
+      "id": "de-a2-u04-l2-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'Happy birthday!'",
+      "options": [
+        { "id": "a", "text": "Herzlichen Glückwunsch zur Geburtstag!" },
+        { "id": "b", "text": "Herzlichen Glückwunsch am Geburtstag!" },
+        { "id": "c", "text": "Herzlichen Glückwunsch zum Geburtstag!" },
+        { "id": "d", "text": "Herzliche Glückwunsch zum Geburtstag!" }
+      ],
+      "correctOptionId": "c"
+    },
+    {
+      "id": "de-a2-u04-l2-ex03",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a2/u04/de-a2-u04-l2-ex03.mp3" },
+      "tiles": [
+        "alles",
+        "Gute",
+        "Jana",
+        "das",
+        "Geschenk",
+        "ist",
+        "für",
+        "dich",
+        "dir",
+        "gut",
+        "sind"
+      ],
+      "answers": ["Alles Gute, Jana! Das Geschenk ist für dich."]
+    },
+    {
+      "id": "de-a2-u04-l2-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I'm giving you a book. (to a friend)",
+      "tiles": ["ich", "schenke", "dir", "ein", "Buch", "dich", "schenkst", "eine"],
+      "answers": [
+        "Ich schenke dir ein Buch.",
+        "Ein Buch schenke ich dir.",
+        "Dir schenke ich ein Buch."
+      ]
+    },
+    {
+      "id": "de-a2-u04-l2-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'I congratulate you. (to a friend)'?",
+      "options": [
+        { "id": "a", "text": "Ich gratuliere dich." },
+        { "id": "b", "text": "Ich gratuliere dir." },
+        { "id": "c", "text": "Ich gratuliere du." },
+        { "id": "d", "text": "Ich gratulierst dir." }
+      ],
+      "correctOptionId": "b"
+    },
+    {
+      "id": "de-a2-u04-l2-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Mein Bruder schenkt mir ein Fahrrad.",
+      "tiles": [
+        "my",
+        "brother",
+        "is",
+        "giving",
+        "me",
+        "a",
+        "bicycle",
+        "bike",
+        "sister",
+        "I",
+        "the"
+      ],
+      "answers": ["My brother is giving me a bicycle.", "My brother is giving me a bike."]
+    },
+    {
+      "id": "de-a2-u04-l2-ex07",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a2/u04/de-a2-u04-l2-ex07.mp3" },
+      "tiles": [
+        "herzlichen",
+        "Glückwunsch",
+        "Frau",
+        "Wagner",
+        "wir",
+        "gratulieren",
+        "Ihnen",
+        "Sie",
+        "gratuliert",
+        "Herr"
+      ],
+      "answers": ["Herzlichen Glückwunsch, Frau Wagner! Wir gratulieren Ihnen."]
+    },
+    {
+      "id": "de-a2-u04-l2-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "All the best! I congratulate you. (formal)",
+      "tiles": ["alles", "Gute", "ich", "gratuliere", "Ihnen", "dir", "Sie", "gratulierst"],
+      "answers": ["Alles Gute! Ich gratuliere Ihnen.", "Alles Gute! Ihnen gratuliere ich."]
+    },
+    {
+      "id": "de-a2-u04-l2-ex09",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'What are you giving me? (to a friend)'?",
+      "options": [
+        { "id": "a", "text": "Was schenkst du mir?" },
+        { "id": "b", "text": "Was schenkst du mich?" },
+        { "id": "c", "text": "Was schenkst du ich?" },
+        { "id": "d", "text": "Was schenke du mir?" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "de-a2-u04-l2-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Das Geschenk ist für Sie, Herr Novak.",
+      "tiles": ["the", "present", "is", "for", "you", "Mr", "Novak", "gift", "me", "are"],
+      "answers": ["The present is for you, Mr Novak.", "The gift is for you, Mr Novak."]
+    },
+    {
+      "id": "de-a2-u04-l2-ex11",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'I'm giving you a photo. (formal)'?",
+      "options": [
+        { "id": "a", "text": "Ich schenke Ihnen ein Foto." },
+        { "id": "b", "text": "Ich schenke Sie ein Foto." },
+        { "id": "c", "text": "Ich schenke dir ein Foto." },
+        { "id": "d", "text": "Ich schenke Ihnen einen Foto." }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "de-a2-u04-l2-ex12",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a2/u04/de-a2-u04-l2-ex12.mp3" },
+      "tiles": [
+        "ich",
+        "habe",
+        "heute",
+        "Geburtstag",
+        "was",
+        "schenkst",
+        "du",
+        "mir",
+        "mich",
+        "schenke",
+        "hast"
+      ],
+      "answers": ["Ich habe heute Geburtstag. Was schenkst du mir?"]
+    }
+  ]
+}
