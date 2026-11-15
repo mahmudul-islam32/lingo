@@ -1,0 +1,205 @@
+{
+  "id": "de-a2-u08-l5-voicemail",
+  "courseId": "en-de",
+  "unitId": "de-a2-u08",
+  "title": "Scenario: A Message on the Mailbox",
+  "tip": "On the mailbox, say who you are and what you need: „Hier ist Lea. Ruf mich bitte zurück!“ Promise to call again with „Ich melde mich.“",
+  "exercises": [
+    {
+      "id": "de-a2-u08-l5-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        { "id": "p1", "learning": "die Mailbox", "known": "the voicemail" },
+        { "id": "p2", "learning": "Bescheid sagen", "known": "to let someone know" },
+        { "id": "p3", "learning": "erreichen", "known": "to reach" },
+        { "id": "p4", "learning": "sich melden", "known": "to get in touch" },
+        { "id": "p5", "learning": "die Nachricht", "known": "the message" }
+      ]
+    },
+    {
+      "id": "de-a2-u08-l5-ex02",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a2/u08/de-a2-u08-l5-ex02.mp3" },
+      "tiles": [
+        "hallo",
+        "Kofi",
+        "hier",
+        "ist",
+        "Lea",
+        "ich",
+        "kann",
+        "dich",
+        "nicht",
+        "erreichen",
+        "kannst",
+        "mich",
+        "erreicht"
+      ],
+      "answers": ["Hallo Kofi, hier ist Lea. Ich kann dich nicht erreichen."]
+    },
+    {
+      "id": "de-a2-u08-l5-ex03",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I'll get in touch with you tomorrow. (to a friend)",
+      "tiles": ["ich", "melde", "mich", "morgen", "bei", "dir", "meldest", "dich", "mir"],
+      "answers": ["Ich melde mich morgen bei dir.", "Morgen melde ich mich bei dir."]
+    },
+    {
+      "id": "de-a2-u08-l5-ex04",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'Please get in touch. (formal)'?",
+      "options": [
+        { "id": "a", "text": "Bitte melden Sie mich." },
+        { "id": "b", "text": "Bitte melden sich Sie." },
+        { "id": "c", "text": "Bitte melden Sie sich." },
+        { "id": "d", "text": "Bitte meldet Sie sich." }
+      ],
+      "correctOptionId": "c"
+    },
+    {
+      "id": "de-a2-u08-l5-ex05",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a2/u08/de-a2-u08-l5-ex05.mp3" },
+      "tiles": [
+        "guten",
+        "Tag",
+        "hier",
+        "spricht",
+        "Nilay",
+        "Aksoy",
+        "bitte",
+        "rufen",
+        "Sie",
+        "mich",
+        "zurück",
+        "rufst",
+        "dich",
+        "an"
+      ],
+      "answers": ["Guten Tag, hier spricht Nilay Aksoy. Bitte rufen Sie mich zurück."]
+    },
+    {
+      "id": "de-a2-u08-l5-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I'm calling because I'd like to move my appointment.",
+      "tiles": [
+        "ich",
+        "rufe",
+        "an",
+        "weil",
+        "ich",
+        "meinen",
+        "Termin",
+        "verschieben",
+        "möchte",
+        "möchtest",
+        "mein",
+        "verschiebe"
+      ],
+      "answers": [
+        "Ich rufe an, weil ich meinen Termin verschieben möchte.",
+        "Weil ich meinen Termin verschieben möchte, rufe ich an."
+      ]
+    },
+    {
+      "id": "de-a2-u08-l5-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'Please let me know. (to a friend)'?",
+      "options": [
+        { "id": "a", "text": "Sag mich bitte Bescheid." },
+        { "id": "b", "text": "Sag mir bitte Bescheid." },
+        { "id": "c", "text": "Sagst mir bitte Bescheid." },
+        { "id": "d", "text": "Bitte sag Bescheid mir." }
+      ],
+      "correctOptionId": "b"
+    },
+    {
+      "id": "de-a2-u08-l5-ex08",
+      "type": "listen",
+      "audio": { "src": "/audio/de/a2/u08/de-a2-u08-l5-ex08.mp3" },
+      "tiles": [
+        "ich",
+        "konnte",
+        "heute",
+        "nicht",
+        "kommen",
+        "weil",
+        "ich",
+        "Fieber",
+        "hatte",
+        "kann",
+        "habe",
+        "gekommen"
+      ],
+      "answers": ["Ich konnte heute nicht kommen, weil ich Fieber hatte."]
+    },
+    {
+      "id": "de-a2-u08-l5-ex09",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Hier ist die Mailbox von Emil Becker.",
+      "tiles": ["this", "is", "Emil", "Becker's", "voicemail", "mailbox", "the", "are", "phone"],
+      "answers": ["This is Emil Becker's voicemail.", "This is Emil Becker's mailbox."]
+    },
+    {
+      "id": "de-a2-u08-l5-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I wanted to call you, but I couldn't reach you. (to a friend)",
+      "tiles": [
+        "ich",
+        "wollte",
+        "dich",
+        "anrufen",
+        "aber",
+        "ich",
+        "konnte",
+        "dich",
+        "nicht",
+        "erreichen",
+        "will",
+        "kann",
+        "dir"
+      ],
+      "answers": ["Ich wollte dich anrufen, aber ich konnte dich nicht erreichen."]
+    },
+    {
+      "id": "de-a2-u08-l5-ex11",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I'm late because the bus was delayed.",
+      "tiles": [
+        "ich",
+        "komme",
+        "zu",
+        "spät",
+        "weil",
+        "der",
+        "Bus",
+        "Verspätung",
+        "hatte",
+        "hat",
+        "später",
+        "kommt"
+      ],
+      "answers": [
+        "Ich komme zu spät, weil der Bus Verspätung hatte.",
+        "Weil der Bus Verspätung hatte, komme ich zu spät."
+      ]
+    },
+    {
+      "id": "de-a2-u08-l5-ex12",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'I'll let you know. (formal)'?",
+      "options": [
+        { "id": "a", "text": "Ich sage Sie Bescheid." },
+        { "id": "b", "text": "Ich Bescheid sage Ihnen." },
+        { "id": "c", "text": "Ich sage Ihnen Bescheid." },
+        { "id": "d", "text": "Ich sage Ihnen Bescheid sagen." }
+      ],
+      "correctOptionId": "c"
+    }
+  ]
+}

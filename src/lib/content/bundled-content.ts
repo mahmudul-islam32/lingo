@@ -299,6 +299,67 @@ export const BUNDLED_CONTENT: ContentLoaders = {
       "de-a2-u04-l5-office-birthday": json(
         () => import("../../../content/courses/en-de/lessons/de-a2-u04-l5-office-birthday.json"),
       ),
+      "de-a2-u05-l1-going-to": json(
+        () => import("../../../content/courses/en-de/lessons/de-a2-u05-l1-going-to.json"),
+      ),
+      "de-a2-u05-l2-where-are-you": json(
+        () => import("../../../content/courses/en-de/lessons/de-a2-u05-l2-where-are-you.json"),
+      ),
+      "de-a2-u05-l3-hundreds": json(
+        () => import("../../../content/courses/en-de/lessons/de-a2-u05-l3-hundreds.json"),
+      ),
+      "de-a2-u05-l4-since-when": json(
+        () => import("../../../content/courses/en-de/lessons/de-a2-u05-l4-since-when.json"),
+      ),
+      "de-a2-u05-l5-post-office": json(
+        () => import("../../../content/courses/en-de/lessons/de-a2-u05-l5-post-office.json"),
+      ),
+      "de-a2-u06-l1-clothes": json(
+        () => import("../../../content/courses/en-de/lessons/de-a2-u06-l1-clothes.json"),
+      ),
+      "de-a2-u06-l2-colours": json(
+        () => import("../../../content/courses/en-de/lessons/de-a2-u06-l2-colours.json"),
+      ),
+      "de-a2-u06-l3-the-blue-jumper": json(
+        () => import("../../../content/courses/en-de/lessons/de-a2-u06-l3-the-blue-jumper.json"),
+      ),
+      "de-a2-u06-l4-a-red-dress": json(
+        () => import("../../../content/courses/en-de/lessons/de-a2-u06-l4-a-red-dress.json"),
+      ),
+      "de-a2-u06-l5-exchange": json(
+        () => import("../../../content/courses/en-de/lessons/de-a2-u06-l5-exchange.json"),
+      ),
+      "de-a2-u07-l1-sport": json(
+        () => import("../../../content/courses/en-de/lessons/de-a2-u07-l1-sport.json"),
+      ),
+      "de-a2-u07-l2-how-do-you-feel": json(
+        () => import("../../../content/courses/en-de/lessons/de-a2-u07-l2-how-do-you-feel.json"),
+      ),
+      "de-a2-u07-l3-drink-water": json(
+        () => import("../../../content/courses/en-de/lessons/de-a2-u07-l3-drink-water.json"),
+      ),
+      "de-a2-u07-l4-the-doctor-says": json(
+        () => import("../../../content/courses/en-de/lessons/de-a2-u07-l4-the-doctor-says.json"),
+      ),
+      "de-a2-u07-l5-back-in-training": json(
+        () => import("../../../content/courses/en-de/lessons/de-a2-u07-l5-back-in-training.json"),
+      ),
+      "de-a2-u08-l1-on-the-phone": json(
+        () => import("../../../content/courses/en-de/lessons/de-a2-u08-l1-on-the-phone.json"),
+      ),
+      "de-a2-u08-l2-minutes-and-hours": json(
+        () => import("../../../content/courses/en-de/lessons/de-a2-u08-l2-minutes-and-hours.json"),
+      ),
+      "de-a2-u08-l3-moving-an-appointment": json(
+        () =>
+          import("../../../content/courses/en-de/lessons/de-a2-u08-l3-moving-an-appointment.json"),
+      ),
+      "de-a2-u08-l4-because": json(
+        () => import("../../../content/courses/en-de/lessons/de-a2-u08-l4-because.json"),
+      ),
+      "de-a2-u08-l5-voicemail": json(
+        () => import("../../../content/courses/en-de/lessons/de-a2-u08-l5-voicemail.json"),
+      ),
     },
     "en-es": {
       "u1-l1-hello": json(() => import("../../../content/courses/en-es/lessons/u1-l1-hello.json")),
