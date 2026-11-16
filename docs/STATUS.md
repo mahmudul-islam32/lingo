@@ -47,8 +47,5 @@ v0.6.0 (accounts & sync, renumbered from v0.4.0), v1.1.0 German B1 (planning now
 - 2026-11-13 01:00 run: A1 QA merged (#54). A2 plan written, A2 Units 1–4 written and pushed.
   The run was cut short by the usage limit.
 - 2026-11-14 01:00 run: merged #56–#59. A2 Units 5–12 written, validated and pushed. Cut short by the usage limit.
-- 2026-11-15 01:00 run: A2 Units 13–14 written. All A2 merged (#60–#63). A2 QA pass done
-  and playtested. README refreshed for German (capture script now plays German Lesson 1).
-  Release acceptance started.
 - 2026-11-15 01:00 run: A2 Units 13–14 written; #60–#67 and #55 merged; A2 QA and FIX-004 playthroughs PASS.
 - 2026-11-16 01:00 run: v0.5.0 release PR, B1 plan, FIX-005 (in progress).
