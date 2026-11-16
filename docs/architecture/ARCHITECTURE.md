@@ -1,11 +1,12 @@
 # Polyglow architecture
 
-- **Owner:** cto · **Status:** v1 (CTO-002) · **Last updated:** 2026-11-07
+- **Owner:** cto · **Status:** v1 (CTO-002) · **Last updated:** 2026-11-16
 - Decisions: [ADR-001 scaffold](adr/ADR-001-scaffold.md), [ADR-002 contracts](adr/ADR-002-contracts.md),
   [ADR-003 Supabase](adr/ADR-003-supabase.md), [ADR-004 design tokens and UI primitives](adr/ADR-004-design-tokens-ui-primitives.md),
   [ADR-005 client query cache](adr/ADR-005-client-query-cache.md),
   [ADR-006 webpack production build](adr/ADR-006-webpack-production-build-serwist.md), [ADR-007 release tagging](adr/ADR-007-release-tagging-v0.1.0-v0.2.0.md),
-  [ADR-008 German course and CEFR levels](adr/ADR-008-german-course-cefr-levels.md)
+  [ADR-008 German course and CEFR levels](adr/ADR-008-german-course-cefr-levels.md),
+  [ADR-009 cloze exercise](adr/ADR-009-cloze-exercise.md)
 - Contract changes: [contract-requests.md](contract-requests.md)
 
 Every agent reads this file before starting a ticket. If code and this document
@@ -282,6 +283,7 @@ split words; speech (`foldDiacritics`) folds umlauts and ß → ss. Speech local
 | `listen`              | same as word bank                                                                                                                                                                                                           | `answers[0]`        |
 | `match_pairs`         | every pair matched, each `learningPairId === knownPairId`. Mismatched taps get live feedback and are counted in `mismatchCount`; any mismatch makes the (still correct) result a `mistake` costing 1 heart (CR-001, PD-012) | `null`              |
 | `speak`               | `skipped` → outcome `skipped`; else any transcript, `foldDiacritics`-ed, equals `phrase` or an `acceptedTranscripts` entry, folded the same way                                                                             | `phrase`            |
+| `cloze`               | every gap's `optionIds[i] === gaps[i].correctOptionId` and no extra ids; `wrongGapIndexes` lists the wrong gaps. Pure rule `checkClozeAnswer` lives in the contracts (ADR-009); `checkAnswer` delegates. PD-012 unchanged   | filled sentence     |
 
 ## 9. Content
 

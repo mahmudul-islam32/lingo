@@ -26,6 +26,25 @@ features, follow-up PR
 
 ## Requests
 
+### CTO-009: `cloze` exercise type (cto-initiated change notice)
+
+- **Requested by:** pm (PD-049) · **Date:** 2026-11-16 · **Ticket:** CTO-009
+- **Status:** done
+- **Contract(s):** `course.ts` (`EXERCISE_TYPES` + `cloze`, `ClozeExerciseSchema`,
+  `ClozeGapSchema`, `ClozeOptionSchema`, `clozeCorrectSentence`), new `cloze.ts`
+  (`CLOZE_GAP_MARKER`, `splitClozeSentence`, `countClozeGaps`, `fillClozeSentence`),
+  `answer.ts` (`ClozeAnswerSchema`, `AnswerCheckResult.wrongGapIndexes?`,
+  `checkClozeAnswer`), `config.ts` (`CONTENT_RULES.cloze*`)
+- **Breaking?:** no. Additive; existing content validates unchanged; no persisted or
+  synced shape changes; `CONTRACTS_VERSION` stays 1. Decisions in
+  [ADR-009](adr/ADR-009-cloze-exercise.md).
+- **Affected features:** lessons only. `checking/checkAnswer.ts` got a delegating `cloze`
+  branch and `player/session-reducer.test.ts` a compile-only `cloze` case (both by the cto
+  in this branch, needed for the exhaustive switches to compile). LES-015 adds the
+  component and registry entry; until then the player leaves cloze exercises out
+  (unsupported type). Gamification, path, platform: none. Content: may use `cloze` only
+  from the release that contains LES-015.
+
 ### CTO-008: German course support (cto-initiated change notice)
 
 - **Requested by:** cto (owner direction, PD-030) · **Date:** 2026-11-12 · **Ticket:** CTO-008

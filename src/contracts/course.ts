@@ -10,6 +10,7 @@
  */
 import { z } from "zod";
 import { AudioPathSchema, findDuplicates, LanguageCodeSchema, SlugSchema } from "./common";
+import { CLOZE_GAP_MARKER, fillClozeSentence, splitClozeSentence } from "./cloze";
 import { CONTENT_RULES } from "./config";
 import { tokenizeAnswer } from "./text";
 
@@ -35,6 +36,7 @@ export const EXERCISE_TYPES = [
   "match_pairs",
   "listen",
   "speak",
+  "cloze",
 ] as const;
 export const ExerciseTypeSchema = z.enum(EXERCISE_TYPES);
 export type ExerciseType = z.infer<typeof ExerciseTypeSchema>;
@@ -221,12 +223,138 @@ export const SpeakExerciseSchema = z.strictObject({
 });
 export type SpeakExercise = z.infer<typeof SpeakExerciseSchema>;
 
+/** One choice for a cloze gap (learning language, e.g. "dem"). */
+export const ClozeOptionSchema = z.strictObject({
+  id: SlugSchema,
+  text: z
+    .string()
+    .trim()
+    .min(1)
+    .max(CONTENT_RULES.clozeOptionMaxLength)
+    .refine((text) => !text.includes("_"), {
+      message: "a cloze option must not contain underscores (they mark gaps)",
+    }),
+});
+export type ClozeOption = z.infer<typeof ClozeOptionSchema>;
+
+/** One gap: 2–4 options, exactly one of them correct. `gaps[i]` is the i-th marker. */
+export const ClozeGapSchema = z
+  .strictObject({
+    options: z
+      .array(ClozeOptionSchema)
+      .min(CONTENT_RULES.clozeMinOptions)
+      .max(CONTENT_RULES.clozeMaxOptions),
+    correctOptionId: SlugSchema,
+  })
+  .superRefine((value, ctx) => {
+    for (const id of findDuplicates(value.options.map((o) => o.id))) {
+      ctx.addIssue({ code: "custom", message: `duplicate option id "${id}"`, path: ["options"] });
+    }
+    for (const text of findDuplicates(value.options.map((o) => o.text.toLowerCase()))) {
+      ctx.addIssue({
+        code: "custom",
+        message: `duplicate option text "${text}"`,
+        path: ["options"],
+      });
+    }
+    if (!value.options.some((o) => o.id === value.correctOptionId)) {
+      ctx.addIssue({
+        code: "custom",
+        message: "correctOptionId must match one of the gap's option ids",
+        path: ["correctOptionId"],
+      });
+    }
+  });
+export type ClozeGap = z.infer<typeof ClozeGapSchema>;
+
+/** The longest option text of a gap (worst case for the CDS-13 length rule). */
+function longestOptionText(gap: { options: { text: string }[] }): string {
+  return gap.options.reduce(
+    (longest, o) => (o.text.length > longest.length ? o.text : longest),
+    "",
+  );
+}
+
+/**
+ * Fill the gap(s) of a learning-language sentence by choosing one option per gap
+ * (ADR-009, PD-049). A gender choice is a one-gap cloze: `"___ Tisch"` with der/die/das.
+ * Language: `sentence` and option texts are in the course's `learningLanguage`,
+ * `translation` in its `knownLanguage`.
+ */
+export const ClozeExerciseSchema = z
+  .strictObject({
+    ...exerciseBase,
+    type: z.literal("cloze"),
+    /** Learning-language sentence with 1–2 `CLOZE_GAP_MARKER`s ("___"), authored case. */
+    sentence: TextSchema,
+    /** Known-language meaning of the whole sentence, shown under it. */
+    translation: z.string().trim().min(1).max(CONTENT_RULES.clozeTranslationMaxLength),
+    /** Optional audio of the full, correctly filled sentence. */
+    audio: AudioClipSchema.optional(),
+    /** One entry per marker, in reading order. */
+    gaps: z.array(ClozeGapSchema).min(CONTENT_RULES.clozeMinGaps).max(CONTENT_RULES.clozeMaxGaps),
+  })
+  .superRefine((value, ctx) => {
+    const segments = splitClozeSentence(value.sentence);
+    const gapCount = segments.filter((s) => s.kind === "gap").length;
+    if (gapCount !== value.gaps.length) {
+      ctx.addIssue({
+        code: "custom",
+        message: `sentence has ${gapCount} gap marker(s) but gaps has ${value.gaps.length} entries`,
+        path: ["gaps"],
+      });
+    }
+    if (segments.some((s) => s.kind === "text" && s.text.includes("_"))) {
+      ctx.addIssue({
+        code: "custom",
+        message: `gap markers must be exactly "${CLOZE_GAP_MARKER}"; no other underscores`,
+        path: ["sentence"],
+      });
+    }
+    const textAround = segments.some((s) => s.kind === "text" && s.text.trim() !== "");
+    const adjacentGaps = segments.some(
+      (s, i) => s.kind === "gap" && segments[i + 1]?.kind === "gap",
+    );
+    const blankBetween = segments.some(
+      (s, i) =>
+        s.kind === "text" &&
+        s.text.trim() === "" &&
+        segments[i - 1]?.kind === "gap" &&
+        segments[i + 1]?.kind === "gap",
+    );
+    if (!textAround || adjacentGaps || blankBetween) {
+      ctx.addIssue({
+        code: "custom",
+        message: "gaps must be separated by text and the sentence needs text besides its gaps",
+        path: ["sentence"],
+      });
+    }
+    const filled = fillClozeSentence(value.sentence, value.gaps.map(longestOptionText));
+    if (filled.length > CONTENT_RULES.clozeSentenceMaxLength) {
+      ctx.addIssue({
+        code: "custom",
+        message: `sentence is ${filled.length} characters with its longest options; max ${CONTENT_RULES.clozeSentenceMaxLength}`,
+        path: ["sentence"],
+      });
+    }
+  });
+export type ClozeExercise = z.infer<typeof ClozeExerciseSchema>;
+
+/** The sentence with every gap filled by its correct option (authored case). */
+export function clozeCorrectSentence(exercise: Pick<ClozeExercise, "sentence" | "gaps">): string {
+  return fillClozeSentence(
+    exercise.sentence,
+    exercise.gaps.map((gap) => gap.options.find((o) => o.id === gap.correctOptionId)?.text ?? ""),
+  );
+}
+
 export const ExerciseSchema = z.discriminatedUnion("type", [
   MultipleChoiceExerciseSchema,
   WordBankTranslateExerciseSchema,
   MatchPairsExerciseSchema,
   ListenExerciseSchema,
   SpeakExerciseSchema,
+  ClozeExerciseSchema,
 ]);
 export type Exercise = z.infer<typeof ExerciseSchema>;
 

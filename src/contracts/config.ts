@@ -59,6 +59,17 @@ export const CONTENT_RULES = {
   courseMaxUnits: 150,
   /** Lessons per course manifest, across all units. */
   courseMaxLessons: 2000,
+  /** Cloze (ADR-009, CTO-009): 1–2 gaps marked with `CLOZE_GAP_MARKER`, 2–4 options each. */
+  clozeMinGaps: 1,
+  clozeMaxGaps: 2,
+  clozeMinOptions: 2,
+  clozeMaxOptions: 4,
+  /** Max characters of one cloze option (CDS-13: no tile longer than 24). */
+  clozeOptionMaxLength: 24,
+  /** Max characters of the sentence with every gap filled by its longest option (CDS-13). */
+  clozeSentenceMaxLength: 80,
+  /** Max characters of the known-language translation under the sentence. */
+  clozeTranslationMaxLength: 80,
   /** `playbackRate` used for the slow replay when no dedicated slow file exists. */
   slowPlaybackRate: 0.7,
 } as const;
