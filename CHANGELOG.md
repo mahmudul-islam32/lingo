@@ -16,10 +16,21 @@ the release where it becomes user-facing.
 
 ## [Unreleased]
 
-Built and merged for v0.3.0 (Gamification loop), but not yet mounted on the app's
-screens. PLT-009 wires them into Learn and the lesson route.
+## [0.5.0] - 2026-11-16
 
-### Added
+German A1 and A2 in one release: a guest picks German at onboarding, works through the
+skill path from A1 Unit 1 to the A2 checkpoint (130 original lessons), and keeps XP,
+streak, daily goal and hearts on the device. Existing Spanish guests keep their course.
+
+**Why v0.3.0 to v0.3.3 have no tags of their own (PD-054, same approach as ADR-007).**
+The milestones v0.3.0 (Gamification loop), v0.3.1 to v0.3.3 (German A1) and v0.5.0
+(German A2) were accepted one after another, but the last fixes for v0.3.x (LES-014, #55
+and FIX-003, #67) were merged after the A2 units (#60 to #63). No commit on `main` holds
+the v0.3.x milestones without A2, so they ship together as v0.5.0 from one release commit.
+The blocks below list the tickets of each milestone. Version `0.4.0` is not used; the
+accounts and sync milestone is renumbered v0.6.0.
+
+### Added: v0.3.0, Gamification loop
 
 - User progress from saved results: total XP, today's XP and local "today"
   (`computeUserProgress`, `useUserProgress`) [GAM-003] (#32, #41)
@@ -32,6 +43,41 @@ screens. PLT-009 wires them into Learn and the lesson route.
   [GAM-007] [GAM-009] (#43)
 - Streak and daily-goal rows with a celebration on the results screen [LES-010] (#44)
 - Hearts in the lesson player and an "out of hearts" screen [LES-009] (#45)
+- Learn shows the skill path, top bar, streak and daily goal; locked lessons can't be
+  opened by URL [PLT-009] (#49)
+
+### Added: v0.3.1 to v0.3.3, German A1
+
+- German course support: CEFR level layer, course registry with `en-de` as the default,
+  German answer normalisation and speech locale [CTO-008] (#52)
+- German in onboarding and Learn: German is the only course offered and is preselected;
+  Learn shows "German · A1"; Spanish guests keep Spanish [PLT-024] (#56)
+- Skill path with CEFR levels: collapsible level headers, unit headers, lessons numbered
+  within their unit, "Coming soon" levels [GAM-010] (#57)
+- German in the lesson player: de-DE speech fallback, tiles in their authored case, long
+  compounds wrap at 375 px [LES-014] (#55)
+- German A1: 12 units and 60 original lessons, including the A1 checkpoint
+  [CON-DE-A1-01..12] (#53)
+- German A1 QA pass: cross-unit consistency, word-order alternatives and more natural
+  sentences (course version 5) [CON-DE-A1-QA] (#54)
+
+### Added: v0.5.0, German A2
+
+- German A2: 14 units and 70 original lessons, including the A2 checkpoint
+  [CON-DE-A2-01..14] (#60, #61, #62, #63)
+- German A2 QA pass: answer fairness, grammar coverage and appendices (course version 16)
+  [CON-DE-A2-QA] (#64)
+- Lessons open on a tip card with a "Start" button [LES-013] (#58)
+
+### Fixed
+
+- Skill path node names contain their visible text and keep the Tab order (WCAG 2.5.3)
+  [FIX-002] (#50)
+- A failed hearts read counts as full hearts, so XP, streak, goal and path progress stay
+  visible [FIX-003] (#67)
+- A1 release-candidate playthrough at 375 × 667 with the German voice: all 20 lessons
+  played without a wrong answer, de-DE voice and 0.7 slow speed, the 9 changed listen
+  transcripts match, the no-voice fallback works [FIX-004] (#68)
 
 ## [0.2.0] - 2026-11-12
 
