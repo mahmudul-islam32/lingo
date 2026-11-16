@@ -312,4 +312,15 @@ describe("LessonPlayerError", () => {
     expect(onRetry).toHaveBeenCalledTimes(1);
     expect(onBack).toHaveBeenCalledTimes(1);
   });
+
+  it("shows a decorative Lumi ember (md) instead of the placeholder (FIX-005)", () => {
+    const { container } = render(<LessonPlayerError onRetry={vi.fn()} onBack={vi.fn()} />);
+    const lumi = container.querySelector("svg[data-pose]");
+    expect(lumi).toHaveAttribute("data-pose", "ember");
+    expect(lumi).toHaveAttribute("width", "96");
+    expect(lumi).toHaveAttribute("aria-hidden", "true");
+    expect(screen.queryByTestId("lumi-ember-placeholder")).not.toBeInTheDocument();
+    expect(screen.queryByRole("img")).not.toBeInTheDocument();
+    expect(screen.getByRole("heading", { name: "We couldn't load this lesson." })).toHaveFocus();
+  });
 });
