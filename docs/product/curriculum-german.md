@@ -1,9 +1,10 @@
 # German curriculum: A1 → C1 (course `en-de`)
 
-**Owner:** pm · **Date:** 2026-11-13 · **Status:** v2 (A1 and A2 in full detail; B1–C1 as an
-outline) · **Related:** `market-analysis-german.md`, PD-030 to PD-052, tickets CTO-008,
-PLT-024, GAM-010, LES-014, CON-DE-A1-01 … CON-DE-A1-12, CON-DE-A1-QA, CON-DE-A2-01 …
-CON-DE-A2-14, CON-DE-A2-QA, CTO-009, LES-015, LES-013
+**Owner:** pm · **Date:** 2026-11-16 · **Status:** v3 (A1 and A2 in full detail; B1 planned
+in §4c; B2–C1 as an outline) · **Related:** `market-analysis-german.md`, PD-030 to PD-063,
+tickets CTO-008, PLT-024, GAM-010, LES-014, CON-DE-A1-01 … CON-DE-A1-12, CON-DE-A1-QA,
+CON-DE-A2-01 … CON-DE-A2-14, CON-DE-A2-QA, CTO-009, LES-015, LES-013, CON-DE-B1-PLAN,
+CON-DE-B1-01 … CON-DE-B1-16, CON-DE-B1-QA
 
 All lessons, sentences, scenarios, names and themes are **original**, written for Polyglow.
 Nothing is copied or adapted from any app, textbook, exam, word list or course. Can-do
@@ -42,13 +43,14 @@ receptive vocabulary (to verify against public CEFR profile resources, without c
 |---|---|---|---|---|---|
 | A1 · Beginner | 12 | 60 | ~400 (375 appendix entries, CON-DE-A1-QA) | ~400 | v0.3.1 – v0.3.3 |
 | A2 · Elementary | 14 | 70 | ~460 appendix entries, ~600+ word forms (PD-046) | ~1,000 forms | v0.5.0 |
-| B1 · Intermediate | 16 | 80 | ~1,000 | ~2,000 | v1.1.0 |
+| B1 · Intermediate | 16 | 80 | ~510 appendix entries (planned 508), ~800 word forms; ~150 receptive words later with reading passages (PD-057) | ~1,350 entries, ~1,800+ forms | v1.1.0 |
 | B2 · Upper intermediate | 18 | 90 | ~1,500 | ~3,500 | v1.2.0 |
 | C1 · Advanced | 18 | 90 | ~1,500 | ~5,000 | v1.3.0 |
 | **Total** | **78** | **390** | | **~5,000** | |
 
-B1 and above need exercise types we don't have yet (cloze, typed answers, reading passages,
-grammar notes; §8). Their unit count may change once those types exist.
+B2 and above need exercise types we don't have yet (cloze, typed answers, reading passages,
+grammar notes; §6). Their unit count may change once those types exist. B1 is planned with
+today's four types; the new types are additive follow-ups (§4c tech needs, PD-060).
 
 ---
 
@@ -105,8 +107,9 @@ grammar notes; §8). Their unit count may change once those types exist.
   complaints, health system and insurance, media and news, environment, education and
   further training, relationships, culture and leisure, life in Germany (orientation-course
   style topics, our own content).
-- **Units:** 16. **New items:** ~1,000. Exam-readiness milestone: B1 checkpoint (the level
-  most immigration rules ask for, market analysis §2.2).
+- **Units:** 16. **New items:** ~510 appendix entries (PD-057). Ends with the B1 checkpoint
+  (the level most immigration rules ask for, market analysis §2.2; never claimed in product
+  copy, PD-035). **Full plan:** §4c.
 
 ### B2 · Upper intermediate
 - **Can-do:** follow longer talks and discussions; argue for and against; understand
@@ -763,6 +766,393 @@ unit and at least 3 in later units for every row.
 
 ---
 
+## 4c. B1 plan (16 units × 5 lessons)
+
+**Status:** plan (CON-DE-B1-PLAN, 2026-11-16, PD-056 … PD-063). Same structure and rules as A1
+and A2 (§1, §7), plus the B1 additions to the content standard (CDS-20 … CDS-28, §7). Ids:
+unit `de-b1-u01`, lesson `de-b1-u01-l1-<slug>`, exercise `de-b1-u01-l1-ex01`; audio
+`/audio/de/b1/u01/<exercise-id>.mp3`. Each unit ticket (`CON-DE-B1-NN`) holds the full,
+**fixed** per-lesson vocabulary appendix. The appendices are the vocabulary contract between
+the 4 parallel writers (PD-052, PD-062): a lesson may use A1, A2 (appendices plus the
+CON-DE-A1-QA and CON-DE-A2-QA additions), the appendices of all earlier B1 units, earlier
+lessons of its own unit and the allowed extras of CDS-3 / CDS-16 / CDS-22, nothing else.
+
+**Level goal.** B1 is the level of the integration-course final test and of most
+long-term-residence rules (market analysis §2.2; we never claim this in product copy,
+PD-035). The learner can deal with work, housing, offices, health and shopping in German,
+tell a story in the past, explain wishes, plans and problems, give and justify an opinion,
+and understand the main point of a short letter, notice or local news item.
+
+**Size (PD-057):** 16 units, 80 lessons, **508 planned appendix entries** (~800 word forms
+once regular Präteritum, Konjunktiv II, zu-infinitive, passive, case and ending forms are
+counted). The earlier "~1,000 items" figure included receptive vocabulary, which needs
+reading passages (tech item B1-T3 below). The CDS-3 ranges stay: L1–L4 5–8 items, L5 2–6,
+the checkpoint 2. Cumulative after B1: ~1,350 entries, ~1,800+ word forms.
+
+**Why this order (PD-056).** Every unit introduces one or two grammar points and recycles
+earlier ones (coverage map below). Polite Konjunktiv II and indirect questions come first
+(U1), because learners need them in every later service scenario. The Präteritum follows
+(U2) so that stories, biographies and news can use it from U3 on. Relative clauses come in
+two steps: nominative and accusative (U3), then dative and with prepositions (U6, together
+with the dative adjective endings, so U6 is the "dative unit"). Verbs with prepositions and
+`da- / wo-` compounds (U4) come before the zu-infinitive (U5), so that `Ich freue mich
+darauf, … zu …` can be recycled in U6 and U10. The n-declension (U7) only needs the cases
+learners already know. `obwohl` and `damit` (U8) contrast with A2's `trotzdem` and U5's
+`um … zu`. The passive (U9) uses `werden` and participles from A2; its Präteritum (U12)
+waits for news texts, together with the Plusquamperfekt and `nachdem / bevor`. Konjunktiv II
+for wishes and hypotheticals (U10) builds on the U1 chunks. The genitive (U11) comes with
+official letters, where it is most frequent, and before the full adjective system (U13).
+Two-part connectors (U14) and the remaining conjunctions `während`, `seitdem`, `bis` (U15)
+close the clause system. U16 adds `ohne … zu / statt … zu` and Futur I with `wohl`, then the
+**B1 checkpoint** (U16 L5).
+
+**Gap words (PD-062).** These high-frequency words were never taught in A1 or A2 (checked
+against all 26 appendices and both QA tickets), so writers must not use them before the
+lesson that lists them. They are placed early:
+`fragen`, `erklären`, `verstehen`, `mal`, `bekommen`, `bringen`, `nur` (U1 L1–L2); `kennen`,
+`genau`, `unser` (U1 L3); `man`, `meinen` (U1 L4); `also` (U1 L5); `früher`, `damals`, `leben`
+(U2 L1); `zuerst`, `danach`, `plötzlich`, `endlich`, `beginnen`, `der Anfang`, `das Ende`
+(U2 L3); `wirklich`, `erst` (U2 L4); `kennenlernen`, `heiraten`, `wusste`, `dachte` (U2 L5);
+`der Mensch`, `die Leute`, `die Person` (U3 L1); `jemand`, `niemand`, `alle`, `jeder`, `beide`,
+`allein`, `ein paar` (U3 L2); `andere` (U3 L3); `die Arbeit`, `fertig`, `wieder` (U4 L1);
+`schlecht`, `falsch`, `eigentlich`, `ganz` (U4 L4); `natürlich` (U4 L5). Still **not taught
+before their unit:** `sondern` (U14 L2), `damit` in any meaning (U8 L4), `während` (U11 L3),
+`die Hand` (U7 L3), `der Preis` (U13 L4), `öffnen / schließen` as verbs (U9 L3), `reisen`
+(U10 L2), `die Rechnung` (U8 L1), `der Weg` (U16 L5; A2 avoided it too).
+Each unit ticket adds its own "not yet taught" list.
+
+### Unit list
+
+| Unit | Title (German theme) | Ticket | Grammar introduced | Wave / writer |
+|---|---|---|---|---|
+| U1 | "Could You Help Me?" (Könnten Sie mir helfen?) | CON-DE-B1-01 | Konjunktiv II for politeness (`könnten / würden Sie`, `hätte gern`, `wäre`); indirect W-questions | 1 / 1 |
+| U2 | "Life Stories" (Lebensgeschichten) | CON-DE-B1-02 | Präteritum (regular, 14 common irregular forms); `als` vs `wenn` in the past | 1 / 2 |
+| U3 | "People Around Me" (Menschen um mich herum) | CON-DE-B1-03 | Relative clauses: nominative and accusative | 1 / 3 |
+| U4 | "Everyday Work" (Arbeitsalltag) | CON-DE-B1-04 | Verbs with prepositions; `wo-` and `da-` compounds | 1 / 4 |
+| U5 | "Learning for Life" (Lernen und Weiterbildung) | CON-DE-B1-05 | Infinitive with `zu`; `um … zu` | 2 / 1 |
+| U6 | "Renting a Flat" (Wohnungssuche) | CON-DE-B1-06 | Relative clauses: dative and with prepositions, `wo`; adjective endings in the dative | 2 / 2 |
+| U7 | "Doctors and Hospitals" (Arzt und Krankenhaus) | CON-DE-B1-07 | n-declension; dative reflexive pronouns (`Ich putze mir die Zähne.`) | 2 / 3 |
+| U8 | "Orders and Complaints" (Bestellen und Reklamieren) | CON-DE-B1-08 | `obwohl`; `damit` vs `um … zu` | 2 / 4 |
+| U9 | "Environment and the City" (Umwelt und Stadt) | CON-DE-B1-09 | Passive present (with `von`); `lassen` + infinitive | 3 / 1 |
+| U10 | "If I Had More Time" (Kultur, Wünsche und Träume) | CON-DE-B1-10 | Konjunktiv II for wishes, hypotheticals and advice (`würde`, `hätte`, `wäre`, `könnte`, `sollte`) | 3 / 2 |
+| U11 | "Letters from the Authorities" (Post vom Amt) | CON-DE-B1-11 | Genitive basics; `wegen`, `trotz`, `während` + genitive | 3 / 3 |
+| U12 | "News and Reports" (Nachrichten und Berichte) | CON-DE-B1-12 | `wurde`; passive Präteritum; Plusquamperfekt; `nachdem`, `bevor` | 3 / 4 |
+| U13 | "Food and Markets" (Essen und Märkte) | CON-DE-B1-13 | Adjective endings without article (all cases) and in the genitive; comparative and superlative before nouns | 4 / 1 |
+| U14 | "Living Together" (Zusammenleben) | CON-DE-B1-14 | Two-part connectors (`nicht nur … sondern auch`, `sowohl … als auch`, `entweder … oder`, `weder … noch`, `zwar … aber`) | 4 / 2 |
+| U15 | "Discussing and Deciding" (Diskutieren und entscheiden) | CON-DE-B1-15 | `während`, `seitdem`, `bis` as conjunctions; `einerseits … andererseits`; opinion phrases | 4 / 3 |
+| U16 | "Next Steps" (Nächste Schritte) + B1 checkpoint | CON-DE-B1-16 | `ohne … zu`, `statt … zu`; Futur I with `wohl` | 4 / 4 |
+
+### Unit 1 · "Could You Help Me?" (Könnten Sie mir helfen?) · `de-b1-u01` · CON-DE-B1-01
+- **Life in DACH:** asking for help at a library desk, finding a room in a large office
+  building, calling a service hotline and being put on hold.
+- **Can-do:** I can make polite requests, ask politely for information with indirect
+  questions, say that I didn't understand and ask someone to repeat or explain.
+- **Grammar:** Konjunktiv II as polite chunks: `Könnten Sie …?`, `Würden Sie …?`, `Ich
+  hätte gern …`, `Das wäre …` (Sie / du forms only; the full paradigm is U10); **indirect
+  W-questions** (`Können Sie mir sagen, wo der Eingang ist?`, `Wissen Sie, wann …?`), verb at
+  the end, extending A2's `ob`.
+- **Key words:** könnten Sie, würden Sie, verstehen, erklären, fragen, ich hätte gern,
+  bekommen, nur, kennen, unser, man, meinen.
+- **Lessons:** 1 `de-b1-u01-l1-could-you` "Could You…?" · 2 `de-b1-u01-l2-id-like` "I'd
+  Like…" · 3 `de-b1-u01-l3-do-you-know-where` "Do You Know Where…?" · 4
+  `de-b1-u01-l4-sorry` "Sorry, I Didn't Understand" · 5 `de-b1-u01-l5-hotline` "Scenario:
+  Calling a Hotline".
+
+### Unit 2 · "Life Stories" (Lebensgeschichten) · `de-b1-u02` · CON-DE-B1-02
+- **Life in DACH:** a grandmother's story of the village she grew up in, a short biography
+  in a neighbourhood newsletter, a couple telling how they met.
+- **Can-do:** I can tell a short story in the past in written style, understand a short
+  biography, and say when something happened once (`als`) or every time (`wenn`).
+- **Grammar:** **Präteritum** of regular verbs (`lebte`, `arbeitete`); 14 common irregular
+  and mixed forms as appendix items (`ging`, `kam`, `sah`, `fuhr`, `gab`, `fand`, `nahm`,
+  `blieb`, `begann`, `schrieb`, `wusste`, `dachte`; U3 adds `trug`, `half`); Perfekt in speech
+  vs Präteritum in writing (CDS-23); **`als` vs `wenn`** in the past.
+- **Key words:** früher, damals, leben, ging, kam, gab, zuerst, danach, plötzlich, als,
+  jedes Mal, kennenlernen.
+- **Lessons:** 1 `de-b1-u02-l1-back-then` "Back Then" · 2 `de-b1-u02-l2-went-came-saw`
+  "Went, Came, Saw" · 3 `de-b1-u02-l3-first-then` "First, Then, Finally" · 4
+  `de-b1-u02-l4-when-i-was-a-child` "When I Was a Child" · 5 `de-b1-u02-l5-how-we-met`
+  "Scenario: How We Met".
+
+### Unit 3 · "People Around Me" (Menschen um mich herum) · `de-b1-u03` · CON-DE-B1-03
+- **Life in DACH:** describing colleagues and neighbours, a friend who helps with the move,
+  finding people with the same hobby through a local group.
+- **Can-do:** I can describe people's character, say who someone is with a relative clause,
+  talk about friendship and say what I do with friends.
+- **Grammar:** **relative clauses, nominative and accusative** (`der Kollege, der …`, `die
+  Freundin, die ich …`, `der Mann, den …`); comma and verb at the end; position after the
+  noun or after the final verb (CDS-24.3); indefinite pronouns (`jemand`, `niemand`,
+  `alle`, `jeder`).
+- **Key words:** freundlich, ehrlich, der Mensch, die Leute, jemand, alle, jeder, die
+  Freundschaft, sich verstehen, gemeinsam, der Umzug, tragen.
+- **Lessons:** 1 `de-b1-u03-l1-what-are-they-like` "What Are They Like?" · 2
+  `de-b1-u03-l2-the-man-who` "The Man Who…" · 3 `de-b1-u03-l3-the-friend-i-met` "The Friend
+  I Met" · 4 `de-b1-u03-l4-shared-hobbies` "Shared Hobbies" · 5 `de-b1-u03-l5-moving-help`
+  "Scenario: Help with the Move".
+
+### Unit 4 · "Everyday Work" (Arbeitsalltag) · `de-b1-u04` · CON-DE-B1-04
+- **Life in DACH:** a team meeting, a shift plan, a printer that won't print, small talk at
+  the coffee machine before the end of the working day.
+- **Can-do:** I can talk about my tasks, say what I'm waiting for, thinking about or looking
+  forward to, ask what someone is talking about, and report a problem at work.
+- **Grammar:** **verbs with fixed prepositions** (`warten auf`, `sich freuen auf / über`,
+  `denken an`, `sprechen über`, `sich kümmern um`, `sich interessieren für`, `teilnehmen
+  an`); **`wo-` compounds** for questions about things (`Worauf wartest du?`) and **`da-`
+  compounds** in answers (`Ich warte darauf.`); people take preposition + pronoun (`auf
+  ihn`).
+- **Key words:** die Arbeit, die Aufgabe, die Besprechung, warten auf, sich freuen auf,
+  sich kümmern um, worauf, darauf, der Fehler, schlecht, falsch, der Feierabend.
+- **Lessons:** 1 `de-b1-u04-l1-tasks` "Tasks at Work" · 2 `de-b1-u04-l2-waiting-for`
+  "Waiting for an Answer" · 3 `de-b1-u04-l3-what-about` "What Are You Talking About?" · 4
+  `de-b1-u04-l4-printer-problem` "The Printer Doesn't Work" · 5
+  `de-b1-u04-l5-coffee-machine` "Scenario: At the Coffee Machine".
+
+### Unit 5 · "Learning for Life" (Lernen und Weiterbildung) · `de-b1-u05` · CON-DE-B1-05
+- **Life in DACH:** an evening class, further training paid for by the employer, a
+  learning plan for the next exam, tips from classmates.
+- **Can-do:** I can talk about courses and training, say what I plan, try, promise or stop
+  doing, say why I'm doing something, and give learning tips.
+- **Grammar:** **infinitive with `zu`** after verbs (`vorhaben`, `versuchen`, `aufhören`,
+  `vergessen`, `versprechen`) and after `Es ist wichtig / schwer / sinnvoll, …` and `Ich
+  habe keine Zeit / Lust, …`; separable verbs (`anzufangen`); **`um … zu`** for purpose.
+- **Key words:** die Weiterbildung, der Abendkurs, das Thema, vorhaben, versuchen,
+  aufhören, die Möglichkeit, sinnvoll, um … zu, der Grund, der Fortschritt, sich merken.
+- **Lessons:** 1 `de-b1-u05-l1-courses` "Courses and Training" · 2 `de-b1-u05-l2-i-plan-to`
+  "I Plan to…" · 3 `de-b1-u05-l3-its-important-to` "It's Important to Practise" · 4
+  `de-b1-u05-l4-in-order-to` "In Order to…" · 5 `de-b1-u05-l5-learning-tips` "Scenario:
+  Tips for Learning".
+
+### Unit 6 · "Renting a Flat" (Wohnungssuche) · `de-b1-u06` · CON-DE-B1-06
+- **Life in DACH:** reading flat ads (cold and warm rent, deposit), a shared flat, a quiet
+  courtyard, mould in the bathroom, a written complaint to the property management.
+- **Can-do:** I can understand a flat ad, describe the flat and area I want, say which
+  people and places I mean with relative clauses, and report a problem in writing.
+- **Grammar:** **dative relative pronouns** (`dem`, `der`, `dem`, `denen`); **preposition +
+  relative pronoun** (`die Wohnung, in der ich wohne`) and `wo` for places; **adjective
+  endings in the dative** (`mit einem großen Balkon`, `in einer ruhigen Gegend`, `mit den
+  netten Nachbarn`); `da-` compounds with a clause recycled (`Ich warte darauf, dass …`).
+- **Key words:** die Anzeige, die Kaltmiete, die Kaution, die Lage, der Mieter, denen, die
+  Gegend, der Hof, der Schaden, der Schimmel, die Reparatur, die Beschwerde.
+- **Lessons:** 1 `de-b1-u06-l1-flat-ads` "Flat Ads" · 2 `de-b1-u06-l2-the-landlord`
+  "The Landlord I Wrote To" · 3 `de-b1-u06-l3-big-balcony` "A Flat with a Big Balcony" · 4
+  `de-b1-u06-l4-the-room-where` "The Room Where It's Damp" · 5
+  `de-b1-u06-l5-complaint-letter` "Scenario: A Letter About the Mould".
+
+### Unit 7 · "Doctors and Hospitals" (Arzt und Krankenhaus) · `de-b1-u07` · CON-DE-B1-07
+- **Life in DACH:** seeing the family doctor first, a referral to a specialist, a visit to
+  A&E, visiting hours on a ward, a call to the health insurer about a new address.
+- **Can-do:** I can describe symptoms in more detail, understand what the doctor asks me to
+  do, talk about a small injury, and handle a short call with my health insurer.
+- **Grammar:** **n-declension** (`der Patient`, `den / dem Patienten`; also `der Kunde`,
+  `der Junge`, `der Student` and the known `der Kollege`, `der Nachbar`, `der Herr`, `der
+  Mensch`); **dative reflexive pronouns** with a second object (`Ich wasche mir die Hände.`,
+  `Er hat sich den Arm gebrochen.`).
+- **Key words:** das Symptom, stark, schwindlig, der Patient, der Hausarzt, die
+  Überweisung, das Rezept, die Hand, sich die Zähne putzen, das Krankenhaus, die
+  Notaufnahme, die Versicherung.
+- **Lessons:** 1 `de-b1-u07-l1-symptoms` "Symptoms" · 2 `de-b1-u07-l2-the-patient` "The
+  Patient" · 3 `de-b1-u07-l3-wash-your-hands` "Wash Your Hands" · 4 `de-b1-u07-l4-hospital`
+  "At the Hospital" · 5 `de-b1-u07-l5-insurance-call` "Scenario: A Call to the Health
+  Insurer".
+
+### Unit 8 · "Orders and Complaints" (Bestellen und Reklamieren) · `de-b1-u08` · CON-DE-B1-08
+- **Life in DACH:** an online order, a parcel left with a neighbour, a damaged device, a
+  complaint to customer service, cancelling a mobile phone contract.
+- **Can-do:** I can order online, complain about a faulty product, ask for my money back,
+  say what I do so that something happens, and express a contrast with `obwohl`.
+- **Grammar:** **`obwohl`** (verb at the end; contrasted with A2 `trotzdem`); **`damit`**
+  (different subject) vs **`um … zu`** (same subject, U5); clause-first orders accepted
+  (CDS-24.2).
+- **Key words:** bestellen, die Lieferung, die Rechnung, obwohl, beschädigt, sich
+  beschweren über, reklamieren, das Gerät, damit, abholen, kündigen, bestätigen.
+- **Lessons:** 1 `de-b1-u08-l1-ordering-online` "Ordering Online" · 2
+  `de-b1-u08-l2-although` "Although It Was New" · 3 `de-b1-u08-l3-complaint` "Making a
+  Complaint" · 4 `de-b1-u08-l4-so-that` "So That It Arrives Today" · 5
+  `de-b1-u08-l5-cancelling` "Scenario: Cancelling a Contract".
+
+### Unit 9 · "Environment and the City" (Umwelt und Stadt) · `de-b1-u09` · CON-DE-B1-09
+- **Life in DACH:** sorting glass, paper and organic waste, returning bottles for the
+  deposit, a new cycle path, getting a bike repaired, a neighbourhood clean-up.
+- **Can-do:** I can say what is done and by whom, talk about what I do for the environment,
+  understand simple notices about building work, and say what I have done by someone else.
+- **Grammar:** **passive present** (`Das Glas wird gesammelt.`, `Die Brücke wird von der
+  Stadt gebaut.`) and `man` as the active alternative; **`lassen` + infinitive** (`Ich lasse
+  mein Rad reparieren.`).
+- **Key words:** die Umwelt, sparen, der Strom, das Glas, das Pfand, sammeln, bauen, die
+  Baustelle, der Verkehr, die Luft, lassen, mitmachen.
+- **Lessons:** 1 `de-b1-u09-l1-environment` "The Environment" · 2 `de-b1-u09-l2-is-sorted`
+  "The Rubbish Is Sorted" · 3 `de-b1-u09-l3-built-by` "Built by the City" · 4
+  `de-b1-u09-l4-by-bike` "By Bike or by Bus?" · 5 `de-b1-u09-l5-clean-up` "Scenario: The
+  Neighbourhood Clean-Up".
+
+### Unit 10 · "If I Had More Time" (Kultur, Wünsche und Träume) · `de-b1-u10` · CON-DE-B1-10
+- **Life in DACH:** museum and theatre evenings, a sold-out concert in the park, dreaming of
+  a trip around the world, giving a friend advice.
+- **Can-do:** I can talk about culture and leisure, say what I would do if things were
+  different, express wishes and give advice.
+- **Grammar:** **Konjunktiv II** in full: `würde` + infinitive (all persons), `hätte`,
+  `wäre`, `könnte` (all persons); `wenn` + Konjunktiv II (`Wenn ich mehr Zeit hätte, würde
+  ich …`); advice with `sollte` and `an deiner Stelle`.
+- **Key words:** die Kultur, das Museum, das Konzert, die Ausstellung, würde, reisen, der
+  Wunsch, hätte, wäre, sollte, der Rat, ausverkauft.
+- **Lessons:** 1 `de-b1-u10-l1-culture` "Out and About" · 2 `de-b1-u10-l2-i-would-love-to`
+  "I Would Love To" · 3 `de-b1-u10-l3-if-i-had` "If I Had More Time" · 4
+  `de-b1-u10-l4-if-i-were-you` "If I Were You" · 5 `de-b1-u10-l5-concert` "Scenario: A
+  Concert in the Park".
+
+### Unit 11 · "Letters from the Authorities" (Post vom Amt) · `de-b1-u11` · CON-DE-B1-11
+- **Life in DACH:** an invented letter from the citizens' office about a new ID card, a
+  reference number and enclosures, a payment reminder, a call to the clerk in charge.
+- **Can-do:** I can understand the main point of a short official letter and what I am
+  asked to do, say whose documents are missing, give reasons with `wegen`, and ask about a
+  letter on the phone.
+- **Grammar:** **genitive basics**: `des / eines / meines` + `-(e)s`, `der / einer / meiner`;
+  `wessen?`; names with `-s` (`Annas Pass`); **`wegen`, `trotz`, `während` + genitive**;
+  `von` + dative accepted as the spoken alternative (CDS-23.7).
+- **Key words:** die Behörde, das Amt, der Bescheid, das Schreiben, die Anlage, wessen, der
+  Antrag, beantragen, wegen, trotz, die Mahnung, überweisen.
+- **Lessons:** 1 `de-b1-u11-l1-official-letters` "Official Letters" · 2 `de-b1-u11-l2-whose`
+  "Whose Form Is It?" · 3 `de-b1-u11-l3-because-of` "Because of the Delay" · 4
+  `de-b1-u11-l4-reminder` "A Payment Reminder" · 5 `de-b1-u11-l5-calling-the-office`
+  "Scenario: Calling About a Letter".
+
+### Unit 12 · "News and Reports" (Nachrichten und Berichte) · `de-b1-u12` · CON-DE-B1-12
+- **Life in DACH:** invented local news: a town hall renovated, a library reopened, a city
+  festival, firefighters rescuing a cat, the local club's season.
+- **Can-do:** I can understand the main points of a short local news report, say what was
+  done, say what had happened before something else, and retell a local event.
+- **Grammar:** **`wurde`** (Präteritum of `werden`: "became" and passive); **passive
+  Präteritum** (`Die Bibliothek wurde gestern eröffnet.`); **Plusquamperfekt** (`hatte …
+  gegessen`, `war … gefahren`); **`nachdem`** and **`bevor`**.
+- **Key words:** die Meldung, berichten, aktuell, wurde, die Eröffnung, das Gebäude,
+  nachdem, bevor, stattfinden, der Unfall, die Feuerwehr, der Erfolg.
+- **Lessons:** 1 `de-b1-u12-l1-local-news` "Local News" · 2 `de-b1-u12-l2-was-opened` "It
+  Was Opened Yesterday" · 3 `de-b1-u12-l3-after-we-had` "After We Had Eaten" · 4
+  `de-b1-u12-l4-what-happened` "What Happened?" · 5 `de-b1-u12-l5-club-newsletter`
+  "Scenario: The Club Newsletter".
+
+### Unit 13 · "Food and Markets" (Essen und Märkte) · `de-b1-u13` · CON-DE-B1-13
+- **Life in DACH:** the weekly market, regional and seasonal produce, cooking for a shared
+  team lunch, ordering vegetarian and vegan dishes.
+- **Can-do:** I can describe food and taste, follow and give a simple recipe, compare
+  products and offers, and order with special wishes.
+- **Grammar:** **adjective endings without an article** in all cases (`frisches Brot`, `mit
+  frischem Gemüse`, `frische Tomaten`) and **in the genitive** (`wegen des schlechten
+  Wetters`); **comparative and superlative before nouns** (`der günstigere Preis`, `das
+  beste Brot`). Completes the adjective system (A2 U6, B1 U6).
+- **Key words:** der Wochenmarkt, frisch, regional, probieren, scharf, schmecken, das
+  Rezept (recipe), die Zutaten, schneiden, günstig, der Preis, vegetarisch.
+- **Lessons:** 1 `de-b1-u13-l1-market` "At the Weekly Market" · 2
+  `de-b1-u13-l2-fresh-bread` "Fresh Bread, Strong Coffee" · 3
+  `de-b1-u13-l3-fresh-vegetables` "With Fresh Vegetables" · 4 `de-b1-u13-l4-the-cheaper-one`
+  "The Cheaper Offer" · 5 `de-b1-u13-l5-team-lunch` "Scenario: The Team Lunch".
+
+### Unit 14 · "Living Together" (Zusammenleben) · `de-b1-u14` · CON-DE-B1-14
+- **Life in DACH:** volunteering with senior citizens, house rules for a shared courtyard,
+  friendships across cultures, organising a street party.
+- **Can-do:** I can talk about volunteering and community life, link two alternatives or
+  two things that are both true or both not true, and talk about differences and
+  similarities between cultures with respect.
+- **Grammar:** **two-part connectors**: `nicht nur … sondern auch`, `sowohl … als auch`,
+  `entweder … oder`, `weder … noch`, `zwar … aber`; `sondern` after a negation.
+- **Key words:** das Ehrenamt, sich engagieren, unterstützen, sondern, sowohl … als auch,
+  die Gemeinschaft, entweder … oder, weder … noch, die Regel, der Unterschied, ähnlich,
+  das Straßenfest.
+- **Lessons:** 1 `de-b1-u14-l1-volunteering` "Volunteering" · 2 `de-b1-u14-l2-not-only`
+  "Not Only… but Also" · 3 `de-b1-u14-l3-either-or` "Either… or…" · 4
+  `de-b1-u14-l4-cultures` "Different Cultures" · 5 `de-b1-u14-l5-street-party` "Scenario:
+  The Street Party".
+
+### Unit 15 · "Discussing and Deciding" (Diskutieren und entscheiden) · `de-b1-u15` · CON-DE-B1-15
+- **Life in DACH:** a team deciding about working from home, a family weighing city against
+  countryside, a house meeting about bikes in the courtyard.
+- **Can-do:** I can give and justify my opinion, agree and disagree politely, weigh pros and
+  cons, and say what happens at the same time, since or until something happens.
+- **Grammar:** **`während`** (while / whereas), **`seitdem`** and **`bis`** as conjunctions
+  (verb at the end); **`einerseits … andererseits`**; opinion phrases (`Ich bin der Meinung,
+  dass …`, `Ich bin dafür / dagegen.`).
+- **Key words:** der Meinung sein, dafür / dagegen sein, zustimmen, das Argument, der
+  Vorteil, der Nachteil, einerseits … andererseits, während, seitdem, bis, sich gewöhnen an,
+  der Kompromiss.
+- **Lessons:** 1 `de-b1-u15-l1-opinions` "Opinions" · 2 `de-b1-u15-l2-pros-and-cons` "Pros
+  and Cons" · 3 `de-b1-u15-l3-while` "While Some Work…" · 4 `de-b1-u15-l4-since-until`
+  "Since and Until" · 5 `de-b1-u15-l5-house-meeting` "Scenario: The House Meeting".
+
+### Unit 16 · "Next Steps" (Nächste Schritte) · `de-b1-u16` · CON-DE-B1-16
+- **Life in DACH:** two years in: a career-advice appointment, applying for a job with more
+  responsibility, the interview, looking ahead; the B1 checkpoint.
+- **Can-do:** I can talk about my career plans and experience, present my strengths in an
+  interview, say what I do without or instead of doing something, make assumptions about the
+  future, and use all of B1 in one story.
+- **Grammar:** **`ohne … zu`** and **`statt … zu`**; **Futur I with `wohl`** for
+  assumptions (`Sie wird wohl zu Hause sein.`); all B1 grammar recycled.
+- **Key words:** der Arbeitgeber, die Berufserfahrung, die Beratung, ohne … zu, statt … zu,
+  die Verantwortung, die Herausforderung, wohl, vermutlich, sich Sorgen machen, der Weg,
+  durchhalten.
+- **Lessons:** 1 `de-b1-u16-l1-career` "Career Plans" · 2 `de-b1-u16-l2-without-instead`
+  "Without Asking, Instead of Waiting" · 3 `de-b1-u16-l3-interview` "The Interview" · 4
+  `de-b1-u16-l4-probably` "That's Probably Right" · 5 `de-b1-u16-l5-b1-checkpoint` "B1
+  Checkpoint: Your Next Steps" (16 exercises, one per B1 unit, CDS-28).
+
+### B1 grammar coverage map
+
+"Recycled in" is a **duty** (CDS-25): each listed unit ticket names the point in its
+recycling criterion and uses it in at least 2 exercises, so every row reaches the QA
+threshold (≥ 5 in the introducing unit, ≥ 3 in later units) by plan, not by luck (the A2 QA
+had to fix 4 rows with 0–1 later uses).
+
+| Grammar point | Introduced | Recycled in (duty) |
+|---|---|---|
+| Konjunktiv II politeness chunks (`könnten / würden Sie`, `hätte gern`, `wäre`) | U1 L1–L2 | U4, U7, U8, U11 |
+| Indirect W-questions | U1 L3 | U5, U11, U12 |
+| Präteritum (regular + listed irregular) | U2 L1–L3 | U3 L5, U9, U12, U16 |
+| `als` vs `wenn` (past) | U2 L4 | U3, U12, U16 |
+| Relative clauses nom. / acc. | U3 L2–L3 | U4, U5, U8, U13, U16 |
+| Verbs with prepositions, `wo- / da-` compounds | U4 L2–L3 | U5, U6, U9, U14, U15 |
+| Infinitive with `zu` | U5 L2–L3 | U6, U8, U10, U16 |
+| `um … zu` | U5 L4 | U8 (vs `damit`), U9, U13 |
+| Relative clauses dat. / with prepositions, `wo` | U6 L2, L4 | U7, U11, U14 |
+| Adjective endings in the dative | U6 L3 | U7, U10, U13 |
+| n-declension | U7 L2 | U8, U12, U14, U16 |
+| Dative reflexive pronouns | U7 L3 | U13, U16 |
+| `obwohl` | U8 L2 | U10, U14, U15 |
+| `damit` | U8 L4 | U9, U14, U16 |
+| Passive present (+ `von`) | U9 L2–L3 | U11, U12, U13 |
+| `lassen` + infinitive | U9 L4 | U11, U13 |
+| Konjunktiv II wishes / hypotheticals (`wenn … hätte`, `würde`) | U10 L2–L3 | U14, U15, U16 |
+| `sollte`, `an deiner Stelle` | U10 L4 | U13, U15 |
+| Genitive, `wegen / trotz / während` + gen. | U11 L2–L3 | U12, U13, U15 |
+| `wurde`, passive Präteritum | U12 L2 | U14, U16 |
+| Plusquamperfekt, `nachdem / bevor` | U12 L3 | U14, U16 |
+| Adjective endings without article, genitive endings, attributive comparison | U13 L2–L4 | U14, U16 |
+| Two-part connectors | U14 L2–L3 | U15, U16 |
+| `während` / `seitdem` / `bis` (conjunctions) | U15 L3–L4 | U16 |
+| `ohne … zu`, `statt … zu`, Futur I with `wohl` | U16 L2, L4 | U16 L5 |
+
+A1 and A2 points that B1 keeps alive without a duty: Perfekt (speech), dative and two-way
+prepositions, `weil / dass / wenn / ob`, comparison, `werden`. The checkpoint (U16 L5)
+touches every unit.
+
+### Exercise types for B1 and the tech needs list (PD-060)
+
+**All 16 units can be written with today's four types** (multiple choice, word bank both
+directions, match pairs, listen). No unit waits for engine work. Reading comprehension of
+letters, notices and news is practised sentence by sentence in `to_known` word banks
+(translate a line from the letter), and announcements in `listen`. Later types are added
+to B1 by follow-up content tickets with **new exercise ids only** (as CON-DE-A2-CLZ).
+
+| # | Tech need | Owner | Blocker? | B1 use | Follow-up content |
+|---|---|---|---|---|---|
+| B1-T1 | **Cloze** (CTO-009 contract, LES-015 component; v0.5.1) | cto, dev-lessons | **No** (writing or v1.1.0). If v0.5.1 slips, it moves to v1.1.0 (ROADMAP). | Relative pronouns (U3, U6), `da- / wo-` (U4), endings (U6, U13), n-declension (U7), genitive (U11) | CON-DE-B1-CLZ (planned): 1–2 cloze exercises in U3, U4, U6, U7, U11, U13 |
+| B1-T2 | **Typed answers** with `ss` / `ae oe ue` leniency and a capitalisation note (PD-033): an answer type in the contract and a checker change in `src/contracts/text.ts` | cto (contract, checker), dev-lessons (input UI) | **No** | Writing one sentence of an email or complaint in the L5 scenarios (U6, U8, U11, U16); spelling of gap words | CON-DE-B1-TYP (planned): 1 typed exercise per L5 |
+| B1-T3 | **Reading passage**: a German text of up to ~600 characters (letter, notice, ad, news item) with 2–4 questions. Needs English options with correct `lang` tagging, i.e. the reverse-direction MC of PD-019 (`direction` field) | cto (contract), dev-lessons (component) | **No** for writing and for v1.1.0. Strongly recommended for v1.1.0; if late, it ships as v1.1.1 | U6 L1 (flat ad), U8 L5, U11 L1 / L5, U12 L1 / L5, U15 L5 | CON-DE-B1-RDG (planned): one passage per listed lesson, adding up to ~150 receptive words (the rest of the old "~1,000") |
+| B1-T4 | **Grammar note card with tables** (case and ending tables before a lesson) | cto (contract), dev-lessons | **No**. B1 tips (CDS-21) carry one-line tables | Endings (U6, U13), n-declension (U7), relative pronouns (U3, U6), genitive (U11) | Note cards written into the same lessons later, no exercise changes |
+| B1-T5 | **Verification, not new tech:** the LES-013 tip card shows a 240-character tip, and a 110-character prompt fits above a 14-tile word bank with the feedback panel open, at 375 × 667 without horizontal scroll | pm (preview check before wave 1); dev-lessons if it fails | **Yes, for CDS-20 / CDS-21 only.** If it fails, B1 keeps A2's limits (80-character prompts, 200-character tips) and writing still starts | Every lesson | — |
+| B1-T6 | Offline caching for 210 German lessons and their audio (PLT-015 scope grows from 130) | dev-platform | No | Every lesson | — |
+| B1-T7 | Prompt audio on MC (LES-016, v1.0.0, PD-055) | dev-lessons | No | Announcement comprehension in U8, U9, U12 | Optional prompt audio on existing MCs |
+
+---
+
 ## 5. Exercise engine today and how German is practised
 
 **Supported today** (`src/contracts/course.ts`): `multiple_choice`, `word_bank_translate`
@@ -812,7 +1202,7 @@ English and options in German (PD-019).
 | **Sentence order** | Order whole clauses (main + subordinate clause with `weil` / `dass`) | Can reuse the word bank with clause tiles; tiles longer than 40 chars need a contract change | A2–B1 |
 | **Reading passage** | A short text (letter, notice, ad) with 2–4 questions | **New type: contract + engine** | B1+ |
 | **Listening comprehension** | Longer audio (announcement, voicemail) + questions | Multiple choice with audio may be enough; multi-question needs a new type | A2+ |
-| **Grammar note card** | A short explanation with a table (e.g. accusative articles) before a lesson | **Contract** (longer tip or a new lesson section). A2 uses the existing `tip` (≤ 200 characters, CDS-15) shown by the tip card LES-013, pulled into v0.5.0 (PD-050). Tables wait for B1. | A2+ (B1+ essential) |
+| **Grammar note card** | A short explanation with a table (e.g. accusative articles) before a lesson | **Contract** (longer tip or a new lesson section). A2 uses the existing `tip` (≤ 200 characters, CDS-15) shown by the tip card LES-013, pulled into v0.5.0 (PD-050). B1 writes one-line tables into tips (CDS-21); the card itself is tech item B1-T4, not blocking (§4c, PD-060). | A2+ (B1+ essential) |
 | **Speak with `de-DE` recognition** | Read aloud; checked by speech recognition | LES-011 with the course speech locale (CTO-008) | A1+ |
 | **Level checkpoint flow** | A longer timed review at the end of a level, with a "you completed A1" badge | Engine + gamification (path node type) | Every level |
 
@@ -909,3 +1299,115 @@ from an A1 rule, the A2 rule wins for A2 content only.
      A1 chunks (`ins Kino`).
 - **Checkpoint exception (PD-047):** the A2 checkpoint (U14 L5) has **14 exercises**, one
   per A2 unit (CDS-2's 10–12 does not apply to it; the CDS-2 type mix still does).
+
+### B1 additions (CDS-20 … CDS-28, PD-058, PD-059, PD-061)
+
+From B1 on, every `CON-DE-B1-*` ticket passes CDS-1 … CDS-28. Where a B1 rule differs from an
+A1 or A2 rule, the B1 rule wins for B1 content only. Every rule below works with today's
+four exercise types; nothing here needs new tech (the tech needs are in §4c).
+
+- **CDS-20 Length (replaces the 80-character prompt limit of CDS-13 for B1):** prompts at
+  most **110 characters**; a canonical word-bank answer has at most **14 tiles** and at most
+  **2 clauses**; listen transcripts have at most 2 sentences and 18 words. Tiles stay at most
+  24 characters (CDS-13), MC options at most 90 characters. Falls back to 80-character
+  prompts if the B1-T5 check fails.
+- **CDS-21 Tip (replaces CDS-15 for B1):** at most **240 characters**, naming the rule and
+  giving one German example. A small table is written on one line with arrows and
+  semicolons (`Relative pronouns, dative: dem; der; dem; denen. Die Frau, der ich helfe.`).
+  Falls back to 200 if the B1-T5 check fails.
+- **CDS-22 B1 allowed extras (extends CDS-3 and CDS-16):** once the pattern lesson is done,
+  these need no appendix entry:
+  1. regular Präteritum (`-te / -ete`) of taught regular verbs, including separable ones
+     (`kaufte … ein`), after U2 L1. Irregular and mixed Präteritum forms only when an
+     appendix lists them (U2: `ging, kam, sah, fuhr, gab, fand, nahm, blieb, begann, schrieb,
+     wusste, dachte`; U3: `trug, half`; U12: `wurde, rief … an, lief`) or A2 did (`war,
+     hatte`, modals); separable and prefixed verbs built on a listed form are allowed
+     (`kam … an`, `fand … statt`, `nahm … teil`);
+  2. Konjunktiv II: before U10 only the U1 chunks (`könnten Sie / könntest du`, `würden
+     Sie / würdest du`, `ich hätte gern`, `das wäre / es wäre`); `würde` + any taught
+     infinitive after U10 L2; `hätte / wäre / könnte` in all persons after U10 L3; `sollte`
+     after U10 L4;
+  3. relative pronouns: nominative after U3 L2, accusative after U3 L3, dative after U6 L2,
+     after any taught preposition after U6 L4;
+  4. `zu` + infinitive of taught verbs after U5 L2 (`anzufangen`, `einzukaufen`);
+  5. passive present of taught verbs with a taught or CDS-16 participle after U9 L2, passive
+     Präteritum after U12 L2, Plusquamperfekt after U12 L3;
+  6. genitive forms of taught articles and possessives, and `-(e)s` on taught masculine and
+     neuter nouns, after U11 L2;
+  7. adjective endings of taught adjectives: dative after U6 L3; without an article and in the
+     genitive after U13 L2 / L3; regular comparatives and superlatives before nouns after
+     U13 L4;
+  8. n-declension forms of the U7 L2 nouns and of `der Kollege`, `der Nachbar`, `der Herr`,
+     `der Mensch` after U7 L2. Before U7 L2, B1 content uses these nouns only in the
+     nominative singular and in the plural;
+  9. a transparent compound of two taught nouns (`der Fahrradkeller`) in a listen transcript
+     or an MC option only, at most 1 per lesson, logged in the self-review.
+  Gap words (§4c) are never extras; they are appendix items.
+- **CDS-23 Tense and form mapping (replaces CDS-19.1–19.3 for B1; PD-059):**
+  1. English simple past → **Perfekt** in dialogue (prompts marked "(to a friend)",
+     "(formal)", phone calls, chat) and **Präteritum** in narration (stories, biographies,
+     reports, letters). Each `to_learning` tile set builds **one** past tense; when the tiles
+     build both, both are accepted. An MC never marks the other past tense as the error;
+     its distractors are wrong forms (`gehte`, `ging gegangen`) or wrong auxiliaries.
+     `sein`, `haben` and modals stay Präteritum everywhere (A2 rule).
+  2. English past perfect ("had …ed") → Plusquamperfekt. After `nachdem`, the Plusquamperfekt
+     is canonical even when the English uses the simple past ("After we ate, …"); `to_known`
+     accepts both English forms.
+  3. English passive → German passive. An active `man` sentence is accepted only when the
+     tiles contain `man` (writers leave `man` out of passive drills).
+  4. "would + verb" → `würde` + infinitive, except `sein`, `haben`, modals → `wäre`, `hätte`,
+     `könnte`; `würde sein / würde haben` is never accepted. "Could you …?" ↔ `Könnten Sie /
+     Könntest du …?`; in `to_known`, "Can you …?" is also accepted. "I'd like …" ↔ `Ich hätte
+     gern …` and `Ich möchte …` (both accepted when the tiles allow).
+  5. English "will" keeps CDS-19.3. "will probably" → `wird wohl` or `wird wahrscheinlich`
+     (both when the tiles allow).
+  6. Relative clauses in `to_known`: "who / that / which" and the contact clause without a
+     pronoun ("the man I met") are all accepted; "whom" is accepted, never required.
+  7. Genitive or `von` + dative: both accepted when the tiles allow; genitive pattern lessons
+     keep `von` out of the tiles. `wegen` / `trotz` + dative is never accepted.
+  8. zu-infinitive or `dass`-clause with the same subject (`Ich hoffe, die Prüfung zu
+     bestehen.` / `Ich hoffe, dass ich die Prüfung bestehe.`): both accepted when the tiles
+     allow; zu-infinitive drills leave `dass` out of the tiles.
+- **CDS-24 Word order and clause position (extends PD-043, PD-053, CDS-19.4; PD-059):**
+  1. PD-043 and **PD-053 apply from the first B1 lesson**: fronting rules, middle-field
+     adverbial swaps, fixed pronoun and object order, the `dass`-less and "…, glaube ich"
+     orders. Writers build their answer lists with these rules; accepted marked orders go
+     on the self-review's native-review list.
+  2. **Clause-first accepted** (when the tiles allow) for `weil`, `wenn`, `als`, `obwohl`,
+     `damit`, `nachdem`, `bevor`, `während`, `seitdem`, `bis` and for `um / ohne / statt … zu`
+     clauses, with verb–comma–verb. **Never fronted:** `dass`, `ob`, indirect W-questions,
+     relative clauses, other zu-infinitive clauses (`Es ist wichtig, … zu …` only).
+  3. **Relative clauses** come right after their noun, or after the clause-final verb part
+     when only that verb part would follow (`Ich habe einen Mann getroffen, der …` and `Ich
+     habe einen Mann, der …, getroffen` are both accepted when buildable); never moved over
+     any other constituent.
+  4. **Verb clusters** at the end of subordinate clauses: modal and Perfekt as in A2;
+     passive `…, weil die Straße gebaut wird`; Plusquamperfekt `…, nachdem wir gegessen
+     hatten`. No double infinitive (`hat … machen lassen`, `hat kommen können`) in B1; `lassen`
+     appears in the present, Präteritum `ließ` is not taught.
+  5. **Two-part connectors** keep their taught positions; `weder … noch` never takes `nicht`
+     or `kein`.
+  6. **Answer budget:** at most 20 accepted answers per exercise (contract limit). If a
+     sentence has more than 12 acceptable orders, the writer shortens it or changes the
+     tiles; never lists a subset of valid orders.
+- **CDS-25 Recycling duty:** each unit ticket lists earlier B1 points (coverage map, §4c)
+  with a minimum number of exercises in that unit (usually 2 each). The self-review gives
+  the exercise ids.
+- **CDS-26 Safe topics for B1 (extends CDS-11 and PD-051; PD-061):** no real news events,
+  real people, politicians, parties, elections or court cases; no migration, residence,
+  citizenship or benefit rules; letters from authorities are invented, use only generic
+  nouns (`das Amt`, `die Behörde`, `das Bürgeramt`, `die Krankenkasse`) and state no
+  deadlines, fees, fines or consequences as rules; no medical diagnoses, doses or treatment
+  advice and no statements on what insurance pays; no tenancy rules (deposit amounts, notice
+  periods, rent increases); environment as personal everyday actions, no statistics and no
+  political claims; news is mild and local (openings, festivals, sport, a small accident
+  with nobody seriously hurt), no crime, disasters or war; relationships without sexual
+  content and without break-up drama; no religion or religious holidays, no alcohol, no
+  brands (shops, devices, apps, insurers, carriers, media).
+- **CDS-27 Glosses:** a recycled item keeps its A1 / A2 / B1 gloss. A new meaning of a known
+  word is its own appendix entry, marked "new meaning" (`als` "when", `wenn` "whenever",
+  `das Land` "countryside", `das Rezept` "recipe", `die Überweisung` "bank transfer", `der
+  Bescheid` "official notice", `dafür sein` "be in favour").
+- **CDS-28 B1 checkpoint (PD-058):** U16 L5 has **16 exercises**, one per B1 unit, told as one
+  story; CDS-2's 10–12 doesn't apply, its type mix does. Only 2 new items. The tip starts
+  "This lesson reviews all of B1."
