@@ -14,6 +14,7 @@
  *   and cost at most 1 heart (PD-012, CR-001).
  */
 import {
+  checkClozeAnswer,
   foldDiacritics,
   GAME_CONFIG,
   normalizeAnswerText,
@@ -152,6 +153,9 @@ export const checkAnswer: CheckAnswer = (input) => {
         : typeMismatch(input);
     case "speak":
       return answer.type === "speak" ? checkSpeak(exercise, answer) : typeMismatch(input);
+    case "cloze":
+      // CTO-009: the pure cloze rule lives in the contracts (ADR-009); LES-015 owns the UI.
+      return answer.type === "cloze" ? checkClozeAnswer(exercise, answer) : typeMismatch(input);
     default:
       return assertNever(exercise);
   }

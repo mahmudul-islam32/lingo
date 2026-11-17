@@ -43,6 +43,8 @@ function correctAnswer(state: PlayerState): AnswerInput {
       };
     case "speak":
       return { type: "speak", skipped: false, transcripts: [ex.phrase] };
+    case "cloze": // CTO-009: compile-only; no cloze fixture here yet (LES-015)
+      return { type: "cloze", optionIds: ex.gaps.map((g) => g.correctOptionId) };
   }
 }
 

@@ -4,7 +4,8 @@
  */
 import { z } from "zod";
 import { NonNegativeIntSchema, SlugSchema } from "./common";
-import { ExerciseSchema } from "./course";
+import { CONTENT_RULES, GAME_CONFIG } from "./config";
+import { clozeCorrectSentence, ExerciseSchema, type ClozeExercise } from "./course";
 
 /** What the learner submitted, one variant per exercise type (discriminated by `type`). */
 export const MultipleChoiceAnswerSchema = z.object({
@@ -50,12 +51,19 @@ export const SpeakAnswerSchema = z
     path: ["transcripts"],
   });
 
+export const ClozeAnswerSchema = z.object({
+  type: z.literal("cloze"),
+  /** The chosen option id for each gap, `optionIds[i]` for `gaps[i]` (ADR-009). */
+  optionIds: z.array(SlugSchema).min(1).max(CONTENT_RULES.clozeMaxGaps),
+});
+
 export const AnswerInputSchema = z.discriminatedUnion("type", [
   MultipleChoiceAnswerSchema,
   WordBankTranslateAnswerSchema,
   MatchPairsAnswerSchema,
   ListenAnswerSchema,
   SpeakAnswerSchema,
+  ClozeAnswerSchema,
 ]);
 export type AnswerInput = z.infer<typeof AnswerInputSchema>;
 export type AnswerInputOfType<T extends AnswerInput["type"]> = Extract<AnswerInput, { type: T }>;
@@ -96,6 +104,11 @@ export const AnswerCheckResultSchema = z
      * 1 for a match-pairs exercise with any mismatch (never more), else 0.
      */
     heartCost: NonNegativeIntSchema,
+    /**
+     * Cloze only (ADR-009): 0-based indexes of the gaps that were wrong or not filled,
+     * ascending, so feedback can mark them. Empty iff `correct`. Absent for other types.
+     */
+    wrongGapIndexes: z.array(NonNegativeIntSchema).max(CONTENT_RULES.clozeMaxGaps).optional(),
   })
   .refine((v) => v.outcome === "correct" || v.mistake === (v.outcome === "incorrect"), {
     message: "incorrect answers are always a mistake; skipped answers never are",
@@ -104,5 +117,40 @@ export const AnswerCheckResultSchema = z
   .refine((v) => v.mistake || v.heartCost === 0, {
     message: "only mistakes can cost hearts",
     path: ["heartCost"],
-  });
+  })
+  .refine(
+    (v) =>
+      v.wrongGapIndexes === undefined ||
+      (v.wrongGapIndexes.length === 0) === (v.outcome === "correct"),
+    { message: "wrongGapIndexes is empty iff the outcome is correct", path: ["wrongGapIndexes"] },
+  );
 export type AnswerCheckResult = z.infer<typeof AnswerCheckResultSchema>;
+
+/**
+ * Checks a cloze answer (ADR-009, PD-012). Pure. `correct` only when every gap has its
+ * `correctOptionId`; a missing or extra id makes the answer `incorrect`. Like any other
+ * exercise, a wrong check is 1 mistake and costs `GAME_CONFIG.heartsLostPerMistake`.
+ * `correctAnswer` is the sentence filled with the correct options. `checkAnswer`
+ * (features/lessons/checking) delegates its `cloze` branch here.
+ */
+export function checkClozeAnswer(
+  exercise: ClozeExercise,
+  answer: z.infer<typeof ClozeAnswerSchema>,
+): AnswerCheckResult {
+  const wrongGapIndexes = exercise.gaps.flatMap((gap, index) =>
+    answer.optionIds[index] === gap.correctOptionId ? [] : [index],
+  );
+  const correct = wrongGapIndexes.length === 0 && answer.optionIds.length === exercise.gaps.length;
+  if (!correct && wrongGapIndexes.length === 0) {
+    // Extra ids beyond the last gap: every gap was right, but the answer is malformed.
+    wrongGapIndexes.push(...exercise.gaps.map((_gap, index) => index));
+  }
+  return {
+    exerciseId: exercise.id,
+    outcome: correct ? "correct" : "incorrect",
+    correctAnswer: clozeCorrectSentence(exercise),
+    mistake: !correct,
+    heartCost: correct ? 0 : GAME_CONFIG.heartsLostPerMistake,
+    wrongGapIndexes,
+  };
+}
