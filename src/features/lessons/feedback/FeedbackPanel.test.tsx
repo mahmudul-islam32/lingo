@@ -1,8 +1,13 @@
 import { render, screen } from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
 import { describe, expect, it, vi } from "vitest";
-import type { AnswerCheckResult, Exercise } from "@/contracts";
-import { fixtureLesson } from "../player/testing/fixtures";
+import {
+  checkClozeAnswer,
+  type AnswerCheckResult,
+  type Exercise,
+  type ExerciseOfType,
+} from "@/contracts";
+import { clozeLesson, fixtureLesson } from "../player/testing/fixtures";
 import { FeedbackPanel, correctAnswerLanguage } from "./FeedbackPanel";
 import { ALL_FEEDBACK_HEADINGS, CORRECT_HEADINGS, pickCorrectHeading } from "./headings";
 
@@ -105,5 +110,39 @@ describe("FeedbackPanel", () => {
     expect(correctAnswerLanguage(toKnown, "es", "en")).toBe("en");
     expect(correctAnswerLanguage({ ...toKnown, direction: "to_learning" }, "es", "en")).toBe("es");
     expect(correctAnswerLanguage(mc, "es", "en")).toBe("es");
+  });
+
+  describe("cloze (LES-015 AC 4)", () => {
+    const cloze = clozeLesson.exercises.find(
+      (e): e is ExerciseOfType<"cloze"> => e.id === "cz-2" && e.type === "cloze",
+    )!;
+    const FULL = "Das blaue Kleid ist schön, aber der Rock nicht.";
+
+    function renderCloze(optionIds: string[]) {
+      render(
+        <FeedbackPanel
+          result={checkClozeAnswer(cloze, { type: "cloze", optionIds })}
+          exercise={cloze}
+          learningLanguage="de"
+          knownLanguage="en"
+          onContinue={vi.fn()}
+          random={() => 0.5}
+        />,
+      );
+    }
+
+    it("correct: shows and announces the full sentence in the learning language", () => {
+      renderCloze(["das", "der"]);
+      expect(screen.getByText(FULL)).toHaveAttribute("lang", "de");
+      expect(screen.queryByText(/Correct answer:/)).not.toBeInTheDocument();
+      expect(screen.getByRole("status")).toHaveTextContent(`That's right! ${FULL}`);
+    });
+
+    it("incorrect: shows the full correct sentence in authored case, lang=de", () => {
+      renderCloze(["die", "der"]);
+      expect(screen.getByText(FULL, { selector: "strong" })).toHaveAttribute("lang", "de");
+      expect(screen.getByRole("status")).toHaveTextContent(`Not quite. Correct answer: ${FULL}`);
+      expect(correctAnswerLanguage(cloze, "de", "en")).toBe("de");
+    });
   });
 });

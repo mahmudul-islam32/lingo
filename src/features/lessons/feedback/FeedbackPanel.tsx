@@ -1,7 +1,12 @@
 "use client";
 
 import { useEffect, useId, useRef, useState } from "react";
-import type { AnswerCheckResult, Exercise, LanguageCode } from "@/contracts";
+import {
+  clozeCorrectSentence,
+  type AnswerCheckResult,
+  type Exercise,
+  type LanguageCode,
+} from "@/contracts";
 import { Button, CheckIcon, CrossIcon, cn } from "@/components/ui";
 import { INCORRECT_HEADING, pickCorrectHeading } from "./headings";
 
@@ -25,8 +30,8 @@ export function correctAnswerLanguage(
   if (exercise.type === "word_bank_translate") {
     return exercise.direction === "to_known" ? knownLanguage : learningLanguage;
   }
-  // Multiple-choice options, listen and speak answers are in the learning language
-  // (LES-004 technical notes; CON-001 content).
+  // Multiple-choice options, listen and speak answers and the cloze sentence are in the
+  // learning language (LES-004 technical notes; CON-001 content; ADR-009).
   return learningLanguage;
 }
 
@@ -56,8 +61,14 @@ export function FeedbackPanel({
   const correctAnswer = !correct && result.correctAnswer ? result.correctAnswer : null;
   const answerLang = correctAnswerLanguage(exercise, learningLanguage, knownLanguage);
   const heard = exercise.type === "listen" ? (exercise.answers[0] ?? null) : null;
+  // LES-015 AC 4: a correct cloze still shows the full sentence it completed.
+  const completed =
+    correct && exercise.type === "cloze"
+      ? (result.correctAnswer ?? clozeCorrectSentence(exercise))
+      : null;
 
   const parts = [correct ? heading : sentence(heading)];
+  if (completed) parts.push(sentence(completed));
   if (correctAnswer) parts.push(`Correct answer: ${sentence(correctAnswer)}`);
   if (heard) parts.push(`You heard: ${sentence(heard)}`);
   const message = parts.join(" ");
@@ -98,6 +109,12 @@ export function FeedbackPanel({
             {heading}
           </h2>
         </div>
+
+        {completed && (
+          <p lang={answerLang} className="font-bold break-words hyphens-auto">
+            {completed}
+          </p>
+        )}
 
         {correctAnswer && (
           <p className="break-words">
