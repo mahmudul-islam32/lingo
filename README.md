@@ -8,8 +8,8 @@ skill path. Our guide is **Lumi**, a small paper lantern whose glow grows with y
 > that plans, builds, reviews and merges every night. This README is refreshed by the
 > nightly run: screenshots and recordings are captured from the real app on `main`.
 
-**Last updated:** 2026-11-15 · **Version:** 0.2.0 · **Course:** English → German, A1 complete
-(12 units, 60 lessons) and A2 under way (Units 1–4 merged)
+**Last updated:** 2026-11-17 · **Version:** 0.5.0 · **Course:** English → German, A1 and A2
+complete (26 units, 130 lessons)
 
 ---
 
@@ -74,33 +74,39 @@ offline.
 
 - **A1 (complete):** 12 units, 60 original lessons and about 700 exercises, from greetings to
   appointments, shopping, the doctor and registering an address, ending in an A1 checkpoint.
-- **A2 (in progress):** Units 1–4 are on `main` (weather, the past, holidays, invitations);
-  Units 5–14 are written and in review (see below).
+- **A2 (complete):** 14 units and 70 lessons: weather, the past, holidays, celebrations,
+  errands, clothes, health, phone calls, home and neighbours, train and hotel, work, letters
+  and offices, media and comparisons, plans for the future, ending in an A2 checkpoint. Every
+  lesson opens with a grammar tip.
+- **Listening:** listen exercises speak German with the device's German voice (normal and
+  0.7× slow) until recorded audio is added.
 - All content is original and written to our own content standard (umlauts and ß are
   real letters, both `du` and `Sie` are taught, answers accept every natural word order).
 
 ---
 
-## Coming next (written, in review)
+## Coming next
 
-- **German A2 Units 5–14** and the A2 checkpoint: errands, clothes, health, phone calls,
-  home and neighbours, train and hotel, work, letters and offices, media and comparisons,
-  plans for the future. That's 50 more lessons, followed by a full A2 QA pass.
-- **German voice fallback and long-word tiles** (LES-014).
-- Then B1 → C1, and accounts with sync (v0.4.0, paused while German ships).
+- **Fill-the-gap (cloze) exercises:** built and merged (v0.5.1); they appear once the first
+  cloze content lands.
+- **German B1** (v1.1.0): planned in full: 16 units, about 80 lessons (polite requests, life
+  stories, work, renting, the doctor, complaints, authorities, news, opinions). Writing has started.
+- **Accounts and sync** (v0.6.0): resumes once a hosted database is set up.
 
 ---
 
 ## Roadmap
 
-| Version | Goal                                                   | Status                     |
-| ------- | ------------------------------------------------------ | -------------------------- |
-| v0.1.0  | MVP foundation: app shell, PWA, guest mode, onboarding | released                   |
-| v0.2.0  | First playable lesson: lesson engine, 4 exercise types | released                   |
-| v0.3.x  | German A1: 60 lessons, CEFR skill path, tip cards      | content done, release next |
-| v0.4.0  | Accounts and sync (Supabase), profile and settings     | paused                     |
-| v0.5.0  | German A2: 70 lessons                                  | in review                  |
-| v1.x    | German B1, B2, C1                                      | planned                    |
+| Version | Goal                                                   | Status                   |
+| ------- | ------------------------------------------------------ | ------------------------ |
+| v0.1.0  | MVP foundation: app shell, PWA, guest mode, onboarding | released                 |
+| v0.2.0  | First playable lesson: lesson engine, 4 exercise types | released                 |
+| v0.3.x  | German A1: 60 lessons, CEFR skill path, tip cards      | released in v0.5.0       |
+| v0.5.0  | German A2: 70 lessons, A2 checkpoint, German voice     | released                 |
+| v0.5.1  | Fill-the-gap (cloze) exercise                          | built, awaiting content  |
+| v0.6.0  | Accounts and sync (Supabase), profile and settings     | paused (needs hosting)   |
+| v1.0.0  | Launch polish: audio, speaking, native review          | planned                  |
+| v1.1.0  | German B1 (then B2, C1)                                | planned, writing started |
 
 Details: [`docs/product/ROADMAP.md`](docs/product/ROADMAP.md) · Live status:
 [`docs/STATUS.md`](docs/STATUS.md)
