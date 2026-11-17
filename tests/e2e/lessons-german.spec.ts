@@ -199,6 +199,12 @@ test.describe("German lesson in the browser (LES-014 AC 7-9)", () => {
           const skip = page.getByRole("button", { name: "Skip" });
           await skip.waitFor({ state: "visible", timeout: 10_000 }).catch(() => undefined);
           if (await skip.isVisible()) {
+            // FIX-005 AC 4: the message with Lumi ember fits 375 px and Check stays on screen.
+            await expect(page.locator('main svg[data-pose="ember"]')).toBeVisible();
+            await expectNoHorizontalOverflow(page, `${exercise.id} audio unavailable`);
+            await expect(page.getByRole("button", { name: "Check" })).toBeInViewport({
+              ratio: 1,
+            });
             await skip.click();
             continue;
           }
