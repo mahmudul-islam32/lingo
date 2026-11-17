@@ -5,6 +5,7 @@ import { useQuery } from "@tanstack/react-query";
 import type { HeartsView } from "@/contracts";
 import { heartsQuery } from "../data/queries";
 import { createFullHearts, viewHearts } from "../rules/hearts";
+import { useWarnOnHeartsReadError } from "./hearts-read-warning";
 import { useOnPageVisible } from "./use-visible-now";
 
 /** `setTimeout` can't wait longer than this (about 24.8 days); longer waits re-arm. */
@@ -58,10 +59,8 @@ export function useHearts(): UseHeartsResult {
 
   useOnPageVisible(refresh);
 
-  const error = query.error;
-  useEffect(() => {
-    if (error) console.warn("[hearts] could not read hearts; showing full hearts", error);
-  }, [error]);
+  // FIX-006: the guard is shared with `useProgressInputs`: one warning per failed read.
+  useWarnOnHeartsReadError(query.error, query.errorUpdatedAt);
 
   if (view === null) return { status: "pending", view: null, error: null };
   if (query.status === "error" && stored === undefined) {

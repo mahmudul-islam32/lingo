@@ -1,5 +1,11 @@
 import { afterEach, describe, expect, it, vi } from "vitest";
-import { findScrollContainer, scrollToCenter } from "../scroll-to-center";
+import {
+  IDLE_SETTLE_FRAMES,
+  MAX_SETTLE_FRAMES,
+  findScrollContainer,
+  scrollToCenter,
+  whenScrollSettles,
+} from "../scroll-to-center";
 
 function rect(top: number, height: number): DOMRect {
   return {
@@ -31,6 +37,7 @@ function scroller({ scrollTop = 0, clientHeight = 400, overflowY = "auto" } = {}
 }
 
 afterEach(() => {
+  Reflect.deleteProperty(document.documentElement, "scrollHeight");
   document.body.innerHTML = "";
   vi.restoreAllMocks();
 });
@@ -62,9 +69,10 @@ describe("scrollToCenter (FIX-002)", () => {
     const { container, child } = scroller({ scrollTop: 100 });
     const scrollTo = vi.fn();
     container.scrollTo = scrollTo as typeof container.scrollTo;
-    scrollToCenter(child, "smooth");
+    const scroll = scrollToCenter(child, "smooth");
     // 100 + (650 - 50) - (400 - 60) / 2 = 530
     expect(scrollTo).toHaveBeenCalledExactlyOnceWith({ top: 530, behavior: "smooth" });
+    expect(scroll).toEqual({ container, top: 530 });
   });
 
   it("sets scrollTop when the container has no scrollTo", () => {
@@ -101,7 +109,7 @@ describe("scrollToCenter (FIX-002)", () => {
     const button = document.createElement("button");
     document.body.append(button);
     const scrollTo = vi.spyOn(window, "scrollTo").mockImplementation(() => {});
-    scrollToCenter(button, "smooth");
+    expect(scrollToCenter(button, "smooth")).toBeNull();
     expect(scrollTo).not.toHaveBeenCalled();
   });
 
@@ -116,5 +124,123 @@ describe("scrollToCenter (FIX-002)", () => {
     } finally {
       window.scrollTo = original;
     }
+  });
+});
+
+describe("whenScrollSettles (FIX-006)", () => {
+  /** Manual animation frames: `frame(top)` moves the container, then runs one frame. */
+  function frames(container: HTMLElement) {
+    let queued: FrameRequestCallback | null = null;
+    vi.spyOn(window, "requestAnimationFrame").mockImplementation((cb) => {
+      queued = cb;
+      return 1;
+    });
+    const cancel = vi.spyOn(window, "cancelAnimationFrame").mockImplementation(() => {
+      queued = null;
+    });
+    const frame = (top?: number) => {
+      if (top !== undefined) container.scrollTop = top;
+      const cb = queued;
+      queued = null;
+      cb?.(0);
+    };
+    return { frame, cancel, pending: () => queued !== null };
+  }
+
+  function setup(scrollTop = 0) {
+    const { container } = scroller({ scrollTop });
+    const onSettled = vi.fn();
+    const raf = frames(container);
+    return { container, onSettled, ...raf };
+  }
+
+  it("settles once the target is reached and held for two frames", () => {
+    const { container, onSettled, frame } = setup();
+    whenScrollSettles({ container, top: 530 }, onSettled);
+    frame(); // smooth scroll not started yet: not settled
+    frame(200);
+    frame(450);
+    frame(530); // arrived, but still moving this frame
+    expect(onSettled).not.toHaveBeenCalled();
+    frame();
+    expect(onSettled).not.toHaveBeenCalled();
+    frame();
+    expect(onSettled).toHaveBeenCalledOnce();
+  });
+
+  it("is not fooled by a scroll that has not started yet", () => {
+    const { container, onSettled, frame } = setup();
+    whenScrollSettles({ container, top: 530 }, onSettled);
+    frame();
+    frame();
+    frame();
+    expect(onSettled).not.toHaveBeenCalled();
+  });
+
+  it("settles at once when already at the target (no scroll needed)", () => {
+    const { container, onSettled, frame } = setup(530);
+    whenScrollSettles({ container, top: 530 }, onSettled);
+    frame();
+    frame();
+    expect(onSettled).toHaveBeenCalledOnce();
+  });
+
+  it("clamps the target to the scrollable range", () => {
+    const { container, onSettled, frame } = setup();
+    // scrollHeight 2000 - clientHeight 400: the browser stops at 1600.
+    whenScrollSettles({ container, top: 1900 }, onSettled);
+    frame(1600);
+    frame();
+    frame();
+    expect(onSettled).toHaveBeenCalledOnce();
+  });
+
+  it("settles after the scroll stops short (interrupted by the learner)", () => {
+    const { container, onSettled, frame } = setup();
+    whenScrollSettles({ container, top: 530 }, onSettled);
+    frame(300);
+    for (let i = 1; i < IDLE_SETTLE_FRAMES; i++) frame();
+    expect(onSettled).not.toHaveBeenCalled();
+    frame();
+    expect(onSettled).toHaveBeenCalledOnce();
+  });
+
+  it("gives up after the frame cap even if the position keeps moving", () => {
+    const { container, onSettled, frame } = setup();
+    whenScrollSettles({ container, top: 1500 }, onSettled);
+    for (let i = 1; i < MAX_SETTLE_FRAMES; i++) frame(i % 2 === 0 ? 10 : 20);
+    expect(onSettled).not.toHaveBeenCalled();
+    frame(30);
+    expect(onSettled).toHaveBeenCalledOnce();
+  });
+
+  it("can be cancelled", () => {
+    const { container, onSettled, frame, cancel, pending } = setup();
+    const stop = whenScrollSettles({ container, top: 530 }, onSettled);
+    stop();
+    expect(cancel).toHaveBeenCalled();
+    expect(pending()).toBe(false);
+    frame(530);
+    frame();
+    frame();
+    expect(onSettled).not.toHaveBeenCalled();
+  });
+
+  it("watches the window when there is no container", () => {
+    const onSettled = vi.fn();
+    let y = 0;
+    vi.spyOn(window, "scrollY", "get").mockImplementation(() => y);
+    vi.spyOn(window, "innerHeight", "get").mockReturnValue(800);
+    Object.defineProperty(document.documentElement, "scrollHeight", {
+      configurable: true,
+      value: 3000,
+    });
+    const raf = frames(document.createElement("div"));
+    whenScrollSettles({ container: null, top: 640 }, onSettled);
+    y = 640;
+    raf.frame();
+    raf.frame();
+    raf.frame();
+    expect(onSettled).toHaveBeenCalledOnce();
   });
 });

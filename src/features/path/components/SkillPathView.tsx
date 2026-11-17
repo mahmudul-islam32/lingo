@@ -34,7 +34,7 @@ import {
   unitProgressText,
 } from "./copy";
 import { PathNodeItem } from "./PathNode";
-import { scrollToCenter } from "./scroll-to-center";
+import { scrollToCenter, whenScrollSettles } from "./scroll-to-center";
 
 export interface SkillPathViewProps {
   /** Course manifest: levels, unit titles, lesson titles and order. */
@@ -306,10 +306,24 @@ export function SkillPathView({
   // AC11: bring the next lesson into view on the first render only (not on updates).
   // FIX-002: by scroll position, not `scrollIntoView`, so the Tab order still starts at
   // the top of the page (skip link, top bar).
+  // FIX-006: `data-auto-scroll="settled"` on the root once that scroll is over (or there
+  // was none), a deterministic signal for e2e layout measurements. Set on the DOM node,
+  // not via state, so it costs no re-render.
+  const rootRef = useRef<HTMLDivElement>(null);
   useEffect(() => {
+    const root = rootRef.current;
+    const settle = () => {
+      if (root) root.dataset.autoScroll = "settled";
+    };
     const target = frontierRef.current;
-    if (!target) return;
-    scrollToCenter(target, prefersReducedMotion() ? "auto" : "smooth");
+    const scroll = target
+      ? scrollToCenter(target, prefersReducedMotion() ? "auto" : "smooth")
+      : null;
+    if (!scroll) {
+      settle();
+      return;
+    }
+    return whenScrollSettles(scroll, settle);
   }, []);
 
   // Latest values for the stable node callback, so memoised nodes don't re-render when
@@ -351,6 +365,8 @@ export function SkillPathView({
 
   return (
     <div
+      ref={rootRef}
+      data-auto-scroll="pending"
       className={cn(
         "mx-auto flex w-full max-w-md flex-col gap-8 overflow-x-hidden px-4 pt-4",
         // AC16: the last node clears the bottom navigation.

@@ -12,9 +12,11 @@ import {
   heartsQuery,
   progressQuery,
   settingsQuery,
+  useHearts,
   useProgressInputs,
   useUserProgress,
 } from "@/features/gamification";
+import { HEARTS_READ_WARNING } from "../hearts-read-warning";
 import { queryKeys } from "@/lib/query";
 import { createQueryWrapper, createTestQueryClient } from "@/lib/query/testing";
 import { makeResult } from "../../rules/__tests__/fixtures";
@@ -215,6 +217,44 @@ describe("useUserProgress (GAM-003 AC9–AC11, AC13)", () => {
     await waitFor(() =>
       expect(result.current.map((p) => p.status)).toEqual(["success", "success"]),
     );
+    expect(warn).toHaveBeenCalledTimes(1);
+  });
+
+  it("useHearts and useUserProgress on one failed hearts read log one warning (FIX-006)", async () => {
+    const warn = vi.spyOn(console, "warn").mockImplementation(() => {});
+    const failure = new Error("corrupt");
+    session.progress.getHearts.mockRejectedValue(failure);
+    const client = createTestQueryClient();
+    const { result } = renderHook(
+      () => ({
+        hearts: useHearts(),
+        progress: useUserProgress(COURSE, { timeZone: TZ }),
+        inputs: useProgressInputs(COURSE, { timeZone: TZ }),
+      }),
+      { wrapper: createQueryWrapper(client) },
+    );
+    await waitFor(() => expect(result.current.progress.status).toBe("success"));
+    expect(result.current.hearts.status).toBe("error");
+    expect(result.current.inputs.status).toBe("success");
+    expect(warn).toHaveBeenCalledExactlyOnceWith(HEARTS_READ_WARNING, failure);
+
+    // A second failed read: exactly one more warning, still across both hooks.
+    vi.setSystemTime(NOW.getTime() + 1000);
+    await act(() => client.invalidateQueries({ queryKey: queryKeys.hearts() }));
+    await waitFor(() => expect(warn).toHaveBeenCalledTimes(2));
+    expect(warn).toHaveBeenNthCalledWith(2, HEARTS_READ_WARNING, failure);
+    expect(warn).toHaveBeenCalledTimes(2);
+  });
+
+  it("useHearts alone still warns once per failed hearts read (FIX-006)", async () => {
+    const warn = vi.spyOn(console, "warn").mockImplementation(() => {});
+    session.progress.getHearts.mockRejectedValue(new Error("corrupt"));
+    const client = createTestQueryClient();
+    const { result, rerender } = renderHook(() => [useHearts(), useHearts()], {
+      wrapper: createQueryWrapper(client),
+    });
+    await waitFor(() => expect(result.current.map((h) => h.status)).toEqual(["error", "error"]));
+    rerender();
     expect(warn).toHaveBeenCalledTimes(1);
   });
 

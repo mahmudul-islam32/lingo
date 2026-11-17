@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useMemo } from "react";
+import { useMemo } from "react";
 import { useQuery } from "@tanstack/react-query";
 import {
   GAME_CONFIG,
@@ -14,6 +14,7 @@ import {
 import { heartsQuery, progressQuery, settingsQuery } from "../data/queries";
 import { createFullHearts } from "../rules/hearts";
 import { computeUserProgress } from "../rules/progress";
+import { useWarnOnHeartsReadError } from "./hearts-read-warning";
 import { useLocalToday, type UseLocalTodayOptions } from "./use-local-today";
 
 export type ProgressStatus = "loading" | "error" | "success";
@@ -41,7 +42,8 @@ export type UseProgressOptions = UseLocalTodayOptions;
  * - A hearts read error with no stored hearts in the cache counts as full hearts
  *   (`createFullHearts(now)`, PD-021, GAM-003 AC15, FIX-003): XP, streak, goal and path
  *   progress stay visible. The fallback is derived per render: never saved, never written
- *   to the `["hearts"]` cache (ADR-005). One `console.warn` per failed read.
+ *   to the `["hearts"]` cache (ADR-005). One `console.warn` per failed read, shared with
+ *   `useHearts` (FIX-006).
  * - A settings failure or `null` settings (before onboarding) falls back to the default goal.
  */
 export function useProgressInputs(
@@ -73,21 +75,6 @@ export function useProgressInputs(
     return { status: "loading", results: null, hearts: null, ...clock };
   }
   return { status: "success", results: results.data, hearts: heartsState, ...clock };
-}
-
-/**
- * Last `errorUpdatedAt` warned about per error object. Every `useProgressInputs` caller
- * (top bar, streak, ring, path) observes the same failed `["hearts"]` read, so this keeps
- * it to one warning per failed read instead of one per hook instance or render.
- */
-const warnedHeartsReads = new WeakMap<Error, number>();
-
-function useWarnOnHeartsReadError(error: Error | null, errorUpdatedAt: number) {
-  useEffect(() => {
-    if (!error || warnedHeartsReads.get(error) === errorUpdatedAt) return;
-    warnedHeartsReads.set(error, errorUpdatedAt);
-    console.warn("[progress] could not read hearts; counting full hearts", error);
-  }, [error, errorUpdatedAt]);
 }
 
 export interface UserProgressState {
