@@ -6,6 +6,7 @@ export * from "./common";
 export * from "./config";
 export * from "./text";
 export * from "./language";
+export * from "./cloze";
 export * from "./course";
 export * from "./answer";
 export * from "./lesson-session";

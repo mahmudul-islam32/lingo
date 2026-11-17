@@ -921,3 +921,180 @@ together._
 - **Alternatives considered:** build it now (dev-lessons is busy with LES-014, FIX-005 and
   LES-015); drop the fields from the contract (B1 announcements need them).
 - **Reversibility:** High.
+
+## PD-056: B1 structure and grammar order (16 units)
+
+- **Date:** 2026-11-16
+- **Decision:** German B1 has **16 units × 5 lessons = 80 lessons** (`curriculum-german.md`
+  §4c, ticket CON-DE-B1-PLAN), in this order: U1 Could You Help Me? (polite Konjunktiv II
+  chunks, indirect W-questions) · U2 Life Stories (Präteritum, `als / wenn`) · U3 People
+  Around Me (relative clauses nom. / acc.) · U4 Everyday Work (verbs with prepositions,
+  `wo- / da-` compounds) · U5 Learning for Life (zu-infinitive, `um … zu`) · U6 Renting a
+  Flat (dative and prepositional relative clauses, dative adjective endings) · U7 Doctors and
+  Hospitals (n-declension, dative reflexive pronouns) · U8 Orders and Complaints (`obwohl`,
+  `damit`) · U9 Environment and the City (passive present, `lassen`) · U10 If I Had More Time
+  (Konjunktiv II in full, `sollte`) · U11 Letters from the Authorities (genitive, `wegen /
+  trotz / während`) · U12 News and Reports (`wurde`, passive Präteritum, Plusquamperfekt,
+  `nachdem / bevor`) · U13 Food and Markets (adjective endings without article and in the
+  genitive, attributive comparison) · U14 Living Together (two-part connectors) · U15
+  Discussing and Deciding (`während / seitdem / bis`, `einerseits … andererseits`) · U16 Next
+  Steps (`ohne / statt … zu`, Futur I with `wohl`) with the **B1 checkpoint** as U16 L5. Every
+  later unit has written **recycling duties** (coverage map, CDS-25).
+- **Rationale:** the polite chunks and the Präteritum are needed in almost every later
+  scenario, so they come first. Each case-heavy point waits until its base is recycled
+  (dative relatives and endings after A2's dative and U3's relatives; the full adjective
+  system after the genitive). `da-` compounds come before the zu-infinitive so `darauf, … zu`
+  can be recycled. The passive is split so the Präteritum form arrives with news texts. The
+  themes cover the integration-course topics in the market analysis (work, housing, offices,
+  health, shopping, environment, media, education, living together, opinions) with our own
+  scenarios.
+- **Alternatives considered:** 14 units (would merge housing and complaints or drop the
+  environment unit, and put two major grammar points into several units); Präteritum later
+  (stories and news would have to avoid it); passive in one unit (too much for 5 lessons);
+  Konjunktiv II only in U10 (U1–U9 service scenarios would sound blunt).
+- **Reversibility:** High (content order; ids are assigned per unit, nothing is written yet).
+
+## PD-057: B1 size target is ~510 appendix entries, not ~1,000
+
+- **Date:** 2026-11-16
+- **Decision:** B1's target is **~510 appendix entries** (planned: 508, per lesson in the
+  unit tickets), ~800 word forms with Präteritum, Konjunktiv II, zu-infinitive, passive, case
+  and ending forms. The CDS-3 per-lesson ranges stay (L1–L4: 5–8 items, L5: 2–6, checkpoint
+  2). Up to ~150 more **receptive** words come later with reading passages (CON-DE-B1-RDG,
+  tech item B1-T3). Curriculum §2 now says this.
+- **Rationale:** the "~1,000" figure counted receptive vocabulary, which the tile types can't
+  teach fairly. Reaching 1,000 productive entries would need ~12 items per lesson, which
+  breaks the short-lesson format and PD-046's reasoning (A2 planned 459 and landed at 462).
+  B1 adds a lot of grammar, and grammar multiplies forms without adding entries.
+- **Alternatives considered:** widen CDS-3 to 8–12 items (long, hard lessons; more answer
+  fairness risk); add 6 units (later release for little retention gain).
+- **Reversibility:** High.
+
+## PD-058: B1 content standard additions (CDS-20 … CDS-28) and a 16-exercise checkpoint
+
+- **Date:** 2026-11-16
+- **Decision:** B1 content follows CDS-1 … CDS-19 plus the B1 rules in `curriculum-german.md`
+  §7: CDS-20 longer prompts (≤ 110 characters, ≤ 14 answer tiles, ≤ 2 clauses), CDS-21 tips
+  up to **240 characters** with one-line tables, CDS-22 B1 allowed extras (Präteritum,
+  Konjunktiv II, relative pronouns, zu-infinitives, passive, genitive, endings,
+  n-declension, once each pattern is taught), CDS-23 tense and form mapping and CDS-24 word
+  order (PD-059), CDS-25 recycling duties, CDS-26 safe topics (PD-061), CDS-27 glosses for
+  new meanings, CDS-28 a **16-exercise B1 checkpoint**, one per unit. CDS-20 and CDS-21 fall
+  back to A2's 80 / 200 characters if the tech check B1-T5 fails at 375 × 667.
+- **Rationale:** B1 sentences have two clauses, so 80 characters is too short for many
+  English prompts (the contract allows 280). A B1 rule often needs a small table, which fits
+  in 240 characters. Every rule here works with today's types, so no rule waits for tech.
+- **Alternatives considered:** keep A2's limits (two-clause sentences would be cut into
+  unnatural pieces); 280-character tips (too long to read on a phone before every lesson).
+- **Reversibility:** High.
+
+## PD-059: Tense, form and word-order rules for B1 answers; PD-053 from the start
+
+- **Date:** 2026-11-16
+- **Decision:** (CDS-23, CDS-24) The A2 QA aligned 20 exercises after writing because four
+  writers treated marked orders differently. For B1 the rules are fixed **before** writing:
+  1. PD-043 and PD-053 apply to every B1 word bank from the first lesson.
+  2. Past: Perfekt in dialogue, Präteritum in narration; a tile set builds one past tense
+     (both accepted if both are buildable); an MC never marks the other tense as wrong.
+  3. Clause-first is accepted for the adverbial conjunctions (`weil, wenn, als, obwohl,
+     damit, nachdem, bevor, während, seitdem, bis`) and `um / ohne / statt … zu`; never for
+     `dass`, `ob`, indirect questions, relative clauses or other zu-infinitives.
+  4. Relative clauses right after the noun or after the final verb part only.
+  5. Genitive and `von` + dative both accepted when buildable; `wegen` + dative never.
+  6. No double infinitive in B1; at most 20 accepted answers, and sentences with more than
+     12 valid orders are shortened, never under-listed.
+- **Rationale:** a fixed rule is cheaper than a QA rewrite, and learners shouldn't lose a
+  heart for correct German. Leaving the other past tense unmarked follows real usage (both
+  are correct; the register differs).
+- **Alternatives considered:** canonical order only (fails correct German); let QA decide
+  again (the A2 cost).
+- **Reversibility:** High. Answer lists can be narrowed after a native review.
+
+## PD-060: B1 is written with today's four types; the tech needs list has no writing blocker
+
+- **Date:** 2026-11-16
+- **Decision:** All 16 B1 units are written with multiple choice, word bank, match pairs and
+  listen. The tech needs for the cto (curriculum §4c) are: B1-T1 cloze (CTO-009 / LES-015,
+  v0.5.1; not blocking), B1-T2 typed answers with PD-033 leniency (not blocking), B1-T3
+  reading passage with reverse-direction options (not blocking; recommended for v1.1.0,
+  otherwise v1.1.1), B1-T4 grammar note card with tables (not blocking), B1-T5 a 375 × 667
+  fit check for 240-character tips and 110-character prompts (blocking **only** CDS-20 /
+  CDS-21; fallback to A2 limits), B1-T6 offline caching for 210 lessons, B1-T7 prompt audio
+  (LES-016). Each new type gets a follow-up content ticket that adds exercises with new ids
+  (CON-DE-B1-CLZ, CON-DE-B1-TYP, CON-DE-B1-RDG, all planned). The cto assigns ticket IDs.
+- **Rationale:** the PD-049 approach worked for A2: content never waited for the engine, and
+  the additive follow-up keeps exercise ids stable. Letters and news can be read sentence by
+  sentence in `to_known` word banks until passages exist.
+- **Alternatives considered:** make reading passages a v1.1.0 release blocker (the B1 units
+  would wait on a new contract and component); write B1 only after all types exist (months
+  of idle content capacity).
+- **Reversibility:** High.
+
+## PD-061: Safe topics in B1 scenarios
+
+- **Date:** 2026-11-16
+- **Decision:** CDS-26 extends CDS-8, CDS-11, PD-035 and PD-051 to B1's themes (offices,
+  housing, health system, consumer rights, news, environment, living together, opinions):
+  invented letters and news only; no real events, people, parties, elections; no migration,
+  residence, citizenship or benefit rules; no deadlines, fees, fines, tenancy or insurance
+  rules stated as facts; no diagnoses or doses; environment as personal action without
+  statistics; mild local news only; no religion, alcohol or brands. Discussion topics in U15
+  are everyday choices (working from home, city or countryside, bikes in the courtyard), not
+  political issues.
+- **Rationale:** B1's themes are exactly where content could drift into legal or political
+  claims that are wrong, change over time, or exclude learners.
+- **Alternatives considered:** a fact-checked "Life in Germany" layer (needs legal review;
+  Phase 3 idea).
+- **Reversibility:** High.
+
+## PD-062: Parallel writing of B1 in 4 waves, gap words planned, scripted checks per wave
+
+- **Date:** 2026-11-16
+- **Decision:**
+  1. B1 is written by **4 writers per wave** (PD-052 rules unchanged): wave 1 U1–U4, wave 2
+     U5–U8, wave 3 U9–U12, wave 4 U13–U16, wave 5 CON-DE-B1-QA. The appendices in the unit
+     tickets are fixed; a writer uses A1, A2, earlier B1 appendices and earlier lessons of the
+     own unit only.
+  2. **Gap words:** 48 high-frequency words that A1 and A2 never taught (`verstehen`,
+     `fragen`, `kennen`, `bekommen`, `man`, `nur`, `alle`, `jeder`, `die Arbeit`, …) are
+     planned into U1–U4 appendices. Each ticket also has a "not yet taught" list of tempting
+     words from later units.
+  3. **Scripted checks after each wave**, not only at the end (the A2 QA left them as
+     follow-ups): the orchestrator runs the lexical token scan against the appendices, the
+     word-bank permutation check, the buildability check and the CDS length / case-pair /
+     digit / ordering checks on the wave's lessons. The pm settles vocabulary requests and
+     amends appendices before the next wave starts.
+  4. Writers hand unit fragments to the orchestrator; units are inserted into `course.json`
+     in unit order under a new `B1` level.
+- **Rationale:** sequential writing of 80 lessons would take too long. The A2 QA showed the
+  remaining risks: words used before their appendix, per-writer word-order rules, and
+  recycling gaps. Gap words, PD-059 and recycling duties remove them by plan, and early
+  scripts catch the rest per wave.
+- **Alternatives considered:** one writer (slow); 8 writers per wave (more cross-unit
+  conflicts; wave 2 would depend on unchecked wave 1 work).
+- **Reversibility:** High.
+
+## PD-063: B1 writing starts after the plan; B1 merges into `main` only after v1.0.0
+
+- **Date:** 2026-11-16
+- **Decision:** This revises the ROADMAP's v1.1.0 note ("B1 writing starts after v1.0.0's
+  native review").
+  1. **Writing** may start as soon as CON-DE-B1-PLAN is merged and the B1-T5 check is done.
+     It no longer waits for CON-DE-NR.
+  2. **Merging is unchanged:** no B1 lesson file or `course.json` B1 unit reaches `main`
+     before **v1.0.0 is tagged**. Unit PRs stay open (lesson files are new files, so they
+     don't conflict). The QA wave builds a combined preview branch (`docs/con-de-b1-qa`).
+  3. **Native-review delta:** after CON-DE-NR, the pm lists every A1 / A2 item that the
+     review renamed, removed or re-glossed, checks it against the B1 appendices and lessons
+     (search), and fixes the B1 files before their PRs merge (CON-DE-B1-QA criterion 13).
+  4. A **native-speaker review of B1** (CON-DE-B1-NR, planned) is **blocking for the v1.1.0
+     release**, as PD-038 made it for A1 + A2 at v1.0.0 (CON-DE-B1-QA criterion 14).
+- **Rationale:** keeping B1 out of `main` keeps the launch build exactly A1 + A2 (PD-036)
+  and keeps B1 out of the launch QA and native review scope. Waiting for CON-DE-NR to
+  *start* writing would leave content capacity idle for the whole launch period. The review
+  changes wording, not the grammar order, so a delta pass is enough.
+- **Alternatives considered:** merge B1 into `main` behind a hidden level (needs a feature
+  flag in the course registry: new tech for a temporary need); keep the old rule (B1 ships
+  months later); merge B1 before v1.0.0 and launch with it (untested and unreviewed content
+  at launch).
+- **Reversibility:** High.
