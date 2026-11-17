@@ -1,0 +1,166 @@
+{
+  "id": "de-b1-u04-l3-what-about",
+  "courseId": "en-de",
+  "unitId": "de-b1-u04",
+  "title": "What Are You Talking About?",
+  "tip": "For things, ask with wo- and answer with da-: „Worauf wartest du?“ „Ich warte darauf.“ Before a vowel: wor-, dar- (woran, darüber). For people, use the preposition + pronoun: „Auf wen wartest du?“ „Auf sie.“",
+  "exercises": [
+    {
+      "id": "de-b1-u04-l3-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        { "id": "p1", "learning": "worauf?", "known": "on what?" },
+        { "id": "p2", "learning": "woran?", "known": "of what?" },
+        { "id": "p3", "learning": "worüber?", "known": "about what?" },
+        { "id": "p4", "learning": "darauf", "known": "on it" },
+        { "id": "p5", "learning": "daran", "known": "of it" }
+      ]
+    },
+    {
+      "id": "de-b1-u04-l3-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'Who are you waiting for? (to a friend)'?",
+      "options": [
+        { "id": "a", "text": "Worauf wartest du?" },
+        { "id": "b", "text": "Wen wartest du?" },
+        { "id": "c", "text": "Auf wen wartest du?" },
+        { "id": "d", "text": "Für wen wartest du?" }
+      ],
+      "correctOptionId": "c"
+    },
+    {
+      "id": "de-b1-u04-l3-ex03",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "What are you waiting for? – For the bus. (to a friend)",
+      "tiles": ["worauf", "wartest", "du", "auf", "den", "Bus", "wen", "wofür", "dem", "darauf"],
+      "answers": ["Worauf wartest du? Auf den Bus."]
+    },
+    {
+      "id": "de-b1-u04-l3-ex04",
+      "type": "listen",
+      "audio": { "src": "/audio/de/b1/u04/de-b1-u04-l3-ex04.mp3" },
+      "tiles": [
+        "die",
+        "Antwort",
+        "ich",
+        "warte",
+        "schon",
+        "lange",
+        "darauf",
+        "worauf",
+        "wartet",
+        "daran"
+      ],
+      "answers": ["Die Antwort? Ich warte schon lange darauf."]
+    },
+    {
+      "id": "de-b1-u04-l3-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'What are you talking about? (to two friends)'?",
+      "options": [
+        { "id": "a", "text": "Darüber sprecht ihr?" },
+        { "id": "b", "text": "Worüber sprecht ihr?" },
+        { "id": "c", "text": "Wofür sprecht ihr?" },
+        { "id": "d", "text": "Worüber sprichst ihr?" }
+      ],
+      "correctOptionId": "b"
+    },
+    {
+      "id": "de-b1-u04-l3-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I'm looking forward to it.",
+      "tiles": ["ich", "freue", "mich", "darauf", "worauf", "mir", "freut", "daran"],
+      "answers": ["Ich freue mich darauf.", "Darauf freue ich mich."]
+    },
+    {
+      "id": "de-b1-u04-l3-ex07",
+      "type": "listen",
+      "audio": { "src": "/audio/de/b1/u04/de-b1-u04-l3-ex07.mp3" },
+      "tiles": [
+        "woran",
+        "denkst",
+        "du",
+        "an",
+        "deinen",
+        "Urlaub",
+        "worauf",
+        "denke",
+        "daran",
+        "deine"
+      ],
+      "answers": ["Woran denkst du? An deinen Urlaub?"]
+    },
+    {
+      "id": "de-b1-u04-l3-ex08",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'What are you interested in? (to a friend)'?",
+      "options": [
+        { "id": "a", "text": "Wofür interessierst du dich?" },
+        { "id": "b", "text": "Wofür interessierst dich du?" },
+        { "id": "c", "text": "Dafür interessierst du dich?" },
+        { "id": "d", "text": "Woran interessierst du dich?" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "de-b1-u04-l3-ex09",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Ich interessiere mich nicht dafür.",
+      "tiles": ["I'm", "I", "am", "not", "interested", "in", "it", "for", "interesting"],
+      "answers": ["I'm not interested in it.", "I am not interested in it."]
+    },
+    {
+      "id": "de-b1-u04-l3-ex10",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'I'm waiting for him.'?",
+      "options": [
+        { "id": "a", "text": "Ich warte darauf." },
+        { "id": "b", "text": "Ich warte auf ihm." },
+        { "id": "c", "text": "Ich warte ihn auf." },
+        { "id": "d", "text": "Ich warte auf ihn." }
+      ],
+      "correctOptionId": "d"
+    },
+    {
+      "id": "de-b1-u04-l3-ex11",
+      "type": "listen",
+      "audio": { "src": "/audio/de/b1/u04/de-b1-u04-l3-ex11.mp3" },
+      "tiles": [
+        "auf",
+        "wen",
+        "wartest",
+        "du",
+        "auf",
+        "meine",
+        "Chefin",
+        "worauf",
+        "wer",
+        "meinen",
+        "Chef"
+      ],
+      "answers": ["Auf wen wartest du? Auf meine Chefin."]
+    },
+    {
+      "id": "de-b1-u04-l3-ex12",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "What are you thinking about? – About my family. (to a friend)",
+      "tiles": [
+        "woran",
+        "denkst",
+        "du",
+        "an",
+        "meine",
+        "Familie",
+        "worüber",
+        "daran",
+        "meiner",
+        "auf"
+      ],
+      "answers": ["Woran denkst du? An meine Familie."]
+    }
+  ]
+}

@@ -1,0 +1,168 @@
+{
+  "id": "de-b1-u03-l3-the-friend-i-met",
+  "courseId": "en-de",
+  "unitId": "de-b1-u03",
+  "title": "The Friend I Met",
+  "tip": "Accusative relative pronoun: der → den; die, das and plural die stay the same. „Der Film, den wir gesehen haben, war lustig.“ vertrauen takes the dative: „Ich vertraue ihr.“",
+  "exercises": [
+    {
+      "id": "de-b1-u03-l3-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        { "id": "p1", "learning": "die Freundschaft", "known": "friendship" },
+        { "id": "p2", "learning": "sich verstehen", "known": "to get on" },
+        { "id": "p3", "learning": "sich treffen", "known": "to meet up" },
+        { "id": "p4", "learning": "vertrauen", "known": "to trust" },
+        { "id": "p5", "learning": "die anderen", "known": "the others" }
+      ]
+    },
+    {
+      "id": "de-b1-u03-l3-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'The film we saw was funny.'?",
+      "options": [
+        { "id": "a", "text": "Der Film, der wir gesehen haben, war lustig." },
+        { "id": "b", "text": "Der Film, den wir gesehen haben, war lustig." },
+        { "id": "c", "text": "Der Film, den wir haben gesehen, war lustig." },
+        { "id": "d", "text": "Der Film, den wir gesehen hat, war lustig." }
+      ],
+      "correctOptionId": "b"
+    },
+    {
+      "id": "de-b1-u03-l3-ex03",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "That's the friend I met in the course.",
+      "tiles": [
+        "das",
+        "ist",
+        "die",
+        "die",
+        "Freundin",
+        "der",
+        "Freund",
+        "den",
+        "ich",
+        "im",
+        "Kurs",
+        "kennengelernt",
+        "habe",
+        "hat"
+      ],
+      "answers": [
+        "Das ist die Freundin, die ich im Kurs kennengelernt habe.",
+        "Das ist der Freund, den ich im Kurs kennengelernt habe."
+      ]
+    },
+    {
+      "id": "de-b1-u03-l3-ex04",
+      "type": "listen",
+      "audio": { "src": "/audio/de/b1/u03/de-b1-u03-l3-ex04.mp3" },
+      "tiles": ["wir", "verstehen", "uns", "sehr", "gut", "euch", "versteht", "sich"],
+      "answers": ["Wir verstehen uns sehr gut."]
+    },
+    {
+      "id": "de-b1-u03-l3-ex05",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Shall we meet up on Saturday?",
+      "tiles": ["treffen", "wir", "uns", "am", "Samstag", "trefft", "euch", "um"],
+      "answers": ["Treffen wir uns am Samstag?"]
+    },
+    {
+      "id": "de-b1-u03-l3-ex06",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'I trust her.'?",
+      "options": [
+        { "id": "a", "text": "Ich vertraue sie." },
+        { "id": "b", "text": "Ich vertraue ihn." },
+        { "id": "c", "text": "Ich vertraust ihr." },
+        { "id": "d", "text": "Ich vertraue ihr." }
+      ],
+      "correctOptionId": "d"
+    },
+    {
+      "id": "de-b1-u03-l3-ex07",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Hast du Kontakt zu ihm?",
+      "tiles": ["are", "you", "in", "touch", "contact", "with", "him", "her", "is", "does"],
+      "answers": ["Are you in touch with him?", "Are you in contact with him?"]
+    },
+    {
+      "id": "de-b1-u03-l3-ex08",
+      "type": "listen",
+      "audio": { "src": "/audio/de/b1/u03/de-b1-u03-l3-ex08.mp3" },
+      "tiles": ["die", "anderen", "kommen", "ein", "bisschen", "später", "andere", "kommt", "der"],
+      "answers": ["Die anderen kommen ein bisschen später."]
+    },
+    {
+      "id": "de-b1-u03-l3-ex09",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I met a man that my brother knows.",
+      "tiles": [
+        "ich",
+        "habe",
+        "einen",
+        "Mann",
+        "getroffen",
+        "den",
+        "mein",
+        "Bruder",
+        "kennt",
+        "der",
+        "meinen",
+        "kenne"
+      ],
+      "answers": [
+        "Ich habe einen Mann getroffen, den mein Bruder kennt.",
+        "Ich habe einen Mann, den mein Bruder kennt, getroffen."
+      ]
+    },
+    {
+      "id": "de-b1-u03-l3-ex10",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'The friends we met on Saturday were very nice.'?",
+      "options": [
+        { "id": "a", "text": "Die Freunde, den wir am Samstag getroffen haben, waren sehr nett." },
+        { "id": "b", "text": "Die Freunde, die wir am Samstag getroffen haben, war sehr nett." },
+        { "id": "c", "text": "Die Freunde, die wir am Samstag getroffen haben, waren sehr nett." },
+        { "id": "d", "text": "Die Freunde, die wir haben am Samstag getroffen, waren sehr nett." }
+      ],
+      "correctOptionId": "c"
+    },
+    {
+      "id": "de-b1-u03-l3-ex11",
+      "type": "listen",
+      "audio": { "src": "/audio/de/b1/u03/de-b1-u03-l3-ex11.mp3" },
+      "tiles": [
+        "das",
+        "ist",
+        "eine",
+        "Freundschaft",
+        "die",
+        "ich",
+        "nie",
+        "vergessen",
+        "werde",
+        "den",
+        "wird",
+        "immer"
+      ],
+      "answers": ["Das ist eine Freundschaft, die ich nie vergessen werde."]
+    },
+    {
+      "id": "de-b1-u03-l3-ex12",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Das ist der Nachbar, den alle kennen.",
+      "tiles": ["that's", "the", "neighbour", "that", "who", "everyone", "knows", "know", "nobody"],
+      "answers": [
+        "That's the neighbour everyone knows.",
+        "That's the neighbour that everyone knows.",
+        "That's the neighbour who everyone knows."
+      ]
+    }
+  ]
+}

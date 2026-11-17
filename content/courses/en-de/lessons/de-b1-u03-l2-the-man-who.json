@@ -1,0 +1,203 @@
+{
+  "id": "de-b1-u03-l2-the-man-who",
+  "courseId": "en-de",
+  "unitId": "de-b1-u03",
+  "title": "The Man Who…",
+  "tip": "A relative clause says who you mean. Comma, then the verb goes to the end: „Das ist der Mann, der neben uns wohnt.“ Nominative: der; die; das; plural die. Don't confuse das (who / which) with dass (that).",
+  "exercises": [
+    {
+      "id": "de-b1-u03-l2-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        { "id": "p1", "learning": "jemand", "known": "someone" },
+        { "id": "p2", "learning": "niemand", "known": "nobody" },
+        { "id": "p3", "learning": "alle", "known": "everyone" },
+        { "id": "p4", "learning": "beide", "known": "both" },
+        { "id": "p5", "learning": "allein", "known": "alone" }
+      ]
+    },
+    {
+      "id": "de-b1-u03-l2-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'That's the man who lives next to us.'?",
+      "options": [
+        { "id": "a", "text": "Das ist der Mann, der wohnt neben uns." },
+        { "id": "b", "text": "Das ist der Mann, die neben uns wohnt." },
+        { "id": "c", "text": "Das ist der Mann, der neben uns wohnt." },
+        { "id": "d", "text": "Das ist der Mann, wer neben uns wohnt." }
+      ],
+      "correctOptionId": "c"
+    },
+    {
+      "id": "de-b1-u03-l2-ex03",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I have a friend who can cook well.",
+      "tiles": [
+        "ich",
+        "habe",
+        "eine",
+        "Freundin",
+        "einen",
+        "Freund",
+        "die",
+        "der",
+        "gut",
+        "kochen",
+        "kann",
+        "können"
+      ],
+      "answers": [
+        "Ich habe eine Freundin, die gut kochen kann.",
+        "Ich habe einen Freund, der gut kochen kann."
+      ]
+    },
+    {
+      "id": "de-b1-u03-l2-ex04",
+      "type": "listen",
+      "audio": { "src": "/audio/de/b1/u03/de-b1-u03-l2-ex04.mp3" },
+      "tiles": [
+        "das",
+        "Kind",
+        "das",
+        "hier",
+        "spielt",
+        "ist",
+        "mein",
+        "Sohn",
+        "dass",
+        "der",
+        "spielen"
+      ],
+      "answers": ["Das Kind, das hier spielt, ist mein Sohn."]
+    },
+    {
+      "id": "de-b1-u03-l2-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'The child who is playing here is my son.'?",
+      "options": [
+        { "id": "a", "text": "Das Kind, dass hier spielt, ist mein Sohn." },
+        { "id": "b", "text": "Das Kind, das spielt hier, ist mein Sohn." },
+        { "id": "c", "text": "Das Kind, das hier spielt, ist mein Sohn." },
+        { "id": "d", "text": "Das Kind, der hier spielt, ist mein Sohn." }
+      ],
+      "correctOptionId": "c"
+    },
+    {
+      "id": "de-b1-u03-l2-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Do you know someone who speaks Arabic? (to a friend)",
+      "tiles": [
+        "kennst",
+        "du",
+        "jemanden",
+        "der",
+        "Arabisch",
+        "spricht",
+        "die",
+        "sprichst",
+        "kennen",
+        "wer"
+      ],
+      "answers": ["Kennst du jemanden, der Arabisch spricht?"]
+    },
+    {
+      "id": "de-b1-u03-l2-ex07",
+      "type": "listen",
+      "audio": { "src": "/audio/de/b1/u03/de-b1-u03-l2-ex07.mp3" },
+      "tiles": ["niemand", "war", "zu", "Hause", "jemand", "waren", "nach"],
+      "answers": ["Niemand war zu Hause."]
+    },
+    {
+      "id": "de-b1-u03-l2-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Alle sind willkommen.",
+      "tiles": ["everyone", "all", "is", "are", "welcome", "nobody", "someone"],
+      "answers": ["Everyone is welcome.", "All are welcome."]
+    },
+    {
+      "id": "de-b1-u03-l2-ex09",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'We both live in Cologne.'?",
+      "options": [
+        { "id": "a", "text": "Wir wohnt beide in Köln." },
+        { "id": "b", "text": "Wir wohnen beiden in Köln." },
+        { "id": "c", "text": "Wir wohnen beide nach Köln." },
+        { "id": "d", "text": "Wir wohnen beide in Köln." }
+      ],
+      "correctOptionId": "d"
+    },
+    {
+      "id": "de-b1-u03-l2-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "He lives alone, but he has a few friends.",
+      "tiles": [
+        "er",
+        "wohnt",
+        "allein",
+        "aber",
+        "er",
+        "hat",
+        "ein",
+        "paar",
+        "Freunde",
+        "Freund",
+        "haben",
+        "denn"
+      ],
+      "answers": [
+        "Er wohnt allein, aber er hat ein paar Freunde.",
+        "Er wohnt allein, aber ein paar Freunde hat er.",
+        "Er wohnt allein, aber hat ein paar Freunde.",
+        "Allein wohnt er, aber er hat ein paar Freunde.",
+        "Allein wohnt er, aber ein paar Freunde hat er.",
+        "Allein wohnt er, aber hat ein paar Freunde."
+      ]
+    },
+    {
+      "id": "de-b1-u03-l2-ex11",
+      "type": "listen",
+      "audio": { "src": "/audio/de/b1/u03/de-b1-u03-l2-ex11.mp3" },
+      "tiles": [
+        "jeder",
+        "kennt",
+        "die",
+        "Frau",
+        "die",
+        "im",
+        "Supermarkt",
+        "arbeitet",
+        "der",
+        "kennst",
+        "arbeiten"
+      ],
+      "answers": ["Jeder kennt die Frau, die im Supermarkt arbeitet."]
+    },
+    {
+      "id": "de-b1-u03-l2-ex12",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Ich habe Kollegen, die sehr hilfsbereit sind.",
+      "tiles": [
+        "I",
+        "have",
+        "colleagues",
+        "who",
+        "that",
+        "are",
+        "very",
+        "helpful",
+        "is",
+        "colleague",
+        "has"
+      ],
+      "answers": [
+        "I have colleagues who are very helpful.",
+        "I have colleagues that are very helpful."
+      ]
+    }
+  ]
+}

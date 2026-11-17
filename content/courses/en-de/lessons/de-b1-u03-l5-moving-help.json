@@ -1,0 +1,194 @@
+{
+  "id": "de-b1-u03-l5-moving-help",
+  "courseId": "en-de",
+  "unitId": "de-b1-u03",
+  "title": "Scenario: Help with the Move",
+  "tip": "In a letter or story, use the Präteritum: tragen → trug, helfen → half: „Mein Bruder half uns.“ To say thank you: „Ich bedanke mich für die Hilfe.“ „Ich bin euch sehr dankbar.“",
+  "exercises": [
+    {
+      "id": "de-b1-u03-l5-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        { "id": "p1", "learning": "der Umzug", "known": "the move (house)" },
+        { "id": "p2", "learning": "tragen", "known": "to carry" },
+        { "id": "p3", "learning": "half", "known": "helped" },
+        { "id": "p4", "learning": "sich bedanken", "known": "to say thank you" },
+        { "id": "p5", "learning": "dankbar", "known": "grateful" }
+      ]
+    },
+    {
+      "id": "de-b1-u03-l5-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'Could you help me with the move? (to a friend)'?",
+      "options": [
+        { "id": "a", "text": "Könntest du mir beim Umzug helfen?" },
+        { "id": "b", "text": "Könntest du mich beim Umzug helfen?" },
+        { "id": "c", "text": "Könntest du mir beim Umzug hilfst?" },
+        { "id": "d", "text": "Könntest du mir bei der Umzug helfen?" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "de-b1-u03-l5-ex03",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Who can carry the boxes into the cellar?",
+      "tiles": [
+        "wer",
+        "kann",
+        "die",
+        "Kisten",
+        "in",
+        "den",
+        "Keller",
+        "tragen",
+        "dem",
+        "trägt",
+        "wen"
+      ],
+      "answers": ["Wer kann die Kisten in den Keller tragen?"]
+    },
+    {
+      "id": "de-b1-u03-l5-ex04",
+      "type": "listen",
+      "audio": { "src": "/audio/de/b1/u03/de-b1-u03-l5-ex04.mp3" },
+      "tiles": [
+        "kannst",
+        "du",
+        "mir",
+        "beim",
+        "Umzug",
+        "helfen",
+        "das",
+        "wäre",
+        "sehr",
+        "nett",
+        "mich",
+        "war",
+        "hilfst"
+      ],
+      "answers": ["Kannst du mir beim Umzug helfen? Das wäre sehr nett."]
+    },
+    {
+      "id": "de-b1-u03-l5-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'We carried the boxes into the cellar.'?",
+      "options": [
+        { "id": "a", "text": "Wir trugen die Kisten in den Keller." },
+        { "id": "b", "text": "Wir tragten die Kisten in den Keller." },
+        { "id": "c", "text": "Wir trugen die Kisten in dem Keller." },
+        { "id": "d", "text": "Wir trug die Kisten in den Keller." }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "de-b1-u03-l5-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "My brother helped us with the move. (in a thank-you note)",
+      "tiles": ["mein", "Bruder", "half", "uns", "beim", "Umzug", "hilft", "euch", "meinen"],
+      "answers": [
+        "Mein Bruder half uns beim Umzug.",
+        "Beim Umzug half uns mein Bruder.",
+        "Uns half mein Bruder beim Umzug."
+      ]
+    },
+    {
+      "id": "de-b1-u03-l5-ex07",
+      "type": "listen",
+      "audio": { "src": "/audio/de/b1/u03/de-b1-u03-l5-ex07.mp3" },
+      "tiles": ["ich", "bedanke", "mich", "für", "die", "Hilfe", "mir", "bedankt", "den"],
+      "answers": ["Ich bedanke mich für die Hilfe."]
+    },
+    {
+      "id": "de-b1-u03-l5-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Ich bin euch sehr dankbar.",
+      "tiles": ["I'm", "I", "am", "very", "grateful", "to", "you", "are", "thanks"],
+      "answers": ["I'm very grateful to you.", "I am very grateful to you."]
+    },
+    {
+      "id": "de-b1-u03-l5-ex09",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "When I came to Cologne, I was alone. (in a letter)",
+      "tiles": [
+        "als",
+        "ich",
+        "nach",
+        "Köln",
+        "kam",
+        "war",
+        "ich",
+        "allein",
+        "wenn",
+        "komme",
+        "bin"
+      ],
+      "answers": [
+        "Als ich nach Köln kam, war ich allein.",
+        "Ich war allein, als ich nach Köln kam.",
+        "Allein war ich, als ich nach Köln kam."
+      ]
+    },
+    {
+      "id": "de-b1-u03-l5-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Der Schrank, den wir trugen, war wirklich schwer.",
+      "tiles": [
+        "the",
+        "wardrobe",
+        "we",
+        "that",
+        "which",
+        "carried",
+        "was",
+        "really",
+        "heavy",
+        "carry",
+        "is"
+      ],
+      "answers": [
+        "The wardrobe we carried was really heavy.",
+        "The wardrobe that we carried was really heavy.",
+        "The wardrobe which we carried was really heavy.",
+        "The wardrobe we carried really was heavy.",
+        "The wardrobe that we carried really was heavy.",
+        "The wardrobe which we carried really was heavy."
+      ]
+    },
+    {
+      "id": "de-b1-u03-l5-ex11",
+      "type": "listen",
+      "audio": { "src": "/audio/de/b1/u03/de-b1-u03-l5-ex11.mp3" },
+      "tiles": [
+        "ein",
+        "paar",
+        "Freunde",
+        "kamen",
+        "und",
+        "trugen",
+        "die",
+        "Kisten",
+        "kam",
+        "trug",
+        "Kiste"
+      ],
+      "answers": ["Ein paar Freunde kamen und trugen die Kisten."]
+    },
+    {
+      "id": "de-b1-u03-l5-ex12",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'Everyone needs a friend who always helps.'?",
+      "options": [
+        { "id": "a", "text": "Jeder braucht einen Freund, den immer hilft." },
+        { "id": "b", "text": "Jeder braucht einen Freund, der hilft immer." },
+        { "id": "c", "text": "Jeder braucht einen Freund, der immer hilft." },
+        { "id": "d", "text": "Jeder brauchen einen Freund, der immer hilft." }
+      ],
+      "correctOptionId": "c"
+    }
+  ]
+}

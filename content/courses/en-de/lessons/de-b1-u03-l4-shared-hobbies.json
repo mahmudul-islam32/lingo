@@ -1,0 +1,202 @@
+{
+  "id": "de-b1-u03-l4-shared-hobbies",
+  "courseId": "en-de",
+  "unitId": "de-b1-u03",
+  "title": "Shared Hobbies",
+  "tip": "A relative clause can come after the last verb part: „Ich möchte Leute finden, die gemeinsam kochen.“ Or right after its noun: „Ich möchte Leute, die gemeinsam kochen, finden.“ Both are correct. Spaß machen: „Das macht Spaß!“",
+  "exercises": [
+    {
+      "id": "de-b1-u03-l4-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        { "id": "p1", "learning": "die Gruppe", "known": "the group" },
+        { "id": "p2", "learning": "das Hobby", "known": "the hobby" },
+        { "id": "p3", "learning": "gemeinsam", "known": "together / in common" },
+        { "id": "p4", "learning": "regelmäßig", "known": "regularly" },
+        { "id": "p5", "learning": "das Mitglied", "known": "the member" }
+      ]
+    },
+    {
+      "id": "de-b1-u03-l4-ex02",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I'm looking for a group that hikes together.",
+      "tiles": [
+        "ich",
+        "suche",
+        "eine",
+        "Gruppe",
+        "die",
+        "zusammen",
+        "gemeinsam",
+        "wandert",
+        "der",
+        "wandern",
+        "suchst"
+      ],
+      "answers": [
+        "Ich suche eine Gruppe, die zusammen wandert.",
+        "Ich suche eine Gruppe, die gemeinsam wandert."
+      ]
+    },
+    {
+      "id": "de-b1-u03-l4-ex03",
+      "type": "listen",
+      "audio": { "src": "/audio/de/b1/u03/de-b1-u03-l4-ex03.mp3" },
+      "tiles": [
+        "als",
+        "ich",
+        "nach",
+        "Graz",
+        "kam",
+        "fand",
+        "ich",
+        "ein",
+        "neues",
+        "Hobby",
+        "wenn",
+        "komme",
+        "neue"
+      ],
+      "answers": ["Als ich nach Graz kam, fand ich ein neues Hobby."]
+    },
+    {
+      "id": "de-b1-u03-l4-ex04",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'The course I'm doing is fun.'?",
+      "options": [
+        { "id": "a", "text": "Der Kurs, der ich mache, macht Spaß." },
+        { "id": "b", "text": "Der Kurs, den ich mache, ist Spaß." },
+        { "id": "c", "text": "Der Kurs, den mache ich, macht Spaß." },
+        { "id": "d", "text": "Der Kurs, den ich mache, macht Spaß." }
+      ],
+      "correctOptionId": "d"
+    },
+    {
+      "id": "de-b1-u03-l4-ex05",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "We meet up regularly.",
+      "tiles": ["wir", "treffen", "uns", "regelmäßig", "trefft", "euch", "sich"],
+      "answers": ["Wir treffen uns regelmäßig.", "Regelmäßig treffen wir uns."]
+    },
+    {
+      "id": "de-b1-u03-l4-ex06",
+      "type": "listen",
+      "audio": { "src": "/audio/de/b1/u03/de-b1-u03-l4-ex06.mp3" },
+      "tiles": ["der", "Treffpunkt", "ist", "am", "Bahnhof", "im", "die", "sind"],
+      "answers": ["Der Treffpunkt ist am Bahnhof."]
+    },
+    {
+      "id": "de-b1-u03-l4-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'Ayşe is a member of the club.'?",
+      "options": [
+        { "id": "a", "text": "Ayşe ist Mitglied im Verein." },
+        { "id": "b", "text": "Ayşe ist Mitglied in Verein." },
+        { "id": "c", "text": "Ayşe ist Mitglieder im Verein." },
+        { "id": "d", "text": "Ayşe ist Mitglied am Verein." }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "de-b1-u03-l4-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I'd like to find people who cook together.",
+      "tiles": [
+        "ich",
+        "möchte",
+        "Leute",
+        "finden",
+        "die",
+        "gemeinsam",
+        "zusammen",
+        "kochen",
+        "der",
+        "kocht",
+        "findet"
+      ],
+      "answers": [
+        "Ich möchte Leute finden, die gemeinsam kochen.",
+        "Ich möchte Leute finden, die zusammen kochen.",
+        "Ich möchte Leute, die gemeinsam kochen, finden.",
+        "Ich möchte Leute, die zusammen kochen, finden."
+      ]
+    },
+    {
+      "id": "de-b1-u03-l4-ex09",
+      "type": "listen",
+      "audio": { "src": "/audio/de/b1/u03/de-b1-u03-l4-ex09.mp3" },
+      "tiles": [
+        "jedes",
+        "Mitglied",
+        "das",
+        "kommen",
+        "möchte",
+        "ist",
+        "willkommen",
+        "dass",
+        "jeder",
+        "sind"
+      ],
+      "answers": ["Jedes Mitglied, das kommen möchte, ist willkommen."]
+    },
+    {
+      "id": "de-b1-u03-l4-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Am Samstag kochen wir gemeinsam mit den anderen.",
+      "tiles": [
+        "on",
+        "Saturday",
+        "we",
+        "cook",
+        "together",
+        "with",
+        "the",
+        "others",
+        "other",
+        "cooks",
+        "Sunday"
+      ],
+      "answers": [
+        "On Saturday we cook together with the others.",
+        "We cook together with the others on Saturday."
+      ]
+    },
+    {
+      "id": "de-b1-u03-l4-ex11",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'The people who come to the group are really nice.'?",
+      "options": [
+        { "id": "a", "text": "Die Leute, der zur Gruppe kommen, sind wirklich nett." },
+        { "id": "b", "text": "Die Leute, die kommen zur Gruppe, sind wirklich nett." },
+        { "id": "c", "text": "Die Leute, die zur Gruppe kommen, ist wirklich nett." },
+        { "id": "d", "text": "Die Leute, die zur Gruppe kommen, sind wirklich nett." }
+      ],
+      "correctOptionId": "d"
+    },
+    {
+      "id": "de-b1-u03-l4-ex12",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "My brother has a hobby that is really fun.",
+      "tiles": [
+        "mein",
+        "Bruder",
+        "hat",
+        "ein",
+        "Hobby",
+        "das",
+        "wirklich",
+        "Spaß",
+        "macht",
+        "dass",
+        "der",
+        "machen"
+      ],
+      "answers": ["Mein Bruder hat ein Hobby, das wirklich Spaß macht."]
+    }
+  ]
+}

@@ -1,0 +1,151 @@
+{
+  "id": "de-b1-u03-l1-what-are-they-like",
+  "courseId": "en-de",
+  "unitId": "de-b1-u03",
+  "title": "What Are They Like?",
+  "tip": "After sein, adjectives have no ending: „Er ist nett.“ Before a noun they do: „Er ist ein netter Mensch.“ der Mensch → die Menschen; die Leute is always plural: „Die Leute hier sind hilfsbereit.“",
+  "exercises": [
+    {
+      "id": "de-b1-u03-l1-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        { "id": "p1", "learning": "freundlich", "known": "friendly" },
+        { "id": "p2", "learning": "lustig", "known": "funny" },
+        { "id": "p3", "learning": "ehrlich", "known": "honest" },
+        { "id": "p4", "learning": "geduldig", "known": "patient" },
+        { "id": "p5", "learning": "hilfsbereit", "known": "helpful" }
+      ]
+    },
+    {
+      "id": "de-b1-u03-l1-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'My colleague is very friendly.'?",
+      "options": [
+        { "id": "a", "text": "Meine Kollegin sind sehr freundlich." },
+        { "id": "b", "text": "Mein Kollegin ist sehr freundlich." },
+        { "id": "c", "text": "Meine Kollegin ist sehr freundlich." },
+        { "id": "d", "text": "Meine Kollegin ist sehr freundliche." }
+      ],
+      "correctOptionId": "c"
+    },
+    {
+      "id": "de-b1-u03-l1-ex03",
+      "type": "listen",
+      "audio": { "src": "/audio/de/b1/u03/de-b1-u03-l1-ex03.mp3" },
+      "tiles": ["er", "ist", "lustig", "und", "ehrlich", "sind", "oder", "lustige"],
+      "answers": ["Er ist lustig und ehrlich."]
+    },
+    {
+      "id": "de-b1-u03-l1-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "She is patient with the children.",
+      "tiles": ["sie", "ist", "geduldig", "mit", "den", "Kindern", "dem", "Kind", "sind"],
+      "answers": ["Sie ist geduldig mit den Kindern.", "Mit den Kindern ist sie geduldig."]
+    },
+    {
+      "id": "de-b1-u03-l1-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'The people here are helpful.'?",
+      "options": [
+        { "id": "a", "text": "Die Leute hier sind hilfsbereit." },
+        { "id": "b", "text": "Die Leute hier ist hilfsbereit." },
+        { "id": "c", "text": "Der Leute hier sind hilfsbereit." },
+        { "id": "d", "text": "Die Leute hier sind hilfsbereite." }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "de-b1-u03-l1-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "He is a nice person.",
+      "tiles": ["er", "ist", "ein", "netter", "Mensch", "nettes", "Menschen", "sind"],
+      "answers": ["Er ist ein netter Mensch."]
+    },
+    {
+      "id": "de-b1-u03-l1-ex07",
+      "type": "listen",
+      "audio": { "src": "/audio/de/b1/u03/de-b1-u03-l1-ex07.mp3" },
+      "tiles": ["wie", "ist", "sie", "als", "Person", "wo", "sind", "Personen"],
+      "answers": ["Wie ist sie als Person?"]
+    },
+    {
+      "id": "de-b1-u03-l1-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Meine Nachbarin ist sehr hilfsbereit.",
+      "tiles": ["my", "neighbour", "is", "very", "helpful", "are", "friendly", "a"],
+      "answers": ["My neighbour is very helpful."]
+    },
+    {
+      "id": "de-b1-u03-l1-ex09",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'What is your colleague like as a person? (to a friend)'?",
+      "options": [
+        { "id": "a", "text": "Was ist deine Kollegin als Person?" },
+        { "id": "b", "text": "Wie ist deine Kollegin als Person?" },
+        { "id": "c", "text": "Wie ist deine Kollegin wie Person?" },
+        { "id": "d", "text": "Wie sind deine Kollegin als Person?" }
+      ],
+      "correctOptionId": "b"
+    },
+    {
+      "id": "de-b1-u03-l1-ex10",
+      "type": "listen",
+      "audio": { "src": "/audio/de/b1/u03/de-b1-u03-l1-ex10.mp3" },
+      "tiles": ["die", "Menschen", "hier", "sind", "sehr", "freundlich", "Mensch", "ist", "der"],
+      "answers": ["Die Menschen hier sind sehr freundlich."]
+    },
+    {
+      "id": "de-b1-u03-l1-ex11",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "My friends are funny and helpful.",
+      "tiles": [
+        "meine",
+        "Freunde",
+        "Freundinnen",
+        "sind",
+        "lustig",
+        "und",
+        "hilfsbereit",
+        "ist",
+        "mein",
+        "oder"
+      ],
+      "answers": [
+        "Meine Freunde sind lustig und hilfsbereit.",
+        "Meine Freundinnen sind lustig und hilfsbereit.",
+        "Meine Freunde sind hilfsbereit und lustig.",
+        "Meine Freundinnen sind hilfsbereit und lustig."
+      ]
+    },
+    {
+      "id": "de-b1-u03-l1-ex12",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Die Leute im Kurs sind nett und geduldig.",
+      "tiles": [
+        "the",
+        "people",
+        "in",
+        "the",
+        "class",
+        "course",
+        "are",
+        "nice",
+        "and",
+        "patient",
+        "is",
+        "person"
+      ],
+      "answers": [
+        "The people in the class are nice and patient.",
+        "The people in the course are nice and patient.",
+        "The people in the class are patient and nice.",
+        "The people in the course are patient and nice."
+      ]
+    }
+  ]
+}

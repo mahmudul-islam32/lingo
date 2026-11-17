@@ -3,7 +3,7 @@
   "title": "German",
   "learningLanguage": "de",
   "knownLanguage": "en",
-  "version": 17,
+  "version": 18,
   "levels": [
     {
       "level": "A1",
@@ -808,6 +808,62 @@
         {
           "id": "de-b1-u02-l5-how-we-met",
           "title": "Scenario: How We Met"
+        }
+      ]
+    },
+    {
+      "id": "de-b1-u03",
+      "level": "B1",
+      "title": "People Around Me",
+      "description": "Describe people and friendships, and say who you mean with relative clauses.",
+      "lessons": [
+        {
+          "id": "de-b1-u03-l1-what-are-they-like",
+          "title": "What Are They Like?"
+        },
+        {
+          "id": "de-b1-u03-l2-the-man-who",
+          "title": "The Man Who…"
+        },
+        {
+          "id": "de-b1-u03-l3-the-friend-i-met",
+          "title": "The Friend I Met"
+        },
+        {
+          "id": "de-b1-u03-l4-shared-hobbies",
+          "title": "Shared Hobbies"
+        },
+        {
+          "id": "de-b1-u03-l5-moving-help",
+          "title": "Scenario: Help with the Move"
+        }
+      ]
+    },
+    {
+      "id": "de-b1-u04",
+      "level": "B1",
+      "title": "Everyday Work",
+      "description": "Talk about tasks and problems at work, and use verbs with prepositions, worauf and darauf.",
+      "lessons": [
+        {
+          "id": "de-b1-u04-l1-tasks",
+          "title": "Tasks at Work"
+        },
+        {
+          "id": "de-b1-u04-l2-waiting-for",
+          "title": "Waiting for an Answer"
+        },
+        {
+          "id": "de-b1-u04-l3-what-about",
+          "title": "What Are You Talking About?"
+        },
+        {
+          "id": "de-b1-u04-l4-printer-problem",
+          "title": "The Printer Doesn't Work"
+        },
+        {
+          "id": "de-b1-u04-l5-coffee-machine",
+          "title": "Scenario: At the Coffee Machine"
         }
       ]
     }

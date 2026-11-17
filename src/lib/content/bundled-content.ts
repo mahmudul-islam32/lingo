@@ -482,6 +482,36 @@ export const BUNDLED_CONTENT: ContentLoaders = {
       "de-b1-u02-l5-how-we-met": json(
         () => import("../../../content/courses/en-de/lessons/de-b1-u02-l5-how-we-met.json"),
       ),
+      "de-b1-u03-l1-what-are-they-like": json(
+        () => import("../../../content/courses/en-de/lessons/de-b1-u03-l1-what-are-they-like.json"),
+      ),
+      "de-b1-u03-l2-the-man-who": json(
+        () => import("../../../content/courses/en-de/lessons/de-b1-u03-l2-the-man-who.json"),
+      ),
+      "de-b1-u03-l3-the-friend-i-met": json(
+        () => import("../../../content/courses/en-de/lessons/de-b1-u03-l3-the-friend-i-met.json"),
+      ),
+      "de-b1-u03-l4-shared-hobbies": json(
+        () => import("../../../content/courses/en-de/lessons/de-b1-u03-l4-shared-hobbies.json"),
+      ),
+      "de-b1-u03-l5-moving-help": json(
+        () => import("../../../content/courses/en-de/lessons/de-b1-u03-l5-moving-help.json"),
+      ),
+      "de-b1-u04-l1-tasks": json(
+        () => import("../../../content/courses/en-de/lessons/de-b1-u04-l1-tasks.json"),
+      ),
+      "de-b1-u04-l2-waiting-for": json(
+        () => import("../../../content/courses/en-de/lessons/de-b1-u04-l2-waiting-for.json"),
+      ),
+      "de-b1-u04-l3-what-about": json(
+        () => import("../../../content/courses/en-de/lessons/de-b1-u04-l3-what-about.json"),
+      ),
+      "de-b1-u04-l4-printer-problem": json(
+        () => import("../../../content/courses/en-de/lessons/de-b1-u04-l4-printer-problem.json"),
+      ),
+      "de-b1-u04-l5-coffee-machine": json(
+        () => import("../../../content/courses/en-de/lessons/de-b1-u04-l5-coffee-machine.json"),
+      ),
     },
     "en-es": {
       "u1-l1-hello": json(() => import("../../../content/courses/en-es/lessons/u1-l1-hello.json")),

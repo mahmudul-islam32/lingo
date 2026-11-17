@@ -1,0 +1,219 @@
+{
+  "id": "de-b1-u04-l4-printer-problem",
+  "courseId": "en-de",
+  "unitId": "de-b1-u04",
+  "title": "The Printer Doesn't Work",
+  "tip": "Reporting a problem: „Der Drucker druckt nicht.“ „Das ist falsch.“ Ask who sees to it with a da-word: „Wer kümmert sich darum?“ (da + um). „eigentlich“ = actually; „ganz“ = quite: „Das ist ganz einfach.“ (einfach = simple)",
+  "exercises": [
+    {
+      "id": "de-b1-u04-l4-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        { "id": "p1", "learning": "der Drucker", "known": "the printer" },
+        { "id": "p2", "learning": "drucken", "known": "to print" },
+        { "id": "p3", "learning": "der Fehler", "known": "the mistake" },
+        { "id": "p4", "learning": "das Programm", "known": "the program" },
+        { "id": "p5", "learning": "falsch", "known": "wrong" }
+      ]
+    },
+    {
+      "id": "de-b1-u04-l4-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'The printer isn't printing.'?",
+      "options": [
+        { "id": "a", "text": "Der Drucker nicht druckt." },
+        { "id": "b", "text": "Der Drucker druckt nicht." },
+        { "id": "c", "text": "Der Drucker druckt kein." },
+        { "id": "d", "text": "Die Drucker druckt nicht." }
+      ],
+      "correctOptionId": "b"
+    },
+    {
+      "id": "de-b1-u04-l4-ex03",
+      "type": "listen",
+      "audio": { "src": "/audio/de/b1/u04/de-b1-u04-l4-ex03.mp3" },
+      "tiles": [
+        "das",
+        "Programm",
+        "funktioniert",
+        "schlecht",
+        "ich",
+        "verstehe",
+        "das",
+        "nicht",
+        "falsch",
+        "funktionieren",
+        "verstehst"
+      ],
+      "answers": ["Das Programm funktioniert schlecht. Ich verstehe das nicht."]
+    },
+    {
+      "id": "de-b1-u04-l4-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "That's wrong. I made a mistake.",
+      "tiles": [
+        "das",
+        "ist",
+        "falsch",
+        "ich",
+        "habe",
+        "einen",
+        "Fehler",
+        "gemacht",
+        "bin",
+        "ein",
+        "macht",
+        "richtig"
+      ],
+      "answers": [
+        "Das ist falsch. Ich habe einen Fehler gemacht.",
+        "Das ist falsch. Einen Fehler habe ich gemacht."
+      ]
+    },
+    {
+      "id": "de-b1-u04-l4-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'Actually, that's quite easy.'?",
+      "options": [
+        { "id": "a", "text": "Eigentlich das ist ganz einfach." },
+        { "id": "b", "text": "Eigentlich ist das ganz einfache." },
+        { "id": "c", "text": "Eigentlich ist das ganz einfach." },
+        { "id": "d", "text": "Eigentlich ist ganz das einfach." }
+      ],
+      "correctOptionId": "c"
+    },
+    {
+      "id": "de-b1-u04-l4-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "The printer is broken. Who's taking care of it?",
+      "tiles": [
+        "der",
+        "Drucker",
+        "ist",
+        "kaputt",
+        "wer",
+        "kümmert",
+        "sich",
+        "darum",
+        "mich",
+        "dafür",
+        "falsch"
+      ],
+      "answers": ["Der Drucker ist kaputt. Wer kümmert sich darum?"]
+    },
+    {
+      "id": "de-b1-u04-l4-ex07",
+      "type": "listen",
+      "audio": { "src": "/audio/de/b1/u04/de-b1-u04-l4-ex07.mp3" },
+      "tiles": [
+        "kennst",
+        "du",
+        "jemanden",
+        "der",
+        "den",
+        "Drucker",
+        "reparieren",
+        "kann",
+        "die",
+        "kannst",
+        "repariert",
+        "niemand"
+      ],
+      "answers": ["Kennst du jemanden, der den Drucker reparieren kann?"]
+    },
+    {
+      "id": "de-b1-u04-l4-ex08",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'The printer? I'll take care of it.'?",
+      "options": [
+        { "id": "a", "text": "Der Drucker? Ich kümmere mich darum." },
+        { "id": "b", "text": "Der Drucker? Ich kümmere darum mich." },
+        { "id": "c", "text": "Der Drucker? Ich kümmere mich daran." },
+        { "id": "d", "text": "Der Drucker? Ich kümmere mich dafür." }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "de-b1-u04-l4-ex09",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Eigentlich ist der Drucker ganz neu.",
+      "tiles": [
+        "actually",
+        "the",
+        "printer",
+        "is",
+        "quite",
+        "really",
+        "new",
+        "old",
+        "program",
+        "wrong"
+      ],
+      "answers": [
+        "Actually, the printer is quite new.",
+        "The printer is actually quite new.",
+        "The printer is quite new, actually.",
+        "Actually, the printer is really new.",
+        "The printer is actually really new.",
+        "The printer is really new, actually."
+      ]
+    },
+    {
+      "id": "de-b1-u04-l4-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Could you print that for me? (formal)",
+      "tiles": ["könnten", "Sie", "das", "für", "mich", "drucken", "druckt", "konnten", "dich"],
+      "answers": ["Könnten Sie das für mich drucken?"]
+    },
+    {
+      "id": "de-b1-u04-l4-ex11",
+      "type": "listen",
+      "audio": { "src": "/audio/de/b1/u04/de-b1-u04-l4-ex11.mp3" },
+      "tiles": [
+        "die",
+        "Adresse",
+        "ist",
+        "falsch",
+        "kannst",
+        "du",
+        "das",
+        "Formular",
+        "noch",
+        "einmal",
+        "drucken",
+        "richtig",
+        "druckst"
+      ],
+      "answers": ["Die Adresse ist falsch. Kannst du das Formular noch einmal drucken?"]
+    },
+    {
+      "id": "de-b1-u04-l4-ex12",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "The printer prints badly because the program is old.",
+      "tiles": [
+        "der",
+        "Drucker",
+        "druckt",
+        "schlecht",
+        "weil",
+        "das",
+        "Programm",
+        "alt",
+        "ist",
+        "neu",
+        "dass",
+        "drucken"
+      ],
+      "answers": [
+        "Der Drucker druckt schlecht, weil das Programm alt ist.",
+        "Weil das Programm alt ist, druckt der Drucker schlecht.",
+        "Schlecht druckt der Drucker, weil das Programm alt ist."
+      ]
+    }
+  ]
+}

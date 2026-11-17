@@ -1,0 +1,210 @@
+{
+  "id": "de-b1-u04-l5-coffee-machine",
+  "courseId": "en-de",
+  "unitId": "de-b1-u04",
+  "title": "Scenario: At the Coffee Machine",
+  "tip": "Friday small talk: „Hast du schon Feierabend?“ „Worauf freust du dich am Wochenende?“ For a thing, answer with da-: „Ich freue mich sehr darauf.“ For a person: „auf ihn“, „auf sie“. Then: „Schönes Wochenende!“",
+  "exercises": [
+    {
+      "id": "de-b1-u04-l5-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        { "id": "p1", "learning": "die Kaffeemaschine", "known": "the coffee machine" },
+        { "id": "p2", "learning": "der Feierabend", "known": "the end of the working day" },
+        { "id": "p3", "learning": "natürlich", "known": "of course" },
+        { "id": "p4", "learning": "schönes Wochenende!", "known": "have a nice weekend!" },
+        { "id": "p5", "learning": "kaputt", "known": "broken" }
+      ]
+    },
+    {
+      "id": "de-b1-u04-l5-ex02",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Are you done for the day already? (to a colleague, informal)",
+      "tiles": ["hast", "du", "schon", "Feierabend", "hat", "bist", "schön"],
+      "answers": ["Hast du schon Feierabend?"]
+    },
+    {
+      "id": "de-b1-u04-l5-ex03",
+      "type": "listen",
+      "audio": { "src": "/audio/de/b1/u04/de-b1-u04-l5-ex03.mp3" },
+      "tiles": [
+        "die",
+        "Kaffeemaschine",
+        "ist",
+        "kaputt",
+        "das",
+        "ist",
+        "wirklich",
+        "schlecht",
+        "falsch",
+        "sind",
+        "Drucker"
+      ],
+      "answers": ["Die Kaffeemaschine ist kaputt. Das ist wirklich schlecht!"]
+    },
+    {
+      "id": "de-b1-u04-l5-ex04",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'What are you looking forward to at the weekend? (to a colleague, informal)'?",
+      "options": [
+        { "id": "a", "text": "Worauf freust dich du am Wochenende?" },
+        { "id": "b", "text": "Darauf freust du dich am Wochenende?" },
+        { "id": "c", "text": "Worüber freust du dich am Wochenende?" },
+        { "id": "d", "text": "Worauf freust du dich am Wochenende?" }
+      ],
+      "correctOptionId": "d"
+    },
+    {
+      "id": "de-b1-u04-l5-ex05",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "My brother is coming. I'm looking forward to seeing him.",
+      "tiles": [
+        "mein",
+        "Bruder",
+        "kommt",
+        "ich",
+        "freue",
+        "mich",
+        "auf",
+        "ihn",
+        "darauf",
+        "ihm",
+        "kommen"
+      ],
+      "answers": [
+        "Mein Bruder kommt. Ich freue mich auf ihn.",
+        "Mein Bruder kommt. Auf ihn freue ich mich."
+      ]
+    },
+    {
+      "id": "de-b1-u04-l5-ex06",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'I'm looking forward to it very much.'?",
+      "options": [
+        { "id": "a", "text": "Ich freue sehr mich darauf." },
+        { "id": "b", "text": "Ich freue mich sehr darauf." },
+        { "id": "c", "text": "Ich freue mich sehr dafür." },
+        { "id": "d", "text": "Ich freue mir sehr darauf." }
+      ],
+      "correctOptionId": "b"
+    },
+    {
+      "id": "de-b1-u04-l5-ex07",
+      "type": "listen",
+      "audio": { "src": "/audio/de/b1/u04/de-b1-u04-l5-ex07.mp3" },
+      "tiles": [
+        "natürlich",
+        "am",
+        "Freitag",
+        "habe",
+        "ich",
+        "immer",
+        "früh",
+        "Feierabend",
+        "hast",
+        "nie",
+        "Montag"
+      ],
+      "answers": ["Natürlich! Am Freitag habe ich immer früh Feierabend."]
+    },
+    {
+      "id": "de-b1-u04-l5-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Die Kaffeemaschine ist kaputt. Wer kümmert sich darum?",
+      "tiles": [
+        "the",
+        "coffee",
+        "machine",
+        "is",
+        "is",
+        "broken",
+        "who's",
+        "who",
+        "taking",
+        "care",
+        "of",
+        "it",
+        "them"
+      ],
+      "answers": [
+        "The coffee machine is broken. Who's taking care of it?",
+        "The coffee machine is broken. Who is taking care of it?"
+      ]
+    },
+    {
+      "id": "de-b1-u04-l5-ex09",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'Have a nice weekend! – Thanks, you too! (to a colleague, informal)'?",
+      "options": [
+        { "id": "a", "text": "Schönes Wochenende! – Danke, dich auch!" },
+        { "id": "b", "text": "Schöner Wochenende! – Danke, dir auch!" },
+        { "id": "c", "text": "Schönes Wochenende! – Danke, dir auch!" },
+        { "id": "d", "text": "Schönes Wochenende! – Danke, mir auch!" }
+      ],
+      "correctOptionId": "c"
+    },
+    {
+      "id": "de-b1-u04-l5-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Could you let the caretaker know? – Of course! (to a colleague, informal)",
+      "tiles": [
+        "könntest",
+        "du",
+        "dem",
+        "Hausmeister",
+        "Bescheid",
+        "sagen",
+        "natürlich",
+        "den",
+        "sagst",
+        "mir"
+      ],
+      "answers": ["Könntest du dem Hausmeister Bescheid sagen? Natürlich!"]
+    },
+    {
+      "id": "de-b1-u04-l5-ex11",
+      "type": "listen",
+      "audio": { "src": "/audio/de/b1/u04/de-b1-u04-l5-ex11.mp3" },
+      "tiles": [
+        "Kuchen",
+        "für",
+        "das",
+        "Team",
+        "darüber",
+        "freuen",
+        "sich",
+        "alle",
+        "worüber",
+        "darauf",
+        "freut",
+        "uns"
+      ],
+      "answers": ["Kuchen für das Team? Darüber freuen sich alle!"]
+    },
+    {
+      "id": "de-b1-u04-l5-ex12",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "The meeting on Monday? Are you taking part in it? (to a colleague, informal)",
+      "tiles": [
+        "die",
+        "Besprechung",
+        "am",
+        "Montag",
+        "nimmst",
+        "du",
+        "daran",
+        "teil",
+        "darauf",
+        "an",
+        "nimmt",
+        "Freitag"
+      ],
+      "answers": ["Die Besprechung am Montag? Nimmst du daran teil?"]
+    }
+  ]
+}

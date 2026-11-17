@@ -1,0 +1,192 @@
+{
+  "id": "de-b1-u04-l1-tasks",
+  "courseId": "en-de",
+  "unitId": "de-b1-u04",
+  "title": "Tasks at Work",
+  "tip": "Work words: „die Arbeit“ (work), „die Aufgabe“ (a task). „fertig“ means finished or ready: „Die Arbeit ist fertig.“ After a modal verb, the infinitive goes last: „Kannst du das heute erledigen?“",
+  "exercises": [
+    {
+      "id": "de-b1-u04-l1-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        { "id": "p1", "learning": "die Arbeit", "known": "work / the job" },
+        { "id": "p2", "learning": "die Aufgabe", "known": "the task" },
+        { "id": "p3", "learning": "die Besprechung", "known": "the meeting" },
+        { "id": "p4", "learning": "die Schicht", "known": "the shift" },
+        { "id": "p5", "learning": "erledigen", "known": "to get done" }
+      ]
+    },
+    {
+      "id": "de-b1-u04-l1-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'What is your task? (to a colleague, informal)'?",
+      "options": [
+        { "id": "a", "text": "Was ist dein Aufgabe?" },
+        { "id": "b", "text": "Was ist deine Aufgabe?" },
+        { "id": "c", "text": "Was deine Aufgabe ist?" },
+        { "id": "d", "text": "Wie ist deine Aufgabe?" }
+      ],
+      "correctOptionId": "b"
+    },
+    {
+      "id": "de-b1-u04-l1-ex03",
+      "type": "listen",
+      "audio": { "src": "/audio/de/b1/u04/de-b1-u04-l1-ex03.mp3" },
+      "tiles": [
+        "die",
+        "Arbeit",
+        "ist",
+        "fertig",
+        "ich",
+        "gehe",
+        "jetzt",
+        "nach",
+        "Hause",
+        "Aufgabe",
+        "gehst",
+        "zu"
+      ],
+      "answers": ["Die Arbeit ist fertig. Ich gehe jetzt nach Hause."]
+    },
+    {
+      "id": "de-b1-u04-l1-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "We have a meeting at ten.",
+      "tiles": ["wir", "haben", "um", "zehn", "eine", "Besprechung", "hat", "einen", "zwei"],
+      "answers": [
+        "Wir haben um zehn eine Besprechung.",
+        "Um zehn haben wir eine Besprechung.",
+        "Wir haben eine Besprechung um zehn.",
+        "Eine Besprechung haben wir um zehn."
+      ]
+    },
+    {
+      "id": "de-b1-u04-l1-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'My shift starts at six.'?",
+      "options": [
+        { "id": "a", "text": "Mein Schicht beginnt um sechs." },
+        { "id": "b", "text": "Meine Schicht beginnen um sechs." },
+        { "id": "c", "text": "Meine Schicht beginnt um sechs." },
+        { "id": "d", "text": "Um sechs meine Schicht beginnt." }
+      ],
+      "correctOptionId": "c"
+    },
+    {
+      "id": "de-b1-u04-l1-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Can you get that done today? (to a colleague, informal)",
+      "tiles": ["kannst", "du", "das", "heute", "erledigen", "erledigst", "kann", "dich"],
+      "answers": ["Kannst du das heute erledigen?"]
+    },
+    {
+      "id": "de-b1-u04-l1-ex07",
+      "type": "listen",
+      "audio": { "src": "/audio/de/b1/u04/de-b1-u04-l1-ex07.mp3" },
+      "tiles": [
+        "könntest",
+        "du",
+        "mir",
+        "heute",
+        "helfen",
+        "die",
+        "Aufgabe",
+        "ist",
+        "neu",
+        "mich",
+        "kannst",
+        "Arbeit"
+      ],
+      "answers": ["Könntest du mir heute helfen? Die Aufgabe ist neu."]
+    },
+    {
+      "id": "de-b1-u04-l1-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Wir müssen das wieder machen.",
+      "tiles": ["we", "have", "to", "do", "that", "it", "again", "did", "they"],
+      "answers": ["We have to do that again.", "We have to do it again."]
+    },
+    {
+      "id": "de-b1-u04-l1-ex09",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'I have to work again tomorrow.'?",
+      "options": [
+        { "id": "a", "text": "Ich muss morgen wieder arbeiten." },
+        { "id": "b", "text": "Ich muss morgen wieder arbeite." },
+        { "id": "c", "text": "Ich muss arbeiten morgen wieder." },
+        { "id": "d", "text": "Ich wieder muss morgen arbeiten." }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "de-b1-u04-l1-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Jonas is the colleague who does this task.",
+      "tiles": [
+        "Jonas",
+        "ist",
+        "der",
+        "Kollege",
+        "der",
+        "diese",
+        "Aufgabe",
+        "macht",
+        "den",
+        "machen",
+        "Kollegin"
+      ],
+      "answers": [
+        "Jonas ist der Kollege, der diese Aufgabe macht.",
+        "Der Kollege, der diese Aufgabe macht, ist Jonas."
+      ]
+    },
+    {
+      "id": "de-b1-u04-l1-ex11",
+      "type": "listen",
+      "audio": { "src": "/audio/de/b1/u04/de-b1-u04-l1-ex11.mp3" },
+      "tiles": [
+        "ist",
+        "die",
+        "Arbeit",
+        "fertig",
+        "ja",
+        "ich",
+        "habe",
+        "alles",
+        "erledigt",
+        "erledigen",
+        "hat",
+        "nein"
+      ],
+      "answers": ["Ist die Arbeit fertig? Ja, ich habe alles erledigt."]
+    },
+    {
+      "id": "de-b1-u04-l1-ex12",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Könnten Sie mir bitte die Aufgabe erklären?",
+      "tiles": [
+        "could",
+        "you",
+        "please",
+        "explain",
+        "the",
+        "task",
+        "to",
+        "me",
+        "shift",
+        "us",
+        "explained"
+      ],
+      "answers": [
+        "Could you please explain the task to me?",
+        "Could you explain the task to me, please?",
+        "Please could you explain the task to me?"
+      ]
+    }
+  ]
+}

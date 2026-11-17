@@ -1,0 +1,150 @@
+{
+  "id": "de-b1-u04-l2-waiting-for",
+  "courseId": "en-de",
+  "unitId": "de-b1-u04",
+  "title": "Waiting for an Answer",
+  "tip": "Some verbs need a fixed preposition; learn them as one item: warten auf, denken an, sprechen über, sich freuen auf / über, sich kümmern um, sich interessieren für (+ acc.); teilnehmen an (+ dat.). „Ich warte auf eine Antwort.“",
+  "exercises": [
+    {
+      "id": "de-b1-u04-l2-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        { "id": "p1", "learning": "warten auf", "known": "to wait for" },
+        { "id": "p2", "learning": "sich freuen auf", "known": "to look forward to" },
+        { "id": "p3", "learning": "sich freuen über", "known": "to be pleased about" },
+        { "id": "p4", "learning": "sich kümmern um", "known": "to take care of" },
+        { "id": "p5", "learning": "teilnehmen an", "known": "to take part in" }
+      ]
+    },
+    {
+      "id": "de-b1-u04-l2-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'I'm waiting for an answer.'?",
+      "options": [
+        { "id": "a", "text": "Ich warte auf eine Antwort." },
+        { "id": "b", "text": "Ich warte für eine Antwort." },
+        { "id": "c", "text": "Ich warte an eine Antwort." },
+        { "id": "d", "text": "Ich warte auf einer Antwort." }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "de-b1-u04-l2-ex03",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "We're looking forward to the weekend.",
+      "tiles": ["wir", "freuen", "uns", "auf", "das", "Wochenende", "über", "euch", "freut", "dem"],
+      "answers": ["Wir freuen uns auf das Wochenende.", "Auf das Wochenende freuen wir uns."]
+    },
+    {
+      "id": "de-b1-u04-l2-ex04",
+      "type": "listen",
+      "audio": { "src": "/audio/de/b1/u04/de-b1-u04-l2-ex04.mp3" },
+      "tiles": ["ich", "freue", "mich", "über", "das", "Geschenk", "danke", "auf", "mir", "freut"],
+      "answers": ["Ich freue mich über das Geschenk. Danke!"]
+    },
+    {
+      "id": "de-b1-u04-l2-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'Are you taking part in the meeting? (to a colleague, informal)'?",
+      "options": [
+        { "id": "a", "text": "Nimmst du an die Besprechung teil?" },
+        { "id": "b", "text": "Teilnimmst du an der Besprechung?" },
+        { "id": "c", "text": "Nimmst du an der Besprechung teil?" },
+        { "id": "d", "text": "Nimmst du an der Besprechung?" }
+      ],
+      "correctOptionId": "c"
+    },
+    {
+      "id": "de-b1-u04-l2-ex06",
+      "type": "listen",
+      "audio": { "src": "/audio/de/b1/u04/de-b1-u04-l2-ex06.mp3" },
+      "tiles": ["ich", "denke", "oft", "an", "meine", "Familie", "auf", "meiner", "denkst"],
+      "answers": ["Ich denke oft an meine Familie."]
+    },
+    {
+      "id": "de-b1-u04-l2-ex07",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "We're talking about the plan.",
+      "tiles": ["wir", "sprechen", "über", "den", "Plan", "sprecht", "dem", "auf", "der"],
+      "answers": ["Wir sprechen über den Plan.", "Über den Plan sprechen wir."]
+    },
+    {
+      "id": "de-b1-u04-l2-ex08",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'Who is taking care of the guests?'",
+      "options": [
+        { "id": "a", "text": "Wer kümmert um die Gäste sich?" },
+        { "id": "b", "text": "Wer kümmert sich für die Gäste?" },
+        { "id": "c", "text": "Wer kümmert sich um den Gäste?" },
+        { "id": "d", "text": "Wer kümmert sich um die Gäste?" }
+      ],
+      "correctOptionId": "d"
+    },
+    {
+      "id": "de-b1-u04-l2-ex09",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Ich interessiere mich für Computer.",
+      "tiles": ["I'm", "I", "am", "interested", "in", "computers", "for", "interesting"],
+      "answers": ["I'm interested in computers.", "I am interested in computers."]
+    },
+    {
+      "id": "de-b1-u04-l2-ex10",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'I'm thinking of you. (to a friend)'?",
+      "options": [
+        { "id": "a", "text": "Ich denke an dir." },
+        { "id": "b", "text": "Ich denke an dich." },
+        { "id": "c", "text": "Ich denke auf dich." },
+        { "id": "d", "text": "Ich denke dich an." }
+      ],
+      "correctOptionId": "b"
+    },
+    {
+      "id": "de-b1-u04-l2-ex11",
+      "type": "listen",
+      "audio": { "src": "/audio/de/b1/u04/de-b1-u04-l2-ex11.mp3" },
+      "tiles": [
+        "Frau",
+        "Yilmaz",
+        "ist",
+        "die",
+        "Kollegin",
+        "die",
+        "sich",
+        "um",
+        "die",
+        "Gäste",
+        "kümmert",
+        "für",
+        "kümmern",
+        "der"
+      ],
+      "answers": ["Frau Yilmaz ist die Kollegin, die sich um die Gäste kümmert."]
+    },
+    {
+      "id": "de-b1-u04-l2-ex12",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I don't know if he's taking part in the meeting.",
+      "tiles": [
+        "ich",
+        "weiß",
+        "nicht",
+        "ob",
+        "er",
+        "an",
+        "der",
+        "Besprechung",
+        "teilnimmt",
+        "die",
+        "nimmt",
+        "teil",
+        "dass"
+      ],
+      "answers": ["Ich weiß nicht, ob er an der Besprechung teilnimmt."]
+    }
+  ]
+}
