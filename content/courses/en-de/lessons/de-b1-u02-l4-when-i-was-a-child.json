@@ -1,0 +1,211 @@
+{
+  "id": "de-b1-u02-l4-when-i-was-a-child",
+  "courseId": "en-de",
+  "unitId": "de-b1-u02",
+  "title": "When I Was a Child",
+  "tip": "als = one time or one period in the past: „Als ich ein Kind war, …“ wenn = every time: „Wenn es schneite, spielten wir draußen.“ Both send the verb to the end. Clause first? Then verb, comma, verb.",
+  "exercises": [
+    {
+      "id": "de-b1-u02-l4-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        { "id": "p1", "learning": "die Ferien", "known": "the school holidays" },
+        { "id": "p2", "learning": "der Unterricht", "known": "lessons / class" },
+        { "id": "p3", "learning": "jedes Mal", "known": "every time" },
+        { "id": "p4", "learning": "wirklich", "known": "really" },
+        { "id": "p5", "learning": "der Schüler", "known": "the pupil" }
+      ]
+    },
+    {
+      "id": "de-b1-u02-l4-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'When I was a child, we lived in a village.'?",
+      "options": [
+        { "id": "a", "text": "Wenn ich ein Kind war, wohnten wir in einem Dorf." },
+        { "id": "b", "text": "Als ich ein Kind war, wohnten wir in einem Dorf." },
+        { "id": "c", "text": "Als ich ein Kind war, wir wohnten in einem Dorf." },
+        { "id": "d", "text": "Als ich war ein Kind, wohnten wir in einem Dorf." }
+      ],
+      "correctOptionId": "b"
+    },
+    {
+      "id": "de-b1-u02-l4-ex03",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Whenever we had school holidays, we went to my grandma's.",
+      "tiles": [
+        "wenn",
+        "wir",
+        "Ferien",
+        "hatten",
+        "fuhren",
+        "wir",
+        "zu",
+        "meiner",
+        "Oma",
+        "als",
+        "meine",
+        "hatte",
+        "fuhr"
+      ],
+      "answers": [
+        "Wenn wir Ferien hatten, fuhren wir zu meiner Oma.",
+        "Wir fuhren zu meiner Oma, wenn wir Ferien hatten.",
+        "Zu meiner Oma fuhren wir, wenn wir Ferien hatten."
+      ]
+    },
+    {
+      "id": "de-b1-u02-l4-ex04",
+      "type": "listen",
+      "audio": { "src": "/audio/de/b1/u02/de-b1-u02-l4-ex04.mp3" },
+      "tiles": [
+        "jedes",
+        "Mal",
+        "wenn",
+        "es",
+        "schneite",
+        "spielten",
+        "wir",
+        "draußen",
+        "als",
+        "schneit",
+        "spielen",
+        "drinnen"
+      ],
+      "answers": ["Jedes Mal, wenn es schneite, spielten wir draußen."]
+    },
+    {
+      "id": "de-b1-u02-l4-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'Every time it rained, we stayed at home.'?",
+      "options": [
+        { "id": "a", "text": "Jedes Mal, als es regnete, blieben wir zu Hause." },
+        { "id": "b", "text": "Jedes Mal, wenn es regnete, wir blieben zu Hause." },
+        { "id": "c", "text": "Jedes Mal, wenn es regnete, blieben wir zu Hause." },
+        { "id": "d", "text": "Jedes Mal, wenn regnete es, blieben wir zu Hause." }
+      ],
+      "correctOptionId": "c"
+    },
+    {
+      "id": "de-b1-u02-l4-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Lessons began at eight.",
+      "tiles": ["der", "Unterricht", "begann", "um", "acht", "den", "beginnt", "am", "neun"],
+      "answers": ["Der Unterricht begann um acht.", "Um acht begann der Unterricht."]
+    },
+    {
+      "id": "de-b1-u02-l4-ex07",
+      "type": "listen",
+      "audio": { "src": "/audio/de/b1/u02/de-b1-u02-l4-ex07.mp3" },
+      "tiles": [
+        "ich",
+        "war",
+        "erst",
+        "zehn",
+        "als",
+        "wir",
+        "nach",
+        "Linz",
+        "kamen",
+        "wenn",
+        "zuerst",
+        "kam",
+        "bin"
+      ],
+      "answers": ["Ich war erst zehn, als wir nach Linz kamen."]
+    },
+    {
+      "id": "de-b1-u02-l4-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Das war wirklich schön.",
+      "tiles": ["that", "was", "really", "nice", "is", "were", "not"],
+      "answers": ["That was really nice.", "That really was nice."]
+    },
+    {
+      "id": "de-b1-u02-l4-ex09",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'Whenever my father came home, he cooked.'?",
+      "options": [
+        { "id": "a", "text": "Als mein Vater nach Hause kam, kochte er." },
+        { "id": "b", "text": "Wenn mein Vater nach Hause kam, er kochte." },
+        { "id": "c", "text": "Wenn mein Vater kam nach Hause, kochte er." },
+        { "id": "d", "text": "Wenn mein Vater nach Hause kam, kochte er." }
+      ],
+      "correctOptionId": "d"
+    },
+    {
+      "id": "de-b1-u02-l4-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "When I was a pupil, I learned English.",
+      "tiles": [
+        "als",
+        "ich",
+        "Schüler",
+        "Schülerin",
+        "war",
+        "lernte",
+        "ich",
+        "Englisch",
+        "wenn",
+        "lernt",
+        "bin"
+      ],
+      "answers": [
+        "Als ich Schüler war, lernte ich Englisch.",
+        "Als ich Schülerin war, lernte ich Englisch.",
+        "Ich lernte Englisch, als ich Schüler war.",
+        "Ich lernte Englisch, als ich Schülerin war.",
+        "Englisch lernte ich, als ich Schüler war.",
+        "Englisch lernte ich, als ich Schülerin war."
+      ]
+    },
+    {
+      "id": "de-b1-u02-l4-ex11",
+      "type": "listen",
+      "audio": { "src": "/audio/de/b1/u02/de-b1-u02-l4-ex11.mp3" },
+      "tiles": [
+        "in",
+        "den",
+        "Ferien",
+        "gingen",
+        "wir",
+        "oft",
+        "in",
+        "den",
+        "Park",
+        "ging",
+        "dem",
+        "im"
+      ],
+      "answers": ["In den Ferien gingen wir oft in den Park."]
+    },
+    {
+      "id": "de-b1-u02-l4-ex12",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Als wir in Graz wohnten, war ich erst fünf.",
+      "tiles": [
+        "when",
+        "we",
+        "lived",
+        "in",
+        "Graz",
+        "I",
+        "was",
+        "only",
+        "five",
+        "if",
+        "live",
+        "first",
+        "am"
+      ],
+      "answers": [
+        "When we lived in Graz, I was only five.",
+        "I was only five when we lived in Graz."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,161 @@
+{
+  "id": "de-b1-u02-l2-went-came-saw",
+  "courseId": "en-de",
+  "unitId": "de-b1-u02",
+  "title": "Went, Came, Saw",
+  "tip": "Many common verbs change their stem in the Präteritum, with no -te: gehen → ging; kommen → kam; sehen → sah; fahren → fuhr; bleiben → blieb. ich and er/sie have no ending, wir/sie add -en: „Wir kamen nach Wien.“",
+  "exercises": [
+    {
+      "id": "de-b1-u02-l2-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        { "id": "p1", "learning": "ging", "known": "went (on foot)" },
+        { "id": "p2", "learning": "kam", "known": "came" },
+        { "id": "p3", "learning": "sah", "known": "saw" },
+        { "id": "p4", "learning": "nahm", "known": "took" },
+        { "id": "p5", "learning": "blieb", "known": "stayed" }
+      ]
+    },
+    {
+      "id": "de-b1-u02-l2-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'She came to Germany in 1970.'?",
+      "options": [
+        { "id": "a", "text": "Sie kommte neunzehnhundertsiebzig nach Deutschland." },
+        { "id": "b", "text": "Sie kam neunzehnhundertsiebzig nach Deutschland." },
+        { "id": "c", "text": "Sie kamte neunzehnhundertsiebzig nach Deutschland." },
+        { "id": "d", "text": "Sie kam neunzehnhundertsiebzig in Deutschland." }
+      ],
+      "correctOptionId": "b"
+    },
+    {
+      "id": "de-b1-u02-l2-ex03",
+      "type": "listen",
+      "audio": { "src": "/audio/de/b1/u02/de-b1-u02-l2-ex03.mp3" },
+      "tiles": ["es", "gab", "kein", "Wasser", "im", "Haus", "gibt", "keine", "ins"],
+      "answers": ["Es gab kein Wasser im Haus."]
+    },
+    {
+      "id": "de-b1-u02-l2-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "He found a job in Hamburg.",
+      "tiles": ["er", "fand", "eine", "Stelle", "in", "Hamburg", "findet", "einen", "nach"],
+      "answers": [
+        "Er fand eine Stelle in Hamburg.",
+        "Er fand in Hamburg eine Stelle.",
+        "In Hamburg fand er eine Stelle.",
+        "Eine Stelle fand er in Hamburg."
+      ]
+    },
+    {
+      "id": "de-b1-u02-l2-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'Then he went to the cinema.'?",
+      "options": [
+        { "id": "a", "text": "Dann gehte er ins Kino." },
+        { "id": "b", "text": "Dann gang er ins Kino." },
+        { "id": "c", "text": "Dann er ging ins Kino." },
+        { "id": "d", "text": "Dann ging er ins Kino." }
+      ],
+      "correctOptionId": "d"
+    },
+    {
+      "id": "de-b1-u02-l2-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "She took the train to Vienna.",
+      "tiles": ["sie", "nahm", "den", "Zug", "nach", "Wien", "nimmt", "dem", "der", "in"],
+      "answers": [
+        "Sie nahm den Zug nach Wien.",
+        "Nach Wien nahm sie den Zug.",
+        "Den Zug nahm sie nach Wien.",
+        "Den Zug nach Wien nahm sie."
+      ]
+    },
+    {
+      "id": "de-b1-u02-l2-ex07",
+      "type": "listen",
+      "audio": { "src": "/audio/de/b1/u02/de-b1-u02-l2-ex07.mp3" },
+      "tiles": [
+        "wir",
+        "blieben",
+        "drei",
+        "Wochen",
+        "in",
+        "Salzburg",
+        "blieb",
+        "Woche",
+        "bleiben",
+        "nach"
+      ],
+      "answers": ["Wir blieben drei Wochen in Salzburg."]
+    },
+    {
+      "id": "de-b1-u02-l2-ex08",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'He saw the sea.'?",
+      "options": [
+        { "id": "a", "text": "Er sehte das Meer." },
+        { "id": "b", "text": "Er sah das Meer." },
+        { "id": "c", "text": "Er sah den Meer." },
+        { "id": "d", "text": "Er siehte das Meer." }
+      ],
+      "correctOptionId": "b"
+    },
+    {
+      "id": "de-b1-u02-l2-ex09",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Sie fuhr mit dem Bus zum Büro.",
+      "tiles": ["she", "went", "to", "the", "office", "by", "bus", "goes", "a", "from"],
+      "answers": ["She went to the office by bus.", "She went by bus to the office."]
+    },
+    {
+      "id": "de-b1-u02-l2-ex10",
+      "type": "listen",
+      "audio": { "src": "/audio/de/b1/u02/de-b1-u02-l2-ex10.mp3" },
+      "tiles": [
+        "ich",
+        "fand",
+        "die",
+        "Stadt",
+        "schön",
+        "weil",
+        "es",
+        "viele",
+        "Parks",
+        "gab",
+        "finde",
+        "gibt",
+        "Park"
+      ],
+      "answers": ["Ich fand die Stadt schön, weil es viele Parks gab."]
+    },
+    {
+      "id": "de-b1-u02-l2-ex11",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "They went to Zurich by train.",
+      "tiles": ["sie", "fuhren", "mit", "dem", "Zug", "nach", "Zürich", "fuhr", "der", "in"],
+      "answers": [
+        "Sie fuhren mit dem Zug nach Zürich.",
+        "Sie fuhren nach Zürich mit dem Zug.",
+        "Mit dem Zug fuhren sie nach Zürich.",
+        "Nach Zürich fuhren sie mit dem Zug."
+      ]
+    },
+    {
+      "id": "de-b1-u02-l2-ex12",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'There was no bus to the village.'?",
+      "options": [
+        { "id": "a", "text": "Es gab keinen Bus zum Dorf." },
+        { "id": "b", "text": "Es gab keine Bus zum Dorf." },
+        { "id": "c", "text": "Es gab keinen Bus zur Dorf." },
+        { "id": "d", "text": "Es gibt keinen Bus zum Dorf." }
+      ],
+      "correctOptionId": "a"
+    }
+  ]
+}

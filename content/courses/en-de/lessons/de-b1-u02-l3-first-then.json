@@ -1,0 +1,149 @@
+{
+  "id": "de-b1-u02-l3-first-then",
+  "courseId": "en-de",
+  "unitId": "de-b1-u02",
+  "title": "First, Then, Finally",
+  "tip": "Tell a story in order: zuerst → danach → plötzlich → endlich → am Ende. The verb stays in second place: „Danach begann sie eine Ausbildung.“ New stems: beginnen → begann; schreiben → schrieb.",
+  "exercises": [
+    {
+      "id": "de-b1-u02-l3-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        { "id": "p1", "learning": "zuerst", "known": "first / at first" },
+        { "id": "p2", "learning": "danach", "known": "after that" },
+        { "id": "p3", "learning": "plötzlich", "known": "suddenly" },
+        { "id": "p4", "learning": "endlich", "known": "finally" },
+        { "id": "p5", "learning": "am Anfang", "known": "at the beginning" }
+      ]
+    },
+    {
+      "id": "de-b1-u02-l3-ex02",
+      "type": "listen",
+      "audio": { "src": "/audio/de/b1/u02/de-b1-u02-l3-ex02.mp3" },
+      "tiles": ["zuerst", "wohnte", "sie", "bei", "ihrer", "Oma", "ihre", "wohnt", "beim", "Opa"],
+      "answers": ["Zuerst wohnte sie bei ihrer Oma."]
+    },
+    {
+      "id": "de-b1-u02-l3-ex03",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "After that she started vocational training.",
+      "tiles": ["danach", "begann", "sie", "eine", "Ausbildung", "beginnt", "begonnen", "einen"],
+      "answers": [
+        "Danach begann sie eine Ausbildung.",
+        "Sie begann danach eine Ausbildung.",
+        "Eine Ausbildung begann sie danach."
+      ]
+    },
+    {
+      "id": "de-b1-u02-l3-ex04",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'Suddenly a letter came.'?",
+      "options": [
+        { "id": "a", "text": "Plötzlich ein Brief kam." },
+        { "id": "b", "text": "Plötzlich kommte ein Brief." },
+        { "id": "c", "text": "Plötzlich kam ein Brief." },
+        { "id": "d", "text": "Plötzlich kam einen Brief." }
+      ],
+      "correctOptionId": "c"
+    },
+    {
+      "id": "de-b1-u02-l3-ex05",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Endlich hatte sie eine Wohnung.",
+      "tiles": ["finally", "she", "had", "a", "flat", "has", "the", "her"],
+      "answers": ["Finally she had a flat.", "She finally had a flat.", "She had a flat, finally."]
+    },
+    {
+      "id": "de-b1-u02-l3-ex06",
+      "type": "listen",
+      "audio": { "src": "/audio/de/b1/u02/de-b1-u02-l3-ex06.mp3" },
+      "tiles": ["am", "Anfang", "war", "alles", "neu", "Ende", "ist", "im", "neue"],
+      "answers": ["Am Anfang war alles neu."]
+    },
+    {
+      "id": "de-b1-u02-l3-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'She wrote a lot of letters.'?",
+      "options": [
+        { "id": "a", "text": "Sie schreibte viele Briefe." },
+        { "id": "b", "text": "Sie schrieb vielen Briefe." },
+        { "id": "c", "text": "Sie schrob viele Briefe." },
+        { "id": "d", "text": "Sie schrieb viele Briefe." }
+      ],
+      "correctOptionId": "d"
+    },
+    {
+      "id": "de-b1-u02-l3-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "In the end Mira was happy.",
+      "tiles": ["am", "Ende", "war", "Mira", "glücklich", "Anfang", "ist", "im"],
+      "answers": [
+        "Am Ende war Mira glücklich.",
+        "Mira war am Ende glücklich.",
+        "Glücklich war Mira am Ende."
+      ]
+    },
+    {
+      "id": "de-b1-u02-l3-ex09",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "In 2010 she started a course.",
+      "tiles": [
+        "zweitausendzehn",
+        "begann",
+        "sie",
+        "einen",
+        "Kurs",
+        "beginnt",
+        "eine",
+        "zweitausendzwanzig"
+      ],
+      "answers": [
+        "Zweitausendzehn begann sie einen Kurs.",
+        "Sie begann zweitausendzehn einen Kurs.",
+        "Einen Kurs begann sie zweitausendzehn."
+      ]
+    },
+    {
+      "id": "de-b1-u02-l3-ex10",
+      "type": "listen",
+      "audio": { "src": "/audio/de/b1/u02/de-b1-u02-l3-ex10.mp3" },
+      "tiles": [
+        "danach",
+        "schrieb",
+        "sie",
+        "ihrem",
+        "Chef",
+        "eine",
+        "E-Mail",
+        "ihren",
+        "schreibt",
+        "einen"
+      ],
+      "answers": ["Danach schrieb sie ihrem Chef eine E-Mail."]
+    },
+    {
+      "id": "de-b1-u02-l3-ex11",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Am Ende blieb sie in Bern.",
+      "tiles": ["in", "the", "end", "she", "stayed", "in", "Bern", "beginning", "stays", "was"],
+      "answers": ["In the end she stayed in Bern.", "She stayed in Bern in the end."]
+    },
+    {
+      "id": "de-b1-u02-l3-ex12",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'First we took the bus to Vienna.'?",
+      "options": [
+        { "id": "a", "text": "Zuerst nahmen wir den Bus nach Wien." },
+        { "id": "b", "text": "Zuerst nehmten wir den Bus nach Wien." },
+        { "id": "c", "text": "Zuerst wir nahmen den Bus nach Wien." },
+        { "id": "d", "text": "Zuerst nahmen wir der Bus nach Wien." }
+      ],
+      "correctOptionId": "a"
+    }
+  ]
+}

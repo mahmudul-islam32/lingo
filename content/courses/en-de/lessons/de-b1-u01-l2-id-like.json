@@ -1,0 +1,169 @@
+{
+  "id": "de-b1-u01-l2-id-like",
+  "courseId": "en-de",
+  "unitId": "de-b1-u01",
+  "title": "I'd Like…",
+  "tip": "„Ich hätte gern …“ asks politely for something: „Ich hätte gern eine Information.“ „Das wäre sehr nett.“ means that would be very kind. Careful: bekommen means to get, not to become.",
+  "exercises": [
+    {
+      "id": "de-b1-u01-l2-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        { "id": "p1", "learning": "die Bibliothek", "known": "the library" },
+        { "id": "p2", "learning": "die Information", "known": "the information" },
+        { "id": "p3", "learning": "ausleihen", "known": "to borrow" },
+        { "id": "p4", "learning": "bekommen", "known": "to get / receive" },
+        { "id": "p5", "learning": "bringen", "known": "to bring" }
+      ]
+    },
+    {
+      "id": "de-b1-u01-l2-ex02",
+      "type": "listen",
+      "audio": { "src": "/audio/de/b1/u01/de-b1-u01-l2-ex02.mp3" },
+      "tiles": [
+        "guten",
+        "Tag",
+        "ich",
+        "hätte",
+        "gern",
+        "eine",
+        "Information",
+        "hatte",
+        "habe",
+        "einen"
+      ],
+      "answers": ["Guten Tag, ich hätte gern eine Information."]
+    },
+    {
+      "id": "de-b1-u01-l2-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'I'd like to borrow a book.'?",
+      "options": [
+        { "id": "a", "text": "Ich möchte ausleihen ein Buch." },
+        { "id": "b", "text": "Ich möchte ein Buch leihe aus." },
+        { "id": "c", "text": "Ich möchte einen Buch ausleihen." },
+        { "id": "d", "text": "Ich möchte ein Buch ausleihen." }
+      ],
+      "correctOptionId": "d"
+    },
+    {
+      "id": "de-b1-u01-l2-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Where do I get an ID card for the library?",
+      "tiles": [
+        "wo",
+        "bekomme",
+        "ich",
+        "einen",
+        "Ausweis",
+        "für",
+        "die",
+        "Bibliothek",
+        "bekommst",
+        "ein",
+        "wann",
+        "der"
+      ],
+      "answers": ["Wo bekomme ich einen Ausweis für die Bibliothek?"]
+    },
+    {
+      "id": "de-b1-u01-l2-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'That would be very kind.'?",
+      "options": [
+        { "id": "a", "text": "Das war sehr nett." },
+        { "id": "b", "text": "Das wäre sehr nett." },
+        { "id": "c", "text": "Das ist sehr nett." },
+        { "id": "d", "text": "Das wäre nett sehr." }
+      ],
+      "correctOptionId": "b"
+    },
+    {
+      "id": "de-b1-u01-l2-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I only have one question.",
+      "tiles": ["ich", "habe", "nur", "eine", "Frage", "hast", "Fragen", "einen"],
+      "answers": ["Ich habe nur eine Frage.", "Nur eine Frage habe ich."]
+    },
+    {
+      "id": "de-b1-u01-l2-ex07",
+      "type": "listen",
+      "audio": { "src": "/audio/de/b1/u01/de-b1-u01-l2-ex07.mp3" },
+      "tiles": [
+        "kein",
+        "Problem",
+        "ich",
+        "bringe",
+        "das",
+        "Buch",
+        "am",
+        "Montag",
+        "bringst",
+        "keine",
+        "im"
+      ],
+      "answers": ["Kein Problem. Ich bringe das Buch am Montag."]
+    },
+    {
+      "id": "de-b1-u01-l2-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Könnten Sie mir das Buch bringen?",
+      "tiles": ["could", "can", "you", "bring", "me", "the", "book", "to", "a", "brought", "I"],
+      "answers": [
+        "Could you bring me the book?",
+        "Can you bring me the book?",
+        "Could you bring the book to me?",
+        "Can you bring the book to me?"
+      ]
+    },
+    {
+      "id": "de-b1-u01-l2-ex09",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'I'd like an ID card, please.'?",
+      "options": [
+        { "id": "a", "text": "Ich hätte gern einen Ausweis, bitte." },
+        { "id": "b", "text": "Ich hatte gern einen Ausweis, bitte." },
+        { "id": "c", "text": "Ich hätte gern ein Ausweis, bitte." },
+        { "id": "d", "text": "Ich gern hätte einen Ausweis, bitte." }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "de-b1-u01-l2-ex10",
+      "type": "listen",
+      "audio": { "src": "/audio/de/b1/u01/de-b1-u01-l2-ex10.mp3" },
+      "tiles": ["ja", "das", "wäre", "sehr", "nett", "danke", "war", "ist", "nicht"],
+      "answers": ["Ja, das wäre sehr nett. Danke!"]
+    },
+    {
+      "id": "de-b1-u01-l2-ex11",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Can I get the book on Monday?",
+      "tiles": [
+        "kann",
+        "ich",
+        "das",
+        "Buch",
+        "am",
+        "Montag",
+        "bekommen",
+        "bekomme",
+        "kannst",
+        "im"
+      ],
+      "answers": ["Kann ich das Buch am Montag bekommen?", "Kann ich am Montag das Buch bekommen?"]
+    },
+    {
+      "id": "de-b1-u01-l2-ex12",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Ich habe das Buch am Montag ausgeliehen.",
+      "tiles": ["I", "borrowed", "have", "the", "book", "on", "Monday", "a", "borrow", "Friday"],
+      "answers": ["I borrowed the book on Monday.", "On Monday I borrowed the book."]
+    }
+  ]
+}

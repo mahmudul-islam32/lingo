@@ -452,6 +452,36 @@ export const BUNDLED_CONTENT: ContentLoaders = {
       "de-a2-u14-l5-a2-checkpoint": json(
         () => import("../../../content/courses/en-de/lessons/de-a2-u14-l5-a2-checkpoint.json"),
       ),
+      "de-b1-u01-l1-could-you": json(
+        () => import("../../../content/courses/en-de/lessons/de-b1-u01-l1-could-you.json"),
+      ),
+      "de-b1-u01-l2-id-like": json(
+        () => import("../../../content/courses/en-de/lessons/de-b1-u01-l2-id-like.json"),
+      ),
+      "de-b1-u01-l3-do-you-know-where": json(
+        () => import("../../../content/courses/en-de/lessons/de-b1-u01-l3-do-you-know-where.json"),
+      ),
+      "de-b1-u01-l4-sorry": json(
+        () => import("../../../content/courses/en-de/lessons/de-b1-u01-l4-sorry.json"),
+      ),
+      "de-b1-u01-l5-hotline": json(
+        () => import("../../../content/courses/en-de/lessons/de-b1-u01-l5-hotline.json"),
+      ),
+      "de-b1-u02-l1-back-then": json(
+        () => import("../../../content/courses/en-de/lessons/de-b1-u02-l1-back-then.json"),
+      ),
+      "de-b1-u02-l2-went-came-saw": json(
+        () => import("../../../content/courses/en-de/lessons/de-b1-u02-l2-went-came-saw.json"),
+      ),
+      "de-b1-u02-l3-first-then": json(
+        () => import("../../../content/courses/en-de/lessons/de-b1-u02-l3-first-then.json"),
+      ),
+      "de-b1-u02-l4-when-i-was-a-child": json(
+        () => import("../../../content/courses/en-de/lessons/de-b1-u02-l4-when-i-was-a-child.json"),
+      ),
+      "de-b1-u02-l5-how-we-met": json(
+        () => import("../../../content/courses/en-de/lessons/de-b1-u02-l5-how-we-met.json"),
+      ),
     },
     "en-es": {
       "u1-l1-hello": json(() => import("../../../content/courses/en-es/lessons/u1-l1-hello.json")),

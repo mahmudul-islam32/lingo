@@ -3,7 +3,7 @@
   "title": "German",
   "learningLanguage": "de",
   "knownLanguage": "en",
-  "version": 16,
+  "version": 17,
   "levels": [
     {
       "level": "A1",
@@ -752,6 +752,62 @@
         {
           "id": "de-a2-u14-l5-a2-checkpoint",
           "title": "A2 Checkpoint: Your First Year"
+        }
+      ]
+    },
+    {
+      "id": "de-b1-u01",
+      "level": "B1",
+      "title": "Could You Help Me?",
+      "description": "Ask politely for help and information, use indirect questions, and say when you haven't understood.",
+      "lessons": [
+        {
+          "id": "de-b1-u01-l1-could-you",
+          "title": "Could You…?"
+        },
+        {
+          "id": "de-b1-u01-l2-id-like",
+          "title": "I'd Like…"
+        },
+        {
+          "id": "de-b1-u01-l3-do-you-know-where",
+          "title": "Do You Know Where…?"
+        },
+        {
+          "id": "de-b1-u01-l4-sorry",
+          "title": "Sorry, I Didn't Understand"
+        },
+        {
+          "id": "de-b1-u01-l5-hotline",
+          "title": "Scenario: Calling a Hotline"
+        }
+      ]
+    },
+    {
+      "id": "de-b1-u02",
+      "level": "B1",
+      "title": "Life Stories",
+      "description": "Tell and understand stories about the past with the Präteritum, and say when things happened with als and wenn.",
+      "lessons": [
+        {
+          "id": "de-b1-u02-l1-back-then",
+          "title": "Back Then"
+        },
+        {
+          "id": "de-b1-u02-l2-went-came-saw",
+          "title": "Went, Came, Saw"
+        },
+        {
+          "id": "de-b1-u02-l3-first-then",
+          "title": "First, Then, Finally"
+        },
+        {
+          "id": "de-b1-u02-l4-when-i-was-a-child",
+          "title": "When I Was a Child"
+        },
+        {
+          "id": "de-b1-u02-l5-how-we-met",
+          "title": "Scenario: How We Met"
         }
       ]
     }

@@ -1,0 +1,169 @@
+{
+  "id": "de-b1-u01-l3-do-you-know-where",
+  "courseId": "en-de",
+  "unitId": "de-b1-u01",
+  "title": "Do You Know Where…?",
+  "tip": "After „Können Sie mir sagen, …“, „Wissen Sie, …“ or „Ich weiß nicht, …“ the verb goes to the end: „Wissen Sie, wo der Eingang ist?“ Like ob, this clause comes second. kennen is for people and places: „Kennen Sie Frau Okafor?“",
+  "exercises": [
+    {
+      "id": "de-b1-u01-l3-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        { "id": "p1", "learning": "der Eingang", "known": "the entrance" },
+        { "id": "p2", "learning": "der Ausgang", "known": "the exit" },
+        { "id": "p3", "learning": "das Erdgeschoss", "known": "the ground floor" },
+        { "id": "p4", "learning": "die Treppe", "known": "the stairs" },
+        { "id": "p5", "learning": "kennen", "known": "to know (a person)" }
+      ]
+    },
+    {
+      "id": "de-b1-u01-l3-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'Do you know where the entrance is? (formal)'?",
+      "options": [
+        { "id": "a", "text": "Wissen Sie, wo ist der Eingang?" },
+        { "id": "b", "text": "Wissen Sie, wo der Eingang ist?" },
+        { "id": "c", "text": "Wissen Sie, wo der Eingang sind?" },
+        { "id": "d", "text": "Kennen Sie, wo der Eingang ist?" }
+      ],
+      "correctOptionId": "b"
+    },
+    {
+      "id": "de-b1-u01-l3-ex03",
+      "type": "listen",
+      "audio": { "src": "/audio/de/b1/u01/de-b1-u01-l3-ex03.mp3" },
+      "tiles": [
+        "können",
+        "Sie",
+        "mir",
+        "sagen",
+        "wo",
+        "der",
+        "Eingang",
+        "ist",
+        "Ausgang",
+        "wann",
+        "sagst"
+      ],
+      "answers": ["Können Sie mir sagen, wo der Eingang ist?"]
+    },
+    {
+      "id": "de-b1-u01-l3-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Do you know when the library is open? (formal)",
+      "tiles": [
+        "wissen",
+        "Sie",
+        "wann",
+        "die",
+        "Bibliothek",
+        "geöffnet",
+        "ist",
+        "wenn",
+        "weißt",
+        "geschlossen"
+      ],
+      "answers": ["Wissen Sie, wann die Bibliothek geöffnet ist?"]
+    },
+    {
+      "id": "de-b1-u01-l3-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'I don't know how that works.'?",
+      "options": [
+        { "id": "a", "text": "Ich weiß nicht, wie funktioniert das." },
+        { "id": "b", "text": "Ich nicht weiß, wie das funktioniert." },
+        { "id": "c", "text": "Ich weiß nicht, wie das funktioniert." },
+        { "id": "d", "text": "Ich weiß nicht, wo das funktioniert." }
+      ],
+      "correctOptionId": "c"
+    },
+    {
+      "id": "de-b1-u01-l3-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Excuse me, do you know Ms Okafor? (formal)",
+      "tiles": ["Entschuldigung", "kennen", "Sie", "Frau", "Okafor", "wissen", "kennst", "Herr"],
+      "answers": ["Entschuldigung, kennen Sie Frau Okafor?"]
+    },
+    {
+      "id": "de-b1-u01-l3-ex07",
+      "type": "listen",
+      "audio": { "src": "/audio/de/b1/u01/de-b1-u01-l3-ex07.mp3" },
+      "tiles": ["wo", "genau", "ist", "unser", "Kurs", "im", "Erdgeschoss", "unsere", "wann", "am"],
+      "answers": ["Wo genau ist unser Kurs? Im Erdgeschoss?"]
+    },
+    {
+      "id": "de-b1-u01-l3-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Ich weiß nicht, wo der Ausgang ist.",
+      "tiles": ["I", "don't", "know", "where", "the", "exit", "is", "entrance", "when", "knows"],
+      "answers": ["I don't know where the exit is."]
+    },
+    {
+      "id": "de-b1-u01-l3-ex09",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'The stairs are on the left.'?",
+      "options": [
+        { "id": "a", "text": "Die Treppe sind links." },
+        { "id": "b", "text": "Der Treppe ist links." },
+        { "id": "c", "text": "Die Treppe ist rechts." },
+        { "id": "d", "text": "Die Treppe ist links." }
+      ],
+      "correctOptionId": "d"
+    },
+    {
+      "id": "de-b1-u01-l3-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Can you tell me where exactly our course is? (formal)",
+      "tiles": [
+        "können",
+        "Sie",
+        "mir",
+        "sagen",
+        "wo",
+        "genau",
+        "unser",
+        "Kurs",
+        "ist",
+        "unsere",
+        "mich",
+        "sind"
+      ],
+      "answers": [
+        "Können Sie mir sagen, wo genau unser Kurs ist?",
+        "Können Sie mir sagen, wo unser Kurs genau ist?"
+      ]
+    },
+    {
+      "id": "de-b1-u01-l3-ex11",
+      "type": "listen",
+      "audio": { "src": "/audio/de/b1/u01/de-b1-u01-l3-ex11.mp3" },
+      "tiles": [
+        "der",
+        "Ausgang",
+        "ist",
+        "im",
+        "Erdgeschoss",
+        "die",
+        "Treppe",
+        "ist",
+        "links",
+        "Eingang",
+        "sind",
+        "am"
+      ],
+      "answers": ["Der Ausgang ist im Erdgeschoss. Die Treppe ist links."]
+    },
+    {
+      "id": "de-b1-u01-l3-ex12",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Wissen Sie, wer das ist?",
+      "tiles": ["do", "you", "know", "who", "that", "this", "is", "where", "are", "knows"],
+      "answers": ["Do you know who that is?", "Do you know who this is?"]
+    }
+  ]
+}

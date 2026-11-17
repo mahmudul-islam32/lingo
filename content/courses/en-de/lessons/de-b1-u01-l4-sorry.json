@@ -1,0 +1,194 @@
+{
+  "id": "de-b1-u01-l4-sorry",
+  "courseId": "en-de",
+  "unitId": "de-b1-u01",
+  "title": "Sorry, I Didn't Understand",
+  "tip": "Didn't catch it? „Wie bitte? Das habe ich nicht verstanden.“ man means people in general and takes the er form: „Wie sagt man das?“ bedeuten is for words, meinen for people: „Wie meinen Sie das?“",
+  "exercises": [
+    {
+      "id": "de-b1-u01-l4-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        { "id": "p1", "learning": "man", "known": "one / people (in general)" },
+        { "id": "p2", "learning": "wiederholen", "known": "to repeat" },
+        { "id": "p3", "learning": "bedeuten", "known": "to mean (of a word)" },
+        { "id": "p4", "learning": "das Wort", "known": "the word" },
+        { "id": "p5", "learning": "deutlich", "known": "clearly" }
+      ]
+    },
+    {
+      "id": "de-b1-u01-l4-ex02",
+      "type": "listen",
+      "audio": { "src": "/audio/de/b1/u01/de-b1-u01-l4-ex02.mp3" },
+      "tiles": [
+        "wie",
+        "bitte",
+        "das",
+        "habe",
+        "ich",
+        "nicht",
+        "verstanden",
+        "verstehe",
+        "hast",
+        "wo"
+      ],
+      "answers": ["Wie bitte? Das habe ich nicht verstanden."]
+    },
+    {
+      "id": "de-b1-u01-l4-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'Can you repeat that, please? (formal)'?",
+      "options": [
+        { "id": "a", "text": "Können Sie das bitte wiederholt?" },
+        { "id": "b", "text": "Können Sie das bitte wiederholen?" },
+        { "id": "c", "text": "Können Sie wiederholen das bitte?" },
+        { "id": "d", "text": "Kann Sie das bitte wiederholen?" }
+      ],
+      "correctOptionId": "b"
+    },
+    {
+      "id": "de-b1-u01-l4-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "What does the word 'Erdgeschoss' mean?",
+      "tiles": [
+        "was",
+        "bedeutet",
+        "das",
+        "Wort",
+        "Erdgeschoss",
+        "bedeuten",
+        "Wörter",
+        "wie",
+        "der"
+      ],
+      "answers": ["Was bedeutet das Wort „Erdgeschoss“?"]
+    },
+    {
+      "id": "de-b1-u01-l4-ex05",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Wie meinen Sie das?",
+      "tiles": ["what", "do", "you", "mean", "by", "that", "does", "means", "say"],
+      "answers": ["What do you mean by that?", "What do you mean?"]
+    },
+    {
+      "id": "de-b1-u01-l4-ex06",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'How do you say that?'",
+      "options": [
+        { "id": "a", "text": "Wie sagen man das?" },
+        { "id": "b", "text": "Wie man sagt das?" },
+        { "id": "c", "text": "Wie sagst man das?" },
+        { "id": "d", "text": "Wie sagt man das?" }
+      ],
+      "correctOptionId": "d"
+    },
+    {
+      "id": "de-b1-u01-l4-ex07",
+      "type": "listen",
+      "audio": { "src": "/audio/de/b1/u01/de-b1-u01-l4-ex07.mp3" },
+      "tiles": [
+        "sprechen",
+        "Sie",
+        "bitte",
+        "deutlich",
+        "ich",
+        "verstehe",
+        "Sie",
+        "nicht",
+        "gut",
+        "sprichst",
+        "laut",
+        "dich"
+      ],
+      "answers": ["Sprechen Sie bitte deutlich. Ich verstehe Sie nicht gut."]
+    },
+    {
+      "id": "de-b1-u01-l4-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Sorry, I only understood one word.",
+      "tiles": [
+        "Entschuldigung",
+        "ich",
+        "habe",
+        "nur",
+        "ein",
+        "Wort",
+        "verstanden",
+        "verstehe",
+        "eine",
+        "Wörter",
+        "bin"
+      ],
+      "answers": [
+        "Entschuldigung, ich habe nur ein Wort verstanden.",
+        "Entschuldigung, nur ein Wort habe ich verstanden."
+      ]
+    },
+    {
+      "id": "de-b1-u01-l4-ex09",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'What do you mean? (formal)'?",
+      "options": [
+        { "id": "a", "text": "Wie meinen Sie das?" },
+        { "id": "b", "text": "Was bedeutet das?" },
+        { "id": "c", "text": "Wie meint Sie das?" },
+        { "id": "d", "text": "Wie sagen Sie das?" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "de-b1-u01-l4-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I don't know if I understood that correctly.",
+      "tiles": [
+        "ich",
+        "weiß",
+        "nicht",
+        "ob",
+        "ich",
+        "das",
+        "richtig",
+        "verstanden",
+        "habe",
+        "wenn",
+        "hat",
+        "verstehe"
+      ],
+      "answers": ["Ich weiß nicht, ob ich das richtig verstanden habe."]
+    },
+    {
+      "id": "de-b1-u01-l4-ex11",
+      "type": "listen",
+      "audio": { "src": "/audio/de/b1/u01/de-b1-u01-l4-ex11.mp3" },
+      "tiles": [
+        "der",
+        "Kurs",
+        "fängt",
+        "um",
+        "neun",
+        "an",
+        "das",
+        "heißt",
+        "in",
+        "zehn",
+        "Minuten",
+        "heißen",
+        "Stunden",
+        "am"
+      ],
+      "answers": ["Der Kurs fängt um neun an, das heißt in zehn Minuten."]
+    },
+    {
+      "id": "de-b1-u01-l4-ex12",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Ich weiß nicht, was das Wort bedeutet.",
+      "tiles": ["I", "don't", "know", "what", "the", "word", "means", "mean", "words", "how", "do"],
+      "answers": ["I don't know what the word means."]
+    }
+  ]
+}

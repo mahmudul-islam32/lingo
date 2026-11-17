@@ -1,0 +1,179 @@
+{
+  "id": "de-b1-u02-l5-how-we-met",
+  "courseId": "en-de",
+  "unitId": "de-b1-u02",
+  "title": "Scenario: How We Met",
+  "tip": "Telling a story? Use the Präteritum: „Wir lernten uns im Kurs kennen.“ Asking a friend? Use the Perfekt: „Wo habt ihr euch kennengelernt?“ Both are correct. New: wissen → wusste; denken → dachte.",
+  "exercises": [
+    {
+      "id": "de-b1-u02-l5-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        { "id": "p1", "learning": "kennenlernen", "known": "to get to know / meet" },
+        { "id": "p2", "learning": "sich verlieben", "known": "to fall in love" },
+        { "id": "p3", "learning": "heiraten", "known": "to marry" },
+        { "id": "p4", "learning": "die Geschichte", "known": "the story" },
+        { "id": "p5", "learning": "wusste", "known": "knew" }
+      ]
+    },
+    {
+      "id": "de-b1-u02-l5-ex02",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Where did you meet? (to two friends)",
+      "tiles": ["wo", "habt", "ihr", "euch", "kennengelernt", "seid", "uns", "kennen", "wann"],
+      "answers": ["Wo habt ihr euch kennengelernt?"]
+    },
+    {
+      "id": "de-b1-u02-l5-ex03",
+      "type": "listen",
+      "audio": { "src": "/audio/de/b1/u02/de-b1-u02-l5-ex03.mp3" },
+      "tiles": [
+        "Tobias",
+        "und",
+        "ich",
+        "lernten",
+        "uns",
+        "im",
+        "Kurs",
+        "kennen",
+        "euch",
+        "lernen",
+        "kennengelernt",
+        "wir"
+      ],
+      "answers": ["Tobias und ich lernten uns im Kurs kennen."]
+    },
+    {
+      "id": "de-b1-u02-l5-ex04",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'Could you tell me the story? (to a friend)'?",
+      "options": [
+        { "id": "a", "text": "Könntest du mich die Geschichte erzählen?" },
+        { "id": "b", "text": "Könntest du mir die Geschichte erzählen?" },
+        { "id": "c", "text": "Könntest du mir erzählen die Geschichte?" },
+        { "id": "d", "text": "Könntest du mir die Geschichte erzählt?" }
+      ],
+      "correctOptionId": "b"
+    },
+    {
+      "id": "de-b1-u02-l5-ex05",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Ich dachte: Das ist wirklich schön.",
+      "tiles": ["I", "thought", "that's", "that", "is", "really", "nice", "think", "not"],
+      "answers": [
+        "I thought: That's really nice.",
+        "I thought: That is really nice.",
+        "I thought: That really is nice.",
+        "That's really nice, I thought.",
+        "That is really nice, I thought.",
+        "That really is nice, I thought."
+      ]
+    },
+    {
+      "id": "de-b1-u02-l5-ex06",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'When did you get married? (to two friends)'?",
+      "options": [
+        { "id": "a", "text": "Wann seid ihr geheiratet?" },
+        { "id": "b", "text": "Wenn habt ihr geheiratet?" },
+        { "id": "c", "text": "Wann habt ihr geheiratet?" },
+        { "id": "d", "text": "Wann habt ihr heiratet?" }
+      ],
+      "correctOptionId": "c"
+    },
+    {
+      "id": "de-b1-u02-l5-ex07",
+      "type": "listen",
+      "audio": { "src": "/audio/de/b1/u02/de-b1-u02-l5-ex07.mp3" },
+      "tiles": [
+        "am",
+        "Anfang",
+        "dachte",
+        "ich",
+        "er",
+        "ist",
+        "Lehrer",
+        "Ende",
+        "denke",
+        "war",
+        "Lehrerin"
+      ],
+      "answers": ["Am Anfang dachte ich, er ist Lehrer."]
+    },
+    {
+      "id": "de-b1-u02-l5-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Two years later we got married.",
+      "tiles": ["zwei", "Jahre", "später", "heirateten", "wir", "heiratete", "geheiratet", "Jahr"],
+      "answers": ["Zwei Jahre später heirateten wir.", "Wir heirateten zwei Jahre später."]
+    },
+    {
+      "id": "de-b1-u02-l5-ex09",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'When I saw him, I knew it.'?",
+      "options": [
+        { "id": "a", "text": "Als ich ihn sah, wusste ich es." },
+        { "id": "b", "text": "Wenn ich ihn sah, wusste ich es." },
+        { "id": "c", "text": "Als ich ihn sah, ich wusste es." },
+        { "id": "d", "text": "Als ich sah ihn, wusste ich es." }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "de-b1-u02-l5-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I took the course because I wanted to learn German.",
+      "tiles": [
+        "ich",
+        "machte",
+        "den",
+        "Kurs",
+        "weil",
+        "ich",
+        "Deutsch",
+        "lernen",
+        "wollte",
+        "will",
+        "mache",
+        "dass"
+      ],
+      "answers": [
+        "Ich machte den Kurs, weil ich Deutsch lernen wollte.",
+        "Weil ich Deutsch lernen wollte, machte ich den Kurs.",
+        "Den Kurs machte ich, weil ich Deutsch lernen wollte."
+      ]
+    },
+    {
+      "id": "de-b1-u02-l5-ex11",
+      "type": "listen",
+      "audio": { "src": "/audio/de/b1/u02/de-b1-u02-l5-ex11.mp3" },
+      "tiles": ["ich", "wusste", "nicht", "wo", "der", "Kurs", "war", "weiß", "wann", "ist"],
+      "answers": ["Ich wusste nicht, wo der Kurs war."]
+    },
+    {
+      "id": "de-b1-u02-l5-ex12",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Did you fall in love right away? That would be lovely! (to two friends)",
+      "tiles": [
+        "habt",
+        "ihr",
+        "euch",
+        "sofort",
+        "verliebt",
+        "das",
+        "wäre",
+        "schön",
+        "seid",
+        "uns",
+        "ist",
+        "verlieben"
+      ],
+      "answers": ["Habt ihr euch sofort verliebt? Das wäre schön!"]
+    }
+  ]
+}

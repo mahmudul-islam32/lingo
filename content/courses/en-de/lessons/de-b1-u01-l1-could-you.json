@@ -1,0 +1,148 @@
+{
+  "id": "de-b1-u01-l1-could-you",
+  "courseId": "en-de",
+  "unitId": "de-b1-u01",
+  "title": "Could You…?",
+  "tip": "Polite requests use könnten or würden, and the infinitive goes to the end: „Könnten Sie mir helfen?“ „Würden Sie das bitte erklären?“ To a friend: „Könntest du …?“ mal makes a request softer: „Kannst du mal kommen?“",
+  "exercises": [
+    {
+      "id": "de-b1-u01-l1-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        { "id": "p1", "learning": "könnten Sie …?", "known": "could you …?" },
+        { "id": "p2", "learning": "würden Sie …?", "known": "would you …?" },
+        { "id": "p3", "learning": "fragen", "known": "to ask" },
+        { "id": "p4", "learning": "erklären", "known": "to explain" },
+        { "id": "p5", "learning": "die Hilfe", "known": "the help" }
+      ]
+    },
+    {
+      "id": "de-b1-u01-l1-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'Could you help me? (formal)'?",
+      "options": [
+        { "id": "a", "text": "Könnten Sie mich helfen?" },
+        { "id": "b", "text": "Könnten Sie mir helfen?" },
+        { "id": "c", "text": "Könnten Sie helfen mir?" },
+        { "id": "d", "text": "Könnten mir Sie helfen?" }
+      ],
+      "correctOptionId": "b"
+    },
+    {
+      "id": "de-b1-u01-l1-ex03",
+      "type": "listen",
+      "audio": { "src": "/audio/de/b1/u01/de-b1-u01-l1-ex03.mp3" },
+      "tiles": ["Entschuldigung", "könnten", "Sie", "mir", "helfen", "mich", "konnten", "hilft"],
+      "answers": ["Entschuldigung, könnten Sie mir helfen?"]
+    },
+    {
+      "id": "de-b1-u01-l1-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Could you speak slowly, please? (formal)",
+      "tiles": ["könnten", "Sie", "bitte", "langsam", "sprechen", "sprichst", "konnten", "schnell"],
+      "answers": [
+        "Könnten Sie bitte langsam sprechen?",
+        "Könnten Sie langsam sprechen, bitte?",
+        "Bitte, könnten Sie langsam sprechen?"
+      ]
+    },
+    {
+      "id": "de-b1-u01-l1-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'Would you explain that, please? (formal)'?",
+      "options": [
+        { "id": "a", "text": "Würden Sie bitte erklären das?" },
+        { "id": "b", "text": "Würdest Sie das bitte erklären?" },
+        { "id": "c", "text": "Würden Sie das bitte erklären?" },
+        { "id": "d", "text": "Würden Sie das bitte erklärt?" }
+      ],
+      "correctOptionId": "c"
+    },
+    {
+      "id": "de-b1-u01-l1-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Can you come for a moment? (to a friend)",
+      "tiles": ["kannst", "du", "mal", "kommen", "kommst", "kann", "dich"],
+      "answers": ["Kannst du mal kommen?"]
+    },
+    {
+      "id": "de-b1-u01-l1-ex07",
+      "type": "listen",
+      "audio": { "src": "/audio/de/b1/u01/de-b1-u01-l1-ex07.mp3" },
+      "tiles": [
+        "Lena",
+        "kannst",
+        "du",
+        "mal",
+        "kommen",
+        "ich",
+        "verstehe",
+        "das",
+        "nicht",
+        "verstehst",
+        "kommst",
+        "mich"
+      ],
+      "answers": ["Lena, kannst du mal kommen? Ich verstehe das nicht."]
+    },
+    {
+      "id": "de-b1-u01-l1-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Darf ich Sie etwas fragen?",
+      "tiles": ["may", "I", "ask", "you", "something", "asked", "me", "do"],
+      "answers": ["May I ask you something?"]
+    },
+    {
+      "id": "de-b1-u01-l1-ex09",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'I don't understand that.'?",
+      "options": [
+        { "id": "a", "text": "Ich verstehe das nicht." },
+        { "id": "b", "text": "Ich verstehe nicht das." },
+        { "id": "c", "text": "Ich nicht verstehe das." },
+        { "id": "d", "text": "Ich verstehst das nicht." }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "de-b1-u01-l1-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Würdest du mir das erklären?",
+      "tiles": ["would", "you", "explain", "that", "it", "to", "me", "explained", "us", "I"],
+      "answers": ["Would you explain that to me?", "Would you explain it to me?"]
+    },
+    {
+      "id": "de-b1-u01-l1-ex11",
+      "type": "listen",
+      "audio": { "src": "/audio/de/b1/u01/de-b1-u01-l1-ex11.mp3" },
+      "tiles": [
+        "danke",
+        "für",
+        "die",
+        "Hilfe",
+        "das",
+        "war",
+        "sehr",
+        "nett",
+        "von",
+        "Ihnen",
+        "ist",
+        "dir",
+        "helfen"
+      ],
+      "answers": ["Danke für die Hilfe! Das war sehr nett von Ihnen."]
+    },
+    {
+      "id": "de-b1-u01-l1-ex12",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Could you explain that to me? (formal)",
+      "tiles": ["könnten", "Sie", "mir", "das", "erklären", "mich", "konnten", "erklärt"],
+      "answers": ["Könnten Sie mir das erklären?"]
+    }
+  ]
+}

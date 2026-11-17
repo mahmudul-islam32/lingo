@@ -1,0 +1,184 @@
+{
+  "id": "de-b1-u02-l1-back-then",
+  "courseId": "en-de",
+  "unitId": "de-b1-u02",
+  "title": "Back Then",
+  "tip": "Stories and letters use the Präteritum. Regular verbs add -te: wohnen → wohnte, lernen → lernte; -ete after t or d: arbeiten → arbeitete. wir and sie add -n: wohnten. „Früher lebte sie in einem Dorf.“",
+  "exercises": [
+    {
+      "id": "de-b1-u02-l1-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        { "id": "p1", "learning": "das Dorf", "known": "the village" },
+        { "id": "p2", "learning": "die Kindheit", "known": "childhood" },
+        { "id": "p3", "learning": "die Großmutter", "known": "the grandmother" },
+        { "id": "p4", "learning": "der Großvater", "known": "the grandfather" },
+        { "id": "p5", "learning": "damals", "known": "back then" }
+      ]
+    },
+    {
+      "id": "de-b1-u02-l1-ex02",
+      "type": "listen",
+      "audio": { "src": "/audio/de/b1/u02/de-b1-u02-l1-ex02.mp3" },
+      "tiles": [
+        "früher",
+        "lebte",
+        "meine",
+        "Großmutter",
+        "in",
+        "einem",
+        "Dorf",
+        "lebt",
+        "mein",
+        "Großvater",
+        "eine"
+      ],
+      "answers": ["Früher lebte meine Großmutter in einem Dorf."]
+    },
+    {
+      "id": "de-b1-u02-l1-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'She lived in Graz and worked in a bakery.'?",
+      "options": [
+        { "id": "a", "text": "Sie wohnete in Graz und arbeitete in einer Bäckerei." },
+        { "id": "b", "text": "Sie wohnte in Graz und arbeitte in einer Bäckerei." },
+        { "id": "c", "text": "Sie wohnte in Graz und arbeitete in einer Bäckerei." },
+        { "id": "d", "text": "Sie wohnt in Graz und arbeitet in einer Bäckerei." }
+      ],
+      "correctOptionId": "c"
+    },
+    {
+      "id": "de-b1-u02-l1-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Back then my grandfather worked in a bakery.",
+      "tiles": [
+        "damals",
+        "arbeitete",
+        "mein",
+        "Großvater",
+        "in",
+        "einer",
+        "Bäckerei",
+        "arbeitet",
+        "arbeiteten",
+        "meine",
+        "einem"
+      ],
+      "answers": [
+        "Damals arbeitete mein Großvater in einer Bäckerei.",
+        "Mein Großvater arbeitete damals in einer Bäckerei.",
+        "Mein Großvater arbeitete in einer Bäckerei damals.",
+        "In einer Bäckerei arbeitete mein Großvater damals."
+      ]
+    },
+    {
+      "id": "de-b1-u02-l1-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'We lived in a village.'?",
+      "options": [
+        { "id": "a", "text": "Wir wohnte in einem Dorf." },
+        { "id": "b", "text": "Wir wohnteten in einem Dorf." },
+        { "id": "c", "text": "Wir wohnen in einem Dorf." },
+        { "id": "d", "text": "Wir wohnten in einem Dorf." }
+      ],
+      "correctOptionId": "d"
+    },
+    {
+      "id": "de-b1-u02-l1-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Ihre Kindheit war schön.",
+      "tiles": ["her", "childhood", "was", "nice", "beautiful", "his", "is", "were"],
+      "answers": ["Her childhood was nice.", "Her childhood was beautiful."]
+    },
+    {
+      "id": "de-b1-u02-l1-ex07",
+      "type": "listen",
+      "audio": { "src": "/audio/de/b1/u02/de-b1-u02-l1-ex07.mp3" },
+      "tiles": [
+        "sie",
+        "wohnte",
+        "zwanzig",
+        "Jahre",
+        "in",
+        "Österreich",
+        "wohnten",
+        "Jahr",
+        "zwölf",
+        "Deutschland"
+      ],
+      "answers": ["Sie wohnte zwanzig Jahre in Österreich."]
+    },
+    {
+      "id": "de-b1-u02-l1-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I used to live in Hamburg.",
+      "tiles": ["ich", "wohnte", "früher", "in", "Hamburg", "wohne", "wohnten", "wir", "nach"],
+      "answers": [
+        "Früher wohnte ich in Hamburg.",
+        "Ich wohnte früher in Hamburg.",
+        "Ich wohnte in Hamburg früher.",
+        "In Hamburg wohnte ich früher."
+      ]
+    },
+    {
+      "id": "de-b1-u02-l1-ex09",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'He learned English.'?",
+      "options": [
+        { "id": "a", "text": "Er lernte Englisch." },
+        { "id": "b", "text": "Er lernete Englisch." },
+        { "id": "c", "text": "Er lernten Englisch." },
+        { "id": "d", "text": "Er lernt Englisch." }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "de-b1-u02-l1-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Damals lebten meine Großeltern in einem Dorf.",
+      "tiles": [
+        "at",
+        "that",
+        "time",
+        "my",
+        "grandparents",
+        "lived",
+        "in",
+        "a",
+        "village",
+        "live",
+        "the",
+        "city",
+        "this"
+      ],
+      "answers": [
+        "At that time my grandparents lived in a village.",
+        "My grandparents lived in a village at that time."
+      ]
+    },
+    {
+      "id": "de-b1-u02-l1-ex11",
+      "type": "listen",
+      "audio": { "src": "/audio/de/b1/u02/de-b1-u02-l1-ex11.mp3" },
+      "tiles": ["mein", "Großvater", "kochte", "oft", "für", "uns", "kocht", "meine", "euch"],
+      "answers": ["Mein Großvater kochte oft für uns."]
+    },
+    {
+      "id": "de-b1-u02-l1-ex12",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "In the past we often played football.",
+      "tiles": ["früher", "spielten", "wir", "oft", "Fußball", "spielte", "spielen", "uns"],
+      "answers": [
+        "Früher spielten wir oft Fußball.",
+        "Wir spielten früher oft Fußball.",
+        "Oft spielten wir früher Fußball.",
+        "Fußball spielten wir früher oft."
+      ]
+    }
+  ]
+}
