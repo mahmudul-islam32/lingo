@@ -91,3 +91,18 @@ No new screens. B1 shows under the existing "B1 · Intermediate" level header (G
 
 ## Review
 _(cto / orchestrator notes on the plan go here)_
+
+## B1-T5 fit check result (orchestrator, 2026-11-16, build of `main` at `e6a5e47`)
+**PASS.** Checked with Chromium at 375 × 667 on the production build, using the LES-013 tip card
+and a German word-bank exercise:
+- A **240-character tip** in the tip card wraps inside the card, with no horizontal scroll and
+  "Start" fully visible.
+- A **110-character prompt** above a word bank with **17 tiles** (3 answer tiles plus 14 extra,
+  up to `Krankenversicherung`, 19 characters): no horizontal scroll, and "Check" stays visible.
+  The tiles that don't fit scroll inside the exercise area under the fixed Check bar.
+- With the **feedback panel open** ("That's right!"), no horizontal scroll and "Continue" is visible.
+
+So CDS-20 / CDS-21 (110-character prompts, 240-character tips) can be used, and B1 writing may
+start. Caveat for writers: with more than ~12 tiles and a 3-line prompt, the last tile row sits
+below the fold until the learner scrolls. Keep B1 word banks to 14 tiles or fewer where possible
+(CDS-27 already caps distractors).
