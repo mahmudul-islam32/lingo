@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useEffectEvent, useState } from "react";
-import { Button } from "@/components/ui";
+import { Button, Lumi } from "@/components/ui";
 import { CONTENT_RULES } from "@/contracts";
 import { getDefaultListenAudio, type ListenAudio } from "../../audio/listen-audio";
 import { useAudioPlayback } from "../../audio/use-audio-playback";
@@ -59,7 +59,11 @@ export function ListenExercise({
           role="status"
           className="flex flex-col items-start gap-3 rounded-card border-2 border-border bg-surface p-4"
         >
-          <p className="font-semibold text-fg">Audio isn&apos;t available right now.</p>
+          {/* FIX-005: small decorative Lumi ember beside the one-line message. */}
+          <div className="flex min-w-0 items-center gap-3">
+            <Lumi pose="ember" size="sm" />
+            <p className="min-w-0 font-semibold text-fg">Audio isn&apos;t available right now.</p>
+          </div>
           <Button variant="primary" size="lg" onClick={() => onSkip("audio_unavailable")}>
             Skip
           </Button>

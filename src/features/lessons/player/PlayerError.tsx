@@ -1,25 +1,12 @@
 "use client";
 
 import { useEffect, useRef } from "react";
-import { Button } from "@/components/ui";
+import { Button, Lumi } from "@/components/ui";
 
 export interface LessonPlayerErrorProps {
   onRetry: () => void;
   /** Back to Learn (`/`). */
   onBack: () => void;
-}
-
-/**
- * Placeholder for the Lumi "ember" pose (GAM-001 is not merged yet). Decorative only;
- * uses tokens, no colour literals.
- */
-function EmberPlaceholder() {
-  return (
-    <div aria-hidden="true" className="relative size-24" data-testid="lumi-ember-placeholder">
-      <div className="absolute inset-0 rounded-full bg-primary opacity-20" />
-      <div className="absolute inset-6 rounded-full bg-primary opacity-60" />
-    </div>
-  );
 }
 
 /** Error state (criterion 15): lesson couldn't load or has no counted exercises. */
@@ -30,7 +17,8 @@ export function LessonPlayerError({ onRetry, onBack }: LessonPlayerErrorProps) {
   }, []);
   return (
     <main className="flex h-dvh flex-col items-center justify-center gap-6 bg-canvas px-4 text-center text-fg">
-      <EmberPlaceholder />
+      {/* Decorative (aria-hidden); the heading carries the message (FIX-005). */}
+      <Lumi pose="ember" size="md" />
       <h1 ref={headingRef} tabIndex={-1} className="text-xl font-bold focus:outline-none">
         We couldn&apos;t load this lesson.
       </h1>

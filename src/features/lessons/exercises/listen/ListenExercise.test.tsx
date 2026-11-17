@@ -282,6 +282,21 @@ describe("ListenExercise", () => {
     expect(props.onSkip).toHaveBeenCalledWith("audio_unavailable");
   });
 
+  it("shows a small decorative Lumi ember beside the unavailable message (FIX-005)", async () => {
+    stubNoSpeechSynthesis();
+    setup("error", { voiceTimeoutMs: 0 });
+    const message = await screen.findByText("Audio isn't available right now.");
+    const status = message.closest('[role="status"]') as HTMLElement;
+    expect(status).not.toBeNull();
+    const lumi = status.querySelector("svg[data-pose]");
+    expect(lumi).toHaveAttribute("data-pose", "ember");
+    expect(lumi).toHaveAttribute("width", "48");
+    expect(lumi).toHaveAttribute("aria-hidden", "true");
+    // Beside the message (same row), Skip below.
+    expect(lumi!.parentElement).toBe(message.parentElement);
+    expect(within(status).getByRole("button", { name: "Skip" })).toBeInTheDocument();
+  });
+
   it("reports the ordered tiles as a listen answer", async () => {
     stubSpeechSynthesis([fakeVoice("es-ES")]);
     const { props, user } = setup("resolve");
