@@ -25,6 +25,11 @@ export interface UseAudioPlaybackOptions {
    */
   lang: LanguageCode;
   audio: ListenAudio;
+  /**
+   * Play once on mount (default, listen exercises). `false` waits for `play` (LES-015:
+   * the cloze clip is the correct sentence, so it only plays when the learner asks).
+   */
+  autoplay?: boolean;
 }
 
 export interface AudioPlayback {
@@ -58,10 +63,12 @@ export function useAudioPlayback({
   transcript,
   lang,
   audio,
+  autoplay = true,
 }: UseAudioPlaybackOptions): AudioPlayback {
   const { src, slowSrc } = clip;
-  // Starts in `loading` because the mount effect immediately tries to autoplay.
-  const [status, setStatus] = useState<AudioPlaybackStatus>("loading");
+  // Starts in `loading` when the mount effect immediately tries to autoplay.
+  const [status, setStatus] = useState<AudioPlaybackStatus>(autoplay ? "loading" : "idle");
+  const autoplayOnMount = useRef(autoplay);
   const requestId = useRef(0);
   const fileFailed = useRef(false);
   const voicePromise = useRef<Promise<SpeechSynthesisVoice | null> | null>(null);
@@ -110,7 +117,7 @@ export function useAudioPlayback({
   );
 
   useEffect(() => {
-    void playFile("normal");
+    if (autoplayOnMount.current) void playFile("normal");
     return () => {
       requestId.current += 1;
       audio.player.stop();

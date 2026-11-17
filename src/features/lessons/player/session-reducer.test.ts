@@ -8,7 +8,13 @@ import {
   sessionStats,
   type PlayerState,
 } from "./session-reducer";
-import { fixtureLesson, makeClock, mcOnlyLesson, SESSION_ID } from "./testing/fixtures";
+import {
+  clozeLesson,
+  fixtureLesson,
+  makeClock,
+  mcOnlyLesson,
+  SESSION_ID,
+} from "./testing/fixtures";
 
 const ALL_BUT_SPEAK = new Set<ExerciseType>(["multiple_choice", "match_pairs", "listen"]);
 
@@ -43,7 +49,7 @@ function correctAnswer(state: PlayerState): AnswerInput {
       };
     case "speak":
       return { type: "speak", skipped: false, transcripts: [ex.phrase] };
-    case "cloze": // CTO-009: compile-only; no cloze fixture here yet (LES-015)
+    case "cloze":
       return { type: "cloze", optionIds: ex.gaps.map((g) => g.correctOptionId) };
   }
 }
@@ -57,6 +63,17 @@ function wrongAnswer(state: PlayerState): AnswerInput {
     };
   }
   if (ex.type === "listen") return { type: "listen", tiles: ["adiós"] };
+  if (ex.type === "cloze") {
+    // Last gap wrong, the others right.
+    return {
+      type: "cloze",
+      optionIds: ex.gaps.map((g, i) =>
+        i === ex.gaps.length - 1
+          ? g.options.find((o) => o.id !== g.correctOptionId)!.id
+          : g.correctOptionId,
+      ),
+    };
+  }
   throw new Error(`no wrong answer for ${ex.type}`);
 }
 
@@ -336,6 +353,68 @@ describe("sessionReducer", () => {
     expect(s.pendingAnswer).not.toBeNull();
     s = sessionReducer(s, { type: "answer_changed", answer: null });
     expect(s.pendingAnswer).toBeNull();
+  });
+
+  describe("cloze (LES-015 AC 5, PD-012)", () => {
+    const CLOZE_TYPES = new Set<ExerciseType>(["multiple_choice", "cloze"]);
+
+    it("is queued like any supported type", () => {
+      const s = start(clozeLesson, { supportedTypes: CLOZE_TYPES });
+      expect(s.session.queue).toEqual(["cz-1", "cz-2", "mc-de"]);
+      expect(sessionStats(s.session).exerciseCount).toBe(3);
+    });
+
+    it("one wrong check: 1 mistake, 1 heart, re-queued, then correct as a retry", () => {
+      let s = start(clozeLesson, {
+        supportedTypes: CLOZE_TYPES,
+        heartsEnforced: true,
+        heartsAtStart: 5,
+      });
+      const wrong = wrongAnswer(s);
+      const result = checkAnswer({ exercise: s.exercises["cz-1"]!, answer: wrong });
+      expect(result).toMatchObject({
+        outcome: "incorrect",
+        mistake: true,
+        heartCost: 1,
+        wrongGapIndexes: [0],
+        correctAnswer: "Ich lege das Buch auf den Tisch.",
+      });
+      s = sessionReducer(s, { type: "answer_changed", answer: wrong });
+      s = sessionReducer(s, { type: "check", answer: wrong, result, now: clock() });
+      expect(s.session.queue).toEqual(["cz-2", "mc-de", "cz-1"]);
+      expect(s.session.heartsRemaining).toBe(4);
+      s = sessionReducer(s, { type: "continue", now: clock() });
+
+      s = answer(s, correctAnswer(s)); // cz-2, both gaps right
+      s = answer(s, correctAnswer(s)); // mc-de
+      expect(s.currentId).toBe("cz-1");
+      expect(s.presentationKey).toBe("cz-1:1");
+      s = answer(s, correctAnswer(s));
+      expect(s.session.status).toBe("completed");
+      expect(s.session.attempts.map((a) => [a.exerciseId, a.outcome, a.isRetry])).toEqual([
+        ["cz-1", "incorrect", false],
+        ["cz-2", "correct", false],
+        ["mc-de", "correct", false],
+        ["cz-1", "correct", true],
+      ]);
+      expect(sessionStats(s.session)).toMatchObject({
+        exerciseCount: 3,
+        mistakeCount: 1,
+        firstTryCorrectCount: 2,
+        perfect: false,
+      });
+      expect(LessonSessionSchema.safeParse(s.session).success).toBe(true);
+    });
+
+    it("one wrong gap of two is still a single mistake", () => {
+      let s = start(clozeLesson, { supportedTypes: CLOZE_TYPES });
+      s = answer(s, correctAnswer(s));
+      const wrong = wrongAnswer(s);
+      const result = checkAnswer({ exercise: s.exercises["cz-2"]!, answer: wrong });
+      expect(result).toMatchObject({ outcome: "incorrect", heartCost: 1, wrongGapIndexes: [1] });
+      s = answer(s, wrong);
+      expect(sessionStats(s.session).mistakeCount).toBe(1);
+    });
   });
 
   describe("hearts (LES-009 wiring)", () => {
