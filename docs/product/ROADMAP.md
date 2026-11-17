@@ -1,8 +1,9 @@
 # Polyglow Roadmap
 
-**Owner:** pm · **Last updated:** 2026-11-15 (release acceptance PM-ACC3 for v0.3.0 …
-v0.5.0; one combined v0.5.0 release; accounts renumbered v0.6.0; cloze to v0.5.1; B1
-planning starts; PD-053 … PD-055) ·
+**Owner:** pm · **Last updated:** 2026-11-16 (v1.1.0 German B1 planned: CON-DE-B1-PLAN,
+16 unit tickets, QA ticket, PD-056 … PD-063). Before that 2026-11-15 (release acceptance
+PM-ACC3 for v0.3.0 … v0.5.0; one combined v0.5.0 release; accounts renumbered v0.6.0; cloze
+to v0.5.1; B1 planning starts; PD-053 … PD-055) ·
 **Source:** `PRD.md`, `user-stories.md`, decisions in `decisions.md` (PD-004 onward cover
 this roadmap)
 
@@ -346,27 +347,75 @@ v1.1.0, where B1 needs cloze anyway.
 |---|---|---|---|
 | **v0.5.0 — German A2** | See the section above | CON-DE-A2-01 … 14, CON-DE-A2-QA | LES-013 (tip card), CTO-009 + LES-015 (cloze, non-blocking, PD-049). Gender choice = one-gap cloze; reverse MC and grammar note card not needed for A2 |
 | **v0.5.1 — A2 cloze follow-up** (planned) | 1–2 cloze exercises in A2 lessons drilling endings and prepositions (U4, U6, U9, U10), new ids only | CON-DE-A2-CLZ (planned) | CTO-009 + LES-015 (see the v0.5.1 section) |
-| **v1.1.0 — German B1** (**planning starts now**, PD-054) | 16 units, ~80 lessons, ~1,000 items | CON-DE-B1-PLAN, then CON-DE-B1-01 … 16, CON-DE-B1-QA | Cloze exercise, typed answers with `ss` / umlaut leniency (PD-033), reading passage |
+| **v1.1.0 — German B1** (**planned**, PD-056 … PD-063) | 16 units, 80 lessons, ~510 appendix entries (PD-057) | CON-DE-B1-PLAN, CON-DE-B1-01 … 16, CON-DE-B1-QA | None blocking (PD-060): cloze, typed answers (PD-033), reading passage, note card are follow-ups; B1-T5 fit check |
 | **v1.2.0 — German B2** | 18 units, ~90 lessons, ~1,500 items | CON-DE-B2-01 … 18, CON-DE-B2-QA | Longer listening comprehension, guided writing (TBD), healthcare elective path |
 | **v1.3.0 — German C1** | 18 units, ~90 lessons, ~1,500 items | CON-DE-C1-01 … 18, CON-DE-C1-QA | Academic reading and register exercises, academic elective path |
 
 Public launch (v1.0.0) ships with **A1 + A2** (PD-036). A native-speaker review of A1 and A2
 is blocking for v1.0.0 (PD-038).
 
-### v1.1.0 — German B1: planning (starts now, PD-054)
+### v1.1.0 — German B1 (planned 2026-11-16, PD-056 … PD-063)
 
-B1 is the next content level after launch (`curriculum-german.md` §2: 16 units, ~80
-lessons). Planning runs now, in parallel with v0.6.0 and v1.0.0, as A2 did (PD-045 …
-PD-052). B1 lesson files don't merge into `main` before v1.0.0 ships.
+**Milestone status: planned.** CON-DE-B1-PLAN is written (branch
+`docs/pm-007-german-b1-plan`); the 16 unit tickets and the QA ticket exist with fixed
+appendices. Writing can start once the plan is merged and the B1-T5 fit check is done
+(PD-063).
 
-| ID | Title | Owner | Priority | Depends on |
-|---|---|---|---|---|
-| CON-DE-B1-PLAN (planned) | B1 plan: unit list and grammar order (curriculum §4c), size target, CDS additions for B1, tech needs list, the 16 unit tickets with fixed appendices (PD-052 style) | pm | P1 | CON-DE-A2-QA merged |
-| CTO-(tbd) | Tech proposals from the plan: typed answers with `ss` / umlaut leniency (PD-033), reading passage, grammar note card with tables (curriculum §6) | cto | P1 | CON-DE-B1-PLAN |
+**Goal:** a learner who finished A2 can play all of B1 (16 units, 80 lessons, ~510 new
+appendix entries, PD-056, PD-057) under "B1 · Intermediate", with a grammar tip before each
+lesson, and finish with the 16-exercise B1 checkpoint. Plan: `curriculum-german.md` §4c;
+content standard CDS-1 … CDS-28 (§7).
 
-Planning is ready when the plan is logged as decisions and the 16 unit tickets exist. B1
-writing starts after v1.0.0's native review (CON-DE-NR), so A2 fixes from that review feed
-into the B1 appendices.
+**Merge rule (PD-063):** B1 writing no longer waits for CON-DE-NR, but no B1 file reaches
+`main` before **v1.0.0 is tagged**. Unit PRs stay open until then; after CON-DE-NR the pm
+runs the native-review delta (CON-DE-B1-QA criterion 13).
+
+| ID | Title | Owner | Priority | Depends on | Wave |
+|---|---|---|---|---|---|
+| CON-DE-B1-PLAN | B1 plan: §4c, size, CDS-20 … 28, tech needs list, 16 unit tickets + QA ticket | pm | P1 | CON-DE-A2-QA merged | 0 |
+| CON-DE-B1-01 | B1 Unit 1 "Could You Help Me?" (polite Konjunktiv II, indirect questions) | pm (writer 1) | P0 | CON-DE-B1-PLAN, B1-T5 check | 1 |
+| CON-DE-B1-02 | B1 Unit 2 "Life Stories" (Präteritum, `als / wenn`) | pm (writer 2) | P0 | appendix of 01 | 1 |
+| CON-DE-B1-03 | B1 Unit 3 "People Around Me" (relative clauses nom. / acc.) | pm (writer 3) | P0 | appendices of 01–02 | 1 |
+| CON-DE-B1-04 | B1 Unit 4 "Everyday Work" (verbs with prepositions, `wo- / da-`) | pm (writer 4) | P0 | appendices of 01–03 | 1 |
+| CON-DE-B1-05 | B1 Unit 5 "Learning for Life" (zu-infinitive, `um … zu`) | pm (writer 1) | P0 | appendices of 01–04, wave 1 scripts | 2 |
+| CON-DE-B1-06 | B1 Unit 6 "Renting a Flat" (dative / prepositional relatives, dative endings) | pm (writer 2) | P0 | appendices of 01–05 | 2 |
+| CON-DE-B1-07 | B1 Unit 7 "Doctors and Hospitals" (n-declension, dative reflexive) | pm (writer 3) | P0 | appendices of 01–06 | 2 |
+| CON-DE-B1-08 | B1 Unit 8 "Orders and Complaints" (`obwohl`, `damit`) | pm (writer 4) | P0 | appendices of 01–07 | 2 |
+| CON-DE-B1-09 | B1 Unit 9 "Environment and the City" (passive present, `lassen`) | pm (writer 1) | P0 | appendices of 01–08, wave 2 scripts | 3 |
+| CON-DE-B1-10 | B1 Unit 10 "If I Had More Time" (Konjunktiv II in full, `sollte`) | pm (writer 2) | P0 | appendices of 01–09 | 3 |
+| CON-DE-B1-11 | B1 Unit 11 "Letters from the Authorities" (genitive, `wegen / trotz / während`) | pm (writer 3) | P0 | appendices of 01–10 | 3 |
+| CON-DE-B1-12 | B1 Unit 12 "News and Reports" (passive Präteritum, Plusquamperfekt, `nachdem / bevor`) | pm (writer 4) | P0 | appendices of 01–11 | 3 |
+| CON-DE-B1-13 | B1 Unit 13 "Food and Markets" (endings without article, genitive endings, attributive comparison) | pm (writer 1) | P0 | appendices of 01–12, wave 3 scripts | 4 |
+| CON-DE-B1-14 | B1 Unit 14 "Living Together" (two-part connectors) | pm (writer 2) | P0 | appendices of 01–13 | 4 |
+| CON-DE-B1-15 | B1 Unit 15 "Discussing and Deciding" (`während / seitdem / bis`) | pm (writer 3) | P0 | appendices of 01–14 | 4 |
+| CON-DE-B1-16 | B1 Unit 16 "Next Steps" (`ohne / statt … zu`, `wohl`) + B1 checkpoint | pm (writer 4) | P0 | appendices of 01–15 | 4 |
+| CON-DE-B1-QA | B1 content QA pass over all 80 lessons, native-review delta | pm | P0 | CON-DE-B1-01 … 16, CON-DE-NR | 5 |
+| CON-DE-B1-NR (planned) | Native-speaker review of B1 fixed (blocking for v1.1.0, PD-063) | pm (owner arranges the reviewer) | P0 | CON-DE-B1-QA | 5 |
+| CTO-(tbd) B1-T2 | Typed answers with `ss` / umlaut leniency (PD-033): contract + checker | cto | P1 | — (not blocking) | any |
+| CTO-(tbd) B1-T3 | Reading passage type with reverse-direction options (PD-019) | cto, dev-lessons | P1 | — (not blocking; else v1.1.1) | any |
+| CTO-(tbd) B1-T4 | Grammar note card with tables | cto, dev-lessons | P2 | — (not blocking) | any |
+| B1-T5 | Fit check at 375 × 667: 240-character tip, 110-character prompt with 14 tiles | pm (preview) | P1 | LES-013 | 0 |
+| CON-DE-B1-CLZ / -TYP / -RDG (planned) | Cloze, typed and reading follow-ups in B1 lessons, new ids only | pm | P2 | LES-015 / B1-T2 / B1-T3 | after 5 |
+
+Tech needs list and which units benefit from each type: `curriculum-german.md` §4c. Cloze
+(CTO-009, LES-015) stays in v0.5.1; if it slips past v1.0.0 it moves here (see v0.5.1).
+
+**Parallel build plan (4 writers per wave, PD-062)**
+- **Wave 0:** the pm runs the B1-T5 fit check on the preview. If it fails, CDS-20 / CDS-21
+  fall back to 80 / 200 characters and writing still starts.
+- **Wave 1:** CON-DE-B1-01 … 04 in parallel. Each writer uses A1, A2, the earlier B1
+  appendices and the own unit only, never other writers' lesson files.
+- **After every wave:** the orchestrator runs the scripted checks on that wave (lexical
+  token scan against the appendices, word-bank permutation and buildability, lengths,
+  case-only pairs, digits, ordering regexes, duplicates). The pm settles vocabulary requests
+  and amends later appendices before the next wave starts.
+- **Wave 2:** 05 … 08. **Wave 3:** 09 … 12. **Wave 4:** 13 … 16.
+- **Wave 5:** CON-DE-B1-QA on the combined preview branch, including the native-review delta
+  once CON-DE-NR is done, and the playthrough.
+- **Merge:** after v1.0.0 is tagged, the orchestrator inserts the units in unit order under
+  the `B1` level; the cto merges.
+- **Ready for release** when CON-DE-B1-01 … 16, CON-DE-B1-QA and CON-DE-B1-NR are
+  accepted. The follow-ups (CLZ, TYP, RDG) and B1-T2 … T4 don't block v1.1.0.
 
 ---
 
