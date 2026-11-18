@@ -3,7 +3,7 @@
   "title": "German",
   "learningLanguage": "de",
   "knownLanguage": "en",
-  "version": 21,
+  "version": 22,
   "levels": [
     {
       "level": "A1",
@@ -976,6 +976,62 @@
         {
           "id": "de-b1-u08-l5-cancelling",
           "title": "Scenario: Cancelling a Contract"
+        }
+      ]
+    },
+    {
+      "id": "de-b1-u09",
+      "level": "B1",
+      "title": "Environment and the City",
+      "description": "Talk about the environment and your town, say what is done with the passive, and what you have done with lassen.",
+      "lessons": [
+        {
+          "id": "de-b1-u09-l1-environment",
+          "title": "The Environment"
+        },
+        {
+          "id": "de-b1-u09-l2-is-sorted",
+          "title": "The Rubbish Is Sorted"
+        },
+        {
+          "id": "de-b1-u09-l3-built-by",
+          "title": "Built by the City"
+        },
+        {
+          "id": "de-b1-u09-l4-by-bike",
+          "title": "By Bike or by Bus?"
+        },
+        {
+          "id": "de-b1-u09-l5-clean-up",
+          "title": "Scenario: The Neighbourhood Clean-Up"
+        }
+      ]
+    },
+    {
+      "id": "de-b1-u10",
+      "level": "B1",
+      "title": "If I Had More Time",
+      "description": "Talk about culture and free time, wishes and dreams, and give advice with würde, hätte, wäre and sollte.",
+      "lessons": [
+        {
+          "id": "de-b1-u10-l1-culture",
+          "title": "Out and About"
+        },
+        {
+          "id": "de-b1-u10-l2-i-would-love-to",
+          "title": "I Would Love To"
+        },
+        {
+          "id": "de-b1-u10-l3-if-i-had",
+          "title": "If I Had More Time"
+        },
+        {
+          "id": "de-b1-u10-l4-if-i-were-you",
+          "title": "If I Were You"
+        },
+        {
+          "id": "de-b1-u10-l5-concert",
+          "title": "Scenario: A Concert in the Park"
         }
       ]
     }

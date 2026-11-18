@@ -1,0 +1,184 @@
+{
+  "id": "de-b1-u09-l4-by-bike",
+  "courseId": "en-de",
+  "unitId": "de-b1-u09",
+  "title": "By Bike or by Bus?",
+  "tip": "lassen + infinitive: someone else does it for you. „Ich lasse mein Rad reparieren.“ The infinitive goes to the end, without zu. ich lasse; du lässt; er / sie lässt; wir lassen.",
+  "exercises": [
+    {
+      "id": "de-b1-u09-l4-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        { "id": "p1", "learning": "das Rad", "known": "the bike" },
+        { "id": "p2", "learning": "der Verkehr", "known": "the traffic" },
+        { "id": "p3", "learning": "der Stau", "known": "the traffic jam" },
+        { "id": "p4", "learning": "die Luft", "known": "the air" },
+        { "id": "p5", "learning": "der Lärm", "known": "the noise" }
+      ]
+    },
+    {
+      "id": "de-b1-u09-l4-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'I'm having my bike repaired.'?",
+      "options": [
+        { "id": "a", "text": "Ich lasse mein Rad zu reparieren." },
+        { "id": "b", "text": "Ich lasse mein Rad repariert." },
+        { "id": "c", "text": "Ich lasse mein Rad reparieren." },
+        { "id": "d", "text": "Ich lasse reparieren mein Rad." }
+      ],
+      "correctOptionId": "c"
+    },
+    {
+      "id": "de-b1-u09-l4-ex03",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I go to work by bike.",
+      "tiles": ["ich", "fahre", "mit", "dem", "Rad", "zur", "Arbeit", "der", "zum", "fährt"],
+      "answers": [
+        "Ich fahre mit dem Rad zur Arbeit.",
+        "Ich fahre zur Arbeit mit dem Rad.",
+        "Mit dem Rad fahre ich zur Arbeit.",
+        "Zur Arbeit fahre ich mit dem Rad."
+      ]
+    },
+    {
+      "id": "de-b1-u09-l4-ex04",
+      "type": "listen",
+      "audio": { "src": "/audio/de/b1/u09/de-b1-u09-l4-ex04.mp3" },
+      "tiles": ["es", "gibt", "viel", "Verkehr", "viele", "sind", "Stau"],
+      "answers": ["Es gibt viel Verkehr."]
+    },
+    {
+      "id": "de-b1-u09-l4-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'We're stuck in a traffic jam.'?",
+      "options": [
+        { "id": "a", "text": "Wir stehen in den Stau." },
+        { "id": "b", "text": "Wir stehen im Stau." },
+        { "id": "c", "text": "Wir steht im Stau." },
+        { "id": "d", "text": "Wir stehen am Stau." }
+      ],
+      "correctOptionId": "b"
+    },
+    {
+      "id": "de-b1-u09-l4-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Die Luft ist hier schlecht, weil es viel Verkehr gibt.",
+      "tiles": [
+        "the",
+        "air",
+        "is",
+        "bad",
+        "here",
+        "because",
+        "there",
+        "is",
+        "a",
+        "lot",
+        "of",
+        "traffic",
+        "noise",
+        "are"
+      ],
+      "answers": [
+        "The air is bad here because there is a lot of traffic.",
+        "The air here is bad because there is a lot of traffic.",
+        "Here the air is bad because there is a lot of traffic.",
+        "The air is bad because there is a lot of traffic here.",
+        "Because there is a lot of traffic, the air is bad here.",
+        "Because there is a lot of traffic, the air here is bad.",
+        "Because there is a lot of traffic here, the air is bad."
+      ]
+    },
+    {
+      "id": "de-b1-u09-l4-ex07",
+      "type": "listen",
+      "audio": { "src": "/audio/de/b1/u09/de-b1-u09-l4-ex07.mp3" },
+      "tiles": ["der", "Lärm", "stört", "mich", "mir", "stören", "die", "Luft"],
+      "answers": ["Der Lärm stört mich."]
+    },
+    {
+      "id": "de-b1-u09-l4-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Are you having your car washed? (to a friend)",
+      "tiles": ["lässt", "du", "dein", "Auto", "waschen", "lasst", "deine", "zu", "gewaschen"],
+      "answers": ["Lässt du dein Auto waschen?"]
+    },
+    {
+      "id": "de-b1-u09-l4-ex09",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'I take public transport.'?",
+      "options": [
+        { "id": "a", "text": "Ich nehme die öffentliche Verkehrsmittel." },
+        { "id": "b", "text": "Ich nimm die öffentlichen Verkehrsmittel." },
+        { "id": "c", "text": "Ich nehme den öffentlichen Verkehrsmittel." },
+        { "id": "d", "text": "Ich nehme die öffentlichen Verkehrsmittel." }
+      ],
+      "correctOptionId": "d"
+    },
+    {
+      "id": "de-b1-u09-l4-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "We're having the heating repaired tomorrow.",
+      "tiles": [
+        "wir",
+        "lassen",
+        "die",
+        "Heizung",
+        "morgen",
+        "reparieren",
+        "lasst",
+        "zu",
+        "repariert",
+        "der"
+      ],
+      "answers": [
+        "Wir lassen die Heizung morgen reparieren.",
+        "Wir lassen morgen die Heizung reparieren.",
+        "Morgen lassen wir die Heizung reparieren.",
+        "Die Heizung lassen wir morgen reparieren."
+      ]
+    },
+    {
+      "id": "de-b1-u09-l4-ex11",
+      "type": "listen",
+      "audio": { "src": "/audio/de/b1/u09/de-b1-u09-l4-ex11.mp3" },
+      "tiles": ["sie", "lässt", "ihr", "Auto", "waschen", "lassen", "ihre", "gewaschen"],
+      "answers": ["Sie lässt ihr Auto waschen."]
+    },
+    {
+      "id": "de-b1-u09-l4-ex12",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Ich fahre mit dem Bus, um Geld zu sparen.",
+      "tiles": [
+        "I",
+        "take",
+        "the",
+        "bus",
+        "go",
+        "by",
+        "to",
+        "save",
+        "money",
+        "in",
+        "order",
+        "energy",
+        "car"
+      ],
+      "answers": [
+        "I take the bus to save money.",
+        "I go by bus to save money.",
+        "I take the bus in order to save money.",
+        "I go by bus in order to save money.",
+        "To save money, I take the bus.",
+        "To save money, I go by bus.",
+        "In order to save money, I take the bus.",
+        "In order to save money, I go by bus."
+      ]
+    }
+  ]
+}

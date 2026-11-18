@@ -1,0 +1,234 @@
+{
+  "id": "de-b1-u10-l3-if-i-had",
+  "courseId": "en-de",
+  "unitId": "de-b1-u10",
+  "title": "If I Had More Time",
+  "tip": "For haben, sein and modals use the short forms, not würde: hätte; wäre; könnte. wenn sends the verb to the end: „Wenn ich mehr Zeit hätte, würde ich mehr lesen.“ „Wenn ich reich wäre, …“",
+  "exercises": [
+    {
+      "id": "de-b1-u10-l3-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        { "id": "p1", "learning": "reich", "known": "rich" },
+        { "id": "p2", "learning": "die Insel", "known": "the island" },
+        { "id": "p3", "learning": "ich hätte", "known": "I would have" },
+        { "id": "p4", "learning": "ich wäre", "known": "I would be" },
+        { "id": "p5", "learning": "ich könnte", "known": "I could" }
+      ]
+    },
+    {
+      "id": "de-b1-u10-l3-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'If I had more time, I would read more.'?",
+      "options": [
+        { "id": "a", "text": "Wenn ich mehr Zeit habe, lese ich mehr." },
+        { "id": "b", "text": "Wenn ich mehr Zeit hätte, würde ich mehr lesen." },
+        { "id": "c", "text": "Wenn ich mehr Zeit haben würde, würde ich mehr lesen." },
+        { "id": "d", "text": "Wenn ich mehr Zeit hätte, ich würde mehr lesen." }
+      ],
+      "correctOptionId": "b"
+    },
+    {
+      "id": "de-b1-u10-l3-ex03",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "If I had more time, I would read more.",
+      "tiles": [
+        "wenn",
+        "ich",
+        "mehr",
+        "Zeit",
+        "hätte",
+        "würde",
+        "ich",
+        "mehr",
+        "lesen",
+        "habe",
+        "lese",
+        "haben"
+      ],
+      "answers": [
+        "Wenn ich mehr Zeit hätte, würde ich mehr lesen.",
+        "Ich würde mehr lesen, wenn ich mehr Zeit hätte."
+      ]
+    },
+    {
+      "id": "de-b1-u10-l3-ex04",
+      "type": "listen",
+      "audio": { "src": "/audio/de/b1/u10/de-b1-u10-l3-ex04.mp3" },
+      "tiles": ["wenn", "ich", "reich", "wäre", "würde", "ich", "viel", "reisen", "bin", "werde"],
+      "answers": ["Wenn ich reich wäre, würde ich viel reisen."]
+    },
+    {
+      "id": "de-b1-u10-l3-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'Would you have time on Saturday? (to a friend)'?",
+      "options": [
+        { "id": "a", "text": "Würdest du am Samstag Zeit haben?" },
+        { "id": "b", "text": "Hattest du am Samstag Zeit?" },
+        { "id": "c", "text": "Hätte du am Samstag Zeit?" },
+        { "id": "d", "text": "Hättest du am Samstag Zeit?" }
+      ],
+      "correctOptionId": "d"
+    },
+    {
+      "id": "de-b1-u10-l3-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "If I were rich, I would buy a house of my own.",
+      "tiles": [
+        "wenn",
+        "ich",
+        "reich",
+        "wäre",
+        "würde",
+        "ich",
+        "ein",
+        "eigenes",
+        "Haus",
+        "kaufen",
+        "bin",
+        "eigene",
+        "sein"
+      ],
+      "answers": [
+        "Wenn ich reich wäre, würde ich ein eigenes Haus kaufen.",
+        "Ich würde ein eigenes Haus kaufen, wenn ich reich wäre.",
+        "Ein eigenes Haus würde ich kaufen, wenn ich reich wäre."
+      ]
+    },
+    {
+      "id": "de-b1-u10-l3-ex07",
+      "type": "listen",
+      "audio": { "src": "/audio/de/b1/u10/de-b1-u10-l3-ex07.mp3" },
+      "tiles": [
+        "wenn",
+        "ich",
+        "könnte",
+        "würde",
+        "ich",
+        "auf",
+        "einer",
+        "Insel",
+        "wohnen",
+        "kann",
+        "eine"
+      ],
+      "answers": ["Wenn ich könnte, würde ich auf einer Insel wohnen."]
+    },
+    {
+      "id": "de-b1-u10-l3-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Wenn du mehr Zeit hättest, was würdest du machen?",
+      "tiles": [
+        "if",
+        "you",
+        "had",
+        "more",
+        "time",
+        "what",
+        "would",
+        "you",
+        "do",
+        "have",
+        "will",
+        "did"
+      ],
+      "answers": [
+        "If you had more time, what would you do?",
+        "What would you do if you had more time?"
+      ]
+    },
+    {
+      "id": "de-b1-u10-l3-ex09",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'If you were here, we could go to the theatre together. (to a friend)'?",
+      "options": [
+        { "id": "a", "text": "Wenn du hier wärst, könnten wir gemeinsam ins Theater gehen." },
+        {
+          "id": "b",
+          "text": "Wenn du hier sein würdest, könnten wir gemeinsam ins Theater gehen."
+        },
+        { "id": "c", "text": "Wenn du hier bist, können wir gemeinsam ins Theater gehen." },
+        { "id": "d", "text": "Wenn du hier wärst, wir könnten gemeinsam ins Theater gehen." }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "de-b1-u10-l3-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "If I could, I would live on a small island.",
+      "tiles": [
+        "wenn",
+        "ich",
+        "könnte",
+        "würde",
+        "ich",
+        "auf",
+        "einer",
+        "kleinen",
+        "Insel",
+        "wohnen",
+        "kann",
+        "kleine",
+        "eine"
+      ],
+      "answers": [
+        "Wenn ich könnte, würde ich auf einer kleinen Insel wohnen.",
+        "Ich würde auf einer kleinen Insel wohnen, wenn ich könnte.",
+        "Auf einer kleinen Insel würde ich wohnen, wenn ich könnte."
+      ]
+    },
+    {
+      "id": "de-b1-u10-l3-ex11",
+      "type": "listen",
+      "audio": { "src": "/audio/de/b1/u10/de-b1-u10-l3-ex11.mp3" },
+      "tiles": [
+        "du",
+        "könntest",
+        "mehr",
+        "lesen",
+        "wenn",
+        "du",
+        "weniger",
+        "fernsehen",
+        "würdest",
+        "kannst",
+        "wirst"
+      ],
+      "answers": ["Du könntest mehr lesen, wenn du weniger fernsehen würdest."]
+    },
+    {
+      "id": "de-b1-u10-l3-ex12",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Wäre es nicht schön, am Meer zu wohnen?",
+      "tiles": [
+        "wouldn't",
+        "it",
+        "be",
+        "nice",
+        "beautiful",
+        "to",
+        "live",
+        "by",
+        "at",
+        "the",
+        "sea",
+        "seaside",
+        "isn't",
+        "is"
+      ],
+      "answers": [
+        "Wouldn't it be nice to live by the sea?",
+        "Wouldn't it be beautiful to live by the sea?",
+        "Wouldn't it be nice to live at the seaside?",
+        "Wouldn't it be beautiful to live at the seaside?",
+        "Wouldn't it be nice to live by the seaside?",
+        "Wouldn't it be beautiful to live by the seaside?"
+      ]
+    }
+  ]
+}

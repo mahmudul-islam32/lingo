@@ -1,0 +1,191 @@
+{
+  "id": "de-b1-u09-l3-built-by",
+  "courseId": "en-de",
+  "unitId": "de-b1-u09",
+  "title": "Built by the City",
+  "tip": "Who does it? von + dative: „Die Brücke wird von der Stadt gebaut.“ der → vom; die → von der; das → vom; eine → von einer. Without von, the doer doesn't matter: „Ein neuer Radweg wird gebaut.“",
+  "exercises": [
+    {
+      "id": "de-b1-u09-l3-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        { "id": "p1", "learning": "bauen", "known": "to build" },
+        { "id": "p2", "learning": "die Brücke", "known": "the bridge" },
+        { "id": "p3", "learning": "der Radweg", "known": "the cycle path" },
+        { "id": "p4", "learning": "die Baustelle", "known": "the building site" },
+        { "id": "p5", "learning": "gesperrt", "known": "blocked off" }
+      ]
+    },
+    {
+      "id": "de-b1-u09-l3-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'The bridge is being built by the city.'?",
+      "options": [
+        { "id": "a", "text": "Die Brücke wird von die Stadt gebaut." },
+        { "id": "b", "text": "Die Brücke wird von der Stadt gebaut." },
+        { "id": "c", "text": "Die Brücke wird von der Stadt bauen." },
+        { "id": "d", "text": "Die Brücke werden von der Stadt gebaut." }
+      ],
+      "correctOptionId": "b"
+    },
+    {
+      "id": "de-b1-u09-l3-ex03",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "A new cycle path is being built.",
+      "tiles": ["ein", "neuer", "Radweg", "wird", "gebaut", "neuen", "werden", "bauen", "einen"],
+      "answers": ["Ein neuer Radweg wird gebaut."]
+    },
+    {
+      "id": "de-b1-u09-l3-ex04",
+      "type": "listen",
+      "audio": { "src": "/audio/de/b1/u09/de-b1-u09-l3-ex04.mp3" },
+      "tiles": ["die", "Straße", "ist", "ab", "Montag", "gesperrt", "am", "sind", "der"],
+      "answers": ["Die Straße ist ab Montag gesperrt."]
+    },
+    {
+      "id": "de-b1-u09-l3-ex05",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "The library is opened at nine.",
+      "tiles": [
+        "die",
+        "Bibliothek",
+        "wird",
+        "um",
+        "neun",
+        "geöffnet",
+        "werden",
+        "öffnet",
+        "am",
+        "geschlossen"
+      ],
+      "answers": ["Die Bibliothek wird um neun geöffnet.", "Um neun wird die Bibliothek geöffnet."]
+    },
+    {
+      "id": "de-b1-u09-l3-ex06",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'The library is closed at eight.'?",
+      "options": [
+        { "id": "a", "text": "Die Bibliothek wird um acht geschließt." },
+        { "id": "b", "text": "Die Bibliothek werden um acht geschlossen." },
+        { "id": "c", "text": "Die Bibliothek um acht wird geschlossen." },
+        { "id": "d", "text": "Die Bibliothek wird um acht geschlossen." }
+      ],
+      "correctOptionId": "d"
+    },
+    {
+      "id": "de-b1-u09-l3-ex07",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Die Baustelle ist laut.",
+      "tiles": [
+        "the",
+        "building",
+        "site",
+        "is",
+        "loud",
+        "noisy",
+        "roadworks",
+        "are",
+        "quiet",
+        "bridge"
+      ],
+      "answers": [
+        "The building site is loud.",
+        "The building site is noisy.",
+        "The roadworks are loud.",
+        "The roadworks are noisy."
+      ]
+    },
+    {
+      "id": "de-b1-u09-l3-ex08",
+      "type": "listen",
+      "audio": { "src": "/audio/de/b1/u09/de-b1-u09-l3-ex08.mp3" },
+      "tiles": ["wann", "wird", "die", "Straße", "wieder", "geöffnet", "werden", "wo", "öffnen"],
+      "answers": ["Wann wird die Straße wieder geöffnet?"]
+    },
+    {
+      "id": "de-b1-u09-l3-ex09",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "The bridge is being repaired by a company.",
+      "tiles": [
+        "die",
+        "Brücke",
+        "wird",
+        "von",
+        "einer",
+        "Firma",
+        "repariert",
+        "eine",
+        "werden",
+        "reparieren"
+      ],
+      "answers": [
+        "Die Brücke wird von einer Firma repariert.",
+        "Von einer Firma wird die Brücke repariert."
+      ]
+    },
+    {
+      "id": "de-b1-u09-l3-ex10",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'The street is closed because a bridge is being built.'?",
+      "options": [
+        { "id": "a", "text": "Die Straße ist gesperrt, weil eine Brücke wird gebaut." },
+        { "id": "b", "text": "Die Straße ist gesperrt, weil eine Brücke gebaut wird." },
+        { "id": "c", "text": "Die Straße ist gesperrt, weil eine Brücke gebaut werden." },
+        { "id": "d", "text": "Die Straße ist gesperrt, weil wird eine Brücke gebaut." }
+      ],
+      "correctOptionId": "b"
+    },
+    {
+      "id": "de-b1-u09-l3-ex11",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "The new cycle paths are being built by the city.",
+      "tiles": [
+        "die",
+        "neuen",
+        "Radwege",
+        "werden",
+        "von",
+        "der",
+        "Stadt",
+        "gebaut",
+        "wird",
+        "neue",
+        "bauen",
+        "dem"
+      ],
+      "answers": [
+        "Die neuen Radwege werden von der Stadt gebaut.",
+        "Von der Stadt werden die neuen Radwege gebaut."
+      ]
+    },
+    {
+      "id": "de-b1-u09-l3-ex12",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Der Radweg wird von der Stadt geöffnet.",
+      "tiles": [
+        "the",
+        "the",
+        "cycle",
+        "path",
+        "is",
+        "being",
+        "opened",
+        "by",
+        "city",
+        "from",
+        "open",
+        "are"
+      ],
+      "answers": [
+        "The cycle path is opened by the city.",
+        "The cycle path is being opened by the city."
+      ]
+    }
+  ]
+}

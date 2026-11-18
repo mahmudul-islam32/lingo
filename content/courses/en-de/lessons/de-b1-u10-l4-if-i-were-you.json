@@ -1,0 +1,170 @@
+{
+  "id": "de-b1-u10-l4-if-i-were-you",
+  "courseId": "en-de",
+  "unitId": "de-b1-u10",
+  "title": "If I Were You",
+  "tip": "Advice: „Du solltest mehr schlafen.“ or „An deiner Stelle würde ich …“ (formal: an Ihrer Stelle). The infinitive goes to the end, without zu. raten takes the dative: „Was rätst du mir?“",
+  "exercises": [
+    {
+      "id": "de-b1-u10-l4-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        { "id": "p1", "learning": "der Rat", "known": "the advice" },
+        { "id": "p2", "learning": "der Vorschlag", "known": "the suggestion" },
+        { "id": "p3", "learning": "vorschlagen", "known": "to suggest" },
+        { "id": "p4", "learning": "raten", "known": "to advise" },
+        { "id": "p5", "learning": "du solltest", "known": "you should" }
+      ]
+    },
+    {
+      "id": "de-b1-u10-l4-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'You should sleep more. (to a friend)'?",
+      "options": [
+        { "id": "a", "text": "Du solltest mehr zu schlafen." },
+        { "id": "b", "text": "Du solltest mehr schlafen." },
+        { "id": "c", "text": "Du solltest schlafen mehr." },
+        { "id": "d", "text": "Du würdest mehr schlafen." }
+      ],
+      "correctOptionId": "b"
+    },
+    {
+      "id": "de-b1-u10-l4-ex03",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "If I were you, I would do the course. (to a friend)",
+      "tiles": [
+        "an",
+        "deiner",
+        "Stelle",
+        "würde",
+        "ich",
+        "den",
+        "Kurs",
+        "machen",
+        "meiner",
+        "der",
+        "werde"
+      ],
+      "answers": [
+        "An deiner Stelle würde ich den Kurs machen.",
+        "Ich würde an deiner Stelle den Kurs machen.",
+        "Den Kurs würde ich an deiner Stelle machen."
+      ]
+    },
+    {
+      "id": "de-b1-u10-l4-ex04",
+      "type": "listen",
+      "audio": { "src": "/audio/de/b1/u10/de-b1-u10-l4-ex04.mp3" },
+      "tiles": ["was", "rätst", "du", "mir", "mich", "ratest", "rät"],
+      "answers": ["Was rätst du mir?"]
+    },
+    {
+      "id": "de-b1-u10-l4-ex05",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "An Ihrer Stelle würde ich den Arzt anrufen.",
+      "tiles": [
+        "if",
+        "I",
+        "were",
+        "you",
+        "I",
+        "would",
+        "I'd",
+        "call",
+        "the",
+        "doctor",
+        "will",
+        "are",
+        "he"
+      ],
+      "answers": [
+        "If I were you, I would call the doctor.",
+        "If I were you, I'd call the doctor.",
+        "I would call the doctor if I were you.",
+        "I'd call the doctor if I were you."
+      ]
+    },
+    {
+      "id": "de-b1-u10-l4-ex06",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'I suggest going to the concert.'?",
+      "options": [
+        { "id": "a", "text": "Ich vorschlage, ins Konzert zu gehen." },
+        { "id": "b", "text": "Ich schlage vor, ins Konzert gehen." },
+        { "id": "c", "text": "Ich schlage vor, ins Konzert zu gehen." },
+        { "id": "d", "text": "Ich schlage, ins Konzert zu gehen vor." }
+      ],
+      "correctOptionId": "c"
+    },
+    {
+      "id": "de-b1-u10-l4-ex07",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I have a suggestion: we could go to the theatre.",
+      "tiles": [
+        "ich",
+        "habe",
+        "einen",
+        "Vorschlag",
+        "wir",
+        "könnten",
+        "ins",
+        "Theater",
+        "gehen",
+        "ein",
+        "können",
+        "im"
+      ],
+      "answers": [
+        "Ich habe einen Vorschlag: Wir könnten ins Theater gehen.",
+        "Ich habe einen Vorschlag: Ins Theater könnten wir gehen.",
+        "Einen Vorschlag habe ich: Wir könnten ins Theater gehen.",
+        "Einen Vorschlag habe ich: Ins Theater könnten wir gehen."
+      ]
+    },
+    {
+      "id": "de-b1-u10-l4-ex08",
+      "type": "listen",
+      "audio": { "src": "/audio/de/b1/u10/de-b1-u10-l4-ex08.mp3" },
+      "tiles": ["danke", "für", "den", "Rat", "das", "mache", "ich", "der", "machst"],
+      "answers": ["Danke für den Rat, das mache ich."]
+    },
+    {
+      "id": "de-b1-u10-l4-ex09",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'If I were you, I would ask the teacher. (formal)'?",
+      "options": [
+        { "id": "a", "text": "An Ihrer Stelle ich würde den Lehrer fragen." },
+        { "id": "b", "text": "An Ihrer Stelle würde ich den Lehrer zu fragen." },
+        { "id": "c", "text": "An Ihre Stelle würde ich den Lehrer fragen." },
+        { "id": "d", "text": "An Ihrer Stelle würde ich den Lehrer fragen." }
+      ],
+      "correctOptionId": "d"
+    },
+    {
+      "id": "de-b1-u10-l4-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "You should drink more water. (to a friend)",
+      "tiles": ["du", "solltest", "mehr", "Wasser", "trinken", "zu", "trinkst", "würdest"],
+      "answers": ["Du solltest mehr Wasser trinken.", "Mehr Wasser solltest du trinken."]
+    },
+    {
+      "id": "de-b1-u10-l4-ex11",
+      "type": "listen",
+      "audio": { "src": "/audio/de/b1/u10/de-b1-u10-l4-ex11.mp3" },
+      "tiles": ["an", "deiner", "Stelle", "würde", "ich", "mehr", "schlafen", "meiner", "werde"],
+      "answers": ["An deiner Stelle würde ich mehr schlafen."]
+    },
+    {
+      "id": "de-b1-u10-l4-ex12",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Kannst du mir einen Rat geben?",
+      "tiles": ["can", "you", "give", "me", "some", "advice", "my", "him", "an"],
+      "answers": ["Can you give me some advice?", "Can you give me advice?"]
+    }
+  ]
+}

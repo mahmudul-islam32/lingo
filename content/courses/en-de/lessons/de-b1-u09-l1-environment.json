@@ -1,0 +1,175 @@
+{
+  "id": "de-b1-u09-l1-environment",
+  "courseId": "en-de",
+  "unitId": "de-b1-u09",
+  "title": "The Environment",
+  "tip": "German builds words from parts: „umweltfreundlich“ = Umwelt + freundlich. sparen is the opposite of verbrauchen: „Wir sparen Energie.“ „Der Kühlschrank verbraucht viel Strom.“",
+  "exercises": [
+    {
+      "id": "de-b1-u09-l1-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        { "id": "p1", "learning": "die Umwelt", "known": "the environment" },
+        { "id": "p2", "learning": "die Natur", "known": "nature" },
+        { "id": "p3", "learning": "die Energie", "known": "energy" },
+        { "id": "p4", "learning": "sparen", "known": "to save" },
+        { "id": "p5", "learning": "der Strom", "known": "electricity" }
+      ]
+    },
+    {
+      "id": "de-b1-u09-l1-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'We save energy.'?",
+      "options": [
+        { "id": "a", "text": "Wir verbrauchen Energie." },
+        { "id": "b", "text": "Wir sparen Energie." },
+        { "id": "c", "text": "Wir sparen Strom." },
+        { "id": "d", "text": "Wir sparen die Natur." }
+      ],
+      "correctOptionId": "b"
+    },
+    {
+      "id": "de-b1-u09-l1-ex03",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I switch off the computer.",
+      "tiles": ["ich", "schalte", "den", "Computer", "aus", "ein", "der", "schaltest"],
+      "answers": ["Ich schalte den Computer aus.", "Den Computer schalte ich aus."]
+    },
+    {
+      "id": "de-b1-u09-l1-ex04",
+      "type": "listen",
+      "audio": { "src": "/audio/de/b1/u09/de-b1-u09-l1-ex04.mp3" },
+      "tiles": ["der", "Kühlschrank", "verbraucht", "viel", "Strom", "verbrauchen", "den", "viele"],
+      "answers": ["Der Kühlschrank verbraucht viel Strom."]
+    },
+    {
+      "id": "de-b1-u09-l1-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which one means 'environmentally friendly'?",
+      "options": [
+        { "id": "a", "text": "freundlich" },
+        { "id": "b", "text": "die Umwelt" },
+        { "id": "c", "text": "umweltfreundlich" },
+        { "id": "d", "text": "die Natur" }
+      ],
+      "correctOptionId": "c"
+    },
+    {
+      "id": "de-b1-u09-l1-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Die Natur ist hier schön.",
+      "tiles": ["nature", "is", "beautiful", "here", "the", "environment", "are", "there"],
+      "answers": [
+        "Nature is beautiful here.",
+        "Nature here is beautiful.",
+        "Here nature is beautiful.",
+        "The nature here is beautiful.",
+        "The nature is beautiful here.",
+        "Here the nature is beautiful."
+      ]
+    },
+    {
+      "id": "de-b1-u09-l1-ex07",
+      "type": "listen",
+      "audio": { "src": "/audio/de/b1/u09/de-b1-u09-l1-ex07.mp3" },
+      "tiles": ["die", "Umwelt", "ist", "uns", "wichtig", "euch", "sind", "Natur"],
+      "answers": ["Die Umwelt ist uns wichtig."]
+    },
+    {
+      "id": "de-b1-u09-l1-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I switch off the heating to save energy.",
+      "tiles": [
+        "ich",
+        "schalte",
+        "die",
+        "Heizung",
+        "aus",
+        "um",
+        "Energie",
+        "zu",
+        "sparen",
+        "damit",
+        "spare",
+        "ein"
+      ],
+      "answers": [
+        "Ich schalte die Heizung aus, um Energie zu sparen.",
+        "Um Energie zu sparen, schalte ich die Heizung aus.",
+        "Die Heizung schalte ich aus, um Energie zu sparen."
+      ]
+    },
+    {
+      "id": "de-b1-u09-l1-ex09",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'I'm interested in nature.'?",
+      "options": [
+        { "id": "a", "text": "Ich interessiere mich an der Natur." },
+        { "id": "b", "text": "Ich interessiere für die Natur." },
+        { "id": "c", "text": "Ich interessiere mich über die Natur." },
+        { "id": "d", "text": "Ich interessiere mich für die Natur." }
+      ],
+      "correctOptionId": "d"
+    },
+    {
+      "id": "de-b1-u09-l1-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I'm buying a new fridge so that we use less electricity.",
+      "tiles": [
+        "ich",
+        "kaufe",
+        "einen",
+        "neuen",
+        "Kühlschrank",
+        "damit",
+        "wir",
+        "weniger",
+        "Strom",
+        "verbrauchen",
+        "um",
+        "mehr",
+        "verbraucht"
+      ],
+      "answers": [
+        "Ich kaufe einen neuen Kühlschrank, damit wir weniger Strom verbrauchen.",
+        "Damit wir weniger Strom verbrauchen, kaufe ich einen neuen Kühlschrank.",
+        "Einen neuen Kühlschrank kaufe ich, damit wir weniger Strom verbrauchen."
+      ]
+    },
+    {
+      "id": "de-b1-u09-l1-ex11",
+      "type": "listen",
+      "audio": { "src": "/audio/de/b1/u09/de-b1-u09-l1-ex11.mp3" },
+      "tiles": ["das", "Fahrrad", "ist", "umweltfreundlich", "der", "sind", "Auto"],
+      "answers": ["Das Fahrrad ist umweltfreundlich."]
+    },
+    {
+      "id": "de-b1-u09-l1-ex12",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Wir sprechen oft über die Umwelt.",
+      "tiles": [
+        "we",
+        "often",
+        "talk",
+        "speak",
+        "about",
+        "the",
+        "environment",
+        "nature",
+        "never",
+        "talks"
+      ],
+      "answers": [
+        "We often talk about the environment.",
+        "We talk about the environment often.",
+        "We often speak about the environment.",
+        "We speak about the environment often."
+      ]
+    }
+  ]
+}

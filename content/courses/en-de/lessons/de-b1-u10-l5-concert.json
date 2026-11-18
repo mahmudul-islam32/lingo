@@ -1,0 +1,204 @@
+{
+  "id": "de-b1-u10-l5-concert",
+  "courseId": "en-de",
+  "unitId": "de-b1-u10",
+  "title": "Scenario: A Concert in the Park",
+  "tip": "Plans with friends: „Wenn wir Karten hätten, würden wir gehen.“ Advice: „Du solltest …“ In the message afterwards, tell it in the Präteritum: „Obwohl es regnete, war die Stimmung toll.“",
+  "exercises": [
+    {
+      "id": "de-b1-u10-l5-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        { "id": "p1", "learning": "die Bühne", "known": "the stage" },
+        { "id": "p2", "learning": "ausverkauft", "known": "sold out" },
+        { "id": "p3", "learning": "die Stimmung", "known": "the atmosphere" },
+        { "id": "p4", "learning": "gemütlich", "known": "cosy" },
+        { "id": "p5", "learning": "das Konzert", "known": "the concert" }
+      ]
+    },
+    {
+      "id": "de-b1-u10-l5-ex02",
+      "type": "listen",
+      "audio": { "src": "/audio/de/b1/u10/de-b1-u10-l5-ex02.mp3" },
+      "tiles": ["die", "Karten", "sind", "leider", "ausverkauft", "ist", "Karte", "der"],
+      "answers": ["Die Karten sind leider ausverkauft."]
+    },
+    {
+      "id": "de-b1-u10-l5-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'If we had tickets, we would go.'?",
+      "options": [
+        { "id": "a", "text": "Wenn wir Karten hätten, würden wir gehen." },
+        { "id": "b", "text": "Wenn wir Karten haben würden, würden wir gehen." },
+        { "id": "c", "text": "Wenn wir Karten hatten, würden wir gehen." },
+        { "id": "d", "text": "Wenn wir Karten hätten, wir würden gehen." }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "de-b1-u10-l5-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "If we had tickets, we would go.",
+      "tiles": [
+        "wenn",
+        "wir",
+        "Karten",
+        "hätten",
+        "würden",
+        "wir",
+        "gehen",
+        "haben",
+        "werden",
+        "hätte"
+      ],
+      "answers": [
+        "Wenn wir Karten hätten, würden wir gehen.",
+        "Wir würden gehen, wenn wir Karten hätten.",
+        "Gehen würden wir, wenn wir Karten hätten."
+      ]
+    },
+    {
+      "id": "de-b1-u10-l5-ex05",
+      "type": "listen",
+      "audio": { "src": "/audio/de/b1/u10/de-b1-u10-l5-ex05.mp3" },
+      "tiles": [
+        "die",
+        "Bühne",
+        "steht",
+        "in",
+        "einem",
+        "kleinen",
+        "Park",
+        "liegt",
+        "kleine",
+        "einen"
+      ],
+      "answers": ["Die Bühne steht in einem kleinen Park."]
+    },
+    {
+      "id": "de-b1-u10-l5-ex06",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'You should buy the tickets early. (to a friend)'?",
+      "options": [
+        { "id": "a", "text": "Du solltest die Karten früh zu kaufen." },
+        { "id": "b", "text": "Du solltest kaufen die Karten früh." },
+        { "id": "c", "text": "Du würdest die Karten früh kaufen." },
+        { "id": "d", "text": "Du solltest die Karten früh kaufen." }
+      ],
+      "correctOptionId": "d"
+    },
+    {
+      "id": "de-b1-u10-l5-ex07",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "If I were you, I would ask Mira. (to a friend)",
+      "tiles": [
+        "an",
+        "deiner",
+        "Stelle",
+        "würde",
+        "ich",
+        "Mira",
+        "fragen",
+        "meiner",
+        "werde",
+        "fragt"
+      ],
+      "answers": [
+        "An deiner Stelle würde ich Mira fragen.",
+        "Ich würde an deiner Stelle Mira fragen.",
+        "Ich würde Mira an deiner Stelle fragen.",
+        "Mira würde ich an deiner Stelle fragen."
+      ]
+    },
+    {
+      "id": "de-b1-u10-l5-ex08",
+      "type": "listen",
+      "audio": { "src": "/audio/de/b1/u10/de-b1-u10-l5-ex08.mp3" },
+      "tiles": [
+        "obwohl",
+        "es",
+        "regnete",
+        "war",
+        "die",
+        "Stimmung",
+        "toll",
+        "regnet",
+        "ist",
+        "weil"
+      ],
+      "answers": ["Obwohl es regnete, war die Stimmung toll."]
+    },
+    {
+      "id": "de-b1-u10-l5-ex09",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Es war sehr gemütlich, obwohl die Bühne klein war.",
+      "tiles": [
+        "it",
+        "was",
+        "very",
+        "cosy",
+        "relaxed",
+        "although",
+        "the",
+        "stage",
+        "was",
+        "small",
+        "because",
+        "is",
+        "big"
+      ],
+      "answers": [
+        "It was very cosy, although the stage was small.",
+        "Although the stage was small, it was very cosy.",
+        "It was very relaxed, although the stage was small.",
+        "Although the stage was small, it was very relaxed."
+      ]
+    },
+    {
+      "id": "de-b1-u10-l5-ex10",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'I'm looking forward to going to the concert with you. (to a friend)'?",
+      "options": [
+        { "id": "a", "text": "Ich freue mich auf, mit dir ins Konzert zu gehen." },
+        { "id": "b", "text": "Ich freue mich darauf, mit dir ins Konzert zu gehen." },
+        { "id": "c", "text": "Ich freue mich darauf, mit dir ins Konzert gehen." },
+        { "id": "d", "text": "Ich freue mich darüber, mit dir ins Konzert zu gehen." }
+      ],
+      "correctOptionId": "b"
+    },
+    {
+      "id": "de-b1-u10-l5-ex11",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "The atmosphere at the concert was great.",
+      "tiles": ["die", "Stimmung", "beim", "Konzert", "war", "toll", "ist", "der", "waren"],
+      "answers": [
+        "Die Stimmung beim Konzert war toll.",
+        "Beim Konzert war die Stimmung toll.",
+        "Toll war die Stimmung beim Konzert."
+      ]
+    },
+    {
+      "id": "de-b1-u10-l5-ex12",
+      "type": "listen",
+      "audio": { "src": "/audio/de/b1/u10/de-b1-u10-l5-ex12.mp3" },
+      "tiles": [
+        "nächstes",
+        "Jahr",
+        "würden",
+        "wir",
+        "gern",
+        "wieder",
+        "ins",
+        "Konzert",
+        "gehen",
+        "werden",
+        "im"
+      ],
+      "answers": ["Nächstes Jahr würden wir gern wieder ins Konzert gehen."]
+    }
+  ]
+}

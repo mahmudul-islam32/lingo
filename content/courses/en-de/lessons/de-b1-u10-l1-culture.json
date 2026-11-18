@@ -1,0 +1,174 @@
+{
+  "id": "de-b1-u10-l1-culture",
+  "courseId": "en-de",
+  "unitId": "de-b1-u10",
+  "title": "Out and About",
+  "tip": "Going out: ins Museum, ins Theater, ins Konzert (in + das = ins). die Karte is a card, and also a ticket for an event: „Hast du schon Karten?“ „Die Vorstellung beginnt um acht.“",
+  "exercises": [
+    {
+      "id": "de-b1-u10-l1-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        { "id": "p1", "learning": "das Museum", "known": "the museum" },
+        { "id": "p2", "learning": "das Theater", "known": "the theatre" },
+        { "id": "p3", "learning": "die Ausstellung", "known": "the exhibition" },
+        { "id": "p4", "learning": "der Eintritt", "known": "admission" },
+        { "id": "p5", "learning": "die Vorstellung", "known": "the performance" }
+      ]
+    },
+    {
+      "id": "de-b1-u10-l1-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'Shall we go to the museum on Sunday?'",
+      "options": [
+        { "id": "a", "text": "Gehen wir am Sonntag im Museum?" },
+        { "id": "b", "text": "Am Sonntag wir gehen ins Museum?" },
+        { "id": "c", "text": "Gehen wir am Sonntag ins Museum?" },
+        { "id": "d", "text": "Gehen wir am Sonntag in Museum?" }
+      ],
+      "correctOptionId": "c"
+    },
+    {
+      "id": "de-b1-u10-l1-ex03",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I like going to the theatre.",
+      "tiles": ["ich", "gehe", "gern", "ins", "Theater", "im", "gehen", "nicht"],
+      "answers": [
+        "Ich gehe gern ins Theater.",
+        "Ins Theater gehe ich gern.",
+        "Gern gehe ich ins Theater."
+      ]
+    },
+    {
+      "id": "de-b1-u10-l1-ex04",
+      "type": "listen",
+      "audio": { "src": "/audio/de/b1/u10/de-b1-u10-l1-ex04.mp3" },
+      "tiles": ["die", "Vorstellung", "beginnt", "um", "acht", "beginnen", "der", "am"],
+      "answers": ["Die Vorstellung beginnt um acht."]
+    },
+    {
+      "id": "de-b1-u10-l1-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'Do you already have tickets? (to a friend)'?",
+      "options": [
+        { "id": "a", "text": "Hast du schön Karten?" },
+        { "id": "b", "text": "Hast du schon Karten?" },
+        { "id": "c", "text": "Hast du schon Karte?" },
+        { "id": "d", "text": "Hast schon du Karten?" }
+      ],
+      "correctOptionId": "b"
+    },
+    {
+      "id": "de-b1-u10-l1-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Der Eintritt kostet zehn Euro.",
+      "tiles": ["admission", "entry", "costs", "is", "ten", "euros", "twelve", "cost", "eleven"],
+      "answers": [
+        "Admission costs ten euros.",
+        "Admission is ten euros.",
+        "Entry costs ten euros.",
+        "Entry is ten euros."
+      ]
+    },
+    {
+      "id": "de-b1-u10-l1-ex07",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Although admission is expensive, I like going to the museum.",
+      "tiles": [
+        "obwohl",
+        "der",
+        "Eintritt",
+        "teuer",
+        "ist",
+        "gehe",
+        "ich",
+        "gern",
+        "ins",
+        "Museum",
+        "billig",
+        "weil",
+        "sind"
+      ],
+      "answers": [
+        "Obwohl der Eintritt teuer ist, gehe ich gern ins Museum.",
+        "Ich gehe gern ins Museum, obwohl der Eintritt teuer ist.",
+        "Ins Museum gehe ich gern, obwohl der Eintritt teuer ist.",
+        "Gern gehe ich ins Museum, obwohl der Eintritt teuer ist."
+      ]
+    },
+    {
+      "id": "de-b1-u10-l1-ex08",
+      "type": "listen",
+      "audio": { "src": "/audio/de/b1/u10/de-b1-u10-l1-ex08.mp3" },
+      "tiles": ["das", "Konzert", "war", "toll", "ist", "der", "waren"],
+      "answers": ["Das Konzert war toll."]
+    },
+    {
+      "id": "de-b1-u10-l1-ex09",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'I'm interested in culture.'?",
+      "options": [
+        { "id": "a", "text": "Ich interessiere mich an Kultur." },
+        { "id": "b", "text": "Ich interessiere für Kultur." },
+        { "id": "c", "text": "Ich interessiere mir für Kultur." },
+        { "id": "d", "text": "Ich interessiere mich für Kultur." }
+      ],
+      "correctOptionId": "d"
+    },
+    {
+      "id": "de-b1-u10-l1-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Do you feel like going to the concert? (to a friend)",
+      "tiles": ["hast", "du", "Lust", "ins", "Konzert", "zu", "gehen", "im", "Zeit", "gehst"],
+      "answers": ["Hast du Lust, ins Konzert zu gehen?"]
+    },
+    {
+      "id": "de-b1-u10-l1-ex11",
+      "type": "listen",
+      "audio": { "src": "/audio/de/b1/u10/de-b1-u10-l1-ex11.mp3" },
+      "tiles": [
+        "ich",
+        "freue",
+        "mich",
+        "darauf",
+        "ins",
+        "Theater",
+        "zu",
+        "gehen",
+        "dafür",
+        "mir",
+        "im"
+      ],
+      "answers": ["Ich freue mich darauf, ins Theater zu gehen."]
+    },
+    {
+      "id": "de-b1-u10-l1-ex12",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Hast du schon Karten für die Ausstellung?",
+      "tiles": [
+        "do",
+        "you",
+        "already",
+        "have",
+        "tickets",
+        "for",
+        "the",
+        "exhibition",
+        "yet",
+        "cards",
+        "performance",
+        "has"
+      ],
+      "answers": [
+        "Do you already have tickets for the exhibition?",
+        "Do you have tickets for the exhibition yet?",
+        "Do you have tickets for the exhibition already?"
+      ]
+    }
+  ]
+}

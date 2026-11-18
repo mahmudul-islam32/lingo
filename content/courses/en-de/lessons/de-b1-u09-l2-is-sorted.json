@@ -1,0 +1,200 @@
+{
+  "id": "de-b1-u09-l2-is-sorted",
+  "courseId": "en-de",
+  "unitId": "de-b1-u09",
+  "title": "The Rubbish Is Sorted",
+  "tip": "Passive: werden + participle at the end. „Das Glas wird gesammelt.“ Plural: „Die Flaschen werden gesammelt.“ The active version uses man: „Man sammelt das Glas.“",
+  "exercises": [
+    {
+      "id": "de-b1-u09-l2-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        { "id": "p1", "learning": "das Glas", "known": "glass" },
+        { "id": "p2", "learning": "das Papier", "known": "paper" },
+        { "id": "p3", "learning": "das Plastik", "known": "plastic" },
+        { "id": "p4", "learning": "der Biomüll", "known": "organic waste" },
+        { "id": "p5", "learning": "das Pfand", "known": "the deposit (on bottles)" }
+      ]
+    },
+    {
+      "id": "de-b1-u09-l2-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'The glass is collected.'?",
+      "options": [
+        { "id": "a", "text": "Das Glas wird sammeln." },
+        { "id": "b", "text": "Das Glas werden gesammelt." },
+        { "id": "c", "text": "Das Glas wird gesammelt." },
+        { "id": "d", "text": "Das Glas ist sammelt." }
+      ],
+      "correctOptionId": "c"
+    },
+    {
+      "id": "de-b1-u09-l2-ex03",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "The paper and the plastic are separated.",
+      "tiles": [
+        "das",
+        "Papier",
+        "und",
+        "das",
+        "Plastik",
+        "werden",
+        "getrennt",
+        "wird",
+        "trennen",
+        "die"
+      ],
+      "answers": [
+        "Das Papier und das Plastik werden getrennt.",
+        "Das Plastik und das Papier werden getrennt."
+      ]
+    },
+    {
+      "id": "de-b1-u09-l2-ex04",
+      "type": "listen",
+      "audio": { "src": "/audio/de/b1/u09/de-b1-u09-l2-ex04.mp3" },
+      "tiles": ["der", "Biomüll", "wird", "am", "Montag", "abgeholt", "werden", "abholen", "um"],
+      "answers": ["Der Biomüll wird am Montag abgeholt."]
+    },
+    {
+      "id": "de-b1-u09-l2-ex05",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "The bottles are collected on Saturday.",
+      "tiles": [
+        "die",
+        "Flaschen",
+        "werden",
+        "am",
+        "Samstag",
+        "gesammelt",
+        "wird",
+        "sammeln",
+        "der"
+      ],
+      "answers": [
+        "Die Flaschen werden am Samstag gesammelt.",
+        "Am Samstag werden die Flaschen gesammelt."
+      ]
+    },
+    {
+      "id": "de-b1-u09-l2-ex06",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'You get a deposit for the bottles.'?",
+      "options": [
+        { "id": "a", "text": "Für die Flaschen bekommt man Pfand." },
+        { "id": "b", "text": "Für die Flaschen bekommen man Pfand." },
+        { "id": "c", "text": "Für die Flaschen man bekommt Pfand." },
+        { "id": "d", "text": "Für den Flaschen bekommt man Pfand." }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "de-b1-u09-l2-ex07",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Der Müll wird in die Mülltonne geworfen.",
+      "tiles": [
+        "the",
+        "the",
+        "rubbish",
+        "is",
+        "thrown",
+        "into",
+        "in",
+        "bin",
+        "are",
+        "throws",
+        "on"
+      ],
+      "answers": ["The rubbish is thrown into the bin.", "The rubbish is thrown in the bin."]
+    },
+    {
+      "id": "de-b1-u09-l2-ex08",
+      "type": "listen",
+      "audio": { "src": "/audio/de/b1/u09/de-b1-u09-l2-ex08.mp3" },
+      "tiles": ["hier", "wird", "das", "Papier", "getrennt", "werden", "trennt", "Glas"],
+      "answers": ["Hier wird das Papier getrennt."]
+    },
+    {
+      "id": "de-b1-u09-l2-ex09",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'Are you throwing the rubbish into the bin? (to a friend)'?",
+      "options": [
+        { "id": "a", "text": "Werfst du den Müll in die Mülltonne?" },
+        { "id": "b", "text": "Wirfst du den Müll in der Mülltonne?" },
+        { "id": "c", "text": "Wirfst du der Müll in die Mülltonne?" },
+        { "id": "d", "text": "Wirfst du den Müll in die Mülltonne?" }
+      ],
+      "correctOptionId": "d"
+    },
+    {
+      "id": "de-b1-u09-l2-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Für die Flaschen bekommt man Pfand.",
+      "tiles": [
+        "you",
+        "get",
+        "a",
+        "deposit",
+        "for",
+        "on",
+        "the",
+        "bottles",
+        "one",
+        "gets",
+        "bottle",
+        "pay"
+      ],
+      "answers": [
+        "You get a deposit for the bottles.",
+        "You get a deposit on the bottles.",
+        "For the bottles, you get a deposit.",
+        "One gets a deposit for the bottles.",
+        "One gets a deposit on the bottles.",
+        "For the bottles, one gets a deposit."
+      ]
+    },
+    {
+      "id": "de-b1-u09-l2-ex11",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "The old newspapers are collected here.",
+      "tiles": [
+        "die",
+        "alten",
+        "Zeitungen",
+        "werden",
+        "hier",
+        "gesammelt",
+        "wird",
+        "alte",
+        "sammeln",
+        "der"
+      ],
+      "answers": [
+        "Die alten Zeitungen werden hier gesammelt.",
+        "Hier werden die alten Zeitungen gesammelt."
+      ]
+    },
+    {
+      "id": "de-b1-u09-l2-ex12",
+      "type": "listen",
+      "audio": { "src": "/audio/de/b1/u09/de-b1-u09-l2-ex12.mp3" },
+      "tiles": [
+        "ich",
+        "bringe",
+        "die",
+        "Flaschen",
+        "zum",
+        "Supermarkt",
+        "zur",
+        "bringt",
+        "Flasche"
+      ],
+      "answers": ["Ich bringe die Flaschen zum Supermarkt."]
+    }
+  ]
+}

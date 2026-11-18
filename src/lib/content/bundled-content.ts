@@ -572,6 +572,36 @@ export const BUNDLED_CONTENT: ContentLoaders = {
       "de-b1-u08-l5-cancelling": json(
         () => import("../../../content/courses/en-de/lessons/de-b1-u08-l5-cancelling.json"),
       ),
+      "de-b1-u09-l1-environment": json(
+        () => import("../../../content/courses/en-de/lessons/de-b1-u09-l1-environment.json"),
+      ),
+      "de-b1-u09-l2-is-sorted": json(
+        () => import("../../../content/courses/en-de/lessons/de-b1-u09-l2-is-sorted.json"),
+      ),
+      "de-b1-u09-l3-built-by": json(
+        () => import("../../../content/courses/en-de/lessons/de-b1-u09-l3-built-by.json"),
+      ),
+      "de-b1-u09-l4-by-bike": json(
+        () => import("../../../content/courses/en-de/lessons/de-b1-u09-l4-by-bike.json"),
+      ),
+      "de-b1-u09-l5-clean-up": json(
+        () => import("../../../content/courses/en-de/lessons/de-b1-u09-l5-clean-up.json"),
+      ),
+      "de-b1-u10-l1-culture": json(
+        () => import("../../../content/courses/en-de/lessons/de-b1-u10-l1-culture.json"),
+      ),
+      "de-b1-u10-l2-i-would-love-to": json(
+        () => import("../../../content/courses/en-de/lessons/de-b1-u10-l2-i-would-love-to.json"),
+      ),
+      "de-b1-u10-l3-if-i-had": json(
+        () => import("../../../content/courses/en-de/lessons/de-b1-u10-l3-if-i-had.json"),
+      ),
+      "de-b1-u10-l4-if-i-were-you": json(
+        () => import("../../../content/courses/en-de/lessons/de-b1-u10-l4-if-i-were-you.json"),
+      ),
+      "de-b1-u10-l5-concert": json(
+        () => import("../../../content/courses/en-de/lessons/de-b1-u10-l5-concert.json"),
+      ),
     },
     "en-es": {
       "u1-l1-hello": json(() => import("../../../content/courses/en-es/lessons/u1-l1-hello.json")),

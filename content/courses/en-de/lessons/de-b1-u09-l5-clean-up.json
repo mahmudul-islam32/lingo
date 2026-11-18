@@ -1,0 +1,188 @@
+{
+  "id": "de-b1-u09-l5-clean-up",
+  "courseId": "en-de",
+  "unitId": "de-b1-u09",
+  "title": "Scenario: The Neighbourhood Clean-Up",
+  "tip": "Notices use the passive: „Die Handschuhe werden von der Stadt gebracht.“ Neighbours chat with du: „Machst du mit?“ The report afterwards is in the Präteritum: „Viele Leute kamen.“",
+  "exercises": [
+    {
+      "id": "de-b1-u09-l5-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        { "id": "p1", "learning": "die Aktion", "known": "the event (campaign)" },
+        { "id": "p2", "learning": "mitmachen", "known": "to join in" },
+        { "id": "p3", "learning": "freiwillig", "known": "voluntary" },
+        { "id": "p4", "learning": "die Handschuhe", "known": "the gloves" },
+        { "id": "p5", "learning": "sammeln", "known": "to collect" }
+      ]
+    },
+    {
+      "id": "de-b1-u09-l5-ex02",
+      "type": "listen",
+      "audio": { "src": "/audio/de/b1/u09/de-b1-u09-l5-ex02.mp3" },
+      "tiles": ["am", "Samstag", "gibt", "es", "eine", "Aktion", "im", "Park", "ein", "ist", "um"],
+      "answers": ["Am Samstag gibt es eine Aktion im Park."]
+    },
+    {
+      "id": "de-b1-u09-l5-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'Are you joining in? (to a friend)'?",
+      "options": [
+        { "id": "a", "text": "Mitmachst du?" },
+        { "id": "b", "text": "Machst du mit?" },
+        { "id": "c", "text": "Machst mit du?" },
+        { "id": "d", "text": "Macht du mit?" }
+      ],
+      "correctOptionId": "b"
+    },
+    {
+      "id": "de-b1-u09-l5-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "The gloves are brought by the city.",
+      "tiles": [
+        "die",
+        "Handschuhe",
+        "werden",
+        "von",
+        "der",
+        "Stadt",
+        "gebracht",
+        "wird",
+        "bringen",
+        "den",
+        "dem"
+      ],
+      "answers": [
+        "Die Handschuhe werden von der Stadt gebracht.",
+        "Von der Stadt werden die Handschuhe gebracht."
+      ]
+    },
+    {
+      "id": "de-b1-u09-l5-ex05",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Die Aktion ist freiwillig.",
+      "tiles": ["the", "event", "campaign", "is", "voluntary", "are", "free", "gloves"],
+      "answers": ["The event is voluntary.", "The campaign is voluntary."]
+    },
+    {
+      "id": "de-b1-u09-l5-ex06",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'I'm looking forward to it.'?",
+      "options": [
+        { "id": "a", "text": "Ich freue mich dafür." },
+        { "id": "b", "text": "Ich freue mich auf es." },
+        { "id": "c", "text": "Ich freue mich darauf." },
+        { "id": "d", "text": "Ich freue darauf." }
+      ],
+      "correctOptionId": "c"
+    },
+    {
+      "id": "de-b1-u09-l5-ex07",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I'm bringing gloves so that you can join in. (to a friend)",
+      "tiles": [
+        "ich",
+        "bringe",
+        "Handschuhe",
+        "damit",
+        "du",
+        "mitmachen",
+        "kannst",
+        "um",
+        "zu",
+        "mitzumachen",
+        "kann"
+      ],
+      "answers": [
+        "Ich bringe Handschuhe, damit du mitmachen kannst.",
+        "Damit du mitmachen kannst, bringe ich Handschuhe.",
+        "Handschuhe bringe ich, damit du mitmachen kannst."
+      ]
+    },
+    {
+      "id": "de-b1-u09-l5-ex08",
+      "type": "listen",
+      "audio": { "src": "/audio/de/b1/u09/de-b1-u09-l5-ex08.mp3" },
+      "tiles": [
+        "der",
+        "Müll",
+        "wird",
+        "im",
+        "Park",
+        "gesammelt",
+        "und",
+        "getrennt",
+        "werden",
+        "trennt",
+        "am"
+      ],
+      "answers": ["Der Müll wird im Park gesammelt und getrennt."]
+    },
+    {
+      "id": "de-b1-u09-l5-ex09",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'Many people came. (in the report)'?",
+      "options": [
+        { "id": "a", "text": "Viele Leute kommten." },
+        { "id": "b", "text": "Viele Leute kam." },
+        { "id": "c", "text": "Viele Leute kamen." },
+        { "id": "d", "text": "Viele Leute kommen." }
+      ],
+      "correctOptionId": "c"
+    },
+    {
+      "id": "de-b1-u09-l5-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "There was a lot of rubbish, but everyone helped. (in the report)",
+      "tiles": [
+        "es",
+        "gab",
+        "viel",
+        "Müll",
+        "aber",
+        "alle",
+        "halfen",
+        "half",
+        "gibt",
+        "helfen",
+        "viele"
+      ],
+      "answers": ["Es gab viel Müll, aber alle halfen.", "Viel Müll gab es, aber alle halfen."]
+    },
+    {
+      "id": "de-b1-u09-l5-ex11",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Wir sammelten den Müll und trennten ihn.",
+      "tiles": [
+        "we",
+        "collected",
+        "the",
+        "rubbish",
+        "and",
+        "separated",
+        "sorted",
+        "it",
+        "them",
+        "collect",
+        "they"
+      ],
+      "answers": [
+        "We collected the rubbish and separated it.",
+        "We collected the rubbish and sorted it."
+      ]
+    },
+    {
+      "id": "de-b1-u09-l5-ex12",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Are you having the photos printed? (to a friend)",
+      "tiles": ["lässt", "du", "die", "Fotos", "drucken", "lasst", "zu", "gedruckt", "dein"],
+      "answers": ["Lässt du die Fotos drucken?"]
+    }
+  ]
+}

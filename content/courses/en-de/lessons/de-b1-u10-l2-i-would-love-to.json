@@ -1,0 +1,180 @@
+{
+  "id": "de-b1-u10-l2-i-would-love-to",
+  "courseId": "en-de",
+  "unitId": "de-b1-u10",
+  "title": "I Would Love To",
+  "tip": "Wishes: würde + infinitive at the end. ich würde; du würdest; er/sie würde; wir würden; ihr würdet; Sie würden. „Ich würde gern um die Welt reisen.“ würde = would, werde = will. For yourself: „Ich wünsche mir …“",
+  "exercises": [
+    {
+      "id": "de-b1-u10-l2-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        { "id": "p1", "learning": "die Welt", "known": "the world" },
+        { "id": "p2", "learning": "reisen", "known": "to travel" },
+        { "id": "p3", "learning": "erleben", "known": "to experience" },
+        { "id": "p4", "learning": "der Wunsch", "known": "the wish" },
+        { "id": "p5", "learning": "ich würde", "known": "I would" }
+      ]
+    },
+    {
+      "id": "de-b1-u10-l2-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'I would like to travel.'?",
+      "options": [
+        { "id": "a", "text": "Ich werde gern reisen." },
+        { "id": "b", "text": "Ich würde gern zu reisen." },
+        { "id": "c", "text": "Ich würde gern reisen." },
+        { "id": "d", "text": "Ich würde reisen gern." }
+      ],
+      "correctOptionId": "c"
+    },
+    {
+      "id": "de-b1-u10-l2-ex03",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I would like to travel around the world.",
+      "tiles": ["ich", "würde", "gern", "um", "die", "Welt", "reisen", "werde", "zu", "der"],
+      "answers": [
+        "Ich würde gern um die Welt reisen.",
+        "Gern würde ich um die Welt reisen.",
+        "Um die Welt würde ich gern reisen."
+      ]
+    },
+    {
+      "id": "de-b1-u10-l2-ex04",
+      "type": "listen",
+      "audio": { "src": "/audio/de/b1/u10/de-b1-u10-l2-ex04.mp3" },
+      "tiles": ["was", "würdest", "du", "gern", "erleben", "würde", "wirst", "leben"],
+      "answers": ["Was würdest du gern erleben?"]
+    },
+    {
+      "id": "de-b1-u10-l2-ex05",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Mein Wunsch ist ein Haus am Meer.",
+      "tiles": [
+        "my",
+        "wish",
+        "is",
+        "a",
+        "house",
+        "by",
+        "at",
+        "the",
+        "sea",
+        "seaside",
+        "lake",
+        "an"
+      ],
+      "answers": [
+        "My wish is a house by the sea.",
+        "My wish is a house at the seaside.",
+        "My wish is a house by the seaside."
+      ]
+    },
+    {
+      "id": "de-b1-u10-l2-ex06",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'I wish for a long trip.'?",
+      "options": [
+        { "id": "a", "text": "Ich wünsche mich eine lange Reise." },
+        { "id": "b", "text": "Ich wünsche mir eine lange Reise." },
+        { "id": "c", "text": "Ich wünsche mir einen langen Reise." },
+        { "id": "d", "text": "Ich wünsche eine lange Reise mir." }
+      ],
+      "correctOptionId": "b"
+    },
+    {
+      "id": "de-b1-u10-l2-ex07",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "We would rather stay at home.",
+      "tiles": ["wir", "würden", "lieber", "zu", "Hause", "bleiben", "werden", "nach", "würde"],
+      "answers": [
+        "Wir würden lieber zu Hause bleiben.",
+        "Lieber würden wir zu Hause bleiben.",
+        "Zu Hause würden wir lieber bleiben."
+      ]
+    },
+    {
+      "id": "de-b1-u10-l2-ex08",
+      "type": "listen",
+      "audio": { "src": "/audio/de/b1/u10/de-b1-u10-l2-ex08.mp3" },
+      "tiles": ["ich", "würde", "gern", "die", "Welt", "sehen", "werde", "der", "sieht"],
+      "answers": ["Ich würde gern die Welt sehen."]
+    },
+    {
+      "id": "de-b1-u10-l2-ex09",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'Would you rather travel or stay at home? (to a friend)'?",
+      "options": [
+        { "id": "a", "text": "Würdest du lieber reisen oder zu Hause bleiben?" },
+        { "id": "b", "text": "Wirst du lieber reisen oder zu Hause bleiben?" },
+        { "id": "c", "text": "Würdest du lieber reisen oder zu Hause zu bleiben?" },
+        { "id": "d", "text": "Würdest du lieber reist oder zu Hause bleibst?" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "de-b1-u10-l2-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Mira would like to live in a big house.",
+      "tiles": [
+        "Mira",
+        "würde",
+        "gern",
+        "in",
+        "einem",
+        "großen",
+        "Haus",
+        "wohnen",
+        "würdest",
+        "großes",
+        "einen"
+      ],
+      "answers": [
+        "Mira würde gern in einem großen Haus wohnen.",
+        "Gern würde Mira in einem großen Haus wohnen.",
+        "In einem großen Haus würde Mira gern wohnen."
+      ]
+    },
+    {
+      "id": "de-b1-u10-l2-ex11",
+      "type": "listen",
+      "audio": { "src": "/audio/de/b1/u10/de-b1-u10-l2-ex11.mp3" },
+      "tiles": ["meine", "Wünsche", "sind", "nicht", "teuer", "mein", "Wunsch", "ist"],
+      "answers": ["Meine Wünsche sind nicht teuer."]
+    },
+    {
+      "id": "de-b1-u10-l2-ex12",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Ich wünsche mir eine Reise mit meiner Familie.",
+      "tiles": [
+        "I",
+        "I'd",
+        "would",
+        "wish",
+        "for",
+        "like",
+        "a",
+        "trip",
+        "journey",
+        "with",
+        "my",
+        "family",
+        "your",
+        "an"
+      ],
+      "answers": [
+        "I wish for a trip with my family.",
+        "I wish for a journey with my family.",
+        "I'd like a trip with my family.",
+        "I would like a trip with my family.",
+        "I'd like a journey with my family.",
+        "I would like a journey with my family."
+      ]
+    }
+  ]
+}
