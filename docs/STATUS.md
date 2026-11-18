@@ -7,7 +7,7 @@ A1 and A2 complete (26 units, 130 lessons)
 writing started). v0.6.0 accounts & sync waits for the owner's hosted Supabase.
 
 ## Where things stand
-- **Merged since the last status (#68–#74):** FIX-004 A1 playthrough (#68), **release v0.5.0** (#69),
+- **Merged earlier (#68–#74):** FIX-004 A1 playthrough (#68), **release v0.5.0** (#69),
   CTO-009 cloze contract (#71), LES-015 cloze component (#72), German B1 plan with 16 unit
   tickets and PD-056..063 (#73), status (#74).
 - **B1-T5 fit check:** PASS (110-character prompts and 240-character tips fit at 375 × 667),
@@ -23,7 +23,7 @@ writing started). v0.6.0 accounts & sync waits for the owner's hosted Supabase.
   - B1 Units 5–6 are being written (`../lingo-b1-u05`, `../lingo-b1-u06`).
 
 ## Handoff
-- **FIX-005:** the cto re-reviews and merges once the e2e passes on the production build.
+- **FIX-006:** the cto reviews and merges `fix/fix-006-path-flake-hearts-warning`; the pm adds a FIX-006 ticket file.
 - **B1 writing (PD-063):** Wave 1 is done (`docs/con-de-b1-units-01-04`). Wave 2 (Units 5–8)
   goes on `docs/con-de-b1-units-05-08`, stacked on wave 1. Add units with
   `LV=B1 python3 -I scratchpad/assemble_lv.py NN`, then run the content tests and the buildability
@@ -34,7 +34,6 @@ writing started). v0.6.0 accounts & sync waits for the owner's hosted Supabase.
   content lands.
 - **Next for the pm:** confirm LES-015 AC 9 (cloze sentence audio only after Check); plan the
   first cloze content follow-up (new exercise ids only).
-- **P3:** `useHearts` and FIX-003 both warn on one failed hearts read (dev-gamification).
 
 ## Blockers
 - Usage limits: the account hit its weekly limit on 2026-11-16 (reset 2026-11-17 09:00 UTC) and
