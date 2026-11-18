@@ -80,6 +80,14 @@ test.describe("German course (PLT-024)", () => {
     await expect(page.getByRole("button", { name: "Continue" })).toBeFocused();
     await page.keyboard.press("Enter");
 
+    // PLT-025: the start level step, A1 preselected; Tab reaches Continue.
+    await expect(h1(page)).toHaveText("Where do you want to start?");
+    await expect(page.getByRole("radio", { name: "A1 · Beginner" })).toBeChecked();
+    await page.keyboard.press("Tab");
+    await page.keyboard.press("Tab");
+    await expect(page.getByRole("button", { name: "Continue" })).toBeFocused();
+    await page.keyboard.press("Enter");
+
     await expect(h1(page)).toHaveText("Choose a daily goal");
     await page.keyboard.press("Tab");
     await page.keyboard.press("ArrowDown"); // Regular 20 XP

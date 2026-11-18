@@ -2,11 +2,12 @@ import { act, screen, waitFor, within } from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
 import { beforeEach, describe, expect, it, vi } from "vitest";
 import type { Course } from "@/contracts";
-import { createGuestProfileStore } from "@/features/profile";
+import { createGuestProfileStore, START_LEVEL_DESCRIPTIONS } from "@/features/profile";
 import { openLocalSession, type LocalSession } from "@/lib/offline";
 import {
   ContentRepositoryProvider,
   firstLessonPath,
+  lessonPath,
   listAvailableCourses as loadCourses,
   listBundledCourses,
 } from "@/lib/content";
@@ -20,6 +21,7 @@ import { effectiveCourseId, OnboardingFlow } from "../OnboardingFlow";
 import OnboardingPage, { metadata } from "../page";
 import { MORE_LANGUAGES_TEXT, NO_COURSES_TEXT } from "../steps/CourseStep";
 import { SAVE_ERROR_TEXT } from "../steps/GoalStep";
+import { LEVEL_HEADING } from "../steps/LevelStep";
 import { WELCOME_FALLBACK_HEADING, welcomeHeading } from "../steps/Welcome";
 
 const WELCOME_HEADING = welcomeHeading("German");
@@ -70,8 +72,25 @@ async function toGoalStep(user: ReturnType<typeof userEvent.setup>) {
   // German is the only available course, so it is preselected (PLT-024 AC 2).
   expect(screen.getByRole("radio", { name: "German" })).toHaveAttribute("aria-checked", "true");
   await user.click(screen.getByRole("button", { name: "Continue" }));
+  // PLT-025: the start level step, A1 preselected.
+  await toLevelContinue(user);
   return screen.getByRole("radiogroup", { name: "Choose a daily goal" });
 }
+
+async function toLevelStep(user: ReturnType<typeof userEvent.setup>) {
+  await toCourseStep(user);
+  await user.click(screen.getByRole("button", { name: "Continue" }));
+  return screen.getByRole("radiogroup", { name: LEVEL_HEADING });
+}
+
+async function toLevelContinue(user: ReturnType<typeof userEvent.setup>) {
+  expect(screen.getByRole("radiogroup", { name: LEVEL_HEADING })).toBeInTheDocument();
+  await user.click(screen.getByRole("button", { name: "Continue" }));
+}
+
+/** First lesson of a German level, from the course data. */
+const firstGermanLessonOf = (level: string) =>
+  lessonPath(courses[0]!.units.find((u) => u.level === level)!.lessons[0]!.id);
 
 describe("onboarding flow (PLT-004)", () => {
   beforeEach(async () => {
@@ -90,14 +109,14 @@ describe("onboarding flow (PLT-004)", () => {
     expect(lumi).toHaveAttribute("aria-hidden", "true"); // decorative next to the heading
     expect(screen.queryByRole("link")).not.toBeInTheDocument();
     expect(screen.queryByText(/already have an account/i)).not.toBeInTheDocument();
-    expect(screen.queryByText(/Step \d of 3/)).not.toBeInTheDocument();
+    expect(screen.queryByText(/Step \d of \d/)).not.toBeInTheDocument();
     expect(metadata.title).toBe("Get started");
   });
 
   it("PLT-024 1, 2: Course step lists only German, preselected, Continue enabled; Spanish isn't named", async () => {
     const { user } = await renderFlow({ load: () => loadCourses() });
     const group = await toCourseStep(user);
-    expect(screen.getByText("Step 2 of 3")).toBeInTheDocument();
+    expect(screen.getByText("Step 2 of 4")).toBeInTheDocument();
     const radios = within(group).getAllByRole("radio");
     expect(radios).toHaveLength(1);
     expect(radios[0]).toHaveAccessibleName("German");
@@ -206,7 +225,7 @@ describe("onboarding flow (PLT-004)", () => {
   it("4: goal step shows the four options from contracts, none preselected, Start disabled", async () => {
     const { user } = await renderFlow();
     const group = await toGoalStep(user);
-    expect(screen.getByText("Step 3 of 3")).toBeInTheDocument();
+    expect(screen.getByText("Step 4 of 4")).toBeInTheDocument();
     const radios = within(group).getAllByRole("radio");
     expect(radios.map((r) => r.getAttribute("aria-checked"))).toEqual([
       "false",
@@ -263,15 +282,20 @@ describe("onboarding flow (PLT-004)", () => {
     await toGoalStep(user);
     await user.click(screen.getByRole("radio", { name: "Intense 50 XP" }));
     await user.click(screen.getByRole("button", { name: "Back" }));
-    expect(screen.getByText("Step 2 of 3")).toBeInTheDocument();
+    expect(screen.getByText("Step 3 of 4")).toBeInTheDocument();
+    expect(h1()).toHaveTextContent(LEVEL_HEADING);
+    await user.click(screen.getByRole("button", { name: "Back" }));
+    expect(screen.getByText("Step 2 of 4")).toBeInTheDocument();
     expect(screen.getByRole("radio", { name: "German" })).toHaveAttribute("aria-checked", "true");
     expect(screen.getByRole("button", { name: "Continue" })).toBeEnabled();
 
+    await user.click(screen.getByRole("button", { name: "Continue" }));
     await user.click(screen.getByRole("button", { name: "Continue" }));
     expect(screen.getByRole("radio", { name: "Intense 50 XP" })).toHaveAttribute(
       "aria-checked",
       "true",
     );
+    await user.click(screen.getByRole("button", { name: "Back" }));
     await user.click(screen.getByRole("button", { name: "Back" }));
     await user.click(screen.getByRole("button", { name: "Back" }));
     await waitFor(() => expect(h1()).toHaveTextContent(WELCOME_HEADING));
@@ -285,8 +309,13 @@ describe("onboarding flow (PLT-004)", () => {
     expect(h1()).toHaveFocus();
     await user.click(screen.getByRole("radio", { name: "German" }));
     await user.click(screen.getByRole("button", { name: "Continue" }));
+    expect(h1()).toHaveTextContent(LEVEL_HEADING);
+    expect(h1()).toHaveFocus();
+    await user.click(screen.getByRole("button", { name: "Continue" }));
     expect(h1()).toHaveTextContent("Choose a daily goal");
     expect(h1()).toHaveFocus();
+    await user.click(screen.getByRole("button", { name: "Back" }));
+    expect(h1()).toHaveTextContent(LEVEL_HEADING);
     await user.click(screen.getByRole("button", { name: "Back" }));
     expect(h1()).toHaveTextContent("What do you want to learn?");
     expect(h1()).toHaveFocus();
@@ -331,6 +360,7 @@ describe("onboarding flow (PLT-004)", () => {
       dailyGoalXp: 20,
       soundEffectsEnabled: true,
       speakingExercisesEnabled: true,
+      startLevel: "A1",
     });
     expect((await session.profile.getProfile()).onboardedAt).not.toBeNull();
     expect(store.getState().onboardingComplete).toBe(true);
@@ -372,7 +402,11 @@ describe("onboarding flow (PLT-004)", () => {
     expect(start).toBeEnabled();
     await user.click(start);
     await waitFor(() => expect(router.replace).toHaveBeenCalledWith(firstGermanLesson()));
-    expect(updateSettings).toHaveBeenLastCalledWith({ courseId: "en-de", dailyGoalXp: 30 });
+    expect(updateSettings).toHaveBeenLastCalledWith({
+      courseId: "en-de",
+      dailyGoalXp: 30,
+      startLevel: "A1",
+    });
   });
 
   it("11: a failure to mark onboarding complete also shows the alert", async () => {
@@ -406,6 +440,109 @@ describe("onboarding flow (PLT-004)", () => {
     await user.click(screen.getByRole("button", { name: "Get started" }));
     expect(await screen.findByText(NO_COURSES_TEXT)).toBeInTheDocument();
     expect(screen.getByRole("button", { name: "Try again" })).toBeInTheDocument();
+  });
+});
+
+describe("start level step (PLT-025)", () => {
+  beforeEach(async () => {
+    router.replace.mockReset();
+    courses = await loadCourses();
+  });
+
+  it("1, 2: lists the levels with content in course order, A1 preselected, Continue enabled", async () => {
+    const { user } = await renderFlow();
+    const group = await toLevelStep(user);
+    expect(h1()).toHaveTextContent(LEVEL_HEADING);
+    expect(h1()).toHaveFocus();
+    expect(screen.getByText("Step 3 of 4")).toBeInTheDocument();
+    const radios = within(group).getAllByRole("radio");
+    // B1+ are declared but have no units yet: not offered.
+    expect(radios).toHaveLength(2);
+    expect(radios[0]).toHaveAccessibleName("A1 · Beginner");
+    expect(radios[0]).toHaveAccessibleDescription(START_LEVEL_DESCRIPTIONS.A1);
+    expect(radios[1]).toHaveAccessibleName("A2 · Elementary");
+    expect(radios[1]).toHaveAccessibleDescription(START_LEVEL_DESCRIPTIONS.A2);
+    expect(radios.map((r) => r.getAttribute("aria-checked"))).toEqual(["true", "false"]);
+    expect(screen.queryByRole("radio", { name: /B1/ })).not.toBeInTheDocument();
+    expect(screen.getByRole("button", { name: "Continue" })).toBeEnabled();
+  });
+
+  it("6: arrow keys move the selection; Tab reaches Continue; Enter continues", async () => {
+    const { user } = await renderFlow();
+    const group = await toLevelStep(user);
+    await user.tab();
+    expect(within(group).getByRole("radio", { name: "A1 · Beginner" })).toHaveFocus();
+    await user.keyboard("{ArrowDown}");
+    const a2 = within(group).getByRole("radio", { name: "A2 · Elementary" });
+    expect(a2).toHaveFocus();
+    expect(a2).toHaveAttribute("aria-checked", "true");
+    await user.tab();
+    expect(screen.getByRole("button", { name: "Continue" })).toHaveFocus();
+    await user.keyboard("{Enter}");
+    expect(h1()).toHaveTextContent("Choose a daily goal");
+  });
+
+  it("4: Back returns to the course step and keeps the level choice", async () => {
+    const { user } = await renderFlow();
+    await toLevelStep(user);
+    await user.click(screen.getByRole("radio", { name: "A2 · Elementary" }));
+    await user.click(screen.getByRole("button", { name: "Back" }));
+    expect(h1()).toHaveTextContent("What do you want to learn?");
+    await user.click(screen.getByRole("button", { name: "Continue" }));
+    expect(screen.getByRole("radio", { name: "A2 · Elementary" })).toHaveAttribute(
+      "aria-checked",
+      "true",
+    );
+  });
+
+  it("5: choosing A2 saves startLevel A2 and opens the first A2 lesson", async () => {
+    const { store, session } = await memoryStore();
+    const { user } = await renderFlow({ store });
+    await toLevelStep(user);
+    await user.click(screen.getByRole("radio", { name: "A2 · Elementary" }));
+    await user.click(screen.getByRole("button", { name: "Continue" }));
+    await user.click(screen.getByRole("radio", { name: "Casual 10 XP" }));
+    await user.click(screen.getByRole("button", { name: "Start learning" }));
+
+    await waitFor(() => expect(router.replace).toHaveBeenCalledWith(firstGermanLessonOf("A2")));
+    expect(firstGermanLessonOf("A2")).toMatch(/^\/lesson\/de-a2-u01-l1-/);
+    expect(await session.profile.findSettings()).toMatchObject({
+      courseId: "en-de",
+      dailyGoalXp: 10,
+      startLevel: "A2",
+    });
+  });
+
+  it("3: a course with one level with content (or none) skips the step: 3 steps", async () => {
+    const german = courses[0]!;
+    const oneLevel: Course = { ...german, units: german.units.filter((u) => u.level === "A1") };
+    const { store, session } = await memoryStore();
+    const { user } = await renderFlow({ store, load: async () => [oneLevel] });
+    await toCourseStep(user);
+    expect(screen.getByText("Step 2 of 3")).toBeInTheDocument();
+    await user.click(screen.getByRole("button", { name: "Continue" }));
+    expect(h1()).toHaveTextContent("Choose a daily goal");
+    expect(screen.getByText("Step 3 of 3")).toBeInTheDocument();
+    await user.click(screen.getByRole("button", { name: "Back" }));
+    expect(h1()).toHaveTextContent("What do you want to learn?");
+    await user.click(screen.getByRole("button", { name: "Continue" }));
+    await user.click(screen.getByRole("radio", { name: "Casual 10 XP" }));
+    await user.click(screen.getByRole("button", { name: "Start learning" }));
+    await waitFor(() => expect(router.replace).toHaveBeenCalledWith(firstGermanLesson()));
+    expect((await session.profile.findSettings())?.startLevel).toBe("A1");
+  });
+
+  it("3: a course without levels (en-es) skips the step and saves no startLevel", async () => {
+    const spanish = (await listBundledCourses()).find((c) => c.id === "en-es")!;
+    const { store, session } = await memoryStore();
+    const { user } = await renderFlow({ store, load: async () => [spanish] });
+    await toCourseStep(user);
+    await user.click(screen.getByRole("button", { name: "Continue" }));
+    expect(h1()).toHaveTextContent("Choose a daily goal");
+    await user.click(screen.getByRole("radio", { name: "Casual 10 XP" }));
+    await user.click(screen.getByRole("button", { name: "Start learning" }));
+    await waitFor(() => expect(router.replace).toHaveBeenCalledWith(firstLessonPath(spanish)));
+    expect(await session.profile.findSettings()).not.toHaveProperty("startLevel");
   });
 });
 

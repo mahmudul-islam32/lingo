@@ -5,13 +5,20 @@ import { seedSettingsCourse } from "./helpers/seed";
 /**
  * Completes onboarding (PLT-004) with the default choices, so specs that test the tabs
  * start as a returning learner. Since PLT-024 the only offered course is German (en-de),
- * preselected; "Start learning" opens its first A1 lesson (PLT-007). This helper then
+ * preselected, and A1 is the preselected start level (PLT-025); "Start learning" opens
+ * its first A1 lesson (PLT-007). This helper then
  * goes back to Learn and ends on `/` with the Learn heading visible.
  */
 export async function completeOnboarding(page: Page, goal = "Regular 20 XP"): Promise<void> {
   await page.goto("/onboarding");
   await page.getByRole("button", { name: "Get started" }).click();
   await expect(page.getByRole("radio", { name: GERMAN.title })).toHaveAttribute(
+    "aria-checked",
+    "true",
+  );
+  await page.getByRole("button", { name: "Continue" }).click();
+  // PLT-025: the start level step, A1 · Beginner preselected.
+  await expect(page.getByRole("radio", { name: "A1 · Beginner" })).toHaveAttribute(
     "aria-checked",
     "true",
   );

@@ -4,16 +4,24 @@ import { useQueryClient } from "@tanstack/react-query";
 import { useRouter } from "next/navigation";
 import { useCallback, useEffect, useId, useRef, useState } from "react";
 import type { StoreApi } from "zustand";
-import type { Course, DailyGoalXp, Slug } from "@/contracts";
-import { guestProfileStore, type GuestProfileState } from "@/features/profile";
+import type { CefrLevel, Course, DailyGoalXp, Slug } from "@/contracts";
+import {
+  effectiveStartLevel,
+  firstLessonOfLevel,
+  guestProfileStore,
+  startLevelOptions,
+  type GuestProfileState,
+} from "@/features/profile";
 import { HOME_PATH } from "../_shell/OnboardingGate";
-import { DEFAULT_COURSE_ID, firstLessonPath, listAvailableCourses } from "@/lib/content";
+import { DEFAULT_COURSE_ID, lessonPath, listAvailableCourses } from "@/lib/content";
 import { queryKeys } from "@/lib/query";
 import { CourseStep, type CoursesState } from "./steps/CourseStep";
 import { GoalStep } from "./steps/GoalStep";
+import { LevelStep } from "./steps/LevelStep";
+import { TOTAL_STEPS } from "./steps/StepLayout";
 import { Welcome } from "./steps/Welcome";
 
-export type OnboardingStep = "welcome" | "course" | "goal";
+export type OnboardingStep = "welcome" | "course" | "level" | "goal";
 
 /** Loads the courses offered at onboarding. Injected in tests. */
 export type LoadCourses = () => Promise<Course[]>;
@@ -42,10 +50,12 @@ export function effectiveCourseId(chosen: Slug | null, courses: CoursesState): S
 }
 
 /**
- * Three-step onboarding on one route (PLT-004). Choices live here in `useState`, so Back
+ * Onboarding on one route (PLT-004): Welcome, course, start level (PLT-025, only when the
+ * course has 2+ levels with content), daily goal. Choices live here in `useState`, so Back
  * keeps them and a reload starts over at Welcome with nothing saved. Only "Start
- * learning" writes: settings (course + daily goal) through the guest profile store, then
- * `onboardedAt`, then `router.replace` to the course's first lesson (PLT-007).
+ * learning" writes: settings (course, daily goal and `startLevel` for courses with levels)
+ * through the guest profile store, then `onboardedAt`, then `router.replace` to the first
+ * lesson of the chosen start level (PLT-007, PLT-025).
  *
  * Saving goes through the PLT-003 Zustand store, not a TanStack Query mutation
  * (ARCHITECTURE §5, temporary deviation PLT-003/CR-002). Afterwards `["settings"]` is
@@ -63,11 +73,20 @@ export function OnboardingFlow({
   const headingRef = useRef<HTMLHeadingElement>(null);
   const [step, setStep] = useState<OnboardingStep>("welcome");
   const [chosenCourseId, setCourseId] = useState<Slug | null>(null);
+  const [chosenLevel, setLevel] = useState<CefrLevel | null>(null);
   const [goal, setGoal] = useState<DailyGoalXp | null>(null);
   const [courses, setCourses] = useState<CoursesState>({ status: "loading" });
   const [saving, setSaving] = useState(false);
   const [saveFailed, setSaveFailed] = useState(false);
   const selectedCourseId = effectiveCourseId(chosenCourseId, courses);
+  const selectedCourse =
+    courses.status === "ready" ? courses.courses.find((c) => c.id === selectedCourseId) : undefined;
+  const levelOptions = selectedCourse ? startLevelOptions(selectedCourse) : [];
+  // PLT-025 AC 3: a course with fewer than two levels with content skips the step.
+  const showLevelStep = levelOptions.length > 1;
+  const totalSteps = showLevelStep ? TOTAL_STEPS : TOTAL_STEPS - 1;
+  // AC 2: the first level is preselected; a choice not offered by this course falls back.
+  const startLevel = selectedCourse ? effectiveStartLevel(selectedCourse, chosenLevel) : null;
 
   // Resolves to the next courses state; never sets state synchronously.
   const readCourses = useCallback(
@@ -110,15 +129,19 @@ export function OnboardingFlow({
     setSaveFailed(false);
     try {
       const state = store.getState();
-      await state.updateSettings({ courseId, dailyGoalXp: goal });
+      await state.updateSettings({
+        courseId,
+        dailyGoalXp: goal,
+        ...(startLevel !== null ? { startLevel } : {}),
+      });
       await state.completeOnboarding();
       // `refetchType: "all"`: no settings query may be mounted here (app defaults don't
       // refetch on mount), so inactive ones are refreshed too.
       void queryClient.invalidateQueries({ queryKey: queryKeys.settings(), refetchType: "all" });
-      // PLT-007 criterion 6: straight into the course's first lesson.
-      const course =
-        courses.status === "ready" ? courses.courses.find((c) => c.id === courseId) : undefined;
-      router.replace(course ? firstLessonPath(course) : HOME_PATH);
+      // PLT-007 criterion 6, PLT-025: straight into the first lesson of the start level.
+      router.replace(
+        selectedCourse ? lessonPath(firstLessonOfLevel(selectedCourse, startLevel).id) : HOME_PATH,
+      );
     } catch {
       setSaveFailed(true);
       setSaving(false);
@@ -138,6 +161,20 @@ export function OnboardingFlow({
           onSelect={setCourseId}
           onRetry={retryCourses}
           onBack={() => setStep("welcome")}
+          onContinue={() => setStep(showLevelStep ? "level" : "goal")}
+          total={totalSteps}
+        />
+      );
+    case "level":
+      return (
+        <LevelStep
+          {...common}
+          step={3}
+          total={totalSteps}
+          options={levelOptions}
+          selected={startLevel ?? levelOptions[0]!.level}
+          onSelect={setLevel}
+          onBack={() => setStep("course")}
           onContinue={() => setStep("goal")}
         />
       );
@@ -150,7 +187,8 @@ export function OnboardingFlow({
             setGoal(value);
             setSaveFailed(false);
           }}
-          onBack={() => setStep("course")}
+          onBack={() => setStep(showLevelStep ? "level" : "course")}
+          total={totalSteps}
           onFinish={() => void finish()}
           saving={saving}
           saveFailed={saveFailed}
