@@ -1,12 +1,15 @@
 # Polyglow architecture
 
-- **Owner:** cto · **Status:** v1 (CTO-002) · **Last updated:** 2026-11-16
+- **Owner:** cto · **Status:** v1 (CTO-002) · **Last updated:** 2026-11-18
 - Decisions: [ADR-001 scaffold](adr/ADR-001-scaffold.md), [ADR-002 contracts](adr/ADR-002-contracts.md),
   [ADR-003 Supabase](adr/ADR-003-supabase.md), [ADR-004 design tokens and UI primitives](adr/ADR-004-design-tokens-ui-primitives.md),
   [ADR-005 client query cache](adr/ADR-005-client-query-cache.md),
   [ADR-006 webpack production build](adr/ADR-006-webpack-production-build-serwist.md), [ADR-007 release tagging](adr/ADR-007-release-tagging-v0.1.0-v0.2.0.md),
   [ADR-008 German course and CEFR levels](adr/ADR-008-german-course-cefr-levels.md),
   [ADR-009 cloze exercise](adr/ADR-009-cloze-exercise.md)
+- Proposed (B1 tech plan CTO-010): [ADR-010 typed answers](adr/ADR-010-typed-answers.md),
+  [ADR-011 reading passages](adr/ADR-011-reading-passages.md),
+  [ADR-012 grammar note card](adr/ADR-012-grammar-note-card.md)
 - Contract changes: [contract-requests.md](contract-requests.md)
 
 Every agent reads this file before starting a ticket. If code and this document
@@ -390,3 +393,8 @@ Devs never edit `/src/contracts`. They add an entry to
 [contract-requests.md](contract-requests.md); the cto approves or rejects with
 reasoning, makes the change on a `chore/` branch, lists every affected feature, and
 bumps `CONTRACTS_VERSION` if a synced payload changes incompatibly.
+
+Planned contract changes for B1 (CTO-010): typed answers (CTO-011, ADR-010, v1.1.0),
+reading passages and MC `direction` (CTO-012, ADR-011, v1.1.0), grammar note card
+(CTO-013, ADR-012, v1.2.0). The offline budget for 210 lessons (CTO-014) updates §10 and
+§13 together with PLT-015.
