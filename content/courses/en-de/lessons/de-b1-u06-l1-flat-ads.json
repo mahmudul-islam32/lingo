@@ -1,0 +1,190 @@
+{
+  "id": "de-b1-u06-l1-flat-ads",
+  "courseId": "en-de",
+  "unitId": "de-b1-u06",
+  "title": "Flat Ads",
+  "tip": "In flat ads, die Kaltmiete is the rent without utilities and die Warmmiete the rent with them. After ein, a der noun's adjective ends in -er: „Das ist ein schöner Altbau.“",
+  "exercises": [
+    {
+      "id": "de-b1-u06-l1-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        { "id": "p1", "learning": "die Anzeige", "known": "the ad" },
+        { "id": "p2", "learning": "die Kaltmiete", "known": "rent without utilities" },
+        { "id": "p3", "learning": "die Warmmiete", "known": "rent with utilities" },
+        { "id": "p4", "learning": "die Kaution", "known": "the deposit" },
+        { "id": "p5", "learning": "möbliert", "known": "furnished" }
+      ]
+    },
+    {
+      "id": "de-b1-u06-l1-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'The rent without utilities is 800 euros.'?",
+      "options": [
+        { "id": "a", "text": "Die Warmmiete ist achthundert Euro." },
+        { "id": "b", "text": "Die Kaltmiete ist achthundert Euro." },
+        { "id": "c", "text": "Die Kaltmiete ist achtzig Euro." },
+        { "id": "d", "text": "Die Kaution ist achthundert Euro." }
+      ],
+      "correctOptionId": "b"
+    },
+    {
+      "id": "de-b1-u06-l1-ex03",
+      "type": "listen",
+      "audio": { "src": "/audio/de/b1/u06/de-b1-u06-l1-ex03.mp3" },
+      "tiles": [
+        "die",
+        "Warmmiete",
+        "ist",
+        "neunhundertfünfzig",
+        "Euro",
+        "Kaltmiete",
+        "neunhundert",
+        "sind"
+      ],
+      "answers": ["Die Warmmiete ist neunhundertfünfzig Euro."]
+    },
+    {
+      "id": "de-b1-u06-l1-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "How much is the deposit?",
+      "tiles": ["wie", "viel", "ist", "die", "Kaution", "viele", "sind", "Miete", "wo"],
+      "answers": ["Wie viel ist die Kaution?"]
+    },
+    {
+      "id": "de-b1-u06-l1-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'The location is central.'?",
+      "options": [
+        { "id": "a", "text": "Die Lage ist zentrale." },
+        { "id": "b", "text": "Der Lage ist zentral." },
+        { "id": "c", "text": "Die Lage ist zentral." },
+        { "id": "d", "text": "Die Lage sind zentral." }
+      ],
+      "correctOptionId": "c"
+    },
+    {
+      "id": "de-b1-u06-l1-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "That's a beautiful old building.",
+      "tiles": ["das", "ist", "ein", "schöner", "Altbau", "schönes", "eine", "schöne", "sind"],
+      "answers": ["Das ist ein schöner Altbau."]
+    },
+    {
+      "id": "de-b1-u06-l1-ex07",
+      "type": "listen",
+      "audio": { "src": "/audio/de/b1/u06/de-b1-u06-l1-ex07.mp3" },
+      "tiles": ["ich", "habe", "die", "Anzeige", "gelesen", "hat", "lese", "der", "bin"],
+      "answers": ["Ich habe die Anzeige gelesen."]
+    },
+    {
+      "id": "de-b1-u06-l1-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Die Wohnung ist möbliert und hell.",
+      "tiles": [
+        "the",
+        "flat",
+        "apartment",
+        "is",
+        "furnished",
+        "and",
+        "bright",
+        "light",
+        "are",
+        "dark"
+      ],
+      "answers": [
+        "The flat is furnished and bright.",
+        "The apartment is furnished and bright.",
+        "The flat is furnished and light.",
+        "The apartment is furnished and light.",
+        "The flat is bright and furnished.",
+        "The apartment is bright and furnished.",
+        "The flat is light and furnished.",
+        "The apartment is light and furnished."
+      ]
+    },
+    {
+      "id": "de-b1-u06-l1-ex09",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'The flat I saw yesterday is furnished.'?",
+      "options": [
+        { "id": "a", "text": "Die Wohnung, den ich gestern gesehen habe, ist möbliert." },
+        { "id": "b", "text": "Die Wohnung, die ich gestern gesehen habe, ist möbliert." },
+        { "id": "c", "text": "Die Wohnung, die ich gestern habe gesehen, ist möbliert." },
+        { "id": "d", "text": "Die Wohnung, die ich gestern gesehen habe, sind möbliert." }
+      ],
+      "correctOptionId": "b"
+    },
+    {
+      "id": "de-b1-u06-l1-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I'm interested in the flat with the balcony.",
+      "tiles": [
+        "ich",
+        "interessiere",
+        "mich",
+        "für",
+        "die",
+        "Wohnung",
+        "mit",
+        "dem",
+        "Balkon",
+        "dich",
+        "an",
+        "den",
+        "interessiert"
+      ],
+      "answers": [
+        "Ich interessiere mich für die Wohnung mit dem Balkon.",
+        "Für die Wohnung mit dem Balkon interessiere ich mich."
+      ]
+    },
+    {
+      "id": "de-b1-u06-l1-ex11",
+      "type": "listen",
+      "audio": { "src": "/audio/de/b1/u06/de-b1-u06-l1-ex11.mp3" },
+      "tiles": [
+        "zwei",
+        "Zimmer",
+        "möbliert",
+        "frei",
+        "ab",
+        "sofort",
+        "Kaltmiete",
+        "siebenhundert",
+        "Euro",
+        "drei",
+        "Warmmiete",
+        "Kaution"
+      ],
+      "answers": ["Zwei Zimmer, möbliert, frei ab sofort. Kaltmiete siebenhundert Euro."]
+    },
+    {
+      "id": "de-b1-u06-l1-ex12",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I'm trying to find a flat with a balcony.",
+      "tiles": [
+        "ich",
+        "versuche",
+        "eine",
+        "Wohnung",
+        "mit",
+        "einem",
+        "Balkon",
+        "zu",
+        "finden",
+        "versucht",
+        "einen",
+        "finde",
+        "um"
+      ],
+      "answers": ["Ich versuche, eine Wohnung mit einem Balkon zu finden."]
+    }
+  ]
+}

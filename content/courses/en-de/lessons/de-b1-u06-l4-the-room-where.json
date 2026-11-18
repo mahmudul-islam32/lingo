@@ -1,0 +1,223 @@
+{
+  "id": "de-b1-u06-l4-the-room-where",
+  "courseId": "en-de",
+  "unitId": "de-b1-u06",
+  "title": "The Room Where It's Damp",
+  "tip": "With a preposition, it comes first and sets the case: „die Wohnung, in der ich wohne“; „der Handwerker, mit dem ich spreche“. For places you can also say wo: „der Stadtteil, wo ich wohne“.",
+  "exercises": [
+    {
+      "id": "de-b1-u06-l4-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        { "id": "p1", "learning": "der Schaden", "known": "the damage" },
+        { "id": "p2", "learning": "der Schimmel", "known": "mould" },
+        { "id": "p3", "learning": "undicht", "known": "leaking" },
+        { "id": "p4", "learning": "die Reparatur", "known": "the repair" },
+        { "id": "p5", "learning": "austauschen", "known": "to replace" }
+      ]
+    },
+    {
+      "id": "de-b1-u06-l4-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'The flat I live in is small.'?",
+      "options": [
+        { "id": "a", "text": "Die Wohnung, der ich in wohne, ist klein." },
+        { "id": "b", "text": "Die Wohnung, in der ich wohne, ist klein." },
+        { "id": "c", "text": "Die Wohnung, in die ich wohne, ist klein." },
+        { "id": "d", "text": "Die Wohnung, in der ich wohne, sind klein." }
+      ],
+      "correctOptionId": "b"
+    },
+    {
+      "id": "de-b1-u06-l4-ex03",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "That's the room where there's mould.",
+      "tiles": [
+        "das",
+        "das",
+        "ist",
+        "Zimmer",
+        "in",
+        "dem",
+        "es",
+        "Schimmel",
+        "gibt",
+        "wo",
+        "den",
+        "der"
+      ],
+      "answers": [
+        "Das ist das Zimmer, in dem es Schimmel gibt.",
+        "Das ist das Zimmer, wo es Schimmel gibt."
+      ]
+    },
+    {
+      "id": "de-b1-u06-l4-ex04",
+      "type": "listen",
+      "audio": { "src": "/audio/de/b1/u06/de-b1-u06-l4-ex04.mp3" },
+      "tiles": ["der", "Stadtteil", "wo", "ich", "wohne", "ist", "ruhig", "wer", "wohnt", "laut"],
+      "answers": ["Der Stadtteil, wo ich wohne, ist ruhig."]
+    },
+    {
+      "id": "de-b1-u06-l4-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'The window is leaking.'?",
+      "options": [
+        { "id": "a", "text": "Der Fenster ist undicht." },
+        { "id": "b", "text": "Das Fenster sind undicht." },
+        { "id": "c", "text": "Das Fenster undicht ist." },
+        { "id": "d", "text": "Das Fenster ist undicht." }
+      ],
+      "correctOptionId": "d"
+    },
+    {
+      "id": "de-b1-u06-l4-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Who's taking care of the repair?",
+      "tiles": [
+        "wer",
+        "kümmert",
+        "sich",
+        "um",
+        "die",
+        "Reparatur",
+        "für",
+        "der",
+        "kümmern",
+        "mich"
+      ],
+      "answers": ["Wer kümmert sich um die Reparatur?"]
+    },
+    {
+      "id": "de-b1-u06-l4-ex07",
+      "type": "listen",
+      "audio": { "src": "/audio/de/b1/u06/de-b1-u06-l4-ex07.mp3" },
+      "tiles": [
+        "der",
+        "Handwerker",
+        "streicht",
+        "die",
+        "Wand",
+        "er",
+        "tauscht",
+        "auch",
+        "das",
+        "Fenster",
+        "aus",
+        "streichen",
+        "den"
+      ],
+      "answers": ["Der Handwerker streicht die Wand. Er tauscht auch das Fenster aus."]
+    },
+    {
+      "id": "de-b1-u06-l4-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "The tradesperson I spoke to is coming tomorrow.",
+      "tiles": [
+        "der",
+        "die",
+        "Handwerker",
+        "Handwerkerin",
+        "mit",
+        "dem",
+        "ich",
+        "gesprochen",
+        "habe",
+        "kommt",
+        "morgen",
+        "den"
+      ],
+      "answers": [
+        "Der Handwerker, mit dem ich gesprochen habe, kommt morgen.",
+        "Die Handwerkerin, mit der ich gesprochen habe, kommt morgen.",
+        "Morgen kommt der Handwerker, mit dem ich gesprochen habe.",
+        "Morgen kommt die Handwerkerin, mit der ich gesprochen habe."
+      ]
+    },
+    {
+      "id": "de-b1-u06-l4-ex09",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'The problem we talked about is the mould.'?",
+      "options": [
+        { "id": "a", "text": "Das Problem, über dem wir gesprochen haben, ist der Schimmel." },
+        { "id": "b", "text": "Das Problem, über das wir gesprochen haben, ist der Schimmel." },
+        { "id": "c", "text": "Das Problem, das wir über gesprochen haben, ist der Schimmel." },
+        { "id": "d", "text": "Das Problem, über das wir gesprochen hat, ist der Schimmel." }
+      ],
+      "correctOptionId": "b"
+    },
+    {
+      "id": "de-b1-u06-l4-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Der Handwerker hat die Wand im Bad gestrichen.",
+      "tiles": [
+        "the",
+        "the",
+        "the",
+        "tradesperson",
+        "painted",
+        "has",
+        "wall",
+        "in",
+        "bathroom",
+        "kitchen",
+        "paints",
+        "on"
+      ],
+      "answers": [
+        "The tradesperson painted the wall in the bathroom.",
+        "The tradesperson has painted the wall in the bathroom."
+      ]
+    },
+    {
+      "id": "de-b1-u06-l4-ex11",
+      "type": "listen",
+      "audio": { "src": "/audio/de/b1/u06/de-b1-u06-l4-ex11.mp3" },
+      "tiles": [
+        "der",
+        "Schaden",
+        "ist",
+        "ist",
+        "nicht",
+        "groß",
+        "aber",
+        "das",
+        "Fenster",
+        "undicht",
+        "oder",
+        "sind",
+        "die"
+      ],
+      "answers": ["Der Schaden ist nicht groß, aber das Fenster ist undicht."]
+    },
+    {
+      "id": "de-b1-u06-l4-ex12",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "The tradesperson we're waiting for is coming on Monday.",
+      "tiles": [
+        "der",
+        "Handwerker",
+        "auf",
+        "den",
+        "wir",
+        "warten",
+        "kommt",
+        "am",
+        "Montag",
+        "dem",
+        "für",
+        "wartet",
+        "um"
+      ],
+      "answers": [
+        "Der Handwerker, auf den wir warten, kommt am Montag.",
+        "Am Montag kommt der Handwerker, auf den wir warten."
+      ]
+    }
+  ]
+}

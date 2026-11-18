@@ -3,7 +3,7 @@
   "title": "German",
   "learningLanguage": "de",
   "knownLanguage": "en",
-  "version": 19,
+  "version": 20,
   "levels": [
     {
       "level": "A1",
@@ -892,6 +892,34 @@
         {
           "id": "de-b1-u05-l5-learning-tips",
           "title": "Scenario: Tips for Learning"
+        }
+      ]
+    },
+    {
+      "id": "de-b1-u06",
+      "level": "B1",
+      "title": "Renting a Flat",
+      "description": "Understand flat ads, describe the flat you want, and report problems with relative clauses and dative endings.",
+      "lessons": [
+        {
+          "id": "de-b1-u06-l1-flat-ads",
+          "title": "Flat Ads"
+        },
+        {
+          "id": "de-b1-u06-l2-the-landlord",
+          "title": "The Landlord I Wrote To"
+        },
+        {
+          "id": "de-b1-u06-l3-big-balcony",
+          "title": "A Flat with a Big Balcony"
+        },
+        {
+          "id": "de-b1-u06-l4-the-room-where",
+          "title": "The Room Where It's Damp"
+        },
+        {
+          "id": "de-b1-u06-l5-complaint-letter",
+          "title": "Scenario: A Letter About the Mould"
         }
       ]
     }

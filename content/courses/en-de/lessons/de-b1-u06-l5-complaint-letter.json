@@ -1,0 +1,231 @@
+{
+  "id": "de-b1-u06-l5-complaint-letter",
+  "courseId": "en-de",
+  "unitId": "de-b1-u06",
+  "title": "Scenario: A Letter About the Mould",
+  "tip": "A formal letter starts with „Sehr geehrte Damen und Herren,“ and ends with „Mit freundlichen Grüßen“. A da- word can point to a dass clause: „Ich warte darauf, dass der Handwerker kommt.“",
+  "exercises": [
+    {
+      "id": "de-b1-u06-l5-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        { "id": "p1", "learning": "die Beschwerde", "known": "the complaint" },
+        { "id": "p2", "learning": "mitteilen", "known": "to inform" },
+        { "id": "p3", "learning": "die Lösung", "known": "the solution" },
+        { "id": "p4", "learning": "möglichst bald", "known": "as soon as possible" },
+        { "id": "p5", "learning": "die Hausverwaltung", "known": "the property management" }
+      ]
+    },
+    {
+      "id": "de-b1-u06-l5-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'Dear Sir or Madam, I'd like to inform you that …'?",
+      "options": [
+        { "id": "a", "text": "Sehr geehrte Damen und Herren, ich möchte Sie mitteilen, dass …" },
+        { "id": "b", "text": "Sehr geehrter Damen und Herren, ich möchte Ihnen mitteilen, dass …" },
+        { "id": "c", "text": "Sehr geehrte Damen und Herren, ich möchte Ihnen mitteilen, dass …" },
+        { "id": "d", "text": "Sehr geehrte Damen und Herren, ich möchte Ihnen mitzuteilen, dass …" }
+      ],
+      "correctOptionId": "c"
+    },
+    {
+      "id": "de-b1-u06-l5-ex03",
+      "type": "listen",
+      "audio": { "src": "/audio/de/b1/u06/de-b1-u06-l5-ex03.mp3" },
+      "tiles": [
+        "seit",
+        "drei",
+        "Wochen",
+        "gibt",
+        "es",
+        "Schimmel",
+        "im",
+        "Bad",
+        "vor",
+        "Woche",
+        "ist"
+      ],
+      "answers": ["Seit drei Wochen gibt es Schimmel im Bad."]
+    },
+    {
+      "id": "de-b1-u06-l5-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I'm waiting for the tradesperson to come.",
+      "tiles": [
+        "ich",
+        "warte",
+        "darauf",
+        "dass",
+        "der",
+        "Handwerker",
+        "die",
+        "Handwerkerin",
+        "kommt",
+        "daran",
+        "auf",
+        "wartet"
+      ],
+      "answers": [
+        "Ich warte darauf, dass der Handwerker kommt.",
+        "Ich warte darauf, dass die Handwerkerin kommt."
+      ]
+    },
+    {
+      "id": "de-b1-u06-l5-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'Please see to it as soon as possible. (formal)'?",
+      "options": [
+        { "id": "a", "text": "Bitte kümmern Sie sich möglichst bald darum." },
+        { "id": "b", "text": "Bitte kümmern Sie sich möglichst bald darauf." },
+        { "id": "c", "text": "Bitte kümmern Sie möglichst bald sich darum." },
+        { "id": "d", "text": "Bitte kümmern sich Sie möglichst bald darum." }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "de-b1-u06-l5-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I hope that you find a solution. (formal)",
+      "tiles": ["ich", "hoffe", "dass", "Sie", "eine", "Lösung", "finden", "findet", "einen", "ob"],
+      "answers": [
+        "Ich hoffe, dass Sie eine Lösung finden.",
+        "Ich hoffe, Sie finden eine Lösung.",
+        "Sie finden eine Lösung, hoffe ich."
+      ]
+    },
+    {
+      "id": "de-b1-u06-l5-ex07",
+      "type": "listen",
+      "audio": { "src": "/audio/de/b1/u06/de-b1-u06-l5-ex07.mp3" },
+      "tiles": [
+        "der",
+        "Schimmel",
+        "ist",
+        "auch",
+        "im",
+        "Zimmer",
+        "in",
+        "dem",
+        "mein",
+        "Sohn",
+        "schläft",
+        "den",
+        "schlafe",
+        "das"
+      ],
+      "answers": ["Der Schimmel ist auch im Zimmer, in dem mein Sohn schläft."]
+    },
+    {
+      "id": "de-b1-u06-l5-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "This is a complaint about the window that is leaking.",
+      "tiles": [
+        "das",
+        "das",
+        "das",
+        "ist",
+        "ist",
+        "eine",
+        "Beschwerde",
+        "über",
+        "Fenster",
+        "undicht",
+        "der",
+        "den",
+        "sind"
+      ],
+      "answers": ["Das ist eine Beschwerde über das Fenster, das undicht ist."]
+    },
+    {
+      "id": "de-b1-u06-l5-ex09",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'I look forward to hearing from you. (formal)'?",
+      "options": [
+        { "id": "a", "text": "Ich freue mich darauf, von Ihnen hören." },
+        { "id": "b", "text": "Ich freue mich daran, von Ihnen zu hören." },
+        { "id": "c", "text": "Ich freue mich darauf, zu von Ihnen hören." },
+        { "id": "d", "text": "Ich freue mich darauf, von Ihnen zu hören." }
+      ],
+      "correctOptionId": "d"
+    },
+    {
+      "id": "de-b1-u06-l5-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Ich möchte Ihnen mitteilen, dass das Fenster undicht ist.",
+      "tiles": [
+        "I'd",
+        "I",
+        "would",
+        "like",
+        "to",
+        "inform",
+        "you",
+        "that",
+        "the",
+        "window",
+        "is",
+        "leaking",
+        "are",
+        "door"
+      ],
+      "answers": [
+        "I'd like to inform you that the window is leaking.",
+        "I would like to inform you that the window is leaking.",
+        "I'd like to inform you the window is leaking.",
+        "I would like to inform you the window is leaking."
+      ]
+    },
+    {
+      "id": "de-b1-u06-l5-ex11",
+      "type": "listen",
+      "audio": { "src": "/audio/de/b1/u06/de-b1-u06-l5-ex11.mp3" },
+      "tiles": [
+        "bitte",
+        "antworten",
+        "Sie",
+        "mir",
+        "möglichst",
+        "bald",
+        "mit",
+        "freundlichen",
+        "Grüßen",
+        "antwortet",
+        "mich",
+        "freundliche"
+      ],
+      "answers": ["Bitte antworten Sie mir möglichst bald. Mit freundlichen Grüßen"]
+    },
+    {
+      "id": "de-b1-u06-l5-ex12",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "The house where I live is next to a big park.",
+      "tiles": [
+        "das",
+        "Haus",
+        "wo",
+        "in",
+        "dem",
+        "ich",
+        "wohne",
+        "steht",
+        "neben",
+        "einem",
+        "großen",
+        "Park",
+        "großem",
+        "einen"
+      ],
+      "answers": [
+        "Das Haus, wo ich wohne, steht neben einem großen Park.",
+        "Das Haus, in dem ich wohne, steht neben einem großen Park.",
+        "Neben einem großen Park steht das Haus, wo ich wohne.",
+        "Neben einem großen Park steht das Haus, in dem ich wohne."
+      ]
+    }
+  ]
+}

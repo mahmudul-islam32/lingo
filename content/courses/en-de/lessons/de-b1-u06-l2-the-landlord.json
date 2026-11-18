@@ -1,0 +1,235 @@
+{
+  "id": "de-b1-u06-l2-the-landlord",
+  "courseId": "en-de",
+  "unitId": "de-b1-u06",
+  "title": "The Landlord I Wrote To",
+  "tip": "Relative pronouns in the dative: der → dem; die → der; das → dem; plural die → denen. Use them with verbs like helfen, gehören, antworten: „Die Nachbarin, der ich helfe, ist sehr nett.“",
+  "exercises": [
+    {
+      "id": "de-b1-u06-l2-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        { "id": "p1", "learning": "der Mieter", "known": "the tenant" },
+        { "id": "p2", "learning": "die Eigentümerin", "known": "the owner" },
+        { "id": "p3", "learning": "die Nachbarschaft", "known": "the neighbourhood" },
+        { "id": "p4", "learning": "die WG", "known": "the shared flat" },
+        { "id": "p5", "learning": "der Mitbewohner", "known": "the flatmate" }
+      ]
+    },
+    {
+      "id": "de-b1-u06-l2-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'The landlord I wrote to isn't answering.'?",
+      "options": [
+        { "id": "a", "text": "Der Vermieter, den ich geschrieben habe, antwortet nicht." },
+        { "id": "b", "text": "Der Vermieter, dem ich geschrieben habe, antwortet nicht." },
+        { "id": "c", "text": "Der Vermieter, der ich geschrieben habe, antwortet nicht." },
+        { "id": "d", "text": "Der Vermieter, dem ich habe geschrieben, antwortet nicht." }
+      ],
+      "correctOptionId": "b"
+    },
+    {
+      "id": "de-b1-u06-l2-ex03",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "The neighbour I help is very nice.",
+      "tiles": [
+        "die",
+        "der",
+        "dem",
+        "den",
+        "Nachbarin",
+        "Nachbar",
+        "ich",
+        "helfe",
+        "ist",
+        "sehr",
+        "nett",
+        "hilft"
+      ],
+      "answers": [
+        "Die Nachbarin, der ich helfe, ist sehr nett.",
+        "Der Nachbar, dem ich helfe, ist sehr nett."
+      ]
+    },
+    {
+      "id": "de-b1-u06-l2-ex04",
+      "type": "listen",
+      "audio": { "src": "/audio/de/b1/u06/de-b1-u06-l2-ex04.mp3" },
+      "tiles": [
+        "die",
+        "die",
+        "Leute",
+        "denen",
+        "Wohnung",
+        "gehört",
+        "wohnen",
+        "in",
+        "Wien",
+        "den",
+        "gehören",
+        "wohnt"
+      ],
+      "answers": ["Die Leute, denen die Wohnung gehört, wohnen in Wien."]
+    },
+    {
+      "id": "de-b1-u06-l2-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'Our flatmates, whom I trust, are very honest.'?",
+      "options": [
+        { "id": "a", "text": "Unsere Mitbewohner, den ich vertraue, sind sehr ehrlich." },
+        { "id": "b", "text": "Unsere Mitbewohner, die ich vertraue, sind sehr ehrlich." },
+        { "id": "c", "text": "Unsere Mitbewohner, denen ich vertraue, sind sehr ehrlich." },
+        { "id": "d", "text": "Unsere Mitbewohner, denen ich vertraue, ist sehr ehrlich." }
+      ],
+      "correctOptionId": "c"
+    },
+    {
+      "id": "de-b1-u06-l2-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "We're looking for a flatmate for our shared flat.",
+      "tiles": [
+        "wir",
+        "suchen",
+        "eine",
+        "Mitbewohnerin",
+        "einen",
+        "Mitbewohner",
+        "für",
+        "unsere",
+        "WG",
+        "sucht",
+        "unser",
+        "mit"
+      ],
+      "answers": [
+        "Wir suchen eine Mitbewohnerin für unsere WG.",
+        "Wir suchen einen Mitbewohner für unsere WG.",
+        "Für unsere WG suchen wir eine Mitbewohnerin.",
+        "Für unsere WG suchen wir einen Mitbewohner.",
+        "Wir suchen für unsere WG eine Mitbewohnerin.",
+        "Wir suchen für unsere WG einen Mitbewohner.",
+        "Eine Mitbewohnerin suchen wir für unsere WG.",
+        "Einen Mitbewohner suchen wir für unsere WG."
+      ]
+    },
+    {
+      "id": "de-b1-u06-l2-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'The owner I'm writing to lives in the building.'?",
+      "options": [
+        { "id": "a", "text": "Die Eigentümerin, die ich schreibe, wohnt im Haus." },
+        { "id": "b", "text": "Die Eigentümerin, dem ich schreibe, wohnt im Haus." },
+        { "id": "c", "text": "Die Eigentümerin, der ich schreibe, wohnt ins Haus." },
+        { "id": "d", "text": "Die Eigentümerin, der ich schreibe, wohnt im Haus." }
+      ],
+      "correctOptionId": "d"
+    },
+    {
+      "id": "de-b1-u06-l2-ex08",
+      "type": "listen",
+      "audio": { "src": "/audio/de/b1/u06/de-b1-u06-l2-ex08.mp3" },
+      "tiles": [
+        "die",
+        "die",
+        "Mieter",
+        "kennen",
+        "sich",
+        "Eigentümerin",
+        "wohnt",
+        "im",
+        "Haus",
+        "kennt",
+        "uns",
+        "wohnen"
+      ],
+      "answers": ["Die Mieter kennen sich. Die Eigentümerin wohnt im Haus."]
+    },
+    {
+      "id": "de-b1-u06-l2-ex09",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Das ist der Mitbewohner, dem das Fahrrad gehört.",
+      "tiles": [
+        "that's",
+        "the",
+        "the",
+        "flatmate",
+        "who",
+        "that",
+        "bike",
+        "bicycle",
+        "belongs",
+        "to",
+        "belong",
+        "whose"
+      ],
+      "answers": [
+        "That's the flatmate the bike belongs to.",
+        "That's the flatmate who the bike belongs to.",
+        "That's the flatmate that the bike belongs to.",
+        "That's the flatmate the bicycle belongs to.",
+        "That's the flatmate who the bicycle belongs to.",
+        "That's the flatmate that the bicycle belongs to."
+      ]
+    },
+    {
+      "id": "de-b1-u06-l2-ex10",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'The child the cat belongs to lives on the ground floor.'?",
+      "options": [
+        { "id": "a", "text": "Das Kind, dem die Katze gehört, wohnt im Erdgeschoss." },
+        { "id": "b", "text": "Das Kind, das die Katze gehört, wohnt im Erdgeschoss." },
+        { "id": "c", "text": "Das Kind, den die Katze gehört, wohnt im Erdgeschoss." },
+        { "id": "d", "text": "Das Kind, dem die Katze gehört, wohnen im Erdgeschoss." }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "de-b1-u06-l2-ex11",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "The people I help live in our neighbourhood.",
+      "tiles": [
+        "die",
+        "die",
+        "Leute",
+        "denen",
+        "ich",
+        "helfe",
+        "wohnen",
+        "in",
+        "unserer",
+        "Nachbarschaft",
+        "den",
+        "unsere",
+        "hilft"
+      ],
+      "answers": [
+        "Die Leute, denen ich helfe, wohnen in unserer Nachbarschaft.",
+        "In unserer Nachbarschaft wohnen die Leute, denen ich helfe."
+      ]
+    },
+    {
+      "id": "de-b1-u06-l2-ex12",
+      "type": "listen",
+      "audio": { "src": "/audio/de/b1/u06/de-b1-u06-l2-ex12.mp3" },
+      "tiles": [
+        "das",
+        "ist",
+        "die",
+        "die",
+        "Mitbewohnerin",
+        "der",
+        "ich",
+        "Schlüssel",
+        "gebe",
+        "den",
+        "gibt",
+        "dem"
+      ],
+      "answers": ["Das ist die Mitbewohnerin, der ich die Schlüssel gebe."]
+    }
+  ]
+}

@@ -106,3 +106,86 @@ _(cto)_
 
 ## Review
 _(pm self-review of CDS-1…28 and criteria 3–9 goes here, A2 format)_
+
+## PM self-review
+
+**Date:** 2026-11-18 · **Writer:** pm (content writer 2) · **Result:** ready for the wave 2
+scripted checks (PD-062). I couldn't run commands, so `npm run test` (the schema and
+buildability check) still needs to be run by the orchestrator.
+
+### Files
+- `content/courses/en-de/lessons/de-b1-u06-l1-flat-ads.json` (12)
+- `content/courses/en-de/lessons/de-b1-u06-l2-the-landlord.json` (12)
+- `content/courses/en-de/lessons/de-b1-u06-l3-big-balcony.json` (12)
+- `content/courses/en-de/lessons/de-b1-u06-l4-the-room-where.json` (12)
+- `content/courses/en-de/lessons/de-b1-u06-l5-complaint-letter.json` (12)
+- Unit fragment `de-b1-unit-06.json` (`id`, `title`, `description`, `lessons`) goes to the
+  orchestrator. I did not edit `course.json`.
+
+### Mix per lesson (CDS-2)
+| Lesson | MC | WB (to_learning / to_known) | Match | Listen | Total |
+|---|---|---|---|---|---|
+| L1 | 3 | 5 (4 / 1) | 1 | 3 | 12 |
+| L2 | 4 | 4 (3 / 1) | 1 | 3 | 12 |
+| L3 | 3 | 5 (3 / 2) | 1 | 3 | 12 |
+| L4 | 3 | 5 (4 / 1) | 1 | 3 | 12 |
+| L5 | 3 | 5 (4 / 1) | 1 | 3 | 12 |
+
+### CDS results
+| Rule | Result | Note |
+|---|---|---|
+| CDS-1 Files | PASS (fragment) | Ids and titles match criterion 1. The orchestrator inserts the unit after `de-b1-u05` with `level: "B1"` and bumps `version`. |
+| CDS-2 Mix | PASS | See the table above. |
+| CDS-3 Vocabulary | PASS (2 notes) | Other words come from A1, A2 (incl. QA additions) and the B1 U1–U5 appendices (`vertrauen`, `ehrlich`, `die Leute`, `unser`, `das Erdgeschoss`, `versuchen`, `zu`, `sich kümmern um`, `warten auf`, `sich interessieren für`, `sprechen über`, `darauf`, `daran`, `darum`). Extras: regular plurals (`Parks`, `Mieter`, `Mitbewohner`, `Nachbarn` as plural), CDS-16 participles, CDS-22.7 dative endings from L3, CDS-22.3 dative and prepositional relative pronouns from L2 / L4, `hören` from the A1 phrase `Musik hören`. Not used: `lassen`, `wegen`, genitive, `hoch`, `der Neubau`, `obwohl`, `teurer`, `würde`, endings without an article, `noch` "still", `mieten`. Notes: (1) `die Wohngemeinschaft`, `die Mieterin` and `der Eigentümer` are not used; only the paired forms `WG`, `Mieter` and `Eigentümerin` appear (both flatmate forms appear in L2 ex06). (2) `darum` (L5 ex05) is used as U4 used it. No CDS-22.9 compound. |
+| CDS-4 Alternatives | PASS | Fronted place / time / prepositional phrases (L1 ex10; L2 ex06, ex11; L3 ex03, ex08, ex10; L4 ex08, ex12; L5 ex12), short-object fronting and PP before the object (L2 ex06), `wo` / `in dem` both (L4 ex03, L5 ex12), paired person nouns (L2 ex03, ex06; L4 ex08; L5 ex04), `dass`-less and "…, hoffe ich" (L5 ex06), English `who / that / none` (L2 ex09), "I'd / I would", optional "that" (L5 ex10), coordination order (L1 ex08). Listens accept the transcript only. |
+| CDS-5 Distractors | PASS (1 note) | 2–4 distractors per word bank. Left out because they would build unlisted valid answers: `owns` (L2 ex09), `kommen` (L5 ex04, plural tradespeople), `dem` (L3 ex08, would build n-noun `dem netten Nachbarn`), `die` (L5 ex08, `die Beschwerde`). Note: L5 ex12 can build `neben dem großen Park` ("the" park) with the `dem` that `in dem` needs; I treat it as a wrong translation of "a big park". |
+| CDS-6 Conventions | PASS | Umlauts and `ß` correct; no capital `ẞ`. Nouns capitalised, other tiles lower case. Formal `Sie` only in L5 ex06 and ex11, with no `sie` in those sets. No `ihr / Ihr`, `ihnen / Ihnen` tile pairs (`Ihnen` only in MC options). Register marked "(formal)". Tips use „…“. |
+| CDS-7 MC direction | PASS | English prompts, German options, PD-044 punctuation. |
+| CDS-8 Originality | PASS | All sentences original; no brands, platforms, agents or celebrities. |
+| CDS-9 Audio | PASS | 15 listens, `/audio/de/b1/u06/<exercise-id>.mp3`. |
+| CDS-11 / CDS-26 Safe | PASS | See criterion 9. Mould is reported as a fact of the flat, with no health claims. |
+| CDS-12 Ids | PASS | `de-b1-u06-lN-exNN`, unique; options `a`–`d`, pairs `p1`–`p5`. |
+| CDS-13 Fit | PASS | Longest tile `neunhundertfünfzig` (18). No digits in tiles or answers (digits only in the L1 ex02 prompt price, CDS-18). |
+| CDS-14 Drill | PASS | L2 dative relatives: ex02–ex05, ex07, ex09–ex12; error MCs ex02, ex05, ex07, ex10. L3 dative endings: ex02, ex03, ex05, ex06, ex08, ex09, ex11, ex12; error MCs ex02, ex05, ex09. L4 preposition + relative / `wo`: ex02–ex04, ex08, ex09, ex12; error MCs ex02, ex09. |
+| CDS-16 / 17 / 18 | PASS | No case-only pairs; rents as words. |
+| CDS-20 Length | PASS | Prompts ≤ 85 characters; all tile sets ≤ 14 tiles; canonical answers ≤ 11 tiles and ≤ 2 clauses; listens ≤ 2 sentences, ≤ 11 words; longest MC option about 70 characters. |
+| CDS-21 Tip | PASS | All tips name the rule with a German example in „…“, each under 210 characters. |
+| CDS-22 Extras | PASS | Konjunktiv II: none besides `ich möchte` (A1). Relative pronouns dative from L2, after prepositions from L4. Dative endings from L3 (L1 has no dative adjective). |
+| CDS-23 Tense | PASS | Perfekt only in dialogue-style sentences (L1 ex07, ex09; L2 ex02; L4 ex08–ex10). The L5 letter stays in the present, so no past tense choice arises there. |
+| CDS-24 Word order | PASS | Relative clauses never fronted or moved; `dass` never fronted. At most 8 accepted answers. |
+| CDS-25 Recycling | PASS | See criterion 7. |
+| CDS-27 Glosses | PASS | Recycled glosses unchanged. |
+| CDS-28 | N/A | Not a checkpoint unit. |
+
+### Unit criteria 3–9
+| # | Result | Evidence |
+|---|---|---|
+| 3 | PASS | Dative relatives in L2 ex02, ex03, ex04, ex05, ex07, ex09, ex10, ex11, ex12 (9). `dem` masc. ex02, ex03; `der` ex03, ex07, ex12; `dem` neut. ex09, ex10; `denen` ex04, ex05, ex11. Wrong-case MCs: ex02 (`den` for `dem`), ex07 (`die` for `der`), ex05 (`den` for `denen`). |
+| 4 | PASS | L4 ex02 (`in der`), ex03 (`in dem` / `wo`), ex08 (`mit dem` / `mit der`), ex09 (`über das`), ex12 (`auf den`); L5 ex07 (`in dem`), ex12 (`in dem` / `wo`): 7 exercises, 4 prepositions. `wo`: L4 ex03, ex04; L5 ex12. Preposition-at-end MC: L4 ex02 (`der ich in wohne`); also L4 ex09 (`das wir über gesprochen haben`). |
+| 5 | PASS | L3 ex02, ex03, ex05, ex06, ex08, ex09, ex11, ex12; L5 ex12 (9). After `der` words: L3 ex09, ex11; after `ein` words: L3 ex02, ex03, ex05, ex06; plural `-en`: L3 ex08. L3 ex02 offers `großen / große / großem / großer`. |
+| 6 | PASS | L5 ex04 (`Ich warte darauf, dass …`), L5 ex09 (`Ich freue mich darauf, von Ihnen zu hören.`). |
+| 7 | PASS | U4 verbs with prepositions: L1 ex10 (`sich interessieren für`), L4 ex06 (`sich kümmern um`), L4 ex09 (`sprechen über`), L4 ex12 (`warten auf`), L5 ex05 (`sich kümmern … darum`). U5 zu-infinitive: L1 ex12 (`versuchen, … zu`), L3 ex12 (`Es ist schwer, … zu`), L5 ex09. U3 nom. / acc. relatives: L1 ex09 (acc. `die`), L5 ex08 (nom. `das`). |
+| 8 | PASS | Greeting L5 ex02 (`Sehr geehrte Damen und Herren`, with `Sehr geehrter` as a distractor); closing L5 ex11 (`Mit freundlichen Grüßen`); both in the L5 tip. |
+| 9 | PASS | Rents invented and in words (`achthundert`, `neunhundertfünfzig`, `siebenhundert`). The deposit is only asked about (`Wie viel ist die Kaution?`), never stated as a rule; no notice periods, rent rules or tenant rights; the ad line names no platform or agent. |
+
+### Deviations
+- L2 ex06 has 8 accepted answers (paired forms × 4 orders); still within CDS-24.6.
+
+### Vocabulary requests
+None. One gloss note: `undicht` is glossed "leaking" (appendix: "leaking / not sealed") to fit the
+match tile.
+
+### Uncertainties / needs native review
+1. Object-first `Eine Mitbewohnerin suchen wir für unsere WG.` and `Wir suchen für unsere WG
+   eine Mitbewohnerin.` are accepted (L2 ex06, PD-043.3 / PD-053.2).
+2. Fronted predicative adjectives in copula sentences (`Sehr nett ist die Nachbarin, der ich
+   helfe.`, L2 ex03) are buildable but **not** accepted, as U3 L1 handles them. QA should
+   decide this the same way for all B1 units.
+3. `Ich warte, dass der Handwerker kommt.` (without `darauf`, colloquial) is not accepted
+   (L5 ex04).
+4. `Sie finden eine Lösung, hoffe ich.` (L5 ex06) is accepted under PD-053.4.
+5. `Ich freue mich darauf, von Ihnen zu hören.` (L5 ex09) is a less common letter closing than
+   `Ich freue mich auf Ihre Antwort.`; both are correct.
+6. L2 ex09 English accepts "who the bike belongs to"; "whom" isn't offered (CDS-23.6).
+7. L3 ex10 `mit vielen Parks` comes from the outline; `vielen` is a quantifier, not an
+   article-less adjective ending (U13).

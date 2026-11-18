@@ -1,0 +1,207 @@
+{
+  "id": "de-b1-u06-l3-big-balcony",
+  "courseId": "en-de",
+  "unitId": "de-b1-u06",
+  "title": "A Flat with a Big Balcony",
+  "tip": "In the dative, adjectives after an article end in -en: dem / einem großen Balkon; der / einer ruhigen Gegend; plural den netten Nachbarn. „Wir wohnen in einer ruhigen Gegend.“",
+  "exercises": [
+    {
+      "id": "de-b1-u06-l3-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        { "id": "p1", "learning": "der Stadtteil", "known": "the district" },
+        { "id": "p2", "learning": "die Gegend", "known": "the area" },
+        { "id": "p3", "learning": "der Hof", "known": "the courtyard" },
+        { "id": "p4", "learning": "der Spielplatz", "known": "the playground" },
+        { "id": "p5", "learning": "modern", "known": "modern" }
+      ]
+    },
+    {
+      "id": "de-b1-u06-l3-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'I'm looking for a flat with a big balcony.'?",
+      "options": [
+        { "id": "a", "text": "Ich suche eine Wohnung mit einem große Balkon." },
+        { "id": "b", "text": "Ich suche eine Wohnung mit einem großem Balkon." },
+        { "id": "c", "text": "Ich suche eine Wohnung mit einem großen Balkon." },
+        { "id": "d", "text": "Ich suche eine Wohnung mit einem großer Balkon." }
+      ],
+      "correctOptionId": "c"
+    },
+    {
+      "id": "de-b1-u06-l3-ex03",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "We live in a quiet area.",
+      "tiles": [
+        "wir",
+        "wohnen",
+        "in",
+        "einer",
+        "ruhigen",
+        "Gegend",
+        "ruhige",
+        "eine",
+        "wohnt",
+        "ruhiger"
+      ],
+      "answers": ["Wir wohnen in einer ruhigen Gegend.", "In einer ruhigen Gegend wohnen wir."]
+    },
+    {
+      "id": "de-b1-u06-l3-ex04",
+      "type": "listen",
+      "audio": { "src": "/audio/de/b1/u06/de-b1-u06-l3-ex04.mp3" },
+      "tiles": ["im", "Hof", "spielen", "die", "Kinder", "spielt", "Kind", "Garten", "am"],
+      "answers": ["Im Hof spielen die Kinder."]
+    },
+    {
+      "id": "de-b1-u06-l3-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'The house is next to a small playground.'?",
+      "options": [
+        { "id": "a", "text": "Das Haus steht neben einem kleinen Spielplatz." },
+        { "id": "b", "text": "Das Haus steht neben einen kleinen Spielplatz." },
+        { "id": "c", "text": "Das Haus steht neben einem kleine Spielplatz." },
+        { "id": "d", "text": "Das Haus steht neben einem kleinem Spielplatz." }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "de-b1-u06-l3-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Wir wohnen in einem alten Haus mit einem schönen Garten.",
+      "tiles": [
+        "we",
+        "live",
+        "in",
+        "an",
+        "old",
+        "house",
+        "building",
+        "with",
+        "a",
+        "beautiful",
+        "nice",
+        "garden",
+        "lives"
+      ],
+      "answers": [
+        "We live in an old house with a beautiful garden.",
+        "We live in an old house with a nice garden.",
+        "We live in an old building with a beautiful garden.",
+        "We live in an old building with a nice garden."
+      ]
+    },
+    {
+      "id": "de-b1-u06-l3-ex07",
+      "type": "listen",
+      "audio": { "src": "/audio/de/b1/u06/de-b1-u06-l3-ex07.mp3" },
+      "tiles": [
+        "die",
+        "Küche",
+        "ist",
+        "ist",
+        "modern",
+        "und",
+        "der",
+        "Garten",
+        "groß",
+        "moderne",
+        "sind",
+        "Hof"
+      ],
+      "answers": ["Die Küche ist modern und der Garten ist groß."]
+    },
+    {
+      "id": "de-b1-u06-l3-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I'm talking to the nice neighbours.",
+      "tiles": ["ich", "spreche", "mit", "den", "netten", "Nachbarn", "nette", "der", "spricht"],
+      "answers": ["Ich spreche mit den netten Nachbarn.", "Mit den netten Nachbarn spreche ich."]
+    },
+    {
+      "id": "de-b1-u06-l3-ex09",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'In the new flat there is a big kitchen.'?",
+      "options": [
+        { "id": "a", "text": "In der neue Wohnung gibt es eine große Küche." },
+        { "id": "b", "text": "In der neuen Wohnung gibt es eine große Küche." },
+        { "id": "c", "text": "In die neuen Wohnung gibt es eine große Küche." },
+        { "id": "d", "text": "In der neuen Wohnung gibt es eine großen Küche." }
+      ],
+      "correctOptionId": "b"
+    },
+    {
+      "id": "de-b1-u06-l3-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I live in a district with lots of parks.",
+      "tiles": [
+        "ich",
+        "wohne",
+        "in",
+        "einem",
+        "Stadtteil",
+        "mit",
+        "vielen",
+        "Parks",
+        "einen",
+        "viele",
+        "wohnt",
+        "Park"
+      ],
+      "answers": [
+        "Ich wohne in einem Stadtteil mit vielen Parks.",
+        "In einem Stadtteil mit vielen Parks wohne ich."
+      ]
+    },
+    {
+      "id": "de-b1-u06-l3-ex11",
+      "type": "listen",
+      "audio": { "src": "/audio/de/b1/u06/de-b1-u06-l3-ex11.mp3" },
+      "tiles": [
+        "die",
+        "Kinder",
+        "spielen",
+        "auf",
+        "dem",
+        "dem",
+        "großen",
+        "Spielplatz",
+        "neben",
+        "Haus",
+        "große",
+        "den",
+        "spielt"
+      ],
+      "answers": ["Die Kinder spielen auf dem großen Spielplatz neben dem Haus."]
+    },
+    {
+      "id": "de-b1-u06-l3-ex12",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Es ist schwer, eine Wohnung in einer ruhigen Gegend zu finden.",
+      "tiles": [
+        "it's",
+        "difficult",
+        "hard",
+        "to",
+        "find",
+        "a",
+        "a",
+        "flat",
+        "in",
+        "quiet",
+        "area",
+        "loud",
+        "easy"
+      ],
+      "answers": [
+        "It's difficult to find a flat in a quiet area.",
+        "It's hard to find a flat in a quiet area."
+      ]
+    }
+  ]
+}
