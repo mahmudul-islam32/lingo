@@ -6,6 +6,7 @@ export {
   createSession,
   sessionReducer,
   sessionStats,
+  heartsDelta,
   type CreatePlayerStateInput,
   type CreateSessionInput,
   type PlayerPhase,
@@ -20,4 +21,5 @@ export {
   summarizeSession,
   type BuildLessonResultInput,
   type LessonSessionSummary,
+  type SessionHeartsTotals,
 } from "./summary";

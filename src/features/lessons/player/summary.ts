@@ -34,15 +34,29 @@ export interface LessonSessionSummary {
    * `computeLessonXp({ perfect })`.
    */
   perfect: boolean;
+  /**
+   * Hearts actually lost in the session (LES-020: earned hearts make
+   * `heartsAtStart − heartsRemaining` wrong). Missing → that difference.
+   */
+  heartsLost?: number;
+  /** Hearts earned by correct answers in the session (LES-020). */
+  heartsGained?: number;
+}
+
+export interface SessionHeartsTotals {
+  heartsLost: number;
+  heartsGained: number;
 }
 
 /** Builds the summary of a finished session. */
 export function summarizeSession(
   session: LessonSession,
   completedAt: IsoDateTime,
+  hearts?: SessionHeartsTotals,
 ): LessonSessionSummary {
   const stats = sessionStats(session);
   return {
+    ...(hearts ? { heartsLost: hearts.heartsLost, heartsGained: hearts.heartsGained } : {}),
     session,
     startedAt: session.startedAt,
     completedAt,
@@ -104,7 +118,7 @@ export function buildLessonResult(
     perfect: summary.perfect,
     xp: input.xp,
     xpEarned: input.xp.base + input.xp.perfectBonus,
-    heartsLost: Math.max(0, session.heartsAtStart - session.heartsRemaining),
+    heartsLost: summary.heartsLost ?? Math.max(0, session.heartsAtStart - session.heartsRemaining),
     localDate: input.localDate,
     timeZone: input.timeZone,
   });

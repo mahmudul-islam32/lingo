@@ -2,14 +2,7 @@
 
 import { useQuery } from "@tanstack/react-query";
 import { useRouter } from "next/navigation";
-import {
-  useCallback,
-  useEffect,
-  useRef,
-  useState,
-  type ComponentProps,
-  type ComponentType,
-} from "react";
+import { useCallback, useEffect, useRef, useState } from "react";
 import type { CefrLevel, Course, LessonResult, Slug, Uuid } from "@/contracts";
 import { useToast } from "@/components/ui";
 import { settingsQuery, useUserProgress } from "@/features/gamification";
@@ -56,22 +49,12 @@ export function accessOf(
 
 /**
  * PLT-025 AC 13/14, PD-065 §3: a lesson is practice when it was completed before this
- * session started. Practice costs no hearts and may start at 0 hearts (LES-020).
- * TODO(cto): once GAM-011's start-gate function is on main, decide the 0-hearts start with
- * it here (`practiceCostsHearts` from `GAME_CONFIG`); until then the flag is completion.
+ * session started. `HeartsLessonPlayer` (LES-020) applies `GAME_CONFIG.practiceCostsHearts`:
+ * while it is false, practice costs no hearts and may start at 0 hearts.
  */
 export function isPracticeStart(completed: readonly Slug[], lessonId: Slug): boolean {
   return completed.includes(lessonId);
 }
-
-/**
- * `HeartsLessonPlayer` with LES-020's `practice` flag. TODO(cto): drop this cast after
- * LES-020 merges (the prop then exists on `HeartsLessonPlayerProps`); until then the
- * player ignores the extra prop.
- */
-const PracticeAwarePlayer = HeartsLessonPlayer as ComponentType<
-  ComponentProps<typeof HeartsLessonPlayer> & { practice?: boolean }
->;
 
 export interface LessonScreenProps {
   courseId: Slug;
@@ -168,6 +151,9 @@ export function LessonScreen({
     setAttempt((n) => n + 1);
   }, [savedHere]);
 
+  // LES-020 AC 15: the out-of-hearts screen points to practice when a lesson is finished.
+  const hasCompletedLessons = savedHere || (progress.progress?.completedLessonIds.length ?? 0) > 0;
+
   if (course.status === "error" || lesson.status === "error") {
     return <LessonPlayerError onRetry={retryLoad} onBack={goToLearn} />;
   }
@@ -189,9 +175,10 @@ export function LessonScreen({
 
   return (
     // Keyed by lesson (and attempt, so "Practice again" re-reads hearts on a fresh start).
-    <PracticeAwarePlayer
+    <HeartsLessonPlayer
       key={`${lesson.data.id}#${attempt}`}
       practice={practice}
+      hasCompletedLessons={hasCompletedLessons}
       lesson={lesson.data}
       learningLanguage={course.data.learningLanguage}
       knownLanguage={course.data.knownLanguage}

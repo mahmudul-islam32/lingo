@@ -7,6 +7,8 @@ import { Lumi } from "@/components/ui";
 import { formatHeartRefill, formatHeartsFull, useMinuteClock } from "@/features/gamification";
 
 export const OUT_OF_HEARTS_HEADING = "You're out of hearts";
+/** LES-020 AC 15 (PD-065 §4): shown when the learner has at least one completed lesson. */
+export const OUT_OF_HEARTS_PRACTICE_HINT = "Practise a finished lesson to earn hearts.";
 export const OUT_OF_HEARTS_REASSURANCE =
   "Hearts come back on their own. Your finished lessons and XP are safe.";
 
@@ -15,6 +17,8 @@ export interface OutOfHeartsScreenProps {
   view: HeartsView;
   /** Where "Back to Learn" goes. Default `/`. */
   backHref?: string;
+  /** True when the learner has at least one completed lesson: adds the practice line. */
+  hasCompletedLessons?: boolean;
 }
 
 /** Primary-button look for a link (same tokens as `Button` primary, size lg = 48 px). */
@@ -26,9 +30,14 @@ const primaryLinkClasses =
 /**
  * LES-009 AC 2, 8, 9: shown instead of the player when a lesson can't start at 0 hearts
  * and after the "Continue" that follows the last lost heart. Calm, no XP, no stats, no
- * quit button, nothing that promises practice or purchases (PD-018). Saves nothing.
+ * quit button, no purchases (PD-018). With a completed lesson it says that practising
+ * one earns hearts (LES-020, PD-065 §4). Saves nothing.
  */
-export function OutOfHeartsScreen({ view, backHref = "/" }: OutOfHeartsScreenProps) {
+export function OutOfHeartsScreen({
+  view,
+  backHref = "/",
+  hasCompletedLessons = false,
+}: OutOfHeartsScreenProps) {
   const headingRef = useRef<HTMLHeadingElement>(null);
   const headingId = useId();
   const now = useMinuteClock(true);
@@ -60,6 +69,11 @@ export function OutOfHeartsScreen({ view, backHref = "/" }: OutOfHeartsScreenPro
             {refill && <p className="text-lg font-semibold">{refill}</p>}
             {full && <p className="text-fg-muted">{full}</p>}
           </div>
+        )}
+        {hasCompletedLessons && (
+          <p data-testid="out-of-hearts-practice" className="max-w-xs font-semibold text-pretty">
+            {OUT_OF_HEARTS_PRACTICE_HINT}
+          </p>
         )}
         <p className="max-w-xs text-fg-muted text-pretty">{OUT_OF_HEARTS_REASSURANCE}</p>
       </div>

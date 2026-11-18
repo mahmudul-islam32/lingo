@@ -14,6 +14,13 @@
  * - Hearts are only deducted when `heartsEnforced` (from v0.3.0, LES-009). When they
  *   reach 0 the session ends as `out_of_hearts` on the following "Continue", so the
  *   learner still sees the correct answer first. This wins over `completed`.
+ * - Earning hearts (LES-020, ADR-013, PD-065): with `heartsEnforced` and a positive
+ *   `heartsGainPerCorrect`, a `correct` Check of a non-speak exercise that costs no heart
+ *   adds the gain, capped at `heartsMax`. A Check either costs or earns, never both.
+ *   Skips never earn.
+ * - Practice (`heartsPractice`, a lesson completed before it started): Checks cost no
+ *   hearts and the lesson never ends `out_of_hearts`, even when it starts at 0. Mistakes
+ *   are still recorded and re-queued.
  */
 import {
   GAME_CONFIG,
@@ -53,6 +60,16 @@ export interface PlayerState {
   review: AnswerCheckResult | null;
   /** True from v0.3.0 (LES-009): heart costs are deducted and 0 hearts ends the lesson. */
   heartsEnforced: boolean;
+  /** Practice replay (LES-020): with `heartsEnforced`, nothing costs hearts and 0 never ends. */
+  heartsPractice: boolean;
+  /** Hearts earned per correct Check when `heartsEnforced` (LES-020). 0 = off. */
+  heartsGainPerCorrect: number;
+  /** Cap for earned hearts. */
+  heartsMax: number;
+  /** Hearts actually deducted in this session (for `LessonResult.heartsLost`). */
+  heartsLost: number;
+  /** Hearts actually earned in this session. */
+  heartsGained: number;
   /** Last "Continue" (or last skip) that emptied the queue. */
   completedAt: IsoDateTime | null;
 }
@@ -104,6 +121,12 @@ export function createSession({
 
 export interface CreatePlayerStateInput extends CreateSessionInput {
   heartsEnforced?: boolean;
+  /** Practice replay: no heart costs, no out-of-hearts end (LES-020). Default false. */
+  heartsPractice?: boolean;
+  /** Hearts earned per correct Check (LES-020). Default 0 (no earning). */
+  heartsGainPerCorrect?: number;
+  /** Cap for earned hearts. Default `GAME_CONFIG.maxHearts`. */
+  heartsMax?: number;
 }
 
 /** Initial player state: the session plus the first presentation. */
@@ -120,6 +143,11 @@ export function createPlayerState(input: CreatePlayerStateInput): PlayerState {
     pendingAnswer: null,
     review: null,
     heartsEnforced: input.heartsEnforced ?? false,
+    heartsPractice: input.heartsPractice ?? false,
+    heartsGainPerCorrect: Math.max(0, Math.floor(input.heartsGainPerCorrect ?? 0)),
+    heartsMax: input.heartsMax ?? GAME_CONFIG.maxHearts,
+    heartsLost: 0,
+    heartsGained: 0,
     completedAt: null,
   };
   return present(base);
@@ -157,7 +185,7 @@ function present(state: PlayerState): PlayerState {
 
 /** Ends the session if nothing is left to play; else presents the next exercise. */
 function advance(state: PlayerState, now: Date): PlayerState {
-  if (state.heartsEnforced && state.session.heartsRemaining === 0) {
+  if (state.heartsEnforced && !state.heartsPractice && state.session.heartsRemaining === 0) {
     return end(state, "out_of_hearts");
   }
   if (state.session.queue.length === 0) {
@@ -176,6 +204,29 @@ function end(state: PlayerState, status: LessonSession["status"]): PlayerState {
     pendingAnswer: null,
     review: null,
   };
+}
+
+/**
+ * Hearts lost and earned by one Check (LES-009, LES-020). Only when `heartsEnforced`.
+ * Practice never costs. A Check with a cost never earns (ADR-013 §2); speak never earns.
+ */
+export function heartsDelta(
+  state: Pick<
+    PlayerState,
+    "heartsEnforced" | "heartsPractice" | "heartsGainPerCorrect" | "heartsMax" | "session"
+  >,
+  exercise: Pick<Exercise, "type">,
+  result: Pick<AnswerCheckResult, "outcome" | "heartCost">,
+): { lost: number; gained: number } {
+  if (!state.heartsEnforced) return { lost: 0, gained: 0 };
+  const current = state.session.heartsRemaining;
+  if (result.heartCost > 0) {
+    if (state.heartsPractice) return { lost: 0, gained: 0 };
+    return { lost: Math.min(current, result.heartCost), gained: 0 };
+  }
+  if (result.outcome !== "correct" || exercise.type === "speak") return { lost: 0, gained: 0 };
+  const room = Math.max(0, state.heartsMax - current);
+  return { lost: 0, gained: Math.min(room, state.heartsGainPerCorrect) };
 }
 
 function hasAttempt(session: LessonSession, exerciseId: Slug): boolean {
@@ -223,11 +274,12 @@ export function sessionReducer(state: PlayerState, action: SessionAction): Playe
         // Re-queue (PD-012): the current exercise goes to the end of the queue.
         queue = [...queue.slice(1), id];
       }
-      const heartsRemaining = state.heartsEnforced
-        ? Math.max(0, state.session.heartsRemaining - result.heartCost)
-        : state.session.heartsRemaining;
+      const { lost, gained } = heartsDelta(state, exercise, result);
+      const heartsRemaining = state.session.heartsRemaining - lost + gained;
       return {
         ...state,
+        heartsLost: state.heartsLost + lost,
+        heartsGained: state.heartsGained + gained,
         session: {
           ...state.session,
           queue,
