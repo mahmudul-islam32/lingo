@@ -1,5 +1,6 @@
 import { act, screen, waitFor, within } from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
+import axe from "axe-core";
 import { afterEach, beforeEach, describe, expect, it, vi } from "vitest";
 import { LessonSchema, type HeartsState, type Lesson } from "@/contracts";
 import { HeartsMeter, useHearts } from "@/features/gamification";
@@ -12,12 +13,21 @@ import { SKELETON_DELAY_MS } from "../../player/PlayerSkeleton";
 import { fixtureLesson, makeClock, mcOnlyLesson, SESSION_ID } from "../../player/testing/fixtures";
 import { stubComponents } from "../../player/testing/stubs";
 import { HeartsLessonPlayer, type HeartsLessonPlayerProps } from "../HeartsLessonPlayer";
-import { HEART_LOSS_SHRINK_MS } from "../LessonHeartsMeter";
-import { OUT_OF_HEARTS_HEADING, OUT_OF_HEARTS_REASSURANCE } from "../OutOfHeartsScreen";
+import { toLessonResult } from "../../results";
+import { HEART_GAIN_GROW_MS, HEART_LOSS_SHRINK_MS } from "../LessonHeartsMeter";
+import {
+  OUT_OF_HEARTS_HEADING,
+  OUT_OF_HEARTS_PRACTICE_HINT,
+  OUT_OF_HEARTS_REASSURANCE,
+} from "../OutOfHeartsScreen";
+import { PRACTICE_BADGE_LABEL } from "../PracticeBadge";
 
 // Real GAM-005 hooks over a stubbed local session; `useLoseHearts` is wrapped with a spy
 // so each call's cost is visible while the real cache update and save still run.
-const { loseSpy } = vi.hoisted(() => ({ loseSpy: vi.fn<(cost: number) => void>() }));
+const { loseSpy, gainSpy } = vi.hoisted(() => ({
+  loseSpy: vi.fn<(cost: number) => void>(),
+  gainSpy: vi.fn<(amount?: number) => void>(),
+}));
 
 vi.mock("@/lib/offline", () => ({ getLocalSession: vi.fn() }));
 vi.mock("@/features/gamification", async (importOriginal) => {
@@ -29,6 +39,13 @@ vi.mock("@/features/gamification", async (importOriginal) => {
       return (cost: number) => {
         loseSpy(cost);
         return lose(cost);
+      };
+    },
+    useGainHearts: () => {
+      const gain = actual.useGainHearts();
+      return (amount?: number) => {
+        gainSpy(amount);
+        return gain(amount);
       };
     },
   };
@@ -60,7 +77,7 @@ function stubSession(initial: HeartsState | Error) {
 }
 
 /** Speak stub (the shared stubs leave speak out) and a match-pairs stub with 3 mismatches. */
-function StubSpeak({ headingId, disabled, onComplete }: ExerciseComponentProps<"speak">) {
+function StubSpeak({ exercise, headingId, disabled, onComplete }: ExerciseComponentProps<"speak">) {
   return (
     <div>
       <h2 id={headingId} tabIndex={-1}>
@@ -72,6 +89,15 @@ function StubSpeak({ headingId, disabled, onComplete }: ExerciseComponentProps<"
         onClick={() => onComplete({ type: "speak", skipped: false, transcripts: ["nada"] })}
       >
         Say something wrong
+      </button>
+      <button
+        type="button"
+        disabled={disabled}
+        onClick={() =>
+          onComplete({ type: "speak", skipped: false, transcripts: [exercise.phrase] })
+        }
+      >
+        Say it right
       </button>
       <button
         type="button"
@@ -102,6 +128,13 @@ function StubPairs({
         onClick={() => onComplete({ type: "match_pairs", matches, mismatchCount: 3 })}
       >
         Finish with 3 mismatches
+      </button>
+      <button
+        type="button"
+        disabled={disabled}
+        onClick={() => onComplete({ type: "match_pairs", matches, mismatchCount: 0 })}
+      >
+        Finish with no mismatch
       </button>
     </div>
   );
@@ -193,6 +226,7 @@ function stubMotion(reduce: boolean) {
 beforeEach(() => {
   vi.useFakeTimers({ now: NOW, toFake: ["Date"] });
   loseSpy.mockClear();
+  gainSpy.mockClear();
 });
 
 afterEach(() => {
@@ -281,7 +315,12 @@ describe("HeartsLessonPlayer", () => {
     await answerWrong(user);
     await waitFor(() => expect(region()).toHaveTextContent("You lost a heart. 1 left."));
     await click(user, "Continue");
+    // LES-020: the correct answer in between earns the heart back (PD-065).
     await answerRight(user);
+    await waitFor(() => expect(region()).toHaveTextContent("You earned a heart. 2 hearts."));
+    await click(user, "Continue");
+    await answerWrong(user);
+    await waitFor(() => expect(region()).toHaveTextContent("You lost a heart. 1 left."));
     await click(user, "Continue");
     await answerWrong(user);
     await waitFor(() => expect(region()).toHaveTextContent("You lost your last heart."));
@@ -355,10 +394,12 @@ describe("HeartsLessonPlayer", () => {
     await prompt();
     await answerWrong(user); // mc-1 wrong: 1 left, re-queued at the end
     await click(user, "Continue");
-    await answerRight(user); // mc-2
+    await answerRight(user); // mc-2: earns 1 back (LES-020), 2 hearts
     await click(user, "Continue");
     expect(await prompt()).toHaveTextContent("hello"); // mc-1 again, the last exercise
-    await answerWrong(user);
+    await answerWrong(user); // 1 left, re-queued again
+    await click(user, "Continue");
+    await answerWrong(user); // 0 left
     await click(user, "Continue");
     expect(
       await screen.findByRole("heading", { level: 1, name: OUT_OF_HEARTS_HEADING }),
@@ -460,5 +501,275 @@ describe("HeartsLessonPlayer", () => {
     expect(link.className).toContain("min-h-12");
     expect(link.parentElement!.className).toContain("sticky");
     expect(link.parentElement!.className).toContain("bottom-0");
+  });
+});
+
+async function seriousViolations(container: HTMLElement) {
+  const results = await axe.run(container, {
+    // jsdom has no layout or computed colours; contrast is covered by the token tests.
+    rules: { "color-contrast": { enabled: false } },
+  });
+  return results.violations.filter((v) => v.impact === "serious" || v.impact === "critical");
+}
+
+const heartsRegion = () =>
+  screen.getAllByRole("status").find((el) => el.closest("[data-testid=hearts-slot]") !== null)!;
+
+describe("HeartsLessonPlayer earning hearts (LES-020)", () => {
+  it("AC 1: 3 hearts -> correct -> 4 at once, one gain call, saved", async () => {
+    const { user, saveHearts } = setup(stored(3), { topBar: true });
+    await prompt();
+    await answerRight(user);
+    expect(lessonMeter()).toHaveAccessibleName("Hearts: 4 of 5");
+    expect(gainSpy).toHaveBeenCalledTimes(1);
+    expect(gainSpy).toHaveBeenCalledWith(1);
+    expect(loseSpy).not.toHaveBeenCalled();
+    // The shared hearts cache is updated too (the Learn top bar).
+    await waitFor(() =>
+      expect(within(screen.getByTestId("top-bar")).getByRole("img")).toHaveAccessibleName(
+        "Hearts: 4 of 5",
+      ),
+    );
+    await waitFor(() => expect(saveHearts).toHaveBeenCalledTimes(1));
+    expect(saveHearts.mock.calls[0]![0].current).toBe(4);
+    await click(user, "Continue");
+    expect(gainSpy).toHaveBeenCalledTimes(1);
+  });
+
+  it("AC 1, 5: at 5 hearts a correct answer changes nothing, calls nothing, announces nothing", async () => {
+    const { user, saveHearts } = setup(stored(5));
+    await prompt();
+    await answerRight(user);
+    expect(lessonMeter()).toHaveAccessibleName("Hearts: 5 of 5");
+    expect(gainSpy).not.toHaveBeenCalled();
+    expect(heartsRegion()).toBeEmptyDOMElement();
+    expect(saveHearts).not.toHaveBeenCalled();
+  });
+
+  it("AC 1: gains stop at the cap of 5", async () => {
+    const { user } = setup(stored(4));
+    await prompt();
+    await answerRight(user); // 5
+    await click(user, "Continue");
+    await answerRight(user); // still 5
+    expect(lessonMeter()).toHaveAccessibleName("Hearts: 5 of 5");
+    expect(gainSpy).toHaveBeenCalledTimes(1);
+  });
+
+  it("AC 2: a re-queued exercise answered correctly later earns a heart", async () => {
+    const { user, onFinish } = setup(stored(4));
+    await prompt();
+    await answerWrong(user); // mc-1: 3, re-queued
+    await click(user, "Continue");
+    await answerRight(user); // mc-2: 4
+    await click(user, "Continue");
+    expect(await prompt()).toHaveTextContent("hello");
+    await answerRight(user); // mc-1 retry: 5
+    expect(lessonMeter()).toHaveAccessibleName("Hearts: 5 of 5");
+    expect(gainSpy).toHaveBeenCalledTimes(2);
+    await click(user, "Continue");
+    expect(onFinish).toHaveBeenCalledTimes(1);
+    const summary = onFinish.mock.calls[0]![0];
+    expect(summary).toMatchObject({ heartsLost: 1, heartsGained: 2, mistakeCount: 1 });
+    // Hearts lost are the real losses, not start − end (4 → 5).
+    expect(toLessonResult(summary, { id: SESSION_ID, timeZone: "UTC" }).heartsLost).toBe(1);
+  });
+
+  it("AC 3: match pairs with no mismatch earns 1 heart", async () => {
+    const { user } = setup(stored(3), { lesson: only("mp-1") });
+    await prompt();
+    await click(user, "Finish with no mismatch");
+    expect(lessonMeter()).toHaveAccessibleName("Hearts: 4 of 5");
+    expect(gainSpy).toHaveBeenCalledTimes(1);
+    expect(loseSpy).not.toHaveBeenCalled();
+  });
+
+  it("AC 3: match pairs with a mismatch costs 1 heart and earns none", async () => {
+    const { user } = setup(stored(3), { lesson: only("mp-1") });
+    await prompt();
+    await click(user, "Finish with 3 mismatches");
+    expect(lessonMeter()).toHaveAccessibleName("Hearts: 2 of 5");
+    expect(loseSpy).toHaveBeenCalledTimes(1);
+    expect(gainSpy).not.toHaveBeenCalled();
+  });
+
+  it("AC 4: a correct speak exercise and a skipped exercise never change hearts", async () => {
+    const { user, saveHearts } = setup(stored(3), { lesson: only("sp-1", "mc-1") });
+    expect(await prompt()).toHaveTextContent("Say it");
+    await click(user, "Say it right");
+    expect(lessonMeter()).toHaveAccessibleName("Hearts: 3 of 5");
+    await click(user, "Continue");
+    await click(user, "Cannot play");
+    expect(lessonMeter()).toHaveAccessibleName("Hearts: 3 of 5");
+    expect(gainSpy).not.toHaveBeenCalled();
+    expect(loseSpy).not.toHaveBeenCalled();
+    expect(saveHearts).not.toHaveBeenCalled();
+  });
+
+  it("AC 5: a gain is announced politely", async () => {
+    const { user } = setup(stored(3));
+    await prompt();
+    expect(heartsRegion()).toHaveAttribute("aria-live", "polite");
+    await answerRight(user);
+    await waitFor(() => expect(heartsRegion()).toHaveTextContent("You earned a heart. 4 hearts."));
+  });
+
+  describe("AC 6: heart-gain animation", () => {
+    it("grows the meter briefly (at most 400 ms) when motion is allowed", async () => {
+      stubMotion(false);
+      const { user } = setup(stored(3));
+      await prompt();
+      const meter = screen.getByTestId("lesson-hearts-meter");
+      await answerRight(user);
+      expect(meter).toHaveAttribute("data-animation", "grow");
+      expect(meter.className).toContain("motion-safe:scale-125");
+      expect(HEART_GAIN_GROW_MS * 2).toBeLessThanOrEqual(400);
+      await waitFor(() => expect(meter).not.toHaveAttribute("data-animating"));
+    });
+
+    it("under prefers-reduced-motion the number changes with no animation", async () => {
+      stubMotion(true);
+      const { user } = setup(stored(3));
+      await prompt();
+      await answerRight(user);
+      const meter = screen.getByTestId("lesson-hearts-meter");
+      expect(lessonMeter()).toHaveAccessibleName("Hearts: 4 of 5");
+      expect(meter).not.toHaveAttribute("data-animating");
+      expect(meter.className).not.toContain("scale-125");
+    });
+  });
+
+  it("AC 7: a refill during the lesson is not added; a gain adds to the lesson count", async () => {
+    const { user, client } = setup(stored(3), { topBar: true });
+    await prompt();
+    act(() => client.setQueryData(queryKeys.hearts(), stored(5)));
+    expect(lessonMeter()).toHaveAccessibleName("Hearts: 3 of 5");
+    await answerRight(user);
+    expect(lessonMeter()).toHaveAccessibleName("Hearts: 4 of 5");
+  });
+
+  it("AC 8: a failed gain save is logged and the lesson goes on in memory", async () => {
+    const warn = vi.spyOn(console, "warn").mockImplementation(() => undefined);
+    const { user, saveHearts } = setup(stored(3));
+    saveHearts.mockRejectedValue(new Error("disk full"));
+    await prompt();
+    await answerRight(user);
+    expect(lessonMeter()).toHaveAccessibleName("Hearts: 4 of 5");
+    await waitFor(() =>
+      expect(warn).toHaveBeenCalledWith(
+        // Logged by useGainHearts (GAM-011), or by the player if the hook rejects.
+        expect.stringMatching(/could not save (an earned heart|a heart gain)/),
+        expect.objectContaining({ message: "disk full" }),
+      ),
+    );
+    expect(screen.queryByRole("alert")).not.toBeInTheDocument();
+  });
+});
+
+describe("HeartsLessonPlayer practice (LES-020)", () => {
+  it("AC 9-11: at 0 hearts a practice lesson starts; wrong costs nothing and is re-queued; correct earns", async () => {
+    const { user, onFinish, saveHearts } = setup(stored(0), { practice: true });
+    expect(await prompt()).toHaveTextContent("hello");
+    expect(lessonMeter()).toHaveAccessibleName("Hearts: 0 of 5");
+    expect(screen.queryByText(OUT_OF_HEARTS_HEADING)).not.toBeInTheDocument();
+
+    await answerWrong(user); // mc-1 wrong: no loss
+    expect(lessonMeter()).toHaveAccessibleName("Hearts: 0 of 5");
+    expect(loseSpy).not.toHaveBeenCalled();
+    await click(user, "Continue");
+    // Not out of hearts: the next exercise is shown.
+    expect(await prompt()).toHaveTextContent("good morning");
+    expect(screen.queryByText(OUT_OF_HEARTS_HEADING)).not.toBeInTheDocument();
+
+    await answerRight(user); // mc-2: 1 heart
+    expect(lessonMeter()).toHaveAccessibleName("Hearts: 1 of 5");
+    expect(gainSpy).toHaveBeenCalledTimes(1);
+    await waitFor(() => expect(saveHearts).toHaveBeenCalledTimes(1));
+    expect(saveHearts.mock.calls[0]![0].current).toBe(1);
+    await click(user, "Continue");
+
+    // mc-1 was re-queued; another wrong answer still costs nothing.
+    expect(await prompt()).toHaveTextContent("hello");
+    await answerWrong(user);
+    expect(lessonMeter()).toHaveAccessibleName("Hearts: 1 of 5");
+    await click(user, "Continue");
+    await answerRight(user);
+    await click(user, "Continue");
+    expect(loseSpy).not.toHaveBeenCalled();
+
+    // AC 13: the result is built and saved like any replay.
+    expect(onFinish).toHaveBeenCalledTimes(1);
+    const summary = onFinish.mock.calls[0]![0];
+    expect(summary).toMatchObject({ mistakeCount: 2, heartsLost: 0, perfect: false });
+    const result = toLessonResult(summary, { id: SESSION_ID, timeZone: "UTC" });
+    expect(result).toMatchObject({ heartsLost: 0, mistakeCount: 2 });
+    expect(result.xpEarned).toBeGreaterThan(0);
+  });
+
+  it("AC 9: match-pair mismatches cost nothing in practice", async () => {
+    const { user } = setup(stored(2), { practice: true, lesson: only("mp-1") });
+    await prompt();
+    await click(user, "Finish with 3 mismatches");
+    expect(lessonMeter()).toHaveAccessibleName("Hearts: 2 of 5");
+    expect(loseSpy).not.toHaveBeenCalled();
+    expect(gainSpy).not.toHaveBeenCalled();
+  });
+
+  it("AC 12, 17: the header shows a Practice badge with accessible text; no axe violations", async () => {
+    const { container } = setup(stored(0), { practice: true });
+    await prompt();
+    const slot = screen.getByTestId("hearts-slot");
+    const badge = within(slot).getByTestId("practice-badge");
+    expect(badge).toHaveTextContent("Practice");
+    expect(within(badge).getByText(PRACTICE_BADGE_LABEL)).toBeInTheDocument();
+    expect(PRACTICE_BADGE_LABEL).toBe("Practice: wrong answers cost no hearts");
+    // Left of the meter.
+    expect(
+      badge.compareDocumentPosition(screen.getByTestId("lesson-hearts-meter")) &
+        Node.DOCUMENT_POSITION_FOLLOWING,
+    ).toBeTruthy();
+    expect(badge.className).toContain("shrink-0");
+    expect(await seriousViolations(container.querySelector("header")!)).toEqual([]);
+  });
+
+  it("AC 14: without the practice flag there is no badge and 0 hearts shows the gate", async () => {
+    setup(stored(0));
+    await screen.findByRole("heading", { level: 1, name: OUT_OF_HEARTS_HEADING });
+    expect(screen.queryByTestId("practice-badge")).not.toBeInTheDocument();
+  });
+});
+
+describe("Out-of-hearts practice line (LES-020 AC 15)", () => {
+  it("the start gate shows the line when the learner has a completed lesson", async () => {
+    const { container } = setup(stored(0), { hasCompletedLessons: true });
+    await screen.findByRole("heading", { level: 1, name: OUT_OF_HEARTS_HEADING });
+    const line = screen.getByText(OUT_OF_HEARTS_PRACTICE_HINT);
+    expect(OUT_OF_HEARTS_PRACTICE_HINT).toBe("Practise a finished lesson to earn hearts.");
+    // Under the time lines, before the reassurance line.
+    const reassurance = screen.getByText(OUT_OF_HEARTS_REASSURANCE);
+    expect(
+      screen.getByText(/^Next heart in/).compareDocumentPosition(line) &
+        Node.DOCUMENT_POSITION_FOLLOWING,
+    ).toBeTruthy();
+    expect(
+      line.compareDocumentPosition(reassurance) & Node.DOCUMENT_POSITION_FOLLOWING,
+    ).toBeTruthy();
+    expect(screen.getByRole("link", { name: "Back to Learn" })).toBeInTheDocument();
+    expect(await seriousViolations(container)).toEqual([]);
+  });
+
+  it("the mid-lesson end shows the line too", async () => {
+    const { user } = setup(stored(1), { hasCompletedLessons: true });
+    await prompt();
+    await answerWrong(user);
+    await click(user, "Continue");
+    await screen.findByRole("heading", { level: 1, name: OUT_OF_HEARTS_HEADING });
+    expect(screen.getByText(OUT_OF_HEARTS_PRACTICE_HINT)).toBeInTheDocument();
+  });
+
+  it("without a completed lesson the line is absent", async () => {
+    setup(stored(0), { hasCompletedLessons: false });
+    await screen.findByRole("heading", { level: 1, name: OUT_OF_HEARTS_HEADING });
+    expect(screen.queryByText(OUT_OF_HEARTS_PRACTICE_HINT)).not.toBeInTheDocument();
   });
 });

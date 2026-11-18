@@ -4,6 +4,7 @@ import { checkAnswer } from "../checking";
 import {
   createPlayerState,
   createSession,
+  heartsDelta,
   sessionReducer,
   sessionStats,
   type PlayerState,
@@ -462,5 +463,94 @@ describe("sessionReducer", () => {
       s = sessionReducer(s, { type: "continue", now: clock() });
       expect(s.session.status).toBe("out_of_hearts");
     });
+  });
+});
+
+describe("earning hearts and practice (LES-020)", () => {
+  const earning = { heartsEnforced: true, heartsGainPerCorrect: 1, heartsMax: 5 };
+
+  it("a correct Check earns the gain, capped at the max", () => {
+    let s = start(mcOnlyLesson, { ...earning, heartsAtStart: 4 });
+    s = answer(s, correctAnswer(s));
+    expect(s.session.heartsRemaining).toBe(5);
+    expect(s.heartsGained).toBe(1);
+    s = answer(s, correctAnswer(s));
+    expect(s.session.heartsRemaining).toBe(5);
+    expect(s.heartsGained).toBe(1);
+    expect(LessonSessionSchema.safeParse(s.session).success).toBe(true);
+  });
+
+  it("a wrong Check costs and never also earns; the re-queued retry earns", () => {
+    let s = start(mcOnlyLesson, { ...earning, heartsAtStart: 3 });
+    s = answer(s, wrongAnswer(s));
+    expect(s.session.heartsRemaining).toBe(2);
+    expect(s.heartsLost).toBe(1);
+    s = answer(s, correctAnswer(s)); // mc-2
+    s = answer(s, correctAnswer(s)); // mc-1 retry
+    expect(s.session.heartsRemaining).toBe(4);
+    expect(s.heartsGained).toBe(2);
+    expect(s.session.status).toBe("completed");
+  });
+
+  it("does not earn without enforcement or with a gain of 0", () => {
+    let s = start(mcOnlyLesson, { heartsGainPerCorrect: 1, heartsAtStart: 3 });
+    s = answer(s, correctAnswer(s));
+    expect(s.session.heartsRemaining).toBe(3);
+    let t = start(mcOnlyLesson, { heartsEnforced: true, heartsAtStart: 3 });
+    t = answer(t, correctAnswer(t));
+    expect(t.session.heartsRemaining).toBe(3);
+  });
+
+  it("match pairs: no mismatch earns, a mismatch only costs", () => {
+    const lesson = {
+      ...fixtureLesson,
+      exercises: fixtureLesson.exercises.filter((e) => e.id === "mp-1"),
+    };
+    let clean = start(lesson, { ...earning, heartsAtStart: 3 });
+    clean = answer(clean, correctAnswer(clean));
+    expect(clean.session.heartsRemaining).toBe(4);
+    let messy = start(lesson, { ...earning, heartsAtStart: 3 });
+    messy = answer(messy, {
+      ...(correctAnswer(messy) as AnswerInput & { type: "match_pairs" }),
+      mismatchCount: 2,
+    });
+    expect(messy.session.heartsRemaining).toBe(2);
+    expect(messy.heartsGained).toBe(0);
+  });
+
+  it("heartsDelta: speak and skipped never change hearts", () => {
+    const base = { ...start(mcOnlyLesson, { ...earning, heartsAtStart: 3 }) };
+    expect(heartsDelta(base, { type: "speak" }, { outcome: "correct", heartCost: 0 })).toEqual({
+      lost: 0,
+      gained: 0,
+    });
+    expect(
+      heartsDelta(base, { type: "multiple_choice" }, { outcome: "skipped", heartCost: 0 }),
+    ).toEqual({ lost: 0, gained: 0 });
+    expect(
+      heartsDelta(base, { type: "multiple_choice" }, { outcome: "correct", heartCost: 0 }),
+    ).toEqual({ lost: 0, gained: 1 });
+  });
+
+  it("a skip earns nothing", () => {
+    let s = start(mcOnlyLesson, { ...earning, heartsAtStart: 3 });
+    s = sessionReducer(s, { type: "skip", reason: "audio_unavailable", now: clock() });
+    expect(s.session.heartsRemaining).toBe(3);
+    expect(s.heartsGained).toBe(0);
+  });
+
+  it("practice: starts at 0, wrong costs nothing and is re-queued, never ends out of hearts", () => {
+    let s = start(mcOnlyLesson, { ...earning, heartsPractice: true, heartsAtStart: 0 });
+    expect(s.phase).toBe("answering");
+    s = answer(s, wrongAnswer(s));
+    expect(s.session.status).toBe("in_progress");
+    expect(s.session.heartsRemaining).toBe(0);
+    expect(s.heartsLost).toBe(0);
+    expect(s.session.queue).toEqual(["mc-2", "mc-1"]);
+    s = answer(s, correctAnswer(s));
+    expect(s.session.heartsRemaining).toBe(1);
+    s = answer(s, correctAnswer(s));
+    expect(s.session.status).toBe("completed");
+    expect(sessionStats(s.session).mistakeCount).toBe(1);
   });
 });

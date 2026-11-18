@@ -49,6 +49,21 @@ export interface LessonPlayerHearts {
   onLose: (cost: number) => void;
   /** Called once when hearts reach 0, after the learner presses "Continue". No result. */
   onOutOfHearts: (session: LessonSession) => void;
+  /**
+   * Hearts earned per correct Check (LES-020, ADR-013): non-speak, `heartCost === 0`,
+   * capped at `max`. Default 0 (no earning).
+   */
+  gainPerCorrect?: number;
+  /** Cap for earned hearts. Default `GAME_CONFIG.maxHearts`. */
+  max?: number;
+  /** Called right after a "Check" that earned hearts, with the hearts actually added. */
+  onGain?: (amount: number) => void;
+  /**
+   * Practice replay of a completed lesson (LES-020, PD-065): Checks cost no hearts,
+   * `onLose` is never called, and the lesson never ends out of hearts (it may start at
+   * 0). Mistakes are still counted and re-queued; correct Checks still earn.
+   */
+  practice?: boolean;
 }
 
 export interface LessonPlayerProps {
@@ -154,6 +169,9 @@ export function LessonPlayer({
       sessionId: createId(),
       heartsAtStart: hearts?.initial,
       heartsEnforced: hearts !== undefined,
+      heartsPractice: hearts?.practice ?? false,
+      heartsGainPerCorrect: hearts?.gainPerCorrect ?? 0,
+      ...(hearts?.max !== undefined ? { heartsMax: hearts.max } : {}),
     }),
   );
   // Components are fixed for the session, like the supported types.
@@ -181,9 +199,11 @@ export function LessonPlayer({
   useEffect(() => {
     if (endedRef.current || status === "in_progress") return;
     endedRef.current = true;
-    const { session, completedAt } = store.getState().state;
+    const { session, completedAt, heartsLost, heartsGained } = store.getState().state;
     if (status === "completed" && completedAt) {
-      callbacks.current.onFinish(summarizeSession(session, completedAt));
+      callbacks.current.onFinish(
+        summarizeSession(session, completedAt, { heartsLost, heartsGained }),
+      );
     } else if (status === "quit") {
       callbacks.current.onQuit();
     } else if (status === "out_of_hearts") {
@@ -201,7 +221,13 @@ export function LessonPlayer({
       const result = checkAnswer({ exercise, answer });
       dispatch({ type: "check", answer, result, now: nowRef.current() });
       const heartsConfig = callbacks.current.hearts;
-      if (heartsConfig && result.heartCost > 0) heartsConfig.onLose(result.heartCost);
+      if (!heartsConfig) return;
+      // The reducer decides what the Check cost or earned (practice, cap, speak).
+      const next = store.getState().state;
+      const lost = next.heartsLost - current.heartsLost;
+      const gained = next.heartsGained - current.heartsGained;
+      if (lost > 0) heartsConfig.onLose(lost);
+      if (gained > 0) heartsConfig.onGain?.(gained);
     },
     [store, dispatch, nowRef, callbacks],
   );

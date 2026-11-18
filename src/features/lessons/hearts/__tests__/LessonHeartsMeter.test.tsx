@@ -1,6 +1,10 @@
 import { render, screen, waitFor } from "@testing-library/react";
 import { describe, expect, it } from "vitest";
-import { heartLossAnnouncement, LessonHeartsMeter } from "../LessonHeartsMeter";
+import {
+  heartGainAnnouncement,
+  heartLossAnnouncement,
+  LessonHeartsMeter,
+} from "../LessonHeartsMeter";
 
 const region = () => screen.getByRole("status");
 
@@ -9,6 +13,14 @@ describe("heartLossAnnouncement", () => {
     expect(heartLossAnnouncement(4)).toBe("You lost a heart. 4 left.");
     expect(heartLossAnnouncement(1)).toBe("You lost a heart. 1 left.");
     expect(heartLossAnnouncement(0)).toBe("You lost your last heart.");
+  });
+});
+
+describe("heartGainAnnouncement (LES-020 AC 5)", () => {
+  it("says a heart was earned and how many there are now", () => {
+    expect(heartGainAnnouncement(4)).toBe("You earned a heart. 4 hearts.");
+    expect(heartGainAnnouncement(5)).toBe("You earned a heart. 5 hearts.");
+    expect(heartGainAnnouncement(1)).toBe("You earned a heart. 1 heart.");
   });
 });
 
@@ -28,9 +40,9 @@ describe("LessonHeartsMeter", () => {
     expect(region()).toBeEmptyDOMElement();
     await waitFor(() => expect(region()).toHaveTextContent("You lost a heart. 1 left."));
 
-    // A rise is not announced (only losses are).
+    // A rise is an earned heart (LES-020).
     rerender(<LessonHeartsMeter current={2} max={5} />);
-    expect(region()).toHaveTextContent("You lost a heart. 1 left.");
+    await waitFor(() => expect(region()).toHaveTextContent("You earned a heart. 2 hearts."));
 
     rerender(<LessonHeartsMeter current={1} max={5} />);
     expect(region()).toBeEmptyDOMElement();
