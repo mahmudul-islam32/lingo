@@ -20,6 +20,8 @@ export interface CourseStepProps {
   onSelect: (courseId: Slug) => void;
   onRetry: () => void;
   onBack: () => void;
+  /** Number of steps in this run (PLT-025: 4 with the start level step). */
+  total: number;
   onContinue: () => void;
 }
 
@@ -32,6 +34,7 @@ export function CourseStep({
   onSelect,
   onRetry,
   onBack,
+  total,
   onContinue,
 }: CourseStepProps) {
   const available = courses.status === "ready" ? courses.courses : [];
@@ -43,6 +46,7 @@ export function CourseStep({
       headingRef={headingRef}
       title={COURSE_HEADING}
       step={2}
+      total={total}
       onBack={onBack}
       footer={
         <Button variant="primary" size="lg" fullWidth disabled={!canContinue} onClick={onContinue}>

@@ -87,6 +87,7 @@ test.describe("Learn with the gamification loop (PLT-009)", () => {
       "true",
     );
     await page.getByRole("button", { name: "Continue" }).press("Enter");
+    await page.getByRole("button", { name: "Continue" }).press("Enter"); // PLT-025: start level A1
     await page.getByRole("radio", { name: "Regular 20 XP" }).click();
     await page.getByRole("button", { name: "Start learning" }).press("Enter");
     await expect(page).toHaveURL(lessonUrl(LESSON_1.id));

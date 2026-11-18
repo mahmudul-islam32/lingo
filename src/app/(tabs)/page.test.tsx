@@ -1,4 +1,4 @@
-import { render, screen, waitFor } from "@testing-library/react";
+import { screen, waitFor } from "@testing-library/react";
 import type { ReactElement } from "react";
 import { ToastProvider } from "@/components/ui";
 import { renderWithQueryClient } from "@/lib/query/testing";
@@ -203,7 +203,7 @@ describe("LearnPage flash toast (PLT-009 AC 4)", () => {
 
 describe("ProfilePage", () => {
   it("renders one h1 and the empty state", () => {
-    render(<ProfilePage />);
+    renderWithQueryClient(<ProfilePage />);
     expect(screen.getAllByRole("heading", { level: 1 })).toHaveLength(1);
     expect(screen.getByRole("heading", { level: 1, name: "Profile" })).toBeInTheDocument();
     expect(screen.getByText("Your profile will appear here.")).toBeInTheDocument();

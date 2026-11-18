@@ -78,7 +78,7 @@ describe("app shell", () => {
 
   it("Profile: one main, one h1, Profile tab active", () => {
     navigationState.pathname = "/profile";
-    render(
+    renderWithQueryClient(
       <TabsLayout>
         <ProfilePage />
       </TabsLayout>,

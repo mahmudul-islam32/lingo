@@ -151,6 +151,7 @@ test.describe("German lesson in the browser (LES-014 AC 7-9)", () => {
     await page.getByRole("button", { name: "Get started" }).click();
     await page.getByRole("radio", { name: "German" }).click();
     await page.getByRole("button", { name: "Continue" }).click();
+    await page.getByRole("button", { name: "Continue" }).click(); // PLT-025: start level A1
     await page.getByRole("radio", { name: "Casual 10 XP" }).click();
     await page.getByRole("button", { name: "Start learning" }).click();
     await expect(page).toHaveURL(/\/lesson\/de-a1-u01-l1-[a-z0-9-]+$/);

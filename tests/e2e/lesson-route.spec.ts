@@ -45,6 +45,7 @@ test.describe("lesson route and lesson list (PLT-007)", () => {
     await page.goto("/onboarding");
     await page.getByRole("button", { name: "Get started" }).click();
     await page.getByRole("button", { name: "Continue" }).click(); // German is preselected
+    await page.getByRole("button", { name: "Continue" }).click(); // PLT-025: A1 preselected
     await page.getByRole("radio", { name: "Casual 10 XP" }).click();
     await page.getByRole("button", { name: "Start learning" }).click();
 

@@ -2,15 +2,18 @@ import type { ReactNode, Ref } from "react";
 import { IconButton } from "@/components/ui";
 import { ArrowLeftIcon } from "../icons";
 
-export const TOTAL_STEPS = 3;
+/** Steps when the course offers a start level choice (PLT-025); 3 without it. */
+export const TOTAL_STEPS = 4;
 
 export interface StepLayoutProps {
   /** `id` of the `<h1>`, used to name the step's radio group. */
   headingId: string;
   headingRef: Ref<HTMLHeadingElement>;
   title: string;
-  /** 1-based step number; steps 2 and 3 show "Step N of 3" and a Back button. */
+  /** 1-based step number; steps after the first show "Step N of total" and a Back button. */
   step: number;
+  /** Number of steps in this run (3 when the start level step is skipped). */
+  total?: number;
   onBack?: () => void;
   /** Rendered above the heading (the Welcome illustration). */
   hero?: ReactNode;
@@ -29,6 +32,7 @@ export function StepLayout({
   headingRef,
   title,
   step,
+  total = TOTAL_STEPS,
   onBack,
   hero,
   children,
@@ -40,7 +44,7 @@ export function StepLayout({
         <div className="-ml-2 mb-2 flex items-center gap-2">
           {onBack && <IconButton label="Back" icon={<ArrowLeftIcon />} onClick={onBack} />}
           <p className="text-sm font-semibold text-fg-muted">
-            Step {step} of {TOTAL_STEPS}
+            Step {step} of {total}
           </p>
         </div>
       )}
