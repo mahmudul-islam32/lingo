@@ -63,17 +63,16 @@ test.describe("Earning hearts in a lesson (LES-020)", () => {
     await expect(topBarHearts(page)).toHaveAccessibleName("Hearts: 5 of 5");
   });
 
-  // The lesson route sets `practice` for completed lessons in PLT-025; until then the
-  // player opens a completed lesson at 0 hearts on the out-of-hearts screen. The
-  // behaviour is covered by the RTL tests in
-  // src/features/lessons/hearts/__tests__/HeartsLessonPlayer.test.tsx.
-  test.fixme("AC 9-12, 19: at 0 hearts a completed lesson opens as Practice; wrong is free, correct earns (enable after PLT-025 merge)", async ({
+  // The lesson route (PLT-025) sets `practice` for a lesson completed before it started.
+  test("AC 9-12, 19: at 0 hearts a completed lesson opens as Practice; wrong is free, correct earns", async ({
     page,
   }) => {
     test.slow();
     await completeOnboarding(page);
     await page.getByRole("link", { name: nodeNamePattern(GERMAN_LESSON_1, "up next") }).click();
     await playLesson(page, germanLesson1());
+    // Wait for the result to be stored before leaving the results screen.
+    await expect(page.getByText("Lesson saved.")).toBeAttached();
     await page.goto("/");
     await seedHearts(page, 0);
     await expect(topBarHearts(page)).toHaveAccessibleName("Hearts: 0 of 5");
@@ -98,7 +97,7 @@ test.describe("Earning hearts in a lesson (LES-020)", () => {
 
     await page.keyboard.press("Escape");
     await page
-      .getByRole("dialog")
+      .getByRole("alertdialog", { name: "Quit this lesson?" })
       .getByRole("button", { name: "Quit", exact: true })
       .press("Enter");
     await expect(page).toHaveURL(/\/$/);

@@ -18,8 +18,6 @@ import { completeOnboarding } from "./onboarding-helpers";
  * - GAM-011: the path ("Open" earlier lessons, "Start here" on locked level headers) and
  *   practice at 0 hearts on the path.
  * - PLT-025: the onboarding level step, the Profile "Start level" row and the lesson route.
- *
- * The remaining `test.fixme` needs LES-020's practice flag ("PLT-025 fixme").
  */
 test.use({ viewport: { width: 375, height: 667 } });
 
@@ -129,6 +127,8 @@ test.describe("GAM-011 start level and practice", () => {
     await completeOnboarding(page);
     await node(page, A1_FIRST.title, "up next").click();
     await playLesson(page, germanLesson1());
+    // Wait for the result to be stored before leaving the results screen.
+    await expect(page.getByText("Lesson saved.")).toBeAttached();
     await page.goto("/");
     await seedHearts(page, 0);
     await expect(page.getByRole("button", { name: "Hearts: 0 of 5" })).toBeVisible();
@@ -307,8 +307,8 @@ test.describe("start level (PLT-025) at 375 px", () => {
     await expect(h1(page)).toHaveText("You're out of hearts");
   });
 
-  // PLT-025 fixme: needs LES-020's practice flag in HeartsLessonPlayer. cto: enable after merge.
-  test.fixme("AC 18: at 0 hearts a completed lesson's URL opens the player with the Practice badge", async ({
+  // Enabled with LES-020 (the player's practice flag).
+  test("AC 18: at 0 hearts a completed lesson's URL opens the player with the Practice badge", async ({
     page,
   }) => {
     test.slow();
