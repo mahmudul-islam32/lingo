@@ -89,7 +89,10 @@ export const HeartsViewSchema = z.object({
   nextRefillAt: IsoDateTimeSchema.nullable(),
   /** When hearts will be full again; `null` when full. */
   fullAt: IsoDateTimeSchema.nullable(),
-  /** False at 0 hearts: no new lesson may start. */
+  /**
+   * False at 0 hearts: no new lesson may start. Practice of a completed lesson may still
+   * start while `GAME_CONFIG.practiceCostsHearts` is false (CTO-015, ADR-013).
+   */
   canStartLesson: z.boolean(),
 });
 export type HeartsView = z.infer<typeof HeartsViewSchema>;

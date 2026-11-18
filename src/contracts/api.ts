@@ -4,7 +4,7 @@
  * (see ARCHITECTURE.md §Module boundaries). No IO happens in this file.
  */
 import type { AnswerCheckInput, AnswerCheckResult } from "./answer";
-import type { Course, Lesson } from "./course";
+import type { CefrLevel, Course, Lesson } from "./course";
 import type { LocalDate, Slug } from "./common";
 import type {
   DailyGoalProgress,
@@ -41,6 +41,14 @@ export type RefillHearts = (state: HeartsState, now: Date) => HeartsState;
 /** features/gamification/rules/hearts — subtract `cost` (clamped at 0), start the clock if it was full. */
 export type LoseHearts = (state: HeartsState, cost: number, now: Date) => HeartsState;
 
+/**
+ * features/gamification/rules/hearts — add `amount` (normally
+ * `GAME_CONFIG.heartsGainedPerCorrectAnswer`), capped at `maxHearts` (CTO-015, ADR-013).
+ * Reaching max sets `refillStartedAt = null`; below max the refill clock is kept as is.
+ * `amount` 0 or already full returns the state unchanged.
+ */
+export type GainHearts = (state: HeartsState, amount: number, now: Date) => HeartsState;
+
 /** features/gamification/rules/hearts — view model incl. next refill time. */
 export type ViewHearts = (state: HeartsState, now: Date) => HeartsView;
 
@@ -61,11 +69,18 @@ export type ComputeUserProgress = (input: {
   now: Date;
 }) => UserProgress;
 
-/** features/path/rules — lessons unlock in course order (US-GAM-02). */
+/**
+ * features/path/rules — lessons unlock in course order (US-GAM-02). With `startLevel`
+ * (`Settings.startLevel`, CTO-015, ADR-013): every lesson of an earlier level is
+ * `available` (unless completed); the frontier is the first not-completed lesson at or
+ * after the first lesson of `startLevel`. Missing, unknown or contentless level = the
+ * first level of the course (the pre-CTO-015 behaviour).
+ */
 export type ComputePathNodes = (
   course: Course,
   completedLessonIds: readonly Slug[],
   activeLessonId: Slug | null,
+  startLevel?: CefrLevel,
 ) => PathNode[];
 
 /** Device-local calendar date of an instant (`YYYY-MM-DD` in the device timezone). */
@@ -99,7 +114,7 @@ export interface ProgressRepository {
  * with a typed error and nothing is stored.
  */
 export type SettingsPatch = Partial<
-  Pick<Settings, "courseId" | "soundEffectsEnabled" | "speakingExercisesEnabled">
+  Pick<Settings, "courseId" | "soundEffectsEnabled" | "speakingExercisesEnabled" | "startLevel">
 > & { dailyGoalXp?: number };
 
 export interface ProfileRepository {

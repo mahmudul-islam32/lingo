@@ -19,6 +19,18 @@ export const GAME_CONFIG = {
   maxHearts: 5,
   /** Hearts lost per incorrect answer. Speak exercises never cost hearts. */
   heartsLostPerMistake: 1,
+  /**
+   * Hearts restored per correct "Check" (any attempt, incl. a retry of a re-queued
+   * exercise), capped at `maxHearts` (CTO-015, ADR-013). Speak exercises never gain,
+   * as they never cost; a correct Check with `heartCost > 0` (match pairs mismatch) does
+   * not gain. The refill timer is unchanged and keeps running below max.
+   */
+  heartsGainedPerCorrectAnswer: 1,
+  /**
+   * Whether replaying an already completed lesson ("practice") costs hearts. When false,
+   * practice never loses hearts and may start at 0 hearts (CTO-015, ADR-013).
+   */
+  practiceCostsHearts: false,
   /** One heart refills after this long, up to `maxHearts`. 4 hours. */
   heartRefillIntervalMs: 4 * 60 * 60 * 1000,
   /** Daily XP goal choices offered at onboarding and in settings. */
@@ -90,6 +102,8 @@ export const GameConfigSchema = z
     perfectLessonBonusXp: z.number().int().min(0),
     maxHearts: z.number().int().positive(),
     heartsLostPerMistake: z.number().int().positive(),
+    heartsGainedPerCorrectAnswer: z.number().int().min(0),
+    practiceCostsHearts: z.boolean(),
     heartRefillIntervalMs: z.number().int().positive(),
     dailyGoalOptions: z.array(z.number().int().positive()).min(1),
     defaultDailyGoalXp: z.number().int().positive(),
@@ -97,5 +111,9 @@ export const GameConfigSchema = z
   .refine((c) => c.dailyGoalOptions.includes(c.defaultDailyGoalXp), {
     message: "defaultDailyGoalXp must be one of dailyGoalOptions",
     path: ["defaultDailyGoalXp"],
+  })
+  .refine((c) => c.heartsGainedPerCorrectAnswer <= c.maxHearts, {
+    message: "heartsGainedPerCorrectAnswer must not exceed maxHearts",
+    path: ["heartsGainedPerCorrectAnswer"],
   });
 export type GameConfig = z.infer<typeof GameConfigSchema>;

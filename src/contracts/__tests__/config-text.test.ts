@@ -30,12 +30,23 @@ describe("GAME_CONFIG (PD-003)", () => {
     expect(GAME_CONFIG.perfectLessonBonusXp).toBe(5);
     expect(GAME_CONFIG.maxHearts).toBe(5);
     expect(GAME_CONFIG.heartRefillIntervalMs).toBe(4 * 60 * 60 * 1000);
+    expect(GAME_CONFIG.heartsGainedPerCorrectAnswer).toBe(1);
+    expect(GAME_CONFIG.practiceCostsHearts).toBe(false);
     expect(DAILY_GOAL_OPTIONS).toEqual([10, 20, 30, 50]);
     expect(CONTENT_RULES.matchPairsCount).toBe(5);
   });
 
   it("passes its own schema", () => {
     expect(GameConfigSchema.safeParse(GAME_CONFIG).success).toBe(true);
+  });
+
+  it("rejects a hearts gain above maxHearts or below 0 (CTO-015)", () => {
+    expect(
+      GameConfigSchema.safeParse({ ...GAME_CONFIG, heartsGainedPerCorrectAnswer: 6 }).success,
+    ).toBe(false);
+    expect(
+      GameConfigSchema.safeParse({ ...GAME_CONFIG, heartsGainedPerCorrectAnswer: -1 }).success,
+    ).toBe(false);
   });
 
   it("rejects a default goal that is not an option", () => {
