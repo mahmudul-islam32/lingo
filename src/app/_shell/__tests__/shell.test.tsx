@@ -57,6 +57,8 @@ describe("app shell", () => {
       ...screen.queryAllByRole("button", { name: /^Unit \d+, Lesson \d+: / }),
       // Collapsed later levels with content (A2 since CON-DE-A2-01) follow the last node.
       ...screen.queryAllByRole("button", { name: /^[ABC][12] · / }),
+      // GAM-011: a locked level's "Start here" button is a Tab stop after its header.
+      ...screen.queryAllByRole("button", { name: /^Start here/ }),
     ];
     const lastLesson = nodes
       .sort((a, b) => (a.compareDocumentPosition(b) & Node.DOCUMENT_POSITION_FOLLOWING ? -1 : 1))
