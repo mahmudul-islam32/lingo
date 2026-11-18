@@ -21,9 +21,9 @@ validation (PD-033 §1).
 2. A pure `checkTypedAnswer` in `src/contracts/answer.ts`. Order: exact match on the strict
    normalisation; then a match after `foldGermanSpelling` on both sides (`ß → ss`, `ä → ae`,
    `ö → oe`, `ü → ue`); then incorrect. No typo distance in v1.1.0.
-3. `AnswerCheckResult` gains optional `spellingNotes: { kind: "sharp_s" | "umlaut" |
-"capitalisation"; expected: string }[]`. A correct answer with notes is not a mistake
-   (PD-012) and costs no heart.
+3. `AnswerCheckResult` gains an optional `spellingNotes` list. Each note has a `kind`
+   (`sharp_s`, `umlaut` or `capitalisation`) and the `expected` spelling. A correct answer
+   with notes is not a mistake (PD-012) and costs no heart.
 4. The fold table is per learning language (`de` only). `foldDiacritics` stays speech-only.
 5. The schema rejects two accepted answers of one exercise that fold to the same text.
 
