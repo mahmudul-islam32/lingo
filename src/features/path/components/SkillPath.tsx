@@ -2,20 +2,23 @@
 
 import { useCallback, useMemo } from "react";
 import { useQuery } from "@tanstack/react-query";
-import type { Slug } from "@/contracts";
+import type { CefrLevel, Slug } from "@/contracts";
 import { useToast } from "@/components/ui";
 import {
   formatHeartRefill,
+  settingsQuery,
   useHearts,
   useMinuteClock,
   useUserProgress,
   type UseProgressOptions,
 } from "@/features/gamification";
 import { courseQuery, type CourseLoader } from "../data/course-query";
+import { useSetStartLevel } from "../data/use-set-start-level";
 import { computePathNodes } from "../rules";
 import { SkillPathError } from "./SkillPathError";
 import { SkillPathSkeleton } from "./SkillPathSkeleton";
 import { SkillPathView } from "./SkillPathView";
+import { START_LEVEL_ERROR_TEXT } from "./copy";
 
 const NO_COMPLETED: readonly Slug[] = [];
 
@@ -36,6 +39,19 @@ export interface SkillPathProps extends UseProgressOptions {
    * with a minute clock that only runs while the learner is out of hearts.
    */
   heartRefillText?: string | null;
+  /**
+   * Override for the start level (GAM-011, ADR-013). Default: `Settings.startLevel` from
+   * `["settings"]`; while settings load the skeleton stays, a read error means the first
+   * level.
+   */
+  startLevel?: CefrLevel | null;
+  /**
+   * Override for "Start here" (saves the start level). Default: `useSetStartLevel()`
+   * (profile repository `updateSettings({ startLevel })`, then the `["settings"]` cache).
+   * On rejection the path shows the toast "We couldn't change your start level. Try
+   * again." and stays as it was.
+   */
+  onStartHere?: (level: CefrLevel) => Promise<void> | void;
   /** Lesson currently being played, if any (PD-018: none on Learn in MVP). */
   activeLessonId?: Slug | null;
   onNavigate?: (lessonId: Slug) => void;
@@ -59,6 +75,8 @@ export function SkillPath({
   canStartLesson: canStartLessonProp,
   heartRefillText: heartRefillTextProp,
   activeLessonId = null,
+  startLevel: startLevelProp,
+  onStartHere: onStartHereProp,
   onNavigate,
   className,
   ...progressOptions
@@ -67,6 +85,11 @@ export function SkillPath({
   const { status, progress } = useUserProgress(courseId, progressOptions);
   const toast = useToast();
   const hearts = useHearts();
+  const settings = useQuery({ ...settingsQuery(), enabled: startLevelProp === undefined });
+  const setStartLevel = useSetStartLevel();
+  const startLevel =
+    startLevelProp !== undefined ? startLevelProp : (settings.data?.startLevel ?? null);
+  const settingsLoading = startLevelProp === undefined && settings.isPending;
 
   const canStartLesson = canStartLessonProp ?? hearts.view?.canStartLesson ?? true;
   // Ticks once a minute only while the gate is closed and the text is ours to compute.
@@ -80,19 +103,39 @@ export function SkillPath({
 
   const completed = status === "success" && progress ? progress.completedLessonIds : NO_COMPLETED;
   const nodes = useMemo(
-    () => (course.data ? computePathNodes(course.data, completed, activeLessonId) : null),
-    [course.data, completed, activeLessonId],
+    () =>
+      course.data
+        ? computePathNodes(course.data, completed, activeLessonId, startLevel ?? undefined)
+        : null,
+    [course.data, completed, activeLessonId, startLevel],
   );
 
   const onLockedLesson = useCallback((message: string) => toast.show({ title: message }), [toast]);
+  const save = onStartHereProp ?? setStartLevel;
+  const onStartHere = useCallback(
+    async (level: CefrLevel) => {
+      try {
+        await save(level);
+      } catch (error) {
+        console.warn("[path] could not save the start level", error);
+        toast.show({ title: START_LEVEL_ERROR_TEXT });
+        throw error;
+      }
+    },
+    [save, toast],
+  );
 
   if (course.isError) return <SkillPathError onRetry={() => void course.refetch()} />;
-  if (!course.data || !nodes || status === "loading") return <SkillPathSkeleton />;
+  if (!course.data || !nodes || status === "loading" || settingsLoading) {
+    return <SkillPathSkeleton />;
+  }
 
   return (
     <SkillPathView
       course={course.data}
       nodes={nodes}
+      startLevel={startLevel}
+      onStartHere={onStartHere}
       canStartLesson={canStartLesson}
       heartRefillText={heartRefillText}
       onLockedLesson={onLockedLesson}

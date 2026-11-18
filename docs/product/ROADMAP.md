@@ -1,6 +1,7 @@
 # Polyglow Roadmap
 
-**Owner:** pm · **Last updated:** 2026-11-16 (v1.1.0 German B1 planned: CON-DE-B1-PLAN,
+**Owner:** pm · **Last updated:** 2026-11-18 (v0.5.2 "Start level and earn hearts" added:
+CTO-015, GAM-011, LES-020, PLT-025, PD-064, PD-065). Before that 2026-11-16 (v1.1.0 German B1 planned: CON-DE-B1-PLAN,
 16 unit tickets, QA ticket, PD-056 … PD-063). Before that 2026-11-15 (release acceptance
 PM-ACC3 for v0.3.0 … v0.5.0; one combined v0.5.0 release; accounts renumbered v0.6.0; cloze
 to v0.5.1; B1 planning starts; PD-053 … PD-055) ·
@@ -340,6 +341,26 @@ v1.1.0, where B1 needs cloze anyway.
   to the next milestone and the cloze content follow-up waits with them.
 - **Ready for release** when CON-DE-A2-01…14, CON-DE-A2-QA and LES-013 are accepted. As the
   combined release (PD-054) it also needs LES-014 (#55), FIX-003 and FIX-004.
+
+### v0.5.2 — Start level and earn hearts (planned 2026-11-18, PD-064, PD-065)
+
+**Milestone status: open.** Owner request of 2026-11-18; design in ADR-013 (cto, in
+progress). The three feature tickets start in parallel from the ADR once CTO-015 is merged.
+
+**Goal:** a learner can start at A2 instead of A1 (onboarding, path "Start here", Profile),
+and correct answers earn hearts back, so practising a finished lesson (free, also at 0
+hearts) replaces waiting for the 4-hour refill.
+
+| ID | Title | Owner | Priority | Depends on |
+|---|---|---|---|---|
+| CTO-015 | Contract for `settings.startLevel`, path start level, heart gains and the practice flag (ADR-013) | cto | P1 | — |
+| GAM-011 | Path start level, "Start here", `gainHearts` rule and hook, 0-hearts gate for completed lessons | dev-gamification | P1 | CTO-015, GAM-008 |
+| LES-020 | Earn a heart per correct Check, free practice, out-of-hearts copy | dev-lessons | P1 | CTO-015, GAM-011, LES-009 |
+| PLT-025 | Onboarding "Where do you want to start?", Profile start level, lesson route with start level and practice | dev-platform | P1 | CTO-015, GAM-011, LES-020 |
+
+LES-016 … LES-019 are reserved (PD-055, CTO-010), so the lessons ticket is LES-020. Runs in
+parallel with v0.5.1 and v0.6.0; it doesn't block v1.0.0. **Ready for release** when the four
+tickets are accepted.
 
 ### Later German levels (planned)
 

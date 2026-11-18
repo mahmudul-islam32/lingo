@@ -4,6 +4,8 @@
  */
 import {
   GAME_CONFIG,
+  type GainHearts,
+  type GameConfig,
   type HeartsState,
   type HeartsView,
   type LoseHearts,
@@ -108,3 +110,62 @@ export function viewHearts(
   };
 }
 viewHearts satisfies ViewHearts;
+
+/**
+ * Contract rule `GainHearts` (CTO-015, ADR-013, PD-065). Applies the pending refill at
+ * `now` first (like `loseHearts`), then adds `amount` (normally
+ * `GAME_CONFIG.heartsGainedPerCorrectAnswer`, 1), capped at `maxHearts`.
+ *
+ * - `amount` 0 returns `state` unchanged; already full (after refill) returns the refilled
+ *   state, which is `state` itself for a normalised full state.
+ * - Below max, the refill clock is kept as is: an earned heart never moves the next refill
+ *   time. Reaching max stops the clock (`refillStartedAt = null`), as in GAM-002.
+ * - `updatedAt = now` when hearts change.
+ * - `amount` must be a non-negative integer.
+ */
+export function gainHearts(
+  state: HeartsState,
+  amount: number,
+  now: Date,
+  config: HeartsConfig = GAME_CONFIG,
+): HeartsState {
+  if (!Number.isInteger(amount) || amount < 0) {
+    throw new RangeError(`Heart gain must be a non-negative integer, got ${amount}`);
+  }
+  if (amount === 0) return state;
+  const refilled = refillHearts(state, now, config);
+  if (refilled.current >= config.maxHearts) return refilled;
+
+  const current = Math.min(config.maxHearts, refilled.current + amount);
+  return {
+    current,
+    refillStartedAt: current === config.maxHearts ? null : refilled.refillStartedAt,
+    updatedAt: now.toISOString(),
+  };
+}
+gainHearts satisfies GainHearts;
+
+/** The config the start gate needs. Defaults to `GAME_CONFIG`; tests pass custom values. */
+export type StartGateConfig = Pick<GameConfig, "practiceCostsHearts">;
+
+/**
+ * Hearts input of the start gate: the current count, or a `HeartsView` (its
+ * `canStartLesson`, i.e. `current > 0` after refill).
+ */
+export type StartGateHearts = number | Pick<HeartsView, "canStartLesson">;
+
+/**
+ * The shared 0-hearts start gate (GAM-011 AC18, ADR-013, PD-065): may a playable lesson
+ * start? A new (not completed) lesson needs at least 1 heart. A completed lesson is
+ * practice: it may start at any hearts while `practiceCostsHearts` is false. Whether the
+ * lesson is playable at all (locked) is the path rule's job, not this one's (see
+ * `canStartNode` in `@/features/path`).
+ */
+export function canStartLesson(
+  hearts: StartGateHearts,
+  lessonCompleted: boolean,
+  config: StartGateConfig = GAME_CONFIG,
+): boolean {
+  if (lessonCompleted && !config.practiceCostsHearts) return true;
+  return typeof hearts === "number" ? hearts > 0 : hearts.canStartLesson;
+}

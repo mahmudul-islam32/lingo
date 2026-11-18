@@ -54,13 +54,17 @@ describe("resolvePathActivation (GAM-008 AC7-AC9)", () => {
     });
   });
 
-  it.each([
-    ["available", available],
-    ["completed", completed],
-  ] as const)("%s at 0 hearts hits the gate", (_, node) => {
+  it.each([["available", available]] as const)("%s at 0 hearts hits the gate", (_, node) => {
     expect(resolvePathActivation(node, nodes, false)).toEqual({
       kind: "out_of_hearts",
       lessonId: node.lessonId,
+    });
+  });
+
+  it("completed at 0 hearts opens: practice is free (GAM-011 AC15, PD-065)", () => {
+    expect(resolvePathActivation(completed, nodes, false)).toEqual({
+      kind: "open",
+      lessonId: completed.lessonId,
     });
   });
 
