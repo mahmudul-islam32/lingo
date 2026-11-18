@@ -131,8 +131,12 @@ Measured from MVP launch, on a rolling 28-day window. MVP needs basic event trac
   Phase 2.
 - **Hearts:** 5 maximum. A wrong answer costs 1 heart. At 0 hearts the learner can't
   start a new lesson; a lesson already in progress ends with an "out of hearts" screen.
-  1 heart refills every 4 hours, up to 5. No purchase or ads in MVP. A "practice to earn
-  hearts" mode is Phase 2.
+  1 heart refills every 4 hours, up to 5. No purchase or ads in MVP. From v0.5.2 (PD-065)
+  each correct Check earns 1 heart back (up to 5, speak excluded), and replaying a
+  completed lesson costs no hearts and can start at 0 hearts.
+- **Start level (v0.5.2, PD-064):** onboarding asks "Where do you want to start?" (levels
+  with content, A1 preselected); earlier levels stay playable but are not marked
+  completed; changeable in Profile and with "Start here" on a locked level.
 
 **Platform**
 - **Auth:** email + password sign-up and log-in, Google sign-in (Supabase Auth),

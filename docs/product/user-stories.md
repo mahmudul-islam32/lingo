@@ -93,3 +93,15 @@ Personas: **learner** (any user), **guest** (no account), **signed-in learner**,
 | US-DE-05 | As a learner, I want to practise both "du" and "Sie" so that I speak correctly with friends and with officials. | P0 |
 | US-DE-06 | As a learner finishing a level, I want a checkpoint that reviews the whole level so that I know I'm ready for the next one. | P1 |
 | US-DE-07 | As a learner who needs a level by a deadline, I want a daily goal that gets me there in time so that I can plan my learning (Phase 2 "deadline mode"). | P2 |
+
+## Start level and earning hearts (added 2026-11-18, PD-064, PD-065)
+
+| ID | Story | Priority |
+|---|---|---|
+| US-SL-01 | As a learner who already knows the basics, I want to choose to start at a later level (e.g. A2) during onboarding so that I don't have to work through lessons I already know. | P1 |
+| US-SL-02 | As a learner on the path, I want a "Start here" option on a locked level so that I can jump to that level without redoing onboarding. | P1 |
+| US-SL-03 | As a learner, I want to see and change my start level in my profile so that I can go back to an earlier level if the later one is too hard. | P1 |
+| US-SL-04 | As a learner who skipped a level, I want the skipped lessons to stay open so that I can still review any of them. | P1 |
+| US-HE-01 | As a learner, I want each correct answer to give me back a heart (up to 5) so that practising well keeps me going. | P1 |
+| US-HE-02 | As a learner with no hearts, I want to replay a finished lesson without risking hearts so that I can earn hearts instead of waiting for a refill. | P1 |
+| US-HE-03 | As a learner who ran out of hearts, I want the app to tell me that practising a finished lesson earns hearts so that I know how to continue right away. | P1 |
