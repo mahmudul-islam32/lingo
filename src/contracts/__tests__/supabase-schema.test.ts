@@ -44,6 +44,13 @@ function parseTables(source: string): Map<string, string[]> {
       .map((line) => line.split(/\s+/)[0]);
     tables.set(name, columns);
   }
+  // Columns added later with `alter table public.<name> add column <col> <type>`.
+  for (const match of source.matchAll(
+    /alter table (?:public\.)?(\w+)\s+add column (?:if not exists )?([a-z_][a-z0-9_]*)\s/g,
+  )) {
+    const [, name, column] = match;
+    tables.get(name)?.push(column);
+  }
   return tables;
 }
 

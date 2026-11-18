@@ -26,6 +26,32 @@ features, follow-up PR
 
 ## Requests
 
+### CTO-015: Start level and hearts earned per correct answer (cto-initiated change notice)
+
+- **Requested by:** owner (via orchestrator) · **Date:** 2026-11-18 · **Ticket:** CTO-015
+- **Status:** done
+- **Contract(s):** `user.ts` (`SettingsSchema.startLevel: CefrLevelSchema.optional()`),
+  `config.ts` (`GAME_CONFIG.heartsGainedPerCorrectAnswer: 1`,
+  `GAME_CONFIG.practiceCostsHearts: false`, both validated by `GameConfigSchema`),
+  `api.ts` (`GainHearts`, optional 4th `startLevel` argument of `ComputePathNodes`,
+  `SettingsPatch.startLevel`), `gamification.ts` (doc of `HeartsView.canStartLesson`).
+  Supabase: `20261118120000_settings_start_level.sql` (nullable `settings.start_level`,
+  `migrate_guest_to_account` carries it). Rules in
+  [ADR-013](adr/ADR-013-start-level-and-earning-hearts.md).
+- **Breaking?:** no. Additive and optional; stored Dexie settings and queued sync records
+  stay valid; no data migration; `CONTRACTS_VERSION` stays 1. Existing
+  `computePathNodes` callers compile unchanged.
+- **Affected features:**
+  - gamification/path: `computePathNodes` with `startLevel`; `gainHearts` rule and
+    `useGainHearts` hook; 0-hearts gate lets completed lessons start; "Start here" on
+    locked level headers.
+  - lessons: `HeartsLessonPlayer` gains hearts on correct Checks; practice replays cost
+    no hearts.
+  - platform: onboarding start-level step; profile/settings setter; the lesson-route
+    lock check passes `startLevel`. A future Supabase pull mapper must map
+    `start_level` null to a missing key.
+  - Content: none.
+
 ### CTO-009: `cloze` exercise type (cto-initiated change notice)
 
 - **Requested by:** pm (PD-049) · **Date:** 2026-11-16 · **Ticket:** CTO-009

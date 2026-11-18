@@ -2,6 +2,7 @@
 import { z } from "zod";
 import { IsoDateTimeSchema, SlugSchema, UuidSchema } from "./common";
 import { DAILY_GOAL_OPTIONS } from "./config";
+import { CefrLevelSchema } from "./course";
 
 /** Daily XP goal: one of `GAME_CONFIG.dailyGoalOptions` (10 / 20 / 30 / 50). */
 export const DailyGoalXpSchema = z.literal(DAILY_GOAL_OPTIONS);
@@ -57,6 +58,14 @@ export const SettingsSchema = z.object({
   soundEffectsEnabled: z.boolean(),
   /** When false, speak exercises are hidden (US-LES-09). */
   speakingExercisesEnabled: z.boolean(),
+  /**
+   * CEFR level the learner chose to start at (CTO-015, ADR-013). Missing means the first
+   * level of the course (A1). Lessons of earlier levels are playable ("available", never
+   * auto-completed, no XP granted); the frontier is the first not-completed lesson at or
+   * after the first lesson of this level. An unknown or contentless level falls back to
+   * the first level. Optional so stored settings stay valid (no Dexie/schema bump).
+   */
+  startLevel: CefrLevelSchema.optional(),
   /** Last-write-wins conflict key. */
   updatedAt: IsoDateTimeSchema,
 });

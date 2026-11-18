@@ -20,6 +20,19 @@ describe("SettingsSchema", () => {
   it("rejects an unsupported daily goal", () => {
     expect(SettingsSchema.safeParse({ ...settings, dailyGoalXp: 25 }).success).toBe(false);
   });
+
+  it("keeps settings stored before CTO-015 valid: startLevel is optional", () => {
+    expect("startLevel" in settings).toBe(false);
+    expect(SettingsSchema.parse(settings)).not.toHaveProperty("startLevel");
+  });
+
+  it.each(["A1", "A2", "B1", "C2"])("accepts startLevel %s", (startLevel) => {
+    expect(SettingsSchema.parse({ ...settings, startLevel }).startLevel).toBe(startLevel);
+  });
+
+  it.each(["a2", "D1", "", null])("rejects startLevel %s", (startLevel) => {
+    expect(SettingsSchema.safeParse({ ...settings, startLevel }).success).toBe(false);
+  });
 });
 
 describe("ProfileSchema", () => {
