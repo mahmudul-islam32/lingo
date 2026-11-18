@@ -361,41 +361,62 @@ describe("SkillPathView: activation (AC7, AC8)", () => {
 });
 
 describe("SkillPathView: 0-hearts gate (AC9, AC10)", () => {
-  it("playable nodes become buttons with 'No hearts left' and an outlined heart", () => {
+  it("not-completed playable nodes become buttons with 'No hearts left' and an outlined heart", () => {
     setup({ completed: [L[0]], canStartLesson: false });
     const [done, next, locked] = controls();
-    for (const c of [done!, next!]) {
-      expect(c.tagName).toBe("BUTTON");
-      expect(c).not.toHaveAttribute("href");
-      expect(c).not.toHaveAttribute("aria-disabled");
-      expect(c).toHaveTextContent("No hearts left");
-      expect(c.querySelector('svg[data-filled="false"]')).not.toBeNull();
-      expect(c).toHaveAccessibleDescription("No hearts left");
-    }
+    expect(next!.tagName).toBe("BUTTON");
+    expect(next).not.toHaveAttribute("href");
+    expect(next).not.toHaveAttribute("aria-disabled");
+    expect(next).toHaveTextContent("No hearts left");
+    expect(next!.querySelector('svg[data-filled="false"]')).not.toBeNull();
+    expect(next).toHaveAccessibleDescription("No hearts left");
+    // GAM-011 AC15, AC16: a completed node stays a link and says practice earns hearts.
+    expect(done!.tagName).toBe("A");
+    expect(done).toHaveAttribute("href", `/lesson/${L[0]}`);
+    expect(done).not.toHaveTextContent("No hearts left");
+    expect(done).toHaveTextContent(pathCopy.PRACTICE_EARNS_HEARTS_TEXT);
+    expect(done).toHaveAccessibleDescription("Practice: earns hearts");
     expect(locked).not.toHaveTextContent("No hearts left");
     expect(locked).not.toHaveAttribute("aria-describedby");
   });
 
-  it("hides the hint when hearts are available", () => {
+  it("hides the hints when hearts are available", () => {
     setup({ completed: [L[0]] });
     expect(screen.queryByText("No hearts left")).toBeNull();
+    expect(screen.queryByText(pathCopy.PRACTICE_EARNS_HEARTS_TEXT)).toBeNull();
+    expect(node(/^Lesson 1:/)).not.toHaveAttribute("aria-describedby");
   });
 
-  it.each([
-    ["available", /^Lesson 2:/],
-    ["completed", /^Lesson 1:/],
-  ])("activating a %s node opens the dialog, not the lesson", async (_, name) => {
+  it("activating an up-next node opens the dialog with the practice line (GAM-011 AC17)", async () => {
     const { user, onNavigate } = setup({ completed: [L[0]], canStartLesson: false });
-    await user.click(node(name));
+    await user.click(node(/^Lesson 2:/));
     expect(followed).toEqual([]);
     expect(onNavigate).not.toHaveBeenCalled();
     const dialog = screen.getByRole("dialog", { name: "You're out of hearts" });
-    expect(dialog).toHaveAccessibleDescription("Next heart in 3 h 12 min");
+    expect(dialog).toHaveAccessibleDescription(
+      "Next heart in 3 h 12 min Practise a finished lesson to earn hearts.",
+    );
     const buttons = within(dialog).getAllByRole("button");
     expect(buttons).toHaveLength(1);
     expect(buttons[0]).toHaveTextContent("OK");
     expect(buttons[0]).toHaveFocus();
-    expect(dialog).not.toHaveTextContent(/practice|buy|purchase|gems|shop/i);
+    expect(dialog).not.toHaveTextContent(/buy|purchase|gems|shop/i);
+  });
+
+  it("without a completed lesson the dialog has no practice line (GAM-011 AC17)", async () => {
+    const { user } = setup({ canStartLesson: false });
+    await user.click(node(/^Lesson 1:/));
+    const dialog = screen.getByRole("dialog", { name: "You're out of hearts" });
+    expect(dialog).toHaveAccessibleDescription("Next heart in 3 h 12 min");
+    expect(dialog).not.toHaveTextContent(/practi[cs]e/i);
+  });
+
+  it("activating a completed node at 0 hearts opens the lesson (practice, GAM-011 AC15)", async () => {
+    const { user, onNavigate } = setup({ completed: [L[0]], canStartLesson: false });
+    await user.click(node(/^Lesson 1:/));
+    expect(followed).toEqual([`/lesson/${L[0]}`]);
+    expect(onNavigate).toHaveBeenCalledWith(L[0]);
+    expect(screen.queryByRole("dialog")).toBeNull();
   });
 
   it("OK closes the dialog and returns focus to the node (keyboard)", async () => {
@@ -411,7 +432,7 @@ describe("SkillPathView: 0-hearts gate (AC9, AC10)", () => {
 
   it("Escape closes the dialog and returns focus to the node", async () => {
     const { user } = setup({ completed: [L[0]], canStartLesson: false });
-    const target = node(/^Lesson 1:/);
+    const target = node(/^Lesson 2:/);
     await user.click(target);
     await user.keyboard("{Escape}");
     expect(screen.queryByRole("dialog")).toBeNull();

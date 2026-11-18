@@ -14,14 +14,18 @@ import {
   type Slug,
   type Unit,
 } from "@/contracts";
+import { findFrontier } from "./activation";
+import { startLessonIndex } from "./compute-path-nodes";
 
 /**
  * - `completed`: every lesson of the level is completed.
- * - `current`: the level holds the available (or in-progress) lesson.
+ * - `current`: the level holds the frontier (the up-next available or in-progress lesson).
+ * - `open`: a level before the start level with playable, not-completed lessons and no
+ *   frontier (GAM-011, ADR-013).
  * - `locked`: anything else with content (later levels, or out-of-order results).
  * - `coming_soon`: the level is declared but has no units yet.
  */
-export type PathLevelState = "completed" | "current" | "locked" | "coming_soon";
+export type PathLevelState = "completed" | "current" | "open" | "locked" | "coming_soon";
 
 /** One lesson on the path with its node and its numbers. */
 export interface PathLessonEntry {
@@ -56,30 +60,58 @@ export interface PathLevelSection {
   total: number;
 }
 
-function isFrontier(node: PathNode): boolean {
+function isPlayableOpen(node: PathNode): boolean {
   return node.state === "available" || node.state === "in_progress";
 }
 
-/** Level state from its units (see `PathLevelState`). */
-export function pathLevelState(units: readonly PathUnitSection[]): PathLevelState {
+/**
+ * Level state from its units (see `PathLevelState`). `frontierId` is the up-next lesson
+ * (`findFrontier`); without it (GAM-010 callers), any available node makes the level
+ * `current`, which is the same thing when there is no start level.
+ */
+export function pathLevelState(
+  units: readonly PathUnitSection[],
+  frontierId?: Slug | null,
+): PathLevelState {
   if (units.length === 0) return "coming_soon";
   let completed = 0;
   let total = 0;
+  let open = false;
   for (const unit of units) {
-    if (unit.lessons.some((entry) => isFrontier(entry.node))) return "current";
+    for (const entry of unit.lessons) {
+      if (!isPlayableOpen(entry.node)) continue;
+      if (frontierId === undefined || entry.node.lessonId === frontierId) return "current";
+      open = true;
+    }
     completed += unit.completed;
     total += unit.total;
   }
+  if (open) return "open";
   return total > 0 && completed === total ? "completed" : "locked";
+}
+
+/**
+ * True when every lesson of the level is `locked` (GAM-011 AC8): the level header offers
+ * "Start here". False for levels without lessons.
+ */
+export function isLevelFullyLocked(section: Pick<PathLevelSection, "units">): boolean {
+  const entries = section.units.flatMap((unit) => unit.lessons);
+  return entries.length > 0 && entries.every((entry) => entry.node.state === "locked");
 }
 
 /**
  * Level → unit → lesson sections of the path, in course (= unlock) order. Courses with
  * `levels` get one section per declared level (empty ones are `coming_soon`); courses
  * without get one section with `level: null`. Counts come from the data, never a constant.
+ * Pass the same `startLevel` as to `computePathNodes`, so skipped levels are `open`.
  */
-export function buildPathSections(course: Course, nodes: readonly PathNode[]): PathLevelSection[] {
+export function buildPathSections(
+  course: Course,
+  nodes: readonly PathNode[],
+  startLevel?: CefrLevel | null,
+): PathLevelSection[] {
   const byId = new Map(nodes.map((node) => [node.lessonId, node]));
+  const frontierId = findFrontier(nodes, startLessonIndex(course, startLevel))?.lessonId ?? null;
   let courseNumber = 0;
   let pathIndex = 0;
 
@@ -107,7 +139,7 @@ export function buildPathSections(course: Course, nodes: readonly PathNode[]): P
     const sections = units.map((unit, i) => unitSection(unit, i + 1));
     return {
       level,
-      state: pathLevelState(sections),
+      state: pathLevelState(sections, frontierId),
       units: sections,
       completed: sections.reduce((sum, unit) => sum + unit.completed, 0),
       total: sections.reduce((sum, unit) => sum + unit.total, 0),
@@ -119,11 +151,14 @@ export function buildPathSections(course: Course, nodes: readonly PathNode[]): P
 }
 
 /**
- * The level that opens expanded (GAM-010 AC6): the `current` one; when every lesson is
- * completed, the last completed level; `null` without levels or without any content.
+ * The level that opens expanded (GAM-010 AC6): the `current` one; without one, the first
+ * `open` (skipped) level (GAM-011: everything from the start level on is done); when every
+ * lesson is completed, the last completed level; `null` without levels or content.
  */
 export function defaultExpandedLevel(sections: readonly PathLevelSection[]): CefrLevel | null {
-  const current = sections.find((section) => section.state === "current");
+  const current =
+    sections.find((section) => section.state === "current") ??
+    sections.find((section) => section.state === "open");
   if (current) return current.level?.level ?? null;
   const done = sections.filter((section) => section.state === "completed").at(-1);
   return done?.level?.level ?? null;
