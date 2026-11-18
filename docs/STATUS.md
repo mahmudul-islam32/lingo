@@ -1,6 +1,6 @@
 # Project status
 
-**Last update:** 2026-11-17 ~01:30 Europe/Berlin (scheduled 01:00 run, in progress)
+**Last update:** 2026-11-18 ~01:20 Europe/Berlin (scheduled 01:00 run, in progress)
 **Version on `main`:** **0.5.0** (released in #69: German A1 + A2) · **Course:** German (en-de),
 A1 and A2 complete (26 units, 130 lessons)
 **Current milestone:** v0.5.1 (cloze: code merged, content follows) and v1.1.0 German B1 (planned;
@@ -12,19 +12,23 @@ writing started). v0.6.0 accounts & sync waits for the owner's hosted Supabase.
   tickets and PD-056..063 (#73), status (#74).
 - **B1-T5 fit check:** PASS (110-character prompts and 240-character tips fit at 375 × 667),
   recorded in CON-DE-B1-PLAN.md.
+- **Merged since:** FIX-005 Lumi ember states (#70), status 2026-11-17 (#75).
 - **Open:**
-  - #70 FIX-005 (Lumi ember states): changes requested, because the error-state e2e must work on
-    the production build. dev-lessons is fixing it.
-  - B1 Units 1–2 are being written (`../lingo-b1-u01`, `../lingo-b1-u02`, local branches
-    `docs/con-de-b1-0N-wip`).
+  - `fix/fix-006-path-flake-hearts-warning` (dev-gamification) is with the cto: the
+    gamification-loop e2e waits for the path's auto-scroll to settle (80/80 on a 10× repeat), and a
+    failed hearts read logs one warning.
+  - **B1 Wave 1 (Units 1–4, 20 lessons) is written and validated** on `docs/con-de-b1-units-01-04`
+    (385 content tests; 2,122 answers buildable from their tiles). It stays unmerged until v1.0.0
+    (PD-063).
+  - B1 Units 5–6 are being written (`../lingo-b1-u05`, `../lingo-b1-u06`).
 
 ## Handoff
 - **FIX-005:** the cto re-reviews and merges once the e2e passes on the production build.
-- **B1 writing (PD-063: written now, merged into `main` only after v1.0.0):**
-  - Wave 1 is Units 1–4. Units 1–2 are in progress; Units 3–4 are next.
-  - Each finished unit goes onto `docs/con-de-b1-units-01-04`, built like the A2 branches with
-    `scratchpad/assemble.py`, adapted for level B1, then validated (content tests, the mechanical
-    QA script, the answer-buildability check) and pushed. Not merged until v1.0.0.
+- **B1 writing (PD-063):** Wave 1 is done (`docs/con-de-b1-units-01-04`). Wave 2 (Units 5–8)
+  goes on `docs/con-de-b1-units-05-08`, stacked on wave 1. Add units with
+  `LV=B1 python3 -I scratchpad/assemble_lv.py NN`, then run the content tests and the buildability
+  and duplicate checks, and push. The writers' vocabulary requests (in each B1 ticket's self-review)
+  go to CON-DE-B1-QA.
 - **Next for the cto:** assign ticket ids for the B1 tech needs (reading passage, grammar note
   card, typed answers; all non-blocking). Decide the cloze e2e follow-up when the first cloze
   content lands.
@@ -55,4 +59,6 @@ writing started). v0.6.0 accounts & sync waits for the owner's hosted Supabase.
 - 2026-11-15 01:00 run: A2 Units 13–14 written; #60–#67 and #55 merged; A2 QA and FIX-004 playthroughs PASS.
 - 2026-11-16 01:00 run: v0.5.0 released (#69), cloze contract and component built, B1 plan written,
   FIX-005 built. Stopped by the weekly usage limit.
-- 2026-11-17 01:00 run: #68–#74 merged; B1-T5 fit check PASS; FIX-005 rework; B1 Units 1–2 writing.
+- 2026-11-17 01:00 run: #70 and #75 merged; B1-T5 fit check PASS; B1 Wave 1 (Units 1–4) written and
+  validated; FIX-006 built. Stopped by the 5-hour limit.
+- 2026-11-18 01:00 run: FIX-006 review, B1 Units 5–6 writing (in progress).
