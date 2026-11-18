@@ -1,0 +1,142 @@
+{
+  "id": "de-b1-u05-l1-courses",
+  "courseId": "en-de",
+  "unitId": "de-b1-u05",
+  "title": "Courses and Training",
+  "tip": "Talking about courses: „Der Abendkurs ist am Dienstag.“ man takes the er form: „Am Ende bekommt man ein Zertifikat.“ People: der Teilnehmer / die Teilnehmerin, der Anfänger / die Anfängerin; plural die Teilnehmer.",
+  "exercises": [
+    {
+      "id": "de-b1-u05-l1-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        { "id": "p1", "learning": "die Weiterbildung", "known": "further training" },
+        { "id": "p2", "learning": "der Abendkurs", "known": "the evening class" },
+        { "id": "p3", "learning": "der Teilnehmer", "known": "the participant" },
+        { "id": "p4", "learning": "das Zertifikat", "known": "the certificate" },
+        { "id": "p5", "learning": "wöchentlich", "known": "weekly" }
+      ]
+    },
+    {
+      "id": "de-b1-u05-l1-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'I'm doing further training.'?",
+      "options": [
+        { "id": "a", "text": "Ich mache einen Weiterbildung." },
+        { "id": "b", "text": "Ich mache eine Weiterbildung." },
+        { "id": "c", "text": "Ich macht eine Weiterbildung." },
+        { "id": "d", "text": "Ich mache ein Weiterbildung." }
+      ],
+      "correctOptionId": "b"
+    },
+    {
+      "id": "de-b1-u05-l1-ex03",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "The evening class is on Tuesday.",
+      "tiles": ["der", "Abendkurs", "ist", "am", "Dienstag", "die", "sind", "im"],
+      "answers": ["Der Abendkurs ist am Dienstag.", "Am Dienstag ist der Abendkurs."]
+    },
+    {
+      "id": "de-b1-u05-l1-ex04",
+      "type": "listen",
+      "audio": { "src": "/audio/de/b1/u05/de-b1-u05-l1-ex04.mp3" },
+      "tiles": ["wie", "viele", "Teilnehmer", "gibt", "es", "im", "Kurs", "viel", "sind", "am"],
+      "answers": ["Wie viele Teilnehmer gibt es im Kurs?"]
+    },
+    {
+      "id": "de-b1-u05-l1-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'Is the course for beginners?'",
+      "options": [
+        { "id": "a", "text": "Ist der Kurs für Anfängern?" },
+        { "id": "b", "text": "Ist die Kurs für Anfänger?" },
+        { "id": "c", "text": "Ist der Kurs für Anfänger?" },
+        { "id": "d", "text": "Ist der Kurs mit Anfänger?" }
+      ],
+      "correctOptionId": "c"
+    },
+    {
+      "id": "de-b1-u05-l1-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Das Thema ist interessant.",
+      "tiles": ["the", "topic", "is", "interesting", "boring", "are", "topics"],
+      "answers": ["The topic is interesting."]
+    },
+    {
+      "id": "de-b1-u05-l1-ex07",
+      "type": "listen",
+      "audio": { "src": "/audio/de/b1/u05/de-b1-u05-l1-ex07.mp3" },
+      "tiles": ["am", "Ende", "bekommt", "man", "ein", "Zertifikat", "Anfang", "bekommen", "eine"],
+      "answers": ["Am Ende bekommt man ein Zertifikat."]
+    },
+    {
+      "id": "de-b1-u05-l1-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Do you know when the course starts? (formal)",
+      "tiles": ["wissen", "Sie", "wann", "der", "Kurs", "beginnt", "wo", "beginnen", "ob"],
+      "answers": ["Wissen Sie, wann der Kurs beginnt?"]
+    },
+    {
+      "id": "de-b1-u05-l1-ex09",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'The course is weekly and lasts ten weeks.'?",
+      "options": [
+        { "id": "a", "text": "Der Kurs ist wöchentlich und dauert zehn Wochen." },
+        { "id": "b", "text": "Der Kurs ist wöchentlich und dauern zehn Wochen." },
+        { "id": "c", "text": "Der Kurs ist wöchentlich und zehn Wochen dauert." },
+        { "id": "d", "text": "Der Kurs ist täglich und dauert zehn Wochen." }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "de-b1-u05-l1-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "The participants who come on Tuesday are beginners.",
+      "tiles": [
+        "die",
+        "Teilnehmer",
+        "die",
+        "am",
+        "Dienstag",
+        "kommen",
+        "sind",
+        "Anfänger",
+        "der",
+        "kommt",
+        "ist"
+      ],
+      "answers": ["Die Teilnehmer, die am Dienstag kommen, sind Anfänger."]
+    },
+    {
+      "id": "de-b1-u05-l1-ex11",
+      "type": "listen",
+      "audio": { "src": "/audio/de/b1/u05/de-b1-u05-l1-ex11.mp3" },
+      "tiles": [
+        "ich",
+        "mache",
+        "eine",
+        "Weiterbildung",
+        "meine",
+        "Firma",
+        "bezahlt",
+        "den",
+        "Kurs",
+        "machst",
+        "der",
+        "bezahlen"
+      ],
+      "answers": ["Ich mache eine Weiterbildung. Meine Firma bezahlt den Kurs."]
+    },
+    {
+      "id": "de-b1-u05-l1-ex12",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Ist der Abendkurs für Anfänger?",
+      "tiles": ["is", "the", "evening", "class", "course", "for", "beginners", "are", "beginner"],
+      "answers": ["Is the evening class for beginners?", "Is the evening course for beginners?"]
+    }
+  ]
+}

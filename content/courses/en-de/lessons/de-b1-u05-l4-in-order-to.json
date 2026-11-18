@@ -1,0 +1,193 @@
+{
+  "id": "de-b1-u05-l4-in-order-to",
+  "courseId": "en-de",
+  "unitId": "de-b1-u05",
+  "title": "In Order to…",
+  "tip": "um … zu says why, when both parts have the same subject: „Ich lerne Deutsch, um hier zu arbeiten.“ The um part can come first: „Um hier zu arbeiten, lerne ich Deutsch.“ Not für … zu.",
+  "exercises": [
+    {
+      "id": "de-b1-u05-l4-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        { "id": "p1", "learning": "um … zu", "known": "in order to" },
+        { "id": "p2", "learning": "der Grund", "known": "the reason" },
+        { "id": "p3", "learning": "beruflich", "known": "for work" },
+        { "id": "p4", "learning": "privat", "known": "personal / private" },
+        { "id": "p5", "learning": "die Chance", "known": "the chance" }
+      ]
+    },
+    {
+      "id": "de-b1-u05-l4-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'I'm doing further training to find a job.'?",
+      "options": [
+        { "id": "a", "text": "Ich mache eine Weiterbildung, für eine Stelle zu finden." },
+        { "id": "b", "text": "Ich mache eine Weiterbildung, um eine Stelle zu finden." },
+        { "id": "c", "text": "Ich mache eine Weiterbildung, um eine Stelle finden." },
+        { "id": "d", "text": "Ich mache eine Weiterbildung, um zu eine Stelle finden." }
+      ],
+      "correctOptionId": "b"
+    },
+    {
+      "id": "de-b1-u05-l4-ex03",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I'm learning German in order to work in Germany.",
+      "tiles": [
+        "ich",
+        "lerne",
+        "Deutsch",
+        "um",
+        "in",
+        "Deutschland",
+        "zu",
+        "arbeiten",
+        "für",
+        "arbeite",
+        "nach"
+      ],
+      "answers": [
+        "Ich lerne Deutsch, um in Deutschland zu arbeiten.",
+        "Um in Deutschland zu arbeiten, lerne ich Deutsch.",
+        "Deutsch lerne ich, um in Deutschland zu arbeiten."
+      ]
+    },
+    {
+      "id": "de-b1-u05-l4-ex04",
+      "type": "listen",
+      "audio": { "src": "/audio/de/b1/u05/de-b1-u05-l4-ex04.mp3" },
+      "tiles": [
+        "um",
+        "eine",
+        "neue",
+        "Stelle",
+        "zu",
+        "finden",
+        "mache",
+        "ich",
+        "eine",
+        "Weiterbildung",
+        "für",
+        "neuen",
+        "macht"
+      ],
+      "answers": ["Um eine neue Stelle zu finden, mache ich eine Weiterbildung."]
+    },
+    {
+      "id": "de-b1-u05-l4-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which one means 'For what reason?'",
+      "options": [
+        { "id": "a", "text": "Aus welcher Grund?" },
+        { "id": "b", "text": "Für welchen Grund?" },
+        { "id": "c", "text": "Aus welchen Grund?" },
+        { "id": "d", "text": "Aus welchem Grund?" }
+      ],
+      "correctOptionId": "d"
+    },
+    {
+      "id": "de-b1-u05-l4-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Lernst du Deutsch beruflich oder privat?",
+      "tiles": [
+        "are",
+        "you",
+        "learning",
+        "German",
+        "for",
+        "work",
+        "or",
+        "privately",
+        "personal",
+        "do",
+        "learn"
+      ],
+      "answers": [
+        "Are you learning German for work or privately?",
+        "Do you learn German for work or privately?"
+      ]
+    },
+    {
+      "id": "de-b1-u05-l4-ex07",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I'm preparing for the exam.",
+      "tiles": ["ich", "bereite", "mich", "auf", "die", "Prüfung", "vor", "für", "mir", "der"],
+      "answers": ["Ich bereite mich auf die Prüfung vor.", "Auf die Prüfung bereite ich mich vor."]
+    },
+    {
+      "id": "de-b1-u05-l4-ex08",
+      "type": "listen",
+      "audio": { "src": "/audio/de/b1/u05/de-b1-u05-l4-ex08.mp3" },
+      "tiles": ["das", "ist", "eine", "gute", "Chance", "für", "mich", "guter", "mir", "um"],
+      "answers": ["Das ist eine gute Chance für mich."]
+    },
+    {
+      "id": "de-b1-u05-l4-ex09",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I'm calling the school to register.",
+      "tiles": [
+        "ich",
+        "rufe",
+        "die",
+        "Schule",
+        "an",
+        "um",
+        "mich",
+        "anzumelden",
+        "zu",
+        "anmelden",
+        "mir"
+      ],
+      "answers": [
+        "Ich rufe die Schule an, um mich anzumelden.",
+        "Um mich anzumelden, rufe ich die Schule an.",
+        "Die Schule rufe ich an, um mich anzumelden."
+      ]
+    },
+    {
+      "id": "de-b1-u05-l4-ex10",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'I'm interested in the topic.'?",
+      "options": [
+        { "id": "a", "text": "Ich interessiere mich an dem Thema." },
+        { "id": "b", "text": "Ich interessiere mir für das Thema." },
+        { "id": "c", "text": "Ich interessiere mich für das Thema." },
+        { "id": "d", "text": "Ich interessiere für das Thema mich." }
+      ],
+      "correctOptionId": "c"
+    },
+    {
+      "id": "de-b1-u05-l4-ex11",
+      "type": "listen",
+      "audio": { "src": "/audio/de/b1/u05/de-b1-u05-l4-ex11.mp3" },
+      "tiles": ["wissen", "Sie", "wann", "die", "Prüfung", "beginnt", "wo", "beginnen", "der"],
+      "answers": ["Wissen Sie, wann die Prüfung beginnt?"]
+    },
+    {
+      "id": "de-b1-u05-l4-ex12",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Er lernt jeden Abend, um die Prüfung zu bestehen.",
+      "tiles": [
+        "he",
+        "studies",
+        "every",
+        "evening",
+        "to",
+        "pass",
+        "the",
+        "exam",
+        "passes",
+        "day",
+        "studied"
+      ],
+      "answers": [
+        "He studies every evening to pass the exam.",
+        "Every evening he studies to pass the exam."
+      ]
+    }
+  ]
+}

@@ -3,7 +3,7 @@
   "title": "German",
   "learningLanguage": "de",
   "knownLanguage": "en",
-  "version": 18,
+  "version": 19,
   "levels": [
     {
       "level": "A1",
@@ -864,6 +864,34 @@
         {
           "id": "de-b1-u04-l5-coffee-machine",
           "title": "Scenario: At the Coffee Machine"
+        }
+      ]
+    },
+    {
+      "id": "de-b1-u05",
+      "level": "B1",
+      "title": "Learning for Life",
+      "description": "Talk about courses and learning plans, and use zu with infinitives and um … zu.",
+      "lessons": [
+        {
+          "id": "de-b1-u05-l1-courses",
+          "title": "Courses and Training"
+        },
+        {
+          "id": "de-b1-u05-l2-i-plan-to",
+          "title": "I Plan to…"
+        },
+        {
+          "id": "de-b1-u05-l3-its-important-to",
+          "title": "It's Important to Practise"
+        },
+        {
+          "id": "de-b1-u05-l4-in-order-to",
+          "title": "In Order to…"
+        },
+        {
+          "id": "de-b1-u05-l5-learning-tips",
+          "title": "Scenario: Tips for Learning"
         }
       ]
     }

@@ -512,6 +512,21 @@ export const BUNDLED_CONTENT: ContentLoaders = {
       "de-b1-u04-l5-coffee-machine": json(
         () => import("../../../content/courses/en-de/lessons/de-b1-u04-l5-coffee-machine.json"),
       ),
+      "de-b1-u05-l1-courses": json(
+        () => import("../../../content/courses/en-de/lessons/de-b1-u05-l1-courses.json"),
+      ),
+      "de-b1-u05-l2-i-plan-to": json(
+        () => import("../../../content/courses/en-de/lessons/de-b1-u05-l2-i-plan-to.json"),
+      ),
+      "de-b1-u05-l3-its-important-to": json(
+        () => import("../../../content/courses/en-de/lessons/de-b1-u05-l3-its-important-to.json"),
+      ),
+      "de-b1-u05-l4-in-order-to": json(
+        () => import("../../../content/courses/en-de/lessons/de-b1-u05-l4-in-order-to.json"),
+      ),
+      "de-b1-u05-l5-learning-tips": json(
+        () => import("../../../content/courses/en-de/lessons/de-b1-u05-l5-learning-tips.json"),
+      ),
     },
     "en-es": {
       "u1-l1-hello": json(() => import("../../../content/courses/en-es/lessons/u1-l1-hello.json")),

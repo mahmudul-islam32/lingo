@@ -1,0 +1,184 @@
+{
+  "id": "de-b1-u05-l3-its-important-to",
+  "courseId": "en-de",
+  "unitId": "de-b1-u05",
+  "title": "It's Important to Practise",
+  "tip": "After Es ist wichtig / schwer / sinnvoll and Ich habe keine Zeit / Lust, the verb goes to the end with zu: „Es ist wichtig, regelmäßig zu üben.“ „Ich habe keine Zeit, Sport zu machen.“",
+  "exercises": [
+    {
+      "id": "de-b1-u05-l3-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        { "id": "p1", "learning": "die Möglichkeit", "known": "the opportunity" },
+        { "id": "p2", "learning": "nötig", "known": "necessary" },
+        { "id": "p3", "learning": "sinnvoll", "known": "worthwhile" },
+        { "id": "p4", "learning": "anstrengend", "known": "tiring" },
+        { "id": "p5", "learning": "die Geduld", "known": "patience" }
+      ]
+    },
+    {
+      "id": "de-b1-u05-l3-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'It's important to practise regularly.'?",
+      "options": [
+        { "id": "a", "text": "Es ist wichtig, regelmäßig üben." },
+        { "id": "b", "text": "Es ist wichtig, zu regelmäßig üben." },
+        { "id": "c", "text": "Es ist wichtig, regelmäßig zu üben." },
+        { "id": "d", "text": "Es ist wichtig, dass regelmäßig zu üben." }
+      ],
+      "correctOptionId": "c"
+    },
+    {
+      "id": "de-b1-u05-l3-ex03",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I don't have time to do sport.",
+      "tiles": ["ich", "habe", "keine", "Zeit", "Sport", "zu", "machen", "kein", "mache", "Lust"],
+      "answers": ["Ich habe keine Zeit, Sport zu machen."]
+    },
+    {
+      "id": "de-b1-u05-l3-ex04",
+      "type": "listen",
+      "audio": { "src": "/audio/de/b1/u05/de-b1-u05-l3-ex04.mp3" },
+      "tiles": [
+        "es",
+        "ist",
+        "sinnvoll",
+        "die",
+        "Wörter",
+        "zu",
+        "wiederholen",
+        "das",
+        "Wort",
+        "wiederholt"
+      ],
+      "answers": ["Es ist sinnvoll, die Wörter zu wiederholen."]
+    },
+    {
+      "id": "de-b1-u05-l3-ex05",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Das ist anstrengend, aber es lohnt sich.",
+      "tiles": ["that's", "tiring", "but", "it's", "worth", "it", "boring", "isn't"],
+      "answers": ["That's tiring, but it's worth it."]
+    },
+    {
+      "id": "de-b1-u05-l3-ex06",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'I'd like to improve my German.'?",
+      "options": [
+        { "id": "a", "text": "Ich möchte mein Deutsch verbessern." },
+        { "id": "b", "text": "Ich möchte mein Deutsch zu verbessern." },
+        { "id": "c", "text": "Ich möchte verbessern mein Deutsch." },
+        { "id": "d", "text": "Ich möchte meine Deutsch verbessern." }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "de-b1-u05-l3-ex07",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "German is hard. You need patience. (in general)",
+      "tiles": [
+        "Deutsch",
+        "ist",
+        "schwer",
+        "man",
+        "braucht",
+        "Geduld",
+        "leicht",
+        "brauchen",
+        "brauchst"
+      ],
+      "answers": [
+        "Deutsch ist schwer. Man braucht Geduld.",
+        "Deutsch ist schwer. Geduld braucht man.",
+        "Schwer ist Deutsch. Man braucht Geduld.",
+        "Schwer ist Deutsch. Geduld braucht man."
+      ]
+    },
+    {
+      "id": "de-b1-u05-l3-ex08",
+      "type": "listen",
+      "audio": { "src": "/audio/de/b1/u05/de-b1-u05-l3-ex08.mp3" },
+      "tiles": [
+        "ich",
+        "möchte",
+        "mein",
+        "Deutsch",
+        "verbessern",
+        "das",
+        "ist",
+        "mein",
+        "Ziel",
+        "zu",
+        "meine",
+        "verbessert"
+      ],
+      "answers": ["Ich möchte mein Deutsch verbessern. Das ist mein Ziel."]
+    },
+    {
+      "id": "de-b1-u05-l3-ex09",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Here you have the opportunity to speak German. (to a friend)",
+      "tiles": [
+        "hier",
+        "hast",
+        "du",
+        "die",
+        "Möglichkeit",
+        "Deutsch",
+        "zu",
+        "sprechen",
+        "hat",
+        "sprichst",
+        "das"
+      ],
+      "answers": [
+        "Hier hast du die Möglichkeit, Deutsch zu sprechen.",
+        "Du hast hier die Möglichkeit, Deutsch zu sprechen.",
+        "Du hast die Möglichkeit, hier Deutsch zu sprechen."
+      ]
+    },
+    {
+      "id": "de-b1-u05-l3-ex10",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'Is it necessary to repeat the words?'",
+      "options": [
+        { "id": "a", "text": "Ist es nötig, die Wörter wiederholen?" },
+        { "id": "b", "text": "Ist nötig es, die Wörter zu wiederholen?" },
+        { "id": "c", "text": "Ist es nötig, zu die Wörter wiederholen?" },
+        { "id": "d", "text": "Ist es nötig, die Wörter zu wiederholen?" }
+      ],
+      "correctOptionId": "d"
+    },
+    {
+      "id": "de-b1-u05-l3-ex11",
+      "type": "listen",
+      "audio": { "src": "/audio/de/b1/u05/de-b1-u05-l3-ex11.mp3" },
+      "tiles": [
+        "hast",
+        "du",
+        "heute",
+        "Lust",
+        "ins",
+        "Kino",
+        "zu",
+        "gehen",
+        "hat",
+        "gehst",
+        "Zeit"
+      ],
+      "answers": ["Hast du heute Lust, ins Kino zu gehen?"]
+    },
+    {
+      "id": "de-b1-u05-l3-ex12",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Es lohnt sich, regelmäßig zu üben.",
+      "tiles": ["it's", "worth", "practising", "regularly", "to", "practise", "sometimes", "is"],
+      "answers": ["It's worth practising regularly."]
+    }
+  ]
+}

@@ -1,0 +1,169 @@
+{
+  "id": "de-b1-u05-l2-i-plan-to",
+  "courseId": "en-de",
+  "unitId": "de-b1-u05",
+  "title": "I Plan to…",
+  "tip": "After verbs like versuchen, vorhaben, aufhören, the second verb goes to the end with zu: „Ich versuche, jeden Tag zu üben.“ Separable verbs put zu inside: anzurufen. No zu after modals: „Ich kann schwimmen.“",
+  "exercises": [
+    {
+      "id": "de-b1-u05-l2-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        { "id": "p1", "learning": "vorhaben", "known": "to plan / intend" },
+        { "id": "p2", "learning": "versuchen", "known": "to try" },
+        { "id": "p3", "learning": "aufhören", "known": "to stop" },
+        { "id": "p4", "learning": "empfehlen", "known": "to recommend" },
+        { "id": "p5", "learning": "versprechen", "known": "to promise" }
+      ]
+    },
+    {
+      "id": "de-b1-u05-l2-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'I forgot to call you. (to a friend)'?",
+      "options": [
+        { "id": "a", "text": "Ich habe vergessen, dich zu anrufen." },
+        { "id": "b", "text": "Ich habe vergessen, dich anrufen." },
+        { "id": "c", "text": "Ich habe vergessen, dich anzurufen." },
+        { "id": "d", "text": "Ich habe vergessen, zu dich anrufen." }
+      ],
+      "correctOptionId": "c"
+    },
+    {
+      "id": "de-b1-u05-l2-ex03",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I'm planning to do a course.",
+      "tiles": ["ich", "habe", "vor", "einen", "Kurs", "zu", "machen", "mache", "hast", "ein"],
+      "answers": ["Ich habe vor, einen Kurs zu machen."]
+    },
+    {
+      "id": "de-b1-u05-l2-ex04",
+      "type": "listen",
+      "audio": { "src": "/audio/de/b1/u05/de-b1-u05-l2-ex04.mp3" },
+      "tiles": ["ich", "versuche", "jeden", "Tag", "zu", "üben", "versucht", "jede", "um"],
+      "answers": ["Ich versuche, jeden Tag zu üben."]
+    },
+    {
+      "id": "de-b1-u05-l2-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'I can swim well.'?",
+      "options": [
+        { "id": "a", "text": "Ich kann gut zu schwimmen." },
+        { "id": "b", "text": "Ich kann gut schwimmen." },
+        { "id": "c", "text": "Ich kann schwimmen gut." },
+        { "id": "d", "text": "Ich kann zu schwimmen gut." }
+      ],
+      "correctOptionId": "b"
+    },
+    {
+      "id": "de-b1-u05-l2-ex06",
+      "type": "listen",
+      "audio": { "src": "/audio/de/b1/u05/de-b1-u05-l2-ex06.mp3" },
+      "tiles": [
+        "Amira",
+        "hat",
+        "aufgehört",
+        "in",
+        "der",
+        "Bäckerei",
+        "zu",
+        "arbeiten",
+        "ist",
+        "aufhören",
+        "arbeitet"
+      ],
+      "answers": ["Amira hat aufgehört, in der Bäckerei zu arbeiten."]
+    },
+    {
+      "id": "de-b1-u05-l2-ex07",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Ich verspreche, pünktlich zu sein.",
+      "tiles": ["I", "promise", "to", "be", "on", "time", "promised", "late", "am"],
+      "answers": ["I promise to be on time."]
+    },
+    {
+      "id": "de-b1-u05-l2-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I've decided to take part in the evening class.",
+      "tiles": [
+        "ich",
+        "habe",
+        "mich",
+        "entschieden",
+        "am",
+        "Abendkurs",
+        "teilzunehmen",
+        "zu",
+        "teilnehmen",
+        "mir"
+      ],
+      "answers": [
+        "Ich habe mich entschieden, am Abendkurs teilzunehmen.",
+        "Ich habe entschieden, am Abendkurs teilzunehmen."
+      ]
+    },
+    {
+      "id": "de-b1-u05-l2-ex09",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'I recommend that you take the course. (to a friend)'?",
+      "options": [
+        { "id": "a", "text": "Ich empfehle dich, den Kurs zu machen." },
+        { "id": "b", "text": "Ich empfehle dir, den Kurs machen." },
+        { "id": "c", "text": "Ich empfehle dir, zu den Kurs machen." },
+        { "id": "d", "text": "Ich empfehle dir, den Kurs zu machen." }
+      ],
+      "correctOptionId": "d"
+    },
+    {
+      "id": "de-b1-u05-l2-ex10",
+      "type": "listen",
+      "audio": { "src": "/audio/de/b1/u05/de-b1-u05-l2-ex10.mp3" },
+      "tiles": [
+        "hast",
+        "du",
+        "vor",
+        "am",
+        "Samstag",
+        "einzukaufen",
+        "zu",
+        "einkaufen",
+        "hat",
+        "Sonntag"
+      ],
+      "answers": ["Hast du vor, am Samstag einzukaufen?"]
+    },
+    {
+      "id": "de-b1-u05-l2-ex11",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I promised my mother to call her.",
+      "tiles": [
+        "ich",
+        "habe",
+        "meiner",
+        "Mutter",
+        "versprochen",
+        "sie",
+        "anzurufen",
+        "zu",
+        "anrufen",
+        "meine",
+        "ihr"
+      ],
+      "answers": [
+        "Ich habe meiner Mutter versprochen, sie anzurufen.",
+        "Meiner Mutter habe ich versprochen, sie anzurufen."
+      ]
+    },
+    {
+      "id": "de-b1-u05-l2-ex12",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Ich habe vergessen, die Wörter zu wiederholen.",
+      "tiles": ["I", "forgot", "to", "repeat", "the", "words", "word", "forget", "have"],
+      "answers": ["I forgot to repeat the words."]
+    }
+  ]
+}

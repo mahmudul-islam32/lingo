@@ -1,0 +1,214 @@
+{
+  "id": "de-b1-u05-l5-learning-tips",
+  "courseId": "en-de",
+  "unitId": "de-b1-u05",
+  "title": "Scenario: Tips for Learning",
+  "tip": "Tips between classmates use du: „Mein Tipp: Wiederhol die Vokabeln jeden Abend!“ sich merken is a fixed chunk: „Ich kann mir die Wörter nicht merken.“ Praise: „Du machst große Fortschritte!“",
+  "exercises": [
+    {
+      "id": "de-b1-u05-l5-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        { "id": "p1", "learning": "der Tipp", "known": "the tip" },
+        { "id": "p2", "learning": "die Vokabeln", "known": "vocabulary" },
+        { "id": "p3", "learning": "der Fortschritt", "known": "progress" },
+        { "id": "p4", "learning": "sich merken", "known": "to remember" },
+        { "id": "p5", "learning": "anstrengend", "known": "tiring" }
+      ]
+    },
+    {
+      "id": "de-b1-u05-l5-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'I can't remember the words.'?",
+      "options": [
+        { "id": "a", "text": "Ich kann mich die Wörter nicht merken." },
+        { "id": "b", "text": "Ich kann mir die Wörter nicht merken." },
+        { "id": "c", "text": "Ich kann mir die Wörter nicht zu merken." },
+        { "id": "d", "text": "Ich kann nicht mir die Wörter merken." }
+      ],
+      "correctOptionId": "b"
+    },
+    {
+      "id": "de-b1-u05-l5-ex03",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "My tip: I repeat the vocabulary every evening.",
+      "tiles": [
+        "mein",
+        "Tipp",
+        "ich",
+        "wiederhole",
+        "die",
+        "Vokabeln",
+        "jeden",
+        "Abend",
+        "wiederholst",
+        "meine",
+        "jede"
+      ],
+      "answers": [
+        "Mein Tipp: Ich wiederhole die Vokabeln jeden Abend.",
+        "Mein Tipp: Ich wiederhole jeden Abend die Vokabeln.",
+        "Mein Tipp: Jeden Abend wiederhole ich die Vokabeln.",
+        "Mein Tipp: Die Vokabeln wiederhole ich jeden Abend."
+      ]
+    },
+    {
+      "id": "de-b1-u05-l5-ex04",
+      "type": "listen",
+      "audio": { "src": "/audio/de/b1/u05/de-b1-u05-l5-ex04.mp3" },
+      "tiles": ["toll", "du", "machst", "große", "Fortschritte", "macht", "großen", "Fortschritt"],
+      "answers": ["Toll! Du machst große Fortschritte."]
+    },
+    {
+      "id": "de-b1-u05-l5-ex05",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Ich kann mir die Vokabeln nicht merken. Hast du einen Tipp?",
+      "tiles": [
+        "I",
+        "can't",
+        "remember",
+        "the",
+        "vocabulary",
+        "do",
+        "you",
+        "have",
+        "a",
+        "tip",
+        "tips",
+        "forget",
+        "are"
+      ],
+      "answers": ["I can't remember the vocabulary. Do you have a tip?"]
+    },
+    {
+      "id": "de-b1-u05-l5-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I listen to the radio every day to improve my German.",
+      "tiles": [
+        "ich",
+        "höre",
+        "jeden",
+        "Tag",
+        "Radio",
+        "um",
+        "mein",
+        "Deutsch",
+        "zu",
+        "verbessern",
+        "meine",
+        "für",
+        "hört"
+      ],
+      "answers": [
+        "Ich höre jeden Tag Radio, um mein Deutsch zu verbessern.",
+        "Jeden Tag höre ich Radio, um mein Deutsch zu verbessern.",
+        "Um mein Deutsch zu verbessern, höre ich jeden Tag Radio.",
+        "Radio höre ich jeden Tag, um mein Deutsch zu verbessern."
+      ]
+    },
+    {
+      "id": "de-b1-u05-l5-ex07",
+      "type": "listen",
+      "audio": { "src": "/audio/de/b1/u05/de-b1-u05-l5-ex07.mp3" },
+      "tiles": [
+        "das",
+        "ist",
+        "der",
+        "Tipp",
+        "den",
+        "ich",
+        "von",
+        "meiner",
+        "Lehrerin",
+        "habe",
+        "die",
+        "meine",
+        "hat"
+      ],
+      "answers": ["Das ist der Tipp, den ich von meiner Lehrerin habe."]
+    },
+    {
+      "id": "de-b1-u05-l5-ex08",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'To pass the exam, I practise every day.'?",
+      "options": [
+        { "id": "a", "text": "Um die Prüfung zu bestehen, übe ich jeden Tag." },
+        { "id": "b", "text": "Um die Prüfung zu bestehen, ich übe jeden Tag." },
+        { "id": "c", "text": "Um die Prüfung bestehen, übe ich jeden Tag." },
+        { "id": "d", "text": "Für die Prüfung zu bestehen, übe ich jeden Tag." }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "de-b1-u05-l5-ex09",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'Don't forget to repeat the vocabulary! (to a friend)'?",
+      "options": [
+        { "id": "a", "text": "Vergiss nicht, die Vokabeln wiederholen!" },
+        { "id": "b", "text": "Vergisst nicht, die Vokabeln zu wiederholen!" },
+        { "id": "c", "text": "Vergiss nicht, die Vokabeln zu wiederholen!" },
+        { "id": "d", "text": "Vergiss nicht, die Vokabeln zu wiederhole!" }
+      ],
+      "correctOptionId": "c"
+    },
+    {
+      "id": "de-b1-u05-l5-ex10",
+      "type": "listen",
+      "audio": { "src": "/audio/de/b1/u05/de-b1-u05-l5-ex10.mp3" },
+      "tiles": [
+        "es",
+        "ist",
+        "wichtig",
+        "genug",
+        "zu",
+        "schlafen",
+        "das",
+        "ist",
+        "mein",
+        "Tipp",
+        "schläft",
+        "meine"
+      ],
+      "answers": ["Es ist wichtig, genug zu schlafen. Das ist mein Tipp!"]
+    },
+    {
+      "id": "de-b1-u05-l5-ex11",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "We meet up to practise together.",
+      "tiles": ["wir", "treffen", "uns", "um", "gemeinsam", "zu", "üben", "treffe", "euch", "für"],
+      "answers": [
+        "Wir treffen uns, um gemeinsam zu üben.",
+        "Um gemeinsam zu üben, treffen wir uns.",
+        "Wir treffen uns gemeinsam, um zu üben.",
+        "Um zu üben, treffen wir uns gemeinsam."
+      ]
+    },
+    {
+      "id": "de-b1-u05-l5-ex12",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Ich habe vor, einen Abendkurs zu machen. Ich freue mich darauf.",
+      "tiles": [
+        "I'm",
+        "I'm",
+        "planning",
+        "to",
+        "to",
+        "do",
+        "an",
+        "evening",
+        "class",
+        "looking",
+        "forward",
+        "it",
+        "a",
+        "them"
+      ],
+      "answers": ["I'm planning to do an evening class. I'm looking forward to it."]
+    }
+  ]
+}
