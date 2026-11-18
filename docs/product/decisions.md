@@ -1098,3 +1098,93 @@ together._
   months later); merge B1 before v1.0.0 and launch with it (untested and unreviewed content
   at launch).
 - **Reversibility:** High.
+
+## PD-064: Learners choose a start level (onboarding, path "Start here", Profile)
+
+- **Date:** 2026-11-18
+- **Reason:** owner request of 2026-11-18: a learner can start at a later level, e.g. A2,
+  if they want to skip A1. Design agreed by the orchestrator with the cto (ADR-013, contract
+  CTO-015). Milestone **v0.5.2 "Start level and earn hearts"** (GAM-011, LES-020, PLT-025).
+- **Decision:**
+  1. **Onboarding** gets a step **"Where do you want to start?"** after the language step and
+     before the daily goal. It lists the course's levels **that have content** (today
+     "A1 · Beginner", preselected, and "A2 · Elementary"; B1 appears only once its lessons are
+     in the course). A course with one level skips the step. The choice is saved as
+     `settings.startLevel`. A missing or unknown value means the course's first level, so
+     every existing learner keeps today's path unchanged.
+  2. **Path:** every lesson of a level **before** the start level stays **playable**. It is
+     not marked completed, earns no XP for being skipped, and earns XP as normal when played.
+     The first not-completed lesson of the start level is **"up next"**; lessons after it
+     follow the normal in-order rule (GAM-008). If the whole start level is completed, the
+     normal rule continues into the next level.
+  3. Each **locked level header** on the path offers **"Start here"**, which sets the start
+     level to that level at once (no confirmation; it is reversible in Profile and nothing is
+     lost).
+  4. **Profile** shows the start level and lets the learner change it.
+  5. **Lowering** the start level applies the normal rule from the new level: earlier
+     lessons that are not completed lock again. Completed lessons always stay completed and
+     playable, and XP, streak and results never change.
+  6. The lesson route uses the same rule: a playable earlier-level lesson opens from a URL; a
+     locked one still redirects to Learn (PD-018).
+- **Rationale:** learners who studied before (US-DE-02's visa, job or study goals) drop off
+  when they must redo 60 A1 lessons to reach A2, which hurts activation and D7 retention
+  (PRD goals). Keeping earlier levels open lets them fill gaps without a separate review mode.
+  Not marking skipped lessons completed keeps "lessons completed", XP and the profile honest.
+- **Alternatives considered:**
+  - **Placement test** (adaptive quiz that decides the level): more accurate for unsure
+    learners, but needs new exercise selection and scoring logic and its own content, and
+    would take several sessions to build. A self-chosen level is enough for learners who know
+    they finished A1; a placement test stays a Phase 2 idea that can set the same
+    `startLevel`.
+  - Marking skipped lessons completed (inflates lessons completed and would raise questions
+    about XP).
+  - Unlocking every lesson in the course (removes the path's guidance).
+- **Effect on balance:** skipping a level gives no XP, streak or league advantage; it only
+  changes which lesson is up next. A learner who starts too high can lower the level in
+  Profile or simply play the open earlier lessons.
+- **Reversibility:** High (one setting; removing the step leaves stored values harmless).
+
+## PD-065: Correct answers earn hearts; practising a finished lesson is free
+
+- **Date:** 2026-11-18
+- **Reason:** owner request of 2026-11-18: correct answers earn hearts, so a learner who
+  practises doesn't have to wait for a refill. Design agreed by the orchestrator with the cto
+  (ADR-013, contract CTO-015). Milestone v0.5.2 (GAM-011, LES-020, PLT-025).
+- **Decision:**
+  1. **Each correct Check restores 1 heart**, up to the maximum of **5**. A re-queued
+     exercise answered correctly later also earns 1. A match-pairs exercise earns 1 when it
+     completes with no mismatch; with mismatches it costs 1 as today (PD-012) and earns
+     nothing. **Speak exercises never change hearts** (no loss, no gain), and skipped
+     exercises earn nothing. At 5 hearts a correct answer changes nothing.
+  2. Earned hearts show **at once** in the lesson header. This revises PD-018 only for earned
+     hearts: a heart from the timed refill during a lesson is still not added to that lesson.
+  3. **Practice:** replaying a lesson that was already completed when it started costs **no
+     hearts** (wrong answers are still re-queued and counted as mistakes) and **can start at
+     0 hearts**. Correct answers in practice still earn hearts. XP for a replay stays full
+     (PD-008). A lesson that is playable but not completed (for example a skipped
+     earlier-level lesson, PD-064) is not practice: it needs at least 1 heart and costs
+     hearts as normal.
+  4. The **out-of-hearts screens** (path dialog and lesson screen) say **"Practise a finished
+     lesson to earn hearts."** when the learner has at least one completed lesson. This
+     replaces PD-018's rule that the 0-hearts screens show nothing but the refill time.
+  5. The **4-hour refill still runs**. An earned heart does not move the next refill time;
+     at 5 hearts the refill timer stops as today.
+- **Rationale:** hearts should create stakes on **new** material, not lock out a learner who
+  wants to keep practising. Rewarding correct answers turns the out-of-hearts dead end into a
+  path back and supports daily-goal completion and streaks (PRD success metrics) and
+  US-GAM-14.
+- **Alternatives considered:**
+  - **1 heart per 3 correct answers:** slower recovery and closer to today's stakes, but it
+    needs a hidden counter that is hard to show on screen ("2 of 3") and would reset between
+    lessons. The owner asked for practice to replace waiting, and a 1:1 rule fits in one
+    sentence.
+  - A separate practice mode with its own exercises (new content and logic; Phase 2 idea).
+  - Removing hearts (loses the accuracy stake on new lessons).
+- **Effect on balance:** in a new lesson, a learner who gets at least half of the Checks
+  right ends with about as many hearts as at the start, so only frequent mistakes end a
+  lesson early; a run of wrong answers still does (5 wrong in a row from 5 hearts ends the
+  lesson). A learner at 0 hearts gets back to 5 with about 5 correct answers in a free
+  practice lesson (a few minutes), which also earns replay XP. Hearts become a pacing signal
+  on new lessons rather than a time gate. If later data shows new lessons almost never end
+  out of hearts, the fallback is the 1-per-3 rule (one constant, via a contract request).
+- **Reversibility:** High (one rule constant and a practice flag).

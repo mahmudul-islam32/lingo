@@ -1,10 +1,18 @@
 "use client";
 
+import { useQuery } from "@tanstack/react-query";
 import { useRouter } from "next/navigation";
-import { useCallback, useEffect, useRef, useState } from "react";
-import type { Course, LessonResult, Slug, Uuid } from "@/contracts";
+import {
+  useCallback,
+  useEffect,
+  useRef,
+  useState,
+  type ComponentProps,
+  type ComponentType,
+} from "react";
+import type { CefrLevel, Course, LessonResult, Slug, Uuid } from "@/contracts";
 import { useToast } from "@/components/ui";
-import { useUserProgress } from "@/features/gamification";
+import { settingsQuery, useUserProgress } from "@/features/gamification";
 import {
   HeartsLessonPlayer,
   LessonPlayerError,
@@ -24,16 +32,46 @@ export const LEARN_PATH = "/";
 /** Toast after a locked lesson's URL was opened (PLT-009 AC 4, PD-018). */
 export const LOCKED_LESSON_TOAST = "Finish the earlier lessons first.";
 
-/** Path access of the lesson: decided once, when course and progress are known. */
+/** Path access of the lesson: decided once, when course, progress and settings are known. */
 type Access = "checking" | "open" | "locked";
 
 const NO_COMPLETED: readonly Slug[] = [];
 
-/** `locked` when the path rule (`computePathNodes`, GAM-008) locks `lessonId`. */
-function accessOf(course: Course, completed: readonly Slug[], lessonId: Slug): Access {
-  const node = computePathNodes(course, completed, null).find((n) => n.lessonId === lessonId);
+/**
+ * `locked` when the path rule (`computePathNodes`, GAM-008/GAM-011) locks `lessonId`. The
+ * learner's `startLevel` is passed as the path view passes it (ADR-013 Consequences), so
+ * an earlier-level or start-level lesson the path shows as playable is never refused.
+ */
+export function accessOf(
+  course: Course,
+  completed: readonly Slug[],
+  lessonId: Slug,
+  startLevel?: CefrLevel,
+): Access {
+  const node = computePathNodes(course, completed, null, startLevel).find(
+    (n) => n.lessonId === lessonId,
+  );
   return node?.state === "locked" ? "locked" : "open";
 }
+
+/**
+ * PLT-025 AC 13/14, PD-065 §3: a lesson is practice when it was completed before this
+ * session started. Practice costs no hearts and may start at 0 hearts (LES-020).
+ * TODO(cto): once GAM-011's start-gate function is on main, decide the 0-hearts start with
+ * it here (`practiceCostsHearts` from `GAME_CONFIG`); until then the flag is completion.
+ */
+export function isPracticeStart(completed: readonly Slug[], lessonId: Slug): boolean {
+  return completed.includes(lessonId);
+}
+
+/**
+ * `HeartsLessonPlayer` with LES-020's `practice` flag. TODO(cto): drop this cast after
+ * LES-020 merges (the prop then exists on `HeartsLessonPlayerProps`); until then the
+ * player ignores the extra prop.
+ */
+const PracticeAwarePlayer = HeartsLessonPlayer as ComponentType<
+  ComponentProps<typeof HeartsLessonPlayer> & { practice?: boolean }
+>;
 
 export interface LessonScreenProps {
   courseId: Slug;
@@ -70,13 +108,24 @@ export function LessonScreen({
   const loadProgress = useProgressRepositoryLoader();
   const invalidateProgress = useInvalidateProgress();
   const progress = useUserProgress(courseId);
+  const settings = useQuery(settingsQuery());
   const toast = useToast();
   const [finished, setFinished] = useState<LessonResult | null>(null);
   const [access, setAccess] = useState<Access>("checking");
-  // Decided once: finishing this lesson later changes progress, never the access.
-  if (access === "checking" && course.status === "success" && progress.status !== "loading") {
+  // PLT-025 AC 13/14: practice when completed before the start, or after a saved finish.
+  const [practice, setPractice] = useState(false);
+  const [savedHere, setSavedHere] = useState(false);
+  // Decided once: finishing this lesson later changes progress, never the access. A
+  // settings read error counts as no start level (the first level, ADR-013).
+  if (
+    access === "checking" &&
+    course.status === "success" &&
+    progress.status !== "loading" &&
+    !settings.isPending
+  ) {
     const completed = progress.progress?.completedLessonIds ?? NO_COMPLETED;
-    setAccess(accessOf(course.data, completed, lessonId));
+    setAccess(accessOf(course.data, completed, lessonId, settings.data?.startLevel));
+    setPractice(isPracticeStart(completed, lessonId));
   }
 
   // Once per mount, also under Strict Mode's double effects.
@@ -106,13 +155,18 @@ export function LessonScreen({
     [loadProgress],
   );
   const handleSaved = useCallback(
-    (result: LessonResult) => void invalidateProgress(result.courseId),
+    (result: LessonResult) => {
+      setSavedHere(true);
+      void invalidateProgress(result.courseId);
+    },
     [invalidateProgress],
   );
   const practiceAgain = useCallback(() => {
+    // AC 14: once this session's result is saved, the lesson is completed: a new start is practice.
+    if (savedHere) setPractice(true);
     setFinished(null);
     setAttempt((n) => n + 1);
-  }, []);
+  }, [savedHere]);
 
   if (course.status === "error" || lesson.status === "error") {
     return <LessonPlayerError onRetry={retryLoad} onBack={goToLearn} />;
@@ -135,8 +189,9 @@ export function LessonScreen({
 
   return (
     // Keyed by lesson (and attempt, so "Practice again" re-reads hearts on a fresh start).
-    <HeartsLessonPlayer
+    <PracticeAwarePlayer
       key={`${lesson.data.id}#${attempt}`}
+      practice={practice}
       lesson={lesson.data}
       learningLanguage={course.data.learningLanguage}
       knownLanguage={course.data.knownLanguage}

@@ -14,18 +14,21 @@ export interface GoalStepProps {
   selected: DailyGoalXp | null;
   onSelect: (goal: DailyGoalXp) => void;
   onBack: () => void;
+  /** Number of steps in this run (PLT-025: 4 with the start level step). */
+  total: number;
   onFinish: () => void;
   saving: boolean;
   saveFailed: boolean;
 }
 
-/** Step 3: the goal options from contracts, none preselected. */
+/** Last step: the goal options from contracts, none preselected. */
 export function GoalStep({
   headingId,
   headingRef,
   selected,
   onSelect,
   onBack,
+  total,
   onFinish,
   saving,
   saveFailed,
@@ -35,7 +38,8 @@ export function GoalStep({
       headingId={headingId}
       headingRef={headingRef}
       title={GOAL_HEADING}
-      step={3}
+      step={total}
+      total={total}
       onBack={onBack}
       footer={
         <>
