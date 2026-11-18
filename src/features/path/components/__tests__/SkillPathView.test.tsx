@@ -564,6 +564,90 @@ describe("SkillPathView: scroll to the next lesson (AC11, AC12, FIX-002)", () =>
   });
 });
 
+describe("SkillPathView: auto-scroll settled signal (FIX-006)", () => {
+  /** Manual animation frames. */
+  function frames() {
+    const queue: FrameRequestCallback[] = [];
+    vi.spyOn(window, "requestAnimationFrame").mockImplementation((cb) => {
+      queue.push(cb);
+      return queue.length;
+    });
+    vi.spyOn(window, "cancelAnimationFrame").mockImplementation(() => {
+      queue.length = 0;
+    });
+    return () => queue.splice(0).forEach((cb) => cb(0));
+  }
+  const root = (container: HTMLElement) => container.querySelector("[data-auto-scroll]");
+  const originalScrollTo = window.scrollTo;
+
+  afterEach(() => {
+    Reflect.deleteProperty(document.documentElement, "scrollHeight");
+    Object.defineProperty(window, "scrollTo", {
+      configurable: true,
+      writable: true,
+      value: originalScrollTo,
+    });
+  });
+
+  it("is settled at once when there is nothing to scroll to (no layout or no frontier)", () => {
+    frames();
+    expect(root(setup().container)).toHaveAttribute("data-auto-scroll", "settled");
+  });
+
+  it("is settled at once when everything is completed", () => {
+    frames();
+    const { container } = setup({ completed: [...L] });
+    expect(root(container)).toHaveAttribute("data-auto-scroll", "settled");
+  });
+
+  it("goes pending → settled once the window reaches the centred position", () => {
+    const frame = frames();
+    vi.spyOn(HTMLElement.prototype, "getBoundingClientRect").mockReturnValue({
+      top: 900,
+      height: 80,
+      width: 176,
+      left: 0,
+      right: 176,
+      bottom: 980,
+      x: 0,
+      y: 900,
+      toJSON: () => ({}),
+    } as DOMRect);
+    vi.spyOn(window, "innerHeight", "get").mockReturnValue(600);
+    let y = 100;
+    vi.spyOn(window, "scrollY", "get").mockImplementation(() => y);
+    Object.defineProperty(document.documentElement, "scrollHeight", {
+      configurable: true,
+      value: 3000,
+    });
+    Object.defineProperty(window, "scrollTo", {
+      configurable: true,
+      writable: true,
+      value: vi.fn(),
+    });
+    const { container, rerender, onLockedLesson } = setup({ completed: [L[0]] });
+    expect(root(container)).toHaveAttribute("data-auto-scroll", "pending");
+    y = 400; // smooth scroll under way
+    frame();
+    y = 740; // arrived (100 + 900 - 260)
+    frame();
+    frame();
+    expect(root(container)).toHaveAttribute("data-auto-scroll", "pending");
+    frame();
+    expect(root(container)).toHaveAttribute("data-auto-scroll", "settled");
+    // A later render (new progress) keeps the signal.
+    rerender(
+      <SkillPathView
+        course={unitOneCourse}
+        nodes={computePathNodes(unitOneCourse, [L[0], L[1]], null)}
+        canStartLesson
+        onLockedLesson={onLockedLesson}
+      />,
+    );
+    expect(root(container)).toHaveAttribute("data-auto-scroll", "settled");
+  });
+});
+
 describe("SkillPathView: multiple units and empty state (AC15)", () => {
   it("renders one section per unit and numbers lessons globally", () => {
     setup({ course: twoUnitCourse, completed: ["a1", "a2"] });

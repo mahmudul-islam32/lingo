@@ -45,6 +45,35 @@ async function expectNoHorizontalScroll(page: Page) {
   expect(overflow).toBeLessThanOrEqual(0);
 }
 
+/** The skill path sets `data-auto-scroll="settled"` once its load-time scroll is over. */
+async function expectPathScrollSettled(page: Page) {
+  await expect(page.locator('[data-auto-scroll="settled"]')).toHaveCount(1);
+}
+
+/** Scroll position and the top bar / first unit heading unchanged across two frames. */
+async function expectLayoutStable(page: Page) {
+  await expect
+    .poll(() =>
+      page.evaluate(async () => {
+        const frame = () => new Promise<void>((resolve) => requestAnimationFrame(() => resolve()));
+        const snapshot = () => {
+          const unit = document.querySelector("[data-unit] h2, [data-unit] h3");
+          const bar = document.querySelector('[aria-label="Your progress"]');
+          return JSON.stringify([
+            window.scrollY,
+            unit?.getBoundingClientRect().top ?? null,
+            bar?.getBoundingClientRect().bottom ?? null,
+          ]);
+        };
+        const before = snapshot();
+        await frame();
+        await frame();
+        return snapshot() === before;
+      }),
+    )
+    .toBe(true);
+}
+
 test.describe("Learn with the gamification loop (PLT-009)", () => {
   test("AC 10 loop: onboarding (goal 20), Lesson 1 all correct, results, then Learn updated", async ({
     page,
@@ -164,7 +193,9 @@ test.describe("Learn with the gamification loop (PLT-009)", () => {
     // AC 1: one h1; top bar, then Lumi + ring, then the path. (The path scrolls its next
     // lesson into view on load; measure from the top.)
     await expect(page.getByRole("heading", { level: 1 })).toHaveCount(1);
-    // Retried, in case the path's smooth scroll is still running.
+    // FIX-006: wait for that smooth scroll to finish (the path's deterministic signal)
+    // so it can't move the page again while the layout is measured.
+    await expectPathScrollSettled(page);
     await expect
       .poll(() =>
         page.evaluate(() => {
@@ -173,6 +204,8 @@ test.describe("Learn with the gamification loop (PLT-009)", () => {
         }),
       )
       .toBe(0);
+    // And the layout itself holds still across two animation frames before measuring.
+    await expectLayoutStable(page);
     const bar = (await topBar(page).boundingBox())!;
     const lumi = (await page.getByTestId("streak-lumi").boundingBox())!;
     const ring = (await page.getByRole("progressbar").boundingBox())!;
