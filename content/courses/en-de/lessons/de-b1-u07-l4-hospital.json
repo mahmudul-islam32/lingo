@@ -1,0 +1,239 @@
+{
+  "id": "de-b1-u07-l4-hospital",
+  "courseId": "en-de",
+  "unitId": "de-b1-u07",
+  "title": "At the Hospital",
+  "tip": "Use von … bis for times: „Die Besuchszeit ist von zwei bis sechs.“ The n-nouns keep their -en in the hospital too: Wir besuchen den Nachbarn. But most masculine nouns don't change: mit dem Arzt, mit dem Krankenwagen.",
+  "exercises": [
+    {
+      "id": "de-b1-u07-l4-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        { "id": "p1", "learning": "das Krankenhaus", "known": "the hospital" },
+        { "id": "p2", "learning": "die Notaufnahme", "known": "A&E / the emergency room" },
+        { "id": "p3", "learning": "der Notfall", "known": "the emergency" },
+        { "id": "p4", "learning": "die Station", "known": "the ward" },
+        { "id": "p5", "learning": "der Krankenwagen", "known": "the ambulance" }
+      ]
+    },
+    {
+      "id": "de-b1-u07-l4-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'Excuse me, where is A&E?'",
+      "options": [
+        { "id": "a", "text": "Entschuldigung, wo ist die Notaufnahme?" },
+        { "id": "b", "text": "Entschuldigung, wo ist der Notaufnahme?" },
+        { "id": "c", "text": "Entschuldigung, wohin ist die Notaufnahme?" },
+        { "id": "d", "text": "Entschuldigung, wo die Notaufnahme ist?" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "de-b1-u07-l4-ex03",
+      "type": "listen",
+      "audio": { "src": "/audio/de/b1/u07/de-b1-u07-l4-ex03.mp3" },
+      "tiles": [
+        "das",
+        "ist",
+        "ein",
+        "Notfall",
+        "der",
+        "Krankenwagen",
+        "kommt",
+        "gleich",
+        "eine",
+        "kommen",
+        "die"
+      ],
+      "answers": ["Das ist ein Notfall. Der Krankenwagen kommt gleich."]
+    },
+    {
+      "id": "de-b1-u07-l4-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "My neighbour is on ward three.",
+      "tiles": [
+        "mein",
+        "Nachbar",
+        "meine",
+        "Nachbarin",
+        "liegt",
+        "auf",
+        "Station",
+        "drei",
+        "im",
+        "liegen",
+        "Nachbarn"
+      ],
+      "answers": [
+        "Mein Nachbar liegt auf Station drei.",
+        "Meine Nachbarin liegt auf Station drei.",
+        "Auf Station drei liegt mein Nachbar.",
+        "Auf Station drei liegt meine Nachbarin."
+      ]
+    },
+    {
+      "id": "de-b1-u07-l4-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'We're visiting the neighbour in hospital.'?",
+      "options": [
+        { "id": "a", "text": "Wir besuchen den Nachbar im Krankenhaus." },
+        { "id": "b", "text": "Wir besuchen den Nachbarn im Krankenhaus." },
+        { "id": "c", "text": "Wir besuchen dem Nachbarn im Krankenhaus." },
+        { "id": "d", "text": "Wir besuchen der Nachbarn im Krankenhaus." }
+      ],
+      "correctOptionId": "b"
+    },
+    {
+      "id": "de-b1-u07-l4-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Die Besuchszeit ist von zwei bis sechs.",
+      "tiles": [
+        "visiting",
+        "hours",
+        "are",
+        "is",
+        "from",
+        "two",
+        "to",
+        "until",
+        "six",
+        "the",
+        "seven",
+        "at"
+      ],
+      "answers": [
+        "Visiting hours are from two to six.",
+        "Visiting hours are from two until six.",
+        "The visiting hours are from two to six.",
+        "The visiting hours are from two until six."
+      ]
+    },
+    {
+      "id": "de-b1-u07-l4-ex07",
+      "type": "listen",
+      "audio": { "src": "/audio/de/b1/u07/de-b1-u07-l4-ex07.mp3" },
+      "tiles": [
+        "der",
+        "Arzt",
+        "kennt",
+        "den",
+        "Patienten",
+        "er",
+        "operiert",
+        "ihn",
+        "morgen",
+        "Patient",
+        "ihm",
+        "dem"
+      ],
+      "answers": ["Der Arzt kennt den Patienten. Er operiert ihn morgen."]
+    },
+    {
+      "id": "de-b1-u07-l4-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "The ambulance is taking the boy to hospital.",
+      "tiles": [
+        "der",
+        "Krankenwagen",
+        "bringt",
+        "den",
+        "Jungen",
+        "ins",
+        "Krankenhaus",
+        "Junge",
+        "im",
+        "bringen"
+      ],
+      "answers": [
+        "Der Krankenwagen bringt den Jungen ins Krankenhaus.",
+        "Ins Krankenhaus bringt der Krankenwagen den Jungen.",
+        "Den Jungen bringt der Krankenwagen ins Krankenhaus."
+      ]
+    },
+    {
+      "id": "de-b1-u07-l4-ex09",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'That's the hospital I work in.'?",
+      "options": [
+        { "id": "a", "text": "Das ist das Krankenhaus, in das ich arbeite." },
+        { "id": "b", "text": "Das ist das Krankenhaus, dem ich in arbeite." },
+        { "id": "c", "text": "Das ist das Krankenhaus, in dem arbeite ich." },
+        { "id": "d", "text": "Das ist das Krankenhaus, in dem ich arbeite." }
+      ],
+      "correctOptionId": "d"
+    },
+    {
+      "id": "de-b1-u07-l4-ex10",
+      "type": "listen",
+      "audio": { "src": "/audio/de/b1/u07/de-b1-u07-l4-ex10.mp3" },
+      "tiles": [
+        "sie",
+        "sie",
+        "hat",
+        "sich",
+        "den",
+        "Fuß",
+        "verletzt",
+        "wartet",
+        "in",
+        "der",
+        "Notaufnahme",
+        "mich",
+        "die",
+        "Füße"
+      ],
+      "answers": ["Sie hat sich den Fuß verletzt. Sie wartet in der Notaufnahme."]
+    },
+    {
+      "id": "de-b1-u07-l4-ex11",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "My sister works in a big hospital.",
+      "tiles": [
+        "meine",
+        "Schwester",
+        "arbeitet",
+        "in",
+        "einem",
+        "großen",
+        "Krankenhaus",
+        "große",
+        "einen",
+        "arbeite",
+        "mein"
+      ],
+      "answers": [
+        "Meine Schwester arbeitet in einem großen Krankenhaus.",
+        "In einem großen Krankenhaus arbeitet meine Schwester."
+      ]
+    },
+    {
+      "id": "de-b1-u07-l4-ex12",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Wir besuchen den Kollegen auf Station drei.",
+      "tiles": [
+        "we're",
+        "we",
+        "are",
+        "visiting",
+        "visit",
+        "the",
+        "colleague",
+        "on",
+        "at",
+        "ward",
+        "three",
+        "room"
+      ],
+      "answers": [
+        "We're visiting the colleague on ward three.",
+        "We are visiting the colleague on ward three.",
+        "We visit the colleague on ward three."
+      ]
+    }
+  ]
+}

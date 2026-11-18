@@ -542,6 +542,36 @@ export const BUNDLED_CONTENT: ContentLoaders = {
       "de-b1-u06-l5-complaint-letter": json(
         () => import("../../../content/courses/en-de/lessons/de-b1-u06-l5-complaint-letter.json"),
       ),
+      "de-b1-u07-l1-symptoms": json(
+        () => import("../../../content/courses/en-de/lessons/de-b1-u07-l1-symptoms.json"),
+      ),
+      "de-b1-u07-l2-the-patient": json(
+        () => import("../../../content/courses/en-de/lessons/de-b1-u07-l2-the-patient.json"),
+      ),
+      "de-b1-u07-l3-wash-your-hands": json(
+        () => import("../../../content/courses/en-de/lessons/de-b1-u07-l3-wash-your-hands.json"),
+      ),
+      "de-b1-u07-l4-hospital": json(
+        () => import("../../../content/courses/en-de/lessons/de-b1-u07-l4-hospital.json"),
+      ),
+      "de-b1-u07-l5-insurance-call": json(
+        () => import("../../../content/courses/en-de/lessons/de-b1-u07-l5-insurance-call.json"),
+      ),
+      "de-b1-u08-l1-ordering-online": json(
+        () => import("../../../content/courses/en-de/lessons/de-b1-u08-l1-ordering-online.json"),
+      ),
+      "de-b1-u08-l2-although": json(
+        () => import("../../../content/courses/en-de/lessons/de-b1-u08-l2-although.json"),
+      ),
+      "de-b1-u08-l3-complaint": json(
+        () => import("../../../content/courses/en-de/lessons/de-b1-u08-l3-complaint.json"),
+      ),
+      "de-b1-u08-l4-so-that": json(
+        () => import("../../../content/courses/en-de/lessons/de-b1-u08-l4-so-that.json"),
+      ),
+      "de-b1-u08-l5-cancelling": json(
+        () => import("../../../content/courses/en-de/lessons/de-b1-u08-l5-cancelling.json"),
+      ),
     },
     "en-es": {
       "u1-l1-hello": json(() => import("../../../content/courses/en-es/lessons/u1-l1-hello.json")),

@@ -1,0 +1,241 @@
+{
+  "id": "de-b1-u08-l5-cancelling",
+  "courseId": "en-de",
+  "unitId": "de-b1-u08",
+  "title": "Scenario: Cancelling a Contract",
+  "tip": "On the phone and in an email, stay formal: „Ich möchte meinen Handyvertrag kündigen.“ „Könnten Sie mir das bitte bestätigen?“ obwohl and damit send the verb to the end: „Obwohl ich gekündigt habe, kam noch eine Rechnung.“",
+  "exercises": [
+    {
+      "id": "de-b1-u08-l5-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        { "id": "p1", "learning": "kündigen", "known": "to cancel (a contract)" },
+        { "id": "p2", "learning": "die Kündigung", "known": "the cancellation" },
+        { "id": "p3", "learning": "der Handyvertrag", "known": "the mobile phone contract" },
+        { "id": "p4", "learning": "monatlich", "known": "monthly" },
+        { "id": "p5", "learning": "bestätigen", "known": "to confirm" }
+      ]
+    },
+    {
+      "id": "de-b1-u08-l5-ex02",
+      "type": "listen",
+      "audio": { "src": "/audio/de/b1/u08/de-b1-u08-l5-ex02.mp3" },
+      "tiles": [
+        "guten",
+        "Tag",
+        "ich",
+        "möchte",
+        "meinen",
+        "Handyvertrag",
+        "kündigen",
+        "mein",
+        "Kündigung",
+        "möchten"
+      ],
+      "answers": ["Guten Tag, ich möchte meinen Handyvertrag kündigen."]
+    },
+    {
+      "id": "de-b1-u08-l5-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'Could you confirm that for me, please? (formal)'?",
+      "options": [
+        { "id": "a", "text": "Könnten Sie mich das bitte bestätigen?" },
+        { "id": "b", "text": "Könnten Sie mir das bitte bestätigen?" },
+        { "id": "c", "text": "Könnten Sie mir das bitte bestätigt?" },
+        { "id": "d", "text": "Konnten Sie mir das bitte bestätigen?" }
+      ],
+      "correctOptionId": "b"
+    },
+    {
+      "id": "de-b1-u08-l5-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I sent the cancellation last week. (on the phone)",
+      "tiles": [
+        "ich",
+        "habe",
+        "die",
+        "Kündigung",
+        "letzte",
+        "Woche",
+        "geschickt",
+        "bin",
+        "letzten",
+        "der",
+        "schicke"
+      ],
+      "answers": [
+        "Ich habe die Kündigung letzte Woche geschickt.",
+        "Ich habe letzte Woche die Kündigung geschickt.",
+        "Letzte Woche habe ich die Kündigung geschickt.",
+        "Die Kündigung habe ich letzte Woche geschickt."
+      ]
+    },
+    {
+      "id": "de-b1-u08-l5-ex05",
+      "type": "listen",
+      "audio": { "src": "/audio/de/b1/u08/de-b1-u08-l5-ex05.mp3" },
+      "tiles": [
+        "der",
+        "Vertrag",
+        "kostet",
+        "monatlich",
+        "zwanzig",
+        "Euro",
+        "kosten",
+        "zwölf",
+        "die"
+      ],
+      "answers": ["Der Vertrag kostet monatlich zwanzig Euro."]
+    },
+    {
+      "id": "de-b1-u08-l5-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Although I cancelled, another invoice came.",
+      "tiles": [
+        "obwohl",
+        "ich",
+        "gekündigt",
+        "habe",
+        "kam",
+        "noch",
+        "eine",
+        "Rechnung",
+        "weil",
+        "bin",
+        "kamen",
+        "einen"
+      ],
+      "answers": [
+        "Obwohl ich gekündigt habe, kam noch eine Rechnung.",
+        "Noch eine Rechnung kam, obwohl ich gekündigt habe."
+      ]
+    },
+    {
+      "id": "de-b1-u08-l5-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'Please send me an email so that I have the confirmation. (formal)'?",
+      "options": [
+        { "id": "a", "text": "Bitte schicken Sie mir eine E-Mail, um ich die Bestätigung habe." },
+        {
+          "id": "b",
+          "text": "Bitte schicken Sie mir eine E-Mail, damit ich habe die Bestätigung."
+        },
+        {
+          "id": "c",
+          "text": "Bitte schicken Sie mir eine E-Mail, damit ich die Bestätigung habe."
+        },
+        { "id": "d", "text": "Bitte schicken Sie mir eine E-Mail, um die Bestätigung zu haben." }
+      ],
+      "correctOptionId": "c"
+    },
+    {
+      "id": "de-b1-u08-l5-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I'm writing an email so that the company confirms the cancellation.",
+      "tiles": [
+        "ich",
+        "schreibe",
+        "eine",
+        "E-Mail",
+        "damit",
+        "die",
+        "Firma",
+        "die",
+        "Kündigung",
+        "bestätigt",
+        "um",
+        "bestätigen",
+        "zu"
+      ],
+      "answers": [
+        "Ich schreibe eine E-Mail, damit die Firma die Kündigung bestätigt.",
+        "Damit die Firma die Kündigung bestätigt, schreibe ich eine E-Mail.",
+        "Eine E-Mail schreibe ich, damit die Firma die Kündigung bestätigt."
+      ]
+    },
+    {
+      "id": "de-b1-u08-l5-ex09",
+      "type": "listen",
+      "audio": { "src": "/audio/de/b1/u08/de-b1-u08-l5-ex09.mp3" },
+      "tiles": [
+        "um",
+        "die",
+        "Kündigung",
+        "zu",
+        "bestätigen",
+        "brauche",
+        "ich",
+        "Ihre",
+        "Kundennummer",
+        "damit",
+        "bestätige",
+        "der"
+      ],
+      "answers": ["Um die Kündigung zu bestätigen, brauche ich Ihre Kundennummer."]
+    },
+    {
+      "id": "de-b1-u08-l5-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Ich kündige meinen Handyvertrag.",
+      "tiles": [
+        "I'm",
+        "I",
+        "am",
+        "cancelling",
+        "my",
+        "mobile",
+        "phone",
+        "contract",
+        "your",
+        "confirm",
+        "cancelled"
+      ],
+      "answers": [
+        "I'm cancelling my mobile phone contract.",
+        "I am cancelling my mobile phone contract.",
+        "I'm cancelling my phone contract.",
+        "I am cancelling my phone contract.",
+        "I'm cancelling my mobile contract.",
+        "I am cancelling my mobile contract."
+      ]
+    },
+    {
+      "id": "de-b1-u08-l5-ex11",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'I'm disappointed, although customer service was friendly.'?",
+      "options": [
+        { "id": "a", "text": "Ich bin enttäuscht, obwohl der Kundenservice war freundlich." },
+        { "id": "b", "text": "Ich bin enttäuscht, obwohl war der Kundenservice freundlich." },
+        { "id": "c", "text": "Ich bin enttäuscht, trotzdem der Kundenservice freundlich war." },
+        { "id": "d", "text": "Ich bin enttäuscht, obwohl der Kundenservice freundlich war." }
+      ],
+      "correctOptionId": "d"
+    },
+    {
+      "id": "de-b1-u08-l5-ex12",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Could you confirm the cancellation in writing? (formal)",
+      "tiles": [
+        "könnten",
+        "Sie",
+        "die",
+        "Kündigung",
+        "schriftlich",
+        "bestätigen",
+        "konnten",
+        "bestätigt",
+        "persönlich",
+        "der"
+      ],
+      "answers": [
+        "Könnten Sie die Kündigung schriftlich bestätigen?",
+        "Könnten Sie schriftlich die Kündigung bestätigen?"
+      ]
+    }
+  ]
+}

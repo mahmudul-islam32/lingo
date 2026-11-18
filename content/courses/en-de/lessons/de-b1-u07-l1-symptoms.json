@@ -1,0 +1,186 @@
+{
+  "id": "de-b1-u07-l1-symptoms",
+  "courseId": "en-de",
+  "unitId": "de-b1-u07",
+  "title": "Symptoms",
+  "tip": "Some symptoms take the dative and no ich: „Mir ist schwindlig.“ „Mir ist übel.“ (also dir, ihm, ihr). Allergies take gegen + accusative: „Ich bin allergisch gegen Katzen.“",
+  "exercises": [
+    {
+      "id": "de-b1-u07-l1-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        { "id": "p1", "learning": "das Symptom", "known": "the symptom" },
+        { "id": "p2", "learning": "mir ist schwindlig", "known": "I feel dizzy" },
+        { "id": "p3", "learning": "mir ist übel", "known": "I feel sick" },
+        { "id": "p4", "learning": "die Allergie", "known": "the allergy" },
+        { "id": "p5", "learning": "der Ausschlag", "known": "the rash" }
+      ]
+    },
+    {
+      "id": "de-b1-u07-l1-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'Which symptoms do you have? (formal)'?",
+      "options": [
+        { "id": "a", "text": "Welcher Symptome haben Sie?" },
+        { "id": "b", "text": "Welche Symptome haben Sie?" },
+        { "id": "c", "text": "Welche Symptome hast Sie?" },
+        { "id": "d", "text": "Welche Symptome Sie haben?" }
+      ],
+      "correctOptionId": "b"
+    },
+    {
+      "id": "de-b1-u07-l1-ex03",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I've felt dizzy since yesterday.",
+      "tiles": ["mir", "ist", "seit", "gestern", "schwindlig", "ich", "bin", "mich"],
+      "answers": ["Mir ist seit gestern schwindlig.", "Seit gestern ist mir schwindlig."]
+    },
+    {
+      "id": "de-b1-u07-l1-ex04",
+      "type": "listen",
+      "audio": { "src": "/audio/de/b1/u07/de-b1-u07-l1-ex04.mp3" },
+      "tiles": [
+        "mir",
+        "ist",
+        "übel",
+        "und",
+        "mein",
+        "Bauch",
+        "tut",
+        "weh",
+        "mich",
+        "meine",
+        "tun",
+        "Kopf"
+      ],
+      "answers": ["Mir ist übel und mein Bauch tut weh."]
+    },
+    {
+      "id": "de-b1-u07-l1-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'I'm allergic to cats.'?",
+      "options": [
+        { "id": "a", "text": "Ich bin allergisch für Katzen." },
+        { "id": "b", "text": "Ich bin allergisch gegen Katzen." },
+        { "id": "c", "text": "Ich habe allergisch gegen Katzen." },
+        { "id": "d", "text": "Mir ist allergisch gegen Katzen." }
+      ],
+      "correctOptionId": "b"
+    },
+    {
+      "id": "de-b1-u07-l1-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Seit gestern habe ich einen Ausschlag.",
+      "tiles": [
+        "I've",
+        "I",
+        "have",
+        "had",
+        "a",
+        "rash",
+        "since",
+        "yesterday",
+        "cough",
+        "for",
+        "has"
+      ],
+      "answers": [
+        "I've had a rash since yesterday.",
+        "I have had a rash since yesterday.",
+        "Since yesterday I've had a rash.",
+        "Since yesterday I have had a rash."
+      ]
+    },
+    {
+      "id": "de-b1-u07-l1-ex07",
+      "type": "listen",
+      "audio": { "src": "/audio/de/b1/u07/de-b1-u07-l1-ex07.mp3" },
+      "tiles": [
+        "die",
+        "Schmerzen",
+        "sind",
+        "stark",
+        "ich",
+        "habe",
+        "auch",
+        "Fieber",
+        "ist",
+        "starke",
+        "hat"
+      ],
+      "answers": ["Die Schmerzen sind stark. Ich habe auch Fieber."]
+    },
+    {
+      "id": "de-b1-u07-l1-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "How severe is the pain?",
+      "tiles": ["wie", "stark", "sind", "die", "Schmerzen", "ist", "starke", "wo"],
+      "answers": ["Wie stark sind die Schmerzen?"]
+    },
+    {
+      "id": "de-b1-u07-l1-ex09",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'Do you feel sick? (to a friend)'?",
+      "options": [
+        { "id": "a", "text": "Bist du übel?" },
+        { "id": "b", "text": "Ist dich übel?" },
+        { "id": "c", "text": "Ist dir übel?" },
+        { "id": "d", "text": "Hast du übel?" }
+      ],
+      "correctOptionId": "c"
+    },
+    {
+      "id": "de-b1-u07-l1-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "He's waiting in the waiting room with severe pain.",
+      "tiles": [
+        "er",
+        "wartet",
+        "mit",
+        "starken",
+        "Schmerzen",
+        "im",
+        "Wartezimmer",
+        "starke",
+        "warten",
+        "wir"
+      ],
+      "answers": [
+        "Er wartet mit starken Schmerzen im Wartezimmer.",
+        "Er wartet im Wartezimmer mit starken Schmerzen.",
+        "Im Wartezimmer wartet er mit starken Schmerzen.",
+        "Mit starken Schmerzen wartet er im Wartezimmer."
+      ]
+    },
+    {
+      "id": "de-b1-u07-l1-ex11",
+      "type": "listen",
+      "audio": { "src": "/audio/de/b1/u07/de-b1-u07-l1-ex11.mp3" },
+      "tiles": ["mein", "Sohn", "ist", "allergisch", "gegen", "Eier", "meine", "Ei", "sind", "mit"],
+      "answers": ["Mein Sohn ist allergisch gegen Eier."]
+    },
+    {
+      "id": "de-b1-u07-l1-ex12",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Welche Symptome hat Ihr Kind?",
+      "tiles": [
+        "what",
+        "which",
+        "symptoms",
+        "does",
+        "your",
+        "child",
+        "have",
+        "has",
+        "do",
+        "children"
+      ],
+      "answers": ["What symptoms does your child have?", "Which symptoms does your child have?"]
+    }
+  ]
+}

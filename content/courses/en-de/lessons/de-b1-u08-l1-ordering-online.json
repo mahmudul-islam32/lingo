@@ -1,0 +1,133 @@
+{
+  "id": "de-b1-u08-l1-ordering-online",
+  "courseId": "en-de",
+  "unitId": "de-b1-u08",
+  "title": "Ordering Online",
+  "tip": "Verbs starting with be- take no ge- in the Perfekt: bestellen → „Ich habe eine Lampe bestellt.“ liefern is regular: „Wir haben das Paket geliefert.“",
+  "exercises": [
+    {
+      "id": "de-b1-u08-l1-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        { "id": "p1", "learning": "bestellen", "known": "to order" },
+        { "id": "p2", "learning": "die Lieferung", "known": "the delivery" },
+        { "id": "p3", "learning": "der Warenkorb", "known": "the shopping basket" },
+        { "id": "p4", "learning": "das Produkt", "known": "the product" },
+        { "id": "p5", "learning": "die Rechnung", "known": "the invoice" }
+      ]
+    },
+    {
+      "id": "de-b1-u08-l1-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'I ordered a lamp. (to a friend)'?",
+      "options": [
+        { "id": "a", "text": "Ich habe eine Lampe gebestellt." },
+        { "id": "b", "text": "Ich bin eine Lampe bestellt." },
+        { "id": "c", "text": "Ich habe eine Lampe bestellt." },
+        { "id": "d", "text": "Ich habe bestellt eine Lampe." }
+      ],
+      "correctOptionId": "c"
+    },
+    {
+      "id": "de-b1-u08-l1-ex03",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "The delivery is coming tomorrow.",
+      "tiles": ["die", "Lieferung", "kommt", "morgen", "der", "Rechnung", "kommen", "heute"],
+      "answers": ["Die Lieferung kommt morgen.", "Morgen kommt die Lieferung."]
+    },
+    {
+      "id": "de-b1-u08-l1-ex04",
+      "type": "listen",
+      "audio": { "src": "/audio/de/b1/u08/de-b1-u08-l1-ex04.mp3" },
+      "tiles": ["wann", "liefern", "Sie", "das", "Paket", "liefert", "wo", "der"],
+      "answers": ["Wann liefern Sie das Paket?"]
+    },
+    {
+      "id": "de-b1-u08-l1-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which one means 'the order'?",
+      "options": [
+        { "id": "a", "text": "der Bestellung" },
+        { "id": "b", "text": "die Bestellung" },
+        { "id": "c", "text": "das Bestellung" },
+        { "id": "d", "text": "die Lieferung" }
+      ],
+      "correctOptionId": "b"
+    },
+    {
+      "id": "de-b1-u08-l1-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Das Produkt ist im Warenkorb.",
+      "tiles": ["the", "product", "is", "in", "the", "shopping", "basket", "on", "are", "invoice"],
+      "answers": ["The product is in the shopping basket.", "The product is in the basket."]
+    },
+    {
+      "id": "de-b1-u08-l1-ex07",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "How long does the order take?",
+      "tiles": ["wie", "lange", "dauert", "die", "Bestellung", "dauern", "wann", "der"],
+      "answers": ["Wie lange dauert die Bestellung?"]
+    },
+    {
+      "id": "de-b1-u08-l1-ex08",
+      "type": "listen",
+      "audio": { "src": "/audio/de/b1/u08/de-b1-u08-l1-ex08.mp3" },
+      "tiles": ["die", "Rechnung", "ist", "im", "Paket", "der", "sind", "in"],
+      "answers": ["Die Rechnung ist im Paket."]
+    },
+    {
+      "id": "de-b1-u08-l1-ex09",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'Do you know when the delivery is coming? (formal)'?",
+      "options": [
+        { "id": "a", "text": "Wissen Sie, wann kommt die Lieferung?" },
+        { "id": "b", "text": "Kennen Sie, wann die Lieferung kommt?" },
+        { "id": "c", "text": "Wissen Sie, wann die Lieferung kommen?" },
+        { "id": "d", "text": "Wissen Sie, wann die Lieferung kommt?" }
+      ],
+      "correctOptionId": "d"
+    },
+    {
+      "id": "de-b1-u08-l1-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I ordered a new lamp online. (to a friend)",
+      "tiles": [
+        "ich",
+        "habe",
+        "online",
+        "eine",
+        "neue",
+        "Lampe",
+        "bestellt",
+        "neuen",
+        "bin",
+        "einen"
+      ],
+      "answers": [
+        "Ich habe online eine neue Lampe bestellt.",
+        "Ich habe eine neue Lampe online bestellt.",
+        "Online habe ich eine neue Lampe bestellt.",
+        "Eine neue Lampe habe ich online bestellt."
+      ]
+    },
+    {
+      "id": "de-b1-u08-l1-ex11",
+      "type": "listen",
+      "audio": { "src": "/audio/de/b1/u08/de-b1-u08-l1-ex11.mp3" },
+      "tiles": ["die", "Lieferung", "dauert", "drei", "Tage", "Tagen", "dauern", "der"],
+      "answers": ["Die Lieferung dauert drei Tage."]
+    },
+    {
+      "id": "de-b1-u08-l1-ex12",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Die Lieferung kostet vier Euro.",
+      "tiles": ["the", "delivery", "costs", "four", "euros", "cost", "order", "five"],
+      "answers": ["The delivery costs four euros.", "Delivery costs four euros."]
+    }
+  ]
+}

@@ -1,0 +1,210 @@
+{
+  "id": "de-b1-u08-l4-so-that",
+  "courseId": "en-de",
+  "unitId": "de-b1-u08",
+  "title": "So That It Arrives Today",
+  "tip": "Same person: um … zu. Another person: damit, verb at the end. „Ich bleibe zu Hause, um das Paket abzuholen.“ „Ich gebe ihm den Schlüssel, damit er das Paket abholt.“",
+  "exercises": [
+    {
+      "id": "de-b1-u08-l4-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        { "id": "p1", "learning": "damit", "known": "so that" },
+        { "id": "p2", "learning": "abholen", "known": "to pick up" },
+        { "id": "p3", "learning": "die Sendungsnummer", "known": "the tracking number" },
+        { "id": "p4", "learning": "unterwegs", "known": "on the way" },
+        { "id": "p5", "learning": "die Benachrichtigung", "known": "the notification" }
+      ]
+    },
+    {
+      "id": "de-b1-u08-l4-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'I'm giving the neighbour the key so that he can pick up the parcel.'?",
+      "options": [
+        { "id": "a", "text": "Ich gebe dem Nachbarn den Schlüssel, um er das Paket abholen kann." },
+        {
+          "id": "b",
+          "text": "Ich gebe dem Nachbarn den Schlüssel, damit er kann das Paket abholen."
+        },
+        {
+          "id": "c",
+          "text": "Ich gebe dem Nachbar den Schlüssel, damit er das Paket abholen kann."
+        },
+        {
+          "id": "d",
+          "text": "Ich gebe dem Nachbarn den Schlüssel, damit er das Paket abholen kann."
+        }
+      ],
+      "correctOptionId": "d"
+    },
+    {
+      "id": "de-b1-u08-l4-ex03",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I'm staying at home to pick up the parcel.",
+      "tiles": [
+        "ich",
+        "bleibe",
+        "zu",
+        "Hause",
+        "um",
+        "das",
+        "Paket",
+        "abzuholen",
+        "damit",
+        "abholen",
+        "nach"
+      ],
+      "answers": [
+        "Ich bleibe zu Hause, um das Paket abzuholen.",
+        "Um das Paket abzuholen, bleibe ich zu Hause.",
+        "Zu Hause bleibe ich, um das Paket abzuholen."
+      ]
+    },
+    {
+      "id": "de-b1-u08-l4-ex04",
+      "type": "listen",
+      "audio": { "src": "/audio/de/b1/u08/de-b1-u08-l4-ex04.mp3" },
+      "tiles": ["das", "Paket", "ist", "schon", "unterwegs", "der", "sind", "schön"],
+      "answers": ["Das Paket ist schon unterwegs."]
+    },
+    {
+      "id": "de-b1-u08-l4-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'I'm ordering early so that the parcel arrives today.'?",
+      "options": [
+        { "id": "a", "text": "Ich bestelle früh, damit das Paket heute ankommt." },
+        { "id": "b", "text": "Ich bestelle früh, um das Paket heute ankommt." },
+        { "id": "c", "text": "Ich bestelle früh, damit das Paket kommt heute an." },
+        { "id": "d", "text": "Ich bestelle früh, um das Paket heute anzukommen." }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "de-b1-u08-l4-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "So that it arrives today, I'm ordering early.",
+      "tiles": [
+        "damit",
+        "es",
+        "heute",
+        "ankommt",
+        "bestelle",
+        "ich",
+        "früh",
+        "um",
+        "anzukommen",
+        "bestellt"
+      ],
+      "answers": [
+        "Damit es heute ankommt, bestelle ich früh.",
+        "Ich bestelle früh, damit es heute ankommt.",
+        "Früh bestelle ich, damit es heute ankommt."
+      ]
+    },
+    {
+      "id": "de-b1-u08-l4-ex07",
+      "type": "listen",
+      "audio": { "src": "/audio/de/b1/u08/de-b1-u08-l4-ex07.mp3" },
+      "tiles": ["ich", "habe", "eine", "Benachrichtigung", "erhalten", "bin", "einen", "die"],
+      "answers": ["Ich habe eine Benachrichtigung erhalten."]
+    },
+    {
+      "id": "de-b1-u08-l4-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I'm sending the customer a tracking number so that he finds the parcel.",
+      "tiles": [
+        "ich",
+        "schicke",
+        "dem",
+        "Kunden",
+        "eine",
+        "Sendungsnummer",
+        "damit",
+        "er",
+        "das",
+        "Paket",
+        "findet",
+        "um",
+        "Kunde",
+        "zu"
+      ],
+      "answers": [
+        "Ich schicke dem Kunden eine Sendungsnummer, damit er das Paket findet.",
+        "Damit er das Paket findet, schicke ich dem Kunden eine Sendungsnummer.",
+        "Dem Kunden schicke ich eine Sendungsnummer, damit er das Paket findet.",
+        "Eine Sendungsnummer schicke ich dem Kunden, damit er das Paket findet."
+      ]
+    },
+    {
+      "id": "de-b1-u08-l4-ex09",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'I forgot to pick up the parcel. (to a friend)'?",
+      "options": [
+        { "id": "a", "text": "Ich habe vergessen, das Paket zu abholen." },
+        { "id": "b", "text": "Ich habe vergessen, das Paket abzuholen." },
+        { "id": "c", "text": "Ich habe vergessen, das Paket abholen." },
+        { "id": "d", "text": "Ich habe vergessen, um das Paket abzuholen." }
+      ],
+      "correctOptionId": "b"
+    },
+    {
+      "id": "de-b1-u08-l4-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Wie ist die Sendungsnummer?",
+      "tiles": ["what", "is", "what's", "the", "tracking", "number", "how", "are", "customer"],
+      "answers": ["What is the tracking number?", "What's the tracking number?"]
+    },
+    {
+      "id": "de-b1-u08-l4-ex11",
+      "type": "listen",
+      "audio": { "src": "/audio/de/b1/u08/de-b1-u08-l4-ex11.mp3" },
+      "tiles": [
+        "ich",
+        "gebe",
+        "der",
+        "Nachbarin",
+        "den",
+        "Schlüssel",
+        "damit",
+        "sie",
+        "das",
+        "Paket",
+        "abholt",
+        "um",
+        "dem",
+        "abholen"
+      ],
+      "answers": ["Ich gebe der Nachbarin den Schlüssel, damit sie das Paket abholt."]
+    },
+    {
+      "id": "de-b1-u08-l4-ex12",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Wir liefern früh, damit Sie nicht lange warten.",
+      "tiles": [
+        "we",
+        "deliver",
+        "early",
+        "so",
+        "that",
+        "you",
+        "don't",
+        "wait",
+        "long",
+        "late",
+        "to",
+        "delivers"
+      ],
+      "answers": [
+        "We deliver early so that you don't wait long.",
+        "We deliver early so you don't wait long.",
+        "So that you don't wait long, we deliver early.",
+        "So you don't wait long, we deliver early."
+      ]
+    }
+  ]
+}

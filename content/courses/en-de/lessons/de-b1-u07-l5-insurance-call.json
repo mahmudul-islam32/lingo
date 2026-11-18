@@ -1,0 +1,206 @@
+{
+  "id": "de-b1-u07-l5-insurance-call",
+  "courseId": "en-de",
+  "unitId": "de-b1-u07",
+  "title": "Scenario: A Call to the Health Insurer",
+  "tip": "On the phone, polite Konjunktiv II helps: „Könnten Sie mich bitte verbinden?“ To be insured with: versichert sein bei + dative: „Ich bin seit Mai bei Ihnen versichert.“ And Herr → Herrn: „mit Herrn Novak“.",
+  "exercises": [
+    {
+      "id": "de-b1-u07-l5-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        { "id": "p1", "learning": "die Versicherung", "known": "the insurance" },
+        { "id": "p2", "learning": "versichert sein", "known": "to be insured" },
+        { "id": "p3", "learning": "zuständig", "known": "responsible / in charge" },
+        { "id": "p4", "learning": "ändern", "known": "to change" },
+        { "id": "p5", "learning": "die Krankenkasse", "known": "the health insurance company" }
+      ]
+    },
+    {
+      "id": "de-b1-u07-l5-ex02",
+      "type": "listen",
+      "audio": { "src": "/audio/de/b1/u07/de-b1-u07-l5-ex02.mp3" },
+      "tiles": [
+        "guten",
+        "Tag",
+        "hier",
+        "spricht",
+        "Amira",
+        "Haddad",
+        "ich",
+        "habe",
+        "eine",
+        "Frage",
+        "sprecht",
+        "hat",
+        "einen"
+      ],
+      "answers": ["Guten Tag, hier spricht Amira Haddad. Ich habe eine Frage."]
+    },
+    {
+      "id": "de-b1-u07-l5-ex03",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Ich habe eine Frage zu meiner Versicherung.",
+      "tiles": [
+        "I",
+        "have",
+        "I've",
+        "got",
+        "a",
+        "question",
+        "about",
+        "my",
+        "insurance",
+        "to",
+        "answer",
+        "has"
+      ],
+      "answers": [
+        "I have a question about my insurance.",
+        "I've got a question about my insurance.",
+        "I have got a question about my insurance."
+      ]
+    },
+    {
+      "id": "de-b1-u07-l5-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I've been insured with you since May. (formal)",
+      "tiles": ["ich", "bin", "seit", "Mai", "bei", "Ihnen", "versichert", "habe", "vor", "mit"],
+      "answers": [
+        "Ich bin seit Mai bei Ihnen versichert.",
+        "Ich bin bei Ihnen seit Mai versichert.",
+        "Seit Mai bin ich bei Ihnen versichert.",
+        "Bei Ihnen bin ich seit Mai versichert."
+      ]
+    },
+    {
+      "id": "de-b1-u07-l5-ex05",
+      "type": "listen",
+      "audio": { "src": "/audio/de/b1/u07/de-b1-u07-l5-ex05.mp3" },
+      "tiles": [
+        "Sie",
+        "sind",
+        "also",
+        "umgezogen",
+        "wie",
+        "ist",
+        "Ihre",
+        "neue",
+        "Adresse",
+        "seid",
+        "Ihr",
+        "neuen"
+      ],
+      "answers": ["Sie sind also umgezogen? Wie ist Ihre neue Adresse?"]
+    },
+    {
+      "id": "de-b1-u07-l5-ex06",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'I'd like to change my address.'?",
+      "options": [
+        { "id": "a", "text": "Ich möchte ändern meine Adresse." },
+        { "id": "b", "text": "Ich möchte meine Adresse ändern." },
+        { "id": "c", "text": "Ich möchte meine Adresse geändert." },
+        { "id": "d", "text": "Ich möchte meinen Adresse ändern." }
+      ],
+      "correctOptionId": "b"
+    },
+    {
+      "id": "de-b1-u07-l5-ex07",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Who is responsible for that?",
+      "tiles": ["wer", "ist", "dafür", "zuständig", "wo", "sind", "darauf", "was"],
+      "answers": ["Wer ist dafür zuständig?"]
+    },
+    {
+      "id": "de-b1-u07-l5-ex08",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'Could you put me through, please? (formal)'?",
+      "options": [
+        { "id": "a", "text": "Könnten Sie mir bitte verbinden?" },
+        { "id": "b", "text": "Konnten Sie mich bitte verbinden?" },
+        { "id": "c", "text": "Könnten Sie mich bitte verbinden?" },
+        { "id": "d", "text": "Könnten Sie mich bitte verbindet?" }
+      ],
+      "correctOptionId": "c"
+    },
+    {
+      "id": "de-b1-u07-l5-ex09",
+      "type": "listen",
+      "audio": { "src": "/audio/de/b1/u07/de-b1-u07-l5-ex09.mp3" },
+      "tiles": [
+        "Moment",
+        "bitte",
+        "ich",
+        "verbinde",
+        "Sie",
+        "mit",
+        "Herrn",
+        "Novak",
+        "Herr",
+        "verbindet",
+        "dem"
+      ],
+      "answers": ["Moment, bitte. Ich verbinde Sie mit Herrn Novak."]
+    },
+    {
+      "id": "de-b1-u07-l5-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Herr Novak ist für neue Adressen zuständig.",
+      "tiles": [
+        "Mr",
+        "Novak",
+        "is",
+        "are",
+        "responsible",
+        "in",
+        "charge",
+        "of",
+        "for",
+        "new",
+        "addresses",
+        "address",
+        "Ms"
+      ],
+      "answers": [
+        "Mr Novak is responsible for new addresses.",
+        "Mr Novak is in charge of new addresses."
+      ]
+    },
+    {
+      "id": "de-b1-u07-l5-ex11",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'Mr Novak is helping the customer.'?",
+      "options": [
+        { "id": "a", "text": "Herr Novak hilft den Kunde." },
+        { "id": "b", "text": "Herrn Novak hilft dem Kunden." },
+        { "id": "c", "text": "Herr Novak hilft dem Kunden." },
+        { "id": "d", "text": "Herr Novak hilft dem Kunde." }
+      ],
+      "correctOptionId": "c"
+    },
+    {
+      "id": "de-b1-u07-l5-ex12",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Could you send me a confirmation? (formal)",
+      "tiles": [
+        "könnten",
+        "Sie",
+        "mir",
+        "eine",
+        "Bestätigung",
+        "schicken",
+        "mich",
+        "einen",
+        "schickt",
+        "konnten"
+      ],
+      "answers": ["Könnten Sie mir eine Bestätigung schicken?"]
+    }
+  ]
+}

@@ -1,0 +1,201 @@
+{
+  "id": "de-b1-u07-l2-the-patient",
+  "courseId": "en-de",
+  "unitId": "de-b1-u07",
+  "title": "The Patient",
+  "tip": "Some masculine nouns add -(e)n outside the nominative: der Patient → den / dem Patienten; der Kunde → den / dem Kunden; also Junge, Student, Kollege, Nachbar, Herr → Herrn. Feminine forms don't: „mit der Patientin“.",
+  "exercises": [
+    {
+      "id": "de-b1-u07-l2-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        { "id": "p1", "learning": "der Patient", "known": "the patient" },
+        { "id": "p2", "learning": "der Hausarzt", "known": "the family doctor / GP" },
+        { "id": "p3", "learning": "die Fachärztin", "known": "the specialist" },
+        { "id": "p4", "learning": "die Überweisung", "known": "the referral" },
+        { "id": "p5", "learning": "das Rezept", "known": "the prescription" }
+      ]
+    },
+    {
+      "id": "de-b1-u07-l2-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'The doctor is talking to the patient.'?",
+      "options": [
+        { "id": "a", "text": "Die Ärztin spricht mit dem Patient." },
+        { "id": "b", "text": "Die Ärztin spricht mit den Patient." },
+        { "id": "c", "text": "Die Ärztin spricht mit dem Patienten." },
+        { "id": "d", "text": "Die Ärztin spricht mit der Patienten." }
+      ],
+      "correctOptionId": "c"
+    },
+    {
+      "id": "de-b1-u07-l2-ex03",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I'm asking the colleague.",
+      "tiles": ["ich", "frage", "den", "Kollegen", "die", "Kollegin", "Kollege", "fragt"],
+      "answers": [
+        "Ich frage den Kollegen.",
+        "Ich frage die Kollegin.",
+        "Den Kollegen frage ich.",
+        "Die Kollegin frage ich."
+      ]
+    },
+    {
+      "id": "de-b1-u07-l2-ex04",
+      "type": "listen",
+      "audio": { "src": "/audio/de/b1/u07/de-b1-u07-l2-ex04.mp3" },
+      "tiles": [
+        "der",
+        "Junge",
+        "hat",
+        "Fieber",
+        "er",
+        "ist",
+        "sehr",
+        "müde",
+        "Jungen",
+        "den",
+        "sind"
+      ],
+      "answers": ["Der Junge hat Fieber. Er ist sehr müde."]
+    },
+    {
+      "id": "de-b1-u07-l2-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'The colleague will call the customer back tomorrow.'?",
+      "options": [
+        { "id": "a", "text": "Die Kollegin ruft den Kunde morgen zurück." },
+        { "id": "b", "text": "Die Kollegin ruft dem Kunden morgen zurück." },
+        { "id": "c", "text": "Die Kollegin zurückruft den Kunden morgen." },
+        { "id": "d", "text": "Die Kollegin ruft den Kunden morgen zurück." }
+      ],
+      "correctOptionId": "d"
+    },
+    {
+      "id": "de-b1-u07-l2-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Mein Hausarzt gibt mir eine Überweisung.",
+      "tiles": [
+        "my",
+        "family",
+        "doctor",
+        "GP",
+        "gives",
+        "is",
+        "giving",
+        "me",
+        "a",
+        "referral",
+        "prescription",
+        "give",
+        "I"
+      ],
+      "answers": [
+        "My family doctor gives me a referral.",
+        "My family doctor is giving me a referral.",
+        "My GP gives me a referral.",
+        "My GP is giving me a referral.",
+        "My doctor gives me a referral.",
+        "My doctor is giving me a referral."
+      ]
+    },
+    {
+      "id": "de-b1-u07-l2-ex07",
+      "type": "listen",
+      "audio": { "src": "/audio/de/b1/u07/de-b1-u07-l2-ex07.mp3" },
+      "tiles": [
+        "ich",
+        "ich",
+        "brauche",
+        "ein",
+        "Rezept",
+        "gehe",
+        "zum",
+        "Hausarzt",
+        "einen",
+        "zur",
+        "braucht"
+      ],
+      "answers": ["Ich brauche ein Rezept. Ich gehe zum Hausarzt."]
+    },
+    {
+      "id": "de-b1-u07-l2-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "We're helping the neighbour.",
+      "tiles": ["wir", "helfen", "dem", "Nachbarn", "der", "Nachbarin", "Nachbar", "den", "helft"],
+      "answers": [
+        "Wir helfen dem Nachbarn.",
+        "Wir helfen der Nachbarin.",
+        "Dem Nachbarn helfen wir.",
+        "Der Nachbarin helfen wir."
+      ]
+    },
+    {
+      "id": "de-b1-u07-l2-ex09",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'The family doctor is talking to the female patient.'?",
+      "options": [
+        { "id": "a", "text": "Der Hausarzt spricht mit der Patientinen." },
+        { "id": "b", "text": "Der Hausarzt spricht mit dem Patientin." },
+        { "id": "c", "text": "Der Hausarzt spricht mit der Patienten." },
+        { "id": "d", "text": "Der Hausarzt spricht mit der Patientin." }
+      ],
+      "correctOptionId": "d"
+    },
+    {
+      "id": "de-b1-u07-l2-ex10",
+      "type": "listen",
+      "audio": { "src": "/audio/de/b1/u07/de-b1-u07-l2-ex10.mp3" },
+      "tiles": [
+        "die",
+        "Praxis",
+        "hat",
+        "viele",
+        "Patienten",
+        "der",
+        "Student",
+        "wartet",
+        "lange",
+        "Studenten",
+        "haben",
+        "Patient"
+      ],
+      "answers": ["Die Praxis hat viele Patienten. Der Student wartet lange."]
+    },
+    {
+      "id": "de-b1-u07-l2-ex11",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I'm writing to Mr Yilmaz.",
+      "tiles": ["ich", "schreibe", "Herrn", "Yilmaz", "Herr", "schreibt", "den"],
+      "answers": ["Ich schreibe Herrn Yilmaz.", "Herrn Yilmaz schreibe ich."]
+    },
+    {
+      "id": "de-b1-u07-l2-ex12",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "The doctor I go to is very nice.",
+      "tiles": [
+        "die",
+        "Ärztin",
+        "der",
+        "Arzt",
+        "zu",
+        "dem",
+        "ich",
+        "gehe",
+        "ist",
+        "sehr",
+        "nett",
+        "geht"
+      ],
+      "answers": [
+        "Die Ärztin, zu der ich gehe, ist sehr nett.",
+        "Der Arzt, zu dem ich gehe, ist sehr nett."
+      ]
+    }
+  ]
+}

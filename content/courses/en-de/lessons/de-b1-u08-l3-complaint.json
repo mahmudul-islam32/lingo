@@ -1,0 +1,188 @@
+{
+  "id": "de-b1-u08-l3-complaint",
+  "courseId": "en-de",
+  "unitId": "de-b1-u08",
+  "title": "Making a Complaint",
+  "tip": "sich beschweren takes über + accusative. With möchte, the infinitive goes last: „Ich möchte mich über die Lieferung beschweren.“ For a faulty product: „Ich möchte das Gerät reklamieren.“",
+  "exercises": [
+    {
+      "id": "de-b1-u08-l3-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        { "id": "p1", "learning": "sich beschweren über", "known": "to complain about" },
+        { "id": "p2", "learning": "reklamieren", "known": "to return as faulty" },
+        { "id": "p3", "learning": "zurückbekommen", "known": "to get back" },
+        { "id": "p4", "learning": "das Gerät", "known": "the device" },
+        { "id": "p5", "learning": "die Garantie", "known": "the guarantee" }
+      ]
+    },
+    {
+      "id": "de-b1-u08-l3-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'I'd like to complain about the delivery.'?",
+      "options": [
+        { "id": "a", "text": "Ich möchte mir über die Lieferung beschweren." },
+        { "id": "b", "text": "Ich möchte mich auf die Lieferung beschweren." },
+        { "id": "c", "text": "Ich möchte mich über der Lieferung beschweren." },
+        { "id": "d", "text": "Ich möchte mich über die Lieferung beschweren." }
+      ],
+      "correctOptionId": "d"
+    },
+    {
+      "id": "de-b1-u08-l3-ex03",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I'd like to return the device as faulty.",
+      "tiles": [
+        "ich",
+        "möchte",
+        "das",
+        "Gerät",
+        "reklamieren",
+        "der",
+        "reklamiere",
+        "mich",
+        "über"
+      ],
+      "answers": ["Ich möchte das Gerät reklamieren.", "Das Gerät möchte ich reklamieren."]
+    },
+    {
+      "id": "de-b1-u08-l3-ex04",
+      "type": "listen",
+      "audio": { "src": "/audio/de/b1/u08/de-b1-u08-l3-ex04.mp3" },
+      "tiles": ["ich", "möchte", "mein", "Geld", "zurückbekommen", "meinen", "bekommen", "möchten"],
+      "answers": ["Ich möchte mein Geld zurückbekommen."]
+    },
+    {
+      "id": "de-b1-u08-l3-ex05",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Das Gerät hat noch Garantie.",
+      "tiles": ["the", "device", "still", "has", "a", "guarantee", "no", "had", "already"],
+      "answers": ["The device still has a guarantee."]
+    },
+    {
+      "id": "de-b1-u08-l3-ex06",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'I'm calling customer service.'?",
+      "options": [
+        { "id": "a", "text": "Ich rufe den Kundenservice an." },
+        { "id": "b", "text": "Ich anrufe den Kundenservice." },
+        { "id": "c", "text": "Ich rufe dem Kundenservice an." },
+        { "id": "d", "text": "Ich rufe an den Kundenservice." }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "de-b1-u08-l3-ex07",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I'm trying to call customer service.",
+      "tiles": [
+        "ich",
+        "versuche",
+        "den",
+        "Kundenservice",
+        "anzurufen",
+        "zu",
+        "anrufen",
+        "dem",
+        "versucht"
+      ],
+      "answers": ["Ich versuche, den Kundenservice anzurufen."]
+    },
+    {
+      "id": "de-b1-u08-l3-ex08",
+      "type": "listen",
+      "audio": { "src": "/audio/de/b1/u08/de-b1-u08-l3-ex08.mp3" },
+      "tiles": [
+        "ich",
+        "habe",
+        "die",
+        "Reklamation",
+        "gestern",
+        "geschrieben",
+        "bin",
+        "der",
+        "schreibe"
+      ],
+      "answers": ["Ich habe die Reklamation gestern geschrieben."]
+    },
+    {
+      "id": "de-b1-u08-l3-ex09",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "This is the device that doesn't work.",
+      "tiles": [
+        "das",
+        "ist",
+        "das",
+        "Gerät",
+        "das",
+        "nicht",
+        "funktioniert",
+        "der",
+        "die",
+        "funktionieren",
+        "dass"
+      ],
+      "answers": ["Das ist das Gerät, das nicht funktioniert."]
+    },
+    {
+      "id": "de-b1-u08-l3-ex10",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'Although the device was expensive, it's broken.'?",
+      "options": [
+        { "id": "a", "text": "Obwohl das Gerät war teuer, ist es kaputt." },
+        { "id": "b", "text": "Obwohl das Gerät teuer war, es ist kaputt." },
+        { "id": "c", "text": "Obwohl das Gerät teuer war, ist es kaputt." },
+        { "id": "d", "text": "Obwohl das Gerät teuer war, ist kaputt es." }
+      ],
+      "correctOptionId": "c"
+    },
+    {
+      "id": "de-b1-u08-l3-ex11",
+      "type": "listen",
+      "audio": { "src": "/audio/de/b1/u08/de-b1-u08-l3-ex11.mp3" },
+      "tiles": [
+        "könnten",
+        "Sie",
+        "mir",
+        "bitte",
+        "helfen",
+        "das",
+        "Gerät",
+        "ist",
+        "kaputt",
+        "konnten",
+        "mich",
+        "sind"
+      ],
+      "answers": ["Könnten Sie mir bitte helfen? Das Gerät ist kaputt."]
+    },
+    {
+      "id": "de-b1-u08-l3-ex12",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Der Kundenservice hilft dem Kunden.",
+      "tiles": [
+        "the",
+        "the",
+        "customer",
+        "service",
+        "helps",
+        "customer",
+        "is",
+        "helping",
+        "customers",
+        "help"
+      ],
+      "answers": [
+        "Customer service helps the customer.",
+        "Customer service is helping the customer.",
+        "The customer service helps the customer.",
+        "The customer service is helping the customer."
+      ]
+    }
+  ]
+}

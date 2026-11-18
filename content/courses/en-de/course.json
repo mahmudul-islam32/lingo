@@ -3,7 +3,7 @@
   "title": "German",
   "learningLanguage": "de",
   "knownLanguage": "en",
-  "version": 20,
+  "version": 21,
   "levels": [
     {
       "level": "A1",
@@ -920,6 +920,62 @@
         {
           "id": "de-b1-u06-l5-complaint-letter",
           "title": "Scenario: A Letter About the Mould"
+        }
+      ]
+    },
+    {
+      "id": "de-b1-u07",
+      "level": "B1",
+      "title": "Doctors and Hospitals",
+      "description": "Describe symptoms, talk to doctors and find your way in a hospital, with n-nouns and dative reflexive pronouns.",
+      "lessons": [
+        {
+          "id": "de-b1-u07-l1-symptoms",
+          "title": "Symptoms"
+        },
+        {
+          "id": "de-b1-u07-l2-the-patient",
+          "title": "The Patient"
+        },
+        {
+          "id": "de-b1-u07-l3-wash-your-hands",
+          "title": "Wash Your Hands"
+        },
+        {
+          "id": "de-b1-u07-l4-hospital",
+          "title": "At the Hospital"
+        },
+        {
+          "id": "de-b1-u07-l5-insurance-call",
+          "title": "Scenario: A Call to the Health Insurer"
+        }
+      ]
+    },
+    {
+      "id": "de-b1-u08",
+      "level": "B1",
+      "title": "Orders and Complaints",
+      "description": "Order online, complain about faulty goods and cancel a contract, with obwohl and damit.",
+      "lessons": [
+        {
+          "id": "de-b1-u08-l1-ordering-online",
+          "title": "Ordering Online"
+        },
+        {
+          "id": "de-b1-u08-l2-although",
+          "title": "Although It Was New"
+        },
+        {
+          "id": "de-b1-u08-l3-complaint",
+          "title": "Making a Complaint"
+        },
+        {
+          "id": "de-b1-u08-l4-so-that",
+          "title": "So That It Arrives Today"
+        },
+        {
+          "id": "de-b1-u08-l5-cancelling",
+          "title": "Scenario: Cancelling a Contract"
         }
       ]
     }

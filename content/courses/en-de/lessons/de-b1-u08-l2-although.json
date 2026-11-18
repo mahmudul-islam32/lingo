@@ -1,0 +1,210 @@
+{
+  "id": "de-b1-u08-l2-although",
+  "courseId": "en-de",
+  "unitId": "de-b1-u08",
+  "title": "Although It Was New",
+  "tip": "obwohl sends the verb to the end: „Obwohl die Lampe neu ist, funktioniert sie nicht.“ Compare trotzdem, which keeps the verb second: „Sie ist neu, trotzdem funktioniert sie nicht.“",
+  "exercises": [
+    {
+      "id": "de-b1-u08-l2-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        { "id": "p1", "learning": "obwohl", "known": "although" },
+        { "id": "p2", "learning": "beschädigt", "known": "damaged" },
+        { "id": "p3", "learning": "die Verpackung", "known": "the packaging" },
+        { "id": "p4", "learning": "enttäuscht", "known": "disappointed" },
+        { "id": "p5", "learning": "ärgerlich", "known": "annoying" }
+      ]
+    },
+    {
+      "id": "de-b1-u08-l2-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'Although the lamp is new, it doesn't work.'?",
+      "options": [
+        { "id": "a", "text": "Obwohl sie ist neu, funktioniert die Lampe nicht." },
+        { "id": "b", "text": "Obwohl die Lampe neu ist, funktioniert sie nicht." },
+        { "id": "c", "text": "Obwohl die Lampe neu ist, sie funktioniert nicht." },
+        { "id": "d", "text": "Trotzdem die Lampe neu ist, funktioniert sie nicht." }
+      ],
+      "correctOptionId": "b"
+    },
+    {
+      "id": "de-b1-u08-l2-ex03",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Although the lamp is new, it doesn't work.",
+      "tiles": [
+        "obwohl",
+        "die",
+        "Lampe",
+        "neu",
+        "ist",
+        "funktioniert",
+        "sie",
+        "nicht",
+        "funktionieren",
+        "sind",
+        "kein"
+      ],
+      "answers": [
+        "Obwohl die Lampe neu ist, funktioniert sie nicht.",
+        "Die Lampe funktioniert nicht, obwohl sie neu ist.",
+        "Obwohl sie neu ist, funktioniert die Lampe nicht.",
+        "Sie funktioniert nicht, obwohl die Lampe neu ist."
+      ]
+    },
+    {
+      "id": "de-b1-u08-l2-ex04",
+      "type": "listen",
+      "audio": { "src": "/audio/de/b1/u08/de-b1-u08-l2-ex04.mp3" },
+      "tiles": ["die", "Verpackung", "war", "beschädigt", "ist", "der", "waren"],
+      "answers": ["Die Verpackung war beschädigt."]
+    },
+    {
+      "id": "de-b1-u08-l2-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'The lamp is new, but it still doesn't work.'?",
+      "options": [
+        { "id": "a", "text": "Die Lampe ist neu, trotzdem sie funktioniert nicht." },
+        { "id": "b", "text": "Die Lampe ist neu, obwohl funktioniert sie nicht." },
+        { "id": "c", "text": "Die Lampe ist neu, obwohl sie nicht funktioniert." },
+        { "id": "d", "text": "Die Lampe ist neu, trotzdem funktioniert sie nicht." }
+      ],
+      "correctOptionId": "d"
+    },
+    {
+      "id": "de-b1-u08-l2-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Die Ware ist kaputt, deshalb bin ich enttäuscht.",
+      "tiles": [
+        "the",
+        "goods",
+        "are",
+        "broken",
+        "so",
+        "I'm",
+        "I",
+        "am",
+        "disappointed",
+        "is",
+        "annoying",
+        "new"
+      ],
+      "answers": [
+        "The goods are broken, so I'm disappointed.",
+        "The goods are broken, so I am disappointed."
+      ]
+    },
+    {
+      "id": "de-b1-u08-l2-ex07",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Although I waited for a long time, the parcel didn't come.",
+      "tiles": [
+        "obwohl",
+        "ich",
+        "lange",
+        "gewartet",
+        "habe",
+        "kam",
+        "das",
+        "Paket",
+        "nicht",
+        "bin",
+        "kamen",
+        "der"
+      ],
+      "answers": [
+        "Obwohl ich lange gewartet habe, kam das Paket nicht.",
+        "Das Paket kam nicht, obwohl ich lange gewartet habe."
+      ]
+    },
+    {
+      "id": "de-b1-u08-l2-ex08",
+      "type": "listen",
+      "audio": { "src": "/audio/de/b1/u08/de-b1-u08-l2-ex08.mp3" },
+      "tiles": ["das", "ist", "wirklich", "ärgerlich", "sind", "der", "wichtig"],
+      "answers": ["Das ist wirklich ärgerlich."]
+    },
+    {
+      "id": "de-b1-u08-l2-ex09",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'The lamp that I ordered is damaged.'?",
+      "options": [
+        { "id": "a", "text": "Die Lampe, die ich habe bestellt, ist beschädigt." },
+        { "id": "b", "text": "Die Lampe, der ich bestellt habe, ist beschädigt." },
+        { "id": "c", "text": "Die Lampe, die ich bestellt habe, ist beschädigt." },
+        { "id": "d", "text": "Die Lampe, die ich bestellt habe, beschädigt ist." }
+      ],
+      "correctOptionId": "c"
+    },
+    {
+      "id": "de-b1-u08-l2-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "The goods were damaged, although the packaging was new.",
+      "tiles": [
+        "die",
+        "Ware",
+        "war",
+        "beschädigt",
+        "obwohl",
+        "die",
+        "Verpackung",
+        "neu",
+        "war",
+        "ist",
+        "weil",
+        "waren"
+      ],
+      "answers": [
+        "Die Ware war beschädigt, obwohl die Verpackung neu war.",
+        "Obwohl die Verpackung neu war, war die Ware beschädigt."
+      ]
+    },
+    {
+      "id": "de-b1-u08-l2-ex11",
+      "type": "listen",
+      "audio": { "src": "/audio/de/b1/u08/de-b1-u08-l2-ex11.mp3" },
+      "tiles": [
+        "obwohl",
+        "die",
+        "Verpackung",
+        "beschädigt",
+        "war",
+        "ist",
+        "die",
+        "Ware",
+        "nicht",
+        "kaputt",
+        "sind",
+        "trotzdem"
+      ],
+      "answers": ["Obwohl die Verpackung beschädigt war, ist die Ware nicht kaputt."]
+    },
+    {
+      "id": "de-b1-u08-l2-ex12",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Obwohl das Paket beschädigt war, funktioniert die Lampe.",
+      "tiles": [
+        "although",
+        "the",
+        "the",
+        "parcel",
+        "was",
+        "damaged",
+        "lamp",
+        "works",
+        "is",
+        "broken",
+        "because"
+      ],
+      "answers": [
+        "Although the parcel was damaged, the lamp works.",
+        "The lamp works, although the parcel was damaged."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,181 @@
+{
+  "id": "de-b1-u07-l3-wash-your-hands",
+  "courseId": "en-de",
+  "unitId": "de-b1-u07",
+  "title": "Wash Your Hands",
+  "tip": "With a second object, the reflexive pronoun is dative: mich → mir, dich → dir; sich, uns, euch stay. It comes right after the verb, and body parts take the article: „Ich wasche mir die Hände.“",
+  "exercises": [
+    {
+      "id": "de-b1-u07-l3-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        { "id": "p1", "learning": "die Hand", "known": "the hand" },
+        { "id": "p2", "learning": "die Zähne", "known": "the teeth" },
+        { "id": "p3", "learning": "sich die Zähne putzen", "known": "to brush one's teeth" },
+        { "id": "p4", "learning": "untersuchen", "known": "to examine" },
+        { "id": "p5", "learning": "die Untersuchung", "known": "the examination" }
+      ]
+    },
+    {
+      "id": "de-b1-u07-l3-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'I wash my hands.'?",
+      "options": [
+        { "id": "a", "text": "Ich wasche mich die Hände." },
+        { "id": "b", "text": "Ich wasche mir die Hände." },
+        { "id": "c", "text": "Ich wasche die Hände mir." },
+        { "id": "d", "text": "Ich wasche mir den Hände." }
+      ],
+      "correctOptionId": "b"
+    },
+    {
+      "id": "de-b1-u07-l3-ex03",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Brush your teeth! (to a child)",
+      "tiles": ["putz", "dir", "die", "Zähne", "dich", "Zahn", "putzt"],
+      "answers": ["Putz dir die Zähne!"]
+    },
+    {
+      "id": "de-b1-u07-l3-ex04",
+      "type": "listen",
+      "audio": { "src": "/audio/de/b1/u07/de-b1-u07-l3-ex04.mp3" },
+      "tiles": [
+        "er",
+        "hat",
+        "sich",
+        "beim",
+        "Sport",
+        "den",
+        "Arm",
+        "gebrochen",
+        "mich",
+        "das",
+        "ist",
+        "Bein"
+      ],
+      "answers": ["Er hat sich beim Sport den Arm gebrochen."]
+    },
+    {
+      "id": "de-b1-u07-l3-ex05",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I've hurt my hand.",
+      "tiles": ["ich", "habe", "mir", "die", "Hand", "verletzt", "mich", "den", "hat", "Hände"],
+      "answers": ["Ich habe mir die Hand verletzt.", "Die Hand habe ich mir verletzt."]
+    },
+    {
+      "id": "de-b1-u07-l3-ex06",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'She broke her leg.'?",
+      "options": [
+        { "id": "a", "text": "Sie hat sich das Bein gebrochen." },
+        { "id": "b", "text": "Sie hat sich das Bein gebrecht." },
+        { "id": "c", "text": "Sie ist sich das Bein gebrochen." },
+        { "id": "d", "text": "Sie hat das Bein sich gebrochen." }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "de-b1-u07-l3-ex07",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Die Ärztin untersucht den Fuß.",
+      "tiles": [
+        "the",
+        "the",
+        "doctor",
+        "is",
+        "examining",
+        "examines",
+        "foot",
+        "feet",
+        "hand",
+        "examine"
+      ],
+      "answers": ["The doctor is examining the foot.", "The doctor examines the foot."]
+    },
+    {
+      "id": "de-b1-u07-l3-ex08",
+      "type": "listen",
+      "audio": { "src": "/audio/de/b1/u07/de-b1-u07-l3-ex08.mp3" },
+      "tiles": [
+        "die",
+        "Untersuchung",
+        "dauert",
+        "zehn",
+        "Minuten",
+        "bitte",
+        "warten",
+        "Sie",
+        "hier",
+        "dauern",
+        "Stunden",
+        "wartet"
+      ],
+      "answers": ["Die Untersuchung dauert zehn Minuten. Bitte warten Sie hier."]
+    },
+    {
+      "id": "de-b1-u07-l3-ex09",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Did you wash your hands? (to a friend)",
+      "tiles": ["hast", "du", "dir", "die", "Hände", "gewaschen", "dich", "Hand", "hat", "waschen"],
+      "answers": ["Hast du dir die Hände gewaschen?"]
+    },
+    {
+      "id": "de-b1-u07-l3-ex10",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'The doctor is examining the student.'?",
+      "options": [
+        { "id": "a", "text": "Die Ärztin untersucht den Student." },
+        { "id": "b", "text": "Die Ärztin untersucht dem Studenten." },
+        { "id": "c", "text": "Die Ärztin untersucht den Studenten." },
+        { "id": "d", "text": "Die Ärztin untersucht der Studenten." }
+      ],
+      "correctOptionId": "c"
+    },
+    {
+      "id": "de-b1-u07-l3-ex11",
+      "type": "listen",
+      "audio": { "src": "/audio/de/b1/u07/de-b1-u07-l3-ex11.mp3" },
+      "tiles": [
+        "die",
+        "die",
+        "Kinder",
+        "putzen",
+        "sich",
+        "morgens",
+        "und",
+        "abends",
+        "Zähne",
+        "putzt",
+        "Zahn",
+        "mittags"
+      ],
+      "answers": ["Die Kinder putzen sich morgens und abends die Zähne."]
+    },
+    {
+      "id": "de-b1-u07-l3-ex12",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "My colleague broke his arm. (to a friend)",
+      "tiles": [
+        "mein",
+        "Kollege",
+        "hat",
+        "sich",
+        "den",
+        "Arm",
+        "gebrochen",
+        "Kollegen",
+        "mich",
+        "ist"
+      ],
+      "answers": [
+        "Mein Kollege hat sich den Arm gebrochen.",
+        "Den Arm hat sich mein Kollege gebrochen."
+      ]
+    }
+  ]
+}

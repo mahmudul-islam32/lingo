@@ -94,3 +94,91 @@ _(cto)_
 
 ## Review
 _(pm self-review of CDS-1…28 and criteria 3–7 goes here, A2 format)_
+
+## PM self-review
+
+**Date:** 2026-11-18 · **Writer:** pm (content writer 4) · **Result:** ready for the wave 2
+scripted checks (PD-062). I couldn't run commands, so `npm run test` (the schema and
+buildability check) still needs to be run by the orchestrator. Every answer was checked by
+hand against its tile multiset.
+
+### Files
+- `content/courses/en-de/lessons/de-b1-u08-l1-ordering-online.json` (12)
+- `content/courses/en-de/lessons/de-b1-u08-l2-although.json` (12)
+- `content/courses/en-de/lessons/de-b1-u08-l3-complaint.json` (12)
+- `content/courses/en-de/lessons/de-b1-u08-l4-so-that.json` (12)
+- `content/courses/en-de/lessons/de-b1-u08-l5-cancelling.json` (12)
+- Unit fragment `de-b1-unit-08.json` (`id`, `title`, `description`, `lessons`) goes to the
+  orchestrator. I did not edit `course.json`.
+
+### Mix per lesson (CDS-2)
+| Lesson | MC | WB (to_learning / to_known) | Match | Listen | Total |
+|---|---|---|---|---|---|
+| L1 | 3 | 5 (3 / 2) | 1 | 3 | 12 |
+| L2 | 3 | 5 (3 / 2) | 1 | 3 | 12 |
+| L3 | 3 | 5 (3 / 2) | 1 | 3 | 12 |
+| L4 | 3 | 5 (3 / 2) | 1 | 3 | 12 |
+| L5 | 3 | 5 (4 / 1) | 1 | 3 | 12 |
+
+### CDS results
+| Rule | Result | Note |
+|---|---|---|
+| CDS-1 Files | PASS (fragment) | Ids and titles match criterion 1. The orchestrator inserts the unit after `de-b1-u07` with `level: "B1"` and bumps `version`. |
+| CDS-2 Mix | PASS | See the table above. |
+| CDS-3 Vocabulary | PASS (1 request) | All 31 appendix items are used in their own lesson or later. Other words come from A1, A2 (incl. QA additions `lange`, `sagen`) and the B1 U1–U7 appendices (`könnten Sie`, `verstehen`, `kennen`, `die Kundennummer`, `dauern`, `wirklich`, `kam`, `freundlich`, `versuchen`, `zu`, `um … zu`, `der Kunde`). Taught nouns from the ticket note: `das Paket`, `der Vertrag`, `kaputt`, `die Bestätigung`. Extras: regular plural `Tage`; CDS-16 participles `bestellt`, `gewartet`, `geschickt`, `gekündigt`, `geschrieben` (A2); zu-infinitives `anzurufen`, `abzuholen`, `anzukommen` (CDS-22.4); n-forms `dem Kunden`, `dem Nachbarn` (CDS-22.8). Not used: passive, `lassen`, `wegen`, Konjunktiv II beyond the U1 chunks, `aufschreiben`, `annehmen`, `der Online-Shop`, `der Preis`, any shop or carrier name, `zurück` on its own. No CDS-22.9 compound. Request: see below (`noch` "still"). |
+| CDS-4 Alternatives | PASS | Clause-first and main-clause-first for `obwohl` (L2 ex03, ex07, ex10; L5 ex06), `damit` (L4 ex06, ex08; L5 ex08) and `um … zu` (L4 ex03); fronted time / place / manner (L1 ex03, ex10; L4 ex03, ex06; L5 ex04); short-object fronting (L1 ex10; L3 ex03; L4 ex08; L5 ex04, ex08); middle-field swaps (L1 ex10; L5 ex04, ex12); noun / pronoun swap across the `obwohl` clause (L2 ex03); English contractions, optional "that", "so that / so", optional "the" and "mobile / phone" (L1 ex06, ex12; L2 ex06; L3 ex12; L4 ex10, ex12; L5 ex10). Listens accept the transcript only. |
+| CDS-5 Distractors | PASS (notes) | 2–4 distractors per word bank. Tiles left out because they would build unlisted valid answers: `trotzdem` (L2 ex03, ex10; L5 ex06: `…, trotzdem funktioniert sie nicht` is correct), `kommt` (L4 ex06: `damit es heute kommt`), `because` (L2 ex06), `is` (L1 ex12: "The delivery is four euros"), `gekommen` / `ist` (L2 ex07, L5 ex06, one past tense per verb). Buildable but wrong in meaning, so rejected on purpose: L4 ex06 `Ich bestelle früh, um heute anzukommen.` (wrong subject, the drilled error) and `Ich bestelle heute früh, damit es ankommt.` ("this morning"); L5 ex08 `…, um die Kündigung zu bestätigen.` (wrong subject); L3 ex03 `Ich reklamiere das Gerät.` (no "I'd like"); L3 ex09 `Das Gerät ist das, das nicht funktioniert.` |
+| CDS-6 Conventions | PASS | Umlauts and `ß` correct; no capital `ẞ`. Nouns capitalised, other tiles lower case. `Sie` (L1 ex04; L3 ex11; L5 ex12) and `sie` (L2 ex03; L4 ex11) never share a tile set; `Ihre` only in L5 ex09 with no `ihre`; no `ihnen / Ihnen` pair. Register marked "(formal)", "(to a friend)", "(on the phone)". Tips use „…“. |
+| CDS-7 MC direction | PASS | English prompts, German options, PD-044 punctuation. |
+| CDS-8 Originality | PASS | All sentences original; the shop, device and phone company are unnamed (`die Firma`). |
+| CDS-9 Audio | PASS | 15 listens, `/audio/de/b1/u08/<exercise-id>.mp3`. |
+| CDS-11 / CDS-26 Safe | PASS | See criterion 7. |
+| CDS-12 Ids | PASS | `de-b1-u08-lN-exNN`, unique; options `a`–`d`, pairs `p1`–`p5`. |
+| CDS-13 Fit | PASS | Longest tile `Benachrichtigung` (16). No digits in tiles, answers or prompts. |
+| CDS-14 Drill | PASS | L4 (`damit` vs `um … zu`, the only *pattern* lesson): ex02, ex03, ex05, ex06, ex08, ex11, ex12; error MCs ex02 (`um er …`, V2 after `damit`, `dem Nachbar`) and ex05 (`um … ankommt`, `um das Paket … anzukommen`). L2 `obwohl` also has error MCs (ex02, ex05). |
+| CDS-16 / 17 / 18 | PASS | No case-only pairs; prices in words (`vier Euro`, `zwanzig Euro`). |
+| CDS-20 Length | PASS | Prompts ≤ 95 characters (L4 ex02); at most 14 tiles per set (L4 ex08, ex11); canonical answers ≤ 11 tiles and ≤ 2 clauses; listens ≤ 2 sentences, ≤ 10 words; longest MC option about 72 characters. |
+| CDS-21 Tip | PASS | Each tip names the rule with German examples in „…“; longest is L5 (about 220 characters). |
+| CDS-22 Extras | PASS | Konjunktiv II only `könnten Sie` and `möchte`; relative pronouns nom. / acc. only; n-forms only for `der Kunde`, `der Nachbar`. |
+| CDS-23 Tense | PASS (1 note) | Perfekt in prompts marked as speech (L1 ex02, ex10; L4 ex09; L5 ex04). Each tile set builds one past form per verb. Note: L2 ex07 and L5 ex06 follow the outline's mix `Obwohl ich … gewartet habe / gekündigt habe, kam …` (Perfekt + Präteritum of `kommen`); no tile set offers `ist … gekommen`, and no MC marks either tense as an error. |
+| CDS-24 Word order | PASS | `obwohl`, `damit`, `um … zu` clauses accepted first and second; relative clauses never fronted; indirect question (L1 ex09) never fronted. At most 6 accepted answers per exercise. |
+| CDS-25 Recycling | PASS | See criterion 6. |
+| CDS-27 Glosses | PASS (1 note) | Recycled glosses unchanged. Match glosses shortened to fit: `die Benachrichtigung` "the notification", `kündigen` "to cancel (a contract)". |
+| CDS-28 | N/A | Not a checkpoint unit. |
+
+### Unit criteria 3–7
+| # | Result | Evidence |
+|---|---|---|
+| 3 | PASS | `obwohl` in 10 exercises: L2 ex02, ex03, ex05, ex07, ex10, ex11, ex12; L3 ex10; L5 ex06, ex11. Both orders accepted in L2 ex03, ex07, ex10; L5 ex06. V2 distractor `Obwohl sie ist neu, …` in L2 ex02 (also L3 ex10 `Obwohl das Gerät war teuer`, L5 ex11). `trotzdem` contrast: L2 ex02 (prompt "Although the lamp is new, it doesn't work." → `Obwohl die Lampe neu ist, funktioniert sie nicht.`) and L2 ex05 (prompt "The lamp is new, but it still doesn't work." → `Die Lampe ist neu, trotzdem funktioniert sie nicht.`, with `…, obwohl sie nicht funktioniert.` as the wrong-meaning distractor). |
+| 4 | PASS | `damit` in 8 exercises: L4 ex02, ex05, ex06, ex08, ex11, ex12; L5 ex07, ex08 (plus distractor tiles in L4 ex03, L5 ex09). `um … zu` vs `damit` contrasts: L4 ex03 (same subject, `damit` tile), ex05 (MC), ex06 (`um … anzukommen` buildable, wrong subject), L5 ex07 (MC), ex08, ex09 (same subject → `um … zu`). `…, um er das Paket abholen kann.` is L4 ex02 option a. |
+| 5 | PASS | `damit` is a conjunction everywhere; no `da-` compound "with it". |
+| 6 | PASS | U5 `um … zu`: L4 ex03, ex05, ex06; L5 ex07, ex09. U5 zu-infinitive: L3 ex07 (`versuche, … anzurufen`), L4 ex09 (`vergessen, … abzuholen`, with `zu abholen` distractor). U3 relative clauses: L2 ex09 (acc. `die`), L3 ex09 (nom. `das`). U7 n-declension: L3 ex12 (`dem Kunden`), L4 ex02 (`dem Nachbarn` vs `dem Nachbar`), L4 ex08 (`dem Kunden`, `Kunde` tile). U1 polite chunks: L3 ex11, L5 ex03, L5 ex12 (`Könnten Sie …`, with `konnten`); U1 indirect question L1 ex09. |
+| 7 | PASS | No return periods, warranty rules, cancellation periods or consumer rights. `Das Gerät hat noch Garantie.` (outline) describes this one device; `Ich möchte mein Geld zurückbekommen.` is a wish. No names of shops, devices, carriers or phone companies. Prices in words. |
+
+### Deviations
+- None from the outline. L1 ex12 states an invented delivery price (`vier Euro`), not a rule.
+
+### Vocabulary requests
+1. `noch` = "still" (L3 ex05 `Das Gerät hat noch Garantie.`, from the outline). The A1 gloss is
+   "another / one more" (used that way in L5 ex06 `noch eine Rechnung`). QA should decide whether
+   "still" needs a CDS-27 "new meaning" entry (U6's self-review avoided `noch` "still").
+
+### Uncertainties / needs native review
+1. L2 ex03 accepts the noun / pronoun swap `Obwohl sie neu ist, funktioniert die Lampe nicht.` and
+   the cataphoric `Sie funktioniert nicht, obwohl die Lampe neu ist.` (buildable, grammatical).
+2. L1 ex10: `Online habe ich eine neue Lampe bestellt.`, `Eine neue Lampe habe ich online
+   bestellt.` and the middle-field order `… eine neue Lampe online bestellt` (PD-053.1–2).
+3. L4 ex03 `Zu Hause bleibe ich, um das Paket abzuholen.`; L4 ex06 `Früh bestelle ich, damit es
+   heute ankommt.` (fronting, PD-043 / PD-053.1).
+4. L4 ex08: fronted dative `Dem Kunden schicke ich …` and fronted indefinite object `Eine
+   Sendungsnummer schicke ich dem Kunden, …` are accepted (PD-043.3).
+5. L5 ex06 accepts `Noch eine Rechnung kam, obwohl ich gekündigt habe.`; the buildable `Eine
+   Rechnung kam noch, obwohl …` ("still came") is **not** accepted. QA should confirm.
+6. L5 ex08 `Eine E-Mail schreibe ich, damit …`; L5 ex04 `Die Kündigung habe ich letzte Woche
+   geschickt.`; L5 ex12 `Könnten Sie schriftlich die Kündigung bestätigen?` (adverb before the
+   definite object).
+7. L2 ex07 / L5 ex06: Perfekt in the `obwohl` clause with Präteritum `kam` in the main clause, as in
+   the outline. Natural in speech, but QA may prefer one tense per sentence across B1.
+8. L3 ex12 accepts "The customer service helps …" next to "Customer service helps …".
+9. L4 ex08 prompt "so that he finds the parcel" is slightly stiff English; "can find" would need
+   `kann … finden` and push the tile set over 14.
