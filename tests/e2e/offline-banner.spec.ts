@@ -11,6 +11,18 @@ const offlineBanner = (page: Page) => page.getByRole("status").filter({ hasText:
 const backOnlineBanner = (page: Page) =>
   page.getByRole("status").filter({ hasText: BACK_ONLINE_TEXT });
 
+/**
+ * Resolves once the banner's fade-in (and any other animation or transition inside it)
+ * has finished, so axe reads its final colours rather than mid-transition ones (FIX-007).
+ * `getAnimations()` flushes styles first, so a just-mounted animation is included.
+ */
+const bannerSettled = (page: Page) =>
+  page
+    .getByTestId("offline-banner")
+    .evaluate((el) =>
+      Promise.all(el.getAnimations({ subtree: true }).map((a) => a.finished)).then(() => {}),
+    );
+
 test.describe("offline banner", () => {
   test("shows when the connection drops, then 'Back online' for 3 s", async ({ page, context }) => {
     await completeOnboarding(page);
@@ -19,6 +31,7 @@ test.describe("offline banner", () => {
     await context.setOffline(true);
     await expect(offlineBanner(page)).toBeVisible({ timeout: 2_000 });
     await expect(page.getByTestId("icon-cloud-off")).toBeVisible();
+    await bannerSettled(page);
     await expectNoSeriousA11yViolations(page);
 
     await context.setOffline(false);
