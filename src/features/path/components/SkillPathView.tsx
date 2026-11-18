@@ -11,14 +11,17 @@ import {
   useState,
   type RefObject,
 } from "react";
-import type { CefrLevel, Course, PathNode, Slug } from "@/contracts";
+import { GAME_CONFIG, type CefrLevel, type Course, type PathNode, type Slug } from "@/contracts";
 import { Button, Card, Dialog, Lumi, cn } from "@/components/ui";
 import {
   buildPathSections,
   defaultExpandedLevel,
   findFrontier,
   findPathLesson,
+  isLevelFullyLocked,
+  pathNodeDisplay,
   resolvePathActivation,
+  startLessonIndex,
   type PathLevelSection,
   type PathUnitSection,
 } from "../rules";
@@ -29,19 +32,41 @@ import {
   OK_TEXT,
   OUT_OF_HEARTS_FALLBACK,
   OUT_OF_HEARTS_TITLE,
+  PRACTISE_TO_EARN_TEXT,
+  START_HERE_TEXT,
   lockedToastText,
+  startHereName,
+  startingAtText,
   unitNumberText,
   unitProgressText,
 } from "./copy";
+import { LockIcon } from "./LockIcon";
 import { PathNodeItem } from "./PathNode";
 import { scrollToCenter, whenScrollSettles } from "./scroll-to-center";
 
 export interface SkillPathViewProps {
   /** Course manifest: levels, unit titles, lesson titles and order. */
   course: Course;
-  /** From `computePathNodes(course, completedLessonIds, activeLessonId)`. */
+  /** From `computePathNodes(course, completedLessonIds, activeLessonId, startLevel)`. */
   nodes: readonly PathNode[];
-  /** `HeartsView.canStartLesson`. False = 0-hearts gate (AC9, AC10). */
+  /**
+   * `Settings.startLevel`, the same value passed to `computePathNodes` (GAM-011,
+   * ADR-013). Earlier levels' playable lessons show as "Open"; when it changes, the path
+   * scrolls to the new up-next lesson.
+   */
+  startLevel?: CefrLevel | null;
+  /**
+   * "Start here" on a locked level header (GAM-011 AC8–AC10): saves the start level. The
+   * view keeps nothing itself: on success the caller passes the new `startLevel` (and
+   * nodes), and the view scrolls to, focuses and announces the new up-next lesson. On
+   * failure the promise rejects and the caller shows the error toast. Without this prop
+   * no "Start here" button is shown.
+   */
+  onStartHere?: (level: CefrLevel) => Promise<void> | void;
+  /**
+   * `HeartsView.canStartLesson`. False = 0-hearts gate (AC9, AC10): not-completed lessons
+   * open the dialog; completed ones still open (practice, GAM-011 AC15).
+   */
   canStartLesson: boolean;
   /** Body of the out-of-hearts dialog: `formatHeartRefill(...)` (GAM-005). */
   heartRefillText?: string | null;
@@ -62,6 +87,9 @@ interface NodeContext {
   canStartLesson: boolean;
   frontierId: Slug | null;
   frontierRef: ControlRef;
+  /** Level whose "Start here" is being saved (its button shows busy). */
+  pendingStart: CefrLevel | null;
+  onStartHere?: (level: CefrLevel) => void;
   /** Number lessons within their unit and name the unit (courses with levels, GAM-010). */
   unitNumbers: boolean;
   onBlockedActivate: (lessonId: Slug, element: HTMLElement) => void;
@@ -141,7 +169,7 @@ const UnitBlock = memo(function UnitBlock({
                   number={ctx.unitNumbers ? entry.lessonNumber : entry.courseNumber}
                   unitNumber={ctx.unitNumbers ? entry.unitNumber : null}
                   title={entry.lesson.title}
-                  state={entry.node.state}
+                  state={pathNodeDisplay(entry.node, ctx.frontierId)}
                   index={entry.pathIndex}
                   canStartLesson={ctx.canStartLesson}
                   controlRef={id === ctx.frontierId ? ctx.frontierRef : undefined}
@@ -180,6 +208,9 @@ const LevelSection = memo(function LevelSection({
   const level = section.level!;
   const headingId = `${idPrefix}-level-${level.level}`;
   const panelId = `${headingId}-panel`;
+  const locked = isLevelFullyLocked(section);
+  const startHere = locked && ctx.onStartHere ? ctx.onStartHere : null;
+  const starting = ctx.pendingStart === level.level;
 
   return (
     <section
@@ -188,30 +219,48 @@ const LevelSection = memo(function LevelSection({
       data-level-state={section.state}
       className="flex flex-col gap-6"
     >
-      <h2 id={headingId}>
-        <button
-          type="button"
-          aria-expanded={expanded}
-          aria-controls={panelId}
-          onClick={() => onToggle(level.level)}
-          className={cn(
-            "flex min-h-12 w-full cursor-pointer items-center gap-3 rounded-card px-4 py-3",
-            "border-2 border-glow-400 bg-night-700 text-left text-night-50",
-            "focus-visible:focus-ring",
-          )}
-        >
-          <span className="flex min-w-0 flex-1 flex-col">
-            <span className="text-xl font-bold break-words">{level.title}</span>
-            <span className="sr-only">,</span>{" "}
-            <span className="text-sm font-semibold text-night-100">
-              {unitProgressText(section.completed, section.total)}
+      <div className="flex flex-wrap items-center gap-2">
+        <h2 id={headingId} className="min-w-0 flex-[1_1_14rem]">
+          <button
+            type="button"
+            aria-expanded={expanded}
+            aria-controls={panelId}
+            onClick={() => onToggle(level.level)}
+            className={cn(
+              "flex min-h-12 w-full cursor-pointer items-center gap-3 rounded-card px-4 py-3",
+              "border-2 border-glow-400 bg-night-700 text-left text-night-50",
+              "focus-visible:focus-ring",
+            )}
+          >
+            <span className="flex min-w-0 flex-1 flex-col">
+              <span className="text-xl font-bold break-words">{level.title}</span>
+              <span className="sr-only">,</span>{" "}
+              <span className="text-sm font-semibold text-night-100">
+                {unitProgressText(section.completed, section.total)}
+              </span>
             </span>
-          </span>
-          <ChevronIcon
-            className={cn("shrink-0 motion-safe:transition-transform", expanded && "rotate-180")}
-          />
-        </button>
-      </h2>
+            {locked && <LockIcon size={22} className="shrink-0 text-night-100" />}
+            <ChevronIcon
+              className={cn("shrink-0 motion-safe:transition-transform", expanded && "rotate-180")}
+            />
+          </button>
+        </h2>
+        {startHere && (
+          // GAM-011 AC8: outside the heading's disclosure button (no nested controls). The
+          // name starts with the visible text (WCAG 2.5.3).
+          <Button
+            variant="secondary"
+            size="lg"
+            aria-label={startHereName(level)}
+            loading={starting}
+            loadingLabel={startHereName(level)}
+            className="shrink-0"
+            onClick={() => startHere(level.level)}
+          >
+            {START_HERE_TEXT}
+          </Button>
+        )}
+      </div>
       <div id={panelId} className={expanded ? "flex flex-col gap-8" : "hidden"}>
         {expanded && (
           <>
@@ -272,6 +321,8 @@ function ComingSoonLevel({ section, idPrefix, withLumi }: ComingSoonLevelProps) 
 export function SkillPathView({
   course,
   nodes,
+  startLevel = null,
+  onStartHere,
   canStartLesson,
   heartRefillText,
   onLockedLesson,
@@ -280,9 +331,13 @@ export function SkillPathView({
 }: SkillPathViewProps) {
   const baseId = useId();
   // One `computePathNodes` result, sliced into levels and units (no per-level compute).
-  const sections = useMemo(() => buildPathSections(course, nodes), [course, nodes]);
+  const sections = useMemo(
+    () => buildPathSections(course, nodes, startLevel),
+    [course, nodes, startLevel],
+  );
   const unitNumbers = course.levels !== undefined;
-  const frontierId = findFrontier(nodes)?.lessonId ?? null;
+  const startIndex = startLessonIndex(course, startLevel);
+  const frontierId = findFrontier(nodes, startIndex)?.lessonId ?? null;
   const frontierRef = useRef<HTMLAnchorElement | HTMLButtonElement>(null);
   const returnFocusRef = useRef<HTMLElement | null>(null);
   const [outOfHeartsOpen, setOutOfHeartsOpen] = useState(false);
@@ -303,7 +358,17 @@ export function SkillPathView({
     [anchor],
   );
 
-  // AC11: bring the next lesson into view on the first render only (not on updates).
+  // GAM-011 AC9: the level whose "Start here" is being saved, and the polite
+  // announcement once the path moved there.
+  const [pendingStart, setPendingStart] = useState<CefrLevel | null>(null);
+  const requestedStart = useRef<CefrLevel | null>(null);
+  // Written on the DOM node (not state), like `data-auto-scroll`: no effect-driven render.
+  const announcementRef = useRef<HTMLParagraphElement>(null);
+
+  // AC11: bring the next lesson into view on the first render, and again when the start
+  // level changes (GAM-011: the frontier moved), but not on other updates (a finished
+  // lesson). After this view's own "Start here", focus moves to the new up-next lesson
+  // and it is announced (GAM-011 AC9).
   // FIX-002: by scroll position, not `scrollIntoView`, so the Tab order still starts at
   // the top of the page (skip link, top bar).
   // FIX-006: `data-auto-scroll="settled"` on the root once that scroll is over (or there
@@ -312,10 +377,19 @@ export function SkillPathView({
   const rootRef = useRef<HTMLDivElement>(null);
   useEffect(() => {
     const root = rootRef.current;
+    if (root) root.dataset.autoScroll = "pending";
     const settle = () => {
       if (root) root.dataset.autoScroll = "settled";
     };
     const target = frontierRef.current;
+    if (requestedStart.current !== null && requestedStart.current === startLevel) {
+      requestedStart.current = null;
+      target?.focus({ preventScroll: true });
+      const level = course.levels?.find((l) => l.level === startLevel);
+      if (level && announcementRef.current) {
+        announcementRef.current.textContent = startingAtText(level);
+      }
+    }
     const scroll = target
       ? scrollToCenter(target, prefersReducedMotion() ? "auto" : "smooth")
       : null;
@@ -324,20 +398,59 @@ export function SkillPathView({
       return;
     }
     return whenScrollSettles(scroll, settle);
-  }, []);
+    // Only the start level re-runs it; `course` is read for the announcement only.
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [startLevel]);
 
   // Latest values for the stable node callback, so memoised nodes don't re-render when
   // only the data around them changes.
-  const latest = useRef({ nodes, sections, canStartLesson, onLockedLesson, unitNumbers });
-  useLayoutEffect(() => {
-    latest.current = { nodes, sections, canStartLesson, onLockedLesson, unitNumbers };
+  const latest = useRef({
+    nodes,
+    sections,
+    canStartLesson,
+    onLockedLesson,
+    unitNumbers,
+    startIndex,
+    onStartHere,
   });
+  useLayoutEffect(() => {
+    latest.current = {
+      nodes,
+      sections,
+      canStartLesson,
+      onLockedLesson,
+      unitNumbers,
+      startIndex,
+      onStartHere,
+    };
+  });
+
+  const startHere = useCallback((level: CefrLevel) => {
+    const save = latest.current.onStartHere;
+    if (!save) return;
+    requestedStart.current = level;
+    if (announcementRef.current) announcementRef.current.textContent = "";
+    setPendingStart(level);
+    void Promise.resolve()
+      .then(() => save(level))
+      .catch(() => {
+        // The caller shows the error toast (AC10); the path stays as it was.
+        if (requestedStart.current === level) requestedStart.current = null;
+      })
+      .finally(() => setPendingStart((current) => (current === level ? null : current)));
+  }, []);
+  const hasStartHere = onStartHere !== undefined;
 
   const onBlockedActivate = useCallback((lessonId: Slug, element: HTMLElement) => {
     const current = latest.current;
     const node = current.nodes.find((n) => n.lessonId === lessonId);
     if (!node) return;
-    const outcome = resolvePathActivation(node, current.nodes, current.canStartLesson);
+    const outcome = resolvePathActivation(
+      node,
+      current.nodes,
+      current.canStartLesson,
+      current.startIndex,
+    );
     if (outcome.kind === "locked") {
       const entry =
         outcome.unlockLessonId === null
@@ -357,9 +470,31 @@ export function SkillPathView({
   }, []);
 
   const ctx = useMemo<NodeContext>(
-    () => ({ canStartLesson, frontierId, frontierRef, unitNumbers, onBlockedActivate, onNavigate }),
-    [canStartLesson, frontierId, unitNumbers, onBlockedActivate, onNavigate],
+    () => ({
+      canStartLesson,
+      frontierId,
+      frontierRef,
+      pendingStart,
+      onStartHere: hasStartHere ? startHere : undefined,
+      unitNumbers,
+      onBlockedActivate,
+      onNavigate,
+    }),
+    [
+      canStartLesson,
+      frontierId,
+      pendingStart,
+      hasStartHere,
+      startHere,
+      unitNumbers,
+      onBlockedActivate,
+      onNavigate,
+    ],
   );
+
+  // GAM-011 AC17 (PD-065): the dialog suggests practice only with a completed lesson.
+  const canPractise =
+    !GAME_CONFIG.practiceCostsHearts && nodes.some((node) => node.state === "completed");
 
   const firstComingSoon = sections.find((s) => s.state === "coming_soon");
 
@@ -409,11 +544,29 @@ export function SkillPathView({
         );
       })}
 
+      {/* GAM-011 AC9: "Starting at A2 Elementary." after "Start here". */}
+      <p
+        ref={announcementRef}
+        aria-live="polite"
+        className="sr-only"
+        data-testid="path-announcement"
+      />
+
       <Dialog
         open={outOfHeartsOpen}
         onClose={() => setOutOfHeartsOpen(false)}
         title={OUT_OF_HEARTS_TITLE}
-        description={heartRefillText || OUT_OF_HEARTS_FALLBACK}
+        description={
+          <>
+            {heartRefillText || OUT_OF_HEARTS_FALLBACK}
+            {canPractise && (
+              <>
+                {" "}
+                <span className="mt-2 block">{PRACTISE_TO_EARN_TEXT}</span>
+              </>
+            )}
+          </>
+        }
         returnFocusRef={returnFocusRef}
         actions={
           <Button variant="primary" size="lg" fullWidth onClick={() => setOutOfHeartsOpen(false)}>

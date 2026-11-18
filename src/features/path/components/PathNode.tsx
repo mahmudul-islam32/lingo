@@ -2,11 +2,12 @@
 
 import Link from "next/link";
 import { memo, useId, type KeyboardEvent, type MouseEvent, type ReactNode, type Ref } from "react";
-import type { PathNodeState, Slug } from "@/contracts";
+import type { Slug } from "@/contracts";
 import { CheckIcon, HeartIcon, Lumi, cn } from "@/components/ui";
-import { lessonHref } from "../rules";
+import { canStartNode, lessonHref, type PathNodeDisplay } from "../rules";
 import {
   NO_HEARTS_TEXT,
+  PRACTICE_EARNS_HEARTS_TEXT,
   REPLAY_TEXT,
   STATE_TEXT,
   lessonNumberText,
@@ -14,6 +15,7 @@ import {
 } from "./copy";
 import { HalfRingIcon } from "./HalfRingIcon";
 import { LockIcon } from "./LockIcon";
+import { OpenLockIcon } from "./OpenLockIcon";
 
 /**
  * Left-right zigzag (UX notes): offsets of 0 / +48 px / 0 / -48 px (`translate-x-12` =
@@ -24,20 +26,22 @@ const ZIGZAG = ["translate-x-0", "translate-x-12", "translate-x-0", "-translate-
 /**
  * Node disc per state. Colours are tokens only (AC17). Outlines use `border-progress`
  * (amber in dark, `glow-700` in light) and `border-border-strong`, both >= 3:1 against
- * the canvas in each theme. The available node is the largest and glows.
+ * the canvas in each theme. The available node is the largest and glows; open
+ * (skipped-level) nodes have no glow, so "up next" stays unique (GAM-011 UX notes).
  */
-const DISC: Record<PathNodeState, string> = {
+const DISC: Record<PathNodeDisplay, string> = {
   completed: "size-16 border-4 border-progress bg-primary text-on-primary",
   available: "size-20 border-4 border-progress bg-surface ring-8 ring-primary/30 shadow-lg",
   in_progress: "size-16 border-4 border-progress bg-surface text-progress",
   locked: "size-16 border-4 border-border-strong bg-surface-raised text-fg-muted",
+  open: "size-16 border-4 border-progress bg-surface text-progress",
 };
 
 const CONTROL =
   "flex min-h-12 w-44 max-w-full flex-col items-center gap-2 rounded-card p-2 text-center " +
   "focus-visible:focus-ring";
 
-function StateIcon({ state }: { state: PathNodeState }) {
+function StateIcon({ state }: { state: PathNodeDisplay }) {
   switch (state) {
     case "completed":
       return <CheckIcon size={30} data-icon="check" />;
@@ -47,6 +51,8 @@ function StateIcon({ state }: { state: PathNodeState }) {
       return <HalfRingIcon />;
     case "locked":
       return <LockIcon />;
+    case "open":
+      return <OpenLockIcon />;
   }
 }
 
@@ -60,14 +66,18 @@ export interface PathNodeItemProps {
   /** Unit number within its level (GAM-010 AC5); `null`/omitted for courses without levels. */
   unitNumber?: number | null;
   title: string;
-  state: PathNodeState;
+  /** Node state, or `open` for a skipped-level lesson (`pathNodeDisplay`, GAM-011). */
+  state: PathNodeDisplay;
   /** Position on the path, drives the zigzag offset. */
   index: number;
-  /** `HeartsView.canStartLesson`. False: playable nodes become dialog buttons (AC9, AC10). */
+  /**
+   * `HeartsView.canStartLesson`. False (0 hearts): not-completed playable nodes become
+   * dialog buttons (AC9, AC10); completed ones stay links (practice, GAM-011 AC15).
+   */
   canStartLesson: boolean;
   /**
    * Called for nodes that don't navigate: locked ones (AC8) and, at 0 hearts, playable
-   * ones (AC9). `element` is the activated control, for focus return. Keep it stable
+   * not-completed ones (AC9). `element` is the activated control, for focus return. Keep it stable
    * (`useCallback`): nodes are memoised (GAM-010 performance).
    */
   onBlockedActivate: (lessonId: Slug, element: HTMLElement) => void;
@@ -77,10 +87,11 @@ export interface PathNodeItemProps {
 }
 
 /**
- * One lesson on the path (`<li>`). Playable nodes with hearts are a `next/link` to
- * `/lesson/<id>` (AC7; Space also follows it, like a button). Locked nodes and, at
- * 0 hearts, playable ones are a native `<button>`; locked ones are `aria-disabled` but
- * stay focusable (AC8).
+ * One lesson on the path (`<li>`). Nodes that may start (`canStartNode`) are a `next/link`
+ * to `/lesson/<id>` (AC7; Space also follows it, like a button): playable ones with
+ * hearts, and completed ones at any hearts (practice, GAM-011). Locked nodes and, at
+ * 0 hearts, not-completed playable ones are a native `<button>`; locked ones are
+ * `aria-disabled` but stay focusable (AC8).
  *
  * Memoised (GAM-010): with 60+ lessons, a parent update (hearts clock, a level toggle,
  * one finished lesson) only re-renders the nodes whose props changed.
@@ -99,7 +110,16 @@ export const PathNodeItem = memo(function PathNodeItem({
 }: PathNodeItemProps) {
   const noHeartsId = useId();
   const locked = state === "locked";
-  const showNoHearts = !locked && !canStartLesson;
+  const navigates = canStartNode(
+    { state: state === "open" ? "available" : state },
+    {
+      canStartLesson,
+    },
+  );
+  // At 0 hearts: "No hearts left" on nodes that can't start, "Practice: earns hearts" on
+  // completed ones that still can (GAM-011 AC16).
+  const heartsNote =
+    locked || canStartLesson ? null : navigates ? PRACTICE_EARNS_HEARTS_TEXT : NO_HEARTS_TEXT;
   const name = nodeAccessibleName(number, title, state, unitNumber);
   const className = cn(
     CONTROL,
@@ -139,17 +159,15 @@ export const PathNodeItem = memo(function PathNodeItem({
           {STATE_TEXT[state]}
           {state === "completed" && ` · ${REPLAY_TEXT}`}
         </span>
-        {showNoHearts && (
+        {heartsNote && (
           <span id={noHeartsId} className="flex items-center gap-1 text-sm text-fg-muted">
             <HeartIcon filled={false} size="sm" />
-            {NO_HEARTS_TEXT}
+            {heartsNote}
           </span>
         )}
       </span>
     </>
   );
-
-  const navigates = !locked && canStartLesson;
 
   return (
     <li className="relative flex justify-center">
@@ -158,6 +176,7 @@ export const PathNodeItem = memo(function PathNodeItem({
           ref={controlRef as Ref<HTMLAnchorElement>}
           href={lessonHref(lessonId)}
           data-state={state}
+          aria-describedby={heartsNote ? noHeartsId : undefined}
           className={className}
           onClick={() => onNavigate?.(lessonId)}
           onKeyDown={(event: KeyboardEvent<HTMLAnchorElement>) => {
@@ -175,7 +194,7 @@ export const PathNodeItem = memo(function PathNodeItem({
           ref={controlRef as Ref<HTMLButtonElement>}
           type="button"
           aria-disabled={locked ? "true" : undefined}
-          aria-describedby={showNoHearts ? noHeartsId : undefined}
+          aria-describedby={heartsNote ? noHeartsId : undefined}
           data-state={state}
           className={className}
           onClick={(event: MouseEvent<HTMLButtonElement>) =>

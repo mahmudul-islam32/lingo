@@ -1,6 +1,13 @@
 import { afterEach, beforeEach, describe, expect, it, vi } from "vitest";
 import { GAME_CONFIG, HeartsStateSchema, HeartsViewSchema, type HeartsState } from "@/contracts";
-import { createFullHearts, loseHearts, refillHearts, viewHearts } from "../hearts";
+import {
+  canStartLesson,
+  createFullHearts,
+  gainHearts,
+  loseHearts,
+  refillHearts,
+  viewHearts,
+} from "../hearts";
 
 const HOUR = 60 * 60 * 1000;
 const INTERVAL = GAME_CONFIG.heartRefillIntervalMs; // 4 h
@@ -282,5 +289,120 @@ describe("viewHearts", () => {
       fullAt: iso(2 * HOUR),
       canStartLesson: true,
     });
+  });
+});
+
+describe("gainHearts (GAM-011 AC11, AC13, AC14)", () => {
+  it("0 -> 1 keeps the running refill clock", () => {
+    const next = gainHearts(state(0, 0), 1, at(HOUR));
+    expect(next).toEqual({ current: 1, refillStartedAt: iso(0), updatedAt: iso(HOUR) });
+    expect(viewHearts(next, at(HOUR)).nextRefillAt).toBe(iso(INTERVAL));
+    expect(() => HeartsStateSchema.parse(next)).not.toThrow();
+  });
+
+  it("4 -> 5 stops the refill clock", () => {
+    expect(gainHearts(state(4, 0), 1, at(HOUR))).toEqual({
+      current: 5,
+      refillStartedAt: null,
+      updatedAt: iso(HOUR),
+    });
+  });
+
+  it("5 -> 5 returns the state unchanged", () => {
+    const full = state(5, null);
+    expect(gainHearts(full, 1, at(HOUR))).toBe(full);
+  });
+
+  it("caps a larger amount at maxHearts", () => {
+    expect(gainHearts(state(3, 0), 4, at(HOUR)).current).toBe(5);
+  });
+
+  it("amount 0 returns the state unchanged (feature off)", () => {
+    const s = state(2, 0);
+    expect(gainHearts(s, 0, at(HOUR))).toBe(s);
+  });
+
+  it("does not move the next refill time below max", () => {
+    const s = state(2, 0);
+    const before = viewHearts(s, at(HOUR));
+    const after = viewHearts(gainHearts(s, 1, at(HOUR)), at(HOUR));
+    expect(after.nextRefillAt).toBe(before.nextRefillAt);
+    expect(after.current).toBe(3);
+  });
+
+  it("gain then refill: 2 -> 3 (gain) -> 4 once the next refill time passes", () => {
+    const gained = gainHearts(state(2, 0), 1, at(HOUR));
+    expect(viewHearts(gained, at(INTERVAL - 1)).current).toBe(3);
+    expect(viewHearts(gained, at(INTERVAL)).current).toBe(4);
+  });
+
+  it("applies a pending refill before the gain", () => {
+    // 3 hearts, clock started 4 h ago: the refill makes 4, the gain 5.
+    expect(gainHearts(state(3, 0), 1, at(INTERVAL))).toEqual({
+      current: 5,
+      refillStartedAt: null,
+      updatedAt: iso(INTERVAL),
+    });
+  });
+
+  it("returns the refilled state when the refill alone fills hearts", () => {
+    const next = gainHearts(state(4, 0), 1, at(INTERVAL));
+    expect(next.current).toBe(5);
+    expect(next.refillStartedAt).toBeNull();
+    expect(next.updatedAt).toBe(iso(0));
+  });
+
+  it("repairs a missing clock below max, like the refill rule", () => {
+    expect(
+      gainHearts({ current: 1, refillStartedAt: null, updatedAt: iso(0) }, 1, at(HOUR)),
+    ).toEqual({
+      current: 2,
+      refillStartedAt: iso(HOUR),
+      updatedAt: iso(HOUR),
+    });
+  });
+
+  it("gain then loss: 4 -> 5 -> 4 starts a fresh clock", () => {
+    const full = gainHearts(state(4, 0), 1, at(HOUR));
+    expect(loseHearts(full, 1, at(2 * HOUR))).toEqual({
+      current: 4,
+      refillStartedAt: iso(2 * HOUR),
+      updatedAt: iso(2 * HOUR),
+    });
+  });
+
+  it.each([-1, 0.5, Number.NaN])("rejects amount %s", (amount) => {
+    expect(() => gainHearts(state(2, 0), amount, at(HOUR))).toThrow(RangeError);
+  });
+
+  it("uses custom config", () => {
+    const config = { maxHearts: 3, heartRefillIntervalMs: HOUR };
+    expect(gainHearts(state(2, 0), 1, at(1), config)).toMatchObject({
+      current: 3,
+      refillStartedAt: null,
+    });
+  });
+});
+
+describe("canStartLesson start gate (GAM-011 AC18, PD-065)", () => {
+  it.each<{ hearts: number; completed: boolean; expected: boolean }>([
+    { hearts: 0, completed: false, expected: false },
+    { hearts: 1, completed: false, expected: true },
+    { hearts: 5, completed: false, expected: true },
+    { hearts: 0, completed: true, expected: true },
+    { hearts: 3, completed: true, expected: true },
+  ])("hearts $hearts, completed $completed -> $expected", ({ hearts, completed, expected }) => {
+    expect(canStartLesson(hearts, completed)).toBe(expected);
+  });
+
+  it("accepts a HeartsView", () => {
+    expect(canStartLesson(viewHearts(state(0, 0), at(HOUR)), false)).toBe(false);
+    expect(canStartLesson(viewHearts(state(0, 0), at(HOUR)), true)).toBe(true);
+    expect(canStartLesson(viewHearts(state(0, 0), at(INTERVAL)), false)).toBe(true);
+  });
+
+  it("practice needs hearts when practiceCostsHearts is true", () => {
+    expect(canStartLesson(0, true, { practiceCostsHearts: true })).toBe(false);
+    expect(canStartLesson(1, true, { practiceCostsHearts: true })).toBe(true);
   });
 });

@@ -2,22 +2,25 @@
  * Learner-facing text of the skill path (GAM-008 AC4–AC10, AC13–AC15). Kept in one place
  * so the screen and its tests share it. Kind wording only (PD-018: no "you failed").
  */
-import type { PathNodeState } from "@/contracts";
+import type { CourseLevel } from "@/contracts";
+import type { PathNodeDisplay } from "../rules";
 
-/** Visible state text under a node (AC5). */
-export const STATE_TEXT: Record<PathNodeState, string> = {
+/** Visible state text under a node (AC5; "Open" for skipped-level lessons, GAM-011 AC7). */
+export const STATE_TEXT: Record<PathNodeDisplay, string> = {
   completed: "Completed",
   available: "Start",
   locked: "Locked",
   in_progress: "Continue",
+  open: "Open",
 };
 
-/** Suffix of the accessible name per state (AC6). */
-const STATE_NAME: Record<PathNodeState, string> = {
+/** Suffix of the accessible name per state (AC6, GAM-011 AC7). */
+const STATE_NAME: Record<PathNodeDisplay, string> = {
   completed: "completed",
   available: "up next",
   locked: "locked",
   in_progress: "in progress",
+  open: "open",
 };
 
 /** Extra action text on completed nodes (AC7). */
@@ -27,11 +30,12 @@ export const REPLAY_TEXT = "Start again";
  * Visible action text of a node, when it differs from the state word of its name:
  * "Start", "Continue", "Start again". Locked nodes show "Locked", already in the name.
  */
-function nodeActionText(state: PathNodeState): string | null {
+function nodeActionText(state: PathNodeDisplay): string | null {
   switch (state) {
     case "completed":
       return REPLAY_TEXT;
     case "locked":
+    case "open":
       return null;
     default:
       return STATE_TEXT[state];
@@ -46,6 +50,7 @@ function nodeActionText(state: PathNodeState): string | null {
  * - "Lesson 1: Hello!, completed. Start again" (visible "Completed · Start again")
  * - "Lesson 3: At the Café, in progress. Continue"
  * - "Lesson 5: Around Town, locked" (visible "Locked")
+ * - "Lesson 1: Hello!, open" (visible "Open": a skipped-level lesson, GAM-011 AC7)
  *
  * GAM-010: in a course with CEFR levels, lessons are numbered within their unit and the
  * name starts with the unit: "Unit 3, Lesson 2: Bread, up next. Start" (visible
@@ -54,7 +59,7 @@ function nodeActionText(state: PathNodeState): string | null {
 export function nodeAccessibleName(
   number: number,
   title: string,
-  state: PathNodeState,
+  state: PathNodeDisplay,
   unitNumber: number | null = null,
 ): string {
   const base = `${lessonPrefix(number, unitNumber, ", ")}: ${title}, ${STATE_NAME[state]}`;
@@ -100,6 +105,36 @@ export function unitNumberText(number: number): string {
 export const COMING_SOON_TEXT = "Coming soon";
 
 export const NO_HEARTS_TEXT = "No hearts left";
+/** At 0 hearts on a completed node: practice is free and earns hearts (GAM-011 AC16). */
+export const PRACTICE_EARNS_HEARTS_TEXT = "Practice: earns hearts";
+/** Extra line of the out-of-hearts dialog with a completed lesson (GAM-011 AC17, PD-065). */
+export const PRACTISE_TO_EARN_TEXT = "Practise a finished lesson to earn hearts.";
+
+/** Visible text of the "Start here" button on a locked level header (GAM-011 AC8). */
+export const START_HERE_TEXT = "Start here";
+/** Toast when saving the start level failed (GAM-011 AC10). */
+export const START_LEVEL_ERROR_TEXT = "We couldn't change your start level. Try again.";
+
+/**
+ * "A2 Elementary" from a level whose title is "A2 · Elementary": the code, then the title
+ * without a leading code and separator. Just the code when the title adds nothing.
+ */
+export function levelLabel(level: Pick<CourseLevel, "level" | "title">): string {
+  const rest = level.title.startsWith(level.level)
+    ? level.title.slice(level.level.length).replace(/^[\s·:\-–—]+/u, "")
+    : level.title;
+  return rest.trim() === "" ? level.level : `${level.level} ${rest.trim()}`;
+}
+
+/** Accessible name of "Start here": "Start here: A2 Elementary" (GAM-011 AC8). */
+export function startHereName(level: Pick<CourseLevel, "level" | "title">): string {
+  return `${START_HERE_TEXT}: ${levelLabel(level)}`;
+}
+
+/** Polite announcement after "Start here": "Starting at A2 Elementary." (GAM-011 AC9). */
+export function startingAtText(level: Pick<CourseLevel, "level" | "title">): string {
+  return `Starting at ${levelLabel(level)}.`;
+}
 export const OUT_OF_HEARTS_TITLE = "You're out of hearts";
 /** Used only when the caller has no refill time to show (hearts always refill, PD-003). */
 export const OUT_OF_HEARTS_FALLBACK = "Your hearts refill over time.";

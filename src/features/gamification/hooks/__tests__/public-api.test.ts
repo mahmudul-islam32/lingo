@@ -5,6 +5,9 @@ describe("@/features/gamification hearts API (GAM-005)", () => {
   it.each([
     "useHearts",
     "useLoseHearts",
+    "useGainHearts",
+    "gainHearts",
+    "canStartLesson",
     "useMinuteClock",
     "heartsQuery",
     "formatHeartRefill",
