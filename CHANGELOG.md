@@ -16,6 +16,34 @@ the release where it becomes user-facing.
 
 ## [Unreleased]
 
+## [0.5.2] - 2026-11-19
+
+Choose where to start and earn hearts back: a guest can start the German course at A1 or
+A2, and every correct answer gives back a heart, so running out of hearts no longer stops
+practice. This release also ships the fill-the-gap (cloze) exercise.
+
+**Why 0.5.1 has no release of its own.** Milestone v0.5.1 (the cloze exercise contract and
+component, CTO-009 and LES-015) was merged on `main` but not released separately. It ships
+in 0.5.2 together with the start-level and earn-hearts work.
+
+### Added
+
+- Cloze (fill-the-gap) exercise contract and component, milestone v0.5.1
+  [CTO-009] (#71) [LES-015] (#72)
+- Choosing a starting level (A1 Beginner or A2 Elementary) in onboarding, in Profile and
+  with "Start here" on a locked level of the path [CTO-015] (#80) [GAM-011] (#81)
+  [PLT-025] (#82)
+- Hearts earned by correct answers (up to 5), and free practice of finished lessons that
+  never costs hearts [LES-020] (#83)
+- German B1 product plan and B1 tech plan with ADR stubs [CON-DE-B1-PLAN] (#73)
+  [CTO-010] (#77)
+
+### Fixed
+
+- Lumi shows the ember state on lesson error and audio-unavailable screens [FIX-005] (#70)
+- Stable path e2e test and one hearts warning per failed read [FIX-006] (#76)
+- Offline banner accessibility check waits for the banner to settle [FIX-007] (#78)
+
 ## [0.5.0] - 2026-11-16
 
 German A1 and A2 in one release: a guest picks German at onboarding, works through the
