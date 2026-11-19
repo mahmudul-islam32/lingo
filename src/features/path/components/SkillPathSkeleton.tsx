@@ -9,10 +9,14 @@ export function SkillPathSkeleton() {
   return (
     <div role="status" className="mx-auto flex w-full max-w-md flex-col gap-8 px-4 pt-4">
       <VisuallyHidden>{LOADING_TEXT}</VisuallyHidden>
-      <Skeleton shape="rect" className="h-20" />
-      <div className="flex flex-col items-center gap-10">
+      <Skeleton shape="rect" className="h-24 rounded-banner" />
+      <div className="flex flex-col items-center gap-8">
         {Array.from({ length: SKELETON_NODE_COUNT }, (_, i) => (
-          <Skeleton key={i} shape="circle" className="size-16" />
+          <Skeleton
+            key={i}
+            shape="circle"
+            className={i % 2 === 0 ? "size-18" : "size-18 translate-x-12"}
+          />
         ))}
       </div>
     </div>

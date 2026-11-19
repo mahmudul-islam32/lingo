@@ -73,6 +73,15 @@ function lessonPrefix(number: number, unitNumber: number | null, separator: stri
     : `Unit ${unitNumber}${separator}Lesson ${number}`;
 }
 
+/**
+ * Pill above the current node (GAM-012 AC3, screen 2): "Start · Lesson 3", or
+ * "Continue · Lesson 3" for a lesson in progress. `number` is the lesson number in its
+ * unit (courses with levels) or in the course (courses without levels).
+ */
+export function nodePillText(state: "available" | "in_progress", number: number): string {
+  return `${state === "in_progress" ? STATE_TEXT.in_progress : STATE_TEXT.available} · Lesson ${number}`;
+}
+
 /** "Lesson 2" (GAM-008 AC4), or "Unit 3 · Lesson 2" in a course with levels (GAM-010). */
 export function lessonNumberText(number: number, unitNumber: number | null = null): string {
   return lessonPrefix(number, unitNumber, " · ");
@@ -102,6 +111,9 @@ export function unitNumberText(number: number): string {
 }
 
 /** Shown for a declared level without units (GAM-010 AC3). */
+/** Visual prefix of a unit banner eyebrow, "LEVEL A1 · UNIT 2" (GAM-012 AC2). */
+export const LEVEL_EYEBROW_PREFIX = "Level";
+
 export const COMING_SOON_TEXT = "Coming soon";
 
 export const NO_HEARTS_TEXT = "No hearts left";

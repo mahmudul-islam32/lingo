@@ -21,3 +21,4 @@ export {
   type PathLevelState,
   type PathUnitSection,
 } from "./path-sections";
+export { buildPracticeList, type PracticeLesson, type PracticeUnitGroup } from "./practice-list";

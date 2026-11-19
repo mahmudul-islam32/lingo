@@ -146,8 +146,9 @@ describe("SkillPathView: structure (AC4)", () => {
     setup();
     for (const c of controls()) expect(c.className).toContain("min-h-12");
     const discs = screen.getAllByTestId("path-node-disc");
-    expect(discs[0]!.className).toContain("size-20"); // available is the largest
-    for (const disc of discs.slice(1)) expect(disc.className).toContain("size-16");
+    // GAM-012 (screen 2): the current node is 84 px, the others 72 px.
+    expect(discs[0]!.className).toContain("size-21"); // available is the largest
+    for (const disc of discs.slice(1)) expect(disc.className).toContain("size-18");
   });
 
   it("uses no colour literals (AC17)", () => {
@@ -172,9 +173,11 @@ describe("SkillPathView: states and accessible names (AC5, AC6)", () => {
     if (icon) {
       expect(control.querySelector(`[data-icon="${icon}"]`)).not.toBeNull();
     } else {
-      // Available: Lumi inside a glow ring.
-      expect(control.querySelector('svg[data-pose="idle"]')).not.toBeNull();
-      expect(within(control).getByTestId("path-node-disc").className).toContain("ring-8");
+      // Available (GAM-012): a white star on the coral disc with its halo.
+      expect(control.querySelector('[data-icon="star"]')).not.toBeNull();
+      expect(within(control).getByTestId("path-node-disc").className).toContain(
+        "shadow-3d-node-current",
+      );
     }
   });
 
@@ -758,5 +761,65 @@ describe("path copy", () => {
     );
     expect(pathCopy.lockedToastText(2)).toBe("Finish Lesson 2 to unlock this one.");
     expect(pathCopy.lockedToastText(null)).toBe("Finish the earlier lessons to unlock this one.");
+  });
+});
+
+describe("SkillPathView: redesign v2 node visuals (GAM-012 AC3, AC4, AC16)", () => {
+  const disc = (control: HTMLElement) => within(control).getByTestId("path-node-disc");
+
+  it.each<{ state: string; classes: string[]; icon: string }>([
+    { state: "completed", classes: ["bg-primary", "shadow-3d-node", "size-18"], icon: "check" },
+    {
+      state: "available",
+      classes: ["bg-accent", "shadow-3d-node-current", "size-21"],
+      icon: "star",
+    },
+    {
+      state: "in_progress",
+      classes: ["bg-accent", "shadow-3d-node-current", "size-21"],
+      icon: "half-ring",
+    },
+    { state: "locked", classes: ["bg-disabled", "shadow-3d-node-locked", "size-18"], icon: "lock" },
+  ])("$state: $classes with the $icon icon", ({ state, classes, icon }) => {
+    setup({ completed: [L[0]], active: state === "in_progress" ? L[1] : null });
+    const control = controls().find((c) => c.getAttribute("data-state") === state)!;
+    expect(disc(control)).toHaveClass(...classes);
+    expect(disc(control).querySelector(`[data-icon="${icon}"]`)).not.toBeNull();
+  });
+
+  it("only the current node has the 'Start · Lesson N' pill, hidden from the name", () => {
+    setup({ completed: [L[0], L[1]] });
+    const pills = screen.getAllByTestId("path-node-pill");
+    expect(pills).toHaveLength(1);
+    expect(pills[0]).toHaveTextContent("Start · Lesson 3");
+    expect(pills[0]).toHaveAttribute("aria-hidden", "true");
+    const current = node("Lesson 3: At the Café, up next. Start");
+    expect(current).toContainElement(pills[0]!);
+  });
+
+  it("an in-progress node's pill says 'Continue · Lesson N'", () => {
+    setup({ completed: [L[0]], active: L[1] });
+    expect(screen.getByTestId("path-node-pill")).toHaveTextContent("Continue · Lesson 2");
+  });
+
+  it("all done: no current node, no pill", () => {
+    setup({ completed: [...L] });
+    expect(screen.queryByTestId("path-node-pill")).not.toBeInTheDocument();
+  });
+
+  it("unit banner: indigo accent card with a 'Unit N' eyebrow and a display-font title (AC2)", () => {
+    setup();
+    const heading = screen.getByRole("heading", { level: 2, name: "First Steps" });
+    expect(heading).toHaveClass("font-display");
+    const banner = heading.parentElement!;
+    expect(banner).toHaveClass("bg-primary", "text-on-primary");
+    expect(banner).toHaveTextContent(/^Unit 1First Steps/);
+  });
+
+  it("out-of-hearts dialog has the heart badge in its title; name unchanged (AC12)", async () => {
+    const { user } = setup({ canStartLesson: false });
+    await user.click(node(/^Lesson 1:/));
+    const dialog = screen.getByRole("dialog", { name: "You're out of hearts" });
+    expect(within(dialog).getByTestId("out-of-hearts-badge")).toBeInTheDocument();
   });
 });
