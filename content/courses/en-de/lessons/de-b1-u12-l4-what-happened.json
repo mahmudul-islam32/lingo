@@ -1,0 +1,202 @@
+{
+  "id": "de-b1-u12-l4-what-happened",
+  "courseId": "en-de",
+  "unitId": "de-b1-u12",
+  "title": "What Happened?",
+  "tip": "Telling what happened? Use the Präteritum: anrufen → rief … an; laufen → lief; retten → rettete. Who did it doesn't matter? Use the passive past: „Niemand wurde verletzt.“",
+  "exercises": [
+    {
+      "id": "de-b1-u12-l4-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        { "id": "p1", "learning": "der Unfall", "known": "the accident" },
+        { "id": "p2", "learning": "die Polizei", "known": "the police" },
+        { "id": "p3", "learning": "die Feuerwehr", "known": "the fire brigade" },
+        { "id": "p4", "learning": "retten", "known": "to rescue" },
+        { "id": "p5", "learning": "das Ereignis", "known": "the event" }
+      ]
+    },
+    {
+      "id": "de-b1-u12-l4-ex02",
+      "type": "listen",
+      "audio": { "src": "/audio/de/b1/u12/de-b1-u12-l4-ex02.mp3" },
+      "tiles": [
+        "gestern",
+        "gab",
+        "es",
+        "einen",
+        "kleinen",
+        "Unfall",
+        "niemand",
+        "wurde",
+        "verletzt",
+        "ein",
+        "kleiner",
+        "wird",
+        "jemand"
+      ],
+      "answers": ["Gestern gab es einen kleinen Unfall. Niemand wurde verletzt."]
+    },
+    {
+      "id": "de-b1-u12-l4-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'A man called the police.'?",
+      "options": [
+        { "id": "a", "text": "Ein Mann rufte die Polizei an." },
+        { "id": "b", "text": "Ein Mann rief an die Polizei." },
+        { "id": "c", "text": "Ein Mann rief die Polizei an." },
+        { "id": "d", "text": "Ein Mann anrief die Polizei." }
+      ],
+      "correctOptionId": "c"
+    },
+    {
+      "id": "de-b1-u12-l4-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "The fire brigade rescued a cat from the balcony.",
+      "tiles": [
+        "die",
+        "Feuerwehr",
+        "rettete",
+        "eine",
+        "Katze",
+        "vom",
+        "Balkon",
+        "rettet",
+        "einer",
+        "im"
+      ],
+      "answers": [
+        "Die Feuerwehr rettete eine Katze vom Balkon.",
+        "Vom Balkon rettete die Feuerwehr eine Katze."
+      ]
+    },
+    {
+      "id": "de-b1-u12-l4-ex05",
+      "type": "listen",
+      "audio": { "src": "/audio/de/b1/u12/de-b1-u12-l4-ex05.mp3" },
+      "tiles": ["die", "Katze", "lief", "ins", "Haus", "läuft", "im", "Hund"],
+      "answers": ["Die Katze lief ins Haus."]
+    },
+    {
+      "id": "de-b1-u12-l4-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Glücklicherweise ist nichts passiert.",
+      "tiles": [
+        "fortunately",
+        "nothing",
+        "happened",
+        "nobody",
+        "unfortunately",
+        "happens",
+        "was",
+        "is"
+      ],
+      "answers": ["Fortunately nothing happened.", "Nothing happened, fortunately."]
+    },
+    {
+      "id": "de-b1-u12-l4-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'Fortunately nobody was hurt.'?",
+      "options": [
+        { "id": "a", "text": "Glücklicherweise wurde niemand verletzt." },
+        { "id": "b", "text": "Glücklicherweise niemand wurde verletzt." },
+        { "id": "c", "text": "Glücklicherweise wurde niemand verletzen." },
+        { "id": "d", "text": "Glücklicherweise wurden niemand verletzt." }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "de-b1-u12-l4-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "The police helped the boy.",
+      "tiles": ["die", "Polizei", "half", "dem", "Jungen", "Junge", "den", "hilft"],
+      "answers": ["Die Polizei half dem Jungen.", "Dem Jungen half die Polizei."]
+    },
+    {
+      "id": "de-b1-u12-l4-ex09",
+      "type": "listen",
+      "audio": { "src": "/audio/de/b1/u12/de-b1-u12-l4-ex09.mp3" },
+      "tiles": [
+        "die",
+        "Katze",
+        "wurde",
+        "von",
+        "einem",
+        "Studenten",
+        "gerettet",
+        "Student",
+        "retten",
+        "einen"
+      ],
+      "answers": ["Die Katze wurde von einem Studenten gerettet."]
+    },
+    {
+      "id": "de-b1-u12-l4-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "After the fire brigade had rescued the cat, everyone went home.",
+      "tiles": [
+        "nachdem",
+        "die",
+        "Feuerwehr",
+        "die",
+        "Katze",
+        "gerettet",
+        "hatte",
+        "gingen",
+        "alle",
+        "nach",
+        "Hause",
+        "war",
+        "bevor"
+      ],
+      "answers": [
+        "Nachdem die Feuerwehr die Katze gerettet hatte, gingen alle nach Hause.",
+        "Alle gingen nach Hause, nachdem die Feuerwehr die Katze gerettet hatte.",
+        "Nach Hause gingen alle, nachdem die Feuerwehr die Katze gerettet hatte."
+      ]
+    },
+    {
+      "id": "de-b1-u12-l4-ex11",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'That was a special event.'?",
+      "options": [
+        { "id": "a", "text": "Das war ein besonderer Ereignis." },
+        { "id": "b", "text": "Das war eine besondere Ereignis." },
+        { "id": "c", "text": "Das war ein besonderes Ereignis." },
+        { "id": "d", "text": "Das wurde ein besonderes Ereignis." }
+      ],
+      "correctOptionId": "c"
+    },
+    {
+      "id": "de-b1-u12-l4-ex12",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Die Straße wird heute wieder geöffnet.",
+      "tiles": [
+        "the",
+        "street",
+        "road",
+        "is",
+        "being",
+        "opened",
+        "again",
+        "today",
+        "was",
+        "closed",
+        "are"
+      ],
+      "answers": [
+        "The street is being opened again today.",
+        "The road is being opened again today.",
+        "The street is opened again today.",
+        "The road is opened again today.",
+        "Today the street is being opened again.",
+        "Today the road is being opened again."
+      ]
+    }
+  ]
+}

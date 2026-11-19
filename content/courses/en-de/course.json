@@ -3,7 +3,7 @@
   "title": "German",
   "learningLanguage": "de",
   "knownLanguage": "en",
-  "version": 23,
+  "version": 24,
   "levels": [
     {
       "level": "A1",
@@ -1060,6 +1060,34 @@
         {
           "id": "de-b1-u11-l5-calling-the-office",
           "title": "Scenario: Calling About a Letter"
+        }
+      ]
+    },
+    {
+      "id": "de-b1-u12",
+      "level": "B1",
+      "title": "News and Reports",
+      "description": "Understand local news, say what was done and what had happened before, with the passive past and nachdem.",
+      "lessons": [
+        {
+          "id": "de-b1-u12-l1-local-news",
+          "title": "Local News"
+        },
+        {
+          "id": "de-b1-u12-l2-was-opened",
+          "title": "It Was Opened Yesterday"
+        },
+        {
+          "id": "de-b1-u12-l3-after-we-had",
+          "title": "After We Had Eaten"
+        },
+        {
+          "id": "de-b1-u12-l4-what-happened",
+          "title": "What Happened?"
+        },
+        {
+          "id": "de-b1-u12-l5-club-newsletter",
+          "title": "Scenario: The Club Newsletter"
         }
       ]
     }

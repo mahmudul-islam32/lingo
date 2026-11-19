@@ -1,0 +1,213 @@
+{
+  "id": "de-b1-u12-l5-club-newsletter",
+  "courseId": "en-de",
+  "unitId": "de-b1-u12",
+  "title": "Scenario: The Club Newsletter",
+  "tip": "A newsletter mixes it all: Präteritum for the story, Plusquamperfekt for what came first, passive for what was done. „Nachdem wir drei Spiele gewonnen hatten, feierten wir.“ gratulieren + dative: „Wir gratulieren dem Team.“",
+  "exercises": [
+    {
+      "id": "de-b1-u12-l5-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        { "id": "p1", "learning": "der Rückblick", "known": "the review / look back" },
+        { "id": "p2", "learning": "die Saison", "known": "the season" },
+        { "id": "p3", "learning": "der Erfolg", "known": "the success" },
+        { "id": "p4", "learning": "erfolgreich", "known": "successful" },
+        { "id": "p5", "learning": "die Mannschaft", "known": "the team" }
+      ]
+    },
+    {
+      "id": "de-b1-u12-l5-ex02",
+      "type": "listen",
+      "audio": { "src": "/audio/de/b1/u12/de-b1-u12-l5-ex02.mp3" },
+      "tiles": [
+        "ein",
+        "Rückblick",
+        "auf",
+        "die",
+        "Saison",
+        "die",
+        "Mannschaft",
+        "war",
+        "sehr",
+        "erfolgreich",
+        "einen",
+        "wurde",
+        "Erfolg"
+      ],
+      "answers": ["Ein Rückblick auf die Saison. Die Mannschaft war sehr erfolgreich."]
+    },
+    {
+      "id": "de-b1-u12-l5-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'We congratulate the team on its success.'?",
+      "options": [
+        { "id": "a", "text": "Wir gratulieren das Team zum Erfolg." },
+        { "id": "b", "text": "Wir gratulieren dem Team zum Erfolg." },
+        { "id": "c", "text": "Wir gratulieren den Team zum Erfolg." },
+        { "id": "d", "text": "Wir gratulieren dem Team zur Erfolg." }
+      ],
+      "correctOptionId": "b"
+    },
+    {
+      "id": "de-b1-u12-l5-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "After we had won three matches, we celebrated.",
+      "tiles": [
+        "nachdem",
+        "wir",
+        "drei",
+        "Spiele",
+        "gewonnen",
+        "hatten",
+        "feierten",
+        "wir",
+        "waren",
+        "gewinnen",
+        "bevor"
+      ],
+      "answers": [
+        "Nachdem wir drei Spiele gewonnen hatten, feierten wir.",
+        "Wir feierten, nachdem wir drei Spiele gewonnen hatten."
+      ]
+    },
+    {
+      "id": "de-b1-u12-l5-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'The new clubhouse was opened in May.'?",
+      "options": [
+        { "id": "a", "text": "Das neue Vereinshaus wurde im Mai eröffnen." },
+        { "id": "b", "text": "Das neue Vereinshaus wurden im Mai eröffnet." },
+        { "id": "c", "text": "Das neue Vereinshaus wird im Mai eröffnet." },
+        { "id": "d", "text": "Das neue Vereinshaus wurde im Mai eröffnet." }
+      ],
+      "correctOptionId": "d"
+    },
+    {
+      "id": "de-b1-u12-l5-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Die Mannschaft war sehr erfolgreich.",
+      "tiles": ["the", "team", "was", "very", "successful", "success", "were", "is"],
+      "answers": ["The team was very successful."]
+    },
+    {
+      "id": "de-b1-u12-l5-ex07",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Before the season began, the team had trained a lot.",
+      "tiles": [
+        "bevor",
+        "die",
+        "Saison",
+        "begann",
+        "hatte",
+        "die",
+        "Mannschaft",
+        "viel",
+        "trainiert",
+        "war",
+        "nachdem",
+        "trainieren"
+      ],
+      "answers": [
+        "Bevor die Saison begann, hatte die Mannschaft viel trainiert.",
+        "Die Mannschaft hatte viel trainiert, bevor die Saison begann."
+      ]
+    },
+    {
+      "id": "de-b1-u12-l5-ex08",
+      "type": "listen",
+      "audio": { "src": "/audio/de/b1/u12/de-b1-u12-l5-ex08.mp3" },
+      "tiles": [
+        "als",
+        "die",
+        "Saison",
+        "begann",
+        "war",
+        "die",
+        "Mannschaft",
+        "ganz",
+        "neu",
+        "wenn",
+        "beginnt",
+        "waren"
+      ],
+      "answers": ["Als die Saison begann, war die Mannschaft ganz neu."]
+    },
+    {
+      "id": "de-b1-u12-l5-ex09",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "The end of the season was great.",
+      "tiles": ["das", "Ende", "der", "Saison", "war", "toll", "die", "des", "wurde"],
+      "answers": ["Das Ende der Saison war toll.", "Toll war das Ende der Saison."]
+    },
+    {
+      "id": "de-b1-u12-l5-ex10",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'Do you know when the next match takes place? (formal)'?",
+      "options": [
+        { "id": "a", "text": "Wissen Sie, wann findet das nächste Spiel statt?" },
+        { "id": "b", "text": "Wissen Sie, wann das nächste Spiel stattfindet?" },
+        { "id": "c", "text": "Wissen Sie, wann das nächste Spiel statt findet?" },
+        { "id": "d", "text": "Wissen Sie, wann das nächste Spiel stattfinden?" }
+      ],
+      "correctOptionId": "b"
+    },
+    {
+      "id": "de-b1-u12-l5-ex11",
+      "type": "listen",
+      "audio": { "src": "/audio/de/b1/u12/de-b1-u12-l5-ex11.mp3" },
+      "tiles": [
+        "der",
+        "Verein",
+        "wurde",
+        "vor",
+        "hundert",
+        "Jahren",
+        "gegründet",
+        "das",
+        "feierten",
+        "wir",
+        "im",
+        "Mai",
+        "wird",
+        "seit"
+      ],
+      "answers": ["Der Verein wurde vor hundert Jahren gegründet. Das feierten wir im Mai."]
+    },
+    {
+      "id": "de-b1-u12-l5-ex12",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Nachdem wir das Spiel gewonnen hatten, waren wir sehr glücklich.",
+      "tiles": [
+        "after",
+        "we",
+        "we",
+        "had",
+        "won",
+        "the",
+        "match",
+        "game",
+        "were",
+        "very",
+        "happy",
+        "was",
+        "win"
+      ],
+      "answers": [
+        "After we had won the match, we were very happy.",
+        "After we won the match, we were very happy.",
+        "After we had won the game, we were very happy.",
+        "After we won the game, we were very happy.",
+        "We were very happy after we had won the match.",
+        "We were very happy after we won the match.",
+        "We were very happy after we had won the game.",
+        "We were very happy after we won the game."
+      ]
+    }
+  ]
+}

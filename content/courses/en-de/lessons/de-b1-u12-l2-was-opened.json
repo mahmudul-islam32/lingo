@@ -1,0 +1,198 @@
+{
+  "id": "de-b1-u12-l2-was-opened",
+  "courseId": "en-de",
+  "unitId": "de-b1-u12",
+  "title": "It Was Opened Yesterday",
+  "tip": "Reports use the passive past: wurde / wurden + participle. „Die Bibliothek wurde gestern eröffnet.“ wurde on its own means became: „Es wurde dunkel.“ „Er wurde Lehrer.“",
+  "exercises": [
+    {
+      "id": "de-b1-u12-l2-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        { "id": "p1", "learning": "die Eröffnung", "known": "the opening" },
+        { "id": "p2", "learning": "das Gebäude", "known": "the building" },
+        { "id": "p3", "learning": "das Rathaus", "known": "the town hall" },
+        { "id": "p4", "learning": "gründen", "known": "to found" },
+        { "id": "p5", "learning": "renovieren", "known": "to renovate" }
+      ]
+    },
+    {
+      "id": "de-b1-u12-l2-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'The library was opened yesterday.'?",
+      "options": [
+        { "id": "a", "text": "Die Bibliothek wird gestern eröffnet." },
+        { "id": "b", "text": "Die Bibliothek wurde gestern eröffnet." },
+        { "id": "c", "text": "Die Bibliothek wurde gestern eröffnen." },
+        { "id": "d", "text": "Die Bibliothek wurden gestern eröffnet." }
+      ],
+      "correctOptionId": "b"
+    },
+    {
+      "id": "de-b1-u12-l2-ex03",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "The town hall was renovated.",
+      "tiles": ["das", "Rathaus", "wurde", "renoviert", "wird", "wurden", "renovieren", "der"],
+      "answers": ["Das Rathaus wurde renoviert."]
+    },
+    {
+      "id": "de-b1-u12-l2-ex04",
+      "type": "listen",
+      "audio": { "src": "/audio/de/b1/u12/de-b1-u12-l2-ex04.mp3" },
+      "tiles": [
+        "das",
+        "Gebäude",
+        "wurde",
+        "neunzehnhundertzehn",
+        "gebaut",
+        "wird",
+        "bauen",
+        "zweitausendzehn"
+      ],
+      "answers": ["Das Gebäude wurde neunzehnhundertzehn gebaut."]
+    },
+    {
+      "id": "de-b1-u12-l2-ex05",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "The club was founded fifty years ago.",
+      "tiles": [
+        "der",
+        "Verein",
+        "wurde",
+        "vor",
+        "fünfzig",
+        "Jahren",
+        "gegründet",
+        "Jahre",
+        "seit",
+        "wird",
+        "gründet"
+      ],
+      "answers": [
+        "Der Verein wurde vor fünfzig Jahren gegründet.",
+        "Vor fünfzig Jahren wurde der Verein gegründet."
+      ]
+    },
+    {
+      "id": "de-b1-u12-l2-ex06",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'It got dark.'?",
+      "options": [
+        { "id": "a", "text": "Es wurden dunkel." },
+        { "id": "b", "text": "Es würde dunkel." },
+        { "id": "c", "text": "Es wurde dunkel." },
+        { "id": "d", "text": "Es wird dunkel." }
+      ],
+      "correctOptionId": "c"
+    },
+    {
+      "id": "de-b1-u12-l2-ex07",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Er wurde Lehrer.",
+      "tiles": ["he", "became", "a", "teacher", "becomes", "was", "the", "is"],
+      "answers": ["He became a teacher."]
+    },
+    {
+      "id": "de-b1-u12-l2-ex08",
+      "type": "listen",
+      "audio": { "src": "/audio/de/b1/u12/de-b1-u12-l2-ex08.mp3" },
+      "tiles": [
+        "die",
+        "Eröffnung",
+        "war",
+        "am",
+        "Samstag",
+        "viele",
+        "Gäste",
+        "kamen",
+        "wurde",
+        "kommen",
+        "Sonntag"
+      ],
+      "answers": ["Die Eröffnung war am Samstag. Viele Gäste kamen."]
+    },
+    {
+      "id": "de-b1-u12-l2-ex09",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "The new books were brought on Monday.",
+      "tiles": [
+        "die",
+        "neuen",
+        "Bücher",
+        "wurden",
+        "am",
+        "Montag",
+        "gebracht",
+        "wurde",
+        "neue",
+        "bringen",
+        "im"
+      ],
+      "answers": [
+        "Die neuen Bücher wurden am Montag gebracht.",
+        "Am Montag wurden die neuen Bücher gebracht."
+      ]
+    },
+    {
+      "id": "de-b1-u12-l2-ex10",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'The opening of the library was on Saturday.'?",
+      "options": [
+        { "id": "a", "text": "Die Eröffnung die Bibliothek war am Samstag." },
+        { "id": "b", "text": "Die Eröffnung des Bibliothek war am Samstag." },
+        { "id": "c", "text": "Die Eröffnung der Bibliothek wurde am Samstag." },
+        { "id": "d", "text": "Die Eröffnung der Bibliothek war am Samstag." }
+      ],
+      "correctOptionId": "d"
+    },
+    {
+      "id": "de-b1-u12-l2-ex11",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Das Rathaus wurde von der Stadt renoviert.",
+      "tiles": [
+        "the",
+        "the",
+        "town",
+        "hall",
+        "was",
+        "renovated",
+        "by",
+        "city",
+        "is",
+        "from",
+        "were"
+      ],
+      "answers": ["The town hall was renovated by the city."]
+    },
+    {
+      "id": "de-b1-u12-l2-ex12",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "When the town hall was renovated, we worked at home.",
+      "tiles": [
+        "als",
+        "das",
+        "Rathaus",
+        "renoviert",
+        "wurde",
+        "arbeiteten",
+        "wir",
+        "zu",
+        "Hause",
+        "wenn",
+        "wird",
+        "arbeitete"
+      ],
+      "answers": [
+        "Als das Rathaus renoviert wurde, arbeiteten wir zu Hause.",
+        "Wir arbeiteten zu Hause, als das Rathaus renoviert wurde.",
+        "Zu Hause arbeiteten wir, als das Rathaus renoviert wurde."
+      ]
+    }
+  ]
+}

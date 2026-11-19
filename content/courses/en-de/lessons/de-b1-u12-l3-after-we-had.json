@@ -1,0 +1,211 @@
+{
+  "id": "de-b1-u12-l3-after-we-had",
+  "courseId": "en-de",
+  "unitId": "de-b1-u12",
+  "title": "After We Had Eaten",
+  "tip": "Plusquamperfekt = what happened earlier: hatte / war + participle. „Nachdem wir gegessen hatten, gingen wir nach Hause.“ After nachdem and bevor the verb goes to the end: „…, bevor das Stadtfest begann.“",
+  "exercises": [
+    {
+      "id": "de-b1-u12-l3-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        { "id": "p1", "learning": "nachdem", "known": "after (conjunction)" },
+        { "id": "p2", "learning": "bevor", "known": "before (conjunction)" },
+        { "id": "p3", "learning": "vorher", "known": "beforehand" },
+        { "id": "p4", "learning": "nachher", "known": "afterwards" },
+        { "id": "p5", "learning": "das Stadtfest", "known": "the city festival" }
+      ]
+    },
+    {
+      "id": "de-b1-u12-l3-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'After we had eaten, we went home.'?",
+      "options": [
+        { "id": "a", "text": "Nachdem wir essen hatten, gingen wir nach Hause." },
+        { "id": "b", "text": "Nachdem wir gegessen hatten, gingen wir nach Hause." },
+        { "id": "c", "text": "Nachdem wir hatten gegessen, gingen wir nach Hause." },
+        { "id": "d", "text": "Nachdem wir gegessen hatten, wir gingen nach Hause." }
+      ],
+      "correctOptionId": "b"
+    },
+    {
+      "id": "de-b1-u12-l3-ex03",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Before the city festival began, we bought cake. (telling a friend)",
+      "tiles": [
+        "bevor",
+        "das",
+        "Stadtfest",
+        "begann",
+        "haben",
+        "wir",
+        "Kuchen",
+        "gekauft",
+        "nachdem",
+        "sind",
+        "beginnen"
+      ],
+      "answers": [
+        "Bevor das Stadtfest begann, haben wir Kuchen gekauft.",
+        "Wir haben Kuchen gekauft, bevor das Stadtfest begann.",
+        "Kuchen haben wir gekauft, bevor das Stadtfest begann."
+      ]
+    },
+    {
+      "id": "de-b1-u12-l3-ex04",
+      "type": "listen",
+      "audio": { "src": "/audio/de/b1/u12/de-b1-u12-l3-ex04.mp3" },
+      "tiles": ["das", "Stadtfest", "fand", "im", "Juni", "statt", "findet", "am", "Juli"],
+      "answers": ["Das Stadtfest fand im Juni statt."]
+    },
+    {
+      "id": "de-b1-u12-l3-ex05",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Before that, I had never been to Leipzig.",
+      "tiles": [
+        "vorher",
+        "war",
+        "ich",
+        "nie",
+        "in",
+        "Leipzig",
+        "gewesen",
+        "hatte",
+        "nachher",
+        "nach"
+      ],
+      "answers": [
+        "Vorher war ich nie in Leipzig gewesen.",
+        "Ich war vorher nie in Leipzig gewesen.",
+        "Ich war nie vorher in Leipzig gewesen.",
+        "In Leipzig war ich vorher nie gewesen.",
+        "Nie war ich vorher in Leipzig gewesen."
+      ]
+    },
+    {
+      "id": "de-b1-u12-l3-ex06",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'Afterwards everyone was tired.'?",
+      "options": [
+        { "id": "a", "text": "Nachher alle waren müde." },
+        { "id": "b", "text": "Nachdem waren alle müde." },
+        { "id": "c", "text": "Nachher war alle müde." },
+        { "id": "d", "text": "Nachher waren alle müde." }
+      ],
+      "correctOptionId": "d"
+    },
+    {
+      "id": "de-b1-u12-l3-ex07",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Nachdem wir gegessen hatten, gingen wir nach Hause.",
+      "tiles": ["after", "we", "we", "had", "eaten", "went", "home", "ate", "eat", "have", "goes"],
+      "answers": [
+        "After we had eaten, we went home.",
+        "After we ate, we went home.",
+        "We went home after we had eaten.",
+        "We went home after we ate."
+      ]
+    },
+    {
+      "id": "de-b1-u12-l3-ex08",
+      "type": "listen",
+      "audio": { "src": "/audio/de/b1/u12/de-b1-u12-l3-ex08.mp3" },
+      "tiles": [
+        "nachdem",
+        "die",
+        "Gäste",
+        "angekommen",
+        "waren",
+        "begann",
+        "das",
+        "Stadtfest",
+        "hatten",
+        "beginnt",
+        "bevor"
+      ],
+      "answers": ["Nachdem die Gäste angekommen waren, begann das Stadtfest."]
+    },
+    {
+      "id": "de-b1-u12-l3-ex09",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "We had already eaten before the city festival began.",
+      "tiles": [
+        "wir",
+        "hatten",
+        "schon",
+        "gegessen",
+        "bevor",
+        "das",
+        "Stadtfest",
+        "begann",
+        "waren",
+        "nachdem",
+        "essen"
+      ],
+      "answers": [
+        "Wir hatten schon gegessen, bevor das Stadtfest begann.",
+        "Bevor das Stadtfest begann, hatten wir schon gegessen."
+      ]
+    },
+    {
+      "id": "de-b1-u12-l3-ex10",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'The city festival takes place in June.'?",
+      "options": [
+        { "id": "a", "text": "Das Stadtfest stattfindet im Juni." },
+        { "id": "b", "text": "Das Stadtfest findet im Juni statt." },
+        { "id": "c", "text": "Das Stadtfest findet im Juni an." },
+        { "id": "d", "text": "Das Stadtfest findet am Juni statt." }
+      ],
+      "correctOptionId": "b"
+    },
+    {
+      "id": "de-b1-u12-l3-ex11",
+      "type": "listen",
+      "audio": { "src": "/audio/de/b1/u12/de-b1-u12-l3-ex11.mp3" },
+      "tiles": [
+        "wissen",
+        "Sie",
+        "wann",
+        "das",
+        "Stadtfest",
+        "stattfindet",
+        "findet",
+        "statt",
+        "wo",
+        "ob"
+      ],
+      "answers": ["Wissen Sie, wann das Stadtfest stattfindet?"]
+    },
+    {
+      "id": "de-b1-u12-l3-ex12",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "After we had seen the film, we wrote a report.",
+      "tiles": [
+        "nachdem",
+        "wir",
+        "den",
+        "Film",
+        "gesehen",
+        "hatten",
+        "schrieben",
+        "wir",
+        "einen",
+        "Bericht",
+        "waren",
+        "bevor",
+        "sehen"
+      ],
+      "answers": [
+        "Nachdem wir den Film gesehen hatten, schrieben wir einen Bericht.",
+        "Wir schrieben einen Bericht, nachdem wir den Film gesehen hatten.",
+        "Einen Bericht schrieben wir, nachdem wir den Film gesehen hatten."
+      ]
+    }
+  ]
+}

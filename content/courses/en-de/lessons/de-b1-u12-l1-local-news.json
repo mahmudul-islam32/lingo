@@ -1,0 +1,185 @@
+{
+  "id": "de-b1-u12-l1-local-news",
+  "courseId": "en-de",
+  "unitId": "de-b1-u12",
+  "title": "Local News",
+  "tip": "News uses berichten über + accusative: „Die Zeitung berichtet über das Konzert.“ Reports about the past often use the Präteritum: „Die Bürgermeisterin besuchte gestern die Schule.“",
+  "exercises": [
+    {
+      "id": "de-b1-u12-l1-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        { "id": "p1", "learning": "die Meldung", "known": "the news item" },
+        { "id": "p2", "learning": "der Bericht", "known": "the report" },
+        { "id": "p3", "learning": "berichten", "known": "to report" },
+        { "id": "p4", "learning": "aktuell", "known": "current / latest" },
+        { "id": "p5", "learning": "die Region", "known": "the region" }
+      ]
+    },
+    {
+      "id": "de-b1-u12-l1-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'Here are the latest news items.'?",
+      "options": [
+        { "id": "a", "text": "Hier sind die aktuellen Meldungen." },
+        { "id": "b", "text": "Hier ist die aktuellen Meldungen." },
+        { "id": "c", "text": "Hier sind die aktuelle Meldungen." },
+        { "id": "d", "text": "Hier sind aktuellen die Meldungen." }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "de-b1-u12-l1-ex03",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "The newspaper is reporting on the concert.",
+      "tiles": [
+        "die",
+        "Zeitung",
+        "berichtet",
+        "über",
+        "das",
+        "Konzert",
+        "dem",
+        "berichten",
+        "von",
+        "Bericht"
+      ],
+      "answers": [
+        "Die Zeitung berichtet über das Konzert.",
+        "Über das Konzert berichtet die Zeitung."
+      ]
+    },
+    {
+      "id": "de-b1-u12-l1-ex04",
+      "type": "listen",
+      "audio": { "src": "/audio/de/b1/u12/de-b1-u12-l1-ex04.mp3" },
+      "tiles": ["in", "der", "Region", "regnet", "es", "heute", "die", "regnen", "morgen"],
+      "answers": ["In der Region regnet es heute."]
+    },
+    {
+      "id": "de-b1-u12-l1-ex05",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Der Bericht ist kurz.",
+      "tiles": ["the", "report", "is", "short", "long", "are", "news"],
+      "answers": ["The report is short."]
+    },
+    {
+      "id": "de-b1-u12-l1-ex06",
+      "type": "multiple_choice",
+      "prompt": "Which one means 'the mayor' (a woman)?",
+      "options": [
+        { "id": "a", "text": "der Bürgermeisterin" },
+        { "id": "b", "text": "die Bürgermeisterin" },
+        { "id": "c", "text": "das Bürgermeisterin" },
+        { "id": "d", "text": "die Bürgermeister" }
+      ],
+      "correctOptionId": "b"
+    },
+    {
+      "id": "de-b1-u12-l1-ex07",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Today the mayor (a woman) is opening the new playground.",
+      "tiles": [
+        "heute",
+        "die",
+        "Bürgermeisterin",
+        "eröffnet",
+        "den",
+        "neuen",
+        "Spielplatz",
+        "der",
+        "neue",
+        "eröffnen"
+      ],
+      "answers": [
+        "Heute eröffnet die Bürgermeisterin den neuen Spielplatz.",
+        "Die Bürgermeisterin eröffnet heute den neuen Spielplatz.",
+        "Die Bürgermeisterin eröffnet den neuen Spielplatz heute.",
+        "Den neuen Spielplatz eröffnet die Bürgermeisterin heute.",
+        "Den neuen Spielplatz eröffnet heute die Bürgermeisterin."
+      ]
+    },
+    {
+      "id": "de-b1-u12-l1-ex08",
+      "type": "listen",
+      "audio": { "src": "/audio/de/b1/u12/de-b1-u12-l1-ex08.mp3" },
+      "tiles": [
+        "die",
+        "Stadt",
+        "hat",
+        "hunderttausend",
+        "Einwohner",
+        "haben",
+        "tausend",
+        "Einwohnerin"
+      ],
+      "answers": ["Die Stadt hat hunderttausend Einwohner."]
+    },
+    {
+      "id": "de-b1-u12-l1-ex09",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'The residents of the town are reading the report.'?",
+      "options": [
+        { "id": "a", "text": "Die Einwohner des Stadt lesen den Bericht." },
+        { "id": "b", "text": "Die Einwohner der Stadt lesen der Bericht." },
+        { "id": "c", "text": "Die Einwohner der Stadt lesen den Bericht." },
+        { "id": "d", "text": "Die Einwohner der Stadt liest den Bericht." }
+      ],
+      "correctOptionId": "c"
+    },
+    {
+      "id": "de-b1-u12-l1-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Die Bürgermeisterin besuchte gestern die Schule.",
+      "tiles": ["the", "the", "mayor", "visited", "school", "yesterday", "visits", "was", "a"],
+      "answers": [
+        "The mayor visited the school yesterday.",
+        "Yesterday the mayor visited the school."
+      ]
+    },
+    {
+      "id": "de-b1-u12-l1-ex11",
+      "type": "listen",
+      "audio": { "src": "/audio/de/b1/u12/de-b1-u12-l1-ex11.mp3" },
+      "tiles": [
+        "wissen",
+        "Sie",
+        "wann",
+        "die",
+        "aktuellen",
+        "Meldungen",
+        "kommen",
+        "kommt",
+        "wo",
+        "aktuelle"
+      ],
+      "answers": ["Wissen Sie, wann die aktuellen Meldungen kommen?"]
+    },
+    {
+      "id": "de-b1-u12-l1-ex12",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "The report is written every day.",
+      "tiles": [
+        "der",
+        "Bericht",
+        "wird",
+        "jeden",
+        "Tag",
+        "geschrieben",
+        "werden",
+        "jede",
+        "schreibt",
+        "den"
+      ],
+      "answers": [
+        "Der Bericht wird jeden Tag geschrieben.",
+        "Jeden Tag wird der Bericht geschrieben."
+      ]
+    }
+  ]
+}

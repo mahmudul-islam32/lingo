@@ -104,3 +104,59 @@ _(cto)_
 
 ## Review
 _(pm self-review of CDS-1…28 and criteria 3–8 goes here, A2 format)_
+
+## PM self-review
+_Date: 2026-11-19 · pm (content writer 4). Written without running commands; the wave-3
+scripted checks (PD-062.3) and `npm run test` still have to run._
+
+### CDS
+| Rule | Result | Notes |
+|---|---|---|
+| CDS-1 | PASS (fragment) | 5 lesson files with the ticket's ids and titles. Unit fragment (id, title, description, lessons) handed to the orchestrator; `course.json` and `version` not touched (PD-062.4). |
+| CDS-2 | PASS | Every lesson has 12 exercises: 1 match pairs (5 pairs), 3 MC, word banks in both directions, at least 2 listens. L1: 5 word banks (3 `to_learning`, 2 `to_known`), 3 listens · L2: 6 (4 + 2), 2 listens · L3: 5 (4 + 1), 3 listens · L4: 5 (3 + 2), 3 listens · L5: 5 (3 + 2), 3 listens. |
+| CDS-3 | PASS (see doubts 1, 2) | L1 7 items, L2 6, L3 6, L4 8, L5 4; every appendix item used. Everything else is from A1, A2, B1 U1–U11 or allowed extras: regular plurals (`Bücher`, `Spiele`, `Gäste`, `Meldungen`), CDS-16 participles (`eröffnet`, `renoviert`, `gegründet`, `gerettet`), CDS-22.1 regular Präteritum (`besuchte`, `arbeiteten`, `rettete`, `feierten`), the city `Leipzig`. |
+| CDS-4 | PASS | Fronted time / place / prepositional phrases and short objects listed (L1 ex03, ex07; L2 ex05, ex09, ex12; L3 ex03, ex05; L4 ex04, ex08, ex10). `to_known` lists both clause orders. Listens accept only the transcript. |
+| CDS-5 | PASS | 2–5 distractors per word bank, chosen so no second valid sentence is buildable: L3 ex03 has no `hatten` / `kauften` (no Plusquamperfekt or Präteritum main clause); L5 ex07 has no `hat`; L4 ex04 has no `dem` (no `von dem Balkon`); L4 ex12 has no `open`; L2 ex12 has `arbeitete`, not `arbeiten` (no present `Wenn …, arbeiten wir`). |
+| CDS-6 | PASS | Umlauts and `ß` correct, nouns capitalised, articles on match-pair nouns, tiles in authored case. `Sie` only in L1 ex11, L3 ex11 (no `sie` there); no `ihr / Ihr`, `ihnen / Ihnen`. |
+| CDS-7 | PASS | English prompts, German options, standard wording; PD-044 punctuation (L5 ex10 note inside the quotes). |
+| CDS-8 | PASS | All sentences, names and events invented; no brands or media names. |
+| CDS-9 | PASS | All 14 listens use `/audio/de/b1/u12/<exercise-id>.mp3`. |
+| CDS-21 | PASS | Tips ≤ 240 characters, each naming the rule with a German example in „…“. |
+| CDS-11 | PASS | Mayor as `die Bürgermeisterin`; no sensitive topics. |
+| CDS-12 | PASS (to verify) | Ids `de-b1-u12-lN-exNN`, unique. Schema test still to run. |
+| CDS-13 / 20 | PASS | Prompts ≤ 90 characters; longest tile `neunzehnhundertzehn` (19); longest canonical answer 11 tiles; ≤ 2 clauses; listens ≤ 2 sentences, ≤ 13 words; MC options < 90 characters; word banks ≤ 14 tiles. |
+| CDS-14 | PASS | L2 passive Präteritum in 7 exercises, error MC ex02. L3 Plusquamperfekt in 6 (ex02, ex05, ex07, ex08, ex09, ex12), error MC ex02. |
+| CDS-16 / 18 | PASS | Numbers as words (`hunderttausend`, `fünfzig`, `hundert`, `neunzehnhundertzehn`, `drei`); no digits in tiles. |
+| CDS-22 | PASS | `wurde`, `rief … an`, `lief` from this appendix; `fand … statt` built on U2 `fand`; passive Präteritum only from L2, Plusquamperfekt only from L3. CDS-22.9 compound: `das Vereinshaus` once, MC option L5 ex05 only. |
+| CDS-23 | PASS | Narration in Präteritum; L3 ex03 is marked "(telling a friend)" and builds only the Perfekt. After `nachdem` the Plusquamperfekt is canonical; `to_known` L3 ex07 and L5 ex12 accept "After we ate" and "After we had eaten". No `man` tile in any passive drill. No MC marks the other past tense as wrong. |
+| CDS-24 | PASS | `nachdem` / `bevor` / `als` clause-first and main-first both accepted (L2 ex12; L3 ex03, ex09, ex12; L4 ex10; L5 ex04, ex07). Verb clusters `gegessen hatten`, `renoviert wurde`. Max 8 accepted answers (L5 ex12). |
+| CDS-25 | PASS | See criterion 7. |
+| CDS-26 | PASS | See criterion 8. |
+| CDS-27 | PASS | Recycled glosses kept (`die Mannschaft` "the team"). |
+| CDS-28 | n/a | Not the checkpoint. |
+
+### Unit criteria
+| # | Result | Notes |
+|---|---|---|
+| 1 | PASS | Fragment: id `de-b1-u12`, title, description and 5 lessons exactly as criterion 1, to be inserted after `de-b1-u11`. |
+| 2 | PASS | See CDS table. |
+| 3 | PASS | `wurde` "became": L2 ex06 (`Es wurde dunkel.`), ex07 (`Er wurde Lehrer.`). Passive Präteritum in 12 exercises across L2–L5: L2 ex02, ex03, ex04, ex05, ex09, ex11, ex12; L4 ex02, ex07, ex09; L5 ex05, ex11. 7 participles: `eröffnet`, `renoviert`, `gebaut`, `gegründet`, `gebracht`, `verletzt`, `gerettet`. `wurden`: L2 ex09. L2 ex02 is the required MC with the three required distractors. |
+| 4 | PASS | Plusquamperfekt in 10 exercises across L3–L5: L3 ex02, ex05 (`war … gewesen`), ex07, ex08 (`angekommen waren`), ex09, ex12; L4 ex10; L5 ex04, ex07, ex12. `nachdem` in 7: L3 ex02, ex07, ex08, ex12; L4 ex10; L5 ex04, ex12. `bevor` in 3: L3 ex03, ex09; L5 ex07. Clause-first accepted in all of their `to_learning` word banks. `Nachdem wir essen hatten, …` is L3 ex02 option a. |
+| 5 | PASS | L3 ex07 and L5 ex12 accept both English forms; the German canonical is Plusquamperfekt everywhere after `nachdem`. |
+| 6 | PASS | 11 news listens: L1 ex04, ex08; L2 ex04, ex08; L3 ex04, ex08; L4 ex02, ex05, ex09; L5 ex02, ex11. |
+| 7 | PASS | U2 Präteritum: L1 ex10 (`besuchte`), L2 ex08 (`kamen`), ex12 (`arbeiteten`), L3 ex12 (`schrieben`), L4 ex02 (`gab`), ex04 (`rettete`), ex08 (`half`), L5 ex04 (`feierten`), ex08 (`begann`). U2 `als`: L2 ex12, L5 ex08. U1 indirect questions: L1 ex11, L3 ex11 (`Wissen Sie, wann das Stadtfest stattfindet?`), L5 ex10. U7 n-declension: L4 ex08 (`dem Jungen`, `Junge` distractor), ex09 (`von einem Studenten`, `Student` distractor). U11 genitive: L1 ex09 (`der Stadt`), L2 ex10 (`die Eröffnung der Bibliothek`), L5 ex09 (`das Ende der Saison`). U9 passive present: L1 ex12, L4 ex12. |
+| 8 | PASS (see doubt 3) | Invented, mild local news only: openings, a renovation, a festival, a cat rescued, a small accident where nobody was hurt, a club season. No crime, disaster, politics, real events or people. |
+
+### Native-review list (PD-053 marked orders)
+- L1 ex07 `Den neuen Spielplatz eröffnet heute die Bürgermeisterin.` (object first)
+- L3 ex05 `Ich war nie vorher in Leipzig gewesen.` and `Nie war ich vorher in Leipzig gewesen.`
+- L4 ex10 `Nach Hause gingen alle, nachdem …`
+- L5 ex09 `Toll war das Ende der Saison.` (fronted predicative; the tiles can't block it)
+
+Deliberately **not** accepted: L4 ex04 `Eine Katze rettete die Feuerwehr vom Balkon.` (feminine object and subject look the same, so it reads as "a cat rescued the fire brigade"); L5 ex07 `Viel hatte die Mannschaft trainiert, …`; L3 ex09 `Schon hatten wir gegessen, …`.
+
+### Doubts
+1. **`gewesen`** (L3 ex05) is a `sein` participle that no appendix lists (CDS-16). It is used because the ticket outline has `Vorher war ich nie in Leipzig gewesen.` Proposal: QA adds `gewesen` to the L3 appendix.
+2. **`das Stadtfest` in L1:** the outline puts `Die Zeitung berichtet über das Stadtfest.` in L1, but `das Stadtfest` is an L3 item. L1 uses `über das Konzert` (U10) instead; `das Stadtfest` first appears in L3.
+3. **Mayor:** criterion 8 says the mayor appears only at openings, but the L1 outline has `Die Bürgermeisterin besucht die Schule.` It is kept once, as a past-tense `to_known` (L1 ex10). Otherwise the mayor only opens a playground (L1 ex07). If QA reads criterion 8 strictly, L1 ex10 changes.
+4. `das Fest` is not taught on its own, so the criterion 7 example became `Wissen Sie, wann das Stadtfest stattfindet?`.
