@@ -111,9 +111,9 @@ describe("ResultsScreen: streak and daily goal (LES-010)", () => {
     renderScreen(seeded([earlier(YESTERDAY)]));
     expect(items()).toHaveLength(5);
     expect(items().slice(0, 3).map(readableText)).toEqual([
-      "XP earned 15",
-      "Accuracy 100 %",
+      "Total XP 15",
       "Time 3:07",
+      "Accuracy 100 %",
     ]);
     expect(rows()).toEqual(["Streak extended! 2 days", "Daily goal 15 of 20 XP"]);
   });

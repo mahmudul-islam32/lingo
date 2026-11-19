@@ -135,7 +135,7 @@ describe("MatchPairsExercise", () => {
       });
       expect(column("Spanish words").parentElement).toHaveClass("grid-cols-2");
       for (const button of screen.getAllByRole("button")) {
-        expect(button).toHaveClass("min-h-11", "w-full", "break-words");
+        expect(button).toHaveClass("min-h-14", "w-full", "break-words"); // LES-021: 56 px tiles
         expect(button).not.toHaveClass("truncate");
       }
     });

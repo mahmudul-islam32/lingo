@@ -44,13 +44,8 @@ type FocusTarget = { kind: "bank"; slot: number } | { kind: "answer"; index: num
  * Text is rendered exactly as authored (never case-transformed: German noun capitals).
  */
 const tileClasses =
-  "inline-flex min-h-11 max-w-full min-w-0 items-center justify-center rounded-control " +
-  "border-2 px-3 py-1.5 text-center text-base font-semibold wrap-anywhere hyphens-auto";
-
-/** One ruled line every 3.25 rem (tile height + gap). */
-const ruledLines =
-  "bg-[repeating-linear-gradient(to_bottom,transparent_0,transparent_3.125rem," +
-  "var(--color-border)_3.125rem,var(--color-border)_3.25rem)]";
+  "inline-flex min-h-11 max-w-full min-w-0 items-center justify-center rounded-chip " +
+  "border-2 px-3.5 py-1.5 text-center text-base font-medium wrap-anywhere hyphens-auto";
 
 /**
  * Reusable word bank (LES-005, reused by LES-007): an answer line above a bank of tiles.
@@ -147,7 +142,7 @@ export function WordBank({ tiles, tileLang, disabled, onChange, random }: WordBa
   const answer = answerTexts(state);
 
   return (
-    <div className="flex w-full min-w-0 flex-col gap-6">
+    <div className="flex w-full min-w-0 flex-col gap-5">
       <div
         ref={lineRef}
         role="group"
@@ -156,9 +151,8 @@ export function WordBank({ tiles, tileLang, disabled, onChange, random }: WordBa
         tabIndex={disabled ? -1 : 0}
         onKeyDown={handleLineKeyDown}
         className={cn(
-          "focus-visible:focus-ring flex min-h-[6.5rem] w-full flex-wrap content-start items-start",
-          "gap-x-2 gap-y-1.5 rounded-control py-1",
-          ruledLines,
+          "focus-visible:focus-ring flex min-h-28 w-full flex-wrap content-start items-start",
+          "gap-2 border-y-2 border-border py-3",
         )}
       >
         {answer.length === 0 && (
@@ -186,7 +180,7 @@ export function WordBank({ tiles, tileLang, disabled, onChange, random }: WordBa
       <div
         role="group"
         aria-label="Word bank"
-        className="flex w-full min-w-0 flex-wrap justify-center gap-2"
+        className="flex w-full min-w-0 flex-wrap justify-center gap-2 pt-1"
       >
         {state.slots.map((tile, slot) =>
           isPlaced(state, slot) ? (
@@ -195,7 +189,7 @@ export function WordBank({ tiles, tileLang, disabled, onChange, random }: WordBa
               aria-hidden="true"
               data-testid="word-bank-placeholder"
               lang={tileLang}
-              className={cn(tileClasses, "border-border bg-surface")}
+              className={cn(tileClasses, "border-disabled bg-disabled")}
             >
               <span className="invisible">{tile.text}</span>
             </span>
@@ -246,7 +240,10 @@ interface TileProps {
   children: ReactNode;
 }
 
-/** A word tile: native button in tab order, ≥ 44 px, fades in (motion-safe only, 150 ms). */
+/**
+ * A word tile: white 3D chip (design v2), native button in tab order, ≥ 44 px, fades in
+ * (motion-safe only, 150 ms); pressed = 2 px down with a shorter edge.
+ */
 function Tile({ ref, lang, label, disabled, onClick, onKeyDown, children }: TileProps) {
   return (
     <button
@@ -260,9 +257,11 @@ function Tile({ ref, lang, label, disabled, onClick, onKeyDown, children }: Tile
       onKeyUp={cancelSpaceKeyUp}
       className={cn(
         tileClasses,
-        "border-border-strong bg-surface-raised text-fg shadow-sm select-none",
-        "focus-visible:focus-ring motion-safe:animate-fade-in motion-safe:transition-colors",
-        "enabled:hover:bg-surface disabled:cursor-not-allowed disabled:opacity-60",
+        "border-border bg-surface text-fg shadow-3d-card select-none",
+        "focus-visible:focus-ring motion-safe:animate-fade-in",
+        "motion-safe:transition-[border-color,box-shadow,transform] motion-safe:duration-100",
+        "enabled:hover:border-primary-ring enabled:active:translate-y-0.5 enabled:active:shadow-3d-card-pressed",
+        "disabled:cursor-not-allowed disabled:text-fg-muted disabled:shadow-none",
       )}
     >
       <span className="min-w-0">{children}</span>

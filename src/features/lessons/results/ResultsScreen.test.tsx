@@ -74,20 +74,20 @@ describe("ResultsScreen", () => {
     expect(lumi).toHaveAttribute("aria-hidden", "true");
   });
 
-  it("AC3, AC4, AC9: perfect fixture reads 'XP earned 15', 'Accuracy 100 %', 'Time 3:07'", () => {
+  it("AC3, AC4, AC9: perfect fixture reads 'Total XP 15', 'Time 3:07', 'Accuracy 100 %'", () => {
     setup();
-    expect(stats()).toEqual(["XP earned 15", "Accuracy 100 %", "Time 3:07"]);
+    expect(stats()).toEqual(["Total XP 15", "Time 3:07", "Accuracy 100 %"]);
   });
 
   it("AC3, AC4: one mistake shows 10 XP, 80 % and m:ss time, without the perfect line", () => {
     setup({ result: oneMistakeResult });
-    expect(stats()).toEqual(["XP earned 10", "Accuracy 80 %", "Time 1:05"]);
+    expect(stats()).toEqual(["Total XP 10", "Time 1:05", "Accuracy 80 %"]);
     expect(screen.queryByText(/Perfect lesson!/)).not.toBeInTheDocument();
   });
 
   it("AC3: accuracy is rounded to a whole percent", () => {
     setup({ result: { ...oneMistakeResult, accuracy: 2 / 3 } });
-    expect(stats()[1]).toBe("Accuracy 67 %");
+    expect(stats()[2]).toBe("Accuracy 67 %");
   });
 
   it("AC5: perfect lesson shows the bonus line with the calculateXp bonus", () => {
@@ -103,7 +103,7 @@ describe("ResultsScreen", () => {
     };
     setup({ result: custom });
     expect(screen.getByText("Perfect lesson! +3 bonus XP")).toBeInTheDocument();
-    expect(stats()[0]).toBe("XP earned 10");
+    expect(stats()[0]).toBe("Total XP 10");
   });
 
   describe("AC6: saving", () => {
@@ -172,7 +172,7 @@ describe("ResultsScreen", () => {
 
       const alert = await screen.findByRole("alert");
       expect(alert).toHaveTextContent("We couldn't save this lesson on your device.");
-      expect(stats()).toEqual(["XP earned 15", "Accuracy 100 %", "Time 3:07"]);
+      expect(stats()).toEqual(["Total XP 15", "Time 3:07", "Accuracy 100 %"]);
       expect(onSaved).not.toHaveBeenCalled();
 
       await user.click(within(alert).getByRole("button", { name: "Try again" }));
@@ -230,12 +230,12 @@ describe("ResultsScreen", () => {
       expect(onContinue).toHaveBeenCalledTimes(1);
     });
 
-    it("optional 'Practice again' is a secondary action before Continue", async () => {
+    it("optional 'Practice again' is a secondary action below Continue (v2 screen 6)", async () => {
       const onRetryLesson = vi.fn();
       const { user, onContinue } = setup({ onRetryLesson });
       const buttons = screen.getAllByRole("button");
-      expect(buttons.map((b) => b.textContent)).toEqual(["Practice again", "Continue"]);
-      await user.click(buttons[0]!);
+      expect(buttons.map((b) => b.textContent)).toEqual(["Continue", "Practice again"]);
+      await user.click(buttons[1]!);
       expect(onRetryLesson).toHaveBeenCalledTimes(1);
       expect(onContinue).not.toHaveBeenCalled();
     });
@@ -285,7 +285,7 @@ describe("ResultsScreen", () => {
       setup();
       expect(visibleXp()).toBe("0");
       // Screen readers get the final value at once.
-      expect(stats()[0]).toBe("XP earned 15");
+      expect(stats()[0]).toBe("Total XP 15");
 
       frames.frame(1000); // first frame = start
       frames.frame(1000 + MAX_COUNT_UP_MS / 4);

@@ -21,6 +21,7 @@ import type {
 } from "@/contracts";
 import { VisuallyHidden } from "@/components/ui";
 import { checkAnswer } from "../checking";
+import { EXERCISE_EYEBROWS } from "../exercises/eyebrows";
 import { exerciseComponents } from "../exercises/registry";
 import { TipCard, TipStartBar } from "../tip";
 import type {
@@ -334,7 +335,7 @@ export function LessonPlayer({
       : null;
 
   return (
-    <div className="flex h-dvh flex-col bg-canvas text-fg">
+    <div className="flex h-dvh flex-col bg-surface text-fg">
       <PlayerHeader
         value={stats.correctCount}
         max={total}
@@ -366,8 +367,11 @@ export function LessonPlayer({
         {!showTip && exercise && Component && state.presentationKey && (
           <div
             key={state.presentationKey}
-            className="mx-auto w-full max-w-2xl px-4 py-4 motion-safe:animate-slide-up"
+            className="mx-auto flex w-full max-w-2xl flex-col gap-2 px-6 pt-5 pb-6 motion-safe:animate-slide-up"
           >
+            <p data-testid="exercise-eyebrow" className="eyebrow text-eyebrow">
+              {EXERCISE_EYEBROWS[exercise.type]}
+            </p>
             <Component
               exercise={exercise}
               presentationKey={state.presentationKey}

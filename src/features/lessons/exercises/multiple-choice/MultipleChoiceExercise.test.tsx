@@ -89,7 +89,7 @@ describe("MultipleChoiceExercise", () => {
     it("renders full-width options at least 48px tall that wrap long text", () => {
       setup();
       for (const radio of radios()) {
-        expect(radio).toHaveClass("w-full", "min-h-12");
+        expect(radio).toHaveClass("w-full", "min-h-32"); // LES-021: 128 px grid tiles
         expect(radio.querySelector(".break-words")).not.toBeNull();
       }
     });

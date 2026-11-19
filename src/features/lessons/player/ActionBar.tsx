@@ -19,7 +19,11 @@ export interface ActionBarProps {
   random?: () => number;
 }
 
-/** Bottom bar: the "Check" button, replaced by the feedback panel after a check (LES-003). */
+/**
+ * Bottom bar: the full-width "Check" button (grey and flat while disabled, indigo with a
+ * 3D edge when an answer is ready; design v2 screens 3-4), replaced by the feedback sheet
+ * after a check (LES-003).
+ */
 export function ActionBar({
   feedback,
   canCheck,
@@ -43,7 +47,7 @@ export function ActionBar({
           random={random}
         />
       ) : (
-        <div className="border-t-2 border-border bg-canvas px-4 pt-4 pb-[calc(1rem+env(safe-area-inset-bottom))]">
+        <div className="border-t-2 border-border bg-surface px-4 pt-4 pb-[calc(1.25rem+env(safe-area-inset-bottom))] sm:px-6">
           <div className="mx-auto w-full max-w-2xl">
             {showCheck ? (
               <Button variant="primary" size="lg" fullWidth disabled={!canCheck} onClick={onCheck}>
@@ -51,7 +55,7 @@ export function ActionBar({
               </Button>
             ) : (
               // Keeps the bar height stable while a match-pairs board is played.
-              <div aria-hidden="true" className="min-h-12" />
+              <div aria-hidden="true" className="min-h-14" />
             )}
           </div>
         </div>

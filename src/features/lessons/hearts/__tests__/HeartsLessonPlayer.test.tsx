@@ -498,7 +498,7 @@ describe("HeartsLessonPlayer", () => {
     await answerWrong(user);
     await click(user, "Continue");
     const link = await screen.findByRole("link", { name: "Back to Learn" });
-    expect(link.className).toContain("min-h-12");
+    expect(link.className).toContain("min-h-14"); // LES-021: v2 lg button is 56 px
     expect(link.parentElement!.className).toContain("sticky");
     expect(link.parentElement!.className).toContain("bottom-0");
   });
