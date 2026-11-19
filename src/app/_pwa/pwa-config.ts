@@ -38,6 +38,8 @@ export const LESSON_ROUTES: readonly string[] = [enDeCourse, enEsCourse].flatMap
  */
 export const PRECACHED_ROUTES = [
   "/",
+  "/practice",
+  "/leagues",
   "/profile",
   "/onboarding",
   OFFLINE_FALLBACK_URL,

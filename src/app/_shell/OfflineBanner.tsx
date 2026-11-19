@@ -2,6 +2,7 @@
 
 import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
+import { cn } from "@/components/ui";
 import { useOnlineStatus } from "@/lib/offline";
 import { isLessonRoute } from "./lesson-route";
 
@@ -19,7 +20,9 @@ export function isBannerSuppressed(pathname: string | null): boolean {
  * Connectivity banner (PLT-006). Rendered in the normal document flow above `<main>` so it
  * can never cover the bottom navigation or a page's primary button. The `role="status"`
  * live region is always mounted (empty when there is nothing to say) so screen readers
- * announce changes. The state is conveyed by text and icon, not colour alone.
+ * announce changes. The state is conveyed by text and icon, not colour alone. Design v2
+ * (PLT-026): a rounded pill with a solid bottom edge, coral tint offline, green when
+ * back online.
  */
 export function OfflineBanner() {
   const online = useOnlineStatus();
@@ -46,8 +49,15 @@ export function OfflineBanner() {
   return (
     <div role="status" data-testid="offline-banner" data-mode={visible ? mode : undefined}>
       {visible && (
-        <div className="border-b border-border bg-surface-raised text-fg motion-safe:animate-fade-in">
-          <p className="mx-auto flex w-full max-w-md items-center gap-2 px-4 py-2 text-sm font-medium">
+        <div className="mx-auto w-full max-w-md px-4 pt-3 motion-safe:animate-fade-in">
+          <p
+            className={cn(
+              "flex items-center gap-2 rounded-control border-2 px-3.5 py-2 text-sm font-bold",
+              mode === "offline"
+                ? "border-accent-soft bg-accent-tint text-accent-fg shadow-[0_3px_0_var(--color-accent-soft)]"
+                : "border-success-border bg-success-soft text-success-fg shadow-[0_3px_0_var(--color-success-border)]",
+            )}
+          >
             {mode === "offline" ? <CloudOffIcon /> : <CloudCheckIcon />}
             <span>{mode === "offline" ? OFFLINE_TEXT : BACK_ONLINE_TEXT}</span>
           </p>

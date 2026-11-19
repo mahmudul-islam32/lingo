@@ -16,7 +16,7 @@ export function ErrorState({ error, reset }: ErrorStateProps) {
   const showDetails = process.env.NODE_ENV === "development";
   return (
     <div className="flex flex-1 flex-col items-center justify-center gap-4 py-16 text-center">
-      <h1 className="text-2xl font-bold">Something went wrong</h1>
+      <h1 className="font-display text-2xl leading-tight font-extrabold">Something went wrong</h1>
       <p className="text-fg-muted">Please try again. Your progress on this device is safe.</p>
       {showDetails && error.message && (
         <p className="max-w-full text-sm break-words text-fg-muted" data-testid="error-details">

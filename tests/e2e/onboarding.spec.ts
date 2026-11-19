@@ -4,7 +4,7 @@ import { GERMAN_LESSON_1, lessonUrl } from "./helpers/course";
 import { completeOnboarding } from "./onboarding-helpers";
 
 /** PLT-024 AC 3: the language name comes from the default course (en-de). */
-const WELCOME = "Learn German in five minutes a day";
+const WELCOME = "Learn German in five minutes a day.";
 const COURSE = "What do you want to learn?";
 const LEVEL = "Where do you want to start?";
 const GOAL = "Choose a daily goal";

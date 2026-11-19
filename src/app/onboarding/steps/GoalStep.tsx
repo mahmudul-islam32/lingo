@@ -7,6 +7,7 @@ import { StepLayout } from "./StepLayout";
 
 export const GOAL_HEADING = "Choose a daily goal";
 export const SAVE_ERROR_TEXT = "We couldn't save your choices. Please try again.";
+export const GOAL_EYEBROW = "My daily goal";
 
 export interface GoalStepProps {
   headingId: string;
@@ -21,7 +22,7 @@ export interface GoalStepProps {
   saveFailed: boolean;
 }
 
-/** Last step: the goal options from contracts, none preselected. */
+/** Last step: the goal options from contracts as OptionCards (PLT-026), none preselected. */
 export function GoalStep({
   headingId,
   headingRef,
@@ -41,10 +42,14 @@ export function GoalStep({
       step={total}
       total={total}
       onBack={onBack}
+      eyebrow={GOAL_EYEBROW}
       footer={
         <>
           {saveFailed && (
-            <p role="alert" className="rounded-control bg-danger-soft px-3 py-2 text-danger-fg">
+            <p
+              role="alert"
+              className="rounded-control border-2 border-danger-border bg-danger-tint px-3 py-2 font-medium text-danger-fg"
+            >
               {SAVE_ERROR_TEXT}
             </p>
           )}

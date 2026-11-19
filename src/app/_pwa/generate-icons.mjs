@@ -6,8 +6,9 @@
  *   node src/app/_pwa/generate-icons.mjs
  *
  * Rasterising uses `sharp`, which Next.js already installs for image optimisation.
- * Colours are the brand palette from `src/components/ui/tokens.css` (night-950 canvas,
- * glow-300/400/500/600 lantern). This file is artwork source, not UI code.
+ * Colours are the design v2 palette from `src/components/ui/tokens.css` (ADR-014): the
+ * primary indigo tile (same as the manifest `theme_color`), an XP-gold lantern and ink
+ * for the face. This file is artwork source, not UI code.
  */
 import { mkdir, writeFile } from "node:fs/promises";
 import path from "node:path";
@@ -16,11 +17,12 @@ import sharp from "sharp";
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "../../..");
 
-const NIGHT_950 = "#0f0e2a";
-const GLOW_300 = "#ffcb4a";
-const GLOW_400 = "#ffb820";
-const GLOW_500 = "#f59a0b";
-const GLOW_600 = "#d97706";
+const PRIMARY = "#4338ca";
+const INK = "#1b1d2a";
+const GLOW_300 = "#fcd34d";
+const GLOW_400 = "#f5b400";
+const GLOW_500 = "#d99a00";
+const GLOW_600 = "#b45309";
 
 /**
  * Lumi, a paper lantern with a face, on a 512 × 512 canvas. Every shape stays inside a
@@ -35,16 +37,16 @@ const LUMI = `
   <rect x="210" y="116" width="92" height="28" rx="10" fill="${GLOW_600}"/>
   <rect x="210" y="356" width="92" height="28" rx="10" fill="${GLOW_600}"/>
   <path d="M256 384 V410" stroke="${GLOW_300}" stroke-width="10" stroke-linecap="round"/>
-  <circle cx="226" cy="240" r="13" fill="${NIGHT_950}"/>
-  <circle cx="286" cy="240" r="13" fill="${NIGHT_950}"/>
-  <path d="M232 278 Q256 300 280 278" stroke="${NIGHT_950}" stroke-width="9" fill="none" stroke-linecap="round"/>
+  <circle cx="226" cy="240" r="13" fill="${INK}"/>
+  <circle cx="286" cy="240" r="13" fill="${INK}"/>
+  <path d="M232 278 Q256 300 280 278" stroke="${INK}" stroke-width="9" fill="none" stroke-linecap="round"/>
 `;
 
 /** `rounded`: a rounded-square tile (any-purpose icons, favicon). Otherwise full bleed. */
 function svg({ rounded }) {
   const background = rounded
-    ? `<rect width="512" height="512" rx="112" fill="${NIGHT_950}"/>`
-    : `<rect width="512" height="512" fill="${NIGHT_950}"/>`;
+    ? `<rect width="512" height="512" rx="112" fill="${PRIMARY}"/>`
+    : `<rect width="512" height="512" fill="${PRIMARY}"/>`;
   return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">${background}${LUMI}</svg>\n`;
 }
 

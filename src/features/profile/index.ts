@@ -20,3 +20,35 @@ export {
   type StartLevelOption,
 } from "./start-level";
 export { useSetStartLevel, useUpdateSettings } from "./use-update-settings";
+export {
+  GUEST_NAME,
+  hasChosenName,
+  joinedLabel,
+  profileDisplayName,
+  profileInitials,
+  profileSubtitle,
+} from "./identity";
+export {
+  chartMax,
+  dayXpLabel,
+  weekdayIndex,
+  weeklyXpByDay,
+  weekStart,
+  type WeekDayXp,
+} from "./weekly-xp/weekly-xp";
+export {
+  goalLabel,
+  WEEKLY_XP_EMPTY,
+  WEEKLY_XP_ERROR,
+  WEEKLY_XP_TITLE,
+  WeeklyXpChart,
+  type WeeklyXpChartProps,
+} from "./weekly-xp/WeeklyXpChart";
+export { ProfileHeader, type ProfileHeaderProps } from "./components/ProfileHeader";
+export {
+  ProfileStats,
+  STATS_ERROR,
+  type ProfileStatsProps,
+  type ProfileStatsValues,
+} from "./components/ProfileStats";
+export { SettingsRow, type SettingsRowProps } from "./components/SettingsRow";

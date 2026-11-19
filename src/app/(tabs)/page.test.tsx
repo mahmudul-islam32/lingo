@@ -38,6 +38,15 @@ vi.mock("@/features/gamification", () => {
     StreakLumi: block("streak-lumi"),
     DailyGoalRing: block("daily-goal-ring"),
     useUserProgress: () => mocks.progress,
+    // Profile (PLT-026) reads the raw results for its weekly chart; loading here.
+    useProgressInputs: () => ({
+      status: "loading",
+      results: null,
+      hearts: null,
+      goalXp: 20,
+      today: "2026-11-19",
+      now: new Date(),
+    }),
     settingsQuery: () => ({
       queryKey: ["settings"],
       queryFn: async () => mocks.settings,
@@ -202,11 +211,14 @@ describe("LearnPage flash toast (PLT-009 AC 4)", () => {
 });
 
 describe("ProfilePage", () => {
-  it("renders one h1 and the empty state", () => {
+  it("renders one h1 and the v2 profile sections (PLT-026)", () => {
+    mocks.progress = { status: "loading", progress: null };
     renderWithQueryClient(<ProfilePage />);
     expect(screen.getAllByRole("heading", { level: 1 })).toHaveLength(1);
     expect(screen.getByRole("heading", { level: 1, name: "Profile" })).toBeInTheDocument();
-    expect(screen.getByText("Your profile will appear here.")).toBeInTheDocument();
+    expect(screen.getByTestId("profile-header")).toBeInTheDocument();
+    expect(screen.getByRole("heading", { level: 2, name: "XP this week" })).toBeInTheDocument();
+    expect(screen.getByRole("heading", { level: 2, name: "Settings" })).toBeInTheDocument();
     expect(profileMetadata.title).toBe("Profile");
   });
 });

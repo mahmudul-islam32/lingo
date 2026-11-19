@@ -6,6 +6,7 @@ import { RadioCardGroup } from "../../_shell/RadioCardGroup";
 import { StepLayout } from "./StepLayout";
 
 export const LEVEL_HEADING = "Where do you want to start?";
+export const LEVEL_EYEBROW = "I want to start at";
 
 export interface LevelStepProps {
   headingId: string;
@@ -20,8 +21,9 @@ export interface LevelStepProps {
 }
 
 /**
- * Start level step (PLT-025 AC 1–6): one card per course level with content, the first
- * one preselected by the flow, so "Continue" is enabled at once.
+ * Start level step (PLT-025 AC 1–6): one OptionCard per course level with content (same
+ * style as the course step, PLT-026), the first one preselected by the flow, so
+ * "Continue" is enabled at once.
  */
 export function LevelStep({
   headingId,
@@ -42,6 +44,7 @@ export function LevelStep({
       step={step}
       total={total}
       onBack={onBack}
+      eyebrow={LEVEL_EYEBROW}
       hero={<Lumi pose="idle" size="sm" />}
       footer={
         <Button variant="primary" size="lg" fullWidth onClick={onContinue}>
