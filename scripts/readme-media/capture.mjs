@@ -49,6 +49,18 @@ async function onboard(page, opts = {}) {
   await pause(300 + slow);
   if (shots) await shots("onboarding-2-course");
   await page.getByRole("button", { name: "Continue" }).click();
+  // Start-level step (PLT-025): keep A1, the default, when the course offers a choice.
+  const levelStep = page.getByRole("heading", { name: "Where do you want to start?" });
+  if (
+    await levelStep.waitFor({ timeout: 2000 }).then(
+      () => true,
+      () => false,
+    )
+  ) {
+    await pause(slow);
+    if (shots) await shots("onboarding-2b-level");
+    await page.getByRole("button", { name: "Continue" }).click();
+  }
   const goal = option(page, /^Regular/);
   await goal.waitFor();
   await pause(slow);

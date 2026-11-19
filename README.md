@@ -8,7 +8,7 @@ skill path. Our guide is **Lumi**, a small paper lantern whose glow grows with y
 > that plans, builds, reviews and merges every night. This README is refreshed by the
 > nightly run: screenshots and recordings are captured from the real app on `main`.
 
-**Last updated:** 2026-11-17 · **Version:** 0.5.0 · **Course:** English → German, A1 and A2
+**Last updated:** 2026-11-19 · **Version:** 0.5.0 · **Course:** English → German, A1 and A2
 complete (26 units, 130 lessons)
 
 ---
@@ -70,6 +70,14 @@ offline.
 
 [▶ Tabs (MP4)](docs/media/tabs.mp4) · [▶ Offline (MP4)](docs/media/offline.mp4)
 
+### Start where you are, earn hearts by practising
+
+- **Choose your starting level:** onboarding asks "Where do you want to start?" (A1 Beginner
+  or A2 Elementary). A2 starters go straight to A2 Unit 1; A1 lessons stay open. A locked level
+  on the path has a "Start here" button, and Profile lets you change the starting level.
+- **Earn hearts:** every correct answer gives back a heart (up to 5). With no hearts left,
+  replay any finished lesson as **Practice**: it never costs hearts and earns them back.
+
 ### The German course
 
 - **A1 (complete):** 12 units, 60 original lessons and about 700 exercises, from greetings to
@@ -104,6 +112,7 @@ offline.
 | v0.3.x  | German A1: 60 lessons, CEFR skill path, tip cards      | released in v0.5.0       |
 | v0.5.0  | German A2: 70 lessons, A2 checkpoint, German voice     | released                 |
 | v0.5.1  | Fill-the-gap (cloze) exercise                          | built, awaiting content  |
+| v0.5.2  | Start level choice, hearts earned by correct answers   | merged                   |
 | v0.6.0  | Accounts and sync (Supabase), profile and settings     | paused (needs hosting)   |
 | v1.0.0  | Launch polish: audio, speaking, native review          | planned                  |
 | v1.1.0  | German B1 (then B2, C1)                                | planned, writing started |
