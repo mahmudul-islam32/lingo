@@ -6,11 +6,12 @@
  *
  * Colours are design tokens only (Tailwind `fill-*` / `stroke-*` utilities generated from
  * `tokens.css`), never literals:
- * - Outline: `stroke-fg`, the semantic ink. It is light on the dark canvas and indigo
- *   (`night-900`) on the light canvas, so it keeps >= 3:1 against both canvases.
- * - Face and seams on the lit paper: `night-900` (dark ink on amber, >= 9:1). On the dim
- *   ember body (`glow-800`) the face flips to light `glow-100` ink (6.2:1).
- * - Glow: `glow-300` / `glow-400` body, `glow-100` highlights; ember uses `glow-700/800`.
+ * - Outline: `stroke-fg`, the semantic ink (#1B1D2A in design system v2, light theme
+ *   only), >= 15:1 against the canvas and white surfaces.
+ * - Face and seams on the lit paper: `night-900` (deep indigo on gold, >= 4.5:1, checked in
+ *   tokens.test.ts). On the dim ember body (`glow-800`) the face flips to light `glow-100` ink.
+ * - Glow: `glow-300` / `glow-400` body (v2 XP gold), `glow-100` highlights; ember uses
+ *   `glow-700/800`. Caps are `night-700`, the v2 indigo, so Lumi matches the new palette.
  */
 import type { ReactNode } from "react";
 

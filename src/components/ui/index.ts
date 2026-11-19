@@ -31,6 +31,30 @@ export { XpBadge, type XpBadgeProps } from "./XpBadge";
 export { Skeleton, type SkeletonProps, type SkeletonShape } from "./Skeleton";
 export { Spinner, type SpinnerProps, type SpinnerSize } from "./Spinner";
 export { VisuallyHidden, type VisuallyHiddenProps } from "./VisuallyHidden";
-export { BoltIcon, CheckIcon, CloseIcon, CrossIcon, type IconProps } from "./icons";
+export { Chip, type ChipProps, type ChipSize, type ChipTone } from "./Chip";
+export { StatTile, type StatTileLayout, type StatTileProps, type StatTileTone } from "./StatTile";
+export {
+  OptionCard,
+  type OptionCardLayout,
+  type OptionCardProps,
+  type OptionCardStatus,
+} from "./OptionCard";
+export { NavTab, navTabClassName, type NavTabProps } from "./NavTab";
+export {
+  BoltIcon,
+  CheckIcon,
+  CloseIcon,
+  CrossIcon,
+  FlameIcon,
+  GearIcon,
+  HomeIcon,
+  LockIcon,
+  SpeakerIcon,
+  StarIcon,
+  TargetIcon,
+  TrophyIcon,
+  UserIcon,
+  type IconProps,
+} from "./icons";
 export { Lumi, LUMI_SIZE_PX, type LumiProps, type LumiSize } from "./Lumi";
 export { LUMI_POSES, type LumiPose } from "./lumi-poses";

@@ -1,6 +1,6 @@
 import { cn } from "./cn";
 
-export type ProgressTone = "primary" | "success" | "xp";
+export type ProgressTone = "primary" | "success" | "xp" | "accent";
 export type ProgressSize = "sm" | "md" | "lg";
 
 export interface ProgressBarProps {
@@ -19,10 +19,12 @@ export interface ProgressBarProps {
   className?: string;
 }
 
+/** Fills are >= 3:1 against the `track` (tokens.test.ts). */
 const TONE: Record<ProgressTone, string> = {
   primary: "bg-progress",
   success: "bg-success",
   xp: "bg-xp",
+  accent: "bg-accent-edge",
 };
 
 const SIZE: Record<ProgressSize, string> = {
@@ -54,11 +56,7 @@ export function ProgressBar({
       aria-valuemax={safeMax}
       aria-valuenow={now}
       aria-valuetext={valueText}
-      className={cn(
-        "w-full overflow-hidden rounded-full bg-surface-raised border border-border",
-        SIZE[size],
-        className,
-      )}
+      className={cn("w-full overflow-hidden rounded-full bg-track", SIZE[size], className)}
     >
       <div
         className={cn(

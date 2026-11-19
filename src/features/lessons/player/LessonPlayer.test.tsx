@@ -276,7 +276,7 @@ describe("LessonPlayer", () => {
 
   it("the action bar is sticky at the bottom with a 48 px button; exercise area scrolls", () => {
     setup();
-    expect(checkButton().className).toMatch(/min-h-12/);
+    expect(checkButton().className).toMatch(/min-h-14/); // CTO-016: lg Button is 56 px
     expect(checkButton().closest(".sticky")).toHaveClass("bottom-0");
     expect(screen.getByTestId("exercise-area")).toHaveClass("flex-1", "overflow-y-auto");
   });
