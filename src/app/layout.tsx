@@ -1,4 +1,5 @@
 import type { Metadata, Viewport } from "next";
+import { Bricolage_Grotesque, DM_Sans } from "next/font/google";
 import type { ReactNode } from "react";
 import { BRAND_HEX } from "@/components/ui";
 import { GuestProfileBootstrap } from "@/features/profile";
@@ -12,6 +13,23 @@ import { DEFAULT_THEME } from "./_shell/theme";
 import { Providers } from "./providers";
 import "./globals.css";
 
+/**
+ * Design system v2 fonts (CTO-016, ADR-014), self-hosted by `next/font` at build time.
+ * The CSS variables feed the `font-display` / `font-body` Tailwind families in tokens.css.
+ */
+const display = Bricolage_Grotesque({
+  subsets: ["latin", "latin-ext"],
+  weight: ["700", "800"],
+  variable: "--font-bricolage",
+  display: "swap",
+});
+const body = DM_Sans({
+  subsets: ["latin", "latin-ext"],
+  weight: ["400", "500", "700"],
+  variable: "--font-dm-sans",
+  display: "swap",
+});
+
 export const metadata: Metadata = {
   title: { default: APP_NAME, template: TITLE_TEMPLATE },
   description: APP_DESCRIPTION,
@@ -22,7 +40,7 @@ export const metadata: Metadata = {
     icon: [{ url: ICONS.favicon, type: "image/svg+xml" }],
     apple: [{ url: ICONS.apple180, sizes: "180x180", type: "image/png" }],
   },
-  appleWebApp: { capable: true, title: APP_NAME, statusBarStyle: "black-translucent" },
+  appleWebApp: { capable: true, title: APP_NAME, statusBarStyle: "default" },
   // Next.js emits only `mobile-web-app-capable` for `appleWebApp.capable`; older iOS
   // versions still need the Apple-prefixed tag.
   other: { "apple-mobile-web-app-capable": "yes" },
@@ -32,7 +50,7 @@ export const viewport: Viewport = {
   width: "device-width",
   initialScale: 1,
   viewportFit: "cover",
-  themeColor: BRAND_HEX.canvasDark,
+  themeColor: BRAND_HEX.canvas,
 };
 
 /**
@@ -45,8 +63,12 @@ export const viewport: Viewport = {
  */
 export default function RootLayout({ children }: Readonly<{ children: ReactNode }>) {
   return (
-    <html lang="en" data-theme={DEFAULT_THEME} className="h-full antialiased">
-      <body className="flex min-h-full flex-col overflow-x-hidden bg-canvas pt-[env(safe-area-inset-top)] text-fg">
+    <html
+      lang="en"
+      data-theme={DEFAULT_THEME}
+      className={`${display.variable} ${body.variable} h-full antialiased`}
+    >
+      <body className="flex min-h-full flex-col overflow-x-hidden bg-canvas pt-[env(safe-area-inset-top)] font-body text-fg">
         <SkipLink />
         <Providers>
           <InstallPromptCapture />

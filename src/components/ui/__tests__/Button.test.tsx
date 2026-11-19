@@ -26,7 +26,7 @@ describe("Button", () => {
       </Button>,
     );
     const button = screen.getByRole("button", { name: "Continue" });
-    expect(button).toHaveClass("min-h-12", "w-full");
+    expect(button).toHaveClass("min-h-14", "w-full");
   });
 
   it("is reachable with Tab and activates with Enter and Space", async () => {

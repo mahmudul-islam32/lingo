@@ -103,10 +103,10 @@ describe("Lumi outline contrast (AC6)", () => {
     expect(renderToStaticMarkup(<Lumi pose="idle" />)).toContain("stroke-fg");
   });
 
-  it.each(["@theme static", '[data-theme="light"]'])(
-    "outline (fg) is >= 3:1 against the canvas in %s",
-    (scope) => {
-      expect(contrast(pick(scope, "fg"), pick(scope, "canvas"))).toBeGreaterThanOrEqual(3);
-    },
-  );
+  // Design system v2 is light only (PD-066): one scope, canvas and white surface.
+  it.each(["canvas", "surface"])("outline (fg) is >= 3:1 against %s", (bg) => {
+    expect(contrast(pick("@theme static", "fg"), pick("@theme static", bg))).toBeGreaterThanOrEqual(
+      3,
+    );
+  });
 });

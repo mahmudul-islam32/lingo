@@ -38,9 +38,9 @@ export interface ToastProps extends Omit<ToastOptions, "duration"> {
 }
 
 const TONE: Record<ToastTone, string> = {
-  info: "bg-surface-raised text-fg border-border-strong",
-  success: "bg-success-soft text-success-fg border-success",
-  error: "bg-danger-soft text-danger-fg border-danger",
+  info: "bg-surface text-fg border-border shadow-3d-card",
+  success: "bg-success-soft text-success-fg border-success-border shadow-3d-card",
+  error: "bg-danger-soft text-danger-fg border-danger-border shadow-3d-card",
 };
 
 /** One toast (presentational). Usually rendered by `ToastProvider`. */
@@ -55,7 +55,7 @@ export function Toast({
   return (
     <div
       className={cn(
-        "pointer-events-auto flex w-full items-start gap-3 rounded-card border-2 p-4 shadow-lg motion-safe:animate-slide-up",
+        "pointer-events-auto flex w-full items-start gap-3 rounded-card border-2 p-4 motion-safe:animate-slide-up",
         TONE[tone],
         className,
       )}
@@ -63,7 +63,7 @@ export function Toast({
       {tone === "success" && <CheckIcon className="mt-0.5 shrink-0" />}
       {tone === "error" && <CrossIcon className="mt-0.5 shrink-0" />}
       <div className="min-w-0 flex-1">
-        <p className="font-semibold">{title}</p>
+        <p className="font-bold">{title}</p>
         {description && <p className="mt-1 text-sm opacity-90">{description}</p>}
         {action && (
           <Button

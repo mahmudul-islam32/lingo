@@ -7,7 +7,7 @@ describe("Card", () => {
     render(<Card>Hello</Card>);
     const card = screen.getByText("Hello");
     expect(card.tagName).toBe("DIV");
-    expect(card).toHaveClass("bg-surface", "p-4");
+    expect(card).toHaveClass("bg-surface", "shadow-3d-card", "rounded-card", "p-4");
   });
 
   it("renders as a list item inside a list", () => {
@@ -26,6 +26,6 @@ describe("Card", () => {
       </Card>,
     );
     const region = screen.getByRole("region", { name: "Unit 1" });
-    expect(region).toHaveClass("bg-night-800", "p-6");
+    expect(region).toHaveClass("bg-primary", "text-on-primary", "p-6");
   });
 });

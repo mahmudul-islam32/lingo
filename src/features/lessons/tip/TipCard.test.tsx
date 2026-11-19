@@ -157,7 +157,7 @@ describe("Lesson tip card (LES-013)", () => {
     expect(area).toContainElement(screen.getByTestId("tip-card"));
     expect(area).not.toContainElement(startButton());
     expect(startButton().closest(".sticky")).toHaveClass("bottom-0", "shrink-0");
-    expect(startButton().className).toMatch(/min-h-12/);
+    expect(startButton().className).toMatch(/min-h-14/); // CTO-016: lg Button is 56 px
   });
 
   it("only animates with motion allowed", () => {

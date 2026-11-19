@@ -1,6 +1,6 @@
 # ADR-004: Design tokens and shared UI primitives
 
-- **Status:** Accepted
+- **Status:** Accepted; palette and dark-first theme superseded by [ADR-014](ADR-014-design-system-v2.md) (CTO-016)
 - **Date:** 2026-11-07
 - **Ticket:** CTO-004
 - **Decider:** cto

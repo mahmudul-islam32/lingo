@@ -3,13 +3,17 @@ import { cn } from "./cn";
 
 export type CardElement = "div" | "section" | "article" | "li" | "aside";
 export type CardPadding = "none" | "sm" | "md" | "lg";
-export type CardTone = "default" | "raised" | "accent";
+export type CardTone = "default" | "raised" | "accent" | "flat" | "tint" | "warm";
 
 export interface CardProps extends HTMLAttributes<HTMLElement> {
   /** Element to render (default `div`); use `li` inside lists, `section` with a heading. */
   as?: CardElement;
   padding?: CardPadding;
-  /** `default` = surface, `raised` = higher surface, `accent` = brand indigo with amber edge. */
+  /**
+   * `default` = white with a 3 px bottom edge (design v2); `raised` = white with a deeper
+   * neutral edge; `accent` = indigo banner (unit header); `flat` = white, border only (v2);
+   * `tint` = indigo tint panel (v2); `warm` = coral tint panel, e.g. the streak banner (v2).
+   */
   tone?: CardTone;
   children?: ReactNode;
 }
@@ -22,9 +26,12 @@ const PADDING: Record<CardPadding, string> = {
 };
 
 const TONE: Record<CardTone, string> = {
-  default: "bg-surface text-fg border border-border",
-  raised: "bg-surface-raised text-fg border border-border shadow-md",
-  accent: "bg-night-800 text-night-50 border-2 border-glow-400",
+  default: "bg-surface text-fg border-2 border-border shadow-3d-card",
+  raised: "bg-surface text-fg border-2 border-border shadow-3d-neutral",
+  accent: "bg-primary text-on-primary rounded-banner",
+  flat: "bg-surface text-fg border-2 border-border",
+  tint: "bg-primary-tint text-fg",
+  warm: "bg-accent-tint text-fg",
 };
 
 /** Presentational container. Not interactive by itself: put a button or link inside. */

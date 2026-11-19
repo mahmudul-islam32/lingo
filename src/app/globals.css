@@ -4,12 +4,6 @@
 body {
   background: var(--color-canvas);
   color: var(--color-fg);
-  font-family:
-    system-ui,
-    -apple-system,
-    "Segoe UI",
-    Roboto,
-    "Helvetica Neue",
-    Arial,
-    sans-serif;
+  /* Design system v2: DM Sans via next/font (CTO-016). */
+  font-family: var(--font-body);
 }

@@ -26,7 +26,7 @@ export function HeartIcon({ filled = true, size = "md", label, className }: Hear
       viewBox="0 0 24 24"
       focusable="false"
       data-filled={filled ? "true" : "false"}
-      className={cn(filled ? "text-heart" : "text-fg-muted", className)}
+      className={cn(filled ? "text-heart" : "text-border-strong", className)}
       {...a11y}
     >
       <path

@@ -136,12 +136,12 @@ export function Dialog({
         tabIndex={-1}
         onKeyDown={handleKeyDown}
         className={cn(
-          "relative w-full max-w-md rounded-card border border-border bg-surface p-6 text-fg shadow-xl",
+          "relative w-full max-w-md rounded-banner border-2 border-border bg-surface p-6 text-fg shadow-3d-card",
           "focus:outline-none motion-safe:animate-slide-up",
           className,
         )}
       >
-        <h2 id={titleId} className="text-xl font-bold">
+        <h2 id={titleId} className="font-display text-2xl font-bold">
           {title}
         </h2>
         {description && (
