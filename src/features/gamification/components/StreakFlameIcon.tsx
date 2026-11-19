@@ -3,7 +3,7 @@ import { cn, type GameIconSize } from "@/components/ui";
 const PX: Record<GameIconSize, number> = { sm: 16, md: 24, lg: 32 };
 
 export interface StreakFlameIconProps {
-  /** Lit = streak extended today (amber, filled); unlit = outlined and muted. */
+  /** Lit = streak extended today (coral, filled; GAM-012); unlit = outlined and muted. */
   lit: boolean;
   size?: GameIconSize;
   className?: string;
@@ -24,7 +24,7 @@ export function StreakFlameIcon({ lit, size = "md", className }: StreakFlameIcon
       focusable="false"
       aria-hidden="true"
       data-lit={lit ? "true" : "false"}
-      className={cn("shrink-0", lit ? "text-xp" : "text-fg-muted", className)}
+      className={cn("shrink-0", lit ? "text-accent" : "text-fg-muted", className)}
     >
       {/* Outer flame */}
       <path

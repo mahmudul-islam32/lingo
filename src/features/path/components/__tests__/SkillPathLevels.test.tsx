@@ -419,7 +419,7 @@ describe("GAM-008 rules on a course with levels (GAM-010 AC10, AC12, AC13)", () 
     const [done, next, locked] = nodeControls();
     expect(done!.querySelector("[data-icon='check']")).not.toBeNull();
     expect(within(done!).getByText(/Completed/)).toBeInTheDocument();
-    expect(next!.querySelector("[data-pose='idle']")).not.toBeNull();
+    expect(next!.querySelector("[data-icon='star']")).not.toBeNull();
     expect(locked!.querySelector("[data-icon='lock']")).not.toBeNull();
     expect(within(locked!).getByText("Locked")).toBeInTheDocument();
   });
@@ -517,5 +517,24 @@ describe("SkillPath container with the German fixture course", () => {
     expect(
       await screen.findByText("Finish Unit 1, Lesson 1 to unlock this one."),
     ).toBeInTheDocument();
+  });
+});
+
+describe("redesign v2 headers (GAM-012 AC2, AC5)", () => {
+  it("unit banners show 'Level A1 ·' before the unit, outside the heading name", () => {
+    setup();
+    const h3 = screen.getAllByRole("heading", { level: 3 })[0]!;
+    expect(h3).toHaveAccessibleName(/^Unit 1: /);
+    const banner = h3.parentElement!;
+    expect(banner).toHaveClass("bg-primary");
+    expect(banner).toHaveTextContent(/^Level A1 ·Unit 1/);
+  });
+
+  it("level headers: white card button, display-font title, progress as the eyebrow", () => {
+    setup();
+    const button = within(levelSection("A1")).getAllByRole("button")[0]!;
+    expect(button).toHaveClass("bg-surface", "shadow-3d-card", "min-h-12");
+    expect(button).toHaveAccessibleName(/^A1 · Beginner, \d+ of \d+ lessons completed$/);
+    expect(within(button).getByText("A1 · Beginner")).toHaveClass("font-display");
   });
 });

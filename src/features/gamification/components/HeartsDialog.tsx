@@ -2,7 +2,7 @@
 
 import type { RefObject } from "react";
 import type { HeartsView } from "@/contracts";
-import { Button, Dialog } from "@/components/ui";
+import { Button, Dialog, HeartIcon } from "@/components/ui";
 import { useMinuteClock } from "../hooks/use-minute-clock";
 import { formatHeartRefill, formatHeartsFull } from "../rules/hearts-format";
 import { HEARTS_FULL_TEXT, heartsRuleText } from "../rules/hearts-rule-text";
@@ -31,12 +31,26 @@ export function HeartsDialog({ open, onClose, view, returnFocusRef }: HeartsDial
     <Dialog
       open={open}
       onClose={onClose}
-      title="Hearts"
+      title={
+        // GAM-012 AC12: heart badge + display-font title; the name stays "Hearts".
+        <span className="flex items-center gap-3">
+          <span className="flex size-12 shrink-0 items-center justify-center rounded-full bg-danger-tint">
+            <HeartIcon size="md" />
+          </span>
+          Hearts
+        </span>
+      }
       returnFocusRef={returnFocusRef}
-      actions={<Button onClick={onClose}>Got it</Button>}
+      actions={
+        <Button variant="primary" size="lg" fullWidth onClick={onClose}>
+          Got it
+        </Button>
+      }
     >
       <div className="flex flex-col gap-3">
-        <HeartsMeter current={view.current} max={view.max} size="lg" />
+        <div className="flex justify-center rounded-card border-2 border-danger-border bg-danger-tint px-4 py-3">
+          <HeartsMeter current={view.current} max={view.max} size="lg" tone="rose" />
+        </div>
         {next === null ? (
           <p className="text-fg">{HEARTS_FULL_TEXT}</p>
         ) : (

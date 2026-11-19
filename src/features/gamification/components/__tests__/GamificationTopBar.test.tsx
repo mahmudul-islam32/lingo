@@ -63,19 +63,21 @@ const today = () => toLocalDate(new Date(), TZ);
 const bar = () => screen.getByRole("region", { name: "Your progress" });
 
 describe("GamificationTopBar (GAM-007)", () => {
-  it("new learner: 0 days unlit, 0 XP, 5 hearts, in order, as a 3-item list (AC1-5, AC9)", () => {
+  it("new learner: course chip, 0 days unlit, 0 XP, 5 hearts, in order, as a list (AC1-5, AC9; GAM-012 AC1)", () => {
     renderBar(seeded([]));
     const region = bar();
     expect(region.tagName).toBe("SECTION");
     expect(within(region).queryByRole("heading")).not.toBeInTheDocument();
     const items = within(within(region).getByRole("list")).getAllByRole("listitem");
-    expect(items).toHaveLength(3);
+    expect(items).toHaveLength(4);
 
-    const streak = within(items[0]!).getByRole("img", { name: "Streak: 0 days" });
+    // GAM-012 AC1: the course chip comes first, its code read as the language.
+    expect(items[0]).toHaveTextContent(/^ENCourse: English$/); // COURSE is "es-en"
+    const streak = within(items[1]!).getByRole("img", { name: "Streak: 0 days" });
     expect(streak).toHaveTextContent("0");
     expect(streak.querySelector("svg")).toHaveAttribute("data-lit", "false");
-    expect(within(items[1]!).getByRole("img", { name: "Total XP: 0" })).toHaveTextContent("0 XP");
-    expect(within(items[2]!).getByRole("button", { name: "Hearts: 5 of 5" })).toHaveTextContent(
+    expect(within(items[2]!).getByRole("img", { name: "Total XP: 0" })).toHaveTextContent("0 XP");
+    expect(within(items[3]!).getByRole("button", { name: "Hearts: 5 of 5" })).toHaveTextContent(
       "5",
     );
   });
@@ -177,7 +179,9 @@ describe("GamificationTopBar (GAM-007)", () => {
     session.progress.listLessonResults.mockReturnValue(pending());
     session.progress.getHearts.mockReturnValue(pending());
     renderBar();
-    const items = within(bar()).getAllByRole("listitem");
+    const [course, ...items] = within(bar()).getAllByRole("listitem");
+    // GAM-012: the course chip needs no data and shows at once.
+    expect(course).toHaveTextContent("EN");
     expect(items).toHaveLength(3);
     for (const item of items) expect(item.querySelector("[data-skeleton]")).not.toBeNull();
     expect(screen.getByRole("status")).toHaveTextContent("Loading your progress");

@@ -46,3 +46,5 @@ export {
   streakMessage,
 } from "./streak-message";
 export { HEARTS_FULL_TEXT, heartsRuleText } from "./hearts-rule-text";
+export { courseChip, courseLanguageOf, languageName, type CourseChip } from "./course-chip";
+export { weekStartOf, weeklyXp } from "./weekly-xp";

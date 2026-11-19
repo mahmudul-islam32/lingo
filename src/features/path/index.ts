@@ -5,3 +5,4 @@
 export * from "./rules";
 export * from "./data";
 export * from "./components";
+export * from "./practice";

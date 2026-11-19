@@ -12,7 +12,7 @@ import {
   type RefObject,
 } from "react";
 import { GAME_CONFIG, type CefrLevel, type Course, type PathNode, type Slug } from "@/contracts";
-import { Button, Card, Dialog, Lumi, cn } from "@/components/ui";
+import { Button, Card, Dialog, HeartIcon, Lumi, cn } from "@/components/ui";
 import {
   buildPathSections,
   defaultExpandedLevel,
@@ -33,6 +33,7 @@ import {
   OUT_OF_HEARTS_FALLBACK,
   OUT_OF_HEARTS_TITLE,
   PRACTISE_TO_EARN_TEXT,
+  LEVEL_EYEBROW_PREFIX,
   START_HERE_TEXT,
   lockedToastText,
   startHereName,
@@ -109,6 +110,8 @@ function openSet(level: CefrLevel | null): ReadonlySet<CefrLevel> {
 
 interface UnitBlockProps {
   section: PathUnitSection;
+  /** CEFR code of the unit's level ("A1") for the banner eyebrow; `null` without levels. */
+  levelCode?: CefrLevel | null;
   /** `<h2>` without levels (GAM-008 layout), `<h3>` under a level header (GAM-010 AC4). */
   headingLevel: 2 | 3;
   idPrefix: string;
@@ -118,6 +121,7 @@ interface UnitBlockProps {
 /** One unit: header card, then its nodes (or the empty state, GAM-008 AC15). */
 const UnitBlock = memo(function UnitBlock({
   section,
+  levelCode = null,
   headingLevel,
   idPrefix,
   ctx,
@@ -127,25 +131,51 @@ const UnitBlock = memo(function UnitBlock({
 
   return (
     <section aria-labelledby={headingId} data-unit={unit.id} className="flex flex-col gap-6">
-      <Card tone="accent" padding="md">
+      {/* GAM-012 AC2 (screen 2): indigo banner, eyebrow "LEVEL A1 · UNIT 2", white title. */}
+      <Card tone="accent" padding="none" className="flow-root px-5 py-4.5">
         {headingLevel === 2 ? (
-          <h2 id={headingId} className="text-xl font-bold break-words">
-            {unit.title}
-          </h2>
+          <>
+            <p aria-hidden="true" className="eyebrow text-primary-ring">
+              {unitNumberText(section.number)}
+            </p>
+            <h2
+              id={headingId}
+              className="mt-1 font-display text-[1.3125rem] leading-tight font-bold break-words"
+            >
+              {unit.title}
+            </h2>
+          </>
         ) : (
           <>
-            {/* Name "Unit 3: At the Bakery": the colon is for screen readers only. */}
+            {/*
+              Eyebrow "LEVEL A1 · UNIT 2" (GAM-012 AC2). The level part floats just before
+              the heading, outside it and aria-hidden, so the heading stays "Unit 3: At the
+              Bakery" (the colon is for screen readers only).
+            */}
+            {levelCode && (
+              <span aria-hidden="true" className="float-left me-1 eyebrow text-primary-ring">
+                {LEVEL_EYEBROW_PREFIX} {levelCode} ·
+              </span>
+            )}
             <h3 id={headingId}>
-              <span className="block text-sm font-semibold text-night-100">
+              <span className="block eyebrow text-primary-ring">
                 {unitNumberText(section.number)}
               </span>
               <span className="sr-only">:</span>{" "}
-              <span className="block text-xl font-bold break-words">{unit.title}</span>
+              <span className="mt-1 block clear-left font-display text-[1.3125rem] leading-tight font-bold break-words">
+                {unit.title}
+              </span>
             </h3>
-            {unit.description && <p className="mt-1 text-night-50">{unit.description}</p>}
+            {unit.description && (
+              <p className="mt-1.5 text-sm text-primary-tint">{unit.description}</p>
+            )}
           </>
         )}
-        {total > 0 && <p className="mt-1 text-night-100">{unitProgressText(completed, total)}</p>}
+        {total > 0 && (
+          <p className="mt-2 text-sm font-bold text-primary-ring">
+            {unitProgressText(completed, total)}
+          </p>
+        )}
       </Card>
 
       {lessons.length === 0 ? (
@@ -155,11 +185,7 @@ const UnitBlock = memo(function UnitBlock({
         </div>
       ) : (
         <div className="relative">
-          <div
-            aria-hidden="true"
-            className="absolute inset-y-8 left-1/2 w-1 -translate-x-1/2 rounded-full bg-border"
-          />
-          <ol aria-labelledby={headingId} className="relative flex flex-col gap-6">
+          <ol aria-labelledby={headingId} className="relative flex flex-col gap-5">
             {lessons.map((entry) => {
               const id = entry.node.lessonId;
               return (
@@ -228,20 +254,30 @@ const LevelSection = memo(function LevelSection({
             onClick={() => onToggle(level.level)}
             className={cn(
               "flex min-h-12 w-full cursor-pointer items-center gap-3 rounded-card px-4 py-3",
-              "border-2 border-glow-400 bg-night-700 text-left text-night-50",
-              "focus-visible:focus-ring",
+              "border-2 border-border bg-surface text-left text-fg shadow-3d-card",
+              "hover:border-primary-ring active:translate-y-0.5 active:shadow-3d-card-pressed",
+              "focus-visible:focus-ring motion-safe:transition-[border-color,box-shadow,transform]",
             )}
           >
-            <span className="flex min-w-0 flex-1 flex-col">
-              <span className="text-xl font-bold break-words">{level.title}</span>
+            {/*
+              DOM order title, then progress (the name "A1 · Beginner, 1 of 6 lessons
+              completed"); shown reversed, the progress as the eyebrow (GAM-012 AC5).
+            */}
+            <span className="flex min-w-0 flex-1 flex-col-reverse">
+              <span className="font-display text-xl leading-tight font-extrabold break-words">
+                {level.title}
+              </span>
               <span className="sr-only">,</span>{" "}
-              <span className="text-sm font-semibold text-night-100">
+              <span className="eyebrow text-primary-fg">
                 {unitProgressText(section.completed, section.total)}
               </span>
             </span>
-            {locked && <LockIcon size={22} className="shrink-0 text-night-100" />}
+            {locked && <LockIcon size={22} className="shrink-0 text-fg-muted" />}
             <ChevronIcon
-              className={cn("shrink-0 motion-safe:transition-transform", expanded && "rotate-180")}
+              className={cn(
+                "shrink-0 text-primary motion-safe:transition-transform",
+                expanded && "rotate-180",
+              )}
             />
           </button>
         </h2>
@@ -269,6 +305,7 @@ const LevelSection = memo(function LevelSection({
               <UnitBlock
                 key={unit.unit.id}
                 section={unit}
+                levelCode={level.level}
                 headingLevel={3}
                 idPrefix={idPrefix}
                 ctx={ctx}
@@ -280,6 +317,18 @@ const LevelSection = memo(function LevelSection({
     </section>
   );
 });
+
+/** Decorative empty heart in a rose tint (GAM-012 AC12). */
+function OutOfHeartsBadge() {
+  return (
+    <span
+      data-testid="out-of-hearts-badge"
+      className="flex size-12 shrink-0 items-center justify-center rounded-full bg-danger-tint"
+    >
+      <HeartIcon filled={false} size="md" className="text-heart" />
+    </span>
+  );
+}
 
 interface ComingSoonLevelProps {
   section: PathLevelSection;
@@ -296,14 +345,14 @@ function ComingSoonLevel({ section, idPrefix, withLumi }: ComingSoonLevelProps) 
       aria-labelledby={headingId}
       data-level={level.level}
       data-level-state="coming_soon"
-      className="flex min-h-12 items-center gap-3 rounded-card border border-border bg-surface px-4 py-3"
+      className="flex min-h-12 items-center gap-3 rounded-card border-2 border-border bg-surface px-4 py-3"
     >
       {withLumi && <Lumi pose="idle" size="sm" />}
       <div className="flex min-w-0 flex-1 flex-wrap items-baseline gap-x-2">
-        <h2 id={headingId} className="text-lg font-bold break-words text-fg">
+        <h2 id={headingId} className="font-display text-lg font-bold break-words text-fg">
           {level.title}
         </h2>
-        <p className="text-sm font-semibold text-fg-muted">{COMING_SOON_TEXT}</p>
+        <p className="eyebrow text-fg-muted">{COMING_SOON_TEXT}</p>
       </div>
     </section>
   );
@@ -552,10 +601,16 @@ export function SkillPathView({
         data-testid="path-announcement"
       />
 
+      {/* GAM-012 AC12: restyled (heart badge, display title, primary Button); same copy. */}
       <Dialog
         open={outOfHeartsOpen}
         onClose={() => setOutOfHeartsOpen(false)}
-        title={OUT_OF_HEARTS_TITLE}
+        title={
+          <span className="flex items-center gap-3">
+            <OutOfHeartsBadge />
+            {OUT_OF_HEARTS_TITLE}
+          </span>
+        }
         description={
           <>
             {heartRefillText || OUT_OF_HEARTS_FALLBACK}

@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { memo, useId, type KeyboardEvent, type MouseEvent, type ReactNode, type Ref } from "react";
 import type { Slug } from "@/contracts";
-import { CheckIcon, HeartIcon, Lumi, cn } from "@/components/ui";
+import { CheckIcon, HeartIcon, StarIcon, cn } from "@/components/ui";
 import { canStartNode, lessonHref, type PathNodeDisplay } from "../rules";
 import {
   NO_HEARTS_TEXT,
@@ -12,6 +12,7 @@ import {
   STATE_TEXT,
   lessonNumberText,
   nodeAccessibleName,
+  nodePillText,
 } from "./copy";
 import { HalfRingIcon } from "./HalfRingIcon";
 import { LockIcon } from "./LockIcon";
@@ -24,35 +25,40 @@ import { OpenLockIcon } from "./OpenLockIcon";
 const ZIGZAG = ["translate-x-0", "translate-x-12", "translate-x-0", "-translate-x-12"] as const;
 
 /**
- * Node disc per state. Colours are tokens only (AC17). Outlines use `border-progress`
- * (amber in dark, `glow-700` in light) and `border-border-strong`, both >= 3:1 against
- * the canvas in each theme. The available node is the largest and glows; open
- * (skipped-level) nodes have no glow, so "up next" stays unique (GAM-011 UX notes).
+ * Node disc per state (design v2, screen 2): big round "3D" discs with a solid bottom
+ * edge, never a blur. Tokens only (AC17).
+ * - completed: indigo with a white check, `shadow-3d-node` (0 6px 0 #312E81).
+ * - available / in progress (the frontier, "current"): the largest disc, coral with a
+ *   white icon and a soft coral halo (`shadow-3d-node-current`). White on coral is 3.3:1,
+ *   so it carries an icon only, never text (ADR-014).
+ * - locked: light grey with a grey lock and a grey edge (`shadow-3d-node-locked`).
+ * - open (a skipped-level lesson, GAM-011): the same grey disc with an indigo open lock,
+ *   so it reads as playable without competing with the current node.
  */
 const DISC: Record<PathNodeDisplay, string> = {
-  completed: "size-16 border-4 border-progress bg-primary text-on-primary",
-  available: "size-20 border-4 border-progress bg-surface ring-8 ring-primary/30 shadow-lg",
-  in_progress: "size-16 border-4 border-progress bg-surface text-progress",
-  locked: "size-16 border-4 border-border-strong bg-surface-raised text-fg-muted",
-  open: "size-16 border-4 border-progress bg-surface text-progress",
+  completed: "size-18 bg-primary text-on-primary shadow-3d-node",
+  available: "size-21 bg-accent text-on-accent shadow-3d-node-current",
+  in_progress: "size-21 bg-accent text-on-accent shadow-3d-node-current",
+  locked: "size-18 bg-disabled text-fg-muted shadow-3d-node-locked",
+  open: "size-18 bg-disabled text-primary shadow-3d-node-locked",
 };
 
 const CONTROL =
-  "flex min-h-12 w-44 max-w-full flex-col items-center gap-2 rounded-card p-2 text-center " +
+  "group flex min-h-12 w-44 max-w-full flex-col items-center gap-2 rounded-card p-2 text-center " +
   "focus-visible:focus-ring";
 
 function StateIcon({ state }: { state: PathNodeDisplay }) {
   switch (state) {
     case "completed":
-      return <CheckIcon size={30} data-icon="check" />;
+      return <CheckIcon size={32} strokeWidth={3} data-icon="check" />;
     case "available":
-      return <Lumi pose="idle" size="sm" />;
+      return <StarIcon size={36} data-icon="star" />;
     case "in_progress":
-      return <HalfRingIcon />;
+      return <HalfRingIcon size={34} />;
     case "locked":
-      return <LockIcon />;
+      return <LockIcon size={28} />;
     case "open":
-      return <OpenLockIcon />;
+      return <OpenLockIcon size={28} />;
   }
 }
 
@@ -127,14 +133,27 @@ export const PathNodeItem = memo(function PathNodeItem({
     ZIGZAG[index % ZIGZAG.length],
   );
 
+  const current = state === "available" || state === "in_progress";
   const content: ReactNode = (
     <>
+      {current && (
+        // "Start · Lesson 3" above the current node (screen 2). Visible copy only: the
+        // name below already says "up next. Start" / "in progress. Continue".
+        <span
+          aria-hidden="true"
+          data-testid="path-node-pill"
+          className="rounded-chip border-2 border-border bg-surface px-3.5 py-1.5 text-sm font-bold whitespace-nowrap text-primary"
+        >
+          {nodePillText(state, number)}
+        </span>
+      )}
       <span
         aria-hidden="true"
         data-testid="path-node-disc"
         className={cn(
           "flex shrink-0 items-center justify-center rounded-full",
-          "motion-safe:transition-transform motion-safe:active:scale-95",
+          "motion-safe:transition-[transform,box-shadow] motion-safe:duration-100",
+          !locked && "group-active:translate-y-0.5",
           DISC[state],
         )}
       >
@@ -149,18 +168,23 @@ export const PathNodeItem = memo(function PathNodeItem({
       <span className="sr-only">{name}</span>
       <span
         aria-hidden="true"
-        className="flex flex-col items-center rounded-control bg-canvas px-2"
+        className="mt-1 flex flex-col items-center rounded-control bg-canvas px-2"
       >
-        <span className="text-sm font-semibold text-fg-muted">
+        <span className="text-xs font-bold tracking-wide text-fg-muted uppercase">
           {lessonNumberText(number, unitNumber)}
         </span>
-        <span className="font-bold text-fg">{title}</span>
-        <span className={cn("text-sm font-semibold", locked ? "text-fg-muted" : "text-progress")}>
+        <span className="text-sm font-bold text-fg">{title}</span>
+        <span
+          className={cn(
+            "text-xs font-bold",
+            locked ? "text-fg-muted" : current ? "text-accent-strong" : "text-primary-fg",
+          )}
+        >
           {STATE_TEXT[state]}
           {state === "completed" && ` · ${REPLAY_TEXT}`}
         </span>
         {heartsNote && (
-          <span id={noHeartsId} className="flex items-center gap-1 text-sm text-fg-muted">
+          <span id={noHeartsId} className="flex items-center gap-1 text-xs text-fg-muted">
             <HeartIcon filled={false} size="sm" />
             {heartsNote}
           </span>
