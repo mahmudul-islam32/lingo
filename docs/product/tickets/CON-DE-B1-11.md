@@ -105,3 +105,78 @@ _(cto)_
 
 ## Review
 _(pm self-review of CDS-1…28 and criteria 3–8 goes here, A2 format)_
+
+## PM self-review
+
+**Date:** 2026-11-19 · **Writer:** pm (content writer 3) · **Result:** ready for the wave 3
+scripted checks (PD-062). I couldn't run commands, so the orchestrator still needs to run
+`npm run test`. I checked every answer by hand against its tile multiset.
+
+### Files
+- `content/courses/en-de/lessons/de-b1-u11-l1-official-letters.json` (12)
+- `content/courses/en-de/lessons/de-b1-u11-l2-whose.json` (12)
+- `content/courses/en-de/lessons/de-b1-u11-l3-because-of.json` (12)
+- `content/courses/en-de/lessons/de-b1-u11-l4-reminder.json` (12)
+- `content/courses/en-de/lessons/de-b1-u11-l5-calling-the-office.json` (12)
+- I handed the unit fragment `de-b1-unit-11.json` to the orchestrator. I did not edit `course.json`.
+
+### Mix per lesson (CDS-2)
+| Lesson | MC | WB (to_learning / to_known) | Match | Listen | Total |
+|---|---|---|---|---|---|
+| L1 | 3 | 5 (3 / 2) | 1 | 3 | 12 |
+| L2 | 3 | 5 (4 / 1) | 1 | 3 | 12 |
+| L3 | 3 | 5 (3 / 2) | 1 | 3 | 12 |
+| L4 | 3 | 5 (3 / 2) | 1 | 3 | 12 |
+| L5 | 3 | 5 (4 / 1) | 1 | 3 | 12 |
+
+### CDS results
+| Rule | Result | Note |
+|---|---|---|
+| CDS-1 Files | PASS (fragment) | The ids and titles match criterion 1. The orchestrator inserts the unit after `de-b1-u10` with `level: "B1"` and bumps `version`. |
+| CDS-2 Mix | PASS | See the table above. |
+| CDS-3 Vocabulary | PASS | All 31 appendix items are used in their own lesson: L1 all 8; L2 `wessen` ex04/ex09/ex12, `Antrag` ex04/ex05, `beantragen` ex06, `Geburtsurkunde` ex07, `Personalausweis` ex06, `gültig` ex08/ex12; L3 all 6; L4 `Mahnung` ex02/ex08/ex09/ex12, `überweisen` ex04/ex05, `Überweisung` ex11, `Betrag` ex04/ex07, `spätestens` ex04, `Zahlung` ex06/ex10, `offen` ex03/ex09; L5 `Sachbearbeiter(in)` ex03/ex05/ex11, `nachfragen` ex02, `einreichen` ex09, `nachreichen` ex06/ex10. The other words come from A1, A2 and the B1 U1–U10 appendices (`bekommen`, `erhalten`, `dauern`, `ein paar`, `falsch`, `der Lärm`, `lassen`, `der Verein`, `das Mitglied`, `die Rechnung`, `ausgeschaltet` from A2 `ausschalten`, and `bis` as the A1 preposition). Extras: genitive forms (CDS-22.6, from L2 on), the passive `wird bearbeitet` (CDS-22.5), the dative relative after a preposition (CDS-22.3), `länger` (CDS-16), and the plurals `Wochen` and `Tage`. No CDS-22.9 compound. Not used: `oben`, `unten`, `die Frist`, `die Gebühr`, `wurde`, adjective + genitive, `da`. |
+| CDS-4 Alternatives | PASS | Clause-first `weil` (L1 ex12); a fronted `wegen` phrase and the middle-field position (L3 ex03, ex06); fronted time (L3 ex03); object fronting (L4 ex05, ex12; L5 ex06, ex12); fronted PP (L5 ex12); predicate swap (L2 ex03, ex05); English variants enclosure / attachment, invoice / bill, outstanding / open, every / each, on / from, I'll call / I call, hand in / submit. Listens accept only the transcript. |
+| CDS-5 Distractors | PASS (notes) | 2–4 distractors per word bank. These answers can be built but are rejected on purpose because the meaning is wrong: L5 ex06 `Ich reiche die Kopie ein.` (submit, not hand in later); L1 ex07 / ex12 and L5 ex09 with `persönlich` / `schriftlich` swapped; L3 ex12 `… the authority`. The rejected word orders are on the native-review list. |
+| CDS-6 Conventions | PASS | Umlauts and `ß` are correct, with no capital `ẞ`. No tile set has `sie` / `Sie`, `ihr` / `Ihr` or `ihnen` / `Ihnen`. Formal `Ihr` / `Ihre` / `Ihrer` appear only in to_known prompts. The tips use „…“. |
+| CDS-7 MC direction | PASS | English prompts, German options, PD-044 punctuation. |
+| CDS-8 Originality | PASS | All sentences are original. Invented names: Anna, Leyla Demir. The club, office and clerk have no names. |
+| CDS-9 Audio | PASS | 15 listens at `/audio/de/b1/u11/<exercise-id>.mp3`. Letters are read as single lines in a neutral voice. |
+| CDS-11 / CDS-26 Safe | PASS | See criterion 8. |
+| CDS-12 Ids | PASS | `de-b1-u11-lN-exNN`, all unique. Options `a`–`d`, pairs `p1`–`p5`. |
+| CDS-13 Fit | PASS | The longest tile is `Sachbearbeiterin` (16 characters). No digits anywhere. |
+| CDS-14 Drill | PASS | L2 (genitive): ex02, ex03, ex05, ex07, ex09–ex12. Error MCs: ex02 (`meinem Mann`, `meines Mann`, `meiner Mannes`) and ex10 (`des Firma`, `die Firma`, `der Firmas`). L3 (`wegen / trotz / während`): ex02–ex06, ex09, ex11, ex12. Error MCs: ex02 (`wegen dem Regen`), ex05 and ex09 (dative and V2 errors). |
+| CDS-20 Length | PASS | The longest prompt is about 80 characters (L4 ex09). At most 14 tiles per set (L4 ex12, L5 ex11). Canonical answers have 12 tiles or fewer and at most 2 clauses. Listens have at most 2 sentences and 11 words. MC options are 55 characters or shorter. |
+| CDS-21 Tip | PASS | Each tip names the rule and gives German examples in „…“. All are under 240 characters; the longest is L1 at about 225. |
+| CDS-22 Extras | PASS | L1 has no genitive. The genitive starts in L2 and the passive appears in L3 ex08 and L5 ex07. |
+| CDS-23 Tense / form | PASS | The dialogue past uses the Perfekt (`habe … bekommen`, `überwiesen`, `gesprochen`) and modals use the Präteritum (`konnte`). "Could you" → `Könnten Sie` (L5 ex04, ex05). No genitive exercise has a `von` tile, so `von` + dative can't be built (23.7). `wegen / trotz / während` + dative appear only as MC distractors. In to_known, the passive accepts "is being processed" and "is processed". |
+| CDS-24 Word order | PASS | `weil` clauses are accepted first and second. Indirect questions and relative clauses are never fronted. A relative clause comes right after its noun or after `geschickt` (L4 ex12 answer 4). There is no double infinitive, and `lassen` is in the present. At most 4 answers per exercise. |
+| CDS-25 Recycling | PASS | See criterion 7. |
+| CDS-27 Glosses | PASS | `der Bescheid` "official notice" and `die Überweisung` "bank transfer" are used only in their new meanings. Recycled glosses are unchanged (`die Rechnung` invoice / bill). |
+| CDS-28 | N/A | Not a checkpoint unit. |
+
+### Unit criteria 3–8
+| # | Result | Evidence |
+|---|---|---|
+| 3 | PASS | Genitive in 19 exercises across L2–L5 (match pairs not counted): L2 ex02, ex03, ex05, ex07, ex10, ex11, ex12; L3 ex02–ex06, ex09, ex11, ex12; L4 ex03, ex07, ex08, ex09; L5 ex02, ex10, ex12. Masculine `-(e)s`: `meines Mannes`, `meines Sohnes`, `des Regens`, `des Lärms`, `des Vereins`, `des Kurses`. Neuter: `des Schreibens`. Feminine: `der Firma`, `meiner Tochter`, `der Rechnung`, `Ihrer Tochter`. Plural: `der Eltern` (L2 ex11). Names: `Annas` (L2 ex05), `Leylas` (L5 ex07). The required MC is L2 ex02. |
+| 4 | PASS | 11 exercises: `wegen` L3 ex02, ex03, ex06, ex11; L4 ex08; L5 ex02 · `trotz` L3 ex04, ex09; L4 ex09 · `während` L3 ex05, ex12. `wegen dem Regen` is L3 ex02 a and is never accepted, and neither is `wegen dem Schreiben` (L5 ex02 a). |
+| 5 | PASS | `wessen` in L2 ex04, ex09, ex12. No genitive exercise has a `von` tile. |
+| 6 | PASS | 5 to_known letter lines: L1 ex05 (`Leider fehlt die Anlage.`), L1 ex10 (`Bitte schreiben Sie das Aktenzeichen …`), L4 ex03 (`Die Rechnung des Vereins ist noch offen.`), L4 ex10 (`Wir haben Ihre Zahlung noch nicht erhalten.`), L5 ex10 (`Bitte reichen Sie die Geburtsurkunde Ihrer Tochter nach.`). |
+| 7 | PASS | U1 polite chunks: L5 ex04, ex05 (`Könnten Sie …`). U1 indirect questions: L5 ex04 (`welche Unterlagen fehlen`), ex05 (`wer mein Sachbearbeiter ist`, with a V2 distractor). U9 passive: L3 ex08, L5 ex07. U9 `lassen`: L5 ex08 (MC with `gemacht`, `zu machen` and word-order errors), L5 ex12. U6 prepositional relatives: L4 ex12 (`der Verein, bei dem …`), L5 ex11 (`die Sachbearbeiterin, mit der …`). |
+| 8 | PASS | The letters are invented and come from `das Amt`, `die Behörde` and a club (`der Verein`). There is no residence, visa, citizenship, benefit or tax content. The reminder names no late fee and no consequence. `bis spätestens Freitag` is the club's own request in one invented letter (from the ticket outline), not a rule. `Die Bearbeitung dauert zwei Wochen.` describes one case. |
+
+### Deviations
+- L1: `Der Bescheid ist da.` is now `Der Bescheid ist angekommen.` (L1 ex03), because `da` ("here / there") is in no appendix and no earlier lesson uses it as a tile.
+- L5: `Können Sie mir sagen, welche …` is drilled as `Könnten Sie …` (ex04, ex05) to recycle the U1 chunk.
+
+### Vocabulary requests
+- `da` ("here / it's arrived": `Der Bescheid ist da.`): add it to a later appendix (e.g. U12 L1)? It is very frequent.
+
+### Uncertainties / needs native review
+1. Predicate swap accepted: L2 ex03 `Der Pass meines Mannes ist das.`, L2 ex05 `Annas Antrag ist das.`
+2. Buildable but not accepted because they are literary: L2 ex03 `Das ist meines Mannes Pass.`, L2 ex11 `Der Eltern Unterschrift fehlt.`
+3. Fronted manner adverb accepted (PD-053.1): L1 ex07 `Schriftlich antwortet die Behörde.`, L1 ex12 `Schriftlich antwortet das Amt, weil …`
+4. Middle-field order with a `wegen` phrase: L3 ex03 accepts `Ich komme später wegen der Verspätung.` and `Später komme ich wegen der Verspätung.` L3 ex06 rejects `Ich konnte nicht wegen einer Krankheit kommen.` (contrastive) and the extraposed `Ich konnte nicht kommen wegen einer Krankheit.` (spoken).
+5. L4 ex05 accepts `Ich habe schon das Geld überwiesen.` (the adverb comes before the definite object).
+6. L4 ex12 accepts a fronted `Mir` and a fronted `Eine Mahnung`, with the relative clause after `geschickt`.
+7. L5 ex12 accepts the fronted long object `Die Unterlagen meines Mannes lasse ich …`.
+8. L3 ex08 accepts "is processed" for `wird bearbeitet`.

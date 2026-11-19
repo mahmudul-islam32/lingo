@@ -3,7 +3,7 @@
   "title": "German",
   "learningLanguage": "de",
   "knownLanguage": "en",
-  "version": 22,
+  "version": 23,
   "levels": [
     {
       "level": "A1",
@@ -1032,6 +1032,34 @@
         {
           "id": "de-b1-u10-l5-concert",
           "title": "Scenario: A Concert in the Park"
+        }
+      ]
+    },
+    {
+      "id": "de-b1-u11",
+      "level": "B1",
+      "title": "Letters from the Authorities",
+      "description": "Understand official letters, say whose documents they are with the genitive, and give reasons with wegen.",
+      "lessons": [
+        {
+          "id": "de-b1-u11-l1-official-letters",
+          "title": "Official Letters"
+        },
+        {
+          "id": "de-b1-u11-l2-whose",
+          "title": "Whose Form Is It?"
+        },
+        {
+          "id": "de-b1-u11-l3-because-of",
+          "title": "Because of the Delay"
+        },
+        {
+          "id": "de-b1-u11-l4-reminder",
+          "title": "A Payment Reminder"
+        },
+        {
+          "id": "de-b1-u11-l5-calling-the-office",
+          "title": "Scenario: Calling About a Letter"
         }
       ]
     }

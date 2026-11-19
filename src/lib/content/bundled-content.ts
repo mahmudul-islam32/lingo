@@ -602,6 +602,21 @@ export const BUNDLED_CONTENT: ContentLoaders = {
       "de-b1-u10-l5-concert": json(
         () => import("../../../content/courses/en-de/lessons/de-b1-u10-l5-concert.json"),
       ),
+      "de-b1-u11-l1-official-letters": json(
+        () => import("../../../content/courses/en-de/lessons/de-b1-u11-l1-official-letters.json"),
+      ),
+      "de-b1-u11-l2-whose": json(
+        () => import("../../../content/courses/en-de/lessons/de-b1-u11-l2-whose.json"),
+      ),
+      "de-b1-u11-l3-because-of": json(
+        () => import("../../../content/courses/en-de/lessons/de-b1-u11-l3-because-of.json"),
+      ),
+      "de-b1-u11-l4-reminder": json(
+        () => import("../../../content/courses/en-de/lessons/de-b1-u11-l4-reminder.json"),
+      ),
+      "de-b1-u11-l5-calling-the-office": json(
+        () => import("../../../content/courses/en-de/lessons/de-b1-u11-l5-calling-the-office.json"),
+      ),
     },
     "en-es": {
       "u1-l1-hello": json(() => import("../../../content/courses/en-es/lessons/u1-l1-hello.json")),

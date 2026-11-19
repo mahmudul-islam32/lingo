@@ -1,0 +1,167 @@
+{
+  "id": "de-b1-u11-l3-because-of",
+  "courseId": "en-de",
+  "unitId": "de-b1-u11",
+  "title": "Because of the Delay",
+  "tip": "wegen, trotz and während take the genitive: „wegen der Verspätung“, „trotz des Regens“, „während des Kurses“. Write the genitive, not the dative. The phrase can come first: „Wegen der Verspätung komme ich später.“",
+  "exercises": [
+    {
+      "id": "de-b1-u11-l3-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        { "id": "p1", "learning": "wegen", "known": "because of" },
+        { "id": "p2", "learning": "trotz", "known": "despite" },
+        { "id": "p3", "learning": "während", "known": "during" },
+        { "id": "p4", "learning": "die Krankheit", "known": "the illness" },
+        { "id": "p5", "learning": "die Bearbeitung", "known": "the processing" }
+      ]
+    },
+    {
+      "id": "de-b1-u11-l3-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which one means 'because of the rain'?",
+      "options": [
+        { "id": "a", "text": "wegen dem Regen" },
+        { "id": "b", "text": "wegen des Regen" },
+        { "id": "c", "text": "wegen der Regens" },
+        { "id": "d", "text": "wegen des Regens" }
+      ],
+      "correctOptionId": "d"
+    },
+    {
+      "id": "de-b1-u11-l3-ex03",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Because of the delay I'm coming later.",
+      "tiles": ["wegen", "der", "Verspätung", "komme", "ich", "später", "die", "dem", "kommt"],
+      "answers": [
+        "Wegen der Verspätung komme ich später.",
+        "Ich komme wegen der Verspätung später.",
+        "Ich komme später wegen der Verspätung.",
+        "Später komme ich wegen der Verspätung."
+      ]
+    },
+    {
+      "id": "de-b1-u11-l3-ex04",
+      "type": "listen",
+      "audio": { "src": "/audio/de/b1/u11/de-b1-u11-l3-ex04.mp3" },
+      "tiles": ["trotz", "des", "Regens", "gehen", "wir", "zu", "Fuß", "dem", "Regen", "fahren"],
+      "answers": ["Trotz des Regens gehen wir zu Fuß."]
+    },
+    {
+      "id": "de-b1-u11-l3-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'During the course the mobile phone is switched off.'?",
+      "options": [
+        { "id": "a", "text": "Während der Kurs ist das Handy ausgeschaltet." },
+        { "id": "b", "text": "Während des Kurses ist das Handy ausgeschaltet." },
+        { "id": "c", "text": "Während des Kurses das Handy ist ausgeschaltet." },
+        { "id": "d", "text": "Während dem Kurs ist das Handy ausgeschaltet." }
+      ],
+      "correctOptionId": "b"
+    },
+    {
+      "id": "de-b1-u11-l3-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I couldn't come because of an illness.",
+      "tiles": [
+        "wegen",
+        "einer",
+        "Krankheit",
+        "konnte",
+        "ich",
+        "nicht",
+        "kommen",
+        "eine",
+        "kann",
+        "gekommen"
+      ],
+      "answers": [
+        "Wegen einer Krankheit konnte ich nicht kommen.",
+        "Ich konnte wegen einer Krankheit nicht kommen."
+      ]
+    },
+    {
+      "id": "de-b1-u11-l3-ex07",
+      "type": "listen",
+      "audio": { "src": "/audio/de/b1/u11/de-b1-u11-l3-ex07.mp3" },
+      "tiles": ["die", "Bearbeitung", "dauert", "zwei", "Wochen", "Woche", "dauern", "der"],
+      "answers": ["Die Bearbeitung dauert zwei Wochen."]
+    },
+    {
+      "id": "de-b1-u11-l3-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Ihr Antrag wird bearbeitet.",
+      "tiles": ["your", "application", "is", "being", "processed", "process", "was", "are", "form"],
+      "answers": ["Your application is being processed.", "Your application is processed."]
+    },
+    {
+      "id": "de-b1-u11-l3-ex09",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'Despite the noise I'm working.'?",
+      "options": [
+        { "id": "a", "text": "Trotz dem Lärm arbeite ich." },
+        { "id": "b", "text": "Trotz des Lärms ich arbeite." },
+        { "id": "c", "text": "Trotz des Lärms arbeite ich." },
+        { "id": "d", "text": "Trotz der Lärm arbeite ich." }
+      ],
+      "correctOptionId": "c"
+    },
+    {
+      "id": "de-b1-u11-l3-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Who is processing my application?",
+      "tiles": ["wer", "bearbeitet", "meinen", "Antrag", "mein", "wen", "bearbeiten"],
+      "answers": ["Wer bearbeitet meinen Antrag?"]
+    },
+    {
+      "id": "de-b1-u11-l3-ex11",
+      "type": "listen",
+      "audio": { "src": "/audio/de/b1/u11/de-b1-u11-l3-ex11.mp3" },
+      "tiles": [
+        "wegen",
+        "der",
+        "Krankheit",
+        "meiner",
+        "Kollegin",
+        "dauert",
+        "die",
+        "Bearbeitung",
+        "länger",
+        "dem",
+        "meine",
+        "dauern"
+      ],
+      "answers": ["Wegen der Krankheit meiner Kollegin dauert die Bearbeitung länger."]
+    },
+    {
+      "id": "de-b1-u11-l3-ex12",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Während der Pause rufe ich beim Amt an.",
+      "tiles": [
+        "during",
+        "the",
+        "the",
+        "break",
+        "I'll",
+        "I",
+        "call",
+        "office",
+        "while",
+        "after",
+        "authority",
+        "called"
+      ],
+      "answers": [
+        "During the break I'll call the office.",
+        "I'll call the office during the break.",
+        "During the break I call the office.",
+        "I call the office during the break."
+      ]
+    }
+  ]
+}

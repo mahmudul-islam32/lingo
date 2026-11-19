@@ -1,0 +1,200 @@
+{
+  "id": "de-b1-u11-l4-reminder",
+  "courseId": "en-de",
+  "unitId": "de-b1-u11",
+  "title": "A Payment Reminder",
+  "tip": "A reminder (die Mahnung) says what is still open: „Die Rechnung des Vereins ist noch offen.“ It asks you to pay: „Bitte überweisen Sie den Betrag bis spätestens Freitag.“ Perfekt: „Ich habe das Geld schon überwiesen.“",
+  "exercises": [
+    {
+      "id": "de-b1-u11-l4-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        { "id": "p1", "learning": "die Mahnung", "known": "the payment reminder" },
+        { "id": "p2", "learning": "die Überweisung", "known": "the bank transfer" },
+        { "id": "p3", "learning": "der Betrag", "known": "the amount" },
+        { "id": "p4", "learning": "spätestens", "known": "at the latest" },
+        { "id": "p5", "learning": "die Zahlung", "known": "the payment" }
+      ]
+    },
+    {
+      "id": "de-b1-u11-l4-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'This is a payment reminder.'?",
+      "options": [
+        { "id": "a", "text": "Das ist ein Mahnung." },
+        { "id": "b", "text": "Das ist eine Mahnung." },
+        { "id": "c", "text": "Das sind eine Mahnung." },
+        { "id": "d", "text": "Das ist eine Zahlung." }
+      ],
+      "correctOptionId": "b"
+    },
+    {
+      "id": "de-b1-u11-l4-ex03",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Die Rechnung des Vereins ist noch offen.",
+      "tiles": [
+        "the",
+        "club's",
+        "invoice",
+        "bill",
+        "is",
+        "still",
+        "outstanding",
+        "open",
+        "already",
+        "are",
+        "team's"
+      ],
+      "answers": [
+        "The club's invoice is still outstanding.",
+        "The club's bill is still outstanding.",
+        "The club's invoice is still open.",
+        "The club's bill is still open."
+      ]
+    },
+    {
+      "id": "de-b1-u11-l4-ex04",
+      "type": "listen",
+      "audio": { "src": "/audio/de/b1/u11/de-b1-u11-l4-ex04.mp3" },
+      "tiles": [
+        "bitte",
+        "überweisen",
+        "Sie",
+        "den",
+        "Betrag",
+        "bis",
+        "spätestens",
+        "Freitag",
+        "der",
+        "überwiesen",
+        "Samstag"
+      ],
+      "answers": ["Bitte überweisen Sie den Betrag bis spätestens Freitag."]
+    },
+    {
+      "id": "de-b1-u11-l4-ex05",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I've already transferred the money.",
+      "tiles": ["ich", "habe", "das", "Geld", "schon", "überwiesen", "bin", "überweisen", "der"],
+      "answers": [
+        "Ich habe das Geld schon überwiesen.",
+        "Ich habe schon das Geld überwiesen.",
+        "Das Geld habe ich schon überwiesen."
+      ]
+    },
+    {
+      "id": "de-b1-u11-l4-ex06",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'The payment has arrived.'?",
+      "options": [
+        { "id": "a", "text": "Die Zahlung hat angekommen." },
+        { "id": "b", "text": "Die Zahlung ist ankommen." },
+        { "id": "c", "text": "Der Zahlung ist angekommen." },
+        { "id": "d", "text": "Die Zahlung ist angekommen." }
+      ],
+      "correctOptionId": "d"
+    },
+    {
+      "id": "de-b1-u11-l4-ex07",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "The amount of the invoice is forty euros.",
+      "tiles": ["der", "Betrag", "der", "Rechnung", "ist", "vierzig", "Euro", "die", "des", "sind"],
+      "answers": ["Der Betrag der Rechnung ist vierzig Euro."]
+    },
+    {
+      "id": "de-b1-u11-l4-ex08",
+      "type": "listen",
+      "audio": { "src": "/audio/de/b1/u11/de-b1-u11-l4-ex08.mp3" },
+      "tiles": [
+        "wegen",
+        "der",
+        "Mahnung",
+        "rufe",
+        "ich",
+        "beim",
+        "Verein",
+        "an",
+        "dem",
+        "rufen",
+        "im"
+      ],
+      "answers": ["Wegen der Mahnung rufe ich beim Verein an."]
+    },
+    {
+      "id": "de-b1-u11-l4-ex09",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'Despite the reminder the invoice is still outstanding.'?",
+      "options": [
+        { "id": "a", "text": "Trotz der Mahnung ist die Rechnung noch offen." },
+        { "id": "b", "text": "Trotz der Mahnung die Rechnung ist noch offen." },
+        { "id": "c", "text": "Trotz dem Mahnung ist die Rechnung noch offen." },
+        { "id": "d", "text": "Trotz die Mahnung ist die Rechnung noch offen." }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "de-b1-u11-l4-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Wir haben Ihre Zahlung noch nicht erhalten.",
+      "tiles": [
+        "we",
+        "haven't",
+        "have",
+        "not",
+        "received",
+        "your",
+        "payment",
+        "yet",
+        "still",
+        "transfer",
+        "sent",
+        "has"
+      ],
+      "answers": [
+        "We haven't received your payment yet.",
+        "We have not received your payment yet.",
+        "We still haven't received your payment.",
+        "We still have not received your payment."
+      ]
+    },
+    {
+      "id": "de-b1-u11-l4-ex11",
+      "type": "listen",
+      "audio": { "src": "/audio/de/b1/u11/de-b1-u11-l4-ex11.mp3" },
+      "tiles": ["die", "Überweisung", "dauert", "ein", "paar", "Tage", "Tag", "dauern", "der"],
+      "answers": ["Die Überweisung dauert ein paar Tage."]
+    },
+    {
+      "id": "de-b1-u11-l4-ex12",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "The club I'm a member of has sent me a payment reminder.",
+      "tiles": [
+        "der",
+        "Verein",
+        "bei",
+        "dem",
+        "ich",
+        "Mitglied",
+        "bin",
+        "hat",
+        "mir",
+        "eine",
+        "Mahnung",
+        "geschickt",
+        "den",
+        "mich"
+      ],
+      "answers": [
+        "Der Verein, bei dem ich Mitglied bin, hat mir eine Mahnung geschickt.",
+        "Mir hat der Verein, bei dem ich Mitglied bin, eine Mahnung geschickt.",
+        "Eine Mahnung hat mir der Verein, bei dem ich Mitglied bin, geschickt.",
+        "Eine Mahnung hat mir der Verein geschickt, bei dem ich Mitglied bin."
+      ]
+    }
+  ]
+}

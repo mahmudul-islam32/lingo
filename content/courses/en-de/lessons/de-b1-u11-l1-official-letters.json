@@ -1,0 +1,164 @@
+{
+  "id": "de-b1-u11-l1-official-letters",
+  "courseId": "en-de",
+  "unitId": "de-b1-u11",
+  "title": "Official Letters",
+  "tip": "Official post: das Schreiben is a formal letter, der Bescheid an official notice. Letters give das Aktenzeichen (reference number) and list die Anlage (enclosure): „Ich habe ein Schreiben vom Amt bekommen.“ „Die Anlage fehlt.“",
+  "exercises": [
+    {
+      "id": "de-b1-u11-l1-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        { "id": "p1", "learning": "die Behörde", "known": "the authority" },
+        { "id": "p2", "learning": "das Aktenzeichen", "known": "the reference number" },
+        { "id": "p3", "learning": "die Anlage", "known": "the enclosure" },
+        { "id": "p4", "learning": "der Absender", "known": "the sender" },
+        { "id": "p5", "learning": "der Empfänger", "known": "the recipient" }
+      ]
+    },
+    {
+      "id": "de-b1-u11-l1-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'I got a letter from the office.'?",
+      "options": [
+        { "id": "a", "text": "Ich habe ein Schreiben vom Amt bekommt." },
+        { "id": "b", "text": "Ich bin ein Schreiben vom Amt bekommen." },
+        { "id": "c", "text": "Ich habe ein Schreiben vom Amt bekommen." },
+        { "id": "d", "text": "Ich habe ein Schreiben von Amt bekommen." }
+      ],
+      "correctOptionId": "c"
+    },
+    {
+      "id": "de-b1-u11-l1-ex03",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "The official notice has arrived.",
+      "tiles": ["der", "Bescheid", "ist", "angekommen", "hat", "die", "ankommen"],
+      "answers": ["Der Bescheid ist angekommen."]
+    },
+    {
+      "id": "de-b1-u11-l1-ex04",
+      "type": "listen",
+      "audio": { "src": "/audio/de/b1/u11/de-b1-u11-l1-ex04.mp3" },
+      "tiles": ["wie", "ist", "das", "Aktenzeichen", "wo", "der", "sind"],
+      "answers": ["Wie ist das Aktenzeichen?"]
+    },
+    {
+      "id": "de-b1-u11-l1-ex05",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Leider fehlt die Anlage.",
+      "tiles": [
+        "unfortunately",
+        "the",
+        "enclosure",
+        "attachment",
+        "is",
+        "missing",
+        "sender",
+        "are",
+        "not"
+      ],
+      "answers": [
+        "Unfortunately, the enclosure is missing.",
+        "Unfortunately, the attachment is missing.",
+        "The enclosure is unfortunately missing.",
+        "The attachment is unfortunately missing."
+      ]
+    },
+    {
+      "id": "de-b1-u11-l1-ex06",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'Who is the sender?'",
+      "options": [
+        { "id": "a", "text": "Wer ist der Absender?" },
+        { "id": "b", "text": "Wer ist der Empfänger?" },
+        { "id": "c", "text": "Wo ist der Absender?" },
+        { "id": "d", "text": "Wer sind der Absender?" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "de-b1-u11-l1-ex07",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "The authority replies in writing.",
+      "tiles": ["die", "Behörde", "antwortet", "schriftlich", "persönlich", "der", "antworten"],
+      "answers": ["Die Behörde antwortet schriftlich.", "Schriftlich antwortet die Behörde."]
+    },
+    {
+      "id": "de-b1-u11-l1-ex08",
+      "type": "listen",
+      "audio": { "src": "/audio/de/b1/u11/de-b1-u11-l1-ex08.mp3" },
+      "tiles": ["der", "Empfänger", "ist", "mein", "Mann", "Absender", "meine", "sind"],
+      "answers": ["Der Empfänger ist mein Mann."]
+    },
+    {
+      "id": "de-b1-u11-l1-ex09",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'The enclosure is missing.'?",
+      "options": [
+        { "id": "a", "text": "Die Anlage fehle." },
+        { "id": "b", "text": "Der Anlage fehlt." },
+        { "id": "c", "text": "Die Anlage fehlen." },
+        { "id": "d", "text": "Die Anlage fehlt." }
+      ],
+      "correctOptionId": "d"
+    },
+    {
+      "id": "de-b1-u11-l1-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Bitte schreiben Sie das Aktenzeichen auf jeden Brief.",
+      "tiles": [
+        "please",
+        "write",
+        "the",
+        "reference",
+        "number",
+        "on",
+        "every",
+        "each",
+        "letter",
+        "send",
+        "letters",
+        "in"
+      ],
+      "answers": [
+        "Please write the reference number on every letter.",
+        "Please write the reference number on each letter."
+      ]
+    },
+    {
+      "id": "de-b1-u11-l1-ex11",
+      "type": "listen",
+      "audio": { "src": "/audio/de/b1/u11/de-b1-u11-l1-ex11.mp3" },
+      "tiles": ["ich", "habe", "ein", "Schreiben", "vom", "Amt", "bekommen", "bin", "einen", "von"],
+      "answers": ["Ich habe ein Schreiben vom Amt bekommen."]
+    },
+    {
+      "id": "de-b1-u11-l1-ex12",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "The office replies in writing because the form is missing.",
+      "tiles": [
+        "das",
+        "das",
+        "Amt",
+        "antwortet",
+        "schriftlich",
+        "weil",
+        "Formular",
+        "fehlt",
+        "fehlen",
+        "persönlich",
+        "die"
+      ],
+      "answers": [
+        "Das Amt antwortet schriftlich, weil das Formular fehlt.",
+        "Weil das Formular fehlt, antwortet das Amt schriftlich.",
+        "Schriftlich antwortet das Amt, weil das Formular fehlt."
+      ]
+    }
+  ]
+}

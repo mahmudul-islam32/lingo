@@ -1,0 +1,213 @@
+{
+  "id": "de-b1-u11-l5-calling-the-office",
+  "courseId": "en-de",
+  "unitId": "de-b1-u11",
+  "title": "Scenario: Calling About a Letter",
+  "tip": "On the phone: „Ich möchte wegen des Schreibens nachfragen.“ Ask politely with the verb at the end: „Könnten Sie mir sagen, welche Unterlagen fehlen?“ nachreichen = hand in later: „Ich reiche die Kopie nach.“",
+  "exercises": [
+    {
+      "id": "de-b1-u11-l5-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        { "id": "p1", "learning": "der Sachbearbeiter", "known": "the clerk" },
+        { "id": "p2", "learning": "nachfragen", "known": "to enquire" },
+        { "id": "p3", "learning": "einreichen", "known": "to submit" },
+        { "id": "p4", "learning": "nachreichen", "known": "to hand in later" },
+        { "id": "p5", "learning": "die Unterlagen", "known": "the documents" }
+      ]
+    },
+    {
+      "id": "de-b1-u11-l5-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'I'd like to enquire about the letter.'?",
+      "options": [
+        { "id": "a", "text": "Ich möchte wegen dem Schreiben nachfragen." },
+        { "id": "b", "text": "Ich möchte wegen des Schreibens nachfragen." },
+        { "id": "c", "text": "Ich möchte wegen des Schreiben nachfragen." },
+        { "id": "d", "text": "Ich möchte wegen des Schreibens nachzufragen." }
+      ],
+      "correctOptionId": "b"
+    },
+    {
+      "id": "de-b1-u11-l5-ex03",
+      "type": "listen",
+      "audio": { "src": "/audio/de/b1/u11/de-b1-u11-l5-ex03.mp3" },
+      "tiles": [
+        "guten",
+        "Tag",
+        "hier",
+        "spricht",
+        "Leyla",
+        "Demir",
+        "wer",
+        "ist",
+        "mein",
+        "Sachbearbeiter",
+        "sprechen",
+        "wo",
+        "meine"
+      ],
+      "answers": ["Guten Tag, hier spricht Leyla Demir. Wer ist mein Sachbearbeiter?"]
+    },
+    {
+      "id": "de-b1-u11-l5-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Could you tell me which documents are missing? (formal)",
+      "tiles": [
+        "könnten",
+        "Sie",
+        "mir",
+        "sagen",
+        "welche",
+        "Unterlagen",
+        "fehlen",
+        "konnten",
+        "mich",
+        "fehlt"
+      ],
+      "answers": ["Könnten Sie mir sagen, welche Unterlagen fehlen?"]
+    },
+    {
+      "id": "de-b1-u11-l5-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'Could you tell me who my clerk is? (formal)'?",
+      "options": [
+        { "id": "a", "text": "Könnten Sie mir sagen, wer ist mein Sachbearbeiter?" },
+        { "id": "b", "text": "Könnten Sie mich sagen, wer mein Sachbearbeiter ist?" },
+        { "id": "c", "text": "Könnten Sie mir sagen, wer mein Sachbearbeiter sind?" },
+        { "id": "d", "text": "Könnten Sie mir sagen, wer mein Sachbearbeiter ist?" }
+      ],
+      "correctOptionId": "d"
+    },
+    {
+      "id": "de-b1-u11-l5-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I'll hand in the copy later.",
+      "tiles": ["ich", "reiche", "die", "Kopie", "nach", "ein", "reichen", "der"],
+      "answers": ["Ich reiche die Kopie nach.", "Die Kopie reiche ich nach."]
+    },
+    {
+      "id": "de-b1-u11-l5-ex07",
+      "type": "listen",
+      "audio": { "src": "/audio/de/b1/u11/de-b1-u11-l5-ex07.mp3" },
+      "tiles": [
+        "Leylas",
+        "Antrag",
+        "wird",
+        "nächste",
+        "Woche",
+        "bearbeitet",
+        "Leyla",
+        "werden",
+        "Wochen"
+      ],
+      "answers": ["Leylas Antrag wird nächste Woche bearbeitet."]
+    },
+    {
+      "id": "de-b1-u11-l5-ex08",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'I'm having a copy made.'?",
+      "options": [
+        { "id": "a", "text": "Ich lasse eine Kopie machen." },
+        { "id": "b", "text": "Ich lasse eine Kopie gemacht." },
+        { "id": "c", "text": "Ich lasse eine Kopie zu machen." },
+        { "id": "d", "text": "Ich lasse machen eine Kopie." }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "de-b1-u11-l5-ex09",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Do I have to submit the application in person?",
+      "tiles": [
+        "muss",
+        "ich",
+        "den",
+        "Antrag",
+        "persönlich",
+        "einreichen",
+        "schriftlich",
+        "der",
+        "reiche",
+        "musst"
+      ],
+      "answers": ["Muss ich den Antrag persönlich einreichen?"]
+    },
+    {
+      "id": "de-b1-u11-l5-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Bitte reichen Sie die Geburtsurkunde Ihrer Tochter nach.",
+      "tiles": [
+        "please",
+        "hand",
+        "in",
+        "submit",
+        "your",
+        "daughter's",
+        "birth",
+        "certificate",
+        "later",
+        "son's",
+        "now",
+        "earlier"
+      ],
+      "answers": [
+        "Please hand in your daughter's birth certificate later.",
+        "Please hand your daughter's birth certificate in later.",
+        "Please submit your daughter's birth certificate later."
+      ]
+    },
+    {
+      "id": "de-b1-u11-l5-ex11",
+      "type": "listen",
+      "audio": { "src": "/audio/de/b1/u11/de-b1-u11-l5-ex11.mp3" },
+      "tiles": [
+        "die",
+        "Sachbearbeiterin",
+        "mit",
+        "der",
+        "ich",
+        "gesprochen",
+        "habe",
+        "ist",
+        "heute",
+        "im",
+        "Urlaub",
+        "dem",
+        "hat",
+        "den"
+      ],
+      "answers": ["Die Sachbearbeiterin, mit der ich gesprochen habe, ist heute im Urlaub."]
+    },
+    {
+      "id": "de-b1-u11-l5-ex12",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I'm having my husband's documents sent to the office.",
+      "tiles": [
+        "ich",
+        "lasse",
+        "die",
+        "Unterlagen",
+        "meines",
+        "Mannes",
+        "zum",
+        "Amt",
+        "schicken",
+        "geschickt",
+        "meinem",
+        "zur",
+        "lässt"
+      ],
+      "answers": [
+        "Ich lasse die Unterlagen meines Mannes zum Amt schicken.",
+        "Die Unterlagen meines Mannes lasse ich zum Amt schicken.",
+        "Zum Amt lasse ich die Unterlagen meines Mannes schicken."
+      ]
+    }
+  ]
+}

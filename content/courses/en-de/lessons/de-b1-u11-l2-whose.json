@@ -1,0 +1,146 @@
+{
+  "id": "de-b1-u11-l2-whose",
+  "courseId": "en-de",
+  "unitId": "de-b1-u11",
+  "title": "Whose Form Is It?",
+  "tip": "Genitive = whose. der / das → des …(e)s; die → der; plural → der; mein → meines / meiner: „der Pass meines Mannes“, „die Adresse der Firma“. Names add -s: „Annas Antrag“. Ask with „Wessen …?“",
+  "exercises": [
+    {
+      "id": "de-b1-u11-l2-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        { "id": "p1", "learning": "wessen?", "known": "whose?" },
+        { "id": "p2", "learning": "der Antrag", "known": "the application" },
+        { "id": "p3", "learning": "beantragen", "known": "to apply for" },
+        { "id": "p4", "learning": "die Geburtsurkunde", "known": "the birth certificate" },
+        { "id": "p5", "learning": "der Personalausweis", "known": "the identity card" }
+      ]
+    },
+    {
+      "id": "de-b1-u11-l2-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which one means 'my husband's passport'?",
+      "options": [
+        { "id": "a", "text": "der Pass meinem Mann" },
+        { "id": "b", "text": "der Pass meines Mannes" },
+        { "id": "c", "text": "der Pass meines Mann" },
+        { "id": "d", "text": "der Pass meiner Mannes" }
+      ],
+      "correctOptionId": "b"
+    },
+    {
+      "id": "de-b1-u11-l2-ex03",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "This is my husband's passport.",
+      "tiles": ["das", "ist", "der", "Pass", "meines", "Mannes", "meinem", "Mann", "mein"],
+      "answers": ["Das ist der Pass meines Mannes.", "Der Pass meines Mannes ist das."]
+    },
+    {
+      "id": "de-b1-u11-l2-ex04",
+      "type": "listen",
+      "audio": { "src": "/audio/de/b1/u11/de-b1-u11-l2-ex04.mp3" },
+      "tiles": ["wessen", "Antrag", "ist", "das", "wer", "der", "sind"],
+      "answers": ["Wessen Antrag ist das?"]
+    },
+    {
+      "id": "de-b1-u11-l2-ex05",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "That is Anna's application.",
+      "tiles": ["das", "ist", "Annas", "Antrag", "Anna", "sind", "ein"],
+      "answers": ["Das ist Annas Antrag.", "Annas Antrag ist das."]
+    },
+    {
+      "id": "de-b1-u11-l2-ex06",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'I'm applying for a new identity card.'?",
+      "options": [
+        { "id": "a", "text": "Ich beantrage einen neuen Personalausweis." },
+        { "id": "b", "text": "Ich beantrage ein neuen Personalausweis." },
+        { "id": "c", "text": "Ich beantrage einen neuer Personalausweis." },
+        { "id": "d", "text": "Ich beantrage einen neuen Personalausweises." }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "de-b1-u11-l2-ex07",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "My daughter's birth certificate is missing.",
+      "tiles": ["die", "Geburtsurkunde", "meiner", "Tochter", "fehlt", "meine", "fehlen", "meinem"],
+      "answers": ["Die Geburtsurkunde meiner Tochter fehlt."]
+    },
+    {
+      "id": "de-b1-u11-l2-ex08",
+      "type": "listen",
+      "audio": { "src": "/audio/de/b1/u11/de-b1-u11-l2-ex08.mp3" },
+      "tiles": ["der", "Pass", "ist", "nicht", "mehr", "gültig", "kein", "sind", "die"],
+      "answers": ["Der Pass ist nicht mehr gültig."]
+    },
+    {
+      "id": "de-b1-u11-l2-ex09",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Wessen Unterschrift fehlt auf dem Formular?",
+      "tiles": [
+        "whose",
+        "signature",
+        "is",
+        "missing",
+        "on",
+        "from",
+        "the",
+        "form",
+        "who's",
+        "are",
+        "name"
+      ],
+      "answers": [
+        "Whose signature is missing on the form?",
+        "Whose signature is missing from the form?"
+      ]
+    },
+    {
+      "id": "de-b1-u11-l2-ex10",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'The company's address is wrong.'?",
+      "options": [
+        { "id": "a", "text": "Die Adresse des Firma ist falsch." },
+        { "id": "b", "text": "Die Adresse die Firma ist falsch." },
+        { "id": "c", "text": "Die Adresse der Firma ist falsch." },
+        { "id": "d", "text": "Die Adresse der Firmas ist falsch." }
+      ],
+      "correctOptionId": "c"
+    },
+    {
+      "id": "de-b1-u11-l2-ex11",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "The parents' signature is missing.",
+      "tiles": ["die", "Unterschrift", "der", "Eltern", "fehlt", "den", "fehlen", "des"],
+      "answers": ["Die Unterschrift der Eltern fehlt."]
+    },
+    {
+      "id": "de-b1-u11-l2-ex12",
+      "type": "listen",
+      "audio": { "src": "/audio/de/b1/u11/de-b1-u11-l2-ex12.mp3" },
+      "tiles": [
+        "wessen",
+        "Pass",
+        "Pass",
+        "ist",
+        "nicht",
+        "mehr",
+        "gültig",
+        "der",
+        "meines",
+        "Sohnes",
+        "meinem",
+        "Sohn",
+        "wer"
+      ],
+      "answers": ["Wessen Pass ist nicht mehr gültig? Der Pass meines Sohnes."]
+    }
+  ]
+}
