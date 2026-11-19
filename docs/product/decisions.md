@@ -1188,3 +1188,56 @@ together._
   on new lessons rather than a time gate. If later data shows new lessons almost never end
   out of hearts, the fallback is the 1-per-3 rule (one constant, via a contract request).
 - **Reversibility:** High (one rule constant and a practice flag).
+
+## PD-066: Visual redesign v2 (owner design)
+
+- **Date:** 2026-11-19
+- **Reason:** the owner delivered a new visual design on 2026-11-19 (8 phone screens, brief and
+  renders in `design-ref`; copied into `docs/design/v2/` by CTO-016) and asked for every screen
+  to match it while keeping the name Polyglow and the mascot Lumi. Milestone **v0.5.3
+  "Redesign"** (CTO-016, PLT-026, GAM-012, LES-021).
+- **Decision:**
+  1. **Light theme only**, as in the design (canvas `#F6F7FB`, white surfaces). **Dark mode
+     is dropped for now**: the theme toggle and dark styles are removed; a dark palette for v2
+     is a later idea once the light look is stable.
+  2. **Fonts:** Bricolage Grotesque (700/800) for headings and numbers, DM Sans (400/500/700)
+     for body and UI. Both are OFL Google Fonts, self-hosted at build via `next/font/google`
+     (no runtime call to Google, works offline).
+  3. **Palette:** primary indigo `#4338CA` (3D edge `#312E81`), accent coral `#F2613F`
+     (current node, streak), XP gold `#F5B400`, success green `#15803D`, error red `#B91C1C`,
+     hearts `#F43F5E`; ink `#1B1D2A`. "3D" depth is a solid bottom shadow, never blur. Full
+     token list in the brief; tokens live in the CTO-016 design system.
+  4. **Navigation:** a **4-tab bottom nav: Learn, Practice, Leagues, Profile**.
+  5. **Practice** is a **real list of the learner's finished lessons** to practise. Opening one
+     starts the existing practice replay: free, allowed at 0 hearts, correct answers earn
+     hearts (PD-065). With no finished lesson it shows an empty state pointing to Learn.
+  6. **Leagues** shows an honest **"Leagues arrive with accounts"** state in the design style
+     (accounts are v0.6.0). **No fake leaderboard**, names, ranks or league tier.
+  7. **Profile** shows **only real stats**: day streak, total XP, lessons done, start level,
+     and an "XP this week" bar chart built from saved lesson results with the daily-goal line.
+     The design's "Current league", "Words learned" and **Achievements** are left out until
+     those features exist.
+  8. The design's brand name **"parla"** and its speech-bubble logo are **not used**. The app
+     stays **Polyglow** and the mascot stays **Lumi** (PD-001); Lumi may replace the trophy on
+     the results screen.
+  9. **No behaviour change:** the redesign changes the look only. Copy, flows, rules and
+     existing tests stay; new nav tabs reuse existing logic (practice flag, saved results).
+- **Rationale:** the owner owns the visual direction, and a consistent, more polished look
+  helps activation and D1/D7 retention (PRD success metrics). Keeping behaviour fixed lets the
+  team ship the redesign in one short milestone with low risk: existing unit and e2e tests act
+  as the safety net. Showing only real data keeps the product honest (PD-018 spirit) and avoids
+  screens that promise features we don't have.
+- **Alternatives considered:**
+  - **Keep dark mode and design a dark v2 palette now:** doubles the visual QA and contrast
+    checks, and the owner's design has no dark screens to follow. Deferred.
+  - **Keep the current fonts (system / previous stack):** cheaper, but the type is a large
+    part of the design's character; both fonts are free and self-hosted.
+  - **Ship the design's Leagues and Achievements with placeholder data:** matches the
+    renders more closely but shows invented data, which breaks trust. Rejected.
+  - **Hide the Leagues tab until v0.6.0 (3 tabs):** simpler, but the owner's nav has 4 tabs
+    and the honest state tells learners what is coming. Rejected.
+  - **Adopt "parla" as the name:** rejected; the owner asked to keep Polyglow and Lumi.
+  - **Redesign screen by screen across several milestones:** a mixed look for weeks; one
+    milestone with a shared design system first (CTO-016) is cleaner.
+- **Effect on balance:** none (no rule changes).
+- **Reversibility:** Medium (styling and tokens only; old styles remain in git history).
