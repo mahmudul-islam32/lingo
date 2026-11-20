@@ -54,6 +54,17 @@ function StreakRow({ row }: { row: StreakRowView }) {
   );
 }
 
+/**
+ * Daily-goal bar look (FIX-010, design v2): the XP gold fill (`xp-gold`, #F5B400) instead
+ * of the shared `xp` tone (dark gold). Gold on the `track` is only ~1.5:1 and the darker
+ * `xp-edge` ~1.9:1, both under the 3:1 non-text minimum, so the fill gets a 2px inset
+ * edge in `xp` (#8A6200, ~4.4:1 on the track and ~5.6:1 on the white card); see
+ * `goal-bar.test.ts`. Styled from here through child selectors so the shared
+ * `ProgressBar` stays unchanged.
+ */
+export const GOAL_BAR_FILL_CLASS =
+  "[&>div]:bg-xp-gold [&>div]:shadow-[inset_0_0_0_2px_var(--color-xp)]";
+
 function GoalRow({ row }: { row: GoalRowView }) {
   const labelId = useId();
   const showCheck = row.reached && !row.newlyReached;
@@ -89,6 +100,7 @@ function GoalRow({ row }: { row: GoalRowView }) {
         valueText={row.srValue}
         size="md"
         tone="xp"
+        className={GOAL_BAR_FILL_CLASS}
       />
     </li>
   );

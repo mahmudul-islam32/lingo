@@ -48,8 +48,21 @@ export function classifyPlayError(error: unknown): PlayResult {
   return "failed";
 }
 
+/**
+ * How long a clip may take to start (load + `play()`) before the request counts as
+ * `"failed"` and the caller falls back to speech, as on an error (FIX-010). Without it a
+ * slow or stalled network kept "Play audio" busy for several seconds.
+ */
+export const AUDIO_LOAD_TIMEOUT_MS = 3000;
+
+export interface AudioPlayerOptions {
+  /** Defaults to `AUDIO_LOAD_TIMEOUT_MS`. */
+  loadTimeoutMs?: number;
+}
+
 export function createAudioPlayer(
   createElement: () => HTMLAudioElement = () => new Audio(),
+  { loadTimeoutMs = AUDIO_LOAD_TIMEOUT_MS }: AudioPlayerOptions = {},
 ): AudioPlayer {
   let element: HTMLAudioElement | null = null;
   let current: { controller: AbortController; settle: (result: PlayResult) => void } | null = null;
@@ -79,9 +92,19 @@ export function createAudioPlayer(
 
       return new Promise<PlayResult>((resolve) => {
         let settled = false;
+        // Load timeout: give up exactly as on an error. Detach this request and pause so
+        // a clip that arrives late never plays over the speech fallback.
+        const timer = setTimeout(() => {
+          if (settled) return;
+          if (current?.controller === controller) current = null;
+          controller.abort();
+          el.pause();
+          settle("failed");
+        }, loadTimeoutMs);
         const settle = (result: PlayResult) => {
           if (settled) return;
           settled = true;
+          clearTimeout(timer);
           resolve(result);
         };
         current = { controller, settle };

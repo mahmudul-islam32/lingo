@@ -11,7 +11,7 @@ import { queryKeys } from "@/lib/query";
 import { createTestQueryClient, renderWithQueryClient } from "@/lib/query/testing";
 import { MAX_SPARKLE_MS } from "./CelebrationBanner";
 import { toLessonResult } from "./result";
-import { ResultsScreen } from "./ResultsScreen";
+import { ANNOUNCEMENT_CLEAR_MS, ResultsScreen } from "./ResultsScreen";
 import {
   FIXTURE_NOW,
   LESSON_DATE,
@@ -93,6 +93,27 @@ const rows = () => items().slice(3).map(readableText);
 const banner = () => screen.queryByTestId("celebration-banner");
 const announcement = () => screen.getByTestId("celebration-announcement");
 
+/** The fixture lesson is perfect, so the gold pill always carries the bonus line. */
+const PERFECT_LINE = "Perfect lesson! +5 bonus XP";
+
+/**
+ * FIX-010: an event line is shown (and read in the page) exactly once, in its row; the
+ * gold pill never repeats it. The polite announcement (AC 7) is not page content.
+ */
+function expectShownOnce(text: string) {
+  const shown = screen
+    .queryAllByText(text)
+    .filter((el) => !announcement().contains(el) && !el.closest('[aria-hidden="true"]'));
+  expect(shown).toHaveLength(1);
+  expect(within(screen.getByRole("list", { name: "Lesson stats" })).getByText(text)).toBe(shown[0]);
+  expect(banner()?.textContent ?? "").not.toContain(text);
+}
+
+/** No streak or goal event in the pill: only the perfect-lesson line. */
+function expectPillOnlyPerfect() {
+  expect(banner()).toHaveTextContent(new RegExp(`^${PERFECT_LINE.replace(/[+!]/g, "\\$&")}$`));
+}
+
 const originalAnimate = Element.prototype.animate;
 
 beforeEach(() => {
@@ -118,31 +139,34 @@ describe("ResultsScreen: streak and daily goal (LES-010)", () => {
     expect(rows()).toEqual(["Streak extended! 2 days", "Daily goal 15 of 20 XP"]);
   });
 
-  it("AC4, AC14: first lesson ever: 'Streak started!', '1 day', banner", () => {
+  it("AC4, AC14, FIX-010: first lesson ever: 'Streak started!' once, '1 day'", () => {
     renderScreen(seeded([]));
     const streak = items()[3]!;
     expect(streak).toHaveTextContent("Streak started!");
     expect(streak).toHaveTextContent("1 day");
     expect(within(items()[4]!).getByText("15 / 20 XP")).toBeInTheDocument();
-    expect(banner()).toHaveTextContent("Streak started!");
+    expectShownOnce("Streak started!");
+    expectPillOnlyPerfect();
   });
 
   it("AC4, AC14: first lesson today after yesterday: 'Streak extended!' and 'N days'", () => {
     renderScreen(seeded([earlier(YESTERDAY), earlier("2026-11-05")]));
     expect(rows()[0]).toBe("Streak extended! 3 days");
-    expect(banner()).toHaveTextContent("Streak extended!");
+    expectShownOnce("Streak extended!");
+    expectPillOnlyPerfect();
   });
 
   it("AC4, AC8, AC14: second lesson today: 'Streak', no celebration", () => {
     renderScreen(seeded([earlier(YESTERDAY), earlier(LESSON_DATE, tenXp)], 30));
     expect(rows()).toEqual(["Streak 2 days", "Daily goal 25 of 30 XP"]);
-    expect(banner()).toBeNull();
+    expectPillOnlyPerfect();
   });
 
-  it("AC5, AC14: goal newly reached: 'Daily goal reached!' row and banner, with a bar", () => {
+  it("AC5, AC14: goal newly reached: 'Daily goal reached!' row (once), with a bar", () => {
     renderScreen(seeded([earlier(LESSON_DATE, tenXp)], 20));
     expect(rows()[1]).toBe("Daily goal reached! 25 of 20 XP");
-    expect(banner()).toHaveTextContent("Daily goal reached!");
+    expectShownOnce("Daily goal reached!");
+    expectPillOnlyPerfect();
     const bar = within(items()[4]!).getByRole("progressbar", { name: "Daily goal reached!" });
     expect(bar).toHaveAttribute("aria-valuenow", "20");
     expect(bar).toHaveAttribute("aria-valuemax", "20");
@@ -153,13 +177,16 @@ describe("ResultsScreen: streak and daily goal (LES-010)", () => {
     renderScreen(seeded([earlier(LESSON_DATE), earlier(LESSON_DATE)], 20));
     expect(rows()).toEqual(["Streak 1 day", "Daily goal 45 of 20 XP, reached"]);
     expect(within(items()[4]!).getByTestId("goal-check")).toBeInTheDocument();
-    expect(banner()).toBeNull();
+    expectPillOnlyPerfect();
   });
 
-  it("AC6, AC14: both events: one banner 'Streak extended and daily goal reached!'", () => {
+  it("AC6, AC14, FIX-010: both events: each line once in its row, the pill does not repeat them", () => {
     renderScreen(seeded([earlier(YESTERDAY)], 10));
-    expect(banner()).toHaveTextContent("Streak extended and daily goal reached!");
+    expectShownOnce("Streak extended!");
+    expectShownOnce("Daily goal reached!");
+    expect(screen.queryByText("Streak extended and daily goal reached!")).toBe(null);
     expect(screen.getAllByTestId("celebration-banner")).toHaveLength(1);
+    expectPillOnlyPerfect();
   });
 
   it("AC6, AC14: reduced motion shows the banner without the sparkle", () => {
@@ -213,13 +240,13 @@ describe("ResultsScreen: streak and daily goal (LES-010)", () => {
     expect(announcement()).toHaveTextContent("");
   });
 
-  it("AC10, AC14: earlier results unreadable: '–' (unavailable), lesson XP vs goal, no banner or error", async () => {
+  it("AC10, AC14: earlier results unreadable: '–' (unavailable), lesson XP vs goal, no celebration or error", async () => {
     mocks.getLocalSession = () => Promise.reject(new Error("IndexedDB blocked"));
     renderScreen(createTestQueryClient());
     await waitFor(() => expect(items()).toHaveLength(5));
     expect(rows()).toEqual(["Streak unavailable", "Daily goal 15 of 20 XP"]);
     expect(within(items()[3]!).getByText("–")).toHaveAttribute("aria-hidden", "true");
-    expect(banner()).toBeNull();
+    expectPillOnlyPerfect();
     expect(screen.queryByRole("alert")).not.toBeInTheDocument();
   });
 
@@ -247,7 +274,8 @@ describe("ResultsScreen: streak and daily goal (LES-010)", () => {
   it("AC3, AC11: the same rows once the refetch already contains this result", () => {
     renderScreen(seeded([earlier(YESTERDAY), result]));
     expect(rows()).toEqual(["Streak extended! 2 days", "Daily goal 15 of 20 XP"]);
-    expect(banner()).toHaveTextContent("Streak extended!");
+    expectShownOnce("Streak extended!");
+    expectPillOnlyPerfect();
   });
 
   it("AC11, AC14: save error: rows and banner still show next to the save-error alert", async () => {
@@ -256,6 +284,24 @@ describe("ResultsScreen: streak and daily goal (LES-010)", () => {
       "We couldn't save this lesson on your device.",
     );
     expect(rows()).toEqual(["Streak started! 1 day", "Daily goal 15 of 20 XP"]);
-    expect(banner()).toHaveTextContent("Streak started!");
+    expectShownOnce("Streak started!");
+    expectPillOnlyPerfect();
+  });
+
+  it("FIX-010: not perfect: no gold pill at all, 'Streak started!' shown once", async () => {
+    renderWithQueryClient(
+      <ResultsScreen result={tenXp} save={() => Promise.resolve()} onContinue={vi.fn()} />,
+      { client: seeded([]) },
+    );
+    expect(banner()).toBeNull();
+    expectShownOnce("Streak started!");
+    // Still announced politely once (AC 7), then the live region is emptied so reading
+    // the page meets the line only in its row.
+    await waitFor(() => expect(announcement()).toHaveTextContent(/^Streak started!$/));
+    await waitFor(() => expect(announcement()).toHaveTextContent(/^$/), {
+      timeout: ANNOUNCEMENT_CLEAR_MS + 1000,
+    });
+    expectShownOnce("Streak started!");
+    expect(screen.getAllByText("Streak started!")).toHaveLength(1);
   });
 });

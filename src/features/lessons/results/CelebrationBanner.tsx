@@ -25,7 +25,8 @@ export function canSparkle(): boolean {
 
 /**
  * Celebration banner above the stats (LES-010 AC 6; v2: a gold-tint pill under the
- * heading): the line plus a short sparkle
+ * heading; since FIX-010 only for the perfect-lesson line, never a repeat of the streak
+ * or goal rows): the line plus a short sparkle
  * burst (≤ 1,000 ms) that never covers the content or "Continue". Under
  * `prefers-reduced-motion: reduce` the banner shows without the effect (the sparkle layer
  * is not rendered, and `motion-reduce:hidden` guards it in CSS as well).
