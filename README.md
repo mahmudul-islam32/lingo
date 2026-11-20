@@ -4,11 +4,14 @@
 language-learning app (PWA) with short game-like lessons, XP, streaks, hearts and a
 skill path. Our guide is **Lumi**, a small paper lantern whose glow grows with your streak.
 
+> **New look (v0.5.3):** a light indigo-and-coral design with Bricolage Grotesque and DM Sans,
+> raised 3D buttons and cards, and four tabs: Learn, Practice, Leagues and Profile.
+
 > Built by an autonomous team of AI agents (product, tech lead and three developers)
 > that plans, builds, reviews and merges every night. This README is refreshed by the
 > nightly run: screenshots and recordings are captured from the real app on `main`.
 
-**Last updated:** 2026-11-19 · **Version:** 0.5.0 · **Course:** English → German, A1 and A2
+**Last updated:** 2026-11-20 · **Version:** 0.5.3 · **Course:** English → German, A1 and A2
 complete (26 units, 130 lessons)
 
 ---
@@ -17,15 +20,15 @@ complete (26 units, 130 lessons)
 
 ### First launch: onboarding
 
-Pick German and a daily goal. No account needed: progress is saved on the device.
+Pick German, where to start (A1 or A2) and a daily goal. No account needed: progress is saved on the device.
 
 <p>
   <img src="docs/media/onboarding.gif" width="270" alt="Recording: onboarding from the welcome screen to the skill path" />
 </p>
 
-| Welcome                                                                                                  | Choose a course                                                                                       | Choose a daily goal                                                                                            |
-| -------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------- |
-| <img src="docs/media/onboarding-1-welcome.png" width="240" alt="Welcome screen with Lumi the lantern" /> | <img src="docs/media/onboarding-2-course.png" width="240" alt="Course picker with German selected" /> | <img src="docs/media/onboarding-3-goal.png" width="240" alt="Daily goal picker with Regular 20 XP selected" /> |
+| Welcome                                                                                                                | Choose a course                                                                                       | Choose a starting level                                                                                 | Choose a daily goal                                                                |
+| ---------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------- |
+| <img src="docs/media/onboarding-1-welcome.png" width="200" alt="Welcome screen with Lumi and the Polyglow wordmark" /> | <img src="docs/media/onboarding-2-course.png" width="200" alt="Course picker with German selected" /> | <img src="docs/media/onboarding-2b-level.png" width="200" alt="Starting level picker with A1 and A2" /> | <img src="docs/media/onboarding-3-goal.png" width="200" alt="Daily goal picker" /> |
 
 [▶ Watch in full quality (MP4)](docs/media/onboarding.mp4)
 
@@ -53,6 +56,12 @@ _Listening exercises show "Audio isn't available" with a Skip button until recor
 audio is added (waiting on a text-to-speech licence decision); skipping costs no heart._
 
 ### Skill path, top bar and navigation
+
+The bottom nav has four tabs. **Learn** is the skill path grouped by CEFR level and unit:
+the next lesson is a big coral star, finished lessons are indigo checks. **Practice** lists
+finished lessons to replay for hearts. **Leagues** arrive with accounts (it shows your own weekly
+XP for now). **Profile** shows your streak, XP, lessons done, starting level, an "XP this week"
+chart and settings.
 
 The Learn tab is a skill path grouped by CEFR level and unit: finish a lesson to unlock the
 next. The top bar shows your streak, XP and hearts. The app is an installable PWA that works
