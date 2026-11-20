@@ -59,7 +59,8 @@ them, but never wait for them.
    (via `gh api -X POST repos/mahmudul-islam32/lingo/releases`). No attribution.
 7. **Market** — after each release, `marketing` updates the launch kit in
    `docs/marketing/kit/` to match what shipped (on a `docs/mkt-<id>-…` branch, merged by the
-   `cto`), and lists anything to publish under "Waiting on owner" in `docs/STATUS.md`.
+   `cto`), and lists anything to publish in `docs/marketing/waiting-on-owner.md`; the
+   orchestrator copies those items into "Waiting on owner" in `docs/STATUS.md`.
    Marketing never publishes, emails, buys ads or spends money itself.
 8. Back to 1.
 

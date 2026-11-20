@@ -44,9 +44,9 @@ and to hand the team and the owner everything needed to get users and sales.
 
 ## Hard rules
 - **Never publish or contact anyone.** No posting, emailing, messaging, signing up for
-  services, buying ads, or spending money. Everything public is a draft in `docs/marketing/`,
-  listed under "Waiting on owner (non-blocking)" in `docs/STATUS.md` with the exact text and
-  where to post it.
+  services, buying ads, or spending money. Everything public is a draft in `docs/marketing/`.
+  List each one in `docs/marketing/waiting-on-owner.md` with the exact text, where to post it
+  and why; the orchestrator copies those items into `docs/STATUS.md`.
 - **Honest claims only.** Only describe features that work on `main`. No fake reviews,
   testimonials, user numbers or awards, no "#1", and no invented statistics. Every number in
   public copy needs a source.
