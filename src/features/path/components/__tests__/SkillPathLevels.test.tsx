@@ -27,6 +27,7 @@ import {
   lessonIdsOfLevel,
   makeLevelCourse,
 } from "../../rules/__tests__/level-fixtures";
+import { HEADER_CLEARANCE } from "../scroll-to-center";
 
 const mocks = vi.hoisted(() => ({ session: null as unknown }));
 vi.mock("@/lib/offline", () => ({ getLocalSession: async () => mocks.session }));
@@ -400,6 +401,52 @@ describe("scroll to the next lesson on open (GAM-010 AC8, FIX-002)", () => {
     const { scroll } = mockLayout(true);
     setup();
     expect(scroll).toHaveBeenCalledWith({ top: 740, behavior: "auto" });
+  });
+
+  it("FIX-009: centres below the sticky top bar, the header card stays clear of it", () => {
+    const { scroll, rect } = mockLayout(false);
+    // As on Learn: a sticky 64 px top bar, then the path.
+    const page = document.createElement("div");
+    const bar = document.createElement("section");
+    bar.style.position = "sticky";
+    bar.style.top = "0px";
+    const host = document.createElement("div");
+    page.append(bar, host);
+    document.body.append(page);
+    const box = (top: number, height: number) =>
+      ({
+        top,
+        height,
+        bottom: top + height,
+        width: 176,
+        left: 0,
+        right: 176,
+        x: 0,
+        y: top,
+      }) as DOMRect;
+    rect.mockImplementation(function (this: HTMLElement) {
+      if (this === bar) return box(0, 64);
+      // Header cards 150 px above the node (900..980).
+      if (this.hasAttribute("data-path-header")) return box(670, 80);
+      return box(900, 80);
+    });
+    render(
+      <SkillPathView
+        {...viewProps(TWO_LEVELS, A1_IDS, null)}
+        canStartLesson
+        onLockedLesson={vi.fn()}
+      />,
+      { container: host },
+    );
+    // The current level's header and its unit card are the headers it respects.
+    expect(levelSection("A2").querySelectorAll("[data-path-header]").length).toBeGreaterThan(1);
+    // Centred in 64..600 (centre 332) the scroll would be 100 + 940 - 332 = 708, leaving
+    // the headers at 62..142, under the bar. Instead they end 12 px below it.
+    expect(scroll).toHaveBeenCalledExactlyOnceWith({
+      top: 100 + 670 - 64 - HEADER_CLEARANCE,
+      behavior: "smooth",
+    });
+    page.remove();
   });
 });
 
