@@ -13,6 +13,7 @@ signs up or spends money: the owner does. The pm decides on feature proposals.
 | [feature-proposals.md](feature-proposals.md) | Top 10 proposals ranked by acquisition, retention and revenue, for the pm |
 | [pricing.md](pricing.md) | Free core + Polyglow Plus proposal, benchmarks, what to build first, owner items |
 | [launch-plan.md](launch-plan.md) | Launch gate, channels, €0 plan and budget options, 30/60/90 days, metrics |
+| [waiting-on-owner.md](waiting-on-owner.md) | Everything only the owner can do: exact text or file, where to post or sign up, and why (orchestrator copies to STATUS) |
 | [kit/landing-page.md](kit/landing-page.md) | Landing-page copy, EN + DE |
 | [kit/store-listing.md](kit/store-listing.md) | PWA manifest and store listing text, EN + DE |
 | [kit/social-posts.md](kit/social-posts.md) | 10 social posts |
