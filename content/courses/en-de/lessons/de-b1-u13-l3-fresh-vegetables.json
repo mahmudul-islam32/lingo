@@ -1,0 +1,218 @@
+{
+  "id": "de-b1-u13-l3-fresh-vegetables",
+  "courseId": "en-de",
+  "unitId": "de-b1-u13",
+  "title": "With Fresh Vegetables",
+  "tip": "Dative without an article: der / das → -em; die → -er; plural -en: „mit frischem Gemüse“, „mit frischen Kräutern“. Genitive after des / der: -en: „wegen des schlechten Wetters“. Recipes: „Schneiden Sie die Zwiebeln.“",
+  "exercises": [
+    {
+      "id": "de-b1-u13-l3-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        { "id": "p1", "learning": "das Rezept", "known": "the recipe" },
+        { "id": "p2", "learning": "die Zutaten", "known": "the ingredients" },
+        { "id": "p3", "learning": "der Topf", "known": "the pot / pan" },
+        { "id": "p4", "learning": "die Pfanne", "known": "the frying pan" },
+        { "id": "p5", "learning": "das Öl", "known": "the oil" }
+      ]
+    },
+    {
+      "id": "de-b1-u13-l3-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which one means 'rice with fresh vegetables'?",
+      "options": [
+        { "id": "a", "text": "Reis mit frischen Gemüse" },
+        { "id": "b", "text": "Reis mit frischem Gemüse" },
+        { "id": "c", "text": "Reis mit frisches Gemüse" },
+        { "id": "d", "text": "Reis mit frischer Gemüse" }
+      ],
+      "correctOptionId": "b"
+    },
+    {
+      "id": "de-b1-u13-l3-ex03",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "This is my grandma's recipe. You need fresh ingredients. (you in general)",
+      "tiles": [
+        "das",
+        "ist",
+        "das",
+        "Rezept",
+        "meiner",
+        "Oma",
+        "man",
+        "braucht",
+        "frische",
+        "Zutaten",
+        "meine",
+        "frischen",
+        "brauchen"
+      ],
+      "answers": [
+        "Das ist das Rezept meiner Oma. Man braucht frische Zutaten.",
+        "Das ist das Rezept meiner Oma. Frische Zutaten braucht man."
+      ]
+    },
+    {
+      "id": "de-b1-u13-l3-ex04",
+      "type": "listen",
+      "audio": { "src": "/audio/de/b1/u13/de-b1-u13-l3-ex04.mp3" },
+      "tiles": [
+        "schneiden",
+        "Sie",
+        "die",
+        "Zwiebeln",
+        "dann",
+        "braten",
+        "Sie",
+        "die",
+        "Zwiebeln",
+        "in",
+        "heißem",
+        "Öl",
+        "heißes",
+        "geschnitten"
+      ],
+      "answers": ["Schneiden Sie die Zwiebeln. Dann braten Sie die Zwiebeln in heißem Öl."]
+    },
+    {
+      "id": "de-b1-u13-l3-ex05",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "The onions are fried in oil.",
+      "tiles": ["die", "Zwiebeln", "werden", "in", "Öl", "gebraten", "wird", "braten", "werdet"],
+      "answers": ["Die Zwiebeln werden in Öl gebraten.", "In Öl werden die Zwiebeln gebraten."]
+    },
+    {
+      "id": "de-b1-u13-l3-ex06",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'Because of the bad weather there's no weekly market today.'?",
+      "options": [
+        { "id": "a", "text": "Wegen dem schlechten Wetter gibt es heute keinen Wochenmarkt." },
+        { "id": "b", "text": "Wegen des schlechte Wetters gibt es heute keinen Wochenmarkt." },
+        { "id": "c", "text": "Wegen des schlechten Wetters es gibt heute keinen Wochenmarkt." },
+        { "id": "d", "text": "Wegen des schlechten Wetters gibt es heute keinen Wochenmarkt." }
+      ],
+      "correctOptionId": "d"
+    },
+    {
+      "id": "de-b1-u13-l3-ex07",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Despite the bad weather we're going to the weekly market.",
+      "tiles": [
+        "trotz",
+        "des",
+        "schlechten",
+        "Wetters",
+        "gehen",
+        "wir",
+        "auf",
+        "den",
+        "Wochenmarkt",
+        "dem",
+        "schlechte",
+        "Wetter"
+      ],
+      "answers": [
+        "Trotz des schlechten Wetters gehen wir auf den Wochenmarkt.",
+        "Wir gehen trotz des schlechten Wetters auf den Wochenmarkt.",
+        "Auf den Wochenmarkt gehen wir trotz des schlechten Wetters.",
+        "Wir gehen auf den Wochenmarkt trotz des schlechten Wetters."
+      ]
+    },
+    {
+      "id": "de-b1-u13-l3-ex08",
+      "type": "listen",
+      "audio": { "src": "/audio/de/b1/u13/de-b1-u13-l3-ex08.mp3" },
+      "tiles": [
+        "waschen",
+        "Sie",
+        "das",
+        "Gemüse",
+        "mit",
+        "kaltem",
+        "Wasser",
+        "kaltes",
+        "kalten",
+        "wasche"
+      ],
+      "answers": ["Waschen Sie das Gemüse mit kaltem Wasser."]
+    },
+    {
+      "id": "de-b1-u13-l3-ex09",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Das ist das Rezept meiner neuen Kollegin.",
+      "tiles": [
+        "that",
+        "this",
+        "is",
+        "my",
+        "new",
+        "colleague's",
+        "recipe",
+        "prescription",
+        "old",
+        "colleague"
+      ],
+      "answers": ["That is my new colleague's recipe.", "This is my new colleague's recipe."]
+    },
+    {
+      "id": "de-b1-u13-l3-ex10",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'I cook with fresh herbs.'?",
+      "options": [
+        { "id": "a", "text": "Ich koche mit frische Kräuter." },
+        { "id": "b", "text": "Ich koche mit frischem Kräutern." },
+        { "id": "c", "text": "Ich koche mit frischen Kräutern." },
+        { "id": "d", "text": "Ich koche mit frischen Kräuter." }
+      ],
+      "correctOptionId": "c"
+    },
+    {
+      "id": "de-b1-u13-l3-ex11",
+      "type": "listen",
+      "audio": { "src": "/audio/de/b1/u13/de-b1-u13-l3-ex11.mp3" },
+      "tiles": [
+        "wegen",
+        "des",
+        "starken",
+        "Regens",
+        "backen",
+        "wir",
+        "heute",
+        "einen",
+        "Kuchen",
+        "dem",
+        "Regen",
+        "starke"
+      ],
+      "answers": ["Wegen des starken Regens backen wir heute einen Kuchen."]
+    },
+    {
+      "id": "de-b1-u13-l3-ex12",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Wash your hands before you cut the vegetables! (to a friend)",
+      "tiles": [
+        "wasch",
+        "dir",
+        "die",
+        "Hände",
+        "bevor",
+        "du",
+        "das",
+        "Gemüse",
+        "schneidest",
+        "dich",
+        "schneidet",
+        "nachdem"
+      ],
+      "answers": [
+        "Wasch dir die Hände, bevor du das Gemüse schneidest!",
+        "Bevor du das Gemüse schneidest, wasch dir die Hände!"
+      ]
+    }
+  ]
+}

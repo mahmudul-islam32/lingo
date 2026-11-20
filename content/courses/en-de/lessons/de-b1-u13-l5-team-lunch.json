@@ -1,0 +1,215 @@
+{
+  "id": "de-b1-u13-l5-team-lunch",
+  "courseId": "en-de",
+  "unitId": "de-b1-u13",
+  "title": "Scenario: The Team Lunch",
+  "tip": "Ordering with wishes: „Gibt es vegetarische Gerichte?“, „Könnten Sie das ohne Zwiebeln machen?“, „Ich bin allergisch gegen Tomaten.“ Use Sie with the waiter and du with your colleagues.",
+  "exercises": [
+    {
+      "id": "de-b1-u13-l5-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        { "id": "p1", "learning": "vegetarisch", "known": "vegetarian" },
+        { "id": "p2", "learning": "die Speisekarte", "known": "the menu" },
+        { "id": "p3", "learning": "das Gericht", "known": "the dish" },
+        { "id": "p4", "learning": "satt", "known": "full (after eating)" },
+        { "id": "p5", "learning": "allergisch gegen", "known": "allergic to" }
+      ]
+    },
+    {
+      "id": "de-b1-u13-l5-ex02",
+      "type": "listen",
+      "audio": { "src": "/audio/de/b1/u13/de-b1-u13-l5-ex02.mp3" },
+      "tiles": [
+        "die",
+        "Speisekarte",
+        "bitte",
+        "gibt",
+        "es",
+        "vegetarische",
+        "Gerichte",
+        "vegetarischen",
+        "Gericht",
+        "gab"
+      ],
+      "answers": ["Die Speisekarte, bitte. Gibt es vegetarische Gerichte?"]
+    },
+    {
+      "id": "de-b1-u13-l5-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'Could you make that without onions? (formal)'?",
+      "options": [
+        { "id": "a", "text": "Könnten Sie das ohne Zwiebeln machen?" },
+        { "id": "b", "text": "Könnten Sie das ohne Zwiebeln zu machen?" },
+        { "id": "c", "text": "Konnten Sie das ohne Zwiebeln machen?" },
+        { "id": "d", "text": "Könnten Sie machen das ohne Zwiebeln?" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "de-b1-u13-l5-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I'm vegan. Is there a dish without cheese?",
+      "tiles": [
+        "ich",
+        "bin",
+        "vegan",
+        "gibt",
+        "es",
+        "ein",
+        "Gericht",
+        "ohne",
+        "Käse",
+        "eine",
+        "mit",
+        "vegetarisch"
+      ],
+      "answers": ["Ich bin vegan. Gibt es ein Gericht ohne Käse?"]
+    },
+    {
+      "id": "de-b1-u13-l5-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'Is there a less expensive dish?'",
+      "options": [
+        { "id": "a", "text": "Gibt es ein günstigere Gericht?" },
+        { "id": "b", "text": "Gibt es ein günstigerer Gericht?" },
+        { "id": "c", "text": "Gibt es ein günstigeres Gericht?" },
+        { "id": "d", "text": "Gibt es ein günstiges Gericht?" }
+      ],
+      "correctOptionId": "c"
+    },
+    {
+      "id": "de-b1-u13-l5-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "What are you having? I'm having the rice with fresh vegetables. (to a colleague)",
+      "tiles": [
+        "was",
+        "nimmst",
+        "du",
+        "ich",
+        "nehme",
+        "den",
+        "Reis",
+        "mit",
+        "frischem",
+        "Gemüse",
+        "frischen",
+        "nimmt",
+        "frisches"
+      ],
+      "answers": [
+        "Was nimmst du? Ich nehme den Reis mit frischem Gemüse.",
+        "Was nimmst du? Den Reis mit frischem Gemüse nehme ich."
+      ]
+    },
+    {
+      "id": "de-b1-u13-l5-ex07",
+      "type": "listen",
+      "audio": { "src": "/audio/de/b1/u13/de-b1-u13-l5-ex07.mp3" },
+      "tiles": [
+        "ich",
+        "bin",
+        "allergisch",
+        "gegen",
+        "Tomaten",
+        "gibt",
+        "es",
+        "Tomaten",
+        "in",
+        "der",
+        "scharfen",
+        "Soße",
+        "scharfe",
+        "die"
+      ],
+      "answers": ["Ich bin allergisch gegen Tomaten. Gibt es Tomaten in der scharfen Soße?"]
+    },
+    {
+      "id": "de-b1-u13-l5-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Lass mich mal probieren!",
+      "tiles": ["let", "me", "have", "a", "taste", "try", "us", "tastes"],
+      "answers": ["Let me have a taste!", "Let me try!", "Let me taste!"]
+    },
+    {
+      "id": "de-b1-u13-l5-ex09",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'You should try the best dish on the menu. (to a colleague)'?",
+      "options": [
+        { "id": "a", "text": "Du solltest das besten Gericht auf der Speisekarte probieren." },
+        { "id": "b", "text": "Du solltest das beste Gericht auf der Speisekarte zu probieren." },
+        { "id": "c", "text": "Du solltest das beste Gericht auf der Speisekarte probieren." },
+        { "id": "d", "text": "Du solltest probieren das beste Gericht auf der Speisekarte." }
+      ],
+      "correctOptionId": "c"
+    },
+    {
+      "id": "de-b1-u13-l5-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I'm full. The dish was very tasty.",
+      "tiles": [
+        "ich",
+        "bin",
+        "satt",
+        "das",
+        "Gericht",
+        "war",
+        "sehr",
+        "lecker",
+        "ist",
+        "Gerichte",
+        "viel"
+      ],
+      "answers": [
+        "Ich bin satt. Das Gericht war sehr lecker.",
+        "Ich bin satt. Sehr lecker war das Gericht."
+      ]
+    },
+    {
+      "id": "de-b1-u13-l5-ex11",
+      "type": "listen",
+      "audio": { "src": "/audio/de/b1/u13/de-b1-u13-l5-ex11.mp3" },
+      "tiles": [
+        "bevor",
+        "wir",
+        "essen",
+        "wasche",
+        "ich",
+        "mir",
+        "die",
+        "Hände",
+        "mich",
+        "nachdem",
+        "waschen"
+      ],
+      "answers": ["Bevor wir essen, wasche ich mir die Hände."]
+    },
+    {
+      "id": "de-b1-u13-l5-ex12",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "We're having a cake delivered to the office.",
+      "tiles": [
+        "wir",
+        "lassen",
+        "eine",
+        "Torte",
+        "ins",
+        "Büro",
+        "liefern",
+        "lässt",
+        "geliefert",
+        "im"
+      ],
+      "answers": [
+        "Wir lassen eine Torte ins Büro liefern.",
+        "Eine Torte lassen wir ins Büro liefern.",
+        "Ins Büro lassen wir eine Torte liefern."
+      ]
+    }
+  ]
+}

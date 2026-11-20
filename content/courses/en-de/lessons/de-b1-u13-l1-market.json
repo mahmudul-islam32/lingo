@@ -1,0 +1,153 @@
+{
+  "id": "de-b1-u13-l1-market",
+  "courseId": "en-de",
+  "unitId": "de-b1-u13",
+  "title": "At the Weekly Market",
+  "tip": "Market German: „Am Samstag gehe ich auf den Wochenmarkt.“ (auf + accusative: where you go) and „Am Stand gibt es Kräuter.“ (am = an dem: where you are). Ask first: „Darf ich probieren?“",
+  "exercises": [
+    {
+      "id": "de-b1-u13-l1-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        { "id": "p1", "learning": "der Wochenmarkt", "known": "the weekly market" },
+        { "id": "p2", "learning": "frisch", "known": "fresh" },
+        { "id": "p3", "learning": "der Stand", "known": "the stall" },
+        { "id": "p4", "learning": "die Erdbeeren", "known": "the strawberries" },
+        { "id": "p5", "learning": "probieren", "known": "to taste / try" }
+      ]
+    },
+    {
+      "id": "de-b1-u13-l1-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'On Saturday I go to the weekly market.'?",
+      "options": [
+        { "id": "a", "text": "Am Samstag ich gehe auf den Wochenmarkt." },
+        { "id": "b", "text": "Am Samstag gehe ich auf dem Wochenmarkt." },
+        { "id": "c", "text": "Am Samstag gehe ich auf den Wochenmarkt." },
+        { "id": "d", "text": "Am Samstag gehe ich auf der Wochenmarkt." }
+      ],
+      "correctOptionId": "c"
+    },
+    {
+      "id": "de-b1-u13-l1-ex03",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "The strawberries are fresh.",
+      "tiles": ["die", "Erdbeeren", "sind", "frisch", "ist", "frische", "Erdbeere"],
+      "answers": ["Die Erdbeeren sind frisch.", "Frisch sind die Erdbeeren."]
+    },
+    {
+      "id": "de-b1-u13-l1-ex04",
+      "type": "listen",
+      "audio": { "src": "/audio/de/b1/u13/de-b1-u13-l1-ex04.mp3" },
+      "tiles": ["das", "Gemüse", "ist", "regional", "sind", "Obst", "frisch"],
+      "answers": ["Das Gemüse ist regional."]
+    },
+    {
+      "id": "de-b1-u13-l1-ex05",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Die Erdbeeren an diesem Stand sind frisch.",
+      "tiles": [
+        "the",
+        "strawberries",
+        "at",
+        "this",
+        "stall",
+        "are",
+        "fresh",
+        "is",
+        "market",
+        "these"
+      ],
+      "answers": [
+        "The strawberries at this stall are fresh.",
+        "At this stall the strawberries are fresh."
+      ]
+    },
+    {
+      "id": "de-b1-u13-l1-ex06",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'May I have a taste?'",
+      "options": [
+        { "id": "a", "text": "Darf ich probiere?" },
+        { "id": "b", "text": "Darf probieren ich?" },
+        { "id": "c", "text": "Darf ich zu probieren?" },
+        { "id": "d", "text": "Darf ich probieren?" }
+      ],
+      "correctOptionId": "d"
+    },
+    {
+      "id": "de-b1-u13-l1-ex07",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "There are herbs at the small stall.",
+      "tiles": ["am", "kleinen", "Stand", "gibt", "es", "Kräuter", "kleine", "klein", "gab"],
+      "answers": [
+        "Am kleinen Stand gibt es Kräuter.",
+        "Es gibt am kleinen Stand Kräuter.",
+        "Es gibt Kräuter am kleinen Stand.",
+        "Kräuter gibt es am kleinen Stand."
+      ]
+    },
+    {
+      "id": "de-b1-u13-l1-ex08",
+      "type": "listen",
+      "audio": { "src": "/audio/de/b1/u13/de-b1-u13-l1-ex08.mp3" },
+      "tiles": ["darf", "ich", "die", "Erdbeeren", "probieren", "Erdbeere", "probiere", "kann"],
+      "answers": ["Darf ich die Erdbeeren probieren?"]
+    },
+    {
+      "id": "de-b1-u13-l1-ex09",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'The strawberries that I bought are fresh.'?",
+      "options": [
+        { "id": "a", "text": "Die Erdbeeren, die ich gekauft habe, sind frisch." },
+        { "id": "b", "text": "Die Erdbeeren, die ich habe gekauft, sind frisch." },
+        { "id": "c", "text": "Die Erdbeeren, dass ich gekauft habe, sind frisch." },
+        { "id": "d", "text": "Die Erdbeeren, die ich gekauft habe, ist frisch." }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "de-b1-u13-l1-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I'd like to taste the herbs.",
+      "tiles": ["ich", "möchte", "die", "Kräuter", "probieren", "probiere", "der", "zu"],
+      "answers": [
+        "Ich möchte die Kräuter probieren.",
+        "Die Kräuter möchte ich probieren.",
+        "Probieren möchte ich die Kräuter."
+      ]
+    },
+    {
+      "id": "de-b1-u13-l1-ex11",
+      "type": "listen",
+      "audio": { "src": "/audio/de/b1/u13/de-b1-u13-l1-ex11.mp3" },
+      "tiles": [
+        "ich",
+        "gehe",
+        "auf",
+        "den",
+        "Wochenmarkt",
+        "um",
+        "Erdbeeren",
+        "zu",
+        "kaufen",
+        "dem",
+        "kaufe",
+        "damit"
+      ],
+      "answers": ["Ich gehe auf den Wochenmarkt, um Erdbeeren zu kaufen."]
+    },
+    {
+      "id": "de-b1-u13-l1-ex12",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Die Kräuter sind regional und frisch.",
+      "tiles": ["the", "herbs", "are", "local", "and", "fresh", "is", "stall", "or"],
+      "answers": ["The herbs are local and fresh.", "The herbs are fresh and local."]
+    }
+  ]
+}

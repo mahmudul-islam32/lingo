@@ -3,7 +3,7 @@
   "title": "German",
   "learningLanguage": "de",
   "knownLanguage": "en",
-  "version": 24,
+  "version": 25,
   "levels": [
     {
       "level": "A1",
@@ -1088,6 +1088,34 @@
         {
           "id": "de-b1-u12-l5-club-newsletter",
           "title": "Scenario: The Club Newsletter"
+        }
+      ]
+    },
+    {
+      "id": "de-b1-u13",
+      "level": "B1",
+      "title": "Food and Markets",
+      "description": "Describe food, follow recipes and compare offers, with adjective endings in every case.",
+      "lessons": [
+        {
+          "id": "de-b1-u13-l1-market",
+          "title": "At the Weekly Market"
+        },
+        {
+          "id": "de-b1-u13-l2-fresh-bread",
+          "title": "Fresh Bread, Strong Coffee"
+        },
+        {
+          "id": "de-b1-u13-l3-fresh-vegetables",
+          "title": "With Fresh Vegetables"
+        },
+        {
+          "id": "de-b1-u13-l4-the-cheaper-one",
+          "title": "The Cheaper Offer"
+        },
+        {
+          "id": "de-b1-u13-l5-team-lunch",
+          "title": "Scenario: The Team Lunch"
         }
       ]
     }

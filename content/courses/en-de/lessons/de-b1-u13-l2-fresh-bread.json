@@ -1,0 +1,146 @@
+{
+  "id": "de-b1-u13-l2-fresh-bread",
+  "courseId": "en-de",
+  "unitId": "de-b1-u13",
+  "title": "Fresh Bread, Strong Coffee",
+  "tip": "No article? The adjective shows the case: der → -er, den → -en, die → -e, das → -es, plural -e. „Starker Kaffee ist bitter.“; „Ich trinke gern starken Kaffee.“; „Frisches Brot ist lecker.“; „Kalte Milch, bitte.“",
+  "exercises": [
+    {
+      "id": "de-b1-u13-l2-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        { "id": "p1", "learning": "sauer", "known": "sour" },
+        { "id": "p2", "learning": "scharf", "known": "spicy / hot" },
+        { "id": "p3", "learning": "salzig", "known": "salty" },
+        { "id": "p4", "learning": "der Geschmack", "known": "the taste" },
+        { "id": "p5", "learning": "die Soße", "known": "the sauce" }
+      ]
+    },
+    {
+      "id": "de-b1-u13-l2-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'Fresh bread is tasty.'?",
+      "options": [
+        { "id": "a", "text": "Frische Brot ist lecker." },
+        { "id": "b", "text": "Frischen Brot ist lecker." },
+        { "id": "c", "text": "Frischer Brot ist lecker." },
+        { "id": "d", "text": "Frisches Brot ist lecker." }
+      ],
+      "correctOptionId": "d"
+    },
+    {
+      "id": "de-b1-u13-l2-ex03",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I like drinking strong coffee.",
+      "tiles": ["ich", "trinke", "gern", "starken", "Kaffee", "starker", "starkes", "trinken"],
+      "answers": [
+        "Ich trinke gern starken Kaffee.",
+        "Starken Kaffee trinke ich gern.",
+        "Gern trinke ich starken Kaffee."
+      ]
+    },
+    {
+      "id": "de-b1-u13-l2-ex04",
+      "type": "listen",
+      "audio": { "src": "/audio/de/b1/u13/de-b1-u13-l2-ex04.mp3" },
+      "tiles": ["probier", "mal", "das", "schmeckt", "sauer", "probiere", "schmecken", "süß"],
+      "answers": ["Probier mal! Das schmeckt sauer."]
+    },
+    {
+      "id": "de-b1-u13-l2-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'I like spicy sauce.'?",
+      "options": [
+        { "id": "a", "text": "Ich mag scharfer Soße." },
+        { "id": "b", "text": "Ich mag scharfe Soße." },
+        { "id": "c", "text": "Ich mag scharfen Soße." },
+        { "id": "d", "text": "Ich mag scharfes Soße." }
+      ],
+      "correctOptionId": "b"
+    },
+    {
+      "id": "de-b1-u13-l2-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Cold milk, please.",
+      "tiles": ["kalte", "Milch", "bitte", "kalter", "kaltes", "kalt"],
+      "answers": ["Kalte Milch, bitte.", "Bitte kalte Milch."]
+    },
+    {
+      "id": "de-b1-u13-l2-ex07",
+      "type": "listen",
+      "audio": { "src": "/audio/de/b1/u13/de-b1-u13-l2-ex07.mp3" },
+      "tiles": [
+        "der",
+        "Kaffee",
+        "ist",
+        "stark",
+        "der",
+        "Geschmack",
+        "ist",
+        "bitter",
+        "starker",
+        "sind",
+        "süß"
+      ],
+      "answers": ["Der Kaffee ist stark. Der Geschmack ist bitter."]
+    },
+    {
+      "id": "de-b1-u13-l2-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Wie schmeckt es dir?",
+      "tiles": ["how", "does", "it", "taste", "to", "you", "do", "like", "tastes", "did"],
+      "answers": ["How does it taste to you?", "How does it taste?", "How do you like it?"]
+    },
+    {
+      "id": "de-b1-u13-l2-ex09",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'We need fresh eggs and cold milk.'?",
+      "options": [
+        { "id": "a", "text": "Wir brauchen frischen Eier und kalte Milch." },
+        { "id": "b", "text": "Wir brauchen frische Eier und kalter Milch." },
+        { "id": "c", "text": "Wir brauchen frische Eier und kalte Milch." },
+        { "id": "d", "text": "Wir brauchen frisches Eier und kalten Milch." }
+      ],
+      "correctOptionId": "c"
+    },
+    {
+      "id": "de-b1-u13-l2-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Hot tea tastes good.",
+      "tiles": ["heißer", "Tee", "schmeckt", "gut", "heißen", "heißes", "schmecken"],
+      "answers": ["Heißer Tee schmeckt gut.", "Gut schmeckt heißer Tee."]
+    },
+    {
+      "id": "de-b1-u13-l2-ex11",
+      "type": "listen",
+      "audio": { "src": "/audio/de/b1/u13/de-b1-u13-l2-ex11.mp3" },
+      "tiles": [
+        "die",
+        "Soße",
+        "ist",
+        "zu",
+        "salzig",
+        "hast",
+        "du",
+        "frisches",
+        "Brot",
+        "frischer",
+        "sind",
+        "hat"
+      ],
+      "answers": ["Die Soße ist zu salzig. Hast du frisches Brot?"]
+    },
+    {
+      "id": "de-b1-u13-l2-ex12",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Es schmeckt mir sehr gut.",
+      "tiles": ["it", "tastes", "very", "good", "to", "me", "taste", "bad", "tasted"],
+      "answers": ["It tastes very good to me.", "It tastes very good."]
+    }
+  ]
+}

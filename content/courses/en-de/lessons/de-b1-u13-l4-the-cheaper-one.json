@@ -1,0 +1,228 @@
+{
+  "id": "de-b1-u13-l4-the-cheaper-one",
+  "courseId": "en-de",
+  "unitId": "de-b1-u13",
+  "title": "The Cheaper Offer",
+  "tip": "Before a noun, comparatives and superlatives take the usual endings: „der günstigere Preis“, „den größeren Topf“, „das beste Brot“, „die besten Erdbeeren“. gut → besser → beste.",
+  "exercises": [
+    {
+      "id": "de-b1-u13-l4-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        { "id": "p1", "learning": "günstig", "known": "good value / inexpensive" },
+        { "id": "p2", "learning": "die Qualität", "known": "the quality" },
+        { "id": "p3", "learning": "der Preis", "known": "the price" },
+        { "id": "p4", "learning": "bio", "known": "organic" },
+        { "id": "p5", "learning": "die Auswahl", "known": "the choice / selection" }
+      ]
+    },
+    {
+      "id": "de-b1-u13-l4-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which one means 'the lower price and the best quality'?",
+      "options": [
+        { "id": "a", "text": "der günstiger Preis und die beste Qualität" },
+        { "id": "b", "text": "der günstigere Preis und die besten Qualität" },
+        { "id": "c", "text": "der günstigere Preis und die beste Qualität" },
+        { "id": "d", "text": "der günstigerer Preis und die bester Qualität" }
+      ],
+      "correctOptionId": "c"
+    },
+    {
+      "id": "de-b1-u13-l4-ex03",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "That is the lower price.",
+      "tiles": ["das", "ist", "der", "günstigere", "Preis", "günstiger", "den", "günstigeren"],
+      "answers": ["Das ist der günstigere Preis."]
+    },
+    {
+      "id": "de-b1-u13-l4-ex04",
+      "type": "listen",
+      "audio": { "src": "/audio/de/b1/u13/de-b1-u13-l4-ex04.mp3" },
+      "tiles": [
+        "hier",
+        "gibt",
+        "es",
+        "die",
+        "beste",
+        "Qualität",
+        "das",
+        "Brot",
+        "wird",
+        "jeden",
+        "Tag",
+        "gebacken",
+        "besten",
+        "backen"
+      ],
+      "answers": ["Hier gibt es die beste Qualität. Das Brot wird jeden Tag gebacken."]
+    },
+    {
+      "id": "de-b1-u13-l4-ex05",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "We compare the prices in order to save money.",
+      "tiles": [
+        "wir",
+        "vergleichen",
+        "die",
+        "Preise",
+        "um",
+        "Geld",
+        "zu",
+        "sparen",
+        "damit",
+        "Preis",
+        "sparst"
+      ],
+      "answers": [
+        "Wir vergleichen die Preise, um Geld zu sparen.",
+        "Um Geld zu sparen, vergleichen wir die Preise.",
+        "Die Preise vergleichen wir, um Geld zu sparen."
+      ]
+    },
+    {
+      "id": "de-b1-u13-l4-ex06",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'I prefer to buy organic.'?",
+      "options": [
+        { "id": "a", "text": "Ich kaufe gerner bio." },
+        { "id": "b", "text": "Ich kaufe lieber bio." },
+        { "id": "c", "text": "Ich lieber kaufe bio." },
+        { "id": "d", "text": "Ich kaufe mehr lieber bio." }
+      ],
+      "correctOptionId": "b"
+    },
+    {
+      "id": "de-b1-u13-l4-ex07",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Wegen des günstigeren Preises kaufe ich hier.",
+      "tiles": [
+        "because",
+        "of",
+        "the",
+        "lower",
+        "price",
+        "I",
+        "buy",
+        "here",
+        "shop",
+        "prices",
+        "there",
+        "higher"
+      ],
+      "answers": [
+        "Because of the lower price I buy here.",
+        "I buy here because of the lower price.",
+        "Because of the lower price I shop here.",
+        "I shop here because of the lower price."
+      ]
+    },
+    {
+      "id": "de-b1-u13-l4-ex08",
+      "type": "listen",
+      "audio": { "src": "/audio/de/b1/u13/de-b1-u13-l4-ex08.mp3" },
+      "tiles": [
+        "die",
+        "Auswahl",
+        "ist",
+        "groß",
+        "aber",
+        "ich",
+        "nehme",
+        "den",
+        "günstigeren",
+        "Käse",
+        "der",
+        "günstigere"
+      ],
+      "answers": ["Die Auswahl ist groß, aber ich nehme den günstigeren Käse."]
+    },
+    {
+      "id": "de-b1-u13-l4-ex09",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'This stall has the best strawberries.'?",
+      "options": [
+        { "id": "a", "text": "Dieser Stand hat die beste Erdbeeren." },
+        { "id": "b", "text": "Dieser Stand hat die gutesten Erdbeeren." },
+        { "id": "c", "text": "Dieser Stand hat die bester Erdbeeren." },
+        { "id": "d", "text": "Dieser Stand hat die besten Erdbeeren." }
+      ],
+      "correctOptionId": "d"
+    },
+    {
+      "id": "de-b1-u13-l4-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "The pot is too small. I'll take the bigger pot.",
+      "tiles": [
+        "der",
+        "Topf",
+        "ist",
+        "zu",
+        "klein",
+        "ich",
+        "nehme",
+        "den",
+        "größeren",
+        "Topf",
+        "größere",
+        "großen",
+        "dem"
+      ],
+      "answers": [
+        "Der Topf ist zu klein. Ich nehme den größeren Topf.",
+        "Der Topf ist zu klein. Den größeren Topf nehme ich.",
+        "Zu klein ist der Topf. Ich nehme den größeren Topf.",
+        "Zu klein ist der Topf. Den größeren Topf nehme ich."
+      ]
+    },
+    {
+      "id": "de-b1-u13-l4-ex11",
+      "type": "listen",
+      "audio": { "src": "/audio/de/b1/u13/de-b1-u13-l4-ex11.mp3" },
+      "tiles": [
+        "du",
+        "solltest",
+        "die",
+        "Preise",
+        "vergleichen",
+        "der",
+        "billigere",
+        "Käse",
+        "ist",
+        "auch",
+        "gut",
+        "sollst",
+        "billiger"
+      ],
+      "answers": ["Du solltest die Preise vergleichen. Der billigere Käse ist auch gut."]
+    },
+    {
+      "id": "de-b1-u13-l4-ex12",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "The stall that has the lowest prices is small.",
+      "tiles": [
+        "der",
+        "Stand",
+        "der",
+        "die",
+        "günstigsten",
+        "Preise",
+        "hat",
+        "ist",
+        "klein",
+        "den",
+        "günstigste",
+        "haben"
+      ],
+      "answers": [
+        "Der Stand, der die günstigsten Preise hat, ist klein.",
+        "Klein ist der Stand, der die günstigsten Preise hat."
+      ]
+    }
+  ]
+}
