@@ -50,9 +50,13 @@ test.describe("LES-008 lesson results", () => {
     await expect(stats.getByRole("listitem").nth(2)).toContainText("100 %");
     await expect(page.getByText("Perfect lesson! +5 bonus XP")).toBeVisible();
     // LES-010 AC 15: first lesson of a new guest (default goal 20).
+    // FIX-010: the gold pill carries only the perfect line; "Streak started!" is shown
+    // once, in the coral streak banner.
     const banner = page.getByTestId("celebration-banner");
-    await expect(banner).toContainText("Streak started!");
+    await expect(banner).toHaveText("Perfect lesson! +5 bonus XP");
     await expect(banner).toBeInViewport();
+    // (The polite announcement is emptied after it has been spoken.)
+    await expect(page.getByText("Streak started!", { exact: true })).toHaveCount(1);
     await expect(stats.getByRole("listitem")).toHaveCount(5);
     await expect(stats.getByRole("listitem").nth(3)).toContainText("Streak started!");
     await expect(stats.getByRole("listitem").nth(3)).toContainText("1 day");

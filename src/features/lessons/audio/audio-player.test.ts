@@ -1,6 +1,6 @@
 import { afterEach, describe, expect, it, vi } from "vitest";
 import { stubMediaPlayback } from "../test-utils/speech-synthesis";
-import { classifyPlayError, createAudioPlayer } from "./audio-player";
+import { AUDIO_LOAD_TIMEOUT_MS, classifyPlayError, createAudioPlayer } from "./audio-player";
 
 function named(name: string) {
   const e = new Error(name);
@@ -8,7 +8,10 @@ function named(name: string) {
   return e;
 }
 
-afterEach(() => vi.restoreAllMocks());
+afterEach(() => {
+  vi.useRealTimers();
+  vi.restoreAllMocks();
+});
 
 describe("classifyPlayError", () => {
   it("maps play() rejections", () => {
@@ -96,5 +99,87 @@ describe("createAudioPlayer", () => {
     });
     const { player } = make();
     await expect(player.play({ src: "/audio/es/a.mp3", rate: 1 })).resolves.toBe("failed");
+  });
+
+  describe("load timeout (FIX-010)", () => {
+    it("is about 3 s", () => {
+      expect(AUDIO_LOAD_TIMEOUT_MS).toBe(3000);
+    });
+
+    it("resolves failed (like an error) when the clip has not started after the timeout", async () => {
+      vi.useFakeTimers();
+      stubMediaPlayback("pending");
+      const pause = vi.mocked(HTMLMediaElement.prototype.pause);
+      const { player, elements } = make();
+      const onError = vi.fn();
+      let outcome: string | undefined;
+      void player.play({ src: "/audio/es/a.mp3", rate: 1 }, { onError }).then((r) => {
+        outcome = r;
+      });
+      const pausesBefore = pause.mock.calls.length;
+
+      await vi.advanceTimersByTimeAsync(AUDIO_LOAD_TIMEOUT_MS - 1);
+      expect(outcome).toBeUndefined();
+
+      await vi.advanceTimersByTimeAsync(1);
+      expect(outcome).toBe("failed");
+      // Paused so a late clip never plays over the speech fallback.
+      expect(pause.mock.calls.length).toBeGreaterThan(pausesBefore);
+      // The timed-out request is detached: a late error is not reported.
+      elements[0]!.dispatchEvent(new Event("error"));
+      expect(onError).not.toHaveBeenCalled();
+    });
+
+    it("uses a custom timeout and does not fire after playback started", async () => {
+      vi.useFakeTimers();
+      stubMediaPlayback("resolve");
+      const { player } = make();
+      await expect(player.play({ src: "/audio/es/a.mp3", rate: 1 })).resolves.toBe("playing");
+      vi.restoreAllMocks();
+      stubMediaPlayback("pending");
+      const slow = createAudioPlayer(() => document.createElement("audio"), {
+        loadTimeoutMs: 500,
+      });
+      const result = slow.play({ src: "/audio/es/b.mp3", rate: 1 });
+      await vi.advanceTimersByTimeAsync(500);
+      await expect(result).resolves.toBe("failed");
+    });
+
+    it("a replaced request's timer never touches the newer request", async () => {
+      vi.useFakeTimers();
+      stubMediaPlayback("pending");
+      const pause = vi.mocked(HTMLMediaElement.prototype.pause);
+      const { player } = make();
+      const first = player.play({ src: "/audio/es/a.mp3", rate: 1 });
+      await vi.advanceTimersByTimeAsync(2000);
+      let second: string | undefined;
+      void player.play({ src: "/audio/es/b.mp3", rate: 1 }).then((r) => {
+        second = r;
+      });
+      await expect(first).resolves.toBe("aborted");
+      const pauses = pause.mock.calls.length;
+
+      // The first request's deadline (t = 3 s) passes: nothing happens to the second.
+      await vi.advanceTimersByTimeAsync(AUDIO_LOAD_TIMEOUT_MS - 1);
+      expect(second).toBeUndefined();
+      expect(pause.mock.calls.length).toBe(pauses);
+
+      // Its own deadline (t = 5 s) fails it.
+      await vi.advanceTimersByTimeAsync(1);
+      expect(second).toBe("failed");
+    });
+
+    it("stop() before the deadline: aborted, and no late failure", async () => {
+      vi.useFakeTimers();
+      stubMediaPlayback("pending");
+      const pause = vi.mocked(HTMLMediaElement.prototype.pause);
+      const { player } = make();
+      const request = player.play({ src: "/audio/es/a.mp3", rate: 1 });
+      player.stop();
+      await expect(request).resolves.toBe("aborted");
+      const pauses = pause.mock.calls.length;
+      await vi.advanceTimersByTimeAsync(AUDIO_LOAD_TIMEOUT_MS * 2);
+      expect(pause.mock.calls.length).toBe(pauses);
+    });
   });
 });

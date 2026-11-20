@@ -29,6 +29,8 @@ export interface ResultsScreenProps {
 
 export const RESULTS_HEADING = "Lesson complete!";
 export const SAVE_ERROR_MESSAGE = "We couldn't save this lesson on your device.";
+/** How long the celebration stays in the live region before it is emptied (FIX-010). */
+export const ANNOUNCEMENT_CLEAR_MS = 1000;
 
 /** Decorative confetti around Lumi's circle (design v2 screen 6): static, no motion. */
 const CONFETTI = [
@@ -54,12 +56,29 @@ function CelebrationArt() {
   );
 }
 
+/** "Perfect lesson! +5 bonus XP" (LES-008 AC 5). */
+export function perfectLessonText(bonus: number): string {
+  return `Perfect lesson! +${bonus} bonus XP`;
+}
+
+/**
+ * Line for the gold celebration pill under the heading, or `null` for no pill (FIX-010).
+ * Streak and daily-goal events are not repeated here: the coral streak banner already
+ * shows "Streak started!" / "Streak extended!" and the goal row "Daily goal reached!", so
+ * the pill only carries what is said nowhere else, the perfect-lesson bonus.
+ */
+export function celebrationPillText(perfectBonus: number): string | null {
+  return perfectBonus > 0 ? perfectLessonText(perfectBonus) : null;
+}
+
 /**
  * LES-008 results screen. Presentational: the route (PLT-007) builds the result and
  * passes the repository's save function. Fits 375 × 667 without scrolling.
  * Design v2 (LES-021, screen 6): Lumi in a light indigo circle with confetti, three
  * coloured StatTiles (Total XP gold, Time indigo, Accuracy green), the coral streak
  * banner and the daily-goal row, then Continue and the optional "Practice again".
+ * Each line is shown once (FIX-010): the gold pill only for the perfect-lesson bonus;
+ * the streak and goal events live in their rows (and the polite announcement, AC 7).
  */
 export function ResultsScreen({
   result,
@@ -79,6 +98,7 @@ export function ResultsScreen({
   // Pure and a single pass over the results, so it simply runs on every render.
   const impact = computeLessonImpact(result, useProgressInputs(result.courseId));
   const celebration = impact?.celebration ?? null;
+  const pillText = celebrationPillText(perfectBonus);
 
   useEffect(() => {
     headingRef.current?.focus();
@@ -102,6 +122,13 @@ export function ResultsScreen({
       announcedFor.current = null; // StrictMode / unmount before the frame: try again
     };
   }, [celebration, result.id]);
+  // FIX-010: once spoken, empty the live region so reading the page (browse mode) meets
+  // the line only once, in its row. Clearing a polite region is not announced.
+  useEffect(() => {
+    if (!announcement) return;
+    const timer = setTimeout(() => setAnnouncement(""), ANNOUNCEMENT_CLEAR_MS);
+    return () => clearTimeout(timer);
+  }, [announcement]);
 
   return (
     <section
@@ -120,13 +147,9 @@ export function ResultsScreen({
           >
             {RESULTS_HEADING}
           </h1>
-
-          {perfectBonus > 0 && (
-            <p className="font-bold text-xp">Perfect lesson! +{perfectBonus} bonus XP</p>
-          )}
         </div>
 
-        {celebration && <CelebrationBanner text={celebration} />}
+        {pillText && <CelebrationBanner text={pillText} />}
 
         <ul
           aria-label="Lesson stats"
