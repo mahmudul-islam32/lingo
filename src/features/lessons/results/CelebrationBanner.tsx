@@ -24,7 +24,8 @@ export function canSparkle(): boolean {
 }
 
 /**
- * Celebration banner above the stats (LES-010 AC 6): the line plus a short sparkle
+ * Celebration banner above the stats (LES-010 AC 6; v2: a gold-tint pill under the
+ * heading): the line plus a short sparkle
  * burst (≤ 1,000 ms) that never covers the content or "Continue". Under
  * `prefers-reduced-motion: reduce` the banner shows without the effect (the sparkle layer
  * is not rendered, and `motion-reduce:hidden` guards it in CSS as well).
@@ -58,10 +59,10 @@ export function CelebrationBanner({ text }: { text: string }) {
   return (
     <div
       data-testid="celebration-banner"
-      className="relative flex w-full items-center justify-center gap-2 rounded-card border-2 border-xp bg-surface px-3 py-2 font-bold text-fg shadow-md"
+      className="relative inline-flex max-w-full items-center justify-center gap-1.5 rounded-full bg-xp-soft px-3.5 py-1.5 text-sm font-bold text-glow-800"
     >
-      <span className="text-xp">
-        <BoltIcon size={18} />
+      <span className="text-xp-gold">
+        <BoltIcon size={16} />
       </span>
       <p>{text}</p>
       {sparkle && (

@@ -100,6 +100,8 @@ export function LessonHeartsMeter({ current, max }: LessonHeartsMeterProps) {
         data-animation={animating ? pulse.kind : undefined}
         className={cn(
           "inline-flex origin-center whitespace-nowrap",
+          // v2 header: the count is in the hearts text colour (#BE123C, AA on white).
+          "[&_span[aria-hidden]]:text-heart-fg",
           "motion-safe:transition-transform motion-safe:duration-150 motion-safe:ease-out",
           "motion-reduce:transition-none",
           shrinking && "motion-safe:scale-75",

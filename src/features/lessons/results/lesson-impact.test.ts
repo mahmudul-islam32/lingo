@@ -53,6 +53,7 @@ describe("computeLessonImpact (LES-010)", () => {
       label: "Streak started!",
       value: "1 day",
       srValue: "1 day",
+      days: 1,
       event: "started",
     });
     expect(out.goal).toMatchObject({
@@ -149,7 +150,7 @@ describe("computeLessonImpact (LES-010)", () => {
       now: FIXTURE_NOW,
     });
     expect(out).toEqual({
-      streak: { label: "Streak", value: "–", srValue: "unavailable", event: null },
+      streak: { label: "Streak", value: "–", srValue: "unavailable", days: null, event: null },
       goal: {
         label: "Daily goal",
         value: "15 / 10 XP",

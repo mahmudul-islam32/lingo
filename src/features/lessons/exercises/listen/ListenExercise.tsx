@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useEffectEvent, useState } from "react";
-import { Button, Lumi } from "@/components/ui";
+import { Button, Card, Lumi, SpeakerIcon } from "@/components/ui";
 import { CONTENT_RULES } from "@/contracts";
 import { getDefaultListenAudio, type ListenAudio } from "../../audio/listen-audio";
 import { useAudioPlayback } from "../../audio/use-audio-playback";
@@ -15,7 +15,7 @@ export type ListenExerciseProps = ExerciseComponentProps<"listen"> & {
   random?: () => number;
 };
 
-/** "0.75×" from the constant, never a literal (LES-007 notes). */
+/** "0.7×" from the constant, never a literal (LES-007 notes). */
 const SLOW_BADGE = `${CONTENT_RULES.slowPlaybackRate}×`;
 
 /**
@@ -50,15 +50,16 @@ export function ListenExercise({
 
   return (
     <div className="flex w-full min-w-0 flex-col gap-6">
-      <h2 id={headingId} tabIndex={-1} className="text-xl font-bold text-fg outline-none">
+      <h2
+        id={headingId}
+        tabIndex={-1}
+        className="font-display text-[1.625rem] leading-tight font-bold text-fg outline-none"
+      >
         Tap what you hear
       </h2>
 
       {unavailable ? (
-        <div
-          role="status"
-          className="flex flex-col items-start gap-3 rounded-card border-2 border-border bg-surface p-4"
-        >
+        <Card role="status" tone="flat" className="flex flex-col items-start gap-3">
           {/* FIX-005: small decorative Lumi ember beside the one-line message. */}
           <div className="flex min-w-0 items-center gap-3">
             <Lumi pose="ember" size="sm" />
@@ -67,9 +68,9 @@ export function ListenExercise({
           <Button variant="primary" size="lg" onClick={() => onSkip("audio_unavailable")}>
             Skip
           </Button>
-        </div>
+        </Card>
       ) : (
-        <div className="flex items-center justify-center gap-4">
+        <div className="flex items-center justify-center gap-3">
           <Button
             variant="primary"
             size="lg"
@@ -77,25 +78,24 @@ export function ListenExercise({
             loading={status === "loading"}
             disabled={disabled}
             onClick={() => play("normal")}
-            className="size-20 rounded-card px-0"
+            className="size-24 rounded-[1.5rem] px-0 shadow-[0_5px_0_var(--color-primary-edge)]"
           >
-            <SpeakerIcon />
+            <SpeakerIcon size={40} strokeWidth={2} />
           </Button>
           <Button
-            variant="secondary"
+            variant="soft"
             size="lg"
             // WCAG 2.5.3: the name must contain all visible text ("Slow 0.7×"), badge included.
             aria-label={`Slow ${SLOW_BADGE} speed`}
             disabled={disabled}
             onClick={() => play("slow")}
-            className="min-w-12"
+            className="size-16 min-w-12 self-end rounded-tile px-0 [&>span]:flex [&>span]:flex-col-reverse [&>span]:items-center"
           >
-            <span>Slow</span>{" "}
-            {/* The space keeps "Slow" and the badge separate words for axe's text check. */}
-            <span
-              aria-hidden="true"
-              className="ml-1 rounded-full bg-surface px-1.5 text-xs font-bold text-fg-muted"
-            >
+            {/* DOM order "Slow 0.7×" (the name starts with the visible words); shown as
+                "0.7×" over a small "Slow" (design v2 screen 5). The space keeps them
+                separate words for axe's text check. */}
+            <span className="text-xs leading-none font-bold">Slow</span>{" "}
+            <span aria-hidden="true" className="text-base leading-tight font-extrabold">
               {SLOW_BADGE}
             </span>
           </Button>
@@ -110,27 +110,5 @@ export function ListenExercise({
         onChange={(tiles) => onAnswerChange(tiles.length ? { type: "listen", tiles } : null)}
       />
     </div>
-  );
-}
-
-/** Speaker glyph (original, decorative; the button carries the label). */
-function SpeakerIcon() {
-  return (
-    <svg
-      width={36}
-      height={36}
-      viewBox="0 0 24 24"
-      fill="none"
-      stroke="currentColor"
-      strokeWidth={2.2}
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      aria-hidden="true"
-      focusable="false"
-    >
-      <path d="M4 9.5h3.5L12 5.5v13l-4.5-4H4z" fill="currentColor" />
-      <path d="M15.5 9a4 4 0 0 1 0 6" />
-      <path d="M18 6.5a7.5 7.5 0 0 1 0 11" />
-    </svg>
   );
 }

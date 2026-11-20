@@ -42,6 +42,8 @@ export interface StreakRowView {
   value: string;
   /** Value for screen readers ("4 days" or "unavailable"). */
   srValue: string;
+  /** Streak length after this lesson, or null when unavailable (v2 "4-day streak!" banner). */
+  days: number | null;
   event: StreakEvent;
 }
 
@@ -106,6 +108,7 @@ export function computeLessonImpact(
         label: STREAK_LABEL,
         value: STREAK_UNAVAILABLE_VALUE,
         srValue: STREAK_UNAVAILABLE_TEXT,
+        days: null,
         event: null,
       },
       goal: goalRow(goal, false),
@@ -146,6 +149,7 @@ export function computeLessonImpact(
             : STREAK_LABEL,
       value: formatStreakDays(after.streak.current),
       srValue: formatStreakDays(after.streak.current),
+      days: after.streak.current,
       event,
     },
     goal: goalRow(after.dailyGoal, newlyReached),

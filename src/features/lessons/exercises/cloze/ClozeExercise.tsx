@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
-import { Button, CheckIcon, CrossIcon, VisuallyHidden, cn } from "@/components/ui";
+import { Button, CheckIcon, CrossIcon, OptionCard, VisuallyHidden, cn } from "@/components/ui";
 import {
   CONTENT_RULES,
   clozeCorrectSentence,
@@ -136,7 +136,7 @@ export function ClozeExercise({
         id={headingId}
         tabIndex={-1}
         lang={knownLanguage}
-        className="text-xl font-bold text-fg break-words focus:outline-none sm:text-2xl"
+        className="font-display text-[1.625rem] leading-tight font-bold text-fg break-words focus:outline-none"
       >
         {gapCount > 1 ? "Fill in the blanks" : "Fill in the blank"}
       </h2>
@@ -145,7 +145,7 @@ export function ClozeExercise({
         <p
           lang={learningLanguage}
           data-testid="cloze-sentence"
-          className="text-fg min-w-0 text-xl leading-[2.75rem] break-words hyphens-auto"
+          className="min-w-0 text-xl leading-[3rem] font-medium break-words text-fg hyphens-auto"
         >
           {segments.map((segment, index) =>
             segment.kind === "text" ? (
@@ -183,14 +183,14 @@ export function ClozeExercise({
 
       {review === null && (
         <div className="flex min-w-0 flex-col gap-2">
-          <p id={optionsLabelId} lang={knownLanguage} className="text-fg-muted text-sm">
+          <p id={optionsLabelId} lang={knownLanguage} className="eyebrow text-fg-muted">
             Options for {gapLabel(activeGap, gapCount)}
           </p>
           <div
             role="group"
             aria-labelledby={optionsLabelId}
             aria-disabled={locked || undefined}
-            className="flex w-full min-w-0 flex-wrap gap-3"
+            className="flex w-full min-w-0 flex-wrap gap-3 pb-1"
           >
             {options.map((option, index) => (
               <OptionButton
@@ -247,10 +247,10 @@ function GapButton({
       data-state={reviewState ?? (active ? "active" : text === null ? "empty" : "filled")}
       onClick={onSelect}
       className={cn(
-        "rounded-control mx-0.5 inline-flex min-h-11 max-w-full min-w-20 items-center justify-center gap-1 border-b-4 px-2 align-middle",
+        "mx-0.5 inline-flex min-h-11 max-w-full min-w-20 items-center justify-center gap-1 rounded-t-lg border-b-4 px-2 align-middle",
         "focus-visible:focus-ring motion-safe:transition-colors motion-safe:duration-150",
-        text === null ? "bg-surface-raised" : "bg-surface font-semibold",
-        active && "border-primary ring-primary ring-2",
+        text === null ? "bg-primary-tint" : "bg-surface font-bold",
+        active && "border-primary bg-primary-soft",
         !active && reviewState === null && "border-border-strong",
         reviewState === "correct" && "border-success bg-success-soft text-success-fg ring-0",
         reviewState === "incorrect" &&
@@ -292,26 +292,22 @@ interface OptionButtonProps {
   onChoose: () => void;
 }
 
+/** A cloze option as a v2 OptionCard (white 3D card, indigo ring + check when chosen). */
 function OptionButton({ ref, option, pressed, locked, lang, onChoose }: OptionButtonProps) {
   return (
-    <button
+    <OptionCard
       ref={ref}
-      type="button"
       lang={lang}
-      aria-pressed={pressed}
+      title={option.text}
+      selected={pressed}
+      showIndicator={false}
       aria-disabled={locked || undefined}
       onClick={onChoose}
       className={cn(
-        "rounded-card bg-surface text-fg min-h-12 max-w-full min-w-0 border-2 px-4 py-2 text-left text-lg break-words hyphens-auto",
-        "focus-visible:focus-ring motion-safe:transition-colors motion-safe:duration-150",
-        pressed
-          ? "border-primary font-semibold shadow-md"
-          : "border-border hover:border-border-strong",
+        "min-h-14 w-auto max-w-full min-w-0 gap-2.5 py-2 break-words hyphens-auto",
         locked && "cursor-default",
       )}
-    >
-      {option.text}
-    </button>
+    />
   );
 }
 

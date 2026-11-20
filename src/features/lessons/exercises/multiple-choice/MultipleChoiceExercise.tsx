@@ -22,8 +22,9 @@ function isPlayable(options: readonly Option[], correctOptionId: string): boolea
 }
 
 /**
- * Multiple-choice exercise (LES-004): a prompt and 3–4 shuffled text options in a
- * `radiogroup`. Arrow keys move and select (wrapping), digits 1–4 select. Reports the
+ * Multiple-choice exercise (LES-004, design v2 LES-021): a prompt and 3–4 shuffled text
+ * options in a `radiogroup`, shown as a 2 x 2 grid of numbered tiles (one column of rows
+ * when an option is too long for a tile at 375 px). Arrow keys move and select (wrapping), digits 1–4 select. Reports the
  * selected option via `onAnswerChange`; never checks the answer itself.
  */
 export function MultipleChoiceExercise({
@@ -93,13 +94,15 @@ export function MultipleChoiceExercise({
     select(index, true);
   }
 
+  const grid = fitsTwoColumns(options);
+
   return (
     <section className="flex w-full flex-col gap-6" onKeyDown={handleRootKeyDown}>
       <h2
         id={headingId}
         tabIndex={-1}
         lang={knownLanguage}
-        className="text-xl font-bold text-fg break-words focus:outline-none sm:text-2xl"
+        className="font-display text-[1.625rem] leading-tight font-bold text-fg break-words focus:outline-none"
       >
         {exercise.prompt}
       </h2>
@@ -109,7 +112,8 @@ export function MultipleChoiceExercise({
         aria-labelledby={headingId}
         aria-disabled={locked || undefined}
         onKeyDown={handleGroupKeyDown}
-        className="flex w-full flex-col gap-3"
+        data-layout={grid ? "grid" : "list"}
+        className={cn("grid w-full gap-3", grid ? "grid-cols-2" : "grid-cols-1")}
       >
         {options.map((option, index) => {
           const selected = option.id === selectedId;
@@ -129,26 +133,50 @@ export function MultipleChoiceExercise({
               data-state={isCorrect ? "correct" : isWrongPick ? "incorrect" : undefined}
               onClick={() => select(index, false)}
               className={cn(
-                "rounded-card bg-surface text-fg flex min-h-12 w-full items-center gap-3 border-2 px-4 py-3 text-left text-lg",
-                "focus-visible:focus-ring motion-safe:transition-colors motion-safe:duration-150",
-                selected
-                  ? "border-primary font-semibold shadow-md"
-                  : "border-border hover:border-border-strong",
-                isCorrect && "border-success bg-success-soft text-success-fg",
-                isWrongPick && "border-danger bg-danger-soft text-danger-fg",
+                "relative flex w-full min-w-0 border-2 bg-surface text-left text-fg",
+                grid
+                  ? "min-h-32 flex-col items-start gap-3 rounded-tile p-3.5"
+                  : "min-h-16 items-center gap-3.5 rounded-card px-4 py-3",
+                "focus-visible:focus-ring motion-safe:transition-[border-color,box-shadow,transform] motion-safe:duration-100",
+                isCorrect
+                  ? "border-success bg-success-soft text-success-fg shadow-3d-success"
+                  : isWrongPick
+                    ? "border-danger bg-danger-tint text-danger-fg shadow-3d-danger"
+                    : selected
+                      ? "border-primary shadow-ring-selected"
+                      : "border-border shadow-3d-card",
+                !locked &&
+                  !selected &&
+                  "hover:border-primary-ring active:translate-y-0.5 active:shadow-3d-card-pressed",
                 locked && "cursor-default",
               )}
             >
               <span
                 aria-hidden="true"
-                className="rounded-control border-border-strong text-fg-muted hidden h-7 w-7 shrink-0 items-center justify-center border text-sm font-semibold sm:inline-flex"
+                className={cn(
+                  "inline-flex size-7 shrink-0 items-center justify-center rounded-lg border-2 text-[0.8125rem] font-bold tabular-nums",
+                  selected && !review
+                    ? "border-primary bg-primary-soft text-primary-fg"
+                    : "border-border text-fg-muted",
+                )}
               >
                 {index + 1}
               </span>
-              <span lang={learningLanguage} className="min-w-0 flex-1 break-words hyphens-auto">
+              <span
+                lang={learningLanguage}
+                className={cn(
+                  "min-w-0 font-bold break-words hyphens-auto",
+                  grid ? "mt-auto font-display text-xl leading-snug" : "flex-1 text-[1.0625rem]",
+                )}
+              >
                 {option.text}
               </span>
-              <Marker selected={selected} isCorrect={isCorrect} isWrongPick={isWrongPick} />
+              <Marker
+                selected={selected}
+                isCorrect={isCorrect}
+                isWrongPick={isWrongPick}
+                className={grid ? "absolute top-3.5 right-3.5" : undefined}
+              />
             </button>
           );
         })}
@@ -157,28 +185,57 @@ export function MultipleChoiceExercise({
   );
 }
 
-/** Right-hand marker: a filled check when selected, review icons after "Check". */
+/**
+ * The 2 x 2 tile grid needs every option to fit a tile at 375 px (about 11 characters
+ * per line in the 20 px display font, two lines at most); else one column of rows.
+ */
+export const GRID_MAX_OPTION_CHARS = 22;
+export const GRID_MAX_WORD_CHARS = 11;
+
+function fitsTwoColumns(options: readonly Option[]): boolean {
+  return options.every(
+    (option) =>
+      option.text.length <= GRID_MAX_OPTION_CHARS &&
+      option.text.split(/\s+/).every((word) => word.length <= GRID_MAX_WORD_CHARS),
+  );
+}
+
+/** Top-right marker: a filled check when selected, review icons after "Check". */
 function Marker({
   selected,
   isCorrect,
   isWrongPick,
+  className,
 }: {
   selected: boolean;
   isCorrect: boolean;
   isWrongPick: boolean;
+  className?: string;
 }) {
   if (isCorrect) {
     return (
-      <span className="text-success-fg flex shrink-0 items-center" data-marker="correct">
-        <CheckIcon size={22} />
+      <span
+        className={cn(
+          "flex size-7 shrink-0 items-center justify-center rounded-full bg-success text-on-success",
+          className,
+        )}
+        data-marker="correct"
+      >
+        <CheckIcon size={16} />
         <VisuallyHidden>correct answer</VisuallyHidden>
       </span>
     );
   }
   if (isWrongPick) {
     return (
-      <span className="text-danger-fg flex shrink-0 items-center" data-marker="incorrect">
-        <CrossIcon size={22} />
+      <span
+        className={cn(
+          "flex size-7 shrink-0 items-center justify-center rounded-full bg-danger text-on-danger",
+          className,
+        )}
+        data-marker="incorrect"
+      >
+        <CrossIcon size={14} />
         <VisuallyHidden>your answer, incorrect</VisuallyHidden>
       </span>
     );
@@ -188,11 +245,12 @@ function Marker({
       aria-hidden="true"
       data-marker={selected ? "selected" : "none"}
       className={cn(
-        "flex h-6 w-6 shrink-0 items-center justify-center rounded-full border-2",
-        selected ? "border-primary bg-primary text-on-primary" : "border-border-strong",
+        "flex size-7 shrink-0 items-center justify-center rounded-full border-2",
+        selected ? "border-primary bg-primary text-on-primary" : "border-transparent",
+        className,
       )}
     >
-      {selected && <CheckIcon size={14} />}
+      {selected && <CheckIcon size={16} />}
     </span>
   );
 }

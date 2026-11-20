@@ -332,8 +332,8 @@ describe("ListenExercise", () => {
   it("Play and Slow are at least 48 px and side by side", () => {
     stubSpeechSynthesis([fakeVoice("es-ES")]);
     setup("pending");
-    expect(playButton()).toHaveClass("min-h-14", "size-20"); // CTO-016: lg Button is 56 px
-    expect(slowButton()).toHaveClass("min-h-14", "min-w-12");
+    expect(playButton()).toHaveClass("min-h-14", "size-24"); // LES-021: 96 px speaker
+    expect(slowButton()).toHaveClass("min-h-14", "min-w-12", "size-16"); // LES-021: 64 px
     expect(playButton().parentElement).toBe(slowButton().parentElement);
     expect(playButton().parentElement).toHaveClass("flex", "items-center");
   });

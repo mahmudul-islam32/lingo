@@ -44,9 +44,10 @@ test.describe("LES-008 lesson results", () => {
     const heading = page.getByRole("heading", { level: 1, name: "Lesson complete!" });
     await expect(heading).toBeFocused();
     const stats = page.getByRole("list", { name: "Lesson stats" });
-    await expect(stats.getByRole("listitem").nth(0)).toContainText("XP earned");
+    // LES-021 (design v2): Total XP, Time, Accuracy.
+    await expect(stats.getByRole("listitem").nth(0)).toContainText("Total XP");
     await expect(stats.getByRole("listitem").nth(0)).toContainText("15");
-    await expect(stats.getByRole("listitem").nth(1)).toContainText("100 %");
+    await expect(stats.getByRole("listitem").nth(2)).toContainText("100 %");
     await expect(page.getByText("Perfect lesson! +5 bonus XP")).toBeVisible();
     // LES-010 AC 15: first lesson of a new guest (default goal 20).
     const banner = page.getByTestId("celebration-banner");

@@ -1,8 +1,8 @@
 "use client";
 
-import { useEffect, useId, useRef, useState, type ReactNode } from "react";
+import { useEffect, useId, useRef, useState } from "react";
 import type { LessonResult } from "@/contracts";
-import { BoltIcon, Button, Card, Lumi, VisuallyHidden } from "@/components/ui";
+import { BoltIcon, Button, Lumi, StatTile, VisuallyHidden } from "@/components/ui";
 import { useProgressInputs } from "@/features/gamification";
 import { CelebrationBanner } from "./CelebrationBanner";
 import { formatAccuracy, formatDuration } from "./format";
@@ -30,23 +30,36 @@ export interface ResultsScreenProps {
 export const RESULTS_HEADING = "Lesson complete!";
 export const SAVE_ERROR_MESSAGE = "We couldn't save this lesson on your device.";
 
-function StatCard({ label, children }: { label: string; children: ReactNode }) {
+/** Decorative confetti around Lumi's circle (design v2 screen 6): static, no motion. */
+const CONFETTI = [
+  { className: "top-2.5 left-1.5 size-3.5 rotate-[20deg] rounded-[4px] bg-accent" },
+  { className: "top-7 right-1 size-3 rounded-full bg-xp-gold" },
+  { className: "bottom-[1.125rem] left-0 size-2.5 rounded-full bg-night-500" },
+  { className: "right-[1.375rem] bottom-1.5 size-3.5 -rotate-[15deg] rounded-[4px] bg-pink-400" },
+] as const;
+
+function CelebrationArt() {
   return (
-    <Card
-      as="li"
-      padding="sm"
-      tone="raised"
-      className="flex min-w-0 flex-row items-center justify-between gap-2 min-[340px]:flex-col min-[340px]:justify-center"
+    <div
+      aria-hidden="true"
+      data-testid="results-art"
+      className="relative flex size-28 shrink-0 items-center justify-center [@media(min-height:740px)]:size-40"
     >
-      <span className="text-sm font-semibold text-fg-muted">{label}</span>
-      <span className="text-2xl font-bold tabular-nums">{children}</span>
-    </Card>
+      <span className="absolute inset-0 rounded-full bg-primary-tint" />
+      {CONFETTI.map((dot) => (
+        <span key={dot.className} className={`absolute ${dot.className}`} />
+      ))}
+      <Lumi pose="celebrating" size="md" className="relative" />
+    </div>
   );
 }
 
 /**
  * LES-008 results screen. Presentational: the route (PLT-007) builds the result and
  * passes the repository's save function. Fits 375 × 667 without scrolling.
+ * Design v2 (LES-021, screen 6): Lumi in a light indigo circle with confetti, three
+ * coloured StatTiles (Total XP gold, Time indigo, Accuracy green), the coral streak
+ * banner and the daily-goal row, then Continue and the optional "Practice again".
  */
 export function ResultsScreen({
   result,
@@ -93,50 +106,70 @@ export function ResultsScreen({
   return (
     <section
       aria-labelledby={headingId}
-      className="mx-auto flex min-h-dvh w-full max-w-md flex-col bg-canvas px-4 pt-6 pb-4 text-fg"
+      className="mx-auto flex min-h-dvh w-full max-w-md flex-col bg-surface px-6 pt-[max(1.5rem,env(safe-area-inset-top))] pb-[max(1rem,env(safe-area-inset-bottom))] text-fg"
     >
-      <div className="flex flex-1 flex-col items-center gap-3 text-center">
-        <div className="flex size-24 shrink-0 items-center justify-center">
-          <Lumi pose="celebrating" size="md" />
+      <div className="flex flex-1 flex-col items-center gap-2.5 text-center [@media(min-height:740px)]:gap-4">
+        <CelebrationArt />
+
+        <div className="flex flex-col items-center gap-1">
+          <h1
+            ref={headingRef}
+            id={headingId}
+            tabIndex={-1}
+            className="font-display text-[2rem] leading-tight font-extrabold tracking-[-0.02em] focus:outline-none"
+          >
+            {RESULTS_HEADING}
+          </h1>
+
+          {perfectBonus > 0 && (
+            <p className="font-bold text-xp">Perfect lesson! +{perfectBonus} bonus XP</p>
+          )}
         </div>
-
-        <h1
-          ref={headingRef}
-          id={headingId}
-          tabIndex={-1}
-          className="text-2xl font-bold focus:outline-none"
-        >
-          {RESULTS_HEADING}
-        </h1>
-
-        {perfectBonus > 0 && (
-          <p className="font-semibold text-xp">Perfect lesson! +{perfectBonus} bonus XP</p>
-        )}
 
         {celebration && <CelebrationBanner text={celebration} />}
 
         <ul
           aria-label="Lesson stats"
-          className="grid w-full grid-cols-1 gap-2 min-[340px]:grid-cols-3"
+          className="grid w-full grid-cols-1 gap-2.5 min-[340px]:grid-cols-3"
         >
-          <StatCard label="XP earned">
-            <span aria-hidden="true" className="inline-flex items-center gap-1 text-xp">
-              <BoltIcon size={20} />
-              {xpShown}
-            </span>
-            <VisuallyHidden>{result.xpEarned}</VisuallyHidden>
-          </StatCard>
-          <StatCard label="Accuracy">{formatAccuracy(result.accuracy)}</StatCard>
-          <StatCard label="Time">{formatDuration(result.durationMs)}</StatCard>
+          <StatTile
+            as="li"
+            tone="gold"
+            label="Total XP"
+            className="min-w-0"
+            value={
+              <>
+                <span aria-hidden="true" className="inline-flex items-center gap-1">
+                  <BoltIcon size={18} className="text-xp-gold" />
+                  {xpShown}
+                </span>
+                <VisuallyHidden>{result.xpEarned}</VisuallyHidden>
+              </>
+            }
+          />
+          <StatTile
+            as="li"
+            tone="indigo"
+            label="Time"
+            className="min-w-0"
+            value={formatDuration(result.durationMs)}
+          />
+          <StatTile
+            as="li"
+            tone="green"
+            label="Accuracy"
+            className="min-w-0"
+            value={formatAccuracy(result.accuracy)}
+          />
           {impact && <ResultsGamificationRows impact={impact} />}
         </ul>
 
         {status === "error" && (
           <div
             role="alert"
-            className="flex w-full flex-col items-center gap-2 rounded-card bg-danger-soft p-3 text-danger-fg"
+            className="flex w-full flex-col items-center gap-2 rounded-card border-2 border-danger-border bg-danger-tint p-3 text-danger-fg"
           >
-            <p className="font-semibold">{SAVE_ERROR_MESSAGE}</p>
+            <p className="font-bold">{SAVE_ERROR_MESSAGE}</p>
             <Button variant="secondary" size="md" onClick={retry}>
               Try again
             </Button>
@@ -148,15 +181,15 @@ export function ResultsScreen({
         </VisuallyHidden>
       </div>
 
-      <div className="flex flex-col gap-2 pt-4">
+      <div className="flex flex-col gap-1 pt-3">
+        <Button variant="primary" size="lg" fullWidth onClick={onContinue}>
+          Continue
+        </Button>
         {onRetryLesson && (
           <Button variant="ghost" size="md" fullWidth onClick={onRetryLesson}>
             Practice again
           </Button>
         )}
-        <Button variant="primary" size="lg" fullWidth onClick={onContinue}>
-          Continue
-        </Button>
       </div>
     </section>
   );

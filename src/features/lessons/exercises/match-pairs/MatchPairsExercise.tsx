@@ -168,16 +168,20 @@ export function MatchPairsExercise({
                   if (event.key === " ") event.preventDefault();
                 }}
                 className={cn(
-                  "rounded-control flex min-h-11 w-full min-w-0 items-center justify-center gap-1.5 border-2 px-2 py-2",
+                  "flex min-h-14 w-full min-w-0 items-center justify-center gap-1.5 rounded-chip border-2 px-2 py-2",
                   "text-center text-base leading-tight font-semibold break-words hyphens-auto",
-                  "focus-visible:focus-ring motion-safe:transition-colors motion-safe:duration-150",
-                  "bg-surface text-fg border-border-strong hover:bg-surface-raised",
+                  "focus-visible:focus-ring motion-safe:transition-[border-color,background-color,box-shadow,transform] motion-safe:duration-100",
+                  !pressed &&
+                    !mismatched &&
+                    !matched &&
+                    "border-border bg-surface text-fg shadow-3d-card hover:border-primary-ring active:translate-y-0.5 active:shadow-3d-card-pressed",
                   pressed &&
-                    "border-primary bg-glow-100 text-night-900 hover:bg-glow-100 shadow-md ring-primary ring-2",
+                    !mismatched &&
+                    "border-primary bg-primary-tint text-primary-fg shadow-ring-selected",
                   mismatched &&
-                    "border-danger bg-danger-soft text-danger-fg hover:bg-danger-soft motion-safe:animate-shake",
+                    "border-danger bg-danger-soft text-danger-fg shadow-3d-danger motion-safe:animate-shake",
                   matched &&
-                    "border-success bg-success-soft text-success-fg cursor-default border-dashed shadow-none",
+                    "cursor-default border-dashed border-success bg-success-soft text-success-fg shadow-none",
                 )}
               >
                 <span className="min-w-0 break-words">{text}</span>
@@ -196,7 +200,7 @@ export function MatchPairsExercise({
       <h2
         id={headingId}
         tabIndex={-1}
-        className="text-fg text-xl font-bold focus:outline-none sm:text-2xl"
+        className="font-display text-[1.625rem] leading-tight font-bold text-fg focus:outline-none"
       >
         Match the pairs
       </h2>

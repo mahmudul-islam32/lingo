@@ -43,6 +43,9 @@ function sentence(text: string): string {
 /**
  * Correct / incorrect feedback (LES-003). Replaces the action bar after "Check"; focuses
  * "Continue" on mount and announces its content through a polite live region.
+ * Design v2 (LES-021, screen 5): a red- or green-tint bottom sheet with an icon in a white
+ * circle, a display-font heading, an uppercase "Correct answer" eyebrow and a 3D
+ * red / green "Continue". Colour is never the only signal (icon + heading text).
  */
 export function FeedbackPanel({
   result,
@@ -87,48 +90,60 @@ export function FeedbackPanel({
       data-testid="feedback-panel"
       data-outcome={correct ? "correct" : "incorrect"}
       className={cn(
-        "max-h-[50dvh] overflow-y-auto border-t-2 px-4 pt-4 pb-[calc(1rem+env(safe-area-inset-bottom))]",
+        "max-h-[50dvh] overflow-y-auto border-t-2 px-4 pt-5 pb-[calc(1.25rem+env(safe-area-inset-bottom))] sm:px-6",
         "motion-safe:animate-slide-up",
         correct
-          ? "border-success bg-success-soft text-success-fg"
-          : "border-danger bg-danger-soft text-danger-fg",
+          ? "border-success-border bg-success-soft text-success-fg"
+          : "border-danger-border bg-danger-soft text-danger-fg",
       )}
     >
-      <div className="mx-auto flex w-full max-w-2xl flex-col gap-3">
-        <div className="flex items-center gap-2">
+      <div className="mx-auto flex w-full max-w-2xl flex-col gap-3.5">
+        <div className="flex items-center gap-3">
           <span
             aria-hidden="true"
+            data-testid="feedback-icon"
             className={cn(
-              "inline-flex size-8 shrink-0 items-center justify-center rounded-full",
-              correct ? "bg-success text-on-success" : "bg-danger text-on-danger",
+              "inline-flex size-10 shrink-0 items-center justify-center rounded-full bg-surface",
+              correct ? "text-success" : "text-danger",
             )}
           >
-            {correct ? <CheckIcon size={18} /> : <CrossIcon size={18} />}
+            {correct ? (
+              <CheckIcon size={22} strokeWidth={3} />
+            ) : (
+              <CrossIcon size={22} strokeWidth={3} />
+            )}
           </span>
-          <h2 id={headingId} className="text-xl font-bold">
+          <h2 id={headingId} className="font-display text-[1.375rem] leading-tight font-extrabold">
             {heading}
           </h2>
         </div>
 
         {completed && (
-          <p lang={answerLang} className="font-bold break-words hyphens-auto">
+          <p
+            lang={answerLang}
+            className="text-[1.0625rem] font-bold break-words text-fg hyphens-auto"
+          >
             {completed}
           </p>
         )}
 
         {correctAnswer && (
-          <p className="break-words">
-            <span>Correct answer: </span>
-            <strong lang={answerLang} className="font-bold hyphens-auto">
+          <p className="flex flex-col gap-1 break-words">
+            <span className={cn("eyebrow", correct ? "text-success" : "text-danger")}>
+              Correct answer:
+            </span>{" "}
+            <strong lang={answerLang} className="text-[1.0625rem] font-bold text-fg hyphens-auto">
               {correctAnswer}
             </strong>
           </p>
         )}
 
         {heard && (
-          <p className="break-words">
-            <span>You heard: </span>
-            <span lang={learningLanguage} className="font-semibold">
+          <p className="flex flex-col gap-1 break-words">
+            <span className={cn("eyebrow", correct ? "text-success" : "text-danger")}>
+              You heard:
+            </span>{" "}
+            <span lang={learningLanguage} className="text-[1.0625rem] font-semibold text-fg">
               {heard}
             </span>
           </p>
@@ -150,6 +165,7 @@ export function FeedbackPanel({
           size="lg"
           fullWidth
           onClick={onContinue}
+          className="mt-1"
         >
           Continue
         </Button>
