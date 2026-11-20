@@ -1,6 +1,8 @@
 # Polyglow Roadmap
 
-**Owner:** pm · **Last updated:** 2026-11-19 (v0.5.3 "Redesign" added: CTO-016, PLT-026,
+**Owner:** pm · **Last updated:** 2026-11-20 (release acceptance PM-ACC4: v0.5.3 "Redesign"
+ready for release; FIX-006 … FIX-011 ticket files; v0.5.2 marked released; PD-067 … PD-070).
+Before that 2026-11-19 (v0.5.3 "Redesign" added: CTO-016, PLT-026,
 GAM-012, LES-021, PD-066). Before that 2026-11-18 (v0.5.2 "Start level and earn hearts" added:
 CTO-015, GAM-011, LES-020, PLT-025, PD-064, PD-065). Before that 2026-11-16 (v1.1.0 German B1 planned: CON-DE-B1-PLAN,
 16 unit tickets, QA ticket, PD-056 … PD-063). Before that 2026-11-15 (release acceptance
@@ -345,8 +347,9 @@ v1.1.0, where B1 needs cloze anyway.
 
 ### v0.5.2 — Start level and earn hearts (planned 2026-11-18, PD-064, PD-065)
 
-**Milestone status: open.** Owner request of 2026-11-18; design in ADR-013 (cto, in
-progress). The three feature tickets start in parallel from the ADR once CTO-015 is merged.
+**Milestone status: released** as 0.5.2 on 2026-11-19 (`CHANGELOG.md`, with v0.5.1 and
+FIX-005 … FIX-007; status corrected in PM-ACC4). Owner request of 2026-11-18; design in
+ADR-013. The three feature tickets start in parallel from the ADR once CTO-015 is merged.
 
 **Goal:** a learner can start at A2 instead of A1 (onboarding, path "Start here", Profile),
 and correct answers earn hearts back, so practising a finished lesson (free, also at 0
@@ -365,7 +368,12 @@ tickets are accepted.
 
 ### v0.5.3 — Redesign (planned 2026-11-19, PD-066)
 
-**Milestone status: open.** Owner design of 2026-11-19 (brief and 8 reference screens, copied
+**Milestone status: ready for release** (2026-11-20, PM-ACC4,
+`tickets/PM-ACC4-v0.5.3-acceptance.md`). All four tickets are **accepted** on `main`
+`053a37b`, as are the review fixes FIX-008 (Practice test clock), FIX-009 (path header vs. top
+bar) and FIX-010 (results streak once, gold goal bar, audio timeout). Accepted deviations:
+PD-067 … PD-069. CTO-016 AC 1 (design README) moves to **FIX-011** (cto, P2, not blocking,
+PD-070). Release PR #94. Owner design of 2026-11-19 (brief and 8 reference screens, copied
 to `docs/design/v2/` by CTO-016). Polyglow and Lumi stay; the design's "parla" name and logo
 are not used.
 
@@ -380,6 +388,10 @@ shows an honest "arrives with accounts" state, Profile shows only real stats.
 | PLT-026 | Onboarding (screen 1), app shell + 4-tab nav, Profile (screen 8) with "XP this week", settings rows, offline banner / 404 / install card | dev-platform | P1 | CTO-016 |
 | GAM-012 | Learn path (screen 2), level headers + "Start here", Practice tab, Leagues "arrives with accounts", hearts dialog | dev-gamification | P1 | CTO-016, PLT-026 |
 | LES-021 | Lesson player (screens 3–6): header, MC 2 × 2, word bank, listen, match, cloze, feedback sheets, tip card, out-of-hearts, results | dev-lessons | P1 | CTO-016 |
+| FIX-008 | Practice tab test uses a fixed clock (accepted) | dev-gamification | P1 | GAM-012 |
+| FIX-009 | Path auto-scroll keeps headers clear of the top bar (accepted) | dev-gamification | P1 | GAM-012 |
+| FIX-010 | Results streak line once, gold goal bar, audio load timeout (accepted) | dev-lessons | P1 | LES-021 |
+| FIX-011 | `docs/design/v2/README.md` screen → ticket map (open, **not blocking**, PD-070) | cto | P2 | CTO-016 |
 
 CTO-016 goes first; PLT-026 and LES-021 then run in parallel, GAM-012 starts once PLT-026's
 routes and nav are merged. Runs after v0.5.2 and in parallel with v0.5.1 and v0.6.0; it
