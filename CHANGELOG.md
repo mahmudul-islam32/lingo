@@ -16,6 +16,46 @@ the release where it becomes user-facing.
 
 ## [Unreleased]
 
+## [0.5.3] - 2026-11-20
+
+Redesign: every screen follows the owner's new visual design (PD-066). Polyglow and Lumi
+stay; the look is new: a light theme, Bricolage Grotesque and DM Sans, an indigo and coral
+palette with gold XP, and "3D" cards and buttons. The bottom navigation has four tabs:
+Learn, Practice, Leagues and Profile. Behaviour is unchanged.
+
+### Added
+
+- Practice tab: a list of the lessons you have finished, to replay for free; correct
+  answers earn hearts [GAM-012] (#88) [PLT-026] (#90)
+- Leagues tab with an honest "Leagues arrive with accounts" state and your own XP this
+  week, without invented names or ranks [GAM-012] (#88) [PLT-026] (#90)
+- Profile: real stats (day streak, total XP, lessons done, start level), an "XP this
+  week" chart with the daily-goal line, and a Daily goal setting [PLT-026] (#90)
+- Design references in `docs/design/v2` and ADR-014 [CTO-016] (#87); product decision
+  PD-066 and the v0.5.3 tickets [PM-009] (#86)
+
+### Changed
+
+- Design system v2: light theme only (dark mode dropped for now), new colour, radius and
+  3D shadow tokens, self-hosted Bricolage Grotesque and DM Sans, restyled shared
+  components and new Chip, StatTile, OptionCard and NavTab [CTO-016] (#87)
+- Learn path: course chip, streak, XP and hearts top bar, indigo unit banners and big
+  round path nodes [GAM-012] (#88)
+- Onboarding, app shell, offline and error screens, app icons and manifest colours
+  [PLT-026] (#90)
+- Lesson player, exercises, feedback sheets, tip card, out-of-hearts screen and results
+  [LES-021] (#91)
+
+### Fixed
+
+- Practice screen test no longer depends on the day it runs [FIX-008] (#89)
+- The level header is no longer left under the top bar after Learn scrolls to the next
+  lesson [FIX-009] (#92)
+- Results show "Streak started!" once, the daily-goal bar is gold, and a stalled audio
+  clip falls back to speech after 3 s [FIX-010] (#93)
+- e2e: lesson helpers wait for a listen exercise's audio to settle before answering
+  (#91)
+
 ## [0.5.2] - 2026-11-19
 
 Choose where to start and earn hearts back: a guest can start the German course at A1 or
