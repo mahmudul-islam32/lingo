@@ -1,6 +1,6 @@
 import { readFileSync } from "node:fs";
 import path from "node:path";
-import { expect, type Locator, type Page } from "@playwright/test";
+import { expect, test, type Locator, type Page } from "@playwright/test";
 
 /**
  * PLT-024: e2e specs read lesson ids, titles and answers from the bundled course files
@@ -182,6 +182,46 @@ export async function passTipCard(page: Page, { keyboard = false }: PlayOptions 
   await expect(card).toHaveCount(0);
 }
 
+/** Longest wait for a listen exercise's audio lookup (normally about 1 s). */
+const LISTEN_SETTLE_MS = 20_000;
+
+/**
+ * A listen exercise looks up audio after it mounts (the clip, then a speech voice). Until
+ * that settles the screen can still switch to "Audio isn't available" + "Skip", which clears
+ * any placed tiles, so answering early races it. Waits until it has settled: "Skip" is
+ * shown, or "Play audio" is enabled and not busy. Usually ~1 s; the test's timeout is
+ * extended by the wait budget so a slow lookup doesn't eat the test's own time.
+ * Returns true when the exercise must be skipped.
+ */
+async function settleListenAudio(page: Page): Promise<boolean> {
+  const skip = page.getByRole("button", { name: "Skip", exact: true });
+  const play = page.getByRole("button", { name: "Play audio", exact: true });
+  // `evaluateAll` never waits for the element (`isEnabled` / `getAttribute` would, and
+  // "Play audio" disappears when the screen switches to "Skip").
+  const state = async () => {
+    if (await skip.isVisible()) return "skip";
+    const ready = await play.evaluateAll((els) =>
+      els.some(
+        (el) =>
+          !(el as HTMLButtonElement).disabled &&
+          el.getAttribute("aria-disabled") !== "true" &&
+          el.getAttribute("aria-busy") !== "true",
+      ),
+    );
+    return ready ? "play" : "pending";
+  };
+  if ((await state()) === "pending") {
+    test.info().setTimeout(test.info().timeout + LISTEN_SETTLE_MS);
+    await expect
+      .poll(state, {
+        message: "listen audio never settled (no Skip, Play stayed busy)",
+        timeout: LISTEN_SETTLE_MS,
+      })
+      .not.toBe("pending");
+  }
+  return skip.isVisible();
+}
+
 /** Answers one exercise correctly and continues past the feedback. */
 export async function answerCorrectly(
   page: Page,
@@ -190,11 +230,9 @@ export async function answerCorrectly(
 ): Promise<void> {
   await passTipCard(page, { keyboard });
   // No audio in headless Chromium (placeholder clips, no voices): a listen exercise offers
-  // "Skip" instead, which is never a mistake. Otherwise it is answered with tiles.
-  if (
-    exercise.type === "listen" &&
-    (await page.getByRole("button", { name: "Skip" }).isVisible())
-  ) {
+  // "Skip" instead, which is never a mistake. Otherwise it is answered with tiles. Wait for
+  // the audio lookup to settle first, so "Skip" can't replace the tiles mid-answer.
+  if (exercise.type === "listen" && (await settleListenAudio(page))) {
     await activate(page, "Skip", keyboard);
     return;
   }
