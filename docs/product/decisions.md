@@ -1241,3 +1241,74 @@ together._
     milestone with a shared design system first (CTO-016) is cleaner.
 - **Effect on balance:** none (no rule changes).
 - **Reversibility:** Medium (styling and tokens only; old styles remain in git history).
+
+## PD-067: Redesign v2 keeps existing names, copy and path titles where the design differs
+
+- **Date:** 2026-11-20 (PM-ACC4)
+- **Reason:** in v0.5.3 acceptance, some places differ on purpose from the owner's design
+  and from the wording of LES-021 / GAM-012 / PLT-026.
+- **Decision:** accepted as shipped:
+  1. The lesson close button keeps the accessible name **"Quit lesson"** (LES-021 AC 1 said
+     "Close lesson").
+  2. The feedback sheet button says **"Continue"**, not the design's "Got it" (LES-021 AC 8).
+  3. The slow-audio button's accessible name is **"Slow 0.7× speed"**, so that it contains
+     its visible text (WCAG 2.5.3), not "Play slowly" (LES-021 AC 4).
+  4. The word-bank speaker button shows **only when the prompt is in the learning
+     language**. An English prompt read by a German voice would be wrong.
+  5. **Lesson titles stay under the path nodes** ("Unit 1 · Lesson 1", title, state). The
+     design shows bare nodes.
+  6. **No Sounds / Speaking settings rows:** no feature reads those settings, so the rows
+     would do nothing.
+  7. No achievements and no "Review my mistakes" (already PD-066 §7, LES-021 out of scope).
+- **Rationale:** PD-066 §9 says no copy or behaviour change, and that rule wins over the
+  ticket wording (items 1-3). It also keeps the existing tests valid as the safety net.
+  Titles under nodes help a learner see what is next, and screen readers already read them.
+  Settings that do nothing break trust (PD-018 spirit).
+- **Alternatives considered:** rename to match the design (copy churn, many test edits, no
+  learner benefit); hide the titles (less clear); ship placeholder Sounds / Speaking rows
+  (dead controls). Rejected.
+- **Reversibility:** High (copy and layout only).
+
+## PD-068: The Leagues tab may show the learner's own weekly XP
+
+- **Date:** 2026-11-20 (PM-ACC4)
+- **Reason:** GAM-012 AC 10 said "no names, ranks, tiers or numbers". The shipped screen
+  also shows a "Your XP this week" tile from saved lesson results.
+- **Decision:** accepted, and GAM-012 AC 10 is amended to "no other people, names, ranks,
+  tiers or invented numbers". The learner's own weekly XP (Mon-Sun, from saved results, the
+  same week as Profile's chart) is allowed. The decorative shields stay without tier names.
+- **Rationale:** the number is real and about the learner only, so the screen stays honest
+  (PD-066 §6). It also shows the number that will count in leagues once accounts launch
+  (v0.6.0), which supports the weekly habit.
+- **Alternatives considered:** remove the tile (an empty screen with no useful info).
+  Rejected.
+- **Reversibility:** High.
+
+## PD-069: Profile gets a "Daily goal" settings row
+
+- **Date:** 2026-11-20 (PM-ACC4)
+- **Reason:** PLT-026 AC 14 listed "daily goal" among the settings rows, but before v0.5.3
+  the daily goal could only be chosen at onboarding. Adding "Change" is a small new
+  capability inside a "no behaviour change" milestone.
+- **Decision:** accepted. The row shows the goal ("Regular · 20 XP"). "Change" opens a
+  dialog with the same options as the onboarding goal step and saves through the existing
+  settings update. The goal ring and the weekly chart's goal line update at once. No
+  contract change and no new rule.
+- **Rationale:** learners need a way to change a goal they picked on day one. A goal that
+  is too high is a churn risk for D7 retention (PRD metrics). The row reuses existing
+  pieces, and tests cover it.
+- **Alternatives considered:** remove the row until a later milestone (it works and is
+  tested now, so removing it would be wasted work). Rejected.
+- **Reversibility:** High.
+
+## PD-070: v0.5.3 is released with the design README as a follow-up
+
+- **Date:** 2026-11-20 (PM-ACC4)
+- **Reason:** CTO-016 AC 1 FAILs: `docs/design/v2/README.md` (screen → ticket map) is
+  missing. Every other criterion of the four v0.5.3 tickets and FIX-008 … FIX-010 passes.
+- **Decision:** CTO-016 is accepted with AC 1 moved to **FIX-011** (cto, P2). v0.5.3 is
+  **ready for release** (PR #94).
+- **Rationale:** the README is a reference document for the team. It has no effect on users,
+  code or tests, and the mapping is already in each ticket's "References" line and in
+  `BRIEF.md`. Holding the release for it would delay the redesign with nothing gained.
+- **Reversibility:** n/a (process decision).
