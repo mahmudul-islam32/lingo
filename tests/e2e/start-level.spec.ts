@@ -1,4 +1,4 @@
-import { expect, test, type Page } from "@playwright/test";
+import { expect, test, type Locator, type Page } from "@playwright/test";
 import { expectNoSeriousA11yViolations } from "./axe";
 import {
   GERMAN,
@@ -60,6 +60,24 @@ async function seedStartLevel(page: Page, startLevel: string): Promise<void> {
     startLevel,
   );
   await page.reload();
+}
+
+/**
+ * FIX-009: after the load-time auto-scroll, the current level's header card is not left
+ * half under the sticky top bar, and the up-next node is fully visible between the bar
+ * and the bottom nav.
+ */
+async function expectHeaderClearOfTopBar(page: Page, level: RegExp, upNext: Locator) {
+  await expect(page.locator('[data-auto-scroll="settled"]')).toHaveCount(1);
+  const bar = (await page.getByRole("region", { name: "Your progress" }).boundingBox())!;
+  const header = (await page.getByRole("button", { name: level }).boundingBox())!;
+  const barBottom = bar.y + bar.height;
+  const hidden = header.y + header.height <= barBottom + 1;
+  expect(hidden || header.y >= barBottom - 1, "header straddles the top bar").toBe(true);
+  const node = (await upNext.boundingBox())!;
+  const navTop = (await page.getByRole("navigation", { name: "Main" }).boundingBox())!.y;
+  expect(node.y).toBeGreaterThanOrEqual(barBottom - 1);
+  expect(node.y + node.height).toBeLessThanOrEqual(navTop + 1);
 }
 
 async function expectNoHorizontalScroll(page: Page) {
@@ -289,9 +307,9 @@ test.describe("start level (PLT-025) at 375 px", () => {
     await passTipCard(page);
     await expect(page).toHaveURL(lessonUrl(A2_LESSON_1.id));
     await page.goto("/");
-    await expect(
-      page.getByRole("link", { name: nodeNamePattern(A2_LESSON_1, "up next") }),
-    ).toBeVisible();
+    const upNext = page.getByRole("link", { name: nodeNamePattern(A2_LESSON_1, "up next") });
+    await expect(upNext).toBeVisible();
+    await expectHeaderClearOfTopBar(page, /^A2 · Elementary/, upNext);
     await page.goto(`/lesson/${A1_LAST.id}`);
     await passTipCard(page);
     await expect(page).toHaveURL(lessonUrl(A1_LAST.id));

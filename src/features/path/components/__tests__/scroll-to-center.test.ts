@@ -1,9 +1,12 @@
 import { afterEach, describe, expect, it, vi } from "vitest";
 import {
+  HEADER_CLEARANCE,
   IDLE_SETTLE_FRAMES,
   MAX_SETTLE_FRAMES,
+  centredScrollTop,
   findScrollContainer,
   scrollToCenter,
+  stickyInsets,
   whenScrollSettles,
 } from "../scroll-to-center";
 
@@ -124,6 +127,157 @@ describe("scrollToCenter (FIX-002)", () => {
     } finally {
       window.scrollTo = original;
     }
+  });
+});
+
+describe("centredScrollTop (FIX-009)", () => {
+  // Learn at 390 × 844: sticky top bar 0-64, fixed bottom nav from 770.
+  const view = { top: 64, bottom: 770 };
+
+  it("centres the target in the band between the bars, not the whole viewport", () => {
+    // Centre of the band = 417; target centre 900 at scroll 100 -> 100 + 900 - 417.
+    expect(centredScrollTop({ scroll: 100, view, target: { top: 850, bottom: 950 } })).toBe(583);
+  });
+
+  it("never goes below 0", () => {
+    expect(centredScrollTop({ scroll: 0, view, target: { top: 100, bottom: 200 } })).toBe(0);
+  });
+
+  it("ignores headers that stay clear of the top bar or sit below the target", () => {
+    const target = { top: 850, bottom: 950 };
+    // After scrolling 483 px: 600 -> 117 (clear), the one below the target is ignored.
+    const headers = [
+      { top: 600, bottom: 670 },
+      { top: 1000, bottom: 1070 },
+    ];
+    expect(centredScrollTop({ scroll: 100, view, target, headers })).toBe(583);
+  });
+
+  it("the first node of a level: its header stays fully below the bar (390px review)", () => {
+    // Measured on Learn for a new learner, before the fix: centring put the A1 header
+    // card at 17-90, under the 64 px bar.
+    const top = centredScrollTop({
+      scroll: 0,
+      view,
+      target: { top: 569, bottom: 777 },
+      headers: [
+        { top: 268, bottom: 341 },
+        { top: 389, bottom: 529 },
+      ],
+    });
+    expect(top).toBe(268 - 64 - HEADER_CLEARANCE);
+    // Header at 64 + clearance; the node still fully above the bottom nav.
+    expect(777 - top).toBeLessThanOrEqual(view.bottom);
+  });
+
+  it("settles every header that the first adjustment pushes under the bar", () => {
+    const top = centredScrollTop({
+      scroll: 0,
+      view,
+      target: { top: 850, bottom: 950 },
+      headers: [
+        { top: 400, bottom: 470 },
+        { top: 480, bottom: 600 },
+      ],
+    });
+    // Centred: A at -83..-13 (out of view), B at -3..117. B shown (scroll 404) puts A at
+    // -4..66, so A is shown too.
+    expect(top).toBe(400 - 64 - HEADER_CLEARANCE);
+  });
+
+  it("covers a header fully when showing it would push the target off screen", () => {
+    // Centred (scroll 1910 - 417 = 1493) the header straddles the bar (-43..107). Shown
+    // (scroll 1374), the tall target would end at 836, under the nav (770). So the scroll
+    // goes on until the header is fully under the bar.
+    const header = { top: 1450, bottom: 1600 };
+    const top = centredScrollTop({
+      scroll: 0,
+      view,
+      target: { top: 1610, bottom: 2210 },
+      headers: [header],
+    });
+    expect(top).toBe(1600 - 64);
+    expect(header.bottom - top).toBeLessThanOrEqual(view.top);
+  });
+});
+
+describe("stickyInsets (FIX-009)", () => {
+  /** body > [bar?] + page > path > target, plus a fixed bottom nav. */
+  function page({ bar = "sticky", top = "0px", height = 64 } = {}) {
+    const header = document.createElement("section");
+    header.style.position = bar;
+    header.style.top = top;
+    header.getBoundingClientRect = () => rect(0, height);
+    const path = document.createElement("div");
+    const target = document.createElement("a");
+    path.append(target);
+    const main = document.createElement("main");
+    main.append(header, path);
+    const nav = document.createElement("nav");
+    nav.style.position = "fixed";
+    nav.style.bottom = "0px";
+    nav.getBoundingClientRect = () => rect(770, 74);
+    document.body.append(main, nav);
+    vi.spyOn(window, "innerHeight", "get").mockReturnValue(844);
+    return { header, target, nav };
+  }
+
+  it("finds a sticky top bar before the path and the fixed bottom nav", () => {
+    const { target } = page();
+    expect(stickyInsets(target, null)).toEqual({ top: 64, bottom: 74 });
+  });
+
+  it("adds the sticky offset, and ignores a bar that isn't sticky", () => {
+    expect(stickyInsets(page({ top: "8px" }).target, null).top).toBe(72);
+    document.body.innerHTML = "";
+    expect(stickyInsets(page({ bar: "static" }).target, null).top).toBe(0);
+  });
+
+  it("ignores click-through overlays and empty boxes", () => {
+    const { target, nav, header } = page();
+    nav.style.pointerEvents = "none";
+    header.getBoundingClientRect = () => rect(0, 0);
+    expect(stickyInsets(target, null)).toEqual({ top: 0, bottom: 0 });
+  });
+
+  it("inside a scroll container, ignores fixed bars outside it", () => {
+    const { target } = page();
+    const container = target.parentElement!.parentElement!;
+    expect(stickyInsets(target, container)).toEqual({ top: 64, bottom: 0 });
+  });
+});
+
+describe("scrollToCenter below a sticky top bar (FIX-009)", () => {
+  it("centres between the bars and keeps the level header out from under the top bar", () => {
+    const main = document.createElement("main");
+    const bar = document.createElement("section");
+    bar.style.position = "sticky";
+    bar.style.top = "0px";
+    bar.getBoundingClientRect = () => rect(0, 64);
+    const path = document.createElement("div");
+    const levelHeader = document.createElement("div");
+    const target = document.createElement("a");
+    path.append(levelHeader, target);
+    main.append(bar, path);
+    document.body.append(main);
+    vi.spyOn(window, "innerHeight", "get").mockReturnValue(844);
+    vi.spyOn(window, "scrollY", "get").mockReturnValue(0);
+    const scrollTo = vi.spyOn(window, "scrollTo").mockImplementation(() => {});
+    target.getBoundingClientRect = () => rect(1000, 100);
+    levelHeader.getBoundingClientRect = () => rect(700, 70);
+
+    // Centre of 64..844 = 454: 1050 - 454 = 596 would put the header at 104 (clear).
+    expect(scrollToCenter(target, "auto", { headers: [levelHeader] })).toEqual({
+      container: null,
+      top: 596,
+    });
+    // Nearer the target, centring would leave it at 64 - 4 (half under the bar).
+    levelHeader.getBoundingClientRect = () => rect(600, 70);
+    scrollToCenter(target, "smooth", { headers: [levelHeader] });
+    expect(scrollTo).toHaveBeenLastCalledWith({
+      top: 600 - 64 - HEADER_CLEARANCE,
+      behavior: "smooth",
+    });
   });
 });
 
