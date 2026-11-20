@@ -1,4 +1,4 @@
-import { expect, test, type Page } from "@playwright/test";
+import { expect, test, type Locator, type Page } from "@playwright/test";
 import { expectNoSeriousA11yViolations } from "./axe";
 import {
   answerWrong,
@@ -48,6 +48,24 @@ async function expectNoHorizontalScroll(page: Page) {
 /** The skill path sets `data-auto-scroll="settled"` once its load-time scroll is over. */
 async function expectPathScrollSettled(page: Page) {
   await expect(page.locator('[data-auto-scroll="settled"]')).toHaveCount(1);
+}
+
+/**
+ * FIX-009: after the load-time auto-scroll, the current level's header card is not left
+ * half under the sticky top bar, and the up-next node is fully visible between the bar
+ * and the bottom nav.
+ */
+async function expectHeaderClearOfTopBar(page: Page, level: RegExp, upNext: Locator) {
+  await expect(page.locator('[data-auto-scroll="settled"]')).toHaveCount(1);
+  const bar = (await page.getByRole("region", { name: "Your progress" }).boundingBox())!;
+  const header = (await page.getByRole("button", { name: level }).boundingBox())!;
+  const barBottom = bar.y + bar.height;
+  const hidden = header.y + header.height <= barBottom + 1;
+  expect(hidden || header.y >= barBottom - 1, "header straddles the top bar").toBe(true);
+  const node = (await upNext.boundingBox())!;
+  const navTop = (await page.getByRole("navigation", { name: "Main" }).boundingBox())!.y;
+  expect(node.y).toBeGreaterThanOrEqual(barBottom - 1);
+  expect(node.y + node.height).toBeLessThanOrEqual(navTop + 1);
 }
 
 /** Scroll position and the top bar / first unit heading unchanged across two frames. */
@@ -197,6 +215,7 @@ test.describe("Learn with the gamification loop (PLT-009)", () => {
     // FIX-006: wait for that smooth scroll to finish (the path's deterministic signal)
     // so it can't move the page again while the layout is measured.
     await expectPathScrollSettled(page);
+    await expectHeaderClearOfTopBar(page, /^A1 · Beginner/, lesson1(page, "up next"));
     await expect
       .poll(() =>
         page.evaluate(() => {

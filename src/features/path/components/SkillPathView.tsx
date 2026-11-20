@@ -132,7 +132,7 @@ const UnitBlock = memo(function UnitBlock({
   return (
     <section aria-labelledby={headingId} data-unit={unit.id} className="flex flex-col gap-6">
       {/* GAM-012 AC2 (screen 2): indigo banner, eyebrow "LEVEL A1 · UNIT 2", white title. */}
-      <Card tone="accent" padding="none" className="flow-root px-5 py-4.5">
+      <Card tone="accent" padding="none" className="flow-root px-5 py-4.5" data-path-header="">
         {headingLevel === 2 ? (
           <>
             <p aria-hidden="true" className="eyebrow text-primary-ring">
@@ -245,7 +245,7 @@ const LevelSection = memo(function LevelSection({
       data-level-state={section.state}
       className="flex flex-col gap-6"
     >
-      <div className="flex flex-wrap items-center gap-2">
+      <div className="flex flex-wrap items-center gap-2" data-path-header="">
         <h2 id={headingId} className="min-w-0 flex-[1_1_14rem]">
           <button
             type="button"
@@ -439,8 +439,11 @@ export function SkillPathView({
         announcementRef.current.textContent = startingAtText(level);
       }
     }
+    // FIX-009: centred below the sticky top bar, and no level or unit header card left
+    // half under it.
+    const headers = root ? Array.from(root.querySelectorAll("[data-path-header]")) : [];
     const scroll = target
-      ? scrollToCenter(target, prefersReducedMotion() ? "auto" : "smooth")
+      ? scrollToCenter(target, prefersReducedMotion() ? "auto" : "smooth", { headers })
       : null;
     if (!scroll) {
       settle();
