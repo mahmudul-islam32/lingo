@@ -114,7 +114,8 @@ test.describe("Learn with the gamification loop (PLT-009)", () => {
     await expect(page.getByTestId("lesson-hearts-meter")).toBeVisible();
     await expect(page.getByRole("img", { name: "Hearts: 5 of 5" })).toBeVisible();
     await playLesson(page, germanLesson1());
-    await expect(page.getByTestId("celebration-banner")).toContainText("Streak started!");
+    // FIX-010: the gold pill shows only the perfect-lesson line; the streak is in the stats row.
+    await expect(page.getByTestId("celebration-banner")).toHaveText("Perfect lesson! +5 bonus XP");
     const stats = page.getByRole("list", { name: "Lesson stats" });
     await expect(stats.getByRole("listitem").nth(0)).toContainText("15");
     await expect(stats.getByRole("listitem").nth(3)).toContainText("Streak started!");
