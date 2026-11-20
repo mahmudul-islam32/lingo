@@ -63,8 +63,7 @@ finished lessons to replay for hearts. **Leagues** arrive with accounts (it show
 XP for now). **Profile** shows your streak, XP, lessons done, starting level, an "XP this week"
 chart and settings.
 
-The Learn tab is a skill path grouped by CEFR level and unit: finish a lesson to unlock the
-next. The top bar shows your streak, XP and hearts. The app is an installable PWA that works
+The top bar shows your streak, XP and hearts. The app is an installable PWA that works
 offline.
 
 | Skill path                                                                  | After Lesson 1                                                                                  | Profile                                                                        | Offline                                                                      | Page not found                                                    |
