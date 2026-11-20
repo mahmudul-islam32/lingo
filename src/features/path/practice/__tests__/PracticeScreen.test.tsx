@@ -27,6 +27,10 @@ function recordNavigation(event: MouseEvent) {
 }
 
 beforeEach(() => {
+  // Hearts refill on the real clock: freeze Date at NOW so the 0-hearts case does not
+  // depend on the day the suite runs (FIX-008). Timers stay real for userEvent.
+  vi.useFakeTimers({ toFake: ["Date"] });
+  vi.setSystemTime(NOW);
   followed = [];
   document.addEventListener("click", recordNavigation);
   session = createStubSession();
@@ -38,6 +42,7 @@ beforeEach(() => {
 });
 
 afterEach(() => {
+  vi.useRealTimers();
   document.removeEventListener("click", recordNavigation);
   vi.restoreAllMocks();
 });
