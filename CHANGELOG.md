@@ -56,6 +56,11 @@ Learn, Practice, Leagues and Profile. Behaviour is unchanged.
 - e2e: lesson helpers wait for a listen exercise's audio to settle before answering
   (#91)
 
+### Documentation
+
+- Design v2 reference README mapping each screen to its ticket [FIX-011] (#96); v0.5.3
+  acceptance and PD-067 … PD-070 [PM-ACC4] (#95)
+
 ## [0.5.2] - 2026-11-19
 
 Choose where to start and earn hearts back: a guest can start the German course at A1 or
