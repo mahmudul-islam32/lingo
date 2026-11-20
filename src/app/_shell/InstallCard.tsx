@@ -38,7 +38,8 @@ export interface InstallCardProps {
 /**
  * "Install Polyglow" card at the top of the Learn page (PLT-005 criteria 2-6, 9). Shows the
  * native install prompt where the browser offers one, and the Share steps on iOS. Polite
- * `role="status"` so screen readers announce it without interrupting.
+ * `role="status"` so screen readers announce it without interrupting. Design v2 card
+ * (PLT-026): white card with the 3D edge, display-font title, 52 px buttons.
  */
 export function InstallCard({
   store = installPromptStore,
@@ -85,7 +86,6 @@ export function InstallCard({
   return (
     <Card
       as="div"
-      tone="raised"
       role="status"
       aria-live="polite"
       aria-labelledby={titleId}
@@ -96,7 +96,7 @@ export function InstallCard({
     >
       <Lumi pose="happy" size="sm" />
       <div className="min-w-0 flex-1">
-        <h2 id={titleId} className="text-lg font-bold">
+        <h2 id={titleId} className="font-display text-lg leading-tight font-extrabold">
           {INSTALL_TITLE}
         </h2>
         <p id={bodyId} className="mt-1 text-sm text-fg-muted">
@@ -105,17 +105,13 @@ export function InstallCard({
         <div className="mt-3 flex flex-wrap gap-2">
           {mode === "prompt" ? (
             <>
-              <Button size="sm" onClick={() => void install()}>
-                Install
-              </Button>
-              <Button size="sm" variant="ghost" onClick={dismiss}>
+              <Button onClick={() => void install()}>Install</Button>
+              <Button variant="ghost" onClick={dismiss}>
                 Not now
               </Button>
             </>
           ) : (
-            <Button size="sm" onClick={dismiss}>
-              Got it
-            </Button>
+            <Button onClick={dismiss}>Got it</Button>
           )}
         </div>
       </div>

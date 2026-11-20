@@ -8,12 +8,15 @@ import { guestProfileStore } from "@/features/profile";
 import TabsLayout from "../../(tabs)/layout";
 import LearnPage from "../../(tabs)/page";
 import ProfilePage from "../../(tabs)/profile/page";
+import PracticePage, { metadata as practiceMetadata } from "../../(tabs)/practice/page";
+import LeaguesPage, { metadata as leaguesMetadata } from "../../(tabs)/leagues/page";
 import RootError from "../../error";
 import RootLoading from "../../loading";
 import NotFound, { metadata as notFoundMetadata } from "../../not-found";
 import OnboardingPage from "../../onboarding/page";
 import TabsError from "../../(tabs)/error";
 import TabsLoading from "../../(tabs)/loading";
+import { LEAGUES_TITLE } from "@/features/gamification";
 import { APP_NAME, TITLE_TEMPLATE } from "../app-name";
 import { SkipLink } from "../SkipLink";
 
@@ -86,6 +89,43 @@ describe("app shell", () => {
     expectOneMainAndOneH1();
     expect(screen.getByRole("link", { name: "Profile" })).toHaveAttribute("aria-current", "page");
   });
+
+  it.each([
+    ["/practice", "Practice", "Practice", PracticePage, practiceMetadata],
+    ["/leagues", "Leagues", LEAGUES_TITLE, LeaguesPage, leaguesMetadata],
+  ] as const)(
+    "%s: one main, one h1, its tab active, nav outside main, skip link first (PLT-026)",
+    async (path, name, heading, Page, metadata) => {
+      navigationState.pathname = path;
+      const user = userEvent.setup();
+      renderWithQueryClient(
+        <ToastProvider>
+          <SkipLink />
+          <TabsLayout>
+            <Page />
+          </TabsLayout>
+        </ToastProvider>,
+      );
+      expectOneMainAndOneH1();
+      // The screen content is GAM-012's PracticeScreen / LeaguesScreen.
+      expect(await screen.findByRole("heading", { level: 1, name: heading })).toBeInTheDocument();
+      expect(metadata.title).toBe(name);
+      const nav = screen.getByRole("navigation", { name: "Main" });
+      expect(screen.getByRole("main")).not.toContainElement(nav);
+      expect(within(nav).getByRole("link", { name })).toHaveAttribute("aria-current", "page");
+      expect(
+        within(nav)
+          .getAllByRole("link")
+          .map((l) => l.textContent),
+      ).toEqual(["Learn", "Practice", "Leagues", "Profile"]);
+      await user.tab();
+      expect(screen.getByRole("link", { name: "Skip to content" })).toHaveFocus();
+      // The page content comes before the nav in the Tab order.
+      expect(
+        screen.getByRole("main").compareDocumentPosition(nav) & Node.DOCUMENT_POSITION_FOLLOWING,
+      ).toBeTruthy();
+    },
+  );
 
   it("onboarding: no bottom nav", () => {
     guestProfileStore.setState({ status: "ready", onboardingComplete: false });

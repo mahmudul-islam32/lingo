@@ -5,63 +5,69 @@ import { navigationState } from "./navigation-mock";
 import { BottomNav } from "../BottomNav";
 import { isActivePath, NAV_ITEMS } from "../nav-items";
 
-describe("BottomNav", () => {
+const TABS = ["Learn", "Practice", "Leagues", "Profile"] as const;
+const HREFS = ["/", "/practice", "/leagues", "/profile"];
+
+describe("BottomNav (PLT-026, PD-066 §4)", () => {
   beforeEach(() => {
     navigationState.pathname = "/";
   });
 
-  it('is a <nav> landmark named "Main" with exactly the Learn and Profile tabs', () => {
+  it('is a <nav> named "Main" with Learn, Practice, Leagues, Profile in this order', () => {
     render(<BottomNav />);
     const nav = screen.getByRole("navigation", { name: "Main" });
     expect(nav.tagName).toBe("NAV");
     const links = within(nav).getAllByRole("link");
-    expect(links.map((l) => l.textContent)).toEqual(["Learn", "Profile"]);
-    expect(within(nav).getByRole("link", { name: "Learn" })).toHaveAttribute("href", "/");
-    expect(within(nav).getByRole("link", { name: "Profile" })).toHaveAttribute("href", "/profile");
-    expect(within(nav).queryByRole("link", { name: /leaderboard/i })).not.toBeInTheDocument();
+    expect(links.map((l) => l.textContent)).toEqual([...TABS]);
+    expect(links.map((l) => l.getAttribute("href"))).toEqual(HREFS);
+    // Every tab has a decorative icon next to its label.
+    for (const link of links) {
+      expect(link.querySelector("svg")).not.toBeNull();
+      expect(
+        link.querySelector('[aria-hidden="true"] svg, svg[aria-hidden="true"]'),
+      ).not.toBeNull();
+    }
   });
 
-  it("marks Learn active on / with aria-current, a filled icon and the indicator bar", () => {
+  it.each([
+    ["/", "Learn"],
+    ["/practice", "Practice"],
+    ["/leagues", "Leagues"],
+    ["/profile", "Profile"],
+    ["/profile/settings", "Profile"],
+  ])("on %s only %s has aria-current, is indigo and has the indicator bar", (path, active) => {
+    navigationState.pathname = path;
     render(<BottomNav />);
-    const learn = screen.getByRole("link", { name: "Learn" });
-    const profile = screen.getByRole("link", { name: "Profile" });
-    expect(learn).toHaveAttribute("aria-current", "page");
-    expect(profile).not.toHaveAttribute("aria-current");
-    expect(within(learn).getByTestId("nav-indicator")).toBeInTheDocument();
-    expect(within(profile).queryByTestId("nav-indicator")).not.toBeInTheDocument();
-    // Filled icon: the active icon's shapes use fill="currentColor", the inactive ones don't.
-    expect(learn.querySelector('svg [fill="currentColor"]')).not.toBeNull();
-    expect(profile.querySelector('svg [fill="currentColor"]')).toBeNull();
+    for (const name of TABS) {
+      const link = screen.getByRole("link", { name });
+      if (name === active) {
+        expect(link).toHaveAttribute("aria-current", "page");
+        expect(link.className).toContain("text-primary");
+        expect(link.querySelector("span.bg-primary")).not.toBeNull();
+      } else {
+        expect(link).not.toHaveAttribute("aria-current");
+        expect(link.className).toContain("text-fg-muted");
+        expect(link.querySelector("span.bg-primary")).toBeNull();
+      }
+    }
   });
 
-  it("marks Profile active on /profile and its sub-routes", () => {
-    navigationState.pathname = "/profile";
-    const { unmount } = render(<BottomNav />);
-    expect(screen.getByRole("link", { name: "Profile" })).toHaveAttribute("aria-current", "page");
-    expect(screen.getByRole("link", { name: "Learn" })).not.toHaveAttribute("aria-current");
-    unmount();
-
-    navigationState.pathname = "/profile/settings";
-    render(<BottomNav />);
-    expect(screen.getByRole("link", { name: "Profile" })).toHaveAttribute("aria-current", "page");
-  });
-
-  it("reaches both tabs with Tab, in order, and they have visible focus styles", async () => {
+  it("reaches all four tabs with Tab, in order, with visible focus styles", async () => {
     const user = userEvent.setup();
     render(<BottomNav />);
-    await user.tab();
-    expect(screen.getByRole("link", { name: "Learn" })).toHaveFocus();
-    await user.tab();
-    const profile = screen.getByRole("link", { name: "Profile" });
-    expect(profile).toHaveFocus();
-    expect(profile.className).toContain("focus-visible:focus-ring");
+    for (const name of TABS) {
+      await user.tab();
+      const link = screen.getByRole("link", { name });
+      expect(link).toHaveFocus();
+      expect(link.className).toContain("focus-visible:focus-ring");
+    }
   });
 
-  it("gives every tab at least a 44 px tap target and respects the safe area", () => {
+  it("gives every tab at least a 48 px tall tap target and respects the safe area", () => {
     render(<BottomNav />);
     for (const link of screen.getAllByRole("link")) {
-      expect(link.className).toContain("min-h-11");
-      expect(link.className).toContain("min-w-11");
+      expect(link.className).toContain("min-h-12");
+      expect(link.className).toContain("min-w-16");
     }
     expect(screen.getByRole("navigation").className).toContain("pb-[env(safe-area-inset-bottom)]");
   });
@@ -74,10 +80,11 @@ describe("isActivePath", () => {
     expect(isActivePath("/profile", "/profile")).toBe(true);
     expect(isActivePath("/profile/x", "/profile")).toBe(true);
     expect(isActivePath("/profiles", "/profile")).toBe(false);
+    expect(isActivePath("/practice", "/practice")).toBe(true);
     expect(isActivePath(null, "/")).toBe(false);
   });
 
-  it("has exactly two items (PD-005)", () => {
-    expect(NAV_ITEMS.map((i) => i.label)).toEqual(["Learn", "Profile"]);
+  it("has exactly the four v2 tabs (PD-066 §4)", () => {
+    expect(NAV_ITEMS.map((i) => i.label)).toEqual([...TABS]);
   });
 });

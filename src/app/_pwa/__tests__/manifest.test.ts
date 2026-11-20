@@ -29,9 +29,9 @@ describe("web app manifest (PLT-002)", () => {
     });
   });
 
-  it("takes its colours from the brand tokens", () => {
-    expect(m.theme_color).toBe(BRAND_HEX.night950);
-    expect(m.background_color).toBe(BRAND_HEX.canvasLight);
+  it("takes its colours from the v2 brand tokens (ADR-014)", () => {
+    expect(m.theme_color).toBe(BRAND_HEX.primary);
+    expect(m.background_color).toBe(BRAND_HEX.canvas);
   });
 
   it("lists 192 and 512 icons plus a maskable 512 icon", () => {
@@ -64,7 +64,7 @@ describe("web app manifest (PLT-002)", () => {
 describe("service worker config (PLT-002)", () => {
   it("precaches the app shell routes and the offline fallback", () => {
     expect(PRECACHED_ROUTES).toEqual(
-      expect.arrayContaining(["/", "/profile", "/onboarding", "/offline"]),
+      expect.arrayContaining(["/", "/practice", "/leagues", "/profile", "/onboarding", "/offline"]),
     );
   });
 

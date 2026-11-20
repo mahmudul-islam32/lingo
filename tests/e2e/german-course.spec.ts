@@ -52,7 +52,7 @@ test.describe("German course (PLT-024)", () => {
     await page.goto("/");
     await expect(page).toHaveURL(/\/onboarding$/);
     // AC 3: the heading names the default course's language.
-    await expect(h1(page)).toHaveText("Learn German in five minutes a day");
+    await expect(h1(page)).toHaveText("Learn German in five minutes a day.");
     await page.keyboard.press("Tab"); // skip link
     await page.keyboard.press("Tab");
     await expect(page.getByRole("button", { name: "Get started" })).toBeFocused();

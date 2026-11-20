@@ -1,7 +1,7 @@
 import type { Theme } from "@/components/ui";
 
 /**
- * Default theme (ADR-004: dark-first, midnight indigo). Set on `<html data-theme>` by the
- * root layout so the first paint is correct; `useTheme()` in `providers.tsx` can switch it.
+ * The app's only theme (PD-066, ADR-014: light, design v2). Set on `<html data-theme>` by
+ * the root layout; there is no theme switch and no dark mode for now.
  */
-export const DEFAULT_THEME: Theme = "dark";
+export const DEFAULT_THEME: Theme = "light";
