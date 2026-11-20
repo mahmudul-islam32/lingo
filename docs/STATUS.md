@@ -1,39 +1,28 @@
 # Project status
 
-**Last update:** 2026-11-19 ~01:50 Europe/Berlin (scheduled 01:00 run)
-**Version on `main`:** 0.5.0, plus v0.5.1 (cloze) and v0.5.2 (start level and earning hearts)
-merged and not yet released · **Course:** German A1 + A2 on `main`; B1 Units 1–12 written
-(unmerged by plan)
+**Last update:** 2026-11-20 ~04:00 Europe/Berlin (scheduled 01:00 run)
+**Version on `main`:** **0.5.3** (#94: redesign v2) · **Course:** German A1 + A2 on `main`;
+B1 Units 1–13 written (unmerged by plan, PD-063)
 
 ## Where things stand
-- **Owner request (2026-11-18), shipped:** start at a later level and earn hearts by answering
-  correctly. CTO-015 (#80), GAM-011 (#81), PLT-025 (#82), LES-020 (#83), docs PM-008 (#79).
-  Checked by the orchestrator on `main` 66b2e4d: 1,925 unit tests, typecheck, lint, build, and
-  **full e2e 120/120 on a production build**.
-- **Also merged:** FIX-006 path flake and single hearts warning (#76), CTO-010 B1 tech plan with
-  CTO-010..014 and ADR-010..012 (#77), FIX-007 offline-banner axe flake (#78).
-- **B1 content (PD-063: merges only after v1.0.0)**, each wave stacked on the previous one,
-  validated (content tests, buildability, case pairs, duplicates) and pushed:
-  - `docs/con-de-b1-units-01-04`: Units 1–4
-  - `docs/con-de-b1-units-05-08`: Units 5–8
-  - `docs/con-de-b1-units-09-12`: Units 9–12 (course.json v24, 425 content tests, 2,776 answers)
+- **Owner request (2026-11-19), shipped:** the whole app restyled to the owner's design (light
+  indigo and coral, Bricolage Grotesque and DM Sans, 3D buttons and cards, a 4-tab nav with
+  Practice and Leagues, Profile with real stats). #86–#93 plus acceptance #95 and FIX-011 #96;
+  **released as v0.5.3 (#94)**. Full e2e 142/142 on a production build.
+- **README showcase:** re-captured from the new design on this branch.
+- **B1 content:** `docs/con-de-b1-units-01-04` → `05-08` → `09-12` → `13-16` (Unit 13 done).
+  Validated and pushed, not merged until v1.0.0.
 
 ## Handoff
-- **Release:** the cto cuts **v0.5.2** (cloze contract and component, start level, earning
-  hearts, FIX-005..007) via `chore/release-v0.5.2`: version bump and CHANGELOG. No tag; the owner tags.
-- **README media:** capture.mjs (this branch) now handles the start-level onboarding step. The
-  next run re-captures the media, including the level step and the Practice badge.
-- **B1 Wave 4 (Units 13–16, including the B1 checkpoint):** stack on `docs/con-de-b1-units-09-12`;
-  then CON-DE-B1-QA. The writers' vocabulary requests and the word-order questions are in each
-  B1 ticket's self-review.
-- **pm:** add ticket files FIX-006 and FIX-007; confirm LES-015 AC 9 (cloze audio after Check);
-  plan the first cloze content.
+- **B1 Wave 4:** Units 14–16 (with the B1 checkpoint) go on `docs/con-de-b1-units-13-16`, then CON-DE-B1-QA.
+- **v0.6.0 accounts and sync** waits for the owner's hosted Supabase.
+- **v1.0.0 launch polish:** recorded audio (TTS licence), speaking, native review.
 
 ## Blockers
-- Usage limits (5-hour and weekly) end most runs early; agents are resumed after each reset.
+- Usage limits end most runs early; agents are resumed after each reset.
 
 ## Waiting on owner (non-blocking)
-- Tag `9d885c9` as `v0.5.0` (and `v0.1.0` / `v0.2.0`) and publish the GitHub releases, using
+- Tag `9d885c9` as `v0.5.0`, `3627efc` as `v0.5.2` and `11b5d2d` as `v0.5.3` (and `v0.1.0` / `v0.2.0`) and publish the GitHub releases, using
   the `[0.5.0]` section of CHANGELOG.md as notes. Agents don't create tags or releases.
 - PR #35 (CHORE-005) awaits the owner.
 - Native-speaker review of German content: the lists are in each ticket's
@@ -55,3 +44,5 @@ merged and not yet released · **Course:** German A1 + A2 on `main`; B1 Units 1�
 - 2026-11-18 01:00 run: FIX-006/007 and the B1 tech plan merged; B1 Units 5–10 written.
 - 2026-11-18 (owner request): start level and earning hearts built and merged (#79–#83).
 - 2026-11-19 01:00 run: verified #79–#83 on main (e2e 120/120); B1 Units 11–12 written.
+- 2026-11-19 (owner request): redesign v2 built (CTO-016, PLT-026, GAM-012, LES-021).
+- 2026-11-20 01:00 run: redesign merged (#86–#96) and released as v0.5.3; B1 Unit 13 written; README re-captured.
