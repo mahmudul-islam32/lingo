@@ -1,6 +1,7 @@
 # Polyglow Roadmap
 
-**Owner:** pm · **Last updated:** 2026-11-18 (v0.5.2 "Start level and earn hearts" added:
+**Owner:** pm · **Last updated:** 2026-11-19 (v0.5.3 "Redesign" added: CTO-016, PLT-026,
+GAM-012, LES-021, PD-066). Before that 2026-11-18 (v0.5.2 "Start level and earn hearts" added:
 CTO-015, GAM-011, LES-020, PLT-025, PD-064, PD-065). Before that 2026-11-16 (v1.1.0 German B1 planned: CON-DE-B1-PLAN,
 16 unit tickets, QA ticket, PD-056 … PD-063). Before that 2026-11-15 (release acceptance
 PM-ACC3 for v0.3.0 … v0.5.0; one combined v0.5.0 release; accounts renumbered v0.6.0; cloze
@@ -361,6 +362,28 @@ hearts) replaces waiting for the 4-hour refill.
 LES-016 … LES-019 are reserved (PD-055, CTO-010), so the lessons ticket is LES-020. Runs in
 parallel with v0.5.1 and v0.6.0; it doesn't block v1.0.0. **Ready for release** when the four
 tickets are accepted.
+
+### v0.5.3 — Redesign (planned 2026-11-19, PD-066)
+
+**Milestone status: open.** Owner design of 2026-11-19 (brief and 8 reference screens, copied
+to `docs/design/v2/` by CTO-016). Polyglow and Lumi stay; the design's "parla" name and logo
+are not used.
+
+**Goal:** every screen matches the owner's v2 design (light theme, Bricolage Grotesque + DM
+Sans, indigo / coral palette, 3D cards and buttons, 4-tab nav Learn / Practice / Leagues /
+Profile) with **no behaviour change**; Practice lists real finished lessons (PD-065), Leagues
+shows an honest "arrives with accounts" state, Profile shows only real stats.
+
+| ID | Title | Owner | Priority | Depends on |
+|---|---|---|---|---|
+| CTO-016 | Design system v2: tokens, fonts, shared components (Button 3D, Card, ProgressBar, StatTile, Chip, OptionCard), `docs/design/v2` references | cto | P1 | — |
+| PLT-026 | Onboarding (screen 1), app shell + 4-tab nav, Profile (screen 8) with "XP this week", settings rows, offline banner / 404 / install card | dev-platform | P1 | CTO-016 |
+| GAM-012 | Learn path (screen 2), level headers + "Start here", Practice tab, Leagues "arrives with accounts", hearts dialog | dev-gamification | P1 | CTO-016, PLT-026 |
+| LES-021 | Lesson player (screens 3–6): header, MC 2 × 2, word bank, listen, match, cloze, feedback sheets, tip card, out-of-hearts, results | dev-lessons | P1 | CTO-016 |
+
+CTO-016 goes first; PLT-026 and LES-021 then run in parallel, GAM-012 starts once PLT-026's
+routes and nav are merged. Runs after v0.5.2 and in parallel with v0.5.1 and v0.6.0; it
+doesn't block v1.0.0. **Ready for release** when the four tickets are accepted.
 
 ### Later German levels (planned)
 

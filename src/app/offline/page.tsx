@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Lumi } from "@/components/ui";
+import { Card, Lumi } from "@/components/ui";
 import { Main } from "../_shell/Main";
 import { RetryButton } from "./RetryButton";
 
@@ -15,11 +15,13 @@ export const dynamic = "force-static";
  */
 export default function OfflinePage() {
   return (
-    <Main className="items-center justify-center gap-4 pb-6 text-center">
-      <Lumi pose="ember" size="md" />
-      <h1 className="text-2xl font-bold">You&apos;re offline</h1>
-      <p className="text-fg-muted">Check your connection and try again.</p>
-      <RetryButton />
+    <Main className="justify-center pb-6">
+      <Card padding="lg" className="flex flex-col items-center gap-4 text-center">
+        <Lumi pose="ember" size="md" />
+        <h1 className="font-display text-2xl leading-tight font-extrabold">You&apos;re offline</h1>
+        <p className="text-fg-muted">Check your connection and try again.</p>
+        <RetryButton />
+      </Card>
     </Main>
   );
 }

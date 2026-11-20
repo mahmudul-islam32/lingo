@@ -1,36 +1,27 @@
 import { act, render, screen } from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
-import { afterEach, describe, expect, it } from "vitest";
+import { describe, expect, it } from "vitest";
 import { Button, useToast } from "@/components/ui";
-import { Providers, useTheme } from "../../providers";
+import { Providers } from "../../providers";
+import * as providers from "../../providers";
+import { DEFAULT_THEME } from "../theme";
 
 function ToastTrigger() {
   const toast = useToast();
   return <Button onClick={() => toast.show({ title: "Saved" })}>Show toast</Button>;
 }
 
-function ThemeReader() {
-  const { theme, setTheme } = useTheme();
-  return (
-    <Button onClick={() => setTheme(theme === "dark" ? "light" : "dark")}>Theme: {theme}</Button>
-  );
-}
-
 describe("Providers", () => {
-  afterEach(() => {
-    delete document.documentElement.dataset.theme;
-  });
-
-  it("applies the dark theme by default and can switch it", async () => {
-    const user = userEvent.setup();
+  it("is light theme only, with no theme switch (PD-066)", () => {
+    expect(DEFAULT_THEME).toBe("light");
+    expect(Object.keys(providers)).toEqual(["Providers"]);
     render(
       <Providers>
-        <ThemeReader />
+        <p>content</p>
       </Providers>,
     );
-    expect(document.documentElement.dataset.theme).toBe("dark");
-    await user.click(screen.getByRole("button", { name: "Theme: dark" }));
-    expect(document.documentElement.dataset.theme).toBe("light");
+    expect(document.documentElement.dataset.theme).toBeUndefined();
+    expect(screen.queryByRole("button", { name: /theme/i })).not.toBeInTheDocument();
   });
 
   it("mounts the toast provider", async () => {

@@ -19,10 +19,10 @@ import { queryKeys } from "@/lib/query";
 import { createTestQueryClient, renderWithQueryClient } from "@/lib/query/testing";
 import { effectiveCourseId, OnboardingFlow } from "../OnboardingFlow";
 import OnboardingPage, { metadata } from "../page";
-import { MORE_LANGUAGES_TEXT, NO_COURSES_TEXT } from "../steps/CourseStep";
+import { COURSE_EYEBROW, MORE_LANGUAGES_TEXT, NO_COURSES_TEXT } from "../steps/CourseStep";
 import { SAVE_ERROR_TEXT } from "../steps/GoalStep";
 import { LEVEL_HEADING } from "../steps/LevelStep";
-import { WELCOME_FALLBACK_HEADING, welcomeHeading } from "../steps/Welcome";
+import { WELCOME_FALLBACK_HEADING, WELCOME_SUBLINE, welcomeHeading } from "../steps/Welcome";
 
 const WELCOME_HEADING = welcomeHeading("German");
 
@@ -113,6 +113,24 @@ describe("onboarding flow (PLT-004)", () => {
     expect(metadata.title).toBe("Get started");
   });
 
+  it("PLT-026 1, 2: v2 Welcome has the Polyglow wordmark with Lumi; course cards have a DE chip", async () => {
+    const { user } = await renderFlow({ load: () => loadCourses() });
+    const wordmark = await screen.findByTestId("wordmark");
+    expect(wordmark).toHaveTextContent("Polyglow");
+    expect(wordmark.querySelector('svg[data-pose="happy"]')).not.toBeNull();
+    expect(screen.queryByText(/parla/i)).not.toBeInTheDocument();
+    expect(h1().className).toContain("font-display");
+    expect(screen.getByText(WELCOME_SUBLINE)).toHaveClass("text-fg-muted");
+
+    const group = await toCourseStep(user);
+    expect(screen.getByText(COURSE_EYEBROW)).toHaveClass("eyebrow");
+    const german = within(group).getByRole("radio", { name: "German" });
+    expect(german).toHaveTextContent(/^DE/);
+    // The chip is decorative: the name stays "German".
+    expect(within(german).getByText("DE").closest('[aria-hidden="true"]')).not.toBeNull();
+    expect(german.className).toContain("shadow-ring-selected");
+  });
+
   it("PLT-024 1, 2: Course step lists only German, preselected, Continue enabled; Spanish isn't named", async () => {
     const { user } = await renderFlow({ load: () => loadCourses() });
     const group = await toCourseStep(user);
@@ -166,7 +184,7 @@ describe("onboarding flow (PLT-004)", () => {
     expect(
       await screen.findByRole("heading", {
         level: 1,
-        name: "Learn Spanish in five minutes a day",
+        name: "Learn Spanish in five minutes a day.",
       }),
     ).toBeInTheDocument();
   });

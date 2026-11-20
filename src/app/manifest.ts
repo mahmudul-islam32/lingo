@@ -5,8 +5,8 @@ import { ICONS } from "./_pwa/pwa-config";
 
 /**
  * Web app manifest (PLT-002), served at `/manifest.webmanifest` and linked from every page
- * by Next.js. Colours come from `BRAND_HEX` so they never drift from the CSS tokens:
- * midnight indigo for the theme (status bar), warm off-white for the splash background.
+ * by Next.js. Colours come from `BRAND_HEX` so they never drift from the CSS tokens
+ * (design v2, ADR-014): primary indigo for the theme, the light canvas for the splash.
  */
 export default function manifest(): MetadataRoute.Manifest {
   return {
@@ -20,8 +20,8 @@ export default function manifest(): MetadataRoute.Manifest {
     orientation: "portrait",
     lang: "en",
     dir: "ltr",
-    theme_color: BRAND_HEX.night950,
-    background_color: BRAND_HEX.canvasLight,
+    theme_color: BRAND_HEX.primary,
+    background_color: BRAND_HEX.canvas,
     categories: ["education"],
     icons: [
       { src: ICONS.any192, sizes: "192x192", type: "image/png", purpose: "any" },

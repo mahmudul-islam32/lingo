@@ -8,6 +8,7 @@ import { settingsQuery } from "@/features/gamification";
 import {
   effectiveStartLevel,
   isLowerLevel,
+  SettingsRow,
   startLevelOptions,
   useSetStartLevel,
 } from "@/features/profile";
@@ -26,6 +27,7 @@ export const START_LEVEL_SAVE_ERROR = "We couldn't save your start level. Try ag
  * set) and "Change", which opens a dialog with the course's levels. Save goes through
  * `useSetStartLevel`, which updates `["settings"]`, so this row and the path update at
  * once. Hidden for courses without a level choice (one level, or none, e.g. en-es).
+ * Styled as a v2 `SettingsRow` (PLT-026 AC 14).
  */
 export function StartLevelRow() {
   const settings = useQuery(settingsQuery());
@@ -39,7 +41,7 @@ export function StartLevelRow() {
   const [failed, setFailed] = useState(false);
 
   if (settings.isPending || course.isPending) {
-    return <Skeleton shape="rect" className="h-16" />;
+    return <Skeleton shape="rect" className="h-16 rounded-card" />;
   }
   if (!course.data) return null;
   const options = startLevelOptions(course.data);
@@ -78,30 +80,20 @@ export function StartLevelRow() {
   }
 
   return (
-    <section
-      aria-labelledby={labelId}
-      className="flex flex-col gap-2 rounded-card border border-border bg-surface p-4"
+    <SettingsRow
+      label={START_LEVEL_LABEL}
+      labelId={labelId}
+      value={currentLabel}
+      valueTestId="start-level-value"
+      changeLabel={CHANGE_START_LEVEL}
+      onChange={openDialog}
+      changeRef={changeRef}
     >
-      <div className="flex items-center justify-between gap-3">
-        <h2 id={labelId} className="font-semibold">
-          {START_LEVEL_LABEL}
-        </h2>
-        <div className="flex items-center gap-3">
-          <span data-testid="start-level-value" className="text-fg-muted">
-            {currentLabel}
-          </span>
-          <Button
-            ref={changeRef}
-            variant="secondary"
-            aria-label={CHANGE_START_LEVEL}
-            onClick={openDialog}
-          >
-            Change
-          </Button>
-        </div>
-      </div>
       {failed && (
-        <p role="alert" className="rounded-control bg-danger-soft px-3 py-2 text-danger-fg">
+        <p
+          role="alert"
+          className="mr-2.5 mb-2 rounded-control border-2 border-danger-border bg-danger-tint px-3 py-2 font-medium text-danger-fg"
+        >
           {START_LEVEL_SAVE_ERROR}
         </p>
       )}
@@ -145,6 +137,6 @@ export function StartLevelRow() {
           </p>
         )}
       </Dialog>
-    </section>
+    </SettingsRow>
   );
 }

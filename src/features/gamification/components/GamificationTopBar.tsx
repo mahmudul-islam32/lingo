@@ -2,10 +2,11 @@
 
 import { useRef, useState, type ReactNode } from "react";
 import type { Slug } from "@/contracts";
-import { cn, Skeleton, VisuallyHidden, XpBadge } from "@/components/ui";
+import { Chip, cn, Skeleton, VisuallyHidden, XpBadge } from "@/components/ui";
 import { useHearts } from "../hooks/use-hearts";
 import { useStreak } from "../hooks/use-streak";
 import { useUserProgress, type UseProgressOptions } from "../hooks/use-user-progress";
+import { courseChip } from "../rules/course-chip";
 import { STREAK_UNAVAILABLE_LABEL, streakAccessibleName } from "../rules/streak-message";
 import { HeartsDialog } from "./HeartsDialog";
 import { HeartsMeter } from "./HeartsMeter";
@@ -23,8 +24,20 @@ export interface GamificationTopBarProps extends UseProgressOptions {
 
 /** Every item has the same fixed height, so loading → loaded never shifts layout (AC10). */
 const ITEM = "flex h-11 min-w-0 items-center justify-center";
-/** Final widths of the three pills, shared by the skeleton. */
+/** Final widths of the three stats, shared by the skeleton. */
 const WIDTH = { streak: "min-w-16", xp: "min-w-24", hearts: "min-w-14" } as const;
+
+/** Course chip (GAM-012 AC1): needs no data, so it shows while the stats load too. */
+function CourseChipItem({ courseId }: { courseId: Slug }) {
+  const chip = courseChip(courseId);
+  return (
+    <li className={ITEM} data-testid="top-bar-course">
+      <Chip tone="coral" size="md" bordered label={chip.label}>
+        {chip.code}
+      </Chip>
+    </li>
+  );
+}
 
 function Bar({
   className,
@@ -36,7 +49,7 @@ function Bar({
   after?: ReactNode;
 }) {
   return (
-    <section aria-label={TOP_BAR_LABEL} className={cn("bg-surface px-4 py-1", className)}>
+    <section aria-label={TOP_BAR_LABEL} className={cn("bg-canvas px-5 pt-3 pb-2", className)}>
       <ul className="flex items-center justify-between gap-2">{children}</ul>
       {after}
     </section>
@@ -52,8 +65,9 @@ function Unavailable({ label, className }: { label: string; className?: string }
 }
 
 /**
- * Learn top bar (GAM-007): streak, total XP and hearts, in that order. No heading of its
- * own; a labelled `<section>` with a three-item list (AC9). Hearts open the "Hearts"
+ * Learn top bar (GAM-007, restyled in GAM-012 per screen 2): the course chip ("DE"),
+ * streak (coral flame), total XP (gold bolt) and hearts (rose), in that order. No heading
+ * of its own; a labelled `<section>` with a list (AC9). Hearts open the "Hearts"
  * dialog (AC6). Values follow the GAM-003/GAM-005 queries, so a finished lesson or a heart
  * refill updates them without a reload (AC8).
  */
@@ -70,6 +84,7 @@ export function GamificationTopBar({ courseId, className, ...options }: Gamifica
         className={className}
         after={<VisuallyHidden role="status">{TOP_BAR_LOADING_TEXT}</VisuallyHidden>}
       >
+        <CourseChipItem courseId={courseId} />
         {(["streak", "xp", "hearts"] as const).map((key) => (
           <li key={key} className={ITEM} data-testid="top-bar-skeleton">
             <Skeleton className={cn("h-8 rounded-full", WIDTH[key])} />
@@ -85,6 +100,7 @@ export function GamificationTopBar({ courseId, className, ...options }: Gamifica
 
   return (
     <Bar className={className}>
+      <CourseChipItem courseId={courseId} />
       <li className={ITEM}>
         {streakState && streakStatus ? (
           <span
@@ -94,7 +110,10 @@ export function GamificationTopBar({ courseId, className, ...options }: Gamifica
             className={cn("inline-flex items-center gap-1 tabular-nums", WIDTH.streak)}
           >
             <StreakFlameIcon lit={streakStatus === "extended"} />
-            <span aria-hidden="true" className="text-base font-bold leading-none text-fg">
+            <span
+              aria-hidden="true"
+              className="text-base font-bold leading-none text-accent-strong"
+            >
               {streakState.current}
             </span>
           </span>
@@ -109,7 +128,7 @@ export function GamificationTopBar({ courseId, className, ...options }: Gamifica
             aria-label={`Total XP: ${progress.totalXp}`}
             className={cn("inline-flex justify-center", WIDTH.xp)}
           >
-            <XpBadge amount={progress.totalXp} size="sm" />
+            <XpBadge amount={progress.totalXp} size="md" variant="plain" />
           </span>
         ) : (
           <Unavailable label={XP_UNAVAILABLE_LABEL} className={WIDTH.xp} />
@@ -129,7 +148,7 @@ export function GamificationTopBar({ courseId, className, ...options }: Gamifica
             WIDTH.hearts,
           )}
         >
-          <HeartsMeter current={view.current} max={view.max} />
+          <HeartsMeter current={view.current} max={view.max} tone="rose" />
         </button>
         <HeartsDialog
           open={open}
