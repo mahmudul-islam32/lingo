@@ -3,40 +3,30 @@
   "title": "telc B1 Exam Prep",
   "learningLanguage": "de",
   "knownLanguage": "en",
-  "version": 1,
+  "version": 2,
   "levels": [
+    {
+      "level": "A1",
+      "title": "A1 · Basics",
+      "description": "Basic vocabulary: numbers, family, food, home, key verbs."
+    },
+    {
+      "level": "A2",
+      "title": "A2 · Everyday",
+      "description": "Everyday vocabulary: work, travel, shopping, feelings, the Perfekt."
+    },
     {
       "level": "B1",
       "title": "B1 · telc exam",
-      "description": "Vocabulary, grammar and every part of the telc Deutsch B1 exam."
+      "description": "B1 vocabulary, grammar and every part of the telc Deutsch B1 exam."
     }
   ],
   "units": [
     {
-      "id": "tb1-u01",
-      "title": "The telc B1 exam",
-      "description": "All parts, timing, points and pass marks of telc Deutsch B1.",
-      "level": "B1",
-      "lessons": [
-        {
-          "id": "tb1-u01-l01-written-exam",
-          "title": "The written exam"
-        },
-        {
-          "id": "tb1-u01-l02-oral-exam",
-          "title": "The oral exam"
-        },
-        {
-          "id": "tb1-u01-l03-planning",
-          "title": "Planning your preparation"
-        }
-      ]
-    },
-    {
       "id": "tb1-u02",
       "title": "Vocabulary · Basics 1: Numbers, Dates & Family",
       "description": "59 words and phrases · Zahlen & Zeit, Wochentage & Monate, Familie & Menschen",
-      "level": "B1",
+      "level": "A1",
       "lessons": [
         {
           "id": "tb1-u02-l01-numbers-time-1",
@@ -96,7 +86,7 @@
       "id": "tb1-u03",
       "title": "Vocabulary · Basics 2: Body, Food & Home",
       "description": "56 words and phrases · Körper & Gesundheit, Essen & Trinken, Haus & Wohnung",
-      "level": "B1",
+      "level": "A1",
       "lessons": [
         {
           "id": "tb1-u03-l01-body-health-1",
@@ -156,7 +146,7 @@
       "id": "tb1-u04",
       "title": "Vocabulary · Basics 3: Clothes, Nature & Opposites",
       "description": "53 words and phrases · Kleidung & Farben, Tiere & Natur, Adjektive: Gegensätze",
-      "level": "B1",
+      "level": "A1",
       "lessons": [
         {
           "id": "tb1-u04-l01-clothes-colours-1",
@@ -212,7 +202,7 @@
       "id": "tb1-u05",
       "title": "Vocabulary · Basics 4: Key Verbs & Questions",
       "description": "57 words and phrases · Wichtige Verben (A1), Fragewörter & kleine Wörter, Sätze: Nützliche Alltagssätze",
-      "level": "B1",
+      "level": "A1",
       "lessons": [
         {
           "id": "tb1-u05-l01-key-verbs-a1-1",
@@ -268,7 +258,7 @@
       "id": "tb1-u06",
       "title": "Vocabulary · Everyday 1: Work, Travel & Shopping",
       "description": "52 words and phrases · Arbeit & Beruf (A2), Reisen & Verkehr (A2), Einkaufen & Geld",
-      "level": "B1",
+      "level": "A2",
       "lessons": [
         {
           "id": "tb1-u06-l01-work-jobs-a2-1",
@@ -324,7 +314,7 @@
       "id": "tb1-u07",
       "title": "Vocabulary · Everyday 2: Feelings, Adjectives & Time",
       "description": "58 words and phrases · Gefühle & Charakter, Adjektive (A2), Zeit & Häufigkeit",
-      "level": "B1",
+      "level": "A2",
       "lessons": [
         {
           "id": "tb1-u07-l01-feelings-character-1",
@@ -380,7 +370,7 @@
       "id": "tb1-u08",
       "title": "Vocabulary · Everyday 3: Media, Town & Key Nouns",
       "description": "46 words and phrases · Kommunikation & Medien, Stadt & Wege, Nomen: Wichtige Wörter (Nachtrag)",
-      "level": "B1",
+      "level": "A2",
       "lessons": [
         {
           "id": "tb1-u08-l01-communication-media-1",
@@ -432,7 +422,7 @@
       "id": "tb1-u09",
       "title": "Vocabulary · Everyday 4: Verbs & the Perfekt",
       "description": "49 words and phrases · Verben (A2), Perfekt: wichtige Partizipien",
-      "level": "B1",
+      "level": "A2",
       "lessons": [
         {
           "id": "tb1-u09-l01-verbs-a2-1",
@@ -480,7 +470,7 @@
       "id": "tb1-u10",
       "title": "Vocabulary · Everyday 5: Connectors & Useful Sentences",
       "description": "55 words and phrases · Konnektoren (A2), Sätze: Sich vorstellen & Meinung, Sätze. Brief: Einleitung & Schluss, Sätze: Termin & Verabredung, Sätze: Small Talk & Reagieren",
-      "level": "B1",
+      "level": "A2",
       "lessons": [
         {
           "id": "tb1-u10-l01-connectors-a2-1",
@@ -529,6 +519,26 @@
         {
           "id": "tb1-u10-l12-small-talk-reacting-2",
           "title": "Small Talk & Reacting 2"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u01",
+      "title": "The telc B1 exam",
+      "description": "All parts, timing, points and pass marks of telc Deutsch B1.",
+      "level": "B1",
+      "lessons": [
+        {
+          "id": "tb1-u01-l01-written-exam",
+          "title": "The written exam"
+        },
+        {
+          "id": "tb1-u01-l02-oral-exam",
+          "title": "The oral exam"
+        },
+        {
+          "id": "tb1-u01-l03-planning",
+          "title": "Planning your preparation"
         }
       ]
     },

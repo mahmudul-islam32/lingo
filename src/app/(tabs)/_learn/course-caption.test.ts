@@ -55,6 +55,12 @@ describe("currentLevel (PLT-024 AC 9)", () => {
   it("is null for a course without levels", () => {
     expect(currentLevel(FIXTURE_COURSE, [])).toBeNull();
   });
+
+  it("TELC-003: skips levels below the start level, like the path's up-next lesson", () => {
+    expect(currentLevel(WITH_A2, [], "A2")).toBe("A2");
+    expect(currentLevel(WITH_A2, [], "A1")).toBe("A1");
+    expect(currentLevel(FIXTURE_COURSE, [], "A2")).toBeNull();
+  });
 });
 
 describe("courseCaption", () => {

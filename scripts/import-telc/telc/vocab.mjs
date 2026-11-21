@@ -97,6 +97,14 @@ const THEME_EN = {
 };
 
 /** 28 units, in path order. */
+/** CEFR level shared by all themes of a unit; throws if a unit mixes levels. */
+function unitLevel(codes) {
+  const themes = data("vokab").themes;
+  const levels = new Set(codes.map((code) => themes.find((t) => t.code === code).level));
+  if (levels.size !== 1) throw new Error(`unit mixes levels: ${codes.join(", ")}`);
+  return [...levels][0];
+}
+
 const UNITS = [
   ["Basics 1: Numbers, Dates & Family", ["A1-01", "A1-02", "A1-03"]],
   ["Basics 2: Body, Food & Home", ["A1-04", "A1-05", "A1-06"]],
@@ -380,7 +388,8 @@ export function build() {
         id: unitId,
         title: `Vocabulary · ${title}`,
         description: `${unitCards.length} words and phrases · ${labels}`.slice(0, 280),
-        level: "B1",
+        // TELC-003: the unit's CEFR level is its themes' level (each unit holds one level).
+        level: unitLevel(codes),
         lessons,
       }),
     );

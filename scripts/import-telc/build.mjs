@@ -34,12 +34,23 @@ const COURSES = {
     title: "telc B1 Exam Prep",
     learningLanguage: "de",
     knownLanguage: "en",
-    version: 1,
+    version: 2,
+    // TELC-003: A1/A2 vocabulary for learners who need the basics first; B1 = the exam.
     levels: [
+      {
+        level: "A1",
+        title: "A1 · Basics",
+        description: "Basic vocabulary: numbers, family, food, home, key verbs.",
+      },
+      {
+        level: "A2",
+        title: "A2 · Everyday",
+        description: "Everyday vocabulary: work, travel, shopping, feelings, the Perfekt.",
+      },
       {
         level: "B1",
         title: "B1 · telc exam",
-        description: "Vocabulary, grammar and every part of the telc Deutsch B1 exam.",
+        description: "B1 vocabulary, grammar and every part of the telc Deutsch B1 exam.",
       },
     ],
   },
@@ -85,6 +96,13 @@ for (const [name, courseId, path] of MODULES) {
     0,
   );
   console.log(`${name}: ${bundles.length} units, ${lessons} lessons, ${exercises} exercises`);
+}
+
+// Units must be grouped by CEFR level in order (ADR-008). Stable sort: within a level the
+// module order stays (the exam overview opens B1, before the B1 vocabulary).
+const CEFR = ["A1", "A2", "B1", "B2", "C1", "C2"];
+for (const bundles of Object.values(bundlesByCourse)) {
+  bundles.sort((a, b) => CEFR.indexOf(a.unit.level ?? "") - CEFR.indexOf(b.unit.level ?? ""));
 }
 
 const loaders = {};

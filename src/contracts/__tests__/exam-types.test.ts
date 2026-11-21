@@ -121,3 +121,23 @@ describe("exam exercise types (TELC-001)", () => {
     expect(isUngradedExerciseType("choice")).toBe(false);
   });
 });
+
+describe("telc B1 course levels (TELC-003)", () => {
+  it("declares A1, A2, B1 and tags the A1/A2 vocabulary units", async () => {
+    const { readFileSync } = await import("node:fs");
+    const { join } = await import("node:path");
+    const { CourseSchema, groupUnitsByLevel } = await import("../index");
+    const course = CourseSchema.parse(
+      JSON.parse(
+        readFileSync(join(process.cwd(), "content/courses/telc-b1-en-de/course.json"), "utf8"),
+      ),
+    );
+    const groups = groupUnitsByLevel(course);
+    expect(groups.map((g) => [g.level.level, g.units.length])).toEqual([
+      ["A1", 4],
+      ["A2", 5],
+      ["B1", 62],
+    ]);
+    expect(groups[2]!.units[0]!.id).toBe("tb1-u01");
+  });
+});

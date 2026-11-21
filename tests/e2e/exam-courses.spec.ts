@@ -64,5 +64,26 @@ test("Profile → Course switches to telc B1 Exam Prep", async ({ page }) => {
   await dialog.getByRole("button", { name: "Save" }).click();
   await expect(page.getByTestId("course-value")).toHaveText("telc B1 Exam Prep");
   await page.goto("/");
+  // TELC-003: the course has A1, A2 and B1; with start level A1 the learner begins at A1.
+  await expect(page.getByTestId("course-caption")).toHaveText("telc B1 Exam Prep · A1");
+});
+
+test("telc B1: a confident learner sets the start level to B1 in Profile", async ({ page }) => {
+  await completeOnboarding(page);
+  await page.goto("/profile");
+  await page.getByRole("button", { name: "Change course" }).click();
+  const courseDialog = page.getByRole("dialog", { name: "Change course" });
+  await courseDialog.getByRole("radio", { name: /telc B1 Exam Prep/ }).click();
+  await courseDialog.getByRole("button", { name: "Save" }).click();
+  await expect(page.getByTestId("course-value")).toHaveText("telc B1 Exam Prep");
+
+  await page.getByRole("button", { name: "Change start level" }).click();
+  const levelDialog = page.getByRole("dialog", { name: "Change start level" });
+  await expect(levelDialog.getByRole("radio")).toHaveCount(3);
+  await levelDialog.getByRole("radio", { name: /B1 · telc exam/ }).click();
+  await levelDialog.getByRole("button", { name: "Save" }).click();
+  await expect(page.getByTestId("start-level-value")).toHaveText("B1 · telc exam");
+
+  await page.goto("/");
   await expect(page.getByTestId("course-caption")).toHaveText("telc B1 Exam Prep · B1");
 });
