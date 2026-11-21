@@ -89,6 +89,9 @@ test.describe("app shell navigation", () => {
     await page.keyboard.press("Tab");
     await expect(hearts).toBeFocused();
     await page.keyboard.press("Tab");
+    // PLT-027: without a goal date, the "Set a goal date" link is the next Tab stop.
+    await expect(page.getByRole("link", { name: "Set a goal date" })).toBeFocused();
+    await page.keyboard.press("Tab");
     // GAM-010 puts the current level's expand/collapse button (A1) before the first
     // lesson; Tab past it when it is there.
     const levelToggle = page.getByRole("button", { name: /\bA1\b/ });

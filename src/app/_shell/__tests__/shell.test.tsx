@@ -48,7 +48,8 @@ describe("app shell", () => {
     expect(main).not.toContainElement(nav);
     expect(main.className).toContain("env(safe-area-inset-bottom)");
 
-    // PLT-009: top bar, then the skill path, then the bottom nav in the Tab order.
+    // PLT-009: top bar, then (PLT-027) the goal-date link, then the skill path, then the
+    // bottom nav in the Tab order.
     // (jsdom has no IndexedDB: progress and hearts come from the in-memory fallback.)
     // The default course (en-de, CTO-008) is pm content: nodes are found by
     // "Unit N, Lesson M:" (GAM-010); the current level's header button comes first.
@@ -70,6 +71,9 @@ describe("app shell", () => {
     expect(screen.getByRole("link", { name: "Skip to content" })).toHaveFocus();
     await user.tab();
     expect(hearts).toHaveFocus();
+    // PLT-027: without a goal date, GAM-013's "Set a goal date" link sits above the path.
+    await user.tab();
+    expect(await screen.findByRole("link", { name: "Set a goal date" })).toHaveFocus();
     await user.tab();
     expect(level).toHaveFocus();
     await user.tab();

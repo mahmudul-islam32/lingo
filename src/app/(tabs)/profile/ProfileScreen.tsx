@@ -20,6 +20,7 @@ import { useCourse } from "@/lib/content";
 import { languageName } from "../../onboarding/course-labels";
 import { learnCourseId } from "../_learn/course-caption";
 import { DailyGoalRow } from "./DailyGoalRow";
+import { GoalDateRow } from "./GoalDateRow";
 import { StartLevelRow } from "./StartLevelRow";
 
 export const SETTINGS_ID = "settings";
@@ -90,6 +91,7 @@ export function ProfileScreen() {
           Settings
         </h2>
         <DailyGoalRow />
+        <GoalDateRow />
         <StartLevelRow />
       </section>
     </div>
