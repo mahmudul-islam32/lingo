@@ -1,6 +1,9 @@
 # Polyglow Roadmap
 
-**Owner:** pm · **Last updated:** 2026-11-20 (release acceptance PM-ACC4: v0.5.3 "Redesign"
+**Owner:** pm · **Last updated:** 2026-11-21 (marketing proposals review: v0.5.4 "Goal date"
+added with CTO-017, GAM-013, PLT-027, LES-022; v0.5.5 "Smart review", v0.5.6 "Life in Germany
+topics" and v0.7.0 "Habit protection" planned; v1.0.0 and Phase 2/3 updated; PD-071, PD-072).
+Before that 2026-11-20 (release acceptance PM-ACC4: v0.5.3 "Redesign"
 ready for release; FIX-006 … FIX-011 ticket files; v0.5.2 marked released; PD-067 … PD-070).
 Before that 2026-11-19 (v0.5.3 "Redesign" added: CTO-016, PLT-026,
 GAM-012, LES-021, PD-066). Before that 2026-11-18 (v0.5.2 "Start level and earn hearts" added:
@@ -397,6 +400,44 @@ CTO-016 goes first; PLT-026 and LES-021 then run in parallel, GAM-012 starts onc
 routes and nav are merged. Runs after v0.5.2 and in parallel with v0.5.1 and v0.6.0; it
 doesn't block v1.0.0. **Ready for release** when the four tickets are accepted.
 
+### v0.5.4 — Goal date (planned 2026-11-21, PD-071)
+
+**Milestone status: open.** Marketing proposal #1, accepted in PD-071. Needs no backend.
+
+**Goal:** a learner can set a target level and date in Profile; Learn shows lessons left,
+days to go and whether the daily goal gets them there, with a one-tap suggested goal; the
+results screen shows lessons left. Free (PD-072). Kind copy, no exam names (PD-035).
+
+| ID | Title | Owner | Priority | Depends on |
+|---|---|---|---|---|
+| CTO-017 | Contract: `settings.goalPlan`, `GoalPlanStatus`, `computeGoalPlan` signature, `goalPlanMaxDays` | cto | P1 | CTO-015 |
+| GAM-013 | `computeGoalPlan` rule, `useGoalPlan` hook, `GoalPlanCard` (5 statuses + no-plan link) | dev-gamification | P1 | CTO-017, GAM-003, GAM-006, GAM-011 |
+| PLT-027 | Profile "Goal date" row and dialog, Learn card mount, suggested-goal wiring, results wiring, e2e | dev-platform | P1 | CTO-017, GAM-013, LES-022 (AC 13), PLT-025, PLT-026 |
+| LES-022 | Results screen goal-date row | dev-lessons | P2 | CTO-017, LES-021 |
+
+**Parallel build plan:** CTO-017 first. Then GAM-013 and LES-022 in parallel (different
+folders). PLT-027 can build the Profile row and dialog against the contract at once and
+mounts the card and the results prop when GAM-013 and LES-022 are merged. Runs in parallel
+with v0.6.0 (blocked on the owner's hosted Supabase); doesn't block v1.0.0. **Ready for
+release** when the four tickets are accepted.
+
+### v0.5.5 — Smart review (planned, PD-071)
+
+**Goal:** Practice gets a "Review" session built from the exercises the learner got wrong or
+hasn't seen for a while (spaced repetition), free with no daily cap, earning hearts like
+Practice (PD-065). Local only. Tickets are written when v0.5.4 is close to done: a CTO
+contract ticket (per-exercise results stored on the device and in sync), a GAM ticket
+(selection rule, Practice entry), a LES ticket (review session in the player) and a PLT
+ticket (route, storage). IDs are assigned then.
+
+### v0.5.6 — Life in Germany topics (planned, PD-071)
+
+**Goal:** a "Topics" list (registering an address, the doctor, the supermarket, the train,
+the flat, work, letters) that shows the matching A1 / A2 lessons with their path state;
+locked lessons stay locked (PD-064). The pm maps topics to lessons (CON ticket); a CTO
+ticket decides whether topics are course data; a GAM ticket builds the list. Public topic
+landing pages wait for the public URL (v1.0.0).
+
 ### Later German levels (planned)
 
 | Milestone | Content | Content tickets (planned) | Tech needed (planned, curriculum §6) |
@@ -502,6 +543,20 @@ The pm writes the ticket files for PLT-010 … PLT-018 before the devs start the
 | PLT-017 | Settings screen (daily goal, sound, speaking exercises, appearance dark/light (PD-015), log out) | dev-platform |
 | PLT-018 | Onboarding "I already have an account" path | dev-platform |
 
+The goal plan (v0.5.4) travels with settings; CTO-017 AC 7 says where its column is added.
+Marketing proposal #2 (PD-071): v0.6.0 stays the top engineering priority the day the owner
+provides hosted Supabase; the public URL is an owner item.
+
+---
+
+## v0.7.0 — Habit protection (planned, PD-071)
+
+**Goal:** fewer broken streaks. Optional daily reminder (Web Push, opt-in, learner-chosen
+time; on iPhone only for the installed app) and **one free streak freeze a week**. After
+v0.6.0, because push needs a server and the freeze inventory should sync from day one.
+Doesn't block v1.0.0. Needs a cto note on push consent and GDPR wording first. Tickets are
+written after v0.6.0 starts.
+
 ---
 
 ## v1.0.0 — MVP launch polish (planned)
@@ -525,7 +580,10 @@ The pm writes the ticket files for PLT-010 … PLT-018 before the devs start the
 | CON-DE-SPK | German A1–A2 speak exercises and final `de-DE` audio references (with LES-011) | pm |
 | CON-DE-NR | Native-speaker review of A1 + A2 fixed (blocking for launch, PD-038). Prep: the A2 QA's scripted follow-ups (lexical token scan, word-bank permutation check) run before the reviewer starts (PM-ACC3) | pm |
 | CON-003 | UI microcopy review (kind feedback, empty/error states) | pm |
-| CTO-(tbd) | E2E in CI, TTS audio pipeline (waits on owner for the TTS licence, PRD Q7), release | cto |
+| CTO-(tbd) | E2E in CI, TTS audio pipeline (waits on owner for the TTS licence, PRD Q7), release. Recorded `de-DE` audio for every listen exercise is marketing proposal #3 (PD-071) | cto |
+| (planned) | Shareable level and streak card (Web Share API, Lumi, level, streak, app URL; "finished the A1 path", never "certified"). Trigger: public URL (PD-071) | tbd when written |
+| (planned) | Public "Life in Germany" topic landing pages from marketing copy. Trigger: public URL and domain (PD-071) | dev-platform |
+| (note) | Cookieless, consent-based analytics: cto technical note before PLT-019 (PD-071) | cto |
 
 ---
 
@@ -533,9 +591,10 @@ The pm writes the ticket files for PLT-010 … PLT-018 before the devs start the
 
 Ordered by expected impact on the PRD goals (G2 retention first):
 
-1. Streak freeze and streak repair
-2. Practice / review mode (spaced repetition of weak words) that earns hearts back
-3. Daily reminders via Web Push
+1. Streak freeze (now v0.7.0, PD-071) and streak repair
+2. ~~Practice / review mode (spaced repetition of weak words) that earns hearts back~~ now
+   v0.5.5 "Smart review" (PD-071)
+3. ~~Daily reminders via Web Push~~ now v0.7.0 (PD-071)
 4. Level checkpoints and "jump ahead" / placement tests for German (Spanish units 2–5 are
    "later" while Spanish is hidden, PD-030)
 5. Weekly XP leagues and leaderboards (Supabase Realtime), Leaderboard tab
@@ -546,11 +605,18 @@ Ordered by expected impact on the PRD goals (G2 retention first):
    diacritic tolerance, tap-to-hear word tiles
 9. Mascot animations and reactions across the lesson flow
 10. Apple sign-in
+11. Mock level checkpoint (timed, can-do report). **Deferred** (PD-071); trigger: B1 merged
+    and a go decision on paid plans
+12. "Polyglow Plus is coming" interest-test card. **Deferred** (PD-071); trigger: PLT-019
+    analytics live and the owner puts charging on the table
 
 ## Phase 3 (placeholders)
 
 Additional known languages for German (`uk-de`, `ar-de` with RTL, `tr-de`, `es-de`; PD-031,
-these need a localised UI), German electives (healthcare B1–B2, academic B2–C1), "deadline
-mode" (target level by date), stories and dialogue lessons, pronunciation scoring,
-subscription (pricing hypotheses in `market-analysis-german.md` §6), native wrappers (only
-if PWA limits block growth), teacher tools and B2B cohorts.
+these need a localised UI), German electives (healthcare B1–B2, academic B2–C1),
+~~"deadline mode" (target level by date)~~ (now v0.5.4 "Goal date"), stories and dialogue
+lessons, pronunciation scoring, subscription (only if the owner decides to charge; pricing
+position PD-072, hypotheses in `docs/marketing/pricing.md`), native wrappers (only if PWA
+limits block growth), teacher tools and B2B cohorts (marketing proposal #10, deferred: trigger
+v0.6.0 released, an organisation asks for a pilot, owner legal set-up, PD-071). AI
+conversation partner: rejected for now (PRD §7), revisit after B1.
