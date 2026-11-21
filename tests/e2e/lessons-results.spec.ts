@@ -148,8 +148,8 @@ test.describe("LES-008 lesson results", () => {
     const stats = page.getByRole("list", { name: "Lesson stats" });
     await expect(stats.getByRole("listitem").nth(4)).toContainText("Daily goal");
     const row = page.getByTestId("goal-date-row");
-    // The route passes the status from PLT-027 on; until then there is no row to check.
-    test.skip((await row.count()) === 0, "goal-date status not passed by the route yet (PLT-027)");
+    // The lesson route passes the goal-date status to the results screen (PLT-027 AC 13).
+    await expect(row).toBeVisible();
     await expect(stats.getByRole("listitem")).toHaveCount(6);
     await expect(stats.getByRole("listitem").nth(5)).toContainText(
       /^Goal: A2 by .+ lessons? left$/,
