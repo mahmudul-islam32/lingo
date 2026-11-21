@@ -1,0 +1,284 @@
+{
+  "id": "tb1-u12-l08-housing-moving-3",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u12",
+  "title": "Housing & Moving 3",
+  "tip": "Theme: Wohnen / Umzug (B1)",
+  "exercises": [
+    {
+      "id": "tb1-u12-l08-housing-moving-3-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "der Stock",
+          "known": "floor"
+        },
+        {
+          "id": "p2",
+          "learning": "der Aufzug",
+          "known": "lift"
+        },
+        {
+          "id": "p3",
+          "learning": "die Heizung",
+          "known": "heating"
+        },
+        {
+          "id": "p4",
+          "learning": "die Möbel",
+          "known": "furniture"
+        },
+        {
+          "id": "p5",
+          "learning": "umziehen",
+          "known": "to move house"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u12-l08-housing-moving-3-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „floor: on the third floor · ground floor“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Umgebung"
+        },
+        {
+          "id": "b",
+          "text": "die Kaution, die Kautionen"
+        },
+        {
+          "id": "c",
+          "text": "der Stock, die Stockwerke, im dritten Stock · das Erdgeschoss"
+        },
+        {
+          "id": "d",
+          "text": "die Miete, die Mieten"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**der Stock, die Stockwerke, im dritten Stock · das Erdgeschoss** = floor: on the third floor · ground floor\n\n*Example:* Meine Schwester wohnt im dritten Stock, ich im Erdgeschoss.\nMy sister lives on the third floor, I live on the ground floor."
+    },
+    {
+      "id": "tb1-u12-l08-housing-moving-3-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „lift, elevator“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Miete, die Mieten"
+        },
+        {
+          "id": "b",
+          "text": "der Aufzug, die Aufzüge"
+        },
+        {
+          "id": "c",
+          "text": "der Nachbar, die Nachbarn (n-Dekl.) / die Nachbarin, die Nachbarinnen"
+        },
+        {
+          "id": "d",
+          "text": "die Kaution, die Kautionen"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**der Aufzug** = lift, elevator\n*Plural: die Aufzüge*\n\n*Example:* Der Aufzug ist kaputt, also nehmen wir die Treppe.\nThe lift is broken, so we're taking the stairs."
+    },
+    {
+      "id": "tb1-u12-l08-housing-moving-3-ex04",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u12-l08-housing-moving-3-1.mp3"
+      },
+      "tiles": [
+        "Stock",
+        "im",
+        "dieser",
+        "am",
+        "Erdgeschoss",
+        "im",
+        "ich",
+        "wohnt",
+        "Meine",
+        "dritten",
+        "Urlaub",
+        "Schwester"
+      ],
+      "answers": [
+        "Meine Schwester wohnt im dritten Stock, ich im Erdgeschoss."
+      ],
+      "explanation": "Meine Schwester wohnt im dritten Stock, ich im Erdgeschoss.\n*My sister lives on the third floor, I live on the ground floor.*\n\n**der Stock, die Stockwerke, im dritten Stock · das Erdgeschoss** = floor: on the third floor · ground floor"
+    },
+    {
+      "id": "tb1-u12-l08-housing-moving-3-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „heating“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "der Aufzug, die Aufzüge"
+        },
+        {
+          "id": "b",
+          "text": "der Lärm (nur Sg.), laut ↔ ruhig"
+        },
+        {
+          "id": "c",
+          "text": "der Nachbar, die Nachbarn (n-Dekl.) / die Nachbarin, die Nachbarinnen"
+        },
+        {
+          "id": "d",
+          "text": "die Heizung, die Heizungen"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**die Heizung** = heating\n*Plural: die Heizungen*\n\n*Example:* Im Winter funktioniert die Heizung in meinem Zimmer nicht.\nIn winter the heating in my room doesn't work."
+    },
+    {
+      "id": "tb1-u12-l08-housing-moving-3-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Der Aufzug ist kaputt, also nehmen wir die Treppe.",
+      "tiles": [
+        "we're",
+        "the",
+        "lift",
+        "flat",
+        "broken",
+        "is",
+        "stairs",
+        "My",
+        "she's",
+        "so",
+        "The",
+        "taking"
+      ],
+      "answers": [
+        "The lift is broken, so we're taking the stairs."
+      ],
+      "explanation": "**der Aufzug** = lift, elevator\n*Plural: die Aufzüge*"
+    },
+    {
+      "id": "tb1-u12-l08-housing-moving-3-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „furniture: furnished“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "der Stock, die Stockwerke, im dritten Stock · das Erdgeschoss"
+        },
+        {
+          "id": "b",
+          "text": "die Heizung, die Heizungen"
+        },
+        {
+          "id": "c",
+          "text": "der Mietvertrag, die Mietverträge"
+        },
+        {
+          "id": "d",
+          "text": "die Möbel (Pl.), möbliert"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**die Möbel (Pl.), möbliert** = furniture: furnished\n\n*Example:* Das Zimmer ist möbliert, wir brauchen also keine Möbel.\nThe room is furnished, so we don't need any furniture."
+    },
+    {
+      "id": "tb1-u12-l08-housing-moving-3-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "In winter the heating in my room doesn't work.",
+      "tiles": [
+        "Winter",
+        "Zimmer",
+        "meinem",
+        "Der",
+        "die",
+        "in",
+        "funktioniert",
+        "nicht",
+        "geworden",
+        "Nachbarin",
+        "Heizung",
+        "Im"
+      ],
+      "answers": [
+        "Im Winter funktioniert die Heizung in meinem Zimmer nicht."
+      ],
+      "explanation": "**die Heizung** = heating\n*Plural: die Heizungen*"
+    },
+    {
+      "id": "tb1-u12-l08-housing-moving-3-ex09",
+      "type": "multiple_choice",
+      "prompt": "Which verb means „to move house: the move“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "der Mietvertrag, die Mietverträge"
+        },
+        {
+          "id": "b",
+          "text": "einziehen ↔ ausziehen (ist ein-/ausgezogen)"
+        },
+        {
+          "id": "c",
+          "text": "renovieren (hat renoviert)"
+        },
+        {
+          "id": "d",
+          "text": "umziehen (ist umgezogen): der Umzug, die Umzüge"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**umziehen (ist umgezogen): der Umzug, die Umzüge** = to move house: the move\n\n*Example:* Nächsten Monat ziehen wir nach Leipzig um.\nNext month we're moving to Leipzig."
+    },
+    {
+      "id": "tb1-u12-l08-housing-moving-3-ex10",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u12-l08-housing-moving-3-4.mp3"
+      },
+      "tiles": [
+        "die",
+        "möbliert",
+        "keine",
+        "Balkon",
+        "also",
+        "brauchen",
+        "wir",
+        "sie",
+        "Möbel",
+        "Das",
+        "ist",
+        "Zimmer"
+      ],
+      "answers": [
+        "Das Zimmer ist möbliert, wir brauchen also keine Möbel."
+      ],
+      "explanation": "Das Zimmer ist möbliert, wir brauchen also keine Möbel.\n*The room is furnished, so we don't need any furniture.*\n\n**die Möbel (Pl.), möbliert** = furniture: furnished"
+    },
+    {
+      "id": "tb1-u12-l08-housing-moving-3-ex11",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Nächsten Monat ziehen wir nach Leipzig um.",
+      "tiles": [
+        "room",
+        "city",
+        "to",
+        "we're",
+        "moving",
+        "month",
+        "The",
+        "Leipzig",
+        "Next"
+      ],
+      "answers": [
+        "Next month we're moving to Leipzig."
+      ],
+      "explanation": "**umziehen (ist umgezogen): der Umzug, die Umzüge** = to move house: the move"
+    }
+  ]
+}

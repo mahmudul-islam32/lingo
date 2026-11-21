@@ -1,0 +1,326 @@
+{
+  "id": "tb1-u36-l02-irregular-verbs-perfekt-1",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u36",
+  "title": "Irregular verbs: Perfekt 1",
+  "exercises": [
+    {
+      "id": "tb1-u36-l02-irregular-verbs-perfekt-1-ex01",
+      "type": "explain",
+      "title": "Irregular verbs: Perfekt (Unregelmäßige Verben: Partizip Perfekt)",
+      "body": "Irregular past participles with their auxiliary (sein for movement/change of state, otherwise haben).\n\n- Infinitiv **gehen** → Perfekt: ist gegangen · English: go\n- Infinitiv **fahren** → Perfekt: ist gefahren · English: drive/go\n- Infinitiv **kommen** → Perfekt: ist gekommen · English: come\n- Infinitiv **fliegen** → Perfekt: ist geflogen · English: fly\n- Infinitiv **bleiben** → Perfekt: ist geblieben · English: stay\n- Infinitiv **werden** → Perfekt: ist geworden · English: become\n- Infinitiv **essen** → Perfekt: hat gegessen · English: eat\n- Infinitiv **trinken** → Perfekt: hat getrunken · English: drink\n- Infinitiv **nehmen** → Perfekt: hat genommen · English: take\n- Infinitiv **geben** → Perfekt: hat gegeben · English: give\n- Infinitiv **sehen** → Perfekt: hat gesehen · English: see\n- Infinitiv **lesen** → Perfekt: hat gelesen · English: read\n- Infinitiv **schreiben** → Perfekt: hat geschrieben · English: write\n- Infinitiv **sprechen** → Perfekt: hat gesprochen · English: speak\n- Infinitiv **helfen** → Perfekt: hat geholfen · English: help\n- Infinitiv **finden** → Perfekt: hat gefunden · English: find\n- Infinitiv **denken** → Perfekt: hat gedacht · English: think\n- Infinitiv **bringen** → Perfekt: hat gebracht · English: bring\n- Infinitiv **wissen** → Perfekt: hat gewusst · English: know\n- Infinitiv **treffen** → Perfekt: hat getroffen · English: meet\n- Infinitiv **verstehen** → Perfekt: hat verstanden · English: understand\n- Infinitiv **beginnen** → Perfekt: hat begonnen · English: begin\n- Infinitiv **schlafen** → Perfekt: hat geschlafen · English: sleep\n- Infinitiv **anrufen** → Perfekt: hat angerufen · English: call\n\nBewegung/Zustandswechsel → **sein**; sonst **haben**. Trennbar: an**ge**rufen. Auf -ieren & un­trennbar (be-, ver-, er-…): OHNE ge- (studiert, besucht, verstanden)."
+    },
+    {
+      "id": "tb1-u36-l02-irregular-verbs-perfekt-1-ex02",
+      "type": "choice",
+      "title": "Perfekt",
+      "prompt": "Perfekt von „gehen“ (go): Ich ___",
+      "options": [
+        {
+          "id": "a",
+          "text": "ist gegangen"
+        },
+        {
+          "id": "b",
+          "text": "hat verstanden"
+        },
+        {
+          "id": "c",
+          "text": "hat begonnen"
+        },
+        {
+          "id": "d",
+          "text": "hat geschlafen"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**gehen** → **ist gegangen** (go)"
+    },
+    {
+      "id": "tb1-u36-l02-irregular-verbs-perfekt-1-ex03",
+      "type": "choice",
+      "title": "Perfekt",
+      "prompt": "Perfekt von „fahren“ (drive/go): Ich ___",
+      "options": [
+        {
+          "id": "a",
+          "text": "hat genommen"
+        },
+        {
+          "id": "b",
+          "text": "ist geflogen"
+        },
+        {
+          "id": "c",
+          "text": "ist gefahren"
+        },
+        {
+          "id": "d",
+          "text": "ist gekommen"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**fahren** → **ist gefahren** (drive/go)"
+    },
+    {
+      "id": "tb1-u36-l02-irregular-verbs-perfekt-1-ex04",
+      "type": "choice",
+      "title": "Perfekt",
+      "prompt": "Perfekt von „kommen“ (come): Ich ___",
+      "options": [
+        {
+          "id": "a",
+          "text": "hat gesprochen"
+        },
+        {
+          "id": "b",
+          "text": "hat gefunden"
+        },
+        {
+          "id": "c",
+          "text": "ist gekommen"
+        },
+        {
+          "id": "d",
+          "text": "hat begonnen"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**kommen** → **ist gekommen** (come)"
+    },
+    {
+      "id": "tb1-u36-l02-irregular-verbs-perfekt-1-ex05",
+      "type": "choice",
+      "title": "Perfekt",
+      "prompt": "Perfekt von „fliegen“ (fly): Ich ___",
+      "options": [
+        {
+          "id": "a",
+          "text": "hat getroffen"
+        },
+        {
+          "id": "b",
+          "text": "ist geflogen"
+        },
+        {
+          "id": "c",
+          "text": "ist gefahren"
+        },
+        {
+          "id": "d",
+          "text": "ist gegangen"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**fliegen** → **ist geflogen** (fly)"
+    },
+    {
+      "id": "tb1-u36-l02-irregular-verbs-perfekt-1-ex06",
+      "type": "choice",
+      "title": "Perfekt",
+      "prompt": "Perfekt von „bleiben“ (stay): Ich ___",
+      "options": [
+        {
+          "id": "a",
+          "text": "ist geblieben"
+        },
+        {
+          "id": "b",
+          "text": "hat getrunken"
+        },
+        {
+          "id": "c",
+          "text": "hat geschlafen"
+        },
+        {
+          "id": "d",
+          "text": "hat geholfen"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**bleiben** → **ist geblieben** (stay)"
+    },
+    {
+      "id": "tb1-u36-l02-irregular-verbs-perfekt-1-ex07",
+      "type": "choice",
+      "title": "Perfekt",
+      "prompt": "Perfekt von „werden“ (become): Ich ___",
+      "options": [
+        {
+          "id": "a",
+          "text": "hat geholfen"
+        },
+        {
+          "id": "b",
+          "text": "ist geworden"
+        },
+        {
+          "id": "c",
+          "text": "hat gebracht"
+        },
+        {
+          "id": "d",
+          "text": "ist geblieben"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**werden** → **ist geworden** (become)"
+    },
+    {
+      "id": "tb1-u36-l02-irregular-verbs-perfekt-1-ex08",
+      "type": "choice",
+      "title": "Perfekt",
+      "prompt": "Perfekt von „essen“ (eat): Ich ___",
+      "options": [
+        {
+          "id": "a",
+          "text": "ist gekommen"
+        },
+        {
+          "id": "b",
+          "text": "hat gewusst"
+        },
+        {
+          "id": "c",
+          "text": "hat gebracht"
+        },
+        {
+          "id": "d",
+          "text": "hat gegessen"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**essen** → **hat gegessen** (eat)"
+    },
+    {
+      "id": "tb1-u36-l02-irregular-verbs-perfekt-1-ex09",
+      "type": "choice",
+      "title": "Perfekt",
+      "prompt": "Perfekt von „trinken“ (drink): Ich ___",
+      "options": [
+        {
+          "id": "a",
+          "text": "hat gegeben"
+        },
+        {
+          "id": "b",
+          "text": "hat begonnen"
+        },
+        {
+          "id": "c",
+          "text": "hat getrunken"
+        },
+        {
+          "id": "d",
+          "text": "ist geworden"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**trinken** → **hat getrunken** (drink)"
+    },
+    {
+      "id": "tb1-u36-l02-irregular-verbs-perfekt-1-ex10",
+      "type": "choice",
+      "title": "Perfekt",
+      "prompt": "Perfekt von „nehmen“ (take): Ich ___",
+      "options": [
+        {
+          "id": "a",
+          "text": "hat genommen"
+        },
+        {
+          "id": "b",
+          "text": "hat gelesen"
+        },
+        {
+          "id": "c",
+          "text": "hat gesprochen"
+        },
+        {
+          "id": "d",
+          "text": "hat getrunken"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**nehmen** → **hat genommen** (take)"
+    },
+    {
+      "id": "tb1-u36-l02-irregular-verbs-perfekt-1-ex11",
+      "type": "choice",
+      "title": "Perfekt",
+      "prompt": "Perfekt von „geben“ (give): Ich ___",
+      "options": [
+        {
+          "id": "a",
+          "text": "hat genommen"
+        },
+        {
+          "id": "b",
+          "text": "hat gegeben"
+        },
+        {
+          "id": "c",
+          "text": "hat gesprochen"
+        },
+        {
+          "id": "d",
+          "text": "hat gedacht"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**geben** → **hat gegeben** (give)"
+    },
+    {
+      "id": "tb1-u36-l02-irregular-verbs-perfekt-1-ex12",
+      "type": "choice",
+      "title": "Perfekt",
+      "prompt": "Perfekt von „sehen“ (see): Ich ___",
+      "options": [
+        {
+          "id": "a",
+          "text": "hat gesprochen"
+        },
+        {
+          "id": "b",
+          "text": "ist gekommen"
+        },
+        {
+          "id": "c",
+          "text": "ist gegangen"
+        },
+        {
+          "id": "d",
+          "text": "hat gesehen"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**sehen** → **hat gesehen** (see)"
+    },
+    {
+      "id": "tb1-u36-l02-irregular-verbs-perfekt-1-ex13",
+      "type": "choice",
+      "title": "Perfekt",
+      "prompt": "Perfekt von „lesen“ (read): Ich ___",
+      "options": [
+        {
+          "id": "a",
+          "text": "hat gelesen"
+        },
+        {
+          "id": "b",
+          "text": "hat genommen"
+        },
+        {
+          "id": "c",
+          "text": "ist gekommen"
+        },
+        {
+          "id": "d",
+          "text": "ist gegangen"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**lesen** → **hat gelesen** (read)"
+    }
+  ]
+}

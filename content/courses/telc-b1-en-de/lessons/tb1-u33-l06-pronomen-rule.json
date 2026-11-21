@@ -1,0 +1,129 @@
+{
+  "id": "tb1-u33-l06-pronomen-rule",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u33",
+  "title": "Pronouns & Possessives: the rule",
+  "tip": "sein vs. ihr: Peter und sein Auto, Maria und ihr Auto. In formal letters: Sie/Ihnen/Ihr ALWAYS capitalised.",
+  "exercises": [
+    {
+      "id": "tb1-u33-l06-pronomen-rule-ex01",
+      "type": "explain",
+      "title": "Pronouns & Possessives",
+      "body": "Accusative: mich, dich, ihn, sie, es, uns, euch, sie/Sie · dative: mir, dir, **ihm, ihr, ihm**, uns, euch, **ihnen/Ihnen**. Possessives: mein, dein, sein (er/es), **ihr** (sie), unser, euer, ihr/Ihr. Order: “Ich gebe **es ihm**” (accusative pronoun first).\n\n*Deutsch:* Akkusativ: mich, dich, ihn, sie, es, uns, euch, sie/Sie · Dativ: mir, dir, **ihm, ihr, ihm**, uns, euch, **ihnen/Ihnen**. Possessiv: mein, dein, sein (er/es), **ihr** (sie), unser, euer, ihr/Ihr. Reihenfolge: „Ich gebe **es ihm**“ (Akk.-Pronomen zuerst).\n\n*German name:* Pronomen & Possessiv",
+      "examples": [
+        {
+          "learning": "Kannst du mir dein Wörterbuch leihen?",
+          "known": "Can you lend me your dictionary?"
+        },
+        {
+          "learning": "Ich gebe es dir morgen zurück.",
+          "known": "I'll give it back to you tomorrow. (es before dir)"
+        },
+        {
+          "learning": "Maria und ihr Mann besuchen uns.",
+          "known": "Maria and her husband are visiting us."
+        }
+      ]
+    },
+    {
+      "id": "tb1-u33-l06-pronomen-rule-ex02",
+      "type": "explain",
+      "title": "Pronouns & Possessives: step by step",
+      "body": "Three building blocks:\n1) **Personal pronouns**: learn the two rows like a chant: mich-dich-ihn-sie-es-uns-euch-sie · mir-dir-ihm-ihr-ihm-uns-euch-ihnen.\n2) **Possessives**, who owns it? er → **sein** Auto · sie → **ihr** Auto · Sie → **Ihr** (capital!). Endings like ein/kein: mit mein**er** Schwester, für unser**en** Sohn.\n3) **Order in the middle field**: noun+noun → dative first (Ich gebe dem Mann das Buch) · two pronouns → accusative first (Ich gebe **es ihm**) · pronoun before noun (Ich gebe ihm das Buch).\nPolite forms in letters always capitalised: Ihnen, Ihr, Sie.\n\n## Auf Deutsch\n\nDrei Bausteine:\n1) **Personalpronomen**: lerne die zwei Reihen als Rap: mich-dich-ihn-sie-es-uns-euch-sie · mir-dir-ihm-ihr-ihm-uns-euch-ihnen.\n2) **Possessiv**, wer besitzt? er → **sein** Auto · sie → **ihr** Auto · Sie → **Ihr** (groß!). Endungen wie ein/kein: mit mein**er** Schwester, für unser**en** Sohn.\n3) **Reihenfolge im Mittelfeld**: Nomen+Nomen → Dativ zuerst (Ich gebe dem Mann das Buch) · zwei Pronomen → Akkusativ zuerst (Ich gebe **es ihm**) · Pronomen vor Nomen (Ich gebe ihm das Buch).\nHöflichkeitsform im Brief immer groß: Ihnen, Ihr, Sie.",
+      "examples": [
+        {
+          "learning": "Kannst du mir dein Wörterbuch leihen?",
+          "known": "Can you lend me your dictionary?"
+        },
+        {
+          "learning": "Ich gebe es dir morgen zurück.",
+          "known": "I'll give it back to you tomorrow. (es before dir)"
+        },
+        {
+          "learning": "Maria und ihr Mann besuchen uns.",
+          "known": "Maria and her husband are visiting us."
+        },
+        {
+          "learning": "Vielen Dank für Ihre schnelle Antwort.",
+          "known": "Thank you for your quick reply. (capital Ihre!)"
+        },
+        {
+          "learning": "Testlücke-Stil: „Das ist Peter mit ___ Schwester.“ → seiner",
+          "known": "er → sein + dative feminine → seiner"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u33-l06-pronomen-rule-ex03",
+      "type": "explain",
+      "title": "Watch out & exam tip",
+      "body": "## Common trap\n\nsein vs. ihr: Peter und **sein** Auto, Maria und **ihr** Auto. In formal letters: Sie/Ihnen/Ihr ALWAYS capitalised.\n\n*Deutsch:* sein vs. ihr: Peter und **sein** Auto, Maria und **ihr** Auto. Im formellen Brief: Sie/Ihnen/Ihr IMMER groß.\n\n## In the exam\n\n🎯 How telc tests it: **Sprachbausteine part 2** puts ihm/ihn/ihr/sein/ihre in the word bank. In the **formal letter**, raters check capital Sie/Ihnen/Ihr, a small error with a visible impression.\n\n*Deutsch:* 🎯 So testet telc das: **Sprachbausteine Teil 2** packt ihm/ihn/ihr/sein/ihre in die Wortbank. Im **formellen Brief** prüft der Bewerter die Großschreibung von Sie/Ihnen/Ihr, kleiner Fehler, sichtbarer Eindruck.\n\n*Source:* Guide B1"
+    },
+    {
+      "id": "tb1-u33-l06-pronomen-rule-ex04",
+      "type": "choice",
+      "title": "Fill the gap",
+      "prompt": "Das ist Maria und das ist ___ Hund.",
+      "options": [
+        {
+          "id": "a",
+          "text": "sein"
+        },
+        {
+          "id": "b",
+          "text": "ihre"
+        },
+        {
+          "id": "c",
+          "text": "ihr"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Besitzerin feminin → ihr Hund (der Hund, maskulin Nominativ → keine Endung)."
+    },
+    {
+      "id": "tb1-u33-l06-pronomen-rule-ex05",
+      "type": "choice",
+      "title": "Fill the gap",
+      "prompt": "Ich habe das Buch gelesen und gebe ___ dir morgen zurück.",
+      "options": [
+        {
+          "id": "a",
+          "text": "ihm"
+        },
+        {
+          "id": "b",
+          "text": "ihn"
+        },
+        {
+          "id": "c",
+          "text": "es"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "das Buch → es (Akkusativ neutral)."
+    },
+    {
+      "id": "tb1-u33-l06-pronomen-rule-ex06",
+      "type": "choice",
+      "title": "Fill the gap",
+      "prompt": "Hast du mit ___ schon über das Problem gesprochen?",
+      "options": [
+        {
+          "id": "a",
+          "text": "ihn"
+        },
+        {
+          "id": "b",
+          "text": "ihm"
+        },
+        {
+          "id": "c",
+          "text": "er"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "mit + Dativ → ihm."
+    }
+  ]
+}

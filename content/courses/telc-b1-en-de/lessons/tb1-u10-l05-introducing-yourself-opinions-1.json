@@ -1,0 +1,198 @@
+{
+  "id": "tb1-u10-l05-introducing-yourself-opinions-1",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u10",
+  "title": "Introducing Yourself & Opinions 1",
+  "tip": "Theme: Sätze: Sich vorstellen & Meinung (A2)",
+  "exercises": [
+    {
+      "id": "tb1-u10-l05-introducing-yourself-opinions-1-ex01",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means „I've been living in Germany for three years.“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ich lebe seit drei Jahren in Deutschland."
+        },
+        {
+          "id": "b",
+          "text": "Ich finde dieses Thema sehr interessant."
+        },
+        {
+          "id": "c",
+          "text": "In meiner Freizeit spiele ich gern Fußball."
+        },
+        {
+          "id": "d",
+          "text": "Ich bin mir nicht ganz sicher, aber ich glaube …"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Ich lebe seit drei Jahren in Deutschland.** = I've been living in Germany for three years.\n\n*Example:* Ich lebe seit drei Jahren in Deutschland.\nI've been living in Germany for three years."
+    },
+    {
+      "id": "tb1-u10-l05-introducing-yourself-opinions-1-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means „In my free time I like playing football.“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ich lebe seit drei Jahren in Deutschland."
+        },
+        {
+          "id": "b",
+          "text": "Ich lerne Deutsch, weil ich hier arbeiten möchte."
+        },
+        {
+          "id": "c",
+          "text": "Meiner Erfahrung nach ist das oft so."
+        },
+        {
+          "id": "d",
+          "text": "In meiner Freizeit spiele ich gern Fußball."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**In meiner Freizeit spiele ich gern Fußball.** = In my free time I like playing football.\n\n*Example:* In meiner Freizeit spiele ich gern Fußball.\nIn my free time I like playing football."
+    },
+    {
+      "id": "tb1-u10-l05-introducing-yourself-opinions-1-ex03",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Ich lebe seit drei Jahren in Deutschland.",
+      "tiles": [
+        "in",
+        "I've",
+        "been",
+        "years",
+        "want",
+        "work",
+        "Germany",
+        "for",
+        "the",
+        "three",
+        "living"
+      ],
+      "answers": [
+        "I've been living in Germany for three years."
+      ],
+      "explanation": "**Ich lebe seit drei Jahren in Deutschland.** = I've been living in Germany for three years."
+    },
+    {
+      "id": "tb1-u10-l05-introducing-yourself-opinions-1-ex04",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means „I'm learning German because I want to work here.“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ich lerne Deutsch, weil ich hier arbeiten möchte."
+        },
+        {
+          "id": "b",
+          "text": "Meiner Erfahrung nach ist das oft so."
+        },
+        {
+          "id": "c",
+          "text": "Das ist für mich schwer zu sagen."
+        },
+        {
+          "id": "d",
+          "text": "Ich lebe seit drei Jahren in Deutschland."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Ich lerne Deutsch, weil ich hier arbeiten möchte.** = I'm learning German because I want to work here.\n\n*Example:* Ich lerne Deutsch, weil ich hier arbeiten möchte.\nI'm learning German because I want to work here."
+    },
+    {
+      "id": "tb1-u10-l05-introducing-yourself-opinions-1-ex05",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "In my free time I like playing football.",
+      "tiles": [
+        "die",
+        "spiele",
+        "Freizeit",
+        "lerne",
+        "Muttersprache",
+        "gern",
+        "meiner",
+        "Fußball",
+        "In",
+        "ich"
+      ],
+      "answers": [
+        "In meiner Freizeit spiele ich gern Fußball."
+      ],
+      "explanation": "**In meiner Freizeit spiele ich gern Fußball.** = In my free time I like playing football."
+    },
+    {
+      "id": "tb1-u10-l05-introducing-yourself-opinions-1-ex06",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means „My mother tongue is Bengali.“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "In meiner Freizeit spiele ich gern Fußball."
+        },
+        {
+          "id": "b",
+          "text": "Ich lerne Deutsch, weil ich hier arbeiten möchte."
+        },
+        {
+          "id": "c",
+          "text": "Meine Muttersprache ist Bengali."
+        },
+        {
+          "id": "d",
+          "text": "Ich bin mir nicht ganz sicher, aber ich glaube …"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**Meine Muttersprache ist Bengali.** = My mother tongue is Bengali.\n\n*Example:* Meine Muttersprache ist Bengali.\nMy mother tongue is Bengali."
+    },
+    {
+      "id": "tb1-u10-l05-introducing-yourself-opinions-1-ex07",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u10-l05-introducing-yourself-opinions-1-3.mp3"
+      },
+      "tiles": [
+        "glaube",
+        "arbeiten",
+        "lerne",
+        "bin",
+        "Ich",
+        "weil",
+        "hier",
+        "ich",
+        "Erfahrung",
+        "Deutsch",
+        "möchte"
+      ],
+      "answers": [
+        "Ich lerne Deutsch, weil ich hier arbeiten möchte."
+      ],
+      "explanation": "Ich lerne Deutsch, weil ich hier arbeiten möchte.\n*I'm learning German because I want to work here.*\n\n**Ich lerne Deutsch, weil ich hier arbeiten möchte.** = I'm learning German because I want to work here."
+    },
+    {
+      "id": "tb1-u10-l05-introducing-yourself-opinions-1-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Meine Muttersprache ist Bengali.",
+      "tiles": [
+        "very",
+        "is",
+        "My",
+        "Bengali",
+        "tongue",
+        "In",
+        "learning",
+        "mother"
+      ],
+      "answers": [
+        "My mother tongue is Bengali."
+      ],
+      "explanation": "**Meine Muttersprache ist Bengali.** = My mother tongue is Bengali."
+    }
+  ]
+}

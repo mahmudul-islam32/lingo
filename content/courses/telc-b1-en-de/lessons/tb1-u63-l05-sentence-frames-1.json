@@ -1,0 +1,194 @@
+{
+  "id": "tb1-u63-l05-sentence-frames-1",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u63",
+  "title": "Sentence frames (Satzrahmen) 1",
+  "tip": "Take the frame, fill the gap with your content.",
+  "exercises": [
+    {
+      "id": "tb1-u63-l05-sentence-frames-1-ex01",
+      "type": "choice",
+      "title": "Satzrahmen · Meinung",
+      "prompt": "Welcher Satzrahmen passt zur Funktion „Meinung“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ich bin der Meinung, dass ___."
+        },
+        {
+          "id": "b",
+          "text": "Ich schlage vor, dass ___."
+        },
+        {
+          "id": "c",
+          "text": "Ich schreibe Ihnen, weil ___."
+        },
+        {
+          "id": "d",
+          "text": "Könnten Sie mir bitte ___?"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "„Ich bin der Meinung, dass …“ + Verb am Ende."
+    },
+    {
+      "id": "tb1-u63-l05-sentence-frames-1-ex02",
+      "type": "task",
+      "skill": "writing",
+      "title": "Satzrahmen: Meinung",
+      "task": "Deine Meinung: Sollten Kinder ein Handy haben?\n\nUse this frame and fill the gap with your own content:\n**Ich bin der Meinung, dass ___.**",
+      "phrases": [
+        "Ich bin der Meinung, dass ___."
+      ],
+      "modelAnswer": "Ich bin der Meinung, dass Kinder erst ab zwölf Jahren ein Handy haben sollten.\n\n„Ich bin der Meinung, dass …“ + Verb am Ende."
+    },
+    {
+      "id": "tb1-u63-l05-sentence-frames-1-ex03",
+      "type": "choice",
+      "title": "Satzrahmen · Meinung",
+      "prompt": "Welcher Satzrahmen passt zur Funktion „Meinung“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Meiner Meinung nach ___ (Verb an 2!)."
+        },
+        {
+          "id": "b",
+          "text": "Wie wäre es, wenn wir ___?"
+        },
+        {
+          "id": "c",
+          "text": "Könnten Sie mir bitte ___?"
+        },
+        {
+          "id": "d",
+          "text": "Ich schlage vor, dass ___."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Nach „Meiner Meinung nach“ kommt sofort das Verb (Position 2)."
+    },
+    {
+      "id": "tb1-u63-l05-sentence-frames-1-ex04",
+      "type": "task",
+      "skill": "writing",
+      "title": "Satzrahmen: Meinung",
+      "task": "Deine Meinung: Homeoffice\n\nUse this frame and fill the gap with your own content:\n**Meiner Meinung nach ___ (Verb an 2!).**",
+      "phrases": [
+        "Meiner Meinung nach ___ (Verb an 2!)."
+      ],
+      "modelAnswer": "Meiner Meinung nach ist Homeoffice sehr praktisch für Familien.\n\nNach „Meiner Meinung nach“ kommt sofort das Verb (Position 2)."
+    },
+    {
+      "id": "tb1-u63-l05-sentence-frames-1-ex05",
+      "type": "choice",
+      "title": "Satzrahmen · Begründung",
+      "prompt": "Welcher Satzrahmen passt zur Funktion „Begründung“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ein gutes Beispiel dafür ist ___."
+        },
+        {
+          "id": "b",
+          "text": "Der Grund dafür ist, dass ___."
+        },
+        {
+          "id": "c",
+          "text": "Ich habe die Erfahrung gemacht, dass ___."
+        },
+        {
+          "id": "d",
+          "text": "Ich vermute, dass ___ / Vielleicht ___."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Elegante Alternative zu „weil“ am Satzanfang."
+    },
+    {
+      "id": "tb1-u63-l05-sentence-frames-1-ex06",
+      "type": "task",
+      "skill": "writing",
+      "title": "Satzrahmen: Begründung",
+      "task": "Warum lernst du Deutsch?\n\nUse this frame and fill the gap with your own content:\n**Der Grund dafür ist, dass ___.**",
+      "phrases": [
+        "Der Grund dafür ist, dass ___."
+      ],
+      "modelAnswer": "Der Grund dafür ist, dass ich in Deutschland eine Arbeit finden möchte.\n\nElegante Alternative zu „weil“ am Satzanfang."
+    },
+    {
+      "id": "tb1-u63-l05-sentence-frames-1-ex07",
+      "type": "choice",
+      "title": "Satzrahmen · Vorschlag",
+      "prompt": "Welcher Satzrahmen passt zur Funktion „Vorschlag“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Könnten Sie mir bitte ___?"
+        },
+        {
+          "id": "b",
+          "text": "Ich vermute, dass ___ / Vielleicht ___."
+        },
+        {
+          "id": "c",
+          "text": "Ein gutes Beispiel dafür ist ___."
+        },
+        {
+          "id": "d",
+          "text": "Wie wäre es, wenn wir ___?"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Höflicher Vorschlag im Konjunktiv II."
+    },
+    {
+      "id": "tb1-u63-l05-sentence-frames-1-ex08",
+      "type": "task",
+      "skill": "writing",
+      "title": "Satzrahmen: Vorschlag",
+      "task": "Schlag ein Treffen vor.\n\nUse this frame and fill the gap with your own content:\n**Wie wäre es, wenn wir ___?**",
+      "phrases": [
+        "Wie wäre es, wenn wir ___?"
+      ],
+      "modelAnswer": "Wie wäre es, wenn wir uns am Samstag um drei Uhr treffen?\n\nHöflicher Vorschlag im Konjunktiv II."
+    },
+    {
+      "id": "tb1-u63-l05-sentence-frames-1-ex09",
+      "type": "choice",
+      "title": "Satzrahmen · Vorschlag",
+      "prompt": "Welcher Satzrahmen passt zur Funktion „Vorschlag“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Einerseits ___, andererseits ___."
+        },
+        {
+          "id": "b",
+          "text": "Der Grund dafür ist, dass ___."
+        },
+        {
+          "id": "c",
+          "text": "Ich habe die Erfahrung gemacht, dass ___."
+        },
+        {
+          "id": "d",
+          "text": "Ich schlage vor, dass ___."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Verb am Ende nach „dass“."
+    },
+    {
+      "id": "tb1-u63-l05-sentence-frames-1-ex10",
+      "type": "task",
+      "skill": "writing",
+      "title": "Satzrahmen: Vorschlag",
+      "task": "Schlag vor, wer was mitbringt.\n\nUse this frame and fill the gap with your own content:\n**Ich schlage vor, dass ___.**",
+      "phrases": [
+        "Ich schlage vor, dass ___."
+      ],
+      "modelAnswer": "Ich schlage vor, dass du die Getränke mitbringst und ich koche.\n\nVerb am Ende nach „dass“."
+    }
+  ]
+}

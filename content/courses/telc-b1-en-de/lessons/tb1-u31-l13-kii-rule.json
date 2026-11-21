@@ -1,0 +1,129 @@
+{
+  "id": "tb1-u31-l13-kii-rule",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u31",
+  "title": "Konjunktiv II: Polite & Unreal: the rule",
+  "tip": "A formal request without KII sounds like an order: “Schicken Sie mir die Unterlagen” → better: “Könnten Sie mir die Unterlagen schicken?”",
+  "exercises": [
+    {
+      "id": "tb1-u31-l13-kii-rule-ex01",
+      "type": "explain",
+      "title": "Konjunktiv II: Polite & Unreal",
+      "body": "Politeness: **Ich hätte gern … / Könnten Sie … / Würden Sie … / Wäre es möglich, …?** Unreal situations: **Wenn ich mehr Zeit hätte, würde ich …** Forms: hätte, wäre, könnte, würde + infinitive.\n\n*Deutsch:* Höflichkeit: **Ich hätte gern … / Könnten Sie … / Würden Sie … / Wäre es möglich, …?** Irreales: **Wenn ich mehr Zeit hätte, würde ich …** Formen: hätte, wäre, könnte, würde + Infinitiv.\n\n*German name:* Konjunktiv II: höflich & irreal",
+      "examples": [
+        {
+          "learning": "Könnten Sie mir bitte die Unterlagen schicken?",
+          "known": "Could you please send me the documents?"
+        },
+        {
+          "learning": "Wenn ich reich wäre, würde ich viel reisen.",
+          "known": "If I were rich, I would travel a lot."
+        },
+        {
+          "learning": "Ich hätte eine Frage zu Ihrer Anzeige.",
+          "known": "I have (would have) a question about your ad. (perfect semi-formal opener)"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u31-l13-kii-rule-ex02",
+      "type": "explain",
+      "title": "Konjunktiv II: Polite & Unreal: step by step",
+      "body": "You only need 4 forms + 1 pattern:\n• **hätte** (haben) · **wäre** (sein) · **könnte** (können) · all other verbs: **würde + infinitive**.\nJob 1, **politeness** (letters to strangers, requests): Könnten Sie mir bitte …? · Wären Sie so nett, … zu …? · Ich hätte eine Frage. · Ich würde gern …\nJob 2, **unreal condition**: Wenn ich reich **wäre**, **würde** ich viel reisen. (pattern: wenn + hätte/wäre …, würde + infinitive)\nJob 3, **advice**: An deiner Stelle würde ich … · Du solltest mehr schlafen.\nWatch out: würde/wurde! **würde** = unreal/polite · **wurde** = real past of werden.\n\n## Auf Deutsch\n\nDu brauchst nur 4 Formen + 1 Muster:\n• **hätte** (haben) · **wäre** (sein) · **könnte** (können) · alle anderen Verben: **würde + Infinitiv**.\nJob 1, **Höflichkeit** (Brief an Fremde, Bitten): Könnten Sie mir bitte …? · Wären Sie so nett, … zu …? · Ich hätte eine Frage. · Ich würde gern …\nJob 2, **Irreale Bedingung**: Wenn ich reich **wäre**, **würde** ich viel reisen. (Muster: wenn + hätte/wäre …, würde + Infinitiv)\nJob 3, **Ratschlag**: An deiner Stelle würde ich … · Du solltest mehr schlafen.\nVorsicht: würde/wurde! **würde** = irreal/höflich · **wurde** = Präteritum von werden (real).",
+      "examples": [
+        {
+          "learning": "Könnten Sie mir bitte die Unterlagen schicken?",
+          "known": "Could you please send me the documents?"
+        },
+        {
+          "learning": "Wenn ich reich wäre, würde ich viel reisen.",
+          "known": "If I were rich, I would travel a lot."
+        },
+        {
+          "learning": "Ich hätte eine Frage zu Ihrer Anzeige.",
+          "known": "I have (would have) a question about your ad. (perfect semi-formal opener)"
+        },
+        {
+          "learning": "An deiner Stelle würde ich mit dem Vermieter sprechen.",
+          "known": "In your place I would talk to the landlord. (advice letter!)"
+        },
+        {
+          "learning": "Testlücke-Stil: „___ es möglich, den Termin zu verschieben?“ → Wäre",
+          "known": "polite request → Wäre es möglich …?"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u31-l13-kii-rule-ex03",
+      "type": "explain",
+      "title": "Watch out & exam tip",
+      "body": "## Common trap\n\nA formal request without KII sounds like an order: “Schicken Sie mir die Unterlagen” → better: “Könnten Sie mir die Unterlagen schicken?”\n\n*Deutsch:* Formelle Bitte ohne KII klingt wie ein Befehl: „Schicken Sie mir die Unterlagen“ → besser: „Könnten Sie mir die Unterlagen schicken?“\n\n## In the exam\n\n🎯 How telc tests it: in the **semi-formal letter** raters expect at least one KII request (Könnten Sie…/Wäre es möglich…), pure gold for criteria II+III. **Speaking part 3**: suggestions = “Wir könnten…”. **Sprachbausteine**: würde/wurde, könnte/konnte.\n\n*Deutsch:* 🎯 So testet telc das: Im **halbformellen Brief** erwartet der Bewerter mindestens eine KII-Bitte (Könnten Sie…/Wäre es möglich…), das ist bares Geld für Kriterium II+III. **Sprechen Teil 3**: Vorschläge = „Wir könnten…“. **Sprachbausteine**: würde/wurde, könnte/konnte.\n\n*Source:* Guide B4 · Writing-Mastery Kap. 3"
+    },
+    {
+      "id": "tb1-u31-l13-kii-rule-ex04",
+      "type": "choice",
+      "title": "Fill the gap",
+      "prompt": "___ es möglich, den Termin zu verschieben?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Wäre"
+        },
+        {
+          "id": "b",
+          "text": "Wird"
+        },
+        {
+          "id": "c",
+          "text": "War"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Höfliche Anfrage: Wäre es möglich, … (Konjunktiv II)."
+    },
+    {
+      "id": "tb1-u31-l13-kii-rule-ex05",
+      "type": "choice",
+      "title": "Fill the gap",
+      "prompt": "Wenn ich mehr Zeit hätte, ___ ich einen Sprachkurs machen.",
+      "options": [
+        {
+          "id": "a",
+          "text": "würde"
+        },
+        {
+          "id": "b",
+          "text": "will"
+        },
+        {
+          "id": "c",
+          "text": "werde"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Irreale Bedingung: hätte … würde + Infinitiv."
+    },
+    {
+      "id": "tb1-u31-l13-kii-rule-ex06",
+      "type": "choice",
+      "title": "Fill the gap",
+      "prompt": "Ich ___ gern ein Zimmer für zwei Nächte reservieren.",
+      "options": [
+        {
+          "id": "a",
+          "text": "wurde"
+        },
+        {
+          "id": "b",
+          "text": "werde"
+        },
+        {
+          "id": "c",
+          "text": "würde"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "würde gern + Infinitiv = höflicher Wunsch. (wurde = Präteritum von werden!)"
+    }
+  ]
+}

@@ -1,0 +1,278 @@
+{
+  "id": "tb1-u09-l10-perfekt-key-participles-6",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u09",
+  "title": "Perfekt: Key Participles 6",
+  "tip": "Theme: Perfekt: wichtige Partizipien (A2)",
+  "exercises": [
+    {
+      "id": "tb1-u09-l10-perfekt-key-participles-6-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "beginnen",
+          "known": "to begin"
+        },
+        {
+          "id": "p2",
+          "learning": "schlafen",
+          "known": "to sleep"
+        },
+        {
+          "id": "p3",
+          "learning": "sprechen",
+          "known": "to speak"
+        },
+        {
+          "id": "p4",
+          "learning": "trinken",
+          "known": "to drink"
+        },
+        {
+          "id": "p5",
+          "learning": "anrufen",
+          "known": "to call (by phone)"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u09-l10-perfekt-key-participles-6-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which one means „to begin“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "beginnen → hat begonnen"
+        },
+        {
+          "id": "b",
+          "text": "geben → hat gegeben"
+        },
+        {
+          "id": "c",
+          "text": "fahren → ist gefahren"
+        },
+        {
+          "id": "d",
+          "text": "stehen → hat gestanden"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**beginnen → hat begonnen** = to begin\n\n*Example:* Der Deutschkurs hat schon im September begonnen.\nThe German course already started in September."
+    },
+    {
+      "id": "tb1-u09-l10-perfekt-key-participles-6-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which one means „to sleep“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "anrufen → hat angerufen"
+        },
+        {
+          "id": "b",
+          "text": "schlafen → hat geschlafen"
+        },
+        {
+          "id": "c",
+          "text": "sprechen → hat gesprochen"
+        },
+        {
+          "id": "d",
+          "text": "stehen → hat gestanden"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**schlafen → hat geschlafen** = to sleep\n\n*Example:* Hast du gut geschlafen?\nDid you sleep well?"
+    },
+    {
+      "id": "tb1-u09-l10-perfekt-key-participles-6-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Der Deutschkurs hat schon im September begonnen.",
+      "tiles": [
+        "gave",
+        "already",
+        "September",
+        "started",
+        "on",
+        "in",
+        "cough",
+        "The",
+        "German",
+        "course"
+      ],
+      "answers": [
+        "The German course already started in September."
+      ],
+      "explanation": "**beginnen → hat begonnen** = to begin"
+    },
+    {
+      "id": "tb1-u09-l10-perfekt-key-participles-6-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which one means „to speak“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "sprechen → hat gesprochen"
+        },
+        {
+          "id": "b",
+          "text": "sterben → ist gestorben"
+        },
+        {
+          "id": "c",
+          "text": "helfen → hat geholfen"
+        },
+        {
+          "id": "d",
+          "text": "bringen → hat gebracht"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**sprechen → hat gesprochen** = to speak\n\n*Example:* Ich habe heute mit meinem Vermieter über die Heizung gesprochen.\nToday I spoke to my landlord about the heating."
+    },
+    {
+      "id": "tb1-u09-l10-perfekt-key-participles-6-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Did you sleep well?",
+      "tiles": [
+        "Chefin",
+        "wir",
+        "gut",
+        "war",
+        "du",
+        "Hast",
+        "geschlafen"
+      ],
+      "answers": [
+        "Hast du gut geschlafen?"
+      ],
+      "explanation": "**schlafen → hat geschlafen** = to sleep"
+    },
+    {
+      "id": "tb1-u09-l10-perfekt-key-participles-6-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which one means „to drink“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "trinken → hat getrunken"
+        },
+        {
+          "id": "b",
+          "text": "nehmen → hat genommen"
+        },
+        {
+          "id": "c",
+          "text": "sehen → hat gesehen"
+        },
+        {
+          "id": "d",
+          "text": "beginnen → hat begonnen"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**trinken → hat getrunken** = to drink\n\n*Example:* Nach dem Sport haben wir viel Wasser getrunken.\nAfter sport we drank lots of water."
+    },
+    {
+      "id": "tb1-u09-l10-perfekt-key-participles-6-ex08",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u09-l10-perfekt-key-participles-6-3.mp3"
+      },
+      "tiles": [
+        "die",
+        "mit",
+        "heute",
+        "Heizung",
+        "Hast",
+        "Ich",
+        "krank",
+        "über",
+        "gesprochen",
+        "Wochenende",
+        "Vermieter",
+        "meinem",
+        "habe"
+      ],
+      "answers": [
+        "Ich habe heute mit meinem Vermieter über die Heizung gesprochen."
+      ],
+      "explanation": "Ich habe heute mit meinem Vermieter über die Heizung gesprochen.\n*Today I spoke to my landlord about the heating.*\n\n**sprechen → hat gesprochen** = to speak"
+    },
+    {
+      "id": "tb1-u09-l10-perfekt-key-participles-6-ex09",
+      "type": "multiple_choice",
+      "prompt": "Which one means „to call (by phone)“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "trinken → hat getrunken"
+        },
+        {
+          "id": "b",
+          "text": "finden → hat gefunden"
+        },
+        {
+          "id": "c",
+          "text": "werden → ist geworden"
+        },
+        {
+          "id": "d",
+          "text": "anrufen → hat angerufen"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**anrufen → hat angerufen** = to call (by phone)\n\n*Example:* Ich habe beim Arzt angerufen und einen Termin gemacht.\nI called the doctor's surgery and made an appointment."
+    },
+    {
+      "id": "tb1-u09-l10-perfekt-key-participles-6-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Nach dem Sport haben wir viel Wasser getrunken.",
+      "tiles": [
+        "water",
+        "for",
+        "we",
+        "lots",
+        "After",
+        "drank",
+        "thought",
+        "sport",
+        "of",
+        "doctor"
+      ],
+      "answers": [
+        "After sport we drank lots of water."
+      ],
+      "explanation": "**trinken → hat getrunken** = to drink"
+    },
+    {
+      "id": "tb1-u09-l10-perfekt-key-participles-6-ex11",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I called the doctor's surgery and made an appointment.",
+      "tiles": [
+        "für",
+        "im",
+        "angerufen",
+        "das",
+        "Termin",
+        "habe",
+        "und",
+        "beim",
+        "gemacht",
+        "einen",
+        "Arzt",
+        "Ich"
+      ],
+      "answers": [
+        "Ich habe beim Arzt angerufen und einen Termin gemacht."
+      ],
+      "explanation": "**anrufen → hat angerufen** = to call (by phone)"
+    }
+  ]
+}

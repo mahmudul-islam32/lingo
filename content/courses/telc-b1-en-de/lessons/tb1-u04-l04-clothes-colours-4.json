@@ -1,0 +1,232 @@
+{
+  "id": "tb1-u04-l04-clothes-colours-4",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u04",
+  "title": "Clothes & Colours 4",
+  "tip": "Theme: Kleidung & Farben (A1)",
+  "exercises": [
+    {
+      "id": "tb1-u04-l04-clothes-colours-4-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "gelb",
+          "known": "yellow"
+        },
+        {
+          "id": "p2",
+          "learning": "braun",
+          "known": "brown"
+        },
+        {
+          "id": "p3",
+          "learning": "grau",
+          "known": "grey"
+        },
+        {
+          "id": "p4",
+          "learning": "bunt",
+          "known": "colourful"
+        },
+        {
+          "id": "p5",
+          "learning": "die Kleidung",
+          "known": "clothing"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u04-l04-clothes-colours-4-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which one means „yellow“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "weiß"
+        },
+        {
+          "id": "b",
+          "text": "braun"
+        },
+        {
+          "id": "c",
+          "text": "gelb"
+        },
+        {
+          "id": "d",
+          "text": "grün"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**gelb** = yellow\n\n*Example:* In Deutschland sind die Briefkästen gelb.\nIn Germany the post boxes are yellow."
+    },
+    {
+      "id": "tb1-u04-l04-clothes-colours-4-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which one means „brown“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "braun"
+        },
+        {
+          "id": "b",
+          "text": "weiß"
+        },
+        {
+          "id": "c",
+          "text": "rot"
+        },
+        {
+          "id": "d",
+          "text": "bunt"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**braun** = brown\n\n*Example:* Mein Sohn hat braune Augen wie sein Vater.\nMy son has brown eyes like his father."
+    },
+    {
+      "id": "tb1-u04-l04-clothes-colours-4-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "In Germany the post boxes are yellow.",
+      "tiles": [
+        "gelb",
+        "sind",
+        "Vater",
+        "die",
+        "sein",
+        "Deutschland",
+        "Zum",
+        "In",
+        "Briefkästen"
+      ],
+      "answers": [
+        "In Deutschland sind die Briefkästen gelb."
+      ],
+      "explanation": "**gelb** = yellow"
+    },
+    {
+      "id": "tb1-u04-l04-clothes-colours-4-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which one means „grey“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "rot"
+        },
+        {
+          "id": "b",
+          "text": "grau"
+        },
+        {
+          "id": "c",
+          "text": "gelb"
+        },
+        {
+          "id": "d",
+          "text": "bunt"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**grau** = grey\n\n*Example:* Heute ist der Himmel grau, es regnet bestimmt bald.\nThe sky is grey today, it'll probably rain soon."
+    },
+    {
+      "id": "tb1-u04-l04-clothes-colours-4-ex06",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u04-l04-clothes-colours-4-2.mp3"
+      },
+      "tiles": [
+        "sein",
+        "Ampel",
+        "hat",
+        "wie",
+        "einen",
+        "Vater",
+        "Sohn",
+        "Augen",
+        "Mein",
+        "braune",
+        "Die"
+      ],
+      "answers": [
+        "Mein Sohn hat braune Augen wie sein Vater."
+      ],
+      "explanation": "Mein Sohn hat braune Augen wie sein Vater.\n*My son has brown eyes like his father.*\n\n**braun** = brown"
+    },
+    {
+      "id": "tb1-u04-l04-clothes-colours-4-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which one means „colourful“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "grau"
+        },
+        {
+          "id": "b",
+          "text": "schwarz"
+        },
+        {
+          "id": "c",
+          "text": "grün"
+        },
+        {
+          "id": "d",
+          "text": "bunt"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**bunt** = colourful\n\n*Example:* Die Kinder haben bunte Bilder für Oma gemalt.\nThe children painted colourful pictures for Grandma."
+    },
+    {
+      "id": "tb1-u04-l04-clothes-colours-4-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Heute ist der Himmel grau, es regnet bestimmt bald.",
+      "tiles": [
+        "it'll",
+        "can",
+        "soon",
+        "is",
+        "grey",
+        "Stop",
+        "cold",
+        "probably",
+        "sky",
+        "today",
+        "rain",
+        "The"
+      ],
+      "answers": [
+        "The sky is grey today, it'll probably rain soon."
+      ],
+      "explanation": "**grau** = grey"
+    },
+    {
+      "id": "tb1-u04-l04-clothes-colours-4-ex09",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "The children painted colourful pictures for Grandma.",
+      "tiles": [
+        "Kinder",
+        "gemalt",
+        "bunte",
+        "für",
+        "Bilder",
+        "umtauschen",
+        "Hose",
+        "haben",
+        "Oma",
+        "Nimm",
+        "Die"
+      ],
+      "answers": [
+        "Die Kinder haben bunte Bilder für Oma gemalt."
+      ],
+      "explanation": "**bunt** = colourful"
+    }
+  ]
+}

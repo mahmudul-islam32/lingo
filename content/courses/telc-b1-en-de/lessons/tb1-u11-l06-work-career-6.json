@@ -1,0 +1,247 @@
+{
+  "id": "tb1-u11-l06-work-career-6",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u11",
+  "title": "Work & Career 6",
+  "tip": "Theme: Arbeit / Beruf (B1)",
+  "exercises": [
+    {
+      "id": "tb1-u11-l06-work-career-6-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "kündigen",
+          "known": "to quit / give notice"
+        },
+        {
+          "id": "p2",
+          "learning": "das Praktikum",
+          "known": "internship"
+        },
+        {
+          "id": "p3",
+          "learning": "die Stelle",
+          "known": "job"
+        },
+        {
+          "id": "p4",
+          "learning": "der Beruf",
+          "known": "profession"
+        },
+        {
+          "id": "p5",
+          "learning": "die Stellenanzeige",
+          "known": "job advertisement"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u11-l06-work-career-6-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which one means „to quit / give notice: resignation, dismissal“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "verdienen"
+        },
+        {
+          "id": "b",
+          "text": "in Teilzeit / in Vollzeit arbeiten"
+        },
+        {
+          "id": "c",
+          "text": "kündigen: die Kündigung, die Kündigungen"
+        },
+        {
+          "id": "d",
+          "text": "arbeitslos"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**kündigen: die Kündigung, die Kündigungen** = to quit / give notice: resignation, dismissal\n\n*Example:* Mein Kollege hat gekündigt, weil er nach Hamburg zieht.\nMy colleague has handed in his notice because he's moving to Hamburg."
+    },
+    {
+      "id": "tb1-u11-l06-work-career-6-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „internship“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "das Gehalt, die Gehälter"
+        },
+        {
+          "id": "b",
+          "text": "der Beruf, die Berufe"
+        },
+        {
+          "id": "c",
+          "text": "der Urlaub (nur Sg.). Urlaub nehmen"
+        },
+        {
+          "id": "d",
+          "text": "das Praktikum, die Praktika"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**das Praktikum** = internship\n*Plural: die Praktika*\n\n*Example:* Nach der Schule macht Leon ein Praktikum in einer Werkstatt.\nAfter school Leon is doing an internship at a garage."
+    },
+    {
+      "id": "tb1-u11-l06-work-career-6-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "My colleague has handed in his notice because he's moving to Hamburg.",
+      "tiles": [
+        "weil",
+        "er",
+        "zieht",
+        "nach",
+        "hat",
+        "ist",
+        "Kollege",
+        "Hamburg",
+        "Mein",
+        "Werkstatt",
+        "gekündigt",
+        "Am"
+      ],
+      "answers": [
+        "Mein Kollege hat gekündigt, weil er nach Hamburg zieht."
+      ],
+      "explanation": "**kündigen: die Kündigung, die Kündigungen** = to quit / give notice: resignation, dismissal"
+    },
+    {
+      "id": "tb1-u11-l06-work-career-6-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means „I applied for a job as a salesperson, and next week I have an interview.“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ich habe mich um eine Stelle als Verkäufer beworben, und nächste Woche habe ich ein Vorstellungsgespräch."
+        },
+        {
+          "id": "b",
+          "text": "Diese Woche mache ich viele Überstunden, weil eine Kollegin im Urlaub ist."
+        },
+        {
+          "id": "c",
+          "text": "Ich fühle mich seit gestern nicht gut: Ich habe Fieber, Husten und starke Kopfschmerzen."
+        },
+        {
+          "id": "d",
+          "text": "Die Ärztin hat mich untersucht und mir Tabletten verschrieben, die ich dreimal täglich nehmen soll."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Ich habe mich um eine Stelle als Verkäufer beworben, und nächste Woche habe ich ein Vorstellungsgespräch.** = I applied for a job as a salesperson, and next week I have an interview.\n\n*Example:* Ich habe mich um eine Stelle als Verkäufer beworben, und nächste Woche habe ich ein Vorstellungsgespräch.\nI applied for a job as a salesperson, and next week I have an interview."
+    },
+    {
+      "id": "tb1-u11-l06-work-career-6-ex06",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u11-l06-work-career-6-2.mp3"
+      },
+      "tiles": [
+        "Kantine",
+        "in",
+        "ein",
+        "Nach",
+        "Leon",
+        "der",
+        "einer",
+        "Schule",
+        "Werkstatt",
+        "eine",
+        "Praktikum",
+        "muss",
+        "macht"
+      ],
+      "answers": [
+        "Nach der Schule macht Leon ein Praktikum in einer Werkstatt."
+      ],
+      "explanation": "Nach der Schule macht Leon ein Praktikum in einer Werkstatt.\n*After school Leon is doing an internship at a garage.*\n\n**das Praktikum** = internship\n*Plural: die Praktika*"
+    },
+    {
+      "id": "tb1-u11-l06-work-career-6-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means „This week I'm working a lot of overtime because a colleague is on leave.“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ich habe mich um eine Stelle als Verkäufer beworben, und nächste Woche habe ich ein Vorstellungsgespräch."
+        },
+        {
+          "id": "b",
+          "text": "Ich fühle mich seit gestern nicht gut: Ich habe Fieber, Husten und starke Kopfschmerzen."
+        },
+        {
+          "id": "c",
+          "text": "Die Ärztin hat mich untersucht und mir Tabletten verschrieben, die ich dreimal täglich nehmen soll."
+        },
+        {
+          "id": "d",
+          "text": "Diese Woche mache ich viele Überstunden, weil eine Kollegin im Urlaub ist."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**Diese Woche mache ich viele Überstunden, weil eine Kollegin im Urlaub ist.** = This week I'm working a lot of overtime because a colleague is on leave.\n\n*Example:* Diese Woche mache ich viele Überstunden, weil eine Kollegin im Urlaub ist.\nThis week I'm working a lot of overtime because a colleague is on leave."
+    },
+    {
+      "id": "tb1-u11-l06-work-career-6-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Ich habe mich um eine Stelle als Verkäufer beworben, und nächste Woche habe ich ein Vorstellungsgespräch.",
+      "tiles": [
+        "interview",
+        "I",
+        "a",
+        "next",
+        "for",
+        "salesperson",
+        "job",
+        "I",
+        "have",
+        "a",
+        "an",
+        "week",
+        "applied",
+        "is",
+        "well",
+        "starts",
+        "and",
+        "as"
+      ],
+      "answers": [
+        "I applied for a job as a salesperson, and next week I have an interview."
+      ],
+      "explanation": "**Ich habe mich um eine Stelle als Verkäufer beworben, und nächste Woche habe ich ein Vorstellungsgespräch.** = I applied for a job as a salesperson, and next week I have an interview."
+    },
+    {
+      "id": "tb1-u11-l06-work-career-6-ex09",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "This week I'm working a lot of overtime because a colleague is on leave.",
+      "tiles": [
+        "eine",
+        "ich",
+        "Diese",
+        "krank",
+        "Überstunden",
+        "Vorstellungsgespräch",
+        "viele",
+        "Urlaub",
+        "im",
+        "Kollegin",
+        "ist",
+        "mache",
+        "Woche",
+        "leider",
+        "weil"
+      ],
+      "answers": [
+        "Diese Woche mache ich viele Überstunden, weil eine Kollegin im Urlaub ist."
+      ],
+      "explanation": "**Diese Woche mache ich viele Überstunden, weil eine Kollegin im Urlaub ist.** = This week I'm working a lot of overtime because a colleague is on leave."
+    }
+  ]
+}

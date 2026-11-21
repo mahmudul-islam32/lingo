@@ -1,0 +1,252 @@
+{
+  "id": "tb1-u28-l07-writing-model-sentences-2",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u28",
+  "title": "Writing: Model Sentences 2",
+  "tip": "Theme: Sätze: Schreiben (Muster) (B1)",
+  "exercises": [
+    {
+      "id": "tb1-u28-l07-writing-model-sentences-2-ex01",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means „I'm really looking forward to the weekend.“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Könntest du mir bitte sagen, wann wir uns treffen?"
+        },
+        {
+          "id": "b",
+          "text": "Ich freue mich schon sehr auf das Wochenende."
+        },
+        {
+          "id": "c",
+          "text": "Ich hoffe, dass es dir gut geht."
+        },
+        {
+          "id": "d",
+          "text": "Ich schreibe dir, weil ich dich zu meiner Geburtstagsfeier einladen möchte."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Ich freue mich schon sehr auf das Wochenende.** = I'm really looking forward to the weekend.\n\n*Example:* Ich freue mich schon sehr auf das Wochenende.\nI'm really looking forward to the weekend."
+    },
+    {
+      "id": "tb1-u28-l07-writing-model-sentences-2-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means „If you like, we can meet beforehand.“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ich würde gern wissen, ob noch Plätze frei sind."
+        },
+        {
+          "id": "b",
+          "text": "Könntest du mir bitte sagen, wann wir uns treffen?"
+        },
+        {
+          "id": "c",
+          "text": "Ich hoffe, dass es dir gut geht."
+        },
+        {
+          "id": "d",
+          "text": "Wenn du möchtest, können wir uns vorher treffen."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**Wenn du möchtest, können wir uns vorher treffen.** = If you like, we can meet beforehand.\n\n*Example:* Wenn du möchtest, können wir uns vorher treffen.\nIf you like, we can meet beforehand."
+    },
+    {
+      "id": "tb1-u28-l07-writing-model-sentences-2-ex03",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u28-l07-writing-model-sentences-2-1.mp3"
+      },
+      "tiles": [
+        "Einladung",
+        "das",
+        "Ich",
+        "freue",
+        "sehr",
+        "schon",
+        "mich",
+        "nicht",
+        "Wochenende",
+        "auf",
+        "Bitte"
+      ],
+      "answers": [
+        "Ich freue mich schon sehr auf das Wochenende."
+      ],
+      "explanation": "Ich freue mich schon sehr auf das Wochenende.\n*I'm really looking forward to the weekend.*\n\n**Ich freue mich schon sehr auf das Wochenende.** = I'm really looking forward to the weekend."
+    },
+    {
+      "id": "tb1-u28-l07-writing-model-sentences-2-ex04",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means „I hope you're doing well.“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Es tut mir leid, dass ich mich so spät melde."
+        },
+        {
+          "id": "b",
+          "text": "Ich hoffe, dass es dir gut geht."
+        },
+        {
+          "id": "c",
+          "text": "Ich würde gern wissen, ob noch Plätze frei sind."
+        },
+        {
+          "id": "d",
+          "text": "Leider kann ich am Samstag nicht kommen, weil ich arbeiten muss."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Ich hoffe, dass es dir gut geht.** = I hope you're doing well.\n\n*Example:* Ich hoffe, dass es dir gut geht.\nI hope you're doing well."
+    },
+    {
+      "id": "tb1-u28-l07-writing-model-sentences-2-ex05",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Wenn du möchtest, können wir uns vorher treffen.",
+      "tiles": [
+        "meet",
+        "I'd",
+        "beforehand",
+        "If",
+        "I'm",
+        "your",
+        "like",
+        "we",
+        "can",
+        "you"
+      ],
+      "answers": [
+        "If you like, we can meet beforehand."
+      ],
+      "explanation": "**Wenn du möchtest, können wir uns vorher treffen.** = If you like, we can meet beforehand."
+    },
+    {
+      "id": "tb1-u28-l07-writing-model-sentences-2-ex06",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means „Please let me know if that works for you.“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ich hoffe, dass es dir gut geht."
+        },
+        {
+          "id": "b",
+          "text": "Ich schreibe dir, weil ich dich zu meiner Geburtstagsfeier einladen möchte."
+        },
+        {
+          "id": "c",
+          "text": "Könntest du mir bitte sagen, wann wir uns treffen?"
+        },
+        {
+          "id": "d",
+          "text": "Bitte gib mir Bescheid, ob das für dich passt."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**Bitte gib mir Bescheid, ob das für dich passt.** = Please let me know if that works for you.\n\n*Example:* Bitte gib mir Bescheid, ob das für dich passt.\nPlease let me know if that works for you."
+    },
+    {
+      "id": "tb1-u28-l07-writing-model-sentences-2-ex07",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I hope you're doing well.",
+      "tiles": [
+        "gut",
+        "Ich",
+        "es",
+        "hoffe",
+        "geht",
+        "dir",
+        "freue",
+        "dass",
+        "möchte",
+        "melde"
+      ],
+      "answers": [
+        "Ich hoffe, dass es dir gut geht."
+      ],
+      "explanation": "**Ich hoffe, dass es dir gut geht.** = I hope you're doing well."
+    },
+    {
+      "id": "tb1-u28-l07-writing-model-sentences-2-ex08",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means „I'd like to know if there are still places free.“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Bitte gib mir Bescheid, ob das für dich passt."
+        },
+        {
+          "id": "b",
+          "text": "Ich schreibe dir, weil ich dich zu meiner Geburtstagsfeier einladen möchte."
+        },
+        {
+          "id": "c",
+          "text": "Ich würde gern wissen, ob noch Plätze frei sind."
+        },
+        {
+          "id": "d",
+          "text": "Ich hoffe, dass es dir gut geht."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**Ich würde gern wissen, ob noch Plätze frei sind.** = I'd like to know if there are still places free.\n\n*Example:* Ich würde gern wissen, ob noch Plätze frei sind.\nI'd like to know if there are still places free."
+    },
+    {
+      "id": "tb1-u28-l07-writing-model-sentences-2-ex09",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u28-l07-writing-model-sentences-2-4.mp3"
+      },
+      "tiles": [
+        "frei",
+        "dich",
+        "mir",
+        "Bitte",
+        "das",
+        "du",
+        "passt",
+        "ich",
+        "für",
+        "gib",
+        "Bescheid",
+        "ob"
+      ],
+      "answers": [
+        "Bitte gib mir Bescheid, ob das für dich passt."
+      ],
+      "explanation": "Bitte gib mir Bescheid, ob das für dich passt.\n*Please let me know if that works for you.*\n\n**Bitte gib mir Bescheid, ob das für dich passt.** = Please let me know if that works for you."
+    },
+    {
+      "id": "tb1-u28-l07-writing-model-sentences-2-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Ich würde gern wissen, ob noch Plätze frei sind.",
+      "tiles": [
+        "Unfortunately",
+        "are",
+        "if",
+        "there",
+        "know",
+        "to",
+        "I'd",
+        "tell",
+        "still",
+        "meet",
+        "free",
+        "like",
+        "places"
+      ],
+      "answers": [
+        "I'd like to know if there are still places free."
+      ],
+      "explanation": "**Ich würde gern wissen, ob noch Plätze frei sind.** = I'd like to know if there are still places free."
+    }
+  ]
+}

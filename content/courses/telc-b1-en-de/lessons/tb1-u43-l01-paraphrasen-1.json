@@ -1,0 +1,301 @@
+{
+  "id": "tb1-u43-l01-paraphrasen-1",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u43",
+  "title": "Paraphrases 1",
+  "tip": "Text and task use different words for the same thing.",
+  "exercises": [
+    {
+      "id": "tb1-u43-l01-paraphrasen-1-ex01",
+      "type": "explain",
+      "title": "Paraphrases 1: the text says it differently",
+      "body": "*Die Aufgabe sagt es anders als der Text.* In the reading tasks the answer rarely repeats the words of the text. Learn these pairs: left the word in the text, right how the task says it.\n\n- **günstig / preiswert** → billig, nicht teuer\n- **kostenlos** → gratis, umsonst, man zahlt nichts\n- **verboten** → nicht erlaubt, man darf nicht\n- **notwendig / erforderlich** → nötig, man muss\n- **die Anmeldung** → man muss sich vorher melden\n- **berufstätig** → arbeitet, hat einen Job\n- **anstrengend** → schwer, stressig\n- **die Umgebung / die Nähe** → die Gegend\n- **zunehmen / steigen** → mehr / größer werden\n- **abnehmen / sinken** → weniger werden\n- **die Freiwilligen** → die ehrenamtlichen Helfer"
+    },
+    {
+      "id": "tb1-u43-l01-paraphrasen-1-ex02",
+      "type": "choice",
+      "title": "Paraphrasen-Drill",
+      "prompt": "Im Text steht „günstig / preiswert“. Wie sagt es die Aufgabe mit einfachen Worten?",
+      "options": [
+        {
+          "id": "a",
+          "text": "weniger werden"
+        },
+        {
+          "id": "b",
+          "text": "billig, nicht teuer"
+        },
+        {
+          "id": "c",
+          "text": "nicht erlaubt, man darf nicht"
+        },
+        {
+          "id": "d",
+          "text": "schwer, stressig"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Im Text: **günstig / preiswert** = in der Aufgabe: **billig, nicht teuer**"
+    },
+    {
+      "id": "tb1-u43-l01-paraphrasen-1-ex03",
+      "type": "choice",
+      "title": "Paraphrasen-Drill",
+      "prompt": "In der Aufgabe steht „gratis, umsonst, man zahlt nichts“. Welches Wort steht im Text?",
+      "options": [
+        {
+          "id": "a",
+          "text": "kostenlos"
+        },
+        {
+          "id": "b",
+          "text": "notwendig / erforderlich"
+        },
+        {
+          "id": "c",
+          "text": "zunehmen / steigen"
+        },
+        {
+          "id": "d",
+          "text": "die Anmeldung"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Im Text: **kostenlos** = in der Aufgabe: **gratis, umsonst, man zahlt nichts**"
+    },
+    {
+      "id": "tb1-u43-l01-paraphrasen-1-ex04",
+      "type": "choice",
+      "title": "Paraphrasen-Drill",
+      "prompt": "Im Text steht „verboten“. Wie sagt es die Aufgabe mit einfachen Worten?",
+      "options": [
+        {
+          "id": "a",
+          "text": "nötig, man muss"
+        },
+        {
+          "id": "b",
+          "text": "die Gegend"
+        },
+        {
+          "id": "c",
+          "text": "arbeitet, hat einen Job"
+        },
+        {
+          "id": "d",
+          "text": "nicht erlaubt, man darf nicht"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Im Text: **verboten** = in der Aufgabe: **nicht erlaubt, man darf nicht**"
+    },
+    {
+      "id": "tb1-u43-l01-paraphrasen-1-ex05",
+      "type": "choice",
+      "title": "Paraphrasen-Drill",
+      "prompt": "In der Aufgabe steht „nötig, man muss“. Welches Wort steht im Text?",
+      "options": [
+        {
+          "id": "a",
+          "text": "berufstätig"
+        },
+        {
+          "id": "b",
+          "text": "abnehmen / sinken"
+        },
+        {
+          "id": "c",
+          "text": "notwendig / erforderlich"
+        },
+        {
+          "id": "d",
+          "text": "günstig / preiswert"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Im Text: **notwendig / erforderlich** = in der Aufgabe: **nötig, man muss**"
+    },
+    {
+      "id": "tb1-u43-l01-paraphrasen-1-ex06",
+      "type": "choice",
+      "title": "Paraphrasen-Drill",
+      "prompt": "Im Text steht „die Anmeldung“. Wie sagt es die Aufgabe mit einfachen Worten?",
+      "options": [
+        {
+          "id": "a",
+          "text": "gratis, umsonst, man zahlt nichts"
+        },
+        {
+          "id": "b",
+          "text": "man muss sich vorher melden"
+        },
+        {
+          "id": "c",
+          "text": "arbeitet, hat einen Job"
+        },
+        {
+          "id": "d",
+          "text": "weniger werden"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Im Text: **die Anmeldung** = in der Aufgabe: **man muss sich vorher melden**"
+    },
+    {
+      "id": "tb1-u43-l01-paraphrasen-1-ex07",
+      "type": "choice",
+      "title": "Paraphrasen-Drill",
+      "prompt": "In der Aufgabe steht „arbeitet, hat einen Job“. Welches Wort steht im Text?",
+      "options": [
+        {
+          "id": "a",
+          "text": "berufstätig"
+        },
+        {
+          "id": "b",
+          "text": "günstig / preiswert"
+        },
+        {
+          "id": "c",
+          "text": "zunehmen / steigen"
+        },
+        {
+          "id": "d",
+          "text": "abnehmen / sinken"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Im Text: **berufstätig** = in der Aufgabe: **arbeitet, hat einen Job**"
+    },
+    {
+      "id": "tb1-u43-l01-paraphrasen-1-ex08",
+      "type": "choice",
+      "title": "Paraphrasen-Drill",
+      "prompt": "Im Text steht „anstrengend“. Wie sagt es die Aufgabe mit einfachen Worten?",
+      "options": [
+        {
+          "id": "a",
+          "text": "gratis, umsonst, man zahlt nichts"
+        },
+        {
+          "id": "b",
+          "text": "weniger werden"
+        },
+        {
+          "id": "c",
+          "text": "nötig, man muss"
+        },
+        {
+          "id": "d",
+          "text": "schwer, stressig"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Im Text: **anstrengend** = in der Aufgabe: **schwer, stressig**"
+    },
+    {
+      "id": "tb1-u43-l01-paraphrasen-1-ex09",
+      "type": "choice",
+      "title": "Paraphrasen-Drill",
+      "prompt": "In der Aufgabe steht „die Gegend“. Welches Wort steht im Text?",
+      "options": [
+        {
+          "id": "a",
+          "text": "kostenlos"
+        },
+        {
+          "id": "b",
+          "text": "günstig / preiswert"
+        },
+        {
+          "id": "c",
+          "text": "die Umgebung / die Nähe"
+        },
+        {
+          "id": "d",
+          "text": "die Anmeldung"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Im Text: **die Umgebung / die Nähe** = in der Aufgabe: **die Gegend**"
+    },
+    {
+      "id": "tb1-u43-l01-paraphrasen-1-ex10",
+      "type": "choice",
+      "title": "Paraphrasen-Drill",
+      "prompt": "Im Text steht „zunehmen / steigen“. Wie sagt es die Aufgabe mit einfachen Worten?",
+      "options": [
+        {
+          "id": "a",
+          "text": "billig, nicht teuer"
+        },
+        {
+          "id": "b",
+          "text": "mehr / größer werden"
+        },
+        {
+          "id": "c",
+          "text": "die ehrenamtlichen Helfer"
+        },
+        {
+          "id": "d",
+          "text": "man muss sich vorher melden"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Im Text: **zunehmen / steigen** = in der Aufgabe: **mehr / größer werden**"
+    },
+    {
+      "id": "tb1-u43-l01-paraphrasen-1-ex11",
+      "type": "choice",
+      "title": "Paraphrasen-Drill",
+      "prompt": "In der Aufgabe steht „weniger werden“. Welches Wort steht im Text?",
+      "options": [
+        {
+          "id": "a",
+          "text": "abnehmen / sinken"
+        },
+        {
+          "id": "b",
+          "text": "notwendig / erforderlich"
+        },
+        {
+          "id": "c",
+          "text": "berufstätig"
+        },
+        {
+          "id": "d",
+          "text": "kostenlos"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Im Text: **abnehmen / sinken** = in der Aufgabe: **weniger werden**"
+    },
+    {
+      "id": "tb1-u43-l01-paraphrasen-1-ex12",
+      "type": "choice",
+      "title": "Paraphrasen-Drill",
+      "prompt": "Im Text steht „die Freiwilligen“. Wie sagt es die Aufgabe mit einfachen Worten?",
+      "options": [
+        {
+          "id": "a",
+          "text": "weniger werden"
+        },
+        {
+          "id": "b",
+          "text": "gratis, umsonst, man zahlt nichts"
+        },
+        {
+          "id": "c",
+          "text": "nötig, man muss"
+        },
+        {
+          "id": "d",
+          "text": "die ehrenamtlichen Helfer"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Im Text: **die Freiwilligen** = in der Aufgabe: **die ehrenamtlichen Helfer**"
+    }
+  ]
+}

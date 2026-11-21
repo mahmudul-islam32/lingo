@@ -1,0 +1,285 @@
+{
+  "id": "tb1-u19-l01-opinion-discussion-1",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u19",
+  "title": "Opinion & Discussion 1",
+  "tip": "Theme: Meinung & Diskussion (B1)",
+  "exercises": [
+    {
+      "id": "tb1-u19-l01-opinion-discussion-1-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "die Meinung",
+          "known": "opinion"
+        },
+        {
+          "id": "p2",
+          "learning": "die Ansicht",
+          "known": "view"
+        },
+        {
+          "id": "p3",
+          "learning": "der Standpunkt",
+          "known": "point of view"
+        },
+        {
+          "id": "p4",
+          "learning": "das Argument",
+          "known": "argument"
+        },
+        {
+          "id": "p5",
+          "learning": "der Vorteil",
+          "known": "advantage"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u19-l01-opinion-discussion-1-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „opinion“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Meinung, die Meinungen"
+        },
+        {
+          "id": "b",
+          "text": "die Ursache, die Ursachen"
+        },
+        {
+          "id": "c",
+          "text": "die Ansicht, die Ansichten"
+        },
+        {
+          "id": "d",
+          "text": "der Standpunkt, die Standpunkte"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**die Meinung** = opinion\n*Plural: die Meinungen*\n\n*Example:* Meiner Meinung nach ist die Miete zu hoch.\nIn my opinion the rent is too high."
+    },
+    {
+      "id": "tb1-u19-l01-opinion-discussion-1-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „view“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "das Argument, die Argumente"
+        },
+        {
+          "id": "b",
+          "text": "die Folge, die Folgen"
+        },
+        {
+          "id": "c",
+          "text": "der Standpunkt, die Standpunkte"
+        },
+        {
+          "id": "d",
+          "text": "die Ansicht, die Ansichten"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**die Ansicht** = view\n*Plural: die Ansichten*\n\n*Example:* Mein Kollege hat eine andere Ansicht als ich.\nMy colleague has a different view from mine."
+    },
+    {
+      "id": "tb1-u19-l01-opinion-discussion-1-ex04",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u19-l01-opinion-discussion-1-1.mp3"
+      },
+      "tiles": [
+        "zu",
+        "haben",
+        "Meiner",
+        "Miete",
+        "ist",
+        "nach",
+        "hoch",
+        "Ihre",
+        "Meinung",
+        "dir",
+        "die"
+      ],
+      "answers": [
+        "Meiner Meinung nach ist die Miete zu hoch."
+      ],
+      "explanation": "Meiner Meinung nach ist die Miete zu hoch.\n*In my opinion the rent is too high.*\n\n**die Meinung** = opinion\n*Plural: die Meinungen*"
+    },
+    {
+      "id": "tb1-u19-l01-opinion-discussion-1-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „point of view“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "der Standpunkt, die Standpunkte"
+        },
+        {
+          "id": "b",
+          "text": "die Lösung, die Lösungen"
+        },
+        {
+          "id": "c",
+          "text": "die Folge, die Folgen"
+        },
+        {
+          "id": "d",
+          "text": "das Argument, die Argumente"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**der Standpunkt** = point of view\n*Plural: die Standpunkte*\n\n*Example:* Ich verstehe deinen Standpunkt, aber ich sehe das anders.\nI understand your point of view, but I see it differently."
+    },
+    {
+      "id": "tb1-u19-l01-opinion-discussion-1-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Mein Kollege hat eine andere Ansicht als ich.",
+      "tiles": [
+        "too",
+        "mine",
+        "team",
+        "view",
+        "different",
+        "a",
+        "you",
+        "has",
+        "colleague",
+        "from",
+        "My"
+      ],
+      "answers": [
+        "My colleague has a different view from mine."
+      ],
+      "explanation": "**die Ansicht** = view\n*Plural: die Ansichten*"
+    },
+    {
+      "id": "tb1-u19-l01-opinion-discussion-1-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „argument“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Meinung, die Meinungen"
+        },
+        {
+          "id": "b",
+          "text": "das Argument, die Argumente"
+        },
+        {
+          "id": "c",
+          "text": "die Folge, die Folgen"
+        },
+        {
+          "id": "d",
+          "text": "die Ansicht, die Ansichten"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**das Argument** = argument\n*Plural: die Argumente*\n\n*Example:* Das ist ein gutes Argument für ein kleineres Auto.\nThat's a good argument for a smaller car."
+    },
+    {
+      "id": "tb1-u19-l01-opinion-discussion-1-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I understand your point of view, but I see it differently.",
+      "tiles": [
+        "sucht",
+        "aber",
+        "hat",
+        "Standpunkt",
+        "das",
+        "deinen",
+        "Ich",
+        "ich",
+        "teuer",
+        "verstehe",
+        "anders",
+        "sehe"
+      ],
+      "answers": [
+        "Ich verstehe deinen Standpunkt, aber ich sehe das anders."
+      ],
+      "explanation": "**der Standpunkt** = point of view\n*Plural: die Standpunkte*"
+    },
+    {
+      "id": "tb1-u19-l01-opinion-discussion-1-ex09",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „advantage“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "das Argument, die Argumente"
+        },
+        {
+          "id": "b",
+          "text": "der Vorteil, die Vorteile"
+        },
+        {
+          "id": "c",
+          "text": "der Nachteil, die Nachteile"
+        },
+        {
+          "id": "d",
+          "text": "die Lösung, die Lösungen"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**der Vorteil** = advantage\n*Plural: die Vorteile*\n\n*Example:* Ein Vorteil der Wohnung ist die gute Lage.\nOne advantage of the flat is its good location."
+    },
+    {
+      "id": "tb1-u19-l01-opinion-discussion-1-ex10",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u19-l01-opinion-discussion-1-4.mp3"
+      },
+      "tiles": [
+        "ist",
+        "für",
+        "zu",
+        "Auto",
+        "Kollege",
+        "ein",
+        "gutes",
+        "kleineres",
+        "über",
+        "Das",
+        "Argument",
+        "ein"
+      ],
+      "answers": [
+        "Das ist ein gutes Argument für ein kleineres Auto."
+      ],
+      "explanation": "Das ist ein gutes Argument für ein kleineres Auto.\n*That's a good argument for a smaller car.*\n\n**das Argument** = argument\n*Plural: die Argumente*"
+    },
+    {
+      "id": "tb1-u19-l01-opinion-discussion-1-ex11",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Ein Vorteil der Wohnung ist die gute Lage.",
+      "tiles": [
+        "phones",
+        "One",
+        "of",
+        "its",
+        "flat",
+        "expensive",
+        "good",
+        "location",
+        "the",
+        "is",
+        "found",
+        "advantage"
+      ],
+      "answers": [
+        "One advantage of the flat is its good location."
+      ],
+      "explanation": "**der Vorteil** = advantage\n*Plural: die Vorteile*"
+    }
+  ]
+}

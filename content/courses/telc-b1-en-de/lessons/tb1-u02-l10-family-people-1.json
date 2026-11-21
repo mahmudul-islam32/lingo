@@ -1,0 +1,280 @@
+{
+  "id": "tb1-u02-l10-family-people-1",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u02",
+  "title": "Family & People 1",
+  "tip": "Theme: Familie & Menschen (A1)",
+  "exercises": [
+    {
+      "id": "tb1-u02-l10-family-people-1-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "die Familie",
+          "known": "family"
+        },
+        {
+          "id": "p2",
+          "learning": "der Mann",
+          "known": "man / husband"
+        },
+        {
+          "id": "p3",
+          "learning": "die Frau",
+          "known": "woman / wife"
+        },
+        {
+          "id": "p4",
+          "learning": "das Kind",
+          "known": "child"
+        },
+        {
+          "id": "p5",
+          "learning": "der Vater",
+          "known": "father"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u02-l10-family-people-1-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „family“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "der Junge, die Jungen"
+        },
+        {
+          "id": "b",
+          "text": "der Bruder, die Brüder"
+        },
+        {
+          "id": "c",
+          "text": "die Mutter, die Mütter"
+        },
+        {
+          "id": "d",
+          "text": "die Familie, die Familien"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**die Familie** = family\n*Plural: die Familien*\n\n*Example:* Meine Familie wohnt in der Türkei und in Deutschland.\nMy family lives in Turkey and in Germany."
+    },
+    {
+      "id": "tb1-u02-l10-family-people-1-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „man / husband“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Frau, die Frauen"
+        },
+        {
+          "id": "b",
+          "text": "der Mann, die Männer"
+        },
+        {
+          "id": "c",
+          "text": "das Baby, die Babys"
+        },
+        {
+          "id": "d",
+          "text": "der Freund, die Freunde"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**der Mann** = man / husband\n*Plural: die Männer*\n\n*Example:* Der Mann von Anna arbeitet als Busfahrer.\nAnna's husband works as a bus driver."
+    },
+    {
+      "id": "tb1-u02-l10-family-people-1-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Meine Familie wohnt in der Türkei und in Deutschland.",
+      "tiles": [
+        "works",
+        "Germany",
+        "brother",
+        "takes",
+        "lives",
+        "in",
+        "Turkey",
+        "in",
+        "and",
+        "family",
+        "My"
+      ],
+      "answers": [
+        "My family lives in Turkey and in Germany."
+      ],
+      "explanation": "**die Familie** = family\n*Plural: die Familien*"
+    },
+    {
+      "id": "tb1-u02-l10-family-people-1-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „woman / wife“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "der Freund, die Freunde"
+        },
+        {
+          "id": "b",
+          "text": "der Name, die Namen"
+        },
+        {
+          "id": "c",
+          "text": "die Frau, die Frauen"
+        },
+        {
+          "id": "d",
+          "text": "die Familie, die Familien"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**die Frau** = woman / wife\n*Plural: die Frauen*\n\n*Example:* Die Frau am Schalter war sehr freundlich.\nThe woman at the counter was very friendly."
+    },
+    {
+      "id": "tb1-u02-l10-family-people-1-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Anna's husband works as a bus driver.",
+      "tiles": [
+        "zum",
+        "als",
+        "arbeitet",
+        "von",
+        "Der",
+        "Busfahrer",
+        "mir",
+        "Mann",
+        "Anna",
+        "Freunde"
+      ],
+      "answers": [
+        "Der Mann von Anna arbeitet als Busfahrer."
+      ],
+      "explanation": "**der Mann** = man / husband\n*Plural: die Männer*"
+    },
+    {
+      "id": "tb1-u02-l10-family-people-1-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „child“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Eltern (Pl.)"
+        },
+        {
+          "id": "b",
+          "text": "das Kind, die Kinder"
+        },
+        {
+          "id": "c",
+          "text": "der Name, die Namen"
+        },
+        {
+          "id": "d",
+          "text": "die Mutter, die Mütter"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**das Kind** = child\n*Plural: die Kinder*\n\n*Example:* Die Kinder spielen nach der Schule im Hof.\nThe children play in the courtyard after school."
+    },
+    {
+      "id": "tb1-u02-l10-family-people-1-ex08",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u02-l10-family-people-1-3.mp3"
+      },
+      "tiles": [
+        "Die",
+        "sehr",
+        "war",
+        "der",
+        "Schalter",
+        "Frau",
+        "freundlich",
+        "am",
+        "Abend",
+        "den"
+      ],
+      "answers": [
+        "Die Frau am Schalter war sehr freundlich."
+      ],
+      "explanation": "Die Frau am Schalter war sehr freundlich.\n*The woman at the counter was very friendly.*\n\n**die Frau** = woman / wife\n*Plural: die Frauen*"
+    },
+    {
+      "id": "tb1-u02-l10-family-people-1-ex09",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „father“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Mutter, die Mütter"
+        },
+        {
+          "id": "b",
+          "text": "die Frau, die Frauen"
+        },
+        {
+          "id": "c",
+          "text": "der Sohn, die Söhne"
+        },
+        {
+          "id": "d",
+          "text": "der Vater, die Väter"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**der Vater** = father\n*Plural: die Väter*\n\n*Example:* Mein Vater bringt die Kinder morgens in den Kindergarten.\nMy father takes the children to nursery in the morning."
+    },
+    {
+      "id": "tb1-u02-l10-family-people-1-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Die Kinder spielen nach der Schule im Hof.",
+      "tiles": [
+        "courtyard",
+        "niece",
+        "play",
+        "the",
+        "medicine",
+        "third",
+        "after",
+        "The",
+        "children",
+        "in",
+        "school"
+      ],
+      "answers": [
+        "The children play in the courtyard after school."
+      ],
+      "explanation": "**das Kind** = child\n*Plural: die Kinder*"
+    },
+    {
+      "id": "tb1-u02-l10-family-people-1-ex11",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "My father takes the children to nursery in the morning.",
+      "tiles": [
+        "Mein",
+        "in",
+        "spielen",
+        "Vater",
+        "sind",
+        "wohnt",
+        "Kinder",
+        "Kindergarten",
+        "die",
+        "morgens",
+        "den",
+        "bringt"
+      ],
+      "answers": [
+        "Mein Vater bringt die Kinder morgens in den Kindergarten."
+      ],
+      "explanation": "**der Vater** = father\n*Plural: die Väter*"
+    }
+  ]
+}

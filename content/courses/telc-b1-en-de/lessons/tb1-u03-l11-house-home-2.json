@@ -1,0 +1,236 @@
+{
+  "id": "tb1-u03-l11-house-home-2",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u03",
+  "title": "House & Home 2",
+  "tip": "Theme: Haus & Wohnung (A1)",
+  "exercises": [
+    {
+      "id": "tb1-u03-l11-house-home-2-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "das Bad",
+          "known": "bathroom"
+        },
+        {
+          "id": "p2",
+          "learning": "das Schlafzimmer",
+          "known": "bedroom"
+        },
+        {
+          "id": "p3",
+          "learning": "das Wohnzimmer",
+          "known": "living room"
+        },
+        {
+          "id": "p4",
+          "learning": "die Tür",
+          "known": "door"
+        },
+        {
+          "id": "p5",
+          "learning": "das Haus",
+          "known": "house"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u03-l11-house-home-2-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „bathroom“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "das Bad, die Bäder"
+        },
+        {
+          "id": "b",
+          "text": "die Küche, die Küchen"
+        },
+        {
+          "id": "c",
+          "text": "der Garten, die Gärten"
+        },
+        {
+          "id": "d",
+          "text": "das Zimmer, die Zimmer"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**das Bad** = bathroom\n*Plural: die Bäder*\n\n*Example:* Das Bad hat eine Dusche, aber keine Badewanne.\nThe bathroom has a shower but no bathtub."
+    },
+    {
+      "id": "tb1-u03-l11-house-home-2-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „bedroom“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "das Bett, die Betten"
+        },
+        {
+          "id": "b",
+          "text": "das Schlafzimmer"
+        },
+        {
+          "id": "c",
+          "text": "der Stuhl, die Stühle"
+        },
+        {
+          "id": "d",
+          "text": "die Lampe, die Lampen"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**das Schlafzimmer** = bedroom\n\n*Example:* Im Schlafzimmer stehen ein Bett und ein großer Schrank.\nThere's a bed and a big wardrobe in the bedroom."
+    },
+    {
+      "id": "tb1-u03-l11-house-home-2-ex04",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u03-l11-house-home-2-1.mp3"
+      },
+      "tiles": [
+        "Fenster",
+        "mach",
+        "eine",
+        "Garten",
+        "Das",
+        "hat",
+        "Bad",
+        "aber",
+        "Badewanne",
+        "Dusche",
+        "keine"
+      ],
+      "answers": [
+        "Das Bad hat eine Dusche, aber keine Badewanne."
+      ],
+      "explanation": "Das Bad hat eine Dusche, aber keine Badewanne.\n*The bathroom has a shower but no bathtub.*\n\n**das Bad** = bathroom\n*Plural: die Bäder*"
+    },
+    {
+      "id": "tb1-u03-l11-house-home-2-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „living room“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "der Garten, die Gärten"
+        },
+        {
+          "id": "b",
+          "text": "das Fenster, die Fenster"
+        },
+        {
+          "id": "c",
+          "text": "die Wohnung, die Wohnungen"
+        },
+        {
+          "id": "d",
+          "text": "das Wohnzimmer"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**das Wohnzimmer** = living room\n\n*Example:* Abends sitzen wir im Wohnzimmer und sehen fern.\nIn the evening we sit in the living room and watch TV."
+    },
+    {
+      "id": "tb1-u03-l11-house-home-2-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Im Schlafzimmer stehen ein Bett und ein großer Schrank.",
+      "tiles": [
+        "and",
+        "with",
+        "big",
+        "wardrobe",
+        "There's",
+        "my",
+        "bedroom",
+        "the",
+        "a",
+        "a",
+        "in",
+        "no",
+        "bed"
+      ],
+      "answers": [
+        "There's a bed and a big wardrobe in the bedroom."
+      ],
+      "explanation": "**das Schlafzimmer** = bedroom"
+    },
+    {
+      "id": "tb1-u03-l11-house-home-2-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „door“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Tür, die Türen"
+        },
+        {
+          "id": "b",
+          "text": "das Haus, die Häuser"
+        },
+        {
+          "id": "c",
+          "text": "der Schrank, die Schränke"
+        },
+        {
+          "id": "d",
+          "text": "das Zimmer, die Zimmer"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**die Tür** = door\n*Plural: die Türen*\n\n*Example:* Bitte mach die Tür zu, es ist kalt.\nPlease close the door, it's cold."
+    },
+    {
+      "id": "tb1-u03-l11-house-home-2-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "In the evening we sit in the living room and watch TV.",
+      "tiles": [
+        "im",
+        "Wohnzimmer",
+        "ist",
+        "fern",
+        "Stühle",
+        "Sommer",
+        "sitzen",
+        "sehen",
+        "Abends",
+        "und",
+        "wir"
+      ],
+      "answers": [
+        "Abends sitzen wir im Wohnzimmer und sehen fern."
+      ],
+      "explanation": "**das Wohnzimmer** = living room"
+    },
+    {
+      "id": "tb1-u03-l11-house-home-2-ex09",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u03-l11-house-home-2-4.mp3"
+      },
+      "tiles": [
+        "die",
+        "zu",
+        "es",
+        "mach",
+        "und",
+        "Bitte",
+        "drei",
+        "nicht",
+        "kalt",
+        "ist",
+        "Tür"
+      ],
+      "answers": [
+        "Bitte mach die Tür zu, es ist kalt."
+      ],
+      "explanation": "Bitte mach die Tür zu, es ist kalt.\n*Please close the door, it's cold.*\n\n**die Tür** = door\n*Plural: die Türen*"
+    }
+  ]
+}

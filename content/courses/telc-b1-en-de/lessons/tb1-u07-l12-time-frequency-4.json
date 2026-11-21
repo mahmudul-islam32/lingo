@@ -1,0 +1,279 @@
+{
+  "id": "tb1-u07-l12-time-frequency-4",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u07",
+  "title": "Time & Frequency 4",
+  "tip": "Theme: Zeit & Häufigkeit (A2)",
+  "exercises": [
+    {
+      "id": "tb1-u07-l12-time-frequency-4-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "gleich",
+          "known": "in a moment / right away"
+        },
+        {
+          "id": "p2",
+          "learning": "seit",
+          "known": "since / for"
+        },
+        {
+          "id": "p3",
+          "learning": "bis",
+          "known": "until"
+        },
+        {
+          "id": "p4",
+          "learning": "während",
+          "known": "during / while"
+        },
+        {
+          "id": "p5",
+          "learning": "plötzlich",
+          "known": "suddenly"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u07-l12-time-frequency-4-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which one means „in a moment / right away“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "zuerst"
+        },
+        {
+          "id": "b",
+          "text": "gleich"
+        },
+        {
+          "id": "c",
+          "text": "plötzlich"
+        },
+        {
+          "id": "d",
+          "text": "gerade"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**gleich** = in a moment / right away\n\n*Example:* Warte bitte kurz, ich komme gleich!\nPlease wait a moment, I'll be right there!"
+    },
+    {
+      "id": "tb1-u07-l12-time-frequency-4-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which one means „since / for“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "seit"
+        },
+        {
+          "id": "b",
+          "text": "oft"
+        },
+        {
+          "id": "c",
+          "text": "bis"
+        },
+        {
+          "id": "d",
+          "text": "schließlich"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**seit** = since / for\n\n*Example:* Meine Nachbarin wohnt seit drei Jahren in Berlin.\nMy neighbour has been living in Berlin for three years."
+    },
+    {
+      "id": "tb1-u07-l12-time-frequency-4-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Please wait a moment, I'll be right there!",
+      "tiles": [
+        "ich",
+        "bitte",
+        "gleich",
+        "oft",
+        "Kinder",
+        "kurz",
+        "Warte",
+        "das",
+        "komme"
+      ],
+      "answers": [
+        "Warte bitte kurz, ich komme gleich!"
+      ],
+      "explanation": "**gleich** = in a moment / right away"
+    },
+    {
+      "id": "tb1-u07-l12-time-frequency-4-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which one means „until“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "bis"
+        },
+        {
+          "id": "b",
+          "text": "schließlich"
+        },
+        {
+          "id": "c",
+          "text": "normalerweise"
+        },
+        {
+          "id": "d",
+          "text": "danach"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**bis** = until\n\n*Example:* Der Supermarkt ist bis 22 Uhr geöffnet.\nThe supermarket is open until 10 p.m."
+    },
+    {
+      "id": "tb1-u07-l12-time-frequency-4-ex06",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u07-l12-time-frequency-4-2.mp3"
+      },
+      "tiles": [
+        "Fitnessstudio",
+        "Berlin",
+        "in",
+        "gerade",
+        "Jahren",
+        "drei",
+        "wohnt",
+        "Meine",
+        "Zeit",
+        "Nachbarin",
+        "seit"
+      ],
+      "answers": [
+        "Meine Nachbarin wohnt seit drei Jahren in Berlin."
+      ],
+      "explanation": "Meine Nachbarin wohnt seit drei Jahren in Berlin.\n*My neighbour has been living in Berlin for three years.*\n\n**seit** = since / for"
+    },
+    {
+      "id": "tb1-u07-l12-time-frequency-4-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which one means „during / while“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "manchmal"
+        },
+        {
+          "id": "b",
+          "text": "während"
+        },
+        {
+          "id": "c",
+          "text": "meistens"
+        },
+        {
+          "id": "d",
+          "text": "gleich"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**während** = during / while\n\n*Example:* Während der Arbeit darf Ali nicht privat telefonieren.\nAli isn't allowed to make private calls during work."
+    },
+    {
+      "id": "tb1-u07-l12-time-frequency-4-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Der Supermarkt ist bis 22 Uhr geöffnet.",
+      "tiles": [
+        "p.m",
+        "I",
+        "has",
+        "is",
+        "until",
+        "he's",
+        "10",
+        "The",
+        "open",
+        "supermarket"
+      ],
+      "answers": [
+        "The supermarket is open until 10 p.m."
+      ],
+      "explanation": "**bis** = until"
+    },
+    {
+      "id": "tb1-u07-l12-time-frequency-4-ex09",
+      "type": "multiple_choice",
+      "prompt": "Which one means „suddenly“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "plötzlich"
+        },
+        {
+          "id": "b",
+          "text": "danach"
+        },
+        {
+          "id": "c",
+          "text": "nachher"
+        },
+        {
+          "id": "d",
+          "text": "selten"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**plötzlich** = suddenly\n\n*Example:* Plötzlich ist im ganzen Haus das Licht ausgegangen.\nSuddenly the lights went out in the whole building."
+    },
+    {
+      "id": "tb1-u07-l12-time-frequency-4-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Ali isn't allowed to make private calls during work.",
+      "tiles": [
+        "Während",
+        "privat",
+        "der",
+        "Arbeit",
+        "telefonieren",
+        "darf",
+        "rufe",
+        "nicht",
+        "und",
+        "ans",
+        "Ali"
+      ],
+      "answers": [
+        "Während der Arbeit darf Ali nicht privat telefonieren."
+      ],
+      "explanation": "**während** = during / while"
+    },
+    {
+      "id": "tb1-u07-l12-time-frequency-4-ex11",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u07-l12-time-frequency-4-5.mp3"
+      },
+      "tiles": [
+        "das",
+        "ist",
+        "Haus",
+        "ins",
+        "ausgegangen",
+        "Licht",
+        "im",
+        "Plötzlich",
+        "Ich",
+        "zum",
+        "ganzen"
+      ],
+      "answers": [
+        "Plötzlich ist im ganzen Haus das Licht ausgegangen."
+      ],
+      "explanation": "Plötzlich ist im ganzen Haus das Licht ausgegangen.\n*Suddenly the lights went out in the whole building.*\n\n**plötzlich** = suddenly"
+    }
+  ]
+}

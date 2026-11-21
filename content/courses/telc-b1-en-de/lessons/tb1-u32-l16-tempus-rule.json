@@ -1,0 +1,129 @@
+{
+  "id": "tb1-u32-l16-tempus-rule",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u32",
+  "title": "Time Prepositions: am, um, im, seit, vor, ab: the rule",
+  "tip": "seit vs. vor is THE trap: “Seit zwei Jahren bin ich nach Deutschland gekommen” is wrong → Vor zwei Jahren … gekommen / Seit zwei Jahren wohne ich hier.",
+  "exercises": [
+    {
+      "id": "tb1-u32-l16-tempus-rule-ex01",
+      "type": "explain",
+      "title": "Time Prepositions: am, um, im, seit, vor, ab",
+      "body": "**um** 8 Uhr · **am** Montag/Wochenende · **im** Juli/Winter · **seit** (still ongoing) vs. **vor** (back then) · **ab** (future start) · **von … bis** · **in** einer Stunde (= from now) · **für** zwei Wochen (planned duration).\n\n*Deutsch:* **um** 8 Uhr · **am** Montag/Wochenende · **im** Juli/Winter · **seit** (läuft noch) vs. **vor** (damals) · **ab** (Start in der Zukunft) · **von … bis** · **in** einer Stunde (= später) · **für** zwei Wochen (geplante Dauer).\n\n*German name:* Zeit-Präpositionen: am, um, im, seit, vor, ab",
+      "examples": [
+        {
+          "learning": "Der Kurs beginnt am Montag um 18 Uhr.",
+          "known": "The course starts on Monday at 6 pm."
+        },
+        {
+          "learning": "Ich wohne seit zwei Jahren hier.",
+          "known": "I have lived here for two years."
+        },
+        {
+          "learning": "Vor einem Monat habe ich die Stelle gewechselt.",
+          "known": "A month ago I changed jobs."
+        }
+      ]
+    },
+    {
+      "id": "tb1-u32-l16-tempus-rule-ex02",
+      "type": "explain",
+      "title": "Time Prepositions: am, um, im, seit, vor, ab: step by step",
+      "body": "The system:\n• Clock time → **um** (um 19 Uhr)\n• Day/part of day → **am** (am Freitag, am Abend, but: in der Nacht)\n• Month/season/decade → **im** (im August, im Winter)\n• Year: no preposition (2026) or “im Jahr 2026”.\nThe confusable pairs:\n• **seit** + still ongoing (Ich lerne seit 6 Monaten) ↔ **vor** + finished (Vor 6 Monaten habe ich angefangen)\n• **in** = counted from now (in einer Woche) ↔ **für** = planned duration (für eine Woche)\n• **ab** = future start (ab Montag).\nAll take dative (um is fixed: um ein Uhr).\n\n## Auf Deutsch\n\nDas System:\n• Uhrzeit → **um** (um 19 Uhr)\n• Tag/Tageszeit → **am** (am Freitag, am Abend, aber: in der Nacht)\n• Monat/Jahreszeit/Jahrzehnt → **im** (im August, im Winter)\n• Jahr: ohne Präposition (2026) oder „im Jahr 2026“.\nDie Verwechsler-Paare:\n• **seit** + läuft noch (Ich lerne seit 6 Monaten) ↔ **vor** + abgeschlossen (Vor 6 Monaten habe ich angefangen)\n• **in** = von jetzt an gerechnet (in einer Woche) ↔ **für** = geplante Dauer (für eine Woche)\n• **ab** = Startpunkt Zukunft (ab Montag).\nAlle mit Dativ (um + Akkusativ ist fix: um ein Uhr).",
+      "examples": [
+        {
+          "learning": "Der Kurs beginnt am Montag um 18 Uhr.",
+          "known": "The course starts on Monday at 6 pm."
+        },
+        {
+          "learning": "Ich wohne seit zwei Jahren hier.",
+          "known": "I have lived here for two years."
+        },
+        {
+          "learning": "Vor einem Monat habe ich die Stelle gewechselt.",
+          "known": "A month ago I changed jobs."
+        },
+        {
+          "learning": "Ab nächster Woche habe ich mehr Zeit.",
+          "known": "From next week on I'll have more time."
+        },
+        {
+          "learning": "Testlücke-Stil: „___ Sommer fahren wir ans Meer.“ → Im",
+          "known": "season → im Sommer"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u32-l16-tempus-rule-ex03",
+      "type": "explain",
+      "title": "Watch out & exam tip",
+      "body": "## Common trap\n\nseit vs. vor is THE trap: “Seit zwei Jahren bin ich nach Deutschland gekommen” is wrong → Vor zwei Jahren … gekommen / Seit zwei Jahren wohne ich hier.\n\n*Deutsch:* seit vs. vor ist DIE Falle: „Seit zwei Jahren bin ich nach Deutschland gekommen“ ist falsch → Vor zwei Jahren … gekommen / Seit zwei Jahren wohne ich hier.\n\n## In the exam\n\n🎯 How telc tests it: **listening part 1** asks times & appointments, hear am/um/im correctly. **Sprachbausteine**: seit/vor/ab gaps. Every appointment suggestion in the **letter** uses am/um: “am Samstag um 15 Uhr”.\n\n*Deutsch:* 🎯 So testet telc das: **Hören Teil 1** fragt Uhrzeiten & Termine, am/um/im richtig hören. **Sprachbausteine**: seit/vor/ab-Lücken. Im **Brief** steht in jedem Terminvorschlag am/um: „am Samstag um 15 Uhr“.\n\n*Source:* Guide B9 (Zeitsystem)"
+    },
+    {
+      "id": "tb1-u32-l16-tempus-rule-ex04",
+      "type": "choice",
+      "title": "Fill the gap",
+      "prompt": "Der Deutschkurs beginnt ___ Montag.",
+      "options": [
+        {
+          "id": "a",
+          "text": "im"
+        },
+        {
+          "id": "b",
+          "text": "am"
+        },
+        {
+          "id": "c",
+          "text": "um"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Tage → am: am Montag."
+    },
+    {
+      "id": "tb1-u32-l16-tempus-rule-ex05",
+      "type": "choice",
+      "title": "Fill the gap",
+      "prompt": "Wir treffen uns ___ 18 Uhr vor dem Kino.",
+      "options": [
+        {
+          "id": "a",
+          "text": "in"
+        },
+        {
+          "id": "b",
+          "text": "am"
+        },
+        {
+          "id": "c",
+          "text": "um"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Uhrzeiten → um: um 18 Uhr."
+    },
+    {
+      "id": "tb1-u32-l16-tempus-rule-ex06",
+      "type": "choice",
+      "title": "Fill the gap",
+      "prompt": "___ Sommer fahren wir immer ans Meer.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Im"
+        },
+        {
+          "id": "b",
+          "text": "Um"
+        },
+        {
+          "id": "c",
+          "text": "Am"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Jahreszeiten/Monate → im: im Sommer."
+    }
+  ]
+}

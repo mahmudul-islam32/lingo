@@ -1,0 +1,235 @@
+{
+  "id": "tb1-u13-l03-environment-weather-3",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u13",
+  "title": "Environment & Weather 3",
+  "tip": "Theme: Umwelt / Wetter (B1)",
+  "exercises": [
+    {
+      "id": "tb1-u13-l03-environment-weather-3-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "das Wetter",
+          "known": "weather"
+        },
+        {
+          "id": "p2",
+          "learning": "der Regen",
+          "known": "rain"
+        },
+        {
+          "id": "p3",
+          "learning": "die Sonne",
+          "known": "sun"
+        },
+        {
+          "id": "p4",
+          "learning": "der Wind",
+          "known": "wind"
+        },
+        {
+          "id": "p5",
+          "learning": "die Umwelt",
+          "known": "environment"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u13-l03-environment-weather-3-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „weather · weather forecast“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "der Nebel (nur Sg.), neblig"
+        },
+        {
+          "id": "b",
+          "text": "der Schnee (nur Sg.), schneien"
+        },
+        {
+          "id": "c",
+          "text": "der Umweltschutz (nur Sg.), die Umwelt schützen"
+        },
+        {
+          "id": "d",
+          "text": "das Wetter (nur Sg.) · die Wettervorhersage, die Wettervorhersagen"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**das Wetter (nur Sg.) · die Wettervorhersage, die Wettervorhersagen** = weather · weather forecast\n\n*Example:* Laut Wettervorhersage wird es morgen kalt.\nAccording to the weather forecast it will be cold tomorrow."
+    },
+    {
+      "id": "tb1-u13-l03-environment-weather-3-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „rain: to rain: rainy“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "der Strom (nur Sg.) · die Energie, die Energien"
+        },
+        {
+          "id": "b",
+          "text": "der Regen (nur Sg.), regnen, regnerisch"
+        },
+        {
+          "id": "c",
+          "text": "die Temperatur, die Temperaturen. Es sind 25 Grad."
+        },
+        {
+          "id": "d",
+          "text": "der Umweltschutz (nur Sg.), die Umwelt schützen"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**der Regen (nur Sg.), regnen, regnerisch** = rain: to rain: rainy\n\n*Example:* Es regnet schon den ganzen Tag, nimm einen Schirm mit!\nIt's been raining all day, take an umbrella!"
+    },
+    {
+      "id": "tb1-u13-l03-environment-weather-3-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "According to the weather forecast it will be cold tomorrow.",
+      "tiles": [
+        "morgen",
+        "deshalb",
+        "es",
+        "wird",
+        "Meine",
+        "sind",
+        "kalt",
+        "Laut",
+        "Wettervorhersage"
+      ],
+      "answers": [
+        "Laut Wettervorhersage wird es morgen kalt."
+      ],
+      "explanation": "**das Wetter (nur Sg.) · die Wettervorhersage, die Wettervorhersagen** = weather · weather forecast"
+    },
+    {
+      "id": "tb1-u13-l03-environment-weather-3-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „sun: sunny: to shine“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Umwelt (nur Sg.), umweltfreundlich ↔ umweltschädlich"
+        },
+        {
+          "id": "b",
+          "text": "die Sonne: sonnig: scheinen (hat geschienen)"
+        },
+        {
+          "id": "c",
+          "text": "der Nebel (nur Sg.), neblig"
+        },
+        {
+          "id": "d",
+          "text": "der Schnee (nur Sg.), schneien"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**die Sonne: sonnig: scheinen (hat geschienen)** = sun: sunny: to shine\n\n*Example:* Heute scheint die Sonne, also gehen wir in den Park.\nThe sun is shining today, so we're going to the park."
+    },
+    {
+      "id": "tb1-u13-l03-environment-weather-3-ex06",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u13-l03-environment-weather-3-2.mp3"
+      },
+      "tiles": [
+        "Tag",
+        "mit",
+        "Schirm",
+        "und",
+        "den",
+        "ganzen",
+        "Es",
+        "einen",
+        "windig",
+        "regnet",
+        "nimm",
+        "zum",
+        "schon"
+      ],
+      "answers": [
+        "Es regnet schon den ganzen Tag, nimm einen Schirm mit!"
+      ],
+      "explanation": "Es regnet schon den ganzen Tag, nimm einen Schirm mit!\n*It's been raining all day, take an umbrella!*\n\n**der Regen (nur Sg.), regnen, regnerisch** = rain: to rain: rainy"
+    },
+    {
+      "id": "tb1-u13-l03-environment-weather-3-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „wind: windy“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "das Klima · der Klimawandel (nur Sg.)"
+        },
+        {
+          "id": "b",
+          "text": "der Umweltschutz (nur Sg.), die Umwelt schützen"
+        },
+        {
+          "id": "c",
+          "text": "der Wind, die Winde: windig"
+        },
+        {
+          "id": "d",
+          "text": "die Sonne: sonnig: scheinen (hat geschienen)"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**der Wind** = wind: windy\n*Plural: die Winde: windig*\n\n*Example:* Am Meer ist es oft sehr windig.\nIt's often very windy by the sea."
+    },
+    {
+      "id": "tb1-u13-l03-environment-weather-3-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Heute scheint die Sonne, also gehen wir in den Park.",
+      "tiles": [
+        "we're",
+        "sun",
+        "morning",
+        "shining",
+        "the",
+        "day",
+        "is",
+        "going",
+        "so",
+        "park",
+        "to",
+        "today",
+        "The",
+        "Cycling"
+      ],
+      "answers": [
+        "The sun is shining today, so we're going to the park."
+      ],
+      "explanation": "**die Sonne: sonnig: scheinen (hat geschienen)** = sun: sunny: to shine"
+    },
+    {
+      "id": "tb1-u13-l03-environment-weather-3-ex09",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "It's often very windy by the sea.",
+      "tiles": [
+        "die",
+        "neblig",
+        "Am",
+        "sehr",
+        "ist",
+        "windig",
+        "Im",
+        "Meer",
+        "oft",
+        "es"
+      ],
+      "answers": [
+        "Am Meer ist es oft sehr windig."
+      ],
+      "explanation": "**der Wind** = wind: windy\n*Plural: die Winde: windig*"
+    }
+  ]
+}

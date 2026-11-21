@@ -1,0 +1,238 @@
+{
+  "id": "tb1-u29-l15-asking-clarifying-1",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u29",
+  "title": "Asking & Clarifying 1",
+  "tip": "Theme: Redemittel: Nachfragen & Klären (B1)",
+  "exercises": [
+    {
+      "id": "tb1-u29-l15-asking-clarifying-1-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "Was meinst du damit?",
+          "known": "What do you mean by that?"
+        },
+        {
+          "id": "p2",
+          "learning": "Ich habe das leider nicht verstanden",
+          "known": "Unfortunately I didn't understand that."
+        },
+        {
+          "id": "p3",
+          "learning": "Was bedeutet das Wort …?",
+          "known": "What does the word … mean?"
+        },
+        {
+          "id": "p4",
+          "learning": "Habe ich das richtig verstanden, dass …?",
+          "known": "Did I understand correctly that …?"
+        },
+        {
+          "id": "p5",
+          "learning": "Du meinst also, dass …",
+          "known": "So you mean that …"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u29-l15-asking-clarifying-1-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which phrase means „Pardon? Could you repeat that, please?“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Wie bitte? Können Sie das bitte wiederholen?"
+        },
+        {
+          "id": "b",
+          "text": "Könnten Sie bitte etwas langsamer sprechen?"
+        },
+        {
+          "id": "c",
+          "text": "Kein Problem, das macht nichts."
+        },
+        {
+          "id": "d",
+          "text": "Was meinst du damit?"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Wie bitte? Können Sie das bitte wiederholen?** = Pardon? Could you repeat that, please?\n\n*Example:* Ihre Kundennummer? Wie bitte? Können Sie das bitte wiederholen?\nYour customer number? Pardon? Could you repeat that, please?"
+    },
+    {
+      "id": "tb1-u29-l15-asking-clarifying-1-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which phrase means „Could you please speak more slowly?“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Was bedeutet das Wort …?"
+        },
+        {
+          "id": "b",
+          "text": "Könnten Sie bitte etwas langsamer sprechen?"
+        },
+        {
+          "id": "c",
+          "text": "Entschuldigung, dass ich unterbreche."
+        },
+        {
+          "id": "d",
+          "text": "Habe ich das richtig verstanden, dass …?"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Könnten Sie bitte etwas langsamer sprechen?** = Could you please speak more slowly?\n\n*Example:* Mein Deutsch ist noch nicht so gut. Könnten Sie bitte etwas langsamer sprechen?\nMy German isn't very good yet. Could you please speak more slowly?"
+    },
+    {
+      "id": "tb1-u29-l15-asking-clarifying-1-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Ihre Kundennummer? Wie bitte? Können Sie das bitte wiederholen?",
+      "tiles": [
+        "repeat",
+        "May",
+        "customer",
+        "number",
+        "Pardon",
+        "quickly",
+        "please",
+        "Your",
+        "you",
+        "that",
+        "What",
+        "Could"
+      ],
+      "answers": [
+        "Your customer number? Pardon? Could you repeat that, please?"
+      ],
+      "explanation": "**Wie bitte? Können Sie das bitte wiederholen?** = Pardon? Could you repeat that, please?"
+    },
+    {
+      "id": "tb1-u29-l15-asking-clarifying-1-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which phrase means „What do you mean by that?“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Was meinst du damit?"
+        },
+        {
+          "id": "b",
+          "text": "Ich habe das leider nicht verstanden."
+        },
+        {
+          "id": "c",
+          "text": "Ich bin mir nicht sicher, aber ich glaube …"
+        },
+        {
+          "id": "d",
+          "text": "Kein Problem, das macht nichts."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Was meinst du damit?** = What do you mean by that?\n\n*Example:* „Die Wohnung ist nicht ideal.“ – „Was meinst du damit?“\n\"The flat isn't ideal.\" – \"What do you mean by that?\""
+    },
+    {
+      "id": "tb1-u29-l15-asking-clarifying-1-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "My German isn't very good yet. Could you please speak more slowly?",
+      "tiles": [
+        "Könnten",
+        "nicht",
+        "langsamer",
+        "noch",
+        "Kein",
+        "Mein",
+        "Sie",
+        "etwas",
+        "sprechen",
+        "bitte",
+        "so",
+        "damit",
+        "ist",
+        "Deutsch",
+        "das",
+        "gut"
+      ],
+      "answers": [
+        "Mein Deutsch ist noch nicht so gut. Könnten Sie bitte etwas langsamer sprechen?"
+      ],
+      "explanation": "**Könnten Sie bitte etwas langsamer sprechen?** = Could you please speak more slowly?"
+    },
+    {
+      "id": "tb1-u29-l15-asking-clarifying-1-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which phrase means „Unfortunately I didn't understand that.“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Wie bitte? Können Sie das bitte wiederholen?"
+        },
+        {
+          "id": "b",
+          "text": "Kein Problem, das macht nichts."
+        },
+        {
+          "id": "c",
+          "text": "Ich habe das leider nicht verstanden."
+        },
+        {
+          "id": "d",
+          "text": "Darf ich kurz nachfragen?"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**Ich habe das leider nicht verstanden.** = Unfortunately I didn't understand that.\n\n*Example:* Entschuldigung, ich habe das leider nicht verstanden.\nSorry, unfortunately I didn't understand that."
+    },
+    {
+      "id": "tb1-u29-l15-asking-clarifying-1-ex08",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u29-l15-asking-clarifying-1-3.mp3"
+      },
+      "tiles": [
+        "ideal",
+        "nicht",
+        "Die",
+        "Wohnung",
+        "fahren",
+        "Was",
+        "du",
+        "damit",
+        "ist",
+        "meinst",
+        "Schicht",
+        "sollen"
+      ],
+      "answers": [
+        "„Die Wohnung ist nicht ideal.“ – „Was meinst du damit?“"
+      ],
+      "explanation": "„Die Wohnung ist nicht ideal.“ – „Was meinst du damit?“\n*\"The flat isn't ideal.\" – \"What do you mean by that?\"*\n\n**Was meinst du damit?** = What do you mean by that?"
+    },
+    {
+      "id": "tb1-u29-l15-asking-clarifying-1-ex09",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Entschuldigung, ich habe das leider nicht verstanden.",
+      "tiles": [
+        "didn't",
+        "Did",
+        "leaves",
+        "Sorry",
+        "that",
+        "understand",
+        "I",
+        "unfortunately",
+        "May"
+      ],
+      "answers": [
+        "Sorry, unfortunately I didn't understand that."
+      ],
+      "explanation": "**Ich habe das leider nicht verstanden.** = Unfortunately I didn't understand that."
+    }
+  ]
+}

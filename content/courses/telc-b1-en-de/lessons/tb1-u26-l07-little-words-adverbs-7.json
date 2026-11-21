@@ -1,0 +1,235 @@
+{
+  "id": "tb1-u26-l07-little-words-adverbs-7",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u26",
+  "title": "Little Words & Adverbs 7",
+  "tip": "Theme: Kleine Wörter & Adverbien (B1)",
+  "exercises": [
+    {
+      "id": "tb1-u26-l07-little-words-adverbs-7-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "worüber",
+          "known": "about what"
+        },
+        {
+          "id": "p2",
+          "learning": "woran",
+          "known": "of / on what"
+        },
+        {
+          "id": "p3",
+          "learning": "darauf",
+          "known": "on it / for it"
+        },
+        {
+          "id": "p4",
+          "learning": "darum",
+          "known": "about it / that's why"
+        },
+        {
+          "id": "p5",
+          "learning": "sogar",
+          "known": "even"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u26-l07-little-words-adverbs-7-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which one means „about what“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "worüber"
+        },
+        {
+          "id": "b",
+          "text": "vorbei"
+        },
+        {
+          "id": "c",
+          "text": "darum"
+        },
+        {
+          "id": "d",
+          "text": "miteinander"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**worüber** = about what\n\n*Example:* Worüber habt ihr in der Pause gesprochen?\nWhat did you talk about during the break?"
+    },
+    {
+      "id": "tb1-u26-l07-little-words-adverbs-7-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which one means „of / on what“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "kaum"
+        },
+        {
+          "id": "b",
+          "text": "woran"
+        },
+        {
+          "id": "c",
+          "text": "worauf"
+        },
+        {
+          "id": "d",
+          "text": "draußen"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**woran** = of / on what\n\n*Example:* Woran denkst du gerade?\nWhat are you thinking about right now?"
+    },
+    {
+      "id": "tb1-u26-l07-little-words-adverbs-7-ex04",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u26-l07-little-words-adverbs-7-1.mp3"
+      },
+      "tiles": [
+        "Ich",
+        "der",
+        "Brot",
+        "ihr",
+        "Pause",
+        "in",
+        "Unser",
+        "habt",
+        "gesprochen",
+        "Worüber"
+      ],
+      "answers": [
+        "Worüber habt ihr in der Pause gesprochen?"
+      ],
+      "explanation": "Worüber habt ihr in der Pause gesprochen?\n*What did you talk about during the break?*\n\n**worüber** = about what"
+    },
+    {
+      "id": "tb1-u26-l07-little-words-adverbs-7-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which one means „on it / for it“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "darauf"
+        },
+        {
+          "id": "b",
+          "text": "drinnen"
+        },
+        {
+          "id": "c",
+          "text": "darum"
+        },
+        {
+          "id": "d",
+          "text": "überhaupt"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**darauf** = on it / for it\n\n*Example:* Ich freue mich schon darauf, meine Familie zu besuchen.\nI'm already looking forward to visiting my family."
+    },
+    {
+      "id": "tb1-u26-l07-little-words-adverbs-7-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Woran denkst du gerade?",
+      "tiles": [
+        "now",
+        "over",
+        "you",
+        "and",
+        "The",
+        "thinking",
+        "right",
+        "are",
+        "about",
+        "What"
+      ],
+      "answers": [
+        "What are you thinking about right now?"
+      ],
+      "explanation": "**woran** = of / on what"
+    },
+    {
+      "id": "tb1-u26-l07-little-words-adverbs-7-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which one means „about it / that's why“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "überhaupt"
+        },
+        {
+          "id": "b",
+          "text": "sogar"
+        },
+        {
+          "id": "c",
+          "text": "darum"
+        },
+        {
+          "id": "d",
+          "text": "außerhalb + Gen."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**darum** = about it / that's why\n\n*Example:* Der Zug hatte Verspätung, darum bin ich zu spät gekommen.\nThe train was delayed, that's why I was late."
+    },
+    {
+      "id": "tb1-u26-l07-little-words-adverbs-7-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I'm already looking forward to visiting my family.",
+      "tiles": [
+        "freue",
+        "Der",
+        "darauf",
+        "Ich",
+        "gekommen",
+        "besuchen",
+        "schon",
+        "mich",
+        "zu",
+        "meine",
+        "Die",
+        "Familie"
+      ],
+      "answers": [
+        "Ich freue mich schon darauf, meine Familie zu besuchen."
+      ],
+      "explanation": "**darauf** = on it / for it"
+    },
+    {
+      "id": "tb1-u26-l07-little-words-adverbs-7-ex09",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u26-l07-little-words-adverbs-7-4.mp3"
+      },
+      "tiles": [
+        "Meine",
+        "gekommen",
+        "in",
+        "darum",
+        "Der",
+        "hatte",
+        "Zug",
+        "kein",
+        "zu",
+        "ich",
+        "Verspätung",
+        "bin",
+        "spät"
+      ],
+      "answers": [
+        "Der Zug hatte Verspätung, darum bin ich zu spät gekommen."
+      ],
+      "explanation": "Der Zug hatte Verspätung, darum bin ich zu spät gekommen.\n*The train was delayed, that's why I was late.*\n\n**darum** = about it / that's why"
+    }
+  ]
+}

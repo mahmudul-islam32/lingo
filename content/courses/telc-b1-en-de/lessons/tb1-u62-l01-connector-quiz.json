@@ -1,0 +1,147 @@
+{
+  "id": "tb1-u62-l01-connector-quiz",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u62",
+  "title": "Connector quiz (Konnektor-Quiz)",
+  "tip": "Pick the connector by its meaning: reason, result, contrast, goal, condition.",
+  "exercises": [
+    {
+      "id": "tb1-u62-l01-connector-quiz-ex01",
+      "type": "explain",
+      "title": "Konnektor nach Bedeutung wählen",
+      "body": "pick the connector by its meaning.\n\n**Grund** → weil, denn · **Folge** → deshalb · **Gegengrund** → obwohl · **Ziel** → damit · **Bedingung** → wenn · **Korrektur** → sondern"
+    },
+    {
+      "id": "tb1-u62-l01-connector-quiz-ex02",
+      "type": "choice",
+      "title": "Welcher Konnektor passt? · Grund",
+      "prompt": "Ich konnte nicht kommen, ___ ich krank war.",
+      "options": [
+        {
+          "id": "a",
+          "text": "obwohl"
+        },
+        {
+          "id": "b",
+          "text": "damit"
+        },
+        {
+          "id": "c",
+          "text": "weil"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Meaning: **Grund**. Grund → weil.\n\n**weil (Grund)**: Hauptsatz, **weil** + Subjekt + … + **Verb ans Ende**.\nBsp: Ich bleibe zu Hause, weil ich müde **bin**."
+    },
+    {
+      "id": "tb1-u62-l01-connector-quiz-ex03",
+      "type": "choice",
+      "title": "Welcher Konnektor passt? · Gegengrund",
+      "prompt": "___ es teuer war, habe ich es gekauft.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Weil"
+        },
+        {
+          "id": "b",
+          "text": "Damit"
+        },
+        {
+          "id": "c",
+          "text": "Obwohl"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Meaning: **Gegengrund**. Gegensatz/Einräumung → obwohl.\n\n**obwohl (Gegengrund)**: **Obwohl** + … + **Verb-Ende**, **Verb** + Subjekt.\nBsp: Obwohl es teuer **war**, **habe ich** es gekauft."
+    },
+    {
+      "id": "tb1-u62-l01-connector-quiz-ex04",
+      "type": "choice",
+      "title": "Welcher Konnektor passt? · Ziel",
+      "prompt": "Ich spare Geld, ___ ich eine Reise machen kann.",
+      "options": [
+        {
+          "id": "a",
+          "text": "weil"
+        },
+        {
+          "id": "b",
+          "text": "damit"
+        },
+        {
+          "id": "c",
+          "text": "obwohl"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Meaning: **Ziel**. Ziel → damit.\n\n**damit (Ziel)**: …, **damit** + Subjekt + … + **Verb-Ende**.\nBsp: Ich spare, damit ich reisen **kann**."
+    },
+    {
+      "id": "tb1-u62-l01-connector-quiz-ex05",
+      "type": "choice",
+      "title": "Welcher Konnektor passt? · Folge",
+      "prompt": "Es hat geregnet, ___ sind wir zu Hause geblieben.",
+      "options": [
+        {
+          "id": "a",
+          "text": "obwohl"
+        },
+        {
+          "id": "b",
+          "text": "deshalb"
+        },
+        {
+          "id": "c",
+          "text": "weil"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Meaning: **Folge**. Folge + Inversion → deshalb.\n\n**deshalb (Folge)**: …, **deshalb** + **Verb** + Subjekt. (Position 1 → Inversion)\nBsp: Ich war krank, deshalb **bin ich** zu Hause geblieben."
+    },
+    {
+      "id": "tb1-u62-l01-connector-quiz-ex06",
+      "type": "choice",
+      "title": "Welcher Konnektor passt? · Korrektur",
+      "prompt": "Ich nehme nicht den Bus, ___ das Fahrrad.",
+      "options": [
+        {
+          "id": "a",
+          "text": "sondern"
+        },
+        {
+          "id": "b",
+          "text": "aber"
+        },
+        {
+          "id": "c",
+          "text": "denn"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Meaning: **Korrektur**. nach Verneinung → sondern.\n\n**nicht … sondern (Korrektur)**: **nicht** A, **sondern** B.\nBsp: nicht heute, sondern morgen."
+    },
+    {
+      "id": "tb1-u62-l01-connector-quiz-ex07",
+      "type": "choice",
+      "title": "Welcher Konnektor passt? · Bedingung",
+      "prompt": "___ du willst, können wir ins Kino gehen.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Weil"
+        },
+        {
+          "id": "b",
+          "text": "Wenn"
+        },
+        {
+          "id": "c",
+          "text": "Obwohl"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Meaning: **Bedingung**. Bedingung → wenn.\n\n**wenn (Bedingung/Zeit)**: **Wenn** + … + **Verb-Ende**, **Verb** + Subjekt.\nBsp: Wenn es **regnet**, **bleibe ich** zu Hause."
+    }
+  ]
+}

@@ -1,0 +1,255 @@
+{
+  "id": "tb1-u16-l10-celebrations-invitations-5",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u16",
+  "title": "Celebrations & Invitations 5",
+  "tip": "Theme: Feste / Kultur / Einladungen (B1)",
+  "exercises": [
+    {
+      "id": "tb1-u16-l10-celebrations-invitations-5-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "die Tradition",
+          "known": "tradition"
+        },
+        {
+          "id": "p2",
+          "learning": "die Kultur",
+          "known": "culture"
+        },
+        {
+          "id": "p3",
+          "learning": "das Fest",
+          "known": "festival"
+        },
+        {
+          "id": "p4",
+          "learning": "die Party",
+          "known": "party"
+        },
+        {
+          "id": "p5",
+          "learning": "der Geburtstag",
+          "known": "birthday"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u16-l10-celebrations-invitations-5-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „tradition: traditional“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "der Gast, die Gäste ↔ der Gastgeber, die Gastgeber"
+        },
+        {
+          "id": "b",
+          "text": "das Feuerwerk, die Feuerwerke"
+        },
+        {
+          "id": "c",
+          "text": "die Tradition, die Traditionen: traditionell"
+        },
+        {
+          "id": "d",
+          "text": "die Kultur, die Kulturen"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**die Tradition** = tradition: traditional\n*Plural: die Traditionen: traditionell*\n\n*Example:* Bei uns ist es Tradition, dass die ganze Familie zusammen frühstückt.\nIn our family it's a tradition that everyone has breakfast together."
+    },
+    {
+      "id": "tb1-u16-l10-celebrations-invitations-5-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „culture“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Stimmung (nur Sg.), gute Stimmung"
+        },
+        {
+          "id": "b",
+          "text": "die Kultur, die Kulturen"
+        },
+        {
+          "id": "c",
+          "text": "der Gast, die Gäste ↔ der Gastgeber, die Gastgeber"
+        },
+        {
+          "id": "d",
+          "text": "das Fest, die Feste · die Feier, die Feiern: feiern"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**die Kultur** = culture\n*Plural: die Kulturen*\n\n*Example:* Maria interessiert sich sehr für die Kultur in Japan.\nMaria is very interested in the culture of Japan."
+    },
+    {
+      "id": "tb1-u16-l10-celebrations-invitations-5-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Bei uns ist es Tradition, dass die ganze Familie zusammen frühstückt.",
+      "tiles": [
+        "a",
+        "Warm",
+        "our",
+        "In",
+        "come",
+        "tradition",
+        "that",
+        "together",
+        "family",
+        "it's",
+        "breakfast",
+        "everyone",
+        "has",
+        "Anna"
+      ],
+      "answers": [
+        "In our family it's a tradition that everyone has breakfast together."
+      ],
+      "explanation": "**die Tradition** = tradition: traditional\n*Plural: die Traditionen: traditionell*"
+    },
+    {
+      "id": "tb1-u16-l10-celebrations-invitations-5-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means „Thanks a lot for the invitation! I'd love to come to your celebration and I'll bring a dessert.“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "In Deutschland feiern viele Leute Silvester mit Freunden, und um Mitternacht gibt es ein großes Feuerwerk."
+        },
+        {
+          "id": "b",
+          "text": "Vielen Dank für die Einladung! Ich komme sehr gern zu deiner Feier und bringe einen Nachtisch mit."
+        },
+        {
+          "id": "c",
+          "text": "Das Essen hat uns sehr gut geschmeckt, deshalb haben wir der Kellnerin ein gutes Trinkgeld gegeben."
+        },
+        {
+          "id": "d",
+          "text": "Können Sie mir etwas empfehlen? Ich esse kein Fleisch, am liebsten esse ich Gemüsegerichte."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Vielen Dank für die Einladung! Ich komme sehr gern zu deiner Feier und bringe einen Nachtisch mit.** = Thanks a lot for the invitation! I'd love to come to your celebration and I'll bring a dessert.\n\n*Example:* Vielen Dank für die Einladung! Ich komme sehr gern zu deiner Feier und bringe einen Nachtisch mit.\nThanks a lot for the invitation! I'd love to come to your celebration and I'll bring a dessert."
+    },
+    {
+      "id": "tb1-u16-l10-celebrations-invitations-5-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Maria is very interested in the culture of Japan.",
+      "tiles": [
+        "Japan",
+        "interessiert",
+        "deshalb",
+        "Kultur",
+        "sich",
+        "die",
+        "es",
+        "sehr",
+        "Wohnung",
+        "für",
+        "in",
+        "Maria"
+      ],
+      "answers": [
+        "Maria interessiert sich sehr für die Kultur in Japan."
+      ],
+      "explanation": "**die Kultur** = culture\n*Plural: die Kulturen*"
+    },
+    {
+      "id": "tb1-u16-l10-celebrations-invitations-5-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means „In Germany many people celebrate New Year's Eve with friends, and at midnight there are big fireworks.“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Vielen Dank für die Einladung! Ich komme sehr gern zu deiner Feier und bringe einen Nachtisch mit."
+        },
+        {
+          "id": "b",
+          "text": "In Deutschland feiern viele Leute Silvester mit Freunden, und um Mitternacht gibt es ein großes Feuerwerk."
+        },
+        {
+          "id": "c",
+          "text": "Das Essen hat uns sehr gut geschmeckt, deshalb haben wir der Kellnerin ein gutes Trinkgeld gegeben."
+        },
+        {
+          "id": "d",
+          "text": "Können Sie mir etwas empfehlen? Ich esse kein Fleisch, am liebsten esse ich Gemüsegerichte."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**In Deutschland feiern viele Leute Silvester mit Freunden, und um Mitternacht gibt es ein großes Feuerwerk.** = In Germany many people celebrate New Year's Eve with friends, and at midnight there are big fireworks.\n\n*Example:* In Deutschland feiern viele Leute Silvester mit Freunden, und um Mitternacht gibt es ein großes Feuerwerk.\nIn Germany many people celebrate New Year's Eve with friends, and at midnight there are big fireworks."
+    },
+    {
+      "id": "tb1-u16-l10-celebrations-invitations-5-ex08",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u16-l10-celebrations-invitations-5-3.mp3"
+      },
+      "tiles": [
+        "die",
+        "Dank",
+        "zu",
+        "großes",
+        "für",
+        "deiner",
+        "komme",
+        "und",
+        "bringe",
+        "sehr",
+        "Ich",
+        "verschieben",
+        "roten",
+        "mit",
+        "gern",
+        "Feier",
+        "Nachtisch",
+        "Einladung",
+        "einen",
+        "Vielen"
+      ],
+      "answers": [
+        "Vielen Dank für die Einladung! Ich komme sehr gern zu deiner Feier und bringe einen Nachtisch mit."
+      ],
+      "explanation": "Vielen Dank für die Einladung! Ich komme sehr gern zu deiner Feier und bringe einen Nachtisch mit.\n*Thanks a lot for the invitation! I'd love to come to your celebration and I'll bring a dessert.*\n\n**Vielen Dank für die Einladung! Ich komme sehr gern zu deiner Feier und bringe einen Nachtisch mit.** = Thanks a lot for the invitation! I'd love to come to your celebration and I'll bring a dessert."
+    },
+    {
+      "id": "tb1-u16-l10-celebrations-invitations-5-ex09",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "In Deutschland feiern viele Leute Silvester mit Freunden, und um Mitternacht gibt es ein großes Feuerwerk.",
+      "tiles": [
+        "people",
+        "the",
+        "there",
+        "midnight",
+        "fireworks",
+        "watch",
+        "at",
+        "Germany",
+        "New",
+        "Eve",
+        "big",
+        "with",
+        "Year's",
+        "Friday",
+        "In",
+        "friends",
+        "and",
+        "many",
+        "celebrate",
+        "are"
+      ],
+      "answers": [
+        "In Germany many people celebrate New Year's Eve with friends, and at midnight there are big fireworks."
+      ],
+      "explanation": "**In Deutschland feiern viele Leute Silvester mit Freunden, und um Mitternacht gibt es ein großes Feuerwerk.** = In Germany many people celebrate New Year's Eve with friends, and at midnight there are big fireworks."
+    }
+  ]
+}

@@ -1,0 +1,233 @@
+{
+  "id": "tb1-u03-l10-house-home-1",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u03",
+  "title": "House & Home 1",
+  "tip": "Theme: Haus & Wohnung (A1)",
+  "exercises": [
+    {
+      "id": "tb1-u03-l10-house-home-1-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "das Haus",
+          "known": "house"
+        },
+        {
+          "id": "p2",
+          "learning": "die Wohnung",
+          "known": "flat / apartment"
+        },
+        {
+          "id": "p3",
+          "learning": "das Zimmer",
+          "known": "room"
+        },
+        {
+          "id": "p4",
+          "learning": "die Küche",
+          "known": "kitchen"
+        },
+        {
+          "id": "p5",
+          "learning": "das Bad",
+          "known": "bathroom"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u03-l10-house-home-1-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „house“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Tür, die Türen"
+        },
+        {
+          "id": "b",
+          "text": "das Wohnzimmer"
+        },
+        {
+          "id": "c",
+          "text": "der Schrank, die Schränke"
+        },
+        {
+          "id": "d",
+          "text": "das Haus, die Häuser"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**das Haus** = house\n*Plural: die Häuser*\n\n*Example:* Meine Großeltern haben ein kleines Haus mit Garten.\nMy grandparents have a small house with a garden."
+    },
+    {
+      "id": "tb1-u03-l10-house-home-1-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „flat / apartment“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "der Garten, die Gärten"
+        },
+        {
+          "id": "b",
+          "text": "die Küche, die Küchen"
+        },
+        {
+          "id": "c",
+          "text": "die Wohnung, die Wohnungen"
+        },
+        {
+          "id": "d",
+          "text": "das Bad, die Bäder"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**die Wohnung** = flat / apartment\n*Plural: die Wohnungen*\n\n*Example:* Wir suchen eine Wohnung mit drei Zimmern.\nWe're looking for a flat with three rooms."
+    },
+    {
+      "id": "tb1-u03-l10-house-home-1-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "My grandparents have a small house with a garden.",
+      "tiles": [
+        "drei",
+        "mit",
+        "ein",
+        "Großeltern",
+        "Meine",
+        "der",
+        "Haus",
+        "kleines",
+        "Garten",
+        "Schlüssel",
+        "haben"
+      ],
+      "answers": [
+        "Meine Großeltern haben ein kleines Haus mit Garten."
+      ],
+      "explanation": "**das Haus** = house\n*Plural: die Häuser*"
+    },
+    {
+      "id": "tb1-u03-l10-house-home-1-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „room“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "der Schlüssel, die Schlüssel"
+        },
+        {
+          "id": "b",
+          "text": "der Tisch, die Tische"
+        },
+        {
+          "id": "c",
+          "text": "das Schlafzimmer"
+        },
+        {
+          "id": "d",
+          "text": "das Zimmer, die Zimmer"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**das Zimmer** = room\n*Plural: die Zimmer*\n\n*Example:* Das Zimmer ist hell und hat einen Balkon.\nThe room is bright and has a balcony."
+    },
+    {
+      "id": "tb1-u03-l10-house-home-1-ex06",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u03-l10-house-home-1-2.mp3"
+      },
+      "tiles": [
+        "Wohnung",
+        "im",
+        "eine",
+        "drei",
+        "suchen",
+        "Schlüssel",
+        "Zimmern",
+        "Flur",
+        "mit",
+        "Wir"
+      ],
+      "answers": [
+        "Wir suchen eine Wohnung mit drei Zimmern."
+      ],
+      "explanation": "Wir suchen eine Wohnung mit drei Zimmern.\n*We're looking for a flat with three rooms.*\n\n**die Wohnung** = flat / apartment\n*Plural: die Wohnungen*"
+    },
+    {
+      "id": "tb1-u03-l10-house-home-1-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „kitchen“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "das Schlafzimmer"
+        },
+        {
+          "id": "b",
+          "text": "der Tisch, die Tische"
+        },
+        {
+          "id": "c",
+          "text": "die Küche, die Küchen"
+        },
+        {
+          "id": "d",
+          "text": "der Schrank, die Schränke"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**die Küche** = kitchen\n*Plural: die Küchen*\n\n*Example:* Die Küche ist klein, aber sie hat eine Spülmaschine.\nThe kitchen is small, but it has a dishwasher."
+    },
+    {
+      "id": "tb1-u03-l10-house-home-1-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Das Zimmer ist hell und hat einen Balkon.",
+      "tiles": [
+        "has",
+        "The",
+        "bright",
+        "and",
+        "food",
+        "a",
+        "so",
+        "balcony",
+        "room",
+        "is",
+        "garden"
+      ],
+      "answers": [
+        "The room is bright and has a balcony."
+      ],
+      "explanation": "**das Zimmer** = room\n*Plural: die Zimmer*"
+    },
+    {
+      "id": "tb1-u03-l10-house-home-1-ex09",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "The kitchen is small, but it has a dishwasher.",
+      "tiles": [
+        "klein",
+        "Küche",
+        "ist",
+        "um",
+        "hat",
+        "eine",
+        "Das",
+        "Spülmaschine",
+        "sie",
+        "zu",
+        "Die",
+        "aber"
+      ],
+      "answers": [
+        "Die Küche ist klein, aber sie hat eine Spülmaschine."
+      ],
+      "explanation": "**die Küche** = kitchen\n*Plural: die Küchen*"
+    }
+  ]
+}

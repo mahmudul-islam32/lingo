@@ -1,0 +1,295 @@
+{
+  "id": "tb1-u23-l04-exam-language-instructions-4",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u23",
+  "title": "Exam Language & Instructions 4",
+  "tip": "Theme: Prüfungssprache & Aufgaben (B1)",
+  "exercises": [
+    {
+      "id": "tb1-u23-l04-exam-language-instructions-4-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "die Anrede",
+          "known": "salutation (Lieber … / Sehr geehrte …)"
+        },
+        {
+          "id": "p2",
+          "learning": "die Einleitung",
+          "known": "introduction"
+        },
+        {
+          "id": "p3",
+          "learning": "der Schluss",
+          "known": "ending / conclusion"
+        },
+        {
+          "id": "p4",
+          "learning": "der Schlusssatz",
+          "known": "closing sentence"
+        },
+        {
+          "id": "p5",
+          "learning": "der Gruß",
+          "known": "greeting / closing (Viele Grüße)"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u23-l04-exam-language-instructions-4-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „salutation (Lieber … / Sehr geehrte …)“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Anrede, die Anreden"
+        },
+        {
+          "id": "b",
+          "text": "die Reihenfolge, die Reihenfolgen"
+        },
+        {
+          "id": "c",
+          "text": "der Familienname, die Familiennamen"
+        },
+        {
+          "id": "d",
+          "text": "das Ergebnis, die Ergebnisse"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**die Anrede** = salutation (Lieber … / Sehr geehrte …)\n*Plural: die Anreden*\n\n*Example:* In einem Brief an das Amt passt die Anrede „Sehr geehrte Damen und Herren“.\nIn a letter to the authorities, the salutation \"Dear Sir or Madam\" fits."
+    },
+    {
+      "id": "tb1-u23-l04-exam-language-instructions-4-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „introduction“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Anzeige, die Anzeigen"
+        },
+        {
+          "id": "b",
+          "text": "der Gruß, die Grüße"
+        },
+        {
+          "id": "c",
+          "text": "der Gesprächspartner, die Gesprächspartner"
+        },
+        {
+          "id": "d",
+          "text": "die Einleitung, die Einleitungen"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**die Einleitung** = introduction\n*Plural: die Einleitungen*\n\n*Example:* In der Einleitung schreibt Tom, warum er den Brief schreibt.\nIn the introduction, Tom writes why he is writing the letter."
+    },
+    {
+      "id": "tb1-u23-l04-exam-language-instructions-4-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "In a letter to the authorities, the salutation \"Dear Sir or Madam\" fits.",
+      "tiles": [
+        "Amt",
+        "überträgt",
+        "und",
+        "auf",
+        "meine",
+        "an",
+        "Anrede",
+        "geehrte",
+        "einem",
+        "die",
+        "Damen",
+        "In",
+        "Herren",
+        "Brief",
+        "das",
+        "passt",
+        "Sehr"
+      ],
+      "answers": [
+        "In einem Brief an das Amt passt die Anrede „Sehr geehrte Damen und Herren“."
+      ],
+      "explanation": "**die Anrede** = salutation (Lieber … / Sehr geehrte …)\n*Plural: die Anreden*"
+    },
+    {
+      "id": "tb1-u23-l04-exam-language-instructions-4-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „ending / conclusion“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Anzeige, die Anzeigen"
+        },
+        {
+          "id": "b",
+          "text": "der Schluss, die Schlüsse"
+        },
+        {
+          "id": "c",
+          "text": "das Datum, die Daten"
+        },
+        {
+          "id": "d",
+          "text": "die Anrede, die Anreden"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**der Schluss** = ending / conclusion\n*Plural: die Schlüsse*\n\n*Example:* Am Schluss des Films hat meine Mutter geweint.\nAt the end of the film, my mother cried."
+    },
+    {
+      "id": "tb1-u23-l04-exam-language-instructions-4-ex06",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u23-l04-exam-language-instructions-4-2.mp3"
+      },
+      "tiles": [
+        "Zeugen",
+        "In",
+        "er",
+        "passt",
+        "warum",
+        "Brief",
+        "schreibt",
+        "den",
+        "Einleitung",
+        "Auf",
+        "Tom",
+        "schreibt",
+        "der"
+      ],
+      "answers": [
+        "In der Einleitung schreibt Tom, warum er den Brief schreibt."
+      ],
+      "explanation": "In der Einleitung schreibt Tom, warum er den Brief schreibt.\n*In the introduction, Tom writes why he is writing the letter.*\n\n**die Einleitung** = introduction\n*Plural: die Einleitungen*"
+    },
+    {
+      "id": "tb1-u23-l04-exam-language-instructions-4-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „closing sentence“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "der Familienname, die Familiennamen"
+        },
+        {
+          "id": "b",
+          "text": "die Abbildung, die Abbildungen"
+        },
+        {
+          "id": "c",
+          "text": "der Schlusssatz, die Schlusssätze"
+        },
+        {
+          "id": "d",
+          "text": "der Vorname, die Vornamen"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**der Schlusssatz** = closing sentence\n*Plural: die Schlusssätze*\n\n*Example:* Als Schlusssatz schreibt Maria: „Ich freue mich auf Ihre Antwort.“\nAs a closing sentence, Maria writes: \"I look forward to your reply.\""
+    },
+    {
+      "id": "tb1-u23-l04-exam-language-instructions-4-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Am Schluss des Films hat meine Mutter geweint.",
+      "tiles": [
+        "the",
+        "the",
+        "called",
+        "my",
+        "your",
+        "At",
+        "a",
+        "end",
+        "of",
+        "film",
+        "cried",
+        "mother"
+      ],
+      "answers": [
+        "At the end of the film, my mother cried."
+      ],
+      "explanation": "**der Schluss** = ending / conclusion\n*Plural: die Schlüsse*"
+    },
+    {
+      "id": "tb1-u23-l04-exam-language-instructions-4-ex09",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „greeting / closing (Viele Grüße)“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Lücke, die Lücken"
+        },
+        {
+          "id": "b",
+          "text": "der Gruß, die Grüße"
+        },
+        {
+          "id": "c",
+          "text": "die Aufgabenstellung, die Aufgabenstellungen"
+        },
+        {
+          "id": "d",
+          "text": "der Antwortbogen, die Antwortbögen"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**der Gruß** = greeting / closing (Viele Grüße)\n*Plural: die Grüße*\n\n*Example:* Ali beendet die E-Mail an seinen Freund mit vielen Grüßen.\nAli ends the email to his friend with best wishes."
+    },
+    {
+      "id": "tb1-u23-l04-exam-language-instructions-4-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "As a closing sentence, Maria writes: \"I look forward to your reply.\"",
+      "tiles": [
+        "Antwort",
+        "ledig",
+        "Kollege",
+        "Ich",
+        "auf",
+        "wie",
+        "freue",
+        "mich",
+        "Ihre",
+        "schreibt",
+        "Maria",
+        "Schlusssatz",
+        "Als"
+      ],
+      "answers": [
+        "Als Schlusssatz schreibt Maria: „Ich freue mich auf Ihre Antwort.“"
+      ],
+      "explanation": "**der Schlusssatz** = closing sentence\n*Plural: die Schlusssätze*"
+    },
+    {
+      "id": "tb1-u23-l04-exam-language-instructions-4-ex11",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u23-l04-exam-language-instructions-4-5.mp3"
+      },
+      "tiles": [
+        "vielen",
+        "Am",
+        "Mein",
+        "an",
+        "Freund",
+        "die",
+        "Grüßen",
+        "E-Mail",
+        "beendet",
+        "mit",
+        "seinen",
+        "Ali",
+        "des"
+      ],
+      "answers": [
+        "Ali beendet die E-Mail an seinen Freund mit vielen Grüßen."
+      ],
+      "explanation": "Ali beendet die E-Mail an seinen Freund mit vielen Grüßen.\n*Ali ends the email to his friend with best wishes.*\n\n**der Gruß** = greeting / closing (Viele Grüße)\n*Plural: die Grüße*"
+    }
+  ]
+}

@@ -1,0 +1,229 @@
+{
+  "id": "tb1-u09-l04-verbs-a2-4",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u09",
+  "title": "Verbs (A2) 4",
+  "tip": "Theme: Verben (A2) (A2)",
+  "exercises": [
+    {
+      "id": "tb1-u09-l04-verbs-a2-4-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "entscheiden",
+          "known": "to decide"
+        },
+        {
+          "id": "p2",
+          "learning": "wiederholen",
+          "known": "to repeat"
+        },
+        {
+          "id": "p3",
+          "learning": "benutzen",
+          "known": "to use"
+        },
+        {
+          "id": "p4",
+          "learning": "mitbringen",
+          "known": "to bring along"
+        },
+        {
+          "id": "p5",
+          "learning": "treffen",
+          "known": "to meet"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u09-l04-verbs-a2-4-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which one means „to decide“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "entscheiden"
+        },
+        {
+          "id": "b",
+          "text": "finden"
+        },
+        {
+          "id": "c",
+          "text": "treffen (trifft)"
+        },
+        {
+          "id": "d",
+          "text": "erklären"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**entscheiden** = to decide\n\n*Example:* Wir haben uns für die kleinere Wohnung entschieden.\nWe've decided on the smaller flat."
+    },
+    {
+      "id": "tb1-u09-l04-verbs-a2-4-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which one means „to repeat“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "besuchen"
+        },
+        {
+          "id": "b",
+          "text": "finden"
+        },
+        {
+          "id": "c",
+          "text": "erklären"
+        },
+        {
+          "id": "d",
+          "text": "wiederholen"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**wiederholen** = to repeat\n\n*Example:* Können Sie Ihre Telefonnummer bitte wiederholen?\nCould you repeat your phone number, please?"
+    },
+    {
+      "id": "tb1-u09-l04-verbs-a2-4-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "We've decided on the smaller flat.",
+      "tiles": [
+        "entschieden",
+        "uns",
+        "Der",
+        "Preis",
+        "für",
+        "Wohnung",
+        "die",
+        "Gestern",
+        "Wir",
+        "haben",
+        "kleinere"
+      ],
+      "answers": [
+        "Wir haben uns für die kleinere Wohnung entschieden."
+      ],
+      "explanation": "**entscheiden** = to decide"
+    },
+    {
+      "id": "tb1-u09-l04-verbs-a2-4-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which one means „to use“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "benutzen"
+        },
+        {
+          "id": "b",
+          "text": "bekommen"
+        },
+        {
+          "id": "c",
+          "text": "finden"
+        },
+        {
+          "id": "d",
+          "text": "helfen (hilft)"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**benutzen** = to use\n\n*Example:* Im Büro benutze ich einen Laptop.\nI use a laptop at the office."
+    },
+    {
+      "id": "tb1-u09-l04-verbs-a2-4-ex06",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u09-l04-verbs-a2-4-2.mp3"
+      },
+      "tiles": [
+        "Sie",
+        "bitte",
+        "Können",
+        "wiederholen",
+        "besuchen",
+        "dem",
+        "Telefonnummer",
+        "Ihre",
+        "einen"
+      ],
+      "answers": [
+        "Können Sie Ihre Telefonnummer bitte wiederholen?"
+      ],
+      "explanation": "Können Sie Ihre Telefonnummer bitte wiederholen?\n*Could you repeat your phone number, please?*\n\n**wiederholen** = to repeat"
+    },
+    {
+      "id": "tb1-u09-l04-verbs-a2-4-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which one means „to bring along“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "mitbringen (bringt mit)"
+        },
+        {
+          "id": "b",
+          "text": "suchen"
+        },
+        {
+          "id": "c",
+          "text": "helfen (hilft)"
+        },
+        {
+          "id": "d",
+          "text": "besuchen"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**mitbringen (bringt mit)** = to bring along\n\n*Example:* Zur Party bringe ich einen Salat mit.\nI'll bring a salad to the party."
+    },
+    {
+      "id": "tb1-u09-l04-verbs-a2-4-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Im Büro benutze ich einen Laptop.",
+      "tiles": [
+        "my",
+        "use",
+        "laptop",
+        "I",
+        "office",
+        "from",
+        "a",
+        "the",
+        "at",
+        "meeting"
+      ],
+      "answers": [
+        "I use a laptop at the office."
+      ],
+      "explanation": "**benutzen** = to use"
+    },
+    {
+      "id": "tb1-u09-l04-verbs-a2-4-ex09",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I'll bring a salad to the party.",
+      "tiles": [
+        "Zur",
+        "einen",
+        "bringe",
+        "Party",
+        "oft",
+        "ich",
+        "mit",
+        "Salat",
+        "Anfang",
+        "Geburtstagsparty"
+      ],
+      "answers": [
+        "Zur Party bringe ich einen Salat mit."
+      ],
+      "explanation": "**mitbringen (bringt mit)** = to bring along"
+    }
+  ]
+}

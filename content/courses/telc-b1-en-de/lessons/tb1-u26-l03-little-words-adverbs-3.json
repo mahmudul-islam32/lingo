@@ -1,0 +1,284 @@
+{
+  "id": "tb1-u26-l03-little-words-adverbs-3",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u26",
+  "title": "Little Words & Adverbs 3",
+  "tip": "Theme: Kleine Wörter & Adverbien (B1)",
+  "exercises": [
+    {
+      "id": "tb1-u26-l03-little-words-adverbs-3-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "höchstens",
+          "known": "at most"
+        },
+        {
+          "id": "p2",
+          "learning": "überhaupt",
+          "known": "at all (überhaupt nicht = not at all)"
+        },
+        {
+          "id": "p3",
+          "learning": "eigentlich",
+          "known": "actually"
+        },
+        {
+          "id": "p4",
+          "learning": "sonst",
+          "known": "otherwise"
+        },
+        {
+          "id": "p5",
+          "learning": "dabei",
+          "known": "at the same time / with it"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u26-l03-little-words-adverbs-3-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which one means „at most“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "kaum"
+        },
+        {
+          "id": "b",
+          "text": "selbst"
+        },
+        {
+          "id": "c",
+          "text": "drinnen"
+        },
+        {
+          "id": "d",
+          "text": "höchstens"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**höchstens** = at most\n\n*Example:* Die Fahrt zum Bahnhof dauert höchstens zehn Minuten.\nThe trip to the station takes ten minutes at most."
+    },
+    {
+      "id": "tb1-u26-l03-little-words-adverbs-3-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which one means „at all (überhaupt nicht = not at all)“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "überhaupt"
+        },
+        {
+          "id": "b",
+          "text": "statt + Gen."
+        },
+        {
+          "id": "c",
+          "text": "kaum"
+        },
+        {
+          "id": "d",
+          "text": "allein"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**überhaupt** = at all (überhaupt nicht = not at all)\n\n*Example:* Ich habe überhaupt keine Zeit, weil ich so viel arbeiten muss.\nI have no time at all because I have to work so much."
+    },
+    {
+      "id": "tb1-u26-l03-little-words-adverbs-3-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Die Fahrt zum Bahnhof dauert höchstens zehn Minuten.",
+      "tiles": [
+        "to",
+        "The",
+        "minutes",
+        "ten",
+        "at",
+        "are",
+        "trip",
+        "talk",
+        "most",
+        "takes",
+        "the",
+        "already",
+        "station"
+      ],
+      "answers": [
+        "The trip to the station takes ten minutes at most."
+      ],
+      "explanation": "**höchstens** = at most"
+    },
+    {
+      "id": "tb1-u26-l03-little-words-adverbs-3-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which one means „actually“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "höchstens"
+        },
+        {
+          "id": "b",
+          "text": "eigentlich"
+        },
+        {
+          "id": "c",
+          "text": "woran"
+        },
+        {
+          "id": "d",
+          "text": "worum"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**eigentlich** = actually\n\n*Example:* Eigentlich wollte ich heute einkaufen, aber es regnet.\nActually I wanted to go shopping today, but it's raining."
+    },
+    {
+      "id": "tb1-u26-l03-little-words-adverbs-3-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I have no time at all because I have to work so much.",
+      "tiles": [
+        "habe",
+        "keine",
+        "Ich",
+        "viel",
+        "arbeiten",
+        "überhaupt",
+        "muss",
+        "in",
+        "es",
+        "kein",
+        "weil",
+        "ich",
+        "so",
+        "Zeit"
+      ],
+      "answers": [
+        "Ich habe überhaupt keine Zeit, weil ich so viel arbeiten muss."
+      ],
+      "explanation": "**überhaupt** = at all (überhaupt nicht = not at all)"
+    },
+    {
+      "id": "tb1-u26-l03-little-words-adverbs-3-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which one means „otherwise“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "höchstens"
+        },
+        {
+          "id": "b",
+          "text": "wegen + Gen."
+        },
+        {
+          "id": "c",
+          "text": "sonst"
+        },
+        {
+          "id": "d",
+          "text": "einander"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**sonst** = otherwise\n\n*Example:* Nimm einen Regenschirm mit, sonst wirst du nass.\nTake an umbrella, otherwise you'll get wet."
+    },
+    {
+      "id": "tb1-u26-l03-little-words-adverbs-3-ex08",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u26-l03-little-words-adverbs-3-3.mp3"
+      },
+      "tiles": [
+        "es",
+        "aber",
+        "Mein",
+        "Familie",
+        "Eigentlich",
+        "regnet",
+        "heute",
+        "wollte",
+        "einkaufen",
+        "Schrank",
+        "ich"
+      ],
+      "answers": [
+        "Eigentlich wollte ich heute einkaufen, aber es regnet."
+      ],
+      "explanation": "Eigentlich wollte ich heute einkaufen, aber es regnet.\n*Actually I wanted to go shopping today, but it's raining.*\n\n**eigentlich** = actually"
+    },
+    {
+      "id": "tb1-u26-l03-little-words-adverbs-3-ex09",
+      "type": "multiple_choice",
+      "prompt": "Which one means „at the same time / with it“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "wegen + Gen."
+        },
+        {
+          "id": "b",
+          "text": "genug"
+        },
+        {
+          "id": "c",
+          "text": "eigentlich"
+        },
+        {
+          "id": "d",
+          "text": "dabei"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**dabei** = at the same time / with it\n\n*Example:* Mein Bruder kocht und hört dabei Musik.\nMy brother cooks and listens to music at the same time."
+    },
+    {
+      "id": "tb1-u26-l03-little-words-adverbs-3-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Nimm einen Regenschirm mit, sonst wirst du nass.",
+      "tiles": [
+        "outside",
+        "otherwise",
+        "you'll",
+        "late",
+        "get",
+        "an",
+        "Take",
+        "wet",
+        "listens",
+        "umbrella"
+      ],
+      "answers": [
+        "Take an umbrella, otherwise you'll get wet."
+      ],
+      "explanation": "**sonst** = otherwise"
+    },
+    {
+      "id": "tb1-u26-l03-little-words-adverbs-3-ex11",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "My brother cooks and listens to music at the same time.",
+      "tiles": [
+        "Musik",
+        "gesprochen",
+        "Bruder",
+        "Mein",
+        "und",
+        "Kinder",
+        "dabei",
+        "Schwestern",
+        "hört",
+        "kocht"
+      ],
+      "answers": [
+        "Mein Bruder kocht und hört dabei Musik."
+      ],
+      "explanation": "**dabei** = at the same time / with it"
+    }
+  ]
+}

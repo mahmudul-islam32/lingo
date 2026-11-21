@@ -1,0 +1,276 @@
+{
+  "id": "tb1-u02-l01-numbers-time-1",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u02",
+  "title": "Numbers & Time 1",
+  "tip": "Theme: Zahlen & Zeit (A1)",
+  "exercises": [
+    {
+      "id": "tb1-u02-l01-numbers-time-1-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "die Zahl",
+          "known": "number"
+        },
+        {
+          "id": "p2",
+          "learning": "null",
+          "known": "zero"
+        },
+        {
+          "id": "p3",
+          "learning": "eins",
+          "known": "one"
+        },
+        {
+          "id": "p4",
+          "learning": "zwei",
+          "known": "two"
+        },
+        {
+          "id": "p5",
+          "learning": "drei",
+          "known": "three"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u02-l01-numbers-time-1-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „number“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "der Monat, die Monate"
+        },
+        {
+          "id": "b",
+          "text": "die Woche, die Wochen"
+        },
+        {
+          "id": "c",
+          "text": "die Zeit"
+        },
+        {
+          "id": "d",
+          "text": "die Zahl, die Zahlen"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**die Zahl** = number\n*Plural: die Zahlen*\n\n*Example:* Maria kann sich lange Zahlen sehr gut merken.\nMaria is very good at remembering long numbers."
+    },
+    {
+      "id": "tb1-u02-l01-numbers-time-1-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which one means „zero“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "gestern"
+        },
+        {
+          "id": "b",
+          "text": "null"
+        },
+        {
+          "id": "c",
+          "text": "morgen"
+        },
+        {
+          "id": "d",
+          "text": "hundert"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**null** = zero\n\n*Example:* Meine Telefonnummer beginnt mit null.\nMy phone number starts with zero."
+    },
+    {
+      "id": "tb1-u02-l01-numbers-time-1-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Maria is very good at remembering long numbers.",
+      "tiles": [
+        "sehr",
+        "Minuten",
+        "sich",
+        "lange",
+        "gut",
+        "kann",
+        "Zahlen",
+        "Zeit",
+        "ein",
+        "merken",
+        "Maria"
+      ],
+      "answers": [
+        "Maria kann sich lange Zahlen sehr gut merken."
+      ],
+      "explanation": "**die Zahl** = number\n*Plural: die Zahlen*"
+    },
+    {
+      "id": "tb1-u02-l01-numbers-time-1-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which one means „one“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "jetzt"
+        },
+        {
+          "id": "b",
+          "text": "fünf"
+        },
+        {
+          "id": "c",
+          "text": "eins"
+        },
+        {
+          "id": "d",
+          "text": "zwei"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**eins** = one\n\n*Example:* Unser Sohn ist eins und kann schon laufen.\nOur son is one and can already walk."
+    },
+    {
+      "id": "tb1-u02-l01-numbers-time-1-ex06",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u02-l01-numbers-time-1-2.mp3"
+      },
+      "tiles": [
+        "mit",
+        "ich",
+        "null",
+        "beginnt",
+        "Der",
+        "Meine",
+        "Kinder",
+        "Telefonnummer"
+      ],
+      "answers": [
+        "Meine Telefonnummer beginnt mit null."
+      ],
+      "explanation": "Meine Telefonnummer beginnt mit null.\n*My phone number starts with zero.*\n\n**null** = zero"
+    },
+    {
+      "id": "tb1-u02-l01-numbers-time-1-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which one means „two“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "drei"
+        },
+        {
+          "id": "b",
+          "text": "zwei"
+        },
+        {
+          "id": "c",
+          "text": "gestern"
+        },
+        {
+          "id": "d",
+          "text": "jetzt"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**zwei** = two\n\n*Example:* Ali hat zwei Kinder und einen Hund.\nAli has two children and a dog."
+    },
+    {
+      "id": "tb1-u02-l01-numbers-time-1-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Unser Sohn ist eins und kann schon laufen.",
+      "tiles": [
+        "the",
+        "one",
+        "time",
+        "already",
+        "walk",
+        "is",
+        "Our",
+        "car",
+        "and",
+        "can",
+        "son"
+      ],
+      "answers": [
+        "Our son is one and can already walk."
+      ],
+      "explanation": "**eins** = one"
+    },
+    {
+      "id": "tb1-u02-l01-numbers-time-1-ex09",
+      "type": "multiple_choice",
+      "prompt": "Which one means „three“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "heute"
+        },
+        {
+          "id": "b",
+          "text": "zehn"
+        },
+        {
+          "id": "c",
+          "text": "drei"
+        },
+        {
+          "id": "d",
+          "text": "null"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**drei** = three\n\n*Example:* Wir bleiben drei Nächte im Hotel.\nWe are staying at the hotel for three nights."
+    },
+    {
+      "id": "tb1-u02-l01-numbers-time-1-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Ali has two children and a dog.",
+      "tiles": [
+        "Entschuldigung",
+        "Kaffee",
+        "Kinder",
+        "einen",
+        "hat",
+        "und",
+        "neun",
+        "Hund",
+        "Ali",
+        "zwei"
+      ],
+      "answers": [
+        "Ali hat zwei Kinder und einen Hund."
+      ],
+      "explanation": "**zwei** = two"
+    },
+    {
+      "id": "tb1-u02-l01-numbers-time-1-ex11",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u02-l01-numbers-time-1-5.mp3"
+      },
+      "tiles": [
+        "drei",
+        "Wir",
+        "im",
+        "bleiben",
+        "Hotel",
+        "ein",
+        "Miete",
+        "Nächte",
+        "Familie"
+      ],
+      "answers": [
+        "Wir bleiben drei Nächte im Hotel."
+      ],
+      "explanation": "Wir bleiben drei Nächte im Hotel.\n*We are staying at the hotel for three nights.*\n\n**drei** = three"
+    }
+  ]
+}

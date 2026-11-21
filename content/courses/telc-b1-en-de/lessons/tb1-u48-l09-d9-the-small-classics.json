@@ -1,0 +1,225 @@
+{
+  "id": "tb1-u48-l09-d9-the-small-classics",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u48",
+  "title": "The small classics (Die kleinen Klassiker)",
+  "tip": "Gap type: Kleine Klassiker (small classics).",
+  "exercises": [
+    {
+      "id": "tb1-u48-l09-d9-the-small-classics-ex01",
+      "type": "explain",
+      "title": "The small classics",
+      "body": "**Comparison:** comparative + **als** (never „wie“) · equality = **(genau)so … wie** · intensify with **viel/noch** (never „sehr“ or „mehr“) · rising trend = **immer** + comparative · **je … desto**.\n**Negation:** **kein** negates nouns with ein- or no article · **nicht** negates verbs, adjectives, definites · **nichts** is a pronoun, not an article.\n**erst / schon / noch / nicht mehr:** erst = less or later than expected · schon = more or earlier than expected · noch = still · nicht mehr = not any more.\n**gern → lieber → am liebsten.** Accepting an invitation = **Ja, gerne!**\n**zu + adjective** means „too much of it“, careful when the same sentence has a positive outcome; telc builds items on exactly that clash.\n\n## Auf Deutsch: Die kleinen Klassiker\n\n**Vergleich:** Komparativ + **als** (älter als ich, nie „wie“!) · Gleichheit = **(genau)so … wie** · verstärken mit **viel/noch** (viel kälter, nie „sehr“ oder „mehr“) · steigende Tendenz = **immer** + Komparativ · **je … desto**.\n**Verneinung:** **kein** verneint Nomen mit ein- oder ohne Artikel (keine Zeit) · **nicht** verneint Verben, Adjektive, Bestimmtes (nicht mehr, nicht der Chef) · **nichts** ist ein Pronomen, kein Artikel.\n**erst / schon / noch / nicht mehr:** erst = weniger oder später als erwartet (erst fünf Minuten) · schon = mehr oder früher als erwartet (schon fünf Jahre) · noch = weiterhin · nicht mehr = nicht länger.\n**gern → lieber → am liebsten.** Eine Einladung annimmt man mit **Ja, gerne!**\n**zu + Adjektiv** heißt „zu viel davon“. Vorsicht, wenn im selben Satz ein positives Ergebnis steht; genau darauf baut telc Items."
+    },
+    {
+      "id": "tb1-u48-l09-d9-the-small-classics-ex02",
+      "type": "choice",
+      "prompt": "Der Film war ___ interessant wie das Buch.",
+      "options": [
+        {
+          "id": "a",
+          "text": "genauso"
+        },
+        {
+          "id": "b",
+          "text": "als"
+        },
+        {
+          "id": "c",
+          "text": "mehr"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Answer: genauso** · Kleine Klassiker (small classics)\n\nEquality: genauso … wie.\n\n*Auf Deutsch:* Gleichheit: genauso … wie."
+    },
+    {
+      "id": "tb1-u48-l09-d9-the-small-classics-ex03",
+      "type": "choice",
+      "prompt": "Heute ist es ___ kälter als gestern.",
+      "options": [
+        {
+          "id": "a",
+          "text": "sehr"
+        },
+        {
+          "id": "b",
+          "text": "viel"
+        },
+        {
+          "id": "c",
+          "text": "mehr"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Answer: viel** · Kleine Klassiker (small classics)\n\nComparatives are intensified with viel or noch, never sehr or mehr.\n\n*Auf Deutsch:* Komparative verstärkt man mit viel oder noch, nie mit sehr oder mehr."
+    },
+    {
+      "id": "tb1-u48-l09-d9-the-small-classics-ex04",
+      "type": "choice",
+      "prompt": "Ich habe ___ Zeit, dir zu helfen. Tut mir leid.",
+      "options": [
+        {
+          "id": "a",
+          "text": "nicht"
+        },
+        {
+          "id": "b",
+          "text": "nichts"
+        },
+        {
+          "id": "c",
+          "text": "keine"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**Answer: keine** · Kleine Klassiker (small classics)\n\nA noun (Zeit) is negated with kein-. „nichts“ cannot stand before a noun.\n\n*Auf Deutsch:* Ein Nomen (Zeit) wird mit kein- verneint. „nichts“ kann nicht vor einem Nomen stehen."
+    },
+    {
+      "id": "tb1-u48-l09-d9-the-small-classics-ex05",
+      "type": "choice",
+      "prompt": "Er wohnt ___ in Hamburg, er ist letztes Jahr umgezogen.",
+      "options": [
+        {
+          "id": "a",
+          "text": "nicht mehr"
+        },
+        {
+          "id": "b",
+          "text": "nie"
+        },
+        {
+          "id": "c",
+          "text": "noch"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Answer: nicht mehr** · Kleine Klassiker (small classics)\n\nHe moved away → nicht mehr. „nie“ contradicts having lived there.\n\n*Auf Deutsch:* Er ist weggezogen → nicht mehr. „nie“ widerspricht dem Umzug."
+    },
+    {
+      "id": "tb1-u48-l09-d9-the-small-classics-ex06",
+      "type": "choice",
+      "prompt": "Wartest du schon lange? Nein, ich bin ___ fünf Minuten hier.",
+      "options": [
+        {
+          "id": "a",
+          "text": "schon"
+        },
+        {
+          "id": "b",
+          "text": "erst"
+        },
+        {
+          "id": "c",
+          "text": "noch"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Answer: erst** · Kleine Klassiker (small classics)\n\nLess than expected → erst.\n\n*Auf Deutsch:* Weniger als erwartet → erst."
+    },
+    {
+      "id": "tb1-u48-l09-d9-the-small-classics-ex07",
+      "type": "choice",
+      "prompt": "Je mehr ich übe, ___ besser spreche ich.",
+      "options": [
+        {
+          "id": "a",
+          "text": "desto"
+        },
+        {
+          "id": "b",
+          "text": "als"
+        },
+        {
+          "id": "c",
+          "text": "immer"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Answer: desto** · Kleine Klassiker (small classics)\n\nThe fixed pair je … desto.\n\n*Auf Deutsch:* Das feste Paar je … desto."
+    },
+    {
+      "id": "tb1-u48-l09-d9-the-small-classics-ex08",
+      "type": "choice",
+      "prompt": "Das Wetter wird ___ schöner.",
+      "options": [
+        {
+          "id": "a",
+          "text": "mehr"
+        },
+        {
+          "id": "b",
+          "text": "viel"
+        },
+        {
+          "id": "c",
+          "text": "immer"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**Answer: immer** · Kleine Klassiker (small classics)\n\nRising trend: immer schöner (more and more).\n\n*Auf Deutsch:* Steigende Tendenz: immer schöner."
+    },
+    {
+      "id": "tb1-u48-l09-d9-the-small-classics-ex09",
+      "type": "choice",
+      "prompt": "Trinkst du Kaffee lieber mit oder ___ Zucker?",
+      "options": [
+        {
+          "id": "a",
+          "text": "ohne"
+        },
+        {
+          "id": "b",
+          "text": "kein"
+        },
+        {
+          "id": "c",
+          "text": "nicht"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Answer: ohne** · Kleine Klassiker (small classics)\n\nmit oder ohne Zucker. Kein/nicht do not work grammatically after „oder“ here.\n\n*Auf Deutsch:* mit oder ohne Zucker. Kein/nicht passen hier grammatisch nicht nach „oder“."
+    },
+    {
+      "id": "tb1-u48-l09-d9-the-small-classics-ex10",
+      "type": "choice",
+      "prompt": "Die Prüfung war ___ schwer, aber ich habe sie geschafft.",
+      "options": [
+        {
+          "id": "a",
+          "text": "zu"
+        },
+        {
+          "id": "b",
+          "text": "ziemlich"
+        },
+        {
+          "id": "c",
+          "text": "am"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Answer: ziemlich** · Kleine Klassiker (small classics)\n\n„zu schwer“ would clash with „but I passed“; „ziemlich“ fits the concession.\n\n*Auf Deutsch:* „zu schwer“ widerspräche „aber ich habe sie geschafft“; „ziemlich“ passt zur Einräumung."
+    },
+    {
+      "id": "tb1-u48-l09-d9-the-small-classics-ex11",
+      "type": "choice",
+      "prompt": "Kommst du mit ins Kino? Ja, ___ !",
+      "options": [
+        {
+          "id": "a",
+          "text": "am liebsten"
+        },
+        {
+          "id": "b",
+          "text": "lieber"
+        },
+        {
+          "id": "c",
+          "text": "gerne"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**Answer: gerne** · Kleine Klassiker (small classics)\n\nAccepting an invitation = Ja, gerne! Lieber/am liebsten compare alternatives that are not mentioned.\n\n*Auf Deutsch:* Eine Einladung annehmen = Ja, gerne! Lieber/am liebsten vergleichen Alternativen, die hier gar nicht genannt sind."
+    }
+  ]
+}

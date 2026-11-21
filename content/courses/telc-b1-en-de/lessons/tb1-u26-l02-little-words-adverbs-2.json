@@ -1,0 +1,283 @@
+{
+  "id": "tb1-u26-l02-little-words-adverbs-2",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u26",
+  "title": "Little Words & Adverbs 2",
+  "tip": "Theme: Kleine Wörter & Adverbien (B1)",
+  "exercises": [
+    {
+      "id": "tb1-u26-l02-little-words-adverbs-2-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "miteinander",
+          "known": "with each other"
+        },
+        {
+          "id": "p2",
+          "learning": "einander",
+          "known": "each other"
+        },
+        {
+          "id": "p3",
+          "learning": "voneinander",
+          "known": "from each other"
+        },
+        {
+          "id": "p4",
+          "learning": "jeweils",
+          "known": "each / in each case"
+        },
+        {
+          "id": "p5",
+          "learning": "mindestens",
+          "known": "at least"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u26-l02-little-words-adverbs-2-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which one means „with each other“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "miteinander"
+        },
+        {
+          "id": "b",
+          "text": "unten"
+        },
+        {
+          "id": "c",
+          "text": "kaum"
+        },
+        {
+          "id": "d",
+          "text": "außerhalb + Gen."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**miteinander** = with each other\n\n*Example:* Die Kinder spielen schön miteinander im Garten.\nThe children are playing nicely with each other in the garden."
+    },
+    {
+      "id": "tb1-u26-l02-little-words-adverbs-2-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which one means „each other“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "unten"
+        },
+        {
+          "id": "b",
+          "text": "einander"
+        },
+        {
+          "id": "c",
+          "text": "worum"
+        },
+        {
+          "id": "d",
+          "text": "voneinander"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**einander** = each other\n\n*Example:* Anna und Tom helfen einander beim Umzug.\nAnna and Tom help each other with the move."
+    },
+    {
+      "id": "tb1-u26-l02-little-words-adverbs-2-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "The children are playing nicely with each other in the garden.",
+      "tiles": [
+        "Die",
+        "habe",
+        "selbst",
+        "Garten",
+        "spielen",
+        "miteinander",
+        "Kinder",
+        "schön",
+        "einen",
+        "im"
+      ],
+      "answers": [
+        "Die Kinder spielen schön miteinander im Garten."
+      ],
+      "explanation": "**miteinander** = with each other"
+    },
+    {
+      "id": "tb1-u26-l02-little-words-adverbs-2-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which one means „from each other“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "voneinander"
+        },
+        {
+          "id": "b",
+          "text": "unten"
+        },
+        {
+          "id": "c",
+          "text": "sonst"
+        },
+        {
+          "id": "d",
+          "text": "worum"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**voneinander** = from each other\n\n*Example:* Die beiden Schwestern wohnen weit voneinander entfernt.\nThe two sisters live far away from each other."
+    },
+    {
+      "id": "tb1-u26-l02-little-words-adverbs-2-ex06",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u26-l02-little-words-adverbs-2-2.mp3"
+      },
+      "tiles": [
+        "Anna",
+        "am",
+        "und",
+        "Tom",
+        "Ich",
+        "einander",
+        "helfen",
+        "miteinander",
+        "beim",
+        "Umzug"
+      ],
+      "answers": [
+        "Anna und Tom helfen einander beim Umzug."
+      ],
+      "explanation": "Anna und Tom helfen einander beim Umzug.\n*Anna and Tom help each other with the move.*\n\n**einander** = each other"
+    },
+    {
+      "id": "tb1-u26-l02-little-words-adverbs-2-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which one means „each / in each case“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "voneinander"
+        },
+        {
+          "id": "b",
+          "text": "draußen"
+        },
+        {
+          "id": "c",
+          "text": "jeweils"
+        },
+        {
+          "id": "d",
+          "text": "überhaupt"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**jeweils** = each / in each case\n\n*Example:* Der Kurs findet jeweils am Montag und Mittwoch statt.\nThe course takes place on Mondays and Wednesdays each week."
+    },
+    {
+      "id": "tb1-u26-l02-little-words-adverbs-2-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Die beiden Schwestern wohnen weit voneinander entfernt.",
+      "tiles": [
+        "course",
+        "other",
+        "live",
+        "far",
+        "all",
+        "from",
+        "The",
+        "each",
+        "away",
+        "sisters",
+        "two",
+        "to"
+      ],
+      "answers": [
+        "The two sisters live far away from each other."
+      ],
+      "explanation": "**voneinander** = from each other"
+    },
+    {
+      "id": "tb1-u26-l02-little-words-adverbs-2-ex09",
+      "type": "multiple_choice",
+      "prompt": "Which one means „at least“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "drinnen"
+        },
+        {
+          "id": "b",
+          "text": "mindestens"
+        },
+        {
+          "id": "c",
+          "text": "dabei"
+        },
+        {
+          "id": "d",
+          "text": "draußen"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**mindestens** = at least\n\n*Example:* Sie sollten mindestens zwei Liter Wasser am Tag trinken.\nYou should drink at least two litres of water a day."
+    },
+    {
+      "id": "tb1-u26-l02-little-words-adverbs-2-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "The course takes place on Mondays and Wednesdays each week.",
+      "tiles": [
+        "Kurs",
+        "gekommen",
+        "und",
+        "Regenschirm",
+        "findet",
+        "am",
+        "Montag",
+        "Mittwoch",
+        "Worauf",
+        "jeweils",
+        "statt",
+        "Der"
+      ],
+      "answers": [
+        "Der Kurs findet jeweils am Montag und Mittwoch statt."
+      ],
+      "explanation": "**jeweils** = each / in each case"
+    },
+    {
+      "id": "tb1-u26-l02-little-words-adverbs-2-ex11",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u26-l02-little-words-adverbs-2-5.mp3"
+      },
+      "tiles": [
+        "Liter",
+        "Tag",
+        "hört",
+        "trinken",
+        "Wasser",
+        "Sie",
+        "mindestens",
+        "zwei",
+        "sollten",
+        "Garten",
+        "am",
+        "außerhalb"
+      ],
+      "answers": [
+        "Sie sollten mindestens zwei Liter Wasser am Tag trinken."
+      ],
+      "explanation": "Sie sollten mindestens zwei Liter Wasser am Tag trinken.\n*You should drink at least two litres of water a day.*\n\n**mindestens** = at least"
+    }
+  ]
+}

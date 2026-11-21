@@ -1,0 +1,284 @@
+{
+  "id": "tb1-u11-l07-health-the-doctor-1",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u11",
+  "title": "Health & the Doctor 1",
+  "tip": "Theme: Gesundheit / Arzt (B1)",
+  "exercises": [
+    {
+      "id": "tb1-u11-l07-health-the-doctor-1-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "gesund",
+          "known": "healthy"
+        },
+        {
+          "id": "p2",
+          "learning": "die Gesundheit",
+          "known": "health"
+        },
+        {
+          "id": "p3",
+          "learning": "die Erkältung",
+          "known": "a cold"
+        },
+        {
+          "id": "p4",
+          "learning": "die Grippe",
+          "known": "flu"
+        },
+        {
+          "id": "p5",
+          "learning": "der Husten",
+          "known": "cough"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u11-l07-health-the-doctor-1-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which one means „healthy ↔ ill“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "krankgeschrieben sein: die Krankmeldung, die Krankmeldungen"
+        },
+        {
+          "id": "b",
+          "text": "die Erkältung, die Erkältungen: erkältet sein"
+        },
+        {
+          "id": "c",
+          "text": "einen Termin vereinbaren / absagen / verschieben"
+        },
+        {
+          "id": "d",
+          "text": "gesund ↔ krank"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**gesund ↔ krank** = healthy ↔ ill\n\n*Example:* Gestern war ich krank, aber heute bin ich wieder gesund.\nI was ill yesterday, but today I'm healthy again."
+    },
+    {
+      "id": "tb1-u11-l07-health-the-doctor-1-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „health · illness“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Sprechstunde, die Sprechstunden"
+        },
+        {
+          "id": "b",
+          "text": "die Gesundheit (nur Sg.) · die Krankheit, die Krankheiten"
+        },
+        {
+          "id": "c",
+          "text": "das Rezept, die Rezepte"
+        },
+        {
+          "id": "d",
+          "text": "das Krankenhaus, die Krankenhäuser"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**die Gesundheit (nur Sg.) · die Krankheit, die Krankheiten** = health · illness\n\n*Example:* Sport ist gut für die Gesundheit.\nExercise is good for your health."
+    },
+    {
+      "id": "tb1-u11-l07-health-the-doctor-1-ex04",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u11-l07-health-the-doctor-1-1.mp3"
+      },
+      "tiles": [
+        "bleibe",
+        "bin",
+        "gesund",
+        "war",
+        "Gestern",
+        "ich",
+        "heute",
+        "aber",
+        "Krankmeldung",
+        "Klein",
+        "wieder",
+        "ich",
+        "krank"
+      ],
+      "answers": [
+        "Gestern war ich krank, aber heute bin ich wieder gesund."
+      ],
+      "explanation": "Gestern war ich krank, aber heute bin ich wieder gesund.\n*I was ill yesterday, but today I'm healthy again.*\n\n**gesund ↔ krank** = healthy ↔ ill"
+    },
+    {
+      "id": "tb1-u11-l07-health-the-doctor-1-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „a cold: to have a cold“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Apotheke, die Apotheken"
+        },
+        {
+          "id": "b",
+          "text": "die Gesundheit (nur Sg.) · die Krankheit, die Krankheiten"
+        },
+        {
+          "id": "c",
+          "text": "der Husten · der Schnupfen (beide nur Sg.)"
+        },
+        {
+          "id": "d",
+          "text": "die Erkältung, die Erkältungen: erkältet sein"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**die Erkältung** = a cold: to have a cold\n*Plural: die Erkältungen: erkältet sein*\n\n*Example:* Ich bin erkältet und bleibe heute zu Hause.\nI have a cold and I'm staying at home today."
+    },
+    {
+      "id": "tb1-u11-l07-health-the-doctor-1-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Sport ist gut für die Gesundheit.",
+      "tiles": [
+        "good",
+        "had",
+        "for",
+        "Exercise",
+        "Maria",
+        "at",
+        "your",
+        "health",
+        "is"
+      ],
+      "answers": [
+        "Exercise is good for your health."
+      ],
+      "explanation": "**die Gesundheit (nur Sg.) · die Krankheit, die Krankheiten** = health · illness"
+    },
+    {
+      "id": "tb1-u11-l07-health-the-doctor-1-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „flu · fever“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "das Krankenhaus, die Krankenhäuser"
+        },
+        {
+          "id": "b",
+          "text": "die Praxis, die Praxen"
+        },
+        {
+          "id": "c",
+          "text": "die Grippe (nur Sg.) · das Fieber (nur Sg.)"
+        },
+        {
+          "id": "d",
+          "text": "die Apotheke, die Apotheken"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**die Grippe (nur Sg.) · das Fieber (nur Sg.)** = flu · fever\n\n*Example:* Mein Sohn hat die Grippe und hohes Fieber.\nMy son has the flu and a high fever."
+    },
+    {
+      "id": "tb1-u11-l07-health-the-doctor-1-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I have a cold and I'm staying at home today.",
+      "tiles": [
+        "bin",
+        "heute",
+        "und",
+        "zu",
+        "bleibe",
+        "Hause",
+        "erkältet",
+        "Termin",
+        "im",
+        "einen",
+        "Ich"
+      ],
+      "answers": [
+        "Ich bin erkältet und bleibe heute zu Hause."
+      ],
+      "explanation": "**die Erkältung** = a cold: to have a cold\n*Plural: die Erkältungen: erkältet sein*"
+    },
+    {
+      "id": "tb1-u11-l07-health-the-doctor-1-ex09",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „cough · runny nose“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "der Husten · der Schnupfen (beide nur Sg.)"
+        },
+        {
+          "id": "b",
+          "text": "das Rezept, die Rezepte"
+        },
+        {
+          "id": "c",
+          "text": "der Hausarzt, die Hausärzte / die Hausärztin, die Hausärztinnen"
+        },
+        {
+          "id": "d",
+          "text": "die Kopfschmerzen / Halsschmerzen / Bauchschmerzen / Rückenschmerzen (Pl.)"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**der Husten · der Schnupfen (beide nur Sg.)** = cough · runny nose\n\n*Example:* Seit Montag habe ich Husten und Schnupfen.\nI've had a cough and a runny nose since Monday."
+    },
+    {
+      "id": "tb1-u11-l07-health-the-doctor-1-ex10",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u11-l07-health-the-doctor-1-4.mp3"
+      },
+      "tiles": [
+        "bis",
+        "Uhr",
+        "Grippe",
+        "hohes",
+        "und",
+        "Maria",
+        "Fieber",
+        "Sohn",
+        "hat",
+        "Mein",
+        "die"
+      ],
+      "answers": [
+        "Mein Sohn hat die Grippe und hohes Fieber."
+      ],
+      "explanation": "Mein Sohn hat die Grippe und hohes Fieber.\n*My son has the flu and a high fever.*\n\n**die Grippe (nur Sg.) · das Fieber (nur Sg.)** = flu · fever"
+    },
+    {
+      "id": "tb1-u11-l07-health-the-doctor-1-ex11",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Seit Montag habe ich Husten und Schnupfen.",
+      "tiles": [
+        "leave",
+        "three",
+        "had",
+        "runny",
+        "I've",
+        "a",
+        "and",
+        "week",
+        "nose",
+        "cough",
+        "a",
+        "since",
+        "Monday"
+      ],
+      "answers": [
+        "I've had a cough and a runny nose since Monday."
+      ],
+      "explanation": "**der Husten · der Schnupfen (beide nur Sg.)** = cough · runny nose"
+    }
+  ]
+}

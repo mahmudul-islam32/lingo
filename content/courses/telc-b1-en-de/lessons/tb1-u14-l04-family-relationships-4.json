@@ -1,0 +1,234 @@
+{
+  "id": "tb1-u14-l04-family-relationships-4",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u14",
+  "title": "Family & Relationships 4",
+  "tip": "Theme: Familie / Beziehungen (B1)",
+  "exercises": [
+    {
+      "id": "tb1-u14-l04-family-relationships-4-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "die Beziehung",
+          "known": "relationship"
+        },
+        {
+          "id": "p2",
+          "learning": "sich verstehen mit",
+          "known": "to get along with"
+        },
+        {
+          "id": "p3",
+          "learning": "sich streiten mit",
+          "known": "to argue with"
+        },
+        {
+          "id": "p4",
+          "learning": "sich kümmern um",
+          "known": "to take care of"
+        },
+        {
+          "id": "p5",
+          "learning": "die Eltern",
+          "known": "parents"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u14-l04-family-relationships-4-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „relationship“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "das Kind, die Kinder · der Sohn, die Söhne · die Tochter, die Töchter"
+        },
+        {
+          "id": "b",
+          "text": "die Großeltern (Pl.) · der Enkel, die Enkel"
+        },
+        {
+          "id": "c",
+          "text": "die Beziehung, die Beziehungen"
+        },
+        {
+          "id": "d",
+          "text": "die Eltern (Pl.) · der Vater, die Väter · die Mutter, die Mütter"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**die Beziehung** = relationship\n*Plural: die Beziehungen*\n\n*Example:* Ich habe eine gute Beziehung zu meinen Eltern.\nI have a good relationship with my parents."
+    },
+    {
+      "id": "tb1-u14-l04-family-relationships-4-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which verb means „to get along with“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "sich verstehen mit + Dat. (hat sich verstanden)"
+        },
+        {
+          "id": "b",
+          "text": "sich streiten mit + Dat. (hat sich gestritten)"
+        },
+        {
+          "id": "c",
+          "text": "aufwachsen (ist aufgewachsen)"
+        },
+        {
+          "id": "d",
+          "text": "sich scheiden lassen"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**sich verstehen mit + Dat. (hat sich verstanden)** = to get along with\n\n*Example:* Ich verstehe mich sehr gut mit meiner Schwiegermutter.\nI get along very well with my mother-in-law."
+    },
+    {
+      "id": "tb1-u14-l04-family-relationships-4-ex04",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u14-l04-family-relationships-4-1.mp3"
+      },
+      "tiles": [
+        "eine",
+        "Geschwistern",
+        "gute",
+        "zu",
+        "vertraue",
+        "Dorf",
+        "Beziehung",
+        "habe",
+        "meinen",
+        "Eltern",
+        "Ich"
+      ],
+      "answers": [
+        "Ich habe eine gute Beziehung zu meinen Eltern."
+      ],
+      "explanation": "Ich habe eine gute Beziehung zu meinen Eltern.\n*I have a good relationship with my parents.*\n\n**die Beziehung** = relationship\n*Plural: die Beziehungen*"
+    },
+    {
+      "id": "tb1-u14-l04-family-relationships-4-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which verb means „to argue with“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "sich verstehen mit + Dat. (hat sich verstanden)"
+        },
+        {
+          "id": "b",
+          "text": "sich scheiden lassen"
+        },
+        {
+          "id": "c",
+          "text": "sich streiten mit + Dat. (hat sich gestritten)"
+        },
+        {
+          "id": "d",
+          "text": "aufwachsen (ist aufgewachsen)"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**sich streiten mit + Dat. (hat sich gestritten)** = to argue with\n\n*Example:* Tom streitet sich oft mit seinem Bruder.\nTom often argues with his brother."
+    },
+    {
+      "id": "tb1-u14-l04-family-relationships-4-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Ich verstehe mich sehr gut mit meiner Schwiegermutter.",
+      "tiles": [
+        "mother-in-law",
+        "my",
+        "is",
+        "well",
+        "along",
+        "the",
+        "I",
+        "get",
+        "brother",
+        "very",
+        "with"
+      ],
+      "answers": [
+        "I get along very well with my mother-in-law."
+      ],
+      "explanation": "**sich verstehen mit + Dat. (hat sich verstanden)** = to get along with"
+    },
+    {
+      "id": "tb1-u14-l04-family-relationships-4-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which verb means „to take care of“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "sich kümmern um + Akk."
+        },
+        {
+          "id": "b",
+          "text": "aufwachsen (ist aufgewachsen)"
+        },
+        {
+          "id": "c",
+          "text": "sich verstehen mit + Dat. (hat sich verstanden)"
+        },
+        {
+          "id": "d",
+          "text": "sich streiten mit + Dat. (hat sich gestritten)"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**sich kümmern um + Akk.** = to take care of\n\n*Example:* Am Wochenende kümmert sich mein Mann um die Kinder.\nAt the weekend my husband takes care of the children."
+    },
+    {
+      "id": "tb1-u14-l04-family-relationships-4-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Tom often argues with his brother.",
+      "tiles": [
+        "sich",
+        "Bruder",
+        "streitet",
+        "Tom",
+        "seinem",
+        "großen",
+        "einem",
+        "oft",
+        "Tochter",
+        "mit"
+      ],
+      "answers": [
+        "Tom streitet sich oft mit seinem Bruder."
+      ],
+      "explanation": "**sich streiten mit + Dat. (hat sich gestritten)** = to argue with"
+    },
+    {
+      "id": "tb1-u14-l04-family-relationships-4-ex09",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u14-l04-family-relationships-4-4.mp3"
+      },
+      "tiles": [
+        "die",
+        "Mann",
+        "mein",
+        "kümmert",
+        "Kinder",
+        "1998",
+        "wohnen",
+        "Ehe",
+        "sich",
+        "um",
+        "Am",
+        "Wochenende"
+      ],
+      "answers": [
+        "Am Wochenende kümmert sich mein Mann um die Kinder."
+      ],
+      "explanation": "Am Wochenende kümmert sich mein Mann um die Kinder.\n*At the weekend my husband takes care of the children.*\n\n**sich kümmern um + Akk.** = to take care of"
+    }
+  ]
+}

@@ -1,0 +1,234 @@
+{
+  "id": "tb1-u25-l14-nouns-work-education-society-6",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u25",
+  "title": "Nouns: Work, Education & Society 6",
+  "tip": "Theme: Nomen: Arbeit, Bildung & Gesellschaft (B1)",
+  "exercises": [
+    {
+      "id": "tb1-u25-l14-nouns-work-education-society-6-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "die Reihe",
+          "known": "row / series (der Reihe nach = in turn)"
+        },
+        {
+          "id": "p2",
+          "learning": "die Summe",
+          "known": "sum / total"
+        },
+        {
+          "id": "p3",
+          "learning": "der Service",
+          "known": "service"
+        },
+        {
+          "id": "p4",
+          "learning": "die Aussprache",
+          "known": "pronunciation"
+        },
+        {
+          "id": "p5",
+          "learning": "der Mitarbeiter",
+          "known": "employee / staff member"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u25-l14-nouns-work-education-society-6-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „row / series (der Reihe nach = in turn)“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "das Lernziel, die Lernziele"
+        },
+        {
+          "id": "b",
+          "text": "der Kursleiter, die Kursleiter"
+        },
+        {
+          "id": "c",
+          "text": "die Nachhilfe"
+        },
+        {
+          "id": "d",
+          "text": "die Reihe, die Reihen"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**die Reihe** = row / series (der Reihe nach = in turn)\n*Plural: die Reihen*\n\n*Example:* Im Kino sitzen wir in der dritten Reihe.\nAt the cinema we're sitting in the third row."
+    },
+    {
+      "id": "tb1-u25-l14-nouns-work-education-society-6-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „sum / total“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "das Institut, die Institute"
+        },
+        {
+          "id": "b",
+          "text": "das Examen, die Examen"
+        },
+        {
+          "id": "c",
+          "text": "der Mitarbeiter, die Mitarbeiter"
+        },
+        {
+          "id": "d",
+          "text": "die Summe, die Summen"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**die Summe** = sum / total\n*Plural: die Summen*\n\n*Example:* Die Summe auf der Rechnung ist zu hoch.\nThe total on the bill is too high."
+    },
+    {
+      "id": "tb1-u25-l14-nouns-work-education-society-6-ex04",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u25-l14-nouns-work-education-society-6-1.mp3"
+      },
+      "tiles": [
+        "dritten",
+        "Im",
+        "Rechnungen",
+        "Reihe",
+        "dem",
+        "sitzen",
+        "in",
+        "braucht",
+        "Kino",
+        "wir",
+        "der"
+      ],
+      "answers": [
+        "Im Kino sitzen wir in der dritten Reihe."
+      ],
+      "explanation": "Im Kino sitzen wir in der dritten Reihe.\n*At the cinema we're sitting in the third row.*\n\n**die Reihe** = row / series (der Reihe nach = in turn)\n*Plural: die Reihen*"
+    },
+    {
+      "id": "tb1-u25-l14-nouns-work-education-society-6-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „service“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "der Service"
+        },
+        {
+          "id": "b",
+          "text": "die Summe, die Summen"
+        },
+        {
+          "id": "c",
+          "text": "der Erwachsene, die Erwachsenen"
+        },
+        {
+          "id": "d",
+          "text": "die Vermittlung"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**der Service** = service\n\n*Example:* Der Service in diesem Hotel ist wirklich ausgezeichnet.\nThe service in this hotel is really excellent."
+    },
+    {
+      "id": "tb1-u25-l14-nouns-work-education-society-6-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Die Summe auf der Rechnung ist zu hoch.",
+      "tiles": [
+        "youth",
+        "the",
+        "total",
+        "many",
+        "This",
+        "bill",
+        "high",
+        "too",
+        "on",
+        "The",
+        "is"
+      ],
+      "answers": [
+        "The total on the bill is too high."
+      ],
+      "explanation": "**die Summe** = sum / total\n*Plural: die Summen*"
+    },
+    {
+      "id": "tb1-u25-l14-nouns-work-education-society-6-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „pronunciation“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Aussprache"
+        },
+        {
+          "id": "b",
+          "text": "die Stellungnahme, die Stellungnahmen"
+        },
+        {
+          "id": "c",
+          "text": "die Sprachkenntnisse (Pl.)"
+        },
+        {
+          "id": "d",
+          "text": "der Jugendliche, die Jugendlichen"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**die Aussprache** = pronunciation\n\n*Example:* Anna übt jeden Tag ihre Aussprache mit Podcasts.\nAnna practises her pronunciation with podcasts every day."
+    },
+    {
+      "id": "tb1-u25-l14-nouns-work-education-society-6-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "The service in this hotel is really excellent.",
+      "tiles": [
+        "diesem",
+        "Hotel",
+        "ist",
+        "Bereich",
+        "an",
+        "wirklich",
+        "in",
+        "Zertifikat",
+        "Service",
+        "Der",
+        "ausgezeichnet"
+      ],
+      "answers": [
+        "Der Service in diesem Hotel ist wirklich ausgezeichnet."
+      ],
+      "explanation": "**der Service** = service"
+    },
+    {
+      "id": "tb1-u25-l14-nouns-work-education-society-6-ex09",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u25-l14-nouns-work-education-society-6-4.mp3"
+      },
+      "tiles": [
+        "Firma",
+        "Podcasts",
+        "ihre",
+        "und",
+        "Aussprache",
+        "jeden",
+        "mit",
+        "Tag",
+        "Schwester",
+        "Anna",
+        "übt"
+      ],
+      "answers": [
+        "Anna übt jeden Tag ihre Aussprache mit Podcasts."
+      ],
+      "explanation": "Anna übt jeden Tag ihre Aussprache mit Podcasts.\n*Anna practises her pronunciation with podcasts every day.*\n\n**die Aussprache** = pronunciation"
+    }
+  ]
+}

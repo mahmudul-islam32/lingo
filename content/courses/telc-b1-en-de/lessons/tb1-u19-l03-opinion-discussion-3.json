@@ -1,0 +1,285 @@
+{
+  "id": "tb1-u19-l03-opinion-discussion-3",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u19",
+  "title": "Opinion & Discussion 3",
+  "tip": "Theme: Meinung & Diskussion (B1)",
+  "exercises": [
+    {
+      "id": "tb1-u19-l03-opinion-discussion-3-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "der Unterschied",
+          "known": "difference"
+        },
+        {
+          "id": "p2",
+          "learning": "die Möglichkeit",
+          "known": "possibility"
+        },
+        {
+          "id": "p3",
+          "learning": "behaupten",
+          "known": "to claim"
+        },
+        {
+          "id": "p4",
+          "learning": "bezweifeln",
+          "known": "to doubt"
+        },
+        {
+          "id": "p5",
+          "learning": "zustimmen",
+          "known": "to agree with"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u19-l03-opinion-discussion-3-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „difference“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "der Grund, die Gründe"
+        },
+        {
+          "id": "b",
+          "text": "die Ansicht, die Ansichten"
+        },
+        {
+          "id": "c",
+          "text": "der Standpunkt, die Standpunkte"
+        },
+        {
+          "id": "d",
+          "text": "der Unterschied, die Unterschiede"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**der Unterschied** = difference\n*Plural: die Unterschiede*\n\n*Example:* Zwischen den beiden Handys gibt es keinen großen Unterschied.\nThere isn't a big difference between the two phones."
+    },
+    {
+      "id": "tb1-u19-l03-opinion-discussion-3-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „possibility“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "der Grund, die Gründe"
+        },
+        {
+          "id": "b",
+          "text": "die Möglichkeit, die Möglichkeiten"
+        },
+        {
+          "id": "c",
+          "text": "das Argument, die Argumente"
+        },
+        {
+          "id": "d",
+          "text": "die Meinung, die Meinungen"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**die Möglichkeit** = possibility\n*Plural: die Möglichkeiten*\n\n*Example:* Gibt es die Möglichkeit, morgen früher zu kommen?\nIs it possible to come earlier tomorrow?"
+    },
+    {
+      "id": "tb1-u19-l03-opinion-discussion-3-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Zwischen den beiden Handys gibt es keinen großen Unterschied.",
+      "tiles": [
+        "the",
+        "big",
+        "car",
+        "team",
+        "a",
+        "phones",
+        "difference",
+        "good",
+        "between",
+        "isn't",
+        "two",
+        "There"
+      ],
+      "answers": [
+        "There isn't a big difference between the two phones."
+      ],
+      "explanation": "**der Unterschied** = difference\n*Plural: die Unterschiede*"
+    },
+    {
+      "id": "tb1-u19-l03-opinion-discussion-3-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which one means „to claim“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "behaupten"
+        },
+        {
+          "id": "b",
+          "text": "überzeugen"
+        },
+        {
+          "id": "c",
+          "text": "ablehnen"
+        },
+        {
+          "id": "d",
+          "text": "diskutieren über + Akk."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**behaupten** = to claim\n\n*Example:* Mein Nachbar behauptet, dass ich zu laut bin.\nMy neighbour claims that I'm too loud."
+    },
+    {
+      "id": "tb1-u19-l03-opinion-discussion-3-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Is it possible to come earlier tomorrow?",
+      "tiles": [
+        "kommen",
+        "Möglichkeit",
+        "Ihre",
+        "die",
+        "zu",
+        "kleineres",
+        "morgen",
+        "Lage",
+        "Gibt",
+        "früher",
+        "es"
+      ],
+      "answers": [
+        "Gibt es die Möglichkeit, morgen früher zu kommen?"
+      ],
+      "explanation": "**die Möglichkeit** = possibility\n*Plural: die Möglichkeiten*"
+    },
+    {
+      "id": "tb1-u19-l03-opinion-discussion-3-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which one means „to doubt“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "vergleichen"
+        },
+        {
+          "id": "b",
+          "text": "überzeugen"
+        },
+        {
+          "id": "c",
+          "text": "begründen"
+        },
+        {
+          "id": "d",
+          "text": "bezweifeln"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**bezweifeln** = to doubt\n\n*Example:* Ich bezweifle, dass der Handwerker heute noch kommt.\nI doubt that the tradesman is still coming today."
+    },
+    {
+      "id": "tb1-u19-l03-opinion-discussion-3-ex08",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u19-l03-opinion-discussion-3-3.mp3"
+      },
+      "tiles": [
+        "laut",
+        "Mein",
+        "gehen",
+        "Nachbar",
+        "hoch",
+        "zu",
+        "dir",
+        "dass",
+        "bin",
+        "behauptet",
+        "ich"
+      ],
+      "answers": [
+        "Mein Nachbar behauptet, dass ich zu laut bin."
+      ],
+      "explanation": "Mein Nachbar behauptet, dass ich zu laut bin.\n*My neighbour claims that I'm too loud.*\n\n**behaupten** = to claim"
+    },
+    {
+      "id": "tb1-u19-l03-opinion-discussion-3-ex09",
+      "type": "multiple_choice",
+      "prompt": "Which one means „to agree with“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "ablehnen"
+        },
+        {
+          "id": "b",
+          "text": "zustimmen + Dat."
+        },
+        {
+          "id": "c",
+          "text": "begründen"
+        },
+        {
+          "id": "d",
+          "text": "behaupten"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**zustimmen + Dat.** = to agree with\n\n*Example:* Ich stimme dir zu, das Restaurant ist wirklich zu teuer.\nI agree with you, the restaurant really is too expensive."
+    },
+    {
+      "id": "tb1-u19-l03-opinion-discussion-3-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Ich bezweifle, dass der Handwerker heute noch kommt.",
+      "tiles": [
+        "I",
+        "coming",
+        "today",
+        "that",
+        "of",
+        "is",
+        "an",
+        "doubt",
+        "tradesman",
+        "for",
+        "still",
+        "the"
+      ],
+      "answers": [
+        "I doubt that the tradesman is still coming today."
+      ],
+      "explanation": "**bezweifeln** = to doubt"
+    },
+    {
+      "id": "tb1-u19-l03-opinion-discussion-3-ex11",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I agree with you, the restaurant really is too expensive.",
+      "tiles": [
+        "Ich",
+        "zu",
+        "stimme",
+        "ist",
+        "wirklich",
+        "teuer",
+        "Restaurant",
+        "endlich",
+        "dir",
+        "das",
+        "kann",
+        "zu",
+        "mit"
+      ],
+      "answers": [
+        "Ich stimme dir zu, das Restaurant ist wirklich zu teuer."
+      ],
+      "explanation": "**zustimmen + Dat.** = to agree with"
+    }
+  ]
+}

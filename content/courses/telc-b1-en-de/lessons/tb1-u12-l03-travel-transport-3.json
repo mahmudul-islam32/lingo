@@ -1,0 +1,289 @@
+{
+  "id": "tb1-u12-l03-travel-transport-3",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u12",
+  "title": "Travel & Transport 3",
+  "tip": "Theme: Reisen / Verkehr (B1)",
+  "exercises": [
+    {
+      "id": "tb1-u12-l03-travel-transport-3-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "die Fahrkarte",
+          "known": "ticket"
+        },
+        {
+          "id": "p2",
+          "learning": "die Haltestelle",
+          "known": "(bus/tram) stop"
+        },
+        {
+          "id": "p3",
+          "learning": "einsteigen / aussteigen / umsteigen",
+          "known": "to get on / get off / change"
+        },
+        {
+          "id": "p4",
+          "learning": "abfahren",
+          "known": "to depart"
+        },
+        {
+          "id": "p5",
+          "learning": "die Abfahrt",
+          "known": "departure"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u12-l03-travel-transport-3-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „ticket · timetable“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Ermäßigung, die Ermäßigungen"
+        },
+        {
+          "id": "b",
+          "text": "die Sehenswürdigkeit, die Sehenswürdigkeiten"
+        },
+        {
+          "id": "c",
+          "text": "der Ausflug, die Ausflüge: einen Ausflug machen"
+        },
+        {
+          "id": "d",
+          "text": "die Fahrkarte, die Fahrkarten · der Fahrplan, die Fahrpläne"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**die Fahrkarte** = ticket · timetable\n*Plural: die Fahrkarten · also: der Fahrplan, die Fahrpläne*\n\n*Example:* Hast du schon eine Fahrkarte für den Bus gekauft?\nHave you already bought a bus ticket?"
+    },
+    {
+      "id": "tb1-u12-l03-travel-transport-3-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „(bus/tram) stop“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Haltestelle, die Haltestellen"
+        },
+        {
+          "id": "b",
+          "text": "das Gepäck (nur Sg.) · der Koffer, die Koffer"
+        },
+        {
+          "id": "c",
+          "text": "die Ermäßigung, die Ermäßigungen"
+        },
+        {
+          "id": "d",
+          "text": "die Fahrkarte, die Fahrkarten · der Fahrplan, die Fahrpläne"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**die Haltestelle** = (bus/tram) stop\n*Plural: die Haltestellen*\n\n*Example:* Die Haltestelle ist direkt vor unserem Haus.\nThe bus stop is right in front of our house."
+    },
+    {
+      "id": "tb1-u12-l03-travel-transport-3-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Have you already bought a bus ticket?",
+      "tiles": [
+        "du",
+        "das",
+        "für",
+        "eine",
+        "hat",
+        "schon",
+        "den",
+        "Bus",
+        "Fahrkarte",
+        "Museum",
+        "Hast",
+        "gekauft"
+      ],
+      "answers": [
+        "Hast du schon eine Fahrkarte für den Bus gekauft?"
+      ],
+      "explanation": "**die Fahrkarte** = ticket · timetable\n*Plural: die Fahrkarten · also: der Fahrplan, die Fahrpläne*"
+    },
+    {
+      "id": "tb1-u12-l03-travel-transport-3-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which verb means „to get on / get off / change“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "einsteigen / aussteigen / umsteigen (ist ein-/aus-/umgestiegen)"
+        },
+        {
+          "id": "b",
+          "text": "besichtigen (hat besichtigt)"
+        },
+        {
+          "id": "c",
+          "text": "abfahren (ist abgefahren) ↔ ankommen (ist angekommen)"
+        },
+        {
+          "id": "d",
+          "text": "verpassen (hat verpasst)"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**einsteigen / aussteigen / umsteigen (ist ein-/aus-/umgestiegen)** = to get on / get off / change\n\n*Example:* In Frankfurt müssen Sie in den ICE umsteigen.\nYou have to change to the ICE in Frankfurt."
+    },
+    {
+      "id": "tb1-u12-l03-travel-transport-3-ex06",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u12-l03-travel-transport-3-2.mp3"
+      },
+      "tiles": [
+        "unserem",
+        "besichtigt",
+        "Haltestelle",
+        "Italien",
+        "Die",
+        "vor",
+        "Ich",
+        "direkt",
+        "ist",
+        "Haus"
+      ],
+      "answers": [
+        "Die Haltestelle ist direkt vor unserem Haus."
+      ],
+      "explanation": "Die Haltestelle ist direkt vor unserem Haus.\n*The bus stop is right in front of our house.*\n\n**die Haltestelle** = (bus/tram) stop\n*Plural: die Haltestellen*"
+    },
+    {
+      "id": "tb1-u12-l03-travel-transport-3-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which verb means „to depart ↔ to arrive“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "besichtigen (hat besichtigt)"
+        },
+        {
+          "id": "b",
+          "text": "einsteigen / aussteigen / umsteigen (ist ein-/aus-/umgestiegen)"
+        },
+        {
+          "id": "c",
+          "text": "verpassen (hat verpasst)"
+        },
+        {
+          "id": "d",
+          "text": "abfahren (ist abgefahren) ↔ ankommen (ist angekommen)"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**abfahren (ist abgefahren) ↔ ankommen (ist angekommen)** = to depart ↔ to arrive\n\n*Example:* Der Bus fährt um acht Uhr ab und kommt um neun Uhr an.\nThe bus leaves at eight and arrives at nine."
+    },
+    {
+      "id": "tb1-u12-l03-travel-transport-3-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "In Frankfurt müssen Sie in den ICE umsteigen.",
+      "tiles": [
+        "to",
+        "Our",
+        "the",
+        "have",
+        "You",
+        "change",
+        "Frankfurt",
+        "in",
+        "ICE",
+        "to",
+        "arrives",
+        "museum"
+      ],
+      "answers": [
+        "You have to change to the ICE in Frankfurt."
+      ],
+      "explanation": "**einsteigen / aussteigen / umsteigen (ist ein-/aus-/umgestiegen)** = to get on / get off / change"
+    },
+    {
+      "id": "tb1-u12-l03-travel-transport-3-ex09",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „departure ↔ arrival“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Sehenswürdigkeit, die Sehenswürdigkeiten"
+        },
+        {
+          "id": "b",
+          "text": "die Abfahrt ↔ die Ankunft"
+        },
+        {
+          "id": "c",
+          "text": "der Stau, die Staus: im Stau stehen"
+        },
+        {
+          "id": "d",
+          "text": "das Gepäck (nur Sg.) · der Koffer, die Koffer"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**die Abfahrt ↔ die Ankunft** = departure ↔ arrival\n\n*Example:* Die Ankunft in Wien ist um 14:30 Uhr geplant.\nArrival in Vienna is scheduled for 2:30 pm."
+    },
+    {
+      "id": "tb1-u12-l03-travel-transport-3-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "The bus leaves at eight and arrives at nine.",
+      "tiles": [
+        "Uhr",
+        "ist",
+        "um",
+        "um",
+        "acht",
+        "ab",
+        "Morgen",
+        "an",
+        "kommt",
+        "Der",
+        "und",
+        "Uhr",
+        "3",
+        "neun",
+        "Bus",
+        "fährt"
+      ],
+      "answers": [
+        "Der Bus fährt um acht Uhr ab und kommt um neun Uhr an."
+      ],
+      "explanation": "**abfahren (ist abgefahren) ↔ ankommen (ist angekommen)** = to depart ↔ to arrive"
+    },
+    {
+      "id": "tb1-u12-l03-travel-transport-3-ex11",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u12-l03-travel-transport-3-5.mp3"
+      },
+      "tiles": [
+        "USA",
+        "geplant",
+        "Brandenburger",
+        "14:30",
+        "Istanbul",
+        "ist",
+        "Uhr",
+        "um",
+        "Ankunft",
+        "Wien",
+        "Die",
+        "in"
+      ],
+      "answers": [
+        "Die Ankunft in Wien ist um 14:30 Uhr geplant."
+      ],
+      "explanation": "Die Ankunft in Wien ist um 14:30 Uhr geplant.\n*Arrival in Vienna is scheduled for 2:30 pm.*\n\n**die Abfahrt ↔ die Ankunft** = departure ↔ arrival"
+    }
+  ]
+}

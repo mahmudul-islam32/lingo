@@ -1,0 +1,276 @@
+{
+  "id": "tb1-u14-l07-education-language-learning-2",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u14",
+  "title": "Education & Language Learning 2",
+  "tip": "Theme: Bildung / Sprachenlernen (B1)",
+  "exercises": [
+    {
+      "id": "tb1-u14-l07-education-language-learning-2-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "die Volkshochschule",
+          "known": "adult education centre"
+        },
+        {
+          "id": "p2",
+          "learning": "der Kurs",
+          "known": "course"
+        },
+        {
+          "id": "p3",
+          "learning": "der Unterricht",
+          "known": "lessons"
+        },
+        {
+          "id": "p4",
+          "learning": "das Fach",
+          "known": "subject"
+        },
+        {
+          "id": "p5",
+          "learning": "die Schule",
+          "known": "school"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u14-l07-education-language-learning-2-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „adult education centre“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Volkshochschule (VHS), die Volkshochschulen"
+        },
+        {
+          "id": "b",
+          "text": "die Ausbildung, die Ausbildungen: eine Ausbildung machen"
+        },
+        {
+          "id": "c",
+          "text": "die Prüfung, die Prüfungen: eine Prüfung ablegen"
+        },
+        {
+          "id": "d",
+          "text": "die Bedeutung, die Bedeutungen: bedeuten"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**die Volkshochschule (VHS)** = adult education centre\n*Plural: die Volkshochschulen*\n\n*Example:* An der Volkshochschule gibt es auch Kochkurse.\nThe adult education centre also offers cooking classes."
+    },
+    {
+      "id": "tb1-u14-l07-education-language-learning-2-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „course: to attend a course“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "der Kurs, die Kurse: einen Kurs besuchen"
+        },
+        {
+          "id": "b",
+          "text": "der Student, die Studenten (n-Dekl.) / die Studentin, die Studentinnen"
+        },
+        {
+          "id": "c",
+          "text": "das Fach, die Fächer"
+        },
+        {
+          "id": "d",
+          "text": "das Zeugnis, die Zeugnisse · das Zertifikat, die Zertifikate"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**der Kurs** = course: to attend a course\n*Plural: die Kurse: einen Kurs besuchen*\n\n*Example:* Am Abend besucht Maria einen Deutschkurs.\nIn the evening Maria attends a German course."
+    },
+    {
+      "id": "tb1-u14-l07-education-language-learning-2-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "An der Volkshochschule gibt es auch Kochkurse.",
+      "tiles": [
+        "education",
+        "very",
+        "offers",
+        "landlord",
+        "centre",
+        "classes",
+        "The",
+        "adult",
+        "cooking",
+        "an",
+        "also"
+      ],
+      "answers": [
+        "The adult education centre also offers cooking classes."
+      ],
+      "explanation": "**die Volkshochschule (VHS)** = adult education centre\n*Plural: die Volkshochschulen*"
+    },
+    {
+      "id": "tb1-u14-l07-education-language-learning-2-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „lessons, class“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "der Unterricht (nur Sg.)"
+        },
+        {
+          "id": "b",
+          "text": "die Universität, die Universitäten"
+        },
+        {
+          "id": "c",
+          "text": "der Kurs, die Kurse: einen Kurs besuchen"
+        },
+        {
+          "id": "d",
+          "text": "der Student, die Studenten (n-Dekl.) / die Studentin, die Studentinnen"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**der Unterricht (nur Sg.)** = lessons, class\n\n*Example:* Der Unterricht beginnt um acht Uhr.\nLessons start at eight o'clock."
+    },
+    {
+      "id": "tb1-u14-l07-education-language-learning-2-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "In the evening Maria attends a German course.",
+      "tiles": [
+        "einen",
+        "besucht",
+        "Der",
+        "Für",
+        "Deutschkurs",
+        "Maria",
+        "Abend",
+        "Deutschland",
+        "Am"
+      ],
+      "answers": [
+        "Am Abend besucht Maria einen Deutschkurs."
+      ],
+      "explanation": "**der Kurs** = course: to attend a course\n*Plural: die Kurse: einen Kurs besuchen*"
+    },
+    {
+      "id": "tb1-u14-l07-education-language-learning-2-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „subject“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Bedeutung, die Bedeutungen: bedeuten"
+        },
+        {
+          "id": "b",
+          "text": "das Fach, die Fächer"
+        },
+        {
+          "id": "c",
+          "text": "die Volkshochschule (VHS), die Volkshochschulen"
+        },
+        {
+          "id": "d",
+          "text": "die Universität, die Universitäten"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**das Fach** = subject\n*Plural: die Fächer*\n\n*Example:* Mein Lieblingsfach in der Schule war Mathe.\nMy favourite subject at school was maths."
+    },
+    {
+      "id": "tb1-u14-l07-education-language-learning-2-ex08",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u14-l07-education-language-learning-2-3.mp3"
+      },
+      "tiles": [
+        "acht",
+        "Uhr",
+        "Der",
+        "Muttersprache",
+        "Unterricht",
+        "nebenbei",
+        "Mathe",
+        "beginnt",
+        "um"
+      ],
+      "answers": [
+        "Der Unterricht beginnt um acht Uhr."
+      ],
+      "explanation": "Der Unterricht beginnt um acht Uhr.\n*Lessons start at eight o'clock.*\n\n**der Unterricht (nur Sg.)** = lessons, class"
+    },
+    {
+      "id": "tb1-u14-l07-education-language-learning-2-ex09",
+      "type": "multiple_choice",
+      "prompt": "Which verb means „to register for: registration“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "bestehen (hat bestanden) ↔ durchfallen (ist durchgefallen)"
+        },
+        {
+          "id": "b",
+          "text": "übersetzen (hat übersetzt): das Wörterbuch, die Wörterbücher"
+        },
+        {
+          "id": "c",
+          "text": "teilnehmen an + Dat. (hat teilgenommen), der Teilnehmer, die Teilnehmer"
+        },
+        {
+          "id": "d",
+          "text": "sich anmelden für + Akk. die Anmeldung, die Anmeldungen"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**sich anmelden für + Akk. die Anmeldung, die Anmeldungen** = to register for: registration\n\n*Example:* Ich habe mich online für den Schwimmkurs angemeldet.\nI registered online for the swimming course."
+    },
+    {
+      "id": "tb1-u14-l07-education-language-learning-2-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Mein Lieblingsfach in der Schule war Mathe.",
+      "tiles": [
+        "was",
+        "My",
+        "adult",
+        "favourite",
+        "school",
+        "maths",
+        "at",
+        "subject",
+        "the",
+        "fluently"
+      ],
+      "answers": [
+        "My favourite subject at school was maths."
+      ],
+      "explanation": "**das Fach** = subject\n*Plural: die Fächer*"
+    },
+    {
+      "id": "tb1-u14-l07-education-language-learning-2-ex11",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I registered online for the swimming course.",
+      "tiles": [
+        "angemeldet",
+        "den",
+        "Ich",
+        "diesem",
+        "Zwölf",
+        "Schwimmkurs",
+        "mich",
+        "habe",
+        "an",
+        "für",
+        "online"
+      ],
+      "answers": [
+        "Ich habe mich online für den Schwimmkurs angemeldet."
+      ],
+      "explanation": "**sich anmelden für + Akk. die Anmeldung, die Anmeldungen** = to register for: registration"
+    }
+  ]
+}

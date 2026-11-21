@@ -1,0 +1,193 @@
+{
+  "id": "tb1-u29-l17-asking-clarifying-3",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u29",
+  "title": "Asking & Clarifying 3",
+  "tip": "Theme: Redemittel: Nachfragen & Klären (B1)",
+  "exercises": [
+    {
+      "id": "tb1-u29-l17-asking-clarifying-3-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "Entschuldigung, dass ich unterbreche",
+          "known": "Sorry for interrupting."
+        },
+        {
+          "id": "p2",
+          "learning": "Kein Problem, das macht nichts",
+          "known": "No problem, it doesn't matter."
+        },
+        {
+          "id": "p3",
+          "learning": "Was meinst du damit?",
+          "known": "What do you mean by that?"
+        },
+        {
+          "id": "p4",
+          "learning": "Ich habe das leider nicht verstanden",
+          "known": "Unfortunately I didn't understand that."
+        },
+        {
+          "id": "p5",
+          "learning": "Was bedeutet das Wort …?",
+          "known": "What does the word … mean?"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u29-l17-asking-clarifying-3-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which phrase means „I'm not sure, but I think …“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ich bin mir nicht sicher, aber ich glaube …"
+        },
+        {
+          "id": "b",
+          "text": "Kein Problem, das macht nichts."
+        },
+        {
+          "id": "c",
+          "text": "Darf ich kurz nachfragen?"
+        },
+        {
+          "id": "d",
+          "text": "Könnten Sie bitte etwas langsamer sprechen?"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Ich bin mir nicht sicher, aber ich glaube …** = I'm not sure, but I think …\n\n*Example:* Ich bin mir nicht sicher, aber ich glaube, der Bus fährt um acht.\nI'm not sure, but I think the bus leaves at eight."
+    },
+    {
+      "id": "tb1-u29-l17-asking-clarifying-3-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which phrase means „Sorry for interrupting.“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Kein Problem, das macht nichts."
+        },
+        {
+          "id": "b",
+          "text": "Entschuldigung, dass ich unterbreche."
+        },
+        {
+          "id": "c",
+          "text": "Ich habe das leider nicht verstanden."
+        },
+        {
+          "id": "d",
+          "text": "Darf ich kurz nachfragen?"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Entschuldigung, dass ich unterbreche.** = Sorry for interrupting.\n\n*Example:* Entschuldigung, dass ich unterbreche. Ihr Taxi ist da.\nSorry for interrupting. Your taxi is here."
+    },
+    {
+      "id": "tb1-u29-l17-asking-clarifying-3-ex04",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u29-l17-asking-clarifying-3-1.mp3"
+      },
+      "tiles": [
+        "unterbreche",
+        "um",
+        "Habe",
+        "der",
+        "ich",
+        "mir",
+        "aber",
+        "acht",
+        "nicht",
+        "Bus",
+        "glaube",
+        "genau",
+        "fährt",
+        "Ich",
+        "bin",
+        "sicher"
+      ],
+      "answers": [
+        "Ich bin mir nicht sicher, aber ich glaube, der Bus fährt um acht."
+      ],
+      "explanation": "Ich bin mir nicht sicher, aber ich glaube, der Bus fährt um acht.\n*I'm not sure, but I think the bus leaves at eight.*\n\n**Ich bin mir nicht sicher, aber ich glaube …** = I'm not sure, but I think …"
+    },
+    {
+      "id": "tb1-u29-l17-asking-clarifying-3-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which phrase means „No problem, it doesn't matter.“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Kein Problem, das macht nichts."
+        },
+        {
+          "id": "b",
+          "text": "Was meinst du damit?"
+        },
+        {
+          "id": "c",
+          "text": "Könnten Sie bitte etwas langsamer sprechen?"
+        },
+        {
+          "id": "d",
+          "text": "Ich habe das leider nicht verstanden."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Kein Problem, das macht nichts.** = No problem, it doesn't matter.\n\n*Example:* „Tut mir leid, ich bin zu spät.“ – „Kein Problem, das macht nichts.“\n\"Sorry, I'm late.\" – \"No problem, it doesn't matter.\""
+    },
+    {
+      "id": "tb1-u29-l17-asking-clarifying-3-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Entschuldigung, dass ich unterbreche. Ihr Taxi ist da.",
+      "tiles": [
+        "matter",
+        "here",
+        "Sorry",
+        "interrupting",
+        "for",
+        "quickly",
+        "mean",
+        "is",
+        "Your",
+        "taxi"
+      ],
+      "answers": [
+        "Sorry for interrupting. Your taxi is here."
+      ],
+      "explanation": "**Entschuldigung, dass ich unterbreche.** = Sorry for interrupting."
+    },
+    {
+      "id": "tb1-u29-l17-asking-clarifying-3-ex07",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "\"Sorry, I'm late.\" – \"No problem, it doesn't matter.\"",
+      "tiles": [
+        "das",
+        "macht",
+        "spät",
+        "ich",
+        "zu",
+        "ist",
+        "leid",
+        "mir",
+        "bin",
+        "Tut",
+        "Kein",
+        "noch",
+        "nichts",
+        "Deutsch",
+        "Problem"
+      ],
+      "answers": [
+        "„Tut mir leid, ich bin zu spät.“ – „Kein Problem, das macht nichts.“"
+      ],
+      "explanation": "**Kein Problem, das macht nichts.** = No problem, it doesn't matter."
+    }
+  ]
+}

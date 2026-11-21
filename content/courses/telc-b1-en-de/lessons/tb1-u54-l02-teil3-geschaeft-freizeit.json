@@ -1,0 +1,110 @@
+{
+  "id": "tb1-u54-l02-teil3-geschaeft-freizeit",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u54",
+  "title": "Part 3 · Geschäft & Freizeit",
+  "tip": "Each announcement runs twice in the exam.",
+  "exercises": [
+    {
+      "id": "tb1-u54-l02-teil3-geschaeft-freizeit-ex01",
+      "type": "explain",
+      "title": "Teil 3 · Durchsagen",
+      "body": "**5 public announcements (station, shop, museum), each played twice.** Listen for restrictions (*nur bis zum Marktplatz*), closures (*am Montag geschlossen*) and paraphrases (*außer Betrieb* = *funktioniert nicht*)."
+    },
+    {
+      "id": "tb1-u54-l02-teil3-geschaeft-freizeit-ex02",
+      "type": "listening",
+      "title": "Hören Teil 3 · Durchsage 1 von 5 · Geschäft & Freizeit",
+      "transcript": "Liebe Kunden, wir schließen in zehn Minuten. Bitte bringen Sie Ihre Einkäufe zur Kasse.",
+      "prompt": "56. Das Geschäft schließt bald. Richtig oder falsch?",
+      "options": [
+        {
+          "id": "a",
+          "text": "richtig"
+        },
+        {
+          "id": "b",
+          "text": "falsch"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Richtig.** in 10 Minuten = bald."
+    },
+    {
+      "id": "tb1-u54-l02-teil3-geschaeft-freizeit-ex03",
+      "type": "listening",
+      "title": "Hören Teil 3 · Durchsage 2 von 5 · Geschäft & Freizeit",
+      "transcript": "Das Schwimmbad ist heute wegen Reinigungsarbeiten erst ab vierzehn Uhr geöffnet.",
+      "prompt": "57. Das Schwimmbad ist schon am Vormittag geöffnet. Richtig oder falsch?",
+      "options": [
+        {
+          "id": "a",
+          "text": "richtig"
+        },
+        {
+          "id": "b",
+          "text": "falsch"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Falsch.** „erst ab 14 Uhr“, nicht am Vormittag."
+    },
+    {
+      "id": "tb1-u54-l02-teil3-geschaeft-freizeit-ex04",
+      "type": "listening",
+      "title": "Hören Teil 3 · Durchsage 3 von 5 · Geschäft & Freizeit",
+      "transcript": "Information: Der Eintritt in den Park ist kostenlos, nur für Führungen zahlen Sie fünf Euro.",
+      "prompt": "58. Der Eintritt in den Park kostet nichts. Richtig oder falsch?",
+      "options": [
+        {
+          "id": "a",
+          "text": "richtig"
+        },
+        {
+          "id": "b",
+          "text": "falsch"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Richtig.** „Eintritt kostenlos“; nur Führungen kosten."
+    },
+    {
+      "id": "tb1-u54-l02-teil3-geschaeft-freizeit-ex05",
+      "type": "listening",
+      "title": "Hören Teil 3 · Durchsage 4 von 5 · Geschäft & Freizeit",
+      "transcript": "Wichtiger Hinweis: In der gesamten Bibliothek ist das Essen und Trinken nicht gestattet.",
+      "prompt": "59. In der Bibliothek darf man essen und trinken. Richtig oder falsch?",
+      "options": [
+        {
+          "id": "a",
+          "text": "richtig"
+        },
+        {
+          "id": "b",
+          "text": "falsch"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Falsch.** „nicht gestattet“ = verboten."
+    },
+    {
+      "id": "tb1-u54-l02-teil3-geschaeft-freizeit-ex06",
+      "type": "listening",
+      "title": "Hören Teil 3 · Durchsage 5 von 5 · Geschäft & Freizeit",
+      "transcript": "Liebe Gäste, das Konzert im Park findet heute wegen des Regens nicht draußen, sondern in der Halle statt.",
+      "prompt": "60. Das Konzert findet heute in der Halle statt. Richtig oder falsch?",
+      "options": [
+        {
+          "id": "a",
+          "text": "richtig"
+        },
+        {
+          "id": "b",
+          "text": "falsch"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Richtig.** „nicht draußen, sondern in der Halle“. Korrektur, Halle stimmt."
+    }
+  ]
+}

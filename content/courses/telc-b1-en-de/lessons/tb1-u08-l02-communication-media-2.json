@@ -1,0 +1,237 @@
+{
+  "id": "tb1-u08-l02-communication-media-2",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u08",
+  "title": "Communication & Media 2",
+  "tip": "Theme: Kommunikation & Medien (A2)",
+  "exercises": [
+    {
+      "id": "tb1-u08-l02-communication-media-2-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "das Internet",
+          "known": "internet"
+        },
+        {
+          "id": "p2",
+          "learning": "die Webseite",
+          "known": "website"
+        },
+        {
+          "id": "p3",
+          "learning": "das Programm",
+          "known": "programme / app"
+        },
+        {
+          "id": "p4",
+          "learning": "anrufen",
+          "known": "to call (phone)"
+        },
+        {
+          "id": "p5",
+          "learning": "das Handy",
+          "known": "mobile phone"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u08-l02-communication-media-2-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „internet“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "das Internet"
+        },
+        {
+          "id": "b",
+          "text": "das Telefon, die Telefone"
+        },
+        {
+          "id": "c",
+          "text": "der Computer, die Computer"
+        },
+        {
+          "id": "d",
+          "text": "die Zeitung, die Zeitungen"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**das Internet** = internet\n\n*Example:* In unserer neuen Wohnung haben wir noch kein Internet.\nWe don't have internet in our new flat yet."
+    },
+    {
+      "id": "tb1-u08-l02-communication-media-2-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „website“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Webseite, die Webseiten"
+        },
+        {
+          "id": "b",
+          "text": "das Handy, die Handys"
+        },
+        {
+          "id": "c",
+          "text": "die Nachricht, die Nachrichten"
+        },
+        {
+          "id": "d",
+          "text": "das Internet"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**die Webseite** = website\n*Plural: die Webseiten*\n\n*Example:* Die Öffnungszeiten finden Sie auf unserer Webseite.\nYou can find the opening hours on our website."
+    },
+    {
+      "id": "tb1-u08-l02-communication-media-2-ex04",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u08-l02-communication-media-2-1.mp3"
+      },
+      "tiles": [
+        "wir",
+        "haben",
+        "aus",
+        "unserer",
+        "kein",
+        "neuen",
+        "Heute",
+        "Wohnung",
+        "noch",
+        "über",
+        "Internet",
+        "In"
+      ],
+      "answers": [
+        "In unserer neuen Wohnung haben wir noch kein Internet."
+      ],
+      "explanation": "In unserer neuen Wohnung haben wir noch kein Internet.\n*We don't have internet in our new flat yet.*\n\n**das Internet** = internet"
+    },
+    {
+      "id": "tb1-u08-l02-communication-media-2-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „programme / app“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "das Internet"
+        },
+        {
+          "id": "b",
+          "text": "die Webseite, die Webseiten"
+        },
+        {
+          "id": "c",
+          "text": "das Programm, die Programme"
+        },
+        {
+          "id": "d",
+          "text": "das Telefon, die Telefone"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**das Programm** = programme / app\n*Plural: die Programme*\n\n*Example:* Mit diesem Programm kann ich Fotos bearbeiten.\nI can edit photos with this program."
+    },
+    {
+      "id": "tb1-u08-l02-communication-media-2-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Die Öffnungszeiten finden Sie auf unserer Webseite.",
+      "tiles": [
+        "sends",
+        "and",
+        "website",
+        "on",
+        "of",
+        "our",
+        "You",
+        "can",
+        "hours",
+        "opening",
+        "find",
+        "the"
+      ],
+      "answers": [
+        "You can find the opening hours on our website."
+      ],
+      "explanation": "**die Webseite** = website\n*Plural: die Webseiten*"
+    },
+    {
+      "id": "tb1-u08-l02-communication-media-2-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which one means „to call (phone)“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "schicken"
+        },
+        {
+          "id": "b",
+          "text": "telefonieren"
+        },
+        {
+          "id": "c",
+          "text": "herunterladen (lädt herunter)"
+        },
+        {
+          "id": "d",
+          "text": "anrufen (ruft an)"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**anrufen (ruft an)** = to call (phone)\n\n*Example:* Ich rufe morgen beim Arzt an und mache einen Termin.\nI'll call the doctor's tomorrow and make an appointment."
+    },
+    {
+      "id": "tb1-u08-l02-communication-media-2-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I can edit photos with this program.",
+      "tiles": [
+        "ich",
+        "Mit",
+        "Programm",
+        "brauche",
+        "Fotos",
+        "kann",
+        "diesem",
+        "Am",
+        "bearbeiten",
+        "unserer"
+      ],
+      "answers": [
+        "Mit diesem Programm kann ich Fotos bearbeiten."
+      ],
+      "explanation": "**das Programm** = programme / app\n*Plural: die Programme*"
+    },
+    {
+      "id": "tb1-u08-l02-communication-media-2-ex09",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u08-l02-communication-media-2-4.mp3"
+      },
+      "tiles": [
+        "ist",
+        "an",
+        "Ich",
+        "Termin",
+        "mache",
+        "einen",
+        "bearbeiten",
+        "beim",
+        "morgen",
+        "rufe",
+        "noch",
+        "Arzt",
+        "und"
+      ],
+      "answers": [
+        "Ich rufe morgen beim Arzt an und mache einen Termin."
+      ],
+      "explanation": "Ich rufe morgen beim Arzt an und mache einen Termin.\n*I'll call the doctor's tomorrow and make an appointment.*\n\n**anrufen (ruft an)** = to call (phone)"
+    }
+  ]
+}

@@ -1,0 +1,151 @@
+{
+  "id": "tb1-u33-l18-ableitung-p2",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u33",
+  "title": "Word Formation: un-, -ung, -bar, -los: -bar",
+  "tip": "-ung nouns are ALWAYS feminine: die Wohnung, die Zeitung, die Prüfung, never der/das.",
+  "exercises": [
+    {
+      "id": "tb1-u33-l18-ableitung-p2-ex01",
+      "type": "explain",
+      "title": "-bar (kann man) · -los (ohne)",
+      "body": "-bar = it can be done. -los = without something.\n\n*Deutsch:* -bar = man kann es machen. -los = ohne etwas.\n\n## Pattern\n\nVerb + **-bar** · Nomen + **-los**",
+      "examples": [
+        {
+          "learning": "Ich bin ab 18 Uhr telefonisch erreichbar.",
+          "known": "I can be reached by phone from 6 pm."
+        },
+        {
+          "learning": "Der Eintritt ist kostenlos.",
+          "known": "Admission is free."
+        }
+      ]
+    },
+    {
+      "id": "tb1-u33-l18-ableitung-p2-ex02",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I can be reached by phone from 6 pm.",
+      "tiles": [
+        "Uhr",
+        "ab",
+        "oft",
+        "18",
+        "bin",
+        "arbeitslos",
+        "suche",
+        "telefonisch",
+        "erreichbar",
+        "Ich"
+      ],
+      "answers": [
+        "Ich bin ab 18 Uhr telefonisch erreichbar."
+      ],
+      "explanation": "**Why:** erreichen → erreichbar (you can reach me).\n\n*Warum:* erreichen → erreichbar (man kann mich erreichen)."
+    },
+    {
+      "id": "tb1-u33-l18-ableitung-p2-ex03",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Admission is free.",
+      "tiles": [
+        "Der",
+        "die",
+        "kostenlos",
+        "ist",
+        "bis",
+        "sehr",
+        "Eintritt"
+      ],
+      "answers": [
+        "Der Eintritt ist kostenlos."
+      ],
+      "explanation": "**Why:** without costs → kostenlos.\n\n*Warum:* ohne Kosten → kostenlos."
+    },
+    {
+      "id": "tb1-u33-l18-ableitung-p2-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "The water isn't drinkable.",
+      "tiles": [
+        "nicht",
+        "mir",
+        "drei",
+        "ist",
+        "trinkbar",
+        "Das",
+        "eine",
+        "Wasser"
+      ],
+      "answers": [
+        "Das Wasser ist nicht trinkbar."
+      ],
+      "explanation": "**Why:** trinken → trinkbar.\n\n*Warum:* trinken → trinkbar."
+    },
+    {
+      "id": "tb1-u33-l18-ableitung-p2-ex05",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "He's been unemployed for three months.",
+      "tiles": [
+        "bin",
+        "Er",
+        "seit",
+        "arbeitslos",
+        "ist",
+        "drei",
+        "Monaten",
+        "oft",
+        "unangenehm"
+      ],
+      "answers": [
+        "Er ist seit drei Monaten arbeitslos."
+      ],
+      "explanation": "**Why:** without work → arbeitslos.\n\n*Warum:* ohne Arbeit → arbeitslos."
+    },
+    {
+      "id": "tb1-u33-l18-ableitung-p2-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "The task can be done in an hour.",
+      "tiles": [
+        "Aufgabe",
+        "machbar",
+        "einer",
+        "unter",
+        "unpünktlich",
+        "Stunde",
+        "ist",
+        "in",
+        "neue",
+        "Die"
+      ],
+      "answers": [
+        "Die Aufgabe ist in einer Stunde machbar."
+      ],
+      "explanation": "**Why:** machen → machbar (it can be managed).\n\n*Warum:* machen → machbar (man kann es schaffen)."
+    },
+    {
+      "id": "tb1-u33-l18-ableitung-p2-ex07",
+      "type": "choice",
+      "title": "Fill the gap",
+      "prompt": "Alle Nomen auf -ung sind ___.",
+      "options": [
+        {
+          "id": "a",
+          "text": "neutral (das)"
+        },
+        {
+          "id": "b",
+          "text": "feminin (die)"
+        },
+        {
+          "id": "c",
+          "text": "maskulin (der)"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "die Wohnung, die Prüfung, die Einladung, ausnahmslos die."
+    }
+  ]
+}

@@ -1,0 +1,145 @@
+{
+  "id": "tb1-u31-l23-imperativ-p2",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u31",
+  "title": "The Imperative: Sie-Form",
+  "tip": "du-imperative without -st: “Kommst du!” is wrong → Komm! And: nehmen → Nimm (not “Nehm”).",
+  "exercises": [
+    {
+      "id": "tb1-u31-l23-imperativ-p2-ex01",
+      "type": "explain",
+      "title": "Sie-Form (höflich)",
+      "body": "Infinitive + Sie – polite with bitte.\n\n*Deutsch:* Infinitiv + Sie – höflich mit bitte.\n\n## Pattern\n\n**Infinitiv** + **Sie** + … (bitte)!",
+      "examples": [
+        {
+          "learning": "Kommen Sie bitte herein!",
+          "known": "Please come in!"
+        },
+        {
+          "learning": "Nehmen Sie bitte Platz.",
+          "known": "Please take a seat."
+        }
+      ]
+    },
+    {
+      "id": "tb1-u31-l23-imperativ-p2-ex02",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Please come in!",
+      "tiles": [
+        "bitte",
+        "Kommen",
+        "Sei",
+        "Sie",
+        "herein",
+        "schnell",
+        "eure"
+      ],
+      "answers": [
+        "Kommen Sie bitte herein!"
+      ],
+      "explanation": "**Why:** Verb first, then Sie.\n\n*Warum:* Verb zuerst, dann Sie."
+    },
+    {
+      "id": "tb1-u31-l23-imperativ-p2-ex03",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Please take a seat.",
+      "tiles": [
+        "Hausaufgaben",
+        "Testlücke-Stil",
+        "Sie",
+        "Kommen",
+        "bitte",
+        "Nehmen",
+        "Platz"
+      ],
+      "answers": [
+        "Nehmen Sie bitte Platz."
+      ],
+      "explanation": "**Why:** Polite at the doctor's or office.\n\n*Warum:* Höflich beim Arzt oder Amt."
+    },
+    {
+      "id": "tb1-u31-l23-imperativ-p2-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Please call me back.",
+      "tiles": [
+        "bitte",
+        "mich",
+        "pünktlich",
+        "Testlücke-Stil",
+        "Rufen",
+        "Sie",
+        "Formular",
+        "zurück"
+      ],
+      "answers": [
+        "Rufen Sie mich bitte zurück."
+      ],
+      "explanation": "**Why:** Prefix zurück at the end.\n\n*Warum:* Präfix zurück am Ende."
+    },
+    {
+      "id": "tb1-u31-l23-imperativ-p2-ex05",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Please be careful!",
+      "tiles": [
+        "vorsichtig",
+        "bitte",
+        "noch",
+        "pünktlich",
+        "Seien",
+        "Esst",
+        "Sie"
+      ],
+      "answers": [
+        "Seien Sie bitte vorsichtig!"
+      ],
+      "explanation": "**Why:** sein → Seien Sie!\n\n*Warum:* sein → Seien Sie!"
+    },
+    {
+      "id": "tb1-u31-l23-imperativ-p2-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Please fill in this form.",
+      "tiles": [
+        "Füllen",
+        "Sie",
+        "Kuchen",
+        "bitte",
+        "aus",
+        "dieses",
+        "Formular",
+        "Testlücke-Stil",
+        "an"
+      ],
+      "answers": [
+        "Füllen Sie bitte dieses Formular aus."
+      ],
+      "explanation": "**Why:** ausfüllen → Füllen Sie … aus.\n\n*Warum:* ausfüllen → Füllen Sie … aus."
+    },
+    {
+      "id": "tb1-u31-l23-imperativ-p2-ex07",
+      "type": "choice",
+      "title": "Fill the gap",
+      "prompt": "du-Form von „sein“: „___ bitte nicht sauer!“",
+      "options": [
+        {
+          "id": "a",
+          "text": "Sein"
+        },
+        {
+          "id": "b",
+          "text": "Bist"
+        },
+        {
+          "id": "c",
+          "text": "Sei"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "sein ist unregelmäßig: Sei! / Seid! / Seien Sie!"
+    }
+  ]
+}

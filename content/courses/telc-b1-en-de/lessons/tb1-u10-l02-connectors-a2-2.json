@@ -1,0 +1,288 @@
+{
+  "id": "tb1-u10-l02-connectors-a2-2",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u10",
+  "title": "Connectors (A2) 2",
+  "tip": "Theme: Konnektoren (A2) (A2)",
+  "exercises": [
+    {
+      "id": "tb1-u10-l02-connectors-a2-2-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "deshalb",
+          "known": "therefore"
+        },
+        {
+          "id": "p2",
+          "learning": "trotzdem",
+          "known": "nevertheless"
+        },
+        {
+          "id": "p3",
+          "learning": "sondern",
+          "known": "but rather"
+        },
+        {
+          "id": "p4",
+          "learning": "also",
+          "known": "so / therefore"
+        },
+        {
+          "id": "p5",
+          "learning": "zuerst … dann",
+          "known": "first … then"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u10-l02-connectors-a2-2-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which one means „therefore“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "sowohl … als auch"
+        },
+        {
+          "id": "b",
+          "text": "deshalb"
+        },
+        {
+          "id": "c",
+          "text": "zuerst … dann"
+        },
+        {
+          "id": "d",
+          "text": "damit"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**deshalb** = therefore\n\n*Example:* Der Bus hatte Verspätung, deshalb bin ich zu spät gekommen.\nThe bus was delayed, so I arrived late."
+    },
+    {
+      "id": "tb1-u10-l02-connectors-a2-2-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which one means „nevertheless“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "je … desto"
+        },
+        {
+          "id": "b",
+          "text": "entweder … oder"
+        },
+        {
+          "id": "c",
+          "text": "trotzdem"
+        },
+        {
+          "id": "d",
+          "text": "sowohl … als auch"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**trotzdem** = nevertheless\n\n*Example:* Es regnet, trotzdem gehen die Kinder nach draußen.\nIt's raining, but the children are going outside anyway."
+    },
+    {
+      "id": "tb1-u10-l02-connectors-a2-2-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "The bus was delayed, so I arrived late.",
+      "tiles": [
+        "ein",
+        "bin",
+        "hatte",
+        "trotzdem",
+        "zu",
+        "spät",
+        "ich",
+        "Bus",
+        "deshalb",
+        "nur",
+        "Verspätung",
+        "gekommen",
+        "Der"
+      ],
+      "answers": [
+        "Der Bus hatte Verspätung, deshalb bin ich zu spät gekommen."
+      ],
+      "explanation": "**deshalb** = therefore"
+    },
+    {
+      "id": "tb1-u10-l02-connectors-a2-2-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which one means „but rather“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "wenn"
+        },
+        {
+          "id": "b",
+          "text": "sondern"
+        },
+        {
+          "id": "c",
+          "text": "damit"
+        },
+        {
+          "id": "d",
+          "text": "nicht nur … sondern auch"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**sondern** = but rather\n\n*Example:* Wir fahren nicht mit dem Auto, sondern mit dem Zug.\nWe're not going by car but by train."
+    },
+    {
+      "id": "tb1-u10-l02-connectors-a2-2-ex06",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u10-l02-connectors-a2-2-2.mp3"
+      },
+      "tiles": [
+        "nach",
+        "gehen",
+        "krank",
+        "schon",
+        "regnet",
+        "geht",
+        "Kinder",
+        "trotzdem",
+        "draußen",
+        "die",
+        "Es"
+      ],
+      "answers": [
+        "Es regnet, trotzdem gehen die Kinder nach draußen."
+      ],
+      "explanation": "Es regnet, trotzdem gehen die Kinder nach draußen.\n*It's raining, but the children are going outside anyway.*\n\n**trotzdem** = nevertheless"
+    },
+    {
+      "id": "tb1-u10-l02-connectors-a2-2-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which one means „so / therefore“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "also"
+        },
+        {
+          "id": "b",
+          "text": "nachdem"
+        },
+        {
+          "id": "c",
+          "text": "während"
+        },
+        {
+          "id": "d",
+          "text": "falls"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**also** = so / therefore\n\n*Example:* Der Laden ist schon zu, also kaufen wir morgen ein.\nThe shop is already closed, so we'll go shopping tomorrow."
+    },
+    {
+      "id": "tb1-u10-l02-connectors-a2-2-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Wir fahren nicht mit dem Auto, sondern mit dem Zug.",
+      "tiles": [
+        "We're",
+        "that",
+        "by",
+        "by",
+        "going",
+        "train",
+        "not",
+        "but",
+        "coffee",
+        "car",
+        "in"
+      ],
+      "answers": [
+        "We're not going by car but by train."
+      ],
+      "explanation": "**sondern** = but rather"
+    },
+    {
+      "id": "tb1-u10-l02-connectors-a2-2-ex09",
+      "type": "multiple_choice",
+      "prompt": "Which one means „first … then“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "also"
+        },
+        {
+          "id": "b",
+          "text": "sondern"
+        },
+        {
+          "id": "c",
+          "text": "entweder … oder"
+        },
+        {
+          "id": "d",
+          "text": "zuerst … dann"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**zuerst … dann** = first … then\n\n*Example:* Zuerst putzen wir die Küche, dann machen wir eine Pause.\nFirst we'll clean the kitchen, then we'll take a break."
+    },
+    {
+      "id": "tb1-u10-l02-connectors-a2-2-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "The shop is already closed, so we'll go shopping tomorrow.",
+      "tiles": [
+        "Spanisch",
+        "zu",
+        "Laden",
+        "Der",
+        "nicht",
+        "guten",
+        "also",
+        "ein",
+        "schon",
+        "kaufen",
+        "wir",
+        "ist",
+        "morgen"
+      ],
+      "answers": [
+        "Der Laden ist schon zu, also kaufen wir morgen ein."
+      ],
+      "explanation": "**also** = so / therefore"
+    },
+    {
+      "id": "tb1-u10-l02-connectors-a2-2-ex11",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u10-l02-connectors-a2-2-5.mp3"
+      },
+      "tiles": [
+        "geht",
+        "wir",
+        "dann",
+        "machen",
+        "wir",
+        "Pause",
+        "Küche",
+        "einfach",
+        "die",
+        "Zuerst",
+        "du",
+        "eine",
+        "putzen"
+      ],
+      "answers": [
+        "Zuerst putzen wir die Küche, dann machen wir eine Pause."
+      ],
+      "explanation": "Zuerst putzen wir die Küche, dann machen wir eine Pause.\n*First we'll clean the kitchen, then we'll take a break.*\n\n**zuerst … dann** = first … then"
+    }
+  ]
+}

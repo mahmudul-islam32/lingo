@@ -1,0 +1,605 @@
+{
+  "id": "tb1-u42-l02-teil3-kurse-dienste",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u42",
+  "title": "Ads 2: Kurse & Dienste",
+  "tip": "Each ad fits only once. Check both conditions. x = no ad fits.",
+  "exercises": [
+    {
+      "id": "tb1-u42-l02-teil3-kurse-dienste-ex01",
+      "type": "explain",
+      "title": "Teil 3 · Kurse & Dienste: situations and ads",
+      "body": "**10 situations · 12 ads.** Each ad fits at most once; **x** = no ad fits.\n\n- Every situation has **two conditions** (*Bedingungen*), e.g. *Deutschkurs + abends*. An ad only fits if it meets **both**.\n- Typical traps: the right topic but the wrong time (morning instead of evening), renting instead of buying, the wrong target group (children instead of adults).\n- Usually one or two situations have no matching ad: dare to choose x.\n\nA multiple-choice card can show at most 12 options, so for each situation one clearly unrelated ad is left out of the list."
+    },
+    {
+      "id": "tb1-u42-l02-teil3-kurse-dienste-ex02",
+      "type": "choice",
+      "title": "Situation 1 · Kurse & Dienste",
+      "passage": "Sie möchten am Wochenende einen Yogakurs besuchen.",
+      "prompt": "Welche Anzeige passt? Wenn keine passt: x.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Wohnung im Zentrum, 3. Stock, kein Balkon, kein Garten."
+        },
+        {
+          "id": "b",
+          "text": "Verschenke gebrauchte Romane gegen Abholung."
+        },
+        {
+          "id": "c",
+          "text": "Bäckerei Korn: auch sonntags von 8 bis 12 Uhr geöffnet."
+        },
+        {
+          "id": "d",
+          "text": "Yoga-Kleidung günstig zu verkaufen."
+        },
+        {
+          "id": "e",
+          "text": "Elektriker Blitz: Wir montieren Lampen, Steckdosen und mehr."
+        },
+        {
+          "id": "f",
+          "text": "Schwimmkurs nur für Kinder von 5 bis 10 Jahren."
+        },
+        {
+          "id": "g",
+          "text": "Computerkurs speziell für Senioren, in kleinen Gruppen."
+        },
+        {
+          "id": "h",
+          "text": "Yoga am Samstagmorgen, für Anfänger und Fortgeschrittene."
+        },
+        {
+          "id": "i",
+          "text": "Fahrradwerkstatt Rad&Tat: schnelle Reparaturen, faire Preise."
+        },
+        {
+          "id": "j",
+          "text": "Babysitter gesucht? Zuverlässige Betreuung, auch am Abend."
+        },
+        {
+          "id": "k",
+          "text": "Klavierunterricht für Kinder und Jugendliche, auch bei Ihnen zu Hause."
+        },
+        {
+          "id": "l",
+          "text": "Keine Anzeige passt (x)"
+        }
+      ],
+      "correctOptionId": "h",
+      "explanation": "**Answer: H** „Yoga am Samstagmorgen, für Anfänger und Fortgeschrittene.“\n\n*Bedingungen:* Yoga + Wochenende"
+    },
+    {
+      "id": "tb1-u42-l02-teil3-kurse-dienste-ex03",
+      "type": "choice",
+      "title": "Situation 2 · Kurse & Dienste",
+      "passage": "Sie suchen eine Wohnung mit Garten am Stadtrand.",
+      "prompt": "Welche Anzeige passt? Wenn keine passt: x.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Wohnung im Zentrum, 3. Stock, kein Balkon, kein Garten."
+        },
+        {
+          "id": "b",
+          "text": "Verschenke gebrauchte Romane gegen Abholung."
+        },
+        {
+          "id": "c",
+          "text": "Bäckerei Korn: auch sonntags von 8 bis 12 Uhr geöffnet."
+        },
+        {
+          "id": "d",
+          "text": "Yoga-Kleidung günstig zu verkaufen."
+        },
+        {
+          "id": "e",
+          "text": "Elektriker Blitz: Wir montieren Lampen, Steckdosen und mehr."
+        },
+        {
+          "id": "f",
+          "text": "Schwimmkurs nur für Kinder von 5 bis 10 Jahren."
+        },
+        {
+          "id": "g",
+          "text": "Computerkurs speziell für Senioren, in kleinen Gruppen."
+        },
+        {
+          "id": "h",
+          "text": "Yoga am Samstagmorgen, für Anfänger und Fortgeschrittene."
+        },
+        {
+          "id": "i",
+          "text": "Fahrradwerkstatt Rad&Tat: schnelle Reparaturen, faire Preise."
+        },
+        {
+          "id": "j",
+          "text": "Babysitter gesucht? Zuverlässige Betreuung, auch am Abend."
+        },
+        {
+          "id": "k",
+          "text": "Schöne Wohnung mit großem Garten, am Stadtrand, ruhig gelegen."
+        },
+        {
+          "id": "l",
+          "text": "Keine Anzeige passt (x)"
+        }
+      ],
+      "correctOptionId": "k",
+      "explanation": "**Answer: K** „Schöne Wohnung mit großem Garten, am Stadtrand, ruhig gelegen.“\n\n*Bedingungen:* Wohnung mit Garten + Stadtrand"
+    },
+    {
+      "id": "tb1-u42-l02-teil3-kurse-dienste-ex04",
+      "type": "choice",
+      "title": "Situation 3 · Kurse & Dienste",
+      "passage": "Sie wollen Ihr Fahrrad reparieren lassen.",
+      "prompt": "Welche Anzeige passt? Wenn keine passt: x.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Wohnung im Zentrum, 3. Stock, kein Balkon, kein Garten."
+        },
+        {
+          "id": "b",
+          "text": "Verschenke gebrauchte Romane gegen Abholung."
+        },
+        {
+          "id": "c",
+          "text": "Bäckerei Korn: auch sonntags von 8 bis 12 Uhr geöffnet."
+        },
+        {
+          "id": "d",
+          "text": "Yoga-Kleidung günstig zu verkaufen."
+        },
+        {
+          "id": "e",
+          "text": "Elektriker Blitz: Wir montieren Lampen, Steckdosen und mehr."
+        },
+        {
+          "id": "f",
+          "text": "Schwimmkurs nur für Kinder von 5 bis 10 Jahren."
+        },
+        {
+          "id": "g",
+          "text": "Computerkurs speziell für Senioren, in kleinen Gruppen."
+        },
+        {
+          "id": "h",
+          "text": "Yoga am Samstagmorgen, für Anfänger und Fortgeschrittene."
+        },
+        {
+          "id": "i",
+          "text": "Fahrradwerkstatt Rad&Tat: schnelle Reparaturen, faire Preise."
+        },
+        {
+          "id": "j",
+          "text": "Babysitter gesucht? Zuverlässige Betreuung, auch am Abend."
+        },
+        {
+          "id": "k",
+          "text": "Klavierunterricht für Kinder und Jugendliche, auch bei Ihnen zu Hause."
+        },
+        {
+          "id": "l",
+          "text": "Keine Anzeige passt (x)"
+        }
+      ],
+      "correctOptionId": "i",
+      "explanation": "**Answer: I** „Fahrradwerkstatt Rad&Tat: schnelle Reparaturen, faire Preise.“\n\n*Bedingungen:* Fahrrad + Reparatur"
+    },
+    {
+      "id": "tb1-u42-l02-teil3-kurse-dienste-ex05",
+      "type": "choice",
+      "title": "Situation 4 · Kurse & Dienste",
+      "passage": "Ihre Tochter möchte Klavier spielen lernen.",
+      "prompt": "Welche Anzeige passt? Wenn keine passt: x.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Wohnung im Zentrum, 3. Stock, kein Balkon, kein Garten."
+        },
+        {
+          "id": "b",
+          "text": "Verschenke gebrauchte Romane gegen Abholung."
+        },
+        {
+          "id": "c",
+          "text": "Bäckerei Korn: auch sonntags von 8 bis 12 Uhr geöffnet."
+        },
+        {
+          "id": "d",
+          "text": "Yoga-Kleidung günstig zu verkaufen."
+        },
+        {
+          "id": "e",
+          "text": "Elektriker Blitz: Wir montieren Lampen, Steckdosen und mehr."
+        },
+        {
+          "id": "f",
+          "text": "Schwimmkurs nur für Kinder von 5 bis 10 Jahren."
+        },
+        {
+          "id": "g",
+          "text": "Computerkurs speziell für Senioren, in kleinen Gruppen."
+        },
+        {
+          "id": "h",
+          "text": "Yoga am Samstagmorgen, für Anfänger und Fortgeschrittene."
+        },
+        {
+          "id": "i",
+          "text": "Fahrradwerkstatt Rad&Tat: schnelle Reparaturen, faire Preise."
+        },
+        {
+          "id": "j",
+          "text": "Babysitter gesucht? Zuverlässige Betreuung, auch am Abend."
+        },
+        {
+          "id": "k",
+          "text": "Klavierunterricht für Kinder und Jugendliche, auch bei Ihnen zu Hause."
+        },
+        {
+          "id": "l",
+          "text": "Keine Anzeige passt (x)"
+        }
+      ],
+      "correctOptionId": "k",
+      "explanation": "**Answer: K** „Klavierunterricht für Kinder und Jugendliche, auch bei Ihnen zu Hause.“\n\n*Bedingungen:* Klavier + lernen"
+    },
+    {
+      "id": "tb1-u42-l02-teil3-kurse-dienste-ex06",
+      "type": "choice",
+      "title": "Situation 5 · Kurse & Dienste",
+      "passage": "Sie brauchen einen Babysitter für den Abend.",
+      "prompt": "Welche Anzeige passt? Wenn keine passt: x.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Wohnung im Zentrum, 3. Stock, kein Balkon, kein Garten."
+        },
+        {
+          "id": "b",
+          "text": "Verschenke gebrauchte Romane gegen Abholung."
+        },
+        {
+          "id": "c",
+          "text": "Bäckerei Korn: auch sonntags von 8 bis 12 Uhr geöffnet."
+        },
+        {
+          "id": "d",
+          "text": "Yoga-Kleidung günstig zu verkaufen."
+        },
+        {
+          "id": "e",
+          "text": "Elektriker Blitz: Wir montieren Lampen, Steckdosen und mehr."
+        },
+        {
+          "id": "f",
+          "text": "Schwimmkurs nur für Kinder von 5 bis 10 Jahren."
+        },
+        {
+          "id": "g",
+          "text": "Computerkurs speziell für Senioren, in kleinen Gruppen."
+        },
+        {
+          "id": "h",
+          "text": "Yoga am Samstagmorgen, für Anfänger und Fortgeschrittene."
+        },
+        {
+          "id": "i",
+          "text": "Fahrradwerkstatt Rad&Tat: schnelle Reparaturen, faire Preise."
+        },
+        {
+          "id": "j",
+          "text": "Babysitter gesucht? Zuverlässige Betreuung, auch am Abend."
+        },
+        {
+          "id": "k",
+          "text": "Klavierunterricht für Kinder und Jugendliche, auch bei Ihnen zu Hause."
+        },
+        {
+          "id": "l",
+          "text": "Keine Anzeige passt (x)"
+        }
+      ],
+      "correctOptionId": "j",
+      "explanation": "**Answer: J** „Babysitter gesucht? Zuverlässige Betreuung, auch am Abend.“\n\n*Bedingungen:* Babysitter + abends"
+    },
+    {
+      "id": "tb1-u42-l02-teil3-kurse-dienste-ex07",
+      "type": "choice",
+      "title": "Situation 6 · Kurse & Dienste",
+      "passage": "Sie möchten als Erwachsener schwimmen lernen.",
+      "prompt": "Welche Anzeige passt? Wenn keine passt: x.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Wohnung im Zentrum, 3. Stock, kein Balkon, kein Garten."
+        },
+        {
+          "id": "b",
+          "text": "Verschenke gebrauchte Romane gegen Abholung."
+        },
+        {
+          "id": "c",
+          "text": "Bäckerei Korn: auch sonntags von 8 bis 12 Uhr geöffnet."
+        },
+        {
+          "id": "d",
+          "text": "Yoga-Kleidung günstig zu verkaufen."
+        },
+        {
+          "id": "e",
+          "text": "Elektriker Blitz: Wir montieren Lampen, Steckdosen und mehr."
+        },
+        {
+          "id": "f",
+          "text": "Schwimmkurs nur für Kinder von 5 bis 10 Jahren."
+        },
+        {
+          "id": "g",
+          "text": "Computerkurs speziell für Senioren, in kleinen Gruppen."
+        },
+        {
+          "id": "h",
+          "text": "Yoga am Samstagmorgen, für Anfänger und Fortgeschrittene."
+        },
+        {
+          "id": "i",
+          "text": "Fahrradwerkstatt Rad&Tat: schnelle Reparaturen, faire Preise."
+        },
+        {
+          "id": "j",
+          "text": "Babysitter gesucht? Zuverlässige Betreuung, auch am Abend."
+        },
+        {
+          "id": "k",
+          "text": "Klavierunterricht für Kinder und Jugendliche, auch bei Ihnen zu Hause."
+        },
+        {
+          "id": "l",
+          "text": "Keine Anzeige passt (x)"
+        }
+      ],
+      "correctOptionId": "l",
+      "explanation": "**Answer: L** x · keine Anzeige passt\n\n*Bedingungen:* Schwimmkurs + für Erwachsene\n\nAnzeige „Schwimmkurs nur für Kinder …“ ist nur für Kinder (5–10), nicht für Erwachsene → x."
+    },
+    {
+      "id": "tb1-u42-l02-teil3-kurse-dienste-ex08",
+      "type": "choice",
+      "title": "Situation 7 · Kurse & Dienste",
+      "passage": "Sie suchen einen Handwerker, der eine Lampe anschließt.",
+      "prompt": "Welche Anzeige passt? Wenn keine passt: x.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Wohnung im Zentrum, 3. Stock, kein Balkon, kein Garten."
+        },
+        {
+          "id": "b",
+          "text": "Verschenke gebrauchte Romane gegen Abholung."
+        },
+        {
+          "id": "c",
+          "text": "Bäckerei Korn: auch sonntags von 8 bis 12 Uhr geöffnet."
+        },
+        {
+          "id": "d",
+          "text": "Yoga-Kleidung günstig zu verkaufen."
+        },
+        {
+          "id": "e",
+          "text": "Elektriker Blitz: Wir montieren Lampen, Steckdosen und mehr."
+        },
+        {
+          "id": "f",
+          "text": "Schwimmkurs nur für Kinder von 5 bis 10 Jahren."
+        },
+        {
+          "id": "g",
+          "text": "Computerkurs speziell für Senioren, in kleinen Gruppen."
+        },
+        {
+          "id": "h",
+          "text": "Yoga am Samstagmorgen, für Anfänger und Fortgeschrittene."
+        },
+        {
+          "id": "i",
+          "text": "Fahrradwerkstatt Rad&Tat: schnelle Reparaturen, faire Preise."
+        },
+        {
+          "id": "j",
+          "text": "Babysitter gesucht? Zuverlässige Betreuung, auch am Abend."
+        },
+        {
+          "id": "k",
+          "text": "Klavierunterricht für Kinder und Jugendliche, auch bei Ihnen zu Hause."
+        },
+        {
+          "id": "l",
+          "text": "Keine Anzeige passt (x)"
+        }
+      ],
+      "correctOptionId": "e",
+      "explanation": "**Answer: E** „Elektriker Blitz: Wir montieren Lampen, Steckdosen und mehr.“\n\n*Bedingungen:* Elektriker + Lampe anschließen"
+    },
+    {
+      "id": "tb1-u42-l02-teil3-kurse-dienste-ex09",
+      "type": "choice",
+      "title": "Situation 8 · Kurse & Dienste",
+      "passage": "Sie wollen alte Romane günstig abgeben oder verschenken.",
+      "prompt": "Welche Anzeige passt? Wenn keine passt: x.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Wohnung im Zentrum, 3. Stock, kein Balkon, kein Garten."
+        },
+        {
+          "id": "b",
+          "text": "Verschenke gebrauchte Romane gegen Abholung."
+        },
+        {
+          "id": "c",
+          "text": "Bäckerei Korn: auch sonntags von 8 bis 12 Uhr geöffnet."
+        },
+        {
+          "id": "d",
+          "text": "Yoga-Kleidung günstig zu verkaufen."
+        },
+        {
+          "id": "e",
+          "text": "Elektriker Blitz: Wir montieren Lampen, Steckdosen und mehr."
+        },
+        {
+          "id": "f",
+          "text": "Schwimmkurs nur für Kinder von 5 bis 10 Jahren."
+        },
+        {
+          "id": "g",
+          "text": "Computerkurs speziell für Senioren, in kleinen Gruppen."
+        },
+        {
+          "id": "h",
+          "text": "Yoga am Samstagmorgen, für Anfänger und Fortgeschrittene."
+        },
+        {
+          "id": "i",
+          "text": "Fahrradwerkstatt Rad&Tat: schnelle Reparaturen, faire Preise."
+        },
+        {
+          "id": "j",
+          "text": "Babysitter gesucht? Zuverlässige Betreuung, auch am Abend."
+        },
+        {
+          "id": "k",
+          "text": "Klavierunterricht für Kinder und Jugendliche, auch bei Ihnen zu Hause."
+        },
+        {
+          "id": "l",
+          "text": "Keine Anzeige passt (x)"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Answer: B** „Verschenke gebrauchte Romane gegen Abholung.“\n\n*Bedingungen:* Bücher + abgeben/verschenken"
+    },
+    {
+      "id": "tb1-u42-l02-teil3-kurse-dienste-ex10",
+      "type": "choice",
+      "title": "Situation 9 · Kurse & Dienste",
+      "passage": "Sie interessieren sich für einen Computerkurs für Senioren.",
+      "prompt": "Welche Anzeige passt? Wenn keine passt: x.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Wohnung im Zentrum, 3. Stock, kein Balkon, kein Garten."
+        },
+        {
+          "id": "b",
+          "text": "Verschenke gebrauchte Romane gegen Abholung."
+        },
+        {
+          "id": "c",
+          "text": "Bäckerei Korn: auch sonntags von 8 bis 12 Uhr geöffnet."
+        },
+        {
+          "id": "d",
+          "text": "Yoga-Kleidung günstig zu verkaufen."
+        },
+        {
+          "id": "e",
+          "text": "Elektriker Blitz: Wir montieren Lampen, Steckdosen und mehr."
+        },
+        {
+          "id": "f",
+          "text": "Schwimmkurs nur für Kinder von 5 bis 10 Jahren."
+        },
+        {
+          "id": "g",
+          "text": "Computerkurs speziell für Senioren, in kleinen Gruppen."
+        },
+        {
+          "id": "h",
+          "text": "Yoga am Samstagmorgen, für Anfänger und Fortgeschrittene."
+        },
+        {
+          "id": "i",
+          "text": "Fahrradwerkstatt Rad&Tat: schnelle Reparaturen, faire Preise."
+        },
+        {
+          "id": "j",
+          "text": "Babysitter gesucht? Zuverlässige Betreuung, auch am Abend."
+        },
+        {
+          "id": "k",
+          "text": "Klavierunterricht für Kinder und Jugendliche, auch bei Ihnen zu Hause."
+        },
+        {
+          "id": "l",
+          "text": "Keine Anzeige passt (x)"
+        }
+      ],
+      "correctOptionId": "g",
+      "explanation": "**Answer: G** „Computerkurs speziell für Senioren, in kleinen Gruppen.“\n\n*Bedingungen:* Computerkurs + für Senioren"
+    },
+    {
+      "id": "tb1-u42-l02-teil3-kurse-dienste-ex11",
+      "type": "choice",
+      "title": "Situation 10 · Kurse & Dienste",
+      "passage": "Sie möchten am Sonntag frisches Brot kaufen.",
+      "prompt": "Welche Anzeige passt? Wenn keine passt: x.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Wohnung im Zentrum, 3. Stock, kein Balkon, kein Garten."
+        },
+        {
+          "id": "b",
+          "text": "Verschenke gebrauchte Romane gegen Abholung."
+        },
+        {
+          "id": "c",
+          "text": "Bäckerei Korn: auch sonntags von 8 bis 12 Uhr geöffnet."
+        },
+        {
+          "id": "d",
+          "text": "Yoga-Kleidung günstig zu verkaufen."
+        },
+        {
+          "id": "e",
+          "text": "Elektriker Blitz: Wir montieren Lampen, Steckdosen und mehr."
+        },
+        {
+          "id": "f",
+          "text": "Schwimmkurs nur für Kinder von 5 bis 10 Jahren."
+        },
+        {
+          "id": "g",
+          "text": "Computerkurs speziell für Senioren, in kleinen Gruppen."
+        },
+        {
+          "id": "h",
+          "text": "Yoga am Samstagmorgen, für Anfänger und Fortgeschrittene."
+        },
+        {
+          "id": "i",
+          "text": "Fahrradwerkstatt Rad&Tat: schnelle Reparaturen, faire Preise."
+        },
+        {
+          "id": "j",
+          "text": "Babysitter gesucht? Zuverlässige Betreuung, auch am Abend."
+        },
+        {
+          "id": "k",
+          "text": "Klavierunterricht für Kinder und Jugendliche, auch bei Ihnen zu Hause."
+        },
+        {
+          "id": "l",
+          "text": "Keine Anzeige passt (x)"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**Answer: C** „Bäckerei Korn: auch sonntags von 8 bis 12 Uhr geöffnet.“\n\n*Bedingungen:* Brot/Bäckerei + sonntags offen\n\nAnzeige „Yoga-Kleidung günstig zu verkaufen.“ (Yoga-Kleidung) und „Wohnung im Zentrum, 3. …“ (Wohnung ohne Garten) sind hier die Ablenker."
+    }
+  ]
+}

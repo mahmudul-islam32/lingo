@@ -1,0 +1,204 @@
+{
+  "id": "tb1-u31-l15-kii-p2",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u31",
+  "title": "Konjunktiv II: Polite & Unreal: Irreal",
+  "tip": "A formal request without KII sounds like an order: “Schicken Sie mir die Unterlagen” → better: “Könnten Sie mir die Unterlagen schicken?”",
+  "exercises": [
+    {
+      "id": "tb1-u31-l15-kii-p2-ex01",
+      "type": "explain",
+      "title": "Irreal: Wenn ich … hätte, würde ich …",
+      "body": "A situation that isn't real. Both parts in Konjunktiv II.\n\n*Deutsch:* Eine Situation, die nicht real ist. Beide Teile im Konjunktiv II.\n\n## Pattern\n\n**Wenn** + … + **hätte/wäre**, **würde** + Subjekt + … + **Infinitiv**",
+      "examples": [
+        {
+          "learning": "Wenn ich mehr Zeit hätte, würde ich mehr lesen.",
+          "known": "If I had more time, I would read more."
+        },
+        {
+          "learning": "Wenn ich reich wäre, würde ich ein Haus kaufen.",
+          "known": "If I were rich, I'd buy a house."
+        }
+      ]
+    },
+    {
+      "id": "tb1-u31-l15-kii-p2-ex02",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "If I had more time, I would read more.",
+      "tiles": [
+        "lesen",
+        "mehr",
+        "eine",
+        "würde",
+        "Könnten",
+        "ich",
+        "würden",
+        "ich",
+        "mehr",
+        "hätte",
+        "Wenn",
+        "Zeit"
+      ],
+      "answers": [
+        "Wenn ich mehr Zeit hätte, würde ich mehr lesen."
+      ],
+      "explanation": "**Why:** Reality: no time. hätte at the end, then würde.\n\n*Warum:* Realität: keine Zeit. hätte am Ende, dann würde."
+    },
+    {
+      "id": "tb1-u31-l15-kii-p2-ex03",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "If I were rich, I'd buy a house.",
+      "tiles": [
+        "würde",
+        "kaufen",
+        "schicken",
+        "viel",
+        "wäre",
+        "Haus",
+        "ein",
+        "ich",
+        "ich",
+        "reich",
+        "das",
+        "Wenn"
+      ],
+      "answers": [
+        "Wenn ich reich wäre, würde ich ein Haus kaufen."
+      ],
+      "explanation": "**Why:** wäre = Konjunktiv II of sein.\n\n*Warum:* wäre = Konjunktiv II von sein."
+    },
+    {
+      "id": "tb1-u31-l15-kii-p2-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "If the weather were better, we could have a barbecue.",
+      "tiles": [
+        "wir",
+        "Ich",
+        "Wetter",
+        "könnten",
+        "das",
+        "Wenn",
+        "besser",
+        "Meer",
+        "Sie",
+        "wäre",
+        "grillen"
+      ],
+      "answers": [
+        "Wenn das Wetter besser wäre, könnten wir grillen."
+      ],
+      "explanation": "**Why:** könnten instead of würden können.\n\n*Warum:* könnten statt würden können."
+    },
+    {
+      "id": "tb1-u31-l15-kii-p2-ex05",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I'd like to help you if I could.",
+      "tiles": [
+        "Könnten",
+        "könnte",
+        "Zeit",
+        "Sie",
+        "gern",
+        "würde",
+        "dir",
+        "ich",
+        "Ich",
+        "helfen",
+        "wenn"
+      ],
+      "answers": [
+        "Ich würde dir gern helfen, wenn ich könnte."
+      ],
+      "explanation": "**Why:** Main clause first is also possible.\n\n*Warum:* Hauptsatz zuerst ist auch möglich."
+    },
+    {
+      "id": "tb1-u31-l15-kii-p2-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "If I were you, I'd accept the offer.",
+      "tiles": [
+        "du",
+        "wäre",
+        "hätte",
+        "würde",
+        "annehmen",
+        "ich",
+        "Angebot",
+        "zu",
+        "das",
+        "Wenn",
+        "ich",
+        "bitte"
+      ],
+      "answers": [
+        "Wenn ich du wäre, würde ich das Angebot annehmen."
+      ],
+      "explanation": "**Why:** Advice: Wenn ich du wäre …\n\n*Warum:* Ratschlag: Wenn ich du wäre …"
+    },
+    {
+      "id": "tb1-u31-l15-kii-p2-ex07",
+      "type": "choice",
+      "title": "Fill the gap",
+      "prompt": "___ Sie so nett, mir die Unterlagen zu schicken?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Sind"
+        },
+        {
+          "id": "b",
+          "text": "Wären"
+        },
+        {
+          "id": "c",
+          "text": "Waren"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Sehr höfliche Formel: Wären Sie so nett, … zu …?"
+    },
+    {
+      "id": "tb1-u31-l15-kii-p2-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Word order: put all the words in the correct order.",
+      "tiles": [
+        "Sie",
+        "bitte",
+        "Könnten",
+        "helfen",
+        "mir"
+      ],
+      "answers": [
+        "Könnten Sie mir bitte helfen"
+      ],
+      "explanation": "Höfliche Bitte mit Konjunktiv II: Könnten Sie mir bitte helfen?"
+    },
+    {
+      "id": "tb1-u31-l15-kii-p2-ex09",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Express it as a polite wish (ich hätte gern / ich würde gern): Ich will einen Termin.",
+      "tiles": [
+        "gern",
+        "Ich",
+        "einen",
+        "schicken",
+        "Termin",
+        "hätte",
+        "würde",
+        "den",
+        "vereinbaren"
+      ],
+      "answers": [
+        "Ich hätte gern einen Termin.",
+        "Ich würde gern einen Termin vereinbaren."
+      ],
+      "explanation": "„Ich hätte gern …“ ist höflicher als „Ich will …“.\n\nAlso correct: Ich würde gern einen Termin vereinbaren.\n\n*Deutsch:* Formuliere einen höflichen Wunsch (ich hätte gern / ich würde gern):"
+    }
+  ]
+}

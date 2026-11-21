@@ -1,0 +1,225 @@
+{
+  "id": "tb1-u45-l02-diagnose",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u45",
+  "title": "Diagnosis: one gap of each type",
+  "tip": "One item per gap type: find your weak spots.",
+  "exercises": [
+    {
+      "id": "tb1-u45-l02-diagnose-ex01",
+      "type": "explain",
+      "title": "Diagnosis",
+      "body": "10 gaps, one of each type. The feedback names the type of each gap; practise the types you miss in the gap-type drills."
+    },
+    {
+      "id": "tb1-u45-l02-diagnose-ex02",
+      "type": "choice",
+      "prompt": "Ich wollte dich gestern besuchen, ___ ich hatte leider keine Zeit.",
+      "options": [
+        {
+          "id": "a",
+          "text": "denn"
+        },
+        {
+          "id": "b",
+          "text": "aber"
+        },
+        {
+          "id": "c",
+          "text": "sondern"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Answer: aber** · Konnektoren (connectors)\n\nContrast, position 0, verb stays second. „sondern“ needs a negation before it.\n\n*Auf Deutsch:* Gegensatz, Position 0, Verb bleibt an zweiter Stelle. „sondern“ braucht eine Verneinung davor."
+    },
+    {
+      "id": "tb1-u45-l02-diagnose-ex03",
+      "type": "choice",
+      "prompt": "Wir treffen uns nach ___ Arbeit vor dem Kino.",
+      "options": [
+        {
+          "id": "a",
+          "text": "die"
+        },
+        {
+          "id": "b",
+          "text": "der"
+        },
+        {
+          "id": "c",
+          "text": "dem"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Answer: der** · Präpositionen (prepositions)\n\n„nach“ always takes dative; „die Arbeit“ is feminine → der.\n\n*Auf Deutsch:* „nach“ steht immer mit Dativ; „die Arbeit“ ist feminin → der."
+    },
+    {
+      "id": "tb1-u45-l02-diagnose-ex04",
+      "type": "choice",
+      "prompt": "Meine Tochter interessiert sich sehr ___ Musik.",
+      "options": [
+        {
+          "id": "a",
+          "text": "an"
+        },
+        {
+          "id": "b",
+          "text": "über"
+        },
+        {
+          "id": "c",
+          "text": "für"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**Answer: für** · Verb + Präposition\n\nFixed pair: sich interessieren für + accusative.\n\n*Auf Deutsch:* Festes Paar: sich interessieren für + Akkusativ."
+    },
+    {
+      "id": "tb1-u45-l02-diagnose-ex05",
+      "type": "choice",
+      "prompt": "Am Sonntag ___ wir zu Hause geblieben.",
+      "options": [
+        {
+          "id": "a",
+          "text": "haben"
+        },
+        {
+          "id": "b",
+          "text": "sind"
+        },
+        {
+          "id": "c",
+          "text": "werden"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Answer: sind** · Perfekt · Hilfsverb (auxiliary)\n\n„bleiben“ forms the Perfekt with „sein“, one of the famous exceptions with no movement.\n\n*Auf Deutsch:* „bleiben“ bildet das Perfekt mit „sein“, eine der berühmten Ausnahmen ohne Bewegung."
+    },
+    {
+      "id": "tb1-u45-l02-diagnose-ex06",
+      "type": "choice",
+      "prompt": "Das ist der Film, ___ ich dir empfohlen habe.",
+      "options": [
+        {
+          "id": "a",
+          "text": "der"
+        },
+        {
+          "id": "b",
+          "text": "dem"
+        },
+        {
+          "id": "c",
+          "text": "den"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**Answer: den** · Relativsätze (relative clauses)\n\nMasculine from „der Film“, accusative from „empfehlen“ → den.\n\n*Auf Deutsch:* Maskulin von „der Film“, Akkusativ von „empfehlen“ → den."
+    },
+    {
+      "id": "tb1-u45-l02-diagnose-ex07",
+      "type": "choice",
+      "prompt": "Kannst du ___ bitte das Salz geben?",
+      "options": [
+        {
+          "id": "a",
+          "text": "mich"
+        },
+        {
+          "id": "b",
+          "text": "mir"
+        },
+        {
+          "id": "c",
+          "text": "ich"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Answer: mir** · Pronomen · Register\n\n„geben“ + dative (person) + accusative (thing).\n\n*Auf Deutsch:* „geben“ + Dativ (Person) + Akkusativ (Sache)."
+    },
+    {
+      "id": "tb1-u45-l02-diagnose-ex08",
+      "type": "choice",
+      "prompt": "Bei diesem ___ Wetter bleiben wir lieber drinnen.",
+      "options": [
+        {
+          "id": "a",
+          "text": "schlechten"
+        },
+        {
+          "id": "b",
+          "text": "schlechte"
+        },
+        {
+          "id": "c",
+          "text": "schlechtes"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Answer: schlechten** · Adjektivendungen (adjective endings)\n\n„bei“ + dative; after „diesem“ the adjective takes weak -en.\n\n*Auf Deutsch:* „bei“ + Dativ, nach „diesem“ steht die schwache Endung -en."
+    },
+    {
+      "id": "tb1-u45-l02-diagnose-ex09",
+      "type": "choice",
+      "prompt": "Mein Bruder ist zwei Jahre älter ___ ich.",
+      "options": [
+        {
+          "id": "a",
+          "text": "wie"
+        },
+        {
+          "id": "b",
+          "text": "von"
+        },
+        {
+          "id": "c",
+          "text": "als"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**Answer: als** · Kleine Klassiker (small classics)\n\nComparative + als. Never „wie“ after älter, besser, größer …\n\n*Auf Deutsch:* Komparativ + als. Nie „wie“ nach älter, besser, größer …"
+    },
+    {
+      "id": "tb1-u45-l02-diagnose-ex10",
+      "type": "choice",
+      "prompt": "Ich schreibe dir die Adresse auf, ___ du das Restaurant leichter findest.",
+      "options": [
+        {
+          "id": "a",
+          "text": "weil"
+        },
+        {
+          "id": "b",
+          "text": "damit"
+        },
+        {
+          "id": "c",
+          "text": "obwohl"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Answer: damit** · Konnektoren (connectors)\n\nPurpose („so that you find it“). „weil“ would give a reason, not a goal.\n\n*Auf Deutsch:* Absicht („damit du es findest“). „weil“ gäbe einen Grund, kein Ziel."
+    },
+    {
+      "id": "tb1-u45-l02-diagnose-ex11",
+      "type": "choice",
+      "prompt": "___ Sie mir bitte sagen, wann der Kurs beginnt?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Könnten"
+        },
+        {
+          "id": "b",
+          "text": "Müssten"
+        },
+        {
+          "id": "c",
+          "text": "Sollten"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Answer: Könnten** · Verbformen (verb forms)\n\nPolite request = Konjunktiv II of „können“.\n\n*Auf Deutsch:* Höfliche Bitte = Konjunktiv II von „können“."
+    }
+  ]
+}

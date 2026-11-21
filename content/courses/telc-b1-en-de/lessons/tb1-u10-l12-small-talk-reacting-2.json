@@ -1,0 +1,254 @@
+{
+  "id": "tb1-u10-l12-small-talk-reacting-2",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u10",
+  "title": "Small Talk & Reacting 2",
+  "tip": "Theme: Sätze: Small Talk & Reagieren (A2)",
+  "exercises": [
+    {
+      "id": "tb1-u10-l12-small-talk-reacting-2-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "Gute Besserung!",
+          "known": "Get well soon!"
+        },
+        {
+          "id": "p2",
+          "learning": "Viel Erfolg bei der Prüfung!",
+          "known": "Good luck with the exam!"
+        },
+        {
+          "id": "p3",
+          "learning": "Herzlichen Glückwunsch!",
+          "known": "Congratulations!"
+        },
+        {
+          "id": "p4",
+          "learning": "Schönes Wochenende!",
+          "known": "Have a nice weekend!"
+        },
+        {
+          "id": "p5",
+          "learning": "Mach's gut!",
+          "known": "Take care!"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u10-l12-small-talk-reacting-2-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means „Get well soon!“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Herzlichen Glückwunsch!"
+        },
+        {
+          "id": "b",
+          "text": "Was machst du beruflich?"
+        },
+        {
+          "id": "c",
+          "text": "Gute Besserung!"
+        },
+        {
+          "id": "d",
+          "text": "Mach's gut!"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**Gute Besserung!** = Get well soon!\n\n*Example:* Gute Besserung!\nGet well soon!"
+    },
+    {
+      "id": "tb1-u10-l12-small-talk-reacting-2-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means „Good luck with the exam!“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Mach's gut!"
+        },
+        {
+          "id": "b",
+          "text": "Herzlichen Glückwunsch!"
+        },
+        {
+          "id": "c",
+          "text": "Viel Erfolg bei der Prüfung!"
+        },
+        {
+          "id": "d",
+          "text": "Gute Besserung!"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**Viel Erfolg bei der Prüfung!** = Good luck with the exam!\n\n*Example:* Viel Erfolg bei der Prüfung!\nGood luck with the exam!"
+    },
+    {
+      "id": "tb1-u10-l12-small-talk-reacting-2-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Get well soon!",
+      "tiles": [
+        "mir",
+        "Herzlichen",
+        "Was",
+        "Gute",
+        "Besserung"
+      ],
+      "answers": [
+        "Gute Besserung!"
+      ],
+      "explanation": "**Gute Besserung!** = Get well soon!"
+    },
+    {
+      "id": "tb1-u10-l12-small-talk-reacting-2-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means „Congratulations!“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Herzlichen Glückwunsch!"
+        },
+        {
+          "id": "b",
+          "text": "Mach's gut!"
+        },
+        {
+          "id": "c",
+          "text": "Was machst du beruflich?"
+        },
+        {
+          "id": "d",
+          "text": "Schönes Wochenende!"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Herzlichen Glückwunsch!** = Congratulations!\n\n*Example:* Herzlichen Glückwunsch!\nCongratulations!"
+    },
+    {
+      "id": "tb1-u10-l12-small-talk-reacting-2-ex06",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u10-l12-small-talk-reacting-2-2.mp3"
+      },
+      "tiles": [
+        "bei",
+        "Prüfung",
+        "der",
+        "Viel",
+        "Herzlichen",
+        "Gute",
+        "tut",
+        "Erfolg"
+      ],
+      "answers": [
+        "Viel Erfolg bei der Prüfung!"
+      ],
+      "explanation": "Viel Erfolg bei der Prüfung!\n*Good luck with the exam!*\n\n**Viel Erfolg bei der Prüfung!** = Good luck with the exam!"
+    },
+    {
+      "id": "tb1-u10-l12-small-talk-reacting-2-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means „Have a nice weekend!“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Herzlichen Glückwunsch!"
+        },
+        {
+          "id": "b",
+          "text": "Was machst du beruflich?"
+        },
+        {
+          "id": "c",
+          "text": "Schönes Wochenende!"
+        },
+        {
+          "id": "d",
+          "text": "Das tut mir leid."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**Schönes Wochenende!** = Have a nice weekend!\n\n*Example:* Schönes Wochenende!\nHave a nice weekend!"
+    },
+    {
+      "id": "tb1-u10-l12-small-talk-reacting-2-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Herzlichen Glückwunsch!",
+      "tiles": [
+        "you",
+        "sorry",
+        "Have",
+        "Congratulations"
+      ],
+      "answers": [
+        "Congratulations!"
+      ],
+      "explanation": "**Herzlichen Glückwunsch!** = Congratulations!"
+    },
+    {
+      "id": "tb1-u10-l12-small-talk-reacting-2-ex09",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means „Take care!“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Mach's gut!"
+        },
+        {
+          "id": "b",
+          "text": "Wie geht es Ihnen?"
+        },
+        {
+          "id": "c",
+          "text": "Gute Besserung!"
+        },
+        {
+          "id": "d",
+          "text": "Woher kommst du ursprünglich?"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Mach's gut!** = Take care!\n\n*Example:* Mach's gut!\nTake care!"
+    },
+    {
+      "id": "tb1-u10-l12-small-talk-reacting-2-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Have a nice weekend!",
+      "tiles": [
+        "Das",
+        "beruflich",
+        "Wochenende",
+        "Schönes",
+        "sehr"
+      ],
+      "answers": [
+        "Schönes Wochenende!"
+      ],
+      "explanation": "**Schönes Wochenende!** = Have a nice weekend!"
+    },
+    {
+      "id": "tb1-u10-l12-small-talk-reacting-2-ex11",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u10-l12-small-talk-reacting-2-5.mp3"
+      },
+      "tiles": [
+        "Schönes",
+        "Mach's",
+        "Gute",
+        "leid",
+        "gut"
+      ],
+      "answers": [
+        "Mach's gut!"
+      ],
+      "explanation": "Mach's gut!\n*Take care!*\n\n**Mach's gut!** = Take care!"
+    }
+  ]
+}

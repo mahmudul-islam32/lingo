@@ -1,0 +1,243 @@
+{
+  "id": "tb1-u27-l01-giving-your-opinion-1",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u27",
+  "title": "Giving Your Opinion 1",
+  "tip": "Theme: Redemittel: Meinung äußern (B1)",
+  "exercises": [
+    {
+      "id": "tb1-u27-l01-giving-your-opinion-1-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "Meiner Meinung nach …",
+          "known": "In my opinion …"
+        },
+        {
+          "id": "p2",
+          "learning": "Ich bin der Meinung, dass …",
+          "known": "I'm of the opinion that …"
+        },
+        {
+          "id": "p3",
+          "learning": "Ich finde, dass …",
+          "known": "I think that …"
+        },
+        {
+          "id": "p4",
+          "learning": "Ich glaube, dass …",
+          "known": "I believe that …"
+        },
+        {
+          "id": "p5",
+          "learning": "Ich bin davon überzeugt, dass …",
+          "known": "I'm convinced that …"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u27-l01-giving-your-opinion-1-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which phrase means „In my opinion …“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Es scheint mir, dass …"
+        },
+        {
+          "id": "b",
+          "text": "Ich bin der Meinung, dass …"
+        },
+        {
+          "id": "c",
+          "text": "Meiner Meinung nach …"
+        },
+        {
+          "id": "d",
+          "text": "Ich finde, dass …"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**Meiner Meinung nach …** = In my opinion …\n\n*Example:* Meiner Meinung nach ist das Leben auf dem Land ruhiger.\nIn my opinion, life in the countryside is quieter."
+    },
+    {
+      "id": "tb1-u27-l01-giving-your-opinion-1-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which phrase means „I'm of the opinion that …“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ich glaube, dass …"
+        },
+        {
+          "id": "b",
+          "text": "Ich finde, dass …"
+        },
+        {
+          "id": "c",
+          "text": "Es scheint mir, dass …"
+        },
+        {
+          "id": "d",
+          "text": "Ich bin der Meinung, dass …"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**Ich bin der Meinung, dass …** = I'm of the opinion that …\n\n*Example:* Ich bin der Meinung, dass Kinder weniger Zeit am Handy verbringen sollten.\nI'm of the opinion that children should spend less time on their phones."
+    },
+    {
+      "id": "tb1-u27-l01-giving-your-opinion-1-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Meiner Meinung nach ist das Leben auf dem Land ruhiger.",
+      "tiles": [
+        "in",
+        "opinion",
+        "countryside",
+        "the",
+        "train",
+        "quieter",
+        "is",
+        "In",
+        "say",
+        "my",
+        "life",
+        "I"
+      ],
+      "answers": [
+        "In my opinion, life in the countryside is quieter."
+      ],
+      "explanation": "**Meiner Meinung nach …** = In my opinion …"
+    },
+    {
+      "id": "tb1-u27-l01-giving-your-opinion-1-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which phrase means „I think that …“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Es scheint mir, dass …"
+        },
+        {
+          "id": "b",
+          "text": "Ich finde, dass …"
+        },
+        {
+          "id": "c",
+          "text": "Ehrlich gesagt, …"
+        },
+        {
+          "id": "d",
+          "text": "Ich bin der Meinung, dass …"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Ich finde, dass …** = I think that …\n\n*Example:* Ich finde, dass die Mieten in dieser Stadt zu hoch sind.\nI think the rents in this city are too high."
+    },
+    {
+      "id": "tb1-u27-l01-giving-your-opinion-1-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I'm of the opinion that children should spend less time on their phones.",
+      "tiles": [
+        "dass",
+        "der",
+        "bin",
+        "unser",
+        "sollten",
+        "Ich",
+        "Zeit",
+        "Kinder",
+        "Meinung",
+        "als",
+        "am",
+        "Handy",
+        "weniger",
+        "verbringen",
+        "ruhiger"
+      ],
+      "answers": [
+        "Ich bin der Meinung, dass Kinder weniger Zeit am Handy verbringen sollten."
+      ],
+      "explanation": "**Ich bin der Meinung, dass …** = I'm of the opinion that …"
+    },
+    {
+      "id": "tb1-u27-l01-giving-your-opinion-1-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which phrase means „I believe that …“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Es scheint mir, dass …"
+        },
+        {
+          "id": "b",
+          "text": "Ich würde sagen, dass …"
+        },
+        {
+          "id": "c",
+          "text": "Ich habe den Eindruck, dass …"
+        },
+        {
+          "id": "d",
+          "text": "Ich glaube, dass …"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**Ich glaube, dass …** = I believe that …\n\n*Example:* Ich glaube, dass der Supermarkt heute bis 22 Uhr geöffnet hat.\nI believe the supermarket is open until 10 pm today."
+    },
+    {
+      "id": "tb1-u27-l01-giving-your-opinion-1-ex08",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u27-l01-giving-your-opinion-1-3.mp3"
+      },
+      "tiles": [
+        "Ich",
+        "sich",
+        "in",
+        "dieser",
+        "Stadt",
+        "Mieten",
+        "die",
+        "finde",
+        "sind",
+        "Zeit",
+        "Eindruck",
+        "zu",
+        "dass",
+        "hoch"
+      ],
+      "answers": [
+        "Ich finde, dass die Mieten in dieser Stadt zu hoch sind."
+      ],
+      "explanation": "Ich finde, dass die Mieten in dieser Stadt zu hoch sind.\n*I think the rents in this city are too high.*\n\n**Ich finde, dass …** = I think that …"
+    },
+    {
+      "id": "tb1-u27-l01-giving-your-opinion-1-ex09",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Ich glaube, dass der Supermarkt heute bis 22 Uhr geöffnet hat.",
+      "tiles": [
+        "I",
+        "10",
+        "helps",
+        "believe",
+        "pm",
+        "until",
+        "the",
+        "supermarket",
+        "is",
+        "today",
+        "Mondays",
+        "open",
+        "nice"
+      ],
+      "answers": [
+        "I believe the supermarket is open until 10 pm today."
+      ],
+      "explanation": "**Ich glaube, dass …** = I believe that …"
+    }
+  ]
+}

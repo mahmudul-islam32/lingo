@@ -1,0 +1,239 @@
+{
+  "id": "tb1-u27-l05-agreeing-disagreeing-2",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u27",
+  "title": "Agreeing & Disagreeing 2",
+  "tip": "Theme: Redemittel: Zustimmen & Widersprechen (B1)",
+  "exercises": [
+    {
+      "id": "tb1-u27-l05-agreeing-disagreeing-2-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "Das ist ein guter Punkt",
+          "known": "That's a good point."
+        },
+        {
+          "id": "p2",
+          "learning": "Ich bin ganz Ihrer Meinung",
+          "known": "I completely agree."
+        },
+        {
+          "id": "p3",
+          "learning": "Das stimmt, aber …",
+          "known": "That's true, but …"
+        },
+        {
+          "id": "p4",
+          "learning": "Da bin ich anderer Meinung",
+          "known": "I disagree there."
+        },
+        {
+          "id": "p5",
+          "learning": "Da stimme ich Ihnen zu",
+          "known": "I agree with you."
+        }
+      ]
+    },
+    {
+      "id": "tb1-u27-l05-agreeing-disagreeing-2-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which phrase means „That's a good point.“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Das ist ein guter Punkt."
+        },
+        {
+          "id": "b",
+          "text": "Genau, das finde ich auch."
+        },
+        {
+          "id": "c",
+          "text": "Da bin ich anderer Meinung."
+        },
+        {
+          "id": "d",
+          "text": "Einerseits ja, andererseits …"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Das ist ein guter Punkt.** = That's a good point.\n\n*Example:* „Wir könnten mit dem Zug fahren, das ist billiger.“ – „Das ist ein guter Punkt.“\n\"We could go by train, it's cheaper.\" – \"That's a good point.\""
+    },
+    {
+      "id": "tb1-u27-l05-agreeing-disagreeing-2-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which phrase means „I completely agree.“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Das sehe ich auch so."
+        },
+        {
+          "id": "b",
+          "text": "Ich bin ganz Ihrer Meinung."
+        },
+        {
+          "id": "c",
+          "text": "Einerseits ja, andererseits …"
+        },
+        {
+          "id": "d",
+          "text": "Ich bin nicht sicher, ob das stimmt."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Ich bin ganz Ihrer Meinung.** = I completely agree.\n\n*Example:* „Die Stadt braucht mehr Radwege.“ – „Ich bin ganz Ihrer Meinung.“\n\"The city needs more cycle paths.\" – \"I completely agree.\""
+    },
+    {
+      "id": "tb1-u27-l05-agreeing-disagreeing-2-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "„Wir könnten mit dem Zug fahren, das ist billiger.“ – „Das ist ein guter Punkt.“",
+      "tiles": [
+        "a",
+        "We",
+        "need",
+        "by",
+        "go",
+        "good",
+        "paths",
+        "train",
+        "could",
+        "is",
+        "it's",
+        "cheaper",
+        "That's",
+        "point"
+      ],
+      "answers": [
+        "\"We could go by train, it's cheaper.\" – \"That's a good point.\""
+      ],
+      "explanation": "**Das ist ein guter Punkt.** = That's a good point."
+    },
+    {
+      "id": "tb1-u27-l05-agreeing-disagreeing-2-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which phrase means „That's true, but …“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Da haben Sie recht."
+        },
+        {
+          "id": "b",
+          "text": "Ich bin ganz Ihrer Meinung."
+        },
+        {
+          "id": "c",
+          "text": "Das kann man so nicht sagen."
+        },
+        {
+          "id": "d",
+          "text": "Das stimmt, aber …"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**Das stimmt, aber …** = That's true, but …\n\n*Example:* Das stimmt, aber die Wohnung ist leider sehr teuer.\nThat's true, but unfortunately the flat is very expensive."
+    },
+    {
+      "id": "tb1-u27-l05-agreeing-disagreeing-2-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "\"The city needs more cycle paths.\" – \"I completely agree.\"",
+      "tiles": [
+        "ist",
+        "Meinung",
+        "Die",
+        "ganz",
+        "Ich",
+        "bin",
+        "sicher",
+        "braucht",
+        "Ihrer",
+        "Radwege",
+        "Stadt",
+        "ein",
+        "mehr"
+      ],
+      "answers": [
+        "„Die Stadt braucht mehr Radwege.“ – „Ich bin ganz Ihrer Meinung.“"
+      ],
+      "explanation": "**Ich bin ganz Ihrer Meinung.** = I completely agree."
+    },
+    {
+      "id": "tb1-u27-l05-agreeing-disagreeing-2-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which phrase means „I disagree there.“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Da bin ich anderer Meinung."
+        },
+        {
+          "id": "b",
+          "text": "Das ist ein guter Punkt."
+        },
+        {
+          "id": "c",
+          "text": "Ich bin nicht sicher, ob das stimmt."
+        },
+        {
+          "id": "d",
+          "text": "Genau, das finde ich auch."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Da bin ich anderer Meinung.** = I disagree there.\n\n*Example:* „Fernsehen ist schlecht für Kinder.“ – „Da bin ich anderer Meinung.“\n\"Television is bad for children.\" – \"I disagree there.\""
+    },
+    {
+      "id": "tb1-u27-l05-agreeing-disagreeing-2-ex08",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u27-l05-agreeing-disagreeing-2-3.mp3"
+      },
+      "tiles": [
+        "sehr",
+        "leider",
+        "die",
+        "aber",
+        "mehr",
+        "teuer",
+        "sollten",
+        "Wohnung",
+        "ist",
+        "sind",
+        "stimmt",
+        "Das"
+      ],
+      "answers": [
+        "Das stimmt, aber die Wohnung ist leider sehr teuer."
+      ],
+      "explanation": "Das stimmt, aber die Wohnung ist leider sehr teuer.\n*That's true, but unfortunately the flat is very expensive.*\n\n**Das stimmt, aber …** = That's true, but …"
+    },
+    {
+      "id": "tb1-u27-l05-agreeing-disagreeing-2-ex09",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "„Fernsehen ist schlecht für Kinder.“ – „Da bin ich anderer Meinung.“",
+      "tiles": [
+        "there",
+        "I'm",
+        "for",
+        "Television",
+        "flat",
+        "disagree",
+        "is",
+        "All",
+        "children",
+        "I",
+        "bad"
+      ],
+      "answers": [
+        "\"Television is bad for children.\" – \"I disagree there.\""
+      ],
+      "explanation": "**Da bin ich anderer Meinung.** = I disagree there."
+    }
+  ]
+}

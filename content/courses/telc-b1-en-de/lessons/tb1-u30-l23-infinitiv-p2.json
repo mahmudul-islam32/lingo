@@ -1,0 +1,165 @@
+{
+  "id": "tb1-u30-l23-infinitiv-p2",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u30",
+  "title": "Infinitive with zu · um … zu · ohne … zu: ohne … zu",
+  "tip": "“Ich muss zu arbeiten” is wrong, after modals the infinitive has NO zu. And “für zu lernen” doesn't exist: purpose = um … zu.",
+  "exercises": [
+    {
+      "id": "tb1-u30-l23-infinitiv-p2-ex01",
+      "type": "explain",
+      "title": "ohne … zu",
+      "body": "ohne … zu = without doing something (expected thing doesn't happen).\n\n*Deutsch:* ohne … zu = etwas Erwartetes passiert nicht.\n\n## Pattern\n\nHauptsatz, **ohne** + … + **zu** + **Infinitiv**.",
+      "examples": [
+        {
+          "learning": "Er ist gegangen, ohne Tschüss zu sagen.",
+          "known": "He left without saying goodbye."
+        },
+        {
+          "learning": "Sie hat den Vertrag unterschrieben, ohne ihn zu lesen.",
+          "known": "She signed the contract without reading it."
+        }
+      ]
+    },
+    {
+      "id": "tb1-u30-l23-infinitiv-p2-ex02",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "He left without saying goodbye.",
+      "tiles": [
+        "Tschüss",
+        "vor",
+        "zu",
+        "Deutsch",
+        "ist",
+        "ohne",
+        "sagen",
+        "gehen",
+        "gegangen",
+        "Er"
+      ],
+      "answers": [
+        "Er ist gegangen, ohne Tschüss zu sagen."
+      ],
+      "explanation": "**Why:** Expected: saying bye – didn't happen.\n\n*Warum:* Erwartet: Tschüss sagen – passiert nicht."
+    },
+    {
+      "id": "tb1-u30-l23-infinitiv-p2-ex03",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "She signed the contract without reading it.",
+      "tiles": [
+        "ihn",
+        "ohne",
+        "zu",
+        "Konto",
+        "Vertrag",
+        "Er",
+        "unterschrieben",
+        "hat",
+        "jeden",
+        "den",
+        "Sie",
+        "lesen"
+      ],
+      "answers": [
+        "Sie hat den Vertrag unterschrieben, ohne ihn zu lesen."
+      ],
+      "explanation": "**Why:** ohne … zu lesen at the end.\n\n*Warum:* ohne … zu lesen am Ende."
+    },
+    {
+      "id": "tb1-u30-l23-infinitiv-p2-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I crossed the road without looking left.",
+      "tiles": [
+        "Deutschland",
+        "zu",
+        "ins",
+        "nach",
+        "über",
+        "ein",
+        "bin",
+        "schauen",
+        "Straße",
+        "gegangen",
+        "Ich",
+        "die",
+        "ohne",
+        "links"
+      ],
+      "answers": [
+        "Ich bin über die Straße gegangen, ohne nach links zu schauen."
+      ],
+      "explanation": "**Why:** Infinitive with zu at the very end.\n\n*Warum:* Infinitiv mit zu ganz hinten."
+    },
+    {
+      "id": "tb1-u30-l23-infinitiv-p2-ex05",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "You can park here without paying.",
+      "tiles": [
+        "Man",
+        "zu",
+        "parken",
+        "hier",
+        "Es",
+        "ohne",
+        "hat",
+        "bezahlen",
+        "kann",
+        "jeden"
+      ],
+      "answers": [
+        "Man kann hier parken, ohne zu bezahlen."
+      ],
+      "explanation": "**Why:** Short: ohne zu bezahlen.\n\n*Warum:* Kurz: ohne zu bezahlen."
+    },
+    {
+      "id": "tb1-u30-l23-infinitiv-p2-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "He took my bike without asking me.",
+      "tiles": [
+        "zu",
+        "Fahrrad",
+        "die",
+        "genommen",
+        "mein",
+        "fragen",
+        "arbeiten",
+        "ohne",
+        "hat",
+        "gehen",
+        "mich",
+        "Er"
+      ],
+      "answers": [
+        "Er hat mein Fahrrad genommen, ohne mich zu fragen."
+      ],
+      "explanation": "**Why:** mich sits between ohne and zu fragen.\n\n*Warum:* mich steht zwischen ohne und zu fragen."
+    },
+    {
+      "id": "tb1-u30-l23-infinitiv-p2-ex07",
+      "type": "choice",
+      "title": "Fill the gap",
+      "prompt": "Ich muss heute noch einkaufen ___.",
+      "options": [
+        {
+          "id": "a",
+          "text": "zu"
+        },
+        {
+          "id": "b",
+          "text": "zum"
+        },
+        {
+          "id": "c",
+          "text": "(nichts)"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Nach Modalverben steht der Infinitiv OHNE zu: Ich muss … einkaufen."
+    }
+  ]
+}

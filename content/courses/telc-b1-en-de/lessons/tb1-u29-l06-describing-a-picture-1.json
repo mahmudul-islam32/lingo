@@ -1,0 +1,284 @@
+{
+  "id": "tb1-u29-l06-describing-a-picture-1",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u29",
+  "title": "Describing a Picture 1",
+  "tip": "Theme: Redemittel: Bild beschreiben (Sprechen) (B1)",
+  "exercises": [
+    {
+      "id": "tb1-u29-l06-describing-a-picture-1-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "Auf dem Bild sieht man …",
+          "known": "In the picture you can see …"
+        },
+        {
+          "id": "p2",
+          "learning": "Auf dem Foto ist … zu sehen",
+          "known": "In the photo … can be seen."
+        },
+        {
+          "id": "p3",
+          "learning": "Im Vordergrund …",
+          "known": "In the foreground …"
+        },
+        {
+          "id": "p4",
+          "learning": "Im Hintergrund …",
+          "known": "In the background …"
+        },
+        {
+          "id": "p5",
+          "learning": "In der Mitte …",
+          "known": "In the middle …"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u29-l06-describing-a-picture-1-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which phrase means „In the picture you can see …“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Auf dem Bild sieht man …"
+        },
+        {
+          "id": "b",
+          "text": "Die Person scheint … zu sein."
+        },
+        {
+          "id": "c",
+          "text": "Im Vordergrund …"
+        },
+        {
+          "id": "d",
+          "text": "Auf dem Foto ist … zu sehen."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Auf dem Bild sieht man …** = In the picture you can see …\n\n*Example:* Auf dem Bild sieht man eine Familie beim Frühstück.\nIn the picture you can see a family having breakfast."
+    },
+    {
+      "id": "tb1-u29-l06-describing-a-picture-1-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which phrase means „In the photo … can be seen.“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Im Vordergrund …"
+        },
+        {
+          "id": "b",
+          "text": "Auf dem Foto ist … zu sehen."
+        },
+        {
+          "id": "c",
+          "text": "Das erinnert mich an …"
+        },
+        {
+          "id": "d",
+          "text": "Auf dem Bild sieht man …"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Auf dem Foto ist … zu sehen.** = In the photo … can be seen.\n\n*Example:* Auf dem Foto ist ein kleiner Markt zu sehen.\nA small market can be seen in the photo."
+    },
+    {
+      "id": "tb1-u29-l06-describing-a-picture-1-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "In the picture you can see a family having breakfast.",
+      "tiles": [
+        "dem",
+        "eine",
+        "Familie",
+        "Bank",
+        "sieht",
+        "beim",
+        "Bild",
+        "Foto",
+        "Frühstück",
+        "Auf",
+        "man",
+        "sitzt"
+      ],
+      "answers": [
+        "Auf dem Bild sieht man eine Familie beim Frühstück."
+      ],
+      "explanation": "**Auf dem Bild sieht man …** = In the picture you can see …"
+    },
+    {
+      "id": "tb1-u29-l06-describing-a-picture-1-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which phrase means „In the foreground …“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "In der Mitte …"
+        },
+        {
+          "id": "b",
+          "text": "Es geht um …"
+        },
+        {
+          "id": "c",
+          "text": "Ich glaube, dass das Bild … zeigt."
+        },
+        {
+          "id": "d",
+          "text": "Im Vordergrund …"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**Im Vordergrund …** = In the foreground …\n\n*Example:* Im Vordergrund steht ein Mann mit einem Hund.\nIn the foreground there's a man with a dog."
+    },
+    {
+      "id": "tb1-u29-l06-describing-a-picture-1-ex06",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u29-l06-describing-a-picture-1-2.mp3"
+      },
+      "tiles": [
+        "Auf",
+        "Markt",
+        "zu",
+        "man",
+        "kleiner",
+        "Studenten",
+        "alte",
+        "ist",
+        "dem",
+        "sehen",
+        "Foto",
+        "ein"
+      ],
+      "answers": [
+        "Auf dem Foto ist ein kleiner Markt zu sehen."
+      ],
+      "explanation": "Auf dem Foto ist ein kleiner Markt zu sehen.\n*A small market can be seen in the photo.*\n\n**Auf dem Foto ist … zu sehen.** = In the photo … can be seen."
+    },
+    {
+      "id": "tb1-u29-l06-describing-a-picture-1-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which phrase means „In the background …“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Im Hintergrund …"
+        },
+        {
+          "id": "b",
+          "text": "Das erinnert mich an …"
+        },
+        {
+          "id": "c",
+          "text": "In der Mitte …"
+        },
+        {
+          "id": "d",
+          "text": "Es geht um …"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Im Hintergrund …** = In the background …\n\n*Example:* Im Hintergrund sieht man hohe Berge.\nIn the background you can see high mountains."
+    },
+    {
+      "id": "tb1-u29-l06-describing-a-picture-1-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Im Vordergrund steht ein Mann mit einem Hund.",
+      "tiles": [
+        "In",
+        "dog",
+        "having",
+        "bench",
+        "a",
+        "with",
+        "the",
+        "man",
+        "there's",
+        "foreground",
+        "a",
+        "seems"
+      ],
+      "answers": [
+        "In the foreground there's a man with a dog."
+      ],
+      "explanation": "**Im Vordergrund …** = In the foreground …"
+    },
+    {
+      "id": "tb1-u29-l06-describing-a-picture-1-ex09",
+      "type": "multiple_choice",
+      "prompt": "Which phrase means „In the middle …“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Auf dem Foto ist … zu sehen."
+        },
+        {
+          "id": "b",
+          "text": "In der Mitte …"
+        },
+        {
+          "id": "c",
+          "text": "Es geht um …"
+        },
+        {
+          "id": "d",
+          "text": "Im Vordergrund …"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**In der Mitte …** = In the middle …\n\n*Example:* In der Mitte steht ein großer Tisch mit Essen.\nIn the middle there's a large table with food."
+    },
+    {
+      "id": "tb1-u29-l06-describing-a-picture-1-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "In the background you can see high mountains.",
+      "tiles": [
+        "Hintergrund",
+        "Auf",
+        "Foto",
+        "sieht",
+        "man",
+        "Berge",
+        "hohe",
+        "Markt",
+        "Im"
+      ],
+      "answers": [
+        "Im Hintergrund sieht man hohe Berge."
+      ],
+      "explanation": "**Im Hintergrund …** = In the background …"
+    },
+    {
+      "id": "tb1-u29-l06-describing-a-picture-1-ex11",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u29-l06-describing-a-picture-1-5.mp3"
+      },
+      "tiles": [
+        "der",
+        "Mitte",
+        "sieht",
+        "mit",
+        "Tisch",
+        "großer",
+        "steht",
+        "Essen",
+        "ein",
+        "man",
+        "es",
+        "In"
+      ],
+      "answers": [
+        "In der Mitte steht ein großer Tisch mit Essen."
+      ],
+      "explanation": "In der Mitte steht ein großer Tisch mit Essen.\n*In the middle there's a large table with food.*\n\n**In der Mitte …** = In the middle …"
+    }
+  ]
+}

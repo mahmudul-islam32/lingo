@@ -1,0 +1,316 @@
+{
+  "id": "tb1-u30-l06-nebensatz-p2",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u30",
+  "title": "Subordinate Clauses: weil, dass, wenn, obwohl …: wenn & obwohl",
+  "tip": "“…weil ich bin krank” = instant deduction under criterion III. Verb to the end!",
+  "exercises": [
+    {
+      "id": "tb1-u30-l06-nebensatz-p2-ex01",
+      "type": "explain",
+      "title": "wenn · Bedingung & Zeit",
+      "body": "wenn = if (condition) or whenever (repetition). Verb to the end.\n\n*Deutsch:* wenn = falls (Bedingung) oder immer wenn (Wiederholung). Verb ans Ende.\n\n## Pattern\n\n**Wenn** + … + **Verb**, **Verb** + Subjekt …",
+      "examples": [
+        {
+          "learning": "Wenn das Wetter schön ist, gehen wir schwimmen.",
+          "known": "If the weather's nice, we'll go swimming."
+        },
+        {
+          "learning": "Ruf mich an, wenn du Zeit hast.",
+          "known": "Call me when you have time."
+        }
+      ]
+    },
+    {
+      "id": "tb1-u30-l06-nebensatz-p2-ex02",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "If the weather's nice, we'll go swimming.",
+      "tiles": [
+        "schwimmen",
+        "Sie",
+        "Kairo",
+        "ist",
+        "schön",
+        "das",
+        "wir",
+        "gehen",
+        "Wetter",
+        "Ich",
+        "Wenn"
+      ],
+      "answers": [
+        "Wenn das Wetter schön ist, gehen wir schwimmen."
+      ],
+      "explanation": "**Why:** Subordinate clause first → main clause starts with gehen.\n\n*Warum:* Nebensatz vorne → Hauptsatz beginnt mit gehen."
+    },
+    {
+      "id": "tb1-u30-l06-nebensatz-p2-ex03",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Call me when you have time.",
+      "tiles": [
+        "du",
+        "mich",
+        "hast",
+        "Zeit",
+        "Ruf",
+        "Kairo",
+        "an",
+        "bin",
+        "Kurs",
+        "wenn"
+      ],
+      "answers": [
+        "Ruf mich an, wenn du Zeit hast."
+      ],
+      "explanation": "**Why:** hast is at the end of the wenn clause.\n\n*Warum:* hast steht am Ende des wenn-Satzes."
+    },
+    {
+      "id": "tb1-u30-l06-nebensatz-p2-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "When I'm tired, I drink a coffee.",
+      "tiles": [
+        "dich",
+        "Wenn",
+        "müde",
+        "ich",
+        "ich",
+        "trinke",
+        "bin",
+        "einen",
+        "Kaffee",
+        "kam",
+        "hat"
+      ],
+      "answers": [
+        "Wenn ich müde bin, trinke ich einen Kaffee."
+      ],
+      "explanation": "**Why:** Repetition (every time) → wenn.\n\n*Warum:* Wiederholung (immer dann) → wenn."
+    },
+    {
+      "id": "tb1-u30-l06-nebensatz-p2-ex05",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "We can postpone the appointment if it doesn't suit you.",
+      "tiles": [
+        "können",
+        "___",
+        "verschieben",
+        "wenig",
+        "krank",
+        "Termin",
+        "wenn",
+        "nicht",
+        "den",
+        "Ihnen",
+        "es",
+        "passt",
+        "Wir"
+      ],
+      "answers": [
+        "Wir können den Termin verschieben, wenn es Ihnen nicht passt."
+      ],
+      "explanation": "**Why:** Condition in a letter: …, wenn es Ihnen nicht passt.\n\n*Warum:* Bedingung im Brief: …, wenn es Ihnen nicht passt."
+    },
+    {
+      "id": "tb1-u30-l06-nebensatz-p2-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "If you need help, let me know.",
+      "tiles": [
+        "sag",
+        "du",
+        "Ich",
+        "brauchst",
+        "Hilfe",
+        "Buch",
+        "Bescheid",
+        "will",
+        "Wenn",
+        "mir"
+      ],
+      "answers": [
+        "Wenn du Hilfe brauchst, sag mir Bescheid."
+      ],
+      "explanation": "**Why:** Also before an imperative: verb, verb.\n\n*Warum:* Auch vor einem Imperativ: Verb, Verb."
+    },
+    {
+      "id": "tb1-u30-l06-nebensatz-p2-ex07",
+      "type": "explain",
+      "title": "obwohl · Gegengrund",
+      "body": "obwohl = although: something happens despite a reason (unexpected). Verb to the end.\n\n*Deutsch:* obwohl = etwas passiert trotz eines Grundes (unerwartet). Verb ans Ende.\n\n## Pattern\n\nHauptsatz, **obwohl** + Subjekt + … + **Verb**.",
+      "examples": [
+        {
+          "learning": "Ich gehe spazieren, obwohl es regnet.",
+          "known": "I'm going for a walk although it's raining."
+        },
+        {
+          "learning": "Obwohl er krank ist, geht er zur Arbeit.",
+          "known": "Although he's ill, he goes to work."
+        }
+      ]
+    },
+    {
+      "id": "tb1-u30-l06-nebensatz-p2-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I'm going for a walk although it's raining.",
+      "tiles": [
+        "regnet",
+        "einen",
+        "du",
+        "Ich",
+        "spazieren",
+        "es",
+        "obwohl",
+        "gehe",
+        "müde"
+      ],
+      "answers": [
+        "Ich gehe spazieren, obwohl es regnet."
+      ],
+      "explanation": "**Why:** Unexpected: rain, but still a walk.\n\n*Warum:* Unerwartet: Regen, aber trotzdem spazieren."
+    },
+    {
+      "id": "tb1-u30-l06-nebensatz-p2-ex09",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Although he's ill, he goes to work.",
+      "tiles": [
+        "er",
+        "du",
+        "er",
+        "die",
+        "ich",
+        "ist",
+        "geht",
+        "Arbeit",
+        "krank",
+        "Obwohl",
+        "zur"
+      ],
+      "answers": [
+        "Obwohl er krank ist, geht er zur Arbeit."
+      ],
+      "explanation": "**Why:** Subordinate clause first → start the main clause with the verb.\n\n*Warum:* Nebensatz zuerst → Hauptsatz mit dem Verb beginnen."
+    },
+    {
+      "id": "tb1-u30-l06-nebensatz-p2-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "She passed the exam although she studied little.",
+      "tiles": [
+        "Deutschland",
+        "bestanden",
+        "gelernt",
+        "wenn",
+        "ich",
+        "die",
+        "Sie",
+        "hat",
+        "wenig",
+        "Prüfung",
+        "obwohl",
+        "hat",
+        "sie"
+      ],
+      "answers": [
+        "Sie hat die Prüfung bestanden, obwohl sie wenig gelernt hat."
+      ],
+      "explanation": "**Why:** Perfect: gelernt hat at the end.\n\n*Warum:* Perfekt: gelernt hat am Ende."
+    },
+    {
+      "id": "tb1-u30-l06-nebensatz-p2-ex11",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Although the flat is expensive, we're taking it.",
+      "tiles": [
+        "wir",
+        "mich",
+        "teuer",
+        "ist",
+        "Ich",
+        "nehmen",
+        "___",
+        "sie",
+        "Wohnung",
+        "Obwohl",
+        "die"
+      ],
+      "answers": [
+        "Obwohl die Wohnung teuer ist, nehmen wir sie."
+      ],
+      "explanation": "**Why:** Same meaning as: Die Wohnung ist teuer. Trotzdem …\n\n*Warum:* Gleiche Bedeutung wie: Die Wohnung ist teuer. Trotzdem …"
+    },
+    {
+      "id": "tb1-u30-l06-nebensatz-p2-ex12",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I'm tired although I slept for ten hours.",
+      "tiles": [
+        "Stunden",
+        "Sie",
+        "Ich",
+        "möchte",
+        "habe",
+        "müde",
+        "ich",
+        "zehn",
+        "damit",
+        "bin",
+        "obwohl",
+        "geschlafen"
+      ],
+      "answers": [
+        "Ich bin müde, obwohl ich zehn Stunden geschlafen habe."
+      ],
+      "explanation": "**Why:** habe goes at the very end.\n\n*Warum:* habe steht ganz am Ende."
+    },
+    {
+      "id": "tb1-u30-l06-nebensatz-p2-ex13",
+      "type": "choice",
+      "title": "Fill the gap",
+      "prompt": "Wenn der Nebensatz zuerst steht: „Weil ich krank war, ___“",
+      "options": [
+        {
+          "id": "a",
+          "text": "bin ich zu Hause geblieben"
+        },
+        {
+          "id": "b",
+          "text": "ich bin zu Hause geblieben"
+        },
+        {
+          "id": "c",
+          "text": "zu Hause bin ich geblieben"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Nebensatz = Position 1 → im Hauptsatz kommt zuerst das Verb: …, bin ich …"
+    },
+    {
+      "id": "tb1-u30-l06-nebensatz-p2-ex14",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Join the two sentences with „obwohl“: Ich war müde. Ich habe weitergelernt.",
+      "tiles": [
+        "war",
+        "ich",
+        "ich",
+        "habe",
+        "Obwohl",
+        "schlafen",
+        "Kurs",
+        "müde",
+        "weitergelernt"
+      ],
+      "answers": [
+        "Obwohl ich müde war, habe ich weitergelernt.",
+        "Ich habe weitergelernt, obwohl ich müde war."
+      ],
+      "explanation": "obwohl = Gegengrund; Verb am Ende des Nebensatzes.\n\nAlso correct: Ich habe weitergelernt, obwohl ich müde war.\n\n*Deutsch:* Verbinde mit „obwohl“:"
+    }
+  ]
+}

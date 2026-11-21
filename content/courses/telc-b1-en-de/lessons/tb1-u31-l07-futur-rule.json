@@ -1,0 +1,103 @@
+{
+  "id": "tb1-u31-l07-futur-rule",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u31",
+  "title": "Futur I: werden + Infinitive: the rule",
+  "tip": "“Ich werde gehen morgen”, the infinitive goes last: Ich werde morgen gehen.",
+  "exercises": [
+    {
+      "id": "tb1-u31-l07-futur-rule-ex01",
+      "type": "explain",
+      "title": "Futur I: werden + Infinitive",
+      "body": "**werden** (werde, wirst, wird, werden, werdet, werden) + infinitive at the end = future or assumption. Present + time phrase often suffices, but Futur sounds strong for plans and promises.\n\n*Deutsch:* **werden** (werde, wirst, wird, werden, werdet, werden) + Infinitiv am Ende = Zukunft oder Vermutung. Oft reicht Präsens + Zeitangabe; Futur klingt aber gut bei Plänen und Versprechen.\n\n*German name:* Futur I: werden + Infinitiv",
+      "examples": [
+        {
+          "learning": "Nächstes Jahr werde ich in Deutschland studieren.",
+          "known": "Next year I will study in Germany."
+        },
+        {
+          "learning": "Ich werde dich vom Bahnhof abholen.",
+          "known": "I will pick you up from the station. (promise in a letter)"
+        },
+        {
+          "learning": "Er wird wohl krank sein.",
+          "known": "He is probably ill. (assumption)"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u31-l07-futur-rule-ex02",
+      "type": "explain",
+      "title": "Futur I: werden + Infinitive: step by step",
+      "body": "Two jobs of werden + infinitive:\n1) **Future/plan/promise**: Ich **werde** dich am Bahnhof **abholen**. · Nächstes Jahr werde ich B2 machen.\n2) **Assumption** (often with wohl/wahrscheinlich): Er **wird wohl** im Stau **stehen**.\nWord order: werden position 2, infinitive at the very end.\nEveryday German: “Morgen fahre ich nach Köln” (present + time word) is equally correct, mix both in the letter.\nDon't confuse: werden + participle = **passive** (wird gebaut) · werden + infinitive = **future** (wird bauen) · werden alone = “to become” (Ich werde Arzt).\n\n## Auf Deutsch\n\nZwei Jobs von werden + Infinitiv:\n1) **Zukunft/Plan/Versprechen**: Ich **werde** dich am Bahnhof **abholen**. · Nächstes Jahr werde ich B2 machen.\n2) **Vermutung** (oft mit wohl/wahrscheinlich): Er **wird wohl** im Stau **stehen**.\nWortstellung: werden Position 2, Infinitiv ganz ans Ende.\nAlltag: „Morgen fahre ich nach Köln“ (Präsens + Zeitwort) ist genauso korrekt, im Brief mische beides.\nNicht verwechseln: werden + Partizip = **Passiv** (wird gebaut) · werden + Infinitiv = **Futur** (wird bauen) · werden allein = „to become“ (Ich werde Arzt).",
+      "examples": [
+        {
+          "learning": "Nächstes Jahr werde ich in Deutschland studieren.",
+          "known": "Next year I will study in Germany."
+        },
+        {
+          "learning": "Ich werde dich vom Bahnhof abholen.",
+          "known": "I will pick you up from the station. (promise in a letter)"
+        },
+        {
+          "learning": "Er wird wohl krank sein.",
+          "known": "He is probably ill. (assumption)"
+        },
+        {
+          "learning": "Testlücke-Stil: „Wir ___ euch nächste Woche besuchen.“ → werden",
+          "known": "plan → werden + infinitive at the end"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u31-l07-futur-rule-ex03",
+      "type": "explain",
+      "title": "Watch out & exam tip",
+      "body": "## Common trap\n\n“Ich werde gehen morgen”, the infinitive goes last: Ich werde morgen gehen.\n\n*Deutsch:* „Ich werde gehen morgen“, der Infinitiv steht ganz am Ende: Ich werde morgen gehen.\n\n## In the exam\n\n🎯 How telc tests it: the letter guiding point “your plans” (holiday, move, course) calls for Futur: “Ich werde …”. **Sprachbausteine** checks the werden form (wird/werden/wirst) and future-vs-passive.\n\n*Deutsch:* 🎯 So testet telc das: Brief-Leitpunkt „deine Pläne“ (Urlaub, Umzug, Kurs) schreit nach Futur: „Ich werde …“. **Sprachbausteine** prüft die werden-Form (wird/werden/wirst) und Futur-vs-Passiv.\n\n*Source:* Guide B2"
+    },
+    {
+      "id": "tb1-u31-l07-futur-rule-ex04",
+      "type": "choice",
+      "title": "Fill the gap",
+      "prompt": "Nächstes Jahr ___ ich einen B2-Kurs besuchen.",
+      "options": [
+        {
+          "id": "a",
+          "text": "werde besuchen"
+        },
+        {
+          "id": "b",
+          "text": "werde"
+        },
+        {
+          "id": "c",
+          "text": "will werden"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Futur I: werde (Position 2) + Infinitiv am Ende (besuchen)."
+    },
+    {
+      "id": "tb1-u31-l07-futur-rule-ex05",
+      "type": "choice",
+      "title": "Fill the gap",
+      "prompt": "Sie ___ morgen die Ergebnisse bekommen.",
+      "options": [
+        {
+          "id": "a",
+          "text": "wird"
+        },
+        {
+          "id": "b",
+          "text": "wirst"
+        },
+        {
+          "id": "c",
+          "text": "werden wird"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "sie (Singular) → wird + Infinitiv am Ende."
+    }
+  ]
+}

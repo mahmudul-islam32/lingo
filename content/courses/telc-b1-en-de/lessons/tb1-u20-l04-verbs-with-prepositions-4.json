@@ -1,0 +1,232 @@
+{
+  "id": "tb1-u20-l04-verbs-with-prepositions-4",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u20",
+  "title": "Verbs with Prepositions 4",
+  "tip": "Theme: Verben mit Präposition (B1)",
+  "exercises": [
+    {
+      "id": "tb1-u20-l04-verbs-with-prepositions-4-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "bitten um",
+          "known": "to ask for"
+        },
+        {
+          "id": "p2",
+          "learning": "sich entscheiden für",
+          "known": "to decide on"
+        },
+        {
+          "id": "p3",
+          "learning": "sich verlassen auf",
+          "known": "to rely on"
+        },
+        {
+          "id": "p4",
+          "learning": "sich handeln um",
+          "known": "to be about / concern"
+        },
+        {
+          "id": "p5",
+          "learning": "sich interessieren für",
+          "known": "to be interested in"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u20-l04-verbs-with-prepositions-4-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which one means „to ask for“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "gehören zu + Dat."
+        },
+        {
+          "id": "b",
+          "text": "denken an + Akk."
+        },
+        {
+          "id": "c",
+          "text": "bestehen aus + Dat."
+        },
+        {
+          "id": "d",
+          "text": "bitten um + Akk."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**bitten um + Akk.** = to ask for\n\n*Example:* Der Kunde bittet um eine neue Rechnung.\nThe customer is asking for a new invoice."
+    },
+    {
+      "id": "tb1-u20-l04-verbs-with-prepositions-4-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which verb means „to decide on“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "sich freuen auf + Akk."
+        },
+        {
+          "id": "b",
+          "text": "sich entscheiden für + Akk."
+        },
+        {
+          "id": "c",
+          "text": "sich interessieren für + Akk."
+        },
+        {
+          "id": "d",
+          "text": "sich freuen über + Akk."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**sich entscheiden für + Akk.** = to decide on\n\n*Example:* Wir haben uns für die größere Wohnung entschieden.\nWe decided on the bigger flat."
+    },
+    {
+      "id": "tb1-u20-l04-verbs-with-prepositions-4-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Der Kunde bittet um eine neue Rechnung.",
+      "tiles": [
+        "customer",
+        "asking",
+        "for",
+        "has",
+        "new",
+        "a",
+        "of",
+        "is",
+        "children",
+        "The",
+        "invoice"
+      ],
+      "answers": [
+        "The customer is asking for a new invoice."
+      ],
+      "explanation": "**bitten um + Akk.** = to ask for"
+    },
+    {
+      "id": "tb1-u20-l04-verbs-with-prepositions-4-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which verb means „to rely on“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "sich handeln um + Akk."
+        },
+        {
+          "id": "b",
+          "text": "sich freuen über + Akk."
+        },
+        {
+          "id": "c",
+          "text": "sich verlassen auf + Akk."
+        },
+        {
+          "id": "d",
+          "text": "sich beschäftigen mit + Dat."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**sich verlassen auf + Akk.** = to rely on\n\n*Example:* Auf meine Freundin kann ich mich immer verlassen.\nI can always rely on my friend."
+    },
+    {
+      "id": "tb1-u20-l04-verbs-with-prepositions-4-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "We decided on the bigger flat.",
+      "tiles": [
+        "Wir",
+        "uns",
+        "die",
+        "für",
+        "Sommerferien",
+        "größere",
+        "über",
+        "haben",
+        "hängt",
+        "Wohnung",
+        "entschieden"
+      ],
+      "answers": [
+        "Wir haben uns für die größere Wohnung entschieden."
+      ],
+      "explanation": "**sich entscheiden für + Akk.** = to decide on"
+    },
+    {
+      "id": "tb1-u20-l04-verbs-with-prepositions-4-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which verb means „to be about / concern“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "sich beschäftigen mit + Dat."
+        },
+        {
+          "id": "b",
+          "text": "sich gewöhnen an + Akk."
+        },
+        {
+          "id": "c",
+          "text": "sich freuen auf + Akk."
+        },
+        {
+          "id": "d",
+          "text": "sich handeln um + Akk."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**sich handeln um + Akk.** = to be about / concern\n\n*Example:* Bei dem Brief handelt es sich um eine Mieterhöhung.\nThe letter is about a rent increase."
+    },
+    {
+      "id": "tb1-u20-l04-verbs-with-prepositions-4-ex08",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u20-l04-verbs-with-prepositions-4-3.mp3"
+      },
+      "tiles": [
+        "Auf",
+        "Termin",
+        "Freundin",
+        "meine",
+        "kann",
+        "eine",
+        "immer",
+        "mich",
+        "verlassen",
+        "ich",
+        "Jahren"
+      ],
+      "answers": [
+        "Auf meine Freundin kann ich mich immer verlassen."
+      ],
+      "explanation": "Auf meine Freundin kann ich mich immer verlassen.\n*I can always rely on my friend.*\n\n**sich verlassen auf + Akk.** = to rely on"
+    },
+    {
+      "id": "tb1-u20-l04-verbs-with-prepositions-4-ex09",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Bei dem Brief handelt es sich um eine Mieterhöhung.",
+      "tiles": [
+        "summer",
+        "The",
+        "letter",
+        "is",
+        "Please",
+        "decided",
+        "rent",
+        "increase",
+        "about",
+        "a"
+      ],
+      "answers": [
+        "The letter is about a rent increase."
+      ],
+      "explanation": "**sich handeln um + Akk.** = to be about / concern"
+    }
+  ]
+}

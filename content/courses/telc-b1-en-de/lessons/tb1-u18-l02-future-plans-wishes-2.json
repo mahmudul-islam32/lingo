@@ -1,0 +1,238 @@
+{
+  "id": "tb1-u18-l02-future-plans-wishes-2",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u18",
+  "title": "Future Plans & Wishes 2",
+  "tip": "Theme: Zukunftspläne / Wünsche (B1)",
+  "exercises": [
+    {
+      "id": "tb1-u18-l02-future-plans-wishes-2-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "sich entscheiden für",
+          "known": "to decide on"
+        },
+        {
+          "id": "p2",
+          "learning": "die Möglichkeit",
+          "known": "possibility"
+        },
+        {
+          "id": "p3",
+          "learning": "sich vorbereiten auf",
+          "known": "to prepare for (your exam sentence!)"
+        },
+        {
+          "id": "p4",
+          "learning": "der Wunsch",
+          "known": "wish"
+        },
+        {
+          "id": "p5",
+          "learning": "die Zukunft",
+          "known": "future"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u18-l02-future-plans-wishes-2-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which verb means „to decide on“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "sich vorbereiten auf + Akk."
+        },
+        {
+          "id": "b",
+          "text": "sich (Dat.) vorstellen. Ich kann mir gut vorstellen, dass …"
+        },
+        {
+          "id": "c",
+          "text": "sich entscheiden für + Akk. (hat sich entschieden)"
+        },
+        {
+          "id": "d",
+          "text": "vorhaben (hat vorgehabt). Was hast du am Wochenende vor?"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**sich entscheiden für + Akk. (hat sich entschieden)** = to decide on\n\n*Example:* Maria hat sich für die kleinere Wohnung entschieden.\nMaria decided on the smaller flat."
+    },
+    {
+      "id": "tb1-u18-l02-future-plans-wishes-2-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „possibility, option · chance“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Entscheidung, die Entscheidungen, eine Entscheidung treffen"
+        },
+        {
+          "id": "b",
+          "text": "die Möglichkeit, die Möglichkeiten · die Chance, die Chancen"
+        },
+        {
+          "id": "c",
+          "text": "der Erfolg, die Erfolge: erfolgreich"
+        },
+        {
+          "id": "d",
+          "text": "das Ziel, die Ziele: ein Ziel erreichen"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**die Möglichkeit** = possibility, option · chance\n*Plural: die Möglichkeiten · also: die Chance, die Chancen*\n\n*Example:* In der Firma habe ich die Möglichkeit, eine Ausbildung zu machen.\nAt the company I have the opportunity to do vocational training."
+    },
+    {
+      "id": "tb1-u18-l02-future-plans-wishes-2-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Maria decided on the smaller flat.",
+      "tiles": [
+        "Tom",
+        "die",
+        "hat",
+        "Wohnung",
+        "meiner",
+        "Maria",
+        "für",
+        "Restaurant",
+        "kleinere",
+        "entschieden",
+        "sich"
+      ],
+      "answers": [
+        "Maria hat sich für die kleinere Wohnung entschieden."
+      ],
+      "explanation": "**sich entscheiden für + Akk. (hat sich entschieden)** = to decide on"
+    },
+    {
+      "id": "tb1-u18-l02-future-plans-wishes-2-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which verb means „to prepare for (your exam sentence!)“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "sich verbessern"
+        },
+        {
+          "id": "b",
+          "text": "sich (Dat.) vorstellen. Ich kann mir gut vorstellen, dass …"
+        },
+        {
+          "id": "c",
+          "text": "sich entscheiden für + Akk. (hat sich entschieden)"
+        },
+        {
+          "id": "d",
+          "text": "sich vorbereiten auf + Akk."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**sich vorbereiten auf + Akk.** = to prepare for (your exam sentence!)\n\n*Example:* Tom bereitet sich gerade auf das Vorstellungsgespräch vor.\nTom is preparing for the job interview right now."
+    },
+    {
+      "id": "tb1-u18-l02-future-plans-wishes-2-ex06",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u18-l02-future-plans-wishes-2-2.mp3"
+      },
+      "tiles": [
+        "Ausbildung",
+        "zu",
+        "ich",
+        "machen",
+        "habe",
+        "letzten",
+        "Firma",
+        "der",
+        "hoffen",
+        "In",
+        "die",
+        "eine",
+        "Meine",
+        "Möglichkeit"
+      ],
+      "answers": [
+        "In der Firma habe ich die Möglichkeit, eine Ausbildung zu machen."
+      ],
+      "explanation": "In der Firma habe ich die Möglichkeit, eine Ausbildung zu machen.\n*At the company I have the opportunity to do vocational training.*\n\n**die Möglichkeit** = possibility, option · chance\n*Plural: die Möglichkeiten · also: die Chance, die Chancen*"
+    },
+    {
+      "id": "tb1-u18-l02-future-plans-wishes-2-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „wish: to wish for“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "der Wunsch, die Wünsche, sich (Dat.) wünschen"
+        },
+        {
+          "id": "b",
+          "text": "die Möglichkeit, die Möglichkeiten · die Chance, die Chancen"
+        },
+        {
+          "id": "c",
+          "text": "der Traum, die Träume, träumen von + Dat."
+        },
+        {
+          "id": "d",
+          "text": "die Zukunft (nur Sg.), in Zukunft"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**der Wunsch, die Wünsche, sich (Dat.) wünschen** = wish: to wish for\n\n*Example:* Meine Tochter wünscht sich zum Geburtstag ein neues Fahrrad.\nMy daughter wants a new bike for her birthday."
+    },
+    {
+      "id": "tb1-u18-l02-future-plans-wishes-2-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Tom bereitet sich gerade auf das Vorstellungsgespräch vor.",
+      "tiles": [
+        "If",
+        "the",
+        "now",
+        "interview",
+        "for",
+        "improved",
+        "right",
+        "Tom",
+        "preparing",
+        "job",
+        "stay",
+        "is"
+      ],
+      "answers": [
+        "Tom is preparing for the job interview right now."
+      ],
+      "explanation": "**sich vorbereiten auf + Akk.** = to prepare for (your exam sentence!)"
+    },
+    {
+      "id": "tb1-u18-l02-future-plans-wishes-2-ex09",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "My daughter wants a new bike for her birthday.",
+      "tiles": [
+        "sich",
+        "planen",
+        "Reise",
+        "Tochter",
+        "ein",
+        "zum",
+        "Fahrrad",
+        "die",
+        "Geburtstag",
+        "wünscht",
+        "neues",
+        "Meine"
+      ],
+      "answers": [
+        "Meine Tochter wünscht sich zum Geburtstag ein neues Fahrrad."
+      ],
+      "explanation": "**der Wunsch, die Wünsche, sich (Dat.) wünschen** = wish: to wish for"
+    }
+  ]
+}

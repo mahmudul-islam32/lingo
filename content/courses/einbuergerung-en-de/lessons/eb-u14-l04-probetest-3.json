@@ -1,0 +1,867 @@
+{
+  "id": "eb-u14-l04-probetest-3",
+  "courseId": "einbuergerung-en-de",
+  "unitId": "eb-u14",
+  "title": "Mock test 3 (Probetest 3)",
+  "tip": "Real format: 30 general + 3 Nordrhein-Westfalen questions. Allow 60 minutes; 17 correct to pass, aim for 28+.",
+  "exercises": [
+    {
+      "id": "eb-u14-l04-probetest-3-ex01",
+      "type": "choice",
+      "title": "Frage 4 · Block 1",
+      "prompt": "Welches Recht gehört zu den Grundrechten in Deutschland?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Waffenbesitz"
+        },
+        {
+          "id": "b",
+          "text": "Faustrecht"
+        },
+        {
+          "id": "c",
+          "text": "Meinungsfreiheit"
+        },
+        {
+          "id": "d",
+          "text": "Selbstjustiz"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**Correct answer:** Meinungsfreiheit\n\nMeinungsfreiheit is a Grundrecht (Art. 5 GG).\n\nGermany has **no constitutional right to bear arms** (A), gun ownership is a strictly regulated administrative permission, a deliberate contrast to the US model. **Faustrecht** (\"law of the fist,\" B) and **Selbstjustiz** (vigilante justice, D) mean taking the law into your own hands, the state's **Gewaltmonopol** (monopoly on legitimate force) forbids exactly that; only police and courts may enforce rights.\n\n## Auf Deutsch\n\nMeinungsfreiheit ist ein Grundrecht (Art. 5 GG); Waffenbesitz, Faustrecht und Selbstjustiz nicht."
+    },
+    {
+      "id": "eb-u14-l04-probetest-3-ex02",
+      "type": "choice",
+      "title": "Frage 7 · Block 1",
+      "prompt": "Welches Recht gehört zu den Grundrechten, die nach der deutschen Verfassung garantiert werden? Das Recht auf …",
+      "options": [
+        {
+          "id": "a",
+          "text": "Glaubens- und Gewissensfreiheit"
+        },
+        {
+          "id": "b",
+          "text": "Unterhaltung"
+        },
+        {
+          "id": "c",
+          "text": "Arbeit"
+        },
+        {
+          "id": "d",
+          "text": "Wohnung"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Correct answer:** Glaubens- und Gewissensfreiheit\n\nFreedom of faith and conscience (Art. 4 GG), believe anything, change religion, or believe nothing.\n\nThis question teaches a subtle, important point: the Grundgesetz guarantees **freedoms**, not **provisions**. There is no constitutional right to be given a job (C) or a home (D), the *Sozialstaat* helps people in need through ordinary laws (Bürgergeld, Wohngeld), but that's welfare policy, not a fundamental right. East Germany's constitution *did* promise work, and delivered dictatorship; the contrast is deliberate. B (entertainment) is a distractor with no legal meaning.\n\n## Auf Deutsch\n\nGlaubens- und Gewissensfreiheit steht in Artikel 4 des Grundgesetzes."
+    },
+    {
+      "id": "eb-u14-l04-probetest-3-ex03",
+      "type": "choice",
+      "title": "Frage 77 · Block 3",
+      "prompt": "Was ist die Bundeswehr?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die deutsche Polizei"
+        },
+        {
+          "id": "b",
+          "text": "ein deutscher Hafen"
+        },
+        {
+          "id": "c",
+          "text": "eine deutsche Bürgerinitiative"
+        },
+        {
+          "id": "d",
+          "text": "die deutsche Armee"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**Correct answer:** die deutsche Armee\n\nThe **Bundeswehr** = federal armed forces (founded 1955), under civilian control, parliament must approve deployments (\"Parlamentsarmee\").\n\nPolice are Land matters (Landespolizei) plus the federal Bundespolizei, but never called Bundeswehr; B and C are noise. **DE→EN:** die Wehr = defense.\n\n## Auf Deutsch\n\nDie Bundeswehr ist die deutsche Armee.\n\n**Vocabulary (Wortschatz):** die Wehr = defense."
+    },
+    {
+      "id": "eb-u14-l04-probetest-3-ex04",
+      "type": "choice",
+      "title": "Frage 79 · Block 3",
+      "prompt": "Was bedeutet die Abkürzung FDP in Deutschland?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Friedliche Demonstrative Partei"
+        },
+        {
+          "id": "b",
+          "text": "Freie Deutschland Partei"
+        },
+        {
+          "id": "c",
+          "text": "Führende Demokratische Partei"
+        },
+        {
+          "id": "d",
+          "text": "Freie Demokratische Partei"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**Correct answer:** Freie Demokratische Partei\n\n**F**reie **D**emokratische **P**artei, the liberals: civil liberties, market economy. Same letter-matching technique as Q76/78.\n\n## Auf Deutsch\n\nFDP = Freie Demokratische Partei."
+    },
+    {
+      "id": "eb-u14-l04-probetest-3-ex05",
+      "type": "choice",
+      "title": "Frage 88 · Block 3",
+      "prompt": "Die parlamentarische Opposition im Deutschen Bundestag …",
+      "options": [
+        {
+          "id": "a",
+          "text": "kontrolliert die Regierung"
+        },
+        {
+          "id": "b",
+          "text": "entscheidet, wer Bundesminister/Bundesministerin wird"
+        },
+        {
+          "id": "c",
+          "text": "bestimmt, wer im Bundesrat sitzt"
+        },
+        {
+          "id": "d",
+          "text": "schlägt die Regierungschefs/Regierungschefinnen der Länder vor"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Correct answer:** kontrolliert die Regierung\n\nThe opposition's job: **control the government**, parliamentary questions, debate, committees of inquiry, and constitutional-court challenges. A democracy is measured by how it treats its opposition (quote that in the interview).\n\nMinisters are picked by the Chancellor (→Q58, Q65); Bundesrat seats follow Land elections (→Q85); Land premiers are chosen by Landtage. Opposition = counter-power, not appointment power (→Q13).\n\n## Auf Deutsch\n\nDie wichtigste Aufgabe der Opposition: die Regierung kontrollieren."
+    },
+    {
+      "id": "eb-u14-l04-probetest-3-ex06",
+      "type": "choice",
+      "title": "Frage 90 · Block 3",
+      "prompt": "Die deutschen Bundesländer wirken an der Gesetzgebung des Bundes mit durch …",
+      "options": [
+        {
+          "id": "a",
+          "text": "den Bundesrat"
+        },
+        {
+          "id": "b",
+          "text": "die Bundesversammlung"
+        },
+        {
+          "id": "c",
+          "text": "den Bundestag"
+        },
+        {
+          "id": "d",
+          "text": "die Bundesregierung"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Correct answer:** den Bundesrat\n\nThe **Bundesrat** IS the Länder's lever in federal lawmaking, consent laws (Zustimmungsgesetze, anything touching Land finances/administration) can't pass against it.\n\nBundesversammlung = president-electing body only; Bundestag = the people's chamber, not the Länder's; Bundesregierung = executive. Completes the Bundesrat trio: who sits in it (Q85), what it does (Q90), which branch it belongs to (Q60).\n\n## Auf Deutsch\n\nÜber den Bundesrat wirken die Länder an der Gesetzgebung des Bundes mit."
+    },
+    {
+      "id": "eb-u14-l04-probetest-3-ex07",
+      "type": "choice",
+      "title": "Frage 93 · Block 4",
+      "prompt": "Je mehr „Zweitstimmen\" eine Partei bei einer Bundestagswahl bekommt, desto …",
+      "options": [
+        {
+          "id": "a",
+          "text": "weniger Erststimmen kann sie erhalten"
+        },
+        {
+          "id": "b",
+          "text": "mehr Direktkandidaten der Partei ziehen in den Bundestag ein"
+        },
+        {
+          "id": "c",
+          "text": "größer ist das Risiko, eine Koalition bilden zu müssen"
+        },
+        {
+          "id": "d",
+          "text": "mehr Sitze erhält die Partei im Parlament"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**Correct answer:** mehr Sitze erhält die Partei im Parlament\n\nThe **Zweitstimme** determines each party's percentage of ALL Bundestag seats, it is *the* decisive vote (reinforced by the 2023 electoral reform, which made seat counts follow Zweitstimmen strictly).\n\nA invents a trade-off that doesn't exist (the two votes are independent, you may split them); B confuses the columns: Direktkandidaten enter via *Erststimmen*; C is backwards logic. **Merksatz: Erststimme wählt einen Menschen, Zweitstimme wählt die Machtverhältnisse.**\n\n## Auf Deutsch\n\nDie Zweitstimme ist die Parteistimme: mehr Zweitstimmen → mehr Sitze."
+    },
+    {
+      "id": "eb-u14-l04-probetest-3-ex08",
+      "type": "choice",
+      "title": "Frage 104 · Block 5",
+      "prompt": "Eine Frau in Deutschland verliert ihre Arbeit. Was darf nicht der Grund für diese Entlassung sein?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Die Frau ist lange krank und arbeitsunfähig"
+        },
+        {
+          "id": "b",
+          "text": "Die Frau kam oft zu spät zur Arbeit"
+        },
+        {
+          "id": "c",
+          "text": "Die Frau erledigt private Sachen während der Arbeitszeit"
+        },
+        {
+          "id": "d",
+          "text": "Die Frau bekommt ein Kind und ihr Chef weiß das"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**Correct answer:** Die Frau bekommt ein Kind und ihr Chef weiß das\n\n**Mutterschutz**: from the moment the employer knows of a pregnancy until months after birth, dismissal is essentially barred (Mutterschutzgesetz), pregnancy is a protected status, and firing over it is unlawful discrimination (→Q277).\n\nA–C are, under conditions and with proper process, legally possible grounds (long-term incapacity, chronic lateness, misuse of work time). The law protects motherhood, not misconduct.\n\n## Auf Deutsch\n\nEine Kündigung wegen Schwangerschaft ist verboten (Mutterschutz)."
+    },
+    {
+      "id": "eb-u14-l04-probetest-3-ex09",
+      "type": "choice",
+      "title": "Frage 114 · Block 5",
+      "prompt": "An demokratischen Wahlen in Deutschland teilzunehmen ist …",
+      "options": [
+        {
+          "id": "a",
+          "text": "eine Pflicht"
+        },
+        {
+          "id": "b",
+          "text": "ein Recht"
+        },
+        {
+          "id": "c",
+          "text": "ein Zwang"
+        },
+        {
+          "id": "d",
+          "text": "eine Last"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Correct answer:** ein Recht\n\nVoting is a **right**, never a duty, no fine for abstaining (unlike Australia or Belgium). The freedom *not* to vote is part of *freie Wahl* (→Q5). Democracies persuade; dictatorships herd people to fake 99% turnouts, the DDR did exactly that.\n\n## Auf Deutsch\n\nWählen ist in Deutschland ein Recht, keine Pflicht."
+    },
+    {
+      "id": "eb-u14-l04-probetest-3-ex10",
+      "type": "choice",
+      "title": "Frage 138 · Block 6",
+      "prompt": "Was kann ich in Deutschland machen, wenn mir mein Arbeitgeber zu Unrecht gekündigt hat?",
+      "options": [
+        {
+          "id": "a",
+          "text": "weiterarbeiten, als wäre nichts passiert"
+        },
+        {
+          "id": "b",
+          "text": "den Arbeitgeber bei der Polizei anzeigen"
+        },
+        {
+          "id": "c",
+          "text": "Kündigungsschutzklage erheben"
+        },
+        {
+          "id": "d",
+          "text": "nichts, eine Kündigung kann man nicht angreifen"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**Correct answer:** Kündigungsschutzklage erheben\n\nFile a **Kündigungsschutzklage** (dismissal-protection suit) at the Arbeitsgericht within three weeks, miss it and the dismissal becomes valid almost automatically.\n\nB: unfair dismissal is a *civil* wrong, not a crime, the police are the wrong address (a distinction the test loves); A and D are passivity the law doesn't require. Rechtsstaat in practice: rights exist because procedures to enforce them exist.\n\n## Auf Deutsch\n\nDagegen hilft die Kündigungsschutzklage beim Arbeitsgericht (innerhalb von 3 Wochen)."
+    },
+    {
+      "id": "eb-u14-l04-probetest-3-ex11",
+      "type": "choice",
+      "title": "Frage 139 · Block 6",
+      "prompt": "Wann kommt es in Deutschland zu einem Prozess vor Gericht? Wenn jemand …",
+      "options": [
+        {
+          "id": "a",
+          "text": "zu einer anderen Religion übertritt"
+        },
+        {
+          "id": "b",
+          "text": "eine Straftat begangen hat und angeklagt wird"
+        },
+        {
+          "id": "c",
+          "text": "eine andere politische Meinung als die Regierung hat"
+        },
+        {
+          "id": "d",
+          "text": "sein Auto falsch geparkt hat"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Correct answer:** eine Straftat begangen hat und angeklagt wird\n\nA criminal trial needs an alleged **Straftat** (crime) plus formal charges by the Staatsanwaltschaft.\n\nA and C are protected freedoms, punishing them is what the NS state and DDR did, and their presence here is deliberate contrast; D is only an **Ordnungswidrigkeit** (administrative offense → Bußgeld ticket, no trial). Crime vs. infraction: prison-worthy vs. parking-ticket-worthy.\n\n## Auf Deutsch\n\nZum Prozess kommt es, wenn jemand wegen einer Straftat angeklagt wird."
+    },
+    {
+      "id": "eb-u14-l04-probetest-3-ex12",
+      "type": "choice",
+      "title": "Frage 154 · Block 7",
+      "prompt": "Wann war der Zweite Weltkrieg zu Ende?",
+      "options": [
+        {
+          "id": "a",
+          "text": "1933"
+        },
+        {
+          "id": "b",
+          "text": "1945"
+        },
+        {
+          "id": "c",
+          "text": "1949"
+        },
+        {
+          "id": "d",
+          "text": "1961"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Correct answer:** 1945\n\n1945 (in Europe: May 8; Japan: September). The wrong years are the block's other landmarks. Nazi takeover, double state founding, Wall. BAMF recycles the same four numbers as mutual distractors: **1933 · 1945 · 1949 · 1961**. Own all four and half this block solves itself.\n\n## Auf Deutsch\n\nDer Zweite Weltkrieg endete 1945."
+    },
+    {
+      "id": "eb-u14-l04-probetest-3-ex13",
+      "type": "choice",
+      "title": "Frage 160 · Block 7",
+      "prompt": "Welcher Krieg dauerte von 1939 bis 1945?",
+      "options": [
+        {
+          "id": "a",
+          "text": "der Erste Weltkrieg"
+        },
+        {
+          "id": "b",
+          "text": "der Zweite Weltkrieg"
+        },
+        {
+          "id": "c",
+          "text": "der Deutsch-Französische Krieg"
+        },
+        {
+          "id": "d",
+          "text": "der Kalte Krieg"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Correct answer:** der Zweite Weltkrieg\n\n01.09.1939 (Germany invades Poland, the aggression is the point: the war began *from* Germany) to 1945. WWI: 1914–18; the Cold War (D) was the *non*-shooting 1947–89 standoff; Deutsch-Französischer Krieg: 1870/71.\n\n## Auf Deutsch\n\nVon 1939 bis 1945 dauerte der Zweite Weltkrieg."
+    },
+    {
+      "id": "eb-u14-l04-probetest-3-ex14",
+      "type": "choice",
+      "title": "Frage 166 · Block 7",
+      "prompt": "Bei welchen Demonstrationen riefen die Menschen „Wir sind das Volk\"?",
+      "options": [
+        {
+          "id": "a",
+          "text": "beim Arbeiteraufstand 1953 in der DDR"
+        },
+        {
+          "id": "b",
+          "text": "bei den Montagsdemonstrationen 1989 in der DDR"
+        },
+        {
+          "id": "c",
+          "text": "bei den Studentenprotesten 1968 in der Bundesrepublik"
+        },
+        {
+          "id": "d",
+          "text": "beim Fall der Mauer 1961"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Correct answer:** bei den Montagsdemonstrationen 1989 in der DDR\n\n**\"Wir sind das Volk\"**, the Leipzig **Montagsdemonstrationen**, autumn 1989: citizens claiming Volkssouveränität (→Q52) against a state that ruled in the people's name without asking them. The chant later shifted to \"Wir sind EIN Volk\" as unification became the goal. A peaceful revolution, no shots, and a dictatorship folded.\n\n1953 came 36 years earlier (→Q186); 1968 was West German; D garbles 1961 (built) with 1989 (fell).\n\n## Auf Deutsch\n\n„Wir sind das Volk“: die Montagsdemonstrationen 1989 in der DDR."
+    },
+    {
+      "id": "eb-u14-l04-probetest-3-ex15",
+      "type": "choice",
+      "title": "Frage 171 · Block 7",
+      "prompt": "Soziale Marktwirtschaft bedeutet: Die Wirtschaft in Deutschland …",
+      "options": [
+        {
+          "id": "a",
+          "text": "wird vom Staat geplant und gesteuert"
+        },
+        {
+          "id": "b",
+          "text": "richtet sich nach Angebot und Nachfrage, aber der Staat sorgt für einen sozialen Ausgleich"
+        },
+        {
+          "id": "c",
+          "text": "richtet sich allein nach Angebot und Nachfrage"
+        },
+        {
+          "id": "d",
+          "text": "wird von den Gewerkschaften gelenkt"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Correct answer:** richtet sich nach Angebot und Nachfrage, aber der Staat sorgt für einen sozialen Ausgleich\n\nThe full definition (→Q50): market *plus* social balancing, insurance pillars, labor protections, Kindergeld.\n\nA = Planwirtschaft (DDR →Q203); C = pure laissez-faire (no \"sozial\"); D = nobody's system. The middle way is the answer, literally the option with \"aber\" in it.\n\n## Auf Deutsch\n\nSoziale Marktwirtschaft: Angebot und Nachfrage + sozialer Ausgleich durch den Staat."
+    },
+    {
+      "id": "eb-u14-l04-probetest-3-ex16",
+      "type": "choice",
+      "title": "Frage 180 · Block 7",
+      "prompt": "Wer war Konrad Adenauer?",
+      "options": [
+        {
+          "id": "a",
+          "text": "der erste Bundeskanzler der Bundesrepublik Deutschland"
+        },
+        {
+          "id": "b",
+          "text": "der erste Bundespräsident der Bundesrepublik Deutschland"
+        },
+        {
+          "id": "c",
+          "text": "der letzte Reichskanzler der Weimarer Republik"
+        },
+        {
+          "id": "d",
+          "text": "der erste Ministerpräsident von Nordrhein-Westfalen"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Correct answer:** der erste Bundeskanzler der Bundesrepublik Deutschland\n\n→Q165 mirrored (name→role). The **first Bundespräsident** (B) was Theodor Heuss (FDP), worth one memory cell as Adenauer's counterpart pair: *first Chancellor Adenauer, first President Heuss.* C would be Schleicher (1932/33 trivia); D is a NRW-flavored decoy.\n\n## Auf Deutsch\n\nKonrad Adenauer war der erste Bundeskanzler der Bundesrepublik."
+    },
+    {
+      "id": "eb-u14-l04-probetest-3-ex17",
+      "type": "choice",
+      "title": "Frage 184 · Block 8",
+      "prompt": "Auf welcher rechtlichen Grundlage wurde der Staat Israel gegründet?",
+      "options": [
+        {
+          "id": "a",
+          "text": "auf einer Resolution der Vereinten Nationen"
+        },
+        {
+          "id": "b",
+          "text": "auf einem Beschluss der ersten israelischen Regierung"
+        },
+        {
+          "id": "c",
+          "text": "auf einem Vertrag zwischen Israel und Deutschland"
+        },
+        {
+          "id": "d",
+          "text": "auf einer Entscheidung der USA und Großbritanniens"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Correct answer:** auf einer Resolution der Vereinten Nationen\n\n**UN Resolution 181** (29 November 1947), the partition plan for the British Mandate, was the international legal basis; Israel declared independence in May 1948. Part of the 2024 question additions; the German connection (special responsibility born of the Shoah) is tested at →Q288.\n\nA state's own later government can't be its legal basis (B, circular); C and D name the wrong actors.\n\n## Auf Deutsch\n\nIsrael wurde auf Grundlage einer UN-Resolution (1947) gegründet."
+    },
+    {
+      "id": "eb-u14-l04-probetest-3-ex18",
+      "type": "choice",
+      "title": "Frage 193 · Block 8",
+      "prompt": "Von 1961 bis 1989 war Berlin …",
+      "options": [
+        {
+          "id": "a",
+          "text": "ohne Bürgermeister"
+        },
+        {
+          "id": "b",
+          "text": "durch eine Mauer geteilt"
+        },
+        {
+          "id": "c",
+          "text": "nur mit dem Flugzeug erreichbar"
+        },
+        {
+          "id": "d",
+          "text": "Hauptstadt der DDR"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Correct answer:** durch eine Mauer geteilt\n\nThe dates ARE the Wall (→Q188/191).\n\nC describes the 1948/49 blockade, an 11-month episode, not 28 years (→Q178); D is half-true and thus false: **East** Berlin was the DDR capital, but \"Berlin\" as a whole was a divided four-sector city; A, both halves had mayors throughout (West Berlin's Brandt among them →Q181).\n\n## Auf Deutsch\n\nVon 1961 bis 1989 war Berlin durch die Mauer geteilt."
+    },
+    {
+      "id": "eb-u14-l04-probetest-3-ex19",
+      "type": "choice",
+      "title": "Frage 219 · Block 10",
+      "prompt": "Die Bundesrepublik Deutschland hat die Grenzen von heute seit …",
+      "options": [
+        {
+          "id": "a",
+          "text": "1945"
+        },
+        {
+          "id": "b",
+          "text": "1949"
+        },
+        {
+          "id": "c",
+          "text": "1990"
+        },
+        {
+          "id": "d",
+          "text": "2002"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**Correct answer:** 1990\n\nFinal borders came with unification + the Two-plus-Four Treaty's international confirmation (including, definitively, the Oder-Neiße line to Poland, closing the book Brandt had opened →Q211). Before 1990, every German border was provisional by definition. D (2002) is the Euro-cash year, currency, not cartography.\n\n## Auf Deutsch\n\nDie heutigen Grenzen hat Deutschland seit der Wiedervereinigung 1990."
+    },
+    {
+      "id": "eb-u14-l04-probetest-3-ex20",
+      "type": "choice",
+      "title": "Frage 226 · Block 10",
+      "prompt": "Welche ist die Flagge der Europäischen Union?",
+      "options": [
+        {
+          "id": "a",
+          "text": "eine blaue Flagge mit einem Kreis aus zwölf goldenen Sternen"
+        },
+        {
+          "id": "b",
+          "text": "eine blaue Flagge mit einem Stern pro Mitgliedstaat"
+        },
+        {
+          "id": "c",
+          "text": "eine Flagge mit Sternen und Streifen"
+        },
+        {
+          "id": "d",
+          "text": "eine schwarz-rot-goldene Flagge mit zwölf Sternen"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Correct answer:** eine blaue Flagge mit einem Kreis aus zwölf goldenen Sternen\n\n*Picture question (Bildfrage):* in the real test you see pictures here, and the answer options describe them.\n\nCorrect: blaue Flagge mit einem Kreis aus zwölf goldenen Sternen.\n\n**Twelve** stars, always twelve, regardless of member count (twelve = symbol of completeness, like months or apostles; NOT one star per state, the classic misconception). Distractors: Europarat variants, US-style star fields, national flags. The same flag flies at every Behörde next to the German one, including on your Einbürgerungsurkunde ceremony day.\n\n## Auf Deutsch\n\nDie EU-Flagge: blau mit einem Kreis aus 12 goldenen Sternen, immer 12!"
+    },
+    {
+      "id": "eb-u14-l04-probetest-3-ex21",
+      "type": "choice",
+      "title": "Frage 230 · Block 10",
+      "prompt": "Das Europäische Parlament wird von den Bürgern und Bürgerinnen der EU gewählt. Wie oft finden diese Wahlen statt? Alle …",
+      "options": [
+        {
+          "id": "a",
+          "text": "3 Jahre"
+        },
+        {
+          "id": "b",
+          "text": "4 Jahre"
+        },
+        {
+          "id": "c",
+          "text": "5 Jahre"
+        },
+        {
+          "id": "d",
+          "text": "7 Jahre"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**Correct answer:** 5 Jahre\n\n**Every 5 years**, simultaneously across all member states (most recently 2024, voting age in Germany now 16 for EU elections). Complete your term-table: Bundestag 4 · Bundespräsident 5 · **EP 5** · NRW-Landtag 5 (→Q107, NRW-Q3). After naturalization you'll hold the EU's rarest privilege stack: votes at four levels. Kommune, Land, Bund, Europa.\n\n## Auf Deutsch\n\nDas Europäische Parlament wird alle 5 Jahre gewählt."
+    },
+    {
+      "id": "eb-u14-l04-probetest-3-ex22",
+      "type": "choice",
+      "title": "Frage 232 · Block 10",
+      "prompt": "Wer wird bei der Europawahl gewählt?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Abgeordneten des Europäischen Parlaments"
+        },
+        {
+          "id": "b",
+          "text": "die Europäische Kommission"
+        },
+        {
+          "id": "c",
+          "text": "der Präsident/die Präsidentin des Europäischen Rates"
+        },
+        {
+          "id": "d",
+          "text": "die Europäische Zentralbank"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Correct answer:** die Abgeordneten des Europäischen Parlaments\n\nYou elect **MEPs** (96 from Germany, the largest national delegation). Commission, Council president, and ECB leadership are appointed/elected by institutions, not by direct popular vote, the same people-elect-parliaments logic as →Q129, now at EU level.\n\n## Auf Deutsch\n\nBei der Europawahl wählt man die Abgeordneten des Europäischen Parlaments."
+    },
+    {
+      "id": "eb-u14-l04-probetest-3-ex23",
+      "type": "choice",
+      "title": "Frage 242 · Block 11",
+      "prompt": "Wer entscheidet in Deutschland, ob ein Kind in den Kindergarten geht?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Eltern bzw. die Erziehungsberechtigten"
+        },
+        {
+          "id": "b",
+          "text": "der Staat"
+        },
+        {
+          "id": "c",
+          "text": "das Jugendamt"
+        },
+        {
+          "id": "d",
+          "text": "die Grundschule"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Correct answer:** die Eltern bzw. die Erziehungsberechtigten\n\nKindergarten is **optional**, the parents' call (you made it: Kita from August). Contrast with **Schulpflicht** (→Q95): school is NOT optional. The state guarantees a *place* from age 3 (→Q269) but never forces attendance; the Jugendamt only steps in where children are endangered (→Q258).\n\n## Auf Deutsch\n\nOb ein Kind in den Kindergarten geht, entscheiden die Eltern."
+    },
+    {
+      "id": "eb-u14-l04-probetest-3-ex24",
+      "type": "choice",
+      "title": "Frage 247 · Block 11",
+      "prompt": "Wie heißt der besondere gesetzliche Schutz, den eine Frau kurz vor und nach der Geburt ihres Kindes genießt?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Mutterschutz"
+        },
+        {
+          "id": "b",
+          "text": "Elternzeit"
+        },
+        {
+          "id": "c",
+          "text": "Kindergeld"
+        },
+        {
+          "id": "d",
+          "text": "Erziehungsgeld"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Correct answer:** Mutterschutz\n\n**Mutterschutz** (Mutterschutzgesetz): work ban 6 weeks before / 8 weeks after birth at full pay protection, plus the near-absolute dismissal shield (→Q104).\n\n## Auf Deutsch\n\nDer Schutz vor und nach der Geburt heißt Mutterschutz."
+    },
+    {
+      "id": "eb-u14-l04-probetest-3-ex25",
+      "type": "choice",
+      "title": "Frage 248 · Block 11",
+      "prompt": "Wer ist in Deutschland hauptsächlich verantwortlich für die Erziehung der Kinder?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Eltern"
+        },
+        {
+          "id": "b",
+          "text": "der Staat"
+        },
+        {
+          "id": "c",
+          "text": "die Schulen"
+        },
+        {
+          "id": "d",
+          "text": "die Großeltern"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Correct answer:** die Eltern\n\nArt. 6(2) GG verbatim-ish: care and upbringing of children are *\"das natürliche Recht der Eltern und die zuvörderst ihnen obliegende Pflicht\"*, the parents' natural right AND duty; the state only watches over it (Wächteramt →Q258). This is a values question in disguise: family primacy with state backstop, neither DDR-style state upbringing nor absent-state indifference.\n\n## Auf Deutsch\n\nFür die Erziehung sind hauptsächlich die Eltern verantwortlich (Art. 6 GG)."
+    },
+    {
+      "id": "eb-u14-l04-probetest-3-ex26",
+      "type": "choice",
+      "title": "Frage 280 · Block 12",
+      "prompt": "Sie haben in Deutschland einen Bescheid vom Finanzamt bekommen und halten ihn für falsch. Was können Sie machen?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Einspruch einlegen"
+        },
+        {
+          "id": "b",
+          "text": "nichts, Bescheide sind endgültig"
+        },
+        {
+          "id": "c",
+          "text": "einfach nicht zahlen"
+        },
+        {
+          "id": "d",
+          "text": "das Finanzamt wechseln"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Correct answer:** Einspruch einlegen\n\nWrong Steuerbescheid → **Einspruch** within **one month**, free, written, the Finanzamt must re-examine; after that, Finanzgericht. Every German Bescheid ends with a **Rechtsbehelfsbelehrung** (instructions on appeal, read that paragraph, always: it tells you the remedy and deadline).\n\nB, no Bescheid is beyond challenge (Rechtsstaat →Q3); C creates enforcement + Säumniszuschläge; D isn't a thing (jurisdiction follows residence). Twin: →Q283 (Widerspruch).\n\n## Auf Deutsch\n\nGegen einen Bescheid vom Finanzamt: Einspruch einlegen."
+    },
+    {
+      "id": "eb-u14-l04-probetest-3-ex27",
+      "type": "choice",
+      "title": "Frage 285 · Block 12",
+      "prompt": "Was muss eine fest angestellte Büroangestellte in Deutschland nicht direkt von ihrem Gehalt bezahlen?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Umsatzsteuer"
+        },
+        {
+          "id": "b",
+          "text": "die Lohnsteuer"
+        },
+        {
+          "id": "c",
+          "text": "die Beiträge zur Krankenversicherung"
+        },
+        {
+          "id": "d",
+          "text": "die Beiträge zur Rentenversicherung"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Correct answer:** die Umsatzsteuer\n\nPayroll deductions (→Q97, Q99): **Lohnsteuer + Sozialversicherungsbeiträge** come off the Gehalt. **Umsatzsteuer** (VAT, 19%/7%) is a *consumption* tax, paid when you *spend*, hidden in every price tag, never a payroll line. Your first German payslip (March 2027) will illustrate B–D precisely; A you pay at the supermarket. Direction and moment of taxation, that's the question.\n\n## Auf Deutsch\n\nDie Umsatzsteuer zahlen Angestellte nicht direkt vom Gehalt. Lohnsteuer und Sozialabgaben schon."
+    },
+    {
+      "id": "eb-u14-l04-probetest-3-ex28",
+      "type": "choice",
+      "title": "Frage 288 · Block 12",
+      "prompt": "Woraus begründet sich die besondere Verantwortung Deutschlands für Israel?",
+      "options": [
+        {
+          "id": "a",
+          "text": "aus den nationalsozialistischen Verbrechen gegen Juden"
+        },
+        {
+          "id": "b",
+          "text": "aus der Mitgliedschaft in der Europäischen Union"
+        },
+        {
+          "id": "c",
+          "text": "aus wirtschaftlichen Interessen"
+        },
+        {
+          "id": "d",
+          "text": "aus einem Militärbündnis mit Israel"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Correct answer:** aus den nationalsozialistischen Verbrechen gegen Juden\n\nGermany's special responsibility for Israel's security, declared **Staatsräson** by Merkel before the Knesset (2008), grows directly from the **Shoah**: the systematic murder of six million Jews (→Q96, Q161). Institutionalized early (1952 Luxemburg reparations under Adenauer →Q165) and continuous since.\n\nEU membership, trade, or a (non-existent) military pact are category errors, the ground is historical-moral, not contractual. **This exact sentence is in your Loyalitätserklärung**, the declaration you'll sign includes protecting Jewish life in Germany and Israel's right to exist. Between test and interview, this question is the single most important one in the catalog to understand rather than memorize.\n\n## Auf Deutsch\n\nDeutschlands besondere Verantwortung für Israel kommt aus den NS-Verbrechen an den Juden."
+    },
+    {
+      "id": "eb-u14-l04-probetest-3-ex29",
+      "type": "choice",
+      "title": "Frage 294 · Block 12",
+      "prompt": "Pfingsten ist ein …",
+      "options": [
+        {
+          "id": "a",
+          "text": "christlicher Feiertag"
+        },
+        {
+          "id": "b",
+          "text": "jüdischer Feiertag"
+        },
+        {
+          "id": "c",
+          "text": "muslimischer Feiertag"
+        },
+        {
+          "id": "d",
+          "text": "staatlicher Gedenktag ohne religiösen Ursprung"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Correct answer:** christlicher Feiertag\n\n**Pfingsten** (Pentecost, 50 days after Easter): Christian feast, public holiday. The Christian holiday set worth knowing: Weihnachten, Karfreitag, Ostern, Christi Himmelfahrt, Pfingsten, (in NRW also Fronleichnam & Allerheiligen. NRW is historically Catholic-leaning, hence more days off than Berlin: federalism in your calendar, →Q49's cousin).\n\n## Auf Deutsch\n\nPfingsten ist ein christlicher Feiertag (50 Tage nach Ostern)."
+    },
+    {
+      "id": "eb-u14-l04-probetest-3-ex30",
+      "type": "choice",
+      "title": "Frage 297 · Block 12",
+      "prompt": "Aus welchem Land sind die meisten Migranten und Migrantinnen nach Deutschland gekommen?",
+      "options": [
+        {
+          "id": "a",
+          "text": "aus der Türkei"
+        },
+        {
+          "id": "b",
+          "text": "aus Italien"
+        },
+        {
+          "id": "c",
+          "text": "aus Polen"
+        },
+        {
+          "id": "d",
+          "text": "aus Marokko"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Correct answer:** aus der Türkei\n\nLargest immigrant-origin community: **Türkei** (~2.5–3 million people with Turkish roots), legacy of the 1961 recruitment treaty (→Q299). Poland ranks second (worth knowing as the near-miss decoy); Italy sent the *first* Gastarbeiter (→Q300) but fewer stayed. ⏰-ish nuance: recent years added large Syrian and Ukrainian communities, but the catalog's tested answer remains Türkei, another \"check the Online-Testcenter\" candidate.\n\n## Auf Deutsch\n\nDie meisten Migranten kamen aus der Türkei."
+    },
+    {
+      "id": "eb-u14-l04-probetest-3-ex31",
+      "type": "choice",
+      "title": "NRW 3 · Landesfrage",
+      "prompt": "Für wie viele Jahre wird der Landtag von Nordrhein-Westfalen gewählt?",
+      "options": [
+        {
+          "id": "a",
+          "text": "3 Jahre"
+        },
+        {
+          "id": "b",
+          "text": "4 Jahre"
+        },
+        {
+          "id": "c",
+          "text": "5 Jahre"
+        },
+        {
+          "id": "d",
+          "text": "6 Jahre"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**Correct answer:** 5 Jahre\n\nNRW's Landtag (Düsseldorf, Rhine-side building): **5-year term**, one year LONGER than the Bundestag's 4 (→Q107). That mismatch is the entire trap; most Länder moved to 5 years precisely to decouple from federal cycles. Last elected 2022 → next regular **Landtagswahl 2027**, plausibly your first-ever German ballot if the Urkunde arrives in time. Motivation, quantified.\n\n## Auf Deutsch\n\nDer NRW-Landtag wird für 5 Jahre gewählt (Bundestag: nur 4!)."
+    },
+    {
+      "id": "eb-u14-l04-probetest-3-ex32",
+      "type": "choice",
+      "title": "NRW 4 · Landesfrage",
+      "prompt": "Ab welchem Alter dürfen Bürgerinnen und Bürger in Nordrhein-Westfalen bei Kommunalwahlen wählen?",
+      "options": [
+        {
+          "id": "a",
+          "text": "ab 14 Jahren"
+        },
+        {
+          "id": "b",
+          "text": "ab 16 Jahren"
+        },
+        {
+          "id": "c",
+          "text": "ab 18 Jahren"
+        },
+        {
+          "id": "d",
+          "text": "ab 21 Jahren"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Correct answer:** ab 16 Jahren\n\nNRW Kommunalwahlen (city council, Bürgermeister, Landrat): voting from **16**. The age ladder one more time (→Q94, Q246): **16** NRW-Kommunal + Europa · **18** NRW-Landtag + Bundestag. September 2025's Kommunalwahl in Dortmund happened around you; the 2030 one could include two new voters at your address, three, eventually.\n\n## Auf Deutsch\n\nKommunalwahlen in NRW: wählen ab 16 Jahren."
+    },
+    {
+      "id": "eb-u14-l04-probetest-3-ex33",
+      "type": "choice",
+      "title": "NRW 5 · Landesfrage",
+      "prompt": "Welche Farben hat die Landesflagge von Nordrhein-Westfalen?",
+      "options": [
+        {
+          "id": "a",
+          "text": "grün-weiß-rot"
+        },
+        {
+          "id": "b",
+          "text": "schwarz-rot-gold"
+        },
+        {
+          "id": "c",
+          "text": "blau-weiß"
+        },
+        {
+          "id": "d",
+          "text": "weiß-rot"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Correct answer:** grün-weiß-rot\n\n**Grün-weiß-rot** (horizontal stripes), heraldically: Rhineland's green-white + Westphalia's white-red stitched together (→NRW-1's same merger story, told in stripes).\n\nSchwarz-rot-gold is the *Bund* (→Q214); blau-weiß = Bayern; weiß-rot = several city flags. Land ≠ Bund, the flag question is federalism's dress code.\n\n## Auf Deutsch\n\nDie NRW-Landesflagge ist grün-weiß-rot."
+    }
+  ]
+}

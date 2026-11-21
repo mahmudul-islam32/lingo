@@ -1,0 +1,290 @@
+{
+  "id": "tb1-u11-l10-health-the-doctor-4",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u11",
+  "title": "Health & the Doctor 4",
+  "tip": "Theme: Gesundheit / Arzt (B1)",
+  "exercises": [
+    {
+      "id": "tb1-u11-l10-health-the-doctor-4-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "verschreiben",
+          "known": "to prescribe"
+        },
+        {
+          "id": "p2",
+          "learning": "das Rezept",
+          "known": "prescription (⚠ also \"recipe\""
+        },
+        {
+          "id": "p3",
+          "learning": "das Medikament",
+          "known": "medication"
+        },
+        {
+          "id": "p4",
+          "learning": "die Apotheke",
+          "known": "pharmacy"
+        },
+        {
+          "id": "p5",
+          "learning": "das Krankenhaus",
+          "known": "hospital"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u11-l10-health-the-doctor-4-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which verb means „to prescribe“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "sich fühlen. Ich fühle mich schlecht/besser."
+        },
+        {
+          "id": "b",
+          "text": "verschreiben (hat verschrieben)"
+        },
+        {
+          "id": "c",
+          "text": "sich erholen von + Dat. (hat sich erholt)"
+        },
+        {
+          "id": "d",
+          "text": "untersuchen (hat untersucht)"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**verschreiben (hat verschrieben)** = to prescribe\n\n*Example:* Der Arzt hat mir ein Medikament gegen Husten verschrieben.\nThe doctor prescribed me some medicine for my cough."
+    },
+    {
+      "id": "tb1-u11-l10-health-the-doctor-4-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „prescription (⚠ also \"recipe\": see D11)“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "das Wartezimmer, die Wartezimmer"
+        },
+        {
+          "id": "b",
+          "text": "das Medikament, die Medikamente · die Tablette, die Tabletten"
+        },
+        {
+          "id": "c",
+          "text": "der Husten · der Schnupfen (beide nur Sg.)"
+        },
+        {
+          "id": "d",
+          "text": "das Rezept, die Rezepte"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**das Rezept** = prescription (⚠ also \"recipe\": see D11)\n*Plural: die Rezepte*\n\n*Example:* Mit diesem Rezept bekommen Sie die Tabletten in der Apotheke.\nYou can get the tablets at the pharmacy with this prescription."
+    },
+    {
+      "id": "tb1-u11-l10-health-the-doctor-4-ex04",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u11-l10-health-the-doctor-4-1.mp3"
+      },
+      "tiles": [
+        "Arzt",
+        "gegen",
+        "dreimal",
+        "verschrieben",
+        "ein",
+        "Rücken",
+        "Der",
+        "hat",
+        "Husten",
+        "Mit",
+        "Medikament",
+        "mir"
+      ],
+      "answers": [
+        "Der Arzt hat mir ein Medikament gegen Husten verschrieben."
+      ],
+      "explanation": "Der Arzt hat mir ein Medikament gegen Husten verschrieben.\n*The doctor prescribed me some medicine for my cough.*\n\n**verschreiben (hat verschrieben)** = to prescribe"
+    },
+    {
+      "id": "tb1-u11-l10-health-the-doctor-4-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „medication · tablet“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "das Rezept, die Rezepte"
+        },
+        {
+          "id": "b",
+          "text": "die Erkältung, die Erkältungen: erkältet sein"
+        },
+        {
+          "id": "c",
+          "text": "das Medikament, die Medikamente · die Tablette, die Tabletten"
+        },
+        {
+          "id": "d",
+          "text": "das Krankenhaus, die Krankenhäuser"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**das Medikament** = medication · tablet\n*Plural: die Medikamente · also: die Tablette, die Tabletten*\n\n*Example:* Nehmen Sie die Tabletten dreimal am Tag nach dem Essen.\nTake the tablets three times a day after meals."
+    },
+    {
+      "id": "tb1-u11-l10-health-the-doctor-4-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Mit diesem Rezept bekommen Sie die Tabletten in der Apotheke.",
+      "tiles": [
+        "prescription",
+        "is",
+        "this",
+        "You",
+        "the",
+        "Maria",
+        "at",
+        "tablets",
+        "get",
+        "can",
+        "pharmacy",
+        "My",
+        "the",
+        "with"
+      ],
+      "answers": [
+        "You can get the tablets at the pharmacy with this prescription."
+      ],
+      "explanation": "**das Rezept** = prescription (⚠ also \"recipe\": see D11)\n*Plural: die Rezepte*"
+    },
+    {
+      "id": "tb1-u11-l10-health-the-doctor-4-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „pharmacy“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "der Husten · der Schnupfen (beide nur Sg.)"
+        },
+        {
+          "id": "b",
+          "text": "der Hausarzt, die Hausärzte / die Hausärztin, die Hausärztinnen"
+        },
+        {
+          "id": "c",
+          "text": "die Apotheke, die Apotheken"
+        },
+        {
+          "id": "d",
+          "text": "das Wartezimmer, die Wartezimmer"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**die Apotheke** = pharmacy\n*Plural: die Apotheken*\n\n*Example:* Die Apotheke am Bahnhof hat auch sonntags geöffnet.\nThe pharmacy at the station is also open on Sundays."
+    },
+    {
+      "id": "tb1-u11-l10-health-the-doctor-4-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Take the tablets three times a day after meals.",
+      "tiles": [
+        "die",
+        "immer",
+        "dem",
+        "Nehmen",
+        "gestern",
+        "dreimal",
+        "nach",
+        "Tabletten",
+        "Operation",
+        "am",
+        "Sie",
+        "Tag",
+        "Essen"
+      ],
+      "answers": [
+        "Nehmen Sie die Tabletten dreimal am Tag nach dem Essen."
+      ],
+      "explanation": "**das Medikament** = medication · tablet\n*Plural: die Medikamente · also: die Tablette, die Tabletten*"
+    },
+    {
+      "id": "tb1-u11-l10-health-the-doctor-4-ex09",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „hospital“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "das Krankenhaus, die Krankenhäuser"
+        },
+        {
+          "id": "b",
+          "text": "der Hausarzt, die Hausärzte / die Hausärztin, die Hausärztinnen"
+        },
+        {
+          "id": "c",
+          "text": "die Sprechstunde, die Sprechstunden"
+        },
+        {
+          "id": "d",
+          "text": "die Grippe (nur Sg.) · das Fieber (nur Sg.)"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**das Krankenhaus** = hospital\n*Plural: die Krankenhäuser*\n\n*Example:* Nach dem Unfall musste Herr Klein ins Krankenhaus.\nAfter the accident Mr Klein had to go to hospital."
+    },
+    {
+      "id": "tb1-u11-l10-health-the-doctor-4-ex10",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u11-l10-health-the-doctor-4-4.mp3"
+      },
+      "tiles": [
+        "und",
+        "hat",
+        "Bahnhof",
+        "sonntags",
+        "Die",
+        "Essen",
+        "geöffnet",
+        "Seit",
+        "am",
+        "Apotheke",
+        "auch"
+      ],
+      "answers": [
+        "Die Apotheke am Bahnhof hat auch sonntags geöffnet."
+      ],
+      "explanation": "Die Apotheke am Bahnhof hat auch sonntags geöffnet.\n*The pharmacy at the station is also open on Sundays.*\n\n**die Apotheke** = pharmacy\n*Plural: die Apotheken*"
+    },
+    {
+      "id": "tb1-u11-l10-health-the-doctor-4-ex11",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Nach dem Unfall musste Herr Klein ins Krankenhaus.",
+      "tiles": [
+        "the",
+        "room",
+        "hospital",
+        "pharmacy",
+        "go",
+        "Mr",
+        "had",
+        "Klein",
+        "accident",
+        "three",
+        "After",
+        "to",
+        "to"
+      ],
+      "answers": [
+        "After the accident Mr Klein had to go to hospital."
+      ],
+      "explanation": "**das Krankenhaus** = hospital\n*Plural: die Krankenhäuser*"
+    }
+  ]
+}

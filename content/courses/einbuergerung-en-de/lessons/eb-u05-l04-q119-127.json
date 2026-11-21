@@ -1,0 +1,243 @@
+{
+  "id": "eb-u05-l04-q119-127",
+  "courseId": "einbuergerung-en-de",
+  "unitId": "eb-u05",
+  "title": "Questions 119–127 (Fragen 119–127)",
+  "tip": "After each Check you get an English explanation and a short German note (Auf Deutsch).",
+  "exercises": [
+    {
+      "id": "eb-u05-l04-q119-127-ex01",
+      "type": "choice",
+      "title": "Frage 119 · Block 5",
+      "prompt": "Wahlen in Deutschland sind frei. Was bedeutet das?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Jede Person kann ohne Zwang entscheiden, ob sie wählen möchte und wen sie wählen möchte"
+        },
+        {
+          "id": "b",
+          "text": "Man kann frei entscheiden, wo man wählen geht"
+        },
+        {
+          "id": "c",
+          "text": "Jeder kann so viele Stimmzettel ausfüllen, wie er will"
+        },
+        {
+          "id": "d",
+          "text": "Alle Bürger und Bürgerinnen müssen wählen gehen"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Correct answer:** Jede Person kann ohne Zwang entscheiden, ob sie wählen möchte und wen sie wählen möchte\n\n→Q5 retested: free = whether AND whom, without coercion.\n\nB, you vote in your assigned polling station (or by Briefwahl); C, one person, one ballot (that's *gleich*); D, compulsory voting again (→Q114). BAMF triple-tests the election principles; they're also prime Loyalitätserklärung material: *allgemein, unmittelbar, frei, gleich, geheim*, say them in order.\n\n## Auf Deutsch\n\nFrei = jede Person entscheidet ohne Zwang, ob und wen sie wählt."
+    },
+    {
+      "id": "eb-u05-l04-q119-127-ex02",
+      "type": "choice",
+      "title": "Frage 120 · Block 5",
+      "prompt": "Das Wahlsystem in Deutschland ist ein …",
+      "options": [
+        {
+          "id": "a",
+          "text": "Zensuswahlrecht"
+        },
+        {
+          "id": "b",
+          "text": "Dreiklassenwahlrecht"
+        },
+        {
+          "id": "c",
+          "text": "Mehrheits- und Verhältniswahlrecht"
+        },
+        {
+          "id": "d",
+          "text": "allgemeines Männerwahlrecht"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**Correct answer:** Mehrheits- und Verhältniswahlrecht\n\nGermany mixes **Mehrheitswahl** (Erststimme: whoever wins the Wahlkreis) with **Verhältniswahl** (Zweitstimme: proportional seats), \"personalisierte Verhältniswahl.\"\n\nAll three are abolished historical franchises: **Zensuswahlrecht** = voting rights by wealth/tax; **Dreiklassenwahlrecht** = Prussia's three wealth classes (until 1918); **Männerwahlrecht** = pre-1918/19, before women's suffrage. The wrong answers are a museum of unequal voting.\n\n## Auf Deutsch\n\nDeutschland kombiniert Mehrheitswahl (Erststimme) und Verhältniswahl (Zweitstimme)."
+    },
+    {
+      "id": "eb-u05-l04-q119-127-ex03",
+      "type": "choice",
+      "title": "Frage 121 · Block 5",
+      "prompt": "Was ist die „5%-Hürde\" bei Wahlen in Deutschland?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Höchstgrenze für Wahlkampfkosten"
+        },
+        {
+          "id": "b",
+          "text": "der Mindestanteil an Wählerstimmen, um ins Parlament zu kommen"
+        },
+        {
+          "id": "c",
+          "text": "der Anteil der ungültigen Stimmen bei einer Wahl"
+        },
+        {
+          "id": "d",
+          "text": "die Mindestbeteiligung, damit eine Wahl gültig ist"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Correct answer:** der Mindestanteil an Wählerstimmen, um ins Parlament zu kommen\n\nDefinition question for →Q117's number. Note D carefully: German elections have **no minimum turnout**, a valid election needs no quorum; the Hürde applies to *parties*, not to participation.\n\n## Auf Deutsch\n\nDie 5%-Hürde ist der Mindestanteil an Stimmen für den Einzug ins Parlament."
+    },
+    {
+      "id": "eb-u05-l04-q119-127-ex04",
+      "type": "choice",
+      "title": "Frage 122 · Block 5",
+      "prompt": "Welchem Grundsatz unterliegen Wahlen in Deutschland? Wahlen in Deutschland sind …",
+      "options": [
+        {
+          "id": "a",
+          "text": "frei, gleich, geheim"
+        },
+        {
+          "id": "b",
+          "text": "offen, sicher, frei"
+        },
+        {
+          "id": "c",
+          "text": "geschlossen, gleich, sicher"
+        },
+        {
+          "id": "d",
+          "text": "sicher, offen, freiwillig"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Correct answer:** frei, gleich, geheim\n\nThe option compresses the five principles to the three most cited: **frei, gleich, geheim** (full set: + allgemein, unmittelbar).\n\n\"offen\" (open) is the giveaway wrong word, open voting (raising hands, public lists) is precisely what *geheim* forbids; the DDR's pseudo-elections were \"open\" in the worst sense: voting booths existed but using them marked you as suspect.\n\n## Auf Deutsch\n\nDie Wahlgrundsätze: allgemein, unmittelbar, frei, gleich, geheim."
+    },
+    {
+      "id": "eb-u05-l04-q119-127-ex05",
+      "type": "choice",
+      "title": "Frage 123 · Block 5",
+      "prompt": "Eine Partei möchte in den Deutschen Bundestag. Sie muss aber einen Mindestanteil an Wählerstimmen bekommen. Wie nennt man das?",
+      "options": [
+        {
+          "id": "a",
+          "text": "5%-Hürde"
+        },
+        {
+          "id": "b",
+          "text": "Zweitstimme"
+        },
+        {
+          "id": "c",
+          "text": "Wahlversprechen"
+        },
+        {
+          "id": "d",
+          "text": "Koalitionsvertrag"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Correct answer:** 5%-Hürde\n\nThird pass at the threshold (→Q117 number, →Q121 definition, →Q123 name). B–D are real election vocabulary attached to the wrong definitions, the Zweitstimme is *counted against* the Hürde, a campaign promise wins votes, a coalition contract comes after.\n\n## Auf Deutsch\n\nDieser Mindestanteil heißt 5%-Hürde."
+    },
+    {
+      "id": "eb-u05-l04-q119-127-ex06",
+      "type": "choice",
+      "title": "Frage 124 · Block 5",
+      "prompt": "Die Bundestagswahl in Deutschland ist die Wahl …",
+      "options": [
+        {
+          "id": "a",
+          "text": "des Bundeskanzlers/der Bundeskanzlerin"
+        },
+        {
+          "id": "b",
+          "text": "der Parlamente der Länder"
+        },
+        {
+          "id": "c",
+          "text": "des Parlaments für Deutschland"
+        },
+        {
+          "id": "d",
+          "text": "des Bundespräsidenten/der Bundespräsidentin"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**Correct answer:** des Parlaments für Deutschland\n\nYou elect **the federal parliament**, nothing else. The parliament then elects the Chancellor (→Q81); the Bundesversammlung elects the President (→Q86); Landtagswahlen elect Land parliaments (→Q62). One ballot, one institution.\n\n## Auf Deutsch\n\nDie Bundestagswahl ist die Wahl des Parlaments für ganz Deutschland."
+    },
+    {
+      "id": "eb-u05-l04-q119-127-ex07",
+      "type": "choice",
+      "title": "Frage 125 · Block 5",
+      "prompt": "In einer Demokratie ist eine Funktion von regelmäßigen Wahlen, …",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Bürger und Bürgerinnen zu politischem Gehorsam zu erziehen"
+        },
+        {
+          "id": "b",
+          "text": "nach dem Willen der Wählermehrheit den Wechsel der Regierung zu ermöglichen"
+        },
+        {
+          "id": "c",
+          "text": "dem Staat Geld über Wahlkampfspenden zu beschaffen"
+        },
+        {
+          "id": "d",
+          "text": "den Menschen im Land Angst zu machen"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Correct answer:** nach dem Willen der Wählermehrheit den Wechsel der Regierung zu ermöglichen\n\nThe deepest answer in the block: elections institutionalize the **peaceful transfer of power**. Governments can be voted OUT, that possibility, more than anything, separates democracy from autocracy (autocracies hold elections too; they just can't be lost).\n\nA describes indoctrination, C misunderstands party finance, D describes state terror. Interview-ready sentence: *\"Regelmäßige Wahlen ermöglichen den friedlichen Machtwechsel.\"*\n\n## Auf Deutsch\n\nRegelmäßige Wahlen ermöglichen den friedlichen Wechsel der Regierung."
+    },
+    {
+      "id": "eb-u05-l04-q119-127-ex08",
+      "type": "choice",
+      "title": "Frage 126 · Block 5",
+      "prompt": "Was bekommen wahlberechtigte Bürger und Bürgerinnen in Deutschland vor einer Wahl?",
+      "options": [
+        {
+          "id": "a",
+          "text": "eine Wahlbenachrichtigung von der Gemeinde"
+        },
+        {
+          "id": "b",
+          "text": "eine Wahlerlaubnis vom Ordnungsamt"
+        },
+        {
+          "id": "c",
+          "text": "eine Benachrichtigung von der Bundesversammlung"
+        },
+        {
+          "id": "d",
+          "text": "eine Einladung des Bundespräsidenten"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Correct answer:** eine Wahlbenachrichtigung von der Gemeinde\n\nThe **Wahlbenachrichtigung**, a card from your Gemeinde telling you where and when to vote, based on the voter register (fed by your Anmeldung! →Q253). It arrives automatically; no application needed.\n\nNo \"permission\" exists, eligibility is automatic (B); the Bundesversammlung only elects the president (C); the president invites nobody to vote (D). After naturalization, this card in your Dortmund mailbox will be the moment citizenship becomes tangible.\n\n## Auf Deutsch\n\nVor der Wahl schickt die Gemeinde eine Wahlbenachrichtigung."
+    },
+    {
+      "id": "eb-u05-l04-q119-127-ex09",
+      "type": "choice",
+      "title": "Frage 127 · Block 5",
+      "prompt": "Warum gibt es die 5%-Hürde im Wahlgesetz der Bundesrepublik Deutschland? Sie besteht, weil …",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Programme von vielen kleinen Parteien viele Gemeinsamkeiten haben"
+        },
+        {
+          "id": "b",
+          "text": "das Wahlergebnis dann übersichtlicher ist"
+        },
+        {
+          "id": "c",
+          "text": "viele kleine Parteien die Regierungsbildung erschweren"
+        },
+        {
+          "id": "d",
+          "text": "die kleinen Parteien nicht genug Geld für den Wahlkampf haben"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**Correct answer:** viele kleine Parteien die Regierungsbildung erschweren\n\nThe Weimar lesson: parliaments splintered into a dozen mini-parties couldn't form stable governments, instability that helped the Nazis. The Hürde trades a little representation for a lot of governability.\n\nA, B, D are irrelevant or cosmetic reasons. Pairs with →Q12 and Q20 as \"Weimar-proofing\" built into the system, a strong interview theme: *the Grundgesetz learned from Weimar's death.*\n\n## Auf Deutsch\n\nDie 5%-Hürde verhindert, dass viele Kleinstparteien das Regieren unmöglich machen."
+    }
+  ]
+}

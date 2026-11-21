@@ -1,0 +1,291 @@
+{
+  "id": "tb1-u17-l03-offices-bank-post-3",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u17",
+  "title": "Offices, Bank & Post 3",
+  "tip": "Theme: Ämter / Behörden / Bank / Post (B1)",
+  "exercises": [
+    {
+      "id": "tb1-u17-l03-offices-bank-post-3-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "die Gebühr",
+          "known": "fee"
+        },
+        {
+          "id": "p2",
+          "learning": "die Frist",
+          "known": "deadline"
+        },
+        {
+          "id": "p3",
+          "learning": "die Öffnungszeiten",
+          "known": "opening hours"
+        },
+        {
+          "id": "p4",
+          "learning": "das Konto",
+          "known": "account"
+        },
+        {
+          "id": "p5",
+          "learning": "das Amt",
+          "known": "(public) office"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u17-l03-offices-bank-post-3-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „fee“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Gebühr, die Gebühren"
+        },
+        {
+          "id": "b",
+          "text": "die Aufenthaltserlaubnis, die Aufenthaltserlaubnisse"
+        },
+        {
+          "id": "c",
+          "text": "der Absender, die Absender ↔ der Empfänger, die Empfänger"
+        },
+        {
+          "id": "d",
+          "text": "das Konto, die Konten: ein Konto eröffnen"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**die Gebühr** = fee\n*Plural: die Gebühren*\n\n*Example:* Für den neuen Personalausweis zahlt man eine Gebühr.\nYou pay a fee for the new ID card."
+    },
+    {
+      "id": "tb1-u17-l03-offices-bank-post-3-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „deadline: to meet / miss a deadline“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "das Formular, die Formulare: ein Formular ausfüllen"
+        },
+        {
+          "id": "b",
+          "text": "die Frist, die Fristen: eine Frist einhalten / verpassen"
+        },
+        {
+          "id": "c",
+          "text": "die Aufenthaltserlaubnis, die Aufenthaltserlaubnisse"
+        },
+        {
+          "id": "d",
+          "text": "das Konto, die Konten: ein Konto eröffnen"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**die Frist** = deadline: to meet / miss a deadline\n*Plural: die Fristen: eine Frist einhalten / verpassen*\n\n*Example:* Tom hat die Frist verpasst und muss jetzt eine Strafe zahlen.\nTom missed the deadline and now has to pay a fine."
+    },
+    {
+      "id": "tb1-u17-l03-offices-bank-post-3-ex04",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u17-l03-offices-bank-post-3-1.mp3"
+      },
+      "tiles": [
+        "ist",
+        "eine",
+        "Für",
+        "neuen",
+        "zahlt",
+        "Personalausweis",
+        "man",
+        "ein",
+        "überweise",
+        "den",
+        "Gebühr"
+      ],
+      "answers": [
+        "Für den neuen Personalausweis zahlt man eine Gebühr."
+      ],
+      "explanation": "Für den neuen Personalausweis zahlt man eine Gebühr.\n*You pay a fee for the new ID card.*\n\n**die Gebühr** = fee\n*Plural: die Gebühren*"
+    },
+    {
+      "id": "tb1-u17-l03-offices-bank-post-3-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which one means „responsible for. Who is responsible for that?“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "schicken · abholen"
+        },
+        {
+          "id": "b",
+          "text": "die Unterlagen (Pl.) · das Dokument, die Dokumente"
+        },
+        {
+          "id": "c",
+          "text": "zuständig für + Akk. Wer ist dafür zuständig?"
+        },
+        {
+          "id": "d",
+          "text": "die Gebühr, die Gebühren"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**zuständig für + Akk. Wer ist dafür zuständig?** = responsible for. Who is responsible for that?\n\n*Example:* Ich habe eine Frage zu meiner Steuer. Wer ist dafür zuständig?\nI have a question about my tax. Who is responsible for that?"
+    },
+    {
+      "id": "tb1-u17-l03-offices-bank-post-3-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Tom hat die Frist verpasst und muss jetzt eine Strafe zahlen.",
+      "tiles": [
+        "and",
+        "the",
+        "sign",
+        "now",
+        "has",
+        "month",
+        "deadline",
+        "pay",
+        "fine",
+        "Tom",
+        "missed",
+        "residence",
+        "a",
+        "to"
+      ],
+      "answers": [
+        "Tom missed the deadline and now has to pay a fine."
+      ],
+      "explanation": "**die Frist** = deadline: to meet / miss a deadline\n*Plural: die Fristen: eine Frist einhalten / verpassen*"
+    },
+    {
+      "id": "tb1-u17-l03-offices-bank-post-3-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „opening hours“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Öffnungszeiten (Pl.)"
+        },
+        {
+          "id": "b",
+          "text": "das Konto, die Konten: ein Konto eröffnen"
+        },
+        {
+          "id": "c",
+          "text": "das Rathaus, die Rathäuser · das Bürgeramt, die Bürgerämter"
+        },
+        {
+          "id": "d",
+          "text": "die Frist, die Fristen: eine Frist einhalten / verpassen"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**die Öffnungszeiten (Pl.)** = opening hours\n\n*Example:* Die Öffnungszeiten der Post stehen an der Tür.\nThe post office's opening hours are on the door."
+    },
+    {
+      "id": "tb1-u17-l03-offices-bank-post-3-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I have a question about my tax. Who is responsible for that?",
+      "tiles": [
+        "ist",
+        "Frage",
+        "habe",
+        "Formular",
+        "das",
+        "eine",
+        "meiner",
+        "zu",
+        "Ersten",
+        "Ich",
+        "Steuer",
+        "Wer",
+        "dafür",
+        "zuständig"
+      ],
+      "answers": [
+        "Ich habe eine Frage zu meiner Steuer. Wer ist dafür zuständig?"
+      ],
+      "explanation": "**zuständig für + Akk. Wer ist dafür zuständig?** = responsible for. Who is responsible for that?"
+    },
+    {
+      "id": "tb1-u17-l03-offices-bank-post-3-ex09",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „account: to open an account“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "das Amt, die Ämter · die Behörde, die Behörden"
+        },
+        {
+          "id": "b",
+          "text": "der Geldautomat, die Geldautomaten (n-Dekl.)"
+        },
+        {
+          "id": "c",
+          "text": "das Konto, die Konten: ein Konto eröffnen"
+        },
+        {
+          "id": "d",
+          "text": "die Unterlagen (Pl.) · das Dokument, die Dokumente"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**das Konto** = account: to open an account\n*Plural: die Konten: ein Konto eröffnen*\n\n*Example:* Für das Gehalt muss ich zuerst ein Konto eröffnen.\nTo get my salary, I first have to open an account."
+    },
+    {
+      "id": "tb1-u17-l03-offices-bank-post-3-ex10",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u17-l03-offices-bank-post-3-4.mp3"
+      },
+      "tiles": [
+        "Die",
+        "Öffnungszeiten",
+        "nach",
+        "Den",
+        "Tür",
+        "der",
+        "an",
+        "stehen",
+        "Adresse",
+        "der",
+        "Post"
+      ],
+      "answers": [
+        "Die Öffnungszeiten der Post stehen an der Tür."
+      ],
+      "explanation": "Die Öffnungszeiten der Post stehen an der Tür.\n*The post office's opening hours are on the door.*\n\n**die Öffnungszeiten (Pl.)** = opening hours"
+    },
+    {
+      "id": "tb1-u17-l03-offices-bank-post-3-ex11",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Für das Gehalt muss ich zuerst ein Konto eröffnen.",
+      "tiles": [
+        "my",
+        "have",
+        "first",
+        "fee",
+        "documents",
+        "get",
+        "open",
+        "To",
+        "account",
+        "to",
+        "near",
+        "an",
+        "I",
+        "salary"
+      ],
+      "answers": [
+        "To get my salary, I first have to open an account."
+      ],
+      "explanation": "**das Konto** = account: to open an account\n*Plural: die Konten: ein Konto eröffnen*"
+    }
+  ]
+}

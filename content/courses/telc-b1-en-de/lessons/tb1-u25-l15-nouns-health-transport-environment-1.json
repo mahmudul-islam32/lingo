@@ -1,0 +1,282 @@
+{
+  "id": "tb1-u25-l15-nouns-health-transport-environment-1",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u25",
+  "title": "Nouns: Health, Transport & Environment 1",
+  "tip": "Theme: Nomen: Gesundheit, Verkehr & Umwelt II (B1)",
+  "exercises": [
+    {
+      "id": "tb1-u25-l15-nouns-health-transport-environment-1-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "der Gehweg",
+          "known": "pavement / sidewalk"
+        },
+        {
+          "id": "p2",
+          "learning": "der Radweg",
+          "known": "cycle path"
+        },
+        {
+          "id": "p3",
+          "learning": "das Parkhaus",
+          "known": "multi-storey car park"
+        },
+        {
+          "id": "p4",
+          "learning": "die Umleitung",
+          "known": "diversion / detour"
+        },
+        {
+          "id": "p5",
+          "learning": "die Panne",
+          "known": "breakdown"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u25-l15-nouns-health-transport-environment-1-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „pavement / sidewalk“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Fernreise, die Fernreisen"
+        },
+        {
+          "id": "b",
+          "text": "der Gehweg, die Gehwege"
+        },
+        {
+          "id": "c",
+          "text": "die Panne, die Pannen"
+        },
+        {
+          "id": "d",
+          "text": "die Gruppenreise, die Gruppenreisen"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**der Gehweg** = pavement / sidewalk\n*Plural: die Gehwege*\n\n*Example:* Bitte fahr nicht mit dem Fahrrad auf dem Gehweg!\nPlease don't ride your bike on the pavement!"
+    },
+    {
+      "id": "tb1-u25-l15-nouns-health-transport-environment-1-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „cycle path“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "der Verband, die Verbände"
+        },
+        {
+          "id": "b",
+          "text": "der Radweg, die Radwege"
+        },
+        {
+          "id": "c",
+          "text": "die Fernreise, die Fernreisen"
+        },
+        {
+          "id": "d",
+          "text": "der Zeuge, die Zeugen"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**der Radweg** = cycle path\n*Plural: die Radwege*\n\n*Example:* In unserer Stadt gibt es viele neue Radwege.\nThere are lots of new cycle paths in our town."
+    },
+    {
+      "id": "tb1-u25-l15-nouns-health-transport-environment-1-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Bitte fahr nicht mit dem Fahrrad auf dem Gehweg!",
+      "tiles": [
+        "ride",
+        "to",
+        "all",
+        "on",
+        "Please",
+        "don't",
+        "your",
+        "station",
+        "pavement",
+        "bike",
+        "the"
+      ],
+      "answers": [
+        "Please don't ride your bike on the pavement!"
+      ],
+      "explanation": "**der Gehweg** = pavement / sidewalk\n*Plural: die Gehwege*"
+    },
+    {
+      "id": "tb1-u25-l15-nouns-health-transport-environment-1-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „multi-storey car park“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Salbe, die Salben"
+        },
+        {
+          "id": "b",
+          "text": "das Parkhaus, die Parkhäuser"
+        },
+        {
+          "id": "c",
+          "text": "die Fernreise, die Fernreisen"
+        },
+        {
+          "id": "d",
+          "text": "die Ernährung"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**das Parkhaus** = multi-storey car park\n*Plural: die Parkhäuser*\n\n*Example:* Wir parken das Auto im Parkhaus am Bahnhof.\nWe park the car in the multi-storey car park at the station."
+    },
+    {
+      "id": "tb1-u25-l15-nouns-health-transport-environment-1-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "There are lots of new cycle paths in our town.",
+      "tiles": [
+        "viele",
+        "Radwege",
+        "Hand",
+        "gibt",
+        "unserer",
+        "In",
+        "neue",
+        "Stadt",
+        "Gruppenreise",
+        "Muskeln",
+        "es"
+      ],
+      "answers": [
+        "In unserer Stadt gibt es viele neue Radwege."
+      ],
+      "explanation": "**der Radweg** = cycle path\n*Plural: die Radwege*"
+    },
+    {
+      "id": "tb1-u25-l15-nouns-health-transport-environment-1-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „diversion / detour“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Umleitung, die Umleitungen"
+        },
+        {
+          "id": "b",
+          "text": "die Fernreise, die Fernreisen"
+        },
+        {
+          "id": "c",
+          "text": "die Notaufnahme"
+        },
+        {
+          "id": "d",
+          "text": "der Radweg, die Radwege"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**die Umleitung** = diversion / detour\n*Plural: die Umleitungen*\n\n*Example:* Wegen der Baustelle gibt es eine Umleitung.\nThere's a diversion because of the roadworks."
+    },
+    {
+      "id": "tb1-u25-l15-nouns-health-transport-environment-1-ex08",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u25-l15-nouns-health-transport-environment-1-3.mp3"
+      },
+      "tiles": [
+        "im",
+        "Bahnhof",
+        "Polizei",
+        "parken",
+        "Wir",
+        "Parkhaus",
+        "Auto",
+        "das",
+        "am",
+        "Bewegung",
+        "Hand"
+      ],
+      "answers": [
+        "Wir parken das Auto im Parkhaus am Bahnhof."
+      ],
+      "explanation": "Wir parken das Auto im Parkhaus am Bahnhof.\n*We park the car in the multi-storey car park at the station.*\n\n**das Parkhaus** = multi-storey car park\n*Plural: die Parkhäuser*"
+    },
+    {
+      "id": "tb1-u25-l15-nouns-health-transport-environment-1-ex09",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „breakdown“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Panne, die Pannen"
+        },
+        {
+          "id": "b",
+          "text": "der Verband, die Verbände"
+        },
+        {
+          "id": "c",
+          "text": "die Fernreise, die Fernreisen"
+        },
+        {
+          "id": "d",
+          "text": "das Parkhaus, die Parkhäuser"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**die Panne** = breakdown\n*Plural: die Pannen*\n\n*Example:* Wir hatten auf der Autobahn eine Panne und mussten warten.\nOur car broke down on the motorway and we had to wait."
+    },
+    {
+      "id": "tb1-u25-l15-nouns-health-transport-environment-1-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Wegen der Baustelle gibt es eine Umleitung.",
+      "tiles": [
+        "diversion",
+        "Tom",
+        "a",
+        "because",
+        "Italy",
+        "roadworks",
+        "of",
+        "There's",
+        "the",
+        "hand"
+      ],
+      "answers": [
+        "There's a diversion because of the roadworks."
+      ],
+      "explanation": "**die Umleitung** = diversion / detour\n*Plural: die Umleitungen*"
+    },
+    {
+      "id": "tb1-u25-l15-nouns-health-transport-environment-1-ex11",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Our car broke down on the motorway and we had to wait.",
+      "tiles": [
+        "Panne",
+        "mussten",
+        "Nach",
+        "Chef",
+        "Autobahn",
+        "hatten",
+        "auf",
+        "Wir",
+        "eine",
+        "der",
+        "und",
+        "warten",
+        "ist"
+      ],
+      "answers": [
+        "Wir hatten auf der Autobahn eine Panne und mussten warten."
+      ],
+      "explanation": "**die Panne** = breakdown\n*Plural: die Pannen*"
+    }
+  ]
+}

@@ -1,0 +1,339 @@
+{
+  "id": "tb1-u32-l12-wechsel-p1",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u32",
+  "title": "Two-Way Prepositions: Wohin? → Akkusativ & Wo? → Dativ",
+  "tip": "“Ich gehe in dem Park”, if you mean the destination: in den Park. Meeting points in letters are dative: Wir treffen uns vor dem Kino / am Bahnhof.",
+  "exercises": [
+    {
+      "id": "tb1-u32-l12-wechsel-p1-ex01",
+      "type": "explain",
+      "title": "Wohin? → Akkusativ (Bewegung)",
+      "body": "Movement towards a goal: an, auf, in … + accusative. Verbs: stellen, legen, setzen, hängen, gehen.\n\n*Deutsch:* Bewegung zu einem Ziel: an, auf, in … + Akkusativ. Verben: stellen, legen, setzen, hängen, gehen.\n\n## Pattern\n\nBewegung + **in/auf/an …** + **den/die/das**",
+      "examples": [
+        {
+          "learning": "Ich lege das Buch auf den Tisch.",
+          "known": "I put the book on the table."
+        },
+        {
+          "learning": "Wir gehen heute Abend ins Kino.",
+          "known": "We're going to the cinema tonight."
+        }
+      ]
+    },
+    {
+      "id": "tb1-u32-l12-wechsel-p1-ex02",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I put the book on the table.",
+      "tiles": [
+        "Tisch",
+        "dem",
+        "Die",
+        "Ich",
+        "den",
+        "auf",
+        "Buch",
+        "Wir",
+        "das",
+        "lege"
+      ],
+      "answers": [
+        "Ich lege das Buch auf den Tisch."
+      ],
+      "explanation": "**Why:** Where to? auf den Tisch (accusative).\n\n*Warum:* Wohin? auf den Tisch (Akkusativ)."
+    },
+    {
+      "id": "tb1-u32-l12-wechsel-p1-ex03",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "We're going to the cinema tonight.",
+      "tiles": [
+        "steht",
+        "Kino",
+        "ins",
+        "vor",
+        "warte",
+        "Abend",
+        "gehen",
+        "Wir",
+        "heute"
+      ],
+      "answers": [
+        "Wir gehen heute Abend ins Kino."
+      ],
+      "explanation": "**Why:** in + das → ins (accusative).\n\n*Warum:* in + das → ins (Akkusativ)."
+    },
+    {
+      "id": "tb1-u32-l12-wechsel-p1-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Please put the bottles in the fridge.",
+      "tiles": [
+        "bitte",
+        "liegt",
+        "den",
+        "Flaschen",
+        "auf",
+        "die",
+        "in",
+        "Wir",
+        "Stell",
+        "Kühlschrank"
+      ],
+      "answers": [
+        "Stell die Flaschen bitte in den Kühlschrank."
+      ],
+      "explanation": "**Why:** stellen = movement → accusative.\n\n*Warum:* stellen = Bewegung → Akkusativ."
+    },
+    {
+      "id": "tb1-u32-l12-wechsel-p1-ex05",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "She hangs the picture on the wall.",
+      "tiles": [
+        "Sie",
+        "die",
+        "Testlücke-Stil",
+        "das",
+        "Wand",
+        "Kino",
+        "hängt",
+        "an",
+        "Bild",
+        "Wir"
+      ],
+      "answers": [
+        "Sie hängt das Bild an die Wand."
+      ],
+      "explanation": "**Why:** an die Wand (accusative feminine).\n\n*Warum:* an die Wand (Akkusativ feminin)."
+    },
+    {
+      "id": "tb1-u32-l12-wechsel-p1-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Sit down next to me!",
+      "tiles": [
+        "die",
+        "doch",
+        "mich",
+        "neben",
+        "heute",
+        "in",
+        "Setz",
+        "dich"
+      ],
+      "answers": [
+        "Setz dich doch neben mich!"
+      ],
+      "explanation": "**Why:** Where to? neben mich.\n\n*Warum:* Wohin? neben mich."
+    },
+    {
+      "id": "tb1-u32-l12-wechsel-p1-ex07",
+      "type": "explain",
+      "title": "Wo? → Dativ (Position)",
+      "body": "Place without direction: an, auf, in … + dative. Verbs: stehen, liegen, sitzen, hängen, sein.\n\n*Deutsch:* Ort ohne Richtung: an, auf, in … + Dativ. Verben: stehen, liegen, sitzen, hängen, sein.\n\n## Pattern\n\nPosition + **in/auf/an …** + **dem/der/dem**",
+      "examples": [
+        {
+          "learning": "Das Buch liegt auf dem Tisch.",
+          "known": "The book is on the table."
+        },
+        {
+          "learning": "Wir waren gestern im Kino.",
+          "known": "We were at the cinema yesterday."
+        }
+      ]
+    },
+    {
+      "id": "tb1-u32-l12-wechsel-p1-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "The book is on the table.",
+      "tiles": [
+        "den",
+        "Buch",
+        "auf",
+        "liegt",
+        "Tisch",
+        "Tasche",
+        "dem",
+        "Testlücke-Stil",
+        "Das"
+      ],
+      "answers": [
+        "Das Buch liegt auf dem Tisch."
+      ],
+      "explanation": "**Why:** Where? auf dem Tisch (dative).\n\n*Warum:* Wo? auf dem Tisch (Dativ)."
+    },
+    {
+      "id": "tb1-u32-l12-wechsel-p1-ex09",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "We were at the cinema yesterday.",
+      "tiles": [
+        "gestern",
+        "waren",
+        "Kino",
+        "vor",
+        "im",
+        "die",
+        "Bild",
+        "Wir"
+      ],
+      "answers": [
+        "Wir waren gestern im Kino."
+      ],
+      "explanation": "**Why:** in + dem → im (dative).\n\n*Warum:* in + dem → im (Dativ)."
+    },
+    {
+      "id": "tb1-u32-l12-wechsel-p1-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "The bottles are in the fridge.",
+      "tiles": [
+        "Flaschen",
+        "im",
+        "Abend",
+        "Ich",
+        "Die",
+        "heute",
+        "Kühlschrank",
+        "stehen"
+      ],
+      "answers": [
+        "Die Flaschen stehen im Kühlschrank."
+      ],
+      "explanation": "**Why:** stehen = position → dative.\n\n*Warum:* stehen = Position → Dativ."
+    },
+    {
+      "id": "tb1-u32-l12-wechsel-p1-ex11",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "The picture is hanging on the wall.",
+      "tiles": [
+        "Wand",
+        "hängt",
+        "Kino",
+        "an",
+        "Das",
+        "Die",
+        "Abend",
+        "der",
+        "Bild"
+      ],
+      "answers": [
+        "Das Bild hängt an der Wand."
+      ],
+      "explanation": "**Why:** an der Wand (dative feminine).\n\n*Warum:* an der Wand (Dativ feminin)."
+    },
+    {
+      "id": "tb1-u32-l12-wechsel-p1-ex12",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "The car is in front of the house.",
+      "tiles": [
+        "steht",
+        "vor",
+        "Die",
+        "im",
+        "Das",
+        "Auto",
+        "dem",
+        "Haus",
+        "Eingang"
+      ],
+      "answers": [
+        "Das Auto steht vor dem Haus."
+      ],
+      "explanation": "**Why:** Where? vor dem Haus.\n\n*Warum:* Wo? vor dem Haus."
+    },
+    {
+      "id": "tb1-u32-l12-wechsel-p1-ex13",
+      "type": "choice",
+      "title": "Fill the gap",
+      "prompt": "Wir gehen heute Abend ___ Kino.",
+      "options": [
+        {
+          "id": "a",
+          "text": "ins"
+        },
+        {
+          "id": "b",
+          "text": "im"
+        },
+        {
+          "id": "c",
+          "text": "in"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Wohin? → ins (= in das) Kino."
+    },
+    {
+      "id": "tb1-u32-l12-wechsel-p1-ex14",
+      "type": "choice",
+      "title": "Fill the gap",
+      "prompt": "Stell die Flasche bitte ___ Kühlschrank!",
+      "options": [
+        {
+          "id": "a",
+          "text": "im"
+        },
+        {
+          "id": "b",
+          "text": "in dem"
+        },
+        {
+          "id": "c",
+          "text": "in den"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "stellen = wohin? → Akkusativ: in den Kühlschrank."
+    },
+    {
+      "id": "tb1-u32-l12-wechsel-p1-ex15",
+      "type": "choice",
+      "title": "Fill the gap",
+      "prompt": "Der Schlüssel liegt ___ Tasche.",
+      "options": [
+        {
+          "id": "a",
+          "text": "in die"
+        },
+        {
+          "id": "b",
+          "text": "in der"
+        },
+        {
+          "id": "c",
+          "text": "auf die"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "liegen = wo? → Dativ: in der Tasche."
+    },
+    {
+      "id": "tb1-u32-l12-wechsel-p1-ex16",
+      "type": "choice",
+      "title": "Fill the gap",
+      "prompt": "Ich hänge das Bild ___ Wand. (an)",
+      "options": [
+        {
+          "id": "a",
+          "text": "an der"
+        },
+        {
+          "id": "b",
+          "text": "an die"
+        },
+        {
+          "id": "c",
+          "text": "an den"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Wohin? → Akkusativ: an die Wand."
+    }
+  ]
+}

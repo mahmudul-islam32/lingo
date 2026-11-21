@@ -1,0 +1,300 @@
+{
+  "id": "tb1-u32-l05-genitiv-p1",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u32",
+  "title": "Genitive & von + Dative: Genitiv & von + Dativ",
+  "tip": "“des Mann”, the -es is missing: des Mannes. And “Anna's Tasche” with an apostrophe is English, not German.",
+  "exercises": [
+    {
+      "id": "tb1-u32-l05-genitiv-p1-ex01",
+      "type": "explain",
+      "title": "Genitiv · Besitz",
+      "body": "des/eines + noun-(e)s (masc./neut.), der/einer (fem./plural).\n\n*Deutsch:* des/eines + Nomen-(e)s (mask./neutr.), der/einer (fem./Plural).\n\n## Pattern\n\nNomen + **des** + Nomen-**s** · **der** + Nomen",
+      "examples": [
+        {
+          "learning": "Das ist das Auto meines Bruders.",
+          "known": "That's my brother's car."
+        },
+        {
+          "learning": "Die Farbe der Jacke gefällt mir.",
+          "known": "I like the colour of the jacket."
+        }
+      ]
+    },
+    {
+      "id": "tb1-u32-l05-genitiv-p1-ex02",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "That's my brother's car.",
+      "tiles": [
+        "Geld",
+        "Das",
+        "das",
+        "Jacke",
+        "der",
+        "meines",
+        "Auto",
+        "ist",
+        "Bruders"
+      ],
+      "answers": [
+        "Das ist das Auto meines Bruders."
+      ],
+      "explanation": "**Why:** der Bruder → meines Bruders (+s).\n\n*Warum:* der Bruder → meines Bruders (+s)."
+    },
+    {
+      "id": "tb1-u32-l05-genitiv-p1-ex03",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I like the colour of the jacket.",
+      "tiles": [
+        "ist",
+        "Farbe",
+        "der",
+        "Jacke",
+        "Fahrrad",
+        "Die",
+        "Das",
+        "gefällt",
+        "mir"
+      ],
+      "answers": [
+        "Die Farbe der Jacke gefällt mir."
+      ],
+      "explanation": "**Why:** die Jacke → der Jacke (feminine).\n\n*Warum:* die Jacke → der Jacke (feminin)."
+    },
+    {
+      "id": "tb1-u32-l05-genitiv-p1-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "The hotel's name is “Sonne”.",
+      "tiles": [
+        "Sonne",
+        "Testlücke-Stil",
+        "Der",
+        "Hotels",
+        "Ende",
+        "Praxis",
+        "ist",
+        "Name",
+        "des"
+      ],
+      "answers": [
+        "Der Name des Hotels ist „Sonne“."
+      ],
+      "explanation": "**Why:** das Hotel → des Hotels.\n\n*Warum:* das Hotel → des Hotels."
+    },
+    {
+      "id": "tb1-u32-l05-genitiv-p1-ex05",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "That's Anna's bag.",
+      "tiles": [
+        "Tasche",
+        "Farbe",
+        "der",
+        "Annas",
+        "Das",
+        "Frau",
+        "ist"
+      ],
+      "answers": [
+        "Das ist Annas Tasche."
+      ],
+      "explanation": "**Why:** Names: just -s, no apostrophe.\n\n*Warum:* Namen: einfach -s, ohne Apostroph."
+    },
+    {
+      "id": "tb1-u32-l05-genitiv-p1-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "My parents' flat is very big.",
+      "tiles": [
+        "Praxis",
+        "Wohnung",
+        "Das",
+        "ist",
+        "meiner",
+        "kaputt",
+        "Eltern",
+        "sehr",
+        "groß",
+        "Die"
+      ],
+      "answers": [
+        "Die Wohnung meiner Eltern ist sehr groß."
+      ],
+      "explanation": "**Why:** Plural → meiner Eltern.\n\n*Warum:* Plural → meiner Eltern."
+    },
+    {
+      "id": "tb1-u32-l05-genitiv-p1-ex07",
+      "type": "explain",
+      "title": "von + Dativ (Alltag)",
+      "body": "In everyday speech people often use von + dative instead of the genitive.\n\n*Deutsch:* Im Alltag sagt man oft von + Dativ statt Genitiv.\n\n## Pattern\n\nNomen + **von** + **dem/der/meinem …**",
+      "examples": [
+        {
+          "learning": "Das ist das Auto von meinem Bruder.",
+          "known": "That's my brother's car."
+        },
+        {
+          "learning": "Kennst du die Telefonnummer von Frau Weber?",
+          "known": "Do you know Ms Weber's phone number?"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u32-l05-genitiv-p1-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "That's my brother's car.",
+      "tiles": [
+        "Frau",
+        "ist",
+        "Bruder",
+        "meinem",
+        "von",
+        "laut",
+        "Am",
+        "das",
+        "Das",
+        "Auto"
+      ],
+      "answers": [
+        "Das ist das Auto von meinem Bruder."
+      ],
+      "explanation": "**Why:** = das Auto meines Bruders.\n\n*Warum:* = das Auto meines Bruders."
+    },
+    {
+      "id": "tb1-u32-l05-genitiv-p1-ex09",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Do you know Ms Weber's phone number?",
+      "tiles": [
+        "meines",
+        "Frau",
+        "Kennst",
+        "Weber",
+        "Telefonnummer",
+        "Karte",
+        "von",
+        "du",
+        "mir",
+        "die"
+      ],
+      "answers": [
+        "Kennst du die Telefonnummer von Frau Weber?"
+      ],
+      "explanation": "**Why:** Very common with names.\n\n*Warum:* Mit Namen sehr häufig."
+    },
+    {
+      "id": "tb1-u32-l05-genitiv-p1-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Our neighbours' children are loud.",
+      "tiles": [
+        "von",
+        "sind",
+        "Wohnung",
+        "laut",
+        "Kinder",
+        "Nachbarn",
+        "Die",
+        "das",
+        "meinem",
+        "unseren"
+      ],
+      "answers": [
+        "Die Kinder von unseren Nachbarn sind laut."
+      ],
+      "explanation": "**Why:** von + dative plural: unseren Nachbarn.\n\n*Warum:* von + Dativ Plural: unseren Nachbarn."
+    },
+    {
+      "id": "tb1-u32-l05-genitiv-p1-ex11",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "My sister's bike is broken.",
+      "tiles": [
+        "kaputt",
+        "ist",
+        "Fahrrad",
+        "meiner",
+        "meinem",
+        "Schwester",
+        "von",
+        "Chefs",
+        "Das",
+        "Bruder"
+      ],
+      "answers": [
+        "Das Fahrrad von meiner Schwester ist kaputt."
+      ],
+      "explanation": "**Why:** von + dative feminine → meiner.\n\n*Warum:* von + Dativ feminin → meiner."
+    },
+    {
+      "id": "tb1-u32-l05-genitiv-p1-ex12",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "The doctor's address is on the card.",
+      "tiles": [
+        "Adresse",
+        "der",
+        "meinem",
+        "Die",
+        "Arzt",
+        "auf",
+        "vom",
+        "steht",
+        "Karte",
+        "Das",
+        "Frau"
+      ],
+      "answers": [
+        "Die Adresse vom Arzt steht auf der Karte."
+      ],
+      "explanation": "**Why:** von dem → vom.\n\n*Warum:* von dem → vom."
+    },
+    {
+      "id": "tb1-u32-l05-genitiv-p1-ex13",
+      "type": "choice",
+      "title": "Fill the gap",
+      "prompt": "Am Ende ___ Monats habe ich wenig Geld.",
+      "options": [
+        {
+          "id": "a",
+          "text": "des"
+        },
+        {
+          "id": "b",
+          "text": "der"
+        },
+        {
+          "id": "c",
+          "text": "dem"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Genitiv neutral/maskulin: des Monats."
+    },
+    {
+      "id": "tb1-u32-l05-genitiv-p1-ex14",
+      "type": "choice",
+      "title": "Fill the gap",
+      "prompt": "Umgangssprachliche Alternative zum Genitiv: „das Fahrrad ___“",
+      "options": [
+        {
+          "id": "a",
+          "text": "meines Sohn"
+        },
+        {
+          "id": "b",
+          "text": "von meinen Sohn"
+        },
+        {
+          "id": "c",
+          "text": "von meinem Sohn"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "von + Dativ: von meinem Sohn. (Oder korrekt: meines Sohnes)"
+    }
+  ]
+}

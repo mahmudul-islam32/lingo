@@ -1,0 +1,244 @@
+{
+  "id": "tb1-u17-l08-town-neighbourhood-3",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u17",
+  "title": "Town & Neighbourhood 3",
+  "tip": "Theme: Stadt / Nachbarschaft (B1)",
+  "exercises": [
+    {
+      "id": "tb1-u17-l08-town-neighbourhood-3-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "der Spielplatz",
+          "known": "playground"
+        },
+        {
+          "id": "p2",
+          "learning": "in der Nähe von ganz in der Nähe",
+          "known": "near"
+        },
+        {
+          "id": "p3",
+          "learning": "entfernt",
+          "known": "away"
+        },
+        {
+          "id": "p4",
+          "learning": "die Nachbarschaft",
+          "known": "neighbourhood"
+        },
+        {
+          "id": "p5",
+          "learning": "die Großstadt",
+          "known": "big city"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u17-l08-town-neighbourhood-3-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „playground“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Straße, die Straßen · die Kreuzung, die Kreuzungen · die Ampel, die Ampeln"
+        },
+        {
+          "id": "b",
+          "text": "der Platz, die Plätze · die Brücke, die Brücken"
+        },
+        {
+          "id": "c",
+          "text": "der Spielplatz, die Spielplätze"
+        },
+        {
+          "id": "d",
+          "text": "die Großstadt, die Großstädte ↔ das Dorf, die Dörfer"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**der Spielplatz** = playground\n*Plural: die Spielplätze*\n\n*Example:* Nachmittags spielen die Kinder auf dem Spielplatz hinter dem Haus.\nIn the afternoons the children play at the playground behind the building."
+    },
+    {
+      "id": "tb1-u17-l08-town-neighbourhood-3-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which one means „near: very close by“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "am Stadtrand"
+        },
+        {
+          "id": "b",
+          "text": "in der Nähe von + Dat. ganz in der Nähe"
+        },
+        {
+          "id": "c",
+          "text": "den Schlüssel abgeben: der Schlüssel, die Schlüssel"
+        },
+        {
+          "id": "d",
+          "text": "aufpassen auf + Akk. auf die Katze aufpassen"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**in der Nähe von + Dat. ganz in der Nähe** = near: very close by\n\n*Example:* Wir wohnen in der Nähe vom Bahnhof, der Supermarkt ist ganz in der Nähe.\nWe live near the station; the supermarket is very close by."
+    },
+    {
+      "id": "tb1-u17-l08-town-neighbourhood-3-ex04",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u17-l08-town-neighbourhood-3-1.mp3"
+      },
+      "tiles": [
+        "dem",
+        "Spielplatz",
+        "Könntest",
+        "die",
+        "hinter",
+        "auf",
+        "unserem",
+        "dem",
+        "Kinder",
+        "wohnen",
+        "Haus",
+        "Nachmittags",
+        "spielen"
+      ],
+      "answers": [
+        "Nachmittags spielen die Kinder auf dem Spielplatz hinter dem Haus."
+      ],
+      "explanation": "Nachmittags spielen die Kinder auf dem Spielplatz hinter dem Haus.\n*In the afternoons the children play at the playground behind the building.*\n\n**der Spielplatz** = playground\n*Plural: die Spielplätze*"
+    },
+    {
+      "id": "tb1-u17-l08-town-neighbourhood-3-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which one means „away: ten minutes away on foot“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "entfernt: zehn Minuten zu Fuß entfernt"
+        },
+        {
+          "id": "b",
+          "text": "den Schlüssel abgeben: der Schlüssel, die Schlüssel"
+        },
+        {
+          "id": "c",
+          "text": "in der Nähe von + Dat. ganz in der Nähe"
+        },
+        {
+          "id": "d",
+          "text": "am Stadtrand"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**entfernt: zehn Minuten zu Fuß entfernt** = away: ten minutes away on foot\n\n*Example:* Die Schule ist nur zehn Minuten zu Fuß entfernt.\nThe school is only ten minutes away on foot."
+    },
+    {
+      "id": "tb1-u17-l08-town-neighbourhood-3-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Wir wohnen in der Nähe vom Bahnhof, der Supermarkt ist ganz in der Nähe.",
+      "tiles": [
+        "or",
+        "is",
+        "the",
+        "near",
+        "very",
+        "supermarket",
+        "My",
+        "live",
+        "We",
+        "close",
+        "the",
+        "at",
+        "by",
+        "station"
+      ],
+      "answers": [
+        "We live near the station; the supermarket is very close by."
+      ],
+      "explanation": "**in der Nähe von + Dat. ganz in der Nähe** = near: very close by"
+    },
+    {
+      "id": "tb1-u17-l08-town-neighbourhood-3-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „neighbourhood: neighbour“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Straße, die Straßen · die Kreuzung, die Kreuzungen · die Ampel, die Ampeln"
+        },
+        {
+          "id": "b",
+          "text": "die Großstadt, die Großstädte ↔ das Dorf, die Dörfer"
+        },
+        {
+          "id": "c",
+          "text": "die Nachbarschaft (nur Sg.), der Nachbar (n-Dekl., → D4)"
+        },
+        {
+          "id": "d",
+          "text": "die Bibliothek, die Bibliotheken · das Museum, die Museen"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**die Nachbarschaft (nur Sg.), der Nachbar (n-Dekl., → D4)** = neighbourhood: neighbour\n\n*Example:* Ich fühle mich in meiner Nachbarschaft wohl, die Nachbarn sind sehr nett.\nI feel at home in my neighbourhood; the neighbours are very nice."
+    },
+    {
+      "id": "tb1-u17-l08-town-neighbourhood-3-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "The school is only ten minutes away on foot.",
+      "tiles": [
+        "Verkehrsmittel",
+        "Schule",
+        "zehn",
+        "entfernt",
+        "Fuß",
+        "ist",
+        "Die",
+        "leeren",
+        "ganz",
+        "Minuten",
+        "zu",
+        "nur"
+      ],
+      "answers": [
+        "Die Schule ist nur zehn Minuten zu Fuß entfernt."
+      ],
+      "explanation": "**entfernt: zehn Minuten zu Fuß entfernt** = away: ten minutes away on foot"
+    },
+    {
+      "id": "tb1-u17-l08-town-neighbourhood-3-ex09",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u17-l08-town-neighbourhood-3-4.mp3"
+      },
+      "tiles": [
+        "wohl",
+        "mich",
+        "sind",
+        "Dorf",
+        "sehr",
+        "Nachbarschaft",
+        "nett",
+        "Ich",
+        "Nachbarn",
+        "die",
+        "fühle",
+        "in",
+        "bitte",
+        "meiner",
+        "ist"
+      ],
+      "answers": [
+        "Ich fühle mich in meiner Nachbarschaft wohl, die Nachbarn sind sehr nett."
+      ],
+      "explanation": "Ich fühle mich in meiner Nachbarschaft wohl, die Nachbarn sind sehr nett.\n*I feel at home in my neighbourhood; the neighbours are very nice.*\n\n**die Nachbarschaft (nur Sg.), der Nachbar (n-Dekl., → D4)** = neighbourhood: neighbour"
+    }
+  ]
+}

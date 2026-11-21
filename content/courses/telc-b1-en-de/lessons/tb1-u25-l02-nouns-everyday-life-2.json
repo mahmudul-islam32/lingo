@@ -1,0 +1,289 @@
+{
+  "id": "tb1-u25-l02-nouns-everyday-life-2",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u25",
+  "title": "Nouns: Everyday Life 2",
+  "tip": "Theme: Nomen: Alltag & Leben (B1)",
+  "exercises": [
+    {
+      "id": "tb1-u25-l02-nouns-everyday-life-2-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "das Ende",
+          "known": "end"
+        },
+        {
+          "id": "p2",
+          "learning": "das Land",
+          "known": "country / countryside"
+        },
+        {
+          "id": "p3",
+          "learning": "die Welt",
+          "known": "world"
+        },
+        {
+          "id": "p4",
+          "learning": "die Gruppe",
+          "known": "group"
+        },
+        {
+          "id": "p5",
+          "learning": "das Paar",
+          "known": "couple / pair"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u25-l02-nouns-everyday-life-2-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „end“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "das Land, die Länder"
+        },
+        {
+          "id": "b",
+          "text": "das Gesetz, die Gesetze"
+        },
+        {
+          "id": "c",
+          "text": "das Ende, die Enden"
+        },
+        {
+          "id": "d",
+          "text": "der Haushalt, die Haushalte"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**das Ende** = end\n*Plural: die Enden*\n\n*Example:* Am Ende des Monats habe ich oft kein Geld mehr.\nAt the end of the month I often have no money left."
+    },
+    {
+      "id": "tb1-u25-l02-nouns-everyday-life-2-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „country / countryside“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Übersicht, die Übersichten"
+        },
+        {
+          "id": "b",
+          "text": "das Land, die Länder"
+        },
+        {
+          "id": "c",
+          "text": "die Welt, die Welten"
+        },
+        {
+          "id": "d",
+          "text": "das Forum, die Foren"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**das Land** = country / countryside\n*Plural: die Länder*\n\n*Example:* Meine Großeltern wohnen auf dem Land in einem kleinen Dorf.\nMy grandparents live in the countryside in a small village."
+    },
+    {
+      "id": "tb1-u25-l02-nouns-everyday-life-2-ex04",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u25-l02-nouns-everyday-life-2-1.mp3"
+      },
+      "tiles": [
+        "Kinder",
+        "Ende",
+        "oft",
+        "kein",
+        "des",
+        "den",
+        "mehr",
+        "Monats",
+        "Am",
+        "allen",
+        "habe",
+        "Geld",
+        "ich"
+      ],
+      "answers": [
+        "Am Ende des Monats habe ich oft kein Geld mehr."
+      ],
+      "explanation": "Am Ende des Monats habe ich oft kein Geld mehr.\n*At the end of the month I often have no money left.*\n\n**das Ende** = end\n*Plural: die Enden*"
+    },
+    {
+      "id": "tb1-u25-l02-nouns-everyday-life-2-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „world“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Polizei"
+        },
+        {
+          "id": "b",
+          "text": "der Tourismus"
+        },
+        {
+          "id": "c",
+          "text": "die Hälfte, die Hälften"
+        },
+        {
+          "id": "d",
+          "text": "die Welt, die Welten"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**die Welt** = world\n*Plural: die Welten*\n\n*Example:* Mein Onkel ist schon um die halbe Welt gereist.\nMy uncle has already travelled halfway around the world."
+    },
+    {
+      "id": "tb1-u25-l02-nouns-everyday-life-2-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Meine Großeltern wohnen auf dem Land in einem kleinen Dorf.",
+      "tiles": [
+        "grandparents",
+        "a",
+        "people",
+        "village",
+        "My",
+        "small",
+        "countryside",
+        "of",
+        "in",
+        "in",
+        "son",
+        "the",
+        "live"
+      ],
+      "answers": [
+        "My grandparents live in the countryside in a small village."
+      ],
+      "explanation": "**das Land** = country / countryside\n*Plural: die Länder*"
+    },
+    {
+      "id": "tb1-u25-l02-nouns-everyday-life-2-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „group“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "das Ende, die Enden"
+        },
+        {
+          "id": "b",
+          "text": "die Gruppe, die Gruppen"
+        },
+        {
+          "id": "c",
+          "text": "die Insel, die Inseln"
+        },
+        {
+          "id": "d",
+          "text": "der Raum, die Räume"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**die Gruppe** = group\n*Plural: die Gruppen*\n\n*Example:* Im Kurs arbeiten wir heute in kleinen Gruppen.\nToday in the course we're working in small groups."
+    },
+    {
+      "id": "tb1-u25-l02-nouns-everyday-life-2-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "My uncle has already travelled halfway around the world.",
+      "tiles": [
+        "die",
+        "schon",
+        "Mein",
+        "Welt",
+        "um",
+        "ist",
+        "Feuerwehr",
+        "Berlin",
+        "gereist",
+        "halbe",
+        "Onkel",
+        "Mitbewohner"
+      ],
+      "answers": [
+        "Mein Onkel ist schon um die halbe Welt gereist."
+      ],
+      "explanation": "**die Welt** = world\n*Plural: die Welten*"
+    },
+    {
+      "id": "tb1-u25-l02-nouns-everyday-life-2-ex09",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „couple / pair“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Feuerwehr"
+        },
+        {
+          "id": "b",
+          "text": "das Ferienhaus, die Ferienhäuser"
+        },
+        {
+          "id": "c",
+          "text": "das Projekt, die Projekte"
+        },
+        {
+          "id": "d",
+          "text": "das Paar, die Paare"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**das Paar** = couple / pair\n*Plural: die Paare*\n\n*Example:* Ich brauche ein neues Paar Schuhe für den Winter.\nI need a new pair of shoes for the winter."
+    },
+    {
+      "id": "tb1-u25-l02-nouns-everyday-life-2-ex10",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u25-l02-nouns-everyday-life-2-4.mp3"
+      },
+      "tiles": [
+        "kleinen",
+        "wir",
+        "Kurs",
+        "heute",
+        "Gruppen",
+        "in",
+        "auf",
+        "arbeiten",
+        "Im",
+        "es",
+        "schon"
+      ],
+      "answers": [
+        "Im Kurs arbeiten wir heute in kleinen Gruppen."
+      ],
+      "explanation": "Im Kurs arbeiten wir heute in kleinen Gruppen.\n*Today in the course we're working in small groups.*\n\n**die Gruppe** = group\n*Plural: die Gruppen*"
+    },
+    {
+      "id": "tb1-u25-l02-nouns-everyday-life-2-ex11",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Ich brauche ein neues Paar Schuhe für den Winter.",
+      "tiles": [
+        "for",
+        "pair",
+        "of",
+        "accident",
+        "the",
+        "a",
+        "winter",
+        "new",
+        "I",
+        "need",
+        "shoes",
+        "brigade",
+        "often"
+      ],
+      "answers": [
+        "I need a new pair of shoes for the winter."
+      ],
+      "explanation": "**das Paar** = couple / pair\n*Plural: die Paare*"
+    }
+  ]
+}

@@ -1,0 +1,235 @@
+{
+  "id": "tb1-u04-l08-animals-nature-4",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u04",
+  "title": "Animals & Nature 4",
+  "tip": "Theme: Tiere & Natur (A1)",
+  "exercises": [
+    {
+      "id": "tb1-u04-l08-animals-nature-4-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "der Berg",
+          "known": "mountain"
+        },
+        {
+          "id": "p2",
+          "learning": "der Fluss",
+          "known": "river"
+        },
+        {
+          "id": "p3",
+          "learning": "die Luft",
+          "known": "air"
+        },
+        {
+          "id": "p4",
+          "learning": "das Feuer",
+          "known": "fire"
+        },
+        {
+          "id": "p5",
+          "learning": "das Tier",
+          "known": "animal"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u04-l08-animals-nature-4-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „mountain“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "das Feuer"
+        },
+        {
+          "id": "b",
+          "text": "die Blume, die Blumen"
+        },
+        {
+          "id": "c",
+          "text": "der Berg, die Berge"
+        },
+        {
+          "id": "d",
+          "text": "der Fluss, die Flüsse"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**der Berg** = mountain\n*Plural: die Berge*\n\n*Example:* Mein Freund wandert gern in den Bergen.\nMy friend likes hiking in the mountains."
+    },
+    {
+      "id": "tb1-u04-l08-animals-nature-4-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „river“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "das Meer, die Meere"
+        },
+        {
+          "id": "b",
+          "text": "das Feuer"
+        },
+        {
+          "id": "c",
+          "text": "der Fluss, die Flüsse"
+        },
+        {
+          "id": "d",
+          "text": "der See, die Seen"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**der Fluss** = river\n*Plural: die Flüsse*\n\n*Example:* Köln liegt an einem großen Fluss, dem Rhein.\nCologne is on a big river, the Rhine."
+    },
+    {
+      "id": "tb1-u04-l08-animals-nature-4-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "My friend likes hiking in the mountains.",
+      "tiles": [
+        "in",
+        "wandert",
+        "steht",
+        "Freund",
+        "Garten",
+        "auf",
+        "Mein",
+        "den",
+        "Bergen",
+        "gern"
+      ],
+      "answers": [
+        "Mein Freund wandert gern in den Bergen."
+      ],
+      "explanation": "**der Berg** = mountain\n*Plural: die Berge*"
+    },
+    {
+      "id": "tb1-u04-l08-animals-nature-4-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „air“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "das Pferd, die Pferde"
+        },
+        {
+          "id": "b",
+          "text": "der Vogel, die Vögel"
+        },
+        {
+          "id": "c",
+          "text": "der Fluss, die Flüsse"
+        },
+        {
+          "id": "d",
+          "text": "die Luft"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**die Luft** = air\n\n*Example:* Auf dem Land ist die Luft viel sauberer als in der Stadt.\nThe air in the countryside is much cleaner than in the city."
+    },
+    {
+      "id": "tb1-u04-l08-animals-nature-4-ex06",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u04-l08-animals-nature-4-2.mp3"
+      },
+      "tiles": [
+        "an",
+        "Fluss",
+        "liegt",
+        "ein",
+        "Rhein",
+        "Land",
+        "dem",
+        "Geburtstag",
+        "großen",
+        "Köln",
+        "einem"
+      ],
+      "answers": [
+        "Köln liegt an einem großen Fluss, dem Rhein."
+      ],
+      "explanation": "Köln liegt an einem großen Fluss, dem Rhein.\n*Cologne is on a big river, the Rhine.*\n\n**der Fluss** = river\n*Plural: die Flüsse*"
+    },
+    {
+      "id": "tb1-u04-l08-animals-nature-4-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „fire“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "der Berg, die Berge"
+        },
+        {
+          "id": "b",
+          "text": "das Feuer"
+        },
+        {
+          "id": "c",
+          "text": "der See, die Seen"
+        },
+        {
+          "id": "d",
+          "text": "der Wald, die Wälder"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**das Feuer** = fire\n\n*Example:* Beim Camping machen wir abends ein Feuer.\nWhen we go camping, we make a fire in the evening."
+    },
+    {
+      "id": "tb1-u04-l08-animals-nature-4-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Auf dem Land ist die Luft viel sauberer als in der Stadt.",
+      "tiles": [
+        "moon",
+        "the",
+        "is",
+        "cleaner",
+        "than",
+        "air",
+        "our",
+        "in",
+        "the",
+        "The",
+        "city",
+        "in",
+        "countryside",
+        "big",
+        "much"
+      ],
+      "answers": [
+        "The air in the countryside is much cleaner than in the city."
+      ],
+      "explanation": "**die Luft** = air"
+    },
+    {
+      "id": "tb1-u04-l08-animals-nature-4-ex09",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "When we go camping, we make a fire in the evening.",
+      "tiles": [
+        "Auf",
+        "wir",
+        "können",
+        "Camping",
+        "nicht",
+        "Beim",
+        "abends",
+        "ein",
+        "Feuer",
+        "machen"
+      ],
+      "answers": [
+        "Beim Camping machen wir abends ein Feuer."
+      ],
+      "explanation": "**das Feuer** = fire"
+    }
+  ]
+}

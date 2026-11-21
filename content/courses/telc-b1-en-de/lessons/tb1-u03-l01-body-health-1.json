@@ -1,0 +1,286 @@
+{
+  "id": "tb1-u03-l01-body-health-1",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u03",
+  "title": "Body & Health 1",
+  "tip": "Theme: Körper & Gesundheit (A1)",
+  "exercises": [
+    {
+      "id": "tb1-u03-l01-body-health-1-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "der Kopf",
+          "known": "head"
+        },
+        {
+          "id": "p2",
+          "learning": "das Auge",
+          "known": "eye"
+        },
+        {
+          "id": "p3",
+          "learning": "das Ohr",
+          "known": "ear"
+        },
+        {
+          "id": "p4",
+          "learning": "die Nase",
+          "known": "nose"
+        },
+        {
+          "id": "p5",
+          "learning": "der Mund",
+          "known": "mouth"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u03-l01-body-health-1-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „head“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "der Arm, die Arme"
+        },
+        {
+          "id": "b",
+          "text": "die Nase, die Nasen"
+        },
+        {
+          "id": "c",
+          "text": "der Zahn, die Zähne"
+        },
+        {
+          "id": "d",
+          "text": "der Kopf, die Köpfe"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**der Kopf** = head\n*Plural: die Köpfe*\n\n*Example:* Seit heute Morgen tut mir der Kopf weh.\nMy head has been hurting since this morning."
+    },
+    {
+      "id": "tb1-u03-l01-body-health-1-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „eye“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Nase, die Nasen"
+        },
+        {
+          "id": "b",
+          "text": "das Auge, die Augen"
+        },
+        {
+          "id": "c",
+          "text": "der Kopf, die Köpfe"
+        },
+        {
+          "id": "d",
+          "text": "der Mund, die Münder"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**das Auge** = eye\n*Plural: die Augen*\n\n*Example:* Meine Augen sind müde, weil ich lange am Computer gearbeitet habe.\nMy eyes are tired because I worked at the computer for a long time."
+    },
+    {
+      "id": "tb1-u03-l01-body-health-1-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Seit heute Morgen tut mir der Kopf weh.",
+      "tiles": [
+        "this",
+        "been",
+        "and",
+        "time",
+        "morning",
+        "head",
+        "hurting",
+        "My",
+        "has",
+        "healthy",
+        "since"
+      ],
+      "answers": [
+        "My head has been hurting since this morning."
+      ],
+      "explanation": "**der Kopf** = head\n*Plural: die Köpfe*"
+    },
+    {
+      "id": "tb1-u03-l01-body-health-1-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „ear“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "das Herz, die Herzen"
+        },
+        {
+          "id": "b",
+          "text": "die Schmerzen (Pl.)"
+        },
+        {
+          "id": "c",
+          "text": "der Fuß, die Füße"
+        },
+        {
+          "id": "d",
+          "text": "das Ohr, die Ohren"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**das Ohr** = ear\n*Plural: die Ohren*\n\n*Example:* Das Kind hat Schmerzen im linken Ohr.\nThe child has pain in the left ear."
+    },
+    {
+      "id": "tb1-u03-l01-body-health-1-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "My eyes are tired because I worked at the computer for a long time.",
+      "tiles": [
+        "müde",
+        "weil",
+        "gesund",
+        "Augen",
+        "sind",
+        "Meine",
+        "ich",
+        "Computer",
+        "starke",
+        "habe",
+        "Mein",
+        "gearbeitet",
+        "am",
+        "lange"
+      ],
+      "answers": [
+        "Meine Augen sind müde, weil ich lange am Computer gearbeitet habe."
+      ],
+      "explanation": "**das Auge** = eye\n*Plural: die Augen*"
+    },
+    {
+      "id": "tb1-u03-l01-body-health-1-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „nose“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "der Fuß, die Füße"
+        },
+        {
+          "id": "b",
+          "text": "das Auge, die Augen"
+        },
+        {
+          "id": "c",
+          "text": "das Herz, die Herzen"
+        },
+        {
+          "id": "d",
+          "text": "die Nase, die Nasen"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**die Nase** = nose\n*Plural: die Nasen*\n\n*Example:* Ich bin erkältet und meine Nase läuft.\nI have a cold and my nose is running."
+    },
+    {
+      "id": "tb1-u03-l01-body-health-1-ex08",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u03-l01-body-health-1-3.mp3"
+      },
+      "tiles": [
+        "im",
+        "Fuß",
+        "Das",
+        "hat",
+        "linken",
+        "weit",
+        "Ohr",
+        "Knie",
+        "Kind",
+        "Schmerzen"
+      ],
+      "answers": [
+        "Das Kind hat Schmerzen im linken Ohr."
+      ],
+      "explanation": "Das Kind hat Schmerzen im linken Ohr.\n*The child has pain in the left ear.*\n\n**das Ohr** = ear\n*Plural: die Ohren*"
+    },
+    {
+      "id": "tb1-u03-l01-body-health-1-ex09",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „mouth“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "der Mund, die Münder"
+        },
+        {
+          "id": "b",
+          "text": "das Herz, die Herzen"
+        },
+        {
+          "id": "c",
+          "text": "die Hand, die Hände"
+        },
+        {
+          "id": "d",
+          "text": "der Rücken, die Rücken"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**der Mund** = mouth\n*Plural: die Münder*\n\n*Example:* Bitte machen Sie den Mund weit auf, sagt der Zahnarzt.\nPlease open your mouth wide, says the dentist."
+    },
+    {
+      "id": "tb1-u03-l01-body-health-1-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Ich bin erkältet und meine Nase läuft.",
+      "tiles": [
+        "Please",
+        "running",
+        "I",
+        "nose",
+        "is",
+        "have",
+        "cold",
+        "my",
+        "and",
+        "twice",
+        "often",
+        "a"
+      ],
+      "answers": [
+        "I have a cold and my nose is running."
+      ],
+      "explanation": "**die Nase** = nose\n*Plural: die Nasen*"
+    },
+    {
+      "id": "tb1-u03-l01-body-health-1-ex11",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Please open your mouth wide, says the dentist.",
+      "tiles": [
+        "den",
+        "der",
+        "Mund",
+        "sagt",
+        "machen",
+        "auf",
+        "Bitte",
+        "habe",
+        "tut",
+        "weit",
+        "Sie",
+        "Zahnarzt",
+        "putzen"
+      ],
+      "answers": [
+        "Bitte machen Sie den Mund weit auf, sagt der Zahnarzt."
+      ],
+      "explanation": "**der Mund** = mouth\n*Plural: die Münder*"
+    }
+  ]
+}

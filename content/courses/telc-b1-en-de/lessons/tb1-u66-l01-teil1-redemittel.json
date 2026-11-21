@@ -1,0 +1,339 @@
+{
+  "id": "tb1-u66-l01-teil1-redemittel",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u66",
+  "title": "Teil 1 · Redemittel: introducing yourself",
+  "tip": "Talk to your partner, not to the examiners.",
+  "exercises": [
+    {
+      "id": "tb1-u66-l01-teil1-redemittel-ex01",
+      "type": "explain",
+      "title": "Teil 1 · Kontaktaufnahme",
+      "body": "**Teil 1: Einander kennenlernen** (ca. 3 Minuten)\nSie stellen sich gegenseitig vor und stellen einander Fragen. Die Stichpunkte auf dem Blatt sind nur Orientierung. Sprechen Sie mit Ihrer Partnerin/Ihrem Partner, nicht mit den Prüfenden.\n\n*You introduce yourselves and ask each other questions. The key words on the sheet are only a guide. Talk to your partner, not to the examiners.*\n\n## Stichpunkte\n\n- Name\n- Wohnort\n- Woher Sie kommen\n- Wie lange schon in Deutschland\n- Familie\n- Beruf / Arbeit\n- Sprachen\n- Deutsch lernen: wie lange, wo\n- Hobbys / Freizeit\n- Tagesablauf\n- Wochenende\n- Urlaub\n- Lieblingsessen\n- Sport\n- Zukunftspläne"
+    },
+    {
+      "id": "tb1-u66-l01-teil1-redemittel-ex02",
+      "type": "explain",
+      "title": "Redemittel Teil 1: Über sich sprechen",
+      "body": "- **Ich heiße … / Mein Name ist …**: My name is …\n- **Ich komme aus … und wohne jetzt in …**: I'm from … and live in … now.\n- **Ich bin seit … Jahren in Deutschland.**: I've been in Germany for … years.\n- **Von Beruf bin ich … / Ich arbeite als …**: I'm a … by profession.\n- **Ich lerne seit … Monaten Deutsch, und zwar an der Volkshochschule.**: I've been learning German for … months, at the adult education centre.\n- **In meiner Freizeit … ich gern.**: In my free time I like to …\n- **Am Wochenende … ich meistens …**: At the weekend I usually …",
+      "examples": [
+        {
+          "learning": "Ich heiße … / Mein Name ist …",
+          "known": "My name is …"
+        },
+        {
+          "learning": "Ich komme aus … und wohne jetzt in …",
+          "known": "I'm from … and live in … now."
+        },
+        {
+          "learning": "Ich bin seit … Jahren in Deutschland.",
+          "known": "I've been in Germany for … years."
+        },
+        {
+          "learning": "Von Beruf bin ich … / Ich arbeite als …",
+          "known": "I'm a … by profession."
+        },
+        {
+          "learning": "Ich lerne seit … Monaten Deutsch, und zwar an der Volkshochschule.",
+          "known": "I've been learning German for … months, at the adult education centre."
+        },
+        {
+          "learning": "In meiner Freizeit … ich gern.",
+          "known": "In my free time I like to …"
+        },
+        {
+          "learning": "Am Wochenende … ich meistens …",
+          "known": "At the weekend I usually …"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u66-l01-teil1-redemittel-ex03",
+      "type": "explain",
+      "title": "Redemittel Teil 1: Fragen an die Partnerin / den Partner",
+      "body": "- **Und du? Wie ist das bei dir?**: And you? How is it for you?\n- **Woher kommst du eigentlich?**: Where are you from, actually?\n- **Wie lange lernst du schon Deutsch?**: How long have you been learning German?\n- **Was machst du beruflich?**: What do you do for a living?\n- **Was machst du gern in deiner Freizeit?**: What do you like doing in your free time?\n- **Hast du Familie hier in Deutschland?**: Do you have family here in Germany?\n- **Das ist ja interessant! Erzähl mal mehr davon.**: That's interesting! Tell me more.",
+      "examples": [
+        {
+          "learning": "Und du? Wie ist das bei dir?",
+          "known": "And you? How is it for you?"
+        },
+        {
+          "learning": "Woher kommst du eigentlich?",
+          "known": "Where are you from, actually?"
+        },
+        {
+          "learning": "Wie lange lernst du schon Deutsch?",
+          "known": "How long have you been learning German?"
+        },
+        {
+          "learning": "Was machst du beruflich?",
+          "known": "What do you do for a living?"
+        },
+        {
+          "learning": "Was machst du gern in deiner Freizeit?",
+          "known": "What do you like doing in your free time?"
+        },
+        {
+          "learning": "Hast du Familie hier in Deutschland?",
+          "known": "Do you have family here in Germany?"
+        },
+        {
+          "learning": "Das ist ja interessant! Erzähl mal mehr davon.",
+          "known": "That's interesting! Tell me more."
+        }
+      ]
+    },
+    {
+      "id": "tb1-u66-l01-teil1-redemittel-ex04",
+      "type": "choice",
+      "title": "Über sich sprechen",
+      "prompt": "Welcher Satz passt zur Funktion „Über sich sprechen“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ich heiße … / Mein Name ist …"
+        },
+        {
+          "id": "b",
+          "text": "Es tut mir leid, aber da kann ich dir nicht zustimmen. Besser wäre es, wenn …"
+        },
+        {
+          "id": "c",
+          "text": "Woher kommst du eigentlich?"
+        },
+        {
+          "id": "d",
+          "text": "Ich hätte einen Vorschlag: Wir könnten …"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Phrases for **Über sich sprechen**:\n\n- Ich heiße … / Mein Name ist … (My name is …)\n- Ich komme aus … und wohne jetzt in … (I'm from … and live in … now.)\n- Ich bin seit … Jahren in Deutschland. (I've been in Germany for … years.)\n- Von Beruf bin ich … / Ich arbeite als … (I'm a … by profession.)\n- Ich lerne seit … Monaten Deutsch, und zwar an der Volkshochschule. (I've been learning German for … months, at the adult education centre.)\n- In meiner Freizeit … ich gern. (In my free time I like to …)\n- Am Wochenende … ich meistens … (At the weekend I usually …)"
+    },
+    {
+      "id": "tb1-u66-l01-teil1-redemittel-ex05",
+      "type": "choice",
+      "title": "Fragen an die Partnerin / den Partner",
+      "prompt": "Welcher Satz passt zur Funktion „Fragen an die Partnerin / den Partner“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "In meinem Heimatland ist es üblich, dass …"
+        },
+        {
+          "id": "b",
+          "text": "Bei mir war es so: …"
+        },
+        {
+          "id": "c",
+          "text": "Ich lerne seit … Monaten Deutsch, und zwar an der Volkshochschule."
+        },
+        {
+          "id": "d",
+          "text": "Woher kommst du eigentlich?"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Phrases for **Fragen an die Partnerin / den Partner**:\n\n- Und du? Wie ist das bei dir? (And you? How is it for you?)\n- Woher kommst du eigentlich? (Where are you from, actually?)\n- Wie lange lernst du schon Deutsch? (How long have you been learning German?)\n- Was machst du beruflich? (What do you do for a living?)\n- Was machst du gern in deiner Freizeit? (What do you like doing in your free time?)\n- Hast du Familie hier in Deutschland? (Do you have family here in Germany?)\n- Das ist ja interessant! Erzähl mal mehr davon. (That's interesting! Tell me more.)"
+    },
+    {
+      "id": "tb1-u66-l01-teil1-redemittel-ex06",
+      "type": "choice",
+      "prompt": "Which phrase means: “My name is …”?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Wie meinst du das genau?"
+        },
+        {
+          "id": "b",
+          "text": "Was hältst du davon, wenn wir …?"
+        },
+        {
+          "id": "c",
+          "text": "Und du? Wie ist das bei dir?"
+        },
+        {
+          "id": "d",
+          "text": "Ich heiße … / Mein Name ist …"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**Ich heiße … / Mein Name ist …**: My name is … (Über sich sprechen)"
+    },
+    {
+      "id": "tb1-u66-l01-teil1-redemittel-ex07",
+      "type": "choice",
+      "prompt": "Which phrase means: “I'm from … and live in … now.”?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Das finde ich nicht so gut. Ich habe eine andere Idee: …"
+        },
+        {
+          "id": "b",
+          "text": "Ich komme aus … und wohne jetzt in …"
+        },
+        {
+          "id": "c",
+          "text": "Und du? Wie ist das bei dir?"
+        },
+        {
+          "id": "d",
+          "text": "Wie meinst du das genau?"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Ich komme aus … und wohne jetzt in …**: I'm from … and live in … now. (Über sich sprechen)"
+    },
+    {
+      "id": "tb1-u66-l01-teil1-redemittel-ex08",
+      "type": "choice",
+      "prompt": "Which phrase means: “I've been in Germany for … years.”?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ich finde es besser, wenn …"
+        },
+        {
+          "id": "b",
+          "text": "Ich bin seit … Jahren in Deutschland."
+        },
+        {
+          "id": "c",
+          "text": "Und wie ist das bei dir?"
+        },
+        {
+          "id": "d",
+          "text": "Ich sehe das (ganz) ähnlich, weil …"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Ich bin seit … Jahren in Deutschland.**: I've been in Germany for … years. (Über sich sprechen)"
+    },
+    {
+      "id": "tb1-u66-l01-teil1-redemittel-ex09",
+      "type": "choice",
+      "prompt": "Which phrase means: “I'm a … by profession.”?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Von Beruf bin ich … / Ich arbeite als …"
+        },
+        {
+          "id": "b",
+          "text": "Ich finde es interessant, dass …"
+        },
+        {
+          "id": "c",
+          "text": "Wie lange lernst du schon Deutsch?"
+        },
+        {
+          "id": "d",
+          "text": "Wollen wir …?"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Von Beruf bin ich … / Ich arbeite als …**: I'm a … by profession. (Über sich sprechen)"
+    },
+    {
+      "id": "tb1-u66-l01-teil1-redemittel-ex10",
+      "type": "choice",
+      "prompt": "Which phrase means: “I've been learning German for … months, at the adult education centre.”?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Nach ihrer/seiner Meinung sollte man …"
+        },
+        {
+          "id": "b",
+          "text": "Hast du Familie hier in Deutschland?"
+        },
+        {
+          "id": "c",
+          "text": "Ich lerne seit … Monaten Deutsch, und zwar an der Volkshochschule."
+        },
+        {
+          "id": "d",
+          "text": "Ich kümmere mich um … Kümmerst du dich um …?"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**Ich lerne seit … Monaten Deutsch, und zwar an der Volkshochschule.**: I've been learning German for … months, at the adult education centre. (Über sich sprechen)"
+    },
+    {
+      "id": "tb1-u66-l01-teil1-redemittel-ex11",
+      "type": "choice",
+      "prompt": "Which phrase means: “In my free time I like to …”?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Sie/Er sagt außerdem, dass …"
+        },
+        {
+          "id": "b",
+          "text": "Ich hätte einen Vorschlag: Wir könnten …"
+        },
+        {
+          "id": "c",
+          "text": "In meiner Freizeit … ich gern."
+        },
+        {
+          "id": "d",
+          "text": "Das ist ja interessant! Erzähl mal mehr davon."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**In meiner Freizeit … ich gern.**: In my free time I like to … (Über sich sprechen)"
+    },
+    {
+      "id": "tb1-u66-l01-teil1-redemittel-ex12",
+      "type": "choice",
+      "prompt": "Which phrase means: “At the weekend I usually …”?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Was machst du beruflich?"
+        },
+        {
+          "id": "b",
+          "text": "Das gefällt mir. Wir dürfen aber nicht vergessen, dass …"
+        },
+        {
+          "id": "c",
+          "text": "Wir haben also beschlossen, dass …"
+        },
+        {
+          "id": "d",
+          "text": "Am Wochenende … ich meistens …"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**Am Wochenende … ich meistens …**: At the weekend I usually … (Über sich sprechen)"
+    },
+    {
+      "id": "tb1-u66-l01-teil1-redemittel-ex13",
+      "type": "choice",
+      "prompt": "Which phrase means: “And you? How is it for you?”?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Bei uns zu Hause ist das ganz anders: …"
+        },
+        {
+          "id": "b",
+          "text": "Und du? Wie ist das bei dir?"
+        },
+        {
+          "id": "c",
+          "text": "Sie/Er findet, dass …"
+        },
+        {
+          "id": "d",
+          "text": "Auf meiner Karte spricht … über das Thema …"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Und du? Wie ist das bei dir?**: And you? How is it for you? (Fragen an die Partnerin / den Partner)"
+    }
+  ]
+}

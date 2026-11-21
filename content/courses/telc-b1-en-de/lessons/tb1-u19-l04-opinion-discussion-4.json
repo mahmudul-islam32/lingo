@@ -1,0 +1,283 @@
+{
+  "id": "tb1-u19-l04-opinion-discussion-4",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u19",
+  "title": "Opinion & Discussion 4",
+  "tip": "Theme: Meinung & Diskussion (B1)",
+  "exercises": [
+    {
+      "id": "tb1-u19-l04-opinion-discussion-4-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "ablehnen",
+          "known": "to reject"
+        },
+        {
+          "id": "p2",
+          "learning": "vergleichen",
+          "known": "to compare"
+        },
+        {
+          "id": "p3",
+          "learning": "überzeugen",
+          "known": "to convince"
+        },
+        {
+          "id": "p4",
+          "learning": "begründen",
+          "known": "to justify / give reasons"
+        },
+        {
+          "id": "p5",
+          "learning": "diskutieren über",
+          "known": "to discuss"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u19-l04-opinion-discussion-4-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which one means „to reject“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "behaupten"
+        },
+        {
+          "id": "b",
+          "text": "diskutieren über + Akk."
+        },
+        {
+          "id": "c",
+          "text": "zustimmen + Dat."
+        },
+        {
+          "id": "d",
+          "text": "ablehnen"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**ablehnen** = to reject\n\n*Example:* Die Firma hat meinen Antrag auf Urlaub abgelehnt.\nThe company rejected my holiday request."
+    },
+    {
+      "id": "tb1-u19-l04-opinion-discussion-4-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which one means „to compare“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "vergleichen"
+        },
+        {
+          "id": "b",
+          "text": "zustimmen + Dat."
+        },
+        {
+          "id": "c",
+          "text": "ablehnen"
+        },
+        {
+          "id": "d",
+          "text": "überzeugen"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**vergleichen** = to compare\n\n*Example:* Vor dem Kauf vergleicht Maria immer die Preise.\nMaria always compares prices before buying."
+    },
+    {
+      "id": "tb1-u19-l04-opinion-discussion-4-ex04",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u19-l04-opinion-discussion-4-1.mp3"
+      },
+      "tiles": [
+        "Die",
+        "meinen",
+        "abgelehnt",
+        "Antrag",
+        "Firma",
+        "haben",
+        "Urlaub",
+        "Lage",
+        "hat",
+        "auf",
+        "Sie"
+      ],
+      "answers": [
+        "Die Firma hat meinen Antrag auf Urlaub abgelehnt."
+      ],
+      "explanation": "Die Firma hat meinen Antrag auf Urlaub abgelehnt.\n*The company rejected my holiday request.*\n\n**ablehnen** = to reject"
+    },
+    {
+      "id": "tb1-u19-l04-opinion-discussion-4-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which one means „to convince“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "behaupten"
+        },
+        {
+          "id": "b",
+          "text": "diskutieren über + Akk."
+        },
+        {
+          "id": "c",
+          "text": "bezweifeln"
+        },
+        {
+          "id": "d",
+          "text": "überzeugen"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**überzeugen** = to convince\n\n*Example:* Tom hat mich überzeugt, mit ihm ins Konzert zu gehen.\nTom convinced me to go to the concert with him."
+    },
+    {
+      "id": "tb1-u19-l04-opinion-discussion-4-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Vor dem Kauf vergleicht Maria immer die Preise.",
+      "tiles": [
+        "I'm",
+        "possible",
+        "buying",
+        "before",
+        "is",
+        "compares",
+        "Maria",
+        "always",
+        "prices"
+      ],
+      "answers": [
+        "Maria always compares prices before buying."
+      ],
+      "explanation": "**vergleichen** = to compare"
+    },
+    {
+      "id": "tb1-u19-l04-opinion-discussion-4-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which one means „to justify / give reasons“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "begründen"
+        },
+        {
+          "id": "b",
+          "text": "zustimmen + Dat."
+        },
+        {
+          "id": "c",
+          "text": "überzeugen"
+        },
+        {
+          "id": "d",
+          "text": "diskutieren über + Akk."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**begründen** = to justify / give reasons\n\n*Example:* Bitte begründen Sie Ihre Meinung mit einem Beispiel.\nPlease give reasons for your opinion with an example."
+    },
+    {
+      "id": "tb1-u19-l04-opinion-discussion-4-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Tom convinced me to go to the concert with him.",
+      "tiles": [
+        "kleineres",
+        "ihm",
+        "Konzert",
+        "überzeugt",
+        "laut",
+        "mich",
+        "gehen",
+        "für",
+        "ins",
+        "hat",
+        "mit",
+        "Tom",
+        "zu"
+      ],
+      "answers": [
+        "Tom hat mich überzeugt, mit ihm ins Konzert zu gehen."
+      ],
+      "explanation": "**überzeugen** = to convince"
+    },
+    {
+      "id": "tb1-u19-l04-opinion-discussion-4-ex09",
+      "type": "multiple_choice",
+      "prompt": "Which one means „to discuss“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "ablehnen"
+        },
+        {
+          "id": "b",
+          "text": "diskutieren über + Akk."
+        },
+        {
+          "id": "c",
+          "text": "bezweifeln"
+        },
+        {
+          "id": "d",
+          "text": "zustimmen + Dat."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**diskutieren über + Akk.** = to discuss\n\n*Example:* Im Team diskutieren wir über den neuen Dienstplan.\nIn the team we're discussing the new work schedule."
+    },
+    {
+      "id": "tb1-u19-l04-opinion-discussion-4-ex10",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u19-l04-opinion-discussion-4-4.mp3"
+      },
+      "tiles": [
+        "Sie",
+        "Bitte",
+        "Meinung",
+        "mit",
+        "keinen",
+        "Ihre",
+        "einem",
+        "ist",
+        "morgen",
+        "begründen",
+        "Beispiel"
+      ],
+      "answers": [
+        "Bitte begründen Sie Ihre Meinung mit einem Beispiel."
+      ],
+      "explanation": "Bitte begründen Sie Ihre Meinung mit einem Beispiel.\n*Please give reasons for your opinion with an example.*\n\n**begründen** = to justify / give reasons"
+    },
+    {
+      "id": "tb1-u19-l04-opinion-discussion-4-ex11",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Im Team diskutieren wir über den neuen Dienstplan.",
+      "tiles": [
+        "work",
+        "we're",
+        "In",
+        "the",
+        "team",
+        "Maria",
+        "discussing",
+        "new",
+        "the",
+        "to",
+        "schedule",
+        "between"
+      ],
+      "answers": [
+        "In the team we're discussing the new work schedule."
+      ],
+      "explanation": "**diskutieren über + Akk.** = to discuss"
+    }
+  ]
+}

@@ -1,0 +1,194 @@
+{
+  "id": "tb1-u63-l06-sentence-frames-2",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u63",
+  "title": "Sentence frames (Satzrahmen) 2",
+  "tip": "Take the frame, fill the gap with your content.",
+  "exercises": [
+    {
+      "id": "tb1-u63-l06-sentence-frames-2-ex01",
+      "type": "choice",
+      "title": "Satzrahmen · Kontrast",
+      "prompt": "Welcher Satzrahmen passt zur Funktion „Kontrast“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Der Grund dafür ist, dass ___."
+        },
+        {
+          "id": "b",
+          "text": "Ich schreibe Ihnen, weil ___."
+        },
+        {
+          "id": "c",
+          "text": "Ich schlage vor, dass ___."
+        },
+        {
+          "id": "d",
+          "text": "Einerseits ___, andererseits ___."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Beide Teile mit Inversion (Verb nach einerseits/andererseits)."
+    },
+    {
+      "id": "tb1-u63-l06-sentence-frames-2-ex02",
+      "type": "task",
+      "skill": "writing",
+      "title": "Satzrahmen: Kontrast",
+      "task": "Vor- und Nachteil von Autos.\n\nUse this frame and fill the gap with your own content:\n**Einerseits ___, andererseits ___.**",
+      "phrases": [
+        "Einerseits ___, andererseits ___."
+      ],
+      "modelAnswer": "Einerseits ist das Auto sehr praktisch, andererseits ist es schlecht für die Umwelt.\n\nBeide Teile mit Inversion (Verb nach einerseits/andererseits)."
+    },
+    {
+      "id": "tb1-u63-l06-sentence-frames-2-ex03",
+      "type": "choice",
+      "title": "Satzrahmen · Bitte",
+      "prompt": "Welcher Satzrahmen passt zur Funktion „Bitte“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Meiner Meinung nach ___ (Verb an 2!)."
+        },
+        {
+          "id": "b",
+          "text": "Der Grund dafür ist, dass ___."
+        },
+        {
+          "id": "c",
+          "text": "Zusammenfassend kann man sagen, dass ___."
+        },
+        {
+          "id": "d",
+          "text": "Könnten Sie mir bitte ___?"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Formelle Bitte, Konjunktiv II."
+    },
+    {
+      "id": "tb1-u63-l06-sentence-frames-2-ex04",
+      "type": "task",
+      "skill": "writing",
+      "title": "Satzrahmen: Bitte",
+      "task": "Bitte um eine Auskunft beim Amt.\n\nUse this frame and fill the gap with your own content:\n**Könnten Sie mir bitte ___?**",
+      "phrases": [
+        "Könnten Sie mir bitte ___?"
+      ],
+      "modelAnswer": "Könnten Sie mir bitte sagen, welche Dokumente ich brauche?\n\nFormelle Bitte, Konjunktiv II."
+    },
+    {
+      "id": "tb1-u63-l06-sentence-frames-2-ex05",
+      "type": "choice",
+      "title": "Satzrahmen · Bitte",
+      "prompt": "Welcher Satzrahmen passt zur Funktion „Bitte“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Einerseits ___, andererseits ___."
+        },
+        {
+          "id": "b",
+          "text": "Ein gutes Beispiel dafür ist ___."
+        },
+        {
+          "id": "c",
+          "text": "Zusammenfassend kann man sagen, dass ___."
+        },
+        {
+          "id": "d",
+          "text": "Ich wäre Ihnen dankbar, wenn Sie ___ würden."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Sehr höfliche Form für formelle Briefe."
+    },
+    {
+      "id": "tb1-u63-l06-sentence-frames-2-ex06",
+      "type": "task",
+      "skill": "writing",
+      "title": "Satzrahmen: Bitte",
+      "task": "Bitte um eine schnelle Antwort.\n\nUse this frame and fill the gap with your own content:\n**Ich wäre Ihnen dankbar, wenn Sie ___ würden.**",
+      "phrases": [
+        "Ich wäre Ihnen dankbar, wenn Sie ___ würden."
+      ],
+      "modelAnswer": "Ich wäre Ihnen dankbar, wenn Sie mir bald antworten würden.\n\nSehr höfliche Form für formelle Briefe."
+    },
+    {
+      "id": "tb1-u63-l06-sentence-frames-2-ex07",
+      "type": "choice",
+      "title": "Satzrahmen · Zustimmung",
+      "prompt": "Welcher Satzrahmen passt zur Funktion „Zustimmung“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Könnten Sie mir bitte ___?"
+        },
+        {
+          "id": "b",
+          "text": "Ich schlage vor, dass ___."
+        },
+        {
+          "id": "c",
+          "text": "Ich wäre Ihnen dankbar, wenn Sie ___ würden."
+        },
+        {
+          "id": "d",
+          "text": "Da stimme ich dir zu, weil ___."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Zustimmung + Begründung wirkt stark."
+    },
+    {
+      "id": "tb1-u63-l06-sentence-frames-2-ex08",
+      "type": "task",
+      "skill": "writing",
+      "title": "Satzrahmen: Zustimmung",
+      "task": "Stimme zu: Sport ist wichtig.\n\nUse this frame and fill the gap with your own content:\n**Da stimme ich dir zu, weil ___.**",
+      "phrases": [
+        "Da stimme ich dir zu, weil ___."
+      ],
+      "modelAnswer": "Da stimme ich dir zu, weil Sport gut für die Gesundheit ist.\n\nZustimmung + Begründung wirkt stark."
+    },
+    {
+      "id": "tb1-u63-l06-sentence-frames-2-ex09",
+      "type": "choice",
+      "title": "Satzrahmen · Widerspruch",
+      "prompt": "Welcher Satzrahmen passt zur Funktion „Widerspruch“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ich schlage vor, dass ___."
+        },
+        {
+          "id": "b",
+          "text": "Könnten Sie mir bitte ___?"
+        },
+        {
+          "id": "c",
+          "text": "Das sehe ich anders, denn ___."
+        },
+        {
+          "id": "d",
+          "text": "Ein gutes Beispiel dafür ist ___."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Höflicher Widerspruch + Grund (denn = normale Wortstellung)."
+    },
+    {
+      "id": "tb1-u63-l06-sentence-frames-2-ex10",
+      "type": "task",
+      "skill": "writing",
+      "title": "Satzrahmen: Widerspruch",
+      "task": "Widersprich höflich: Fernsehen ist Zeitverschwendung.\n\nUse this frame and fill the gap with your own content:\n**Das sehe ich anders, denn ___.**",
+      "phrases": [
+        "Das sehe ich anders, denn ___."
+      ],
+      "modelAnswer": "Das sehe ich anders, denn im Fernsehen kann man auch viel lernen.\n\nHöflicher Widerspruch + Grund (denn = normale Wortstellung)."
+    }
+  ]
+}

@@ -1,0 +1,234 @@
+{
+  "id": "tb1-u03-l07-food-drink-3",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u03",
+  "title": "Food & Drink 3",
+  "tip": "Theme: Essen & Trinken (A1)",
+  "exercises": [
+    {
+      "id": "tb1-u03-l07-food-drink-3-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "das Obst",
+          "known": "fruit"
+        },
+        {
+          "id": "p2",
+          "learning": "der Apfel",
+          "known": "apple"
+        },
+        {
+          "id": "p3",
+          "learning": "das Gemüse",
+          "known": "vegetables"
+        },
+        {
+          "id": "p4",
+          "learning": "das Fleisch",
+          "known": "meat"
+        },
+        {
+          "id": "p5",
+          "learning": "das Essen",
+          "known": "food"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u03-l07-food-drink-3-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „fruit“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "der Kaffee"
+        },
+        {
+          "id": "b",
+          "text": "das Abendessen"
+        },
+        {
+          "id": "c",
+          "text": "der Tee"
+        },
+        {
+          "id": "d",
+          "text": "das Obst"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**das Obst** = fruit\n\n*Example:* Auf dem Markt ist das Obst frisch und billig.\nThe fruit at the market is fresh and cheap."
+    },
+    {
+      "id": "tb1-u03-l07-food-drink-3-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „apple“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "der Apfel, die Äpfel"
+        },
+        {
+          "id": "b",
+          "text": "das Ei, die Eier"
+        },
+        {
+          "id": "c",
+          "text": "das Obst"
+        },
+        {
+          "id": "d",
+          "text": "das Frühstück"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**der Apfel** = apple\n*Plural: die Äpfel*\n\n*Example:* Ein Kilo Äpfel kostet heute nur zwei Euro.\nA kilo of apples only costs two euros today."
+    },
+    {
+      "id": "tb1-u03-l07-food-drink-3-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "The fruit at the market is fresh and cheap.",
+      "tiles": [
+        "Obst",
+        "das",
+        "weil",
+        "und",
+        "ich",
+        "ist",
+        "billig",
+        "frisch",
+        "Markt",
+        "Auf",
+        "dem",
+        "Kantine"
+      ],
+      "answers": [
+        "Auf dem Markt ist das Obst frisch und billig."
+      ],
+      "explanation": "**das Obst** = fruit"
+    },
+    {
+      "id": "tb1-u03-l07-food-drink-3-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „vegetables“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "das Brötchen, die Brötchen"
+        },
+        {
+          "id": "b",
+          "text": "der Käse"
+        },
+        {
+          "id": "c",
+          "text": "das Gemüse"
+        },
+        {
+          "id": "d",
+          "text": "das Salz"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**das Gemüse** = vegetables\n\n*Example:* Der Arzt sagt, ich soll mehr Gemüse essen.\nThe doctor says I should eat more vegetables."
+    },
+    {
+      "id": "tb1-u03-l07-food-drink-3-ex06",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u03-l07-food-drink-3-2.mp3"
+      },
+      "tiles": [
+        "nur",
+        "heute",
+        "du",
+        "Gramm",
+        "Euro",
+        "Ein",
+        "Kann",
+        "Kilo",
+        "zwei",
+        "Äpfel",
+        "kostet"
+      ],
+      "answers": [
+        "Ein Kilo Äpfel kostet heute nur zwei Euro."
+      ],
+      "explanation": "Ein Kilo Äpfel kostet heute nur zwei Euro.\n*A kilo of apples only costs two euros today.*\n\n**der Apfel** = apple\n*Plural: die Äpfel*"
+    },
+    {
+      "id": "tb1-u03-l07-food-drink-3-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „meat“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "das Fleisch"
+        },
+        {
+          "id": "b",
+          "text": "das Obst"
+        },
+        {
+          "id": "c",
+          "text": "das Wasser"
+        },
+        {
+          "id": "d",
+          "text": "der Zucker"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**das Fleisch** = meat\n\n*Example:* Mein Kollege isst kein Fleisch, er ist Vegetarier.\nMy colleague doesn't eat meat, he's a vegetarian."
+    },
+    {
+      "id": "tb1-u03-l07-food-drink-3-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Der Arzt sagt, ich soll mehr Gemüse essen.",
+      "tiles": [
+        "more",
+        "vegetables",
+        "The",
+        "should",
+        "I",
+        "cheap",
+        "doctor",
+        "says",
+        "Tom",
+        "Sunday",
+        "eat"
+      ],
+      "answers": [
+        "The doctor says I should eat more vegetables."
+      ],
+      "explanation": "**das Gemüse** = vegetables"
+    },
+    {
+      "id": "tb1-u03-l07-food-drink-3-ex09",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "My colleague doesn't eat meat, he's a vegetarian.",
+      "tiles": [
+        "kein",
+        "isst",
+        "salzig",
+        "Gemüse",
+        "er",
+        "ich",
+        "Kollege",
+        "Fleisch",
+        "Mein",
+        "ist",
+        "Vegetarier"
+      ],
+      "answers": [
+        "Mein Kollege isst kein Fleisch, er ist Vegetarier."
+      ],
+      "explanation": "**das Fleisch** = meat"
+    }
+  ]
+}

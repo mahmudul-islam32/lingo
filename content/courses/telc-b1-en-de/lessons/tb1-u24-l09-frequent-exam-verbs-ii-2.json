@@ -1,0 +1,284 @@
+{
+  "id": "tb1-u24-l09-frequent-exam-verbs-ii-2",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u24",
+  "title": "Frequent Exam Verbs II 2",
+  "tip": "Theme: Verben: Prüfungshäufig II (B1)",
+  "exercises": [
+    {
+      "id": "tb1-u24-l09-frequent-exam-verbs-ii-2-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "sitzen",
+          "known": "to sit / be sitting"
+        },
+        {
+          "id": "p2",
+          "learning": "setzen",
+          "known": "to put / place (seat)"
+        },
+        {
+          "id": "p3",
+          "learning": "legen",
+          "known": "to lay / put (flat)"
+        },
+        {
+          "id": "p4",
+          "learning": "liegen",
+          "known": "to lie / be lying"
+        },
+        {
+          "id": "p5",
+          "learning": "stehen",
+          "known": "to stand"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u24-l09-frequent-exam-verbs-ii-2-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which one means „to sit / be sitting“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "sitzen"
+        },
+        {
+          "id": "b",
+          "text": "verlieren"
+        },
+        {
+          "id": "c",
+          "text": "erreichen"
+        },
+        {
+          "id": "d",
+          "text": "stehen"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**sitzen** = to sit / be sitting\n\n*Example:* Die Kinder sitzen schon am Tisch und warten auf das Essen.\nThe children are already sitting at the table, waiting for the food."
+    },
+    {
+      "id": "tb1-u24-l09-frequent-exam-verbs-ii-2-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which one means „to put / place (seat)“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "leiten"
+        },
+        {
+          "id": "b",
+          "text": "liegen"
+        },
+        {
+          "id": "c",
+          "text": "abgeben (gibt ab)"
+        },
+        {
+          "id": "d",
+          "text": "setzen"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**setzen** = to put / place (seat)\n\n*Example:* Anna setzt das Baby in den Kinderwagen.\nAnna puts the baby in the pram."
+    },
+    {
+      "id": "tb1-u24-l09-frequent-exam-verbs-ii-2-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Die Kinder sitzen schon am Tisch und warten auf das Essen.",
+      "tiles": [
+        "The",
+        "food",
+        "in",
+        "the",
+        "are",
+        "table",
+        "the",
+        "children",
+        "open",
+        "sitting",
+        "for",
+        "waiting",
+        "adult",
+        "at",
+        "already"
+      ],
+      "answers": [
+        "The children are already sitting at the table, waiting for the food."
+      ],
+      "explanation": "**sitzen** = to sit / be sitting"
+    },
+    {
+      "id": "tb1-u24-l09-frequent-exam-verbs-ii-2-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which one means „to lay / put (flat)“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "abgeben (gibt ab)"
+        },
+        {
+          "id": "b",
+          "text": "erkennen"
+        },
+        {
+          "id": "c",
+          "text": "sitzen"
+        },
+        {
+          "id": "d",
+          "text": "legen"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**legen** = to lay / put (flat)\n\n*Example:* Ich lege die Schlüssel immer auf den Tisch im Flur.\nI always put the keys on the table in the hall."
+    },
+    {
+      "id": "tb1-u24-l09-frequent-exam-verbs-ii-2-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Anna puts the baby in the pram.",
+      "tiles": [
+        "den",
+        "das",
+        "Schule",
+        "setzt",
+        "Kinderwagen",
+        "ich",
+        "Die",
+        "Baby",
+        "Anna",
+        "in"
+      ],
+      "answers": [
+        "Anna setzt das Baby in den Kinderwagen."
+      ],
+      "explanation": "**setzen** = to put / place (seat)"
+    },
+    {
+      "id": "tb1-u24-l09-frequent-exam-verbs-ii-2-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which one means „to lie / be lying“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "liegen"
+        },
+        {
+          "id": "b",
+          "text": "beginnen"
+        },
+        {
+          "id": "c",
+          "text": "mitmachen"
+        },
+        {
+          "id": "d",
+          "text": "sitzen"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**liegen** = to lie / be lying\n\n*Example:* Dein Handy liegt neben dem Sofa.\nYour mobile is lying next to the sofa."
+    },
+    {
+      "id": "tb1-u24-l09-frequent-exam-verbs-ii-2-ex08",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u24-l09-frequent-exam-verbs-ii-2-3.mp3"
+      },
+      "tiles": [
+        "im",
+        "die",
+        "das",
+        "immer",
+        "auf",
+        "Flur",
+        "den",
+        "Ich",
+        "Schlüssel",
+        "Nach",
+        "Wir",
+        "Tisch",
+        "lege"
+      ],
+      "answers": [
+        "Ich lege die Schlüssel immer auf den Tisch im Flur."
+      ],
+      "explanation": "Ich lege die Schlüssel immer auf den Tisch im Flur.\n*I always put the keys on the table in the hall.*\n\n**legen** = to lay / put (flat)"
+    },
+    {
+      "id": "tb1-u24-l09-frequent-exam-verbs-ii-2-ex09",
+      "type": "multiple_choice",
+      "prompt": "Which one means „to stand“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "verlieren"
+        },
+        {
+          "id": "b",
+          "text": "schließen"
+        },
+        {
+          "id": "c",
+          "text": "stören"
+        },
+        {
+          "id": "d",
+          "text": "stehen"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**stehen** = to stand\n\n*Example:* Viele Leute stehen an der Bushaltestelle.\nMany people are standing at the bus stop."
+    },
+    {
+      "id": "tb1-u24-l09-frequent-exam-verbs-ii-2-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Dein Handy liegt neben dem Sofa.",
+      "tiles": [
+        "next",
+        "sofa",
+        "is",
+        "Your",
+        "lying",
+        "mobile",
+        "Our",
+        "it",
+        "to",
+        "the",
+        "has"
+      ],
+      "answers": [
+        "Your mobile is lying next to the sofa."
+      ],
+      "explanation": "**liegen** = to lie / be lying"
+    },
+    {
+      "id": "tb1-u24-l09-frequent-exam-verbs-ii-2-ex11",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Many people are standing at the bus stop.",
+      "tiles": [
+        "der",
+        "möchte",
+        "Leute",
+        "um",
+        "Bushaltestelle",
+        "in",
+        "an",
+        "Viele",
+        "stehen"
+      ],
+      "answers": [
+        "Viele Leute stehen an der Bushaltestelle."
+      ],
+      "explanation": "**stehen** = to stand"
+    }
+  ]
+}

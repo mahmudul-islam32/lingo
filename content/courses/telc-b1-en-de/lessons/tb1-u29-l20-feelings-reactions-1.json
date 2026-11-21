@@ -1,0 +1,293 @@
+{
+  "id": "tb1-u29-l20-feelings-reactions-1",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u29",
+  "title": "Feelings & Reactions 1",
+  "tip": "Theme: Redemittel: Gefühle & Reaktionen (B1)",
+  "exercises": [
+    {
+      "id": "tb1-u29-l20-feelings-reactions-1-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "Das freut mich sehr!",
+          "known": "I'm very glad about that!"
+        },
+        {
+          "id": "p2",
+          "learning": "Zum Glück ist nichts passiert",
+          "known": "Luckily nothing happened."
+        },
+        {
+          "id": "p3",
+          "learning": "Ich habe mich sehr gefreut, dass …",
+          "known": "I was very happy that …"
+        },
+        {
+          "id": "p4",
+          "learning": "Es ärgert mich, dass …",
+          "known": "It annoys me that …"
+        },
+        {
+          "id": "p5",
+          "learning": "Ich mache mir Sorgen um …",
+          "known": "I'm worried about …"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u29-l20-feelings-reactions-1-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which phrase means „I'm very glad about that!“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Hoffentlich klappt es."
+        },
+        {
+          "id": "b",
+          "text": "Das freut mich sehr!"
+        },
+        {
+          "id": "c",
+          "text": "Das ist mir sehr wichtig."
+        },
+        {
+          "id": "d",
+          "text": "Ich bin gespannt, ob …"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Das freut mich sehr!** = I'm very glad about that!\n\n*Example:* Du hast die Stelle bekommen? Das freut mich sehr!\nYou got the job? I'm very glad about that!"
+    },
+    {
+      "id": "tb1-u29-l20-feelings-reactions-1-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which phrase means „Luckily nothing happened.“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Das klingt gut!"
+        },
+        {
+          "id": "b",
+          "text": "Es ärgert mich, dass …"
+        },
+        {
+          "id": "c",
+          "text": "Zum Glück ist nichts passiert."
+        },
+        {
+          "id": "d",
+          "text": "Ich mache mir Sorgen um …"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**Zum Glück ist nichts passiert.** = Luckily nothing happened.\n\n*Example:* Das Auto ist kaputt, aber zum Glück ist nichts passiert.\nThe car is damaged, but luckily nothing happened to anyone."
+    },
+    {
+      "id": "tb1-u29-l20-feelings-reactions-1-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Du hast die Stelle bekommen? Das freut mich sehr!",
+      "tiles": [
+        "worried",
+        "very",
+        "that",
+        "You",
+        "car",
+        "about",
+        "job",
+        "tomorrow",
+        "I'm",
+        "got",
+        "glad",
+        "the"
+      ],
+      "answers": [
+        "You got the job? I'm very glad about that!"
+      ],
+      "explanation": "**Das freut mich sehr!** = I'm very glad about that!"
+    },
+    {
+      "id": "tb1-u29-l20-feelings-reactions-1-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which phrase means „I was very happy that …“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ich mache mir Sorgen um …"
+        },
+        {
+          "id": "b",
+          "text": "Ich bin gespannt, ob …"
+        },
+        {
+          "id": "c",
+          "text": "Ich habe mich sehr gefreut, dass …"
+        },
+        {
+          "id": "d",
+          "text": "Das ist mir egal."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**Ich habe mich sehr gefreut, dass …** = I was very happy that …\n\n*Example:* Ich habe mich sehr gefreut, dass du mich im Krankenhaus besucht hast.\nI was very happy that you visited me in hospital."
+    },
+    {
+      "id": "tb1-u29-l20-feelings-reactions-1-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "The car is damaged, but luckily nothing happened to anyone.",
+      "tiles": [
+        "ist",
+        "Auto",
+        "dass",
+        "aber",
+        "gespannt",
+        "ist",
+        "weil",
+        "zum",
+        "Glück",
+        "kaputt",
+        "nichts",
+        "passiert",
+        "Das"
+      ],
+      "answers": [
+        "Das Auto ist kaputt, aber zum Glück ist nichts passiert."
+      ],
+      "explanation": "**Zum Glück ist nichts passiert.** = Luckily nothing happened."
+    },
+    {
+      "id": "tb1-u29-l20-feelings-reactions-1-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which phrase means „It annoys me that …“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Es ärgert mich, dass …"
+        },
+        {
+          "id": "b",
+          "text": "Ich bin gespannt, ob …"
+        },
+        {
+          "id": "c",
+          "text": "Zum Glück ist nichts passiert."
+        },
+        {
+          "id": "d",
+          "text": "Das ist mir sehr wichtig."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Es ärgert mich, dass …** = It annoys me that …\n\n*Example:* Es ärgert mich, dass der Zug schon wieder Verspätung hat.\nIt annoys me that the train is late again."
+    },
+    {
+      "id": "tb1-u29-l20-feelings-reactions-1-ex08",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u29-l20-feelings-reactions-1-3.mp3"
+      },
+      "tiles": [
+        "dass",
+        "im",
+        "Ich",
+        "mich",
+        "aber",
+        "du",
+        "mich",
+        "Krankenhaus",
+        "gefreut",
+        "sehr",
+        "besucht",
+        "Verspätung",
+        "habe",
+        "freut",
+        "hast"
+      ],
+      "answers": [
+        "Ich habe mich sehr gefreut, dass du mich im Krankenhaus besucht hast."
+      ],
+      "explanation": "Ich habe mich sehr gefreut, dass du mich im Krankenhaus besucht hast.\n*I was very happy that you visited me in hospital.*\n\n**Ich habe mich sehr gefreut, dass …** = I was very happy that …"
+    },
+    {
+      "id": "tb1-u29-l20-feelings-reactions-1-ex09",
+      "type": "multiple_choice",
+      "prompt": "Which phrase means „I'm worried about …“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Das freut mich sehr!"
+        },
+        {
+          "id": "b",
+          "text": "Zum Glück ist nichts passiert."
+        },
+        {
+          "id": "c",
+          "text": "Hoffentlich klappt es."
+        },
+        {
+          "id": "d",
+          "text": "Ich mache mir Sorgen um …"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**Ich mache mir Sorgen um …** = I'm worried about …\n\n*Example:* Ich mache mir Sorgen um meine Mutter, weil sie oft krank ist.\nI'm worried about my mother because she's often ill."
+    },
+    {
+      "id": "tb1-u29-l20-feelings-reactions-1-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Es ärgert mich, dass der Zug schon wieder Verspätung hat.",
+      "tiles": [
+        "that",
+        "the",
+        "late",
+        "have",
+        "again",
+        "I",
+        "It",
+        "annoys",
+        "me",
+        "get",
+        "is",
+        "train"
+      ],
+      "answers": [
+        "It annoys me that the train is late again."
+      ],
+      "explanation": "**Es ärgert mich, dass …** = It annoys me that …"
+    },
+    {
+      "id": "tb1-u29-l20-feelings-reactions-1-ex11",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I'm worried about my mother because she's often ill.",
+      "tiles": [
+        "Sorgen",
+        "Ich",
+        "oft",
+        "Morgen",
+        "weil",
+        "meine",
+        "habe",
+        "krank",
+        "ist",
+        "ein",
+        "sie",
+        "mache",
+        "um",
+        "Mutter",
+        "mir"
+      ],
+      "answers": [
+        "Ich mache mir Sorgen um meine Mutter, weil sie oft krank ist."
+      ],
+      "explanation": "**Ich mache mir Sorgen um …** = I'm worried about …"
+    }
+  ]
+}

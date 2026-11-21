@@ -1,0 +1,230 @@
+{
+  "id": "tb1-u08-l04-communication-media-4",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u08",
+  "title": "Communication & Media 4",
+  "tip": "Theme: Kommunikation & Medien (A2)",
+  "exercises": [
+    {
+      "id": "tb1-u08-l04-communication-media-4-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "die Sendung",
+          "known": "TV/radio programme"
+        },
+        {
+          "id": "p2",
+          "learning": "die Werbung",
+          "known": "advertising"
+        },
+        {
+          "id": "p3",
+          "learning": "speichern",
+          "known": "to save (a file)"
+        },
+        {
+          "id": "p4",
+          "learning": "löschen",
+          "known": "to delete"
+        },
+        {
+          "id": "p5",
+          "learning": "das Handy",
+          "known": "mobile phone"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u08-l04-communication-media-4-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „TV/radio programme“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "das Programm, die Programme"
+        },
+        {
+          "id": "b",
+          "text": "die Werbung"
+        },
+        {
+          "id": "c",
+          "text": "der Computer, die Computer"
+        },
+        {
+          "id": "d",
+          "text": "die Sendung, die Sendungen"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**die Sendung** = TV/radio programme\n*Plural: die Sendungen*\n\n*Example:* Heute Abend kommt eine interessante Sendung über Afrika.\nThere's an interesting programme about Africa on tonight."
+    },
+    {
+      "id": "tb1-u08-l04-communication-media-4-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „advertising“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Nachricht, die Nachrichten"
+        },
+        {
+          "id": "b",
+          "text": "die Sendung, die Sendungen"
+        },
+        {
+          "id": "c",
+          "text": "die Werbung"
+        },
+        {
+          "id": "d",
+          "text": "der Computer, die Computer"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**die Werbung** = advertising\n\n*Example:* Im Briefkasten ist jeden Tag so viel Werbung.\nThere's so much advertising in the letterbox every day."
+    },
+    {
+      "id": "tb1-u08-l04-communication-media-4-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "There's an interesting programme about Africa on tonight.",
+      "tiles": [
+        "eine",
+        "kannst",
+        "über",
+        "der",
+        "Afrika",
+        "Adresse",
+        "interessante",
+        "kommt",
+        "Abend",
+        "Sendung",
+        "Heute"
+      ],
+      "answers": [
+        "Heute Abend kommt eine interessante Sendung über Afrika."
+      ],
+      "explanation": "**die Sendung** = TV/radio programme\n*Plural: die Sendungen*"
+    },
+    {
+      "id": "tb1-u08-l04-communication-media-4-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which one means „to save (a file)“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "anrufen (ruft an)"
+        },
+        {
+          "id": "b",
+          "text": "speichern"
+        },
+        {
+          "id": "c",
+          "text": "herunterladen (lädt herunter)"
+        },
+        {
+          "id": "d",
+          "text": "schicken"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**speichern** = to save (a file)\n\n*Example:* Vergiss nicht, die Datei zu speichern!\nDon't forget to save the file!"
+    },
+    {
+      "id": "tb1-u08-l04-communication-media-4-ex06",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u08-l04-communication-media-4-2.mp3"
+      },
+      "tiles": [
+        "Im",
+        "ist",
+        "Internet",
+        "Am",
+        "so",
+        "Werbung",
+        "Tag",
+        "jeden",
+        "Briefkasten",
+        "viel",
+        "Mein"
+      ],
+      "answers": [
+        "Im Briefkasten ist jeden Tag so viel Werbung."
+      ],
+      "explanation": "Im Briefkasten ist jeden Tag so viel Werbung.\n*There's so much advertising in the letterbox every day.*\n\n**die Werbung** = advertising"
+    },
+    {
+      "id": "tb1-u08-l04-communication-media-4-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which one means „to delete“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "schicken"
+        },
+        {
+          "id": "b",
+          "text": "telefonieren"
+        },
+        {
+          "id": "c",
+          "text": "löschen"
+        },
+        {
+          "id": "d",
+          "text": "speichern"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**löschen** = to delete\n\n*Example:* Ich habe aus Versehen alle Fotos gelöscht.\nI accidentally deleted all the photos."
+    },
+    {
+      "id": "tb1-u08-l04-communication-media-4-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Vergiss nicht, die Datei zu speichern!",
+      "tiles": [
+        "My",
+        "to",
+        "file",
+        "the",
+        "forget",
+        "Don't",
+        "so",
+        "his",
+        "save"
+      ],
+      "answers": [
+        "Don't forget to save the file!"
+      ],
+      "explanation": "**speichern** = to save (a file)"
+    },
+    {
+      "id": "tb1-u08-l04-communication-media-4-ex09",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I accidentally deleted all the photos.",
+      "tiles": [
+        "alle",
+        "kann",
+        "im",
+        "aus",
+        "an",
+        "Ich",
+        "gelöscht",
+        "Versehen",
+        "Fotos",
+        "habe"
+      ],
+      "answers": [
+        "Ich habe aus Versehen alle Fotos gelöscht."
+      ],
+      "explanation": "**löschen** = to delete"
+    }
+  ]
+}

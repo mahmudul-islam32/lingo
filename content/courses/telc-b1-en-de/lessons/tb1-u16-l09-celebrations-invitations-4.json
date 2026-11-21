@@ -1,0 +1,244 @@
+{
+  "id": "tb1-u16-l09-celebrations-invitations-4",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u16",
+  "title": "Celebrations & Invitations 4",
+  "tip": "Theme: Feste / Kultur / Einladungen (B1)",
+  "exercises": [
+    {
+      "id": "tb1-u16-l09-celebrations-invitations-4-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "der Feiertag",
+          "known": "public holiday"
+        },
+        {
+          "id": "p2",
+          "learning": "Weihnachten",
+          "known": "Christmas"
+        },
+        {
+          "id": "p3",
+          "learning": "das Feuerwerk",
+          "known": "fireworks"
+        },
+        {
+          "id": "p4",
+          "learning": "das Fest",
+          "known": "festival"
+        },
+        {
+          "id": "p5",
+          "learning": "die Party",
+          "known": "party"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u16-l09-celebrations-invitations-4-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which verb means „to say thank you to someone for something“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "verschieben (hat verschoben)"
+        },
+        {
+          "id": "b",
+          "text": "mitbringen (hat mitgebracht). Was soll ich mitbringen?"
+        },
+        {
+          "id": "c",
+          "text": "sich bedanken bei + Dat. für + Akk."
+        },
+        {
+          "id": "d",
+          "text": "die Kultur, die Kulturen"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**sich bedanken bei + Dat. für + Akk.** = to say thank you to someone for something\n\n*Example:* Ich habe mich bei meiner Nachbarin für die Hilfe bedankt.\nI thanked my neighbour for her help."
+    },
+    {
+      "id": "tb1-u16-l09-celebrations-invitations-4-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „public holiday“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "das Fest, die Feste · die Feier, die Feiern: feiern"
+        },
+        {
+          "id": "b",
+          "text": "der Gast, die Gäste ↔ der Gastgeber, die Gastgeber"
+        },
+        {
+          "id": "c",
+          "text": "der Feiertag, die Feiertage"
+        },
+        {
+          "id": "d",
+          "text": "das Geschenk, die Geschenke, schenken + Dat. + Akk."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**der Feiertag** = public holiday\n*Plural: die Feiertage*\n\n*Example:* Am Montag ist ein Feiertag, deshalb sind alle Geschäfte geschlossen.\nMonday is a public holiday, so all the shops are closed."
+    },
+    {
+      "id": "tb1-u16-l09-celebrations-invitations-4-ex04",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u16-l09-celebrations-invitations-4-1.mp3"
+      },
+      "tiles": [
+        "für",
+        "Ich",
+        "und",
+        "bei",
+        "habe",
+        "Nachbarin",
+        "Vielen",
+        "dass",
+        "meiner",
+        "die",
+        "mich",
+        "bedankt",
+        "Hilfe"
+      ],
+      "answers": [
+        "Ich habe mich bei meiner Nachbarin für die Hilfe bedankt."
+      ],
+      "explanation": "Ich habe mich bei meiner Nachbarin für die Hilfe bedankt.\n*I thanked my neighbour for her help.*\n\n**sich bedanken bei + Dat. für + Akk.** = to say thank you to someone for something"
+    },
+    {
+      "id": "tb1-u16-l09-celebrations-invitations-4-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which one means „Christmas · Easter · New Year's Eve“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Weihnachten · Ostern · Silvester"
+        },
+        {
+          "id": "b",
+          "text": "gratulieren + Dat. zu + Dat. Ich gratuliere dir zur bestandenen Prüfung!"
+        },
+        {
+          "id": "c",
+          "text": "schmücken"
+        },
+        {
+          "id": "d",
+          "text": "vorbereiten: die Vorbereitung, die Vorbereitungen"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Weihnachten · Ostern · Silvester** = Christmas · Easter · New Year's Eve\n\n*Example:* Weihnachten feiern wir bei meinen Eltern und Silvester bei Freunden.\nWe celebrate Christmas at my parents' and New Year's Eve with friends."
+    },
+    {
+      "id": "tb1-u16-l09-celebrations-invitations-4-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Am Montag ist ein Feiertag, deshalb sind alle Geschäfte geschlossen.",
+      "tiles": [
+        "I'd",
+        "shops",
+        "all",
+        "the",
+        "a",
+        "closed",
+        "are",
+        "to",
+        "so",
+        "on",
+        "is",
+        "holiday",
+        "Monday",
+        "public"
+      ],
+      "answers": [
+        "Monday is a public holiday, so all the shops are closed."
+      ],
+      "explanation": "**der Feiertag** = public holiday\n*Plural: die Feiertage*"
+    },
+    {
+      "id": "tb1-u16-l09-celebrations-invitations-4-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „fireworks“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "der Geburtstag, die Geburtstage"
+        },
+        {
+          "id": "b",
+          "text": "das Feuerwerk, die Feuerwerke"
+        },
+        {
+          "id": "c",
+          "text": "das Fest, die Feste · die Feier, die Feiern: feiern"
+        },
+        {
+          "id": "d",
+          "text": "die Party, die Partys: eine Party geben"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**das Feuerwerk** = fireworks\n*Plural: die Feuerwerke*\n\n*Example:* Um Mitternacht schauen wir uns das Feuerwerk über der Stadt an.\nAt midnight we watch the fireworks over the city."
+    },
+    {
+      "id": "tb1-u16-l09-celebrations-invitations-4-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "We celebrate Christmas at my parents' and New Year's Eve with friends.",
+      "tiles": [
+        "geschlossen",
+        "Freunden",
+        "bei",
+        "feiern",
+        "ist",
+        "meinen",
+        "Eltern",
+        "wir",
+        "und",
+        "bei",
+        "Silvester",
+        "Deutschland",
+        "Weihnachten"
+      ],
+      "answers": [
+        "Weihnachten feiern wir bei meinen Eltern und Silvester bei Freunden."
+      ],
+      "explanation": "**Weihnachten · Ostern · Silvester** = Christmas · Easter · New Year's Eve"
+    },
+    {
+      "id": "tb1-u16-l09-celebrations-invitations-4-ex09",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u16-l09-celebrations-invitations-4-4.mp3"
+      },
+      "tiles": [
+        "Feuerwerk",
+        "Hochzeit",
+        "die",
+        "schauen",
+        "Um",
+        "das",
+        "über",
+        "Stadt",
+        "uns",
+        "an",
+        "wir",
+        "war",
+        "Mitternacht",
+        "der"
+      ],
+      "answers": [
+        "Um Mitternacht schauen wir uns das Feuerwerk über der Stadt an."
+      ],
+      "explanation": "Um Mitternacht schauen wir uns das Feuerwerk über der Stadt an.\n*At midnight we watch the fireworks over the city.*\n\n**das Feuerwerk** = fireworks\n*Plural: die Feuerwerke*"
+    }
+  ]
+}

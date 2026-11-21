@@ -1,0 +1,141 @@
+{
+  "id": "tb1-u50-l02-fallen-2",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u50",
+  "title": "Listening traps 2: Ähnliche Zahlen, Zeiten & Preise, Die falsche Person, Verneinung",
+  "tip": "Listen, then decide: richtig or falsch?",
+  "exercises": [
+    {
+      "id": "tb1-u50-l02-fallen-2-ex01",
+      "type": "explain",
+      "title": "Trap 4: Ähnliche Zahlen, Zeiten & Preise",
+      "body": "Two numbers are named; the statement attaches the value to the **wrong** one. Watch: entry vs. start, normal vs. reduced, ab vs. bis.\n\n*Auf Deutsch:* Zwei Zahlen werden genannt; die Aussage hängt den Wert an die **falsche** Sache. Achte auf: Einlass vs. Beginn, normal vs. ermäßigt, ab vs. bis."
+    },
+    {
+      "id": "tb1-u50-l02-fallen-2-ex02",
+      "type": "listening",
+      "title": "Falle 4 · Beispiel 1",
+      "transcript": "Einlass ist ab 18 Uhr, das Konzert beginnt um 19 Uhr.",
+      "prompt": "Man kann ab 18 Uhr ins Gebäude. Richtig oder falsch?",
+      "options": [
+        {
+          "id": "a",
+          "text": "richtig"
+        },
+        {
+          "id": "b",
+          "text": "falsch"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Richtig.** Einlass = 18 Uhr."
+    },
+    {
+      "id": "tb1-u50-l02-fallen-2-ex03",
+      "type": "listening",
+      "title": "Falle 4 · Beispiel 2",
+      "transcript": "Der Kurs kostet normalerweise 120 Euro, für Studenten nur 80.",
+      "prompt": "Studenten zahlen 120 Euro. Richtig oder falsch?",
+      "options": [
+        {
+          "id": "a",
+          "text": "richtig"
+        },
+        {
+          "id": "b",
+          "text": "falsch"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Falsch.** Studenten zahlen 80."
+    },
+    {
+      "id": "tb1-u50-l02-fallen-2-ex04",
+      "type": "explain",
+      "title": "Trap 5: Die falsche Person",
+      "body": "A quality belongs to **someone else** (brother, colleague), not the speaker.\n\n*Auf Deutsch:* Eine Eigenschaft gehört zu **jemand anderem** im Satz (Bruder, Kollegin, Mann), nicht zum Sprecher. Signal: mein Bruder … ich dagegen …"
+    },
+    {
+      "id": "tb1-u50-l02-fallen-2-ex05",
+      "type": "listening",
+      "title": "Falle 5 · Beispiel 1",
+      "transcript": "Mein Bruder ist Arzt, ich selbst arbeite als Krankenpfleger.",
+      "prompt": "Der Sprecher ist Arzt. Richtig oder falsch?",
+      "options": [
+        {
+          "id": "a",
+          "text": "richtig"
+        },
+        {
+          "id": "b",
+          "text": "falsch"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Falsch.** Der Bruder ist Arzt; der Sprecher ist Krankenpfleger."
+    },
+    {
+      "id": "tb1-u50-l02-fallen-2-ex06",
+      "type": "listening",
+      "title": "Falle 5 · Beispiel 2",
+      "transcript": "Meine Frau kocht sehr gern, ich backe lieber.",
+      "prompt": "Der Sprecher kocht gern. Richtig oder falsch?",
+      "options": [
+        {
+          "id": "a",
+          "text": "richtig"
+        },
+        {
+          "id": "b",
+          "text": "falsch"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Falsch.** Die Frau kocht; der Sprecher backt."
+    },
+    {
+      "id": "tb1-u50-l02-fallen-2-ex07",
+      "type": "explain",
+      "title": "Trap 6: Verneinung (auch die doppelte)",
+      "body": "kein, nicht, ohne, nie, including the double negative that becomes a requirement.\n\n*Auf Deutsch:* kein, nicht, ohne, nie, und die versteckte, wo **zwei** Verneinungen eine Pflicht ergeben."
+    },
+    {
+      "id": "tb1-u50-l02-fallen-2-ex08",
+      "type": "listening",
+      "title": "Falle 6 · Beispiel 1",
+      "transcript": "Ohne Anmeldung können Sie leider nicht teilnehmen.",
+      "prompt": "Man muss sich anmelden. Richtig oder falsch?",
+      "options": [
+        {
+          "id": "a",
+          "text": "richtig"
+        },
+        {
+          "id": "b",
+          "text": "falsch"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Richtig.** keine Anmeldung → keine Teilnahme = man muss sich anmelden."
+    },
+    {
+      "id": "tb1-u50-l02-fallen-2-ex09",
+      "type": "listening",
+      "title": "Falle 6 · Beispiel 2",
+      "transcript": "Der Eintritt ist nicht kostenlos.",
+      "prompt": "Man muss Eintritt bezahlen. Richtig oder falsch?",
+      "options": [
+        {
+          "id": "a",
+          "text": "richtig"
+        },
+        {
+          "id": "b",
+          "text": "falsch"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Richtig.** nicht kostenlos = man zahlt."
+    }
+  ]
+}

@@ -1,0 +1,153 @@
+{
+  "id": "tb1-u32-l26-artikelw-p2",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u32",
+  "title": "Determiners: dieser, jeder, welcher, alle: welcher? vs. was für ein?",
+  "tip": "Time phrases without a preposition take the accusative: jeden Tag, nächsten Montag, letzte Woche, never „in jeden Tag“.",
+  "exercises": [
+    {
+      "id": "tb1-u32-l26-artikelw-p2-ex01",
+      "type": "explain",
+      "title": "welcher? vs. was für ein?",
+      "body": "welcher = choice from known things. was für ein = kind/type.\n\n*Deutsch:* welcher = Auswahl aus bekannten Dingen. was für ein = Art/Sorte.\n\n## Pattern\n\n**Welch-** + Nomen …? · **Was für ein-** + Nomen …?",
+      "examples": [
+        {
+          "learning": "Welchen Bus nimmst du – den 5er oder den 7er?",
+          "known": "Which bus are you taking – the 5 or the 7?"
+        },
+        {
+          "learning": "Welche Jacke gefällt dir besser?",
+          "known": "Which jacket do you like better?"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u32-l26-artikelw-p2-ex02",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Which bus are you taking – the 5 or the 7?",
+      "tiles": [
+        "den",
+        "5er",
+        "gefällt",
+        "diesem",
+        "nimmst",
+        "7er",
+        "oder",
+        "Welchen",
+        "spazieren",
+        "den",
+        "Bus",
+        "du"
+      ],
+      "answers": [
+        "Welchen Bus nimmst du – den 5er oder den 7er?"
+      ],
+      "explanation": "**Why:** Choice → welchen (accusative).\n\n*Warum:* Auswahl → welchen (Akkusativ)."
+    },
+    {
+      "id": "tb1-u32-l26-artikelw-p2-ex03",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Which jacket do you like better?",
+      "tiles": [
+        "den",
+        "Welche",
+        "besser",
+        "dir",
+        "Jacke",
+        "du",
+        "gefällt",
+        "Diese"
+      ],
+      "answers": [
+        "Welche Jacke gefällt dir besser?"
+      ],
+      "explanation": "**Why:** die Jacke → welche.\n\n*Warum:* die Jacke → welche."
+    },
+    {
+      "id": "tb1-u32-l26-artikelw-p2-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "What kind of car do you have?",
+      "tiles": [
+        "den",
+        "Ich",
+        "Auto",
+        "Was",
+        "du",
+        "→",
+        "für",
+        "hast",
+        "ein"
+      ],
+      "answers": [
+        "Was für ein Auto hast du?"
+      ],
+      "explanation": "**Why:** Kind/type → was für ein.\n\n*Warum:* Art/Sorte → was für ein."
+    },
+    {
+      "id": "tb1-u32-l26-artikelw-p2-ex05",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "What kind of flat are you looking for?",
+      "tiles": [
+        "für",
+        "Sie",
+        "eine",
+        "suchen",
+        "ich",
+        "Wohnung",
+        "doch",
+        "Was",
+        "ein"
+      ],
+      "answers": [
+        "Was für eine Wohnung suchen Sie?"
+      ],
+      "explanation": "**Why:** Typical question from an estate agent.\n\n*Warum:* Typische Frage beim Makler."
+    },
+    {
+      "id": "tb1-u32-l26-artikelw-p2-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Which floor do you live on?",
+      "tiles": [
+        "In",
+        "da",
+        "bekommen",
+        "welchem",
+        "Sie",
+        "wohnen",
+        "Stock",
+        "Dieses"
+      ],
+      "answers": [
+        "In welchem Stock wohnen Sie?"
+      ],
+      "explanation": "**Why:** Dative → welchem.\n\n*Warum:* Dativ → welchem."
+    },
+    {
+      "id": "tb1-u32-l26-artikelw-p2-ex07",
+      "type": "choice",
+      "title": "Fill the gap",
+      "prompt": "___ für ein Fahrrad suchst du?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Was"
+        },
+        {
+          "id": "b",
+          "text": "Wie"
+        },
+        {
+          "id": "c",
+          "text": "Welches"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Nach dem Typ fragt man mit „was für ein“. („welches“ = Auswahl aus bekannten)"
+    }
+  ]
+}

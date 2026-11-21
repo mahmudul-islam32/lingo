@@ -1,0 +1,280 @@
+{
+  "id": "tb1-u07-l09-time-frequency-1",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u07",
+  "title": "Time & Frequency 1",
+  "tip": "Theme: Zeit & Häufigkeit (A2)",
+  "exercises": [
+    {
+      "id": "tb1-u07-l09-time-frequency-1-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "oft",
+          "known": "often"
+        },
+        {
+          "id": "p2",
+          "learning": "manchmal",
+          "known": "sometimes"
+        },
+        {
+          "id": "p3",
+          "learning": "selten",
+          "known": "rarely"
+        },
+        {
+          "id": "p4",
+          "learning": "meistens",
+          "known": "mostly"
+        },
+        {
+          "id": "p5",
+          "learning": "normalerweise",
+          "known": "usually"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u07-l09-time-frequency-1-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which one means „often“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "seit"
+        },
+        {
+          "id": "b",
+          "text": "während"
+        },
+        {
+          "id": "c",
+          "text": "nachher"
+        },
+        {
+          "id": "d",
+          "text": "oft"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**oft** = often\n\n*Example:* Anna geht oft mit ihrem Hund in den Park.\nAnna often takes her dog to the park."
+    },
+    {
+      "id": "tb1-u07-l09-time-frequency-1-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which one means „sometimes“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "manchmal"
+        },
+        {
+          "id": "b",
+          "text": "danach"
+        },
+        {
+          "id": "c",
+          "text": "schließlich"
+        },
+        {
+          "id": "d",
+          "text": "dann"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**manchmal** = sometimes\n\n*Example:* Manchmal fahre ich mit dem Fahrrad zur Arbeit.\nSometimes I ride my bike to work."
+    },
+    {
+      "id": "tb1-u07-l09-time-frequency-1-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Anna often takes her dog to the park.",
+      "tiles": [
+        "Hund",
+        "in",
+        "Park",
+        "lange",
+        "mit",
+        "geht",
+        "er",
+        "Anna",
+        "oft",
+        "ihrem",
+        "den",
+        "Mein"
+      ],
+      "answers": [
+        "Anna geht oft mit ihrem Hund in den Park."
+      ],
+      "explanation": "**oft** = often"
+    },
+    {
+      "id": "tb1-u07-l09-time-frequency-1-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which one means „rarely“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "vorher"
+        },
+        {
+          "id": "b",
+          "text": "selten"
+        },
+        {
+          "id": "c",
+          "text": "gleich"
+        },
+        {
+          "id": "d",
+          "text": "während"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**selten** = rarely\n\n*Example:* Mein Vater geht nur selten zum Arzt.\nMy father rarely goes to the doctor."
+    },
+    {
+      "id": "tb1-u07-l09-time-frequency-1-ex06",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u07-l09-time-frequency-1-2.mp3"
+      },
+      "tiles": [
+        "Manchmal",
+        "ich",
+        "der",
+        "Arbeit",
+        "mit",
+        "gerade",
+        "dem",
+        "zur",
+        "drei",
+        "Fahrrad",
+        "fahre"
+      ],
+      "answers": [
+        "Manchmal fahre ich mit dem Fahrrad zur Arbeit."
+      ],
+      "explanation": "Manchmal fahre ich mit dem Fahrrad zur Arbeit.\n*Sometimes I ride my bike to work.*\n\n**manchmal** = sometimes"
+    },
+    {
+      "id": "tb1-u07-l09-time-frequency-1-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which one means „mostly“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "schließlich"
+        },
+        {
+          "id": "b",
+          "text": "danach"
+        },
+        {
+          "id": "c",
+          "text": "meistens"
+        },
+        {
+          "id": "d",
+          "text": "später"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**meistens** = mostly\n\n*Example:* Am Wochenende kochen wir meistens zu Hause.\nAt the weekend we mostly cook at home."
+    },
+    {
+      "id": "tb1-u07-l09-time-frequency-1-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Mein Vater geht nur selten zum Arzt.",
+      "tiles": [
+        "to",
+        "doctor",
+        "p.m",
+        "rarely",
+        "wash",
+        "goes",
+        "found",
+        "My",
+        "the",
+        "father"
+      ],
+      "answers": [
+        "My father rarely goes to the doctor."
+      ],
+      "explanation": "**selten** = rarely"
+    },
+    {
+      "id": "tb1-u07-l09-time-frequency-1-ex09",
+      "type": "multiple_choice",
+      "prompt": "Which one means „usually“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "bis"
+        },
+        {
+          "id": "b",
+          "text": "normalerweise"
+        },
+        {
+          "id": "c",
+          "text": "plötzlich"
+        },
+        {
+          "id": "d",
+          "text": "gerade"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**normalerweise** = usually\n\n*Example:* Normalerweise stehe ich um sechs Uhr auf.\nI usually get up at six o'clock."
+    },
+    {
+      "id": "tb1-u07-l09-time-frequency-1-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "At the weekend we mostly cook at home.",
+      "tiles": [
+        "zu",
+        "wir",
+        "Wochenende",
+        "kochen",
+        "Am",
+        "der",
+        "haben",
+        "meistens",
+        "Haus",
+        "Hause"
+      ],
+      "answers": [
+        "Am Wochenende kochen wir meistens zu Hause."
+      ],
+      "explanation": "**meistens** = mostly"
+    },
+    {
+      "id": "tb1-u07-l09-time-frequency-1-ex11",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u07-l09-time-frequency-1-5.mp3"
+      },
+      "tiles": [
+        "Uhr",
+        "sechs",
+        "ich",
+        "Ali",
+        "sie",
+        "stehe",
+        "auf",
+        "Park",
+        "Normalerweise",
+        "um"
+      ],
+      "answers": [
+        "Normalerweise stehe ich um sechs Uhr auf."
+      ],
+      "explanation": "Normalerweise stehe ich um sechs Uhr auf.\n*I usually get up at six o'clock.*\n\n**normalerweise** = usually"
+    }
+  ]
+}

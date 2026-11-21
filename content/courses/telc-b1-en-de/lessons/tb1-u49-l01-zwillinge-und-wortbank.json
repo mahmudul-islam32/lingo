@@ -1,0 +1,553 @@
+{
+  "id": "tb1-u49-l01-zwillinge-und-wortbank",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u49",
+  "title": "Evil twins and word classes",
+  "tip": "Sort the bank first: the class decides what follows the gap.",
+  "exercises": [
+    {
+      "id": "tb1-u49-l01-zwillinge-und-wortbank-ex01",
+      "type": "explain",
+      "title": "Evil twins (Böse Zwillinge) in Part 2",
+      "body": "In the word bank the traps come in pairs that look alike but work differently:\n\n- **wenn ↔ wann**: *wenn* = if/whenever · *wann* only in questions. „Und wenn ja, …“ is a fixed phrase.\n- **da/weil ↔ damals**: da/weil = because (+ verb to the END) · damals = „back then“, a time adverb with no effect on word order.\n- **damit ↔ deshalb**: Both express purpose or consequence, but *damit* sends the verb to the END, *deshalb* forces INVERSION. Verb position decides on its own.\n- **obwohl ↔ trotzdem**: Same meaning, same split: obwohl + verb-final, trotzdem + inversion.\n- **ob ↔ dass ↔ wann**: ob = open yes/no question · dass = established fact · wann = time question.\n- **seit ↔ vor ↔ ab**: seit + present (still true) · vor + past („three years ago“) · ab = from a future point on.\n- **für ↔ dafür**: Preposition when a NOUN follows (für Ihr Angebot) · da-compound when NOTHING follows (it points back).\n- **könnte ↔ müsste ↔ sollte**: Ability ↔ obligation („how much would I have to pay?“) ↔ recommendation.\n- **gern ↔ lieber**: gern = gladly (absolute) · lieber = preference between two options. If no alternative is named, it is gern.\n- **besonders ↔ sehr**: besonders singles ONE thing out among others · sehr merely intensifies.\n- **schließlich ↔ endlich**: schließlich = finally/lastly (listing) · endlich = at last! (relief).\n- **auch ↔ sogar ↔ nur**: also ↔ even (surprise) ↔ only (restriction).\n\n## Auf Deutsch\n\n- **wenn ↔ wann**: *wenn* = falls/immer wenn · *wann* nur in Fragen. „Und wenn ja, …“ ist eine feste Wendung.\n- **da/weil ↔ damals**: da/weil = weil (+ Verb ans ENDE) · damals = „früher einmal“, ein Zeitadverb ohne Wirkung auf die Wortstellung.\n- **damit ↔ deshalb**: Beide meinen Zweck bzw. Folge, aber *damit* schickt das Verb ans ENDE, *deshalb* erzwingt INVERSION. Die Verbposition entscheidet allein.\n- **obwohl ↔ trotzdem**: Gleiche Bedeutung, gleiche Spaltung: obwohl + Verb-Ende, trotzdem + Inversion.\n- **ob ↔ dass ↔ wann**: ob = offene Ja/Nein-Frage · dass = feststehende Tatsache · wann = Zeitfrage.\n- **seit ↔ vor ↔ ab**: seit + Präsens (gilt noch) · vor + Vergangenheit („vor drei Jahren“) · ab = von einem künftigen Punkt an.\n- **für ↔ dafür**: Präposition, wenn ein NOMEN folgt (für Ihr Angebot) · da-Kompositum, wenn NICHTS folgt (es zeigt zurück).\n- **könnte ↔ müsste ↔ sollte**: Möglichkeit ↔ Verpflichtung („wie viel müsste ich bezahlen?“) ↔ Empfehlung.\n- **gern ↔ lieber**: gern = einfach gern · lieber = Vorzug zwischen zwei Dingen. Wird keine Alternative genannt, ist es gern.\n- **besonders ↔ sehr**: besonders hebt EINE Sache aus mehreren heraus · sehr verstärkt nur.\n- **schließlich ↔ endlich**: schließlich = zuletzt (Aufzählung) · endlich = na endlich! (Erleichterung).\n- **auch ↔ sogar ↔ nur**: auch ↔ sogar (Überraschung) ↔ nur (Einschränkung)."
+    },
+    {
+      "id": "tb1-u49-l01-zwillinge-und-wortbank-ex02",
+      "type": "explain",
+      "title": "Sort the word bank (Wortbank sortieren)",
+      "body": "Before you fill any gap, sort the 15 words into classes. The class tells you what has to follow the gap:\n\n- **Subordinators: verb to the END** (*Subjunktionen: Verb ans ENDE*): als, bevor, bis, da, damit, dass, falls, ob, obwohl, seitdem, während, weil, wenn\n- **Adverb connectors: INVERSION** (*Adverbkonnektoren: INVERSION*): außerdem, dann, danach, deshalb, deswegen, schließlich, sonst, trotzdem, vorher, zuerst\n- **Prepositions: a noun follows** (*Präpositionen: es folgt ein Nomen*): ab, bei, für, gegen, mit, nach, ohne, seit, über, um, von, vor, zu\n- **Adverbs and particles** (*Adverbien und Partikeln*): auch, bald, besonders, bestimmt, endlich, erst, fast, gern(e), immer, inzwischen, leider, natürlich, nur, schon, sehr, sofort, sogar, vielleicht, wirklich, ziemlich\n- **Konjunktiv II forms** (*Konjunktiv-II-Formen*): hätte(n), wäre(n), würde(n), könnte(n), müsste(n), sollte(n), dürfte(n)\n- **da(r)-compounds** (*da(r)-Komposita*): dafür, damit (= damit!), darauf, darüber, davon, dazu\n- **Letter chunks that recur** (*Briefbausteine, die immer wiederkommen*): dankbar (… wäre Ihnen sehr dankbar), möglich (so bald wie möglich), im Voraus (vielen Dank im Voraus), Bescheid (Bescheid geben), vor allem, auf jeden Fall, zum Beispiel"
+    },
+    {
+      "id": "tb1-u49-l01-zwillinge-und-wortbank-ex03",
+      "type": "choice",
+      "title": "Wortbank sortieren",
+      "prompt": "Zu welcher Gruppe gehört „wenn“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Subordinators: verb to the END (Subjunktionen: Verb ans ENDE)"
+        },
+        {
+          "id": "b",
+          "text": "Adverb connectors: INVERSION (Adverbkonnektoren: INVERSION)"
+        },
+        {
+          "id": "c",
+          "text": "Prepositions: a noun follows (Präpositionen: es folgt ein Nomen)"
+        },
+        {
+          "id": "d",
+          "text": "Adverbs and particles (Adverbien und Partikeln)"
+        },
+        {
+          "id": "e",
+          "text": "Konjunktiv II forms (Konjunktiv-II-Formen)"
+        },
+        {
+          "id": "f",
+          "text": "da(r)-compounds (da(r)-Komposita)"
+        },
+        {
+          "id": "g",
+          "text": "Letter chunks that recur (Briefbausteine, die immer wiederkommen)"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Subordinators: verb to the END** (*Subjunktionen: Verb ans ENDE*): als, bevor, bis, da, damit, dass, falls, ob, obwohl, seitdem, während, weil, wenn"
+    },
+    {
+      "id": "tb1-u49-l01-zwillinge-und-wortbank-ex04",
+      "type": "choice",
+      "title": "Wortbank sortieren",
+      "prompt": "Zu welcher Gruppe gehört „möglich“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Subordinators: verb to the END (Subjunktionen: Verb ans ENDE)"
+        },
+        {
+          "id": "b",
+          "text": "Adverb connectors: INVERSION (Adverbkonnektoren: INVERSION)"
+        },
+        {
+          "id": "c",
+          "text": "Prepositions: a noun follows (Präpositionen: es folgt ein Nomen)"
+        },
+        {
+          "id": "d",
+          "text": "Adverbs and particles (Adverbien und Partikeln)"
+        },
+        {
+          "id": "e",
+          "text": "Konjunktiv II forms (Konjunktiv-II-Formen)"
+        },
+        {
+          "id": "f",
+          "text": "da(r)-compounds (da(r)-Komposita)"
+        },
+        {
+          "id": "g",
+          "text": "Letter chunks that recur (Briefbausteine, die immer wiederkommen)"
+        }
+      ],
+      "correctOptionId": "g",
+      "explanation": "**Letter chunks that recur** (*Briefbausteine, die immer wiederkommen*): dankbar (… wäre Ihnen sehr dankbar), möglich (so bald wie möglich), im Voraus (vielen Dank im Voraus), Bescheid (Bescheid geben), vor allem, auf jeden Fall, zum Beispiel"
+    },
+    {
+      "id": "tb1-u49-l01-zwillinge-und-wortbank-ex05",
+      "type": "choice",
+      "title": "Wortbank sortieren",
+      "prompt": "Zu welcher Gruppe gehört „würde“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Subordinators: verb to the END (Subjunktionen: Verb ans ENDE)"
+        },
+        {
+          "id": "b",
+          "text": "Adverb connectors: INVERSION (Adverbkonnektoren: INVERSION)"
+        },
+        {
+          "id": "c",
+          "text": "Prepositions: a noun follows (Präpositionen: es folgt ein Nomen)"
+        },
+        {
+          "id": "d",
+          "text": "Adverbs and particles (Adverbien und Partikeln)"
+        },
+        {
+          "id": "e",
+          "text": "Konjunktiv II forms (Konjunktiv-II-Formen)"
+        },
+        {
+          "id": "f",
+          "text": "da(r)-compounds (da(r)-Komposita)"
+        },
+        {
+          "id": "g",
+          "text": "Letter chunks that recur (Briefbausteine, die immer wiederkommen)"
+        }
+      ],
+      "correctOptionId": "e",
+      "explanation": "**Konjunktiv II forms** (*Konjunktiv-II-Formen*): hätte(n), wäre(n), würde(n), könnte(n), müsste(n), sollte(n), dürfte(n)"
+    },
+    {
+      "id": "tb1-u49-l01-zwillinge-und-wortbank-ex06",
+      "type": "choice",
+      "title": "Wortbank sortieren",
+      "prompt": "Zu welcher Gruppe gehört „Bescheid“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Subordinators: verb to the END (Subjunktionen: Verb ans ENDE)"
+        },
+        {
+          "id": "b",
+          "text": "Adverb connectors: INVERSION (Adverbkonnektoren: INVERSION)"
+        },
+        {
+          "id": "c",
+          "text": "Prepositions: a noun follows (Präpositionen: es folgt ein Nomen)"
+        },
+        {
+          "id": "d",
+          "text": "Adverbs and particles (Adverbien und Partikeln)"
+        },
+        {
+          "id": "e",
+          "text": "Konjunktiv II forms (Konjunktiv-II-Formen)"
+        },
+        {
+          "id": "f",
+          "text": "da(r)-compounds (da(r)-Komposita)"
+        },
+        {
+          "id": "g",
+          "text": "Letter chunks that recur (Briefbausteine, die immer wiederkommen)"
+        }
+      ],
+      "correctOptionId": "g",
+      "explanation": "**Letter chunks that recur** (*Briefbausteine, die immer wiederkommen*): dankbar (… wäre Ihnen sehr dankbar), möglich (so bald wie möglich), im Voraus (vielen Dank im Voraus), Bescheid (Bescheid geben), vor allem, auf jeden Fall, zum Beispiel"
+    },
+    {
+      "id": "tb1-u49-l01-zwillinge-und-wortbank-ex07",
+      "type": "choice",
+      "title": "Wortbank sortieren",
+      "prompt": "Zu welcher Gruppe gehört „für“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Subordinators: verb to the END (Subjunktionen: Verb ans ENDE)"
+        },
+        {
+          "id": "b",
+          "text": "Adverb connectors: INVERSION (Adverbkonnektoren: INVERSION)"
+        },
+        {
+          "id": "c",
+          "text": "Prepositions: a noun follows (Präpositionen: es folgt ein Nomen)"
+        },
+        {
+          "id": "d",
+          "text": "Adverbs and particles (Adverbien und Partikeln)"
+        },
+        {
+          "id": "e",
+          "text": "Konjunktiv II forms (Konjunktiv-II-Formen)"
+        },
+        {
+          "id": "f",
+          "text": "da(r)-compounds (da(r)-Komposita)"
+        },
+        {
+          "id": "g",
+          "text": "Letter chunks that recur (Briefbausteine, die immer wiederkommen)"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**Prepositions: a noun follows** (*Präpositionen: es folgt ein Nomen*): ab, bei, für, gegen, mit, nach, ohne, seit, über, um, von, vor, zu"
+    },
+    {
+      "id": "tb1-u49-l01-zwillinge-und-wortbank-ex08",
+      "type": "choice",
+      "title": "Wortbank sortieren",
+      "prompt": "Zu welcher Gruppe gehört „darauf“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Subordinators: verb to the END (Subjunktionen: Verb ans ENDE)"
+        },
+        {
+          "id": "b",
+          "text": "Adverb connectors: INVERSION (Adverbkonnektoren: INVERSION)"
+        },
+        {
+          "id": "c",
+          "text": "Prepositions: a noun follows (Präpositionen: es folgt ein Nomen)"
+        },
+        {
+          "id": "d",
+          "text": "Adverbs and particles (Adverbien und Partikeln)"
+        },
+        {
+          "id": "e",
+          "text": "Konjunktiv II forms (Konjunktiv-II-Formen)"
+        },
+        {
+          "id": "f",
+          "text": "da(r)-compounds (da(r)-Komposita)"
+        },
+        {
+          "id": "g",
+          "text": "Letter chunks that recur (Briefbausteine, die immer wiederkommen)"
+        }
+      ],
+      "correctOptionId": "f",
+      "explanation": "**da(r)-compounds** (*da(r)-Komposita*): dafür, damit (= damit!), darauf, darüber, davon, dazu"
+    },
+    {
+      "id": "tb1-u49-l01-zwillinge-und-wortbank-ex09",
+      "type": "choice",
+      "title": "Wortbank sortieren",
+      "prompt": "Zu welcher Gruppe gehört „natürlich“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Subordinators: verb to the END (Subjunktionen: Verb ans ENDE)"
+        },
+        {
+          "id": "b",
+          "text": "Adverb connectors: INVERSION (Adverbkonnektoren: INVERSION)"
+        },
+        {
+          "id": "c",
+          "text": "Prepositions: a noun follows (Präpositionen: es folgt ein Nomen)"
+        },
+        {
+          "id": "d",
+          "text": "Adverbs and particles (Adverbien und Partikeln)"
+        },
+        {
+          "id": "e",
+          "text": "Konjunktiv II forms (Konjunktiv-II-Formen)"
+        },
+        {
+          "id": "f",
+          "text": "da(r)-compounds (da(r)-Komposita)"
+        },
+        {
+          "id": "g",
+          "text": "Letter chunks that recur (Briefbausteine, die immer wiederkommen)"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**Adverbs and particles** (*Adverbien und Partikeln*): auch, bald, besonders, bestimmt, endlich, erst, fast, gern(e), immer, inzwischen, leider, natürlich, nur, schon, sehr, sofort, sogar, vielleicht, wirklich, ziemlich"
+    },
+    {
+      "id": "tb1-u49-l01-zwillinge-und-wortbank-ex10",
+      "type": "choice",
+      "title": "Wortbank sortieren",
+      "prompt": "Zu welcher Gruppe gehört „könnte“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Subordinators: verb to the END (Subjunktionen: Verb ans ENDE)"
+        },
+        {
+          "id": "b",
+          "text": "Adverb connectors: INVERSION (Adverbkonnektoren: INVERSION)"
+        },
+        {
+          "id": "c",
+          "text": "Prepositions: a noun follows (Präpositionen: es folgt ein Nomen)"
+        },
+        {
+          "id": "d",
+          "text": "Adverbs and particles (Adverbien und Partikeln)"
+        },
+        {
+          "id": "e",
+          "text": "Konjunktiv II forms (Konjunktiv-II-Formen)"
+        },
+        {
+          "id": "f",
+          "text": "da(r)-compounds (da(r)-Komposita)"
+        },
+        {
+          "id": "g",
+          "text": "Letter chunks that recur (Briefbausteine, die immer wiederkommen)"
+        }
+      ],
+      "correctOptionId": "e",
+      "explanation": "**Konjunktiv II forms** (*Konjunktiv-II-Formen*): hätte(n), wäre(n), würde(n), könnte(n), müsste(n), sollte(n), dürfte(n)"
+    },
+    {
+      "id": "tb1-u49-l01-zwillinge-und-wortbank-ex11",
+      "type": "choice",
+      "title": "Wortbank sortieren",
+      "prompt": "Zu welcher Gruppe gehört „davon“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Subordinators: verb to the END (Subjunktionen: Verb ans ENDE)"
+        },
+        {
+          "id": "b",
+          "text": "Adverb connectors: INVERSION (Adverbkonnektoren: INVERSION)"
+        },
+        {
+          "id": "c",
+          "text": "Prepositions: a noun follows (Präpositionen: es folgt ein Nomen)"
+        },
+        {
+          "id": "d",
+          "text": "Adverbs and particles (Adverbien und Partikeln)"
+        },
+        {
+          "id": "e",
+          "text": "Konjunktiv II forms (Konjunktiv-II-Formen)"
+        },
+        {
+          "id": "f",
+          "text": "da(r)-compounds (da(r)-Komposita)"
+        },
+        {
+          "id": "g",
+          "text": "Letter chunks that recur (Briefbausteine, die immer wiederkommen)"
+        }
+      ],
+      "correctOptionId": "f",
+      "explanation": "**da(r)-compounds** (*da(r)-Komposita*): dafür, damit (= damit!), darauf, darüber, davon, dazu"
+    },
+    {
+      "id": "tb1-u49-l01-zwillinge-und-wortbank-ex12",
+      "type": "choice",
+      "title": "Wortbank sortieren",
+      "prompt": "Zu welcher Gruppe gehört „nur“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Subordinators: verb to the END (Subjunktionen: Verb ans ENDE)"
+        },
+        {
+          "id": "b",
+          "text": "Adverb connectors: INVERSION (Adverbkonnektoren: INVERSION)"
+        },
+        {
+          "id": "c",
+          "text": "Prepositions: a noun follows (Präpositionen: es folgt ein Nomen)"
+        },
+        {
+          "id": "d",
+          "text": "Adverbs and particles (Adverbien und Partikeln)"
+        },
+        {
+          "id": "e",
+          "text": "Konjunktiv II forms (Konjunktiv-II-Formen)"
+        },
+        {
+          "id": "f",
+          "text": "da(r)-compounds (da(r)-Komposita)"
+        },
+        {
+          "id": "g",
+          "text": "Letter chunks that recur (Briefbausteine, die immer wiederkommen)"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**Adverbs and particles** (*Adverbien und Partikeln*): auch, bald, besonders, bestimmt, endlich, erst, fast, gern(e), immer, inzwischen, leider, natürlich, nur, schon, sehr, sofort, sogar, vielleicht, wirklich, ziemlich"
+    },
+    {
+      "id": "tb1-u49-l01-zwillinge-und-wortbank-ex13",
+      "type": "choice",
+      "title": "Wortbank sortieren",
+      "prompt": "Zu welcher Gruppe gehört „außerdem“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Subordinators: verb to the END (Subjunktionen: Verb ans ENDE)"
+        },
+        {
+          "id": "b",
+          "text": "Adverb connectors: INVERSION (Adverbkonnektoren: INVERSION)"
+        },
+        {
+          "id": "c",
+          "text": "Prepositions: a noun follows (Präpositionen: es folgt ein Nomen)"
+        },
+        {
+          "id": "d",
+          "text": "Adverbs and particles (Adverbien und Partikeln)"
+        },
+        {
+          "id": "e",
+          "text": "Konjunktiv II forms (Konjunktiv-II-Formen)"
+        },
+        {
+          "id": "f",
+          "text": "da(r)-compounds (da(r)-Komposita)"
+        },
+        {
+          "id": "g",
+          "text": "Letter chunks that recur (Briefbausteine, die immer wiederkommen)"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Adverb connectors: INVERSION** (*Adverbkonnektoren: INVERSION*): außerdem, dann, danach, deshalb, deswegen, schließlich, sonst, trotzdem, vorher, zuerst"
+    },
+    {
+      "id": "tb1-u49-l01-zwillinge-und-wortbank-ex14",
+      "type": "choice",
+      "title": "Wortbank sortieren",
+      "prompt": "Zu welcher Gruppe gehört „obwohl“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Subordinators: verb to the END (Subjunktionen: Verb ans ENDE)"
+        },
+        {
+          "id": "b",
+          "text": "Adverb connectors: INVERSION (Adverbkonnektoren: INVERSION)"
+        },
+        {
+          "id": "c",
+          "text": "Prepositions: a noun follows (Präpositionen: es folgt ein Nomen)"
+        },
+        {
+          "id": "d",
+          "text": "Adverbs and particles (Adverbien und Partikeln)"
+        },
+        {
+          "id": "e",
+          "text": "Konjunktiv II forms (Konjunktiv-II-Formen)"
+        },
+        {
+          "id": "f",
+          "text": "da(r)-compounds (da(r)-Komposita)"
+        },
+        {
+          "id": "g",
+          "text": "Letter chunks that recur (Briefbausteine, die immer wiederkommen)"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Subordinators: verb to the END** (*Subjunktionen: Verb ans ENDE*): als, bevor, bis, da, damit, dass, falls, ob, obwohl, seitdem, während, weil, wenn"
+    },
+    {
+      "id": "tb1-u49-l01-zwillinge-und-wortbank-ex15",
+      "type": "choice",
+      "title": "Wortbank sortieren",
+      "prompt": "Zu welcher Gruppe gehört „deshalb“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Subordinators: verb to the END (Subjunktionen: Verb ans ENDE)"
+        },
+        {
+          "id": "b",
+          "text": "Adverb connectors: INVERSION (Adverbkonnektoren: INVERSION)"
+        },
+        {
+          "id": "c",
+          "text": "Prepositions: a noun follows (Präpositionen: es folgt ein Nomen)"
+        },
+        {
+          "id": "d",
+          "text": "Adverbs and particles (Adverbien und Partikeln)"
+        },
+        {
+          "id": "e",
+          "text": "Konjunktiv II forms (Konjunktiv-II-Formen)"
+        },
+        {
+          "id": "f",
+          "text": "da(r)-compounds (da(r)-Komposita)"
+        },
+        {
+          "id": "g",
+          "text": "Letter chunks that recur (Briefbausteine, die immer wiederkommen)"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Adverb connectors: INVERSION** (*Adverbkonnektoren: INVERSION*): außerdem, dann, danach, deshalb, deswegen, schließlich, sonst, trotzdem, vorher, zuerst"
+    },
+    {
+      "id": "tb1-u49-l01-zwillinge-und-wortbank-ex16",
+      "type": "choice",
+      "title": "Wortbank sortieren",
+      "prompt": "Zu welcher Gruppe gehört „mit“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Subordinators: verb to the END (Subjunktionen: Verb ans ENDE)"
+        },
+        {
+          "id": "b",
+          "text": "Adverb connectors: INVERSION (Adverbkonnektoren: INVERSION)"
+        },
+        {
+          "id": "c",
+          "text": "Prepositions: a noun follows (Präpositionen: es folgt ein Nomen)"
+        },
+        {
+          "id": "d",
+          "text": "Adverbs and particles (Adverbien und Partikeln)"
+        },
+        {
+          "id": "e",
+          "text": "Konjunktiv II forms (Konjunktiv-II-Formen)"
+        },
+        {
+          "id": "f",
+          "text": "da(r)-compounds (da(r)-Komposita)"
+        },
+        {
+          "id": "g",
+          "text": "Letter chunks that recur (Briefbausteine, die immer wiederkommen)"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**Prepositions: a noun follows** (*Präpositionen: es folgt ein Nomen*): ab, bei, für, gegen, mit, nach, ohne, seit, über, um, von, vor, zu"
+    }
+  ]
+}

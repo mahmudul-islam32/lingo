@@ -1,0 +1,283 @@
+{
+  "id": "tb1-u24-l01-frequent-exam-verbs-i-1",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u24",
+  "title": "Frequent Exam Verbs I 1",
+  "tip": "Theme: Verben: Prüfungshäufig I (B1)",
+  "exercises": [
+    {
+      "id": "tb1-u24-l01-frequent-exam-verbs-i-1-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "erzählen",
+          "known": "to tell / narrate"
+        },
+        {
+          "id": "p2",
+          "learning": "beschreiben",
+          "known": "to describe"
+        },
+        {
+          "id": "p3",
+          "learning": "erläutern",
+          "known": "to explain in detail"
+        },
+        {
+          "id": "p4",
+          "learning": "zusammenfassen",
+          "known": "to summarize"
+        },
+        {
+          "id": "p5",
+          "learning": "überlegen",
+          "known": "to think about / consider"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u24-l01-frequent-exam-verbs-i-1-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which one means „to tell / narrate“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "ziehen"
+        },
+        {
+          "id": "b",
+          "text": "anbieten (bietet an)"
+        },
+        {
+          "id": "c",
+          "text": "erzählen"
+        },
+        {
+          "id": "d",
+          "text": "aussehen (sieht aus)"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**erzählen** = to tell / narrate\n\n*Example:* Oma erzählt den Kindern jeden Abend eine Geschichte.\nGrandma tells the children a story every evening."
+    },
+    {
+      "id": "tb1-u24-l01-frequent-exam-verbs-i-1-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which one means „to describe“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "erläutern"
+        },
+        {
+          "id": "b",
+          "text": "gründen"
+        },
+        {
+          "id": "c",
+          "text": "mitnehmen (nimmt mit)"
+        },
+        {
+          "id": "d",
+          "text": "beschreiben"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**beschreiben** = to describe\n\n*Example:* Können Sie mir den Weg zum Bahnhof beschreiben?\nCan you describe the way to the station for me?"
+    },
+    {
+      "id": "tb1-u24-l01-frequent-exam-verbs-i-1-ex04",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u24-l01-frequent-exam-verbs-i-1-1.mp3"
+      },
+      "tiles": [
+        "Oma",
+        "Kollegin",
+        "Urlaub",
+        "erzählt",
+        "Kindern",
+        "Abend",
+        "jeden",
+        "Geschichte",
+        "schneiden",
+        "eine",
+        "den"
+      ],
+      "answers": [
+        "Oma erzählt den Kindern jeden Abend eine Geschichte."
+      ],
+      "explanation": "Oma erzählt den Kindern jeden Abend eine Geschichte.\n*Grandma tells the children a story every evening.*\n\n**erzählen** = to tell / narrate"
+    },
+    {
+      "id": "tb1-u24-l01-frequent-exam-verbs-i-1-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which one means „to explain in detail“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "verbinden"
+        },
+        {
+          "id": "b",
+          "text": "verwenden"
+        },
+        {
+          "id": "c",
+          "text": "erläutern"
+        },
+        {
+          "id": "d",
+          "text": "anbieten (bietet an)"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**erläutern** = to explain in detail\n\n*Example:* Die Chefin erläutert dem Team den neuen Plan.\nThe boss explains the new plan to the team in detail."
+    },
+    {
+      "id": "tb1-u24-l01-frequent-exam-verbs-i-1-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Können Sie mir den Weg zum Bahnhof beschreiben?",
+      "tiles": [
+        "the",
+        "way",
+        "years",
+        "to",
+        "station",
+        "you",
+        "for",
+        "still",
+        "Can",
+        "me",
+        "party",
+        "the",
+        "describe"
+      ],
+      "answers": [
+        "Can you describe the way to the station for me?"
+      ],
+      "explanation": "**beschreiben** = to describe"
+    },
+    {
+      "id": "tb1-u24-l01-frequent-exam-verbs-i-1-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which one means „to summarize“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "erfahren (erfährt)"
+        },
+        {
+          "id": "b",
+          "text": "erläutern"
+        },
+        {
+          "id": "c",
+          "text": "zusammenfassen"
+        },
+        {
+          "id": "d",
+          "text": "zuschicken"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**zusammenfassen** = to summarize\n\n*Example:* Kannst du den Text kurz zusammenfassen?\nCan you briefly summarize the text?"
+    },
+    {
+      "id": "tb1-u24-l01-frequent-exam-verbs-i-1-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "The boss explains the new plan to the team in detail.",
+      "tiles": [
+        "erläutert",
+        "eine",
+        "Chefin",
+        "Team",
+        "dem",
+        "Plan",
+        "Im",
+        "neuen",
+        "den",
+        "Die",
+        "Stelle"
+      ],
+      "answers": [
+        "Die Chefin erläutert dem Team den neuen Plan."
+      ],
+      "explanation": "**erläutern** = to explain in detail"
+    },
+    {
+      "id": "tb1-u24-l01-frequent-exam-verbs-i-1-ex09",
+      "type": "multiple_choice",
+      "prompt": "Which one means „to think about / consider“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "überlegen"
+        },
+        {
+          "id": "b",
+          "text": "tauschen"
+        },
+        {
+          "id": "c",
+          "text": "gründen"
+        },
+        {
+          "id": "d",
+          "text": "aussehen (sieht aus)"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**überlegen** = to think about / consider\n\n*Example:* Ich überlege noch, ob ich die Wohnung nehme.\nI'm still thinking about whether to take the flat."
+    },
+    {
+      "id": "tb1-u24-l01-frequent-exam-verbs-i-1-ex10",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u24-l01-frequent-exam-verbs-i-1-4.mp3"
+      },
+      "tiles": [
+        "zusammenfassen",
+        "hat",
+        "Text",
+        "den",
+        "kurz",
+        "wäscht",
+        "Kannst",
+        "du",
+        "Gemüsesuppe"
+      ],
+      "answers": [
+        "Kannst du den Text kurz zusammenfassen?"
+      ],
+      "explanation": "Kannst du den Text kurz zusammenfassen?\n*Can you briefly summarize the text?*\n\n**zusammenfassen** = to summarize"
+    },
+    {
+      "id": "tb1-u24-l01-frequent-exam-verbs-i-1-ex11",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Ich überlege noch, ob ich die Wohnung nehme.",
+      "tiles": [
+        "to",
+        "In",
+        "next",
+        "still",
+        "the",
+        "you",
+        "take",
+        "whether",
+        "thinking",
+        "about",
+        "flat",
+        "I'm"
+      ],
+      "answers": [
+        "I'm still thinking about whether to take the flat."
+      ],
+      "explanation": "**überlegen** = to think about / consider"
+    }
+  ]
+}

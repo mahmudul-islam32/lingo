@@ -1,0 +1,233 @@
+{
+  "id": "tb1-u06-l12-shopping-money-4",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u06",
+  "title": "Shopping & Money 4",
+  "tip": "Theme: Einkaufen & Geld (A2)",
+  "exercises": [
+    {
+      "id": "tb1-u06-l12-shopping-money-4-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "umtauschen",
+          "known": "to exchange"
+        },
+        {
+          "id": "p2",
+          "learning": "die Größe",
+          "known": "size"
+        },
+        {
+          "id": "p3",
+          "learning": "das Kleingeld",
+          "known": "change (coins)"
+        },
+        {
+          "id": "p4",
+          "learning": "sparen",
+          "known": "to save (money)"
+        },
+        {
+          "id": "p5",
+          "learning": "das Geschäft",
+          "known": "shop"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u06-l12-shopping-money-4-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which one means „to exchange“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "teuer"
+        },
+        {
+          "id": "b",
+          "text": "umtauschen"
+        },
+        {
+          "id": "c",
+          "text": "bar bezahlen"
+        },
+        {
+          "id": "d",
+          "text": "günstig"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**umtauschen** = to exchange\n\n*Example:* Ich möchte diesen Pullover umtauschen, er ist zu klein.\nI'd like to exchange this jumper, it's too small."
+    },
+    {
+      "id": "tb1-u06-l12-shopping-money-4-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „size“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Quittung, die Quittungen"
+        },
+        {
+          "id": "b",
+          "text": "die Größe, die Größen"
+        },
+        {
+          "id": "c",
+          "text": "der Markt, die Märkte"
+        },
+        {
+          "id": "d",
+          "text": "der Supermarkt, die Supermärkte"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**die Größe** = size\n*Plural: die Größen*\n\n*Example:* Haben Sie diese Jacke auch in Größe M?\nDo you have this jacket in size M too?"
+    },
+    {
+      "id": "tb1-u06-l12-shopping-money-4-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I'd like to exchange this jumper, it's too small.",
+      "tiles": [
+        "Ich",
+        "Gemüse",
+        "Hotel",
+        "umtauschen",
+        "ist",
+        "klein",
+        "diesen",
+        "möchte",
+        "heute",
+        "zu",
+        "Pullover",
+        "er"
+      ],
+      "answers": [
+        "Ich möchte diesen Pullover umtauschen, er ist zu klein."
+      ],
+      "explanation": "**umtauschen** = to exchange"
+    },
+    {
+      "id": "tb1-u06-l12-shopping-money-4-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „change (coins)“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "das Angebot, die Angebote"
+        },
+        {
+          "id": "b",
+          "text": "der Rabatt, die Rabatte"
+        },
+        {
+          "id": "c",
+          "text": "der Preis, die Preise"
+        },
+        {
+          "id": "d",
+          "text": "das Kleingeld"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**das Kleingeld** = change (coins)\n\n*Example:* Für den Parkautomaten brauche ich Kleingeld.\nI need change for the parking meter."
+    },
+    {
+      "id": "tb1-u06-l12-shopping-money-4-ex06",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u06-l12-shopping-money-4-2.mp3"
+      },
+      "tiles": [
+        "in",
+        "Haben",
+        "ich",
+        "Größe",
+        "Jacke",
+        "auch",
+        "Im",
+        "brauche",
+        "diese",
+        "M",
+        "Sie"
+      ],
+      "answers": [
+        "Haben Sie diese Jacke auch in Größe M?"
+      ],
+      "explanation": "Haben Sie diese Jacke auch in Größe M?\n*Do you have this jacket in size M too?*\n\n**die Größe** = size\n*Plural: die Größen*"
+    },
+    {
+      "id": "tb1-u06-l12-shopping-money-4-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which one means „to save (money)“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "sparen"
+        },
+        {
+          "id": "b",
+          "text": "kosten"
+        },
+        {
+          "id": "c",
+          "text": "teuer"
+        },
+        {
+          "id": "d",
+          "text": "günstig"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**sparen** = to save (money)\n\n*Example:* Wir sparen jeden Monat Geld für den Urlaub.\nWe save money for our holiday every month."
+    },
+    {
+      "id": "tb1-u06-l12-shopping-money-4-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Für den Parkautomaten brauche ich Kleingeld.",
+      "tiles": [
+        "parking",
+        "in",
+        "meter",
+        "change",
+        "I",
+        "the",
+        "need",
+        "for",
+        "offer",
+        "are"
+      ],
+      "answers": [
+        "I need change for the parking meter."
+      ],
+      "explanation": "**das Kleingeld** = change (coins)"
+    },
+    {
+      "id": "tb1-u06-l12-shopping-money-4-ex09",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "We save money for our holiday every month.",
+      "tiles": [
+        "den",
+        "bis",
+        "Monat",
+        "Geld",
+        "sparen",
+        "jeden",
+        "kaufe",
+        "Wir",
+        "für",
+        "Urlaub",
+        "Am"
+      ],
+      "answers": [
+        "Wir sparen jeden Monat Geld für den Urlaub."
+      ],
+      "explanation": "**sparen** = to save (money)"
+    }
+  ]
+}

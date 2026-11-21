@@ -1,0 +1,233 @@
+{
+  "id": "tb1-u02-l05-numbers-time-5",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u02",
+  "title": "Numbers & Time 5",
+  "tip": "Theme: Zahlen & Zeit (A1)",
+  "exercises": [
+    {
+      "id": "tb1-u02-l05-numbers-time-5-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "heute",
+          "known": "today"
+        },
+        {
+          "id": "p2",
+          "learning": "morgen",
+          "known": "tomorrow"
+        },
+        {
+          "id": "p3",
+          "learning": "gestern",
+          "known": "yesterday"
+        },
+        {
+          "id": "p4",
+          "learning": "jetzt",
+          "known": "now"
+        },
+        {
+          "id": "p5",
+          "learning": "die Zahl",
+          "known": "number"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u02-l05-numbers-time-5-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which one means „today“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "heute"
+        },
+        {
+          "id": "b",
+          "text": "vier"
+        },
+        {
+          "id": "c",
+          "text": "fünf"
+        },
+        {
+          "id": "d",
+          "text": "zehn"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**heute** = today\n\n*Example:* Heute muss ich lange im Büro bleiben.\nToday I have to stay at the office for a long time."
+    },
+    {
+      "id": "tb1-u02-l05-numbers-time-5-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which one means „tomorrow“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "fünf"
+        },
+        {
+          "id": "b",
+          "text": "tausend"
+        },
+        {
+          "id": "c",
+          "text": "zwei"
+        },
+        {
+          "id": "d",
+          "text": "morgen"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**morgen** = tomorrow\n\n*Example:* Morgen habe ich um neun Uhr einen Termin beim Zahnarzt.\nTomorrow I have a dentist appointment at nine o'clock."
+    },
+    {
+      "id": "tb1-u02-l05-numbers-time-5-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Today I have to stay at the office for a long time.",
+      "tiles": [
+        "fünf",
+        "Heute",
+        "Büro",
+        "bleiben",
+        "ich",
+        "im",
+        "muss",
+        "lange",
+        "bezahlt",
+        "Unser"
+      ],
+      "answers": [
+        "Heute muss ich lange im Büro bleiben."
+      ],
+      "explanation": "**heute** = today"
+    },
+    {
+      "id": "tb1-u02-l05-numbers-time-5-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which one means „yesterday“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "vier"
+        },
+        {
+          "id": "b",
+          "text": "heute"
+        },
+        {
+          "id": "c",
+          "text": "drei"
+        },
+        {
+          "id": "d",
+          "text": "gestern"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**gestern** = yesterday\n\n*Example:* Gestern hat meine Nachbarin einen Kuchen gebacken.\nYesterday my neighbour baked a cake."
+    },
+    {
+      "id": "tb1-u02-l05-numbers-time-5-ex06",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u02-l05-numbers-time-5-2.mp3"
+      },
+      "tiles": [
+        "gerade",
+        "Uhr",
+        "beim",
+        "habe",
+        "Termin",
+        "um",
+        "keine",
+        "neun",
+        "Morgen",
+        "ins",
+        "ich",
+        "Zahnarzt",
+        "einen"
+      ],
+      "answers": [
+        "Morgen habe ich um neun Uhr einen Termin beim Zahnarzt."
+      ],
+      "explanation": "Morgen habe ich um neun Uhr einen Termin beim Zahnarzt.\n*Tomorrow I have a dentist appointment at nine o'clock.*\n\n**morgen** = tomorrow"
+    },
+    {
+      "id": "tb1-u02-l05-numbers-time-5-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which one means „now“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "jetzt"
+        },
+        {
+          "id": "b",
+          "text": "fünf"
+        },
+        {
+          "id": "c",
+          "text": "null"
+        },
+        {
+          "id": "d",
+          "text": "tausend"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**jetzt** = now\n\n*Example:* Ich kann jetzt nicht telefonieren, ich fahre gerade Auto.\nI can't talk on the phone now, I'm driving."
+    },
+    {
+      "id": "tb1-u02-l05-numbers-time-5-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Gestern hat meine Nachbarin einen Kuchen gebacken.",
+      "tiles": [
+        "my",
+        "neighbour",
+        "office",
+        "The",
+        "Yesterday",
+        "half",
+        "cake",
+        "a",
+        "baked"
+      ],
+      "answers": [
+        "Yesterday my neighbour baked a cake."
+      ],
+      "explanation": "**gestern** = yesterday"
+    },
+    {
+      "id": "tb1-u02-l05-numbers-time-5-ex09",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I can't talk on the phone now, I'm driving.",
+      "tiles": [
+        "der",
+        "fahre",
+        "Ich",
+        "nicht",
+        "Auto",
+        "gerade",
+        "telefonieren",
+        "bitte",
+        "ich",
+        "jetzt",
+        "Ali",
+        "kann"
+      ],
+      "answers": [
+        "Ich kann jetzt nicht telefonieren, ich fahre gerade Auto."
+      ],
+      "explanation": "**jetzt** = now"
+    }
+  ]
+}

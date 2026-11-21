@@ -1,0 +1,268 @@
+{
+  "id": "tb1-u05-l12-useful-everyday-sentences-2",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u05",
+  "title": "Useful Everyday Sentences 2",
+  "tip": "Theme: Sätze: Nützliche Alltagssätze (A1)",
+  "exercises": [
+    {
+      "id": "tb1-u05-l12-useful-everyday-sentences-2-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "Entschuldigung, ich habe eine Frage",
+          "known": "Excuse me, I have a question."
+        },
+        {
+          "id": "p2",
+          "learning": "Könnten Sie das bitte langsamer sagen?",
+          "known": "Could you please say that more slowly?"
+        },
+        {
+          "id": "p3",
+          "learning": "Ich verstehe nur ein bisschen Deutsch",
+          "known": "I only understand a little German."
+        },
+        {
+          "id": "p4",
+          "learning": "Alles klar, danke schön!",
+          "known": "All clear, thank you!"
+        },
+        {
+          "id": "p5",
+          "learning": "Kein Problem, gern geschehen",
+          "known": "No problem, you're welcome."
+        }
+      ]
+    },
+    {
+      "id": "tb1-u05-l12-useful-everyday-sentences-2-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means „Excuse me, I have a question.“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Entschuldigung, ich habe eine Frage."
+        },
+        {
+          "id": "b",
+          "text": "Können Sie mir bitte helfen?"
+        },
+        {
+          "id": "c",
+          "text": "Könnten Sie das bitte langsamer sagen?"
+        },
+        {
+          "id": "d",
+          "text": "Was kostet das?"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Entschuldigung, ich habe eine Frage.** = Excuse me, I have a question.\n\n*Example:* Entschuldigung, ich habe eine Frage.\nExcuse me, I have a question."
+    },
+    {
+      "id": "tb1-u05-l12-useful-everyday-sentences-2-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means „Could you please say that more slowly?“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Kein Problem, gern geschehen."
+        },
+        {
+          "id": "b",
+          "text": "Könnten Sie das bitte langsamer sagen?"
+        },
+        {
+          "id": "c",
+          "text": "Wo finde ich …?"
+        },
+        {
+          "id": "d",
+          "text": "Alles klar, danke schön!"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Könnten Sie das bitte langsamer sagen?** = Could you please say that more slowly?\n\n*Example:* Könnten Sie das bitte langsamer sagen?\nCould you please say that more slowly?"
+    },
+    {
+      "id": "tb1-u05-l12-useful-everyday-sentences-2-ex04",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u05-l12-useful-everyday-sentences-2-1.mp3"
+      },
+      "tiles": [
+        "eine",
+        "ich",
+        "Frage",
+        "ein",
+        "klar",
+        "habe",
+        "einen",
+        "Entschuldigung"
+      ],
+      "answers": [
+        "Entschuldigung, ich habe eine Frage."
+      ],
+      "explanation": "Entschuldigung, ich habe eine Frage.\n*Excuse me, I have a question.*\n\n**Entschuldigung, ich habe eine Frage.** = Excuse me, I have a question."
+    },
+    {
+      "id": "tb1-u05-l12-useful-everyday-sentences-2-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means „I only understand a little German.“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Entschuldigung, ich habe eine Frage."
+        },
+        {
+          "id": "b",
+          "text": "Ich verstehe nur ein bisschen Deutsch."
+        },
+        {
+          "id": "c",
+          "text": "Alles klar, danke schön!"
+        },
+        {
+          "id": "d",
+          "text": "Wie komme ich zum Bahnhof?"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Ich verstehe nur ein bisschen Deutsch.** = I only understand a little German.\n\n*Example:* Ich verstehe nur ein bisschen Deutsch.\nI only understand a little German."
+    },
+    {
+      "id": "tb1-u05-l12-useful-everyday-sentences-2-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Könnten Sie das bitte langsamer sagen?",
+      "tiles": [
+        "milk",
+        "you",
+        "Could",
+        "slowly",
+        "understand",
+        "that",
+        "more",
+        "please",
+        "get",
+        "say"
+      ],
+      "answers": [
+        "Could you please say that more slowly?"
+      ],
+      "explanation": "**Könnten Sie das bitte langsamer sagen?** = Could you please say that more slowly?"
+    },
+    {
+      "id": "tb1-u05-l12-useful-everyday-sentences-2-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means „All clear, thank you!“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ich hätte gern einen Kaffee, bitte."
+        },
+        {
+          "id": "b",
+          "text": "Könnten Sie das bitte langsamer sagen?"
+        },
+        {
+          "id": "c",
+          "text": "Können Sie mir bitte helfen?"
+        },
+        {
+          "id": "d",
+          "text": "Alles klar, danke schön!"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**Alles klar, danke schön!** = All clear, thank you!\n\n*Example:* Alles klar, danke schön!\nAll clear, thank you!"
+    },
+    {
+      "id": "tb1-u05-l12-useful-everyday-sentences-2-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I only understand a little German.",
+      "tiles": [
+        "verstehe",
+        "langsamer",
+        "bitte",
+        "Deutsch",
+        "nur",
+        "bisschen",
+        "Ich",
+        "ein",
+        "Frage"
+      ],
+      "answers": [
+        "Ich verstehe nur ein bisschen Deutsch."
+      ],
+      "explanation": "**Ich verstehe nur ein bisschen Deutsch.** = I only understand a little German."
+    },
+    {
+      "id": "tb1-u05-l12-useful-everyday-sentences-2-ex09",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means „No problem, you're welcome.“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Wo finde ich …?"
+        },
+        {
+          "id": "b",
+          "text": "Kein Problem, gern geschehen."
+        },
+        {
+          "id": "c",
+          "text": "Alles klar, danke schön!"
+        },
+        {
+          "id": "d",
+          "text": "Ich hätte gern einen Kaffee, bitte."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Kein Problem, gern geschehen.** = No problem, you're welcome.\n\n*Example:* Kein Problem, gern geschehen.\nNo problem, you're welcome."
+    },
+    {
+      "id": "tb1-u05-l12-useful-everyday-sentences-2-ex10",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u05-l12-useful-everyday-sentences-2-4.mp3"
+      },
+      "tiles": [
+        "klar",
+        "Frage",
+        "schön",
+        "Kaffee",
+        "danke",
+        "Alles",
+        "Wie"
+      ],
+      "answers": [
+        "Alles klar, danke schön!"
+      ],
+      "explanation": "Alles klar, danke schön!\n*All clear, thank you!*\n\n**Alles klar, danke schön!** = All clear, thank you!"
+    },
+    {
+      "id": "tb1-u05-l12-useful-everyday-sentences-2-ex11",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Kein Problem, gern geschehen.",
+      "tiles": [
+        "little",
+        "problem",
+        "welcome",
+        "No",
+        "Could",
+        "say",
+        "you're"
+      ],
+      "answers": [
+        "No problem, you're welcome."
+      ],
+      "explanation": "**Kein Problem, gern geschehen.** = No problem, you're welcome."
+    }
+  ]
+}

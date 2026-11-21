@@ -1,0 +1,228 @@
+{
+  "id": "tb1-u05-l09-question-words-little-words-4",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u05",
+  "title": "Question Words & Little Words 4",
+  "tip": "Theme: Fragewörter & kleine Wörter (A1)",
+  "exercises": [
+    {
+      "id": "tb1-u05-l09-question-words-little-words-4-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "auch",
+          "known": "also / too"
+        },
+        {
+          "id": "p2",
+          "learning": "nicht",
+          "known": "not"
+        },
+        {
+          "id": "p3",
+          "learning": "kein / keine",
+          "known": "no / not a"
+        },
+        {
+          "id": "p4",
+          "learning": "hier",
+          "known": "here"
+        },
+        {
+          "id": "p5",
+          "learning": "wer",
+          "known": "who"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u05-l09-question-words-little-words-4-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which one means „also / too“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "immer"
+        },
+        {
+          "id": "b",
+          "text": "wer"
+        },
+        {
+          "id": "c",
+          "text": "auch"
+        },
+        {
+          "id": "d",
+          "text": "dort / da"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**auch** = also / too\n\n*Example:* Maria spricht Spanisch und auch ein bisschen Deutsch.\nMaria speaks Spanish and also a little German."
+    },
+    {
+      "id": "tb1-u05-l09-question-words-little-words-4-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which one means „not“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "sehr"
+        },
+        {
+          "id": "b",
+          "text": "wie viel"
+        },
+        {
+          "id": "c",
+          "text": "nie"
+        },
+        {
+          "id": "d",
+          "text": "nicht"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**nicht** = not\n\n*Example:* Heute kann ich leider nicht kommen.\nUnfortunately I can't come today."
+    },
+    {
+      "id": "tb1-u05-l09-question-words-little-words-4-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Maria speaks Spanish and also a little German.",
+      "tiles": [
+        "Spanisch",
+        "Geld",
+        "und",
+        "Rathaus",
+        "Maria",
+        "auch",
+        "spricht",
+        "Deutsch",
+        "sie",
+        "ein",
+        "bisschen"
+      ],
+      "answers": [
+        "Maria spricht Spanisch und auch ein bisschen Deutsch."
+      ],
+      "explanation": "**auch** = also / too"
+    },
+    {
+      "id": "tb1-u05-l09-question-words-little-words-4-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which one means „no / not a“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "welcher / welche / welches"
+        },
+        {
+          "id": "b",
+          "text": "wo"
+        },
+        {
+          "id": "c",
+          "text": "wohin"
+        },
+        {
+          "id": "d",
+          "text": "kein / keine"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**kein / keine** = no / not a\n\n*Example:* Ich habe heute keine Zeit und kein Geld.\nI don't have any time or money today."
+    },
+    {
+      "id": "tb1-u05-l09-question-words-little-words-4-ex06",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u05-l09-question-words-little-words-4-2.mp3"
+      },
+      "tiles": [
+        "kommt",
+        "Heute",
+        "ich",
+        "kommen",
+        "Käse",
+        "leider",
+        "nicht",
+        "kann",
+        "hier"
+      ],
+      "answers": [
+        "Heute kann ich leider nicht kommen."
+      ],
+      "explanation": "Heute kann ich leider nicht kommen.\n*Unfortunately I can't come today.*\n\n**nicht** = not"
+    },
+    {
+      "id": "tb1-u05-l09-question-words-little-words-4-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which one means „here“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "wie"
+        },
+        {
+          "id": "b",
+          "text": "wie viele"
+        },
+        {
+          "id": "c",
+          "text": "wie viel"
+        },
+        {
+          "id": "d",
+          "text": "hier"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**hier** = here\n\n*Example:* Bitte unterschreiben Sie hier unten.\nPlease sign down here."
+    },
+    {
+      "id": "tb1-u05-l09-question-words-little-words-4-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Ich habe heute keine Zeit und kein Geld.",
+      "tiles": [
+        "I",
+        "any",
+        "don't",
+        "time",
+        "the",
+        "around",
+        "have",
+        "or",
+        "money",
+        "eat",
+        "today"
+      ],
+      "answers": [
+        "I don't have any time or money today."
+      ],
+      "explanation": "**kein / keine** = no / not a"
+    },
+    {
+      "id": "tb1-u05-l09-question-words-little-words-4-ex09",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Please sign down here.",
+      "tiles": [
+        "Sie",
+        "Woher",
+        "unten",
+        "unterschreiben",
+        "Bitte",
+        "hier",
+        "Arztpraxis",
+        "Warum"
+      ],
+      "answers": [
+        "Bitte unterschreiben Sie hier unten."
+      ],
+      "explanation": "**hier** = here"
+    }
+  ]
+}

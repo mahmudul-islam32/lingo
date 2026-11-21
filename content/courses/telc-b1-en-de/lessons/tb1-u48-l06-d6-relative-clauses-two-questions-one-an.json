@@ -1,0 +1,225 @@
+{
+  "id": "tb1-u48-l06-d6-relative-clauses-two-questions-one-an",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u48",
+  "title": "Relative clauses: two questions, one answer (Relativsätze: zwei Fragen, eine Antwort)",
+  "tip": "Gap type: Relativsätze (relative clauses).",
+  "exercises": [
+    {
+      "id": "tb1-u48-l06-d6-relative-clauses-two-questions-one-an-ex01",
+      "type": "explain",
+      "title": "Relative clauses: two questions, one answer",
+      "body": "Never ask just *one* question, always **two**:\n**1. Gender and number** come from the noun before the comma.\n**2. The case** comes from the role inside the relative clause, subject → nominative, object → accusative or dative depending on the verb, and **after a preposition the preposition decides**.\n\nThe forms match the articles **except**: dative plural = denen, and the genitive row dessen / deren (= whose).\nAfter *alles, etwas, nichts, das* use **was**. For places, **wo** may replace „in dem/in der“.\n\n**How telc asked it (Übungstest 1, item 28):** „die Kollegen, mit ___ ich am meisten zu tun hatte“, plural + „mit“ → dative plural → **denen**.\n\n## Auf Deutsch: Relativsätze: zwei Fragen, eine Antwort\n\nNie nur *eine* Frage stellen, immer **zwei**:\n**1. Genus und Zahl** kommen vom Nomen vor dem Komma.\n**2. Der Kasus** kommt von der Rolle im Relativsatz. Subjekt → Nominativ, Objekt → Akkusativ oder Dativ je nach Verb, und **nach einer Präposition entscheidet die Präposition**.\n\nDie Formen sind identisch mit den Artikeln, **außer**: Dativ Plural = denen, und die Genitivreihe dessen / deren (= dessen/deren).\nNach *alles, etwas, nichts, das* steht **was**. Bei Orten darf **wo** statt „in dem/in der“ stehen.\n\n**So fragte telc (Übungstest 1, Item 28):** „die Kollegen, mit ___ ich am meisten zu tun hatte“. Plural + „mit“ → Dativ Plural → **denen**."
+    },
+    {
+      "id": "tb1-u48-l06-d6-relative-clauses-two-questions-one-an-ex02",
+      "type": "choice",
+      "prompt": "Der Mann, ___ dort steht, ist mein Lehrer.",
+      "options": [
+        {
+          "id": "a",
+          "text": "den"
+        },
+        {
+          "id": "b",
+          "text": "der"
+        },
+        {
+          "id": "c",
+          "text": "dem"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Answer: der** · Relativsätze (relative clauses)\n\nMasculine + subject of „steht“ → nominative.\n\n*Auf Deutsch:* Maskulin + Subjekt von „steht“ → Nominativ."
+    },
+    {
+      "id": "tb1-u48-l06-d6-relative-clauses-two-questions-one-an-ex03",
+      "type": "choice",
+      "prompt": "Das ist die Kollegin, ___ ich am meisten vertraue.",
+      "options": [
+        {
+          "id": "a",
+          "text": "der"
+        },
+        {
+          "id": "b",
+          "text": "die"
+        },
+        {
+          "id": "c",
+          "text": "denen"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Answer: der** · Relativsätze (relative clauses)\n\nFeminine + „vertrauen“ takes dative → der.\n\n*Auf Deutsch:* Feminin + „vertrauen“ verlangt Dativ → der."
+    },
+    {
+      "id": "tb1-u48-l06-d6-relative-clauses-two-questions-one-an-ex04",
+      "type": "choice",
+      "prompt": "Die Nachbarn, ___ Katze bei uns schläft, sind im Urlaub.",
+      "options": [
+        {
+          "id": "a",
+          "text": "denen"
+        },
+        {
+          "id": "b",
+          "text": "dessen"
+        },
+        {
+          "id": "c",
+          "text": "deren"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**Answer: deren** · Relativsätze (relative clauses)\n\n„whose cat“ = genitive, plural antecedent → deren.\n\n*Auf Deutsch:* „deren Katze“ = Genitiv, Bezugswort im Plural → deren."
+    },
+    {
+      "id": "tb1-u48-l06-d6-relative-clauses-two-questions-one-an-ex05",
+      "type": "choice",
+      "prompt": "Das Buch, ___ du mir geliehen hast, ist spannend.",
+      "options": [
+        {
+          "id": "a",
+          "text": "das"
+        },
+        {
+          "id": "b",
+          "text": "dem"
+        },
+        {
+          "id": "c",
+          "text": "den"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Answer: das** · Relativsätze (relative clauses)\n\nNeuter + accusative object of „geliehen“ → das.\n\n*Auf Deutsch:* Neutrum + Akkusativobjekt von „geliehen“ → das."
+    },
+    {
+      "id": "tb1-u48-l06-d6-relative-clauses-two-questions-one-an-ex06",
+      "type": "choice",
+      "prompt": "Der Freund, mit ___ ich nach Spanien fahre, heißt Ali.",
+      "options": [
+        {
+          "id": "a",
+          "text": "den"
+        },
+        {
+          "id": "b",
+          "text": "dem"
+        },
+        {
+          "id": "c",
+          "text": "der"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Answer: dem** · Relativsätze (relative clauses)\n\n„mit“ → dative, masculine → dem.\n\n*Auf Deutsch:* „mit“ → Dativ, maskulin → dem."
+    },
+    {
+      "id": "tb1-u48-l06-d6-relative-clauses-two-questions-one-an-ex07",
+      "type": "choice",
+      "prompt": "Die Stadt, in ___ wir wohnen, hat 50.000 Einwohner.",
+      "options": [
+        {
+          "id": "a",
+          "text": "der"
+        },
+        {
+          "id": "b",
+          "text": "die"
+        },
+        {
+          "id": "c",
+          "text": "dem"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Answer: der** · Relativsätze (relative clauses)\n\n„in“ + Where at? → dative, feminine → der.\n\n*Auf Deutsch:* „in“ + Wo? → Dativ, feminin → der."
+    },
+    {
+      "id": "tb1-u48-l06-d6-relative-clauses-two-questions-one-an-ex08",
+      "type": "choice",
+      "prompt": "Alles, ___ du brauchst, steht auf der Liste.",
+      "options": [
+        {
+          "id": "a",
+          "text": "das"
+        },
+        {
+          "id": "b",
+          "text": "was"
+        },
+        {
+          "id": "c",
+          "text": "wo"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Answer: was** · Relativsätze (relative clauses)\n\nAfter „alles“ always „was“.\n\n*Auf Deutsch:* Nach „alles“ steht immer „was“."
+    },
+    {
+      "id": "tb1-u48-l06-d6-relative-clauses-two-questions-one-an-ex09",
+      "type": "choice",
+      "prompt": "Die Leute, ___ wir eingeladen haben, kommen um acht.",
+      "options": [
+        {
+          "id": "a",
+          "text": "denen"
+        },
+        {
+          "id": "b",
+          "text": "deren"
+        },
+        {
+          "id": "c",
+          "text": "die"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**Answer: die** · Relativsätze (relative clauses)\n\nPlural + accusative object of „eingeladen“ → die.\n\n*Auf Deutsch:* Plural + Akkusativobjekt von „eingeladen“ → die."
+    },
+    {
+      "id": "tb1-u48-l06-d6-relative-clauses-two-questions-one-an-ex10",
+      "type": "choice",
+      "prompt": "Das Café, ___ wir uns immer treffen, hat heute zu.",
+      "options": [
+        {
+          "id": "a",
+          "text": "wo"
+        },
+        {
+          "id": "b",
+          "text": "das"
+        },
+        {
+          "id": "c",
+          "text": "dem"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Answer: wo** · Relativsätze (relative clauses)\n\nA place with locative meaning → wo. Das/dem would need a preposition.\n\n*Auf Deutsch:* Ort mit Ortsbedeutung → wo. Das/dem bräuchten eine Präposition."
+    },
+    {
+      "id": "tb1-u48-l06-d6-relative-clauses-two-questions-one-an-ex11",
+      "type": "choice",
+      "prompt": "Der Kollege, ___ ich das Buch geschenkt habe, hat sich sehr gefreut.",
+      "options": [
+        {
+          "id": "a",
+          "text": "den"
+        },
+        {
+          "id": "b",
+          "text": "der"
+        },
+        {
+          "id": "c",
+          "text": "dem"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**Answer: dem** · Relativsätze (relative clauses)\n\n„schenken“ + dative (person) → masculine dative dem.\n\n*Auf Deutsch:* „schenken“ + Dativ (Person) → maskulin Dativ dem."
+    }
+  ]
+}

@@ -1,0 +1,288 @@
+{
+  "id": "tb1-u25-l05-nouns-everyday-life-5",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u25",
+  "title": "Nouns: Everyday Life 5",
+  "tip": "Theme: Nomen: Alltag & Leben (B1)",
+  "exercises": [
+    {
+      "id": "tb1-u25-l05-nouns-everyday-life-5-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "der Tourismus",
+          "known": "tourism"
+        },
+        {
+          "id": "p2",
+          "learning": "das Café",
+          "known": "café"
+        },
+        {
+          "id": "p3",
+          "learning": "die Geschichte",
+          "known": "history / story"
+        },
+        {
+          "id": "p4",
+          "learning": "der Spaß",
+          "known": "fun"
+        },
+        {
+          "id": "p5",
+          "learning": "der Stress",
+          "known": "stress"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u25-l05-nouns-everyday-life-5-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „tourism“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "das Paar, die Paare"
+        },
+        {
+          "id": "b",
+          "text": "die Wäsche"
+        },
+        {
+          "id": "c",
+          "text": "der Tourismus"
+        },
+        {
+          "id": "d",
+          "text": "die Feuerwehr"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**der Tourismus** = tourism\n\n*Example:* Viele Menschen auf der Insel leben vom Tourismus.\nMany people on the island live from tourism."
+    },
+    {
+      "id": "tb1-u25-l05-nouns-everyday-life-5-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „café“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "der Strand, die Strände"
+        },
+        {
+          "id": "b",
+          "text": "der Haushalt, die Haushalte"
+        },
+        {
+          "id": "c",
+          "text": "die Welt, die Welten"
+        },
+        {
+          "id": "d",
+          "text": "das Café, die Cafés"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**das Café** = café\n*Plural: die Cafés*\n\n*Example:* Nach der Arbeit treffe ich meine Freundin in einem Café.\nAfter work I meet my friend in a café."
+    },
+    {
+      "id": "tb1-u25-l05-nouns-everyday-life-5-ex04",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u25-l05-nouns-everyday-life-5-1.mp3"
+      },
+      "tiles": [
+        "Viele",
+        "Sie",
+        "leben",
+        "vom",
+        "Tourismus",
+        "wir",
+        "der",
+        "auf",
+        "Insel",
+        "Menschen",
+        "Gehalts"
+      ],
+      "answers": [
+        "Viele Menschen auf der Insel leben vom Tourismus."
+      ],
+      "explanation": "Viele Menschen auf der Insel leben vom Tourismus.\n*Many people on the island live from tourism.*\n\n**der Tourismus** = tourism"
+    },
+    {
+      "id": "tb1-u25-l05-nouns-everyday-life-5-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „history / story“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Geschichte, die Geschichten"
+        },
+        {
+          "id": "b",
+          "text": "der Wetterbericht, die Wetterberichte"
+        },
+        {
+          "id": "c",
+          "text": "die Wäsche"
+        },
+        {
+          "id": "d",
+          "text": "die Welt, die Welten"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**die Geschichte** = history / story\n*Plural: die Geschichten*\n\n*Example:* Mein Sohn interessiert sich sehr für die Geschichte von Berlin.\nMy son is very interested in the history of Berlin."
+    },
+    {
+      "id": "tb1-u25-l05-nouns-everyday-life-5-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Nach der Arbeit treffe ich meine Freundin in einem Café.",
+      "tiles": [
+        "my",
+        "café",
+        "a",
+        "meet",
+        "Maria",
+        "work",
+        "in",
+        "I",
+        "about",
+        "After",
+        "of",
+        "friend"
+      ],
+      "answers": [
+        "After work I meet my friend in a café."
+      ],
+      "explanation": "**das Café** = café\n*Plural: die Cafés*"
+    },
+    {
+      "id": "tb1-u25-l05-nouns-everyday-life-5-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „fun“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Übersicht, die Übersichten"
+        },
+        {
+          "id": "b",
+          "text": "der Strand, die Strände"
+        },
+        {
+          "id": "c",
+          "text": "der Spaß"
+        },
+        {
+          "id": "d",
+          "text": "das Ferienhaus, die Ferienhäuser"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**der Spaß** = fun\n\n*Example:* Das Konzert hat uns allen viel Spaß gemacht.\nWe all had a lot of fun at the concert."
+    },
+    {
+      "id": "tb1-u25-l05-nouns-everyday-life-5-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "My son is very interested in the history of Berlin.",
+      "tiles": [
+        "Mein",
+        "Wer",
+        "von",
+        "sich",
+        "die",
+        "leben",
+        "Geschichte",
+        "ist",
+        "Berlin",
+        "für",
+        "interessiert",
+        "sehr",
+        "Sohn"
+      ],
+      "answers": [
+        "Mein Sohn interessiert sich sehr für die Geschichte von Berlin."
+      ],
+      "explanation": "**die Geschichte** = history / story\n*Plural: die Geschichten*"
+    },
+    {
+      "id": "tb1-u25-l05-nouns-everyday-life-5-ex09",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „stress“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Gruppe, die Gruppen"
+        },
+        {
+          "id": "b",
+          "text": "die Insel, die Inseln"
+        },
+        {
+          "id": "c",
+          "text": "der Zeitungsartikel, die Zeitungsartikel"
+        },
+        {
+          "id": "d",
+          "text": "der Stress"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**der Stress** = stress\n\n*Example:* Vor Weihnachten habe ich bei der Arbeit immer viel Stress.\nBefore Christmas I always have a lot of stress at work."
+    },
+    {
+      "id": "tb1-u25-l05-nouns-everyday-life-5-ex10",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u25-l05-nouns-everyday-life-5-4.mp3"
+      },
+      "tiles": [
+        "gemacht",
+        "hat",
+        "Spaß",
+        "allen",
+        "uns",
+        "Rot",
+        "Das",
+        "für",
+        "Konzert",
+        "viel",
+        "fährt"
+      ],
+      "answers": [
+        "Das Konzert hat uns allen viel Spaß gemacht."
+      ],
+      "explanation": "Das Konzert hat uns allen viel Spaß gemacht.\n*We all had a lot of fun at the concert.*\n\n**der Spaß** = fun"
+    },
+    {
+      "id": "tb1-u25-l05-nouns-everyday-life-5-ex11",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Vor Weihnachten habe ich bei der Arbeit immer viel Stress.",
+      "tiles": [
+        "a",
+        "Before",
+        "work",
+        "stress",
+        "always",
+        "I",
+        "at",
+        "car",
+        "have",
+        "children",
+        "lot",
+        "all",
+        "of",
+        "Christmas"
+      ],
+      "answers": [
+        "Before Christmas I always have a lot of stress at work."
+      ],
+      "explanation": "**der Stress** = stress"
+    }
+  ]
+}

@@ -1,0 +1,227 @@
+{
+  "id": "tb1-u04-l07-animals-nature-3",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u04",
+  "title": "Animals & Nature 3",
+  "tip": "Theme: Tiere & Natur (A1)",
+  "exercises": [
+    {
+      "id": "tb1-u04-l07-animals-nature-3-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "der Mond",
+          "known": "moon"
+        },
+        {
+          "id": "p2",
+          "learning": "der Himmel",
+          "known": "sky"
+        },
+        {
+          "id": "p3",
+          "learning": "das Meer",
+          "known": "sea"
+        },
+        {
+          "id": "p4",
+          "learning": "der See",
+          "known": "lake"
+        },
+        {
+          "id": "p5",
+          "learning": "das Tier",
+          "known": "animal"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u04-l07-animals-nature-3-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „moon“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "der Berg, die Berge"
+        },
+        {
+          "id": "b",
+          "text": "das Pferd, die Pferde"
+        },
+        {
+          "id": "c",
+          "text": "die Sonne"
+        },
+        {
+          "id": "d",
+          "text": "der Mond"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**der Mond** = moon\n\n*Example:* Heute Nacht ist der Mond ganz hell.\nThe moon is very bright tonight."
+    },
+    {
+      "id": "tb1-u04-l07-animals-nature-3-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „sky“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "der Baum, die Bäume"
+        },
+        {
+          "id": "b",
+          "text": "der Vogel, die Vögel"
+        },
+        {
+          "id": "c",
+          "text": "der Wald, die Wälder"
+        },
+        {
+          "id": "d",
+          "text": "der Himmel"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**der Himmel** = sky\n\n*Example:* Am Himmel ist keine einzige Wolke.\nThere isn't a single cloud in the sky."
+    },
+    {
+      "id": "tb1-u04-l07-animals-nature-3-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Heute Nacht ist der Mond ganz hell.",
+      "tiles": [
+        "The",
+        "moon",
+        "very",
+        "bright",
+        "tonight",
+        "lake",
+        "I",
+        "is",
+        "We're"
+      ],
+      "answers": [
+        "The moon is very bright tonight."
+      ],
+      "explanation": "**der Mond** = moon"
+    },
+    {
+      "id": "tb1-u04-l07-animals-nature-3-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „sea“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "der Baum, die Bäume"
+        },
+        {
+          "id": "b",
+          "text": "das Meer, die Meere"
+        },
+        {
+          "id": "c",
+          "text": "der See, die Seen"
+        },
+        {
+          "id": "d",
+          "text": "die Luft"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**das Meer** = sea\n*Plural: die Meere*\n\n*Example:* Im Urlaub fahren wir ans Meer.\nWe're going to the seaside on holiday."
+    },
+    {
+      "id": "tb1-u04-l07-animals-nature-3-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "There isn't a single cloud in the sky.",
+      "tiles": [
+        "ist",
+        "einzige",
+        "im",
+        "Himmel",
+        "Am",
+        "keine",
+        "Bergen",
+        "Wolke",
+        "jeden"
+      ],
+      "answers": [
+        "Am Himmel ist keine einzige Wolke."
+      ],
+      "explanation": "**der Himmel** = sky"
+    },
+    {
+      "id": "tb1-u04-l07-animals-nature-3-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „lake“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "das Meer, die Meere"
+        },
+        {
+          "id": "b",
+          "text": "der See, die Seen"
+        },
+        {
+          "id": "c",
+          "text": "der Mond"
+        },
+        {
+          "id": "d",
+          "text": "die Kuh, die Kühe"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**der See** = lake\n*Plural: die Seen*\n\n*Example:* Im Sommer schwimmen wir oft im See.\nIn summer we often swim in the lake."
+    },
+    {
+      "id": "tb1-u04-l07-animals-nature-3-ex08",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u04-l07-animals-nature-3-3.mp3"
+      },
+      "tiles": [
+        "wir",
+        "ans",
+        "fahren",
+        "auf",
+        "Nacht",
+        "Meine",
+        "Meer",
+        "Urlaub",
+        "Im"
+      ],
+      "answers": [
+        "Im Urlaub fahren wir ans Meer."
+      ],
+      "explanation": "Im Urlaub fahren wir ans Meer.\n*We're going to the seaside on holiday.*\n\n**das Meer** = sea\n*Plural: die Meere*"
+    },
+    {
+      "id": "tb1-u04-l07-animals-nature-3-ex09",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Im Sommer schwimmen wir oft im See.",
+      "tiles": [
+        "swim",
+        "In",
+        "on",
+        "the",
+        "in",
+        "single",
+        "often",
+        "likes",
+        "summer",
+        "we",
+        "lake"
+      ],
+      "answers": [
+        "In summer we often swim in the lake."
+      ],
+      "explanation": "**der See** = lake\n*Plural: die Seen*"
+    }
+  ]
+}

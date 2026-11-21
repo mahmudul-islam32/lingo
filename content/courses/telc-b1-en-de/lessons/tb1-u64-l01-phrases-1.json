@@ -1,0 +1,412 @@
+{
+  "id": "tb1-u64-l01-phrases-1",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u64",
+  "title": "Useful phrases (Redemittel) 1: Meinung äußern, Zustimmen, Widersprechen (höflich), Vorschlagen",
+  "exercises": [
+    {
+      "id": "tb1-u64-l01-phrases-1-ex01",
+      "type": "explain",
+      "title": "Redemittel: Meinung äußern",
+      "body": "- **Ich bin der Meinung, dass …**: I'm of the opinion that … *(Grammar: nebensatz)*\n- **Meiner Meinung nach …**: In my opinion … *(Grammar: wortbildung)*\n- **Ich finde / glaube, dass …**: I think/believe that … *(Grammar: nebensatz)*\n- **Ich bin (fest) davon überzeugt, dass …**: I'm (firmly) convinced that …\n- **Es kommt (ganz) darauf an.**: It (really) depends.\n\n*Tipp:* Immer + Verb an der richtigen Stelle.",
+      "examples": [
+        {
+          "learning": "Ich bin der Meinung, dass …",
+          "known": "I'm of the opinion that …"
+        },
+        {
+          "learning": "Meiner Meinung nach …",
+          "known": "In my opinion …"
+        },
+        {
+          "learning": "Ich finde / glaube, dass …",
+          "known": "I think/believe that …"
+        },
+        {
+          "learning": "Ich bin (fest) davon überzeugt, dass …",
+          "known": "I'm (firmly) convinced that …"
+        },
+        {
+          "learning": "Es kommt (ganz) darauf an.",
+          "known": "It (really) depends."
+        }
+      ]
+    },
+    {
+      "id": "tb1-u64-l01-phrases-1-ex02",
+      "type": "explain",
+      "title": "Redemittel: Zustimmen",
+      "body": "- **Da hast du völlig recht.**: You're absolutely right.\n- **Das sehe ich genauso.**: I see it exactly the same way.\n- **Da stimme ich dir zu.**: I agree with you there.\n- **Das ist ein guter Punkt.**: That's a good point.",
+      "examples": [
+        {
+          "learning": "Da hast du völlig recht.",
+          "known": "You're absolutely right."
+        },
+        {
+          "learning": "Das sehe ich genauso.",
+          "known": "I see it exactly the same way."
+        },
+        {
+          "learning": "Da stimme ich dir zu.",
+          "known": "I agree with you there."
+        },
+        {
+          "learning": "Das ist ein guter Punkt.",
+          "known": "That's a good point."
+        }
+      ]
+    },
+    {
+      "id": "tb1-u64-l01-phrases-1-ex03",
+      "type": "explain",
+      "title": "Redemittel: Widersprechen (höflich)",
+      "body": "- **Das sehe ich (etwas) anders.**: I see it (a bit) differently.\n- **Da bin ich anderer Meinung.**: I have a different opinion there.\n- **Ja, aber andererseits …**: Yes, but on the other hand … *(Grammar: aduso)*\n- **Ich verstehe dich, trotzdem denke ich …**: I understand you, still I think …\n\n*Tipp:* Erst weich, dann der Einwand.",
+      "examples": [
+        {
+          "learning": "Das sehe ich (etwas) anders.",
+          "known": "I see it (a bit) differently."
+        },
+        {
+          "learning": "Da bin ich anderer Meinung.",
+          "known": "I have a different opinion there."
+        },
+        {
+          "learning": "Ja, aber andererseits …",
+          "known": "Yes, but on the other hand …"
+        },
+        {
+          "learning": "Ich verstehe dich, trotzdem denke ich …",
+          "known": "I understand you, still I think …"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u64-l01-phrases-1-ex04",
+      "type": "explain",
+      "title": "Redemittel: Vorschlagen",
+      "body": "- **Wie wäre es, wenn wir …?**: How about we …? *(Grammar: kii)*\n- **Ich schlage vor, dass …**: I suggest that … *(Grammar: nebensatz)*\n- **Wir könnten auch …**: We could also … *(Grammar: modal)*\n- **Was hältst du davon, wenn …?**: What do you think about … ?\n\n*Tipp:* Konjunktiv II wirkt höflich.",
+      "examples": [
+        {
+          "learning": "Wie wäre es, wenn wir …?",
+          "known": "How about we …?"
+        },
+        {
+          "learning": "Ich schlage vor, dass …",
+          "known": "I suggest that …"
+        },
+        {
+          "learning": "Wir könnten auch …",
+          "known": "We could also …"
+        },
+        {
+          "learning": "Was hältst du davon, wenn …?",
+          "known": "What do you think about … ?"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u64-l01-phrases-1-ex05",
+      "type": "choice",
+      "title": "Meinung äußern",
+      "prompt": "Welcher Satz passt zur Funktion „Meinung äußern“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ich bin der Meinung, dass …"
+        },
+        {
+          "id": "b",
+          "text": "Ich habe mich sehr über deine Nachricht gefreut."
+        },
+        {
+          "id": "c",
+          "text": "Moment, lass mich kurz überlegen."
+        },
+        {
+          "id": "d",
+          "text": "Das ist eine gute Frage. Also …"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Phrases for **Meinung äußern**:\n\n- Ich bin der Meinung, dass … (I'm of the opinion that …)\n- Meiner Meinung nach … (In my opinion …)\n- Ich finde / glaube, dass … (I think/believe that …)\n- Ich bin (fest) davon überzeugt, dass … (I'm (firmly) convinced that …)\n- Es kommt (ganz) darauf an. (It (really) depends.)"
+    },
+    {
+      "id": "tb1-u64-l01-phrases-1-ex06",
+      "type": "choice",
+      "prompt": "Which phrase means: “I'm of the opinion that …”?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Wäre es möglich, … zu …?"
+        },
+        {
+          "id": "b",
+          "text": "Sollen wir zuerst über … sprechen?"
+        },
+        {
+          "id": "c",
+          "text": "Ich bin der Meinung, dass …"
+        },
+        {
+          "id": "d",
+          "text": "…, weil …"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**Ich bin der Meinung, dass …**: I'm of the opinion that … (Meinung äußern)"
+    },
+    {
+      "id": "tb1-u64-l01-phrases-1-ex07",
+      "type": "choice",
+      "prompt": "Which phrase means: “In my opinion …”?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Meiner Meinung nach …"
+        },
+        {
+          "id": "b",
+          "text": "Was meinst du damit genau?"
+        },
+        {
+          "id": "c",
+          "text": "Vielen Dank im Voraus."
+        },
+        {
+          "id": "d",
+          "text": "Wäre es möglich, … zu …?"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Meiner Meinung nach …**: In my opinion … (Meinung äußern)"
+    },
+    {
+      "id": "tb1-u64-l01-phrases-1-ex08",
+      "type": "choice",
+      "title": "Zustimmen",
+      "prompt": "Welcher Satz passt zur Funktion „Zustimmen“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Wie bitte? Können Sie das wiederholen?"
+        },
+        {
+          "id": "b",
+          "text": "Das sehe ich genauso."
+        },
+        {
+          "id": "c",
+          "text": "Ich komme sehr gern."
+        },
+        {
+          "id": "d",
+          "text": "Im Vergleich zu … ist …"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Phrases for **Zustimmen**:\n\n- Da hast du völlig recht. (You're absolutely right.)\n- Das sehe ich genauso. (I see it exactly the same way.)\n- Da stimme ich dir zu. (I agree with you there.)\n- Das ist ein guter Punkt. (That's a good point.)"
+    },
+    {
+      "id": "tb1-u64-l01-phrases-1-ex09",
+      "type": "choice",
+      "prompt": "Which phrase means: “You're absolutely right.”?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Wie wäre es, wenn wir …?"
+        },
+        {
+          "id": "b",
+          "text": "Da hast du völlig recht."
+        },
+        {
+          "id": "c",
+          "text": "Könnten Sie mir bitte …?"
+        },
+        {
+          "id": "d",
+          "text": "Was hältst du davon, wenn …?"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Da hast du völlig recht.**: You're absolutely right. (Zustimmen)"
+    },
+    {
+      "id": "tb1-u64-l01-phrases-1-ex10",
+      "type": "choice",
+      "prompt": "Which phrase means: “I see it exactly the same way.”?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Was hältst du davon, wenn …?"
+        },
+        {
+          "id": "b",
+          "text": "Sind wir uns einig?"
+        },
+        {
+          "id": "c",
+          "text": "Das sehe ich genauso."
+        },
+        {
+          "id": "d",
+          "text": "Zusammenfassend kann man sagen, dass …"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**Das sehe ich genauso.**: I see it exactly the same way. (Zustimmen)"
+    },
+    {
+      "id": "tb1-u64-l01-phrases-1-ex11",
+      "type": "choice",
+      "title": "Widersprechen (höflich)",
+      "prompt": "Welcher Satz passt zur Funktion „Widersprechen (höflich)“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Was hältst du davon, wenn …?"
+        },
+        {
+          "id": "b",
+          "text": "Ja, aber andererseits …"
+        },
+        {
+          "id": "c",
+          "text": "Das ist eine gute Frage. Also …"
+        },
+        {
+          "id": "d",
+          "text": "Wie bitte? Können Sie das wiederholen?"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Phrases for **Widersprechen (höflich)**:\n\n- Das sehe ich (etwas) anders. (I see it (a bit) differently.)\n- Da bin ich anderer Meinung. (I have a different opinion there.)\n- Ja, aber andererseits … (Yes, but on the other hand …)\n- Ich verstehe dich, trotzdem denke ich … (I understand you, still I think …)"
+    },
+    {
+      "id": "tb1-u64-l01-phrases-1-ex12",
+      "type": "choice",
+      "prompt": "Which phrase means: “I see it (a bit) differently.”?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Könnten Sie mir bitte …?"
+        },
+        {
+          "id": "b",
+          "text": "Zum Beispiel …"
+        },
+        {
+          "id": "c",
+          "text": "Ein gutes Beispiel dafür ist …"
+        },
+        {
+          "id": "d",
+          "text": "Das sehe ich (etwas) anders."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**Das sehe ich (etwas) anders.**: I see it (a bit) differently. (Widersprechen (höflich))"
+    },
+    {
+      "id": "tb1-u64-l01-phrases-1-ex13",
+      "type": "choice",
+      "prompt": "Which phrase means: “I have a different opinion there.”?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Da bin ich anderer Meinung."
+        },
+        {
+          "id": "b",
+          "text": "Bei uns in … ist das so: …"
+        },
+        {
+          "id": "c",
+          "text": "Schade, dass es nicht klappt. Vielleicht ein andermal?"
+        },
+        {
+          "id": "d",
+          "text": "Der Grund dafür ist, dass …"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Da bin ich anderer Meinung.**: I have a different opinion there. (Widersprechen (höflich))"
+    },
+    {
+      "id": "tb1-u64-l01-phrases-1-ex14",
+      "type": "choice",
+      "title": "Vorschlagen",
+      "prompt": "Welcher Satz passt zur Funktion „Vorschlagen“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Was hältst du davon, wenn …?"
+        },
+        {
+          "id": "b",
+          "text": "…, deshalb …"
+        },
+        {
+          "id": "c",
+          "text": "Ich habe die Erfahrung gemacht, dass …"
+        },
+        {
+          "id": "d",
+          "text": "Das ist eine gute Frage. Also …"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Phrases for **Vorschlagen**:\n\n- Wie wäre es, wenn wir …? (How about we …?)\n- Ich schlage vor, dass … (I suggest that …)\n- Wir könnten auch … (We could also …)\n- Was hältst du davon, wenn …? (What do you think about … ?)"
+    },
+    {
+      "id": "tb1-u64-l01-phrases-1-ex15",
+      "type": "choice",
+      "prompt": "Which phrase means: “How about we …?”?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Könnten Sie mir bitte …?"
+        },
+        {
+          "id": "b",
+          "text": "Ich erwarte, dass Sie … ."
+        },
+        {
+          "id": "c",
+          "text": "Bei uns in … ist das so: …"
+        },
+        {
+          "id": "d",
+          "text": "Wie wäre es, wenn wir …?"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**Wie wäre es, wenn wir …?**: How about we …? (Vorschlagen)"
+    },
+    {
+      "id": "tb1-u64-l01-phrases-1-ex16",
+      "type": "choice",
+      "prompt": "Which phrase means: “I suggest that …”?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ich erwarte, dass Sie … ."
+        },
+        {
+          "id": "b",
+          "text": "Da bin ich anderer Meinung."
+        },
+        {
+          "id": "c",
+          "text": "Ich schlage vor, dass …"
+        },
+        {
+          "id": "d",
+          "text": "Es kommt (ganz) darauf an."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**Ich schlage vor, dass …**: I suggest that … (Vorschlagen)"
+    }
+  ]
+}

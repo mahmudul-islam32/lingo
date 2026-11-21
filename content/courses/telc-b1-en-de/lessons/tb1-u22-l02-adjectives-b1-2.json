@@ -1,0 +1,281 @@
+{
+  "id": "tb1-u22-l02-adjectives-b1-2",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u22",
+  "title": "Adjectives (B1) 2",
+  "tip": "Theme: Adjektive (B1) (B1)",
+  "exercises": [
+    {
+      "id": "tb1-u22-l02-adjectives-b1-2-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "erforderlich",
+          "known": "required"
+        },
+        {
+          "id": "p2",
+          "learning": "üblich",
+          "known": "usual / customary"
+        },
+        {
+          "id": "p3",
+          "learning": "deutlich",
+          "known": "clear"
+        },
+        {
+          "id": "p4",
+          "learning": "ausführlich",
+          "known": "detailed"
+        },
+        {
+          "id": "p5",
+          "learning": "kompliziert",
+          "known": "complicated"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u22-l02-adjectives-b1-2-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which one means „required“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "vorsichtig"
+        },
+        {
+          "id": "b",
+          "text": "umweltfreundlich"
+        },
+        {
+          "id": "c",
+          "text": "erforderlich"
+        },
+        {
+          "id": "d",
+          "text": "ausführlich"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**erforderlich** = required\n\n*Example:* Für diese Stelle sind gute Deutschkenntnisse erforderlich.\nGood German skills are required for this job."
+    },
+    {
+      "id": "tb1-u22-l02-adjectives-b1-2-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which one means „usual / customary“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "üblich"
+        },
+        {
+          "id": "b",
+          "text": "selbstständig"
+        },
+        {
+          "id": "c",
+          "text": "zuverlässig"
+        },
+        {
+          "id": "d",
+          "text": "umweltfreundlich"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**üblich** = usual / customary\n\n*Example:* In Deutschland ist es üblich, pünktlich zu kommen.\nIn Germany it's customary to be on time."
+    },
+    {
+      "id": "tb1-u22-l02-adjectives-b1-2-ex04",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u22-l02-adjectives-b1-2-1.mp3"
+      },
+      "tiles": [
+        "Deutschkenntnisse",
+        "Für",
+        "angenehm",
+        "Der",
+        "erforderlich",
+        "gute",
+        "ist",
+        "Stelle",
+        "sind",
+        "diese"
+      ],
+      "answers": [
+        "Für diese Stelle sind gute Deutschkenntnisse erforderlich."
+      ],
+      "explanation": "Für diese Stelle sind gute Deutschkenntnisse erforderlich.\n*Good German skills are required for this job.*\n\n**erforderlich** = required"
+    },
+    {
+      "id": "tb1-u22-l02-adjectives-b1-2-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which one means „clear“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "notwendig"
+        },
+        {
+          "id": "b",
+          "text": "zuverlässig"
+        },
+        {
+          "id": "c",
+          "text": "erfolgreich"
+        },
+        {
+          "id": "d",
+          "text": "deutlich"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**deutlich** = clear\n\n*Example:* Bitte sprechen Sie etwas deutlicher, ich verstehe Sie nicht.\nPlease speak a bit more clearly, I can't understand you."
+    },
+    {
+      "id": "tb1-u22-l02-adjectives-b1-2-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "In Deutschland ist es üblich, pünktlich zu kommen.",
+      "tiles": [
+        "time",
+        "it's",
+        "on",
+        "It",
+        "In",
+        "Germany",
+        "be",
+        "all",
+        "very",
+        "to",
+        "customary"
+      ],
+      "answers": [
+        "In Germany it's customary to be on time."
+      ],
+      "explanation": "**üblich** = usual / customary"
+    },
+    {
+      "id": "tb1-u22-l02-adjectives-b1-2-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which one means „detailed“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "geeignet"
+        },
+        {
+          "id": "b",
+          "text": "üblich"
+        },
+        {
+          "id": "c",
+          "text": "zuverlässig"
+        },
+        {
+          "id": "d",
+          "text": "ausführlich"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**ausführlich** = detailed\n\n*Example:* Der Arzt hat mir alles ausführlich erklärt.\nThe doctor explained everything to me in detail."
+    },
+    {
+      "id": "tb1-u22-l02-adjectives-b1-2-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Please speak a bit more clearly, I can't understand you.",
+      "tiles": [
+        "nie",
+        "ich",
+        "deutlicher",
+        "Sie",
+        "Sie",
+        "sprechen",
+        "verstehe",
+        "nicht",
+        "ist",
+        "etwas",
+        "meinem",
+        "Bitte"
+      ],
+      "answers": [
+        "Bitte sprechen Sie etwas deutlicher, ich verstehe Sie nicht."
+      ],
+      "explanation": "**deutlich** = clear"
+    },
+    {
+      "id": "tb1-u22-l02-adjectives-b1-2-ex09",
+      "type": "multiple_choice",
+      "prompt": "Which one means „complicated“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "vorsichtig"
+        },
+        {
+          "id": "b",
+          "text": "aufmerksam"
+        },
+        {
+          "id": "c",
+          "text": "wahrscheinlich"
+        },
+        {
+          "id": "d",
+          "text": "kompliziert"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**kompliziert** = complicated\n\n*Example:* Das Formular vom Amt ist ziemlich kompliziert.\nThe form from the office is quite complicated."
+    },
+    {
+      "id": "tb1-u22-l02-adjectives-b1-2-ex10",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u22-l02-adjectives-b1-2-4.mp3"
+      },
+      "tiles": [
+        "mir",
+        "gesund",
+        "alles",
+        "Arzt",
+        "hat",
+        "notwendig",
+        "verständlich",
+        "ausführlich",
+        "erklärt",
+        "Der"
+      ],
+      "answers": [
+        "Der Arzt hat mir alles ausführlich erklärt."
+      ],
+      "explanation": "Der Arzt hat mir alles ausführlich erklärt.\n*The doctor explained everything to me in detail.*\n\n**ausführlich** = detailed"
+    },
+    {
+      "id": "tb1-u22-l02-adjectives-b1-2-ex11",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Das Formular vom Amt ist ziemlich kompliziert.",
+      "tiles": [
+        "form",
+        "from",
+        "a",
+        "is",
+        "the",
+        "slippery",
+        "complicated",
+        "office",
+        "mosquitoes",
+        "quite",
+        "The"
+      ],
+      "answers": [
+        "The form from the office is quite complicated."
+      ],
+      "explanation": "**kompliziert** = complicated"
+    }
+  ]
+}

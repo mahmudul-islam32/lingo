@@ -1,0 +1,291 @@
+{
+  "id": "tb1-u33-l17-ableitung-p1",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u33",
+  "title": "Word Formation: un-, -ung, -bar, -los: un- & -ung",
+  "tip": "-ung nouns are ALWAYS feminine: die Wohnung, die Zeitung, die Prüfung, never der/das.",
+  "exercises": [
+    {
+      "id": "tb1-u33-l17-ableitung-p1-ex01",
+      "type": "explain",
+      "title": "un- · Gegenteil",
+      "body": "un- before an adjective makes the opposite.\n\n*Deutsch:* un- vor einem Adjektiv macht das Gegenteil.\n\n## Pattern\n\n**un** + Adjektiv",
+      "examples": [
+        {
+          "learning": "Er ist leider oft unpünktlich.",
+          "known": "Unfortunately he's often late."
+        },
+        {
+          "learning": "Das ist unmöglich!",
+          "known": "That's impossible!"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u33-l17-ableitung-p1-ex02",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Unfortunately he's often late.",
+      "tiles": [
+        "oft",
+        "trinkbar",
+        "Er",
+        "ab",
+        "unpünktlich",
+        "meiner",
+        "ist",
+        "leider"
+      ],
+      "answers": [
+        "Er ist leider oft unpünktlich."
+      ],
+      "explanation": "**Why:** pünktlich → unpünktlich.\n\n*Warum:* pünktlich → unpünktlich."
+    },
+    {
+      "id": "tb1-u33-l17-ableitung-p1-ex03",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "That's impossible!",
+      "tiles": [
+        "ist",
+        "Das",
+        "unmöglich",
+        "Monaten",
+        "Ich",
+        "Vielen"
+      ],
+      "answers": [
+        "Das ist unmöglich!"
+      ],
+      "explanation": "**Why:** möglich → unmöglich.\n\n*Warum:* möglich → unmöglich."
+    },
+    {
+      "id": "tb1-u33-l17-ableitung-p1-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "The salesperson was very unfriendly.",
+      "tiles": [
+        "Der",
+        "sehr",
+        "Verkäufer",
+        "zu",
+        "Freitag",
+        "war",
+        "oft",
+        "unfreundlich"
+      ],
+      "answers": [
+        "Der Verkäufer war sehr unfreundlich."
+      ],
+      "explanation": "**Why:** Typical in complaints.\n\n*Warum:* Typisch für Beschwerden."
+    },
+    {
+      "id": "tb1-u33-l17-ableitung-p1-ex05",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I'm unhappy with the room.",
+      "tiles": [
+        "Zimmer",
+        "von",
+        "unzufrieden",
+        "dem",
+        "Entschuldigung",
+        "bin",
+        "Ich",
+        "Uhr",
+        "mit"
+      ],
+      "answers": [
+        "Ich bin mit dem Zimmer unzufrieden."
+      ],
+      "explanation": "**Why:** zufrieden → unzufrieden.\n\n*Warum:* zufrieden → unzufrieden."
+    },
+    {
+      "id": "tb1-u33-l17-ableitung-p1-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "The situation was very unpleasant for everyone.",
+      "tiles": [
+        "unangenehm",
+        "Die",
+        "war",
+        "Situation",
+        "alle",
+        "ist",
+        "sehr",
+        "für",
+        "Ich",
+        "auf"
+      ],
+      "answers": [
+        "Die Situation war für alle sehr unangenehm."
+      ],
+      "explanation": "**Why:** angenehm → unangenehm.\n\n*Warum:* angenehm → unangenehm."
+    },
+    {
+      "id": "tb1-u33-l17-ableitung-p1-ex07",
+      "type": "explain",
+      "title": "-ung · Verb → Nomen (immer die)",
+      "body": "Many verbs become nouns with -ung. The article is always die.\n\n*Deutsch:* Aus vielen Verben wird mit -ung ein Nomen. Artikel immer die.\n\n## Pattern\n\nVerbstamm + **-ung** → **die** …ung",
+      "examples": [
+        {
+          "learning": "Vielen Dank für die Einladung!",
+          "known": "Thanks a lot for the invitation!"
+        },
+        {
+          "learning": "Die Anmeldung ist bis Freitag möglich.",
+          "known": "Registration is possible until Friday."
+        }
+      ]
+    },
+    {
+      "id": "tb1-u33-l17-ableitung-p1-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Thanks a lot for the invitation!",
+      "tiles": [
+        "Dank",
+        "unmöglich",
+        "die",
+        "machbar",
+        "für",
+        "kostenlos",
+        "Einladung",
+        "Vielen"
+      ],
+      "answers": [
+        "Vielen Dank für die Einladung!"
+      ],
+      "explanation": "**Why:** einladen → die Einladung.\n\n*Warum:* einladen → die Einladung."
+    },
+    {
+      "id": "tb1-u33-l17-ableitung-p1-ex09",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Registration is possible until Friday.",
+      "tiles": [
+        "Ich",
+        "Das",
+        "ist",
+        "Die",
+        "bis",
+        "Anmeldung",
+        "möglich",
+        "Freitag",
+        "kostenlos"
+      ],
+      "answers": [
+        "Die Anmeldung ist bis Freitag möglich."
+      ],
+      "explanation": "**Why:** anmelden → die Anmeldung.\n\n*Warum:* anmelden → die Anmeldung."
+    },
+    {
+      "id": "tb1-u33-l17-ableitung-p1-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I'm looking for a new flat.",
+      "tiles": [
+        "Die",
+        "eine",
+        "neue",
+        "Ich",
+        "suche",
+        "bis",
+        "Wohnung",
+        "Der"
+      ],
+      "answers": [
+        "Ich suche eine neue Wohnung."
+      ],
+      "explanation": "**Why:** wohnen → die Wohnung.\n\n*Warum:* wohnen → die Wohnung."
+    },
+    {
+      "id": "tb1-u33-l17-ableitung-p1-ex11",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Have you paid the bill yet?",
+      "tiles": [
+        "Haben",
+        "Sie",
+        "zu",
+        "schon",
+        "Dank",
+        "unfreundlich",
+        "Rechnung",
+        "bezahlt",
+        "die"
+      ],
+      "answers": [
+        "Haben Sie die Rechnung schon bezahlt?"
+      ],
+      "explanation": "**Why:** rechnen → die Rechnung.\n\n*Warum:* rechnen → die Rechnung."
+    },
+    {
+      "id": "tb1-u33-l17-ableitung-p1-ex12",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I'm waiting for a reply to my application.",
+      "tiles": [
+        "seit",
+        "Bewerbung",
+        "eine",
+        "auf",
+        "zu",
+        "ist",
+        "meiner",
+        "warte",
+        "Antwort",
+        "Vielen",
+        "Ich"
+      ],
+      "answers": [
+        "Ich warte auf eine Antwort zu meiner Bewerbung."
+      ],
+      "explanation": "**Why:** sich bewerben → die Bewerbung.\n\n*Warum:* sich bewerben → die Bewerbung."
+    },
+    {
+      "id": "tb1-u33-l17-ableitung-p1-ex13",
+      "type": "choice",
+      "title": "Fill the gap",
+      "prompt": "Das Gegenteil von „zufrieden“ ist ___.",
+      "options": [
+        {
+          "id": "a",
+          "text": "unzufrieden"
+        },
+        {
+          "id": "b",
+          "text": "zufriedenlos"
+        },
+        {
+          "id": "c",
+          "text": "entzufrieden"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Gegenteil von Adjektiven meist mit un-: unzufrieden."
+    },
+    {
+      "id": "tb1-u33-l17-ableitung-p1-ex14",
+      "type": "choice",
+      "title": "Fill the gap",
+      "prompt": "arbeits___ = ohne Arbeit",
+      "options": [
+        {
+          "id": "a",
+          "text": "-bar"
+        },
+        {
+          "id": "b",
+          "text": "-los"
+        },
+        {
+          "id": "c",
+          "text": "-ung"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "-los = ohne: arbeitslos."
+    }
+  ]
+}

@@ -1,0 +1,233 @@
+{
+  "id": "tb1-u02-l03-numbers-time-3",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u02",
+  "title": "Numbers & Time 3",
+  "tip": "Theme: Zahlen & Zeit (A1)",
+  "exercises": [
+    {
+      "id": "tb1-u02-l03-numbers-time-3-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "der Tag",
+          "known": "day"
+        },
+        {
+          "id": "p2",
+          "learning": "die Woche",
+          "known": "week"
+        },
+        {
+          "id": "p3",
+          "learning": "der Monat",
+          "known": "month"
+        },
+        {
+          "id": "p4",
+          "learning": "das Jahr",
+          "known": "year"
+        },
+        {
+          "id": "p5",
+          "learning": "die Zahl",
+          "known": "number"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u02-l03-numbers-time-3-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „day“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Woche, die Wochen"
+        },
+        {
+          "id": "b",
+          "text": "der Tag, die Tage"
+        },
+        {
+          "id": "c",
+          "text": "die Zeit"
+        },
+        {
+          "id": "d",
+          "text": "die Minute, die Minuten"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**der Tag** = day\n*Plural: die Tage*\n\n*Example:* Anna arbeitet acht Stunden am Tag.\nAnna works eight hours a day."
+    },
+    {
+      "id": "tb1-u02-l03-numbers-time-3-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „week“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Woche, die Wochen"
+        },
+        {
+          "id": "b",
+          "text": "der Tag, die Tage"
+        },
+        {
+          "id": "c",
+          "text": "die Zahl, die Zahlen"
+        },
+        {
+          "id": "d",
+          "text": "die Stunde, die Stunden"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**die Woche** = week\n*Plural: die Wochen*\n\n*Example:* Ich gehe zweimal pro Woche ins Fitnessstudio.\nI go to the gym twice a week."
+    },
+    {
+      "id": "tb1-u02-l03-numbers-time-3-ex04",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u02-l03-numbers-time-3-1.mp3"
+      },
+      "tiles": [
+        "Tag",
+        "Familie",
+        "acht",
+        "am",
+        "Stunden",
+        "Anna",
+        "Es",
+        "Uhr",
+        "arbeitet"
+      ],
+      "answers": [
+        "Anna arbeitet acht Stunden am Tag."
+      ],
+      "explanation": "Anna arbeitet acht Stunden am Tag.\n*Anna works eight hours a day.*\n\n**der Tag** = day\n*Plural: die Tage*"
+    },
+    {
+      "id": "tb1-u02-l03-numbers-time-3-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „month“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "der Monat, die Monate"
+        },
+        {
+          "id": "b",
+          "text": "das Jahr, die Jahre"
+        },
+        {
+          "id": "c",
+          "text": "die Minute, die Minuten"
+        },
+        {
+          "id": "d",
+          "text": "der Tag, die Tage"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**der Monat** = month\n*Plural: die Monate*\n\n*Example:* Die Miete bezahle ich immer am Anfang des Monats.\nI always pay the rent at the beginning of the month."
+    },
+    {
+      "id": "tb1-u02-l03-numbers-time-3-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Ich gehe zweimal pro Woche ins Fitnessstudio.",
+      "tiles": [
+        "I",
+        "cake",
+        "twice",
+        "week",
+        "number",
+        "gym",
+        "new",
+        "a",
+        "go",
+        "to",
+        "the"
+      ],
+      "answers": [
+        "I go to the gym twice a week."
+      ],
+      "explanation": "**die Woche** = week\n*Plural: die Wochen*"
+    },
+    {
+      "id": "tb1-u02-l03-numbers-time-3-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „year“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Uhr, die Uhren"
+        },
+        {
+          "id": "b",
+          "text": "die Zahl, die Zahlen"
+        },
+        {
+          "id": "c",
+          "text": "das Jahr, die Jahre"
+        },
+        {
+          "id": "d",
+          "text": "der Tag, die Tage"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**das Jahr** = year\n*Plural: die Jahre*\n\n*Example:* Mein Bruder wohnt seit drei Jahren in Berlin.\nMy brother has been living in Berlin for three years."
+    },
+    {
+      "id": "tb1-u02-l03-numbers-time-3-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I always pay the rent at the beginning of the month.",
+      "tiles": [
+        "des",
+        "Entschuldigung",
+        "bezahle",
+        "kann",
+        "Anfang",
+        "Die",
+        "immer",
+        "laufen",
+        "Monats",
+        "am",
+        "Miete",
+        "ich"
+      ],
+      "answers": [
+        "Die Miete bezahle ich immer am Anfang des Monats."
+      ],
+      "explanation": "**der Monat** = month\n*Plural: die Monate*"
+    },
+    {
+      "id": "tb1-u02-l03-numbers-time-3-ex09",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u02-l03-numbers-time-3-4.mp3"
+      },
+      "tiles": [
+        "Berlin",
+        "in",
+        "Jahren",
+        "drei",
+        "Kinder",
+        "und",
+        "Mein",
+        "Zahnarzt",
+        "seit",
+        "Bruder",
+        "wohnt"
+      ],
+      "answers": [
+        "Mein Bruder wohnt seit drei Jahren in Berlin."
+      ],
+      "explanation": "Mein Bruder wohnt seit drei Jahren in Berlin.\n*My brother has been living in Berlin for three years.*\n\n**das Jahr** = year\n*Plural: die Jahre*"
+    }
+  ]
+}

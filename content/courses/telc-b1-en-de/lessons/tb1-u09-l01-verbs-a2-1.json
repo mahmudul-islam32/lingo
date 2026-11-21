@@ -1,0 +1,275 @@
+{
+  "id": "tb1-u09-l01-verbs-a2-1",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u09",
+  "title": "Verbs (A2) 1",
+  "tip": "Theme: Verben (A2) (A2)",
+  "exercises": [
+    {
+      "id": "tb1-u09-l01-verbs-a2-1-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "treffen",
+          "known": "to meet"
+        },
+        {
+          "id": "p2",
+          "learning": "besuchen",
+          "known": "to visit"
+        },
+        {
+          "id": "p3",
+          "learning": "einladen",
+          "known": "to invite"
+        },
+        {
+          "id": "p4",
+          "learning": "helfen",
+          "known": "to help"
+        },
+        {
+          "id": "p5",
+          "learning": "bringen",
+          "known": "to bring"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u09-l01-verbs-a2-1-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which one means „to meet“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "bringen"
+        },
+        {
+          "id": "b",
+          "text": "vergessen (vergisst)"
+        },
+        {
+          "id": "c",
+          "text": "fragen"
+        },
+        {
+          "id": "d",
+          "text": "treffen (trifft)"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**treffen (trifft)** = to meet\n\n*Example:* Ich treffe meine Freundin heute im Café.\nI'm meeting my friend at the café today."
+    },
+    {
+      "id": "tb1-u09-l01-verbs-a2-1-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which one means „to visit“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "besuchen"
+        },
+        {
+          "id": "b",
+          "text": "wiederholen"
+        },
+        {
+          "id": "c",
+          "text": "bekommen"
+        },
+        {
+          "id": "d",
+          "text": "suchen"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**besuchen** = to visit\n\n*Example:* Am Wochenende besuchen wir meine Großeltern.\nAt the weekend we're visiting my grandparents."
+    },
+    {
+      "id": "tb1-u09-l01-verbs-a2-1-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I'm meeting my friend at the café today.",
+      "tiles": [
+        "Der",
+        "meine",
+        "Ich",
+        "heute",
+        "Café",
+        "erklärt",
+        "Freundin",
+        "im",
+        "treffe",
+        "vom"
+      ],
+      "answers": [
+        "Ich treffe meine Freundin heute im Café."
+      ],
+      "explanation": "**treffen (trifft)** = to meet"
+    },
+    {
+      "id": "tb1-u09-l01-verbs-a2-1-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which one means „to invite“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "einladen (lädt ein)"
+        },
+        {
+          "id": "b",
+          "text": "bezahlen"
+        },
+        {
+          "id": "c",
+          "text": "holen"
+        },
+        {
+          "id": "d",
+          "text": "benutzen"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**einladen (lädt ein)** = to invite\n\n*Example:* Anna lädt uns zu ihrer Geburtstagsparty ein.\nAnna is inviting us to her birthday party."
+    },
+    {
+      "id": "tb1-u09-l01-verbs-a2-1-ex06",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u09-l01-verbs-a2-1-2.mp3"
+      },
+      "tiles": [
+        "Wochenende",
+        "meine",
+        "bis",
+        "besuchen",
+        "bringt",
+        "Großeltern",
+        "Am",
+        "holen",
+        "wir"
+      ],
+      "answers": [
+        "Am Wochenende besuchen wir meine Großeltern."
+      ],
+      "explanation": "Am Wochenende besuchen wir meine Großeltern.\n*At the weekend we're visiting my grandparents.*\n\n**besuchen** = to visit"
+    },
+    {
+      "id": "tb1-u09-l01-verbs-a2-1-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which one means „to help“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "wiederholen"
+        },
+        {
+          "id": "b",
+          "text": "treffen (trifft)"
+        },
+        {
+          "id": "c",
+          "text": "helfen (hilft)"
+        },
+        {
+          "id": "d",
+          "text": "bezahlen"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**helfen (hilft)** = to help\n\n*Example:* Mein Nachbar hilft mir beim Umzug.\nMy neighbour is helping me with the move."
+    },
+    {
+      "id": "tb1-u09-l01-verbs-a2-1-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Anna lädt uns zu ihrer Geburtstagsparty ein.",
+      "tiles": [
+        "us",
+        "ask",
+        "please",
+        "her",
+        "to",
+        "birthday",
+        "party",
+        "is",
+        "Anna",
+        "inviting",
+        "My"
+      ],
+      "answers": [
+        "Anna is inviting us to her birthday party."
+      ],
+      "explanation": "**einladen (lädt ein)** = to invite"
+    },
+    {
+      "id": "tb1-u09-l01-verbs-a2-1-ex09",
+      "type": "multiple_choice",
+      "prompt": "Which one means „to bring“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "suchen"
+        },
+        {
+          "id": "b",
+          "text": "bringen"
+        },
+        {
+          "id": "c",
+          "text": "holen"
+        },
+        {
+          "id": "d",
+          "text": "wiederholen"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**bringen** = to bring\n\n*Example:* Der Kellner bringt uns die Speisekarte.\nThe waiter brings us the menu."
+    },
+    {
+      "id": "tb1-u09-l01-verbs-a2-1-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "My neighbour is helping me with the move.",
+      "tiles": [
+        "Umzug",
+        "beim",
+        "Nachbar",
+        "hilft",
+        "ein",
+        "immer",
+        "Geburtstagsparty",
+        "Mein",
+        "mir"
+      ],
+      "answers": [
+        "Mein Nachbar hilft mir beim Umzug."
+      ],
+      "explanation": "**helfen (hilft)** = to help"
+    },
+    {
+      "id": "tb1-u09-l01-verbs-a2-1-ex11",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u09-l01-verbs-a2-1-5.mp3"
+      },
+      "tiles": [
+        "Speisekarte",
+        "uns",
+        "Kellner",
+        "entschieden",
+        "die",
+        "Wochenende",
+        "bringt",
+        "Der",
+        "oft"
+      ],
+      "answers": [
+        "Der Kellner bringt uns die Speisekarte."
+      ],
+      "explanation": "Der Kellner bringt uns die Speisekarte.\n*The waiter brings us the menu.*\n\n**bringen** = to bring"
+    }
+  ]
+}

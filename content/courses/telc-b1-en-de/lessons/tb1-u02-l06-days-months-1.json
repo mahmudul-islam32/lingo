@@ -1,0 +1,279 @@
+{
+  "id": "tb1-u02-l06-days-months-1",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u02",
+  "title": "Days & Months 1",
+  "tip": "Theme: Wochentage & Monate (A1)",
+  "exercises": [
+    {
+      "id": "tb1-u02-l06-days-months-1-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "der Montag",
+          "known": "Monday"
+        },
+        {
+          "id": "p2",
+          "learning": "der Dienstag",
+          "known": "Tuesday"
+        },
+        {
+          "id": "p3",
+          "learning": "der Mittwoch",
+          "known": "Wednesday"
+        },
+        {
+          "id": "p4",
+          "learning": "der Donnerstag",
+          "known": "Thursday"
+        },
+        {
+          "id": "p5",
+          "learning": "der Freitag",
+          "known": "Friday"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u02-l06-days-months-1-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „Monday“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "der Montag"
+        },
+        {
+          "id": "b",
+          "text": "der Frühling"
+        },
+        {
+          "id": "c",
+          "text": "der Sonntag"
+        },
+        {
+          "id": "d",
+          "text": "der Mai"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**der Montag** = Monday\n\n*Example:* Am Montag fängt mein neuer Job an.\nMy new job starts on Monday."
+    },
+    {
+      "id": "tb1-u02-l06-days-months-1-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „Tuesday“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "der Dienstag"
+        },
+        {
+          "id": "b",
+          "text": "das Wochenende"
+        },
+        {
+          "id": "c",
+          "text": "der Sonntag"
+        },
+        {
+          "id": "d",
+          "text": "der Mai"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**der Dienstag** = Tuesday\n\n*Example:* Der Deutschkurs findet jeden Dienstag statt.\nThe German course takes place every Tuesday."
+    },
+    {
+      "id": "tb1-u02-l06-days-months-1-ex04",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u02-l06-days-months-1-1.mp3"
+      },
+      "tiles": [
+        "ist",
+        "neuer",
+        "mein",
+        "Montag",
+        "an",
+        "Job",
+        "wir",
+        "neue",
+        "Am",
+        "fängt"
+      ],
+      "answers": [
+        "Am Montag fängt mein neuer Job an."
+      ],
+      "explanation": "Am Montag fängt mein neuer Job an.\n*My new job starts on Monday.*\n\n**der Montag** = Monday"
+    },
+    {
+      "id": "tb1-u02-l06-days-months-1-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „Wednesday“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "der Mittwoch"
+        },
+        {
+          "id": "b",
+          "text": "der Sommer"
+        },
+        {
+          "id": "c",
+          "text": "der Montag"
+        },
+        {
+          "id": "d",
+          "text": "der März"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**der Mittwoch** = Wednesday\n\n*Example:* Am Mittwoch gehe ich mit Tom schwimmen.\nOn Wednesday I'm going swimming with Tom."
+    },
+    {
+      "id": "tb1-u02-l06-days-months-1-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Der Deutschkurs findet jeden Dienstag statt.",
+      "tiles": [
+        "course",
+        "7",
+        "place",
+        "The",
+        "takes",
+        "barbecues",
+        "Tuesday",
+        "German",
+        "is",
+        "every"
+      ],
+      "answers": [
+        "The German course takes place every Tuesday."
+      ],
+      "explanation": "**der Dienstag** = Tuesday"
+    },
+    {
+      "id": "tb1-u02-l06-days-months-1-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „Thursday“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "der Sommer"
+        },
+        {
+          "id": "b",
+          "text": "der Sonntag"
+        },
+        {
+          "id": "c",
+          "text": "der Donnerstag"
+        },
+        {
+          "id": "d",
+          "text": "der Herbst"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**der Donnerstag** = Thursday\n\n*Example:* Die Arztpraxis ist am Donnerstag bis 19 Uhr geöffnet.\nThe doctor's surgery is open until 7 p.m. on Thursday."
+    },
+    {
+      "id": "tb1-u02-l06-days-months-1-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "On Wednesday I'm going swimming with Tom.",
+      "tiles": [
+        "mit",
+        "Am",
+        "Winter",
+        "Mittwoch",
+        "ich",
+        "Tom",
+        "Deutschkurs",
+        "hat",
+        "gehe",
+        "schwimmen"
+      ],
+      "answers": [
+        "Am Mittwoch gehe ich mit Tom schwimmen."
+      ],
+      "explanation": "**der Mittwoch** = Wednesday"
+    },
+    {
+      "id": "tb1-u02-l06-days-months-1-ex09",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „Friday“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "der Mittwoch"
+        },
+        {
+          "id": "b",
+          "text": "der März"
+        },
+        {
+          "id": "c",
+          "text": "der Freitag"
+        },
+        {
+          "id": "d",
+          "text": "der Juni"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**der Freitag** = Friday\n\n*Example:* Am Freitag arbeite ich nur bis zwölf Uhr.\nOn Friday I only work until twelve."
+    },
+    {
+      "id": "tb1-u02-l06-days-months-1-ex10",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u02-l06-days-months-1-4.mp3"
+      },
+      "tiles": [
+        "19",
+        "besuchen",
+        "ist",
+        "Arztpraxis",
+        "am",
+        "Donnerstag",
+        "Uhr",
+        "den",
+        "geöffnet",
+        "Die",
+        "Im",
+        "bis"
+      ],
+      "answers": [
+        "Die Arztpraxis ist am Donnerstag bis 19 Uhr geöffnet."
+      ],
+      "explanation": "Die Arztpraxis ist am Donnerstag bis 19 Uhr geöffnet.\n*The doctor's surgery is open until 7 p.m. on Thursday.*\n\n**der Donnerstag** = Thursday"
+    },
+    {
+      "id": "tb1-u02-l06-days-months-1-ex11",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Am Freitag arbeite ich nur bis zwölf Uhr.",
+      "tiles": [
+        "winter",
+        "summer",
+        "only",
+        "work",
+        "On",
+        "until",
+        "I",
+        "twelve",
+        "Friday",
+        "the"
+      ],
+      "answers": [
+        "On Friday I only work until twelve."
+      ],
+      "explanation": "**der Freitag** = Friday"
+    }
+  ]
+}

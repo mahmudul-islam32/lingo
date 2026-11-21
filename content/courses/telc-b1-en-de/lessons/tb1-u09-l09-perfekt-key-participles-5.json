@@ -1,0 +1,277 @@
+{
+  "id": "tb1-u09-l09-perfekt-key-participles-5",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u09",
+  "title": "Perfekt: Key Participles 5",
+  "tip": "Theme: Perfekt: wichtige Partizipien (A2)",
+  "exercises": [
+    {
+      "id": "tb1-u09-l09-perfekt-key-participles-5-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "wissen",
+          "known": "to know (a fact)"
+        },
+        {
+          "id": "p2",
+          "learning": "stehen",
+          "known": "to stand"
+        },
+        {
+          "id": "p3",
+          "learning": "verstehen",
+          "known": "to understand"
+        },
+        {
+          "id": "p4",
+          "learning": "verlieren",
+          "known": "to lose"
+        },
+        {
+          "id": "p5",
+          "learning": "gewinnen",
+          "known": "to win"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u09-l09-perfekt-key-participles-5-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which one means „to know (a fact)“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "wissen → hat gewusst"
+        },
+        {
+          "id": "b",
+          "text": "verstehen → hat verstanden"
+        },
+        {
+          "id": "c",
+          "text": "passieren → ist passiert"
+        },
+        {
+          "id": "d",
+          "text": "stehen → hat gestanden"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**wissen → hat gewusst** = to know (a fact)\n\n*Example:* Das habe ich nicht gewusst!\nI didn't know that!"
+    },
+    {
+      "id": "tb1-u09-l09-perfekt-key-participles-5-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which one means „to stand“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "fahren → ist gefahren"
+        },
+        {
+          "id": "b",
+          "text": "schlafen → hat geschlafen"
+        },
+        {
+          "id": "c",
+          "text": "essen → hat gegessen"
+        },
+        {
+          "id": "d",
+          "text": "stehen → hat gestanden"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**stehen → hat gestanden** = to stand\n\n*Example:* Wir haben eine halbe Stunde an der Kasse gestanden.\nWe stood at the checkout for half an hour."
+    },
+    {
+      "id": "tb1-u09-l09-perfekt-key-participles-5-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I didn't know that!",
+      "tiles": [
+        "gewusst",
+        "nicht",
+        "habe",
+        "ich",
+        "einkaufen",
+        "leider",
+        "Das",
+        "dich"
+      ],
+      "answers": [
+        "Das habe ich nicht gewusst!"
+      ],
+      "explanation": "**wissen → hat gewusst** = to know (a fact)"
+    },
+    {
+      "id": "tb1-u09-l09-perfekt-key-participles-5-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which one means „to understand“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "verstehen → hat verstanden"
+        },
+        {
+          "id": "b",
+          "text": "kommen → ist gekommen"
+        },
+        {
+          "id": "c",
+          "text": "gehen → ist gegangen"
+        },
+        {
+          "id": "d",
+          "text": "bringen → hat gebracht"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**verstehen → hat verstanden** = to understand\n\n*Example:* Hast du verstanden, was der Arzt gesagt hat?\nDid you understand what the doctor said?"
+    },
+    {
+      "id": "tb1-u09-l09-perfekt-key-participles-5-ex06",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u09-l09-perfekt-key-participles-5-2.mp3"
+      },
+      "tiles": [
+        "Wir",
+        "halbe",
+        "an",
+        "Stunde",
+        "Kasse",
+        "der",
+        "gestanden",
+        "vom",
+        "Hast",
+        "eine",
+        "ist",
+        "haben"
+      ],
+      "answers": [
+        "Wir haben eine halbe Stunde an der Kasse gestanden."
+      ],
+      "explanation": "Wir haben eine halbe Stunde an der Kasse gestanden.\n*We stood at the checkout for half an hour.*\n\n**stehen → hat gestanden** = to stand"
+    },
+    {
+      "id": "tb1-u09-l09-perfekt-key-participles-5-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which one means „to lose“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "gewinnen → hat gewonnen"
+        },
+        {
+          "id": "b",
+          "text": "verlieren → hat verloren"
+        },
+        {
+          "id": "c",
+          "text": "lesen → hat gelesen"
+        },
+        {
+          "id": "d",
+          "text": "sterben → ist gestorben"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**verlieren → hat verloren** = to lose\n\n*Example:* Maria hat im Bus ihren Schlüssel verloren.\nMaria lost her key on the bus."
+    },
+    {
+      "id": "tb1-u09-l09-perfekt-key-participles-5-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Hast du verstanden, was der Arzt gesagt hat?",
+      "tiles": [
+        "said",
+        "the",
+        "about",
+        "you",
+        "what",
+        "Did",
+        "doctor",
+        "understand",
+        "bus",
+        "Have"
+      ],
+      "answers": [
+        "Did you understand what the doctor said?"
+      ],
+      "explanation": "**verstehen → hat verstanden** = to understand"
+    },
+    {
+      "id": "tb1-u09-l09-perfekt-key-participles-5-ex09",
+      "type": "multiple_choice",
+      "prompt": "Which one means „to win“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "fragen → hat gefragt"
+        },
+        {
+          "id": "b",
+          "text": "fahren → ist gefahren"
+        },
+        {
+          "id": "c",
+          "text": "gewinnen → hat gewonnen"
+        },
+        {
+          "id": "d",
+          "text": "nehmen → hat genommen"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**gewinnen → hat gewonnen** = to win\n\n*Example:* Unsere Mannschaft hat das Spiel gestern gewonnen.\nOur team won the match yesterday."
+    },
+    {
+      "id": "tb1-u09-l09-perfekt-key-participles-5-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Maria lost her key on the bus.",
+      "tiles": [
+        "habe",
+        "nur",
+        "Bus",
+        "im",
+        "ihren",
+        "gewusst",
+        "verloren",
+        "Schlüssel",
+        "hat",
+        "Maria"
+      ],
+      "answers": [
+        "Maria hat im Bus ihren Schlüssel verloren."
+      ],
+      "explanation": "**verlieren → hat verloren** = to lose"
+    },
+    {
+      "id": "tb1-u09-l09-perfekt-key-participles-5-ex11",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u09-l09-perfekt-key-participles-5-5.mp3"
+      },
+      "tiles": [
+        "Chefin",
+        "Morgen",
+        "Unsere",
+        "das",
+        "Spiel",
+        "gewonnen",
+        "gestern",
+        "Mannschaft",
+        "dem",
+        "hat"
+      ],
+      "answers": [
+        "Unsere Mannschaft hat das Spiel gestern gewonnen."
+      ],
+      "explanation": "Unsere Mannschaft hat das Spiel gestern gewonnen.\n*Our team won the match yesterday.*\n\n**gewinnen → hat gewonnen** = to win"
+    }
+  ]
+}

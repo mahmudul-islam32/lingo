@@ -1,0 +1,296 @@
+{
+  "id": "tb1-u62-l02-join-sentences-1",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u62",
+  "title": "Joining sentences (Sätze verbinden) 1",
+  "tip": "Join two sentences with the connector; watch where the verb goes.",
+  "exercises": [
+    {
+      "id": "tb1-u62-l02-join-sentences-1-ex01",
+      "type": "choice",
+      "title": "Sätze verbinden · Welches Wort passt in die Lücke?",
+      "passage": "**Verbinde mit „weil“ (Grund).**\n\nIch bleibe heute zu Hause.\nIch bin krank.",
+      "prompt": "Ich bleibe heute zu Hause, ___ ich krank bin.",
+      "options": [
+        {
+          "id": "a",
+          "text": "denn"
+        },
+        {
+          "id": "b",
+          "text": "deshalb"
+        },
+        {
+          "id": "c",
+          "text": "weil"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Full sentence: *Ich bleibe heute zu Hause, weil ich krank bin.*\n\nweil → Verb ans Ende: … weil ich krank bin.\n\n**weil (Grund)**: reason; the verb goes to the very end.\n\nHauptsatz, **weil** + Subjekt + … + **Verb ans Ende**.\nBsp: Ich bleibe zu Hause, weil ich müde **bin**."
+    },
+    {
+      "id": "tb1-u62-l02-join-sentences-1-ex02",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I'm staying at home today because I'm ill.",
+      "tiles": [
+        "ich",
+        "Hause",
+        "obwohl",
+        "wenn",
+        "heute",
+        "krank",
+        "zu",
+        "bin",
+        "trotzdem",
+        "Ich",
+        "bleibe",
+        "damit",
+        "weil"
+      ],
+      "answers": [
+        "Ich bleibe heute zu Hause, weil ich krank bin.",
+        "Weil ich krank bin, bleibe ich heute zu Hause."
+      ],
+      "explanation": "**Verbinde mit „weil“ (Grund).**\n\nIch bleibe heute zu Hause.\nIch bin krank.\n\nIch bleibe heute zu Hause, weil ich krank bin.\nAlso correct: Weil ich krank bin, bleibe ich heute zu Hause.\n\nweil → Verb ans Ende: … weil ich krank bin."
+    },
+    {
+      "id": "tb1-u62-l02-join-sentences-1-ex03",
+      "type": "choice",
+      "title": "Sätze verbinden · Welches Wort passt in die Lücke?",
+      "passage": "**Verbinde mit „deshalb“ (Folge).**\n\nIch bin krank.\nIch bleibe zu Hause.",
+      "prompt": "Ich bin krank, ___ bleibe ich zu Hause.",
+      "options": [
+        {
+          "id": "a",
+          "text": "weil"
+        },
+        {
+          "id": "b",
+          "text": "denn"
+        },
+        {
+          "id": "c",
+          "text": "deshalb"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Full sentence: *Ich bin krank, deshalb bleibe ich zu Hause.*\n\ndeshalb steht auf Position 1 → danach das Verb: deshalb bleibe ich.\n\n**deshalb (Folge)**: consequence; position 1 → verb then subject.\n\n…, **deshalb** + **Verb** + Subjekt. (Position 1 → Inversion)\nBsp: Ich war krank, deshalb **bin ich** zu Hause geblieben."
+    },
+    {
+      "id": "tb1-u62-l02-join-sentences-1-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I'm ill, so I'm staying at home.",
+      "tiles": [
+        "Ich",
+        "krank",
+        "obwohl",
+        "zu",
+        "Hause",
+        "bleibe",
+        "ich",
+        "bin",
+        "weil",
+        "denn",
+        "deshalb",
+        "trotzdem"
+      ],
+      "answers": [
+        "Ich bin krank, deshalb bleibe ich zu Hause."
+      ],
+      "explanation": "**Verbinde mit „deshalb“ (Folge).**\n\nIch bin krank.\nIch bleibe zu Hause.\n\nIch bin krank, deshalb bleibe ich zu Hause.\n\ndeshalb steht auf Position 1 → danach das Verb: deshalb bleibe ich."
+    },
+    {
+      "id": "tb1-u62-l02-join-sentences-1-ex05",
+      "type": "choice",
+      "title": "Sätze verbinden · Welches Wort passt in die Lücke?",
+      "passage": "**Verbinde mit „obwohl“ (Gegengrund).**\n\nEs hat geregnet.\nWir sind spazieren gegangen.",
+      "prompt": "___ es geregnet hat, sind wir spazieren gegangen.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Obwohl"
+        },
+        {
+          "id": "b",
+          "text": "Deshalb"
+        },
+        {
+          "id": "c",
+          "text": "Denn"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Full sentence: *Obwohl es geregnet hat, sind wir spazieren gegangen.*\n\nobwohl → Verb ans Ende; danach im Hauptsatz Inversion (sind wir).\n\n**obwohl (Gegengrund)**: concession; verb-final.\n\n**Obwohl** + … + **Verb-Ende**, **Verb** + Subjekt.\nBsp: Obwohl es teuer **war**, **habe ich** es gekauft."
+    },
+    {
+      "id": "tb1-u62-l02-join-sentences-1-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Although it rained, we went for a walk.",
+      "tiles": [
+        "Obwohl",
+        "geregnet",
+        "wir",
+        "es",
+        "denn",
+        "gegangen",
+        "hat",
+        "sind",
+        "spazieren",
+        "trotzdem",
+        "wenn",
+        "weil"
+      ],
+      "answers": [
+        "Obwohl es geregnet hat, sind wir spazieren gegangen.",
+        "Wir sind spazieren gegangen, obwohl es geregnet hat."
+      ],
+      "explanation": "**Verbinde mit „obwohl“ (Gegengrund).**\n\nEs hat geregnet.\nWir sind spazieren gegangen.\n\nObwohl es geregnet hat, sind wir spazieren gegangen.\nAlso correct: Wir sind spazieren gegangen, obwohl es geregnet hat.\n\nobwohl → Verb ans Ende; danach im Hauptsatz Inversion (sind wir)."
+    },
+    {
+      "id": "tb1-u62-l02-join-sentences-1-ex07",
+      "type": "choice",
+      "title": "Sätze verbinden · Welches Wort passt in die Lücke?",
+      "passage": "**Verbinde mit „trotzdem“.**\n\nDie Wohnung ist teuer.\nWir nehmen sie.",
+      "prompt": "Die Wohnung ist teuer, ___ nehmen wir sie.",
+      "options": [
+        {
+          "id": "a",
+          "text": "trotzdem"
+        },
+        {
+          "id": "b",
+          "text": "denn"
+        },
+        {
+          "id": "c",
+          "text": "weil"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Full sentence: *Die Wohnung ist teuer, trotzdem nehmen wir sie.*\n\ntrotzdem = Gegensatz auf Position 1 → trotzdem nehmen wir.\n\n**trotzdem (Gegensatz)**: contrast; position 1 → inversion.\n\n…, **trotzdem** + **Verb** + Subjekt.\nBsp: Es war teuer, trotzdem **habe ich** es gekauft."
+    },
+    {
+      "id": "tb1-u62-l02-join-sentences-1-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "The flat is expensive, but we're taking it anyway.",
+      "tiles": [
+        "wir",
+        "Wohnung",
+        "ist",
+        "nehmen",
+        "Die",
+        "wenn",
+        "deshalb",
+        "denn",
+        "weil",
+        "sie",
+        "teuer",
+        "trotzdem"
+      ],
+      "answers": [
+        "Die Wohnung ist teuer, trotzdem nehmen wir sie."
+      ],
+      "explanation": "**Verbinde mit „trotzdem“.**\n\nDie Wohnung ist teuer.\nWir nehmen sie.\n\nDie Wohnung ist teuer, trotzdem nehmen wir sie.\n\ntrotzdem = Gegensatz auf Position 1 → trotzdem nehmen wir."
+    },
+    {
+      "id": "tb1-u62-l02-join-sentences-1-ex09",
+      "type": "choice",
+      "title": "Sätze verbinden · Welches Wort passt in die Lücke?",
+      "passage": "**Verbinde mit „damit“ (Ziel).**\n\nIch lerne jeden Tag.\nIch bestehe die Prüfung.",
+      "prompt": "Ich lerne jeden Tag, ___ ich die Prüfung bestehe.",
+      "options": [
+        {
+          "id": "a",
+          "text": "denn"
+        },
+        {
+          "id": "b",
+          "text": "deshalb"
+        },
+        {
+          "id": "c",
+          "text": "damit"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Full sentence: *Ich lerne jeden Tag, damit ich die Prüfung bestehe.*\n\ndamit (Ziel, anderes Subjekt möglich) → Verb ans Ende.\n\n**damit (Ziel)**: purpose (can have a different subject); verb-final.\n\n…, **damit** + Subjekt + … + **Verb-Ende**.\nBsp: Ich spare, damit ich reisen **kann**."
+    },
+    {
+      "id": "tb1-u62-l02-join-sentences-1-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I study every day so that I pass the exam.",
+      "tiles": [
+        "Prüfung",
+        "jeden",
+        "damit",
+        "deshalb",
+        "obwohl",
+        "die",
+        "dass",
+        "lerne",
+        "Ich",
+        "denn",
+        "bestehe",
+        "ich",
+        "Tag"
+      ],
+      "answers": [
+        "Ich lerne jeden Tag, damit ich die Prüfung bestehe."
+      ],
+      "explanation": "**Verbinde mit „damit“ (Ziel).**\n\nIch lerne jeden Tag.\nIch bestehe die Prüfung.\n\nIch lerne jeden Tag, damit ich die Prüfung bestehe.\n\ndamit (Ziel, anderes Subjekt möglich) → Verb ans Ende."
+    },
+    {
+      "id": "tb1-u62-l02-join-sentences-1-ex11",
+      "type": "choice",
+      "title": "Sätze verbinden · Welches Wort passt in die Lücke?",
+      "passage": "**Verbinde mit „wenn“ (Bedingung).**\n\nDu hast Zeit.\nWir können uns treffen.",
+      "prompt": "___ du Zeit hast, können wir uns treffen.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Denn"
+        },
+        {
+          "id": "b",
+          "text": "Wenn"
+        },
+        {
+          "id": "c",
+          "text": "Deshalb"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Full sentence: *Wenn du Zeit hast, können wir uns treffen.*\n\nwenn → Verb ans Ende; „Wenn …, können wir …“ (Verb-Komma-Verb).\n\n**wenn (Bedingung/Zeit)**: condition/time; verb-final, then main clause inverts.\n\n**Wenn** + … + **Verb-Ende**, **Verb** + Subjekt.\nBsp: Wenn es **regnet**, **bleibe ich** zu Hause."
+    },
+    {
+      "id": "tb1-u62-l02-join-sentences-1-ex12",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "If you have time, we can meet.",
+      "tiles": [
+        "treffen",
+        "Zeit",
+        "uns",
+        "denn",
+        "deshalb",
+        "wir",
+        "obwohl",
+        "können",
+        "Wenn",
+        "hast",
+        "weil",
+        "du"
+      ],
+      "answers": [
+        "Wenn du Zeit hast, können wir uns treffen.",
+        "Wir können uns treffen, wenn du Zeit hast."
+      ],
+      "explanation": "**Verbinde mit „wenn“ (Bedingung).**\n\nDu hast Zeit.\nWir können uns treffen.\n\nWenn du Zeit hast, können wir uns treffen.\nAlso correct: Wir können uns treffen, wenn du Zeit hast.\n\nwenn → Verb ans Ende; „Wenn …, können wir …“ (Verb-Komma-Verb)."
+    }
+  ]
+}

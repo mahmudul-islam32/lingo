@@ -1,0 +1,129 @@
+{
+  "id": "tb1-u31-l27-lassen-rule",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u31",
+  "title": "lassen + brauchen … zu: the rule",
+  "tip": "„Ich repariere mein Handy“ = you do it YOURSELF. For a service: Ich lasse es reparieren. And brauchen needs zu: Du brauchst nicht ZU kommen.",
+  "exercises": [
+    {
+      "id": "tb1-u31-l27-lassen-rule-ex01",
+      "type": "explain",
+      "title": "lassen + brauchen … zu",
+      "body": "**lassen + infinitive (no zu!)**: ① service, you don't do it yourself: Ich lasse mein Handy **reparieren**. ② allowing: Meine Eltern lassen mich **ausgehen**. Plus: **brauchen + nicht/nur + zu** = don't have to: Du brauchst nicht zu kommen.\n\n*Deutsch:* **lassen + Infinitiv (ohne zu!)**: ① Dienstleistung, nicht selbst machen: Ich lasse mein Handy **reparieren**. ② erlauben: Meine Eltern lassen mich **ausgehen**. Und: **brauchen + nicht/nur + zu** = musst nicht: Du brauchst nicht zu kommen.\n\n*German name:* lassen + brauchen … zu",
+      "examples": [
+        {
+          "learning": "Ich lasse mir die Haare schneiden.",
+          "known": "I'm having my hair cut."
+        },
+        {
+          "learning": "Wir lassen die Heizung reparieren.",
+          "known": "We're having the heating repaired. (complaint letter!)"
+        },
+        {
+          "learning": "Meine Eltern lassen mich am Wochenende lange schlafen.",
+          "known": "My parents let me sleep in at the weekend."
+        }
+      ]
+    },
+    {
+      "id": "tb1-u31-l27-lassen-rule-ex02",
+      "type": "explain",
+      "title": "lassen + brauchen … zu: step by step",
+      "body": "lassen works like a modal verb (position 2 + infinitive at the end):\n• Forms: ich lasse, du lässt, er **lässt**, ihr lasst.\n• ① **having something done** (service): sich die Haare schneiden lassen, das Auto reparieren lassen, ein Foto machen lassen.\n• ② **allowing**: Der Chef lässt mich heute früher gehen.\n• ③ **leaving something behind** (full verb, perfect with ge-): Ich habe den Schlüssel zu Hause **gelassen**.\nPerfect of ①, recognise only: „Ich habe es reparieren **lassen**“ (double infinitive).\n**brauchen**: only negated/with nur + **zu**-infinitive: Du brauchst nichts mitzubringen = you don't have to bring anything. Ihr braucht nur anzurufen.\n\n## Auf Deutsch\n\nlassen funktioniert wie ein Modalverb (Position 2 + Infinitiv am Ende):\n• Formen: ich lasse, du lässt, er **lässt**, ihr lasst.\n• ① **machen lassen** (Service): sich die Haare schneiden lassen, das Auto reparieren lassen, ein Foto machen lassen.\n• ② **erlauben**: Der Chef lässt mich heute früher gehen.\n• ③ **zurücklassen/vergessen** (Vollverb, Perfekt mit ge-): Ich habe den Schlüssel zu Hause **gelassen**.\nPerfekt von ① nur erkennen: „Ich habe es reparieren **lassen**“ (Doppel-Infinitiv).\n**brauchen**: nur verneint/mit nur + **zu**-Infinitiv: Du brauchst nichts mitzubringen = Du musst nichts mitbringen. Ihr braucht nur anzurufen.",
+      "examples": [
+        {
+          "learning": "Ich lasse mir die Haare schneiden.",
+          "known": "I'm having my hair cut."
+        },
+        {
+          "learning": "Wir lassen die Heizung reparieren.",
+          "known": "We're having the heating repaired. (complaint letter!)"
+        },
+        {
+          "learning": "Meine Eltern lassen mich am Wochenende lange schlafen.",
+          "known": "My parents let me sleep in at the weekend."
+        },
+        {
+          "learning": "Du brauchst nichts mitzubringen.",
+          "known": "You don't need to bring anything. (invitation letter!)"
+        },
+        {
+          "learning": "Testlücke-Stil: „Er ___ sein Auto in der Werkstatt reparieren.“ → lässt",
+          "known": "service → lässt + infinitive"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u31-l27-lassen-rule-ex03",
+      "type": "explain",
+      "title": "Watch out & exam tip",
+      "body": "## Common trap\n\n„Ich repariere mein Handy“ = you do it YOURSELF. For a service: Ich lasse es reparieren. And brauchen needs zu: Du brauchst nicht ZU kommen.\n\n*Deutsch:* „Ich repariere mein Handy“ = du machst es SELBST. Beim Service: Ich lasse es reparieren. Und brauchen braucht zu: Du brauchst nicht ZU kommen.\n\n## In the exam\n\n🎯 How telc tests it: **Sprachbausteine**: lässt/lasst gaps and brauchen…zu. In the **letter** (complaint, invitation): „… reparieren lassen“, „Du brauchst nichts mitzubringen“ are ready-made point earners.\n\n*Deutsch:* 🎯 So testet telc das: **Sprachbausteine**: lässt/lasst-Lücken und brauchen…zu. Im **Brief** (Reklamation, Einladung): „… reparieren lassen“, „Du brauchst nichts mitzubringen“ sind fertige Punktebringer.\n\n*Source:* Guide B3-Umfeld · Sprachbausteine-Mastery"
+    },
+    {
+      "id": "tb1-u31-l27-lassen-rule-ex04",
+      "type": "choice",
+      "title": "Fill the gap",
+      "prompt": "Mein Laptop ist kaputt. Ich ___ ihn reparieren.",
+      "options": [
+        {
+          "id": "a",
+          "text": "muss"
+        },
+        {
+          "id": "b",
+          "text": "mache"
+        },
+        {
+          "id": "c",
+          "text": "lasse"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Service, den andere machen → lassen + Infinitiv: Ich lasse ihn reparieren."
+    },
+    {
+      "id": "tb1-u31-l27-lassen-rule-ex05",
+      "type": "choice",
+      "title": "Fill the gap",
+      "prompt": "Sie ___ ihre Haare beim Friseur schneiden.",
+      "options": [
+        {
+          "id": "a",
+          "text": "liest"
+        },
+        {
+          "id": "b",
+          "text": "lässt"
+        },
+        {
+          "id": "c",
+          "text": "lasst"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "sie (Singular) → lässt. (lasst = ihr-Form)"
+    },
+    {
+      "id": "tb1-u31-l27-lassen-rule-ex06",
+      "type": "choice",
+      "title": "Fill the gap",
+      "prompt": "Meine Eltern ___ mich nicht allein reisen.",
+      "options": [
+        {
+          "id": "a",
+          "text": "sollen"
+        },
+        {
+          "id": "b",
+          "text": "möchten"
+        },
+        {
+          "id": "c",
+          "text": "lassen"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "erlauben/zulassen → lassen + Infinitiv ohne zu."
+    }
+  ]
+}

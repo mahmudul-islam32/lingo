@@ -1,0 +1,239 @@
+{
+  "id": "tb1-u21-l04-connectors-b1-4",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u21",
+  "title": "Connectors (B1) 4",
+  "tip": "Theme: Konnektoren (B1) (B1)",
+  "exercises": [
+    {
+      "id": "tb1-u21-l04-connectors-b1-4-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "um … zu",
+          "known": "in order to"
+        },
+        {
+          "id": "p2",
+          "learning": "solange",
+          "known": "as long as"
+        },
+        {
+          "id": "p3",
+          "learning": "sobald",
+          "known": "as soon as"
+        },
+        {
+          "id": "p4",
+          "learning": "wobei",
+          "known": "whereby / whilst"
+        },
+        {
+          "id": "p5",
+          "learning": "dennoch",
+          "known": "yet / still"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u21-l04-connectors-b1-4-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which one means „in order to“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "sobald"
+        },
+        {
+          "id": "b",
+          "text": "um … zu"
+        },
+        {
+          "id": "c",
+          "text": "ohne … zu"
+        },
+        {
+          "id": "d",
+          "text": "dennoch"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**um … zu** = in order to\n\n*Example:* Anna lernt jeden Abend Deutsch, um eine bessere Arbeit zu finden.\nAnna studies German every evening in order to find a better job."
+    },
+    {
+      "id": "tb1-u21-l04-connectors-b1-4-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which one means „as long as“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "zwar … aber"
+        },
+        {
+          "id": "b",
+          "text": "daher"
+        },
+        {
+          "id": "c",
+          "text": "solange"
+        },
+        {
+          "id": "d",
+          "text": "sobald"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**solange** = as long as\n\n*Example:* Solange du Fieber hast, solltest du im Bett bleiben.\nAs long as you have a fever, you should stay in bed."
+    },
+    {
+      "id": "tb1-u21-l04-connectors-b1-4-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Anna studies German every evening in order to find a better job.",
+      "tiles": [
+        "finden",
+        "teuer",
+        "Anna",
+        "in",
+        "bessere",
+        "Abend",
+        "lernt",
+        "zu",
+        "jeden",
+        "um",
+        "mit",
+        "eine",
+        "Arbeit",
+        "Deutsch"
+      ],
+      "answers": [
+        "Anna lernt jeden Abend Deutsch, um eine bessere Arbeit zu finden."
+      ],
+      "explanation": "**um … zu** = in order to"
+    },
+    {
+      "id": "tb1-u21-l04-connectors-b1-4-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which one means „as soon as“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "indem"
+        },
+        {
+          "id": "b",
+          "text": "dennoch"
+        },
+        {
+          "id": "c",
+          "text": "sobald"
+        },
+        {
+          "id": "d",
+          "text": "ohne … zu"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**sobald** = as soon as\n\n*Example:* Ich rufe dich an, sobald ich zu Hause bin.\nI'll call you as soon as I get home."
+    },
+    {
+      "id": "tb1-u21-l04-connectors-b1-4-ex06",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u21-l04-connectors-b1-4-2.mp3"
+      },
+      "tiles": [
+        "bleiben",
+        "Bett",
+        "hast",
+        "Fieber",
+        "du",
+        "haben",
+        "im",
+        "zu",
+        "du",
+        "Solange",
+        "schön",
+        "solltest"
+      ],
+      "answers": [
+        "Solange du Fieber hast, solltest du im Bett bleiben."
+      ],
+      "explanation": "Solange du Fieber hast, solltest du im Bett bleiben.\n*As long as you have a fever, you should stay in bed.*\n\n**solange** = as long as"
+    },
+    {
+      "id": "tb1-u21-l04-connectors-b1-4-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which one means „whereby / whilst“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "je nachdem"
+        },
+        {
+          "id": "b",
+          "text": "um … zu"
+        },
+        {
+          "id": "c",
+          "text": "solange"
+        },
+        {
+          "id": "d",
+          "text": "wobei"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**wobei** = whereby / whilst\n\n*Example:* Wir haben lange geredet, wobei wir Kaffee getrunken haben.\nWe talked for a long time while drinking coffee."
+    },
+    {
+      "id": "tb1-u21-l04-connectors-b1-4-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Ich rufe dich an, sobald ich zu Hause bin.",
+      "tiles": [
+        "soon",
+        "home",
+        "I'll",
+        "I",
+        "as",
+        "We",
+        "while",
+        "get",
+        "late",
+        "call",
+        "as",
+        "you"
+      ],
+      "answers": [
+        "I'll call you as soon as I get home."
+      ],
+      "explanation": "**sobald** = as soon as"
+    },
+    {
+      "id": "tb1-u21-l04-connectors-b1-4-ex09",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "We talked for a long time while drinking coffee.",
+      "tiles": [
+        "Kaffee",
+        "dort",
+        "getrunken",
+        "Wir",
+        "haben",
+        "haben",
+        "geredet",
+        "lernt",
+        "lange",
+        "wir",
+        "wobei",
+        "hast"
+      ],
+      "answers": [
+        "Wir haben lange geredet, wobei wir Kaffee getrunken haben."
+      ],
+      "explanation": "**wobei** = whereby / whilst"
+    }
+  ]
+}

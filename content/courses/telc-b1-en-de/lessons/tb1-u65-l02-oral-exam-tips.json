@@ -1,0 +1,149 @@
+{
+  "id": "tb1-u65-l02-oral-exam-tips",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u65",
+  "title": "Assessment and tips (Hinweise)",
+  "tip": "Talk to your partner, ask questions, help each other.",
+  "exercises": [
+    {
+      "id": "tb1-u65-l02-oral-exam-tips-ex01",
+      "type": "explain",
+      "title": "Tips for the oral exam (Hinweise)",
+      "body": "- Die Prüfung ist eine **Paarprüfung** und dauert insgesamt ca. 15 Minuten. (*The exam is a paired exam and takes about 15 minutes in total.*)\n- Zwei Prüfende sind im Raum: eine Person leitet das Gespräch (Interlokutor), die andere bewertet nur (Assessor). (*Two examiners are in the room: one leads the conversation (interlocutor), the other only assesses (assessor).*)\n- Bewertet wird nach drei Kriterien: **Ausdrucksfähigkeit**, **Aufgabenbewältigung** und **Formale Richtigkeit**, dazu **Aussprache und Intonation**. (*You are assessed on three criteria: expression, task completion and formal accuracy, plus pronunciation and intonation.*)\n- **Nachfragen und dem Partner helfen wird positiv bewertet.** Ein lebendiges Gespräch zählt mehr als ein perfekter Monolog. (*Asking questions and helping your partner is rated positively. A lively conversation counts more than a perfect monologue.*)\n- Lesen Sie Ihre Notizen nicht ab, nur kurz hinschauen. (*Don't read out your notes; just glance at them.*)\n- Sehen Sie beim Sprechen Ihre Partnerin/Ihren Partner an, nicht die Prüfenden. (*Look at your partner while speaking, not at the examiners.*)\n\n## Check your recording\n\nHör dich an: Verb an Position 2? Ein „weil“? Rückfragen?\n*Listen to yourself: verb in position 2? A „weil“? Follow-up questions?*"
+    },
+    {
+      "id": "tb1-u65-l02-oral-exam-tips-ex02",
+      "type": "choice",
+      "prompt": "Wie lange dauert die Paarprüfung insgesamt?",
+      "options": [
+        {
+          "id": "a",
+          "text": "ca. 3 Minuten"
+        },
+        {
+          "id": "b",
+          "text": "ca. 15 Minuten"
+        },
+        {
+          "id": "c",
+          "text": "ca. 30 Minuten"
+        },
+        {
+          "id": "d",
+          "text": "20 Minuten"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Die Prüfung ist eine Paarprüfung und dauert insgesamt ca. 15 Minuten."
+    },
+    {
+      "id": "tb1-u65-l02-oral-exam-tips-ex03",
+      "type": "choice",
+      "prompt": "Was macht der Assessor?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Er bewertet nur."
+        },
+        {
+          "id": "b",
+          "text": "Er leitet das Gespräch."
+        },
+        {
+          "id": "c",
+          "text": "Er spricht mit Ihnen über das Thema."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Zwei Prüfende sind im Raum: eine Person leitet das Gespräch (Interlokutor), die andere bewertet nur (Assessor)."
+    },
+    {
+      "id": "tb1-u65-l02-oral-exam-tips-ex04",
+      "type": "choice",
+      "prompt": "Was wird NICHT als Kriterium genannt?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ausdrucksfähigkeit"
+        },
+        {
+          "id": "b",
+          "text": "Formale Richtigkeit"
+        },
+        {
+          "id": "c",
+          "text": "Aufgabenbewältigung"
+        },
+        {
+          "id": "d",
+          "text": "Wortanzahl"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Bewertet wird nach drei Kriterien: Ausdrucksfähigkeit, Aufgabenbewältigung und Formale Richtigkeit, dazu Aussprache und Intonation."
+    },
+    {
+      "id": "tb1-u65-l02-oral-exam-tips-ex05",
+      "type": "choice",
+      "prompt": "Was wird positiv bewertet?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Nachfragen und dem Partner helfen"
+        },
+        {
+          "id": "b",
+          "text": "Die Notizen genau ablesen"
+        },
+        {
+          "id": "c",
+          "text": "Ein perfekter Monolog"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Nachfragen und dem Partner helfen wird positiv bewertet. Ein lebendiges Gespräch zählt mehr als ein perfekter Monolog."
+    },
+    {
+      "id": "tb1-u65-l02-oral-exam-tips-ex06",
+      "type": "choice",
+      "prompt": "Wie benutzen Sie Ihre Notizen?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Vorlesen"
+        },
+        {
+          "id": "b",
+          "text": "Den Prüfenden zeigen"
+        },
+        {
+          "id": "c",
+          "text": "Nur kurz hinschauen"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Lesen Sie Ihre Notizen nicht ab, nur kurz hinschauen."
+    },
+    {
+      "id": "tb1-u65-l02-oral-exam-tips-ex07",
+      "type": "choice",
+      "prompt": "Wen sehen Sie beim Sprechen an?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Das Aufgabenblatt"
+        },
+        {
+          "id": "b",
+          "text": "Die Prüfenden"
+        },
+        {
+          "id": "c",
+          "text": "Die Partnerin / den Partner"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Sehen Sie beim Sprechen Ihre Partnerin/Ihren Partner an, nicht die Prüfenden."
+    }
+  ]
+}

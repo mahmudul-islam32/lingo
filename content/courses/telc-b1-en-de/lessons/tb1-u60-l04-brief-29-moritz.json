@@ -1,0 +1,294 @@
+{
+  "id": "tb1-u60-l04-brief-29-moritz",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u60",
+  "title": "Letter 29: Moritz · Lieblingsland, Musikgeschmack & Treffen",
+  "tip": "Cover all four points; Anrede and Gruß are compulsory.",
+  "exercises": [
+    {
+      "id": "tb1-u60-l04-brief-29-moritz-ex01",
+      "type": "explain",
+      "title": "Letter from Moritz: Lieblingsland, Musikgeschmack & Treffen",
+      "body": "Read the letter. You will answer it in about 80 words and write something about each of the four points.\n\n## Lieblingsland, Musikgeschmack & Treffen\n\nLiebe ...,\nich sende dir ganz viele Grüße aus San Diego. Du weißt ja, wie sehr ich Kalifornien mag! Ich habe mir ein Auto gemietet und bin von morgens bis abends nur unterwegs. Ich liebe die Architektur hier, diese Hochhäuser und natürlich die Strände - wunderbar. Gestern Abend war ich übrigens in einem Club: Die Musik war super.\nDoch leider ist mein Urlaub schon fast vorbei, in zwei Tagen fliege ich zurück und dann beginnt der Alltag wieder - Vielleicht können wir uns ja in der nächsten Woche treffen. Dann erzähle ich dir alles genauer. Welches Land ist eigentlich dein Lieblingsland?\n\nViele Grüße\nMoritz\n\n## Task\n\n**(Aufgabenstellung im Video nicht ausgeschrieben, direkt die vier Punkte)**\n1. Ihr Lieblingsland?\n2. Was Sie an fremden Orten interessiert?\n3. Welche-Musik Sie gern hören?\n4. Vorschlag for Treten mit Moritz?\n\nSource video: https://www.youtube.com/watch?v=XY106ew3DwA\n\n## Notes on the source\n\n- Leitpunkte der Quelle fehlerhaft: 'Welche-Musik' (Bindestrich), 'Vorschlag for Treten mit Moritz?' (gemeint: Vorschlag für Treffen)."
+    },
+    {
+      "id": "tb1-u60-l04-brief-29-moritz-ex02",
+      "type": "explain",
+      "title": "Plan: one building block per point",
+      "body": "For each Leitpunkt pick a Baustein and fill it in:\n\n**1. Ihr Lieblingsland?**\nBaustein B7 · über sich / Vorlieben (talk about yourself / preferences): *Am liebsten …, weil ich … kann.*\n→ Am liebsten mag ich Deutschland, weil ich dort die Sprache und die alte Architektur richtig genießen kann.\n\n**2. Was Sie an fremden Orten interessiert?**\nBaustein B7b · beschreiben (describe): *…, weil ….*\n→ Auf Reisen interessieren mich vor allem die Menschen und das Essen, weil ich so am meisten über ein Land lerne.\n\n**3. Welche-Musik Sie gern hören?**\nBaustein B7+ · über sich / Vorlieben (talk about yourself / preferences): *Am liebsten …, vor allem am Ende ….*\n→ Am liebsten höre ich ruhige Musik, vor allem am Ende eines langen Arbeitstages.\n\n**4. Vorschlag for Treten mit Moritz?**\nBaustein B4 · Vorschlag machen (make a suggestion): *Ich hätte einen Vorschlag: Wir könnten …, denn das wäre nicht nur …, sondern auch …. Was hältst du davon?*\n→ Ich hätte einen Vorschlag: Wir könnten uns nächste Woche in einem Café treffen, denn das wäre nicht nur gemütlich, sondern auch ganz entspannt. Was hältst du davon?",
+      "examples": [
+        {
+          "learning": "Am liebsten mag ich Deutschland, weil ich dort die Sprache und die alte Architektur richtig genießen kann.",
+          "known": "Point 1: talk about yourself / preferences (B7)"
+        },
+        {
+          "learning": "Auf Reisen interessieren mich vor allem die Menschen und das Essen, weil ich so am meisten über ein Land lerne.",
+          "known": "Point 2: describe (B7b)"
+        },
+        {
+          "learning": "Am liebsten höre ich ruhige Musik, vor allem am Ende eines langen Arbeitstages.",
+          "known": "Point 3: talk about yourself / preferences (B7+)"
+        },
+        {
+          "learning": "Ich hätte einen Vorschlag: Wir könnten uns nächste Woche in einem Café treffen, denn das wäre nicht nur gemütlich, sondern auch ganz entspannt. Was hältst du davon?",
+          "known": "Point 4: make a suggestion (B4)"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u60-l04-brief-29-moritz-ex03",
+      "type": "choice",
+      "title": "Leitpunkt 1",
+      "prompt": "Welcher Satz passt zum Leitpunkt „Ihr Lieblingsland?“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Auf Reisen interessieren mich vor allem die Menschen und das Essen, weil ich so am meisten über ein Land lerne."
+        },
+        {
+          "id": "b",
+          "text": "Am liebsten mag ich Deutschland, weil ich dort die Sprache und die alte Architektur richtig genießen kann."
+        },
+        {
+          "id": "c",
+          "text": "Ich hätte einen Vorschlag: Wir könnten uns nächste Woche in einem Café treffen, denn das wäre nicht nur gemütlich, sondern auch ganz entspannt. Was hältst du davon?"
+        },
+        {
+          "id": "d",
+          "text": "Am liebsten höre ich ruhige Musik, vor allem am Ende eines langen Arbeitstages."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Baustein **B7** · über sich / Vorlieben (talk about yourself / preferences): Am liebsten …, weil ich … kann."
+    },
+    {
+      "id": "tb1-u60-l04-brief-29-moritz-ex04",
+      "type": "choice",
+      "title": "Leitpunkt 2",
+      "prompt": "Welcher Satz passt zum Leitpunkt „Was Sie an fremden Orten interessiert?“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Am liebsten höre ich ruhige Musik, vor allem am Ende eines langen Arbeitstages."
+        },
+        {
+          "id": "b",
+          "text": "Auf Reisen interessieren mich vor allem die Menschen und das Essen, weil ich so am meisten über ein Land lerne."
+        },
+        {
+          "id": "c",
+          "text": "Ich hätte einen Vorschlag: Wir könnten uns nächste Woche in einem Café treffen, denn das wäre nicht nur gemütlich, sondern auch ganz entspannt. Was hältst du davon?"
+        },
+        {
+          "id": "d",
+          "text": "Am liebsten mag ich Deutschland, weil ich dort die Sprache und die alte Architektur richtig genießen kann."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Baustein **B7b** · beschreiben (describe): …, weil …."
+    },
+    {
+      "id": "tb1-u60-l04-brief-29-moritz-ex05",
+      "type": "choice",
+      "title": "Leitpunkt 3",
+      "prompt": "Welcher Satz passt zum Leitpunkt „Welche-Musik Sie gern hören?“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Am liebsten mag ich Deutschland, weil ich dort die Sprache und die alte Architektur richtig genießen kann."
+        },
+        {
+          "id": "b",
+          "text": "Ich hätte einen Vorschlag: Wir könnten uns nächste Woche in einem Café treffen, denn das wäre nicht nur gemütlich, sondern auch ganz entspannt. Was hältst du davon?"
+        },
+        {
+          "id": "c",
+          "text": "Am liebsten höre ich ruhige Musik, vor allem am Ende eines langen Arbeitstages."
+        },
+        {
+          "id": "d",
+          "text": "Auf Reisen interessieren mich vor allem die Menschen und das Essen, weil ich so am meisten über ein Land lerne."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Baustein **B7+** · über sich / Vorlieben (talk about yourself / preferences): Am liebsten …, vor allem am Ende …."
+    },
+    {
+      "id": "tb1-u60-l04-brief-29-moritz-ex06",
+      "type": "choice",
+      "title": "Leitpunkt 4",
+      "prompt": "Welcher Satz passt zum Leitpunkt „Vorschlag for Treten mit Moritz?“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ich hätte einen Vorschlag: Wir könnten uns nächste Woche in einem Café treffen, denn das wäre nicht nur gemütlich, sondern auch ganz entspannt. Was hältst du davon?"
+        },
+        {
+          "id": "b",
+          "text": "Auf Reisen interessieren mich vor allem die Menschen und das Essen, weil ich so am meisten über ein Land lerne."
+        },
+        {
+          "id": "c",
+          "text": "Am liebsten mag ich Deutschland, weil ich dort die Sprache und die alte Architektur richtig genießen kann."
+        },
+        {
+          "id": "d",
+          "text": "Am liebsten höre ich ruhige Musik, vor allem am Ende eines langen Arbeitstages."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Baustein **B4** · Vorschlag machen (make a suggestion): Ich hätte einen Vorschlag: Wir könnten …, denn das wäre nicht nur …, sondern auch …. Was hältst du davon?"
+    },
+    {
+      "id": "tb1-u60-l04-brief-29-moritz-ex07",
+      "type": "choice",
+      "title": "Leitpunkt 1 · Welches Wort passt in die Lücke?",
+      "prompt": "Am liebsten mag ich Deutschland, ___ ich dort die Sprache und die alte Architektur richtig genießen kann.",
+      "options": [
+        {
+          "id": "a",
+          "text": "deshalb"
+        },
+        {
+          "id": "b",
+          "text": "denn"
+        },
+        {
+          "id": "c",
+          "text": "weil"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Full sentence: *Am liebsten mag ich Deutschland, weil ich dort die Sprache und die alte Architektur richtig genießen kann.*\n\n**weil (Grund)**: reason; the verb goes to the very end.\n\nHauptsatz, **weil** + Subjekt + … + **Verb ans Ende**.\nBsp: Ich bleibe zu Hause, weil ich müde **bin**."
+    },
+    {
+      "id": "tb1-u60-l04-brief-29-moritz-ex08",
+      "type": "choice",
+      "title": "Leitpunkt 2 · Welches Wort passt in die Lücke?",
+      "prompt": "Auf Reisen interessieren mich vor allem die Menschen und das Essen, ___ ich so am meisten über ein Land lerne.",
+      "options": [
+        {
+          "id": "a",
+          "text": "denn"
+        },
+        {
+          "id": "b",
+          "text": "deshalb"
+        },
+        {
+          "id": "c",
+          "text": "weil"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Full sentence: *Auf Reisen interessieren mich vor allem die Menschen und das Essen, weil ich so am meisten über ein Land lerne.*\n\n**weil (Grund)**: reason; the verb goes to the very end.\n\nHauptsatz, **weil** + Subjekt + … + **Verb ans Ende**.\nBsp: Ich bleibe zu Hause, weil ich müde **bin**."
+    },
+    {
+      "id": "tb1-u60-l04-brief-29-moritz-ex09",
+      "type": "choice",
+      "title": "Leitpunkt 4 · Welches Wort passt in die Lücke?",
+      "prompt": "Ich hätte einen Vorschlag: Wir könnten uns nächste Woche in einem Café treffen, ___ das wäre nicht nur gemütlich, sondern auch ganz entspannt. Was hältst du davon?",
+      "options": [
+        {
+          "id": "a",
+          "text": "denn"
+        },
+        {
+          "id": "b",
+          "text": "deshalb"
+        },
+        {
+          "id": "c",
+          "text": "weil"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Full sentence: *Ich hätte einen Vorschlag: Wir könnten uns nächste Woche in einem Café treffen, denn das wäre nicht nur gemütlich, sondern auch ganz entspannt. Was hältst du davon?*\n\n**denn (Grund, Position 0)**: reason but normal word order (like und/aber).\n\n…, **denn** + Subjekt + Verb. (normale Wortstellung!)\nBsp: Ich bleibe zu Hause, denn **ich bin** müde."
+    },
+    {
+      "id": "tb1-u60-l04-brief-29-moritz-ex10",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/w-brief-29-0.mp3"
+      },
+      "tiles": [
+        "vor",
+        "Arbeitstages",
+        "eines",
+        "und",
+        "höre",
+        "Musik",
+        "am",
+        "langen",
+        "Am",
+        "Sprache",
+        "Ende",
+        "dort",
+        "liebsten",
+        "allem",
+        "ich",
+        "ruhige"
+      ],
+      "answers": [
+        "Am liebsten höre ich ruhige Musik, vor allem am Ende eines langen Arbeitstages."
+      ]
+    },
+    {
+      "id": "tb1-u60-l04-brief-29-moritz-ex11",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/w-brief-29-1.mp3"
+      },
+      "tiles": [
+        "die",
+        "dort",
+        "Sprache",
+        "alte",
+        "das",
+        "ich",
+        "ich",
+        "richtig",
+        "und",
+        "wäre",
+        "Am",
+        "liebsten",
+        "die",
+        "kann",
+        "Deutschland",
+        "mag",
+        "Café",
+        "weil",
+        "Architektur",
+        "genießen"
+      ],
+      "answers": [
+        "Am liebsten mag ich Deutschland, weil ich dort die Sprache und die alte Architektur richtig genießen kann."
+      ]
+    },
+    {
+      "id": "tb1-u60-l04-brief-29-moritz-ex12",
+      "type": "task",
+      "skill": "writing",
+      "title": "E-Mail an Moritz: Lieblingsland, Musikgeschmack & Treffen",
+      "task": "**Lieblingsland, Musikgeschmack & Treffen**\n\nYou received this letter:\n\nLiebe ...,\nich sende dir ganz viele Grüße aus San Diego. Du weißt ja, wie sehr ich Kalifornien mag! Ich habe mir ein Auto gemietet und bin von morgens bis abends nur unterwegs. Ich liebe die Architektur hier, diese Hochhäuser und natürlich die Strände - wunderbar. Gestern Abend war ich übrigens in einem Club: Die Musik war super.\nDoch leider ist mein Urlaub schon fast vorbei, in zwei Tagen fliege ich zurück und dann beginnt der Alltag wieder - Vielleicht können wir uns ja in der nächsten Woche treffen. Dann erzähle ich dir alles genauer. Welches Land ist eigentlich dein Lieblingsland?\nViele Grüße\nMoritz\n\n**(Aufgabenstellung im Video nicht ausgeschrieben, direkt die vier Punkte)**\n\nWrite about 80 words (30 minutes). Anrede and Gruß are compulsory.",
+      "points": [
+        "Ihr Lieblingsland?",
+        "Was Sie an fremden Orten interessiert?",
+        "Welche-Musik Sie gern hören?",
+        "Vorschlag for Treten mit Moritz?"
+      ],
+      "phrases": [
+        "Lieber Moritz,",
+        "vielen Dank für deinen Brief. Ich habe mich sehr gefreut, weil ich schon lange nichts von dir gehört habe.",
+        "Am liebsten …, weil ich … kann.",
+        "…, weil ….",
+        "Am liebsten …, vor allem am Ende ….",
+        "Ich hätte einen Vorschlag: Wir könnten …, denn das wäre nicht nur …, sondern auch …. Was hältst du davon?",
+        "So, das war's für heute. Ich hoffe, dass es dir gut geht. Es wäre schön, wenn wir uns bald einmal wiedersehen könnten. Schreib mir bitte bald zurück!",
+        "Viele Grüße"
+      ],
+      "modelAnswer": "## Model answer (Musterlösung)\n\nHamburg, den 9. August 2026\n\nLieber Moritz,\n\nvielen Dank für deinen Brief. Ich habe mich sehr gefreut, weil ich schon lange nichts von dir gehört habe.\n\nAm liebsten mag ich Deutschland, weil ich dort die Sprache und die alte Architektur richtig genießen kann.\n\nAuf Reisen interessieren mich vor allem die Menschen und das Essen, weil ich so am meisten über ein Land lerne.\n\nAm liebsten höre ich ruhige Musik, vor allem am Ende eines langen Arbeitstages.\n\nIch hätte einen Vorschlag: Wir könnten uns nächste Woche in einem Café treffen, denn das wäre nicht nur gemütlich, sondern auch ganz entspannt. Was hältst du davon?\n\nSo, das war's für heute. Ich hoffe, dass es dir gut geht. Es wäre schön, wenn wir uns bald einmal wiedersehen könnten. Schreib mir bitte bald zurück!\n\nViele Grüße\ndein Arnob\n\n## Sample answer from the source video\n\n*This answer was written in the source video. It is not the model and may contain mistakes; check the notes on the source.*\n\nLieber Moritz,\nvielen Dank für deine E-Mail! Ich habe mich sehr gefreut, von dir zu hören. Dein Urlaub in Kalifornien klingt wirklich spannend – ich kann gut verstehen, warum du das Land so liebst. Die Strände, Hochhäuser und Clubs hören sich einfach fantastisch an.\nMein Lieblingsland ist Deutschland. Ich interessiere mich sehr für die Kultur, die Sprache und die Geschichte. Besonders faszinierend finde ich die alten Städte, die Schlösser und natürlich die Landschaften. Wenn ich reise, interessieren mich vor allem die Menschen, ihre Lebensweise und das lokale Essen. Ich finde es spannend, Neues zu entdecken und andere Perspektiven kennenzulernen.\nWas Musik angeht, höre ich am liebsten ruhige Balladen oder klassische Musik – besonders abends oder wenn ich mich entspannen möchte. Musik hilft mir, den Alltag besser zu bewältigen.\nIch freue mich sehr, dass du bald wieder zurückkommst. Wie wäre es, wenn wir uns nächste Woche am Samstag in einem schönen Café bei mir in der Nähe treffen? Es gibt dort leckere Getränke und manchmal sogar Livemusik. Ich würde dir gerne mehr erzählen!\nIch bin gespannt auf deine Antwort!\nLiebe Grüße\n[Dein Name]",
+      "explanation": "Notes on the source:\n\n- Leitpunkte der Quelle fehlerhaft: 'Welche-Musik' (Bindestrich), 'Vorschlag for Treten mit Moritz?' (gemeint: Vorschlag für Treffen)."
+    }
+  ]
+}

@@ -1,0 +1,286 @@
+{
+  "id": "tb1-u32-l25-artikelw-p1",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u32",
+  "title": "Determiners: dieser, jeder, welcher, alle: dieser, diese, dieses & jeder",
+  "tip": "Time phrases without a preposition take the accusative: jeden Tag, nächsten Montag, letzte Woche, never „in jeden Tag“.",
+  "exercises": [
+    {
+      "id": "tb1-u32-l25-artikelw-p1-ex01",
+      "type": "explain",
+      "title": "dieser, diese, dieses",
+      "body": "dieser points to something specific and takes the endings of der/die/das.\n\n*Deutsch:* dieser zeigt auf etwas Bestimmtes und hat die Endungen von der/die/das.\n\n## Pattern\n\ndies**er** (der) · dies**e** (die) · dies**es** (das) · dies**en** (den)",
+      "examples": [
+        {
+          "learning": "Dieser Pullover ist zu teuer.",
+          "known": "This jumper is too expensive."
+        },
+        {
+          "learning": "Ich nehme diesen Tisch.",
+          "known": "I'll take this table."
+        }
+      ]
+    },
+    {
+      "id": "tb1-u32-l25-artikelw-p1-ex02",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "This jumper is too expensive.",
+      "tiles": [
+        "wohnen",
+        "den",
+        "Pullover",
+        "teuer",
+        "zu",
+        "Dieser",
+        "Geschenk",
+        "ist"
+      ],
+      "answers": [
+        "Dieser Pullover ist zu teuer."
+      ],
+      "explanation": "**Why:** der Pullover → dieser.\n\n*Warum:* der Pullover → dieser."
+    },
+    {
+      "id": "tb1-u32-l25-artikelw-p1-ex03",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I'll take this table.",
+      "tiles": [
+        "Tisch",
+        "Sie",
+        "Ich",
+        "nehme",
+        "diesen",
+        "jeden",
+        "Bus"
+      ],
+      "answers": [
+        "Ich nehme diesen Tisch."
+      ],
+      "explanation": "**Why:** Accusative masculine → diesen.\n\n*Warum:* Akkusativ maskulin → diesen."
+    },
+    {
+      "id": "tb1-u32-l25-artikelw-p1-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I like this flat.",
+      "tiles": [
+        "Pullover",
+        "Diese",
+        "zu",
+        "Wohnung",
+        "mir",
+        "Tag",
+        "gefällt"
+      ],
+      "answers": [
+        "Diese Wohnung gefällt mir."
+      ],
+      "explanation": "**Why:** die Wohnung → diese.\n\n*Warum:* die Wohnung → diese."
+    },
+    {
+      "id": "tb1-u32-l25-artikelw-p1-ex05",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Many families live in this house.",
+      "tiles": [
+        "7er",
+        "Haus",
+        "wohnen",
+        "viele",
+        "Familien",
+        "diesem",
+        "zu",
+        "In",
+        "den"
+      ],
+      "answers": [
+        "In diesem Haus wohnen viele Familien."
+      ],
+      "explanation": "**Why:** Dative → diesem.\n\n*Warum:* Dativ → diesem."
+    },
+    {
+      "id": "tb1-u32-l25-artikelw-p1-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "This year we're not going on holiday.",
+      "tiles": [
+        "du",
+        "in",
+        "fahren",
+        "wir",
+        "nicht",
+        "Dieses",
+        "für",
+        "Jahr",
+        "Das",
+        "Urlaub"
+      ],
+      "answers": [
+        "Dieses Jahr fahren wir nicht in Urlaub."
+      ],
+      "explanation": "**Why:** das Jahr → dieses.\n\n*Warum:* das Jahr → dieses."
+    },
+    {
+      "id": "tb1-u32-l25-artikelw-p1-ex07",
+      "type": "explain",
+      "title": "jeder (Singular) · alle (Plural)",
+      "body": "jeder = each single person/thing, singular only. Plural: alle.\n\n*Deutsch:* jeder = jede einzelne Person/Sache, nur Singular. Plural: alle.\n\n## Pattern\n\njed**er**/jed**e**/jed**es** + Singular · **alle** + Plural",
+      "examples": [
+        {
+          "learning": "Ich gehe jeden Tag spazieren.",
+          "known": "I go for a walk every day."
+        },
+        {
+          "learning": "Jede Woche habe ich zwei Kurse.",
+          "known": "Every week I have two classes."
+        }
+      ]
+    },
+    {
+      "id": "tb1-u32-l25-artikelw-p1-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I go for a walk every day.",
+      "tiles": [
+        "gehe",
+        "gibt",
+        "Tisch",
+        "spazieren",
+        "Tag",
+        "jeden",
+        "diesen",
+        "Ich"
+      ],
+      "answers": [
+        "Ich gehe jeden Tag spazieren."
+      ],
+      "explanation": "**Why:** der Tag → jeden (accusative).\n\n*Warum:* der Tag → jeden (Akkusativ)."
+    },
+    {
+      "id": "tb1-u32-l25-artikelw-p1-ex09",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Every week I have two classes.",
+      "tiles": [
+        "hast",
+        "Jede",
+        "Woche",
+        "zwei",
+        "habe",
+        "Kurse",
+        "für",
+        "ich",
+        "→"
+      ],
+      "answers": [
+        "Jede Woche habe ich zwei Kurse."
+      ],
+      "explanation": "**Why:** die Woche → jede.\n\n*Warum:* die Woche → jede."
+    },
+    {
+      "id": "tb1-u32-l25-artikelw-p1-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Every child gets a present.",
+      "tiles": [
+        "Testlücke-Stil",
+        "Das",
+        "Kind",
+        "den",
+        "Geschenk",
+        "bekommt",
+        "ein",
+        "Jedes"
+      ],
+      "answers": [
+        "Jedes Kind bekommt ein Geschenk."
+      ],
+      "explanation": "**Why:** das Kind → jedes; verb in singular.\n\n*Warum:* das Kind → jedes; Verb im Singular."
+    },
+    {
+      "id": "tb1-u32-l25-artikelw-p1-ex11",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "All the children get a present.",
+      "tiles": [
+        "Alle",
+        "bekommen",
+        "besser",
+        "gehe",
+        "du",
+        "ein",
+        "Kinder",
+        "Geschenk"
+      ],
+      "answers": [
+        "Alle Kinder bekommen ein Geschenk."
+      ],
+      "explanation": "**Why:** Plural → alle; verb in plural.\n\n*Warum:* Plural → alle; Verb im Plural."
+    },
+    {
+      "id": "tb1-u32-l25-artikelw-p1-ex12",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Everybody knows that!",
+      "tiles": [
+        "jeder",
+        "Zug",
+        "weiß",
+        "doch",
+        "für",
+        "Wohnung",
+        "Das"
+      ],
+      "answers": [
+        "Das weiß doch jeder!"
+      ],
+      "explanation": "**Why:** jeder alone = every person.\n\n*Warum:* jeder allein = jede Person."
+    },
+    {
+      "id": "tb1-u32-l25-artikelw-p1-ex13",
+      "type": "choice",
+      "title": "Fill the gap",
+      "prompt": "In ___ Zimmer gibt es kostenloses WLAN.",
+      "options": [
+        {
+          "id": "a",
+          "text": "jedes"
+        },
+        {
+          "id": "b",
+          "text": "jedem"
+        },
+        {
+          "id": "c",
+          "text": "jeden"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "in + Dativ (Wo?), neutral → in jedem Zimmer."
+    },
+    {
+      "id": "tb1-u32-l25-artikelw-p1-ex14",
+      "type": "choice",
+      "title": "Fill the gap",
+      "prompt": "___ Schüler bekommt ein eigenes Buch.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Jeden"
+        },
+        {
+          "id": "b",
+          "text": "Jede"
+        },
+        {
+          "id": "c",
+          "text": "Jeder"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Subjekt, maskulin Nominativ → jeder Schüler (+ Verb Singular)."
+    }
+  ]
+}

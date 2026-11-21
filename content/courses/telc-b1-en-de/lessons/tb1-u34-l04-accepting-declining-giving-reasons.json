@@ -1,0 +1,352 @@
+{
+  "id": "tb1-u34-l04-accepting-declining-giving-reasons",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u34",
+  "title": "Letter toolkit: Accepting & declining & Giving reasons",
+  "tip": "Brief-Baukasten: ready-made building blocks for the telc letter.",
+  "exercises": [
+    {
+      "id": "tb1-u34-l04-accepting-declining-giving-reasons-ex01",
+      "type": "explain",
+      "title": "Accepting & declining (Zu- & absagen)",
+      "body": "ALWAYS give a reason when you decline (weil/da). Without a reason you lose criterion II.\n\n*Deutsch:* Absage IMMER mit Grund (weil/da). Ohne Grund verlierst du Kriterium II.\n\n- **Ich komme sehr gern! / Ich nehme die Einladung gern an.** = I'd love to come! / I gladly accept the invitation.\n- **Leider muss ich absagen, weil …** = Unfortunately I have to decline because …\n- **Schade, dass es diesmal nicht klappt. Können wir es verschieben?** = A pity it won't work this time. Can we postpone it?",
+      "examples": [
+        {
+          "learning": "Ich komme sehr gern! / Ich nehme die Einladung gern an.",
+          "known": "I'd love to come! / I gladly accept the invitation."
+        },
+        {
+          "learning": "Leider muss ich absagen, weil …",
+          "known": "Unfortunately I have to decline because …"
+        },
+        {
+          "learning": "Schade, dass es diesmal nicht klappt. Können wir es verschieben?",
+          "known": "A pity it won't work this time. Can we postpone it?"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u34-l04-accepting-declining-giving-reasons-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which phrase means „I'd love to come! / I gladly accept the invitation.“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Entschuldige bitte, dass ich erst jetzt antworte."
+        },
+        {
+          "id": "b",
+          "text": "Liebe Anna, / Lieber Omar,"
+        },
+        {
+          "id": "c",
+          "text": "Vielen Dank im Voraus für Ihre Mühe."
+        },
+        {
+          "id": "d",
+          "text": "Ich komme sehr gern! / Ich nehme die Einladung gern an."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**Ich komme sehr gern! / Ich nehme die Einladung gern an.** = I'd love to come! / I gladly accept the invitation."
+    },
+    {
+      "id": "tb1-u34-l04-accepting-declining-giving-reasons-ex03",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u34-l04-accepting-declining-giving-reasons-1.mp3"
+      },
+      "tiles": [
+        "Und",
+        "gern",
+        "Anna",
+        "Ich",
+        "sehr",
+        "komme",
+        "kommst"
+      ],
+      "answers": [
+        "Ich komme sehr gern!"
+      ],
+      "explanation": "**Ich komme sehr gern! / Ich nehme die Einladung gern an.** = I'd love to come! / I gladly accept the invitation."
+    },
+    {
+      "id": "tb1-u34-l04-accepting-declining-giving-reasons-ex04",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u34-l04-accepting-declining-giving-reasons-2.mp3"
+      },
+      "tiles": [
+        "gern",
+        "die",
+        "an",
+        "Einladung",
+        "Antwort",
+        "mit",
+        "passt",
+        "nehme",
+        "Ich"
+      ],
+      "answers": [
+        "Ich nehme die Einladung gern an."
+      ],
+      "explanation": "**Ich komme sehr gern! / Ich nehme die Einladung gern an.** = I'd love to come! / I gladly accept the invitation."
+    },
+    {
+      "id": "tb1-u34-l04-accepting-declining-giving-reasons-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which phrase means „Unfortunately I have to decline because …“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Leider muss ich absagen, weil …"
+        },
+        {
+          "id": "b",
+          "text": "Vielen Dank für deine/Ihre E-Mail."
+        },
+        {
+          "id": "c",
+          "text": "Hallo Sarah,"
+        },
+        {
+          "id": "d",
+          "text": "Ich komme sehr gern! / Ich nehme die Einladung gern an."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Leider muss ich absagen, weil …** = Unfortunately I have to decline because …\n\n*Grammar:* Subordinate Clauses: weil, dass, wenn, obwohl …"
+    },
+    {
+      "id": "tb1-u34-l04-accepting-declining-giving-reasons-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Unfortunately I have to decline because …",
+      "tiles": [
+        "ich",
+        "absagen",
+        "lernst",
+        "repariert",
+        "weil",
+        "am",
+        "muss",
+        "Leider"
+      ],
+      "answers": [
+        "Leider muss ich absagen, weil …"
+      ],
+      "explanation": "**Leider muss ich absagen, weil …** = Unfortunately I have to decline because …\n\n*Grammar:* Subordinate Clauses: weil, dass, wenn, obwohl …"
+    },
+    {
+      "id": "tb1-u34-l04-accepting-declining-giving-reasons-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which phrase means „A pity it won't work this time. Can we postpone it?“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Sehr geehrte Frau Weber, / Sehr geehrter Herr Klein,"
+        },
+        {
+          "id": "b",
+          "text": "Ich komme sehr gern! / Ich nehme die Einladung gern an."
+        },
+        {
+          "id": "c",
+          "text": "Schade, dass es diesmal nicht klappt. Können wir es verschieben?"
+        },
+        {
+          "id": "d",
+          "text": "Sehr geehrte Damen und Herren,"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**Schade, dass es diesmal nicht klappt. Können wir es verschieben?** = A pity it won't work this time. Can we postpone it?\n\n*Grammar:* Subordinate Clauses: weil, dass, wenn, obwohl …"
+    },
+    {
+      "id": "tb1-u34-l04-accepting-declining-giving-reasons-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "A pity it won't work this time. Can we postpone it?",
+      "tiles": [
+        "meiner",
+        "es",
+        "diesmal",
+        "wir",
+        "es",
+        "Ich",
+        "Schade",
+        "verschieben",
+        "leider",
+        "Können",
+        "nicht",
+        "klappt",
+        "dass"
+      ],
+      "answers": [
+        "Schade, dass es diesmal nicht klappt. Können wir es verschieben?"
+      ],
+      "explanation": "**Schade, dass es diesmal nicht klappt. Können wir es verschieben?** = A pity it won't work this time. Can we postpone it?\n\n*Grammar:* Subordinate Clauses: weil, dass, wenn, obwohl …"
+    },
+    {
+      "id": "tb1-u34-l04-accepting-declining-giving-reasons-ex09",
+      "type": "explain",
+      "title": "Giving reasons (Grund nennen)",
+      "body": "weil (subordinate clause), deshalb (main clause + inversion) or wegen + genitive: alternate them!\n\n*Deutsch:* weil (Nebensatz), deshalb (Hauptsatz + Inversion) oder wegen + Genitiv, abwechseln!\n\n- **…, weil ich an diesem Tag arbeiten muss.** = … because I have to work that day.\n- **Deshalb kann ich leider nicht teilnehmen.** = That's why I unfortunately can't take part.\n- **Wegen der Arbeit habe ich zurzeit wenig Zeit.** = Because of work I have little time at the moment.",
+      "examples": [
+        {
+          "learning": "…, weil ich an diesem Tag arbeiten muss.",
+          "known": "… because I have to work that day."
+        },
+        {
+          "learning": "Deshalb kann ich leider nicht teilnehmen.",
+          "known": "That's why I unfortunately can't take part."
+        },
+        {
+          "learning": "Wegen der Arbeit habe ich zurzeit wenig Zeit.",
+          "known": "Because of work I have little time at the moment."
+        }
+      ]
+    },
+    {
+      "id": "tb1-u34-l04-accepting-declining-giving-reasons-ex10",
+      "type": "multiple_choice",
+      "prompt": "Which phrase means „… because I have to work that day.“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Sehr geehrte Damen und Herren,"
+        },
+        {
+          "id": "b",
+          "text": "Ich habe mich sehr über deine Nachricht gefreut."
+        },
+        {
+          "id": "c",
+          "text": "Vielen Dank für deine/Ihre E-Mail."
+        },
+        {
+          "id": "d",
+          "text": "…, weil ich an diesem Tag arbeiten muss."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**…, weil ich an diesem Tag arbeiten muss.** = … because I have to work that day.\n\n*Grammar:* Subordinate Clauses: weil, dass, wenn, obwohl …"
+    },
+    {
+      "id": "tb1-u34-l04-accepting-declining-giving-reasons-ex11",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "… because I have to work that day.",
+      "tiles": [
+        "am",
+        "Tag",
+        "an",
+        "so",
+        "treffen",
+        "arbeiten",
+        "ich",
+        "diesem",
+        "muss",
+        "weil"
+      ],
+      "answers": [
+        "…, weil ich an diesem Tag arbeiten muss."
+      ],
+      "explanation": "**…, weil ich an diesem Tag arbeiten muss.** = … because I have to work that day.\n\n*Grammar:* Subordinate Clauses: weil, dass, wenn, obwohl …"
+    },
+    {
+      "id": "tb1-u34-l04-accepting-declining-giving-reasons-ex12",
+      "type": "multiple_choice",
+      "prompt": "Which phrase means „That's why I unfortunately can't take part.“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ich schreibe Ihnen, weil …"
+        },
+        {
+          "id": "b",
+          "text": "Vielen Dank für deine/Ihre E-Mail."
+        },
+        {
+          "id": "c",
+          "text": "Deshalb kann ich leider nicht teilnehmen."
+        },
+        {
+          "id": "d",
+          "text": "Sehr geehrte Damen und Herren,"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**Deshalb kann ich leider nicht teilnehmen.** = That's why I unfortunately can't take part.\n\n*Grammar:* Connectors: aber/denn vs. deshalb/trotzdem"
+    },
+    {
+      "id": "tb1-u34-l04-accepting-declining-giving-reasons-ex13",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "That's why I unfortunately can't take part.",
+      "tiles": [
+        "teilnehmen",
+        "weil",
+        "ich",
+        "Deshalb",
+        "könnten",
+        "nicht",
+        "kann",
+        "leider",
+        "koche"
+      ],
+      "answers": [
+        "Deshalb kann ich leider nicht teilnehmen."
+      ],
+      "explanation": "**Deshalb kann ich leider nicht teilnehmen.** = That's why I unfortunately can't take part.\n\n*Grammar:* Connectors: aber/denn vs. deshalb/trotzdem"
+    },
+    {
+      "id": "tb1-u34-l04-accepting-declining-giving-reasons-ex14",
+      "type": "multiple_choice",
+      "prompt": "Which phrase means „Because of work I have little time at the moment.“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Sehr geehrte Frau Weber, / Sehr geehrter Herr Klein,"
+        },
+        {
+          "id": "b",
+          "text": "Vielen Dank im Voraus für Ihre Mühe."
+        },
+        {
+          "id": "c",
+          "text": "Ich habe mich sehr über deine Nachricht gefreut."
+        },
+        {
+          "id": "d",
+          "text": "Wegen der Arbeit habe ich zurzeit wenig Zeit."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**Wegen der Arbeit habe ich zurzeit wenig Zeit.** = Because of work I have little time at the moment.\n\n*Grammar:* wegen, trotz, während + Genitive"
+    },
+    {
+      "id": "tb1-u34-l04-accepting-declining-giving-reasons-ex15",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Because of work I have little time at the moment.",
+      "tiles": [
+        "einfach",
+        "heiße",
+        "habe",
+        "ich",
+        "Arbeit",
+        "würde",
+        "wenig",
+        "zurzeit",
+        "der",
+        "Zeit",
+        "Wegen"
+      ],
+      "answers": [
+        "Wegen der Arbeit habe ich zurzeit wenig Zeit."
+      ],
+      "explanation": "**Wegen der Arbeit habe ich zurzeit wenig Zeit.** = Because of work I have little time at the moment.\n\n*Grammar:* wegen, trotz, während + Genitive"
+    }
+  ]
+}

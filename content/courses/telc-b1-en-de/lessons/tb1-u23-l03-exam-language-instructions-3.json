@@ -1,0 +1,289 @@
+{
+  "id": "tb1-u23-l03-exam-language-instructions-3",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u23",
+  "title": "Exam Language & Instructions 3",
+  "tip": "Theme: Prüfungssprache & Aufgaben (B1)",
+  "exercises": [
+    {
+      "id": "tb1-u23-l03-exam-language-instructions-3-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "die Anzeige",
+          "known": "advertisement / notice"
+        },
+        {
+          "id": "p2",
+          "learning": "die Aussage",
+          "known": "statement"
+        },
+        {
+          "id": "p3",
+          "learning": "die Lücke",
+          "known": "gap / blank"
+        },
+        {
+          "id": "p4",
+          "learning": "die Reihenfolge",
+          "known": "order / sequence"
+        },
+        {
+          "id": "p5",
+          "learning": "die Aufgabenstellung",
+          "known": "task instructions"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u23-l03-exam-language-instructions-3-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „advertisement / notice“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "der Familienname, die Familiennamen"
+        },
+        {
+          "id": "b",
+          "text": "die Anzeige, die Anzeigen"
+        },
+        {
+          "id": "c",
+          "text": "die Tabelle, die Tabellen"
+        },
+        {
+          "id": "d",
+          "text": "der Gesprächspartner, die Gesprächspartner"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**die Anzeige** = advertisement / notice\n*Plural: die Anzeigen*\n\n*Example:* Ich habe meine Wohnung über eine Anzeige im Internet gefunden.\nI found my flat through an advert online."
+    },
+    {
+      "id": "tb1-u23-l03-exam-language-instructions-3-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „statement“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Dauer"
+        },
+        {
+          "id": "b",
+          "text": "der Schluss, die Schlüsse"
+        },
+        {
+          "id": "c",
+          "text": "die Tabelle, die Tabellen"
+        },
+        {
+          "id": "d",
+          "text": "die Aussage, die Aussagen"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**die Aussage** = statement\n*Plural: die Aussagen*\n\n*Example:* Die Aussage des Zeugen war für die Polizei sehr wichtig.\nThe witness's statement was very important for the police."
+    },
+    {
+      "id": "tb1-u23-l03-exam-language-instructions-3-ex04",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u23-l03-exam-language-instructions-3-1.mp3"
+      },
+      "tiles": [
+        "meine",
+        "Internet",
+        "Formular",
+        "gefunden",
+        "und",
+        "Ich",
+        "eine",
+        "Anzeige",
+        "Wohnung",
+        "über",
+        "neue",
+        "habe",
+        "im"
+      ],
+      "answers": [
+        "Ich habe meine Wohnung über eine Anzeige im Internet gefunden."
+      ],
+      "explanation": "Ich habe meine Wohnung über eine Anzeige im Internet gefunden.\n*I found my flat through an advert online.*\n\n**die Anzeige** = advertisement / notice\n*Plural: die Anzeigen*"
+    },
+    {
+      "id": "tb1-u23-l03-exam-language-instructions-3-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „gap / blank“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "der Schluss, die Schlüsse"
+        },
+        {
+          "id": "b",
+          "text": "die Lücke, die Lücken"
+        },
+        {
+          "id": "c",
+          "text": "die Nummer, die Nummern"
+        },
+        {
+          "id": "d",
+          "text": "die Anzeige, die Anzeigen"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**die Lücke** = gap / blank\n*Plural: die Lücken*\n\n*Example:* Im Bücherregal ist noch eine Lücke für das neue Buch.\nThere's still a gap on the bookshelf for the new book."
+    },
+    {
+      "id": "tb1-u23-l03-exam-language-instructions-3-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Die Aussage des Zeugen war für die Polizei sehr wichtig.",
+      "tiles": [
+        "important",
+        "was",
+        "tickets",
+        "police",
+        "The",
+        "for",
+        "how",
+        "spreadsheet",
+        "witness's",
+        "very",
+        "the",
+        "statement"
+      ],
+      "answers": [
+        "The witness's statement was very important for the police."
+      ],
+      "explanation": "**die Aussage** = statement\n*Plural: die Aussagen*"
+    },
+    {
+      "id": "tb1-u23-l03-exam-language-instructions-3-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „order / sequence“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "das Geschlecht, die Geschlechter"
+        },
+        {
+          "id": "b",
+          "text": "der Vorname, die Vornamen"
+        },
+        {
+          "id": "c",
+          "text": "die Anzeige, die Anzeigen"
+        },
+        {
+          "id": "d",
+          "text": "die Reihenfolge, die Reihenfolgen"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**die Reihenfolge** = order / sequence\n*Plural: die Reihenfolgen*\n\n*Example:* Bitte bringen Sie die Bilder in die richtige Reihenfolge.\nPlease put the pictures in the right order."
+    },
+    {
+      "id": "tb1-u23-l03-exam-language-instructions-3-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "There's still a gap on the bookshelf for the new book.",
+      "tiles": [
+        "ist",
+        "für",
+        "Ich",
+        "Lücke",
+        "Bücherregal",
+        "neue",
+        "Buch",
+        "man",
+        "das",
+        "Im",
+        "Vor",
+        "noch",
+        "eine"
+      ],
+      "answers": [
+        "Im Bücherregal ist noch eine Lücke für das neue Buch."
+      ],
+      "explanation": "**die Lücke** = gap / blank\n*Plural: die Lücken*"
+    },
+    {
+      "id": "tb1-u23-l03-exam-language-instructions-3-ex09",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „task instructions“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Aufgabenstellung, die Aufgabenstellungen"
+        },
+        {
+          "id": "b",
+          "text": "die Dauer"
+        },
+        {
+          "id": "c",
+          "text": "die Bewertung, die Bewertungen"
+        },
+        {
+          "id": "d",
+          "text": "die Abbildung, die Abbildungen"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**die Aufgabenstellung** = task instructions\n*Plural: die Aufgabenstellungen*\n\n*Example:* Anna liest die Aufgabenstellung zweimal, bevor sie anfängt.\nAnna reads the task instructions twice before she starts."
+    },
+    {
+      "id": "tb1-u23-l03-exam-language-instructions-3-ex10",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u23-l03-exam-language-instructions-3-4.mp3"
+      },
+      "tiles": [
+        "Bilder",
+        "fahren",
+        "in",
+        "die",
+        "geehrte",
+        "richtige",
+        "bringen",
+        "Reihenfolge",
+        "die",
+        "Bitte",
+        "Sie",
+        "Bürgeramt"
+      ],
+      "answers": [
+        "Bitte bringen Sie die Bilder in die richtige Reihenfolge."
+      ],
+      "explanation": "Bitte bringen Sie die Bilder in die richtige Reihenfolge.\n*Please put the pictures in the right order.*\n\n**die Reihenfolge** = order / sequence\n*Plural: die Reihenfolgen*"
+    },
+    {
+      "id": "tb1-u23-l03-exam-language-instructions-3-ex11",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Anna liest die Aufgabenstellung zweimal, bevor sie anfängt.",
+      "tiles": [
+        "before",
+        "always",
+        "match",
+        "Anna",
+        "she",
+        "instructions",
+        "the",
+        "Maria",
+        "task",
+        "starts",
+        "reads",
+        "twice"
+      ],
+      "answers": [
+        "Anna reads the task instructions twice before she starts."
+      ],
+      "explanation": "**die Aufgabenstellung** = task instructions\n*Plural: die Aufgabenstellungen*"
+    }
+  ]
+}

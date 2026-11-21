@@ -1,0 +1,289 @@
+{
+  "id": "tb1-u15-l06-shopping-complaints-1",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u15",
+  "title": "Shopping & Complaints 1",
+  "tip": "Theme: Einkaufen / Konsum / Reklamation (B1)",
+  "exercises": [
+    {
+      "id": "tb1-u15-l06-shopping-complaints-1-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "das Geschäft",
+          "known": "shop"
+        },
+        {
+          "id": "p2",
+          "learning": "das Kaufhaus",
+          "known": "department store"
+        },
+        {
+          "id": "p3",
+          "learning": "der Kunde",
+          "known": "customer"
+        },
+        {
+          "id": "p4",
+          "learning": "der Verkäufer",
+          "known": "sales assistant"
+        },
+        {
+          "id": "p5",
+          "learning": "das Angebot",
+          "known": "offer"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u15-l06-shopping-complaints-1-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „shop“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "das Geschäft, die Geschäfte · der Laden, die Läden"
+        },
+        {
+          "id": "b",
+          "text": "die Rechnung, die Rechnungen"
+        },
+        {
+          "id": "c",
+          "text": "der Verkäufer, die Verkäufer / die Verkäuferin, die Verkäuferinnen"
+        },
+        {
+          "id": "d",
+          "text": "das Kaufhaus, die Kaufhäuser · der Supermarkt, die Supermärkte"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**das Geschäft** = shop\n*Plural: die Geschäfte · also: der Laden, die Läden*\n\n*Example:* Die Geschäfte in der Innenstadt öffnen erst um zehn Uhr.\nThe shops in the city centre don't open until ten o'clock."
+    },
+    {
+      "id": "tb1-u15-l06-shopping-complaints-1-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „department store · supermarket“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "das Kaufhaus, die Kaufhäuser · der Supermarkt, die Supermärkte"
+        },
+        {
+          "id": "b",
+          "text": "der Verkäufer, die Verkäufer / die Verkäuferin, die Verkäuferinnen"
+        },
+        {
+          "id": "c",
+          "text": "die Größe, die Größen: anprobieren"
+        },
+        {
+          "id": "d",
+          "text": "die Rechnung, die Rechnungen"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**das Kaufhaus** = department store · supermarket\n*Plural: die Kaufhäuser · also: der Supermarkt, die Supermärkte*\n\n*Example:* Im Kaufhaus kaufe ich Kleidung, und Lebensmittel kaufe ich im Supermarkt.\nI buy clothes at the department store and food at the supermarket."
+    },
+    {
+      "id": "tb1-u15-l06-shopping-complaints-1-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Die Geschäfte in der Innenstadt öffnen erst um zehn Uhr.",
+      "tiles": [
+        "centre",
+        "the",
+        "are",
+        "laptop",
+        "in",
+        "open",
+        "The",
+        "until",
+        "trousers",
+        "ten",
+        "don't",
+        "o'clock",
+        "shops",
+        "city"
+      ],
+      "answers": [
+        "The shops in the city centre don't open until ten o'clock."
+      ],
+      "explanation": "**das Geschäft** = shop\n*Plural: die Geschäfte · also: der Laden, die Läden*"
+    },
+    {
+      "id": "tb1-u15-l06-shopping-complaints-1-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „customer“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Größe, die Größen: anprobieren"
+        },
+        {
+          "id": "b",
+          "text": "der Kunde, die Kunden (n-Dekl.) / die Kundin, die Kundinnen"
+        },
+        {
+          "id": "c",
+          "text": "der Kassenbon, die Kassenbons · die Quittung, die Quittungen"
+        },
+        {
+          "id": "d",
+          "text": "die Kasse, die Kassen: bar ↔ mit Karte zahlen"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**der Kunde, die Kunden (n-Dekl.) / die Kundin, die Kundinnen** = customer\n\n*Example:* Die Verkäuferin ist sehr freundlich zu allen Kunden.\nThe sales assistant is very friendly to all the customers."
+    },
+    {
+      "id": "tb1-u15-l06-shopping-complaints-1-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I buy clothes at the department store and food at the supermarket.",
+      "tiles": [
+        "eine",
+        "Kleidung",
+        "ich",
+        "Supermarkt",
+        "Kaufhaus",
+        "Im",
+        "Lebensmittel",
+        "und",
+        "kaufe",
+        "sich",
+        "ich",
+        "kaufe",
+        "im",
+        "öffnen"
+      ],
+      "answers": [
+        "Im Kaufhaus kaufe ich Kleidung, und Lebensmittel kaufe ich im Supermarkt."
+      ],
+      "explanation": "**das Kaufhaus** = department store · supermarket\n*Plural: die Kaufhäuser · also: der Supermarkt, die Supermärkte*"
+    },
+    {
+      "id": "tb1-u15-l06-shopping-complaints-1-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „sales assistant“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "der Preis, die Preise: günstig/preiswert ↔ teuer"
+        },
+        {
+          "id": "b",
+          "text": "das Kaufhaus, die Kaufhäuser · der Supermarkt, die Supermärkte"
+        },
+        {
+          "id": "c",
+          "text": "der Verkäufer, die Verkäufer / die Verkäuferin, die Verkäuferinnen"
+        },
+        {
+          "id": "d",
+          "text": "der Kunde, die Kunden (n-Dekl.) / die Kundin, die Kundinnen"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**der Verkäufer, die Verkäufer / die Verkäuferin, die Verkäuferinnen** = sales assistant\n\n*Example:* Der Verkäufer hat mir eine passende Jacke gezeigt.\nThe sales assistant showed me a jacket that fit."
+    },
+    {
+      "id": "tb1-u15-l06-shopping-complaints-1-ex08",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u15-l06-shopping-complaints-1-3.mp3"
+      },
+      "tiles": [
+        "Kunden",
+        "Lebensmittel",
+        "Verkäuferin",
+        "freundlich",
+        "nicht",
+        "sehr",
+        "allen",
+        "Die",
+        "zu",
+        "ist",
+        "günstiges"
+      ],
+      "answers": [
+        "Die Verkäuferin ist sehr freundlich zu allen Kunden."
+      ],
+      "explanation": "Die Verkäuferin ist sehr freundlich zu allen Kunden.\n*The sales assistant is very friendly to all the customers.*\n\n**der Kunde, die Kunden (n-Dekl.) / die Kundin, die Kundinnen** = customer"
+    },
+    {
+      "id": "tb1-u15-l06-shopping-complaints-1-ex09",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „offer: to be on special offer“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "der Verkäufer, die Verkäufer / die Verkäuferin, die Verkäuferinnen"
+        },
+        {
+          "id": "b",
+          "text": "die Garantie, die Garantien"
+        },
+        {
+          "id": "c",
+          "text": "das Angebot, die Angebote: im Angebot sein"
+        },
+        {
+          "id": "d",
+          "text": "der Kunde, die Kunden (n-Dekl.) / die Kundin, die Kundinnen"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**das Angebot** = offer: to be on special offer\n*Plural: die Angebote: im Angebot sein*\n\n*Example:* Diese Woche ist der Kaffee im Supermarkt im Angebot.\nThis week the coffee at the supermarket is on special offer."
+    },
+    {
+      "id": "tb1-u15-l06-shopping-complaints-1-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Der Verkäufer hat mir eine passende Jacke gezeigt.",
+      "tiles": [
+        "sales",
+        "assistant",
+        "The",
+        "fit",
+        "for",
+        "showed",
+        "me",
+        "offer",
+        "that",
+        "jacket",
+        "are",
+        "a"
+      ],
+      "answers": [
+        "The sales assistant showed me a jacket that fit."
+      ],
+      "explanation": "**der Verkäufer, die Verkäufer / die Verkäuferin, die Verkäuferinnen** = sales assistant"
+    },
+    {
+      "id": "tb1-u15-l06-shopping-complaints-1-ex11",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "This week the coffee at the supermarket is on special offer.",
+      "tiles": [
+        "im",
+        "Supermarkt",
+        "Woche",
+        "Angebot",
+        "Kaffee",
+        "ich",
+        "Diese",
+        "Hose",
+        "der",
+        "im",
+        "erst",
+        "ist"
+      ],
+      "answers": [
+        "Diese Woche ist der Kaffee im Supermarkt im Angebot."
+      ],
+      "explanation": "**das Angebot** = offer: to be on special offer\n*Plural: die Angebote: im Angebot sein*"
+    }
+  ]
+}

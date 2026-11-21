@@ -1,0 +1,244 @@
+{
+  "id": "tb1-u18-l03-future-plans-wishes-3",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u18",
+  "title": "Future Plans & Wishes 3",
+  "tip": "Theme: Zukunftspläne / Wünsche (B1)",
+  "exercises": [
+    {
+      "id": "tb1-u18-l03-future-plans-wishes-3-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "der Traum",
+          "known": "dream"
+        },
+        {
+          "id": "p2",
+          "learning": "hoffen auf die Hoffnung, die Hoffnungen",
+          "known": "to hope for"
+        },
+        {
+          "id": "p3",
+          "learning": "klappen. Ich hoffe, es klappt",
+          "known": "to work out. I hope it works out."
+        },
+        {
+          "id": "p4",
+          "learning": "die Zukunft",
+          "known": "future"
+        },
+        {
+          "id": "p5",
+          "learning": "der Plan",
+          "known": "plan"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u18-l03-future-plans-wishes-3-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „dream: to dream of“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Zukunft (nur Sg.), in Zukunft"
+        },
+        {
+          "id": "b",
+          "text": "der Plan, die Pläne: planen"
+        },
+        {
+          "id": "c",
+          "text": "die Entscheidung, die Entscheidungen, eine Entscheidung treffen"
+        },
+        {
+          "id": "d",
+          "text": "der Traum, die Träume, träumen von + Dat."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**der Traum, die Träume, träumen von + Dat.** = dream: to dream of\n\n*Example:* Mein Kollege träumt von einem eigenen Restaurant.\nMy colleague dreams of having his own restaurant."
+    },
+    {
+      "id": "tb1-u18-l03-future-plans-wishes-3-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which one means „to hope for: hope“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "hoffen auf + Akk. die Hoffnung, die Hoffnungen"
+        },
+        {
+          "id": "b",
+          "text": "klappen. Ich hoffe, es klappt."
+        },
+        {
+          "id": "c",
+          "text": "wahrscheinlich · bestimmt · vielleicht"
+        },
+        {
+          "id": "d",
+          "text": "Erfahrungen sammeln: die Erfahrung, die Erfahrungen"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**hoffen auf + Akk. die Hoffnung, die Hoffnungen** = to hope for: hope\n\n*Example:* Die Bauern hoffen auf besseres Wetter im Sommer.\nThe farmers are hoping for better weather in summer."
+    },
+    {
+      "id": "tb1-u18-l03-future-plans-wishes-3-ex04",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u18-l03-future-plans-wishes-3-1.mp3"
+      },
+      "tiles": [
+        "von",
+        "Kollege",
+        "sammeln",
+        "eine",
+        "träumt",
+        "eigenen",
+        "sein",
+        "Restaurant",
+        "einem",
+        "Mein"
+      ],
+      "answers": [
+        "Mein Kollege träumt von einem eigenen Restaurant."
+      ],
+      "explanation": "Mein Kollege träumt von einem eigenen Restaurant.\n*My colleague dreams of having his own restaurant.*\n\n**der Traum, die Träume, träumen von + Dat.** = dream: to dream of"
+    },
+    {
+      "id": "tb1-u18-l03-future-plans-wishes-3-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which verb means „to imagine, ⚠ sich vorstellen (Akk.) = to introduce yourself“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "sich (Dat.) vorstellen. Ich kann mir gut vorstellen, dass …"
+        },
+        {
+          "id": "b",
+          "text": "schaffen (hat geschafft). Ich schaffe das."
+        },
+        {
+          "id": "c",
+          "text": "sich verbessern"
+        },
+        {
+          "id": "d",
+          "text": "sich vorbereiten auf + Akk."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**sich (Dat.) vorstellen. Ich kann mir gut vorstellen, dass …** = to imagine, ⚠ sich vorstellen (Akk.) = to introduce yourself\n\n*Example:* Ich kann mir gut vorstellen, dass ich später in Hamburg lebe.\nI can easily imagine living in Hamburg later on."
+    },
+    {
+      "id": "tb1-u18-l03-future-plans-wishes-3-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Die Bauern hoffen auf besseres Wetter im Sommer.",
+      "tiles": [
+        "are",
+        "better",
+        "weather",
+        "farmers",
+        "summer",
+        "tomorrow",
+        "lot",
+        "My",
+        "hoping",
+        "for",
+        "The",
+        "in"
+      ],
+      "answers": [
+        "The farmers are hoping for better weather in summer."
+      ],
+      "explanation": "**hoffen auf + Akk. die Hoffnung, die Hoffnungen** = to hope for: hope"
+    },
+    {
+      "id": "tb1-u18-l03-future-plans-wishes-3-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which one means „to work out. I hope it works out.“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Erfahrungen sammeln: die Erfahrung, die Erfahrungen"
+        },
+        {
+          "id": "b",
+          "text": "wahrscheinlich · bestimmt · vielleicht"
+        },
+        {
+          "id": "c",
+          "text": "klappen. Ich hoffe, es klappt."
+        },
+        {
+          "id": "d",
+          "text": "aufhören mit + Dat. ↔ weitermachen"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**klappen. Ich hoffe, es klappt.** = to work out. I hope it works out.\n\n*Example:* Morgen habe ich einen Termin bei der Bank. Ich hoffe, es klappt mit dem Kredit.\nI have an appointment at the bank tomorrow. I hope the loan works out."
+    },
+    {
+      "id": "tb1-u18-l03-future-plans-wishes-3-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I can easily imagine living in Hamburg later on.",
+      "tiles": [
+        "ich",
+        "mir",
+        "für",
+        "in",
+        "Hamburg",
+        "kann",
+        "Ich",
+        "lebe",
+        "dass",
+        "neues",
+        "gut",
+        "später",
+        "vorstellen",
+        "Im"
+      ],
+      "answers": [
+        "Ich kann mir gut vorstellen, dass ich später in Hamburg lebe."
+      ],
+      "explanation": "**sich (Dat.) vorstellen. Ich kann mir gut vorstellen, dass …** = to imagine, ⚠ sich vorstellen (Akk.) = to introduce yourself"
+    },
+    {
+      "id": "tb1-u18-l03-future-plans-wishes-3-ex09",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u18-l03-future-plans-wishes-3-4.mp3"
+      },
+      "tiles": [
+        "Kredit",
+        "klappt",
+        "es",
+        "der",
+        "bei",
+        "mit",
+        "würde",
+        "habe",
+        "nach",
+        "Bank",
+        "dem",
+        "Ich",
+        "einen",
+        "Morgen",
+        "vielleicht",
+        "hoffe",
+        "Termin",
+        "ich"
+      ],
+      "answers": [
+        "Morgen habe ich einen Termin bei der Bank. Ich hoffe, es klappt mit dem Kredit."
+      ],
+      "explanation": "Morgen habe ich einen Termin bei der Bank. Ich hoffe, es klappt mit dem Kredit.\n*I have an appointment at the bank tomorrow. I hope the loan works out.*\n\n**klappen. Ich hoffe, es klappt.** = to work out. I hope it works out."
+    }
+  ]
+}

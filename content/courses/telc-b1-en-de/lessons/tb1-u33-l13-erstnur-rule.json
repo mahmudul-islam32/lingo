@@ -1,0 +1,129 @@
+{
+  "id": "tb1-u33-l13-erstnur-rule",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u33",
+  "title": "erst, nur, schon, noch, nicht mehr: the rule",
+  "tip": "erst ≠ nur: „erst 3 Kapitel“ = I keep reading · „nur 3 Kapitel“ = the book is short. In listening tasks exactly this difference decides true/false.",
+  "exercises": [
+    {
+      "id": "tb1-u33-l13-erstnur-rule-ex01",
+      "type": "explain",
+      "title": "erst, nur, schon, noch, nicht mehr",
+      "body": "**erst** = later/less than expected, still ongoing (Es ist erst 8 Uhr · erst seit einem Monat). **nur** = no more than that, full stop (nur 10 Euro). Pairs: **schon ↔ noch nicht** · **noch ↔ nicht mehr**.\n\n*Deutsch:* **erst** = später/weniger als erwartet, es geht weiter (Es ist erst 8 Uhr · erst seit einem Monat). **nur** = nicht mehr als das, Ende (nur 10 Euro). Paare: **schon ↔ noch nicht** · **noch ↔ nicht mehr**.\n\n*German name:* erst, nur, schon, noch, nicht mehr",
+      "examples": [
+        {
+          "learning": "Ich wohne erst seit drei Monaten in Deutschland.",
+          "known": "I've only lived in Germany for three months (so far)."
+        },
+        {
+          "learning": "Ich habe nur 20 Euro dabei.",
+          "known": "I only have 20 euros on me (that's all)."
+        },
+        {
+          "learning": "Bist du schon fertig? Nein, noch nicht.",
+          "known": "Already finished? No, not yet."
+        }
+      ]
+    },
+    {
+      "id": "tb1-u33-l13-erstnur-rule-ex02",
+      "type": "explain",
+      "title": "erst, nur, schon, noch, nicht mehr: step by step",
+      "body": "Four little words that flip statements:\n• **schon** = earlier/more than expected: Es ist schon 22 Uhr. Ich habe schon gegessen.\n• **erst** = later/less than expected + still ongoing: Der Film fängt erst um 21 Uhr an (not before!). Ich lerne erst seit einem Monat (short, but continuing).\n• **noch** = still ongoing: Er schläft noch. · **nicht mehr** = over: Er arbeitet nicht mehr hier.\n• **noch nicht** = will come later: Der Bus ist noch nicht da.\n**erst vs. nur**: erst 100 Wörter (I keep learning) · nur 100 Wörter (that's all there is). erst looks forward, nur closes the door.\n\n## Auf Deutsch\n\nVier kleine Wörter, die Aussagen umdrehen:\n• **schon** = früher/mehr als gedacht: Es ist schon 22 Uhr. Ich habe schon gegessen.\n• **erst** = später/weniger als gedacht + es geht weiter: Der Film fängt erst um 21 Uhr an (nicht vorher!). Ich lerne erst seit einem Monat (kurz, aber ich mache weiter).\n• **noch** = dauert an: Er schläft noch. · **nicht mehr** = vorbei: Er arbeitet nicht mehr hier.\n• **noch nicht** = kommt später: Der Bus ist noch nicht da.\n**erst vs. nur**: erst 100 Wörter (ich lerne weiter) · nur 100 Wörter (mehr sind es nicht). erst blickt nach vorn, nur schließt ab.",
+      "examples": [
+        {
+          "learning": "Ich wohne erst seit drei Monaten in Deutschland.",
+          "known": "I've only lived in Germany for three months (so far)."
+        },
+        {
+          "learning": "Ich habe nur 20 Euro dabei.",
+          "known": "I only have 20 euros on me (that's all)."
+        },
+        {
+          "learning": "Bist du schon fertig? Nein, noch nicht.",
+          "known": "Already finished? No, not yet."
+        },
+        {
+          "learning": "Herr Weber arbeitet nicht mehr bei uns.",
+          "known": "Mr Weber no longer works here. (classic listening trap!)"
+        },
+        {
+          "learning": "Testlücke-Stil: „Das Konzert fängt ___ um 21 Uhr an, wir haben Zeit.“ → erst",
+          "known": "later than assumed → erst"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u33-l13-erstnur-rule-ex03",
+      "type": "explain",
+      "title": "Watch out & exam tip",
+      "body": "## Common trap\n\nerst ≠ nur: „erst 3 Kapitel“ = I keep reading · „nur 3 Kapitel“ = the book is short. In listening tasks exactly this difference decides true/false.\n\n*Deutsch:* erst ≠ nur: „erst 3 Kapitel“ = ich lese weiter · „nur 3 Kapitel“ = das Buch ist kurz. In Hören-Aufgaben entscheidet genau dieser Unterschied über richtig/falsch.\n\n## In the exam\n\n🎯 How telc tests it: **listening** is full of these, „beginnt erst um…“, „arbeitet nicht mehr…“, „noch nicht geöffnet“ flip the true/false answer. **Sprachbausteine** offers erst/nur/noch/schon as options.\n\n*Deutsch:* 🎯 So testet telc das: **Hören** ist voll davon, „beginnt erst um…“, „arbeitet nicht mehr…“, „noch nicht geöffnet“ drehen die richtig/falsch-Antwort. **Sprachbausteine** bietet erst/nur/noch/schon als Optionen an.\n\n*Source:* Hörverstehen-Trainer (Trap-Katalog)"
+    },
+    {
+      "id": "tb1-u33-l13-erstnur-rule-ex04",
+      "type": "choice",
+      "title": "Fill the gap",
+      "prompt": "Es ist ___ 7 Uhr, wir haben noch viel Zeit.",
+      "options": [
+        {
+          "id": "a",
+          "text": "schon"
+        },
+        {
+          "id": "b",
+          "text": "erst"
+        },
+        {
+          "id": "c",
+          "text": "nur"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Weniger/früher als gedacht + es geht weiter → erst 7 Uhr."
+    },
+    {
+      "id": "tb1-u33-l13-erstnur-rule-ex05",
+      "type": "choice",
+      "title": "Fill the gap",
+      "prompt": "Ich habe ___ 5 Euro dabei, das reicht nicht fürs Kino.",
+      "options": [
+        {
+          "id": "a",
+          "text": "nur"
+        },
+        {
+          "id": "b",
+          "text": "noch"
+        },
+        {
+          "id": "c",
+          "text": "erst"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Nicht mehr als das, Punkt → nur. (erst würde bedeuten: es wird noch mehr)"
+    },
+    {
+      "id": "tb1-u33-l13-erstnur-rule-ex06",
+      "type": "choice",
+      "title": "Fill the gap",
+      "prompt": "Wohnt Herr Klein noch hier? Nein, ___.",
+      "options": [
+        {
+          "id": "a",
+          "text": "noch nicht"
+        },
+        {
+          "id": "b",
+          "text": "nicht mehr"
+        },
+        {
+          "id": "c",
+          "text": "nichts"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Es ist vorbei → nicht mehr. (noch nicht = es kommt erst)"
+    }
+  ]
+}

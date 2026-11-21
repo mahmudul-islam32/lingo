@@ -1,0 +1,130 @@
+{
+  "id": "tb1-u41-l04-teil2-mit-63-noch-einmal-an-die-uni",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u41",
+  "title": "Article 4: Mit 63 noch einmal an die Uni",
+  "tip": "Read the question first, then find the place in the text.",
+  "exercises": [
+    {
+      "id": "tb1-u41-l04-teil2-mit-63-noch-einmal-an-die-uni-ex01",
+      "type": "explain",
+      "title": "Teil 2 · Mit 63 noch einmal an die Uni",
+      "body": "**One article (Bildung) · 5 questions · a, b or c.** The questions follow the order of the text.\n\n- Read the question first, then find the matching place in the text.\n- The right answer usually says the same thing in **other words** (a paraphrase).\n- Watch the *Weltwissen-Falle*: an answer that sounds logical but is not in the text. Also watch answers that recycle a word from the text and turn it around."
+    },
+    {
+      "id": "tb1-u41-l04-teil2-mit-63-noch-einmal-an-die-uni-ex02",
+      "type": "choice",
+      "title": "Mit 63 noch einmal an die Uni · Frage 1",
+      "passage": "Peter Sommer ist 63 und studiert an der Universität, zusammen mit jungen Leuten. Nach seiner Pensionierung wollte er nicht nur zu Hause sitzen. Also schrieb er sich für Geschichte ein, ein Fach, das ihn schon immer interessiert hatte.\n\nAm Anfang war er nervös. „Ich dachte, ich bin zu alt und komme mit den Computern nicht zurecht“, erzählt er. Doch die jungen Studenten halfen ihm, und er fand sich schnell zurecht. Heute lernen sie manchmal zusammen.\n\nSommer muss keine Prüfungen schreiben, weil er nur zum Vergnügen studiert. Trotzdem geht er in fast jede Vorlesung. Er rät allen älteren Menschen, etwas Neues zu lernen: „Das hält den Kopf jung.“",
+      "prompt": "Warum begann Peter Sommer zu studieren?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Er brauchte einen Abschluss für einen neuen Job."
+        },
+        {
+          "id": "b",
+          "text": "Er wollte nach der Pensionierung aktiv bleiben."
+        },
+        {
+          "id": "c",
+          "text": "Seine Familie hat ihn dazu überredet."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Answer: B** „Er wollte nach der Pensionierung aktiv bleiben.“\n\n„wollte nicht nur zu Hause sitzen“."
+    },
+    {
+      "id": "tb1-u41-l04-teil2-mit-63-noch-einmal-an-die-uni-ex03",
+      "type": "choice",
+      "title": "Mit 63 noch einmal an die Uni · Frage 2",
+      "passage": "Peter Sommer ist 63 und studiert an der Universität, zusammen mit jungen Leuten. Nach seiner Pensionierung wollte er nicht nur zu Hause sitzen. Also schrieb er sich für Geschichte ein, ein Fach, das ihn schon immer interessiert hatte.\n\nAm Anfang war er nervös. „Ich dachte, ich bin zu alt und komme mit den Computern nicht zurecht“, erzählt er. Doch die jungen Studenten halfen ihm, und er fand sich schnell zurecht. Heute lernen sie manchmal zusammen.\n\nSommer muss keine Prüfungen schreiben, weil er nur zum Vergnügen studiert. Trotzdem geht er in fast jede Vorlesung. Er rät allen älteren Menschen, etwas Neues zu lernen: „Das hält den Kopf jung.“",
+      "prompt": "Was war für ihn am Anfang schwierig?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Er hatte kein Geld für das Studium."
+        },
+        {
+          "id": "b",
+          "text": "Er dachte, er sei zu alt und komme mit Computern nicht zurecht."
+        },
+        {
+          "id": "c",
+          "text": "Die Universität war zu weit entfernt."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Answer: B** „Er dachte, er sei zu alt und komme mit Computern nicht zurecht.“\n\ndirektes Zitat über Alter und Computer."
+    },
+    {
+      "id": "tb1-u41-l04-teil2-mit-63-noch-einmal-an-die-uni-ex04",
+      "type": "choice",
+      "title": "Mit 63 noch einmal an die Uni · Frage 3",
+      "passage": "Peter Sommer ist 63 und studiert an der Universität, zusammen mit jungen Leuten. Nach seiner Pensionierung wollte er nicht nur zu Hause sitzen. Also schrieb er sich für Geschichte ein, ein Fach, das ihn schon immer interessiert hatte.\n\nAm Anfang war er nervös. „Ich dachte, ich bin zu alt und komme mit den Computern nicht zurecht“, erzählt er. Doch die jungen Studenten halfen ihm, und er fand sich schnell zurecht. Heute lernen sie manchmal zusammen.\n\nSommer muss keine Prüfungen schreiben, weil er nur zum Vergnügen studiert. Trotzdem geht er in fast jede Vorlesung. Er rät allen älteren Menschen, etwas Neues zu lernen: „Das hält den Kopf jung.“",
+      "prompt": "Wie ist sein Verhältnis zu den jungen Studenten?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Sie helfen ihm, und manchmal lernen sie zusammen."
+        },
+        {
+          "id": "b",
+          "text": "Er hat keinen Kontakt zu ihnen."
+        },
+        {
+          "id": "c",
+          "text": "Sie ärgern sich über ihn."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Answer: A** „Sie helfen ihm, und manchmal lernen sie zusammen.“\n\n„Die jungen Studenten halfen ihm … lernen zusammen“."
+    },
+    {
+      "id": "tb1-u41-l04-teil2-mit-63-noch-einmal-an-die-uni-ex05",
+      "type": "choice",
+      "title": "Mit 63 noch einmal an die Uni · Frage 4",
+      "passage": "Peter Sommer ist 63 und studiert an der Universität, zusammen mit jungen Leuten. Nach seiner Pensionierung wollte er nicht nur zu Hause sitzen. Also schrieb er sich für Geschichte ein, ein Fach, das ihn schon immer interessiert hatte.\n\nAm Anfang war er nervös. „Ich dachte, ich bin zu alt und komme mit den Computern nicht zurecht“, erzählt er. Doch die jungen Studenten halfen ihm, und er fand sich schnell zurecht. Heute lernen sie manchmal zusammen.\n\nSommer muss keine Prüfungen schreiben, weil er nur zum Vergnügen studiert. Trotzdem geht er in fast jede Vorlesung. Er rät allen älteren Menschen, etwas Neues zu lernen: „Das hält den Kopf jung.“",
+      "prompt": "Warum schreibt Sommer keine Prüfungen?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Weil er zu alt dafür ist."
+        },
+        {
+          "id": "b",
+          "text": "Weil er nur zum Vergnügen studiert."
+        },
+        {
+          "id": "c",
+          "text": "Weil er die Prüfungen nicht besteht."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Answer: B** „Weil er nur zum Vergnügen studiert.“\n\n„weil er nur zum Vergnügen studiert“."
+    },
+    {
+      "id": "tb1-u41-l04-teil2-mit-63-noch-einmal-an-die-uni-ex06",
+      "type": "choice",
+      "title": "Mit 63 noch einmal an die Uni · Frage 5",
+      "passage": "Peter Sommer ist 63 und studiert an der Universität, zusammen mit jungen Leuten. Nach seiner Pensionierung wollte er nicht nur zu Hause sitzen. Also schrieb er sich für Geschichte ein, ein Fach, das ihn schon immer interessiert hatte.\n\nAm Anfang war er nervös. „Ich dachte, ich bin zu alt und komme mit den Computern nicht zurecht“, erzählt er. Doch die jungen Studenten halfen ihm, und er fand sich schnell zurecht. Heute lernen sie manchmal zusammen.\n\nSommer muss keine Prüfungen schreiben, weil er nur zum Vergnügen studiert. Trotzdem geht er in fast jede Vorlesung. Er rät allen älteren Menschen, etwas Neues zu lernen: „Das hält den Kopf jung.“",
+      "prompt": "Was rät er älteren Menschen?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Etwas Neues zu lernen."
+        },
+        {
+          "id": "b",
+          "text": "Sich lieber zu Hause auszuruhen."
+        },
+        {
+          "id": "c",
+          "text": "Nicht mehr zu studieren."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Answer: A** „Etwas Neues zu lernen.“\n\n„etwas Neues zu lernen … hält den Kopf jung“."
+    }
+  ]
+}

@@ -1,0 +1,270 @@
+{
+  "id": "tb1-u05-l07-question-words-little-words-2",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u05",
+  "title": "Question Words & Little Words 2",
+  "tip": "Theme: Fragewörter & kleine Wörter (A1)",
+  "exercises": [
+    {
+      "id": "tb1-u05-l07-question-words-little-words-2-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "warum",
+          "known": "why"
+        },
+        {
+          "id": "p2",
+          "learning": "welcher / welche / welches",
+          "known": "which"
+        },
+        {
+          "id": "p3",
+          "learning": "wie viel",
+          "known": "how much"
+        },
+        {
+          "id": "p4",
+          "learning": "wie viele",
+          "known": "how many"
+        },
+        {
+          "id": "p5",
+          "learning": "woher",
+          "known": "where from"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u05-l07-question-words-little-words-2-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which one means „why“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "kein / keine"
+        },
+        {
+          "id": "b",
+          "text": "warum"
+        },
+        {
+          "id": "c",
+          "text": "hier"
+        },
+        {
+          "id": "d",
+          "text": "immer"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**warum** = why\n\n*Example:* Warum bist du heute nicht zur Arbeit gekommen?\nWhy didn't you come to work today?"
+    },
+    {
+      "id": "tb1-u05-l07-question-words-little-words-2-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which one means „which“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "wo"
+        },
+        {
+          "id": "b",
+          "text": "wohin"
+        },
+        {
+          "id": "c",
+          "text": "welcher / welche / welches"
+        },
+        {
+          "id": "d",
+          "text": "warum"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**welcher / welche / welches** = which\n\n*Example:* Welcher Bus fährt zum Hauptbahnhof?\nWhich bus goes to the main station?"
+    },
+    {
+      "id": "tb1-u05-l07-question-words-little-words-2-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Warum bist du heute nicht zur Arbeit gekommen?",
+      "tiles": [
+        "today",
+        "work",
+        "didn't",
+        "get",
+        "you",
+        "to",
+        "I",
+        "expensive",
+        "Why",
+        "come"
+      ],
+      "answers": [
+        "Why didn't you come to work today?"
+      ],
+      "explanation": "**warum** = why"
+    },
+    {
+      "id": "tb1-u05-l07-question-words-little-words-2-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which one means „how much“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "hier"
+        },
+        {
+          "id": "b",
+          "text": "wie viele"
+        },
+        {
+          "id": "c",
+          "text": "warum"
+        },
+        {
+          "id": "d",
+          "text": "wie viel"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**wie viel** = how much\n\n*Example:* Wie viel kostet ein Kilo Äpfel?\nHow much is a kilo of apples?"
+    },
+    {
+      "id": "tb1-u05-l07-question-words-little-words-2-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Which bus goes to the main station?",
+      "tiles": [
+        "Welcher",
+        "fährt",
+        "kommt",
+        "möchtest",
+        "Hauptbahnhof",
+        "Bus",
+        "ich",
+        "zum"
+      ],
+      "answers": [
+        "Welcher Bus fährt zum Hauptbahnhof?"
+      ],
+      "explanation": "**welcher / welche / welches** = which"
+    },
+    {
+      "id": "tb1-u05-l07-question-words-little-words-2-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which one means „how many“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "wie viele"
+        },
+        {
+          "id": "b",
+          "text": "hier"
+        },
+        {
+          "id": "c",
+          "text": "wie viel"
+        },
+        {
+          "id": "d",
+          "text": "wie"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**wie viele** = how many\n\n*Example:* Wie viele Kinder haben Sie?\nHow many children do you have?"
+    },
+    {
+      "id": "tb1-u05-l07-question-words-little-words-2-ex08",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u05-l07-question-words-little-words-2-3.mp3"
+      },
+      "tiles": [
+        "gefällt",
+        "Wie",
+        "heute",
+        "spricht",
+        "Äpfel",
+        "kostet",
+        "viel",
+        "Kilo",
+        "ein"
+      ],
+      "answers": [
+        "Wie viel kostet ein Kilo Äpfel?"
+      ],
+      "explanation": "Wie viel kostet ein Kilo Äpfel?\n*How much is a kilo of apples?*\n\n**wie viel** = how much"
+    },
+    {
+      "id": "tb1-u05-l07-question-words-little-words-2-ex09",
+      "type": "multiple_choice",
+      "prompt": "Which one means „where from“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "sehr"
+        },
+        {
+          "id": "b",
+          "text": "woher"
+        },
+        {
+          "id": "c",
+          "text": "wann"
+        },
+        {
+          "id": "d",
+          "text": "aber"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**woher** = where from\n\n*Example:* Woher kommt deine neue Kollegin?\nWhere is your new colleague from?"
+    },
+    {
+      "id": "tb1-u05-l07-question-words-little-words-2-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Wie viele Kinder haben Sie?",
+      "tiles": [
+        "station",
+        "do",
+        "children",
+        "you",
+        "have",
+        "Spanish",
+        "a",
+        "many",
+        "How"
+      ],
+      "answers": [
+        "How many children do you have?"
+      ],
+      "explanation": "**wie viele** = how many"
+    },
+    {
+      "id": "tb1-u05-l07-question-words-little-words-2-ex11",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Where is your new colleague from?",
+      "tiles": [
+        "Woher",
+        "neue",
+        "kostet",
+        "den",
+        "deine",
+        "Kollegin",
+        "kommt",
+        "Rathaus"
+      ],
+      "answers": [
+        "Woher kommt deine neue Kollegin?"
+      ],
+      "explanation": "**woher** = where from"
+    }
+  ]
+}

@@ -1,0 +1,243 @@
+{
+  "id": "tb1-u29-l02-the-oral-exam-2",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u29",
+  "title": "The Oral Exam 2",
+  "tip": "Theme: Redemittel: Mündliche Prüfung (B1)",
+  "exercises": [
+    {
+      "id": "tb1-u29-l02-the-oral-exam-2-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "Was meinst du?",
+          "known": "What do you think?"
+        },
+        {
+          "id": "p2",
+          "learning": "Da bin ich ganz deiner Meinung",
+          "known": "I completely agree with you."
+        },
+        {
+          "id": "p3",
+          "learning": "Lass uns gemeinsam planen",
+          "known": "Let's plan together."
+        },
+        {
+          "id": "p4",
+          "learning": "Ich habe eine Idee: …",
+          "known": "I have an idea: …"
+        },
+        {
+          "id": "p5",
+          "learning": "Darf ich mich kurz vorstellen?",
+          "known": "May I introduce myself briefly?"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u29-l02-the-oral-exam-2-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which phrase means „What do you think?“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Was meinst du?"
+        },
+        {
+          "id": "b",
+          "text": "Wie ist deine Meinung dazu?"
+        },
+        {
+          "id": "c",
+          "text": "Ich habe eine Idee: …"
+        },
+        {
+          "id": "d",
+          "text": "Da bin ich ganz deiner Meinung."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Was meinst du?** = What do you think?\n\n*Example:* Wir könnten heute Abend ins Kino gehen. Was meinst du?\nWe could go to the cinema tonight. What do you think?"
+    },
+    {
+      "id": "tb1-u29-l02-the-oral-exam-2-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which phrase means „I completely agree with you.“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Sollen wir das so machen?"
+        },
+        {
+          "id": "b",
+          "text": "Was meinst du?"
+        },
+        {
+          "id": "c",
+          "text": "Können Sie das bitte wiederholen?"
+        },
+        {
+          "id": "d",
+          "text": "Da bin ich ganz deiner Meinung."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**Da bin ich ganz deiner Meinung.** = I completely agree with you.\n\n*Example:* „Wir sollten mehr Obst essen.“ – „Da bin ich ganz deiner Meinung.“\n\"We should eat more fruit.\" – \"I completely agree with you.\""
+    },
+    {
+      "id": "tb1-u29-l02-the-oral-exam-2-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Wir könnten heute Abend ins Kino gehen. Was meinst du?",
+      "tiles": [
+        "and",
+        "could",
+        "We",
+        "go",
+        "do",
+        "cinema",
+        "you",
+        "the",
+        "that",
+        "think",
+        "a",
+        "tonight",
+        "What",
+        "to"
+      ],
+      "answers": [
+        "We could go to the cinema tonight. What do you think?"
+      ],
+      "explanation": "**Was meinst du?** = What do you think?"
+    },
+    {
+      "id": "tb1-u29-l02-the-oral-exam-2-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which phrase means „Let's plan together.“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ich habe eine Idee: …"
+        },
+        {
+          "id": "b",
+          "text": "Entschuldigung, das habe ich nicht verstanden."
+        },
+        {
+          "id": "c",
+          "text": "Darf ich mich kurz vorstellen?"
+        },
+        {
+          "id": "d",
+          "text": "Lass uns gemeinsam planen."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**Lass uns gemeinsam planen.** = Let's plan together.\n\n*Example:* Die Party ist schon am Freitag. Lass uns gemeinsam planen.\nThe party is already on Friday. Let's plan together."
+    },
+    {
+      "id": "tb1-u29-l02-the-oral-exam-2-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "\"We should eat more fruit.\" – \"I completely agree with you.\"",
+      "tiles": [
+        "Wir",
+        "Da",
+        "Fahrrad",
+        "essen",
+        "deiner",
+        "ganz",
+        "Obst",
+        "bin",
+        "Meinung",
+        "Idee",
+        "das",
+        "mehr",
+        "ich",
+        "sollten"
+      ],
+      "answers": [
+        "„Wir sollten mehr Obst essen.“ – „Da bin ich ganz deiner Meinung.“"
+      ],
+      "explanation": "**Da bin ich ganz deiner Meinung.** = I completely agree with you."
+    },
+    {
+      "id": "tb1-u29-l02-the-oral-exam-2-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which phrase means „I have an idea: …“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ich habe eine Idee: …"
+        },
+        {
+          "id": "b",
+          "text": "Wie ist deine Meinung dazu?"
+        },
+        {
+          "id": "c",
+          "text": "Was meinst du?"
+        },
+        {
+          "id": "d",
+          "text": "Lass uns gemeinsam planen."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Ich habe eine Idee: …** = I have an idea: …\n\n*Example:* Ich habe eine Idee: Wir kaufen Paul zusammen ein Fahrrad.\nI have an idea: let's buy Paul a bike together."
+    },
+    {
+      "id": "tb1-u29-l02-the-oral-exam-2-ex08",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u29-l02-the-oral-exam-2-3.mp3"
+      },
+      "tiles": [
+        "Party",
+        "uns",
+        "gemeinsam",
+        "Idee",
+        "Ich",
+        "Freitag",
+        "planen",
+        "Deutsch",
+        "am",
+        "schon",
+        "Lass",
+        "Die",
+        "ist"
+      ],
+      "answers": [
+        "Die Party ist schon am Freitag. Lass uns gemeinsam planen."
+      ],
+      "explanation": "Die Party ist schon am Freitag. Lass uns gemeinsam planen.\n*The party is already on Friday. Let's plan together.*\n\n**Lass uns gemeinsam planen.** = Let's plan together."
+    },
+    {
+      "id": "tb1-u29-l02-the-oral-exam-2-ex09",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Ich habe eine Idee: Wir kaufen Paul zusammen ein Fahrrad.",
+      "tiles": [
+        "seaside",
+        "have",
+        "that",
+        "I",
+        "an",
+        "buy",
+        "bike",
+        "do",
+        "Paul",
+        "idea",
+        "together",
+        "a",
+        "let's"
+      ],
+      "answers": [
+        "I have an idea: let's buy Paul a bike together."
+      ],
+      "explanation": "**Ich habe eine Idee: …** = I have an idea: …"
+    }
+  ]
+}

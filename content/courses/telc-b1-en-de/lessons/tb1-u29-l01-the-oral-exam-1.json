@@ -1,0 +1,244 @@
+{
+  "id": "tb1-u29-l01-the-oral-exam-1",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u29",
+  "title": "The Oral Exam 1",
+  "tip": "Theme: Redemittel: Mündliche Prüfung (B1)",
+  "exercises": [
+    {
+      "id": "tb1-u29-l01-the-oral-exam-1-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "Darf ich mich kurz vorstellen?",
+          "known": "May I introduce myself briefly?"
+        },
+        {
+          "id": "p2",
+          "learning": "Ich heiße … und komme aus …",
+          "known": "My name is … and I'm from …"
+        },
+        {
+          "id": "p3",
+          "learning": "Können Sie das bitte wiederholen?",
+          "known": "Could you please repeat that?"
+        },
+        {
+          "id": "p4",
+          "learning": "Wie ist deine Meinung dazu?",
+          "known": "What's your opinion on that?"
+        },
+        {
+          "id": "p5",
+          "learning": "Was meinst du?",
+          "known": "What do you think?"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u29-l01-the-oral-exam-1-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which phrase means „May I introduce myself briefly?“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Lass uns gemeinsam planen."
+        },
+        {
+          "id": "b",
+          "text": "Darf ich mich kurz vorstellen?"
+        },
+        {
+          "id": "c",
+          "text": "Sollen wir das so machen?"
+        },
+        {
+          "id": "d",
+          "text": "Wie sagt man … auf Deutsch?"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Darf ich mich kurz vorstellen?** = May I introduce myself briefly?\n\n*Example:* Guten Tag, ich bin die neue Kollegin. Darf ich mich kurz vorstellen?\nHello, I'm the new colleague. May I introduce myself briefly?"
+    },
+    {
+      "id": "tb1-u29-l01-the-oral-exam-1-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which phrase means „My name is … and I'm from …“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Wie ist deine Meinung dazu?"
+        },
+        {
+          "id": "b",
+          "text": "Ich heiße … und komme aus …"
+        },
+        {
+          "id": "c",
+          "text": "Was meinst du?"
+        },
+        {
+          "id": "d",
+          "text": "Entschuldigung, das habe ich nicht verstanden."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Ich heiße … und komme aus …** = My name is … and I'm from …\n\n*Example:* Ich heiße Ali Hassan und komme aus Syrien.\nMy name is Ali Hassan and I'm from Syria."
+    },
+    {
+      "id": "tb1-u29-l01-the-oral-exam-1-ex04",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u29-l01-the-oral-exam-1-1.mp3"
+      },
+      "tiles": [
+        "ich",
+        "sollten",
+        "Guten",
+        "kurz",
+        "Darf",
+        "Tag",
+        "Kollegin",
+        "ganz",
+        "vorstellen",
+        "mich",
+        "die",
+        "bin",
+        "neue",
+        "ich",
+        "essen"
+      ],
+      "answers": [
+        "Guten Tag, ich bin die neue Kollegin. Darf ich mich kurz vorstellen?"
+      ],
+      "explanation": "Guten Tag, ich bin die neue Kollegin. Darf ich mich kurz vorstellen?\n*Hello, I'm the new colleague. May I introduce myself briefly?*\n\n**Darf ich mich kurz vorstellen?** = May I introduce myself briefly?"
+    },
+    {
+      "id": "tb1-u29-l01-the-oral-exam-1-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which phrase means „Could you please repeat that?“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Darf ich mich kurz vorstellen?"
+        },
+        {
+          "id": "b",
+          "text": "Sollen wir das so machen?"
+        },
+        {
+          "id": "c",
+          "text": "Können Sie das bitte wiederholen?"
+        },
+        {
+          "id": "d",
+          "text": "Ich heiße … und komme aus …"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**Können Sie das bitte wiederholen?** = Could you please repeat that?\n\n*Example:* Entschuldigung, es war sehr laut. Können Sie das bitte wiederholen?\nSorry, it was very loud. Could you please repeat that?"
+    },
+    {
+      "id": "tb1-u29-l01-the-oral-exam-1-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Ich heiße Ali Hassan und komme aus Syrien.",
+      "tiles": [
+        "a",
+        "idea",
+        "and",
+        "Ali",
+        "My",
+        "is",
+        "Syria",
+        "we",
+        "from",
+        "I'm",
+        "name",
+        "Hassan"
+      ],
+      "answers": [
+        "My name is Ali Hassan and I'm from Syria."
+      ],
+      "explanation": "**Ich heiße … und komme aus …** = My name is … and I'm from …"
+    },
+    {
+      "id": "tb1-u29-l01-the-oral-exam-1-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which phrase means „What's your opinion on that?“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Wie sagt man … auf Deutsch?"
+        },
+        {
+          "id": "b",
+          "text": "Wie ist deine Meinung dazu?"
+        },
+        {
+          "id": "c",
+          "text": "Können Sie das bitte wiederholen?"
+        },
+        {
+          "id": "d",
+          "text": "Lass uns gemeinsam planen."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Wie ist deine Meinung dazu?** = What's your opinion on that?\n\n*Example:* Ich möchte lieber ans Meer fahren. Wie ist deine Meinung dazu?\nI'd rather go to the seaside. What's your opinion on that?"
+    },
+    {
+      "id": "tb1-u29-l01-the-oral-exam-1-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Sorry, it was very loud. Could you please repeat that?",
+      "tiles": [
+        "bitte",
+        "Sie",
+        "das",
+        "zusammengefasst",
+        "eine",
+        "laut",
+        "war",
+        "Entschuldigung",
+        "sagt",
+        "sehr",
+        "Können",
+        "es",
+        "wiederholen"
+      ],
+      "answers": [
+        "Entschuldigung, es war sehr laut. Können Sie das bitte wiederholen?"
+      ],
+      "explanation": "**Können Sie das bitte wiederholen?** = Could you please repeat that?"
+    },
+    {
+      "id": "tb1-u29-l01-the-oral-exam-1-ex09",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u29-l01-the-oral-exam-1-4.mp3"
+      },
+      "tiles": [
+        "ist",
+        "Wie",
+        "ins",
+        "dazu",
+        "aus",
+        "fahren",
+        "ans",
+        "Kuchen",
+        "lieber",
+        "Meinung",
+        "Ich",
+        "möchte",
+        "Meer",
+        "deine"
+      ],
+      "answers": [
+        "Ich möchte lieber ans Meer fahren. Wie ist deine Meinung dazu?"
+      ],
+      "explanation": "Ich möchte lieber ans Meer fahren. Wie ist deine Meinung dazu?\n*I'd rather go to the seaside. What's your opinion on that?*\n\n**Wie ist deine Meinung dazu?** = What's your opinion on that?"
+    }
+  ]
+}

@@ -1,0 +1,278 @@
+{
+  "id": "tb1-u24-l08-frequent-exam-verbs-ii-1",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u24",
+  "title": "Frequent Exam Verbs II 1",
+  "tip": "Theme: Verben: Prüfungshäufig II (B1)",
+  "exercises": [
+    {
+      "id": "tb1-u24-l08-frequent-exam-verbs-ii-1-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "beginnen",
+          "known": "to begin"
+        },
+        {
+          "id": "p2",
+          "learning": "schließen",
+          "known": "to close"
+        },
+        {
+          "id": "p3",
+          "learning": "öffnen",
+          "known": "to open"
+        },
+        {
+          "id": "p4",
+          "learning": "dauern",
+          "known": "to last / take (time)"
+        },
+        {
+          "id": "p5",
+          "learning": "gelten",
+          "known": "to be valid / apply"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u24-l08-frequent-exam-verbs-ii-1-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which one means „to begin“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "hängen"
+        },
+        {
+          "id": "b",
+          "text": "enthalten (enthält)"
+        },
+        {
+          "id": "c",
+          "text": "beginnen"
+        },
+        {
+          "id": "d",
+          "text": "öffnen"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**beginnen** = to begin\n\n*Example:* Die Schule beginnt um acht Uhr.\nSchool begins at eight o'clock."
+    },
+    {
+      "id": "tb1-u24-l08-frequent-exam-verbs-ii-1-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which one means „to close“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "schließen"
+        },
+        {
+          "id": "b",
+          "text": "dauern"
+        },
+        {
+          "id": "c",
+          "text": "gelten (gilt)"
+        },
+        {
+          "id": "d",
+          "text": "erreichen"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**schließen** = to close\n\n*Example:* Kannst du bitte das Fenster schließen? Es ist kalt.\nCan you close the window, please? It's cold."
+    },
+    {
+      "id": "tb1-u24-l08-frequent-exam-verbs-ii-1-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "School begins at eight o'clock.",
+      "tiles": [
+        "um",
+        "beginnt",
+        "Schule",
+        "acht",
+        "Uhr",
+        "Wochenende",
+        "Die",
+        "Sofa",
+        "von"
+      ],
+      "answers": [
+        "Die Schule beginnt um acht Uhr."
+      ],
+      "explanation": "**beginnen** = to begin"
+    },
+    {
+      "id": "tb1-u24-l08-frequent-exam-verbs-ii-1-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which one means „to open“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "öffnen"
+        },
+        {
+          "id": "b",
+          "text": "erreichen"
+        },
+        {
+          "id": "c",
+          "text": "abgeben (gibt ab)"
+        },
+        {
+          "id": "d",
+          "text": "enthalten (enthält)"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**öffnen** = to open\n\n*Example:* Die Apotheke öffnet erst um neun Uhr.\nThe pharmacy doesn't open until nine o'clock."
+    },
+    {
+      "id": "tb1-u24-l08-frequent-exam-verbs-ii-1-ex06",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u24-l08-frequent-exam-verbs-ii-1-2.mp3"
+      },
+      "tiles": [
+        "Beim",
+        "kalt",
+        "Kannst",
+        "Ich",
+        "ist",
+        "Fenster",
+        "für",
+        "bitte",
+        "das",
+        "schließen",
+        "du",
+        "Es"
+      ],
+      "answers": [
+        "Kannst du bitte das Fenster schließen? Es ist kalt."
+      ],
+      "explanation": "Kannst du bitte das Fenster schließen? Es ist kalt.\n*Can you close the window, please? It's cold.*\n\n**schließen** = to close"
+    },
+    {
+      "id": "tb1-u24-l08-frequent-exam-verbs-ii-1-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which one means „to last / take (time)“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "enthalten (enthält)"
+        },
+        {
+          "id": "b",
+          "text": "legen"
+        },
+        {
+          "id": "c",
+          "text": "weitermachen"
+        },
+        {
+          "id": "d",
+          "text": "dauern"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**dauern** = to last / take (time)\n\n*Example:* Wie lange dauert die Reparatur von meinem Auto?\nHow long will the repair of my car take?"
+    },
+    {
+      "id": "tb1-u24-l08-frequent-exam-verbs-ii-1-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Die Apotheke öffnet erst um neun Uhr.",
+      "tiles": [
+        "o'clock",
+        "courses",
+        "pharmacy",
+        "nine",
+        "open",
+        "doesn't",
+        "until",
+        "The",
+        "managing",
+        "it"
+      ],
+      "answers": [
+        "The pharmacy doesn't open until nine o'clock."
+      ],
+      "explanation": "**öffnen** = to open"
+    },
+    {
+      "id": "tb1-u24-l08-frequent-exam-verbs-ii-1-ex09",
+      "type": "multiple_choice",
+      "prompt": "Which one means „to be valid / apply“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "schließen"
+        },
+        {
+          "id": "b",
+          "text": "mitmachen"
+        },
+        {
+          "id": "c",
+          "text": "reichen"
+        },
+        {
+          "id": "d",
+          "text": "gelten (gilt)"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**gelten (gilt)** = to be valid / apply\n\n*Example:* Mein Reisepass gilt noch drei Jahre.\nMy passport is valid for three more years."
+    },
+    {
+      "id": "tb1-u24-l08-frequent-exam-verbs-ii-1-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "How long will the repair of my car take?",
+      "tiles": [
+        "lange",
+        "Wie",
+        "verdient",
+        "Auto",
+        "die",
+        "hat",
+        "dauert",
+        "von",
+        "Zug",
+        "meinem",
+        "Reparatur"
+      ],
+      "answers": [
+        "Wie lange dauert die Reparatur von meinem Auto?"
+      ],
+      "explanation": "**dauern** = to last / take (time)"
+    },
+    {
+      "id": "tb1-u24-l08-frequent-exam-verbs-ii-1-ex11",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u24-l08-frequent-exam-verbs-ii-1-5.mp3"
+      },
+      "tiles": [
+        "Jahre",
+        "Mein",
+        "Abteilung",
+        "verhalten",
+        "habe",
+        "gilt",
+        "Reisepass",
+        "noch",
+        "drei"
+      ],
+      "answers": [
+        "Mein Reisepass gilt noch drei Jahre."
+      ],
+      "explanation": "Mein Reisepass gilt noch drei Jahre.\n*My passport is valid for three more years.*\n\n**gelten (gilt)** = to be valid / apply"
+    }
+  ]
+}

@@ -1,0 +1,227 @@
+{
+  "id": "tb1-u05-l10-question-words-little-words-5",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u05",
+  "title": "Question Words & Little Words 5",
+  "tip": "Theme: Fragewörter & kleine Wörter (A1)",
+  "exercises": [
+    {
+      "id": "tb1-u05-l10-question-words-little-words-5-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "dort / da",
+          "known": "there"
+        },
+        {
+          "id": "p2",
+          "learning": "sehr",
+          "known": "very"
+        },
+        {
+          "id": "p3",
+          "learning": "immer",
+          "known": "always"
+        },
+        {
+          "id": "p4",
+          "learning": "nie",
+          "known": "never"
+        },
+        {
+          "id": "p5",
+          "learning": "wer",
+          "known": "who"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u05-l10-question-words-little-words-5-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which one means „there“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "dort / da"
+        },
+        {
+          "id": "b",
+          "text": "wie viel"
+        },
+        {
+          "id": "c",
+          "text": "wohin"
+        },
+        {
+          "id": "d",
+          "text": "nicht"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**dort / da** = there\n\n*Example:* Siehst du das Café? Dort treffen wir uns.\nDo you see the café? We'll meet there."
+    },
+    {
+      "id": "tb1-u05-l10-question-words-little-words-5-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which one means „very“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "wie viel"
+        },
+        {
+          "id": "b",
+          "text": "sehr"
+        },
+        {
+          "id": "c",
+          "text": "immer"
+        },
+        {
+          "id": "d",
+          "text": "nie"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**sehr** = very\n\n*Example:* Die neue Wohnung gefällt mir sehr gut.\nI like the new flat very much."
+    },
+    {
+      "id": "tb1-u05-l10-question-words-little-words-5-ex04",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u05-l10-question-words-little-words-5-1.mp3"
+      },
+      "tiles": [
+        "uns",
+        "bist",
+        "Siehst",
+        "Café",
+        "wir",
+        "du",
+        "hat",
+        "treffen",
+        "nicht",
+        "das",
+        "Dort"
+      ],
+      "answers": [
+        "Siehst du das Café? Dort treffen wir uns."
+      ],
+      "explanation": "Siehst du das Café? Dort treffen wir uns.\n*Do you see the café? We'll meet there.*\n\n**dort / da** = there"
+    },
+    {
+      "id": "tb1-u05-l10-question-words-little-words-5-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which one means „always“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "immer"
+        },
+        {
+          "id": "b",
+          "text": "dort / da"
+        },
+        {
+          "id": "c",
+          "text": "welcher / welche / welches"
+        },
+        {
+          "id": "d",
+          "text": "wie"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**immer** = always\n\n*Example:* Mein Bus kommt immer zu spät.\nMy bus is always late."
+    },
+    {
+      "id": "tb1-u05-l10-question-words-little-words-5-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Die neue Wohnung gefällt mir sehr gut.",
+      "tiles": [
+        "like",
+        "much",
+        "new",
+        "very",
+        "summer",
+        "the",
+        "bus",
+        "I",
+        "flat",
+        "Where"
+      ],
+      "answers": [
+        "I like the new flat very much."
+      ],
+      "explanation": "**sehr** = very"
+    },
+    {
+      "id": "tb1-u05-l10-question-words-little-words-5-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which one means „never“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "nie"
+        },
+        {
+          "id": "b",
+          "text": "nicht"
+        },
+        {
+          "id": "c",
+          "text": "wer"
+        },
+        {
+          "id": "d",
+          "text": "aber"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**nie** = never\n\n*Example:* Anna trinkt nie Alkohol.\nAnna never drinks alcohol."
+    },
+    {
+      "id": "tb1-u05-l10-question-words-little-words-5-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "My bus is always late.",
+      "tiles": [
+        "Mein",
+        "zu",
+        "nicht",
+        "spät",
+        "kommt",
+        "immer",
+        "ist",
+        "Bus",
+        "hier"
+      ],
+      "answers": [
+        "Mein Bus kommt immer zu spät."
+      ],
+      "explanation": "**immer** = always"
+    },
+    {
+      "id": "tb1-u05-l10-question-words-little-words-5-ex09",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u05-l10-question-words-little-words-5-4.mp3"
+      },
+      "tiles": [
+        "trinkt",
+        "kommt",
+        "nicht",
+        "Alkohol",
+        "nie",
+        "Anna",
+        "kostet"
+      ],
+      "answers": [
+        "Anna trinkt nie Alkohol."
+      ],
+      "explanation": "Anna trinkt nie Alkohol.\n*Anna never drinks alcohol.*\n\n**nie** = never"
+    }
+  ]
+}

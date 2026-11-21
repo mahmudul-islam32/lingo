@@ -1,0 +1,283 @@
+{
+  "id": "tb1-u12-l02-travel-transport-2",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u12",
+  "title": "Travel & Transport 2",
+  "tip": "Theme: Reisen / Verkehr (B1)",
+  "exercises": [
+    {
+      "id": "tb1-u12-l02-travel-transport-2-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "die Jugendherberge",
+          "known": "youth hostel"
+        },
+        {
+          "id": "p2",
+          "learning": "übernachten",
+          "known": "to stay overnight"
+        },
+        {
+          "id": "p3",
+          "learning": "die Ermäßigung",
+          "known": "discount"
+        },
+        {
+          "id": "p4",
+          "learning": "der Zug",
+          "known": "train"
+        },
+        {
+          "id": "p5",
+          "learning": "der Flug",
+          "known": "flight"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u12-l02-travel-transport-2-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „youth hostel“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Jugendherberge, die Jugendherbergen"
+        },
+        {
+          "id": "b",
+          "text": "der Flug, die Flüge · der Flughafen, die Flughäfen"
+        },
+        {
+          "id": "c",
+          "text": "das Gepäck (nur Sg.) · der Koffer, die Koffer"
+        },
+        {
+          "id": "d",
+          "text": "die Reise, die Reisen: reisen (ist gereist)"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**die Jugendherberge** = youth hostel\n*Plural: die Jugendherbergen*\n\n*Example:* Die Schüler schlafen zwei Nächte in einer Jugendherberge.\nThe pupils are sleeping two nights in a youth hostel."
+    },
+    {
+      "id": "tb1-u12-l02-travel-transport-2-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which one means „to stay overnight: overnight stay“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Ermäßigung, die Ermäßigungen"
+        },
+        {
+          "id": "b",
+          "text": "ausgebucht"
+        },
+        {
+          "id": "c",
+          "text": "buchen ↔ reservieren"
+        },
+        {
+          "id": "d",
+          "text": "übernachten: die Übernachtung, die Übernachtungen"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**übernachten: die Übernachtung, die Übernachtungen** = to stay overnight: overnight stay\n\n*Example:* Wir übernachten bei Freunden in München.\nWe're staying overnight with friends in Munich."
+    },
+    {
+      "id": "tb1-u12-l02-travel-transport-2-ex04",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u12-l02-travel-transport-2-1.mp3"
+      },
+      "tiles": [
+        "Die",
+        "den",
+        "Jugendherberge",
+        "Schüler",
+        "zwei",
+        "einer",
+        "in",
+        "ab",
+        "Ausflug",
+        "Nächte",
+        "schlafen"
+      ],
+      "answers": [
+        "Die Schüler schlafen zwei Nächte in einer Jugendherberge."
+      ],
+      "explanation": "Die Schüler schlafen zwei Nächte in einer Jugendherberge.\n*The pupils are sleeping two nights in a youth hostel.*\n\n**die Jugendherberge** = youth hostel\n*Plural: die Jugendherbergen*"
+    },
+    {
+      "id": "tb1-u12-l02-travel-transport-2-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „discount, reduced fare (LV-Teil-3 favourite)“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Jugendherberge, die Jugendherbergen"
+        },
+        {
+          "id": "b",
+          "text": "der Reisepass, die Reisepässe · der Ausweis, die Ausweise"
+        },
+        {
+          "id": "c",
+          "text": "die Ermäßigung, die Ermäßigungen"
+        },
+        {
+          "id": "d",
+          "text": "der Flug, die Flüge · der Flughafen, die Flughäfen"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**die Ermäßigung** = discount, reduced fare (LV-Teil-3 favourite)\n*Plural: die Ermäßigungen*\n\n*Example:* Studenten bekommen im Museum eine Ermäßigung.\nStudents get a discount at the museum."
+    },
+    {
+      "id": "tb1-u12-l02-travel-transport-2-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Wir übernachten bei Freunden in München.",
+      "tiles": [
+        "with",
+        "Students",
+        "On",
+        "We're",
+        "friends",
+        "staying",
+        "in",
+        "Munich",
+        "the",
+        "overnight"
+      ],
+      "answers": [
+        "We're staying overnight with friends in Munich."
+      ],
+      "explanation": "**übernachten: die Übernachtung, die Übernachtungen** = to stay overnight: overnight stay"
+    },
+    {
+      "id": "tb1-u12-l02-travel-transport-2-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „train · station · platform/track“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Abfahrt ↔ die Ankunft"
+        },
+        {
+          "id": "b",
+          "text": "die Reise, die Reisen: reisen (ist gereist)"
+        },
+        {
+          "id": "c",
+          "text": "der Zug, die Züge · der Bahnhof, die Bahnhöfe · das Gleis, die Gleise"
+        },
+        {
+          "id": "d",
+          "text": "die Sehenswürdigkeit, die Sehenswürdigkeiten"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**der Zug** = train · station · platform/track\n*Plural: die Züge · also: der Bahnhof, die Bahnhöfe · das Gleis, die Gleise*\n\n*Example:* Der Zug nach Köln fährt heute von Gleis 7 ab.\nThe train to Cologne leaves from platform 7 today."
+    },
+    {
+      "id": "tb1-u12-l02-travel-transport-2-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Students get a discount at the museum.",
+      "tiles": [
+        "Ermäßigung",
+        "einen",
+        "eine",
+        "ich",
+        "bekommen",
+        "bei",
+        "im",
+        "Museum",
+        "Studenten"
+      ],
+      "answers": [
+        "Studenten bekommen im Museum eine Ermäßigung."
+      ],
+      "explanation": "**die Ermäßigung** = discount, reduced fare (LV-Teil-3 favourite)\n*Plural: die Ermäßigungen*"
+    },
+    {
+      "id": "tb1-u12-l02-travel-transport-2-ex09",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „flight · airport“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Sehenswürdigkeit, die Sehenswürdigkeiten"
+        },
+        {
+          "id": "b",
+          "text": "die Ermäßigung, die Ermäßigungen"
+        },
+        {
+          "id": "c",
+          "text": "der Flug, die Flüge · der Flughafen, die Flughäfen"
+        },
+        {
+          "id": "d",
+          "text": "der Stau, die Staus: im Stau stehen"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**der Flug** = flight · airport\n*Plural: die Flüge · also: der Flughafen, die Flughäfen*\n\n*Example:* Unser Flug nach Istanbul geht um sechs Uhr morgens.\nOur flight to Istanbul leaves at six in the morning."
+    },
+    {
+      "id": "tb1-u12-l02-travel-transport-2-ex10",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u12-l02-travel-transport-2-4.mp3"
+      },
+      "tiles": [
+        "Freunden",
+        "Mann",
+        "einen",
+        "Köln",
+        "heute",
+        "nach",
+        "ab",
+        "Gleis",
+        "7",
+        "fährt",
+        "Zug",
+        "von",
+        "Der"
+      ],
+      "answers": [
+        "Der Zug nach Köln fährt heute von Gleis 7 ab."
+      ],
+      "explanation": "Der Zug nach Köln fährt heute von Gleis 7 ab.\n*The train to Cologne leaves from platform 7 today.*\n\n**der Zug** = train · station · platform/track\n*Plural: die Züge · also: der Bahnhof, die Bahnhöfe · das Gleis, die Gleise*"
+    },
+    {
+      "id": "tb1-u12-l02-travel-transport-2-ex11",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Unser Flug nach Istanbul geht um sechs Uhr morgens.",
+      "tiles": [
+        "flight",
+        "Our",
+        "to",
+        "in",
+        "right",
+        "Istanbul",
+        "the",
+        "evening",
+        "leaves",
+        "morning",
+        "six",
+        "at",
+        "a"
+      ],
+      "answers": [
+        "Our flight to Istanbul leaves at six in the morning."
+      ],
+      "explanation": "**der Flug** = flight · airport\n*Plural: die Flüge · also: der Flughafen, die Flughäfen*"
+    }
+  ]
+}

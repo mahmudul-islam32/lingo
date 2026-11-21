@@ -1,0 +1,214 @@
+{
+  "id": "tb1-u33-l03-komparativ-p2",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u33",
+  "title": "Comparative & Superlative: so … wie",
+  "tip": "als vs. wie: größer als du · so groß wie du. “Größer wie” is always wrong. And never “mehr schnell”. German ALWAYS uses -er.",
+  "exercises": [
+    {
+      "id": "tb1-u33-l03-komparativ-p2-ex01",
+      "type": "explain",
+      "title": "so … wie (gleich)",
+      "body": "Equality: so + base form + wie. Negated: nicht so … wie.\n\n*Deutsch:* Gleichheit: so + Grundform + wie. Verneint: nicht so … wie.\n\n## Pattern\n\nA + Verb + **(genau/nicht) so** + Adjektiv + **wie** + B",
+      "examples": [
+        {
+          "learning": "Ich bin so groß wie mein Vater.",
+          "known": "I'm as tall as my father."
+        },
+        {
+          "learning": "Der Kurs ist nicht so schwer wie gedacht.",
+          "known": "The course isn't as hard as expected."
+        }
+      ]
+    },
+    {
+      "id": "tb1-u33-l03-komparativ-p2-ex02",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I'm as tall as my father.",
+      "tiles": [
+        "wie",
+        "mein",
+        "bin",
+        "schön",
+        "Vater",
+        "Jahres",
+        "so",
+        "groß",
+        "Ich",
+        "größer"
+      ],
+      "answers": [
+        "Ich bin so groß wie mein Vater."
+      ],
+      "explanation": "**Why:** Same height → so … wie.\n\n*Warum:* Gleich groß → so … wie."
+    },
+    {
+      "id": "tb1-u33-l03-komparativ-p2-ex03",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "The course isn't as hard as expected.",
+      "tiles": [
+        "Der",
+        "wie",
+        "nicht",
+        "schwer",
+        "Heute",
+        "gedacht",
+        "ist",
+        "wärmer",
+        "Kurs",
+        "bin",
+        "so"
+      ],
+      "answers": [
+        "Der Kurs ist nicht so schwer wie gedacht."
+      ],
+      "explanation": "**Why:** nicht so … wie = less.\n\n*Warum:* nicht so … wie = weniger."
+    },
+    {
+      "id": "tb1-u33-l03-komparativ-p2-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "She speaks German just as well as her husband.",
+      "tiles": [
+        "der",
+        "spricht",
+        "gut",
+        "Sie",
+        "wie",
+        "genauso",
+        "am",
+        "Deutsch",
+        "ihr",
+        "Im",
+        "Mann"
+      ],
+      "answers": [
+        "Sie spricht genauso gut Deutsch wie ihr Mann."
+      ],
+      "explanation": "**Why:** genauso = exactly the same.\n\n*Warum:* genauso = exakt gleich."
+    },
+    {
+      "id": "tb1-u33-l03-komparativ-p2-ex05",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "The food wasn't as good as last time.",
+      "tiles": [
+        "war",
+        "schwimme",
+        "letztes",
+        "wie",
+        "Essen",
+        "nicht",
+        "Der",
+        "München",
+        "gut",
+        "Das",
+        "Mal",
+        "so"
+      ],
+      "answers": [
+        "Das Essen war nicht so gut wie letztes Mal."
+      ],
+      "explanation": "**Why:** Base form gut (not besser!).\n\n*Warum:* Grundform gut (nicht besser!)."
+    },
+    {
+      "id": "tb1-u33-l03-komparativ-p2-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Come as quickly as possible!",
+      "tiles": [
+        "wie",
+        "Deutschlands",
+        "möglich",
+        "Komm",
+        "das",
+        "lieber",
+        "so",
+        "schnell"
+      ],
+      "answers": [
+        "Komm so schnell wie möglich!"
+      ],
+      "explanation": "**Why:** so … wie möglich = as … as possible.\n\n*Warum:* so … wie möglich = maximal."
+    },
+    {
+      "id": "tb1-u33-l03-komparativ-p2-ex07",
+      "type": "choice",
+      "title": "Fill the gap",
+      "prompt": "Im Winter sind die Tage ___ als im Sommer.",
+      "options": [
+        {
+          "id": "a",
+          "text": "kurzer"
+        },
+        {
+          "id": "b",
+          "text": "kürzer"
+        },
+        {
+          "id": "c",
+          "text": "am kürzesten"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "kurz → kürzer (mit Umlaut) + als."
+    },
+    {
+      "id": "tb1-u33-l03-komparativ-p2-ex08",
+      "type": "choice",
+      "title": "Find the mistake",
+      "prompt": "Which word is wrong? „Mein Bruder ist größer wie ich.“",
+      "options": [
+        {
+          "id": "a",
+          "text": "Mein"
+        },
+        {
+          "id": "b",
+          "text": "Bruder"
+        },
+        {
+          "id": "c",
+          "text": "ist"
+        },
+        {
+          "id": "d",
+          "text": "größer"
+        },
+        {
+          "id": "e",
+          "text": "wie"
+        },
+        {
+          "id": "f",
+          "text": "ich"
+        }
+      ],
+      "correctOptionId": "e",
+      "explanation": "„wie“ → „als“: **Mein Bruder ist größer als ich.**\n\nKomparativ + als: größer als ich. „wie“ nur bei Gleichheit (so groß wie)."
+    },
+    {
+      "id": "tb1-u33-l03-komparativ-p2-ex09",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Correct the sentence: „Mein Bruder ist größer wie ich.“",
+      "tiles": [
+        "wie",
+        "als",
+        "ich",
+        "München",
+        "Mein",
+        "ist",
+        "größer",
+        "Bruder",
+        "___"
+      ],
+      "answers": [
+        "Mein Bruder ist größer als ich."
+      ],
+      "explanation": "Komparativ + als: größer als ich. „wie“ nur bei Gleichheit (so groß wie)."
+    }
+  ]
+}

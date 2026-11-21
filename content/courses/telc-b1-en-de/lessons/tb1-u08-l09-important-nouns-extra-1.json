@@ -1,0 +1,236 @@
+{
+  "id": "tb1-u08-l09-important-nouns-extra-1",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u08",
+  "title": "Important Nouns (Extra) 1",
+  "tip": "Theme: Nomen: Wichtige Wörter (Nachtrag) (A2)",
+  "exercises": [
+    {
+      "id": "tb1-u08-l09-important-nouns-extra-1-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "das Buch",
+          "known": "book"
+        },
+        {
+          "id": "p2",
+          "learning": "der Film",
+          "known": "film / movie"
+        },
+        {
+          "id": "p3",
+          "learning": "die Musik",
+          "known": "music"
+        },
+        {
+          "id": "p4",
+          "learning": "das Radio",
+          "known": "radio"
+        },
+        {
+          "id": "p5",
+          "learning": "der Sport",
+          "known": "sport"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u08-l09-important-nouns-extra-1-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „book“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "der Film, die Filme"
+        },
+        {
+          "id": "b",
+          "text": "das Radio, die Radios"
+        },
+        {
+          "id": "c",
+          "text": "das Buch, die Bücher"
+        },
+        {
+          "id": "d",
+          "text": "das Restaurant, die Restaurants"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**das Buch** = book\n*Plural: die Bücher*\n\n*Example:* Am Wochenende lese ich gern ein spannendes Buch.\nAt the weekend I like to read an exciting book."
+    },
+    {
+      "id": "tb1-u08-l09-important-nouns-extra-1-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „film / movie“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Tafel, die Tafeln"
+        },
+        {
+          "id": "b",
+          "text": "das Buch, die Bücher"
+        },
+        {
+          "id": "c",
+          "text": "die Lehrerin, die Lehrerinnen"
+        },
+        {
+          "id": "d",
+          "text": "der Film, die Filme"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**der Film** = film / movie\n*Plural: die Filme*\n\n*Example:* Gestern haben wir im Kino einen tollen Film gesehen.\nYesterday we saw a great film at the cinema."
+    },
+    {
+      "id": "tb1-u08-l09-important-nouns-extra-1-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "At the weekend I like to read an exciting book.",
+      "tiles": [
+        "wir",
+        "ich",
+        "gern",
+        "lese",
+        "ein",
+        "Buch",
+        "italienisches",
+        "Wochenende",
+        "Am",
+        "spannendes",
+        "gibt"
+      ],
+      "answers": [
+        "Am Wochenende lese ich gern ein spannendes Buch."
+      ],
+      "explanation": "**das Buch** = book\n*Plural: die Bücher*"
+    },
+    {
+      "id": "tb1-u08-l09-important-nouns-extra-1-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „music“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Tafel, die Tafeln"
+        },
+        {
+          "id": "b",
+          "text": "die Musik"
+        },
+        {
+          "id": "c",
+          "text": "die Lehrerin, die Lehrerinnen"
+        },
+        {
+          "id": "d",
+          "text": "die Kartoffel, die Kartoffeln"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**die Musik** = music\n\n*Example:* Beim Kochen höre ich immer gern Musik.\nI always like listening to music while I cook."
+    },
+    {
+      "id": "tb1-u08-l09-important-nouns-extra-1-ex06",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u08-l09-important-nouns-extra-1-2.mp3"
+      },
+      "tiles": [
+        "gesehen",
+        "einen",
+        "Opa",
+        "Gestern",
+        "haben",
+        "Film",
+        "Sport",
+        "tollen",
+        "Kino",
+        "im",
+        "höre",
+        "wir"
+      ],
+      "answers": [
+        "Gestern haben wir im Kino einen tollen Film gesehen."
+      ],
+      "explanation": "Gestern haben wir im Kino einen tollen Film gesehen.\n*Yesterday we saw a great film at the cinema.*\n\n**der Film** = film / movie\n*Plural: die Filme*"
+    },
+    {
+      "id": "tb1-u08-l09-important-nouns-extra-1-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „radio“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Musik"
+        },
+        {
+          "id": "b",
+          "text": "der Lehrer, die Lehrer"
+        },
+        {
+          "id": "c",
+          "text": "das Radio, die Radios"
+        },
+        {
+          "id": "d",
+          "text": "die Kartoffel, die Kartoffeln"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**das Radio** = radio\n*Plural: die Radios*\n\n*Example:* Mein Opa hört jeden Morgen die Nachrichten im Radio.\nMy grandpa listens to the news on the radio every morning."
+    },
+    {
+      "id": "tb1-u08-l09-important-nouns-extra-1-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Beim Kochen höre ich immer gern Musik.",
+      "tiles": [
+        "to",
+        "I",
+        "always",
+        "music",
+        "teacher",
+        "I",
+        "while",
+        "listening",
+        "potatoes",
+        "like",
+        "cook",
+        "overnight"
+      ],
+      "answers": [
+        "I always like listening to music while I cook."
+      ],
+      "explanation": "**die Musik** = music"
+    },
+    {
+      "id": "tb1-u08-l09-important-nouns-extra-1-ex09",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "My grandpa listens to the news on the radio every morning.",
+      "tiles": [
+        "Wir",
+        "Opa",
+        "einen",
+        "Mein",
+        "hört",
+        "die",
+        "lese",
+        "Morgen",
+        "jeden",
+        "im",
+        "Nachrichten",
+        "Radio"
+      ],
+      "answers": [
+        "Mein Opa hört jeden Morgen die Nachrichten im Radio."
+      ],
+      "explanation": "**das Radio** = radio\n*Plural: die Radios*"
+    }
+  ]
+}

@@ -1,0 +1,284 @@
+{
+  "id": "tb1-u14-l02-family-relationships-2",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u14",
+  "title": "Family & Relationships 2",
+  "tip": "Theme: Familie / Beziehungen (B1)",
+  "exercises": [
+    {
+      "id": "tb1-u14-l02-family-relationships-2-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "der Cousin",
+          "known": "cousin (m/f)"
+        },
+        {
+          "id": "p2",
+          "learning": "der/die Verwandte, die Verwandten",
+          "known": "relative"
+        },
+        {
+          "id": "p3",
+          "learning": "heiraten , die Hochzeit, die Hochzeiten",
+          "known": "to marry"
+        },
+        {
+          "id": "p4",
+          "learning": "verheiratet",
+          "known": "married"
+        },
+        {
+          "id": "p5",
+          "learning": "sich scheiden lassen",
+          "known": "to get divorced"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u14-l02-family-relationships-2-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „cousin (m/f)“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "der Cousin, die Cousins · die Cousine, die Cousinen"
+        },
+        {
+          "id": "b",
+          "text": "das Kind, die Kinder · der Sohn, die Söhne · die Tochter, die Töchter"
+        },
+        {
+          "id": "c",
+          "text": "die Großeltern (Pl.) · der Enkel, die Enkel"
+        },
+        {
+          "id": "d",
+          "text": "der Onkel, die Onkel · die Tante, die Tanten"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**der Cousin** = cousin (m/f)\n*Plural: die Cousins · also: die Cousine, die Cousinen*\n\n*Example:* Meine Cousine heiratet nächsten Sommer.\nMy cousin is getting married next summer."
+    },
+    {
+      "id": "tb1-u14-l02-family-relationships-2-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which one means „relative“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "verheiratet · ledig · getrennt · geschieden"
+        },
+        {
+          "id": "b",
+          "text": "der/die Verwandte, die Verwandten"
+        },
+        {
+          "id": "c",
+          "text": "schwanger. Sie bekommt ein Kind."
+        },
+        {
+          "id": "d",
+          "text": "vertrauen + Dat."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**der/die Verwandte, die Verwandten** = relative\n\n*Example:* Zu Weihnachten kommen alle Verwandten zu uns.\nAll our relatives come to our place at Christmas."
+    },
+    {
+      "id": "tb1-u14-l02-family-relationships-2-ex04",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u14-l02-family-relationships-2-1.mp3"
+      },
+      "tiles": [
+        "heiratet",
+        "heute",
+        "Jahren",
+        "nächsten",
+        "Sommer",
+        "Meine",
+        "Cousine",
+        "Zu"
+      ],
+      "answers": [
+        "Meine Cousine heiratet nächsten Sommer."
+      ],
+      "explanation": "Meine Cousine heiratet nächsten Sommer.\n*My cousin is getting married next summer.*\n\n**der Cousin** = cousin (m/f)\n*Plural: die Cousins · also: die Cousine, die Cousinen*"
+    },
+    {
+      "id": "tb1-u14-l02-family-relationships-2-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which verb means „to marry: wedding“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "heiraten + Akk. (hat geheiratet), die Hochzeit, die Hochzeiten"
+        },
+        {
+          "id": "b",
+          "text": "sich streiten mit + Dat. (hat sich gestritten)"
+        },
+        {
+          "id": "c",
+          "text": "erziehen (hat erzogen): die Erziehung"
+        },
+        {
+          "id": "d",
+          "text": "sich kümmern um + Akk."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**heiraten + Akk. (hat geheiratet), die Hochzeit, die Hochzeiten** = to marry: wedding\n\n*Example:* Ali hat seine Freundin geheiratet, und die Hochzeit war wunderschön.\nAli married his girlfriend, and the wedding was beautiful."
+    },
+    {
+      "id": "tb1-u14-l02-family-relationships-2-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Zu Weihnachten kommen alle Verwandten zu uns.",
+      "tiles": [
+        "My",
+        "relatives",
+        "at",
+        "All",
+        "very",
+        "place",
+        "our",
+        "our",
+        "come",
+        "to",
+        "Christmas",
+        "and"
+      ],
+      "answers": [
+        "All our relatives come to our place at Christmas."
+      ],
+      "explanation": "**der/die Verwandte, die Verwandten** = relative"
+    },
+    {
+      "id": "tb1-u14-l02-family-relationships-2-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which one means „married · single · separated · divorced“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "vertrauen + Dat."
+        },
+        {
+          "id": "b",
+          "text": "verheiratet · ledig · getrennt · geschieden"
+        },
+        {
+          "id": "c",
+          "text": "geboren. Ich bin 1998 geboren."
+        },
+        {
+          "id": "d",
+          "text": "der/die Verwandte, die Verwandten"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**verheiratet · ledig · getrennt · geschieden** = married · single · separated · divorced\n\n*Example:* Mein Bruder ist verheiratet, aber meine Schwester ist noch ledig.\nMy brother is married, but my sister is still single."
+    },
+    {
+      "id": "tb1-u14-l02-family-relationships-2-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Ali married his girlfriend, and the wedding was beautiful.",
+      "tiles": [
+        "sich",
+        "hat",
+        "Ali",
+        "Ja",
+        "wunderschön",
+        "Hochzeit",
+        "seine",
+        "geheiratet",
+        "Freundin",
+        "und",
+        "geboren",
+        "die",
+        "war"
+      ],
+      "answers": [
+        "Ali hat seine Freundin geheiratet, und die Hochzeit war wunderschön."
+      ],
+      "explanation": "**heiraten + Akk. (hat geheiratet), die Hochzeit, die Hochzeiten** = to marry: wedding"
+    },
+    {
+      "id": "tb1-u14-l02-family-relationships-2-ex09",
+      "type": "multiple_choice",
+      "prompt": "Which verb means „to get divorced“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "aufwachsen (ist aufgewachsen)"
+        },
+        {
+          "id": "b",
+          "text": "sich verlieben in + Akk. ↔ sich trennen von + Dat."
+        },
+        {
+          "id": "c",
+          "text": "sich scheiden lassen"
+        },
+        {
+          "id": "d",
+          "text": "heiraten + Akk. (hat geheiratet), die Hochzeit, die Hochzeiten"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**sich scheiden lassen** = to get divorced\n\n*Example:* Nach zehn Jahren Ehe haben sie sich scheiden lassen.\nAfter ten years of marriage they got divorced."
+    },
+    {
+      "id": "tb1-u14-l02-family-relationships-2-ex10",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u14-l02-family-relationships-2-4.mp3"
+      },
+      "tiles": [
+        "ist",
+        "meine",
+        "Schwester",
+        "Geschwistern",
+        "ledig",
+        "Mein",
+        "aber",
+        "ist",
+        "sehr",
+        "verheiratet",
+        "besuchen",
+        "noch",
+        "Bruder"
+      ],
+      "answers": [
+        "Mein Bruder ist verheiratet, aber meine Schwester ist noch ledig."
+      ],
+      "explanation": "Mein Bruder ist verheiratet, aber meine Schwester ist noch ledig.\n*My brother is married, but my sister is still single.*\n\n**verheiratet · ledig · getrennt · geschieden** = married · single · separated · divorced"
+    },
+    {
+      "id": "tb1-u14-l02-family-relationships-2-ex11",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Nach zehn Jahren Ehe haben sie sich scheiden lassen.",
+      "tiles": [
+        "divorced",
+        "My",
+        "ten",
+        "got",
+        "After",
+        "years",
+        "of",
+        "they",
+        "marriage",
+        "a",
+        "up"
+      ],
+      "answers": [
+        "After ten years of marriage they got divorced."
+      ],
+      "explanation": "**sich scheiden lassen** = to get divorced"
+    }
+  ]
+}

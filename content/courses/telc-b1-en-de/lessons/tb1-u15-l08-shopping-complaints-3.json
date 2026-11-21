@@ -1,0 +1,292 @@
+{
+  "id": "tb1-u15-l08-shopping-complaints-3",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u15",
+  "title": "Shopping & Complaints 3",
+  "tip": "Theme: Einkaufen / Konsum / Reklamation (B1)",
+  "exercises": [
+    {
+      "id": "tb1-u15-l08-shopping-complaints-3-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "die Rechnung",
+          "known": "invoice"
+        },
+        {
+          "id": "p2",
+          "learning": "der Kassenbon",
+          "known": "receipt"
+        },
+        {
+          "id": "p3",
+          "learning": "die Größe",
+          "known": "size"
+        },
+        {
+          "id": "p4",
+          "learning": "passen Die Jacke passt mir nicht",
+          "known": "to fit. The jacket doesn't fit me."
+        },
+        {
+          "id": "p5",
+          "learning": "umtauschen",
+          "known": "to exchange (goods)"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u15-l08-shopping-complaints-3-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „invoice, bill“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "das Kaufhaus, die Kaufhäuser · der Supermarkt, die Supermärkte"
+        },
+        {
+          "id": "b",
+          "text": "der Rabatt, die Rabatte: reduziert"
+        },
+        {
+          "id": "c",
+          "text": "das Geschäft, die Geschäfte · der Laden, die Läden"
+        },
+        {
+          "id": "d",
+          "text": "die Rechnung, die Rechnungen"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**die Rechnung** = invoice, bill\n*Plural: die Rechnungen*\n\n*Example:* Die Rechnung für die Reparatur war leider sehr hoch.\nUnfortunately, the bill for the repair was very high."
+    },
+    {
+      "id": "tb1-u15-l08-shopping-complaints-3-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „receipt, no receipt, no exchange!“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "der Verkäufer, die Verkäufer / die Verkäuferin, die Verkäuferinnen"
+        },
+        {
+          "id": "b",
+          "text": "der Kunde, die Kunden (n-Dekl.) / die Kundin, die Kundinnen"
+        },
+        {
+          "id": "c",
+          "text": "der Kassenbon, die Kassenbons · die Quittung, die Quittungen"
+        },
+        {
+          "id": "d",
+          "text": "die Garantie, die Garantien"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**der Kassenbon** = receipt, no receipt, no exchange!\n*Plural: die Kassenbons · also: die Quittung, die Quittungen*\n\n*Example:* Heben Sie bitte den Kassenbon auf, sonst können Sie nichts umtauschen.\nPlease keep the receipt, otherwise you can't exchange anything."
+    },
+    {
+      "id": "tb1-u15-l08-shopping-complaints-3-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Unfortunately, the bill for the repair was very high.",
+      "tiles": [
+        "leider",
+        "ich",
+        "für",
+        "Reparatur",
+        "Die",
+        "war",
+        "im",
+        "hoch",
+        "sehr",
+        "die",
+        "den",
+        "Rechnung"
+      ],
+      "answers": [
+        "Die Rechnung für die Reparatur war leider sehr hoch."
+      ],
+      "explanation": "**die Rechnung** = invoice, bill\n*Plural: die Rechnungen*"
+    },
+    {
+      "id": "tb1-u15-l08-shopping-complaints-3-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „size: to try on“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Größe, die Größen: anprobieren"
+        },
+        {
+          "id": "b",
+          "text": "der Preis, die Preise: günstig/preiswert ↔ teuer"
+        },
+        {
+          "id": "c",
+          "text": "das Geschäft, die Geschäfte · der Laden, die Läden"
+        },
+        {
+          "id": "d",
+          "text": "die Kasse, die Kassen: bar ↔ mit Karte zahlen"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**die Größe** = size: to try on\n*Plural: die Größen: anprobieren*\n\n*Example:* Welche Größe haben Sie? Sie können die Hose gern anprobieren.\nWhat size are you? You're welcome to try the trousers on."
+    },
+    {
+      "id": "tb1-u15-l08-shopping-complaints-3-ex06",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u15-l08-shopping-complaints-3-2.mp3"
+      },
+      "tiles": [
+        "Sie",
+        "Kassenbon",
+        "können",
+        "den",
+        "sehr",
+        "Sie",
+        "in",
+        "nichts",
+        "umtauschen",
+        "bitte",
+        "Heben",
+        "Die",
+        "sonst",
+        "auf"
+      ],
+      "answers": [
+        "Heben Sie bitte den Kassenbon auf, sonst können Sie nichts umtauschen."
+      ],
+      "explanation": "Heben Sie bitte den Kassenbon auf, sonst können Sie nichts umtauschen.\n*Please keep the receipt, otherwise you can't exchange anything.*\n\n**der Kassenbon** = receipt, no receipt, no exchange!\n*Plural: die Kassenbons · also: die Quittung, die Quittungen*"
+    },
+    {
+      "id": "tb1-u15-l08-shopping-complaints-3-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which one means „to fit. The jacket doesn't fit me.“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "bestellen: die Bestellung, die Bestellungen"
+        },
+        {
+          "id": "b",
+          "text": "beschädigt · kaputt"
+        },
+        {
+          "id": "c",
+          "text": "passen + Dat. Die Jacke passt mir nicht."
+        },
+        {
+          "id": "d",
+          "text": "liefern: die Lieferung, die Lieferungen"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**passen + Dat. Die Jacke passt mir nicht.** = to fit. The jacket doesn't fit me.\n\n*Example:* Die Schuhe sind schön, aber sie passen mir leider nicht.\nThe shoes are nice, but unfortunately they don't fit me."
+    },
+    {
+      "id": "tb1-u15-l08-shopping-complaints-3-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Welche Größe haben Sie? Sie können die Hose gern anprobieren.",
+      "tiles": [
+        "What",
+        "size",
+        "welcome",
+        "trousers",
+        "you",
+        "two-year",
+        "try",
+        "on",
+        "washing",
+        "are",
+        "the",
+        "You're",
+        "is",
+        "to"
+      ],
+      "answers": [
+        "What size are you? You're welcome to try the trousers on."
+      ],
+      "explanation": "**die Größe** = size: to try on\n*Plural: die Größen: anprobieren*"
+    },
+    {
+      "id": "tb1-u15-l08-shopping-complaints-3-ex09",
+      "type": "multiple_choice",
+      "prompt": "Which verb means „to exchange (goods)“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "zurückgeben (hat zurückgegeben): das Geld zurückbekommen"
+        },
+        {
+          "id": "b",
+          "text": "sich beschweren über + Akk. (hat sich beschwert)"
+        },
+        {
+          "id": "c",
+          "text": "umtauschen (hat umgetauscht)"
+        },
+        {
+          "id": "d",
+          "text": "das Kaufhaus, die Kaufhäuser · der Supermarkt, die Supermärkte"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**umtauschen (hat umgetauscht)** = to exchange (goods)\n\n*Example:* Der Pullover ist zu klein, ich möchte ihn umtauschen.\nThe jumper is too small; I'd like to exchange it."
+    },
+    {
+      "id": "tb1-u15-l08-shopping-complaints-3-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "The shoes are nice, but unfortunately they don't fit me.",
+      "tiles": [
+        "aber",
+        "Die",
+        "passen",
+        "Reißverschluss",
+        "sind",
+        "Schuhe",
+        "schön",
+        "Tagen",
+        "leider",
+        "mir",
+        "sie",
+        "Bestellung",
+        "nicht"
+      ],
+      "answers": [
+        "Die Schuhe sind schön, aber sie passen mir leider nicht."
+      ],
+      "explanation": "**passen + Dat. Die Jacke passt mir nicht.** = to fit. The jacket doesn't fit me."
+    },
+    {
+      "id": "tb1-u15-l08-shopping-complaints-3-ex11",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u15-l08-shopping-complaints-3-5.mp3"
+      },
+      "tiles": [
+        "Das",
+        "umtauschen",
+        "ist",
+        "zu",
+        "Der",
+        "klein",
+        "ich",
+        "Pullover",
+        "möchte",
+        "nichts",
+        "reduziert",
+        "ihn"
+      ],
+      "answers": [
+        "Der Pullover ist zu klein, ich möchte ihn umtauschen."
+      ],
+      "explanation": "Der Pullover ist zu klein, ich möchte ihn umtauschen.\n*The jumper is too small; I'd like to exchange it.*\n\n**umtauschen (hat umgetauscht)** = to exchange (goods)"
+    }
+  ]
+}

@@ -1,0 +1,269 @@
+{
+  "id": "eb-u01-l02-q1-10",
+  "courseId": "einbuergerung-en-de",
+  "unitId": "eb-u01",
+  "title": "Questions 1–10 (Fragen 1–10)",
+  "tip": "After each Check you get an English explanation and a short German note (Auf Deutsch).",
+  "exercises": [
+    {
+      "id": "eb-u01-l02-q1-10-ex01",
+      "type": "choice",
+      "title": "Frage 1 · Block 1",
+      "prompt": "In Deutschland dürfen Menschen offen etwas gegen die Regierung sagen, weil …",
+      "options": [
+        {
+          "id": "a",
+          "text": "hier Religionsfreiheit gilt"
+        },
+        {
+          "id": "b",
+          "text": "die Menschen Steuern zahlen"
+        },
+        {
+          "id": "c",
+          "text": "die Menschen das Wahlrecht haben"
+        },
+        {
+          "id": "d",
+          "text": "hier Meinungsfreiheit gilt"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**Correct answer:** hier Meinungsfreiheit gilt\n\nOpenly criticizing the government is the textbook exercise of **Meinungsfreiheit** (freedom of expression, Art. 5 GG), the right that most sharply separates democracies from dictatorships, where such criticism lands you in prison.\n\nA confuses two different rights. Religionsfreiheit protects belief, not political speech. B and C are real features of life in Germany, but neither is the *legal basis* for speech: you may criticize the government even if you pay no taxes (children, tourists) and even if you can't vote (foreigners, including you, right now, legally criticizing German politics).\n\n## Auf Deutsch\n\nMeinungsfreiheit steht in Artikel 5 des Grundgesetzes. Kritik an der Regierung ist immer erlaubt.\n\n**Vocabulary (Wortschatz):** die Meinungsfreiheit = freedom of opinion/expression."
+    },
+    {
+      "id": "eb-u01-l02-q1-10-ex02",
+      "type": "choice",
+      "title": "Frage 2 · Block 1",
+      "prompt": "In Deutschland können Eltern bis zum 14. Lebensjahr ihres Kindes entscheiden, ob es in der Schule am … teilnimmt.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Geschichtsunterricht"
+        },
+        {
+          "id": "b",
+          "text": "Religionsunterricht"
+        },
+        {
+          "id": "c",
+          "text": "Politikunterricht"
+        },
+        {
+          "id": "d",
+          "text": "Sprachunterricht"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Correct answer:** Religionsunterricht\n\nReligion is the one school subject tied to a personal freedom (Art. 4 GG + Art. 7(2) GG). Parents direct a child's religious upbringing until **age 14**, the age of **Religionsmündigkeit** (religious majority), after which the young person decides alone.\n\nHistory, politics, and language are ordinary compulsory subjects, there's no opt-out, because they carry no conflict with freedom of conscience. Remember the pairing: *14 = religion decision; 18 = everything else (voting, contracts, full adulthood).*\n\n## Auf Deutsch\n\nBis 14 entscheiden die Eltern über den Religionsunterricht; ab 14 ist man religionsmündig."
+    },
+    {
+      "id": "eb-u01-l02-q1-10-ex03",
+      "type": "choice",
+      "title": "Frage 3 · Block 1",
+      "prompt": "Deutschland ist ein Rechtsstaat. Was ist damit gemeint?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Alle Einwohner/Einwohnerinnen und der Staat müssen sich an die Gesetze halten"
+        },
+        {
+          "id": "b",
+          "text": "Der Staat muss sich nicht an die Gesetze halten"
+        },
+        {
+          "id": "c",
+          "text": "Nur Deutsche müssen die Gesetze befolgen"
+        },
+        {
+          "id": "d",
+          "text": "Die Gerichte machen die Gesetze"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Correct answer:** Alle Einwohner/Einwohnerinnen und der Staat müssen sich an die Gesetze halten\n\nThe essence of the **Rechtsstaat** (rule-of-law state): the state is *itself* bound by law. Every act of government needs a legal basis (Vorbehalt des Gesetzes) and can be challenged in court. This is why you can sue a Behörde, and win.\n\nB describes an authoritarian state, the exact opposite. C is wrong because laws bind everyone on German territory, regardless of citizenship. D scrambles the separation of powers: courts *apply* law; parliament *makes* it (→Q42).\n\n## Auf Deutsch\n\nRechtsstaat heißt: Auch der Staat selbst muss sich an die Gesetze halten.\n\n**Vocabulary (Wortschatz):** der Rechtsstaat = state under the rule of law. This concept reappears in Q53 and throughout your Loyalitätserklärung interview, internalize it, don't memorize it."
+    },
+    {
+      "id": "eb-u01-l02-q1-10-ex04",
+      "type": "choice",
+      "title": "Frage 4 · Block 1",
+      "prompt": "Welches Recht gehört zu den Grundrechten in Deutschland?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Waffenbesitz"
+        },
+        {
+          "id": "b",
+          "text": "Faustrecht"
+        },
+        {
+          "id": "c",
+          "text": "Meinungsfreiheit"
+        },
+        {
+          "id": "d",
+          "text": "Selbstjustiz"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**Correct answer:** Meinungsfreiheit\n\nMeinungsfreiheit is a Grundrecht (Art. 5 GG).\n\nGermany has **no constitutional right to bear arms** (A), gun ownership is a strictly regulated administrative permission, a deliberate contrast to the US model. **Faustrecht** (\"law of the fist,\" B) and **Selbstjustiz** (vigilante justice, D) mean taking the law into your own hands, the state's **Gewaltmonopol** (monopoly on legitimate force) forbids exactly that; only police and courts may enforce rights.\n\n## Auf Deutsch\n\nMeinungsfreiheit ist ein Grundrecht (Art. 5 GG); Waffenbesitz, Faustrecht und Selbstjustiz nicht."
+    },
+    {
+      "id": "eb-u01-l02-q1-10-ex05",
+      "type": "choice",
+      "title": "Frage 5 · Block 1",
+      "prompt": "Wahlen in Deutschland sind frei. Was bedeutet das?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Man darf Geld annehmen, wenn man dafür einen bestimmten Kandidaten wählt"
+        },
+        {
+          "id": "b",
+          "text": "Der Wähler darf bei der Wahl weder beeinflusst noch zu einer bestimmten Stimmabgabe gezwungen werden und keine Nachteile durch die Wahl haben"
+        },
+        {
+          "id": "c",
+          "text": "Nur wer noch nie im Gefängnis war, darf wählen"
+        },
+        {
+          "id": "d",
+          "text": "Alle wahlberechtigten Personen müssen wählen"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Correct answer:** Der Wähler darf bei der Wahl weder beeinflusst noch zu einer bestimmten Stimmabgabe gezwungen werden und keine Nachteile durch die Wahl haben\n\n\"Frei\" is one of the five constitutional election principles (→Q112, Q122): no coercion, no bribery, no pressure from employer/family/state, no disadvantage for how (or whether) you vote.\n\nA describes vote-buying, a crime that *violates* free elections. C invents a restriction that doesn't exist (even most prisoners can vote). D describes compulsory voting (Wahlpflicht). Germany deliberately has none; a *free* election includes the freedom to stay home (→Q114).\n\n## Auf Deutsch\n\n„Frei“ = ohne Druck, ohne Zwang, ohne Nachteile wählen. Stimmenkauf ist verboten."
+    },
+    {
+      "id": "eb-u01-l02-q1-10-ex06",
+      "type": "choice",
+      "title": "Frage 6 · Block 1",
+      "prompt": "Wie heißt die deutsche Verfassung?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Volksgesetz"
+        },
+        {
+          "id": "b",
+          "text": "Bundesgesetz"
+        },
+        {
+          "id": "c",
+          "text": "Deutsches Gesetz"
+        },
+        {
+          "id": "d",
+          "text": "Grundgesetz"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**Correct answer:** Grundgesetz\n\nAdopted in 1949, deliberately named **Grundgesetz** (\"Basic Law\") rather than *Verfassung* because West Germany saw itself as provisional until reunification, yet it proved so successful that reunified Germany kept it in 1990.\n\nA–C are invented terms; a *Bundesgesetz* is just any ordinary federal statute, which ranks *below* the Grundgesetz. →Q11 asks the same fact in reverse, guaranteed easy point, learn it cold.\n\n## Auf Deutsch\n\nDie deutsche Verfassung von 1949 heißt Grundgesetz."
+    },
+    {
+      "id": "eb-u01-l02-q1-10-ex07",
+      "type": "choice",
+      "title": "Frage 7 · Block 1",
+      "prompt": "Welches Recht gehört zu den Grundrechten, die nach der deutschen Verfassung garantiert werden? Das Recht auf …",
+      "options": [
+        {
+          "id": "a",
+          "text": "Glaubens- und Gewissensfreiheit"
+        },
+        {
+          "id": "b",
+          "text": "Unterhaltung"
+        },
+        {
+          "id": "c",
+          "text": "Arbeit"
+        },
+        {
+          "id": "d",
+          "text": "Wohnung"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Correct answer:** Glaubens- und Gewissensfreiheit\n\nFreedom of faith and conscience (Art. 4 GG), believe anything, change religion, or believe nothing.\n\nThis question teaches a subtle, important point: the Grundgesetz guarantees **freedoms**, not **provisions**. There is no constitutional right to be given a job (C) or a home (D), the *Sozialstaat* helps people in need through ordinary laws (Bürgergeld, Wohngeld), but that's welfare policy, not a fundamental right. East Germany's constitution *did* promise work, and delivered dictatorship; the contrast is deliberate. B (entertainment) is a distractor with no legal meaning.\n\n## Auf Deutsch\n\nGlaubens- und Gewissensfreiheit steht in Artikel 4 des Grundgesetzes."
+    },
+    {
+      "id": "eb-u01-l02-q1-10-ex08",
+      "type": "choice",
+      "title": "Frage 8 · Block 1",
+      "prompt": "Was steht nicht im Grundgesetz von Deutschland?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Die Würde des Menschen ist unantastbar"
+        },
+        {
+          "id": "b",
+          "text": "Alle sollen gleich viel Geld haben"
+        },
+        {
+          "id": "c",
+          "text": "Jeder Mensch darf seine Meinung sagen"
+        },
+        {
+          "id": "d",
+          "text": "Alle sind vor dem Gesetz gleich"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Correct answer:** Alle sollen gleich viel Geld haben\n\nWatch the **nicht**, the question asks what is NOT in the constitution. Equal *income* is nowhere guaranteed: Germany's social market economy accepts wealth differences and cushions them through the welfare state.\n\nA is Art. 1 (dignity), C is Art. 5 (expression), D is Art. 3 (equality *before the law*, equal treatment, not equal outcomes). The distinction \"Gleichheit vor dem Gesetz ≠ gleiches Geld\" is a favorite exam trap.\n\n## Auf Deutsch\n\n„Alle sollen gleich viel Geld haben“ steht NICHT im Grundgesetz. Gleichheit vor dem Gesetz schon."
+    },
+    {
+      "id": "eb-u01-l02-q1-10-ex09",
+      "type": "choice",
+      "title": "Frage 9 · Block 1",
+      "prompt": "Welches Grundrecht gilt in Deutschland nur für Ausländer/Ausländerinnen? Das Grundrecht auf …",
+      "options": [
+        {
+          "id": "a",
+          "text": "Schutz der Familie"
+        },
+        {
+          "id": "b",
+          "text": "Menschenwürde"
+        },
+        {
+          "id": "c",
+          "text": "Asyl"
+        },
+        {
+          "id": "d",
+          "text": "Meinungsfreiheit"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**Correct answer:** Asyl\n\nAsylum (Art. 16a GG) logically can't apply to Germans, you can't seek refuge in your own country from your own country. It exists precisely for *politisch Verfolgte* (politically persecuted) foreigners, a direct constitutional lesson from the Nazi era, when Germans themselves depended on other countries' asylum.\n\nDignity, family protection, and free expression are **Menschenrechte**, they belong to every human on German soil, German or not. (Some other rights, like assembly and occupational freedom, are technically \"Deutschenrechte\", the reverse case, but that's beyond test scope.)\n\n## Auf Deutsch\n\nAsyl (Art. 16a GG) ist das einzige Grundrecht nur für Ausländer."
+    },
+    {
+      "id": "eb-u01-l02-q1-10-ex10",
+      "type": "choice",
+      "title": "Frage 10 · Block 1",
+      "prompt": "Was ist mit dem deutschen Grundgesetz vereinbar?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Prügelstrafe"
+        },
+        {
+          "id": "b",
+          "text": "die Folter"
+        },
+        {
+          "id": "c",
+          "text": "die Todesstrafe"
+        },
+        {
+          "id": "d",
+          "text": "die Geldstrafe"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**Correct answer:** die Geldstrafe\n\nFines are the everyday, constitutional criminal sanction.\n\nThe death penalty is **explicitly abolished** by Art. 102 GG (\"Die Todesstrafe ist abgeschafft\"), another direct answer to Nazi-era justice. Torture (B) violates human dignity (Art. 1) absolutely, no exceptions, not even for terrorists. Corporal punishment (A) is banned in criminal law and even in parenting (→Q251: children have a legal right to a violence-free upbringing).\n\n## Auf Deutsch\n\nDie Geldstrafe ist erlaubt; Folter, Todesstrafe und Prügelstrafe verbietet das Grundgesetz."
+    }
+  ]
+}

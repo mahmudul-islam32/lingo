@@ -1,0 +1,201 @@
+{
+  "id": "tb1-u28-l11-informal-e-mails-2",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u28",
+  "title": "Informal E-mails 2",
+  "tip": "Theme: Sätze: Informelle E-Mail (B1)",
+  "exercises": [
+    {
+      "id": "tb1-u28-l11-informal-e-mails-2-ex01",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means „I'm really looking forward to your reply.“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Danke für deine E-Mail, ich habe mich sehr gefreut."
+        },
+        {
+          "id": "b",
+          "text": "Kannst du mir kurz Bescheid geben, ob das klappt?"
+        },
+        {
+          "id": "c",
+          "text": "Ich freue mich schon sehr auf deine Antwort."
+        },
+        {
+          "id": "d",
+          "text": "Wie geht es dir? Bei mir ist viel passiert."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**Ich freue mich schon sehr auf deine Antwort.** = I'm really looking forward to your reply.\n\n*Example:* Ich freue mich schon sehr auf deine Antwort.\nI'm really looking forward to your reply."
+    },
+    {
+      "id": "tb1-u28-l11-informal-e-mails-2-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means „Get in touch when you have time!“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Vielleicht können wir das nächste Woche nachholen."
+        },
+        {
+          "id": "b",
+          "text": "Ich habe eine gute Nachricht: Ich habe die Prüfung bestanden!"
+        },
+        {
+          "id": "c",
+          "text": "Wie geht es dir? Bei mir ist viel passiert."
+        },
+        {
+          "id": "d",
+          "text": "Melde dich, wenn du Zeit hast!"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**Melde dich, wenn du Zeit hast!** = Get in touch when you have time!\n\n*Example:* Melde dich, wenn du Zeit hast!\nGet in touch when you have time!"
+    },
+    {
+      "id": "tb1-u28-l11-informal-e-mails-2-ex03",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I'm really looking forward to your reply.",
+      "tiles": [
+        "schon",
+        "auf",
+        "deine",
+        "sehr",
+        "freue",
+        "es",
+        "Woche",
+        "mich",
+        "Antwort",
+        "hast",
+        "Ich"
+      ],
+      "answers": [
+        "Ich freue mich schon sehr auf deine Antwort."
+      ],
+      "explanation": "**Ich freue mich schon sehr auf deine Antwort.** = I'm really looking forward to your reply."
+    },
+    {
+      "id": "tb1-u28-l11-informal-e-mails-2-ex04",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means „Thanks for your e-mail. I was very happy about it.“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Kannst du mir kurz Bescheid geben, ob das klappt?"
+        },
+        {
+          "id": "b",
+          "text": "Wie geht es dir? Bei mir ist viel passiert."
+        },
+        {
+          "id": "c",
+          "text": "Danke für deine E-Mail, ich habe mich sehr gefreut."
+        },
+        {
+          "id": "d",
+          "text": "Ich freue mich schon sehr auf deine Antwort."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**Danke für deine E-Mail, ich habe mich sehr gefreut.** = Thanks for your e-mail. I was very happy about it.\n\n*Example:* Danke für deine E-Mail, ich habe mich sehr gefreut.\nThanks for your e-mail. I was very happy about it."
+    },
+    {
+      "id": "tb1-u28-l11-informal-e-mails-2-ex05",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u28-l11-informal-e-mails-2-2.mp3"
+      },
+      "tiles": [
+        "es",
+        "Zeit",
+        "wenn",
+        "du",
+        "dich",
+        "hast",
+        "klappt",
+        "Melde",
+        "nicht"
+      ],
+      "answers": [
+        "Melde dich, wenn du Zeit hast!"
+      ],
+      "explanation": "Melde dich, wenn du Zeit hast!\n*Get in touch when you have time!*\n\n**Melde dich, wenn du Zeit hast!** = Get in touch when you have time!"
+    },
+    {
+      "id": "tb1-u28-l11-informal-e-mails-2-ex06",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means „Maybe we can make up for it next week.“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ich freue mich schon sehr auf deine Antwort."
+        },
+        {
+          "id": "b",
+          "text": "Vielleicht können wir das nächste Woche nachholen."
+        },
+        {
+          "id": "c",
+          "text": "Es tut mir leid, dass ich mich so lange nicht gemeldet habe."
+        },
+        {
+          "id": "d",
+          "text": "Wie geht es dir? Bei mir ist viel passiert."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Vielleicht können wir das nächste Woche nachholen.** = Maybe we can make up for it next week.\n\n*Example:* Vielleicht können wir das nächste Woche nachholen.\nMaybe we can make up for it next week."
+    },
+    {
+      "id": "tb1-u28-l11-informal-e-mails-2-ex07",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Danke für deine E-Mail, ich habe mich sehr gefreut.",
+      "tiles": [
+        "in",
+        "about",
+        "touch",
+        "very",
+        "I",
+        "news",
+        "e-mail",
+        "Thanks",
+        "it",
+        "was",
+        "for",
+        "your",
+        "happy"
+      ],
+      "answers": [
+        "Thanks for your e-mail. I was very happy about it."
+      ],
+      "explanation": "**Danke für deine E-Mail, ich habe mich sehr gefreut.** = Thanks for your e-mail. I was very happy about it."
+    },
+    {
+      "id": "tb1-u28-l11-informal-e-mails-2-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Maybe we can make up for it next week.",
+      "tiles": [
+        "kurz",
+        "nachholen",
+        "ich",
+        "wir",
+        "Vielleicht",
+        "können",
+        "Woche",
+        "Danke",
+        "das",
+        "nächste"
+      ],
+      "answers": [
+        "Vielleicht können wir das nächste Woche nachholen."
+      ],
+      "explanation": "**Vielleicht können wir das nächste Woche nachholen.** = Maybe we can make up for it next week."
+    }
+  ]
+}

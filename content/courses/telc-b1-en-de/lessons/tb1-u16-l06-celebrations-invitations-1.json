@@ -1,0 +1,283 @@
+{
+  "id": "tb1-u16-l06-celebrations-invitations-1",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u16",
+  "title": "Celebrations & Invitations 1",
+  "tip": "Theme: Feste / Kultur / Einladungen (B1)",
+  "exercises": [
+    {
+      "id": "tb1-u16-l06-celebrations-invitations-1-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "das Fest",
+          "known": "festival"
+        },
+        {
+          "id": "p2",
+          "learning": "die Party",
+          "known": "party"
+        },
+        {
+          "id": "p3",
+          "learning": "der Geburtstag",
+          "known": "birthday"
+        },
+        {
+          "id": "p4",
+          "learning": "Herzlichen Glückwunsch zum Geburtstag!",
+          "known": "Happy birthday!"
+        },
+        {
+          "id": "p5",
+          "learning": "das Geschenk",
+          "known": "present"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u16-l06-celebrations-invitations-1-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „festival · celebration: to celebrate“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "das Fest, die Feste · die Feier, die Feiern: feiern"
+        },
+        {
+          "id": "b",
+          "text": "der Gast, die Gäste ↔ der Gastgeber, die Gastgeber"
+        },
+        {
+          "id": "c",
+          "text": "die Kultur, die Kulturen"
+        },
+        {
+          "id": "d",
+          "text": "die Stimmung (nur Sg.), gute Stimmung"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**das Fest** = festival · celebration: to celebrate\n*Plural: die Feste · also: die Feier, die Feiern: feiern*\n\n*Example:* Im Sommer feiert unser Dorf ein großes Fest mit Musik.\nIn summer our village celebrates a big festival with music."
+    },
+    {
+      "id": "tb1-u16-l06-celebrations-invitations-1-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „party: to throw a party“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Kultur, die Kulturen"
+        },
+        {
+          "id": "b",
+          "text": "die Party, die Partys: eine Party geben"
+        },
+        {
+          "id": "c",
+          "text": "das Geschenk, die Geschenke, schenken + Dat. + Akk."
+        },
+        {
+          "id": "d",
+          "text": "die Einladung, die Einladungen: einladen (hat eingeladen)"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**die Party** = party: to throw a party\n*Plural: die Partys: eine Party geben*\n\n*Example:* Nächsten Freitag gibt Tom eine Party in seiner neuen Wohnung.\nNext Friday Tom is throwing a party in his new flat."
+    },
+    {
+      "id": "tb1-u16-l06-celebrations-invitations-1-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Im Sommer feiert unser Dorf ein großes Fest mit Musik.",
+      "tiles": [
+        "wedding",
+        "of",
+        "village",
+        "our",
+        "with",
+        "celebrates",
+        "In",
+        "big",
+        "a",
+        "summer",
+        "music",
+        "thanked",
+        "festival"
+      ],
+      "answers": [
+        "In summer our village celebrates a big festival with music."
+      ],
+      "explanation": "**das Fest** = festival · celebration: to celebrate\n*Plural: die Feste · also: die Feier, die Feiern: feiern*"
+    },
+    {
+      "id": "tb1-u16-l06-celebrations-invitations-1-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „birthday“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "das Feuerwerk, die Feuerwerke"
+        },
+        {
+          "id": "b",
+          "text": "der Geburtstag, die Geburtstage"
+        },
+        {
+          "id": "c",
+          "text": "die Tradition, die Traditionen: traditionell"
+        },
+        {
+          "id": "d",
+          "text": "die Kultur, die Kulturen"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**der Geburtstag** = birthday\n*Plural: die Geburtstage*\n\n*Example:* Mein Sohn hat am 3. Mai Geburtstag.\nMy son's birthday is on the 3rd of May."
+    },
+    {
+      "id": "tb1-u16-l06-celebrations-invitations-1-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Next Friday Tom is throwing a party in his new flat.",
+      "tiles": [
+        "Tom",
+        "Party",
+        "um",
+        "eine",
+        "Glückwunsch",
+        "Freitag",
+        "neuen",
+        "in",
+        "getanzt",
+        "Nächsten",
+        "seiner",
+        "gibt",
+        "Wohnung"
+      ],
+      "answers": [
+        "Nächsten Freitag gibt Tom eine Party in seiner neuen Wohnung."
+      ],
+      "explanation": "**die Party** = party: to throw a party\n*Plural: die Partys: eine Party geben*"
+    },
+    {
+      "id": "tb1-u16-l06-celebrations-invitations-1-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which one means „Happy birthday!“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Weihnachten · Ostern · Silvester"
+        },
+        {
+          "id": "b",
+          "text": "gratulieren + Dat. zu + Dat. Ich gratuliere dir zur bestandenen Prüfung!"
+        },
+        {
+          "id": "c",
+          "text": "Herzlichen Glückwunsch zum Geburtstag!"
+        },
+        {
+          "id": "d",
+          "text": "vorbereiten: die Vorbereitung, die Vorbereitungen"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**Herzlichen Glückwunsch zum Geburtstag!** = Happy birthday!\n\n*Example:* Herzlichen Glückwunsch zum Geburtstag, Maria! Alles Gute für dich!\nHappy birthday, Maria! All the best to you!"
+    },
+    {
+      "id": "tb1-u16-l06-celebrations-invitations-1-ex08",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u16-l06-celebrations-invitations-1-3.mp3"
+      },
+      "tiles": [
+        "Dorf",
+        "am",
+        "Sohn",
+        "Geburtstag",
+        "hat",
+        "3",
+        "Mai",
+        "Kultur",
+        "Mein",
+        "Party"
+      ],
+      "answers": [
+        "Mein Sohn hat am 3. Mai Geburtstag."
+      ],
+      "explanation": "Mein Sohn hat am 3. Mai Geburtstag.\n*My son's birthday is on the 3rd of May.*\n\n**der Geburtstag** = birthday\n*Plural: die Geburtstage*"
+    },
+    {
+      "id": "tb1-u16-l06-celebrations-invitations-1-ex09",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „present: to give (as a gift)“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Einladung, die Einladungen: einladen (hat eingeladen)"
+        },
+        {
+          "id": "b",
+          "text": "der Feiertag, die Feiertage"
+        },
+        {
+          "id": "c",
+          "text": "die Kultur, die Kulturen"
+        },
+        {
+          "id": "d",
+          "text": "das Geschenk, die Geschenke, schenken + Dat. + Akk."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**das Geschenk, die Geschenke, schenken + Dat. + Akk.** = present: to give (as a gift)\n\n*Example:* Zum Hochzeitstag schenkt Ali seiner Frau Blumen.\nFor their wedding anniversary Ali gives his wife flowers."
+    },
+    {
+      "id": "tb1-u16-l06-celebrations-invitations-1-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Herzlichen Glückwunsch zum Geburtstag, Maria! Alles Gute für dich!",
+      "tiles": [
+        "to",
+        "you",
+        "birthday",
+        "All",
+        "Maria",
+        "the",
+        "for",
+        "Happy",
+        "anniversary",
+        "best",
+        "celebration"
+      ],
+      "answers": [
+        "Happy birthday, Maria! All the best to you!"
+      ],
+      "explanation": "**Herzlichen Glückwunsch zum Geburtstag!** = Happy birthday!"
+    },
+    {
+      "id": "tb1-u16-l06-celebrations-invitations-1-ex11",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "For their wedding anniversary Ali gives his wife flowers.",
+      "tiles": [
+        "Blumen",
+        "gibt",
+        "schenkt",
+        "Ich",
+        "um",
+        "seiner",
+        "Zum",
+        "Ali",
+        "Frau",
+        "Hochzeitstag"
+      ],
+      "answers": [
+        "Zum Hochzeitstag schenkt Ali seiner Frau Blumen."
+      ],
+      "explanation": "**das Geschenk, die Geschenke, schenken + Dat. + Akk.** = present: to give (as a gift)"
+    }
+  ]
+}

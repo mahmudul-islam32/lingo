@@ -1,0 +1,129 @@
+{
+  "id": "tb1-u30-l26-alswenn-rule",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u30",
+  "title": "als vs. wenn (Past): the rule",
+  "tip": "“Wenn ich nach Deutschland kam …” is wrong for the single arrival → Als ich nach Deutschland kam.",
+  "exercises": [
+    {
+      "id": "tb1-u30-l26-alswenn-rule-ex01",
+      "type": "explain",
+      "title": "als vs. wenn (Past)",
+      "body": "**als** = ONE single event/period in the past (als ich ein Kind war). **wenn** = repeated (immer wenn …) or present/future/condition. Rule of thumb: one time + finished → als.\n\n*Deutsch:* **als** = EINMAL in der Vergangenheit (als ich ein Kind war). **wenn** = wiederholt (immer wenn …) oder Gegenwart/Zukunft/Bedingung. Merksatz: einmalig + vorbei → als.\n\n*German name:* als vs. wenn (Vergangenheit)",
+      "examples": [
+        {
+          "learning": "Als ich 18 war, habe ich den Führerschein gemacht.",
+          "known": "When I was 18… (one time)"
+        },
+        {
+          "learning": "Immer wenn ich Zeit hatte, habe ich gelesen.",
+          "known": "Whenever I had time… (repeated)"
+        },
+        {
+          "learning": "Als wir in Berlin ankamen, hat es geregnet.",
+          "known": "When we arrived in Berlin, it was raining."
+        }
+      ]
+    },
+    {
+      "id": "tb1-u30-l26-alswenn-rule-ex02",
+      "type": "explain",
+      "title": "als vs. wenn (Past): step by step",
+      "body": "Decide with 2 questions:\n1) **Past?** No → always **wenn** (Wenn du morgen kommst, …).\n2) Past: **once or repeatedly?** Once / one phase of life → **als** (Als ich 2020 nach Deutschland kam… / Als ich Kind war…). Repeated → **wenn**, often with “immer/jedes Mal” (Immer wenn ich Zeit hatte, …).\nMemory aid: **als** = one point or one line that existed ONCE · **wenn** = many points.\nNote: “wann” is ONLY a question word (Wann kommst du?), never a connector.\n\n## Auf Deutsch\n\nEntscheide mit 2 Fragen:\n1) **Vergangenheit?** Nein → immer **wenn** (Wenn du morgen kommst, …).\n2) Vergangenheit: **einmal oder oft?** Einmal/eine Lebensphase → **als** (Als ich 2020 nach Deutschland kam… / Als ich Kind war…). Wiederholt → **wenn**, oft mit „immer/jedes Mal“ (Immer wenn ich Zeit hatte, …).\nEselsbrücke: **als** = ein Punkt oder eine Linie, die EINMAL da war · **wenn** = viele Punkte.\nÜbrigens: „wann“ ist NUR Fragewort (Wann kommst du?), nie Konnektor.",
+      "examples": [
+        {
+          "learning": "Als ich 18 war, habe ich den Führerschein gemacht.",
+          "known": "When I was 18… (one time)"
+        },
+        {
+          "learning": "Immer wenn ich Zeit hatte, habe ich gelesen.",
+          "known": "Whenever I had time… (repeated)"
+        },
+        {
+          "learning": "Als wir in Berlin ankamen, hat es geregnet.",
+          "known": "When we arrived in Berlin, it was raining."
+        },
+        {
+          "learning": "Wenn ich nervös bin, trinke ich Tee.",
+          "known": "When I'm nervous, I drink tea. (present)"
+        },
+        {
+          "learning": "Testlücke-Stil: „___ ich klein war, wohnten wir auf dem Land.“ → Als",
+          "known": "one life phase in the past → Als"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u30-l26-alswenn-rule-ex03",
+      "type": "explain",
+      "title": "Watch out & exam tip",
+      "body": "## Common trap\n\n“Wenn ich nach Deutschland kam …” is wrong for the single arrival → Als ich nach Deutschland kam.\n\n*Deutsch:* „Wenn ich nach Deutschland kam …“ ist falsch fürs einmalige Ankommen → Als ich nach Deutschland kam.\n\n## In the exam\n\n🎯 How telc tests it: popular **Sprachbausteine** gap with options als/wenn/wann. In **speaking parts 1–2** you talk about the past (“Als ich in meiner Heimat …”), getting it right sounds instantly confident.\n\n*Deutsch:* 🎯 So testet telc das: Beliebte **Sprachbausteine**-Lücke mit den Optionen als/wenn/wann. Im **Sprechen Teil 1–2** erzählst du über früher („Als ich in meiner Heimat …“), der richtige Einstieg wirkt sofort sicher.\n\n*Source:* Guide B6 · PDF „Temporale Konnektoren“"
+    },
+    {
+      "id": "tb1-u30-l26-alswenn-rule-ex04",
+      "type": "choice",
+      "title": "Fill the gap",
+      "prompt": "___ ich zehn Jahre alt war, habe ich schwimmen gelernt.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Als"
+        },
+        {
+          "id": "b",
+          "text": "Ob"
+        },
+        {
+          "id": "c",
+          "text": "Wenn"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Einmaliges Ereignis in der Vergangenheit → als."
+    },
+    {
+      "id": "tb1-u30-l26-alswenn-rule-ex05",
+      "type": "choice",
+      "title": "Fill the gap",
+      "prompt": "Immer ___ ich müde bin, trinke ich einen Kaffee.",
+      "options": [
+        {
+          "id": "a",
+          "text": "als"
+        },
+        {
+          "id": "b",
+          "text": "ob"
+        },
+        {
+          "id": "c",
+          "text": "wenn"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Wiederholung (immer) → wenn."
+    },
+    {
+      "id": "tb1-u30-l26-alswenn-rule-ex06",
+      "type": "choice",
+      "title": "Fill the gap",
+      "prompt": "___ ich gestern nach Hause kam, war niemand da.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Wenn"
+        },
+        {
+          "id": "b",
+          "text": "Als"
+        },
+        {
+          "id": "c",
+          "text": "Während"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Ein bestimmter Moment gestern = einmalig → als."
+    }
+  ]
+}

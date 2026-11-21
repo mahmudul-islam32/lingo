@@ -1,0 +1,280 @@
+{
+  "id": "tb1-u07-l03-feelings-character-3",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u07",
+  "title": "Feelings & Character 3",
+  "tip": "Theme: Gefühle & Charakter (A2)",
+  "exercises": [
+    {
+      "id": "tb1-u07-l03-feelings-character-3-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "nett",
+          "known": "nice / kind"
+        },
+        {
+          "id": "p2",
+          "learning": "höflich",
+          "known": "polite"
+        },
+        {
+          "id": "p3",
+          "learning": "ehrlich",
+          "known": "honest"
+        },
+        {
+          "id": "p4",
+          "learning": "fleißig",
+          "known": "hard-working"
+        },
+        {
+          "id": "p5",
+          "learning": "faul",
+          "known": "lazy"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u07-l03-feelings-character-3-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which one means „nice / kind“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "wütend"
+        },
+        {
+          "id": "b",
+          "text": "traurig"
+        },
+        {
+          "id": "c",
+          "text": "stolz"
+        },
+        {
+          "id": "d",
+          "text": "nett"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**nett** = nice / kind\n\n*Example:* Unsere neuen Nachbarn sind wirklich nett.\nOur new neighbours are really nice."
+    },
+    {
+      "id": "tb1-u07-l03-feelings-character-3-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which one means „polite“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "höflich"
+        },
+        {
+          "id": "b",
+          "text": "glücklich"
+        },
+        {
+          "id": "c",
+          "text": "traurig"
+        },
+        {
+          "id": "d",
+          "text": "ehrlich"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**höflich** = polite\n\n*Example:* Bei der Behörde sollte man immer höflich bleiben.\nAt a government office you should always stay polite."
+    },
+    {
+      "id": "tb1-u07-l03-feelings-character-3-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Unsere neuen Nachbarn sind wirklich nett.",
+      "tiles": [
+        "neighbours",
+        "really",
+        "Our",
+        "neighbour",
+        "nice",
+        "Be",
+        "new",
+        "a",
+        "are"
+      ],
+      "answers": [
+        "Our new neighbours are really nice."
+      ],
+      "explanation": "**nett** = nice / kind"
+    },
+    {
+      "id": "tb1-u07-l03-feelings-character-3-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which one means „honest“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "ehrlich"
+        },
+        {
+          "id": "b",
+          "text": "nervös"
+        },
+        {
+          "id": "c",
+          "text": "traurig"
+        },
+        {
+          "id": "d",
+          "text": "geduldig"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**ehrlich** = honest\n\n*Example:* Sei ehrlich: Gefällt dir mein neues Kleid?\nBe honest: do you like my new dress?"
+    },
+    {
+      "id": "tb1-u07-l03-feelings-character-3-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "At a government office you should always stay polite.",
+      "tiles": [
+        "Bei",
+        "Anfang",
+        "höflich",
+        "man",
+        "immer",
+        "der",
+        "bleiben",
+        "Behörde",
+        "sie",
+        "sollte",
+        "traurig"
+      ],
+      "answers": [
+        "Bei der Behörde sollte man immer höflich bleiben."
+      ],
+      "explanation": "**höflich** = polite"
+    },
+    {
+      "id": "tb1-u07-l03-feelings-character-3-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which one means „hard-working“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "höflich"
+        },
+        {
+          "id": "b",
+          "text": "freundlich"
+        },
+        {
+          "id": "c",
+          "text": "fleißig"
+        },
+        {
+          "id": "d",
+          "text": "ehrlich"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**fleißig** = hard-working\n\n*Example:* Maria ist sehr fleißig und arbeitet oft länger.\nMaria is very hard-working and often stays late."
+    },
+    {
+      "id": "tb1-u07-l03-feelings-character-3-ex08",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u07-l03-feelings-character-3-3.mp3"
+      },
+      "tiles": [
+        "Kleid",
+        "und",
+        "Sei",
+        "dir",
+        "freundlich",
+        "sind",
+        "Gefällt",
+        "neues",
+        "ehrlich",
+        "mein"
+      ],
+      "answers": [
+        "Sei ehrlich: Gefällt dir mein neues Kleid?"
+      ],
+      "explanation": "Sei ehrlich: Gefällt dir mein neues Kleid?\n*Be honest: do you like my new dress?*\n\n**ehrlich** = honest"
+    },
+    {
+      "id": "tb1-u07-l03-feelings-character-3-ex09",
+      "type": "multiple_choice",
+      "prompt": "Which one means „lazy“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "freundlich"
+        },
+        {
+          "id": "b",
+          "text": "faul"
+        },
+        {
+          "id": "c",
+          "text": "schüchtern"
+        },
+        {
+          "id": "d",
+          "text": "glücklich"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**faul** = lazy\n\n*Example:* Am Wochenende bin ich faul und bleibe lange im Bett.\nAt the weekend I'm lazy and stay in bed for a long time."
+    },
+    {
+      "id": "tb1-u07-l03-feelings-character-3-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Maria ist sehr fleißig und arbeitet oft länger.",
+      "tiles": [
+        "job",
+        "glad",
+        "and",
+        "is",
+        "hard-working",
+        "late",
+        "stays",
+        "often",
+        "Maria",
+        "still",
+        "very"
+      ],
+      "answers": [
+        "Maria is very hard-working and often stays late."
+      ],
+      "explanation": "**fleißig** = hard-working"
+    },
+    {
+      "id": "tb1-u07-l03-feelings-character-3-ex11",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "At the weekend I'm lazy and stay in bed for a long time.",
+      "tiles": [
+        "neuen",
+        "lange",
+        "im",
+        "bin",
+        "und",
+        "Bett",
+        "ich",
+        "bleibe",
+        "Mein",
+        "Wochenende",
+        "stolz",
+        "faul",
+        "Am"
+      ],
+      "answers": [
+        "Am Wochenende bin ich faul und bleibe lange im Bett."
+      ],
+      "explanation": "**faul** = lazy"
+    }
+  ]
+}

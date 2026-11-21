@@ -1,0 +1,229 @@
+{
+  "id": "tb1-u10-l09-appointments-arrangements-1",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u10",
+  "title": "Appointments & Arrangements 1",
+  "tip": "Theme: Sätze: Termin & Verabredung (A2)",
+  "exercises": [
+    {
+      "id": "tb1-u10-l09-appointments-arrangements-1-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "Hast du am Wochenende Zeit?",
+          "known": "Do you have time at the weekend?"
+        },
+        {
+          "id": "p2",
+          "learning": "Passt es dir am Samstag um drei?",
+          "known": "Does Saturday at three suit you?"
+        },
+        {
+          "id": "p3",
+          "learning": "Sollen wir uns vor dem Kino treffen?",
+          "known": "Shall we meet in front of the cinema?"
+        },
+        {
+          "id": "p4",
+          "learning": "Können wir den Termin verschieben?",
+          "known": "Can we postpone the appointment?"
+        },
+        {
+          "id": "p5",
+          "learning": "Ich hätte am Montag Zeit",
+          "known": "I'd have time on Monday."
+        }
+      ]
+    },
+    {
+      "id": "tb1-u10-l09-appointments-arrangements-1-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means „Do you have time at the weekend?“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Treffen wir uns um sieben Uhr."
+        },
+        {
+          "id": "b",
+          "text": "Hast du am Wochenende Zeit?"
+        },
+        {
+          "id": "c",
+          "text": "Ich hätte am Montag Zeit."
+        },
+        {
+          "id": "d",
+          "text": "Sollen wir uns vor dem Kino treffen?"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Hast du am Wochenende Zeit?** = Do you have time at the weekend?\n\n*Example:* Hast du am Wochenende Zeit?\nDo you have time at the weekend?"
+    },
+    {
+      "id": "tb1-u10-l09-appointments-arrangements-1-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means „Does Saturday at three suit you?“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Leider muss ich unseren Termin absagen."
+        },
+        {
+          "id": "b",
+          "text": "Treffen wir uns um sieben Uhr."
+        },
+        {
+          "id": "c",
+          "text": "Passt es dir am Samstag um drei?"
+        },
+        {
+          "id": "d",
+          "text": "Können wir den Termin verschieben?"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**Passt es dir am Samstag um drei?** = Does Saturday at three suit you?\n\n*Example:* Passt es dir am Samstag um drei?\nDoes Saturday at three suit you?"
+    },
+    {
+      "id": "tb1-u10-l09-appointments-arrangements-1-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Hast du am Wochenende Zeit?",
+      "tiles": [
+        "you",
+        "I'd",
+        "weekend",
+        "Do",
+        "the",
+        "at",
+        "Shall",
+        "postpone",
+        "have",
+        "time"
+      ],
+      "answers": [
+        "Do you have time at the weekend?"
+      ],
+      "explanation": "**Hast du am Wochenende Zeit?** = Do you have time at the weekend?"
+    },
+    {
+      "id": "tb1-u10-l09-appointments-arrangements-1-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means „Shall we meet in front of the cinema?“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Wann würde es dir am besten passen?"
+        },
+        {
+          "id": "b",
+          "text": "Können wir den Termin verschieben?"
+        },
+        {
+          "id": "c",
+          "text": "Ich hätte am Montag Zeit."
+        },
+        {
+          "id": "d",
+          "text": "Sollen wir uns vor dem Kino treffen?"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**Sollen wir uns vor dem Kino treffen?** = Shall we meet in front of the cinema?\n\n*Example:* Sollen wir uns vor dem Kino treffen?\nShall we meet in front of the cinema?"
+    },
+    {
+      "id": "tb1-u10-l09-appointments-arrangements-1-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Does Saturday at three suit you?",
+      "tiles": [
+        "Samstag",
+        "muss",
+        "uns",
+        "drei",
+        "am",
+        "es",
+        "Passt",
+        "sieben",
+        "um",
+        "dir"
+      ],
+      "answers": [
+        "Passt es dir am Samstag um drei?"
+      ],
+      "explanation": "**Passt es dir am Samstag um drei?** = Does Saturday at three suit you?"
+    },
+    {
+      "id": "tb1-u10-l09-appointments-arrangements-1-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means „Unfortunately I have to cancel our appointment.“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Treffen wir uns um sieben Uhr."
+        },
+        {
+          "id": "b",
+          "text": "Leider muss ich unseren Termin absagen."
+        },
+        {
+          "id": "c",
+          "text": "Passt es dir am Samstag um drei?"
+        },
+        {
+          "id": "d",
+          "text": "Sollen wir uns vor dem Kino treffen?"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Leider muss ich unseren Termin absagen.** = Unfortunately I have to cancel our appointment.\n\n*Example:* Leider muss ich unseren Termin absagen.\nUnfortunately I have to cancel our appointment."
+    },
+    {
+      "id": "tb1-u10-l09-appointments-arrangements-1-ex08",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u10-l09-appointments-arrangements-1-3.mp3"
+      },
+      "tiles": [
+        "wir",
+        "Samstag",
+        "treffen",
+        "dem",
+        "vor",
+        "Kino",
+        "dir",
+        "am",
+        "Sollen",
+        "uns"
+      ],
+      "answers": [
+        "Sollen wir uns vor dem Kino treffen?"
+      ],
+      "explanation": "Sollen wir uns vor dem Kino treffen?\n*Shall we meet in front of the cinema?*\n\n**Sollen wir uns vor dem Kino treffen?** = Shall we meet in front of the cinema?"
+    },
+    {
+      "id": "tb1-u10-l09-appointments-arrangements-1-ex09",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Leider muss ich unseren Termin absagen.",
+      "tiles": [
+        "to",
+        "our",
+        "of",
+        "have",
+        "cancel",
+        "I",
+        "appointment",
+        "at",
+        "Unfortunately",
+        "we"
+      ],
+      "answers": [
+        "Unfortunately I have to cancel our appointment."
+      ],
+      "explanation": "**Leider muss ich unseren Termin absagen.** = Unfortunately I have to cancel our appointment."
+    }
+  ]
+}

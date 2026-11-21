@@ -1,0 +1,103 @@
+{
+  "id": "tb1-u31-l05-plusquam-rule",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u31",
+  "title": "Plusquamperfekt + nachdem: the rule",
+  "tip": "Don't use the same tense twice after “nachdem”: “Nachdem ich gegessen habe, habe ich gelernt” is wrong in past context, the nachdem-clause needs hatte/war.",
+  "exercises": [
+    {
+      "id": "tb1-u31-l05-plusquam-rule-ex01",
+      "type": "explain",
+      "title": "Plusquamperfekt + nachdem",
+      "body": "“The past before the past”: **hatte/war + participle II**. Almost always with **nachdem**: Nachdem ich gegessen **hatte**, habe ich gelernt (first eating, then studying).\n\n*Deutsch:* „Vergangenheit vor der Vergangenheit“: **hatte/war + Partizip II**. Fast immer mit **nachdem**: Nachdem ich gegessen **hatte**, habe ich gelernt (zuerst essen, dann lernen).\n\n*German name:* Plusquamperfekt + nachdem",
+      "examples": [
+        {
+          "learning": "Nachdem ich die Prüfung bestanden hatte, haben wir gefeiert.",
+          "known": "After I had passed the exam, we celebrated."
+        },
+        {
+          "learning": "Nachdem wir umgezogen waren, haben wir eine Party gemacht.",
+          "known": "After we had moved, we threw a party. (umziehen → sein → waren)"
+        },
+        {
+          "learning": "Nachdem er gefrühstückt hatte, ist er zur Arbeit gefahren.",
+          "known": "After he had had breakfast, he drove to work."
+        }
+      ]
+    },
+    {
+      "id": "tb1-u31-l05-plusquam-rule-ex02",
+      "type": "explain",
+      "title": "Plusquamperfekt + nachdem: step by step",
+      "body": "The rule as a timeline:\nEvent 1 (earlier) → **Plusquamperfekt** (hatte gegessen / war gekommen)\nEvent 2 (later) → Perfekt or Präteritum (habe gelernt).\nFormula: **Nachdem + Plusquamperfekt, + Perfekt.**\nhatte or war? Same rule as Perfekt: movement/change of state → war (Nachdem wir angekommen **waren**, …), otherwise hatte.\nFor B1 it's enough to write this one pattern confidently + recognise the form in reading texts.\n\n## Auf Deutsch\n\nDie Regel als Zeitkette:\nEreignis 1 (früher) → **Plusquamperfekt** (hatte gegessen / war gekommen)\nEreignis 2 (danach) → Perfekt oder Präteritum (habe gelernt).\nFormel: **Nachdem + Plusquamperfekt, + Perfekt.**\nhatte oder war? Gleiche Regel wie beim Perfekt: Bewegung/Zustandswechsel → war (Nachdem wir angekommen **waren**, …), sonst hatte.\nFürs B1 reicht: dieses eine Muster sicher schreiben können + die Form in Lesetexten erkennen.",
+      "examples": [
+        {
+          "learning": "Nachdem ich die Prüfung bestanden hatte, haben wir gefeiert.",
+          "known": "After I had passed the exam, we celebrated."
+        },
+        {
+          "learning": "Nachdem wir umgezogen waren, haben wir eine Party gemacht.",
+          "known": "After we had moved, we threw a party. (umziehen → sein → waren)"
+        },
+        {
+          "learning": "Nachdem er gefrühstückt hatte, ist er zur Arbeit gefahren.",
+          "known": "After he had had breakfast, he drove to work."
+        },
+        {
+          "learning": "Testlücke-Stil: „Nachdem ich den Kurs beendet ___, habe ich B1 gemacht.“ → hatte",
+          "known": "nachdem → Plusquamperfekt"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u31-l05-plusquam-rule-ex03",
+      "type": "explain",
+      "title": "Watch out & exam tip",
+      "body": "## Common trap\n\nDon't use the same tense twice after “nachdem”: “Nachdem ich gegessen habe, habe ich gelernt” is wrong in past context, the nachdem-clause needs hatte/war.\n\n*Deutsch:* Nach „nachdem“ nicht zweimal dieselbe Zeit: „Nachdem ich gegessen habe, habe ich gelernt“ ist im Vergangenheitskontext falsch, der nachdem-Satz braucht hatte/war.\n\n## In the exam\n\n🎯 How telc tests it: **Sprachbausteine** gap “Nachdem ich … ___” with options habe/hatte/hätte. In the **letter**, ONE nachdem sentence is a safe style point under criterion III.\n\n*Deutsch:* 🎯 So testet telc das: **Sprachbausteine**-Lücke „Nachdem ich … ___“ mit Optionen habe/hatte/hätte. Im **Brief** ist EIN nachdem-Satz ein sicherer Stil-Punkt bei Kriterium III.\n\n*Source:* Guide B2"
+    },
+    {
+      "id": "tb1-u31-l05-plusquam-rule-ex04",
+      "type": "choice",
+      "title": "Fill the gap",
+      "prompt": "Nachdem ich gegessen ___, habe ich weitergelernt.",
+      "options": [
+        {
+          "id": "a",
+          "text": "hätte"
+        },
+        {
+          "id": "b",
+          "text": "hatte"
+        },
+        {
+          "id": "c",
+          "text": "habe"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "nachdem → Plusquamperfekt im Nebensatz: gegessen hatte."
+    },
+    {
+      "id": "tb1-u31-l05-plusquam-rule-ex05",
+      "type": "choice",
+      "title": "Fill the gap",
+      "prompt": "Nachdem er die Ausbildung beendet hatte, ___ er eine Stelle gefunden.",
+      "options": [
+        {
+          "id": "a",
+          "text": "ist"
+        },
+        {
+          "id": "b",
+          "text": "hatte"
+        },
+        {
+          "id": "c",
+          "text": "hat"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Hauptsatz eine Zeitstufe später → Perfekt: hat … gefunden."
+    }
+  ]
+}

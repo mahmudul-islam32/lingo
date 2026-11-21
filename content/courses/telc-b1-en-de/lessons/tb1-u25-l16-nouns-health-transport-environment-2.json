@@ -1,0 +1,234 @@
+{
+  "id": "tb1-u25-l16-nouns-health-transport-environment-2",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u25",
+  "title": "Nouns: Health, Transport & Environment 2",
+  "tip": "Theme: Nomen: Gesundheit, Verkehr & Umwelt II (B1)",
+  "exercises": [
+    {
+      "id": "tb1-u25-l16-nouns-health-transport-environment-2-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "der Zeuge",
+          "known": "witness"
+        },
+        {
+          "id": "p2",
+          "learning": "der Fahrgast",
+          "known": "passenger"
+        },
+        {
+          "id": "p3",
+          "learning": "die Fernreise",
+          "known": "long-distance trip"
+        },
+        {
+          "id": "p4",
+          "learning": "die Gruppenreise",
+          "known": "group tour"
+        },
+        {
+          "id": "p5",
+          "learning": "der Gehweg",
+          "known": "pavement / sidewalk"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u25-l16-nouns-health-transport-environment-2-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „witness“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "der Zeuge, die Zeugen"
+        },
+        {
+          "id": "b",
+          "text": "der Fahrgast, die Fahrgäste"
+        },
+        {
+          "id": "c",
+          "text": "die Umleitung, die Umleitungen"
+        },
+        {
+          "id": "d",
+          "text": "der Radweg, die Radwege"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**der Zeuge** = witness\n*Plural: die Zeugen*\n\n*Example:* Die Polizei sucht Zeugen für den Unfall.\nThe police are looking for witnesses to the accident."
+    },
+    {
+      "id": "tb1-u25-l16-nouns-health-transport-environment-2-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „passenger“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Salbe, die Salben"
+        },
+        {
+          "id": "b",
+          "text": "die Bewegung"
+        },
+        {
+          "id": "c",
+          "text": "der Fahrgast, die Fahrgäste"
+        },
+        {
+          "id": "d",
+          "text": "die Fernreise, die Fernreisen"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**der Fahrgast** = passenger\n*Plural: die Fahrgäste*\n\n*Example:* Alle Fahrgäste müssen an der nächsten Haltestelle aussteigen.\nAll passengers must get off at the next stop."
+    },
+    {
+      "id": "tb1-u25-l16-nouns-health-transport-environment-2-ex04",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u25-l16-nouns-health-transport-environment-2-1.mp3"
+      },
+      "tiles": [
+        "der",
+        "den",
+        "sucht",
+        "einen",
+        "Unfall",
+        "Zeugen",
+        "für",
+        "mussten",
+        "Polizei",
+        "Die"
+      ],
+      "answers": [
+        "Die Polizei sucht Zeugen für den Unfall."
+      ],
+      "explanation": "Die Polizei sucht Zeugen für den Unfall.\n*The police are looking for witnesses to the accident.*\n\n**der Zeuge** = witness\n*Plural: die Zeugen*"
+    },
+    {
+      "id": "tb1-u25-l16-nouns-health-transport-environment-2-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „long-distance trip“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Krankmeldung, die Krankmeldungen"
+        },
+        {
+          "id": "b",
+          "text": "die Fernreise, die Fernreisen"
+        },
+        {
+          "id": "c",
+          "text": "die Mülltonne, die Mülltonnen"
+        },
+        {
+          "id": "d",
+          "text": "die Bewegung"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**die Fernreise** = long-distance trip\n*Plural: die Fernreisen*\n\n*Example:* Eine Fernreise nach Thailand ist leider sehr teuer.\nA long-distance trip to Thailand is unfortunately very expensive."
+    },
+    {
+      "id": "tb1-u25-l16-nouns-health-transport-environment-2-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Alle Fahrgäste müssen an der nächsten Haltestelle aussteigen.",
+      "tiles": [
+        "off",
+        "at",
+        "bike",
+        "booked",
+        "stop",
+        "an",
+        "next",
+        "the",
+        "passengers",
+        "get",
+        "All",
+        "must"
+      ],
+      "answers": [
+        "All passengers must get off at the next stop."
+      ],
+      "explanation": "**der Fahrgast** = passenger\n*Plural: die Fahrgäste*"
+    },
+    {
+      "id": "tb1-u25-l16-nouns-health-transport-environment-2-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „group tour“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "der Gehweg, die Gehwege"
+        },
+        {
+          "id": "b",
+          "text": "die Gruppenreise, die Gruppenreisen"
+        },
+        {
+          "id": "c",
+          "text": "der Fahrgast, die Fahrgäste"
+        },
+        {
+          "id": "d",
+          "text": "die Ernährung"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**die Gruppenreise** = group tour\n*Plural: die Gruppenreisen*\n\n*Example:* Meine Eltern haben eine Gruppenreise nach Italien gebucht.\nMy parents have booked a group tour to Italy."
+    },
+    {
+      "id": "tb1-u25-l16-nouns-health-transport-environment-2-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "A long-distance trip to Thailand is unfortunately very expensive.",
+      "tiles": [
+        "sehr",
+        "Thailand",
+        "bringen",
+        "leider",
+        "es",
+        "teuer",
+        "ist",
+        "Eine",
+        "Fernreise",
+        "nach",
+        "mit"
+      ],
+      "answers": [
+        "Eine Fernreise nach Thailand ist leider sehr teuer."
+      ],
+      "explanation": "**die Fernreise** = long-distance trip\n*Plural: die Fernreisen*"
+    },
+    {
+      "id": "tb1-u25-l16-nouns-health-transport-environment-2-ex09",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u25-l16-nouns-health-transport-environment-2-4.mp3"
+      },
+      "tiles": [
+        "Meine",
+        "Panne",
+        "nach",
+        "Italien",
+        "Training",
+        "Eltern",
+        "haben",
+        "eine",
+        "gebucht",
+        "Gruppenreise",
+        "Autobahn"
+      ],
+      "answers": [
+        "Meine Eltern haben eine Gruppenreise nach Italien gebucht."
+      ],
+      "explanation": "Meine Eltern haben eine Gruppenreise nach Italien gebucht.\n*My parents have booked a group tour to Italy.*\n\n**die Gruppenreise** = group tour\n*Plural: die Gruppenreisen*"
+    }
+  ]
+}

@@ -1,0 +1,289 @@
+{
+  "id": "tb1-u21-l01-connectors-b1-1",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u21",
+  "title": "Connectors (B1) 1",
+  "tip": "Theme: Konnektoren (B1) (B1)",
+  "exercises": [
+    {
+      "id": "tb1-u21-l01-connectors-b1-1-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "dennoch",
+          "known": "yet / still"
+        },
+        {
+          "id": "p2",
+          "learning": "allerdings",
+          "known": "however"
+        },
+        {
+          "id": "p3",
+          "learning": "außerdem",
+          "known": "besides / moreover"
+        },
+        {
+          "id": "p4",
+          "learning": "deswegen",
+          "known": "for that reason"
+        },
+        {
+          "id": "p5",
+          "learning": "daher",
+          "known": "therefore"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u21-l01-connectors-b1-1-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which one means „yet / still“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "deswegen"
+        },
+        {
+          "id": "b",
+          "text": "zwar … aber"
+        },
+        {
+          "id": "c",
+          "text": "anstatt … zu"
+        },
+        {
+          "id": "d",
+          "text": "dennoch"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**dennoch** = yet / still\n\n*Example:* Die Wohnung ist klein, dennoch fühlen wir uns dort wohl.\nThe flat is small, yet we feel at home there."
+    },
+    {
+      "id": "tb1-u21-l01-connectors-b1-1-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which one means „however“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "allerdings"
+        },
+        {
+          "id": "b",
+          "text": "um … zu"
+        },
+        {
+          "id": "c",
+          "text": "indem"
+        },
+        {
+          "id": "d",
+          "text": "außerdem"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**allerdings** = however\n\n*Example:* Das Hotel war schön, allerdings war das Frühstück teuer.\nThe hotel was nice; the breakfast, however, was expensive."
+    },
+    {
+      "id": "tb1-u21-l01-connectors-b1-1-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Die Wohnung ist klein, dennoch fühlen wir uns dort wohl.",
+      "tiles": [
+        "The",
+        "is",
+        "flat",
+        "yet",
+        "small",
+        "call",
+        "walks",
+        "we",
+        "at",
+        "weather",
+        "there",
+        "feel",
+        "home"
+      ],
+      "answers": [
+        "The flat is small, yet we feel at home there."
+      ],
+      "explanation": "**dennoch** = yet / still"
+    },
+    {
+      "id": "tb1-u21-l01-connectors-b1-1-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which one means „besides / moreover“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "einerseits … andererseits"
+        },
+        {
+          "id": "b",
+          "text": "außerdem"
+        },
+        {
+          "id": "c",
+          "text": "wobei"
+        },
+        {
+          "id": "d",
+          "text": "sodass"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**außerdem** = besides / moreover\n\n*Example:* Die Wohnung ist hell, außerdem ist sie sehr günstig.\nThe flat is bright, and besides, it's very cheap."
+    },
+    {
+      "id": "tb1-u21-l01-connectors-b1-1-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "The hotel was nice; the breakfast, however, was expensive.",
+      "tiles": [
+        "teuer",
+        "bleiben",
+        "war",
+        "dort",
+        "Das",
+        "allerdings",
+        "Hotel",
+        "das",
+        "schön",
+        "war",
+        "Frühstück",
+        "rufe"
+      ],
+      "answers": [
+        "Das Hotel war schön, allerdings war das Frühstück teuer."
+      ],
+      "explanation": "**allerdings** = however"
+    },
+    {
+      "id": "tb1-u21-l01-connectors-b1-1-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which one means „for that reason“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "einerseits … andererseits"
+        },
+        {
+          "id": "b",
+          "text": "dennoch"
+        },
+        {
+          "id": "c",
+          "text": "deswegen"
+        },
+        {
+          "id": "d",
+          "text": "ohne … zu"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**deswegen** = for that reason\n\n*Example:* Ali ist krank, deswegen kommt er heute nicht zur Arbeit.\nAli is ill, so he isn't coming to work today."
+    },
+    {
+      "id": "tb1-u21-l01-connectors-b1-1-ex08",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u21-l01-connectors-b1-1-3.mp3"
+      },
+      "tiles": [
+        "sehr",
+        "Arbeit",
+        "hell",
+        "rufe",
+        "Wohnung",
+        "sie",
+        "ist",
+        "günstig",
+        "Die",
+        "wie",
+        "außerdem",
+        "ist"
+      ],
+      "answers": [
+        "Die Wohnung ist hell, außerdem ist sie sehr günstig."
+      ],
+      "explanation": "Die Wohnung ist hell, außerdem ist sie sehr günstig.\n*The flat is bright, and besides, it's very cheap.*\n\n**außerdem** = besides / moreover"
+    },
+    {
+      "id": "tb1-u21-l01-connectors-b1-1-ex09",
+      "type": "multiple_choice",
+      "prompt": "Which one means „therefore“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "ohne … zu"
+        },
+        {
+          "id": "b",
+          "text": "daher"
+        },
+        {
+          "id": "c",
+          "text": "solange"
+        },
+        {
+          "id": "d",
+          "text": "außerdem"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**daher** = therefore\n\n*Example:* Der Bus hatte Verspätung, daher bin ich zu spät gekommen.\nThe bus was delayed, so I arrived late."
+    },
+    {
+      "id": "tb1-u21-l01-connectors-b1-1-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Ali ist krank, deswegen kommt er heute nicht zur Arbeit.",
+      "tiles": [
+        "work",
+        "ill",
+        "arrived",
+        "Ali",
+        "today",
+        "is",
+        "coming",
+        "The",
+        "he",
+        "isn't",
+        "so",
+        "soon",
+        "to"
+      ],
+      "answers": [
+        "Ali is ill, so he isn't coming to work today."
+      ],
+      "explanation": "**deswegen** = for that reason"
+    },
+    {
+      "id": "tb1-u21-l01-connectors-b1-1-ex11",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "The bus was delayed, so I arrived late.",
+      "tiles": [
+        "zu",
+        "sehr",
+        "gekommen",
+        "bin",
+        "daher",
+        "Verspätung",
+        "ich",
+        "Bus",
+        "hatte",
+        "spät",
+        "wohl",
+        "Maria",
+        "Der"
+      ],
+      "answers": [
+        "Der Bus hatte Verspätung, daher bin ich zu spät gekommen."
+      ],
+      "explanation": "**daher** = therefore"
+    }
+  ]
+}

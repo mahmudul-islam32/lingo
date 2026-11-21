@@ -1,0 +1,282 @@
+{
+  "id": "tb1-u25-l12-nouns-work-education-society-4",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u25",
+  "title": "Nouns: Work, Education & Society 4",
+  "tip": "Theme: Nomen: Arbeit, Bildung & Gesellschaft (B1)",
+  "exercises": [
+    {
+      "id": "tb1-u25-l12-nouns-work-education-society-4-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "die Medizin",
+          "known": "medicine (field)"
+        },
+        {
+          "id": "p2",
+          "learning": "die Politik",
+          "known": "politics"
+        },
+        {
+          "id": "p3",
+          "learning": "die Kunst",
+          "known": "art"
+        },
+        {
+          "id": "p4",
+          "learning": "das Examen",
+          "known": "exam (university)"
+        },
+        {
+          "id": "p5",
+          "learning": "das Zertifikat",
+          "known": "certificate"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u25-l12-nouns-work-education-society-4-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „medicine (field)“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "das Zertifikat, die Zertifikate"
+        },
+        {
+          "id": "b",
+          "text": "die Nachhilfe"
+        },
+        {
+          "id": "c",
+          "text": "der Verkauf"
+        },
+        {
+          "id": "d",
+          "text": "die Medizin"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**die Medizin** = medicine (field)\n\n*Example:* Meine Cousine studiert Medizin und möchte Kinderärztin werden.\nMy cousin is studying medicine and wants to become a paediatrician."
+    },
+    {
+      "id": "tb1-u25-l12-nouns-work-education-society-4-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „politics“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Politik"
+        },
+        {
+          "id": "b",
+          "text": "die Vermittlung"
+        },
+        {
+          "id": "c",
+          "text": "die Sprachkenntnisse (Pl.)"
+        },
+        {
+          "id": "d",
+          "text": "das Lernziel, die Lernziele"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**die Politik** = politics\n\n*Example:* Mein Vater spricht beim Abendessen gern über Politik.\nMy father likes talking about politics at dinner."
+    },
+    {
+      "id": "tb1-u25-l12-nouns-work-education-society-4-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "My cousin is studying medicine and wants to become a paediatrician.",
+      "tiles": [
+        "möchte",
+        "Nach",
+        "studiert",
+        "für",
+        "zum",
+        "Medizin",
+        "Kinderärztin",
+        "Meine",
+        "Cousine",
+        "und",
+        "werden"
+      ],
+      "answers": [
+        "Meine Cousine studiert Medizin und möchte Kinderärztin werden."
+      ],
+      "explanation": "**die Medizin** = medicine (field)"
+    },
+    {
+      "id": "tb1-u25-l12-nouns-work-education-society-4-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „art“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Stellungnahme, die Stellungnahmen"
+        },
+        {
+          "id": "b",
+          "text": "der Service"
+        },
+        {
+          "id": "c",
+          "text": "das Seminar, die Seminare"
+        },
+        {
+          "id": "d",
+          "text": "die Kunst, die Künste"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**die Kunst** = art\n*Plural: die Künste*\n\n*Example:* Im Museum kann man moderne Kunst sehen.\nYou can see modern art in the museum."
+    },
+    {
+      "id": "tb1-u25-l12-nouns-work-education-society-4-ex06",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u25-l12-nouns-work-education-society-4-2.mp3"
+      },
+      "tiles": [
+        "Abendessen",
+        "über",
+        "sitzen",
+        "Politik",
+        "Park",
+        "Vater",
+        "Mein",
+        "am",
+        "beim",
+        "spricht",
+        "gern"
+      ],
+      "answers": [
+        "Mein Vater spricht beim Abendessen gern über Politik."
+      ],
+      "explanation": "Mein Vater spricht beim Abendessen gern über Politik.\n*My father likes talking about politics at dinner.*\n\n**die Politik** = politics"
+    },
+    {
+      "id": "tb1-u25-l12-nouns-work-education-society-4-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „exam (university)“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "das Examen, die Examen"
+        },
+        {
+          "id": "b",
+          "text": "die Sprachkenntnisse (Pl.)"
+        },
+        {
+          "id": "c",
+          "text": "die Medizin"
+        },
+        {
+          "id": "d",
+          "text": "das Institut, die Institute"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**das Examen** = exam (university)\n*Plural: die Examen*\n\n*Example:* Nach dem Examen sucht Jonas eine Stelle als Lehrer.\nAfter his final exam, Jonas is looking for a job as a teacher."
+    },
+    {
+      "id": "tb1-u25-l12-nouns-work-education-society-4-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Im Museum kann man moderne Kunst sehen.",
+      "tiles": [
+        "see",
+        "You",
+        "the",
+        "in",
+        "job",
+        "can",
+        "art",
+        "modern",
+        "at",
+        "museum",
+        "Many"
+      ],
+      "answers": [
+        "You can see modern art in the museum."
+      ],
+      "explanation": "**die Kunst** = art\n*Plural: die Künste*"
+    },
+    {
+      "id": "tb1-u25-l12-nouns-work-education-society-4-ex09",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „certificate“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "das Zertifikat, die Zertifikate"
+        },
+        {
+          "id": "b",
+          "text": "die Nachhilfe"
+        },
+        {
+          "id": "c",
+          "text": "die Medizin"
+        },
+        {
+          "id": "d",
+          "text": "die Politik"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**das Zertifikat** = certificate\n*Plural: die Zertifikate*\n\n*Example:* Nach dem Erste-Hilfe-Kurs bekommt jeder ein Zertifikat.\nAfter the first aid course, everyone gets a certificate."
+    },
+    {
+      "id": "tb1-u25-l12-nouns-work-education-society-4-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "After his final exam, Jonas is looking for a job as a teacher.",
+      "tiles": [
+        "man",
+        "Lehrer",
+        "eine",
+        "Produkte",
+        "Jonas",
+        "Stelle",
+        "Examen",
+        "als",
+        "Erste-Hilfe-Kurs",
+        "sucht",
+        "dem",
+        "Nach"
+      ],
+      "answers": [
+        "Nach dem Examen sucht Jonas eine Stelle als Lehrer."
+      ],
+      "explanation": "**das Examen** = exam (university)\n*Plural: die Examen*"
+    },
+    {
+      "id": "tb1-u25-l12-nouns-work-education-society-4-ex11",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u25-l12-nouns-work-education-society-4-5.mp3"
+      },
+      "tiles": [
+        "Pakets",
+        "Lager",
+        "Nach",
+        "sitzen",
+        "ein",
+        "jeder",
+        "Erste-Hilfe-Kurs",
+        "bekommt",
+        "Zertifikat",
+        "dem"
+      ],
+      "answers": [
+        "Nach dem Erste-Hilfe-Kurs bekommt jeder ein Zertifikat."
+      ],
+      "explanation": "Nach dem Erste-Hilfe-Kurs bekommt jeder ein Zertifikat.\n*After the first aid course, everyone gets a certificate.*\n\n**das Zertifikat** = certificate\n*Plural: die Zertifikate*"
+    }
+  ]
+}

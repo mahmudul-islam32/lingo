@@ -1,0 +1,284 @@
+{
+  "id": "tb1-u23-l07-exam-language-instructions-7",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u23",
+  "title": "Exam Language & Instructions 7",
+  "tip": "Theme: Prüfungssprache & Aufgaben (B1)",
+  "exercises": [
+    {
+      "id": "tb1-u23-l07-exam-language-instructions-7-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "männlich",
+          "known": "male"
+        },
+        {
+          "id": "p2",
+          "learning": "weiblich",
+          "known": "female"
+        },
+        {
+          "id": "p3",
+          "learning": "das Datum",
+          "known": "date"
+        },
+        {
+          "id": "p4",
+          "learning": "die Nummer",
+          "known": "number"
+        },
+        {
+          "id": "p5",
+          "learning": "der Beginn",
+          "known": "beginning / start"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u23-l07-exam-language-instructions-7-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which one means „male“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "männlich"
+        },
+        {
+          "id": "b",
+          "text": "notieren"
+        },
+        {
+          "id": "c",
+          "text": "folgend"
+        },
+        {
+          "id": "d",
+          "text": "markieren"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**männlich** = male\n\n*Example:* Unsere Katze ist männlich und heißt Felix.\nOur cat is male and is called Felix."
+    },
+    {
+      "id": "tb1-u23-l07-exam-language-instructions-7-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which one means „female“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "markieren"
+        },
+        {
+          "id": "b",
+          "text": "weiblich"
+        },
+        {
+          "id": "c",
+          "text": "männlich"
+        },
+        {
+          "id": "d",
+          "text": "zuordnen"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**weiblich** = female\n\n*Example:* In unserem Team sind die meisten Mitarbeiter weiblich.\nMost of the staff in our team are female."
+    },
+    {
+      "id": "tb1-u23-l07-exam-language-instructions-7-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Our cat is male and is called Felix.",
+      "tiles": [
+        "und",
+        "männlich",
+        "hat",
+        "Schluss",
+        "Katze",
+        "Unsere",
+        "ist",
+        "heißt",
+        "die",
+        "Felix"
+      ],
+      "answers": [
+        "Unsere Katze ist männlich und heißt Felix."
+      ],
+      "explanation": "**männlich** = male"
+    },
+    {
+      "id": "tb1-u23-l07-exam-language-instructions-7-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „date“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Anzeige, die Anzeigen"
+        },
+        {
+          "id": "b",
+          "text": "die Reihenfolge, die Reihenfolgen"
+        },
+        {
+          "id": "c",
+          "text": "das Datum, die Daten"
+        },
+        {
+          "id": "d",
+          "text": "das Geschlecht, die Geschlechter"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**das Datum** = date\n*Plural: die Daten*\n\n*Example:* Vergessen Sie nicht, das Datum unter den Vertrag zu schreiben.\nDon't forget to write the date under the contract."
+    },
+    {
+      "id": "tb1-u23-l07-exam-language-instructions-7-ex06",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u23-l07-exam-language-instructions-7-2.mp3"
+      },
+      "tiles": [
+        "meisten",
+        "unserem",
+        "sind",
+        "Fahrrad",
+        "Mitarbeiter",
+        "In",
+        "verheiratet",
+        "Buch",
+        "weiblich",
+        "Team",
+        "die"
+      ],
+      "answers": [
+        "In unserem Team sind die meisten Mitarbeiter weiblich."
+      ],
+      "explanation": "In unserem Team sind die meisten Mitarbeiter weiblich.\n*Most of the staff in our team are female.*\n\n**weiblich** = female"
+    },
+    {
+      "id": "tb1-u23-l07-exam-language-instructions-7-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „number“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Notiz, die Notizen"
+        },
+        {
+          "id": "b",
+          "text": "die Nummer, die Nummern"
+        },
+        {
+          "id": "c",
+          "text": "die Grafik, die Grafiken"
+        },
+        {
+          "id": "d",
+          "text": "der Gruß, die Grüße"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**die Nummer** = number\n*Plural: die Nummern*\n\n*Example:* Am Bürgeramt zieht Tom eine Nummer und wartet.\nAt the citizens' office, Tom takes a number and waits."
+    },
+    {
+      "id": "tb1-u23-l07-exam-language-instructions-7-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Vergessen Sie nicht, das Datum unter den Vertrag zu schreiben.",
+      "tiles": [
+        "to",
+        "male",
+        "the",
+        "under",
+        "contract",
+        "the",
+        "Anna",
+        "Don't",
+        "forget",
+        "date",
+        "of",
+        "write"
+      ],
+      "answers": [
+        "Don't forget to write the date under the contract."
+      ],
+      "explanation": "**das Datum** = date\n*Plural: die Daten*"
+    },
+    {
+      "id": "tb1-u23-l07-exam-language-instructions-7-ex09",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „beginning / start“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Aufgabenstellung, die Aufgabenstellungen"
+        },
+        {
+          "id": "b",
+          "text": "die Notiz, die Notizen"
+        },
+        {
+          "id": "c",
+          "text": "der Beginn"
+        },
+        {
+          "id": "d",
+          "text": "die Abbildung, die Abbildungen"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**der Beginn** = beginning / start\n\n*Example:* Der Beginn des Deutschkurses ist am Montag um neun Uhr.\nThe German course starts on Monday at nine o'clock."
+    },
+    {
+      "id": "tb1-u23-l07-exam-language-instructions-7-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "At the citizens' office, Tom takes a number and waits.",
+      "tiles": [
+        "eine",
+        "Bürgeramt",
+        "Tom",
+        "Nummer",
+        "wartet",
+        "Formular",
+        "des",
+        "Am",
+        "während",
+        "zieht",
+        "und"
+      ],
+      "answers": [
+        "Am Bürgeramt zieht Tom eine Nummer und wartet."
+      ],
+      "explanation": "**die Nummer** = number\n*Plural: die Nummern*"
+    },
+    {
+      "id": "tb1-u23-l07-exam-language-instructions-7-ex11",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u23-l07-exam-language-instructions-7-5.mp3"
+      },
+      "tiles": [
+        "Montag",
+        "Hotel",
+        "Der",
+        "Uhr",
+        "des",
+        "ist",
+        "die",
+        "Deutschkurses",
+        "Beginn",
+        "neun",
+        "um",
+        "am",
+        "Damen"
+      ],
+      "answers": [
+        "Der Beginn des Deutschkurses ist am Montag um neun Uhr."
+      ],
+      "explanation": "Der Beginn des Deutschkurses ist am Montag um neun Uhr.\n*The German course starts on Monday at nine o'clock.*\n\n**der Beginn** = beginning / start"
+    }
+  ]
+}

@@ -1,0 +1,233 @@
+{
+  "id": "tb1-u14-l03-family-relationships-3",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u14",
+  "title": "Family & Relationships 3",
+  "tip": "Theme: Familie / Beziehungen (B1)",
+  "exercises": [
+    {
+      "id": "tb1-u14-l03-family-relationships-3-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "schwanger. Sie bekommt ein Kind",
+          "known": "pregnant. She's having a baby."
+        },
+        {
+          "id": "p2",
+          "learning": "geboren. Ich bin 1998 geboren",
+          "known": "born. I was born in 1998."
+        },
+        {
+          "id": "p3",
+          "learning": "aufwachsen",
+          "known": "to grow up"
+        },
+        {
+          "id": "p4",
+          "learning": "erziehen",
+          "known": "to raise (children)"
+        },
+        {
+          "id": "p5",
+          "learning": "die Eltern",
+          "known": "parents"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u14-l03-family-relationships-3-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which one means „pregnant. She's having a baby.“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "verheiratet · ledig · getrennt · geschieden"
+        },
+        {
+          "id": "b",
+          "text": "der/die Verwandte, die Verwandten"
+        },
+        {
+          "id": "c",
+          "text": "geboren. Ich bin 1998 geboren."
+        },
+        {
+          "id": "d",
+          "text": "schwanger. Sie bekommt ein Kind."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**schwanger. Sie bekommt ein Kind.** = pregnant. She's having a baby.\n\n*Example:* Meine Kollegin ist schwanger und bekommt im Mai ein Kind.\nMy colleague is pregnant and is having a baby in May."
+    },
+    {
+      "id": "tb1-u14-l03-family-relationships-3-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which one means „born. I was born in 1998.“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "geboren. Ich bin 1998 geboren."
+        },
+        {
+          "id": "b",
+          "text": "verheiratet · ledig · getrennt · geschieden"
+        },
+        {
+          "id": "c",
+          "text": "der/die Verwandte, die Verwandten"
+        },
+        {
+          "id": "d",
+          "text": "vertrauen + Dat."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**geboren. Ich bin 1998 geboren.** = born. I was born in 1998.\n\n*Example:* Ich bin 1998 in Damaskus geboren.\nI was born in Damascus in 1998."
+    },
+    {
+      "id": "tb1-u14-l03-family-relationships-3-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "My colleague is pregnant and is having a baby in May.",
+      "tiles": [
+        "und",
+        "Kollegin",
+        "Mai",
+        "Kind",
+        "nächsten",
+        "bekommt",
+        "Meine",
+        "ist",
+        "meiner",
+        "im",
+        "ein",
+        "Hast",
+        "schwanger"
+      ],
+      "answers": [
+        "Meine Kollegin ist schwanger und bekommt im Mai ein Kind."
+      ],
+      "explanation": "**schwanger. Sie bekommt ein Kind.** = pregnant. She's having a baby."
+    },
+    {
+      "id": "tb1-u14-l03-family-relationships-3-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which verb means „to grow up“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "erziehen (hat erzogen): die Erziehung"
+        },
+        {
+          "id": "b",
+          "text": "heiraten + Akk. (hat geheiratet), die Hochzeit, die Hochzeiten"
+        },
+        {
+          "id": "c",
+          "text": "aufwachsen (ist aufgewachsen)"
+        },
+        {
+          "id": "d",
+          "text": "sich verstehen mit + Dat. (hat sich verstanden)"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**aufwachsen (ist aufgewachsen)** = to grow up\n\n*Example:* Maria ist in einem kleinen Dorf aufgewachsen.\nMaria grew up in a small village."
+    },
+    {
+      "id": "tb1-u14-l03-family-relationships-3-ex06",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u14-l03-family-relationships-3-2.mp3"
+      },
+      "tiles": [
+        "bin",
+        "mit",
+        "in",
+        "Dorf",
+        "geboren",
+        "mich",
+        "1998",
+        "Damaskus",
+        "Ich"
+      ],
+      "answers": [
+        "Ich bin 1998 in Damaskus geboren."
+      ],
+      "explanation": "Ich bin 1998 in Damaskus geboren.\n*I was born in Damascus in 1998.*\n\n**geboren. Ich bin 1998 geboren.** = born. I was born in 1998."
+    },
+    {
+      "id": "tb1-u14-l03-family-relationships-3-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which verb means „to raise (children): upbringing“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "heiraten + Akk. (hat geheiratet), die Hochzeit, die Hochzeiten"
+        },
+        {
+          "id": "b",
+          "text": "erziehen (hat erzogen): die Erziehung"
+        },
+        {
+          "id": "c",
+          "text": "sich streiten mit + Dat. (hat sich gestritten)"
+        },
+        {
+          "id": "d",
+          "text": "sich verstehen mit + Dat. (hat sich verstanden)"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**erziehen (hat erzogen): die Erziehung** = to raise (children): upbringing\n\n*Example:* Die Großeltern haben die Kinder mit viel Liebe erzogen.\nThe grandparents raised the children with a lot of love."
+    },
+    {
+      "id": "tb1-u14-l03-family-relationships-3-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Maria ist in einem kleinen Dorf aufgewachsen.",
+      "tiles": [
+        "sister",
+        "in",
+        "grew",
+        "parents",
+        "married",
+        "a",
+        "village",
+        "small",
+        "Maria",
+        "up"
+      ],
+      "answers": [
+        "Maria grew up in a small village."
+      ],
+      "explanation": "**aufwachsen (ist aufgewachsen)** = to grow up"
+    },
+    {
+      "id": "tb1-u14-l03-family-relationships-3-ex09",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "The grandparents raised the children with a lot of love.",
+      "tiles": [
+        "Kinder",
+        "die",
+        "erzogen",
+        "Meine",
+        "mit",
+        "eine",
+        "Großeltern",
+        "haben",
+        "verstehe",
+        "viel",
+        "Liebe",
+        "Die"
+      ],
+      "answers": [
+        "Die Großeltern haben die Kinder mit viel Liebe erzogen."
+      ],
+      "explanation": "**erziehen (hat erzogen): die Erziehung** = to raise (children): upbringing"
+    }
+  ]
+}

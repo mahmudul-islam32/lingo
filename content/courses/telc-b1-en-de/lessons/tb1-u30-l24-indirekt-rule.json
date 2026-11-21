@@ -1,0 +1,129 @@
+{
+  "id": "tb1-u30-l24-indirekt-rule",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u30",
+  "title": "Indirect Questions: the rule",
+  "tip": "“Wissen Sie, wann beginnt der Kurs?” = wrong. After the question word it's a subordinate clause: verb at the end.",
+  "exercises": [
+    {
+      "id": "tb1-u30-l24-indirekt-rule-ex01",
+      "type": "explain",
+      "title": "Indirect Questions",
+      "body": "Polite question = opener (**Wissen Sie, … / Können Sie mir sagen, …**) + question word (wann, wo, wie, warum) or **ob** (for yes/no questions) + **verb at the end**.\n\n*Deutsch:* Höfliche Frage = Einleitung (**Wissen Sie, … / Können Sie mir sagen, …**) + Fragewort (wann, wo, wie, warum) oder **ob** (bei Ja/Nein-Fragen) + **Verb am Ende**.\n\n*German name:* Indirekte Fragen",
+      "examples": [
+        {
+          "learning": "Wissen Sie, wann der Zug abfährt?",
+          "known": "Do you know when the train leaves?"
+        },
+        {
+          "learning": "Ich möchte wissen, ob der Kurs noch frei ist.",
+          "known": "…whether the course is still available."
+        },
+        {
+          "learning": "Können Sie mir sagen, wie viel die Anmeldung kostet?",
+          "known": "Can you tell me how much registration costs?"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u30-l24-indirekt-rule-ex02",
+      "type": "explain",
+      "title": "Indirect Questions: step by step",
+      "body": "Conversion in 3 steps:\n1) Direct question: “Wann beginnt der Kurs?”\n2) Choose an opener: Wissen Sie, … / Können Sie mir sagen, … / Ich möchte wissen, … / Ich möchte fragen, …\n3) Attach the question as a subordinate clause: verb to the end → “…, wann der Kurs **beginnt**?”\nYes/no question (“Ist der Termin frei?”) → **ob**: “…, ob der Termin frei **ist**.”\nThe W-word stays; ob replaces a missing W-word. Separable verbs become ONE word again: Wann fängt er an? → …, wann er **anfängt**.\n\n## Auf Deutsch\n\nUmbau in 3 Schritten:\n1) Direkte Frage: „Wann beginnt der Kurs?“\n2) Einleitung wählen: Wissen Sie, … / Können Sie mir sagen, … / Ich möchte wissen, … / Ich möchte fragen, …\n3) Frage als Nebensatz anhängen: Verb ans Ende → „…, wann der Kurs **beginnt**?“\nJa/Nein-Frage („Ist der Termin frei?“) → **ob**: „…, ob der Termin frei **ist**.“\nW-Wort bleibt, ob ersetzt das fehlende W-Wort. Trennbares Verb wird wieder EIN Wort: Wann fängt er an? → …, wann er **anfängt**.",
+      "examples": [
+        {
+          "learning": "Wissen Sie, wann der Zug abfährt?",
+          "known": "Do you know when the train leaves?"
+        },
+        {
+          "learning": "Ich möchte wissen, ob der Kurs noch frei ist.",
+          "known": "…whether the course is still available."
+        },
+        {
+          "learning": "Können Sie mir sagen, wie viel die Anmeldung kostet?",
+          "known": "Can you tell me how much registration costs?"
+        },
+        {
+          "learning": "Ich möchte fragen, ob ich den Termin verschieben kann.",
+          "known": "…whether I can move the appointment. (letter gold)"
+        },
+        {
+          "learning": "Testlücke-Stil: „Er fragt, ___ du morgen Zeit hast.“ → ob",
+          "known": "yes/no question reported → ob"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u30-l24-indirekt-rule-ex03",
+      "type": "explain",
+      "title": "Watch out & exam tip",
+      "body": "## Common trap\n\n“Wissen Sie, wann beginnt der Kurs?” = wrong. After the question word it's a subordinate clause: verb at the end.\n\n*Deutsch:* „Wissen Sie, wann beginnt der Kurs?“ = falsch. Nach dem Fragewort ist es ein Nebensatz: Verb ans Ende.\n\n## In the exam\n\n🎯 How telc tests it: in the **semi-formal letter** (enquiry!), “Ich möchte wissen, ob …” / “Könnten Sie mir sagen, wann …” are mandatory building blocks. In **Sprachbausteine**, ob-vs-wenn is a classic gap: reported question → ob.\n\n*Deutsch:* 🎯 So testet telc das: Im **halbformellen Brief** (Anfrage!) sind „Ich möchte wissen, ob …“ / „Könnten Sie mir sagen, wann …“ Pflicht-Bausteine. In **Sprachbausteine** ist ob-oder-wenn eine Klassiker-Lücke: Frage gemeldet → ob.\n\n*Source:* Guide B6 · C5-Redemittel"
+    },
+    {
+      "id": "tb1-u30-l24-indirekt-rule-ex04",
+      "type": "choice",
+      "title": "Fill the gap",
+      "prompt": "Können Sie mir sagen, wann der Zug ___?",
+      "options": [
+        {
+          "id": "a",
+          "text": "abfährt"
+        },
+        {
+          "id": "b",
+          "text": "fährt ab"
+        },
+        {
+          "id": "c",
+          "text": "abfahren"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Indirekte Frage = Nebensatz: Verb (zusammen!) am Ende → wann der Zug abfährt."
+    },
+    {
+      "id": "tb1-u30-l24-indirekt-rule-ex05",
+      "type": "choice",
+      "title": "Fill the gap",
+      "prompt": "Ich möchte wissen, ___ der Kurs schon voll ist.",
+      "options": [
+        {
+          "id": "a",
+          "text": "wenn"
+        },
+        {
+          "id": "b",
+          "text": "ob"
+        },
+        {
+          "id": "c",
+          "text": "dass"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Ja/Nein-Frage → ob. („wenn“ = Bedingung, „dass“ = keine Frage)"
+    },
+    {
+      "id": "tb1-u30-l24-indirekt-rule-ex06",
+      "type": "choice",
+      "title": "Fill the gap",
+      "prompt": "Wissen Sie, wo ___?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Haltestelle ist"
+        },
+        {
+          "id": "b",
+          "text": "ist die Haltestelle"
+        },
+        {
+          "id": "c",
+          "text": "die Haltestelle sein"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Nach dem Fragewort normale Nebensatz-Stellung: … wo die Haltestelle ist."
+    }
+  ]
+}

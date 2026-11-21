@@ -1,0 +1,282 @@
+{
+  "id": "tb1-u20-l02-verbs-with-prepositions-2",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u20",
+  "title": "Verbs with Prepositions 2",
+  "tip": "Theme: Verben mit Präposition (B1)",
+  "exercises": [
+    {
+      "id": "tb1-u20-l02-verbs-with-prepositions-2-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "sich bewerben um",
+          "known": "to apply for"
+        },
+        {
+          "id": "p2",
+          "learning": "teilnehmen an",
+          "known": "to take part in"
+        },
+        {
+          "id": "p3",
+          "learning": "gehören zu",
+          "known": "to belong to"
+        },
+        {
+          "id": "p4",
+          "learning": "sich beschäftigen mit",
+          "known": "to occupy oneself with"
+        },
+        {
+          "id": "p5",
+          "learning": "abhängen von",
+          "known": "to depend on"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u20-l02-verbs-with-prepositions-2-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which verb means „to apply for“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "sich interessieren für + Akk."
+        },
+        {
+          "id": "b",
+          "text": "sich handeln um + Akk."
+        },
+        {
+          "id": "c",
+          "text": "sich freuen über + Akk."
+        },
+        {
+          "id": "d",
+          "text": "sich bewerben um + Akk."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**sich bewerben um + Akk.** = to apply for\n\n*Example:* Ali bewirbt sich um eine Stelle als Koch.\nAli is applying for a job as a cook."
+    },
+    {
+      "id": "tb1-u20-l02-verbs-with-prepositions-2-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which one means „to take part in“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "warten auf + Akk."
+        },
+        {
+          "id": "b",
+          "text": "bestehen aus + Dat."
+        },
+        {
+          "id": "c",
+          "text": "abhängen von + Dat."
+        },
+        {
+          "id": "d",
+          "text": "teilnehmen an + Dat."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**teilnehmen an + Dat.** = to take part in\n\n*Example:* Mein Kollege nimmt an einem Computerkurs teil.\nMy colleague is taking part in a computer course."
+    },
+    {
+      "id": "tb1-u20-l02-verbs-with-prepositions-2-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Ali bewirbt sich um eine Stelle als Koch.",
+      "tiles": [
+        "Ali",
+        "is",
+        "job",
+        "for",
+        "cook",
+        "bathroom",
+        "as",
+        "a",
+        "a",
+        "applying",
+        "an",
+        "letter"
+      ],
+      "answers": [
+        "Ali is applying for a job as a cook."
+      ],
+      "explanation": "**sich bewerben um + Akk.** = to apply for"
+    },
+    {
+      "id": "tb1-u20-l02-verbs-with-prepositions-2-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which one means „to belong to“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "denken an + Akk."
+        },
+        {
+          "id": "b",
+          "text": "abhängen von + Dat."
+        },
+        {
+          "id": "c",
+          "text": "gehören zu + Dat."
+        },
+        {
+          "id": "d",
+          "text": "bestehen aus + Dat."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**gehören zu + Dat.** = to belong to\n\n*Example:* Tom gehört schon seit Jahren zu unserem Team.\nTom has been part of our team for years."
+    },
+    {
+      "id": "tb1-u20-l02-verbs-with-prepositions-2-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "My colleague is taking part in a computer course.",
+      "tiles": [
+        "Computerkurs",
+        "teil",
+        "einem",
+        "an",
+        "haben",
+        "seit",
+        "Kollege",
+        "Mein",
+        "es",
+        "nimmt"
+      ],
+      "answers": [
+        "Mein Kollege nimmt an einem Computerkurs teil."
+      ],
+      "explanation": "**teilnehmen an + Dat.** = to take part in"
+    },
+    {
+      "id": "tb1-u20-l02-verbs-with-prepositions-2-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which verb means „to occupy oneself with“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "sich beschweren über + Akk."
+        },
+        {
+          "id": "b",
+          "text": "sich freuen auf + Akk."
+        },
+        {
+          "id": "c",
+          "text": "sich verlassen auf + Akk."
+        },
+        {
+          "id": "d",
+          "text": "sich beschäftigen mit + Dat."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**sich beschäftigen mit + Dat.** = to occupy oneself with\n\n*Example:* In ihrer Freizeit beschäftigt sich Anna mit ihrem Garten.\nIn her free time Anna busies herself with her garden."
+    },
+    {
+      "id": "tb1-u20-l02-verbs-with-prepositions-2-ex08",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u20-l02-verbs-with-prepositions-2-3.mp3"
+      },
+      "tiles": [
+        "schon",
+        "zwanzig",
+        "seit",
+        "Tom",
+        "Bus",
+        "zu",
+        "Jahren",
+        "unserem",
+        "gehört",
+        "Team",
+        "um"
+      ],
+      "answers": [
+        "Tom gehört schon seit Jahren zu unserem Team."
+      ],
+      "explanation": "Tom gehört schon seit Jahren zu unserem Team.\n*Tom has been part of our team for years.*\n\n**gehören zu + Dat.** = to belong to"
+    },
+    {
+      "id": "tb1-u20-l02-verbs-with-prepositions-2-ex09",
+      "type": "multiple_choice",
+      "prompt": "Which one means „to depend on“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "bestehen aus + Dat."
+        },
+        {
+          "id": "b",
+          "text": "teilnehmen an + Dat."
+        },
+        {
+          "id": "c",
+          "text": "abhängen von + Dat."
+        },
+        {
+          "id": "d",
+          "text": "bitten um + Akk."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**abhängen von + Dat.** = to depend on\n\n*Example:* Ob wir grillen, hängt vom Wetter ab.\nWhether we have a barbecue depends on the weather."
+    },
+    {
+      "id": "tb1-u20-l02-verbs-with-prepositions-2-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "In ihrer Freizeit beschäftigt sich Anna mit ihrem Garten.",
+      "tiles": [
+        "herself",
+        "garden",
+        "her",
+        "with",
+        "busies",
+        "been",
+        "free",
+        "We've",
+        "her",
+        "Anna",
+        "time",
+        "In",
+        "kitchen"
+      ],
+      "answers": [
+        "In her free time Anna busies herself with her garden."
+      ],
+      "explanation": "**sich beschäftigen mit + Dat.** = to occupy oneself with"
+    },
+    {
+      "id": "tb1-u20-l02-verbs-with-prepositions-2-ex11",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Whether we have a barbecue depends on the weather.",
+      "tiles": [
+        "Ob",
+        "Wetter",
+        "grillen",
+        "hängt",
+        "über",
+        "die",
+        "Musik",
+        "ab",
+        "wir",
+        "vom"
+      ],
+      "answers": [
+        "Ob wir grillen, hängt vom Wetter ab."
+      ],
+      "explanation": "**abhängen von + Dat.** = to depend on"
+    }
+  ]
+}

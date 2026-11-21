@@ -1,0 +1,277 @@
+{
+  "id": "tb1-u07-l06-adjectives-a2-2",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u07",
+  "title": "Adjectives (A2) 2",
+  "tip": "Theme: Adjektive (A2) (A2)",
+  "exercises": [
+    {
+      "id": "tb1-u07-l06-adjectives-a2-2-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "praktisch",
+          "known": "practical"
+        },
+        {
+          "id": "p2",
+          "learning": "bequem",
+          "known": "comfortable"
+        },
+        {
+          "id": "p3",
+          "learning": "gefährlich",
+          "known": "dangerous"
+        },
+        {
+          "id": "p4",
+          "learning": "sicher",
+          "known": "safe / sure"
+        },
+        {
+          "id": "p5",
+          "learning": "gesund",
+          "known": "healthy"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u07-l06-adjectives-a2-2-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which one means „practical“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "verschieden"
+        },
+        {
+          "id": "b",
+          "text": "gefährlich"
+        },
+        {
+          "id": "c",
+          "text": "freiwillig"
+        },
+        {
+          "id": "d",
+          "text": "praktisch"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**praktisch** = practical\n\n*Example:* Ein Rucksack ist für Ausflüge sehr praktisch.\nA backpack is very practical for day trips."
+    },
+    {
+      "id": "tb1-u07-l06-adjectives-a2-2-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which one means „comfortable“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "ähnlich"
+        },
+        {
+          "id": "b",
+          "text": "sicher"
+        },
+        {
+          "id": "c",
+          "text": "bequem"
+        },
+        {
+          "id": "d",
+          "text": "besondere / besonders"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**bequem** = comfortable\n\n*Example:* Das neue Sofa ist richtig bequem.\nThe new sofa is really comfortable."
+    },
+    {
+      "id": "tb1-u07-l06-adjectives-a2-2-ex04",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u07-l06-adjectives-a2-2-1.mp3"
+      },
+      "tiles": [
+        "Rucksack",
+        "ist",
+        "Heidelberg",
+        "in",
+        "für",
+        "Ausflüge",
+        "Dienstag",
+        "Ein",
+        "sehr",
+        "praktisch"
+      ],
+      "answers": [
+        "Ein Rucksack ist für Ausflüge sehr praktisch."
+      ],
+      "explanation": "Ein Rucksack ist für Ausflüge sehr praktisch.\n*A backpack is very practical for day trips.*\n\n**praktisch** = practical"
+    },
+    {
+      "id": "tb1-u07-l06-adjectives-a2-2-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which one means „dangerous“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "gefährlich"
+        },
+        {
+          "id": "b",
+          "text": "wichtig"
+        },
+        {
+          "id": "c",
+          "text": "nötig"
+        },
+        {
+          "id": "d",
+          "text": "ganz"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**gefährlich** = dangerous\n\n*Example:* Bei Glatteis ist Autofahren gefährlich.\nDriving is dangerous when the roads are icy."
+    },
+    {
+      "id": "tb1-u07-l06-adjectives-a2-2-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Das neue Sofa ist richtig bequem.",
+      "tiles": [
+        "really",
+        "People",
+        "sofa",
+        "backpack",
+        "comfortable",
+        "is",
+        "The",
+        "new",
+        "Today"
+      ],
+      "answers": [
+        "The new sofa is really comfortable."
+      ],
+      "explanation": "**bequem** = comfortable"
+    },
+    {
+      "id": "tb1-u07-l06-adjectives-a2-2-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which one means „safe / sure“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "normal"
+        },
+        {
+          "id": "b",
+          "text": "gesund ↔ ungesund"
+        },
+        {
+          "id": "c",
+          "text": "sicher"
+        },
+        {
+          "id": "d",
+          "text": "besondere / besonders"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**sicher** = safe / sure\n\n*Example:* Bist du sicher, dass die Tür abgeschlossen ist?\nAre you sure the door is locked?"
+    },
+    {
+      "id": "tb1-u07-l06-adjectives-a2-2-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Driving is dangerous when the roads are icy.",
+      "tiles": [
+        "ist",
+        "Der",
+        "Bei",
+        "Glatteis",
+        "Autofahren",
+        "bekannt",
+        "gefährlich",
+        "dass"
+      ],
+      "answers": [
+        "Bei Glatteis ist Autofahren gefährlich."
+      ],
+      "explanation": "**gefährlich** = dangerous"
+    },
+    {
+      "id": "tb1-u07-l06-adjectives-a2-2-ex09",
+      "type": "multiple_choice",
+      "prompt": "Which one means „healthy ↔ unhealthy“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "gesund ↔ ungesund"
+        },
+        {
+          "id": "b",
+          "text": "ähnlich"
+        },
+        {
+          "id": "c",
+          "text": "sicher"
+        },
+        {
+          "id": "d",
+          "text": "berühmt"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**gesund ↔ ungesund** = healthy ↔ unhealthy\n\n*Example:* Obst ist gesund, aber zu viel Zucker ist ungesund.\nFruit is healthy, but too much sugar is unhealthy."
+    },
+    {
+      "id": "tb1-u07-l06-adjectives-a2-2-ex10",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u07-l06-adjectives-a2-2-4.mp3"
+      },
+      "tiles": [
+        "du",
+        "Bist",
+        "Tür",
+        "sicher",
+        "ähnlich",
+        "abgeschlossen",
+        "dass",
+        "Film",
+        "die",
+        "kommst",
+        "ist"
+      ],
+      "answers": [
+        "Bist du sicher, dass die Tür abgeschlossen ist?"
+      ],
+      "explanation": "Bist du sicher, dass die Tür abgeschlossen ist?\n*Are you sure the door is locked?*\n\n**sicher** = safe / sure"
+    },
+    {
+      "id": "tb1-u07-l06-adjectives-a2-2-ex11",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Obst ist gesund, aber zu viel Zucker ist ungesund.",
+      "tiles": [
+        "sugar",
+        "healthy",
+        "Fruit",
+        "unhealthy",
+        "much",
+        "but",
+        "is",
+        "too",
+        "for",
+        "that",
+        "is",
+        "home"
+      ],
+      "answers": [
+        "Fruit is healthy, but too much sugar is unhealthy."
+      ],
+      "explanation": "**gesund ↔ ungesund** = healthy ↔ unhealthy"
+    }
+  ]
+}

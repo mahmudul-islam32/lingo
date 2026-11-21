@@ -1,0 +1,147 @@
+{
+  "id": "tb1-u65-l01-oral-exam-parts",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u65",
+  "title": "The oral exam: preparation and three parts",
+  "tip": "20 minutes preparation, then Teil 1 (3 min), Teil 2 (6 min), Teil 3 (6 min).",
+  "exercises": [
+    {
+      "id": "tb1-u65-l01-oral-exam-parts-ex01",
+      "type": "explain",
+      "title": "The oral exam (Mündliche Prüfung)",
+      "body": "## Vorbereitung · 20 Minuten\n\nSie bekommen alle Aufgabenblätter und dürfen sich auf gestempeltem Papier Notizen machen. Keine Wörterbücher, keine Handys. Während der Vorbereitung sprechen die Teilnehmenden nicht miteinander. Auf den Aufgabenblättern selbst darf nichts notiert werden.\n\n*You get all task sheets and may take notes on stamped paper. No dictionaries, no phones. Candidates don't talk to each other during the preparation. You may not write anything on the task sheets themselves.*\n\n## Teil 1: Einander kennenlernen · ca. 3 Minuten\n\nSie stellen sich gegenseitig vor und stellen einander Fragen. Die Stichpunkte auf dem Blatt sind nur Orientierung. Sprechen Sie mit Ihrer Partnerin/Ihrem Partner, nicht mit den Prüfenden.\n\n*You introduce yourselves and ask each other questions. The key words on the sheet are only a guide. Talk to your partner, not to the examiners.*\n\n## Teil 2: Über ein Thema sprechen · ca. 6 Minuten\n\nSie und Ihre Partnerin/Ihr Partner haben verschiedene Meinungskarten zum selben Thema. Zuerst berichten Sie einander, was auf Ihrer Karte steht. Danach sprechen Sie über das Thema, sagen Ihre eigene Meinung und erzählen von eigenen Erfahrungen.\n\n*You and your partner have different opinion cards on the same topic. First you tell each other what is on your card. Then you talk about the topic, give your own opinion and talk about your own experiences.*\n\n## Teil 3: Gemeinsam etwas planen · ca. 6 Minuten\n\nSie organisieren zusammen ein Vorhaben, eine Feier, einen Ausflug, eine Veranstaltung. Machen Sie Vorschläge, reagieren Sie auf die Vorschläge der anderen Person, klären Sie, wer welche Aufgabe übernimmt, und einigen Sie sich am Ende.\n\n*You organise something together: a party, an outing, an event. Make suggestions, react to the other person's suggestions, decide who takes on which task, and agree at the end.*\n\n*Format und Ablauf nach dem offiziellen telc-Übungstest Deutsch B1 (© telc gGmbH, 2020). Aufgaben und Meinungskarten sind eigene Texte im selben Format.*"
+    },
+    {
+      "id": "tb1-u65-l01-oral-exam-parts-ex02",
+      "type": "explain",
+      "title": "The three parts at a glance",
+      "body": "- **Teil 1 · Kontaktaufnahme** (timer 3:00): Stellt euch gegenseitig vor. Ca. 3 Minuten, zu zweit.\n- **Teil 2 · Gespräch über ein Thema** (timer 6:00): Gib die Meinung auf deiner Karte wieder, dann sag deine eigene. Ca. 6 Minuten.\n- **Teil 3 · Gemeinsam etwas planen** (timer 6:00): Macht Vorschläge, reagiert aufeinander, einigt euch. Ca. 6 Minuten.\n\nPart 1: *contact* (introduce yourselves, about 3 minutes). Part 2: *conversation about a topic*: report the opinion on your card, then give your own (about 6 minutes). Part 3: *planning together*: make suggestions, react to each other, agree (about 6 minutes)."
+    },
+    {
+      "id": "tb1-u65-l01-oral-exam-parts-ex03",
+      "type": "choice",
+      "prompt": "Wie lange dauert die Vorbereitung?",
+      "options": [
+        {
+          "id": "a",
+          "text": "20 Minuten"
+        },
+        {
+          "id": "b",
+          "text": "ca. 6 Minuten"
+        },
+        {
+          "id": "c",
+          "text": "ca. 3 Minuten"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Vorbereitung** (20 Minuten)\nSie bekommen alle Aufgabenblätter und dürfen sich auf gestempeltem Papier Notizen machen. Keine Wörterbücher, keine Handys. Während der Vorbereitung sprechen die Teilnehmenden nicht miteinander. Auf den Aufgabenblättern selbst darf nichts notiert werden."
+    },
+    {
+      "id": "tb1-u65-l01-oral-exam-parts-ex04",
+      "type": "choice",
+      "prompt": "Was ist in der Vorbereitung NICHT erlaubt?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Alle Aufgabenblätter ansehen"
+        },
+        {
+          "id": "b",
+          "text": "Wörterbücher und Handys"
+        },
+        {
+          "id": "c",
+          "text": "Notizen auf gestempeltem Papier"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Vorbereitung** (20 Minuten)\nSie bekommen alle Aufgabenblätter und dürfen sich auf gestempeltem Papier Notizen machen. Keine Wörterbücher, keine Handys. Während der Vorbereitung sprechen die Teilnehmenden nicht miteinander. Auf den Aufgabenblättern selbst darf nichts notiert werden."
+    },
+    {
+      "id": "tb1-u65-l01-oral-exam-parts-ex05",
+      "type": "choice",
+      "prompt": "Mit wem sprechen Sie in Teil 1?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Mit niemandem, es ist ein Monolog"
+        },
+        {
+          "id": "b",
+          "text": "Mit den Prüfenden"
+        },
+        {
+          "id": "c",
+          "text": "Mit der Partnerin / dem Partner"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**Teil 1: Einander kennenlernen** (ca. 3 Minuten)\nSie stellen sich gegenseitig vor und stellen einander Fragen. Die Stichpunkte auf dem Blatt sind nur Orientierung. Sprechen Sie mit Ihrer Partnerin/Ihrem Partner, nicht mit den Prüfenden."
+    },
+    {
+      "id": "tb1-u65-l01-oral-exam-parts-ex06",
+      "type": "choice",
+      "prompt": "Was machen Sie zuerst in Teil 2?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Wir planen zusammen eine Feier."
+        },
+        {
+          "id": "b",
+          "text": "Wir stellen uns gegenseitig vor."
+        },
+        {
+          "id": "c",
+          "text": "Wir berichten einander, was auf unserer Karte steht."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**Teil 2: Über ein Thema sprechen** (ca. 6 Minuten)\nSie und Ihre Partnerin/Ihr Partner haben verschiedene Meinungskarten zum selben Thema. Zuerst berichten Sie einander, was auf Ihrer Karte steht. Danach sprechen Sie über das Thema, sagen Ihre eigene Meinung und erzählen von eigenen Erfahrungen."
+    },
+    {
+      "id": "tb1-u65-l01-oral-exam-parts-ex07",
+      "type": "choice",
+      "prompt": "Was muss am Ende von Teil 3 passieren?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Wir lesen unsere Notizen vor."
+        },
+        {
+          "id": "b",
+          "text": "Wir einigen uns."
+        },
+        {
+          "id": "c",
+          "text": "Wir berichten, was auf unserer Karte steht."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Teil 3: Gemeinsam etwas planen** (ca. 6 Minuten)\nSie organisieren zusammen ein Vorhaben, eine Feier, einen Ausflug, eine Veranstaltung. Machen Sie Vorschläge, reagieren Sie auf die Vorschläge der anderen Person, klären Sie, wer welche Aufgabe übernimmt, und einigen Sie sich am Ende."
+    },
+    {
+      "id": "tb1-u65-l01-oral-exam-parts-ex08",
+      "type": "choice",
+      "prompt": "Welcher Teil heißt „Über ein Thema sprechen“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Teil 3"
+        },
+        {
+          "id": "b",
+          "text": "Teil 1"
+        },
+        {
+          "id": "c",
+          "text": "Teil 2"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Vorbereitung · Teil 1: Einander kennenlernen · Teil 2: Über ein Thema sprechen · Teil 3: Gemeinsam etwas planen"
+    }
+  ]
+}

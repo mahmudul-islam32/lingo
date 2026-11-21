@@ -1,0 +1,249 @@
+{
+  "id": "tb1-u27-l06-agreeing-disagreeing-3",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u27",
+  "title": "Agreeing & Disagreeing 3",
+  "tip": "Theme: Redemittel: Zustimmen & Widersprechen (B1)",
+  "exercises": [
+    {
+      "id": "tb1-u27-l06-agreeing-disagreeing-3-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "Das sehe ich anders",
+          "known": "I see it differently."
+        },
+        {
+          "id": "p2",
+          "learning": "Ich bin nicht sicher, ob das stimmt",
+          "known": "I'm not sure that's right."
+        },
+        {
+          "id": "p3",
+          "learning": "Einerseits ja, andererseits …",
+          "known": "On the one hand yes, on the other …"
+        },
+        {
+          "id": "p4",
+          "learning": "Das kann man so nicht sagen",
+          "known": "You can't really say that."
+        },
+        {
+          "id": "p5",
+          "learning": "Da stimme ich Ihnen zu",
+          "known": "I agree with you."
+        }
+      ]
+    },
+    {
+      "id": "tb1-u27-l06-agreeing-disagreeing-3-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which phrase means „I see it differently.“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Da stimme ich Ihnen zu."
+        },
+        {
+          "id": "b",
+          "text": "Das ist ein guter Punkt."
+        },
+        {
+          "id": "c",
+          "text": "Das sehe ich auch so."
+        },
+        {
+          "id": "d",
+          "text": "Das sehe ich anders."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**Das sehe ich anders.** = I see it differently.\n\n*Example:* „Online-Shopping ist immer besser.“ – „Das sehe ich anders.“\n\"Online shopping is always better.\" – \"I see it differently.\""
+    },
+    {
+      "id": "tb1-u27-l06-agreeing-disagreeing-3-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which phrase means „I'm not sure that's right.“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ich bin nicht sicher, ob das stimmt."
+        },
+        {
+          "id": "b",
+          "text": "Das stimmt, aber …"
+        },
+        {
+          "id": "c",
+          "text": "Das kann man so nicht sagen."
+        },
+        {
+          "id": "d",
+          "text": "Da stimme ich Ihnen zu."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Ich bin nicht sicher, ob das stimmt.** = I'm not sure that's right.\n\n*Example:* „Der Kurs ist kostenlos.“ – „Ich bin nicht sicher, ob das stimmt.“\n\"The course is free.\" – \"I'm not sure that's right.\""
+    },
+    {
+      "id": "tb1-u27-l06-agreeing-disagreeing-3-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "\"Online shopping is always better.\" – \"I see it differently.\"",
+      "tiles": [
+        "anders",
+        "sehe",
+        "Das",
+        "Online-Shopping",
+        "ich",
+        "Wir",
+        "immer",
+        "ist",
+        "Kurs",
+        "könnten",
+        "besser"
+      ],
+      "answers": [
+        "„Online-Shopping ist immer besser.“ – „Das sehe ich anders.“"
+      ],
+      "explanation": "**Das sehe ich anders.** = I see it differently."
+    },
+    {
+      "id": "tb1-u27-l06-agreeing-disagreeing-3-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which phrase means „On the one hand yes, on the other …“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Einerseits ja, andererseits …"
+        },
+        {
+          "id": "b",
+          "text": "Genau, das finde ich auch."
+        },
+        {
+          "id": "c",
+          "text": "Das sehe ich auch so."
+        },
+        {
+          "id": "d",
+          "text": "Da stimme ich Ihnen zu."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Einerseits ja, andererseits …** = On the one hand yes, on the other …\n\n*Example:* „Ist ein Auto wichtig?“ – „Einerseits ja, andererseits kostet es viel Geld.“\n\"Is a car important?\" – \"On the one hand yes, on the other hand it costs a lot of money.\""
+    },
+    {
+      "id": "tb1-u27-l06-agreeing-disagreeing-3-ex06",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u27-l06-agreeing-disagreeing-3-2.mp3"
+      },
+      "tiles": [
+        "Ich",
+        "Der",
+        "ist",
+        "Fernsehen",
+        "losfahren",
+        "das",
+        "ob",
+        "leider",
+        "Kurs",
+        "nicht",
+        "kostenlos",
+        "bin",
+        "sicher",
+        "stimmt"
+      ],
+      "answers": [
+        "„Der Kurs ist kostenlos.“ – „Ich bin nicht sicher, ob das stimmt.“"
+      ],
+      "explanation": "„Der Kurs ist kostenlos.“ – „Ich bin nicht sicher, ob das stimmt.“\n*\"The course is free.\" – \"I'm not sure that's right.\"*\n\n**Ich bin nicht sicher, ob das stimmt.** = I'm not sure that's right."
+    },
+    {
+      "id": "tb1-u27-l06-agreeing-disagreeing-3-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which phrase means „You can't really say that.“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Da haben Sie recht."
+        },
+        {
+          "id": "b",
+          "text": "Einerseits ja, andererseits …"
+        },
+        {
+          "id": "c",
+          "text": "Das kann man so nicht sagen."
+        },
+        {
+          "id": "d",
+          "text": "Das ist ein guter Punkt."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**Das kann man so nicht sagen.** = You can't really say that.\n\n*Example:* „Alle Großstädte sind gefährlich.“ – „Das kann man so nicht sagen.“\n\"All big cities are dangerous.\" – \"You can't really say that.\""
+    },
+    {
+      "id": "tb1-u27-l06-agreeing-disagreeing-3-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "„Ist ein Auto wichtig?“ – „Einerseits ja, andererseits kostet es viel Geld.“",
+      "tiles": [
+        "the",
+        "money",
+        "think",
+        "Is",
+        "of",
+        "car",
+        "a",
+        "hand",
+        "the",
+        "lot",
+        "important",
+        "a",
+        "costs",
+        "other",
+        "hand",
+        "children",
+        "one",
+        "good",
+        "it",
+        "yes",
+        "on",
+        "On"
+      ],
+      "answers": [
+        "\"Is a car important?\" – \"On the one hand yes, on the other hand it costs a lot of money.\""
+      ],
+      "explanation": "**Einerseits ja, andererseits …** = On the one hand yes, on the other …"
+    },
+    {
+      "id": "tb1-u27-l06-agreeing-disagreeing-3-ex09",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "\"All big cities are dangerous.\" – \"You can't really say that.\"",
+      "tiles": [
+        "kann",
+        "Alle",
+        "Das",
+        "nicht",
+        "gefährlich",
+        "ich",
+        "sind",
+        "ist",
+        "man",
+        "sagen",
+        "Großstädte",
+        "kostenlos",
+        "so"
+      ],
+      "answers": [
+        "„Alle Großstädte sind gefährlich.“ – „Das kann man so nicht sagen.“"
+      ],
+      "explanation": "**Das kann man so nicht sagen.** = You can't really say that."
+    }
+  ]
+}

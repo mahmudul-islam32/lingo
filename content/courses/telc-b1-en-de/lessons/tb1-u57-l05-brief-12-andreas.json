@@ -1,0 +1,273 @@
+{
+  "id": "tb1-u57-l05-brief-12-andreas",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u57",
+  "title": "Letter 12: Andreas · Neue Wohnung, Computer & Besuch im Sommer",
+  "tip": "Cover all four points; Anrede and Gruß are compulsory.",
+  "exercises": [
+    {
+      "id": "tb1-u57-l05-brief-12-andreas-ex01",
+      "type": "explain",
+      "title": "Letter from Andreas: Neue Wohnung, Computer & Besuch im Sommer",
+      "body": "Read the letter. You will answer it in about 80 words and write something about each of the four points.\n\n## Neue Wohnung, Computer & Besuch im Sommer\n\nLiebe(r) ........\nes tut mir wirklich leid, dass ich dir schon so lange nicht geschrieben habe. Bei mir ist im letzten Monat ziemlich viel los gewesen.\nVor drei Wochen bin ich nämlich in eine neue Wohnung gezogen, weil die alte für mich zu klein war. Mittlerweile habe ich mich schon sehr schön eingerichtet, mit ein paar neuen Möbeln usw. Ich fühle mich wirklich wohl! Hast du nicht Lust. Im Sommer zu mir zu Besuch zu kommen?\nIn meiner neuen Wohnung habe ich jetzt auch ein kleines Arbeitszimmer für meine ganzen Bücher und den Schreibtisch mit dem Computer. Wie ist das bei dir? Machst du eigentlich viel am Computer?\nLass doch mal wieder was von dir hören!\n\nLiebe Grüße und bis bald\nAndreas\n\n## Task\n\n**Antworten Sie auf den Brief. Schreiben Sie etwas zu den folgenden vier Punkten:**\n1. Ihre Erfahrungen mit dem Computer\n2. Etwas über Ihre Wohnung\n3. Ob Sie Andreas besuchen möchten.\n4. Was es bei Ihnen Neues gibt.\n\nSource video: https://www.youtube.com/watch?v=W5Z-_i5EcgU\n\n## Notes on the source\n\n- Quelle: 'Hast du nicht Lust. Im Sommer...'. Punkt statt Komma (Tippfehler)."
+    },
+    {
+      "id": "tb1-u57-l05-brief-12-andreas-ex02",
+      "type": "explain",
+      "title": "Plan: one building block per point",
+      "body": "For each Leitpunkt pick a Baustein and fill it in:\n\n**1. Ihre Erfahrungen mit dem Computer**\nBaustein B7 · über sich / Vorlieben (talk about yourself / preferences): *Am liebsten …, weil ich … kann.*\n→ Am liebsten arbeite ich abends am Computer, weil ich dort in Ruhe lernen und Filme sehen kann.\n\n**2. Etwas über Ihre Wohnung**\nBaustein B7+ · über sich / Vorlieben (talk about yourself / preferences): *Am liebsten …, vor allem am Ende ….*\n→ Am liebsten sitze ich auf meinem Balkon, vor allem am Ende eines langen Arbeitstages.\n\n**3. Ob Sie Andreas besuchen möchten.**\nBaustein B1a · Vorschlag annehmen (accept a suggestion): *Deine Idee mit … finde ich super, weil wir … können.*\n→ Deine Idee mit deiner Einladung für den Sommer finde ich super, weil wir deine neue Wohnung endlich sehen können.\n\n**4. Was es bei Ihnen Neues gibt.**\nBaustein B2b · eigene Neuigkeiten (share your own news): *Bei mir gibt es auch Neuigkeiten: Vor … habe ich …. Darüber freue ich mich immer noch sehr.*\n→ Bei mir gibt es auch Neuigkeiten: Vor einem Monat habe ich den Führerschein gemacht. Darüber freue ich mich immer noch sehr.",
+      "examples": [
+        {
+          "learning": "Am liebsten arbeite ich abends am Computer, weil ich dort in Ruhe lernen und Filme sehen kann.",
+          "known": "Point 1: talk about yourself / preferences (B7)"
+        },
+        {
+          "learning": "Am liebsten sitze ich auf meinem Balkon, vor allem am Ende eines langen Arbeitstages.",
+          "known": "Point 2: talk about yourself / preferences (B7+)"
+        },
+        {
+          "learning": "Deine Idee mit deiner Einladung für den Sommer finde ich super, weil wir deine neue Wohnung endlich sehen können.",
+          "known": "Point 3: accept a suggestion (B1a)"
+        },
+        {
+          "learning": "Bei mir gibt es auch Neuigkeiten: Vor einem Monat habe ich den Führerschein gemacht. Darüber freue ich mich immer noch sehr.",
+          "known": "Point 4: share your own news (B2b)"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u57-l05-brief-12-andreas-ex03",
+      "type": "choice",
+      "title": "Leitpunkt 1",
+      "prompt": "Welcher Satz passt zum Leitpunkt „Ihre Erfahrungen mit dem Computer“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Bei mir gibt es auch Neuigkeiten: Vor einem Monat habe ich den Führerschein gemacht. Darüber freue ich mich immer noch sehr."
+        },
+        {
+          "id": "b",
+          "text": "Am liebsten sitze ich auf meinem Balkon, vor allem am Ende eines langen Arbeitstages."
+        },
+        {
+          "id": "c",
+          "text": "Deine Idee mit deiner Einladung für den Sommer finde ich super, weil wir deine neue Wohnung endlich sehen können."
+        },
+        {
+          "id": "d",
+          "text": "Am liebsten arbeite ich abends am Computer, weil ich dort in Ruhe lernen und Filme sehen kann."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Baustein **B7** · über sich / Vorlieben (talk about yourself / preferences): Am liebsten …, weil ich … kann."
+    },
+    {
+      "id": "tb1-u57-l05-brief-12-andreas-ex04",
+      "type": "choice",
+      "title": "Leitpunkt 2",
+      "prompt": "Welcher Satz passt zum Leitpunkt „Etwas über Ihre Wohnung“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Bei mir gibt es auch Neuigkeiten: Vor einem Monat habe ich den Führerschein gemacht. Darüber freue ich mich immer noch sehr."
+        },
+        {
+          "id": "b",
+          "text": "Am liebsten sitze ich auf meinem Balkon, vor allem am Ende eines langen Arbeitstages."
+        },
+        {
+          "id": "c",
+          "text": "Am liebsten arbeite ich abends am Computer, weil ich dort in Ruhe lernen und Filme sehen kann."
+        },
+        {
+          "id": "d",
+          "text": "Deine Idee mit deiner Einladung für den Sommer finde ich super, weil wir deine neue Wohnung endlich sehen können."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Baustein **B7+** · über sich / Vorlieben (talk about yourself / preferences): Am liebsten …, vor allem am Ende …."
+    },
+    {
+      "id": "tb1-u57-l05-brief-12-andreas-ex05",
+      "type": "choice",
+      "title": "Leitpunkt 3",
+      "prompt": "Welcher Satz passt zum Leitpunkt „Ob Sie Andreas besuchen möchten.“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Am liebsten sitze ich auf meinem Balkon, vor allem am Ende eines langen Arbeitstages."
+        },
+        {
+          "id": "b",
+          "text": "Am liebsten arbeite ich abends am Computer, weil ich dort in Ruhe lernen und Filme sehen kann."
+        },
+        {
+          "id": "c",
+          "text": "Bei mir gibt es auch Neuigkeiten: Vor einem Monat habe ich den Führerschein gemacht. Darüber freue ich mich immer noch sehr."
+        },
+        {
+          "id": "d",
+          "text": "Deine Idee mit deiner Einladung für den Sommer finde ich super, weil wir deine neue Wohnung endlich sehen können."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Baustein **B1a** · Vorschlag annehmen (accept a suggestion): Deine Idee mit … finde ich super, weil wir … können."
+    },
+    {
+      "id": "tb1-u57-l05-brief-12-andreas-ex06",
+      "type": "choice",
+      "title": "Leitpunkt 4",
+      "prompt": "Welcher Satz passt zum Leitpunkt „Was es bei Ihnen Neues gibt.“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Am liebsten arbeite ich abends am Computer, weil ich dort in Ruhe lernen und Filme sehen kann."
+        },
+        {
+          "id": "b",
+          "text": "Bei mir gibt es auch Neuigkeiten: Vor einem Monat habe ich den Führerschein gemacht. Darüber freue ich mich immer noch sehr."
+        },
+        {
+          "id": "c",
+          "text": "Deine Idee mit deiner Einladung für den Sommer finde ich super, weil wir deine neue Wohnung endlich sehen können."
+        },
+        {
+          "id": "d",
+          "text": "Am liebsten sitze ich auf meinem Balkon, vor allem am Ende eines langen Arbeitstages."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Baustein **B2b** · eigene Neuigkeiten (share your own news): Bei mir gibt es auch Neuigkeiten: Vor … habe ich …. Darüber freue ich mich immer noch sehr."
+    },
+    {
+      "id": "tb1-u57-l05-brief-12-andreas-ex07",
+      "type": "choice",
+      "title": "Leitpunkt 1 · Welches Wort passt in die Lücke?",
+      "prompt": "Am liebsten arbeite ich abends am Computer, ___ ich dort in Ruhe lernen und Filme sehen kann.",
+      "options": [
+        {
+          "id": "a",
+          "text": "deshalb"
+        },
+        {
+          "id": "b",
+          "text": "weil"
+        },
+        {
+          "id": "c",
+          "text": "denn"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Full sentence: *Am liebsten arbeite ich abends am Computer, weil ich dort in Ruhe lernen und Filme sehen kann.*\n\n**weil (Grund)**: reason; the verb goes to the very end.\n\nHauptsatz, **weil** + Subjekt + … + **Verb ans Ende**.\nBsp: Ich bleibe zu Hause, weil ich müde **bin**."
+    },
+    {
+      "id": "tb1-u57-l05-brief-12-andreas-ex08",
+      "type": "choice",
+      "title": "Leitpunkt 3 · Welches Wort passt in die Lücke?",
+      "prompt": "Deine Idee mit deiner Einladung für den Sommer finde ich super, ___ wir deine neue Wohnung endlich sehen können.",
+      "options": [
+        {
+          "id": "a",
+          "text": "denn"
+        },
+        {
+          "id": "b",
+          "text": "weil"
+        },
+        {
+          "id": "c",
+          "text": "deshalb"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Full sentence: *Deine Idee mit deiner Einladung für den Sommer finde ich super, weil wir deine neue Wohnung endlich sehen können.*\n\n**weil (Grund)**: reason; the verb goes to the very end.\n\nHauptsatz, **weil** + Subjekt + … + **Verb ans Ende**.\nBsp: Ich bleibe zu Hause, weil ich müde **bin**."
+    },
+    {
+      "id": "tb1-u57-l05-brief-12-andreas-ex09",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/w-brief-12-0.mp3"
+      },
+      "tiles": [
+        "eines",
+        "am",
+        "allem",
+        "deiner",
+        "ich",
+        "Balkon",
+        "Arbeitstages",
+        "Am",
+        "auf",
+        "Neuigkeiten",
+        "Ende",
+        "für",
+        "vor",
+        "liebsten",
+        "langen",
+        "sitze",
+        "meinem"
+      ],
+      "answers": [
+        "Am liebsten sitze ich auf meinem Balkon, vor allem am Ende eines langen Arbeitstages."
+      ]
+    },
+    {
+      "id": "tb1-u57-l05-brief-12-andreas-ex10",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/w-brief-12-1.mp3"
+      },
+      "tiles": [
+        "sehen",
+        "weil",
+        "kann",
+        "abends",
+        "allem",
+        "Computer",
+        "Ruhe",
+        "einem",
+        "arbeite",
+        "ich",
+        "in",
+        "Am",
+        "liebsten",
+        "ich",
+        "und",
+        "Bei",
+        "Filme",
+        "lernen",
+        "am",
+        "dort"
+      ],
+      "answers": [
+        "Am liebsten arbeite ich abends am Computer, weil ich dort in Ruhe lernen und Filme sehen kann."
+      ]
+    },
+    {
+      "id": "tb1-u57-l05-brief-12-andreas-ex11",
+      "type": "task",
+      "skill": "writing",
+      "title": "E-Mail an Andreas: Neue Wohnung, Computer & Besuch im Sommer",
+      "task": "**Neue Wohnung, Computer & Besuch im Sommer**\n\nYou received this letter:\n\nLiebe(r) ........\nes tut mir wirklich leid, dass ich dir schon so lange nicht geschrieben habe. Bei mir ist im letzten Monat ziemlich viel los gewesen.\nVor drei Wochen bin ich nämlich in eine neue Wohnung gezogen, weil die alte für mich zu klein war. Mittlerweile habe ich mich schon sehr schön eingerichtet, mit ein paar neuen Möbeln usw. Ich fühle mich wirklich wohl! Hast du nicht Lust. Im Sommer zu mir zu Besuch zu kommen?\nIn meiner neuen Wohnung habe ich jetzt auch ein kleines Arbeitszimmer für meine ganzen Bücher und den Schreibtisch mit dem Computer. Wie ist das bei dir? Machst du eigentlich viel am Computer?\nLass doch mal wieder was von dir hören!\nLiebe Grüße und bis bald\nAndreas\n\n**Antworten Sie auf den Brief. Schreiben Sie etwas zu den folgenden vier Punkten:**\n\nWrite about 80 words (30 minutes). Anrede and Gruß are compulsory.",
+      "points": [
+        "Ihre Erfahrungen mit dem Computer",
+        "Etwas über Ihre Wohnung",
+        "Ob Sie Andreas besuchen möchten.",
+        "Was es bei Ihnen Neues gibt."
+      ],
+      "phrases": [
+        "Lieber Andreas,",
+        "vielen Dank für deinen Brief. Ich habe mich sehr gefreut, weil ich schon lange nichts von dir gehört habe.",
+        "Am liebsten …, weil ich … kann.",
+        "Am liebsten …, vor allem am Ende ….",
+        "Deine Idee mit … finde ich super, weil wir … können.",
+        "Bei mir gibt es auch Neuigkeiten: Vor … habe ich …. Darüber freue ich mich immer noch sehr.",
+        "So, das war's für heute. Ich hoffe, dass es dir gut geht. Es wäre schön, wenn wir uns bald einmal wiedersehen könnten. Schreib mir bitte bald zurück!",
+        "Viele Grüße"
+      ],
+      "modelAnswer": "## Model answer (Musterlösung)\n\nHamburg, den 9. August 2026\n\nLieber Andreas,\n\nvielen Dank für deinen Brief. Ich habe mich sehr gefreut, weil ich schon lange nichts von dir gehört habe.\n\nAm liebsten arbeite ich abends am Computer, weil ich dort in Ruhe lernen und Filme sehen kann.\n\nAm liebsten sitze ich auf meinem Balkon, vor allem am Ende eines langen Arbeitstages.\n\nDeine Idee mit deiner Einladung für den Sommer finde ich super, weil wir deine neue Wohnung endlich sehen können.\n\nBei mir gibt es auch Neuigkeiten: Vor einem Monat habe ich den Führerschein gemacht. Darüber freue ich mich immer noch sehr.\n\nSo, das war's für heute. Ich hoffe, dass es dir gut geht. Es wäre schön, wenn wir uns bald einmal wiedersehen könnten. Schreib mir bitte bald zurück!\n\nViele Grüße\ndein Arnob\n\n## Sample answer from the source video\n\n*This answer was written in the source video. It is not the model and may contain mistakes; check the notes on the source.*\n\nLieber Andreas,\nwie geht es dir? Ich hoffe, dass bei dir alles in Ordnung ist. Zuerst möchte ich dir zu deiner neuen Wohnung gratulieren. Ich freue mich sehr für dich – eine Wohnung mit schönen Möbeln ist wirklich toll!\nZurzeit wohne ich mit meiner Familie in einer ziemlich großen Wohnung, die nicht nur schön ist, sondern auch viele moderne Möbel hat, wie zum Beispiel einen Fernseher, einen Herd, eine Waschmaschine, einen Kühlschrank und so weiter.\nIn meinem Schlafzimmer stehen ein Computer und ein Schreibtisch. Jeden Tag verbringe ich etwa vier Stunden am Computer, weil ich ihn zum Lernen neuer Dinge nutze und mich nach einem langen Arbeitstag beim Spielen entspannen kann.\nWeißt du, ich habe vor einer Woche eine neue Stelle in einem Restaurant gefunden. Im Moment muss ich zehn Stunden pro Tag arbeiten. Die Arbeit ist zwar anstrengend, aber ich bekomme ein gutes Einkommen. Deshalb kann ich dich diese Woche leider nicht besuchen, aber ich hätte am nächsten Wochenende Zeit. Kannst du mir sagen, ob du dann Zeit hast – und ob ich meine Schwester mitbringen darf?\nBitte schreib mir bald zurück!\nViele Grüße\n[Dein Name]",
+      "explanation": "Notes on the source:\n\n- Quelle: 'Hast du nicht Lust. Im Sommer...'. Punkt statt Komma (Tippfehler)."
+    }
+  ]
+}

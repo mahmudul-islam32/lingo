@@ -1,0 +1,287 @@
+{
+  "id": "tb1-u25-l10-nouns-work-education-society-2",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u25",
+  "title": "Nouns: Work, Education & Society 2",
+  "tip": "Theme: Nomen: Arbeit, Bildung & Gesellschaft (B1)",
+  "exercises": [
+    {
+      "id": "tb1-u25-l10-nouns-work-education-society-2-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "der Jugendliche",
+          "known": "young person / teenager"
+        },
+        {
+          "id": "p2",
+          "learning": "der Erwachsene",
+          "known": "adult"
+        },
+        {
+          "id": "p3",
+          "learning": "die Werkstatt",
+          "known": "workshop / garage"
+        },
+        {
+          "id": "p4",
+          "learning": "der Verkauf",
+          "known": "sale(s)"
+        },
+        {
+          "id": "p5",
+          "learning": "das Produkt",
+          "known": "product"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u25-l10-nouns-work-education-society-2-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „young person / teenager“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "der Jugendliche, die Jugendlichen"
+        },
+        {
+          "id": "b",
+          "text": "das Seminar, die Seminare"
+        },
+        {
+          "id": "c",
+          "text": "die Buchhaltung"
+        },
+        {
+          "id": "d",
+          "text": "der Bereich, die Bereiche"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**der Jugendliche** = young person / teenager\n*Plural: die Jugendlichen*\n\n*Example:* Im Jugendzentrum treffen sich am Nachmittag viele Jugendliche.\nMany young people meet at the youth centre in the afternoon."
+    },
+    {
+      "id": "tb1-u25-l10-nouns-work-education-society-2-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „adult“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "der Erwachsene, die Erwachsenen"
+        },
+        {
+          "id": "b",
+          "text": "das Zertifikat, die Zertifikate"
+        },
+        {
+          "id": "c",
+          "text": "die Nachhilfe"
+        },
+        {
+          "id": "d",
+          "text": "die Aussprache"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**der Erwachsene** = adult\n*Plural: die Erwachsenen*\n\n*Example:* Der Eintritt kostet für Erwachsene acht Euro, für Kinder vier.\nAdmission costs eight euros for adults and four for children."
+    },
+    {
+      "id": "tb1-u25-l10-nouns-work-education-society-2-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Im Jugendzentrum treffen sich am Nachmittag viele Jugendliche.",
+      "tiles": [
+        "people",
+        "at",
+        "is",
+        "afternoon",
+        "young",
+        "centre",
+        "the",
+        "in",
+        "costs",
+        "youth",
+        "to",
+        "Many",
+        "the",
+        "meet"
+      ],
+      "answers": [
+        "Many young people meet at the youth centre in the afternoon."
+      ],
+      "explanation": "**der Jugendliche** = young person / teenager\n*Plural: die Jugendlichen*"
+    },
+    {
+      "id": "tb1-u25-l10-nouns-work-education-society-2-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „workshop / garage“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Kenntnisse (Pl.)"
+        },
+        {
+          "id": "b",
+          "text": "die Werkstatt, die Werkstätten"
+        },
+        {
+          "id": "c",
+          "text": "die Buchhaltung"
+        },
+        {
+          "id": "d",
+          "text": "das Zertifikat, die Zertifikate"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**die Werkstatt** = workshop / garage\n*Plural: die Werkstätten*\n\n*Example:* Mein Auto ist seit Montag in der Werkstatt.\nMy car has been at the garage since Monday."
+    },
+    {
+      "id": "tb1-u25-l10-nouns-work-education-society-2-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Admission costs eight euros for adults and four for children.",
+      "tiles": [
+        "Institut",
+        "Der",
+        "Kinder",
+        "kostet",
+        "vier",
+        "für",
+        "seine",
+        "Eintritt",
+        "Erwachsene",
+        "Klein",
+        "Euro",
+        "für",
+        "acht"
+      ],
+      "answers": [
+        "Der Eintritt kostet für Erwachsene acht Euro, für Kinder vier."
+      ],
+      "explanation": "**der Erwachsene** = adult\n*Plural: die Erwachsenen*"
+    },
+    {
+      "id": "tb1-u25-l10-nouns-work-education-society-2-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „sale(s)“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Stellungnahme, die Stellungnahmen"
+        },
+        {
+          "id": "b",
+          "text": "die Kenntnisse (Pl.)"
+        },
+        {
+          "id": "c",
+          "text": "der Verkauf"
+        },
+        {
+          "id": "d",
+          "text": "das Produkt, die Produkte"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**der Verkauf** = sale(s)\n\n*Example:* Meine Schwester arbeitet im Verkauf bei einem Möbelhaus.\nMy sister works in sales at a furniture store."
+    },
+    {
+      "id": "tb1-u25-l10-nouns-work-education-society-2-ex08",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u25-l10-nouns-work-education-society-2-3.mp3"
+      },
+      "tiles": [
+        "seit",
+        "Montag",
+        "für",
+        "studiert",
+        "der",
+        "in",
+        "Mein",
+        "Auto",
+        "spricht",
+        "Werkstatt",
+        "ist"
+      ],
+      "answers": [
+        "Mein Auto ist seit Montag in der Werkstatt."
+      ],
+      "explanation": "Mein Auto ist seit Montag in der Werkstatt.\n*My car has been at the garage since Monday.*\n\n**die Werkstatt** = workshop / garage\n*Plural: die Werkstätten*"
+    },
+    {
+      "id": "tb1-u25-l10-nouns-work-education-society-2-ex09",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „product“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "das Produkt, die Produkte"
+        },
+        {
+          "id": "b",
+          "text": "die Kenntnisse (Pl.)"
+        },
+        {
+          "id": "c",
+          "text": "die Werkstatt, die Werkstätten"
+        },
+        {
+          "id": "d",
+          "text": "die Vermittlung"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**das Produkt** = product\n*Plural: die Produkte*\n\n*Example:* Dieser Supermarkt verkauft viele Produkte aus der Region.\nThis supermarket sells many products from the region."
+    },
+    {
+      "id": "tb1-u25-l10-nouns-work-education-society-2-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Meine Schwester arbeitet im Verkauf bei einem Möbelhaus.",
+      "tiles": [
+        "teacher",
+        "sales",
+        "works",
+        "My",
+        "a",
+        "store",
+        "her",
+        "in",
+        "furniture",
+        "sells",
+        "sister",
+        "at"
+      ],
+      "answers": [
+        "My sister works in sales at a furniture store."
+      ],
+      "explanation": "**der Verkauf** = sale(s)"
+    },
+    {
+      "id": "tb1-u25-l10-nouns-work-education-society-2-ex11",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "This supermarket sells many products from the region.",
+      "tiles": [
+        "seine",
+        "von",
+        "aus",
+        "Dieser",
+        "Region",
+        "viele",
+        "Supermarkt",
+        "verkauft",
+        "bekommt",
+        "Produkte",
+        "der"
+      ],
+      "answers": [
+        "Dieser Supermarkt verkauft viele Produkte aus der Region."
+      ],
+      "explanation": "**das Produkt** = product\n*Plural: die Produkte*"
+    }
+  ]
+}

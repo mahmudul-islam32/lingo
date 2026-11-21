@@ -1,0 +1,281 @@
+{
+  "id": "tb1-u29-l08-speaking-planning-agreeing-1",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u29",
+  "title": "Speaking: Planning & Agreeing 1",
+  "tip": "Theme: Sätze. Sprechen: Planen & Einigen (B1)",
+  "exercises": [
+    {
+      "id": "tb1-u29-l08-speaking-planning-agreeing-1-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "Was hältst du von diesem Vorschlag?",
+          "known": "What do you think of this suggestion?"
+        },
+        {
+          "id": "p2",
+          "learning": "Da bin ich anderer Meinung",
+          "known": "I have a different opinion there."
+        },
+        {
+          "id": "p3",
+          "learning": "Können wir uns darauf einigen?",
+          "known": "Can we agree on that?"
+        },
+        {
+          "id": "p4",
+          "learning": "Ich kümmere mich um die Getränke",
+          "known": "I'll take care of the drinks."
+        },
+        {
+          "id": "p5",
+          "learning": "Dann fassen wir kurz zusammen",
+          "known": "Then let's briefly summarize."
+        }
+      ]
+    },
+    {
+      "id": "tb1-u29-l08-speaking-planning-agreeing-1-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means „Shall we talk about the date first?“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Können wir uns darauf einigen?"
+        },
+        {
+          "id": "b",
+          "text": "Dann fassen wir kurz zusammen."
+        },
+        {
+          "id": "c",
+          "text": "Ich kümmere mich um die Getränke."
+        },
+        {
+          "id": "d",
+          "text": "Sollen wir zuerst über den Termin sprechen?"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**Sollen wir zuerst über den Termin sprechen?** = Shall we talk about the date first?\n\n*Example:* Sollen wir zuerst über den Termin sprechen?\nShall we talk about the date first?"
+    },
+    {
+      "id": "tb1-u29-l08-speaking-planning-agreeing-1-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means „I suggest that we make a list.“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ich schlage vor, dass wir eine Liste machen."
+        },
+        {
+          "id": "b",
+          "text": "Können wir uns darauf einigen?"
+        },
+        {
+          "id": "c",
+          "text": "Wollen wir uns am Samstag um zehn Uhr treffen?"
+        },
+        {
+          "id": "d",
+          "text": "Dann fassen wir kurz zusammen."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Ich schlage vor, dass wir eine Liste machen.** = I suggest that we make a list.\n\n*Example:* Ich schlage vor, dass wir eine Liste machen.\nI suggest that we make a list."
+    },
+    {
+      "id": "tb1-u29-l08-speaking-planning-agreeing-1-ex04",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u29-l08-speaking-planning-agreeing-1-1.mp3"
+      },
+      "tiles": [
+        "über",
+        "gute",
+        "aber",
+        "Termin",
+        "sprechen",
+        "eine",
+        "den",
+        "wir",
+        "zuerst",
+        "Sollen"
+      ],
+      "answers": [
+        "Sollen wir zuerst über den Termin sprechen?"
+      ],
+      "explanation": "Sollen wir zuerst über den Termin sprechen?\n*Shall we talk about the date first?*\n\n**Sollen wir zuerst über den Termin sprechen?** = Shall we talk about the date first?"
+    },
+    {
+      "id": "tb1-u29-l08-speaking-planning-agreeing-1-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means „What do you think of this suggestion?“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Wollen wir uns am Samstag um zehn Uhr treffen?"
+        },
+        {
+          "id": "b",
+          "text": "Was hältst du von diesem Vorschlag?"
+        },
+        {
+          "id": "c",
+          "text": "Ich kümmere mich um die Getränke."
+        },
+        {
+          "id": "d",
+          "text": "Sollen wir zuerst über den Termin sprechen?"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Was hältst du von diesem Vorschlag?** = What do you think of this suggestion?\n\n*Example:* Was hältst du von diesem Vorschlag?\nWhat do you think of this suggestion?"
+    },
+    {
+      "id": "tb1-u29-l08-speaking-planning-agreeing-1-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Ich schlage vor, dass wir eine Liste machen.",
+      "tiles": [
+        "different",
+        "we",
+        "opinion",
+        "but",
+        "a",
+        "that",
+        "list",
+        "make",
+        "suggest",
+        "I"
+      ],
+      "answers": [
+        "I suggest that we make a list."
+      ],
+      "explanation": "**Ich schlage vor, dass wir eine Liste machen.** = I suggest that we make a list."
+    },
+    {
+      "id": "tb1-u29-l08-speaking-planning-agreeing-1-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means „That's a good idea, but we also have to think about the costs.“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Können wir uns darauf einigen?"
+        },
+        {
+          "id": "b",
+          "text": "Ich schlage vor, dass wir eine Liste machen."
+        },
+        {
+          "id": "c",
+          "text": "Was hältst du von diesem Vorschlag?"
+        },
+        {
+          "id": "d",
+          "text": "Das ist eine gute Idee, aber wir müssen auch an die Kosten denken."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**Das ist eine gute Idee, aber wir müssen auch an die Kosten denken.** = That's a good idea, but we also have to think about the costs.\n\n*Example:* Das ist eine gute Idee, aber wir müssen auch an die Kosten denken.\nThat's a good idea, but we also have to think about the costs."
+    },
+    {
+      "id": "tb1-u29-l08-speaking-planning-agreeing-1-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "What do you think of this suggestion?",
+      "tiles": [
+        "du",
+        "hältst",
+        "Was",
+        "eine",
+        "diesem",
+        "von",
+        "Idee",
+        "auch",
+        "Vorschlag"
+      ],
+      "answers": [
+        "Was hältst du von diesem Vorschlag?"
+      ],
+      "explanation": "**Was hältst du von diesem Vorschlag?** = What do you think of this suggestion?"
+    },
+    {
+      "id": "tb1-u29-l08-speaking-planning-agreeing-1-ex09",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means „I have a different opinion there.“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Da bin ich anderer Meinung."
+        },
+        {
+          "id": "b",
+          "text": "Ich kümmere mich um die Getränke."
+        },
+        {
+          "id": "c",
+          "text": "Sollen wir zuerst über den Termin sprechen?"
+        },
+        {
+          "id": "d",
+          "text": "Was hältst du von diesem Vorschlag?"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Da bin ich anderer Meinung.** = I have a different opinion there.\n\n*Example:* Da bin ich anderer Meinung.\nI have a different opinion there."
+    },
+    {
+      "id": "tb1-u29-l08-speaking-planning-agreeing-1-ex10",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u29-l08-speaking-planning-agreeing-1-4.mp3"
+      },
+      "tiles": [
+        "eine",
+        "zehn",
+        "müssen",
+        "Idee",
+        "aber",
+        "die",
+        "Das",
+        "wir",
+        "gute",
+        "denken",
+        "auch",
+        "ist",
+        "um",
+        "an",
+        "Kosten",
+        "Liste"
+      ],
+      "answers": [
+        "Das ist eine gute Idee, aber wir müssen auch an die Kosten denken."
+      ],
+      "explanation": "Das ist eine gute Idee, aber wir müssen auch an die Kosten denken.\n*That's a good idea, but we also have to think about the costs.*\n\n**Das ist eine gute Idee, aber wir müssen auch an die Kosten denken.** = That's a good idea, but we also have to think about the costs."
+    },
+    {
+      "id": "tb1-u29-l08-speaking-planning-agreeing-1-ex11",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Da bin ich anderer Meinung.",
+      "tiles": [
+        "different",
+        "a",
+        "have",
+        "opinion",
+        "think",
+        "there",
+        "o'clock",
+        "I",
+        "summarize"
+      ],
+      "answers": [
+        "I have a different opinion there."
+      ],
+      "explanation": "**Da bin ich anderer Meinung.** = I have a different opinion there."
+    }
+  ]
+}

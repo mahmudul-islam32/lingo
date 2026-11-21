@@ -1,0 +1,285 @@
+{
+  "id": "tb1-u13-l06-media-technology-1",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u13",
+  "title": "Media & Technology 1",
+  "tip": "Theme: Medien / Technik (B1)",
+  "exercises": [
+    {
+      "id": "tb1-u13-l06-media-technology-1-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "das Handy",
+          "known": "mobile phone"
+        },
+        {
+          "id": "p2",
+          "learning": "der Computer",
+          "known": "computer"
+        },
+        {
+          "id": "p3",
+          "learning": "das Gerät",
+          "known": "device"
+        },
+        {
+          "id": "p4",
+          "learning": "der Bildschirm",
+          "known": "screen"
+        },
+        {
+          "id": "p5",
+          "learning": "der Drucker",
+          "known": "printer"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u13-l06-media-technology-1-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „mobile phone · smartphone“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "das Handy, die Handys · das Smartphone, die Smartphones"
+        },
+        {
+          "id": "b",
+          "text": "das Gerät, die Geräte"
+        },
+        {
+          "id": "c",
+          "text": "die Webseite, die Webseiten · die App, die Apps"
+        },
+        {
+          "id": "d",
+          "text": "das Internet (nur Sg.) · das WLAN"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**das Handy** = mobile phone · smartphone\n*Plural: die Handys · also: das Smartphone, die Smartphones*\n\n*Example:* Mein Handy ist leer, ich muss es aufladen.\nMy phone is dead, I need to charge it."
+    },
+    {
+      "id": "tb1-u13-l06-media-technology-1-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „computer · laptop“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "das Handy, die Handys · das Smartphone, die Smartphones"
+        },
+        {
+          "id": "b",
+          "text": "die Zeitung, die Zeitungen · die Zeitschrift, die Zeitschriften"
+        },
+        {
+          "id": "c",
+          "text": "der Computer, die Computer · der Laptop, die Laptops"
+        },
+        {
+          "id": "d",
+          "text": "die sozialen Medien (Pl.), teilen"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**der Computer** = computer · laptop\n*Plural: die Computer · also: der Laptop, die Laptops*\n\n*Example:* Für die Arbeit brauche ich einen neuen Laptop.\nI need a new laptop for work."
+    },
+    {
+      "id": "tb1-u13-l06-media-technology-1-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "My phone is dead, I need to charge it.",
+      "tiles": [
+        "Mein",
+        "aufladen",
+        "es",
+        "deshalb",
+        "muss",
+        "Handy",
+        "lösche",
+        "deine",
+        "ich",
+        "ist",
+        "leer"
+      ],
+      "answers": [
+        "Mein Handy ist leer, ich muss es aufladen."
+      ],
+      "explanation": "**das Handy** = mobile phone · smartphone\n*Plural: die Handys · also: das Smartphone, die Smartphones*"
+    },
+    {
+      "id": "tb1-u13-l06-media-technology-1-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „device“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "das Gerät, die Geräte"
+        },
+        {
+          "id": "b",
+          "text": "das Internet (nur Sg.) · das WLAN"
+        },
+        {
+          "id": "c",
+          "text": "die sozialen Medien (Pl.), teilen"
+        },
+        {
+          "id": "d",
+          "text": "die Verbindung, die Verbindungen"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**das Gerät** = device\n*Plural: die Geräte*\n\n*Example:* Alle elektrischen Geräte sind in der Küche.\nAll the electrical devices are in the kitchen."
+    },
+    {
+      "id": "tb1-u13-l06-media-technology-1-ex06",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u13-l06-media-technology-1-2.mp3"
+      },
+      "tiles": [
+        "Drucker",
+        "Arbeit",
+        "von",
+        "die",
+        "ich",
+        "man",
+        "Für",
+        "Laptop",
+        "brauche",
+        "einen",
+        "neuen"
+      ],
+      "answers": [
+        "Für die Arbeit brauche ich einen neuen Laptop."
+      ],
+      "explanation": "Für die Arbeit brauche ich einen neuen Laptop.\n*I need a new laptop for work.*\n\n**der Computer** = computer · laptop\n*Plural: die Computer · also: der Laptop, die Laptops*"
+    },
+    {
+      "id": "tb1-u13-l06-media-technology-1-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „screen“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "der Bildschirm, die Bildschirme"
+        },
+        {
+          "id": "b",
+          "text": "das Passwort, die Passwörter"
+        },
+        {
+          "id": "c",
+          "text": "die E-Mail, die E-Mails: schicken / bekommen / beantworten"
+        },
+        {
+          "id": "d",
+          "text": "der Computer, die Computer · der Laptop, die Laptops"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**der Bildschirm** = screen\n*Plural: die Bildschirme*\n\n*Example:* Der Bildschirm von meinem Computer ist zu klein.\nThe screen on my computer is too small."
+    },
+    {
+      "id": "tb1-u13-l06-media-technology-1-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Alle elektrischen Geräte sind in der Küche.",
+      "tiles": [
+        "are",
+        "the",
+        "the",
+        "in",
+        "often",
+        "devices",
+        "electrical",
+        "broken",
+        "All",
+        "kitchen",
+        "doesn't"
+      ],
+      "answers": [
+        "All the electrical devices are in the kitchen."
+      ],
+      "explanation": "**das Gerät** = device\n*Plural: die Geräte*"
+    },
+    {
+      "id": "tb1-u13-l06-media-technology-1-ex09",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „printer: to print“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "der Drucker, die Drucker: drucken"
+        },
+        {
+          "id": "b",
+          "text": "die sozialen Medien (Pl.), teilen"
+        },
+        {
+          "id": "c",
+          "text": "das Internet (nur Sg.) · das WLAN"
+        },
+        {
+          "id": "d",
+          "text": "die Webseite, die Webseiten · die App, die Apps"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**der Drucker** = printer: to print\n*Plural: die Drucker: drucken*\n\n*Example:* Kannst du mir den Brief bitte drucken? Mein Drucker ist kaputt.\nCan you print the letter for me, please? My printer is broken."
+    },
+    {
+      "id": "tb1-u13-l06-media-technology-1-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "The screen on my computer is too small.",
+      "tiles": [
+        "klein",
+        "meinem",
+        "Ihr",
+        "Computer",
+        "Der",
+        "zu",
+        "mir",
+        "nach",
+        "Bildschirm",
+        "ist",
+        "von"
+      ],
+      "answers": [
+        "Der Bildschirm von meinem Computer ist zu klein."
+      ],
+      "explanation": "**der Bildschirm** = screen\n*Plural: die Bildschirme*"
+    },
+    {
+      "id": "tb1-u13-l06-media-technology-1-ex11",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u13-l06-media-technology-1-5.mp3"
+      },
+      "tiles": [
+        "der",
+        "drucken",
+        "Brief",
+        "den",
+        "du",
+        "mir",
+        "ist",
+        "bitte",
+        "Drucker",
+        "Ich",
+        "kaputt",
+        "Mein",
+        "Kannst",
+        "gestern"
+      ],
+      "answers": [
+        "Kannst du mir den Brief bitte drucken? Mein Drucker ist kaputt."
+      ],
+      "explanation": "Kannst du mir den Brief bitte drucken? Mein Drucker ist kaputt.\n*Can you print the letter for me, please? My printer is broken.*\n\n**der Drucker** = printer: to print\n*Plural: die Drucker: drucken*"
+    }
+  ]
+}

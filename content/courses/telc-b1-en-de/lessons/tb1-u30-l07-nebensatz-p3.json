@@ -1,0 +1,324 @@
+{
+  "id": "tb1-u30-l07-nebensatz-p3",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u30",
+  "title": "Subordinate Clauses: weil, dass, wenn, obwohl …: damit & bevor",
+  "tip": "“…weil ich bin krank” = instant deduction under criterion III. Verb to the end!",
+  "exercises": [
+    {
+      "id": "tb1-u30-l07-nebensatz-p3-ex01",
+      "type": "explain",
+      "title": "damit · Ziel",
+      "body": "damit gives a purpose (what for?) – especially when the subject changes. Verb to the end.\n\n*Deutsch:* damit nennt ein Ziel (Wozu?) – besonders wenn das Subjekt wechselt. Verb ans Ende.\n\n## Pattern\n\nHauptsatz, **damit** + Subjekt + … + **Verb**.",
+      "examples": [
+        {
+          "learning": "Ich spreche langsam, damit du mich verstehst.",
+          "known": "I speak slowly so that you understand me."
+        },
+        {
+          "learning": "Wir fahren früh los, damit wir den Zug nicht verpassen.",
+          "known": "We're leaving early so that we don't miss the train."
+        }
+      ]
+    },
+    {
+      "id": "tb1-u30-l07-nebensatz-p3-ex02",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I speak slowly so that you understand me.",
+      "tiles": [
+        "spreche",
+        "langsam",
+        "verstehst",
+        "schlafen",
+        "der",
+        "damit",
+        "du",
+        "mich",
+        "Ich",
+        "mir"
+      ],
+      "answers": [
+        "Ich spreche langsam, damit du mich verstehst."
+      ],
+      "explanation": "**Why:** Two subjects (ich/du) → damit instead of um … zu.\n\n*Warum:* Zwei Subjekte (ich/du) → damit statt um … zu."
+    },
+    {
+      "id": "tb1-u30-l07-nebensatz-p3-ex03",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "We're leaving early so that we don't miss the train.",
+      "tiles": [
+        "ich",
+        "los",
+        "verpassen",
+        "wir",
+        "fahren",
+        "Wir",
+        "früh",
+        "damit",
+        "es",
+        "müde",
+        "Zug",
+        "den",
+        "nicht"
+      ],
+      "answers": [
+        "Wir fahren früh los, damit wir den Zug nicht verpassen."
+      ],
+      "explanation": "**Why:** verpassen goes at the end.\n\n*Warum:* verpassen steht am Ende."
+    },
+    {
+      "id": "tb1-u30-l07-nebensatz-p3-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I'll write down the address for you so you don't forget it.",
+      "tiles": [
+        "die",
+        "vergisst",
+        "du",
+        "damit",
+        "schreibe",
+        "wir",
+        "nicht",
+        "Adresse",
+        "Ich",
+        "auf",
+        "dir",
+        "sie",
+        "zu",
+        "umgezogen"
+      ],
+      "answers": [
+        "Ich schreibe dir die Adresse auf, damit du sie nicht vergisst."
+      ],
+      "explanation": "**Why:** Purpose: not forgetting it.\n\n*Warum:* Ziel: sie nicht vergessen."
+    },
+    {
+      "id": "tb1-u30-l07-nebensatz-p3-ex05",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "The teacher explains everything twice so that everyone understands.",
+      "tiles": [
+        "es",
+        "Bus",
+        "damit",
+        "verstehen",
+        "Die",
+        "Wenn",
+        "erklärt",
+        "zweimal",
+        "alle",
+        "alles",
+        "Schick",
+        "Lehrerin"
+      ],
+      "answers": [
+        "Die Lehrerin erklärt alles zweimal, damit alle es verstehen."
+      ],
+      "explanation": "**Why:** Subject change: die Lehrerin → alle.\n\n*Warum:* Subjektwechsel: die Lehrerin → alle."
+    },
+    {
+      "id": "tb1-u30-l07-nebensatz-p3-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Send me a message so I know when you arrive.",
+      "tiles": [
+        "ankommst",
+        "mir",
+        "Schick",
+        "ich",
+        "wann",
+        "eine",
+        "weiß",
+        "du",
+        "damit",
+        "es",
+        "Nachricht",
+        "weil",
+        "wir"
+      ],
+      "answers": [
+        "Schick mir eine Nachricht, damit ich weiß, wann du ankommst."
+      ],
+      "explanation": "**Why:** weiß at the end of the damit clause.\n\n*Warum:* weiß am Ende des damit-Satzes."
+    },
+    {
+      "id": "tb1-u30-l07-nebensatz-p3-ex07",
+      "type": "explain",
+      "title": "bevor · vorher",
+      "body": "bevor = the action in the main clause happens earlier. Verb to the end.\n\n*Deutsch:* bevor = die Handlung im Hauptsatz passiert früher. Verb ans Ende.\n\n## Pattern\n\nHauptsatz, **bevor** + Subjekt + … + **Verb**.",
+      "examples": [
+        {
+          "learning": "Ich putze die Zähne, bevor ich ins Bett gehe.",
+          "known": "I brush my teeth before I go to bed."
+        },
+        {
+          "learning": "Bevor du gehst, mach bitte das Fenster zu.",
+          "known": "Before you go, please close the window."
+        }
+      ]
+    },
+    {
+      "id": "tb1-u30-l07-nebensatz-p3-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I brush my teeth before I go to bed.",
+      "tiles": [
+        "Bett",
+        "die",
+        "ich",
+        "nicht",
+        "putze",
+        "bevor",
+        "ins",
+        "Zeit",
+        "Zähne",
+        "sag",
+        "gehe",
+        "Ich"
+      ],
+      "answers": [
+        "Ich putze die Zähne, bevor ich ins Bett gehe."
+      ],
+      "explanation": "**Why:** First teeth, then bed.\n\n*Warum:* Erst Zähne putzen, dann ins Bett."
+    },
+    {
+      "id": "tb1-u30-l07-nebensatz-p3-ex09",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Before you go, please close the window.",
+      "tiles": [
+        "mach",
+        "bald",
+        "ist",
+        "zu",
+        "gehst",
+        "Fenster",
+        "müde",
+        "Bevor",
+        "das",
+        "bitte",
+        "du"
+      ],
+      "answers": [
+        "Bevor du gehst, mach bitte das Fenster zu."
+      ],
+      "explanation": "**Why:** Subordinate clause first → verb, verb.\n\n*Warum:* Nebensatz zuerst → Verb, Verb."
+    },
+    {
+      "id": "tb1-u30-l07-nebensatz-p3-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Read the contract carefully before you sign.",
+      "tiles": [
+        "Sie",
+        "genau",
+        "unterschreiben",
+        "Er",
+        "Sie",
+        "den",
+        "bevor",
+        "Ruf",
+        "Vertrag",
+        "Lesen",
+        "ich"
+      ],
+      "answers": [
+        "Lesen Sie den Vertrag genau, bevor Sie unterschreiben."
+      ],
+      "explanation": "**Why:** Typical advice: bevor Sie unterschreiben.\n\n*Warum:* Typischer Ratschlag: bevor Sie unterschreiben."
+    },
+    {
+      "id": "tb1-u30-l07-nebensatz-p3-ex11",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Before I came to Germany, I lived in Cairo.",
+      "tiles": [
+        "nach",
+        "kam",
+        "habe",
+        "Deutschland",
+        "gewohnt",
+        "Er",
+        "___",
+        "Bevor",
+        "ich",
+        "Kairo",
+        "in",
+        "ich",
+        "gehen"
+      ],
+      "answers": [
+        "Bevor ich nach Deutschland kam, habe ich in Kairo gewohnt."
+      ],
+      "explanation": "**Why:** kam (simple past) at the end of the subordinate clause.\n\n*Warum:* kam (Präteritum) am Ende des Nebensatzes."
+    },
+    {
+      "id": "tb1-u30-l07-nebensatz-p3-ex12",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I'll call you before I set off.",
+      "tiles": [
+        "sie",
+        "ist",
+        "an",
+        "Wetter",
+        "losfahre",
+        "rufe",
+        "ich",
+        "bevor",
+        "Ich",
+        "dich"
+      ],
+      "answers": [
+        "Ich rufe dich an, bevor ich losfahre."
+      ],
+      "explanation": "**Why:** In a subordinate clause the separable verb stays together: losfahre.\n\n*Warum:* Im Nebensatz bleibt das trennbare Verb zusammen: losfahre."
+    },
+    {
+      "id": "tb1-u30-l07-nebensatz-p3-ex13",
+      "type": "choice",
+      "title": "Fill the gap",
+      "prompt": "Sie fragt, ___ du morgen Zeit hast.",
+      "options": [
+        {
+          "id": "a",
+          "text": "weil"
+        },
+        {
+          "id": "b",
+          "text": "dass"
+        },
+        {
+          "id": "c",
+          "text": "ob"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Ja/Nein-Frage indirekt = ob: Hast du Zeit? → …, ob du Zeit hast."
+    },
+    {
+      "id": "tb1-u30-l07-nebensatz-p3-ex14",
+      "type": "choice",
+      "title": "Fill the gap",
+      "prompt": "Ich hoffe, ___ wir uns bald wiedersehen.",
+      "options": [
+        {
+          "id": "a",
+          "text": "ob"
+        },
+        {
+          "id": "b",
+          "text": "denn"
+        },
+        {
+          "id": "c",
+          "text": "dass"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Inhaltssatz nach hoffen → dass (Verb am Ende)."
+    }
+  ]
+}

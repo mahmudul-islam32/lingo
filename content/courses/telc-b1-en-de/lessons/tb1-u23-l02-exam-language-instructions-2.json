@@ -1,0 +1,286 @@
+{
+  "id": "tb1-u23-l02-exam-language-instructions-2",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u23",
+  "title": "Exam Language & Instructions 2",
+  "tip": "Theme: Prüfungssprache & Aufgaben (B1)",
+  "exercises": [
+    {
+      "id": "tb1-u23-l02-exam-language-instructions-2-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "zuordnen",
+          "known": "to match / assign"
+        },
+        {
+          "id": "p2",
+          "learning": "übertragen",
+          "known": "to transfer / copy over"
+        },
+        {
+          "id": "p3",
+          "learning": "passend",
+          "known": "suitable / matching"
+        },
+        {
+          "id": "p4",
+          "learning": "folgend",
+          "known": "following"
+        },
+        {
+          "id": "p5",
+          "learning": "die Überschrift",
+          "known": "headline / heading"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u23-l02-exam-language-instructions-2-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which one means „to match / assign“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "passend"
+        },
+        {
+          "id": "b",
+          "text": "übertragen (überträgt)"
+        },
+        {
+          "id": "c",
+          "text": "männlich"
+        },
+        {
+          "id": "d",
+          "text": "zuordnen"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**zuordnen** = to match / assign\n\n*Example:* Kannst du die Fotos bitte den richtigen Namen zuordnen?\nCan you match the photos to the right names, please?"
+    },
+    {
+      "id": "tb1-u23-l02-exam-language-instructions-2-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which one means „to transfer / copy over“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "weiblich"
+        },
+        {
+          "id": "b",
+          "text": "übertragen (überträgt)"
+        },
+        {
+          "id": "c",
+          "text": "markieren"
+        },
+        {
+          "id": "d",
+          "text": "ankreuzen"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**übertragen (überträgt)** = to transfer / copy over\n\n*Example:* Mein Kollege überträgt die Daten in eine neue Tabelle.\nMy colleague transfers the data into a new spreadsheet."
+    },
+    {
+      "id": "tb1-u23-l02-exam-language-instructions-2-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Kannst du die Fotos bitte den richtigen Namen zuordnen?",
+      "tiles": [
+        "names",
+        "photos",
+        "the",
+        "my",
+        "phone",
+        "Can",
+        "right",
+        "match",
+        "waits",
+        "the",
+        "to",
+        "you",
+        "please"
+      ],
+      "answers": [
+        "Can you match the photos to the right names, please?"
+      ],
+      "explanation": "**zuordnen** = to match / assign"
+    },
+    {
+      "id": "tb1-u23-l02-exam-language-instructions-2-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which one means „suitable / matching“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "weiblich"
+        },
+        {
+          "id": "b",
+          "text": "unterstreichen"
+        },
+        {
+          "id": "c",
+          "text": "passend"
+        },
+        {
+          "id": "d",
+          "text": "markieren"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**passend** = suitable / matching\n\n*Example:* Zu dem blauen Kleid suche ich noch passende Schuhe.\nI'm still looking for shoes to match the blue dress."
+    },
+    {
+      "id": "tb1-u23-l02-exam-language-instructions-2-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "My colleague transfers the data into a new spreadsheet.",
+      "tiles": [
+        "Mein",
+        "überträgt",
+        "in",
+        "alle",
+        "Kollege",
+        "und",
+        "eine",
+        "Daten",
+        "Hotel",
+        "neue",
+        "die",
+        "Tabelle"
+      ],
+      "answers": [
+        "Mein Kollege überträgt die Daten in eine neue Tabelle."
+      ],
+      "explanation": "**übertragen (überträgt)** = to transfer / copy over"
+    },
+    {
+      "id": "tb1-u23-l02-exam-language-instructions-2-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which one means „following“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "ankreuzen"
+        },
+        {
+          "id": "b",
+          "text": "unterstreichen"
+        },
+        {
+          "id": "c",
+          "text": "folgend"
+        },
+        {
+          "id": "d",
+          "text": "notieren"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**folgend** = following\n\n*Example:* Bitte bringen Sie folgende Unterlagen mit: Pass und Mietvertrag.\nPlease bring the following documents: passport and tenancy agreement."
+    },
+    {
+      "id": "tb1-u23-l02-exam-language-instructions-2-ex08",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u23-l02-exam-language-instructions-2-3.mp3"
+      },
+      "tiles": [
+        "Zu",
+        "die",
+        "ist",
+        "dem",
+        "Schuhe",
+        "suche",
+        "Kleid",
+        "Felix",
+        "ich",
+        "noch",
+        "passende",
+        "blauen"
+      ],
+      "answers": [
+        "Zu dem blauen Kleid suche ich noch passende Schuhe."
+      ],
+      "explanation": "Zu dem blauen Kleid suche ich noch passende Schuhe.\n*I'm still looking for shoes to match the blue dress.*\n\n**passend** = suitable / matching"
+    },
+    {
+      "id": "tb1-u23-l02-exam-language-instructions-2-ex09",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „headline / heading“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Überschrift, die Überschriften"
+        },
+        {
+          "id": "b",
+          "text": "das Geschlecht, die Geschlechter"
+        },
+        {
+          "id": "c",
+          "text": "die Lücke, die Lücken"
+        },
+        {
+          "id": "d",
+          "text": "das Ergebnis, die Ergebnisse"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**die Überschrift** = headline / heading\n*Plural: die Überschriften*\n\n*Example:* Die Überschrift in der Zeitung ist sehr groß.\nThe headline in the newspaper is very big."
+    },
+    {
+      "id": "tb1-u23-l02-exam-language-instructions-2-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Bitte bringen Sie folgende Unterlagen mit: Pass und Mietvertrag.",
+      "tiles": [
+        "passport",
+        "new",
+        "and",
+        "still",
+        "the",
+        "bring",
+        "called",
+        "tenancy",
+        "Please",
+        "documents",
+        "following",
+        "agreement"
+      ],
+      "answers": [
+        "Please bring the following documents: passport and tenancy agreement."
+      ],
+      "explanation": "**folgend** = following"
+    },
+    {
+      "id": "tb1-u23-l02-exam-language-instructions-2-ex11",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "The headline in the newspaper is very big.",
+      "tiles": [
+        "meine",
+        "sehr",
+        "zu",
+        "Sie",
+        "in",
+        "Die",
+        "Überschrift",
+        "der",
+        "ist",
+        "groß",
+        "Zeitung"
+      ],
+      "answers": [
+        "Die Überschrift in der Zeitung ist sehr groß."
+      ],
+      "explanation": "**die Überschrift** = headline / heading\n*Plural: die Überschriften*"
+    }
+  ]
+}

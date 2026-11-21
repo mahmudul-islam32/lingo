@@ -1,0 +1,229 @@
+{
+  "id": "tb1-u08-l06-town-directions-2",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u08",
+  "title": "Town & Directions 2",
+  "tip": "Theme: Stadt & Wege (A2)",
+  "exercises": [
+    {
+      "id": "tb1-u08-l06-town-directions-2-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "die Kreuzung",
+          "known": "crossroads"
+        },
+        {
+          "id": "p2",
+          "learning": "die Ampel",
+          "known": "traffic light"
+        },
+        {
+          "id": "p3",
+          "learning": "die Brücke",
+          "known": "bridge"
+        },
+        {
+          "id": "p4",
+          "learning": "links",
+          "known": "left"
+        },
+        {
+          "id": "p5",
+          "learning": "die Stadt",
+          "known": "city / town"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u08-l06-town-directions-2-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „crossroads“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "das Dorf, die Dörfer"
+        },
+        {
+          "id": "b",
+          "text": "die Straße, die Straßen"
+        },
+        {
+          "id": "c",
+          "text": "die Stadt, die Städte"
+        },
+        {
+          "id": "d",
+          "text": "die Kreuzung, die Kreuzungen"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**die Kreuzung** = crossroads\n*Plural: die Kreuzungen*\n\n*Example:* Fahren Sie an der nächsten Kreuzung rechts.\nTurn right at the next crossroads."
+    },
+    {
+      "id": "tb1-u08-l06-town-directions-2-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „traffic light“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Bank, die Banken"
+        },
+        {
+          "id": "b",
+          "text": "das Dorf, die Dörfer"
+        },
+        {
+          "id": "c",
+          "text": "die Ampel, die Ampeln"
+        },
+        {
+          "id": "d",
+          "text": "die Straße, die Straßen"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**die Ampel** = traffic light\n*Plural: die Ampeln*\n\n*Example:* Die Ampel ist rot, wir müssen warten.\nThe traffic light is red, we have to wait."
+    },
+    {
+      "id": "tb1-u08-l06-town-directions-2-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Turn right at the next crossroads.",
+      "tiles": [
+        "an",
+        "Fahren",
+        "bringen",
+        "rechts",
+        "Sie",
+        "nächsten",
+        "man",
+        "der",
+        "Kreuzung",
+        "um"
+      ],
+      "answers": [
+        "Fahren Sie an der nächsten Kreuzung rechts."
+      ],
+      "explanation": "**die Kreuzung** = crossroads\n*Plural: die Kreuzungen*"
+    },
+    {
+      "id": "tb1-u08-l06-town-directions-2-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „bridge“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Brücke, die Brücken"
+        },
+        {
+          "id": "b",
+          "text": "die Kreuzung, die Kreuzungen"
+        },
+        {
+          "id": "c",
+          "text": "das Rathaus"
+        },
+        {
+          "id": "d",
+          "text": "das Dorf, die Dörfer"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**die Brücke** = bridge\n*Plural: die Brücken*\n\n*Example:* Gehen Sie über die Brücke, dann sehen Sie den Bahnhof.\nGo over the bridge, then you'll see the station."
+    },
+    {
+      "id": "tb1-u08-l06-town-directions-2-ex06",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u08-l06-town-directions-2-2.mp3"
+      },
+      "tiles": [
+        "einen",
+        "warten",
+        "anmelden",
+        "ist",
+        "in",
+        "Die",
+        "wir",
+        "Ampel",
+        "müssen",
+        "rot"
+      ],
+      "answers": [
+        "Die Ampel ist rot, wir müssen warten."
+      ],
+      "explanation": "Die Ampel ist rot, wir müssen warten.\n*The traffic light is red, we have to wait.*\n\n**die Ampel** = traffic light\n*Plural: die Ampeln*"
+    },
+    {
+      "id": "tb1-u08-l06-town-directions-2-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which one means „left“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "weit"
+        },
+        {
+          "id": "b",
+          "text": "rechts"
+        },
+        {
+          "id": "c",
+          "text": "links"
+        },
+        {
+          "id": "d",
+          "text": "geradeaus"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**links** = left\n\n*Example:* Die Toiletten sind hinten links.\nThe toilets are at the back on the left."
+    },
+    {
+      "id": "tb1-u08-l06-town-directions-2-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Gehen Sie über die Brücke, dann sehen Sie den Bahnhof.",
+      "tiles": [
+        "station",
+        "you'll",
+        "the",
+        "see",
+        "Can",
+        "over",
+        "then",
+        "on",
+        "bridge",
+        "Go",
+        "the",
+        "is"
+      ],
+      "answers": [
+        "Go over the bridge, then you'll see the station."
+      ],
+      "explanation": "**die Brücke** = bridge\n*Plural: die Brücken*"
+    },
+    {
+      "id": "tb1-u08-l06-town-directions-2-ex09",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "The toilets are at the back on the left.",
+      "tiles": [
+        "Toiletten",
+        "Hamburg",
+        "hinten",
+        "große",
+        "sind",
+        "Die",
+        "der",
+        "links"
+      ],
+      "answers": [
+        "Die Toiletten sind hinten links."
+      ],
+      "explanation": "**links** = left"
+    }
+  ]
+}

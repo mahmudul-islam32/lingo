@@ -1,0 +1,236 @@
+{
+  "id": "tb1-u15-l09-shopping-complaints-4",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u15",
+  "title": "Shopping & Complaints 4",
+  "tip": "Theme: Einkaufen / Konsum / Reklamation (B1)",
+  "exercises": [
+    {
+      "id": "tb1-u15-l09-shopping-complaints-4-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "zurückgeben",
+          "known": "to return"
+        },
+        {
+          "id": "p2",
+          "learning": "die Reklamation",
+          "known": "complaint (about goods)"
+        },
+        {
+          "id": "p3",
+          "learning": "sich beschweren über",
+          "known": "to complain about"
+        },
+        {
+          "id": "p4",
+          "learning": "die Garantie",
+          "known": "warranty"
+        },
+        {
+          "id": "p5",
+          "learning": "das Geschäft",
+          "known": "shop"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u15-l09-shopping-complaints-4-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which verb means „to return: to get your money back“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "umtauschen (hat umgetauscht)"
+        },
+        {
+          "id": "b",
+          "text": "die Garantie, die Garantien"
+        },
+        {
+          "id": "c",
+          "text": "sich beschweren über + Akk. (hat sich beschwert)"
+        },
+        {
+          "id": "d",
+          "text": "zurückgeben (hat zurückgegeben): das Geld zurückbekommen"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**zurückgeben (hat zurückgegeben): das Geld zurückbekommen** = to return: to get your money back\n\n*Example:* Anna hat den Toaster zurückgegeben und ihr Geld zurückbekommen.\nAnna returned the toaster and got her money back."
+    },
+    {
+      "id": "tb1-u15-l09-shopping-complaints-4-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „complaint (about goods): to make a complaint“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Reklamation, die Reklamationen: reklamieren"
+        },
+        {
+          "id": "b",
+          "text": "der Verkäufer, die Verkäufer / die Verkäuferin, die Verkäuferinnen"
+        },
+        {
+          "id": "c",
+          "text": "die Garantie, die Garantien"
+        },
+        {
+          "id": "d",
+          "text": "die Größe, die Größen: anprobieren"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**die Reklamation** = complaint (about goods): to make a complaint\n*Plural: die Reklamationen: reklamieren*\n\n*Example:* Die Waschmaschine funktioniert nicht, deshalb schreibe ich eine Reklamation.\nThe washing machine doesn't work, so I'm writing a complaint."
+    },
+    {
+      "id": "tb1-u15-l09-shopping-complaints-4-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Anna hat den Toaster zurückgegeben und ihr Geld zurückbekommen.",
+      "tiles": [
+        "week",
+        "Friday",
+        "got",
+        "money",
+        "her",
+        "Anna",
+        "returned",
+        "and",
+        "the",
+        "cup",
+        "back",
+        "toaster"
+      ],
+      "answers": [
+        "Anna returned the toaster and got her money back."
+      ],
+      "explanation": "**zurückgeben (hat zurückgegeben): das Geld zurückbekommen** = to return: to get your money back"
+    },
+    {
+      "id": "tb1-u15-l09-shopping-complaints-4-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which verb means „to complain about“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "sich beschweren über + Akk. (hat sich beschwert)"
+        },
+        {
+          "id": "b",
+          "text": "das Geschäft, die Geschäfte · der Laden, die Läden"
+        },
+        {
+          "id": "c",
+          "text": "zurückgeben (hat zurückgegeben): das Geld zurückbekommen"
+        },
+        {
+          "id": "d",
+          "text": "umtauschen (hat umgetauscht)"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**sich beschweren über + Akk. (hat sich beschwert)** = to complain about\n\n*Example:* Mein Nachbar hat sich über den Lärm im Treppenhaus beschwert.\nMy neighbour complained about the noise in the stairwell."
+    },
+    {
+      "id": "tb1-u15-l09-shopping-complaints-4-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "The washing machine doesn't work, so I'm writing a complaint.",
+      "tiles": [
+        "hat",
+        "Freitag",
+        "Reklamation",
+        "eine",
+        "Waschmaschine",
+        "deshalb",
+        "funktioniert",
+        "schreibe",
+        "Die",
+        "nicht",
+        "ich",
+        "ist"
+      ],
+      "answers": [
+        "Die Waschmaschine funktioniert nicht, deshalb schreibe ich eine Reklamation."
+      ],
+      "explanation": "**die Reklamation** = complaint (about goods): to make a complaint\n*Plural: die Reklamationen: reklamieren*"
+    },
+    {
+      "id": "tb1-u15-l09-shopping-complaints-4-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „warranty“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "der Preis, die Preise: günstig/preiswert ↔ teuer"
+        },
+        {
+          "id": "b",
+          "text": "die Garantie, die Garantien"
+        },
+        {
+          "id": "c",
+          "text": "der Rabatt, die Rabatte: reduziert"
+        },
+        {
+          "id": "d",
+          "text": "die Reklamation, die Reklamationen: reklamieren"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**die Garantie** = warranty\n*Plural: die Garantien*\n\n*Example:* Auf den Laptop gibt es zwei Jahre Garantie.\nThe laptop comes with a two-year warranty."
+    },
+    {
+      "id": "tb1-u15-l09-shopping-complaints-4-ex08",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u15-l09-shopping-complaints-4-3.mp3"
+      },
+      "tiles": [
+        "hat",
+        "fragt",
+        "Mein",
+        "Treppenhaus",
+        "zwei",
+        "beschwert",
+        "Nachbar",
+        "sich",
+        "über",
+        "im",
+        "den",
+        "Rechnung",
+        "Lärm"
+      ],
+      "answers": [
+        "Mein Nachbar hat sich über den Lärm im Treppenhaus beschwert."
+      ],
+      "explanation": "Mein Nachbar hat sich über den Lärm im Treppenhaus beschwert.\n*My neighbour complained about the noise in the stairwell.*\n\n**sich beschweren über + Akk. (hat sich beschwert)** = to complain about"
+    },
+    {
+      "id": "tb1-u15-l09-shopping-complaints-4-ex09",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Auf den Laptop gibt es zwei Jahre Garantie.",
+      "tiles": [
+        "The",
+        "laptop",
+        "warranty",
+        "expensive",
+        "only",
+        "comes",
+        "with",
+        "customers",
+        "a",
+        "two-year"
+      ],
+      "answers": [
+        "The laptop comes with a two-year warranty."
+      ],
+      "explanation": "**die Garantie** = warranty\n*Plural: die Garantien*"
+    }
+  ]
+}

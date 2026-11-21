@@ -1,0 +1,107 @@
+{
+  "id": "tb1-u31-l21-imperativ-rule",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u31",
+  "title": "The Imperative: the rule",
+  "tip": "du-imperative without -st: “Kommst du!” is wrong → Komm! And: nehmen → Nimm (not “Nehm”).",
+  "exercises": [
+    {
+      "id": "tb1-u31-l21-imperativ-rule-ex01",
+      "type": "explain",
+      "title": "The Imperative",
+      "body": "du-form = verb stem without -st (Komm! Nimm! Lies!) · ihr-form = normal ihr-form without the pronoun (Kommt!) · Sie-form = infinitive + Sie (Kommen Sie bitte!). Add “bitte” or “doch” to sound friendly.\n\n*Deutsch:* du-Form = Verbstamm ohne -st (Komm! Nimm! Lies!) · ihr-Form = normale ihr-Form ohne Pronomen (Kommt!) · Sie-Form = Infinitiv + Sie (Kommen Sie bitte!). „bitte“ oder „doch“ macht es freundlich.\n\n*German name:* Imperativ",
+      "examples": [
+        {
+          "learning": "Ruf mich bitte heute Abend an!",
+          "known": "Please call me tonight!"
+        },
+        {
+          "learning": "Nehmen Sie bitte Platz!",
+          "known": "Please take a seat!"
+        },
+        {
+          "learning": "Schreib mir doch bald zurück!",
+          "known": "Do write back soon! (informal letter closer)"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u31-l21-imperativ-rule-ex02",
+      "type": "explain",
+      "title": "The Imperative: step by step",
+      "body": "Pattern per person:\n• **du**: du kommst → Komm! · e→i/ie change stays: du nimmst → **Nimm!**, du liest → **Lies!** · a→ä change disappears: du fährst → **Fahr!**\n• **ihr**: Kommt! Nehmt! Fahrt!\n• **Sie**: Kommen Sie! Nehmen Sie!\nSeparable verbs: prefix to the end → **Ruf** mich **an**! · **Machen Sie** das Fenster **zu**!\nIrregular: sein → Sei!/Seid!/Seien Sie! · haben → Hab keine Angst!\nFriendly in informal letters: imperative + doch/mal/bitte: “Schreib mir doch bald!”\n\n## Auf Deutsch\n\nBauplan pro Person:\n• **du**: du kommst → Komm! · e→i/ie-Wechsel bleibt: du nimmst → **Nimm!**, du liest → **Lies!** · a→ä-Wechsel verschwindet: du fährst → **Fahr!**\n• **ihr**: Kommt! Nehmt! Fahrt!\n• **Sie**: Kommen Sie! Nehmen Sie!\nTrennbare Verben: Präfix ans Ende → **Ruf** mich **an**! · **Machen Sie** das Fenster **zu**!\nUnregelmäßig: sein → Sei!/Seid!/Seien Sie! · haben → Hab keine Angst!\nFreundlich im Brief an Freunde: Imperativ + doch/mal/bitte: „Schreib mir doch bald!“",
+      "examples": [
+        {
+          "learning": "Ruf mich bitte heute Abend an!",
+          "known": "Please call me tonight!"
+        },
+        {
+          "learning": "Nehmen Sie bitte Platz!",
+          "known": "Please take a seat!"
+        },
+        {
+          "learning": "Schreib mir doch bald zurück!",
+          "known": "Do write back soon! (informal letter closer)"
+        },
+        {
+          "learning": "Sei bitte pünktlich!",
+          "known": "Please be on time!"
+        },
+        {
+          "learning": "Testlücke-Stil: „___ Sie bitte das Formular aus!“ → Füllen",
+          "known": "Sie-imperative + separable: Füllen Sie … aus"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u31-l21-imperativ-rule-ex03",
+      "type": "explain",
+      "title": "Watch out & exam tip",
+      "body": "## Common trap\n\ndu-imperative without -st: “Kommst du!” is wrong → Komm! And: nehmen → Nimm (not “Nehm”).\n\n*Deutsch:* du-Imperativ ohne -st: „Kommst du!“ ist falsch → Komm! Und: nehmen → Nimm (nicht „Nehm“).\n\n## In the exam\n\n🎯 How telc tests it: in the **informal letter**, friendly imperatives are gold: “Melde dich!”, “Komm doch vorbei!”, natural closers for the “suggestion” guiding point. **Ads (reading part 3)** use Sie-imperatives: “Rufen Sie uns an!”\n\n*Deutsch:* 🎯 So testet telc das: Im **informellen Brief** sind freundliche Imperative Gold: „Melde dich!“, „Komm doch vorbei!“, natürliche Schlusszeilen für Leitpunkt „Vorschlag“. In **Anzeigen (Lesen Teil 3)** stehen Sie-Imperative: „Rufen Sie uns an!“\n\n*Source:* Guide Teil B · C4-Briefe"
+    },
+    {
+      "id": "tb1-u31-l21-imperativ-rule-ex04",
+      "type": "choice",
+      "title": "Fill the gap",
+      "prompt": "du-Form von „nehmen“: „___ doch noch ein Stück Kuchen!“",
+      "options": [
+        {
+          "id": "a",
+          "text": "Nimm"
+        },
+        {
+          "id": "b",
+          "text": "Nehm"
+        },
+        {
+          "id": "c",
+          "text": "Nehme"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "e→i-Verben behalten den Wechsel im Imperativ: Nimm!"
+    },
+    {
+      "id": "tb1-u31-l21-imperativ-rule-ex05",
+      "type": "choice",
+      "title": "Fill the gap",
+      "prompt": "Sie-Form: „___ bitte das Formular aus!“",
+      "options": [
+        {
+          "id": "a",
+          "text": "Sie füllen"
+        },
+        {
+          "id": "b",
+          "text": "Ausfüllen Sie"
+        },
+        {
+          "id": "c",
+          "text": "Füllen Sie"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Sie-Imperativ = Verb + Sie …: Füllen Sie … aus! (Präfix ans Ende)"
+    }
+  ]
+}

@@ -1,0 +1,253 @@
+{
+  "id": "tb1-u17-l05-offices-bank-post-5",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u17",
+  "title": "Offices, Bank & Post 5",
+  "tip": "Theme: Ämter / Behörden / Bank / Post (B1)",
+  "exercises": [
+    {
+      "id": "tb1-u17-l05-offices-bank-post-5-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "schicken",
+          "known": "to send"
+        },
+        {
+          "id": "p2",
+          "learning": "der Absender",
+          "known": "sender"
+        },
+        {
+          "id": "p3",
+          "learning": "das Amt",
+          "known": "(public) office"
+        },
+        {
+          "id": "p4",
+          "learning": "das Rathaus",
+          "known": "town hall"
+        },
+        {
+          "id": "p5",
+          "learning": "sich anmelden",
+          "known": "to register"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u17-l05-offices-bank-post-5-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which one means „to send · to collect“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Frist, die Fristen: eine Frist einhalten / verpassen"
+        },
+        {
+          "id": "b",
+          "text": "die Bescheinigung, die Bescheinigungen"
+        },
+        {
+          "id": "c",
+          "text": "schicken · abholen"
+        },
+        {
+          "id": "d",
+          "text": "zuständig für + Akk. Wer ist dafür zuständig?"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**schicken · abholen** = to send · to collect\n\n*Example:* Ich schicke dir das Buch, oder holst du es lieber bei mir ab?\nI'll send you the book, or would you rather collect it from my place?"
+    },
+    {
+      "id": "tb1-u17-l05-offices-bank-post-5-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „sender ↔ recipient“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Aufenthaltserlaubnis, die Aufenthaltserlaubnisse"
+        },
+        {
+          "id": "b",
+          "text": "die Frist, die Fristen: eine Frist einhalten / verpassen"
+        },
+        {
+          "id": "c",
+          "text": "der Brief, die Briefe · das Paket, die Pakete · die Briefmarke, die Briefmarken"
+        },
+        {
+          "id": "d",
+          "text": "der Absender, die Absender ↔ der Empfänger, die Empfänger"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**der Absender, die Absender ↔ der Empfänger, die Empfänger** = sender ↔ recipient\n\n*Example:* Schreiben Sie den Absender oben links und den Empfänger unten rechts.\nWrite the sender at the top left and the recipient at the bottom right."
+    },
+    {
+      "id": "tb1-u17-l05-offices-bank-post-5-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Ich schicke dir das Buch, oder holst du es lieber bei mir ab?",
+      "tiles": [
+        "the",
+        "on",
+        "you",
+        "my",
+        "it",
+        "near",
+        "collect",
+        "book",
+        "would",
+        "you",
+        "from",
+        "have",
+        "or",
+        "place",
+        "rather",
+        "I'll",
+        "send"
+      ],
+      "answers": [
+        "I'll send you the book, or would you rather collect it from my place?"
+      ],
+      "explanation": "**schicken · abholen** = to send · to collect"
+    },
+    {
+      "id": "tb1-u17-l05-offices-bank-post-5-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means „I need an appointment at the citizens' office because I have to register my new address.“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Könntest du während meines Urlaubs bitte die Blumen gießen und den Briefkasten leeren?"
+        },
+        {
+          "id": "b",
+          "text": "Ich wohne am Stadtrand, mit der U-Bahn bin ich aber in einer Viertelstunde in der Innenstadt."
+        },
+        {
+          "id": "c",
+          "text": "Ich brauche einen Termin beim Bürgeramt, weil ich meine neue Adresse anmelden muss."
+        },
+        {
+          "id": "d",
+          "text": "Füllen Sie bitte dieses Formular aus und bringen Sie Ihren Pass sowie alle Unterlagen mit."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**Ich brauche einen Termin beim Bürgeramt, weil ich meine neue Adresse anmelden muss.** = I need an appointment at the citizens' office because I have to register my new address.\n\n*Example:* Ich brauche einen Termin beim Bürgeramt, weil ich meine neue Adresse anmelden muss.\nI need an appointment at the citizens' office because I have to register my new address."
+    },
+    {
+      "id": "tb1-u17-l05-offices-bank-post-5-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Write the sender at the top left and the recipient at the bottom right.",
+      "tiles": [
+        "unten",
+        "den",
+        "Absender",
+        "Empfänger",
+        "einen",
+        "Mann",
+        "und",
+        "Sie",
+        "Schreiben",
+        "am",
+        "den",
+        "links",
+        "rechts",
+        "oben"
+      ],
+      "answers": [
+        "Schreiben Sie den Absender oben links und den Empfänger unten rechts."
+      ],
+      "explanation": "**der Absender, die Absender ↔ der Empfänger, die Empfänger** = sender ↔ recipient"
+    },
+    {
+      "id": "tb1-u17-l05-offices-bank-post-5-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means „Please fill in this form and bring your passport as well as all documents.“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ich brauche einen Termin beim Bürgeramt, weil ich meine neue Adresse anmelden muss."
+        },
+        {
+          "id": "b",
+          "text": "Füllen Sie bitte dieses Formular aus und bringen Sie Ihren Pass sowie alle Unterlagen mit."
+        },
+        {
+          "id": "c",
+          "text": "Ich wohne am Stadtrand, mit der U-Bahn bin ich aber in einer Viertelstunde in der Innenstadt."
+        },
+        {
+          "id": "d",
+          "text": "Könntest du während meines Urlaubs bitte die Blumen gießen und den Briefkasten leeren?"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Füllen Sie bitte dieses Formular aus und bringen Sie Ihren Pass sowie alle Unterlagen mit.** = Please fill in this form and bring your passport as well as all documents.\n\n*Example:* Füllen Sie bitte dieses Formular aus und bringen Sie Ihren Pass sowie alle Unterlagen mit.\nPlease fill in this form and bring your passport as well as all documents."
+    },
+    {
+      "id": "tb1-u17-l05-offices-bank-post-5-ex08",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u17-l05-offices-bank-post-5-3.mp3"
+      },
+      "tiles": [
+        "brauche",
+        "Bürgeramt",
+        "hier",
+        "beim",
+        "meine",
+        "Termin",
+        "weil",
+        "Geldautomaten",
+        "Adresse",
+        "einen",
+        "muss",
+        "Ich",
+        "anmelden",
+        "Ihren",
+        "ich",
+        "neue"
+      ],
+      "answers": [
+        "Ich brauche einen Termin beim Bürgeramt, weil ich meine neue Adresse anmelden muss."
+      ],
+      "explanation": "Ich brauche einen Termin beim Bürgeramt, weil ich meine neue Adresse anmelden muss.\n*I need an appointment at the citizens' office because I have to register my new address.*\n\n**Ich brauche einen Termin beim Bürgeramt, weil ich meine neue Adresse anmelden muss.** = I need an appointment at the citizens' office because I have to register my new address."
+    },
+    {
+      "id": "tb1-u17-l05-offices-bank-post-5-ex09",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Füllen Sie bitte dieses Formular aus und bringen Sie Ihren Pass sowie alle Unterlagen mit.",
+      "tiles": [
+        "fill",
+        "all",
+        "well",
+        "form",
+        "your",
+        "as",
+        "you",
+        "bring",
+        "passport",
+        "as",
+        "in",
+        "Please",
+        "the",
+        "and",
+        "this",
+        "from",
+        "documents"
+      ],
+      "answers": [
+        "Please fill in this form and bring your passport as well as all documents."
+      ],
+      "explanation": "**Füllen Sie bitte dieses Formular aus und bringen Sie Ihren Pass sowie alle Unterlagen mit.** = Please fill in this form and bring your passport as well as all documents."
+    }
+  ]
+}

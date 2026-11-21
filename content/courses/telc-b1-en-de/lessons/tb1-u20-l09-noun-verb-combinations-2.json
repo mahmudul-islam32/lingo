@@ -1,0 +1,280 @@
+{
+  "id": "tb1-u20-l09-noun-verb-combinations-2",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u20",
+  "title": "Noun-Verb Combinations 2",
+  "tip": "Theme: Nomen-Verb-Verbindungen (B1)",
+  "exercises": [
+    {
+      "id": "tb1-u20-l09-noun-verb-combinations-2-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "eine Prüfung ablegen",
+          "known": "to sit an exam"
+        },
+        {
+          "id": "p2",
+          "learning": "Rücksicht nehmen auf",
+          "known": "to be considerate of"
+        },
+        {
+          "id": "p3",
+          "learning": "einen Fehler machen",
+          "known": "to make a mistake"
+        },
+        {
+          "id": "p4",
+          "learning": "Angst haben vor",
+          "known": "to be afraid of"
+        },
+        {
+          "id": "p5",
+          "learning": "Wert legen auf",
+          "known": "to value / attach importance to"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u20-l09-noun-verb-combinations-2-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which one means „to sit an exam“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "eine Entscheidung fällen"
+        },
+        {
+          "id": "b",
+          "text": "Wert legen auf + Akk."
+        },
+        {
+          "id": "c",
+          "text": "eine Prüfung ablegen"
+        },
+        {
+          "id": "d",
+          "text": "in Frage kommen"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**eine Prüfung ablegen** = to sit an exam\n\n*Example:* Mein Sohn hat letzte Woche die Führerscheinprüfung abgelegt.\nMy son took his driving test last week."
+    },
+    {
+      "id": "tb1-u20-l09-noun-verb-combinations-2-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which one means „to be considerate of“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Rücksicht nehmen auf + Akk."
+        },
+        {
+          "id": "b",
+          "text": "zur Verfügung stehen"
+        },
+        {
+          "id": "c",
+          "text": "Verantwortung übernehmen"
+        },
+        {
+          "id": "d",
+          "text": "Rücksicht nehmen"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Rücksicht nehmen auf + Akk.** = to be considerate of\n\n*Example:* Bitte nehmen Sie Rücksicht auf die anderen Fahrgäste.\nPlease be considerate of the other passengers."
+    },
+    {
+      "id": "tb1-u20-l09-noun-verb-combinations-2-ex04",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u20-l09-noun-verb-combinations-2-1.mp3"
+      },
+      "tiles": [
+        "Woche",
+        "hat",
+        "Sohn",
+        "Eine",
+        "Führerscheinprüfung",
+        "abgelegt",
+        "die",
+        "letzte",
+        "in",
+        "Im",
+        "Mein"
+      ],
+      "answers": [
+        "Mein Sohn hat letzte Woche die Führerscheinprüfung abgelegt."
+      ],
+      "explanation": "Mein Sohn hat letzte Woche die Führerscheinprüfung abgelegt.\n*My son took his driving test last week.*\n\n**eine Prüfung ablegen** = to sit an exam"
+    },
+    {
+      "id": "tb1-u20-l09-noun-verb-combinations-2-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which one means „to make a mistake“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Angst haben vor + Dat."
+        },
+        {
+          "id": "b",
+          "text": "eine Rede halten"
+        },
+        {
+          "id": "c",
+          "text": "einen Fehler machen"
+        },
+        {
+          "id": "d",
+          "text": "eine Rolle spielen"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**einen Fehler machen** = to make a mistake\n\n*Example:* Entschuldigung, ich habe bei der Rechnung einen Fehler gemacht.\nSorry, I made a mistake on the bill."
+    },
+    {
+      "id": "tb1-u20-l09-noun-verb-combinations-2-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Bitte nehmen Sie Rücksicht auf die anderen Fahrgäste.",
+      "tiles": [
+        "be",
+        "of",
+        "other",
+        "Please",
+        "his",
+        "an",
+        "appointment",
+        "passengers",
+        "considerate",
+        "the"
+      ],
+      "answers": [
+        "Please be considerate of the other passengers."
+      ],
+      "explanation": "**Rücksicht nehmen auf + Akk.** = to be considerate of"
+    },
+    {
+      "id": "tb1-u20-l09-noun-verb-combinations-2-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which one means „to be afraid of“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Angst haben vor + Dat."
+        },
+        {
+          "id": "b",
+          "text": "eine Frage stellen"
+        },
+        {
+          "id": "c",
+          "text": "Verantwortung übernehmen"
+        },
+        {
+          "id": "d",
+          "text": "Wert legen auf + Akk."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Angst haben vor + Dat.** = to be afraid of\n\n*Example:* Meine Tochter hat Angst vor großen Hunden.\nMy daughter is afraid of big dogs."
+    },
+    {
+      "id": "tb1-u20-l09-noun-verb-combinations-2-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Sorry, I made a mistake on the bill.",
+      "tiles": [
+        "habe",
+        "Fehler",
+        "ich",
+        "Rechnung",
+        "bei",
+        "Entschuldigung",
+        "bitte",
+        "Chef",
+        "gemacht",
+        "der",
+        "einen",
+        "Woche"
+      ],
+      "answers": [
+        "Entschuldigung, ich habe bei der Rechnung einen Fehler gemacht."
+      ],
+      "explanation": "**einen Fehler machen** = to make a mistake"
+    },
+    {
+      "id": "tb1-u20-l09-noun-verb-combinations-2-ex09",
+      "type": "multiple_choice",
+      "prompt": "Which one means „to value / attach importance to“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "einen Fehler machen"
+        },
+        {
+          "id": "b",
+          "text": "Angst haben vor + Dat."
+        },
+        {
+          "id": "c",
+          "text": "eine Frage stellen"
+        },
+        {
+          "id": "d",
+          "text": "Wert legen auf + Akk."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**Wert legen auf + Akk.** = to value / attach importance to\n\n*Example:* Unser Chef legt großen Wert auf Pünktlichkeit.\nOur boss attaches great importance to punctuality."
+    },
+    {
+      "id": "tb1-u20-l09-noun-verb-combinations-2-ex10",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u20-l09-noun-verb-combinations-2-4.mp3"
+      },
+      "tiles": [
+        "Angst",
+        "Hunden",
+        "hat",
+        "Meine",
+        "Als",
+        "großen",
+        "vor",
+        "Tochter",
+        "Bitte",
+        "nehmen"
+      ],
+      "answers": [
+        "Meine Tochter hat Angst vor großen Hunden."
+      ],
+      "explanation": "Meine Tochter hat Angst vor großen Hunden.\n*My daughter is afraid of big dogs.*\n\n**Angst haben vor + Dat.** = to be afraid of"
+    },
+    {
+      "id": "tb1-u20-l09-noun-verb-combinations-2-ex11",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Unser Chef legt großen Wert auf Pünktlichkeit.",
+      "tiles": [
+        "Our",
+        "attaches",
+        "punctuality",
+        "son",
+        "importance",
+        "boss",
+        "you",
+        "great",
+        "for",
+        "to"
+      ],
+      "answers": [
+        "Our boss attaches great importance to punctuality."
+      ],
+      "explanation": "**Wert legen auf + Akk.** = to value / attach importance to"
+    }
+  ]
+}

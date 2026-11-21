@@ -1,0 +1,275 @@
+{
+  "id": "tb1-u26-l01-little-words-adverbs-1",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u26",
+  "title": "Little Words & Adverbs 1",
+  "tip": "Theme: Kleine Wörter & Adverbien (B1)",
+  "exercises": [
+    {
+      "id": "tb1-u26-l01-little-words-adverbs-1-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "sogar",
+          "known": "even"
+        },
+        {
+          "id": "p2",
+          "learning": "kaum",
+          "known": "hardly"
+        },
+        {
+          "id": "p3",
+          "learning": "genug",
+          "known": "enough"
+        },
+        {
+          "id": "p4",
+          "learning": "selbst",
+          "known": "oneself (ich selbst = I myself)"
+        },
+        {
+          "id": "p5",
+          "learning": "allein",
+          "known": "alone"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u26-l01-little-words-adverbs-1-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which one means „even“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "genug"
+        },
+        {
+          "id": "b",
+          "text": "außerhalb + Gen."
+        },
+        {
+          "id": "c",
+          "text": "sogar"
+        },
+        {
+          "id": "d",
+          "text": "jeweils"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**sogar** = even\n\n*Example:* Mein Sohn hat sogar sein Zimmer aufgeräumt.\nMy son even tidied his room."
+    },
+    {
+      "id": "tb1-u26-l01-little-words-adverbs-1-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which one means „hardly“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "außerhalb + Gen."
+        },
+        {
+          "id": "b",
+          "text": "voneinander"
+        },
+        {
+          "id": "c",
+          "text": "miteinander"
+        },
+        {
+          "id": "d",
+          "text": "kaum"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**kaum** = hardly\n\n*Example:* Ich habe heute Nacht kaum geschlafen.\nI hardly slept last night."
+    },
+    {
+      "id": "tb1-u26-l01-little-words-adverbs-1-ex04",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u26-l01-little-words-adverbs-1-1.mp3"
+      },
+      "tiles": [
+        "Sohn",
+        "Weber",
+        "wir",
+        "mich",
+        "sogar",
+        "Zimmer",
+        "sein",
+        "aufgeräumt",
+        "hat",
+        "Mein"
+      ],
+      "answers": [
+        "Mein Sohn hat sogar sein Zimmer aufgeräumt."
+      ],
+      "explanation": "Mein Sohn hat sogar sein Zimmer aufgeräumt.\n*My son even tidied his room.*\n\n**sogar** = even"
+    },
+    {
+      "id": "tb1-u26-l01-little-words-adverbs-1-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which one means „enough“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "sogar"
+        },
+        {
+          "id": "b",
+          "text": "miteinander"
+        },
+        {
+          "id": "c",
+          "text": "unten"
+        },
+        {
+          "id": "d",
+          "text": "genug"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**genug** = enough\n\n*Example:* Haben wir genug Brot für das Frühstück?\nDo we have enough bread for breakfast?"
+    },
+    {
+      "id": "tb1-u26-l01-little-words-adverbs-1-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Ich habe heute Nacht kaum geschlafen.",
+      "tiles": [
+        "hardly",
+        "I",
+        "night",
+        "glasses",
+        "slept",
+        "right",
+        "already",
+        "last"
+      ],
+      "answers": [
+        "I hardly slept last night."
+      ],
+      "explanation": "**kaum** = hardly"
+    },
+    {
+      "id": "tb1-u26-l01-little-words-adverbs-1-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which one means „oneself (ich selbst = I myself)“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "einander"
+        },
+        {
+          "id": "b",
+          "text": "worauf"
+        },
+        {
+          "id": "c",
+          "text": "außerhalb + Gen."
+        },
+        {
+          "id": "d",
+          "text": "selbst"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**selbst** = oneself (ich selbst = I myself)\n\n*Example:* Ich habe den Kuchen selbst gebacken.\nI baked the cake myself."
+    },
+    {
+      "id": "tb1-u26-l01-little-words-adverbs-1-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Do we have enough bread for breakfast?",
+      "tiles": [
+        "am",
+        "Brot",
+        "Frühstück",
+        "Anna",
+        "Haben",
+        "genug",
+        "weil",
+        "wir",
+        "das",
+        "für"
+      ],
+      "answers": [
+        "Haben wir genug Brot für das Frühstück?"
+      ],
+      "explanation": "**genug** = enough"
+    },
+    {
+      "id": "tb1-u26-l01-little-words-adverbs-1-ex09",
+      "type": "multiple_choice",
+      "prompt": "Which one means „alone“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "unten"
+        },
+        {
+          "id": "b",
+          "text": "allein"
+        },
+        {
+          "id": "c",
+          "text": "oben"
+        },
+        {
+          "id": "d",
+          "text": "darum"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**allein** = alone\n\n*Example:* Meine Oma wohnt allein in einer kleinen Wohnung.\nMy grandma lives alone in a small flat."
+    },
+    {
+      "id": "tb1-u26-l01-little-words-adverbs-1-ex10",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u26-l01-little-words-adverbs-1-4.mp3"
+      },
+      "tiles": [
+        "den",
+        "Der",
+        "selbst",
+        "gebacken",
+        "Ich",
+        "Wegen",
+        "Zug",
+        "habe",
+        "Kuchen"
+      ],
+      "answers": [
+        "Ich habe den Kuchen selbst gebacken."
+      ],
+      "explanation": "Ich habe den Kuchen selbst gebacken.\n*I baked the cake myself.*\n\n**selbst** = oneself (ich selbst = I myself)"
+    },
+    {
+      "id": "tb1-u26-l01-little-words-adverbs-1-ex11",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Meine Oma wohnt allein in einer kleinen Wohnung.",
+      "tiles": [
+        "it's",
+        "My",
+        "a",
+        "lives",
+        "help",
+        "grandma",
+        "small",
+        "alone",
+        "flat",
+        "on",
+        "in"
+      ],
+      "answers": [
+        "My grandma lives alone in a small flat."
+      ],
+      "explanation": "**allein** = alone"
+    }
+  ]
+}

@@ -1,0 +1,395 @@
+{
+  "id": "tb1-u32-l10-praepad-p1",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u32",
+  "title": "Prepositions with a Fixed Case: Immer Akkusativ & Immer Dativ",
+  "tip": "“mit meinen Freund” → mit meinem Freund (dative!). And: nach Hause (direction) vs. zu Hause (location).",
+  "exercises": [
+    {
+      "id": "tb1-u32-l10-praepad-p1-ex01",
+      "type": "explain",
+      "title": "Immer Akkusativ: durch, für, gegen, ohne, um",
+      "body": "These prepositions always take the accusative.\n\n*Deutsch:* Nach diesen Präpositionen steht immer Akkusativ.\n\n## Pattern\n\n**für/ohne/durch/gegen/um** + **den/einen/mich …**",
+      "examples": [
+        {
+          "learning": "Das Geschenk ist für meinen Vater.",
+          "known": "The present is for my father."
+        },
+        {
+          "learning": "Ich trinke Kaffee ohne Zucker.",
+          "known": "I drink coffee without sugar."
+        }
+      ]
+    },
+    {
+      "id": "tb1-u32-l10-praepad-p1-ex02",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "The present is for my father.",
+      "tiles": [
+        "meinen",
+        "Vater",
+        "dich",
+        "habe",
+        "ist",
+        "Geschenk",
+        "für",
+        "Das",
+        "seit"
+      ],
+      "answers": [
+        "Das Geschenk ist für meinen Vater."
+      ],
+      "explanation": "**Why:** für + accusative → meinen.\n\n*Warum:* für + Akkusativ → meinen."
+    },
+    {
+      "id": "tb1-u32-l10-praepad-p1-ex03",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I drink coffee without sugar.",
+      "tiles": [
+        "vom",
+        "Kaffee",
+        "Ich",
+        "trinke",
+        "ohne",
+        "Zucker",
+        "Geschenk",
+        "Türkei"
+      ],
+      "answers": [
+        "Ich trinke Kaffee ohne Zucker."
+      ],
+      "explanation": "**Why:** ohne + accusative (often without article).\n\n*Warum:* ohne + Akkusativ (oft ohne Artikel)."
+    },
+    {
+      "id": "tb1-u32-l10-praepad-p1-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "We're walking through the park.",
+      "tiles": [
+        "Kaffee",
+        "Wir",
+        "durch",
+        "Park",
+        "gehen",
+        "den",
+        "Jahr",
+        "gekauft"
+      ],
+      "answers": [
+        "Wir gehen durch den Park."
+      ],
+      "explanation": "**Why:** durch + accusative → den Park.\n\n*Warum:* durch + Akkusativ → den Park."
+    },
+    {
+      "id": "tb1-u32-l10-praepad-p1-ex05",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I have nothing against you.",
+      "tiles": [
+        "zwei",
+        "fahre",
+        "nichts",
+        "gegen",
+        "dich",
+        "Ich",
+        "ist",
+        "habe"
+      ],
+      "answers": [
+        "Ich habe nichts gegen dich."
+      ],
+      "explanation": "**Why:** gegen + accusative → dich.\n\n*Warum:* gegen + Akkusativ → dich."
+    },
+    {
+      "id": "tb1-u32-l10-praepad-p1-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "We're sitting around the table.",
+      "tiles": [
+        "trinke",
+        "Wir",
+        "Ich",
+        "Tisch",
+        "den",
+        "sitzen",
+        "um",
+        "Türkei"
+      ],
+      "answers": [
+        "Wir sitzen um den Tisch."
+      ],
+      "explanation": "**Why:** um + accusative → den Tisch.\n\n*Warum:* um + Akkusativ → den Tisch."
+    },
+    {
+      "id": "tb1-u32-l10-praepad-p1-ex07",
+      "type": "explain",
+      "title": "Immer Dativ: aus, bei, mit, nach, seit, von, zu",
+      "body": "These prepositions always take the dative. zu dem → zum, zu der → zur, bei dem → beim.\n\n*Deutsch:* Nach diesen Präpositionen steht immer Dativ. zu dem → zum, zu der → zur, bei dem → beim.\n\n## Pattern\n\n**aus/bei/mit/nach/seit/von/zu** + **dem/der/einem …**",
+      "examples": [
+        {
+          "learning": "Ich fahre mit dem Bus zur Arbeit.",
+          "known": "I go to work by bus."
+        },
+        {
+          "learning": "Sie kommt aus der Türkei.",
+          "known": "She comes from Turkey."
+        }
+      ]
+    },
+    {
+      "id": "tb1-u32-l10-praepad-p1-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I go to work by bus.",
+      "tiles": [
+        "mit",
+        "zur",
+        "morgen",
+        "meiner",
+        "Ich",
+        "Wir",
+        "fahre",
+        "Arbeit",
+        "Bus",
+        "dem"
+      ],
+      "answers": [
+        "Ich fahre mit dem Bus zur Arbeit."
+      ],
+      "explanation": "**Why:** mit + dative → dem Bus.\n\n*Warum:* mit + Dativ → dem Bus."
+    },
+    {
+      "id": "tb1-u32-l10-praepad-p1-ex09",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "She comes from Turkey.",
+      "tiles": [
+        "kommt",
+        "Sie",
+        "Türkei",
+        "aus",
+        "arbeitet",
+        "Ich",
+        "der",
+        "___"
+      ],
+      "answers": [
+        "Sie kommt aus der Türkei."
+      ],
+      "explanation": "**Why:** aus + dative → der Türkei.\n\n*Warum:* aus + Dativ → der Türkei."
+    },
+    {
+      "id": "tb1-u32-l10-praepad-p1-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I'm going to the doctor tomorrow.",
+      "tiles": [
+        "gehe",
+        "kommt",
+        "meiner",
+        "Ich",
+        "zum",
+        "den",
+        "Arzt",
+        "morgen"
+      ],
+      "answers": [
+        "Ich gehe morgen zum Arzt."
+      ],
+      "explanation": "**Why:** zu + dem → zum.\n\n*Warum:* zu + dem → zum."
+    },
+    {
+      "id": "tb1-u32-l10-praepad-p1-ex11",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "He works for a big company.",
+      "tiles": [
+        "Ich",
+        "Das",
+        "bei",
+        "großen",
+        "Jahren",
+        "Firma",
+        "Er",
+        "einer",
+        "arbeitet"
+      ],
+      "answers": [
+        "Er arbeitet bei einer großen Firma."
+      ],
+      "explanation": "**Why:** bei + dative → einer Firma.\n\n*Warum:* bei + Dativ → einer Firma."
+    },
+    {
+      "id": "tb1-u32-l10-praepad-p1-ex12",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I've been living in Cologne for a year.",
+      "tiles": [
+        "Köln",
+        "Ich",
+        "gegen",
+        "einem",
+        "Jahr",
+        "zur",
+        "wohne",
+        "ein",
+        "in",
+        "seit"
+      ],
+      "answers": [
+        "Ich wohne seit einem Jahr in Köln."
+      ],
+      "explanation": "**Why:** seit + dative → einem Jahr.\n\n*Warum:* seit + Dativ → einem Jahr."
+    },
+    {
+      "id": "tb1-u32-l10-praepad-p1-ex13",
+      "type": "choice",
+      "title": "Fill the gap",
+      "prompt": "Wir gehen ___ das Stadtzentrum spazieren.",
+      "options": [
+        {
+          "id": "a",
+          "text": "seit"
+        },
+        {
+          "id": "b",
+          "text": "mit"
+        },
+        {
+          "id": "c",
+          "text": "durch"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "durch + Akkusativ: durch das Zentrum."
+    },
+    {
+      "id": "tb1-u32-l10-praepad-p1-ex14",
+      "type": "choice",
+      "title": "Fill the gap",
+      "prompt": "Ich habe das Geschenk ___ meiner Tante bekommen.",
+      "options": [
+        {
+          "id": "a",
+          "text": "von"
+        },
+        {
+          "id": "b",
+          "text": "bei"
+        },
+        {
+          "id": "c",
+          "text": "aus"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Absender/Geber: von + Dativ."
+    },
+    {
+      "id": "tb1-u32-l10-praepad-p1-ex15",
+      "type": "choice",
+      "title": "Fill the gap",
+      "prompt": "___ dem Essen putze ich mir die Zähne.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Aus"
+        },
+        {
+          "id": "b",
+          "text": "Seit"
+        },
+        {
+          "id": "c",
+          "text": "Nach"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Zeitliche Abfolge: nach + Dativ."
+    },
+    {
+      "id": "tb1-u32-l10-praepad-p1-ex16",
+      "type": "choice",
+      "title": "Find the mistake",
+      "prompt": "Which word is wrong? „Ich wohne seit zwei Jahre in Berlin.“",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ich"
+        },
+        {
+          "id": "b",
+          "text": "wohne"
+        },
+        {
+          "id": "c",
+          "text": "seit"
+        },
+        {
+          "id": "d",
+          "text": "zwei"
+        },
+        {
+          "id": "e",
+          "text": "Jahre"
+        },
+        {
+          "id": "f",
+          "text": "in"
+        },
+        {
+          "id": "g",
+          "text": "Berlin"
+        }
+      ],
+      "correctOptionId": "e",
+      "explanation": "„Jahre“ → „Jahren“: **Ich wohne seit zwei Jahren in Berlin.**\n\nseit + Dativ; Plural im Dativ + n: seit zwei Jahren."
+    },
+    {
+      "id": "tb1-u32-l10-praepad-p1-ex17",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Correct the sentence: „Ich wohne seit zwei Jahre in Berlin.“",
+      "tiles": [
+        "Ich",
+        "Jahre",
+        "gekauft",
+        "in",
+        "Jahren",
+        "zwei",
+        "Sie",
+        "wohne",
+        "Berlin",
+        "seit"
+      ],
+      "answers": [
+        "Ich wohne seit zwei Jahren in Berlin."
+      ],
+      "explanation": "seit + Dativ; Plural im Dativ + n: seit zwei Jahren."
+    },
+    {
+      "id": "tb1-u32-l10-praepad-p1-ex18",
+      "type": "choice",
+      "title": "Fill the gap",
+      "prompt": "Ich fahre jeden Tag ___ dem Bus zur Arbeit.",
+      "options": [
+        {
+          "id": "a",
+          "text": "bei"
+        },
+        {
+          "id": "b",
+          "text": "mit"
+        },
+        {
+          "id": "c",
+          "text": "von"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Verkehrsmittel: mit + Dativ."
+    }
+  ]
+}

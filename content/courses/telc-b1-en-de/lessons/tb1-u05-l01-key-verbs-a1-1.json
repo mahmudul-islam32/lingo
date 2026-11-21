@@ -1,0 +1,283 @@
+{
+  "id": "tb1-u05-l01-key-verbs-a1-1",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u05",
+  "title": "Key Verbs (A1) 1",
+  "tip": "Theme: Wichtige Verben (A1) (A1)",
+  "exercises": [
+    {
+      "id": "tb1-u05-l01-key-verbs-a1-1-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "sein",
+          "known": "to be"
+        },
+        {
+          "id": "p2",
+          "learning": "haben",
+          "known": "to have"
+        },
+        {
+          "id": "p3",
+          "learning": "machen",
+          "known": "to do / make"
+        },
+        {
+          "id": "p4",
+          "learning": "gehen",
+          "known": "to go"
+        },
+        {
+          "id": "p5",
+          "learning": "kommen",
+          "known": "to come"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u05-l01-key-verbs-a1-1-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which one means „to be“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "lernen"
+        },
+        {
+          "id": "b",
+          "text": "sein (ist)"
+        },
+        {
+          "id": "c",
+          "text": "machen"
+        },
+        {
+          "id": "d",
+          "text": "lesen (liest)"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**sein (ist)** = to be\n\n*Example:* Mein Kollege ist heute nicht da, er ist krank.\nMy colleague isn't here today, he's ill."
+    },
+    {
+      "id": "tb1-u05-l01-key-verbs-a1-1-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which one means „to have“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "verstehen"
+        },
+        {
+          "id": "b",
+          "text": "sagen"
+        },
+        {
+          "id": "c",
+          "text": "schreiben"
+        },
+        {
+          "id": "d",
+          "text": "haben (hat)"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**haben (hat)** = to have\n\n*Example:* Hast du morgen Zeit? Ich habe zwei Kinokarten.\nDo you have time tomorrow? I have two cinema tickets."
+    },
+    {
+      "id": "tb1-u05-l01-key-verbs-a1-1-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "My colleague isn't here today, he's ill.",
+      "tiles": [
+        "nicht",
+        "keine",
+        "krank",
+        "Sohn",
+        "er",
+        "Nachricht",
+        "Mein",
+        "ist",
+        "ist",
+        "heute",
+        "da",
+        "Kollege"
+      ],
+      "answers": [
+        "Mein Kollege ist heute nicht da, er ist krank."
+      ],
+      "explanation": "**sein (ist)** = to be"
+    },
+    {
+      "id": "tb1-u05-l01-key-verbs-a1-1-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which one means „to do / make“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "schlafen (schläft)"
+        },
+        {
+          "id": "b",
+          "text": "trinken"
+        },
+        {
+          "id": "c",
+          "text": "machen"
+        },
+        {
+          "id": "d",
+          "text": "hören"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**machen** = to do / make\n\n*Example:* Was machst du am Wochenende?\nWhat are you doing at the weekend?"
+    },
+    {
+      "id": "tb1-u05-l01-key-verbs-a1-1-ex06",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u05-l01-key-verbs-a1-1-2.mp3"
+      },
+      "tiles": [
+        "du",
+        "Hast",
+        "morgen",
+        "im",
+        "Zug",
+        "Kinokarten",
+        "Ich",
+        "zwei",
+        "habe",
+        "Sohn",
+        "Zeit"
+      ],
+      "answers": [
+        "Hast du morgen Zeit? Ich habe zwei Kinokarten."
+      ],
+      "explanation": "Hast du morgen Zeit? Ich habe zwei Kinokarten.\n*Do you have time tomorrow? I have two cinema tickets.*\n\n**haben (hat)** = to have"
+    },
+    {
+      "id": "tb1-u05-l01-key-verbs-a1-1-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which one means „to go“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "lesen (liest)"
+        },
+        {
+          "id": "b",
+          "text": "gehen"
+        },
+        {
+          "id": "c",
+          "text": "essen (isst)"
+        },
+        {
+          "id": "d",
+          "text": "sehen (sieht)"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**gehen** = to go\n\n*Example:* Nach der Arbeit gehe ich noch schnell einkaufen.\nAfter work I'm quickly going shopping."
+    },
+    {
+      "id": "tb1-u05-l01-key-verbs-a1-1-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Was machst du am Wochenende?",
+      "tiles": [
+        "weekend",
+        "What",
+        "are",
+        "doing",
+        "words",
+        "at",
+        "you",
+        "doctor",
+        "colleague",
+        "the"
+      ],
+      "answers": [
+        "What are you doing at the weekend?"
+      ],
+      "explanation": "**machen** = to do / make"
+    },
+    {
+      "id": "tb1-u05-l01-key-verbs-a1-1-ex09",
+      "type": "multiple_choice",
+      "prompt": "Which one means „to come“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "arbeiten"
+        },
+        {
+          "id": "b",
+          "text": "kommen"
+        },
+        {
+          "id": "c",
+          "text": "essen (isst)"
+        },
+        {
+          "id": "d",
+          "text": "wohnen"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**kommen** = to come\n\n*Example:* Anna kommt aus Polen und wohnt jetzt in München.\nAnna comes from Poland and now lives in Munich."
+    },
+    {
+      "id": "tb1-u05-l01-key-verbs-a1-1-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "After work I'm quickly going shopping.",
+      "tiles": [
+        "Am",
+        "Arbeit",
+        "Nach",
+        "ich",
+        "einkaufen",
+        "noch",
+        "schnell",
+        "da",
+        "der",
+        "gehe",
+        "du"
+      ],
+      "answers": [
+        "Nach der Arbeit gehe ich noch schnell einkaufen."
+      ],
+      "explanation": "**gehen** = to go"
+    },
+    {
+      "id": "tb1-u05-l01-key-verbs-a1-1-ex11",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u05-l01-key-verbs-a1-1-5.mp3"
+      },
+      "tiles": [
+        "Polen",
+        "Anna",
+        "kommt",
+        "morgen",
+        "du",
+        "aus",
+        "brauchen",
+        "München",
+        "in",
+        "jetzt",
+        "wohnt",
+        "und"
+      ],
+      "answers": [
+        "Anna kommt aus Polen und wohnt jetzt in München."
+      ],
+      "explanation": "Anna kommt aus Polen und wohnt jetzt in München.\n*Anna comes from Poland and now lives in Munich.*\n\n**kommen** = to come"
+    }
+  ]
+}

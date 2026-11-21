@@ -1,0 +1,306 @@
+{
+  "id": "tb1-u55-l02-letter-frame",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u55",
+  "title": "The letter frame (Gerüst)",
+  "tip": "Same frame every time: date, Anrede, Einleitung, 4 blocks, Schluss, Gruß.",
+  "exercises": [
+    {
+      "id": "tb1-u55-l02-letter-frame-ex01",
+      "type": "explain",
+      "title": "The letter frame (Brief-Gerüst)",
+      "body": "Every reply in this course uses the same frame. You only change the four middle blocks (one per Leitpunkt).\n\n## 1. Place and date\n\nHamburg, den 9. August 2026\n\n## 2. Salutation (Anrede)\n\nLiebe/r … ,  (Liebe Petra, / Lieber Jan,)\n\n## 3. Introduction (Einleitung)\n\nvielen Dank für deinen Brief. Ich habe mich sehr gefreut, weil ich schon lange nichts von dir gehört habe.\n\n## 4. Four building blocks\n\nOne sentence or two per Leitpunkt, built from the Bausteine (next lessons).\n\n## 5. Ending (Schluss)\n\nSo, das war's für heute. Ich hoffe, dass es dir gut geht. Es wäre schön, wenn wir uns bald einmal wiedersehen könnten. Schreib mir bitte bald zurück!\n\n## 6. Closing (Gruß)\n\nViele Grüße\ndein Arnob",
+      "examples": [
+        {
+          "learning": "vielen Dank für deinen Brief.",
+          "known": "Introduction (Einleitung)"
+        },
+        {
+          "learning": "Ich habe mich sehr gefreut, weil ich schon lange nichts von dir gehört habe.",
+          "known": "Introduction (Einleitung)"
+        },
+        {
+          "learning": "So, das war's für heute.",
+          "known": "Ending (Schluss)"
+        },
+        {
+          "learning": "Ich hoffe, dass es dir gut geht.",
+          "known": "Ending (Schluss)"
+        },
+        {
+          "learning": "Es wäre schön, wenn wir uns bald einmal wiedersehen könnten.",
+          "known": "Ending (Schluss)"
+        },
+        {
+          "learning": "Schreib mir bitte bald zurück!",
+          "known": "Ending (Schluss)"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u55-l02-letter-frame-ex02",
+      "type": "choice",
+      "passage": "vielen Dank für deinen Brief.",
+      "prompt": "Wohin gehört dieser Satz im Brief?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Schluss (before the closing)"
+        },
+        {
+          "id": "b",
+          "text": "Einleitung (after the salutation)"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Einleitung: vielen Dank für deinen Brief. Ich habe mich sehr gefreut, weil ich schon lange nichts von dir gehört habe.\n\nSchluss: So, das war's für heute. Ich hoffe, dass es dir gut geht. Es wäre schön, wenn wir uns bald einmal wiedersehen könnten. Schreib mir bitte bald zurück!"
+    },
+    {
+      "id": "tb1-u55-l02-letter-frame-ex03",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/w-geruest-0.mp3"
+      },
+      "tiles": [
+        "einmal",
+        "vielen",
+        "Brief",
+        "deinen",
+        "für",
+        "wenn",
+        "dass",
+        "Dank"
+      ],
+      "answers": [
+        "vielen Dank für deinen Brief."
+      ]
+    },
+    {
+      "id": "tb1-u55-l02-letter-frame-ex04",
+      "type": "choice",
+      "passage": "Ich habe mich sehr gefreut, weil ich schon lange nichts von dir gehört habe.",
+      "prompt": "Wohin gehört dieser Satz im Brief?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Einleitung (after the salutation)"
+        },
+        {
+          "id": "b",
+          "text": "Schluss (before the closing)"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Einleitung: vielen Dank für deinen Brief. Ich habe mich sehr gefreut, weil ich schon lange nichts von dir gehört habe.\n\nSchluss: So, das war's für heute. Ich hoffe, dass es dir gut geht. Es wäre schön, wenn wir uns bald einmal wiedersehen könnten. Schreib mir bitte bald zurück!"
+    },
+    {
+      "id": "tb1-u55-l02-letter-frame-ex05",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/w-geruest-1.mp3"
+      },
+      "tiles": [
+        "ich",
+        "Ich",
+        "gefreut",
+        "lange",
+        "nichts",
+        "sehr",
+        "schon",
+        "dir",
+        "Schreib",
+        "mich",
+        "gehört",
+        "habe",
+        "wäre",
+        "weil",
+        "bitte",
+        "habe",
+        "von"
+      ],
+      "answers": [
+        "Ich habe mich sehr gefreut, weil ich schon lange nichts von dir gehört habe."
+      ]
+    },
+    {
+      "id": "tb1-u55-l02-letter-frame-ex06",
+      "type": "choice",
+      "passage": "So, das war's für heute.",
+      "prompt": "Wohin gehört dieser Satz im Brief?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Einleitung (after the salutation)"
+        },
+        {
+          "id": "b",
+          "text": "Schluss (before the closing)"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Einleitung: vielen Dank für deinen Brief. Ich habe mich sehr gefreut, weil ich schon lange nichts von dir gehört habe.\n\nSchluss: So, das war's für heute. Ich hoffe, dass es dir gut geht. Es wäre schön, wenn wir uns bald einmal wiedersehen könnten. Schreib mir bitte bald zurück!"
+    },
+    {
+      "id": "tb1-u55-l02-letter-frame-ex07",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/w-geruest-2.mp3"
+      },
+      "tiles": [
+        "vielen",
+        "So",
+        "war's",
+        "für",
+        "gut",
+        "heute",
+        "das",
+        "dir"
+      ],
+      "answers": [
+        "So, das war's für heute."
+      ]
+    },
+    {
+      "id": "tb1-u55-l02-letter-frame-ex08",
+      "type": "choice",
+      "passage": "Ich hoffe, dass es dir gut geht.",
+      "prompt": "Wohin gehört dieser Satz im Brief?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Einleitung (after the salutation)"
+        },
+        {
+          "id": "b",
+          "text": "Schluss (before the closing)"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Einleitung: vielen Dank für deinen Brief. Ich habe mich sehr gefreut, weil ich schon lange nichts von dir gehört habe.\n\nSchluss: So, das war's für heute. Ich hoffe, dass es dir gut geht. Es wäre schön, wenn wir uns bald einmal wiedersehen könnten. Schreib mir bitte bald zurück!"
+    },
+    {
+      "id": "tb1-u55-l02-letter-frame-ex09",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/w-geruest-3.mp3"
+      },
+      "tiles": [
+        "gut",
+        "dir",
+        "heute",
+        "Ich",
+        "geht",
+        "habe",
+        "hoffe",
+        "es",
+        "deinen",
+        "dass"
+      ],
+      "answers": [
+        "Ich hoffe, dass es dir gut geht."
+      ]
+    },
+    {
+      "id": "tb1-u55-l02-letter-frame-ex10",
+      "type": "choice",
+      "passage": "Es wäre schön, wenn wir uns bald einmal wiedersehen könnten.",
+      "prompt": "Wohin gehört dieser Satz im Brief?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Einleitung (after the salutation)"
+        },
+        {
+          "id": "b",
+          "text": "Schluss (before the closing)"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Einleitung: vielen Dank für deinen Brief. Ich habe mich sehr gefreut, weil ich schon lange nichts von dir gehört habe.\n\nSchluss: So, das war's für heute. Ich hoffe, dass es dir gut geht. Es wäre schön, wenn wir uns bald einmal wiedersehen könnten. Schreib mir bitte bald zurück!"
+    },
+    {
+      "id": "tb1-u55-l02-letter-frame-ex11",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/w-geruest-4.mp3"
+      },
+      "tiles": [
+        "wäre",
+        "schön",
+        "bald",
+        "uns",
+        "mir",
+        "einmal",
+        "wiedersehen",
+        "könnten",
+        "wenn",
+        "gut",
+        "Es",
+        "Dank",
+        "wir"
+      ],
+      "answers": [
+        "Es wäre schön, wenn wir uns bald einmal wiedersehen könnten."
+      ]
+    },
+    {
+      "id": "tb1-u55-l02-letter-frame-ex12",
+      "type": "choice",
+      "passage": "Schreib mir bitte bald zurück!",
+      "prompt": "Wohin gehört dieser Satz im Brief?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Einleitung (after the salutation)"
+        },
+        {
+          "id": "b",
+          "text": "Schluss (before the closing)"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Einleitung: vielen Dank für deinen Brief. Ich habe mich sehr gefreut, weil ich schon lange nichts von dir gehört habe.\n\nSchluss: So, das war's für heute. Ich hoffe, dass es dir gut geht. Es wäre schön, wenn wir uns bald einmal wiedersehen könnten. Schreib mir bitte bald zurück!"
+    },
+    {
+      "id": "tb1-u55-l02-letter-frame-ex13",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/w-geruest-5.mp3"
+      },
+      "tiles": [
+        "bald",
+        "zurück",
+        "bitte",
+        "nichts",
+        "uns",
+        "mir",
+        "Schreib",
+        "gefreut"
+      ],
+      "answers": [
+        "Schreib mir bitte bald zurück!"
+      ]
+    },
+    {
+      "id": "tb1-u55-l02-letter-frame-ex14",
+      "type": "choice",
+      "prompt": "Which closing does the frame use for a letter to a friend?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Viele Grüße"
+        },
+        {
+          "id": "b",
+          "text": "Liebe Petra"
+        },
+        {
+          "id": "c",
+          "text": "Sehr geehrte Damen und Herren"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "The frame ends with:\nViele Grüße\ndein Arnob"
+    }
+  ]
+}

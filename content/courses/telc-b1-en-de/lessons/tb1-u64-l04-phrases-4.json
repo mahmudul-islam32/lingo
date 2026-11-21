@@ -1,0 +1,404 @@
+{
+  "id": "tb1-u64-l04-phrases-4",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u64",
+  "title": "Useful phrases (Redemittel) 4: Zu-/Absagen, Sprechen: Planen (Teil 3), Sprechen: Bild beschreiben, Nachfragen & Zeit gewinnen",
+  "exercises": [
+    {
+      "id": "tb1-u64-l04-phrases-4-ex01",
+      "type": "explain",
+      "title": "Redemittel: Zu-/Absagen",
+      "body": "- **Ich komme sehr gern.**: I'd love to come.\n- **Leider muss ich absagen, weil …**: Unfortunately I have to decline because … *(Grammar: nebensatz)*\n- **Schade, dass es nicht klappt. Vielleicht ein andermal?**: A pity it doesn't work. Maybe another time?\n\n*Tipp:* Absage immer mit Grund.",
+      "examples": [
+        {
+          "learning": "Ich komme sehr gern.",
+          "known": "I'd love to come."
+        },
+        {
+          "learning": "Leider muss ich absagen, weil …",
+          "known": "Unfortunately I have to decline because …"
+        },
+        {
+          "learning": "Schade, dass es nicht klappt. Vielleicht ein andermal?",
+          "known": "A pity it doesn't work. Maybe another time?"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u64-l04-phrases-4-ex02",
+      "type": "explain",
+      "title": "Redemittel: Sprechen: Planen (Teil 3)",
+      "body": "- **Sollen wir zuerst über … sprechen?**: Shall we first talk about …?\n- **Ich kümmere mich um … . Kümmerst du dich um …?**: I'll handle … . Will you handle …?\n- **Dann machen wir es so: …**: Then let's do it like this: …\n- **Sind wir uns einig?**: Are we agreed?\n\n*Tipp:* Immer mit einem Ergebnis enden.",
+      "examples": [
+        {
+          "learning": "Sollen wir zuerst über … sprechen?",
+          "known": "Shall we first talk about …?"
+        },
+        {
+          "learning": "Ich kümmere mich um … . Kümmerst du dich um …?",
+          "known": "I'll handle … . Will you handle …?"
+        },
+        {
+          "learning": "Dann machen wir es so: …",
+          "known": "Then let's do it like this: …"
+        },
+        {
+          "learning": "Sind wir uns einig?",
+          "known": "Are we agreed?"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u64-l04-phrases-4-ex03",
+      "type": "explain",
+      "title": "Redemittel: Sprechen: Bild beschreiben",
+      "body": "- **Auf dem Bild sieht man …**: In the picture you can see …\n- **Im Vordergrund / Hintergrund ist …**: In the foreground / background there is …\n- **Ich vermute, dass …**: I assume that … *(Grammar: nebensatz)*\n- **Die Person sieht … aus.**: The person looks …\n\n*Tipp:* Beschreiben + vermuten.",
+      "examples": [
+        {
+          "learning": "Auf dem Bild sieht man …",
+          "known": "In the picture you can see …"
+        },
+        {
+          "learning": "Im Vordergrund / Hintergrund ist …",
+          "known": "In the foreground / background there is …"
+        },
+        {
+          "learning": "Ich vermute, dass …",
+          "known": "I assume that …"
+        },
+        {
+          "learning": "Die Person sieht … aus.",
+          "known": "The person looks …"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u64-l04-phrases-4-ex04",
+      "type": "explain",
+      "title": "Redemittel: Nachfragen & Zeit gewinnen",
+      "body": "- **Wie bitte? Können Sie das wiederholen?**: Pardon? Could you repeat that?\n- **Was meinst du damit genau?**: What exactly do you mean?\n- **Das ist eine gute Frage. Also …**: That's a good question. Well …\n- **Moment, lass mich kurz überlegen.**: One moment, let me think.\n\n*Tipp:* Rettet dich im Gespräch.",
+      "examples": [
+        {
+          "learning": "Wie bitte? Können Sie das wiederholen?",
+          "known": "Pardon? Could you repeat that?"
+        },
+        {
+          "learning": "Was meinst du damit genau?",
+          "known": "What exactly do you mean?"
+        },
+        {
+          "learning": "Das ist eine gute Frage. Also …",
+          "known": "That's a good question. Well …"
+        },
+        {
+          "learning": "Moment, lass mich kurz überlegen.",
+          "known": "One moment, let me think."
+        }
+      ]
+    },
+    {
+      "id": "tb1-u64-l04-phrases-4-ex05",
+      "type": "choice",
+      "title": "Zu-/Absagen",
+      "prompt": "Welcher Satz passt zur Funktion „Zu-/Absagen“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Das ist eine gute Frage. Also …"
+        },
+        {
+          "id": "b",
+          "text": "Sind wir uns einig?"
+        },
+        {
+          "id": "c",
+          "text": "Ich komme sehr gern."
+        },
+        {
+          "id": "d",
+          "text": "Ich wäre Ihnen dankbar, wenn …"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Phrases for **Zu-/Absagen**:\n\n- Ich komme sehr gern. (I'd love to come.)\n- Leider muss ich absagen, weil … (Unfortunately I have to decline because …)\n- Schade, dass es nicht klappt. Vielleicht ein andermal? (A pity it doesn't work. Maybe another time?)"
+    },
+    {
+      "id": "tb1-u64-l04-phrases-4-ex06",
+      "type": "choice",
+      "prompt": "Which phrase means: “I'd love to come.”?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Das hat sowohl Vorteile als auch Nachteile."
+        },
+        {
+          "id": "b",
+          "text": "Ich komme sehr gern."
+        },
+        {
+          "id": "c",
+          "text": "Ich erwarte, dass Sie … ."
+        },
+        {
+          "id": "d",
+          "text": "Wäre es möglich, … zu …?"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Ich komme sehr gern.**: I'd love to come. (Zu-/Absagen)"
+    },
+    {
+      "id": "tb1-u64-l04-phrases-4-ex07",
+      "type": "choice",
+      "prompt": "Which phrase means: “Unfortunately I have to decline because …”?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Das hat sowohl Vorteile als auch Nachteile."
+        },
+        {
+          "id": "b",
+          "text": "Leider muss ich absagen, weil …"
+        },
+        {
+          "id": "c",
+          "text": "Ich hätte eine Frage: …"
+        },
+        {
+          "id": "d",
+          "text": "Was meinst du damit genau?"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Leider muss ich absagen, weil …**: Unfortunately I have to decline because … (Zu-/Absagen)"
+    },
+    {
+      "id": "tb1-u64-l04-phrases-4-ex08",
+      "type": "choice",
+      "title": "Sprechen: Planen (Teil 3)",
+      "prompt": "Welcher Satz passt zur Funktion „Sprechen: Planen (Teil 3)“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ich habe mich sehr über deine Nachricht gefreut."
+        },
+        {
+          "id": "b",
+          "text": "Zum Beispiel …"
+        },
+        {
+          "id": "c",
+          "text": "Ich bin der Meinung, dass …"
+        },
+        {
+          "id": "d",
+          "text": "Ich kümmere mich um … . Kümmerst du dich um …?"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Phrases for **Sprechen: Planen (Teil 3)**:\n\n- Sollen wir zuerst über … sprechen? (Shall we first talk about …?)\n- Ich kümmere mich um … . Kümmerst du dich um …? (I'll handle … . Will you handle …?)\n- Dann machen wir es so: … (Then let's do it like this: …)\n- Sind wir uns einig? (Are we agreed?)"
+    },
+    {
+      "id": "tb1-u64-l04-phrases-4-ex09",
+      "type": "choice",
+      "prompt": "Which phrase means: “Shall we first talk about …?”?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ich würde mich freuen, bald von Ihnen zu hören."
+        },
+        {
+          "id": "b",
+          "text": "Vielen Dank für deine/Ihre E-Mail."
+        },
+        {
+          "id": "c",
+          "text": "Sollen wir zuerst über … sprechen?"
+        },
+        {
+          "id": "d",
+          "text": "Ich finde / glaube, dass …"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**Sollen wir zuerst über … sprechen?**: Shall we first talk about …? (Sprechen: Planen (Teil 3))"
+    },
+    {
+      "id": "tb1-u64-l04-phrases-4-ex10",
+      "type": "choice",
+      "prompt": "Which phrase means: “I'll handle … . Will you handle …?”?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Aus diesem Grund …"
+        },
+        {
+          "id": "b",
+          "text": "Ich kümmere mich um … . Kümmerst du dich um …?"
+        },
+        {
+          "id": "c",
+          "text": "Es kommt (ganz) darauf an."
+        },
+        {
+          "id": "d",
+          "text": "Moment, lass mich kurz überlegen."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Ich kümmere mich um … . Kümmerst du dich um …?**: I'll handle … . Will you handle …? (Sprechen: Planen (Teil 3))"
+    },
+    {
+      "id": "tb1-u64-l04-phrases-4-ex11",
+      "type": "choice",
+      "title": "Sprechen: Bild beschreiben",
+      "prompt": "Welcher Satz passt zur Funktion „Sprechen: Bild beschreiben“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Könnten Sie mir bitte …?"
+        },
+        {
+          "id": "b",
+          "text": "Ich hätte eine Frage: …"
+        },
+        {
+          "id": "c",
+          "text": "Melde dich, wenn du Fragen hast."
+        },
+        {
+          "id": "d",
+          "text": "Ich vermute, dass …"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Phrases for **Sprechen: Bild beschreiben**:\n\n- Auf dem Bild sieht man … (In the picture you can see …)\n- Im Vordergrund / Hintergrund ist … (In the foreground / background there is …)\n- Ich vermute, dass … (I assume that …)\n- Die Person sieht … aus. (The person looks …)"
+    },
+    {
+      "id": "tb1-u64-l04-phrases-4-ex12",
+      "type": "choice",
+      "prompt": "Which phrase means: “In the picture you can see …”?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Auf dem Bild sieht man …"
+        },
+        {
+          "id": "b",
+          "text": "Leider muss ich absagen, weil …"
+        },
+        {
+          "id": "c",
+          "text": "Ich habe mich sehr über deine Nachricht gefreut."
+        },
+        {
+          "id": "d",
+          "text": "Ein gutes Beispiel dafür ist …"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Auf dem Bild sieht man …**: In the picture you can see … (Sprechen: Bild beschreiben)"
+    },
+    {
+      "id": "tb1-u64-l04-phrases-4-ex13",
+      "type": "choice",
+      "prompt": "Which phrase means: “In the foreground / background there is …”?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Wäre es möglich, … zu …?"
+        },
+        {
+          "id": "b",
+          "text": "Im Vordergrund / Hintergrund ist …"
+        },
+        {
+          "id": "c",
+          "text": "Zum Beispiel …"
+        },
+        {
+          "id": "d",
+          "text": "Melde dich, wenn du Fragen hast."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Im Vordergrund / Hintergrund ist …**: In the foreground / background there is … (Sprechen: Bild beschreiben)"
+    },
+    {
+      "id": "tb1-u64-l04-phrases-4-ex14",
+      "type": "choice",
+      "title": "Nachfragen & Zeit gewinnen",
+      "prompt": "Welcher Satz passt zur Funktion „Nachfragen & Zeit gewinnen“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Leider musste ich feststellen, dass …"
+        },
+        {
+          "id": "b",
+          "text": "Moment, lass mich kurz überlegen."
+        },
+        {
+          "id": "c",
+          "text": "Sollen wir zuerst über … sprechen?"
+        },
+        {
+          "id": "d",
+          "text": "Da bin ich anderer Meinung."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Phrases for **Nachfragen & Zeit gewinnen**:\n\n- Wie bitte? Können Sie das wiederholen? (Pardon? Could you repeat that?)\n- Was meinst du damit genau? (What exactly do you mean?)\n- Das ist eine gute Frage. Also … (That's a good question. Well …)\n- Moment, lass mich kurz überlegen. (One moment, let me think.)"
+    },
+    {
+      "id": "tb1-u64-l04-phrases-4-ex15",
+      "type": "choice",
+      "prompt": "Which phrase means: “Pardon? Could you repeat that?”?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Wie bitte? Können Sie das wiederholen?"
+        },
+        {
+          "id": "b",
+          "text": "Ich habe mich sehr über deine Nachricht gefreut."
+        },
+        {
+          "id": "c",
+          "text": "Der Grund dafür ist, dass …"
+        },
+        {
+          "id": "d",
+          "text": "Die Person sieht … aus."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Wie bitte? Können Sie das wiederholen?**: Pardon? Could you repeat that? (Nachfragen & Zeit gewinnen)"
+    },
+    {
+      "id": "tb1-u64-l04-phrases-4-ex16",
+      "type": "choice",
+      "prompt": "Which phrase means: “What exactly do you mean?”?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Sollen wir zuerst über … sprechen?"
+        },
+        {
+          "id": "b",
+          "text": "Bei uns in … ist das so: …"
+        },
+        {
+          "id": "c",
+          "text": "Zusammenfassend kann man sagen, dass …"
+        },
+        {
+          "id": "d",
+          "text": "Was meinst du damit genau?"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**Was meinst du damit genau?**: What exactly do you mean? (Nachfragen & Zeit gewinnen)"
+    }
+  ]
+}

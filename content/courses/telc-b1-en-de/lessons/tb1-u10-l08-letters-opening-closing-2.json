@@ -1,0 +1,270 @@
+{
+  "id": "tb1-u10-l08-letters-opening-closing-2",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u10",
+  "title": "Letters: Opening & Closing 2",
+  "tip": "Theme: Sätze. Brief: Einleitung & Schluss (A2)",
+  "exercises": [
+    {
+      "id": "tb1-u10-l08-letters-opening-closing-2-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "Melde dich bald wieder!",
+          "known": "Get in touch again soon!"
+        },
+        {
+          "id": "p2",
+          "learning": "Ich freue mich auf deine Antwort",
+          "known": "I look forward to your reply."
+        },
+        {
+          "id": "p3",
+          "learning": "Liebe Grüße und bis bald",
+          "known": "Best wishes and see you soon."
+        },
+        {
+          "id": "p4",
+          "learning": "Ich hoffe, wir sehen uns bald",
+          "known": "I hope we'll see each other soon."
+        },
+        {
+          "id": "p5",
+          "learning": "Grüß bitte deine Familie von mir",
+          "known": "Please give my regards to your family."
+        }
+      ]
+    },
+    {
+      "id": "tb1-u10-l08-letters-opening-closing-2-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means „Get in touch again soon!“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Melde dich bald wieder!"
+        },
+        {
+          "id": "b",
+          "text": "Ich hoffe, wir sehen uns bald."
+        },
+        {
+          "id": "c",
+          "text": "Ich schreibe dir, um dir etwas mitzuteilen."
+        },
+        {
+          "id": "d",
+          "text": "Liebe Grüße und bis bald."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Melde dich bald wieder!** = Get in touch again soon!\n\n*Example:* Melde dich bald wieder!\nGet in touch again soon!"
+    },
+    {
+      "id": "tb1-u10-l08-letters-opening-closing-2-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means „I look forward to your reply.“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Liebe Grüße und bis bald."
+        },
+        {
+          "id": "b",
+          "text": "Ich schreibe dir, um dir etwas mitzuteilen."
+        },
+        {
+          "id": "c",
+          "text": "Ich freue mich auf deine Antwort."
+        },
+        {
+          "id": "d",
+          "text": "Entschuldige, dass ich erst jetzt antworte."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**Ich freue mich auf deine Antwort.** = I look forward to your reply.\n\n*Example:* Ich freue mich auf deine Antwort.\nI look forward to your reply."
+    },
+    {
+      "id": "tb1-u10-l08-letters-opening-closing-2-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Get in touch again soon!",
+      "tiles": [
+        "Melde",
+        "bald",
+        "bitte",
+        "deine",
+        "dich",
+        "erst",
+        "wieder"
+      ],
+      "answers": [
+        "Melde dich bald wieder!"
+      ],
+      "explanation": "**Melde dich bald wieder!** = Get in touch again soon!"
+    },
+    {
+      "id": "tb1-u10-l08-letters-opening-closing-2-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means „Best wishes and see you soon.“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Grüß bitte deine Familie von mir."
+        },
+        {
+          "id": "b",
+          "text": "Vielen Dank für deinen netten Brief."
+        },
+        {
+          "id": "c",
+          "text": "Ich hoffe, wir sehen uns bald."
+        },
+        {
+          "id": "d",
+          "text": "Liebe Grüße und bis bald."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**Liebe Grüße und bis bald.** = Best wishes and see you soon.\n\n*Example:* Liebe Grüße und bis bald.\nBest wishes and see you soon."
+    },
+    {
+      "id": "tb1-u10-l08-letters-opening-closing-2-ex06",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u10-l08-letters-opening-closing-2-2.mp3"
+      },
+      "tiles": [
+        "mich",
+        "wir",
+        "Ich",
+        "geht",
+        "deine",
+        "wieder",
+        "Antwort",
+        "freue",
+        "auf"
+      ],
+      "answers": [
+        "Ich freue mich auf deine Antwort."
+      ],
+      "explanation": "Ich freue mich auf deine Antwort.\n*I look forward to your reply.*\n\n**Ich freue mich auf deine Antwort.** = I look forward to your reply."
+    },
+    {
+      "id": "tb1-u10-l08-letters-opening-closing-2-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means „I hope we'll see each other soon.“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Wie geht es dir? Mir geht es gut."
+        },
+        {
+          "id": "b",
+          "text": "Ich freue mich auf deine Antwort."
+        },
+        {
+          "id": "c",
+          "text": "Melde dich bald wieder!"
+        },
+        {
+          "id": "d",
+          "text": "Ich hoffe, wir sehen uns bald."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**Ich hoffe, wir sehen uns bald.** = I hope we'll see each other soon.\n\n*Example:* Ich hoffe, wir sehen uns bald.\nI hope we'll see each other soon."
+    },
+    {
+      "id": "tb1-u10-l08-letters-opening-closing-2-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Liebe Grüße und bis bald.",
+      "tiles": [
+        "touch",
+        "soon",
+        "see",
+        "wishes",
+        "family",
+        "I'm",
+        "and",
+        "Best",
+        "you"
+      ],
+      "answers": [
+        "Best wishes and see you soon."
+      ],
+      "explanation": "**Liebe Grüße und bis bald.** = Best wishes and see you soon."
+    },
+    {
+      "id": "tb1-u10-l08-letters-opening-closing-2-ex09",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means „Please give my regards to your family.“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Grüß bitte deine Familie von mir."
+        },
+        {
+          "id": "b",
+          "text": "Melde dich bald wieder!"
+        },
+        {
+          "id": "c",
+          "text": "Ich hoffe, wir sehen uns bald."
+        },
+        {
+          "id": "d",
+          "text": "Ich habe mich sehr über deine Nachricht gefreut."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Grüß bitte deine Familie von mir.** = Please give my regards to your family.\n\n*Example:* Grüß bitte deine Familie von mir.\nPlease give my regards to your family."
+    },
+    {
+      "id": "tb1-u10-l08-letters-opening-closing-2-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I hope we'll see each other soon.",
+      "tiles": [
+        "sehen",
+        "bis",
+        "Vielen",
+        "Ich",
+        "bald",
+        "dir",
+        "uns",
+        "wir",
+        "hoffe"
+      ],
+      "answers": [
+        "Ich hoffe, wir sehen uns bald."
+      ],
+      "explanation": "**Ich hoffe, wir sehen uns bald.** = I hope we'll see each other soon."
+    },
+    {
+      "id": "tb1-u10-l08-letters-opening-closing-2-ex11",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u10-l08-letters-opening-closing-2-5.mp3"
+      },
+      "tiles": [
+        "hoffe",
+        "deine",
+        "mir",
+        "Familie",
+        "Grüße",
+        "bitte",
+        "Grüß",
+        "von",
+        "bald"
+      ],
+      "answers": [
+        "Grüß bitte deine Familie von mir."
+      ],
+      "explanation": "Grüß bitte deine Familie von mir.\n*Please give my regards to your family.*\n\n**Grüß bitte deine Familie von mir.** = Please give my regards to your family."
+    }
+  ]
+}

@@ -1,0 +1,276 @@
+{
+  "id": "tb1-u02-l11-family-people-2",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u02",
+  "title": "Family & People 2",
+  "tip": "Theme: Familie & Menschen (A1)",
+  "exercises": [
+    {
+      "id": "tb1-u02-l11-family-people-2-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "die Mutter",
+          "known": "mother"
+        },
+        {
+          "id": "p2",
+          "learning": "die Eltern",
+          "known": "parents"
+        },
+        {
+          "id": "p3",
+          "learning": "der Sohn",
+          "known": "son"
+        },
+        {
+          "id": "p4",
+          "learning": "die Tochter",
+          "known": "daughter"
+        },
+        {
+          "id": "p5",
+          "learning": "der Bruder",
+          "known": "brother"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u02-l11-family-people-2-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „mother“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Eltern (Pl.)"
+        },
+        {
+          "id": "b",
+          "text": "das Kind, die Kinder"
+        },
+        {
+          "id": "c",
+          "text": "der Freund, die Freunde"
+        },
+        {
+          "id": "d",
+          "text": "die Mutter, die Mütter"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**die Mutter** = mother\n*Plural: die Mütter*\n\n*Example:* Meine Mutter ruft mich jeden Sonntag an.\nMy mother calls me every Sunday."
+    },
+    {
+      "id": "tb1-u02-l11-family-people-2-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „parents“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Eltern (Pl.)"
+        },
+        {
+          "id": "b",
+          "text": "der Bruder, die Brüder"
+        },
+        {
+          "id": "c",
+          "text": "die Freundin, die Freundinnen"
+        },
+        {
+          "id": "d",
+          "text": "das Baby, die Babys"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**die Eltern (Pl.)** = parents\n\n*Example:* Toms Eltern wohnen auf dem Land.\nTom's parents live in the countryside."
+    },
+    {
+      "id": "tb1-u02-l11-family-people-2-ex04",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u02-l11-family-people-2-1.mp3"
+      },
+      "tiles": [
+        "Baby",
+        "an",
+        "Sonntag",
+        "Meine",
+        "mich",
+        "bringt",
+        "ruft",
+        "jeden",
+        "Mutter",
+        "Kinder"
+      ],
+      "answers": [
+        "Meine Mutter ruft mich jeden Sonntag an."
+      ],
+      "explanation": "Meine Mutter ruft mich jeden Sonntag an.\n*My mother calls me every Sunday.*\n\n**die Mutter** = mother\n*Plural: die Mütter*"
+    },
+    {
+      "id": "tb1-u02-l11-family-people-2-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „son“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Mutter, die Mütter"
+        },
+        {
+          "id": "b",
+          "text": "das Mädchen, die Mädchen"
+        },
+        {
+          "id": "c",
+          "text": "die Großeltern (Pl.)"
+        },
+        {
+          "id": "d",
+          "text": "der Sohn, die Söhne"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**der Sohn** = son\n*Plural: die Söhne*\n\n*Example:* Unser Sohn geht in die dritte Klasse.\nOur son is in third grade."
+    },
+    {
+      "id": "tb1-u02-l11-family-people-2-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Toms Eltern wohnen auf dem Land.",
+      "tiles": [
+        "in",
+        "is",
+        "Tom's",
+        "the",
+        "parents",
+        "countryside",
+        "bus",
+        "live",
+        "grandparents"
+      ],
+      "answers": [
+        "Tom's parents live in the countryside."
+      ],
+      "explanation": "**die Eltern (Pl.)** = parents"
+    },
+    {
+      "id": "tb1-u02-l11-family-people-2-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „daughter“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Mutter, die Mütter"
+        },
+        {
+          "id": "b",
+          "text": "die Schwester, die Schwestern"
+        },
+        {
+          "id": "c",
+          "text": "die Tochter, die Töchter"
+        },
+        {
+          "id": "d",
+          "text": "der Mann, die Männer"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**die Tochter** = daughter\n*Plural: die Töchter*\n\n*Example:* Die Tochter meiner Nachbarin studiert Medizin.\nMy neighbour's daughter is studying medicine."
+    },
+    {
+      "id": "tb1-u02-l11-family-people-2-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Our son is in third grade.",
+      "tiles": [
+        "dritte",
+        "Unser",
+        "Großeltern",
+        "in",
+        "mir",
+        "Klasse",
+        "geht",
+        "sind",
+        "die",
+        "Sohn"
+      ],
+      "answers": [
+        "Unser Sohn geht in die dritte Klasse."
+      ],
+      "explanation": "**der Sohn** = son\n*Plural: die Söhne*"
+    },
+    {
+      "id": "tb1-u02-l11-family-people-2-ex09",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „brother“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "der Bruder, die Brüder"
+        },
+        {
+          "id": "b",
+          "text": "der Sohn, die Söhne"
+        },
+        {
+          "id": "c",
+          "text": "der Vater, die Väter"
+        },
+        {
+          "id": "d",
+          "text": "die Mutter, die Mütter"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**der Bruder** = brother\n*Plural: die Brüder*\n\n*Example:* Mein Bruder hilft mir beim Umzug.\nMy brother is helping me with the move."
+    },
+    {
+      "id": "tb1-u02-l11-family-people-2-ex10",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u02-l11-family-people-2-4.mp3"
+      },
+      "tiles": [
+        "meiner",
+        "Die",
+        "Meine",
+        "Tochter",
+        "Nachbarin",
+        "Medizin",
+        "studiert",
+        "mit",
+        "gestern"
+      ],
+      "answers": [
+        "Die Tochter meiner Nachbarin studiert Medizin."
+      ],
+      "explanation": "Die Tochter meiner Nachbarin studiert Medizin.\n*My neighbour's daughter is studying medicine.*\n\n**die Tochter** = daughter\n*Plural: die Töchter*"
+    },
+    {
+      "id": "tb1-u02-l11-family-people-2-ex11",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Mein Bruder hilft mir beim Umzug.",
+      "tiles": [
+        "the",
+        "play",
+        "hair",
+        "helping",
+        "My",
+        "is",
+        "with",
+        "me",
+        "move",
+        "grade",
+        "brother"
+      ],
+      "answers": [
+        "My brother is helping me with the move."
+      ],
+      "explanation": "**der Bruder** = brother\n*Plural: die Brüder*"
+    }
+  ]
+}

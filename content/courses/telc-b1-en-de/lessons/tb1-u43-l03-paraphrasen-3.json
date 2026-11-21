@@ -1,0 +1,275 @@
+{
+  "id": "tb1-u43-l03-paraphrasen-3",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u43",
+  "title": "Paraphrases 3",
+  "tip": "Text and task use different words for the same thing.",
+  "exercises": [
+    {
+      "id": "tb1-u43-l03-paraphrasen-3-ex01",
+      "type": "explain",
+      "title": "Paraphrases 3: the text says it differently",
+      "body": "*Die Aufgabe sagt es anders als der Text.* In the reading tasks the answer rarely repeats the words of the text. Learn these pairs: left the word in the text, right how the task says it.\n\n- **der Termin** → die Verabredung, wann man kommt\n- **umziehen** → die Wohnung wechseln\n- **sich beschweren** → sagen, dass man unzufrieden ist\n- **empfehlen** → raten, vorschlagen\n- **teilnehmen** → mitmachen, dabei sein\n- **die Gebühr** → das Geld, das man zahlen muss\n- **gebraucht** → nicht neu, schon benutzt\n- **die Auswahl** → viele verschiedene Dinge\n- **Bescheid geben** → informieren, melden\n- **erlauben** → möglich machen, dürfen"
+    },
+    {
+      "id": "tb1-u43-l03-paraphrasen-3-ex02",
+      "type": "choice",
+      "title": "Paraphrasen-Drill",
+      "prompt": "Im Text steht „der Termin“. Wie sagt es die Aufgabe mit einfachen Worten?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Wohnung wechseln"
+        },
+        {
+          "id": "b",
+          "text": "sagen, dass man unzufrieden ist"
+        },
+        {
+          "id": "c",
+          "text": "informieren, melden"
+        },
+        {
+          "id": "d",
+          "text": "die Verabredung, wann man kommt"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Im Text: **der Termin** = in der Aufgabe: **die Verabredung, wann man kommt**"
+    },
+    {
+      "id": "tb1-u43-l03-paraphrasen-3-ex03",
+      "type": "choice",
+      "title": "Paraphrasen-Drill",
+      "prompt": "In der Aufgabe steht „die Wohnung wechseln“. Welches Wort steht im Text?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Gebühr"
+        },
+        {
+          "id": "b",
+          "text": "empfehlen"
+        },
+        {
+          "id": "c",
+          "text": "umziehen"
+        },
+        {
+          "id": "d",
+          "text": "der Termin"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Im Text: **umziehen** = in der Aufgabe: **die Wohnung wechseln**"
+    },
+    {
+      "id": "tb1-u43-l03-paraphrasen-3-ex04",
+      "type": "choice",
+      "title": "Paraphrasen-Drill",
+      "prompt": "Im Text steht „sich beschweren“. Wie sagt es die Aufgabe mit einfachen Worten?",
+      "options": [
+        {
+          "id": "a",
+          "text": "viele verschiedene Dinge"
+        },
+        {
+          "id": "b",
+          "text": "sagen, dass man unzufrieden ist"
+        },
+        {
+          "id": "c",
+          "text": "informieren, melden"
+        },
+        {
+          "id": "d",
+          "text": "mitmachen, dabei sein"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Im Text: **sich beschweren** = in der Aufgabe: **sagen, dass man unzufrieden ist**"
+    },
+    {
+      "id": "tb1-u43-l03-paraphrasen-3-ex05",
+      "type": "choice",
+      "title": "Paraphrasen-Drill",
+      "prompt": "In der Aufgabe steht „raten, vorschlagen“. Welches Wort steht im Text?",
+      "options": [
+        {
+          "id": "a",
+          "text": "empfehlen"
+        },
+        {
+          "id": "b",
+          "text": "sich beschweren"
+        },
+        {
+          "id": "c",
+          "text": "die Gebühr"
+        },
+        {
+          "id": "d",
+          "text": "gebraucht"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Im Text: **empfehlen** = in der Aufgabe: **raten, vorschlagen**"
+    },
+    {
+      "id": "tb1-u43-l03-paraphrasen-3-ex06",
+      "type": "choice",
+      "title": "Paraphrasen-Drill",
+      "prompt": "Im Text steht „teilnehmen“. Wie sagt es die Aufgabe mit einfachen Worten?",
+      "options": [
+        {
+          "id": "a",
+          "text": "raten, vorschlagen"
+        },
+        {
+          "id": "b",
+          "text": "viele verschiedene Dinge"
+        },
+        {
+          "id": "c",
+          "text": "die Verabredung, wann man kommt"
+        },
+        {
+          "id": "d",
+          "text": "mitmachen, dabei sein"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Im Text: **teilnehmen** = in der Aufgabe: **mitmachen, dabei sein**"
+    },
+    {
+      "id": "tb1-u43-l03-paraphrasen-3-ex07",
+      "type": "choice",
+      "title": "Paraphrasen-Drill",
+      "prompt": "In der Aufgabe steht „das Geld, das man zahlen muss“. Welches Wort steht im Text?",
+      "options": [
+        {
+          "id": "a",
+          "text": "empfehlen"
+        },
+        {
+          "id": "b",
+          "text": "umziehen"
+        },
+        {
+          "id": "c",
+          "text": "die Gebühr"
+        },
+        {
+          "id": "d",
+          "text": "die Auswahl"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Im Text: **die Gebühr** = in der Aufgabe: **das Geld, das man zahlen muss**"
+    },
+    {
+      "id": "tb1-u43-l03-paraphrasen-3-ex08",
+      "type": "choice",
+      "title": "Paraphrasen-Drill",
+      "prompt": "Im Text steht „gebraucht“. Wie sagt es die Aufgabe mit einfachen Worten?",
+      "options": [
+        {
+          "id": "a",
+          "text": "sagen, dass man unzufrieden ist"
+        },
+        {
+          "id": "b",
+          "text": "nicht neu, schon benutzt"
+        },
+        {
+          "id": "c",
+          "text": "viele verschiedene Dinge"
+        },
+        {
+          "id": "d",
+          "text": "das Geld, das man zahlen muss"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Im Text: **gebraucht** = in der Aufgabe: **nicht neu, schon benutzt**"
+    },
+    {
+      "id": "tb1-u43-l03-paraphrasen-3-ex09",
+      "type": "choice",
+      "title": "Paraphrasen-Drill",
+      "prompt": "In der Aufgabe steht „viele verschiedene Dinge“. Welches Wort steht im Text?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Auswahl"
+        },
+        {
+          "id": "b",
+          "text": "die Gebühr"
+        },
+        {
+          "id": "c",
+          "text": "umziehen"
+        },
+        {
+          "id": "d",
+          "text": "erlauben"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Im Text: **die Auswahl** = in der Aufgabe: **viele verschiedene Dinge**"
+    },
+    {
+      "id": "tb1-u43-l03-paraphrasen-3-ex10",
+      "type": "choice",
+      "title": "Paraphrasen-Drill",
+      "prompt": "Im Text steht „Bescheid geben“. Wie sagt es die Aufgabe mit einfachen Worten?",
+      "options": [
+        {
+          "id": "a",
+          "text": "das Geld, das man zahlen muss"
+        },
+        {
+          "id": "b",
+          "text": "möglich machen, dürfen"
+        },
+        {
+          "id": "c",
+          "text": "mitmachen, dabei sein"
+        },
+        {
+          "id": "d",
+          "text": "informieren, melden"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Im Text: **Bescheid geben** = in der Aufgabe: **informieren, melden**"
+    },
+    {
+      "id": "tb1-u43-l03-paraphrasen-3-ex11",
+      "type": "choice",
+      "title": "Paraphrasen-Drill",
+      "prompt": "In der Aufgabe steht „möglich machen, dürfen“. Welches Wort steht im Text?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Auswahl"
+        },
+        {
+          "id": "b",
+          "text": "Bescheid geben"
+        },
+        {
+          "id": "c",
+          "text": "erlauben"
+        },
+        {
+          "id": "d",
+          "text": "umziehen"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Im Text: **erlauben** = in der Aufgabe: **möglich machen, dürfen**"
+    }
+  ]
+}

@@ -1,0 +1,286 @@
+{
+  "id": "tb1-u24-l04-frequent-exam-verbs-i-4",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u24",
+  "title": "Frequent Exam Verbs I 4",
+  "tip": "Theme: Verben: Prüfungshäufig I (B1)",
+  "exercises": [
+    {
+      "id": "tb1-u24-l04-frequent-exam-verbs-i-4-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "entwickeln",
+          "known": "to develop"
+        },
+        {
+          "id": "p2",
+          "learning": "klären",
+          "known": "to clarify / sort out"
+        },
+        {
+          "id": "p3",
+          "learning": "anbieten",
+          "known": "to offer"
+        },
+        {
+          "id": "p4",
+          "learning": "zuschicken",
+          "known": "to send (to somebody)"
+        },
+        {
+          "id": "p5",
+          "learning": "aufräumen",
+          "known": "to tidy up"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u24-l04-frequent-exam-verbs-i-4-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which one means „to develop“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "entwickeln"
+        },
+        {
+          "id": "b",
+          "text": "anbieten (bietet an)"
+        },
+        {
+          "id": "c",
+          "text": "überprüfen"
+        },
+        {
+          "id": "d",
+          "text": "tauschen"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**entwickeln** = to develop\n\n*Example:* Die Firma entwickelt eine neue App für Kunden.\nThe company is developing a new app for customers."
+    },
+    {
+      "id": "tb1-u24-l04-frequent-exam-verbs-i-4-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which one means „to clarify / sort out“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "erzählen"
+        },
+        {
+          "id": "b",
+          "text": "übernehmen (übernimmt)"
+        },
+        {
+          "id": "c",
+          "text": "klären"
+        },
+        {
+          "id": "d",
+          "text": "zusammenfassen"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**klären** = to clarify / sort out\n\n*Example:* Das Problem mit der Rechnung habe ich am Telefon geklärt.\nI sorted out the problem with the bill on the phone."
+    },
+    {
+      "id": "tb1-u24-l04-frequent-exam-verbs-i-4-ex04",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u24-l04-frequent-exam-verbs-i-4-1.mp3"
+      },
+      "tiles": [
+        "entwickelt",
+        "Leute",
+        "eine",
+        "Die",
+        "für",
+        "neue",
+        "gestern",
+        "App",
+        "aus",
+        "Firma",
+        "Kunden"
+      ],
+      "answers": [
+        "Die Firma entwickelt eine neue App für Kunden."
+      ],
+      "explanation": "Die Firma entwickelt eine neue App für Kunden.\n*The company is developing a new app for customers.*\n\n**entwickeln** = to develop"
+    },
+    {
+      "id": "tb1-u24-l04-frequent-exam-verbs-i-4-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which one means „to offer“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "anbieten (bietet an)"
+        },
+        {
+          "id": "b",
+          "text": "versuchen"
+        },
+        {
+          "id": "c",
+          "text": "erläutern"
+        },
+        {
+          "id": "d",
+          "text": "übernehmen (übernimmt)"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**anbieten (bietet an)** = to offer\n\n*Example:* Die Gastgeberin bietet uns Kaffee und Kuchen an.\nThe hostess offers us coffee and cake."
+    },
+    {
+      "id": "tb1-u24-l04-frequent-exam-verbs-i-4-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Das Problem mit der Rechnung habe ich am Telefon geklärt.",
+      "tiles": [
+        "out",
+        "the",
+        "I",
+        "get",
+        "the",
+        "problem",
+        "with",
+        "sorted",
+        "on",
+        "his",
+        "bill",
+        "the",
+        "phone",
+        "for"
+      ],
+      "answers": [
+        "I sorted out the problem with the bill on the phone."
+      ],
+      "explanation": "**klären** = to clarify / sort out"
+    },
+    {
+      "id": "tb1-u24-l04-frequent-exam-verbs-i-4-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which one means „to send (to somebody)“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "erhalten (erhält)"
+        },
+        {
+          "id": "b",
+          "text": "zuschicken"
+        },
+        {
+          "id": "c",
+          "text": "tragen (trägt)"
+        },
+        {
+          "id": "d",
+          "text": "mitnehmen (nimmt mit)"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**zuschicken** = to send (to somebody)\n\n*Example:* Können Sie mir das Formular bitte per Post zuschicken?\nCould you please send me the form by post?"
+    },
+    {
+      "id": "tb1-u24-l04-frequent-exam-verbs-i-4-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "The hostess offers us coffee and cake.",
+      "tiles": [
+        "Die",
+        "Mai",
+        "Kuchen",
+        "uns",
+        "bietet",
+        "traurig",
+        "Gastgeberin",
+        "und",
+        "sehr",
+        "an",
+        "Kaffee"
+      ],
+      "answers": [
+        "Die Gastgeberin bietet uns Kaffee und Kuchen an."
+      ],
+      "explanation": "**anbieten (bietet an)** = to offer"
+    },
+    {
+      "id": "tb1-u24-l04-frequent-exam-verbs-i-4-ex09",
+      "type": "multiple_choice",
+      "prompt": "Which one means „to tidy up“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "ziehen"
+        },
+        {
+          "id": "b",
+          "text": "aufräumen"
+        },
+        {
+          "id": "c",
+          "text": "erläutern"
+        },
+        {
+          "id": "d",
+          "text": "erzählen"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**aufräumen** = to tidy up\n\n*Example:* Am Samstag räumen die Kinder ihr Zimmer auf.\nOn Saturday the children tidy up their room."
+    },
+    {
+      "id": "tb1-u24-l04-frequent-exam-verbs-i-4-ex10",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u24-l04-frequent-exam-verbs-i-4-4.mp3"
+      },
+      "tiles": [
+        "Post",
+        "Sie",
+        "das",
+        "Formular",
+        "Können",
+        "Die",
+        "per",
+        "mir",
+        "zuschicken",
+        "bitte",
+        "kurz",
+        "verwende"
+      ],
+      "answers": [
+        "Können Sie mir das Formular bitte per Post zuschicken?"
+      ],
+      "explanation": "Können Sie mir das Formular bitte per Post zuschicken?\n*Could you please send me the form by post?*\n\n**zuschicken** = to send (to somebody)"
+    },
+    {
+      "id": "tb1-u24-l04-frequent-exam-verbs-i-4-ex11",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Am Samstag räumen die Kinder ihr Zimmer auf.",
+      "tiles": [
+        "Saturday",
+        "children",
+        "up",
+        "call",
+        "take",
+        "tidy",
+        "On",
+        "week",
+        "the",
+        "room",
+        "their"
+      ],
+      "answers": [
+        "On Saturday the children tidy up their room."
+      ],
+      "explanation": "**aufräumen** = to tidy up"
+    }
+  ]
+}

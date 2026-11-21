@@ -1,0 +1,217 @@
+{
+  "id": "eb-u06-l02-q136-143",
+  "courseId": "einbuergerung-en-de",
+  "unitId": "eb-u06",
+  "title": "Questions 136–143 (Fragen 136–143)",
+  "tip": "After each Check you get an English explanation and a short German note (Auf Deutsch).",
+  "exercises": [
+    {
+      "id": "eb-u06-l02-q136-143-ex01",
+      "type": "choice",
+      "title": "Frage 136 · Block 6",
+      "prompt": "Sie gehen in Deutschland zum Arbeitsgericht bei …",
+      "options": [
+        {
+          "id": "a",
+          "text": "falscher Nebenkostenabrechnung"
+        },
+        {
+          "id": "b",
+          "text": "Problemen mit den Nachbarn"
+        },
+        {
+          "id": "c",
+          "text": "ungerechtfertigter Kündigung durch den Arbeitgeber"
+        },
+        {
+          "id": "d",
+          "text": "Streit über ein Testament"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**Correct answer:** ungerechtfertigter Kündigung durch den Arbeitgeber\n\nEmployment disputes → **Arbeitsgericht**, always: dismissals, unpaid wages, references, workplace conflicts with the boss.\n\nRent/service-charge disputes (A) and neighbor quarrels (B) → Amtsgericht (civil); inheritance (D) → Nachlassgericht. Match the *subject* to the *specialized court*, that's the whole block in one skill.\n\n## Auf Deutsch\n\nBei ungerechtfertigter Kündigung geht man zum Arbeitsgericht."
+    },
+    {
+      "id": "eb-u06-l02-q136-143-ex02",
+      "type": "choice",
+      "title": "Frage 137 · Block 6",
+      "prompt": "Frau Frost hat von ihrem Arbeitgeber die Kündigung erhalten und hält sie für ungerechtfertigt. Wohin kann sie gehen?",
+      "options": [
+        {
+          "id": "a",
+          "text": "zum Amtsgericht"
+        },
+        {
+          "id": "b",
+          "text": "zum Arbeitsgericht"
+        },
+        {
+          "id": "c",
+          "text": "zum Familiengericht"
+        },
+        {
+          "id": "d",
+          "text": "zum Verwaltungsgericht"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Correct answer:** zum Arbeitsgericht\n\n→Q136 as a mini-story. Note the system's employee-friendliness: in first-instance labor court you need no lawyer and pay no court fee advance, designed so a fired worker can actually afford to fight. Deadline: **3 weeks** from receiving the Kündigung (→Q138).\n\n## Auf Deutsch\n\nGegen eine ungerechte Kündigung klagt man beim Arbeitsgericht."
+    },
+    {
+      "id": "eb-u06-l02-q136-143-ex03",
+      "type": "choice",
+      "title": "Frage 138 · Block 6",
+      "prompt": "Was kann ich in Deutschland machen, wenn mir mein Arbeitgeber zu Unrecht gekündigt hat?",
+      "options": [
+        {
+          "id": "a",
+          "text": "weiterarbeiten, als wäre nichts passiert"
+        },
+        {
+          "id": "b",
+          "text": "den Arbeitgeber bei der Polizei anzeigen"
+        },
+        {
+          "id": "c",
+          "text": "Kündigungsschutzklage erheben"
+        },
+        {
+          "id": "d",
+          "text": "nichts, eine Kündigung kann man nicht angreifen"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**Correct answer:** Kündigungsschutzklage erheben\n\nFile a **Kündigungsschutzklage** (dismissal-protection suit) at the Arbeitsgericht within three weeks, miss it and the dismissal becomes valid almost automatically.\n\nB: unfair dismissal is a *civil* wrong, not a crime, the police are the wrong address (a distinction the test loves); A and D are passivity the law doesn't require. Rechtsstaat in practice: rights exist because procedures to enforce them exist.\n\n## Auf Deutsch\n\nDagegen hilft die Kündigungsschutzklage beim Arbeitsgericht (innerhalb von 3 Wochen)."
+    },
+    {
+      "id": "eb-u06-l02-q136-143-ex04",
+      "type": "choice",
+      "title": "Frage 139 · Block 6",
+      "prompt": "Wann kommt es in Deutschland zu einem Prozess vor Gericht? Wenn jemand …",
+      "options": [
+        {
+          "id": "a",
+          "text": "zu einer anderen Religion übertritt"
+        },
+        {
+          "id": "b",
+          "text": "eine Straftat begangen hat und angeklagt wird"
+        },
+        {
+          "id": "c",
+          "text": "eine andere politische Meinung als die Regierung hat"
+        },
+        {
+          "id": "d",
+          "text": "sein Auto falsch geparkt hat"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Correct answer:** eine Straftat begangen hat und angeklagt wird\n\nA criminal trial needs an alleged **Straftat** (crime) plus formal charges by the Staatsanwaltschaft.\n\nA and C are protected freedoms, punishing them is what the NS state and DDR did, and their presence here is deliberate contrast; D is only an **Ordnungswidrigkeit** (administrative offense → Bußgeld ticket, no trial). Crime vs. infraction: prison-worthy vs. parking-ticket-worthy.\n\n## Auf Deutsch\n\nZum Prozess kommt es, wenn jemand wegen einer Straftat angeklagt wird."
+    },
+    {
+      "id": "eb-u06-l02-q136-143-ex05",
+      "type": "choice",
+      "title": "Frage 140 · Block 6",
+      "prompt": "Was macht ein Schöffe/eine Schöffin in Deutschland? Er/Sie …",
+      "options": [
+        {
+          "id": "a",
+          "text": "entscheidet mit Richtern/Richterinnen zusammen über Schuld und Strafe"
+        },
+        {
+          "id": "b",
+          "text": "verteidigt den Angeklagten/die Angeklagte"
+        },
+        {
+          "id": "c",
+          "text": "vertritt die Anklage"
+        },
+        {
+          "id": "d",
+          "text": "schreibt das Protokoll der Verhandlung"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Correct answer:** entscheidet mit Richtern/Richterinnen zusammen über Schuld und Strafe\n\n**Schöffen** = lay judges: ordinary citizens who sit *on the bench* in criminal trials with equal voting weight on guilt and sentence. Democracy inside the judiciary.\n\nDefense = Rechtsanwalt (→Q141); prosecution = Staatsanwalt; protocol = court clerk. Four courtroom roles, cleanly separated, learn the cast once.\n\n## Auf Deutsch\n\nSchöffen sind ehrenamtliche Richter, sie entscheiden mit über Schuld und Strafe."
+    },
+    {
+      "id": "eb-u06-l02-q136-143-ex06",
+      "type": "choice",
+      "title": "Frage 141 · Block 6",
+      "prompt": "Wer berät in Deutschland Personen bei Rechtsfragen und vertritt sie vor Gericht?",
+      "options": [
+        {
+          "id": "a",
+          "text": "ein Rechtsanwalt/eine Rechtsanwältin"
+        },
+        {
+          "id": "b",
+          "text": "ein Richter/eine Richterin"
+        },
+        {
+          "id": "c",
+          "text": "ein Schöffe/eine Schöffin"
+        },
+        {
+          "id": "d",
+          "text": "ein Polizist/eine Polizistin"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Correct answer:** ein Rechtsanwalt/eine Rechtsanwältin\n\nThe **Rechtsanwalt** is *your* person in the system: confidential advice (Schweigepflicht) and representation.\n\nThe judge must stay neutral, advising you would disqualify them; Schöffen judge (→Q140); police investigate for the state, and (a fact worth knowing in real life) are *not* your legal advisers.\n\n## Auf Deutsch\n\nRechtsberatung und Vertretung vor Gericht: der Rechtsanwalt / die Rechtsanwältin."
+    },
+    {
+      "id": "eb-u06-l02-q136-143-ex07",
+      "type": "choice",
+      "title": "Frage 142 · Block 6",
+      "prompt": "Was ist die Arbeit eines Richters/einer Richterin in Deutschland?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Recht sprechen"
+        },
+        {
+          "id": "b",
+          "text": "Gesetze erlassen"
+        },
+        {
+          "id": "c",
+          "text": "Deutschland regieren"
+        },
+        {
+          "id": "d",
+          "text": "Straftäter verhaften"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Correct answer:** Recht sprechen\n\n**Recht sprechen**, literally \"to speak law\": decide cases by independent judgment, bound only by law (Art. 97 GG, no minister can order a verdict).\n\nMaking laws = parliament (→Q42); governing = Chanclery; arrests = police/prosecution. Gewaltenteilung, person by person.\n\n## Auf Deutsch\n\nDie Arbeit der Richter: Recht sprechen, unabhängig und nur dem Gesetz verpflichtet."
+    },
+    {
+      "id": "eb-u06-l02-q136-143-ex08",
+      "type": "choice",
+      "title": "Frage 143 · Block 6",
+      "prompt": "Ein Richter/eine Richterin gehört in Deutschland zur …",
+      "options": [
+        {
+          "id": "a",
+          "text": "Exekutive"
+        },
+        {
+          "id": "b",
+          "text": "Judikative"
+        },
+        {
+          "id": "c",
+          "text": "Legislative"
+        },
+        {
+          "id": "d",
+          "text": "Presse"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Correct answer:** Judikative\n\nJudges = **Judikative** (→Q63). The press (D) is again the deliberately-listed non-branch (→Q32), free, but not state power.\n\n## Auf Deutsch\n\nRichter gehören zur Judikative, der rechtsprechenden Gewalt."
+    }
+  ]
+}

@@ -1,0 +1,306 @@
+{
+  "id": "tb1-u30-l03-satzklammer-p2",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u30",
+  "title": "Verb Position & the Verb Bracket: Fragen & Lange Sätze",
+  "tip": "“Gestern ich habe…” is THE classic mistake. After a fronted time/place phrase the verb comes first!",
+  "exercises": [
+    {
+      "id": "tb1-u30-l03-satzklammer-p2-ex01",
+      "type": "explain",
+      "title": "Fragen: W-Frage und Ja/Nein-Frage",
+      "body": "W-question: question word in position 1, verb in 2. Yes/no question: verb in position 1.\n\n*Deutsch:* W-Frage: Fragewort auf Position 1, Verb auf 2. Ja/Nein-Frage: Verb auf Position 1.\n\n## Pattern\n\nW-Wort + **Verb** + Subjekt …? · **Verb** + Subjekt …?",
+      "examples": [
+        {
+          "learning": "Wann beginnt der Kurs?",
+          "known": "When does the course start?"
+        },
+        {
+          "learning": "Hast du schon gegessen?",
+          "known": "Have you eaten yet?"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u30-l03-satzklammer-p2-ex02",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "When does the course start?",
+      "tiles": [
+        "Wann",
+        "ins",
+        "im",
+        "der",
+        "Kurs",
+        "Wochenende",
+        "beginnt"
+      ],
+      "answers": [
+        "Wann beginnt der Kurs?"
+      ],
+      "explanation": "**Why:** Question word wann in position 1, verb in position 2.\n\n*Warum:* Fragewort wann auf Position 1, Verb auf Position 2."
+    },
+    {
+      "id": "tb1-u30-l03-satzklammer-p2-ex03",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Have you eaten yet?",
+      "tiles": [
+        "geben",
+        "habe",
+        "gegessen",
+        "rufe",
+        "du",
+        "schon",
+        "Hast"
+      ],
+      "answers": [
+        "Hast du schon gegessen?"
+      ],
+      "explanation": "**Why:** Yes/no question: verb first, participle at the end.\n\n*Warum:* Ja/Nein-Frage: Verb ganz vorne, Partizip am Ende."
+    },
+    {
+      "id": "tb1-u30-l03-satzklammer-p2-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Why did you come so late?",
+      "tiles": [
+        "bist",
+        "Warum",
+        "gekommen",
+        "jeden",
+        "spät",
+        "laden",
+        "so",
+        "Kurs",
+        "du"
+      ],
+      "answers": [
+        "Warum bist du so spät gekommen?"
+      ],
+      "explanation": "**Why:** The bracket stays in questions too: bist … gekommen.\n\n*Warum:* Die Klammer bleibt auch in der Frage: bist … gekommen."
+    },
+    {
+      "id": "tb1-u30-l03-satzklammer-p2-ex05",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Can you help me, please?",
+      "tiles": [
+        "bitte",
+        "Kannst",
+        "mir",
+        "früh",
+        "fliegen",
+        "helfen",
+        "du",
+        "ich"
+      ],
+      "answers": [
+        "Kannst du mir bitte helfen?"
+      ],
+      "explanation": "**Why:** Modal verb first, infinitive at the end.\n\n*Warum:* Modalverb vorne, Infinitiv am Ende."
+    },
+    {
+      "id": "tb1-u30-l03-satzklammer-p2-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Where do we change trains?",
+      "tiles": [
+        "steigen",
+        "um",
+        "ich",
+        "Familie",
+        "Wo",
+        "Samstag",
+        "wir"
+      ],
+      "answers": [
+        "Wo steigen wir um?"
+      ],
+      "explanation": "**Why:** Separable verb: umsteigen → steigen … um.\n\n*Warum:* Trennbares Verb: umsteigen → steigen … um."
+    },
+    {
+      "id": "tb1-u30-l03-satzklammer-p2-ex07",
+      "type": "explain",
+      "title": "Lange Sätze: alles in der Klammer",
+      "body": "No matter how many details: the conjugated verb stays in 2, the second part at the end.\n\n*Deutsch:* Egal wie viele Angaben: das konjugierte Verb bleibt auf 2, der zweite Teil am Ende.\n\n## Pattern\n\nPos. 1 + **Verb** + [Zeit · Grund · Art · Ort] + **Verbteil 2**",
+      "examples": [
+        {
+          "learning": "Ich habe letzte Woche mit meinem Vermieter über die Heizung gesprochen.",
+          "known": "Last week I spoke to my landlord about the heating."
+        },
+        {
+          "learning": "Nächstes Jahr möchte ich mit meiner Familie nach Spanien fliegen.",
+          "known": "Next year I'd like to fly to Spain with my family."
+        }
+      ]
+    },
+    {
+      "id": "tb1-u30-l03-satzklammer-p2-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Last week I spoke to my landlord about the heating.",
+      "tiles": [
+        "letzte",
+        "die",
+        "mit",
+        "meinem",
+        "Ich",
+        "habe",
+        "über",
+        "gesprochen",
+        "Woche",
+        "Vermieter",
+        "Hast",
+        "→",
+        "wegen",
+        "Heizung"
+      ],
+      "answers": [
+        "Ich habe letzte Woche mit meinem Vermieter über die Heizung gesprochen."
+      ],
+      "explanation": "**Why:** Lots of details in the middle, gesprochen stays at the end.\n\n*Warum:* Viele Angaben in der Mitte, gesprochen bleibt am Ende."
+    },
+    {
+      "id": "tb1-u30-l03-satzklammer-p2-ex09",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Next year I'd like to fly to Spain with my family.",
+      "tiles": [
+        "meiner",
+        "gesprochen",
+        "ich",
+        "nach",
+        "Spanien",
+        "habe",
+        "Jahr",
+        "mit",
+        "fliegen",
+        "möchte",
+        "einen",
+        "Familie",
+        "Nächstes"
+      ],
+      "answers": [
+        "Nächstes Jahr möchte ich mit meiner Familie nach Spanien fliegen."
+      ],
+      "explanation": "**Why:** Inversion + modal: möchte … fliegen.\n\n*Warum:* Inversion + Modalverb: möchte … fliegen."
+    },
+    {
+      "id": "tb1-u30-l03-satzklammer-p2-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "On Saturday we're inviting all the neighbours to our party.",
+      "tiles": [
+        "Zug",
+        "Ich",
+        "alle",
+        "unserem",
+        "ein",
+        "am",
+        "Wir",
+        "Wann",
+        "Fest",
+        "Samstag",
+        "Nachbarn",
+        "laden",
+        "zu"
+      ],
+      "answers": [
+        "Wir laden am Samstag alle Nachbarn zu unserem Fest ein."
+      ],
+      "explanation": "**Why:** The prefix ein moves to the very end.\n\n*Warum:* Das Präfix ein wandert ganz ans Ende."
+    },
+    {
+      "id": "tb1-u30-l03-satzklammer-p2-ex11",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Tonight I want to go to bed early because of the exam.",
+      "tiles": [
+        "gehen",
+        "morgen",
+        "die",
+        "Prüfung",
+        "Abend",
+        "Heute",
+        "→",
+        "ins",
+        "ich",
+        "will",
+        "wegen",
+        "früh",
+        "Bett",
+        "der"
+      ],
+      "answers": [
+        "Heute Abend will ich wegen der Prüfung früh ins Bett gehen."
+      ],
+      "explanation": "**Why:** Time – reason – place in the middle, gehen at the end.\n\n*Warum:* Zeit – Grund – Ort in der Mitte, gehen am Ende."
+    },
+    {
+      "id": "tb1-u30-l03-satzklammer-p2-ex12",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Yesterday my son rode his bike to school.",
+      "tiles": [
+        "zur",
+        "Sohn",
+        "mit",
+        "Schule",
+        "Fahrrad",
+        "wegen",
+        "ist",
+        "Mein",
+        "gestern",
+        "gefahren",
+        "Nächstes",
+        "dem",
+        "→"
+      ],
+      "answers": [
+        "Mein Sohn ist gestern mit dem Fahrrad zur Schule gefahren."
+      ],
+      "explanation": "**Why:** Perfect with sein, participle at the end.\n\n*Warum:* Perfekt mit sein, Partizip am Ende."
+    },
+    {
+      "id": "tb1-u30-l03-satzklammer-p2-ex13",
+      "type": "choice",
+      "title": "Choose the right answer",
+      "prompt": "Welcher Satz ist richtig?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Heute Deutsch ich lerne."
+        },
+        {
+          "id": "b",
+          "text": "Heute lerne ich Deutsch."
+        },
+        {
+          "id": "c",
+          "text": "Heute ich lerne Deutsch."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Das konjugierte Verb muss auf Position 2 stehen: Heute – lerne – ich."
+    },
+    {
+      "id": "tb1-u30-l03-satzklammer-p2-ex14",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Word order: put all the words in the correct order.",
+      "tiles": [
+        "einen",
+        "ich",
+        "geschrieben",
+        "habe",
+        "Gestern",
+        "Brief"
+      ],
+      "answers": [
+        "Gestern habe ich einen Brief geschrieben"
+      ],
+      "explanation": "Angabe – Verb(2) – Subjekt … Partizip am Ende: Gestern habe ich … geschrieben."
+    }
+  ]
+}

@@ -1,0 +1,241 @@
+{
+  "id": "tb1-u14-l09-education-language-learning-4",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u14",
+  "title": "Education & Language Learning 4",
+  "tip": "Theme: Bildung / Sprachenlernen (B1)",
+  "exercises": [
+    {
+      "id": "tb1-u14-l09-education-language-learning-4-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "das Zeugnis",
+          "known": "school report"
+        },
+        {
+          "id": "p2",
+          "learning": "das Niveau",
+          "known": "level"
+        },
+        {
+          "id": "p3",
+          "learning": "die Muttersprache",
+          "known": "native language"
+        },
+        {
+          "id": "p4",
+          "learning": "fließend",
+          "known": "fluent(ly)"
+        },
+        {
+          "id": "p5",
+          "learning": "die Schule",
+          "known": "school"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u14-l09-education-language-learning-4-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „school report · certificate“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Muttersprache, die Muttersprachen ↔ die Fremdsprache, die Fremdsprachen"
+        },
+        {
+          "id": "b",
+          "text": "das Zeugnis, die Zeugnisse · das Zertifikat, die Zertifikate"
+        },
+        {
+          "id": "c",
+          "text": "die Schule, die Schulen · das Gymnasium, die Gymnasien"
+        },
+        {
+          "id": "d",
+          "text": "der Unterricht (nur Sg.)"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**das Zeugnis** = school report · certificate\n*Plural: die Zeugnisse · also: das Zertifikat, die Zertifikate*\n\n*Example:* Für die Bewerbung brauchst du eine Kopie von deinem Zeugnis.\nYou need a copy of your school report for the application."
+    },
+    {
+      "id": "tb1-u14-l09-education-language-learning-4-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „level“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "das Niveau, die Niveaus"
+        },
+        {
+          "id": "b",
+          "text": "der Unterricht (nur Sg.)"
+        },
+        {
+          "id": "c",
+          "text": "der Student, die Studenten (n-Dekl.) / die Studentin, die Studentinnen"
+        },
+        {
+          "id": "d",
+          "text": "der Kurs, die Kurse: einen Kurs besuchen"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**das Niveau** = level\n*Plural: die Niveaus*\n\n*Example:* Der Deutschkurs am Abend hat leider ein sehr niedriges Niveau.\nUnfortunately, the evening German course is at a very low level."
+    },
+    {
+      "id": "tb1-u14-l09-education-language-learning-4-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Für die Bewerbung brauchst du eine Kopie von deinem Zeugnis.",
+      "tiles": [
+        "a",
+        "of",
+        "for",
+        "report",
+        "the",
+        "application",
+        "copy",
+        "exam",
+        "your",
+        "school",
+        "need",
+        "I've",
+        "Arabic",
+        "You"
+      ],
+      "answers": [
+        "You need a copy of your school report for the application."
+      ],
+      "explanation": "**das Zeugnis** = school report · certificate\n*Plural: die Zeugnisse · also: das Zertifikat, die Zertifikate*"
+    },
+    {
+      "id": "tb1-u14-l09-education-language-learning-4-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „native language ↔ foreign language“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "das Fach, die Fächer"
+        },
+        {
+          "id": "b",
+          "text": "der Kurs, die Kurse: einen Kurs besuchen"
+        },
+        {
+          "id": "c",
+          "text": "die Muttersprache, die Muttersprachen ↔ die Fremdsprache, die Fremdsprachen"
+        },
+        {
+          "id": "d",
+          "text": "die Volkshochschule (VHS), die Volkshochschulen"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**die Muttersprache, die Muttersprachen ↔ die Fremdsprache, die Fremdsprachen** = native language ↔ foreign language\n\n*Example:* Alis Muttersprache ist Arabisch, und Englisch ist seine erste Fremdsprache.\nAli's native language is Arabic, and English is his first foreign language."
+    },
+    {
+      "id": "tb1-u14-l09-education-language-learning-4-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Unfortunately, the evening German course is at a very low level.",
+      "tiles": [
+        "Deutschkurs",
+        "niedriges",
+        "sehr",
+        "Abend",
+        "deinem",
+        "leider",
+        "will",
+        "hat",
+        "Der",
+        "am",
+        "Niveau",
+        "Stadt",
+        "ein"
+      ],
+      "answers": [
+        "Der Deutschkurs am Abend hat leider ein sehr niedriges Niveau."
+      ],
+      "explanation": "**das Niveau** = level\n*Plural: die Niveaus*"
+    },
+    {
+      "id": "tb1-u14-l09-education-language-learning-4-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which one means „fluent(ly)“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "fließend"
+        },
+        {
+          "id": "b",
+          "text": "auswendig lernen"
+        },
+        {
+          "id": "c",
+          "text": "studieren, das Studium (meist Sg.)"
+        },
+        {
+          "id": "d",
+          "text": "Fortschritte machen"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**fließend** = fluent(ly)\n\n*Example:* Maria spricht nach drei Jahren in Berlin fließend Deutsch.\nAfter three years in Berlin, Maria speaks fluent German."
+    },
+    {
+      "id": "tb1-u14-l09-education-language-learning-4-ex08",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u14-l09-education-language-learning-4-3.mp3"
+      },
+      "tiles": [
+        "Volkshochschule",
+        "Muttersprache",
+        "erste",
+        "seine",
+        "ist",
+        "Englisch",
+        "Fremdsprache",
+        "Arabisch",
+        "ist",
+        "und",
+        "beste",
+        "Deutsch",
+        "Alis"
+      ],
+      "answers": [
+        "Alis Muttersprache ist Arabisch, und Englisch ist seine erste Fremdsprache."
+      ],
+      "explanation": "Alis Muttersprache ist Arabisch, und Englisch ist seine erste Fremdsprache.\n*Ali's native language is Arabic, and English is his first foreign language.*\n\n**die Muttersprache, die Muttersprachen ↔ die Fremdsprache, die Fremdsprachen** = native language ↔ foreign language"
+    },
+    {
+      "id": "tb1-u14-l09-education-language-learning-4-ex09",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Maria spricht nach drei Jahren in Berlin fließend Deutsch.",
+      "tiles": [
+        "make",
+        "Berlin",
+        "three",
+        "in",
+        "speaks",
+        "Maria",
+        "evening",
+        "What",
+        "After",
+        "German",
+        "years",
+        "fluent"
+      ],
+      "answers": [
+        "After three years in Berlin, Maria speaks fluent German."
+      ],
+      "explanation": "**fließend** = fluent(ly)"
+    }
+  ]
+}

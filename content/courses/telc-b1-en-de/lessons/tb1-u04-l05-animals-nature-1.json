@@ -1,0 +1,280 @@
+{
+  "id": "tb1-u04-l05-animals-nature-1",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u04",
+  "title": "Animals & Nature 1",
+  "tip": "Theme: Tiere & Natur (A1)",
+  "exercises": [
+    {
+      "id": "tb1-u04-l05-animals-nature-1-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "das Tier",
+          "known": "animal"
+        },
+        {
+          "id": "p2",
+          "learning": "der Hund",
+          "known": "dog"
+        },
+        {
+          "id": "p3",
+          "learning": "die Katze",
+          "known": "cat"
+        },
+        {
+          "id": "p4",
+          "learning": "der Vogel",
+          "known": "bird"
+        },
+        {
+          "id": "p5",
+          "learning": "das Pferd",
+          "known": "horse"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u04-l05-animals-nature-1-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „animal“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "das Tier, die Tiere"
+        },
+        {
+          "id": "b",
+          "text": "der Baum, die Bäume"
+        },
+        {
+          "id": "c",
+          "text": "der See, die Seen"
+        },
+        {
+          "id": "d",
+          "text": "das Pferd, die Pferde"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**das Tier** = animal\n*Plural: die Tiere*\n\n*Example:* In unserem Haus sind Tiere leider nicht erlaubt.\nUnfortunately, pets aren't allowed in our building."
+    },
+    {
+      "id": "tb1-u04-l05-animals-nature-1-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „dog“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "der Mond"
+        },
+        {
+          "id": "b",
+          "text": "das Meer, die Meere"
+        },
+        {
+          "id": "c",
+          "text": "der Hund, die Hunde"
+        },
+        {
+          "id": "d",
+          "text": "die Blume, die Blumen"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**der Hund** = dog\n*Plural: die Hunde*\n\n*Example:* Meine Nachbarin geht jeden Morgen mit ihrem Hund spazieren.\nMy neighbour walks her dog every morning."
+    },
+    {
+      "id": "tb1-u04-l05-animals-nature-1-ex04",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u04-l05-animals-nature-1-1.mp3"
+      },
+      "tiles": [
+        "sind",
+        "In",
+        "Tiere",
+        "großen",
+        "erlaubt",
+        "wir",
+        "Haus",
+        "leider",
+        "unserem",
+        "nicht",
+        "Wolke"
+      ],
+      "answers": [
+        "In unserem Haus sind Tiere leider nicht erlaubt."
+      ],
+      "explanation": "In unserem Haus sind Tiere leider nicht erlaubt.\n*Unfortunately, pets aren't allowed in our building.*\n\n**das Tier** = animal\n*Plural: die Tiere*"
+    },
+    {
+      "id": "tb1-u04-l05-animals-nature-1-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „cat“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "der Fluss, die Flüsse"
+        },
+        {
+          "id": "b",
+          "text": "die Katze, die Katzen"
+        },
+        {
+          "id": "c",
+          "text": "das Meer, die Meere"
+        },
+        {
+          "id": "d",
+          "text": "der Mond"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**die Katze** = cat\n*Plural: die Katzen*\n\n*Example:* Unsere Katze schläft am liebsten auf dem Sofa.\nOur cat likes sleeping on the sofa best."
+    },
+    {
+      "id": "tb1-u04-l05-animals-nature-1-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Meine Nachbarin geht jeden Morgen mit ihrem Hund spazieren.",
+      "tiles": [
+        "neighbour",
+        "walks",
+        "morning",
+        "we",
+        "The",
+        "My",
+        "every",
+        "a",
+        "dog",
+        "her"
+      ],
+      "answers": [
+        "My neighbour walks her dog every morning."
+      ],
+      "explanation": "**der Hund** = dog\n*Plural: die Hunde*"
+    },
+    {
+      "id": "tb1-u04-l05-animals-nature-1-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „bird“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "der Fluss, die Flüsse"
+        },
+        {
+          "id": "b",
+          "text": "der Vogel, die Vögel"
+        },
+        {
+          "id": "c",
+          "text": "die Sonne"
+        },
+        {
+          "id": "d",
+          "text": "das Pferd, die Pferde"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**der Vogel** = bird\n*Plural: die Vögel*\n\n*Example:* Am frühen Morgen singen die Vögel im Garten.\nEarly in the morning the birds sing in the garden."
+    },
+    {
+      "id": "tb1-u04-l05-animals-nature-1-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Our cat likes sleeping on the sofa best.",
+      "tiles": [
+        "liebsten",
+        "Geburtstag",
+        "Unsere",
+        "habe",
+        "auf",
+        "am",
+        "Haus",
+        "Sofa",
+        "schläft",
+        "Katze",
+        "dem"
+      ],
+      "answers": [
+        "Unsere Katze schläft am liebsten auf dem Sofa."
+      ],
+      "explanation": "**die Katze** = cat\n*Plural: die Katzen*"
+    },
+    {
+      "id": "tb1-u04-l05-animals-nature-1-ex09",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „horse“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "das Pferd, die Pferde"
+        },
+        {
+          "id": "b",
+          "text": "das Tier, die Tiere"
+        },
+        {
+          "id": "c",
+          "text": "der Hund, die Hunde"
+        },
+        {
+          "id": "d",
+          "text": "die Katze, die Katzen"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**das Pferd** = horse\n*Plural: die Pferde*\n\n*Example:* Meine Tochter reitet jeden Samstag auf einem Pferd.\nMy daughter rides a horse every Saturday."
+    },
+    {
+      "id": "tb1-u04-l05-animals-nature-1-ex10",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u04-l05-animals-nature-1-4.mp3"
+      },
+      "tiles": [
+        "im",
+        "Baum",
+        "wir",
+        "Am",
+        "Morgen",
+        "Garten",
+        "Vögel",
+        "singen",
+        "frühen",
+        "die",
+        "Mein"
+      ],
+      "answers": [
+        "Am frühen Morgen singen die Vögel im Garten."
+      ],
+      "explanation": "Am frühen Morgen singen die Vögel im Garten.\n*Early in the morning the birds sing in the garden.*\n\n**der Vogel** = bird\n*Plural: die Vögel*"
+    },
+    {
+      "id": "tb1-u04-l05-animals-nature-1-ex11",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Meine Tochter reitet jeden Samstag auf einem Pferd.",
+      "tiles": [
+        "a",
+        "rides",
+        "The",
+        "garden",
+        "My",
+        "we",
+        "daughter",
+        "horse",
+        "every",
+        "Saturday"
+      ],
+      "answers": [
+        "My daughter rides a horse every Saturday."
+      ],
+      "explanation": "**das Pferd** = horse\n*Plural: die Pferde*"
+    }
+  ]
+}

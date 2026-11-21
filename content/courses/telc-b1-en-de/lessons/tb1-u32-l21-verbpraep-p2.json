@@ -1,0 +1,186 @@
+{
+  "id": "tb1-u32-l21-verbpraep-p2",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u32",
+  "title": "Verbs with Prepositions + darauf/worauf: wo(r) + Präposition",
+  "tip": "freuen AUF = future (auf deinen Besuch) · freuen ÜBER = already happened (über dein Geschenk). The letter closing needs AUF: Ich freue mich auf deine Antwort.",
+  "exercises": [
+    {
+      "id": "tb1-u32-l21-verbpraep-p2-ex01",
+      "type": "explain",
+      "title": "wo(r) + Präposition · Frage",
+      "body": "Questions about things: wo(r)- + preposition. About people: preposition + wen/wem.\n\n*Deutsch:* Fragen nach Sachen: wo(r)- + Präposition. Bei Personen: Präposition + wen/wem.\n\n## Pattern\n\n**Wo(r)** + Präposition + Verb + Subjekt …?",
+      "examples": [
+        {
+          "learning": "Worauf wartest du?",
+          "known": "What are you waiting for?"
+        },
+        {
+          "learning": "Wofür interessierst du dich?",
+          "known": "What are you interested in?"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u32-l21-verbpraep-p2-ex02",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "What are you waiting for?",
+      "tiles": [
+        "Bus",
+        "Worauf",
+        "fährst",
+        "du",
+        "wartest",
+        "mich"
+      ],
+      "answers": [
+        "Worauf wartest du?"
+      ],
+      "explanation": "**Why:** warten auf → Worauf?\n\n*Warum:* warten auf → Worauf?"
+    },
+    {
+      "id": "tb1-u32-l21-verbpraep-p2-ex03",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "What are you interested in?",
+      "tiles": [
+        "du",
+        "dich",
+        "Der",
+        "Wofür",
+        "Worauf",
+        "mich",
+        "interessierst"
+      ],
+      "answers": [
+        "Wofür interessierst du dich?"
+      ],
+      "explanation": "**Why:** sich interessieren für → Wofür?\n\n*Warum:* sich interessieren für → Wofür?"
+    },
+    {
+      "id": "tb1-u32-l21-verbpraep-p2-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "What did you talk about?",
+      "tiles": [
+        "Worüber",
+        "den",
+        "ihr",
+        "neue",
+        "dich",
+        "habt",
+        "gesprochen"
+      ],
+      "answers": [
+        "Worüber habt ihr gesprochen?"
+      ],
+      "explanation": "**Why:** sprechen über → Worüber?\n\n*Warum:* sprechen über → Worüber?"
+    },
+    {
+      "id": "tb1-u32-l21-verbpraep-p2-ex05",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Who are you waiting for?",
+      "tiles": [
+        "wartest",
+        "dich",
+        "wen",
+        "darüber",
+        "Auf",
+        "interessiere",
+        "du"
+      ],
+      "answers": [
+        "Auf wen wartest du?"
+      ],
+      "explanation": "**Why:** Person → preposition + wen.\n\n*Warum:* Person → Präposition + wen."
+    },
+    {
+      "id": "tb1-u32-l21-verbpraep-p2-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "How do you get to work?",
+      "tiles": [
+        "fährst",
+        "du",
+        "Womit",
+        "Arbeit",
+        "zur",
+        "Ich",
+        "den",
+        "uns"
+      ],
+      "answers": [
+        "Womit fährst du zur Arbeit?"
+      ],
+      "explanation": "**Why:** mit → Womit?\n\n*Warum:* mit → Womit?"
+    },
+    {
+      "id": "tb1-u32-l21-verbpraep-p2-ex07",
+      "type": "choice",
+      "title": "Fill the gap",
+      "prompt": "Ich freue mich ___, dich bald zu sehen.",
+      "options": [
+        {
+          "id": "a",
+          "text": "dafür"
+        },
+        {
+          "id": "b",
+          "text": "darüber"
+        },
+        {
+          "id": "c",
+          "text": "darauf"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "sich freuen auf → Verweis auf den dass/zu-Satz: darauf."
+    },
+    {
+      "id": "tb1-u32-l21-verbpraep-p2-ex08",
+      "type": "choice",
+      "title": "Fill the gap",
+      "prompt": "Sie ärgert sich ___ den Lärm der Baustelle.",
+      "options": [
+        {
+          "id": "a",
+          "text": "über"
+        },
+        {
+          "id": "b",
+          "text": "von"
+        },
+        {
+          "id": "c",
+          "text": "auf"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "sich ärgern über + Akkusativ."
+    },
+    {
+      "id": "tb1-u32-l21-verbpraep-p2-ex09",
+      "type": "choice",
+      "title": "Fill the gap",
+      "prompt": "Ich interessiere mich ___ Musik.",
+      "options": [
+        {
+          "id": "a",
+          "text": "auf"
+        },
+        {
+          "id": "b",
+          "text": "an"
+        },
+        {
+          "id": "c",
+          "text": "für"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "sich interessieren für + Akkusativ."
+    }
+  ]
+}

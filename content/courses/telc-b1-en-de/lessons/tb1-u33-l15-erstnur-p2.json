@@ -1,0 +1,147 @@
+{
+  "id": "tb1-u33-l15-erstnur-p2",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u33",
+  "title": "erst, nur, schon, noch, nicht mehr: noch ↔ nicht mehr",
+  "tip": "erst ≠ nur: „erst 3 Kapitel“ = I keep reading · „nur 3 Kapitel“ = the book is short. In listening tasks exactly this difference decides true/false.",
+  "exercises": [
+    {
+      "id": "tb1-u33-l15-erstnur-p2-ex01",
+      "type": "explain",
+      "title": "noch ↔ nicht mehr",
+      "body": "noch = still continuing. Opposite: nicht mehr / kein … mehr (no longer).\n\n*Deutsch:* noch = dauert weiter an. Gegenteil: nicht mehr / kein … mehr.\n\n## Pattern\n\n… **noch** … ↔ … **nicht mehr** / **kein … mehr**",
+      "examples": [
+        {
+          "learning": "Wohnst du noch in Hamburg?",
+          "known": "Do you still live in Hamburg?"
+        },
+        {
+          "learning": "Nein, ich wohne nicht mehr dort.",
+          "known": "No, I don't live there any more."
+        }
+      ]
+    },
+    {
+      "id": "tb1-u33-l15-erstnur-p2-ex02",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Do you still live in Hamburg?",
+      "tiles": [
+        "nicht",
+        "kommt",
+        "noch",
+        "du",
+        "in",
+        "Wohnst",
+        "Hamburg",
+        "Nein"
+      ],
+      "answers": [
+        "Wohnst du noch in Hamburg?"
+      ],
+      "explanation": "**Why:** Is it continuing?\n\n*Warum:* Dauert es an?"
+    },
+    {
+      "id": "tb1-u33-l15-erstnur-p2-ex03",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "No, I don't live there any more.",
+      "tiles": [
+        "wohne",
+        "Konzert",
+        "nicht",
+        "in",
+        "ich",
+        "dort",
+        "Herr",
+        "mehr",
+        "Nein"
+      ],
+      "answers": [
+        "Nein, ich wohne nicht mehr dort."
+      ],
+      "explanation": "**Why:** Opposite of noch.\n\n*Warum:* Gegenteil von noch."
+    },
+    {
+      "id": "tb1-u33-l15-erstnur-p2-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "We've run out of milk.",
+      "tiles": [
+        "nur",
+        "Milch",
+        "Deutsch",
+        "wohnen",
+        "mehr",
+        "keine",
+        "haben",
+        "Wir"
+      ],
+      "answers": [
+        "Wir haben keine Milch mehr."
+      ],
+      "explanation": "**Why:** Noun → kein … mehr.\n\n*Warum:* Nomen → kein … mehr."
+    },
+    {
+      "id": "tb1-u33-l15-erstnur-p2-ex05",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Would you like another coffee?",
+      "tiles": [
+        "Möchtest",
+        "Kaffee",
+        "Zeit",
+        "du",
+        "noch",
+        "schon",
+        "einen",
+        "→"
+      ],
+      "answers": [
+        "Möchtest du noch einen Kaffee?"
+      ],
+      "explanation": "**Why:** noch ein = another one.\n\n*Warum:* noch ein = ein weiterer."
+    },
+    {
+      "id": "tb1-u33-l15-erstnur-p2-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "He doesn't smoke any more.",
+      "tiles": [
+        "Bruder",
+        "Er",
+        "Uhr",
+        "mehr",
+        "nicht",
+        "raucht",
+        "Wir"
+      ],
+      "answers": [
+        "Er raucht nicht mehr."
+      ],
+      "explanation": "**Why:** Used to, not now.\n\n*Warum:* Früher ja, jetzt nicht."
+    },
+    {
+      "id": "tb1-u33-l15-erstnur-p2-ex07",
+      "type": "choice",
+      "title": "Fill the gap",
+      "prompt": "Sie lernt ___ seit zwei Wochen Deutsch, aber sie spricht schon gut.",
+      "options": [
+        {
+          "id": "a",
+          "text": "nur"
+        },
+        {
+          "id": "b",
+          "text": "erst"
+        },
+        {
+          "id": "c",
+          "text": "schon"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Überraschend kurze Zeit, die weiterläuft → erst. Das „aber schon gut“ zeigt den Kontrast."
+    }
+  ]
+}

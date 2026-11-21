@@ -1,0 +1,291 @@
+{
+  "id": "tb1-u16-l04-food-restaurants-4",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u16",
+  "title": "Food & Restaurants 4",
+  "tip": "Theme: Essen / Trinken / Restaurant (B1)",
+  "exercises": [
+    {
+      "id": "tb1-u16-l04-food-restaurants-4-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "die Lebensmittel",
+          "known": "groceries"
+        },
+        {
+          "id": "p2",
+          "learning": "das Fleisch",
+          "known": "meat"
+        },
+        {
+          "id": "p3",
+          "learning": "das Gemüse",
+          "known": "vegetables"
+        },
+        {
+          "id": "p4",
+          "learning": "das Getränk",
+          "known": "drink"
+        },
+        {
+          "id": "p5",
+          "learning": "vegetarisch",
+          "known": "vegetarian"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u16-l04-food-restaurants-4-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „groceries“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Lebensmittel (Pl.)"
+        },
+        {
+          "id": "b",
+          "text": "das Rezept, die Rezepte: die Zutat, die Zutaten"
+        },
+        {
+          "id": "c",
+          "text": "die Vorspeise, die Vorspeisen · das Hauptgericht, die Hauptgerichte · der Nachtisch, die Nachtische"
+        },
+        {
+          "id": "d",
+          "text": "das Fleisch (nur Sg.) · der Fisch, die Fische"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**die Lebensmittel (Pl.)** = groceries\n\n*Example:* Am Samstag kaufen wir die Lebensmittel für die ganze Woche.\nOn Saturday we buy the groceries for the whole week."
+    },
+    {
+      "id": "tb1-u16-l04-food-restaurants-4-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „meat · fish“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "der Hunger: hungrig · der Durst: durstig"
+        },
+        {
+          "id": "b",
+          "text": "das Gemüse (nur Sg.) · das Obst (nur Sg.)"
+        },
+        {
+          "id": "c",
+          "text": "das Fleisch (nur Sg.) · der Fisch, die Fische"
+        },
+        {
+          "id": "d",
+          "text": "der Kellner, die Kellner / die Kellnerin, die Kellnerinnen"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**das Fleisch (nur Sg.) · der Fisch, die Fische** = meat · fish\n\n*Example:* Meine Schwester isst kein Fleisch, aber sie isst gern Fisch.\nMy sister doesn't eat meat, but she likes eating fish."
+    },
+    {
+      "id": "tb1-u16-l04-food-restaurants-4-ex04",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u16-l04-food-restaurants-4-1.mp3"
+      },
+      "tiles": [
+        "ganze",
+        "Woche",
+        "kaufen",
+        "die",
+        "vegetarische",
+        "Am",
+        "der",
+        "Samstag",
+        "Wasser",
+        "die",
+        "Lebensmittel",
+        "wir",
+        "für"
+      ],
+      "answers": [
+        "Am Samstag kaufen wir die Lebensmittel für die ganze Woche."
+      ],
+      "explanation": "Am Samstag kaufen wir die Lebensmittel für die ganze Woche.\n*On Saturday we buy the groceries for the whole week.*\n\n**die Lebensmittel (Pl.)** = groceries"
+    },
+    {
+      "id": "tb1-u16-l04-food-restaurants-4-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „vegetables · fruit“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "das Rezept, die Rezepte: die Zutat, die Zutaten"
+        },
+        {
+          "id": "b",
+          "text": "das Fleisch (nur Sg.) · der Fisch, die Fische"
+        },
+        {
+          "id": "c",
+          "text": "das Gemüse (nur Sg.) · das Obst (nur Sg.)"
+        },
+        {
+          "id": "d",
+          "text": "der Hunger: hungrig · der Durst: durstig"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**das Gemüse (nur Sg.) · das Obst (nur Sg.)** = vegetables · fruit\n\n*Example:* Auf dem Markt kaufe ich frisches Gemüse und Obst.\nI buy fresh vegetables and fruit at the market."
+    },
+    {
+      "id": "tb1-u16-l04-food-restaurants-4-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Meine Schwester isst kein Fleisch, aber sie isst gern Fisch.",
+      "tiles": [
+        "she",
+        "was",
+        "but",
+        "likes",
+        "meat",
+        "eat",
+        "eating",
+        "My",
+        "sister",
+        "like",
+        "a",
+        "fish",
+        "doesn't"
+      ],
+      "answers": [
+        "My sister doesn't eat meat, but she likes eating fish."
+      ],
+      "explanation": "**das Fleisch (nur Sg.) · der Fisch, die Fische** = meat · fish"
+    },
+    {
+      "id": "tb1-u16-l04-food-restaurants-4-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „drink“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "das Getränk, die Getränke"
+        },
+        {
+          "id": "b",
+          "text": "das Gericht, die Gerichte"
+        },
+        {
+          "id": "c",
+          "text": "der Hunger: hungrig · der Durst: durstig"
+        },
+        {
+          "id": "d",
+          "text": "der Kellner, die Kellner / die Kellnerin, die Kellnerinnen"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**das Getränk** = drink\n*Plural: die Getränke*\n\n*Example:* Für die Party brauchen wir noch Getränke, zum Beispiel Saft und Wasser.\nWe still need drinks for the party, for example juice and water."
+    },
+    {
+      "id": "tb1-u16-l04-food-restaurants-4-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I buy fresh vegetables and fruit at the market.",
+      "tiles": [
+        "frisches",
+        "zwei",
+        "Markt",
+        "Gemüse",
+        "und",
+        "Mann",
+        "haben",
+        "ich",
+        "kaufe",
+        "dem",
+        "Auf",
+        "Obst"
+      ],
+      "answers": [
+        "Auf dem Markt kaufe ich frisches Gemüse und Obst."
+      ],
+      "explanation": "**das Gemüse (nur Sg.) · das Obst (nur Sg.)** = vegetables · fruit"
+    },
+    {
+      "id": "tb1-u16-l04-food-restaurants-4-ex09",
+      "type": "multiple_choice",
+      "prompt": "Which one means „vegetarian · vegan“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "einen Tisch reservieren: für vier Personen"
+        },
+        {
+          "id": "b",
+          "text": "vegetarisch · vegan"
+        },
+        {
+          "id": "c",
+          "text": "bestellen"
+        },
+        {
+          "id": "d",
+          "text": "Wir möchten bitte zahlen, zusammen oder getrennt?"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**vegetarisch · vegan** = vegetarian · vegan\n\n*Example:* Gibt es auf der Speisekarte auch vegetarische Gerichte?\nAre there any vegetarian dishes on the menu?"
+    },
+    {
+      "id": "tb1-u16-l04-food-restaurants-4-ex10",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u16-l04-food-restaurants-4-4.mp3"
+      },
+      "tiles": [
+        "Getränke",
+        "Für",
+        "uns",
+        "die",
+        "Saft",
+        "brauchen",
+        "wir",
+        "Wasser",
+        "ihn",
+        "Beispiel",
+        "war",
+        "noch",
+        "zum",
+        "und",
+        "Party"
+      ],
+      "answers": [
+        "Für die Party brauchen wir noch Getränke, zum Beispiel Saft und Wasser."
+      ],
+      "explanation": "Für die Party brauchen wir noch Getränke, zum Beispiel Saft und Wasser.\n*We still need drinks for the party, for example juice and water.*\n\n**das Getränk** = drink\n*Plural: die Getränke*"
+    },
+    {
+      "id": "tb1-u16-l04-food-restaurants-4-ex11",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Gibt es auf der Speisekarte auch vegetarische Gerichte?",
+      "tiles": [
+        "there",
+        "any",
+        "dishes",
+        "menu",
+        "Are",
+        "vegetarian",
+        "restaurant",
+        "was",
+        "market",
+        "the",
+        "on"
+      ],
+      "answers": [
+        "Are there any vegetarian dishes on the menu?"
+      ],
+      "explanation": "**vegetarisch · vegan** = vegetarian · vegan"
+    }
+  ]
+}

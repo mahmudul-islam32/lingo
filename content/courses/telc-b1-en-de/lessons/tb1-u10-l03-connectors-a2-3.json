@@ -1,0 +1,287 @@
+{
+  "id": "tb1-u10-l03-connectors-a2-3",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u10",
+  "title": "Connectors (A2) 3",
+  "tip": "Theme: Konnektoren (A2) (A2)",
+  "exercises": [
+    {
+      "id": "tb1-u10-l03-connectors-a2-3-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "entweder … oder",
+          "known": "either … or"
+        },
+        {
+          "id": "p2",
+          "learning": "nicht nur … sondern auch",
+          "known": "not only … but also"
+        },
+        {
+          "id": "p3",
+          "learning": "sowohl … als auch",
+          "known": "both … and"
+        },
+        {
+          "id": "p4",
+          "learning": "je … desto",
+          "known": "the … the"
+        },
+        {
+          "id": "p5",
+          "learning": "bevor",
+          "known": "before"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u10-l03-connectors-a2-3-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which one means „either … or“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "zuerst … dann"
+        },
+        {
+          "id": "b",
+          "text": "nachdem"
+        },
+        {
+          "id": "c",
+          "text": "deshalb"
+        },
+        {
+          "id": "d",
+          "text": "entweder … oder"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**entweder … oder** = either … or\n\n*Example:* Wir können entweder Pizza bestellen oder selbst kochen.\nWe can either order pizza or cook ourselves."
+    },
+    {
+      "id": "tb1-u10-l03-connectors-a2-3-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which one means „not only … but also“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "entweder … oder"
+        },
+        {
+          "id": "b",
+          "text": "je … desto"
+        },
+        {
+          "id": "c",
+          "text": "bevor"
+        },
+        {
+          "id": "d",
+          "text": "nicht nur … sondern auch"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**nicht nur … sondern auch** = not only … but also\n\n*Example:* Maria spricht nicht nur Spanisch, sondern auch Deutsch.\nMaria speaks not only Spanish but also German."
+    },
+    {
+      "id": "tb1-u10-l03-connectors-a2-3-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Wir können entweder Pizza bestellen oder selbst kochen.",
+      "tiles": [
+        "cook",
+        "can",
+        "ourselves",
+        "order",
+        "or",
+        "I",
+        "pizza",
+        "We",
+        "either",
+        "work",
+        "late"
+      ],
+      "answers": [
+        "We can either order pizza or cook ourselves."
+      ],
+      "explanation": "**entweder … oder** = either … or"
+    },
+    {
+      "id": "tb1-u10-l03-connectors-a2-3-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which one means „both … and“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "seitdem"
+        },
+        {
+          "id": "b",
+          "text": "falls"
+        },
+        {
+          "id": "c",
+          "text": "dass"
+        },
+        {
+          "id": "d",
+          "text": "sowohl … als auch"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**sowohl … als auch** = both … and\n\n*Example:* In der Wohnung gibt es sowohl einen Balkon als auch einen Garten.\nThe flat has both a balcony and a garden."
+    },
+    {
+      "id": "tb1-u10-l03-connectors-a2-3-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Maria speaks not only Spanish but also German.",
+      "tiles": [
+        "auch",
+        "sondern",
+        "bin",
+        "zu",
+        "Maria",
+        "Spanisch",
+        "Deutsch",
+        "nicht",
+        "spricht",
+        "nur",
+        "bald"
+      ],
+      "answers": [
+        "Maria spricht nicht nur Spanisch, sondern auch Deutsch."
+      ],
+      "explanation": "**nicht nur … sondern auch** = not only … but also"
+    },
+    {
+      "id": "tb1-u10-l03-connectors-a2-3-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which one means „the … the“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "nachdem"
+        },
+        {
+          "id": "b",
+          "text": "während"
+        },
+        {
+          "id": "c",
+          "text": "trotzdem"
+        },
+        {
+          "id": "d",
+          "text": "je … desto"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**je … desto** = the … the\n\n*Example:* Je früher wir losfahren, desto weniger Stau gibt es.\nThe earlier we leave, the less traffic there is."
+    },
+    {
+      "id": "tb1-u10-l03-connectors-a2-3-ex08",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u10-l03-connectors-a2-3-3.mp3"
+      },
+      "tiles": [
+        "Wohnung",
+        "einen",
+        "Garten",
+        "damit",
+        "als",
+        "gibt",
+        "der",
+        "sondern",
+        "In",
+        "einen",
+        "es",
+        "Balkon",
+        "mit",
+        "sowohl",
+        "auch"
+      ],
+      "answers": [
+        "In der Wohnung gibt es sowohl einen Balkon als auch einen Garten."
+      ],
+      "explanation": "In der Wohnung gibt es sowohl einen Balkon als auch einen Garten.\n*The flat has both a balcony and a garden.*\n\n**sowohl … als auch** = both … and"
+    },
+    {
+      "id": "tb1-u10-l03-connectors-a2-3-ex09",
+      "type": "multiple_choice",
+      "prompt": "Which one means „before“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "weil"
+        },
+        {
+          "id": "b",
+          "text": "also"
+        },
+        {
+          "id": "c",
+          "text": "nachdem"
+        },
+        {
+          "id": "d",
+          "text": "bevor"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**bevor** = before\n\n*Example:* Bevor ich zur Arbeit gehe, trinke ich einen Kaffee.\nBefore I go to work, I drink a coffee."
+    },
+    {
+      "id": "tb1-u10-l03-connectors-a2-3-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Je früher wir losfahren, desto weniger Stau gibt es.",
+      "tiles": [
+        "less",
+        "The",
+        "we",
+        "It's",
+        "is",
+        "traffic",
+        "there",
+        "leave",
+        "not",
+        "the",
+        "a",
+        "earlier"
+      ],
+      "answers": [
+        "The earlier we leave, the less traffic there is."
+      ],
+      "explanation": "**je … desto** = the … the"
+    },
+    {
+      "id": "tb1-u10-l03-connectors-a2-3-ex11",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Before I go to work, I drink a coffee.",
+      "tiles": [
+        "trinke",
+        "ich",
+        "ist",
+        "einfach",
+        "Bevor",
+        "Arbeit",
+        "zur",
+        "ich",
+        "einen",
+        "gehe",
+        "wir",
+        "Kaffee"
+      ],
+      "answers": [
+        "Bevor ich zur Arbeit gehe, trinke ich einen Kaffee."
+      ],
+      "explanation": "**bevor** = before"
+    }
+  ]
+}

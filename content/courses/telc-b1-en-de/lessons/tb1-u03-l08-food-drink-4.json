@@ -1,0 +1,239 @@
+{
+  "id": "tb1-u03-l08-food-drink-4",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u03",
+  "title": "Food & Drink 4",
+  "tip": "Theme: Essen & Trinken (A1)",
+  "exercises": [
+    {
+      "id": "tb1-u03-l08-food-drink-4-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "der Fisch",
+          "known": "fish"
+        },
+        {
+          "id": "p2",
+          "learning": "der Zucker",
+          "known": "sugar"
+        },
+        {
+          "id": "p3",
+          "learning": "das Salz",
+          "known": "salt"
+        },
+        {
+          "id": "p4",
+          "learning": "das Frühstück",
+          "known": "breakfast"
+        },
+        {
+          "id": "p5",
+          "learning": "das Essen",
+          "known": "food"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u03-l08-food-drink-4-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „fish“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "das Abendessen"
+        },
+        {
+          "id": "b",
+          "text": "der Fisch, die Fische"
+        },
+        {
+          "id": "c",
+          "text": "das Wasser"
+        },
+        {
+          "id": "d",
+          "text": "der Zucker"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**der Fisch** = fish\n*Plural: die Fische*\n\n*Example:* Am Freitag gibt es in der Kantine immer Fisch.\nThere's always fish in the canteen on Fridays."
+    },
+    {
+      "id": "tb1-u03-l08-food-drink-4-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „sugar“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "der Fisch, die Fische"
+        },
+        {
+          "id": "b",
+          "text": "die Milch"
+        },
+        {
+          "id": "c",
+          "text": "das Wasser"
+        },
+        {
+          "id": "d",
+          "text": "der Zucker"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**der Zucker** = sugar\n\n*Example:* Trinkst du deinen Tee mit oder ohne Zucker?\nDo you take your tea with or without sugar?"
+    },
+    {
+      "id": "tb1-u03-l08-food-drink-4-ex04",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u03-l08-food-drink-4-1.mp3"
+      },
+      "tiles": [
+        "es",
+        "Äpfel",
+        "Kantine",
+        "essen",
+        "Freitag",
+        "Fisch",
+        "hätte",
+        "immer",
+        "gibt",
+        "Am",
+        "in",
+        "der"
+      ],
+      "answers": [
+        "Am Freitag gibt es in der Kantine immer Fisch."
+      ],
+      "explanation": "Am Freitag gibt es in der Kantine immer Fisch.\n*There's always fish in the canteen on Fridays.*\n\n**der Fisch** = fish\n*Plural: die Fische*"
+    },
+    {
+      "id": "tb1-u03-l08-food-drink-4-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „salt“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "das Salz"
+        },
+        {
+          "id": "b",
+          "text": "das Brot, die Brote"
+        },
+        {
+          "id": "c",
+          "text": "das Frühstück"
+        },
+        {
+          "id": "d",
+          "text": "das Fleisch"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**das Salz** = salt\n\n*Example:* Die Suppe ist zu salzig, ich habe zu viel Salz genommen.\nThe soup is too salty, I used too much salt."
+    },
+    {
+      "id": "tb1-u03-l08-food-drink-4-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Trinkst du deinen Tee mit oder ohne Zucker?",
+      "tiles": [
+        "without",
+        "or",
+        "with",
+        "Anna",
+        "Do",
+        "sugar",
+        "I",
+        "your",
+        "tea",
+        "you",
+        "of",
+        "take"
+      ],
+      "answers": [
+        "Do you take your tea with or without sugar?"
+      ],
+      "explanation": "**der Zucker** = sugar"
+    },
+    {
+      "id": "tb1-u03-l08-food-drink-4-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „breakfast“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "das Frühstück"
+        },
+        {
+          "id": "b",
+          "text": "der Apfel, die Äpfel"
+        },
+        {
+          "id": "c",
+          "text": "das Brot, die Brote"
+        },
+        {
+          "id": "d",
+          "text": "der Zucker"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**das Frühstück** = breakfast\n\n*Example:* Im Hotel ist das Frühstück im Preis inklusive.\nBreakfast is included in the price at the hotel."
+    },
+    {
+      "id": "tb1-u03-l08-food-drink-4-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "The soup is too salty, I used too much salt.",
+      "tiles": [
+        "habe",
+        "Suppe",
+        "Die",
+        "salzig",
+        "Salz",
+        "Bäcker",
+        "Gramm",
+        "ist",
+        "zu",
+        "viel",
+        "im",
+        "ich",
+        "genommen",
+        "zu"
+      ],
+      "answers": [
+        "Die Suppe ist zu salzig, ich habe zu viel Salz genommen."
+      ],
+      "explanation": "**das Salz** = salt"
+    },
+    {
+      "id": "tb1-u03-l08-food-drink-4-ex09",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u03-l08-food-drink-4-4.mp3"
+      },
+      "tiles": [
+        "Gramm",
+        "Preis",
+        "Hotel",
+        "In",
+        "ist",
+        "Frühstück",
+        "inklusive",
+        "das",
+        "Im",
+        "im",
+        "Fisch"
+      ],
+      "answers": [
+        "Im Hotel ist das Frühstück im Preis inklusive."
+      ],
+      "explanation": "Im Hotel ist das Frühstück im Preis inklusive.\n*Breakfast is included in the price at the hotel.*\n\n**das Frühstück** = breakfast"
+    }
+  ]
+}

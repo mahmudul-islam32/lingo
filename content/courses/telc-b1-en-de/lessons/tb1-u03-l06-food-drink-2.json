@@ -1,0 +1,281 @@
+{
+  "id": "tb1-u03-l06-food-drink-2",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u03",
+  "title": "Food & Drink 2",
+  "tip": "Theme: Essen & Trinken (A1)",
+  "exercises": [
+    {
+      "id": "tb1-u03-l06-food-drink-2-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "das Brot",
+          "known": "bread"
+        },
+        {
+          "id": "p2",
+          "learning": "das Brötchen",
+          "known": "bread roll"
+        },
+        {
+          "id": "p3",
+          "learning": "die Butter",
+          "known": "butter"
+        },
+        {
+          "id": "p4",
+          "learning": "der Käse",
+          "known": "cheese"
+        },
+        {
+          "id": "p5",
+          "learning": "das Ei",
+          "known": "egg"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u03-l06-food-drink-2-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „bread“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "der Tee"
+        },
+        {
+          "id": "b",
+          "text": "das Brot, die Brote"
+        },
+        {
+          "id": "c",
+          "text": "das Salz"
+        },
+        {
+          "id": "d",
+          "text": "der Apfel, die Äpfel"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**das Brot** = bread\n*Plural: die Brote*\n\n*Example:* Beim Bäcker kaufe ich ein frisches Brot.\nI buy a fresh loaf of bread at the bakery."
+    },
+    {
+      "id": "tb1-u03-l06-food-drink-2-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „bread roll“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Milch"
+        },
+        {
+          "id": "b",
+          "text": "der Hunger"
+        },
+        {
+          "id": "c",
+          "text": "das Brötchen, die Brötchen"
+        },
+        {
+          "id": "d",
+          "text": "das Gemüse"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**das Brötchen** = bread roll\n*Plural: die Brötchen*\n\n*Example:* Am Sonntag holt Tom frische Brötchen zum Frühstück.\nOn Sunday Tom gets fresh rolls for breakfast."
+    },
+    {
+      "id": "tb1-u03-l06-food-drink-2-ex04",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u03-l06-food-drink-2-1.mp3"
+      },
+      "tiles": [
+        "Kollegen",
+        "kaufe",
+        "ich",
+        "zwei",
+        "Bäcker",
+        "Beim",
+        "gekochtes",
+        "ein",
+        "frisches",
+        "Brot"
+      ],
+      "answers": [
+        "Beim Bäcker kaufe ich ein frisches Brot."
+      ],
+      "explanation": "Beim Bäcker kaufe ich ein frisches Brot.\n*I buy a fresh loaf of bread at the bakery.*\n\n**das Brot** = bread\n*Plural: die Brote*"
+    },
+    {
+      "id": "tb1-u03-l06-food-drink-2-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „butter“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Butter"
+        },
+        {
+          "id": "b",
+          "text": "der Fisch, die Fische"
+        },
+        {
+          "id": "c",
+          "text": "das Abendessen"
+        },
+        {
+          "id": "d",
+          "text": "das Brot, die Brote"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**die Butter** = butter\n\n*Example:* Für den Kuchen brauche ich 200 Gramm Butter.\nI need 200 grams of butter for the cake."
+    },
+    {
+      "id": "tb1-u03-l06-food-drink-2-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Am Sonntag holt Tom frische Brötchen zum Frühstück.",
+      "tiles": [
+        "Tom",
+        "gets",
+        "On",
+        "eat",
+        "breakfast",
+        "cheap",
+        "Sunday",
+        "at",
+        "for",
+        "fresh",
+        "rolls"
+      ],
+      "answers": [
+        "On Sunday Tom gets fresh rolls for breakfast."
+      ],
+      "explanation": "**das Brötchen** = bread roll\n*Plural: die Brötchen*"
+    },
+    {
+      "id": "tb1-u03-l06-food-drink-2-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „cheese“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "das Essen"
+        },
+        {
+          "id": "b",
+          "text": "der Kaffee"
+        },
+        {
+          "id": "c",
+          "text": "das Wasser"
+        },
+        {
+          "id": "d",
+          "text": "der Käse"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**der Käse** = cheese\n\n*Example:* Ich hätte gern 300 Gramm Käse, bitte.\nI'd like 300 grams of cheese, please."
+    },
+    {
+      "id": "tb1-u03-l06-food-drink-2-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I need 200 grams of butter for the cake.",
+      "tiles": [
+        "Gramm",
+        "mit",
+        "Für",
+        "nicht",
+        "sagt",
+        "200",
+        "ich",
+        "Butter",
+        "den",
+        "Kuchen",
+        "brauche"
+      ],
+      "answers": [
+        "Für den Kuchen brauche ich 200 Gramm Butter."
+      ],
+      "explanation": "**die Butter** = butter"
+    },
+    {
+      "id": "tb1-u03-l06-food-drink-2-ex09",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „egg“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "das Fleisch"
+        },
+        {
+          "id": "b",
+          "text": "die Milch"
+        },
+        {
+          "id": "c",
+          "text": "das Ei, die Eier"
+        },
+        {
+          "id": "d",
+          "text": "das Brötchen, die Brötchen"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**das Ei** = egg\n*Plural: die Eier*\n\n*Example:* Zum Frühstück isst Anna gern ein gekochtes Ei.\nAnna likes to eat a boiled egg for breakfast."
+    },
+    {
+      "id": "tb1-u03-l06-food-drink-2-ex10",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u03-l06-food-drink-2-4.mp3"
+      },
+      "tiles": [
+        "Käse",
+        "gern",
+        "heute",
+        "Ich",
+        "bitte",
+        "hätte",
+        "Vegetarier",
+        "300",
+        "Mein",
+        "Gramm"
+      ],
+      "answers": [
+        "Ich hätte gern 300 Gramm Käse, bitte."
+      ],
+      "explanation": "Ich hätte gern 300 Gramm Käse, bitte.\n*I'd like 300 grams of cheese, please.*\n\n**der Käse** = cheese"
+    },
+    {
+      "id": "tb1-u03-l06-food-drink-2-ex11",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Zum Frühstück isst Anna gern ein gekochtes Ei.",
+      "tiles": [
+        "fridge",
+        "a",
+        "breakfast",
+        "for",
+        "likes",
+        "to",
+        "with",
+        "Anna",
+        "egg",
+        "boiled",
+        "eat",
+        "I"
+      ],
+      "answers": [
+        "Anna likes to eat a boiled egg for breakfast."
+      ],
+      "explanation": "**das Ei** = egg\n*Plural: die Eier*"
+    }
+  ]
+}

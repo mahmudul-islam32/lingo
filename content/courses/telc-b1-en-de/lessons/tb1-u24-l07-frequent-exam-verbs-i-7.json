@@ -1,0 +1,285 @@
+{
+  "id": "tb1-u24-l07-frequent-exam-verbs-i-7",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u24",
+  "title": "Frequent Exam Verbs I 7",
+  "tip": "Theme: Verben: Prüfungshäufig I (B1)",
+  "exercises": [
+    {
+      "id": "tb1-u24-l07-frequent-exam-verbs-i-7-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "wählen",
+          "known": "to choose / to elect"
+        },
+        {
+          "id": "p2",
+          "learning": "tauschen",
+          "known": "to swap / exchange"
+        },
+        {
+          "id": "p3",
+          "learning": "verkaufen",
+          "known": "to sell"
+        },
+        {
+          "id": "p4",
+          "learning": "gründen",
+          "known": "to found / start (a company)"
+        },
+        {
+          "id": "p5",
+          "learning": "vorbeikommen",
+          "known": "to drop by"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u24-l07-frequent-exam-verbs-i-7-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which one means „to choose / to elect“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "ziehen"
+        },
+        {
+          "id": "b",
+          "text": "erhalten (erhält)"
+        },
+        {
+          "id": "c",
+          "text": "versuchen"
+        },
+        {
+          "id": "d",
+          "text": "wählen"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**wählen** = to choose / to elect\n\n*Example:* Im Restaurant wähle ich heute die Gemüsesuppe.\nAt the restaurant today I'm choosing the vegetable soup."
+    },
+    {
+      "id": "tb1-u24-l07-frequent-exam-verbs-i-7-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which one means „to swap / exchange“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "zuschicken"
+        },
+        {
+          "id": "b",
+          "text": "rauchen"
+        },
+        {
+          "id": "c",
+          "text": "erhalten (erhält)"
+        },
+        {
+          "id": "d",
+          "text": "tauschen"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**tauschen** = to swap / exchange\n\n*Example:* Die Hose ist zu klein, ich möchte sie tauschen.\nThe trousers are too small, I'd like to exchange them."
+    },
+    {
+      "id": "tb1-u24-l07-frequent-exam-verbs-i-7-ex04",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u24-l07-frequent-exam-verbs-i-7-1.mp3"
+      },
+      "tiles": [
+        "wähle",
+        "heute",
+        "Gemüsesuppe",
+        "ich",
+        "Formular",
+        "Im",
+        "Deutschkurs",
+        "Restaurant",
+        "dem",
+        "die"
+      ],
+      "answers": [
+        "Im Restaurant wähle ich heute die Gemüsesuppe."
+      ],
+      "explanation": "Im Restaurant wähle ich heute die Gemüsesuppe.\n*At the restaurant today I'm choosing the vegetable soup.*\n\n**wählen** = to choose / to elect"
+    },
+    {
+      "id": "tb1-u24-l07-frequent-exam-verbs-i-7-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which one means „to sell“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "organisieren"
+        },
+        {
+          "id": "b",
+          "text": "verkaufen"
+        },
+        {
+          "id": "c",
+          "text": "wählen"
+        },
+        {
+          "id": "d",
+          "text": "singen"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**verkaufen** = to sell\n\n*Example:* Mein Nachbar verkauft sein altes Fahrrad im Internet.\nMy neighbour is selling his old bike online."
+    },
+    {
+      "id": "tb1-u24-l07-frequent-exam-verbs-i-7-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Die Hose ist zu klein, ich möchte sie tauschen.",
+      "tiles": [
+        "mostly",
+        "trousers",
+        "is",
+        "too",
+        "are",
+        "exchange",
+        "to",
+        "oil",
+        "like",
+        "small",
+        "them",
+        "The",
+        "I'd"
+      ],
+      "answers": [
+        "The trousers are too small, I'd like to exchange them."
+      ],
+      "explanation": "**tauschen** = to swap / exchange"
+    },
+    {
+      "id": "tb1-u24-l07-frequent-exam-verbs-i-7-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which one means „to found / start (a company)“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "passieren"
+        },
+        {
+          "id": "b",
+          "text": "gründen"
+        },
+        {
+          "id": "c",
+          "text": "erfahren (erfährt)"
+        },
+        {
+          "id": "d",
+          "text": "verkaufen"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**gründen** = to found / start (a company)\n\n*Example:* Ali hat vor zwei Jahren eine kleine Firma gegründet.\nAli founded a small company two years ago."
+    },
+    {
+      "id": "tb1-u24-l07-frequent-exam-verbs-i-7-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "My neighbour is selling his old bike online.",
+      "tiles": [
+        "altes",
+        "Internet",
+        "Fahrrad",
+        "Nachbar",
+        "einen",
+        "verkauft",
+        "im",
+        "Mein",
+        "sein",
+        "Vater",
+        "erhalten"
+      ],
+      "answers": [
+        "Mein Nachbar verkauft sein altes Fahrrad im Internet."
+      ],
+      "explanation": "**verkaufen** = to sell"
+    },
+    {
+      "id": "tb1-u24-l07-frequent-exam-verbs-i-7-ex09",
+      "type": "multiple_choice",
+      "prompt": "Which one means „to drop by“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "organisieren"
+        },
+        {
+          "id": "b",
+          "text": "vorbeikommen"
+        },
+        {
+          "id": "c",
+          "text": "verkaufen"
+        },
+        {
+          "id": "d",
+          "text": "tragen (trägt)"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**vorbeikommen** = to drop by\n\n*Example:* Komm doch heute Abend bei uns vorbei!\nWhy don't you drop by our place this evening!"
+    },
+    {
+      "id": "tb1-u24-l07-frequent-exam-verbs-i-7-ex10",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u24-l07-frequent-exam-verbs-i-7-4.mp3"
+      },
+      "tiles": [
+        "Jahren",
+        "Hose",
+        "Ali",
+        "gegründet",
+        "hat",
+        "zwei",
+        "kleine",
+        "Firma",
+        "erläutert",
+        "eine",
+        "Ich",
+        "vor"
+      ],
+      "answers": [
+        "Ali hat vor zwei Jahren eine kleine Firma gegründet."
+      ],
+      "explanation": "Ali hat vor zwei Jahren eine kleine Firma gegründet.\n*Ali founded a small company two years ago.*\n\n**gründen** = to found / start (a company)"
+    },
+    {
+      "id": "tb1-u24-l07-frequent-exam-verbs-i-7-ex11",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Komm doch heute Abend bei uns vorbei!",
+      "tiles": [
+        "drop",
+        "Why",
+        "colleague",
+        "In",
+        "don't",
+        "evening",
+        "by",
+        "our",
+        "place",
+        "his",
+        "this",
+        "you"
+      ],
+      "answers": [
+        "Why don't you drop by our place this evening!"
+      ],
+      "explanation": "**vorbeikommen** = to drop by"
+    }
+  ]
+}

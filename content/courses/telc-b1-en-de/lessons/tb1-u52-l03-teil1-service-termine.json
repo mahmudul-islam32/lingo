@@ -1,0 +1,110 @@
+{
+  "id": "tb1-u52-l03-teil1-service-termine",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u52",
+  "title": "Part 1 · Service & Termine",
+  "tip": "Each text runs only once in the exam.",
+  "exercises": [
+    {
+      "id": "tb1-u52-l03-teil1-service-termine-ex01",
+      "type": "explain",
+      "title": "Teil 1 · Globalverstehen",
+      "body": "**5 short texts (messages, announcements), each played only once.** Read the statement first, then listen for the one detail it checks: confirmed or cancelled, which platform, which day, what time.\n\nThe right answer is often a paraphrase (*zusätzliche Kasse* = *an Kasse vier ist jetzt auch geöffnet*)."
+    },
+    {
+      "id": "tb1-u52-l03-teil1-service-termine-ex02",
+      "type": "listening",
+      "title": "Hören Teil 1 · Text 1 von 5 · Service & Termine",
+      "transcript": "Praxis Dr. Lang. Wegen einer Fortbildung bleibt die Praxis am Freitag geschlossen. In Notfällen wenden Sie sich bitte an die Praxis Dr. Ohm.",
+      "prompt": "41. Am Freitag ist die Praxis Dr. Lang geöffnet. Richtig oder falsch?",
+      "options": [
+        {
+          "id": "a",
+          "text": "richtig"
+        },
+        {
+          "id": "b",
+          "text": "falsch"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Falsch.** „am Freitag geschlossen“."
+    },
+    {
+      "id": "tb1-u52-l03-teil1-service-termine-ex03",
+      "type": "listening",
+      "title": "Hören Teil 1 · Text 2 von 5 · Service & Termine",
+      "transcript": "Information für unsere Fahrgäste: Die Buslinie sieben fährt heute nur bis zur Stadtmitte.",
+      "prompt": "42. Der Bus fährt heute die ganze Strecke. Richtig oder falsch?",
+      "options": [
+        {
+          "id": "a",
+          "text": "richtig"
+        },
+        {
+          "id": "b",
+          "text": "falsch"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Falsch.** „nur bis zur Stadtmitte“. Einschränkung."
+    },
+    {
+      "id": "tb1-u52-l03-teil1-service-termine-ex04",
+      "type": "listening",
+      "title": "Hören Teil 1 · Text 3 von 5 · Service & Termine",
+      "transcript": "Der Deutschkurs am Montag fällt aus. Wir treffen uns stattdessen am Mittwoch zur gewohnten Zeit.",
+      "prompt": "43. Der Kurs findet diese Woche am Mittwoch statt. Richtig oder falsch?",
+      "options": [
+        {
+          "id": "a",
+          "text": "richtig"
+        },
+        {
+          "id": "b",
+          "text": "falsch"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Richtig.** „stattdessen am Mittwoch“. Korrektur, Mittwoch stimmt."
+    },
+    {
+      "id": "tb1-u52-l03-teil1-service-termine-ex05",
+      "type": "listening",
+      "title": "Hören Teil 1 · Text 4 von 5 · Service & Termine",
+      "transcript": "Liebe Gäste, das Frühstück gibt es von sieben bis zehn Uhr. Der Check-out ist bis elf Uhr möglich.",
+      "prompt": "44. Man kann bis elf Uhr auschecken. Richtig oder falsch?",
+      "options": [
+        {
+          "id": "a",
+          "text": "richtig"
+        },
+        {
+          "id": "b",
+          "text": "falsch"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Richtig.** „Check-out bis elf Uhr“."
+    },
+    {
+      "id": "tb1-u52-l03-teil1-service-termine-ex06",
+      "type": "listening",
+      "title": "Hören Teil 1 · Text 5 von 5 · Service & Termine",
+      "transcript": "Hier die Stadtbücherei. Ihr bestelltes Buch liegt bereit. Bitte holen Sie es innerhalb einer Woche ab.",
+      "prompt": "45. Das Buch muss innerhalb einer Woche abgeholt werden. Richtig oder falsch?",
+      "options": [
+        {
+          "id": "a",
+          "text": "richtig"
+        },
+        {
+          "id": "b",
+          "text": "falsch"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Richtig.** „innerhalb einer Woche abholen“. Paraphrase."
+    }
+  ]
+}

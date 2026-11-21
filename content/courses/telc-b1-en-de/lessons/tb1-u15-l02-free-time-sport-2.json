@@ -1,0 +1,290 @@
+{
+  "id": "tb1-u15-l02-free-time-sport-2",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u15",
+  "title": "Free Time & Sport 2",
+  "tip": "Theme: Freizeit / Sport (B1)",
+  "exercises": [
+    {
+      "id": "tb1-u15-l02-free-time-sport-2-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "Rad fahren",
+          "known": "to cycle"
+        },
+        {
+          "id": "p2",
+          "learning": "wandern",
+          "known": "to hike"
+        },
+        {
+          "id": "p3",
+          "learning": "joggen",
+          "known": "to jog"
+        },
+        {
+          "id": "p4",
+          "learning": "sich fit halten",
+          "known": "to keep fit"
+        },
+        {
+          "id": "p5",
+          "learning": "die Freizeit",
+          "known": "free time"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u15-l02-free-time-sport-2-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which verb means „to swim: swimming pool“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "wandern (ist gewandert) · spazieren gehen (ist spazieren gegangen)"
+        },
+        {
+          "id": "b",
+          "text": "sich fit halten"
+        },
+        {
+          "id": "c",
+          "text": "sich treffen mit + Dat. (hat sich getroffen)"
+        },
+        {
+          "id": "d",
+          "text": "schwimmen (ist geschwommen), das Schwimmbad, die Schwimmbäder"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**schwimmen (ist geschwommen), das Schwimmbad, die Schwimmbäder** = to swim: swimming pool\n\n*Example:* Im Sommer schwimmen die Kinder fast jeden Tag im Schwimmbad.\nIn summer the children swim in the swimming pool almost every day."
+    },
+    {
+      "id": "tb1-u15-l02-free-time-sport-2-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which verb means „to cycle“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "stattfinden (hat stattgefunden)"
+        },
+        {
+          "id": "b",
+          "text": "sich interessieren für + Akk. das Interesse an + Dat."
+        },
+        {
+          "id": "c",
+          "text": "Rad fahren (ist Rad gefahren)"
+        },
+        {
+          "id": "d",
+          "text": "sich treffen mit + Dat. (hat sich getroffen)"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**Rad fahren (ist Rad gefahren)** = to cycle\n\n*Example:* Am Wochenende fahren wir oft mit den Kindern Rad.\nAt the weekend we often go cycling with the children."
+    },
+    {
+      "id": "tb1-u15-l02-free-time-sport-2-ex04",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u15-l02-free-time-sport-2-1.mp3"
+      },
+      "tiles": [
+        "Im",
+        "jeden",
+        "fast",
+        "Kinder",
+        "im",
+        "Schwimmbad",
+        "brauchst",
+        "schwimmen",
+        "wir",
+        "Sommer",
+        "Verein",
+        "Tag",
+        "die"
+      ],
+      "answers": [
+        "Im Sommer schwimmen die Kinder fast jeden Tag im Schwimmbad."
+      ],
+      "explanation": "Im Sommer schwimmen die Kinder fast jeden Tag im Schwimmbad.\n*In summer the children swim in the swimming pool almost every day.*\n\n**schwimmen (ist geschwommen), das Schwimmbad, die Schwimmbäder** = to swim: swimming pool"
+    },
+    {
+      "id": "tb1-u15-l02-free-time-sport-2-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which verb means „to hike · to go for a walk“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "joggen (ist gejoggt)"
+        },
+        {
+          "id": "b",
+          "text": "wandern (ist gewandert) · spazieren gehen (ist spazieren gegangen)"
+        },
+        {
+          "id": "c",
+          "text": "sich fit halten"
+        },
+        {
+          "id": "d",
+          "text": "sich treffen mit + Dat. (hat sich getroffen)"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**wandern (ist gewandert) · spazieren gehen (ist spazieren gegangen)** = to hike · to go for a walk\n\n*Example:* Am Sonntag sind wir in den Bergen gewandert.\nOn Sunday we went hiking in the mountains."
+    },
+    {
+      "id": "tb1-u15-l02-free-time-sport-2-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Am Wochenende fahren wir oft mit den Kindern Rad.",
+      "tiles": [
+        "children",
+        "with",
+        "often",
+        "go",
+        "grandma",
+        "holiday",
+        "At",
+        "weekend",
+        "went",
+        "cycling",
+        "the",
+        "we",
+        "the"
+      ],
+      "answers": [
+        "At the weekend we often go cycling with the children."
+      ],
+      "explanation": "**Rad fahren (ist Rad gefahren)** = to cycle"
+    },
+    {
+      "id": "tb1-u15-l02-free-time-sport-2-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which verb means „to jog“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "joggen (ist gejoggt)"
+        },
+        {
+          "id": "b",
+          "text": "sich treffen mit + Dat. (hat sich getroffen)"
+        },
+        {
+          "id": "c",
+          "text": "sich interessieren für + Akk. das Interesse an + Dat."
+        },
+        {
+          "id": "d",
+          "text": "sich ausruhen · sich entspannen"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**joggen (ist gejoggt)** = to jog\n\n*Example:* Mein Kollege joggt jeden Morgen eine halbe Stunde im Park.\nMy colleague jogs in the park for half an hour every morning."
+    },
+    {
+      "id": "tb1-u15-l02-free-time-sport-2-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "On Sunday we went hiking in the mountains.",
+      "tiles": [
+        "sind",
+        "Sonntag",
+        "gewandert",
+        "wir",
+        "ich",
+        "einen",
+        "leider",
+        "in",
+        "Bergen",
+        "Am",
+        "den"
+      ],
+      "answers": [
+        "Am Sonntag sind wir in den Bergen gewandert."
+      ],
+      "explanation": "**wandern (ist gewandert) · spazieren gehen (ist spazieren gegangen)** = to hike · to go for a walk"
+    },
+    {
+      "id": "tb1-u15-l02-free-time-sport-2-ex09",
+      "type": "multiple_choice",
+      "prompt": "Which verb means „to keep fit“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "sich ausruhen · sich entspannen"
+        },
+        {
+          "id": "b",
+          "text": "Rad fahren (ist Rad gefahren)"
+        },
+        {
+          "id": "c",
+          "text": "sich fit halten"
+        },
+        {
+          "id": "d",
+          "text": "sich interessieren für + Akk. das Interesse an + Dat."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**sich fit halten** = to keep fit\n\n*Example:* Meine Oma ist 75 und hält sich mit Yoga fit.\nMy grandma is 75 and keeps fit by doing yoga."
+    },
+    {
+      "id": "tb1-u15-l02-free-time-sport-2-ex10",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u15-l02-free-time-sport-2-4.mp3"
+      },
+      "tiles": [
+        "Kollege",
+        "Morgen",
+        "einen",
+        "Stunde",
+        "Mein",
+        "Maria",
+        "halbe",
+        "im",
+        "jeden",
+        "Park",
+        "joggt",
+        "gern",
+        "eine"
+      ],
+      "answers": [
+        "Mein Kollege joggt jeden Morgen eine halbe Stunde im Park."
+      ],
+      "explanation": "Mein Kollege joggt jeden Morgen eine halbe Stunde im Park.\n*My colleague jogs in the park for half an hour every morning.*\n\n**joggen (ist gejoggt)** = to jog"
+    },
+    {
+      "id": "tb1-u15-l02-free-time-sport-2-ex11",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Meine Oma ist 75 und hält sich mit Yoga fit.",
+      "tiles": [
+        "keeps",
+        "library",
+        "75",
+        "yoga",
+        "and",
+        "is",
+        "grandma",
+        "by",
+        "My",
+        "doing",
+        "hobby",
+        "fit",
+        "starts"
+      ],
+      "answers": [
+        "My grandma is 75 and keeps fit by doing yoga."
+      ],
+      "explanation": "**sich fit halten** = to keep fit"
+    }
+  ]
+}

@@ -1,0 +1,242 @@
+{
+  "id": "tb1-u20-l03-verbs-with-prepositions-3",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u20",
+  "title": "Verbs with Prepositions 3",
+  "tip": "Theme: Verben mit Präposition (B1)",
+  "exercises": [
+    {
+      "id": "tb1-u20-l03-verbs-with-prepositions-3-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "sich gewöhnen an",
+          "known": "to get used to"
+        },
+        {
+          "id": "p2",
+          "learning": "bestehen aus",
+          "known": "to consist of"
+        },
+        {
+          "id": "p3",
+          "learning": "achten auf",
+          "known": "to pay attention to"
+        },
+        {
+          "id": "p4",
+          "learning": "sich beschweren über",
+          "known": "to complain about"
+        },
+        {
+          "id": "p5",
+          "learning": "sich interessieren für",
+          "known": "to be interested in"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u20-l03-verbs-with-prepositions-3-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which verb means „to get used to“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "sich handeln um + Akk."
+        },
+        {
+          "id": "b",
+          "text": "sich freuen über + Akk."
+        },
+        {
+          "id": "c",
+          "text": "sich gewöhnen an + Akk."
+        },
+        {
+          "id": "d",
+          "text": "sich entscheiden für + Akk."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**sich gewöhnen an + Akk.** = to get used to\n\n*Example:* Ich habe mich an das kalte Wetter in Deutschland gewöhnt.\nI've got used to the cold weather in Germany."
+    },
+    {
+      "id": "tb1-u20-l03-verbs-with-prepositions-3-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which one means „to consist of“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "bestehen aus + Dat."
+        },
+        {
+          "id": "b",
+          "text": "gehören zu + Dat."
+        },
+        {
+          "id": "c",
+          "text": "denken an + Akk."
+        },
+        {
+          "id": "d",
+          "text": "abhängen von + Dat."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**bestehen aus + Dat.** = to consist of\n\n*Example:* Die Wohnung besteht aus drei Zimmern, Küche und Bad.\nThe flat consists of three rooms, a kitchen and a bathroom."
+    },
+    {
+      "id": "tb1-u20-l03-verbs-with-prepositions-3-ex04",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u20-l03-verbs-with-prepositions-3-1.mp3"
+      },
+      "tiles": [
+        "an",
+        "gewöhnt",
+        "Ich",
+        "habe",
+        "kalte",
+        "Wetter",
+        "meine",
+        "in",
+        "das",
+        "Computerkurs",
+        "Deutschland",
+        "die",
+        "mich"
+      ],
+      "answers": [
+        "Ich habe mich an das kalte Wetter in Deutschland gewöhnt."
+      ],
+      "explanation": "Ich habe mich an das kalte Wetter in Deutschland gewöhnt.\n*I've got used to the cold weather in Germany.*\n\n**sich gewöhnen an + Akk.** = to get used to"
+    },
+    {
+      "id": "tb1-u20-l03-verbs-with-prepositions-3-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which one means „to pay attention to“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "bitten um + Akk."
+        },
+        {
+          "id": "b",
+          "text": "gehören zu + Dat."
+        },
+        {
+          "id": "c",
+          "text": "warten auf + Akk."
+        },
+        {
+          "id": "d",
+          "text": "achten auf + Akk."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**achten auf + Akk.** = to pay attention to\n\n*Example:* Achte bitte auf die Kinder, wenn sie über die Straße gehen.\nPlease keep an eye on the children when they cross the road."
+    },
+    {
+      "id": "tb1-u20-l03-verbs-with-prepositions-3-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Die Wohnung besteht aus drei Zimmern, Küche und Bad.",
+      "tiles": [
+        "and",
+        "my",
+        "kitchen",
+        "The",
+        "consists",
+        "of",
+        "rooms",
+        "three",
+        "a",
+        "always",
+        "a",
+        "bathroom",
+        "children",
+        "flat"
+      ],
+      "answers": [
+        "The flat consists of three rooms, a kitchen and a bathroom."
+      ],
+      "explanation": "**bestehen aus + Dat.** = to consist of"
+    },
+    {
+      "id": "tb1-u20-l03-verbs-with-prepositions-3-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which verb means „to complain about“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "sich freuen auf + Akk."
+        },
+        {
+          "id": "b",
+          "text": "sich beschweren über + Akk."
+        },
+        {
+          "id": "c",
+          "text": "sich entscheiden für + Akk."
+        },
+        {
+          "id": "d",
+          "text": "sich handeln um + Akk."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**sich beschweren über + Akk.** = to complain about\n\n*Example:* Meine Nachbarin beschwert sich über die laute Musik.\nMy neighbour is complaining about the loud music."
+    },
+    {
+      "id": "tb1-u20-l03-verbs-with-prepositions-3-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Please keep an eye on the children when they cross the road.",
+      "tiles": [
+        "sie",
+        "bitte",
+        "über",
+        "die",
+        "wenn",
+        "Straße",
+        "gehen",
+        "auf",
+        "Denk",
+        "Team",
+        "Kinder",
+        "Achte",
+        "die",
+        "ich"
+      ],
+      "answers": [
+        "Achte bitte auf die Kinder, wenn sie über die Straße gehen."
+      ],
+      "explanation": "**achten auf + Akk.** = to pay attention to"
+    },
+    {
+      "id": "tb1-u20-l03-verbs-with-prepositions-3-ex09",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u20-l03-verbs-with-prepositions-3-4.mp3"
+      },
+      "tiles": [
+        "ich",
+        "das",
+        "sich",
+        "über",
+        "laute",
+        "Nachbarin",
+        "Musik",
+        "mich",
+        "beschwert",
+        "Meine",
+        "die"
+      ],
+      "answers": [
+        "Meine Nachbarin beschwert sich über die laute Musik."
+      ],
+      "explanation": "Meine Nachbarin beschwert sich über die laute Musik.\n*My neighbour is complaining about the loud music.*\n\n**sich beschweren über + Akk.** = to complain about"
+    }
+  ]
+}

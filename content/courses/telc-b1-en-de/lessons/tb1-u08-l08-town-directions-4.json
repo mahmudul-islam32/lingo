@@ -1,0 +1,233 @@
+{
+  "id": "tb1-u08-l08-town-directions-4",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u08",
+  "title": "Town & Directions 4",
+  "tip": "Theme: Stadt & Wege (A2)",
+  "exercises": [
+    {
+      "id": "tb1-u08-l08-town-directions-4-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "die Bank",
+          "known": "bank"
+        },
+        {
+          "id": "p2",
+          "learning": "die Post",
+          "known": "post office"
+        },
+        {
+          "id": "p3",
+          "learning": "in der Nähe",
+          "known": "nearby"
+        },
+        {
+          "id": "p4",
+          "learning": "weit",
+          "known": "far"
+        },
+        {
+          "id": "p5",
+          "learning": "die Stadt",
+          "known": "city / town"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u08-l08-town-directions-4-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „bank“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Brücke, die Brücken"
+        },
+        {
+          "id": "b",
+          "text": "die Bank, die Banken"
+        },
+        {
+          "id": "c",
+          "text": "die Ampel, die Ampeln"
+        },
+        {
+          "id": "d",
+          "text": "die Ecke, die Ecken"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**die Bank** = bank\n*Plural: die Banken*\n\n*Example:* Ich muss zur Bank und Geld abheben.\nI have to go to the bank and withdraw some money."
+    },
+    {
+      "id": "tb1-u08-l08-town-directions-4-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „post office“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Post"
+        },
+        {
+          "id": "b",
+          "text": "die Brücke, die Brücken"
+        },
+        {
+          "id": "c",
+          "text": "der Platz, die Plätze"
+        },
+        {
+          "id": "d",
+          "text": "die Bank, die Banken"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**die Post** = post office\n\n*Example:* Kannst du das Paket zur Post bringen?\nCan you take the parcel to the post office?"
+    },
+    {
+      "id": "tb1-u08-l08-town-directions-4-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Ich muss zur Bank und Geld abheben.",
+      "tiles": [
+        "to",
+        "and",
+        "have",
+        "money",
+        "station",
+        "to",
+        "I",
+        "withdraw",
+        "some",
+        "the",
+        "post",
+        "go",
+        "bank",
+        "you"
+      ],
+      "answers": [
+        "I have to go to the bank and withdraw some money."
+      ],
+      "explanation": "**die Bank** = bank\n*Plural: die Banken*"
+    },
+    {
+      "id": "tb1-u08-l08-town-directions-4-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which one means „nearby“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "in der Nähe"
+        },
+        {
+          "id": "b",
+          "text": "links"
+        },
+        {
+          "id": "c",
+          "text": "geradeaus"
+        },
+        {
+          "id": "d",
+          "text": "rechts"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**in der Nähe** = nearby\n\n*Example:* Gibt es hier in der Nähe einen Supermarkt?\nIs there a supermarket nearby?"
+    },
+    {
+      "id": "tb1-u08-l08-town-directions-4-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Can you take the parcel to the post office?",
+      "tiles": [
+        "über",
+        "Kannst",
+        "Paket",
+        "Post",
+        "bringen",
+        "zur",
+        "ist",
+        "du",
+        "das",
+        "es"
+      ],
+      "answers": [
+        "Kannst du das Paket zur Post bringen?"
+      ],
+      "explanation": "**die Post** = post office"
+    },
+    {
+      "id": "tb1-u08-l08-town-directions-4-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which one means „far“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "in der Nähe"
+        },
+        {
+          "id": "b",
+          "text": "weit"
+        },
+        {
+          "id": "c",
+          "text": "rechts"
+        },
+        {
+          "id": "d",
+          "text": "links"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**weit** = far\n\n*Example:* Ist der Bahnhof weit von hier?\nIs the station far from here?"
+    },
+    {
+      "id": "tb1-u08-l08-town-directions-4-ex08",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u08-l08-town-directions-4-3.mp3"
+      },
+      "tiles": [
+        "Ecke",
+        "Nähe",
+        "Gibt",
+        "es",
+        "Stadt",
+        "einen",
+        "hier",
+        "der",
+        "in",
+        "Supermarkt",
+        "ist"
+      ],
+      "answers": [
+        "Gibt es hier in der Nähe einen Supermarkt?"
+      ],
+      "explanation": "Gibt es hier in der Nähe einen Supermarkt?\n*Is there a supermarket nearby?*\n\n**in der Nähe** = nearby"
+    },
+    {
+      "id": "tb1-u08-l08-town-directions-4-ex09",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Ist der Bahnhof weit von hier?",
+      "tiles": [
+        "village",
+        "from",
+        "far",
+        "at",
+        "station",
+        "pharmacy",
+        "Is",
+        "here",
+        "the"
+      ],
+      "answers": [
+        "Is the station far from here?"
+      ],
+      "explanation": "**weit** = far"
+    }
+  ]
+}

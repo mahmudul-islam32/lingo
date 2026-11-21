@@ -1,0 +1,251 @@
+{
+  "id": "tb1-u29-l13-presentations-talks-2",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u29",
+  "title": "Presentations & Talks 2",
+  "tip": "Theme: Redemittel: Präsentation & Vortrag (B1)",
+  "exercises": [
+    {
+      "id": "tb1-u29-l13-presentations-talks-2-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "Die Grafik zeigt, dass …",
+          "known": "The chart shows that …"
+        },
+        {
+          "id": "p2",
+          "learning": "Bei uns ist das ganz ähnlich",
+          "known": "Where I come from it is quite similar."
+        },
+        {
+          "id": "p3",
+          "learning": "Ein Beispiel dafür ist …",
+          "known": "An example of this is …"
+        },
+        {
+          "id": "p4",
+          "learning": "Zuerst spreche ich über …, danach über …",
+          "known": "First I'll talk about …, then about …"
+        },
+        {
+          "id": "p5",
+          "learning": "Ich beginne mit …",
+          "known": "I'll start with …"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u29-l13-presentations-talks-2-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which phrase means „The chart shows that …“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ich möchte euch kurz etwas über … erzählen."
+        },
+        {
+          "id": "b",
+          "text": "Zuerst spreche ich über …, danach über …"
+        },
+        {
+          "id": "c",
+          "text": "Die Grafik zeigt, dass …"
+        },
+        {
+          "id": "d",
+          "text": "Vielen Dank fürs Zuhören!"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**Die Grafik zeigt, dass …** = The chart shows that …\n\n*Example:* Die Grafik zeigt, dass immer mehr Menschen mit dem Fahrrad fahren.\nThe chart shows that more and more people are cycling."
+    },
+    {
+      "id": "tb1-u29-l13-presentations-talks-2-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which phrase means „In my home country it is common that …“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ich möchte euch kurz etwas über … erzählen."
+        },
+        {
+          "id": "b",
+          "text": "In meinem Heimatland ist es üblich, dass …"
+        },
+        {
+          "id": "c",
+          "text": "Bei uns ist das ganz ähnlich."
+        },
+        {
+          "id": "d",
+          "text": "Die Grafik zeigt, dass …"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**In meinem Heimatland ist es üblich, dass …** = In my home country it is common that …\n\n*Example:* In meinem Heimatland ist es üblich, dass die ganze Familie zusammen isst.\nIn my home country it is common for the whole family to eat together."
+    },
+    {
+      "id": "tb1-u29-l13-presentations-talks-2-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "The chart shows that more and more people are cycling.",
+      "tiles": [
+        "immer",
+        "Geschichte",
+        "Grafik",
+        "mit",
+        "dafür",
+        "fahren",
+        "dem",
+        "Die",
+        "Menschen",
+        "mehr",
+        "zeigt",
+        "sagen",
+        "dass",
+        "Fahrrad"
+      ],
+      "answers": [
+        "Die Grafik zeigt, dass immer mehr Menschen mit dem Fahrrad fahren."
+      ],
+      "explanation": "**Die Grafik zeigt, dass …** = The chart shows that …"
+    },
+    {
+      "id": "tb1-u29-l13-presentations-talks-2-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which phrase means „Where I come from it is quite similar.“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Zum Schluss möchte ich noch sagen, dass …"
+        },
+        {
+          "id": "b",
+          "text": "Ein Beispiel dafür ist …"
+        },
+        {
+          "id": "c",
+          "text": "In meinem Heimatland ist es üblich, dass …"
+        },
+        {
+          "id": "d",
+          "text": "Bei uns ist das ganz ähnlich."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**Bei uns ist das ganz ähnlich.** = Where I come from it is quite similar.\n\n*Example:* In Deutschland feiert man Weihnachten mit der Familie. Bei uns ist das ganz ähnlich.\nIn Germany people celebrate Christmas with their family. Where I come from it's quite similar."
+    },
+    {
+      "id": "tb1-u29-l13-presentations-talks-2-ex06",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u29-l13-presentations-talks-2-2.mp3"
+      },
+      "tiles": [
+        "In",
+        "zusammen",
+        "Grafik",
+        "Heimatland",
+        "Beispiel",
+        "dass",
+        "meinem",
+        "ganze",
+        "üblich",
+        "isst",
+        "kurzen",
+        "ist",
+        "es",
+        "Familie",
+        "die"
+      ],
+      "answers": [
+        "In meinem Heimatland ist es üblich, dass die ganze Familie zusammen isst."
+      ],
+      "explanation": "In meinem Heimatland ist es üblich, dass die ganze Familie zusammen isst.\n*In my home country it is common for the whole family to eat together.*\n\n**In meinem Heimatland ist es üblich, dass …** = In my home country it is common that …"
+    },
+    {
+      "id": "tb1-u29-l13-presentations-talks-2-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which phrase means „An example of this is …“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Vielen Dank fürs Zuhören!"
+        },
+        {
+          "id": "b",
+          "text": "Ein Beispiel dafür ist …"
+        },
+        {
+          "id": "c",
+          "text": "Habt ihr noch Fragen?"
+        },
+        {
+          "id": "d",
+          "text": "Zum Schluss möchte ich noch sagen, dass …"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Ein Beispiel dafür ist …** = An example of this is …\n\n*Example:* Viele Kinder machen zu wenig Sport. Ein Beispiel dafür ist mein Neffe.\nMany children don't do enough sport. An example of this is my nephew."
+    },
+    {
+      "id": "tb1-u29-l13-presentations-talks-2-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "In Deutschland feiert man Weihnachten mit der Familie. Bei uns ist das ganz ähnlich.",
+      "tiles": [
+        "enough",
+        "In",
+        "with",
+        "Christmas",
+        "celebrate",
+        "After",
+        "I",
+        "their",
+        "people",
+        "it's",
+        "quite",
+        "from",
+        "similar",
+        "family",
+        "Germany",
+        "come",
+        "do",
+        "Where"
+      ],
+      "answers": [
+        "In Germany people celebrate Christmas with their family. Where I come from it's quite similar."
+      ],
+      "explanation": "**Bei uns ist das ganz ähnlich.** = Where I come from it is quite similar."
+    },
+    {
+      "id": "tb1-u29-l13-presentations-talks-2-ex09",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Many children don't do enough sport. An example of this is my nephew.",
+      "tiles": [
+        "Ein",
+        "hier",
+        "Umwelt",
+        "Kinder",
+        "zu",
+        "dafür",
+        "Neffe",
+        "Beispiel",
+        "mein",
+        "das",
+        "Viele",
+        "wenig",
+        "Sport",
+        "ist",
+        "machen"
+      ],
+      "answers": [
+        "Viele Kinder machen zu wenig Sport. Ein Beispiel dafür ist mein Neffe."
+      ],
+      "explanation": "**Ein Beispiel dafür ist …** = An example of this is …"
+    }
+  ]
+}

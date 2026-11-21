@@ -1,0 +1,129 @@
+{
+  "id": "tb1-u30-l18-relativ-rule",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u30",
+  "title": "Relative Clauses: the rule",
+  "tip": "“das Buch, was ich lese”, after a concrete noun never “was”, always der/die/das/den/dem.",
+  "exercises": [
+    {
+      "id": "tb1-u30-l18-relativ-rule-ex01",
+      "type": "explain",
+      "title": "Relative Clauses",
+      "body": "Relative pronouns = almost like the articles (der/die/das/die), but **dative plural = denen**. Gender/number come from the reference word, **the case from its role inside the clause**. With a preposition: preposition first (…, mit dem ich arbeite). Verb to the end.\n\n*Deutsch:* Relativpronomen = fast wie der Artikel (der/die/das/die), aber **Dativ Plural = denen**. Genus/Numerus kommt vom Bezugswort, **der Kasus von der Rolle im Nebensatz**. Mit Präposition: Präposition zuerst (…, mit dem ich arbeite). Verb ans Ende.\n\n*German name:* Relativsätze",
+      "examples": [
+        {
+          "learning": "Das ist der Kollege, der mir geholfen hat.",
+          "known": "…who helped me. (nominative)"
+        },
+        {
+          "learning": "Die Leute, mit denen ich wohne, sind nett.",
+          "known": "…with whom I live. (mit + dative pl.)"
+        },
+        {
+          "learning": "Der Film, den wir gesehen haben, war toll.",
+          "known": "The film we saw was great. (accusative)"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u30-l18-relativ-rule-ex02",
+      "type": "explain",
+      "title": "Relative Clauses: step by step",
+      "body": "Finding the right pronoun, 3 questions:\n1) **Which word am I describing?** → gender & number (der Mann → masculine).\n2) **What role does it play INSIDE the relative clause?** Subject → nominative (der) · object → accusative (den) · after a dative verb or dative preposition → dative (dem/der/dem/denen).\n3) Preposition? It goes BEFORE the pronoun and sets the case: die Frau, **mit der** ich arbeite.\nThe forms = the articles, plus 2 extras: dative plural **denen**, genitive dessen/deren (B1: recognise only).\nVerb to the end, don't forget the commas.\n\n## Auf Deutsch\n\nSo findest du das richtige Pronomen, 3 Fragen:\n1) **Welches Wort beschreibe ich?** → Genus & Numerus (der Mann → maskulin).\n2) **Welche Rolle hat es IM Relativsatz?** Subjekt → Nominativ (der) · Objekt → Akkusativ (den) · nach Dativ-Verb oder Dativ-Präposition → Dativ (dem/der/dem/denen).\n3) Präposition? Sie steht VOR dem Pronomen und bestimmt den Kasus: die Frau, **mit der** ich arbeite.\nFormen-Tabelle = Artikel, nur 2 Extras: Dativ Plural **denen**, Genitiv dessen/deren (B1: nur erkennen).\nVerb ans Ende, Kommas nicht vergessen.",
+      "examples": [
+        {
+          "learning": "Das ist der Kollege, der mir geholfen hat.",
+          "known": "…who helped me. (nominative)"
+        },
+        {
+          "learning": "Die Leute, mit denen ich wohne, sind nett.",
+          "known": "…with whom I live. (mit + dative pl.)"
+        },
+        {
+          "learning": "Der Film, den wir gesehen haben, war toll.",
+          "known": "The film we saw was great. (accusative)"
+        },
+        {
+          "learning": "Das Hotel, in dem wir gewohnt haben, lag am Strand.",
+          "known": "The hotel we stayed in was on the beach."
+        },
+        {
+          "learning": "Testlücke-Stil: „Der Nachbar, ___ ich oft helfe, ist alt.“ → dem",
+          "known": "helfen + dative → dem"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u30-l18-relativ-rule-ex03",
+      "type": "explain",
+      "title": "Watch out & exam tip",
+      "body": "## Common trap\n\n“das Buch, was ich lese”, after a concrete noun never “was”, always der/die/das/den/dem.\n\n*Deutsch:* „das Buch, was ich lese“, nach einem konkreten Nomen nie „was“, immer der/die/das/den/dem.\n\n## In the exam\n\n🎯 How telc tests it: in **Sprachbausteine** the gap is often exactly the relative pronoun (den? dem? denen?). In the **letter**, one clean relative clause (“die Wohnung, die ich gemietet habe”) instantly signals B1, criterion III.\n\n*Deutsch:* 🎯 So testet telc das: In **Sprachbausteine** ist die Lücke oft genau das Relativpronomen (den? dem? denen?). Im **Brief** zeigt ein sauberer Relativsatz („die Wohnung, die ich gemietet habe“) sofort B1-Niveau. Kriterium III.\n\n*Source:* Guide B7 · PDF „Relativsatz“"
+    },
+    {
+      "id": "tb1-u30-l18-relativ-rule-ex04",
+      "type": "choice",
+      "title": "Fill the gap",
+      "prompt": "Das ist der Mann, ___ neben uns wohnt.",
+      "options": [
+        {
+          "id": "a",
+          "text": "den"
+        },
+        {
+          "id": "b",
+          "text": "der"
+        },
+        {
+          "id": "c",
+          "text": "dem"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Im Nebensatz ist „der Mann“ Subjekt (er wohnt) → Nominativ: der."
+    },
+    {
+      "id": "tb1-u30-l18-relativ-rule-ex05",
+      "type": "choice",
+      "title": "Fill the gap",
+      "prompt": "Das ist das Handy, ___ ich mir kaufen möchte.",
+      "options": [
+        {
+          "id": "a",
+          "text": "dem"
+        },
+        {
+          "id": "b",
+          "text": "was"
+        },
+        {
+          "id": "c",
+          "text": "das"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Bezugswort das Handy, im Nebensatz Akkusativ-Objekt → das. Nie „was“ nach konkretem Nomen."
+    },
+    {
+      "id": "tb1-u30-l18-relativ-rule-ex06",
+      "type": "choice",
+      "title": "Fill the gap",
+      "prompt": "Die Kollegin, ___ ich oft helfe, ist sehr nett.",
+      "options": [
+        {
+          "id": "a",
+          "text": "den"
+        },
+        {
+          "id": "b",
+          "text": "der"
+        },
+        {
+          "id": "c",
+          "text": "die"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "helfen + Dativ! die Kollegin → Dativ feminin = der."
+    }
+  ]
+}

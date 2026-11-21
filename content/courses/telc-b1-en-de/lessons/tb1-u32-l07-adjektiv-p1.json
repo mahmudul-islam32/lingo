@@ -1,0 +1,346 @@
+{
+  "id": "tb1-u32-l07-adjektiv-p1",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u32",
+  "title": "Adjective Endings: Nach der / die / das & Nach ein / kein / mein",
+  "tip": "Dative endings after ein-words: “mit meinem alten Freund” (not “altem”, the -em is already on meinem).",
+  "exercises": [
+    {
+      "id": "tb1-u32-l07-adjektiv-p1-ex01",
+      "type": "explain",
+      "title": "Nach der / die / das",
+      "body": "Nominative singular + acc. fem./neut.: -e. Otherwise: -en.\n\n*Deutsch:* Nominativ Singular + Akk. fem./neutr.: -e. Sonst: -en.\n\n## Pattern\n\nder/die/das + Adjektiv-**e** · den/dem/den + Adjektiv-**en**",
+      "examples": [
+        {
+          "learning": "Der neue Kollege ist sehr nett.",
+          "known": "The new colleague is very nice."
+        },
+        {
+          "learning": "Ich nehme die rote Jacke.",
+          "known": "I'll take the red jacket."
+        }
+      ]
+    },
+    {
+      "id": "tb1-u32-l07-adjektiv-p1-ex02",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "The new colleague is very nice.",
+      "tiles": [
+        "neue",
+        "Fotos",
+        "ist",
+        "sehr",
+        "du",
+        "neuen",
+        "nett",
+        "Der",
+        "Kollege"
+      ],
+      "answers": [
+        "Der neue Kollege ist sehr nett."
+      ],
+      "explanation": "**Why:** Nominative masculine after der → -e.\n\n*Warum:* Nominativ maskulin nach der → -e."
+    },
+    {
+      "id": "tb1-u32-l07-adjektiv-p1-ex03",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I'll take the red jacket.",
+      "tiles": [
+        "Jacke",
+        "rote",
+        "Wetter",
+        "die",
+        "machen",
+        "Der",
+        "nehme",
+        "Ich"
+      ],
+      "answers": [
+        "Ich nehme die rote Jacke."
+      ],
+      "explanation": "**Why:** Accusative feminine → -e.\n\n*Warum:* Akkusativ feminin → -e."
+    },
+    {
+      "id": "tb1-u32-l07-adjektiv-p1-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Do you know the new film?",
+      "tiles": [
+        "Kennst",
+        "Mit",
+        "neuen",
+        "meinem",
+        "den",
+        "du",
+        "Film",
+        "günstige"
+      ],
+      "answers": [
+        "Kennst du den neuen Film?"
+      ],
+      "explanation": "**Why:** Accusative masculine → -en.\n\n*Warum:* Akkusativ maskulin → -en."
+    },
+    {
+      "id": "tb1-u32-l07-adjektiv-p1-ex05",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "We live in the big house.",
+      "tiles": [
+        "in",
+        "Mit",
+        "Haus",
+        "suchen",
+        "Ich",
+        "großen",
+        "dem",
+        "wohnen",
+        "Wir"
+      ],
+      "answers": [
+        "Wir wohnen in dem großen Haus."
+      ],
+      "explanation": "**Why:** Dative → always -en.\n\n*Warum:* Dativ → immer -en."
+    },
+    {
+      "id": "tb1-u32-l07-adjektiv-p1-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "The small children are playing outside.",
+      "tiles": [
+        "draußen",
+        "Kinder",
+        "schönem",
+        "→",
+        "eine",
+        "Die",
+        "spielen",
+        "kleinen"
+      ],
+      "answers": [
+        "Die kleinen Kinder spielen draußen."
+      ],
+      "explanation": "**Why:** Plural → -en.\n\n*Warum:* Plural → -en."
+    },
+    {
+      "id": "tb1-u32-l07-adjektiv-p1-ex07",
+      "type": "explain",
+      "title": "Nach ein / kein / mein",
+      "body": "Where ein has no ending, the adjective shows it: ein netter Mann, ein kleines Kind.\n\n*Deutsch:* Wo ein keine Endung hat, zeigt das Adjektiv sie: ein netter Mann, ein kleines Kind.\n\n## Pattern\n\nein + Adj.-**er** (m) · eine + Adj.-**e** (f) · ein + Adj.-**es** (n)",
+      "examples": [
+        {
+          "learning": "Das ist ein guter Plan.",
+          "known": "That's a good plan."
+        },
+        {
+          "learning": "Ich habe eine neue Wohnung.",
+          "known": "I have a new flat."
+        }
+      ]
+    },
+    {
+      "id": "tb1-u32-l07-adjektiv-p1-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "That's a good plan.",
+      "tiles": [
+        "Plan",
+        "ist",
+        "gehen",
+        "Das",
+        "gern",
+        "und",
+        "ein",
+        "guter"
+      ],
+      "answers": [
+        "Das ist ein guter Plan."
+      ],
+      "explanation": "**Why:** ein (masc. nom.) → adjective shows -er.\n\n*Warum:* ein (mask. Nom.) → Adjektiv zeigt -er."
+    },
+    {
+      "id": "tb1-u32-l07-adjektiv-p1-ex09",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I have a new flat.",
+      "tiles": [
+        "habe",
+        "suchen",
+        "eine",
+        "Film",
+        "Die",
+        "Ich",
+        "Wohnung",
+        "neue"
+      ],
+      "answers": [
+        "Ich habe eine neue Wohnung."
+      ],
+      "explanation": "**Why:** Feminine → -e.\n\n*Warum:* Feminin → -e."
+    },
+    {
+      "id": "tb1-u32-l07-adjektiv-p1-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "She has a small child.",
+      "tiles": [
+        "ein",
+        "Kind",
+        "kleines",
+        "meinem",
+        "Sie",
+        "mit",
+        "hat",
+        "Viele"
+      ],
+      "answers": [
+        "Sie hat ein kleines Kind."
+      ],
+      "explanation": "**Why:** Neuter → -es (like das).\n\n*Warum:* Neutrum → -es (wie das)."
+    },
+    {
+      "id": "tb1-u32-l07-adjektiv-p1-ex11",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I'm looking for a cheap fridge.",
+      "tiles": [
+        "günstigen",
+        "Ich",
+        "einen",
+        "kann",
+        "Kühlschrank",
+        "keine",
+        "suche",
+        "Job"
+      ],
+      "answers": [
+        "Ich suche einen günstigen Kühlschrank."
+      ],
+      "explanation": "**Why:** einen already shows the ending → -en.\n\n*Warum:* einen hat schon die Endung → -en."
+    },
+    {
+      "id": "tb1-u32-l07-adjektiv-p1-ex12",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I can't take photos with my old phone.",
+      "tiles": [
+        "kann",
+        "kleinen",
+        "alten",
+        "Fotos",
+        "dem",
+        "Handy",
+        "einen",
+        "keine",
+        "Mit",
+        "meinem",
+        "ich",
+        "machen"
+      ],
+      "answers": [
+        "Mit meinem alten Handy kann ich keine Fotos machen."
+      ],
+      "explanation": "**Why:** Dative → -en.\n\n*Warum:* Dativ → -en."
+    },
+    {
+      "id": "tb1-u32-l07-adjektiv-p1-ex13",
+      "type": "choice",
+      "title": "Fill the gap",
+      "prompt": "Bei ___ Wetter machen wir ein Picknick.",
+      "options": [
+        {
+          "id": "a",
+          "text": "schönem"
+        },
+        {
+          "id": "b",
+          "text": "schönen"
+        },
+        {
+          "id": "c",
+          "text": "schönes"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Ohne Artikel übernimmt das Adjektiv die Endung: bei schönem Wetter (Dativ neutral)."
+    },
+    {
+      "id": "tb1-u32-l07-adjektiv-p1-ex14",
+      "type": "choice",
+      "title": "Fill the gap",
+      "prompt": "Sie trinkt gern ___ Kaffee.",
+      "options": [
+        {
+          "id": "a",
+          "text": "schwarzen"
+        },
+        {
+          "id": "b",
+          "text": "schwarzer"
+        },
+        {
+          "id": "c",
+          "text": "schwarzes"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Ohne Artikel, Akkusativ maskulin → -en: schwarzen Kaffee."
+    },
+    {
+      "id": "tb1-u32-l07-adjektiv-p1-ex15",
+      "type": "choice",
+      "title": "Find the mistake",
+      "prompt": "Which word is wrong? „Ich wohne in einem klein Haus.“",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ich"
+        },
+        {
+          "id": "b",
+          "text": "wohne"
+        },
+        {
+          "id": "c",
+          "text": "in"
+        },
+        {
+          "id": "d",
+          "text": "einem"
+        },
+        {
+          "id": "e",
+          "text": "klein"
+        },
+        {
+          "id": "f",
+          "text": "Haus"
+        }
+      ],
+      "correctOptionId": "e",
+      "explanation": "„klein“ → „kleinen“: **Ich wohne in einem kleinen Haus.**\n\nNach „einem“ (Dativ) bekommt das Adjektiv -en: in einem kleinen Haus."
+    },
+    {
+      "id": "tb1-u32-l07-adjektiv-p1-ex16",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Correct the sentence: „Ich wohne in einem klein Haus.“",
+      "tiles": [
+        "kleinen",
+        "klein",
+        "draußen",
+        "in",
+        "wohne",
+        "einem",
+        "Ich",
+        "den",
+        "Haus"
+      ],
+      "answers": [
+        "Ich wohne in einem kleinen Haus."
+      ],
+      "explanation": "Nach „einem“ (Dativ) bekommt das Adjektiv -en: in einem kleinen Haus."
+    }
+  ]
+}

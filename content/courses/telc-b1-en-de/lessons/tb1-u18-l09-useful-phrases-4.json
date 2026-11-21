@@ -1,0 +1,242 @@
+{
+  "id": "tb1-u18-l09-useful-phrases-4",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u18",
+  "title": "Useful Phrases 4",
+  "tip": "Theme: Redemittel (B1)",
+  "exercises": [
+    {
+      "id": "tb1-u18-l09-useful-phrases-4-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "An deiner Stelle würde ich …",
+          "known": "If I were you"
+        },
+        {
+          "id": "p2",
+          "learning": "Es wäre besser, wenn …",
+          "known": "It would be better if …"
+        },
+        {
+          "id": "p3",
+          "learning": "Am besten wäre es, wenn wir …",
+          "known": "The best thing would be if we …"
+        },
+        {
+          "id": "p4",
+          "learning": "Du solltest unbedingt …",
+          "known": "You really should …"
+        },
+        {
+          "id": "p5",
+          "learning": "Aus meiner Sicht …",
+          "known": "From my point of view …"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u18-l09-useful-phrases-4-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which one means „If I were you, I would …“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Das hat den Vorteil / den Nachteil, dass …"
+        },
+        {
+          "id": "b",
+          "text": "An deiner Stelle würde ich …"
+        },
+        {
+          "id": "c",
+          "text": "Dazu kommt, dass …"
+        },
+        {
+          "id": "d",
+          "text": "Zuerst …, dann …, zum Schluss …"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**An deiner Stelle würde ich …** = If I were you, I would …\n\n*Example:* An deiner Stelle würde ich sofort zum Arzt gehen.\nIf I were you, I would go to the doctor right away."
+    },
+    {
+      "id": "tb1-u18-l09-useful-phrases-4-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which one means „It would be better if …“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Im Gegensatz dazu …"
+        },
+        {
+          "id": "b",
+          "text": "Es wäre besser, wenn …"
+        },
+        {
+          "id": "c",
+          "text": "Soweit ich weiß, … (+ verb next!)"
+        },
+        {
+          "id": "d",
+          "text": "An deiner Stelle würde ich …"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Es wäre besser, wenn …** = It would be better if …\n\n*Example:* Es wäre besser, wenn du heute früh ins Bett gehst.\nIt would be better if you went to bed early tonight."
+    },
+    {
+      "id": "tb1-u18-l09-useful-phrases-4-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "An deiner Stelle würde ich sofort zum Arzt gehen.",
+      "tiles": [
+        "think",
+        "to",
+        "away",
+        "office",
+        "the",
+        "go",
+        "you",
+        "right",
+        "would",
+        "doctor",
+        "I",
+        "were",
+        "If",
+        "are",
+        "I"
+      ],
+      "answers": [
+        "If I were you, I would go to the doctor right away."
+      ],
+      "explanation": "**An deiner Stelle würde ich …** = If I were you, I would …"
+    },
+    {
+      "id": "tb1-u18-l09-useful-phrases-4-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which one means „The best thing would be if we …“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Am besten wäre es, wenn wir …"
+        },
+        {
+          "id": "b",
+          "text": "Ich halte das für eine gute Idee."
+        },
+        {
+          "id": "c",
+          "text": "Einerseits …, andererseits …"
+        },
+        {
+          "id": "d",
+          "text": "Besonders gut gefällt mir, dass …"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Am besten wäre es, wenn wir …** = The best thing would be if we …\n\n*Example:* Am besten wäre es, wenn wir den Zug um acht Uhr nehmen.\nThe best thing would be if we took the train at eight o'clock."
+    },
+    {
+      "id": "tb1-u18-l09-useful-phrases-4-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "It would be better if you went to bed early tonight.",
+      "tiles": [
+        "wenn",
+        "Es",
+        "früh",
+        "ins",
+        "besser",
+        "heute",
+        "ist",
+        "Freizeitangebote",
+        "Bett",
+        "gehst",
+        "du",
+        "ruhiger",
+        "wäre"
+      ],
+      "answers": [
+        "Es wäre besser, wenn du heute früh ins Bett gehst."
+      ],
+      "explanation": "**Es wäre besser, wenn …** = It would be better if …"
+    },
+    {
+      "id": "tb1-u18-l09-useful-phrases-4-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which one means „You really should …“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Soweit ich weiß, … (+ verb next!)"
+        },
+        {
+          "id": "b",
+          "text": "Am besten wäre es, wenn wir …"
+        },
+        {
+          "id": "c",
+          "text": "Du solltest unbedingt …"
+        },
+        {
+          "id": "d",
+          "text": "An deiner Stelle würde ich …"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**Du solltest unbedingt …** = You really should …\n\n*Example:* Du solltest unbedingt eine Haftpflichtversicherung abschließen.\nYou really should take out liability insurance."
+    },
+    {
+      "id": "tb1-u18-l09-useful-phrases-4-ex08",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u18-l09-useful-phrases-4-3.mp3"
+      },
+      "tiles": [
+        "Kollege",
+        "wenn",
+        "den",
+        "wir",
+        "um",
+        "Zug",
+        "es",
+        "geschlossen",
+        "wäre",
+        "dass",
+        "besten",
+        "Am",
+        "acht",
+        "nehmen",
+        "Uhr"
+      ],
+      "answers": [
+        "Am besten wäre es, wenn wir den Zug um acht Uhr nehmen."
+      ],
+      "explanation": "Am besten wäre es, wenn wir den Zug um acht Uhr nehmen.\n*The best thing would be if we took the train at eight o'clock.*\n\n**Am besten wäre es, wenn wir …** = The best thing would be if we …"
+    },
+    {
+      "id": "tb1-u18-l09-useful-phrases-4-ex09",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Du solltest unbedingt eine Haftpflichtversicherung abschließen.",
+      "tiles": [
+        "expensive",
+        "liability",
+        "really",
+        "You",
+        "traffic",
+        "insurance",
+        "should",
+        "take",
+        "out",
+        "The"
+      ],
+      "answers": [
+        "You really should take out liability insurance."
+      ],
+      "explanation": "**Du solltest unbedingt …** = You really should …"
+    }
+  ]
+}

@@ -1,0 +1,284 @@
+{
+  "id": "tb1-u22-l03-adjectives-b1-3",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u22",
+  "title": "Adjectives (B1) 3",
+  "tip": "Theme: Adjektive (B1) (B1)",
+  "exercises": [
+    {
+      "id": "tb1-u22-l03-adjectives-b1-3-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "wahrscheinlich",
+          "known": "probable / likely"
+        },
+        {
+          "id": "p2",
+          "learning": "vorsichtig",
+          "known": "careful"
+        },
+        {
+          "id": "p3",
+          "learning": "aufmerksam",
+          "known": "attentive"
+        },
+        {
+          "id": "p4",
+          "learning": "geeignet",
+          "known": "suitable"
+        },
+        {
+          "id": "p5",
+          "learning": "angenehm",
+          "known": "pleasant"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u22-l03-adjectives-b1-3-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which one means „probable / likely“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "wahrscheinlich"
+        },
+        {
+          "id": "b",
+          "text": "nützlich"
+        },
+        {
+          "id": "c",
+          "text": "erforderlich"
+        },
+        {
+          "id": "d",
+          "text": "notwendig"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**wahrscheinlich** = probable / likely\n\n*Example:* Morgen regnet es wahrscheinlich den ganzen Tag.\nIt will probably rain all day tomorrow."
+    },
+    {
+      "id": "tb1-u22-l03-adjectives-b1-3-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which one means „careful“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "vorsichtig"
+        },
+        {
+          "id": "b",
+          "text": "nützlich"
+        },
+        {
+          "id": "c",
+          "text": "erforderlich"
+        },
+        {
+          "id": "d",
+          "text": "geeignet"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**vorsichtig** = careful\n\n*Example:* Sei vorsichtig, die Straße ist heute sehr glatt!\nBe careful, the road is very slippery today!"
+    },
+    {
+      "id": "tb1-u22-l03-adjectives-b1-3-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "It will probably rain all day tomorrow.",
+      "tiles": [
+        "regnet",
+        "wahrscheinlich",
+        "Pass",
+        "den",
+        "angenehm",
+        "Morgen",
+        "ganzen",
+        "es",
+        "Tag",
+        "diese"
+      ],
+      "answers": [
+        "Morgen regnet es wahrscheinlich den ganzen Tag."
+      ],
+      "explanation": "**wahrscheinlich** = probable / likely"
+    },
+    {
+      "id": "tb1-u22-l03-adjectives-b1-3-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which one means „attentive“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "wahrscheinlich"
+        },
+        {
+          "id": "b",
+          "text": "angenehm ↔ unangenehm"
+        },
+        {
+          "id": "c",
+          "text": "notwendig"
+        },
+        {
+          "id": "d",
+          "text": "aufmerksam"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**aufmerksam** = attentive\n\n*Example:* Die Kinder hören der Lehrerin aufmerksam zu.\nThe children listen attentively to the teacher."
+    },
+    {
+      "id": "tb1-u22-l03-adjectives-b1-3-ex06",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u22-l03-adjectives-b1-3-2.mp3"
+      },
+      "tiles": [
+        "umweltfreundlich",
+        "ist",
+        "die",
+        "Sei",
+        "sehr",
+        "Straße",
+        "vorsichtig",
+        "heute",
+        "glatt",
+        "nicht",
+        "langen"
+      ],
+      "answers": [
+        "Sei vorsichtig, die Straße ist heute sehr glatt!"
+      ],
+      "explanation": "Sei vorsichtig, die Straße ist heute sehr glatt!\n*Be careful, the road is very slippery today!*\n\n**vorsichtig** = careful"
+    },
+    {
+      "id": "tb1-u22-l03-adjectives-b1-3-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which one means „suitable“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "geeignet"
+        },
+        {
+          "id": "b",
+          "text": "deutlich"
+        },
+        {
+          "id": "c",
+          "text": "anstrengend"
+        },
+        {
+          "id": "d",
+          "text": "selbstständig"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**geeignet** = suitable\n\n*Example:* Diese Wohnung ist für eine Familie mit drei Kindern gut geeignet.\nThis flat is well suited to a family with three children."
+    },
+    {
+      "id": "tb1-u22-l03-adjectives-b1-3-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Die Kinder hören der Lehrerin aufmerksam zu.",
+      "tiles": [
+        "listen",
+        "attentively",
+        "teacher",
+        "is",
+        "German",
+        "to",
+        "The",
+        "can't",
+        "the",
+        "children"
+      ],
+      "answers": [
+        "The children listen attentively to the teacher."
+      ],
+      "explanation": "**aufmerksam** = attentive"
+    },
+    {
+      "id": "tb1-u22-l03-adjectives-b1-3-ex09",
+      "type": "multiple_choice",
+      "prompt": "Which one means „pleasant ↔ unpleasant“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "angenehm ↔ unangenehm"
+        },
+        {
+          "id": "b",
+          "text": "deutlich"
+        },
+        {
+          "id": "c",
+          "text": "aufmerksam"
+        },
+        {
+          "id": "d",
+          "text": "erforderlich"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**angenehm ↔ unangenehm** = pleasant ↔ unpleasant\n\n*Example:* Der Sommerabend war angenehm, aber die Mücken waren unangenehm.\nThe summer evening was pleasant, but the mosquitoes were unpleasant."
+    },
+    {
+      "id": "tb1-u22-l03-adjectives-b1-3-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "This flat is well suited to a family with three children.",
+      "tiles": [
+        "eine",
+        "mit",
+        "alles",
+        "geeignet",
+        "gut",
+        "Diese",
+        "für",
+        "ist",
+        "Wohnung",
+        "Familie",
+        "vom",
+        "In",
+        "Kindern",
+        "drei"
+      ],
+      "answers": [
+        "Diese Wohnung ist für eine Familie mit drei Kindern gut geeignet."
+      ],
+      "explanation": "**geeignet** = suitable"
+    },
+    {
+      "id": "tb1-u22-l03-adjectives-b1-3-ex11",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u22-l03-adjectives-b1-3-5.mp3"
+      },
+      "tiles": [
+        "die",
+        "Der",
+        "Mücken",
+        "für",
+        "aber",
+        "Sommerabend",
+        "angenehm",
+        "gültiger",
+        "unangenehm",
+        "war",
+        "waren",
+        "Wörterbuch-App"
+      ],
+      "answers": [
+        "Der Sommerabend war angenehm, aber die Mücken waren unangenehm."
+      ],
+      "explanation": "Der Sommerabend war angenehm, aber die Mücken waren unangenehm.\n*The summer evening was pleasant, but the mosquitoes were unpleasant.*\n\n**angenehm ↔ unangenehm** = pleasant ↔ unpleasant"
+    }
+  ]
+}

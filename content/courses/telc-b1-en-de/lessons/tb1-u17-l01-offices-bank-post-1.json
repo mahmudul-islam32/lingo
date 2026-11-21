@@ -1,0 +1,290 @@
+{
+  "id": "tb1-u17-l01-offices-bank-post-1",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u17",
+  "title": "Offices, Bank & Post 1",
+  "tip": "Theme: Ämter / Behörden / Bank / Post (B1)",
+  "exercises": [
+    {
+      "id": "tb1-u17-l01-offices-bank-post-1-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "das Amt",
+          "known": "(public) office"
+        },
+        {
+          "id": "p2",
+          "learning": "das Rathaus",
+          "known": "town hall"
+        },
+        {
+          "id": "p3",
+          "learning": "sich anmelden",
+          "known": "to register"
+        },
+        {
+          "id": "p4",
+          "learning": "das Formular",
+          "known": "form"
+        },
+        {
+          "id": "p5",
+          "learning": "der Antrag",
+          "known": "application"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u17-l01-offices-bank-post-1-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „(public) office · authority“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "der Brief, die Briefe · das Paket, die Pakete · die Briefmarke, die Briefmarken"
+        },
+        {
+          "id": "b",
+          "text": "die Öffnungszeiten (Pl.)"
+        },
+        {
+          "id": "c",
+          "text": "das Amt, die Ämter · die Behörde, die Behörden"
+        },
+        {
+          "id": "d",
+          "text": "das Bargeld (nur Sg.)"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**das Amt** = (public) office · authority\n*Plural: die Ämter · also: die Behörde, die Behörden*\n\n*Example:* Für die neue Wohnung muss ich noch zu verschiedenen Ämtern gehen.\nI still have to go to various offices for my new flat."
+    },
+    {
+      "id": "tb1-u17-l01-offices-bank-post-1-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „town hall · citizens' office“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Bescheinigung, die Bescheinigungen"
+        },
+        {
+          "id": "b",
+          "text": "das Rathaus, die Rathäuser · das Bürgeramt, die Bürgerämter"
+        },
+        {
+          "id": "c",
+          "text": "die Frist, die Fristen: eine Frist einhalten / verpassen"
+        },
+        {
+          "id": "d",
+          "text": "das Bargeld (nur Sg.)"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**das Rathaus** = town hall · citizens' office\n*Plural: die Rathäuser · also: das Bürgeramt, die Bürgerämter*\n\n*Example:* Den neuen Reisepass bekommst du im Bürgeramt im Rathaus.\nYou can get your new passport at the citizens' office in the town hall."
+    },
+    {
+      "id": "tb1-u17-l01-offices-bank-post-1-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I still have to go to various offices for my new flat.",
+      "tiles": [
+        "ich",
+        "muss",
+        "meiner",
+        "neue",
+        "zu",
+        "im",
+        "Sie",
+        "Für",
+        "Wohnung",
+        "gehen",
+        "die",
+        "Ämtern",
+        "verschiedenen",
+        "noch"
+      ],
+      "answers": [
+        "Für die neue Wohnung muss ich noch zu verschiedenen Ämtern gehen."
+      ],
+      "explanation": "**das Amt** = (public) office · authority\n*Plural: die Ämter · also: die Behörde, die Behörden*"
+    },
+    {
+      "id": "tb1-u17-l01-offices-bank-post-1-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which verb means „to register ↔ deregister (your address)“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "überweisen (hat überwiesen), die Überweisung, die Überweisungen"
+        },
+        {
+          "id": "b",
+          "text": "abheben (hat abgehoben) ↔ einzahlen"
+        },
+        {
+          "id": "c",
+          "text": "sich anmelden ↔ sich abmelden"
+        },
+        {
+          "id": "d",
+          "text": "verlängern (hat verlängert)"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**sich anmelden ↔ sich abmelden** = to register ↔ deregister (your address)\n\n*Example:* Nach dem Umzug muss man sich innerhalb von zwei Wochen anmelden.\nAfter moving, you have to register within two weeks."
+    },
+    {
+      "id": "tb1-u17-l01-offices-bank-post-1-ex06",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u17-l01-offices-bank-post-1-2.mp3"
+      },
+      "tiles": [
+        "Spanien",
+        "bekommst",
+        "im",
+        "Pass",
+        "Rathaus",
+        "Adresse",
+        "im",
+        "Reisepass",
+        "neuen",
+        "Den",
+        "Bürgeramt",
+        "du"
+      ],
+      "answers": [
+        "Den neuen Reisepass bekommst du im Bürgeramt im Rathaus."
+      ],
+      "explanation": "Den neuen Reisepass bekommst du im Bürgeramt im Rathaus.\n*You can get your new passport at the citizens' office in the town hall.*\n\n**das Rathaus** = town hall · citizens' office\n*Plural: die Rathäuser · also: das Bürgeramt, die Bürgerämter*"
+    },
+    {
+      "id": "tb1-u17-l01-offices-bank-post-1-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „form: to fill in a form“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "das Amt, die Ämter · die Behörde, die Behörden"
+        },
+        {
+          "id": "b",
+          "text": "die Öffnungszeiten (Pl.)"
+        },
+        {
+          "id": "c",
+          "text": "das Bargeld (nur Sg.)"
+        },
+        {
+          "id": "d",
+          "text": "das Formular, die Formulare: ein Formular ausfüllen"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**das Formular** = form: to fill in a form\n*Plural: die Formulare: ein Formular ausfüllen*\n\n*Example:* Bitte füllen Sie dieses Formular aus und bringen Sie es zurück.\nPlease fill in this form and bring it back."
+    },
+    {
+      "id": "tb1-u17-l01-offices-bank-post-1-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Nach dem Umzug muss man sich innerhalb von zwei Wochen anmelden.",
+      "tiles": [
+        "have",
+        "After",
+        "you",
+        "two",
+        "citizens'",
+        "within",
+        "to",
+        "hall",
+        "weeks",
+        "moving",
+        "it",
+        "register"
+      ],
+      "answers": [
+        "After moving, you have to register within two weeks."
+      ],
+      "explanation": "**sich anmelden ↔ sich abmelden** = to register ↔ deregister (your address)"
+    },
+    {
+      "id": "tb1-u17-l01-offices-bank-post-1-ex09",
+      "type": "multiple_choice",
+      "prompt": "Which verb means „to sign: signature“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "abheben (hat abgehoben) ↔ einzahlen"
+        },
+        {
+          "id": "b",
+          "text": "verlängern (hat verlängert)"
+        },
+        {
+          "id": "c",
+          "text": "unterschreiben (hat unterschrieben), die Unterschrift, die Unterschriften"
+        },
+        {
+          "id": "d",
+          "text": "sich anmelden ↔ sich abmelden"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**unterschreiben (hat unterschrieben), die Unterschrift, die Unterschriften** = to sign: signature\n\n*Example:* Sie müssen den Mietvertrag noch unten rechts unterschreiben.\nYou still need to sign the rental contract at the bottom right."
+    },
+    {
+      "id": "tb1-u17-l01-offices-bank-post-1-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Please fill in this form and bring it back.",
+      "tiles": [
+        "Bitte",
+        "Sie",
+        "Personalausweis",
+        "und",
+        "Wochen",
+        "aus",
+        "füllen",
+        "für",
+        "es",
+        "dieses",
+        "Formular",
+        "bringen",
+        "Sie",
+        "zurück"
+      ],
+      "answers": [
+        "Bitte füllen Sie dieses Formular aus und bringen Sie es zurück."
+      ],
+      "explanation": "**das Formular** = form: to fill in a form\n*Plural: die Formulare: ein Formular ausfüllen*"
+    },
+    {
+      "id": "tb1-u17-l01-offices-bank-post-1-ex11",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u17-l01-offices-bank-post-1-5.mp3"
+      },
+      "tiles": [
+        "Briefmarke",
+        "die",
+        "anmelden",
+        "Sie",
+        "den",
+        "unten",
+        "Mietvertrag",
+        "rechts",
+        "müssen",
+        "unterschreiben",
+        "noch"
+      ],
+      "answers": [
+        "Sie müssen den Mietvertrag noch unten rechts unterschreiben."
+      ],
+      "explanation": "Sie müssen den Mietvertrag noch unten rechts unterschreiben.\n*You still need to sign the rental contract at the bottom right.*\n\n**unterschreiben (hat unterschrieben), die Unterschrift, die Unterschriften** = to sign: signature"
+    }
+  ]
+}

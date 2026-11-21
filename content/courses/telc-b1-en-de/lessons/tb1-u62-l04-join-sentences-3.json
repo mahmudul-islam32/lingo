@@ -1,0 +1,220 @@
+{
+  "id": "tb1-u62-l04-join-sentences-3",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u62",
+  "title": "Joining sentences (Sätze verbinden) 3",
+  "tip": "Join two sentences with the connector; watch where the verb goes.",
+  "exercises": [
+    {
+      "id": "tb1-u62-l04-join-sentences-3-ex01",
+      "type": "choice",
+      "title": "Sätze verbinden · Welches Wort passt in die Lücke?",
+      "passage": "**Verbinde mit „nicht nur … sondern auch“.**\n\nEr spricht Deutsch.\nEr spricht Englisch.",
+      "prompt": "Er spricht nicht nur Deutsch, ___ auch Englisch.",
+      "options": [
+        {
+          "id": "a",
+          "text": "sondern"
+        },
+        {
+          "id": "b",
+          "text": "weil"
+        },
+        {
+          "id": "c",
+          "text": "aber"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Full sentence: *Er spricht nicht nur Deutsch, sondern auch Englisch.*\n\nZweiteiliger Konnektor für zwei positive Punkte.\n\n**nicht … sondern (Korrektur)**: correction after a negation.\n\n**nicht** A, **sondern** B.\nBsp: nicht heute, sondern morgen."
+    },
+    {
+      "id": "tb1-u62-l04-join-sentences-3-ex02",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "He speaks not only German but also English.",
+      "tiles": [
+        "wenn",
+        "damit",
+        "sondern",
+        "Er",
+        "denn",
+        "weil",
+        "Englisch",
+        "Deutsch",
+        "spricht",
+        "nicht",
+        "auch",
+        "nur"
+      ],
+      "answers": [
+        "Er spricht nicht nur Deutsch, sondern auch Englisch."
+      ],
+      "explanation": "**Verbinde mit „nicht nur … sondern auch“.**\n\nEr spricht Deutsch.\nEr spricht Englisch.\n\nEr spricht nicht nur Deutsch, sondern auch Englisch.\n\nZweiteiliger Konnektor für zwei positive Punkte."
+    },
+    {
+      "id": "tb1-u62-l04-join-sentences-3-ex03",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "The more I practise, the more confident I become.",
+      "tiles": [
+        "sicherer",
+        "übe",
+        "obwohl",
+        "Je",
+        "ich",
+        "damit",
+        "ich",
+        "wenn",
+        "werde",
+        "mehr",
+        "dass",
+        "desto"
+      ],
+      "answers": [
+        "Je mehr ich übe, desto sicherer werde ich."
+      ],
+      "explanation": "**Verbinde mit „je … desto“ (Komparativ).**\n\nIch übe viel.\nIch werde sicher.\n\nJe mehr ich übe, desto sicherer werde ich.\nAlso correct: Je mehr ich übe, desto sicherer werde ich.\n\nJe + Komparativ (Nebensatz), desto + Komparativ (Inversion)."
+    },
+    {
+      "id": "tb1-u62-l04-join-sentences-3-ex04",
+      "type": "choice",
+      "title": "Sätze verbinden · Welches Wort passt in die Lücke?",
+      "passage": "**Verbinde mit „während“ (gleichzeitig).**\n\nIch koche.\nIch höre Podcasts.",
+      "prompt": "___ ich koche, höre ich Podcasts.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Denn"
+        },
+        {
+          "id": "b",
+          "text": "Während"
+        },
+        {
+          "id": "c",
+          "text": "Deshalb"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Full sentence: *Während ich koche, höre ich Podcasts.*\n\nwährend → Verb ans Ende (gleichzeitige Handlungen).\n\n**während (gleichzeitig)**: simultaneous; verb-final.\n\n**Während** + … + **Verb-Ende**, dann Hauptsatz.\nBsp: Während ich **koche**, höre ich Musik."
+    },
+    {
+      "id": "tb1-u62-l04-join-sentences-3-ex05",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "While I cook, I listen to podcasts.",
+      "tiles": [
+        "trotzdem",
+        "koche",
+        "deshalb",
+        "weil",
+        "Während",
+        "höre",
+        "Podcasts",
+        "ich",
+        "ich",
+        "obwohl"
+      ],
+      "answers": [
+        "Während ich koche, höre ich Podcasts.",
+        "Ich höre Podcasts, während ich koche."
+      ],
+      "explanation": "**Verbinde mit „während“ (gleichzeitig).**\n\nIch koche.\nIch höre Podcasts.\n\nWährend ich koche, höre ich Podcasts.\nAlso correct: Ich höre Podcasts, während ich koche.\n\nwährend → Verb ans Ende (gleichzeitige Handlungen)."
+    },
+    {
+      "id": "tb1-u62-l04-join-sentences-3-ex06",
+      "type": "choice",
+      "title": "Sätze verbinden · Welches Wort passt in die Lücke?",
+      "passage": "**Verbinde mit „sonst“ (Warnung).**\n\nBeeil dich.\nWir verpassen den Bus.",
+      "prompt": "Beeil dich, ___ verpassen wir den Bus.",
+      "options": [
+        {
+          "id": "a",
+          "text": "denn"
+        },
+        {
+          "id": "b",
+          "text": "sonst"
+        },
+        {
+          "id": "c",
+          "text": "weil"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Full sentence: *Beeil dich, sonst verpassen wir den Bus.*\n\nsonst = „wenn nicht“, Position 1 → sonst verpassen wir.\n\n**sonst (Warnung)**: otherwise; position 1 → inversion.\n\n…, **sonst** + **Verb** + Subjekt. (= wenn nicht)\nBsp: Beeil dich, sonst **verpassen wir** den Bus."
+    },
+    {
+      "id": "tb1-u62-l04-join-sentences-3-ex07",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Hurry up, otherwise we'll miss the bus.",
+      "tiles": [
+        "wir",
+        "dich",
+        "Bus",
+        "trotzdem",
+        "Beeil",
+        "wenn",
+        "deshalb",
+        "sonst",
+        "dass",
+        "den",
+        "verpassen"
+      ],
+      "answers": [
+        "Beeil dich, sonst verpassen wir den Bus."
+      ],
+      "explanation": "**Verbinde mit „sonst“ (Warnung).**\n\nBeeil dich.\nWir verpassen den Bus.\n\nBeeil dich, sonst verpassen wir den Bus.\n\nsonst = „wenn nicht“, Position 1 → sonst verpassen wir."
+    },
+    {
+      "id": "tb1-u62-l04-join-sentences-3-ex08",
+      "type": "choice",
+      "title": "Sätze verbinden · Welches Wort passt in die Lücke?",
+      "passage": "**Verbinde mit „zwar … aber“ (Zugeständnis).**\n\nDie Arbeit ist anstrengend.\nSie macht Spaß.",
+      "prompt": "Die Arbeit ist zwar anstrengend, ___ sie macht Spaß.",
+      "options": [
+        {
+          "id": "a",
+          "text": "aber"
+        },
+        {
+          "id": "b",
+          "text": "weil"
+        },
+        {
+          "id": "c",
+          "text": "dass"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Full sentence: *Die Arbeit ist zwar anstrengend, aber sie macht Spaß.*\n\nzwar (Zugeständnis) … aber (der wichtigere Punkt).\n\n**aber / allerdings (Gegensatz)**: aber = normal order; allerdings = position 1 → inversion.\n\n…, **aber** … (normale Wortstellung). **Allerdings** + **Verb** + Subjekt.\nBsp: Es ist praktisch, allerdings **ist es** teuer."
+    },
+    {
+      "id": "tb1-u62-l04-join-sentences-3-ex09",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "The work may be tiring, but it's fun.",
+      "tiles": [
+        "Arbeit",
+        "sie",
+        "Die",
+        "wenn",
+        "zwar",
+        "anstrengend",
+        "weil",
+        "Spaß",
+        "damit",
+        "ist",
+        "macht",
+        "denn",
+        "aber"
+      ],
+      "answers": [
+        "Die Arbeit ist zwar anstrengend, aber sie macht Spaß."
+      ],
+      "explanation": "**Verbinde mit „zwar … aber“ (Zugeständnis).**\n\nDie Arbeit ist anstrengend.\nSie macht Spaß.\n\nDie Arbeit ist zwar anstrengend, aber sie macht Spaß.\n\nzwar (Zugeständnis) … aber (der wichtigere Punkt)."
+    }
+  ]
+}

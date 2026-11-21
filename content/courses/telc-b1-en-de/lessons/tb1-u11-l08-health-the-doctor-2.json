@@ -1,0 +1,282 @@
+{
+  "id": "tb1-u11-l08-health-the-doctor-2",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u11",
+  "title": "Health & the Doctor 2",
+  "tip": "Theme: Gesundheit / Arzt (B1)",
+  "exercises": [
+    {
+      "id": "tb1-u11-l08-health-the-doctor-2-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "wehtun . Mir tut der Rücken weh",
+          "known": "to hurt. My back hurts."
+        },
+        {
+          "id": "p2",
+          "learning": "sich verletzen",
+          "known": "to injure oneself"
+        },
+        {
+          "id": "p3",
+          "learning": "der Hausarzt",
+          "known": "GP"
+        },
+        {
+          "id": "p4",
+          "learning": "gesund",
+          "known": "healthy"
+        },
+        {
+          "id": "p5",
+          "learning": "die Gesundheit",
+          "known": "health"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u11-l08-health-the-doctor-2-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „headache / sore throat / stomach ache / back pain“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Grippe (nur Sg.) · das Fieber (nur Sg.)"
+        },
+        {
+          "id": "b",
+          "text": "das Medikament, die Medikamente · die Tablette, die Tabletten"
+        },
+        {
+          "id": "c",
+          "text": "der Husten · der Schnupfen (beide nur Sg.)"
+        },
+        {
+          "id": "d",
+          "text": "die Kopfschmerzen / Halsschmerzen / Bauchschmerzen / Rückenschmerzen (Pl.)"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**die Kopfschmerzen / Halsschmerzen / Bauchschmerzen / Rückenschmerzen (Pl.)** = headache / sore throat / stomach ache / back pain\n\n*Example:* Maria hat starke Kopfschmerzen und nimmt eine Tablette.\nMaria has a bad headache and takes a tablet."
+    },
+    {
+      "id": "tb1-u11-l08-health-the-doctor-2-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which verb means „to hurt. My back hurts.“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "untersuchen (hat untersucht)"
+        },
+        {
+          "id": "b",
+          "text": "sich fühlen. Ich fühle mich schlecht/besser."
+        },
+        {
+          "id": "c",
+          "text": "wehtun + Dat. (hat wehgetan). Mir tut der Rücken weh."
+        },
+        {
+          "id": "d",
+          "text": "verschreiben (hat verschrieben)"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**wehtun + Dat. (hat wehgetan). Mir tut der Rücken weh.** = to hurt. My back hurts.\n\n*Example:* Nach der Gartenarbeit tut mir der Rücken weh.\nMy back hurts after working in the garden."
+    },
+    {
+      "id": "tb1-u11-l08-health-the-doctor-2-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Maria has a bad headache and takes a tablet.",
+      "tiles": [
+        "Tablette",
+        "Kopfschmerzen",
+        "eine",
+        "Maria",
+        "Husten",
+        "starke",
+        "nimmt",
+        "einen",
+        "mich",
+        "hat",
+        "und"
+      ],
+      "answers": [
+        "Maria hat starke Kopfschmerzen und nimmt eine Tablette."
+      ],
+      "explanation": "**die Kopfschmerzen / Halsschmerzen / Bauchschmerzen / Rückenschmerzen (Pl.)** = headache / sore throat / stomach ache / back pain"
+    },
+    {
+      "id": "tb1-u11-l08-health-the-doctor-2-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which verb means „to feel. I feel bad/better.“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "untersuchen (hat untersucht)"
+        },
+        {
+          "id": "b",
+          "text": "sich erholen von + Dat. (hat sich erholt)"
+        },
+        {
+          "id": "c",
+          "text": "sich fühlen. Ich fühle mich schlecht/besser."
+        },
+        {
+          "id": "d",
+          "text": "sich verletzen: die Verletzung, die Verletzungen"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**sich fühlen. Ich fühle mich schlecht/besser.** = to feel. I feel bad/better.\n\n*Example:* Nach dem Tee fühle ich mich schon besser.\nI already feel better after the tea."
+    },
+    {
+      "id": "tb1-u11-l08-health-the-doctor-2-ex06",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u11-l08-health-the-doctor-2-2.mp3"
+      },
+      "tiles": [
+        "der",
+        "tut",
+        "Chef",
+        "Gartenarbeit",
+        "der",
+        "mir",
+        "vereinbaren",
+        "weh",
+        "Hause",
+        "Nach",
+        "Rücken"
+      ],
+      "answers": [
+        "Nach der Gartenarbeit tut mir der Rücken weh."
+      ],
+      "explanation": "Nach der Gartenarbeit tut mir der Rücken weh.\n*My back hurts after working in the garden.*\n\n**wehtun + Dat. (hat wehgetan). Mir tut der Rücken weh.** = to hurt. My back hurts."
+    },
+    {
+      "id": "tb1-u11-l08-health-the-doctor-2-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which verb means „to injure oneself: injury“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "sich fühlen. Ich fühle mich schlecht/besser."
+        },
+        {
+          "id": "b",
+          "text": "untersuchen (hat untersucht)"
+        },
+        {
+          "id": "c",
+          "text": "verschreiben (hat verschrieben)"
+        },
+        {
+          "id": "d",
+          "text": "sich verletzen: die Verletzung, die Verletzungen"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**sich verletzen: die Verletzung, die Verletzungen** = to injure oneself: injury\n\n*Example:* Tom hat sich beim Fußball am Knie verletzt.\nTom injured his knee playing football."
+    },
+    {
+      "id": "tb1-u11-l08-health-the-doctor-2-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Nach dem Tee fühle ich mich schon besser.",
+      "tiles": [
+        "my",
+        "after",
+        "is",
+        "better",
+        "already",
+        "the",
+        "I",
+        "nose",
+        "feel",
+        "tea"
+      ],
+      "answers": [
+        "I already feel better after the tea."
+      ],
+      "explanation": "**sich fühlen. Ich fühle mich schlecht/besser.** = to feel. I feel bad/better."
+    },
+    {
+      "id": "tb1-u11-l08-health-the-doctor-2-ex09",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „GP, family doctor“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "das Wartezimmer, die Wartezimmer"
+        },
+        {
+          "id": "b",
+          "text": "das Medikament, die Medikamente · die Tablette, die Tabletten"
+        },
+        {
+          "id": "c",
+          "text": "die Apotheke, die Apotheken"
+        },
+        {
+          "id": "d",
+          "text": "der Hausarzt, die Hausärzte / die Hausärztin, die Hausärztinnen"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**der Hausarzt, die Hausärzte / die Hausärztin, die Hausärztinnen** = GP, family doctor\n\n*Example:* Mit Fieber gehe ich immer zuerst zu meiner Hausärztin.\nWhen I have a fever, I always go to my GP first."
+    },
+    {
+      "id": "tb1-u11-l08-health-the-doctor-2-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Tom injured his knee playing football.",
+      "tiles": [
+        "beim",
+        "verletzt",
+        "Sprechstunde",
+        "hat",
+        "Fußball",
+        "Knie",
+        "Sie",
+        "am",
+        "mir",
+        "Tom",
+        "sich"
+      ],
+      "answers": [
+        "Tom hat sich beim Fußball am Knie verletzt."
+      ],
+      "explanation": "**sich verletzen: die Verletzung, die Verletzungen** = to injure oneself: injury"
+    },
+    {
+      "id": "tb1-u11-l08-health-the-doctor-2-ex11",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u11-l08-health-the-doctor-2-5.mp3"
+      },
+      "tiles": [
+        "Mit",
+        "immer",
+        "Fieber",
+        "ich",
+        "gehe",
+        "zuerst",
+        "Hausärztin",
+        "Gartenarbeit",
+        "zu",
+        "wieder",
+        "meiner",
+        "Maria"
+      ],
+      "answers": [
+        "Mit Fieber gehe ich immer zuerst zu meiner Hausärztin."
+      ],
+      "explanation": "Mit Fieber gehe ich immer zuerst zu meiner Hausärztin.\n*When I have a fever, I always go to my GP first.*\n\n**der Hausarzt, die Hausärzte / die Hausärztin, die Hausärztinnen** = GP, family doctor"
+    }
+  ]
+}

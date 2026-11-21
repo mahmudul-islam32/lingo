@@ -1,0 +1,345 @@
+{
+  "id": "tb1-u32-l02-kasus-p1",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u32",
+  "title": "Cases: Nominative, Accusative, Dative: Akkusativ & Dativ",
+  "tip": "“Ich helfe dich” / “Ich danke Sie”, helfen & danken take dative: dir / Ihnen.",
+  "exercises": [
+    {
+      "id": "tb1-u32-l02-kasus-p1-ex01",
+      "type": "explain",
+      "title": "Akkusativ · direktes Objekt (Wen? Was?)",
+      "body": "Only masculine changes: der → den, ein → einen.\n\n*Deutsch:* Nur maskulin ändert sich: der → den, ein → einen.\n\n## Pattern\n\nSubjekt + Verb + **den/einen** + Nomen (mask.)",
+      "examples": [
+        {
+          "learning": "Ich kaufe einen Tisch.",
+          "known": "I'm buying a table."
+        },
+        {
+          "learning": "Kennst du den neuen Kollegen?",
+          "known": "Do you know the new colleague?"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u32-l02-kasus-p1-ex02",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I'm buying a table.",
+      "tiles": [
+        "danke",
+        "Tisch",
+        "kaufe",
+        "gern",
+        "Ich",
+        "Kennst",
+        "einen"
+      ],
+      "answers": [
+        "Ich kaufe einen Tisch."
+      ],
+      "explanation": "**Why:** der Tisch → einen Tisch (accusative).\n\n*Warum:* der Tisch → einen Tisch (Akkusativ)."
+    },
+    {
+      "id": "tb1-u32-l02-kasus-p1-ex03",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Do you know the new colleague?",
+      "tiles": [
+        "Ich",
+        "Hilfe",
+        "Kennst",
+        "neuen",
+        "Kollegen",
+        "Mann",
+        "du",
+        "den"
+      ],
+      "answers": [
+        "Kennst du den neuen Kollegen?"
+      ],
+      "explanation": "**Why:** kennen + accusative → den.\n\n*Warum:* kennen + Akkusativ → den."
+    },
+    {
+      "id": "tb1-u32-l02-kasus-p1-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "We have a dog and a cat.",
+      "tiles": [
+        "Tisch",
+        "Wir",
+        "einen",
+        "eine",
+        "und",
+        "Katze",
+        "haben",
+        "Hund",
+        "neuen",
+        "mir"
+      ],
+      "answers": [
+        "Wir haben einen Hund und eine Katze."
+      ],
+      "explanation": "**Why:** Feminine stays the same: eine.\n\n*Warum:* Feminin bleibt gleich: eine."
+    },
+    {
+      "id": "tb1-u32-l02-kasus-p1-ex05",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I'm looking for my key.",
+      "tiles": [
+        "meinen",
+        "Kennst",
+        "Ich",
+        "Schlüssel",
+        "helfe",
+        "den",
+        "suche"
+      ],
+      "answers": [
+        "Ich suche meinen Schlüssel."
+      ],
+      "explanation": "**Why:** mein → meinen (masculine).\n\n*Warum:* mein → meinen (maskulin)."
+    },
+    {
+      "id": "tb1-u32-l02-kasus-p1-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "She's visiting her father in hospital.",
+      "tiles": [
+        "du",
+        "besucht",
+        "Vater",
+        "Antwort",
+        "Sie",
+        "Krankenhaus",
+        "ihren",
+        "im",
+        "gebe"
+      ],
+      "answers": [
+        "Sie besucht ihren Vater im Krankenhaus."
+      ],
+      "explanation": "**Why:** der Vater → ihren Vater.\n\n*Warum:* der Vater → ihren Vater."
+    },
+    {
+      "id": "tb1-u32-l02-kasus-p1-ex07",
+      "type": "explain",
+      "title": "Dativ · Empfänger (Wem?)",
+      "body": "To whom do I give/send/show something? dem / der / dem / den + -n.\n\n*Deutsch:* Wem gebe/schicke/zeige ich etwas? dem / der / dem / den + -n.\n\n## Pattern\n\nSubjekt + Verb + **Dativ (Person)** + Akkusativ (Sache)",
+      "examples": [
+        {
+          "learning": "Ich gebe dem Kind einen Apfel.",
+          "known": "I give the child an apple."
+        },
+        {
+          "learning": "Sie schenkt ihrer Mutter Blumen.",
+          "known": "She gives her mother flowers."
+        }
+      ]
+    },
+    {
+      "id": "tb1-u32-l02-kasus-p1-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I give the child an apple.",
+      "tiles": [
+        "einen",
+        "Ich",
+        "Apfel",
+        "Kind",
+        "dem",
+        "geben",
+        "gebe",
+        "Kollegen",
+        "mir"
+      ],
+      "answers": [
+        "Ich gebe dem Kind einen Apfel."
+      ],
+      "explanation": "**Why:** To whom? dem Kind (dative). What? einen Apfel (accusative).\n\n*Warum:* Wem? dem Kind (Dativ). Was? einen Apfel (Akkusativ)."
+    },
+    {
+      "id": "tb1-u32-l02-kasus-p1-ex09",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "She gives her mother flowers.",
+      "tiles": [
+        "Ihnen",
+        "schenkt",
+        "Blumen",
+        "Termin",
+        "Sie",
+        "ihrer",
+        "Mutter",
+        "den"
+      ],
+      "answers": [
+        "Sie schenkt ihrer Mutter Blumen."
+      ],
+      "explanation": "**Why:** die Mutter → ihrer Mutter (dative).\n\n*Warum:* die Mutter → ihrer Mutter (Dativ)."
+    },
+    {
+      "id": "tb1-u32-l02-kasus-p1-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Can you pass me the salt?",
+      "tiles": [
+        "Kannst",
+        "das",
+        "haben",
+        "geben",
+        "Vermieter",
+        "Salz",
+        "mir",
+        "den",
+        "du"
+      ],
+      "answers": [
+        "Kannst du mir das Salz geben?"
+      ],
+      "explanation": "**Why:** mir = dative of ich.\n\n*Warum:* mir = Dativ von ich."
+    },
+    {
+      "id": "tb1-u32-l02-kasus-p1-ex11",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I'm showing the children the city.",
+      "tiles": [
+        "die",
+        "Termin",
+        "ihrer",
+        "zeige",
+        "Stadt",
+        "den",
+        "Ich",
+        "Kindern",
+        "Wem"
+      ],
+      "answers": [
+        "Ich zeige den Kindern die Stadt."
+      ],
+      "explanation": "**Why:** Dative plural: den + noun with -n.\n\n*Warum:* Dativ Plural: den + Nomen mit -n."
+    },
+    {
+      "id": "tb1-u32-l02-kasus-p1-ex12",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "We're sending our landlord an email.",
+      "tiles": [
+        "gebe",
+        "Wir",
+        "eine",
+        "schicken",
+        "Vermieter",
+        "Schlüssel",
+        "E-Mail",
+        "unserem",
+        "danke"
+      ],
+      "answers": [
+        "Wir schicken unserem Vermieter eine E-Mail."
+      ],
+      "explanation": "**Why:** der Vermieter → unserem Vermieter.\n\n*Warum:* der Vermieter → unserem Vermieter."
+    },
+    {
+      "id": "tb1-u32-l02-kasus-p1-ex13",
+      "type": "choice",
+      "title": "Fill the gap",
+      "prompt": "Er schenkt ___ Freundin einen Ring.",
+      "options": [
+        {
+          "id": "a",
+          "text": "seinem"
+        },
+        {
+          "id": "b",
+          "text": "seine"
+        },
+        {
+          "id": "c",
+          "text": "seiner"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "schenken: Person im Dativ (wem?): seiner Freundin (feminin Dativ)."
+    },
+    {
+      "id": "tb1-u32-l02-kasus-p1-ex14",
+      "type": "choice",
+      "title": "Fill the gap",
+      "prompt": "Wir besuchen morgen ___ Großvater.",
+      "options": [
+        {
+          "id": "a",
+          "text": "unser"
+        },
+        {
+          "id": "b",
+          "text": "unseren"
+        },
+        {
+          "id": "c",
+          "text": "unserem"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "besuchen + Akkusativ, maskulin → unseren."
+    },
+    {
+      "id": "tb1-u32-l02-kasus-p1-ex15",
+      "type": "choice",
+      "title": "Find the mistake",
+      "prompt": "Which word is wrong? „Ich gebe das Buch meine Mutter.“",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ich"
+        },
+        {
+          "id": "b",
+          "text": "gebe"
+        },
+        {
+          "id": "c",
+          "text": "das"
+        },
+        {
+          "id": "d",
+          "text": "Buch"
+        },
+        {
+          "id": "e",
+          "text": "meine"
+        },
+        {
+          "id": "f",
+          "text": "Mutter"
+        }
+      ],
+      "correctOptionId": "e",
+      "explanation": "„meine“ → „meiner“: **Ich gebe das Buch meiner Mutter.**\n\ngeben: Person im Dativ → meiner Mutter (wem gebe ich es?)."
+    },
+    {
+      "id": "tb1-u32-l02-kasus-p1-ex16",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Correct the sentence: „Ich gebe das Buch meine Mutter.“",
+      "tiles": [
+        "Buch",
+        "gebe",
+        "meiner",
+        "das",
+        "meine",
+        "Wir",
+        "Ich",
+        "Geschenk",
+        "Mutter"
+      ],
+      "answers": [
+        "Ich gebe das Buch meiner Mutter."
+      ],
+      "explanation": "geben: Person im Dativ → meiner Mutter (wem gebe ich es?)."
+    }
+  ]
+}

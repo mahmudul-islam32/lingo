@@ -1,0 +1,264 @@
+{
+  "id": "tb1-u10-l11-small-talk-reacting-1",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u10",
+  "title": "Small Talk & Reacting 1",
+  "tip": "Theme: Sätze: Small Talk & Reagieren (A2)",
+  "exercises": [
+    {
+      "id": "tb1-u10-l11-small-talk-reacting-1-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "Wie geht es Ihnen?",
+          "known": "How are you? (formal)"
+        },
+        {
+          "id": "p2",
+          "learning": "Was machst du beruflich?",
+          "known": "What do you do for work?"
+        },
+        {
+          "id": "p3",
+          "learning": "Woher kommst du ursprünglich?",
+          "known": "Where are you originally from?"
+        },
+        {
+          "id": "p4",
+          "learning": "Das freut mich sehr!",
+          "known": "I'm very glad!"
+        },
+        {
+          "id": "p5",
+          "learning": "Das tut mir leid",
+          "known": "I'm sorry (to hear that)."
+        }
+      ]
+    },
+    {
+      "id": "tb1-u10-l11-small-talk-reacting-1-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means „How are you? (formal)“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Gute Besserung!"
+        },
+        {
+          "id": "b",
+          "text": "Wie geht es Ihnen?"
+        },
+        {
+          "id": "c",
+          "text": "Was machst du beruflich?"
+        },
+        {
+          "id": "d",
+          "text": "Herzlichen Glückwunsch!"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Wie geht es Ihnen?** = How are you? (formal)\n\n*Example:* Wie geht es Ihnen?\nHow are you? (formal)"
+    },
+    {
+      "id": "tb1-u10-l11-small-talk-reacting-1-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means „What do you do for work?“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Was machst du beruflich?"
+        },
+        {
+          "id": "b",
+          "text": "Woher kommst du ursprünglich?"
+        },
+        {
+          "id": "c",
+          "text": "Das freut mich sehr!"
+        },
+        {
+          "id": "d",
+          "text": "Schönes Wochenende!"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Was machst du beruflich?** = What do you do for work?\n\n*Example:* Was machst du beruflich?\nWhat do you do for work?"
+    },
+    {
+      "id": "tb1-u10-l11-small-talk-reacting-1-ex04",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u10-l11-small-talk-reacting-1-1.mp3"
+      },
+      "tiles": [
+        "geht",
+        "Viel",
+        "Ihnen",
+        "freut",
+        "Wie",
+        "Was",
+        "es"
+      ],
+      "answers": [
+        "Wie geht es Ihnen?"
+      ],
+      "explanation": "Wie geht es Ihnen?\n*How are you? (formal)*\n\n**Wie geht es Ihnen?** = How are you? (formal)"
+    },
+    {
+      "id": "tb1-u10-l11-small-talk-reacting-1-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means „Where are you originally from?“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Das freut mich sehr!"
+        },
+        {
+          "id": "b",
+          "text": "Woher kommst du ursprünglich?"
+        },
+        {
+          "id": "c",
+          "text": "Mach's gut!"
+        },
+        {
+          "id": "d",
+          "text": "Das tut mir leid."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Woher kommst du ursprünglich?** = Where are you originally from?\n\n*Example:* Woher kommst du ursprünglich?\nWhere are you originally from?"
+    },
+    {
+      "id": "tb1-u10-l11-small-talk-reacting-1-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Was machst du beruflich?",
+      "tiles": [
+        "you",
+        "do",
+        "for",
+        "Good",
+        "What",
+        "weekend",
+        "work",
+        "do",
+        "I'm"
+      ],
+      "answers": [
+        "What do you do for work?"
+      ],
+      "explanation": "**Was machst du beruflich?** = What do you do for work?"
+    },
+    {
+      "id": "tb1-u10-l11-small-talk-reacting-1-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means „I'm very glad!“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Mach's gut!"
+        },
+        {
+          "id": "b",
+          "text": "Herzlichen Glückwunsch!"
+        },
+        {
+          "id": "c",
+          "text": "Woher kommst du ursprünglich?"
+        },
+        {
+          "id": "d",
+          "text": "Das freut mich sehr!"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**Das freut mich sehr!** = I'm very glad!\n\n*Example:* Das freut mich sehr!\nI'm very glad!"
+    },
+    {
+      "id": "tb1-u10-l11-small-talk-reacting-1-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Where are you originally from?",
+      "tiles": [
+        "Besserung",
+        "ursprünglich",
+        "Woher",
+        "kommst",
+        "du",
+        "beruflich",
+        "Das"
+      ],
+      "answers": [
+        "Woher kommst du ursprünglich?"
+      ],
+      "explanation": "**Woher kommst du ursprünglich?** = Where are you originally from?"
+    },
+    {
+      "id": "tb1-u10-l11-small-talk-reacting-1-ex09",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means „I'm sorry (to hear that).“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Gute Besserung!"
+        },
+        {
+          "id": "b",
+          "text": "Schönes Wochenende!"
+        },
+        {
+          "id": "c",
+          "text": "Das tut mir leid."
+        },
+        {
+          "id": "d",
+          "text": "Was machst du beruflich?"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**Das tut mir leid.** = I'm sorry (to hear that).\n\n*Example:* Das tut mir leid.\nI'm sorry (to hear that)."
+    },
+    {
+      "id": "tb1-u10-l11-small-talk-reacting-1-ex10",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u10-l11-small-talk-reacting-1-4.mp3"
+      },
+      "tiles": [
+        "Wie",
+        "Das",
+        "freut",
+        "kommst",
+        "bei",
+        "sehr",
+        "mich"
+      ],
+      "answers": [
+        "Das freut mich sehr!"
+      ],
+      "explanation": "Das freut mich sehr!\n*I'm very glad!*\n\n**Das freut mich sehr!** = I'm very glad!"
+    },
+    {
+      "id": "tb1-u10-l11-small-talk-reacting-1-ex11",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I'm sorry (to hear that).",
+      "tiles": [
+        "tut",
+        "du",
+        "Das",
+        "Was",
+        "leid",
+        "beruflich",
+        "mir"
+      ],
+      "answers": [
+        "Das tut mir leid."
+      ],
+      "explanation": "**Das tut mir leid.** = I'm sorry (to hear that)."
+    }
+  ]
+}

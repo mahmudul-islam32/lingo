@@ -1,0 +1,404 @@
+{
+  "id": "tb1-u64-l02-phrases-2",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u64",
+  "title": "Useful phrases (Redemittel) 2: Höflich bitten, Begründen, Vor- & Nachteile, Beispiele & Erfahrung",
+  "exercises": [
+    {
+      "id": "tb1-u64-l02-phrases-2-ex01",
+      "type": "explain",
+      "title": "Redemittel: Höflich bitten",
+      "body": "- **Könnten Sie mir bitte …?**: Could you please …? *(Grammar: kii)*\n- **Wäre es möglich, … zu …?**: Would it be possible to …? *(Grammar: kii)*\n- **Ich hätte eine Frage: …**: I have a question: … *(Grammar: kii)*\n- **Ich wäre Ihnen dankbar, wenn …**: I'd be grateful if … *(Grammar: kii)*\n\n*Tipp:* Formelle Briefe: immer Konjunktiv II.",
+      "examples": [
+        {
+          "learning": "Könnten Sie mir bitte …?",
+          "known": "Could you please …?"
+        },
+        {
+          "learning": "Wäre es möglich, … zu …?",
+          "known": "Would it be possible to …?"
+        },
+        {
+          "learning": "Ich hätte eine Frage: …",
+          "known": "I have a question: …"
+        },
+        {
+          "learning": "Ich wäre Ihnen dankbar, wenn …",
+          "known": "I'd be grateful if …"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u64-l02-phrases-2-ex02",
+      "type": "explain",
+      "title": "Redemittel: Begründen",
+      "body": "- **…, weil …**: … because … (verb at end) *(Grammar: nebensatz)*\n- **Der Grund dafür ist, dass …**: The reason is that … *(Grammar: nebensatz)*\n- **…, deshalb …**: … that's why … (+ inversion) *(Grammar: aduso)*\n- **Aus diesem Grund …**: For this reason …\n\n*Tipp:* weil / deshalb / wegen abwechseln.",
+      "examples": [
+        {
+          "learning": "…, weil …",
+          "known": "… because … (verb at end)"
+        },
+        {
+          "learning": "Der Grund dafür ist, dass …",
+          "known": "The reason is that …"
+        },
+        {
+          "learning": "…, deshalb …",
+          "known": "… that's why … (+ inversion)"
+        },
+        {
+          "learning": "Aus diesem Grund …",
+          "known": "For this reason …"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u64-l02-phrases-2-ex03",
+      "type": "explain",
+      "title": "Redemittel: Vor- & Nachteile",
+      "body": "- **Einerseits …, andererseits …**: On the one hand …, on the other …\n- **Ein Vorteil ist …, ein Nachteil ist …**: One advantage is …, a disadvantage is …\n- **Das hat sowohl Vorteile als auch Nachteile.**: That has both advantages and disadvantages.\n\n*Tipp:* Gut für Sprechen Teil 2.",
+      "examples": [
+        {
+          "learning": "Einerseits …, andererseits …",
+          "known": "On the one hand …, on the other …"
+        },
+        {
+          "learning": "Ein Vorteil ist …, ein Nachteil ist …",
+          "known": "One advantage is …, a disadvantage is …"
+        },
+        {
+          "learning": "Das hat sowohl Vorteile als auch Nachteile.",
+          "known": "That has both advantages and disadvantages."
+        }
+      ]
+    },
+    {
+      "id": "tb1-u64-l02-phrases-2-ex04",
+      "type": "explain",
+      "title": "Redemittel: Beispiele & Erfahrung",
+      "body": "- **Ein gutes Beispiel dafür ist …**: A good example of this is …\n- **Zum Beispiel …**: For example …\n- **Ich habe die Erfahrung gemacht, dass …**: In my experience … *(Grammar: nebensatz)*\n- **Bei uns in … ist das so: …**: Where I'm from it's like this: …",
+      "examples": [
+        {
+          "learning": "Ein gutes Beispiel dafür ist …",
+          "known": "A good example of this is …"
+        },
+        {
+          "learning": "Zum Beispiel …",
+          "known": "For example …"
+        },
+        {
+          "learning": "Ich habe die Erfahrung gemacht, dass …",
+          "known": "In my experience …"
+        },
+        {
+          "learning": "Bei uns in … ist das so: …",
+          "known": "Where I'm from it's like this: …"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u64-l02-phrases-2-ex05",
+      "type": "choice",
+      "title": "Höflich bitten",
+      "prompt": "Welcher Satz passt zur Funktion „Höflich bitten“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Das sehe ich genauso."
+        },
+        {
+          "id": "b",
+          "text": "Könnten Sie mir bitte …?"
+        },
+        {
+          "id": "c",
+          "text": "Das hat sowohl Vorteile als auch Nachteile."
+        },
+        {
+          "id": "d",
+          "text": "Was meinst du damit genau?"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Phrases for **Höflich bitten**:\n\n- Könnten Sie mir bitte …? (Could you please …?)\n- Wäre es möglich, … zu …? (Would it be possible to …?)\n- Ich hätte eine Frage: … (I have a question: …)\n- Ich wäre Ihnen dankbar, wenn … (I'd be grateful if …)"
+    },
+    {
+      "id": "tb1-u64-l02-phrases-2-ex06",
+      "type": "choice",
+      "prompt": "Which phrase means: “Could you please …?”?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Könnten Sie mir bitte …?"
+        },
+        {
+          "id": "b",
+          "text": "Ja, aber andererseits …"
+        },
+        {
+          "id": "c",
+          "text": "Leider muss ich absagen, weil …"
+        },
+        {
+          "id": "d",
+          "text": "Ich kümmere mich um … . Kümmerst du dich um …?"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Könnten Sie mir bitte …?**: Could you please …? (Höflich bitten)"
+    },
+    {
+      "id": "tb1-u64-l02-phrases-2-ex07",
+      "type": "choice",
+      "prompt": "Which phrase means: “Would it be possible to …?”?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Was hältst du davon, wenn …?"
+        },
+        {
+          "id": "b",
+          "text": "Ich verstehe dich, trotzdem denke ich …"
+        },
+        {
+          "id": "c",
+          "text": "Ich kümmere mich um … . Kümmerst du dich um …?"
+        },
+        {
+          "id": "d",
+          "text": "Wäre es möglich, … zu …?"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**Wäre es möglich, … zu …?**: Would it be possible to …? (Höflich bitten)"
+    },
+    {
+      "id": "tb1-u64-l02-phrases-2-ex08",
+      "type": "choice",
+      "title": "Begründen",
+      "prompt": "Welcher Satz passt zur Funktion „Begründen“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ich bin (fest) davon überzeugt, dass …"
+        },
+        {
+          "id": "b",
+          "text": "Es kommt (ganz) darauf an."
+        },
+        {
+          "id": "c",
+          "text": "Der Grund dafür ist, dass …"
+        },
+        {
+          "id": "d",
+          "text": "Im Vergleich zu … ist …"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Phrases for **Begründen**:\n\n- …, weil … (… because … (verb at end))\n- Der Grund dafür ist, dass … (The reason is that …)\n- …, deshalb … (… that's why … (+ inversion))\n- Aus diesem Grund … (For this reason …)"
+    },
+    {
+      "id": "tb1-u64-l02-phrases-2-ex09",
+      "type": "choice",
+      "prompt": "Which phrase means: “… because … (verb at end)”?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ich bin der Meinung, dass …"
+        },
+        {
+          "id": "b",
+          "text": "Ich erwarte, dass Sie … ."
+        },
+        {
+          "id": "c",
+          "text": "…, weil …"
+        },
+        {
+          "id": "d",
+          "text": "Leider musste ich feststellen, dass …"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**…, weil …**: … because … (verb at end) (Begründen)"
+    },
+    {
+      "id": "tb1-u64-l02-phrases-2-ex10",
+      "type": "choice",
+      "prompt": "Which phrase means: “The reason is that …”?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Der Grund dafür ist, dass …"
+        },
+        {
+          "id": "b",
+          "text": "Sind wir uns einig?"
+        },
+        {
+          "id": "c",
+          "text": "Ein Vorteil ist …, ein Nachteil ist …"
+        },
+        {
+          "id": "d",
+          "text": "… ist (viel) … als …"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Der Grund dafür ist, dass …**: The reason is that … (Begründen)"
+    },
+    {
+      "id": "tb1-u64-l02-phrases-2-ex11",
+      "type": "choice",
+      "title": "Vor- & Nachteile",
+      "prompt": "Welcher Satz passt zur Funktion „Vor- & Nachteile“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Vielen Dank im Voraus."
+        },
+        {
+          "id": "b",
+          "text": "Ich habe mich sehr über deine Nachricht gefreut."
+        },
+        {
+          "id": "c",
+          "text": "Vielen Dank für deine/Ihre E-Mail."
+        },
+        {
+          "id": "d",
+          "text": "Das hat sowohl Vorteile als auch Nachteile."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Phrases for **Vor- & Nachteile**:\n\n- Einerseits …, andererseits … (On the one hand …, on the other …)\n- Ein Vorteil ist …, ein Nachteil ist … (One advantage is …, a disadvantage is …)\n- Das hat sowohl Vorteile als auch Nachteile. (That has both advantages and disadvantages.)"
+    },
+    {
+      "id": "tb1-u64-l02-phrases-2-ex12",
+      "type": "choice",
+      "prompt": "Which phrase means: “On the one hand …, on the other …”?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Was hältst du davon, wenn …?"
+        },
+        {
+          "id": "b",
+          "text": "Ich habe mich sehr über deine Nachricht gefreut."
+        },
+        {
+          "id": "c",
+          "text": "Leider musste ich feststellen, dass …"
+        },
+        {
+          "id": "d",
+          "text": "Einerseits …, andererseits …"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**Einerseits …, andererseits …**: On the one hand …, on the other … (Vor- & Nachteile)"
+    },
+    {
+      "id": "tb1-u64-l02-phrases-2-ex13",
+      "type": "choice",
+      "prompt": "Which phrase means: “One advantage is …, a disadvantage is …”?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ich kümmere mich um … . Kümmerst du dich um …?"
+        },
+        {
+          "id": "b",
+          "text": "Ein Vorteil ist …, ein Nachteil ist …"
+        },
+        {
+          "id": "c",
+          "text": "Dann machen wir es so: …"
+        },
+        {
+          "id": "d",
+          "text": "Ich bin mit … überhaupt nicht zufrieden."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Ein Vorteil ist …, ein Nachteil ist …**: One advantage is …, a disadvantage is … (Vor- & Nachteile)"
+    },
+    {
+      "id": "tb1-u64-l02-phrases-2-ex14",
+      "type": "choice",
+      "title": "Beispiele & Erfahrung",
+      "prompt": "Welcher Satz passt zur Funktion „Beispiele & Erfahrung“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Vielen Dank für deine/Ihre E-Mail."
+        },
+        {
+          "id": "b",
+          "text": "Bei uns in … ist das so: …"
+        },
+        {
+          "id": "c",
+          "text": "Wie wäre es, wenn wir …?"
+        },
+        {
+          "id": "d",
+          "text": "Ich komme sehr gern."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Phrases for **Beispiele & Erfahrung**:\n\n- Ein gutes Beispiel dafür ist … (A good example of this is …)\n- Zum Beispiel … (For example …)\n- Ich habe die Erfahrung gemacht, dass … (In my experience …)\n- Bei uns in … ist das so: … (Where I'm from it's like this: …)"
+    },
+    {
+      "id": "tb1-u64-l02-phrases-2-ex15",
+      "type": "choice",
+      "prompt": "Which phrase means: “A good example of this is …”?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Alles in allem …"
+        },
+        {
+          "id": "b",
+          "text": "Ein gutes Beispiel dafür ist …"
+        },
+        {
+          "id": "c",
+          "text": "Wie bitte? Können Sie das wiederholen?"
+        },
+        {
+          "id": "d",
+          "text": "Vielen Dank im Voraus."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Ein gutes Beispiel dafür ist …**: A good example of this is … (Beispiele & Erfahrung)"
+    },
+    {
+      "id": "tb1-u64-l02-phrases-2-ex16",
+      "type": "choice",
+      "prompt": "Which phrase means: “For example …”?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Im Vordergrund / Hintergrund ist …"
+        },
+        {
+          "id": "b",
+          "text": "Zum Beispiel …"
+        },
+        {
+          "id": "c",
+          "text": "Das sehe ich genauso."
+        },
+        {
+          "id": "d",
+          "text": "Leider musste ich feststellen, dass …"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Zum Beispiel …**: For example … (Beispiele & Erfahrung)"
+    }
+  ]
+}

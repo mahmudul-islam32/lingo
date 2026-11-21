@@ -1,0 +1,282 @@
+{
+  "id": "tb1-u12-l04-travel-transport-4",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u12",
+  "title": "Travel & Transport 4",
+  "tip": "Theme: Reisen / Verkehr (B1)",
+  "exercises": [
+    {
+      "id": "tb1-u12-l04-travel-transport-4-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "die Verspätung",
+          "known": "delay. The train is late."
+        },
+        {
+          "id": "p2",
+          "learning": "verpassen",
+          "known": "to miss (a train"
+        },
+        {
+          "id": "p3",
+          "learning": "der Stau",
+          "known": "traffic jam"
+        },
+        {
+          "id": "p4",
+          "learning": "der Führerschein",
+          "known": "driving licence"
+        },
+        {
+          "id": "p5",
+          "learning": "das Gepäck",
+          "known": "luggage"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u12-l04-travel-transport-4-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „delay. The train is late.“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Reise, die Reisen: reisen (ist gereist)"
+        },
+        {
+          "id": "b",
+          "text": "der Zug, die Züge · der Bahnhof, die Bahnhöfe · das Gleis, die Gleise"
+        },
+        {
+          "id": "c",
+          "text": "die Haltestelle, die Haltestellen"
+        },
+        {
+          "id": "d",
+          "text": "die Verspätung, die Verspätungen. Der Zug hat Verspätung."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**die Verspätung** = delay. The train is late.\n*Plural: die Verspätungen. Der Zug hat Verspätung.*\n\n*Example:* Ich komme später, denn der Zug hat zwanzig Minuten Verspätung.\nI'll be late because the train is twenty minutes behind schedule."
+    },
+    {
+      "id": "tb1-u12-l04-travel-transport-4-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which verb means „to miss (a train, a chance)“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "einsteigen / aussteigen / umsteigen (ist ein-/aus-/umgestiegen)"
+        },
+        {
+          "id": "b",
+          "text": "abfahren (ist abgefahren) ↔ ankommen (ist angekommen)"
+        },
+        {
+          "id": "c",
+          "text": "besichtigen (hat besichtigt)"
+        },
+        {
+          "id": "d",
+          "text": "verpassen (hat verpasst)"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**verpassen (hat verpasst)** = to miss (a train, a chance)\n\n*Example:* Heute Morgen habe ich den Bus verpasst.\nI missed the bus this morning."
+    },
+    {
+      "id": "tb1-u12-l04-travel-transport-4-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Ich komme später, denn der Zug hat zwanzig Minuten Verspätung.",
+      "tiles": [
+        "because",
+        "late",
+        "be",
+        "3",
+        "minutes",
+        "I'll",
+        "schedule",
+        "twenty",
+        "been",
+        "behind",
+        "for",
+        "is",
+        "the",
+        "train"
+      ],
+      "answers": [
+        "I'll be late because the train is twenty minutes behind schedule."
+      ],
+      "explanation": "**die Verspätung** = delay. The train is late.\n*Plural: die Verspätungen. Der Zug hat Verspätung.*"
+    },
+    {
+      "id": "tb1-u12-l04-travel-transport-4-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „traffic jam: to be stuck in traffic“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Reise, die Reisen: reisen (ist gereist)"
+        },
+        {
+          "id": "b",
+          "text": "der Ausflug, die Ausflüge: einen Ausflug machen"
+        },
+        {
+          "id": "c",
+          "text": "der Stau, die Staus: im Stau stehen"
+        },
+        {
+          "id": "d",
+          "text": "die Haltestelle, die Haltestellen"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**der Stau** = traffic jam: to be stuck in traffic\n*Plural: die Staus: im Stau stehen*\n\n*Example:* Mein Mann steht seit einer Stunde im Stau.\nMy husband has been stuck in traffic for an hour."
+    },
+    {
+      "id": "tb1-u12-l04-travel-transport-4-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I missed the bus this morning.",
+      "tiles": [
+        "Ali",
+        "verpasst",
+        "habe",
+        "ich",
+        "Bus",
+        "Heute",
+        "Morgen",
+        "München",
+        "den",
+        "Vergiss"
+      ],
+      "answers": [
+        "Heute Morgen habe ich den Bus verpasst."
+      ],
+      "explanation": "**verpassen (hat verpasst)** = to miss (a train, a chance)"
+    },
+    {
+      "id": "tb1-u12-l04-travel-transport-4-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „driving licence“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Haltestelle, die Haltestellen"
+        },
+        {
+          "id": "b",
+          "text": "der Reisepass, die Reisepässe · der Ausweis, die Ausweise"
+        },
+        {
+          "id": "c",
+          "text": "der Führerschein, die Führerscheine"
+        },
+        {
+          "id": "d",
+          "text": "der Zug, die Züge · der Bahnhof, die Bahnhöfe · das Gleis, die Gleise"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**der Führerschein** = driving licence\n*Plural: die Führerscheine*\n\n*Example:* Ali hat letzte Woche seinen Führerschein gemacht.\nAli got his driving licence last week."
+    },
+    {
+      "id": "tb1-u12-l04-travel-transport-4-ex08",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u12-l04-travel-transport-4-3.mp3"
+      },
+      "tiles": [
+        "Stau",
+        "Wien",
+        "steht",
+        "einer",
+        "letzte",
+        "das",
+        "im",
+        "Mein",
+        "Mann",
+        "seit",
+        "Stunde"
+      ],
+      "answers": [
+        "Mein Mann steht seit einer Stunde im Stau."
+      ],
+      "explanation": "Mein Mann steht seit einer Stunde im Stau.\n*My husband has been stuck in traffic for an hour.*\n\n**der Stau** = traffic jam: to be stuck in traffic\n*Plural: die Staus: im Stau stehen*"
+    },
+    {
+      "id": "tb1-u12-l04-travel-transport-4-ex09",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „luggage · suitcase“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "das Gepäck (nur Sg.) · der Koffer, die Koffer"
+        },
+        {
+          "id": "b",
+          "text": "die Ermäßigung, die Ermäßigungen"
+        },
+        {
+          "id": "c",
+          "text": "die Reise, die Reisen: reisen (ist gereist)"
+        },
+        {
+          "id": "d",
+          "text": "die Verspätung, die Verspätungen. Der Zug hat Verspätung."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**das Gepäck (nur Sg.) · der Koffer, die Koffer** = luggage · suitcase\n\n*Example:* Mein Koffer ist zu schwer für das Flugzeug.\nMy suitcase is too heavy for the plane."
+    },
+    {
+      "id": "tb1-u12-l04-travel-transport-4-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Ali hat letzte Woche seinen Führerschein gemacht.",
+      "tiles": [
+        "when",
+        "week",
+        "My",
+        "got",
+        "last",
+        "Cologne",
+        "driving",
+        "his",
+        "Ali",
+        "licence"
+      ],
+      "answers": [
+        "Ali got his driving licence last week."
+      ],
+      "explanation": "**der Führerschein** = driving licence\n*Plural: die Führerscheine*"
+    },
+    {
+      "id": "tb1-u12-l04-travel-transport-4-ex11",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "My suitcase is too heavy for the plane.",
+      "tiles": [
+        "Koffer",
+        "schwer",
+        "das",
+        "zu",
+        "Flugzeug",
+        "fährt",
+        "für",
+        "Flüge",
+        "Schüler",
+        "ist",
+        "Mein"
+      ],
+      "answers": [
+        "Mein Koffer ist zu schwer für das Flugzeug."
+      ],
+      "explanation": "**das Gepäck (nur Sg.) · der Koffer, die Koffer** = luggage · suitcase"
+    }
+  ]
+}

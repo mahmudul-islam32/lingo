@@ -1,0 +1,282 @@
+{
+  "id": "tb1-u13-l01-environment-weather-1",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u13",
+  "title": "Environment & Weather 1",
+  "tip": "Theme: Umwelt / Wetter (B1)",
+  "exercises": [
+    {
+      "id": "tb1-u13-l01-environment-weather-1-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "die Umwelt",
+          "known": "environment"
+        },
+        {
+          "id": "p2",
+          "learning": "der Umweltschutz",
+          "known": "environmental protection"
+        },
+        {
+          "id": "p3",
+          "learning": "das Klima",
+          "known": "climate"
+        },
+        {
+          "id": "p4",
+          "learning": "die Luft",
+          "known": "air"
+        },
+        {
+          "id": "p5",
+          "learning": "der Müll",
+          "known": "rubbish"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u13-l01-environment-weather-1-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „environment: eco-friendly ↔ harmful to the environment“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "der Umweltschutz (nur Sg.), die Umwelt schützen"
+        },
+        {
+          "id": "b",
+          "text": "der Regen (nur Sg.), regnen, regnerisch"
+        },
+        {
+          "id": "c",
+          "text": "die Umwelt (nur Sg.), umweltfreundlich ↔ umweltschädlich"
+        },
+        {
+          "id": "d",
+          "text": "der Strom (nur Sg.) · die Energie, die Energien"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**die Umwelt (nur Sg.), umweltfreundlich ↔ umweltschädlich** = environment: eco-friendly ↔ harmful to the environment\n\n*Example:* Fahrradfahren ist umweltfreundlich, Fliegen ist umweltschädlich.\nCycling is eco-friendly, flying is harmful to the environment."
+    },
+    {
+      "id": "tb1-u13-l01-environment-weather-1-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „environmental protection: to protect the environment“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "der Umweltschutz (nur Sg.), die Umwelt schützen"
+        },
+        {
+          "id": "b",
+          "text": "die Sonne: sonnig: scheinen (hat geschienen)"
+        },
+        {
+          "id": "c",
+          "text": "die Umwelt (nur Sg.), umweltfreundlich ↔ umweltschädlich"
+        },
+        {
+          "id": "d",
+          "text": "der Schnee (nur Sg.), schneien"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**der Umweltschutz (nur Sg.)** = environmental protection: to protect the environment\n*Plural: die Umwelt schützen*\n\n*Example:* Wir wollen die Umwelt schützen und fahren deshalb mit dem Rad.\nWe want to protect the environment, so we go by bike."
+    },
+    {
+      "id": "tb1-u13-l01-environment-weather-1-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Fahrradfahren ist umweltfreundlich, Fliegen ist umweltschädlich.",
+      "tiles": [
+        "harmful",
+        "is",
+        "the",
+        "in",
+        "eco-friendly",
+        "is",
+        "supposed",
+        "flying",
+        "rubbish",
+        "Cycling",
+        "environment",
+        "to"
+      ],
+      "answers": [
+        "Cycling is eco-friendly, flying is harmful to the environment."
+      ],
+      "explanation": "**die Umwelt (nur Sg.), umweltfreundlich ↔ umweltschädlich** = environment: eco-friendly ↔ harmful to the environment"
+    },
+    {
+      "id": "tb1-u13-l01-environment-weather-1-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „climate · climate change“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Jahreszeit, die Jahreszeiten"
+        },
+        {
+          "id": "b",
+          "text": "die Temperatur, die Temperaturen. Es sind 25 Grad."
+        },
+        {
+          "id": "c",
+          "text": "die Sonne: sonnig: scheinen (hat geschienen)"
+        },
+        {
+          "id": "d",
+          "text": "das Klima · der Klimawandel (nur Sg.)"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**das Klima · der Klimawandel (nur Sg.)** = climate · climate change\n\n*Example:* Der Klimawandel macht die Sommer immer heißer.\nClimate change is making summers hotter and hotter."
+    },
+    {
+      "id": "tb1-u13-l01-environment-weather-1-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "We want to protect the environment, so we go by bike.",
+      "tiles": [
+        "Der",
+        "einen",
+        "deshalb",
+        "Wir",
+        "und",
+        "fahren",
+        "mit",
+        "lieber",
+        "dem",
+        "die",
+        "wollen",
+        "Umwelt",
+        "Rad",
+        "schützen"
+      ],
+      "answers": [
+        "Wir wollen die Umwelt schützen und fahren deshalb mit dem Rad."
+      ],
+      "explanation": "**der Umweltschutz (nur Sg.)** = environmental protection: to protect the environment\n*Plural: die Umwelt schützen*"
+    },
+    {
+      "id": "tb1-u13-l01-environment-weather-1-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „air · pollution“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Luft (nur Sg.) · die Verschmutzung"
+        },
+        {
+          "id": "b",
+          "text": "die Temperatur, die Temperaturen. Es sind 25 Grad."
+        },
+        {
+          "id": "c",
+          "text": "das Gewitter, die Gewitter"
+        },
+        {
+          "id": "d",
+          "text": "die Sonne: sonnig: scheinen (hat geschienen)"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**die Luft (nur Sg.) · die Verschmutzung** = air · pollution\n\n*Example:* In der Großstadt ist die Luft oft schlecht.\nThe air in big cities is often bad."
+    },
+    {
+      "id": "tb1-u13-l01-environment-weather-1-ex08",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u13-l01-environment-weather-1-3.mp3"
+      },
+      "tiles": [
+        "Sommer",
+        "macht",
+        "die",
+        "in",
+        "heißer",
+        "Klimawandel",
+        "immer",
+        "Plastik",
+        "wir",
+        "Der"
+      ],
+      "answers": [
+        "Der Klimawandel macht die Sommer immer heißer."
+      ],
+      "explanation": "Der Klimawandel macht die Sommer immer heißer.\n*Climate change is making summers hotter and hotter.*\n\n**das Klima · der Klimawandel (nur Sg.)** = climate · climate change"
+    },
+    {
+      "id": "tb1-u13-l01-environment-weather-1-ex09",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „rubbish · waste“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "der Müll (nur Sg.) · der Abfall, die Abfälle"
+        },
+        {
+          "id": "b",
+          "text": "das Wetter (nur Sg.) · die Wettervorhersage, die Wettervorhersagen"
+        },
+        {
+          "id": "c",
+          "text": "der Wind, die Winde: windig"
+        },
+        {
+          "id": "d",
+          "text": "der Regen (nur Sg.), regnen, regnerisch"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**der Müll (nur Sg.) · der Abfall, die Abfälle** = rubbish · waste\n\n*Example:* Kannst du bitte den Müll runterbringen?\nCan you take the rubbish down, please?"
+    },
+    {
+      "id": "tb1-u13-l01-environment-weather-1-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "In der Großstadt ist die Luft oft schlecht.",
+      "tiles": [
+        "is",
+        "a",
+        "cities",
+        "go",
+        "We",
+        "big",
+        "The",
+        "often",
+        "air",
+        "bad",
+        "in"
+      ],
+      "answers": [
+        "The air in big cities is often bad."
+      ],
+      "explanation": "**die Luft (nur Sg.) · die Verschmutzung** = air · pollution"
+    },
+    {
+      "id": "tb1-u13-l01-environment-weather-1-ex11",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Can you take the rubbish down, please?",
+      "tiles": [
+        "Sonne",
+        "runterbringen",
+        "den",
+        "Im",
+        "Kannst",
+        "Der",
+        "bitte",
+        "Müll",
+        "du"
+      ],
+      "answers": [
+        "Kannst du bitte den Müll runterbringen?"
+      ],
+      "explanation": "**der Müll (nur Sg.) · der Abfall, die Abfälle** = rubbish · waste"
+    }
+  ]
+}

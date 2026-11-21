@@ -1,0 +1,204 @@
+{
+  "id": "tb1-u21-l09-clause-patterns-connectors-5",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u21",
+  "title": "Clause Patterns & Connectors 5",
+  "tip": "Theme: Sätze. Muster: Nebensätze & Konnektoren (B1)",
+  "exercises": [
+    {
+      "id": "tb1-u21-l09-clause-patterns-connectors-5-ex01",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means „I was ill, that's why I stayed at home. (deshalb + inversion)“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Als ich nach Deutschland kam, konnte ich nur wenig Deutsch."
+        },
+        {
+          "id": "b",
+          "text": "Können Sie mir sagen, wann der Zug abfährt?"
+        },
+        {
+          "id": "c",
+          "text": "Bevor ich schlafen gehe, wiederhole ich die Wörter."
+        },
+        {
+          "id": "d",
+          "text": "Ich war krank, deshalb bin ich zu Hause geblieben."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**Ich war krank, deshalb bin ich zu Hause geblieben.** = I was ill, that's why I stayed at home. (deshalb + inversion)\n\n*Example:* Ich war krank, deshalb bin ich zu Hause geblieben.\nI was ill, that's why I stayed at home. (deshalb + inversion)"
+    },
+    {
+      "id": "tb1-u21-l09-clause-patterns-connectors-5-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means „It rained; nevertheless we went for a walk. (trotzdem + inversion)“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ich lerne Deutsch, damit ich eine bessere Arbeit finde."
+        },
+        {
+          "id": "b",
+          "text": "Seitdem ich in Deutschland wohne, spreche ich jeden Tag Deutsch."
+        },
+        {
+          "id": "c",
+          "text": "Es hat geregnet, trotzdem sind wir spazieren gegangen."
+        },
+        {
+          "id": "d",
+          "text": "Nachdem ich gegessen hatte, habe ich weitergelernt."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**Es hat geregnet, trotzdem sind wir spazieren gegangen.** = It rained; nevertheless we went for a walk. (trotzdem + inversion)\n\n*Example:* Es hat geregnet, trotzdem sind wir spazieren gegangen.\nIt rained; nevertheless we went for a walk. (trotzdem + inversion)"
+    },
+    {
+      "id": "tb1-u21-l09-clause-patterns-connectors-5-ex03",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I was ill, that's why I stayed at home. (deshalb + inversion)",
+      "tiles": [
+        "Seitdem",
+        "der",
+        "deshalb",
+        "geblieben",
+        "bin",
+        "krank",
+        "neben",
+        "Hause",
+        "zu",
+        "war",
+        "Ich",
+        "ich"
+      ],
+      "answers": [
+        "Ich war krank, deshalb bin ich zu Hause geblieben."
+      ],
+      "explanation": "**Ich war krank, deshalb bin ich zu Hause geblieben.** = I was ill, that's why I stayed at home. (deshalb + inversion)"
+    },
+    {
+      "id": "tb1-u21-l09-clause-patterns-connectors-5-ex04",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means „Hurry up, otherwise we'll miss the bus! (sonst)“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Je mehr ich übe, desto besser werde ich."
+        },
+        {
+          "id": "b",
+          "text": "Beeil dich, sonst verpassen wir den Bus!"
+        },
+        {
+          "id": "c",
+          "text": "Seitdem ich in Deutschland wohne, spreche ich jeden Tag Deutsch."
+        },
+        {
+          "id": "d",
+          "text": "Obwohl ich müde war, habe ich noch eine Stunde gelernt."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Beeil dich, sonst verpassen wir den Bus!** = Hurry up, otherwise we'll miss the bus! (sonst)\n\n*Example:* Beeil dich, sonst verpassen wir den Bus!\nHurry up, otherwise we'll miss the bus! (sonst)"
+    },
+    {
+      "id": "tb1-u21-l09-clause-patterns-connectors-5-ex05",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u21-l09-clause-patterns-connectors-5-2.mp3"
+      },
+      "tiles": [
+        "hat",
+        "wir",
+        "zu",
+        "Deutsch",
+        "Es",
+        "gegangen",
+        "spazieren",
+        "geregnet",
+        "bessere",
+        "sind",
+        "trotzdem"
+      ],
+      "answers": [
+        "Es hat geregnet, trotzdem sind wir spazieren gegangen."
+      ],
+      "explanation": "Es hat geregnet, trotzdem sind wir spazieren gegangen.\n*It rained; nevertheless we went for a walk. (trotzdem + inversion)*\n\n**Es hat geregnet, trotzdem sind wir spazieren gegangen.** = It rained; nevertheless we went for a walk. (trotzdem + inversion)"
+    },
+    {
+      "id": "tb1-u21-l09-clause-patterns-connectors-5-ex06",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means „True, the flat is small, but it is very cosy. (zwar … aber)“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ich bin nach Deutschland gekommen, um hier zu studieren."
+        },
+        {
+          "id": "b",
+          "text": "Weißt du, ob der Kurs morgen stattfindet?"
+        },
+        {
+          "id": "c",
+          "text": "Zwar ist die Wohnung klein, aber sie ist sehr gemütlich."
+        },
+        {
+          "id": "d",
+          "text": "Wir können entweder ins Kino gehen oder zu Hause bleiben."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**Zwar ist die Wohnung klein, aber sie ist sehr gemütlich.** = True, the flat is small, but it is very cosy. (zwar … aber)\n\n*Example:* Zwar ist die Wohnung klein, aber sie ist sehr gemütlich.\nTrue, the flat is small, but it is very cosy. (zwar … aber)"
+    },
+    {
+      "id": "tb1-u21-l09-clause-patterns-connectors-5-ex07",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Hurry up, otherwise we'll miss the bus! (sonst)",
+      "tiles": [
+        "sonst",
+        "bessere",
+        "Beeil",
+        "dich",
+        "wir",
+        "Zeit",
+        "den",
+        "ich",
+        "verpassen",
+        "Bus"
+      ],
+      "answers": [
+        "Beeil dich, sonst verpassen wir den Bus!"
+      ],
+      "explanation": "**Beeil dich, sonst verpassen wir den Bus!** = Hurry up, otherwise we'll miss the bus! (sonst)"
+    },
+    {
+      "id": "tb1-u21-l09-clause-patterns-connectors-5-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "True, the flat is small, but it is very cosy. (zwar … aber)",
+      "tiles": [
+        "klein",
+        "ist",
+        "nach",
+        "sie",
+        "gemütlich",
+        "ist",
+        "ich",
+        "aber",
+        "sehr",
+        "Wohnung",
+        "habe",
+        "die",
+        "Zwar"
+      ],
+      "answers": [
+        "Zwar ist die Wohnung klein, aber sie ist sehr gemütlich."
+      ],
+      "explanation": "**Zwar ist die Wohnung klein, aber sie ist sehr gemütlich.** = True, the flat is small, but it is very cosy. (zwar … aber)"
+    }
+  ]
+}

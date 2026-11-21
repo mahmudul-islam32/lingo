@@ -1,0 +1,151 @@
+{
+  "id": "tb1-u33-l12-indefinit-p2",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u33",
+  "title": "man, jemand, etwas & Co.: etwas ↔ nichts",
+  "tip": "After etwas/nichts the adjective is capitalised and takes -es: etwas Neues, nichts Interessantes.",
+  "exercises": [
+    {
+      "id": "tb1-u33-l12-indefinit-p2-ex01",
+      "type": "explain",
+      "title": "etwas ↔ nichts · einer/welche",
+      "body": "etwas = something, nichts = nothing. Short answers: einen/eine/eins, plural welche.\n\n*Deutsch:* etwas = eine Sache, nichts = keine Sache. Kurzantworten: einen/eine/eins, Plural welche.\n\n## Pattern\n\n**etwas** / **nichts** · Ja, ich habe **einen/eine/eins/welche**.",
+      "examples": [
+        {
+          "learning": "Möchtest du etwas trinken?",
+          "known": "Would you like something to drink?"
+        },
+        {
+          "learning": "Ich habe heute nichts gegessen.",
+          "known": "I haven't eaten anything today."
+        }
+      ]
+    },
+    {
+      "id": "tb1-u33-l12-indefinit-p2-ex02",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Would you like something to drink?",
+      "tiles": [
+        "Möchtest",
+        "du",
+        "online",
+        "trinken",
+        "parken",
+        "etwas",
+        "war"
+      ],
+      "answers": [
+        "Möchtest du etwas trinken?"
+      ],
+      "explanation": "**Why:** A thing → etwas.\n\n*Warum:* Eine Sache → etwas."
+    },
+    {
+      "id": "tb1-u33-l12-indefinit-p2-ex03",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I haven't eaten anything today.",
+      "tiles": [
+        "Müll",
+        "gegessen",
+        "habe",
+        "Am",
+        "heute",
+        "kann",
+        "Ich",
+        "nichts"
+      ],
+      "answers": [
+        "Ich habe heute nichts gegessen."
+      ],
+      "explanation": "**Why:** nichts = nothing (no nicht).\n\n*Warum:* nichts = keine Sache (ohne nicht)."
+    },
+    {
+      "id": "tb1-u33-l12-indefinit-p2-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Do you have a pen? – Yes, I have one.",
+      "tiles": [
+        "Hast",
+        "einen",
+        "ich",
+        "Ja",
+        "einen",
+        "Stift",
+        "du",
+        "gegessen",
+        "habe",
+        "Deutschland",
+        "kann"
+      ],
+      "answers": [
+        "Hast du einen Stift? – Ja, ich habe einen."
+      ],
+      "explanation": "**Why:** der Stift → einen.\n\n*Warum:* der Stift → einen."
+    },
+    {
+      "id": "tb1-u33-l12-indefinit-p2-ex05",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Do you need eggs? – No, I still have some.",
+      "tiles": [
+        "In",
+        "Nein",
+        "zu",
+        "man",
+        "Brauchst",
+        "ich",
+        "Eier",
+        "noch",
+        "welche",
+        "habe",
+        "du"
+      ],
+      "answers": [
+        "Brauchst du Eier? – Nein, ich habe noch welche."
+      ],
+      "explanation": "**Why:** Plural → welche.\n\n*Warum:* Plural → welche."
+    },
+    {
+      "id": "tb1-u33-l12-indefinit-p2-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Is there anything new?",
+      "tiles": [
+        "es",
+        "Gibt",
+        "kann",
+        "In",
+        "Neues",
+        "etwas",
+        "helfen"
+      ],
+      "answers": [
+        "Gibt es etwas Neues?"
+      ],
+      "explanation": "**Why:** etwas + capitalised adjective: etwas Neues.\n\n*Warum:* etwas + Adjektiv groß: etwas Neues."
+    },
+    {
+      "id": "tb1-u33-l12-indefinit-p2-ex07",
+      "type": "choice",
+      "title": "Fill the gap",
+      "prompt": "Ich habe am Sonntag nichts ___ gemacht.",
+      "options": [
+        {
+          "id": "a",
+          "text": "besonders"
+        },
+        {
+          "id": "b",
+          "text": "Besonderes"
+        },
+        {
+          "id": "c",
+          "text": "besondere"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Nach etwas/nichts: Adjektiv GROSS + -es → nichts Besonderes."
+    }
+  ]
+}

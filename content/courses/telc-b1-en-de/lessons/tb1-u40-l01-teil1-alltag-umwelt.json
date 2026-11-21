@@ -1,0 +1,276 @@
+{
+  "id": "tb1-u40-l01-teil1-alltag-umwelt",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u40",
+  "title": "Headlines 1: Alltag & Umwelt",
+  "tip": "Match each text with one headline. Five headlines stay unused.",
+  "exercises": [
+    {
+      "id": "tb1-u40-l01-teil1-alltag-umwelt-ex01",
+      "type": "explain",
+      "title": "Reading (Leseverstehen): the exam part",
+      "body": "Reading is worth **75 points** in the written telc B1 exam and has three parts:\n\n- **Teil 1 · Globalverstehen** (25 P): 5 short texts, 10 headlines. Match one headline to each text; 5 headlines stay unused. 5 points per text.\n- **Teil 2 · Detailverstehen** (25 P): one article, 5 questions, a, b or c. 5 points per question.\n- **Teil 3 · Selektives Verstehen** (25 P): 10 situations, 12 ads. Each ad fits at most once; if no ad fits, the answer is **x**. 2.5 points per situation.\n\nReading and Sprachbausteine share one 90-minute block in the exam (tasks 1–40), so you split the time yourself.\n\n## The method\n\n**Methode:** Erst die Aufgabe lesen, dann den Text. In Teil 1 zuerst die Überschriften streichen, die ein Detail **umdrehen** („profitieren“ statt „Staus“).\n\n*Read the task first, then the text. In Part 1, first cross out the headlines that flip a detail (\"profitieren\" instead of \"Staus\").*"
+    },
+    {
+      "id": "tb1-u40-l01-teil1-alltag-umwelt-ex02",
+      "type": "explain",
+      "title": "Teil 1 · Alltag & Umwelt: how to match headlines",
+      "body": "**5 texts · 10 headlines · 5 stay unused.** Each headline fits only one text.\n\n- Read all 10 headlines first and look for pairs: one headline says what the text says, its twin turns a detail around (the opposite, a wrong cause, an invented fact).\n- A headline that only repeats a word from the text (\"Bücher\", \"Radwege\") is often the trap: it recycles the word but changes the message.\n- Decide by the main message of the text, not by single words.\n\nIn this lesson the headlines are always listed in the same order (A–J), like the answer sheet. Remember which ones you have already used."
+    },
+    {
+      "id": "tb1-u40-l01-teil1-alltag-umwelt-ex03",
+      "type": "choice",
+      "title": "Text 1 · Alltag & Umwelt",
+      "passage": "Immer mehr Menschen in Deutschland fahren mit dem Fahrrad zur Arbeit. Eine Studie zeigt: Radfahrer sind seltener krank und kommen oft entspannter im Büro an.",
+      "prompt": "Welche Überschrift passt zu Text 1?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Studenten klagen über hohe Mieten"
+        },
+        {
+          "id": "b",
+          "text": "Café verkauft seltene Bücher teuer"
+        },
+        {
+          "id": "c",
+          "text": "Freibäder öffnen dieses Jahr früher"
+        },
+        {
+          "id": "d",
+          "text": "Neue Radwege sorgen für Staus in Freiburg"
+        },
+        {
+          "id": "e",
+          "text": "Radfahren hält gesund und entspannt"
+        },
+        {
+          "id": "f",
+          "text": "Bücher tauschen im Café: beliebt bei jungen Leuten"
+        },
+        {
+          "id": "g",
+          "text": "Kaltes Wetter verzögert die Freibad-Saison"
+        },
+        {
+          "id": "h",
+          "text": "Radfahrer werden häufiger krank"
+        },
+        {
+          "id": "i",
+          "text": "Universität baut neue günstige Wohnungen"
+        },
+        {
+          "id": "j",
+          "text": "Autofahrer profitieren von neuen Radwegen"
+        }
+      ],
+      "correctOptionId": "e",
+      "explanation": "**Answer: E** „Radfahren hält gesund und entspannt“\n\nText 1 = Radfahren macht gesund/entspannt. Falle H sagt das Gegenteil („häufiger krank“)."
+    },
+    {
+      "id": "tb1-u40-l01-teil1-alltag-umwelt-ex04",
+      "type": "choice",
+      "title": "Text 2 · Alltag & Umwelt",
+      "passage": "Die Stadt Freiburg baut ab Mai neue Radwege. Autofahrer müssen deshalb in der Innenstadt mit Staus rechnen.",
+      "prompt": "Welche Überschrift passt zu Text 2?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Studenten klagen über hohe Mieten"
+        },
+        {
+          "id": "b",
+          "text": "Café verkauft seltene Bücher teuer"
+        },
+        {
+          "id": "c",
+          "text": "Freibäder öffnen dieses Jahr früher"
+        },
+        {
+          "id": "d",
+          "text": "Neue Radwege sorgen für Staus in Freiburg"
+        },
+        {
+          "id": "e",
+          "text": "Radfahren hält gesund und entspannt"
+        },
+        {
+          "id": "f",
+          "text": "Bücher tauschen im Café: beliebt bei jungen Leuten"
+        },
+        {
+          "id": "g",
+          "text": "Kaltes Wetter verzögert die Freibad-Saison"
+        },
+        {
+          "id": "h",
+          "text": "Radfahrer werden häufiger krank"
+        },
+        {
+          "id": "i",
+          "text": "Universität baut neue günstige Wohnungen"
+        },
+        {
+          "id": "j",
+          "text": "Autofahrer profitieren von neuen Radwegen"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**Answer: D** „Neue Radwege sorgen für Staus in Freiburg“\n\nText 2: neue Radwege → Staus für Autofahrer. Falle J dreht es um („profitieren“)."
+    },
+    {
+      "id": "tb1-u40-l01-teil1-alltag-umwelt-ex05",
+      "type": "choice",
+      "title": "Text 3 · Alltag & Umwelt",
+      "passage": "Ein neues Café in der Bahnhofstraße bietet nicht nur Kaffee, sondern auch Bücher zum Tauschen an. Die Idee kommt bei jungen Leuten gut an.",
+      "prompt": "Welche Überschrift passt zu Text 3?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Studenten klagen über hohe Mieten"
+        },
+        {
+          "id": "b",
+          "text": "Café verkauft seltene Bücher teuer"
+        },
+        {
+          "id": "c",
+          "text": "Freibäder öffnen dieses Jahr früher"
+        },
+        {
+          "id": "d",
+          "text": "Neue Radwege sorgen für Staus in Freiburg"
+        },
+        {
+          "id": "e",
+          "text": "Radfahren hält gesund und entspannt"
+        },
+        {
+          "id": "f",
+          "text": "Bücher tauschen im Café: beliebt bei jungen Leuten"
+        },
+        {
+          "id": "g",
+          "text": "Kaltes Wetter verzögert die Freibad-Saison"
+        },
+        {
+          "id": "h",
+          "text": "Radfahrer werden häufiger krank"
+        },
+        {
+          "id": "i",
+          "text": "Universität baut neue günstige Wohnungen"
+        },
+        {
+          "id": "j",
+          "text": "Autofahrer profitieren von neuen Radwegen"
+        }
+      ],
+      "correctOptionId": "f",
+      "explanation": "**Answer: F** „Bücher tauschen im Café: beliebt bei jungen Leuten“\n\nText 3: Bücher werden getauscht, nicht teuer verkauft (Falle B recycelt „Bücher“)."
+    },
+    {
+      "id": "tb1-u40-l01-teil1-alltag-umwelt-ex06",
+      "type": "choice",
+      "title": "Text 4 · Alltag & Umwelt",
+      "passage": "Wegen des warmen Wetters öffnen viele Freibäder in diesem Jahr schon im April. Normalerweise beginnt die Saison erst im Mai.",
+      "prompt": "Welche Überschrift passt zu Text 4?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Studenten klagen über hohe Mieten"
+        },
+        {
+          "id": "b",
+          "text": "Café verkauft seltene Bücher teuer"
+        },
+        {
+          "id": "c",
+          "text": "Freibäder öffnen dieses Jahr früher"
+        },
+        {
+          "id": "d",
+          "text": "Neue Radwege sorgen für Staus in Freiburg"
+        },
+        {
+          "id": "e",
+          "text": "Radfahren hält gesund und entspannt"
+        },
+        {
+          "id": "f",
+          "text": "Bücher tauschen im Café: beliebt bei jungen Leuten"
+        },
+        {
+          "id": "g",
+          "text": "Kaltes Wetter verzögert die Freibad-Saison"
+        },
+        {
+          "id": "h",
+          "text": "Radfahrer werden häufiger krank"
+        },
+        {
+          "id": "i",
+          "text": "Universität baut neue günstige Wohnungen"
+        },
+        {
+          "id": "j",
+          "text": "Autofahrer profitieren von neuen Radwegen"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**Answer: C** „Freibäder öffnen dieses Jahr früher“\n\nText 4: warmes Wetter → früher offen. Falle G sagt „kaltes Wetter … verzögert“."
+    },
+    {
+      "id": "tb1-u40-l01-teil1-alltag-umwelt-ex07",
+      "type": "choice",
+      "title": "Text 5 · Alltag & Umwelt",
+      "passage": "Eine Umfrage unter Studenten zeigt: Viele wünschen sich günstigere Wohnungen in der Nähe der Universität. Die hohen Mieten sind ihr größtes Problem.",
+      "prompt": "Welche Überschrift passt zu Text 5?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Studenten klagen über hohe Mieten"
+        },
+        {
+          "id": "b",
+          "text": "Café verkauft seltene Bücher teuer"
+        },
+        {
+          "id": "c",
+          "text": "Freibäder öffnen dieses Jahr früher"
+        },
+        {
+          "id": "d",
+          "text": "Neue Radwege sorgen für Staus in Freiburg"
+        },
+        {
+          "id": "e",
+          "text": "Radfahren hält gesund und entspannt"
+        },
+        {
+          "id": "f",
+          "text": "Bücher tauschen im Café: beliebt bei jungen Leuten"
+        },
+        {
+          "id": "g",
+          "text": "Kaltes Wetter verzögert die Freibad-Saison"
+        },
+        {
+          "id": "h",
+          "text": "Radfahrer werden häufiger krank"
+        },
+        {
+          "id": "i",
+          "text": "Universität baut neue günstige Wohnungen"
+        },
+        {
+          "id": "j",
+          "text": "Autofahrer profitieren von neuen Radwegen"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Answer: A** „Studenten klagen über hohe Mieten“\n\nText 5: Studenten klagen über Mieten. Falle I erfindet einen Neubau."
+    }
+  ]
+}

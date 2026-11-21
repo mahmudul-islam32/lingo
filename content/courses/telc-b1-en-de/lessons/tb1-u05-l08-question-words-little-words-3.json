@@ -1,0 +1,279 @@
+{
+  "id": "tb1-u05-l08-question-words-little-words-3",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u05",
+  "title": "Question Words & Little Words 3",
+  "tip": "Theme: Fragewörter & kleine Wörter (A1)",
+  "exercises": [
+    {
+      "id": "tb1-u05-l08-question-words-little-words-3-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "wohin",
+          "known": "where to"
+        },
+        {
+          "id": "p2",
+          "learning": "und",
+          "known": "and"
+        },
+        {
+          "id": "p3",
+          "learning": "oder",
+          "known": "or"
+        },
+        {
+          "id": "p4",
+          "learning": "aber",
+          "known": "but"
+        },
+        {
+          "id": "p5",
+          "learning": "denn",
+          "known": "because / for"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u05-l08-question-words-little-words-3-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which one means „where to“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "dort / da"
+        },
+        {
+          "id": "b",
+          "text": "wohin"
+        },
+        {
+          "id": "c",
+          "text": "was"
+        },
+        {
+          "id": "d",
+          "text": "warum"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**wohin** = where to\n\n*Example:* Wohin fahrt ihr in den Sommerferien?\nWhere are you going for the summer holidays?"
+    },
+    {
+      "id": "tb1-u05-l08-question-words-little-words-3-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which one means „and“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "wann"
+        },
+        {
+          "id": "b",
+          "text": "und"
+        },
+        {
+          "id": "c",
+          "text": "nicht"
+        },
+        {
+          "id": "d",
+          "text": "hier"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**und** = and\n\n*Example:* Ich kaufe Käse und Brot beim Bäcker.\nI buy cheese and bread at the bakery."
+    },
+    {
+      "id": "tb1-u05-l08-question-words-little-words-3-ex04",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u05-l08-question-words-little-words-3-1.mp3"
+      },
+      "tiles": [
+        "haben",
+        "Wohin",
+        "viel",
+        "Sommerferien",
+        "ihr",
+        "den",
+        "in",
+        "hier",
+        "fahrt"
+      ],
+      "answers": [
+        "Wohin fahrt ihr in den Sommerferien?"
+      ],
+      "explanation": "Wohin fahrt ihr in den Sommerferien?\n*Where are you going for the summer holidays?*\n\n**wohin** = where to"
+    },
+    {
+      "id": "tb1-u05-l08-question-words-little-words-3-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which one means „or“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "oder"
+        },
+        {
+          "id": "b",
+          "text": "denn"
+        },
+        {
+          "id": "c",
+          "text": "wo"
+        },
+        {
+          "id": "d",
+          "text": "immer"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**oder** = or\n\n*Example:* Möchten Sie Tee oder Kaffee?\nWould you like tea or coffee?"
+    },
+    {
+      "id": "tb1-u05-l08-question-words-little-words-3-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Ich kaufe Käse und Brot beim Bäcker.",
+      "tiles": [
+        "I",
+        "bakery",
+        "buy",
+        "at",
+        "the",
+        "and",
+        "cheese",
+        "tomorrow",
+        "dinner",
+        "bread",
+        "he's"
+      ],
+      "answers": [
+        "I buy cheese and bread at the bakery."
+      ],
+      "explanation": "**und** = and"
+    },
+    {
+      "id": "tb1-u05-l08-question-words-little-words-3-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which one means „but“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "aber"
+        },
+        {
+          "id": "b",
+          "text": "dort / da"
+        },
+        {
+          "id": "c",
+          "text": "warum"
+        },
+        {
+          "id": "d",
+          "text": "wie viele"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**aber** = but\n\n*Example:* Die Wohnung ist schön, aber sie ist zu teuer.\nThe flat is nice, but it's too expensive."
+    },
+    {
+      "id": "tb1-u05-l08-question-words-little-words-3-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Would you like tea or coffee?",
+      "tiles": [
+        "oder",
+        "Arbeit",
+        "Sie",
+        "viele",
+        "Möchten",
+        "Kaffee",
+        "Tee",
+        "und"
+      ],
+      "answers": [
+        "Möchten Sie Tee oder Kaffee?"
+      ],
+      "explanation": "**oder** = or"
+    },
+    {
+      "id": "tb1-u05-l08-question-words-little-words-3-ex09",
+      "type": "multiple_choice",
+      "prompt": "Which one means „because / for“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "denn"
+        },
+        {
+          "id": "b",
+          "text": "kein / keine"
+        },
+        {
+          "id": "c",
+          "text": "wie viel"
+        },
+        {
+          "id": "d",
+          "text": "auch"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**denn** = because / for\n\n*Example:* Tom bleibt heute zu Hause, denn er ist krank.\nTom is staying at home today because he's ill."
+    },
+    {
+      "id": "tb1-u05-l08-question-words-little-words-3-ex10",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u05-l08-question-words-little-words-3-4.mp3"
+      },
+      "tiles": [
+        "ist",
+        "zu",
+        "du",
+        "teuer",
+        "sie",
+        "Wohnung",
+        "aber",
+        "Siehst",
+        "fahrt",
+        "Die",
+        "ist",
+        "schön"
+      ],
+      "answers": [
+        "Die Wohnung ist schön, aber sie ist zu teuer."
+      ],
+      "explanation": "Die Wohnung ist schön, aber sie ist zu teuer.\n*The flat is nice, but it's too expensive.*\n\n**aber** = but"
+    },
+    {
+      "id": "tb1-u05-l08-question-words-little-words-3-ex11",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Tom bleibt heute zu Hause, denn er ist krank.",
+      "tiles": [
+        "home",
+        "staying",
+        "speaks",
+        "today",
+        "ill",
+        "dinner",
+        "at",
+        "is",
+        "he's",
+        "because",
+        "Tom",
+        "hall"
+      ],
+      "answers": [
+        "Tom is staying at home today because he's ill."
+      ],
+      "explanation": "**denn** = because / for"
+    }
+  ]
+}

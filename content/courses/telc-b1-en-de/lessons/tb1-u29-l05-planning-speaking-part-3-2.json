@@ -1,0 +1,227 @@
+{
+  "id": "tb1-u29-l05-planning-speaking-part-3-2",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u29",
+  "title": "Planning (Speaking Part 3) 2",
+  "tip": "Theme: Sätze: Planen (Sprechen Teil 3) (B1)",
+  "exercises": [
+    {
+      "id": "tb1-u29-l05-planning-speaking-part-3-2-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "Sollen wir die anderen auch einladen?",
+          "known": "Shall we invite the others too?"
+        },
+        {
+          "id": "p2",
+          "learning": "Dann sind wir uns einig",
+          "known": "Then we agree."
+        },
+        {
+          "id": "p3",
+          "learning": "Gut, machen wir es so",
+          "known": "Good, let's do it like that."
+        },
+        {
+          "id": "p4",
+          "learning": "Wollen wir uns am Samstag treffen?",
+          "known": "Shall we meet on Saturday?"
+        },
+        {
+          "id": "p5",
+          "learning": "Wer könnte die Getränke mitbringen?",
+          "known": "Who could bring the drinks?"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u29-l05-planning-speaking-part-3-2-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means „That's a good idea, but maybe it's too expensive.“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ich schlage vor, dass wir zuerst einkaufen."
+        },
+        {
+          "id": "b",
+          "text": "Das ist eine gute Idee, aber vielleicht ist es zu teuer."
+        },
+        {
+          "id": "c",
+          "text": "Wer könnte die Getränke mitbringen?"
+        },
+        {
+          "id": "d",
+          "text": "Gut, machen wir es so."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Das ist eine gute Idee, aber vielleicht ist es zu teuer.** = That's a good idea, but maybe it's too expensive.\n\n*Example:* Das ist eine gute Idee, aber vielleicht ist es zu teuer.\nThat's a good idea, but maybe it's too expensive."
+    },
+    {
+      "id": "tb1-u29-l05-planning-speaking-part-3-2-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means „Shall we invite the others too?“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Dann sind wir uns einig."
+        },
+        {
+          "id": "b",
+          "text": "Das ist eine gute Idee, aber vielleicht ist es zu teuer."
+        },
+        {
+          "id": "c",
+          "text": "Wer könnte die Getränke mitbringen?"
+        },
+        {
+          "id": "d",
+          "text": "Sollen wir die anderen auch einladen?"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**Sollen wir die anderen auch einladen?** = Shall we invite the others too?\n\n*Example:* Sollen wir die anderen auch einladen?\nShall we invite the others too?"
+    },
+    {
+      "id": "tb1-u29-l05-planning-speaking-part-3-2-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Das ist eine gute Idee, aber vielleicht ist es zu teuer.",
+      "tiles": [
+        "That's",
+        "expensive",
+        "good",
+        "first",
+        "idea",
+        "Shall",
+        "it's",
+        "a",
+        "maybe",
+        "but",
+        "go",
+        "too"
+      ],
+      "answers": [
+        "That's a good idea, but maybe it's too expensive."
+      ],
+      "explanation": "**Das ist eine gute Idee, aber vielleicht ist es zu teuer.** = That's a good idea, but maybe it's too expensive."
+    },
+    {
+      "id": "tb1-u29-l05-planning-speaking-part-3-2-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means „Then we agree.“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ich schlage vor, dass wir zuerst einkaufen."
+        },
+        {
+          "id": "b",
+          "text": "Dann sind wir uns einig."
+        },
+        {
+          "id": "c",
+          "text": "Wer könnte die Getränke mitbringen?"
+        },
+        {
+          "id": "d",
+          "text": "Wollen wir uns am Samstag treffen?"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Dann sind wir uns einig.** = Then we agree.\n\n*Example:* Dann sind wir uns einig.\nThen we agree."
+    },
+    {
+      "id": "tb1-u29-l05-planning-speaking-part-3-2-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Shall we invite the others too?",
+      "tiles": [
+        "einladen",
+        "auch",
+        "wir",
+        "mitbringen",
+        "die",
+        "anderen",
+        "Sollen",
+        "Idee",
+        "Wollen"
+      ],
+      "answers": [
+        "Sollen wir die anderen auch einladen?"
+      ],
+      "explanation": "**Sollen wir die anderen auch einladen?** = Shall we invite the others too?"
+    },
+    {
+      "id": "tb1-u29-l05-planning-speaking-part-3-2-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means „Good, let's do it like that.“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Wie viel Geld wollen wir ausgeben?"
+        },
+        {
+          "id": "b",
+          "text": "Wer könnte die Getränke mitbringen?"
+        },
+        {
+          "id": "c",
+          "text": "Sollen wir die anderen auch einladen?"
+        },
+        {
+          "id": "d",
+          "text": "Gut, machen wir es so."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**Gut, machen wir es so.** = Good, let's do it like that.\n\n*Example:* Gut, machen wir es so.\nGood, let's do it like that."
+    },
+    {
+      "id": "tb1-u29-l05-planning-speaking-part-3-2-ex08",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u29-l05-planning-speaking-part-3-2-3.mp3"
+      },
+      "tiles": [
+        "Dann",
+        "einig",
+        "aber",
+        "sind",
+        "wir",
+        "Ich",
+        "uns",
+        "Geld"
+      ],
+      "answers": [
+        "Dann sind wir uns einig."
+      ],
+      "explanation": "Dann sind wir uns einig.\n*Then we agree.*\n\n**Dann sind wir uns einig.** = Then we agree."
+    },
+    {
+      "id": "tb1-u29-l05-planning-speaking-part-3-2-ex09",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Gut, machen wir es so.",
+      "tiles": [
+        "we",
+        "Good",
+        "do",
+        "it",
+        "like",
+        "let's",
+        "that",
+        "to",
+        "Who"
+      ],
+      "answers": [
+        "Good, let's do it like that."
+      ],
+      "explanation": "**Gut, machen wir es so.** = Good, let's do it like that."
+    }
+  ]
+}

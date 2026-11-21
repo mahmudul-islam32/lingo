@@ -1,0 +1,318 @@
+{
+  "id": "tb1-u58-l01-brief-14-tamara",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u58",
+  "title": "Letter 14: Tamara · Treffen und Fragen zur neuen Arbeitsstelle",
+  "tip": "Cover all four points; Anrede and Gruß are compulsory.",
+  "exercises": [
+    {
+      "id": "tb1-u58-l01-brief-14-tamara-ex01",
+      "type": "explain",
+      "title": "Letter from Deine Tamara: Treffen und Fragen zur neuen Arbeitsstelle",
+      "body": "Read the letter. You will answer it in about 80 words and write something about each of the four points.\n\n## Treffen und Fragen zur neuen Arbeitsstelle\n\nLiebe(r) ........\nwie geht es dir? Du hast mir schon so lange nicht mehr geschrieben, dass ich mir Sorgen mache. Hoffentlich ist bei Euch alles in Ordnung. Es wird wirklich Zeit, dass wir uns wiedersehen.\nAnfang des Jahres habe ich meinen Arbeitsplatz gewechselt. Meine neue Stelle ist sehr interessant, aber auch anstrengend.\nIch bin nun beruflich sehr viel unterwegs. Demnächst muss ich auch in Eure Gegend reisen. Dann könnten wir uns doch einmal am Abend treffen und gemeinsam etwas unternehmen. Wie findest Du meine Idee? Ich würde auch sehr gerne Deine Familie kennenlernen.\nBitte antworte mir bald!\n\nHerzliche Grüße\nDeine Tamara\n\n## Task\n\n**Antworten Sie Tamara. Schreiben Sie etwas zu allen vier Punkten:**\n1. Vorschlag zum Treffen\n2. Jemanden mitbringen\n3. Frage zur neuen Arbeitsstelle\n4. Warum Sie nicht geschrieben haben\n\nSource video: https://www.youtube.com/watch?v=UHxUvxH2Phs\n\n## Notes on the source\n\n- Quelle: 'zu allen vier Punkte' (richtig: Punkten)."
+    },
+    {
+      "id": "tb1-u58-l01-brief-14-tamara-ex02",
+      "type": "explain",
+      "title": "Plan: one building block per point",
+      "body": "For each Leitpunkt pick a Baustein and fill it in:\n\n**1. Vorschlag zum Treffen**\nBaustein B4 · Vorschlag machen (make a suggestion): *Ich hätte einen Vorschlag: Wir könnten …, denn das wäre nicht nur …, sondern auch …. Was hältst du davon?*\n→ Ich hätte einen Vorschlag: Wir könnten uns bei mir zu Hause treffen, denn das wäre nicht nur gemütlicher, sondern auch ruhiger. Was hältst du davon?\n\n**2. Jemanden mitbringen**\nBaustein B4b · jemanden mitbringen (bring someone along): *Übrigens würde ich gern … mitbringen, wenn das für dich in Ordnung wäre.*\n→ Übrigens würde ich gern meine Familie mitbringen, wenn das für dich in Ordnung wäre.\n\n**3. Frage zur neuen Arbeitsstelle**\nBaustein B6 · Rückfrage stellen (ask a follow-up question): *Außerdem würde ich gern wissen, ob … und wie ….*\n→ Außerdem würde ich gern wissen, ob die neue Stelle dir gefällt und wie oft du beruflich unterwegs bist.\n\n**4. Warum Sie nicht geschrieben haben**\nBaustein B3 · entschuldigen / begründen (apologise / give a reason): *Entschuldige bitte, dass ich mich so lange nicht gemeldet habe. Ich konnte dir leider nicht schreiben, weil ….*\n→ Entschuldige bitte, dass ich mich so lange nicht gemeldet habe. Ich konnte dir leider nicht schreiben, weil ich im letzten Monat sehr viel Arbeit hatte.",
+      "examples": [
+        {
+          "learning": "Ich hätte einen Vorschlag: Wir könnten uns bei mir zu Hause treffen, denn das wäre nicht nur gemütlicher, sondern auch ruhiger. Was hältst du davon?",
+          "known": "Point 1: make a suggestion (B4)"
+        },
+        {
+          "learning": "Übrigens würde ich gern meine Familie mitbringen, wenn das für dich in Ordnung wäre.",
+          "known": "Point 2: bring someone along (B4b)"
+        },
+        {
+          "learning": "Außerdem würde ich gern wissen, ob die neue Stelle dir gefällt und wie oft du beruflich unterwegs bist.",
+          "known": "Point 3: ask a follow-up question (B6)"
+        },
+        {
+          "learning": "Entschuldige bitte, dass ich mich so lange nicht gemeldet habe. Ich konnte dir leider nicht schreiben, weil ich im letzten Monat sehr viel Arbeit hatte.",
+          "known": "Point 4: apologise / give a reason (B3)"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u58-l01-brief-14-tamara-ex03",
+      "type": "choice",
+      "title": "Leitpunkt 1",
+      "prompt": "Welcher Satz passt zum Leitpunkt „Vorschlag zum Treffen“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Außerdem würde ich gern wissen, ob die neue Stelle dir gefällt und wie oft du beruflich unterwegs bist."
+        },
+        {
+          "id": "b",
+          "text": "Übrigens würde ich gern meine Familie mitbringen, wenn das für dich in Ordnung wäre."
+        },
+        {
+          "id": "c",
+          "text": "Ich hätte einen Vorschlag: Wir könnten uns bei mir zu Hause treffen, denn das wäre nicht nur gemütlicher, sondern auch ruhiger. Was hältst du davon?"
+        },
+        {
+          "id": "d",
+          "text": "Entschuldige bitte, dass ich mich so lange nicht gemeldet habe. Ich konnte dir leider nicht schreiben, weil ich im letzten Monat sehr viel Arbeit hatte."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Baustein **B4** · Vorschlag machen (make a suggestion): Ich hätte einen Vorschlag: Wir könnten …, denn das wäre nicht nur …, sondern auch …. Was hältst du davon?"
+    },
+    {
+      "id": "tb1-u58-l01-brief-14-tamara-ex04",
+      "type": "choice",
+      "title": "Leitpunkt 2",
+      "prompt": "Welcher Satz passt zum Leitpunkt „Jemanden mitbringen“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Übrigens würde ich gern meine Familie mitbringen, wenn das für dich in Ordnung wäre."
+        },
+        {
+          "id": "b",
+          "text": "Ich hätte einen Vorschlag: Wir könnten uns bei mir zu Hause treffen, denn das wäre nicht nur gemütlicher, sondern auch ruhiger. Was hältst du davon?"
+        },
+        {
+          "id": "c",
+          "text": "Entschuldige bitte, dass ich mich so lange nicht gemeldet habe. Ich konnte dir leider nicht schreiben, weil ich im letzten Monat sehr viel Arbeit hatte."
+        },
+        {
+          "id": "d",
+          "text": "Außerdem würde ich gern wissen, ob die neue Stelle dir gefällt und wie oft du beruflich unterwegs bist."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Baustein **B4b** · jemanden mitbringen (bring someone along): Übrigens würde ich gern … mitbringen, wenn das für dich in Ordnung wäre."
+    },
+    {
+      "id": "tb1-u58-l01-brief-14-tamara-ex05",
+      "type": "choice",
+      "title": "Leitpunkt 3",
+      "prompt": "Welcher Satz passt zum Leitpunkt „Frage zur neuen Arbeitsstelle“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Entschuldige bitte, dass ich mich so lange nicht gemeldet habe. Ich konnte dir leider nicht schreiben, weil ich im letzten Monat sehr viel Arbeit hatte."
+        },
+        {
+          "id": "b",
+          "text": "Außerdem würde ich gern wissen, ob die neue Stelle dir gefällt und wie oft du beruflich unterwegs bist."
+        },
+        {
+          "id": "c",
+          "text": "Ich hätte einen Vorschlag: Wir könnten uns bei mir zu Hause treffen, denn das wäre nicht nur gemütlicher, sondern auch ruhiger. Was hältst du davon?"
+        },
+        {
+          "id": "d",
+          "text": "Übrigens würde ich gern meine Familie mitbringen, wenn das für dich in Ordnung wäre."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Baustein **B6** · Rückfrage stellen (ask a follow-up question): Außerdem würde ich gern wissen, ob … und wie …."
+    },
+    {
+      "id": "tb1-u58-l01-brief-14-tamara-ex06",
+      "type": "choice",
+      "title": "Leitpunkt 4",
+      "prompt": "Welcher Satz passt zum Leitpunkt „Warum Sie nicht geschrieben haben“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ich hätte einen Vorschlag: Wir könnten uns bei mir zu Hause treffen, denn das wäre nicht nur gemütlicher, sondern auch ruhiger. Was hältst du davon?"
+        },
+        {
+          "id": "b",
+          "text": "Übrigens würde ich gern meine Familie mitbringen, wenn das für dich in Ordnung wäre."
+        },
+        {
+          "id": "c",
+          "text": "Entschuldige bitte, dass ich mich so lange nicht gemeldet habe. Ich konnte dir leider nicht schreiben, weil ich im letzten Monat sehr viel Arbeit hatte."
+        },
+        {
+          "id": "d",
+          "text": "Außerdem würde ich gern wissen, ob die neue Stelle dir gefällt und wie oft du beruflich unterwegs bist."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Baustein **B3** · entschuldigen / begründen (apologise / give a reason): Entschuldige bitte, dass ich mich so lange nicht gemeldet habe. Ich konnte dir leider nicht schreiben, weil …."
+    },
+    {
+      "id": "tb1-u58-l01-brief-14-tamara-ex07",
+      "type": "choice",
+      "title": "Leitpunkt 1 · Welches Wort passt in die Lücke?",
+      "prompt": "Ich hätte einen Vorschlag: Wir könnten uns bei mir zu Hause treffen, ___ das wäre nicht nur gemütlicher, sondern auch ruhiger. Was hältst du davon?",
+      "options": [
+        {
+          "id": "a",
+          "text": "denn"
+        },
+        {
+          "id": "b",
+          "text": "weil"
+        },
+        {
+          "id": "c",
+          "text": "deshalb"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Full sentence: *Ich hätte einen Vorschlag: Wir könnten uns bei mir zu Hause treffen, denn das wäre nicht nur gemütlicher, sondern auch ruhiger. Was hältst du davon?*\n\n**denn (Grund, Position 0)**: reason but normal word order (like und/aber).\n\n…, **denn** + Subjekt + Verb. (normale Wortstellung!)\nBsp: Ich bleibe zu Hause, denn **ich bin** müde."
+    },
+    {
+      "id": "tb1-u58-l01-brief-14-tamara-ex08",
+      "type": "choice",
+      "title": "Leitpunkt 2 · Welches Wort passt in die Lücke?",
+      "prompt": "Übrigens würde ich gern meine Familie mitbringen, ___ das für dich in Ordnung wäre.",
+      "options": [
+        {
+          "id": "a",
+          "text": "deshalb"
+        },
+        {
+          "id": "b",
+          "text": "wenn"
+        },
+        {
+          "id": "c",
+          "text": "denn"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Full sentence: *Übrigens würde ich gern meine Familie mitbringen, wenn das für dich in Ordnung wäre.*\n\n**wenn (Bedingung/Zeit)**: condition/time; verb-final, then main clause inverts.\n\n**Wenn** + … + **Verb-Ende**, **Verb** + Subjekt.\nBsp: Wenn es **regnet**, **bleibe ich** zu Hause."
+    },
+    {
+      "id": "tb1-u58-l01-brief-14-tamara-ex09",
+      "type": "choice",
+      "title": "Leitpunkt 3 · Welches Wort passt in die Lücke?",
+      "prompt": "___ würde ich gern wissen, ob die neue Stelle dir gefällt und wie oft du beruflich unterwegs bist.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Weil"
+        },
+        {
+          "id": "b",
+          "text": "Denn"
+        },
+        {
+          "id": "c",
+          "text": "Außerdem"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Full sentence: *Außerdem würde ich gern wissen, ob die neue Stelle dir gefällt und wie oft du beruflich unterwegs bist.*\n\n**außerdem (Zusatz)**: addition; position 1 → inversion.\n\n…, **außerdem** + **Verb** + Subjekt.\nBsp: Es ist günstig, außerdem **liegt es** zentral."
+    },
+    {
+      "id": "tb1-u58-l01-brief-14-tamara-ex10",
+      "type": "choice",
+      "title": "Leitpunkt 4 · Welches Wort passt in die Lücke?",
+      "prompt": "Entschuldige bitte, ___ ich mich so lange nicht gemeldet habe. Ich konnte dir leider nicht schreiben, weil ich im letzten Monat sehr viel Arbeit hatte.",
+      "options": [
+        {
+          "id": "a",
+          "text": "denn"
+        },
+        {
+          "id": "b",
+          "text": "dass"
+        },
+        {
+          "id": "c",
+          "text": "deshalb"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Full sentence: *Entschuldige bitte, dass ich mich so lange nicht gemeldet habe. Ich konnte dir leider nicht schreiben, weil ich im letzten Monat sehr viel Arbeit hatte.*\n\n**dass (Inhalt)**: content clause; verb at the end.\n\nHauptsatz, **dass** + Subjekt + … + **Verb-Ende**.\nBsp: Ich hoffe, dass du bald **kommst**."
+    },
+    {
+      "id": "tb1-u58-l01-brief-14-tamara-ex11",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/w-brief-14-0.mp3"
+      },
+      "tiles": [
+        "mitbringen",
+        "Ordnung",
+        "ich",
+        "das",
+        "Familie",
+        "meine",
+        "würde",
+        "gern",
+        "Übrigens",
+        "wäre",
+        "wenn",
+        "Hause",
+        "dich",
+        "in",
+        "Vorschlag",
+        "für",
+        "Monat"
+      ],
+      "answers": [
+        "Übrigens würde ich gern meine Familie mitbringen, wenn das für dich in Ordnung wäre."
+      ]
+    },
+    {
+      "id": "tb1-u58-l01-brief-14-tamara-ex12",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/w-brief-14-1.mp3"
+      },
+      "tiles": [
+        "gefällt",
+        "wäre",
+        "Stelle",
+        "oft",
+        "gern",
+        "Vorschlag",
+        "beruflich",
+        "neue",
+        "wie",
+        "Außerdem",
+        "bei",
+        "dir",
+        "und",
+        "würde",
+        "die",
+        "bist",
+        "du",
+        "ich",
+        "wissen",
+        "unterwegs",
+        "ob"
+      ],
+      "answers": [
+        "Außerdem würde ich gern wissen, ob die neue Stelle dir gefällt und wie oft du beruflich unterwegs bist."
+      ]
+    },
+    {
+      "id": "tb1-u58-l01-brief-14-tamara-ex13",
+      "type": "task",
+      "skill": "writing",
+      "title": "E-Mail an Tamara: Treffen und Fragen zur neuen Arbeitsstelle",
+      "task": "**Treffen und Fragen zur neuen Arbeitsstelle**\n\nYou received this letter:\n\nLiebe(r) ........\nwie geht es dir? Du hast mir schon so lange nicht mehr geschrieben, dass ich mir Sorgen mache. Hoffentlich ist bei Euch alles in Ordnung. Es wird wirklich Zeit, dass wir uns wiedersehen.\nAnfang des Jahres habe ich meinen Arbeitsplatz gewechselt. Meine neue Stelle ist sehr interessant, aber auch anstrengend.\nIch bin nun beruflich sehr viel unterwegs. Demnächst muss ich auch in Eure Gegend reisen. Dann könnten wir uns doch einmal am Abend treffen und gemeinsam etwas unternehmen. Wie findest Du meine Idee? Ich würde auch sehr gerne Deine Familie kennenlernen.\nBitte antworte mir bald!\nHerzliche Grüße\nDeine Tamara\n\n**Antworten Sie Tamara. Schreiben Sie etwas zu allen vier Punkten:**\n\nWrite about 80 words (30 minutes). Anrede and Gruß are compulsory.",
+      "points": [
+        "Vorschlag zum Treffen",
+        "Jemanden mitbringen",
+        "Frage zur neuen Arbeitsstelle",
+        "Warum Sie nicht geschrieben haben"
+      ],
+      "phrases": [
+        "Liebe Tamara,",
+        "vielen Dank für deinen Brief. Ich habe mich sehr gefreut, weil ich schon lange nichts von dir gehört habe.",
+        "Ich hätte einen Vorschlag: Wir könnten …, denn das wäre nicht nur …, sondern auch …. Was hältst du davon?",
+        "Übrigens würde ich gern … mitbringen, wenn das für dich in Ordnung wäre.",
+        "Außerdem würde ich gern wissen, ob … und wie ….",
+        "Entschuldige bitte, dass ich mich so lange nicht gemeldet habe. Ich konnte dir leider nicht schreiben, weil ….",
+        "So, das war's für heute. Ich hoffe, dass es dir gut geht. Es wäre schön, wenn wir uns bald einmal wiedersehen könnten. Schreib mir bitte bald zurück!",
+        "Viele Grüße"
+      ],
+      "modelAnswer": "## Model answer (Musterlösung)\n\nHamburg, den 9. August 2026\n\nLiebe Tamara,\n\nvielen Dank für deinen Brief. Ich habe mich sehr gefreut, weil ich schon lange nichts von dir gehört habe.\n\nIch hätte einen Vorschlag: Wir könnten uns bei mir zu Hause treffen, denn das wäre nicht nur gemütlicher, sondern auch ruhiger. Was hältst du davon?\n\nÜbrigens würde ich gern meine Familie mitbringen, wenn das für dich in Ordnung wäre.\n\nAußerdem würde ich gern wissen, ob die neue Stelle dir gefällt und wie oft du beruflich unterwegs bist.\n\nEntschuldige bitte, dass ich mich so lange nicht gemeldet habe. Ich konnte dir leider nicht schreiben, weil ich im letzten Monat sehr viel Arbeit hatte.\n\nSo, das war's für heute. Ich hoffe, dass es dir gut geht. Es wäre schön, wenn wir uns bald einmal wiedersehen könnten. Schreib mir bitte bald zurück!\n\nViele Grüße\ndein Arnob\n\n## Sample answer from the source video\n\n*This answer was written in the source video. It is not the model and may contain mistakes; check the notes on the source.*\n\nLiebe Tamara,\nwie geht es dir und deiner Familie? Ich hoffe, dass es euch allen gut geht. Ich habe gerade deine E-Mail gelesen und mich sehr gefreut zu hören, dass du eine neue Stelle gefunden hast. Ich möchte auch gerne wissen, was genau deine Arbeit ist und wie viele Stunden du pro Tag arbeiten musst.\nWeißt du, im letzten Monat hatte ich sehr viel Arbeit. Das hat mich erschöpft, und deshalb konnte ich dir leider nicht regelmäßig schreiben. Ich hoffe, du hast dafür Verständnis.\nWie du geschrieben hast, wirst du demnächst in meine Gegend reisen und möchtest auch gerne meine Familie kennenlernen. Deshalb schlage ich vor, dass wir uns bei mir zu Hause treffen. Ich werde zusammen mit meinen Eltern ein Abendessen vorbereiten, damit wir gemütlich essen und miteinander reden können.\nNach dem Abendessen möchte ich mit dir und meiner Schwester ins Kino gehen, um einen Film zu schauen und zu entspannen. Das wäre sicher ein schöner Abend mit tollen Erinnerungen. Was hältst du davon?\nBitte antworte mir bald!\nViele Grüße\n[Dein Name]",
+      "explanation": "Notes on the source:\n\n- Quelle: 'zu allen vier Punkte' (richtig: Punkten)."
+    }
+  ]
+}

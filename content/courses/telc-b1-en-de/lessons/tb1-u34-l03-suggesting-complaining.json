@@ -1,0 +1,375 @@
+{
+  "id": "tb1-u34-l03-suggesting-complaining",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u34",
+  "title": "Letter toolkit: Suggesting & Complaining",
+  "tip": "Brief-Baukasten: ready-made building blocks for the telc letter.",
+  "exercises": [
+    {
+      "id": "tb1-u34-l03-suggesting-complaining-ex01",
+      "type": "explain",
+      "title": "Suggesting (Vorschlagen)",
+      "body": "Make suggestions with „Wie wäre es, wenn …“ or „Wir könnten …“: both Konjunktiv II, both B1 level.\n\n*Deutsch:* Vorschläge mit „Wie wäre es, wenn …“ oder „Wir könnten …“, beides Konjunktiv II, beides B1-Niveau.\n\n- **Wie wäre es, wenn wir uns am Samstag treffen?** = How about we meet on Saturday?\n- **Ich schlage vor, dass …** = I suggest that …\n- **Wir könnten auch zusammen kochen.** = We could also cook together.",
+      "examples": [
+        {
+          "learning": "Wie wäre es, wenn wir uns am Samstag treffen?",
+          "known": "How about we meet on Saturday?"
+        },
+        {
+          "learning": "Ich schlage vor, dass …",
+          "known": "I suggest that …"
+        },
+        {
+          "learning": "Wir könnten auch zusammen kochen.",
+          "known": "We could also cook together."
+        }
+      ]
+    },
+    {
+      "id": "tb1-u34-l03-suggesting-complaining-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which phrase means „How about we meet on Saturday?“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Wie wäre es, wenn wir uns am Samstag treffen?"
+        },
+        {
+          "id": "b",
+          "text": "Ich schreibe Ihnen, weil …"
+        },
+        {
+          "id": "c",
+          "text": "Vielen Dank im Voraus für Ihre Mühe."
+        },
+        {
+          "id": "d",
+          "text": "Hallo Sarah,"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Wie wäre es, wenn wir uns am Samstag treffen?** = How about we meet on Saturday?\n\n*Grammar:* Konjunktiv II: Polite & Unreal"
+    },
+    {
+      "id": "tb1-u34-l03-suggesting-complaining-ex03",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "How about we meet on Saturday?",
+      "tiles": [
+        "Leider",
+        "Samstag",
+        "wäre",
+        "Mit",
+        "uns",
+        "am",
+        "bin",
+        "es",
+        "Wie",
+        "wenn",
+        "wir",
+        "treffen"
+      ],
+      "answers": [
+        "Wie wäre es, wenn wir uns am Samstag treffen?"
+      ],
+      "explanation": "**Wie wäre es, wenn wir uns am Samstag treffen?** = How about we meet on Saturday?\n\n*Grammar:* Konjunktiv II: Polite & Unreal"
+    },
+    {
+      "id": "tb1-u34-l03-suggesting-complaining-ex04",
+      "type": "multiple_choice",
+      "prompt": "Which phrase means „I suggest that …“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Entschuldige bitte, dass ich erst jetzt antworte."
+        },
+        {
+          "id": "b",
+          "text": "Ich schreibe Ihnen, weil …"
+        },
+        {
+          "id": "c",
+          "text": "Sehr geehrte Frau Weber, / Sehr geehrter Herr Klein,"
+        },
+        {
+          "id": "d",
+          "text": "Ich schlage vor, dass …"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**Ich schlage vor, dass …** = I suggest that …\n\n*Grammar:* Subordinate Clauses: weil, dass, wenn, obwohl …"
+    },
+    {
+      "id": "tb1-u34-l03-suggesting-complaining-ex05",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I suggest that …",
+      "tiles": [
+        "vor",
+        "andererseits",
+        "bin",
+        "dass",
+        "schlage",
+        "für",
+        "Ich"
+      ],
+      "answers": [
+        "Ich schlage vor, dass …"
+      ],
+      "explanation": "**Ich schlage vor, dass …** = I suggest that …\n\n*Grammar:* Subordinate Clauses: weil, dass, wenn, obwohl …"
+    },
+    {
+      "id": "tb1-u34-l03-suggesting-complaining-ex06",
+      "type": "multiple_choice",
+      "prompt": "Which phrase means „We could also cook together.“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Wir könnten auch zusammen kochen."
+        },
+        {
+          "id": "b",
+          "text": "Ich danke dir/Ihnen herzlich für …"
+        },
+        {
+          "id": "c",
+          "text": "Ich habe mich sehr über deine Nachricht gefreut."
+        },
+        {
+          "id": "d",
+          "text": "Wie wäre es, wenn wir uns am Samstag treffen?"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Wir könnten auch zusammen kochen.** = We could also cook together.\n\n*Grammar:* Modal Verbs"
+    },
+    {
+      "id": "tb1-u34-l03-suggesting-complaining-ex07",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "We could also cook together.",
+      "tiles": [
+        "auch",
+        "könnten",
+        "kochen",
+        "dir",
+        "ich",
+        "zusammen",
+        "Wir",
+        "Zeit"
+      ],
+      "answers": [
+        "Wir könnten auch zusammen kochen."
+      ],
+      "explanation": "**Wir könnten auch zusammen kochen.** = We could also cook together.\n\n*Grammar:* Modal Verbs"
+    },
+    {
+      "id": "tb1-u34-l03-suggesting-complaining-ex08",
+      "type": "explain",
+      "title": "Complaining (Sich beschweren (halbformell))",
+      "body": "Stay factual. „Leider musste ich feststellen, dass …“ is the perfect opening.\n\n*Deutsch:* Sachlich bleiben. „Leider musste ich feststellen, dass …“ ist die perfekte Eröffnung.\n\n- **Leider musste ich feststellen, dass …** = Unfortunately I had to notice that …\n- **Ich bin mit … überhaupt nicht zufrieden.** = I'm not at all satisfied with …\n- **Ich muss mich leider über … beschweren.** = Unfortunately I have to complain about …\n- **Das Gerät muss repariert oder umgetauscht werden.** = The device must be repaired or exchanged.",
+      "examples": [
+        {
+          "learning": "Leider musste ich feststellen, dass …",
+          "known": "Unfortunately I had to notice that …"
+        },
+        {
+          "learning": "Ich bin mit … überhaupt nicht zufrieden.",
+          "known": "I'm not at all satisfied with …"
+        },
+        {
+          "learning": "Ich muss mich leider über … beschweren.",
+          "known": "Unfortunately I have to complain about …"
+        },
+        {
+          "learning": "Das Gerät muss repariert oder umgetauscht werden.",
+          "known": "The device must be repaired or exchanged."
+        }
+      ]
+    },
+    {
+      "id": "tb1-u34-l03-suggesting-complaining-ex09",
+      "type": "multiple_choice",
+      "prompt": "Which phrase means „Unfortunately I had to notice that …“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Sehr geehrte Frau Weber, / Sehr geehrter Herr Klein,"
+        },
+        {
+          "id": "b",
+          "text": "Liebe Anna, / Lieber Omar,"
+        },
+        {
+          "id": "c",
+          "text": "Ich muss mich leider über … beschweren."
+        },
+        {
+          "id": "d",
+          "text": "Leider musste ich feststellen, dass …"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**Leider musste ich feststellen, dass …** = Unfortunately I had to notice that …\n\n*Grammar:* Subordinate Clauses: weil, dass, wenn, obwohl …"
+    },
+    {
+      "id": "tb1-u34-l03-suggesting-complaining-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Unfortunately I had to notice that …",
+      "tiles": [
+        "musste",
+        "feststellen",
+        "Leider",
+        "das",
+        "ich",
+        "dass",
+        "absagen",
+        "Wir"
+      ],
+      "answers": [
+        "Leider musste ich feststellen, dass …"
+      ],
+      "explanation": "**Leider musste ich feststellen, dass …** = Unfortunately I had to notice that …\n\n*Grammar:* Subordinate Clauses: weil, dass, wenn, obwohl …"
+    },
+    {
+      "id": "tb1-u34-l03-suggesting-complaining-ex11",
+      "type": "multiple_choice",
+      "prompt": "Which phrase means „I'm not at all satisfied with …“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Sehr geehrte Damen und Herren,"
+        },
+        {
+          "id": "b",
+          "text": "Liebe Anna, / Lieber Omar,"
+        },
+        {
+          "id": "c",
+          "text": "Ich habe mich sehr über deine Nachricht gefreut."
+        },
+        {
+          "id": "d",
+          "text": "Ich bin mit … überhaupt nicht zufrieden."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**Ich bin mit … überhaupt nicht zufrieden.** = I'm not at all satisfied with …\n\n*Grammar:* Prepositions with a Fixed Case"
+    },
+    {
+      "id": "tb1-u34-l03-suggesting-complaining-ex12",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I'm not at all satisfied with …",
+      "tiles": [
+        "deine/Ihre",
+        "Entschuldige",
+        "zufrieden",
+        "Ich",
+        "mit",
+        "klappt",
+        "bin",
+        "nicht",
+        "überhaupt"
+      ],
+      "answers": [
+        "Ich bin mit … überhaupt nicht zufrieden."
+      ],
+      "explanation": "**Ich bin mit … überhaupt nicht zufrieden.** = I'm not at all satisfied with …\n\n*Grammar:* Prepositions with a Fixed Case"
+    },
+    {
+      "id": "tb1-u34-l03-suggesting-complaining-ex13",
+      "type": "multiple_choice",
+      "prompt": "Which phrase means „Unfortunately I have to complain about …“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ich muss mich leider über … beschweren."
+        },
+        {
+          "id": "b",
+          "text": "Sehr geehrte Frau Weber, / Sehr geehrter Herr Klein,"
+        },
+        {
+          "id": "c",
+          "text": "Entschuldige bitte, dass ich erst jetzt antworte."
+        },
+        {
+          "id": "d",
+          "text": "Ich danke dir/Ihnen herzlich für …"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Ich muss mich leider über … beschweren.** = Unfortunately I have to complain about …\n\n*Grammar:* Verbs with Prepositions + darauf/worauf"
+    },
+    {
+      "id": "tb1-u34-l03-suggesting-complaining-ex14",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Unfortunately I have to complain about …",
+      "tiles": [
+        "muss",
+        "Ich",
+        "Freizeit",
+        "beschweren",
+        "mich",
+        "über",
+        "deine",
+        "leider",
+        "du"
+      ],
+      "answers": [
+        "Ich muss mich leider über … beschweren."
+      ],
+      "explanation": "**Ich muss mich leider über … beschweren.** = Unfortunately I have to complain about …\n\n*Grammar:* Verbs with Prepositions + darauf/worauf"
+    },
+    {
+      "id": "tb1-u34-l03-suggesting-complaining-ex15",
+      "type": "multiple_choice",
+      "prompt": "Which phrase means „The device must be repaired or exchanged.“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Leider musste ich feststellen, dass …"
+        },
+        {
+          "id": "b",
+          "text": "Ich muss mich leider über … beschweren."
+        },
+        {
+          "id": "c",
+          "text": "Ich habe mich sehr über deine Nachricht gefreut."
+        },
+        {
+          "id": "d",
+          "text": "Das Gerät muss repariert oder umgetauscht werden."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**Das Gerät muss repariert oder umgetauscht werden.** = The device must be repaired or exchanged.\n\n*Grammar:* The Passive"
+    },
+    {
+      "id": "tb1-u34-l03-suggesting-complaining-ex16",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "The device must be repaired or exchanged.",
+      "tiles": [
+        "Gerät",
+        "ich",
+        "umgetauscht",
+        "werden",
+        "muss",
+        "Hast",
+        "Das",
+        "repariert",
+        "oder",
+        "Super"
+      ],
+      "answers": [
+        "Das Gerät muss repariert oder umgetauscht werden."
+      ],
+      "explanation": "**Das Gerät muss repariert oder umgetauscht werden.** = The device must be repaired or exchanged.\n\n*Grammar:* The Passive"
+    }
+  ]
+}

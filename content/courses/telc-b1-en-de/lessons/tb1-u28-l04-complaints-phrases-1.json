@@ -1,0 +1,294 @@
+{
+  "id": "tb1-u28-l04-complaints-phrases-1",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u28",
+  "title": "Complaints (Phrases) 1",
+  "tip": "Theme: Redemittel: Beschwerde & Reklamation (B1)",
+  "exercises": [
+    {
+      "id": "tb1-u28-l04-complaints-phrases-1-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "Ich habe ein Problem mit …",
+          "known": "I have a problem with …"
+        },
+        {
+          "id": "p2",
+          "learning": "Das Gerät funktioniert nicht richtig",
+          "known": "The device doesn't work properly."
+        },
+        {
+          "id": "p3",
+          "learning": "Ich bin mit … nicht zufrieden",
+          "known": "I'm not satisfied with …"
+        },
+        {
+          "id": "p4",
+          "learning": "Ich möchte mein Geld zurück",
+          "known": "I'd like my money back."
+        },
+        {
+          "id": "p5",
+          "learning": "Ich erwarte eine schnelle Lösung",
+          "known": "I expect a quick solution."
+        }
+      ]
+    },
+    {
+      "id": "tb1-u28-l04-complaints-phrases-1-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which phrase means „I have a problem with …“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Könnten Sie das bitte reparieren?"
+        },
+        {
+          "id": "b",
+          "text": "Das Gerät funktioniert nicht richtig."
+        },
+        {
+          "id": "c",
+          "text": "Ich habe ein Problem mit …"
+        },
+        {
+          "id": "d",
+          "text": "Ich möchte mein Geld zurück."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**Ich habe ein Problem mit …** = I have a problem with …\n\n*Example:* Ich habe ein Problem mit meiner Internetverbindung.\nI have a problem with my internet connection."
+    },
+    {
+      "id": "tb1-u28-l04-complaints-phrases-1-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which phrase means „The device doesn't work properly.“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Das Gerät funktioniert nicht richtig."
+        },
+        {
+          "id": "b",
+          "text": "Ich bin mit … nicht zufrieden."
+        },
+        {
+          "id": "c",
+          "text": "Ich habe ein Problem mit …"
+        },
+        {
+          "id": "d",
+          "text": "Ich bitte um eine Rückerstattung."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Das Gerät funktioniert nicht richtig.** = The device doesn't work properly.\n\n*Example:* Ich habe den Drucker letzte Woche gekauft, aber das Gerät funktioniert nicht richtig.\nI bought the printer last week, but the device doesn't work properly."
+    },
+    {
+      "id": "tb1-u28-l04-complaints-phrases-1-ex04",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u28-l04-complaints-phrases-1-1.mp3"
+      },
+      "tiles": [
+        "Das",
+        "mit",
+        "Problem",
+        "habe",
+        "entspricht",
+        "in",
+        "Ich",
+        "Internetverbindung",
+        "ein",
+        "meiner"
+      ],
+      "answers": [
+        "Ich habe ein Problem mit meiner Internetverbindung."
+      ],
+      "explanation": "Ich habe ein Problem mit meiner Internetverbindung.\n*I have a problem with my internet connection.*\n\n**Ich habe ein Problem mit …** = I have a problem with …"
+    },
+    {
+      "id": "tb1-u28-l04-complaints-phrases-1-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which phrase means „I'm not satisfied with …“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ich möchte mein Geld zurück."
+        },
+        {
+          "id": "b",
+          "text": "Ich erwarte eine schnelle Lösung."
+        },
+        {
+          "id": "c",
+          "text": "Ich bin mit … nicht zufrieden."
+        },
+        {
+          "id": "d",
+          "text": "Könnten Sie das bitte reparieren?"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**Ich bin mit … nicht zufrieden.** = I'm not satisfied with …\n\n*Example:* Ich bin mit dem Service in Ihrem Geschäft nicht zufrieden.\nI'm not satisfied with the service in your shop."
+    },
+    {
+      "id": "tb1-u28-l04-complaints-phrases-1-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Ich habe den Drucker letzte Woche gekauft, aber das Gerät funktioniert nicht richtig.",
+      "tiles": [
+        "properly",
+        "the",
+        "flat",
+        "last",
+        "work",
+        "but",
+        "doesn't",
+        "printer",
+        "week",
+        "me",
+        "device",
+        "the",
+        "room",
+        "I",
+        "bought"
+      ],
+      "answers": [
+        "I bought the printer last week, but the device doesn't work properly."
+      ],
+      "explanation": "**Das Gerät funktioniert nicht richtig.** = The device doesn't work properly."
+    },
+    {
+      "id": "tb1-u28-l04-complaints-phrases-1-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which phrase means „I'd like my money back.“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ich möchte den Artikel umtauschen."
+        },
+        {
+          "id": "b",
+          "text": "Ich möchte mein Geld zurück."
+        },
+        {
+          "id": "c",
+          "text": "Bitte teilen Sie mir mit, wie wir das lösen können."
+        },
+        {
+          "id": "d",
+          "text": "Ich habe ein Problem mit …"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Ich möchte mein Geld zurück.** = I'd like my money back.\n\n*Example:* Die Schuhe sind schon kaputt. Ich möchte mein Geld zurück.\nThe shoes are already broken. I'd like my money back."
+    },
+    {
+      "id": "tb1-u28-l04-complaints-phrases-1-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I'm not satisfied with the service in your shop.",
+      "tiles": [
+        "dem",
+        "Service",
+        "Geschäft",
+        "zufrieden",
+        "nicht",
+        "bin",
+        "Ich",
+        "das",
+        "Lösung",
+        "mit",
+        "in",
+        "Woche",
+        "Ihrem"
+      ],
+      "answers": [
+        "Ich bin mit dem Service in Ihrem Geschäft nicht zufrieden."
+      ],
+      "explanation": "**Ich bin mit … nicht zufrieden.** = I'm not satisfied with …"
+    },
+    {
+      "id": "tb1-u28-l04-complaints-phrases-1-ex09",
+      "type": "multiple_choice",
+      "prompt": "Which phrase means „I expect a quick solution.“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Das Gerät funktioniert nicht richtig."
+        },
+        {
+          "id": "b",
+          "text": "Ich möchte mein Geld zurück."
+        },
+        {
+          "id": "c",
+          "text": "Ich bitte um eine Rückerstattung."
+        },
+        {
+          "id": "d",
+          "text": "Ich erwarte eine schnelle Lösung."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**Ich erwarte eine schnelle Lösung.** = I expect a quick solution.\n\n*Example:* Die Heizung ist seit zwei Wochen kalt. Ich erwarte eine schnelle Lösung.\nThe heating has been cold for two weeks. I expect a quick solution."
+    },
+    {
+      "id": "tb1-u28-l04-complaints-phrases-1-ex10",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u28-l04-complaints-phrases-1-4.mp3"
+      },
+      "tiles": [
+        "kaputt",
+        "klein",
+        "bin",
+        "Schuhe",
+        "Die",
+        "schon",
+        "Ich",
+        "zurück",
+        "mein",
+        "möchte",
+        "sind",
+        "Geld",
+        "Könnten"
+      ],
+      "answers": [
+        "Die Schuhe sind schon kaputt. Ich möchte mein Geld zurück."
+      ],
+      "explanation": "Die Schuhe sind schon kaputt. Ich möchte mein Geld zurück.\n*The shoes are already broken. I'd like my money back.*\n\n**Ich möchte mein Geld zurück.** = I'd like my money back."
+    },
+    {
+      "id": "tb1-u28-l04-complaints-phrases-1-ex11",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Die Heizung ist seit zwei Wochen kalt. Ich erwarte eine schnelle Lösung.",
+      "tiles": [
+        "I",
+        "expect",
+        "The",
+        "doesn't",
+        "for",
+        "solution",
+        "quick",
+        "weeks",
+        "been",
+        "two",
+        "shop",
+        "heating",
+        "a",
+        "has",
+        "cold",
+        "flight"
+      ],
+      "answers": [
+        "The heating has been cold for two weeks. I expect a quick solution."
+      ],
+      "explanation": "**Ich erwarte eine schnelle Lösung.** = I expect a quick solution."
+    }
+  ]
+}

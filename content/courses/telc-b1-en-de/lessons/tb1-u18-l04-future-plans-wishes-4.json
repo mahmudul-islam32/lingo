@@ -1,0 +1,245 @@
+{
+  "id": "tb1-u18-l04-future-plans-wishes-4",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u18",
+  "title": "Future Plans & Wishes 4",
+  "tip": "Theme: Zukunftspläne / Wünsche (B1)",
+  "exercises": [
+    {
+      "id": "tb1-u18-l04-future-plans-wishes-4-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "schaffen . Ich schaffe das",
+          "known": "to manage"
+        },
+        {
+          "id": "p2",
+          "learning": "sich verbessern",
+          "known": "to improve"
+        },
+        {
+          "id": "p3",
+          "learning": "aufhören mit",
+          "known": "to stop"
+        },
+        {
+          "id": "p4",
+          "learning": "Erfahrungen sammeln",
+          "known": "to gain experience"
+        },
+        {
+          "id": "p5",
+          "learning": "die Zukunft",
+          "known": "future"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u18-l04-future-plans-wishes-4-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which verb means „to manage, to pull it off. I can do this.“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "sich vorbereiten auf + Akk."
+        },
+        {
+          "id": "b",
+          "text": "sich verbessern"
+        },
+        {
+          "id": "c",
+          "text": "schaffen (hat geschafft). Ich schaffe das."
+        },
+        {
+          "id": "d",
+          "text": "sich entscheiden für + Akk. (hat sich entschieden)"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**schaffen (hat geschafft). Ich schaffe das.** = to manage, to pull it off. I can do this.\n\n*Example:* Anna hat die Führerscheinprüfung beim ersten Mal geschafft.\nAnna passed her driving test on the first try."
+    },
+    {
+      "id": "tb1-u18-l04-future-plans-wishes-4-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which verb means „to improve“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "sich verbessern"
+        },
+        {
+          "id": "b",
+          "text": "schaffen (hat geschafft). Ich schaffe das."
+        },
+        {
+          "id": "c",
+          "text": "sich (Dat.) vorstellen. Ich kann mir gut vorstellen, dass …"
+        },
+        {
+          "id": "d",
+          "text": "sich vorbereiten auf + Akk."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**sich verbessern** = to improve\n\n*Example:* Mein Deutsch hat sich im letzten Jahr sehr verbessert.\nMy German has improved a lot over the last year."
+    },
+    {
+      "id": "tb1-u18-l04-future-plans-wishes-4-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Anna hat die Führerscheinprüfung beim ersten Mal geschafft.",
+      "tiles": [
+        "Anna",
+        "on",
+        "to",
+        "bank",
+        "a",
+        "her",
+        "try",
+        "test",
+        "passed",
+        "first",
+        "the",
+        "driving"
+      ],
+      "answers": [
+        "Anna passed her driving test on the first try."
+      ],
+      "explanation": "**schaffen (hat geschafft). Ich schaffe das.** = to manage, to pull it off. I can do this."
+    },
+    {
+      "id": "tb1-u18-l04-future-plans-wishes-4-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which one means „to stop ↔ to carry on“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "hoffen auf + Akk. die Hoffnung, die Hoffnungen"
+        },
+        {
+          "id": "b",
+          "text": "aufhören mit + Dat. ↔ weitermachen"
+        },
+        {
+          "id": "c",
+          "text": "klappen. Ich hoffe, es klappt."
+        },
+        {
+          "id": "d",
+          "text": "Erfahrungen sammeln: die Erfahrung, die Erfahrungen"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**aufhören mit + Dat. ↔ weitermachen** = to stop ↔ to carry on\n\n*Example:* Mein Vater hat mit dem Rauchen aufgehört, aber er macht mit dem Sport weiter.\nMy father has stopped smoking, but he's carrying on with sport."
+    },
+    {
+      "id": "tb1-u18-l04-future-plans-wishes-4-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "My German has improved a lot over the last year.",
+      "tiles": [
+        "sehr",
+        "verbessert",
+        "Prüfung",
+        "mehr",
+        "sich",
+        "Jahr",
+        "im",
+        "Mein",
+        "hat",
+        "ist",
+        "Deutsch",
+        "letzten"
+      ],
+      "answers": [
+        "Mein Deutsch hat sich im letzten Jahr sehr verbessert."
+      ],
+      "explanation": "**sich verbessern** = to improve"
+    },
+    {
+      "id": "tb1-u18-l04-future-plans-wishes-4-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which one means „to gain experience: experience“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "wahrscheinlich · bestimmt · vielleicht"
+        },
+        {
+          "id": "b",
+          "text": "Erfahrungen sammeln: die Erfahrung, die Erfahrungen"
+        },
+        {
+          "id": "c",
+          "text": "hoffen auf + Akk. die Hoffnung, die Hoffnungen"
+        },
+        {
+          "id": "d",
+          "text": "aufhören mit + Dat. ↔ weitermachen"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Erfahrungen sammeln: die Erfahrung, die Erfahrungen** = to gain experience: experience\n\n*Example:* Im Praktikum konnte ich viele Erfahrungen sammeln.\nI was able to gain a lot of experience during my internship."
+    },
+    {
+      "id": "tb1-u18-l04-future-plans-wishes-4-ex08",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u18-l04-future-plans-wishes-4-3.mp3"
+      },
+      "tiles": [
+        "aber",
+        "Rauchen",
+        "die",
+        "mit",
+        "mit",
+        "ich",
+        "er",
+        "dem",
+        "dem",
+        "weiter",
+        "hat",
+        "Mein",
+        "im",
+        "Sport",
+        "Vater",
+        "macht",
+        "aufgehört"
+      ],
+      "answers": [
+        "Mein Vater hat mit dem Rauchen aufgehört, aber er macht mit dem Sport weiter."
+      ],
+      "explanation": "Mein Vater hat mit dem Rauchen aufgehört, aber er macht mit dem Sport weiter.\n*My father has stopped smoking, but he's carrying on with sport.*\n\n**aufhören mit + Dat. ↔ weitermachen** = to stop ↔ to carry on"
+    },
+    {
+      "id": "tb1-u18-l04-future-plans-wishes-4-ex09",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Im Praktikum konnte ich viele Erfahrungen sammeln.",
+      "tiles": [
+        "able",
+        "gain",
+        "lot",
+        "during",
+        "of",
+        "was",
+        "interview",
+        "experience",
+        "your",
+        "I",
+        "to",
+        "a",
+        "my",
+        "internship",
+        "tomorrow"
+      ],
+      "answers": [
+        "I was able to gain a lot of experience during my internship."
+      ],
+      "explanation": "**Erfahrungen sammeln: die Erfahrung, die Erfahrungen** = to gain experience: experience"
+    }
+  ]
+}

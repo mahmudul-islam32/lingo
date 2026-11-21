@@ -1,0 +1,279 @@
+{
+  "id": "tb1-u22-l05-frequent-exam-adjectives-1",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u22",
+  "title": "Frequent Exam Adjectives 1",
+  "tip": "Theme: Adjektive: Prüfungshäufig (B1)",
+  "exercises": [
+    {
+      "id": "tb1-u22-l05-frequent-exam-adjectives-1-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "wenig",
+          "known": "little / few"
+        },
+        {
+          "id": "p2",
+          "learning": "mehrere",
+          "known": "several"
+        },
+        {
+          "id": "p3",
+          "learning": "weitere",
+          "known": "further / additional"
+        },
+        {
+          "id": "p4",
+          "learning": "einzeln",
+          "known": "individual / single"
+        },
+        {
+          "id": "p5",
+          "learning": "einzig",
+          "known": "only / sole"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u22-l05-frequent-exam-adjectives-1-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which one means „little / few“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "wenig"
+        },
+        {
+          "id": "b",
+          "text": "wirklich"
+        },
+        {
+          "id": "c",
+          "text": "aktiv"
+        },
+        {
+          "id": "d",
+          "text": "unterschiedlich"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**wenig** = little / few\n\n*Example:* Ich habe diese Woche leider wenig Zeit.\nUnfortunately, I have little time this week."
+    },
+    {
+      "id": "tb1-u22-l05-frequent-exam-adjectives-1-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which one means „several“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "unsicher"
+        },
+        {
+          "id": "b",
+          "text": "mehrere"
+        },
+        {
+          "id": "c",
+          "text": "bereits"
+        },
+        {
+          "id": "d",
+          "text": "positiv"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**mehrere** = several\n\n*Example:* Tom hat sich bei mehreren Firmen beworben.\nTom has applied to several companies."
+    },
+    {
+      "id": "tb1-u22-l05-frequent-exam-adjectives-1-ex04",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u22-l05-frequent-exam-adjectives-1-1.mp3"
+      },
+      "tiles": [
+        "Woche",
+        "Ich",
+        "unabhängig",
+        "Zeit",
+        "leider",
+        "diese",
+        "sehr",
+        "Tom",
+        "wenig",
+        "habe"
+      ],
+      "answers": [
+        "Ich habe diese Woche leider wenig Zeit."
+      ],
+      "explanation": "Ich habe diese Woche leider wenig Zeit.\n*Unfortunately, I have little time this week.*\n\n**wenig** = little / few"
+    },
+    {
+      "id": "tb1-u22-l05-frequent-exam-adjectives-1-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which one means „further / additional“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "positiv"
+        },
+        {
+          "id": "b",
+          "text": "einzig"
+        },
+        {
+          "id": "c",
+          "text": "privat"
+        },
+        {
+          "id": "d",
+          "text": "weitere"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**weitere** = further / additional\n\n*Example:* Für weitere Fragen rufen Sie uns bitte an.\nFor any further questions, please call us."
+    },
+    {
+      "id": "tb1-u22-l05-frequent-exam-adjectives-1-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Tom hat sich bei mehreren Firmen beworben.",
+      "tiles": [
+        "has",
+        "companies",
+        "office",
+        "applied",
+        "independent",
+        "to",
+        "several",
+        "Tom",
+        "further"
+      ],
+      "answers": [
+        "Tom has applied to several companies."
+      ],
+      "explanation": "**mehrere** = several"
+    },
+    {
+      "id": "tb1-u22-l05-frequent-exam-adjectives-1-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which one means „individual / single“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "einzeln"
+        },
+        {
+          "id": "b",
+          "text": "mehrere"
+        },
+        {
+          "id": "c",
+          "text": "unsicher"
+        },
+        {
+          "id": "d",
+          "text": "weitere"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**einzeln** = individual / single\n\n*Example:* Die Äpfel kann man auch einzeln kaufen.\nYou can also buy the apples individually."
+    },
+    {
+      "id": "tb1-u22-l05-frequent-exam-adjectives-1-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "For any further questions, please call us.",
+      "tiles": [
+        "uns",
+        "die",
+        "Sie",
+        "rufen",
+        "lange",
+        "Für",
+        "an",
+        "Wartezimmer",
+        "bitte",
+        "Fragen",
+        "weitere"
+      ],
+      "answers": [
+        "Für weitere Fragen rufen Sie uns bitte an."
+      ],
+      "explanation": "**weitere** = further / additional"
+    },
+    {
+      "id": "tb1-u22-l05-frequent-exam-adjectives-1-ex09",
+      "type": "multiple_choice",
+      "prompt": "Which one means „only / sole“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "einzig"
+        },
+        {
+          "id": "b",
+          "text": "bereits"
+        },
+        {
+          "id": "c",
+          "text": "eigen"
+        },
+        {
+          "id": "d",
+          "text": "telefonisch"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**einzig** = only / sole\n\n*Example:* Maria war die einzige Person im Wartezimmer.\nMaria was the only person in the waiting room."
+    },
+    {
+      "id": "tb1-u22-l05-frequent-exam-adjectives-1-ex10",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u22-l05-frequent-exam-adjectives-1-4.mp3"
+      },
+      "tiles": [
+        "man",
+        "Äpfel",
+        "meine",
+        "Die",
+        "kann",
+        "bereits",
+        "einzeln",
+        "lecker",
+        "kaufen",
+        "auch"
+      ],
+      "answers": [
+        "Die Äpfel kann man auch einzeln kaufen."
+      ],
+      "explanation": "Die Äpfel kann man auch einzeln kaufen.\n*You can also buy the apples individually.*\n\n**einzeln** = individual / single"
+    },
+    {
+      "id": "tb1-u22-l05-frequent-exam-adjectives-1-ex11",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Maria war die einzige Person im Wartezimmer.",
+      "tiles": [
+        "the",
+        "in",
+        "the",
+        "only",
+        "goes",
+        "waiting",
+        "You",
+        "room",
+        "person",
+        "Maria",
+        "sports",
+        "was"
+      ],
+      "answers": [
+        "Maria was the only person in the waiting room."
+      ],
+      "explanation": "**einzig** = only / sole"
+    }
+  ]
+}
