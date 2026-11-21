@@ -1,0 +1,221 @@
+{
+  "id": "de-b1-u16-l1-career",
+  "courseId": "en-de",
+  "unitId": "de-b1-u16",
+  "title": "Career Plans",
+  "tip": "Talking about work: der Arbeitgeber (employer), der Arbeitnehmer (employee). sich weiterbilden is reflexive and separable, so zu goes inside: „Ich möchte mich weiterbilden.“ „Ich habe vor, mich weiterzubilden.“",
+  "exercises": [
+    {
+      "id": "de-b1-u16-l1-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        { "id": "p1", "learning": "der Arbeitgeber", "known": "the employer" },
+        { "id": "p2", "learning": "der Arbeitnehmer", "known": "the employee" },
+        { "id": "p3", "learning": "die Berufserfahrung", "known": "work experience" },
+        { "id": "p4", "learning": "die Branche", "known": "the sector / industry" },
+        { "id": "p5", "learning": "selbstständig", "known": "self-employed" }
+      ]
+    },
+    {
+      "id": "de-b1-u16-l1-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'I have five years of work experience.'?",
+      "options": [
+        { "id": "a", "text": "Ich habe fünf Jahren Berufserfahrung." },
+        { "id": "b", "text": "Ich bin fünf Jahre Berufserfahrung." },
+        { "id": "c", "text": "Ich habe fünf Jahre Berufserfahrung." },
+        { "id": "d", "text": "Ich habe Berufserfahrung fünf Jahre." }
+      ],
+      "correctOptionId": "c"
+    },
+    {
+      "id": "de-b1-u16-l1-ex03",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Meine Weiterbildung wurde von meinem Arbeitgeber bezahlt.",
+      "tiles": [
+        "my",
+        "further",
+        "training",
+        "was",
+        "paid",
+        "for",
+        "by",
+        "my",
+        "employer",
+        "is",
+        "were",
+        "me"
+      ],
+      "answers": [
+        "My further training was paid for by my employer.",
+        "My further training was paid by my employer.",
+        "My training was paid for by my employer.",
+        "My training was paid by my employer."
+      ]
+    },
+    {
+      "id": "de-b1-u16-l1-ex04",
+      "type": "listen",
+      "audio": { "src": "/audio/de/b1/u16/de-b1-u16-l1-ex04.mp3" },
+      "tiles": [
+        "ich",
+        "habe",
+        "einen",
+        "Termin",
+        "bei",
+        "der",
+        "Beratung",
+        "ich",
+        "möchte",
+        "mich",
+        "weiterbilden",
+        "mir",
+        "den",
+        "beim"
+      ],
+      "answers": ["Ich habe einen Termin bei der Beratung. Ich möchte mich weiterbilden."]
+    },
+    {
+      "id": "de-b1-u16-l1-ex05",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Which sector do you work in? (formal)",
+      "tiles": ["in", "welcher", "Branche", "arbeiten", "Sie", "welche", "welches", "arbeitest"],
+      "answers": ["In welcher Branche arbeiten Sie?"]
+    },
+    {
+      "id": "de-b1-u16-l1-ex06",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'We're looking for employees who are reliable.'?",
+      "options": [
+        { "id": "a", "text": "Wir suchen Arbeitnehmer, die sind zuverlässig." },
+        { "id": "b", "text": "Wir suchen Arbeitnehmer, die zuverlässig sind." },
+        { "id": "c", "text": "Wir suchen Arbeitnehmer, der zuverlässig sind." },
+        { "id": "d", "text": "Wir suchen Arbeitnehmer, dass zuverlässig sind." }
+      ],
+      "correctOptionId": "b"
+    },
+    {
+      "id": "de-b1-u16-l1-ex07",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Ich habe sowohl Berufserfahrung als auch eine gute Ausbildung.",
+      "tiles": [
+        "I",
+        "have",
+        "both",
+        "work",
+        "experience",
+        "and",
+        "good",
+        "training",
+        "neither",
+        "nor",
+        "or",
+        "bad"
+      ],
+      "answers": [
+        "I have both work experience and good training.",
+        "I have work experience and good training.",
+        "I have both good training and work experience.",
+        "I have good training and work experience."
+      ]
+    },
+    {
+      "id": "de-b1-u16-l1-ex08",
+      "type": "listen",
+      "audio": { "src": "/audio/de/b1/u16/de-b1-u16-l1-ex08.mp3" },
+      "tiles": [
+        "als",
+        "ich",
+        "nach",
+        "Bonn",
+        "kam",
+        "fand",
+        "ich",
+        "schnell",
+        "eine",
+        "Stelle",
+        "wenn",
+        "kamen",
+        "einen"
+      ],
+      "answers": ["Als ich nach Bonn kam, fand ich schnell eine Stelle."]
+    },
+    {
+      "id": "de-b1-u16-l1-ex09",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I plan to do further training.",
+      "tiles": [
+        "ich",
+        "habe",
+        "vor",
+        "mich",
+        "weiterzubilden",
+        "zu",
+        "weiterbilden",
+        "mir",
+        "hast"
+      ],
+      "answers": ["Ich habe vor, mich weiterzubilden."]
+    },
+    {
+      "id": "de-b1-u16-l1-ex10",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'If I had more experience, I would be self-employed.'?",
+      "options": [
+        { "id": "a", "text": "Wenn ich mehr Erfahrung habe, wäre ich selbstständig." },
+        { "id": "b", "text": "Wenn ich mehr Erfahrung hätte, würde ich selbstständig sein." },
+        { "id": "c", "text": "Wenn ich hätte mehr Erfahrung, wäre ich selbstständig." },
+        { "id": "d", "text": "Wenn ich mehr Erfahrung hätte, wäre ich selbstständig." }
+      ],
+      "correctOptionId": "d"
+    },
+    {
+      "id": "de-b1-u16-l1-ex11",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "My company is looking for someone who speaks German.",
+      "tiles": [
+        "meine",
+        "Firma",
+        "sucht",
+        "jemanden",
+        "der",
+        "Deutsch",
+        "spricht",
+        "die",
+        "sprechen",
+        "mein",
+        "niemand"
+      ],
+      "answers": [
+        "Meine Firma sucht jemanden, der Deutsch spricht.",
+        "Jemanden, der Deutsch spricht, sucht meine Firma."
+      ]
+    },
+    {
+      "id": "de-b1-u16-l1-ex12",
+      "type": "listen",
+      "audio": { "src": "/audio/de/b1/u16/de-b1-u16-l1-ex12.mp3" },
+      "tiles": [
+        "sie",
+        "ist",
+        "selbstständig",
+        "heute",
+        "spricht",
+        "sie",
+        "mit",
+        "einem",
+        "neuen",
+        "Kunden",
+        "Kunde",
+        "neue",
+        "einen"
+      ],
+      "answers": ["Sie ist selbstständig. Heute spricht sie mit einem neuen Kunden."]
+    }
+  ]
+}

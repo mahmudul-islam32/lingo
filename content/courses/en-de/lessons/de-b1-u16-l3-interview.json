@@ -1,0 +1,232 @@
+{
+  "id": "de-b1-u16-l3-interview",
+  "courseId": "en-de",
+  "unitId": "de-b1-u16",
+  "title": "The Interview",
+  "tip": "In an interview you use Sie: „Welche Qualifikationen haben Sie?“ die Kenntnisse is plural only. With no article, the adjective shows the case: „Ich habe gute Kenntnisse in Englisch und Deutsch.“ dative: „mit guten Kenntnissen“.",
+  "exercises": [
+    {
+      "id": "de-b1-u16-l3-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        { "id": "p1", "learning": "die Qualifikation", "known": "the qualification" },
+        { "id": "p2", "learning": "die Kenntnisse", "known": "knowledge / skills" },
+        { "id": "p3", "learning": "die Verantwortung", "known": "responsibility" },
+        { "id": "p4", "learning": "die Herausforderung", "known": "the challenge" },
+        { "id": "p5", "learning": "motiviert", "known": "motivated" }
+      ]
+    },
+    {
+      "id": "de-b1-u16-l3-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'What qualifications do you have? (formal)'?",
+      "options": [
+        { "id": "a", "text": "Welcher Qualifikationen haben Sie?" },
+        { "id": "b", "text": "Welche Qualifikationen Sie haben?" },
+        { "id": "c", "text": "Welche Qualifikationen hast Sie?" },
+        { "id": "d", "text": "Welche Qualifikationen haben Sie?" }
+      ],
+      "correctOptionId": "d"
+    },
+    {
+      "id": "de-b1-u16-l3-ex03",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I have good knowledge of English and German.",
+      "tiles": [
+        "ich",
+        "habe",
+        "gute",
+        "Kenntnisse",
+        "in",
+        "Englisch",
+        "und",
+        "Deutsch",
+        "guten",
+        "gutes",
+        "auf"
+      ],
+      "answers": [
+        "Ich habe gute Kenntnisse in Englisch und Deutsch.",
+        "Ich habe gute Kenntnisse in Deutsch und Englisch.",
+        "In Englisch und Deutsch habe ich gute Kenntnisse.",
+        "In Deutsch und Englisch habe ich gute Kenntnisse.",
+        "Gute Kenntnisse in Englisch und Deutsch habe ich.",
+        "Gute Kenntnisse in Deutsch und Englisch habe ich."
+      ]
+    },
+    {
+      "id": "de-b1-u16-l3-ex04",
+      "type": "listen",
+      "audio": { "src": "/audio/de/b1/u16/de-b1-u16-l3-ex04.mp3" },
+      "tiles": [
+        "Verantwortung",
+        "ist",
+        "mir",
+        "wichtig",
+        "ich",
+        "bin",
+        "sehr",
+        "motiviert",
+        "mich",
+        "richtig",
+        "sind"
+      ],
+      "answers": ["Verantwortung ist mir wichtig. Ich bin sehr motiviert."]
+    },
+    {
+      "id": "de-b1-u16-l3-ex05",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Das ist eine Herausforderung, aber ich bin motiviert.",
+      "tiles": [
+        "that",
+        "is",
+        "a",
+        "challenge",
+        "but",
+        "I'm",
+        "I",
+        "am",
+        "motivated",
+        "chance",
+        "or",
+        "are"
+      ],
+      "answers": [
+        "That is a challenge, but I'm motivated.",
+        "That is a challenge, but I am motivated."
+      ]
+    },
+    {
+      "id": "de-b1-u16-l3-ex06",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'We're looking for someone with good knowledge of German.'?",
+      "options": [
+        { "id": "a", "text": "Wir suchen jemanden mit gute Kenntnissen in Deutsch." },
+        { "id": "b", "text": "Wir suchen jemanden mit guten Kenntnisse in Deutsch." },
+        { "id": "c", "text": "Wir suchen jemanden mit guten Kenntnissen in Deutsch." },
+        { "id": "d", "text": "Wir suchen jemanden mit gutem Kenntnissen in Deutsch." }
+      ],
+      "correctOptionId": "c"
+    },
+    {
+      "id": "de-b1-u16-l3-ex07",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I'd like to convince you of my strengths. (formal)",
+      "tiles": [
+        "ich",
+        "möchte",
+        "Sie",
+        "von",
+        "meinen",
+        "Stärken",
+        "überzeugen",
+        "Ihnen",
+        "meine",
+        "über"
+      ],
+      "answers": [
+        "Ich möchte Sie von meinen Stärken überzeugen.",
+        "Von meinen Stärken möchte ich Sie überzeugen."
+      ]
+    },
+    {
+      "id": "de-b1-u16-l3-ex08",
+      "type": "listen",
+      "audio": { "src": "/audio/de/b1/u16/de-b1-u16-l3-ex08.mp3" },
+      "tiles": [
+        "seitdem",
+        "ich",
+        "hier",
+        "arbeite",
+        "habe",
+        "ich",
+        "mehr",
+        "Verantwortung",
+        "bis",
+        "arbeitet",
+        "hat"
+      ],
+      "answers": ["Seitdem ich hier arbeite, habe ich mehr Verantwortung."]
+    },
+    {
+      "id": "de-b1-u16-l3-ex09",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "My application was processed quickly.",
+      "tiles": [
+        "meine",
+        "Bewerbung",
+        "wurde",
+        "schnell",
+        "bearbeitet",
+        "wird",
+        "bearbeiten",
+        "mein",
+        "hat"
+      ],
+      "answers": [
+        "Meine Bewerbung wurde schnell bearbeitet.",
+        "Schnell wurde meine Bewerbung bearbeitet."
+      ]
+    },
+    {
+      "id": "de-b1-u16-l3-ex10",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'After I had done further training, I applied.'?",
+      "options": [
+        { "id": "a", "text": "Nachdem ich mich weitergebildet hatte, habe ich mich beworben." },
+        { "id": "b", "text": "Nachdem ich mich weitergebildet habe, hatte ich mich beworben." },
+        { "id": "c", "text": "Nachdem ich mich weitergebildet hatte, ich habe mich beworben." },
+        { "id": "d", "text": "Nachdem ich mich weitergebildet war, habe ich mich beworben." }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "de-b1-u16-l3-ex11",
+      "type": "listen",
+      "audio": { "src": "/audio/de/b1/u16/de-b1-u16-l3-ex11.mp3" },
+      "tiles": [
+        "warum",
+        "sollten",
+        "wir",
+        "Sie",
+        "nehmen",
+        "was",
+        "sind",
+        "Ihre",
+        "Stärken",
+        "Ihnen",
+        "sollen",
+        "Stärke"
+      ],
+      "answers": ["Warum sollten wir Sie nehmen? Was sind Ihre Stärken?"]
+    },
+    {
+      "id": "de-b1-u16-l3-ex12",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I'm not only reliable but also flexible.",
+      "tiles": [
+        "ich",
+        "bin",
+        "nicht",
+        "nur",
+        "zuverlässig",
+        "sondern",
+        "auch",
+        "flexibel",
+        "aber",
+        "oder",
+        "sind"
+      ],
+      "answers": [
+        "Ich bin nicht nur zuverlässig, sondern auch flexibel.",
+        "Nicht nur zuverlässig bin ich, sondern auch flexibel.",
+        "Nicht nur zuverlässig, sondern auch flexibel bin ich."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,243 @@
+{
+  "id": "de-b1-u16-l2-without-instead",
+  "courseId": "en-de",
+  "unitId": "de-b1-u16",
+  "title": "Without Asking, Instead of Waiting",
+  "tip": "ohne / statt + zu + infinitive at the end, same subject as the main clause: „Er ist gegangen, ohne sich zu verabschieden.“ „Statt zu warten, rufe ich an.“ Separable verbs take zu inside: auszuprobieren, nachzudenken.",
+  "exercises": [
+    {
+      "id": "de-b1-u16-l2-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        { "id": "p1", "learning": "ohne … zu", "known": "without …-ing" },
+        { "id": "p2", "learning": "statt … zu", "known": "instead of …-ing" },
+        { "id": "p3", "learning": "nachdenken über", "known": "to think about" },
+        { "id": "p4", "learning": "ausprobieren", "known": "to try out" },
+        { "id": "p5", "learning": "sich verabschieden", "known": "to say goodbye" }
+      ]
+    },
+    {
+      "id": "de-b1-u16-l2-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'Instead of waiting, he left without saying goodbye.'?",
+      "options": [
+        { "id": "a", "text": "Statt warten, ist er gegangen, ohne sich zu verabschieden." },
+        { "id": "b", "text": "Statt zu warten, ist er gegangen, ohne zu sich verabschieden." },
+        { "id": "c", "text": "Statt zu warten, ist er gegangen, ohne sich zu verabschieden." },
+        { "id": "d", "text": "Statt zu warten, er ist gegangen, ohne sich zu verabschieden." }
+      ],
+      "correctOptionId": "c"
+    },
+    {
+      "id": "de-b1-u16-l2-ex03",
+      "type": "listen",
+      "audio": { "src": "/audio/de/b1/u16/de-b1-u16-l2-ex03.mp3" },
+      "tiles": [
+        "er",
+        "ist",
+        "gegangen",
+        "ohne",
+        "sich",
+        "zu",
+        "verabschieden",
+        "hat",
+        "um",
+        "mich",
+        "verabschiedet"
+      ],
+      "answers": ["Er ist gegangen, ohne sich zu verabschieden."]
+    },
+    {
+      "id": "de-b1-u16-l2-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Instead of waiting, I'm calling now.",
+      "tiles": ["statt", "zu", "warten", "rufe", "ich", "jetzt", "an", "ohne", "warte", "rufen"],
+      "answers": [
+        "Statt zu warten, rufe ich jetzt an.",
+        "Ich rufe jetzt an, statt zu warten.",
+        "Jetzt rufe ich an, statt zu warten."
+      ]
+    },
+    {
+      "id": "de-b1-u16-l2-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'Without asking, she helped me.'?",
+      "options": [
+        { "id": "a", "text": "Ohne fragen, half sie mir." },
+        { "id": "b", "text": "Ohne zu fragen, half sie mir." },
+        { "id": "c", "text": "Ohne zu fragen, sie half mir." },
+        { "id": "d", "text": "Ohne zu fragen, half sie mich." }
+      ],
+      "correctOptionId": "b"
+    },
+    {
+      "id": "de-b1-u16-l2-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I don't sign the contract without thinking about it.",
+      "tiles": [
+        "ich",
+        "unterschreibe",
+        "den",
+        "Vertrag",
+        "nicht",
+        "ohne",
+        "darüber",
+        "nachzudenken",
+        "zu",
+        "nachdenken",
+        "statt",
+        "worüber"
+      ],
+      "answers": [
+        "Ich unterschreibe den Vertrag nicht, ohne darüber nachzudenken.",
+        "Ohne darüber nachzudenken, unterschreibe ich den Vertrag nicht.",
+        "Den Vertrag unterschreibe ich nicht, ohne darüber nachzudenken."
+      ]
+    },
+    {
+      "id": "de-b1-u16-l2-ex07",
+      "type": "listen",
+      "audio": { "src": "/audio/de/b1/u16/de-b1-u16-l2-ex07.mp3" },
+      "tiles": [
+        "ich",
+        "möchte",
+        "den",
+        "Beruf",
+        "ausprobieren",
+        "statt",
+        "nur",
+        "darüber",
+        "nachzudenken",
+        "zu",
+        "nachdenken",
+        "ohne"
+      ],
+      "answers": ["Ich möchte den Beruf ausprobieren, statt nur darüber nachzudenken."]
+    },
+    {
+      "id": "de-b1-u16-l2-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Er hat das Programm ausprobiert, statt zu fragen.",
+      "tiles": [
+        "he",
+        "tried",
+        "out",
+        "the",
+        "program",
+        "instead",
+        "of",
+        "asking",
+        "without",
+        "tries",
+        "ask"
+      ],
+      "answers": [
+        "He tried out the program instead of asking.",
+        "He tried the program out instead of asking.",
+        "He tried the program instead of asking.",
+        "Instead of asking, he tried out the program.",
+        "Instead of asking, he tried the program out.",
+        "Instead of asking, he tried the program."
+      ]
+    },
+    {
+      "id": "de-b1-u16-l2-ex09",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'I'm trying out the new program without asking my colleague.'?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ich probiere das neue Programm aus, ohne meinen Kollege zu fragen."
+        },
+        {
+          "id": "b",
+          "text": "Ich probiere das neue Programm aus, ohne meinen Kollegen zu fragen."
+        },
+        {
+          "id": "c",
+          "text": "Ich probiere das neue Programm aus, ohne zu meinen Kollegen fragen."
+        },
+        {
+          "id": "d",
+          "text": "Ich probiere das neue Programm aus, ohne meinen Kollegen fragen."
+        }
+      ],
+      "correctOptionId": "b"
+    },
+    {
+      "id": "de-b1-u16-l2-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "After I had said goodbye, I went home.",
+      "tiles": [
+        "nachdem",
+        "ich",
+        "mich",
+        "verabschiedet",
+        "hatte",
+        "ging",
+        "ich",
+        "nach",
+        "Hause",
+        "habe",
+        "mir",
+        "war"
+      ],
+      "answers": [
+        "Nachdem ich mich verabschiedet hatte, ging ich nach Hause.",
+        "Ich ging nach Hause, nachdem ich mich verabschiedet hatte.",
+        "Nach Hause ging ich, nachdem ich mich verabschiedet hatte."
+      ]
+    },
+    {
+      "id": "de-b1-u16-l2-ex11",
+      "type": "listen",
+      "audio": { "src": "/audio/de/b1/u16/de-b1-u16-l2-ex11.mp3" },
+      "tiles": [
+        "statt",
+        "den",
+        "Bus",
+        "zu",
+        "nehmen",
+        "fahre",
+        "ich",
+        "mit",
+        "dem",
+        "Rad",
+        "ohne",
+        "nimmt",
+        "um"
+      ],
+      "answers": ["Statt den Bus zu nehmen, fahre ich mit dem Rad."]
+    },
+    {
+      "id": "de-b1-u16-l2-ex12",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "She explains the program to me so that I can try it out.",
+      "tiles": [
+        "sie",
+        "erklärt",
+        "mir",
+        "das",
+        "Programm",
+        "damit",
+        "ich",
+        "es",
+        "ausprobieren",
+        "kann",
+        "um",
+        "mich",
+        "können"
+      ],
+      "answers": [
+        "Sie erklärt mir das Programm, damit ich es ausprobieren kann.",
+        "Damit ich es ausprobieren kann, erklärt sie mir das Programm.",
+        "Das Programm erklärt sie mir, damit ich es ausprobieren kann."
+      ]
+    }
+  ]
+}

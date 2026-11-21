@@ -677,6 +677,21 @@ export const BUNDLED_CONTENT: ContentLoaders = {
       "de-b1-u15-l5-house-meeting": json(
         () => import("../../../content/courses/en-de/lessons/de-b1-u15-l5-house-meeting.json"),
       ),
+      "de-b1-u16-l1-career": json(
+        () => import("../../../content/courses/en-de/lessons/de-b1-u16-l1-career.json"),
+      ),
+      "de-b1-u16-l2-without-instead": json(
+        () => import("../../../content/courses/en-de/lessons/de-b1-u16-l2-without-instead.json"),
+      ),
+      "de-b1-u16-l3-interview": json(
+        () => import("../../../content/courses/en-de/lessons/de-b1-u16-l3-interview.json"),
+      ),
+      "de-b1-u16-l4-probably": json(
+        () => import("../../../content/courses/en-de/lessons/de-b1-u16-l4-probably.json"),
+      ),
+      "de-b1-u16-l5-b1-checkpoint": json(
+        () => import("../../../content/courses/en-de/lessons/de-b1-u16-l5-b1-checkpoint.json"),
+      ),
     },
     "en-es": {
       "u1-l1-hello": json(() => import("../../../content/courses/en-es/lessons/u1-l1-hello.json")),

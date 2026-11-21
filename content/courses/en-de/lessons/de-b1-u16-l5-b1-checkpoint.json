@@ -1,0 +1,395 @@
+{
+  "id": "de-b1-u16-l5-b1-checkpoint",
+  "courseId": "en-de",
+  "unitId": "de-b1-u16",
+  "title": "B1 Checkpoint: Your Next Steps",
+  "tip": "This lesson reviews all of B1. Follow Lina through her next steps: „Mein Weg war nicht immer leicht, aber ich habe durchgehalten.“ New: der Weg (the way / path), durchhalten (to keep going).",
+  "exercises": [
+    {
+      "id": "de-b1-u16-l5-ex01",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Could you tell me when the advice service is open? (formal)",
+      "tiles": [
+        "könnten",
+        "Sie",
+        "mir",
+        "sagen",
+        "wann",
+        "die",
+        "Beratung",
+        "geöffnet",
+        "ist",
+        "konnten",
+        "mich",
+        "hat"
+      ],
+      "answers": ["Könnten Sie mir sagen, wann die Beratung geöffnet ist?"]
+    },
+    {
+      "id": "de-b1-u16-l5-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'When I came to Bonn two years ago, I learned German every day.'?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Wenn ich vor zwei Jahren nach Bonn kam, lernte ich jeden Tag Deutsch."
+        },
+        {
+          "id": "b",
+          "text": "Als ich vor zwei Jahren nach Bonn kam, lernte ich jeden Tag Deutsch."
+        },
+        {
+          "id": "c",
+          "text": "Als ich vor zwei Jahren nach Bonn kommte, lernte ich jeden Tag Deutsch."
+        },
+        {
+          "id": "d",
+          "text": "Als ich vor zwei Jahren nach Bonn kam, ich lernte jeden Tag Deutsch."
+        }
+      ],
+      "correctOptionId": "b"
+    },
+    {
+      "id": "de-b1-u16-l5-ex03",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Johanna ist die Kollegin, die ich am ersten Tag kennengelernt habe.",
+      "tiles": [
+        "Johanna",
+        "is",
+        "the",
+        "colleague",
+        "I",
+        "met",
+        "on",
+        "first",
+        "day",
+        "who",
+        "whom",
+        "that",
+        "have",
+        "a"
+      ],
+      "answers": [
+        "Johanna is the colleague I met on the first day.",
+        "Johanna is the colleague who I met on the first day.",
+        "Johanna is the colleague whom I met on the first day.",
+        "Johanna is the colleague that I met on the first day."
+      ]
+    },
+    {
+      "id": "de-b1-u16-l5-ex04",
+      "type": "match_pairs",
+      "pairs": [
+        { "id": "p1", "learning": "warten auf", "known": "to wait for" },
+        { "id": "p2", "learning": "sich freuen auf", "known": "to look forward to" },
+        { "id": "p3", "learning": "sich interessieren für", "known": "to be interested in" },
+        { "id": "p4", "learning": "sich kümmern um", "known": "to take care of" },
+        { "id": "p5", "learning": "denken an", "known": "to think of" }
+      ]
+    },
+    {
+      "id": "de-b1-u16-l5-ex05",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I did an evening class in order to do further training.",
+      "tiles": [
+        "ich",
+        "habe",
+        "einen",
+        "Abendkurs",
+        "gemacht",
+        "um",
+        "mich",
+        "weiterzubilden",
+        "zu",
+        "weiterbilden",
+        "damit",
+        "mir"
+      ],
+      "answers": [
+        "Ich habe einen Abendkurs gemacht, um mich weiterzubilden.",
+        "Um mich weiterzubilden, habe ich einen Abendkurs gemacht.",
+        "Einen Abendkurs habe ich gemacht, um mich weiterzubilden."
+      ]
+    },
+    {
+      "id": "de-b1-u16-l5-ex06",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'The flat I live in now is in a quiet area.'?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Die Wohnung, in die ich jetzt wohne, liegt in einer ruhigen Gegend."
+        },
+        {
+          "id": "b",
+          "text": "Die Wohnung, der ich jetzt in wohne, liegt in einer ruhigen Gegend."
+        },
+        {
+          "id": "c",
+          "text": "Die Wohnung, in der ich jetzt wohne, liegt in einer ruhige Gegend."
+        },
+        {
+          "id": "d",
+          "text": "Die Wohnung, in der ich jetzt wohne, liegt in einer ruhigen Gegend."
+        }
+      ],
+      "correctOptionId": "d"
+    },
+    {
+      "id": "de-b1-u16-l5-ex07",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Yesterday I talked on the phone with Mr Okoye.",
+      "tiles": [
+        "gestern",
+        "ich",
+        "habe",
+        "mit",
+        "Herrn",
+        "Okoye",
+        "telefoniert",
+        "Herr",
+        "hat",
+        "bin"
+      ],
+      "answers": [
+        "Gestern habe ich mit Herrn Okoye telefoniert.",
+        "Ich habe gestern mit Herrn Okoye telefoniert.",
+        "Ich habe mit Herrn Okoye gestern telefoniert.",
+        "Mit Herrn Okoye habe ich gestern telefoniert."
+      ]
+    },
+    {
+      "id": "de-b1-u16-l5-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Obwohl ich oft müde war, habe ich abends gelernt.",
+      "tiles": [
+        "although",
+        "I",
+        "was",
+        "often",
+        "tired",
+        "studied",
+        "learned",
+        "in",
+        "the",
+        "evenings",
+        "because",
+        "always",
+        "were"
+      ],
+      "answers": [
+        "Although I was often tired, I studied in the evenings.",
+        "Although I was often tired, I learned in the evenings.",
+        "I studied in the evenings, although I was often tired.",
+        "I learned in the evenings, although I was often tired.",
+        "In the evenings I studied, although I was often tired.",
+        "In the evenings I learned, although I was often tired."
+      ]
+    },
+    {
+      "id": "de-b1-u16-l5-ex09",
+      "type": "listen",
+      "audio": { "src": "/audio/de/b1/u16/de-b1-u16-l5-ex09.mp3" },
+      "tiles": [
+        "in",
+        "dieser",
+        "Firma",
+        "werden",
+        "alle",
+        "Bewerbungen",
+        "schnell",
+        "bearbeitet",
+        "wird",
+        "bearbeiten",
+        "wurden"
+      ],
+      "answers": ["In dieser Firma werden alle Bewerbungen schnell bearbeitet."]
+    },
+    {
+      "id": "de-b1-u16-l5-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "If I had this job, I would work in a bigger team.",
+      "tiles": [
+        "wenn",
+        "ich",
+        "diese",
+        "Stelle",
+        "hätte",
+        "würde",
+        "ich",
+        "in",
+        "einem",
+        "größeren",
+        "Team",
+        "arbeiten",
+        "habe",
+        "werde"
+      ],
+      "answers": [
+        "Wenn ich diese Stelle hätte, würde ich in einem größeren Team arbeiten.",
+        "Ich würde in einem größeren Team arbeiten, wenn ich diese Stelle hätte."
+      ]
+    },
+    {
+      "id": "de-b1-u16-l5-ex11",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'Despite the heavy rain, I arrived on time for the interview.'?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Trotz dem starken Regen bin ich pünktlich zum Vorstellungsgespräch gekommen."
+        },
+        {
+          "id": "b",
+          "text": "Trotz des starken Regens bin ich pünktlich zum Vorstellungsgespräch gekommen."
+        },
+        {
+          "id": "c",
+          "text": "Trotz des starken Regen bin ich pünktlich zum Vorstellungsgespräch gekommen."
+        },
+        {
+          "id": "d",
+          "text": "Trotz des starken Regens ich bin pünktlich zum Vorstellungsgespräch gekommen."
+        }
+      ],
+      "correctOptionId": "b"
+    },
+    {
+      "id": "de-b1-u16-l5-ex12",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "After I had got home, I called Johanna.",
+      "tiles": [
+        "nachdem",
+        "ich",
+        "nach",
+        "Hause",
+        "gekommen",
+        "war",
+        "rief",
+        "ich",
+        "Johanna",
+        "an",
+        "hatte",
+        "bin",
+        "ruft"
+      ],
+      "answers": [
+        "Nachdem ich nach Hause gekommen war, rief ich Johanna an.",
+        "Ich rief Johanna an, nachdem ich nach Hause gekommen war.",
+        "Johanna rief ich an, nachdem ich nach Hause gekommen war."
+      ]
+    },
+    {
+      "id": "de-b1-u16-l5-ex13",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Mit guten Kenntnissen hat man bessere Chancen.",
+      "tiles": [
+        "with",
+        "good",
+        "knowledge",
+        "skills",
+        "you",
+        "one",
+        "have",
+        "has",
+        "better",
+        "chances",
+        "best",
+        "worse"
+      ],
+      "answers": [
+        "With good knowledge you have better chances.",
+        "With good skills you have better chances.",
+        "With good knowledge one has better chances.",
+        "With good skills one has better chances.",
+        "You have better chances with good knowledge.",
+        "You have better chances with good skills.",
+        "One has better chances with good knowledge.",
+        "One has better chances with good skills."
+      ]
+    },
+    {
+      "id": "de-b1-u16-l5-ex14",
+      "type": "listen",
+      "audio": { "src": "/audio/de/b1/u16/de-b1-u16-l5-ex14.mp3" },
+      "tiles": [
+        "in",
+        "Bonn",
+        "habe",
+        "ich",
+        "nicht",
+        "nur",
+        "eine",
+        "Stelle",
+        "sondern",
+        "auch",
+        "gute",
+        "Freunde",
+        "aber",
+        "guten"
+      ],
+      "answers": ["In Bonn habe ich nicht nur eine Stelle, sondern auch gute Freunde."]
+    },
+    {
+      "id": "de-b1-u16-l5-ex15",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "It will probably take a week until the answer comes.",
+      "tiles": [
+        "es",
+        "wird",
+        "wohl",
+        "wahrscheinlich",
+        "eine",
+        "Woche",
+        "dauern",
+        "bis",
+        "die",
+        "Antwort",
+        "kommt",
+        "seitdem",
+        "dauerte",
+        "kommen"
+      ],
+      "answers": [
+        "Es wird wohl eine Woche dauern, bis die Antwort kommt.",
+        "Es wird wahrscheinlich eine Woche dauern, bis die Antwort kommt.",
+        "Wahrscheinlich wird es eine Woche dauern, bis die Antwort kommt.",
+        "Eine Woche wird es wohl dauern, bis die Antwort kommt.",
+        "Eine Woche wird es wahrscheinlich dauern, bis die Antwort kommt.",
+        "Bis die Antwort kommt, wird es wohl eine Woche dauern.",
+        "Bis die Antwort kommt, wird es wahrscheinlich eine Woche dauern."
+      ]
+    },
+    {
+      "id": "de-b1-u16-l5-ex16",
+      "type": "listen",
+      "audio": { "src": "/audio/de/b1/u16/de-b1-u16-l5-ex16.mp3" },
+      "tiles": [
+        "mein",
+        "Weg",
+        "war",
+        "nicht",
+        "immer",
+        "leicht",
+        "statt",
+        "aufzuhören",
+        "habe",
+        "ich",
+        "durchgehalten",
+        "aufhören",
+        "ohne",
+        "bin"
+      ],
+      "answers": ["Mein Weg war nicht immer leicht. Statt aufzuhören, habe ich durchgehalten."]
+    }
+  ]
+}

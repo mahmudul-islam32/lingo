@@ -3,7 +3,7 @@
   "title": "German",
   "learningLanguage": "de",
   "knownLanguage": "en",
-  "version": 27,
+  "version": 28,
   "levels": [
     {
       "level": "A1",
@@ -1172,6 +1172,34 @@
         {
           "id": "de-b1-u15-l5-house-meeting",
           "title": "Scenario: The House Meeting"
+        }
+      ]
+    },
+    {
+      "id": "de-b1-u16",
+      "level": "B1",
+      "title": "Next Steps",
+      "description": "Talk about your career and next steps with ohne … zu, statt … zu and wohl, and finish B1 with a review.",
+      "lessons": [
+        {
+          "id": "de-b1-u16-l1-career",
+          "title": "Career Plans"
+        },
+        {
+          "id": "de-b1-u16-l2-without-instead",
+          "title": "Without Asking, Instead of Waiting"
+        },
+        {
+          "id": "de-b1-u16-l3-interview",
+          "title": "The Interview"
+        },
+        {
+          "id": "de-b1-u16-l4-probably",
+          "title": "That's Probably Right"
+        },
+        {
+          "id": "de-b1-u16-l5-b1-checkpoint",
+          "title": "B1 Checkpoint: Your Next Steps"
         }
       ]
     }

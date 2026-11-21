@@ -1,0 +1,247 @@
+{
+  "id": "de-b1-u16-l4-probably",
+  "courseId": "en-de",
+  "unitId": "de-b1-u16",
+  "title": "That's Probably Right",
+  "tip": "werden + wohl + infinitive at the end = an assumption: „Sie wird wohl zu Hause sein.“ (She's probably at home.) wird wahrscheinlich works too. vermutlich (presumably) goes with the present: „Vermutlich bekomme ich die Stelle.“",
+  "exercises": [
+    {
+      "id": "de-b1-u16-l4-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        { "id": "p1", "learning": "wohl", "known": "probably (with werden)" },
+        { "id": "p2", "learning": "vermutlich", "known": "presumably" },
+        { "id": "p3", "learning": "optimistisch", "known": "optimistic" },
+        { "id": "p4", "learning": "der Schritt", "known": "the step" },
+        { "id": "p5", "learning": "gespannt sein", "known": "to be curious" }
+      ]
+    },
+    {
+      "id": "de-b1-u16-l4-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'She's probably at home.'?",
+      "options": [
+        { "id": "a", "text": "Sie wird wohl zu Hause ist." },
+        { "id": "b", "text": "Sie wird wohl zu Hause sein." },
+        { "id": "c", "text": "Sie wird wohl zu Hause zu sein." },
+        { "id": "d", "text": "Sie werdet wohl zu Hause sein." }
+      ],
+      "correctOptionId": "b"
+    },
+    {
+      "id": "de-b1-u16-l4-ex03",
+      "type": "listen",
+      "audio": { "src": "/audio/de/b1/u16/de-b1-u16-l4-ex03.mp3" },
+      "tiles": [
+        "das",
+        "wird",
+        "wohl",
+        "stimmen",
+        "mach",
+        "dir",
+        "keine",
+        "Sorgen",
+        "stimmt",
+        "dich",
+        "kein",
+        "werde"
+      ],
+      "answers": ["Das wird wohl stimmen. Mach dir keine Sorgen!"]
+    },
+    {
+      "id": "de-b1-u16-l4-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "He'll probably call tomorrow.",
+      "tiles": [
+        "er",
+        "wird",
+        "wohl",
+        "wahrscheinlich",
+        "morgen",
+        "anrufen",
+        "werde",
+        "angerufen",
+        "wirst"
+      ],
+      "answers": [
+        "Er wird wohl morgen anrufen.",
+        "Er wird morgen wohl anrufen.",
+        "Morgen wird er wohl anrufen.",
+        "Er wird wahrscheinlich morgen anrufen.",
+        "Er wird morgen wahrscheinlich anrufen.",
+        "Morgen wird er wahrscheinlich anrufen.",
+        "Wahrscheinlich wird er morgen anrufen."
+      ]
+    },
+    {
+      "id": "de-b1-u16-l4-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'Presumably I'll get the job.'?",
+      "options": [
+        { "id": "a", "text": "Vermutlich bekomme ich die Stelle." },
+        { "id": "b", "text": "Vermutlich ich bekomme die Stelle." },
+        { "id": "c", "text": "Vermutlich bekomme ich der Stelle." },
+        { "id": "d", "text": "Vermutlich bekommt ich die Stelle." }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "de-b1-u16-l4-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Es ist wichtig, optimistisch zu bleiben.",
+      "tiles": [
+        "it",
+        "is",
+        "it's",
+        "important",
+        "to",
+        "stay",
+        "remain",
+        "optimistic",
+        "are",
+        "not",
+        "stays"
+      ],
+      "answers": [
+        "It is important to stay optimistic.",
+        "It's important to stay optimistic.",
+        "It is important to remain optimistic.",
+        "It's important to remain optimistic."
+      ]
+    },
+    {
+      "id": "de-b1-u16-l4-ex07",
+      "type": "listen",
+      "audio": { "src": "/audio/de/b1/u16/de-b1-u16-l4-ex07.mp3" },
+      "tiles": [
+        "das",
+        "wird",
+        "wohl",
+        "ein",
+        "wichtiger",
+        "Schritt",
+        "sein",
+        "ich",
+        "bin",
+        "gespannt",
+        "wichtigen",
+        "ist",
+        "wirst"
+      ],
+      "answers": ["Das wird wohl ein wichtiger Schritt sein. Ich bin gespannt."]
+    },
+    {
+      "id": "de-b1-u16-l4-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I'm calling you so that you don't worry about me. (to a friend)",
+      "tiles": [
+        "ich",
+        "rufe",
+        "dich",
+        "an",
+        "damit",
+        "du",
+        "dir",
+        "keine",
+        "Sorgen",
+        "um",
+        "mich",
+        "machst",
+        "machen",
+        "kein"
+      ],
+      "answers": [
+        "Ich rufe dich an, damit du dir keine Sorgen um mich machst.",
+        "Ich rufe dich an, damit du dir um mich keine Sorgen machst.",
+        "Damit du dir keine Sorgen um mich machst, rufe ich dich an.",
+        "Damit du dir um mich keine Sorgen machst, rufe ich dich an."
+      ]
+    },
+    {
+      "id": "de-b1-u16-l4-ex09",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "If I had the job, I would be very happy.",
+      "tiles": [
+        "wenn",
+        "ich",
+        "die",
+        "Stelle",
+        "hätte",
+        "wäre",
+        "ich",
+        "sehr",
+        "glücklich",
+        "habe",
+        "bin",
+        "würde"
+      ],
+      "answers": [
+        "Wenn ich die Stelle hätte, wäre ich sehr glücklich.",
+        "Ich wäre sehr glücklich, wenn ich die Stelle hätte.",
+        "Sehr glücklich wäre ich, wenn ich die Stelle hätte."
+      ]
+    },
+    {
+      "id": "de-b1-u16-l4-ex10",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'The interview will probably take an hour.'?",
+      "options": [
+        { "id": "a", "text": "Das Vorstellungsgespräch wird wohl eine Stunde dauert." },
+        { "id": "b", "text": "Das Vorstellungsgespräch wohl wird eine Stunde dauern." },
+        { "id": "c", "text": "Das Vorstellungsgespräch werden wohl eine Stunde dauern." },
+        { "id": "d", "text": "Das Vorstellungsgespräch wird wohl eine Stunde dauern." }
+      ],
+      "correctOptionId": "d"
+    },
+    {
+      "id": "de-b1-u16-l4-ex11",
+      "type": "listen",
+      "audio": { "src": "/audio/de/b1/u16/de-b1-u16-l4-ex11.mp3" },
+      "tiles": [
+        "während",
+        "ich",
+        "auf",
+        "die",
+        "Antwort",
+        "warte",
+        "lese",
+        "ich",
+        "ein",
+        "Buch",
+        "wartet",
+        "liest",
+        "seitdem"
+      ],
+      "answers": ["Während ich auf die Antwort warte, lese ich ein Buch."]
+    },
+    {
+      "id": "de-b1-u16-l4-ex12",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "When I saw the email, I was very curious.",
+      "tiles": [
+        "als",
+        "ich",
+        "die",
+        "E-Mail",
+        "sah",
+        "war",
+        "ich",
+        "sehr",
+        "gespannt",
+        "wenn",
+        "bin",
+        "sehe"
+      ],
+      "answers": [
+        "Als ich die E-Mail sah, war ich sehr gespannt.",
+        "Ich war sehr gespannt, als ich die E-Mail sah.",
+        "Sehr gespannt war ich, als ich die E-Mail sah."
+      ]
+    }
+  ]
+}
