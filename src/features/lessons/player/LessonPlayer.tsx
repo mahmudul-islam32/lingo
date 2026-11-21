@@ -21,7 +21,7 @@ import type {
 } from "@/contracts";
 import { VisuallyHidden } from "@/components/ui";
 import { checkAnswer } from "../checking";
-import { EXERCISE_EYEBROWS } from "../exercises/eyebrows";
+import { exerciseEyebrow } from "../exercises/eyebrows";
 import { exerciseComponents } from "../exercises/registry";
 import { TipCard, TipStartBar } from "../tip";
 import type {
@@ -221,6 +221,8 @@ export function LessonPlayer({
       if (!exercise || exercise.type !== answer.type) return;
       const result = checkAnswer({ exercise, answer });
       dispatch({ type: "check", answer, result, now: nowRef.current() });
+      // TELC-001: an explain card has nothing to review; "Continue" moves straight on.
+      if (exercise.type === "explain") dispatch({ type: "continue", now: nowRef.current() });
       const heartsConfig = callbacks.current.hearts;
       if (!heartsConfig) return;
       // The reducer decides what the Check cost or earned (practice, cap, speak).
@@ -370,7 +372,7 @@ export function LessonPlayer({
             className="mx-auto flex w-full max-w-2xl flex-col gap-2 px-6 pt-5 pb-6 motion-safe:animate-slide-up"
           >
             <p data-testid="exercise-eyebrow" className="eyebrow text-eyebrow">
-              {EXERCISE_EYEBROWS[exercise.type]}
+              {exerciseEyebrow(exercise)}
             </p>
             <Component
               exercise={exercise}
@@ -396,6 +398,13 @@ export function LessonPlayer({
           feedback={feedback}
           canCheck={state.pendingAnswer !== null}
           showCheck={!isMatchPairs}
+          checkLabel={
+            exercise?.type === "explain"
+              ? "Continue"
+              : exercise?.type === "task"
+                ? "Show model answer"
+                : "Check"
+          }
           learningLanguage={learningLanguage}
           knownLanguage={knownLanguage}
           onCheck={handleCheck}

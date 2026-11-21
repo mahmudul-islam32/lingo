@@ -142,7 +142,7 @@ describe.each(["en-de", "en-es"])("bundled content (content/courses/%s)", (cours
 describe("course registry (CTO-008)", () => {
   it("defaults to German for English speakers, A1, and keeps en-es bundled", async () => {
     expect(DEFAULT_COURSE_ID).toBe("en-de");
-    expect(bundledCourseIds()).toEqual(["en-de", "en-es"]);
+    expect(bundledCourseIds()).toEqual(["en-de", "telc-b1-en-de", "einbuergerung-en-de", "en-es"]);
     const german = await contentRepository.getCourse("en-de");
     expect(german).toMatchObject({
       title: "German",
@@ -151,15 +151,26 @@ describe("course registry (CTO-008)", () => {
     });
     expect(german.levels?.[0]?.level).toBe("A1");
     expect(german.units[0]!.level).toBe("A1");
-    expect((await listBundledCourses()).map((c) => c.id)).toEqual(["en-de", "en-es"]);
+    expect((await listBundledCourses()).map((c) => c.id)).toEqual([
+      "en-de",
+      "telc-b1-en-de",
+      "einbuergerung-en-de",
+      "en-es",
+    ]);
   });
 
-  it("lists en-de as available and keeps the hidden en-es loadable (PD-030)", async () => {
+  it("lists en-de and the exam courses as available and keeps the hidden en-es loadable (PD-030, PD-071)", async () => {
     expect(COURSE_REGISTRY).toEqual([
       { id: "en-de", visibility: "available" },
+      { id: "telc-b1-en-de", visibility: "available" },
+      { id: "einbuergerung-en-de", visibility: "available" },
       { id: "en-es", visibility: "hidden" },
     ]);
-    expect((await listAvailableCourses()).map((c) => c.id)).toEqual(["en-de"]);
+    expect((await listAvailableCourses()).map((c) => c.id)).toEqual([
+      "en-de",
+      "telc-b1-en-de",
+      "einbuergerung-en-de",
+    ]);
     expect((await contentRepository.getCourse("en-es")).title).toBe("Spanish");
     const repo = createGermanFixtureRepository();
     expect(
@@ -184,6 +195,8 @@ describe("course registry (CTO-008)", () => {
     expect(bundledLessonIds("__proto__")).toEqual([]);
     expect(allBundledLessonPaths()).toEqual([
       ...bundledLessonPaths("en-de"),
+      ...bundledLessonPaths("telc-b1-en-de"),
+      ...bundledLessonPaths("einbuergerung-en-de"),
       ...bundledLessonPaths("en-es"),
     ]);
   });

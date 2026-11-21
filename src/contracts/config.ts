@@ -55,9 +55,12 @@ export const CONTENT_RULES = {
   multipleChoiceMaxOptions: 4,
   /** Match-pairs exercises have exactly this many pairs (PRD 6.1). */
   matchPairsCount: 5,
-  /** Hard bounds on exercises per lesson; content targets 10–12. */
+  /**
+   * Hard bounds on exercises per lesson; content targets 10–12. Raised from 20 to 40 for
+   * full mock exams (Einbürgerungstest: 33 questions; TELC-001).
+   */
   lessonMinExercises: 1,
-  lessonMaxExercises: 20,
+  lessonMaxExercises: 40,
   /** Max tiles in a word bank (answer tiles + distractors); raised for B2/C1 sentences. */
   wordBankMaxTiles: 24,
   /** Max accepted answers per tile exercise (word-order and du/ihr/Sie variants). */
@@ -84,6 +87,35 @@ export const CONTENT_RULES = {
   clozeTranslationMaxLength: 80,
   /** `playbackRate` used for the slow replay when no dedicated slow file exists. */
   slowPlaybackRate: 0.7,
+  /**
+   * Exam-prep exercise types (TELC-001): `choice`, `listening`, `task`, `explain`, and the
+   * optional `explanation` every exercise may carry. Rich text uses the light markup of
+   * `rich-text.ts` (paragraphs, line breaks, `**bold**`, `*italic*`, `- ` bullets).
+   */
+  explanationMaxLength: 3000,
+  /** Short heading of a reading text, task, listening item or explain card. */
+  titleMaxLength: 160,
+  /** Reading passage of a `choice` exercise or body of an `explain` card. */
+  passageMaxLength: 8000,
+  /** Question of a `choice` / `listening` exercise (longer than a plain prompt). */
+  longPromptMaxLength: 600,
+  /** One option of a `choice` / `listening` exercise (headlines, ads, sentences). */
+  longOptionMaxLength: 400,
+  /** `choice` / `listening` option count (2 for richtig/falsch, up to 12 for headlines/ads). */
+  choiceMinOptions: 2,
+  choiceMaxOptions: 12,
+  /** Transcript of a `listening` exercise, read aloud with speech synthesis. */
+  transcriptMaxLength: 6000,
+  /** Task text and model answer of a `task` (writing/speaking) exercise. */
+  taskMaxLength: 6000,
+  modelAnswerMaxLength: 10000,
+  /** Bullet lists of a task (Leitpunkte) or useful phrases. */
+  taskMaxPoints: 12,
+  taskMaxPhrases: 40,
+  /** Example pairs on an explain card. */
+  explainMaxExamples: 24,
+  /** Max characters a learner may type into a writing task. */
+  taskAnswerMaxLength: 20000,
 } as const;
 
 export const SYNC_CONFIG = {

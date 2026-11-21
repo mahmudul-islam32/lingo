@@ -57,6 +57,29 @@ export const ClozeAnswerSchema = z.object({
   optionIds: z.array(SlugSchema).min(1).max(CONTENT_RULES.clozeMaxGaps),
 });
 
+/** `choice` (TELC-001): the chosen option id. */
+export const ChoiceAnswerSchema = z.object({
+  type: z.literal("choice"),
+  optionId: SlugSchema,
+});
+
+/** `listening` (TELC-001): the chosen option id. */
+export const ListeningAnswerSchema = z.object({
+  type: z.literal("listening"),
+  optionId: SlugSchema,
+});
+
+/** `task` (TELC-001): what the learner wrote; empty for speaking or when they only read. */
+export const TaskAnswerSchema = z.object({
+  type: z.literal("task"),
+  text: z.string().max(CONTENT_RULES.taskAnswerMaxLength),
+});
+
+/** `explain` (TELC-001): the card was read. */
+export const ExplainAnswerSchema = z.object({
+  type: z.literal("explain"),
+});
+
 export const AnswerInputSchema = z.discriminatedUnion("type", [
   MultipleChoiceAnswerSchema,
   WordBankTranslateAnswerSchema,
@@ -64,6 +87,10 @@ export const AnswerInputSchema = z.discriminatedUnion("type", [
   ListenAnswerSchema,
   SpeakAnswerSchema,
   ClozeAnswerSchema,
+  ChoiceAnswerSchema,
+  ListeningAnswerSchema,
+  TaskAnswerSchema,
+  ExplainAnswerSchema,
 ]);
 export type AnswerInput = z.infer<typeof AnswerInputSchema>;
 export type AnswerInputOfType<T extends AnswerInput["type"]> = Extract<AnswerInput, { type: T }>;

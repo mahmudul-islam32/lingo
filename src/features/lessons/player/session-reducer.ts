@@ -24,6 +24,7 @@
  */
 import {
   GAME_CONFIG,
+  isUngradedExerciseType,
   type AnswerCheckResult,
   type AnswerInput,
   type Exercise,
@@ -224,7 +225,14 @@ export function heartsDelta(
     if (state.heartsPractice) return { lost: 0, gained: 0 };
     return { lost: Math.min(current, result.heartCost), gained: 0 };
   }
-  if (result.outcome !== "correct" || exercise.type === "speak") return { lost: 0, gained: 0 };
+  // Speak and the ungraded types (task, explain; TELC-001) never earn, as they never cost.
+  if (
+    result.outcome !== "correct" ||
+    exercise.type === "speak" ||
+    isUngradedExerciseType(exercise.type)
+  ) {
+    return { lost: 0, gained: 0 };
+  }
   const room = Math.max(0, state.heartsMax - current);
   return { lost: 0, gained: Math.min(room, state.heartsGainPerCorrect) };
 }

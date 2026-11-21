@@ -41,12 +41,18 @@ export interface OnboardingFlowProps {
 
 /**
  * The course "Continue" and "Start learning" use: the learner's choice, else the only
- * available course (PLT-024 AC 2: preselected when exactly one course is offered).
+ * available course (PLT-024 AC 2), else the default course when it is offered (TELC-001:
+ * German stays preselected next to the exam courses).
  */
-export function effectiveCourseId(chosen: Slug | null, courses: CoursesState): Slug | null {
+export function effectiveCourseId(
+  chosen: Slug | null,
+  courses: CoursesState,
+  defaultCourseId: Slug = DEFAULT_COURSE_ID,
+): Slug | null {
   if (chosen !== null) return chosen;
-  if (courses.status === "ready" && courses.courses.length === 1) return courses.courses[0]!.id;
-  return null;
+  if (courses.status !== "ready") return null;
+  if (courses.courses.length === 1) return courses.courses[0]!.id;
+  return courses.courses.some((c) => c.id === defaultCourseId) ? defaultCourseId : null;
 }
 
 /**
@@ -78,7 +84,7 @@ export function OnboardingFlow({
   const [courses, setCourses] = useState<CoursesState>({ status: "loading" });
   const [saving, setSaving] = useState(false);
   const [saveFailed, setSaveFailed] = useState(false);
-  const selectedCourseId = effectiveCourseId(chosenCourseId, courses);
+  const selectedCourseId = effectiveCourseId(chosenCourseId, courses, defaultCourseId);
   const selectedCourse =
     courses.status === "ready" ? courses.courses.find((c) => c.id === selectedCourseId) : undefined;
   const levelOptions = selectedCourse ? startLevelOptions(selectedCourse) : [];

@@ -127,6 +127,21 @@ function checkSpeak(
   return result(exercise.id, correct ? "correct" : "incorrect", exercise.phrase, false);
 }
 
+/** `choice` / `listening` (TELC-001): like multiple choice, one heart per wrong answer. */
+function checkOption(
+  exercise: ExerciseOfType<"choice" | "listening">,
+  answer: AnswerInputOfType<"choice" | "listening">,
+): AnswerCheckResult {
+  const correctOption = exercise.options.find((o) => o.id === exercise.correctOptionId);
+  const correct = answer.optionId === exercise.correctOptionId;
+  return result(exercise.id, correct ? "correct" : "incorrect", correctOption?.text ?? null, true);
+}
+
+/** `task` / `explain` (TELC-001) are never graded: always correct, never a mistake. */
+function ungraded(exercise: ExerciseOfType<"task" | "explain">): AnswerCheckResult {
+  return result(exercise.id, "correct", null, false);
+}
+
 function typeMismatch(input: AnswerCheckInput): never {
   throw new TypeError(
     `checkAnswer: answer type "${input.answer.type}" does not match exercise type "${input.exercise.type}"`,
@@ -156,6 +171,14 @@ export const checkAnswer: CheckAnswer = (input) => {
     case "cloze":
       // CTO-009: the pure cloze rule lives in the contracts (ADR-009); LES-015 owns the UI.
       return answer.type === "cloze" ? checkClozeAnswer(exercise, answer) : typeMismatch(input);
+    case "choice":
+      return answer.type === "choice" ? checkOption(exercise, answer) : typeMismatch(input);
+    case "listening":
+      return answer.type === "listening" ? checkOption(exercise, answer) : typeMismatch(input);
+    case "task":
+      return answer.type === "task" ? ungraded(exercise) : typeMismatch(input);
+    case "explain":
+      return answer.type === "explain" ? ungraded(exercise) : typeMismatch(input);
     default:
       return assertNever(exercise);
   }

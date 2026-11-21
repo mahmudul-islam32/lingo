@@ -48,3 +48,19 @@ export function useSetStartLevel(
     },
   });
 }
+
+/**
+ * Switches the learner's course: `Settings.courseId` (TELC-001). Progress is kept per
+ * course (results carry their `courseId`), so switching back resumes where they were.
+ */
+export function useSetCourse(
+  store: StoreApi<GuestProfileState> = guestProfileStore,
+): UseMutationResult<Settings, Error, string> {
+  const client = useQueryClient();
+  return useMutation({
+    mutationFn: (courseId: string) => store.getState().updateSettings({ courseId }),
+    onSuccess: (settings) => {
+      client.setQueryData<Settings | null>(queryKeys.settings(), settings);
+    },
+  });
+}

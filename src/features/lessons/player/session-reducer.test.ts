@@ -52,6 +52,13 @@ function correctAnswer(state: PlayerState): AnswerInput {
       return { type: "speak", skipped: false, transcripts: [ex.phrase] };
     case "cloze":
       return { type: "cloze", optionIds: ex.gaps.map((g) => g.correctOptionId) };
+    case "choice":
+    case "listening":
+      return { type: ex.type, optionId: ex.correctOptionId };
+    case "task":
+      return { type: "task", text: "" };
+    case "explain":
+      return { type: "explain" };
   }
 }
 
