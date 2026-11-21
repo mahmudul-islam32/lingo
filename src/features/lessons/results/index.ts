@@ -24,3 +24,4 @@ export {
 } from "./lesson-impact";
 export { CelebrationBanner, MAX_SPARKLE_MS } from "./CelebrationBanner";
 export { ResultsGamificationRows } from "./ResultsGamificationRows";
+export { goalDateRowView, lessonsLeftText, type GoalDateRowView } from "./goal-date-row";

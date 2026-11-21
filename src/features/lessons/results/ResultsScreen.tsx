@@ -1,13 +1,13 @@
 "use client";
 
 import { useEffect, useId, useRef, useState } from "react";
-import type { LessonResult } from "@/contracts";
+import type { GoalPlanStatus, LessonResult } from "@/contracts";
 import { BoltIcon, Button, Lumi, StatTile, VisuallyHidden } from "@/components/ui";
 import { useProgressInputs } from "@/features/gamification";
 import { CelebrationBanner } from "./CelebrationBanner";
 import { formatAccuracy, formatDuration } from "./format";
 import { computeLessonImpact } from "./lesson-impact";
-import { ResultsGamificationRows } from "./ResultsGamificationRows";
+import { ResultsGamificationRows, hasGoalDateRow } from "./ResultsGamificationRows";
 import { useCountUp } from "./use-count-up";
 import { useSaveResult, type SaveLessonResult } from "./use-save-result";
 
@@ -25,6 +25,13 @@ export interface ResultsScreenProps {
   onSaved?: (result: LessonResult) => void;
   /** Optional secondary "Practice again" (replay the same lesson, PD-008). */
   onRetryLesson?: () => void;
+  /**
+   * LES-022: the goal-date status (`useGoalPlan()`, GAM-013) computed after this lesson's
+   * result is saved (PLT-027 passes it). Shows one row under the daily-goal row for
+   * `on-track`, `raise-goal`, `tight` and `reached`; nothing for `date-passed`, `null`
+   * (no plan) or `undefined` (absent / still loading), so the screen is as before.
+   */
+  goalPlan?: GoalPlanStatus | null | undefined;
 }
 
 export const RESULTS_HEADING = "Lesson complete!";
@@ -86,6 +93,7 @@ export function ResultsScreen({
   onContinue,
   onSaved,
   onRetryLesson,
+  goalPlan,
 }: ResultsScreenProps) {
   const headingRef = useRef<HTMLHeadingElement>(null);
   const headingId = useId();
@@ -99,6 +107,10 @@ export function ResultsScreen({
   const impact = computeLessonImpact(result, useProgressInputs(result.courseId));
   const celebration = impact?.celebration ?? null;
   const pillText = celebrationPillText(perfectBonus);
+  // LES-022 AC 8: the goal-date row is the sixth row; on short screens the gaps tighten
+  // by 2px so everything, Continue included, still fits 375 × 667. Without the row the
+  // classes are exactly as before (AC 1).
+  const compact = impact !== null && hasGoalDateRow(goalPlan);
 
   useEffect(() => {
     headingRef.current?.focus();
@@ -135,7 +147,9 @@ export function ResultsScreen({
       aria-labelledby={headingId}
       className="mx-auto flex min-h-dvh w-full max-w-md flex-col bg-surface px-6 pt-[max(1.5rem,env(safe-area-inset-top))] pb-[max(1rem,env(safe-area-inset-bottom))] text-fg"
     >
-      <div className="flex flex-1 flex-col items-center gap-2.5 text-center [@media(min-height:740px)]:gap-4">
+      <div
+        className={`flex flex-1 flex-col items-center ${compact ? "gap-2" : "gap-2.5"} text-center [@media(min-height:740px)]:gap-4`}
+      >
         <CelebrationArt />
 
         <div className="flex flex-col items-center gap-1">
@@ -153,7 +167,7 @@ export function ResultsScreen({
 
         <ul
           aria-label="Lesson stats"
-          className="grid w-full grid-cols-1 gap-2.5 min-[340px]:grid-cols-3"
+          className={`grid w-full grid-cols-1 ${compact ? "gap-2" : "gap-2.5"} min-[340px]:grid-cols-3`}
         >
           <StatTile
             as="li"
@@ -184,7 +198,7 @@ export function ResultsScreen({
             className="min-w-0"
             value={formatAccuracy(result.accuracy)}
           />
-          {impact && <ResultsGamificationRows impact={impact} />}
+          {impact && <ResultsGamificationRows impact={impact} goalPlan={goalPlan} />}
         </ul>
 
         {status === "error" && (
