@@ -1,6 +1,6 @@
 # Orchestrator — the autonomous company loop
 
-The 5 agents run as a **fully autonomous software company**. Nobody waits for the
+The 6 agents run as a **fully autonomous software company**. Nobody waits for the
 owner: the agents plan features, build them, review and merge them, and ship
 releases on their own. Runs fire every day at **20:00 and 01:00 (Europe/Berlin)**
 and wake the dedicated "Lingo orchestrator" Claude Code session, which acts as
@@ -10,6 +10,7 @@ the CEO and delegates to the agents in `.claude/agents/`.
 | Area | Decides | Examples |
 |---|---|---|
 | Product | `pm` | app name & mascot, scope, roadmap, priorities, acceptance |
+| Market & growth | `marketing` | research, positioning, pricing proposals, launch plan, copy (proposes features; the `pm` decides) |
 | Technology | `cto` | architecture, contracts, libraries, code review, merges, releases |
 | Implementation | the owning dev agent | how a ticket is built inside its folders |
 
@@ -34,7 +35,8 @@ them, but never wait for them.
   (non-blocking)"** in `docs/STATUS.md`, and carry on with other work.
 
 ## The product lifecycle (repeat forever)
-1. **Plan** — `pm` keeps `docs/product/ROADMAP.md`: milestones with a version
+1. **Plan** — `marketing` updates research and ranked feature proposals in
+   `docs/marketing/feature-proposals.md`; the `pm` weighs them. Then the `pm` keeps `docs/product/ROADMAP.md`: milestones with a version
    number (e.g. `v0.1.0` MVP foundation, `v0.2.0` first playable lesson …), each
    listing its tickets. When the current milestone's tickets are all merged, the
    `pm` plans the next one (from the PRD phases, then its own ideas grounded in
@@ -55,7 +57,12 @@ them, but never wait for them.
    (Keep a Changelog format) on a `chore/release-vX.Y.Z` branch, merge it, then
    create the git tag `vX.Y.Z` and a GitHub release on `main` with the notes
    (via `gh api -X POST repos/mahmudul-islam32/lingo/releases`). No attribution.
-7. Back to 1.
+7. **Market** — after each release, `marketing` updates the launch kit in
+   `docs/marketing/kit/` to match what shipped (on a `docs/mkt-<id>-…` branch, merged by the
+   `cto`), and lists anything to publish in `docs/marketing/waiting-on-owner.md`; the
+   orchestrator copies those items into "Waiting on owner" in `docs/STATUS.md`.
+   Marketing never publishes, emails, buys ads or spends money itself.
+8. Back to 1.
 
 Until the scaffold exists, follow the phases in `KICKOFF.md` (Phase 0 is done;
 the `pm` has already proposed branding — adopt the recommended **Polyglow /

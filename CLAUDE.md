@@ -16,6 +16,7 @@ hearts, skill path, leagues). Inspired by apps like Duolingo in **mechanics only
 | orchestrator (CEO session) | `CLAUDE.md`, `ORCHESTRATOR.md`, `KICKOFF.md`, `/.claude/agents/**`, `docs/STATUS.md`, `README.md`, `docs/media/**`, `scripts/readme-media/**` | feature code |
 | `pm` | `/docs/product/**` (incl. `ROADMAP.md`, product decisions in `docs/product/decisions.md`), `/content/**` (course data) | source code |
 | `cto` | `/docs/architecture/**` (technical decisions as ADRs), `/src/contracts/**`, `/supabase/**`, CI config, root tooling config, `package.json` version, `CHANGELOG.md`, releases, code review, opening and merging pull requests into `main` | feature code unless fixing a merge |
+| `marketing` | `/docs/marketing/**` (market research, positioning, pricing, feature proposals, launch plan, ready-to-publish copy kit) | source code, content, product docs; never publishes, spends money or contacts anyone |
 | owner (human) | `docs/OWNER-NOTES.md` — agents read it every run, never edit it | — |
 | `dev-lessons` | `/src/features/lessons/**` | contracts, other features |
 | `dev-gamification` | `/src/features/gamification/**`, `/src/features/path/**` | contracts, other features |
