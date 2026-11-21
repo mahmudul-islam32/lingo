@@ -69,7 +69,7 @@
         "whom",
         "that",
         "have",
-        "a"
+        "the"
       ],
       "answers": [
         "Johanna is the colleague I met on the first day.",
@@ -82,11 +82,31 @@
       "id": "de-b1-u16-l5-ex04",
       "type": "match_pairs",
       "pairs": [
-        { "id": "p1", "learning": "warten auf", "known": "to wait for" },
-        { "id": "p2", "learning": "sich freuen auf", "known": "to look forward to" },
-        { "id": "p3", "learning": "sich interessieren für", "known": "to be interested in" },
-        { "id": "p4", "learning": "sich kümmern um", "known": "to take care of" },
-        { "id": "p5", "learning": "denken an", "known": "to think of" }
+        {
+          "id": "p1",
+          "learning": "warten auf",
+          "known": "to wait for"
+        },
+        {
+          "id": "p2",
+          "learning": "sich freuen auf",
+          "known": "to look forward to"
+        },
+        {
+          "id": "p3",
+          "learning": "sich interessieren für",
+          "known": "to be interested in"
+        },
+        {
+          "id": "p4",
+          "learning": "sich kümmern um",
+          "known": "to take care of"
+        },
+        {
+          "id": "p5",
+          "learning": "denken an",
+          "known": "to think of"
+        }
       ]
     },
     {
@@ -180,7 +200,8 @@
         "evenings",
         "because",
         "always",
-        "were"
+        "were",
+        "I"
       ],
       "answers": [
         "Although I was often tired, I studied in the evenings.",
@@ -194,7 +215,9 @@
     {
       "id": "de-b1-u16-l5-ex09",
       "type": "listen",
-      "audio": { "src": "/audio/de/b1/u16/de-b1-u16-l5-ex09.mp3" },
+      "audio": {
+        "src": "/audio/de/b1/u16/de-b1-u16-l5-ex09.mp3"
+      },
       "tiles": [
         "in",
         "dieser",
@@ -319,7 +342,9 @@
     {
       "id": "de-b1-u16-l5-ex14",
       "type": "listen",
-      "audio": { "src": "/audio/de/b1/u16/de-b1-u16-l5-ex14.mp3" },
+      "audio": {
+        "src": "/audio/de/b1/u16/de-b1-u16-l5-ex14.mp3"
+      },
       "tiles": [
         "in",
         "Bonn",
@@ -372,7 +397,9 @@
     {
       "id": "de-b1-u16-l5-ex16",
       "type": "listen",
-      "audio": { "src": "/audio/de/b1/u16/de-b1-u16-l5-ex16.mp3" },
+      "audio": {
+        "src": "/audio/de/b1/u16/de-b1-u16-l5-ex16.mp3"
+      },
       "tiles": [
         "mein",
         "Weg",
