@@ -26,6 +26,26 @@ features, follow-up PR
 
 ## Requests
 
+### CTO-017: Goal date (cto-initiated change notice)
+
+- **Requested by:** pm (PD-071 §1) · **Date:** 2026-11-21 · **Ticket:** CTO-017
+- **Status:** done
+- **Contract(s):** `user.ts` (`GoalPlanSchema` / `GoalPlan`,
+  `SettingsSchema.goalPlan: GoalPlanSchema.nullable().optional()`), `config.ts`
+  (`GAME_CONFIG.goalPlanMaxDays: 730`, validated by `GameConfigSchema`), `gamification.ts`
+  (`GoalPlanStateSchema`, `GoalPlanStatusSchema` / `GoalPlanStatus`), `api.ts`
+  (`ComputeGoalPlan`, `SettingsPatch.goalPlan`; `goalPlan: null` clears). Supabase:
+  `20261121120000_settings_goal_plan.sql` (nullable `settings.goal_plan jsonb` with a shape
+  CHECK; `migrate_guest_to_account` carries it; RLS unchanged). Rules in [ADR-015](adr/ADR-015-goal-date.md).
+- **Breaking?:** no. The field is optional, so stored settings and queued sync records stay
+  valid; no Dexie bump; `CONTRACTS_VERSION` stays 1.
+
+**CTO decision:** done. Missing and `null` both mean "no goal date"; the status is computed
+on the device and never stored. Affected features: **gamification** (GAM-013:
+`computeGoalPlan`, `useGoalPlan`, `GoalPlanCard`), **profile / app shell** (PLT-027: Profile
+row and dialog, Learn and results wiring), **lessons** (LES-022: results-screen row). No
+existing code needs a change.
+
 ### CTO-015: Start level and hearts earned per correct answer (cto-initiated change notice)
 
 - **Requested by:** owner (via orchestrator) · **Date:** 2026-11-18 · **Ticket:** CTO-015

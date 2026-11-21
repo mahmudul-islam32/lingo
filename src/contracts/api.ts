@@ -8,6 +8,7 @@ import type { CefrLevel, Course, Lesson } from "./course";
 import type { LocalDate, Slug } from "./common";
 import type {
   DailyGoalProgress,
+  GoalPlanStatus,
   HeartsState,
   HeartsView,
   PathNode,
@@ -17,7 +18,7 @@ import type {
 } from "./gamification";
 import type { LessonResult, XpBreakdown } from "./lesson-session";
 import type { GuestMigrationPayload, SyncPushResult, SyncQueueRecord, SyncStatus } from "./sync";
-import type { DailyGoalXp, Identity, Profile, ProfileUpdate, Settings } from "./user";
+import type { DailyGoalXp, GoalPlan, Identity, Profile, ProfileUpdate, Settings } from "./user";
 
 // ---------------------------------------------------------------------------
 // Pure rules (no IO, no Date.now(): time is always passed in). Unit-tested.
@@ -83,6 +84,48 @@ export type ComputePathNodes = (
   startLevel?: CefrLevel,
 ) => PathNode[];
 
+/**
+ * features/gamification/rules/goal-plan — status of the goal date (CTO-017, ADR-015,
+ * PD-071 §1.3; implemented by GAM-013). Pure: it creates and changes no result, XP,
+ * streak, hearts or setting. The rule, exactly:
+ *
+ * 1. `null` when `goalPlan` is missing/`null`, or `goalPlan.targetLevel` is not a level
+ *    of `course` with at least one lesson (levels by `Unit.level`, course order, ADR-008).
+ * 2. Effective start level = `startLevel` if it is a level of the course with content,
+ *    else the first level (same fallback as `ComputePathNodes`, ADR-013).
+ * 3. `lessonsLeft` = lessons (checkpoints included) not in `completedLessonIds`, in every
+ *    level from the effective start level through `targetLevel` inclusive. Earlier levels
+ *    are never counted. If `targetLevel` comes before the start level, only
+ *    `targetLevel`'s not-completed lessons are counted.
+ * 4. `daysLeft` = `targetDate − today` in calendar days (local dates, so DST and time
+ *    zones don't change it; the target day itself is not a study day). May be ≤ 0.
+ * 5. When `lessonsLeft > 0` and `daysLeft ≥ 1`: `lessonsPerDay = ceil(lessonsLeft /
+ *    daysLeft)`; `requiredXp = lessonsPerDay × GAME_CONFIG.xpPerLesson`;
+ *    `suggestedDailyGoalXp` = the smallest `GAME_CONFIG.dailyGoalOptions` value
+ *    ≥ `requiredXp`, else the largest option.
+ * 6. `status`, first match wins:
+ *    `reached` if `lessonsLeft = 0` (any date); `date-passed` if `daysLeft ≤ 0`;
+ *    `on-track` if `requiredXp ≤ dailyGoalXp`; `raise-goal` if `requiredXp ≤` the largest
+ *    option; else `tight`. For `reached` and `date-passed`, `lessonsPerDay` and
+ *    `suggestedDailyGoalXp` are `null`.
+ * 7. Based on the daily goal, never on past pace. The result satisfies
+ *    `GoalPlanStatusSchema`; `targetLevel` / `targetDate` are copied from `goalPlan`.
+ *
+ * Example: today 2026-11-21, start A1, target A2 by 2027-03-12, nothing completed in a
+ * course with A1 = 60 and A2 = 70 lessons → lessonsLeft 130, daysLeft 111,
+ * lessonsPerDay 2, suggested 20; `on-track` at a 20 XP goal, `raise-goal` at 10.
+ */
+export type ComputeGoalPlan = (input: {
+  course: Course;
+  completedLessonIds: readonly Slug[];
+  /** `Settings.startLevel`; missing = first level of the course. */
+  startLevel?: CefrLevel | undefined;
+  /** `Settings.goalPlan`; missing or `null` = no goal date → returns `null`. */
+  goalPlan?: GoalPlan | null | undefined;
+  today: LocalDate;
+  dailyGoalXp: DailyGoalXp;
+}) => GoalPlanStatus | null;
+
 /** Device-local calendar date of an instant (`YYYY-MM-DD` in the device timezone). */
 export type ToLocalDate = (instant: Date, timeZone: string) => LocalDate;
 
@@ -111,10 +154,16 @@ export interface ProgressRepository {
 /**
  * Settings fields the learner can change (CR-002). `dailyGoalXp` is a plain number so
  * UI input is validated at runtime: an option outside `DAILY_GOAL_OPTIONS` is rejected
- * with a typed error and nothing is stored.
+ * with a typed error and nothing is stored. `goalPlan: null` clears the goal date
+ * (CTO-017, ADR-015): the repository spreads the patch, so the stored settings then hold
+ * `goalPlan: null`, which `SettingsSchema` accepts and readers treat as "no goal date".
+ * Never send `goalPlan: undefined` (it is dropped, ADR-013 Compatibility).
  */
 export type SettingsPatch = Partial<
-  Pick<Settings, "courseId" | "soundEffectsEnabled" | "speakingExercisesEnabled" | "startLevel">
+  Pick<
+    Settings,
+    "courseId" | "soundEffectsEnabled" | "speakingExercisesEnabled" | "startLevel" | "goalPlan"
+  >
 > & { dailyGoalXp?: number };
 
 export interface ProfileRepository {

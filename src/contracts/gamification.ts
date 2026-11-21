@@ -12,6 +12,7 @@ import {
   UuidSchema,
 } from "./common";
 import { GAME_CONFIG } from "./config";
+import { CefrLevelSchema } from "./course";
 import { DailyGoalXpSchema } from "./user";
 
 export const XpReasonSchema = z.enum(["lesson_completed", "perfect_lesson_bonus"]);
@@ -134,3 +135,63 @@ export const UserProgressSchema = z.object({
   dailyGoal: DailyGoalProgressSchema,
 });
 export type UserProgress = z.infer<typeof UserProgressSchema>;
+
+/**
+ * Goal-date status names (CTO-017, ADR-015, PD-071 §1.3). Kind by design: the UI copy
+ * for them never says "behind", "late" or "failed".
+ * - `reached`: no lesson left in the counted levels (any date)
+ * - `date-passed`: lessons left and the target date is today or earlier
+ * - `on-track`: the current daily goal covers the lessons a day
+ * - `raise-goal`: a larger daily-goal option covers them
+ * - `tight`: even the largest option doesn't
+ */
+export const GoalPlanStateSchema = z.enum([
+  "on-track",
+  "raise-goal",
+  "tight",
+  "reached",
+  "date-passed",
+]);
+export type GoalPlanState = z.infer<typeof GoalPlanStateSchema>;
+
+/**
+ * Computed status of `Settings.goalPlan`, returned by `computeGoalPlan` (`api.ts`).
+ * Derived on the device from settings, results and today; never stored or synced
+ * (ADR-015).
+ */
+export const GoalPlanStatusSchema = z
+  .object({
+    targetLevel: CefrLevelSchema,
+    targetDate: LocalDateSchema,
+    /** Not-completed lessons (checkpoints included) in the counted levels. */
+    lessonsLeft: NonNegativeIntSchema,
+    /** `targetDate − today` in calendar days; the target day itself is not a study day. */
+    daysLeft: z.number().int(),
+    /** `ceil(lessonsLeft / daysLeft)`; `null` for `reached` and `date-passed`. */
+    lessonsPerDay: z.number().int().min(1).nullable(),
+    /** Smallest option ≥ lessonsPerDay × xpPerLesson, else the largest; `null` as above. */
+    suggestedDailyGoalXp: DailyGoalXpSchema.nullable(),
+    status: GoalPlanStateSchema,
+  })
+  .refine(
+    (v) => {
+      const done = v.status === "reached" || v.status === "date-passed";
+      return done
+        ? v.lessonsPerDay === null && v.suggestedDailyGoalXp === null
+        : v.lessonsPerDay !== null && v.suggestedDailyGoalXp !== null;
+    },
+    {
+      message:
+        "lessonsPerDay and suggestedDailyGoalXp are null iff status is reached or date-passed",
+      path: ["lessonsPerDay"],
+    },
+  )
+  .refine((v) => (v.status === "reached") === (v.lessonsLeft === 0), {
+    message: "status is reached iff lessonsLeft is 0",
+    path: ["status"],
+  })
+  .refine((v) => v.status === "reached" || (v.status === "date-passed") === v.daysLeft <= 0, {
+    message: "with lessons left, status is date-passed iff daysLeft <= 0",
+    path: ["status"],
+  });
+export type GoalPlanStatus = z.infer<typeof GoalPlanStatusSchema>;
