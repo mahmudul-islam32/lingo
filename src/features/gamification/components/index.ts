@@ -15,3 +15,4 @@ export {
   type GamificationTopBarProps,
 } from "./GamificationTopBar";
 export { StreakLumi, type StreakLumiProps } from "./StreakLumi";
+export { GoalPlanCard, type GoalPlanCardProps } from "./GoalPlanCard";

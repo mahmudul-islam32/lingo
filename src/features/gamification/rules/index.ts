@@ -48,3 +48,16 @@ export {
 export { HEARTS_FULL_TEXT, heartsRuleText } from "./hearts-rule-text";
 export { courseChip, courseLanguageOf, languageName, type CourseChip } from "./course-chip";
 export { weekStartOf, weeklyXp } from "./weekly-xp";
+export { computeGoalPlan, levelsWithContent, suggestDailyGoalXp } from "./goal-plan";
+export {
+  GOAL_PLAN_BANNED_WORDS,
+  GOAL_PLAN_CHANGE_LINK,
+  GOAL_PLAN_EDIT_HREF,
+  GOAL_PLAN_EMPTY_LINK,
+  GOAL_PLAN_EMPTY_PROMPT,
+  GOAL_PLAN_NEW_LINK,
+  GOAL_PLAN_SECTION_LABEL,
+  formatGoalDate,
+  goalPlanCopy,
+  type GoalPlanCopy,
+} from "./goal-plan-copy";
