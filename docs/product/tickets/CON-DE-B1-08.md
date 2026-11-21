@@ -69,11 +69,11 @@ a contract in German, so that I can sort out problems without help.
 |---|---|---|---|
 | 1 | Ordering Online | bestellen (to order), die Bestellung (the order), liefern (to deliver), die Lieferung (the delivery), der Warenkorb (the shopping basket, online), das Produkt (the product), die Rechnung (the invoice / bill) | 7 |
 | 2 | Although It Was New | obwohl (although, verb at the end), beschädigt (damaged), die Verpackung (the packaging), die Ware (the goods), enttäuscht (disappointed), ärgerlich (annoying) | 6 |
-| 3 | Making a Complaint | sich beschweren über (+ acc.: to complain about), reklamieren (to return as faulty / complain about, a product), die Reklamation (the complaint, about a product), zurückbekommen (to get back), das Gerät (the device / appliance), der Kundenservice (customer service), die Garantie (the guarantee / warranty) | 7 |
+| 3 | Making a Complaint | sich beschweren über (+ acc.: to complain about), reklamieren (to return as faulty / complain about, a product), die Reklamation (the complaint, about a product), zurückbekommen (to get back), das Gerät (the device / appliance), der Kundenservice (customer service), die Garantie (the guarantee / warranty), noch (still; noch nicht: not yet; new meaning, A1 "another / one more"; added by CON-DE-B1-QA, PD-073) | 8 |
 | 4 | So That It Arrives Today | *pattern:* damit (so that, different subject) vs um … zu (same subject); damit (so that), abholen (to collect / pick up), die Sendungsnummer (the tracking number), unterwegs (on the way), die Benachrichtigung (the notification / delivery note), erhalten / erhalten (to receive) | 6 |
 | 5 | Cancelling a Contract | kündigen (to cancel / give notice), die Kündigung (the cancellation / notice), der Handyvertrag (the mobile phone contract), monatlich (monthly), bestätigen (to confirm) | 5 |
 
-Unit total: 31 items. `das Paket` (A2 U5), `der Vertrag` (A2 U11), `kaputt`, `umtauschen`,
+Unit total: 32 items (31 planned + `noch` "still", CON-DE-B1-QA). `das Paket` (A2 U5), `der Vertrag` (A2 U11), `kaputt`, `umtauschen`,
 `zurückgeben` (A2 U6), `die Bestätigung` (A2 U10), `der Kunde` (B1 U7) are taught.
 
 **Not yet taught (don't use in this unit):** the passive (`wird geliefert`, U9), `lassen`

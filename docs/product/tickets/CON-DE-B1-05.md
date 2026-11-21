@@ -77,7 +77,7 @@ do things, so that I can sign up for further training and explain my goals.
 | 2 | I Plan to… | *pattern:* zu + infinitive after verbs; zu (to, before an infinitive; new meaning), vorhaben (to plan / intend), versuchen (to try), aufhören (to stop), sich entscheiden / entschieden (to decide), empfehlen / empfohlen (to recommend), versprechen / versprochen (to promise) | 7 |
 | 3 | It's Important to Practise | *pattern:* adjective / noun + zu + infinitive; die Möglichkeit (the possibility / opportunity), nötig (necessary), sinnvoll (sensible / worthwhile), anstrengend (tiring / demanding), die Geduld (patience), verbessern (to improve), es lohnt sich (it's worth it) | 7 |
 | 4 | In Order to… | um … zu (in order to), der Grund (the reason), beruflich (for work / professional), privat (private / personal), sich vorbereiten auf (+ acc.: to prepare for), die Chance (the chance) | 6 |
-| 5 | Tips for Learning | der Tipp (the tip), die Vokabeln (vocabulary, words to learn), der Fortschritt / Fortschritte machen (progress / to make progress), sich merken: ich kann mir das merken (to remember, fixed chunk) | 4 |
+| 5 | Tips for Learning | der Tipp (the tip), die Vokabeln (vocabulary, words to learn), der Fortschritt / Fortschritte machen / große Fortschritte machen (progress / to make progress / to make great progress, fixed chunk, CON-DE-B1-QA), sich merken: ich kann mir das merken (to remember, fixed chunk) | 4 |
 
 Unit total: 31 items. `üben`, `die Prüfung`, `bestehen`, `weiter` (A2 U14), `die Ausbildung`
 (A2 U11), `der Kurs` (A1), `wiederholen` (B1 U1), `jeder` (B1 U3) are taught. `Lust haben`

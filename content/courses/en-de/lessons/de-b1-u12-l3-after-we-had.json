@@ -32,24 +32,24 @@
       "id": "de-b1-u12-l3-ex03",
       "type": "word_bank_translate",
       "direction": "to_learning",
-      "prompt": "Before the city festival began, we bought cake. (telling a friend)",
+      "prompt": "Before the city festival began, we bought cake.",
       "tiles": [
         "bevor",
         "das",
         "Stadtfest",
         "begann",
-        "haben",
+        "kauften",
         "wir",
         "Kuchen",
-        "gekauft",
         "nachdem",
         "sind",
-        "beginnen"
+        "beginnen",
+        "kaufen"
       ],
       "answers": [
-        "Bevor das Stadtfest begann, haben wir Kuchen gekauft.",
-        "Wir haben Kuchen gekauft, bevor das Stadtfest begann.",
-        "Kuchen haben wir gekauft, bevor das Stadtfest begann."
+        "Bevor das Stadtfest begann, kauften wir Kuchen.",
+        "Wir kauften Kuchen, bevor das Stadtfest begann.",
+        "Kuchen kauften wir, bevor das Stadtfest begann."
       ]
     },
     {

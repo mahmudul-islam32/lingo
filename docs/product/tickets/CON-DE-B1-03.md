@@ -73,10 +73,10 @@ about friends, colleagues and neighbours and make new friends through shared hob
 | 1 | What Are They Like? | freundlich (friendly), lustig (funny), ehrlich (honest), geduldig (patient), hilfsbereit (helpful), die Person (the person), der Mensch / die Menschen (the person, human / people; n-noun, nominative and plural only until U7), die Leute (people) | 8 |
 | 2 | The Man Who… | *pattern:* relative pronouns, nominative: der / die / das / die (who / which / that); jemand / jemanden (someone / anyone), niemand (nobody / no one), alle (all / everyone), jeder / jede / jedes (every / each / everyone), beide (both), allein (alone), ein paar (a few) | 7 |
 | 3 | The Friend I Met | *pattern:* relative pronouns, accusative: den / die / das / die; die Freundschaft (friendship), sich verstehen: wir verstehen uns gut (to get on), sich treffen (to meet up), vertrauen (+ dative: to trust), der Kontakt / Kontakt haben zu (contact / to be in touch with), andere / die anderen (other / the others) | 6 |
-| 4 | Shared Hobbies | die Gruppe (the group), das Hobby / die Hobbys (the hobby / hobbies), gemeinsam (together / in common), Spaß machen: das macht Spaß (to be fun), regelmäßig (regularly), der Treffpunkt (the meeting point), das Mitglied (the member) | 7 |
+| 4 | Shared Hobbies | die Gruppe (the group), das Hobby / die Hobbys (the hobby / hobbies), gemeinsam (together / in common), Spaß machen: das macht Spaß (to be fun), regelmäßig (regularly), der Treffpunkt (the meeting point), das Mitglied (the member), zusammen (together; new meaning, A1 "altogether"; added by CON-DE-B1-QA, PD-073) | 8 |
 | 5 | Help with the Move | der Umzug (the move, house), tragen: du trägst / trug (to carry / carried), half (helped, Präteritum of helfen), sich bedanken (für) (to say thank you, for), dankbar (grateful) | 5 |
 
-Unit total: 33 items (the two relative-pronoun patterns are counted as patterns, like
+Unit total: 34 items (33 planned + `zusammen`, CON-DE-B1-QA; the two relative-pronoun patterns are counted as patterns, like
 A2's case patterns). `nett`, `groß`, `klein` (A1), `zuverlässig` (A2 U11), `treffen`, `helfen`
 (A2) are taught. `Spaß` is also in A2 `viel Spaß!`.
 

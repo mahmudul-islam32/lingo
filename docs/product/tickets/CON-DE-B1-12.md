@@ -75,11 +75,11 @@ so that I can follow what's going on in my town and talk about it.
 |---|---|---|---|
 | 1 | Local News | die Meldung (the news item / report), der Bericht (the report), berichten (über) (to report, on), aktuell (current / latest), die Region (the region), der Einwohner / die Einwohnerin (the inhabitant / resident), der Bürgermeister / die Bürgermeisterin (the mayor) | 7 |
 | 2 | It Was Opened Yesterday | *pattern:* passive Präteritum (wurde / wurden + participle); wurde / wurden (became; was / were, passive), die Eröffnung (the opening), renovieren / renoviert (to renovate), das Gebäude (the building), gründen / gegründet (to found), das Rathaus (the town hall) | 6 |
-| 3 | After We Had Eaten | *pattern:* Plusquamperfekt (hatte / war + participle); nachdem (after, conjunction), bevor (before, conjunction), vorher (before / beforehand), nachher (afterwards), das Stadtfest (the city festival), stattfinden / fand … statt (to take place) | 6 |
+| 3 | After We Had Eaten | *pattern:* Plusquamperfekt (hatte / war + participle); nachdem (after, conjunction), bevor (before, conjunction), vorher (before / beforehand), nachher (afterwards), das Stadtfest (the city festival), stattfinden / fand … statt (to take place), gewesen (been, participle of sein: war … gewesen; added by CON-DE-B1-QA, PD-073) | 7 |
 | 4 | What Happened? | der Unfall (the accident), die Polizei (the police), die Feuerwehr (the fire brigade), retten (to rescue / save), glücklicherweise (fortunately), das Ereignis (the event), rief … an (called, Präteritum of anrufen), lief (ran / walked, Präteritum of laufen) | 8 |
 | 5 | The Club Newsletter | der Rückblick (the review / look back), die Saison (the season, sport or culture), der Erfolg (the success), erfolgreich (successful) | 4 |
 
-Unit total: 31 items. `die Zeitung`, `die Nachrichten`, `der Artikel` (A2 U13), `der Verein`,
+Unit total: 32 items (31 planned + `gewesen`, CON-DE-B1-QA). `die Zeitung`, `die Nachrichten`, `der Artikel` (A2 U13), `der Verein`,
 `die Mannschaft`, `das Spiel`, `gewinnen` (A2 U7), `passieren`, `eröffnen` (A2), the
 participles of taught verbs (CDS-16) are taught. `besonderes` comes from A2 `nichts
 Besonderes`.

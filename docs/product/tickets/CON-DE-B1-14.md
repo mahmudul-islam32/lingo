@@ -72,11 +72,11 @@ so that I can take part in my neighbourhood and talk about where I come from wit
 |---|---|---|---|
 | 1 | Volunteering | das Ehrenamt (volunteer work), ehrenamtlich (as a volunteer / unpaid), sich engagieren (für) (to get involved / volunteer, for), unterstützen (to support), die Unterstützung (the support), die Senioren (senior citizens; der Senior is an n-noun), spenden (to donate) | 7 |
 | 2 | Not Only… but Also | *pattern:* two-part connectors (part 1); sondern (but / rather, after a negation), nicht nur … sondern auch (not only … but also), sowohl … als auch (both … and / as well as), die Gemeinschaft (the community), teilen (to share), zusammenleben (to live together) | 6 |
-| 3 | Either… or… | *pattern:* two-part connectors (part 2); entweder … oder (either … or), weder … noch (neither … nor), zwar … aber (… it's true, but / admittedly … but), die Regel (the rule), die Ruhe (quiet / peace), der Streit (the argument / quarrel), sich einigen (to agree / come to an agreement) | 7 |
+| 3 | Either… or… | *pattern:* two-part connectors (part 2); entweder … oder (either … or), weder … noch (neither … nor), zwar … aber (… it's true, but / admittedly … but), die Regel (the rule), die Ruhe (quiet / peace), der Streit (the argument / quarrel), sich einigen (to agree / come to an agreement), nach (after, with times: nach zehn Uhr; new meaning of the A1 direction word, cf. Viertel nach; added by CON-DE-B1-QA, PD-073) | 8 |
 | 4 | Different Cultures | die Tradition (the tradition), der Unterschied (the difference), ähnlich (similar), fremd (foreign / strange / unfamiliar), die Gewohnheit (the habit), respektieren (to respect), die Herkunft (the origin / background) | 7 |
 | 5 | The Street Party | das Straßenfest (the street party), organisieren (to organise), das Buffet (the buffet), sich beteiligen (an) (to take part / contribute, in) | 4 |
 
-Unit total: 31 items. `die Kultur` (U10), `die Heimat` (A2 U14), `der Verein` (A2 U7),
+Unit total: 32 items (31 planned + `nach` "after", CON-DE-B1-QA). `die Kultur` (U10), `die Heimat` (A2 U14), `der Verein` (A2 U7),
 `mitmachen`, `freiwillig` (U9), `die Hausordnung` (A2 U9), `der Hof` (U6), `mitbringen` (A2
 U4), `die Musik` (A1 `Musik hören`) are taught.
 

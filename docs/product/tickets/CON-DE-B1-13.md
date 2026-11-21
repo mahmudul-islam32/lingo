@@ -74,10 +74,10 @@ shop at the market, cook with friends and order what I want in a restaurant.
 | 1 | At the Weekly Market | der Wochenmarkt (the weekly market), frisch (fresh), regional (regional / local), der Stand (the stall), die Erdbeere / die Erdbeeren (the strawberry / strawberries), die Kräuter (herbs), probieren (to taste / try) | 7 |
 | 2 | Fresh Bread, Strong Coffee | *pattern:* adjective endings without an article, nominative and accusative (frisches Brot, starken Kaffee, kalte Milch, frische Eier); sauer (sour), scharf (spicy / hot), salzig (salty), bitter (bitter), der Geschmack (the taste), schmecken (to taste: Das schmeckt gut. / Es schmeckt mir.), die Soße (the sauce) | 7 |
 | 3 | With Fresh Vegetables | *pattern:* adjective endings without an article, dative (mit frischem Gemüse, mit kaltem Wasser); *pattern:* genitive endings (wegen des schlechten Wetters); das Rezept (the recipe; new meaning, "prescription" is U7), die Zutaten (the ingredients), schneiden / geschnitten (to cut), braten / gebraten (to fry), backen / gebacken (to bake), der Topf (the pot / pan), die Pfanne (the frying pan), das Öl (the oil) | 8 |
-| 4 | The Cheaper Offer | *pattern:* comparative and superlative before nouns (der günstigere Preis, das beste Brot); günstig (good value / inexpensive), die Qualität (the quality), der Preis / die Preise (the price), bio (organic), die Auswahl (the choice / selection), vergleichen / verglichen (to compare) | 6 |
+| 4 | The Cheaper Offer | *pattern:* comparative and superlative before nouns (der günstigere Preis, das beste Brot); günstig (good value / inexpensive), die Qualität (the quality), der Preis / die Preise (the price), bio (organic), die Auswahl (the choice / selection), vergleichen / verglichen (to compare), beste / besten (best, before a noun; irregular superlative of gut: das beste Brot; added by CON-DE-B1-QA, PD-073) | 7 |
 | 5 | The Team Lunch | vegetarisch (vegetarian), vegan (vegan), die Speisekarte (the menu), das Gericht (the dish), satt (full, after eating) | 5 |
 
-Unit total: 33 items. The food words of A1 U4–U5 (`das Brot`, `der Käse`, `die Zwiebel`, `das
+Unit total: 34 items (33 planned + `beste`, CON-DE-B1-QA). The food words of A1 U4–U5 (`das Brot`, `der Käse`, `die Zwiebel`, `das
 Gemüse`, `das Obst`, `die Milch`, `der Kaffee`, `das Ei`), `lecker`, `süß`, `billig`, `teuer`,
 `das Angebot` (A2 U6), the comparison system (A2 U13) and `kochen` are taught. Endings of
 all taught adjectives are allowed in every case after L2 / L3 (CDS-22.7).

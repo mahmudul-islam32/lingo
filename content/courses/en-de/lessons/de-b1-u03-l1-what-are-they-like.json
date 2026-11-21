@@ -41,7 +41,12 @@
       "direction": "to_learning",
       "prompt": "She is patient with the children.",
       "tiles": ["sie", "ist", "geduldig", "mit", "den", "Kindern", "dem", "Kind", "sind"],
-      "answers": ["Sie ist geduldig mit den Kindern.", "Mit den Kindern ist sie geduldig."]
+      "answers": [
+        "Sie ist geduldig mit den Kindern.",
+        "Sie ist mit den Kindern geduldig.",
+        "Mit den Kindern ist sie geduldig.",
+        "Geduldig ist sie mit den Kindern."
+      ]
     },
     {
       "id": "de-b1-u03-l1-ex05",
@@ -118,7 +123,11 @@
         "Meine Freunde sind lustig und hilfsbereit.",
         "Meine Freundinnen sind lustig und hilfsbereit.",
         "Meine Freunde sind hilfsbereit und lustig.",
-        "Meine Freundinnen sind hilfsbereit und lustig."
+        "Meine Freundinnen sind hilfsbereit und lustig.",
+        "Lustig und hilfsbereit sind meine Freunde.",
+        "Lustig und hilfsbereit sind meine Freundinnen.",
+        "Hilfsbereit und lustig sind meine Freunde.",
+        "Hilfsbereit und lustig sind meine Freundinnen."
       ]
     },
     {

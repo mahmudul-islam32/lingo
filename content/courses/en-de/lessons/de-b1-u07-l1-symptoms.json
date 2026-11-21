@@ -34,7 +34,11 @@
       "direction": "to_learning",
       "prompt": "I've felt dizzy since yesterday.",
       "tiles": ["mir", "ist", "seit", "gestern", "schwindlig", "ich", "bin", "mich"],
-      "answers": ["Mir ist seit gestern schwindlig.", "Seit gestern ist mir schwindlig."]
+      "answers": [
+        "Mir ist seit gestern schwindlig.",
+        "Seit gestern ist mir schwindlig.",
+        "Schwindlig ist mir seit gestern."
+      ]
     },
     {
       "id": "de-b1-u07-l1-ex04",

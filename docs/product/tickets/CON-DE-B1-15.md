@@ -71,13 +71,13 @@ building.
 ## Vocabulary appendix
 | # | Lesson | New items (de → en) | Count |
 |---|---|---|---|
-| 1 | Opinions | ich bin der Meinung, dass … (I'm of the opinion that …), dafür / dagegen sein (to be for / against; new meaning of dafür), zustimmen (+ dat.: to agree with), widersprechen (+ dat.: to disagree with / contradict), das Argument (the argument / point), überzeugt (convinced), diskutieren (über) (to discuss) | 7 |
-| 2 | Pros and Cons | der Vorteil (the advantage), der Nachteil (the disadvantage), einerseits … andererseits (on the one hand … on the other hand), das Homeoffice (working from home), die Entscheidung (the decision), auf dem Land (in the countryside; new meaning, "country" is A1) | 6 |
-| 3 | While Some Work… | *pattern:* während + clause (verb at the end); während (while / whereas, conjunction; new use, the preposition is U11), gleichzeitig (at the same time), die Mehrheit (the majority), die Hälfte (half), die meisten (most / most people) | 5 |
+| 1 | Opinions | ich bin der Meinung, dass … (I'm of the opinion that …), dafür / dagegen sein (to be for / against; new meaning of dafür), zustimmen (+ dat.: to agree with), widersprechen (+ dat.: to disagree with / contradict), das Argument (the argument / point), überzeugt (convinced), diskutieren (über) (to discuss), da (there / on that point, in Da stimme ich dir zu. / Da muss ich …; added by CON-DE-B1-QA, PD-073) | 8 |
+| 2 | Pros and Cons | der Vorteil (the advantage), der Nachteil (the disadvantage), einerseits … andererseits (on the one hand … on the other hand), das Homeoffice (working from home), die Entscheidung (the decision), auf dem Land (in the countryside; new meaning, "country" is A1), fehlen + dat. (to be missed: Mir fehlen die Kollegen. = I miss my colleagues; new meaning, A2 "to be missing"; added by CON-DE-B1-QA, PD-073) | 7 |
+| 3 | While Some Work… | *pattern:* während + clause (verb at the end); während (while / whereas, conjunction; new use, the preposition is U11), gleichzeitig (at the same time), die Mehrheit (the majority), die Hälfte (half), die meisten (most / most people), Rad fahren: ich fahre Rad (to cycle; added by CON-DE-B1-QA, PD-073) | 6 |
 | 4 | Since and Until | *pattern:* seitdem / bis + clause (verb at the end); seitdem (since, conjunction; also "since then"), bis (until, conjunction; new use, the preposition is A1), sich verändern (to change), die Veränderung (the change), sich gewöhnen an (+ acc.: to get used to), inzwischen (by now / meanwhile) | 6 |
 | 5 | The House Meeting | die Versammlung (the meeting, of residents or members), der Kompromiss (the compromise), abstimmen (über) (to vote, on), fair (fair) | 4 |
 
-Unit total: 28 items. `die Meinung`, `meiner Meinung nach`, `das stimmt` (A2 U13), `finden`,
+Unit total: 31 items (28 planned + `da`, `fehlen` "miss", `Rad fahren`, CON-DE-B1-QA). `die Meinung`, `meiner Meinung nach`, `das stimmt` (A2 U13), `finden`,
 `glauben`, `denken` (A2 U11), `sich entscheiden` (U5), `die Lösung` (U6), `der Vorschlag`,
 `vorschlagen` (U10), `seit` + dative (A2 U5) are taught.
 

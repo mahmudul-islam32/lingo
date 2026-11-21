@@ -1098,3 +1098,75 @@ together._
   months later); merge B1 before v1.0.0 and launch with it (untested and unreviewed content
   at launch).
 - **Reversibility:** High.
+
+## PD-073: B1 vocabulary requests settled in CON-DE-B1-QA (appendix additions and extras)
+
+- **Date:** 2026-11-21
+- **Decision:** Every word the 16 B1 writers flagged is settled as follows.
+  1. **Added to the earliest appendix that uses it (count updated):** `zusammen` "together"
+     (U3 L4, new meaning, 7 → 8); `noch` "still / noch nicht: not yet" (U8 L3, new meaning,
+     7 → 8; first use L3 ex05, then U11 L4); `gewesen` (U12 L3, 6 → 7; the only `sein`
+     participle B1 uses that A2 U3 didn't list); `beste / besten` (U13 L4, irregular
+     superlative before nouns, 6 → 7); `nach` "after" with clock times (U14 L3, new meaning,
+     7 → 8); `da` "there / on that point" (U15 L1, 7 → 8); `fehlen` "to be missed: Mir fehlen
+     die Kollegen" (U15 L2, new meaning, 6 → 7); `Rad fahren` (U15 L3, 5 → 6). B1 total 508 →
+     516.
+  2. **Noted in an existing entry, count unchanged** (the lesson is at the CDS-3 maximum of
+     8): `darum` and `wen` (accusative of `wer`) belong to the U4 L3 wo- / da- pattern;
+     `einfach` "simple" is marked as a new meaning inside the U4 L4 `ganz einfach` entry
+     (a documented exception to CDS-27's "own entry"); `große Fortschritte machen` is a
+     fixed chunk of the U5 L5 entry (no early U13 ending rule implied).
+  3. **No entry needed (already taught or allowed extra):** dative `uns` (A2 U4 lists it);
+     `ab` + day (A1 U12 precedent for `ab / bis` + time from `ab sofort / bis dann`);
+     `alles`, `etwas` (A1 taught phrases `das ist alles`, `sonst noch etwas?`); `letztes
+     Jahr` (A2 chunk adjective `letzt-` + A1 `das Jahr`); `jeden Abend` (A1 `guten Abend` +
+     B1 U3 `jeder`); `täglich` and `die Mitglieder` (wrong MC options only); `bis` in `von
+     zwei bis sechs` (A1); `eine Frage zu …` (A2 U12 L5); `liegen` for a location (same
+     meaning as A2); `am ersten Tag`; `bessere` (CDS-22.7 on A2 `besser`). All other `sein`
+     participles B1 uses (`gegangen`, `gekommen`, `angekommen`, `geblieben`, `umgezogen`)
+     are in A2 appendices (A2 U3, U14).
+  4. **Rewritten instead:** U3 L5 ex03's distractor `wen` (before U4 L3) → `wo`.
+- **Rationale:** PD-052 / PD-062: words are either in an appendix or out of the lesson.
+  Adding 8 entries keeps every lesson inside its CDS-3 range, and every entry is used in its
+  lesson, so no exercise had to be rewritten for vocabulary except one distractor.
+- **Alternatives considered:** rewrite every exercise that uses a flagged word (would change
+  outline sentences and natural German for no learner gain); treat new meanings as extras
+  (breaks CDS-27).
+- **Reversibility:** High.
+
+## PD-074: B1 answer-fairness policy questions (extends PD-053 / PD-059)
+
+- **Date:** 2026-11-21
+- **Decision:** Applied to all 80 B1 lessons in CON-DE-B1-QA.
+  1. **Swapped two-part connectors:** for the symmetric connectors `sowohl … als auch`,
+     `entweder … oder`, `weder … noch` (and `und`), the two conjuncts may swap in
+     `to_learning` and `to_known` when buildable (A1 QA precedent for `und`). For the
+     asymmetric `nicht nur … sondern auch`, `zwar … aber`, `einerseits … andererseits` and
+     plain `sondern`, swaps are rejected (focus and contrast change).
+  2. **Fronted predicatives:** a fronted predicative adjective (with `sehr / zu`, or a
+     coordinated pair) or a bare predicative noun is accepted in every B1 copula sentence
+     when the tiles can't block it (PD-053.1), including when the subject carries a relative
+     clause at the end (`Sehr nett ist die Nachbarin, der ich helfe.`). In identity sentences
+     either noun phrase may come first (`Der günstigere Preis ist das.`). Fronted participles
+     stay rejected.
+  3. **Fronted objects:** a short noun phrase or a pronoun (including a dative pronoun:
+     `Mir erklärt sie das Programm, …`) may be fronted (PD-043.3, A2 precedent). An object
+     with its relative clause is never fronted (`Jemanden, der …, sucht …` rejected).
+  4. **`dass`-less orders:** PD-053.4 stays as written (`glauben / denken / finden /
+     hoffen`); B1 has one affected bank (U6 L5 ex06), already aligned. `wissen` + V2 is never
+     accepted.
+  5. **Mixed Perfekt / Präteritum:** one past tense per sentence for full verbs (sein,
+     haben, modals exempt; Plusquamperfekt + Präteritum after `nachdem` is the taught pair).
+     U8 L2 ex07, U8 L5 ex06 (and its tip) become Perfekt in both clauses; U12 L3 ex03 becomes
+     Präteritum narration in both clauses.
+  6. **Middle-field order (U10 L4 ex03 vs L5 ex07):** a definite noun object or a name may
+     come before or after a middle-field adverbial (`an deiner Stelle`, time, manner,
+     `schon`); pronouns stay before adverbials (PD-053.3); bare nouns of a verb chunk (`Radio
+     hören`) and two-part connector objects keep their position.
+- **Rationale:** these were the cases where units disagreed (U3 L1, U6 L2 and U7 L1 rejected
+  fronted predicatives that U2, U3 L5, U5, U10, U12, U13–U16 accepted; U10 L4 / L5; U3 L2 vs
+  U16 L1). One rule per case keeps the checker predictable; every newly accepted marked order
+  goes on the native-review list.
+- **Alternatives considered:** reject all marked orders (fails correct German); accept all
+  buildable orders (accepts wrong pronoun order and odd fronting).
+- **Reversibility:** High. Lists can be narrowed after CON-DE-B1-NR.
