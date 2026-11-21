@@ -92,7 +92,7 @@ Personas: **learner** (any user), **guest** (no account), **signed-in learner**,
 | US-DE-04 | As a learner, I want my umlauts and ß checked correctly and German audio even when a recording is missing, so that I'm never marked wrong because of a technical problem. | P0 |
 | US-DE-05 | As a learner, I want to practise both "du" and "Sie" so that I speak correctly with friends and with officials. | P0 |
 | US-DE-06 | As a learner finishing a level, I want a checkpoint that reviews the whole level so that I know I'm ready for the next one. | P1 |
-| US-DE-07 | As a learner who needs a level by a deadline, I want a daily goal that gets me there in time so that I can plan my learning (Phase 2 "deadline mode"). | P2 |
+| US-DE-07 | As a learner who needs a level by a deadline, I want a daily goal that gets me there in time so that I can plan my learning (now v0.5.4 "Goal date", US-GD-01 … 04, PD-071). | P1 |
 
 ## Start level and earning hearts (added 2026-11-18, PD-064, PD-065)
 
@@ -105,3 +105,12 @@ Personas: **learner** (any user), **guest** (no account), **signed-in learner**,
 | US-HE-01 | As a learner, I want each correct answer to give me back a heart (up to 5) so that practising well keeps me going. | P1 |
 | US-HE-02 | As a learner with no hearts, I want to replay a finished lesson without risking hearts so that I can earn hearts instead of waiting for a refill. | P1 |
 | US-HE-03 | As a learner who ran out of hearts, I want the app to tell me that practising a finished lesson earns hearts so that I know how to continue right away. | P1 |
+
+## Goal date (added 2026-11-21, PD-071)
+
+| ID | Story | Priority |
+|---|---|---|
+| US-GD-01 | As a learner with a date in mind, I want to set the level I want to finish and the date in my profile so that Polyglow can plan with me. | P1 |
+| US-GD-02 | As a learner with a goal date, I want to see how many lessons are left and how many days I have so that I know what it takes. | P1 |
+| US-GD-03 | As a learner with a goal date, I want a suggested daily goal that I can apply with one tap, and to see lessons left after each lesson, so that I stay on track without doing the maths. | P1 |
+| US-GD-04 | As a learner whose plans change, I want to change or remove my goal date at any time so that the plan never pressures me. | P1 |
