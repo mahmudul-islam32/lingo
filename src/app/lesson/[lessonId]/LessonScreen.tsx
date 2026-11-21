@@ -162,6 +162,10 @@ export function LessonScreen({
   }
 
   if (finished) {
+    // TODO(cto): PLT-027 AC 13 waits for LES-022 (the `ResultsScreen` goal-plan prop, not
+    // pushed when PLT-027 was built). Then: `const goalPlan = useGoalPlan({ courseId })` at
+    // the top of this component (it re-derives from ["progress"] once the result is saved)
+    // and pass `goalPlan` here only when it isn't `null`/`undefined`.
     return (
       <ResultsScreen
         result={finished}
