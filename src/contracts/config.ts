@@ -37,6 +37,11 @@ export const GAME_CONFIG = {
   dailyGoalOptions: DAILY_GOAL_OPTIONS,
   /** Pre-selected option at onboarding. */
   defaultDailyGoalXp: 20 satisfies DailyGoalOption,
+  /**
+   * Latest allowed goal date = today + this many days (CTO-017, ADR-015, PD-071 §1.1).
+   * The earliest is tomorrow ("after today"), which needs no constant.
+   */
+  goalPlanMaxDays: 730,
 } as const;
 
 /**
@@ -107,6 +112,7 @@ export const GameConfigSchema = z
     heartRefillIntervalMs: z.number().int().positive(),
     dailyGoalOptions: z.array(z.number().int().positive()).min(1),
     defaultDailyGoalXp: z.number().int().positive(),
+    goalPlanMaxDays: z.number().int().positive(),
   })
   .refine((c) => c.dailyGoalOptions.includes(c.defaultDailyGoalXp), {
     message: "defaultDailyGoalXp must be one of dailyGoalOptions",
