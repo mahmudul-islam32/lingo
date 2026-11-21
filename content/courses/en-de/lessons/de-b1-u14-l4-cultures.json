@@ -1,0 +1,213 @@
+{
+  "id": "de-b1-u14-l4-cultures",
+  "courseId": "en-de",
+  "unitId": "de-b1-u14",
+  "title": "Different Cultures",
+  "tip": "Compare without ranking: ähnlich wie (similar to), der Unterschied (the difference). „Das ist ähnlich wie bei uns.“ Talk about your own experience, not whole countries: „In meiner Familie …“, „In meiner Heimat …“.",
+  "exercises": [
+    {
+      "id": "de-b1-u14-l4-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        { "id": "p1", "learning": "die Tradition", "known": "the tradition" },
+        { "id": "p2", "learning": "der Unterschied", "known": "the difference" },
+        { "id": "p3", "learning": "ähnlich", "known": "similar" },
+        { "id": "p4", "learning": "die Gewohnheit", "known": "the habit" },
+        { "id": "p5", "learning": "die Herkunft", "known": "the origin / background" }
+      ]
+    },
+    {
+      "id": "de-b1-u14-l4-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'In my home country there's a different tradition.'?",
+      "options": [
+        { "id": "a", "text": "In meiner Heimat es gibt eine andere Tradition." },
+        { "id": "b", "text": "In meiner Heimat gibt es eine andere Tradition." },
+        { "id": "c", "text": "In meiner Heimat gibt es einen anderen Tradition." },
+        { "id": "d", "text": "In meine Heimat gibt es eine andere Tradition." }
+      ],
+      "correctOptionId": "b"
+    },
+    {
+      "id": "de-b1-u14-l4-ex03",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "At the beginning everything was unfamiliar.",
+      "tiles": ["am", "Anfang", "war", "alles", "fremd", "ist", "Ende", "waren"],
+      "answers": [
+        "Am Anfang war alles fremd.",
+        "Alles war am Anfang fremd.",
+        "Fremd war am Anfang alles."
+      ]
+    },
+    {
+      "id": "de-b1-u14-l4-ex04",
+      "type": "listen",
+      "audio": { "src": "/audio/de/b1/u14/de-b1-u14-l4-ex04.mp3" },
+      "tiles": [
+        "das",
+        "ist",
+        "ähnlich",
+        "wie",
+        "bei",
+        "uns",
+        "der",
+        "Unterschied",
+        "ist",
+        "klein",
+        "als",
+        "die",
+        "groß"
+      ],
+      "answers": ["Das ist ähnlich wie bei uns. Der Unterschied ist klein."]
+    },
+    {
+      "id": "de-b1-u14-l4-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'I'm interested in other cultures.'?",
+      "options": [
+        { "id": "a", "text": "Ich interessiere mich an andere Kulturen." },
+        { "id": "b", "text": "Ich interessiere mir für andere Kulturen." },
+        { "id": "c", "text": "Ich interessiere für andere Kulturen mich." },
+        { "id": "d", "text": "Ich interessiere mich für andere Kulturen." }
+      ],
+      "correctOptionId": "d"
+    },
+    {
+      "id": "de-b1-u14-l4-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "That's a habit. We respect that.",
+      "tiles": [
+        "das",
+        "ist",
+        "eine",
+        "Gewohnheit",
+        "wir",
+        "respektieren",
+        "das",
+        "ein",
+        "respektiert",
+        "sind"
+      ],
+      "answers": [
+        "Das ist eine Gewohnheit. Wir respektieren das.",
+        "Das ist eine Gewohnheit. Das respektieren wir."
+      ]
+    },
+    {
+      "id": "de-b1-u14-l4-ex07",
+      "type": "listen",
+      "audio": { "src": "/audio/de/b1/u14/de-b1-u14-l4-ex07.mp3" },
+      "tiles": [
+        "bevor",
+        "ich",
+        "nach",
+        "Deutschland",
+        "kam",
+        "hatte",
+        "ich",
+        "nie",
+        "Schnee",
+        "gesehen",
+        "habe",
+        "nachdem",
+        "kommt"
+      ],
+      "answers": ["Bevor ich nach Deutschland kam, hatte ich nie Schnee gesehen."]
+    },
+    {
+      "id": "de-b1-u14-l4-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Meine Herkunft ist mir wichtig.",
+      "tiles": ["my", "background", "origin", "is", "important", "to", "me", "I", "are", "mine"],
+      "answers": ["My background is important to me.", "My origin is important to me."]
+    },
+    {
+      "id": "de-b1-u14-l4-ex09",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'Not only the language is new, but also the habits.'?",
+      "options": [
+        { "id": "a", "text": "Nicht nur die Sprache ist neu, aber auch die Gewohnheiten." },
+        { "id": "b", "text": "Nicht nur die Sprache ist neu, sondern noch die Gewohnheiten." },
+        { "id": "c", "text": "Nicht nur die Sprache ist neu, sondern auch die Gewohnheiten." },
+        { "id": "d", "text": "Nicht nur die Sprache neu ist, sondern auch die Gewohnheiten." }
+      ],
+      "correctOptionId": "c"
+    },
+    {
+      "id": "de-b1-u14-l4-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I would like to get to know your traditions. (to a friend)",
+      "tiles": [
+        "ich",
+        "würde",
+        "gern",
+        "deine",
+        "Traditionen",
+        "kennenlernen",
+        "werde",
+        "deinen",
+        "kennengelernt"
+      ],
+      "answers": [
+        "Ich würde gern deine Traditionen kennenlernen.",
+        "Deine Traditionen würde ich gern kennenlernen.",
+        "Gern würde ich deine Traditionen kennenlernen.",
+        "Kennenlernen würde ich deine Traditionen gern."
+      ]
+    },
+    {
+      "id": "de-b1-u14-l4-ex11",
+      "type": "listen",
+      "audio": { "src": "/audio/de/b1/u14/de-b1-u14-l4-ex11.mp3" },
+      "tiles": [
+        "das",
+        "ist",
+        "eine",
+        "Tradition",
+        "an",
+        "die",
+        "ich",
+        "oft",
+        "denke",
+        "der",
+        "denkt",
+        "auf"
+      ],
+      "answers": ["Das ist eine Tradition, an die ich oft denke."]
+    },
+    {
+      "id": "de-b1-u14-l4-ex12",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "At the beginning I understood neither the language nor the habits. (to a friend)",
+      "tiles": [
+        "am",
+        "Anfang",
+        "habe",
+        "ich",
+        "weder",
+        "die",
+        "Sprache",
+        "noch",
+        "die",
+        "Gewohnheiten",
+        "verstanden",
+        "nicht",
+        "oder",
+        "verstehe"
+      ],
+      "answers": [
+        "Am Anfang habe ich weder die Sprache noch die Gewohnheiten verstanden.",
+        "Ich habe am Anfang weder die Sprache noch die Gewohnheiten verstanden.",
+        "Am Anfang habe ich weder die Gewohnheiten noch die Sprache verstanden.",
+        "Ich habe am Anfang weder die Gewohnheiten noch die Sprache verstanden.",
+        "Weder die Sprache noch die Gewohnheiten habe ich am Anfang verstanden.",
+        "Weder die Gewohnheiten noch die Sprache habe ich am Anfang verstanden."
+      ]
+    }
+  ]
+}

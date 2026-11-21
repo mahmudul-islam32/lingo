@@ -1,0 +1,244 @@
+{
+  "id": "de-b1-u14-l2-not-only",
+  "courseId": "en-de",
+  "unitId": "de-b1-u14",
+  "title": "Not Only… but Also",
+  "tip": "After a negation use sondern, not aber: „nicht am Montag, sondern am Dienstag“. Also: nicht nur … sondern auch (not only … but also); sowohl … als auch (both … and) + plural verb: „Sowohl Kinder als auch Eltern machen mit.“",
+  "exercises": [
+    {
+      "id": "de-b1-u14-l2-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        { "id": "p1", "learning": "sondern", "known": "but (rather), after a negation" },
+        { "id": "p2", "learning": "sowohl … als auch", "known": "both … and" },
+        { "id": "p3", "learning": "die Gemeinschaft", "known": "the community" },
+        { "id": "p4", "learning": "teilen", "known": "to share" },
+        { "id": "p5", "learning": "zusammenleben", "known": "to live together" }
+      ]
+    },
+    {
+      "id": "de-b1-u14-l2-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'We're meeting not on Monday, but on Tuesday.'?",
+      "options": [
+        { "id": "a", "text": "Wir treffen uns nicht am Montag, aber am Dienstag." },
+        { "id": "b", "text": "Wir treffen uns nicht am Montag, sondern am Dienstag." },
+        { "id": "c", "text": "Wir treffen uns kein Montag, sondern am Dienstag." },
+        { "id": "d", "text": "Wir treffen nicht uns am Montag, sondern am Dienstag." }
+      ],
+      "correctOptionId": "b"
+    },
+    {
+      "id": "de-b1-u14-l2-ex03",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "He helps not only in the garden but also in the kitchen.",
+      "tiles": [
+        "er",
+        "hilft",
+        "nicht",
+        "nur",
+        "im",
+        "Garten",
+        "sondern",
+        "auch",
+        "in",
+        "der",
+        "Küche",
+        "aber",
+        "helft",
+        "dem"
+      ],
+      "answers": [
+        "Er hilft nicht nur im Garten, sondern auch in der Küche.",
+        "Nicht nur im Garten hilft er, sondern auch in der Küche.",
+        "Nicht nur im Garten, sondern auch in der Küche hilft er."
+      ]
+    },
+    {
+      "id": "de-b1-u14-l2-ex04",
+      "type": "listen",
+      "audio": { "src": "/audio/de/b1/u14/de-b1-u14-l2-ex04.mp3" },
+      "tiles": [
+        "sowohl",
+        "die",
+        "Kinder",
+        "als",
+        "auch",
+        "die",
+        "Eltern",
+        "machen",
+        "mit",
+        "macht",
+        "wie",
+        "oder"
+      ],
+      "answers": ["Sowohl die Kinder als auch die Eltern machen mit."]
+    },
+    {
+      "id": "de-b1-u14-l2-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'Both my neighbour and her son are joining in.'?",
+      "options": [
+        { "id": "a", "text": "Sowohl meine Nachbarin als auch ihr Sohn machen mit." },
+        { "id": "b", "text": "Sowohl meine Nachbarin aber auch ihr Sohn machen mit." },
+        { "id": "c", "text": "Sowohl meine Nachbarin als auch ihr Sohn mitmachen." },
+        { "id": "d", "text": "Sowohl meine Nachbarin als ihr Sohn auch machen mit." }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "de-b1-u14-l2-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "We share the courtyard with our neighbours.",
+      "tiles": [
+        "wir",
+        "teilen",
+        "den",
+        "Hof",
+        "mit",
+        "unseren",
+        "Nachbarn",
+        "unsere",
+        "dem",
+        "teilt"
+      ],
+      "answers": [
+        "Wir teilen den Hof mit unseren Nachbarn.",
+        "Wir teilen mit unseren Nachbarn den Hof.",
+        "Den Hof teilen wir mit unseren Nachbarn.",
+        "Mit unseren Nachbarn teilen wir den Hof."
+      ]
+    },
+    {
+      "id": "de-b1-u14-l2-ex07",
+      "type": "listen",
+      "audio": { "src": "/audio/de/b1/u14/de-b1-u14-l2-ex07.mp3" },
+      "tiles": [
+        "Zusammenleben",
+        "ist",
+        "nicht",
+        "immer",
+        "leicht",
+        "wir",
+        "brauchen",
+        "Geduld",
+        "sind",
+        "nie",
+        "braucht"
+      ],
+      "answers": ["Zusammenleben ist nicht immer leicht. Wir brauchen Geduld."]
+    },
+    {
+      "id": "de-b1-u14-l2-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Nicht nur die Kinder, sondern auch die Nachbarn helfen.",
+      "tiles": [
+        "not",
+        "only",
+        "the",
+        "children",
+        "but",
+        "also",
+        "the",
+        "neighbours",
+        "are",
+        "helping",
+        "help",
+        "or",
+        "is"
+      ],
+      "answers": [
+        "Not only the children but also the neighbours are helping.",
+        "Not only the children but also the neighbours help."
+      ]
+    },
+    {
+      "id": "de-b1-u14-l2-ex09",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'That's not a problem but a chance.'?",
+      "options": [
+        { "id": "a", "text": "Das ist kein Problem, aber eine Chance." },
+        { "id": "b", "text": "Das ist nicht Problem, sondern eine Chance." },
+        { "id": "c", "text": "Das ist kein Problem, sondern auch eine Chance." },
+        { "id": "d", "text": "Das ist kein Problem, sondern eine Chance." }
+      ],
+      "correctOptionId": "d"
+    },
+    {
+      "id": "de-b1-u14-l2-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Both the children and the parents are looking forward to the party.",
+      "tiles": [
+        "sowohl",
+        "die",
+        "Kinder",
+        "als",
+        "auch",
+        "die",
+        "Eltern",
+        "freuen",
+        "sich",
+        "auf",
+        "die",
+        "Party",
+        "freut",
+        "oder"
+      ],
+      "answers": [
+        "Sowohl die Kinder als auch die Eltern freuen sich auf die Party.",
+        "Sowohl die Eltern als auch die Kinder freuen sich auf die Party.",
+        "Auf die Party freuen sich sowohl die Kinder als auch die Eltern.",
+        "Auf die Party freuen sich sowohl die Eltern als auch die Kinder."
+      ]
+    },
+    {
+      "id": "de-b1-u14-l2-ex11",
+      "type": "listen",
+      "audio": { "src": "/audio/de/b1/u14/de-b1-u14-l2-ex11.mp3" },
+      "tiles": [
+        "die",
+        "Nachbarin",
+        "der",
+        "ich",
+        "helfe",
+        "teilt",
+        "ihren",
+        "Garten",
+        "mit",
+        "uns",
+        "den",
+        "hilft",
+        "teilen"
+      ],
+      "answers": ["Die Nachbarin, der ich helfe, teilt ihren Garten mit uns."]
+    },
+    {
+      "id": "de-b1-u14-l2-ex12",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "We don't live alone, but in a community.",
+      "tiles": [
+        "wir",
+        "leben",
+        "nicht",
+        "allein",
+        "sondern",
+        "in",
+        "einer",
+        "Gemeinschaft",
+        "aber",
+        "eine",
+        "kein"
+      ],
+      "answers": [
+        "Wir leben nicht allein, sondern in einer Gemeinschaft.",
+        "Allein leben wir nicht, sondern in einer Gemeinschaft.",
+        "Nicht allein, sondern in einer Gemeinschaft leben wir."
+      ]
+    }
+  ]
+}

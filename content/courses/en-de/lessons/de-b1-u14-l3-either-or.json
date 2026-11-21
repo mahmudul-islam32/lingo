@@ -1,0 +1,223 @@
+{
+  "id": "de-b1-u14-l3-either-or",
+  "courseId": "en-de",
+  "unitId": "de-b1-u14",
+  "title": "Either… or…",
+  "tip": "Entweder … oder (either … or); weder … noch (neither … nor, never with nicht or kein); zwar … aber (admittedly … but), zwar in the middle: „Ich habe weder Zeit noch Lust.“ „Die Regel ist zwar neu, aber sinnvoll.“",
+  "exercises": [
+    {
+      "id": "de-b1-u14-l3-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        { "id": "p1", "learning": "die Regel", "known": "the rule" },
+        { "id": "p2", "learning": "die Ruhe", "known": "quiet / peace" },
+        { "id": "p3", "learning": "der Streit", "known": "the argument / quarrel" },
+        { "id": "p4", "learning": "sich einigen", "known": "to come to an agreement" },
+        { "id": "p5", "learning": "weder … noch", "known": "neither … nor" }
+      ]
+    },
+    {
+      "id": "de-b1-u14-l3-ex02",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Either we meet in the courtyard or in the park.",
+      "tiles": [
+        "entweder",
+        "treffen",
+        "wir",
+        "uns",
+        "im",
+        "Hof",
+        "oder",
+        "im",
+        "Park",
+        "weder",
+        "treffe",
+        "und"
+      ],
+      "answers": [
+        "Entweder treffen wir uns im Hof oder im Park.",
+        "Entweder wir treffen uns im Hof oder im Park.",
+        "Wir treffen uns entweder im Hof oder im Park.",
+        "Entweder im Hof oder im Park treffen wir uns.",
+        "Entweder treffen wir uns im Park oder im Hof.",
+        "Entweder wir treffen uns im Park oder im Hof.",
+        "Wir treffen uns entweder im Park oder im Hof.",
+        "Entweder im Park oder im Hof treffen wir uns."
+      ]
+    },
+    {
+      "id": "de-b1-u14-l3-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'She's coming neither today nor tomorrow.'?",
+      "options": [
+        { "id": "a", "text": "Sie kommt weder heute noch nicht morgen." },
+        { "id": "b", "text": "Sie kommt nicht weder heute noch morgen." },
+        { "id": "c", "text": "Sie kommt weder heute noch morgen." },
+        { "id": "d", "text": "Sie kommt weder heute oder morgen." }
+      ],
+      "correctOptionId": "c"
+    },
+    {
+      "id": "de-b1-u14-l3-ex04",
+      "type": "listen",
+      "audio": { "src": "/audio/de/b1/u14/de-b1-u14-l3-ex04.mp3" },
+      "tiles": [
+        "ich",
+        "habe",
+        "weder",
+        "Zeit",
+        "noch",
+        "Lust",
+        "vielleicht",
+        "am",
+        "Wochenende",
+        "keine",
+        "nicht",
+        "hat"
+      ],
+      "answers": ["Ich habe weder Zeit noch Lust. Vielleicht am Wochenende?"]
+    },
+    {
+      "id": "de-b1-u14-l3-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'Admittedly the rule is new, but it's sensible.'?",
+      "options": [
+        { "id": "a", "text": "Die Regel ist zwar neu, sondern sinnvoll." },
+        { "id": "b", "text": "Die Regel zwar ist neu, aber sinnvoll." },
+        { "id": "c", "text": "Die Regel ist zwar neu, oder sinnvoll." },
+        { "id": "d", "text": "Die Regel ist zwar neu, aber sinnvoll." }
+      ],
+      "correctOptionId": "d"
+    },
+    {
+      "id": "de-b1-u14-l3-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "After ten o'clock it's quiet time in the building.",
+      "tiles": ["nach", "zehn", "Uhr", "ist", "im", "Haus", "Ruhe", "ruhig", "vor", "sind"],
+      "answers": [
+        "Nach zehn Uhr ist im Haus Ruhe.",
+        "Nach zehn Uhr ist Ruhe im Haus.",
+        "Im Haus ist nach zehn Uhr Ruhe.",
+        "Im Haus ist Ruhe nach zehn Uhr.",
+        "Ruhe ist nach zehn Uhr im Haus.",
+        "Ruhe ist im Haus nach zehn Uhr."
+      ]
+    },
+    {
+      "id": "de-b1-u14-l3-ex07",
+      "type": "listen",
+      "audio": { "src": "/audio/de/b1/u14/de-b1-u14-l3-ex07.mp3" },
+      "tiles": [
+        "wir",
+        "hatten",
+        "einen",
+        "kleinen",
+        "Streit",
+        "jetzt",
+        "haben",
+        "wir",
+        "uns",
+        "geeinigt",
+        "kleine",
+        "hat",
+        "euch"
+      ],
+      "answers": ["Wir hatten einen kleinen Streit. Jetzt haben wir uns geeinigt."]
+    },
+    {
+      "id": "de-b1-u14-l3-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Der Hof ist zwar klein, aber schön.",
+      "tiles": ["the", "courtyard", "is", "small", "but", "nice", "admittedly", "big", "or", "are"],
+      "answers": [
+        "The courtyard is small but nice.",
+        "Admittedly the courtyard is small but nice.",
+        "The courtyard is admittedly small but nice."
+      ]
+    },
+    {
+      "id": "de-b1-u14-l3-ex09",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "After we had talked about the rules, we came to an agreement.",
+      "tiles": [
+        "nachdem",
+        "wir",
+        "über",
+        "die",
+        "Regeln",
+        "gesprochen",
+        "hatten",
+        "einigten",
+        "wir",
+        "uns",
+        "hatte",
+        "sprechen",
+        "euch"
+      ],
+      "answers": [
+        "Nachdem wir über die Regeln gesprochen hatten, einigten wir uns.",
+        "Wir einigten uns, nachdem wir über die Regeln gesprochen hatten."
+      ]
+    },
+    {
+      "id": "de-b1-u14-l3-ex10",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'Either we talk about it, or there'll be an argument.'?",
+      "options": [
+        { "id": "a", "text": "Entweder wir sprechen darüber, oder es gibt Streit." },
+        { "id": "b", "text": "Entweder wir sprechen darüber, aber es gibt Streit." },
+        { "id": "c", "text": "Weder wir sprechen darüber, oder es gibt Streit." },
+        { "id": "d", "text": "Entweder wir sprechen darüber, oder gibt es Streit." }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "de-b1-u14-l3-ex11",
+      "type": "listen",
+      "audio": { "src": "/audio/de/b1/u14/de-b1-u14-l3-ex11.mp3" },
+      "tiles": [
+        "wir",
+        "haben",
+        "Regeln",
+        "damit",
+        "es",
+        "keinen",
+        "Streit",
+        "gibt",
+        "kein",
+        "um",
+        "gab"
+      ],
+      "answers": ["Wir haben Regeln, damit es keinen Streit gibt."]
+    },
+    {
+      "id": "de-b1-u14-l3-ex12",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "We have neither a garden nor a balcony.",
+      "tiles": [
+        "wir",
+        "haben",
+        "weder",
+        "einen",
+        "Garten",
+        "noch",
+        "einen",
+        "Balkon",
+        "nicht",
+        "keinen",
+        "oder"
+      ],
+      "answers": [
+        "Wir haben weder einen Garten noch einen Balkon.",
+        "Wir haben weder einen Balkon noch einen Garten.",
+        "Weder einen Garten noch einen Balkon haben wir.",
+        "Weder einen Balkon noch einen Garten haben wir."
+      ]
+    }
+  ]
+}

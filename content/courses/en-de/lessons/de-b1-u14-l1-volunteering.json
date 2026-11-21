@@ -1,0 +1,205 @@
+{
+  "id": "de-b1-u14-l1-volunteering",
+  "courseId": "en-de",
+  "unitId": "de-b1-u14",
+  "title": "Volunteering",
+  "tip": "Sich engagieren takes für: „Sie engagiert sich für die Senioren.“ Der Senior is an n-noun: den Senioren, dem Senioren; plural die Senioren. Ehrenamtlich means unpaid: „Ich arbeite ehrenamtlich im Verein.“",
+  "exercises": [
+    {
+      "id": "de-b1-u14-l1-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        { "id": "p1", "learning": "das Ehrenamt", "known": "volunteer work" },
+        { "id": "p2", "learning": "ehrenamtlich", "known": "as a volunteer / unpaid" },
+        { "id": "p3", "learning": "unterstützen", "known": "to support" },
+        { "id": "p4", "learning": "die Senioren", "known": "senior citizens" },
+        { "id": "p5", "learning": "spenden", "known": "to donate" }
+      ]
+    },
+    {
+      "id": "de-b1-u14-l1-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'I work as a volunteer at the club.'?",
+      "options": [
+        { "id": "a", "text": "Ich ehrenamtlich arbeite im Verein." },
+        { "id": "b", "text": "Ich arbeite ehrenamtlich am Verein." },
+        { "id": "c", "text": "Ich arbeite ehrenamtlich im Verein." },
+        { "id": "d", "text": "Ich arbeite ehrenamtliche im Verein." }
+      ],
+      "correctOptionId": "c"
+    },
+    {
+      "id": "de-b1-u14-l1-ex03",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "She volunteers for the senior citizens.",
+      "tiles": ["sie", "engagiert", "sich", "für", "die", "Senioren", "den", "engagieren", "uns"],
+      "answers": ["Sie engagiert sich für die Senioren.", "Für die Senioren engagiert sie sich."]
+    },
+    {
+      "id": "de-b1-u14-l1-ex04",
+      "type": "listen",
+      "audio": { "src": "/audio/de/b1/u14/de-b1-u14-l1-ex04.mp3" },
+      "tiles": [
+        "wir",
+        "unterstützen",
+        "die",
+        "Nachbarn",
+        "danke",
+        "für",
+        "die",
+        "Unterstützung",
+        "unterstützt",
+        "Nachbar",
+        "mit"
+      ],
+      "answers": ["Wir unterstützen die Nachbarn. Danke für die Unterstützung!"]
+    },
+    {
+      "id": "de-b1-u14-l1-ex05",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Although she works a lot, she volunteers at the club.",
+      "tiles": [
+        "obwohl",
+        "sie",
+        "viel",
+        "arbeitet",
+        "engagiert",
+        "sie",
+        "sich",
+        "im",
+        "Verein",
+        "weil",
+        "arbeiten",
+        "uns"
+      ],
+      "answers": [
+        "Obwohl sie viel arbeitet, engagiert sie sich im Verein.",
+        "Sie engagiert sich im Verein, obwohl sie viel arbeitet.",
+        "Im Verein engagiert sie sich, obwohl sie viel arbeitet."
+      ]
+    },
+    {
+      "id": "de-b1-u14-l1-ex06",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'We help the neighbour.'?",
+      "options": [
+        { "id": "a", "text": "Wir helfen dem Nachbar." },
+        { "id": "b", "text": "Wir helfen den Nachbar." },
+        { "id": "c", "text": "Wir helfen dem Nachbarn." },
+        { "id": "d", "text": "Wir helfen der Nachbarn." }
+      ],
+      "correctOptionId": "c"
+    },
+    {
+      "id": "de-b1-u14-l1-ex07",
+      "type": "listen",
+      "audio": { "src": "/audio/de/b1/u14/de-b1-u14-l1-ex07.mp3" },
+      "tiles": [
+        "ich",
+        "spende",
+        "warme",
+        "Kleidung",
+        "für",
+        "den",
+        "Winter",
+        "warmen",
+        "spenden",
+        "der"
+      ],
+      "answers": ["Ich spende warme Kleidung für den Winter."]
+    },
+    {
+      "id": "de-b1-u14-l1-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Das Ehrenamt macht Spaß.",
+      "tiles": ["volunteer", "work", "is", "fun", "the", "makes", "are", "funny"],
+      "answers": ["Volunteer work is fun.", "The volunteer work is fun."]
+    },
+    {
+      "id": "de-b1-u14-l1-ex09",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'Last year a lot of clothing was donated.'?",
+      "options": [
+        { "id": "a", "text": "Letztes Jahr wurde viel Kleidung spenden." },
+        { "id": "b", "text": "Letztes Jahr wurde viel Kleidung gespendet." },
+        { "id": "c", "text": "Letztes Jahr wurden viel Kleidung gespendet." },
+        { "id": "d", "text": "Letztes Jahr viel Kleidung wurde gespendet." }
+      ],
+      "correctOptionId": "b"
+    },
+    {
+      "id": "de-b1-u14-l1-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "We cook with the senior citizens so that they don't eat alone.",
+      "tiles": [
+        "wir",
+        "kochen",
+        "mit",
+        "den",
+        "Senioren",
+        "damit",
+        "sie",
+        "nicht",
+        "allein",
+        "essen",
+        "dem",
+        "um",
+        "isst"
+      ],
+      "answers": [
+        "Wir kochen mit den Senioren, damit sie nicht allein essen.",
+        "Damit sie nicht allein essen, kochen wir mit den Senioren.",
+        "Mit den Senioren kochen wir, damit sie nicht allein essen."
+      ]
+    },
+    {
+      "id": "de-b1-u14-l1-ex11",
+      "type": "listen",
+      "audio": { "src": "/audio/de/b1/u14/de-b1-u14-l1-ex11.mp3" },
+      "tiles": [
+        "das",
+        "ist",
+        "der",
+        "Verein",
+        "in",
+        "dem",
+        "ich",
+        "ehrenamtlich",
+        "arbeite",
+        "den",
+        "die",
+        "arbeitet"
+      ],
+      "answers": ["Das ist der Verein, in dem ich ehrenamtlich arbeite."]
+    },
+    {
+      "id": "de-b1-u14-l1-ex12",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "At the club I take care of the senior citizens.",
+      "tiles": [
+        "im",
+        "Verein",
+        "kümmere",
+        "ich",
+        "mich",
+        "um",
+        "die",
+        "Senioren",
+        "mir",
+        "für",
+        "kümmert"
+      ],
+      "answers": [
+        "Im Verein kümmere ich mich um die Senioren.",
+        "Ich kümmere mich im Verein um die Senioren.",
+        "Ich kümmere mich um die Senioren im Verein.",
+        "Um die Senioren kümmere ich mich im Verein."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,245 @@
+{
+  "id": "de-b1-u14-l5-street-party",
+  "courseId": "en-de",
+  "unitId": "de-b1-u14",
+  "title": "Scenario: The Street Party",
+  "tip": "At a street party everyone helps: „Jeder bringt etwas für das Buffet mit.“ Sich beteiligen takes an: „Wer beteiligt sich am Buffet?“ Plan B with Konjunktiv II: „Wenn das Wetter schlecht wäre, würden wir im Hof feiern.“",
+  "exercises": [
+    {
+      "id": "de-b1-u14-l5-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        { "id": "p1", "learning": "das Straßenfest", "known": "the street party" },
+        { "id": "p2", "learning": "organisieren", "known": "to organise" },
+        { "id": "p3", "learning": "das Buffet", "known": "the buffet" },
+        { "id": "p4", "learning": "sich beteiligen", "known": "to take part / contribute" },
+        { "id": "p5", "learning": "mitbringen", "known": "to bring along" }
+      ]
+    },
+    {
+      "id": "de-b1-u14-l5-ex02",
+      "type": "listen",
+      "audio": { "src": "/audio/de/b1/u14/de-b1-u14-l5-ex02.mp3" },
+      "tiles": [
+        "wir",
+        "organisieren",
+        "ein",
+        "Straßenfest",
+        "wer",
+        "beteiligt",
+        "sich",
+        "organisiert",
+        "eine",
+        "wen",
+        "uns"
+      ],
+      "answers": ["Wir organisieren ein Straßenfest. Wer beteiligt sich?"]
+    },
+    {
+      "id": "de-b1-u14-l5-ex03",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Everyone brings something for the buffet.",
+      "tiles": [
+        "jeder",
+        "bringt",
+        "etwas",
+        "für",
+        "das",
+        "Buffet",
+        "mit",
+        "bringen",
+        "den",
+        "nimmt"
+      ],
+      "answers": [
+        "Jeder bringt etwas für das Buffet mit.",
+        "Jeder bringt für das Buffet etwas mit.",
+        "Für das Buffet bringt jeder etwas mit.",
+        "Etwas für das Buffet bringt jeder mit."
+      ]
+    },
+    {
+      "id": "de-b1-u14-l5-ex04",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'There's both music and games.'?",
+      "options": [
+        { "id": "a", "text": "Es gibt sowohl Musik aber auch Spiele." },
+        { "id": "b", "text": "Es gibt sowohl Musik als Spiele auch." },
+        { "id": "c", "text": "Es gibt weder Musik als auch Spiele." },
+        { "id": "d", "text": "Es gibt sowohl Musik als auch Spiele." }
+      ],
+      "correctOptionId": "d"
+    },
+    {
+      "id": "de-b1-u14-l5-ex05",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "If the weather were bad, we would celebrate in the courtyard.",
+      "tiles": [
+        "wenn",
+        "das",
+        "Wetter",
+        "schlecht",
+        "wäre",
+        "würden",
+        "wir",
+        "im",
+        "Hof",
+        "feiern",
+        "war",
+        "werden",
+        "regnet"
+      ],
+      "answers": [
+        "Wenn das Wetter schlecht wäre, würden wir im Hof feiern.",
+        "Wir würden im Hof feiern, wenn das Wetter schlecht wäre.",
+        "Im Hof würden wir feiern, wenn das Wetter schlecht wäre.",
+        "Feiern würden wir im Hof, wenn das Wetter schlecht wäre."
+      ]
+    },
+    {
+      "id": "de-b1-u14-l5-ex06",
+      "type": "listen",
+      "audio": { "src": "/audio/de/b1/u14/de-b1-u14-l5-ex06.mp3" },
+      "tiles": [
+        "letztes",
+        "Jahr",
+        "wurde",
+        "das",
+        "Straßenfest",
+        "von",
+        "den",
+        "Nachbarn",
+        "organisiert",
+        "wurden",
+        "dem",
+        "organisieren"
+      ],
+      "answers": ["Letztes Jahr wurde das Straßenfest von den Nachbarn organisiert."]
+    },
+    {
+      "id": "de-b1-u14-l5-ex07",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Es regnet zwar, aber wir feiern trotzdem.",
+      "tiles": [
+        "it's",
+        "raining",
+        "but",
+        "we're",
+        "celebrating",
+        "anyway",
+        "admittedly",
+        "rains",
+        "or",
+        "celebrate"
+      ],
+      "answers": [
+        "It's raining, but we're celebrating anyway.",
+        "Admittedly it's raining, but we're celebrating anyway.",
+        "It's admittedly raining, but we're celebrating anyway."
+      ]
+    },
+    {
+      "id": "de-b1-u14-l5-ex08",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'Although it's raining, lots of neighbours are coming.'?",
+      "options": [
+        { "id": "a", "text": "Obwohl es regnet, kommen viele Nachbarn." },
+        { "id": "b", "text": "Obwohl es regnet, viele Nachbarn kommen." },
+        { "id": "c", "text": "Obwohl regnet es, kommen viele Nachbarn." },
+        { "id": "d", "text": "Trotzdem es regnet, kommen viele Nachbarn." }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "de-b1-u14-l5-ex09",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Either you help at the buffet or with the music. (to a neighbour)",
+      "tiles": [
+        "entweder",
+        "hilfst",
+        "du",
+        "am",
+        "Buffet",
+        "oder",
+        "bei",
+        "der",
+        "Musik",
+        "hilft",
+        "weder",
+        "dem"
+      ],
+      "answers": [
+        "Entweder hilfst du am Buffet oder bei der Musik.",
+        "Entweder du hilfst am Buffet oder bei der Musik.",
+        "Du hilfst entweder am Buffet oder bei der Musik.",
+        "Entweder am Buffet oder bei der Musik hilfst du.",
+        "Entweder hilfst du bei der Musik oder am Buffet.",
+        "Entweder du hilfst bei der Musik oder am Buffet.",
+        "Du hilfst entweder bei der Musik oder am Buffet.",
+        "Entweder bei der Musik oder am Buffet hilfst du."
+      ]
+    },
+    {
+      "id": "de-b1-u14-l5-ex10",
+      "type": "listen",
+      "audio": { "src": "/audio/de/b1/u14/de-b1-u14-l5-ex10.mp3" },
+      "tiles": [
+        "nachdem",
+        "wir",
+        "die",
+        "Tische",
+        "in",
+        "den",
+        "Hof",
+        "gestellt",
+        "hatten",
+        "kamen",
+        "die",
+        "Gäste",
+        "dem",
+        "hatte"
+      ],
+      "answers": ["Nachdem wir die Tische in den Hof gestellt hatten, kamen die Gäste."]
+    },
+    {
+      "id": "de-b1-u14-l5-ex11",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'We need a bigger table for the buffet.'?",
+      "options": [
+        { "id": "a", "text": "Wir brauchen einen größer Tisch für das Buffet." },
+        { "id": "b", "text": "Wir brauchen einen größeren Tisch für das Buffet." },
+        { "id": "c", "text": "Wir brauchen einen größerer Tisch für das Buffet." },
+        { "id": "d", "text": "Wir brauchen einen größten Tisch für das Buffet." }
+      ],
+      "correctOptionId": "b"
+    },
+    {
+      "id": "de-b1-u14-l5-ex12",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "There's fresh cake for everyone.",
+      "tiles": [
+        "es",
+        "gibt",
+        "frischen",
+        "Kuchen",
+        "für",
+        "alle",
+        "frischer",
+        "frisches",
+        "gab",
+        "jeder"
+      ],
+      "answers": [
+        "Es gibt frischen Kuchen für alle.",
+        "Es gibt für alle frischen Kuchen.",
+        "Für alle gibt es frischen Kuchen.",
+        "Frischen Kuchen gibt es für alle."
+      ]
+    }
+  ]
+}

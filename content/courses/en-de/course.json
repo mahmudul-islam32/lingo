@@ -3,7 +3,7 @@
   "title": "German",
   "learningLanguage": "de",
   "knownLanguage": "en",
-  "version": 25,
+  "version": 26,
   "levels": [
     {
       "level": "A1",
@@ -1116,6 +1116,34 @@
         {
           "id": "de-b1-u13-l5-team-lunch",
           "title": "Scenario: The Team Lunch"
+        }
+      ]
+    },
+    {
+      "id": "de-b1-u14",
+      "level": "B1",
+      "title": "Living Together",
+      "description": "Talk about volunteering, community life and cultures, and link ideas with two-part connectors.",
+      "lessons": [
+        {
+          "id": "de-b1-u14-l1-volunteering",
+          "title": "Volunteering"
+        },
+        {
+          "id": "de-b1-u14-l2-not-only",
+          "title": "Not Only… but Also"
+        },
+        {
+          "id": "de-b1-u14-l3-either-or",
+          "title": "Either… or…"
+        },
+        {
+          "id": "de-b1-u14-l4-cultures",
+          "title": "Different Cultures"
+        },
+        {
+          "id": "de-b1-u14-l5-street-party",
+          "title": "Scenario: The Street Party"
         }
       ]
     }
