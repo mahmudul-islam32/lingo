@@ -1,0 +1,224 @@
+{
+  "id": "de-b1-u15-l5-house-meeting",
+  "courseId": "en-de",
+  "unitId": "de-b1-u15",
+  "title": "Scenario: The House Meeting",
+  "tip": "House meeting phrases: „Ich bin dafür.“ „Da stimme ich Ihnen zu.“ abstimmen is separable: „Wir stimmen über den Plan ab.“ Use Sie with neighbours you don't know well and du with neighbours you call by their first name.",
+  "exercises": [
+    {
+      "id": "de-b1-u15-l5-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        { "id": "p1", "learning": "die Versammlung", "known": "the residents' meeting" },
+        { "id": "p2", "learning": "der Kompromiss", "known": "the compromise" },
+        { "id": "p3", "learning": "abstimmen", "known": "to vote" },
+        { "id": "p4", "learning": "fair", "known": "fair" },
+        { "id": "p5", "learning": "der Vorschlag", "known": "the suggestion" }
+      ]
+    },
+    {
+      "id": "de-b1-u15-l5-ex02",
+      "type": "listen",
+      "audio": { "src": "/audio/de/b1/u15/de-b1-u15-l5-ex02.mp3" },
+      "tiles": [
+        "die",
+        "Versammlung",
+        "ist",
+        "am",
+        "Donnerstag",
+        "das",
+        "Thema",
+        "ist",
+        "der",
+        "Hof",
+        "im",
+        "Dienstag",
+        "den"
+      ],
+      "answers": ["Die Versammlung ist am Donnerstag. Das Thema ist der Hof."]
+    },
+    {
+      "id": "de-b1-u15-l5-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'We should vote on the plan.'?",
+      "options": [
+        { "id": "a", "text": "Wir sollten über den Plan abstimmen." },
+        { "id": "b", "text": "Wir sollten über den Plan abzustimmen." },
+        { "id": "c", "text": "Wir sollten über dem Plan abstimmen." },
+        { "id": "d", "text": "Wir sollten über den Plan stimmen ab." }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "de-b1-u15-l5-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "We're voting on the plan.",
+      "tiles": ["wir", "stimmen", "über", "den", "Plan", "ab", "dem", "abstimmen", "stimmt"],
+      "answers": ["Wir stimmen über den Plan ab.", "Über den Plan stimmen wir ab."]
+    },
+    {
+      "id": "de-b1-u15-l5-ex05",
+      "type": "listen",
+      "audio": { "src": "/audio/de/b1/u15/de-b1-u15-l5-ex05.mp3" },
+      "tiles": [
+        "obwohl",
+        "nicht",
+        "alle",
+        "dafür",
+        "sind",
+        "ist",
+        "das",
+        "ein",
+        "fairer",
+        "Kompromiss",
+        "faire",
+        "einen",
+        "sein"
+      ],
+      "answers": ["Obwohl nicht alle dafür sind, ist das ein fairer Kompromiss."]
+    },
+    {
+      "id": "de-b1-u15-l5-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Until we find a solution, my bike is in the cellar.",
+      "tiles": [
+        "bis",
+        "wir",
+        "eine",
+        "Lösung",
+        "finden",
+        "steht",
+        "mein",
+        "Rad",
+        "im",
+        "Keller",
+        "einen",
+        "stehe",
+        "findet"
+      ],
+      "answers": [
+        "Bis wir eine Lösung finden, steht mein Rad im Keller.",
+        "Mein Rad steht im Keller, bis wir eine Lösung finden.",
+        "Im Keller steht mein Rad, bis wir eine Lösung finden."
+      ]
+    },
+    {
+      "id": "de-b1-u15-l5-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'I agree with you, Ms Okafor. (formal)'?",
+      "options": [
+        { "id": "a", "text": "Ich stimme Sie zu, Frau Okafor." },
+        { "id": "b", "text": "Ich stimme Ihnen zu, Frau Okafor." },
+        { "id": "c", "text": "Ich zustimme Ihnen, Frau Okafor." },
+        { "id": "d", "text": "Ich stimme zu Ihnen, Frau Okafor." }
+      ],
+      "correctOptionId": "b"
+    },
+    {
+      "id": "de-b1-u15-l5-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Sorry, but I'm afraid I have to disagree with you. (to a neighbour you call du)",
+      "tiles": [
+        "Entschuldigung",
+        "aber",
+        "ich",
+        "muss",
+        "dir",
+        "leider",
+        "widersprechen",
+        "dich",
+        "musst",
+        "zustimmen"
+      ],
+      "answers": [
+        "Entschuldigung, aber ich muss dir leider widersprechen.",
+        "Entschuldigung, aber leider muss ich dir widersprechen."
+      ]
+    },
+    {
+      "id": "de-b1-u15-l5-ex09",
+      "type": "listen",
+      "audio": { "src": "/audio/de/b1/u15/de-b1-u15-l5-ex09.mp3" },
+      "tiles": [
+        "wir",
+        "haben",
+        "lange",
+        "darüber",
+        "diskutiert",
+        "jetzt",
+        "stimmen",
+        "wir",
+        "ab",
+        "worüber",
+        "stimmt",
+        "zu"
+      ],
+      "answers": ["Wir haben lange darüber diskutiert. Jetzt stimmen wir ab."]
+    },
+    {
+      "id": "de-b1-u15-l5-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Ich bin zwar dagegen, aber der Kompromiss ist fair.",
+      "tiles": [
+        "I'm",
+        "against",
+        "it",
+        "admittedly",
+        "but",
+        "the",
+        "compromise",
+        "is",
+        "fair",
+        "for",
+        "a",
+        "solution"
+      ],
+      "answers": [
+        "Admittedly I'm against it, but the compromise is fair.",
+        "I'm admittedly against it, but the compromise is fair."
+      ]
+    },
+    {
+      "id": "de-b1-u15-l5-ex11",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'While we vote, the children play in the courtyard.'?",
+      "options": [
+        { "id": "a", "text": "Während wir abstimmen, spielen die Kinder im Hof." },
+        { "id": "b", "text": "Während wir stimmen ab, spielen die Kinder im Hof." },
+        { "id": "c", "text": "Während wir abstimmen, die Kinder spielen im Hof." },
+        { "id": "d", "text": "Während wir abstimmen, spielen die Kinder in den Hof." }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "de-b1-u15-l5-ex12",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Both Mr Novak and Ms Okafor are in favour.",
+      "tiles": [
+        "sowohl",
+        "Herr",
+        "Novak",
+        "als",
+        "auch",
+        "Frau",
+        "Okafor",
+        "sind",
+        "dafür",
+        "ist",
+        "nicht",
+        "dagegen"
+      ],
+      "answers": [
+        "Sowohl Herr Novak als auch Frau Okafor sind dafür.",
+        "Sowohl Frau Okafor als auch Herr Novak sind dafür.",
+        "Dafür sind sowohl Herr Novak als auch Frau Okafor.",
+        "Dafür sind sowohl Frau Okafor als auch Herr Novak."
+      ]
+    }
+  ]
+}

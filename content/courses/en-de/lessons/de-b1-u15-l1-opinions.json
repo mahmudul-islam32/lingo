@@ -1,0 +1,186 @@
+{
+  "id": "de-b1-u15-l1-opinions",
+  "courseId": "en-de",
+  "unitId": "de-b1-u15",
+  "title": "Opinions",
+  "tip": "Giving your opinion: „Ich bin der Meinung, dass …“ sends the verb to the end. „Ich bin dafür / dagegen.“ zustimmen and widersprechen take the dative: „Ich stimme dir zu.“ „Da muss ich Ihnen leider widersprechen.“",
+  "exercises": [
+    {
+      "id": "de-b1-u15-l1-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        { "id": "p1", "learning": "dafür sein", "known": "to be in favour" },
+        { "id": "p2", "learning": "dagegen sein", "known": "to be against it" },
+        { "id": "p3", "learning": "das Argument", "known": "the argument / point" },
+        { "id": "p4", "learning": "überzeugt", "known": "convinced" },
+        { "id": "p5", "learning": "diskutieren", "known": "to discuss" }
+      ]
+    },
+    {
+      "id": "de-b1-u15-l1-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'I'm of the opinion that the plan is good.'?",
+      "options": [
+        { "id": "a", "text": "Ich bin der Meinung, dass der Plan ist gut." },
+        { "id": "b", "text": "Ich bin der Meinung, dass der Plan gut ist." },
+        { "id": "c", "text": "Ich habe der Meinung, dass der Plan gut ist." },
+        { "id": "d", "text": "Ich bin die Meinung, dass der Plan gut ist." }
+      ],
+      "correctOptionId": "b"
+    },
+    {
+      "id": "de-b1-u15-l1-ex03",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I'm in favour. Are you against it? (to a friend)",
+      "tiles": ["ich", "bin", "dafür", "bist", "du", "dagegen", "darüber", "ist", "sind"],
+      "answers": ["Ich bin dafür. Bist du dagegen?", "Dafür bin ich. Bist du dagegen?"]
+    },
+    {
+      "id": "de-b1-u15-l1-ex04",
+      "type": "listen",
+      "audio": { "src": "/audio/de/b1/u15/de-b1-u15-l1-ex04.mp3" },
+      "tiles": [
+        "da",
+        "stimme",
+        "ich",
+        "dir",
+        "zu",
+        "das",
+        "Argument",
+        "ist",
+        "gut",
+        "dich",
+        "stimmt",
+        "bin"
+      ],
+      "answers": ["Da stimme ich dir zu. Das Argument ist gut."]
+    },
+    {
+      "id": "de-b1-u15-l1-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'I'm afraid I have to disagree with you there. (formal)'?",
+      "options": [
+        { "id": "a", "text": "Da muss ich Sie leider widersprechen." },
+        { "id": "b", "text": "Da muss ich Ihnen leider widersprechen." },
+        { "id": "c", "text": "Da muss ich leider widersprechen Ihnen." },
+        { "id": "d", "text": "Da ich muss Ihnen leider widersprechen." }
+      ],
+      "correctOptionId": "b"
+    },
+    {
+      "id": "de-b1-u15-l1-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Das Argument ist gut, aber ich bin nicht überzeugt.",
+      "tiles": [
+        "the",
+        "argument",
+        "is",
+        "good",
+        "but",
+        "I'm",
+        "not",
+        "convinced",
+        "and",
+        "isn't",
+        "a"
+      ],
+      "answers": ["The argument is good, but I'm not convinced."]
+    },
+    {
+      "id": "de-b1-u15-l1-ex07",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "We're discussing the plan.",
+      "tiles": ["wir", "diskutieren", "über", "den", "Plan", "der", "diskutiert", "auf"],
+      "answers": [
+        "Wir diskutieren über den Plan.",
+        "Über den Plan diskutieren wir.",
+        "Wir diskutieren den Plan.",
+        "Den Plan diskutieren wir."
+      ]
+    },
+    {
+      "id": "de-b1-u15-l1-ex08",
+      "type": "listen",
+      "audio": { "src": "/audio/de/b1/u15/de-b1-u15-l1-ex08.mp3" },
+      "tiles": [
+        "worüber",
+        "diskutiert",
+        "ihr",
+        "über",
+        "Mias",
+        "Vorschlag",
+        "wofür",
+        "diskutieren",
+        "Mia"
+      ],
+      "answers": ["Worüber diskutiert ihr? Über Mias Vorschlag."]
+    },
+    {
+      "id": "de-b1-u15-l1-ex09",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'Do you agree with me? (to a friend)'?",
+      "options": [
+        { "id": "a", "text": "Stimmst du mir zu?" },
+        { "id": "b", "text": "Stimmst du mich zu?" },
+        { "id": "c", "text": "Zustimmst du mir?" },
+        { "id": "d", "text": "Stimmst du zu mir?" }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "de-b1-u15-l1-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Ich bin der Meinung, dass wir mehr diskutieren sollten.",
+      "tiles": [
+        "I'm",
+        "of",
+        "the",
+        "opinion",
+        "that",
+        "we",
+        "should",
+        "discuss",
+        "more",
+        "must",
+        "opinions",
+        "a"
+      ],
+      "answers": [
+        "I'm of the opinion that we should discuss more.",
+        "I'm of the opinion we should discuss more."
+      ]
+    },
+    {
+      "id": "de-b1-u15-l1-ex11",
+      "type": "listen",
+      "audio": { "src": "/audio/de/b1/u15/de-b1-u15-l1-ex11.mp3" },
+      "tiles": [
+        "ich",
+        "bin",
+        "dagegen",
+        "weil",
+        "der",
+        "Plan",
+        "zu",
+        "teuer",
+        "ist",
+        "dafür",
+        "sind",
+        "den"
+      ],
+      "answers": ["Ich bin dagegen, weil der Plan zu teuer ist."]
+    },
+    {
+      "id": "de-b1-u15-l1-ex12",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Would you agree with me? (formal)",
+      "tiles": ["würden", "Sie", "mir", "zustimmen", "mich", "stimmen", "werden"],
+      "answers": ["Würden Sie mir zustimmen?"]
+    }
+  ]
+}

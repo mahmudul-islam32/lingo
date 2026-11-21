@@ -1,0 +1,185 @@
+{
+  "id": "de-b1-u15-l4-since-until",
+  "courseId": "en-de",
+  "unitId": "de-b1-u15",
+  "title": "Since and Until",
+  "tip": "seitdem (since) and bis (until) send the verb to the end: „Seitdem ich hier wohne, fahre ich Rad.“ „Warte, bis ich komme!“ seit works like seitdem. sich gewöhnen an + accusative: „Ich habe mich an das Wetter gewöhnt.“",
+  "exercises": [
+    {
+      "id": "de-b1-u15-l4-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        { "id": "p1", "learning": "seitdem", "known": "since (conjunction)" },
+        { "id": "p2", "learning": "bis", "known": "until" },
+        { "id": "p3", "learning": "sich verändern", "known": "to change" },
+        { "id": "p4", "learning": "die Veränderung", "known": "the change" },
+        { "id": "p5", "learning": "sich gewöhnen an", "known": "to get used to" }
+      ]
+    },
+    {
+      "id": "de-b1-u15-l4-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'Since I've been living here, I speak more German.'?",
+      "options": [
+        { "id": "a", "text": "Seitdem ich hier wohne, ich spreche mehr Deutsch." },
+        { "id": "b", "text": "Seitdem wohne ich hier, spreche ich mehr Deutsch." },
+        { "id": "c", "text": "Seitdem ich hier wohne, spreche ich mehr Deutsch." },
+        { "id": "d", "text": "Seitdem ich wohne hier, spreche ich mehr Deutsch." }
+      ],
+      "correctOptionId": "c"
+    },
+    {
+      "id": "de-b1-u15-l4-ex03",
+      "type": "listen",
+      "audio": { "src": "/audio/de/b1/u15/de-b1-u15-l4-ex03.mp3" },
+      "tiles": ["seitdem", "ich", "hier", "wohne", "fahre", "ich", "Rad", "wohnt", "fährt", "bis"],
+      "answers": ["Seitdem ich hier wohne, fahre ich Rad."]
+    },
+    {
+      "id": "de-b1-u15-l4-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Wait until I'm finished! (to a friend)",
+      "tiles": ["warte", "bis", "ich", "fertig", "bin", "bist", "wartet", "seitdem"],
+      "answers": ["Warte, bis ich fertig bin!", "Bis ich fertig bin, warte!"]
+    },
+    {
+      "id": "de-b1-u15-l4-ex05",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "The city has changed a lot.",
+      "tiles": ["die", "Stadt", "hat", "sich", "sehr", "verändert", "habe", "mich", "verändern"],
+      "answers": ["Die Stadt hat sich sehr verändert."]
+    },
+    {
+      "id": "de-b1-u15-l4-ex06",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'I've got used to the weather.'?",
+      "options": [
+        { "id": "a", "text": "Ich habe mich an das Wetter gewöhnt." },
+        { "id": "b", "text": "Ich habe mich an dem Wetter gewöhnt." },
+        { "id": "c", "text": "Ich bin mich an das Wetter gewöhnt." },
+        { "id": "d", "text": "Ich habe an das Wetter mich gewöhnt." }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "de-b1-u15-l4-ex07",
+      "type": "listen",
+      "audio": { "src": "/audio/de/b1/u15/de-b1-u15-l4-ex07.mp3" },
+      "tiles": [
+        "warte",
+        "bis",
+        "ich",
+        "komme",
+        "ich",
+        "bin",
+        "gleich",
+        "fertig",
+        "kommst",
+        "wartet",
+        "seitdem"
+      ],
+      "answers": ["Warte, bis ich komme! Ich bin gleich fertig."]
+    },
+    {
+      "id": "de-b1-u15-l4-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Inzwischen spreche ich gut Deutsch.",
+      "tiles": ["by", "now", "I", "speak", "German", "well", "spoke", "speaks", "since"],
+      "answers": [
+        "By now I speak German well.",
+        "I speak German well by now.",
+        "Now I speak German well.",
+        "I speak German well now."
+      ]
+    },
+    {
+      "id": "de-b1-u15-l4-ex09",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Since we've been living in the countryside, I've been happier.",
+      "tiles": [
+        "seitdem",
+        "seit",
+        "wir",
+        "auf",
+        "dem",
+        "Land",
+        "wohnen",
+        "bin",
+        "ich",
+        "glücklicher",
+        "der",
+        "wohnt",
+        "glücklich"
+      ],
+      "answers": [
+        "Seitdem wir auf dem Land wohnen, bin ich glücklicher.",
+        "Seit wir auf dem Land wohnen, bin ich glücklicher.",
+        "Ich bin glücklicher, seitdem wir auf dem Land wohnen.",
+        "Ich bin glücklicher, seit wir auf dem Land wohnen.",
+        "Glücklicher bin ich, seitdem wir auf dem Land wohnen.",
+        "Glücklicher bin ich, seit wir auf dem Land wohnen."
+      ]
+    },
+    {
+      "id": "de-b1-u15-l4-ex10",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'I'll stay at home until the rain stops.'?",
+      "options": [
+        { "id": "a", "text": "Ich bleibe zu Hause, bis der Regen hört auf." },
+        { "id": "b", "text": "Ich bleibe zu Hause, bis der Regen aufhört." },
+        { "id": "c", "text": "Ich bleibe zu Hause, bis hört der Regen auf." },
+        { "id": "d", "text": "Ich bleibe zu Hause, bis aufhört der Regen." }
+      ],
+      "correctOptionId": "b"
+    },
+    {
+      "id": "de-b1-u15-l4-ex11",
+      "type": "listen",
+      "audio": { "src": "/audio/de/b1/u15/de-b1-u15-l4-ex11.mp3" },
+      "tiles": [
+        "das",
+        "ist",
+        "eine",
+        "große",
+        "Veränderung",
+        "für",
+        "die",
+        "Familie",
+        "großer",
+        "einen",
+        "verändern"
+      ],
+      "answers": ["Das ist eine große Veränderung für die Familie."]
+    },
+    {
+      "id": "de-b1-u15-l4-ex12",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Although the winter is cold, I've got used to it.",
+      "tiles": [
+        "obwohl",
+        "der",
+        "Winter",
+        "kalt",
+        "ist",
+        "habe",
+        "ich",
+        "mich",
+        "daran",
+        "gewöhnt",
+        "bin",
+        "mir",
+        "darauf"
+      ],
+      "answers": [
+        "Obwohl der Winter kalt ist, habe ich mich daran gewöhnt.",
+        "Ich habe mich daran gewöhnt, obwohl der Winter kalt ist.",
+        "Daran habe ich mich gewöhnt, obwohl der Winter kalt ist."
+      ]
+    }
+  ]
+}

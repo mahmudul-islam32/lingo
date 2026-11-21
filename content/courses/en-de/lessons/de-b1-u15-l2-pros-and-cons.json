@@ -1,0 +1,224 @@
+{
+  "id": "de-b1-u15-l2-pros-and-cons",
+  "courseId": "en-de",
+  "unitId": "de-b1-u15",
+  "title": "Pros and Cons",
+  "tip": "einerseits … andererseits: each part takes V2, so the verb comes right after the word. „Einerseits spare ich Zeit, andererseits fehlen mir die Kollegen.“ der Vorteil, die Vorteile; der Nachteil, die Nachteile.",
+  "exercises": [
+    {
+      "id": "de-b1-u15-l2-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        { "id": "p1", "learning": "der Vorteil", "known": "the advantage" },
+        { "id": "p2", "learning": "der Nachteil", "known": "the disadvantage" },
+        { "id": "p3", "learning": "das Homeoffice", "known": "working from home" },
+        { "id": "p4", "learning": "die Entscheidung", "known": "the decision" },
+        { "id": "p5", "learning": "auf dem Land", "known": "in the countryside" }
+      ]
+    },
+    {
+      "id": "de-b1-u15-l2-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'On the one hand I save time, on the other hand I miss my colleagues.'?",
+      "options": [
+        { "id": "a", "text": "Einerseits ich spare Zeit, andererseits fehlen mir die Kollegen." },
+        { "id": "b", "text": "Einerseits spare ich Zeit, andererseits mir fehlen die Kollegen." },
+        { "id": "c", "text": "Einerseits spare ich Zeit, andererseits fehlen mir die Kollegen." },
+        { "id": "d", "text": "Einerseits spare ich Zeit, andererseits fehle ich die Kollegen." }
+      ],
+      "correctOptionId": "c"
+    },
+    {
+      "id": "de-b1-u15-l2-ex03",
+      "type": "listen",
+      "audio": { "src": "/audio/de/b1/u15/de-b1-u15-l2-ex03.mp3" },
+      "tiles": [
+        "das",
+        "Homeoffice",
+        "hat",
+        "Vorteile",
+        "und",
+        "Nachteile",
+        "haben",
+        "Vorteil",
+        "der"
+      ],
+      "answers": ["Das Homeoffice hat Vorteile und Nachteile."]
+    },
+    {
+      "id": "de-b1-u15-l2-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "We prefer to live in the countryside.",
+      "tiles": ["wir", "wohnen", "lieber", "auf", "dem", "Land", "der", "gern", "die"],
+      "answers": [
+        "Wir wohnen lieber auf dem Land.",
+        "Auf dem Land wohnen wir lieber.",
+        "Lieber wohnen wir auf dem Land."
+      ]
+    },
+    {
+      "id": "de-b1-u15-l2-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'Working from home has a big advantage.'?",
+      "options": [
+        { "id": "a", "text": "Das Homeoffice hat ein großen Vorteil." },
+        { "id": "b", "text": "Das Homeoffice hat einen große Vorteil." },
+        { "id": "c", "text": "Das Homeoffice hat einen großen Vorteil." },
+        { "id": "d", "text": "Das Homeoffice hat einen großer Vorteil." }
+      ],
+      "correctOptionId": "c"
+    },
+    {
+      "id": "de-b1-u15-l2-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "On the one hand it's quiet, on the other hand it's boring. (about the countryside)",
+      "tiles": [
+        "einerseits",
+        "ist",
+        "es",
+        "ruhig",
+        "andererseits",
+        "ist",
+        "es",
+        "langweilig",
+        "sind",
+        "laut",
+        "war"
+      ],
+      "answers": [
+        "Einerseits ist es ruhig, andererseits ist es langweilig.",
+        "Einerseits ist es ruhig, es ist andererseits langweilig.",
+        "Einerseits ist es ruhig, langweilig ist es andererseits.",
+        "Es ist einerseits ruhig, andererseits ist es langweilig.",
+        "Es ist einerseits ruhig, es ist andererseits langweilig.",
+        "Es ist einerseits ruhig, langweilig ist es andererseits.",
+        "Ruhig ist es einerseits, andererseits ist es langweilig.",
+        "Ruhig ist es einerseits, es ist andererseits langweilig.",
+        "Ruhig ist es einerseits, langweilig ist es andererseits."
+      ]
+    },
+    {
+      "id": "de-b1-u15-l2-ex07",
+      "type": "listen",
+      "audio": { "src": "/audio/de/b1/u15/de-b1-u15-l2-ex07.mp3" },
+      "tiles": [
+        "einerseits",
+        "spare",
+        "ich",
+        "Zeit",
+        "andererseits",
+        "fehlen",
+        "mir",
+        "die",
+        "Kollegen",
+        "fehle",
+        "mich",
+        "sparen"
+      ],
+      "answers": ["Einerseits spare ich Zeit, andererseits fehlen mir die Kollegen."]
+    },
+    {
+      "id": "de-b1-u15-l2-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Die Entscheidung ist schwer. Was sind die Vorteile?",
+      "tiles": [
+        "the",
+        "decision",
+        "is",
+        "difficult",
+        "what",
+        "are",
+        "the",
+        "advantages",
+        "easy",
+        "advantage",
+        "a"
+      ],
+      "answers": ["The decision is difficult. What are the advantages?"]
+    },
+    {
+      "id": "de-b1-u15-l2-ex09",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'I'm in favour of working from home, because I save time.'?",
+      "options": [
+        { "id": "a", "text": "Ich bin für das Homeoffice, weil ich spare Zeit." },
+        { "id": "b", "text": "Ich bin für das Homeoffice, weil ich Zeit spare." },
+        { "id": "c", "text": "Ich bin dafür das Homeoffice, weil ich Zeit spare." },
+        { "id": "d", "text": "Ich bin für das Homeoffice, denn ich Zeit spare." }
+      ],
+      "correctOptionId": "b"
+    },
+    {
+      "id": "de-b1-u15-l2-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "If I lived in the countryside, I would have a garden.",
+      "tiles": [
+        "wenn",
+        "ich",
+        "auf",
+        "dem",
+        "Land",
+        "wohnen",
+        "würde",
+        "hätte",
+        "ich",
+        "einen",
+        "Garten",
+        "habe",
+        "werde",
+        "ein"
+      ],
+      "answers": [
+        "Wenn ich auf dem Land wohnen würde, hätte ich einen Garten.",
+        "Ich hätte einen Garten, wenn ich auf dem Land wohnen würde.",
+        "Einen Garten hätte ich, wenn ich auf dem Land wohnen würde."
+      ]
+    },
+    {
+      "id": "de-b1-u15-l2-ex11",
+      "type": "listen",
+      "audio": { "src": "/audio/de/b1/u15/de-b1-u15-l2-ex11.mp3" },
+      "tiles": [
+        "ich",
+        "bin",
+        "der",
+        "Meinung",
+        "dass",
+        "das",
+        "Homeoffice",
+        "mehr",
+        "Vorteile",
+        "hat",
+        "haben",
+        "die",
+        "Nachteile"
+      ],
+      "answers": ["Ich bin der Meinung, dass das Homeoffice mehr Vorteile hat."]
+    },
+    {
+      "id": "de-b1-u15-l2-ex12",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Working from home has not only advantages but also disadvantages.",
+      "tiles": [
+        "das",
+        "Homeoffice",
+        "hat",
+        "nicht",
+        "nur",
+        "Vorteile",
+        "sondern",
+        "auch",
+        "Nachteile",
+        "als",
+        "haben",
+        "der"
+      ],
+      "answers": ["Das Homeoffice hat nicht nur Vorteile, sondern auch Nachteile."]
+    }
+  ]
+}

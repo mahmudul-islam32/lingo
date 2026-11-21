@@ -3,7 +3,7 @@
   "title": "German",
   "learningLanguage": "de",
   "knownLanguage": "en",
-  "version": 26,
+  "version": 27,
   "levels": [
     {
       "level": "A1",
@@ -1144,6 +1144,34 @@
         {
           "id": "de-b1-u14-l5-street-party",
           "title": "Scenario: The Street Party"
+        }
+      ]
+    },
+    {
+      "id": "de-b1-u15",
+      "level": "B1",
+      "title": "Discussing and Deciding",
+      "description": "Give your opinion, weigh pros and cons and agree or disagree, with während, seitdem and bis.",
+      "lessons": [
+        {
+          "id": "de-b1-u15-l1-opinions",
+          "title": "Opinions"
+        },
+        {
+          "id": "de-b1-u15-l2-pros-and-cons",
+          "title": "Pros and Cons"
+        },
+        {
+          "id": "de-b1-u15-l3-while",
+          "title": "While Some Work…"
+        },
+        {
+          "id": "de-b1-u15-l4-since-until",
+          "title": "Since and Until"
+        },
+        {
+          "id": "de-b1-u15-l5-house-meeting",
+          "title": "Scenario: The House Meeting"
         }
       ]
     }

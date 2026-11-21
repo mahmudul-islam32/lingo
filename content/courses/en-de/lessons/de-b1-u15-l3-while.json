@@ -1,0 +1,238 @@
+{
+  "id": "de-b1-u15-l3-while",
+  "courseId": "en-de",
+  "unitId": "de-b1-u15",
+  "title": "While Some Work…",
+  "tip": "während + clause = while / whereas, verb at the end: „Während ich koche, räumt mein Mann auf.“ Clause first? The main verb follows the comma. während + genitive = during: „während der Pause“.",
+  "exercises": [
+    {
+      "id": "de-b1-u15-l3-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        { "id": "p1", "learning": "während", "known": "while / whereas" },
+        { "id": "p2", "learning": "gleichzeitig", "known": "at the same time" },
+        { "id": "p3", "learning": "die Mehrheit", "known": "the majority" },
+        { "id": "p4", "learning": "die Hälfte", "known": "half" },
+        { "id": "p5", "learning": "die meisten", "known": "most people" }
+      ]
+    },
+    {
+      "id": "de-b1-u15-l3-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'While I cook, my husband tidies up.'?",
+      "options": [
+        { "id": "a", "text": "Während ich koche, mein Mann räumt auf." },
+        { "id": "b", "text": "Während ich koche, räumt mein Mann auf." },
+        { "id": "c", "text": "Während koche ich, räumt mein Mann auf." },
+        { "id": "d", "text": "Während ich koche, räumt auf mein Mann." }
+      ],
+      "correctOptionId": "b"
+    },
+    {
+      "id": "de-b1-u15-l3-ex03",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "While Ana works in the office, Tom works at home.",
+      "tiles": [
+        "während",
+        "Ana",
+        "im",
+        "Büro",
+        "arbeitet",
+        "arbeitet",
+        "Tom",
+        "zu",
+        "Hause",
+        "arbeiten",
+        "am",
+        "nach"
+      ],
+      "answers": [
+        "Während Ana im Büro arbeitet, arbeitet Tom zu Hause.",
+        "Tom arbeitet zu Hause, während Ana im Büro arbeitet.",
+        "Zu Hause arbeitet Tom, während Ana im Büro arbeitet."
+      ]
+    },
+    {
+      "id": "de-b1-u15-l3-ex04",
+      "type": "listen",
+      "audio": { "src": "/audio/de/b1/u15/de-b1-u15-l3-ex04.mp3" },
+      "tiles": [
+        "ich",
+        "arbeite",
+        "viel",
+        "gleichzeitig",
+        "lerne",
+        "ich",
+        "Deutsch",
+        "lernt",
+        "während",
+        "arbeitet"
+      ],
+      "answers": ["Ich arbeite viel. Gleichzeitig lerne ich Deutsch."]
+    },
+    {
+      "id": "de-b1-u15-l3-ex05",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "The majority is in favour, but Ms Weber is against it.",
+      "tiles": [
+        "die",
+        "Mehrheit",
+        "ist",
+        "dafür",
+        "aber",
+        "Frau",
+        "Weber",
+        "ist",
+        "dagegen",
+        "der",
+        "sind",
+        "sondern"
+      ],
+      "answers": [
+        "Die Mehrheit ist dafür, aber Frau Weber ist dagegen.",
+        "Dafür ist die Mehrheit, aber Frau Weber ist dagegen.",
+        "Die Mehrheit ist dafür, aber dagegen ist Frau Weber.",
+        "Dafür ist die Mehrheit, aber dagegen ist Frau Weber."
+      ]
+    },
+    {
+      "id": "de-b1-u15-l3-ex06",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'While my colleagues are in the meeting, I work at home.'?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Während meine Kollegen in der Besprechung sind, arbeite ich zu Hause."
+        },
+        {
+          "id": "b",
+          "text": "Während meiner Kollegen in der Besprechung sind, arbeite ich zu Hause."
+        },
+        {
+          "id": "c",
+          "text": "Während meine Kollegen in der Besprechung sind, ich arbeite zu Hause."
+        },
+        {
+          "id": "d",
+          "text": "Während meine Kollegen sind in der Besprechung, arbeite ich zu Hause."
+        }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "de-b1-u15-l3-ex07",
+      "type": "listen",
+      "audio": { "src": "/audio/de/b1/u15/de-b1-u15-l3-ex07.mp3" },
+      "tiles": [
+        "die",
+        "Hälfte",
+        "des",
+        "Teams",
+        "arbeitet",
+        "zu",
+        "Hause",
+        "der",
+        "Team",
+        "arbeiten"
+      ],
+      "answers": ["Die Hälfte des Teams arbeitet zu Hause."]
+    },
+    {
+      "id": "de-b1-u15-l3-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Most people go by bike.",
+      "tiles": ["die", "meisten", "fahren", "mit", "dem", "Rad", "fährt", "der", "meiste"],
+      "answers": [
+        "Die meisten fahren mit dem Rad.",
+        "Mit dem Rad fahren die meisten.",
+        "Die meisten fahren Rad."
+      ]
+    },
+    {
+      "id": "de-b1-u15-l3-ex09",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Während ich telefoniere, spielen die Kinder im Garten.",
+      "tiles": [
+        "while",
+        "I'm",
+        "on",
+        "the",
+        "the",
+        "the",
+        "phone",
+        "children",
+        "are",
+        "playing",
+        "in",
+        "garden",
+        "play",
+        "during"
+      ],
+      "answers": [
+        "While I'm on the phone, the children are playing in the garden.",
+        "While I'm on the phone, the children play in the garden.",
+        "The children are playing in the garden while I'm on the phone.",
+        "The children play in the garden while I'm on the phone."
+      ]
+    },
+    {
+      "id": "de-b1-u15-l3-ex10",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means 'I work in the office, whereas my wife works at home.'?",
+      "options": [
+        { "id": "a", "text": "Ich arbeite im Büro, während meine Frau zu Hause arbeitet." },
+        { "id": "b", "text": "Ich arbeite im Büro, während meine Frau arbeitet zu Hause." },
+        { "id": "c", "text": "Ich arbeite im Büro, während meiner Frau zu Hause arbeitet." },
+        { "id": "d", "text": "Ich arbeite im Büro, während arbeitet meine Frau zu Hause." }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "de-b1-u15-l3-ex11",
+      "type": "listen",
+      "audio": { "src": "/audio/de/b1/u15/de-b1-u15-l3-ex11.mp3" },
+      "tiles": [
+        "während",
+        "die",
+        "meisten",
+        "mit",
+        "dem",
+        "Rad",
+        "fahren",
+        "nehme",
+        "ich",
+        "den",
+        "Bus",
+        "nimmt",
+        "der"
+      ],
+      "answers": ["Während die meisten mit dem Rad fahren, nehme ich den Bus."]
+    },
+    {
+      "id": "de-b1-u15-l3-ex12",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "While I do the shopping, my husband cooks.",
+      "tiles": [
+        "während",
+        "ich",
+        "einkaufe",
+        "kocht",
+        "mein",
+        "Mann",
+        "kaufe",
+        "ein",
+        "koche",
+        "meine"
+      ],
+      "answers": [
+        "Während ich einkaufe, kocht mein Mann.",
+        "Mein Mann kocht, während ich einkaufe."
+      ]
+    }
+  ]
+}
