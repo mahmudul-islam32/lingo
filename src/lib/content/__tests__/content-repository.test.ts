@@ -159,7 +159,7 @@ describe("course registry (CTO-008)", () => {
     ]);
   });
 
-  it("lists en-de and the exam courses as available and keeps the hidden en-es loadable (PD-030, PD-071)", async () => {
+  it("lists en-de and the exam courses as available and keeps the hidden en-es loadable (PD-030, PD-073)", async () => {
     expect(COURSE_REGISTRY).toEqual([
       { id: "en-de", visibility: "available" },
       { id: "telc-b1-en-de", visibility: "available" },

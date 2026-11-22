@@ -4,7 +4,7 @@ import { expect, test, type Page } from "@playwright/test";
 import { completeOnboarding } from "./onboarding-helpers";
 
 /**
- * TELC-001 (PD-071): the telc B1 and Einbürgerungstest courses are offered at onboarding,
+ * TELC-001 (PD-073): the telc B1 and Einbürgerungstest courses are offered at onboarding,
  * play their exam exercise types (explain cards, choice with explanation), and Profile →
  * Course switches between courses. Ids and answers come from the generated content.
  */

@@ -1,9 +1,9 @@
-# ADR-015: Exam-prep exercise types and two exam courses
+# ADR-016: Exam-prep exercise types and two exam courses
 
 - **Status:** Accepted
 - **Date:** 2026-11-21
 - **Ticket:** TELC-001 (owner request: bring the telc B1 web app's content into Polyglow)
-- **Decisions:** PD-071
+- **Decisions:** PD-073
 - **Decider:** owner + cto
 - **Relates to:** [ADR-011](ADR-011-reading-passages.md) and [ADR-012](ADR-012-grammar-note-card.md)
   (both still Proposed). `choice` with a `passage` and `explain` can serve those needs; the

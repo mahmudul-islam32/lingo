@@ -20,6 +20,8 @@ mocks or placeholders and swap in the final answer when it arrives.
 | PRD Q7: TTS licence for pre-generated audio | Placeholder/mock audio files (or locally generated dev-only audio) not shipped to production | PRD §9 |
 | Native-speaker review of German content (A1 and A2) | pm self-review against CDS-1…13 (A2: CDS-1…19); "needs native review" lists kept in CON-DE-A1-QA and CON-DE-A2-QA | PD-038, PD-047 |
 | Legal check of mentioning exam names in marketing | No exam brand names in the app or store copy | PD-035 |
+| Hosted Supabase project and a public URL / domain | Guest mode only; v0.6.0 and everything that needs a server or a public link waits | PD-054, PD-071 |
+| Whether to charge at all; payment provider, legal set-up (Impressum, privacy, terms, withdrawal, cancel button), VAT, price approval | Free, no ads, no payments; no paywall, entitlement or price in the app | PD-072 |
 
 ---
 
@@ -1313,7 +1315,108 @@ together._
   `BRIEF.md`. Holding the release for it would delay the redesign with nothing gained.
 - **Reversibility:** n/a (process decision).
 
-## PD-071: telc B1 Exam Prep and Einbürgerungstest courses
+## PD-071: Marketing proposals review 2026-11-21
+
+- **Date:** 2026-11-21
+- **Reason:** marketing (MKT-001) delivered `docs/marketing/` (market research, personas,
+  positioning, feature proposals, pricing). Per `ORCHESTRATOR.md` (Plan step), marketing
+  proposes and the pm decides. Constraints: brand and IP rules (CLAUDE.md, PD-001), no
+  accounts, server push or payments before v0.6.0, which needs the owner's hosted Supabase;
+  B1 merges only after v1.0.0 (PD-063); no exam names or pass promises (PD-035).
+- **Decision** (proposal numbers from `feature-proposals.md`):
+
+  | # | Proposal | Decision | Milestone / trigger |
+  |---|---|---|---|
+  | 1 | Goal date | **Accept** (free, see §1 below) | **v0.5.4 "Goal date"**: CTO-017, GAM-013, PLT-027, LES-022 |
+  | 2 | Accounts, sync, public URL | **Accept** (already planned) | v0.6.0 stays the top engineering priority the day the owner provides hosted Supabase; the public URL is an owner item. Email **and** Google stay in scope (PRD §6.1). Cookieless, consent-based analytics: the cto writes a technical note before PLT-019 (v1.0.0) |
+  | 3 | Recorded German audio | **Accept** (already planned) | v1.0.0 TTS pipeline (CTO-(tbd)); **gated on the owner's TTS licence** (PRD Q7). Copy never says "native" unless human-recorded |
+  | 4 | Smart review in Practice | **Accept** | **v0.5.5 "Smart review"** (planned; needs per-exercise results stored locally, so a contract ticket first). Free, no daily session cap (§2) |
+  | 5 | "Life in Germany" topics | **Accept in-app index; defer landing pages** | Topic index → **v0.5.6 "Life in Germany topics"** (planned; pm maps topics to lessons, topics respect path locks, PD-064). Public landing pages → v1.0.0, trigger: public URL and domain exist |
+  | 6 | Shareable level and streak card | **Defer** | v1.0.0 (planned). Reason: the card's main value is the app URL, which doesn't exist yet. Trigger: public URL. Wording "I finished the A1 path on Polyglow", never "certified" (PD-035); no personal data on the image except what the learner adds |
+  | 7 | Reminders and streak freeze | **Accept, after accounts** | **v0.7.0 "Habit protection"** (planned, after v0.6.0, doesn't block v1.0.0). Web Push needs a server and consent copy (cto note; iOS only for installed apps). The streak freeze lands in the same milestone so its inventory syncs from day one. 1 free freeze a week |
+  | 8 | Mock level checkpoint (timed, can-do report) | **Defer** | Phase 2. Reasons: a timer works against "kind feedback" (PRD §8.3) and pulls toward exam framing (PD-035); the checkpoints don't have enough items for a repeatable mock; its value is mainly as a paid feature and there are no payments (PD-072). Trigger: B1 merged **and** a go decision on paid plans. An untimed can-do summary on checkpoint results may come earlier as its own idea |
+  | 9 | Typed answers, then speaking | **Accept** (already planned) | Speak: LES-011 + CON-DE-SPK in v1.0.0. Typed answers with `ss` / umlaut handling (PD-033): B1-T2 in v1.1.0. No change |
+  | 10 | Teacher / cohort view (B2B) | **Defer** | Phase 3. Needs accounts, roles, learner consent and a data-processing agreement (owner / legal). Trigger: v0.6.0 released **and** an organisation asks for a pilot **and** the owner has the legal set-up |
+  | — | Ukrainian / Arabic / Turkish UI | Keep as planned | Phase 3 (PD-031) |
+  | — | Leagues | Keep as planned | Phase 2, after v0.6.0 and enough active learners |
+  | — | AI conversation partner | **Reject for now** | PRD §7: no AI-generated content at runtime; accuracy and cost risks. Revisit after B1 |
+  | — | B1 as the reason to pay | Noted | B1 stays v1.1.0 and merges after v1.0.0 (PD-063); the gating question is in PD-072 |
+  | — | Plus interest-test card (`pricing.md` §7) | **Defer** | It advertises a plan we haven't committed to, and a device-only click count can't be read without analytics. Trigger: PLT-019 analytics live **and** the owner says charging is on the table |
+
+  **§1 Goal date, product rules** (tickets CTO-017, GAM-013, PLT-027, LES-022):
+  1. The learner picks a **target level** (a level with content, at or after the start level)
+     and a **date** (after today, within 730 days) in **Profile**. Learn has a card (or, with
+     no plan, one text link) and the results screen has one row.
+  2. **Suggest, never auto-change:** the app shows a suggested daily goal and a one-tap "Use
+     <n> XP a day". The daily goal only changes when the learner taps it.
+  3. **Rule:** lessons left = not-completed lessons (checkpoints included) from the start
+     level through the target level; days left = target date − today (the date itself isn't
+     a study day); lessons a day = ceil(lessons left / days left); suggested goal = the
+     smallest daily-goal option ≥ lessons a day × XP per lesson, else the largest. Statuses:
+     reached, date-passed, on-track (current goal is enough), raise-goal, tight (more than
+     the largest option). The plan is based on the daily goal, not on past pace, so it never
+     judges the learner's history.
+  4. **Kind copy:** "On track", "Aim for about …", "This date is tight", "Your goal date has
+     come". Never "behind", "late", "failed", "exam", "test" or "pass"; no exam names
+     (PD-035).
+  5. **Not in onboarding** for now: an extra step costs time to first lesson (G1, ≤ 45 s).
+     Revisit when PLT-019 analytics can show whether Profile-only discovery is too low.
+  6. No weekly plan, reminders or history-based pace in v0.5.4. All of goal date is free
+     (PD-072).
+
+  **§2 Smart review is free without a cap.** Marketing suggested "1 session a day free,
+  unlimited in Plus". Rejected: "practice is never locked" is a positioning pillar and a
+  retention driver (PD-065); paid plans must add new things, not ration practice (PD-072).
+- **Rationale:** goal date scores highest of the items that need no backend, serves the
+  deadline learners (Priya, Amara; US-DE-07) and the daily-goal-hit-rate and D7 metrics, and
+  is a small local calculation on data we already have. Smart review and the topic index are
+  also local and support retention and the "German for real life" pillar. Everything that
+  needs a server, a public URL, a licence or payments waits for its owner trigger instead of
+  being built against mocks that would ship nothing.
+- **Alternatives considered:** schedule v0.6.0 before goal date (it is blocked on the owner,
+  so the team would be idle); goal date in onboarding (slower first lesson); auto-adjusting
+  the daily goal (takes control from the learner and can silently set a goal too high, a D7
+  risk); a mock checkpoint now (exam framing, no payments to justify it).
+- **Reversibility:** High. Each item is a ticket or a planned milestone; the goal plan is one
+  optional setting.
+
+## PD-072: Pricing position (on `docs/marketing/pricing.md`)
+
+- **Date:** 2026-11-21
+- **Decision:**
+  1. **Polyglow stays free, with no ads and no payments.** PRD §7 (no monetisation) stands
+     through v1.0.0. The product **does not commit to charging**: whether to charge, the
+     payment provider, legal set-up (Impressum, privacy, terms, withdrawal rules, the
+     cancellation button), VAT and prices are **owner items** (see "Waiting on owner").
+  2. **Free-tier promise, agreed as a product rule: nothing that is free becomes paid.** That
+     covers everything on `main` today (all A1 and A2 lessons, checkpoints and tips; hearts
+     that refill and are earned back; unlimited Practice; offline and install; no ads) and
+     everything we ship free before a paid plan exists, including accounts and sync (v0.6.0),
+     goal date (v0.5.4), smart review (v0.5.5), the topic index (v0.5.6) and one streak
+     freeze a week (v0.7.0). A future paid plan may only **add** things; free hearts, practice
+     and existing content are never made stricter to push upgrades. Public copy keeps "Free"
+     and doesn't say "free forever" or publish this promise until the owner approves it.
+  3. **B1 gating is open.** B1 is planned as free. If the owner wants B1 in a paid plan, that
+     must be decided **before B1 merges** (after v1.0.0, PD-063); otherwise B1 ships free and
+     rule 2 applies to it.
+  4. Marketing's model (Plus €5.99 / €39.99, Goal Pass €14.99, regional prices, B2B seats
+     about €3) is recorded as a **hypothesis**, not approved. No entitlement contract,
+     paywall, price, trial or "Plus" copy is ticketed or shown in the app. The no-charge
+     interest test is deferred (PD-071).
+  5. If the owner decides to charge, the pm then writes a pricing milestone after v0.6.0 in
+     the order of `pricing.md` §5 (accounts → entitlements contract → merchant-of-record
+     integration → plan and cancel screens → renewal reminders → a Plus feature with real
+     value on day one).
+- **Rationale:** charging needs accounts, legal terms and a VAT set-up the team can't
+  provide, and promising "free" for what exists protects trust, which is our main advantage
+  over energy-limited free tiers (positioning pillar 3).
+- **Alternatives considered:** adopt marketing's prices now (owner and legal items, nothing
+  to sell yet); ship an interest-test card now (promotes an uncommitted plan, can't be
+  measured); keep "free" undefined (marketing and future tickets need a clear line).
+- **Reversibility:** Rules 1, 3, 4 are high. Rule 2 is deliberately hard to reverse; changing
+  it needs a new PD and the owner's approval.
+
+## PD-073: telc B1 Exam Prep and Einbürgerungstest courses
 
 - **Date:** 2026-11-21 (TELC-001, owner request)
 - **Reason:** the owner asked for all the content of their telc B1 web app (exam prep and

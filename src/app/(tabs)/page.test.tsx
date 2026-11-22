@@ -37,6 +37,12 @@ vi.mock("@/features/gamification", () => {
     GamificationTopBar: block("top-bar"),
     StreakLumi: block("streak-lumi"),
     DailyGoalRing: block("daily-goal-ring"),
+    // PLT-027: GAM-013's goal-date card and hook (no plan → `null`).
+    GoalPlanCard: (props: Record<string, unknown>) => {
+      mocks.calls.push({ name: "goal-plan-card", props });
+      return <div data-testid="goal-plan-card">goal-plan-card:{String(props.status)}</div>;
+    },
+    useGoalPlan: () => null,
     useUserProgress: () => mocks.progress,
     // Profile (PLT-026) reads the raw results for its weekly chart; loading here.
     useProgressInputs: () => ({
@@ -99,6 +105,16 @@ describe("LearnPage (PLT-009)", () => {
     const row = screen.getByTestId("learn-header");
     expect(row).toContainElement(screen.getByTestId("streak-lumi"));
     expect(row).toContainElement(screen.getByTestId("daily-goal-ring"));
+    // PLT-027 AC 10: the goal-date card sits under the ring row and above the path.
+    const card = screen.getByTestId("goal-plan-card");
+    expect(row.compareDocumentPosition(card) & Node.DOCUMENT_POSITION_FOLLOWING).toBeTruthy();
+    expect(
+      card.compareDocumentPosition(screen.getByTestId("skill-path")) &
+        Node.DOCUMENT_POSITION_FOLLOWING,
+    ).toBeTruthy();
+    const cardProps = mocks.calls.find((c) => c.name === "goal-plan-card")!.props;
+    expect(cardProps.status).toBeNull();
+    expect(typeof cardProps.onUseSuggestedGoal).toBe("function");
     // The top bar sticks while the path scrolls (AC 9).
     expect(screen.getByTestId("top-bar")).toHaveClass("sticky", "top-0", "z-10");
   });

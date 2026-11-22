@@ -1,6 +1,6 @@
 /** User identity, profile and settings. */
 import { z } from "zod";
-import { IsoDateTimeSchema, SlugSchema, UuidSchema } from "./common";
+import { IsoDateTimeSchema, LocalDateSchema, SlugSchema, UuidSchema } from "./common";
 import { DAILY_GOAL_OPTIONS } from "./config";
 import { CefrLevelSchema } from "./course";
 
@@ -51,6 +51,20 @@ export const ProfileUpdateSchema = ProfileSchema.pick({
 });
 export type ProfileUpdate = z.infer<typeof ProfileUpdateSchema>;
 
+/**
+ * The learner's goal date (CTO-017, ADR-015, PD-071 §1): finish `targetLevel` by
+ * `targetDate`. Structural only: "after today" and "within `GAME_CONFIG.goalPlanMaxDays`"
+ * depend on today and are enforced by the Profile dialog (PLT-027), not by this schema,
+ * so a stored plan whose date has passed stays valid (status `date-passed`).
+ */
+export const GoalPlanSchema = z.object({
+  /** A level of the course with content; `computeGoalPlan` returns `null` otherwise. */
+  targetLevel: CefrLevelSchema,
+  /** Device-local calendar date `YYYY-MM-DD` (no time, no zone). */
+  targetDate: LocalDateSchema,
+});
+export type GoalPlan = z.infer<typeof GoalPlanSchema>;
+
 export const SettingsSchema = z.object({
   /** Active course. Only one exists in MVP, but onboarding still picks it. */
   courseId: SlugSchema,
@@ -66,6 +80,13 @@ export const SettingsSchema = z.object({
    * the first level. Optional so stored settings stay valid (no Dexie/schema bump).
    */
   startLevel: CefrLevelSchema.optional(),
+  /**
+   * Goal date (CTO-017, ADR-015). Missing or `null` both mean "no goal date"; readers
+   * treat them alike (`settings.goalPlan ?? null`). `null` is what a clear writes
+   * (`updateSettings({ goalPlan: null })`), so the spread patch needs no special case and
+   * syncs as nullable columns. Optional so stored settings stay valid (no Dexie bump).
+   */
+  goalPlan: GoalPlanSchema.nullable().optional(),
   /** Last-write-wins conflict key. */
   updatedAt: IsoDateTimeSchema,
 });

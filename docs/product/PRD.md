@@ -137,6 +137,9 @@ Measured from MVP launch, on a rolling 28-day window. MVP needs basic event trac
 - **Start level (v0.5.2, PD-064):** onboarding asks "Where do you want to start?" (levels
   with content, A1 preselected); earlier levels stay playable but are not marked
   completed; changeable in Profile and with "Start here" on a locked level.
+- **Goal date (v0.5.4, PD-071):** optional target level and date in Profile; Learn shows
+  lessons left, days to go and a suggested daily goal (suggest only, never auto-changed);
+  free (PD-072).
 
 **Platform**
 - **Auth:** email + password sign-up and log-in, Google sign-in (Supabase Auth),
@@ -187,7 +190,8 @@ Measured from MVP launch, on a rolling 28-day window. MVP needs basic event trac
 
 ## 7. Non-goals (MVP)
 
-- No monetization: no ads, purchases or subscriptions.
+- No monetization: no ads, purchases or subscriptions. Stands through v1.0.0; whether to
+  charge later is an owner decision, and nothing free becomes paid (PD-072).
 - No social features: no leagues, friends, chat or sharing beyond a plain link.
 - No AI-generated lesson content at runtime. All content is authored and reviewed.
 - No native iOS or Android apps, and no app-store distribution.

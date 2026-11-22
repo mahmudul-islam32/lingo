@@ -10,6 +10,8 @@ export interface SettingsRowProps {
   valueTestId?: string;
   /** Accessible name of the Change button, e.g. "Change daily goal". */
   changeLabel: string;
+  /** Visible text of the button. Default "Change" (e.g. "Set" for an empty goal date). */
+  actionText?: string;
   onChange: () => void;
   changeRef?: Ref<HTMLButtonElement>;
   /** Dialog, error message … rendered inside the row. */
@@ -26,6 +28,7 @@ export function SettingsRow({
   value,
   valueTestId,
   changeLabel,
+  actionText = "Change",
   onChange,
   changeRef,
   children,
@@ -44,7 +47,7 @@ export function SettingsRow({
             {value}
           </span>
           <Button ref={changeRef} variant="ghost" aria-label={changeLabel} onClick={onChange}>
-            Change
+            {actionText}
           </Button>
         </div>
       </div>
