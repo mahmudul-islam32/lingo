@@ -3,7 +3,7 @@
   "courseId": "einbuergerung-en-de",
   "unitId": "eb-u14",
   "title": "Mock test 10 (Probetest 10)",
-  "tip": "Real format: 30 general + 3 Nordrhein-Westfalen questions. Allow 60 minutes; 17 correct to pass, aim for 28+.",
+  "tip": "Real format: 30 general + 3 Niedersachsen questions. Allow 60 minutes; 17 correct to pass, aim for 28+.",
   "exercises": [
     {
       "id": "eb-u14-l11-probetest-10-ex01",
@@ -497,7 +497,7 @@
         }
       ],
       "correctOptionId": "b",
-      "explanation": "**Correct answer:** 4\n\nFour zones for four Allies (→Q167). Rough map: **British northwest** (incl. NRW/Dortmund), **Soviet east**, **American south**, **French southwest**. Berlin, inside the Soviet zone, was itself quartered (→Q177), the anomaly that produced blockade, airlift, and Wall.\n\n## Auf Deutsch\n\nNach dem Krieg gab es 4 Besatzungszonen."
+      "explanation": "**Correct answer:** 4\n\nFour zones for four Allies (→Q167). Rough map: **British northwest** (incl. Niedersachsen), **Soviet east**, **American south**, **French southwest**. Berlin, inside the Soviet zone, was itself quartered (→Q177), the anomaly that produced blockade, airlift, and Wall.\n\n## Auf Deutsch\n\nNach dem Krieg gab es 4 Besatzungszonen."
     },
     {
       "id": "eb-u14-l11-probetest-10-ex20",
@@ -788,34 +788,34 @@
     {
       "id": "eb-u14-l11-probetest-10-ex31",
       "type": "choice",
-      "title": "NRW 3 · Landesfrage",
-      "prompt": "Für wie viele Jahre wird der Landtag von Nordrhein-Westfalen gewählt?",
+      "title": "NDS 3 · Landesfrage",
+      "prompt": "Für wie viele Jahre wird der Landtag in Niedersachsen gewählt?",
       "options": [
         {
           "id": "a",
-          "text": "3 Jahre"
+          "text": "3"
         },
         {
           "id": "b",
-          "text": "4 Jahre"
+          "text": "4"
         },
         {
           "id": "c",
-          "text": "5 Jahre"
+          "text": "5"
         },
         {
           "id": "d",
-          "text": "6 Jahre"
+          "text": "6"
         }
       ],
       "correctOptionId": "c",
-      "explanation": "**Correct answer:** 5 Jahre\n\nNRW's Landtag (Düsseldorf, Rhine-side building): **5-year term**, one year LONGER than the Bundestag's 4 (→Q107). That mismatch is the entire trap; most Länder moved to 5 years precisely to decouple from federal cycles. Last elected 2022 → next regular **Landtagswahl 2027**, plausibly your first-ever German ballot if the Urkunde arrives in time. Motivation, quantified.\n\n## Auf Deutsch\n\nDer NRW-Landtag wird für 5 Jahre gewählt (Bundestag: nur 4!)."
+      "explanation": "**Correct answer:** 5\n\n**5 years**, one year longer than the Bundestag's 4 (→Q107). That mismatch is the whole trap. The Landtag meets in the Leineschloss in Hannover; it was last elected in 2022, so the next regular Landtagswahl is due in 2027.\n\n## Auf Deutsch\n\nDer Landtag in Niedersachsen wird für 5 Jahre gewählt (Bundestag: nur 4!)."
     },
     {
       "id": "eb-u14-l11-probetest-10-ex32",
       "type": "choice",
-      "title": "NRW 6 · Landesfrage",
-      "prompt": "Wo können sich Bürgerinnen und Bürger in Nordrhein-Westfalen über politische Fragen informieren?",
+      "title": "NDS 6 · Landesfrage",
+      "prompt": "Wo können Sie sich in Niedersachsen über politische Themen informieren?",
       "options": [
         {
           "id": "a",
@@ -823,45 +823,45 @@
         },
         {
           "id": "b",
-          "text": "beim Ordnungsamt"
+          "text": "beim Ordnungsamt der Gemeinde"
         },
         {
           "id": "c",
-          "text": "beim Finanzamt"
+          "text": "bei der Verbraucherzentrale"
         },
         {
           "id": "d",
-          "text": "im Reisebüro"
+          "text": "bei den Kirchen"
         }
       ],
       "correctOptionId": "a",
-      "explanation": "**Correct answer:** bei der Landeszentrale für politische Bildung\n\nThe **Landeszentrale für politische Bildung NRW**, the Land's nonpartisan civic-education agency: free/cheap books, events, election guides (its federal sibling bpb runs the famous Wahl-O-Mat). Meta-moment: preparing for this very test with study materials *is* the activity this question describes, the Landeszentrale would approve of these three files.\n\n## Auf Deutsch\n\nPolitische Informationen: bei der Landeszentrale für politische Bildung NRW."
+      "explanation": "**Correct answer:** bei der Landeszentrale für politische Bildung\n\nThe **Landeszentrale für politische Bildung Niedersachsen**, the Land's nonpartisan civic-education agency: free or cheap books, events and election guides. Its federal sibling, the bpb, runs the well-known Wahl-O-Mat.\n\nOrdnungsamt = local public order (permits, registrations, noise); Verbraucherzentrale = consumer advice (contracts, prices); the churches are religious communities, not a source of neutral political information.\n\n## Auf Deutsch\n\nÜber politische Themen informiert die Landeszentrale für politische Bildung Niedersachsen (in Hannover)."
     },
     {
       "id": "eb-u14-l11-probetest-10-ex33",
       "type": "choice",
-      "title": "NRW 10 · Landesfrage",
-      "prompt": "Welchen Minister/welche Ministerin hat Nordrhein-Westfalen nicht?",
+      "title": "NDS 10 · Landesfrage",
+      "prompt": "Welche Ministerin/ welchen Minister hat Niedersachsen nicht?",
       "options": [
         {
           "id": "a",
-          "text": "Justizminister/Justizministerin"
+          "text": "Justizministerin/Justizminister"
         },
         {
           "id": "b",
-          "text": "Außenminister/Außenministerin"
+          "text": "Außenministerin/Außenminister"
         },
         {
           "id": "c",
-          "text": "Finanzminister/Finanzministerin"
+          "text": "Finanzministerin/Finanzminister"
         },
         {
           "id": "d",
-          "text": "Innenminister/Innenministerin"
+          "text": "Innenministerin/Innenminister"
         }
       ],
       "correctOptionId": "b",
-      "explanation": "**Correct answer:** Außenminister/Außenministerin\n\nNo Land has an **Außenminister**, foreign policy is exclusively federal (Art. 32 GG; →Q39's trio: Außenpolitik, Währung, Armee). NRW does run Justiz, Finanzen, Inneres (Land police! →Q148), Schule (→Q49) and more, federalism gives Länder real power *inward*, none *outward*. The question is Q39 wearing NRW colors: one federal principle, two guaranteed test points.\n\n## Auf Deutsch\n\nEinen Außenminister hat kein Bundesland. Außenpolitik macht nur der Bund."
+      "explanation": "**Correct answer:** Außenministerin/Außenminister\n\nNo Land has an **Außenminister**: foreign policy is federal (Art. 32 GG; →Q39's trio: foreign policy, currency, army). Niedersachsen does have ministers for justice, finance and the interior (Land police, →Q148), schools (→Q49) and more. Federalism gives the Länder real power at home, none abroad.\n\n## Auf Deutsch\n\nEinen Außenminister hat kein Bundesland. Außenpolitik macht nur der Bund."
     }
   ]
 }

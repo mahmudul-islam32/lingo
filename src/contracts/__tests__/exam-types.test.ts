@@ -70,6 +70,38 @@ describe("exam exercise types (TELC-001)", () => {
     ).toBe(false);
   });
 
+  it("accepts a choice with a figure of 1–4 images (TELC-005)", () => {
+    const image = (n: number) => ({ src: `/images/eb/q21-bild-${n}.png`, alt: `Picture ${n}` });
+    const base = { id: "c1", type: "choice", prompt: "Welches?", options, correctOptionId: "a" };
+    expect(
+      ExerciseSchema.safeParse({
+        ...base,
+        figure: {
+          images: [1, 2, 3, 4].map((n) => ({ ...image(n), label: `Bild ${n}` })),
+          credit: "BAMF",
+        },
+      }).success,
+    ).toBe(true);
+    expect(ExerciseSchema.safeParse({ ...base, figure: { images: [image(1)] } }).success).toBe(
+      true,
+    );
+  });
+
+  it("rejects a figure with no or too many images, a bad path, an empty alt or extra keys", () => {
+    const base = { id: "c1", type: "choice", prompt: "Welches?", options, correctOptionId: "a" };
+    const ok = { src: "/images/eb/q55.jpg", alt: "A building" };
+    for (const figure of [
+      { images: [] },
+      { images: [ok, ok, ok, ok, ok] },
+      { images: [{ ...ok, src: "https://example.com/x.jpg" }] },
+      { images: [{ ...ok, src: "/audio/x.mp3" }] },
+      { images: [{ ...ok, alt: " " }] },
+      { images: [ok], caption: "extra" },
+    ]) {
+      expect(ExerciseSchema.safeParse({ ...base, figure }).success).toBe(false);
+    }
+  });
+
   it("accepts listening, task and explain", () => {
     for (const exercise of [
       {

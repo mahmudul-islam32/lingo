@@ -3,7 +3,7 @@
   "courseId": "einbuergerung-en-de",
   "unitId": "eb-u05",
   "title": "Questions 128–135 (Fragen 128–135)",
-  "tip": "Some of these are picture questions: in the real test the options are images; here they are described in words.",
+  "tip": "Some of these are picture questions: look at the pictures, just like in the real test.",
   "exercises": [
     {
       "id": "eb-u05-l05-q128-135-ex01",
@@ -62,26 +62,35 @@
       "type": "choice",
       "title": "Frage 130 · Block 5",
       "prompt": "Welcher Stimmzettel wäre bei einer Bundestagswahl gültig?",
+      "figure": {
+        "images": [
+          {
+            "src": "/images/eb/q130.jpg",
+            "alt": "Four sample Bundestag ballots, numbered 1–4, each with a left column (Erststimme) and a right column (Zweitstimme). 1: one cross left, one right. 2: none left, two right. 3: two left, none right. 4: three left, none right."
+          }
+        ],
+        "credit": "Bilder: BAMF, Gesamtfragenkatalog „Leben in Deutschland“ (Stand 07.05.2025)"
+      },
       "options": [
         {
           "id": "a",
-          "text": "den Stimmzettel mit genau EINEM Kreuz in der linken und EINEM Kreuz in der rechten Spalte"
+          "text": "Stimmzettel 1"
         },
         {
           "id": "b",
-          "text": "den Stimmzettel mit zwei Kreuzen in einer Spalte"
+          "text": "Stimmzettel 2"
         },
         {
           "id": "c",
-          "text": "den Stimmzettel mit einem Kommentar am Rand"
+          "text": "Stimmzettel 3"
         },
         {
           "id": "d",
-          "text": "den Stimmzettel ohne Kreuze, aber mit Unterschrift"
+          "text": "Stimmzettel 4"
         }
       ],
       "correctOptionId": "a",
-      "explanation": "**Correct answer:** den Stimmzettel mit genau EINEM Kreuz in der linken und EINEM Kreuz in der rechten Spalte\n\n*Picture question (Bildfrage):* in the real test you see pictures here, and the answer options describe them.\n\nCorrect: the ballot with exactly ONE cross in the left column (Erststimme) and ONE cross in the right column (Zweitstimme).\n\nValidity rule: one clear mark per column, no extra writing, no ambiguity. Two crosses in one column spoils that vote; slogans or signatures can spoil the whole ballot. The columns: left = your Wahlkreis candidate, right = a party's Land list (→Q93). Practice this image in the Online-Testcenter, it's instantly obvious once seen.\n\n## Auf Deutsch\n\nGültig ist der Stimmzettel mit genau EINEM Kreuz pro Spalte (Erst- und Zweitstimme)."
+      "explanation": "**Correct answer:** Stimmzettel 1\n\n*Picture question (Bildfrage):* the pictures above are the ones from the official question catalogue.\n\nCorrect: the ballot with exactly ONE cross in the left column (Erststimme) and ONE cross in the right column (Zweitstimme).\n\n**The ballots:** 1 = one cross per column (valid) · 2 = two crosses in the Zweitstimme column · 3 = two crosses in the Erststimme column · 4 = three crosses in the Erststimme column.\n\nValidity rule: one clear mark per column, no extra writing, no ambiguity. Two crosses in one column spoils that vote; slogans or signatures can spoil the whole ballot. The columns: left = your Wahlkreis candidate, right = a party's Land list (→Q93). Practice this image in the Online-Testcenter, it's instantly obvious once seen.\n\n## Auf Deutsch\n\nGültig ist der Stimmzettel mit genau EINEM Kreuz pro Spalte (Erst- und Zweitstimme)."
     },
     {
       "id": "eb-u05-l05-q128-135-ex04",
@@ -107,7 +116,7 @@
         }
       ],
       "correctOptionId": "c",
-      "explanation": "**Correct answer:** das Oberhaupt einer Gemeinde\n\nThe **Bürgermeister(in)** heads the Gemeinde (→Q69), in NRW directly elected by local residents. Fun fact with a wrinkle you'll enjoy: at *Kommunalwahlen*, EU citizens may already vote, but non-EU nationals like you may not; naturalization unlocks even your city hall.\n\n## Auf Deutsch\n\nDer Bürgermeister / die Bürgermeisterin ist das Oberhaupt einer Gemeinde."
+      "explanation": "**Correct answer:** das Oberhaupt einer Gemeinde\n\nThe **Bürgermeister(in)** heads the Gemeinde (→Q69), in Niedersachsen directly elected by local residents. Fun fact with a wrinkle you'll enjoy: at *Kommunalwahlen*, EU citizens may already vote, but non-EU nationals like you may not; naturalization unlocks even your city hall.\n\n## Auf Deutsch\n\nDer Bürgermeister / die Bürgermeisterin ist das Oberhaupt einer Gemeinde."
     },
     {
       "id": "eb-u05-l05-q128-135-ex05",

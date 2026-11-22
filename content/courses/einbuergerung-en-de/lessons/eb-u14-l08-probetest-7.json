@@ -3,7 +3,7 @@
   "courseId": "einbuergerung-en-de",
   "unitId": "eb-u14",
   "title": "Mock test 7 (Probetest 7)",
-  "tip": "Real format: 30 general + 3 Nordrhein-Westfalen questions. Allow 60 minutes; 17 correct to pass, aim for 28+.",
+  "tip": "Real format: 30 general + 3 Niedersachsen questions. Allow 60 minutes; 17 correct to pass, aim for 28+.",
   "exercises": [
     {
       "id": "eb-u14-l08-probetest-7-ex01",
@@ -159,7 +159,7 @@
         }
       ],
       "correctOptionId": "c",
-      "explanation": "**Correct answer:** schwieriger, wenn dadurch die Mehrheit im Bundesrat verändert wird\n\nChain of logic: Land election → new Land government → new votes in the **Bundesrat** (→Q85) → federal consent-laws may now be blocked. This is why federal politicians campaign hard in NRW's Landtagswahl, your state's 6 Bundesrat votes can flip federal lawmaking.\n\nA is impossible. Land elections never change *Bundestag* seats; B and D have no such mechanism. Federalism as checks-and-balances, in one question.\n\n## Auf Deutsch\n\nLandtagswahlen können die Mehrheit im Bundesrat verändern. Regieren wird dann schwieriger."
+      "explanation": "**Correct answer:** schwieriger, wenn dadurch die Mehrheit im Bundesrat verändert wird\n\nChain of logic: Land election → new Land government → new votes in the **Bundesrat** (→Q85) → federal consent-laws may now be blocked. This is why federal politicians campaign hard in Niedersachsen's Landtagswahl, the Land's 6 Bundesrat votes can flip federal lawmaking.\n\nA is impossible. Land elections never change *Bundestag* seats; B and D have no such mechanism. Federalism as checks-and-balances, in one question.\n\n## Auf Deutsch\n\nLandtagswahlen können die Mehrheit im Bundesrat verändern. Regieren wird dann schwieriger."
     },
     {
       "id": "eb-u14-l08-probetest-7-ex07",
@@ -393,7 +393,7 @@
         }
       ],
       "correctOptionId": "d",
-      "explanation": "**Correct answer:** USA, Sowjetunion, Großbritannien, Frankreich\n\nThe Big Four: **USA, Soviet Union, Great Britain, France**, each ran a zone (→Q175) and a Berlin sector (→Q177). France was added at Yalta despite defeat in 1940; the neutral and Axis states in A–C are the tells (Sweden/Spain/Portugal neutral; Italy/Japan were Germany's *allies*). Local note: NRW, including Dortmund, was **British** zone; the British actually *created* NRW in 1946 (\"Operation Marriage\" merging Rhineland and Westphalia).\n\n## Auf Deutsch\n\nDie vier Alliierten: USA, Sowjetunion, Großbritannien, Frankreich."
+      "explanation": "**Correct answer:** USA, Sowjetunion, Großbritannien, Frankreich\n\nThe Big Four: **USA, Soviet Union, Great Britain, France**, each ran a zone (→Q175) and a Berlin sector (→Q177). France was added at Yalta despite defeat in 1940; the neutral and Axis states in A–C are the tells (Sweden/Spain/Portugal neutral; Italy/Japan were Germany's *allies*). Local note: Niedersachsen was in the **British** zone; the British created it on 1 November 1946 by merging Hannover, Oldenburg, Braunschweig and Schaumburg-Lippe.\n\n## Auf Deutsch\n\nDie vier Alliierten: USA, Sowjetunion, Großbritannien, Frankreich."
     },
     {
       "id": "eb-u14-l08-probetest-7-ex16",
@@ -556,26 +556,51 @@
       "type": "choice",
       "title": "Frage 209 · Block 9",
       "prompt": "Welches war das Wappen der Deutschen Demokratischen Republik?",
+      "figure": {
+        "images": [
+          {
+            "src": "/images/eb/q21-bild-1.png",
+            "alt": "A black eagle with a red beak and red claws on a golden-yellow shield",
+            "label": "Bild 1"
+          },
+          {
+            "src": "/images/eb/q21-bild-2.png",
+            "alt": "A black symbol made of two crossed letters, X and P",
+            "label": "Bild 2"
+          },
+          {
+            "src": "/images/eb/q21-bild-3.png",
+            "alt": "A grey cross with flared arms, framed in dark blue and white",
+            "label": "Bild 3"
+          },
+          {
+            "src": "/images/eb/q21-bild-4.png",
+            "alt": "A golden hammer and compass on a red circle, framed by ears of wheat and a black-red-gold ribbon",
+            "label": "Bild 4"
+          }
+        ],
+        "credit": "Bilder: BAMF, Gesamtfragenkatalog „Leben in Deutschland“ (Stand 07.05.2025)"
+      },
       "options": [
         {
           "id": "a",
-          "text": "Hammer und Zirkel im Ährenkranz"
+          "text": "Bild 1"
         },
         {
           "id": "b",
-          "text": "der schwarze Bundesadler auf gelbem Schild"
+          "text": "Bild 2"
         },
         {
           "id": "c",
-          "text": "ein weißes Pferd auf rotem Schild"
+          "text": "Bild 3"
         },
         {
           "id": "d",
-          "text": "ein schwarzer Bär auf weißem Schild"
+          "text": "Bild 4"
         }
       ],
-      "correctOptionId": "a",
-      "explanation": "**Correct answer:** Hammer und Zirkel im Ährenkranz\n\n*Picture question (Bildfrage):* in the real test you see pictures here, and the answer options describe them.\n\nCorrect: Hammer und Zirkel im Ährenkranz (hammer and compass inside a wreath of grain).\n\nDecode it once and it sticks: **Hammer** = workers, **Zirkel** (drafting compass) = the \"intelligentsia,\" **Ährenkranz** = farmers, the SED's claimed class alliance (→Q187 for the flag version). Distractors: the Bundesadler (→Q21), Länder arms, or the plain tricolor. Another Online-Testcenter must-see image.\n\n## Auf Deutsch\n\nDas DDR-Wappen: Hammer und Zirkel im Ährenkranz."
+      "correctOptionId": "d",
+      "explanation": "**Correct answer:** Bild 4\n\n*Picture question (Bildfrage):* the pictures above are the ones from the official question catalogue.\n\nCorrect: Hammer und Zirkel im Ährenkranz (hammer and compass inside a wreath of grain).\n\n**The pictures:** Bild 1 = Bundesadler (→Q21) · Bild 2 = Christusmonogramm (Chi-Rho, a Christian symbol) · Bild 3 = Eisernes Kreuz of the Bundeswehr · Bild 4 = coat of arms of the DDR (correct).\n\nDecode it once and it sticks: **Hammer** = workers, **Zirkel** (drafting compass) = the \"intelligentsia,\" **Ährenkranz** = farmers, the SED's claimed class alliance (→Q187 for the flag version). Distractors: the Bundesadler (→Q21), Länder arms, or the plain tricolor. Another Online-Testcenter must-see image.\n\n## Auf Deutsch\n\nDas DDR-Wappen: Hammer und Zirkel im Ährenkranz."
     },
     {
       "id": "eb-u14-l08-probetest-7-ex23",
@@ -788,8 +813,8 @@
     {
       "id": "eb-u14-l08-probetest-7-ex31",
       "type": "choice",
-      "title": "NRW 2 · Landesfrage",
-      "prompt": "Welcher Landkreis liegt in Nordrhein-Westfalen?",
+      "title": "NDS 2 · Landesfrage",
+      "prompt": "Welches ist ein Landkreis in Niedersachsen?",
       "options": [
         {
           "id": "a",
@@ -808,60 +833,69 @@
           "text": "Vogtlandkreis"
         }
       ],
-      "correctOptionId": "b",
-      "explanation": "**Correct answer:** Rhein-Sieg-Kreis\n\nThe **Rhein-Sieg-Kreis** (around Bonn. Rhein + Sieg rivers, both NRW waters).\n\nAmmerland = Niedersachsen, Nordfriesland = Schleswig-Holstein (the name says North Sea), Vogtlandkreis = Sachsen. Technique: river/region names locate districts, anything \"Rhein-\" or \"Ruhr-\" smells of NRW. (Dortmund itself is kreisfrei, a city outside any Kreis; so is most of the Ruhrgebiet.)\n\n## Auf Deutsch\n\nDer Rhein-Sieg-Kreis (bei Bonn) liegt in NRW."
+      "correctOptionId": "a",
+      "explanation": "**Correct answer:** Ammerland\n\n**Ammerland**, a rural district in the northwest near Oldenburg (Kreisstadt Westerstede), known for its rhododendron parks and the Zwischenahner Meer.\n\nRhein-Sieg-Kreis = NRW (around Bonn), Nordfriesland = Schleswig-Holstein (the North Frisian coast), Vogtlandkreis = Sachsen. Technique: river and region names place districts: \"Rhein-\" points west, \"Vogtland\" to the far southeast. Trap: Niedersachsen does have a Landkreis *Friesland* (around Jever), but *Nord*friesland is Schleswig-Holstein.\n\n## Auf Deutsch\n\nDer Landkreis Ammerland (bei Oldenburg, Kreisstadt Westerstede) liegt in Niedersachsen."
     },
     {
       "id": "eb-u14-l08-probetest-7-ex32",
       "type": "choice",
-      "title": "NRW 4 · Landesfrage",
-      "prompt": "Ab welchem Alter dürfen Bürgerinnen und Bürger in Nordrhein-Westfalen bei Kommunalwahlen wählen?",
+      "title": "NDS 4 · Landesfrage",
+      "prompt": "Ab welchem Alter darf man in Niedersachsen bei Kommunalwahlen wählen?",
       "options": [
         {
           "id": "a",
-          "text": "ab 14 Jahren"
+          "text": "14"
         },
         {
           "id": "b",
-          "text": "ab 16 Jahren"
+          "text": "16"
         },
         {
           "id": "c",
-          "text": "ab 18 Jahren"
+          "text": "18"
         },
         {
           "id": "d",
-          "text": "ab 21 Jahren"
+          "text": "20"
         }
       ],
       "correctOptionId": "b",
-      "explanation": "**Correct answer:** ab 16 Jahren\n\nNRW Kommunalwahlen (city council, Bürgermeister, Landrat): voting from **16**. The age ladder one more time (→Q94, Q246): **16** NRW-Kommunal + Europa · **18** NRW-Landtag + Bundestag. September 2025's Kommunalwahl in Dortmund happened around you; the 2030 one could include two new voters at your address, three, eventually.\n\n## Auf Deutsch\n\nKommunalwahlen in NRW: wählen ab 16 Jahren."
+      "explanation": "**Correct answer:** 16\n\nFrom **16**: Niedersachsen's Kommunalwahlen (Gemeinderat, Stadtrat, Kreistag, Bürgermeister, Landrat) are open to 16-year-olds. The age ladder (→Q94, Q246): **16** Kommunalwahl in Niedersachsen + Europawahl · **18** Landtag + Bundestag.\n\n## Auf Deutsch\n\nBei Kommunalwahlen in Niedersachsen darf man ab 16 Jahren wählen."
     },
     {
       "id": "eb-u14-l08-probetest-7-ex33",
       "type": "choice",
-      "title": "NRW 8 · Landesfrage",
-      "prompt": "Welches Bundesland ist Nordrhein-Westfalen?",
+      "title": "NDS 8 · Landesfrage",
+      "prompt": "Welches Bundesland ist Niedersachsen?",
+      "figure": {
+        "images": [
+          {
+            "src": "/images/eb/nds-8.jpg",
+            "alt": "Map of Germany with four Länder highlighted and numbered: 1 is a large Land in the northwest on the North Sea; 2 is in the middle of Germany; 3 lies east of it on the Elbe; 4 is in the southeast, on the borders with Poland and the Czech Republic."
+          }
+        ],
+        "credit": "Bilder: BAMF, Gesamtfragenkatalog „Leben in Deutschland“ (Stand 07.05.2025)"
+      },
       "options": [
         {
           "id": "a",
-          "text": "das Land ganz im Westen, an der Grenze zu den Niederlanden und Belgien"
+          "text": "Fläche 1"
         },
         {
           "id": "b",
-          "text": "das Land ganz im Süden: an der Grenze zur Schweiz"
+          "text": "Fläche 2"
         },
         {
           "id": "c",
-          "text": "das Land ganz im Norden: an der Grenze zu Dänemark"
+          "text": "Fläche 3"
         },
         {
           "id": "d",
-          "text": "das Land ganz im Osten: an der Grenze zu Polen"
+          "text": "Fläche 4"
         }
       ],
       "correctOptionId": "a",
-      "explanation": "**Correct answer:** das Land ganz im Westen, an der Grenze zu den Niederlanden und Belgien\n\n*Picture question (Bildfrage):* in the real test you see pictures here, and the answer options describe them.\n\nCorrect: the westernmost highlighted Land, on the Dutch/Belgian border, roughly level with the map's middle-west.\n\nFind it by anchors: **borders the Netherlands and Belgium** (→Q222ff neighbors), Rhine running through, sits *below* Niedersachsen and *above* Rheinland-Pfalz/Hessen. Shape memory: a compact blob with a \"nose\" poking west (the Aachen corner). You've lived six years inside this outline, one map glance in the Online-Testcenter and this is the easiest point of your 33.\n\n## Auf Deutsch\n\nNRW liegt ganz im Westen, an der Grenze zu den Niederlanden und Belgien."
+      "explanation": "**Correct answer:** Fläche 1\n\n*Picture question (Bildfrage):* the pictures above are the ones from the official question catalogue.\n\nCorrect: **area 1**, the large Land in the northwest, between the North Sea coast and the Harz, bordering the Netherlands.\n\nThe other highlighted areas: 2 = Thüringen, 3 = Sachsen-Anhalt, 4 = Sachsen. Anchors for Niedersachsen: the North Sea coast with the East Frisian islands, the border with the Netherlands, and the small hole in its middle (that's the city-state Bremen). By area it is the second-largest Land after Bayern.\n\n## Auf Deutsch\n\nNiedersachsen ist das große Land im Nordwesten (Fläche 1), an der Nordsee und rund um Bremen."
     }
   ]
 }

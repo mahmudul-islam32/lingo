@@ -71,6 +71,52 @@ describe("ChoiceExercise (TELC-001)", () => {
   });
 });
 
+describe("ChoiceExercise pictures (TELC-005)", () => {
+  const exercise = ExerciseSchema.parse({
+    id: "p1",
+    type: "choice",
+    prompt: "Welches ist das Wappen?",
+    figure: {
+      images: [1, 2, 3, 4].map((n) => ({
+        src: `/images/eb/q21-bild-${n}.png`,
+        alt: `Picture ${n}`,
+        label: `Bild ${n}`,
+      })),
+      credit: "Bilder: BAMF",
+    },
+    options: [1, 2, 3, 4].map((n) => ({ id: String.fromCharCode(96 + n), text: `Bild ${n}` })),
+    correctOptionId: "a",
+  }) as ExerciseOfType<"choice">;
+
+  it("shows every picture with its alt text, label and the credit, between question and options", () => {
+    render(<ChoiceExercise {...props(exercise)} />);
+    const figure = screen.getByTestId("exercise-figure");
+    const images = screen.getAllByRole("img");
+    expect(images.map((img) => img.getAttribute("alt"))).toEqual([
+      "Picture 1",
+      "Picture 2",
+      "Picture 3",
+      "Picture 4",
+    ]);
+    expect(images[0]).toHaveAttribute("src", "/images/eb/q21-bild-1.png");
+    expect(figure).toHaveTextContent("Bild 3");
+    expect(figure).toHaveTextContent("Bilder: BAMF");
+    const heading = screen.getByRole("heading", { name: "Welches ist das Wappen?" });
+    const firstOption = screen.getAllByRole("radio")[0]!;
+    // DOM order: question → pictures → options.
+    expect(heading.compareDocumentPosition(figure) & Node.DOCUMENT_POSITION_FOLLOWING).toBeTruthy();
+    expect(
+      figure.compareDocumentPosition(firstOption) & Node.DOCUMENT_POSITION_FOLLOWING,
+    ).toBeTruthy();
+  });
+
+  it("renders no figure when the exercise has none", () => {
+    render(<ChoiceExercise {...props({ ...exercise, figure: undefined })} />);
+    expect(screen.queryByTestId("exercise-figure")).not.toBeInTheDocument();
+    expect(screen.queryByRole("img")).not.toBeInTheDocument();
+  });
+});
+
 describe("ListeningExercise (TELC-001)", () => {
   const exercise = ExerciseSchema.parse({
     id: "l1",

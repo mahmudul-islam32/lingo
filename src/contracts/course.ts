@@ -9,7 +9,13 @@
  *   content/courses/<courseId>/lessons/<lessonId>.json → LessonSchema
  */
 import { z } from "zod";
-import { AudioPathSchema, findDuplicates, LanguageCodeSchema, SlugSchema } from "./common";
+import {
+  AudioPathSchema,
+  findDuplicates,
+  ImagePathSchema,
+  LanguageCodeSchema,
+  SlugSchema,
+} from "./common";
 import { CLOZE_GAP_MARKER, fillClozeSentence, splitClozeSentence } from "./cloze";
 import { CONTENT_RULES } from "./config";
 import { tokenizeAnswer } from "./text";
@@ -395,6 +401,27 @@ function refineOptions(
   }
 }
 
+/** One picture of an exercise figure (TELC-005). */
+export const FigureImageSchema = z.strictObject({
+  src: ImagePathSchema,
+  /** Text alternative in the known language; describes the picture, never the answer. */
+  alt: z.string().trim().min(1).max(300),
+  /** Visible caption under the picture, e.g. "Bild 1" (learning language). */
+  label: z.string().trim().min(1).max(40).optional(),
+});
+export type FigureImage = z.infer<typeof FigureImageSchema>;
+
+/**
+ * Pictures shown with a question (TELC-005), e.g. the Einbürgerungstest's picture
+ * questions: one image, or 2–4 side by side that the options refer to ("Bild 1" …).
+ */
+export const ExerciseFigureSchema = z.strictObject({
+  images: z.array(FigureImageSchema).min(1).max(4),
+  /** Source / copyright line shown under the figure. */
+  credit: z.string().trim().min(1).max(200).optional(),
+});
+export type ExerciseFigure = z.infer<typeof ExerciseFigureSchema>;
+
 /**
  * Exam-style question (TELC-001): an optional reading passage, a question and 2–12
  * options, exactly one correct. Used for telc Lesen / Sprachbausteine items and the
@@ -409,6 +436,8 @@ export const ChoiceExerciseSchema = z
     /** Reading text shown above the question; rich text. */
     passage: richText(CONTENT_RULES.passageMaxLength).optional(),
     prompt: z.string().trim().min(1).max(CONTENT_RULES.longPromptMaxLength),
+    /** Pictures shown under the question (TELC-005). */
+    figure: ExerciseFigureSchema.optional(),
     options: longOptions,
     correctOptionId: SlugSchema,
   })

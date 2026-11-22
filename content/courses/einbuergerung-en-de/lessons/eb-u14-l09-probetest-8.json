@@ -3,7 +3,7 @@
   "courseId": "einbuergerung-en-de",
   "unitId": "eb-u14",
   "title": "Mock test 8 (Probetest 8)",
-  "tip": "Real format: 30 general + 3 Nordrhein-Westfalen questions. Allow 60 minutes; 17 correct to pass, aim for 28+.",
+  "tip": "Real format: 30 general + 3 Niedersachsen questions. Allow 60 minutes; 17 correct to pass, aim for 28+.",
   "exercises": [
     {
       "id": "eb-u14-l09-probetest-8-ex01",
@@ -107,7 +107,7 @@
         }
       ],
       "correctOptionId": "a",
-      "explanation": "**Correct answer:** Man darf sich seinen Wohnort selbst aussuchen\n\n**Freizügigkeit** (Art. 11 GG) = the right to move and settle anywhere within the federal territory. Historically radical: no internal passports, no residence permission needed to move from Dortmund to Munich. (The DDR, by contrast, controlled where citizens lived, and shot those who tried to leave.)\n\nB is Berufsfreiheit (Art. 12), C is Religionsfreiheit (Art. 4), real rights, wrong names. D is a pun on \"freizügig\" (scantily clad), a deliberate joke distractor.\n\n## Auf Deutsch\n\nFreizügigkeit (Art. 11 GG) = freie Wahl des Wohnorts in ganz Deutschland.\n\n**Vocabulary (Wortschatz):** die Freizügigkeit = freedom of movement/residence."
+      "explanation": "**Correct answer:** Man darf sich seinen Wohnort selbst aussuchen\n\n**Freizügigkeit** (Art. 11 GG) = the right to move and settle anywhere within the federal territory. Historically radical: no internal passports, no residence permission needed to move from Hannover to Munich. (The DDR, by contrast, controlled where citizens lived, and shot those who tried to leave.)\n\nB is Berufsfreiheit (Art. 12), C is Religionsfreiheit (Art. 4), real rights, wrong names. D is a pun on \"freizügig\" (scantily clad), a deliberate joke distractor.\n\n## Auf Deutsch\n\nFreizügigkeit (Art. 11 GG) = freie Wahl des Wohnorts in ganz Deutschland.\n\n**Vocabulary (Wortschatz):** die Freizügigkeit = freedom of movement/residence."
     },
     {
       "id": "eb-u14-l09-probetest-8-ex05",
@@ -237,7 +237,7 @@
         }
       ],
       "correctOptionId": "b",
-      "explanation": "**Correct answer:** Landtagswahl\n\nFour election levels, four names: **Kommunalwahl** (city/district council, in NRW from age 16! →NRW-Q4), **Landtagswahl** (Land parliament. NRW's is in Düsseldorf, 5-year term →NRW-Q3), **Bundestagswahl** (federal, 4 years), **Europawahl** (EU Parliament, 5 years →Q230). Simply match the level to the name.\n\n## Auf Deutsch\n\nDie Wahl des Landesparlaments heißt Landtagswahl."
+      "explanation": "**Correct answer:** Landtagswahl\n\nFour election levels, four names: **Kommunalwahl** (city/district council, in Niedersachsen from age 16! →NDS-4), **Landtagswahl** (Land parliament. Niedersachsen's is in Hannover, 5-year term →NDS-3), **Bundestagswahl** (federal, 4 years), **Europawahl** (EU Parliament, 5 years →Q230). Simply match the level to the name.\n\n## Auf Deutsch\n\nDie Wahl des Landesparlaments heißt Landtagswahl."
     },
     {
       "id": "eb-u14-l09-probetest-8-ex10",
@@ -627,7 +627,7 @@
         }
       ],
       "correctOptionId": "a",
-      "explanation": "**Correct answer:** Deutsche können in viele Länder Europas ohne Passkontrolle reisen\n\n**Schengen**: no systematic checks at *internal* borders of the Schengen area (most EU states + Norway, Switzerland, Iceland…). Drive Dortmund→Netherlands and the \"border\" is a sign.\n\nB involves the US (not Schengen, visa policy separate); C overreaches to the world; D reverses the logic, the *external* border is controlled *more*, not less. Personal upside coming your way: a German passport travels visa-free into ~190 countries, one of the world's strongest.\n\n## Auf Deutsch\n\nSchengen = Reisen in viele europäische Länder ohne Passkontrolle."
+      "explanation": "**Correct answer:** Deutsche können in viele Länder Europas ohne Passkontrolle reisen\n\n**Schengen**: no systematic checks at *internal* borders of the Schengen area (most EU states + Norway, Switzerland, Iceland…). Drive from Niedersachsen into the Netherlands and the \"border\" is a sign.\n\nB involves the US (not Schengen, visa policy separate); C overreaches to the world; D reverses the logic, the *external* border is controlled *more*, not less. Personal upside coming your way: a German passport travels visa-free into ~190 countries, one of the world's strongest.\n\n## Auf Deutsch\n\nSchengen = Reisen in viele europäische Länder ohne Passkontrolle."
     },
     {
       "id": "eb-u14-l09-probetest-8-ex25",
@@ -679,7 +679,7 @@
         }
       ],
       "correctOptionId": "b",
-      "explanation": "**Correct answer:** 18\n\n**Volljährigkeit = 18**: full contracts, marriage, voting (→Q94), driving alone, parents' authority ends (→Q267). The milestone table: **14** strafmündig + religionsmündig (→Q2, Q263) · **16** some local/EU votes (→NRW-Q4) · **18** everything.\n\n## Auf Deutsch\n\nVolljährig ist man in Deutschland mit 18."
+      "explanation": "**Correct answer:** 18\n\n**Volljährigkeit = 18**: full contracts, marriage, voting (→Q94), driving alone, parents' authority ends (→Q267). The milestone table: **14** strafmündig + religionsmündig (→Q2, Q263) · **16** some local/EU votes (→NDS-4) · **18** everything.\n\n## Auf Deutsch\n\nVolljährig ist man in Deutschland mit 18."
     },
     {
       "id": "eb-u14-l09-probetest-8-ex27",
@@ -788,80 +788,105 @@
     {
       "id": "eb-u14-l09-probetest-8-ex31",
       "type": "choice",
-      "title": "NRW 1 · Landesfrage",
-      "prompt": "Welches Wappen gehört zum Bundesland Nordrhein-Westfalen?",
+      "title": "NDS 1 · Landesfrage",
+      "prompt": "Welches Wappen gehört zum Bundesland Niedersachsen?",
+      "figure": {
+        "images": [
+          {
+            "src": "/images/eb/nds-1-bild-1.png",
+            "alt": "Blue and white lozenges under a golden crown",
+            "label": "Bild 1"
+          },
+          {
+            "src": "/images/eb/nds-1-bild-2.png",
+            "alt": "Two blue lions on gold beside a white nettle leaf on red",
+            "label": "Bild 2"
+          },
+          {
+            "src": "/images/eb/nds-1-bild-3.png",
+            "alt": "A white leaping horse filling a red shield",
+            "label": "Bild 3"
+          },
+          {
+            "src": "/images/eb/nds-1-bild-4.png",
+            "alt": "Black and yellow stripes with a green crown of rue across them",
+            "label": "Bild 4"
+          }
+        ],
+        "credit": "Bilder: BAMF, Gesamtfragenkatalog „Leben in Deutschland“ (Stand 07.05.2025)"
+      },
       "options": [
         {
           "id": "a",
-          "text": "Schild mit silbernem Wellenband auf Grün (Rhein), weißem Pferd auf Rot (Westfalen) und roter Rose (Lippe)"
+          "text": "Bild 1"
         },
         {
           "id": "b",
-          "text": "weiß-blaue Rauten (Bayern)"
+          "text": "Bild 2"
         },
         {
           "id": "c",
-          "text": "ein schwarzer Bär auf weißem Schild (Berlin)"
+          "text": "Bild 3"
         },
         {
           "id": "d",
-          "text": "ein einzelnes weißes Pferd als ganzes Schild (Niedersachsen)"
+          "text": "Bild 4"
         }
       ],
-      "correctOptionId": "a",
-      "explanation": "**Correct answer:** Schild mit silbernem Wellenband auf Grün (Rhein), weißem Pferd auf Rot (Westfalen) und roter Rose (Lippe)\n\n*Picture question (Bildfrage):* in the real test you see pictures here, and the answer options describe them.\n\nCorrect: the shield showing a silver wavy band on green (the Rhine), a white horse on red (Westphalia's Sachsenross), and a red rose (Lippe).\n\nRead the emblem as the Land's birth certificate: **Rheinland + Westfalen + Lippe**, merged 1946. Decoys are other Länder arms (Bavaria's lozenges, Berlin's bear →Q29's logic, Niedersachsen's lone horse, beware: Niedersachsen's horse is the *whole* shield; NRW's horse shares the shield with river and rose). One Online-Testcenter viewing fixes it forever.\n\n## Auf Deutsch\n\nNRW-Wappen: Rhein (silbernes Band), Westfalenpferd (weiß auf rot), Lippische Rose."
+      "correctOptionId": "c",
+      "explanation": "**Correct answer:** Bild 3\n\n*Picture question (Bildfrage):* the pictures above are the ones from the official question catalogue.\n\nCorrect: **Bild 3**, a white leaping horse (the *Sachsenross*) filling a red shield.\n\nThe other pictures: Bild 1 = Bayern (white-blue lozenges under a crown), Bild 2 = Schleswig-Holstein (two blue lions and a white nettle leaf), Bild 4 = Sachsen (black-gold stripes with a green crown of rue). Don't mix up the horses: NRW's arms also show a white horse, but only in one part of the shield; in Niedersachsen the horse fills the whole red shield. The same arms sit in the middle of the Landesflagge (→NDS-5).\n\n## Auf Deutsch\n\nDas Wappen von Niedersachsen: ein weißes, springendes Pferd (Sachsenross) auf rotem Grund."
     },
     {
       "id": "eb-u14-l09-probetest-8-ex32",
       "type": "choice",
-      "title": "NRW 7 · Landesfrage",
-      "prompt": "Wie heißt die Landeshauptstadt von Nordrhein-Westfalen?",
+      "title": "NDS 7 · Landesfrage",
+      "prompt": "Die Landeshauptstadt von Niedersachsen heißt …",
       "options": [
         {
           "id": "a",
-          "text": "Köln"
+          "text": "Hannover."
         },
         {
           "id": "b",
-          "text": "Bonn"
+          "text": "Braunschweig."
         },
         {
           "id": "c",
-          "text": "Düsseldorf"
+          "text": "Wolfsburg."
         },
         {
           "id": "d",
-          "text": "Dortmund"
+          "text": "Osnabrück."
         }
       ],
-      "correctOptionId": "c",
-      "explanation": "**Correct answer:** Düsseldorf\n\n**Düsseldorf**, seat of Landtag and Landesregierung.\n\n## Auf Deutsch\n\nDie Landeshauptstadt von NRW ist Düsseldorf, nicht Köln, nicht Dortmund!"
+      "correctOptionId": "a",
+      "explanation": "**Correct answer:** Hannover.\n\n**Hannover**, seat of the Landtag (Leineschloss) and the Landesregierung.\n\nThe decoys are all big Niedersachsen cities: Braunschweig (the second-largest), Wolfsburg (home of Volkswagen) and Osnabrück (Peace of Westphalia, 1648). Big or famous is not the same as capital.\n\n## Auf Deutsch\n\nDie Landeshauptstadt von Niedersachsen ist Hannover."
     },
     {
       "id": "eb-u14-l09-probetest-8-ex33",
       "type": "choice",
-      "title": "NRW 9 · Landesfrage",
-      "prompt": "Wie heißt der Regierungschef/die Regierungschefin von Nordrhein-Westfalen?",
+      "title": "NDS 9 · Landesfrage",
+      "prompt": "Wie nennt man die Regierungschefin/den Regierungschef in Niedersachsen?",
       "options": [
         {
           "id": "a",
-          "text": "Ministerpräsident/Ministerpräsidentin"
+          "text": "Erste Ministerin/Erster Minister"
         },
         {
           "id": "b",
-          "text": "Regierender Bürgermeister/Regierende Bürgermeisterin"
+          "text": "Premierministerin/Premierminister"
         },
         {
           "id": "c",
-          "text": "Senator/Senatorin"
+          "text": "Bürgermeisterin/Bürgermeister"
         },
         {
           "id": "d",
-          "text": "Landrat/Landrätin"
+          "text": "Ministerpräsidentin/Ministerpräsident"
         }
       ],
-      "correctOptionId": "a",
-      "explanation": "**Correct answer:** Ministerpräsident/Ministerpräsidentin\n\nNRW is a Flächenland → its head of government is the **Ministerpräsident(in)** (→Q37; currently Hendrik Wüst, CDU ⏰, the *title* is what's tested, but knowing the name impresses in interviews).\n\nRegierender Bürgermeister = Berlin; Senator = city-state ministers (Hamburg/Bremen/Berlin); Landrat = head of a *Kreis* (→NRW-2). Title follows Land type: Fläche → Ministerpräsident, Stadtstaat → Bürgermeister.\n\n## Auf Deutsch\n\nDer Regierungschef von NRW heißt Ministerpräsident/Ministerpräsidentin."
+      "correctOptionId": "d",
+      "explanation": "**Correct answer:** Ministerpräsidentin/Ministerpräsident\n\nNiedersachsen is a Flächenland, so its head of government is the **Ministerpräsident(in)** (→Q37). Only the *title* is tested; the officeholder (since May 2025 Olaf Lies, SPD ⏰) can change.\n\nErster Minister / Premierminister are titles from other countries (Scotland, Wales, the UK); a Bürgermeister heads a Gemeinde (→Q131) or a city-state like Hamburg. Title follows Land type: Flächenland → Ministerpräsident, Stadtstaat → Bürgermeister.\n\n## Auf Deutsch\n\nDie Regierungschefin/der Regierungschef von Niedersachsen heißt Ministerpräsidentin/Ministerpräsident."
     }
   ]
 }

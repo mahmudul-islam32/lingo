@@ -9,12 +9,17 @@
  *   Simulation = 30 random general questions + 3 random Landesfragen, 60 minutes (3600 s),
  *   passed at ≥ 17, personal goal "3× in Folge 28+".
  * - src/core/content.js: a Landesfrage is a question whose label starts with "NRW".
+ * - TELC-004 (PD-075): the telc app's NRW block is replaced by the 10 official Landesfragen
+ *   for Niedersachsen (labels "NDS-1" …), and NRW/Dortmund notes in general questions are
+ *   rewritten: see land-niedersachsen.mjs.
  * - `clock` is not rendered by the app; in the data it marks time-sensitive answers
  *   (officeholders, seat shares, population, EU members) whose wd/enLong say
  *   "⏰ re-check before the test". We turn it into an explicit note.
  *
  * Units: one per block (Kompass lesson + question lessons of ~10), then "Mock tests (Probetest)".
  */
+import { LAND, withNiedersachsen } from "./land-niedersachsen.mjs";
+import { withPictures } from "./pictures.mjs";
 import { chunk, data, lesson, optionId, rng, shuffled, slug, unit } from "./lib.mjs";
 
 const COURSE_ID = "einbuergerung-en-de";
@@ -39,10 +44,10 @@ const BLOCK_EN = {
   10: "Germany today, neighbours & Europe",
   11: "Family, children, education & work",
   12: "Society, religion, holidays & migration",
-  13: "State questions for North Rhine-Westphalia",
+  13: `State questions for ${LAND.enName}`,
 };
 
-const isLand = (q) => q.label.startsWith("NRW");
+const isLand = (q) => q.label.startsWith(`${LAND.prefix}-`);
 const qLabel = (q) => (isLand(q) ? q.label.replace(/-/g, " ") : `Frage ${q.n}`);
 const unitId = (n) => `eb-u${String(n).padStart(2, "0")}`;
 const lessonId = (u, n, s) => `${u}-l${String(n).padStart(2, "0")}-${s}`;
@@ -72,12 +77,17 @@ function splitText(text, max) {
 
 function explanation(q, stand) {
   const parts = [`**Correct answer:** ${q.o[q.a]}`];
-  if (q.img) {
+  if (q.figure) {
+    parts.push(
+      "*Picture question (Bildfrage):* the pictures above are the ones from the official question catalogue.",
+    );
+  } else if (q.img) {
     parts.push(
       "*Picture question (Bildfrage):* in the real test you see pictures here, and the answer options describe them.",
     );
   }
   parts.push(q.enShort);
+  if (q.pictureNote) parts.push(q.pictureNote);
   if (q.enLong) parts.push(q.enLong);
   if (q.clock) {
     parts.push(
@@ -94,6 +104,7 @@ function choice(q, block, stand) {
     type: "choice",
     title: isLand(q) ? `${qLabel(q)} · Landesfrage` : `${qLabel(q)} · Block ${block.id}`,
     prompt: q.q,
+    ...(q.figure ? { figure: q.figure } : {}),
     options: q.o.map((text, i) => ({ id: optionId(i), text })),
     correctOptionId: optionId(q.a),
     explanation: explanation(q, stand),
@@ -103,12 +114,12 @@ function choice(q, block, stand) {
 function rangeLabel(qs) {
   const a = qs[0];
   const b = qs[qs.length - 1];
-  if (isLand(a)) return `${qLabel(a)}–${b.label.replace(/^NRW-/, "")}`;
+  if (isLand(a)) return `${qLabel(a)}–${b.label.slice(LAND.prefix.length + 1)}`;
   return `${a.n}–${b.n}`;
 }
 
 export function build() {
-  const eb = data("eb");
+  const eb = withPictures(withNiedersachsen(data("eb")));
   const { land, stand, blocks, qs } = eb;
   const blockById = new Map(blocks.map((b) => [b.id, b]));
   const general = qs.filter((q) => !isLand(q));
@@ -158,7 +169,7 @@ export function build() {
           unitId: uId,
           title: land ? `Questions ${range}` : `Questions ${range} (Fragen ${range})`,
           tip: group.some((q) => q.img)
-            ? "Some of these are picture questions: in the real test the options are images; here they are described in words."
+            ? "Some of these are picture questions: look at the pictures, just like in the real test."
             : "After each Check you get an English explanation and a short German note (Auf Deutsch).",
           exercises: group.map((q) => choice(q, blockById.get(q.block), stand)),
         }),
@@ -217,7 +228,7 @@ export function build() {
       `- Set a ${MINUTES}-minute timer and answer all ${total} questions in one go.`,
       "- In the real test you see no solutions until the end. Here the explanation appears after each Check: try to answer first, then read it.",
       "- Goal from the telc app: 28 or more correct, three times in a row. Then you are well prepared.",
-      "- Picture questions (Bildfrage) show images in the real test; here the options describe them.",
+      "- Picture questions (Bildfrage) show the same pictures as the official catalogue.",
       "- Answers marked as time-sensitive (current Chancellor, largest parliamentary groups, Federal President, population, EU members) can change: check them shortly before your test.",
     ].join("\n"),
   ].join("\n\n");
@@ -300,6 +311,8 @@ function coverage({ eb, bundles, used, kompassCards, rulesBody, testCount }) {
       const x = e.explanation;
       if (e.correctOptionId !== optionId(q.a) || !x.includes(q.o[q.a])) ok.a = false;
       if (q.img && !x.includes("Picture question")) ok.img = false;
+      if (q.figure && JSON.stringify(e.figure) !== JSON.stringify(q.figure)) ok.img = false;
+      if (q.pictureNote && !x.includes(q.pictureNote)) ok.img = false;
       if (q.clock && !x.includes("Time-sensitive answer")) ok.clock = false;
       for (const k of ["wd", "enShort", "enLong", "vocab"])
         if (q[k] && !x.includes(q[k])) ok[k] = false;

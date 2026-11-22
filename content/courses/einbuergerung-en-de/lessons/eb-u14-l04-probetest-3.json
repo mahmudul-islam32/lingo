@@ -3,7 +3,7 @@
   "courseId": "einbuergerung-en-de",
   "unitId": "eb-u14",
   "title": "Mock test 3 (Probetest 3)",
-  "tip": "Real format: 30 general + 3 Nordrhein-Westfalen questions. Allow 60 minutes; 17 correct to pass, aim for 28+.",
+  "tip": "Real format: 30 general + 3 Niedersachsen questions. Allow 60 minutes; 17 correct to pass, aim for 28+.",
   "exercises": [
     {
       "id": "eb-u14-l04-probetest-3-ex01",
@@ -504,26 +504,51 @@
       "type": "choice",
       "title": "Frage 226 · Block 10",
       "prompt": "Welche ist die Flagge der Europäischen Union?",
+      "figure": {
+        "images": [
+          {
+            "src": "/images/eb/q226-bild-1.jpg",
+            "alt": "A flag with red and white stripes and white stars on a blue rectangle",
+            "label": "Bild 1"
+          },
+          {
+            "src": "/images/eb/q226-bild-2.jpg",
+            "alt": "A blue flag with a circle of twelve golden stars",
+            "label": "Bild 2"
+          },
+          {
+            "src": "/images/eb/q226-bild-3.jpg",
+            "alt": "A light-blue flag with a white world map framed by two olive branches",
+            "label": "Bild 3"
+          },
+          {
+            "src": "/images/eb/q226-bild-4.jpg",
+            "alt": "A dark-blue flag with a yellow stylised letter C and short rays around it",
+            "label": "Bild 4"
+          }
+        ],
+        "credit": "Bilder: BAMF, Gesamtfragenkatalog „Leben in Deutschland“ (Stand 07.05.2025)"
+      },
       "options": [
         {
           "id": "a",
-          "text": "eine blaue Flagge mit einem Kreis aus zwölf goldenen Sternen"
+          "text": "Bild 1"
         },
         {
           "id": "b",
-          "text": "eine blaue Flagge mit einem Stern pro Mitgliedstaat"
+          "text": "Bild 2"
         },
         {
           "id": "c",
-          "text": "eine Flagge mit Sternen und Streifen"
+          "text": "Bild 3"
         },
         {
           "id": "d",
-          "text": "eine schwarz-rot-goldene Flagge mit zwölf Sternen"
+          "text": "Bild 4"
         }
       ],
-      "correctOptionId": "a",
-      "explanation": "**Correct answer:** eine blaue Flagge mit einem Kreis aus zwölf goldenen Sternen\n\n*Picture question (Bildfrage):* in the real test you see pictures here, and the answer options describe them.\n\nCorrect: blaue Flagge mit einem Kreis aus zwölf goldenen Sternen.\n\n**Twelve** stars, always twelve, regardless of member count (twelve = symbol of completeness, like months or apostles; NOT one star per state, the classic misconception). Distractors: Europarat variants, US-style star fields, national flags. The same flag flies at every Behörde next to the German one, including on your Einbürgerungsurkunde ceremony day.\n\n## Auf Deutsch\n\nDie EU-Flagge: blau mit einem Kreis aus 12 goldenen Sternen, immer 12!"
+      "correctOptionId": "b",
+      "explanation": "**Correct answer:** Bild 2\n\n*Picture question (Bildfrage):* the pictures above are the ones from the official question catalogue.\n\nCorrect: blaue Flagge mit einem Kreis aus zwölf goldenen Sternen.\n\n**The pictures:** Bild 1 = USA · Bild 2 = European Union (correct) · Bild 3 = United Nations · Bild 4 = CEFTA (Central European Free Trade Agreement).\n\n**Twelve** stars, always twelve, regardless of member count (twelve = symbol of completeness, like months or apostles; NOT one star per state, the classic misconception). Distractors: Europarat variants, US-style star fields, national flags. The same flag flies at every Behörde next to the German one, including on your Einbürgerungsurkunde ceremony day.\n\n## Auf Deutsch\n\nDie EU-Flagge: blau mit einem Kreis aus 12 goldenen Sternen, immer 12!"
     },
     {
       "id": "eb-u14-l04-probetest-3-ex21",
@@ -549,7 +574,7 @@
         }
       ],
       "correctOptionId": "c",
-      "explanation": "**Correct answer:** 5 Jahre\n\n**Every 5 years**, simultaneously across all member states (most recently 2024, voting age in Germany now 16 for EU elections). Complete your term-table: Bundestag 4 · Bundespräsident 5 · **EP 5** · NRW-Landtag 5 (→Q107, NRW-Q3). After naturalization you'll hold the EU's rarest privilege stack: votes at four levels. Kommune, Land, Bund, Europa.\n\n## Auf Deutsch\n\nDas Europäische Parlament wird alle 5 Jahre gewählt."
+      "explanation": "**Correct answer:** 5 Jahre\n\n**Every 5 years**, simultaneously across all member states (most recently 2024, voting age in Germany now 16 for EU elections). Complete your term-table: Bundestag 4 · Bundespräsident 5 · **EP 5** · Landtag in Niedersachsen 5 (→Q107, NDS-3). After naturalization you'll hold the EU's rarest privilege stack: votes at four levels. Kommune, Land, Bund, Europa.\n\n## Auf Deutsch\n\nDas Europäische Parlament wird alle 5 Jahre gewählt."
     },
     {
       "id": "eb-u14-l04-probetest-3-ex22",
@@ -757,7 +782,7 @@
         }
       ],
       "correctOptionId": "a",
-      "explanation": "**Correct answer:** christlicher Feiertag\n\n**Pfingsten** (Pentecost, 50 days after Easter): Christian feast, public holiday. The Christian holiday set worth knowing: Weihnachten, Karfreitag, Ostern, Christi Himmelfahrt, Pfingsten, (in NRW also Fronleichnam & Allerheiligen. NRW is historically Catholic-leaning, hence more days off than Berlin: federalism in your calendar, →Q49's cousin).\n\n## Auf Deutsch\n\nPfingsten ist ein christlicher Feiertag (50 Tage nach Ostern)."
+      "explanation": "**Correct answer:** christlicher Feiertag\n\n**Pfingsten** (Pentecost, 50 days after Easter): Christian feast, public holiday. The Christian holiday set worth knowing: Weihnachten, Karfreitag, Ostern, Christi Himmelfahrt, Pfingsten, (Niedersachsen adds Reformationstag on 31 October, a holiday there since 2018, while Catholic-leaning Länder like NRW add Fronleichnam & Allerheiligen: federalism in your calendar, →Q49's cousin).\n\n## Auf Deutsch\n\nPfingsten ist ein christlicher Feiertag (50 Tage nach Ostern)."
     },
     {
       "id": "eb-u14-l04-probetest-3-ex30",
@@ -788,64 +813,64 @@
     {
       "id": "eb-u14-l04-probetest-3-ex31",
       "type": "choice",
-      "title": "NRW 3 · Landesfrage",
-      "prompt": "Für wie viele Jahre wird der Landtag von Nordrhein-Westfalen gewählt?",
+      "title": "NDS 3 · Landesfrage",
+      "prompt": "Für wie viele Jahre wird der Landtag in Niedersachsen gewählt?",
       "options": [
         {
           "id": "a",
-          "text": "3 Jahre"
+          "text": "3"
         },
         {
           "id": "b",
-          "text": "4 Jahre"
+          "text": "4"
         },
         {
           "id": "c",
-          "text": "5 Jahre"
+          "text": "5"
         },
         {
           "id": "d",
-          "text": "6 Jahre"
+          "text": "6"
         }
       ],
       "correctOptionId": "c",
-      "explanation": "**Correct answer:** 5 Jahre\n\nNRW's Landtag (Düsseldorf, Rhine-side building): **5-year term**, one year LONGER than the Bundestag's 4 (→Q107). That mismatch is the entire trap; most Länder moved to 5 years precisely to decouple from federal cycles. Last elected 2022 → next regular **Landtagswahl 2027**, plausibly your first-ever German ballot if the Urkunde arrives in time. Motivation, quantified.\n\n## Auf Deutsch\n\nDer NRW-Landtag wird für 5 Jahre gewählt (Bundestag: nur 4!)."
+      "explanation": "**Correct answer:** 5\n\n**5 years**, one year longer than the Bundestag's 4 (→Q107). That mismatch is the whole trap. The Landtag meets in the Leineschloss in Hannover; it was last elected in 2022, so the next regular Landtagswahl is due in 2027.\n\n## Auf Deutsch\n\nDer Landtag in Niedersachsen wird für 5 Jahre gewählt (Bundestag: nur 4!)."
     },
     {
       "id": "eb-u14-l04-probetest-3-ex32",
       "type": "choice",
-      "title": "NRW 4 · Landesfrage",
-      "prompt": "Ab welchem Alter dürfen Bürgerinnen und Bürger in Nordrhein-Westfalen bei Kommunalwahlen wählen?",
+      "title": "NDS 4 · Landesfrage",
+      "prompt": "Ab welchem Alter darf man in Niedersachsen bei Kommunalwahlen wählen?",
       "options": [
         {
           "id": "a",
-          "text": "ab 14 Jahren"
+          "text": "14"
         },
         {
           "id": "b",
-          "text": "ab 16 Jahren"
+          "text": "16"
         },
         {
           "id": "c",
-          "text": "ab 18 Jahren"
+          "text": "18"
         },
         {
           "id": "d",
-          "text": "ab 21 Jahren"
+          "text": "20"
         }
       ],
       "correctOptionId": "b",
-      "explanation": "**Correct answer:** ab 16 Jahren\n\nNRW Kommunalwahlen (city council, Bürgermeister, Landrat): voting from **16**. The age ladder one more time (→Q94, Q246): **16** NRW-Kommunal + Europa · **18** NRW-Landtag + Bundestag. September 2025's Kommunalwahl in Dortmund happened around you; the 2030 one could include two new voters at your address, three, eventually.\n\n## Auf Deutsch\n\nKommunalwahlen in NRW: wählen ab 16 Jahren."
+      "explanation": "**Correct answer:** 16\n\nFrom **16**: Niedersachsen's Kommunalwahlen (Gemeinderat, Stadtrat, Kreistag, Bürgermeister, Landrat) are open to 16-year-olds. The age ladder (→Q94, Q246): **16** Kommunalwahl in Niedersachsen + Europawahl · **18** Landtag + Bundestag.\n\n## Auf Deutsch\n\nBei Kommunalwahlen in Niedersachsen darf man ab 16 Jahren wählen."
     },
     {
       "id": "eb-u14-l04-probetest-3-ex33",
       "type": "choice",
-      "title": "NRW 5 · Landesfrage",
-      "prompt": "Welche Farben hat die Landesflagge von Nordrhein-Westfalen?",
+      "title": "NDS 5 · Landesfrage",
+      "prompt": "Welche Farben hat die Landesflagge von Niedersachsen?",
       "options": [
         {
           "id": "a",
-          "text": "grün-weiß-rot"
+          "text": "weiß-blau"
         },
         {
           "id": "b",
@@ -853,15 +878,15 @@
         },
         {
           "id": "c",
-          "text": "blau-weiß"
+          "text": "schwarz-gelb"
         },
         {
           "id": "d",
-          "text": "weiß-rot"
+          "text": "blau-weiß-rot"
         }
       ],
-      "correctOptionId": "a",
-      "explanation": "**Correct answer:** grün-weiß-rot\n\n**Grün-weiß-rot** (horizontal stripes), heraldically: Rhineland's green-white + Westphalia's white-red stitched together (→NRW-1's same merger story, told in stripes).\n\nSchwarz-rot-gold is the *Bund* (→Q214); blau-weiß = Bayern; weiß-rot = several city flags. Land ≠ Bund, the flag question is federalism's dress code.\n\n## Auf Deutsch\n\nDie NRW-Landesflagge ist grün-weiß-rot."
+      "correctOptionId": "b",
+      "explanation": "**Correct answer:** schwarz-rot-gold\n\n**Schwarz-rot-gold**, the same colours as the federal flag (→Q214), with the Land's coat of arms in the middle: the white horse on red (→NDS-1).\n\nThat is the trap: you might expect Land colours that differ from the Bund's. The decoys: weiß-blau = Bayern, schwarz-gelb = Baden-Württemberg, blau-weiß-rot = Schleswig-Holstein.\n\n## Auf Deutsch\n\nDie Landesflagge von Niedersachsen ist schwarz-rot-gold, mit dem Landeswappen (weißes Pferd auf Rot) in der Mitte."
     }
   ]
 }

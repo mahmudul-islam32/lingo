@@ -3,7 +3,7 @@
   "courseId": "einbuergerung-en-de",
   "unitId": "eb-u10",
   "title": "Questions 221–230 (Fragen 221–230)",
-  "tip": "Some of these are picture questions: in the real test the options are images; here they are described in words.",
+  "tip": "Some of these are picture questions: look at the pictures, just like in the real test.",
   "exercises": [
     {
       "id": "eb-u10-l03-q221-230-ex01",
@@ -29,7 +29,7 @@
         }
       ],
       "correctOptionId": "a",
-      "explanation": "**Correct answer:** Deutsche können in viele Länder Europas ohne Passkontrolle reisen\n\n**Schengen**: no systematic checks at *internal* borders of the Schengen area (most EU states + Norway, Switzerland, Iceland…). Drive Dortmund→Netherlands and the \"border\" is a sign.\n\nB involves the US (not Schengen, visa policy separate); C overreaches to the world; D reverses the logic, the *external* border is controlled *more*, not less. Personal upside coming your way: a German passport travels visa-free into ~190 countries, one of the world's strongest.\n\n## Auf Deutsch\n\nSchengen = Reisen in viele europäische Länder ohne Passkontrolle."
+      "explanation": "**Correct answer:** Deutsche können in viele Länder Europas ohne Passkontrolle reisen\n\n**Schengen**: no systematic checks at *internal* borders of the Schengen area (most EU states + Norway, Switzerland, Iceland…). Drive from Niedersachsen into the Netherlands and the \"border\" is a sign.\n\nB involves the US (not Schengen, visa policy separate); C overreaches to the world; D reverses the logic, the *external* border is controlled *more*, not less. Personal upside coming your way: a German passport travels visa-free into ~190 countries, one of the world's strongest.\n\n## Auf Deutsch\n\nSchengen = Reisen in viele europäische Länder ohne Passkontrolle."
     },
     {
       "id": "eb-u10-l03-q221-230-ex02",
@@ -140,26 +140,51 @@
       "type": "choice",
       "title": "Frage 226 · Block 10",
       "prompt": "Welche ist die Flagge der Europäischen Union?",
+      "figure": {
+        "images": [
+          {
+            "src": "/images/eb/q226-bild-1.jpg",
+            "alt": "A flag with red and white stripes and white stars on a blue rectangle",
+            "label": "Bild 1"
+          },
+          {
+            "src": "/images/eb/q226-bild-2.jpg",
+            "alt": "A blue flag with a circle of twelve golden stars",
+            "label": "Bild 2"
+          },
+          {
+            "src": "/images/eb/q226-bild-3.jpg",
+            "alt": "A light-blue flag with a white world map framed by two olive branches",
+            "label": "Bild 3"
+          },
+          {
+            "src": "/images/eb/q226-bild-4.jpg",
+            "alt": "A dark-blue flag with a yellow stylised letter C and short rays around it",
+            "label": "Bild 4"
+          }
+        ],
+        "credit": "Bilder: BAMF, Gesamtfragenkatalog „Leben in Deutschland“ (Stand 07.05.2025)"
+      },
       "options": [
         {
           "id": "a",
-          "text": "eine blaue Flagge mit einem Kreis aus zwölf goldenen Sternen"
+          "text": "Bild 1"
         },
         {
           "id": "b",
-          "text": "eine blaue Flagge mit einem Stern pro Mitgliedstaat"
+          "text": "Bild 2"
         },
         {
           "id": "c",
-          "text": "eine Flagge mit Sternen und Streifen"
+          "text": "Bild 3"
         },
         {
           "id": "d",
-          "text": "eine schwarz-rot-goldene Flagge mit zwölf Sternen"
+          "text": "Bild 4"
         }
       ],
-      "correctOptionId": "a",
-      "explanation": "**Correct answer:** eine blaue Flagge mit einem Kreis aus zwölf goldenen Sternen\n\n*Picture question (Bildfrage):* in the real test you see pictures here, and the answer options describe them.\n\nCorrect: blaue Flagge mit einem Kreis aus zwölf goldenen Sternen.\n\n**Twelve** stars, always twelve, regardless of member count (twelve = symbol of completeness, like months or apostles; NOT one star per state, the classic misconception). Distractors: Europarat variants, US-style star fields, national flags. The same flag flies at every Behörde next to the German one, including on your Einbürgerungsurkunde ceremony day.\n\n## Auf Deutsch\n\nDie EU-Flagge: blau mit einem Kreis aus 12 goldenen Sternen, immer 12!"
+      "correctOptionId": "b",
+      "explanation": "**Correct answer:** Bild 2\n\n*Picture question (Bildfrage):* the pictures above are the ones from the official question catalogue.\n\nCorrect: blaue Flagge mit einem Kreis aus zwölf goldenen Sternen.\n\n**The pictures:** Bild 1 = USA · Bild 2 = European Union (correct) · Bild 3 = United Nations · Bild 4 = CEFTA (Central European Free Trade Agreement).\n\n**Twelve** stars, always twelve, regardless of member count (twelve = symbol of completeness, like months or apostles; NOT one star per state, the classic misconception). Distractors: Europarat variants, US-style star fields, national flags. The same flag flies at every Behörde next to the German one, including on your Einbürgerungsurkunde ceremony day.\n\n## Auf Deutsch\n\nDie EU-Flagge: blau mit einem Kreis aus 12 goldenen Sternen, immer 12!"
     },
     {
       "id": "eb-u10-l03-q221-230-ex07",
@@ -263,7 +288,7 @@
         }
       ],
       "correctOptionId": "c",
-      "explanation": "**Correct answer:** 5 Jahre\n\n**Every 5 years**, simultaneously across all member states (most recently 2024, voting age in Germany now 16 for EU elections). Complete your term-table: Bundestag 4 · Bundespräsident 5 · **EP 5** · NRW-Landtag 5 (→Q107, NRW-Q3). After naturalization you'll hold the EU's rarest privilege stack: votes at four levels. Kommune, Land, Bund, Europa.\n\n## Auf Deutsch\n\nDas Europäische Parlament wird alle 5 Jahre gewählt."
+      "explanation": "**Correct answer:** 5 Jahre\n\n**Every 5 years**, simultaneously across all member states (most recently 2024, voting age in Germany now 16 for EU elections). Complete your term-table: Bundestag 4 · Bundespräsident 5 · **EP 5** · Landtag in Niedersachsen 5 (→Q107, NDS-3). After naturalization you'll hold the EU's rarest privilege stack: votes at four levels. Kommune, Land, Bund, Europa.\n\n## Auf Deutsch\n\nDas Europäische Parlament wird alle 5 Jahre gewählt."
     }
   ]
 }

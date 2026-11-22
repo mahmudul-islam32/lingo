@@ -3,7 +3,7 @@
   "courseId": "einbuergerung-en-de",
   "unitId": "eb-u02",
   "title": "Questions 51–60 (Fragen 51–60)",
-  "tip": "Some of these are picture questions: in the real test the options are images; here they are described in words.",
+  "tip": "Some of these are picture questions: look at the pictures, just like in the real test.",
   "exercises": [
     {
       "id": "eb-u02-l04-q51-60-ex01",
@@ -114,6 +114,15 @@
       "type": "choice",
       "title": "Frage 55 · Block 2",
       "prompt": "Was zeigt dieses Bild?",
+      "figure": {
+        "images": [
+          {
+            "src": "/images/eb/q55.jpg",
+            "alt": "Photo of a large stone building with columns and a glass dome, German flags on the roof and a wide square in front"
+          }
+        ],
+        "credit": "Foto: © Deutscher Bundestag/Achim Melde (BAMF, Gesamtfragenkatalog, Stand 07.05.2025)"
+      },
       "options": [
         {
           "id": "a",
@@ -133,7 +142,7 @@
         }
       ],
       "correctOptionId": "a",
-      "explanation": "**Correct answer:** den Reichstag: Sitz des Deutschen Bundestages in Berlin\n\n*Picture question (Bildfrage):* in the real test you see pictures here, and the answer options describe them.\n\nCorrect: den Reichstag / Sitz des Deutschen Bundestages in Berlin.\n\nThe **Reichstagsgebäude** with Norman Foster's 1999 glass dome, the dome deliberately lets citizens climb *above* their parliament and look down into the plenary chamber: transparency as architecture. Distractors: Schloss Bellevue (president's seat →Q75), Bundesrat, Brandenburger Tor. If you visit Berlin before the test, go, it makes three test questions unforgettable.\n\n## Auf Deutsch\n\nDas Bild zeigt den Reichstag in Berlin mit der Glaskuppel. Sitz des Bundestages."
+      "explanation": "**Correct answer:** den Reichstag: Sitz des Deutschen Bundestages in Berlin\n\n*Picture question (Bildfrage):* the pictures above are the ones from the official question catalogue.\n\nCorrect: den Reichstag / Sitz des Deutschen Bundestages in Berlin.\n\nThe **Reichstagsgebäude** with Norman Foster's 1999 glass dome, the dome deliberately lets citizens climb *above* their parliament and look down into the plenary chamber: transparency as architecture. Distractors: Schloss Bellevue (president's seat →Q75), Bundesrat, Brandenburger Tor. If you visit Berlin before the test, go, it makes three test questions unforgettable.\n\n## Auf Deutsch\n\nDas Bild zeigt den Reichstag in Berlin mit der Glaskuppel. Sitz des Bundestages."
     },
     {
       "id": "eb-u02-l04-q51-60-ex06",

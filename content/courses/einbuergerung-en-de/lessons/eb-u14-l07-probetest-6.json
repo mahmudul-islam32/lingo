@@ -3,7 +3,7 @@
   "courseId": "einbuergerung-en-de",
   "unitId": "eb-u14",
   "title": "Mock test 6 (Probetest 6)",
-  "tip": "Real format: 30 general + 3 Nordrhein-Westfalen questions. Allow 60 minutes; 17 correct to pass, aim for 28+.",
+  "tip": "Real format: 30 general + 3 Niedersachsen questions. Allow 60 minutes; 17 correct to pass, aim for 28+.",
   "exercises": [
     {
       "id": "eb-u14-l07-probetest-6-ex01",
@@ -81,7 +81,7 @@
         }
       ],
       "correctOptionId": "c",
-      "explanation": "**Correct answer:** 16\n\n**16 Länder**, 10 \"old\" (west), 5 \"new\" (east, joined 1990 →Q218), plus Berlin. Three are city-states (**Stadtstaaten**): Berlin, Hamburg, Bremen. You live in the most populous one: NRW (~18 million). Memory hook: 10 + 5 + Berlin = 16. This number returns in Q218 and the NRW block.\n\n## Auf Deutsch\n\nDeutschland hat 16 Bundesländer."
+      "explanation": "**Correct answer:** 16\n\n**16 Länder**, 10 \"old\" (west), 5 \"new\" (east, joined 1990 →Q218), plus Berlin. Three are city-states (**Stadtstaaten**): Berlin, Hamburg, Bremen. Niedersachsen (~8 million people) is the second-largest by area, after Bayern, and wraps around the city-state Bremen. Memory hook: 10 + 5 + Berlin = 16. This number returns in Q218 and the Niedersachsen block.\n\n## Auf Deutsch\n\nDeutschland hat 16 Bundesländer."
     },
     {
       "id": "eb-u14-l07-probetest-6-ex04",
@@ -185,7 +185,7 @@
         }
       ],
       "correctOptionId": "d",
-      "explanation": "**Correct answer:** Bund, Länder und Kommunen\n\nThree administrative tiers: **Bund → 16 Länder → Kommunen** (cities/municipalities. Dortmund is one).\n\nA is 1945–49 (→Q167); B is 1949–90 division; C borrows Switzerland's word. Germany has Länder, not Kantone. The wrong options are a compressed history quiz: each describes a Germany that no longer exists.\n\n## Auf Deutsch\n\nDeutschland ist gegliedert in Bund, Länder und Kommunen."
+      "explanation": "**Correct answer:** Bund, Länder und Kommunen\n\nThree administrative tiers: **Bund → 16 Länder → Kommunen** (cities/municipalities. Hannover is one).\n\nA is 1945–49 (→Q167); B is 1949–90 division; C borrows Switzerland's word. Germany has Länder, not Kantone. The wrong options are a compressed history quiz: each describes a Germany that no longer exists.\n\n## Auf Deutsch\n\nDeutschland ist gegliedert in Bund, Länder und Kommunen."
     },
     {
       "id": "eb-u14-l07-probetest-6-ex08",
@@ -549,7 +549,7 @@
         }
       ],
       "correctOptionId": "a",
-      "explanation": "**Correct answer:** eine Wahlbenachrichtigung von der Gemeinde\n\nThe **Wahlbenachrichtigung**, a card from your Gemeinde telling you where and when to vote, based on the voter register (fed by your Anmeldung! →Q253). It arrives automatically; no application needed.\n\nNo \"permission\" exists, eligibility is automatic (B); the Bundesversammlung only elects the president (C); the president invites nobody to vote (D). After naturalization, this card in your Dortmund mailbox will be the moment citizenship becomes tangible.\n\n## Auf Deutsch\n\nVor der Wahl schickt die Gemeinde eine Wahlbenachrichtigung."
+      "explanation": "**Correct answer:** eine Wahlbenachrichtigung von der Gemeinde\n\nThe **Wahlbenachrichtigung**, a card from your Gemeinde telling you where and when to vote, based on the voter register (fed by your Anmeldung! →Q253). It arrives automatically; no application needed.\n\nNo \"permission\" exists, eligibility is automatic (B); the Bundesversammlung only elects the president (C); the president invites nobody to vote (D). After naturalization, this card in your mailbox will be the moment citizenship becomes tangible.\n\n## Auf Deutsch\n\nVor der Wahl schickt die Gemeinde eine Wahlbenachrichtigung."
     },
     {
       "id": "eb-u14-l07-probetest-6-ex22",
@@ -788,8 +788,8 @@
     {
       "id": "eb-u14-l07-probetest-6-ex31",
       "type": "choice",
-      "title": "NRW 2 · Landesfrage",
-      "prompt": "Welcher Landkreis liegt in Nordrhein-Westfalen?",
+      "title": "NDS 2 · Landesfrage",
+      "prompt": "Welches ist ein Landkreis in Niedersachsen?",
       "options": [
         {
           "id": "a",
@@ -808,60 +808,60 @@
           "text": "Vogtlandkreis"
         }
       ],
-      "correctOptionId": "b",
-      "explanation": "**Correct answer:** Rhein-Sieg-Kreis\n\nThe **Rhein-Sieg-Kreis** (around Bonn. Rhein + Sieg rivers, both NRW waters).\n\nAmmerland = Niedersachsen, Nordfriesland = Schleswig-Holstein (the name says North Sea), Vogtlandkreis = Sachsen. Technique: river/region names locate districts, anything \"Rhein-\" or \"Ruhr-\" smells of NRW. (Dortmund itself is kreisfrei, a city outside any Kreis; so is most of the Ruhrgebiet.)\n\n## Auf Deutsch\n\nDer Rhein-Sieg-Kreis (bei Bonn) liegt in NRW."
+      "correctOptionId": "a",
+      "explanation": "**Correct answer:** Ammerland\n\n**Ammerland**, a rural district in the northwest near Oldenburg (Kreisstadt Westerstede), known for its rhododendron parks and the Zwischenahner Meer.\n\nRhein-Sieg-Kreis = NRW (around Bonn), Nordfriesland = Schleswig-Holstein (the North Frisian coast), Vogtlandkreis = Sachsen. Technique: river and region names place districts: \"Rhein-\" points west, \"Vogtland\" to the far southeast. Trap: Niedersachsen does have a Landkreis *Friesland* (around Jever), but *Nord*friesland is Schleswig-Holstein.\n\n## Auf Deutsch\n\nDer Landkreis Ammerland (bei Oldenburg, Kreisstadt Westerstede) liegt in Niedersachsen."
     },
     {
       "id": "eb-u14-l07-probetest-6-ex32",
       "type": "choice",
-      "title": "NRW 7 · Landesfrage",
-      "prompt": "Wie heißt die Landeshauptstadt von Nordrhein-Westfalen?",
+      "title": "NDS 7 · Landesfrage",
+      "prompt": "Die Landeshauptstadt von Niedersachsen heißt …",
       "options": [
         {
           "id": "a",
-          "text": "Köln"
+          "text": "Hannover."
         },
         {
           "id": "b",
-          "text": "Bonn"
+          "text": "Braunschweig."
         },
         {
           "id": "c",
-          "text": "Düsseldorf"
+          "text": "Wolfsburg."
         },
         {
           "id": "d",
-          "text": "Dortmund"
+          "text": "Osnabrück."
         }
       ],
-      "correctOptionId": "c",
-      "explanation": "**Correct answer:** Düsseldorf\n\n**Düsseldorf**, seat of Landtag and Landesregierung.\n\n## Auf Deutsch\n\nDie Landeshauptstadt von NRW ist Düsseldorf, nicht Köln, nicht Dortmund!"
+      "correctOptionId": "a",
+      "explanation": "**Correct answer:** Hannover.\n\n**Hannover**, seat of the Landtag (Leineschloss) and the Landesregierung.\n\nThe decoys are all big Niedersachsen cities: Braunschweig (the second-largest), Wolfsburg (home of Volkswagen) and Osnabrück (Peace of Westphalia, 1648). Big or famous is not the same as capital.\n\n## Auf Deutsch\n\nDie Landeshauptstadt von Niedersachsen ist Hannover."
     },
     {
       "id": "eb-u14-l07-probetest-6-ex33",
       "type": "choice",
-      "title": "NRW 10 · Landesfrage",
-      "prompt": "Welchen Minister/welche Ministerin hat Nordrhein-Westfalen nicht?",
+      "title": "NDS 10 · Landesfrage",
+      "prompt": "Welche Ministerin/ welchen Minister hat Niedersachsen nicht?",
       "options": [
         {
           "id": "a",
-          "text": "Justizminister/Justizministerin"
+          "text": "Justizministerin/Justizminister"
         },
         {
           "id": "b",
-          "text": "Außenminister/Außenministerin"
+          "text": "Außenministerin/Außenminister"
         },
         {
           "id": "c",
-          "text": "Finanzminister/Finanzministerin"
+          "text": "Finanzministerin/Finanzminister"
         },
         {
           "id": "d",
-          "text": "Innenminister/Innenministerin"
+          "text": "Innenministerin/Innenminister"
         }
       ],
       "correctOptionId": "b",
-      "explanation": "**Correct answer:** Außenminister/Außenministerin\n\nNo Land has an **Außenminister**, foreign policy is exclusively federal (Art. 32 GG; →Q39's trio: Außenpolitik, Währung, Armee). NRW does run Justiz, Finanzen, Inneres (Land police! →Q148), Schule (→Q49) and more, federalism gives Länder real power *inward*, none *outward*. The question is Q39 wearing NRW colors: one federal principle, two guaranteed test points.\n\n## Auf Deutsch\n\nEinen Außenminister hat kein Bundesland. Außenpolitik macht nur der Bund."
+      "explanation": "**Correct answer:** Außenministerin/Außenminister\n\nNo Land has an **Außenminister**: foreign policy is federal (Art. 32 GG; →Q39's trio: foreign policy, currency, army). Niedersachsen does have ministers for justice, finance and the interior (Land police, →Q148), schools (→Q49) and more. Federalism gives the Länder real power at home, none abroad.\n\n## Auf Deutsch\n\nEinen Außenminister hat kein Bundesland. Außenpolitik macht nur der Bund."
     }
   ]
 }
