@@ -1,0 +1,282 @@
+{
+  "id": "tb1-u06-l06-travel-transport-a2-2",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u06",
+  "title": "Travel & Transport (A2) 2",
+  "tip": "Theme: Reisen & Verkehr (A2) (A2)",
+  "exercises": [
+    {
+      "id": "tb1-u06-l06-travel-transport-a2-2-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "das Auto",
+          "known": "car"
+        },
+        {
+          "id": "p2",
+          "learning": "das Fahrrad",
+          "known": "bicycle"
+        },
+        {
+          "id": "p3",
+          "learning": "der Bahnhof",
+          "known": "train station"
+        },
+        {
+          "id": "p4",
+          "learning": "der Flughafen",
+          "known": "airport"
+        },
+        {
+          "id": "p5",
+          "learning": "die Fahrkarte",
+          "known": "ticket"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u06-l06-travel-transport-a2-2-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „car“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "der Urlaub"
+        },
+        {
+          "id": "b",
+          "text": "das Auto, die Autos"
+        },
+        {
+          "id": "c",
+          "text": "das Fahrrad, die Fahrräder"
+        },
+        {
+          "id": "d",
+          "text": "der Zug, die Züge"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**das Auto** = car\n*Plural: die Autos*\n\n*Example:* Tom hat sein Auto vor dem Haus geparkt.\nTom parked his car in front of the house."
+    },
+    {
+      "id": "tb1-u06-l06-travel-transport-a2-2-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „bicycle“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "das Flugzeug, die Flugzeuge"
+        },
+        {
+          "id": "b",
+          "text": "das Fahrrad, die Fahrräder"
+        },
+        {
+          "id": "c",
+          "text": "der Zug, die Züge"
+        },
+        {
+          "id": "d",
+          "text": "der Bahnhof, die Bahnhöfe"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**das Fahrrad** = bicycle\n*Plural: die Fahrräder*\n\n*Example:* Anna fährt bei jedem Wetter mit dem Fahrrad.\nAnna rides her bike in all weather."
+    },
+    {
+      "id": "tb1-u06-l06-travel-transport-a2-2-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Tom parked his car in front of the house.",
+      "tiles": [
+        "Haus",
+        "hat",
+        "vor",
+        "kommen",
+        "Tom",
+        "Anna",
+        "Auto",
+        "dem",
+        "geparkt",
+        "sein",
+        "Sie"
+      ],
+      "answers": [
+        "Tom hat sein Auto vor dem Haus geparkt."
+      ],
+      "explanation": "**das Auto** = car\n*Plural: die Autos*"
+    },
+    {
+      "id": "tb1-u06-l06-travel-transport-a2-2-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „train station“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Grenze, die Grenzen"
+        },
+        {
+          "id": "b",
+          "text": "das Flugzeug, die Flugzeuge"
+        },
+        {
+          "id": "c",
+          "text": "der Fahrplan, die Fahrpläne"
+        },
+        {
+          "id": "d",
+          "text": "der Bahnhof, die Bahnhöfe"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**der Bahnhof** = train station\n*Plural: die Bahnhöfe*\n\n*Example:* Wir treffen uns um zehn Uhr am Bahnhof.\nWe're meeting at the train station at ten o'clock."
+    },
+    {
+      "id": "tb1-u06-l06-travel-transport-a2-2-ex06",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u06-l06-travel-transport-a2-2-2.mp3"
+      },
+      "tiles": [
+        "bei",
+        "Ihr",
+        "Fahrrad",
+        "fährt",
+        "Wetter",
+        "mit",
+        "kann",
+        "in",
+        "Anna",
+        "jedem",
+        "dem"
+      ],
+      "answers": [
+        "Anna fährt bei jedem Wetter mit dem Fahrrad."
+      ],
+      "explanation": "Anna fährt bei jedem Wetter mit dem Fahrrad.\n*Anna rides her bike in all weather.*\n\n**das Fahrrad** = bicycle\n*Plural: die Fahrräder*"
+    },
+    {
+      "id": "tb1-u06-l06-travel-transport-a2-2-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „airport“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "der Flughafen, die Flughäfen"
+        },
+        {
+          "id": "b",
+          "text": "das Auto, die Autos"
+        },
+        {
+          "id": "c",
+          "text": "der Bahnhof, die Bahnhöfe"
+        },
+        {
+          "id": "d",
+          "text": "das Fahrrad, die Fahrräder"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**der Flughafen** = airport\n*Plural: die Flughäfen*\n\n*Example:* Mein Bruder holt mich vom Flughafen ab.\nMy brother is picking me up from the airport."
+    },
+    {
+      "id": "tb1-u06-l06-travel-transport-a2-2-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Wir treffen uns um zehn Uhr am Bahnhof.",
+      "tiles": [
+        "We're",
+        "comes",
+        "In",
+        "ten",
+        "station",
+        "the",
+        "meeting",
+        "at",
+        "o'clock",
+        "at",
+        "train",
+        "is"
+      ],
+      "answers": [
+        "We're meeting at the train station at ten o'clock."
+      ],
+      "explanation": "**der Bahnhof** = train station\n*Plural: die Bahnhöfe*"
+    },
+    {
+      "id": "tb1-u06-l06-travel-transport-a2-2-ex09",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „ticket“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Verspätung, die Verspätungen"
+        },
+        {
+          "id": "b",
+          "text": "die Fahrkarte, die Fahrkarten"
+        },
+        {
+          "id": "c",
+          "text": "der Urlaub"
+        },
+        {
+          "id": "d",
+          "text": "der Koffer, die Koffer"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**die Fahrkarte** = ticket\n*Plural: die Fahrkarten*\n\n*Example:* Die Fahrkarte kann man auch am Automaten kaufen.\nYou can also buy the ticket at the machine."
+    },
+    {
+      "id": "tb1-u06-l06-travel-transport-a2-2-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "My brother is picking me up from the airport.",
+      "tiles": [
+        "holt",
+        "man",
+        "Bruder",
+        "Der",
+        "ab",
+        "mich",
+        "vom",
+        "Flughafen",
+        "Mein",
+        "dem"
+      ],
+      "answers": [
+        "Mein Bruder holt mich vom Flughafen ab."
+      ],
+      "explanation": "**der Flughafen** = airport\n*Plural: die Flughäfen*"
+    },
+    {
+      "id": "tb1-u06-l06-travel-transport-a2-2-ex11",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u06-l06-travel-transport-a2-2-5.mp3"
+      },
+      "tiles": [
+        "Fahrkarte",
+        "auch",
+        "in",
+        "Automaten",
+        "Bruder",
+        "kaufen",
+        "Grenze",
+        "kann",
+        "man",
+        "am",
+        "Die"
+      ],
+      "answers": [
+        "Die Fahrkarte kann man auch am Automaten kaufen."
+      ],
+      "explanation": "Die Fahrkarte kann man auch am Automaten kaufen.\n*You can also buy the ticket at the machine.*\n\n**die Fahrkarte** = ticket\n*Plural: die Fahrkarten*"
+    }
+  ]
+}

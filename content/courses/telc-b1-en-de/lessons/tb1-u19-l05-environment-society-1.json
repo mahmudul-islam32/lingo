@@ -1,0 +1,284 @@
+{
+  "id": "tb1-u19-l05-environment-society-1",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u19",
+  "title": "Environment & Society 1",
+  "tip": "Theme: Umwelt & Gesellschaft (B1)",
+  "exercises": [
+    {
+      "id": "tb1-u19-l05-environment-society-1-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "die Umwelt",
+          "known": "environment"
+        },
+        {
+          "id": "p2",
+          "learning": "der Umweltschutz",
+          "known": "environmental protection"
+        },
+        {
+          "id": "p3",
+          "learning": "der Klimawandel",
+          "known": "climate change"
+        },
+        {
+          "id": "p4",
+          "learning": "die Energie",
+          "known": "energy"
+        },
+        {
+          "id": "p5",
+          "learning": "der Müll",
+          "known": "rubbish / waste"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u19-l05-environment-society-1-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „environment“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "der Müll"
+        },
+        {
+          "id": "b",
+          "text": "die Energie"
+        },
+        {
+          "id": "c",
+          "text": "die Sicherheit"
+        },
+        {
+          "id": "d",
+          "text": "die Umwelt"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**die Umwelt** = environment\n\n*Example:* Plastiktüten sind schlecht für die Umwelt.\nPlastic bags are bad for the environment."
+    },
+    {
+      "id": "tb1-u19-l05-environment-society-1-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „environmental protection“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "der Umweltschutz"
+        },
+        {
+          "id": "b",
+          "text": "die Zukunft"
+        },
+        {
+          "id": "c",
+          "text": "die Technik"
+        },
+        {
+          "id": "d",
+          "text": "der Klimawandel"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**der Umweltschutz** = environmental protection\n\n*Example:* Für den Umweltschutz fahre ich lieber mit dem Bus.\nTo protect the environment, I prefer to take the bus."
+    },
+    {
+      "id": "tb1-u19-l05-environment-society-1-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Plastic bags are bad for the environment.",
+      "tiles": [
+        "Plastiktüten",
+        "den",
+        "zufrieden",
+        "die",
+        "für",
+        "wollen",
+        "Umwelt",
+        "schlecht",
+        "sind"
+      ],
+      "answers": [
+        "Plastiktüten sind schlecht für die Umwelt."
+      ],
+      "explanation": "**die Umwelt** = environment"
+    },
+    {
+      "id": "tb1-u19-l05-environment-society-1-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „climate change“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "der Klimawandel"
+        },
+        {
+          "id": "b",
+          "text": "die Umwelt"
+        },
+        {
+          "id": "c",
+          "text": "die Gesellschaft, die Gesellschaften"
+        },
+        {
+          "id": "d",
+          "text": "die Entwicklung, die Entwicklungen"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**der Klimawandel** = climate change\n\n*Example:* Wegen des Klimawandels werden die Sommer immer heißer.\nBecause of climate change, summers are getting hotter and hotter."
+    },
+    {
+      "id": "tb1-u19-l05-environment-society-1-ex06",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u19-l05-environment-society-1-2.mp3"
+      },
+      "tiles": [
+        "den",
+        "lieber",
+        "Für",
+        "unserer",
+        "verbraucht",
+        "fahre",
+        "ich",
+        "Bus",
+        "Umweltschutz",
+        "mit",
+        "Bildung",
+        "dem"
+      ],
+      "answers": [
+        "Für den Umweltschutz fahre ich lieber mit dem Bus."
+      ],
+      "explanation": "Für den Umweltschutz fahre ich lieber mit dem Bus.\n*To protect the environment, I prefer to take the bus.*\n\n**der Umweltschutz** = environmental protection"
+    },
+    {
+      "id": "tb1-u19-l05-environment-society-1-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „energy“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Sicherheit"
+        },
+        {
+          "id": "b",
+          "text": "die Forschung"
+        },
+        {
+          "id": "c",
+          "text": "die Energie"
+        },
+        {
+          "id": "d",
+          "text": "der Umweltschutz"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**die Energie** = energy\n\n*Example:* Mach bitte das Licht aus, wir wollen Energie sparen.\nPlease turn off the light, we want to save energy."
+    },
+    {
+      "id": "tb1-u19-l05-environment-society-1-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Wegen des Klimawandels werden die Sommer immer heißer.",
+      "tiles": [
+        "are",
+        "and",
+        "part",
+        "summers",
+        "Because",
+        "of",
+        "hotter",
+        "hotter",
+        "to",
+        "climate",
+        "change",
+        "getting",
+        "A"
+      ],
+      "answers": [
+        "Because of climate change, summers are getting hotter and hotter."
+      ],
+      "explanation": "**der Klimawandel** = climate change"
+    },
+    {
+      "id": "tb1-u19-l05-environment-society-1-ex09",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „rubbish / waste“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Bildung"
+        },
+        {
+          "id": "b",
+          "text": "die Entwicklung, die Entwicklungen"
+        },
+        {
+          "id": "c",
+          "text": "der Müll"
+        },
+        {
+          "id": "d",
+          "text": "die Technik"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**der Müll** = rubbish / waste\n\n*Example:* Den Müll bringen wir jeden Abend nach unten.\nWe take the rubbish downstairs every evening."
+    },
+    {
+      "id": "tb1-u19-l05-environment-society-1-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Please turn off the light, we want to save energy.",
+      "tiles": [
+        "Regierung",
+        "des",
+        "Energie",
+        "wollen",
+        "aus",
+        "das",
+        "Wirtschaft",
+        "wir",
+        "Licht",
+        "bitte",
+        "sparen",
+        "Mach"
+      ],
+      "answers": [
+        "Mach bitte das Licht aus, wir wollen Energie sparen."
+      ],
+      "explanation": "**die Energie** = energy"
+    },
+    {
+      "id": "tb1-u19-l05-environment-society-1-ex11",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u19-l05-environment-society-1-5.mp3"
+      },
+      "tiles": [
+        "jeden",
+        "Den",
+        "Entwicklung",
+        "nach",
+        "unten",
+        "bringen",
+        "wollen",
+        "Abend",
+        "wir",
+        "Müll",
+        "der"
+      ],
+      "answers": [
+        "Den Müll bringen wir jeden Abend nach unten."
+      ],
+      "explanation": "Den Müll bringen wir jeden Abend nach unten.\n*We take the rubbish downstairs every evening.*\n\n**der Müll** = rubbish / waste"
+    }
+  ]
+}

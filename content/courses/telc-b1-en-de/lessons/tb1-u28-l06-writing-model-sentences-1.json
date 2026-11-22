@@ -1,0 +1,259 @@
+{
+  "id": "tb1-u28-l06-writing-model-sentences-1",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u28",
+  "title": "Writing: Model Sentences 1",
+  "tip": "Theme: Sätze: Schreiben (Muster) (B1)",
+  "exercises": [
+    {
+      "id": "tb1-u28-l06-writing-model-sentences-1-ex01",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means „I'm writing because I'd like to invite you to my birthday party.“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Wenn du möchtest, können wir uns vorher treffen."
+        },
+        {
+          "id": "b",
+          "text": "Ich schreibe dir, weil ich dich zu meiner Geburtstagsfeier einladen möchte."
+        },
+        {
+          "id": "c",
+          "text": "Vielen Dank für deine Einladung, ich komme gern."
+        },
+        {
+          "id": "d",
+          "text": "Ich würde gern wissen, ob noch Plätze frei sind."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Ich schreibe dir, weil ich dich zu meiner Geburtstagsfeier einladen möchte.** = I'm writing because I'd like to invite you to my birthday party.\n\n*Example:* Ich schreibe dir, weil ich dich zu meiner Geburtstagsfeier einladen möchte.\nI'm writing because I'd like to invite you to my birthday party."
+    },
+    {
+      "id": "tb1-u28-l06-writing-model-sentences-1-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means „Unfortunately I can't come on Saturday because I have to work.“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ich würde gern wissen, ob noch Plätze frei sind."
+        },
+        {
+          "id": "b",
+          "text": "Ich hoffe, dass es dir gut geht."
+        },
+        {
+          "id": "c",
+          "text": "Leider kann ich am Samstag nicht kommen, weil ich arbeiten muss."
+        },
+        {
+          "id": "d",
+          "text": "Ich schreibe dir, weil ich dich zu meiner Geburtstagsfeier einladen möchte."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**Leider kann ich am Samstag nicht kommen, weil ich arbeiten muss.** = Unfortunately I can't come on Saturday because I have to work.\n\n*Example:* Leider kann ich am Samstag nicht kommen, weil ich arbeiten muss.\nUnfortunately I can't come on Saturday because I have to work."
+    },
+    {
+      "id": "tb1-u28-l06-writing-model-sentences-1-ex03",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Ich schreibe dir, weil ich dich zu meiner Geburtstagsfeier einladen möchte.",
+      "tiles": [
+        "to",
+        "writing",
+        "I'm",
+        "late",
+        "I'd",
+        "I'll",
+        "like",
+        "birthday",
+        "you",
+        "because",
+        "in",
+        "my",
+        "to",
+        "party",
+        "invite"
+      ],
+      "answers": [
+        "I'm writing because I'd like to invite you to my birthday party."
+      ],
+      "explanation": "**Ich schreibe dir, weil ich dich zu meiner Geburtstagsfeier einladen möchte.** = I'm writing because I'd like to invite you to my birthday party."
+    },
+    {
+      "id": "tb1-u28-l06-writing-model-sentences-1-ex04",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means „I'm sorry that I'm getting in touch so late.“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Leider kann ich am Samstag nicht kommen, weil ich arbeiten muss."
+        },
+        {
+          "id": "b",
+          "text": "Könntest du mir bitte sagen, wann wir uns treffen?"
+        },
+        {
+          "id": "c",
+          "text": "Es tut mir leid, dass ich mich so spät melde."
+        },
+        {
+          "id": "d",
+          "text": "Ich schreibe dir, weil ich dich zu meiner Geburtstagsfeier einladen möchte."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**Es tut mir leid, dass ich mich so spät melde.** = I'm sorry that I'm getting in touch so late.\n\n*Example:* Es tut mir leid, dass ich mich so spät melde.\nI'm sorry that I'm getting in touch so late."
+    },
+    {
+      "id": "tb1-u28-l06-writing-model-sentences-1-ex05",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Unfortunately I can't come on Saturday because I have to work.",
+      "tiles": [
+        "ich",
+        "kann",
+        "kommen",
+        "am",
+        "Leider",
+        "ich",
+        "Samstag",
+        "du",
+        "weil",
+        "muss",
+        "arbeiten",
+        "vorher",
+        "treffen",
+        "nicht"
+      ],
+      "answers": [
+        "Leider kann ich am Samstag nicht kommen, weil ich arbeiten muss."
+      ],
+      "explanation": "**Leider kann ich am Samstag nicht kommen, weil ich arbeiten muss.** = Unfortunately I can't come on Saturday because I have to work."
+    },
+    {
+      "id": "tb1-u28-l06-writing-model-sentences-1-ex06",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means „Thanks for your invitation, I'll gladly come.“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Es tut mir leid, dass ich mich so spät melde."
+        },
+        {
+          "id": "b",
+          "text": "Vielen Dank für deine Einladung, ich komme gern."
+        },
+        {
+          "id": "c",
+          "text": "Ich schreibe dir, weil ich dich zu meiner Geburtstagsfeier einladen möchte."
+        },
+        {
+          "id": "d",
+          "text": "Ich würde gern wissen, ob noch Plätze frei sind."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Vielen Dank für deine Einladung, ich komme gern.** = Thanks for your invitation, I'll gladly come.\n\n*Example:* Vielen Dank für deine Einladung, ich komme gern.\nThanks for your invitation, I'll gladly come."
+    },
+    {
+      "id": "tb1-u28-l06-writing-model-sentences-1-ex07",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u28-l06-writing-model-sentences-1-3.mp3"
+      },
+      "tiles": [
+        "hoffe",
+        "mir",
+        "spät",
+        "Es",
+        "leid",
+        "weil",
+        "ich",
+        "so",
+        "melde",
+        "tut",
+        "mich",
+        "dass",
+        "geht"
+      ],
+      "answers": [
+        "Es tut mir leid, dass ich mich so spät melde."
+      ],
+      "explanation": "Es tut mir leid, dass ich mich so spät melde.\n*I'm sorry that I'm getting in touch so late.*\n\n**Es tut mir leid, dass ich mich so spät melde.** = I'm sorry that I'm getting in touch so late."
+    },
+    {
+      "id": "tb1-u28-l06-writing-model-sentences-1-ex08",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means „Could you please tell me when we're meeting?“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Bitte gib mir Bescheid, ob das für dich passt."
+        },
+        {
+          "id": "b",
+          "text": "Ich hoffe, dass es dir gut geht."
+        },
+        {
+          "id": "c",
+          "text": "Könntest du mir bitte sagen, wann wir uns treffen?"
+        },
+        {
+          "id": "d",
+          "text": "Vielen Dank für deine Einladung, ich komme gern."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**Könntest du mir bitte sagen, wann wir uns treffen?** = Could you please tell me when we're meeting?\n\n*Example:* Könntest du mir bitte sagen, wann wir uns treffen?\nCould you please tell me when we're meeting?"
+    },
+    {
+      "id": "tb1-u28-l06-writing-model-sentences-1-ex09",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Vielen Dank für deine Einladung, ich komme gern.",
+      "tiles": [
+        "Thanks",
+        "invitation",
+        "we're",
+        "gladly",
+        "come",
+        "I'll",
+        "your",
+        "for",
+        "meeting",
+        "Please"
+      ],
+      "answers": [
+        "Thanks for your invitation, I'll gladly come."
+      ],
+      "explanation": "**Vielen Dank für deine Einladung, ich komme gern.** = Thanks for your invitation, I'll gladly come."
+    },
+    {
+      "id": "tb1-u28-l06-writing-model-sentences-1-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Could you please tell me when we're meeting?",
+      "tiles": [
+        "uns",
+        "kommen",
+        "sehr",
+        "mir",
+        "wir",
+        "du",
+        "treffen",
+        "Könntest",
+        "wann",
+        "sagen",
+        "dass",
+        "bitte"
+      ],
+      "answers": [
+        "Könntest du mir bitte sagen, wann wir uns treffen?"
+      ],
+      "explanation": "**Könntest du mir bitte sagen, wann wir uns treffen?** = Could you please tell me when we're meeting?"
+    }
+  ]
+}

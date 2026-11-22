@@ -1,0 +1,129 @@
+{
+  "id": "tb1-u31-l16-passiv-rule",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u31",
+  "title": "The Passive: the rule",
+  "tip": "“Das Haus ist 1990 gebaut” is incomplete, either “wurde 1990 gebaut” or “ist 1990 gebaut worden”.",
+  "exercises": [
+    {
+      "id": "tb1-u31-l16-passiv-rule-ex01",
+      "type": "explain",
+      "title": "The Passive",
+      "body": "**werden + participle II**: Das Haus **wird** renoviert (present) · **wurde** renoviert (past) · ist renoviert **worden** (perfect). With a modal: Das muss repariert **werden**. The doer is unimportant or unknown.\n\n*Deutsch:* **werden + Partizip II**: Das Haus **wird** renoviert (Präsens) · **wurde** renoviert (Präteritum) · ist renoviert **worden** (Perfekt). Mit Modalverb: Das muss repariert **werden**. Der Täter ist unwichtig oder unbekannt.\n\n*German name:* Passiv",
+      "examples": [
+        {
+          "learning": "Die E-Mails werden sofort beantwortet.",
+          "known": "The e-mails are answered immediately."
+        },
+        {
+          "learning": "Das Fenster muss repariert werden.",
+          "known": "The window has to be repaired. (complaint letter!)"
+        },
+        {
+          "learning": "Die Kirche wurde 1850 gebaut.",
+          "known": "The church was built in 1850."
+        }
+      ]
+    },
+    {
+      "id": "tb1-u31-l16-passiv-rule-ex02",
+      "type": "explain",
+      "title": "The Passive: step by step",
+      "body": "When passive? When the action matters more than the person (“man”): Man baut hier eine Schule = Hier **wird** eine Schule **gebaut**.\nThe 4 forms for B1:\n• Present: wird/werden + participle (wird gebaut)\n• Past: wurde/wurden + participle (wurde 1990 gebaut)\n• Perfect: ist/sind + participle + **worden** (ist gebaut worden)\n• With modal: muss/kann/soll + participle + **werden** (muss repariert werden)\nTest recognition trick: past year + a form of werden → almost always “wurde”. If you see “ist … ___” with a participle before it → worden.\n\n## Auf Deutsch\n\nWann Passiv? Wenn die Handlung wichtiger ist als die Person („man“): Man baut hier eine Schule = Hier **wird** eine Schule **gebaut**.\nDie 4 Formen fürs B1:\n• Präsens: wird/werden + Partizip (wird gebaut)\n• Präteritum: wurde/wurden + Partizip (wurde 1990 gebaut)\n• Perfekt: ist/sind + Partizip + **worden** (ist gebaut worden)\n• Mit Modalverb: muss/kann/soll + Partizip + **werden** (muss repariert werden)\nErkennungs-Trick im Test: Jahreszahl in der Vergangenheit + eine Form von werden → fast immer „wurde“. Siehst du „ist … ___“ mit Partizip davor → worden.",
+      "examples": [
+        {
+          "learning": "Die E-Mails werden sofort beantwortet.",
+          "known": "The e-mails are answered immediately."
+        },
+        {
+          "learning": "Das Fenster muss repariert werden.",
+          "known": "The window has to be repaired. (complaint letter!)"
+        },
+        {
+          "learning": "Die Kirche wurde 1850 gebaut.",
+          "known": "The church was built in 1850."
+        },
+        {
+          "learning": "Das Paket ist gestern geliefert worden.",
+          "known": "The parcel was delivered yesterday."
+        },
+        {
+          "learning": "Testlücke-Stil: „Das Museum ___ zurzeit renoviert.“ → wird",
+          "known": "present passive → wird + participle"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u31-l16-passiv-rule-ex03",
+      "type": "explain",
+      "title": "Watch out & exam tip",
+      "body": "## Common trap\n\n“Das Haus ist 1990 gebaut” is incomplete, either “wurde 1990 gebaut” or “ist 1990 gebaut worden”.\n\n*Deutsch:* „Das Haus ist 1990 gebaut“ ist unvollständig, entweder „wurde 1990 gebaut“ oder „ist 1990 gebaut worden“.\n\n## In the exam\n\n🎯 How telc tests it: **Sprachbausteine** loves wird/wurde/worden gaps. In the **complaint letter**, “… muss repariert werden” is a model sentence. **Reading**: ads/info texts are full of passive (“Deutsch wird unterrichtet”).\n\n*Deutsch:* 🎯 So testet telc das: **Sprachbausteine** liebt wird/wurde/worden-Lücken. Im **Beschwerdebrief** ist „… muss repariert werden“ ein Muster-Satz. **Lesen**: Anzeigen/Infotexte sind voller Passiv („Deutsch wird unterrichtet“).\n\n*Source:* Guide B5"
+    },
+    {
+      "id": "tb1-u31-l16-passiv-rule-ex04",
+      "type": "choice",
+      "title": "Fill the gap",
+      "prompt": "Das Haus ___ 1995 gebaut.",
+      "options": [
+        {
+          "id": "a",
+          "text": "hat"
+        },
+        {
+          "id": "b",
+          "text": "ist"
+        },
+        {
+          "id": "c",
+          "text": "wurde"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Passiv Präteritum: wurde + Partizip. („ist … gebaut worden“ wäre Perfekt)"
+    },
+    {
+      "id": "tb1-u31-l16-passiv-rule-ex05",
+      "type": "choice",
+      "title": "Fill the gap",
+      "prompt": "Die E-Mails ___ jeden Tag beantwortet.",
+      "options": [
+        {
+          "id": "a",
+          "text": "sind"
+        },
+        {
+          "id": "b",
+          "text": "haben"
+        },
+        {
+          "id": "c",
+          "text": "werden"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Passiv Präsens: werden + Partizip II."
+    },
+    {
+      "id": "tb1-u31-l16-passiv-rule-ex06",
+      "type": "choice",
+      "title": "Fill the gap",
+      "prompt": "Der Aufzug muss dringend repariert ___.",
+      "options": [
+        {
+          "id": "a",
+          "text": "werden"
+        },
+        {
+          "id": "b",
+          "text": "worden"
+        },
+        {
+          "id": "c",
+          "text": "wird"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Passiv mit Modalverb: muss + Partizip + werden (Infinitiv am Ende)."
+    }
+  ]
+}

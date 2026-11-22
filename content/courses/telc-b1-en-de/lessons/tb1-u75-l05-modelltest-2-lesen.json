@@ -1,0 +1,993 @@
+{
+  "id": "tb1-u75-l05-modelltest-2-lesen",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u75",
+  "title": "Modelltest 2 · Lesen (tasks 1–20)",
+  "tip": "90 minutes for Lesen + Sprachbausteine together.",
+  "exercises": [
+    {
+      "id": "tb1-u75-l05-modelltest-2-lesen-ex01",
+      "type": "explain",
+      "title": "Modelltest 2: start the 90-minute block",
+      "body": "Lesen + Sprachbausteine, tasks 1–40, one block of **90 minutes**. Start your timer now; the Sprachbausteine follow in the next lesson."
+    },
+    {
+      "id": "tb1-u75-l05-modelltest-2-lesen-ex02",
+      "type": "explain",
+      "title": "Lesen Teil 1 · Aufgaben 1–5",
+      "body": "5 texts, 10 headlines, 5 stay unused. Each headline fits only one text. **5 points per text.**"
+    },
+    {
+      "id": "tb1-u75-l05-modelltest-2-lesen-ex03",
+      "type": "choice",
+      "title": "Aufgabe 1 · Arbeit & Stadt",
+      "passage": "Viele Firmen erlauben inzwischen das Arbeiten von zu Hause. Die Mitarbeiter sparen den Weg ins Büro und sind mit ihrer Arbeit zufriedener.",
+      "prompt": "Welche Überschrift passt zu Text 1?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Das Radio verdrängt die Podcasts"
+        },
+        {
+          "id": "b",
+          "text": "Restaurant nimmt vegetarische Gerichte ins Angebot"
+        },
+        {
+          "id": "c",
+          "text": "Neuer Park im Stadtzentrum geplant"
+        },
+        {
+          "id": "d",
+          "text": "Homeoffice führt zu mehr Stress im Job"
+        },
+        {
+          "id": "e",
+          "text": "Restaurant streicht vegetarische Gerichte vom Menü"
+        },
+        {
+          "id": "f",
+          "text": "Genug Schlaf ist für die Arbeit unwichtig"
+        },
+        {
+          "id": "g",
+          "text": "Podcasts werden immer beliebter"
+        },
+        {
+          "id": "h",
+          "text": "Der alte Park im Zentrum wird geschlossen"
+        },
+        {
+          "id": "i",
+          "text": "Zu wenig Schlaf schadet der Konzentration"
+        },
+        {
+          "id": "j",
+          "text": "Arbeiten von zu Hause macht Mitarbeiter zufriedener"
+        }
+      ],
+      "correctOptionId": "j",
+      "explanation": "**Answer: J** „Arbeiten von zu Hause macht Mitarbeiter zufriedener“\n\nText 1: Homeoffice → zufriedener. Falle D sagt „mehr Stress“."
+    },
+    {
+      "id": "tb1-u75-l05-modelltest-2-lesen-ex04",
+      "type": "choice",
+      "title": "Aufgabe 2 · Arbeit & Stadt",
+      "passage": "Eine neue Studie zeigt: Wer regelmäßig zu wenig schläft, kann sich am Tag schlechter konzentrieren.",
+      "prompt": "Welche Überschrift passt zu Text 2?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Das Radio verdrängt die Podcasts"
+        },
+        {
+          "id": "b",
+          "text": "Restaurant nimmt vegetarische Gerichte ins Angebot"
+        },
+        {
+          "id": "c",
+          "text": "Neuer Park im Stadtzentrum geplant"
+        },
+        {
+          "id": "d",
+          "text": "Homeoffice führt zu mehr Stress im Job"
+        },
+        {
+          "id": "e",
+          "text": "Restaurant streicht vegetarische Gerichte vom Menü"
+        },
+        {
+          "id": "f",
+          "text": "Genug Schlaf ist für die Arbeit unwichtig"
+        },
+        {
+          "id": "g",
+          "text": "Podcasts werden immer beliebter"
+        },
+        {
+          "id": "h",
+          "text": "Der alte Park im Zentrum wird geschlossen"
+        },
+        {
+          "id": "i",
+          "text": "Zu wenig Schlaf schadet der Konzentration"
+        },
+        {
+          "id": "j",
+          "text": "Arbeiten von zu Hause macht Mitarbeiter zufriedener"
+        }
+      ],
+      "correctOptionId": "i",
+      "explanation": "**Answer: I** „Zu wenig Schlaf schadet der Konzentration“\n\nText 2: zu wenig Schlaf schadet der Konzentration (Falle F dreht es um)."
+    },
+    {
+      "id": "tb1-u75-l05-modelltest-2-lesen-ex05",
+      "type": "choice",
+      "title": "Aufgabe 3 · Arbeit & Stadt",
+      "passage": "Immer mehr Menschen hören unterwegs Podcasts statt Radio, vor allem auf dem Weg zur Arbeit.",
+      "prompt": "Welche Überschrift passt zu Text 3?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Das Radio verdrängt die Podcasts"
+        },
+        {
+          "id": "b",
+          "text": "Restaurant nimmt vegetarische Gerichte ins Angebot"
+        },
+        {
+          "id": "c",
+          "text": "Neuer Park im Stadtzentrum geplant"
+        },
+        {
+          "id": "d",
+          "text": "Homeoffice führt zu mehr Stress im Job"
+        },
+        {
+          "id": "e",
+          "text": "Restaurant streicht vegetarische Gerichte vom Menü"
+        },
+        {
+          "id": "f",
+          "text": "Genug Schlaf ist für die Arbeit unwichtig"
+        },
+        {
+          "id": "g",
+          "text": "Podcasts werden immer beliebter"
+        },
+        {
+          "id": "h",
+          "text": "Der alte Park im Zentrum wird geschlossen"
+        },
+        {
+          "id": "i",
+          "text": "Zu wenig Schlaf schadet der Konzentration"
+        },
+        {
+          "id": "j",
+          "text": "Arbeiten von zu Hause macht Mitarbeiter zufriedener"
+        }
+      ],
+      "correctOptionId": "g",
+      "explanation": "**Answer: G** „Podcasts werden immer beliebter“\n\nText 3: Podcasts werden beliebter; Falle A sagt, das Radio verdränge sie."
+    },
+    {
+      "id": "tb1-u75-l05-modelltest-2-lesen-ex06",
+      "type": "choice",
+      "title": "Aufgabe 4 · Arbeit & Stadt",
+      "passage": "Die Stadt plant einen neuen Park im Zentrum. Er soll im nächsten Jahr eröffnet werden.",
+      "prompt": "Welche Überschrift passt zu Text 4?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Das Radio verdrängt die Podcasts"
+        },
+        {
+          "id": "b",
+          "text": "Restaurant nimmt vegetarische Gerichte ins Angebot"
+        },
+        {
+          "id": "c",
+          "text": "Neuer Park im Stadtzentrum geplant"
+        },
+        {
+          "id": "d",
+          "text": "Homeoffice führt zu mehr Stress im Job"
+        },
+        {
+          "id": "e",
+          "text": "Restaurant streicht vegetarische Gerichte vom Menü"
+        },
+        {
+          "id": "f",
+          "text": "Genug Schlaf ist für die Arbeit unwichtig"
+        },
+        {
+          "id": "g",
+          "text": "Podcasts werden immer beliebter"
+        },
+        {
+          "id": "h",
+          "text": "Der alte Park im Zentrum wird geschlossen"
+        },
+        {
+          "id": "i",
+          "text": "Zu wenig Schlaf schadet der Konzentration"
+        },
+        {
+          "id": "j",
+          "text": "Arbeiten von zu Hause macht Mitarbeiter zufriedener"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**Answer: C** „Neuer Park im Stadtzentrum geplant“\n\nText 4: ein neuer Park ist geplant. Falle H spricht von Schließung."
+    },
+    {
+      "id": "tb1-u75-l05-modelltest-2-lesen-ex07",
+      "type": "choice",
+      "title": "Aufgabe 5 · Arbeit & Stadt",
+      "passage": "Ein Restaurant bietet ab sofort auch vegetarische Gerichte an. Die Nachfrage der Gäste ist überraschend groß.",
+      "prompt": "Welche Überschrift passt zu Text 5?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Das Radio verdrängt die Podcasts"
+        },
+        {
+          "id": "b",
+          "text": "Restaurant nimmt vegetarische Gerichte ins Angebot"
+        },
+        {
+          "id": "c",
+          "text": "Neuer Park im Stadtzentrum geplant"
+        },
+        {
+          "id": "d",
+          "text": "Homeoffice führt zu mehr Stress im Job"
+        },
+        {
+          "id": "e",
+          "text": "Restaurant streicht vegetarische Gerichte vom Menü"
+        },
+        {
+          "id": "f",
+          "text": "Genug Schlaf ist für die Arbeit unwichtig"
+        },
+        {
+          "id": "g",
+          "text": "Podcasts werden immer beliebter"
+        },
+        {
+          "id": "h",
+          "text": "Der alte Park im Zentrum wird geschlossen"
+        },
+        {
+          "id": "i",
+          "text": "Zu wenig Schlaf schadet der Konzentration"
+        },
+        {
+          "id": "j",
+          "text": "Arbeiten von zu Hause macht Mitarbeiter zufriedener"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Answer: B** „Restaurant nimmt vegetarische Gerichte ins Angebot“\n\nText 5: neue vegetarische Gerichte; Falle E sagt „streicht“."
+    },
+    {
+      "id": "tb1-u75-l05-modelltest-2-lesen-ex08",
+      "type": "explain",
+      "title": "Lesen Teil 2 · Aufgaben 6–10",
+      "body": "One article, 5 questions, a, b or c. **5 points per question.**"
+    },
+    {
+      "id": "tb1-u75-l05-modelltest-2-lesen-ex09",
+      "type": "choice",
+      "title": "Vom Büro in die Backstube · Aufgabe 6",
+      "passage": "Sabine Roth, 38, arbeitete zehn Jahre lang in einer Bank. Doch die Arbeit am Schreibtisch machte sie mit der Zeit immer unzufriedener. Vor zwei Jahren kündigte sie und eröffnete eine kleine Bäckerei. „Am Anfang hatten meine Eltern Angst, dass ich scheitere“, erzählt sie. Heute läuft das Geschäft gut, und sie hat sogar zwei Mitarbeiter eingestellt.\n\nRoth backt nur mit regionalen Zutaten. Das ist zwar teurer, aber ihren Kunden ist die Qualität wichtig. Am Wochenende gibt sie außerdem Backkurse. Diese sind oft schon Wochen vorher ausgebucht.\n\nBereut hat Roth ihre Entscheidung nie. „Ich arbeite mehr als früher und verdiene weniger“, sagt sie, „aber ich bin viel glücklicher.“ In Zukunft möchte sie ein zweites Geschäft in einer Nachbarstadt eröffnen.",
+      "prompt": "Warum hat Sabine Roth ihren Job in der Bank aufgegeben?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Sie wurde entlassen."
+        },
+        {
+          "id": "b",
+          "text": "Die Arbeit am Schreibtisch machte sie unzufrieden."
+        },
+        {
+          "id": "c",
+          "text": "Sie hat in der Bank zu wenig verdient."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Answer: B** „Die Arbeit am Schreibtisch machte sie unzufrieden.“\n\n„machte sie … unzufriedener“, sie hat selbst gekündigt."
+    },
+    {
+      "id": "tb1-u75-l05-modelltest-2-lesen-ex10",
+      "type": "choice",
+      "title": "Vom Büro in die Backstube · Aufgabe 7",
+      "passage": "Sabine Roth, 38, arbeitete zehn Jahre lang in einer Bank. Doch die Arbeit am Schreibtisch machte sie mit der Zeit immer unzufriedener. Vor zwei Jahren kündigte sie und eröffnete eine kleine Bäckerei. „Am Anfang hatten meine Eltern Angst, dass ich scheitere“, erzählt sie. Heute läuft das Geschäft gut, und sie hat sogar zwei Mitarbeiter eingestellt.\n\nRoth backt nur mit regionalen Zutaten. Das ist zwar teurer, aber ihren Kunden ist die Qualität wichtig. Am Wochenende gibt sie außerdem Backkurse. Diese sind oft schon Wochen vorher ausgebucht.\n\nBereut hat Roth ihre Entscheidung nie. „Ich arbeite mehr als früher und verdiene weniger“, sagt sie, „aber ich bin viel glücklicher.“ In Zukunft möchte sie ein zweites Geschäft in einer Nachbarstadt eröffnen.",
+      "prompt": "Wie reagierten ihre Eltern am Anfang?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Sie hatten Angst, dass sie keinen Erfolg hat."
+        },
+        {
+          "id": "b",
+          "text": "Sie waren sofort begeistert."
+        },
+        {
+          "id": "c",
+          "text": "Sie halfen in der Bäckerei mit."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Answer: A** „Sie hatten Angst, dass sie keinen Erfolg hat.“\n\n„Angst, dass ich scheitere“ = kein Erfolg."
+    },
+    {
+      "id": "tb1-u75-l05-modelltest-2-lesen-ex11",
+      "type": "choice",
+      "title": "Vom Büro in die Backstube · Aufgabe 8",
+      "passage": "Sabine Roth, 38, arbeitete zehn Jahre lang in einer Bank. Doch die Arbeit am Schreibtisch machte sie mit der Zeit immer unzufriedener. Vor zwei Jahren kündigte sie und eröffnete eine kleine Bäckerei. „Am Anfang hatten meine Eltern Angst, dass ich scheitere“, erzählt sie. Heute läuft das Geschäft gut, und sie hat sogar zwei Mitarbeiter eingestellt.\n\nRoth backt nur mit regionalen Zutaten. Das ist zwar teurer, aber ihren Kunden ist die Qualität wichtig. Am Wochenende gibt sie außerdem Backkurse. Diese sind oft schon Wochen vorher ausgebucht.\n\nBereut hat Roth ihre Entscheidung nie. „Ich arbeite mehr als früher und verdiene weniger“, sagt sie, „aber ich bin viel glücklicher.“ In Zukunft möchte sie ein zweites Geschäft in einer Nachbarstadt eröffnen.",
+      "prompt": "Warum backt Roth mit regionalen Zutaten?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Weil es billiger ist."
+        },
+        {
+          "id": "b",
+          "text": "Weil ihren Kunden die Qualität wichtig ist."
+        },
+        {
+          "id": "c",
+          "text": "Weil es weniger Arbeit macht."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Answer: B** „Weil ihren Kunden die Qualität wichtig ist.“\n\n„teurer, aber … Qualität wichtig“. Antwort A recycelt „teurer“ und dreht es um."
+    },
+    {
+      "id": "tb1-u75-l05-modelltest-2-lesen-ex12",
+      "type": "choice",
+      "title": "Vom Büro in die Backstube · Aufgabe 9",
+      "passage": "Sabine Roth, 38, arbeitete zehn Jahre lang in einer Bank. Doch die Arbeit am Schreibtisch machte sie mit der Zeit immer unzufriedener. Vor zwei Jahren kündigte sie und eröffnete eine kleine Bäckerei. „Am Anfang hatten meine Eltern Angst, dass ich scheitere“, erzählt sie. Heute läuft das Geschäft gut, und sie hat sogar zwei Mitarbeiter eingestellt.\n\nRoth backt nur mit regionalen Zutaten. Das ist zwar teurer, aber ihren Kunden ist die Qualität wichtig. Am Wochenende gibt sie außerdem Backkurse. Diese sind oft schon Wochen vorher ausgebucht.\n\nBereut hat Roth ihre Entscheidung nie. „Ich arbeite mehr als früher und verdiene weniger“, sagt sie, „aber ich bin viel glücklicher.“ In Zukunft möchte sie ein zweites Geschäft in einer Nachbarstadt eröffnen.",
+      "prompt": "Was sagt Roth über ihre Entscheidung?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Sie bereut sie manchmal."
+        },
+        {
+          "id": "b",
+          "text": "Sie verdient jetzt mehr als früher."
+        },
+        {
+          "id": "c",
+          "text": "Sie ist glücklicher, obwohl sie mehr arbeitet und weniger verdient."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**Answer: C** „Sie ist glücklicher, obwohl sie mehr arbeitet und weniger verdient.“\n\ndirektes Zitat: mehr Arbeit, weniger Geld, aber glücklicher."
+    },
+    {
+      "id": "tb1-u75-l05-modelltest-2-lesen-ex13",
+      "type": "choice",
+      "title": "Vom Büro in die Backstube · Aufgabe 10",
+      "passage": "Sabine Roth, 38, arbeitete zehn Jahre lang in einer Bank. Doch die Arbeit am Schreibtisch machte sie mit der Zeit immer unzufriedener. Vor zwei Jahren kündigte sie und eröffnete eine kleine Bäckerei. „Am Anfang hatten meine Eltern Angst, dass ich scheitere“, erzählt sie. Heute läuft das Geschäft gut, und sie hat sogar zwei Mitarbeiter eingestellt.\n\nRoth backt nur mit regionalen Zutaten. Das ist zwar teurer, aber ihren Kunden ist die Qualität wichtig. Am Wochenende gibt sie außerdem Backkurse. Diese sind oft schon Wochen vorher ausgebucht.\n\nBereut hat Roth ihre Entscheidung nie. „Ich arbeite mehr als früher und verdiene weniger“, sagt sie, „aber ich bin viel glücklicher.“ In Zukunft möchte sie ein zweites Geschäft in einer Nachbarstadt eröffnen.",
+      "prompt": "Was plant Roth für die Zukunft?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Sie will ein zweites Geschäft eröffnen."
+        },
+        {
+          "id": "b",
+          "text": "Sie will wieder in der Bank arbeiten."
+        },
+        {
+          "id": "c",
+          "text": "Sie will die Backkurse beenden."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Answer: A** „Sie will ein zweites Geschäft eröffnen.“\n\n„ein zweites Geschäft in einer Nachbarstadt“."
+    },
+    {
+      "id": "tb1-u75-l05-modelltest-2-lesen-ex14",
+      "type": "explain",
+      "title": "Lesen Teil 3 · Aufgaben 11–20",
+      "body": "10 situations, 12 ads. Each ad fits at most once; x = no ad fits (one unrelated ad is left out of each list here). **2.5 points per situation.**"
+    },
+    {
+      "id": "tb1-u75-l05-modelltest-2-lesen-ex15",
+      "type": "choice",
+      "title": "Aufgabe 11 · Kurse & Dienste",
+      "passage": "Sie möchten am Wochenende einen Yogakurs besuchen.",
+      "prompt": "Welche Anzeige passt? Wenn keine passt: x.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Verschenke gebrauchte Romane gegen Abholung."
+        },
+        {
+          "id": "b",
+          "text": "Computerkurs speziell für Senioren, in kleinen Gruppen."
+        },
+        {
+          "id": "c",
+          "text": "Fahrradwerkstatt Rad&Tat: schnelle Reparaturen, faire Preise."
+        },
+        {
+          "id": "d",
+          "text": "Wohnung im Zentrum, 3. Stock, kein Balkon, kein Garten."
+        },
+        {
+          "id": "e",
+          "text": "Bäckerei Korn: auch sonntags von 8 bis 12 Uhr geöffnet."
+        },
+        {
+          "id": "f",
+          "text": "Yoga-Kleidung günstig zu verkaufen."
+        },
+        {
+          "id": "g",
+          "text": "Schwimmkurs nur für Kinder von 5 bis 10 Jahren."
+        },
+        {
+          "id": "h",
+          "text": "Yoga am Samstagmorgen, für Anfänger und Fortgeschrittene."
+        },
+        {
+          "id": "i",
+          "text": "Schöne Wohnung mit großem Garten, am Stadtrand, ruhig gelegen."
+        },
+        {
+          "id": "j",
+          "text": "Babysitter gesucht? Zuverlässige Betreuung, auch am Abend."
+        },
+        {
+          "id": "k",
+          "text": "Elektriker Blitz: Wir montieren Lampen, Steckdosen und mehr."
+        },
+        {
+          "id": "l",
+          "text": "Keine Anzeige passt (x)"
+        }
+      ],
+      "correctOptionId": "h",
+      "explanation": "**Answer: H** „Yoga am Samstagmorgen, für Anfänger und Fortgeschrittene.“\n\n*Bedingungen:* Yoga + Wochenende"
+    },
+    {
+      "id": "tb1-u75-l05-modelltest-2-lesen-ex16",
+      "type": "choice",
+      "title": "Aufgabe 12 · Kurse & Dienste",
+      "passage": "Sie suchen eine Wohnung mit Garten am Stadtrand.",
+      "prompt": "Welche Anzeige passt? Wenn keine passt: x.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Verschenke gebrauchte Romane gegen Abholung."
+        },
+        {
+          "id": "b",
+          "text": "Computerkurs speziell für Senioren, in kleinen Gruppen."
+        },
+        {
+          "id": "c",
+          "text": "Fahrradwerkstatt Rad&Tat: schnelle Reparaturen, faire Preise."
+        },
+        {
+          "id": "d",
+          "text": "Wohnung im Zentrum, 3. Stock, kein Balkon, kein Garten."
+        },
+        {
+          "id": "e",
+          "text": "Bäckerei Korn: auch sonntags von 8 bis 12 Uhr geöffnet."
+        },
+        {
+          "id": "f",
+          "text": "Yoga-Kleidung günstig zu verkaufen."
+        },
+        {
+          "id": "g",
+          "text": "Schwimmkurs nur für Kinder von 5 bis 10 Jahren."
+        },
+        {
+          "id": "h",
+          "text": "Yoga am Samstagmorgen, für Anfänger und Fortgeschrittene."
+        },
+        {
+          "id": "i",
+          "text": "Schöne Wohnung mit großem Garten, am Stadtrand, ruhig gelegen."
+        },
+        {
+          "id": "j",
+          "text": "Babysitter gesucht? Zuverlässige Betreuung, auch am Abend."
+        },
+        {
+          "id": "k",
+          "text": "Elektriker Blitz: Wir montieren Lampen, Steckdosen und mehr."
+        },
+        {
+          "id": "l",
+          "text": "Keine Anzeige passt (x)"
+        }
+      ],
+      "correctOptionId": "i",
+      "explanation": "**Answer: I** „Schöne Wohnung mit großem Garten, am Stadtrand, ruhig gelegen.“\n\n*Bedingungen:* Wohnung mit Garten + Stadtrand"
+    },
+    {
+      "id": "tb1-u75-l05-modelltest-2-lesen-ex17",
+      "type": "choice",
+      "title": "Aufgabe 13 · Kurse & Dienste",
+      "passage": "Sie wollen Ihr Fahrrad reparieren lassen.",
+      "prompt": "Welche Anzeige passt? Wenn keine passt: x.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Verschenke gebrauchte Romane gegen Abholung."
+        },
+        {
+          "id": "b",
+          "text": "Computerkurs speziell für Senioren, in kleinen Gruppen."
+        },
+        {
+          "id": "c",
+          "text": "Fahrradwerkstatt Rad&Tat: schnelle Reparaturen, faire Preise."
+        },
+        {
+          "id": "d",
+          "text": "Wohnung im Zentrum, 3. Stock, kein Balkon, kein Garten."
+        },
+        {
+          "id": "e",
+          "text": "Bäckerei Korn: auch sonntags von 8 bis 12 Uhr geöffnet."
+        },
+        {
+          "id": "f",
+          "text": "Yoga-Kleidung günstig zu verkaufen."
+        },
+        {
+          "id": "g",
+          "text": "Schwimmkurs nur für Kinder von 5 bis 10 Jahren."
+        },
+        {
+          "id": "h",
+          "text": "Yoga am Samstagmorgen, für Anfänger und Fortgeschrittene."
+        },
+        {
+          "id": "i",
+          "text": "Schöne Wohnung mit großem Garten, am Stadtrand, ruhig gelegen."
+        },
+        {
+          "id": "j",
+          "text": "Babysitter gesucht? Zuverlässige Betreuung, auch am Abend."
+        },
+        {
+          "id": "k",
+          "text": "Elektriker Blitz: Wir montieren Lampen, Steckdosen und mehr."
+        },
+        {
+          "id": "l",
+          "text": "Keine Anzeige passt (x)"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**Answer: C** „Fahrradwerkstatt Rad&Tat: schnelle Reparaturen, faire Preise.“\n\n*Bedingungen:* Fahrrad + Reparatur"
+    },
+    {
+      "id": "tb1-u75-l05-modelltest-2-lesen-ex18",
+      "type": "choice",
+      "title": "Aufgabe 14 · Kurse & Dienste",
+      "passage": "Ihre Tochter möchte Klavier spielen lernen.",
+      "prompt": "Welche Anzeige passt? Wenn keine passt: x.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Verschenke gebrauchte Romane gegen Abholung."
+        },
+        {
+          "id": "b",
+          "text": "Computerkurs speziell für Senioren, in kleinen Gruppen."
+        },
+        {
+          "id": "c",
+          "text": "Fahrradwerkstatt Rad&Tat: schnelle Reparaturen, faire Preise."
+        },
+        {
+          "id": "d",
+          "text": "Wohnung im Zentrum, 3. Stock, kein Balkon, kein Garten."
+        },
+        {
+          "id": "e",
+          "text": "Bäckerei Korn: auch sonntags von 8 bis 12 Uhr geöffnet."
+        },
+        {
+          "id": "f",
+          "text": "Yoga-Kleidung günstig zu verkaufen."
+        },
+        {
+          "id": "g",
+          "text": "Schwimmkurs nur für Kinder von 5 bis 10 Jahren."
+        },
+        {
+          "id": "h",
+          "text": "Yoga am Samstagmorgen, für Anfänger und Fortgeschrittene."
+        },
+        {
+          "id": "i",
+          "text": "Schöne Wohnung mit großem Garten, am Stadtrand, ruhig gelegen."
+        },
+        {
+          "id": "j",
+          "text": "Babysitter gesucht? Zuverlässige Betreuung, auch am Abend."
+        },
+        {
+          "id": "k",
+          "text": "Klavierunterricht für Kinder und Jugendliche, auch bei Ihnen zu Hause."
+        },
+        {
+          "id": "l",
+          "text": "Keine Anzeige passt (x)"
+        }
+      ],
+      "correctOptionId": "k",
+      "explanation": "**Answer: K** „Klavierunterricht für Kinder und Jugendliche, auch bei Ihnen zu Hause.“\n\n*Bedingungen:* Klavier + lernen"
+    },
+    {
+      "id": "tb1-u75-l05-modelltest-2-lesen-ex19",
+      "type": "choice",
+      "title": "Aufgabe 15 · Kurse & Dienste",
+      "passage": "Sie brauchen einen Babysitter für den Abend.",
+      "prompt": "Welche Anzeige passt? Wenn keine passt: x.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Verschenke gebrauchte Romane gegen Abholung."
+        },
+        {
+          "id": "b",
+          "text": "Computerkurs speziell für Senioren, in kleinen Gruppen."
+        },
+        {
+          "id": "c",
+          "text": "Fahrradwerkstatt Rad&Tat: schnelle Reparaturen, faire Preise."
+        },
+        {
+          "id": "d",
+          "text": "Wohnung im Zentrum, 3. Stock, kein Balkon, kein Garten."
+        },
+        {
+          "id": "e",
+          "text": "Bäckerei Korn: auch sonntags von 8 bis 12 Uhr geöffnet."
+        },
+        {
+          "id": "f",
+          "text": "Yoga-Kleidung günstig zu verkaufen."
+        },
+        {
+          "id": "g",
+          "text": "Schwimmkurs nur für Kinder von 5 bis 10 Jahren."
+        },
+        {
+          "id": "h",
+          "text": "Yoga am Samstagmorgen, für Anfänger und Fortgeschrittene."
+        },
+        {
+          "id": "i",
+          "text": "Schöne Wohnung mit großem Garten, am Stadtrand, ruhig gelegen."
+        },
+        {
+          "id": "j",
+          "text": "Babysitter gesucht? Zuverlässige Betreuung, auch am Abend."
+        },
+        {
+          "id": "k",
+          "text": "Elektriker Blitz: Wir montieren Lampen, Steckdosen und mehr."
+        },
+        {
+          "id": "l",
+          "text": "Keine Anzeige passt (x)"
+        }
+      ],
+      "correctOptionId": "j",
+      "explanation": "**Answer: J** „Babysitter gesucht? Zuverlässige Betreuung, auch am Abend.“\n\n*Bedingungen:* Babysitter + abends"
+    },
+    {
+      "id": "tb1-u75-l05-modelltest-2-lesen-ex20",
+      "type": "choice",
+      "title": "Aufgabe 16 · Kurse & Dienste",
+      "passage": "Sie möchten als Erwachsener schwimmen lernen.",
+      "prompt": "Welche Anzeige passt? Wenn keine passt: x.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Verschenke gebrauchte Romane gegen Abholung."
+        },
+        {
+          "id": "b",
+          "text": "Computerkurs speziell für Senioren, in kleinen Gruppen."
+        },
+        {
+          "id": "c",
+          "text": "Fahrradwerkstatt Rad&Tat: schnelle Reparaturen, faire Preise."
+        },
+        {
+          "id": "d",
+          "text": "Wohnung im Zentrum, 3. Stock, kein Balkon, kein Garten."
+        },
+        {
+          "id": "e",
+          "text": "Bäckerei Korn: auch sonntags von 8 bis 12 Uhr geöffnet."
+        },
+        {
+          "id": "f",
+          "text": "Yoga-Kleidung günstig zu verkaufen."
+        },
+        {
+          "id": "g",
+          "text": "Schwimmkurs nur für Kinder von 5 bis 10 Jahren."
+        },
+        {
+          "id": "h",
+          "text": "Yoga am Samstagmorgen, für Anfänger und Fortgeschrittene."
+        },
+        {
+          "id": "i",
+          "text": "Schöne Wohnung mit großem Garten, am Stadtrand, ruhig gelegen."
+        },
+        {
+          "id": "j",
+          "text": "Babysitter gesucht? Zuverlässige Betreuung, auch am Abend."
+        },
+        {
+          "id": "k",
+          "text": "Elektriker Blitz: Wir montieren Lampen, Steckdosen und mehr."
+        },
+        {
+          "id": "l",
+          "text": "Keine Anzeige passt (x)"
+        }
+      ],
+      "correctOptionId": "l",
+      "explanation": "**Answer: L** x · keine Anzeige passt\n\n*Bedingungen:* Schwimmkurs + für Erwachsene\n\nAnzeige „Schwimmkurs nur für Kinder …“ ist nur für Kinder (5–10), nicht für Erwachsene → x."
+    },
+    {
+      "id": "tb1-u75-l05-modelltest-2-lesen-ex21",
+      "type": "choice",
+      "title": "Aufgabe 17 · Kurse & Dienste",
+      "passage": "Sie suchen einen Handwerker, der eine Lampe anschließt.",
+      "prompt": "Welche Anzeige passt? Wenn keine passt: x.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Verschenke gebrauchte Romane gegen Abholung."
+        },
+        {
+          "id": "b",
+          "text": "Computerkurs speziell für Senioren, in kleinen Gruppen."
+        },
+        {
+          "id": "c",
+          "text": "Fahrradwerkstatt Rad&Tat: schnelle Reparaturen, faire Preise."
+        },
+        {
+          "id": "d",
+          "text": "Wohnung im Zentrum, 3. Stock, kein Balkon, kein Garten."
+        },
+        {
+          "id": "e",
+          "text": "Bäckerei Korn: auch sonntags von 8 bis 12 Uhr geöffnet."
+        },
+        {
+          "id": "f",
+          "text": "Yoga-Kleidung günstig zu verkaufen."
+        },
+        {
+          "id": "g",
+          "text": "Schwimmkurs nur für Kinder von 5 bis 10 Jahren."
+        },
+        {
+          "id": "h",
+          "text": "Yoga am Samstagmorgen, für Anfänger und Fortgeschrittene."
+        },
+        {
+          "id": "i",
+          "text": "Schöne Wohnung mit großem Garten, am Stadtrand, ruhig gelegen."
+        },
+        {
+          "id": "j",
+          "text": "Babysitter gesucht? Zuverlässige Betreuung, auch am Abend."
+        },
+        {
+          "id": "k",
+          "text": "Elektriker Blitz: Wir montieren Lampen, Steckdosen und mehr."
+        },
+        {
+          "id": "l",
+          "text": "Keine Anzeige passt (x)"
+        }
+      ],
+      "correctOptionId": "k",
+      "explanation": "**Answer: K** „Elektriker Blitz: Wir montieren Lampen, Steckdosen und mehr.“\n\n*Bedingungen:* Elektriker + Lampe anschließen"
+    },
+    {
+      "id": "tb1-u75-l05-modelltest-2-lesen-ex22",
+      "type": "choice",
+      "title": "Aufgabe 18 · Kurse & Dienste",
+      "passage": "Sie wollen alte Romane günstig abgeben oder verschenken.",
+      "prompt": "Welche Anzeige passt? Wenn keine passt: x.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Verschenke gebrauchte Romane gegen Abholung."
+        },
+        {
+          "id": "b",
+          "text": "Computerkurs speziell für Senioren, in kleinen Gruppen."
+        },
+        {
+          "id": "c",
+          "text": "Fahrradwerkstatt Rad&Tat: schnelle Reparaturen, faire Preise."
+        },
+        {
+          "id": "d",
+          "text": "Wohnung im Zentrum, 3. Stock, kein Balkon, kein Garten."
+        },
+        {
+          "id": "e",
+          "text": "Bäckerei Korn: auch sonntags von 8 bis 12 Uhr geöffnet."
+        },
+        {
+          "id": "f",
+          "text": "Yoga-Kleidung günstig zu verkaufen."
+        },
+        {
+          "id": "g",
+          "text": "Schwimmkurs nur für Kinder von 5 bis 10 Jahren."
+        },
+        {
+          "id": "h",
+          "text": "Yoga am Samstagmorgen, für Anfänger und Fortgeschrittene."
+        },
+        {
+          "id": "i",
+          "text": "Schöne Wohnung mit großem Garten, am Stadtrand, ruhig gelegen."
+        },
+        {
+          "id": "j",
+          "text": "Babysitter gesucht? Zuverlässige Betreuung, auch am Abend."
+        },
+        {
+          "id": "k",
+          "text": "Elektriker Blitz: Wir montieren Lampen, Steckdosen und mehr."
+        },
+        {
+          "id": "l",
+          "text": "Keine Anzeige passt (x)"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Answer: A** „Verschenke gebrauchte Romane gegen Abholung.“\n\n*Bedingungen:* Bücher + abgeben/verschenken"
+    },
+    {
+      "id": "tb1-u75-l05-modelltest-2-lesen-ex23",
+      "type": "choice",
+      "title": "Aufgabe 19 · Kurse & Dienste",
+      "passage": "Sie interessieren sich für einen Computerkurs für Senioren.",
+      "prompt": "Welche Anzeige passt? Wenn keine passt: x.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Verschenke gebrauchte Romane gegen Abholung."
+        },
+        {
+          "id": "b",
+          "text": "Computerkurs speziell für Senioren, in kleinen Gruppen."
+        },
+        {
+          "id": "c",
+          "text": "Fahrradwerkstatt Rad&Tat: schnelle Reparaturen, faire Preise."
+        },
+        {
+          "id": "d",
+          "text": "Wohnung im Zentrum, 3. Stock, kein Balkon, kein Garten."
+        },
+        {
+          "id": "e",
+          "text": "Bäckerei Korn: auch sonntags von 8 bis 12 Uhr geöffnet."
+        },
+        {
+          "id": "f",
+          "text": "Yoga-Kleidung günstig zu verkaufen."
+        },
+        {
+          "id": "g",
+          "text": "Schwimmkurs nur für Kinder von 5 bis 10 Jahren."
+        },
+        {
+          "id": "h",
+          "text": "Yoga am Samstagmorgen, für Anfänger und Fortgeschrittene."
+        },
+        {
+          "id": "i",
+          "text": "Schöne Wohnung mit großem Garten, am Stadtrand, ruhig gelegen."
+        },
+        {
+          "id": "j",
+          "text": "Babysitter gesucht? Zuverlässige Betreuung, auch am Abend."
+        },
+        {
+          "id": "k",
+          "text": "Elektriker Blitz: Wir montieren Lampen, Steckdosen und mehr."
+        },
+        {
+          "id": "l",
+          "text": "Keine Anzeige passt (x)"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Answer: B** „Computerkurs speziell für Senioren, in kleinen Gruppen.“\n\n*Bedingungen:* Computerkurs + für Senioren"
+    },
+    {
+      "id": "tb1-u75-l05-modelltest-2-lesen-ex24",
+      "type": "choice",
+      "title": "Aufgabe 20 · Kurse & Dienste",
+      "passage": "Sie möchten am Sonntag frisches Brot kaufen.",
+      "prompt": "Welche Anzeige passt? Wenn keine passt: x.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Verschenke gebrauchte Romane gegen Abholung."
+        },
+        {
+          "id": "b",
+          "text": "Computerkurs speziell für Senioren, in kleinen Gruppen."
+        },
+        {
+          "id": "c",
+          "text": "Fahrradwerkstatt Rad&Tat: schnelle Reparaturen, faire Preise."
+        },
+        {
+          "id": "d",
+          "text": "Wohnung im Zentrum, 3. Stock, kein Balkon, kein Garten."
+        },
+        {
+          "id": "e",
+          "text": "Bäckerei Korn: auch sonntags von 8 bis 12 Uhr geöffnet."
+        },
+        {
+          "id": "f",
+          "text": "Yoga-Kleidung günstig zu verkaufen."
+        },
+        {
+          "id": "g",
+          "text": "Schwimmkurs nur für Kinder von 5 bis 10 Jahren."
+        },
+        {
+          "id": "h",
+          "text": "Yoga am Samstagmorgen, für Anfänger und Fortgeschrittene."
+        },
+        {
+          "id": "i",
+          "text": "Schöne Wohnung mit großem Garten, am Stadtrand, ruhig gelegen."
+        },
+        {
+          "id": "j",
+          "text": "Babysitter gesucht? Zuverlässige Betreuung, auch am Abend."
+        },
+        {
+          "id": "k",
+          "text": "Elektriker Blitz: Wir montieren Lampen, Steckdosen und mehr."
+        },
+        {
+          "id": "l",
+          "text": "Keine Anzeige passt (x)"
+        }
+      ],
+      "correctOptionId": "e",
+      "explanation": "**Answer: E** „Bäckerei Korn: auch sonntags von 8 bis 12 Uhr geöffnet.“\n\n*Bedingungen:* Brot/Bäckerei + sonntags offen\n\nAnzeige „Yoga-Kleidung günstig zu verkaufen.“ (Yoga-Kleidung) und „Wohnung im Zentrum, 3. …“ (Wohnung ohne Garten) sind hier die Ablenker."
+    }
+  ]
+}

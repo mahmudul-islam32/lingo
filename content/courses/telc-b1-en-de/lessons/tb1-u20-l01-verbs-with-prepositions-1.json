@@ -1,0 +1,280 @@
+{
+  "id": "tb1-u20-l01-verbs-with-prepositions-1",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u20",
+  "title": "Verbs with Prepositions 1",
+  "tip": "Theme: Verben mit Präposition (B1)",
+  "exercises": [
+    {
+      "id": "tb1-u20-l01-verbs-with-prepositions-1-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "sich interessieren für",
+          "known": "to be interested in"
+        },
+        {
+          "id": "p2",
+          "learning": "sich freuen auf",
+          "known": "to look forward to"
+        },
+        {
+          "id": "p3",
+          "learning": "sich freuen über",
+          "known": "to be happy about"
+        },
+        {
+          "id": "p4",
+          "learning": "warten auf",
+          "known": "to wait for"
+        },
+        {
+          "id": "p5",
+          "learning": "denken an",
+          "known": "to think of"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u20-l01-verbs-with-prepositions-1-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which verb means „to be interested in“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "sich freuen auf + Akk."
+        },
+        {
+          "id": "b",
+          "text": "sich interessieren für + Akk."
+        },
+        {
+          "id": "c",
+          "text": "sich handeln um + Akk."
+        },
+        {
+          "id": "d",
+          "text": "sich verlassen auf + Akk."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**sich interessieren für + Akk.** = to be interested in\n\n*Example:* Maria interessiert sich für Kunst und Musik.\nMaria is interested in art and music."
+    },
+    {
+      "id": "tb1-u20-l01-verbs-with-prepositions-1-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which verb means „to look forward to“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "sich verlassen auf + Akk."
+        },
+        {
+          "id": "b",
+          "text": "sich beschäftigen mit + Dat."
+        },
+        {
+          "id": "c",
+          "text": "sich interessieren für + Akk."
+        },
+        {
+          "id": "d",
+          "text": "sich freuen auf + Akk."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**sich freuen auf + Akk.** = to look forward to\n\n*Example:* Die Kinder freuen sich schon auf die Sommerferien.\nThe children are already looking forward to the summer holidays."
+    },
+    {
+      "id": "tb1-u20-l01-verbs-with-prepositions-1-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Maria is interested in art and music.",
+      "tiles": [
+        "für",
+        "zu",
+        "Kunst",
+        "Denk",
+        "sich",
+        "interessiert",
+        "Maria",
+        "Musik",
+        "beschwert",
+        "und"
+      ],
+      "answers": [
+        "Maria interessiert sich für Kunst und Musik."
+      ],
+      "explanation": "**sich interessieren für + Akk.** = to be interested in"
+    },
+    {
+      "id": "tb1-u20-l01-verbs-with-prepositions-1-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which verb means „to be happy about“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "sich freuen über + Akk."
+        },
+        {
+          "id": "b",
+          "text": "sich entscheiden für + Akk."
+        },
+        {
+          "id": "c",
+          "text": "sich interessieren für + Akk."
+        },
+        {
+          "id": "d",
+          "text": "sich freuen auf + Akk."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**sich freuen über + Akk.** = to be happy about\n\n*Example:* Ich habe mich sehr über dein Geschenk gefreut.\nI was very happy about your present."
+    },
+    {
+      "id": "tb1-u20-l01-verbs-with-prepositions-1-ex06",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u20-l01-verbs-with-prepositions-1-2.mp3"
+      },
+      "tiles": [
+        "sich",
+        "ab",
+        "freuen",
+        "den",
+        "auf",
+        "Sommerferien",
+        "Die",
+        "habe",
+        "Kinder",
+        "schon",
+        "die"
+      ],
+      "answers": [
+        "Die Kinder freuen sich schon auf die Sommerferien."
+      ],
+      "explanation": "Die Kinder freuen sich schon auf die Sommerferien.\n*The children are already looking forward to the summer holidays.*\n\n**sich freuen auf + Akk.** = to look forward to"
+    },
+    {
+      "id": "tb1-u20-l01-verbs-with-prepositions-1-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which one means „to wait for“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "achten auf + Akk."
+        },
+        {
+          "id": "b",
+          "text": "bitten um + Akk."
+        },
+        {
+          "id": "c",
+          "text": "warten auf + Akk."
+        },
+        {
+          "id": "d",
+          "text": "teilnehmen an + Dat."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**warten auf + Akk.** = to wait for\n\n*Example:* Wir warten schon seit zwanzig Minuten auf den Bus.\nWe've been waiting for the bus for twenty minutes."
+    },
+    {
+      "id": "tb1-u20-l01-verbs-with-prepositions-1-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Ich habe mich sehr über dein Geschenk gefreut.",
+      "tiles": [
+        "taking",
+        "about",
+        "happy",
+        "I",
+        "your",
+        "very",
+        "applying",
+        "was",
+        "present",
+        "as"
+      ],
+      "answers": [
+        "I was very happy about your present."
+      ],
+      "explanation": "**sich freuen über + Akk.** = to be happy about"
+    },
+    {
+      "id": "tb1-u20-l01-verbs-with-prepositions-1-ex09",
+      "type": "multiple_choice",
+      "prompt": "Which one means „to think of“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "denken an + Akk."
+        },
+        {
+          "id": "b",
+          "text": "achten auf + Akk."
+        },
+        {
+          "id": "c",
+          "text": "bestehen aus + Dat."
+        },
+        {
+          "id": "d",
+          "text": "teilnehmen an + Dat."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**denken an + Akk.** = to think of\n\n*Example:* Denk bitte an den Termin beim Zahnarzt!\nPlease remember the dentist appointment!"
+    },
+    {
+      "id": "tb1-u20-l01-verbs-with-prepositions-1-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "We've been waiting for the bus for twenty minutes.",
+      "tiles": [
+        "seit",
+        "gefreut",
+        "schon",
+        "den",
+        "mit",
+        "mich",
+        "Bus",
+        "auf",
+        "zwanzig",
+        "Minuten",
+        "Wir",
+        "warten"
+      ],
+      "answers": [
+        "Wir warten schon seit zwanzig Minuten auf den Bus."
+      ],
+      "explanation": "**warten auf + Akk.** = to wait for"
+    },
+    {
+      "id": "tb1-u20-l01-verbs-with-prepositions-1-ex11",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u20-l01-verbs-with-prepositions-1-5.mp3"
+      },
+      "tiles": [
+        "Musik",
+        "Termin",
+        "den",
+        "über",
+        "beim",
+        "Denk",
+        "Wir",
+        "bitte",
+        "an",
+        "Zahnarzt"
+      ],
+      "answers": [
+        "Denk bitte an den Termin beim Zahnarzt!"
+      ],
+      "explanation": "Denk bitte an den Termin beim Zahnarzt!\n*Please remember the dentist appointment!*\n\n**denken an + Akk.** = to think of"
+    }
+  ]
+}

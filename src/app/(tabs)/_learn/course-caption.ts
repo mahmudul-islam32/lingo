@@ -2,7 +2,13 @@
  * Learn's course caption (PLT-024 AC 7, 9): which course the learner is on and the CEFR
  * level they are working in, e.g. "German · A1". Pure; no React, no storage.
  */
-import { flattenCourseLessons, type CefrLevel, type Course, type Slug } from "@/contracts";
+import {
+  cefrLevelIndex,
+  flattenCourseLessons,
+  type CefrLevel,
+  type Course,
+  type Slug,
+} from "@/contracts";
 import { COURSE_REGISTRY, DEFAULT_COURSE_ID } from "@/lib/content";
 
 /**
@@ -25,10 +31,18 @@ export function learnCourseId(settingsCourseId: Slug | null | undefined): Slug {
 export function currentLevel(
   course: Course,
   completedLessonIds: readonly Slug[],
+  startLevel: CefrLevel | null = null,
 ): CefrLevel | null {
   const lessons = flattenCourseLessons(course);
   const completed = new Set(completedLessonIds);
-  const current = lessons.find((entry) => !completed.has(entry.lesson.id)) ?? lessons.at(-1);
+  // TELC-003: lessons below the start level are skipped, as on the path ("up next").
+  const from = startLevel === null ? -1 : cefrLevelIndex(startLevel);
+  const current =
+    lessons.find(
+      (entry) =>
+        !completed.has(entry.lesson.id) &&
+        (entry.level === null || cefrLevelIndex(entry.level) >= from),
+    ) ?? lessons.at(-1);
   return current?.level ?? null;
 }
 

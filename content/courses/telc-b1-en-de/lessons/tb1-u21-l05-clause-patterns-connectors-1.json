@@ -1,0 +1,257 @@
+{
+  "id": "tb1-u21-l05-clause-patterns-connectors-1",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u21",
+  "title": "Clause Patterns & Connectors 1",
+  "tip": "Theme: Sätze. Muster: Nebensätze & Konnektoren (B1)",
+  "exercises": [
+    {
+      "id": "tb1-u21-l05-clause-patterns-connectors-1-ex01",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means „I study German every day because I want to pass the exam. (weil → verb at the end)“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ich lerne Deutsch, damit ich eine bessere Arbeit finde."
+        },
+        {
+          "id": "b",
+          "text": "Als ich nach Deutschland kam, konnte ich nur wenig Deutsch."
+        },
+        {
+          "id": "c",
+          "text": "Wir können entweder ins Kino gehen oder zu Hause bleiben."
+        },
+        {
+          "id": "d",
+          "text": "Ich lerne jeden Tag Deutsch, weil ich die Prüfung bestehen will."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**Ich lerne jeden Tag Deutsch, weil ich die Prüfung bestehen will.** = I study German every day because I want to pass the exam. (weil → verb at the end)\n\n*Example:* Ich lerne jeden Tag Deutsch, weil ich die Prüfung bestehen will.\nI study German every day because I want to pass the exam. (weil → verb at the end)"
+    },
+    {
+      "id": "tb1-u21-l05-clause-patterns-connectors-1-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means „Although I was tired, I studied for another hour. (obwohl)“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Wir können entweder ins Kino gehen oder zu Hause bleiben."
+        },
+        {
+          "id": "b",
+          "text": "Je mehr ich übe, desto besser werde ich."
+        },
+        {
+          "id": "c",
+          "text": "Obwohl ich müde war, habe ich noch eine Stunde gelernt."
+        },
+        {
+          "id": "d",
+          "text": "Bevor ich schlafen gehe, wiederhole ich die Wörter."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**Obwohl ich müde war, habe ich noch eine Stunde gelernt.** = Although I was tired, I studied for another hour. (obwohl)\n\n*Example:* Obwohl ich müde war, habe ich noch eine Stunde gelernt.\nAlthough I was tired, I studied for another hour. (obwohl)"
+    },
+    {
+      "id": "tb1-u21-l05-clause-patterns-connectors-1-ex03",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u21-l05-clause-patterns-connectors-1-1.mp3"
+      },
+      "tiles": [
+        "Prüfung",
+        "die",
+        "krank",
+        "Tag",
+        "will",
+        "Ich",
+        "jeden",
+        "bist",
+        "Arbeit",
+        "weil",
+        "ich",
+        "bestehen",
+        "Deutsch",
+        "lerne"
+      ],
+      "answers": [
+        "Ich lerne jeden Tag Deutsch, weil ich die Prüfung bestehen will."
+      ],
+      "explanation": "Ich lerne jeden Tag Deutsch, weil ich die Prüfung bestehen will.\n*I study German every day because I want to pass the exam. (weil → verb at the end)*\n\n**Ich lerne jeden Tag Deutsch, weil ich die Prüfung bestehen will.** = I study German every day because I want to pass the exam. (weil → verb at the end)"
+    },
+    {
+      "id": "tb1-u21-l05-clause-patterns-connectors-1-ex04",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means „When/if I have time, I review the vocabulary. (wenn)“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Es hat geregnet, trotzdem sind wir spazieren gegangen."
+        },
+        {
+          "id": "b",
+          "text": "Ich warte, bis du fertig bist."
+        },
+        {
+          "id": "c",
+          "text": "Wenn ich Zeit habe, wiederhole ich die Vokabeln."
+        },
+        {
+          "id": "d",
+          "text": "Sowohl meine Frau als auch ich arbeiten im Moment."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**Wenn ich Zeit habe, wiederhole ich die Vokabeln.** = When/if I have time, I review the vocabulary. (wenn)\n\n*Example:* Wenn ich Zeit habe, wiederhole ich die Vokabeln.\nWhen/if I have time, I review the vocabulary. (wenn)"
+    },
+    {
+      "id": "tb1-u21-l05-clause-patterns-connectors-1-ex05",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Although I was tired, I studied for another hour. (obwohl)",
+      "tiles": [
+        "ich",
+        "ich",
+        "war",
+        "müde",
+        "desto",
+        "Stunde",
+        "Obwohl",
+        "noch",
+        "eine",
+        "gelernt",
+        "dich",
+        "habe",
+        "bestehen"
+      ],
+      "answers": [
+        "Obwohl ich müde war, habe ich noch eine Stunde gelernt."
+      ],
+      "explanation": "**Obwohl ich müde war, habe ich noch eine Stunde gelernt.** = Although I was tired, I studied for another hour. (obwohl)"
+    },
+    {
+      "id": "tb1-u21-l05-clause-patterns-connectors-1-ex06",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means „When I came to Germany, I spoke only a little German. (als = single past event)“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Als ich nach Deutschland kam, konnte ich nur wenig Deutsch."
+        },
+        {
+          "id": "b",
+          "text": "Ich lerne jeden Tag Deutsch, weil ich die Prüfung bestehen will."
+        },
+        {
+          "id": "c",
+          "text": "Können Sie mir sagen, wann der Zug abfährt?"
+        },
+        {
+          "id": "d",
+          "text": "Er spricht nicht nur Deutsch, sondern auch Englisch."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Als ich nach Deutschland kam, konnte ich nur wenig Deutsch.** = When I came to Germany, I spoke only a little German. (als = single past event)\n\n*Example:* Als ich nach Deutschland kam, konnte ich nur wenig Deutsch.\nWhen I came to Germany, I spoke only a little German. (als = single past event)"
+    },
+    {
+      "id": "tb1-u21-l05-clause-patterns-connectors-1-ex07",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "When/if I have time, I review the vocabulary. (wenn)",
+      "tiles": [
+        "Vokabeln",
+        "die",
+        "ich",
+        "wenig",
+        "Zeit",
+        "Wenn",
+        "ist",
+        "ich",
+        "wiederhole",
+        "habe",
+        "Das"
+      ],
+      "answers": [
+        "Wenn ich Zeit habe, wiederhole ich die Vokabeln."
+      ],
+      "explanation": "**Wenn ich Zeit habe, wiederhole ich die Vokabeln.** = When/if I have time, I review the vocabulary. (wenn)"
+    },
+    {
+      "id": "tb1-u21-l05-clause-patterns-connectors-1-ex08",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means „I hope that we see each other again soon. (dass)“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Falls es morgen regnet, bleiben wir zu Hause."
+        },
+        {
+          "id": "b",
+          "text": "Ich hoffe, dass wir uns bald wiedersehen."
+        },
+        {
+          "id": "c",
+          "text": "Ich versuche, jeden Tag ein bisschen zu lesen."
+        },
+        {
+          "id": "d",
+          "text": "Ich bin nach Deutschland gekommen, um hier zu studieren."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Ich hoffe, dass wir uns bald wiedersehen.** = I hope that we see each other again soon. (dass)\n\n*Example:* Ich hoffe, dass wir uns bald wiedersehen.\nI hope that we see each other again soon. (dass)"
+    },
+    {
+      "id": "tb1-u21-l05-clause-patterns-connectors-1-ex09",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u21-l05-clause-patterns-connectors-1-4.mp3"
+      },
+      "tiles": [
+        "konnte",
+        "nach",
+        "nur",
+        "uns",
+        "kam",
+        "Weißt",
+        "Deutsch",
+        "Kurs",
+        "ich",
+        "ich",
+        "Deutschland",
+        "wenig",
+        "Als"
+      ],
+      "answers": [
+        "Als ich nach Deutschland kam, konnte ich nur wenig Deutsch."
+      ],
+      "explanation": "Als ich nach Deutschland kam, konnte ich nur wenig Deutsch.\n*When I came to Germany, I spoke only a little German. (als = single past event)*\n\n**Als ich nach Deutschland kam, konnte ich nur wenig Deutsch.** = When I came to Germany, I spoke only a little German. (als = single past event)"
+    },
+    {
+      "id": "tb1-u21-l05-clause-patterns-connectors-1-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I hope that we see each other again soon. (dass)",
+      "tiles": [
+        "uns",
+        "Deutschland",
+        "dass",
+        "wir",
+        "Ich",
+        "wohnt",
+        "wiedersehen",
+        "hoffe",
+        "bald",
+        "jeden"
+      ],
+      "answers": [
+        "Ich hoffe, dass wir uns bald wiedersehen."
+      ],
+      "explanation": "**Ich hoffe, dass wir uns bald wiedersehen.** = I hope that we see each other again soon. (dass)"
+    }
+  ]
+}

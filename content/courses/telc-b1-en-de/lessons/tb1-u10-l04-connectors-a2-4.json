@@ -1,0 +1,236 @@
+{
+  "id": "tb1-u10-l04-connectors-a2-4",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u10",
+  "title": "Connectors (A2) 4",
+  "tip": "Theme: Konnektoren (A2) (A2)",
+  "exercises": [
+    {
+      "id": "tb1-u10-l04-connectors-a2-4-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "nachdem",
+          "known": "after"
+        },
+        {
+          "id": "p2",
+          "learning": "während",
+          "known": "while"
+        },
+        {
+          "id": "p3",
+          "learning": "seitdem",
+          "known": "since (then)"
+        },
+        {
+          "id": "p4",
+          "learning": "falls",
+          "known": "in case"
+        },
+        {
+          "id": "p5",
+          "learning": "weil",
+          "known": "because"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u10-l04-connectors-a2-4-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which one means „after“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "nachdem"
+        },
+        {
+          "id": "b",
+          "text": "deshalb"
+        },
+        {
+          "id": "c",
+          "text": "falls"
+        },
+        {
+          "id": "d",
+          "text": "bevor"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**nachdem** = after\n\n*Example:* Nachdem Ali gegessen hat, macht er einen Spaziergang.\nAfter Ali has eaten, he goes for a walk."
+    },
+    {
+      "id": "tb1-u10-l04-connectors-a2-4-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which one means „while“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "dass"
+        },
+        {
+          "id": "b",
+          "text": "damit"
+        },
+        {
+          "id": "c",
+          "text": "während"
+        },
+        {
+          "id": "d",
+          "text": "trotzdem"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**während** = while\n\n*Example:* Während ich koche, hört mein Mann Musik.\nWhile I'm cooking, my husband listens to music."
+    },
+    {
+      "id": "tb1-u10-l04-connectors-a2-4-ex04",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u10-l04-connectors-a2-4-1.mp3"
+      },
+      "tiles": [
+        "in",
+        "hat",
+        "gegessen",
+        "macht",
+        "einen",
+        "Spaziergang",
+        "können",
+        "Nachdem",
+        "Ali",
+        "er",
+        "spricht"
+      ],
+      "answers": [
+        "Nachdem Ali gegessen hat, macht er einen Spaziergang."
+      ],
+      "explanation": "Nachdem Ali gegessen hat, macht er einen Spaziergang.\n*After Ali has eaten, he goes for a walk.*\n\n**nachdem** = after"
+    },
+    {
+      "id": "tb1-u10-l04-connectors-a2-4-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which one means „since (then)“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "entweder … oder"
+        },
+        {
+          "id": "b",
+          "text": "nicht nur … sondern auch"
+        },
+        {
+          "id": "c",
+          "text": "seitdem"
+        },
+        {
+          "id": "d",
+          "text": "also"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**seitdem** = since (then)\n\n*Example:* Seitdem Anna in Köln wohnt, fährt sie mit dem Fahrrad.\nSince Anna has been living in Cologne, she has been cycling."
+    },
+    {
+      "id": "tb1-u10-l04-connectors-a2-4-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Während ich koche, hört mein Mann Musik.",
+      "tiles": [
+        "While",
+        "listens",
+        "husband",
+        "my",
+        "music",
+        "The",
+        "to",
+        "was",
+        "I'm",
+        "cooking",
+        "headache"
+      ],
+      "answers": [
+        "While I'm cooking, my husband listens to music."
+      ],
+      "explanation": "**während** = while"
+    },
+    {
+      "id": "tb1-u10-l04-connectors-a2-4-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which one means „in case“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "falls"
+        },
+        {
+          "id": "b",
+          "text": "bevor"
+        },
+        {
+          "id": "c",
+          "text": "wenn"
+        },
+        {
+          "id": "d",
+          "text": "dass"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**falls** = in case\n\n*Example:* Falls du Hilfe brauchst, ruf mich einfach an.\nIn case you need help, just give me a call."
+    },
+    {
+      "id": "tb1-u10-l04-connectors-a2-4-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Since Anna has been living in Cologne, she has been cycling.",
+      "tiles": [
+        "Köln",
+        "Arbeit",
+        "Fahrrad",
+        "Kaffee",
+        "in",
+        "guten",
+        "mit",
+        "Anna",
+        "Seitdem",
+        "sie",
+        "fährt",
+        "dem",
+        "wohnt"
+      ],
+      "answers": [
+        "Seitdem Anna in Köln wohnt, fährt sie mit dem Fahrrad."
+      ],
+      "explanation": "**seitdem** = since (then)"
+    },
+    {
+      "id": "tb1-u10-l04-connectors-a2-4-ex09",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u10-l04-connectors-a2-4-4.mp3"
+      },
+      "tiles": [
+        "wir",
+        "Falls",
+        "ruf",
+        "einfach",
+        "brauchst",
+        "mich",
+        "Hilfe",
+        "an",
+        "gibt",
+        "mit",
+        "du"
+      ],
+      "answers": [
+        "Falls du Hilfe brauchst, ruf mich einfach an."
+      ],
+      "explanation": "Falls du Hilfe brauchst, ruf mich einfach an.\n*In case you need help, just give me a call.*\n\n**falls** = in case"
+    }
+  ]
+}

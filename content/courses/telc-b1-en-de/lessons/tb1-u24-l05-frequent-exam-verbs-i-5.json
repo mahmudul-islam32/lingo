@@ -1,0 +1,280 @@
+{
+  "id": "tb1-u24-l05-frequent-exam-verbs-i-5",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u24",
+  "title": "Frequent Exam Verbs I 5",
+  "tip": "Theme: Verben: Prüfungshäufig I (B1)",
+  "exercises": [
+    {
+      "id": "tb1-u24-l05-frequent-exam-verbs-i-5-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "waschen",
+          "known": "to wash"
+        },
+        {
+          "id": "p2",
+          "learning": "schneiden",
+          "known": "to cut"
+        },
+        {
+          "id": "p3",
+          "learning": "tragen",
+          "known": "to carry / to wear"
+        },
+        {
+          "id": "p4",
+          "learning": "ziehen",
+          "known": "to pull / to move (house)"
+        },
+        {
+          "id": "p5",
+          "learning": "fliegen",
+          "known": "to fly"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u24-l05-frequent-exam-verbs-i-5-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which one means „to wash“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "versuchen"
+        },
+        {
+          "id": "b",
+          "text": "tanzen"
+        },
+        {
+          "id": "c",
+          "text": "waschen (wäscht)"
+        },
+        {
+          "id": "d",
+          "text": "passieren"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**waschen (wäscht)** = to wash\n\n*Example:* Tom wäscht seine Kleidung immer am Sonntag.\nTom always washes his clothes on Sunday."
+    },
+    {
+      "id": "tb1-u24-l05-frequent-exam-verbs-i-5-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which one means „to cut“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "singen"
+        },
+        {
+          "id": "b",
+          "text": "vorbeikommen"
+        },
+        {
+          "id": "c",
+          "text": "schneiden"
+        },
+        {
+          "id": "d",
+          "text": "aussehen (sieht aus)"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**schneiden** = to cut\n\n*Example:* Kannst du bitte das Brot schneiden?\nCan you cut the bread, please?"
+    },
+    {
+      "id": "tb1-u24-l05-frequent-exam-verbs-i-5-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Tom always washes his clothes on Sunday.",
+      "tiles": [
+        "Sonntag",
+        "wäscht",
+        "Türkei",
+        "seine",
+        "Kleidung",
+        "ich",
+        "Tom",
+        "am",
+        "immer",
+        "Zimmer"
+      ],
+      "answers": [
+        "Tom wäscht seine Kleidung immer am Sonntag."
+      ],
+      "explanation": "**waschen (wäscht)** = to wash"
+    },
+    {
+      "id": "tb1-u24-l05-frequent-exam-verbs-i-5-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which one means „to carry / to wear“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "tanzen"
+        },
+        {
+          "id": "b",
+          "text": "überlegen"
+        },
+        {
+          "id": "c",
+          "text": "erläutern"
+        },
+        {
+          "id": "d",
+          "text": "tragen (trägt)"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**tragen (trägt)** = to carry / to wear\n\n*Example:* Mein Bruder trägt die schweren Taschen in die Wohnung.\nMy brother carries the heavy bags into the flat."
+    },
+    {
+      "id": "tb1-u24-l05-frequent-exam-verbs-i-5-ex06",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u24-l05-frequent-exam-verbs-i-5-2.mp3"
+      },
+      "tiles": [
+        "Kannst",
+        "zwei",
+        "das",
+        "bitte",
+        "schneiden",
+        "ich",
+        "seine",
+        "du",
+        "Brot"
+      ],
+      "answers": [
+        "Kannst du bitte das Brot schneiden?"
+      ],
+      "explanation": "Kannst du bitte das Brot schneiden?\n*Can you cut the bread, please?*\n\n**schneiden** = to cut"
+    },
+    {
+      "id": "tb1-u24-l05-frequent-exam-verbs-i-5-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which one means „to pull / to move (house)“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "verbinden"
+        },
+        {
+          "id": "b",
+          "text": "ziehen"
+        },
+        {
+          "id": "c",
+          "text": "schneiden"
+        },
+        {
+          "id": "d",
+          "text": "waschen (wäscht)"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**ziehen** = to pull / to move (house)\n\n*Example:* Im Mai ziehen wir in eine größere Wohnung.\nIn May we're moving into a bigger flat."
+    },
+    {
+      "id": "tb1-u24-l05-frequent-exam-verbs-i-5-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Mein Bruder trägt die schweren Taschen in die Wohnung.",
+      "tiles": [
+        "small",
+        "My",
+        "into",
+        "founded",
+        "heavy",
+        "bags",
+        "brother",
+        "carries",
+        "flat",
+        "me",
+        "the",
+        "the"
+      ],
+      "answers": [
+        "My brother carries the heavy bags into the flat."
+      ],
+      "explanation": "**tragen (trägt)** = to carry / to wear"
+    },
+    {
+      "id": "tb1-u24-l05-frequent-exam-verbs-i-5-ex09",
+      "type": "multiple_choice",
+      "prompt": "Which one means „to fly“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "fliegen"
+        },
+        {
+          "id": "b",
+          "text": "wählen"
+        },
+        {
+          "id": "c",
+          "text": "überlegen"
+        },
+        {
+          "id": "d",
+          "text": "schneiden"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**fliegen** = to fly\n\n*Example:* Im Sommer fliegt Familie Yılmaz in die Türkei.\nIn summer the Yılmaz family is flying to Turkey."
+    },
+    {
+      "id": "tb1-u24-l05-frequent-exam-verbs-i-5-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "In May we're moving into a bigger flat.",
+      "tiles": [
+        "mit",
+        "in",
+        "vor",
+        "Im",
+        "größere",
+        "eine",
+        "ziehen",
+        "Mai",
+        "Können",
+        "Wohnung",
+        "wir"
+      ],
+      "answers": [
+        "Im Mai ziehen wir in eine größere Wohnung."
+      ],
+      "explanation": "**ziehen** = to pull / to move (house)"
+    },
+    {
+      "id": "tb1-u24-l05-frequent-exam-verbs-i-5-ex11",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u24-l05-frequent-exam-verbs-i-5-5.mp3"
+      },
+      "tiles": [
+        "Sommer",
+        "die",
+        "in",
+        "ein",
+        "Yılmaz",
+        "Kleidung",
+        "fliegt",
+        "Familie",
+        "aber",
+        "Türkei",
+        "Im"
+      ],
+      "answers": [
+        "Im Sommer fliegt Familie Yılmaz in die Türkei."
+      ],
+      "explanation": "Im Sommer fliegt Familie Yılmaz in die Türkei.\n*In summer the Yılmaz family is flying to Turkey.*\n\n**fliegen** = to fly"
+    }
+  ]
+}

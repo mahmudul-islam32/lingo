@@ -1,0 +1,280 @@
+{
+  "id": "tb1-u24-l11-frequent-exam-verbs-ii-4",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u24",
+  "title": "Frequent Exam Verbs II 4",
+  "tip": "Theme: Verben: Prüfungshäufig II (B1)",
+  "exercises": [
+    {
+      "id": "tb1-u24-l11-frequent-exam-verbs-ii-4-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "enthalten",
+          "known": "to contain"
+        },
+        {
+          "id": "p2",
+          "learning": "bieten",
+          "known": "to offer / provide"
+        },
+        {
+          "id": "p3",
+          "learning": "sich befinden",
+          "known": "to be located"
+        },
+        {
+          "id": "p4",
+          "learning": "sich verhalten",
+          "known": "to behave"
+        },
+        {
+          "id": "p5",
+          "learning": "abgeben",
+          "known": "to hand in"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u24-l11-frequent-exam-verbs-ii-4-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which one means „to contain“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "nennen"
+        },
+        {
+          "id": "b",
+          "text": "öffnen"
+        },
+        {
+          "id": "c",
+          "text": "enthalten (enthält)"
+        },
+        {
+          "id": "d",
+          "text": "erreichen"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**enthalten (enthält)** = to contain\n\n*Example:* Dieser Joghurt enthält viel Zucker.\nThis yoghurt contains a lot of sugar."
+    },
+    {
+      "id": "tb1-u24-l11-frequent-exam-verbs-ii-4-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which one means „to offer / provide“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "enthalten (enthält)"
+        },
+        {
+          "id": "b",
+          "text": "legen"
+        },
+        {
+          "id": "c",
+          "text": "bieten"
+        },
+        {
+          "id": "d",
+          "text": "erreichen"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**bieten** = to offer / provide\n\n*Example:* Die Volkshochschule bietet viele günstige Kurse.\nThe adult education centre offers many inexpensive courses."
+    },
+    {
+      "id": "tb1-u24-l11-frequent-exam-verbs-ii-4-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "This yoghurt contains a lot of sugar.",
+      "tiles": [
+        "Arbeit",
+        "enthält",
+        "Becker",
+        "mit",
+        "Dieser",
+        "Joghurt",
+        "viel",
+        "Zucker"
+      ],
+      "answers": [
+        "Dieser Joghurt enthält viel Zucker."
+      ],
+      "explanation": "**enthalten (enthält)** = to contain"
+    },
+    {
+      "id": "tb1-u24-l11-frequent-exam-verbs-ii-4-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which verb means „to be located“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "sich verhalten (verhält sich)"
+        },
+        {
+          "id": "b",
+          "text": "sich befinden"
+        },
+        {
+          "id": "c",
+          "text": "gelten (gilt)"
+        },
+        {
+          "id": "d",
+          "text": "sich lohnen"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**sich befinden** = to be located\n\n*Example:* Die Toiletten befinden sich im ersten Stock.\nThe toilets are located on the first floor."
+    },
+    {
+      "id": "tb1-u24-l11-frequent-exam-verbs-ii-4-ex06",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u24-l11-frequent-exam-verbs-ii-4-2.mp3"
+      },
+      "tiles": [
+        "bietet",
+        "Volkshochschule",
+        "Wochenende",
+        "das",
+        "viele",
+        "günstige",
+        "Kurse",
+        "erst",
+        "Die"
+      ],
+      "answers": [
+        "Die Volkshochschule bietet viele günstige Kurse."
+      ],
+      "explanation": "Die Volkshochschule bietet viele günstige Kurse.\n*The adult education centre offers many inexpensive courses.*\n\n**bieten** = to offer / provide"
+    },
+    {
+      "id": "tb1-u24-l11-frequent-exam-verbs-ii-4-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which verb means „to behave“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "sich lohnen"
+        },
+        {
+          "id": "b",
+          "text": "sich befinden"
+        },
+        {
+          "id": "c",
+          "text": "liegen"
+        },
+        {
+          "id": "d",
+          "text": "sich verhalten (verhält sich)"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**sich verhalten (verhält sich)** = to behave\n\n*Example:* Die Schüler haben sich im Museum sehr gut verhalten.\nThe pupils behaved very well in the museum."
+    },
+    {
+      "id": "tb1-u24-l11-frequent-exam-verbs-ii-4-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Die Toiletten befinden sich im ersten Stock.",
+      "tiles": [
+        "take",
+        "floor",
+        "on",
+        "first",
+        "doctor",
+        "toilets",
+        "The",
+        "located",
+        "are",
+        "my",
+        "the"
+      ],
+      "answers": [
+        "The toilets are located on the first floor."
+      ],
+      "explanation": "**sich befinden** = to be located"
+    },
+    {
+      "id": "tb1-u24-l11-frequent-exam-verbs-ii-4-ex09",
+      "type": "multiple_choice",
+      "prompt": "Which one means „to hand in“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "legen"
+        },
+        {
+          "id": "b",
+          "text": "abgeben (gibt ab)"
+        },
+        {
+          "id": "c",
+          "text": "liegen"
+        },
+        {
+          "id": "d",
+          "text": "gelten (gilt)"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**abgeben (gibt ab)** = to hand in\n\n*Example:* Bitte geben Sie den Antrag bis Freitag beim Amt ab.\nPlease hand in the application at the office by Friday."
+    },
+    {
+      "id": "tb1-u24-l11-frequent-exam-verbs-ii-4-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "The pupils behaved very well in the museum.",
+      "tiles": [
+        "Schüler",
+        "wirklich",
+        "sich",
+        "verhalten",
+        "Die",
+        "Museum",
+        "haben",
+        "Tisch",
+        "habe",
+        "gut",
+        "im",
+        "sehr"
+      ],
+      "answers": [
+        "Die Schüler haben sich im Museum sehr gut verhalten."
+      ],
+      "explanation": "**sich verhalten (verhält sich)** = to behave"
+    },
+    {
+      "id": "tb1-u24-l11-frequent-exam-verbs-ii-4-ex11",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u24-l11-frequent-exam-verbs-ii-4-5.mp3"
+      },
+      "tiles": [
+        "Sie",
+        "ersten",
+        "geben",
+        "Antrag",
+        "Amt",
+        "bis",
+        "Bus",
+        "beim",
+        "den",
+        "dem",
+        "Bitte",
+        "Freitag",
+        "ab"
+      ],
+      "answers": [
+        "Bitte geben Sie den Antrag bis Freitag beim Amt ab."
+      ],
+      "explanation": "Bitte geben Sie den Antrag bis Freitag beim Amt ab.\n*Please hand in the application at the office by Friday.*\n\n**abgeben (gibt ab)** = to hand in"
+    }
+  ]
+}

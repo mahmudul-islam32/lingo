@@ -1,0 +1,129 @@
+{
+  "id": "tb1-u31-l03-praeteritum-rule",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u31",
+  "title": "Präteritum: war, hatte + Modal Verbs: the rule",
+  "tip": "“Ich bin krank gewesen und habe nicht kommen gekonnt”, clumsy and error-prone. Write: Ich war krank und konnte nicht kommen.",
+  "exercises": [
+    {
+      "id": "tb1-u31-l03-praeteritum-rule-ex01",
+      "type": "explain",
+      "title": "Präteritum: war, hatte + Modal Verbs",
+      "body": "In a B1 letter you only need the Präteritum “big five”: **war, hatte, wollte, konnte, musste** (+ sollte, durfte). “ich war” sounds more natural than “ich bin gewesen”. Other verbs in letters: use Perfekt.\n\n*Deutsch:* Im B1-Brief reicht Präteritum für die „Pflicht-Fünf“: **war, hatte, wollte, konnte, musste** (+ sollte, durfte). „ich war“ klingt natürlicher als „ich bin gewesen“. Andere Verben im Brief: Perfekt.\n\n*German name:* Präteritum: war, hatte + Modalverben",
+      "examples": [
+        {
+          "learning": "Ich war letzte Woche krank und lag im Bett.",
+          "known": "I was ill last week and stayed in bed."
+        },
+        {
+          "learning": "Ich hatte leider keine Zeit.",
+          "known": "Unfortunately I had no time."
+        },
+        {
+          "learning": "Ich konnte deine Nachricht erst heute lesen.",
+          "known": "I could only read your message today. (perfect excuse line)"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u31-l03-praeteritum-rule-ex02",
+      "type": "explain",
+      "title": "Präteritum: war, hatte + Modal Verbs: step by step",
+      "body": "Why? Germans mix tenses: everyday storytelling = Perfekt, BUT sein/haben/modals are almost always Präteritum.\nForms (ich/er identical!): ich **war**, du warst, er war · ich **hatte** · ich **konnte**, **musste**, **wollte**, **durfte**, **sollte**.\nTypical letter lines: “Ich war letzte Woche krank.” · “Ich hatte viel Stress.” · “Ich konnte leider nicht kommen.” · “Ich musste arbeiten.”\nCareful: **konnte** (real past) ≠ **könnte** (polite/unreal, Konjunktiv II). One letter, two worlds.\nReading part: newspaper texts use Präteritum for all verbs (sagte, ging, gab), you only need to recognise it, not produce it.\n\n## Auf Deutsch\n\nWarum? Deutsche mischen: Erzählen im Alltag = Perfekt, ABER sein/haben/Modalverben fast immer Präteritum.\nFormen (ich/er identisch!): ich **war**, du warst, er war · ich **hatte** · ich **konnte**, **musste**, **wollte**, **durfte**, **sollte**.\nTypische Brief-Sätze: „Ich war letzte Woche krank.“ · „Ich hatte viel Stress.“ · „Ich konnte leider nicht kommen.“ · „Ich musste arbeiten.“\nAchtung: **konnte** (Vergangenheit, real) ≠ **könnte** (höflich/irreal, Konjunktiv II). Ein Buchstabe, zwei Welten.\nLesen-Teil: Zeitungstexte benutzen Präteritum auch für Vollverben (sagte, ging, gab), nur erkennen, nicht selbst schreiben müssen.",
+      "examples": [
+        {
+          "learning": "Ich war letzte Woche krank und lag im Bett.",
+          "known": "I was ill last week and stayed in bed."
+        },
+        {
+          "learning": "Ich hatte leider keine Zeit.",
+          "known": "Unfortunately I had no time."
+        },
+        {
+          "learning": "Ich konnte deine Nachricht erst heute lesen.",
+          "known": "I could only read your message today. (perfect excuse line)"
+        },
+        {
+          "learning": "Als Kind durfte ich keine Haustiere haben.",
+          "known": "As a child I wasn't allowed to have pets."
+        },
+        {
+          "learning": "Testlücke-Stil: „Es tut mir leid, dass ich nicht kommen ___.“ → konnte",
+          "known": "past ability → konnte (not könnte!)"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u31-l03-praeteritum-rule-ex03",
+      "type": "explain",
+      "title": "Watch out & exam tip",
+      "body": "## Common trap\n\n“Ich bin krank gewesen und habe nicht kommen gekonnt”, clumsy and error-prone. Write: Ich war krank und konnte nicht kommen.\n\n*Deutsch:* „Ich bin krank gewesen und habe nicht kommen gekonnt“, umständlich und fehleranfällig. Schreib: Ich war krank und konnte nicht kommen.\n\n## In the exam\n\n🎯 How telc tests it: the apology e-mail (“why I couldn't come”) is an evergreen letter topic, war/hatte/konnte/musste are your tools. **Sprachbausteine** likes testing konnte vs. könnte.\n\n*Deutsch:* 🎯 So testet telc das: Die Entschuldigungs-Mail („warum ich nicht kommen konnte“) ist ein Dauer-Briefthema, war/hatte/konnte/musste sind deine Werkzeuge. **Sprachbausteine** testet gern konnte vs. könnte.\n\n*Source:* Guide B2"
+    },
+    {
+      "id": "tb1-u31-l03-praeteritum-rule-ex04",
+      "type": "choice",
+      "title": "Fill the gap",
+      "prompt": "Ich ___ letzte Woche krank und lag im Bett.",
+      "options": [
+        {
+          "id": "a",
+          "text": "bin"
+        },
+        {
+          "id": "b",
+          "text": "hatte"
+        },
+        {
+          "id": "c",
+          "text": "war"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Im Brief: Präteritum von sein → ich war krank."
+    },
+    {
+      "id": "tb1-u31-l03-praeteritum-rule-ex05",
+      "type": "choice",
+      "title": "Fill the gap",
+      "prompt": "Als Kind ___ ich keine Haustiere haben.",
+      "options": [
+        {
+          "id": "a",
+          "text": "gedurft"
+        },
+        {
+          "id": "b",
+          "text": "darf"
+        },
+        {
+          "id": "c",
+          "text": "durfte"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Modalverben in der Vergangenheit im Präteritum: durfte."
+    },
+    {
+      "id": "tb1-u31-l03-praeteritum-rule-ex06",
+      "type": "choice",
+      "title": "Fill the gap",
+      "prompt": "Ich ___ dich gestern anrufen, aber mein Handy war kaputt.",
+      "options": [
+        {
+          "id": "a",
+          "text": "wollte"
+        },
+        {
+          "id": "b",
+          "text": "will"
+        },
+        {
+          "id": "c",
+          "text": "habe gewollt"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "wollen → Präteritum wollte. „habe gewollt“ klingt im Brief falsch platziert."
+    }
+  ]
+}

@@ -1,0 +1,243 @@
+{
+  "id": "tb1-u29-l03-the-oral-exam-3",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u29",
+  "title": "The Oral Exam 3",
+  "tip": "Theme: Redemittel: Mündliche Prüfung (B1)",
+  "exercises": [
+    {
+      "id": "tb1-u29-l03-the-oral-exam-3-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "Sollen wir das so machen?",
+          "known": "Shall we do it like that?"
+        },
+        {
+          "id": "p2",
+          "learning": "Also, zusammengefasst …",
+          "known": "So, to sum up …"
+        },
+        {
+          "id": "p3",
+          "learning": "Wie sagt man … auf Deutsch?",
+          "known": "How do you say … in German?"
+        },
+        {
+          "id": "p4",
+          "learning": "Darf ich mich kurz vorstellen?",
+          "known": "May I introduce myself briefly?"
+        },
+        {
+          "id": "p5",
+          "learning": "Ich heiße … und komme aus …",
+          "known": "My name is … and I'm from …"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u29-l03-the-oral-exam-3-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which phrase means „Shall we do it like that?“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Sollen wir das so machen?"
+        },
+        {
+          "id": "b",
+          "text": "Ich heiße … und komme aus …"
+        },
+        {
+          "id": "c",
+          "text": "Entschuldigung, das habe ich nicht verstanden."
+        },
+        {
+          "id": "d",
+          "text": "Lass uns gemeinsam planen."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Sollen wir das so machen?** = Shall we do it like that?\n\n*Example:* Du kaufst die Getränke und ich backe den Kuchen. Sollen wir das so machen?\nYou buy the drinks and I'll bake the cake. Shall we do it like that?"
+    },
+    {
+      "id": "tb1-u29-l03-the-oral-exam-3-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which phrase means „So, to sum up …“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Da bin ich ganz deiner Meinung."
+        },
+        {
+          "id": "b",
+          "text": "Also, zusammengefasst …"
+        },
+        {
+          "id": "c",
+          "text": "Lass uns gemeinsam planen."
+        },
+        {
+          "id": "d",
+          "text": "Wie ist deine Meinung dazu?"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Also, zusammengefasst …** = So, to sum up …\n\n*Example:* Also, zusammengefasst: Wir treffen uns um zehn und fahren mit dem Zug.\nSo, to sum up: we meet at ten and go by train."
+    },
+    {
+      "id": "tb1-u29-l03-the-oral-exam-3-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "You buy the drinks and I'll bake the cake. Shall we do it like that?",
+      "tiles": [
+        "Sollen",
+        "backe",
+        "das",
+        "ich",
+        "Du",
+        "kaufst",
+        "den",
+        "Kuchen",
+        "die",
+        "Guten",
+        "so",
+        "Entschuldigung",
+        "und",
+        "Getränke",
+        "deine",
+        "machen",
+        "wir"
+      ],
+      "answers": [
+        "Du kaufst die Getränke und ich backe den Kuchen. Sollen wir das so machen?"
+      ],
+      "explanation": "**Sollen wir das so machen?** = Shall we do it like that?"
+    },
+    {
+      "id": "tb1-u29-l03-the-oral-exam-3-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which phrase means „Sorry, I didn't understand that.“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Sollen wir das so machen?"
+        },
+        {
+          "id": "b",
+          "text": "Also, zusammengefasst …"
+        },
+        {
+          "id": "c",
+          "text": "Entschuldigung, das habe ich nicht verstanden."
+        },
+        {
+          "id": "d",
+          "text": "Lass uns gemeinsam planen."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**Entschuldigung, das habe ich nicht verstanden.** = Sorry, I didn't understand that.\n\n*Example:* Entschuldigung, das habe ich nicht verstanden. Sprechen Sie bitte langsamer.\nSorry, I didn't understand that. Please speak more slowly."
+    },
+    {
+      "id": "tb1-u29-l03-the-oral-exam-3-ex06",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u29-l03-the-oral-exam-3-2.mp3"
+      },
+      "tiles": [
+        "mit",
+        "um",
+        "mich",
+        "zusammengefasst",
+        "fahren",
+        "Also",
+        "dem",
+        "und",
+        "vorstellen",
+        "zehn",
+        "Wir",
+        "treffen",
+        "Wie",
+        "uns",
+        "Zug"
+      ],
+      "answers": [
+        "Also, zusammengefasst: Wir treffen uns um zehn und fahren mit dem Zug."
+      ],
+      "explanation": "Also, zusammengefasst: Wir treffen uns um zehn und fahren mit dem Zug.\n*So, to sum up: we meet at ten and go by train.*\n\n**Also, zusammengefasst …** = So, to sum up …"
+    },
+    {
+      "id": "tb1-u29-l03-the-oral-exam-3-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which phrase means „How do you say … in German?“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Lass uns gemeinsam planen."
+        },
+        {
+          "id": "b",
+          "text": "Sollen wir das so machen?"
+        },
+        {
+          "id": "c",
+          "text": "Darf ich mich kurz vorstellen?"
+        },
+        {
+          "id": "d",
+          "text": "Wie sagt man … auf Deutsch?"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**Wie sagt man … auf Deutsch?** = How do you say … in German?\n\n*Example:* Wie sagt man „Fork“ auf Deutsch? – „Gabel.“\nHow do you say \"fork\" in German? – \"Gabel.\""
+    },
+    {
+      "id": "tb1-u29-l03-the-oral-exam-3-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Entschuldigung, das habe ich nicht verstanden. Sprechen Sie bitte langsamer.",
+      "tiles": [
+        "that",
+        "we",
+        "Please",
+        "you",
+        "idea",
+        "didn't",
+        "I",
+        "speak",
+        "understand",
+        "Sorry",
+        "more",
+        "slowly"
+      ],
+      "answers": [
+        "Sorry, I didn't understand that. Please speak more slowly."
+      ],
+      "explanation": "**Entschuldigung, das habe ich nicht verstanden.** = Sorry, I didn't understand that."
+    },
+    {
+      "id": "tb1-u29-l03-the-oral-exam-3-ex09",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "How do you say \"fork\" in German? – \"Gabel.\"",
+      "tiles": [
+        "auf",
+        "Wie",
+        "Können",
+        "Fork",
+        "Gabel",
+        "backe",
+        "man",
+        "Deutsch",
+        "sagt",
+        "kurz"
+      ],
+      "answers": [
+        "Wie sagt man „Fork“ auf Deutsch? – „Gabel.“"
+      ],
+      "explanation": "**Wie sagt man … auf Deutsch?** = How do you say … in German?"
+    }
+  ]
+}

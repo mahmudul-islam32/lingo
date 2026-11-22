@@ -1,0 +1,231 @@
+{
+  "id": "tb1-u07-l08-adjectives-a2-4",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u07",
+  "title": "Adjectives (A2) 4",
+  "tip": "Theme: Adjektive (A2) (A2)",
+  "exercises": [
+    {
+      "id": "tb1-u07-l08-adjectives-a2-4-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "verschieden",
+          "known": "different / various"
+        },
+        {
+          "id": "p2",
+          "learning": "ähnlich",
+          "known": "similar"
+        },
+        {
+          "id": "p3",
+          "learning": "ganz",
+          "known": "whole / quite"
+        },
+        {
+          "id": "p4",
+          "learning": "besondere / besonders",
+          "known": "special / especially"
+        },
+        {
+          "id": "p5",
+          "learning": "wichtig",
+          "known": "important"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u07-l08-adjectives-a2-4-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which one means „different / various“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "pünktlich"
+        },
+        {
+          "id": "b",
+          "text": "wichtig"
+        },
+        {
+          "id": "c",
+          "text": "verschieden"
+        },
+        {
+          "id": "d",
+          "text": "berühmt"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**verschieden** = different / various\n\n*Example:* In unserem Haus wohnen Menschen aus verschiedenen Ländern.\nPeople from different countries live in our building."
+    },
+    {
+      "id": "tb1-u07-l08-adjectives-a2-4-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which one means „similar“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "verschieden"
+        },
+        {
+          "id": "b",
+          "text": "ähnlich"
+        },
+        {
+          "id": "c",
+          "text": "normal"
+        },
+        {
+          "id": "d",
+          "text": "wichtig"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**ähnlich** = similar\n\n*Example:* Meine Schwester und ich sehen uns sehr ähnlich.\nMy sister and I look very similar."
+    },
+    {
+      "id": "tb1-u07-l08-adjectives-a2-4-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "In unserem Haus wohnen Menschen aus verschiedenen Ländern.",
+      "tiles": [
+        "different",
+        "countries",
+        "necessary",
+        "our",
+        "building",
+        "in",
+        "People",
+        "a",
+        "live",
+        "city",
+        "from"
+      ],
+      "answers": [
+        "People from different countries live in our building."
+      ],
+      "explanation": "**verschieden** = different / various"
+    },
+    {
+      "id": "tb1-u07-l08-adjectives-a2-4-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which one means „whole / quite“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "ganz"
+        },
+        {
+          "id": "b",
+          "text": "nötig"
+        },
+        {
+          "id": "c",
+          "text": "interessant ↔ langweilig"
+        },
+        {
+          "id": "d",
+          "text": "normal"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**ganz** = whole / quite\n\n*Example:* Das Baby hat die ganze Nacht geschlafen.\nThe baby slept the whole night."
+    },
+    {
+      "id": "tb1-u07-l08-adjectives-a2-4-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "My sister and I look very similar.",
+      "tiles": [
+        "Meine",
+        "unserem",
+        "Schwester",
+        "sehen",
+        "uns",
+        "sehr",
+        "ich",
+        "ähnlich",
+        "ist",
+        "Es",
+        "und"
+      ],
+      "answers": [
+        "Meine Schwester und ich sehen uns sehr ähnlich."
+      ],
+      "explanation": "**ähnlich** = similar"
+    },
+    {
+      "id": "tb1-u07-l08-adjectives-a2-4-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which one means „special / especially“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "möglich ↔ unmöglich"
+        },
+        {
+          "id": "b",
+          "text": "besondere / besonders"
+        },
+        {
+          "id": "c",
+          "text": "berühmt"
+        },
+        {
+          "id": "d",
+          "text": "bequem"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**besondere / besonders** = special / especially\n\n*Example:* Heute gibt es ein besonderes Angebot für Familien.\nToday there's a special offer for families."
+    },
+    {
+      "id": "tb1-u07-l08-adjectives-a2-4-ex08",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u07-l08-adjectives-a2-4-3.mp3"
+      },
+      "tiles": [
+        "Baby",
+        "Nacht",
+        "die",
+        "geschlafen",
+        "Das",
+        "ist",
+        "Glatteis",
+        "ganze",
+        "am",
+        "hat"
+      ],
+      "answers": [
+        "Das Baby hat die ganze Nacht geschlafen."
+      ],
+      "explanation": "Das Baby hat die ganze Nacht geschlafen.\n*The baby slept the whole night.*\n\n**ganz** = whole / quite"
+    },
+    {
+      "id": "tb1-u07-l08-adjectives-a2-4-ex09",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Heute gibt es ein besonderes Angebot für Familien.",
+      "tiles": [
+        "practical",
+        "the",
+        "for",
+        "a",
+        "there's",
+        "live",
+        "families",
+        "offer",
+        "Today",
+        "special"
+      ],
+      "answers": [
+        "Today there's a special offer for families."
+      ],
+      "explanation": "**besondere / besonders** = special / especially"
+    }
+  ]
+}

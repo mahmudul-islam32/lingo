@@ -1,0 +1,282 @@
+{
+  "id": "tb1-u06-l09-shopping-money-1",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u06",
+  "title": "Shopping & Money 1",
+  "tip": "Theme: Einkaufen & Geld (A2)",
+  "exercises": [
+    {
+      "id": "tb1-u06-l09-shopping-money-1-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "das Geschäft",
+          "known": "shop"
+        },
+        {
+          "id": "p2",
+          "learning": "der Supermarkt",
+          "known": "supermarket"
+        },
+        {
+          "id": "p3",
+          "learning": "der Markt",
+          "known": "market"
+        },
+        {
+          "id": "p4",
+          "learning": "die Kasse",
+          "known": "checkout / till"
+        },
+        {
+          "id": "p5",
+          "learning": "der Preis",
+          "known": "price"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u06-l09-shopping-money-1-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „shop“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "das Geschäft, die Geschäfte"
+        },
+        {
+          "id": "b",
+          "text": "die Kreditkarte, die Kreditkarten"
+        },
+        {
+          "id": "c",
+          "text": "der Rabatt, die Rabatte"
+        },
+        {
+          "id": "d",
+          "text": "die Größe, die Größen"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**das Geschäft** = shop\n*Plural: die Geschäfte*\n\n*Example:* Am Sonntag sind die Geschäfte in Deutschland geschlossen.\nOn Sundays the shops in Germany are closed."
+    },
+    {
+      "id": "tb1-u06-l09-shopping-money-1-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „supermarket“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "der Preis, die Preise"
+        },
+        {
+          "id": "b",
+          "text": "die Kreditkarte, die Kreditkarten"
+        },
+        {
+          "id": "c",
+          "text": "der Supermarkt, die Supermärkte"
+        },
+        {
+          "id": "d",
+          "text": "die Größe, die Größen"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**der Supermarkt** = supermarket\n*Plural: die Supermärkte*\n\n*Example:* Der Supermarkt an der Ecke hat bis 22 Uhr geöffnet.\nThe supermarket on the corner is open until 10 p.m."
+    },
+    {
+      "id": "tb1-u06-l09-shopping-money-1-ex04",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u06-l09-shopping-money-1-1.mp3"
+      },
+      "tiles": [
+        "geschlossen",
+        "Geschäfte",
+        "die",
+        "Am",
+        "Deutschland",
+        "für",
+        "Sonntag",
+        "Markt",
+        "sind",
+        "im",
+        "in"
+      ],
+      "answers": [
+        "Am Sonntag sind die Geschäfte in Deutschland geschlossen."
+      ],
+      "explanation": "Am Sonntag sind die Geschäfte in Deutschland geschlossen.\n*On Sundays the shops in Germany are closed.*\n\n**das Geschäft** = shop\n*Plural: die Geschäfte*"
+    },
+    {
+      "id": "tb1-u06-l09-shopping-money-1-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „market“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "der Supermarkt, die Supermärkte"
+        },
+        {
+          "id": "b",
+          "text": "die Kasse, die Kassen"
+        },
+        {
+          "id": "c",
+          "text": "die Kreditkarte, die Kreditkarten"
+        },
+        {
+          "id": "d",
+          "text": "der Markt, die Märkte"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**der Markt** = market\n*Plural: die Märkte*\n\n*Example:* Am Samstag kaufe ich frisches Obst auf dem Markt.\nOn Saturday I buy fresh fruit at the market."
+    },
+    {
+      "id": "tb1-u06-l09-shopping-money-1-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Der Supermarkt an der Ecke hat bis 22 Uhr geöffnet.",
+      "tiles": [
+        "on",
+        "the",
+        "want",
+        "10",
+        "The",
+        "fresh",
+        "Please",
+        "p.m",
+        "corner",
+        "open",
+        "is",
+        "until",
+        "supermarket"
+      ],
+      "answers": [
+        "The supermarket on the corner is open until 10 p.m."
+      ],
+      "explanation": "**der Supermarkt** = supermarket\n*Plural: die Supermärkte*"
+    },
+    {
+      "id": "tb1-u06-l09-shopping-money-1-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „checkout / till“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Rechnung, die Rechnungen"
+        },
+        {
+          "id": "b",
+          "text": "der Supermarkt, die Supermärkte"
+        },
+        {
+          "id": "c",
+          "text": "die Kasse, die Kassen"
+        },
+        {
+          "id": "d",
+          "text": "der Markt, die Märkte"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**die Kasse** = checkout / till\n*Plural: die Kassen*\n\n*Example:* An der Kasse muss ich heute lange warten.\nI have to wait a long time at the checkout today."
+    },
+    {
+      "id": "tb1-u06-l09-shopping-money-1-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "On Saturday I buy fresh fruit at the market.",
+      "tiles": [
+        "Lebensmittel",
+        "Obst",
+        "frisches",
+        "ich",
+        "auf",
+        "Samstag",
+        "Markt",
+        "heben",
+        "kaufe",
+        "Am",
+        "dem",
+        "den"
+      ],
+      "answers": [
+        "Am Samstag kaufe ich frisches Obst auf dem Markt."
+      ],
+      "explanation": "**der Markt** = market\n*Plural: die Märkte*"
+    },
+    {
+      "id": "tb1-u06-l09-shopping-money-1-ex09",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „price“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Kreditkarte, die Kreditkarten"
+        },
+        {
+          "id": "b",
+          "text": "der Preis, die Preise"
+        },
+        {
+          "id": "c",
+          "text": "das Kleingeld"
+        },
+        {
+          "id": "d",
+          "text": "die Quittung, die Quittungen"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**der Preis** = price\n*Plural: die Preise*\n\n*Example:* Die Preise für Lebensmittel sind gestiegen.\nFood prices have gone up."
+    },
+    {
+      "id": "tb1-u06-l09-shopping-money-1-ex10",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u06-l09-shopping-money-1-4.mp3"
+      },
+      "tiles": [
+        "Sie",
+        "zu",
+        "Kasse",
+        "auf",
+        "heute",
+        "warten",
+        "ich",
+        "muss",
+        "lange",
+        "An",
+        "der"
+      ],
+      "answers": [
+        "An der Kasse muss ich heute lange warten."
+      ],
+      "explanation": "An der Kasse muss ich heute lange warten.\n*I have to wait a long time at the checkout today.*\n\n**die Kasse** = checkout / till\n*Plural: die Kassen*"
+    },
+    {
+      "id": "tb1-u06-l09-shopping-money-1-ex11",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Die Preise für Lebensmittel sind gestiegen.",
+      "tiles": [
+        "prices",
+        "on",
+        "have",
+        "gone",
+        "Food",
+        "the",
+        "to",
+        "up"
+      ],
+      "answers": [
+        "Food prices have gone up."
+      ],
+      "explanation": "**der Preis** = price\n*Plural: die Preise*"
+    }
+  ]
+}

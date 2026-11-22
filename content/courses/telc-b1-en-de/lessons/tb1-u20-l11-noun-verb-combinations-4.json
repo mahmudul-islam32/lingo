@@ -1,0 +1,237 @@
+{
+  "id": "tb1-u20-l11-noun-verb-combinations-4",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u20",
+  "title": "Noun-Verb Combinations 4",
+  "tip": "Theme: Nomen-Verb-Verbindungen (B1)",
+  "exercises": [
+    {
+      "id": "tb1-u20-l11-noun-verb-combinations-4-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "in Frage kommen",
+          "known": "to be an option"
+        },
+        {
+          "id": "p2",
+          "learning": "Bescheid geben",
+          "known": "to let (someone) know"
+        },
+        {
+          "id": "p3",
+          "learning": "eine Entscheidung fällen",
+          "known": "to make a decision"
+        },
+        {
+          "id": "p4",
+          "learning": "Rücksicht nehmen",
+          "known": "to show consideration"
+        },
+        {
+          "id": "p5",
+          "learning": "eine Frage stellen",
+          "known": "to ask a question"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u20-l11-noun-verb-combinations-4-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which one means „to be an option“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "einen Vorschlag machen"
+        },
+        {
+          "id": "b",
+          "text": "in Frage kommen"
+        },
+        {
+          "id": "c",
+          "text": "einen Fehler machen"
+        },
+        {
+          "id": "d",
+          "text": "zur Verfügung stehen"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**in Frage kommen** = to be an option\n\n*Example:* Eine Wohnung ohne Aufzug kommt für meine Oma nicht in Frage.\nA flat without a lift isn't an option for my grandma."
+    },
+    {
+      "id": "tb1-u20-l11-noun-verb-combinations-4-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which one means „to let (someone) know“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "einen Termin vereinbaren"
+        },
+        {
+          "id": "b",
+          "text": "Angst haben vor + Dat."
+        },
+        {
+          "id": "c",
+          "text": "Bescheid geben"
+        },
+        {
+          "id": "d",
+          "text": "in Kontakt bleiben"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**Bescheid geben** = to let (someone) know\n\n*Example:* Gib mir bitte Bescheid, wenn du zu Hause bist.\nPlease let me know when you're home."
+    },
+    {
+      "id": "tb1-u20-l11-noun-verb-combinations-4-ex04",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u20-l11-noun-verb-combinations-4-1.mp3"
+      },
+      "tiles": [
+        "Eine",
+        "für",
+        "Oma",
+        "auf",
+        "ohne",
+        "meine",
+        "Umzug",
+        "Aufzug",
+        "Das",
+        "Wohnung",
+        "in",
+        "kommt",
+        "nicht",
+        "Frage"
+      ],
+      "answers": [
+        "Eine Wohnung ohne Aufzug kommt für meine Oma nicht in Frage."
+      ],
+      "explanation": "Eine Wohnung ohne Aufzug kommt für meine Oma nicht in Frage.\n*A flat without a lift isn't an option for my grandma.*\n\n**in Frage kommen** = to be an option"
+    },
+    {
+      "id": "tb1-u20-l11-noun-verb-combinations-4-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which one means „to make a decision“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Angst haben vor + Dat."
+        },
+        {
+          "id": "b",
+          "text": "eine Entscheidung fällen"
+        },
+        {
+          "id": "c",
+          "text": "eine Rede halten"
+        },
+        {
+          "id": "d",
+          "text": "in Kontakt bleiben"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**eine Entscheidung fällen** = to make a decision\n\n*Example:* Das Gericht hat gestern eine Entscheidung gefällt.\nThe court reached a decision yesterday."
+    },
+    {
+      "id": "tb1-u20-l11-noun-verb-combinations-4-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Gib mir bitte Bescheid, wenn du zu Hause bist.",
+      "tiles": [
+        "me",
+        "home",
+        "know",
+        "importance",
+        "when",
+        "an",
+        "let",
+        "you're",
+        "Please",
+        "may"
+      ],
+      "answers": [
+        "Please let me know when you're home."
+      ],
+      "explanation": "**Bescheid geben** = to let (someone) know"
+    },
+    {
+      "id": "tb1-u20-l11-noun-verb-combinations-4-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which one means „to show consideration“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Angst haben vor + Dat."
+        },
+        {
+          "id": "b",
+          "text": "eine Prüfung ablegen"
+        },
+        {
+          "id": "c",
+          "text": "eine Rolle spielen"
+        },
+        {
+          "id": "d",
+          "text": "Rücksicht nehmen"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**Rücksicht nehmen** = to show consideration\n\n*Example:* Im Haus wohnen kleine Kinder, deshalb nehmen wir abends Rücksicht.\nThere are small children in the building, so we're considerate in the evenings."
+    },
+    {
+      "id": "tb1-u20-l11-noun-verb-combinations-4-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "The court reached a decision yesterday.",
+      "tiles": [
+        "eine",
+        "hat",
+        "Kinder",
+        "Gericht",
+        "nehmen",
+        "abends",
+        "gefällt",
+        "Das",
+        "gestern",
+        "Entscheidung"
+      ],
+      "answers": [
+        "Das Gericht hat gestern eine Entscheidung gefällt."
+      ],
+      "explanation": "**eine Entscheidung fällen** = to make a decision"
+    },
+    {
+      "id": "tb1-u20-l11-noun-verb-combinations-4-ex09",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u20-l11-noun-verb-combinations-4-4.mp3"
+      },
+      "tiles": [
+        "Auf",
+        "Im",
+        "bleiben",
+        "deshalb",
+        "Kinder",
+        "ich",
+        "wir",
+        "Haus",
+        "nehmen",
+        "wohnen",
+        "Rücksicht",
+        "kleine",
+        "abends"
+      ],
+      "answers": [
+        "Im Haus wohnen kleine Kinder, deshalb nehmen wir abends Rücksicht."
+      ],
+      "explanation": "Im Haus wohnen kleine Kinder, deshalb nehmen wir abends Rücksicht.\n*There are small children in the building, so we're considerate in the evenings.*\n\n**Rücksicht nehmen** = to show consideration"
+    }
+  ]
+}

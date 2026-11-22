@@ -1,0 +1,275 @@
+{
+  "id": "tb1-u51-l02-zahlen-uhrzeiten-2",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u51",
+  "title": "Numbers and times 2",
+  "tip": "halb neun = 8:30. The ones come before the tens.",
+  "exercises": [
+    {
+      "id": "tb1-u51-l02-zahlen-uhrzeiten-2-ex01",
+      "type": "listening",
+      "title": "Zahlen & Uhrzeiten · Zahl",
+      "transcript": "hundertfünfzehn",
+      "prompt": "Hör zu: Welche Zahl oder Uhrzeit hörst du?",
+      "options": [
+        {
+          "id": "a",
+          "text": "115"
+        },
+        {
+          "id": "b",
+          "text": "99"
+        },
+        {
+          "id": "c",
+          "text": "200"
+        },
+        {
+          "id": "d",
+          "text": "41"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Gesprochen: „hundertfünfzehn“ = **115**\n\n*Hinweis:* Zahl"
+    },
+    {
+      "id": "tb1-u51-l02-zahlen-uhrzeiten-2-ex02",
+      "type": "listening",
+      "title": "Zahlen & Uhrzeiten · Zahl (nicht sechzig!)",
+      "transcript": "sechzehn",
+      "prompt": "Hör zu: Welche Zahl oder Uhrzeit hörst du?",
+      "options": [
+        {
+          "id": "a",
+          "text": "60"
+        },
+        {
+          "id": "b",
+          "text": "370"
+        },
+        {
+          "id": "c",
+          "text": "200"
+        },
+        {
+          "id": "d",
+          "text": "16"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Gesprochen: „sechzehn“ = **16**\n\n*Hinweis:* Zahl (nicht sechzig!)"
+    },
+    {
+      "id": "tb1-u51-l02-zahlen-uhrzeiten-2-ex03",
+      "type": "listening",
+      "title": "Zahlen & Uhrzeiten · Zahl (nicht sechzehn!)",
+      "transcript": "sechzig",
+      "prompt": "Hör zu: Welche Zahl oder Uhrzeit hörst du?",
+      "options": [
+        {
+          "id": "a",
+          "text": "16"
+        },
+        {
+          "id": "b",
+          "text": "115"
+        },
+        {
+          "id": "c",
+          "text": "60"
+        },
+        {
+          "id": "d",
+          "text": "41"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Gesprochen: „sechzig“ = **60**\n\n*Hinweis:* Zahl (nicht sechzehn!)"
+    },
+    {
+      "id": "tb1-u51-l02-zahlen-uhrzeiten-2-ex04",
+      "type": "listening",
+      "title": "Zahlen & Uhrzeiten · Zahl (nicht siebzig!)",
+      "transcript": "siebzehn",
+      "prompt": "Hör zu: Welche Zahl oder Uhrzeit hörst du?",
+      "options": [
+        {
+          "id": "a",
+          "text": "70"
+        },
+        {
+          "id": "b",
+          "text": "17"
+        },
+        {
+          "id": "c",
+          "text": "370"
+        },
+        {
+          "id": "d",
+          "text": "82"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Gesprochen: „siebzehn“ = **17**\n\n*Hinweis:* Zahl (nicht siebzig!)"
+    },
+    {
+      "id": "tb1-u51-l02-zahlen-uhrzeiten-2-ex05",
+      "type": "listening",
+      "title": "Zahlen & Uhrzeiten · Zahl (nicht dreißig!)",
+      "transcript": "dreizehn",
+      "prompt": "Hör zu: Welche Zahl oder Uhrzeit hörst du?",
+      "options": [
+        {
+          "id": "a",
+          "text": "13"
+        },
+        {
+          "id": "b",
+          "text": "30"
+        },
+        {
+          "id": "c",
+          "text": "82"
+        },
+        {
+          "id": "d",
+          "text": "115"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Gesprochen: „dreizehn“ = **13**\n\n*Hinweis:* Zahl (nicht dreißig!)"
+    },
+    {
+      "id": "tb1-u51-l02-zahlen-uhrzeiten-2-ex06",
+      "type": "listening",
+      "title": "Zahlen & Uhrzeiten · Uhrzeit (digital gesprochen)",
+      "transcript": "acht Uhr fünfundvierzig",
+      "prompt": "Hör zu: Welche Zahl oder Uhrzeit hörst du?",
+      "options": [
+        {
+          "id": "a",
+          "text": "10:30"
+        },
+        {
+          "id": "b",
+          "text": "23:55"
+        },
+        {
+          "id": "c",
+          "text": "8:30"
+        },
+        {
+          "id": "d",
+          "text": "8:45"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Gesprochen: „acht Uhr fünfundvierzig“ = **8:45**\n\nAlso written: 8.45, 20:45, 20.45\n\n*Hinweis:* Uhrzeit (digital gesprochen)"
+    },
+    {
+      "id": "tb1-u51-l02-zahlen-uhrzeiten-2-ex07",
+      "type": "listening",
+      "title": "Zahlen & Uhrzeiten · Preis",
+      "transcript": "vierundzwanzig Euro fünfzig",
+      "prompt": "Hör zu: Welche Zahl oder Uhrzeit hörst du?",
+      "options": [
+        {
+          "id": "a",
+          "text": "42,50"
+        },
+        {
+          "id": "b",
+          "text": "19,90"
+        },
+        {
+          "id": "c",
+          "text": "24,50"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Gesprochen: „vierundzwanzig Euro fünfzig“ = **24,50**\n\nAlso written: 24.50, 24,50 €\n\n*Hinweis:* Preis"
+    },
+    {
+      "id": "tb1-u51-l02-zahlen-uhrzeiten-2-ex08",
+      "type": "listening",
+      "title": "Zahlen & Uhrzeiten · Uhrzeit",
+      "transcript": "halb elf",
+      "prompt": "Hör zu: Welche Zahl oder Uhrzeit hörst du?",
+      "options": [
+        {
+          "id": "a",
+          "text": "11:30"
+        },
+        {
+          "id": "b",
+          "text": "10:30"
+        },
+        {
+          "id": "c",
+          "text": "8:15"
+        },
+        {
+          "id": "d",
+          "text": "23:55"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Gesprochen: „halb elf“ = **10:30**\n\nAlso written: 10.30, 22:30, 22.30\n\n*Hinweis:* Uhrzeit"
+    },
+    {
+      "id": "tb1-u51-l02-zahlen-uhrzeiten-2-ex09",
+      "type": "listening",
+      "title": "Zahlen & Uhrzeiten · Zahl",
+      "transcript": "zweihundert",
+      "prompt": "Hör zu: Welche Zahl oder Uhrzeit hörst du?",
+      "options": [
+        {
+          "id": "a",
+          "text": "200"
+        },
+        {
+          "id": "b",
+          "text": "370"
+        },
+        {
+          "id": "c",
+          "text": "17"
+        },
+        {
+          "id": "d",
+          "text": "99"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Gesprochen: „zweihundert“ = **200**\n\n*Hinweis:* Zahl"
+    },
+    {
+      "id": "tb1-u51-l02-zahlen-uhrzeiten-2-ex10",
+      "type": "listening",
+      "title": "Zahlen & Uhrzeiten · Zahl",
+      "transcript": "neunundneunzig",
+      "prompt": "Hör zu: Welche Zahl oder Uhrzeit hörst du?",
+      "options": [
+        {
+          "id": "a",
+          "text": "17"
+        },
+        {
+          "id": "b",
+          "text": "200"
+        },
+        {
+          "id": "c",
+          "text": "370"
+        },
+        {
+          "id": "d",
+          "text": "99"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Gesprochen: „neunundneunzig“ = **99**\n\n*Hinweis:* Zahl"
+    }
+  ]
+}

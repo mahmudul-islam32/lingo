@@ -2,6 +2,8 @@
 // Relative JSON import on purpose: `next.config.ts` loads this file (no `@/` alias there).
 import enDeCourse from "../../../content/courses/en-de/course.json";
 import enEsCourse from "../../../content/courses/en-es/course.json";
+import einbuergerungCourse from "../../../content/courses/einbuergerung-en-de/course.json";
+import telcB1Course from "../../../content/courses/telc-b1-en-de/course.json";
 
 export const ICONS = {
   any192: "/icons/icon-192.png",
@@ -25,7 +27,12 @@ export const SW_SCOPE = "/";
  * manifests (same order as the registry); the unit test checks it against the
  * schema-validated `allBundledLessonPaths` from `@/lib/content/static-params`.
  */
-export const LESSON_ROUTES: readonly string[] = [enDeCourse, enEsCourse].flatMap((course) =>
+export const LESSON_ROUTES: readonly string[] = [
+  enDeCourse,
+  telcB1Course,
+  einbuergerungCourse,
+  enEsCourse,
+].flatMap((course) =>
   course.units.flatMap((unit) =>
     unit.lessons.map((lesson) => `/lesson/${encodeURIComponent(lesson.id)}`),
   ),

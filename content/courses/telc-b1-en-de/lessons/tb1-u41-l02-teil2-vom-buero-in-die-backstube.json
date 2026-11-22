@@ -1,0 +1,130 @@
+{
+  "id": "tb1-u41-l02-teil2-vom-buero-in-die-backstube",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u41",
+  "title": "Article 2: Vom Büro in die Backstube",
+  "tip": "Read the question first, then find the place in the text.",
+  "exercises": [
+    {
+      "id": "tb1-u41-l02-teil2-vom-buero-in-die-backstube-ex01",
+      "type": "explain",
+      "title": "Teil 2 · Vom Büro in die Backstube",
+      "body": "**One article (Arbeit) · 5 questions · a, b or c.** The questions follow the order of the text.\n\n- Read the question first, then find the matching place in the text.\n- The right answer usually says the same thing in **other words** (a paraphrase).\n- Watch the *Weltwissen-Falle*: an answer that sounds logical but is not in the text. Also watch answers that recycle a word from the text and turn it around."
+    },
+    {
+      "id": "tb1-u41-l02-teil2-vom-buero-in-die-backstube-ex02",
+      "type": "choice",
+      "title": "Vom Büro in die Backstube · Frage 1",
+      "passage": "Sabine Roth, 38, arbeitete zehn Jahre lang in einer Bank. Doch die Arbeit am Schreibtisch machte sie mit der Zeit immer unzufriedener. Vor zwei Jahren kündigte sie und eröffnete eine kleine Bäckerei. „Am Anfang hatten meine Eltern Angst, dass ich scheitere“, erzählt sie. Heute läuft das Geschäft gut, und sie hat sogar zwei Mitarbeiter eingestellt.\n\nRoth backt nur mit regionalen Zutaten. Das ist zwar teurer, aber ihren Kunden ist die Qualität wichtig. Am Wochenende gibt sie außerdem Backkurse. Diese sind oft schon Wochen vorher ausgebucht.\n\nBereut hat Roth ihre Entscheidung nie. „Ich arbeite mehr als früher und verdiene weniger“, sagt sie, „aber ich bin viel glücklicher.“ In Zukunft möchte sie ein zweites Geschäft in einer Nachbarstadt eröffnen.",
+      "prompt": "Warum hat Sabine Roth ihren Job in der Bank aufgegeben?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Sie wurde entlassen."
+        },
+        {
+          "id": "b",
+          "text": "Die Arbeit am Schreibtisch machte sie unzufrieden."
+        },
+        {
+          "id": "c",
+          "text": "Sie hat in der Bank zu wenig verdient."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Answer: B** „Die Arbeit am Schreibtisch machte sie unzufrieden.“\n\n„machte sie … unzufriedener“, sie hat selbst gekündigt."
+    },
+    {
+      "id": "tb1-u41-l02-teil2-vom-buero-in-die-backstube-ex03",
+      "type": "choice",
+      "title": "Vom Büro in die Backstube · Frage 2",
+      "passage": "Sabine Roth, 38, arbeitete zehn Jahre lang in einer Bank. Doch die Arbeit am Schreibtisch machte sie mit der Zeit immer unzufriedener. Vor zwei Jahren kündigte sie und eröffnete eine kleine Bäckerei. „Am Anfang hatten meine Eltern Angst, dass ich scheitere“, erzählt sie. Heute läuft das Geschäft gut, und sie hat sogar zwei Mitarbeiter eingestellt.\n\nRoth backt nur mit regionalen Zutaten. Das ist zwar teurer, aber ihren Kunden ist die Qualität wichtig. Am Wochenende gibt sie außerdem Backkurse. Diese sind oft schon Wochen vorher ausgebucht.\n\nBereut hat Roth ihre Entscheidung nie. „Ich arbeite mehr als früher und verdiene weniger“, sagt sie, „aber ich bin viel glücklicher.“ In Zukunft möchte sie ein zweites Geschäft in einer Nachbarstadt eröffnen.",
+      "prompt": "Wie reagierten ihre Eltern am Anfang?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Sie hatten Angst, dass sie keinen Erfolg hat."
+        },
+        {
+          "id": "b",
+          "text": "Sie waren sofort begeistert."
+        },
+        {
+          "id": "c",
+          "text": "Sie halfen in der Bäckerei mit."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Answer: A** „Sie hatten Angst, dass sie keinen Erfolg hat.“\n\n„Angst, dass ich scheitere“ = kein Erfolg."
+    },
+    {
+      "id": "tb1-u41-l02-teil2-vom-buero-in-die-backstube-ex04",
+      "type": "choice",
+      "title": "Vom Büro in die Backstube · Frage 3",
+      "passage": "Sabine Roth, 38, arbeitete zehn Jahre lang in einer Bank. Doch die Arbeit am Schreibtisch machte sie mit der Zeit immer unzufriedener. Vor zwei Jahren kündigte sie und eröffnete eine kleine Bäckerei. „Am Anfang hatten meine Eltern Angst, dass ich scheitere“, erzählt sie. Heute läuft das Geschäft gut, und sie hat sogar zwei Mitarbeiter eingestellt.\n\nRoth backt nur mit regionalen Zutaten. Das ist zwar teurer, aber ihren Kunden ist die Qualität wichtig. Am Wochenende gibt sie außerdem Backkurse. Diese sind oft schon Wochen vorher ausgebucht.\n\nBereut hat Roth ihre Entscheidung nie. „Ich arbeite mehr als früher und verdiene weniger“, sagt sie, „aber ich bin viel glücklicher.“ In Zukunft möchte sie ein zweites Geschäft in einer Nachbarstadt eröffnen.",
+      "prompt": "Warum backt Roth mit regionalen Zutaten?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Weil es billiger ist."
+        },
+        {
+          "id": "b",
+          "text": "Weil ihren Kunden die Qualität wichtig ist."
+        },
+        {
+          "id": "c",
+          "text": "Weil es weniger Arbeit macht."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Answer: B** „Weil ihren Kunden die Qualität wichtig ist.“\n\n„teurer, aber … Qualität wichtig“. Antwort A recycelt „teurer“ und dreht es um."
+    },
+    {
+      "id": "tb1-u41-l02-teil2-vom-buero-in-die-backstube-ex05",
+      "type": "choice",
+      "title": "Vom Büro in die Backstube · Frage 4",
+      "passage": "Sabine Roth, 38, arbeitete zehn Jahre lang in einer Bank. Doch die Arbeit am Schreibtisch machte sie mit der Zeit immer unzufriedener. Vor zwei Jahren kündigte sie und eröffnete eine kleine Bäckerei. „Am Anfang hatten meine Eltern Angst, dass ich scheitere“, erzählt sie. Heute läuft das Geschäft gut, und sie hat sogar zwei Mitarbeiter eingestellt.\n\nRoth backt nur mit regionalen Zutaten. Das ist zwar teurer, aber ihren Kunden ist die Qualität wichtig. Am Wochenende gibt sie außerdem Backkurse. Diese sind oft schon Wochen vorher ausgebucht.\n\nBereut hat Roth ihre Entscheidung nie. „Ich arbeite mehr als früher und verdiene weniger“, sagt sie, „aber ich bin viel glücklicher.“ In Zukunft möchte sie ein zweites Geschäft in einer Nachbarstadt eröffnen.",
+      "prompt": "Was sagt Roth über ihre Entscheidung?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Sie bereut sie manchmal."
+        },
+        {
+          "id": "b",
+          "text": "Sie verdient jetzt mehr als früher."
+        },
+        {
+          "id": "c",
+          "text": "Sie ist glücklicher, obwohl sie mehr arbeitet und weniger verdient."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**Answer: C** „Sie ist glücklicher, obwohl sie mehr arbeitet und weniger verdient.“\n\ndirektes Zitat: mehr Arbeit, weniger Geld, aber glücklicher."
+    },
+    {
+      "id": "tb1-u41-l02-teil2-vom-buero-in-die-backstube-ex06",
+      "type": "choice",
+      "title": "Vom Büro in die Backstube · Frage 5",
+      "passage": "Sabine Roth, 38, arbeitete zehn Jahre lang in einer Bank. Doch die Arbeit am Schreibtisch machte sie mit der Zeit immer unzufriedener. Vor zwei Jahren kündigte sie und eröffnete eine kleine Bäckerei. „Am Anfang hatten meine Eltern Angst, dass ich scheitere“, erzählt sie. Heute läuft das Geschäft gut, und sie hat sogar zwei Mitarbeiter eingestellt.\n\nRoth backt nur mit regionalen Zutaten. Das ist zwar teurer, aber ihren Kunden ist die Qualität wichtig. Am Wochenende gibt sie außerdem Backkurse. Diese sind oft schon Wochen vorher ausgebucht.\n\nBereut hat Roth ihre Entscheidung nie. „Ich arbeite mehr als früher und verdiene weniger“, sagt sie, „aber ich bin viel glücklicher.“ In Zukunft möchte sie ein zweites Geschäft in einer Nachbarstadt eröffnen.",
+      "prompt": "Was plant Roth für die Zukunft?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Sie will ein zweites Geschäft eröffnen."
+        },
+        {
+          "id": "b",
+          "text": "Sie will wieder in der Bank arbeiten."
+        },
+        {
+          "id": "c",
+          "text": "Sie will die Backkurse beenden."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Answer: A** „Sie will ein zweites Geschäft eröffnen.“\n\n„ein zweites Geschäft in einer Nachbarstadt“."
+    }
+  ]
+}

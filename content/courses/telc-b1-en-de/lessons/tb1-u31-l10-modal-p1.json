@@ -1,0 +1,322 @@
+{
+  "id": "tb1-u31-l10-modal-p1",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u31",
+  "title": "Modal Verbs: können & müssen / nicht müssen",
+  "tip": "nicht dürfen ≠ nicht müssen: “Sie müssen nicht zahlen” = it's free · “Sie dürfen nicht zahlen” would be absurd. This distinction is a listening-test trap.",
+  "exercises": [
+    {
+      "id": "tb1-u31-l10-modal-p1-ex01",
+      "type": "explain",
+      "title": "können · Fähigkeit & Möglichkeit",
+      "body": "Ich kann = I'm able to / it's possible.\n\n*Deutsch:* Ich kann = ich bin fähig / es ist möglich.\n\n## Pattern\n\nSubjekt + **kann** + … + **Infinitiv**",
+      "examples": [
+        {
+          "learning": "Ich kann gut kochen.",
+          "known": "I can cook well."
+        },
+        {
+          "learning": "Kannst du mir bitte helfen?",
+          "known": "Can you help me, please?"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u31-l10-modal-p1-ex02",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I can cook well.",
+      "tiles": [
+        "gut",
+        "Ich",
+        "im",
+        "trinken",
+        "kochen",
+        "Sie",
+        "kann"
+      ],
+      "answers": [
+        "Ich kann gut kochen."
+      ],
+      "explanation": "**Why:** Ability.\n\n*Warum:* Fähigkeit."
+    },
+    {
+      "id": "tb1-u31-l10-modal-p1-ex03",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Can you help me, please?",
+      "tiles": [
+        "wollen",
+        "Im",
+        "bitte",
+        "mir",
+        "Jahr",
+        "du",
+        "helfen",
+        "Kannst"
+      ],
+      "answers": [
+        "Kannst du mir bitte helfen?"
+      ],
+      "explanation": "**Why:** Request: kannst … helfen.\n\n*Warum:* Bitte: kannst … helfen."
+    },
+    {
+      "id": "tb1-u31-l10-modal-p1-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "You can park well here.",
+      "tiles": [
+        "einen",
+        "Ich",
+        "man",
+        "kann",
+        "sein",
+        "parken",
+        "gut",
+        "Hier"
+      ],
+      "answers": [
+        "Hier kann man gut parken."
+      ],
+      "explanation": "**Why:** Possibility with man.\n\n*Warum:* Möglichkeit mit man."
+    },
+    {
+      "id": "tb1-u31-l10-modal-p1-ex05",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Unfortunately I can't come on Saturday.",
+      "tiles": [
+        "Mein",
+        "kann",
+        "kommen",
+        "Samstag",
+        "nicht",
+        "ich",
+        "muss",
+        "am",
+        "Leider",
+        "dürfen"
+      ],
+      "answers": [
+        "Leider kann ich am Samstag nicht kommen."
+      ],
+      "explanation": "**Why:** Declining in a letter.\n\n*Warum:* Absage im Brief."
+    },
+    {
+      "id": "tb1-u31-l10-modal-p1-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "My son can already swim.",
+      "tiles": [
+        "um",
+        "müssen",
+        "im",
+        "schon",
+        "kann",
+        "Sohn",
+        "schwimmen",
+        "Mein"
+      ],
+      "answers": [
+        "Mein Sohn kann schon schwimmen."
+      ],
+      "explanation": "**Why:** he → kann (no -t).\n\n*Warum:* er → kann (ohne -t)."
+    },
+    {
+      "id": "tb1-u31-l10-modal-p1-ex07",
+      "type": "explain",
+      "title": "müssen / nicht müssen",
+      "body": "müssen = obligation. nicht müssen = not necessary (≠ nicht dürfen!).\n\n*Deutsch:* müssen = Pflicht. nicht müssen = nicht nötig (≠ nicht dürfen!).\n\n## Pattern\n\nSubjekt + **muss** + … + **Infinitiv**",
+      "examples": [
+        {
+          "learning": "Ich muss morgen früh aufstehen.",
+          "known": "I have to get up early tomorrow."
+        },
+        {
+          "learning": "Du musst das Formular bis Freitag abgeben.",
+          "known": "You must hand in the form by Friday."
+        }
+      ]
+    },
+    {
+      "id": "tb1-u31-l10-modal-p1-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I have to get up early tomorrow.",
+      "tiles": [
+        "Ich",
+        "wir",
+        "aufstehen",
+        "den",
+        "nicht",
+        "morgen",
+        "früh",
+        "muss"
+      ],
+      "answers": [
+        "Ich muss morgen früh aufstehen."
+      ],
+      "explanation": "**Why:** Obligation.\n\n*Warum:* Pflicht."
+    },
+    {
+      "id": "tb1-u31-l10-modal-p1-ex09",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "You must hand in the form by Friday.",
+      "tiles": [
+        "gut",
+        "musst",
+        "das",
+        "Freitag",
+        "Am",
+        "man",
+        "Du",
+        "Formular",
+        "bis",
+        "abgeben"
+      ],
+      "answers": [
+        "Du musst das Formular bis Freitag abgeben."
+      ],
+      "explanation": "**Why:** Deadline = obligation.\n\n*Warum:* Frist = Pflicht."
+    },
+    {
+      "id": "tb1-u31-l10-modal-p1-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I don't have to work on Sunday.",
+      "tiles": [
+        "ich",
+        "anrufen",
+        "muss",
+        "arbeiten",
+        "sollst",
+        "nicht",
+        "Am",
+        "soll",
+        "Sonntag"
+      ],
+      "answers": [
+        "Am Sonntag muss ich nicht arbeiten."
+      ],
+      "explanation": "**Why:** nicht müssen = it's not necessary.\n\n*Warum:* nicht müssen = es ist nicht nötig."
+    },
+    {
+      "id": "tb1-u31-l10-modal-p1-ex11",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "You don't need to make an appointment.",
+      "tiles": [
+        "Termin",
+        "Freitag",
+        "keinen",
+        "müssen",
+        "Sie",
+        "ich",
+        "muss",
+        "machen"
+      ],
+      "answers": [
+        "Sie müssen keinen Termin machen."
+      ],
+      "explanation": "**Why:** kein + müssen = not necessary.\n\n*Warum:* kein + müssen = nicht nötig."
+    },
+    {
+      "id": "tb1-u31-l10-modal-p1-ex12",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "We still have to buy bread.",
+      "tiles": [
+        "müssen",
+        "kann",
+        "Du",
+        "Film",
+        "noch",
+        "Brot",
+        "kaufen",
+        "Wir"
+      ],
+      "answers": [
+        "Wir müssen noch Brot kaufen."
+      ],
+      "explanation": "**Why:** noch = something is still missing.\n\n*Warum:* noch = es fehlt etwas."
+    },
+    {
+      "id": "tb1-u31-l10-modal-p1-ex13",
+      "type": "choice",
+      "title": "Fill the gap",
+      "prompt": "___ Sie mir bitte helfen?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Wollten"
+        },
+        {
+          "id": "b",
+          "text": "Müssen"
+        },
+        {
+          "id": "c",
+          "text": "Könnten"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Höfliche Bitte → Konjunktiv II von können: Könnten Sie …?"
+    },
+    {
+      "id": "tb1-u31-l10-modal-p1-ex14",
+      "type": "choice",
+      "title": "Find the mistake",
+      "prompt": "Which word is wrong? „Hier musst man nicht rauchen - verboten!“",
+      "options": [
+        {
+          "id": "a",
+          "text": "Hier"
+        },
+        {
+          "id": "b",
+          "text": "musst"
+        },
+        {
+          "id": "c",
+          "text": "man"
+        },
+        {
+          "id": "d",
+          "text": "nicht"
+        },
+        {
+          "id": "e",
+          "text": "rauchen"
+        },
+        {
+          "id": "f",
+          "text": "verboten"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "„musst“ → „darf“: **Hier darf man nicht rauchen - verboten!**\n\nVerbot = nicht dürfen. „nicht müssen“ hieße: es ist nicht nötig."
+    },
+    {
+      "id": "tb1-u31-l10-modal-p1-ex15",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Correct the sentence: „Hier musst man nicht rauchen - verboten!“",
+      "tiles": [
+        "man",
+        "musst",
+        "rauchen",
+        "länger",
+        "Hier",
+        "verboten",
+        "nicht",
+        "wir",
+        "darf"
+      ],
+      "answers": [
+        "Hier darf man nicht rauchen - verboten!"
+      ],
+      "explanation": "Verbot = nicht dürfen. „nicht müssen“ hieße: es ist nicht nötig."
+    }
+  ]
+}

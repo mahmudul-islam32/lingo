@@ -1,0 +1,297 @@
+{
+  "id": "tb1-u15-l07-shopping-complaints-2",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u15",
+  "title": "Shopping & Complaints 2",
+  "tip": "Theme: Einkaufen / Konsum / Reklamation (B1)",
+  "exercises": [
+    {
+      "id": "tb1-u15-l07-shopping-complaints-2-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "der Rabatt",
+          "known": "discount"
+        },
+        {
+          "id": "p2",
+          "learning": "der Preis",
+          "known": "price"
+        },
+        {
+          "id": "p3",
+          "learning": "die Kasse",
+          "known": "checkout"
+        },
+        {
+          "id": "p4",
+          "learning": "bestellen",
+          "known": "to order"
+        },
+        {
+          "id": "p5",
+          "learning": "liefern",
+          "known": "to deliver"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u15-l07-shopping-complaints-2-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „discount: reduced“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "der Rabatt, die Rabatte: reduziert"
+        },
+        {
+          "id": "b",
+          "text": "der Preis, die Preise: günstig/preiswert ↔ teuer"
+        },
+        {
+          "id": "c",
+          "text": "die Größe, die Größen: anprobieren"
+        },
+        {
+          "id": "d",
+          "text": "das Angebot, die Angebote: im Angebot sein"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**der Rabatt** = discount: reduced\n*Plural: die Rabatte: reduziert*\n\n*Example:* Die Schuhe sind reduziert, ich bekomme 20 Prozent Rabatt.\nThe shoes are reduced; I get a 20 percent discount."
+    },
+    {
+      "id": "tb1-u15-l07-shopping-complaints-2-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „price: cheap/good value ↔ expensive“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "der Kassenbon, die Kassenbons · die Quittung, die Quittungen"
+        },
+        {
+          "id": "b",
+          "text": "der Preis, die Preise: günstig/preiswert ↔ teuer"
+        },
+        {
+          "id": "c",
+          "text": "das Angebot, die Angebote: im Angebot sein"
+        },
+        {
+          "id": "d",
+          "text": "das Kaufhaus, die Kaufhäuser · der Supermarkt, die Supermärkte"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**der Preis** = price: cheap/good value ↔ expensive\n*Plural: die Preise: günstig/preiswert ↔ teuer*\n\n*Example:* Das Handy ist mir zu teuer, gibt es auch ein günstiges Modell?\nThis phone is too expensive for me. Is there a cheaper model too?"
+    },
+    {
+      "id": "tb1-u15-l07-shopping-complaints-2-ex04",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u15-l07-shopping-complaints-2-1.mp3"
+      },
+      "tiles": [
+        "sind",
+        "Prozent",
+        "ein",
+        "Rabatt",
+        "auf",
+        "das",
+        "20",
+        "Die",
+        "Schuhe",
+        "ich",
+        "reduziert",
+        "bekomme"
+      ],
+      "answers": [
+        "Die Schuhe sind reduziert, ich bekomme 20 Prozent Rabatt."
+      ],
+      "explanation": "Die Schuhe sind reduziert, ich bekomme 20 Prozent Rabatt.\n*The shoes are reduced; I get a 20 percent discount.*\n\n**der Rabatt** = discount: reduced\n*Plural: die Rabatte: reduziert*"
+    },
+    {
+      "id": "tb1-u15-l07-shopping-complaints-2-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „checkout: to pay cash ↔ by card“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "der Kassenbon, die Kassenbons · die Quittung, die Quittungen"
+        },
+        {
+          "id": "b",
+          "text": "die Reklamation, die Reklamationen: reklamieren"
+        },
+        {
+          "id": "c",
+          "text": "die Kasse, die Kassen: bar ↔ mit Karte zahlen"
+        },
+        {
+          "id": "d",
+          "text": "das Angebot, die Angebote: im Angebot sein"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**die Kasse** = checkout: to pay cash ↔ by card\n*Plural: die Kassen: bar ↔ mit Karte zahlen*\n\n*Example:* An der Kasse fragt die Kassiererin: Zahlen Sie bar oder mit Karte?\nAt the checkout the cashier asks: Are you paying cash or by card?"
+    },
+    {
+      "id": "tb1-u15-l07-shopping-complaints-2-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Das Handy ist mir zu teuer, gibt es auch ein günstiges Modell?",
+      "tiles": [
+        "the",
+        "fit",
+        "too",
+        "expensive",
+        "too",
+        "there",
+        "two-year",
+        "Is",
+        "for",
+        "is",
+        "This",
+        "model",
+        "me",
+        "a",
+        "cheaper",
+        "phone"
+      ],
+      "answers": [
+        "This phone is too expensive for me. Is there a cheaper model too?"
+      ],
+      "explanation": "**der Preis** = price: cheap/good value ↔ expensive\n*Plural: die Preise: günstig/preiswert ↔ teuer*"
+    },
+    {
+      "id": "tb1-u15-l07-shopping-complaints-2-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which one means „to order: order“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "liefern: die Lieferung, die Lieferungen"
+        },
+        {
+          "id": "b",
+          "text": "bestellen: die Bestellung, die Bestellungen"
+        },
+        {
+          "id": "c",
+          "text": "fehlen + Dat. Es fehlt ein Teil."
+        },
+        {
+          "id": "d",
+          "text": "beschädigt · kaputt"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**bestellen: die Bestellung, die Bestellungen** = to order: order\n\n*Example:* Ich habe gestern online neue Schuhe bestellt, die Bestellung kommt am Freitag.\nI ordered new shoes online yesterday; the order is arriving on Friday."
+    },
+    {
+      "id": "tb1-u15-l07-shopping-complaints-2-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "At the checkout the cashier asks: Are you paying cash or by card?",
+      "tiles": [
+        "Karte",
+        "mit",
+        "die",
+        "oder",
+        "Zahlen",
+        "Sie",
+        "der",
+        "fragt",
+        "An",
+        "mir",
+        "Kassiererin",
+        "Kasse",
+        "darin",
+        "kaputt",
+        "bar"
+      ],
+      "answers": [
+        "An der Kasse fragt die Kassiererin: Zahlen Sie bar oder mit Karte?"
+      ],
+      "explanation": "**die Kasse** = checkout: to pay cash ↔ by card\n*Plural: die Kassen: bar ↔ mit Karte zahlen*"
+    },
+    {
+      "id": "tb1-u15-l07-shopping-complaints-2-ex09",
+      "type": "multiple_choice",
+      "prompt": "Which one means „to deliver: delivery“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "passen + Dat. Die Jacke passt mir nicht."
+        },
+        {
+          "id": "b",
+          "text": "fehlen + Dat. Es fehlt ein Teil."
+        },
+        {
+          "id": "c",
+          "text": "liefern: die Lieferung, die Lieferungen"
+        },
+        {
+          "id": "d",
+          "text": "beschädigt · kaputt"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**liefern: die Lieferung, die Lieferungen** = to deliver: delivery\n\n*Example:* Das Möbelhaus liefert das Sofa nächste Woche.\nThe furniture store is delivering the sofa next week."
+    },
+    {
+      "id": "tb1-u15-l07-shopping-complaints-2-ex10",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u15-l07-shopping-complaints-2-4.mp3"
+      },
+      "tiles": [
+        "Jacke",
+        "Freitag",
+        "habe",
+        "ist",
+        "Bestellung",
+        "Schuhe",
+        "die",
+        "im",
+        "am",
+        "kommt",
+        "gestern",
+        "bestellt",
+        "Ich",
+        "neue",
+        "online"
+      ],
+      "answers": [
+        "Ich habe gestern online neue Schuhe bestellt, die Bestellung kommt am Freitag."
+      ],
+      "explanation": "Ich habe gestern online neue Schuhe bestellt, die Bestellung kommt am Freitag.\n*I ordered new shoes online yesterday; the order is arriving on Friday.*\n\n**bestellen: die Bestellung, die Bestellungen** = to order: order"
+    },
+    {
+      "id": "tb1-u15-l07-shopping-complaints-2-ex11",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Das Möbelhaus liefert das Sofa nächste Woche.",
+      "tiles": [
+        "store",
+        "me",
+        "week",
+        "the",
+        "The",
+        "I",
+        "is",
+        "discount",
+        "delivering",
+        "next",
+        "furniture",
+        "sofa"
+      ],
+      "answers": [
+        "The furniture store is delivering the sofa next week."
+      ],
+      "explanation": "**liefern: die Lieferung, die Lieferungen** = to deliver: delivery"
+    }
+  ]
+}

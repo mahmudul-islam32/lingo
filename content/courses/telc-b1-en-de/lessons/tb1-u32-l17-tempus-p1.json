@@ -1,0 +1,296 @@
+{
+  "id": "tb1-u32-l17-tempus-p1",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u32",
+  "title": "Time Prepositions: am, um, im, seit, vor, ab: um & seit vs. vor",
+  "tip": "seit vs. vor is THE trap: “Seit zwei Jahren bin ich nach Deutschland gekommen” is wrong → Vor zwei Jahren … gekommen / Seit zwei Jahren wohne ich hier.",
+  "exercises": [
+    {
+      "id": "tb1-u32-l17-tempus-p1-ex01",
+      "type": "explain",
+      "title": "um · am · im",
+      "body": "um + clock time · am + day/date/part of day · im + month/season.\n\n*Deutsch:* um + Uhrzeit · am + Tag/Datum/Tageszeit · im + Monat/Jahreszeit.\n\n## Pattern\n\n**um** 8 Uhr · **am** Montag · **im** Juli",
+      "examples": [
+        {
+          "learning": "Der Kurs beginnt um neun Uhr.",
+          "known": "The course starts at nine o'clock."
+        },
+        {
+          "learning": "Am Montag habe ich einen Termin.",
+          "known": "I have an appointment on Monday."
+        }
+      ]
+    },
+    {
+      "id": "tb1-u32-l17-tempus-p1-ex02",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "The course starts at nine o'clock.",
+      "tiles": [
+        "beginnt",
+        "Der",
+        "lernt",
+        "besuche",
+        "Uhr",
+        "Kurs",
+        "12",
+        "um",
+        "neun"
+      ],
+      "answers": [
+        "Der Kurs beginnt um neun Uhr."
+      ],
+      "explanation": "**Why:** Clock time → um.\n\n*Warum:* Uhrzeit → um."
+    },
+    {
+      "id": "tb1-u32-l17-tempus-p1-ex03",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I have an appointment on Monday.",
+      "tiles": [
+        "habe",
+        "Montag",
+        "geöffnet",
+        "Am",
+        "ich",
+        "Termin",
+        "einen",
+        "krank",
+        "Mai"
+      ],
+      "answers": [
+        "Am Montag habe ich einen Termin."
+      ],
+      "explanation": "**Why:** Day of the week → am.\n\n*Warum:* Wochentag → am."
+    },
+    {
+      "id": "tb1-u32-l17-tempus-p1-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "In summer we go to the seaside.",
+      "tiles": [
+        "fahren",
+        "Im",
+        "wir",
+        "bin",
+        "Meer",
+        "Sommer",
+        "ans",
+        "ich",
+        "Deutsch"
+      ],
+      "answers": [
+        "Im Sommer fahren wir ans Meer."
+      ],
+      "explanation": "**Why:** Season → im.\n\n*Warum:* Jahreszeit → im."
+    },
+    {
+      "id": "tb1-u32-l17-tempus-p1-ex05",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "My birthday is on 3 May.",
+      "tiles": [
+        "Geburtstag",
+        "um",
+        "in",
+        "3",
+        "18",
+        "Ich",
+        "habe",
+        "am",
+        "Mai"
+      ],
+      "answers": [
+        "Ich habe am 3. Mai Geburtstag."
+      ],
+      "explanation": "**Why:** Date → am.\n\n*Warum:* Datum → am."
+    },
+    {
+      "id": "tb1-u32-l17-tempus-p1-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "At the weekend I visit friends.",
+      "tiles": [
+        "Wochenende",
+        "Die",
+        "ich",
+        "Am",
+        "Stelle",
+        "Freunde",
+        "besuche",
+        "wohne"
+      ],
+      "answers": [
+        "Am Wochenende besuche ich Freunde."
+      ],
+      "explanation": "**Why:** Weekend → am.\n\n*Warum:* Wochenende → am."
+    },
+    {
+      "id": "tb1-u32-l17-tempus-p1-ex07",
+      "type": "explain",
+      "title": "seit vs. vor",
+      "body": "seit = started earlier and still continues. vor = once in the past, finished (= ago).\n\n*Deutsch:* seit = begann früher und dauert noch an. vor = einmal in der Vergangenheit, fertig.\n\n## Pattern\n\n**seit** + Dativ (Präsens) · **vor** + Dativ (Vergangenheit)",
+      "examples": [
+        {
+          "learning": "Ich wohne seit drei Jahren in Bonn.",
+          "known": "I've been living in Bonn for three years."
+        },
+        {
+          "learning": "Ich bin vor drei Jahren nach Bonn gezogen.",
+          "known": "I moved to Bonn three years ago."
+        }
+      ]
+    },
+    {
+      "id": "tb1-u32-l17-tempus-p1-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I've been living in Bonn for three years.",
+      "tiles": [
+        "wir",
+        "Ab",
+        "seit",
+        "8",
+        "Ich",
+        "Jahren",
+        "drei",
+        "in",
+        "wohne",
+        "Bonn"
+      ],
+      "answers": [
+        "Ich wohne seit drei Jahren in Bonn."
+      ],
+      "explanation": "**Why:** I still live there → seit + present tense.\n\n*Warum:* Ich wohne noch dort → seit + Präsens."
+    },
+    {
+      "id": "tb1-u32-l17-tempus-p1-ex09",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I moved to Bonn three years ago.",
+      "tiles": [
+        "nächster",
+        "Am",
+        "Jahren",
+        "nach",
+        "Bonn",
+        "Kurs",
+        "Ich",
+        "drei",
+        "gezogen",
+        "vor",
+        "bin"
+      ],
+      "answers": [
+        "Ich bin vor drei Jahren nach Bonn gezogen."
+      ],
+      "explanation": "**Why:** Once, finished → vor.\n\n*Warum:* Einmal, fertig → vor."
+    },
+    {
+      "id": "tb1-u32-l17-tempus-p1-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "He's been learning German for a month.",
+      "tiles": [
+        "Meer",
+        "Deutsch",
+        "einem",
+        "lernt",
+        "Monat",
+        "Wir",
+        "habe",
+        "Er",
+        "seit"
+      ],
+      "answers": [
+        "Er lernt seit einem Monat Deutsch."
+      ],
+      "explanation": "**Why:** Still ongoing → seit.\n\n*Warum:* Dauert noch an → seit."
+    },
+    {
+      "id": "tb1-u32-l17-tempus-p1-ex11",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "A week ago I was ill.",
+      "tiles": [
+        "Woche",
+        "die",
+        "krank",
+        "Vor",
+        "gezogen",
+        "hier",
+        "ich",
+        "einer",
+        "war"
+      ],
+      "answers": [
+        "Vor einer Woche war ich krank."
+      ],
+      "explanation": "**Why:** vor + dative: einer Woche.\n\n*Warum:* vor + Dativ: einer Woche."
+    },
+    {
+      "id": "tb1-u32-l17-tempus-p1-ex12",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I've had a headache since yesterday.",
+      "tiles": [
+        "gestern",
+        "Kopfschmerzen",
+        "bis",
+        "ich",
+        "Seit",
+        "18",
+        "habe",
+        "die"
+      ],
+      "answers": [
+        "Seit gestern habe ich Kopfschmerzen."
+      ],
+      "explanation": "**Why:** From yesterday until now.\n\n*Warum:* Seit gestern bis jetzt."
+    },
+    {
+      "id": "tb1-u32-l17-tempus-p1-ex13",
+      "type": "choice",
+      "title": "Fill the gap",
+      "prompt": "___ zwei Jahren bin ich nach Deutschland gekommen.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Seit"
+        },
+        {
+          "id": "b",
+          "text": "Vor"
+        },
+        {
+          "id": "c",
+          "text": "Ab"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Zeitpunkt in der Vergangenheit → vor zwei Jahren. (seit = dauert noch an)"
+    },
+    {
+      "id": "tb1-u32-l17-tempus-p1-ex14",
+      "type": "choice",
+      "title": "Fill the gap",
+      "prompt": "Der Termin ist ___ einer Stunde, beeil dich!",
+      "options": [
+        {
+          "id": "a",
+          "text": "in"
+        },
+        {
+          "id": "b",
+          "text": "seit"
+        },
+        {
+          "id": "c",
+          "text": "vor"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "in + Zeitangabe = so viel Zeit von jetzt: in einer Stunde."
+    }
+  ]
+}

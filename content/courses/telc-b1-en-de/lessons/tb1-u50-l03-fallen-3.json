@@ -1,0 +1,141 @@
+{
+  "id": "tb1-u50-l03-fallen-3",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u50",
+  "title": "Listening traps 3: Einräumung, Einschränkung, Paraphrase = RICHTIG",
+  "tip": "Listen, then decide: richtig or falsch?",
+  "exercises": [
+    {
+      "id": "tb1-u50-l03-fallen-3-ex01",
+      "type": "explain",
+      "title": "Trap 7: Einräumung (zwar … aber, trotzdem)",
+      "body": "The **first** half is a distractor; the main point is **after „aber“**.\n\n*Auf Deutsch:* Die **erste** Hälfte ist Ablenkung; der Hauptpunkt kommt **nach „aber“**."
+    },
+    {
+      "id": "tb1-u50-l03-fallen-3-ex02",
+      "type": "listening",
+      "title": "Falle 7 · Beispiel 1",
+      "transcript": "Die Wohnung ist zwar klein, aber sehr günstig.",
+      "prompt": "Die Wohnung ist teuer. Richtig oder falsch?",
+      "options": [
+        {
+          "id": "a",
+          "text": "richtig"
+        },
+        {
+          "id": "b",
+          "text": "falsch"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Falsch.** günstig = billig; „klein“ ist nur die Einräumung."
+    },
+    {
+      "id": "tb1-u50-l03-fallen-3-ex03",
+      "type": "listening",
+      "title": "Falle 7 · Beispiel 2",
+      "transcript": "Der Film war zwar lang, aber wirklich spannend.",
+      "prompt": "Der Film war langweilig. Richtig oder falsch?",
+      "options": [
+        {
+          "id": "a",
+          "text": "richtig"
+        },
+        {
+          "id": "b",
+          "text": "falsch"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Falsch.** spannend ≠ langweilig."
+    },
+    {
+      "id": "tb1-u50-l03-fallen-3-ex04",
+      "type": "explain",
+      "title": "Trap 8: Einschränkung (nur, erst, nicht mehr)",
+      "body": "A small word limits time, place, or amount: nur, erst, nicht mehr.\n\n*Auf Deutsch:* Ein kleines Wort begrenzt Zeit, Ort oder Menge."
+    },
+    {
+      "id": "tb1-u50-l03-fallen-3-ex05",
+      "type": "listening",
+      "title": "Falle 8 · Beispiel 1",
+      "transcript": "Karten gibt es nur noch online, nicht mehr an der Kasse.",
+      "prompt": "Man kann Karten an der Kasse kaufen. Richtig oder falsch?",
+      "options": [
+        {
+          "id": "a",
+          "text": "richtig"
+        },
+        {
+          "id": "b",
+          "text": "falsch"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Falsch.** nur online, nicht an der Kasse."
+    },
+    {
+      "id": "tb1-u50-l03-fallen-3-ex06",
+      "type": "listening",
+      "title": "Falle 8 · Beispiel 2",
+      "transcript": "Das Angebot gilt erst ab nächster Woche.",
+      "prompt": "Das Angebot gilt schon jetzt. Richtig oder falsch?",
+      "options": [
+        {
+          "id": "a",
+          "text": "richtig"
+        },
+        {
+          "id": "b",
+          "text": "falsch"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Falsch.** „erst ab“ = nicht vor nächster Woche."
+    },
+    {
+      "id": "tb1-u50-l03-fallen-3-ex07",
+      "type": "explain",
+      "title": "Trap 9: Paraphrase = RICHTIG (die Anti-Falle)",
+      "body": "If the statement says the **same thing in other words**, it's usually **richtig**. Don't reject it just because the words differ.\n\n*Auf Deutsch:* Sagt die Aussage **dasselbe mit anderen Wörtern**, ist sie meist **richtig**. Nicht ablehnen, nur weil die Wörter anders sind, genau das belohnt telc."
+    },
+    {
+      "id": "tb1-u50-l03-fallen-3-ex08",
+      "type": "listening",
+      "title": "Falle 9 · Beispiel 1",
+      "transcript": "Ich suche eine neue Herausforderung im Beruf.",
+      "prompt": "Der Sprecher möchte sich beruflich verändern. Richtig oder falsch?",
+      "options": [
+        {
+          "id": "a",
+          "text": "richtig"
+        },
+        {
+          "id": "b",
+          "text": "falsch"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Richtig.** neue Herausforderung = beruflich verändern, reine Paraphrase."
+    },
+    {
+      "id": "tb1-u50-l03-fallen-3-ex09",
+      "type": "listening",
+      "title": "Falle 9 · Beispiel 2",
+      "transcript": "Der Eintritt ist frei.",
+      "prompt": "Man muss nichts bezahlen. Richtig oder falsch?",
+      "options": [
+        {
+          "id": "a",
+          "text": "richtig"
+        },
+        {
+          "id": "b",
+          "text": "falsch"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Richtig.** frei = kostenlos = nichts zahlen."
+    }
+  ]
+}

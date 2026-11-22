@@ -1,0 +1,269 @@
+{
+  "id": "eb-u02-l03-q41-50",
+  "courseId": "einbuergerung-en-de",
+  "unitId": "eb-u02",
+  "title": "Questions 41–50 (Fragen 41–50)",
+  "tip": "After each Check you get an English explanation and a short German note (Auf Deutsch).",
+  "exercises": [
+    {
+      "id": "eb-u02-l03-q41-50-ex01",
+      "type": "choice",
+      "title": "Frage 41 · Block 2",
+      "prompt": "Warum gibt es in einer Demokratie mehr als eine Partei?",
+      "options": [
+        {
+          "id": "a",
+          "text": "weil dadurch die unterschiedlichen Meinungen der Bürger und Bürgerinnen vertreten werden"
+        },
+        {
+          "id": "b",
+          "text": "damit Bestechung in der Politik begrenzt wird"
+        },
+        {
+          "id": "c",
+          "text": "um politische Demonstrationen zu verhindern"
+        },
+        {
+          "id": "d",
+          "text": "um wirtschaftlichen Wettbewerb anzuregen"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Correct answer:** weil dadurch die unterschiedlichen Meinungen der Bürger und Bürgerinnen vertreten werden\n\n**Pluralismus**: society disagrees, so parliament must too, multiple parties translate diverse opinions into representation and real choice at elections. One-party rule (NSDAP, SED) is the negative proof: without alternatives, elections are theater (→Q159).\n\nB, C, D attach parties to the wrong goals (corruption control is done by law and courts; demonstrations are a *right*; economic competition is the market's job).\n\n## Auf Deutsch\n\nMehrere Parteien vertreten die unterschiedlichen Meinungen der Bürger."
+    },
+    {
+      "id": "eb-u02-l03-q41-50-ex02",
+      "type": "choice",
+      "title": "Frage 42 · Block 2",
+      "prompt": "Wer beschließt in Deutschland ein neues Gesetz?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Regierung"
+        },
+        {
+          "id": "b",
+          "text": "das Parlament"
+        },
+        {
+          "id": "c",
+          "text": "die Gerichte"
+        },
+        {
+          "id": "d",
+          "text": "die Polizei"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Correct answer:** das Parlament\n\nLaws are passed by **parliament** (Bundestag, with Bundesrat participation), the legislative monopoly.\n\nThe government *proposes* most bills and later *executes* them, but doesn't enact them. Courts apply and review laws (→Q3); police enforce them (→Q148). This clean assignment IS Gewaltenteilung, say it that crisply in your interview.\n\n## Auf Deutsch\n\nGesetze beschließt das Parlament, nicht die Gerichte und nicht die Regierung allein."
+    },
+    {
+      "id": "eb-u02-l03-q41-50-ex03",
+      "type": "choice",
+      "title": "Frage 43 · Block 2",
+      "prompt": "Wann kann in Deutschland eine Partei verboten werden?",
+      "options": [
+        {
+          "id": "a",
+          "text": "wenn ihr Wahlkampf zu teuer ist"
+        },
+        {
+          "id": "b",
+          "text": "wenn sie gegen die Verfassung kämpft"
+        },
+        {
+          "id": "c",
+          "text": "wenn sie Kritik am Staatsoberhaupt äußert"
+        },
+        {
+          "id": "d",
+          "text": "wenn ihr Programm eine neue Richtung vorschlägt"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Correct answer:** wenn sie gegen die Verfassung kämpft\n\n→Q20's twin. A party can be banned only for *actively fighting the constitutional order* (Art. 21(2) GG), and only by the Bundesverfassungsgericht.\n\nExpensive campaigns are legal (funding is merely regulated); criticizing the president and proposing radical new directions are protected democratic activity. The bar is deliberately high, banning parties is democracy's emergency brake, not a tool against critics.\n\n## Auf Deutsch\n\nParteien, die gegen die Verfassung kämpfen, kann das Bundesverfassungsgericht verbieten."
+    },
+    {
+      "id": "eb-u02-l03-q41-50-ex04",
+      "type": "choice",
+      "title": "Frage 44 · Block 2",
+      "prompt": "Wen kann man als Bürger/Bürgerin in Deutschland nicht direkt wählen?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Abgeordnete des EU-Parlaments"
+        },
+        {
+          "id": "b",
+          "text": "den Bundespräsidenten/die Bundespräsidentin"
+        },
+        {
+          "id": "c",
+          "text": "Landtagsabgeordnete"
+        },
+        {
+          "id": "d",
+          "text": "Bundestagsabgeordnete"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Correct answer:** den Bundespräsidenten/die Bundespräsidentin\n\nCitizens directly elect parliaments at every level. EU, Bund, Land, Kommune. They do **not** directly elect the head of state: the **Bundespräsident** is chosen by the **Bundesversammlung** (→Q86). Nor, note, the Chancellor, elected by the Bundestag (→Q81). Germany's lesson from Weimar: no directly-elected strongman offices.\n\n## Auf Deutsch\n\nDen Bundespräsidenten wählt die Bundesversammlung, nicht das Volk direkt."
+    },
+    {
+      "id": "eb-u02-l03-q41-50-ex05",
+      "type": "choice",
+      "title": "Frage 45 · Block 2",
+      "prompt": "Zu welcher Versicherung gehört die Pflegeversicherung?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Sozialversicherung"
+        },
+        {
+          "id": "b",
+          "text": "Unfallversicherung"
+        },
+        {
+          "id": "c",
+          "text": "Hausratversicherung"
+        },
+        {
+          "id": "d",
+          "text": "Haftpflicht- und Feuerversicherung"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Correct answer:** Sozialversicherung\n\n**Pflegeversicherung** (long-term care insurance, added 1995) is the youngest of the five social-insurance pillars (→Q36).\n\nB is itself another pillar, a sibling, not the parent category; C and D are private property insurances. Category question: Pflege ∈ Sozialversicherung.\n\n## Auf Deutsch\n\nDie Pflegeversicherung ist ein Zweig der gesetzlichen Sozialversicherung."
+    },
+    {
+      "id": "eb-u02-l03-q41-50-ex06",
+      "type": "choice",
+      "title": "Frage 46 · Block 2",
+      "prompt": "Welche Aufgabe gehört zu den Aufgaben des deutschen Staates?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Er baut Straßen und Schulen"
+        },
+        {
+          "id": "b",
+          "text": "Er verkauft Lebensmittel und Kleidung"
+        },
+        {
+          "id": "c",
+          "text": "Er versorgt alle Einwohner und Einwohnerinnen kostenlos mit Zeitungen"
+        },
+        {
+          "id": "d",
+          "text": "Er produziert Autos und Busse"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Correct answer:** Er baut Straßen und Schulen\n\nInfrastructure and education are core public tasks (**Daseinsvorsorge**).\n\nSelling food/clothes and building cars belong to the market, the state sets rules but doesn't run shops or factories (that was the DDR's Planwirtschaft →Q203). Free state newspapers would collide with press independence (→Q32): the state doesn't make the news it's checked by.\n\n## Auf Deutsch\n\nStraßen und Schulen bauen ist eine klassische Aufgabe des Staates."
+    },
+    {
+      "id": "eb-u02-l03-q41-50-ex07",
+      "type": "choice",
+      "title": "Frage 47 · Block 2",
+      "prompt": "Welche Aufgabe gehört nicht zu den Aufgaben des deutschen Staates?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Er bezahlt für alle Staatsangehörigen Urlaubsreisen"
+        },
+        {
+          "id": "b",
+          "text": "Er zahlt Kindergeld"
+        },
+        {
+          "id": "c",
+          "text": "Er unterstützt Museen"
+        },
+        {
+          "id": "d",
+          "text": "Er fördert Sportler und Sportlerinnen"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Correct answer:** Er bezahlt für alle Staatsangehörigen Urlaubsreisen\n\nNicht-question. Vacations are private pleasure, not public duty.\n\nKindergeld (which you receive!), museum subsidies, and elite-sport funding are all real state tasks, the Sozialstaat and Kulturstaat in action. Tip: in nicht-questions, hunt for the absurdly generous or absurd option; BAMF rarely hides these.\n\n## Auf Deutsch\n\nUrlaubsreisen bezahlt der Staat nicht, das ist Privatsache."
+    },
+    {
+      "id": "eb-u02-l03-q41-50-ex08",
+      "type": "choice",
+      "title": "Frage 48 · Block 2",
+      "prompt": "Welches Organ gehört nicht zu den Verfassungsorganen Deutschlands?",
+      "options": [
+        {
+          "id": "a",
+          "text": "der Bundesrat"
+        },
+        {
+          "id": "b",
+          "text": "der Bundespräsident/die Bundespräsidentin"
+        },
+        {
+          "id": "c",
+          "text": "die Bürgerversammlung"
+        },
+        {
+          "id": "d",
+          "text": "die Regierung"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**Correct answer:** die Bürgerversammlung\n\n\"Bürgerversammlung\" (citizens' assembly) sounds democratic but is no federal constitutional organ, at most a local information meeting.\n\n## Auf Deutsch\n\nEine „Bürgerversammlung“ ist kein Verfassungsorgan; Bundestag, Bundesrat, Bundespräsident und Regierung schon."
+    },
+    {
+      "id": "eb-u02-l03-q41-50-ex09",
+      "type": "choice",
+      "title": "Frage 49 · Block 2",
+      "prompt": "Wer bestimmt in Deutschland die Schulpolitik?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Lehrer und Lehrerinnen"
+        },
+        {
+          "id": "b",
+          "text": "die Bundesländer"
+        },
+        {
+          "id": "c",
+          "text": "das Familienministerium"
+        },
+        {
+          "id": "d",
+          "text": "die Universitäten"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Correct answer:** die Bundesländer\n\n**Kulturhoheit der Länder**: education is the Länder's flagship power, school systems, curricula, teacher hiring, holiday calendars all differ across the 16. It's why your child's school will follow NRW rules, not federal ones, and why moving Länder mid-school-year is notoriously annoying.\n\nTeachers implement policy; the federal family ministry has no school authority; universities govern themselves within Land law. →Q67 and Q68 retest this, triple-tested fact, learn it cold.\n\n## Auf Deutsch\n\nSchulpolitik ist Sache der Bundesländer (Föderalismus)."
+    },
+    {
+      "id": "eb-u02-l03-q41-50-ex10",
+      "type": "choice",
+      "title": "Frage 50 · Block 2",
+      "prompt": "Die Wirtschaftsform in Deutschland nennt man …",
+      "options": [
+        {
+          "id": "a",
+          "text": "freie Zentralwirtschaft"
+        },
+        {
+          "id": "b",
+          "text": "soziale Marktwirtschaft"
+        },
+        {
+          "id": "c",
+          "text": "gelenkte Zentralwirtschaft"
+        },
+        {
+          "id": "d",
+          "text": "Planwirtschaft"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Correct answer:** soziale Marktwirtschaft\n\n**Soziale Marktwirtschaft** (Ludwig Erhard's postwar model): market competition generates wealth; the state referees and redistributes enough to keep it humane (social insurance, worker protections). It powered the Wirtschaftswunder (→Q183).\n\n**Planwirtschaft** (D) is the DDR/socialist model, state sets production (→Q203); A and C are nonsense hybrids (\"free central economy\" is a contradiction). Definition retested in Q171.\n\n## Auf Deutsch\n\nSoziale Marktwirtschaft = freier Markt + sozialer Ausgleich durch den Staat."
+    }
+  ]
+}

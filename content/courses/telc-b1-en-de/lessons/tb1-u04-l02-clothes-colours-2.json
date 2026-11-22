@@ -1,0 +1,282 @@
+{
+  "id": "tb1-u04-l02-clothes-colours-2",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u04",
+  "title": "Clothes & Colours 2",
+  "tip": "Theme: Kleidung & Farben (A1)",
+  "exercises": [
+    {
+      "id": "tb1-u04-l02-clothes-colours-2-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "die Jacke",
+          "known": "jacket"
+        },
+        {
+          "id": "p2",
+          "learning": "der Mantel",
+          "known": "coat"
+        },
+        {
+          "id": "p3",
+          "learning": "die Schuhe",
+          "known": "shoes"
+        },
+        {
+          "id": "p4",
+          "learning": "die Mütze",
+          "known": "cap / beanie"
+        },
+        {
+          "id": "p5",
+          "learning": "weiß",
+          "known": "white"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u04-l02-clothes-colours-2-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „jacket“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Schuhe (Pl.)"
+        },
+        {
+          "id": "b",
+          "text": "die Mütze, die Mützen"
+        },
+        {
+          "id": "c",
+          "text": "die Hose, die Hosen"
+        },
+        {
+          "id": "d",
+          "text": "die Jacke, die Jacken"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**die Jacke** = jacket\n*Plural: die Jacken*\n\n*Example:* Nimm eine Jacke mit, heute Abend wird es kühl.\nTake a jacket with you, it's going to be cool this evening."
+    },
+    {
+      "id": "tb1-u04-l02-clothes-colours-2-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „coat“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Schuhe (Pl.)"
+        },
+        {
+          "id": "b",
+          "text": "das Hemd, die Hemden"
+        },
+        {
+          "id": "c",
+          "text": "die Mütze, die Mützen"
+        },
+        {
+          "id": "d",
+          "text": "der Mantel, die Mäntel"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**der Mantel** = coat\n*Plural: die Mäntel*\n\n*Example:* Im Dezember brauche ich einen dicken Mantel.\nIn December I need a thick coat."
+    },
+    {
+      "id": "tb1-u04-l02-clothes-colours-2-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Take a jacket with you, it's going to be cool this evening.",
+      "tiles": [
+        "Abend",
+        "heute",
+        "mit",
+        "wird",
+        "Sohn",
+        "es",
+        "eine",
+        "Nimm",
+        "Jacke",
+        "kühl",
+        "sind",
+        "gelb"
+      ],
+      "answers": [
+        "Nimm eine Jacke mit, heute Abend wird es kühl."
+      ],
+      "explanation": "**die Jacke** = jacket\n*Plural: die Jacken*"
+    },
+    {
+      "id": "tb1-u04-l02-clothes-colours-2-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „shoes“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "der Mantel, die Mäntel"
+        },
+        {
+          "id": "b",
+          "text": "die Hose, die Hosen"
+        },
+        {
+          "id": "c",
+          "text": "das Kleid, die Kleider"
+        },
+        {
+          "id": "d",
+          "text": "die Schuhe (Pl.)"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**die Schuhe (Pl.)** = shoes\n\n*Example:* Bitte zieht eure Schuhe vor der Tür aus.\nPlease take your shoes off outside the door."
+    },
+    {
+      "id": "tb1-u04-l02-clothes-colours-2-ex06",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u04-l02-clothes-colours-2-2.mp3"
+      },
+      "tiles": [
+        "Tür",
+        "Im",
+        "Dezember",
+        "vor",
+        "Mantel",
+        "dicken",
+        "brauche",
+        "Jeans",
+        "ich",
+        "einen"
+      ],
+      "answers": [
+        "Im Dezember brauche ich einen dicken Mantel."
+      ],
+      "explanation": "Im Dezember brauche ich einen dicken Mantel.\n*In December I need a thick coat.*\n\n**der Mantel** = coat\n*Plural: die Mäntel*"
+    },
+    {
+      "id": "tb1-u04-l02-clothes-colours-2-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „cap / beanie“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "der Mantel, die Mäntel"
+        },
+        {
+          "id": "b",
+          "text": "die Jacke, die Jacken"
+        },
+        {
+          "id": "c",
+          "text": "die Hose, die Hosen"
+        },
+        {
+          "id": "d",
+          "text": "die Mütze, die Mützen"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**die Mütze** = cap / beanie\n*Plural: die Mützen*\n\n*Example:* Es ist kalt, setz bitte deine Mütze auf.\nIt's cold, please put your hat on."
+    },
+    {
+      "id": "tb1-u04-l02-clothes-colours-2-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Bitte zieht eure Schuhe vor der Tür aus.",
+      "tiles": [
+        "door",
+        "your",
+        "is",
+        "off",
+        "Please",
+        "take",
+        "In",
+        "outside",
+        "I",
+        "shoes",
+        "the"
+      ],
+      "answers": [
+        "Please take your shoes off outside the door."
+      ],
+      "explanation": "**die Schuhe (Pl.)** = shoes"
+    },
+    {
+      "id": "tb1-u04-l02-clothes-colours-2-ex09",
+      "type": "multiple_choice",
+      "prompt": "Which one means „white“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "braun"
+        },
+        {
+          "id": "b",
+          "text": "weiß"
+        },
+        {
+          "id": "c",
+          "text": "grün"
+        },
+        {
+          "id": "d",
+          "text": "gelb"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**weiß** = white\n\n*Example:* Die Wände in der neuen Wohnung sind weiß.\nThe walls in the new flat are white."
+    },
+    {
+      "id": "tb1-u04-l02-clothes-colours-2-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "It's cold, please put your hat on.",
+      "tiles": [
+        "Es",
+        "auf",
+        "die",
+        "ist",
+        "bitte",
+        "Mütze",
+        "setz",
+        "Briefkästen",
+        "kalt",
+        "grün",
+        "deine"
+      ],
+      "answers": [
+        "Es ist kalt, setz bitte deine Mütze auf."
+      ],
+      "explanation": "**die Mütze** = cap / beanie\n*Plural: die Mützen*"
+    },
+    {
+      "id": "tb1-u04-l02-clothes-colours-2-ex11",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u04-l02-clothes-colours-2-5.mp3"
+      },
+      "tiles": [
+        "weiß",
+        "ist",
+        "neuen",
+        "trägt",
+        "Wohnung",
+        "Kaffee",
+        "sind",
+        "Die",
+        "in",
+        "der",
+        "Wände"
+      ],
+      "answers": [
+        "Die Wände in der neuen Wohnung sind weiß."
+      ],
+      "explanation": "Die Wände in der neuen Wohnung sind weiß.\n*The walls in the new flat are white.*\n\n**weiß** = white"
+    }
+  ]
+}

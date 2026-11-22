@@ -1,0 +1,291 @@
+{
+  "id": "tb1-u27-l17-guessing-certainty-2",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u27",
+  "title": "Guessing & Certainty 2",
+  "tip": "Theme: Redemittel: Vermutung & Sicherheit (B1)",
+  "exercises": [
+    {
+      "id": "tb1-u27-l17-guessing-certainty-2-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "möglicherweise …",
+          "known": "possibly …"
+        },
+        {
+          "id": "p2",
+          "learning": "Ich könnte mir vorstellen, dass …",
+          "known": "I could imagine that …"
+        },
+        {
+          "id": "p3",
+          "learning": "auf jeden Fall",
+          "known": "in any case / definitely"
+        },
+        {
+          "id": "p4",
+          "learning": "auf keinen Fall",
+          "known": "under no circumstances"
+        },
+        {
+          "id": "p5",
+          "learning": "Es könnte sein, dass …",
+          "known": "It could be that …"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u27-l17-guessing-certainty-2-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which phrase means „possibly …“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "möglicherweise …"
+        },
+        {
+          "id": "b",
+          "text": "auf jeden Fall"
+        },
+        {
+          "id": "c",
+          "text": "Es könnte sein, dass …"
+        },
+        {
+          "id": "d",
+          "text": "auf keinen Fall"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**möglicherweise …** = possibly …\n\n*Example:* Der Arzt ist möglicherweise heute Nachmittag nicht in der Praxis.\nThe doctor is possibly not in the practice this afternoon."
+    },
+    {
+      "id": "tb1-u27-l17-guessing-certainty-2-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which phrase means „I could imagine that …“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ich könnte mir vorstellen, dass …"
+        },
+        {
+          "id": "b",
+          "text": "Ich vermute, dass …"
+        },
+        {
+          "id": "c",
+          "text": "Wahrscheinlich …"
+        },
+        {
+          "id": "d",
+          "text": "Es könnte sein, dass …"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Ich könnte mir vorstellen, dass …** = I could imagine that …\n\n*Example:* Ich könnte mir vorstellen, dass Anna gern Lehrerin wird.\nI could imagine that Anna would like to become a teacher."
+    },
+    {
+      "id": "tb1-u27-l17-guessing-certainty-2-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Der Arzt ist möglicherweise heute Nachmittag nicht in der Praxis.",
+      "tiles": [
+        "possibly",
+        "visit",
+        "doctor",
+        "practice",
+        "be",
+        "in",
+        "The",
+        "afternoon",
+        "not",
+        "the",
+        "is",
+        "this",
+        "I"
+      ],
+      "answers": [
+        "The doctor is possibly not in the practice this afternoon."
+      ],
+      "explanation": "**möglicherweise …** = possibly …"
+    },
+    {
+      "id": "tb1-u27-l17-guessing-certainty-2-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which phrase means „in any case / definitely“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Wahrscheinlich …"
+        },
+        {
+          "id": "b",
+          "text": "Es kann sein, dass …"
+        },
+        {
+          "id": "c",
+          "text": "auf jeden Fall"
+        },
+        {
+          "id": "d",
+          "text": "möglicherweise …"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**auf jeden Fall** = in any case / definitely\n\n*Example:* Ich komme auf jeden Fall zu deiner Geburtstagsfeier.\nI'll definitely come to your birthday party."
+    },
+    {
+      "id": "tb1-u27-l17-guessing-certainty-2-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I could imagine that Anna would like to become a teacher.",
+      "tiles": [
+        "nicht",
+        "Ich",
+        "gern",
+        "Anna",
+        "könnte",
+        "wird",
+        "Lehrerin",
+        "mir",
+        "vorstellen",
+        "Es",
+        "dass",
+        "Geburtstagsfeier"
+      ],
+      "answers": [
+        "Ich könnte mir vorstellen, dass Anna gern Lehrerin wird."
+      ],
+      "explanation": "**Ich könnte mir vorstellen, dass …** = I could imagine that …"
+    },
+    {
+      "id": "tb1-u27-l17-guessing-certainty-2-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which phrase means „under no circumstances“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ich könnte mir vorstellen, dass …"
+        },
+        {
+          "id": "b",
+          "text": "auf jeden Fall"
+        },
+        {
+          "id": "c",
+          "text": "auf keinen Fall"
+        },
+        {
+          "id": "d",
+          "text": "Ich vermute, dass …"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**auf keinen Fall** = under no circumstances\n\n*Example:* Mit Fieber darfst du auf keinen Fall zur Arbeit gehen.\nWith a fever you mustn't go to work under any circumstances."
+    },
+    {
+      "id": "tb1-u27-l17-guessing-certainty-2-ex08",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u27-l17-guessing-certainty-2-3.mp3"
+      },
+      "tiles": [
+        "jeden",
+        "komme",
+        "zu",
+        "Fall",
+        "Geburtstagsfeier",
+        "wir",
+        "auf",
+        "Ich",
+        "Der",
+        "heute",
+        "deiner"
+      ],
+      "answers": [
+        "Ich komme auf jeden Fall zu deiner Geburtstagsfeier."
+      ],
+      "explanation": "Ich komme auf jeden Fall zu deiner Geburtstagsfeier.\n*I'll definitely come to your birthday party.*\n\n**auf jeden Fall** = in any case / definitely"
+    },
+    {
+      "id": "tb1-u27-l17-guessing-certainty-2-ex09",
+      "type": "multiple_choice",
+      "prompt": "Which phrase means „It could be that …“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "auf keinen Fall"
+        },
+        {
+          "id": "b",
+          "text": "Es kann sein, dass …"
+        },
+        {
+          "id": "c",
+          "text": "Es könnte sein, dass …"
+        },
+        {
+          "id": "d",
+          "text": "möglicherweise …"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**Es könnte sein, dass …** = It could be that …\n\n*Example:* Es könnte sein, dass der Bus heute wegen des Schnees später kommt.\nIt could be that the bus comes later today because of the snow."
+    },
+    {
+      "id": "tb1-u27-l17-guessing-certainty-2-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Mit Fieber darfst du auf keinen Fall zur Arbeit gehen.",
+      "tiles": [
+        "work",
+        "under",
+        "any",
+        "you",
+        "circumstances",
+        "to",
+        "mustn't",
+        "fever",
+        "like",
+        "that",
+        "Anna",
+        "go",
+        "With",
+        "a"
+      ],
+      "answers": [
+        "With a fever you mustn't go to work under any circumstances."
+      ],
+      "explanation": "**auf keinen Fall** = under no circumstances"
+    },
+    {
+      "id": "tb1-u27-l17-guessing-certainty-2-ex11",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "It could be that the bus comes later today because of the snow.",
+      "tiles": [
+        "kommt",
+        "der",
+        "könnte",
+        "wegen",
+        "Es",
+        "Schnees",
+        "zu",
+        "später",
+        "Bus",
+        "Ich",
+        "des",
+        "heute",
+        "dass",
+        "Mittagspause",
+        "sein"
+      ],
+      "answers": [
+        "Es könnte sein, dass der Bus heute wegen des Schnees später kommt."
+      ],
+      "explanation": "**Es könnte sein, dass …** = It could be that …"
+    }
+  ]
+}

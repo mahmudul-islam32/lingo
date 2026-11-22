@@ -1,0 +1,245 @@
+{
+  "id": "tb1-u14-l10-education-language-learning-5",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u14",
+  "title": "Education & Language Learning 5",
+  "tip": "Theme: Bildung / Sprachenlernen (B1)",
+  "exercises": [
+    {
+      "id": "tb1-u14-l10-education-language-learning-5-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "üben",
+          "known": "to practise"
+        },
+        {
+          "id": "p2",
+          "learning": "auswendig lernen",
+          "known": "to learn by heart"
+        },
+        {
+          "id": "p3",
+          "learning": "der Fehler",
+          "known": "mistake"
+        },
+        {
+          "id": "p4",
+          "learning": "übersetzen",
+          "known": "to translate"
+        },
+        {
+          "id": "p5",
+          "learning": "die Schule",
+          "known": "school"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u14-l10-education-language-learning-5-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which verb means „to practise · to revise“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "teilnehmen an + Dat. (hat teilgenommen), der Teilnehmer, die Teilnehmer"
+        },
+        {
+          "id": "b",
+          "text": "übersetzen (hat übersetzt): das Wörterbuch, die Wörterbücher"
+        },
+        {
+          "id": "c",
+          "text": "üben · wiederholen (hat wiederholt)"
+        },
+        {
+          "id": "d",
+          "text": "bestehen (hat bestanden) ↔ durchfallen (ist durchgefallen)"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**üben · wiederholen (hat wiederholt)** = to practise · to revise\n\n*Example:* Tom übt jeden Abend die neuen Wörter und wiederholt sie am Wochenende.\nTom practises the new words every evening and revises them at the weekend."
+    },
+    {
+      "id": "tb1-u14-l10-education-language-learning-5-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which one means „to learn by heart“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "studieren, das Studium (meist Sg.)"
+        },
+        {
+          "id": "b",
+          "text": "auswendig lernen"
+        },
+        {
+          "id": "c",
+          "text": "Fortschritte machen"
+        },
+        {
+          "id": "d",
+          "text": "fließend"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**auswendig lernen** = to learn by heart\n\n*Example:* Meine Tochter hat das Gedicht für die Schule auswendig gelernt.\nMy daughter learned the poem for school by heart."
+    },
+    {
+      "id": "tb1-u14-l10-education-language-learning-5-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Tom practises the new words every evening and revises them at the weekend.",
+      "tiles": [
+        "die",
+        "sie",
+        "Tom",
+        "Deutschland",
+        "jeden",
+        "es",
+        "neuen",
+        "wiederholt",
+        "Für",
+        "am",
+        "Wörter",
+        "übt",
+        "Abend",
+        "Wochenende",
+        "und"
+      ],
+      "answers": [
+        "Tom übt jeden Abend die neuen Wörter und wiederholt sie am Wochenende."
+      ],
+      "explanation": "**üben · wiederholen (hat wiederholt)** = to practise · to revise"
+    },
+    {
+      "id": "tb1-u14-l10-education-language-learning-5-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „mistake: to make / correct mistakes“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Prüfung, die Prüfungen: eine Prüfung ablegen"
+        },
+        {
+          "id": "b",
+          "text": "der Fehler, die Fehler: Fehler machen / korrigieren"
+        },
+        {
+          "id": "c",
+          "text": "die Bedeutung, die Bedeutungen: bedeuten"
+        },
+        {
+          "id": "d",
+          "text": "die Muttersprache, die Muttersprachen ↔ die Fremdsprache, die Fremdsprachen"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**der Fehler** = mistake: to make / correct mistakes\n*Plural: die Fehler: Fehler machen / korrigieren*\n\n*Example:* Ich mache noch viele Fehler, aber meine Lehrerin korrigiert sie geduldig.\nI still make a lot of mistakes, but my teacher corrects them patiently."
+    },
+    {
+      "id": "tb1-u14-l10-education-language-learning-5-ex06",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u14-l10-education-language-learning-5-2.mp3"
+      },
+      "tiles": [
+        "die",
+        "Gedicht",
+        "Teilnehmer",
+        "Freund",
+        "Schule",
+        "Tochter",
+        "auswendig",
+        "gelernt",
+        "das",
+        "Meine",
+        "jeden",
+        "für",
+        "hat"
+      ],
+      "answers": [
+        "Meine Tochter hat das Gedicht für die Schule auswendig gelernt."
+      ],
+      "explanation": "Meine Tochter hat das Gedicht für die Schule auswendig gelernt.\n*My daughter learned the poem for school by heart.*\n\n**auswendig lernen** = to learn by heart"
+    },
+    {
+      "id": "tb1-u14-l10-education-language-learning-5-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which verb means „to translate: dictionary“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "üben · wiederholen (hat wiederholt)"
+        },
+        {
+          "id": "b",
+          "text": "bestehen (hat bestanden) ↔ durchfallen (ist durchgefallen)"
+        },
+        {
+          "id": "c",
+          "text": "teilnehmen an + Dat. (hat teilgenommen), der Teilnehmer, die Teilnehmer"
+        },
+        {
+          "id": "d",
+          "text": "übersetzen (hat übersetzt): das Wörterbuch, die Wörterbücher"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**übersetzen (hat übersetzt): das Wörterbuch, die Wörterbücher** = to translate: dictionary\n\n*Example:* Anna übersetzt den Brief vom Vermieter mit einem Wörterbuch.\nAnna is translating the letter from the landlord with a dictionary."
+    },
+    {
+      "id": "tb1-u14-l10-education-language-learning-5-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Ich mache noch viele Fehler, aber meine Lehrerin korrigiert sie geduldig.",
+      "tiles": [
+        "patiently",
+        "a",
+        "but",
+        "evening",
+        "still",
+        "day",
+        "make",
+        "mistakes",
+        "teacher",
+        "them",
+        "I",
+        "my",
+        "of",
+        "by",
+        "lot",
+        "corrects"
+      ],
+      "answers": [
+        "I still make a lot of mistakes, but my teacher corrects them patiently."
+      ],
+      "explanation": "**der Fehler** = mistake: to make / correct mistakes\n*Plural: die Fehler: Fehler machen / korrigieren*"
+    },
+    {
+      "id": "tb1-u14-l10-education-language-learning-5-ex09",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Anna is translating the letter from the landlord with a dictionary.",
+      "tiles": [
+        "mache",
+        "teilgenommen",
+        "Wörterbuch",
+        "Brief",
+        "Anna",
+        "einem",
+        "übersetzt",
+        "aber",
+        "den",
+        "vom",
+        "Vermieter",
+        "mit"
+      ],
+      "answers": [
+        "Anna übersetzt den Brief vom Vermieter mit einem Wörterbuch."
+      ],
+      "explanation": "**übersetzen (hat übersetzt): das Wörterbuch, die Wörterbücher** = to translate: dictionary"
+    }
+  ]
+}

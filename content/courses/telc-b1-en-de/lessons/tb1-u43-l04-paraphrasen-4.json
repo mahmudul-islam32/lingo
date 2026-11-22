@@ -1,0 +1,275 @@
+{
+  "id": "tb1-u43-l04-paraphrasen-4",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u43",
+  "title": "Paraphrases 4",
+  "tip": "Text and task use different words for the same thing.",
+  "exercises": [
+    {
+      "id": "tb1-u43-l04-paraphrasen-4-ex01",
+      "type": "explain",
+      "title": "Paraphrases 4: the text says it differently",
+      "body": "*Die Aufgabe sagt es anders als der Text.* In the reading tasks the answer rarely repeats the words of the text. Learn these pairs: left the word in the text, right how the task says it.\n\n- **vermeiden** → verhindern, etwas nicht tun\n- **kündigen** → die Stelle oder den Vertrag beenden\n- **die Betreuung** → auf jemanden aufpassen\n- **die Nachfrage ist groß** → viele Menschen wollen es\n- **ausgebucht** → voll, kein Platz mehr frei\n- **regelmäßig** → immer wieder, oft\n- **die Umfrage** → viele Leute nach ihrer Meinung fragen\n- **freiwillig** → ohne Zwang, weil man will\n- **der Rentner** → jemand, der nicht mehr arbeitet\n- **in der Nähe** → nicht weit weg"
+    },
+    {
+      "id": "tb1-u43-l04-paraphrasen-4-ex02",
+      "type": "choice",
+      "title": "Paraphrasen-Drill",
+      "prompt": "Im Text steht „vermeiden“. Wie sagt es die Aufgabe mit einfachen Worten?",
+      "options": [
+        {
+          "id": "a",
+          "text": "viele Menschen wollen es"
+        },
+        {
+          "id": "b",
+          "text": "verhindern, etwas nicht tun"
+        },
+        {
+          "id": "c",
+          "text": "ohne Zwang, weil man will"
+        },
+        {
+          "id": "d",
+          "text": "immer wieder, oft"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Im Text: **vermeiden** = in der Aufgabe: **verhindern, etwas nicht tun**"
+    },
+    {
+      "id": "tb1-u43-l04-paraphrasen-4-ex03",
+      "type": "choice",
+      "title": "Paraphrasen-Drill",
+      "prompt": "In der Aufgabe steht „die Stelle oder den Vertrag beenden“. Welches Wort steht im Text?",
+      "options": [
+        {
+          "id": "a",
+          "text": "kündigen"
+        },
+        {
+          "id": "b",
+          "text": "in der Nähe"
+        },
+        {
+          "id": "c",
+          "text": "vermeiden"
+        },
+        {
+          "id": "d",
+          "text": "die Umfrage"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Im Text: **kündigen** = in der Aufgabe: **die Stelle oder den Vertrag beenden**"
+    },
+    {
+      "id": "tb1-u43-l04-paraphrasen-4-ex04",
+      "type": "choice",
+      "title": "Paraphrasen-Drill",
+      "prompt": "Im Text steht „die Betreuung“. Wie sagt es die Aufgabe mit einfachen Worten?",
+      "options": [
+        {
+          "id": "a",
+          "text": "immer wieder, oft"
+        },
+        {
+          "id": "b",
+          "text": "jemand, der nicht mehr arbeitet"
+        },
+        {
+          "id": "c",
+          "text": "nicht weit weg"
+        },
+        {
+          "id": "d",
+          "text": "auf jemanden aufpassen"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Im Text: **die Betreuung** = in der Aufgabe: **auf jemanden aufpassen**"
+    },
+    {
+      "id": "tb1-u43-l04-paraphrasen-4-ex05",
+      "type": "choice",
+      "title": "Paraphrasen-Drill",
+      "prompt": "In der Aufgabe steht „viele Menschen wollen es“. Welches Wort steht im Text?",
+      "options": [
+        {
+          "id": "a",
+          "text": "freiwillig"
+        },
+        {
+          "id": "b",
+          "text": "die Umfrage"
+        },
+        {
+          "id": "c",
+          "text": "die Nachfrage ist groß"
+        },
+        {
+          "id": "d",
+          "text": "die Betreuung"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Im Text: **die Nachfrage ist groß** = in der Aufgabe: **viele Menschen wollen es**"
+    },
+    {
+      "id": "tb1-u43-l04-paraphrasen-4-ex06",
+      "type": "choice",
+      "title": "Paraphrasen-Drill",
+      "prompt": "Im Text steht „ausgebucht“. Wie sagt es die Aufgabe mit einfachen Worten?",
+      "options": [
+        {
+          "id": "a",
+          "text": "nicht weit weg"
+        },
+        {
+          "id": "b",
+          "text": "voll, kein Platz mehr frei"
+        },
+        {
+          "id": "c",
+          "text": "immer wieder, oft"
+        },
+        {
+          "id": "d",
+          "text": "viele Leute nach ihrer Meinung fragen"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Im Text: **ausgebucht** = in der Aufgabe: **voll, kein Platz mehr frei**"
+    },
+    {
+      "id": "tb1-u43-l04-paraphrasen-4-ex07",
+      "type": "choice",
+      "title": "Paraphrasen-Drill",
+      "prompt": "In der Aufgabe steht „immer wieder, oft“. Welches Wort steht im Text?",
+      "options": [
+        {
+          "id": "a",
+          "text": "regelmäßig"
+        },
+        {
+          "id": "b",
+          "text": "vermeiden"
+        },
+        {
+          "id": "c",
+          "text": "ausgebucht"
+        },
+        {
+          "id": "d",
+          "text": "der Rentner"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Im Text: **regelmäßig** = in der Aufgabe: **immer wieder, oft**"
+    },
+    {
+      "id": "tb1-u43-l04-paraphrasen-4-ex08",
+      "type": "choice",
+      "title": "Paraphrasen-Drill",
+      "prompt": "Im Text steht „die Umfrage“. Wie sagt es die Aufgabe mit einfachen Worten?",
+      "options": [
+        {
+          "id": "a",
+          "text": "viele Menschen wollen es"
+        },
+        {
+          "id": "b",
+          "text": "verhindern, etwas nicht tun"
+        },
+        {
+          "id": "c",
+          "text": "voll, kein Platz mehr frei"
+        },
+        {
+          "id": "d",
+          "text": "viele Leute nach ihrer Meinung fragen"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Im Text: **die Umfrage** = in der Aufgabe: **viele Leute nach ihrer Meinung fragen**"
+    },
+    {
+      "id": "tb1-u43-l04-paraphrasen-4-ex09",
+      "type": "choice",
+      "title": "Paraphrasen-Drill",
+      "prompt": "In der Aufgabe steht „ohne Zwang, weil man will“. Welches Wort steht im Text?",
+      "options": [
+        {
+          "id": "a",
+          "text": "in der Nähe"
+        },
+        {
+          "id": "b",
+          "text": "die Umfrage"
+        },
+        {
+          "id": "c",
+          "text": "freiwillig"
+        },
+        {
+          "id": "d",
+          "text": "der Rentner"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Im Text: **freiwillig** = in der Aufgabe: **ohne Zwang, weil man will**"
+    },
+    {
+      "id": "tb1-u43-l04-paraphrasen-4-ex10",
+      "type": "choice",
+      "title": "Paraphrasen-Drill",
+      "prompt": "Im Text steht „der Rentner“. Wie sagt es die Aufgabe mit einfachen Worten?",
+      "options": [
+        {
+          "id": "a",
+          "text": "ohne Zwang, weil man will"
+        },
+        {
+          "id": "b",
+          "text": "jemand, der nicht mehr arbeitet"
+        },
+        {
+          "id": "c",
+          "text": "viele Leute nach ihrer Meinung fragen"
+        },
+        {
+          "id": "d",
+          "text": "immer wieder, oft"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Im Text: **der Rentner** = in der Aufgabe: **jemand, der nicht mehr arbeitet**"
+    },
+    {
+      "id": "tb1-u43-l04-paraphrasen-4-ex11",
+      "type": "choice",
+      "title": "Paraphrasen-Drill",
+      "prompt": "In der Aufgabe steht „nicht weit weg“. Welches Wort steht im Text?",
+      "options": [
+        {
+          "id": "a",
+          "text": "in der Nähe"
+        },
+        {
+          "id": "b",
+          "text": "freiwillig"
+        },
+        {
+          "id": "c",
+          "text": "der Rentner"
+        },
+        {
+          "id": "d",
+          "text": "vermeiden"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Im Text: **in der Nähe** = in der Aufgabe: **nicht weit weg**"
+    }
+  ]
+}

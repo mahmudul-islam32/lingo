@@ -46,8 +46,9 @@ test.describe("onboarding (PLT-004)", () => {
     await expect(page.getByText("Step 2 of 4")).toBeVisible();
     const german = page.getByRole("radio", { name: "German" });
     await expect(german).toBeVisible(); // course data loaded
-    // PLT-024 AC 1, 2: German is the only course, preselected; Spanish isn't offered.
-    await expect(page.getByRole("radio")).toHaveCount(1);
+    // PLT-024 AC 1, 2 / TELC-001: German, telc B1 and Einbürgerungstest are offered;
+    // German is preselected; Spanish isn't offered.
+    await expect(page.getByRole("radio")).toHaveCount(3);
     await expect(german).toHaveAttribute("aria-checked", "true");
     await expect(page.getByText("Spanish")).toHaveCount(0);
     // Back comes before the heading; Shift+Tab reaches it, Tab goes on to the option.

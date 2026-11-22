@@ -62,7 +62,8 @@ test.describe("German course (PLT-024)", () => {
     await expect(h1(page)).toHaveText("What do you want to learn?");
     const group = page.getByRole("radiogroup", { name: "What do you want to learn?" });
     const german = group.getByRole("radio", { name: "German" });
-    await expect(group.getByRole("radio")).toHaveCount(1);
+    // TELC-001: German plus the two exam courses; German stays preselected.
+    await expect(group.getByRole("radio")).toHaveCount(3);
     await expect(german).toHaveAccessibleDescription("for English speakers");
     await expect(german).toHaveAttribute("aria-checked", "true");
     await expect(page.getByText("Spanish")).toHaveCount(0);

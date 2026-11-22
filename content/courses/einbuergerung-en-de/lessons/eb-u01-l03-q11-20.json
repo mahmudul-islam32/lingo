@@ -1,0 +1,269 @@
+{
+  "id": "eb-u01-l03-q11-20",
+  "courseId": "einbuergerung-en-de",
+  "unitId": "eb-u01",
+  "title": "Questions 11–20 (Fragen 11–20)",
+  "tip": "After each Check you get an English explanation and a short German note (Auf Deutsch).",
+  "exercises": [
+    {
+      "id": "eb-u01-l03-q11-20-ex01",
+      "type": "choice",
+      "title": "Frage 11 · Block 1",
+      "prompt": "Wie wird die Verfassung der Bundesrepublik Deutschland genannt?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Grundgesetz"
+        },
+        {
+          "id": "b",
+          "text": "Bundesverfassung"
+        },
+        {
+          "id": "c",
+          "text": "Gesetzbuch"
+        },
+        {
+          "id": "d",
+          "text": "Verfassungsvertrag"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Correct answer:** Grundgesetz\n\n→Q6, same fact, different angle. BAMF double-tests the constitution's name. \"Bundesverfassung\" sounds plausible (Switzerland and Austria use similar terms) but is wrong for Germany; a *Gesetzbuch* is a legal code like the BGB; a *Verfassungsvertrag* echoes the failed 2004 EU constitutional treaty. Free point if you've learned Q6.\n\n## Auf Deutsch\n\nDie Verfassung der Bundesrepublik heißt Grundgesetz."
+    },
+    {
+      "id": "eb-u01-l03-q11-20-ex02",
+      "type": "choice",
+      "title": "Frage 12 · Block 1",
+      "prompt": "Eine Partei im Deutschen Bundestag will die Pressefreiheit abschaffen. Ist das möglich?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ja, wenn mehr als die Hälfte der Abgeordneten dafür stimmen"
+        },
+        {
+          "id": "b",
+          "text": "Ja, aber dazu müssen zwei Drittel der Abgeordneten dafür stimmen"
+        },
+        {
+          "id": "c",
+          "text": "Nein, denn die Pressefreiheit ist ein Grundrecht, das nicht abgeschafft werden kann"
+        },
+        {
+          "id": "d",
+          "text": "Nein, denn nur der Bundesrat kann die Pressefreiheit abschaffen"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**Correct answer:** Nein, denn die Pressefreiheit ist ein Grundrecht, das nicht abgeschafft werden kann\n\nThis tests the **Ewigkeitsklausel** (eternity clause, Art. 79(3) GG): the core of Art. 1 and Art. 20, dignity, democracy, Rechtsstaat, federalism, and the essence of fundamental rights like press freedom, can never be abolished, *not even by unanimous vote*. The Weimar Republic died partly because its constitution could be hollowed out legally; the Grundgesetz was built to make that impossible.\n\nA is how ordinary laws pass; B is how normal constitutional amendments pass (2/3 in Bundestag AND Bundesrat), but the eternity clause is beyond even that; D misunderstands the Bundesrat, which amends nothing alone. **This concept, wehrhafte Demokratie, a democracy that defends itself, is central to your Loyalitätserklärung interview.**\n\n## Auf Deutsch\n\nGrundrechte wie die Pressefreiheit kann kein Parlament abschaffen (Ewigkeitsklausel)."
+    },
+    {
+      "id": "eb-u01-l03-q11-20-ex03",
+      "type": "choice",
+      "title": "Frage 13 · Block 1",
+      "prompt": "Im Parlament steht der Begriff „Opposition\" für …",
+      "options": [
+        {
+          "id": "a",
+          "text": "die regierenden Parteien"
+        },
+        {
+          "id": "b",
+          "text": "alle Abgeordneten, die nicht zu der Regierungspartei/den Regierungsparteien gehören"
+        },
+        {
+          "id": "c",
+          "text": "die Fraktion mit den meisten Abgeordneten"
+        },
+        {
+          "id": "d",
+          "text": "alle Parteien, die bei der letzten Wahl die 5%-Hürde erreichen konnten"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Correct answer:** alle Abgeordneten, die nicht zu der Regierungspartei/den Regierungsparteien gehören\n\nThe opposition = every MP outside the governing coalition. Its constitutional job: scrutinize, criticize, and offer the alternative government-in-waiting (→Q88).\n\nA is the definition's opposite. C fails because the largest Fraktion is usually *in* government, but needn't be (in 2021–25 the largest group, CDU/CSU, sat in opposition; since 2025 the second-largest does ⏰). D includes governing parties, so it can't define the opposition.\n\n## Auf Deutsch\n\nOpposition = alle Abgeordneten, die nicht zur Regierung gehören; sie kontrolliert die Regierung."
+    },
+    {
+      "id": "eb-u01-l03-q11-20-ex04",
+      "type": "choice",
+      "title": "Frage 14 · Block 1",
+      "prompt": "Meinungsfreiheit in Deutschland heißt zum Beispiel, dass ich …",
+      "options": [
+        {
+          "id": "a",
+          "text": "auf der Straße Passanten beschimpfen darf"
+        },
+        {
+          "id": "b",
+          "text": "meine Meinung in Leserbriefen oder im Internet äußern kann"
+        },
+        {
+          "id": "c",
+          "text": "Nazi-, Hamas- oder IS-Symbole öffentlich tragen darf"
+        },
+        {
+          "id": "d",
+          "text": "meine Meinung nur äußern darf, solange ich der Regierung nicht widerspreche"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Correct answer:** meine Meinung in Leserbriefen oder im Internet äußern kann\n\nFree expression covers publishing your views, letters to the editor, social media, blogs.\n\nA: insulting people is **Beleidigung** (§185 StGB), a crime, rights end where they injure others. C: symbols of unconstitutional or banned terrorist organizations (swastika, and since the 2024 catalog update explicitly Hamas/IS emblems) are criminally prohibited (§86a StGB), *wehrhafte Demokratie* again. D inverts the whole point: contradicting the government is precisely what Art. 5 protects (→Q1). **Pattern worth learning:** opinions about *ideas, institutions, religions, governments* = protected; attacks on *individual people* or *banned-organization propaganda* = not.\n\n## Auf Deutsch\n\nMeinungsfreiheit: Meinung äußern ja. Beleidigungen und verbotene Symbole nein."
+    },
+    {
+      "id": "eb-u01-l03-q11-20-ex05",
+      "type": "choice",
+      "title": "Frage 15 · Block 1",
+      "prompt": "Was verbietet das deutsche Grundgesetz?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Militärdienst"
+        },
+        {
+          "id": "b",
+          "text": "Zwangsarbeit"
+        },
+        {
+          "id": "c",
+          "text": "freie Berufswahl"
+        },
+        {
+          "id": "d",
+          "text": "Arbeit im Ausland"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Correct answer:** Zwangsarbeit\n\nArt. 12 GG protects free choice of occupation and expressly bans **Zwangsarbeit** (forced labor), with narrow exceptions like community service imposed by a court sentence. The ban answers both Nazi forced labor and socialist work obligations.\n\nMilitary service (A) is constitutionally allowed (currently suspended conscription, voluntary service continues); free career choice (C) is a *protected right*, not a ban; working abroad (D) is simply your freedom.\n\n## Auf Deutsch\n\nZwangsarbeit ist durch das Grundgesetz (Art. 12) verboten."
+    },
+    {
+      "id": "eb-u01-l03-q11-20-ex06",
+      "type": "choice",
+      "title": "Frage 16 · Block 1",
+      "prompt": "Wann ist die Meinungsfreiheit in Deutschland eingeschränkt?",
+      "options": [
+        {
+          "id": "a",
+          "text": "bei der öffentlichen Verbreitung falscher Behauptungen über einzelne Personen"
+        },
+        {
+          "id": "b",
+          "text": "bei Meinungsäußerungen über die Bundesregierung"
+        },
+        {
+          "id": "c",
+          "text": "bei Diskussionen über Religionen"
+        },
+        {
+          "id": "d",
+          "text": "bei Kritik am Staat"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Correct answer:** bei der öffentlichen Verbreitung falscher Behauptungen über einzelne Personen\n\nThe classic limit: **üble Nachrede / Verleumdung** (defamation), spreading false factual claims about a person. Opinions are free; false *facts* that destroy reputations are not.\n\nB, C, D all describe protected speech, government, state, and religion may be criticized sharply. Same pattern as Q14: individuals are protected from you; institutions are not protected from your criticism.\n\n## Auf Deutsch\n\nGrenze der Meinungsfreiheit: falsche Behauptungen über Personen sind nicht geschützt."
+    },
+    {
+      "id": "eb-u01-l03-q11-20-ex07",
+      "type": "choice",
+      "title": "Frage 17 · Block 1",
+      "prompt": "Die deutschen Gesetze verbieten …",
+      "options": [
+        {
+          "id": "a",
+          "text": "Meinungsfreiheit der Einwohner und Einwohnerinnen"
+        },
+        {
+          "id": "b",
+          "text": "Petitionen der Bürger und Bürgerinnen"
+        },
+        {
+          "id": "c",
+          "text": "Versammlungsfreiheit der Einwohner und Einwohnerinnen"
+        },
+        {
+          "id": "d",
+          "text": "Ungleichbehandlung der Bürger und Bürgerinnen durch den Staat"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**Correct answer:** Ungleichbehandlung der Bürger und Bürgerinnen durch den Staat\n\nArt. 3 GG obliges the *state* to treat people equally, arbitrary unequal treatment by authorities is unlawful, and you can sue over it.\n\nA–C are all *guaranteed rights*, not prohibitions: Meinungsfreiheit (Art. 5), Petitionsrecht (Art. 17, the right to petition any authority and parliament), Versammlungsfreiheit (Art. 8, peaceful assembly). The question inverts polarity, read carefully: it asks what is *forbidden*.\n\n## Auf Deutsch\n\nDer Staat darf Bürger nicht ungleich behandeln (Art. 3 GG: Gleichheit)."
+    },
+    {
+      "id": "eb-u01-l03-q11-20-ex08",
+      "type": "choice",
+      "title": "Frage 18 · Block 1",
+      "prompt": "Welches Grundrecht ist in Artikel 1 des Grundgesetzes garantiert?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Unantastbarkeit der Menschenwürde"
+        },
+        {
+          "id": "b",
+          "text": "das Recht auf Leben"
+        },
+        {
+          "id": "c",
+          "text": "Religionsfreiheit"
+        },
+        {
+          "id": "d",
+          "text": "Meinungsfreiheit"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Correct answer:** die Unantastbarkeit der Menschenwürde\n\nArticle 1, sentence 1: *\"Die Würde des Menschen ist unantastbar.\"* Placed first deliberately, it is the answer to Auschwitz, the axiom from which all other rights derive, and it's protected by the eternity clause (→Q12).\n\nAll real rights, wrong addresses: life & bodily integrity = Art. 2, religion = Art. 4, expression = Art. 5. Learn the mini-map: **1 Würde, 2 Leben/Freiheit, 3 Gleichheit, 4 Glaube, 5 Meinung**, it decides several questions and impresses in the interview.\n\n## Auf Deutsch\n\nArtikel 1: „Die Würde des Menschen ist unantastbar“, die Basis von allem."
+    },
+    {
+      "id": "eb-u01-l03-q11-20-ex09",
+      "type": "choice",
+      "title": "Frage 19 · Block 1",
+      "prompt": "Was versteht man unter dem Recht der „Freizügigkeit\" in Deutschland?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Man darf sich seinen Wohnort selbst aussuchen"
+        },
+        {
+          "id": "b",
+          "text": "Man kann seinen Beruf wechseln"
+        },
+        {
+          "id": "c",
+          "text": "Man darf sich für eine andere Religion entscheiden"
+        },
+        {
+          "id": "d",
+          "text": "Man darf sich in der Öffentlichkeit nur leicht bekleidet bewegen"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Correct answer:** Man darf sich seinen Wohnort selbst aussuchen\n\n**Freizügigkeit** (Art. 11 GG) = the right to move and settle anywhere within the federal territory. Historically radical: no internal passports, no residence permission needed to move from Dortmund to Munich. (The DDR, by contrast, controlled where citizens lived, and shot those who tried to leave.)\n\nB is Berufsfreiheit (Art. 12), C is Religionsfreiheit (Art. 4), real rights, wrong names. D is a pun on \"freizügig\" (scantily clad), a deliberate joke distractor.\n\n## Auf Deutsch\n\nFreizügigkeit (Art. 11 GG) = freie Wahl des Wohnorts in ganz Deutschland.\n\n**Vocabulary (Wortschatz):** die Freizügigkeit = freedom of movement/residence."
+    },
+    {
+      "id": "eb-u01-l03-q11-20-ex10",
+      "type": "choice",
+      "title": "Frage 20 · Block 1",
+      "prompt": "Eine Partei in Deutschland verfolgt das Ziel, eine Diktatur zu errichten. Sie ist dann …",
+      "options": [
+        {
+          "id": "a",
+          "text": "tolerant"
+        },
+        {
+          "id": "b",
+          "text": "rechtsstaatlich orientiert"
+        },
+        {
+          "id": "c",
+          "text": "gesetzestreu"
+        },
+        {
+          "id": "d",
+          "text": "verfassungswidrig"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**Correct answer:** verfassungswidrig\n\nA party aiming at dictatorship is **verfassungswidrig** (unconstitutional). Under Art. 21(2) GG only the **Bundesverfassungsgericht** can ban it, not the government, precisely so that those in power can't eliminate inconvenient rivals by decree. Two historical bans: SRP (neo-Nazi, 1952) and KPD (communist, 1956).\n\nA–C describe law-abiding, rule-of-law behavior, the opposite of plotting dictatorship. Core concept again: **wehrhafte Demokratie**, democracy may defend itself against its enemies, but only through the constitutional court.\n\n## Auf Deutsch\n\nWer eine Diktatur errichten will, kämpft gegen die Verfassung → verfassungswidrig."
+    }
+  ]
+}

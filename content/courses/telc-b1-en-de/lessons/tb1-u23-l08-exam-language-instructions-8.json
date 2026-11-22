@@ -1,0 +1,282 @@
+{
+  "id": "tb1-u23-l08-exam-language-instructions-8",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u23",
+  "title": "Exam Language & Instructions 8",
+  "tip": "Theme: Prüfungssprache & Aufgaben (B1)",
+  "exercises": [
+    {
+      "id": "tb1-u23-l08-exam-language-instructions-8-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "die Dauer",
+          "known": "duration"
+        },
+        {
+          "id": "p2",
+          "learning": "die Vorbereitungszeit",
+          "known": "preparation time"
+        },
+        {
+          "id": "p3",
+          "learning": "das Ergebnis",
+          "known": "result"
+        },
+        {
+          "id": "p4",
+          "learning": "die Bewertung",
+          "known": "evaluation / grading"
+        },
+        {
+          "id": "p5",
+          "learning": "der Gesprächspartner",
+          "known": "conversation partner"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u23-l08-exam-language-instructions-8-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „duration“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Anzeige, die Anzeigen"
+        },
+        {
+          "id": "b",
+          "text": "die Dauer"
+        },
+        {
+          "id": "c",
+          "text": "die Nummer, die Nummern"
+        },
+        {
+          "id": "d",
+          "text": "die Abbildung, die Abbildungen"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**die Dauer** = duration\n\n*Example:* Die Dauer der Zugfahrt nach Berlin ist etwa vier Stunden.\nThe train journey to Berlin takes about four hours."
+    },
+    {
+      "id": "tb1-u23-l08-exam-language-instructions-8-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „preparation time“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "der Vorname, die Vornamen"
+        },
+        {
+          "id": "b",
+          "text": "die Vorbereitungszeit"
+        },
+        {
+          "id": "c",
+          "text": "das Ergebnis, die Ergebnisse"
+        },
+        {
+          "id": "d",
+          "text": "die Anrede, die Anreden"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**die Vorbereitungszeit** = preparation time\n\n*Example:* Vor dem Gespräch haben Sie zehn Minuten Vorbereitungszeit.\nYou have ten minutes of preparation time before the conversation."
+    },
+    {
+      "id": "tb1-u23-l08-exam-language-instructions-8-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Die Dauer der Zugfahrt nach Berlin ist etwa vier Stunden.",
+      "tiles": [
+        "four",
+        "The",
+        "name",
+        "journey",
+        "Berlin",
+        "to",
+        "train",
+        "and",
+        "of",
+        "takes",
+        "hours",
+        "about"
+      ],
+      "answers": [
+        "The train journey to Berlin takes about four hours."
+      ],
+      "explanation": "**die Dauer** = duration"
+    },
+    {
+      "id": "tb1-u23-l08-exam-language-instructions-8-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „result“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "der Schluss, die Schlüsse"
+        },
+        {
+          "id": "b",
+          "text": "die Aufgabenstellung, die Aufgabenstellungen"
+        },
+        {
+          "id": "c",
+          "text": "das Ergebnis, die Ergebnisse"
+        },
+        {
+          "id": "d",
+          "text": "die Vorbereitungszeit"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**das Ergebnis** = result\n*Plural: die Ergebnisse*\n\n*Example:* Der Arzt bespricht morgen das Ergebnis der Blutuntersuchung mit mir.\nThe doctor will discuss the result of the blood test with me tomorrow."
+    },
+    {
+      "id": "tb1-u23-l08-exam-language-instructions-8-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "You have ten minutes of preparation time before the conversation.",
+      "tiles": [
+        "zehn",
+        "Vor",
+        "Vorbereitungszeit",
+        "Minuten",
+        "Sie",
+        "haben",
+        "Besprechung",
+        "Kollege",
+        "Ihre",
+        "dem",
+        "Gespräch"
+      ],
+      "answers": [
+        "Vor dem Gespräch haben Sie zehn Minuten Vorbereitungszeit."
+      ],
+      "explanation": "**die Vorbereitungszeit** = preparation time"
+    },
+    {
+      "id": "tb1-u23-l08-exam-language-instructions-8-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „evaluation / grading“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "der Gruß, die Grüße"
+        },
+        {
+          "id": "b",
+          "text": "die Lücke, die Lücken"
+        },
+        {
+          "id": "c",
+          "text": "die Bewertung, die Bewertungen"
+        },
+        {
+          "id": "d",
+          "text": "die Aussage, die Aussagen"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**die Bewertung** = evaluation / grading\n*Plural: die Bewertungen*\n\n*Example:* Das Hotel hat im Internet sehr gute Bewertungen.\nThe hotel has very good reviews online."
+    },
+    {
+      "id": "tb1-u23-l08-exam-language-instructions-8-ex08",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u23-l08-exam-language-instructions-8-3.mp3"
+      },
+      "tiles": [
+        "das",
+        "mit",
+        "Der",
+        "morgen",
+        "neun",
+        "bespricht",
+        "der",
+        "war",
+        "sehr",
+        "Ergebnis",
+        "mir",
+        "Blutuntersuchung",
+        "Arzt"
+      ],
+      "answers": [
+        "Der Arzt bespricht morgen das Ergebnis der Blutuntersuchung mit mir."
+      ],
+      "explanation": "Der Arzt bespricht morgen das Ergebnis der Blutuntersuchung mit mir.\n*The doctor will discuss the result of the blood test with me tomorrow.*\n\n**das Ergebnis** = result\n*Plural: die Ergebnisse*"
+    },
+    {
+      "id": "tb1-u23-l08-exam-language-instructions-8-ex09",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „conversation partner“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "der Gesprächspartner, die Gesprächspartner"
+        },
+        {
+          "id": "b",
+          "text": "die Bewertung, die Bewertungen"
+        },
+        {
+          "id": "c",
+          "text": "die Notiz, die Notizen"
+        },
+        {
+          "id": "d",
+          "text": "die Grafik, die Grafiken"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**der Gesprächspartner** = conversation partner\n*Plural: die Gesprächspartner*\n\n*Example:* Mein Gesprächspartner am Telefon war sehr freundlich.\nThe person I spoke to on the phone was very friendly."
+    },
+    {
+      "id": "tb1-u23-l08-exam-language-instructions-8-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Das Hotel hat im Internet sehr gute Bewertungen.",
+      "tiles": [
+        "The",
+        "red",
+        "very",
+        "has",
+        "first",
+        "reviews",
+        "good",
+        "Please",
+        "online",
+        "hotel"
+      ],
+      "answers": [
+        "The hotel has very good reviews online."
+      ],
+      "explanation": "**die Bewertung** = evaluation / grading\n*Plural: die Bewertungen*"
+    },
+    {
+      "id": "tb1-u23-l08-exam-language-instructions-8-ex11",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "The person I spoke to on the phone was very friendly.",
+      "tiles": [
+        "Gesprächspartner",
+        "das",
+        "war",
+        "freundlich",
+        "Bitte",
+        "sehr",
+        "Mein",
+        "Team",
+        "am",
+        "Telefon"
+      ],
+      "answers": [
+        "Mein Gesprächspartner am Telefon war sehr freundlich."
+      ],
+      "explanation": "**der Gesprächspartner** = conversation partner\n*Plural: die Gesprächspartner*"
+    }
+  ]
+}

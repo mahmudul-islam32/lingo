@@ -1,0 +1,129 @@
+{
+  "id": "tb1-u31-l24-trennbar-rule",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u31",
+  "title": "Separable Verbs: the rule",
+  "tip": "“Ich anrufe dich” is wrong, split it in main clauses: Ich rufe dich an. Do NOT split in subordinate clauses: …, weil ich dich anrufe.",
+  "exercises": [
+    {
+      "id": "tb1-u31-l24-trennbar-rule-ex01",
+      "type": "explain",
+      "title": "Separable Verbs",
+      "body": "an|rufen, auf|stehen, ein|laden, mit|bringen … Main clause: prefix **to the end** (Ich rufe dich an). Subordinate clause: verb stays **together** (…, weil ich dich anrufe). Participle: an**ge**rufen. Inseparable: be-, ver-, er-, ent-, emp-, ge-, zer-.\n\n*Deutsch:* an|rufen, auf|stehen, ein|laden, mit|bringen … Hauptsatz: Präfix **ans Ende** (Ich rufe dich an). Nebensatz: Verb bleibt **zusammen** (…, weil ich dich anrufe). Partizip: an**ge**rufen. Untrennbar: be-, ver-, er-, ent-, emp-, ge-, zer-.\n\n*German name:* Trennbare Verben",
+      "examples": [
+        {
+          "learning": "Ich lade dich zu meiner Party ein.",
+          "known": "I invite you to my party."
+        },
+        {
+          "learning": "Er steht jeden Tag um 6 Uhr auf.",
+          "known": "He gets up at 6 every day."
+        },
+        {
+          "learning": "Ich hole dich um 8 Uhr vom Bahnhof ab.",
+          "known": "I'll pick you up from the station at 8. (letter plan!)"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u31-l24-trennbar-rule-ex02",
+      "type": "explain",
+      "title": "Separable Verbs: step by step",
+      "body": "The 4 situations:\n1) **Main clause present/past**: prefix to the end → Ich **stehe** um 6 Uhr **auf**.\n2) **Subordinate clause**: one word at the end → …, weil ich um 6 Uhr **aufstehe**.\n3) **Perfekt**: ge goes inside → auf**ge**standen, an**ge**rufen.\n4) **With zu**: zu goes inside → Ich habe vergessen, dich an**zu**rufen.\nStress trick: separable prefixes are stressed (AN-rufen), inseparable ones aren't (be-SU-chen).\nExam top 10: anrufen, aufstehen, einladen, mitbringen, abholen, ankommen, aufhören, einkaufen, vorbereiten, stattfinden.\n\n## Auf Deutsch\n\nDie 4 Situationen:\n1) **Hauptsatz Präsens/Präteritum**: Präfix ans Ende → Ich **stehe** um 6 Uhr **auf**.\n2) **Nebensatz**: ein Wort am Ende → …, weil ich um 6 Uhr **aufstehe**.\n3) **Perfekt**: ge in die Mitte → auf**ge**standen, an**ge**rufen.\n4) **Mit zu**: zu in die Mitte → Ich habe vergessen, dich an**zu**rufen.\nBetonungs-Trick: Trennbare Präfixe sind betont (AN-rufen), untrennbare nicht (be-SU-chen).\nPrüfungs-Top-10: anrufen, aufstehen, einladen, mitbringen, abholen, ankommen, aufhören, einkaufen, vorbereiten (vor|bereiten), stattfinden.",
+      "examples": [
+        {
+          "learning": "Ich lade dich zu meiner Party ein.",
+          "known": "I invite you to my party."
+        },
+        {
+          "learning": "Er steht jeden Tag um 6 Uhr auf.",
+          "known": "He gets up at 6 every day."
+        },
+        {
+          "learning": "Ich hole dich um 8 Uhr vom Bahnhof ab.",
+          "known": "I'll pick you up from the station at 8. (letter plan!)"
+        },
+        {
+          "learning": "Der Kurs findet am Montag statt.",
+          "known": "The course takes place on Monday."
+        },
+        {
+          "learning": "Testlücke-Stil: „Bring bitte einen Salat ___!“ → mit",
+          "known": "imperative of mitbringen → prefix at the end"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u31-l24-trennbar-rule-ex03",
+      "type": "explain",
+      "title": "Watch out & exam tip",
+      "body": "## Common trap\n\n“Ich anrufe dich” is wrong, split it in main clauses: Ich rufe dich an. Do NOT split in subordinate clauses: …, weil ich dich anrufe.\n\n*Deutsch:* „Ich anrufe dich“ ist falsch, im Hauptsatz trennen: Ich rufe dich an. Im Nebensatz NICHT trennen: …, weil ich dich anrufe.\n\n## In the exam\n\n🎯 How telc tests it: letter standards: “Ich lade dich ein”, “Ich hole dich ab”, “Der Kurs findet statt”. **Sprachbausteine part 2** often makes the prefix its own gap at the sentence end (…rufe dich morgen ___ → an).\n\n*Deutsch:* 🎯 So testet telc das: Brief-Standard: „Ich lade dich ein“, „Ich hole dich ab“, „Der Kurs findet statt“. **Sprachbausteine Teil 2** hat oft das Präfix als eigene Lücke am Satzende (…rufe dich morgen ___ → an).\n\n*Source:* Writing-Mastery Kap. 6"
+    },
+    {
+      "id": "tb1-u31-l24-trennbar-rule-ex04",
+      "type": "choice",
+      "title": "Fill the gap",
+      "prompt": "Ich ___ dich heute Abend ___. (anrufen)",
+      "options": [
+        {
+          "id": "a",
+          "text": "anrufe … -"
+        },
+        {
+          "id": "b",
+          "text": "rufe … an"
+        },
+        {
+          "id": "c",
+          "text": "rufe … anrufen"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Hauptsatz: Präfix ans Ende → Ich rufe dich … an."
+    },
+    {
+      "id": "tb1-u31-l24-trennbar-rule-ex05",
+      "type": "choice",
+      "title": "Fill the gap",
+      "prompt": "…, weil er jeden Tag um 6 Uhr ___.",
+      "options": [
+        {
+          "id": "a",
+          "text": "auf steht"
+        },
+        {
+          "id": "b",
+          "text": "steht auf"
+        },
+        {
+          "id": "c",
+          "text": "aufsteht"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Im Nebensatz bleibt das trennbare Verb zusammen: … weil er aufsteht."
+    },
+    {
+      "id": "tb1-u31-l24-trennbar-rule-ex06",
+      "type": "choice",
+      "title": "Fill the gap",
+      "prompt": "Partizip von „einladen“: Ich habe dich ___.",
+      "options": [
+        {
+          "id": "a",
+          "text": "eingeladet"
+        },
+        {
+          "id": "b",
+          "text": "geeinladen"
+        },
+        {
+          "id": "c",
+          "text": "eingeladen"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "ge in der Mitte + starkes Partizip: ein-ge-laden."
+    }
+  ]
+}

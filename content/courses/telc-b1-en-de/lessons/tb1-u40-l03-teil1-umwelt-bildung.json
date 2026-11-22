@@ -1,0 +1,270 @@
+{
+  "id": "tb1-u40-l03-teil1-umwelt-bildung",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u40",
+  "title": "Headlines 3: Umwelt & Bildung",
+  "tip": "Match each text with one headline. Five headlines stay unused.",
+  "exercises": [
+    {
+      "id": "tb1-u40-l03-teil1-umwelt-bildung-ex01",
+      "type": "explain",
+      "title": "Teil 1 · Umwelt & Bildung: how to match headlines",
+      "body": "**5 texts · 10 headlines · 5 stay unused.** Each headline fits only one text.\n\n- Read all 10 headlines first and look for pairs: one headline says what the text says, its twin turns a detail around (the opposite, a wrong cause, an invented fact).\n- A headline that only repeats a word from the text (\"Bücher\", \"Radwege\") is often the trap: it recycles the word but changes the message.\n- Decide by the main message of the text, not by single words.\n\nIn this lesson the headlines are always listed in the same order (A–J), like the answer sheet. Remember which ones you have already used."
+    },
+    {
+      "id": "tb1-u40-l03-teil1-umwelt-bildung-ex02",
+      "type": "choice",
+      "title": "Text 1 · Umwelt & Bildung",
+      "passage": "Wegen der hohen Benzinpreise nutzen mehr Menschen Bus und Bahn für den Weg zur Arbeit.",
+      "prompt": "Welche Überschrift passt zu Text 1?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Großeltern helfen oft bei der Kinderbetreuung"
+        },
+        {
+          "id": "b",
+          "text": "Eltern lehnen die Hilfe der Großeltern ab"
+        },
+        {
+          "id": "c",
+          "text": "Niedrige Benzinpreise: alle fahren wieder Auto"
+        },
+        {
+          "id": "d",
+          "text": "Kostenlose Deutschkurse an der Volkshochschule"
+        },
+        {
+          "id": "e",
+          "text": "Schule verkauft neue Handys mit Gewinn"
+        },
+        {
+          "id": "f",
+          "text": "Volkshochschule schließt wegen zu weniger Anmeldungen"
+        },
+        {
+          "id": "g",
+          "text": "Schule sammelt alte Handys für den Umweltschutz"
+        },
+        {
+          "id": "h",
+          "text": "Hohe Benzinpreise: mehr Menschen fahren mit Bus und Bahn"
+        },
+        {
+          "id": "i",
+          "text": "Supermarkt verkauft Gemüse mit kleinen Fehlern günstiger"
+        },
+        {
+          "id": "j",
+          "text": "Supermarkt wirft Gemüse mit Fehlern einfach weg"
+        }
+      ],
+      "correctOptionId": "h",
+      "explanation": "**Answer: H** „Hohe Benzinpreise: mehr Menschen fahren mit Bus und Bahn“\n\nText 1: teures Benzin → mehr Bus/Bahn (Falle C dreht es um)."
+    },
+    {
+      "id": "tb1-u40-l03-teil1-umwelt-bildung-ex03",
+      "type": "choice",
+      "title": "Text 2 · Umwelt & Bildung",
+      "passage": "Eine Schule in Köln sammelt alte Handys, um sie zu recyceln und so die Umwelt zu schützen.",
+      "prompt": "Welche Überschrift passt zu Text 2?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Großeltern helfen oft bei der Kinderbetreuung"
+        },
+        {
+          "id": "b",
+          "text": "Eltern lehnen die Hilfe der Großeltern ab"
+        },
+        {
+          "id": "c",
+          "text": "Niedrige Benzinpreise: alle fahren wieder Auto"
+        },
+        {
+          "id": "d",
+          "text": "Kostenlose Deutschkurse an der Volkshochschule"
+        },
+        {
+          "id": "e",
+          "text": "Schule verkauft neue Handys mit Gewinn"
+        },
+        {
+          "id": "f",
+          "text": "Volkshochschule schließt wegen zu weniger Anmeldungen"
+        },
+        {
+          "id": "g",
+          "text": "Schule sammelt alte Handys für den Umweltschutz"
+        },
+        {
+          "id": "h",
+          "text": "Hohe Benzinpreise: mehr Menschen fahren mit Bus und Bahn"
+        },
+        {
+          "id": "i",
+          "text": "Supermarkt verkauft Gemüse mit kleinen Fehlern günstiger"
+        },
+        {
+          "id": "j",
+          "text": "Supermarkt wirft Gemüse mit Fehlern einfach weg"
+        }
+      ],
+      "correctOptionId": "g",
+      "explanation": "**Answer: G** „Schule sammelt alte Handys für den Umweltschutz“\n\nText 2: Handys sammeln zum Recyceln; Falle E sagt „verkauft neue Handys“."
+    },
+    {
+      "id": "tb1-u40-l03-teil1-umwelt-bildung-ex04",
+      "type": "choice",
+      "title": "Text 3 · Umwelt & Bildung",
+      "passage": "Immer mehr Großeltern betreuen ihre Enkelkinder, weil die Eltern berufstätig sind.",
+      "prompt": "Welche Überschrift passt zu Text 3?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Großeltern helfen oft bei der Kinderbetreuung"
+        },
+        {
+          "id": "b",
+          "text": "Eltern lehnen die Hilfe der Großeltern ab"
+        },
+        {
+          "id": "c",
+          "text": "Niedrige Benzinpreise: alle fahren wieder Auto"
+        },
+        {
+          "id": "d",
+          "text": "Kostenlose Deutschkurse an der Volkshochschule"
+        },
+        {
+          "id": "e",
+          "text": "Schule verkauft neue Handys mit Gewinn"
+        },
+        {
+          "id": "f",
+          "text": "Volkshochschule schließt wegen zu weniger Anmeldungen"
+        },
+        {
+          "id": "g",
+          "text": "Schule sammelt alte Handys für den Umweltschutz"
+        },
+        {
+          "id": "h",
+          "text": "Hohe Benzinpreise: mehr Menschen fahren mit Bus und Bahn"
+        },
+        {
+          "id": "i",
+          "text": "Supermarkt verkauft Gemüse mit kleinen Fehlern günstiger"
+        },
+        {
+          "id": "j",
+          "text": "Supermarkt wirft Gemüse mit Fehlern einfach weg"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Answer: A** „Großeltern helfen oft bei der Kinderbetreuung“\n\nText 3: Großeltern betreuen die Enkel. Falle B sagt „lehnen ab“."
+    },
+    {
+      "id": "tb1-u40-l03-teil1-umwelt-bildung-ex05",
+      "type": "choice",
+      "title": "Text 4 · Umwelt & Bildung",
+      "passage": "Die Volkshochschule bietet ab Herbst kostenlose Deutschkurse für Anfänger an.",
+      "prompt": "Welche Überschrift passt zu Text 4?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Großeltern helfen oft bei der Kinderbetreuung"
+        },
+        {
+          "id": "b",
+          "text": "Eltern lehnen die Hilfe der Großeltern ab"
+        },
+        {
+          "id": "c",
+          "text": "Niedrige Benzinpreise: alle fahren wieder Auto"
+        },
+        {
+          "id": "d",
+          "text": "Kostenlose Deutschkurse an der Volkshochschule"
+        },
+        {
+          "id": "e",
+          "text": "Schule verkauft neue Handys mit Gewinn"
+        },
+        {
+          "id": "f",
+          "text": "Volkshochschule schließt wegen zu weniger Anmeldungen"
+        },
+        {
+          "id": "g",
+          "text": "Schule sammelt alte Handys für den Umweltschutz"
+        },
+        {
+          "id": "h",
+          "text": "Hohe Benzinpreise: mehr Menschen fahren mit Bus und Bahn"
+        },
+        {
+          "id": "i",
+          "text": "Supermarkt verkauft Gemüse mit kleinen Fehlern günstiger"
+        },
+        {
+          "id": "j",
+          "text": "Supermarkt wirft Gemüse mit Fehlern einfach weg"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**Answer: D** „Kostenlose Deutschkurse an der Volkshochschule“\n\nText 4: kostenlose Kurse; Falle F spricht von Schließung."
+    },
+    {
+      "id": "tb1-u40-l03-teil1-umwelt-bildung-ex06",
+      "type": "choice",
+      "title": "Text 5 · Umwelt & Bildung",
+      "passage": "Ein Supermarkt verkauft Obst und Gemüse mit kleinen Fehlern billiger, um weniger wegwerfen zu müssen.",
+      "prompt": "Welche Überschrift passt zu Text 5?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Großeltern helfen oft bei der Kinderbetreuung"
+        },
+        {
+          "id": "b",
+          "text": "Eltern lehnen die Hilfe der Großeltern ab"
+        },
+        {
+          "id": "c",
+          "text": "Niedrige Benzinpreise: alle fahren wieder Auto"
+        },
+        {
+          "id": "d",
+          "text": "Kostenlose Deutschkurse an der Volkshochschule"
+        },
+        {
+          "id": "e",
+          "text": "Schule verkauft neue Handys mit Gewinn"
+        },
+        {
+          "id": "f",
+          "text": "Volkshochschule schließt wegen zu weniger Anmeldungen"
+        },
+        {
+          "id": "g",
+          "text": "Schule sammelt alte Handys für den Umweltschutz"
+        },
+        {
+          "id": "h",
+          "text": "Hohe Benzinpreise: mehr Menschen fahren mit Bus und Bahn"
+        },
+        {
+          "id": "i",
+          "text": "Supermarkt verkauft Gemüse mit kleinen Fehlern günstiger"
+        },
+        {
+          "id": "j",
+          "text": "Supermarkt wirft Gemüse mit Fehlern einfach weg"
+        }
+      ],
+      "correctOptionId": "i",
+      "explanation": "**Answer: I** „Supermarkt verkauft Gemüse mit kleinen Fehlern günstiger“\n\nText 5: „krummes“ Gemüse günstiger, gegen Verschwendung (Falle J: „wirft weg“)."
+    }
+  ]
+}

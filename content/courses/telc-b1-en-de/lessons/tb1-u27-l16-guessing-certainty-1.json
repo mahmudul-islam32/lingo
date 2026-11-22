@@ -1,0 +1,285 @@
+{
+  "id": "tb1-u27-l16-guessing-certainty-1",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u27",
+  "title": "Guessing & Certainty 1",
+  "tip": "Theme: Redemittel: Vermutung & Sicherheit (B1)",
+  "exercises": [
+    {
+      "id": "tb1-u27-l16-guessing-certainty-1-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "Vielleicht …",
+          "known": "Maybe …"
+        },
+        {
+          "id": "p2",
+          "learning": "Wahrscheinlich …",
+          "known": "Probably …"
+        },
+        {
+          "id": "p3",
+          "learning": "Es kann sein, dass …",
+          "known": "It may be that …"
+        },
+        {
+          "id": "p4",
+          "learning": "Ich vermute, dass …",
+          "known": "I suspect that …"
+        },
+        {
+          "id": "p5",
+          "learning": "Ich bin (mir) sicher, dass …",
+          "known": "I'm sure that …"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u27-l16-guessing-certainty-1-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which phrase means „Maybe …“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Vielleicht …"
+        },
+        {
+          "id": "b",
+          "text": "auf keinen Fall"
+        },
+        {
+          "id": "c",
+          "text": "Es kann sein, dass …"
+        },
+        {
+          "id": "d",
+          "text": "auf jeden Fall"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Vielleicht …** = Maybe …\n\n*Example:* Vielleicht besuchen wir am Wochenende meine Eltern.\nMaybe we'll visit my parents at the weekend."
+    },
+    {
+      "id": "tb1-u27-l16-guessing-certainty-1-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which phrase means „Probably …“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Es kann sein, dass …"
+        },
+        {
+          "id": "b",
+          "text": "auf keinen Fall"
+        },
+        {
+          "id": "c",
+          "text": "Wahrscheinlich …"
+        },
+        {
+          "id": "d",
+          "text": "möglicherweise …"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**Wahrscheinlich …** = Probably …\n\n*Example:* Wahrscheinlich ist Herr Müller schon in der Mittagspause.\nMr Müller is probably already on his lunch break."
+    },
+    {
+      "id": "tb1-u27-l16-guessing-certainty-1-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Maybe we'll visit my parents at the weekend.",
+      "tiles": [
+        "besuchen",
+        "Wochenende",
+        "Vielleicht",
+        "in",
+        "Es",
+        "Eltern",
+        "wir",
+        "Arbeit",
+        "meine",
+        "am"
+      ],
+      "answers": [
+        "Vielleicht besuchen wir am Wochenende meine Eltern."
+      ],
+      "explanation": "**Vielleicht …** = Maybe …"
+    },
+    {
+      "id": "tb1-u27-l16-guessing-certainty-1-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which phrase means „It may be that …“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Es kann sein, dass …"
+        },
+        {
+          "id": "b",
+          "text": "Vielleicht …"
+        },
+        {
+          "id": "c",
+          "text": "auf keinen Fall"
+        },
+        {
+          "id": "d",
+          "text": "Es könnte sein, dass …"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Es kann sein, dass …** = It may be that …\n\n*Example:* Es kann sein, dass der Paketbote erst morgen kommt.\nIt may be that the delivery man won't come until tomorrow."
+    },
+    {
+      "id": "tb1-u27-l16-guessing-certainty-1-ex06",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u27-l16-guessing-certainty-1-2.mp3"
+      },
+      "tiles": [
+        "Mittagspause",
+        "Müller",
+        "Herr",
+        "der",
+        "schon",
+        "Schnees",
+        "keinen",
+        "Wahrscheinlich",
+        "ist",
+        "erst",
+        "in"
+      ],
+      "answers": [
+        "Wahrscheinlich ist Herr Müller schon in der Mittagspause."
+      ],
+      "explanation": "Wahrscheinlich ist Herr Müller schon in der Mittagspause.\n*Mr Müller is probably already on his lunch break.*\n\n**Wahrscheinlich …** = Probably …"
+    },
+    {
+      "id": "tb1-u27-l16-guessing-certainty-1-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which phrase means „I suspect that …“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "auf jeden Fall"
+        },
+        {
+          "id": "b",
+          "text": "Ich vermute, dass …"
+        },
+        {
+          "id": "c",
+          "text": "möglicherweise …"
+        },
+        {
+          "id": "d",
+          "text": "Es kann sein, dass …"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Ich vermute, dass …** = I suspect that …\n\n*Example:* Ich vermute, dass das Kind Hunger hat.\nI suspect that the child is hungry."
+    },
+    {
+      "id": "tb1-u27-l16-guessing-certainty-1-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Es kann sein, dass der Paketbote erst morgen kommt.",
+      "tiles": [
+        "the",
+        "come",
+        "become",
+        "won't",
+        "delivery",
+        "that",
+        "man",
+        "Maybe",
+        "until",
+        "any",
+        "tomorrow",
+        "It",
+        "be",
+        "may"
+      ],
+      "answers": [
+        "It may be that the delivery man won't come until tomorrow."
+      ],
+      "explanation": "**Es kann sein, dass …** = It may be that …"
+    },
+    {
+      "id": "tb1-u27-l16-guessing-certainty-1-ex09",
+      "type": "multiple_choice",
+      "prompt": "Which phrase means „I'm sure that …“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ich könnte mir vorstellen, dass …"
+        },
+        {
+          "id": "b",
+          "text": "Wahrscheinlich …"
+        },
+        {
+          "id": "c",
+          "text": "Ich bin (mir) sicher, dass …"
+        },
+        {
+          "id": "d",
+          "text": "auf keinen Fall"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**Ich bin (mir) sicher, dass …** = I'm sure that …\n\n*Example:* Ich bin mir sicher, dass ich die Tür abgeschlossen habe.\nI'm sure that I locked the door."
+    },
+    {
+      "id": "tb1-u27-l16-guessing-certainty-1-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I suspect that the child is hungry.",
+      "tiles": [
+        "Hunger",
+        "keinen",
+        "der",
+        "dass",
+        "Mittagspause",
+        "Ich",
+        "vermute",
+        "Kind",
+        "hat",
+        "das"
+      ],
+      "answers": [
+        "Ich vermute, dass das Kind Hunger hat."
+      ],
+      "explanation": "**Ich vermute, dass …** = I suspect that …"
+    },
+    {
+      "id": "tb1-u27-l16-guessing-certainty-1-ex11",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u27-l16-guessing-certainty-1-5.mp3"
+      },
+      "tiles": [
+        "habe",
+        "abgeschlossen",
+        "am",
+        "zu",
+        "mir",
+        "die",
+        "dass",
+        "Tür",
+        "bin",
+        "deiner",
+        "ich",
+        "sicher",
+        "Ich"
+      ],
+      "answers": [
+        "Ich bin mir sicher, dass ich die Tür abgeschlossen habe."
+      ],
+      "explanation": "Ich bin mir sicher, dass ich die Tür abgeschlossen habe.\n*I'm sure that I locked the door.*\n\n**Ich bin (mir) sicher, dass …** = I'm sure that …"
+    }
+  ]
+}

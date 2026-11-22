@@ -1,0 +1,251 @@
+{
+  "id": "tb1-u18-l08-useful-phrases-3",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u18",
+  "title": "Useful Phrases 3",
+  "tip": "Theme: Redemittel (B1)",
+  "exercises": [
+    {
+      "id": "tb1-u18-l08-useful-phrases-3-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "Aus diesem Grund …",
+          "known": "For this reason …"
+        },
+        {
+          "id": "p2",
+          "learning": "Ein Beispiel dafür ist …",
+          "known": "An example of that is …"
+        },
+        {
+          "id": "p3",
+          "learning": "Soweit ich weiß, …",
+          "known": "As far as I know …"
+        },
+        {
+          "id": "p4",
+          "learning": "Aus meiner Sicht …",
+          "known": "From my point of view …"
+        },
+        {
+          "id": "p5",
+          "learning": "Ich halte das für eine gute Idee",
+          "known": "I consider that a good idea."
+        }
+      ]
+    },
+    {
+      "id": "tb1-u18-l08-useful-phrases-3-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which one means „For this reason …“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Am besten wäre es, wenn wir …"
+        },
+        {
+          "id": "b",
+          "text": "Ich halte das für eine gute Idee."
+        },
+        {
+          "id": "c",
+          "text": "Zuerst …, dann …, zum Schluss …"
+        },
+        {
+          "id": "d",
+          "text": "Aus diesem Grund … (+ verb next!)"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**Aus diesem Grund … (+ verb next!)** = For this reason …\n\n*Example:* Der Bus fährt nur selten. Aus diesem Grund fahre ich mit dem Fahrrad.\nThe bus runs only rarely. For this reason I go by bike."
+    },
+    {
+      "id": "tb1-u18-l08-useful-phrases-3-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which one means „That has the advantage / disadvantage that …“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Aus diesem Grund … (+ verb next!)"
+        },
+        {
+          "id": "b",
+          "text": "Das hat den Vorteil / den Nachteil, dass …"
+        },
+        {
+          "id": "c",
+          "text": "Ich halte das für eine gute Idee."
+        },
+        {
+          "id": "d",
+          "text": "Du solltest unbedingt …"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Das hat den Vorteil / den Nachteil, dass …** = That has the advantage / disadvantage that …\n\n*Example:* Homeoffice hat den Vorteil, dass man keine Zeit im Stau verliert.\nWorking from home has the advantage that you don't lose time in traffic jams."
+    },
+    {
+      "id": "tb1-u18-l08-useful-phrases-3-ex04",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u18-l08-useful-phrases-3-1.mp3"
+      },
+      "tiles": [
+        "Fahrrad",
+        "zum",
+        "Bus",
+        "nur",
+        "dem",
+        "mit",
+        "Der",
+        "selten",
+        "Grund",
+        "Aus",
+        "fahre",
+        "ich",
+        "fährt",
+        "Verspätung",
+        "diesem",
+        "besten"
+      ],
+      "answers": [
+        "Der Bus fährt nur selten. Aus diesem Grund fahre ich mit dem Fahrrad."
+      ],
+      "explanation": "Der Bus fährt nur selten. Aus diesem Grund fahre ich mit dem Fahrrad.\n*The bus runs only rarely. For this reason I go by bike.*\n\n**Aus diesem Grund … (+ verb next!)** = For this reason …"
+    },
+    {
+      "id": "tb1-u18-l08-useful-phrases-3-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which one means „An example of that is …“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Du solltest unbedingt …"
+        },
+        {
+          "id": "b",
+          "text": "Kurz gesagt: …"
+        },
+        {
+          "id": "c",
+          "text": "Ein Beispiel dafür ist …"
+        },
+        {
+          "id": "d",
+          "text": "Zusammenfassend kann man sagen, dass …"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**Ein Beispiel dafür ist …** = An example of that is …\n\n*Example:* Viele Menschen fahren mit dem Fahrrad. Ein Beispiel dafür ist mein Kollege Tom.\nMany people go by bike. One example of that is my colleague Tom."
+    },
+    {
+      "id": "tb1-u18-l08-useful-phrases-3-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Homeoffice hat den Vorteil, dass man keine Zeit im Stau verliert.",
+      "tiles": [
+        "that",
+        "you",
+        "jams",
+        "lose",
+        "the",
+        "has",
+        "from",
+        "balcony",
+        "Working",
+        "traffic",
+        "there",
+        "time",
+        "in",
+        "don't",
+        "advantage",
+        "is",
+        "home"
+      ],
+      "answers": [
+        "Working from home has the advantage that you don't lose time in traffic jams."
+      ],
+      "explanation": "**Das hat den Vorteil / den Nachteil, dass …** = That has the advantage / disadvantage that …"
+    },
+    {
+      "id": "tb1-u18-l08-useful-phrases-3-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which one means „As far as I know …“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Dazu kommt, dass …"
+        },
+        {
+          "id": "b",
+          "text": "Aus diesem Grund … (+ verb next!)"
+        },
+        {
+          "id": "c",
+          "text": "Soweit ich weiß, … (+ verb next!)"
+        },
+        {
+          "id": "d",
+          "text": "Zuerst …, dann …, zum Schluss …"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**Soweit ich weiß, … (+ verb next!)** = As far as I know …\n\n*Example:* Soweit ich weiß, ist das Bürgeramt am Freitag geschlossen.\nAs far as I know, the citizens' office is closed on Friday."
+    },
+    {
+      "id": "tb1-u18-l08-useful-phrases-3-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Many people go by bike. One example of that is my colleague Tom.",
+      "tiles": [
+        "Beispiel",
+        "kommen",
+        "Fahrrad",
+        "fahren",
+        "dafür",
+        "Viele",
+        "Tom",
+        "dem",
+        "ist",
+        "wir",
+        "Ein",
+        "Menschen",
+        "mit",
+        "zusammen",
+        "mein",
+        "Kollege"
+      ],
+      "answers": [
+        "Viele Menschen fahren mit dem Fahrrad. Ein Beispiel dafür ist mein Kollege Tom."
+      ],
+      "explanation": "**Ein Beispiel dafür ist …** = An example of that is …"
+    },
+    {
+      "id": "tb1-u18-l08-useful-phrases-3-ex09",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u18-l08-useful-phrases-3-4.mp3"
+      },
+      "tiles": [
+        "Soweit",
+        "Bürgeramt",
+        "Gegensatz",
+        "Grund",
+        "das",
+        "geschlossen",
+        "Fahrrad",
+        "ist",
+        "ich",
+        "weiß",
+        "Freitag",
+        "am"
+      ],
+      "answers": [
+        "Soweit ich weiß, ist das Bürgeramt am Freitag geschlossen."
+      ],
+      "explanation": "Soweit ich weiß, ist das Bürgeramt am Freitag geschlossen.\n*As far as I know, the citizens' office is closed on Friday.*\n\n**Soweit ich weiß, … (+ verb next!)** = As far as I know …"
+    }
+  ]
+}

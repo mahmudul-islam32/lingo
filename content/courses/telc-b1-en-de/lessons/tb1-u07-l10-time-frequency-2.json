@@ -1,0 +1,288 @@
+{
+  "id": "tb1-u07-l10-time-frequency-2",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u07",
+  "title": "Time & Frequency 2",
+  "tip": "Theme: Zeit & Häufigkeit (A2)",
+  "exercises": [
+    {
+      "id": "tb1-u07-l10-time-frequency-2-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "gerade",
+          "known": "just now / right now"
+        },
+        {
+          "id": "p2",
+          "learning": "bald",
+          "known": "soon"
+        },
+        {
+          "id": "p3",
+          "learning": "früher",
+          "known": "in the past / earlier"
+        },
+        {
+          "id": "p4",
+          "learning": "später",
+          "known": "later"
+        },
+        {
+          "id": "p5",
+          "learning": "vorher",
+          "known": "before(hand)"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u07-l10-time-frequency-2-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which one means „just now / right now“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "gerade"
+        },
+        {
+          "id": "b",
+          "text": "seit"
+        },
+        {
+          "id": "c",
+          "text": "vorher"
+        },
+        {
+          "id": "d",
+          "text": "meistens"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**gerade** = just now / right now\n\n*Example:* Tom kann nicht ans Telefon kommen, er duscht gerade.\nTom can't come to the phone, he's having a shower right now."
+    },
+    {
+      "id": "tb1-u07-l10-time-frequency-2-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which one means „soon“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "danach"
+        },
+        {
+          "id": "b",
+          "text": "seit"
+        },
+        {
+          "id": "c",
+          "text": "normalerweise"
+        },
+        {
+          "id": "d",
+          "text": "bald"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**bald** = soon\n\n*Example:* Bald haben wir Urlaub und fahren ans Meer.\nSoon we'll be on holiday and going to the seaside."
+    },
+    {
+      "id": "tb1-u07-l10-time-frequency-2-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Tom kann nicht ans Telefon kommen, er duscht gerade.",
+      "tiles": [
+        "phone",
+        "right",
+        "come",
+        "can't",
+        "to",
+        "Suddenly",
+        "now",
+        "Tom",
+        "be",
+        "a",
+        "flat",
+        "he's",
+        "shower",
+        "having",
+        "the"
+      ],
+      "answers": [
+        "Tom can't come to the phone, he's having a shower right now."
+      ],
+      "explanation": "**gerade** = just now / right now"
+    },
+    {
+      "id": "tb1-u07-l10-time-frequency-2-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which one means „in the past / earlier“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "vorher"
+        },
+        {
+          "id": "b",
+          "text": "normalerweise"
+        },
+        {
+          "id": "c",
+          "text": "gerade"
+        },
+        {
+          "id": "d",
+          "text": "früher"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**früher** = in the past / earlier\n\n*Example:* Früher hat Ali in einem kleinen Dorf in der Türkei gewohnt.\nAli used to live in a small village in Turkey."
+    },
+    {
+      "id": "tb1-u07-l10-time-frequency-2-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Soon we'll be on holiday and going to the seaside.",
+      "tiles": [
+        "wir",
+        "Maria",
+        "Bald",
+        "haben",
+        "Urlaub",
+        "das",
+        "und",
+        "ans",
+        "dann",
+        "Meer",
+        "fahren"
+      ],
+      "answers": [
+        "Bald haben wir Urlaub und fahren ans Meer."
+      ],
+      "explanation": "**bald** = soon"
+    },
+    {
+      "id": "tb1-u07-l10-time-frequency-2-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which one means „later“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "später"
+        },
+        {
+          "id": "b",
+          "text": "dann"
+        },
+        {
+          "id": "c",
+          "text": "früher"
+        },
+        {
+          "id": "d",
+          "text": "bald"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**später** = later\n\n*Example:* Ich habe jetzt keine Zeit, ich rufe dich später an.\nI don't have time now, I'll call you later."
+    },
+    {
+      "id": "tb1-u07-l10-time-frequency-2-ex08",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u07-l10-time-frequency-2-3.mp3"
+      },
+      "tiles": [
+        "oft",
+        "Früher",
+        "in",
+        "gewohnt",
+        "in",
+        "hat",
+        "Türkei",
+        "Dorf",
+        "kleinen",
+        "Ali",
+        "ich",
+        "der",
+        "Telefon",
+        "einem"
+      ],
+      "answers": [
+        "Früher hat Ali in einem kleinen Dorf in der Türkei gewohnt."
+      ],
+      "explanation": "Früher hat Ali in einem kleinen Dorf in der Türkei gewohnt.\n*Ali used to live in a small village in Turkey.*\n\n**früher** = in the past / earlier"
+    },
+    {
+      "id": "tb1-u07-l10-time-frequency-2-ex09",
+      "type": "multiple_choice",
+      "prompt": "Which one means „before(hand)“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "manchmal"
+        },
+        {
+          "id": "b",
+          "text": "plötzlich"
+        },
+        {
+          "id": "c",
+          "text": "schließlich"
+        },
+        {
+          "id": "d",
+          "text": "vorher"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**vorher** = before(hand)\n\n*Example:* Bitte waschen Sie sich vorher die Hände.\nPlease wash your hands beforehand."
+    },
+    {
+      "id": "tb1-u07-l10-time-frequency-2-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Ich habe jetzt keine Zeit, ich rufe dich später an.",
+      "tiles": [
+        "have",
+        "time",
+        "breakfast",
+        "don't",
+        "I'll",
+        "six",
+        "now",
+        "later",
+        "you",
+        "call",
+        "I",
+        "to"
+      ],
+      "answers": [
+        "I don't have time now, I'll call you later."
+      ],
+      "explanation": "**später** = later"
+    },
+    {
+      "id": "tb1-u07-l10-time-frequency-2-ex11",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Please wash your hands beforehand.",
+      "tiles": [
+        "sich",
+        "Sie",
+        "Hände",
+        "auf",
+        "vorher",
+        "die",
+        "an",
+        "Bitte",
+        "waschen",
+        "Schule"
+      ],
+      "answers": [
+        "Bitte waschen Sie sich vorher die Hände."
+      ],
+      "explanation": "**vorher** = before(hand)"
+    }
+  ]
+}

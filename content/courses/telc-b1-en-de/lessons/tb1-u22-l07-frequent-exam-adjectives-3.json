@@ -1,0 +1,277 @@
+{
+  "id": "tb1-u22-l07-frequent-exam-adjectives-3",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u22",
+  "title": "Frequent Exam Adjectives 3",
+  "tip": "Theme: Adjektive: Prüfungshäufig (B1)",
+  "exercises": [
+    {
+      "id": "tb1-u22-l07-frequent-exam-adjectives-3-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "zurzeit",
+          "known": "at the moment"
+        },
+        {
+          "id": "p2",
+          "learning": "regelmäßig",
+          "known": "regular(ly)"
+        },
+        {
+          "id": "p3",
+          "learning": "telefonisch",
+          "known": "by phone"
+        },
+        {
+          "id": "p4",
+          "learning": "unsicher",
+          "known": "unsure / insecure"
+        },
+        {
+          "id": "p5",
+          "learning": "angemessen",
+          "known": "appropriate"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u22-l07-frequent-exam-adjectives-3-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which one means „at the moment“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "negativ"
+        },
+        {
+          "id": "b",
+          "text": "endlich"
+        },
+        {
+          "id": "c",
+          "text": "zurzeit"
+        },
+        {
+          "id": "d",
+          "text": "lustig"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**zurzeit** = at the moment\n\n*Example:* Mein Chef ist zurzeit im Urlaub.\nMy boss is on holiday at the moment."
+    },
+    {
+      "id": "tb1-u22-l07-frequent-exam-adjectives-3-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which one means „regular(ly)“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "regelmäßig"
+        },
+        {
+          "id": "b",
+          "text": "weitere"
+        },
+        {
+          "id": "c",
+          "text": "telefonisch"
+        },
+        {
+          "id": "d",
+          "text": "zurzeit"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**regelmäßig** = regular(ly)\n\n*Example:* Anna geht regelmäßig zum Zahnarzt.\nAnna goes to the dentist regularly."
+    },
+    {
+      "id": "tb1-u22-l07-frequent-exam-adjectives-3-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Mein Chef ist zurzeit im Urlaub.",
+      "tiles": [
+        "the",
+        "at",
+        "ill",
+        "now",
+        "can",
+        "holiday",
+        "is",
+        "moment",
+        "My",
+        "on",
+        "boss"
+      ],
+      "answers": [
+        "My boss is on holiday at the moment."
+      ],
+      "explanation": "**zurzeit** = at the moment"
+    },
+    {
+      "id": "tb1-u22-l07-frequent-exam-adjectives-3-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which one means „by phone“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "endlich"
+        },
+        {
+          "id": "b",
+          "text": "wirklich"
+        },
+        {
+          "id": "c",
+          "text": "telefonisch"
+        },
+        {
+          "id": "d",
+          "text": "angemessen"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**telefonisch** = by phone\n\n*Example:* Sie können den Termin auch telefonisch absagen.\nYou can also cancel the appointment by phone."
+    },
+    {
+      "id": "tb1-u22-l07-frequent-exam-adjectives-3-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Anna goes to the dentist regularly.",
+      "tiles": [
+        "zurzeit",
+        "geht",
+        "verdient",
+        "Zahnarzt",
+        "Anna",
+        "zum",
+        "regelmäßig",
+        "besser"
+      ],
+      "answers": [
+        "Anna geht regelmäßig zum Zahnarzt."
+      ],
+      "explanation": "**regelmäßig** = regular(ly)"
+    },
+    {
+      "id": "tb1-u22-l07-frequent-exam-adjectives-3-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which one means „unsure / insecure“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "sportlich"
+        },
+        {
+          "id": "b",
+          "text": "negativ"
+        },
+        {
+          "id": "c",
+          "text": "angemessen"
+        },
+        {
+          "id": "d",
+          "text": "unsicher"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**unsicher** = unsure / insecure\n\n*Example:* Tom ist unsicher, ob er die Wohnung nehmen soll.\nTom is unsure whether he should take the flat."
+    },
+    {
+      "id": "tb1-u22-l07-frequent-exam-adjectives-3-ex08",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u22-l07-frequent-exam-adjectives-3-3.mp3"
+      },
+      "tiles": [
+        "Sie",
+        "Termin",
+        "telefonisch",
+        "einzeln",
+        "auch",
+        "können",
+        "dass",
+        "absagen",
+        "einzige",
+        "den"
+      ],
+      "answers": [
+        "Sie können den Termin auch telefonisch absagen."
+      ],
+      "explanation": "Sie können den Termin auch telefonisch absagen.\n*You can also cancel the appointment by phone.*\n\n**telefonisch** = by phone"
+    },
+    {
+      "id": "tb1-u22-l07-frequent-exam-adjectives-3-ex09",
+      "type": "multiple_choice",
+      "prompt": "Which one means „appropriate“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "wenig"
+        },
+        {
+          "id": "b",
+          "text": "angemessen"
+        },
+        {
+          "id": "c",
+          "text": "wirklich"
+        },
+        {
+          "id": "d",
+          "text": "unabhängig"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**angemessen** = appropriate\n\n*Example:* Für das Vorstellungsgespräch braucht man angemessene Kleidung.\nYou need appropriate clothing for the job interview."
+    },
+    {
+      "id": "tb1-u22-l07-frequent-exam-adjectives-3-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Tom ist unsicher, ob er die Wohnung nehmen soll.",
+      "tiles": [
+        "he",
+        "whether",
+        "Tom",
+        "flat",
+        "unsure",
+        "the",
+        "is",
+        "for",
+        "his",
+        "take",
+        "You",
+        "should"
+      ],
+      "answers": [
+        "Tom is unsure whether he should take the flat."
+      ],
+      "explanation": "**unsicher** = unsure / insecure"
+    },
+    {
+      "id": "tb1-u22-l07-frequent-exam-adjectives-3-ex11",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "You need appropriate clothing for the job interview.",
+      "tiles": [
+        "braucht",
+        "geht",
+        "man",
+        "eigenes",
+        "das",
+        "Vorstellungsgespräch",
+        "Kleidung",
+        "Maria",
+        "Für",
+        "angemessene"
+      ],
+      "answers": [
+        "Für das Vorstellungsgespräch braucht man angemessene Kleidung."
+      ],
+      "explanation": "**angemessen** = appropriate"
+    }
+  ]
+}

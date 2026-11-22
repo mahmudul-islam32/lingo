@@ -1,0 +1,193 @@
+{
+  "id": "tb1-u27-l03-giving-your-opinion-3",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u27",
+  "title": "Giving Your Opinion 3",
+  "tip": "Theme: Redemittel: Meinung äußern (B1)",
+  "exercises": [
+    {
+      "id": "tb1-u27-l03-giving-your-opinion-3-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "Ich habe den Eindruck, dass …",
+          "known": "I have the impression that …"
+        },
+        {
+          "id": "p2",
+          "learning": "Wenn Sie mich fragen, …",
+          "known": "If you ask me, …"
+        },
+        {
+          "id": "p3",
+          "learning": "Ich würde sagen, dass …",
+          "known": "I would say that …"
+        },
+        {
+          "id": "p4",
+          "learning": "Meiner Meinung nach …",
+          "known": "In my opinion …"
+        },
+        {
+          "id": "p5",
+          "learning": "Ich bin der Meinung, dass …",
+          "known": "I'm of the opinion that …"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u27-l03-giving-your-opinion-3-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which phrase means „I have the impression that …“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ich habe den Eindruck, dass …"
+        },
+        {
+          "id": "b",
+          "text": "Ehrlich gesagt, …"
+        },
+        {
+          "id": "c",
+          "text": "Ich glaube, dass …"
+        },
+        {
+          "id": "d",
+          "text": "Ich finde, dass …"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Ich habe den Eindruck, dass …** = I have the impression that …\n\n*Example:* Ich habe den Eindruck, dass meine Nachbarin sich hier wohlfühlt.\nI have the impression that my neighbour feels at home here."
+    },
+    {
+      "id": "tb1-u27-l03-giving-your-opinion-3-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which phrase means „If you ask me, …“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ich würde sagen, dass …"
+        },
+        {
+          "id": "b",
+          "text": "Ich bin davon überzeugt, dass …"
+        },
+        {
+          "id": "c",
+          "text": "Wenn Sie mich fragen, …"
+        },
+        {
+          "id": "d",
+          "text": "Ehrlich gesagt, …"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**Wenn Sie mich fragen, …** = If you ask me, …\n\n*Example:* Wenn Sie mich fragen, ist der Zug schneller als das Auto.\nIf you ask me, the train is faster than the car."
+    },
+    {
+      "id": "tb1-u27-l03-giving-your-opinion-3-ex04",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u27-l03-giving-your-opinion-3-1.mp3"
+      },
+      "tiles": [
+        "den",
+        "uns",
+        "Eindruck",
+        "meine",
+        "dass",
+        "Nachbarin",
+        "habe",
+        "die",
+        "Ich",
+        "hier",
+        "Leben",
+        "sich",
+        "wohlfühlt"
+      ],
+      "answers": [
+        "Ich habe den Eindruck, dass meine Nachbarin sich hier wohlfühlt."
+      ],
+      "explanation": "Ich habe den Eindruck, dass meine Nachbarin sich hier wohlfühlt.\n*I have the impression that my neighbour feels at home here.*\n\n**Ich habe den Eindruck, dass …** = I have the impression that …"
+    },
+    {
+      "id": "tb1-u27-l03-giving-your-opinion-3-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which phrase means „I would say that …“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Es scheint mir, dass …"
+        },
+        {
+          "id": "b",
+          "text": "Ich würde sagen, dass …"
+        },
+        {
+          "id": "c",
+          "text": "Wenn Sie mich fragen, …"
+        },
+        {
+          "id": "d",
+          "text": "Ich glaube, dass …"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Ich würde sagen, dass …** = I would say that …\n\n*Example:* Ich würde sagen, dass die Wohnung zu klein für uns ist.\nI would say that the flat is too small for us."
+    },
+    {
+      "id": "tb1-u27-l03-giving-your-opinion-3-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Wenn Sie mich fragen, ist der Zug schneller als das Auto.",
+      "tiles": [
+        "faster",
+        "you",
+        "is",
+        "stress",
+        "car",
+        "If",
+        "me",
+        "ask",
+        "train",
+        "the",
+        "than",
+        "of",
+        "a",
+        "the"
+      ],
+      "answers": [
+        "If you ask me, the train is faster than the car."
+      ],
+      "explanation": "**Wenn Sie mich fragen, …** = If you ask me, …"
+    },
+    {
+      "id": "tb1-u27-l03-giving-your-opinion-3-ex07",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I would say that the flat is too small for us.",
+      "tiles": [
+        "Ich",
+        "in",
+        "für",
+        "der",
+        "fragen",
+        "zu",
+        "Wohnung",
+        "ist",
+        "uns",
+        "klein",
+        "würde",
+        "sagen",
+        "dass",
+        "die"
+      ],
+      "answers": [
+        "Ich würde sagen, dass die Wohnung zu klein für uns ist."
+      ],
+      "explanation": "**Ich würde sagen, dass …** = I would say that …"
+    }
+  ]
+}

@@ -1,0 +1,282 @@
+{
+  "id": "tb1-u07-l07-adjectives-a2-3",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u07",
+  "title": "Adjectives (A2) 3",
+  "tip": "Theme: Adjektive (A2) (A2)",
+  "exercises": [
+    {
+      "id": "tb1-u07-l07-adjectives-a2-3-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "interessant",
+          "known": "interesting"
+        },
+        {
+          "id": "p2",
+          "learning": "freiwillig",
+          "known": "voluntary"
+        },
+        {
+          "id": "p3",
+          "learning": "pünktlich",
+          "known": "punctual"
+        },
+        {
+          "id": "p4",
+          "learning": "normal",
+          "known": "normal"
+        },
+        {
+          "id": "p5",
+          "learning": "nötig",
+          "known": "necessary"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u07-l07-adjectives-a2-3-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which one means „interesting ↔ boring“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "praktisch"
+        },
+        {
+          "id": "b",
+          "text": "interessant ↔ langweilig"
+        },
+        {
+          "id": "c",
+          "text": "modern"
+        },
+        {
+          "id": "d",
+          "text": "bekannt"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**interessant ↔ langweilig** = interesting ↔ boring\n\n*Example:* Der Film war interessant, aber das Buch war langweilig.\nThe film was interesting, but the book was boring."
+    },
+    {
+      "id": "tb1-u07-l07-adjectives-a2-3-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which one means „voluntary“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "normal"
+        },
+        {
+          "id": "b",
+          "text": "freiwillig"
+        },
+        {
+          "id": "c",
+          "text": "besondere / besonders"
+        },
+        {
+          "id": "d",
+          "text": "möglich ↔ unmöglich"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**freiwillig** = voluntary\n\n*Example:* Meine Tante arbeitet freiwillig in einem Altenheim.\nMy aunt volunteers at a care home."
+    },
+    {
+      "id": "tb1-u07-l07-adjectives-a2-3-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "The film was interesting, but the book was boring.",
+      "tiles": [
+        "Termin",
+        "war",
+        "Der",
+        "war",
+        "das",
+        "langweilig",
+        "Angebot",
+        "Buch",
+        "aber",
+        "interessant",
+        "altes",
+        "Film"
+      ],
+      "answers": [
+        "Der Film war interessant, aber das Buch war langweilig."
+      ],
+      "explanation": "**interessant ↔ langweilig** = interesting ↔ boring"
+    },
+    {
+      "id": "tb1-u07-l07-adjectives-a2-3-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which one means „punctual“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "bekannt"
+        },
+        {
+          "id": "b",
+          "text": "pünktlich"
+        },
+        {
+          "id": "c",
+          "text": "interessant ↔ langweilig"
+        },
+        {
+          "id": "d",
+          "text": "gesund ↔ ungesund"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**pünktlich** = punctual\n\n*Example:* Die Züge in der Schweiz sind fast immer pünktlich.\nTrains in Switzerland are almost always on time."
+    },
+    {
+      "id": "tb1-u07-l07-adjectives-a2-3-ex06",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u07-l07-adjectives-a2-3-2.mp3"
+      },
+      "tiles": [
+        "besonderes",
+        "arbeitet",
+        "Altenheim",
+        "Meine",
+        "in",
+        "Tante",
+        "Züge",
+        "einem",
+        "freiwillig",
+        "Schloss"
+      ],
+      "answers": [
+        "Meine Tante arbeitet freiwillig in einem Altenheim."
+      ],
+      "explanation": "Meine Tante arbeitet freiwillig in einem Altenheim.\n*My aunt volunteers at a care home.*\n\n**freiwillig** = voluntary"
+    },
+    {
+      "id": "tb1-u07-l07-adjectives-a2-3-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which one means „normal“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "möglich ↔ unmöglich"
+        },
+        {
+          "id": "b",
+          "text": "normal"
+        },
+        {
+          "id": "c",
+          "text": "verschieden"
+        },
+        {
+          "id": "d",
+          "text": "nötig"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**normal** = normal\n\n*Example:* Es ist normal, dass man am Anfang Fehler macht.\nIt's normal to make mistakes at the beginning."
+    },
+    {
+      "id": "tb1-u07-l07-adjectives-a2-3-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Die Züge in der Schweiz sind fast immer pünktlich.",
+      "tiles": [
+        "always",
+        "on",
+        "in",
+        "time",
+        "almost",
+        "healthy",
+        "Trains",
+        "are",
+        "Switzerland",
+        "from",
+        "unfortunately"
+      ],
+      "answers": [
+        "Trains in Switzerland are almost always on time."
+      ],
+      "explanation": "**pünktlich** = punctual"
+    },
+    {
+      "id": "tb1-u07-l07-adjectives-a2-3-ex09",
+      "type": "multiple_choice",
+      "prompt": "Which one means „necessary“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "interessant ↔ langweilig"
+        },
+        {
+          "id": "b",
+          "text": "berühmt"
+        },
+        {
+          "id": "c",
+          "text": "nötig"
+        },
+        {
+          "id": "d",
+          "text": "möglich ↔ unmöglich"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**nötig** = necessary\n\n*Example:* Für den Termin ist keine Anmeldung nötig.\nNo registration is necessary for the appointment."
+    },
+    {
+      "id": "tb1-u07-l07-adjectives-a2-3-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "It's normal to make mistakes at the beginning.",
+      "tiles": [
+        "immer",
+        "macht",
+        "ist",
+        "man",
+        "Anfang",
+        "Für",
+        "dass",
+        "normal",
+        "am",
+        "Es",
+        "Fehler",
+        "Restaurant"
+      ],
+      "answers": [
+        "Es ist normal, dass man am Anfang Fehler macht."
+      ],
+      "explanation": "**normal** = normal"
+    },
+    {
+      "id": "tb1-u07-l07-adjectives-a2-3-ex11",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u07-l07-adjectives-a2-3-5.mp3"
+      },
+      "tiles": [
+        "war",
+        "Für",
+        "keine",
+        "Die",
+        "verschiedenen",
+        "Termin",
+        "nötig",
+        "den",
+        "ist",
+        "Anmeldung"
+      ],
+      "answers": [
+        "Für den Termin ist keine Anmeldung nötig."
+      ],
+      "explanation": "Für den Termin ist keine Anmeldung nötig.\n*No registration is necessary for the appointment.*\n\n**nötig** = necessary"
+    }
+  ]
+}

@@ -1,0 +1,290 @@
+{
+  "id": "tb1-u13-l02-environment-weather-2",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u13",
+  "title": "Environment & Weather 2",
+  "tip": "Theme: Umwelt / Wetter (B1)",
+  "exercises": [
+    {
+      "id": "tb1-u13-l02-environment-weather-2-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "den Müll trennen",
+          "known": "to separate waste"
+        },
+        {
+          "id": "p2",
+          "learning": "recyceln",
+          "known": "to recycle"
+        },
+        {
+          "id": "p3",
+          "learning": "die Verpackung",
+          "known": "packaging"
+        },
+        {
+          "id": "p4",
+          "learning": "Strom / Wasser / Energie sparen",
+          "known": "to save electricity / water / energy"
+        },
+        {
+          "id": "p5",
+          "learning": "der Strom",
+          "known": "electricity"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u13-l02-environment-weather-2-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which one means „to separate waste: bin“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "den Müll trennen: die Mülltonne, die Mülltonnen"
+        },
+        {
+          "id": "b",
+          "text": "recyceln (hat recycelt)"
+        },
+        {
+          "id": "c",
+          "text": "bewölkt · nass ↔ trocken"
+        },
+        {
+          "id": "d",
+          "text": "Strom / Wasser / Energie sparen"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**den Müll trennen: die Mülltonne, die Mülltonnen** = to separate waste: bin\n\n*Example:* Bei uns trennen wir den Müll, und Papier kommt in die blaue Mülltonne.\nWe separate our rubbish, and paper goes in the blue bin."
+    },
+    {
+      "id": "tb1-u13-l02-environment-weather-2-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which verb means „to recycle“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "bewölkt · nass ↔ trocken"
+        },
+        {
+          "id": "b",
+          "text": "recyceln (hat recycelt)"
+        },
+        {
+          "id": "c",
+          "text": "Strom / Wasser / Energie sparen"
+        },
+        {
+          "id": "d",
+          "text": "der Nebel (nur Sg.), neblig"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**recyceln (hat recycelt)** = to recycle\n\n*Example:* Alte Flaschen werden in Deutschland recycelt.\nOld bottles are recycled in Germany."
+    },
+    {
+      "id": "tb1-u13-l02-environment-weather-2-ex04",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u13-l02-environment-weather-2-1.mp3"
+      },
+      "tiles": [
+        "Schirm",
+        "blaue",
+        "kommt",
+        "uns",
+        "in",
+        "Bei",
+        "trennen",
+        "Müll",
+        "wir",
+        "den",
+        "Mülltonne",
+        "die",
+        "also",
+        "Papier",
+        "und",
+        "wird"
+      ],
+      "answers": [
+        "Bei uns trennen wir den Müll, und Papier kommt in die blaue Mülltonne."
+      ],
+      "explanation": "Bei uns trennen wir den Müll, und Papier kommt in die blaue Mülltonne.\n*We separate our rubbish, and paper goes in the blue bin.*\n\n**den Müll trennen: die Mülltonne, die Mülltonnen** = to separate waste: bin"
+    },
+    {
+      "id": "tb1-u13-l02-environment-weather-2-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „packaging · plastic bag“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "der Umweltschutz (nur Sg.), die Umwelt schützen"
+        },
+        {
+          "id": "b",
+          "text": "die Verpackung, die Verpackungen · die Plastiktüte, die Plastiktüten"
+        },
+        {
+          "id": "c",
+          "text": "die Umwelt (nur Sg.), umweltfreundlich ↔ umweltschädlich"
+        },
+        {
+          "id": "d",
+          "text": "die Sonne: sonnig: scheinen (hat geschienen)"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**die Verpackung** = packaging · plastic bag\n*Plural: die Verpackungen · also: die Plastiktüte, die Plastiktüten*\n\n*Example:* Im Supermarkt nehme ich keine Plastiktüte, sondern meine eigene Tasche.\nAt the supermarket I don't take a plastic bag but bring my own bag."
+    },
+    {
+      "id": "tb1-u13-l02-environment-weather-2-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Alte Flaschen werden in Deutschland recycelt.",
+      "tiles": [
+        "Germany",
+        "Old",
+        "bottles",
+        "recycled",
+        "and",
+        "in",
+        "today",
+        "was",
+        "are"
+      ],
+      "answers": [
+        "Old bottles are recycled in Germany."
+      ],
+      "explanation": "**recyceln (hat recycelt)** = to recycle"
+    },
+    {
+      "id": "tb1-u13-l02-environment-weather-2-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which one means „to save electricity / water / energy“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "recyceln (hat recycelt)"
+        },
+        {
+          "id": "b",
+          "text": "Strom / Wasser / Energie sparen"
+        },
+        {
+          "id": "c",
+          "text": "bewölkt · nass ↔ trocken"
+        },
+        {
+          "id": "d",
+          "text": "den Müll trennen: die Mülltonne, die Mülltonnen"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Strom / Wasser / Energie sparen** = to save electricity / water / energy\n\n*Example:* Mein Vater macht immer das Licht aus, um Strom zu sparen.\nMy father always switches off the light to save electricity."
+    },
+    {
+      "id": "tb1-u13-l02-environment-weather-2-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "At the supermarket I don't take a plastic bag but bring my own bag.",
+      "tiles": [
+        "meine",
+        "ich",
+        "nehme",
+        "keine",
+        "Alte",
+        "Tasche",
+        "sondern",
+        "eigene",
+        "Plastiktüte",
+        "Supermarkt",
+        "Im",
+        "bleiben",
+        "Licht"
+      ],
+      "answers": [
+        "Im Supermarkt nehme ich keine Plastiktüte, sondern meine eigene Tasche."
+      ],
+      "explanation": "**die Verpackung** = packaging · plastic bag\n*Plural: die Verpackungen · also: die Plastiktüte, die Plastiktüten*"
+    },
+    {
+      "id": "tb1-u13-l02-environment-weather-2-ex09",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „electricity · energy“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "das Wetter (nur Sg.) · die Wettervorhersage, die Wettervorhersagen"
+        },
+        {
+          "id": "b",
+          "text": "der Regen (nur Sg.), regnen, regnerisch"
+        },
+        {
+          "id": "c",
+          "text": "der Strom (nur Sg.) · die Energie, die Energien"
+        },
+        {
+          "id": "d",
+          "text": "der Schnee (nur Sg.), schneien"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**der Strom (nur Sg.) · die Energie, die Energien** = electricity · energy\n\n*Example:* Der Strom ist in diesem Jahr wieder teurer geworden.\nElectricity has become more expensive again this year."
+    },
+    {
+      "id": "tb1-u13-l02-environment-weather-2-ex10",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u13-l02-environment-weather-2-4.mp3"
+      },
+      "tiles": [
+        "Herbst",
+        "Flaschen",
+        "Mein",
+        "immer",
+        "ist",
+        "aus",
+        "das",
+        "Strom",
+        "zu",
+        "Licht",
+        "um",
+        "Vater",
+        "macht",
+        "sparen"
+      ],
+      "answers": [
+        "Mein Vater macht immer das Licht aus, um Strom zu sparen."
+      ],
+      "explanation": "Mein Vater macht immer das Licht aus, um Strom zu sparen.\n*My father always switches off the light to save electricity.*\n\n**Strom / Wasser / Energie sparen** = to save electricity / water / energy"
+    },
+    {
+      "id": "tb1-u13-l02-environment-weather-2-ex11",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Der Strom ist in diesem Jahr wieder teurer geworden.",
+      "tiles": [
+        "again",
+        "more",
+        "become",
+        "year",
+        "this",
+        "has",
+        "Electricity",
+        "expensive",
+        "by",
+        "building",
+        "recycled"
+      ],
+      "answers": [
+        "Electricity has become more expensive again this year."
+      ],
+      "explanation": "**der Strom (nur Sg.) · die Energie, die Energien** = electricity · energy"
+    }
+  ]
+}

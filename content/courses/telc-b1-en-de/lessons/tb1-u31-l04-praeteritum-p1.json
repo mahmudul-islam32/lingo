@@ -1,0 +1,290 @@
+{
+  "id": "tb1-u31-l04-praeteritum-p1",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u31",
+  "title": "Präteritum: war, hatte + Modal Verbs: war & hatte & Modalverben im Präteritum",
+  "tip": "“Ich bin krank gewesen und habe nicht kommen gekonnt”, clumsy and error-prone. Write: Ich war krank und konnte nicht kommen.",
+  "exercises": [
+    {
+      "id": "tb1-u31-l04-praeteritum-p1-ex01",
+      "type": "explain",
+      "title": "war & hatte",
+      "body": "For sein and haben you almost always use the simple past.\n\n*Deutsch:* Bei sein und haben benutzt man in der Vergangenheit fast immer das Präteritum.\n\n## Pattern\n\nSubjekt + **war/hatte** + …",
+      "examples": [
+        {
+          "learning": "Gestern war ich beim Arzt.",
+          "known": "Yesterday I was at the doctor's."
+        },
+        {
+          "learning": "Wir hatten im Urlaub schönes Wetter.",
+          "known": "We had nice weather on holiday."
+        }
+      ]
+    },
+    {
+      "id": "tb1-u31-l04-praeteritum-p1-ex02",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Yesterday I was at the doctor's.",
+      "tiles": [
+        "Als",
+        "Kind",
+        "ich",
+        "Arzt",
+        "beim",
+        "war",
+        "werden",
+        "Gestern"
+      ],
+      "answers": [
+        "Gestern war ich beim Arzt."
+      ],
+      "explanation": "**Why:** More natural than “bin gewesen”.\n\n*Warum:* Natürlicher als „bin gewesen“."
+    },
+    {
+      "id": "tb1-u31-l04-praeteritum-p1-ex03",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "We had nice weather on holiday.",
+      "tiles": [
+        "Urlaub",
+        "Wir",
+        "Wetter",
+        "im",
+        "kommen",
+        "schönes",
+        "heute",
+        "hatten",
+        "Früher"
+      ],
+      "answers": [
+        "Wir hatten im Urlaub schönes Wetter."
+      ],
+      "explanation": "**Why:** haben → hatten (wir).\n\n*Warum:* haben → hatten (wir)."
+    },
+    {
+      "id": "tb1-u31-l04-praeteritum-p1-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Unfortunately I didn't have time.",
+      "tiles": [
+        "keine",
+        "tut",
+        "Zeit",
+        "krank",
+        "Leider",
+        "ich",
+        "im",
+        "hatte"
+      ],
+      "answers": [
+        "Leider hatte ich keine Zeit."
+      ],
+      "explanation": "**Why:** Ideal for declining in a letter.\n\n*Warum:* Ideal für Absagen im Brief."
+    },
+    {
+      "id": "tb1-u31-l04-praeteritum-p1-ex05",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "The party was great!",
+      "tiles": [
+        "war",
+        "super",
+        "Party",
+        "Als",
+        "wollte",
+        "Pilot",
+        "Die"
+      ],
+      "answers": [
+        "Die Party war super!"
+      ],
+      "explanation": "**Why:** sein → war (he/she/it).\n\n*Warum:* sein → war (er/sie/es)."
+    },
+    {
+      "id": "tb1-u31-l04-praeteritum-p1-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Have you ever been to Munich?",
+      "tiles": [
+        "München",
+        "du",
+        "solltest",
+        "schon",
+        "ich",
+        "in",
+        "einmal",
+        "war",
+        "Warst"
+      ],
+      "answers": [
+        "Warst du schon einmal in München?"
+      ],
+      "explanation": "**Why:** du form: warst.\n\n*Warum:* du-Form: warst."
+    },
+    {
+      "id": "tb1-u31-l04-praeteritum-p1-ex07",
+      "type": "explain",
+      "title": "Modalverben im Präteritum",
+      "body": "wollte, konnte, musste, durfte, sollte – no umlaut, with -te.\n\n*Deutsch:* wollte, konnte, musste, durfte, sollte – ohne Umlaut, mit -te.\n\n## Pattern\n\nSubjekt + **konnte/musste/…** + … + **Infinitiv**",
+      "examples": [
+        {
+          "learning": "Ich konnte gestern nicht kommen.",
+          "known": "I couldn't come yesterday."
+        },
+        {
+          "learning": "Wir mussten lange auf den Bus warten.",
+          "known": "We had to wait a long time for the bus."
+        }
+      ]
+    },
+    {
+      "id": "tb1-u31-l04-praeteritum-p1-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I couldn't come yesterday.",
+      "tiles": [
+        "krank",
+        "lange",
+        "kommen",
+        "Kind",
+        "Ich",
+        "nicht",
+        "gestern",
+        "konnte"
+      ],
+      "answers": [
+        "Ich konnte gestern nicht kommen."
+      ],
+      "explanation": "**Why:** können → konnte (no umlaut).\n\n*Warum:* können → konnte (kein Umlaut)."
+    },
+    {
+      "id": "tb1-u31-l04-praeteritum-p1-ex09",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "We had to wait a long time for the bus.",
+      "tiles": [
+        "Bus",
+        "auf",
+        "lange",
+        "wollte",
+        "Wir",
+        "krank",
+        "Ich",
+        "warten",
+        "mussten",
+        "den"
+      ],
+      "answers": [
+        "Wir mussten lange auf den Bus warten."
+      ],
+      "explanation": "**Why:** müssen → mussten.\n\n*Warum:* müssen → mussten."
+    },
+    {
+      "id": "tb1-u31-l04-praeteritum-p1-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "As a child I wanted to become a pilot.",
+      "tiles": [
+        "wollte",
+        "Kind",
+        "Pilot",
+        "beim",
+        "krank",
+        "werden",
+        "Als",
+        "ich",
+        "war"
+      ],
+      "answers": [
+        "Als Kind wollte ich Pilot werden."
+      ],
+      "explanation": "**Why:** wollen → wollte.\n\n*Warum:* wollen → wollte."
+    },
+    {
+      "id": "tb1-u31-l04-praeteritum-p1-ex11",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "In the past you were allowed to smoke in restaurants.",
+      "tiles": [
+        "man",
+        "rauchen",
+        "Früher",
+        "Restaurant",
+        "durfte",
+        "den",
+        "Ich",
+        "werden",
+        "im"
+      ],
+      "answers": [
+        "Früher durfte man im Restaurant rauchen."
+      ],
+      "explanation": "**Why:** dürfen → durfte.\n\n*Warum:* dürfen → durfte."
+    },
+    {
+      "id": "tb1-u31-l04-praeteritum-p1-ex12",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "You were supposed to call me!",
+      "tiles": [
+        "super",
+        "mich",
+        "anrufen",
+        "Du",
+        "doch",
+        "solltest",
+        "Als",
+        "konnte"
+      ],
+      "answers": [
+        "Du solltest mich doch anrufen!"
+      ],
+      "explanation": "**Why:** sollen → solltest (du).\n\n*Warum:* sollen → solltest (du)."
+    },
+    {
+      "id": "tb1-u31-l04-praeteritum-p1-ex13",
+      "type": "choice",
+      "title": "Fill the gap",
+      "prompt": "Es tut mir leid, dass ich nicht kommen ___.",
+      "options": [
+        {
+          "id": "a",
+          "text": "konnte"
+        },
+        {
+          "id": "b",
+          "text": "kann"
+        },
+        {
+          "id": "c",
+          "text": "könnte"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Vergangenheit: konnte (könnte wäre höfliche Gegenwart/Irrealis)."
+    },
+    {
+      "id": "tb1-u31-l04-praeteritum-p1-ex14",
+      "type": "choice",
+      "title": "Fill the gap",
+      "prompt": "Wir ___ leider keine Zeit für einen Besuch.",
+      "options": [
+        {
+          "id": "a",
+          "text": "haben gehabt"
+        },
+        {
+          "id": "b",
+          "text": "hätten"
+        },
+        {
+          "id": "c",
+          "text": "hatten"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "haben → Präteritum hatten ist die natürliche Briefform."
+    }
+  ]
+}

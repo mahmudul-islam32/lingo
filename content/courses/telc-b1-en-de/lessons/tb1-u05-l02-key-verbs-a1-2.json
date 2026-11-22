@@ -1,0 +1,279 @@
+{
+  "id": "tb1-u05-l02-key-verbs-a1-2",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u05",
+  "title": "Key Verbs (A1) 2",
+  "tip": "Theme: Wichtige Verben (A1) (A1)",
+  "exercises": [
+    {
+      "id": "tb1-u05-l02-key-verbs-a1-2-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "essen",
+          "known": "to eat"
+        },
+        {
+          "id": "p2",
+          "learning": "trinken",
+          "known": "to drink"
+        },
+        {
+          "id": "p3",
+          "learning": "sprechen",
+          "known": "to speak"
+        },
+        {
+          "id": "p4",
+          "learning": "sagen",
+          "known": "to say"
+        },
+        {
+          "id": "p5",
+          "learning": "lesen",
+          "known": "to read"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u05-l02-key-verbs-a1-2-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which one means „to eat“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "essen (isst)"
+        },
+        {
+          "id": "b",
+          "text": "gehen"
+        },
+        {
+          "id": "c",
+          "text": "hören"
+        },
+        {
+          "id": "d",
+          "text": "machen"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**essen (isst)** = to eat\n\n*Example:* Mein Sohn isst kein Gemüse, nur Nudeln.\nMy son doesn't eat vegetables, only pasta."
+    },
+    {
+      "id": "tb1-u05-l02-key-verbs-a1-2-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which one means „to drink“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "arbeiten"
+        },
+        {
+          "id": "b",
+          "text": "trinken"
+        },
+        {
+          "id": "c",
+          "text": "hören"
+        },
+        {
+          "id": "d",
+          "text": "verstehen"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**trinken** = to drink\n\n*Example:* Am Morgen trinke ich immer eine Tasse Kaffee.\nIn the morning I always drink a cup of coffee."
+    },
+    {
+      "id": "tb1-u05-l02-key-verbs-a1-2-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Mein Sohn isst kein Gemüse, nur Nudeln.",
+      "tiles": [
+        "doesn't",
+        "going",
+        "only",
+        "eat",
+        "pasta",
+        "understand",
+        "My",
+        "doing",
+        "son",
+        "vegetables"
+      ],
+      "answers": [
+        "My son doesn't eat vegetables, only pasta."
+      ],
+      "explanation": "**essen (isst)** = to eat"
+    },
+    {
+      "id": "tb1-u05-l02-key-verbs-a1-2-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which one means „to speak“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "sprechen (spricht)"
+        },
+        {
+          "id": "b",
+          "text": "wohnen"
+        },
+        {
+          "id": "c",
+          "text": "arbeiten"
+        },
+        {
+          "id": "d",
+          "text": "machen"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**sprechen (spricht)** = to speak\n\n*Example:* Ali spricht mit seiner Nachbarin auf Deutsch.\nAli speaks German with his neighbour."
+    },
+    {
+      "id": "tb1-u05-l02-key-verbs-a1-2-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "In the morning I always drink a cup of coffee.",
+      "tiles": [
+        "brauchen",
+        "trinke",
+        "Morgen",
+        "Kaffee",
+        "ich",
+        "Tasse",
+        "eine",
+        "immer",
+        "Am",
+        "du",
+        "spricht"
+      ],
+      "answers": [
+        "Am Morgen trinke ich immer eine Tasse Kaffee."
+      ],
+      "explanation": "**trinken** = to drink"
+    },
+    {
+      "id": "tb1-u05-l02-key-verbs-a1-2-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which one means „to say“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "sein (ist)"
+        },
+        {
+          "id": "b",
+          "text": "gehen"
+        },
+        {
+          "id": "c",
+          "text": "machen"
+        },
+        {
+          "id": "d",
+          "text": "sagen"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**sagen** = to say\n\n*Example:* Der Arzt sagt, dass ich viel Wasser trinken soll.\nThe doctor says I should drink a lot of water."
+    },
+    {
+      "id": "tb1-u05-l02-key-verbs-a1-2-ex08",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u05-l02-key-verbs-a1-2-3.mp3"
+      },
+      "tiles": [
+        "Ali",
+        "Deutsch",
+        "mit",
+        "du",
+        "seiner",
+        "Nachbarin",
+        "soll",
+        "spricht",
+        "auf",
+        "krank"
+      ],
+      "answers": [
+        "Ali spricht mit seiner Nachbarin auf Deutsch."
+      ],
+      "explanation": "Ali spricht mit seiner Nachbarin auf Deutsch.\n*Ali speaks German with his neighbour.*\n\n**sprechen (spricht)** = to speak"
+    },
+    {
+      "id": "tb1-u05-l02-key-verbs-a1-2-ex09",
+      "type": "multiple_choice",
+      "prompt": "Which one means „to read“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "lesen (liest)"
+        },
+        {
+          "id": "b",
+          "text": "spielen"
+        },
+        {
+          "id": "c",
+          "text": "kaufen"
+        },
+        {
+          "id": "d",
+          "text": "sprechen (spricht)"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**lesen (liest)** = to read\n\n*Example:* Maria liest jeden Abend die Zeitung.\nMaria reads the newspaper every evening."
+    },
+    {
+      "id": "tb1-u05-l02-key-verbs-a1-2-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Der Arzt sagt, dass ich viel Wasser trinken soll.",
+      "tiles": [
+        "of",
+        "a",
+        "drink",
+        "lot",
+        "work",
+        "should",
+        "learns",
+        "I",
+        "doctor",
+        "in",
+        "says",
+        "The",
+        "water"
+      ],
+      "answers": [
+        "The doctor says I should drink a lot of water."
+      ],
+      "explanation": "**sagen** = to say"
+    },
+    {
+      "id": "tb1-u05-l02-key-verbs-a1-2-ex11",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Maria reads the newspaper every evening.",
+      "tiles": [
+        "schnell",
+        "höre",
+        "Zeitung",
+        "Maria",
+        "jeden",
+        "die",
+        "Baby",
+        "Abend",
+        "liest"
+      ],
+      "answers": [
+        "Maria liest jeden Abend die Zeitung."
+      ],
+      "explanation": "**lesen (liest)** = to read"
+    }
+  ]
+}

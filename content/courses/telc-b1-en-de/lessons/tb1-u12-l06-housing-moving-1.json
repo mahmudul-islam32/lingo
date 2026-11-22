@@ -1,0 +1,289 @@
+{
+  "id": "tb1-u12-l06-housing-moving-1",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u12",
+  "title": "Housing & Moving 1",
+  "tip": "Theme: Wohnen / Umzug (B1)",
+  "exercises": [
+    {
+      "id": "tb1-u12-l06-housing-moving-1-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "die Wohnung",
+          "known": "flat"
+        },
+        {
+          "id": "p2",
+          "learning": "die Wohngemeinschaft",
+          "known": "flat share"
+        },
+        {
+          "id": "p3",
+          "learning": "der Mieter",
+          "known": "tenant"
+        },
+        {
+          "id": "p4",
+          "learning": "mieten",
+          "known": "to rent (from someone)"
+        },
+        {
+          "id": "p5",
+          "learning": "die Miete",
+          "known": "rent"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u12-l06-housing-moving-1-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „flat · house“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Wohnung, die Wohnungen · das Haus, die Häuser"
+        },
+        {
+          "id": "b",
+          "text": "die Möbel (Pl.), möbliert"
+        },
+        {
+          "id": "c",
+          "text": "die Umgebung"
+        },
+        {
+          "id": "d",
+          "text": "die Wohngemeinschaft (WG), die Wohngemeinschaften"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**die Wohnung** = flat · house\n*Plural: die Wohnungen · also: das Haus, die Häuser*\n\n*Example:* Unsere Wohnung hat drei Zimmer und einen Balkon.\nOur flat has three rooms and a balcony."
+    },
+    {
+      "id": "tb1-u12-l06-housing-moving-1-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „flat share“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "der Lärm (nur Sg.), laut ↔ ruhig"
+        },
+        {
+          "id": "b",
+          "text": "die Miete, die Mieten"
+        },
+        {
+          "id": "c",
+          "text": "der Stock, die Stockwerke, im dritten Stock · das Erdgeschoss"
+        },
+        {
+          "id": "d",
+          "text": "die Wohngemeinschaft (WG), die Wohngemeinschaften"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**die Wohngemeinschaft (WG)** = flat share\n*Plural: die Wohngemeinschaften*\n\n*Example:* Tom wohnt mit zwei Studenten in einer WG.\nTom lives in a flat share with two students."
+    },
+    {
+      "id": "tb1-u12-l06-housing-moving-1-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Our flat has three rooms and a balcony.",
+      "tiles": [
+        "am",
+        "Wohnung",
+        "Balkon",
+        "drei",
+        "Unsere",
+        "Zimmer",
+        "einen",
+        "wir",
+        "in",
+        "und",
+        "hat"
+      ],
+      "answers": [
+        "Unsere Wohnung hat drei Zimmer und einen Balkon."
+      ],
+      "explanation": "**die Wohnung** = flat · house\n*Plural: die Wohnungen · also: das Haus, die Häuser*"
+    },
+    {
+      "id": "tb1-u12-l06-housing-moving-1-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „tenant ↔ landlord“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "der Stock, die Stockwerke, im dritten Stock · das Erdgeschoss"
+        },
+        {
+          "id": "b",
+          "text": "der Balkon, die Balkone"
+        },
+        {
+          "id": "c",
+          "text": "der Mieter, die Mieter ↔ der Vermieter, die Vermieter"
+        },
+        {
+          "id": "d",
+          "text": "der Lärm (nur Sg.), laut ↔ ruhig"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**der Mieter, die Mieter ↔ der Vermieter, die Vermieter** = tenant ↔ landlord\n\n*Example:* Der Mieter ruft den Vermieter an, weil die Heizung kaputt ist.\nThe tenant calls the landlord because the heating is broken."
+    },
+    {
+      "id": "tb1-u12-l06-housing-moving-1-ex06",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u12-l06-housing-moving-1-2.mp3"
+      },
+      "tiles": [
+        "in",
+        "einer",
+        "die",
+        "Studenten",
+        "zahlen",
+        "an",
+        "WG",
+        "wohnt",
+        "mit",
+        "Tom",
+        "zwei"
+      ],
+      "answers": [
+        "Tom wohnt mit zwei Studenten in einer WG."
+      ],
+      "explanation": "Tom wohnt mit zwei Studenten in einer WG.\n*Tom lives in a flat share with two students.*\n\n**die Wohngemeinschaft (WG)** = flat share\n*Plural: die Wohngemeinschaften*"
+    },
+    {
+      "id": "tb1-u12-l06-housing-moving-1-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which one means „to rent (from someone) ↔ to rent out“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Möbel (Pl.), möbliert"
+        },
+        {
+          "id": "b",
+          "text": "mieten ↔ vermieten"
+        },
+        {
+          "id": "c",
+          "text": "der Lärm (nur Sg.), laut ↔ ruhig"
+        },
+        {
+          "id": "d",
+          "text": "zentral gelegen ↔ am Stadtrand"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**mieten ↔ vermieten** = to rent (from someone) ↔ to rent out\n\n*Example:* Wir mieten eine Wohnung von Frau Schulz, und sie vermietet auch die Garage.\nWe're renting a flat from Ms Schulz, and she's renting out the garage too."
+    },
+    {
+      "id": "tb1-u12-l06-housing-moving-1-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Der Mieter ruft den Vermieter an, weil die Heizung kaputt ist.",
+      "tiles": [
+        "the",
+        "the",
+        "The",
+        "tenant",
+        "We're",
+        "calls",
+        "is",
+        "heating",
+        "landlord",
+        "because",
+        "for",
+        "broken",
+        "out"
+      ],
+      "answers": [
+        "The tenant calls the landlord because the heating is broken."
+      ],
+      "explanation": "**der Mieter, die Mieter ↔ der Vermieter, die Vermieter** = tenant ↔ landlord"
+    },
+    {
+      "id": "tb1-u12-l06-housing-moving-1-ex09",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „rent“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "der Stock, die Stockwerke, im dritten Stock · das Erdgeschoss"
+        },
+        {
+          "id": "b",
+          "text": "das Zimmer, die Zimmer · die Küche, die Küchen · das Bad, die Bäder"
+        },
+        {
+          "id": "c",
+          "text": "die Miete, die Mieten"
+        },
+        {
+          "id": "d",
+          "text": "die Kaution, die Kautionen"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**die Miete** = rent\n*Plural: die Mieten*\n\n*Example:* Die Miete ist in dieser Stadt sehr hoch.\nThe rent in this city is very high."
+    },
+    {
+      "id": "tb1-u12-l06-housing-moving-1-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "We're renting a flat from Ms Schulz, and she's renting out the garage too.",
+      "tiles": [
+        "sie",
+        "Garage",
+        "und",
+        "Wohnung",
+        "Vermieter",
+        "Schulz",
+        "ziehen",
+        "die",
+        "Frau",
+        "Wir",
+        "auch",
+        "mieten",
+        "Im",
+        "eine",
+        "von",
+        "vermietet"
+      ],
+      "answers": [
+        "Wir mieten eine Wohnung von Frau Schulz, und sie vermietet auch die Garage."
+      ],
+      "explanation": "**mieten ↔ vermieten** = to rent (from someone) ↔ to rent out"
+    },
+    {
+      "id": "tb1-u12-l06-housing-moving-1-ex11",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u12-l06-housing-moving-1-5.mp3"
+      },
+      "tiles": [
+        "sehr",
+        "hoch",
+        "Heizung",
+        "dieser",
+        "Stadt",
+        "ist",
+        "in",
+        "an",
+        "Miete",
+        "Lies",
+        "Die"
+      ],
+      "answers": [
+        "Die Miete ist in dieser Stadt sehr hoch."
+      ],
+      "explanation": "Die Miete ist in dieser Stadt sehr hoch.\n*The rent in this city is very high.*\n\n**die Miete** = rent\n*Plural: die Mieten*"
+    }
+  ]
+}

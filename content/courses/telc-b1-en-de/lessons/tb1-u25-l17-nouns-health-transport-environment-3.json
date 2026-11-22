@@ -1,0 +1,233 @@
+{
+  "id": "tb1-u25-l17-nouns-health-transport-environment-3",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u25",
+  "title": "Nouns: Health, Transport & Environment 3",
+  "tip": "Theme: Nomen: Gesundheit, Verkehr & Umwelt II (B1)",
+  "exercises": [
+    {
+      "id": "tb1-u25-l17-nouns-health-transport-environment-3-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "die Salbe",
+          "known": "ointment"
+        },
+        {
+          "id": "p2",
+          "learning": "der Verband",
+          "known": "bandage"
+        },
+        {
+          "id": "p3",
+          "learning": "der Muskel",
+          "known": "muscle"
+        },
+        {
+          "id": "p4",
+          "learning": "die Ernährung",
+          "known": "nutrition / diet"
+        },
+        {
+          "id": "p5",
+          "learning": "der Gehweg",
+          "known": "pavement / sidewalk"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u25-l17-nouns-health-transport-environment-3-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „ointment“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Bewegung"
+        },
+        {
+          "id": "b",
+          "text": "die Salbe, die Salben"
+        },
+        {
+          "id": "c",
+          "text": "die Gruppenreise, die Gruppenreisen"
+        },
+        {
+          "id": "d",
+          "text": "der Verband, die Verbände"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**die Salbe** = ointment\n*Plural: die Salben*\n\n*Example:* Die Ärztin hat mir eine Salbe gegen den Ausschlag gegeben.\nThe doctor gave me an ointment for the rash."
+    },
+    {
+      "id": "tb1-u25-l17-nouns-health-transport-environment-3-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „bandage“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "der Fahrgast, die Fahrgäste"
+        },
+        {
+          "id": "b",
+          "text": "der Verband, die Verbände"
+        },
+        {
+          "id": "c",
+          "text": "der Muskel, die Muskeln"
+        },
+        {
+          "id": "d",
+          "text": "der Gehweg, die Gehwege"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**der Verband** = bandage\n*Plural: die Verbände*\n\n*Example:* Die Krankenschwester macht einen Verband um meine Hand.\nThe nurse puts a bandage around my hand."
+    },
+    {
+      "id": "tb1-u25-l17-nouns-health-transport-environment-3-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Die Ärztin hat mir eine Salbe gegen den Ausschlag gegeben.",
+      "tiles": [
+        "doctor",
+        "multi-storey",
+        "me",
+        "ointment",
+        "After",
+        "the",
+        "rash",
+        "gave",
+        "The",
+        "for",
+        "exercise",
+        "an"
+      ],
+      "answers": [
+        "The doctor gave me an ointment for the rash."
+      ],
+      "explanation": "**die Salbe** = ointment\n*Plural: die Salben*"
+    },
+    {
+      "id": "tb1-u25-l17-nouns-health-transport-environment-3-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „muscle“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "der Muskel, die Muskeln"
+        },
+        {
+          "id": "b",
+          "text": "das Parkhaus, die Parkhäuser"
+        },
+        {
+          "id": "c",
+          "text": "die Panne, die Pannen"
+        },
+        {
+          "id": "d",
+          "text": "die Fernreise, die Fernreisen"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**der Muskel** = muscle\n*Plural: die Muskeln*\n\n*Example:* Nach dem Training tun mir alle Muskeln weh.\nAfter training all my muscles hurt."
+    },
+    {
+      "id": "tb1-u25-l17-nouns-health-transport-environment-3-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "The nurse puts a bandage around my hand.",
+      "tiles": [
+        "neue",
+        "macht",
+        "Radwege",
+        "Hand",
+        "um",
+        "meine",
+        "Eine",
+        "einen",
+        "Die",
+        "Krankenschwester",
+        "Verband"
+      ],
+      "answers": [
+        "Die Krankenschwester macht einen Verband um meine Hand."
+      ],
+      "explanation": "**der Verband** = bandage\n*Plural: die Verbände*"
+    },
+    {
+      "id": "tb1-u25-l17-nouns-health-transport-environment-3-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „nutrition / diet“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Ernährung"
+        },
+        {
+          "id": "b",
+          "text": "die Panne, die Pannen"
+        },
+        {
+          "id": "c",
+          "text": "die Notaufnahme"
+        },
+        {
+          "id": "d",
+          "text": "der Fahrgast, die Fahrgäste"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**die Ernährung** = nutrition / diet\n\n*Example:* Eine gesunde Ernährung ist wichtig für Kinder.\nA healthy diet is important for children."
+    },
+    {
+      "id": "tb1-u25-l17-nouns-health-transport-environment-3-ex08",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u25-l17-nouns-health-transport-environment-3-3.mp3"
+      },
+      "tiles": [
+        "Tom",
+        "in",
+        "tun",
+        "Training",
+        "Nach",
+        "dem",
+        "Muskeln",
+        "weh",
+        "alle",
+        "mir",
+        "Eltern"
+      ],
+      "answers": [
+        "Nach dem Training tun mir alle Muskeln weh."
+      ],
+      "explanation": "Nach dem Training tun mir alle Muskeln weh.\n*After training all my muscles hurt.*\n\n**der Muskel** = muscle\n*Plural: die Muskeln*"
+    },
+    {
+      "id": "tb1-u25-l17-nouns-health-transport-environment-3-ex09",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Eine gesunde Ernährung ist wichtig für Kinder.",
+      "tiles": [
+        "boss",
+        "important",
+        "The",
+        "A",
+        "children",
+        "healthy",
+        "puts",
+        "for",
+        "diet",
+        "is"
+      ],
+      "answers": [
+        "A healthy diet is important for children."
+      ],
+      "explanation": "**die Ernährung** = nutrition / diet"
+    }
+  ]
+}

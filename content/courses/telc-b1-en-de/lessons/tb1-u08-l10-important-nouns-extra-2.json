@@ -1,0 +1,233 @@
+{
+  "id": "tb1-u08-l10-important-nouns-extra-2",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u08",
+  "title": "Important Nouns (Extra) 2",
+  "tip": "Theme: Nomen: Wichtige Wörter (Nachtrag) (A2)",
+  "exercises": [
+    {
+      "id": "tb1-u08-l10-important-nouns-extra-2-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "der Sport",
+          "known": "sport"
+        },
+        {
+          "id": "p2",
+          "learning": "das Hotel",
+          "known": "hotel"
+        },
+        {
+          "id": "p3",
+          "learning": "das Restaurant",
+          "known": "restaurant"
+        },
+        {
+          "id": "p4",
+          "learning": "die Kartoffel",
+          "known": "potato"
+        },
+        {
+          "id": "p5",
+          "learning": "das Buch",
+          "known": "book"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u08-l10-important-nouns-extra-2-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „sport“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Musik"
+        },
+        {
+          "id": "b",
+          "text": "der Sport"
+        },
+        {
+          "id": "c",
+          "text": "das Hotel, die Hotels"
+        },
+        {
+          "id": "d",
+          "text": "das Buch, die Bücher"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**der Sport** = sport\n\n*Example:* Sport macht mir Spaß, besonders Fußball.\nI enjoy sport, especially football."
+    },
+    {
+      "id": "tb1-u08-l10-important-nouns-extra-2-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „hotel“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "das Radio, die Radios"
+        },
+        {
+          "id": "b",
+          "text": "der Sport"
+        },
+        {
+          "id": "c",
+          "text": "das Hotel, die Hotels"
+        },
+        {
+          "id": "d",
+          "text": "die Kartoffel, die Kartoffeln"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**das Hotel** = hotel\n*Plural: die Hotels*\n\n*Example:* Wir übernachten in einem kleinen Hotel am Meer.\nWe're staying overnight in a small hotel by the sea."
+    },
+    {
+      "id": "tb1-u08-l10-important-nouns-extra-2-ex04",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u08-l10-important-nouns-extra-2-1.mp3"
+      },
+      "tiles": [
+        "Sport",
+        "Tafel",
+        "Spaß",
+        "Fußball",
+        "macht",
+        "Musik",
+        "mir",
+        "besonders",
+        "liest"
+      ],
+      "answers": [
+        "Sport macht mir Spaß, besonders Fußball."
+      ],
+      "explanation": "Sport macht mir Spaß, besonders Fußball.\n*I enjoy sport, especially football.*\n\n**der Sport** = sport"
+    },
+    {
+      "id": "tb1-u08-l10-important-nouns-extra-2-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „restaurant“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "der Sessel, die Sessel"
+        },
+        {
+          "id": "b",
+          "text": "das Buch, die Bücher"
+        },
+        {
+          "id": "c",
+          "text": "der Sport"
+        },
+        {
+          "id": "d",
+          "text": "das Restaurant, die Restaurants"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**das Restaurant** = restaurant\n*Plural: die Restaurants*\n\n*Example:* Zum Geburtstag gehen wir in ein italienisches Restaurant.\nFor the birthday we're going to an Italian restaurant."
+    },
+    {
+      "id": "tb1-u08-l10-important-nouns-extra-2-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Wir übernachten in einem kleinen Hotel am Meer.",
+      "tiles": [
+        "news",
+        "small",
+        "a",
+        "the",
+        "Klein",
+        "by",
+        "an",
+        "staying",
+        "We're",
+        "in",
+        "sea",
+        "overnight",
+        "hotel"
+      ],
+      "answers": [
+        "We're staying overnight in a small hotel by the sea."
+      ],
+      "explanation": "**das Hotel** = hotel\n*Plural: die Hotels*"
+    },
+    {
+      "id": "tb1-u08-l10-important-nouns-extra-2-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „potato“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Kartoffel, die Kartoffeln"
+        },
+        {
+          "id": "b",
+          "text": "das Buch, die Bücher"
+        },
+        {
+          "id": "c",
+          "text": "das Hotel, die Hotels"
+        },
+        {
+          "id": "d",
+          "text": "der Sessel, die Sessel"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**die Kartoffel** = potato\n*Plural: die Kartoffeln*\n\n*Example:* Zum Mittagessen gibt es Fisch mit Kartoffeln.\nThere's fish with potatoes for lunch."
+    },
+    {
+      "id": "tb1-u08-l10-important-nouns-extra-2-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "For the birthday we're going to an Italian restaurant.",
+      "tiles": [
+        "Restaurant",
+        "in",
+        "gesehen",
+        "gehen",
+        "wir",
+        "lese",
+        "ein",
+        "Geburtstag",
+        "Zum",
+        "italienisches",
+        "Beim"
+      ],
+      "answers": [
+        "Zum Geburtstag gehen wir in ein italienisches Restaurant."
+      ],
+      "explanation": "**das Restaurant** = restaurant\n*Plural: die Restaurants*"
+    },
+    {
+      "id": "tb1-u08-l10-important-nouns-extra-2-ex09",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u08-l10-important-nouns-extra-2-4.mp3"
+      },
+      "tiles": [
+        "Gestern",
+        "arbeitet",
+        "Kartoffeln",
+        "Zum",
+        "Spaß",
+        "es",
+        "Fisch",
+        "mit",
+        "Mittagessen",
+        "gibt"
+      ],
+      "answers": [
+        "Zum Mittagessen gibt es Fisch mit Kartoffeln."
+      ],
+      "explanation": "Zum Mittagessen gibt es Fisch mit Kartoffeln.\n*There's fish with potatoes for lunch.*\n\n**die Kartoffel** = potato\n*Plural: die Kartoffeln*"
+    }
+  ]
+}

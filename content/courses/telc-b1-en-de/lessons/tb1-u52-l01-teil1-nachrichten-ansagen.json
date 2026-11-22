@@ -1,0 +1,110 @@
+{
+  "id": "tb1-u52-l01-teil1-nachrichten-ansagen",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u52",
+  "title": "Part 1 · Nachrichten & Ansagen",
+  "tip": "Each text runs only once in the exam.",
+  "exercises": [
+    {
+      "id": "tb1-u52-l01-teil1-nachrichten-ansagen-ex01",
+      "type": "explain",
+      "title": "Teil 1 · Globalverstehen",
+      "body": "**5 short texts (messages, announcements), each played only once.** Read the statement first, then listen for the one detail it checks: confirmed or cancelled, which platform, which day, what time.\n\nThe right answer is often a paraphrase (*zusätzliche Kasse* = *an Kasse vier ist jetzt auch geöffnet*)."
+    },
+    {
+      "id": "tb1-u52-l01-teil1-nachrichten-ansagen-ex02",
+      "type": "listening",
+      "title": "Hören Teil 1 · Text 1 von 5 · Nachrichten & Ansagen",
+      "transcript": "Hier ist die Zahnarztpraxis Wolf. Ihr Termin morgen um neun Uhr ist bestätigt. Bitte denken Sie an Ihre Versichertenkarte.",
+      "prompt": "41. Der Anrufer sagt den Termin ab. Richtig oder falsch?",
+      "options": [
+        {
+          "id": "a",
+          "text": "richtig"
+        },
+        {
+          "id": "b",
+          "text": "falsch"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Falsch.** „bestätigt“ = der Termin bleibt, keine Absage."
+    },
+    {
+      "id": "tb1-u52-l01-teil1-nachrichten-ansagen-ex03",
+      "type": "listening",
+      "title": "Hören Teil 1 · Text 2 von 5 · Nachrichten & Ansagen",
+      "transcript": "Gleis drei, bitte beachten: Der Regionalzug nach Kassel fährt heute ausnahmsweise von Gleis fünf.",
+      "prompt": "42. Der Zug nach Kassel fährt von Gleis 5. Richtig oder falsch?",
+      "options": [
+        {
+          "id": "a",
+          "text": "richtig"
+        },
+        {
+          "id": "b",
+          "text": "falsch"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Richtig.** „von Gleis fünf“, direkt bestätigt."
+    },
+    {
+      "id": "tb1-u52-l01-teil1-nachrichten-ansagen-ex04",
+      "type": "listening",
+      "title": "Hören Teil 1 · Text 3 von 5 · Nachrichten & Ansagen",
+      "transcript": "Nur an diesem Wochenende: Beim Kauf von zwei Büchern erhalten Sie das dritte gratis.",
+      "prompt": "43. Das Angebot gilt die ganze Woche. Richtig oder falsch?",
+      "options": [
+        {
+          "id": "a",
+          "text": "richtig"
+        },
+        {
+          "id": "b",
+          "text": "falsch"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Falsch.** „nur an diesem Wochenende“. Einschränkung."
+    },
+    {
+      "id": "tb1-u52-l01-teil1-nachrichten-ansagen-ex05",
+      "type": "listening",
+      "title": "Hören Teil 1 · Text 4 von 5 · Nachrichten & Ansagen",
+      "transcript": "Hi, ich bin's. Wir wollten uns um sieben treffen, schaffst du auch eine halbe Stunde später?",
+      "prompt": "44. Der Anrufer möchte sich um halb acht treffen. Richtig oder falsch?",
+      "options": [
+        {
+          "id": "a",
+          "text": "richtig"
+        },
+        {
+          "id": "b",
+          "text": "falsch"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Richtig.** sieben + halbe Stunde = 7:30 = halb acht."
+    },
+    {
+      "id": "tb1-u52-l01-teil1-nachrichten-ansagen-ex06",
+      "type": "listening",
+      "title": "Hören Teil 1 · Text 5 von 5 · Nachrichten & Ansagen",
+      "transcript": "Liebe Kunden, an Kasse vier ist jetzt auch ohne Wartezeit geöffnet.",
+      "prompt": "45. Es gibt eine zusätzliche offene Kasse. Richtig oder falsch?",
+      "options": [
+        {
+          "id": "a",
+          "text": "richtig"
+        },
+        {
+          "id": "b",
+          "text": "falsch"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Richtig.** Kasse 4 zusätzlich offen. Paraphrase."
+    }
+  ]
+}

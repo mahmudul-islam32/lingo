@@ -1,0 +1,307 @@
+{
+  "id": "tb1-u34-l06-letter-checklist",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u34",
+  "title": "Letter checklist",
+  "tip": "Ten checks that save points in the writing part.",
+  "exercises": [
+    {
+      "id": "tb1-u34-l06-letter-checklist-ex01",
+      "type": "explain",
+      "title": "Letter checklist: before you hand in",
+      "body": "Check these ten points before you hand in your letter.\n\n- All 4 guiding points covered (2–3 sentences each)?\n  *Alle 4 Leitpunkte behandelt? (jeden 2–3 Sätze)*\n- Salutation + closing present, register consistent?\n  *Anrede + Grußformel da, Register einheitlich (du ODER Sie)?*\n- Formal Sie/Ihnen/Ihr capitalised?\n  *Sie / Ihnen / Ihr großgeschrieben?*\n- Every verb in position 2, or at the end after weil/dass/wenn?\n  *Jedes Verb auf Position 2, oder am Ende nach weil/dass/wenn?*\n- Participle/infinitive/prefix at the end (verb bracket)?\n  *Partizip / Infinitiv / Präfix am Satzende (Satzklammer)?*\n- Perfect with the right auxiliary (haben/sein)?\n  *Perfekt mit richtigem Hilfsverb (haben/sein)?*\n- Adjective endings checked?\n  *Adjektivendungen geprüft (einen neuen Job …)?*\n- Case after prepositions checked?\n  *Kasus nach Präpositionen (mit dem, für den, seit einem)?*\n- At least 3 different connectors used?\n  *Mindestens 3 verschiedene Konnektoren (weil, deshalb, außerdem …)?*\n- At least one polite Konjunktiv-II request (in formal letters)?\n  *Mindestens eine höfliche Bitte im Konjunktiv II (bei Sie-Briefen)?*",
+      "examples": [
+        {
+          "learning": "Alle 4 Leitpunkte behandelt? (jeden 2–3 Sätze)",
+          "known": "All 4 guiding points covered (2–3 sentences each)?"
+        },
+        {
+          "learning": "Anrede + Grußformel da, Register einheitlich (du ODER Sie)?",
+          "known": "Salutation + closing present, register consistent?"
+        },
+        {
+          "learning": "Sie / Ihnen / Ihr großgeschrieben?",
+          "known": "Formal Sie/Ihnen/Ihr capitalised?"
+        },
+        {
+          "learning": "Jedes Verb auf Position 2, oder am Ende nach weil/dass/wenn?",
+          "known": "Every verb in position 2, or at the end after weil/dass/wenn?"
+        },
+        {
+          "learning": "Partizip / Infinitiv / Präfix am Satzende (Satzklammer)?",
+          "known": "Participle/infinitive/prefix at the end (verb bracket)?"
+        },
+        {
+          "learning": "Perfekt mit richtigem Hilfsverb (haben/sein)?",
+          "known": "Perfect with the right auxiliary (haben/sein)?"
+        },
+        {
+          "learning": "Adjektivendungen geprüft (einen neuen Job …)?",
+          "known": "Adjective endings checked?"
+        },
+        {
+          "learning": "Kasus nach Präpositionen (mit dem, für den, seit einem)?",
+          "known": "Case after prepositions checked?"
+        },
+        {
+          "learning": "Mindestens 3 verschiedene Konnektoren (weil, deshalb, außerdem …)?",
+          "known": "At least 3 different connectors used?"
+        },
+        {
+          "learning": "Mindestens eine höfliche Bitte im Konjunktiv II (bei Sie-Briefen)?",
+          "known": "At least one polite Konjunktiv-II request (in formal letters)?"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u34-l06-letter-checklist-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which checklist point means: „All 4 guiding points covered (2–3 sentences each)?“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Mindestens 3 verschiedene Konnektoren (weil, deshalb, außerdem …)?"
+        },
+        {
+          "id": "b",
+          "text": "Alle 4 Leitpunkte behandelt? (jeden 2–3 Sätze)"
+        },
+        {
+          "id": "c",
+          "text": "Partizip / Infinitiv / Präfix am Satzende (Satzklammer)?"
+        },
+        {
+          "id": "d",
+          "text": "Kasus nach Präpositionen (mit dem, für den, seit einem)?"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Alle 4 Leitpunkte behandelt? (jeden 2–3 Sätze)**\nAll 4 guiding points covered (2–3 sentences each)?"
+    },
+    {
+      "id": "tb1-u34-l06-letter-checklist-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which checklist point means: „Salutation + closing present, register consistent?“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Anrede + Grußformel da, Register einheitlich (du ODER Sie)?"
+        },
+        {
+          "id": "b",
+          "text": "Mindestens eine höfliche Bitte im Konjunktiv II (bei Sie-Briefen)?"
+        },
+        {
+          "id": "c",
+          "text": "Jedes Verb auf Position 2, oder am Ende nach weil/dass/wenn?"
+        },
+        {
+          "id": "d",
+          "text": "Kasus nach Präpositionen (mit dem, für den, seit einem)?"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Anrede + Grußformel da, Register einheitlich (du ODER Sie)?**\nSalutation + closing present, register consistent?"
+    },
+    {
+      "id": "tb1-u34-l06-letter-checklist-ex04",
+      "type": "multiple_choice",
+      "prompt": "Which checklist point means: „Formal Sie/Ihnen/Ihr capitalised?“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Sie / Ihnen / Ihr großgeschrieben?"
+        },
+        {
+          "id": "b",
+          "text": "Anrede + Grußformel da, Register einheitlich (du ODER Sie)?"
+        },
+        {
+          "id": "c",
+          "text": "Perfekt mit richtigem Hilfsverb (haben/sein)?"
+        },
+        {
+          "id": "d",
+          "text": "Mindestens 3 verschiedene Konnektoren (weil, deshalb, außerdem …)?"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Sie / Ihnen / Ihr großgeschrieben?**\nFormal Sie/Ihnen/Ihr capitalised?\n\n*Grammar:* Pronouns & Possessives"
+    },
+    {
+      "id": "tb1-u34-l06-letter-checklist-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which checklist point means: „Every verb in position 2, or at the end after weil/dass/wenn?“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Jedes Verb auf Position 2, oder am Ende nach weil/dass/wenn?"
+        },
+        {
+          "id": "b",
+          "text": "Kasus nach Präpositionen (mit dem, für den, seit einem)?"
+        },
+        {
+          "id": "c",
+          "text": "Perfekt mit richtigem Hilfsverb (haben/sein)?"
+        },
+        {
+          "id": "d",
+          "text": "Mindestens 3 verschiedene Konnektoren (weil, deshalb, außerdem …)?"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Jedes Verb auf Position 2, oder am Ende nach weil/dass/wenn?**\nEvery verb in position 2, or at the end after weil/dass/wenn?\n\n*Grammar:* Verb Position & the Verb Bracket"
+    },
+    {
+      "id": "tb1-u34-l06-letter-checklist-ex06",
+      "type": "multiple_choice",
+      "prompt": "Which checklist point means: „Participle/infinitive/prefix at the end (verb bracket)?“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Adjektivendungen geprüft (einen neuen Job …)?"
+        },
+        {
+          "id": "b",
+          "text": "Partizip / Infinitiv / Präfix am Satzende (Satzklammer)?"
+        },
+        {
+          "id": "c",
+          "text": "Kasus nach Präpositionen (mit dem, für den, seit einem)?"
+        },
+        {
+          "id": "d",
+          "text": "Mindestens eine höfliche Bitte im Konjunktiv II (bei Sie-Briefen)?"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Partizip / Infinitiv / Präfix am Satzende (Satzklammer)?**\nParticiple/infinitive/prefix at the end (verb bracket)?\n\n*Grammar:* Verb Position & the Verb Bracket"
+    },
+    {
+      "id": "tb1-u34-l06-letter-checklist-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which checklist point means: „Perfect with the right auxiliary (haben/sein)?“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Sie / Ihnen / Ihr großgeschrieben?"
+        },
+        {
+          "id": "b",
+          "text": "Kasus nach Präpositionen (mit dem, für den, seit einem)?"
+        },
+        {
+          "id": "c",
+          "text": "Jedes Verb auf Position 2, oder am Ende nach weil/dass/wenn?"
+        },
+        {
+          "id": "d",
+          "text": "Perfekt mit richtigem Hilfsverb (haben/sein)?"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**Perfekt mit richtigem Hilfsverb (haben/sein)?**\nPerfect with the right auxiliary (haben/sein)?\n\n*Grammar:* Perfekt: haben or sein"
+    },
+    {
+      "id": "tb1-u34-l06-letter-checklist-ex08",
+      "type": "multiple_choice",
+      "prompt": "Which checklist point means: „Adjective endings checked?“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Alle 4 Leitpunkte behandelt? (jeden 2–3 Sätze)"
+        },
+        {
+          "id": "b",
+          "text": "Adjektivendungen geprüft (einen neuen Job …)?"
+        },
+        {
+          "id": "c",
+          "text": "Sie / Ihnen / Ihr großgeschrieben?"
+        },
+        {
+          "id": "d",
+          "text": "Perfekt mit richtigem Hilfsverb (haben/sein)?"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Adjektivendungen geprüft (einen neuen Job …)?**\nAdjective endings checked?\n\n*Grammar:* Adjective Endings"
+    },
+    {
+      "id": "tb1-u34-l06-letter-checklist-ex09",
+      "type": "multiple_choice",
+      "prompt": "Which checklist point means: „Case after prepositions checked?“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Anrede + Grußformel da, Register einheitlich (du ODER Sie)?"
+        },
+        {
+          "id": "b",
+          "text": "Alle 4 Leitpunkte behandelt? (jeden 2–3 Sätze)"
+        },
+        {
+          "id": "c",
+          "text": "Kasus nach Präpositionen (mit dem, für den, seit einem)?"
+        },
+        {
+          "id": "d",
+          "text": "Sie / Ihnen / Ihr großgeschrieben?"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**Kasus nach Präpositionen (mit dem, für den, seit einem)?**\nCase after prepositions checked?\n\n*Grammar:* Prepositions with a Fixed Case"
+    },
+    {
+      "id": "tb1-u34-l06-letter-checklist-ex10",
+      "type": "multiple_choice",
+      "prompt": "Which checklist point means: „At least 3 different connectors used?“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Anrede + Grußformel da, Register einheitlich (du ODER Sie)?"
+        },
+        {
+          "id": "b",
+          "text": "Mindestens 3 verschiedene Konnektoren (weil, deshalb, außerdem …)?"
+        },
+        {
+          "id": "c",
+          "text": "Alle 4 Leitpunkte behandelt? (jeden 2–3 Sätze)"
+        },
+        {
+          "id": "d",
+          "text": "Perfekt mit richtigem Hilfsverb (haben/sein)?"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Mindestens 3 verschiedene Konnektoren (weil, deshalb, außerdem …)?**\nAt least 3 different connectors used?\n\n*Grammar:* Connectors: aber/denn vs. deshalb/trotzdem"
+    },
+    {
+      "id": "tb1-u34-l06-letter-checklist-ex11",
+      "type": "multiple_choice",
+      "prompt": "Which checklist point means: „At least one polite Konjunktiv-II request (in formal letters)?“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Anrede + Grußformel da, Register einheitlich (du ODER Sie)?"
+        },
+        {
+          "id": "b",
+          "text": "Mindestens eine höfliche Bitte im Konjunktiv II (bei Sie-Briefen)?"
+        },
+        {
+          "id": "c",
+          "text": "Alle 4 Leitpunkte behandelt? (jeden 2–3 Sätze)"
+        },
+        {
+          "id": "d",
+          "text": "Mindestens 3 verschiedene Konnektoren (weil, deshalb, außerdem …)?"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Mindestens eine höfliche Bitte im Konjunktiv II (bei Sie-Briefen)?**\nAt least one polite Konjunktiv-II request (in formal letters)?\n\n*Grammar:* Konjunktiv II: Polite & Unreal"
+    }
+  ]
+}

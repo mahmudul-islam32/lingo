@@ -1,0 +1,107 @@
+{
+  "id": "tb1-u33-l08-wortbildung-rule",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u33",
+  "title": "Word Order: TeKaMoLo & Details: the rule",
+  "tip": "“Ich gehe ins Kino heute Abend” is English word order. German: Ich gehe heute Abend ins Kino, time before place.",
+  "exercises": [
+    {
+      "id": "tb1-u33-l08-wortbildung-rule-ex01",
+      "type": "explain",
+      "title": "Word Order: TeKaMoLo & Details",
+      "body": "Adverbials in the middle field usually follow **Te**mporal–**Ka**usal–**Mo**dal–**Lo**kal: Ich fahre **morgen** **wegen des Termins** **mit dem Zug** **nach Berlin**. Rule of thumb: time before place.\n\n*Deutsch:* Angaben im Mittelfeld meist **Te**mporal–**Ka**usal–**Mo**dal–**Lo**kal: Ich fahre **morgen** **wegen des Termins** **mit dem Zug** **nach Berlin**. Faustregel: Zeit vor Ort.\n\n*German name:* Wortstellung: TeKaMoLo & Details",
+      "examples": [
+        {
+          "learning": "Ich fahre morgen mit dem Zug nach Berlin.",
+          "known": "Time – manner – place."
+        },
+        {
+          "learning": "Wir treffen uns um 18 Uhr vor dem Kino.",
+          "known": "We meet at 6 pm in front of the cinema."
+        },
+        {
+          "learning": "Ich habe dir gestern eine E-Mail geschickt.",
+          "known": "I sent you an e-mail yesterday. (pronoun early)"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u33-l08-wortbildung-rule-ex02",
+      "type": "explain",
+      "title": "Word Order: TeKaMoLo & Details: step by step",
+      "body": "Order in the middle field:\n**Te** (when? morgen) → **Ka** (why? wegen…) → **Mo** (how? mit dem Zug) → **Lo** (where to/where? nach Berlin).\nYou rarely need all four, but the mini rule **“time before place”** saves almost every sentence: Ich war **gestern im Kino** (never: im Kino gestern).\nPlus: pronouns as early as possible: Ich habe **dir gestern** eine Mail geschrieben.\nVariation for emphasis: front ONE element (usually time) → inversion: **Morgen** fahre ich nach Berlin. This varies your letter, not every sentence should start with “Ich”.\n\n## Auf Deutsch\n\nDie Reihenfolge im Mittelfeld:\n**Te** (wann? morgen) → **Ka** (warum? wegen…) → **Mo** (wie? mit dem Zug) → **Lo** (wohin/wo? nach Berlin).\nDu brauchst selten alle vier, aber die Mini-Regel **„Zeit vor Ort“** rettet fast jeden Satz: Ich war **gestern im Kino** (nie: im Kino gestern).\nPlus: Pronomen so früh wie möglich: Ich habe **dir gestern** eine Mail geschrieben.\nVariante für Betonung: EIN Element (oft Zeit) nach vorn → Inversion: **Morgen** fahre ich nach Berlin. Das macht deinen Brief abwechslungsreich, nicht jeder Satz muss mit „Ich“ beginnen.",
+      "examples": [
+        {
+          "learning": "Ich fahre morgen mit dem Zug nach Berlin.",
+          "known": "Time – manner – place."
+        },
+        {
+          "learning": "Wir treffen uns um 18 Uhr vor dem Kino.",
+          "known": "We meet at 6 pm in front of the cinema."
+        },
+        {
+          "learning": "Ich habe dir gestern eine E-Mail geschickt.",
+          "known": "I sent you an e-mail yesterday. (pronoun early)"
+        },
+        {
+          "learning": "Am Samstag können wir zusammen in den Park gehen.",
+          "known": "On Saturday we can go to the park together. (fronted time)"
+        },
+        {
+          "learning": "Testlücke-Stil: „Wir waren ___ .“ → gestern im Kino",
+          "known": "time before place → gestern im Kino"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u33-l08-wortbildung-rule-ex03",
+      "type": "explain",
+      "title": "Watch out & exam tip",
+      "body": "## Common trap\n\n“Ich gehe ins Kino heute Abend” is English word order. German: Ich gehe heute Abend ins Kino, time before place.\n\n*Deutsch:* „Ich gehe ins Kino heute Abend“ klingt englisch. Deutsch: Ich gehe heute Abend ins Kino. Zeit vor Ort.\n\n## In the exam\n\n🎯 How telc tests it: criterion III in the **letter** rates exactly this naturalness; “time before place” + 2–3 inverted sentences lift your text immediately. In **speaking** it makes your proposals clear: “Am Samstag um 10 vor dem Bahnhof?”\n\n*Deutsch:* 🎯 So testet telc das: Kriterium III im **Brief** bewertet genau diese Natürlichkeit; „Zeit vor Ort“ + 2–3 Sätze mit Inversion heben deinen Text sofort. Im **Sprechen** macht es deine Terminvorschläge klar: „Am Samstag um 10 vor dem Bahnhof?“\n\n*Source:* Guide B6 Pocket-Box"
+    },
+    {
+      "id": "tb1-u33-l08-wortbildung-rule-ex04",
+      "type": "choice",
+      "title": "Choose the right answer",
+      "prompt": "Welcher Satz klingt am natürlichsten?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ich fahre morgen mit dem Zug nach Berlin."
+        },
+        {
+          "id": "b",
+          "text": "Ich fahre mit dem Zug morgen nach Berlin."
+        },
+        {
+          "id": "c",
+          "text": "Ich fahre nach Berlin morgen mit dem Zug."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "TeKaMoLo: Zeit (morgen) – Art (mit dem Zug) – Ort (nach Berlin)."
+    },
+    {
+      "id": "tb1-u33-l08-wortbildung-rule-ex05",
+      "type": "choice",
+      "title": "Choose the right answer",
+      "prompt": "„gestern · im Park · haben · wir · Fußball · gespielt“, richtig ist:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Wir haben im Park gestern Fußball gespielt."
+        },
+        {
+          "id": "b",
+          "text": "Gestern wir haben im Park Fußball gespielt."
+        },
+        {
+          "id": "c",
+          "text": "Wir haben gestern im Park Fußball gespielt."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Zeit vor Ort im Mittelfeld; Verb bleibt Position 2."
+    }
+  ]
+}

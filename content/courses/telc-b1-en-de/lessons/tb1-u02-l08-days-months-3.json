@@ -1,0 +1,280 @@
+{
+  "id": "tb1-u02-l08-days-months-3",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u02",
+  "title": "Days & Months 3",
+  "tip": "Theme: Wochentage & Monate (A1)",
+  "exercises": [
+    {
+      "id": "tb1-u02-l08-days-months-3-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "der März",
+          "known": "March"
+        },
+        {
+          "id": "p2",
+          "learning": "der April",
+          "known": "April"
+        },
+        {
+          "id": "p3",
+          "learning": "der Mai",
+          "known": "May"
+        },
+        {
+          "id": "p4",
+          "learning": "der Juni",
+          "known": "June"
+        },
+        {
+          "id": "p5",
+          "learning": "der Juli",
+          "known": "July"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u02-l08-days-months-3-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „March“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "der Montag"
+        },
+        {
+          "id": "b",
+          "text": "der März"
+        },
+        {
+          "id": "c",
+          "text": "der Herbst"
+        },
+        {
+          "id": "d",
+          "text": "der Winter"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**der März** = March\n\n*Example:* Im März beginnt der neue Integrationskurs.\nThe new integration course starts in March."
+    },
+    {
+      "id": "tb1-u02-l08-days-months-3-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „April“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "der Mai"
+        },
+        {
+          "id": "b",
+          "text": "der Freitag"
+        },
+        {
+          "id": "c",
+          "text": "der April"
+        },
+        {
+          "id": "d",
+          "text": "der Mittwoch"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**der April** = April\n\n*Example:* Im April ist das Wetter oft wechselhaft.\nIn April the weather is often changeable."
+    },
+    {
+      "id": "tb1-u02-l08-days-months-3-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Im März beginnt der neue Integrationskurs.",
+      "tiles": [
+        "course",
+        "new",
+        "flying",
+        "On",
+        "March",
+        "integration",
+        "in",
+        "The",
+        "until",
+        "starts"
+      ],
+      "answers": [
+        "The new integration course starts in March."
+      ],
+      "explanation": "**der März** = March"
+    },
+    {
+      "id": "tb1-u02-l08-days-months-3-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „May“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "der Juni"
+        },
+        {
+          "id": "b",
+          "text": "der Mai"
+        },
+        {
+          "id": "c",
+          "text": "der Freitag"
+        },
+        {
+          "id": "d",
+          "text": "der Herbst"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**der Mai** = May\n\n*Example:* Wir sind im Mai in die neue Wohnung umgezogen.\nWe moved into the new flat in May."
+    },
+    {
+      "id": "tb1-u02-l08-days-months-3-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "In April the weather is often changeable.",
+      "tiles": [
+        "Januar",
+        "wechselhaft",
+        "April",
+        "das",
+        "oft",
+        "Wetter",
+        "ist",
+        "Im",
+        "19",
+        "grillen"
+      ],
+      "answers": [
+        "Im April ist das Wetter oft wechselhaft."
+      ],
+      "explanation": "**der April** = April"
+    },
+    {
+      "id": "tb1-u02-l08-days-months-3-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „June“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "der Montag"
+        },
+        {
+          "id": "b",
+          "text": "der Juni"
+        },
+        {
+          "id": "c",
+          "text": "der Frühling"
+        },
+        {
+          "id": "d",
+          "text": "der Herbst"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**der Juni** = June\n\n*Example:* Im Juni macht Maria ihre Prüfung.\nMaria is taking her exam in June."
+    },
+    {
+      "id": "tb1-u02-l08-days-months-3-ex08",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u02-l08-days-months-3-3.mp3"
+      },
+      "tiles": [
+        "neue",
+        "sind",
+        "Mai",
+        "Herbst",
+        "Mein",
+        "die",
+        "umgezogen",
+        "sehr",
+        "im",
+        "Wohnung",
+        "Wir",
+        "in"
+      ],
+      "answers": [
+        "Wir sind im Mai in die neue Wohnung umgezogen."
+      ],
+      "explanation": "Wir sind im Mai in die neue Wohnung umgezogen.\n*We moved into the new flat in May.*\n\n**der Mai** = May"
+    },
+    {
+      "id": "tb1-u02-l08-days-months-3-ex09",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „July“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "der Januar"
+        },
+        {
+          "id": "b",
+          "text": "der Juli"
+        },
+        {
+          "id": "c",
+          "text": "der April"
+        },
+        {
+          "id": "d",
+          "text": "der Dienstag"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**der Juli** = July\n\n*Example:* Im Juli fliegen wir in den Urlaub nach Spanien.\nIn July we're flying to Spain on holiday."
+    },
+    {
+      "id": "tb1-u02-l08-days-months-3-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Im Juni macht Maria ihre Prüfung.",
+      "tiles": [
+        "new",
+        "June",
+        "Friday",
+        "in",
+        "her",
+        "is",
+        "exam",
+        "the",
+        "Maria",
+        "taking"
+      ],
+      "answers": [
+        "Maria is taking her exam in June."
+      ],
+      "explanation": "**der Juni** = June"
+    },
+    {
+      "id": "tb1-u02-l08-days-months-3-ex11",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "In July we're flying to Spain on holiday.",
+      "tiles": [
+        "Juli",
+        "wir",
+        "nach",
+        "Am",
+        "fliegen",
+        "Urlaub",
+        "Im",
+        "in",
+        "oft",
+        "meine",
+        "Spanien",
+        "den"
+      ],
+      "answers": [
+        "Im Juli fliegen wir in den Urlaub nach Spanien."
+      ],
+      "explanation": "**der Juli** = July"
+    }
+  ]
+}

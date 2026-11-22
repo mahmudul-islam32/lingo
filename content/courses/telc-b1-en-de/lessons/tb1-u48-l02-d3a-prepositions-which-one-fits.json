@@ -1,0 +1,267 @@
+{
+  "id": "tb1-u48-l02-d3a-prepositions-which-one-fits",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u48",
+  "title": "Prepositions, which one fits? (Präpositionen, welche passt?)",
+  "tip": "Gap type: Präpositionen (prepositions).",
+  "exercises": [
+    {
+      "id": "tb1-u48-l02-d3a-prepositions-which-one-fits-ex01",
+      "type": "explain",
+      "title": "Prepositions, which one fits?",
+      "body": "**Fixed cases:** always accusative after durch, für, gegen, ohne, um · always dative after aus, bei, mit, nach, seit, von, zu · genitive with wegen, während, trotz, statt.\n**The nine two-way prepositions** (an, auf, hinter, in, neben, über, unter, vor, zwischen): Where to? → accusative; Where at? → dative.\n**Time:** um 14 Uhr (clock) · am Montag / am Abend (day, part of day) · im Sommer / im Mai (month, season) · seit drei Jahren (still true) · vor drei Jahren (over) · in einer Woche (future).\n**Remember:** to people and buildings → zu; to towns and countries → nach; living/working at someone's → bei.\n\n## Auf Deutsch: Präpositionen, welche passt?\n\n**Feste Kasus:** immer Akkusativ nach durch, für, gegen, ohne, um · immer Dativ nach aus, bei, mit, nach, seit, von, zu · Genitiv bei wegen, während, trotz, statt.\n**Die neun Wechselpräpositionen** (an, auf, hinter, in, neben, über, unter, vor, zwischen): Wohin? → Akkusativ, Wo? → Dativ.\n**Zeit:** um 14 Uhr (Uhrzeit) · am Montag / am Abend (Tag, Tageszeit) · im Sommer / im Mai (Monat, Jahreszeit) · seit drei Jahren (dauert an) · vor drei Jahren (vorbei) · in einer Woche (Zukunft).\n**Merke:** zu Personen und Gebäuden → zu; nach Städten und Ländern → nach; bei jemandem wohnen/arbeiten → bei."
+    },
+    {
+      "id": "tb1-u48-l02-d3a-prepositions-which-one-fits-ex02",
+      "type": "choice",
+      "prompt": "Der Bus fährt direkt ___ Bahnhof.",
+      "options": [
+        {
+          "id": "a",
+          "text": "nach"
+        },
+        {
+          "id": "b",
+          "text": "beim"
+        },
+        {
+          "id": "c",
+          "text": "zum"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**Answer: zum** · Präpositionen (prepositions)\n\nDirection to a building = zu (+ dative, contracted zum). „nach“ only for towns and countries.\n\n*Auf Deutsch:* Richtung zu einem Gebäude = zu (+ Dativ, verkürzt zum). „nach“ nur bei Städten und Ländern."
+    },
+    {
+      "id": "tb1-u48-l02-d3a-prepositions-which-one-fits-ex03",
+      "type": "choice",
+      "prompt": "Ich wohne seit drei Jahren ___ meiner Tante.",
+      "options": [
+        {
+          "id": "a",
+          "text": "in"
+        },
+        {
+          "id": "b",
+          "text": "bei"
+        },
+        {
+          "id": "c",
+          "text": "zu"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Answer: bei** · Präpositionen (prepositions)\n\nLiving at someone's place = bei + dative. „zu“ would be movement.\n\n*Auf Deutsch:* Bei jemandem wohnen = bei + Dativ. „zu“ wäre Bewegung."
+    },
+    {
+      "id": "tb1-u48-l02-d3a-prepositions-which-one-fits-ex04",
+      "type": "choice",
+      "prompt": "Er kommt ___ der Türkei.",
+      "options": [
+        {
+          "id": "a",
+          "text": "von"
+        },
+        {
+          "id": "b",
+          "text": "ab"
+        },
+        {
+          "id": "c",
+          "text": "aus"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**Answer: aus** · Präpositionen (prepositions)\n\nOrigin from a country = aus. „von“ comes from a person or a point.\n\n*Auf Deutsch:* Herkunft aus einem Land = aus. „von“ kommt von einer Person oder einem Punkt."
+    },
+    {
+      "id": "tb1-u48-l02-d3a-prepositions-which-one-fits-ex05",
+      "type": "choice",
+      "prompt": "Wir fahren ___ Sommer immer ans Meer.",
+      "options": [
+        {
+          "id": "a",
+          "text": "im"
+        },
+        {
+          "id": "b",
+          "text": "am"
+        },
+        {
+          "id": "c",
+          "text": "um"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Answer: im** · Präpositionen (prepositions)\n\nSeason → im Sommer.\n\n*Auf Deutsch:* Jahreszeit → im Sommer."
+    },
+    {
+      "id": "tb1-u48-l02-d3a-prepositions-which-one-fits-ex06",
+      "type": "choice",
+      "prompt": "Die Sitzung beginnt ___ 14 Uhr.",
+      "options": [
+        {
+          "id": "a",
+          "text": "am"
+        },
+        {
+          "id": "b",
+          "text": "um"
+        },
+        {
+          "id": "c",
+          "text": "im"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Answer: um** · Präpositionen (prepositions)\n\nClock time → um 14 Uhr.\n\n*Auf Deutsch:* Uhrzeit → um 14 Uhr."
+    },
+    {
+      "id": "tb1-u48-l02-d3a-prepositions-which-one-fits-ex07",
+      "type": "choice",
+      "prompt": "___ des schlechten Wetters findet das Fest im Saal statt.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Trotz"
+        },
+        {
+          "id": "b",
+          "text": "Während"
+        },
+        {
+          "id": "c",
+          "text": "Wegen"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**Answer: Wegen** · Präpositionen (prepositions)\n\nBecause of the weather the party moves indoors. „trotz“ would contradict the logic. All three take genitive, only meaning decides here.\n\n*Auf Deutsch:* Wegen des Wetters zieht das Fest nach drinnen. „trotz“ widerspräche der Logik. Alle drei stehen mit Genitiv, hier entscheidet nur die Bedeutung."
+    },
+    {
+      "id": "tb1-u48-l02-d3a-prepositions-which-one-fits-ex08",
+      "type": "choice",
+      "prompt": "Häng bitte das Bild ___ die Wand!",
+      "options": [
+        {
+          "id": "a",
+          "text": "an"
+        },
+        {
+          "id": "b",
+          "text": "auf"
+        },
+        {
+          "id": "c",
+          "text": "unter"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Answer: an** · Präpositionen (prepositions)\n\nPictures go an die Wand (Where to? → accusative).\n\n*Auf Deutsch:* Bilder kommen an die Wand (Wohin? → Akkusativ)."
+    },
+    {
+      "id": "tb1-u48-l02-d3a-prepositions-which-one-fits-ex09",
+      "type": "choice",
+      "prompt": "Das Auto steht ___ dem Haus.",
+      "options": [
+        {
+          "id": "a",
+          "text": "für"
+        },
+        {
+          "id": "b",
+          "text": "vor"
+        },
+        {
+          "id": "c",
+          "text": "gegen"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Answer: vor** · Präpositionen (prepositions)\n\nPosition (Where at? → dative „dem Haus“). Für and gegen take accusative, the dative rules them out. Sometimes the case does the elimination for you.\n\n*Auf Deutsch:* Position (Wo? → Dativ „dem Haus“). Für und gegen verlangen Akkusativ, der Dativ schließt sie aus. Manchmal erledigt der Kasus die Auswahl für dich."
+    },
+    {
+      "id": "tb1-u48-l02-d3a-prepositions-which-one-fits-ex10",
+      "type": "choice",
+      "prompt": "Ich habe drei Monate ___ einer kleinen Firma gearbeitet.",
+      "options": [
+        {
+          "id": "a",
+          "text": "bei"
+        },
+        {
+          "id": "b",
+          "text": "auf"
+        },
+        {
+          "id": "c",
+          "text": "an"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Answer: bei** · Präpositionen (prepositions)\n\nWorking at a company = bei einer Firma. Exactly the pattern from Übungstest 1.\n\n*Auf Deutsch:* In einer Firma arbeiten = bei einer Firma. Genau dieses Muster kam im Übungstest 1 vor."
+    },
+    {
+      "id": "tb1-u48-l02-d3a-prepositions-which-one-fits-ex11",
+      "type": "choice",
+      "prompt": "Fährst du am Wochenende ___ deinen Eltern?",
+      "options": [
+        {
+          "id": "a",
+          "text": "bei"
+        },
+        {
+          "id": "b",
+          "text": "nach"
+        },
+        {
+          "id": "c",
+          "text": "zu"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**Answer: zu** · Präpositionen (prepositions)\n\nMovement to people = zu. „bei“ means being there, not going there.\n\n*Auf Deutsch:* Bewegung zu Personen = zu. „bei“ heißt dort sein, nicht dorthin fahren."
+    },
+    {
+      "id": "tb1-u48-l02-d3a-prepositions-which-one-fits-ex12",
+      "type": "choice",
+      "prompt": "___ dem Essen putze ich mir die Zähne.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Nach"
+        },
+        {
+          "id": "b",
+          "text": "Seit"
+        },
+        {
+          "id": "c",
+          "text": "Bis"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Answer: Nach** · Präpositionen (prepositions)\n\nSequence: after the meal.\n\n*Auf Deutsch:* Reihenfolge: nach dem Essen."
+    },
+    {
+      "id": "tb1-u48-l02-d3a-prepositions-which-one-fits-ex13",
+      "type": "choice",
+      "prompt": "Wir sind ___ einer Woche wieder zurück, dann feiern wir!",
+      "options": [
+        {
+          "id": "a",
+          "text": "seit"
+        },
+        {
+          "id": "b",
+          "text": "vor"
+        },
+        {
+          "id": "c",
+          "text": "in"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**Answer: in** · Präpositionen (prepositions)\n\nFuture: in a week. Seit and vor point backwards.\n\n*Auf Deutsch:* Zukunft: in einer Woche. Seit und vor zeigen zurück."
+    }
+  ]
+}

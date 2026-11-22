@@ -1,0 +1,290 @@
+{
+  "id": "tb1-u10-l01-connectors-a2-1",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u10",
+  "title": "Connectors (A2) 1",
+  "tip": "Theme: Konnektoren (A2) (A2)",
+  "exercises": [
+    {
+      "id": "tb1-u10-l01-connectors-a2-1-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "weil",
+          "known": "because"
+        },
+        {
+          "id": "p2",
+          "learning": "dass",
+          "known": "that"
+        },
+        {
+          "id": "p3",
+          "learning": "wenn",
+          "known": "if / when"
+        },
+        {
+          "id": "p4",
+          "learning": "obwohl",
+          "known": "although"
+        },
+        {
+          "id": "p5",
+          "learning": "damit",
+          "known": "so that"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u10-l01-connectors-a2-1-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which one means „because“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "falls"
+        },
+        {
+          "id": "b",
+          "text": "während"
+        },
+        {
+          "id": "c",
+          "text": "zuerst … dann"
+        },
+        {
+          "id": "d",
+          "text": "weil"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**weil** = because\n\n*Example:* Ich komme heute nicht zur Arbeit, weil ich krank bin.\nI'm not coming to work today because I'm ill."
+    },
+    {
+      "id": "tb1-u10-l01-connectors-a2-1-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which one means „that“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "dass"
+        },
+        {
+          "id": "b",
+          "text": "entweder … oder"
+        },
+        {
+          "id": "c",
+          "text": "trotzdem"
+        },
+        {
+          "id": "d",
+          "text": "bevor"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**dass** = that\n\n*Example:* Ich hoffe, dass du bald wieder gesund bist.\nI hope that you'll be well again soon."
+    },
+    {
+      "id": "tb1-u10-l01-connectors-a2-1-ex04",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u10-l01-connectors-a2-1-1.mp3"
+      },
+      "tiles": [
+        "nicht",
+        "weil",
+        "wieder",
+        "bin",
+        "dann",
+        "ich",
+        "fahren",
+        "Arbeit",
+        "heute",
+        "Ich",
+        "krank",
+        "komme",
+        "zur"
+      ],
+      "answers": [
+        "Ich komme heute nicht zur Arbeit, weil ich krank bin."
+      ],
+      "explanation": "Ich komme heute nicht zur Arbeit, weil ich krank bin.\n*I'm not coming to work today because I'm ill.*\n\n**weil** = because"
+    },
+    {
+      "id": "tb1-u10-l01-connectors-a2-1-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which one means „if / when“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "trotzdem"
+        },
+        {
+          "id": "b",
+          "text": "dass"
+        },
+        {
+          "id": "c",
+          "text": "wenn"
+        },
+        {
+          "id": "d",
+          "text": "zuerst … dann"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**wenn** = if / when\n\n*Example:* Wenn das Wetter schön ist, grillen wir im Garten.\nIf the weather is nice, we'll have a barbecue in the garden."
+    },
+    {
+      "id": "tb1-u10-l01-connectors-a2-1-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Ich hoffe, dass du bald wieder gesund bist.",
+      "tiles": [
+        "has",
+        "be",
+        "soon",
+        "that",
+        "you'll",
+        "call",
+        "well",
+        "I",
+        "again",
+        "hope",
+        "been"
+      ],
+      "answers": [
+        "I hope that you'll be well again soon."
+      ],
+      "explanation": "**dass** = that"
+    },
+    {
+      "id": "tb1-u10-l01-connectors-a2-1-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which one means „although“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "bevor"
+        },
+        {
+          "id": "b",
+          "text": "trotzdem"
+        },
+        {
+          "id": "c",
+          "text": "damit"
+        },
+        {
+          "id": "d",
+          "text": "obwohl"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**obwohl** = although\n\n*Example:* Tom geht zur Arbeit, obwohl er Kopfschmerzen hat.\nTom is going to work although he has a headache."
+    },
+    {
+      "id": "tb1-u10-l01-connectors-a2-1-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "If the weather is nice, we'll have a barbecue in the garden.",
+      "tiles": [
+        "also",
+        "ist",
+        "im",
+        "oder",
+        "grillen",
+        "Wetter",
+        "wir",
+        "mich",
+        "Wenn",
+        "Garten",
+        "das",
+        "schön"
+      ],
+      "answers": [
+        "Wenn das Wetter schön ist, grillen wir im Garten."
+      ],
+      "explanation": "**wenn** = if / when"
+    },
+    {
+      "id": "tb1-u10-l01-connectors-a2-1-ex09",
+      "type": "multiple_choice",
+      "prompt": "Which one means „so that“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "sowohl … als auch"
+        },
+        {
+          "id": "b",
+          "text": "deshalb"
+        },
+        {
+          "id": "c",
+          "text": "damit"
+        },
+        {
+          "id": "d",
+          "text": "wenn"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**damit** = so that\n\n*Example:* Ich lerne jeden Tag Deutsch, damit ich einen guten Job finde.\nI study German every day so that I can find a good job."
+    },
+    {
+      "id": "tb1-u10-l01-connectors-a2-1-ex10",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u10-l01-connectors-a2-1-4.mp3"
+      },
+      "tiles": [
+        "Kopfschmerzen",
+        "obwohl",
+        "Tom",
+        "sondern",
+        "nicht",
+        "entweder",
+        "Arbeit",
+        "zur",
+        "er",
+        "geht",
+        "hat"
+      ],
+      "answers": [
+        "Tom geht zur Arbeit, obwohl er Kopfschmerzen hat."
+      ],
+      "explanation": "Tom geht zur Arbeit, obwohl er Kopfschmerzen hat.\n*Tom is going to work although he has a headache.*\n\n**obwohl** = although"
+    },
+    {
+      "id": "tb1-u10-l01-connectors-a2-1-ex11",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Ich lerne jeden Tag Deutsch, damit ich einen guten Job finde.",
+      "tiles": [
+        "I",
+        "day",
+        "that",
+        "so",
+        "find",
+        "are",
+        "German",
+        "a",
+        "I",
+        "goes",
+        "only",
+        "can",
+        "study",
+        "every",
+        "job",
+        "good"
+      ],
+      "answers": [
+        "I study German every day so that I can find a good job."
+      ],
+      "explanation": "**damit** = so that"
+    }
+  ]
+}

@@ -1,0 +1,235 @@
+{
+  "id": "tb1-u22-l08-frequent-exam-adjectives-4",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u22",
+  "title": "Frequent Exam Adjectives 4",
+  "tip": "Theme: Adjektive: Prüfungshäufig (B1)",
+  "exercises": [
+    {
+      "id": "tb1-u22-l08-frequent-exam-adjectives-4-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "positiv",
+          "known": "positive"
+        },
+        {
+          "id": "p2",
+          "learning": "negativ",
+          "known": "negative"
+        },
+        {
+          "id": "p3",
+          "learning": "aktiv",
+          "known": "active"
+        },
+        {
+          "id": "p4",
+          "learning": "privat",
+          "known": "private"
+        },
+        {
+          "id": "p5",
+          "learning": "wenig",
+          "known": "little / few"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u22-l08-frequent-exam-adjectives-4-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which one means „positive“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "regelmäßig"
+        },
+        {
+          "id": "b",
+          "text": "positiv"
+        },
+        {
+          "id": "c",
+          "text": "wenig"
+        },
+        {
+          "id": "d",
+          "text": "aktiv"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**positiv** = positive\n\n*Example:* Mein Kollege hat eine positive Antwort von der Firma bekommen.\nMy colleague got a positive reply from the company."
+    },
+    {
+      "id": "tb1-u22-l08-frequent-exam-adjectives-4-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which one means „negative“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "sportlich"
+        },
+        {
+          "id": "b",
+          "text": "regelmäßig"
+        },
+        {
+          "id": "c",
+          "text": "negativ"
+        },
+        {
+          "id": "d",
+          "text": "positiv"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**negativ** = negative\n\n*Example:* Zum Glück war der Corona-Test negativ.\nLuckily the Covid test was negative."
+    },
+    {
+      "id": "tb1-u22-l08-frequent-exam-adjectives-4-ex04",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u22-l08-frequent-exam-adjectives-4-1.mp3"
+      },
+      "tiles": [
+        "bekommen",
+        "Kollege",
+        "hat",
+        "Mein",
+        "Firma",
+        "kann",
+        "Person",
+        "eine",
+        "positive",
+        "von",
+        "seinen",
+        "Antwort",
+        "der"
+      ],
+      "answers": [
+        "Mein Kollege hat eine positive Antwort von der Firma bekommen."
+      ],
+      "explanation": "Mein Kollege hat eine positive Antwort von der Firma bekommen.\n*My colleague got a positive reply from the company.*\n\n**positiv** = positive"
+    },
+    {
+      "id": "tb1-u22-l08-frequent-exam-adjectives-4-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which one means „active“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "inzwischen"
+        },
+        {
+          "id": "b",
+          "text": "einzig"
+        },
+        {
+          "id": "c",
+          "text": "endlich"
+        },
+        {
+          "id": "d",
+          "text": "aktiv"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**aktiv** = active\n\n*Example:* Meine Nachbarin ist sehr aktiv im Sportverein.\nMy neighbour is very active in the sports club."
+    },
+    {
+      "id": "tb1-u22-l08-frequent-exam-adjectives-4-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Zum Glück war der Corona-Test negativ.",
+      "tiles": [
+        "months",
+        "company",
+        "the",
+        "Covid",
+        "negative",
+        "was",
+        "test",
+        "in",
+        "Luckily"
+      ],
+      "answers": [
+        "Luckily the Covid test was negative."
+      ],
+      "explanation": "**negativ** = negative"
+    },
+    {
+      "id": "tb1-u22-l08-frequent-exam-adjectives-4-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which one means „private“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "privat"
+        },
+        {
+          "id": "b",
+          "text": "unabhängig"
+        },
+        {
+          "id": "c",
+          "text": "bereits"
+        },
+        {
+          "id": "d",
+          "text": "einzig"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**privat** = private\n\n*Example:* Das ist meine private Handynummer, nicht die Nummer vom Büro.\nThat's my private mobile number, not the office number."
+    },
+    {
+      "id": "tb1-u22-l08-frequent-exam-adjectives-4-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "My neighbour is very active in the sports club.",
+      "tiles": [
+        "aktiv",
+        "Nachbarin",
+        "sehr",
+        "Sportverein",
+        "ist",
+        "beworben",
+        "im",
+        "bitte",
+        "er",
+        "Meine"
+      ],
+      "answers": [
+        "Meine Nachbarin ist sehr aktiv im Sportverein."
+      ],
+      "explanation": "**aktiv** = active"
+    },
+    {
+      "id": "tb1-u22-l08-frequent-exam-adjectives-4-ex09",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u22-l08-frequent-exam-adjectives-4-4.mp3"
+      },
+      "tiles": [
+        "Büro",
+        "Handynummer",
+        "die",
+        "geht",
+        "nicht",
+        "meine",
+        "dass",
+        "ist",
+        "Das",
+        "Nummer",
+        "private",
+        "braucht",
+        "vom"
+      ],
+      "answers": [
+        "Das ist meine private Handynummer, nicht die Nummer vom Büro."
+      ],
+      "explanation": "Das ist meine private Handynummer, nicht die Nummer vom Büro.\n*That's my private mobile number, not the office number.*\n\n**privat** = private"
+    }
+  ]
+}

@@ -1,0 +1,277 @@
+{
+  "id": "tb1-u05-l03-key-verbs-a1-3",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u05",
+  "title": "Key Verbs (A1) 3",
+  "tip": "Theme: Wichtige Verben (A1) (A1)",
+  "exercises": [
+    {
+      "id": "tb1-u05-l03-key-verbs-a1-3-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "schreiben",
+          "known": "to write"
+        },
+        {
+          "id": "p2",
+          "learning": "kaufen",
+          "known": "to buy"
+        },
+        {
+          "id": "p3",
+          "learning": "arbeiten",
+          "known": "to work"
+        },
+        {
+          "id": "p4",
+          "learning": "wohnen",
+          "known": "to live / reside"
+        },
+        {
+          "id": "p5",
+          "learning": "schlafen",
+          "known": "to sleep"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u05-l03-key-verbs-a1-3-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which one means „to write“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "mögen (mag)"
+        },
+        {
+          "id": "b",
+          "text": "sagen"
+        },
+        {
+          "id": "c",
+          "text": "schreiben"
+        },
+        {
+          "id": "d",
+          "text": "kaufen"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**schreiben** = to write\n\n*Example:* Tom schreibt seiner Mutter eine Nachricht.\nTom is writing a message to his mother."
+    },
+    {
+      "id": "tb1-u05-l03-key-verbs-a1-3-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which one means „to buy“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "essen (isst)"
+        },
+        {
+          "id": "b",
+          "text": "kaufen"
+        },
+        {
+          "id": "c",
+          "text": "sprechen (spricht)"
+        },
+        {
+          "id": "d",
+          "text": "mögen (mag)"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**kaufen** = to buy\n\n*Example:* Wir kaufen Brot und Milch im Supermarkt.\nWe buy bread and milk at the supermarket."
+    },
+    {
+      "id": "tb1-u05-l03-key-verbs-a1-3-ex04",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u05-l03-key-verbs-a1-3-1.mp3"
+      },
+      "tiles": [
+        "Tom",
+        "Nachricht",
+        "eine",
+        "Schwester",
+        "seiner",
+        "trinke",
+        "Mutter",
+        "schreibt",
+        "Köln"
+      ],
+      "answers": [
+        "Tom schreibt seiner Mutter eine Nachricht."
+      ],
+      "explanation": "Tom schreibt seiner Mutter eine Nachricht.\n*Tom is writing a message to his mother.*\n\n**schreiben** = to write"
+    },
+    {
+      "id": "tb1-u05-l03-key-verbs-a1-3-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which one means „to work“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "arbeiten"
+        },
+        {
+          "id": "b",
+          "text": "spielen"
+        },
+        {
+          "id": "c",
+          "text": "schlafen (schläft)"
+        },
+        {
+          "id": "d",
+          "text": "verstehen"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**arbeiten** = to work\n\n*Example:* Meine Schwester arbeitet in einem Krankenhaus.\nMy sister works in a hospital."
+    },
+    {
+      "id": "tb1-u05-l03-key-verbs-a1-3-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Wir kaufen Brot und Milch im Supermarkt.",
+      "tiles": [
+        "and",
+        "milk",
+        "buy",
+        "We",
+        "bread",
+        "You",
+        "at",
+        "supermarket",
+        "the",
+        "a",
+        "colleague"
+      ],
+      "answers": [
+        "We buy bread and milk at the supermarket."
+      ],
+      "explanation": "**kaufen** = to buy"
+    },
+    {
+      "id": "tb1-u05-l03-key-verbs-a1-3-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which one means „to live / reside“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "schreiben"
+        },
+        {
+          "id": "b",
+          "text": "fahren (fährt)"
+        },
+        {
+          "id": "c",
+          "text": "arbeiten"
+        },
+        {
+          "id": "d",
+          "text": "wohnen"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**wohnen** = to live / reside\n\n*Example:* Anna wohnt seit zwei Jahren in Köln.\nAnna has been living in Cologne for two years."
+    },
+    {
+      "id": "tb1-u05-l03-key-verbs-a1-3-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "My sister works in a hospital.",
+      "tiles": [
+        "heute",
+        "arbeitet",
+        "Schwester",
+        "in",
+        "einem",
+        "gern",
+        "Krankenhaus",
+        "Meine",
+        "Kollege"
+      ],
+      "answers": [
+        "Meine Schwester arbeitet in einem Krankenhaus."
+      ],
+      "explanation": "**arbeiten** = to work"
+    },
+    {
+      "id": "tb1-u05-l03-key-verbs-a1-3-ex09",
+      "type": "multiple_choice",
+      "prompt": "Which one means „to sleep“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "wohnen"
+        },
+        {
+          "id": "b",
+          "text": "mögen (mag)"
+        },
+        {
+          "id": "c",
+          "text": "hören"
+        },
+        {
+          "id": "d",
+          "text": "schlafen (schläft)"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**schlafen (schläft)** = to sleep\n\n*Example:* Das Baby schläft schon, bitte sei leise.\nThe baby is already asleep, please be quiet."
+    },
+    {
+      "id": "tb1-u05-l03-key-verbs-a1-3-ex10",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u05-l03-key-verbs-a1-3-4.mp3"
+      },
+      "tiles": [
+        "wohnt",
+        "Jahren",
+        "brauchen",
+        "zwei",
+        "Tomaten",
+        "seit",
+        "gehe",
+        "Anna",
+        "in",
+        "Köln"
+      ],
+      "answers": [
+        "Anna wohnt seit zwei Jahren in Köln."
+      ],
+      "explanation": "Anna wohnt seit zwei Jahren in Köln.\n*Anna has been living in Cologne for two years.*\n\n**wohnen** = to live / reside"
+    },
+    {
+      "id": "tb1-u05-l03-key-verbs-a1-3-ex11",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Das Baby schläft schon, bitte sei leise.",
+      "tiles": [
+        "says",
+        "asleep",
+        "We",
+        "already",
+        "quiet",
+        "is",
+        "be",
+        "please",
+        "baby",
+        "eat",
+        "The"
+      ],
+      "answers": [
+        "The baby is already asleep, please be quiet."
+      ],
+      "explanation": "**schlafen (schläft)** = to sleep"
+    }
+  ]
+}

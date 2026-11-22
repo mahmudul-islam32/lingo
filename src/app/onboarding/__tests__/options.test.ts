@@ -19,9 +19,19 @@ describe("goal options", () => {
 describe("course loader", () => {
   it("loads the bundled courses, default en-de first, valid against CourseSchema", async () => {
     const courses = await loadCourses();
-    expect(courses.map((c) => c.id)).toEqual(["en-de", "en-es"]);
+    expect(courses.map((c) => c.id)).toEqual([
+      "en-de",
+      "telc-b1-en-de",
+      "einbuergerung-en-de",
+      "en-es",
+    ]);
     for (const course of courses) expect(() => CourseSchema.parse(course)).not.toThrow();
-    expect(courses.map((c) => c.title)).toEqual(["German", "Spanish"]);
+    expect(courses.map((c) => c.title)).toEqual([
+      "German",
+      "telc B1 Exam Prep",
+      "Einbürgerungstest",
+      "Spanish",
+    ]);
     expect(courseSubtitle(courses[0]!)).toBe("for English speakers");
   });
 

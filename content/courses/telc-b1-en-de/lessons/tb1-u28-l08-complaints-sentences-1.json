@@ -1,0 +1,248 @@
+{
+  "id": "tb1-u28-l08-complaints-sentences-1",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u28",
+  "title": "Complaints (Sentences) 1",
+  "tip": "Theme: Sätze: Beschwerde & Reklamation (B1)",
+  "exercises": [
+    {
+      "id": "tb1-u28-l08-complaints-sentences-1-ex01",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means „Unfortunately I have to complain about your service.“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Schon nach zwei Tagen war es kaputt."
+        },
+        {
+          "id": "b",
+          "text": "Leider muss ich mich über Ihren Service beschweren."
+        },
+        {
+          "id": "c",
+          "text": "Das Gerät funktioniert leider nicht richtig."
+        },
+        {
+          "id": "d",
+          "text": "Mit dem Service bin ich überhaupt nicht zufrieden."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Leider muss ich mich über Ihren Service beschweren.** = Unfortunately I have to complain about your service.\n\n*Example:* Leider muss ich mich über Ihren Service beschweren.\nUnfortunately I have to complain about your service."
+    },
+    {
+      "id": "tb1-u28-l08-complaints-sentences-1-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means „Unfortunately the device does not work properly.“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ich möchte das Gerät umtauschen oder mein Geld zurückbekommen."
+        },
+        {
+          "id": "b",
+          "text": "Ich hoffe, dass wir schnell eine gute Lösung finden."
+        },
+        {
+          "id": "c",
+          "text": "Die Rechnung habe ich als Anhang beigefügt."
+        },
+        {
+          "id": "d",
+          "text": "Das Gerät funktioniert leider nicht richtig."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**Das Gerät funktioniert leider nicht richtig.** = Unfortunately the device does not work properly.\n\n*Example:* Das Gerät funktioniert leider nicht richtig.\nUnfortunately the device does not work properly."
+    },
+    {
+      "id": "tb1-u28-l08-complaints-sentences-1-ex03",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Unfortunately I have to complain about your service.",
+      "tiles": [
+        "beschweren",
+        "Service",
+        "muss",
+        "umtauschen",
+        "es",
+        "Ihren",
+        "Leider",
+        "so",
+        "ich",
+        "über",
+        "mich"
+      ],
+      "answers": [
+        "Leider muss ich mich über Ihren Service beschweren."
+      ],
+      "explanation": "**Leider muss ich mich über Ihren Service beschweren.** = Unfortunately I have to complain about your service."
+    },
+    {
+      "id": "tb1-u28-l08-complaints-sentences-1-ex04",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means „It was broken after only two days.“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Schon nach zwei Tagen war es kaputt."
+        },
+        {
+          "id": "b",
+          "text": "Die Rechnung habe ich als Anhang beigefügt."
+        },
+        {
+          "id": "c",
+          "text": "Leider muss ich mich über Ihren Service beschweren."
+        },
+        {
+          "id": "d",
+          "text": "Ich bitte Sie, mir das Geld zurückzuerstatten."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Schon nach zwei Tagen war es kaputt.** = It was broken after only two days.\n\n*Example:* Schon nach zwei Tagen war es kaputt.\nIt was broken after only two days."
+    },
+    {
+      "id": "tb1-u28-l08-complaints-sentences-1-ex05",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u28-l08-complaints-sentences-1-2.mp3"
+      },
+      "tiles": [
+        "Gerät",
+        "Das",
+        "wie",
+        "leider",
+        "richtig",
+        "Tagen",
+        "nicht",
+        "funktioniert",
+        "Ich"
+      ],
+      "answers": [
+        "Das Gerät funktioniert leider nicht richtig."
+      ],
+      "explanation": "Das Gerät funktioniert leider nicht richtig.\n*Unfortunately the device does not work properly.*\n\n**Das Gerät funktioniert leider nicht richtig.** = Unfortunately the device does not work properly."
+    },
+    {
+      "id": "tb1-u28-l08-complaints-sentences-1-ex06",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means „I would like to exchange the device or get my money back.“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ich möchte das Gerät umtauschen oder mein Geld zurückbekommen."
+        },
+        {
+          "id": "b",
+          "text": "Schon nach zwei Tagen war es kaputt."
+        },
+        {
+          "id": "c",
+          "text": "Ich erwarte Ihre Antwort bis Ende der Woche."
+        },
+        {
+          "id": "d",
+          "text": "Ich bitte Sie, mir das Geld zurückzuerstatten."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Ich möchte das Gerät umtauschen oder mein Geld zurückbekommen.** = I would like to exchange the device or get my money back.\n\n*Example:* Ich möchte das Gerät umtauschen oder mein Geld zurückbekommen.\nI would like to exchange the device or get my money back."
+    },
+    {
+      "id": "tb1-u28-l08-complaints-sentences-1-ex07",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Schon nach zwei Tagen war es kaputt.",
+      "tiles": [
+        "two",
+        "after",
+        "not",
+        "only",
+        "work",
+        "was",
+        "device",
+        "It",
+        "broken",
+        "days"
+      ],
+      "answers": [
+        "It was broken after only two days."
+      ],
+      "explanation": "**Schon nach zwei Tagen war es kaputt.** = It was broken after only two days."
+    },
+    {
+      "id": "tb1-u28-l08-complaints-sentences-1-ex08",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means „I ask you to refund me the money.“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ich erwarte Ihre Antwort bis Ende der Woche."
+        },
+        {
+          "id": "b",
+          "text": "Leider muss ich mich über Ihren Service beschweren."
+        },
+        {
+          "id": "c",
+          "text": "Bitte antworten Sie mir so schnell wie möglich."
+        },
+        {
+          "id": "d",
+          "text": "Ich bitte Sie, mir das Geld zurückzuerstatten."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**Ich bitte Sie, mir das Geld zurückzuerstatten.** = I ask you to refund me the money.\n\n*Example:* Ich bitte Sie, mir das Geld zurückzuerstatten.\nI ask you to refund me the money."
+    },
+    {
+      "id": "tb1-u28-l08-complaints-sentences-1-ex09",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I would like to exchange the device or get my money back.",
+      "tiles": [
+        "zurückbekommen",
+        "umtauschen",
+        "richtig",
+        "beigefügt",
+        "Ich",
+        "das",
+        "mein",
+        "möchte",
+        "oder",
+        "dem",
+        "Geld",
+        "Gerät"
+      ],
+      "answers": [
+        "Ich möchte das Gerät umtauschen oder mein Geld zurückbekommen."
+      ],
+      "explanation": "**Ich möchte das Gerät umtauschen oder mein Geld zurückbekommen.** = I would like to exchange the device or get my money back."
+    },
+    {
+      "id": "tb1-u28-l08-complaints-sentences-1-ex10",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u28-l08-complaints-sentences-1-5.mp3"
+      },
+      "tiles": [
+        "mir",
+        "das",
+        "hoffe",
+        "finden",
+        "Sie",
+        "Tagen",
+        "Geld",
+        "zurückzuerstatten",
+        "Ich",
+        "bitte"
+      ],
+      "answers": [
+        "Ich bitte Sie, mir das Geld zurückzuerstatten."
+      ],
+      "explanation": "Ich bitte Sie, mir das Geld zurückzuerstatten.\n*I ask you to refund me the money.*\n\n**Ich bitte Sie, mir das Geld zurückzuerstatten.** = I ask you to refund me the money."
+    }
+  ]
+}

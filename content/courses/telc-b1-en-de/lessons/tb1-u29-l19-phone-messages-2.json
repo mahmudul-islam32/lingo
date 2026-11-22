@@ -1,0 +1,284 @@
+{
+  "id": "tb1-u29-l19-phone-messages-2",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u29",
+  "title": "Phone & Messages 2",
+  "tip": "Theme: Redemittel: Telefon & Nachricht (B1)",
+  "exercises": [
+    {
+      "id": "tb1-u29-l19-phone-messages-2-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "Ich rufe später noch einmal an",
+          "known": "I'll call again later."
+        },
+        {
+          "id": "p2",
+          "learning": "Könnten Sie mich bitte zurückrufen?",
+          "known": "Could you call me back, please?"
+        },
+        {
+          "id": "p3",
+          "learning": "Ich bin unter der Nummer … zu erreichen",
+          "known": "I can be reached at (number) …"
+        },
+        {
+          "id": "p4",
+          "learning": "Ich verbinde Sie",
+          "known": "I'll put you through."
+        },
+        {
+          "id": "p5",
+          "learning": "Auf Wiederhören!",
+          "known": "Goodbye! (only on the phone)"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u29-l19-phone-messages-2-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which phrase means „I'll call again later.“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Guten Tag, hier spricht …"
+        },
+        {
+          "id": "b",
+          "text": "Auf Wiederhören!"
+        },
+        {
+          "id": "c",
+          "text": "Ich rufe später noch einmal an."
+        },
+        {
+          "id": "d",
+          "text": "Am Apparat."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**Ich rufe später noch einmal an.** = I'll call again later.\n\n*Example:* Die Leitung ist besetzt. Ich rufe später noch einmal an.\nThe line is busy. I'll call again later."
+    },
+    {
+      "id": "tb1-u29-l19-phone-messages-2-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which phrase means „Could you call me back, please?“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ich rufe später noch einmal an."
+        },
+        {
+          "id": "b",
+          "text": "Kann ich eine Nachricht hinterlassen?"
+        },
+        {
+          "id": "c",
+          "text": "Guten Tag, hier spricht …"
+        },
+        {
+          "id": "d",
+          "text": "Könnten Sie mich bitte zurückrufen?"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**Könnten Sie mich bitte zurückrufen?** = Could you call me back, please?\n\n*Example:* Ich habe eine Frage zu meiner Rechnung. Könnten Sie mich bitte zurückrufen?\nI have a question about my bill. Could you call me back, please?"
+    },
+    {
+      "id": "tb1-u29-l19-phone-messages-2-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "The line is busy. I'll call again later.",
+      "tiles": [
+        "Einen",
+        "Leitung",
+        "besetzt",
+        "noch",
+        "sprechen",
+        "ist",
+        "Wiederhören",
+        "an",
+        "später",
+        "rufe",
+        "Die",
+        "Ich",
+        "einmal"
+      ],
+      "answers": [
+        "Die Leitung ist besetzt. Ich rufe später noch einmal an."
+      ],
+      "explanation": "**Ich rufe später noch einmal an.** = I'll call again later."
+    },
+    {
+      "id": "tb1-u29-l19-phone-messages-2-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which phrase means „I can be reached at (number) …“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Worum geht es denn?"
+        },
+        {
+          "id": "b",
+          "text": "Ich rufe später noch einmal an."
+        },
+        {
+          "id": "c",
+          "text": "Ich bin unter der Nummer … zu erreichen."
+        },
+        {
+          "id": "d",
+          "text": "Kann ich eine Nachricht hinterlassen?"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**Ich bin unter der Nummer … zu erreichen.** = I can be reached at (number) …\n\n*Example:* Ich bin unter der Nummer 0176 123456 zu erreichen.\nI can be reached at 0176 123456."
+    },
+    {
+      "id": "tb1-u29-l19-phone-messages-2-ex06",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u29-l19-phone-messages-2-2.mp3"
+      },
+      "tiles": [
+        "Könnten",
+        "Ich",
+        "Rechnung",
+        "mich",
+        "meiner",
+        "zu",
+        "eine",
+        "bitte",
+        "Sie",
+        "zurückrufen",
+        "Frage",
+        "Am",
+        "habe",
+        "nicht",
+        "Chef"
+      ],
+      "answers": [
+        "Ich habe eine Frage zu meiner Rechnung. Könnten Sie mich bitte zurückrufen?"
+      ],
+      "explanation": "Ich habe eine Frage zu meiner Rechnung. Könnten Sie mich bitte zurückrufen?\n*I have a question about my bill. Could you call me back, please?*\n\n**Könnten Sie mich bitte zurückrufen?** = Could you call me back, please?"
+    },
+    {
+      "id": "tb1-u29-l19-phone-messages-2-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which phrase means „I'll put you through.“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Auf Wiederhören!"
+        },
+        {
+          "id": "b",
+          "text": "Ich verbinde Sie."
+        },
+        {
+          "id": "c",
+          "text": "Kann ich eine Nachricht hinterlassen?"
+        },
+        {
+          "id": "d",
+          "text": "Könnten Sie mich bitte zurückrufen?"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Ich verbinde Sie.** = I'll put you through.\n\n*Example:* Einen Moment bitte, ich verbinde Sie.\nOne moment please, I'll put you through."
+    },
+    {
+      "id": "tb1-u29-l19-phone-messages-2-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Ich bin unter der Nummer 0176 123456 zu erreichen.",
+      "tiles": [
+        "I",
+        "can",
+        "at",
+        "reached",
+        "be",
+        "have",
+        "0176",
+        "the",
+        "like",
+        "123456"
+      ],
+      "answers": [
+        "I can be reached at 0176 123456."
+      ],
+      "explanation": "**Ich bin unter der Nummer … zu erreichen.** = I can be reached at (number) …"
+    },
+    {
+      "id": "tb1-u29-l19-phone-messages-2-ex09",
+      "type": "multiple_choice",
+      "prompt": "Which phrase means „Goodbye! (only on the phone)“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Guten Tag, hier spricht …"
+        },
+        {
+          "id": "b",
+          "text": "Worum geht es denn?"
+        },
+        {
+          "id": "c",
+          "text": "Auf Wiederhören!"
+        },
+        {
+          "id": "d",
+          "text": "Könnten Sie mich bitte zurückrufen?"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**Auf Wiederhören!** = Goodbye! (only on the phone)\n\n*Example:* Vielen Dank für Ihre Hilfe. Auf Wiederhören!\nThank you very much for your help. Goodbye!"
+    },
+    {
+      "id": "tb1-u29-l19-phone-messages-2-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "One moment please, I'll put you through.",
+      "tiles": [
+        "Moment",
+        "ich",
+        "Wohnung",
+        "Einen",
+        "bitte",
+        "Sie",
+        "verbinde",
+        "da",
+        "Ihre"
+      ],
+      "answers": [
+        "Einen Moment bitte, ich verbinde Sie."
+      ],
+      "explanation": "**Ich verbinde Sie.** = I'll put you through."
+    },
+    {
+      "id": "tb1-u29-l19-phone-messages-2-ex11",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u29-l19-phone-messages-2-5.mp3"
+      },
+      "tiles": [
+        "Hilfe",
+        "Einen",
+        "Auf",
+        "für",
+        "Ich",
+        "Dank",
+        "Vielen",
+        "nicht",
+        "Ihre",
+        "Wiederhören"
+      ],
+      "answers": [
+        "Vielen Dank für Ihre Hilfe. Auf Wiederhören!"
+      ],
+      "explanation": "Vielen Dank für Ihre Hilfe. Auf Wiederhören!\n*Thank you very much for your help. Goodbye!*\n\n**Auf Wiederhören!** = Goodbye! (only on the phone)"
+    }
+  ]
+}

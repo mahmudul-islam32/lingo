@@ -1,0 +1,129 @@
+{
+  "id": "tb1-u33-l01-komparativ-rule",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u33",
+  "title": "Comparative & Superlative: the rule",
+  "tip": "als vs. wie: größer als du · so groß wie du. “Größer wie” is always wrong. And never “mehr schnell”. German ALWAYS uses -er.",
+  "exercises": [
+    {
+      "id": "tb1-u33-l01-komparativ-rule-ex01",
+      "type": "explain",
+      "title": "Comparative & Superlative",
+      "body": "Comparative: **-er + als** (schneller als ich). Superlative: **am -sten** / der -ste. Umlaut: alt→älter, groß→größer, jung→jünger. Irregular: **gut→besser→am besten, viel→mehr→am meisten, gern→lieber→am liebsten**. Equality: **so … wie**.\n\n*Deutsch:* Komparativ: **-er + als** (schneller als ich). Superlativ: **am -sten** / der -ste. Umlaut: alt→älter, groß→größer, jung→jünger. Unregelmäßig: **gut→besser→am besten, viel→mehr→am meisten, gern→lieber→am liebsten**. Gleichheit: **so … wie**.\n\n*German name:* Komparativ & Superlativ",
+      "examples": [
+        {
+          "learning": "Mein neues Handy ist besser als das alte.",
+          "known": "My new phone is better than the old one."
+        },
+        {
+          "learning": "Am liebsten trinke ich Tee.",
+          "known": "I like drinking tea best."
+        },
+        {
+          "learning": "Die Wohnung ist größer und heller als die alte.",
+          "known": "The flat is bigger and brighter than the old one. (comparison letter!)"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u33-l01-komparativ-rule-ex02",
+      "type": "explain",
+      "title": "Comparative & Superlative: step by step",
+      "body": "Three levels, three patterns:\n1) Base + **so … wie**: Berlin ist so teuer **wie** Hamburg.\n2) Comparative + **als**: ALWAYS -er (even long words! interessant**er**, never “mehr interessant”): Das Buch ist interessanter **als** der Film.\n3) Superlative: **am + -sten** (am schnellsten) or with article before nouns: der schnellste Zug.\nOne-syllable words with a/o/u → umlaut: älter, größer, jünger, kürzer, wärmer.\nMemorise: gut/besser/am besten · viel/mehr/am meisten · gern/lieber/am liebsten · hoch/höher/am höchsten · nah/näher/am nächsten.\nBefore a noun the comparative declines normally: ein besser**er** Plan, eine größer**e** Wohnung.\n\n## Auf Deutsch\n\nDrei Stufen, drei Muster:\n1) Grundform + **so … wie**: Berlin ist so teuer **wie** Hamburg.\n2) Komparativ + **als**: IMMER -er (auch bei langen Wörtern! interessant**er**, nie „mehr interessant“): Das Buch ist interessanter **als** der Film.\n3) Superlativ: **am + -sten** (am schnellsten) oder mit Artikel vor Nomen: der schnellste Zug.\nEinsilbige mit a/o/u → Umlaut: älter, größer, jünger, kürzer, wärmer.\nAuswendig: gut/besser/am besten · viel/mehr/am meisten · gern/lieber/am liebsten · hoch/höher/am höchsten · nah/näher/am nächsten.\nVor Nomen dekliniert der Komparativ normal: ein besser**er** Plan, eine größer**e** Wohnung.",
+      "examples": [
+        {
+          "learning": "Mein neues Handy ist besser als das alte.",
+          "known": "My new phone is better than the old one."
+        },
+        {
+          "learning": "Am liebsten trinke ich Tee.",
+          "known": "I like drinking tea best."
+        },
+        {
+          "learning": "Die Wohnung ist größer und heller als die alte.",
+          "known": "The flat is bigger and brighter than the old one. (comparison letter!)"
+        },
+        {
+          "learning": "München ist so schön wie Wien.",
+          "known": "Munich is as beautiful as Vienna."
+        },
+        {
+          "learning": "Testlücke-Stil: „Heute ist es wärmer ___ gestern.“ → als",
+          "known": "comparative → als (never wie)"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u33-l01-komparativ-rule-ex03",
+      "type": "explain",
+      "title": "Watch out & exam tip",
+      "body": "## Common trap\n\nals vs. wie: größer **als** du · so groß **wie** du. “Größer wie” is always wrong. And never “mehr schnell”. German ALWAYS uses -er.\n\n*Deutsch:* als vs. wie: größer **als** du · so groß **wie** du. „Größer wie“ ist immer falsch. Und nie „mehr schnell“. Deutsch nimmt IMMER -er.\n\n## In the exam\n\n🎯 How telc tests it: **Sprachbausteine**: als/wie gap = gift points. **Speaking part 2** (comparisons: past–present, home country–Germany) runs on comparatives: “In meiner Heimat ist es wärmer als hier.”\n\n*Deutsch:* 🎯 So testet telc das: **Sprachbausteine**: als/wie-Lücke = Geschenkpunkte. **Sprechen Teil 2** (Vergleiche: früher–heute, Heimat–Deutschland) lebt von Komparativen: „In meiner Heimat ist es wärmer als hier.“\n\n*Source:* Guide B10"
+    },
+    {
+      "id": "tb1-u33-l01-komparativ-rule-ex04",
+      "type": "choice",
+      "title": "Fill the gap",
+      "prompt": "Mein Bruder ist zwei Jahre älter ___ ich.",
+      "options": [
+        {
+          "id": "a",
+          "text": "wie"
+        },
+        {
+          "id": "b",
+          "text": "denn"
+        },
+        {
+          "id": "c",
+          "text": "als"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Komparativ + als: älter als ich."
+    },
+    {
+      "id": "tb1-u33-l01-komparativ-rule-ex05",
+      "type": "choice",
+      "title": "Fill the gap",
+      "prompt": "Das neue Büro ist genauso groß ___ das alte.",
+      "options": [
+        {
+          "id": "a",
+          "text": "wie"
+        },
+        {
+          "id": "b",
+          "text": "so"
+        },
+        {
+          "id": "c",
+          "text": "als"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Gleichheit: (genau)so … wie."
+    },
+    {
+      "id": "tb1-u33-l01-komparativ-rule-ex06",
+      "type": "choice",
+      "title": "Fill the gap",
+      "prompt": "Von allen Städten gefällt mir München ___.",
+      "options": [
+        {
+          "id": "a",
+          "text": "am gutesten"
+        },
+        {
+          "id": "b",
+          "text": "am besten"
+        },
+        {
+          "id": "c",
+          "text": "besser"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Superlativ von gut: am besten (unregelmäßig)."
+    }
+  ]
+}

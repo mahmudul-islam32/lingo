@@ -1,0 +1,239 @@
+{
+  "id": "tb1-u17-l09-town-neighbourhood-4",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u17",
+  "title": "Town & Neighbourhood 4",
+  "tip": "Theme: Stadt / Nachbarschaft (B1)",
+  "exercises": [
+    {
+      "id": "tb1-u17-l09-town-neighbourhood-4-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "um Hilfe bitten",
+          "known": "to ask for help"
+        },
+        {
+          "id": "p2",
+          "learning": "ausleihen . Kannst du mir … ausleihen?",
+          "known": "to lend. Can you lend me …?"
+        },
+        {
+          "id": "p3",
+          "learning": "die Blumen gießen",
+          "known": "to water the flowers"
+        },
+        {
+          "id": "p4",
+          "learning": "den Briefkasten leeren",
+          "known": "to empty the letterbox"
+        },
+        {
+          "id": "p5",
+          "learning": "die Großstadt",
+          "known": "big city"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u17-l09-town-neighbourhood-4-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which verb means „to ask for help“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "ausleihen (hat ausgeliehen). Kannst du mir … ausleihen?"
+        },
+        {
+          "id": "b",
+          "text": "um Hilfe bitten (hat gebeten)"
+        },
+        {
+          "id": "c",
+          "text": "die Großstadt, die Großstädte ↔ das Dorf, die Dörfer"
+        },
+        {
+          "id": "d",
+          "text": "die Nachbarschaft (nur Sg.), der Nachbar (n-Dekl., → D4)"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**um Hilfe bitten (hat gebeten)** = to ask for help\n\n*Example:* Beim Umzug hat Maria ihre Nachbarn um Hilfe gebeten.\nMaria asked her neighbours for help with the move."
+    },
+    {
+      "id": "tb1-u17-l09-town-neighbourhood-4-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which verb means „to lend. Can you lend me …?“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "um Hilfe bitten (hat gebeten)"
+        },
+        {
+          "id": "b",
+          "text": "aufpassen auf + Akk. auf die Katze aufpassen"
+        },
+        {
+          "id": "c",
+          "text": "die Bibliothek, die Bibliotheken · das Museum, die Museen"
+        },
+        {
+          "id": "d",
+          "text": "ausleihen (hat ausgeliehen). Kannst du mir … ausleihen?"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**ausleihen (hat ausgeliehen). Kannst du mir … ausleihen?** = to lend. Can you lend me …?\n\n*Example:* Kannst du mir bis morgen deine Bohrmaschine ausleihen?\nCan you lend me your drill until tomorrow?"
+    },
+    {
+      "id": "tb1-u17-l09-town-neighbourhood-4-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Beim Umzug hat Maria ihre Nachbarn um Hilfe gebeten.",
+      "tiles": [
+        "with",
+        "you",
+        "for",
+        "help",
+        "Maria",
+        "neighbours",
+        "move",
+        "the",
+        "in",
+        "quarter",
+        "asked",
+        "her"
+      ],
+      "answers": [
+        "Maria asked her neighbours for help with the move."
+      ],
+      "explanation": "**um Hilfe bitten (hat gebeten)** = to ask for help"
+    },
+    {
+      "id": "tb1-u17-l09-town-neighbourhood-4-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „to water the flowers“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Bibliothek, die Bibliotheken · das Museum, die Museen"
+        },
+        {
+          "id": "b",
+          "text": "der Stadtteil, die Stadtteile · das Viertel, die Viertel"
+        },
+        {
+          "id": "c",
+          "text": "die Blumen gießen (hat gegossen)"
+        },
+        {
+          "id": "d",
+          "text": "das Gebäude, die Gebäude"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**die Blumen gießen (hat gegossen)** = to water the flowers\n\n*Example:* Während wir im Urlaub sind, gießt die Nachbarin unsere Blumen.\nWhile we're on holiday, our neighbour waters our flowers."
+    },
+    {
+      "id": "tb1-u17-l09-town-neighbourhood-4-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Can you lend me your drill until tomorrow?",
+      "tiles": [
+        "Blumen",
+        "bin",
+        "bis",
+        "deine",
+        "ausleihen",
+        "hinter",
+        "Kannst",
+        "morgen",
+        "du",
+        "Bohrmaschine",
+        "mir"
+      ],
+      "answers": [
+        "Kannst du mir bis morgen deine Bohrmaschine ausleihen?"
+      ],
+      "explanation": "**ausleihen (hat ausgeliehen). Kannst du mir … ausleihen?** = to lend. Can you lend me …?"
+    },
+    {
+      "id": "tb1-u17-l09-town-neighbourhood-4-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which one means „to empty the letterbox“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "den Briefkasten leeren: der Briefkasten, die Briefkästen"
+        },
+        {
+          "id": "b",
+          "text": "aufpassen auf + Akk. auf die Katze aufpassen"
+        },
+        {
+          "id": "c",
+          "text": "am Stadtrand"
+        },
+        {
+          "id": "d",
+          "text": "entfernt: zehn Minuten zu Fuß entfernt"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**den Briefkasten leeren: der Briefkasten, die Briefkästen** = to empty the letterbox\n\n*Example:* Kannst du bitte jeden Tag den Briefkasten leeren, wenn ich weg bin?\nCould you please empty the letterbox every day while I'm away?"
+    },
+    {
+      "id": "tb1-u17-l09-town-neighbourhood-4-ex08",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u17-l09-town-neighbourhood-4-3.mp3"
+      },
+      "tiles": [
+        "einer",
+        "sind",
+        "Urlaub",
+        "im",
+        "in",
+        "gießt",
+        "unsere",
+        "die",
+        "wir",
+        "Nachbarin",
+        "Während",
+        "Blumen",
+        "öffentlichen"
+      ],
+      "answers": [
+        "Während wir im Urlaub sind, gießt die Nachbarin unsere Blumen."
+      ],
+      "explanation": "Während wir im Urlaub sind, gießt die Nachbarin unsere Blumen.\n*While we're on holiday, our neighbour waters our flowers.*\n\n**die Blumen gießen (hat gegossen)** = to water the flowers"
+    },
+    {
+      "id": "tb1-u17-l09-town-neighbourhood-4-ex09",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Kannst du bitte jeden Tag den Briefkasten leeren, wenn ich weg bin?",
+      "tiles": [
+        "please",
+        "day",
+        "Genitiv",
+        "you",
+        "every",
+        "while",
+        "school",
+        "I'm",
+        "letterbox",
+        "the",
+        "empty",
+        "Could",
+        "away",
+        "a"
+      ],
+      "answers": [
+        "Could you please empty the letterbox every day while I'm away?"
+      ],
+      "explanation": "**den Briefkasten leeren: der Briefkasten, die Briefkästen** = to empty the letterbox"
+    }
+  ]
+}

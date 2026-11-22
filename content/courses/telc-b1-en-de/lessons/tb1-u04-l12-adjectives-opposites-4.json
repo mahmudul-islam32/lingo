@@ -1,0 +1,242 @@
+{
+  "id": "tb1-u04-l12-adjectives-opposites-4",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u04",
+  "title": "Adjectives: Opposites 4",
+  "tip": "Theme: Adjektive: Gegensätze (A1)",
+  "exercises": [
+    {
+      "id": "tb1-u04-l12-adjectives-opposites-4-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "voll",
+          "known": "full"
+        },
+        {
+          "id": "p2",
+          "learning": "sauber",
+          "known": "clean"
+        },
+        {
+          "id": "p3",
+          "learning": "früh",
+          "known": "early"
+        },
+        {
+          "id": "p4",
+          "learning": "laut",
+          "known": "loud"
+        },
+        {
+          "id": "p5",
+          "learning": "groß",
+          "known": "big"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u04-l12-adjectives-opposites-4-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which one means „full ↔ empty“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "groß ↔ klein"
+        },
+        {
+          "id": "b",
+          "text": "alt ↔ neu"
+        },
+        {
+          "id": "c",
+          "text": "sauber ↔ schmutzig"
+        },
+        {
+          "id": "d",
+          "text": "voll ↔ leer"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**voll ↔ leer** = full ↔ empty\n\n*Example:* Der Kühlschrank ist leer, wir müssen einkaufen.\nThe fridge is empty, we need to go shopping."
+    },
+    {
+      "id": "tb1-u04-l12-adjectives-opposites-4-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which one means „clean ↔ dirty“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "voll ↔ leer"
+        },
+        {
+          "id": "b",
+          "text": "sauber ↔ schmutzig"
+        },
+        {
+          "id": "c",
+          "text": "alt ↔ neu"
+        },
+        {
+          "id": "d",
+          "text": "alt ↔ jung"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**sauber ↔ schmutzig** = clean ↔ dirty\n\n*Example:* Die Teller sind sauber, aber die Gläser sind noch schmutzig.\nThe plates are clean, but the glasses are still dirty."
+    },
+    {
+      "id": "tb1-u04-l12-adjectives-opposites-4-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Der Kühlschrank ist leer, wir müssen einkaufen.",
+      "tiles": [
+        "sleeves",
+        "fridge",
+        "is",
+        "late",
+        "go",
+        "new",
+        "to",
+        "we",
+        "need",
+        "shopping",
+        "empty",
+        "The"
+      ],
+      "answers": [
+        "The fridge is empty, we need to go shopping."
+      ],
+      "explanation": "**voll ↔ leer** = full ↔ empty"
+    },
+    {
+      "id": "tb1-u04-l12-adjectives-opposites-4-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which one means „early ↔ late“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "richtig ↔ falsch"
+        },
+        {
+          "id": "b",
+          "text": "lang ↔ kurz"
+        },
+        {
+          "id": "c",
+          "text": "sauber ↔ schmutzig"
+        },
+        {
+          "id": "d",
+          "text": "früh ↔ spät"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**früh ↔ spät** = early ↔ late\n\n*Example:* Ich stehe früh auf, aber mein Mann kommt spät nach Hause.\nI get up early, but my husband comes home late."
+    },
+    {
+      "id": "tb1-u04-l12-adjectives-opposites-4-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "The plates are clean, but the glasses are still dirty.",
+      "tiles": [
+        "Supermarkt",
+        "es",
+        "sauber",
+        "Die",
+        "aber",
+        "sind",
+        "Gläser",
+        "noch",
+        "Teller",
+        "schmutzig",
+        "die",
+        "schnell",
+        "sind"
+      ],
+      "answers": [
+        "Die Teller sind sauber, aber die Gläser sind noch schmutzig."
+      ],
+      "explanation": "**sauber ↔ schmutzig** = clean ↔ dirty"
+    },
+    {
+      "id": "tb1-u04-l12-adjectives-opposites-4-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which one means „loud ↔ quiet“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "laut ↔ leise"
+        },
+        {
+          "id": "b",
+          "text": "alt ↔ neu"
+        },
+        {
+          "id": "c",
+          "text": "hell ↔ dunkel"
+        },
+        {
+          "id": "d",
+          "text": "alt ↔ jung"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**laut ↔ leise** = loud ↔ quiet\n\n*Example:* Die Nachbarn sind abends oft laut, bitte seid leise!\nThe neighbours are often loud in the evening, please be quiet!"
+    },
+    {
+      "id": "tb1-u04-l12-adjectives-opposites-4-ex08",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u04-l12-adjectives-opposites-4-3.mp3"
+      },
+      "tiles": [
+        "Bad",
+        "früh",
+        "kommt",
+        "auf",
+        "nach",
+        "Unsere",
+        "Hause",
+        "spät",
+        "Mann",
+        "Ich",
+        "Kiosk",
+        "aber",
+        "stehe",
+        "mein"
+      ],
+      "answers": [
+        "Ich stehe früh auf, aber mein Mann kommt spät nach Hause."
+      ],
+      "explanation": "Ich stehe früh auf, aber mein Mann kommt spät nach Hause.\n*I get up early, but my husband comes home late.*\n\n**früh ↔ spät** = early ↔ late"
+    },
+    {
+      "id": "tb1-u04-l12-adjectives-opposites-4-ex09",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Die Nachbarn sind abends oft laut, bitte seid leise!",
+      "tiles": [
+        "please",
+        "neighbours",
+        "are",
+        "get",
+        "beautiful",
+        "often",
+        "the",
+        "loud",
+        "in",
+        "be",
+        "quiet",
+        "but",
+        "evening",
+        "The"
+      ],
+      "answers": [
+        "The neighbours are often loud in the evening, please be quiet!"
+      ],
+      "explanation": "**laut ↔ leise** = loud ↔ quiet"
+    }
+  ]
+}

@@ -1,0 +1,237 @@
+{
+  "id": "tb1-u08-l07-town-directions-3",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u08",
+  "title": "Town & Directions 3",
+  "tip": "Theme: Stadt & Wege (A2)",
+  "exercises": [
+    {
+      "id": "tb1-u08-l07-town-directions-3-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "rechts",
+          "known": "right"
+        },
+        {
+          "id": "p2",
+          "learning": "geradeaus",
+          "known": "straight ahead"
+        },
+        {
+          "id": "p3",
+          "learning": "die Richtung",
+          "known": "direction"
+        },
+        {
+          "id": "p4",
+          "learning": "das Rathaus",
+          "known": "town hall"
+        },
+        {
+          "id": "p5",
+          "learning": "die Stadt",
+          "known": "city / town"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u08-l07-town-directions-3-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which one means „right“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "weit"
+        },
+        {
+          "id": "b",
+          "text": "geradeaus"
+        },
+        {
+          "id": "c",
+          "text": "in der Nähe"
+        },
+        {
+          "id": "d",
+          "text": "rechts"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**rechts** = right\n\n*Example:* Biegen Sie bitte an der Ampel rechts ab.\nPlease turn right at the traffic lights."
+    },
+    {
+      "id": "tb1-u08-l07-town-directions-3-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which one means „straight ahead“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "links"
+        },
+        {
+          "id": "b",
+          "text": "in der Nähe"
+        },
+        {
+          "id": "c",
+          "text": "rechts"
+        },
+        {
+          "id": "d",
+          "text": "geradeaus"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**geradeaus** = straight ahead\n\n*Example:* Gehen Sie immer geradeaus bis zum Rathaus.\nKeep going straight ahead as far as the town hall."
+    },
+    {
+      "id": "tb1-u08-l07-town-directions-3-ex04",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u08-l07-town-directions-3-1.mp3"
+      },
+      "tiles": [
+        "Sie",
+        "abheben",
+        "Ampel",
+        "ab",
+        "muss",
+        "Biegen",
+        "an",
+        "bitte",
+        "welche",
+        "der",
+        "rechts"
+      ],
+      "answers": [
+        "Biegen Sie bitte an der Ampel rechts ab."
+      ],
+      "explanation": "Biegen Sie bitte an der Ampel rechts ab.\n*Please turn right at the traffic lights.*\n\n**rechts** = right"
+    },
+    {
+      "id": "tb1-u08-l07-town-directions-3-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „direction“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Bank, die Banken"
+        },
+        {
+          "id": "b",
+          "text": "die Ecke, die Ecken"
+        },
+        {
+          "id": "c",
+          "text": "das Dorf, die Dörfer"
+        },
+        {
+          "id": "d",
+          "text": "die Richtung, die Richtungen"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**die Richtung** = direction\n*Plural: die Richtungen*\n\n*Example:* Entschuldigung, in welche Richtung muss ich zum Bahnhof gehen?\nExcuse me, which way do I go to the station?"
+    },
+    {
+      "id": "tb1-u08-l07-town-directions-3-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Gehen Sie immer geradeaus bis zum Rathaus.",
+      "tiles": [
+        "hall",
+        "straight",
+        "far",
+        "is",
+        "town",
+        "as",
+        "front",
+        "the",
+        "Keep",
+        "as",
+        "going",
+        "some",
+        "ahead"
+      ],
+      "answers": [
+        "Keep going straight ahead as far as the town hall."
+      ],
+      "explanation": "**geradeaus** = straight ahead"
+    },
+    {
+      "id": "tb1-u08-l07-town-directions-3-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „town hall“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Ecke, die Ecken"
+        },
+        {
+          "id": "b",
+          "text": "das Rathaus"
+        },
+        {
+          "id": "c",
+          "text": "die Brücke, die Brücken"
+        },
+        {
+          "id": "d",
+          "text": "das Dorf, die Dörfer"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**das Rathaus** = town hall\n\n*Example:* Im Rathaus kann man den neuen Wohnsitz anmelden.\nYou can register your new address at the town hall."
+    },
+    {
+      "id": "tb1-u08-l07-town-directions-3-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Excuse me, which way do I go to the station?",
+      "tiles": [
+        "Richtung",
+        "ich",
+        "Bahnhof",
+        "muss",
+        "Entschuldigung",
+        "Ecke",
+        "Fahren",
+        "müssen",
+        "in",
+        "gehen",
+        "welche",
+        "zum"
+      ],
+      "answers": [
+        "Entschuldigung, in welche Richtung muss ich zum Bahnhof gehen?"
+      ],
+      "explanation": "**die Richtung** = direction\n*Plural: die Richtungen*"
+    },
+    {
+      "id": "tb1-u08-l07-town-directions-3-ex09",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u08-l07-town-directions-3-4.mp3"
+      },
+      "tiles": [
+        "den",
+        "hier",
+        "neuen",
+        "Rathaus",
+        "wohnst",
+        "kann",
+        "ist",
+        "man",
+        "Wohnsitz",
+        "anmelden",
+        "Im"
+      ],
+      "answers": [
+        "Im Rathaus kann man den neuen Wohnsitz anmelden."
+      ],
+      "explanation": "Im Rathaus kann man den neuen Wohnsitz anmelden.\n*You can register your new address at the town hall.*\n\n**das Rathaus** = town hall"
+    }
+  ]
+}

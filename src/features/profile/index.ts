@@ -19,7 +19,7 @@ export {
   startLevelOptions,
   type StartLevelOption,
 } from "./start-level";
-export { useSetStartLevel, useUpdateSettings } from "./use-update-settings";
+export { useSetCourse, useSetStartLevel, useUpdateSettings } from "./use-update-settings";
 export {
   GUEST_NAME,
   hasChosenName,

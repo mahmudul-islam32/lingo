@@ -1,0 +1,435 @@
+{
+  "id": "tb1-u35-l01-introducing-yourself-giving-your-opinion",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u35",
+  "title": "Speaking phrases: Introducing yourself & Giving your opinion",
+  "tip": "Redemittel for the oral exam (Sprechen).",
+  "exercises": [
+    {
+      "id": "tb1-u35-l01-introducing-yourself-giving-your-opinion-ex01",
+      "type": "explain",
+      "title": "Part 1 · Introducing yourself (Teil 1 · Sich vorstellen)",
+      "body": "Be able to talk fluently for ~60–90 seconds. One „weil“ and one „am liebsten“ show structure. Then ask back!\n\n*Deutsch:* ~60–90 Sek. flüssig können. Ein „weil“ und ein „am liebsten“ zeigen Struktur. Dann ZURÜCKfragen!\n\n- **Ich heiße … und komme aus … . Ich wohne seit … in … .** = My name is … and I'm from … . I've lived in … since … .\n- **Ich lerne Deutsch, weil ich hier arbeiten möchte.** = I'm learning German because I want to work here.\n- **In meiner Freizeit koche ich am liebsten.** = In my free time I like cooking best.\n- **Und du? Woher kommst du? Wie lange lernst du schon Deutsch?** = And you? Where are you from? How long have you been learning German?",
+      "examples": [
+        {
+          "learning": "Ich heiße … und komme aus … . Ich wohne seit … in … .",
+          "known": "My name is … and I'm from … . I've lived in … since … ."
+        },
+        {
+          "learning": "Ich lerne Deutsch, weil ich hier arbeiten möchte.",
+          "known": "I'm learning German because I want to work here."
+        },
+        {
+          "learning": "In meiner Freizeit koche ich am liebsten.",
+          "known": "In my free time I like cooking best."
+        },
+        {
+          "learning": "Und du? Woher kommst du? Wie lange lernst du schon Deutsch?",
+          "known": "And you? Where are you from? How long have you been learning German?"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u35-l01-introducing-yourself-giving-your-opinion-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which phrase means „My name is … and I'm from … . I've lived in … since … .“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Hallo Sarah,"
+        },
+        {
+          "id": "b",
+          "text": "Ich heiße … und komme aus … . Ich wohne seit … in … ."
+        },
+        {
+          "id": "c",
+          "text": "Sehr geehrte Frau Weber, / Sehr geehrter Herr Klein,"
+        },
+        {
+          "id": "d",
+          "text": "Ich schreibe Ihnen, weil …"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Ich heiße … und komme aus … . Ich wohne seit … in … .** = My name is … and I'm from … . I've lived in … since … .\n\n*Grammar:* Time Prepositions: am, um, im, seit, vor, ab"
+    },
+    {
+      "id": "tb1-u35-l01-introducing-yourself-giving-your-opinion-ex03",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "My name is … and I'm from … . I've lived in … since … .",
+      "tiles": [
+        "dir/Ihnen",
+        "und",
+        "heiße",
+        "vor",
+        "seit",
+        "lange",
+        "Ich",
+        "aus",
+        "Ich",
+        "in",
+        "komme",
+        "wohne"
+      ],
+      "answers": [
+        "Ich heiße … und komme aus … . Ich wohne seit … in … ."
+      ],
+      "explanation": "**Ich heiße … und komme aus … . Ich wohne seit … in … .** = My name is … and I'm from … . I've lived in … since … .\n\n*Grammar:* Time Prepositions: am, um, im, seit, vor, ab"
+    },
+    {
+      "id": "tb1-u35-l01-introducing-yourself-giving-your-opinion-ex04",
+      "type": "multiple_choice",
+      "prompt": "Which phrase means „I'm learning German because I want to work here.“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Vielen Dank für deine/Ihre E-Mail."
+        },
+        {
+          "id": "b",
+          "text": "Sehr geehrte Frau Weber, / Sehr geehrter Herr Klein,"
+        },
+        {
+          "id": "c",
+          "text": "Ich danke dir/Ihnen herzlich für …"
+        },
+        {
+          "id": "d",
+          "text": "Ich lerne Deutsch, weil ich hier arbeiten möchte."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**Ich lerne Deutsch, weil ich hier arbeiten möchte.** = I'm learning German because I want to work here.\n\n*Grammar:* Subordinate Clauses: weil, dass, wenn, obwohl …"
+    },
+    {
+      "id": "tb1-u35-l01-introducing-yourself-giving-your-opinion-ex05",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I'm learning German because I want to work here.",
+      "tiles": [
+        "möchte",
+        "/",
+        "ich",
+        "lerne",
+        "Deutsch",
+        "Ich",
+        "hier",
+        "du",
+        "mir",
+        "arbeiten",
+        "weil"
+      ],
+      "answers": [
+        "Ich lerne Deutsch, weil ich hier arbeiten möchte."
+      ],
+      "explanation": "**Ich lerne Deutsch, weil ich hier arbeiten möchte.** = I'm learning German because I want to work here.\n\n*Grammar:* Subordinate Clauses: weil, dass, wenn, obwohl …"
+    },
+    {
+      "id": "tb1-u35-l01-introducing-yourself-giving-your-opinion-ex06",
+      "type": "multiple_choice",
+      "prompt": "Which phrase means „In my free time I like cooking best.“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Und du? Woher kommst du? Wie lange lernst du schon Deutsch?"
+        },
+        {
+          "id": "b",
+          "text": "Sehr geehrte Frau Weber, / Sehr geehrter Herr Klein,"
+        },
+        {
+          "id": "c",
+          "text": "In meiner Freizeit koche ich am liebsten."
+        },
+        {
+          "id": "d",
+          "text": "Ich lerne Deutsch, weil ich hier arbeiten möchte."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**In meiner Freizeit koche ich am liebsten.** = In my free time I like cooking best.\n\n*Grammar:* Comparative & Superlative"
+    },
+    {
+      "id": "tb1-u35-l01-introducing-yourself-giving-your-opinion-ex07",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "In my free time I like cooking best.",
+      "tiles": [
+        "In",
+        "am",
+        "lernst",
+        "Freizeit",
+        "18",
+        "koche",
+        "ich",
+        "liebsten",
+        "Vielen",
+        "meiner"
+      ],
+      "answers": [
+        "In meiner Freizeit koche ich am liebsten."
+      ],
+      "explanation": "**In meiner Freizeit koche ich am liebsten.** = In my free time I like cooking best.\n\n*Grammar:* Comparative & Superlative"
+    },
+    {
+      "id": "tb1-u35-l01-introducing-yourself-giving-your-opinion-ex08",
+      "type": "multiple_choice",
+      "prompt": "Which phrase means „And you? Where are you from? How long have you been learning German?“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ich lerne Deutsch, weil ich hier arbeiten möchte."
+        },
+        {
+          "id": "b",
+          "text": "Ich heiße … und komme aus … . Ich wohne seit … in … ."
+        },
+        {
+          "id": "c",
+          "text": "Ich schreibe Ihnen, weil …"
+        },
+        {
+          "id": "d",
+          "text": "Und du? Woher kommst du? Wie lange lernst du schon Deutsch?"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**Und du? Woher kommst du? Wie lange lernst du schon Deutsch?** = And you? Where are you from? How long have you been learning German?\n\n*Grammar:* Indirect Questions"
+    },
+    {
+      "id": "tb1-u35-l01-introducing-yourself-giving-your-opinion-ex09",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "And you? Where are you from? How long have you been learning German?",
+      "tiles": [
+        "du",
+        "Woher",
+        "lange",
+        "Und",
+        "du",
+        "musste",
+        "schon",
+        "Sehr",
+        "kommst",
+        "lernst",
+        "das",
+        "du",
+        "Wie",
+        "Deutsch"
+      ],
+      "answers": [
+        "Und du? Woher kommst du? Wie lange lernst du schon Deutsch?"
+      ],
+      "explanation": "**Und du? Woher kommst du? Wie lange lernst du schon Deutsch?** = And you? Where are you from? How long have you been learning German?\n\n*Grammar:* Indirect Questions"
+    },
+    {
+      "id": "tb1-u35-l01-introducing-yourself-giving-your-opinion-ex10",
+      "type": "explain",
+      "title": "Part 2 · Giving your opinion (Teil 2 · Meinung sagen)",
+      "body": "„Meiner Meinung nach“ + verb! Then a reason with weil and an example from your life.\n\n*Deutsch:* „Meiner Meinung nach“ + Verb! Dann Begründung mit weil und ein Beispiel aus deinem Leben.\n\n- **Meiner Meinung nach ist das sehr wichtig, weil …** = In my opinion that's very important, because …\n- **Ich finde, dass …** = I think that …\n- **Ich habe die Erfahrung gemacht, dass …** = In my experience …\n- **Bei uns in … ist das so: …** = Where I'm from it's like this: …",
+      "examples": [
+        {
+          "learning": "Meiner Meinung nach ist das sehr wichtig, weil …",
+          "known": "In my opinion that's very important, because …"
+        },
+        {
+          "learning": "Ich finde, dass …",
+          "known": "I think that …"
+        },
+        {
+          "learning": "Ich habe die Erfahrung gemacht, dass …",
+          "known": "In my experience …"
+        },
+        {
+          "learning": "Bei uns in … ist das so: …",
+          "known": "Where I'm from it's like this: …"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u35-l01-introducing-yourself-giving-your-opinion-ex11",
+      "type": "multiple_choice",
+      "prompt": "Which phrase means „In my opinion that's very important, because …“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Liebe Anna, / Lieber Omar,"
+        },
+        {
+          "id": "b",
+          "text": "Vielen Dank für deine/Ihre E-Mail."
+        },
+        {
+          "id": "c",
+          "text": "Ich habe mich sehr über deine Nachricht gefreut."
+        },
+        {
+          "id": "d",
+          "text": "Meiner Meinung nach ist das sehr wichtig, weil …"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**Meiner Meinung nach ist das sehr wichtig, weil …** = In my opinion that's very important, because …\n\n*Grammar:* Subordinate Clauses: weil, dass, wenn, obwohl …"
+    },
+    {
+      "id": "tb1-u35-l01-introducing-yourself-giving-your-opinion-ex12",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "In my opinion that's very important, because …",
+      "tiles": [
+        "das",
+        "nach",
+        "ist",
+        "weil",
+        "du",
+        "Meiner",
+        "Wir",
+        "dass",
+        "wichtig",
+        "sehr",
+        "Meinung"
+      ],
+      "answers": [
+        "Meiner Meinung nach ist das sehr wichtig, weil …"
+      ],
+      "explanation": "**Meiner Meinung nach ist das sehr wichtig, weil …** = In my opinion that's very important, because …\n\n*Grammar:* Subordinate Clauses: weil, dass, wenn, obwohl …"
+    },
+    {
+      "id": "tb1-u35-l01-introducing-yourself-giving-your-opinion-ex13",
+      "type": "multiple_choice",
+      "prompt": "Which phrase means „I think that …“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Meiner Meinung nach ist das sehr wichtig, weil …"
+        },
+        {
+          "id": "b",
+          "text": "Ich finde, dass …"
+        },
+        {
+          "id": "c",
+          "text": "Bei uns in … ist das so: …"
+        },
+        {
+          "id": "d",
+          "text": "Sehr geehrte Frau Weber, / Sehr geehrter Herr Klein,"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Ich finde, dass …** = I think that …\n\n*Grammar:* Subordinate Clauses: weil, dass, wenn, obwohl …"
+    },
+    {
+      "id": "tb1-u35-l01-introducing-yourself-giving-your-opinion-ex14",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I think that …",
+      "tiles": [
+        "mitteilen",
+        "finde",
+        "dass",
+        "Grüße",
+        "Ich",
+        "Kümmerst"
+      ],
+      "answers": [
+        "Ich finde, dass …"
+      ],
+      "explanation": "**Ich finde, dass …** = I think that …\n\n*Grammar:* Subordinate Clauses: weil, dass, wenn, obwohl …"
+    },
+    {
+      "id": "tb1-u35-l01-introducing-yourself-giving-your-opinion-ex15",
+      "type": "multiple_choice",
+      "prompt": "Which phrase means „In my experience …“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Sehr geehrte Damen und Herren,"
+        },
+        {
+          "id": "b",
+          "text": "Hallo Sarah,"
+        },
+        {
+          "id": "c",
+          "text": "Ich habe die Erfahrung gemacht, dass …"
+        },
+        {
+          "id": "d",
+          "text": "Ich habe mich sehr über deine Nachricht gefreut."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**Ich habe die Erfahrung gemacht, dass …** = In my experience …\n\n*Grammar:* Subordinate Clauses: weil, dass, wenn, obwohl …"
+    },
+    {
+      "id": "tb1-u35-l01-introducing-yourself-giving-your-opinion-ex16",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "In my experience …",
+      "tiles": [
+        "habe",
+        "von",
+        "arbeiten",
+        "die",
+        "dass",
+        "gemacht",
+        "Ich",
+        "Erfahrung",
+        "Nachricht"
+      ],
+      "answers": [
+        "Ich habe die Erfahrung gemacht, dass …"
+      ],
+      "explanation": "**Ich habe die Erfahrung gemacht, dass …** = In my experience …\n\n*Grammar:* Subordinate Clauses: weil, dass, wenn, obwohl …"
+    },
+    {
+      "id": "tb1-u35-l01-introducing-yourself-giving-your-opinion-ex17",
+      "type": "multiple_choice",
+      "prompt": "Which phrase means „Where I'm from it's like this: …“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ich danke dir/Ihnen herzlich für …"
+        },
+        {
+          "id": "b",
+          "text": "Ich schreibe Ihnen, weil …"
+        },
+        {
+          "id": "c",
+          "text": "Sehr geehrte Damen und Herren,"
+        },
+        {
+          "id": "d",
+          "text": "Bei uns in … ist das so: …"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**Bei uns in … ist das so: …** = Where I'm from it's like this: …"
+    },
+    {
+      "id": "tb1-u35-l01-introducing-yourself-giving-your-opinion-ex18",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Where I'm from it's like this: …",
+      "tiles": [
+        "bald",
+        "Wir",
+        "das",
+        "ist",
+        "uns",
+        "in",
+        "so",
+        "eine",
+        "Bei"
+      ],
+      "answers": [
+        "Bei uns in … ist das so: …"
+      ],
+      "explanation": "**Bei uns in … ist das so: …** = Where I'm from it's like this: …"
+    }
+  ]
+}

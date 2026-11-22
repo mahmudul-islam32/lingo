@@ -1,0 +1,293 @@
+{
+  "id": "tb1-u25-l11-nouns-work-education-society-3",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u25",
+  "title": "Nouns: Work, Education & Society 3",
+  "tip": "Theme: Nomen: Arbeit, Bildung & Gesellschaft (B1)",
+  "exercises": [
+    {
+      "id": "tb1-u25-l11-nouns-work-education-society-3-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "die Geschäftsidee",
+          "known": "business idea"
+        },
+        {
+          "id": "p2",
+          "learning": "die Buchhaltung",
+          "known": "accounting / bookkeeping"
+        },
+        {
+          "id": "p3",
+          "learning": "die Vermittlung",
+          "known": "placement / arranging"
+        },
+        {
+          "id": "p4",
+          "learning": "das Seminar",
+          "known": "seminar"
+        },
+        {
+          "id": "p5",
+          "learning": "das Institut",
+          "known": "institute"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u25-l11-nouns-work-education-society-3-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „business idea“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Geschäftsidee, die Geschäftsideen"
+        },
+        {
+          "id": "b",
+          "text": "die Politik"
+        },
+        {
+          "id": "c",
+          "text": "der Inhalt, die Inhalte"
+        },
+        {
+          "id": "d",
+          "text": "der Bereich, die Bereiche"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**die Geschäftsidee** = business idea\n*Plural: die Geschäftsideen*\n\n*Example:* Ali hat eine tolle Geschäftsidee: einen Lieferdienst für Gemüse.\nAli has a great business idea: a vegetable delivery service."
+    },
+    {
+      "id": "tb1-u25-l11-nouns-work-education-society-3-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „accounting / bookkeeping“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Stellungnahme, die Stellungnahmen"
+        },
+        {
+          "id": "b",
+          "text": "die Werkstatt, die Werkstätten"
+        },
+        {
+          "id": "c",
+          "text": "das Zertifikat, die Zertifikate"
+        },
+        {
+          "id": "d",
+          "text": "die Buchhaltung"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**die Buchhaltung** = accounting / bookkeeping\n\n*Example:* Frau Klein arbeitet in der Buchhaltung und prüft die Rechnungen.\nMs Klein works in accounting and checks the invoices."
+    },
+    {
+      "id": "tb1-u25-l11-nouns-work-education-society-3-ex04",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u25-l11-nouns-work-education-society-3-1.mp3"
+      },
+      "tiles": [
+        "Montag",
+        "Geschäftsidee",
+        "tolle",
+        "eine",
+        "Gemüse",
+        "hat",
+        "für",
+        "Ali",
+        "Deutschkurs",
+        "Lieferdienst",
+        "einen",
+        "Park"
+      ],
+      "answers": [
+        "Ali hat eine tolle Geschäftsidee: einen Lieferdienst für Gemüse."
+      ],
+      "explanation": "Ali hat eine tolle Geschäftsidee: einen Lieferdienst für Gemüse.\n*Ali has a great business idea: a vegetable delivery service.*\n\n**die Geschäftsidee** = business idea\n*Plural: die Geschäftsideen*"
+    },
+    {
+      "id": "tb1-u25-l11-nouns-work-education-society-3-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „placement / arranging“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "der Jugendliche, die Jugendlichen"
+        },
+        {
+          "id": "b",
+          "text": "das Institut, die Institute"
+        },
+        {
+          "id": "c",
+          "text": "das Produkt, die Produkte"
+        },
+        {
+          "id": "d",
+          "text": "die Vermittlung"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**die Vermittlung** = placement / arranging\n\n*Example:* Die Agentur für Arbeit hilft bei der Vermittlung von Jobs.\nThe employment agency helps with job placement."
+    },
+    {
+      "id": "tb1-u25-l11-nouns-work-education-society-3-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Frau Klein arbeitet in der Buchhaltung und prüft die Rechnungen.",
+      "tiles": [
+        "accounting",
+        "invoices",
+        "works",
+        "and",
+        "has",
+        "checks",
+        "the",
+        "Klein",
+        "contents",
+        "Ms",
+        "in",
+        "vegetable"
+      ],
+      "answers": [
+        "Ms Klein works in accounting and checks the invoices."
+      ],
+      "explanation": "**die Buchhaltung** = accounting / bookkeeping"
+    },
+    {
+      "id": "tb1-u25-l11-nouns-work-education-society-3-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „seminar“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Vermittlung"
+        },
+        {
+          "id": "b",
+          "text": "der Bereich, die Bereiche"
+        },
+        {
+          "id": "c",
+          "text": "das Institut, die Institute"
+        },
+        {
+          "id": "d",
+          "text": "das Seminar, die Seminare"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**das Seminar** = seminar\n*Plural: die Seminare*\n\n*Example:* Nächste Woche besucht mein Kollege ein Seminar zum Thema Marketing.\nNext week my colleague is attending a seminar on marketing."
+    },
+    {
+      "id": "tb1-u25-l11-nouns-work-education-society-3-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "The employment agency helps with job placement.",
+      "tiles": [
+        "hilft",
+        "vorher",
+        "Vermittlung",
+        "Lieferdienst",
+        "bei",
+        "von",
+        "Die",
+        "für",
+        "Agentur",
+        "Examen",
+        "Arbeit",
+        "der",
+        "Jobs"
+      ],
+      "answers": [
+        "Die Agentur für Arbeit hilft bei der Vermittlung von Jobs."
+      ],
+      "explanation": "**die Vermittlung** = placement / arranging"
+    },
+    {
+      "id": "tb1-u25-l11-nouns-work-education-society-3-ex09",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „institute“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "das Institut, die Institute"
+        },
+        {
+          "id": "b",
+          "text": "die Sprachkenntnisse (Pl.)"
+        },
+        {
+          "id": "c",
+          "text": "die Reihe, die Reihen"
+        },
+        {
+          "id": "d",
+          "text": "der Inhalt, die Inhalte"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**das Institut** = institute\n*Plural: die Institute*\n\n*Example:* Maria macht ihren Deutschkurs an einem Institut in der Stadtmitte.\nMaria is doing her German course at an institute in the city centre."
+    },
+    {
+      "id": "tb1-u25-l11-nouns-work-education-society-3-ex10",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u25-l11-nouns-work-education-society-3-4.mp3"
+      },
+      "tiles": [
+        "mein",
+        "Bruder",
+        "Thema",
+        "Woche",
+        "Kollege",
+        "Seminar",
+        "zum",
+        "Marketing",
+        "ein",
+        "besucht",
+        "hilft",
+        "Nächste",
+        "Hotel"
+      ],
+      "answers": [
+        "Nächste Woche besucht mein Kollege ein Seminar zum Thema Marketing."
+      ],
+      "explanation": "Nächste Woche besucht mein Kollege ein Seminar zum Thema Marketing.\n*Next week my colleague is attending a seminar on marketing.*\n\n**das Seminar** = seminar\n*Plural: die Seminare*"
+    },
+    {
+      "id": "tb1-u25-l11-nouns-work-education-society-3-ex11",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Maria macht ihren Deutschkurs an einem Institut in der Stadtmitte.",
+      "tiles": [
+        "her",
+        "bill",
+        "in",
+        "at",
+        "Maria",
+        "doing",
+        "is",
+        "centre",
+        "course",
+        "an",
+        "institute",
+        "medicine",
+        "German",
+        "city",
+        "idea",
+        "the"
+      ],
+      "answers": [
+        "Maria is doing her German course at an institute in the city centre."
+      ],
+      "explanation": "**das Institut** = institute\n*Plural: die Institute*"
+    }
+  ]
+}

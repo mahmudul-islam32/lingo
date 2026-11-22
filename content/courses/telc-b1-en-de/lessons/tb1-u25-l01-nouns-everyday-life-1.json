@@ -1,0 +1,280 @@
+{
+  "id": "tb1-u25-l01-nouns-everyday-life-1",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u25",
+  "title": "Nouns: Everyday Life 1",
+  "tip": "Theme: Nomen: Alltag & Leben (B1)",
+  "exercises": [
+    {
+      "id": "tb1-u25-l01-nouns-everyday-life-1-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "der Haushalt",
+          "known": "household"
+        },
+        {
+          "id": "p2",
+          "learning": "die Wäsche",
+          "known": "laundry"
+        },
+        {
+          "id": "p3",
+          "learning": "das Geschirr",
+          "known": "dishes"
+        },
+        {
+          "id": "p4",
+          "learning": "die Sache",
+          "known": "thing / matter"
+        },
+        {
+          "id": "p5",
+          "learning": "der Moment",
+          "known": "moment"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u25-l01-nouns-everyday-life-1-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „household“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "der Haushalt, die Haushalte"
+        },
+        {
+          "id": "b",
+          "text": "der Strand, die Strände"
+        },
+        {
+          "id": "c",
+          "text": "die Hälfte, die Hälften"
+        },
+        {
+          "id": "d",
+          "text": "die Polizei"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**der Haushalt** = household\n*Plural: die Haushalte*\n\n*Example:* Bei uns hilft jeder im Haushalt mit.\nIn our home, everyone helps with the household chores."
+    },
+    {
+      "id": "tb1-u25-l01-nouns-everyday-life-1-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „laundry“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Übersicht, die Übersichten"
+        },
+        {
+          "id": "b",
+          "text": "der Haushalt, die Haushalte"
+        },
+        {
+          "id": "c",
+          "text": "die Wäsche"
+        },
+        {
+          "id": "d",
+          "text": "das Paar, die Paare"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**die Wäsche** = laundry\n\n*Example:* Ich muss heute noch die Wäsche aufhängen.\nI still have to hang up the laundry today."
+    },
+    {
+      "id": "tb1-u25-l01-nouns-everyday-life-1-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Bei uns hilft jeder im Haushalt mit.",
+      "tiles": [
+        "helps",
+        "We've",
+        "household",
+        "home",
+        "our",
+        "always",
+        "the",
+        "with",
+        "In",
+        "chores",
+        "everyone",
+        "house"
+      ],
+      "answers": [
+        "In our home, everyone helps with the household chores."
+      ],
+      "explanation": "**der Haushalt** = household\n*Plural: die Haushalte*"
+    },
+    {
+      "id": "tb1-u25-l01-nouns-everyday-life-1-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „dishes“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "das Geschirr"
+        },
+        {
+          "id": "b",
+          "text": "das Forum, die Foren"
+        },
+        {
+          "id": "c",
+          "text": "der Wetterbericht, die Wetterberichte"
+        },
+        {
+          "id": "d",
+          "text": "der Moment, die Momente"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**das Geschirr** = dishes\n\n*Example:* Nach dem Essen spült Tom das Geschirr.\nAfter the meal, Tom washes the dishes."
+    },
+    {
+      "id": "tb1-u25-l01-nouns-everyday-life-1-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I still have to hang up the laundry today.",
+      "tiles": [
+        "Wäsche",
+        "heute",
+        "noch",
+        "Welt",
+        "aufhängen",
+        "die",
+        "Ich",
+        "muss",
+        "über",
+        "fünf"
+      ],
+      "answers": [
+        "Ich muss heute noch die Wäsche aufhängen."
+      ],
+      "explanation": "**die Wäsche** = laundry"
+    },
+    {
+      "id": "tb1-u25-l01-nouns-everyday-life-1-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „thing / matter“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Sache, die Sachen"
+        },
+        {
+          "id": "b",
+          "text": "die Wäsche"
+        },
+        {
+          "id": "c",
+          "text": "das Geschirr"
+        },
+        {
+          "id": "d",
+          "text": "die Übersicht, die Übersichten"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**die Sache** = thing / matter\n*Plural: die Sachen*\n\n*Example:* Pack bitte deine Sachen ein, wir fahren gleich los.\nPlease pack your things, we're leaving soon."
+    },
+    {
+      "id": "tb1-u25-l01-nouns-everyday-life-1-ex08",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u25-l01-nouns-everyday-life-1-3.mp3"
+      },
+      "tiles": [
+        "Geschirr",
+        "Nach",
+        "dem",
+        "das",
+        "haben",
+        "Essen",
+        "spült",
+        "ich",
+        "Tom",
+        "Vor"
+      ],
+      "answers": [
+        "Nach dem Essen spült Tom das Geschirr."
+      ],
+      "explanation": "Nach dem Essen spült Tom das Geschirr.\n*After the meal, Tom washes the dishes.*\n\n**das Geschirr** = dishes"
+    },
+    {
+      "id": "tb1-u25-l01-nouns-everyday-life-1-ex09",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „moment“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "der Moment, die Momente"
+        },
+        {
+          "id": "b",
+          "text": "die Feuerwehr"
+        },
+        {
+          "id": "c",
+          "text": "das Gesetz, die Gesetze"
+        },
+        {
+          "id": "d",
+          "text": "die Gruppe, die Gruppen"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**der Moment** = moment\n*Plural: die Momente*\n\n*Example:* Einen Moment bitte, ich verbinde Sie mit Herrn Schulz.\nOne moment please, I'll put you through to Mr Schulz."
+    },
+    {
+      "id": "tb1-u25-l01-nouns-everyday-life-1-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Pack bitte deine Sachen ein, wir fahren gleich los.",
+      "tiles": [
+        "we're",
+        "your",
+        "tips",
+        "things",
+        "soon",
+        "Please",
+        "pack",
+        "from",
+        "leaving",
+        "meal"
+      ],
+      "answers": [
+        "Please pack your things, we're leaving soon."
+      ],
+      "explanation": "**die Sache** = thing / matter\n*Plural: die Sachen*"
+    },
+    {
+      "id": "tb1-u25-l01-nouns-everyday-life-1-ex11",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "One moment please, I'll put you through to Mr Schulz.",
+      "tiles": [
+        "mit",
+        "Sie",
+        "verbinde",
+        "Projekt",
+        "der",
+        "Maria",
+        "Einen",
+        "bitte",
+        "Moment",
+        "Schulz",
+        "Herrn",
+        "ich"
+      ],
+      "answers": [
+        "Einen Moment bitte, ich verbinde Sie mit Herrn Schulz."
+      ],
+      "explanation": "**der Moment** = moment\n*Plural: die Momente*"
+    }
+  ]
+}

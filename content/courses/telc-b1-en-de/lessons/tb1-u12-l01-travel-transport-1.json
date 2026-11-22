@@ -1,0 +1,286 @@
+{
+  "id": "tb1-u12-l01-travel-transport-1",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u12",
+  "title": "Travel & Transport 1",
+  "tip": "Theme: Reisen / Verkehr (B1)",
+  "exercises": [
+    {
+      "id": "tb1-u12-l01-travel-transport-1-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "die Reise",
+          "known": "trip"
+        },
+        {
+          "id": "p2",
+          "learning": "der Ausflug",
+          "known": "day trip"
+        },
+        {
+          "id": "p3",
+          "learning": "buchen",
+          "known": "to book"
+        },
+        {
+          "id": "p4",
+          "learning": "ausgebucht",
+          "known": "fully booked"
+        },
+        {
+          "id": "p5",
+          "learning": "die Unterkunft",
+          "known": "accommodation"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u12-l01-travel-transport-1-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „trip, journey: to travel“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Fahrkarte, die Fahrkarten · der Fahrplan, die Fahrpläne"
+        },
+        {
+          "id": "b",
+          "text": "die Reise, die Reisen: reisen (ist gereist)"
+        },
+        {
+          "id": "c",
+          "text": "die Unterkunft, die Unterkünfte"
+        },
+        {
+          "id": "d",
+          "text": "die Verspätung, die Verspätungen. Der Zug hat Verspätung."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**die Reise** = trip, journey: to travel\n*Plural: die Reisen: reisen (ist gereist)*\n\n*Example:* Im Sommer reisen wir mit dem Zug nach Italien.\nIn the summer we're travelling to Italy by train."
+    },
+    {
+      "id": "tb1-u12-l01-travel-transport-1-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „day trip: to go on a day trip“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Abfahrt ↔ die Ankunft"
+        },
+        {
+          "id": "b",
+          "text": "der Zug, die Züge · der Bahnhof, die Bahnhöfe · das Gleis, die Gleise"
+        },
+        {
+          "id": "c",
+          "text": "der Ausflug, die Ausflüge: einen Ausflug machen"
+        },
+        {
+          "id": "d",
+          "text": "die Unterkunft, die Unterkünfte"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**der Ausflug** = day trip: to go on a day trip\n*Plural: die Ausflüge: einen Ausflug machen*\n\n*Example:* Am Sonntag machen wir einen Ausflug an den See.\nOn Sunday we're going on a day trip to the lake."
+    },
+    {
+      "id": "tb1-u12-l01-travel-transport-1-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Im Sommer reisen wir mit dem Zug nach Italien.",
+      "tiles": [
+        "is",
+        "In",
+        "summer",
+        "driving",
+        "travelling",
+        "pupils",
+        "by",
+        "to",
+        "train",
+        "the",
+        "Italy",
+        "we're"
+      ],
+      "answers": [
+        "In the summer we're travelling to Italy by train."
+      ],
+      "explanation": "**die Reise** = trip, journey: to travel\n*Plural: die Reisen: reisen (ist gereist)*"
+    },
+    {
+      "id": "tb1-u12-l01-travel-transport-1-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which one means „to book ↔ to reserve“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "buchen ↔ reservieren"
+        },
+        {
+          "id": "b",
+          "text": "übernachten: die Übernachtung, die Übernachtungen"
+        },
+        {
+          "id": "c",
+          "text": "das Gepäck (nur Sg.) · der Koffer, die Koffer"
+        },
+        {
+          "id": "d",
+          "text": "ausgebucht"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**buchen ↔ reservieren** = to book ↔ to reserve\n\n*Example:* Ich habe die Flüge gebucht und einen Tisch im Restaurant reserviert.\nI booked the flights and reserved a table at the restaurant."
+    },
+    {
+      "id": "tb1-u12-l01-travel-transport-1-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "On Sunday we're going on a day trip to the lake.",
+      "tiles": [
+        "einen",
+        "Am",
+        "machen",
+        "Sonntag",
+        "nicht",
+        "See",
+        "den",
+        "Ausflug",
+        "an",
+        "umsteigen",
+        "wir",
+        "für"
+      ],
+      "answers": [
+        "Am Sonntag machen wir einen Ausflug an den See."
+      ],
+      "explanation": "**der Ausflug** = day trip: to go on a day trip\n*Plural: die Ausflüge: einen Ausflug machen*"
+    },
+    {
+      "id": "tb1-u12-l01-travel-transport-1-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which one means „fully booked“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "übernachten: die Übernachtung, die Übernachtungen"
+        },
+        {
+          "id": "b",
+          "text": "der Flug, die Flüge · der Flughafen, die Flughäfen"
+        },
+        {
+          "id": "c",
+          "text": "buchen ↔ reservieren"
+        },
+        {
+          "id": "d",
+          "text": "ausgebucht"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**ausgebucht** = fully booked\n\n*Example:* Leider ist das Hotel am Wochenende ausgebucht.\nUnfortunately the hotel is fully booked at the weekend."
+    },
+    {
+      "id": "tb1-u12-l01-travel-transport-1-ex08",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u12-l01-travel-transport-1-3.mp3"
+      },
+      "tiles": [
+        "Tisch",
+        "einen",
+        "reserviert",
+        "Reisepass",
+        "Ich",
+        "die",
+        "Flüge",
+        "Mann",
+        "habe",
+        "gebucht",
+        "und",
+        "Restaurant",
+        "fährt",
+        "im"
+      ],
+      "answers": [
+        "Ich habe die Flüge gebucht und einen Tisch im Restaurant reserviert."
+      ],
+      "explanation": "Ich habe die Flüge gebucht und einen Tisch im Restaurant reserviert.\n*I booked the flights and reserved a table at the restaurant.*\n\n**buchen ↔ reservieren** = to book ↔ to reserve"
+    },
+    {
+      "id": "tb1-u12-l01-travel-transport-1-ex09",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „accommodation“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "der Reisepass, die Reisepässe · der Ausweis, die Ausweise"
+        },
+        {
+          "id": "b",
+          "text": "die Unterkunft, die Unterkünfte"
+        },
+        {
+          "id": "c",
+          "text": "der Ausflug, die Ausflüge: einen Ausflug machen"
+        },
+        {
+          "id": "d",
+          "text": "die Haltestelle, die Haltestellen"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**die Unterkunft** = accommodation\n*Plural: die Unterkünfte*\n\n*Example:* Wir suchen eine günstige Unterkunft in Berlin.\nWe're looking for cheap accommodation in Berlin."
+    },
+    {
+      "id": "tb1-u12-l01-travel-transport-1-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Leider ist das Hotel am Wochenende ausgebucht.",
+      "tiles": [
+        "Berlin",
+        "weekend",
+        "fully",
+        "hostel",
+        "at",
+        "the",
+        "hotel",
+        "booked",
+        "accommodation",
+        "Unfortunately",
+        "the",
+        "is"
+      ],
+      "answers": [
+        "Unfortunately the hotel is fully booked at the weekend."
+      ],
+      "explanation": "**ausgebucht** = fully booked"
+    },
+    {
+      "id": "tb1-u12-l01-travel-transport-1-ex11",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "We're looking for cheap accommodation in Berlin.",
+      "tiles": [
+        "suchen",
+        "Wir",
+        "Istanbul",
+        "um",
+        "Unterkunft",
+        "eine",
+        "günstige",
+        "Brandenburger",
+        "Berlin",
+        "in"
+      ],
+      "answers": [
+        "Wir suchen eine günstige Unterkunft in Berlin."
+      ],
+      "explanation": "**die Unterkunft** = accommodation\n*Plural: die Unterkünfte*"
+    }
+  ]
+}

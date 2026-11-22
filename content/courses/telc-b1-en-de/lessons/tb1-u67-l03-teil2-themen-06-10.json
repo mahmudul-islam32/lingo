@@ -1,0 +1,333 @@
+{
+  "id": "tb1-u67-l03-teil2-themen-06-10",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u67",
+  "title": "Teil 2 · Topics 6–10: Stadt oder Land wohnen, Haustiere in der Mietwohnung, Mit dem Fahrrad zur Arbeit, Hausarbeit in der Familie, Zu Hause arbeiten (Homeoffice)",
+  "exercises": [
+    {
+      "id": "tb1-u67-l03-teil2-themen-06-10-ex01",
+      "type": "choice",
+      "title": "Stadt oder Land wohnen",
+      "passage": "„Ich könnte nie aufs Land ziehen.“",
+      "prompt": "Wer sagt das?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Julia Schneider (Karte A)"
+        },
+        {
+          "id": "b",
+          "text": "Hendrik Bauer (Karte B)"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Julia Schneider** (A): Ich könnte nie aufs Land ziehen. In der Stadt habe ich alles vor der Tür: Arbeit, Ärzte, Kino, Restaurants. Man ist nie allein und kann abends noch etwas unternehmen.\n\n**Hendrik Bauer** (B): Auf dem Land ist das Leben ruhiger und viel günstiger. Meine Kinder spielen draußen, die Nachbarn kennen sich. In der Stadt zahlt man viel Miete für wenig Platz und hört ständig Lärm."
+    },
+    {
+      "id": "tb1-u67-l03-teil2-themen-06-10-ex02",
+      "type": "task",
+      "skill": "speaking",
+      "title": "Teil 2 · Stadt oder Land wohnen",
+      "task": "**Teil 2: Über ein Thema sprechen**\nSie und Ihre Partnerin/Ihr Partner haben verschiedene Meinungskarten zum selben Thema. Zuerst berichten Sie einander, was auf Ihrer Karte steht. Danach sprechen Sie über das Thema, sagen Ihre eigene Meinung und erzählen von eigenen Erfahrungen.\n\n**Thema: Stadt oder Land wohnen** (Wohnen)\n\n## Karte A\n\nJulia Schneider, 38, Architektin:\n„Ich könnte nie aufs Land ziehen. In der Stadt habe ich alles vor der Tür: Arbeit, Ärzte, Kino, Restaurants. Man ist nie allein und kann abends noch etwas unternehmen.“\n\n## Karte B\n\nHendrik Bauer, 41, Gärtner:\n„Auf dem Land ist das Leben ruhiger und viel günstiger. Meine Kinder spielen draußen, die Nachbarn kennen sich. In der Stadt zahlt man viel Miete für wenig Platz und hört ständig Lärm.“\n\nYou have card A, your partner has card B. (Practise both roles.)",
+      "points": [
+        "Report what is on your card (Julia Schneider)",
+        "Give your own opinion with a reason",
+        "Tell about your own experience",
+        "Ask your partner and react"
+      ],
+      "phrases": [
+        "Auf meiner Karte spricht … über das Thema …",
+        "Sie/Er ist der Meinung, dass …",
+        "Sie/Er findet, dass …",
+        "Nach ihrer/seiner Meinung sollte man …",
+        "Sie/Er sagt außerdem, dass …",
+        "Als Grund nennt sie/er, dass …",
+        "Meiner Meinung nach …",
+        "Ich sehe das (ganz) ähnlich, weil …",
+        "Da bin ich anderer Meinung. Ich finde nämlich, dass …",
+        "Ich finde es interessant, dass …",
+        "Mich überrascht, dass …",
+        "Einerseits …, andererseits …",
+        "Bei uns zu Hause ist das ganz anders: …",
+        "Ich habe damit selbst Erfahrung gemacht. Als ich …",
+        "Bei mir war es so: …",
+        "In meinem Heimatland ist es üblich, dass …",
+        "Und wie ist das bei dir?",
+        "Wie meinst du das genau?",
+        "Das habe ich nicht ganz verstanden. Kannst du das noch einmal sagen?",
+        "Da hast du recht, aber …"
+      ],
+      "modelAnswer": "*The source has no model answer for this task. This is a suggested structure built from the Redemittel of the source, not an official model answer.*\n\n## 1. Report your card (Die Meinung auf der Karte wiedergeben)\n\nAuf meiner Karte spricht Julia Schneider über das Thema „Stadt oder Land wohnen“. Julia Schneider sagt: „Ich könnte nie aufs Land ziehen. In der Stadt habe ich alles vor der Tür: Arbeit, Ärzte, Kino, Restaurants. Man ist nie allein und kann abends noch etwas unternehmen.“\n\nYour partner: Auf meiner Karte spricht Hendrik Bauer über das Thema „Stadt oder Land wohnen“. Hendrik Bauer sagt: „Auf dem Land ist das Leben ruhiger und viel günstiger. Meine Kinder spielen draußen, die Nachbarn kennen sich. In der Stadt zahlt man viel Miete für wenig Platz und hört ständig Lärm.“\n\n## 2. Your opinion (Die eigene Meinung sagen)\n\n- Meiner Meinung nach …\n- Ich sehe das (ganz) ähnlich, weil …\n- Da bin ich anderer Meinung. Ich finde nämlich, dass …\n- Ich finde es interessant, dass …\n- Mich überrascht, dass …\n- Einerseits …, andererseits …\n\n## 3. Your experience (Von eigenen Erfahrungen erzählen)\n\n- Bei uns zu Hause ist das ganz anders: …\n- Ich habe damit selbst Erfahrung gemacht. Als ich …\n- Bei mir war es so: …\n- In meinem Heimatland ist es üblich, dass …\n\n## 4. Ask and react (Nachfragen und reagieren)\n\n- Und wie ist das bei dir?\n- Wie meinst du das genau?\n- Das habe ich nicht ganz verstanden. Kannst du das noch einmal sagen?\n- Da hast du recht, aber …"
+    },
+    {
+      "id": "tb1-u67-l03-teil2-themen-06-10-ex03",
+      "type": "choice",
+      "title": "Haustiere in der Mietwohnung",
+      "passage": "„Ein Haustier gehört für mich zur Familie.“",
+      "prompt": "Wer sagt das?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Klaus Wieland (Karte B)"
+        },
+        {
+          "id": "b",
+          "text": "Sonja Petrova (Karte A)"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Sonja Petrova** (A): Ein Haustier gehört für mich zur Familie. Mein Hund holt mich jeden Tag an die frische Luft, und nach der Arbeit freue ich mich auf ihn. Vermieter sollten Tiere grundsätzlich erlauben.\n\n**Klaus Wieland** (B): In einem Mehrfamilienhaus sind Tiere oft ein Problem. Es gibt Lärm, Schmutz im Treppenhaus und manche Nachbarn haben Angst oder eine Allergie. Für ein Tier braucht man einen Garten, keine Etagenwohnung."
+    },
+    {
+      "id": "tb1-u67-l03-teil2-themen-06-10-ex04",
+      "type": "task",
+      "skill": "speaking",
+      "title": "Teil 2 · Haustiere in der Mietwohnung",
+      "task": "**Teil 2: Über ein Thema sprechen**\nSie und Ihre Partnerin/Ihr Partner haben verschiedene Meinungskarten zum selben Thema. Zuerst berichten Sie einander, was auf Ihrer Karte steht. Danach sprechen Sie über das Thema, sagen Ihre eigene Meinung und erzählen von eigenen Erfahrungen.\n\n**Thema: Haustiere in der Mietwohnung** (Wohnen)\n\n## Karte A\n\nSonja Petrova, 30, Friseurin:\n„Ein Haustier gehört für mich zur Familie. Mein Hund holt mich jeden Tag an die frische Luft, und nach der Arbeit freue ich mich auf ihn. Vermieter sollten Tiere grundsätzlich erlauben.“\n\n## Karte B\n\nKlaus Wieland, 55, Hausmeister:\n„In einem Mehrfamilienhaus sind Tiere oft ein Problem. Es gibt Lärm, Schmutz im Treppenhaus und manche Nachbarn haben Angst oder eine Allergie. Für ein Tier braucht man einen Garten, keine Etagenwohnung.“\n\nYou have card A, your partner has card B. (Practise both roles.)",
+      "points": [
+        "Report what is on your card (Sonja Petrova)",
+        "Give your own opinion with a reason",
+        "Tell about your own experience",
+        "Ask your partner and react"
+      ],
+      "phrases": [
+        "Auf meiner Karte spricht … über das Thema …",
+        "Sie/Er ist der Meinung, dass …",
+        "Sie/Er findet, dass …",
+        "Nach ihrer/seiner Meinung sollte man …",
+        "Sie/Er sagt außerdem, dass …",
+        "Als Grund nennt sie/er, dass …",
+        "Meiner Meinung nach …",
+        "Ich sehe das (ganz) ähnlich, weil …",
+        "Da bin ich anderer Meinung. Ich finde nämlich, dass …",
+        "Ich finde es interessant, dass …",
+        "Mich überrascht, dass …",
+        "Einerseits …, andererseits …",
+        "Bei uns zu Hause ist das ganz anders: …",
+        "Ich habe damit selbst Erfahrung gemacht. Als ich …",
+        "Bei mir war es so: …",
+        "In meinem Heimatland ist es üblich, dass …",
+        "Und wie ist das bei dir?",
+        "Wie meinst du das genau?",
+        "Das habe ich nicht ganz verstanden. Kannst du das noch einmal sagen?",
+        "Da hast du recht, aber …"
+      ],
+      "modelAnswer": "*The source has no model answer for this task. This is a suggested structure built from the Redemittel of the source, not an official model answer.*\n\n## 1. Report your card (Die Meinung auf der Karte wiedergeben)\n\nAuf meiner Karte spricht Sonja Petrova über das Thema „Haustiere in der Mietwohnung“. Sonja Petrova sagt: „Ein Haustier gehört für mich zur Familie. Mein Hund holt mich jeden Tag an die frische Luft, und nach der Arbeit freue ich mich auf ihn. Vermieter sollten Tiere grundsätzlich erlauben.“\n\nYour partner: Auf meiner Karte spricht Klaus Wieland über das Thema „Haustiere in der Mietwohnung“. Klaus Wieland sagt: „In einem Mehrfamilienhaus sind Tiere oft ein Problem. Es gibt Lärm, Schmutz im Treppenhaus und manche Nachbarn haben Angst oder eine Allergie. Für ein Tier braucht man einen Garten, keine Etagenwohnung.“\n\n## 2. Your opinion (Die eigene Meinung sagen)\n\n- Meiner Meinung nach …\n- Ich sehe das (ganz) ähnlich, weil …\n- Da bin ich anderer Meinung. Ich finde nämlich, dass …\n- Ich finde es interessant, dass …\n- Mich überrascht, dass …\n- Einerseits …, andererseits …\n\n## 3. Your experience (Von eigenen Erfahrungen erzählen)\n\n- Bei uns zu Hause ist das ganz anders: …\n- Ich habe damit selbst Erfahrung gemacht. Als ich …\n- Bei mir war es so: …\n- In meinem Heimatland ist es üblich, dass …\n\n## 4. Ask and react (Nachfragen und reagieren)\n\n- Und wie ist das bei dir?\n- Wie meinst du das genau?\n- Das habe ich nicht ganz verstanden. Kannst du das noch einmal sagen?\n- Da hast du recht, aber …"
+    },
+    {
+      "id": "tb1-u67-l03-teil2-themen-06-10-ex05",
+      "type": "choice",
+      "title": "Mit dem Fahrrad zur Arbeit",
+      "passage": "„Ich fahre bei jedem Wetter mit dem Rad.“",
+      "prompt": "Wer sagt das?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Robert Fink (Karte B)"
+        },
+        {
+          "id": "b",
+          "text": "Miriam Lang (Karte A)"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Miriam Lang** (A): Ich fahre bei jedem Wetter mit dem Rad. Das spart Geld, ich stehe nie im Stau und bin morgens sofort wach. Sport und Weg zur Arbeit in einem, besser geht es nicht.\n\n**Robert Fink** (B): Mit dem Rad zur Arbeit klingt schön, ist aber nicht für jeden möglich. Ich fahre 30 Kilometer und komme verschwitzt an. Im Winter ist es dunkel und die Radwege sind gefährlich."
+    },
+    {
+      "id": "tb1-u67-l03-teil2-themen-06-10-ex06",
+      "type": "task",
+      "skill": "speaking",
+      "title": "Teil 2 · Mit dem Fahrrad zur Arbeit",
+      "task": "**Teil 2: Über ein Thema sprechen**\nSie und Ihre Partnerin/Ihr Partner haben verschiedene Meinungskarten zum selben Thema. Zuerst berichten Sie einander, was auf Ihrer Karte steht. Danach sprechen Sie über das Thema, sagen Ihre eigene Meinung und erzählen von eigenen Erfahrungen.\n\n**Thema: Mit dem Fahrrad zur Arbeit** (Verkehr)\n\n## Karte A\n\nMiriam Lang, 33, Erzieherin:\n„Ich fahre bei jedem Wetter mit dem Rad. Das spart Geld, ich stehe nie im Stau und bin morgens sofort wach. Sport und Weg zur Arbeit in einem, besser geht es nicht.“\n\n## Karte B\n\nRobert Fink, 49, Kraftfahrer:\n„Mit dem Rad zur Arbeit klingt schön, ist aber nicht für jeden möglich. Ich fahre 30 Kilometer und komme verschwitzt an. Im Winter ist es dunkel und die Radwege sind gefährlich.“\n\nYou have card A, your partner has card B. (Practise both roles.)",
+      "points": [
+        "Report what is on your card (Miriam Lang)",
+        "Give your own opinion with a reason",
+        "Tell about your own experience",
+        "Ask your partner and react"
+      ],
+      "phrases": [
+        "Auf meiner Karte spricht … über das Thema …",
+        "Sie/Er ist der Meinung, dass …",
+        "Sie/Er findet, dass …",
+        "Nach ihrer/seiner Meinung sollte man …",
+        "Sie/Er sagt außerdem, dass …",
+        "Als Grund nennt sie/er, dass …",
+        "Meiner Meinung nach …",
+        "Ich sehe das (ganz) ähnlich, weil …",
+        "Da bin ich anderer Meinung. Ich finde nämlich, dass …",
+        "Ich finde es interessant, dass …",
+        "Mich überrascht, dass …",
+        "Einerseits …, andererseits …",
+        "Bei uns zu Hause ist das ganz anders: …",
+        "Ich habe damit selbst Erfahrung gemacht. Als ich …",
+        "Bei mir war es so: …",
+        "In meinem Heimatland ist es üblich, dass …",
+        "Und wie ist das bei dir?",
+        "Wie meinst du das genau?",
+        "Das habe ich nicht ganz verstanden. Kannst du das noch einmal sagen?",
+        "Da hast du recht, aber …"
+      ],
+      "modelAnswer": "*The source has no model answer for this task. This is a suggested structure built from the Redemittel of the source, not an official model answer.*\n\n## 1. Report your card (Die Meinung auf der Karte wiedergeben)\n\nAuf meiner Karte spricht Miriam Lang über das Thema „Mit dem Fahrrad zur Arbeit“. Miriam Lang sagt: „Ich fahre bei jedem Wetter mit dem Rad. Das spart Geld, ich stehe nie im Stau und bin morgens sofort wach. Sport und Weg zur Arbeit in einem, besser geht es nicht.“\n\nYour partner: Auf meiner Karte spricht Robert Fink über das Thema „Mit dem Fahrrad zur Arbeit“. Robert Fink sagt: „Mit dem Rad zur Arbeit klingt schön, ist aber nicht für jeden möglich. Ich fahre 30 Kilometer und komme verschwitzt an. Im Winter ist es dunkel und die Radwege sind gefährlich.“\n\n## 2. Your opinion (Die eigene Meinung sagen)\n\n- Meiner Meinung nach …\n- Ich sehe das (ganz) ähnlich, weil …\n- Da bin ich anderer Meinung. Ich finde nämlich, dass …\n- Ich finde es interessant, dass …\n- Mich überrascht, dass …\n- Einerseits …, andererseits …\n\n## 3. Your experience (Von eigenen Erfahrungen erzählen)\n\n- Bei uns zu Hause ist das ganz anders: …\n- Ich habe damit selbst Erfahrung gemacht. Als ich …\n- Bei mir war es so: …\n- In meinem Heimatland ist es üblich, dass …\n\n## 4. Ask and react (Nachfragen und reagieren)\n\n- Und wie ist das bei dir?\n- Wie meinst du das genau?\n- Das habe ich nicht ganz verstanden. Kannst du das noch einmal sagen?\n- Da hast du recht, aber …"
+    },
+    {
+      "id": "tb1-u67-l03-teil2-themen-06-10-ex07",
+      "type": "choice",
+      "title": "Hausarbeit in der Familie",
+      "passage": "„Hausarbeit muss geteilt werden, das ist selbstverständlich.“",
+      "prompt": "Wer sagt das?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Peter Anders (Karte B)"
+        },
+        {
+          "id": "b",
+          "text": "Christina Vogel (Karte A)"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Christina Vogel** (A): Hausarbeit muss geteilt werden, das ist selbstverständlich. Wir arbeiten beide Vollzeit, also kocht und putzt auch jeder. Kinder sollten früh lernen, dass das keine Frauenarbeit ist.\n\n**Peter Anders** (B): Bei uns hat sich das anders eingespielt. Meine Frau macht den Haushalt, ich kümmere mich um Auto, Garten und Reparaturen. Wichtig ist doch nur, dass beide zufrieden sind, nicht, dass alles genau halbiert wird."
+    },
+    {
+      "id": "tb1-u67-l03-teil2-themen-06-10-ex08",
+      "type": "task",
+      "skill": "speaking",
+      "title": "Teil 2 · Hausarbeit in der Familie",
+      "task": "**Teil 2: Über ein Thema sprechen**\nSie und Ihre Partnerin/Ihr Partner haben verschiedene Meinungskarten zum selben Thema. Zuerst berichten Sie einander, was auf Ihrer Karte steht. Danach sprechen Sie über das Thema, sagen Ihre eigene Meinung und erzählen von eigenen Erfahrungen.\n\n**Thema: Hausarbeit in der Familie** (Familie)\n\n## Karte A\n\nChristina Vogel, 36, Buchhalterin:\n„Hausarbeit muss geteilt werden, das ist selbstverständlich. Wir arbeiten beide Vollzeit, also kocht und putzt auch jeder. Kinder sollten früh lernen, dass das keine Frauenarbeit ist.“\n\n## Karte B\n\nPeter Anders, 52, Vertreter:\n„Bei uns hat sich das anders eingespielt. Meine Frau macht den Haushalt, ich kümmere mich um Auto, Garten und Reparaturen. Wichtig ist doch nur, dass beide zufrieden sind, nicht, dass alles genau halbiert wird.“\n\nYou have card A, your partner has card B. (Practise both roles.)",
+      "points": [
+        "Report what is on your card (Christina Vogel)",
+        "Give your own opinion with a reason",
+        "Tell about your own experience",
+        "Ask your partner and react"
+      ],
+      "phrases": [
+        "Auf meiner Karte spricht … über das Thema …",
+        "Sie/Er ist der Meinung, dass …",
+        "Sie/Er findet, dass …",
+        "Nach ihrer/seiner Meinung sollte man …",
+        "Sie/Er sagt außerdem, dass …",
+        "Als Grund nennt sie/er, dass …",
+        "Meiner Meinung nach …",
+        "Ich sehe das (ganz) ähnlich, weil …",
+        "Da bin ich anderer Meinung. Ich finde nämlich, dass …",
+        "Ich finde es interessant, dass …",
+        "Mich überrascht, dass …",
+        "Einerseits …, andererseits …",
+        "Bei uns zu Hause ist das ganz anders: …",
+        "Ich habe damit selbst Erfahrung gemacht. Als ich …",
+        "Bei mir war es so: …",
+        "In meinem Heimatland ist es üblich, dass …",
+        "Und wie ist das bei dir?",
+        "Wie meinst du das genau?",
+        "Das habe ich nicht ganz verstanden. Kannst du das noch einmal sagen?",
+        "Da hast du recht, aber …"
+      ],
+      "modelAnswer": "*The source has no model answer for this task. This is a suggested structure built from the Redemittel of the source, not an official model answer.*\n\n## 1. Report your card (Die Meinung auf der Karte wiedergeben)\n\nAuf meiner Karte spricht Christina Vogel über das Thema „Hausarbeit in der Familie“. Christina Vogel sagt: „Hausarbeit muss geteilt werden, das ist selbstverständlich. Wir arbeiten beide Vollzeit, also kocht und putzt auch jeder. Kinder sollten früh lernen, dass das keine Frauenarbeit ist.“\n\nYour partner: Auf meiner Karte spricht Peter Anders über das Thema „Hausarbeit in der Familie“. Peter Anders sagt: „Bei uns hat sich das anders eingespielt. Meine Frau macht den Haushalt, ich kümmere mich um Auto, Garten und Reparaturen. Wichtig ist doch nur, dass beide zufrieden sind, nicht, dass alles genau halbiert wird.“\n\n## 2. Your opinion (Die eigene Meinung sagen)\n\n- Meiner Meinung nach …\n- Ich sehe das (ganz) ähnlich, weil …\n- Da bin ich anderer Meinung. Ich finde nämlich, dass …\n- Ich finde es interessant, dass …\n- Mich überrascht, dass …\n- Einerseits …, andererseits …\n\n## 3. Your experience (Von eigenen Erfahrungen erzählen)\n\n- Bei uns zu Hause ist das ganz anders: …\n- Ich habe damit selbst Erfahrung gemacht. Als ich …\n- Bei mir war es so: …\n- In meinem Heimatland ist es üblich, dass …\n\n## 4. Ask and react (Nachfragen und reagieren)\n\n- Und wie ist das bei dir?\n- Wie meinst du das genau?\n- Das habe ich nicht ganz verstanden. Kannst du das noch einmal sagen?\n- Da hast du recht, aber …"
+    },
+    {
+      "id": "tb1-u67-l03-teil2-themen-06-10-ex09",
+      "type": "choice",
+      "title": "Zu Hause arbeiten (Homeoffice)",
+      "passage": "„Im Homeoffice arbeite ich viel konzentrierter.“",
+      "prompt": "Wer sagt das?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Markus Thiel (Karte B)"
+        },
+        {
+          "id": "b",
+          "text": "Yasmin Aydin (Karte A)"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Yasmin Aydin** (A): Im Homeoffice arbeite ich viel konzentrierter. Ich spare täglich zwei Stunden Fahrt und kann mittags mit meiner Tochter essen. Meine Ergebnisse sind besser als früher im Büro.\n\n**Markus Thiel** (B): Zu Hause fehlt mir der Kontakt zu den Kollegen. Viele gute Ideen entstehen in der Kaffeepause, nicht am Bildschirm. Außerdem trennt sich Arbeit und Privatleben überhaupt nicht mehr."
+    },
+    {
+      "id": "tb1-u67-l03-teil2-themen-06-10-ex10",
+      "type": "task",
+      "skill": "speaking",
+      "title": "Teil 2 · Zu Hause arbeiten (Homeoffice)",
+      "task": "**Teil 2: Über ein Thema sprechen**\nSie und Ihre Partnerin/Ihr Partner haben verschiedene Meinungskarten zum selben Thema. Zuerst berichten Sie einander, was auf Ihrer Karte steht. Danach sprechen Sie über das Thema, sagen Ihre eigene Meinung und erzählen von eigenen Erfahrungen.\n\n**Thema: Zu Hause arbeiten (Homeoffice)** (Arbeit)\n\n## Karte A\n\nYasmin Aydin, 39, Programmiererin:\n„Im Homeoffice arbeite ich viel konzentrierter. Ich spare täglich zwei Stunden Fahrt und kann mittags mit meiner Tochter essen. Meine Ergebnisse sind besser als früher im Büro.“\n\n## Karte B\n\nMarkus Thiel, 45, Teamleiter:\n„Zu Hause fehlt mir der Kontakt zu den Kollegen. Viele gute Ideen entstehen in der Kaffeepause, nicht am Bildschirm. Außerdem trennt sich Arbeit und Privatleben überhaupt nicht mehr.“\n\nYou have card A, your partner has card B. (Practise both roles.)",
+      "points": [
+        "Report what is on your card (Yasmin Aydin)",
+        "Give your own opinion with a reason",
+        "Tell about your own experience",
+        "Ask your partner and react"
+      ],
+      "phrases": [
+        "Auf meiner Karte spricht … über das Thema …",
+        "Sie/Er ist der Meinung, dass …",
+        "Sie/Er findet, dass …",
+        "Nach ihrer/seiner Meinung sollte man …",
+        "Sie/Er sagt außerdem, dass …",
+        "Als Grund nennt sie/er, dass …",
+        "Meiner Meinung nach …",
+        "Ich sehe das (ganz) ähnlich, weil …",
+        "Da bin ich anderer Meinung. Ich finde nämlich, dass …",
+        "Ich finde es interessant, dass …",
+        "Mich überrascht, dass …",
+        "Einerseits …, andererseits …",
+        "Bei uns zu Hause ist das ganz anders: …",
+        "Ich habe damit selbst Erfahrung gemacht. Als ich …",
+        "Bei mir war es so: …",
+        "In meinem Heimatland ist es üblich, dass …",
+        "Und wie ist das bei dir?",
+        "Wie meinst du das genau?",
+        "Das habe ich nicht ganz verstanden. Kannst du das noch einmal sagen?",
+        "Da hast du recht, aber …"
+      ],
+      "modelAnswer": "*The source has no model answer for this task. This is a suggested structure built from the Redemittel of the source, not an official model answer.*\n\n## 1. Report your card (Die Meinung auf der Karte wiedergeben)\n\nAuf meiner Karte spricht Yasmin Aydin über das Thema „Zu Hause arbeiten (Homeoffice)“. Yasmin Aydin sagt: „Im Homeoffice arbeite ich viel konzentrierter. Ich spare täglich zwei Stunden Fahrt und kann mittags mit meiner Tochter essen. Meine Ergebnisse sind besser als früher im Büro.“\n\nYour partner: Auf meiner Karte spricht Markus Thiel über das Thema „Zu Hause arbeiten (Homeoffice)“. Markus Thiel sagt: „Zu Hause fehlt mir der Kontakt zu den Kollegen. Viele gute Ideen entstehen in der Kaffeepause, nicht am Bildschirm. Außerdem trennt sich Arbeit und Privatleben überhaupt nicht mehr.“\n\n## 2. Your opinion (Die eigene Meinung sagen)\n\n- Meiner Meinung nach …\n- Ich sehe das (ganz) ähnlich, weil …\n- Da bin ich anderer Meinung. Ich finde nämlich, dass …\n- Ich finde es interessant, dass …\n- Mich überrascht, dass …\n- Einerseits …, andererseits …\n\n## 3. Your experience (Von eigenen Erfahrungen erzählen)\n\n- Bei uns zu Hause ist das ganz anders: …\n- Ich habe damit selbst Erfahrung gemacht. Als ich …\n- Bei mir war es so: …\n- In meinem Heimatland ist es üblich, dass …\n\n## 4. Ask and react (Nachfragen und reagieren)\n\n- Und wie ist das bei dir?\n- Wie meinst du das genau?\n- Das habe ich nicht ganz verstanden. Kannst du das noch einmal sagen?\n- Da hast du recht, aber …"
+    },
+    {
+      "id": "tb1-u67-l03-teil2-themen-06-10-ex11",
+      "type": "choice",
+      "prompt": "Which phrase means: “It surprises me that …”?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Mich überrascht, dass …"
+        },
+        {
+          "id": "b",
+          "text": "Sie/Er sagt außerdem, dass …"
+        },
+        {
+          "id": "c",
+          "text": "Als Grund nennt sie/er, dass …"
+        },
+        {
+          "id": "d",
+          "text": "Am Wochenende … ich meistens …"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Mich überrascht, dass …**: It surprises me that … (Die eigene Meinung sagen)"
+    },
+    {
+      "id": "tb1-u67-l03-teil2-themen-06-10-ex12",
+      "type": "choice",
+      "prompt": "Which phrase means: “On the one hand …, on the other …”?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Einerseits …, andererseits …"
+        },
+        {
+          "id": "b",
+          "text": "Ich komme aus … und wohne jetzt in …"
+        },
+        {
+          "id": "c",
+          "text": "Ich bin seit … Jahren in Deutschland."
+        },
+        {
+          "id": "d",
+          "text": "Von Beruf bin ich … / Ich arbeite als …"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Einerseits …, andererseits …**: On the one hand …, on the other … (Die eigene Meinung sagen)"
+    }
+  ]
+}

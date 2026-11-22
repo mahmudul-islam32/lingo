@@ -1,0 +1,244 @@
+{
+  "id": "tb1-u62-l03-join-sentences-2",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u62",
+  "title": "Joining sentences (Sätze verbinden) 2",
+  "tip": "Join two sentences with the connector; watch where the verb goes.",
+  "exercises": [
+    {
+      "id": "tb1-u62-l03-join-sentences-2-ex01",
+      "type": "choice",
+      "title": "Sätze verbinden · Welches Wort passt in die Lücke?",
+      "passage": "**Verbinde mit „dass“ (Inhalt).**\n\nIch hoffe.\nWir sehen uns bald.",
+      "prompt": "Ich hoffe, ___ wir uns bald sehen.",
+      "options": [
+        {
+          "id": "a",
+          "text": "deshalb"
+        },
+        {
+          "id": "b",
+          "text": "denn"
+        },
+        {
+          "id": "c",
+          "text": "dass"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Full sentence: *Ich hoffe, dass wir uns bald sehen.*\n\ndass leitet den Inhalt ein → Verb ans Ende.\n\n**dass (Inhalt)**: content clause; verb at the end.\n\nHauptsatz, **dass** + Subjekt + … + **Verb-Ende**.\nBsp: Ich hoffe, dass du bald **kommst**."
+    },
+    {
+      "id": "tb1-u62-l03-join-sentences-2-ex02",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I hope that we'll see each other soon.",
+      "tiles": [
+        "dass",
+        "sehen",
+        "deshalb",
+        "wenn",
+        "trotzdem",
+        "hoffe",
+        "uns",
+        "bald",
+        "wir",
+        "Ich",
+        "damit"
+      ],
+      "answers": [
+        "Ich hoffe, dass wir uns bald sehen."
+      ],
+      "explanation": "**Verbinde mit „dass“ (Inhalt).**\n\nIch hoffe.\nWir sehen uns bald.\n\nIch hoffe, dass wir uns bald sehen.\n\ndass leitet den Inhalt ein → Verb ans Ende."
+    },
+    {
+      "id": "tb1-u62-l03-join-sentences-2-ex03",
+      "type": "choice",
+      "title": "Sätze verbinden · Welches Wort passt in die Lücke?",
+      "passage": "**Verbinde mit „außerdem“ (Zusatz).**\n\nDie Wohnung ist günstig.\nSie liegt zentral.",
+      "prompt": "Die Wohnung ist günstig, ___ liegt sie zentral.",
+      "options": [
+        {
+          "id": "a",
+          "text": "denn"
+        },
+        {
+          "id": "b",
+          "text": "außerdem"
+        },
+        {
+          "id": "c",
+          "text": "weil"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Full sentence: *Die Wohnung ist günstig, außerdem liegt sie zentral.*\n\naußerdem auf Position 1 → Inversion: außerdem liegt sie.\n\n**außerdem (Zusatz)**: addition; position 1 → inversion.\n\n…, **außerdem** + **Verb** + Subjekt.\nBsp: Es ist günstig, außerdem **liegt es** zentral."
+    },
+    {
+      "id": "tb1-u62-l03-join-sentences-2-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "The flat is cheap, and it's also central.",
+      "tiles": [
+        "sie",
+        "außerdem",
+        "trotzdem",
+        "Die",
+        "zentral",
+        "ist",
+        "wenn",
+        "weil",
+        "Wohnung",
+        "liegt",
+        "günstig",
+        "damit"
+      ],
+      "answers": [
+        "Die Wohnung ist günstig, außerdem liegt sie zentral."
+      ],
+      "explanation": "**Verbinde mit „außerdem“ (Zusatz).**\n\nDie Wohnung ist günstig.\nSie liegt zentral.\n\nDie Wohnung ist günstig, außerdem liegt sie zentral.\n\naußerdem auf Position 1 → Inversion: außerdem liegt sie."
+    },
+    {
+      "id": "tb1-u62-l03-join-sentences-2-ex05",
+      "type": "choice",
+      "title": "Sätze verbinden · Welches Wort passt in die Lücke?",
+      "passage": "**Verbinde mit „sondern“ (Korrektur nach Verneinung).**\n\nIch fahre nicht mit dem Auto.\nIch fahre mit dem Zug.",
+      "prompt": "Ich fahre nicht mit dem Auto, ___ mit dem Zug.",
+      "options": [
+        {
+          "id": "a",
+          "text": "aber"
+        },
+        {
+          "id": "b",
+          "text": "sondern"
+        },
+        {
+          "id": "c",
+          "text": "weil"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Full sentence: *Ich fahre nicht mit dem Auto, sondern mit dem Zug.*\n\nnicht … sondern: sondern korrigiert die Verneinung.\n\n**nicht … sondern (Korrektur)**: correction after a negation.\n\n**nicht** A, **sondern** B.\nBsp: nicht heute, sondern morgen."
+    },
+    {
+      "id": "tb1-u62-l03-join-sentences-2-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I'm not going by car but by train.",
+      "tiles": [
+        "sondern",
+        "wenn",
+        "dem",
+        "Zug",
+        "dass",
+        "mit",
+        "weil",
+        "fahre",
+        "dem",
+        "Ich",
+        "denn",
+        "mit",
+        "Auto",
+        "nicht"
+      ],
+      "answers": [
+        "Ich fahre nicht mit dem Auto, sondern mit dem Zug."
+      ],
+      "explanation": "**Verbinde mit „sondern“ (Korrektur nach Verneinung).**\n\nIch fahre nicht mit dem Auto.\nIch fahre mit dem Zug.\n\nIch fahre nicht mit dem Auto, sondern mit dem Zug.\n\nnicht … sondern: sondern korrigiert die Verneinung."
+    },
+    {
+      "id": "tb1-u62-l03-join-sentences-2-ex07",
+      "type": "choice",
+      "title": "Sätze verbinden · Welches Wort passt in die Lücke?",
+      "passage": "**Verbinde mit „denn“ (Grund, Position 0).**\n\nIch bleibe zu Hause.\nIch bin müde.",
+      "prompt": "Ich bleibe zu Hause, ___ ich bin müde.",
+      "options": [
+        {
+          "id": "a",
+          "text": "denn"
+        },
+        {
+          "id": "b",
+          "text": "deshalb"
+        },
+        {
+          "id": "c",
+          "text": "weil"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Full sentence: *Ich bleibe zu Hause, denn ich bin müde.*\n\ndenn = Grund, aber normale Wortstellung (denn ich bin).\n\n**denn (Grund, Position 0)**: reason but normal word order (like und/aber).\n\n…, **denn** + Subjekt + Verb. (normale Wortstellung!)\nBsp: Ich bleibe zu Hause, denn **ich bin** müde."
+    },
+    {
+      "id": "tb1-u62-l03-join-sentences-2-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I'm staying at home, because I'm tired.",
+      "tiles": [
+        "Hause",
+        "bin",
+        "deshalb",
+        "damit",
+        "Ich",
+        "müde",
+        "zu",
+        "dass",
+        "denn",
+        "trotzdem",
+        "bleibe",
+        "ich"
+      ],
+      "answers": [
+        "Ich bleibe zu Hause, denn ich bin müde."
+      ],
+      "explanation": "**Verbinde mit „denn“ (Grund, Position 0).**\n\nIch bleibe zu Hause.\nIch bin müde.\n\nIch bleibe zu Hause, denn ich bin müde.\n\ndenn = Grund, aber normale Wortstellung (denn ich bin)."
+    },
+    {
+      "id": "tb1-u62-l03-join-sentences-2-ex09",
+      "type": "choice",
+      "title": "Sätze verbinden · Welches Wort passt in die Lücke?",
+      "passage": "**Verbinde mit „nachdem“ (Zeit, Vorzeitigkeit).**\n\nIch habe gegessen.\nIch habe weitergelernt.",
+      "prompt": "___ ich gegessen hatte, habe ich weitergelernt.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Nachdem"
+        },
+        {
+          "id": "b",
+          "text": "Denn"
+        },
+        {
+          "id": "c",
+          "text": "Deshalb"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Full sentence: *Nachdem ich gegessen hatte, habe ich weitergelernt.*\n\nnachdem → der erste Satz eine Zeitstufe früher: gegessen hatte.\n\n**nachdem (Zeit, vorher)**: first action one tense earlier.\n\n**Nachdem** + … + **Plusquamperfekt** (hatte/war + Partizip), dann Perfekt.\nBsp: Nachdem ich gegessen **hatte**, habe ich gelernt."
+    },
+    {
+      "id": "tb1-u62-l03-join-sentences-2-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "After I had eaten, I carried on studying.",
+      "tiles": [
+        "ich",
+        "habe",
+        "weitergelernt",
+        "weil",
+        "ich",
+        "deshalb",
+        "trotzdem",
+        "gegessen",
+        "hatte",
+        "obwohl",
+        "Nachdem"
+      ],
+      "answers": [
+        "Nachdem ich gegessen hatte, habe ich weitergelernt."
+      ],
+      "explanation": "**Verbinde mit „nachdem“ (Zeit, Vorzeitigkeit).**\n\nIch habe gegessen.\nIch habe weitergelernt.\n\nNachdem ich gegessen hatte, habe ich weitergelernt.\n\nnachdem → der erste Satz eine Zeitstufe früher: gegessen hatte."
+    }
+  ]
+}

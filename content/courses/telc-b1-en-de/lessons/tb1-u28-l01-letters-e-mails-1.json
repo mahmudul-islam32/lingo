@@ -1,0 +1,245 @@
+{
+  "id": "tb1-u28-l01-letters-e-mails-1",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u28",
+  "title": "Letters & E-mails 1",
+  "tip": "Theme: Redemittel: Brief & E-Mail (B1)",
+  "exercises": [
+    {
+      "id": "tb1-u28-l01-letters-e-mails-1-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "Sehr geehrte Damen und Herren",
+          "known": "Dear Sir or Madam,"
+        },
+        {
+          "id": "p2",
+          "learning": "Liebe Anna, / Lieber Tom",
+          "known": "Dear Anna, / Dear Tom,"
+        },
+        {
+          "id": "p3",
+          "learning": "ich schreibe Ihnen, weil …",
+          "known": "I'm writing to you because …"
+        },
+        {
+          "id": "p4",
+          "learning": "vielen Dank für Ihre E-Mail",
+          "known": "thank you for your email."
+        },
+        {
+          "id": "p5",
+          "learning": "ich würde mich freuen, wenn …",
+          "known": "I would be glad if …"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u28-l01-letters-e-mails-1-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which phrase means „Dear Sir or Madam,“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Sehr geehrte Damen und Herren,"
+        },
+        {
+          "id": "b",
+          "text": "über eine baldige Antwort würde ich mich freuen."
+        },
+        {
+          "id": "c",
+          "text": "ich schreibe Ihnen, weil …"
+        },
+        {
+          "id": "d",
+          "text": "könnten Sie mir bitte mitteilen, …"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Sehr geehrte Damen und Herren,** = Dear Sir or Madam,\n\n*Example:* Sehr geehrte Damen und Herren, ich interessiere mich für die Wohnung in der Gartenstraße.\nDear Sir or Madam, I'm interested in the flat on Gartenstraße."
+    },
+    {
+      "id": "tb1-u28-l01-letters-e-mails-1-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which phrase means „Dear Anna, / Dear Tom,“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Liebe Anna, / Lieber Tom,"
+        },
+        {
+          "id": "b",
+          "text": "Mit freundlichen Grüßen"
+        },
+        {
+          "id": "c",
+          "text": "ich schreibe Ihnen, weil …"
+        },
+        {
+          "id": "d",
+          "text": "Sehr geehrte Damen und Herren,"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Liebe Anna, / Lieber Tom,** = Dear Anna, / Dear Tom,\n\n*Example:* Liebe Anna, vielen Dank für deine Einladung zur Hochzeit!\nDear Anna, thank you so much for your wedding invitation!"
+    },
+    {
+      "id": "tb1-u28-l01-letters-e-mails-1-ex04",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u28-l01-letters-e-mails-1-1.mp3"
+      },
+      "tiles": [
+        "Damen",
+        "in",
+        "für",
+        "beschweren",
+        "interessiere",
+        "Herren",
+        "geehrte",
+        "Einladung",
+        "einladen",
+        "ich",
+        "und",
+        "Gartenstraße",
+        "Wohnung",
+        "der",
+        "Sehr",
+        "mich",
+        "die"
+      ],
+      "answers": [
+        "Sehr geehrte Damen und Herren, ich interessiere mich für die Wohnung in der Gartenstraße."
+      ],
+      "explanation": "Sehr geehrte Damen und Herren, ich interessiere mich für die Wohnung in der Gartenstraße.\n*Dear Sir or Madam, I'm interested in the flat on Gartenstraße.*\n\n**Sehr geehrte Damen und Herren,** = Dear Sir or Madam,"
+    },
+    {
+      "id": "tb1-u28-l01-letters-e-mails-1-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which phrase means „I'm writing to you because …“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "könnten Sie mir bitte mitteilen, …"
+        },
+        {
+          "id": "b",
+          "text": "vielen Dank für Ihre E-Mail."
+        },
+        {
+          "id": "c",
+          "text": "ich schreibe Ihnen, weil …"
+        },
+        {
+          "id": "d",
+          "text": "ich würde mich freuen, wenn …"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**ich schreibe Ihnen, weil …** = I'm writing to you because …\n\n*Example:* Ich schreibe Ihnen, weil meine Waschmaschine seit gestern kaputt ist.\nI'm writing to you because my washing machine has been broken since yesterday."
+    },
+    {
+      "id": "tb1-u28-l01-letters-e-mails-1-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Liebe Anna, vielen Dank für deine Einladung zur Hochzeit!",
+      "tiles": [
+        "me",
+        "much",
+        "wedding",
+        "Anna",
+        "for",
+        "Dear",
+        "reply",
+        "invitation",
+        "so",
+        "thank",
+        "you",
+        "your",
+        "to"
+      ],
+      "answers": [
+        "Dear Anna, thank you so much for your wedding invitation!"
+      ],
+      "explanation": "**Liebe Anna, / Lieber Tom,** = Dear Anna, / Dear Tom,"
+    },
+    {
+      "id": "tb1-u28-l01-letters-e-mails-1-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which phrase means „thank you for your email.“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "über eine baldige Antwort würde ich mich freuen."
+        },
+        {
+          "id": "b",
+          "text": "ich schreibe Ihnen, weil …"
+        },
+        {
+          "id": "c",
+          "text": "ich möchte mich über … beschweren."
+        },
+        {
+          "id": "d",
+          "text": "vielen Dank für Ihre E-Mail."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**vielen Dank für Ihre E-Mail.** = thank you for your email.\n\n*Example:* Sehr geehrter Herr Braun, vielen Dank für Ihre E-Mail.\nDear Mr Braun, thank you for your email."
+    },
+    {
+      "id": "tb1-u28-l01-letters-e-mails-1-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I'm writing to you because my washing machine has been broken since yesterday.",
+      "tiles": [
+        "Ich",
+        "seit",
+        "die",
+        "gestern",
+        "Ihnen",
+        "schreibe",
+        "weil",
+        "dass",
+        "ist",
+        "meine",
+        "mitteilen",
+        "kaputt",
+        "Waschmaschine"
+      ],
+      "answers": [
+        "Ich schreibe Ihnen, weil meine Waschmaschine seit gestern kaputt ist."
+      ],
+      "explanation": "**ich schreibe Ihnen, weil …** = I'm writing to you because …"
+    },
+    {
+      "id": "tb1-u28-l01-letters-e-mails-1-ex09",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u28-l01-letters-e-mails-1-4.mp3"
+      },
+      "tiles": [
+        "für",
+        "geehrter",
+        "deine",
+        "vielen",
+        "Sehr",
+        "E-Mail",
+        "Herr",
+        "eine",
+        "Braun",
+        "beschweren",
+        "Dank",
+        "Ihre"
+      ],
+      "answers": [
+        "Sehr geehrter Herr Braun, vielen Dank für Ihre E-Mail."
+      ],
+      "explanation": "Sehr geehrter Herr Braun, vielen Dank für Ihre E-Mail.\n*Dear Mr Braun, thank you for your email.*\n\n**vielen Dank für Ihre E-Mail.** = thank you for your email."
+    }
+  ]
+}

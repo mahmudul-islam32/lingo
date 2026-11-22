@@ -1,0 +1,282 @@
+{
+  "id": "tb1-u25-l09-nouns-work-education-society-1",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u25",
+  "title": "Nouns: Work, Education & Society 1",
+  "tip": "Theme: Nomen: Arbeit, Bildung & Gesellschaft (B1)",
+  "exercises": [
+    {
+      "id": "tb1-u25-l09-nouns-work-education-society-1-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "der Mitarbeiter",
+          "known": "employee / staff member"
+        },
+        {
+          "id": "p2",
+          "learning": "der Kursleiter",
+          "known": "course instructor"
+        },
+        {
+          "id": "p3",
+          "learning": "die Nachhilfe",
+          "known": "tutoring / extra lessons"
+        },
+        {
+          "id": "p4",
+          "learning": "die Kenntnisse",
+          "known": "knowledge / skills"
+        },
+        {
+          "id": "p5",
+          "learning": "die Sprachkenntnisse",
+          "known": "language skills"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u25-l09-nouns-work-education-society-1-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „employee / staff member“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "der Mitarbeiter, die Mitarbeiter"
+        },
+        {
+          "id": "b",
+          "text": "die Politik"
+        },
+        {
+          "id": "c",
+          "text": "die Sprachkenntnisse (Pl.)"
+        },
+        {
+          "id": "d",
+          "text": "die Nachhilfe"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**der Mitarbeiter** = employee / staff member\n*Plural: die Mitarbeiter*\n\n*Example:* Die Firma sucht neue Mitarbeiter für das Lager.\nThe company is looking for new staff for the warehouse."
+    },
+    {
+      "id": "tb1-u25-l09-nouns-work-education-society-1-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „course instructor“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "der Kursleiter, die Kursleiter"
+        },
+        {
+          "id": "b",
+          "text": "der Inhalt, die Inhalte"
+        },
+        {
+          "id": "c",
+          "text": "die Summe, die Summen"
+        },
+        {
+          "id": "d",
+          "text": "die Medizin"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**der Kursleiter** = course instructor\n*Plural: die Kursleiter*\n\n*Example:* Unser Kursleiter erklärt die Grammatik sehr gut.\nOur course instructor explains the grammar very well."
+    },
+    {
+      "id": "tb1-u25-l09-nouns-work-education-society-1-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "The company is looking for new staff for the warehouse.",
+      "tiles": [
+        "Abendessen",
+        "Lager",
+        "das",
+        "für",
+        "Die",
+        "Mein",
+        "sucht",
+        "Firma",
+        "neue",
+        "Jugendzentrum",
+        "Mitarbeiter"
+      ],
+      "answers": [
+        "Die Firma sucht neue Mitarbeiter für das Lager."
+      ],
+      "explanation": "**der Mitarbeiter** = employee / staff member\n*Plural: die Mitarbeiter*"
+    },
+    {
+      "id": "tb1-u25-l09-nouns-work-education-society-1-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „tutoring / extra lessons“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Summe, die Summen"
+        },
+        {
+          "id": "b",
+          "text": "das Institut, die Institute"
+        },
+        {
+          "id": "c",
+          "text": "der Mitarbeiter, die Mitarbeiter"
+        },
+        {
+          "id": "d",
+          "text": "die Nachhilfe"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**die Nachhilfe** = tutoring / extra lessons\n\n*Example:* Meine Tochter bekommt zweimal pro Woche Nachhilfe in Mathe.\nMy daughter gets tutoring in maths twice a week."
+    },
+    {
+      "id": "tb1-u25-l09-nouns-work-education-society-1-ex06",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u25-l09-nouns-work-education-society-1-2.mp3"
+      },
+      "tiles": [
+        "leider",
+        "Sprachkenntnisse",
+        "Grammatik",
+        "erklärt",
+        "Tochter",
+        "sehr",
+        "Unser",
+        "Kursleiter",
+        "die",
+        "gut"
+      ],
+      "answers": [
+        "Unser Kursleiter erklärt die Grammatik sehr gut."
+      ],
+      "explanation": "Unser Kursleiter erklärt die Grammatik sehr gut.\n*Our course instructor explains the grammar very well.*\n\n**der Kursleiter** = course instructor\n*Plural: die Kursleiter*"
+    },
+    {
+      "id": "tb1-u25-l09-nouns-work-education-society-1-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „knowledge / skills“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "der Kursleiter, die Kursleiter"
+        },
+        {
+          "id": "b",
+          "text": "der Bereich, die Bereiche"
+        },
+        {
+          "id": "c",
+          "text": "der Inhalt, die Inhalte"
+        },
+        {
+          "id": "d",
+          "text": "die Kenntnisse (Pl.)"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**die Kenntnisse (Pl.)** = knowledge / skills\n\n*Example:* Für die Stelle braucht man gute Kenntnisse in Excel.\nFor the job you need good Excel skills."
+    },
+    {
+      "id": "tb1-u25-l09-nouns-work-education-society-1-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Meine Tochter bekommt zweimal pro Woche Nachhilfe in Mathe.",
+      "tiles": [
+        "tutoring",
+        "twice",
+        "course",
+        "maths",
+        "daughter",
+        "gets",
+        "in",
+        "city",
+        "accounting",
+        "My",
+        "a",
+        "week"
+      ],
+      "answers": [
+        "My daughter gets tutoring in maths twice a week."
+      ],
+      "explanation": "**die Nachhilfe** = tutoring / extra lessons"
+    },
+    {
+      "id": "tb1-u25-l09-nouns-work-education-society-1-ex09",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „language skills“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Werkstatt, die Werkstätten"
+        },
+        {
+          "id": "b",
+          "text": "die Sprachkenntnisse (Pl.)"
+        },
+        {
+          "id": "c",
+          "text": "die Summe, die Summen"
+        },
+        {
+          "id": "d",
+          "text": "der Service"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**die Sprachkenntnisse (Pl.)** = language skills\n\n*Example:* Tom hat seine Sprachkenntnisse im Lebenslauf angegeben.\nTom listed his language skills in his CV."
+    },
+    {
+      "id": "tb1-u25-l09-nouns-work-education-society-1-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "For the job you need good Excel skills.",
+      "tiles": [
+        "in",
+        "Kenntnisse",
+        "Stelle",
+        "eine",
+        "Für",
+        "gute",
+        "Excel",
+        "die",
+        "braucht",
+        "Montag",
+        "Euro",
+        "man"
+      ],
+      "answers": [
+        "Für die Stelle braucht man gute Kenntnisse in Excel."
+      ],
+      "explanation": "**die Kenntnisse (Pl.)** = knowledge / skills"
+    },
+    {
+      "id": "tb1-u25-l09-nouns-work-education-society-1-ex11",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u25-l09-nouns-work-education-society-1-5.mp3"
+      },
+      "tiles": [
+        "angegeben",
+        "Lebenslauf",
+        "hat",
+        "Meine",
+        "Gemüse",
+        "seine",
+        "für",
+        "Tom",
+        "im",
+        "Sprachkenntnisse"
+      ],
+      "answers": [
+        "Tom hat seine Sprachkenntnisse im Lebenslauf angegeben."
+      ],
+      "explanation": "Tom hat seine Sprachkenntnisse im Lebenslauf angegeben.\n*Tom listed his language skills in his CV.*\n\n**die Sprachkenntnisse (Pl.)** = language skills"
+    }
+  ]
+}

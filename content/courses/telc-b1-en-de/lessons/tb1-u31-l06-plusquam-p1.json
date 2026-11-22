@@ -1,0 +1,316 @@
+{
+  "id": "tb1-u31-l06-plusquam-p1",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u31",
+  "title": "Plusquamperfekt + nachdem: nachdem + Plusquamperfekt & Plusquamperfekt im Hauptsatz",
+  "tip": "Don't use the same tense twice after “nachdem”: “Nachdem ich gegessen habe, habe ich gelernt” is wrong in past context, the nachdem-clause needs hatte/war.",
+  "exercises": [
+    {
+      "id": "tb1-u31-l06-plusquam-p1-ex01",
+      "type": "explain",
+      "title": "nachdem + Plusquamperfekt",
+      "body": "First A happens (past perfect), then B (perfect/simple past).\n\n*Deutsch:* Erst passiert A (Plusquamperfekt), dann B (Perfekt/Präteritum).\n\n## Pattern\n\n**Nachdem** + … + Partizip + **hatte/war**, **Verb** + Subjekt …",
+      "examples": [
+        {
+          "learning": "Nachdem ich gegessen hatte, habe ich gelernt.",
+          "known": "After I had eaten, I studied."
+        },
+        {
+          "learning": "Nachdem er angekommen war, rief er mich an.",
+          "known": "After he had arrived, he called me."
+        }
+      ]
+    },
+    {
+      "id": "tb1-u31-l06-plusquam-p1-ex02",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "After I had eaten, I studied.",
+      "tiles": [
+        "gelernt",
+        "habe",
+        "Nachdem",
+        "bestanden",
+        "zu",
+        "ich",
+        "hatte",
+        "war",
+        "ich",
+        "gegessen"
+      ],
+      "answers": [
+        "Nachdem ich gegessen hatte, habe ich gelernt."
+      ],
+      "explanation": "**Why:** First eating (hatte gegessen), then studying.\n\n*Warum:* Zuerst essen (hatte gegessen), dann lernen."
+    },
+    {
+      "id": "tb1-u31-l06-plusquam-p1-ex03",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "After he had arrived, he called me.",
+      "tiles": [
+        "war",
+        "er",
+        "rief",
+        "angekommen",
+        "an",
+        "haben",
+        "Nachdem",
+        "Testlücke-Stil",
+        "die",
+        "mich",
+        "er"
+      ],
+      "answers": [
+        "Nachdem er angekommen war, rief er mich an."
+      ],
+      "explanation": "**Why:** ankommen with sein → war angekommen.\n\n*Warum:* ankommen mit sein → war angekommen."
+    },
+    {
+      "id": "tb1-u31-l06-plusquam-p1-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "After we had seen the film, we went to eat.",
+      "tiles": [
+        "Nachdem",
+        "gefahren",
+        "gingen",
+        "Sie",
+        "geschlafen",
+        "hatten",
+        "Film",
+        "wir",
+        "wir",
+        "essen",
+        "den",
+        "gesehen"
+      ],
+      "answers": [
+        "Nachdem wir den Film gesehen hatten, gingen wir essen."
+      ],
+      "explanation": "**Why:** hatten at the end of the subordinate clause.\n\n*Warum:* hatten am Ende des Nebensatzes."
+    },
+    {
+      "id": "tb1-u31-l06-plusquam-p1-ex05",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I felt good after I had slept.",
+      "tiles": [
+        "habe",
+        "hatte",
+        "nachdem",
+        "noch",
+        "Er",
+        "umgezogen",
+        "Ich",
+        "gut",
+        "geschlafen",
+        "mich",
+        "gefühlt",
+        "ich"
+      ],
+      "answers": [
+        "Ich habe mich gut gefühlt, nachdem ich geschlafen hatte."
+      ],
+      "explanation": "**Why:** The subordinate clause can also come second.\n\n*Warum:* Nebensatz auch hinten möglich."
+    },
+    {
+      "id": "tb1-u31-l06-plusquam-p1-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "After she had passed the exam, she celebrated.",
+      "tiles": [
+        "bestanden",
+        "Prüfung",
+        "hatte",
+        "sie",
+        "Nachdem",
+        "hat",
+        "haben",
+        "die",
+        "als",
+        "gefeiert",
+        "sie",
+        "eine"
+      ],
+      "answers": [
+        "Nachdem sie die Prüfung bestanden hatte, hat sie gefeiert."
+      ],
+      "explanation": "**Why:** Order: passing → celebrating.\n\n*Warum:* Reihenfolge: bestehen → feiern."
+    },
+    {
+      "id": "tb1-u31-l06-plusquam-p1-ex07",
+      "type": "explain",
+      "title": "Plusquamperfekt im Hauptsatz",
+      "body": "Even without nachdem: shows something happened even earlier.\n\n*Deutsch:* Auch ohne nachdem: zeigt, dass etwas noch früher passiert ist.\n\n## Pattern\n\nSubjekt + **hatte/war** + … + **Partizip II**",
+      "examples": [
+        {
+          "learning": "Als ich ankam, war der Zug schon abgefahren.",
+          "known": "When I arrived, the train had already left."
+        },
+        {
+          "learning": "Ich hatte meinen Schlüssel zu Hause vergessen.",
+          "known": "I had forgotten my key at home."
+        }
+      ]
+    },
+    {
+      "id": "tb1-u31-l06-plusquam-p1-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "When I arrived, the train had already left.",
+      "tiles": [
+        "Zug",
+        "Hause",
+        "der",
+        "ankam",
+        "Prüfung",
+        "schon",
+        "abgefahren",
+        "ich",
+        "Als",
+        "war",
+        "meinen"
+      ],
+      "answers": [
+        "Als ich ankam, war der Zug schon abgefahren."
+      ],
+      "explanation": "**Why:** Leaving was before arriving.\n\n*Warum:* Abfahren war vor dem Ankommen."
+    },
+    {
+      "id": "tb1-u31-l06-plusquam-p1-ex09",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I had forgotten my key at home.",
+      "tiles": [
+        "vergessen",
+        "hatte",
+        "Sie",
+        "wir",
+        "Hause",
+        "meinen",
+        "gefühlt",
+        "zu",
+        "Schlüssel",
+        "Ich"
+      ],
+      "answers": [
+        "Ich hatte meinen Schlüssel zu Hause vergessen."
+      ],
+      "explanation": "**Why:** Background for a story.\n\n*Warum:* Hintergrund für eine Geschichte."
+    },
+    {
+      "id": "tb1-u31-l06-plusquam-p1-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "We had never seen snow before.",
+      "tiles": [
+        "noch",
+        "nie",
+        "ist",
+        "hatten",
+        "gesehen",
+        "Wir",
+        "Ich",
+        "Schnee",
+        "an",
+        "vorher"
+      ],
+      "answers": [
+        "Wir hatten vorher noch nie Schnee gesehen."
+      ],
+      "explanation": "**Why:** vorher → even earlier.\n\n*Warum:* vorher → noch früher."
+    },
+    {
+      "id": "tb1-u31-l06-plusquam-p1-ex11",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "He was tired because he had slept badly.",
+      "tiles": [
+        "hatte",
+        "geschlafen",
+        "___",
+        "war",
+        "er",
+        "denn",
+        "ich",
+        "Er",
+        "Kurs",
+        "schlecht",
+        "müde"
+      ],
+      "answers": [
+        "Er war müde, denn er hatte schlecht geschlafen."
+      ],
+      "explanation": "**Why:** The reason lies further back.\n\n*Warum:* Grund liegt noch weiter zurück."
+    },
+    {
+      "id": "tb1-u31-l06-plusquam-p1-ex12",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "She had already gone home when I came.",
+      "tiles": [
+        "kam",
+        "gefühlt",
+        "ich",
+        "war",
+        "umgezogen",
+        "Sie",
+        "mich",
+        "gegangen",
+        "nach",
+        "als",
+        "schon",
+        "Hause"
+      ],
+      "answers": [
+        "Sie war schon nach Hause gegangen, als ich kam."
+      ],
+      "explanation": "**Why:** gehen with sein → war gegangen.\n\n*Warum:* gehen mit sein → war gegangen."
+    },
+    {
+      "id": "tb1-u31-l06-plusquam-p1-ex13",
+      "type": "choice",
+      "title": "Fill the gap",
+      "prompt": "Nachdem wir umgezogen ___, haben wir eine Party gemacht.",
+      "options": [
+        {
+          "id": "a",
+          "text": "hatten"
+        },
+        {
+          "id": "b",
+          "text": "sind"
+        },
+        {
+          "id": "c",
+          "text": "waren"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "umziehen geht mit sein → Plusquamperfekt: waren umgezogen."
+    },
+    {
+      "id": "tb1-u31-l06-plusquam-p1-ex14",
+      "type": "choice",
+      "title": "Choose the right answer",
+      "prompt": "Welche Reihenfolge stimmt? „Nachdem ich den Test geschrieben hatte, …“",
+      "options": [
+        {
+          "id": "a",
+          "text": "… ging ich nach Hause gegangen."
+        },
+        {
+          "id": "b",
+          "text": "… bin ich nach Hause gegangen."
+        },
+        {
+          "id": "c",
+          "text": "… ich bin nach Hause gegangen."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Nebensatz vorn → Hauptsatz beginnt mit Verb: bin ich …"
+    }
+  ]
+}

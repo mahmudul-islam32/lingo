@@ -1,0 +1,340 @@
+{
+  "id": "tb1-u30-l19-relativ-p1",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u30",
+  "title": "Relative Clauses: Nominativ & Akkusativ",
+  "tip": "“das Buch, was ich lese”, after a concrete noun never “was”, always der/die/das/den/dem.",
+  "exercises": [
+    {
+      "id": "tb1-u30-l19-relativ-p1-ex01",
+      "type": "explain",
+      "title": "Nominativ: der, die, das, die",
+      "body": "The relative pronoun is the subject of the relative clause. Verb to the end.\n\n*Deutsch:* Das Relativpronomen ist Subjekt im Relativsatz. Verb ans Ende.\n\n## Pattern\n\nNomen, **der/die/das** + … + **Verb**, …",
+      "examples": [
+        {
+          "learning": "Das ist der Mann, der neben mir wohnt.",
+          "known": "That's the man who lives next to me."
+        },
+        {
+          "learning": "Ich habe eine Kollegin, die aus Brasilien kommt.",
+          "known": "I have a colleague who comes from Brazil."
+        }
+      ]
+    },
+    {
+      "id": "tb1-u30-l19-relativ-p1-ex02",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "That's the man who lives next to me.",
+      "tiles": [
+        "wohnt",
+        "um",
+        "Das",
+        "beginnt",
+        "denen",
+        "neben",
+        "mir",
+        "der",
+        "ist",
+        "Mann",
+        "der"
+      ],
+      "answers": [
+        "Das ist der Mann, der neben mir wohnt."
+      ],
+      "explanation": "**Why:** der Mann → der (masculine, subject).\n\n*Warum:* der Mann → der (maskulin, Subjekt)."
+    },
+    {
+      "id": "tb1-u30-l19-relativ-p1-ex03",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I have a colleague who comes from Brazil.",
+      "tiles": [
+        "Brasilien",
+        "für",
+        "Das",
+        "Frau",
+        "eine",
+        "Ich",
+        "Kollegin",
+        "aus",
+        "kommt",
+        "die",
+        "habe"
+      ],
+      "answers": [
+        "Ich habe eine Kollegin, die aus Brasilien kommt."
+      ],
+      "explanation": "**Why:** die Kollegin → die.\n\n*Warum:* die Kollegin → die."
+    },
+    {
+      "id": "tb1-u30-l19-relativ-p1-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "The child playing over there is my son.",
+      "tiles": [
+        "das",
+        "Kind",
+        "ist",
+        "dort",
+        "spielt",
+        "Nachbar",
+        "Das",
+        "sind",
+        "Der",
+        "mein",
+        "Sohn"
+      ],
+      "answers": [
+        "Das Kind, das dort spielt, ist mein Sohn."
+      ],
+      "explanation": "**Why:** Relative clause in the middle: two commas.\n\n*Warum:* Relativsatz in der Mitte: zwei Kommas."
+    },
+    {
+      "id": "tb1-u30-l19-relativ-p1-ex05",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "The people who work here are very nice.",
+      "tiles": [
+        "Das",
+        "nett",
+        "hier",
+        "sind",
+        "die",
+        "der",
+        "Die",
+        "arbeiten",
+        "sehr",
+        "dem",
+        "Leute"
+      ],
+      "answers": [
+        "Die Leute, die hier arbeiten, sind sehr nett."
+      ],
+      "explanation": "**Why:** Plural → die.\n\n*Warum:* Plural → die."
+    },
+    {
+      "id": "tb1-u30-l19-relativ-p1-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I'm looking for a flat that isn't so expensive.",
+      "tiles": [
+        "am",
+        "teuer",
+        "Das",
+        "ist",
+        "Ich",
+        "die",
+        "denen",
+        "eine",
+        "so",
+        "suche",
+        "nicht",
+        "Wohnung"
+      ],
+      "answers": [
+        "Ich suche eine Wohnung, die nicht so teuer ist."
+      ],
+      "explanation": "**Why:** ist at the end of the relative clause.\n\n*Warum:* ist am Ende des Relativsatzes."
+    },
+    {
+      "id": "tb1-u30-l19-relativ-p1-ex07",
+      "type": "explain",
+      "title": "Akkusativ: den, die, das, die",
+      "body": "The relative pronoun is the object in the clause. Only masculine changes: den.\n\n*Deutsch:* Das Relativpronomen ist Objekt im Relativsatz. Nur maskulin ändert sich: den.\n\n## Pattern\n\nNomen, **den/die/das** + Subjekt + … + **Verb**",
+      "examples": [
+        {
+          "learning": "Das ist der Film, den ich gestern gesehen habe.",
+          "known": "That's the film I saw yesterday."
+        },
+        {
+          "learning": "Die Jacke, die du trägst, ist schön.",
+          "known": "The jacket you're wearing is nice."
+        }
+      ]
+    },
+    {
+      "id": "tb1-u30-l19-relativ-p1-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "That's the film I saw yesterday.",
+      "tiles": [
+        "Das",
+        "der",
+        "ist",
+        "ich",
+        "habe",
+        "die",
+        "von",
+        "Film",
+        "den",
+        "gesehen",
+        "gestern",
+        "erzählt"
+      ],
+      "answers": [
+        "Das ist der Film, den ich gestern gesehen habe."
+      ],
+      "explanation": "**Why:** ich sehe den Film → den.\n\n*Warum:* ich sehe den Film → den."
+    },
+    {
+      "id": "tb1-u30-l19-relativ-p1-ex09",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "The jacket you're wearing is nice.",
+      "tiles": [
+        "ist",
+        "trägst",
+        "du",
+        "Das",
+        "die",
+        "Jacke",
+        "Film",
+        "wir",
+        "Die",
+        "schön"
+      ],
+      "answers": [
+        "Die Jacke, die du trägst, ist schön."
+      ],
+      "explanation": "**Why:** Feminine: accusative = die.\n\n*Warum:* Feminin: Akkusativ = die."
+    },
+    {
+      "id": "tb1-u30-l19-relativ-p1-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "The book I'm reading is exciting.",
+      "tiles": [
+        "ich",
+        "spannend",
+        "Auto",
+        "Das",
+        "das",
+        "ist",
+        "eingeladen",
+        "dem",
+        "lese",
+        "Buch"
+      ],
+      "answers": [
+        "Das Buch, das ich lese, ist spannend."
+      ],
+      "explanation": "**Why:** Neuter: accusative = das.\n\n*Warum:* Neutrum: Akkusativ = das."
+    },
+    {
+      "id": "tb1-u30-l19-relativ-p1-ex11",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I'm meeting the friend I know from the course.",
+      "tiles": [
+        "kenne",
+        "ist",
+        "aus",
+        "Kollegin",
+        "Freund",
+        "dem",
+        "den",
+        "Kurs",
+        "ich",
+        "Ich",
+        "nett",
+        "treffe",
+        "den"
+      ],
+      "answers": [
+        "Ich treffe den Freund, den ich aus dem Kurs kenne."
+      ],
+      "explanation": "**Why:** kennen + accusative → den.\n\n*Warum:* kennen + Akkusativ → den."
+    },
+    {
+      "id": "tb1-u30-l19-relativ-p1-ex12",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "The colleagues I invited are coming at eight.",
+      "tiles": [
+        "Die",
+        "acht",
+        "habe",
+        "um",
+        "ist",
+        "Kollegen",
+        "eingeladen",
+        "ich",
+        "kommen",
+        "Hotel",
+        "ein",
+        "die"
+      ],
+      "answers": [
+        "Die Kollegen, die ich eingeladen habe, kommen um acht."
+      ],
+      "explanation": "**Why:** Plural accusative = die; habe at the end.\n\n*Warum:* Plural Akkusativ = die; habe am Ende."
+    },
+    {
+      "id": "tb1-u30-l19-relativ-p1-ex13",
+      "type": "choice",
+      "title": "Fill the gap",
+      "prompt": "Die Freunde, mit ___ ich Urlaub mache, kommen aus Köln.",
+      "options": [
+        {
+          "id": "a",
+          "text": "die"
+        },
+        {
+          "id": "b",
+          "text": "den"
+        },
+        {
+          "id": "c",
+          "text": "denen"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "mit + Dativ, Plural → denen (Sonderform!)."
+    },
+    {
+      "id": "tb1-u30-l19-relativ-p1-ex14",
+      "type": "choice",
+      "title": "Fill the gap",
+      "prompt": "Das Haus, in ___ wir wohnen, ist sehr alt.",
+      "options": [
+        {
+          "id": "a",
+          "text": "das"
+        },
+        {
+          "id": "b",
+          "text": "der"
+        },
+        {
+          "id": "c",
+          "text": "dem"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "in + Dativ (Wo wohnen wir?) → in dem (neutral)."
+    },
+    {
+      "id": "tb1-u30-l19-relativ-p1-ex15",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Join the sentences with a relative clause: Das ist der Mann. Er wohnt neben uns.",
+      "tiles": [
+        "wohnt",
+        "uns",
+        "ist",
+        "der",
+        "Mann",
+        "Sohn",
+        "der",
+        "Das",
+        "geholfen",
+        "neben"
+      ],
+      "answers": [
+        "Das ist der Mann, der neben uns wohnt."
+      ],
+      "explanation": "der Mann → Relativpronomen der (Subjekt), Verb ans Ende.\n\n*Deutsch:* Verbinde mit einem Relativsatz:"
+    }
+  ]
+}

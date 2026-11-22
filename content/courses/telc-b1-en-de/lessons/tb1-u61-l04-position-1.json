@@ -1,0 +1,157 @@
+{
+  "id": "tb1-u61-l04-position-1",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u61",
+  "title": "Connectors with inversion or normal order (1)",
+  "exercises": [
+    {
+      "id": "tb1-u61-l04-position-1-ex01",
+      "type": "explain",
+      "title": "deshalb (Folge)",
+      "body": "consequence; position 1 → verb then subject.\n\n…, **deshalb** + **Verb** + Subjekt. (Position 1 → Inversion)\nBsp: Ich war krank, deshalb **bin ich** zu Hause geblieben."
+    },
+    {
+      "id": "tb1-u61-l04-position-1-ex02",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/w-rule-deshalb.mp3"
+      },
+      "tiles": [
+        "war",
+        "dass",
+        "trotzdem",
+        "bin",
+        "obwohl",
+        "geblieben",
+        "deshalb",
+        "krank",
+        "Hause",
+        "ich",
+        "Ich",
+        "zu"
+      ],
+      "answers": [
+        "Ich war krank, deshalb bin ich zu Hause geblieben."
+      ],
+      "explanation": "**deshalb (Folge)**: consequence; position 1 → verb then subject."
+    },
+    {
+      "id": "tb1-u61-l04-position-1-ex03",
+      "type": "explain",
+      "title": "denn (Grund, Position 0)",
+      "body": "reason but normal word order (like und/aber).\n\n…, **denn** + Subjekt + Verb. (normale Wortstellung!)\nBsp: Ich bleibe zu Hause, denn **ich bin** müde."
+    },
+    {
+      "id": "tb1-u61-l04-position-1-ex04",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/w-rule-denn.mp3"
+      },
+      "tiles": [
+        "Hause",
+        "denn",
+        "bleibe",
+        "bin",
+        "obwohl",
+        "Ich",
+        "ich",
+        "damit",
+        "trotzdem",
+        "zu",
+        "müde"
+      ],
+      "answers": [
+        "Ich bleibe zu Hause, denn ich bin müde."
+      ],
+      "explanation": "**denn (Grund, Position 0)**: reason but normal word order (like und/aber)."
+    },
+    {
+      "id": "tb1-u61-l04-position-1-ex05",
+      "type": "explain",
+      "title": "trotzdem (Gegensatz)",
+      "body": "contrast; position 1 → inversion.\n\n…, **trotzdem** + **Verb** + Subjekt.\nBsp: Es war teuer, trotzdem **habe ich** es gekauft."
+    },
+    {
+      "id": "tb1-u61-l04-position-1-ex06",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/w-rule-trotzdem.mp3"
+      },
+      "tiles": [
+        "es",
+        "damit",
+        "Es",
+        "war",
+        "gekauft",
+        "trotzdem",
+        "teuer",
+        "weil",
+        "habe",
+        "ich",
+        "dass"
+      ],
+      "answers": [
+        "Es war teuer, trotzdem habe ich es gekauft."
+      ],
+      "explanation": "**trotzdem (Gegensatz)**: contrast; position 1 → inversion."
+    },
+    {
+      "id": "tb1-u61-l04-position-1-ex07",
+      "type": "explain",
+      "title": "aber / allerdings (Gegensatz)",
+      "body": "aber = normal order; allerdings = position 1 → inversion.\n\n…, **aber** … (normale Wortstellung). **Allerdings** + **Verb** + Subjekt.\nBsp: Es ist praktisch, allerdings **ist es** teuer."
+    },
+    {
+      "id": "tb1-u61-l04-position-1-ex08",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/w-rule-gegensatz.mp3"
+      },
+      "tiles": [
+        "dass",
+        "denn",
+        "es",
+        "trotzdem",
+        "teuer",
+        "allerdings",
+        "ist",
+        "Es",
+        "ist",
+        "praktisch"
+      ],
+      "answers": [
+        "Es ist praktisch, allerdings ist es teuer."
+      ],
+      "explanation": "**aber / allerdings (Gegensatz)**: aber = normal order; allerdings = position 1 → inversion."
+    },
+    {
+      "id": "tb1-u61-l04-position-1-ex09",
+      "type": "explain",
+      "title": "außerdem (Zusatz)",
+      "body": "addition; position 1 → inversion.\n\n…, **außerdem** + **Verb** + Subjekt.\nBsp: Es ist günstig, außerdem **liegt es** zentral."
+    },
+    {
+      "id": "tb1-u61-l04-position-1-ex10",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/w-rule-ausserdem.mp3"
+      },
+      "tiles": [
+        "außerdem",
+        "denn",
+        "ist",
+        "weil",
+        "liegt",
+        "trotzdem",
+        "günstig",
+        "zentral",
+        "Es",
+        "es"
+      ],
+      "answers": [
+        "Es ist günstig, außerdem liegt es zentral."
+      ],
+      "explanation": "**außerdem (Zusatz)**: addition; position 1 → inversion."
+    }
+  ]
+}

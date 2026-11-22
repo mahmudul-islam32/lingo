@@ -1,0 +1,276 @@
+{
+  "id": "tb1-u14-l06-education-language-learning-1",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u14",
+  "title": "Education & Language Learning 1",
+  "tip": "Theme: Bildung / Sprachenlernen (B1)",
+  "exercises": [
+    {
+      "id": "tb1-u14-l06-education-language-learning-1-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "die Schule",
+          "known": "school"
+        },
+        {
+          "id": "p2",
+          "learning": "die Ausbildung",
+          "known": "vocational training"
+        },
+        {
+          "id": "p3",
+          "learning": "studieren, das Studium",
+          "known": "to study (at university)"
+        },
+        {
+          "id": "p4",
+          "learning": "die Universität",
+          "known": "university"
+        },
+        {
+          "id": "p5",
+          "learning": "der Student",
+          "known": "student"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u14-l06-education-language-learning-1-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „school · grammar school“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "der Fehler, die Fehler: Fehler machen / korrigieren"
+        },
+        {
+          "id": "b",
+          "text": "die Schule, die Schulen · das Gymnasium, die Gymnasien"
+        },
+        {
+          "id": "c",
+          "text": "die Prüfung, die Prüfungen: eine Prüfung ablegen"
+        },
+        {
+          "id": "d",
+          "text": "der Student, die Studenten (n-Dekl.) / die Studentin, die Studentinnen"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**die Schule** = school · grammar school\n*Plural: die Schulen · also: das Gymnasium, die Gymnasien*\n\n*Example:* Nach der Grundschule geht meine Tochter aufs Gymnasium.\nAfter primary school my daughter is going to grammar school."
+    },
+    {
+      "id": "tb1-u14-l06-education-language-learning-1-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „vocational training: to do an apprenticeship“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Ausbildung, die Ausbildungen: eine Ausbildung machen"
+        },
+        {
+          "id": "b",
+          "text": "der Student, die Studenten (n-Dekl.) / die Studentin, die Studentinnen"
+        },
+        {
+          "id": "c",
+          "text": "der Kurs, die Kurse: einen Kurs besuchen"
+        },
+        {
+          "id": "d",
+          "text": "die Universität, die Universitäten"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**die Ausbildung** = vocational training: to do an apprenticeship\n*Plural: die Ausbildungen: eine Ausbildung machen*\n\n*Example:* Ali macht eine Ausbildung als Elektriker.\nAli is doing an apprenticeship as an electrician."
+    },
+    {
+      "id": "tb1-u14-l06-education-language-learning-1-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "After primary school my daughter is going to grammar school.",
+      "tiles": [
+        "Tochter",
+        "an",
+        "geht",
+        "leider",
+        "der",
+        "sie",
+        "Nach",
+        "Grundschule",
+        "meine",
+        "aufs",
+        "Gymnasium"
+      ],
+      "answers": [
+        "Nach der Grundschule geht meine Tochter aufs Gymnasium."
+      ],
+      "explanation": "**die Schule** = school · grammar school\n*Plural: die Schulen · also: das Gymnasium, die Gymnasien*"
+    },
+    {
+      "id": "tb1-u14-l06-education-language-learning-1-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which one means „to study (at university): degree course“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "auswendig lernen"
+        },
+        {
+          "id": "b",
+          "text": "fließend"
+        },
+        {
+          "id": "c",
+          "text": "studieren, das Studium (meist Sg.)"
+        },
+        {
+          "id": "d",
+          "text": "Fortschritte machen"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**studieren, das Studium (meist Sg.)** = to study (at university): degree course\n\n*Example:* Meine Cousine studiert Medizin in Heidelberg.\nMy cousin is studying medicine in Heidelberg."
+    },
+    {
+      "id": "tb1-u14-l06-education-language-learning-1-ex06",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u14-l06-education-language-learning-1-2.mp3"
+      },
+      "tiles": [
+        "es",
+        "macht",
+        "im",
+        "Elektriker",
+        "eine",
+        "Ausbildung",
+        "Café",
+        "Ali",
+        "als"
+      ],
+      "answers": [
+        "Ali macht eine Ausbildung als Elektriker."
+      ],
+      "explanation": "Ali macht eine Ausbildung als Elektriker.\n*Ali is doing an apprenticeship as an electrician.*\n\n**die Ausbildung** = vocational training: to do an apprenticeship\n*Plural: die Ausbildungen: eine Ausbildung machen*"
+    },
+    {
+      "id": "tb1-u14-l06-education-language-learning-1-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „university“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Note, die Noten"
+        },
+        {
+          "id": "b",
+          "text": "die Bedeutung, die Bedeutungen: bedeuten"
+        },
+        {
+          "id": "c",
+          "text": "der Student, die Studenten (n-Dekl.) / die Studentin, die Studentinnen"
+        },
+        {
+          "id": "d",
+          "text": "die Universität, die Universitäten"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**die Universität** = university\n*Plural: die Universitäten*\n\n*Example:* Die Universität liegt mitten in der Stadt.\nThe university is in the middle of the city."
+    },
+    {
+      "id": "tb1-u14-l06-education-language-learning-1-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Meine Cousine studiert Medizin in Heidelberg.",
+      "tiles": [
+        "is",
+        "very",
+        "My",
+        "son",
+        "cousin",
+        "Heidelberg",
+        "in",
+        "studying",
+        "medicine",
+        "a"
+      ],
+      "answers": [
+        "My cousin is studying medicine in Heidelberg."
+      ],
+      "explanation": "**studieren, das Studium (meist Sg.)** = to study (at university): degree course"
+    },
+    {
+      "id": "tb1-u14-l06-education-language-learning-1-ex09",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „student“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Note, die Noten"
+        },
+        {
+          "id": "b",
+          "text": "der Student, die Studenten (n-Dekl.) / die Studentin, die Studentinnen"
+        },
+        {
+          "id": "c",
+          "text": "die Prüfung, die Prüfungen: eine Prüfung ablegen"
+        },
+        {
+          "id": "d",
+          "text": "die Volkshochschule (VHS), die Volkshochschulen"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**der Student, die Studenten (n-Dekl.) / die Studentin, die Studentinnen** = student\n\n*Example:* Viele Studenten arbeiten nebenbei im Café.\nMany students work part-time in a café."
+    },
+    {
+      "id": "tb1-u14-l06-education-language-learning-1-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "The university is in the middle of the city.",
+      "tiles": [
+        "Universität",
+        "mitten",
+        "liegt",
+        "für",
+        "Am",
+        "ist",
+        "der",
+        "in",
+        "Die",
+        "Stadt"
+      ],
+      "answers": [
+        "Die Universität liegt mitten in der Stadt."
+      ],
+      "explanation": "**die Universität** = university\n*Plural: die Universitäten*"
+    },
+    {
+      "id": "tb1-u14-l06-education-language-learning-1-ex11",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u14-l06-education-language-learning-1-5.mp3"
+      },
+      "tiles": [
+        "Café",
+        "einen",
+        "Tom",
+        "arbeiten",
+        "im",
+        "Studenten",
+        "am",
+        "Viele",
+        "nebenbei"
+      ],
+      "answers": [
+        "Viele Studenten arbeiten nebenbei im Café."
+      ],
+      "explanation": "Viele Studenten arbeiten nebenbei im Café.\n*Many students work part-time in a café.*\n\n**der Student, die Studenten (n-Dekl.) / die Studentin, die Studentinnen** = student"
+    }
+  ]
+}

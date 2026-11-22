@@ -1,0 +1,419 @@
+{
+  "id": "tb1-u75-l13-modelltest-4-hoeren",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u75",
+  "title": "Modelltest 4 · Hören (tasks 41–60)",
+  "tip": "Missed one? Let it go and look at the next statement.",
+  "exercises": [
+    {
+      "id": "tb1-u75-l13-modelltest-4-hoeren-ex01",
+      "type": "explain",
+      "title": "Hören · 30 minutes",
+      "body": "Tasks 41–60, **30 minutes**. Teil 1 runs only once, Teil 2 and 3 twice. Read the statements before each text.\n\n**Tipp:** Aufgabe verpasst? Loslassen und sofort auf die nächste schauen. Wer im Kopf übersetzt, verpasst zwei weitere. Nie ein Feld leer lassen."
+    },
+    {
+      "id": "tb1-u75-l13-modelltest-4-hoeren-ex02",
+      "type": "explain",
+      "title": "Hören Teil 1 · Aufgaben 41–45 · Nachrichten & Ansagen",
+      "body": "Richtig oder falsch? Each text runs **only once**: listen once, then answer. **5 points each.**"
+    },
+    {
+      "id": "tb1-u75-l13-modelltest-4-hoeren-ex03",
+      "type": "listening",
+      "title": "Hören Teil 1 · Text 1 von 5 · Nachrichten & Ansagen",
+      "transcript": "Hier ist die Zahnarztpraxis Wolf. Ihr Termin morgen um neun Uhr ist bestätigt. Bitte denken Sie an Ihre Versichertenkarte.",
+      "prompt": "41. Der Anrufer sagt den Termin ab. Richtig oder falsch?",
+      "options": [
+        {
+          "id": "a",
+          "text": "richtig"
+        },
+        {
+          "id": "b",
+          "text": "falsch"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Falsch.** „bestätigt“ = der Termin bleibt, keine Absage."
+    },
+    {
+      "id": "tb1-u75-l13-modelltest-4-hoeren-ex04",
+      "type": "listening",
+      "title": "Hören Teil 1 · Text 2 von 5 · Nachrichten & Ansagen",
+      "transcript": "Gleis drei, bitte beachten: Der Regionalzug nach Kassel fährt heute ausnahmsweise von Gleis fünf.",
+      "prompt": "42. Der Zug nach Kassel fährt von Gleis 5. Richtig oder falsch?",
+      "options": [
+        {
+          "id": "a",
+          "text": "richtig"
+        },
+        {
+          "id": "b",
+          "text": "falsch"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Richtig.** „von Gleis fünf“, direkt bestätigt."
+    },
+    {
+      "id": "tb1-u75-l13-modelltest-4-hoeren-ex05",
+      "type": "listening",
+      "title": "Hören Teil 1 · Text 3 von 5 · Nachrichten & Ansagen",
+      "transcript": "Nur an diesem Wochenende: Beim Kauf von zwei Büchern erhalten Sie das dritte gratis.",
+      "prompt": "43. Das Angebot gilt die ganze Woche. Richtig oder falsch?",
+      "options": [
+        {
+          "id": "a",
+          "text": "richtig"
+        },
+        {
+          "id": "b",
+          "text": "falsch"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Falsch.** „nur an diesem Wochenende“. Einschränkung."
+    },
+    {
+      "id": "tb1-u75-l13-modelltest-4-hoeren-ex06",
+      "type": "listening",
+      "title": "Hören Teil 1 · Text 4 von 5 · Nachrichten & Ansagen",
+      "transcript": "Hi, ich bin's. Wir wollten uns um sieben treffen, schaffst du auch eine halbe Stunde später?",
+      "prompt": "44. Der Anrufer möchte sich um halb acht treffen. Richtig oder falsch?",
+      "options": [
+        {
+          "id": "a",
+          "text": "richtig"
+        },
+        {
+          "id": "b",
+          "text": "falsch"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Richtig.** sieben + halbe Stunde = 7:30 = halb acht."
+    },
+    {
+      "id": "tb1-u75-l13-modelltest-4-hoeren-ex07",
+      "type": "listening",
+      "title": "Hören Teil 1 · Text 5 von 5 · Nachrichten & Ansagen",
+      "transcript": "Liebe Kunden, an Kasse vier ist jetzt auch ohne Wartezeit geöffnet.",
+      "prompt": "45. Es gibt eine zusätzliche offene Kasse. Richtig oder falsch?",
+      "options": [
+        {
+          "id": "a",
+          "text": "richtig"
+        },
+        {
+          "id": "b",
+          "text": "falsch"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Richtig.** Kasse 4 zusätzlich offen. Paraphrase."
+    },
+    {
+      "id": "tb1-u75-l13-modelltest-4-hoeren-ex08",
+      "type": "explain",
+      "title": "Hören Teil 2 · Aufgaben 46–55 · Ehrenamt",
+      "body": "You hear the conversation **twice**. Read all statements first. **2.5 points each.**"
+    },
+    {
+      "id": "tb1-u75-l13-modelltest-4-hoeren-ex09",
+      "type": "listening",
+      "title": "Hören Teil 2 · Interview: Ehrenamt",
+      "transcript": "Moderator: Herr Sommer, Sie arbeiten in Ihrer Freizeit ehrenamtlich bei der Feuerwehr. Wie kam es dazu?\nSommer: Ein Freund war schon dabei und hat mich mitgenommen. Zuerst wollte ich nur zuschauen, aber dann hat es mich gepackt. Das ist jetzt zwölf Jahre her.\nModerator: Wie viel Zeit kostet das?\nSommer: Wir üben jeden Dienstagabend, das sind etwa drei Stunden. Dazu kommen die Einsätze, die kann man natürlich nicht planen.\nModerator: Ist das nicht manchmal gefährlich?\nSommer: Sicherheit steht bei uns immer an erster Stelle. Wir gehen nie ohne die richtige Ausrüstung in einen Einsatz. Gefährlich wird es nur, wenn man Regeln nicht beachtet.\nModerator: Verdienen Sie etwas dabei?\nSommer: Nein, das ist ehrenamtlich, also unbezahlt. Aber das Gefühl, anderen zu helfen, ist mehr wert als Geld.\nModerator: Würden Sie es weiterempfehlen?\nSommer: Auf jeden Fall. Man lernt viele nette Leute kennen und tut etwas Sinnvolles.",
+      "prompt": "46. Herr Sommer ist durch einen Freund zur Feuerwehr gekommen. Richtig oder falsch?",
+      "options": [
+        {
+          "id": "a",
+          "text": "richtig"
+        },
+        {
+          "id": "b",
+          "text": "falsch"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Richtig.** „Ein Freund hat mich mitgenommen“."
+    },
+    {
+      "id": "tb1-u75-l13-modelltest-4-hoeren-ex10",
+      "type": "listening",
+      "title": "Hören Teil 2 · Interview: Ehrenamt",
+      "transcript": "Moderator: Herr Sommer, Sie arbeiten in Ihrer Freizeit ehrenamtlich bei der Feuerwehr. Wie kam es dazu?\nSommer: Ein Freund war schon dabei und hat mich mitgenommen. Zuerst wollte ich nur zuschauen, aber dann hat es mich gepackt. Das ist jetzt zwölf Jahre her.\nModerator: Wie viel Zeit kostet das?\nSommer: Wir üben jeden Dienstagabend, das sind etwa drei Stunden. Dazu kommen die Einsätze, die kann man natürlich nicht planen.\nModerator: Ist das nicht manchmal gefährlich?\nSommer: Sicherheit steht bei uns immer an erster Stelle. Wir gehen nie ohne die richtige Ausrüstung in einen Einsatz. Gefährlich wird es nur, wenn man Regeln nicht beachtet.\nModerator: Verdienen Sie etwas dabei?\nSommer: Nein, das ist ehrenamtlich, also unbezahlt. Aber das Gefühl, anderen zu helfen, ist mehr wert als Geld.\nModerator: Würden Sie es weiterempfehlen?\nSommer: Auf jeden Fall. Man lernt viele nette Leute kennen und tut etwas Sinnvolles.",
+      "prompt": "47. Am Anfang wollte er sofort aktiv mitmachen. Richtig oder falsch?",
+      "options": [
+        {
+          "id": "a",
+          "text": "richtig"
+        },
+        {
+          "id": "b",
+          "text": "falsch"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Falsch.** „Zuerst wollte ich nur zuschauen“."
+    },
+    {
+      "id": "tb1-u75-l13-modelltest-4-hoeren-ex11",
+      "type": "listening",
+      "title": "Hören Teil 2 · Interview: Ehrenamt",
+      "transcript": "Moderator: Herr Sommer, Sie arbeiten in Ihrer Freizeit ehrenamtlich bei der Feuerwehr. Wie kam es dazu?\nSommer: Ein Freund war schon dabei und hat mich mitgenommen. Zuerst wollte ich nur zuschauen, aber dann hat es mich gepackt. Das ist jetzt zwölf Jahre her.\nModerator: Wie viel Zeit kostet das?\nSommer: Wir üben jeden Dienstagabend, das sind etwa drei Stunden. Dazu kommen die Einsätze, die kann man natürlich nicht planen.\nModerator: Ist das nicht manchmal gefährlich?\nSommer: Sicherheit steht bei uns immer an erster Stelle. Wir gehen nie ohne die richtige Ausrüstung in einen Einsatz. Gefährlich wird es nur, wenn man Regeln nicht beachtet.\nModerator: Verdienen Sie etwas dabei?\nSommer: Nein, das ist ehrenamtlich, also unbezahlt. Aber das Gefühl, anderen zu helfen, ist mehr wert als Geld.\nModerator: Würden Sie es weiterempfehlen?\nSommer: Auf jeden Fall. Man lernt viele nette Leute kennen und tut etwas Sinnvolles.",
+      "prompt": "48. Er ist seit mehr als zehn Jahren dabei. Richtig oder falsch?",
+      "options": [
+        {
+          "id": "a",
+          "text": "richtig"
+        },
+        {
+          "id": "b",
+          "text": "falsch"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Richtig.** „zwölf Jahre her“."
+    },
+    {
+      "id": "tb1-u75-l13-modelltest-4-hoeren-ex12",
+      "type": "listening",
+      "title": "Hören Teil 2 · Interview: Ehrenamt",
+      "transcript": "Moderator: Herr Sommer, Sie arbeiten in Ihrer Freizeit ehrenamtlich bei der Feuerwehr. Wie kam es dazu?\nSommer: Ein Freund war schon dabei und hat mich mitgenommen. Zuerst wollte ich nur zuschauen, aber dann hat es mich gepackt. Das ist jetzt zwölf Jahre her.\nModerator: Wie viel Zeit kostet das?\nSommer: Wir üben jeden Dienstagabend, das sind etwa drei Stunden. Dazu kommen die Einsätze, die kann man natürlich nicht planen.\nModerator: Ist das nicht manchmal gefährlich?\nSommer: Sicherheit steht bei uns immer an erster Stelle. Wir gehen nie ohne die richtige Ausrüstung in einen Einsatz. Gefährlich wird es nur, wenn man Regeln nicht beachtet.\nModerator: Verdienen Sie etwas dabei?\nSommer: Nein, das ist ehrenamtlich, also unbezahlt. Aber das Gefühl, anderen zu helfen, ist mehr wert als Geld.\nModerator: Würden Sie es weiterempfehlen?\nSommer: Auf jeden Fall. Man lernt viele nette Leute kennen und tut etwas Sinnvolles.",
+      "prompt": "49. Die Gruppe übt jeden Dienstag. Richtig oder falsch?",
+      "options": [
+        {
+          "id": "a",
+          "text": "richtig"
+        },
+        {
+          "id": "b",
+          "text": "falsch"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Richtig.** „jeden Dienstagabend“."
+    },
+    {
+      "id": "tb1-u75-l13-modelltest-4-hoeren-ex13",
+      "type": "listening",
+      "title": "Hören Teil 2 · Interview: Ehrenamt",
+      "transcript": "Moderator: Herr Sommer, Sie arbeiten in Ihrer Freizeit ehrenamtlich bei der Feuerwehr. Wie kam es dazu?\nSommer: Ein Freund war schon dabei und hat mich mitgenommen. Zuerst wollte ich nur zuschauen, aber dann hat es mich gepackt. Das ist jetzt zwölf Jahre her.\nModerator: Wie viel Zeit kostet das?\nSommer: Wir üben jeden Dienstagabend, das sind etwa drei Stunden. Dazu kommen die Einsätze, die kann man natürlich nicht planen.\nModerator: Ist das nicht manchmal gefährlich?\nSommer: Sicherheit steht bei uns immer an erster Stelle. Wir gehen nie ohne die richtige Ausrüstung in einen Einsatz. Gefährlich wird es nur, wenn man Regeln nicht beachtet.\nModerator: Verdienen Sie etwas dabei?\nSommer: Nein, das ist ehrenamtlich, also unbezahlt. Aber das Gefühl, anderen zu helfen, ist mehr wert als Geld.\nModerator: Würden Sie es weiterempfehlen?\nSommer: Auf jeden Fall. Man lernt viele nette Leute kennen und tut etwas Sinnvolles.",
+      "prompt": "50. Die Einsätze finden zu festen Zeiten statt. Richtig oder falsch?",
+      "options": [
+        {
+          "id": "a",
+          "text": "richtig"
+        },
+        {
+          "id": "b",
+          "text": "falsch"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Falsch.** „kann man nicht planen“."
+    },
+    {
+      "id": "tb1-u75-l13-modelltest-4-hoeren-ex14",
+      "type": "listening",
+      "title": "Hören Teil 2 · Interview: Ehrenamt",
+      "transcript": "Moderator: Herr Sommer, Sie arbeiten in Ihrer Freizeit ehrenamtlich bei der Feuerwehr. Wie kam es dazu?\nSommer: Ein Freund war schon dabei und hat mich mitgenommen. Zuerst wollte ich nur zuschauen, aber dann hat es mich gepackt. Das ist jetzt zwölf Jahre her.\nModerator: Wie viel Zeit kostet das?\nSommer: Wir üben jeden Dienstagabend, das sind etwa drei Stunden. Dazu kommen die Einsätze, die kann man natürlich nicht planen.\nModerator: Ist das nicht manchmal gefährlich?\nSommer: Sicherheit steht bei uns immer an erster Stelle. Wir gehen nie ohne die richtige Ausrüstung in einen Einsatz. Gefährlich wird es nur, wenn man Regeln nicht beachtet.\nModerator: Verdienen Sie etwas dabei?\nSommer: Nein, das ist ehrenamtlich, also unbezahlt. Aber das Gefühl, anderen zu helfen, ist mehr wert als Geld.\nModerator: Würden Sie es weiterempfehlen?\nSommer: Auf jeden Fall. Man lernt viele nette Leute kennen und tut etwas Sinnvolles.",
+      "prompt": "51. Sicherheit ist Herrn Sommer sehr wichtig. Richtig oder falsch?",
+      "options": [
+        {
+          "id": "a",
+          "text": "richtig"
+        },
+        {
+          "id": "b",
+          "text": "falsch"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Richtig.** „Sicherheit steht an erster Stelle“."
+    },
+    {
+      "id": "tb1-u75-l13-modelltest-4-hoeren-ex15",
+      "type": "listening",
+      "title": "Hören Teil 2 · Interview: Ehrenamt",
+      "transcript": "Moderator: Herr Sommer, Sie arbeiten in Ihrer Freizeit ehrenamtlich bei der Feuerwehr. Wie kam es dazu?\nSommer: Ein Freund war schon dabei und hat mich mitgenommen. Zuerst wollte ich nur zuschauen, aber dann hat es mich gepackt. Das ist jetzt zwölf Jahre her.\nModerator: Wie viel Zeit kostet das?\nSommer: Wir üben jeden Dienstagabend, das sind etwa drei Stunden. Dazu kommen die Einsätze, die kann man natürlich nicht planen.\nModerator: Ist das nicht manchmal gefährlich?\nSommer: Sicherheit steht bei uns immer an erster Stelle. Wir gehen nie ohne die richtige Ausrüstung in einen Einsatz. Gefährlich wird es nur, wenn man Regeln nicht beachtet.\nModerator: Verdienen Sie etwas dabei?\nSommer: Nein, das ist ehrenamtlich, also unbezahlt. Aber das Gefühl, anderen zu helfen, ist mehr wert als Geld.\nModerator: Würden Sie es weiterempfehlen?\nSommer: Auf jeden Fall. Man lernt viele nette Leute kennen und tut etwas Sinnvolles.",
+      "prompt": "52. Für seine Arbeit bei der Feuerwehr bekommt er Geld. Richtig oder falsch?",
+      "options": [
+        {
+          "id": "a",
+          "text": "richtig"
+        },
+        {
+          "id": "b",
+          "text": "falsch"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Falsch.** „ehrenamtlich, also unbezahlt“."
+    },
+    {
+      "id": "tb1-u75-l13-modelltest-4-hoeren-ex16",
+      "type": "listening",
+      "title": "Hören Teil 2 · Interview: Ehrenamt",
+      "transcript": "Moderator: Herr Sommer, Sie arbeiten in Ihrer Freizeit ehrenamtlich bei der Feuerwehr. Wie kam es dazu?\nSommer: Ein Freund war schon dabei und hat mich mitgenommen. Zuerst wollte ich nur zuschauen, aber dann hat es mich gepackt. Das ist jetzt zwölf Jahre her.\nModerator: Wie viel Zeit kostet das?\nSommer: Wir üben jeden Dienstagabend, das sind etwa drei Stunden. Dazu kommen die Einsätze, die kann man natürlich nicht planen.\nModerator: Ist das nicht manchmal gefährlich?\nSommer: Sicherheit steht bei uns immer an erster Stelle. Wir gehen nie ohne die richtige Ausrüstung in einen Einsatz. Gefährlich wird es nur, wenn man Regeln nicht beachtet.\nModerator: Verdienen Sie etwas dabei?\nSommer: Nein, das ist ehrenamtlich, also unbezahlt. Aber das Gefühl, anderen zu helfen, ist mehr wert als Geld.\nModerator: Würden Sie es weiterempfehlen?\nSommer: Auf jeden Fall. Man lernt viele nette Leute kennen und tut etwas Sinnvolles.",
+      "prompt": "53. Er findet, das gute Gefühl ist wichtiger als Geld. Richtig oder falsch?",
+      "options": [
+        {
+          "id": "a",
+          "text": "richtig"
+        },
+        {
+          "id": "b",
+          "text": "falsch"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Richtig.** „mehr wert als Geld“."
+    },
+    {
+      "id": "tb1-u75-l13-modelltest-4-hoeren-ex17",
+      "type": "listening",
+      "title": "Hören Teil 2 · Interview: Ehrenamt",
+      "transcript": "Moderator: Herr Sommer, Sie arbeiten in Ihrer Freizeit ehrenamtlich bei der Feuerwehr. Wie kam es dazu?\nSommer: Ein Freund war schon dabei und hat mich mitgenommen. Zuerst wollte ich nur zuschauen, aber dann hat es mich gepackt. Das ist jetzt zwölf Jahre her.\nModerator: Wie viel Zeit kostet das?\nSommer: Wir üben jeden Dienstagabend, das sind etwa drei Stunden. Dazu kommen die Einsätze, die kann man natürlich nicht planen.\nModerator: Ist das nicht manchmal gefährlich?\nSommer: Sicherheit steht bei uns immer an erster Stelle. Wir gehen nie ohne die richtige Ausrüstung in einen Einsatz. Gefährlich wird es nur, wenn man Regeln nicht beachtet.\nModerator: Verdienen Sie etwas dabei?\nSommer: Nein, das ist ehrenamtlich, also unbezahlt. Aber das Gefühl, anderen zu helfen, ist mehr wert als Geld.\nModerator: Würden Sie es weiterempfehlen?\nSommer: Auf jeden Fall. Man lernt viele nette Leute kennen und tut etwas Sinnvolles.",
+      "prompt": "54. Bei der Feuerwehr lernt man laut Herrn Sommer nette Leute kennen. Richtig oder falsch?",
+      "options": [
+        {
+          "id": "a",
+          "text": "richtig"
+        },
+        {
+          "id": "b",
+          "text": "falsch"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Richtig.** „viele nette Leute“."
+    },
+    {
+      "id": "tb1-u75-l13-modelltest-4-hoeren-ex18",
+      "type": "listening",
+      "title": "Hören Teil 2 · Interview: Ehrenamt",
+      "transcript": "Moderator: Herr Sommer, Sie arbeiten in Ihrer Freizeit ehrenamtlich bei der Feuerwehr. Wie kam es dazu?\nSommer: Ein Freund war schon dabei und hat mich mitgenommen. Zuerst wollte ich nur zuschauen, aber dann hat es mich gepackt. Das ist jetzt zwölf Jahre her.\nModerator: Wie viel Zeit kostet das?\nSommer: Wir üben jeden Dienstagabend, das sind etwa drei Stunden. Dazu kommen die Einsätze, die kann man natürlich nicht planen.\nModerator: Ist das nicht manchmal gefährlich?\nSommer: Sicherheit steht bei uns immer an erster Stelle. Wir gehen nie ohne die richtige Ausrüstung in einen Einsatz. Gefährlich wird es nur, wenn man Regeln nicht beachtet.\nModerator: Verdienen Sie etwas dabei?\nSommer: Nein, das ist ehrenamtlich, also unbezahlt. Aber das Gefühl, anderen zu helfen, ist mehr wert als Geld.\nModerator: Würden Sie es weiterempfehlen?\nSommer: Auf jeden Fall. Man lernt viele nette Leute kennen und tut etwas Sinnvolles.",
+      "prompt": "55. Er würde anderen von diesem Ehrenamt abraten. Richtig oder falsch?",
+      "options": [
+        {
+          "id": "a",
+          "text": "richtig"
+        },
+        {
+          "id": "b",
+          "text": "falsch"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Falsch.** „Auf jeden Fall“ weiterempfehlen."
+    },
+    {
+      "id": "tb1-u75-l13-modelltest-4-hoeren-ex19",
+      "type": "explain",
+      "title": "Hören Teil 3 · Aufgaben 56–60 · Geschäft & Freizeit",
+      "body": "Richtig oder falsch? Each announcement runs **twice**. **5 points each.**"
+    },
+    {
+      "id": "tb1-u75-l13-modelltest-4-hoeren-ex20",
+      "type": "listening",
+      "title": "Hören Teil 3 · Durchsage 1 von 5 · Geschäft & Freizeit",
+      "transcript": "Liebe Kunden, wir schließen in zehn Minuten. Bitte bringen Sie Ihre Einkäufe zur Kasse.",
+      "prompt": "56. Das Geschäft schließt bald. Richtig oder falsch?",
+      "options": [
+        {
+          "id": "a",
+          "text": "richtig"
+        },
+        {
+          "id": "b",
+          "text": "falsch"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Richtig.** in 10 Minuten = bald."
+    },
+    {
+      "id": "tb1-u75-l13-modelltest-4-hoeren-ex21",
+      "type": "listening",
+      "title": "Hören Teil 3 · Durchsage 2 von 5 · Geschäft & Freizeit",
+      "transcript": "Das Schwimmbad ist heute wegen Reinigungsarbeiten erst ab vierzehn Uhr geöffnet.",
+      "prompt": "57. Das Schwimmbad ist schon am Vormittag geöffnet. Richtig oder falsch?",
+      "options": [
+        {
+          "id": "a",
+          "text": "richtig"
+        },
+        {
+          "id": "b",
+          "text": "falsch"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Falsch.** „erst ab 14 Uhr“, nicht am Vormittag."
+    },
+    {
+      "id": "tb1-u75-l13-modelltest-4-hoeren-ex22",
+      "type": "listening",
+      "title": "Hören Teil 3 · Durchsage 3 von 5 · Geschäft & Freizeit",
+      "transcript": "Information: Der Eintritt in den Park ist kostenlos, nur für Führungen zahlen Sie fünf Euro.",
+      "prompt": "58. Der Eintritt in den Park kostet nichts. Richtig oder falsch?",
+      "options": [
+        {
+          "id": "a",
+          "text": "richtig"
+        },
+        {
+          "id": "b",
+          "text": "falsch"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Richtig.** „Eintritt kostenlos“; nur Führungen kosten."
+    },
+    {
+      "id": "tb1-u75-l13-modelltest-4-hoeren-ex23",
+      "type": "listening",
+      "title": "Hören Teil 3 · Durchsage 4 von 5 · Geschäft & Freizeit",
+      "transcript": "Wichtiger Hinweis: In der gesamten Bibliothek ist das Essen und Trinken nicht gestattet.",
+      "prompt": "59. In der Bibliothek darf man essen und trinken. Richtig oder falsch?",
+      "options": [
+        {
+          "id": "a",
+          "text": "richtig"
+        },
+        {
+          "id": "b",
+          "text": "falsch"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Falsch.** „nicht gestattet“ = verboten."
+    },
+    {
+      "id": "tb1-u75-l13-modelltest-4-hoeren-ex24",
+      "type": "listening",
+      "title": "Hören Teil 3 · Durchsage 5 von 5 · Geschäft & Freizeit",
+      "transcript": "Liebe Gäste, das Konzert im Park findet heute wegen des Regens nicht draußen, sondern in der Halle statt.",
+      "prompt": "60. Das Konzert findet heute in der Halle statt. Richtig oder falsch?",
+      "options": [
+        {
+          "id": "a",
+          "text": "richtig"
+        },
+        {
+          "id": "b",
+          "text": "falsch"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Richtig.** „nicht draußen, sondern in der Halle“. Korrektur, Halle stimmt."
+    },
+    {
+      "id": "tb1-u75-l13-modelltest-4-hoeren-ex25",
+      "type": "explain",
+      "title": "Schreiben and Sprechen",
+      "body": "The written exam ends with **30 minutes of Schreiben**: one e-mail (about 80 words) that covers all four guiding points, with salutation and closing. Do one task from the **Writing (Schreiben)** unit now, with a 30-minute timer, and grade yourself strictly (when in doubt, one grade lower).\n\nThe oral exam is separate (75 points, pass from 45): practise Teil 1–3 in the **Speaking (Sprechen)** units.\n\nThen add up your points: Lesen + Sprachbausteine + Hören + Schreiben. **135 of 225** = passed."
+    }
+  ]
+}

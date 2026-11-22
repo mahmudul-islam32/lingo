@@ -1,0 +1,223 @@
+{
+  "id": "tb1-u32-l23-ndekl-p1",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u32",
+  "title": "The n-Declension: n-Deklination",
+  "tip": "“Ich frage den Kollege” → den Kollegen. And in letters: an Herr Müller → an Herrn Müller.",
+  "exercises": [
+    {
+      "id": "tb1-u32-l23-ndekl-p1-ex01",
+      "type": "explain",
+      "title": "n-Deklination: der Kollege → den Kollegen",
+      "body": "Some masculine nouns take -(e)n in every case except the nominative.\n\n*Deutsch:* Einige maskuline Nomen bekommen außer im Nominativ immer -(e)n.\n\n## Pattern\n\nden/dem/des + **Nomen-(e)n**",
+      "examples": [
+        {
+          "learning": "Ich frage den Kollegen.",
+          "known": "I'll ask the colleague."
+        },
+        {
+          "learning": "Kennst du unseren neuen Nachbarn?",
+          "known": "Do you know our new neighbour?"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u32-l23-ndekl-p1-ex02",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I'll ask the colleague.",
+      "tiles": [
+        "Ihren",
+        "Nachbarn",
+        "Arzt",
+        "Kollegen",
+        "Ich",
+        "frage",
+        "den"
+      ],
+      "answers": [
+        "Ich frage den Kollegen."
+      ],
+      "explanation": "**Why:** Accusative: der Kollege → den Kollegen.\n\n*Warum:* Akkusativ: der Kollege → den Kollegen."
+    },
+    {
+      "id": "tb1-u32-l23-ndekl-p1-ex03",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Do you know our new neighbour?",
+      "tiles": [
+        "dem",
+        "Nachbarn",
+        "neuen",
+        "Kennst",
+        "du",
+        "unseren",
+        "Sie",
+        "den"
+      ],
+      "answers": [
+        "Kennst du unseren neuen Nachbarn?"
+      ],
+      "explanation": "**Why:** der Nachbar → den Nachbarn.\n\n*Warum:* der Nachbar → den Nachbarn."
+    },
+    {
+      "id": "tb1-u32-l23-ndekl-p1-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "The doctor is talking to the patient.",
+      "tiles": [
+        "Schmidt",
+        "spricht",
+        "dem",
+        "bitte",
+        "mit",
+        "Patienten",
+        "sprechen",
+        "Der",
+        "Arzt"
+      ],
+      "answers": [
+        "Der Arzt spricht mit dem Patienten."
+      ],
+      "explanation": "**Why:** Dative: dem Patienten.\n\n*Warum:* Dativ: dem Patienten."
+    },
+    {
+      "id": "tb1-u32-l23-ndekl-p1-ex05",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I spoke to Mr Schmidt on the phone yesterday.",
+      "tiles": [
+        "Der",
+        "telefoniert",
+        "Ich",
+        "Herrn",
+        "Schmidt",
+        "gestern",
+        "Ärztin",
+        "bei",
+        "habe",
+        "mit"
+      ],
+      "answers": [
+        "Ich habe gestern mit Herrn Schmidt telefoniert."
+      ],
+      "explanation": "**Why:** Herr → Herrn (except in the nominative).\n\n*Warum:* Herr → Herrn (außer im Nominativ)."
+    },
+    {
+      "id": "tb1-u32-l23-ndekl-p1-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "We're helping the boy with his homework.",
+      "tiles": [
+        "Wir",
+        "dem",
+        "helfen",
+        "Patienten",
+        "bei",
+        "den",
+        "Jungen",
+        "Kollegen",
+        "Hausaufgaben",
+        "Nachbarn"
+      ],
+      "answers": [
+        "Wir helfen dem Jungen bei den Hausaufgaben."
+      ],
+      "explanation": "**Why:** der Junge → dem Jungen.\n\n*Warum:* der Junge → dem Jungen."
+    },
+    {
+      "id": "tb1-u32-l23-ndekl-p1-ex07",
+      "type": "choice",
+      "title": "Fill the gap",
+      "prompt": "Guten Tag, ich möchte ___ Müller sprechen.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Herr"
+        },
+        {
+          "id": "b",
+          "text": "Herren"
+        },
+        {
+          "id": "c",
+          "text": "Herrn"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "der Herr → Akkusativ: Herrn Müller."
+    },
+    {
+      "id": "tb1-u32-l23-ndekl-p1-ex08",
+      "type": "choice",
+      "title": "Fill the gap",
+      "prompt": "Die Ärztin spricht gerade mit ___.",
+      "options": [
+        {
+          "id": "a",
+          "text": "dem Patienten"
+        },
+        {
+          "id": "b",
+          "text": "den Patienten"
+        },
+        {
+          "id": "c",
+          "text": "dem Patient"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "mit + Dativ + n-Deklination: dem Patienten."
+    },
+    {
+      "id": "tb1-u32-l23-ndekl-p1-ex09",
+      "type": "choice",
+      "title": "Find the mistake",
+      "prompt": "Which word is wrong? „Ich habe den Kollege gefragt.“",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ich"
+        },
+        {
+          "id": "b",
+          "text": "habe"
+        },
+        {
+          "id": "c",
+          "text": "den"
+        },
+        {
+          "id": "d",
+          "text": "Kollege"
+        },
+        {
+          "id": "e",
+          "text": "gefragt"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "„Kollege“ → „Kollegen“: **Ich habe den Kollegen gefragt.**\n\nn-Deklination: den Kollegen (außer im Nominativ immer + n)."
+    },
+    {
+      "id": "tb1-u32-l23-ndekl-p1-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Correct the sentence: „Ich habe den Kollege gefragt.“",
+      "tiles": [
+        "Ich",
+        "Jungen",
+        "gefragt",
+        "den",
+        "Kollege",
+        "mit",
+        "habe",
+        "Kollegen"
+      ],
+      "answers": [
+        "Ich habe den Kollegen gefragt."
+      ],
+      "explanation": "n-Deklination: den Kollegen (außer im Nominativ immer + n)."
+    }
+  ]
+}

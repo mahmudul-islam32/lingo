@@ -1,0 +1,235 @@
+{
+  "id": "tb1-u02-l12-family-people-3",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u02",
+  "title": "Family & People 3",
+  "tip": "Theme: Familie & Menschen (A1)",
+  "exercises": [
+    {
+      "id": "tb1-u02-l12-family-people-3-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "die Schwester",
+          "known": "sister"
+        },
+        {
+          "id": "p2",
+          "learning": "die Großeltern",
+          "known": "grandparents"
+        },
+        {
+          "id": "p3",
+          "learning": "der Freund",
+          "known": "friend (m) / boyfriend"
+        },
+        {
+          "id": "p4",
+          "learning": "die Freundin",
+          "known": "friend (f) / girlfriend"
+        },
+        {
+          "id": "p5",
+          "learning": "die Familie",
+          "known": "family"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u02-l12-family-people-3-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „sister“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "das Kind, die Kinder"
+        },
+        {
+          "id": "b",
+          "text": "der Sohn, die Söhne"
+        },
+        {
+          "id": "c",
+          "text": "die Freundin, die Freundinnen"
+        },
+        {
+          "id": "d",
+          "text": "die Schwester, die Schwestern"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**die Schwester** = sister\n*Plural: die Schwestern*\n\n*Example:* Ali hat zwei Schwestern und keinen Bruder.\nAli has two sisters and no brother."
+    },
+    {
+      "id": "tb1-u02-l12-family-people-3-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „grandparents“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "der Vater, die Väter"
+        },
+        {
+          "id": "b",
+          "text": "die Tochter, die Töchter"
+        },
+        {
+          "id": "c",
+          "text": "die Großeltern (Pl.)"
+        },
+        {
+          "id": "d",
+          "text": "der Bruder, die Brüder"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**die Großeltern (Pl.)** = grandparents\n\n*Example:* In den Ferien sind die Kinder bei den Großeltern.\nDuring the holidays the children stay with their grandparents."
+    },
+    {
+      "id": "tb1-u02-l12-family-people-3-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Ali has two sisters and no brother.",
+      "tiles": [
+        "der",
+        "Bruder",
+        "keinen",
+        "Anna",
+        "und",
+        "Tochter",
+        "hat",
+        "zwei",
+        "Ali",
+        "Schwestern"
+      ],
+      "answers": [
+        "Ali hat zwei Schwestern und keinen Bruder."
+      ],
+      "explanation": "**die Schwester** = sister\n*Plural: die Schwestern*"
+    },
+    {
+      "id": "tb1-u02-l12-family-people-3-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „friend (m) / boyfriend“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Eltern (Pl.)"
+        },
+        {
+          "id": "b",
+          "text": "der Freund, die Freunde"
+        },
+        {
+          "id": "c",
+          "text": "der Name, die Namen"
+        },
+        {
+          "id": "d",
+          "text": "die Freundin, die Freundinnen"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**der Freund** = friend (m) / boyfriend\n*Plural: die Freunde*\n\n*Example:* Am Abend treffe ich meine Freunde im Café.\nIn the evening I meet my friends at the café."
+    },
+    {
+      "id": "tb1-u02-l12-family-people-3-ex06",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u02-l12-family-people-3-2.mp3"
+      },
+      "tiles": [
+        "bei",
+        "den",
+        "den",
+        "Toms",
+        "In",
+        "Kinder",
+        "Großeltern",
+        "sind",
+        "auf",
+        "die",
+        "Ferien",
+        "als"
+      ],
+      "answers": [
+        "In den Ferien sind die Kinder bei den Großeltern."
+      ],
+      "explanation": "In den Ferien sind die Kinder bei den Großeltern.\n*During the holidays the children stay with their grandparents.*\n\n**die Großeltern (Pl.)** = grandparents"
+    },
+    {
+      "id": "tb1-u02-l12-family-people-3-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „friend (f) / girlfriend“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Tochter, die Töchter"
+        },
+        {
+          "id": "b",
+          "text": "die Großeltern (Pl.)"
+        },
+        {
+          "id": "c",
+          "text": "die Freundin, die Freundinnen"
+        },
+        {
+          "id": "d",
+          "text": "das Baby, die Babys"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**die Freundin** = friend (f) / girlfriend\n*Plural: die Freundinnen*\n\n*Example:* Meine Freundin hat mich gestern zum Essen eingeladen.\nMy friend invited me to dinner yesterday."
+    },
+    {
+      "id": "tb1-u02-l12-family-people-3-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Am Abend treffe ich meine Freunde im Café.",
+      "tiles": [
+        "friends",
+        "at",
+        "my",
+        "Tom's",
+        "the",
+        "Our",
+        "café",
+        "meet",
+        "In",
+        "the",
+        "evening",
+        "play",
+        "I"
+      ],
+      "answers": [
+        "In the evening I meet my friends at the café."
+      ],
+      "explanation": "**der Freund** = friend (m) / boyfriend\n*Plural: die Freunde*"
+    },
+    {
+      "id": "tb1-u02-l12-family-people-3-ex09",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "My friend invited me to dinner yesterday.",
+      "tiles": [
+        "Freundin",
+        "Fußball",
+        "Meine",
+        "Klasse",
+        "zum",
+        "dritte",
+        "mich",
+        "eingeladen",
+        "Essen",
+        "hat",
+        "gestern"
+      ],
+      "answers": [
+        "Meine Freundin hat mich gestern zum Essen eingeladen."
+      ],
+      "explanation": "**die Freundin** = friend (f) / girlfriend\n*Plural: die Freundinnen*"
+    }
+  ]
+}

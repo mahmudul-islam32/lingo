@@ -1,0 +1,276 @@
+{
+  "id": "tb1-u10-l07-letters-opening-closing-1",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u10",
+  "title": "Letters: Opening & Closing 1",
+  "tip": "Theme: Sätze. Brief: Einleitung & Schluss (A2)",
+  "exercises": [
+    {
+      "id": "tb1-u10-l07-letters-opening-closing-1-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "Wie geht es dir? Mir geht es gut",
+          "known": "How are you? I'm fine."
+        },
+        {
+          "id": "p2",
+          "learning": "Vielen Dank für deinen netten Brief",
+          "known": "Thank you for your nice letter."
+        },
+        {
+          "id": "p3",
+          "learning": "Melde dich bald wieder!",
+          "known": "Get in touch again soon!"
+        },
+        {
+          "id": "p4",
+          "learning": "Ich freue mich auf deine Antwort",
+          "known": "I look forward to your reply."
+        },
+        {
+          "id": "p5",
+          "learning": "Liebe Grüße und bis bald",
+          "known": "Best wishes and see you soon."
+        }
+      ]
+    },
+    {
+      "id": "tb1-u10-l07-letters-opening-closing-1-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means „How are you? I'm fine.“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ich freue mich auf deine Antwort."
+        },
+        {
+          "id": "b",
+          "text": "Ich schreibe dir, um dir etwas mitzuteilen."
+        },
+        {
+          "id": "c",
+          "text": "Ich hoffe, wir sehen uns bald."
+        },
+        {
+          "id": "d",
+          "text": "Wie geht es dir? Mir geht es gut."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**Wie geht es dir? Mir geht es gut.** = How are you? I'm fine.\n\n*Example:* Wie geht es dir? Mir geht es gut.\nHow are you? I'm fine."
+    },
+    {
+      "id": "tb1-u10-l07-letters-opening-closing-1-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means „Thank you for your nice letter.“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ich schreibe dir, um dir etwas mitzuteilen."
+        },
+        {
+          "id": "b",
+          "text": "Entschuldige, dass ich erst jetzt antworte."
+        },
+        {
+          "id": "c",
+          "text": "Ich freue mich auf deine Antwort."
+        },
+        {
+          "id": "d",
+          "text": "Vielen Dank für deinen netten Brief."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**Vielen Dank für deinen netten Brief.** = Thank you for your nice letter.\n\n*Example:* Vielen Dank für deinen netten Brief.\nThank you for your nice letter."
+    },
+    {
+      "id": "tb1-u10-l07-letters-opening-closing-1-ex04",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u10-l07-letters-opening-closing-1-1.mp3"
+      },
+      "tiles": [
+        "es",
+        "uns",
+        "Melde",
+        "Mir",
+        "Familie",
+        "gut",
+        "Wie",
+        "dir",
+        "es",
+        "geht",
+        "geht"
+      ],
+      "answers": [
+        "Wie geht es dir? Mir geht es gut."
+      ],
+      "explanation": "Wie geht es dir? Mir geht es gut.\n*How are you? I'm fine.*\n\n**Wie geht es dir? Mir geht es gut.** = How are you? I'm fine."
+    },
+    {
+      "id": "tb1-u10-l07-letters-opening-closing-1-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means „I was very happy about your message.“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Liebe Grüße und bis bald."
+        },
+        {
+          "id": "b",
+          "text": "Ich freue mich auf deine Antwort."
+        },
+        {
+          "id": "c",
+          "text": "Ich habe mich sehr über deine Nachricht gefreut."
+        },
+        {
+          "id": "d",
+          "text": "Vielen Dank für deinen netten Brief."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**Ich habe mich sehr über deine Nachricht gefreut.** = I was very happy about your message.\n\n*Example:* Ich habe mich sehr über deine Nachricht gefreut.\nI was very happy about your message."
+    },
+    {
+      "id": "tb1-u10-l07-letters-opening-closing-1-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Vielen Dank für deinen netten Brief.",
+      "tiles": [
+        "for",
+        "your",
+        "very",
+        "nice",
+        "letter",
+        "to",
+        "Thank",
+        "you",
+        "see"
+      ],
+      "answers": [
+        "Thank you for your nice letter."
+      ],
+      "explanation": "**Vielen Dank für deinen netten Brief.** = Thank you for your nice letter."
+    },
+    {
+      "id": "tb1-u10-l07-letters-opening-closing-1-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means „Sorry that I'm only replying now.“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Grüß bitte deine Familie von mir."
+        },
+        {
+          "id": "b",
+          "text": "Entschuldige, dass ich erst jetzt antworte."
+        },
+        {
+          "id": "c",
+          "text": "Ich hoffe, wir sehen uns bald."
+        },
+        {
+          "id": "d",
+          "text": "Ich habe mich sehr über deine Nachricht gefreut."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Entschuldige, dass ich erst jetzt antworte.** = Sorry that I'm only replying now.\n\n*Example:* Entschuldige, dass ich erst jetzt antworte.\nSorry that I'm only replying now."
+    },
+    {
+      "id": "tb1-u10-l07-letters-opening-closing-1-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I was very happy about your message.",
+      "tiles": [
+        "über",
+        "Nachricht",
+        "und",
+        "mich",
+        "deine",
+        "etwas",
+        "jetzt",
+        "Ich",
+        "habe",
+        "sehr",
+        "gefreut"
+      ],
+      "answers": [
+        "Ich habe mich sehr über deine Nachricht gefreut."
+      ],
+      "explanation": "**Ich habe mich sehr über deine Nachricht gefreut.** = I was very happy about your message."
+    },
+    {
+      "id": "tb1-u10-l07-letters-opening-closing-1-ex09",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means „I'm writing to tell you something.“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ich schreibe dir, um dir etwas mitzuteilen."
+        },
+        {
+          "id": "b",
+          "text": "Vielen Dank für deinen netten Brief."
+        },
+        {
+          "id": "c",
+          "text": "Ich habe mich sehr über deine Nachricht gefreut."
+        },
+        {
+          "id": "d",
+          "text": "Wie geht es dir? Mir geht es gut."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Ich schreibe dir, um dir etwas mitzuteilen.** = I'm writing to tell you something.\n\n*Example:* Ich schreibe dir, um dir etwas mitzuteilen.\nI'm writing to tell you something."
+    },
+    {
+      "id": "tb1-u10-l07-letters-opening-closing-1-ex10",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u10-l07-letters-opening-closing-1-4.mp3"
+      },
+      "tiles": [
+        "Grüße",
+        "jetzt",
+        "antworte",
+        "Familie",
+        "dir",
+        "Entschuldige",
+        "erst",
+        "dass",
+        "ich"
+      ],
+      "answers": [
+        "Entschuldige, dass ich erst jetzt antworte."
+      ],
+      "explanation": "Entschuldige, dass ich erst jetzt antworte.\n*Sorry that I'm only replying now.*\n\n**Entschuldige, dass ich erst jetzt antworte.** = Sorry that I'm only replying now."
+    },
+    {
+      "id": "tb1-u10-l07-letters-opening-closing-1-ex11",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Ich schreibe dir, um dir etwas mitzuteilen.",
+      "tiles": [
+        "to",
+        "you",
+        "I",
+        "family",
+        "I'm",
+        "Sorry",
+        "something",
+        "tell",
+        "writing"
+      ],
+      "answers": [
+        "I'm writing to tell you something."
+      ],
+      "explanation": "**Ich schreibe dir, um dir etwas mitzuteilen.** = I'm writing to tell you something."
+    }
+  ]
+}

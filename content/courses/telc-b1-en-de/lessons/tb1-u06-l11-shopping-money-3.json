@@ -1,0 +1,232 @@
+{
+  "id": "tb1-u06-l11-shopping-money-3",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u06",
+  "title": "Shopping & Money 3",
+  "tip": "Theme: Einkaufen & Geld (A2)",
+  "exercises": [
+    {
+      "id": "tb1-u06-l11-shopping-money-3-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "die Kreditkarte",
+          "known": "credit card"
+        },
+        {
+          "id": "p2",
+          "learning": "kosten",
+          "known": "to cost"
+        },
+        {
+          "id": "p3",
+          "learning": "teuer",
+          "known": "expensive"
+        },
+        {
+          "id": "p4",
+          "learning": "günstig",
+          "known": "cheap / good value"
+        },
+        {
+          "id": "p5",
+          "learning": "das Geschäft",
+          "known": "shop"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u06-l11-shopping-money-3-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „credit card“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Kreditkarte, die Kreditkarten"
+        },
+        {
+          "id": "b",
+          "text": "der Supermarkt, die Supermärkte"
+        },
+        {
+          "id": "c",
+          "text": "die Rechnung, die Rechnungen"
+        },
+        {
+          "id": "d",
+          "text": "das Angebot, die Angebote"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**die Kreditkarte** = credit card\n*Plural: die Kreditkarten*\n\n*Example:* Im Hotel bezahlt Tom mit seiner Kreditkarte.\nAt the hotel Tom pays with his credit card."
+    },
+    {
+      "id": "tb1-u06-l11-shopping-money-3-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which one means „to cost“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "bar bezahlen"
+        },
+        {
+          "id": "b",
+          "text": "teuer"
+        },
+        {
+          "id": "c",
+          "text": "kosten"
+        },
+        {
+          "id": "d",
+          "text": "sparen"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**kosten** = to cost\n\n*Example:* Wie viel kosten die Schuhe im Schaufenster?\nHow much are the shoes in the window?"
+    },
+    {
+      "id": "tb1-u06-l11-shopping-money-3-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Im Hotel bezahlt Tom mit seiner Kreditkarte.",
+      "tiles": [
+        "pays",
+        "At",
+        "with",
+        "the",
+        "I",
+        "small",
+        "in",
+        "his",
+        "hotel",
+        "credit",
+        "Tom",
+        "card"
+      ],
+      "answers": [
+        "At the hotel Tom pays with his credit card."
+      ],
+      "explanation": "**die Kreditkarte** = credit card\n*Plural: die Kreditkarten*"
+    },
+    {
+      "id": "tb1-u06-l11-shopping-money-3-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which one means „expensive“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "umtauschen"
+        },
+        {
+          "id": "b",
+          "text": "bar bezahlen"
+        },
+        {
+          "id": "c",
+          "text": "günstig"
+        },
+        {
+          "id": "d",
+          "text": "teuer"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**teuer** = expensive\n\n*Example:* Die Wohnungen in München sind sehr teuer.\nFlats in Munich are very expensive."
+    },
+    {
+      "id": "tb1-u06-l11-shopping-money-3-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "How much are the shoes in the window?",
+      "tiles": [
+        "Wie",
+        "im",
+        "die",
+        "Kreditkarte",
+        "Kundenkarte",
+        "viel",
+        "An",
+        "Schuhe",
+        "Schaufenster",
+        "kosten"
+      ],
+      "answers": [
+        "Wie viel kosten die Schuhe im Schaufenster?"
+      ],
+      "explanation": "**kosten** = to cost"
+    },
+    {
+      "id": "tb1-u06-l11-shopping-money-3-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which one means „cheap / good value“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "umtauschen"
+        },
+        {
+          "id": "b",
+          "text": "teuer"
+        },
+        {
+          "id": "c",
+          "text": "bar bezahlen"
+        },
+        {
+          "id": "d",
+          "text": "günstig"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**günstig** = cheap / good value\n\n*Example:* Im Discounter ist das Gemüse oft günstig.\nVegetables are often cheap at the discount store."
+    },
+    {
+      "id": "tb1-u06-l11-shopping-money-3-ex08",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u06-l11-shopping-money-3-3.mp3"
+      },
+      "tiles": [
+        "Wohnungen",
+        "Urlaub",
+        "sparen",
+        "sehr",
+        "in",
+        "sind",
+        "München",
+        "teuer",
+        "Die",
+        "bekommen"
+      ],
+      "answers": [
+        "Die Wohnungen in München sind sehr teuer."
+      ],
+      "explanation": "Die Wohnungen in München sind sehr teuer.\n*Flats in Munich are very expensive.*\n\n**teuer** = expensive"
+    },
+    {
+      "id": "tb1-u06-l11-shopping-money-3-ex09",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Im Discounter ist das Gemüse oft günstig.",
+      "tiles": [
+        "Vegetables",
+        "are",
+        "the",
+        "you",
+        "expensive",
+        "store",
+        "cheap",
+        "discount",
+        "change",
+        "at",
+        "often"
+      ],
+      "answers": [
+        "Vegetables are often cheap at the discount store."
+      ],
+      "explanation": "**günstig** = cheap / good value"
+    }
+  ]
+}

@@ -1,0 +1,240 @@
+{
+  "id": "tb1-u13-l04-environment-weather-4",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u13",
+  "title": "Environment & Weather 4",
+  "tip": "Theme: Umwelt / Wetter (B1)",
+  "exercises": [
+    {
+      "id": "tb1-u13-l04-environment-weather-4-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "der Schnee",
+          "known": "snow"
+        },
+        {
+          "id": "p2",
+          "learning": "das Gewitter",
+          "known": "thunderstorm"
+        },
+        {
+          "id": "p3",
+          "learning": "der Nebel",
+          "known": "fog"
+        },
+        {
+          "id": "p4",
+          "learning": "bewölkt",
+          "known": "cloudy"
+        },
+        {
+          "id": "p5",
+          "learning": "die Umwelt",
+          "known": "environment"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u13-l04-environment-weather-4-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „snow: to snow“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Temperatur, die Temperaturen. Es sind 25 Grad."
+        },
+        {
+          "id": "b",
+          "text": "die Sonne: sonnig: scheinen (hat geschienen)"
+        },
+        {
+          "id": "c",
+          "text": "der Müll (nur Sg.) · der Abfall, die Abfälle"
+        },
+        {
+          "id": "d",
+          "text": "der Schnee (nur Sg.), schneien"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**der Schnee (nur Sg.), schneien** = snow: to snow\n\n*Example:* Im Januar hat es in Berlin viel geschneit.\nIt snowed a lot in Berlin in January."
+    },
+    {
+      "id": "tb1-u13-l04-environment-weather-4-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „thunderstorm“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "das Gewitter, die Gewitter"
+        },
+        {
+          "id": "b",
+          "text": "der Umweltschutz (nur Sg.), die Umwelt schützen"
+        },
+        {
+          "id": "c",
+          "text": "die Sonne: sonnig: scheinen (hat geschienen)"
+        },
+        {
+          "id": "d",
+          "text": "der Strom (nur Sg.) · die Energie, die Energien"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**das Gewitter** = thunderstorm\n*Plural: die Gewitter*\n\n*Example:* Bei Gewitter bleiben die Kinder lieber im Haus.\nDuring a thunderstorm the children prefer to stay inside."
+    },
+    {
+      "id": "tb1-u13-l04-environment-weather-4-ex04",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u13-l04-environment-weather-4-1.mp3"
+      },
+      "tiles": [
+        "Wettervorhersage",
+        "Januar",
+        "in",
+        "geschneit",
+        "hat",
+        "Berlin",
+        "Vater",
+        "Straße",
+        "viel",
+        "Im",
+        "es"
+      ],
+      "answers": [
+        "Im Januar hat es in Berlin viel geschneit."
+      ],
+      "explanation": "Im Januar hat es in Berlin viel geschneit.\n*It snowed a lot in Berlin in January.*\n\n**der Schnee (nur Sg.), schneien** = snow: to snow"
+    },
+    {
+      "id": "tb1-u13-l04-environment-weather-4-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „fog: foggy“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "der Wind, die Winde: windig"
+        },
+        {
+          "id": "b",
+          "text": "der Nebel (nur Sg.), neblig"
+        },
+        {
+          "id": "c",
+          "text": "die Temperatur, die Temperaturen. Es sind 25 Grad."
+        },
+        {
+          "id": "d",
+          "text": "der Strom (nur Sg.) · die Energie, die Energien"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**der Nebel (nur Sg.), neblig** = fog: foggy\n\n*Example:* Am Morgen war es so neblig, dass ich langsam gefahren bin.\nIt was so foggy in the morning that I drove slowly."
+    },
+    {
+      "id": "tb1-u13-l04-environment-weather-4-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Bei Gewitter bleiben die Kinder lieber im Haus.",
+      "tiles": [
+        "prefer",
+        "a",
+        "children",
+        "inside",
+        "the",
+        "is",
+        "afternoon",
+        "During",
+        "become",
+        "stay",
+        "to",
+        "thunderstorm"
+      ],
+      "answers": [
+        "During a thunderstorm the children prefer to stay inside."
+      ],
+      "explanation": "**das Gewitter** = thunderstorm\n*Plural: die Gewitter*"
+    },
+    {
+      "id": "tb1-u13-l04-environment-weather-4-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which one means „cloudy · wet ↔ dry“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Strom / Wasser / Energie sparen"
+        },
+        {
+          "id": "b",
+          "text": "den Müll trennen: die Mülltonne, die Mülltonnen"
+        },
+        {
+          "id": "c",
+          "text": "recyceln (hat recycelt)"
+        },
+        {
+          "id": "d",
+          "text": "bewölkt · nass ↔ trocken"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**bewölkt · nass ↔ trocken** = cloudy · wet ↔ dry\n\n*Example:* Der Himmel ist bewölkt, aber die Straße ist noch trocken.\nThe sky is cloudy, but the road is still dry."
+    },
+    {
+      "id": "tb1-u13-l04-environment-weather-4-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "It was so foggy in the morning that I drove slowly.",
+      "tiles": [
+        "Morgen",
+        "so",
+        "gefahren",
+        "es",
+        "bin",
+        "runterbringen",
+        "Der",
+        "war",
+        "ich",
+        "Am",
+        "dass",
+        "neblig",
+        "noch",
+        "langsam"
+      ],
+      "answers": [
+        "Am Morgen war es so neblig, dass ich langsam gefahren bin."
+      ],
+      "explanation": "**der Nebel (nur Sg.), neblig** = fog: foggy"
+    },
+    {
+      "id": "tb1-u13-l04-environment-weather-4-ex09",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u13-l04-environment-weather-4-4.mp3"
+      },
+      "tiles": [
+        "aber",
+        "Der",
+        "Morgen",
+        "bewölkt",
+        "die",
+        "Himmel",
+        "ist",
+        "Alte",
+        "Straße",
+        "trocken",
+        "gehen",
+        "ist",
+        "noch"
+      ],
+      "answers": [
+        "Der Himmel ist bewölkt, aber die Straße ist noch trocken."
+      ],
+      "explanation": "Der Himmel ist bewölkt, aber die Straße ist noch trocken.\n*The sky is cloudy, but the road is still dry.*\n\n**bewölkt · nass ↔ trocken** = cloudy · wet ↔ dry"
+    }
+  ]
+}

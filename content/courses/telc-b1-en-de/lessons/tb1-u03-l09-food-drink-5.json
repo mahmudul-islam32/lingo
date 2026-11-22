@@ -1,0 +1,234 @@
+{
+  "id": "tb1-u03-l09-food-drink-5",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u03",
+  "title": "Food & Drink 5",
+  "tip": "Theme: Essen & Trinken (A1)",
+  "exercises": [
+    {
+      "id": "tb1-u03-l09-food-drink-5-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "das Mittagessen",
+          "known": "lunch"
+        },
+        {
+          "id": "p2",
+          "learning": "das Abendessen",
+          "known": "dinner"
+        },
+        {
+          "id": "p3",
+          "learning": "der Hunger",
+          "known": "hunger"
+        },
+        {
+          "id": "p4",
+          "learning": "der Durst",
+          "known": "thirst"
+        },
+        {
+          "id": "p5",
+          "learning": "das Essen",
+          "known": "food"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u03-l09-food-drink-5-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „lunch“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "das Brötchen, die Brötchen"
+        },
+        {
+          "id": "b",
+          "text": "das Gemüse"
+        },
+        {
+          "id": "c",
+          "text": "das Mittagessen"
+        },
+        {
+          "id": "d",
+          "text": "der Durst"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**das Mittagessen** = lunch\n\n*Example:* In der Mittagspause gehe ich mit Kollegen zum Mittagessen.\nDuring my lunch break I go for lunch with colleagues."
+    },
+    {
+      "id": "tb1-u03-l09-food-drink-5-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „dinner“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "das Abendessen"
+        },
+        {
+          "id": "b",
+          "text": "der Hunger"
+        },
+        {
+          "id": "c",
+          "text": "der Kaffee"
+        },
+        {
+          "id": "d",
+          "text": "der Fisch, die Fische"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**das Abendessen** = dinner\n\n*Example:* Zum Abendessen gibt es heute Nudeln mit Tomatensoße.\nWe're having pasta with tomato sauce for dinner tonight."
+    },
+    {
+      "id": "tb1-u03-l09-food-drink-5-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "In der Mittagspause gehe ich mit Kollegen zum Mittagessen.",
+      "tiles": [
+        "I",
+        "go",
+        "my",
+        "for",
+        "any",
+        "break",
+        "always",
+        "with",
+        "During",
+        "lunch",
+        "lunch",
+        "colleagues",
+        "breakfast"
+      ],
+      "answers": [
+        "During my lunch break I go for lunch with colleagues."
+      ],
+      "explanation": "**das Mittagessen** = lunch"
+    },
+    {
+      "id": "tb1-u03-l09-food-drink-5-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „hunger“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "das Mittagessen"
+        },
+        {
+          "id": "b",
+          "text": "die Butter"
+        },
+        {
+          "id": "c",
+          "text": "der Hunger"
+        },
+        {
+          "id": "d",
+          "text": "das Abendessen"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**der Hunger** = hunger\n\n*Example:* Ich habe großen Hunger, weil ich nicht gefrühstückt habe.\nI'm really hungry because I didn't have breakfast."
+    },
+    {
+      "id": "tb1-u03-l09-food-drink-5-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "We're having pasta with tomato sauce for dinner tonight.",
+      "tiles": [
+        "es",
+        "Nudeln",
+        "mit",
+        "ein",
+        "gibt",
+        "heute",
+        "Zum",
+        "Abendessen",
+        "Preis",
+        "Trinkst",
+        "Tomatensoße"
+      ],
+      "answers": [
+        "Zum Abendessen gibt es heute Nudeln mit Tomatensoße."
+      ],
+      "explanation": "**das Abendessen** = dinner"
+    },
+    {
+      "id": "tb1-u03-l09-food-drink-5-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „thirst“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "der Durst"
+        },
+        {
+          "id": "b",
+          "text": "das Brötchen, die Brötchen"
+        },
+        {
+          "id": "c",
+          "text": "der Fisch, die Fische"
+        },
+        {
+          "id": "d",
+          "text": "das Essen"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**der Durst** = thirst\n\n*Example:* Nach dem Sport habe ich immer viel Durst.\nI'm always very thirsty after sport."
+    },
+    {
+      "id": "tb1-u03-l09-food-drink-5-ex08",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u03-l09-food-drink-5-3.mp3"
+      },
+      "tiles": [
+        "Hunger",
+        "Trinkst",
+        "großen",
+        "habe",
+        "nicht",
+        "weil",
+        "gefrühstückt",
+        "habe",
+        "Tomatensoße",
+        "Ich",
+        "ich",
+        "in"
+      ],
+      "answers": [
+        "Ich habe großen Hunger, weil ich nicht gefrühstückt habe."
+      ],
+      "explanation": "Ich habe großen Hunger, weil ich nicht gefrühstückt habe.\n*I'm really hungry because I didn't have breakfast.*\n\n**der Hunger** = hunger"
+    },
+    {
+      "id": "tb1-u03-l09-food-drink-5-ex09",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Nach dem Sport habe ich immer viel Durst.",
+      "tiles": [
+        "I",
+        "I'm",
+        "sport",
+        "cheap",
+        "very",
+        "Tom",
+        "thirsty",
+        "after",
+        "always"
+      ],
+      "answers": [
+        "I'm always very thirsty after sport."
+      ],
+      "explanation": "**der Durst** = thirst"
+    }
+  ]
+}

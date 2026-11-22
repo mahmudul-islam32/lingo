@@ -1,0 +1,236 @@
+{
+  "id": "tb1-u03-l13-house-home-4",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u03",
+  "title": "House & Home 4",
+  "tip": "Theme: Haus & Wohnung (A1)",
+  "exercises": [
+    {
+      "id": "tb1-u03-l13-house-home-4-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "der Schrank",
+          "known": "cupboard / wardrobe"
+        },
+        {
+          "id": "p2",
+          "learning": "die Lampe",
+          "known": "lamp"
+        },
+        {
+          "id": "p3",
+          "learning": "der Schlüssel",
+          "known": "key"
+        },
+        {
+          "id": "p4",
+          "learning": "der Garten",
+          "known": "garden"
+        },
+        {
+          "id": "p5",
+          "learning": "das Haus",
+          "known": "house"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u03-l13-house-home-4-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „cupboard / wardrobe“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "der Schrank, die Schränke"
+        },
+        {
+          "id": "b",
+          "text": "der Schlüssel, die Schlüssel"
+        },
+        {
+          "id": "c",
+          "text": "der Stuhl, die Stühle"
+        },
+        {
+          "id": "d",
+          "text": "die Wohnung, die Wohnungen"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**der Schrank** = cupboard / wardrobe\n*Plural: die Schränke*\n\n*Example:* Die Teller sind im Schrank über der Spüle.\nThe plates are in the cupboard above the sink."
+    },
+    {
+      "id": "tb1-u03-l13-house-home-4-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „lamp“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "der Garten, die Gärten"
+        },
+        {
+          "id": "b",
+          "text": "das Wohnzimmer"
+        },
+        {
+          "id": "c",
+          "text": "das Haus, die Häuser"
+        },
+        {
+          "id": "d",
+          "text": "die Lampe, die Lampen"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**die Lampe** = lamp\n*Plural: die Lampen*\n\n*Example:* Die Lampe im Flur ist kaputt, wir brauchen eine neue Glühbirne.\nThe lamp in the hallway is broken, we need a new bulb."
+    },
+    {
+      "id": "tb1-u03-l13-house-home-4-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "The plates are in the cupboard above the sink.",
+      "tiles": [
+        "sind",
+        "Teller",
+        "über",
+        "eine",
+        "Die",
+        "im",
+        "Glühbirne",
+        "Das",
+        "Schrank",
+        "der",
+        "Spüle"
+      ],
+      "answers": [
+        "Die Teller sind im Schrank über der Spüle."
+      ],
+      "explanation": "**der Schrank** = cupboard / wardrobe\n*Plural: die Schränke*"
+    },
+    {
+      "id": "tb1-u03-l13-house-home-4-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „key“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Lampe, die Lampen"
+        },
+        {
+          "id": "b",
+          "text": "das Wohnzimmer"
+        },
+        {
+          "id": "c",
+          "text": "der Schlüssel, die Schlüssel"
+        },
+        {
+          "id": "d",
+          "text": "das Schlafzimmer"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**der Schlüssel** = key\n*Plural: die Schlüssel*\n\n*Example:* Ich habe meinen Schlüssel verloren und kann nicht in die Wohnung.\nI've lost my key and can't get into the flat."
+    },
+    {
+      "id": "tb1-u03-l13-house-home-4-ex06",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u03-l13-house-home-4-2.mp3"
+      },
+      "tiles": [
+        "brauchen",
+        "sitzen",
+        "eine",
+        "bitte",
+        "Lampe",
+        "Die",
+        "Glühbirne",
+        "kaputt",
+        "ist",
+        "Schlüssel",
+        "im",
+        "neue",
+        "Flur",
+        "wir"
+      ],
+      "answers": [
+        "Die Lampe im Flur ist kaputt, wir brauchen eine neue Glühbirne."
+      ],
+      "explanation": "Die Lampe im Flur ist kaputt, wir brauchen eine neue Glühbirne.\n*The lamp in the hallway is broken, we need a new bulb.*\n\n**die Lampe** = lamp\n*Plural: die Lampen*"
+    },
+    {
+      "id": "tb1-u03-l13-house-home-4-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „garden“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "der Garten, die Gärten"
+        },
+        {
+          "id": "b",
+          "text": "der Stuhl, die Stühle"
+        },
+        {
+          "id": "c",
+          "text": "das Haus, die Häuser"
+        },
+        {
+          "id": "d",
+          "text": "die Lampe, die Lampen"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**der Garten** = garden\n*Plural: die Gärten*\n\n*Example:* Im Sommer frühstücken wir im Garten.\nIn summer we have breakfast in the garden."
+    },
+    {
+      "id": "tb1-u03-l13-house-home-4-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Ich habe meinen Schlüssel verloren und kann nicht in die Wohnung.",
+      "tiles": [
+        "I've",
+        "can't",
+        "key",
+        "close",
+        "TV",
+        "and",
+        "is",
+        "into",
+        "flat",
+        "get",
+        "my",
+        "the",
+        "lost"
+      ],
+      "answers": [
+        "I've lost my key and can't get into the flat."
+      ],
+      "explanation": "**der Schlüssel** = key\n*Plural: die Schlüssel*"
+    },
+    {
+      "id": "tb1-u03-l13-house-home-4-ex09",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "In summer we have breakfast in the garden.",
+      "tiles": [
+        "Im",
+        "im",
+        "frühstücken",
+        "mach",
+        "Sommer",
+        "wir",
+        "Garten",
+        "Bett",
+        "Lampe"
+      ],
+      "answers": [
+        "Im Sommer frühstücken wir im Garten."
+      ],
+      "explanation": "**der Garten** = garden\n*Plural: die Gärten*"
+    }
+  ]
+}

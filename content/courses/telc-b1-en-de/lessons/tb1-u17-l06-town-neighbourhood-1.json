@@ -1,0 +1,295 @@
+{
+  "id": "tb1-u17-l06-town-neighbourhood-1",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u17",
+  "title": "Town & Neighbourhood 1",
+  "tip": "Theme: Stadt / Nachbarschaft (B1)",
+  "exercises": [
+    {
+      "id": "tb1-u17-l06-town-neighbourhood-1-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "die Großstadt",
+          "known": "big city"
+        },
+        {
+          "id": "p2",
+          "learning": "die Innenstadt",
+          "known": "city centre"
+        },
+        {
+          "id": "p3",
+          "learning": "der Stadtteil",
+          "known": "district"
+        },
+        {
+          "id": "p4",
+          "learning": "am Stadtrand",
+          "known": "on the outskirts"
+        },
+        {
+          "id": "p5",
+          "learning": "die Straße",
+          "known": "street"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u17-l06-town-neighbourhood-1-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „big city ↔ village“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "der Stadtteil, die Stadtteile · das Viertel, die Viertel"
+        },
+        {
+          "id": "b",
+          "text": "die Innenstadt, die Innenstädte · das Zentrum, die Zentren"
+        },
+        {
+          "id": "c",
+          "text": "der Spielplatz, die Spielplätze"
+        },
+        {
+          "id": "d",
+          "text": "die Großstadt, die Großstädte ↔ das Dorf, die Dörfer"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**die Großstadt, die Großstädte ↔ das Dorf, die Dörfer** = big city ↔ village\n\n*Example:* Ich bin in einem kleinen Dorf aufgewachsen, aber jetzt wohne ich in einer Großstadt.\nI grew up in a small village, but now I live in a big city."
+    },
+    {
+      "id": "tb1-u17-l06-town-neighbourhood-1-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „city centre“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "der Stadtteil, die Stadtteile · das Viertel, die Viertel"
+        },
+        {
+          "id": "b",
+          "text": "die öffentlichen Verkehrsmittel (Pl.)"
+        },
+        {
+          "id": "c",
+          "text": "die Innenstadt, die Innenstädte · das Zentrum, die Zentren"
+        },
+        {
+          "id": "d",
+          "text": "die Blumen gießen (hat gegossen)"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**die Innenstadt** = city centre\n*Plural: die Innenstädte · also: das Zentrum, die Zentren*\n\n*Example:* Am Samstag ist die Innenstadt immer voll mit Menschen.\nOn Saturdays the city centre is always full of people."
+    },
+    {
+      "id": "tb1-u17-l06-town-neighbourhood-1-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I grew up in a small village, but now I live in a big city.",
+      "tiles": [
+        "Dorf",
+        "aufgewachsen",
+        "kleinen",
+        "in",
+        "aber",
+        "ich",
+        "Ich",
+        "Das",
+        "bin",
+        "Großstadt",
+        "den",
+        "einem",
+        "in",
+        "jetzt",
+        "unserer",
+        "wohne",
+        "einer"
+      ],
+      "answers": [
+        "Ich bin in einem kleinen Dorf aufgewachsen, aber jetzt wohne ich in einer Großstadt."
+      ],
+      "explanation": "**die Großstadt, die Großstädte ↔ das Dorf, die Dörfer** = big city ↔ village"
+    },
+    {
+      "id": "tb1-u17-l06-town-neighbourhood-1-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „district · quarter“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "der Spielplatz, die Spielplätze"
+        },
+        {
+          "id": "b",
+          "text": "der Stadtteil, die Stadtteile · das Viertel, die Viertel"
+        },
+        {
+          "id": "c",
+          "text": "die Bibliothek, die Bibliotheken · das Museum, die Museen"
+        },
+        {
+          "id": "d",
+          "text": "der Platz, die Plätze · die Brücke, die Brücken"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**der Stadtteil** = district · quarter\n*Plural: die Stadtteile · also: das Viertel, die Viertel*\n\n*Example:* In unserem Stadtteil gibt es viele Cafés und kleine Läden.\nThere are lots of cafés and small shops in our district."
+    },
+    {
+      "id": "tb1-u17-l06-town-neighbourhood-1-ex06",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u17-l06-town-neighbourhood-1-2.mp3"
+      },
+      "tiles": [
+        "Großstadt",
+        "wohne",
+        "die",
+        "Innenstadt",
+        "Supermarkt",
+        "Menschen",
+        "mit",
+        "voll",
+        "Am",
+        "ist",
+        "immer",
+        "Samstag"
+      ],
+      "answers": [
+        "Am Samstag ist die Innenstadt immer voll mit Menschen."
+      ],
+      "explanation": "Am Samstag ist die Innenstadt immer voll mit Menschen.\n*On Saturdays the city centre is always full of people.*\n\n**die Innenstadt** = city centre\n*Plural: die Innenstädte · also: das Zentrum, die Zentren*"
+    },
+    {
+      "id": "tb1-u17-l06-town-neighbourhood-1-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which one means „on the outskirts“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "aufpassen auf + Akk. auf die Katze aufpassen"
+        },
+        {
+          "id": "b",
+          "text": "den Briefkasten leeren: der Briefkasten, die Briefkästen"
+        },
+        {
+          "id": "c",
+          "text": "am Stadtrand"
+        },
+        {
+          "id": "d",
+          "text": "den Schlüssel abgeben: der Schlüssel, die Schlüssel"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**am Stadtrand** = on the outskirts\n\n*Example:* Am Stadtrand sind die Mieten günstiger als im Zentrum.\nRents on the outskirts are cheaper than in the centre."
+    },
+    {
+      "id": "tb1-u17-l06-town-neighbourhood-1-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "In unserem Stadtteil gibt es viele Cafés und kleine Läden.",
+      "tiles": [
+        "and",
+        "shops",
+        "cafés",
+        "are",
+        "hall",
+        "transport",
+        "small",
+        "district",
+        "There",
+        "in",
+        "our",
+        "lots",
+        "next",
+        "of"
+      ],
+      "answers": [
+        "There are lots of cafés and small shops in our district."
+      ],
+      "explanation": "**der Stadtteil** = district · quarter\n*Plural: die Stadtteile · also: das Viertel, die Viertel*"
+    },
+    {
+      "id": "tb1-u17-l06-town-neighbourhood-1-ex09",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „street · crossroads · traffic lights“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Großstadt, die Großstädte ↔ das Dorf, die Dörfer"
+        },
+        {
+          "id": "b",
+          "text": "der Spielplatz, die Spielplätze"
+        },
+        {
+          "id": "c",
+          "text": "die Straße, die Straßen · die Kreuzung, die Kreuzungen · die Ampel, die Ampeln"
+        },
+        {
+          "id": "d",
+          "text": "der Platz, die Plätze · die Brücke, die Brücken"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**die Straße** = street · crossroads · traffic lights\n*Plural: die Straßen · also: die Kreuzung, die Kreuzungen · die Ampel, die Ampeln*\n\n*Example:* Fahren Sie bis zur Kreuzung und an der Ampel links.\nDrive to the crossroads and turn left at the traffic lights."
+    },
+    {
+      "id": "tb1-u17-l06-town-neighbourhood-1-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Rents on the outskirts are cheaper than in the centre.",
+      "tiles": [
+        "im",
+        "Mieten",
+        "Am",
+        "mit",
+        "die",
+        "günstiger",
+        "links",
+        "Stadtrand",
+        "sind",
+        "als",
+        "hat",
+        "Zentrum"
+      ],
+      "answers": [
+        "Am Stadtrand sind die Mieten günstiger als im Zentrum."
+      ],
+      "explanation": "**am Stadtrand** = on the outskirts"
+    },
+    {
+      "id": "tb1-u17-l06-town-neighbourhood-1-ex11",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u17-l06-town-neighbourhood-1-5.mp3"
+      },
+      "tiles": [
+        "links",
+        "Fahren",
+        "Sie",
+        "und",
+        "öffentlichen",
+        "neben",
+        "Ampel",
+        "der",
+        "Kreuzung",
+        "zur",
+        "Filme",
+        "bis",
+        "an"
+      ],
+      "answers": [
+        "Fahren Sie bis zur Kreuzung und an der Ampel links."
+      ],
+      "explanation": "Fahren Sie bis zur Kreuzung und an der Ampel links.\n*Drive to the crossroads and turn left at the traffic lights.*\n\n**die Straße** = street · crossroads · traffic lights\n*Plural: die Straßen · also: die Kreuzung, die Kreuzungen · die Ampel, die Ampeln*"
+    }
+  ]
+}

@@ -1,0 +1,151 @@
+{
+  "id": "tb1-u32-l09-praepad-rule",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u32",
+  "title": "Prepositions with a Fixed Case: the rule",
+  "tip": "“mit meinen Freund” → mit meinem Freund (dative!). And: nach Hause (direction) vs. zu Hause (location).",
+  "exercises": [
+    {
+      "id": "tb1-u32-l09-praepad-rule-ex01",
+      "type": "explain",
+      "title": "Prepositions with a Fixed Case",
+      "body": "Always **accusative**: durch, für, gegen, ohne, um. Always **dative**: aus, bei, mit, nach, seit, von, zu (+ gegenüber, ab). Contractions: zum, zur, beim, vom.\n\n*Deutsch:* Immer **Akkusativ**: durch, für, gegen, ohne, um. Immer **Dativ**: aus, bei, mit, nach, seit, von, zu (+ gegenüber, ab). Kurzformen: zum, zur, beim, vom.\n\n*German name:* Präpositionen: fester Kasus",
+      "examples": [
+        {
+          "learning": "Das Geschenk ist für dich.",
+          "known": "The present is for you."
+        },
+        {
+          "learning": "Ich fahre mit dem Bus zur Arbeit.",
+          "known": "I take the bus to work."
+        },
+        {
+          "learning": "Ich wohne seit zwei Jahren bei meiner Tante.",
+          "known": "I've lived at my aunt's for two years."
+        }
+      ]
+    },
+    {
+      "id": "tb1-u32-l09-praepad-rule-ex02",
+      "type": "explain",
+      "title": "Prepositions with a Fixed Case: step by step",
+      "body": "Two lists, memorise them, done:\n• Accusative: **durch, für, gegen, ohne, um** (“dfgou”). → für dich, ohne den Schlüssel, um die Ecke.\n• Dative: **aus, bei, mit, nach, seit, von, zu**. → mit dem Bus, bei meiner Tante, seit einem Jahr.\nMeaning anchors: aus = out of/origin · bei = at people/companies (bei Siemens, beim Arzt) · nach = cities/countries + nach Hause · zu = people/places in town (zum Arzt, zur Schule) · von = sender/starting point.\nUse contractions: zu dem = **zum**, zu der = **zur**, bei dem = **beim**, von dem = **vom**, instantly more natural.\n\n## Auf Deutsch\n\nZwei Listen, auswendig, fertig:\n• Akkusativ: **durch, für, gegen, ohne, um** („dfgou“). → für dich, ohne den Schlüssel, um die Ecke.\n• Dativ: **aus, bei, mit, nach, seit, von, zu**. → mit dem Bus, bei meiner Tante, seit einem Jahr.\nBedeutungs-Anker: aus = heraus/Herkunft · bei = bei Personen/Firmen (bei Siemens, beim Arzt) · nach = Städte/Länder + nach Hause · zu = Personen/Orte in der Stadt (zum Arzt, zur Schule) · von = Absender/Start.\nKurzformen benutzen: zu dem = **zum**, zu der = **zur**, bei dem = **beim**, von dem = **vom**, klingt sofort natürlicher.",
+      "examples": [
+        {
+          "learning": "Das Geschenk ist für dich.",
+          "known": "The present is for you."
+        },
+        {
+          "learning": "Ich fahre mit dem Bus zur Arbeit.",
+          "known": "I take the bus to work."
+        },
+        {
+          "learning": "Ich wohne seit zwei Jahren bei meiner Tante.",
+          "known": "I've lived at my aunt's for two years."
+        },
+        {
+          "learning": "Er kommt gerade vom Arzt.",
+          "known": "He's just coming from the doctor's."
+        },
+        {
+          "learning": "Testlücke-Stil: „Ich habe ein Geschenk ___ meine Mutter gekauft.“ → für",
+          "known": "für + accusative"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u32-l09-praepad-rule-ex03",
+      "type": "explain",
+      "title": "Watch out & exam tip",
+      "body": "## Common trap\n\n“mit meinen Freund” → mit mein**em** Freund (dative!). And: nach Hause (direction) vs. zu Hause (location).\n\n*Deutsch:* „mit meinen Freund“ → mit mein**em** Freund (Dativ!). Und: nach Hause (Richtung) vs. zu Hause (Ort).\n\n## In the exam\n\n🎯 How telc tests it: EVERY Sprachbausteine sentence contains prepositions, often the preposition itself is the gap (mit/bei/von?). Letter: “seit zwei Jahren”, “mit meiner Familie”, “zum Arzt” are must-have chunks.\n\n*Deutsch:* 🎯 So testet telc das: In JEDEM Sprachbausteine-Satz stecken Präpositionen, oft ist die Präposition selbst die Lücke (mit/bei/von?). Brief: „seit zwei Jahren“, „mit meiner Familie“, „zum Arzt“ sind Pflicht-Bausteine.\n\n*Source:* Guide B9"
+    },
+    {
+      "id": "tb1-u32-l09-praepad-rule-ex04",
+      "type": "choice",
+      "title": "Fill the gap",
+      "prompt": "Das Geschenk ist ___ meine Mutter.",
+      "options": [
+        {
+          "id": "a",
+          "text": "von"
+        },
+        {
+          "id": "b",
+          "text": "mit"
+        },
+        {
+          "id": "c",
+          "text": "für"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "für + Akkusativ passt zum Sinn: ein Geschenk für jemanden."
+    },
+    {
+      "id": "tb1-u32-l09-praepad-rule-ex05",
+      "type": "choice",
+      "title": "Fill the gap",
+      "prompt": "Ich fahre jeden Tag ___ dem Fahrrad zur Arbeit.",
+      "options": [
+        {
+          "id": "a",
+          "text": "bei"
+        },
+        {
+          "id": "b",
+          "text": "mit"
+        },
+        {
+          "id": "c",
+          "text": "durch"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Verkehrsmittel: mit + Dativ."
+    },
+    {
+      "id": "tb1-u32-l09-praepad-rule-ex06",
+      "type": "choice",
+      "title": "Fill the gap",
+      "prompt": "Sie wohnt ___ zwei Jahren in Hamburg.",
+      "options": [
+        {
+          "id": "a",
+          "text": "seit"
+        },
+        {
+          "id": "b",
+          "text": "ab"
+        },
+        {
+          "id": "c",
+          "text": "vor"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Bis heute andauernd → seit + Dativ."
+    },
+    {
+      "id": "tb1-u32-l09-praepad-rule-ex07",
+      "type": "choice",
+      "title": "Fill the gap",
+      "prompt": "Er kommt gerade ___ dem Supermarkt.",
+      "options": [
+        {
+          "id": "a",
+          "text": "bei"
+        },
+        {
+          "id": "b",
+          "text": "aus"
+        },
+        {
+          "id": "c",
+          "text": "von"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Aus einem Gebäude/Raum heraus → aus + Dativ."
+    }
+  ]
+}

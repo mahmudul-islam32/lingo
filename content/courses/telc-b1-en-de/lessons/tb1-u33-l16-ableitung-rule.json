@@ -1,0 +1,129 @@
+{
+  "id": "tb1-u33-l16-ableitung-rule",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u33",
+  "title": "Word Formation: un-, -ung, -bar, -los: the rule",
+  "tip": "-ung nouns are ALWAYS feminine: die Wohnung, die Zeitung, die Prüfung, never der/das.",
+  "exercises": [
+    {
+      "id": "tb1-u33-l16-ableitung-rule-ex01",
+      "type": "explain",
+      "title": "Word Formation: un-, -ung, -bar, -los",
+      "body": "**un-** = opposite (pünktlich → unpünktlich). Verb → noun with **-ung** (anmelden → die Anmeldung, always **die**!). **-bar** = it can be done (erreichbar). **-los** = without (kostenlos = free). **-er/-in** = person (Lehrer/Lehrerin).\n\n*Deutsch:* **un-** = Gegenteil (pünktlich → unpünktlich). Verb → Nomen mit **-ung** (anmelden → die Anmeldung, immer **die**!). **-bar** = man kann es (erreichbar). **-los** = ohne (kostenlos = gratis). **-er/-in** = Person (Lehrer/Lehrerin).\n\n*German name:* Wortbildung: un-, -ung, -bar, -los",
+      "examples": [
+        {
+          "learning": "Die Anmeldung ist kostenlos.",
+          "known": "Registration is free. (anmelden → Anmeldung · -los = without cost)"
+        },
+        {
+          "learning": "Ich bin unter dieser Nummer erreichbar.",
+          "known": "I can be reached at this number. (letter line!)"
+        },
+        {
+          "learning": "Er ist seit drei Monaten arbeitslos.",
+          "known": "He has been unemployed for three months."
+        }
+      ]
+    },
+    {
+      "id": "tb1-u33-l16-ableitung-rule-ex02",
+      "type": "explain",
+      "title": "Word Formation: un-, -ung, -bar, -los: step by step",
+      "body": "Decompose words instead of guessing, the 6 patterns:\n• **un-** + adjective = opposite: unfreundlich, unmöglich, unzufrieden, ungesund.\n• Verb → **die -ung**: einladen → die Einladung, wohnen → die Wohnung, bewerben → die Bewerbung, prüfen → die Prüfung. Feminine without exception!\n• **-bar** = “can be done”: erreichbar, bezahlbar, trinkbar, unbezahlbar (= canNOT be paid).\n• **-los** = “without”: arbeitslos, kostenlos, problemlos.\n• **-er / -in** = person or device: der Fahrer, die Fahrerin, der Wecker, der Drucker.\n• **-heit/-keit** = adjective → noun (also die!): Gesundheit, Möglichkeit, Pünktlichkeit.\nReading strategy: unknown word? Decompose: un + bezahl + bar = “cannot be paid”.\n\n## Auf Deutsch\n\nWörter zerlegen statt raten, die 6 Muster:\n• **un-** + Adjektiv = Gegenteil: unfreundlich, unmöglich, unzufrieden, ungesund.\n• Verb → **die -ung**: einladen → die Einladung, wohnen → die Wohnung, bewerben → die Bewerbung, prüfen → die Prüfung. Ausnahmslos feminin!\n• **-bar** = „man kann es“: erreichbar, bezahlbar, trinkbar, unbezahlbar (= man kann es NICHT bezahlen).\n• **-los** = „ohne“: arbeitslos, kostenlos, problemlos.\n• **-er / -in** = Person oder Gerät: der Fahrer, die Fahrerin, der Wecker, der Drucker.\n• **-heit/-keit** = Adjektiv → Nomen (auch die!): Gesundheit, Möglichkeit, Pünktlichkeit.\nLesen-Strategie: unbekanntes Wort? Zerlegen: un + bezahl + bar = „kann man nicht bezahlen“.",
+      "examples": [
+        {
+          "learning": "Die Anmeldung ist kostenlos.",
+          "known": "Registration is free. (anmelden → Anmeldung · -los = without cost)"
+        },
+        {
+          "learning": "Ich bin unter dieser Nummer erreichbar.",
+          "known": "I can be reached at this number. (letter line!)"
+        },
+        {
+          "learning": "Er ist seit drei Monaten arbeitslos.",
+          "known": "He has been unemployed for three months."
+        },
+        {
+          "learning": "Entschuldigung, das war unhöflich von mir.",
+          "known": "Sorry, that was impolite of me."
+        },
+        {
+          "learning": "Testlücke-Stil: „Der Eintritt ist für Kinder ___.“ → kostenlos",
+          "known": "= free of charge (typical ad language)"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u33-l16-ableitung-rule-ex03",
+      "type": "explain",
+      "title": "Watch out & exam tip",
+      "body": "## Common trap\n\n-ung nouns are ALWAYS feminine: die Wohnung, die Zeitung, die Prüfung, never der/das.\n\n*Deutsch:* -ung-Nomen sind IMMER feminin: die Wohnung, die Zeitung, die Prüfung, nie der/das.\n\n## In the exam\n\n🎯 How telc tests it: **reading part 3** ads run on kostenlos/erreichbar/inklusive, decomposing gives you the answer. **Sprachbausteine part 2**: the word bank often contains the derived noun (Einladung, Anmeldung, Bewerbung).\n\n*Deutsch:* 🎯 So testet telc das: **Lesen Teil 3**-Anzeigen leben von kostenlos/erreichbar/inklusive, zerlegen bringt die Lösung. **Sprachbausteine Teil 2**: die Wortbank enthält oft das abgeleitete Nomen (Einladung, Anmeldung, Bewerbung).\n\n*Source:* Leseverstehen-Trainer"
+    },
+    {
+      "id": "tb1-u33-l16-ableitung-rule-ex04",
+      "type": "choice",
+      "title": "Fill the gap",
+      "prompt": "anmelden → die ___",
+      "options": [
+        {
+          "id": "a",
+          "text": "Anmeldung"
+        },
+        {
+          "id": "b",
+          "text": "Anmeldebar"
+        },
+        {
+          "id": "c",
+          "text": "Anmeldung(en)los"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Verb → Nomen mit -ung: die Anmeldung (immer feminin)."
+    },
+    {
+      "id": "tb1-u33-l16-ableitung-rule-ex05",
+      "type": "choice",
+      "title": "Fill the gap",
+      "prompt": "Das Museum ist montags ___, der Eintritt kostet nichts.",
+      "options": [
+        {
+          "id": "a",
+          "text": "kostenlos"
+        },
+        {
+          "id": "b",
+          "text": "kostenbar"
+        },
+        {
+          "id": "c",
+          "text": "unkosten"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "-los = ohne: kostenlos = gratis."
+    },
+    {
+      "id": "tb1-u33-l16-ableitung-rule-ex06",
+      "type": "choice",
+      "title": "Fill the gap",
+      "prompt": "Ich bin morgen leider nicht ___, mein Handy ist kaputt.",
+      "options": [
+        {
+          "id": "a",
+          "text": "erreichlos"
+        },
+        {
+          "id": "b",
+          "text": "erreichig"
+        },
+        {
+          "id": "c",
+          "text": "erreichbar"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "-bar = man kann: erreichbar = man kann mich erreichen."
+    }
+  ]
+}

@@ -1,0 +1,271 @@
+{
+  "id": "tb1-u05-l06-question-words-little-words-1",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u05",
+  "title": "Question Words & Little Words 1",
+  "tip": "Theme: Fragewörter & kleine Wörter (A1)",
+  "exercises": [
+    {
+      "id": "tb1-u05-l06-question-words-little-words-1-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "wer",
+          "known": "who"
+        },
+        {
+          "id": "p2",
+          "learning": "was",
+          "known": "what"
+        },
+        {
+          "id": "p3",
+          "learning": "wo",
+          "known": "where"
+        },
+        {
+          "id": "p4",
+          "learning": "wann",
+          "known": "when"
+        },
+        {
+          "id": "p5",
+          "learning": "wie",
+          "known": "how"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u05-l06-question-words-little-words-1-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which one means „who“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "wer"
+        },
+        {
+          "id": "b",
+          "text": "wann"
+        },
+        {
+          "id": "c",
+          "text": "woher"
+        },
+        {
+          "id": "d",
+          "text": "wie viele"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**wer** = who\n\n*Example:* Wer hat heute Nachmittag Zeit?\nWho has time this afternoon?"
+    },
+    {
+      "id": "tb1-u05-l06-question-words-little-words-1-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which one means „what“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "kein / keine"
+        },
+        {
+          "id": "b",
+          "text": "wohin"
+        },
+        {
+          "id": "c",
+          "text": "was"
+        },
+        {
+          "id": "d",
+          "text": "und"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**was** = what\n\n*Example:* Was möchtest du zum Abendessen essen?\nWhat would you like to eat for dinner?"
+    },
+    {
+      "id": "tb1-u05-l06-question-words-little-words-1-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Who has time this afternoon?",
+      "tiles": [
+        "Nachmittag",
+        "Maria",
+        "Wer",
+        "Zeit",
+        "heute",
+        "und",
+        "hat",
+        "habe"
+      ],
+      "answers": [
+        "Wer hat heute Nachmittag Zeit?"
+      ],
+      "explanation": "**wer** = who"
+    },
+    {
+      "id": "tb1-u05-l06-question-words-little-words-1-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which one means „where“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "wie"
+        },
+        {
+          "id": "b",
+          "text": "auch"
+        },
+        {
+          "id": "c",
+          "text": "wo"
+        },
+        {
+          "id": "d",
+          "text": "kein / keine"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**wo** = where\n\n*Example:* Wo ist hier die nächste Apotheke?\nWhere is the nearest pharmacy around here?"
+    },
+    {
+      "id": "tb1-u05-l06-question-words-little-words-1-ex06",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u05-l06-question-words-little-words-1-2.mp3"
+      },
+      "tiles": [
+        "sehr",
+        "Was",
+        "Wann",
+        "du",
+        "möchtest",
+        "Nachmittag",
+        "Abendessen",
+        "essen",
+        "zum"
+      ],
+      "answers": [
+        "Was möchtest du zum Abendessen essen?"
+      ],
+      "explanation": "Was möchtest du zum Abendessen essen?\n*What would you like to eat for dinner?*\n\n**was** = what"
+    },
+    {
+      "id": "tb1-u05-l06-question-words-little-words-1-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which one means „when“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "hier"
+        },
+        {
+          "id": "b",
+          "text": "wo"
+        },
+        {
+          "id": "c",
+          "text": "kein / keine"
+        },
+        {
+          "id": "d",
+          "text": "wann"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**wann** = when\n\n*Example:* Wann hat die Arztpraxis morgen geöffnet?\nWhen is the doctor's office open tomorrow?"
+    },
+    {
+      "id": "tb1-u05-l06-question-words-little-words-1-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Wo ist hier die nächste Apotheke?",
+      "tiles": [
+        "here",
+        "is",
+        "you",
+        "doctor's",
+        "nearest",
+        "around",
+        "the",
+        "pharmacy",
+        "Where",
+        "he's"
+      ],
+      "answers": [
+        "Where is the nearest pharmacy around here?"
+      ],
+      "explanation": "**wo** = where"
+    },
+    {
+      "id": "tb1-u05-l06-question-words-little-words-1-ex09",
+      "type": "multiple_choice",
+      "prompt": "Which one means „how“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "nie"
+        },
+        {
+          "id": "b",
+          "text": "wie"
+        },
+        {
+          "id": "c",
+          "text": "oder"
+        },
+        {
+          "id": "d",
+          "text": "woher"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**wie** = how\n\n*Example:* Wie komme ich zum Rathaus?\nHow do I get to the town hall?"
+    },
+    {
+      "id": "tb1-u05-l06-question-words-little-words-1-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "When is the doctor's office open tomorrow?",
+      "tiles": [
+        "Arztpraxis",
+        "geöffnet",
+        "hat",
+        "morgen",
+        "Wer",
+        "die",
+        "deine",
+        "Wann",
+        "Käse"
+      ],
+      "answers": [
+        "Wann hat die Arztpraxis morgen geöffnet?"
+      ],
+      "explanation": "**wann** = when"
+    },
+    {
+      "id": "tb1-u05-l06-question-words-little-words-1-ex11",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u05-l06-question-words-little-words-1-5.mp3"
+      },
+      "tiles": [
+        "Rathaus",
+        "in",
+        "Wie",
+        "zum",
+        "leider",
+        "ich",
+        "bist",
+        "komme"
+      ],
+      "answers": [
+        "Wie komme ich zum Rathaus?"
+      ],
+      "explanation": "Wie komme ich zum Rathaus?\n*How do I get to the town hall?*\n\n**wie** = how"
+    }
+  ]
+}

@@ -1,0 +1,236 @@
+{
+  "id": "tb1-u04-l10-adjectives-opposites-2",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u04",
+  "title": "Adjectives: Opposites 2",
+  "tip": "Theme: Adjektive: Gegensätze (A1)",
+  "exercises": [
+    {
+      "id": "tb1-u04-l10-adjectives-opposites-2-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "schnell",
+          "known": "fast"
+        },
+        {
+          "id": "p2",
+          "learning": "warm",
+          "known": "warm"
+        },
+        {
+          "id": "p3",
+          "learning": "neu",
+          "known": "new"
+        },
+        {
+          "id": "p4",
+          "learning": "richtig",
+          "known": "correct"
+        },
+        {
+          "id": "p5",
+          "learning": "groß",
+          "known": "big"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u04-l10-adjectives-opposites-2-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which one means „fast ↔ slow“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "sauber ↔ schmutzig"
+        },
+        {
+          "id": "b",
+          "text": "schnell ↔ langsam"
+        },
+        {
+          "id": "c",
+          "text": "gut ↔ schlecht"
+        },
+        {
+          "id": "d",
+          "text": "warm ↔ kalt"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**schnell ↔ langsam** = fast ↔ slow\n\n*Example:* Der ICE fährt schnell, der Regionalzug fährt langsam.\nThe ICE is fast, the regional train is slow."
+    },
+    {
+      "id": "tb1-u04-l10-adjectives-opposites-2-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which one means „warm ↔ cold“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "alt ↔ neu"
+        },
+        {
+          "id": "b",
+          "text": "neu ↔ gebraucht"
+        },
+        {
+          "id": "c",
+          "text": "warm ↔ kalt"
+        },
+        {
+          "id": "d",
+          "text": "hell ↔ dunkel"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**warm ↔ kalt** = warm ↔ cold\n\n*Example:* Im Wohnzimmer ist es warm, aber im Flur ist es kalt.\nIt's warm in the living room, but cold in the hallway."
+    },
+    {
+      "id": "tb1-u04-l10-adjectives-opposites-2-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "The ICE is fast, the regional train is slow.",
+      "tiles": [
+        "Ich",
+        "fährt",
+        "fährt",
+        "langsam",
+        "Regionalzug",
+        "der",
+        "die",
+        "Der",
+        "ICE",
+        "schnell",
+        "das"
+      ],
+      "answers": [
+        "Der ICE fährt schnell, der Regionalzug fährt langsam."
+      ],
+      "explanation": "**schnell ↔ langsam** = fast ↔ slow"
+    },
+    {
+      "id": "tb1-u04-l10-adjectives-opposites-2-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which one means „new ↔ used“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "schön ↔ hässlich"
+        },
+        {
+          "id": "b",
+          "text": "neu ↔ gebraucht"
+        },
+        {
+          "id": "c",
+          "text": "groß ↔ klein"
+        },
+        {
+          "id": "d",
+          "text": "alt ↔ jung"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**neu ↔ gebraucht** = new ↔ used\n\n*Example:* Ich kaufe kein neues Fahrrad, sondern ein gebrauchtes.\nI'm not buying a new bike, but a used one."
+    },
+    {
+      "id": "tb1-u04-l10-adjectives-opposites-2-ex06",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u04-l10-adjectives-opposites-2-2.mp3"
+      },
+      "tiles": [
+        "kalt",
+        "neues",
+        "es",
+        "Im",
+        "ist",
+        "alt",
+        "ist",
+        "im",
+        "Wohnzimmer",
+        "es",
+        "warm",
+        "aber",
+        "war",
+        "Flur"
+      ],
+      "answers": [
+        "Im Wohnzimmer ist es warm, aber im Flur ist es kalt."
+      ],
+      "explanation": "Im Wohnzimmer ist es warm, aber im Flur ist es kalt.\n*It's warm in the living room, but cold in the hallway.*\n\n**warm ↔ kalt** = warm ↔ cold"
+    },
+    {
+      "id": "tb1-u04-l10-adjectives-opposites-2-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which one means „correct ↔ wrong“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "warm ↔ kalt"
+        },
+        {
+          "id": "b",
+          "text": "voll ↔ leer"
+        },
+        {
+          "id": "c",
+          "text": "gut ↔ schlecht"
+        },
+        {
+          "id": "d",
+          "text": "richtig ↔ falsch"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**richtig ↔ falsch** = correct ↔ wrong\n\n*Example:* Ist die Adresse richtig oder falsch?\nIs the address correct or wrong?"
+    },
+    {
+      "id": "tb1-u04-l10-adjectives-opposites-2-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Ich kaufe kein neues Fahrrad, sondern ein gebrauchtes.",
+      "tiles": [
+        "a",
+        "is",
+        "buying",
+        "The",
+        "used",
+        "but",
+        "one",
+        "new",
+        "dark",
+        "not",
+        "a",
+        "bike",
+        "I'm"
+      ],
+      "answers": [
+        "I'm not buying a new bike, but a used one."
+      ],
+      "explanation": "**neu ↔ gebraucht** = new ↔ used"
+    },
+    {
+      "id": "tb1-u04-l10-adjectives-opposites-2-ex09",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Is the address correct or wrong?",
+      "tiles": [
+        "mein",
+        "Adresse",
+        "richtig",
+        "falsch",
+        "früh",
+        "oder",
+        "schmutzig",
+        "Ist",
+        "die"
+      ],
+      "answers": [
+        "Ist die Adresse richtig oder falsch?"
+      ],
+      "explanation": "**richtig ↔ falsch** = correct ↔ wrong"
+    }
+  ]
+}

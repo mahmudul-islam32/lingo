@@ -1,0 +1,233 @@
+{
+  "id": "tb1-u11-l05-work-career-5",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u11",
+  "title": "Work & Career 5",
+  "tip": "Theme: Arbeit / Beruf (B1)",
+  "exercises": [
+    {
+      "id": "tb1-u11-l05-work-career-5-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "die Überstunde",
+          "known": "overtime"
+        },
+        {
+          "id": "p2",
+          "learning": "die Besprechung",
+          "known": "(work) meeting"
+        },
+        {
+          "id": "p3",
+          "learning": "der Feierabend",
+          "known": "end of the working day"
+        },
+        {
+          "id": "p4",
+          "learning": "der Urlaub . Urlaub nehmen",
+          "known": "leave"
+        },
+        {
+          "id": "p5",
+          "learning": "die Stelle",
+          "known": "job"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u11-l05-work-career-5-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „overtime: to work overtime“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "das Praktikum, die Praktika"
+        },
+        {
+          "id": "b",
+          "text": "der Vertrag, die Verträge"
+        },
+        {
+          "id": "c",
+          "text": "die Überstunde, die Überstunden: Überstunden machen"
+        },
+        {
+          "id": "d",
+          "text": "das Büro, die Büros"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**die Überstunde** = overtime: to work overtime\n*Plural: die Überstunden: Überstunden machen*\n\n*Example:* Diese Woche muss ich leider Überstunden machen.\nUnfortunately I have to work overtime this week."
+    },
+    {
+      "id": "tb1-u11-l05-work-career-5-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „(work) meeting“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "der Chef, die Chefs / die Chefin, die Chefinnen"
+        },
+        {
+          "id": "b",
+          "text": "der Arbeitgeber, die Arbeitgeber ↔ der Arbeitnehmer, die Arbeitnehmer"
+        },
+        {
+          "id": "c",
+          "text": "die Stelle, die Stellen · der Arbeitsplatz, die Arbeitsplätze"
+        },
+        {
+          "id": "d",
+          "text": "die Besprechung, die Besprechungen"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**die Besprechung** = (work) meeting\n*Plural: die Besprechungen*\n\n*Example:* Die Besprechung beginnt um zehn Uhr im großen Raum.\nThe meeting starts at ten o'clock in the big room."
+    },
+    {
+      "id": "tb1-u11-l05-work-career-5-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Diese Woche muss ich leider Überstunden machen.",
+      "tiles": [
+        "this",
+        "Unfortunately",
+        "I",
+        "yesterday",
+        "work",
+        "overtime",
+        "to",
+        "week",
+        "have",
+        "by",
+        "for"
+      ],
+      "answers": [
+        "Unfortunately I have to work overtime this week."
+      ],
+      "explanation": "**die Überstunde** = overtime: to work overtime\n*Plural: die Überstunden: Überstunden machen*"
+    },
+    {
+      "id": "tb1-u11-l05-work-career-5-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „end of the working day: to finish work“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "der Vertrag, die Verträge"
+        },
+        {
+          "id": "b",
+          "text": "der Lebenslauf, die Lebensläufe"
+        },
+        {
+          "id": "c",
+          "text": "der Feierabend: Feierabend machen"
+        },
+        {
+          "id": "d",
+          "text": "die Stelle, die Stellen · der Arbeitsplatz, die Arbeitsplätze"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**der Feierabend: Feierabend machen** = end of the working day: to finish work\n\n*Example:* Heute mache ich schon um vier Uhr Feierabend.\nToday I'm finishing work at four o'clock already."
+    },
+    {
+      "id": "tb1-u11-l05-work-career-5-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "The meeting starts at ten o'clock in the big room.",
+      "tiles": [
+        "Besprechung",
+        "im",
+        "großen",
+        "zehn",
+        "Die",
+        "Uhr",
+        "Raum",
+        "mache",
+        "um",
+        "meinem",
+        "beginnt",
+        "bekomme"
+      ],
+      "answers": [
+        "Die Besprechung beginnt um zehn Uhr im großen Raum."
+      ],
+      "explanation": "**die Besprechung** = (work) meeting\n*Plural: die Besprechungen*"
+    },
+    {
+      "id": "tb1-u11-l05-work-career-5-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „leave: to take leave“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Bewerbung, die Bewerbungen"
+        },
+        {
+          "id": "b",
+          "text": "die Besprechung, die Besprechungen"
+        },
+        {
+          "id": "c",
+          "text": "das Vorstellungsgespräch, die Vorstellungsgespräche"
+        },
+        {
+          "id": "d",
+          "text": "der Urlaub (nur Sg.). Urlaub nehmen"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**der Urlaub (nur Sg.). Urlaub nehmen** = leave: to take leave\n\n*Example:* Im August nehme ich zwei Wochen Urlaub.\nI'm taking two weeks off in August."
+    },
+    {
+      "id": "tb1-u11-l05-work-career-5-ex08",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u11-l05-work-career-5-3.mp3"
+      },
+      "tiles": [
+        "Uhr",
+        "Heute",
+        "vier",
+        "um",
+        "schon",
+        "Gehalt",
+        "in",
+        "Feierabend",
+        "mache",
+        "viele",
+        "ich"
+      ],
+      "answers": [
+        "Heute mache ich schon um vier Uhr Feierabend."
+      ],
+      "explanation": "Heute mache ich schon um vier Uhr Feierabend.\n*Today I'm finishing work at four o'clock already.*\n\n**der Feierabend: Feierabend machen** = end of the working day: to finish work"
+    },
+    {
+      "id": "tb1-u11-l05-work-career-5-ex09",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Im August nehme ich zwei Wochen Urlaub.",
+      "tiles": [
+        "taking",
+        "off",
+        "I'm",
+        "weeks",
+        "in",
+        "the",
+        "August",
+        "two",
+        "garage",
+        "job"
+      ],
+      "answers": [
+        "I'm taking two weeks off in August."
+      ],
+      "explanation": "**der Urlaub (nur Sg.). Urlaub nehmen** = leave: to take leave"
+    }
+  ]
+}

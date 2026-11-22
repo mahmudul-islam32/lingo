@@ -1,0 +1,404 @@
+{
+  "id": "tb1-u64-l03-phrases-3",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u64",
+  "title": "Useful phrases (Redemittel) 3: Vergleichen & zusammenfassen, Brief: Einstieg, Brief: Schluss, Sich beschweren",
+  "exercises": [
+    {
+      "id": "tb1-u64-l03-phrases-3-ex01",
+      "type": "explain",
+      "title": "Redemittel: Vergleichen & zusammenfassen",
+      "body": "- **Im Vergleich zu … ist …**: Compared to … , … is …\n- **… ist (viel) … als …**: … is (much) …-er than … *(Grammar: komparativ)*\n- **Zusammenfassend kann man sagen, dass …**: To sum up, one can say that …\n- **Alles in allem …**: All in all …",
+      "examples": [
+        {
+          "learning": "Im Vergleich zu … ist …",
+          "known": "Compared to … , … is …"
+        },
+        {
+          "learning": "… ist (viel) … als …",
+          "known": "… is (much) …-er than …"
+        },
+        {
+          "learning": "Zusammenfassend kann man sagen, dass …",
+          "known": "To sum up, one can say that …"
+        },
+        {
+          "learning": "Alles in allem …",
+          "known": "All in all …"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u64-l03-phrases-3-ex02",
+      "type": "explain",
+      "title": "Redemittel: Brief: Einstieg",
+      "body": "- **Vielen Dank für deine/Ihre E-Mail.**: Thanks for your e-mail.\n- **Ich habe mich sehr über deine Nachricht gefreut.**: I was very happy about your message. *(Grammar: reflexiv)*\n- **Ich schreibe Ihnen, weil …**: I'm writing to you because … *(Grammar: nebensatz)*\n- **Entschuldige, dass ich erst jetzt antworte.**: Sorry for replying only now.\n\n*Tipp:* Erst Bezug, dann Thema.",
+      "examples": [
+        {
+          "learning": "Vielen Dank für deine/Ihre E-Mail.",
+          "known": "Thanks for your e-mail."
+        },
+        {
+          "learning": "Ich habe mich sehr über deine Nachricht gefreut.",
+          "known": "I was very happy about your message."
+        },
+        {
+          "learning": "Ich schreibe Ihnen, weil …",
+          "known": "I'm writing to you because …"
+        },
+        {
+          "learning": "Entschuldige, dass ich erst jetzt antworte.",
+          "known": "Sorry for replying only now."
+        }
+      ]
+    },
+    {
+      "id": "tb1-u64-l03-phrases-3-ex03",
+      "type": "explain",
+      "title": "Redemittel: Brief: Schluss",
+      "body": "- **Ich freue mich auf deine Antwort.**: I look forward to your reply. *(Grammar: verbpraep)*\n- **Ich würde mich freuen, bald von Ihnen zu hören.**: I'd be glad to hear from you soon. *(Grammar: kii)*\n- **Melde dich, wenn du Fragen hast.**: Get in touch if you have questions. *(Grammar: nebensatz)*\n- **Vielen Dank im Voraus.**: Many thanks in advance.\n\n*Tipp:* Warm schließen.",
+      "examples": [
+        {
+          "learning": "Ich freue mich auf deine Antwort.",
+          "known": "I look forward to your reply."
+        },
+        {
+          "learning": "Ich würde mich freuen, bald von Ihnen zu hören.",
+          "known": "I'd be glad to hear from you soon."
+        },
+        {
+          "learning": "Melde dich, wenn du Fragen hast.",
+          "known": "Get in touch if you have questions."
+        },
+        {
+          "learning": "Vielen Dank im Voraus.",
+          "known": "Many thanks in advance."
+        }
+      ]
+    },
+    {
+      "id": "tb1-u64-l03-phrases-3-ex04",
+      "type": "explain",
+      "title": "Redemittel: Sich beschweren",
+      "body": "- **Leider musste ich feststellen, dass …**: Unfortunately I noticed that … *(Grammar: nebensatz)*\n- **Ich bin mit … überhaupt nicht zufrieden.**: I'm not at all satisfied with …\n- **Ich erwarte, dass Sie … .**: I expect you to … .\n\n*Tipp:* Sachlich bleiben.",
+      "examples": [
+        {
+          "learning": "Leider musste ich feststellen, dass …",
+          "known": "Unfortunately I noticed that …"
+        },
+        {
+          "learning": "Ich bin mit … überhaupt nicht zufrieden.",
+          "known": "I'm not at all satisfied with …"
+        },
+        {
+          "learning": "Ich erwarte, dass Sie … .",
+          "known": "I expect you to … ."
+        }
+      ]
+    },
+    {
+      "id": "tb1-u64-l03-phrases-3-ex05",
+      "type": "choice",
+      "title": "Vergleichen & zusammenfassen",
+      "prompt": "Welcher Satz passt zur Funktion „Vergleichen & zusammenfassen“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ich erwarte, dass Sie … ."
+        },
+        {
+          "id": "b",
+          "text": "Im Vergleich zu … ist …"
+        },
+        {
+          "id": "c",
+          "text": "Ein gutes Beispiel dafür ist …"
+        },
+        {
+          "id": "d",
+          "text": "Was hältst du davon, wenn …?"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Phrases for **Vergleichen & zusammenfassen**:\n\n- Im Vergleich zu … ist … (Compared to … , … is …)\n- … ist (viel) … als … (… is (much) …-er than …)\n- Zusammenfassend kann man sagen, dass … (To sum up, one can say that …)\n- Alles in allem … (All in all …)"
+    },
+    {
+      "id": "tb1-u64-l03-phrases-3-ex06",
+      "type": "choice",
+      "prompt": "Which phrase means: “Compared to … , … is …”?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ich schreibe Ihnen, weil …"
+        },
+        {
+          "id": "b",
+          "text": "Im Vergleich zu … ist …"
+        },
+        {
+          "id": "c",
+          "text": "Einerseits …, andererseits …"
+        },
+        {
+          "id": "d",
+          "text": "Das sehe ich (etwas) anders."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Im Vergleich zu … ist …**: Compared to … , … is … (Vergleichen & zusammenfassen)"
+    },
+    {
+      "id": "tb1-u64-l03-phrases-3-ex07",
+      "type": "choice",
+      "prompt": "Which phrase means: “… is (much) …-er than …”?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Aus diesem Grund …"
+        },
+        {
+          "id": "b",
+          "text": "Das sehe ich genauso."
+        },
+        {
+          "id": "c",
+          "text": "… ist (viel) … als …"
+        },
+        {
+          "id": "d",
+          "text": "Ich verstehe dich, trotzdem denke ich …"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**… ist (viel) … als …**: … is (much) …-er than … (Vergleichen & zusammenfassen)"
+    },
+    {
+      "id": "tb1-u64-l03-phrases-3-ex08",
+      "type": "choice",
+      "title": "Brief: Einstieg",
+      "prompt": "Welcher Satz passt zur Funktion „Brief: Einstieg“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Auf dem Bild sieht man …"
+        },
+        {
+          "id": "b",
+          "text": "Ich habe mich sehr über deine Nachricht gefreut."
+        },
+        {
+          "id": "c",
+          "text": "Es kommt (ganz) darauf an."
+        },
+        {
+          "id": "d",
+          "text": "Wäre es möglich, … zu …?"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Phrases for **Brief: Einstieg**:\n\n- Vielen Dank für deine/Ihre E-Mail. (Thanks for your e-mail.)\n- Ich habe mich sehr über deine Nachricht gefreut. (I was very happy about your message.)\n- Ich schreibe Ihnen, weil … (I'm writing to you because …)\n- Entschuldige, dass ich erst jetzt antworte. (Sorry for replying only now.)"
+    },
+    {
+      "id": "tb1-u64-l03-phrases-3-ex09",
+      "type": "choice",
+      "prompt": "Which phrase means: “Thanks for your e-mail.”?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Vielen Dank für deine/Ihre E-Mail."
+        },
+        {
+          "id": "b",
+          "text": "Bei uns in … ist das so: …"
+        },
+        {
+          "id": "c",
+          "text": "Ich bin mit … überhaupt nicht zufrieden."
+        },
+        {
+          "id": "d",
+          "text": "Ich wäre Ihnen dankbar, wenn …"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Vielen Dank für deine/Ihre E-Mail.**: Thanks for your e-mail. (Brief: Einstieg)"
+    },
+    {
+      "id": "tb1-u64-l03-phrases-3-ex10",
+      "type": "choice",
+      "prompt": "Which phrase means: “I was very happy about your message.”?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ich habe mich sehr über deine Nachricht gefreut."
+        },
+        {
+          "id": "b",
+          "text": "Es kommt (ganz) darauf an."
+        },
+        {
+          "id": "c",
+          "text": "Ja, aber andererseits …"
+        },
+        {
+          "id": "d",
+          "text": "Ich schlage vor, dass …"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Ich habe mich sehr über deine Nachricht gefreut.**: I was very happy about your message. (Brief: Einstieg)"
+    },
+    {
+      "id": "tb1-u64-l03-phrases-3-ex11",
+      "type": "choice",
+      "title": "Brief: Schluss",
+      "prompt": "Welcher Satz passt zur Funktion „Brief: Schluss“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ich verstehe dich, trotzdem denke ich …"
+        },
+        {
+          "id": "b",
+          "text": "Wie bitte? Können Sie das wiederholen?"
+        },
+        {
+          "id": "c",
+          "text": "Moment, lass mich kurz überlegen."
+        },
+        {
+          "id": "d",
+          "text": "Melde dich, wenn du Fragen hast."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Phrases for **Brief: Schluss**:\n\n- Ich freue mich auf deine Antwort. (I look forward to your reply.)\n- Ich würde mich freuen, bald von Ihnen zu hören. (I'd be glad to hear from you soon.)\n- Melde dich, wenn du Fragen hast. (Get in touch if you have questions.)\n- Vielen Dank im Voraus. (Many thanks in advance.)"
+    },
+    {
+      "id": "tb1-u64-l03-phrases-3-ex12",
+      "type": "choice",
+      "prompt": "Which phrase means: “I look forward to your reply.”?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Das ist ein guter Punkt."
+        },
+        {
+          "id": "b",
+          "text": "Ich freue mich auf deine Antwort."
+        },
+        {
+          "id": "c",
+          "text": "Moment, lass mich kurz überlegen."
+        },
+        {
+          "id": "d",
+          "text": "Bei uns in … ist das so: …"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Ich freue mich auf deine Antwort.**: I look forward to your reply. (Brief: Schluss)"
+    },
+    {
+      "id": "tb1-u64-l03-phrases-3-ex13",
+      "type": "choice",
+      "prompt": "Which phrase means: “I'd be glad to hear from you soon.”?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Das hat sowohl Vorteile als auch Nachteile."
+        },
+        {
+          "id": "b",
+          "text": "Das sehe ich (etwas) anders."
+        },
+        {
+          "id": "c",
+          "text": "Ich wäre Ihnen dankbar, wenn …"
+        },
+        {
+          "id": "d",
+          "text": "Ich würde mich freuen, bald von Ihnen zu hören."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**Ich würde mich freuen, bald von Ihnen zu hören.**: I'd be glad to hear from you soon. (Brief: Schluss)"
+    },
+    {
+      "id": "tb1-u64-l03-phrases-3-ex14",
+      "type": "choice",
+      "title": "Sich beschweren",
+      "prompt": "Welcher Satz passt zur Funktion „Sich beschweren“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ich bin (fest) davon überzeugt, dass …"
+        },
+        {
+          "id": "b",
+          "text": "Melde dich, wenn du Fragen hast."
+        },
+        {
+          "id": "c",
+          "text": "Leider musste ich feststellen, dass …"
+        },
+        {
+          "id": "d",
+          "text": "Sollen wir zuerst über … sprechen?"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Phrases for **Sich beschweren**:\n\n- Leider musste ich feststellen, dass … (Unfortunately I noticed that …)\n- Ich bin mit … überhaupt nicht zufrieden. (I'm not at all satisfied with …)\n- Ich erwarte, dass Sie … . (I expect you to … .)"
+    },
+    {
+      "id": "tb1-u64-l03-phrases-3-ex15",
+      "type": "choice",
+      "prompt": "Which phrase means: “Unfortunately I noticed that …”?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ich freue mich auf deine Antwort."
+        },
+        {
+          "id": "b",
+          "text": "Auf dem Bild sieht man …"
+        },
+        {
+          "id": "c",
+          "text": "Da hast du völlig recht."
+        },
+        {
+          "id": "d",
+          "text": "Leider musste ich feststellen, dass …"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**Leider musste ich feststellen, dass …**: Unfortunately I noticed that … (Sich beschweren)"
+    },
+    {
+      "id": "tb1-u64-l03-phrases-3-ex16",
+      "type": "choice",
+      "prompt": "Which phrase means: “I'm not at all satisfied with …”?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ich habe die Erfahrung gemacht, dass …"
+        },
+        {
+          "id": "b",
+          "text": "Schade, dass es nicht klappt. Vielleicht ein andermal?"
+        },
+        {
+          "id": "c",
+          "text": "Meiner Meinung nach …"
+        },
+        {
+          "id": "d",
+          "text": "Ich bin mit … überhaupt nicht zufrieden."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**Ich bin mit … überhaupt nicht zufrieden.**: I'm not at all satisfied with … (Sich beschweren)"
+    }
+  ]
+}

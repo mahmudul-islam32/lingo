@@ -1,0 +1,107 @@
+{
+  "id": "tb1-u32-l04-genitiv-rule",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u32",
+  "title": "Genitive & von + Dative: the rule",
+  "tip": "“des Mann”, the -es is missing: des Mannes. And “Anna's Tasche” with an apostrophe is English, not German.",
+  "exercises": [
+    {
+      "id": "tb1-u32-l04-genitiv-rule-ex01",
+      "type": "explain",
+      "title": "Genitive & von + Dative",
+      "body": "Possession: **des Mannes, der Frau, des Kindes, der Eltern**, masculine/neuter add **-(e)s** to the noun. Everyday alternative: das Auto **von meinem** Bruder. Names: Annas Tasche. At B1 you mainly need genitive after wegen/trotz/während.\n\n*Deutsch:* Besitz: **des Mannes, der Frau, des Kindes, der Eltern**, maskulin/neutral + **-(e)s** am Nomen. Alltag: das Auto **von meinem** Bruder. Namen: Annas Tasche. B1 braucht Genitiv v. a. nach wegen/trotz/während.\n\n*German name:* Genitiv & von + Dativ",
+      "examples": [
+        {
+          "learning": "Das ist das Büro meines Chefs.",
+          "known": "That is my boss's office."
+        },
+        {
+          "learning": "Die Meinung der Eltern ist wichtig.",
+          "known": "The parents' opinion is important."
+        },
+        {
+          "learning": "Am Ende des Monats habe ich wenig Geld.",
+          "known": "At the end of the month I'm short of money."
+        }
+      ]
+    },
+    {
+      "id": "tb1-u32-l04-genitiv-rule-ex02",
+      "type": "explain",
+      "title": "Genitive & von + Dative: step by step",
+      "body": "Forms: der/das → **des + -(e)s** (des Chefs, des Kindes) · die/plural → **der** (der Frau, der Eltern) · ein/mein → eines/meines, einer/meiner.\nWhen -es, when -s? Short words -es (des Mannes), long ones -s (des Computers).\nThree ways to express possession:\n1) Genitive: die Tasche **meiner Mutter** (written style, good in letters)\n2) von + dative: die Tasche **von meiner Mutter** (fine in speech)\n3) Name + s: **Annas** Tasche (no apostrophe!).\nIn the test mostly: wegen/trotz/während + des/der (→ separate topic).\n\n## Auf Deutsch\n\nFormen: der/das → **des + -(e)s** (des Chefs, des Kindes) · die/Plural → **der** (der Frau, der Eltern) · ein/mein → eines/meines, einer/meiner.\nWann -es, wann -s? Kurze Wörter -es (des Mannes), lange -s (des Computers).\nDrei Wege, Besitz auszudrücken:\n1) Genitiv: die Tasche **meiner Mutter** (schriftlich, gut im Brief)\n2) von + Dativ: die Tasche **von meiner Mutter** (mündlich okay)\n3) Name + s: **Annas** Tasche (ohne Apostroph!).\nIm Test vor allem: wegen/trotz/während + des/der (→ eigenes Thema).",
+      "examples": [
+        {
+          "learning": "Das ist das Büro meines Chefs.",
+          "known": "That is my boss's office."
+        },
+        {
+          "learning": "Die Meinung der Eltern ist wichtig.",
+          "known": "The parents' opinion is important."
+        },
+        {
+          "learning": "Am Ende des Monats habe ich wenig Geld.",
+          "known": "At the end of the month I'm short of money."
+        },
+        {
+          "learning": "Das ist das Fahrrad von meinem Sohn.",
+          "known": "That's my son's bike. (spoken alternative)"
+        },
+        {
+          "learning": "Testlücke-Stil: „die Öffnungszeiten ___ Praxis“ → der",
+          "known": "feminine genitive → der Praxis"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u32-l04-genitiv-rule-ex03",
+      "type": "explain",
+      "title": "Watch out & exam tip",
+      "body": "## Common trap\n\n“des Mann”, the -es is missing: des Mann**es**. And “Anna's Tasche” with an apostrophe is English, not German.\n\n*Deutsch:* „des Mann“, das -es fehlt: des Mann**es**. Und „Anna's Tasche“ mit Apostroph ist Englisch, nicht Deutsch.\n\n## In the exam\n\n🎯 How telc tests it: directly almost only via **wegen/trotz/während + genitive** in Sprachbausteine. Indirectly: “Am Ende des Monats / Anfang des Jahres” are fixed letter phrases that instantly signal B1.\n\n*Deutsch:* 🎯 So testet telc das: Direkt fast nur über **wegen/trotz/während + Genitiv** in Sprachbausteine. Indirekt: „Am Ende des Monats / Anfang des Jahres“ sind feste Brief-Wendungen, die sofort B1 zeigen.\n\n*Source:* Guide B1 · PDF „Genitiv“"
+    },
+    {
+      "id": "tb1-u32-l04-genitiv-rule-ex04",
+      "type": "choice",
+      "title": "Fill the gap",
+      "prompt": "Das ist das Auto ___ Bruders.",
+      "options": [
+        {
+          "id": "a",
+          "text": "mein"
+        },
+        {
+          "id": "b",
+          "text": "meinem"
+        },
+        {
+          "id": "c",
+          "text": "meines"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Genitiv maskulin: meines Bruders (+ -s am Nomen)."
+    },
+    {
+      "id": "tb1-u32-l04-genitiv-rule-ex05",
+      "type": "choice",
+      "title": "Fill the gap",
+      "prompt": "Die Farbe ___ Wände gefällt mir.",
+      "options": [
+        {
+          "id": "a",
+          "text": "des"
+        },
+        {
+          "id": "b",
+          "text": "den"
+        },
+        {
+          "id": "c",
+          "text": "der"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Genitiv Plural: der Wände."
+    }
+  ]
+}

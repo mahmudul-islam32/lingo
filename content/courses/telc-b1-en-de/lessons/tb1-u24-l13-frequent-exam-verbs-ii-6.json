@@ -1,0 +1,227 @@
+{
+  "id": "tb1-u24-l13-frequent-exam-verbs-ii-6",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u24",
+  "title": "Frequent Exam Verbs II 6",
+  "tip": "Theme: Verben: Prüfungshäufig II (B1)",
+  "exercises": [
+    {
+      "id": "tb1-u24-l13-frequent-exam-verbs-ii-6-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "verlieren",
+          "known": "to lose"
+        },
+        {
+          "id": "p2",
+          "learning": "gewinnen",
+          "known": "to win"
+        },
+        {
+          "id": "p3",
+          "learning": "erreichen",
+          "known": "to reach / achieve"
+        },
+        {
+          "id": "p4",
+          "learning": "stören",
+          "known": "to disturb"
+        },
+        {
+          "id": "p5",
+          "learning": "beginnen",
+          "known": "to begin"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u24-l13-frequent-exam-verbs-ii-6-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which one means „to lose“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "verlieren"
+        },
+        {
+          "id": "b",
+          "text": "stören"
+        },
+        {
+          "id": "c",
+          "text": "hängen"
+        },
+        {
+          "id": "d",
+          "text": "dauern"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**verlieren** = to lose\n\n*Example:* Ich habe im Bus meinen Geldbeutel verloren.\nI lost my wallet on the bus."
+    },
+    {
+      "id": "tb1-u24-l13-frequent-exam-verbs-ii-6-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which one means „to win“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "setzen"
+        },
+        {
+          "id": "b",
+          "text": "hängen"
+        },
+        {
+          "id": "c",
+          "text": "mitmachen"
+        },
+        {
+          "id": "d",
+          "text": "gewinnen"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**gewinnen** = to win\n\n*Example:* Unsere Mannschaft hat am Sonntag das Spiel gewonnen.\nOur team won the match on Sunday."
+    },
+    {
+      "id": "tb1-u24-l13-frequent-exam-verbs-ii-6-ex04",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u24-l13-frequent-exam-verbs-ii-6-1.mp3"
+      },
+      "tiles": [
+        "im",
+        "zum",
+        "Geldbeutel",
+        "meinen",
+        "Es",
+        "habe",
+        "Ich",
+        "verloren",
+        "Bus",
+        "auch"
+      ],
+      "answers": [
+        "Ich habe im Bus meinen Geldbeutel verloren."
+      ],
+      "explanation": "Ich habe im Bus meinen Geldbeutel verloren.\n*I lost my wallet on the bus.*\n\n**verlieren** = to lose"
+    },
+    {
+      "id": "tb1-u24-l13-frequent-exam-verbs-ii-6-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which one means „to reach / achieve“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "reichen"
+        },
+        {
+          "id": "b",
+          "text": "erreichen"
+        },
+        {
+          "id": "c",
+          "text": "erkennen"
+        },
+        {
+          "id": "d",
+          "text": "setzen"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**erreichen** = to reach / achieve\n\n*Example:* Wir haben den Zug gerade noch erreicht.\nWe just managed to catch the train."
+    },
+    {
+      "id": "tb1-u24-l13-frequent-exam-verbs-ii-6-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Unsere Mannschaft hat am Sonntag das Spiel gewonnen.",
+      "tiles": [
+        "Our",
+        "match",
+        "on",
+        "pharmacy",
+        "Sunday",
+        "food",
+        "team",
+        "the",
+        "begins",
+        "won"
+      ],
+      "answers": [
+        "Our team won the match on Sunday."
+      ],
+      "explanation": "**gewinnen** = to win"
+    },
+    {
+      "id": "tb1-u24-l13-frequent-exam-verbs-ii-6-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which one means „to disturb“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "stören"
+        },
+        {
+          "id": "b",
+          "text": "legen"
+        },
+        {
+          "id": "c",
+          "text": "enthalten (enthält)"
+        },
+        {
+          "id": "d",
+          "text": "mitmachen"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**stören** = to disturb\n\n*Example:* Entschuldigung, störe ich gerade?\nSorry, am I disturbing you?"
+    },
+    {
+      "id": "tb1-u24-l13-frequent-exam-verbs-ii-6-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "We just managed to catch the train.",
+      "tiles": [
+        "noch",
+        "gerade",
+        "Zug",
+        "erreicht",
+        "Fenster",
+        "den",
+        "wenig",
+        "haben",
+        "günstige",
+        "Wir"
+      ],
+      "answers": [
+        "Wir haben den Zug gerade noch erreicht."
+      ],
+      "explanation": "**erreichen** = to reach / achieve"
+    },
+    {
+      "id": "tb1-u24-l13-frequent-exam-verbs-ii-6-ex09",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u24-l13-frequent-exam-verbs-ii-6-4.mp3"
+      },
+      "tiles": [
+        "störe",
+        "verdient",
+        "Uhr",
+        "ich",
+        "gerade",
+        "Sonntag",
+        "Entschuldigung"
+      ],
+      "answers": [
+        "Entschuldigung, störe ich gerade?"
+      ],
+      "explanation": "Entschuldigung, störe ich gerade?\n*Sorry, am I disturbing you?*\n\n**stören** = to disturb"
+    }
+  ]
+}

@@ -1,0 +1,605 @@
+{
+  "id": "tb1-u42-l03-teil3-job-reisen",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u42",
+  "title": "Ads 3: Job & Reisen",
+  "tip": "Each ad fits only once. Check both conditions. x = no ad fits.",
+  "exercises": [
+    {
+      "id": "tb1-u42-l03-teil3-job-reisen-ex01",
+      "type": "explain",
+      "title": "Teil 3 · Job & Reisen: situations and ads",
+      "body": "**10 situations · 12 ads.** Each ad fits at most once; **x** = no ad fits.\n\n- Every situation has **two conditions** (*Bedingungen*), e.g. *Deutschkurs + abends*. An ad only fits if it meets **both**.\n- Typical traps: the right topic but the wrong time (morning instead of evening), renting instead of buying, the wrong target group (children instead of adults).\n- Usually one or two situations have no matching ad: dare to choose x.\n\nA multiple-choice card can show at most 12 options, so for each situation one clearly unrelated ad is left out of the list."
+    },
+    {
+      "id": "tb1-u42-l03-teil3-job-reisen-ex02",
+      "type": "choice",
+      "title": "Situation 1 · Job & Reisen",
+      "passage": "Sie suchen einen Ferienjob für den Sommer.",
+      "prompt": "Welche Anzeige passt? Wenn keine passt: x.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Verkaufe gut erhaltenes Auto, wenig Kilometer, TÜV neu."
+        },
+        {
+          "id": "b",
+          "text": "Kindergarten Sonnenschein: noch freie Plätze ab September."
+        },
+        {
+          "id": "c",
+          "text": "Wandergruppe Bergfreunde: gemeinsame Touren am Wochenende."
+        },
+        {
+          "id": "d",
+          "text": "Mit dem Sparpreis-Ticket günstig mit der Bahn durch ganz Deutschland."
+        },
+        {
+          "id": "e",
+          "text": "Hausarztpraxis Dr. Klein: Sprechstunde nur Mo–Fr von 8 bis 12 Uhr."
+        },
+        {
+          "id": "f",
+          "text": "Günstige Flüge nach München, jetzt online buchen!"
+        },
+        {
+          "id": "g",
+          "text": "Reinigungsfirma Sauber: Büro- und Praxisreinigung."
+        },
+        {
+          "id": "h",
+          "text": "Autowäsche und Politur zum kleinen Preis."
+        },
+        {
+          "id": "i",
+          "text": "Tanzschule Rhythmus: Kurse für Paare, jeden Freitag."
+        },
+        {
+          "id": "j",
+          "text": "Spanischkurs für Anfänger, ideal vor dem Urlaub."
+        },
+        {
+          "id": "k",
+          "text": "Erdbeerhof sucht Erntehelfer für die Sommermonate."
+        },
+        {
+          "id": "l",
+          "text": "Keine Anzeige passt (x)"
+        }
+      ],
+      "correctOptionId": "k",
+      "explanation": "**Answer: K** „Erdbeerhof sucht Erntehelfer für die Sommermonate.“\n\n*Bedingungen:* Ferienjob + Sommer"
+    },
+    {
+      "id": "tb1-u42-l03-teil3-job-reisen-ex03",
+      "type": "choice",
+      "title": "Situation 2 · Job & Reisen",
+      "passage": "Sie möchten mit dem Zug günstig nach München fahren.",
+      "prompt": "Welche Anzeige passt? Wenn keine passt: x.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Verkaufe gut erhaltenes Auto, wenig Kilometer, TÜV neu."
+        },
+        {
+          "id": "b",
+          "text": "Kindergarten Sonnenschein: noch freie Plätze ab September."
+        },
+        {
+          "id": "c",
+          "text": "Wandergruppe Bergfreunde: gemeinsame Touren am Wochenende."
+        },
+        {
+          "id": "d",
+          "text": "Mit dem Sparpreis-Ticket günstig mit der Bahn durch ganz Deutschland."
+        },
+        {
+          "id": "e",
+          "text": "Hausarztpraxis Dr. Klein: Sprechstunde nur Mo–Fr von 8 bis 12 Uhr."
+        },
+        {
+          "id": "f",
+          "text": "Günstige Flüge nach München, jetzt online buchen!"
+        },
+        {
+          "id": "g",
+          "text": "Reinigungsfirma Sauber: Büro- und Praxisreinigung."
+        },
+        {
+          "id": "h",
+          "text": "Autowäsche und Politur zum kleinen Preis."
+        },
+        {
+          "id": "i",
+          "text": "Tanzschule Rhythmus: Kurse für Paare, jeden Freitag."
+        },
+        {
+          "id": "j",
+          "text": "Spanischkurs für Anfänger, ideal vor dem Urlaub."
+        },
+        {
+          "id": "k",
+          "text": "Erdbeerhof sucht Erntehelfer für die Sommermonate."
+        },
+        {
+          "id": "l",
+          "text": "Keine Anzeige passt (x)"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**Answer: D** „Mit dem Sparpreis-Ticket günstig mit der Bahn durch ganz Deutschland.“\n\n*Bedingungen:* Zug nach München + günstig\n\nAnzeige „Günstige Flüge nach München, …“ fährt zwar nach München, aber mit dem Flugzeug, nicht mit dem Zug."
+    },
+    {
+      "id": "tb1-u42-l03-teil3-job-reisen-ex04",
+      "type": "choice",
+      "title": "Situation 3 · Job & Reisen",
+      "passage": "Ihre Familie sucht ein Hotel mit Schwimmbad für den Urlaub.",
+      "prompt": "Welche Anzeige passt? Wenn keine passt: x.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Verkaufe gut erhaltenes Auto, wenig Kilometer, TÜV neu."
+        },
+        {
+          "id": "b",
+          "text": "Kindergarten Sonnenschein: noch freie Plätze ab September."
+        },
+        {
+          "id": "c",
+          "text": "Wandergruppe Bergfreunde: gemeinsame Touren am Wochenende."
+        },
+        {
+          "id": "d",
+          "text": "Mit dem Sparpreis-Ticket günstig mit der Bahn durch ganz Deutschland."
+        },
+        {
+          "id": "e",
+          "text": "Hausarztpraxis Dr. Klein: Sprechstunde nur Mo–Fr von 8 bis 12 Uhr."
+        },
+        {
+          "id": "f",
+          "text": "Günstige Flüge nach München, jetzt online buchen!"
+        },
+        {
+          "id": "g",
+          "text": "Reinigungsfirma Sauber: Büro- und Praxisreinigung."
+        },
+        {
+          "id": "h",
+          "text": "Autowäsche und Politur zum kleinen Preis."
+        },
+        {
+          "id": "i",
+          "text": "Spanischkurs für Anfänger, ideal vor dem Urlaub."
+        },
+        {
+          "id": "j",
+          "text": "Erdbeerhof sucht Erntehelfer für die Sommermonate."
+        },
+        {
+          "id": "k",
+          "text": "Familienhotel Seeblick: mit Hallenbad und großem Spielplatz."
+        },
+        {
+          "id": "l",
+          "text": "Keine Anzeige passt (x)"
+        }
+      ],
+      "correctOptionId": "k",
+      "explanation": "**Answer: K** „Familienhotel Seeblick: mit Hallenbad und großem Spielplatz.“\n\n*Bedingungen:* Hotel mit Schwimmbad + Familie/Urlaub"
+    },
+    {
+      "id": "tb1-u42-l03-teil3-job-reisen-ex05",
+      "type": "choice",
+      "title": "Situation 4 · Job & Reisen",
+      "passage": "Sie wollen vor einer Reise Spanisch lernen.",
+      "prompt": "Welche Anzeige passt? Wenn keine passt: x.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Verkaufe gut erhaltenes Auto, wenig Kilometer, TÜV neu."
+        },
+        {
+          "id": "b",
+          "text": "Kindergarten Sonnenschein: noch freie Plätze ab September."
+        },
+        {
+          "id": "c",
+          "text": "Wandergruppe Bergfreunde: gemeinsame Touren am Wochenende."
+        },
+        {
+          "id": "d",
+          "text": "Mit dem Sparpreis-Ticket günstig mit der Bahn durch ganz Deutschland."
+        },
+        {
+          "id": "e",
+          "text": "Hausarztpraxis Dr. Klein: Sprechstunde nur Mo–Fr von 8 bis 12 Uhr."
+        },
+        {
+          "id": "f",
+          "text": "Günstige Flüge nach München, jetzt online buchen!"
+        },
+        {
+          "id": "g",
+          "text": "Reinigungsfirma Sauber: Büro- und Praxisreinigung."
+        },
+        {
+          "id": "h",
+          "text": "Autowäsche und Politur zum kleinen Preis."
+        },
+        {
+          "id": "i",
+          "text": "Tanzschule Rhythmus: Kurse für Paare, jeden Freitag."
+        },
+        {
+          "id": "j",
+          "text": "Spanischkurs für Anfänger, ideal vor dem Urlaub."
+        },
+        {
+          "id": "k",
+          "text": "Erdbeerhof sucht Erntehelfer für die Sommermonate."
+        },
+        {
+          "id": "l",
+          "text": "Keine Anzeige passt (x)"
+        }
+      ],
+      "correctOptionId": "j",
+      "explanation": "**Answer: J** „Spanischkurs für Anfänger, ideal vor dem Urlaub.“\n\n*Bedingungen:* Spanischkurs + für Anfänger"
+    },
+    {
+      "id": "tb1-u42-l03-teil3-job-reisen-ex06",
+      "type": "choice",
+      "title": "Situation 5 · Job & Reisen",
+      "passage": "Sie suchen einen Tanzkurs für Paare.",
+      "prompt": "Welche Anzeige passt? Wenn keine passt: x.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Verkaufe gut erhaltenes Auto, wenig Kilometer, TÜV neu."
+        },
+        {
+          "id": "b",
+          "text": "Kindergarten Sonnenschein: noch freie Plätze ab September."
+        },
+        {
+          "id": "c",
+          "text": "Wandergruppe Bergfreunde: gemeinsame Touren am Wochenende."
+        },
+        {
+          "id": "d",
+          "text": "Mit dem Sparpreis-Ticket günstig mit der Bahn durch ganz Deutschland."
+        },
+        {
+          "id": "e",
+          "text": "Hausarztpraxis Dr. Klein: Sprechstunde nur Mo–Fr von 8 bis 12 Uhr."
+        },
+        {
+          "id": "f",
+          "text": "Günstige Flüge nach München, jetzt online buchen!"
+        },
+        {
+          "id": "g",
+          "text": "Reinigungsfirma Sauber: Büro- und Praxisreinigung."
+        },
+        {
+          "id": "h",
+          "text": "Autowäsche und Politur zum kleinen Preis."
+        },
+        {
+          "id": "i",
+          "text": "Tanzschule Rhythmus: Kurse für Paare, jeden Freitag."
+        },
+        {
+          "id": "j",
+          "text": "Spanischkurs für Anfänger, ideal vor dem Urlaub."
+        },
+        {
+          "id": "k",
+          "text": "Erdbeerhof sucht Erntehelfer für die Sommermonate."
+        },
+        {
+          "id": "l",
+          "text": "Keine Anzeige passt (x)"
+        }
+      ],
+      "correctOptionId": "i",
+      "explanation": "**Answer: I** „Tanzschule Rhythmus: Kurse für Paare, jeden Freitag.“\n\n*Bedingungen:* Tanzkurs + für Paare"
+    },
+    {
+      "id": "tb1-u42-l03-teil3-job-reisen-ex07",
+      "type": "choice",
+      "title": "Situation 6 · Job & Reisen",
+      "passage": "Sie möchten Ihr Auto verkaufen.",
+      "prompt": "Welche Anzeige passt? Wenn keine passt: x.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Verkaufe gut erhaltenes Auto, wenig Kilometer, TÜV neu."
+        },
+        {
+          "id": "b",
+          "text": "Kindergarten Sonnenschein: noch freie Plätze ab September."
+        },
+        {
+          "id": "c",
+          "text": "Wandergruppe Bergfreunde: gemeinsame Touren am Wochenende."
+        },
+        {
+          "id": "d",
+          "text": "Mit dem Sparpreis-Ticket günstig mit der Bahn durch ganz Deutschland."
+        },
+        {
+          "id": "e",
+          "text": "Hausarztpraxis Dr. Klein: Sprechstunde nur Mo–Fr von 8 bis 12 Uhr."
+        },
+        {
+          "id": "f",
+          "text": "Günstige Flüge nach München, jetzt online buchen!"
+        },
+        {
+          "id": "g",
+          "text": "Reinigungsfirma Sauber: Büro- und Praxisreinigung."
+        },
+        {
+          "id": "h",
+          "text": "Autowäsche und Politur zum kleinen Preis."
+        },
+        {
+          "id": "i",
+          "text": "Tanzschule Rhythmus: Kurse für Paare, jeden Freitag."
+        },
+        {
+          "id": "j",
+          "text": "Spanischkurs für Anfänger, ideal vor dem Urlaub."
+        },
+        {
+          "id": "k",
+          "text": "Erdbeerhof sucht Erntehelfer für die Sommermonate."
+        },
+        {
+          "id": "l",
+          "text": "Keine Anzeige passt (x)"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Answer: A** „Verkaufe gut erhaltenes Auto, wenig Kilometer, TÜV neu.“\n\n*Bedingungen:* Auto + verkaufen\n\nAnzeige „Autowäsche und Politur zum …“ (Autowäsche) ist der Ablenker, kein Verkauf."
+    },
+    {
+      "id": "tb1-u42-l03-teil3-job-reisen-ex08",
+      "type": "choice",
+      "title": "Situation 7 · Job & Reisen",
+      "passage": "Sie brauchen eine Reinigungskraft für Ihr Büro.",
+      "prompt": "Welche Anzeige passt? Wenn keine passt: x.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Verkaufe gut erhaltenes Auto, wenig Kilometer, TÜV neu."
+        },
+        {
+          "id": "b",
+          "text": "Kindergarten Sonnenschein: noch freie Plätze ab September."
+        },
+        {
+          "id": "c",
+          "text": "Wandergruppe Bergfreunde: gemeinsame Touren am Wochenende."
+        },
+        {
+          "id": "d",
+          "text": "Mit dem Sparpreis-Ticket günstig mit der Bahn durch ganz Deutschland."
+        },
+        {
+          "id": "e",
+          "text": "Hausarztpraxis Dr. Klein: Sprechstunde nur Mo–Fr von 8 bis 12 Uhr."
+        },
+        {
+          "id": "f",
+          "text": "Günstige Flüge nach München, jetzt online buchen!"
+        },
+        {
+          "id": "g",
+          "text": "Reinigungsfirma Sauber: Büro- und Praxisreinigung."
+        },
+        {
+          "id": "h",
+          "text": "Autowäsche und Politur zum kleinen Preis."
+        },
+        {
+          "id": "i",
+          "text": "Tanzschule Rhythmus: Kurse für Paare, jeden Freitag."
+        },
+        {
+          "id": "j",
+          "text": "Spanischkurs für Anfänger, ideal vor dem Urlaub."
+        },
+        {
+          "id": "k",
+          "text": "Erdbeerhof sucht Erntehelfer für die Sommermonate."
+        },
+        {
+          "id": "l",
+          "text": "Keine Anzeige passt (x)"
+        }
+      ],
+      "correctOptionId": "g",
+      "explanation": "**Answer: G** „Reinigungsfirma Sauber: Büro- und Praxisreinigung.“\n\n*Bedingungen:* Reinigung + Büro"
+    },
+    {
+      "id": "tb1-u42-l03-teil3-job-reisen-ex09",
+      "type": "choice",
+      "title": "Situation 8 · Job & Reisen",
+      "passage": "Sie suchen einen Arzt, der auch am Abend Sprechstunde hat.",
+      "prompt": "Welche Anzeige passt? Wenn keine passt: x.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Verkaufe gut erhaltenes Auto, wenig Kilometer, TÜV neu."
+        },
+        {
+          "id": "b",
+          "text": "Kindergarten Sonnenschein: noch freie Plätze ab September."
+        },
+        {
+          "id": "c",
+          "text": "Wandergruppe Bergfreunde: gemeinsame Touren am Wochenende."
+        },
+        {
+          "id": "d",
+          "text": "Mit dem Sparpreis-Ticket günstig mit der Bahn durch ganz Deutschland."
+        },
+        {
+          "id": "e",
+          "text": "Hausarztpraxis Dr. Klein: Sprechstunde nur Mo–Fr von 8 bis 12 Uhr."
+        },
+        {
+          "id": "f",
+          "text": "Günstige Flüge nach München, jetzt online buchen!"
+        },
+        {
+          "id": "g",
+          "text": "Reinigungsfirma Sauber: Büro- und Praxisreinigung."
+        },
+        {
+          "id": "h",
+          "text": "Autowäsche und Politur zum kleinen Preis."
+        },
+        {
+          "id": "i",
+          "text": "Tanzschule Rhythmus: Kurse für Paare, jeden Freitag."
+        },
+        {
+          "id": "j",
+          "text": "Spanischkurs für Anfänger, ideal vor dem Urlaub."
+        },
+        {
+          "id": "k",
+          "text": "Erdbeerhof sucht Erntehelfer für die Sommermonate."
+        },
+        {
+          "id": "l",
+          "text": "Keine Anzeige passt (x)"
+        }
+      ],
+      "correctOptionId": "l",
+      "explanation": "**Answer: L** x · keine Anzeige passt\n\n*Bedingungen:* Arzt + Abendsprechstunde\n\nAnzeige „Hausarztpraxis Dr. Klein: Sprechstunde …“ hat nur vormittags Sprechstunde (Mo–Fr 8–12), keine Abendsprechstunde → x."
+    },
+    {
+      "id": "tb1-u42-l03-teil3-job-reisen-ex10",
+      "type": "choice",
+      "title": "Situation 9 · Job & Reisen",
+      "passage": "Sie möchten am Wochenende mit einer Gruppe wandern gehen.",
+      "prompt": "Welche Anzeige passt? Wenn keine passt: x.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Verkaufe gut erhaltenes Auto, wenig Kilometer, TÜV neu."
+        },
+        {
+          "id": "b",
+          "text": "Kindergarten Sonnenschein: noch freie Plätze ab September."
+        },
+        {
+          "id": "c",
+          "text": "Wandergruppe Bergfreunde: gemeinsame Touren am Wochenende."
+        },
+        {
+          "id": "d",
+          "text": "Mit dem Sparpreis-Ticket günstig mit der Bahn durch ganz Deutschland."
+        },
+        {
+          "id": "e",
+          "text": "Hausarztpraxis Dr. Klein: Sprechstunde nur Mo–Fr von 8 bis 12 Uhr."
+        },
+        {
+          "id": "f",
+          "text": "Günstige Flüge nach München, jetzt online buchen!"
+        },
+        {
+          "id": "g",
+          "text": "Reinigungsfirma Sauber: Büro- und Praxisreinigung."
+        },
+        {
+          "id": "h",
+          "text": "Autowäsche und Politur zum kleinen Preis."
+        },
+        {
+          "id": "i",
+          "text": "Tanzschule Rhythmus: Kurse für Paare, jeden Freitag."
+        },
+        {
+          "id": "j",
+          "text": "Spanischkurs für Anfänger, ideal vor dem Urlaub."
+        },
+        {
+          "id": "k",
+          "text": "Erdbeerhof sucht Erntehelfer für die Sommermonate."
+        },
+        {
+          "id": "l",
+          "text": "Keine Anzeige passt (x)"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**Answer: C** „Wandergruppe Bergfreunde: gemeinsame Touren am Wochenende.“\n\n*Bedingungen:* Wandern in der Gruppe + Wochenende"
+    },
+    {
+      "id": "tb1-u42-l03-teil3-job-reisen-ex11",
+      "type": "choice",
+      "title": "Situation 10 · Job & Reisen",
+      "passage": "Sie suchen einen Kindergartenplatz für Ihren Sohn.",
+      "prompt": "Welche Anzeige passt? Wenn keine passt: x.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Verkaufe gut erhaltenes Auto, wenig Kilometer, TÜV neu."
+        },
+        {
+          "id": "b",
+          "text": "Kindergarten Sonnenschein: noch freie Plätze ab September."
+        },
+        {
+          "id": "c",
+          "text": "Wandergruppe Bergfreunde: gemeinsame Touren am Wochenende."
+        },
+        {
+          "id": "d",
+          "text": "Mit dem Sparpreis-Ticket günstig mit der Bahn durch ganz Deutschland."
+        },
+        {
+          "id": "e",
+          "text": "Hausarztpraxis Dr. Klein: Sprechstunde nur Mo–Fr von 8 bis 12 Uhr."
+        },
+        {
+          "id": "f",
+          "text": "Günstige Flüge nach München, jetzt online buchen!"
+        },
+        {
+          "id": "g",
+          "text": "Reinigungsfirma Sauber: Büro- und Praxisreinigung."
+        },
+        {
+          "id": "h",
+          "text": "Autowäsche und Politur zum kleinen Preis."
+        },
+        {
+          "id": "i",
+          "text": "Tanzschule Rhythmus: Kurse für Paare, jeden Freitag."
+        },
+        {
+          "id": "j",
+          "text": "Spanischkurs für Anfänger, ideal vor dem Urlaub."
+        },
+        {
+          "id": "k",
+          "text": "Erdbeerhof sucht Erntehelfer für die Sommermonate."
+        },
+        {
+          "id": "l",
+          "text": "Keine Anzeige passt (x)"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Answer: B** „Kindergarten Sonnenschein: noch freie Plätze ab September.“\n\n*Bedingungen:* Kindergarten + freier Platz"
+    }
+  ]
+}

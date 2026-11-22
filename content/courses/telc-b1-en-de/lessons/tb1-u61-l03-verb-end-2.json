@@ -1,0 +1,152 @@
+{
+  "id": "tb1-u61-l03-verb-end-2",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u61",
+  "title": "Connectors that send the verb to the end (2)",
+  "exercises": [
+    {
+      "id": "tb1-u61-l03-verb-end-2-ex01",
+      "type": "explain",
+      "title": "damit (Ziel)",
+      "body": "purpose (can have a different subject); verb-final.\n\n…, **damit** + Subjekt + … + **Verb-Ende**.\nBsp: Ich spare, damit ich reisen **kann**."
+    },
+    {
+      "id": "tb1-u61-l03-verb-end-2-ex02",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/w-rule-damit.mp3"
+      },
+      "tiles": [
+        "deshalb",
+        "denn",
+        "spare",
+        "ich",
+        "Ich",
+        "dass",
+        "kann",
+        "reisen",
+        "damit"
+      ],
+      "answers": [
+        "Ich spare, damit ich reisen kann."
+      ],
+      "explanation": "**damit (Ziel)**: purpose (can have a different subject); verb-final."
+    },
+    {
+      "id": "tb1-u61-l03-verb-end-2-ex03",
+      "type": "explain",
+      "title": "nachdem (Zeit, vorher)",
+      "body": "first action one tense earlier.\n\n**Nachdem** + … + **Plusquamperfekt** (hatte/war + Partizip), dann Perfekt.\nBsp: Nachdem ich gegessen **hatte**, habe ich gelernt."
+    },
+    {
+      "id": "tb1-u61-l03-verb-end-2-ex04",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/w-rule-nachdem.mp3"
+      },
+      "tiles": [
+        "hatte",
+        "ich",
+        "gegessen",
+        "wenn",
+        "gelernt",
+        "habe",
+        "denn",
+        "obwohl",
+        "Nachdem",
+        "ich"
+      ],
+      "answers": [
+        "Nachdem ich gegessen hatte, habe ich gelernt."
+      ],
+      "explanation": "**nachdem (Zeit, vorher)**: first action one tense earlier."
+    },
+    {
+      "id": "tb1-u61-l03-verb-end-2-ex05",
+      "type": "explain",
+      "title": "während (gleichzeitig)",
+      "body": "simultaneous; verb-final.\n\n**Während** + … + **Verb-Ende**, dann Hauptsatz.\nBsp: Während ich **koche**, höre ich Musik."
+    },
+    {
+      "id": "tb1-u61-l03-verb-end-2-ex06",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/w-rule-waehrend.mp3"
+      },
+      "tiles": [
+        "ich",
+        "trotzdem",
+        "wenn",
+        "Musik",
+        "damit",
+        "Während",
+        "höre",
+        "ich",
+        "koche"
+      ],
+      "answers": [
+        "Während ich koche, höre ich Musik."
+      ],
+      "explanation": "**während (gleichzeitig)**: simultaneous; verb-final."
+    },
+    {
+      "id": "tb1-u61-l03-verb-end-2-ex07",
+      "type": "explain",
+      "title": "um … zu (Ziel, gleiches Subjekt)",
+      "body": "purpose, same subject.\n\n…, **um** + … + **zu** + Infinitiv.\nBsp: Ich lerne, um die Prüfung zu **bestehen**."
+    },
+    {
+      "id": "tb1-u61-l03-verb-end-2-ex08",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/w-rule-umzu.mp3"
+      },
+      "tiles": [
+        "zu",
+        "die",
+        "weil",
+        "Ich",
+        "um",
+        "Prüfung",
+        "bestehen",
+        "lerne",
+        "denn",
+        "trotzdem"
+      ],
+      "answers": [
+        "Ich lerne, um die Prüfung zu bestehen."
+      ],
+      "explanation": "**um … zu (Ziel, gleiches Subjekt)**: purpose, same subject."
+    },
+    {
+      "id": "tb1-u61-l03-verb-end-2-ex09",
+      "type": "explain",
+      "title": "je … desto (Vergleich)",
+      "body": "'the more … the more'; first part verb-final, second inverts.\n\n**Je** + Komparativ + … + **Verb-Ende**, **desto** + Komparativ + **Verb** + Subjekt.\nBsp: Je mehr ich **übe**, desto besser **werde ich**."
+    },
+    {
+      "id": "tb1-u61-l03-verb-end-2-ex10",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/w-rule-jedesto.mp3"
+      },
+      "tiles": [
+        "mehr",
+        "besser",
+        "Je",
+        "trotzdem",
+        "weil",
+        "ich",
+        "ich",
+        "damit",
+        "desto",
+        "übe",
+        "werde"
+      ],
+      "answers": [
+        "Je mehr ich übe, desto besser werde ich."
+      ],
+      "explanation": "**je … desto (Vergleich)**: 'the more … the more'; first part verb-final, second inverts."
+    }
+  ]
+}

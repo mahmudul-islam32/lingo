@@ -1,0 +1,129 @@
+{
+  "id": "tb1-u32-l13-genpraep-rule",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u32",
+  "title": "wegen, trotz, während + Genitive: the rule",
+  "tip": "“wegen dem Wetter” is colloquial, in the test: wegen des Wetters. And trotz ≠ trotzdem (trotz + noun, trotzdem + clause).",
+  "exercises": [
+    {
+      "id": "tb1-u32-l13-genpraep-rule-ex01",
+      "type": "explain",
+      "title": "wegen, trotz, während + Genitive",
+      "body": "The B1 genitive prepositions: **wegen** (reason), **trotz** (concession), **während** (time span), **(an)statt** (replacement): wegen **des** Wetters, trotz **der** Kälte, während **der** Woche.\n\n*Deutsch:* Die B1-Genitiv-Präpositionen: **wegen** (Grund), **trotz** (Gegengrund), **während** (Zeitraum), **(an)statt** (Ersatz): wegen **des** Wetters, trotz **der** Kälte, während **der** Woche.\n\n*German name:* wegen, trotz, während + Genitiv",
+      "examples": [
+        {
+          "learning": "Wegen des schlechten Wetters bleiben wir zu Hause.",
+          "known": "Because of the bad weather we stay home."
+        },
+        {
+          "learning": "Trotz der Verspätung habe ich den Anschluss erreicht.",
+          "known": "Despite the delay I caught my connection."
+        },
+        {
+          "learning": "Während der Prüfung sind Handys verboten.",
+          "known": "During the exam phones are forbidden."
+        }
+      ]
+    },
+    {
+      "id": "tb1-u32-l13-genpraep-rule-ex02",
+      "type": "explain",
+      "title": "wegen, trotz, während + Genitive: step by step",
+      "body": "Formula: preposition + des/der + noun(+s):\n• masculine/neuter: wegen **des** Sturm**s**, während **des** Kurs**es**\n• feminine/plural: wegen **der** Arbeit, trotz **der** Probleme\nMeaning bridges: wegen = weil-as-a-preposition (Wegen des Regens = Weil es regnet) · trotz = obwohl-as-a-preposition (Trotz des Regens = Obwohl es regnet).\nThis builds letter gems: “Wegen meiner Erkältung konnte ich nicht kommen.” = one subordinate clause saved, sounds very B1.\nColloquial German says “wegen dem”, in the test, genitive counts.\n\n## Auf Deutsch\n\nFormel: Präposition + des/der + Nomen(+s):\n• maskulin/neutral: wegen **des** Sturm**s**, während **des** Kurs**es**\n• feminin/Plural: wegen **der** Arbeit, trotz **der** Probleme\nBedeutungs-Brücken: wegen = weil-als-Präposition (Wegen des Regens = Weil es regnet) · trotz = obwohl-als-Präposition (Trotz des Regens = Obwohl es regnet).\nDamit baust du Brief-Perlen: „Wegen meiner Erkältung konnte ich nicht kommen.“ = ein Nebensatz gespart, klingt sehr B1.\nAlltag sagt oft „wegen dem“, im Test zählt Genitiv.",
+      "examples": [
+        {
+          "learning": "Wegen des schlechten Wetters bleiben wir zu Hause.",
+          "known": "Because of the bad weather we stay home."
+        },
+        {
+          "learning": "Trotz der Verspätung habe ich den Anschluss erreicht.",
+          "known": "Despite the delay I caught my connection."
+        },
+        {
+          "learning": "Während der Prüfung sind Handys verboten.",
+          "known": "During the exam phones are forbidden."
+        },
+        {
+          "learning": "Wegen meiner Erkältung musste ich den Termin absagen.",
+          "known": "Because of my cold I had to cancel. (excuse letter!)"
+        },
+        {
+          "learning": "Testlücke-Stil: „___ des Feiertags ist das Amt geschlossen.“ → Wegen",
+          "known": "reason → wegen + genitive"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u32-l13-genpraep-rule-ex03",
+      "type": "explain",
+      "title": "Watch out & exam tip",
+      "body": "## Common trap\n\n“wegen dem Wetter” is colloquial, in the test: wegen des Wetters. And trotz ≠ trotzdem (trotz + noun, trotzdem + clause).\n\n*Deutsch:* „wegen dem Wetter“ ist Umgangssprache, im Test: wegen des Wetters. Und trotz ≠ trotzdem (trotz + Nomen, trotzdem + Satz).\n\n## In the exam\n\n🎯 How telc tests it: absolute **Sprachbausteine** classic (wegen/trotz/während as options for the same gap). In the **letter**, “Wegen + genitive” is the most elegant way to give your reason for cancelling.\n\n*Deutsch:* 🎯 So testet telc das: Absoluter **Sprachbausteine**-Klassiker (wegen/trotz/während als Optionen zur selben Lücke). Im **Brief** ist „Wegen + Genitiv“ die eleganteste Art, den Absage-Grund zu nennen.\n\n*Source:* Guide B9"
+    },
+    {
+      "id": "tb1-u32-l13-genpraep-rule-ex04",
+      "type": "choice",
+      "title": "Fill the gap",
+      "prompt": "___ des schlechten Wetters bleiben wir zu Hause.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Während"
+        },
+        {
+          "id": "b",
+          "text": "Wegen"
+        },
+        {
+          "id": "c",
+          "text": "Trotz"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Grund → wegen + Genitiv."
+    },
+    {
+      "id": "tb1-u32-l13-genpraep-rule-ex05",
+      "type": "choice",
+      "title": "Fill the gap",
+      "prompt": "___ der Verspätung haben wir den Flug noch erreicht.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Wegen"
+        },
+        {
+          "id": "b",
+          "text": "Statt"
+        },
+        {
+          "id": "c",
+          "text": "Trotz"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Gegengrund (es hat trotzdem geklappt) → trotz + Genitiv."
+    },
+    {
+      "id": "tb1-u32-l13-genpraep-rule-ex06",
+      "type": "choice",
+      "title": "Fill the gap",
+      "prompt": "___ der Arbeitszeit darf ich nicht telefonieren.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Trotz"
+        },
+        {
+          "id": "b",
+          "text": "Während"
+        },
+        {
+          "id": "c",
+          "text": "Wegen"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Zeitraum → während + Genitiv."
+    }
+  ]
+}

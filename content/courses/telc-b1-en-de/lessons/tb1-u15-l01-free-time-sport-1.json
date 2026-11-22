@@ -1,0 +1,292 @@
+{
+  "id": "tb1-u15-l01-free-time-sport-1",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u15",
+  "title": "Free Time & Sport 1",
+  "tip": "Theme: Freizeit / Sport (B1)",
+  "exercises": [
+    {
+      "id": "tb1-u15-l01-free-time-sport-1-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "die Freizeit",
+          "known": "free time"
+        },
+        {
+          "id": "p2",
+          "learning": "der Verein",
+          "known": "club"
+        },
+        {
+          "id": "p3",
+          "learning": "trainieren, das Training",
+          "known": "to train"
+        },
+        {
+          "id": "p4",
+          "learning": "die Mannschaft",
+          "known": "team"
+        },
+        {
+          "id": "p5",
+          "learning": "das Spiel",
+          "known": "match"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u15-l01-free-time-sport-1-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „free time · hobby“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "das Konzert, die Konzerte · die Ausstellung, die Ausstellungen"
+        },
+        {
+          "id": "b",
+          "text": "die Freizeit (nur Sg.) · das Hobby, die Hobbys"
+        },
+        {
+          "id": "c",
+          "text": "der Verein, die Vereine: das Mitglied, die Mitglieder"
+        },
+        {
+          "id": "d",
+          "text": "die Mannschaft, die Mannschaften"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**die Freizeit (nur Sg.) · das Hobby, die Hobbys** = free time · hobby\n\n*Example:* In meiner Freizeit male ich gern, das ist mein liebstes Hobby.\nIn my free time I like painting; it's my favourite hobby."
+    },
+    {
+      "id": "tb1-u15-l01-free-time-sport-1-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „club: member“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Eintrittskarte, die Eintrittskarten, der Eintritt. Der Eintritt ist frei."
+        },
+        {
+          "id": "b",
+          "text": "das Konzert, die Konzerte · die Ausstellung, die Ausstellungen"
+        },
+        {
+          "id": "c",
+          "text": "der Verein, die Vereine: das Mitglied, die Mitglieder"
+        },
+        {
+          "id": "d",
+          "text": "die Freizeit (nur Sg.) · das Hobby, die Hobbys"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**der Verein, die Vereine: das Mitglied, die Mitglieder** = club: member\n\n*Example:* Mein Sohn ist seit einem Jahr Mitglied in einem Fußballverein.\nMy son has been a member of a football club for a year."
+    },
+    {
+      "id": "tb1-u15-l01-free-time-sport-1-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "In meiner Freizeit male ich gern, das ist mein liebstes Hobby.",
+      "tiles": [
+        "interested",
+        "painting",
+        "favourite",
+        "like",
+        "In",
+        "an",
+        "free",
+        "takes",
+        "my",
+        "it's",
+        "my",
+        "time",
+        "I",
+        "hobby"
+      ],
+      "answers": [
+        "In my free time I like painting; it's my favourite hobby."
+      ],
+      "explanation": "**die Freizeit (nur Sg.) · das Hobby, die Hobbys** = free time · hobby"
+    },
+    {
+      "id": "tb1-u15-l01-free-time-sport-1-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which one means „to train: training“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "lesen: der Roman, die Romane"
+        },
+        {
+          "id": "b",
+          "text": "sich treffen mit + Dat. (hat sich getroffen)"
+        },
+        {
+          "id": "c",
+          "text": "kostenlos"
+        },
+        {
+          "id": "d",
+          "text": "trainieren, das Training (nur Sg.)"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**trainieren, das Training (nur Sg.)** = to train: training\n\n*Example:* Wir trainieren zweimal pro Woche, das Training beginnt um sieben Uhr.\nWe train twice a week; training starts at seven o'clock."
+    },
+    {
+      "id": "tb1-u15-l01-free-time-sport-1-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "My son has been a member of a football club for a year.",
+      "tiles": [
+        "Mitglied",
+        "einem",
+        "seit",
+        "ist",
+        "in",
+        "die",
+        "Sohn",
+        "Jahr",
+        "Fußballverein",
+        "Mein",
+        "Konzert",
+        "Hause",
+        "einem"
+      ],
+      "answers": [
+        "Mein Sohn ist seit einem Jahr Mitglied in einem Fußballverein."
+      ],
+      "explanation": "**der Verein, die Vereine: das Mitglied, die Mitglieder** = club: member"
+    },
+    {
+      "id": "tb1-u15-l01-free-time-sport-1-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „team“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "der Verein, die Vereine: das Mitglied, die Mitglieder"
+        },
+        {
+          "id": "b",
+          "text": "die Mannschaft, die Mannschaften"
+        },
+        {
+          "id": "c",
+          "text": "die Veranstaltung, die Veranstaltungen"
+        },
+        {
+          "id": "d",
+          "text": "die Eintrittskarte, die Eintrittskarten, der Eintritt. Der Eintritt ist frei."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**die Mannschaft** = team\n*Plural: die Mannschaften*\n\n*Example:* Unsere Mannschaft hat am Samstag ein wichtiges Spiel.\nOur team has an important match on Saturday."
+    },
+    {
+      "id": "tb1-u15-l01-free-time-sport-1-ex08",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u15-l01-free-time-sport-1-3.mp3"
+      },
+      "tiles": [
+        "trainieren",
+        "Uhr",
+        "sieben",
+        "Woche",
+        "Eintrittskarte",
+        "zweimal",
+        "um",
+        "Training",
+        "Ich",
+        "beginnt",
+        "pro",
+        "gefreut",
+        "Wir",
+        "das"
+      ],
+      "answers": [
+        "Wir trainieren zweimal pro Woche, das Training beginnt um sieben Uhr."
+      ],
+      "explanation": "Wir trainieren zweimal pro Woche, das Training beginnt um sieben Uhr.\n*We train twice a week; training starts at seven o'clock.*\n\n**trainieren, das Training (nur Sg.)** = to train: training"
+    },
+    {
+      "id": "tb1-u15-l01-free-time-sport-1-ex09",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „match: to win ↔ to lose“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Freizeit (nur Sg.) · das Hobby, die Hobbys"
+        },
+        {
+          "id": "b",
+          "text": "die Mannschaft, die Mannschaften"
+        },
+        {
+          "id": "c",
+          "text": "das Spiel, die Spiele, gewinnen (hat gewonnen) ↔ verlieren (hat verloren)"
+        },
+        {
+          "id": "d",
+          "text": "die Eintrittskarte, die Eintrittskarten, der Eintritt. Der Eintritt ist frei."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**das Spiel, die Spiele, gewinnen (hat gewonnen) ↔ verlieren (hat verloren)** = match: to win ↔ to lose\n\n*Example:* Wir haben das erste Spiel gewonnen, aber das zweite leider verloren.\nWe won the first match, but unfortunately lost the second."
+    },
+    {
+      "id": "tb1-u15-l01-free-time-sport-1-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Unsere Mannschaft hat am Samstag ein wichtiges Spiel.",
+      "tiles": [
+        "Our",
+        "on",
+        "team",
+        "important",
+        "takes",
+        "organises",
+        "has",
+        "Saturday",
+        "match",
+        "an",
+        "beach"
+      ],
+      "answers": [
+        "Our team has an important match on Saturday."
+      ],
+      "explanation": "**die Mannschaft** = team\n*Plural: die Mannschaften*"
+    },
+    {
+      "id": "tb1-u15-l01-free-time-sport-1-ex11",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "We won the first match, but unfortunately lost the second.",
+      "tiles": [
+        "leider",
+        "haben",
+        "mit",
+        "mich",
+        "erste",
+        "Wir",
+        "Spiel",
+        "das",
+        "das",
+        "verloren",
+        "Sofa",
+        "gewonnen",
+        "zweite",
+        "aber"
+      ],
+      "answers": [
+        "Wir haben das erste Spiel gewonnen, aber das zweite leider verloren."
+      ],
+      "explanation": "**das Spiel, die Spiele, gewinnen (hat gewonnen) ↔ verlieren (hat verloren)** = match: to win ↔ to lose"
+    }
+  ]
+}

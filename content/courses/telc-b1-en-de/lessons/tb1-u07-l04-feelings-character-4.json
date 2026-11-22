@@ -1,0 +1,237 @@
+{
+  "id": "tb1-u07-l04-feelings-character-4",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u07",
+  "title": "Feelings & Character 4",
+  "tip": "Theme: Gefühle & Charakter (A2)",
+  "exercises": [
+    {
+      "id": "tb1-u07-l04-feelings-character-4-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "geduldig",
+          "known": "patient"
+        },
+        {
+          "id": "p2",
+          "learning": "neugierig",
+          "known": "curious"
+        },
+        {
+          "id": "p3",
+          "learning": "schüchtern",
+          "known": "shy"
+        },
+        {
+          "id": "p4",
+          "learning": "stolz",
+          "known": "proud"
+        },
+        {
+          "id": "p5",
+          "learning": "das Gefühl",
+          "known": "feeling"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u07-l04-feelings-character-4-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which one means „patient“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "nett"
+        },
+        {
+          "id": "b",
+          "text": "neugierig"
+        },
+        {
+          "id": "c",
+          "text": "fleißig"
+        },
+        {
+          "id": "d",
+          "text": "geduldig"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**geduldig** = patient\n\n*Example:* Die Lehrerin ist sehr geduldig mit den Kindern.\nThe teacher is very patient with the children."
+    },
+    {
+      "id": "tb1-u07-l04-feelings-character-4-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which one means „curious“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "ruhig"
+        },
+        {
+          "id": "b",
+          "text": "traurig"
+        },
+        {
+          "id": "c",
+          "text": "neugierig"
+        },
+        {
+          "id": "d",
+          "text": "geduldig"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**neugierig** = curious\n\n*Example:* Meine Nachbarin ist neugierig und fragt immer viel.\nMy neighbour is curious and always asks a lot of questions."
+    },
+    {
+      "id": "tb1-u07-l04-feelings-character-4-ex04",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u07-l04-feelings-character-4-1.mp3"
+      },
+      "tiles": [
+        "war",
+        "Meine",
+        "Kindern",
+        "Lehrerin",
+        "froh",
+        "Die",
+        "geduldig",
+        "mit",
+        "sehr",
+        "ist",
+        "den"
+      ],
+      "answers": [
+        "Die Lehrerin ist sehr geduldig mit den Kindern."
+      ],
+      "explanation": "Die Lehrerin ist sehr geduldig mit den Kindern.\n*The teacher is very patient with the children.*\n\n**geduldig** = patient"
+    },
+    {
+      "id": "tb1-u07-l04-feelings-character-4-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which one means „shy“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "aufgeregt"
+        },
+        {
+          "id": "b",
+          "text": "höflich"
+        },
+        {
+          "id": "c",
+          "text": "schüchtern"
+        },
+        {
+          "id": "d",
+          "text": "neugierig"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**schüchtern** = shy\n\n*Example:* Am Anfang war Tom im Team noch sehr schüchtern.\nAt first Tom was still very shy in the team."
+    },
+    {
+      "id": "tb1-u07-l04-feelings-character-4-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Meine Nachbarin ist neugierig und fragt immer viel.",
+      "tiles": [
+        "is",
+        "and",
+        "curious",
+        "My",
+        "quiet",
+        "a",
+        "government",
+        "lot",
+        "neighbour",
+        "of",
+        "asks",
+        "questions",
+        "always",
+        "bed"
+      ],
+      "answers": [
+        "My neighbour is curious and always asks a lot of questions."
+      ],
+      "explanation": "**neugierig** = curious"
+    },
+    {
+      "id": "tb1-u07-l04-feelings-character-4-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which one means „proud“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "froh"
+        },
+        {
+          "id": "b",
+          "text": "nett"
+        },
+        {
+          "id": "c",
+          "text": "stolz"
+        },
+        {
+          "id": "d",
+          "text": "neugierig"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**stolz** = proud\n\n*Example:* Die Eltern sind stolz auf ihre Tochter.\nThe parents are proud of their daughter."
+    },
+    {
+      "id": "tb1-u07-l04-feelings-character-4-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "At first Tom was still very shy in the team.",
+      "tiles": [
+        "Anfang",
+        "sehr",
+        "war",
+        "Team",
+        "Am",
+        "schüchtern",
+        "noch",
+        "ist",
+        "Tom",
+        "der",
+        "im",
+        "stolz"
+      ],
+      "answers": [
+        "Am Anfang war Tom im Team noch sehr schüchtern."
+      ],
+      "explanation": "**schüchtern** = shy"
+    },
+    {
+      "id": "tb1-u07-l04-feelings-character-4-ex09",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u07-l04-feelings-character-4-4.mp3"
+      },
+      "tiles": [
+        "Tochter",
+        "sind",
+        "oft",
+        "Die",
+        "bin",
+        "Kunde",
+        "ihre",
+        "stolz",
+        "auf",
+        "Eltern"
+      ],
+      "answers": [
+        "Die Eltern sind stolz auf ihre Tochter."
+      ],
+      "explanation": "Die Eltern sind stolz auf ihre Tochter.\n*The parents are proud of their daughter.*\n\n**stolz** = proud"
+    }
+  ]
+}

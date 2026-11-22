@@ -1,0 +1,281 @@
+{
+  "id": "tb1-u09-l08-perfekt-key-participles-4",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u09",
+  "title": "Perfekt: Key Participles 4",
+  "tip": "Theme: Perfekt: wichtige Partizipien (A2)",
+  "exercises": [
+    {
+      "id": "tb1-u09-l08-perfekt-key-participles-4-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "helfen",
+          "known": "to help"
+        },
+        {
+          "id": "p2",
+          "learning": "nehmen",
+          "known": "to take"
+        },
+        {
+          "id": "p3",
+          "learning": "geben",
+          "known": "to give"
+        },
+        {
+          "id": "p4",
+          "learning": "treffen",
+          "known": "to meet"
+        },
+        {
+          "id": "p5",
+          "learning": "bringen",
+          "known": "to bring"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u09-l08-perfekt-key-participles-4-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which one means „to help“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "werden → ist geworden"
+        },
+        {
+          "id": "b",
+          "text": "passieren → ist passiert"
+        },
+        {
+          "id": "c",
+          "text": "helfen → hat geholfen"
+        },
+        {
+          "id": "d",
+          "text": "fliegen → ist geflogen"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**helfen → hat geholfen** = to help\n\n*Example:* Mein Nachbar hat mir beim Tragen geholfen.\nMy neighbour helped me carry things."
+    },
+    {
+      "id": "tb1-u09-l08-perfekt-key-participles-4-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which one means „to take“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "verstehen → hat verstanden"
+        },
+        {
+          "id": "b",
+          "text": "nehmen → hat genommen"
+        },
+        {
+          "id": "c",
+          "text": "passieren → ist passiert"
+        },
+        {
+          "id": "d",
+          "text": "werden → ist geworden"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**nehmen → hat genommen** = to take\n\n*Example:* Heute Morgen habe ich den Bus um sieben Uhr genommen.\nThis morning I took the seven o'clock bus."
+    },
+    {
+      "id": "tb1-u09-l08-perfekt-key-participles-4-ex04",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u09-l08-perfekt-key-participles-4-1.mp3"
+      },
+      "tiles": [
+        "war",
+        "mir",
+        "geholfen",
+        "Mein",
+        "einkaufen",
+        "Ich",
+        "hat",
+        "beim",
+        "Tragen",
+        "Nachbar"
+      ],
+      "answers": [
+        "Mein Nachbar hat mir beim Tragen geholfen."
+      ],
+      "explanation": "Mein Nachbar hat mir beim Tragen geholfen.\n*My neighbour helped me carry things.*\n\n**helfen → hat geholfen** = to help"
+    },
+    {
+      "id": "tb1-u09-l08-perfekt-key-participles-4-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which one means „to give“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "helfen → hat geholfen"
+        },
+        {
+          "id": "b",
+          "text": "fahren → ist gefahren"
+        },
+        {
+          "id": "c",
+          "text": "geben → hat gegeben"
+        },
+        {
+          "id": "d",
+          "text": "passieren → ist passiert"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**geben → hat gegeben** = to give\n\n*Example:* Die Apothekerin hat mir ein Medikament gegen Husten gegeben.\nThe pharmacist gave me some medicine for my cough."
+    },
+    {
+      "id": "tb1-u09-l08-perfekt-key-participles-4-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Heute Morgen habe ich den Bus um sieben Uhr genommen.",
+      "tiles": [
+        "the",
+        "seven",
+        "This",
+        "for",
+        "a",
+        "o'clock",
+        "I",
+        "morning",
+        "understand",
+        "took",
+        "bus"
+      ],
+      "answers": [
+        "This morning I took the seven o'clock bus."
+      ],
+      "explanation": "**nehmen → hat genommen** = to take"
+    },
+    {
+      "id": "tb1-u09-l08-perfekt-key-participles-4-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which one means „to meet“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "werden → ist geworden"
+        },
+        {
+          "id": "b",
+          "text": "treffen → hat getroffen"
+        },
+        {
+          "id": "c",
+          "text": "verlieren → hat verloren"
+        },
+        {
+          "id": "d",
+          "text": "wissen → hat gewusst"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**treffen → hat getroffen** = to meet\n\n*Example:* Gestern habe ich meine Freundin im Café getroffen.\nYesterday I met my friend at the café."
+    },
+    {
+      "id": "tb1-u09-l08-perfekt-key-participles-4-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "The pharmacist gave me some medicine for my cough.",
+      "tiles": [
+        "Die",
+        "den",
+        "hat",
+        "ein",
+        "Medikament",
+        "mir",
+        "Husten",
+        "einen",
+        "gegen",
+        "deine",
+        "Apothekerin",
+        "gegeben"
+      ],
+      "answers": [
+        "Die Apothekerin hat mir ein Medikament gegen Husten gegeben."
+      ],
+      "explanation": "**geben → hat gegeben** = to give"
+    },
+    {
+      "id": "tb1-u09-l08-perfekt-key-participles-4-ex09",
+      "type": "multiple_choice",
+      "prompt": "Which one means „to bring“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "fragen → hat gefragt"
+        },
+        {
+          "id": "b",
+          "text": "bringen → hat gebracht"
+        },
+        {
+          "id": "c",
+          "text": "essen → hat gegessen"
+        },
+        {
+          "id": "d",
+          "text": "fliegen → ist geflogen"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**bringen → hat gebracht** = to bring\n\n*Example:* Der Postbote hat ein Paket für dich gebracht.\nThe postman brought a parcel for you."
+    },
+    {
+      "id": "tb1-u09-l08-perfekt-key-participles-4-ex10",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u09-l08-perfekt-key-participles-4-4.mp3"
+      },
+      "tiles": [
+        "habe",
+        "meine",
+        "Café",
+        "gefragt",
+        "getroffen",
+        "im",
+        "ich",
+        "ganzen",
+        "Gestern",
+        "Freundin",
+        "Brötchen"
+      ],
+      "answers": [
+        "Gestern habe ich meine Freundin im Café getroffen."
+      ],
+      "explanation": "Gestern habe ich meine Freundin im Café getroffen.\n*Yesterday I met my friend at the café.*\n\n**treffen → hat getroffen** = to meet"
+    },
+    {
+      "id": "tb1-u09-l08-perfekt-key-participles-4-ex11",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Der Postbote hat ein Paket für dich gebracht.",
+      "tiles": [
+        "you",
+        "The",
+        "by",
+        "postman",
+        "for",
+        "about",
+        "my",
+        "a",
+        "parcel",
+        "brought"
+      ],
+      "answers": [
+        "The postman brought a parcel for you."
+      ],
+      "explanation": "**bringen → hat gebracht** = to bring"
+    }
+  ]
+}

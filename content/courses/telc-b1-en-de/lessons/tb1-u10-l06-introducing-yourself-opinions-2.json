@@ -1,0 +1,234 @@
+{
+  "id": "tb1-u10-l06-introducing-yourself-opinions-2",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u10",
+  "title": "Introducing Yourself & Opinions 2",
+  "tip": "Theme: Sätze: Sich vorstellen & Meinung (A2)",
+  "exercises": [
+    {
+      "id": "tb1-u10-l06-introducing-yourself-opinions-2-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "Ich finde dieses Thema sehr interessant",
+          "known": "I find this topic very interesting."
+        },
+        {
+          "id": "p2",
+          "learning": "Das ist für mich schwer zu sagen",
+          "known": "That's hard for me to say."
+        },
+        {
+          "id": "p3",
+          "learning": "Meiner Erfahrung nach ist das oft so",
+          "known": "In my experience that's often the case."
+        },
+        {
+          "id": "p4",
+          "learning": "Meine Muttersprache ist Bengali",
+          "known": "My mother tongue is Bengali."
+        },
+        {
+          "id": "p5",
+          "learning": "weil",
+          "known": "because"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u10-l06-introducing-yourself-opinions-2-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means „I find this topic very interesting.“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ich finde dieses Thema sehr interessant."
+        },
+        {
+          "id": "b",
+          "text": "Ich bin mir nicht ganz sicher, aber ich glaube …"
+        },
+        {
+          "id": "c",
+          "text": "Das ist für mich schwer zu sagen."
+        },
+        {
+          "id": "d",
+          "text": "Ich lebe seit drei Jahren in Deutschland."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Ich finde dieses Thema sehr interessant.** = I find this topic very interesting.\n\n*Example:* Ich finde dieses Thema sehr interessant.\nI find this topic very interesting."
+    },
+    {
+      "id": "tb1-u10-l06-introducing-yourself-opinions-2-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means „That's hard for me to say.“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ich lerne Deutsch, weil ich hier arbeiten möchte."
+        },
+        {
+          "id": "b",
+          "text": "Das ist für mich schwer zu sagen."
+        },
+        {
+          "id": "c",
+          "text": "Ich lebe seit drei Jahren in Deutschland."
+        },
+        {
+          "id": "d",
+          "text": "Ich finde dieses Thema sehr interessant."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Das ist für mich schwer zu sagen.** = That's hard for me to say.\n\n*Example:* Das ist für mich schwer zu sagen.\nThat's hard for me to say."
+    },
+    {
+      "id": "tb1-u10-l06-introducing-yourself-opinions-2-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I find this topic very interesting.",
+      "tiles": [
+        "interessant",
+        "Jahren",
+        "sagen",
+        "Ich",
+        "finde",
+        "Thema",
+        "sehr",
+        "dieses",
+        "lerne"
+      ],
+      "answers": [
+        "Ich finde dieses Thema sehr interessant."
+      ],
+      "explanation": "**Ich finde dieses Thema sehr interessant.** = I find this topic very interesting."
+    },
+    {
+      "id": "tb1-u10-l06-introducing-yourself-opinions-2-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means „I'm not quite sure, but I think …“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ich lerne Deutsch, weil ich hier arbeiten möchte."
+        },
+        {
+          "id": "b",
+          "text": "Ich bin mir nicht ganz sicher, aber ich glaube …"
+        },
+        {
+          "id": "c",
+          "text": "Meine Muttersprache ist Bengali."
+        },
+        {
+          "id": "d",
+          "text": "Ich lebe seit drei Jahren in Deutschland."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Ich bin mir nicht ganz sicher, aber ich glaube …** = I'm not quite sure, but I think …\n\n*Example:* Ich bin mir nicht ganz sicher, aber ich glaube, die Apotheke ist um die Ecke.\nI'm not quite sure, but I think the pharmacy is around the corner."
+    },
+    {
+      "id": "tb1-u10-l06-introducing-yourself-opinions-2-ex06",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u10-l06-introducing-yourself-opinions-2-2.mp3"
+      },
+      "tiles": [
+        "schwer",
+        "für",
+        "zu",
+        "mich",
+        "ist",
+        "arbeiten",
+        "Das",
+        "sagen",
+        "meiner",
+        "Erfahrung"
+      ],
+      "answers": [
+        "Das ist für mich schwer zu sagen."
+      ],
+      "explanation": "Das ist für mich schwer zu sagen.\n*That's hard for me to say.*\n\n**Das ist für mich schwer zu sagen.** = That's hard for me to say."
+    },
+    {
+      "id": "tb1-u10-l06-introducing-yourself-opinions-2-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means „In my experience that's often the case.“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "In meiner Freizeit spiele ich gern Fußball."
+        },
+        {
+          "id": "b",
+          "text": "Meiner Erfahrung nach ist das oft so."
+        },
+        {
+          "id": "c",
+          "text": "Ich lebe seit drei Jahren in Deutschland."
+        },
+        {
+          "id": "d",
+          "text": "Meine Muttersprache ist Bengali."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Meiner Erfahrung nach ist das oft so.** = In my experience that's often the case.\n\n*Example:* Meiner Erfahrung nach ist das oft so.\nIn my experience that's often the case."
+    },
+    {
+      "id": "tb1-u10-l06-introducing-yourself-opinions-2-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Ich bin mir nicht ganz sicher, aber ich glaube, die Apotheke ist um die Ecke.",
+      "tiles": [
+        "I'm",
+        "pharmacy",
+        "time",
+        "is",
+        "corner",
+        "the",
+        "around",
+        "not",
+        "but",
+        "three",
+        "quite",
+        "think",
+        "sure",
+        "the",
+        "Bengali",
+        "I"
+      ],
+      "answers": [
+        "I'm not quite sure, but I think the pharmacy is around the corner."
+      ],
+      "explanation": "**Ich bin mir nicht ganz sicher, aber ich glaube …** = I'm not quite sure, but I think …"
+    },
+    {
+      "id": "tb1-u10-l06-introducing-yourself-opinions-2-ex09",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "In my experience that's often the case.",
+      "tiles": [
+        "das",
+        "ich",
+        "so",
+        "oft",
+        "Meiner",
+        "nach",
+        "Freizeit",
+        "ist",
+        "Erfahrung",
+        "mich"
+      ],
+      "answers": [
+        "Meiner Erfahrung nach ist das oft so."
+      ],
+      "explanation": "**Meiner Erfahrung nach ist das oft so.** = In my experience that's often the case."
+    }
+  ]
+}

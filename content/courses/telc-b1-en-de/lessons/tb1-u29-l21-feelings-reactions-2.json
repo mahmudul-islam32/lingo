@@ -1,0 +1,279 @@
+{
+  "id": "tb1-u29-l21-feelings-reactions-2",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u29",
+  "title": "Feelings & Reactions 2",
+  "tip": "Theme: Redemittel: Gefühle & Reaktionen (B1)",
+  "exercises": [
+    {
+      "id": "tb1-u29-l21-feelings-reactions-2-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "Das klingt gut!",
+          "known": "That sounds good!"
+        },
+        {
+          "id": "p2",
+          "learning": "Ich bin gespannt, ob …",
+          "known": "I'm curious whether …"
+        },
+        {
+          "id": "p3",
+          "learning": "Hoffentlich klappt es",
+          "known": "Hopefully it works out."
+        },
+        {
+          "id": "p4",
+          "learning": "Das ist mir sehr wichtig",
+          "known": "That is very important to me."
+        },
+        {
+          "id": "p5",
+          "learning": "Das ist mir egal",
+          "known": "I don't care about that."
+        }
+      ]
+    },
+    {
+      "id": "tb1-u29-l21-feelings-reactions-2-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which phrase means „That sounds good!“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Das klingt gut!"
+        },
+        {
+          "id": "b",
+          "text": "Das freut mich sehr!"
+        },
+        {
+          "id": "c",
+          "text": "Es ärgert mich, dass …"
+        },
+        {
+          "id": "d",
+          "text": "Ich mache mir Sorgen um …"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Das klingt gut!** = That sounds good!\n\n*Example:* „Wollen wir am Samstag grillen?“ – „Das klingt gut!“\n\"Shall we have a barbecue on Saturday?\" – \"That sounds good!\""
+    },
+    {
+      "id": "tb1-u29-l21-feelings-reactions-2-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which phrase means „I'm curious whether …“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ich bin gespannt, ob …"
+        },
+        {
+          "id": "b",
+          "text": "Das ist mir egal."
+        },
+        {
+          "id": "c",
+          "text": "Hoffentlich klappt es."
+        },
+        {
+          "id": "d",
+          "text": "Das freut mich sehr!"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Ich bin gespannt, ob …** = I'm curious whether …\n\n*Example:* Ich bin gespannt, ob ich die Wohnung bekomme.\nI'm curious whether I'll get the flat."
+    },
+    {
+      "id": "tb1-u29-l21-feelings-reactions-2-ex04",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u29-l21-feelings-reactions-2-1.mp3"
+      },
+      "tiles": [
+        "bin",
+        "Wollen",
+        "am",
+        "wir",
+        "grillen",
+        "Mutter",
+        "gut",
+        "Samstag",
+        "klappt",
+        "Das",
+        "klingt"
+      ],
+      "answers": [
+        "„Wollen wir am Samstag grillen?“ – „Das klingt gut!“"
+      ],
+      "explanation": "„Wollen wir am Samstag grillen?“ – „Das klingt gut!“\n*\"Shall we have a barbecue on Saturday?\" – \"That sounds good!\"*\n\n**Das klingt gut!** = That sounds good!"
+    },
+    {
+      "id": "tb1-u29-l21-feelings-reactions-2-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which phrase means „Hopefully it works out.“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Hoffentlich klappt es."
+        },
+        {
+          "id": "b",
+          "text": "Das ist mir sehr wichtig."
+        },
+        {
+          "id": "c",
+          "text": "Zum Glück ist nichts passiert."
+        },
+        {
+          "id": "d",
+          "text": "Es ärgert mich, dass …"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Hoffentlich klappt es.** = Hopefully it works out.\n\n*Example:* Morgen habe ich ein Vorstellungsgespräch. Hoffentlich klappt es.\nI have a job interview tomorrow. Hopefully it works out."
+    },
+    {
+      "id": "tb1-u29-l21-feelings-reactions-2-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Ich bin gespannt, ob ich die Wohnung bekomme.",
+      "tiles": [
+        "the",
+        "I'm",
+        "that",
+        "luckily",
+        "is",
+        "get",
+        "whether",
+        "curious",
+        "I'll",
+        "flat"
+      ],
+      "answers": [
+        "I'm curious whether I'll get the flat."
+      ],
+      "explanation": "**Ich bin gespannt, ob …** = I'm curious whether …"
+    },
+    {
+      "id": "tb1-u29-l21-feelings-reactions-2-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which phrase means „That is very important to me.“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Das ist mir egal."
+        },
+        {
+          "id": "b",
+          "text": "Das ist mir sehr wichtig."
+        },
+        {
+          "id": "c",
+          "text": "Hoffentlich klappt es."
+        },
+        {
+          "id": "d",
+          "text": "Das klingt gut!"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Das ist mir sehr wichtig.** = That is very important to me.\n\n*Example:* Bitte sei pünktlich. Das ist mir sehr wichtig.\nPlease be on time. That is very important to me."
+    },
+    {
+      "id": "tb1-u29-l21-feelings-reactions-2-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I have a job interview tomorrow. Hopefully it works out.",
+      "tiles": [
+        "Du",
+        "Morgen",
+        "es",
+        "Vorstellungsgespräch",
+        "weil",
+        "ein",
+        "habe",
+        "Hoffentlich",
+        "klappt",
+        "am",
+        "ich"
+      ],
+      "answers": [
+        "Morgen habe ich ein Vorstellungsgespräch. Hoffentlich klappt es."
+      ],
+      "explanation": "**Hoffentlich klappt es.** = Hopefully it works out."
+    },
+    {
+      "id": "tb1-u29-l21-feelings-reactions-2-ex09",
+      "type": "multiple_choice",
+      "prompt": "Which phrase means „I don't care about that.“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Es ärgert mich, dass …"
+        },
+        {
+          "id": "b",
+          "text": "Hoffentlich klappt es."
+        },
+        {
+          "id": "c",
+          "text": "Das ist mir egal."
+        },
+        {
+          "id": "d",
+          "text": "Ich mache mir Sorgen um …"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**Das ist mir egal.** = I don't care about that.\n\n*Example:* „Pizza oder Nudeln?“ – „Das ist mir egal.“\n\"Pizza or pasta?\" – \"I don't mind.\""
+    },
+    {
+      "id": "tb1-u29-l21-feelings-reactions-2-ex10",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u29-l21-feelings-reactions-2-4.mp3"
+      },
+      "tiles": [
+        "wichtig",
+        "mir",
+        "ist",
+        "sehr",
+        "Hoffentlich",
+        "sei",
+        "Bitte",
+        "pünktlich",
+        "im",
+        "klappt",
+        "Das"
+      ],
+      "answers": [
+        "Bitte sei pünktlich. Das ist mir sehr wichtig."
+      ],
+      "explanation": "Bitte sei pünktlich. Das ist mir sehr wichtig.\n*Please be on time. That is very important to me.*\n\n**Das ist mir sehr wichtig.** = That is very important to me."
+    },
+    {
+      "id": "tb1-u29-l21-feelings-reactions-2-ex11",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "„Pizza oder Nudeln?“ – „Das ist mir egal.“",
+      "tiles": [
+        "don't",
+        "whether",
+        "Pizza",
+        "I",
+        "pasta",
+        "mind",
+        "have",
+        "out",
+        "or"
+      ],
+      "answers": [
+        "\"Pizza or pasta?\" – \"I don't mind.\""
+      ],
+      "explanation": "**Das ist mir egal.** = I don't care about that."
+    }
+  ]
+}

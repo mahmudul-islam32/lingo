@@ -1,0 +1,236 @@
+{
+  "id": "tb1-u25-l08-nouns-everyday-life-8",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u25",
+  "title": "Nouns: Everyday Life 8",
+  "tip": "Theme: Nomen: Alltag & Leben (B1)",
+  "exercises": [
+    {
+      "id": "tb1-u25-l08-nouns-everyday-life-8-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "die Feuerwehr",
+          "known": "fire brigade"
+        },
+        {
+          "id": "p2",
+          "learning": "die Strafe",
+          "known": "punishment / fine"
+        },
+        {
+          "id": "p3",
+          "learning": "das Gesetz",
+          "known": "law"
+        },
+        {
+          "id": "p4",
+          "learning": "das Rauchverbot",
+          "known": "smoking ban"
+        },
+        {
+          "id": "p5",
+          "learning": "der Haushalt",
+          "known": "household"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u25-l08-nouns-everyday-life-8-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „fire brigade“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Feuerwehr"
+        },
+        {
+          "id": "b",
+          "text": "das Ferienhaus, die Ferienhäuser"
+        },
+        {
+          "id": "c",
+          "text": "die Wäsche"
+        },
+        {
+          "id": "d",
+          "text": "der Tourist, die Touristen"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**die Feuerwehr** = fire brigade\n\n*Example:* Die Feuerwehr war nach fünf Minuten da.\nThe fire brigade arrived after five minutes."
+    },
+    {
+      "id": "tb1-u25-l08-nouns-everyday-life-8-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „punishment / fine“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Lage, die Lagen"
+        },
+        {
+          "id": "b",
+          "text": "das Ferienhaus, die Ferienhäuser"
+        },
+        {
+          "id": "c",
+          "text": "die Umfrage, die Umfragen"
+        },
+        {
+          "id": "d",
+          "text": "die Strafe, die Strafen"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**die Strafe** = punishment / fine\n*Plural: die Strafen*\n\n*Example:* Wer bei Rot über die Ampel fährt, muss eine Strafe zahlen.\nAnyone who runs a red light has to pay a fine."
+    },
+    {
+      "id": "tb1-u25-l08-nouns-everyday-life-8-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Die Feuerwehr war nach fünf Minuten da.",
+      "tiles": [
+        "minutes",
+        "brigade",
+        "arrived",
+        "five",
+        "Today",
+        "The",
+        "fire",
+        "after",
+        "abroad",
+        "read"
+      ],
+      "answers": [
+        "The fire brigade arrived after five minutes."
+      ],
+      "explanation": "**die Feuerwehr** = fire brigade"
+    },
+    {
+      "id": "tb1-u25-l08-nouns-everyday-life-8-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „law“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Sache, die Sachen"
+        },
+        {
+          "id": "b",
+          "text": "die Welt, die Welten"
+        },
+        {
+          "id": "c",
+          "text": "der Tourist, die Touristen"
+        },
+        {
+          "id": "d",
+          "text": "das Gesetz, die Gesetze"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**das Gesetz** = law\n*Plural: die Gesetze*\n\n*Example:* Nach dem Gesetz müssen Kinder im Auto einen Kindersitz haben.\nBy law, children must have a child seat in the car."
+    },
+    {
+      "id": "tb1-u25-l08-nouns-everyday-life-8-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Anyone who runs a red light has to pay a fine.",
+      "tiles": [
+        "über",
+        "Dorf",
+        "Wohnungssuche",
+        "Rot",
+        "eine",
+        "Wer",
+        "Strafe",
+        "muss",
+        "bei",
+        "Ampel",
+        "die",
+        "zahlen",
+        "Maria",
+        "fährt"
+      ],
+      "answers": [
+        "Wer bei Rot über die Ampel fährt, muss eine Strafe zahlen."
+      ],
+      "explanation": "**die Strafe** = punishment / fine\n*Plural: die Strafen*"
+    },
+    {
+      "id": "tb1-u25-l08-nouns-everyday-life-8-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „smoking ban“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "das Gesetz, die Gesetze"
+        },
+        {
+          "id": "b",
+          "text": "die Lage, die Lagen"
+        },
+        {
+          "id": "c",
+          "text": "das Rauchverbot, die Rauchverbote"
+        },
+        {
+          "id": "d",
+          "text": "der Spaß"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**das Rauchverbot** = smoking ban\n*Plural: die Rauchverbote*\n\n*Example:* Am Bahnhof gilt ein Rauchverbot.\nThere's a smoking ban at the station."
+    },
+    {
+      "id": "tb1-u25-l08-nouns-everyday-life-8-ex08",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u25-l08-nouns-everyday-life-8-3.mp3"
+      },
+      "tiles": [
+        "müssen",
+        "Nach",
+        "Kinder",
+        "einen",
+        "haben",
+        "im",
+        "war",
+        "Auto",
+        "gelesen",
+        "dem",
+        "Kindersitz",
+        "ich",
+        "Gesetz"
+      ],
+      "answers": [
+        "Nach dem Gesetz müssen Kinder im Auto einen Kindersitz haben."
+      ],
+      "explanation": "Nach dem Gesetz müssen Kinder im Auto einen Kindersitz haben.\n*By law, children must have a child seat in the car.*\n\n**das Gesetz** = law\n*Plural: die Gesetze*"
+    },
+    {
+      "id": "tb1-u25-l08-nouns-everyday-life-8-ex09",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Am Bahnhof gilt ein Rauchverbot.",
+      "tiles": [
+        "third",
+        "at",
+        "a",
+        "station",
+        "There's",
+        "the",
+        "smoking",
+        "of",
+        "winter",
+        "ban"
+      ],
+      "answers": [
+        "There's a smoking ban at the station."
+      ],
+      "explanation": "**das Rauchverbot** = smoking ban\n*Plural: die Rauchverbote*"
+    }
+  ]
+}

@@ -1,0 +1,301 @@
+{
+  "id": "tb1-u43-l02-paraphrasen-2",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u43",
+  "title": "Paraphrases 2",
+  "tip": "Text and task use different words for the same thing.",
+  "exercises": [
+    {
+      "id": "tb1-u43-l02-paraphrasen-2-ex01",
+      "type": "explain",
+      "title": "Paraphrases 2: the text says it differently",
+      "body": "*Die Aufgabe sagt es anders als der Text.* In the reading tasks the answer rarely repeats the words of the text. Learn these pairs: left the word in the text, right how the task says it.\n\n- **überzeugen** → jemanden dazu bringen, ja zu sagen\n- **die Ermäßigung** → der Rabatt, ein günstigerer Preis\n- **verschieben** → auf einen anderen Termin legen\n- **ausreichend** → genug\n- **die Voraussetzung** → die Bedingung, was man braucht\n- **selten krank** → meistens gesund\n- **geöffnet / geschlossen** → offen / zu\n- **sich schämen** → ein peinliches Gefühl haben\n- **sich beruflich verändern** → eine neue Stelle suchen\n- **die Verspätung** → später kommen als geplant\n- **reservieren** → vorher einen Platz sichern"
+    },
+    {
+      "id": "tb1-u43-l02-paraphrasen-2-ex02",
+      "type": "choice",
+      "title": "Paraphrasen-Drill",
+      "prompt": "In der Aufgabe steht „jemanden dazu bringen, ja zu sagen“. Welches Wort steht im Text?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Ermäßigung"
+        },
+        {
+          "id": "b",
+          "text": "ausreichend"
+        },
+        {
+          "id": "c",
+          "text": "überzeugen"
+        },
+        {
+          "id": "d",
+          "text": "reservieren"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Im Text: **überzeugen** = in der Aufgabe: **jemanden dazu bringen, ja zu sagen**"
+    },
+    {
+      "id": "tb1-u43-l02-paraphrasen-2-ex03",
+      "type": "choice",
+      "title": "Paraphrasen-Drill",
+      "prompt": "Im Text steht „die Ermäßigung“. Wie sagt es die Aufgabe mit einfachen Worten?",
+      "options": [
+        {
+          "id": "a",
+          "text": "ein peinliches Gefühl haben"
+        },
+        {
+          "id": "b",
+          "text": "der Rabatt, ein günstigerer Preis"
+        },
+        {
+          "id": "c",
+          "text": "meistens gesund"
+        },
+        {
+          "id": "d",
+          "text": "eine neue Stelle suchen"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Im Text: **die Ermäßigung** = in der Aufgabe: **der Rabatt, ein günstigerer Preis**"
+    },
+    {
+      "id": "tb1-u43-l02-paraphrasen-2-ex04",
+      "type": "choice",
+      "title": "Paraphrasen-Drill",
+      "prompt": "In der Aufgabe steht „auf einen anderen Termin legen“. Welches Wort steht im Text?",
+      "options": [
+        {
+          "id": "a",
+          "text": "verschieben"
+        },
+        {
+          "id": "b",
+          "text": "überzeugen"
+        },
+        {
+          "id": "c",
+          "text": "die Voraussetzung"
+        },
+        {
+          "id": "d",
+          "text": "selten krank"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Im Text: **verschieben** = in der Aufgabe: **auf einen anderen Termin legen**"
+    },
+    {
+      "id": "tb1-u43-l02-paraphrasen-2-ex05",
+      "type": "choice",
+      "title": "Paraphrasen-Drill",
+      "prompt": "Im Text steht „ausreichend“. Wie sagt es die Aufgabe mit einfachen Worten?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Bedingung, was man braucht"
+        },
+        {
+          "id": "b",
+          "text": "jemanden dazu bringen, ja zu sagen"
+        },
+        {
+          "id": "c",
+          "text": "auf einen anderen Termin legen"
+        },
+        {
+          "id": "d",
+          "text": "genug"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Im Text: **ausreichend** = in der Aufgabe: **genug**"
+    },
+    {
+      "id": "tb1-u43-l02-paraphrasen-2-ex06",
+      "type": "choice",
+      "title": "Paraphrasen-Drill",
+      "prompt": "In der Aufgabe steht „die Bedingung, was man braucht“. Welches Wort steht im Text?",
+      "options": [
+        {
+          "id": "a",
+          "text": "ausreichend"
+        },
+        {
+          "id": "b",
+          "text": "überzeugen"
+        },
+        {
+          "id": "c",
+          "text": "die Voraussetzung"
+        },
+        {
+          "id": "d",
+          "text": "sich schämen"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Im Text: **die Voraussetzung** = in der Aufgabe: **die Bedingung, was man braucht**"
+    },
+    {
+      "id": "tb1-u43-l02-paraphrasen-2-ex07",
+      "type": "choice",
+      "title": "Paraphrasen-Drill",
+      "prompt": "Im Text steht „selten krank“. Wie sagt es die Aufgabe mit einfachen Worten?",
+      "options": [
+        {
+          "id": "a",
+          "text": "jemanden dazu bringen, ja zu sagen"
+        },
+        {
+          "id": "b",
+          "text": "meistens gesund"
+        },
+        {
+          "id": "c",
+          "text": "offen / zu"
+        },
+        {
+          "id": "d",
+          "text": "eine neue Stelle suchen"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Im Text: **selten krank** = in der Aufgabe: **meistens gesund**"
+    },
+    {
+      "id": "tb1-u43-l02-paraphrasen-2-ex08",
+      "type": "choice",
+      "title": "Paraphrasen-Drill",
+      "prompt": "In der Aufgabe steht „offen / zu“. Welches Wort steht im Text?",
+      "options": [
+        {
+          "id": "a",
+          "text": "geöffnet / geschlossen"
+        },
+        {
+          "id": "b",
+          "text": "die Voraussetzung"
+        },
+        {
+          "id": "c",
+          "text": "sich schämen"
+        },
+        {
+          "id": "d",
+          "text": "selten krank"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Im Text: **geöffnet / geschlossen** = in der Aufgabe: **offen / zu**"
+    },
+    {
+      "id": "tb1-u43-l02-paraphrasen-2-ex09",
+      "type": "choice",
+      "title": "Paraphrasen-Drill",
+      "prompt": "Im Text steht „sich schämen“. Wie sagt es die Aufgabe mit einfachen Worten?",
+      "options": [
+        {
+          "id": "a",
+          "text": "offen / zu"
+        },
+        {
+          "id": "b",
+          "text": "meistens gesund"
+        },
+        {
+          "id": "c",
+          "text": "die Bedingung, was man braucht"
+        },
+        {
+          "id": "d",
+          "text": "ein peinliches Gefühl haben"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Im Text: **sich schämen** = in der Aufgabe: **ein peinliches Gefühl haben**"
+    },
+    {
+      "id": "tb1-u43-l02-paraphrasen-2-ex10",
+      "type": "choice",
+      "title": "Paraphrasen-Drill",
+      "prompt": "In der Aufgabe steht „eine neue Stelle suchen“. Welches Wort steht im Text?",
+      "options": [
+        {
+          "id": "a",
+          "text": "verschieben"
+        },
+        {
+          "id": "b",
+          "text": "selten krank"
+        },
+        {
+          "id": "c",
+          "text": "sich beruflich verändern"
+        },
+        {
+          "id": "d",
+          "text": "die Voraussetzung"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Im Text: **sich beruflich verändern** = in der Aufgabe: **eine neue Stelle suchen**"
+    },
+    {
+      "id": "tb1-u43-l02-paraphrasen-2-ex11",
+      "type": "choice",
+      "title": "Paraphrasen-Drill",
+      "prompt": "Im Text steht „die Verspätung“. Wie sagt es die Aufgabe mit einfachen Worten?",
+      "options": [
+        {
+          "id": "a",
+          "text": "eine neue Stelle suchen"
+        },
+        {
+          "id": "b",
+          "text": "später kommen als geplant"
+        },
+        {
+          "id": "c",
+          "text": "offen / zu"
+        },
+        {
+          "id": "d",
+          "text": "genug"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Im Text: **die Verspätung** = in der Aufgabe: **später kommen als geplant**"
+    },
+    {
+      "id": "tb1-u43-l02-paraphrasen-2-ex12",
+      "type": "choice",
+      "title": "Paraphrasen-Drill",
+      "prompt": "In der Aufgabe steht „vorher einen Platz sichern“. Welches Wort steht im Text?",
+      "options": [
+        {
+          "id": "a",
+          "text": "reservieren"
+        },
+        {
+          "id": "b",
+          "text": "sich schämen"
+        },
+        {
+          "id": "c",
+          "text": "die Voraussetzung"
+        },
+        {
+          "id": "d",
+          "text": "die Verspätung"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Im Text: **reservieren** = in der Aufgabe: **vorher einen Platz sichern**"
+    }
+  ]
+}

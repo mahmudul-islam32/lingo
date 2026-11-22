@@ -1,0 +1,284 @@
+{
+  "id": "tb1-u04-l01-clothes-colours-1",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u04",
+  "title": "Clothes & Colours 1",
+  "tip": "Theme: Kleidung & Farben (A1)",
+  "exercises": [
+    {
+      "id": "tb1-u04-l01-clothes-colours-1-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "die Kleidung",
+          "known": "clothing"
+        },
+        {
+          "id": "p2",
+          "learning": "das Hemd",
+          "known": "shirt"
+        },
+        {
+          "id": "p3",
+          "learning": "die Hose",
+          "known": "trousers"
+        },
+        {
+          "id": "p4",
+          "learning": "der Rock",
+          "known": "skirt"
+        },
+        {
+          "id": "p5",
+          "learning": "das Kleid",
+          "known": "dress"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u04-l01-clothes-colours-1-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „clothing“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "der Rock, die Röcke"
+        },
+        {
+          "id": "b",
+          "text": "die Hose, die Hosen"
+        },
+        {
+          "id": "c",
+          "text": "das Hemd, die Hemden"
+        },
+        {
+          "id": "d",
+          "text": "die Kleidung"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**die Kleidung** = clothing\n\n*Example:* Für den Winter brauchen die Kinder warme Kleidung.\nThe children need warm clothes for the winter."
+    },
+    {
+      "id": "tb1-u04-l01-clothes-colours-1-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „shirt“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "das Hemd, die Hemden"
+        },
+        {
+          "id": "b",
+          "text": "der Rock, die Röcke"
+        },
+        {
+          "id": "c",
+          "text": "die Jacke, die Jacken"
+        },
+        {
+          "id": "d",
+          "text": "die Mütze, die Mützen"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**das Hemd** = shirt\n*Plural: die Hemden*\n\n*Example:* Zum Vorstellungsgespräch trägt Ali ein weißes Hemd.\nAli is wearing a white shirt to the job interview."
+    },
+    {
+      "id": "tb1-u04-l01-clothes-colours-1-ex04",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u04-l01-clothes-colours-1-1.mp3"
+      },
+      "tiles": [
+        "Für",
+        "brauchen",
+        "Ich",
+        "den",
+        "Kleidung",
+        "Winter",
+        "warme",
+        "die",
+        "Abend",
+        "Kinder",
+        "Dezember"
+      ],
+      "answers": [
+        "Für den Winter brauchen die Kinder warme Kleidung."
+      ],
+      "explanation": "Für den Winter brauchen die Kinder warme Kleidung.\n*The children need warm clothes for the winter.*\n\n**die Kleidung** = clothing"
+    },
+    {
+      "id": "tb1-u04-l01-clothes-colours-1-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „trousers“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Jacke, die Jacken"
+        },
+        {
+          "id": "b",
+          "text": "die Schuhe (Pl.)"
+        },
+        {
+          "id": "c",
+          "text": "die Hose, die Hosen"
+        },
+        {
+          "id": "d",
+          "text": "der Rock, die Röcke"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**die Hose** = trousers\n*Plural: die Hosen*\n\n*Example:* Die Hose ist zu lang, kann ich sie umtauschen?\nThe trousers are too long, can I exchange them?"
+    },
+    {
+      "id": "tb1-u04-l01-clothes-colours-1-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Zum Vorstellungsgespräch trägt Ali ein weißes Hemd.",
+      "tiles": [
+        "job",
+        "a",
+        "clothes",
+        "white",
+        "interview",
+        "cool",
+        "to",
+        "is",
+        "shirt",
+        "probably",
+        "Ali",
+        "the",
+        "wearing"
+      ],
+      "answers": [
+        "Ali is wearing a white shirt to the job interview."
+      ],
+      "explanation": "**das Hemd** = shirt\n*Plural: die Hemden*"
+    },
+    {
+      "id": "tb1-u04-l01-clothes-colours-1-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „skirt“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Hose, die Hosen"
+        },
+        {
+          "id": "b",
+          "text": "die Kleidung"
+        },
+        {
+          "id": "c",
+          "text": "die Mütze, die Mützen"
+        },
+        {
+          "id": "d",
+          "text": "der Rock, die Röcke"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**der Rock** = skirt\n*Plural: die Röcke*\n\n*Example:* Meine Schwester trägt heute einen langen Rock.\nMy sister is wearing a long skirt today."
+    },
+    {
+      "id": "tb1-u04-l01-clothes-colours-1-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "The trousers are too long, can I exchange them?",
+      "tiles": [
+        "Hose",
+        "umtauschen",
+        "ich",
+        "dicken",
+        "Die",
+        "ist",
+        "an",
+        "Winter",
+        "sie",
+        "kann",
+        "lang",
+        "zu"
+      ],
+      "answers": [
+        "Die Hose ist zu lang, kann ich sie umtauschen?"
+      ],
+      "explanation": "**die Hose** = trousers\n*Plural: die Hosen*"
+    },
+    {
+      "id": "tb1-u04-l01-clothes-colours-1-ex09",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „dress“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "der Mantel, die Mäntel"
+        },
+        {
+          "id": "b",
+          "text": "das Hemd, die Hemden"
+        },
+        {
+          "id": "c",
+          "text": "die Jacke, die Jacken"
+        },
+        {
+          "id": "d",
+          "text": "das Kleid, die Kleider"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**das Kleid** = dress\n*Plural: die Kleider*\n\n*Example:* Maria hat für die Hochzeit ein neues Kleid gekauft.\nMaria bought a new dress for the wedding."
+    },
+    {
+      "id": "tb1-u04-l01-clothes-colours-1-ex10",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u04-l01-clothes-colours-1-4.mp3"
+      },
+      "tiles": [
+        "Meine",
+        "langen",
+        "Sohn",
+        "Mütze",
+        "Rock",
+        "einen",
+        "heute",
+        "aus",
+        "Schwester",
+        "trägt"
+      ],
+      "answers": [
+        "Meine Schwester trägt heute einen langen Rock."
+      ],
+      "explanation": "Meine Schwester trägt heute einen langen Rock.\n*My sister is wearing a long skirt today.*\n\n**der Rock** = skirt\n*Plural: die Röcke*"
+    },
+    {
+      "id": "tb1-u04-l01-clothes-colours-1-ex11",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Maria hat für die Hochzeit ein neues Kleid gekauft.",
+      "tiles": [
+        "a",
+        "flat",
+        "the",
+        "Maria",
+        "it's",
+        "new",
+        "for",
+        "wedding",
+        "door",
+        "dress",
+        "bought"
+      ],
+      "answers": [
+        "Maria bought a new dress for the wedding."
+      ],
+      "explanation": "**das Kleid** = dress\n*Plural: die Kleider*"
+    }
+  ]
+}

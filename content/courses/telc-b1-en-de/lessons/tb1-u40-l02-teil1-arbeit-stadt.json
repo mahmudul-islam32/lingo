@@ -1,0 +1,270 @@
+{
+  "id": "tb1-u40-l02-teil1-arbeit-stadt",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u40",
+  "title": "Headlines 2: Arbeit & Stadt",
+  "tip": "Match each text with one headline. Five headlines stay unused.",
+  "exercises": [
+    {
+      "id": "tb1-u40-l02-teil1-arbeit-stadt-ex01",
+      "type": "explain",
+      "title": "Teil 1 · Arbeit & Stadt: how to match headlines",
+      "body": "**5 texts · 10 headlines · 5 stay unused.** Each headline fits only one text.\n\n- Read all 10 headlines first and look for pairs: one headline says what the text says, its twin turns a detail around (the opposite, a wrong cause, an invented fact).\n- A headline that only repeats a word from the text (\"Bücher\", \"Radwege\") is often the trap: it recycles the word but changes the message.\n- Decide by the main message of the text, not by single words.\n\nIn this lesson the headlines are always listed in the same order (A–J), like the answer sheet. Remember which ones you have already used."
+    },
+    {
+      "id": "tb1-u40-l02-teil1-arbeit-stadt-ex02",
+      "type": "choice",
+      "title": "Text 1 · Arbeit & Stadt",
+      "passage": "Viele Firmen erlauben inzwischen das Arbeiten von zu Hause. Die Mitarbeiter sparen den Weg ins Büro und sind mit ihrer Arbeit zufriedener.",
+      "prompt": "Welche Überschrift passt zu Text 1?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Restaurant nimmt vegetarische Gerichte ins Angebot"
+        },
+        {
+          "id": "b",
+          "text": "Homeoffice führt zu mehr Stress im Job"
+        },
+        {
+          "id": "c",
+          "text": "Zu wenig Schlaf schadet der Konzentration"
+        },
+        {
+          "id": "d",
+          "text": "Das Radio verdrängt die Podcasts"
+        },
+        {
+          "id": "e",
+          "text": "Genug Schlaf ist für die Arbeit unwichtig"
+        },
+        {
+          "id": "f",
+          "text": "Arbeiten von zu Hause macht Mitarbeiter zufriedener"
+        },
+        {
+          "id": "g",
+          "text": "Neuer Park im Stadtzentrum geplant"
+        },
+        {
+          "id": "h",
+          "text": "Restaurant streicht vegetarische Gerichte vom Menü"
+        },
+        {
+          "id": "i",
+          "text": "Podcasts werden immer beliebter"
+        },
+        {
+          "id": "j",
+          "text": "Der alte Park im Zentrum wird geschlossen"
+        }
+      ],
+      "correctOptionId": "f",
+      "explanation": "**Answer: F** „Arbeiten von zu Hause macht Mitarbeiter zufriedener“\n\nText 1: Homeoffice → zufriedener. Falle B sagt „mehr Stress“."
+    },
+    {
+      "id": "tb1-u40-l02-teil1-arbeit-stadt-ex03",
+      "type": "choice",
+      "title": "Text 2 · Arbeit & Stadt",
+      "passage": "Eine neue Studie zeigt: Wer regelmäßig zu wenig schläft, kann sich am Tag schlechter konzentrieren.",
+      "prompt": "Welche Überschrift passt zu Text 2?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Restaurant nimmt vegetarische Gerichte ins Angebot"
+        },
+        {
+          "id": "b",
+          "text": "Homeoffice führt zu mehr Stress im Job"
+        },
+        {
+          "id": "c",
+          "text": "Zu wenig Schlaf schadet der Konzentration"
+        },
+        {
+          "id": "d",
+          "text": "Das Radio verdrängt die Podcasts"
+        },
+        {
+          "id": "e",
+          "text": "Genug Schlaf ist für die Arbeit unwichtig"
+        },
+        {
+          "id": "f",
+          "text": "Arbeiten von zu Hause macht Mitarbeiter zufriedener"
+        },
+        {
+          "id": "g",
+          "text": "Neuer Park im Stadtzentrum geplant"
+        },
+        {
+          "id": "h",
+          "text": "Restaurant streicht vegetarische Gerichte vom Menü"
+        },
+        {
+          "id": "i",
+          "text": "Podcasts werden immer beliebter"
+        },
+        {
+          "id": "j",
+          "text": "Der alte Park im Zentrum wird geschlossen"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**Answer: C** „Zu wenig Schlaf schadet der Konzentration“\n\nText 2: zu wenig Schlaf schadet der Konzentration (Falle E dreht es um)."
+    },
+    {
+      "id": "tb1-u40-l02-teil1-arbeit-stadt-ex04",
+      "type": "choice",
+      "title": "Text 3 · Arbeit & Stadt",
+      "passage": "Immer mehr Menschen hören unterwegs Podcasts statt Radio, vor allem auf dem Weg zur Arbeit.",
+      "prompt": "Welche Überschrift passt zu Text 3?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Restaurant nimmt vegetarische Gerichte ins Angebot"
+        },
+        {
+          "id": "b",
+          "text": "Homeoffice führt zu mehr Stress im Job"
+        },
+        {
+          "id": "c",
+          "text": "Zu wenig Schlaf schadet der Konzentration"
+        },
+        {
+          "id": "d",
+          "text": "Das Radio verdrängt die Podcasts"
+        },
+        {
+          "id": "e",
+          "text": "Genug Schlaf ist für die Arbeit unwichtig"
+        },
+        {
+          "id": "f",
+          "text": "Arbeiten von zu Hause macht Mitarbeiter zufriedener"
+        },
+        {
+          "id": "g",
+          "text": "Neuer Park im Stadtzentrum geplant"
+        },
+        {
+          "id": "h",
+          "text": "Restaurant streicht vegetarische Gerichte vom Menü"
+        },
+        {
+          "id": "i",
+          "text": "Podcasts werden immer beliebter"
+        },
+        {
+          "id": "j",
+          "text": "Der alte Park im Zentrum wird geschlossen"
+        }
+      ],
+      "correctOptionId": "i",
+      "explanation": "**Answer: I** „Podcasts werden immer beliebter“\n\nText 3: Podcasts werden beliebter; Falle D sagt, das Radio verdränge sie."
+    },
+    {
+      "id": "tb1-u40-l02-teil1-arbeit-stadt-ex05",
+      "type": "choice",
+      "title": "Text 4 · Arbeit & Stadt",
+      "passage": "Die Stadt plant einen neuen Park im Zentrum. Er soll im nächsten Jahr eröffnet werden.",
+      "prompt": "Welche Überschrift passt zu Text 4?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Restaurant nimmt vegetarische Gerichte ins Angebot"
+        },
+        {
+          "id": "b",
+          "text": "Homeoffice führt zu mehr Stress im Job"
+        },
+        {
+          "id": "c",
+          "text": "Zu wenig Schlaf schadet der Konzentration"
+        },
+        {
+          "id": "d",
+          "text": "Das Radio verdrängt die Podcasts"
+        },
+        {
+          "id": "e",
+          "text": "Genug Schlaf ist für die Arbeit unwichtig"
+        },
+        {
+          "id": "f",
+          "text": "Arbeiten von zu Hause macht Mitarbeiter zufriedener"
+        },
+        {
+          "id": "g",
+          "text": "Neuer Park im Stadtzentrum geplant"
+        },
+        {
+          "id": "h",
+          "text": "Restaurant streicht vegetarische Gerichte vom Menü"
+        },
+        {
+          "id": "i",
+          "text": "Podcasts werden immer beliebter"
+        },
+        {
+          "id": "j",
+          "text": "Der alte Park im Zentrum wird geschlossen"
+        }
+      ],
+      "correctOptionId": "g",
+      "explanation": "**Answer: G** „Neuer Park im Stadtzentrum geplant“\n\nText 4: ein neuer Park ist geplant. Falle J spricht von Schließung."
+    },
+    {
+      "id": "tb1-u40-l02-teil1-arbeit-stadt-ex06",
+      "type": "choice",
+      "title": "Text 5 · Arbeit & Stadt",
+      "passage": "Ein Restaurant bietet ab sofort auch vegetarische Gerichte an. Die Nachfrage der Gäste ist überraschend groß.",
+      "prompt": "Welche Überschrift passt zu Text 5?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Restaurant nimmt vegetarische Gerichte ins Angebot"
+        },
+        {
+          "id": "b",
+          "text": "Homeoffice führt zu mehr Stress im Job"
+        },
+        {
+          "id": "c",
+          "text": "Zu wenig Schlaf schadet der Konzentration"
+        },
+        {
+          "id": "d",
+          "text": "Das Radio verdrängt die Podcasts"
+        },
+        {
+          "id": "e",
+          "text": "Genug Schlaf ist für die Arbeit unwichtig"
+        },
+        {
+          "id": "f",
+          "text": "Arbeiten von zu Hause macht Mitarbeiter zufriedener"
+        },
+        {
+          "id": "g",
+          "text": "Neuer Park im Stadtzentrum geplant"
+        },
+        {
+          "id": "h",
+          "text": "Restaurant streicht vegetarische Gerichte vom Menü"
+        },
+        {
+          "id": "i",
+          "text": "Podcasts werden immer beliebter"
+        },
+        {
+          "id": "j",
+          "text": "Der alte Park im Zentrum wird geschlossen"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Answer: A** „Restaurant nimmt vegetarische Gerichte ins Angebot“\n\nText 5: neue vegetarische Gerichte; Falle H sagt „streicht“."
+    }
+  ]
+}

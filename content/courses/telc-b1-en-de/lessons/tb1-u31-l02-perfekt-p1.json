@@ -1,0 +1,433 @@
+{
+  "id": "tb1-u31-l02-perfekt-p1",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u31",
+  "title": "Perfekt: haben or sein: Perfekt mit haben & Perfekt mit sein",
+  "tip": "“Ich habe nach Hause gegangen”, movement verbs always take sein! And “Ich habe besucht meine Tante”, participle to the END.",
+  "exercises": [
+    {
+      "id": "tb1-u31-l02-perfekt-p1-ex01",
+      "type": "explain",
+      "title": "Perfekt mit haben",
+      "body": "Most verbs form the perfect with haben – especially verbs with an accusative object.\n\n*Deutsch:* Die meisten Verben bilden das Perfekt mit haben – vor allem Verben mit Akkusativ-Objekt.\n\n## Pattern\n\nSubjekt + **haben** (Pos. 2) + … + **Partizip II** (Ende)",
+      "examples": [
+        {
+          "learning": "Ich habe gestern Pizza gegessen.",
+          "known": "I ate pizza yesterday."
+        },
+        {
+          "learning": "Wir haben am Wochenende die Wohnung renoviert.",
+          "known": "We renovated the flat at the weekend."
+        }
+      ]
+    },
+    {
+      "id": "tb1-u31-l02-perfekt-p1-ex02",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I ate pizza yesterday.",
+      "tiles": [
+        "Ich",
+        "Hause",
+        "Hast",
+        "gegessen",
+        "haben",
+        "gestern",
+        "habe",
+        "Pizza"
+      ],
+      "answers": [
+        "Ich habe gestern Pizza gegessen."
+      ],
+      "explanation": "**Why:** essen → gegessen, with haben.\n\n*Warum:* essen → gegessen, mit haben."
+    },
+    {
+      "id": "tb1-u31-l02-perfekt-p1-ex03",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "We renovated the flat at the weekend.",
+      "tiles": [
+        "Wohnung",
+        "renoviert",
+        "die",
+        "Wochenende",
+        "Wir",
+        "Pizza",
+        "am",
+        "haben",
+        "Mann",
+        "mit"
+      ],
+      "answers": [
+        "Wir haben am Wochenende die Wohnung renoviert."
+      ],
+      "explanation": "**Why:** Verbs ending in -ieren: no ge- (renoviert).\n\n*Warum:* Verben auf -ieren: kein ge- (renoviert)."
+    },
+    {
+      "id": "tb1-u31-l02-perfekt-p1-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Have you read the email yet?",
+      "tiles": [
+        "Ich",
+        "E-Mail",
+        "Hast",
+        "schon",
+        "Bonn",
+        "du",
+        "über",
+        "die",
+        "gelesen"
+      ],
+      "answers": [
+        "Hast du die E-Mail schon gelesen?"
+      ],
+      "explanation": "**Why:** Question: hast first, gelesen at the end.\n\n*Warum:* Frage: hast vorne, gelesen am Ende."
+    },
+    {
+      "id": "tb1-u31-l02-perfekt-p1-ex05",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "My husband bought me flowers.",
+      "tiles": [
+        "gekauft",
+        "Mein",
+        "Blumen",
+        "mir",
+        "Hause",
+        "Mann",
+        "Hast",
+        "zwei",
+        "hat"
+      ],
+      "answers": [
+        "Mein Mann hat mir Blumen gekauft."
+      ],
+      "explanation": "**Why:** Regular: kaufen → gekauft.\n\n*Warum:* Regelmäßig: kaufen → gekauft."
+    },
+    {
+      "id": "tb1-u31-l02-perfekt-p1-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "She invited her friend for dinner.",
+      "tiles": [
+        "hat",
+        "eingeladen",
+        "ihre",
+        "zum",
+        "passiert",
+        "Freundin",
+        "Ich",
+        "Essen",
+        "E-Mail",
+        "Sie"
+      ],
+      "answers": [
+        "Sie hat ihre Freundin zum Essen eingeladen."
+      ],
+      "explanation": "**Why:** Separable: ein-ge-laden.\n\n*Warum:* Trennbar: ein-ge-laden."
+    },
+    {
+      "id": "tb1-u31-l02-perfekt-p1-ex07",
+      "type": "explain",
+      "title": "Perfekt mit sein",
+      "body": "sein with movement from A to B, change of state, and with sein, bleiben, werden, passieren.\n\n*Deutsch:* sein bei Bewegung von A nach B, Zustandswechsel und bei sein, bleiben, werden, passieren.\n\n## Pattern\n\nSubjekt + **sein** (Pos. 2) + … + **Partizip II** (Ende)",
+      "examples": [
+        {
+          "learning": "Ich bin mit dem Zug nach Hamburg gefahren.",
+          "known": "I went to Hamburg by train."
+        },
+        {
+          "learning": "Wir sind heute sehr früh aufgestanden.",
+          "known": "We got up very early today."
+        }
+      ]
+    },
+    {
+      "id": "tb1-u31-l02-perfekt-p1-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I went to Hamburg by train.",
+      "tiles": [
+        "die",
+        "Zug",
+        "mit",
+        "nach",
+        "Ich",
+        "gefahren",
+        "Einladung",
+        "dem",
+        "Brief",
+        "bin",
+        "Hamburg"
+      ],
+      "answers": [
+        "Ich bin mit dem Zug nach Hamburg gefahren."
+      ],
+      "explanation": "**Why:** Movement A → B: fahren → sein.\n\n*Warum:* Bewegung A → B: fahren → sein."
+    },
+    {
+      "id": "tb1-u31-l02-perfekt-p1-ex09",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "We got up very early today.",
+      "tiles": [
+        "sehr",
+        "sind",
+        "heute",
+        "Jahre",
+        "aufgestanden",
+        "früh",
+        "Wir",
+        "Wochenende",
+        "E-Mail"
+      ],
+      "answers": [
+        "Wir sind heute sehr früh aufgestanden."
+      ],
+      "explanation": "**Why:** Change of state (lying → standing): sein.\n\n*Warum:* Zustandswechsel (liegen → stehen): sein."
+    },
+    {
+      "id": "tb1-u31-l02-perfekt-p1-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "What happened?",
+      "tiles": [
+        "Brief",
+        "Hast",
+        "Was",
+        "denn",
+        "passiert",
+        "ist",
+        "Ich"
+      ],
+      "answers": [
+        "Was ist denn passiert?"
+      ],
+      "explanation": "**Why:** passieren always takes sein.\n\n*Warum:* passieren immer mit sein."
+    },
+    {
+      "id": "tb1-u31-l02-perfekt-p1-ex11",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "He stayed at home all day yesterday.",
+      "tiles": [
+        "Tag",
+        "Was",
+        "geblieben",
+        "ist",
+        "Er",
+        "gestern",
+        "bin",
+        "Hause",
+        "Ich",
+        "ganzen",
+        "zu",
+        "den"
+      ],
+      "answers": [
+        "Er ist gestern den ganzen Tag zu Hause geblieben."
+      ],
+      "explanation": "**Why:** bleiben: no movement, but still sein!\n\n*Warum:* bleiben: keine Bewegung, aber trotzdem sein!"
+    },
+    {
+      "id": "tb1-u31-l02-perfekt-p1-ex12",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "My daughter became a doctor last year.",
+      "tiles": [
+        "Jahr",
+        "ist",
+        "letztes",
+        "in",
+        "Ärztin",
+        "Tochter",
+        "Meine",
+        "dem",
+        "die",
+        "geworden"
+      ],
+      "answers": [
+        "Meine Tochter ist letztes Jahr Ärztin geworden."
+      ],
+      "explanation": "**Why:** werden → ist geworden.\n\n*Warum:* werden → ist geworden."
+    },
+    {
+      "id": "tb1-u31-l02-perfekt-p1-ex13",
+      "type": "choice",
+      "title": "Fill the gap",
+      "prompt": "Sie ___ den ganzen Tag zu Hause geblieben.",
+      "options": [
+        {
+          "id": "a",
+          "text": "wird"
+        },
+        {
+          "id": "b",
+          "text": "ist"
+        },
+        {
+          "id": "c",
+          "text": "hat"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "bleiben gehört zu den sein-Verben: ist geblieben."
+    },
+    {
+      "id": "tb1-u31-l02-perfekt-p1-ex14",
+      "type": "choice",
+      "title": "Fill the gap",
+      "prompt": "Ich habe das Formular schon ___.",
+      "options": [
+        {
+          "id": "a",
+          "text": "ausfüllen"
+        },
+        {
+          "id": "b",
+          "text": "geausfüllt"
+        },
+        {
+          "id": "c",
+          "text": "ausgefüllt"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Trennbar: aus + ge + füllt = ausgefüllt (ge in der Mitte)."
+    },
+    {
+      "id": "tb1-u31-l02-perfekt-p1-ex15",
+      "type": "choice",
+      "title": "Fill the gap",
+      "prompt": "Das Konzert ___ um 20 Uhr begonnen.",
+      "options": [
+        {
+          "id": "a",
+          "text": "wurde"
+        },
+        {
+          "id": "b",
+          "text": "hat"
+        },
+        {
+          "id": "c",
+          "text": "ist"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "beginnen bildet das Perfekt mit haben: hat begonnen."
+    },
+    {
+      "id": "tb1-u31-l02-perfekt-p1-ex16",
+      "type": "choice",
+      "title": "Find the mistake",
+      "prompt": "Which word is wrong? „Ich habe nach Hause gegangen.“",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ich"
+        },
+        {
+          "id": "b",
+          "text": "habe"
+        },
+        {
+          "id": "c",
+          "text": "nach"
+        },
+        {
+          "id": "d",
+          "text": "Hause"
+        },
+        {
+          "id": "e",
+          "text": "gegangen"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "„habe“ → „bin“: **Ich bin nach Hause gegangen.**\n\ngehen = Bewegung → Perfekt mit sein: Ich bin … gegangen."
+    },
+    {
+      "id": "tb1-u31-l02-perfekt-p1-ex17",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Correct the sentence: „Ich habe nach Hause gegangen.“",
+      "tiles": [
+        "nach",
+        "Ich",
+        "gegangen",
+        "Hause",
+        "habe",
+        "denn",
+        "bin",
+        "heute"
+      ],
+      "answers": [
+        "Ich bin nach Hause gegangen."
+      ],
+      "explanation": "gehen = Bewegung → Perfekt mit sein: Ich bin … gegangen."
+    },
+    {
+      "id": "tb1-u31-l02-perfekt-p1-ex18",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Word order: put all the words in the correct order.",
+      "tiles": [
+        "Meer",
+        "am",
+        "Wir",
+        "ans",
+        "sind",
+        "Sonntag",
+        "gefahren"
+      ],
+      "answers": [
+        "Wir sind am Sonntag ans Meer gefahren"
+      ],
+      "explanation": "fahren → sein; Partizip am Ende: Wir sind … gefahren."
+    },
+    {
+      "id": "tb1-u31-l02-perfekt-p1-ex19",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Rewrite the sentence in the Perfekt: Ich kaufe ein neues Handy.",
+      "tiles": [
+        "Blumen",
+        "in",
+        "Handy",
+        "habe",
+        "gekauft",
+        "Ich",
+        "ein",
+        "neues"
+      ],
+      "answers": [
+        "Ich habe ein neues Handy gekauft."
+      ],
+      "explanation": "kaufen → haben + gekauft (Partizip am Ende).\n\n*Deutsch:* Schreib den Satz im Perfekt:"
+    },
+    {
+      "id": "tb1-u31-l02-perfekt-p1-ex20",
+      "type": "choice",
+      "title": "Fill the gap",
+      "prompt": "Wir ___ gestern ins Kino gegangen.",
+      "options": [
+        {
+          "id": "a",
+          "text": "sind"
+        },
+        {
+          "id": "b",
+          "text": "werden"
+        },
+        {
+          "id": "c",
+          "text": "haben"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "gehen → Perfekt mit sein: Wir sind … gegangen."
+    }
+  ]
+}

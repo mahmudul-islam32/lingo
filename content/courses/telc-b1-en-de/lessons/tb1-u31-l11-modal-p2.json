@@ -1,0 +1,287 @@
+{
+  "id": "tb1-u31-l11-modal-p2",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u31",
+  "title": "Modal Verbs: dürfen / nicht dürfen & sollen",
+  "tip": "nicht dürfen ≠ nicht müssen: “Sie müssen nicht zahlen” = it's free · “Sie dürfen nicht zahlen” would be absurd. This distinction is a listening-test trap.",
+  "exercises": [
+    {
+      "id": "tb1-u31-l11-modal-p2-ex01",
+      "type": "explain",
+      "title": "dürfen / nicht dürfen",
+      "body": "dürfen = permission. nicht dürfen = prohibition.\n\n*Deutsch:* dürfen = Erlaubnis. nicht dürfen = Verbot.\n\n## Pattern\n\nSubjekt + **darf** + … + **Infinitiv**",
+      "examples": [
+        {
+          "learning": "Darf ich das Fenster öffnen?",
+          "known": "May I open the window?"
+        },
+        {
+          "learning": "Hier darf man nicht rauchen.",
+          "known": "You're not allowed to smoke here."
+        }
+      ]
+    },
+    {
+      "id": "tb1-u31-l11-modal-p2-ex02",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "May I open the window?",
+      "tiles": [
+        "öffnen",
+        "einen",
+        "Fenster",
+        "Darf",
+        "Mein",
+        "arbeiten",
+        "ich",
+        "das"
+      ],
+      "answers": [
+        "Darf ich das Fenster öffnen?"
+      ],
+      "explanation": "**Why:** Polite request for permission.\n\n*Warum:* Höfliche Frage um Erlaubnis."
+    },
+    {
+      "id": "tb1-u31-l11-modal-p2-ex03",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "You're not allowed to smoke here.",
+      "tiles": [
+        "rauchen",
+        "darf",
+        "noch",
+        "man",
+        "Sonntag",
+        "nicht",
+        "Hier",
+        "heiraten"
+      ],
+      "answers": [
+        "Hier darf man nicht rauchen."
+      ],
+      "explanation": "**Why:** Prohibition.\n\n*Warum:* Verbot."
+    },
+    {
+      "id": "tb1-u31-l11-modal-p2-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Children aren't allowed to see the film.",
+      "tiles": [
+        "kann",
+        "Testlücke-Stil",
+        "Kinder",
+        "nicht",
+        "sehen",
+        "Film",
+        "dürfen",
+        "noch",
+        "den"
+      ],
+      "answers": [
+        "Kinder dürfen den Film nicht sehen."
+      ],
+      "explanation": "**Why:** nicht dürfen = forbidden.\n\n*Warum:* nicht dürfen = verboten."
+    },
+    {
+      "id": "tb1-u31-l11-modal-p2-ex05",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "In the course we may use a dictionary.",
+      "tiles": [
+        "Im",
+        "Du",
+        "Ich",
+        "ein",
+        "Kurs",
+        "benutzen",
+        "Kannst",
+        "wir",
+        "Wörterbuch",
+        "dürfen"
+      ],
+      "answers": [
+        "Im Kurs dürfen wir ein Wörterbuch benutzen."
+      ],
+      "explanation": "**Why:** Permission.\n\n*Warum:* Erlaubnis."
+    },
+    {
+      "id": "tb1-u31-l11-modal-p2-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "You can stay up later today.",
+      "tiles": [
+        "Du",
+        "ich",
+        "darfst",
+        "heute",
+        "aufbleiben",
+        "mehr",
+        "länger",
+        "trinken"
+      ],
+      "answers": [
+        "Du darfst heute länger aufbleiben."
+      ],
+      "explanation": "**Why:** du → darfst.\n\n*Warum:* du → darfst."
+    },
+    {
+      "id": "tb1-u31-l11-modal-p2-ex07",
+      "type": "explain",
+      "title": "sollen · Auftrag von anderen",
+      "body": "sollen = someone else says/recommends it (doctor, boss, rule).\n\n*Deutsch:* sollen = jemand anders sagt/empfiehlt es (Arzt, Chef, Regel).\n\n## Pattern\n\nSubjekt + **soll** + … + **Infinitiv**",
+      "examples": [
+        {
+          "learning": "Der Arzt sagt, ich soll mehr Wasser trinken.",
+          "known": "The doctor says I should drink more water."
+        },
+        {
+          "learning": "Soll ich dir helfen?",
+          "known": "Shall I help you?"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u31-l11-modal-p2-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "The doctor says I should drink more water.",
+      "tiles": [
+        "Der",
+        "trinken",
+        "Wasser",
+        "noch",
+        "mehr",
+        "Du",
+        "Arzt",
+        "ich",
+        "sagt",
+        "Freitag",
+        "soll"
+      ],
+      "answers": [
+        "Der Arzt sagt, ich soll mehr Wasser trinken."
+      ],
+      "explanation": "**Why:** Advice from the doctor → sollen.\n\n*Warum:* Rat vom Arzt → sollen."
+    },
+    {
+      "id": "tb1-u31-l11-modal-p2-ex09",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Shall I help you?",
+      "tiles": [
+        "→",
+        "dir",
+        "das",
+        "Hier",
+        "helfen",
+        "ich",
+        "Soll"
+      ],
+      "answers": [
+        "Soll ich dir helfen?"
+      ],
+      "explanation": "**Why:** Offer: Soll ich …?\n\n*Warum:* Angebot: Soll ich …?"
+    },
+    {
+      "id": "tb1-u31-l11-modal-p2-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "We're supposed to be at the office at eight.",
+      "tiles": [
+        "im",
+        "ich",
+        "acht",
+        "Wir",
+        "Büro",
+        "kostenlos",
+        "sollen",
+        "sein",
+        "früh",
+        "Uhr",
+        "um"
+      ],
+      "answers": [
+        "Wir sollen um acht Uhr im Büro sein."
+      ],
+      "explanation": "**Why:** Instruction from the boss.\n\n*Warum:* Auftrag vom Chef."
+    },
+    {
+      "id": "tb1-u31-l11-modal-p2-ex11",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "You're supposed to call your mother.",
+      "tiles": [
+        "deine",
+        "anrufen",
+        "Mutter",
+        "ich",
+        "kann",
+        "Du",
+        "sollst",
+        "Wir"
+      ],
+      "answers": [
+        "Du sollst deine Mutter anrufen."
+      ],
+      "explanation": "**Why:** Passing on a message.\n\n*Warum:* Nachricht weitergeben."
+    },
+    {
+      "id": "tb1-u31-l11-modal-p2-ex12",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "What should I bring?",
+      "tiles": [
+        "ich",
+        "muss",
+        "Der",
+        "soll",
+        "Was",
+        "mitbringen",
+        "Du"
+      ],
+      "answers": [
+        "Was soll ich mitbringen?"
+      ],
+      "explanation": "**Why:** Asking what someone wants.\n\n*Warum:* Frage nach einem Wunsch."
+    },
+    {
+      "id": "tb1-u31-l11-modal-p2-ex13",
+      "type": "choice",
+      "title": "Fill the gap",
+      "prompt": "Ich ___ gern einen Termin vereinbaren.",
+      "options": [
+        {
+          "id": "a",
+          "text": "möchte"
+        },
+        {
+          "id": "b",
+          "text": "will"
+        },
+        {
+          "id": "c",
+          "text": "mag"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Höflicher Wunsch am Telefon/im Brief: ich möchte … (will klingt zu hart)"
+    },
+    {
+      "id": "tb1-u31-l11-modal-p2-ex14",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Word order: put all the words in the correct order.",
+      "tiles": [
+        "Ich",
+        "vereinbaren",
+        "möchte",
+        "einen",
+        "Termin"
+      ],
+      "answers": [
+        "Ich möchte einen Termin vereinbaren"
+      ],
+      "explanation": "Modalverb Position 2, Infinitiv am Ende: Ich möchte … vereinbaren."
+    }
+  ]
+}

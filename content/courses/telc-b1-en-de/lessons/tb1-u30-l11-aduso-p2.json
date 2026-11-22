@@ -1,0 +1,299 @@
+{
+  "id": "tb1-u30-l11-aduso-p2",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u30",
+  "title": "Connectors: aber/denn vs. deshalb/trotzdem: sondern & deshalb / deswegen",
+  "tip": "“…deshalb ich bin geblieben” is wrong, after deshalb/trotzdem the verb comes first.",
+  "exercises": [
+    {
+      "id": "tb1-u30-l11-aduso-p2-ex01",
+      "type": "explain",
+      "title": "sondern · Korrektur nach nicht/kein",
+      "body": "sondern corrects a negation: not A, but (rather) B.\n\n*Deutsch:* sondern korrigiert eine Verneinung: nicht A, sondern B.\n\n## Pattern\n\n… **nicht/kein** A, **sondern** B.",
+      "examples": [
+        {
+          "learning": "Ich komme nicht aus Polen, sondern aus Tschechien.",
+          "known": "I'm not from Poland but from the Czech Republic."
+        },
+        {
+          "learning": "Das ist kein Tee, sondern Kaffee.",
+          "known": "That's not tea, it's coffee."
+        }
+      ]
+    },
+    {
+      "id": "tb1-u30-l11-aduso-p2-ex02",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I'm not from Poland but from the Czech Republic.",
+      "tiles": [
+        "komme",
+        "nicht",
+        "Zeit",
+        "sondern",
+        "Tschechien",
+        "gut",
+        "Polen",
+        "aus",
+        "aus",
+        "Ich",
+        "an"
+      ],
+      "answers": [
+        "Ich komme nicht aus Polen, sondern aus Tschechien."
+      ],
+      "explanation": "**Why:** First nicht, then the correction with sondern.\n\n*Warum:* Erst nicht, dann die Korrektur mit sondern."
+    },
+    {
+      "id": "tb1-u30-l11-aduso-p2-ex03",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "That's not tea, it's coffee.",
+      "tiles": [
+        "Tee",
+        "ist",
+        "nicht",
+        "ich",
+        "sondern",
+        "Das",
+        "kein",
+        "Kaffee",
+        "sie"
+      ],
+      "answers": [
+        "Das ist kein Tee, sondern Kaffee."
+      ],
+      "explanation": "**Why:** After kein also sondern.\n\n*Warum:* Nach kein ebenfalls sondern."
+    },
+    {
+      "id": "tb1-u30-l11-aduso-p2-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "We're not going by car, we're taking the train.",
+      "tiles": [
+        "ihn",
+        "bin",
+        "dem",
+        "wir",
+        "Wir",
+        "nicht",
+        "nehmen",
+        "aber",
+        "fahren",
+        "sondern",
+        "mit",
+        "den",
+        "Zug",
+        "Auto"
+      ],
+      "answers": [
+        "Wir fahren nicht mit dem Auto, sondern wir nehmen den Zug."
+      ],
+      "explanation": "**Why:** sondern + full clause: normal word order.\n\n*Warum:* sondern + ganzer Satz: normale Wortstellung."
+    },
+    {
+      "id": "tb1-u30-l11-aduso-p2-ex05",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "The appointment isn't on Monday but on Tuesday.",
+      "tiles": [
+        "am",
+        "sondern",
+        "nicht",
+        "Der",
+        "Dienstag",
+        "zeigen",
+        "am",
+        "Termin",
+        "ist",
+        "Montag",
+        "Tschechien",
+        "Ich"
+      ],
+      "answers": [
+        "Der Termin ist nicht am Montag, sondern am Dienstag."
+      ],
+      "explanation": "**Why:** Typical in listening: not Monday, but Tuesday.\n\n*Warum:* Typisch in Hören: nicht Montag, sondern Dienstag."
+    },
+    {
+      "id": "tb1-u30-l11-aduso-p2-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "He didn't call; he wrote an email instead.",
+      "tiles": [
+        "nicht",
+        "Es",
+        "sondern",
+        "Er",
+        "geschrieben",
+        "Ich",
+        "eine",
+        "sonst",
+        "E-Mail",
+        "hat",
+        "angerufen"
+      ],
+      "answers": [
+        "Er hat nicht angerufen, sondern eine E-Mail geschrieben."
+      ],
+      "explanation": "**Why:** The shared hat isn't repeated.\n\n*Warum:* Gemeinsames hat wird nicht wiederholt."
+    },
+    {
+      "id": "tb1-u30-l11-aduso-p2-ex07",
+      "type": "explain",
+      "title": "deshalb / deswegen · Folge (Position 1)",
+      "body": "deshalb = therefore, as a result. It takes position 1 → the verb comes immediately.\n\n*Deutsch:* deshalb = darum, als Folge. Es besetzt Position 1 → das Verb kommt sofort.\n\n## Pattern\n\nHauptsatz. **Deshalb** + **Verb** + Subjekt + …",
+      "examples": [
+        {
+          "learning": "Ich bin krank. Deshalb bleibe ich zu Hause.",
+          "known": "I'm ill. That's why I'm staying at home."
+        },
+        {
+          "learning": "Es regnet, deshalb nehmen wir den Bus.",
+          "known": "It's raining, so we're taking the bus."
+        }
+      ]
+    },
+    {
+      "id": "tb1-u30-l11-aduso-p2-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I'm ill. That's why I'm staying at home.",
+      "tiles": [
+        "ich",
+        "Hause",
+        "Deshalb",
+        "bleibe",
+        "Ich",
+        "war",
+        "bin",
+        "es",
+        "krank",
+        "zu",
+        "angerufen"
+      ],
+      "answers": [
+        "Ich bin krank. Deshalb bleibe ich zu Hause."
+      ],
+      "explanation": "**Why:** Deshalb – bleibe – ich (inversion).\n\n*Warum:* Deshalb – bleibe – ich (Inversion)."
+    },
+    {
+      "id": "tb1-u30-l11-aduso-p2-ex09",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "It's raining, so we're taking the bus.",
+      "tiles": [
+        "zu",
+        "den",
+        "Ich",
+        "nehmen",
+        "regnet",
+        "ist",
+        "Bus",
+        "deshalb",
+        "wir",
+        "Es"
+      ],
+      "answers": [
+        "Es regnet, deshalb nehmen wir den Bus."
+      ],
+      "explanation": "**Why:** Also after a comma: deshalb + verb.\n\n*Warum:* Auch nach Komma: deshalb + Verb."
+    },
+    {
+      "id": "tb1-u30-l11-aduso-p2-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "The train was late, so I arrived late.",
+      "tiles": [
+        "Verspätung",
+        "deswegen",
+        "aber",
+        "spät",
+        "gekommen",
+        "keine",
+        "zu",
+        "ich",
+        "bin",
+        "Der",
+        "Zug",
+        "brauchen",
+        "hatte"
+      ],
+      "answers": [
+        "Der Zug hatte Verspätung, deswegen bin ich zu spät gekommen."
+      ],
+      "explanation": "**Why:** deswegen = deshalb; bin … gekommen.\n\n*Warum:* deswegen = deshalb; bin … gekommen."
+    },
+    {
+      "id": "tb1-u30-l11-aduso-p2-ex11",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I want to study in Germany. That's why I'm learning German.",
+      "tiles": [
+        "vergisst",
+        "ich",
+        "Brot",
+        "möchte",
+        "Deshalb",
+        "lerne",
+        "Ich",
+        "Deutschland",
+        "denn",
+        "in",
+        "studieren",
+        "Deutsch"
+      ],
+      "answers": [
+        "Ich möchte in Deutschland studieren. Deshalb lerne ich Deutsch."
+      ],
+      "explanation": "**Why:** Compare: …, weil ich in Deutschland studieren möchte.\n\n*Warum:* Vergleiche: …, weil ich in Deutschland studieren möchte."
+    },
+    {
+      "id": "tb1-u30-l11-aduso-p2-ex12",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "My phone was broken, so I couldn't call you.",
+      "tiles": [
+        "Wohnung",
+        "dich",
+        "konnte",
+        "kaputt",
+        "war",
+        "ich",
+        "deshalb",
+        "Handy",
+        "aber",
+        "Mein",
+        "Bus",
+        "nicht",
+        "anrufen"
+      ],
+      "answers": [
+        "Mein Handy war kaputt, deshalb konnte ich dich nicht anrufen."
+      ],
+      "explanation": "**Why:** Past modal right after deshalb.\n\n*Warum:* Modalverb im Präteritum direkt nach deshalb."
+    },
+    {
+      "id": "tb1-u30-l11-aduso-p2-ex13",
+      "type": "choice",
+      "title": "Fill the gap",
+      "prompt": "Er lernt viel, ___ er will die Prüfung gut bestehen.",
+      "options": [
+        {
+          "id": "a",
+          "text": "denn"
+        },
+        {
+          "id": "b",
+          "text": "weil"
+        },
+        {
+          "id": "c",
+          "text": "deshalb"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "„er will“ = normale Wortstellung → denn. Bei weil müsste es heißen: … weil er bestehen will."
+    }
+  ]
+}

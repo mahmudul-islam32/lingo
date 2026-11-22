@@ -1,0 +1,129 @@
+{
+  "id": "tb1-u30-l14-zweiteilig-rule",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u30",
+  "title": "Two-Part Connectors: the rule",
+  "tip": "Never add “nicht” to “weder … noch”: Ich habe weder Zeit noch Geld. And after “nicht nur” comes “sondern auch”, not “aber auch”.",
+  "exercises": [
+    {
+      "id": "tb1-u30-l14-zweiteilig-rule-ex01",
+      "type": "explain",
+      "title": "Two-Part Connectors",
+      "body": "**nicht nur … sondern auch** (not only … but also) · **sowohl … als auch** (both … and) · **entweder … oder** (either … or) · **weder … noch** (neither … nor. WITHOUT an extra “nicht”!) · **zwar … aber** (admittedly … but) · **je** + comparative, **desto** + comparative.\n\n*Deutsch:* **nicht nur … sondern auch** · **sowohl … als auch** (= und) · **entweder … oder** (Wahl) · **weder … noch** (doppelt negativ, OHNE „nicht“!) · **zwar … aber** (Zugeständnis) · **je** + Komparativ, **desto** + Komparativ.\n\n*German name:* Zweiteilige Konnektoren",
+      "examples": [
+        {
+          "learning": "Er spricht nicht nur Deutsch, sondern auch Englisch.",
+          "known": "not only … but also"
+        },
+        {
+          "learning": "Je mehr ich übe, desto sicherer werde ich.",
+          "known": "The more I practise, the more confident I get."
+        },
+        {
+          "learning": "Wir fahren entweder ans Meer oder in die Berge.",
+          "known": "either to the sea or to the mountains"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u30-l14-zweiteilig-rule-ex02",
+      "type": "explain",
+      "title": "Two-Part Connectors: step by step",
+      "body": "The 6 pairs with their logic:\n• **nicht nur … sondern auch** = A and B (both positive, B is a plus).\n• **sowohl … als auch** = A and B equally.\n• **entweder … oder** = A or B, you must choose.\n• **weder … noch** = not A and not B, never add another “nicht”!\n• **zwar … aber** = A is true, but B matters more.\n• **je …, desto …** = two comparatives; the je-clause is subordinate (verb at end), the desto-clause inverts: Je mehr ich übe, desto besser **werde ich**.\nTest trick: telc almost always gives you one half, you only find its partner.\n\n## Auf Deutsch\n\nDie 6 Paare mit Logik:\n• **nicht nur … sondern auch** = A und B (beide positiv, B überrascht).\n• **sowohl … als auch** = A und B gleichwertig.\n• **entweder … oder** = A oder B, du musst wählen.\n• **weder … noch** = nicht A und nicht B, nie ein extra „nicht“ dazu!\n• **zwar … aber** = A stimmt, aber B ist wichtiger.\n• **je …, desto …** = zwei Komparative; je-Satz ist Nebensatz (Verb Ende), desto-Satz mit Inversion: Je mehr ich übe, desto besser **werde ich**.\nTest-Trick: telc gibt dir fast immer eine Hälfte, du suchst nur den Partner.",
+      "examples": [
+        {
+          "learning": "Er spricht nicht nur Deutsch, sondern auch Englisch.",
+          "known": "not only … but also"
+        },
+        {
+          "learning": "Je mehr ich übe, desto sicherer werde ich.",
+          "known": "The more I practise, the more confident I get."
+        },
+        {
+          "learning": "Wir fahren entweder ans Meer oder in die Berge.",
+          "known": "either to the sea or to the mountains"
+        },
+        {
+          "learning": "Ich habe weder Zeit noch Lust.",
+          "known": "I have neither time nor desire. (no extra nicht!)"
+        },
+        {
+          "learning": "Testlücke-Stil: „Sowohl der Kurs ___ auch das Buch gefallen mir.“ → als",
+          "known": "telc gives „sowohl“, you supply „als“"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u30-l14-zweiteilig-rule-ex03",
+      "type": "explain",
+      "title": "Watch out & exam tip",
+      "body": "## Common trap\n\nNever add “nicht” to “weder … noch”: Ich habe weder Zeit noch Geld. And after “nicht nur” comes “sondern auch”, not “aber auch”.\n\n*Deutsch:* „weder … noch“ nie mit extra „nicht“: Ich habe weder Zeit noch Geld. Und: nach „nicht nur“ kommt „sondern auch“, nicht „aber auch“.\n\n## In the exam\n\n🎯 How telc tests it: standard gap in **Sprachbausteine part 1**: one half is in the text, the other is the gap (…nicht nur, ___ auch → sondern). In **speaking part 2**, “sowohl … als auch” instantly sounds B1-level.\n\n*Deutsch:* 🎯 So testet telc das: Standard-Lücke in **Sprachbausteine Teil 1**: eine Hälfte steht im Text, die andere ist die Lücke (…nicht nur, ___ auch → sondern). Im **Sprechen Teil 2** klingt „sowohl … als auch“ sofort nach B1-Niveau.\n\n*Source:* Guide B6 · PDF „2teilige Konnektoren“"
+    },
+    {
+      "id": "tb1-u30-l14-zweiteilig-rule-ex04",
+      "type": "choice",
+      "title": "Fill the gap",
+      "prompt": "Er spricht nicht nur Deutsch, ___ auch Spanisch.",
+      "options": [
+        {
+          "id": "a",
+          "text": "aber"
+        },
+        {
+          "id": "b",
+          "text": "und"
+        },
+        {
+          "id": "c",
+          "text": "sondern"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Das Paar heißt: nicht nur … sondern auch."
+    },
+    {
+      "id": "tb1-u30-l14-zweiteilig-rule-ex05",
+      "type": "choice",
+      "title": "Fill the gap",
+      "prompt": "Ich habe ___ Zeit noch Lust auf die Party.",
+      "options": [
+        {
+          "id": "a",
+          "text": "weder"
+        },
+        {
+          "id": "b",
+          "text": "sowohl"
+        },
+        {
+          "id": "c",
+          "text": "entweder"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "weder … noch = doppelte Verneinung (kein extra „nicht“ nötig)."
+    },
+    {
+      "id": "tb1-u30-l14-zweiteilig-rule-ex06",
+      "type": "choice",
+      "title": "Fill the gap",
+      "prompt": "___ mehr ich übe, desto besser werde ich.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Wie"
+        },
+        {
+          "id": "b",
+          "text": "Je"
+        },
+        {
+          "id": "c",
+          "text": "Als"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "je + Komparativ …, desto + Komparativ … (fester Ausdruck)."
+    }
+  ]
+}

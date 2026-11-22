@@ -1,0 +1,237 @@
+{
+  "id": "tb1-u29-l16-asking-clarifying-2",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u29",
+  "title": "Asking & Clarifying 2",
+  "tip": "Theme: Redemittel: Nachfragen & Klären (B1)",
+  "exercises": [
+    {
+      "id": "tb1-u29-l16-asking-clarifying-2-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "Was bedeutet das Wort …?",
+          "known": "What does the word … mean?"
+        },
+        {
+          "id": "p2",
+          "learning": "Habe ich das richtig verstanden, dass …?",
+          "known": "Did I understand correctly that …?"
+        },
+        {
+          "id": "p3",
+          "learning": "Du meinst also, dass …",
+          "known": "So you mean that …"
+        },
+        {
+          "id": "p4",
+          "learning": "Darf ich kurz nachfragen?",
+          "known": "May I quickly ask a follow-up question?"
+        },
+        {
+          "id": "p5",
+          "learning": "Was meinst du damit?",
+          "known": "What do you mean by that?"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u29-l16-asking-clarifying-2-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which phrase means „What does the word … mean?“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Was bedeutet das Wort …?"
+        },
+        {
+          "id": "b",
+          "text": "Ich bin mir nicht sicher, aber ich glaube …"
+        },
+        {
+          "id": "c",
+          "text": "Darf ich kurz nachfragen?"
+        },
+        {
+          "id": "d",
+          "text": "Du meinst also, dass …"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Was bedeutet das Wort …?** = What does the word … mean?\n\n*Example:* Was bedeutet das Wort „Nebenkosten“ in meinem Mietvertrag?\nWhat does the word \"Nebenkosten\" in my rental contract mean?"
+    },
+    {
+      "id": "tb1-u29-l16-asking-clarifying-2-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which phrase means „Did I understand correctly that …?“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Kein Problem, das macht nichts."
+        },
+        {
+          "id": "b",
+          "text": "Ich habe das leider nicht verstanden."
+        },
+        {
+          "id": "c",
+          "text": "Habe ich das richtig verstanden, dass …?"
+        },
+        {
+          "id": "d",
+          "text": "Darf ich kurz nachfragen?"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**Habe ich das richtig verstanden, dass …?** = Did I understand correctly that …?\n\n*Example:* Habe ich das richtig verstanden, dass der Kurs morgen ausfällt?\nDid I understand correctly that the course is cancelled tomorrow?"
+    },
+    {
+      "id": "tb1-u29-l16-asking-clarifying-2-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "What does the word \"Nebenkosten\" in my rental contract mean?",
+      "tiles": [
+        "bedeutet",
+        "in",
+        "Mietvertrag",
+        "genau",
+        "das",
+        "Was",
+        "du",
+        "bitte",
+        "Nebenkosten",
+        "meinem",
+        "Wort"
+      ],
+      "answers": [
+        "Was bedeutet das Wort „Nebenkosten“ in meinem Mietvertrag?"
+      ],
+      "explanation": "**Was bedeutet das Wort …?** = What does the word … mean?"
+    },
+    {
+      "id": "tb1-u29-l16-asking-clarifying-2-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which phrase means „So you mean that …“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Was bedeutet das Wort …?"
+        },
+        {
+          "id": "b",
+          "text": "Wie bitte? Können Sie das bitte wiederholen?"
+        },
+        {
+          "id": "c",
+          "text": "Du meinst also, dass …"
+        },
+        {
+          "id": "d",
+          "text": "Ich habe das leider nicht verstanden."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**Du meinst also, dass …** = So you mean that …\n\n*Example:* Du meinst also, dass wir lieber mit dem Zug fahren sollen?\nSo you mean that we'd better go by train?"
+    },
+    {
+      "id": "tb1-u29-l16-asking-clarifying-2-ex06",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u29-l16-asking-clarifying-2-2.mp3"
+      },
+      "tiles": [
+        "Habe",
+        "die",
+        "der",
+        "dass",
+        "Kundennummer",
+        "morgen",
+        "ich",
+        "das",
+        "richtig",
+        "verstanden",
+        "ausfällt",
+        "Kurs",
+        "nichts"
+      ],
+      "answers": [
+        "Habe ich das richtig verstanden, dass der Kurs morgen ausfällt?"
+      ],
+      "explanation": "Habe ich das richtig verstanden, dass der Kurs morgen ausfällt?\n*Did I understand correctly that the course is cancelled tomorrow?*\n\n**Habe ich das richtig verstanden, dass …?** = Did I understand correctly that …?"
+    },
+    {
+      "id": "tb1-u29-l16-asking-clarifying-2-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which phrase means „May I quickly ask a follow-up question?“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Du meinst also, dass …"
+        },
+        {
+          "id": "b",
+          "text": "Habe ich das richtig verstanden, dass …?"
+        },
+        {
+          "id": "c",
+          "text": "Darf ich kurz nachfragen?"
+        },
+        {
+          "id": "d",
+          "text": "Was bedeutet das Wort …?"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**Darf ich kurz nachfragen?** = May I quickly ask a follow-up question?\n\n*Example:* Darf ich kurz nachfragen? Wann genau beginnt die Schicht?\nMay I quickly ask a follow-up question? When exactly does the shift start?"
+    },
+    {
+      "id": "tb1-u29-l16-asking-clarifying-2-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Du meinst also, dass wir lieber mit dem Zug fahren sollen?",
+      "tiles": [
+        "train",
+        "by",
+        "No",
+        "German",
+        "that",
+        "So",
+        "you",
+        "the",
+        "better",
+        "go",
+        "we'd",
+        "mean"
+      ],
+      "answers": [
+        "So you mean that we'd better go by train?"
+      ],
+      "explanation": "**Du meinst also, dass …** = So you mean that …"
+    },
+    {
+      "id": "tb1-u29-l16-asking-clarifying-2-ex09",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "May I quickly ask a follow-up question? When exactly does the shift start?",
+      "tiles": [
+        "Wort",
+        "nachfragen",
+        "Schicht",
+        "die",
+        "fährt",
+        "genau",
+        "beginnt",
+        "Wann",
+        "nicht",
+        "kurz",
+        "ich",
+        "Darf"
+      ],
+      "answers": [
+        "Darf ich kurz nachfragen? Wann genau beginnt die Schicht?"
+      ],
+      "explanation": "**Darf ich kurz nachfragen?** = May I quickly ask a follow-up question?"
+    }
+  ]
+}

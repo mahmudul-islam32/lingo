@@ -1,0 +1,227 @@
+{
+  "id": "tb1-u26-l05-little-words-adverbs-5",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u26",
+  "title": "Little Words & Adverbs 5",
+  "tip": "Theme: Kleine Wörter & Adverbien (B1)",
+  "exercises": [
+    {
+      "id": "tb1-u26-l05-little-words-adverbs-5-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "vorbei",
+          "known": "over / past"
+        },
+        {
+          "id": "p2",
+          "learning": "wegen",
+          "known": "because of"
+        },
+        {
+          "id": "p3",
+          "learning": "außerhalb",
+          "known": "outside of"
+        },
+        {
+          "id": "p4",
+          "learning": "innerhalb",
+          "known": "within"
+        },
+        {
+          "id": "p5",
+          "learning": "sogar",
+          "known": "even"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u26-l05-little-words-adverbs-5-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which one means „over / past“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "womit"
+        },
+        {
+          "id": "b",
+          "text": "allein"
+        },
+        {
+          "id": "c",
+          "text": "wegen + Gen."
+        },
+        {
+          "id": "d",
+          "text": "vorbei"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**vorbei** = over / past\n\n*Example:* Der Sommer ist leider schon vorbei.\nUnfortunately the summer is already over."
+    },
+    {
+      "id": "tb1-u26-l05-little-words-adverbs-5-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which one means „because of“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "wegen + Gen."
+        },
+        {
+          "id": "b",
+          "text": "außerhalb + Gen."
+        },
+        {
+          "id": "c",
+          "text": "sonst"
+        },
+        {
+          "id": "d",
+          "text": "womit"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**wegen + Gen.** = because of\n\n*Example:* Wegen des Streiks fährt heute kein Bus.\nBecause of the strike there are no buses today."
+    },
+    {
+      "id": "tb1-u26-l05-little-words-adverbs-5-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Der Sommer ist leider schon vorbei.",
+      "tiles": [
+        "week",
+        "about",
+        "over",
+        "the",
+        "already",
+        "is",
+        "Unfortunately",
+        "I",
+        "summer"
+      ],
+      "answers": [
+        "Unfortunately the summer is already over."
+      ],
+      "explanation": "**vorbei** = over / past"
+    },
+    {
+      "id": "tb1-u26-l05-little-words-adverbs-5-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which one means „outside of“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "kaum"
+        },
+        {
+          "id": "b",
+          "text": "sonst"
+        },
+        {
+          "id": "c",
+          "text": "jeweils"
+        },
+        {
+          "id": "d",
+          "text": "außerhalb + Gen."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**außerhalb + Gen.** = outside of\n\n*Example:* Unser Haus liegt außerhalb der Stadt.\nOur house is outside the city."
+    },
+    {
+      "id": "tb1-u26-l05-little-words-adverbs-5-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Because of the strike there are no buses today.",
+      "tiles": [
+        "fährt",
+        "heute",
+        "habe",
+        "Streiks",
+        "Sommer",
+        "kein",
+        "Wegen",
+        "den",
+        "Bus",
+        "des"
+      ],
+      "answers": [
+        "Wegen des Streiks fährt heute kein Bus."
+      ],
+      "explanation": "**wegen + Gen.** = because of"
+    },
+    {
+      "id": "tb1-u26-l05-little-words-adverbs-5-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which one means „within“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "allein"
+        },
+        {
+          "id": "b",
+          "text": "innerhalb + Gen."
+        },
+        {
+          "id": "c",
+          "text": "außerhalb + Gen."
+        },
+        {
+          "id": "d",
+          "text": "vorbei"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**innerhalb + Gen.** = within\n\n*Example:* Bitte bezahlen Sie die Rechnung innerhalb einer Woche.\nPlease pay the bill within one week."
+    },
+    {
+      "id": "tb1-u26-l05-little-words-adverbs-5-ex08",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u26-l05-little-words-adverbs-5-3.mp3"
+      },
+      "tiles": [
+        "Haus",
+        "das",
+        "Stadt",
+        "der",
+        "außerhalb",
+        "Familie",
+        "Die",
+        "Unser",
+        "liegt"
+      ],
+      "answers": [
+        "Unser Haus liegt außerhalb der Stadt."
+      ],
+      "explanation": "Unser Haus liegt außerhalb der Stadt.\n*Our house is outside the city.*\n\n**außerhalb + Gen.** = outside of"
+    },
+    {
+      "id": "tb1-u26-l05-little-words-adverbs-5-ex09",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Bitte bezahlen Sie die Rechnung innerhalb einer Woche.",
+      "tiles": [
+        "one",
+        "Please",
+        "How",
+        "do",
+        "within",
+        "week",
+        "pay",
+        "bill",
+        "buses",
+        "the"
+      ],
+      "answers": [
+        "Please pay the bill within one week."
+      ],
+      "explanation": "**innerhalb + Gen.** = within"
+    }
+  ]
+}

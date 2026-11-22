@@ -1,0 +1,230 @@
+{
+  "id": "tb1-u63-l04-sentence-upgrade-2",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u63",
+  "title": "Sentence upgrade 2",
+  "exercises": [
+    {
+      "id": "tb1-u63-l04-sentence-upgrade-2-ex01",
+      "type": "explain",
+      "title": "Sentence upgrade (Satz-Upgrade)",
+      "body": "Start with a simple sentence and improve it step by step. Try each step yourself, then compare with the model.\n\nTurn an A2 sentence into a B1 one: **1.** add a connector (weil/deshalb). **2.** make it a subordinate clause. **3.** add an opinion frame (Ich finde, dass …). **4.** insert a Redemittel chunk. **5.** vary the start (begin with time/place → inversion)."
+    },
+    {
+      "id": "tb1-u63-l04-sentence-upgrade-2-ex02",
+      "type": "task",
+      "skill": "writing",
+      "title": "Satz-Upgrade: Einladung annehmen",
+      "task": "Start sentence (Ausgangssatz): **Ich komme zu deiner Party.**\n\nImprove it step by step, one step at a time.",
+      "points": [
+        "Schritt 1: Zeig Freude (Ich freue mich …).",
+        "Schritt 2: Nenn eine kleine Einschränkung mit „allerdings/aber“."
+      ],
+      "modelAnswer": "**Schritt 1:** Zeig Freude (Ich freue mich …).\nIch freue mich sehr über deine Einladung und komme gern.\n\n**Schritt 2:** Nenn eine kleine Einschränkung mit „allerdings/aber“.\nIch komme sehr gern zu deiner Party, allerdings muss ich bis 15 Uhr arbeiten.\n\nHöflichkeit + eine realistische Einschränkung, typisch für den informellen Brief."
+    },
+    {
+      "id": "tb1-u63-l04-sentence-upgrade-2-ex03",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/w-upgrade-5.mp3"
+      },
+      "tiles": [
+        "wenn",
+        "komme",
+        "gern",
+        "ich",
+        "arbeiten",
+        "Uhr",
+        "zu",
+        "Party",
+        "Ich",
+        "muss",
+        "bis",
+        "allerdings",
+        "weil",
+        "sehr",
+        "deiner",
+        "15",
+        "denn"
+      ],
+      "answers": [
+        "Ich komme sehr gern zu deiner Party, allerdings muss ich bis 15 Uhr arbeiten."
+      ],
+      "explanation": "Höflichkeit + eine realistische Einschränkung, typisch für den informellen Brief."
+    },
+    {
+      "id": "tb1-u63-l04-sentence-upgrade-2-ex04",
+      "type": "task",
+      "skill": "writing",
+      "title": "Satz-Upgrade: Absage höflich",
+      "task": "Start sentence (Ausgangssatz): **Ich kann nicht kommen.**\n\nImprove it step by step, one step at a time.",
+      "points": [
+        "Schritt 1: Beginne höflich mit „Leider …“.",
+        "Schritt 2: Gib einen Grund mit „weil“.",
+        "Schritt 3: Schlag eine Alternative vor (Vielleicht können wir …)."
+      ],
+      "modelAnswer": "**Schritt 1:** Beginne höflich mit „Leider …“.\nLeider kann ich am Samstag nicht kommen.\n\n**Schritt 2:** Gib einen Grund mit „weil“.\nLeider kann ich am Samstag nicht kommen, weil ich arbeiten muss.\n\n**Schritt 3:** Schlag eine Alternative vor (Vielleicht können wir …).\nLeider kann ich am Samstag nicht kommen, weil ich arbeiten muss. Vielleicht können wir uns nächste Woche treffen?\n\nAbsage = Leider + Grund + Alternative. So bleibt es freundlich."
+    },
+    {
+      "id": "tb1-u63-l04-sentence-upgrade-2-ex05",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/w-upgrade-6.mp3"
+      },
+      "tiles": [
+        "trotzdem",
+        "kann",
+        "treffen",
+        "können",
+        "Samstag",
+        "ich",
+        "nicht",
+        "kommen",
+        "arbeiten",
+        "obwohl",
+        "dass",
+        "wir",
+        "Woche",
+        "am",
+        "Vielleicht",
+        "weil",
+        "nächste",
+        "muss",
+        "uns",
+        "ich",
+        "Leider"
+      ],
+      "answers": [
+        "Leider kann ich am Samstag nicht kommen, weil ich arbeiten muss. Vielleicht können wir uns nächste Woche treffen?"
+      ],
+      "explanation": "Absage = Leider + Grund + Alternative. So bleibt es freundlich."
+    },
+    {
+      "id": "tb1-u63-l04-sentence-upgrade-2-ex06",
+      "type": "task",
+      "skill": "writing",
+      "title": "Satz-Upgrade: Bitte an ein Amt",
+      "task": "Start sentence (Ausgangssatz): **Schicken Sie mir die Informationen.**\n\nImprove it step by step, one step at a time.",
+      "points": [
+        "Schritt 1: Mach es höflich mit Konjunktiv II (Könnten Sie …?).",
+        "Schritt 2: Nenn davor kurz den Grund (Ich schreibe Ihnen, weil …)."
+      ],
+      "modelAnswer": "**Schritt 1:** Mach es höflich mit Konjunktiv II (Könnten Sie …?).\nKönnten Sie mir bitte die Informationen schicken?\n\n**Schritt 2:** Nenn davor kurz den Grund (Ich schreibe Ihnen, weil …).\nIch schreibe Ihnen, weil ich mich für den Kurs interessiere. Könnten Sie mir bitte die Informationen schicken?\n\nFormelle Bitte = Grund + Konjunktiv-II-Frage. Nie einfach „Schicken Sie …“."
+    },
+    {
+      "id": "tb1-u63-l04-sentence-upgrade-2-ex07",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/w-upgrade-7.mp3"
+      },
+      "tiles": [
+        "schreibe",
+        "die",
+        "Könnten",
+        "Kurs",
+        "Sie",
+        "Informationen",
+        "damit",
+        "Ihnen",
+        "den",
+        "für",
+        "Ich",
+        "interessiere",
+        "ich",
+        "mir",
+        "trotzdem",
+        "bitte",
+        "dass",
+        "mich",
+        "weil",
+        "schicken"
+      ],
+      "answers": [
+        "Ich schreibe Ihnen, weil ich mich für den Kurs interessiere. Könnten Sie mir bitte die Informationen schicken?"
+      ],
+      "explanation": "Formelle Bitte = Grund + Konjunktiv-II-Frage. Nie einfach „Schicken Sie …“."
+    },
+    {
+      "id": "tb1-u63-l04-sentence-upgrade-2-ex08",
+      "type": "task",
+      "skill": "writing",
+      "title": "Satz-Upgrade: Vergleich Heimat–Deutschland",
+      "task": "Start sentence (Ausgangssatz): **In meiner Heimat ist es warm.**\n\nImprove it step by step, one step at a time.",
+      "points": [
+        "Schritt 1: Vergleiche mit Deutschland (… als …).",
+        "Schritt 2: Füge einen zweiten Punkt mit „außerdem“ hinzu."
+      ],
+      "modelAnswer": "**Schritt 1:** Vergleiche mit Deutschland (… als …).\nIn meiner Heimat ist es viel wärmer als in Deutschland.\n\n**Schritt 2:** Füge einen zweiten Punkt mit „außerdem“ hinzu.\nIn meiner Heimat ist es wärmer als hier. Außerdem ist das Essen ganz anders.\n\nKomparativ (wärmer als) + ein zweiter Aspekt (außerdem) = ein B1-Vergleich fürs Sprechen."
+    },
+    {
+      "id": "tb1-u63-l04-sentence-upgrade-2-ex09",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/w-upgrade-8.mp3"
+      },
+      "tiles": [
+        "damit",
+        "Heimat",
+        "wenn",
+        "ganz",
+        "es",
+        "anders",
+        "ist",
+        "Außerdem",
+        "In",
+        "meiner",
+        "hier",
+        "als",
+        "wärmer",
+        "deshalb",
+        "Essen",
+        "ist",
+        "das"
+      ],
+      "answers": [
+        "In meiner Heimat ist es wärmer als hier. Außerdem ist das Essen ganz anders."
+      ],
+      "explanation": "Komparativ (wärmer als) + ein zweiter Aspekt (außerdem) = ein B1-Vergleich fürs Sprechen."
+    },
+    {
+      "id": "tb1-u63-l04-sentence-upgrade-2-ex10",
+      "type": "task",
+      "skill": "writing",
+      "title": "Satz-Upgrade: Zukunftsplan",
+      "task": "Start sentence (Ausgangssatz): **Ich mache die Prüfung.**\n\nImprove it step by step, one step at a time.",
+      "points": [
+        "Schritt 1: Setz es in die Zukunft (Ich werde …).",
+        "Schritt 2: Gib mit „damit“ ein Ziel an."
+      ],
+      "modelAnswer": "**Schritt 1:** Setz es in die Zukunft (Ich werde …).\nIm September werde ich die telc-Prüfung machen.\n\n**Schritt 2:** Gib mit „damit“ ein Ziel an.\nIm September werde ich die Prüfung machen, damit ich danach studieren kann.\n\nFutur + Ziel mit „damit“, perfekt für den Leitpunkt „deine Pläne“."
+    },
+    {
+      "id": "tb1-u63-l04-sentence-upgrade-2-ex11",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/w-upgrade-9.mp3"
+      },
+      "tiles": [
+        "Im",
+        "werde",
+        "mache",
+        "dass",
+        "September",
+        "machen",
+        "danach",
+        "wenn",
+        "kann",
+        "damit",
+        "Prüfung",
+        "studieren",
+        "die",
+        "ich",
+        "ich"
+      ],
+      "answers": [
+        "Im September werde ich die Prüfung machen, damit ich danach studieren kann."
+      ],
+      "explanation": "Futur + Ziel mit „damit“, perfekt für den Leitpunkt „deine Pläne“."
+    }
+  ]
+}

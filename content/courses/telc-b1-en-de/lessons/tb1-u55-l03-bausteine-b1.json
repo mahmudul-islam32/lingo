@@ -1,0 +1,325 @@
+{
+  "id": "tb1-u55-l03-bausteine-b1",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u55",
+  "title": "Building blocks: reacting (B1)",
+  "exercises": [
+    {
+      "id": "tb1-u55-l03-bausteine-b1-ex01",
+      "type": "explain",
+      "title": "Building blocks: reacting (B1)",
+      "body": "Each building block (Baustein) is a ready-made sentence with gaps (…). Fill in your own content. A **+** marks a more advanced variant.\n\n**B1a · Vorschlag annehmen** (accept a suggestion)\n\n**B1a2 · Vorschlag annehmen** (accept a suggestion)\n\n**B1b · höflich ablehnen** (politely decline)\n\n**B1c · auf gute Nachricht reagieren** (react to good news)\n\n**B1d · auf schlechte Nachricht reagieren** (react to bad news)\n\n- **B1a**: Deine Idee mit … finde ich super, weil wir … können.\n\n- **B1a2**: Deine Idee mit … finde ich super, weil ich … kann.\n\n- **B1a+**: Deine Idee mit … finde ich super, weil wir dort sowohl … als auch … können.\n\n- **B1b**: Leider passt mir … nicht so gut, denn …. Könnten wir stattdessen …?\n\n- **B1b+**: Obwohl ich mich sehr freue, passt mir … leider nicht so gut. Könnten wir stattdessen …?\n\n- **B1c**: Über … habe ich mich sehr gefreut, das ist wirklich eine tolle Nachricht!\n\n- **B1d**: Es tut mir sehr leid, dass …. Ich hoffe, dass es dir bald wieder besser geht.",
+      "examples": [
+        {
+          "learning": "Deine Idee mit deinem Vorschlag für ein Wochenende finde ich super, weil wir uns dann endlich wiedersehen können.",
+          "known": "B1a · accept a suggestion (letter 3 to Sophie)"
+        },
+        {
+          "learning": "Deine Idee mit dem gemeinsamen Garten finde ich super, weil wir dort zusammen Gemüse anbauen können.",
+          "known": "B1a · accept a suggestion (letter 4 to Nadja)"
+        },
+        {
+          "learning": "Deine Idee mit deiner Bitte finde ich super, weil ich dir bei der Katze und den Blumen gern helfen kann.",
+          "known": "B1a2 · accept a suggestion (letter 18 to Anna)"
+        },
+        {
+          "learning": "Leider passt mir das Übernachten auf dem Festplatz nicht so gut, denn ich brauche nachts wirklich meine Ruhe. Könnten wir stattdessen in einem kleinen Hotel übernachten?",
+          "known": "B1b · politely decline (letter 9 to Sonja)"
+        },
+        {
+          "learning": "Leider passt mir Anfang Juni nicht so gut, denn ich muss in diesem Monat arbeiten. Könnten wir stattdessen im Juli fahren?",
+          "known": "B1b · politely decline (letter 20 to Paul)"
+        },
+        {
+          "learning": "Über deine neue Stelle bei der Zeitschrift VIA habe ich mich sehr gefreut, das ist wirklich eine tolle Nachricht!",
+          "known": "B1c · react to good news (letter 2 to Eva)"
+        },
+        {
+          "learning": "Über deine bestandene Deutschprüfung habe ich mich sehr gefreut, das ist wirklich eine tolle Nachricht!",
+          "known": "B1c · react to good news (letter 8 to Iris)"
+        },
+        {
+          "learning": "Es tut mir sehr leid, dass du dir beim Basketball das Bein gebrochen hast. Ich hoffe, dass es dir bald wieder besser geht.",
+          "known": "B1d · react to bad news (letter 13 to Thomas)"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u55-l03-bausteine-b1-ex02",
+      "type": "choice",
+      "title": "Baustein B1a",
+      "passage": "Deine Idee mit … finde ich super, weil wir … können.",
+      "prompt": "Wofür benutzt man diesen Baustein?",
+      "options": [
+        {
+          "id": "a",
+          "text": "eigene Neuigkeiten (share your own news)"
+        },
+        {
+          "id": "b",
+          "text": "Vorschlag annehmen (accept a suggestion)"
+        },
+        {
+          "id": "c",
+          "text": "jemanden mitbringen (bring someone along)"
+        },
+        {
+          "id": "d",
+          "text": "auf gute Nachricht reagieren (react to good news)"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**B1a** = Vorschlag annehmen (accept a suggestion).\n\nVorlage: Deine Idee mit {0} finde ich super, weil wir {1} können."
+    },
+    {
+      "id": "tb1-u55-l03-bausteine-b1-ex03",
+      "type": "choice",
+      "title": "Baustein B1a · Welches Wort passt in die Lücke?",
+      "prompt": "Deine Idee mit … finde ich super, ___ wir … können.",
+      "options": [
+        {
+          "id": "a",
+          "text": "weil"
+        },
+        {
+          "id": "b",
+          "text": "denn"
+        },
+        {
+          "id": "c",
+          "text": "deshalb"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Full sentence: *Deine Idee mit … finde ich super, weil wir … können.*\n\n**weil (Grund)**: reason; the verb goes to the very end.\n\nHauptsatz, **weil** + Subjekt + … + **Verb ans Ende**.\nBsp: Ich bleibe zu Hause, weil ich müde **bin**."
+    },
+    {
+      "id": "tb1-u55-l03-bausteine-b1-ex04",
+      "type": "choice",
+      "title": "Baustein B1a2",
+      "passage": "Deine Idee mit … finde ich super, weil ich … kann.",
+      "prompt": "Wofür benutzt man diesen Baustein?",
+      "options": [
+        {
+          "id": "a",
+          "text": "jemanden mitbringen (bring someone along)"
+        },
+        {
+          "id": "b",
+          "text": "auf gute Nachricht reagieren (react to good news)"
+        },
+        {
+          "id": "c",
+          "text": "Vorschlag annehmen (accept a suggestion)"
+        },
+        {
+          "id": "d",
+          "text": "Vorschlag machen (make a suggestion)"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**B1a2** = Vorschlag annehmen (accept a suggestion).\n\nVorlage: Deine Idee mit {0} finde ich super, weil ich {1} kann."
+    },
+    {
+      "id": "tb1-u55-l03-bausteine-b1-ex05",
+      "type": "choice",
+      "title": "Baustein B1a2 · Welches Wort passt in die Lücke?",
+      "prompt": "Deine Idee mit … finde ich super, ___ ich … kann.",
+      "options": [
+        {
+          "id": "a",
+          "text": "weil"
+        },
+        {
+          "id": "b",
+          "text": "deshalb"
+        },
+        {
+          "id": "c",
+          "text": "denn"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Full sentence: *Deine Idee mit … finde ich super, weil ich … kann.*\n\n**weil (Grund)**: reason; the verb goes to the very end.\n\nHauptsatz, **weil** + Subjekt + … + **Verb ans Ende**.\nBsp: Ich bleibe zu Hause, weil ich müde **bin**."
+    },
+    {
+      "id": "tb1-u55-l03-bausteine-b1-ex06",
+      "type": "choice",
+      "title": "Baustein B1a+",
+      "passage": "Deine Idee mit … finde ich super, weil wir dort sowohl … als auch … können.",
+      "prompt": "Wofür benutzt man diesen Baustein?",
+      "options": [
+        {
+          "id": "a",
+          "text": "über sich / Vorlieben (talk about yourself / preferences)"
+        },
+        {
+          "id": "b",
+          "text": "Rat geben (give advice)"
+        },
+        {
+          "id": "c",
+          "text": "eigene Neuigkeiten (share your own news)"
+        },
+        {
+          "id": "d",
+          "text": "Vorschlag annehmen (accept a suggestion)"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**B1a+** = Vorschlag annehmen (accept a suggestion).\n\nVorlage: Deine Idee mit {0} finde ich super, weil wir dort sowohl {1} als auch {2} können."
+    },
+    {
+      "id": "tb1-u55-l03-bausteine-b1-ex07",
+      "type": "choice",
+      "title": "Baustein B1a+ · Welches Wort passt in die Lücke?",
+      "prompt": "Deine Idee mit … finde ich super, ___ wir dort sowohl … als auch … können.",
+      "options": [
+        {
+          "id": "a",
+          "text": "deshalb"
+        },
+        {
+          "id": "b",
+          "text": "weil"
+        },
+        {
+          "id": "c",
+          "text": "denn"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Full sentence: *Deine Idee mit … finde ich super, weil wir dort sowohl … als auch … können.*\n\n**weil (Grund)**: reason; the verb goes to the very end.\n\nHauptsatz, **weil** + Subjekt + … + **Verb ans Ende**.\nBsp: Ich bleibe zu Hause, weil ich müde **bin**."
+    },
+    {
+      "id": "tb1-u55-l03-bausteine-b1-ex08",
+      "type": "choice",
+      "title": "Baustein B1b",
+      "passage": "Leider passt mir … nicht so gut, denn …. Könnten wir stattdessen …?",
+      "prompt": "Wofür benutzt man diesen Baustein?",
+      "options": [
+        {
+          "id": "a",
+          "text": "entschuldigen / begründen (apologise / give a reason)"
+        },
+        {
+          "id": "b",
+          "text": "auf schlechte Nachricht reagieren (react to bad news)"
+        },
+        {
+          "id": "c",
+          "text": "Rückfrage stellen (ask a follow-up question)"
+        },
+        {
+          "id": "d",
+          "text": "höflich ablehnen (politely decline)"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**B1b** = höflich ablehnen (politely decline).\n\nVorlage: Leider passt mir {0} nicht so gut, denn {1}. Könnten wir stattdessen {2}?"
+    },
+    {
+      "id": "tb1-u55-l03-bausteine-b1-ex09",
+      "type": "choice",
+      "title": "Baustein B1b+",
+      "passage": "Obwohl ich mich sehr freue, passt mir … leider nicht so gut. Könnten wir stattdessen …?",
+      "prompt": "Wofür benutzt man diesen Baustein?",
+      "options": [
+        {
+          "id": "a",
+          "text": "höflich ablehnen (politely decline)"
+        },
+        {
+          "id": "b",
+          "text": "eigene Neuigkeiten (share your own news)"
+        },
+        {
+          "id": "c",
+          "text": "Vorschlag annehmen (accept a suggestion)"
+        },
+        {
+          "id": "d",
+          "text": "Pläne / Zukunft (plans / the future)"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**B1b+** = höflich ablehnen (politely decline).\n\nVorlage: Obwohl ich mich sehr freue, passt mir {0} leider nicht so gut. Könnten wir stattdessen {1}?"
+    },
+    {
+      "id": "tb1-u55-l03-bausteine-b1-ex10",
+      "type": "choice",
+      "title": "Baustein B1b+ · Welches Wort passt in die Lücke?",
+      "prompt": "___ ich mich sehr freue, passt mir … leider nicht so gut. Könnten wir stattdessen …?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Denn"
+        },
+        {
+          "id": "b",
+          "text": "Deshalb"
+        },
+        {
+          "id": "c",
+          "text": "Obwohl"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Full sentence: *Obwohl ich mich sehr freue, passt mir … leider nicht so gut. Könnten wir stattdessen …?*\n\n**obwohl (Gegengrund)**: concession; verb-final.\n\n**Obwohl** + … + **Verb-Ende**, **Verb** + Subjekt.\nBsp: Obwohl es teuer **war**, **habe ich** es gekauft."
+    },
+    {
+      "id": "tb1-u55-l03-bausteine-b1-ex11",
+      "type": "choice",
+      "title": "Baustein B1c",
+      "passage": "Über … habe ich mich sehr gefreut, das ist wirklich eine tolle Nachricht!",
+      "prompt": "Wofür benutzt man diesen Baustein?",
+      "options": [
+        {
+          "id": "a",
+          "text": "über sich / Vorlieben (talk about yourself / preferences)"
+        },
+        {
+          "id": "b",
+          "text": "beschreiben (describe)"
+        },
+        {
+          "id": "c",
+          "text": "jemanden mitbringen (bring someone along)"
+        },
+        {
+          "id": "d",
+          "text": "auf gute Nachricht reagieren (react to good news)"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**B1c** = auf gute Nachricht reagieren (react to good news).\n\nVorlage: Über {0} habe ich mich sehr gefreut, das ist wirklich eine tolle Nachricht!"
+    },
+    {
+      "id": "tb1-u55-l03-bausteine-b1-ex12",
+      "type": "choice",
+      "title": "Baustein B1d",
+      "passage": "Es tut mir sehr leid, dass …. Ich hoffe, dass es dir bald wieder besser geht.",
+      "prompt": "Wofür benutzt man diesen Baustein?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Pläne / Zukunft (plans / the future)"
+        },
+        {
+          "id": "b",
+          "text": "Rückfrage stellen (ask a follow-up question)"
+        },
+        {
+          "id": "c",
+          "text": "auf schlechte Nachricht reagieren (react to bad news)"
+        },
+        {
+          "id": "d",
+          "text": "jemanden mitbringen (bring someone along)"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**B1d** = auf schlechte Nachricht reagieren (react to bad news).\n\nVorlage: Es tut mir sehr leid, dass {0}. Ich hoffe, dass es dir bald wieder besser geht."
+    }
+  ]
+}

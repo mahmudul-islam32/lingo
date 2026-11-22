@@ -1,0 +1,282 @@
+{
+  "id": "tb1-u09-l06-perfekt-key-participles-2",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u09",
+  "title": "Perfekt: Key Participles 2",
+  "tip": "Theme: Perfekt: wichtige Partizipien (A2)",
+  "exercises": [
+    {
+      "id": "tb1-u09-l06-perfekt-key-participles-2-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "bleiben",
+          "known": "to stay (Perfekt with sein)"
+        },
+        {
+          "id": "p2",
+          "learning": "werden",
+          "known": "to become (Perfekt with sein)"
+        },
+        {
+          "id": "p3",
+          "learning": "passieren",
+          "known": "to happen (Perfekt with sein)"
+        },
+        {
+          "id": "p4",
+          "learning": "sterben",
+          "known": "to die (Perfekt with sein)"
+        },
+        {
+          "id": "p5",
+          "learning": "lesen",
+          "known": "to read"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u09-l06-perfekt-key-participles-2-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which one means „to stay (Perfekt with sein)“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "verlieren → hat verloren"
+        },
+        {
+          "id": "b",
+          "text": "helfen → hat geholfen"
+        },
+        {
+          "id": "c",
+          "text": "bleiben → ist geblieben"
+        },
+        {
+          "id": "d",
+          "text": "essen → hat gegessen"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**bleiben → ist geblieben** = to stay (Perfekt with sein)\n\n*Example:* Ich war krank und bin den ganzen Tag im Bett geblieben.\nI was ill and stayed in bed all day."
+    },
+    {
+      "id": "tb1-u09-l06-perfekt-key-participles-2-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which one means „to become (Perfekt with sein)“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "werden → ist geworden"
+        },
+        {
+          "id": "b",
+          "text": "verstehen → hat verstanden"
+        },
+        {
+          "id": "c",
+          "text": "gehen → ist gegangen"
+        },
+        {
+          "id": "d",
+          "text": "fragen → hat gefragt"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**werden → ist geworden** = to become (Perfekt with sein)\n\n*Example:* Meine Schwester ist letztes Jahr Ärztin geworden.\nMy sister became a doctor last year."
+    },
+    {
+      "id": "tb1-u09-l06-perfekt-key-participles-2-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I was ill and stayed in bed all day.",
+      "tiles": [
+        "war",
+        "Ich",
+        "Brötchen",
+        "den",
+        "krank",
+        "habe",
+        "bin",
+        "Tag",
+        "ganzen",
+        "geschlafen",
+        "im",
+        "Bett",
+        "und",
+        "geblieben"
+      ],
+      "answers": [
+        "Ich war krank und bin den ganzen Tag im Bett geblieben."
+      ],
+      "explanation": "**bleiben → ist geblieben** = to stay (Perfekt with sein)"
+    },
+    {
+      "id": "tb1-u09-l06-perfekt-key-participles-2-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which one means „to happen (Perfekt with sein)“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "passieren → ist passiert"
+        },
+        {
+          "id": "b",
+          "text": "gehen → ist gegangen"
+        },
+        {
+          "id": "c",
+          "text": "sterben → ist gestorben"
+        },
+        {
+          "id": "d",
+          "text": "helfen → hat geholfen"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**passieren → ist passiert** = to happen (Perfekt with sein)\n\n*Example:* Was ist passiert? Warum ist die Polizei hier?\nWhat happened? Why are the police here?"
+    },
+    {
+      "id": "tb1-u09-l06-perfekt-key-participles-2-ex06",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u09-l06-perfekt-key-participles-2-2.mp3"
+      },
+      "tiles": [
+        "Ärztin",
+        "Schwester",
+        "geblieben",
+        "letztes",
+        "zur",
+        "ist",
+        "Meine",
+        "genommen",
+        "Jahr",
+        "geworden"
+      ],
+      "answers": [
+        "Meine Schwester ist letztes Jahr Ärztin geworden."
+      ],
+      "explanation": "Meine Schwester ist letztes Jahr Ärztin geworden.\n*My sister became a doctor last year.*\n\n**werden → ist geworden** = to become (Perfekt with sein)"
+    },
+    {
+      "id": "tb1-u09-l06-perfekt-key-participles-2-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which one means „to die (Perfekt with sein)“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "finden → hat gefunden"
+        },
+        {
+          "id": "b",
+          "text": "nehmen → hat genommen"
+        },
+        {
+          "id": "c",
+          "text": "sterben → ist gestorben"
+        },
+        {
+          "id": "d",
+          "text": "essen → hat gegessen"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**sterben → ist gestorben** = to die (Perfekt with sein)\n\n*Example:* Leider ist ihr Großvater im Winter gestorben.\nSadly her grandfather died in the winter."
+    },
+    {
+      "id": "tb1-u09-l06-perfekt-key-participles-2-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Was ist passiert? Warum ist die Polizei hier?",
+      "tiles": [
+        "are",
+        "What",
+        "My",
+        "the",
+        "here",
+        "happened",
+        "stood",
+        "Why",
+        "I",
+        "police"
+      ],
+      "answers": [
+        "What happened? Why are the police here?"
+      ],
+      "explanation": "**passieren → ist passiert** = to happen (Perfekt with sein)"
+    },
+    {
+      "id": "tb1-u09-l06-perfekt-key-participles-2-ex09",
+      "type": "multiple_choice",
+      "prompt": "Which one means „to read“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "verstehen → hat verstanden"
+        },
+        {
+          "id": "b",
+          "text": "beginnen → hat begonnen"
+        },
+        {
+          "id": "c",
+          "text": "lesen → hat gelesen"
+        },
+        {
+          "id": "d",
+          "text": "sprechen → hat gesprochen"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**lesen → hat gelesen** = to read\n\n*Example:* Hast du den Brief vom Vermieter schon gelesen?\nHave you read the letter from the landlord yet?"
+    },
+    {
+      "id": "tb1-u09-l06-perfekt-key-participles-2-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Sadly her grandfather died in the winter.",
+      "tiles": [
+        "meine",
+        "Leider",
+        "was",
+        "Großvater",
+        "Winter",
+        "ihr",
+        "gestorben",
+        "Brief",
+        "im",
+        "ist"
+      ],
+      "answers": [
+        "Leider ist ihr Großvater im Winter gestorben."
+      ],
+      "explanation": "**sterben → ist gestorben** = to die (Perfekt with sein)"
+    },
+    {
+      "id": "tb1-u09-l06-perfekt-key-participles-2-ex11",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u09-l06-perfekt-key-participles-2-5.mp3"
+      },
+      "tiles": [
+        "du",
+        "gelesen",
+        "Brief",
+        "hat",
+        "heute",
+        "Hast",
+        "begonnen",
+        "Vermieter",
+        "den",
+        "vom",
+        "schon"
+      ],
+      "answers": [
+        "Hast du den Brief vom Vermieter schon gelesen?"
+      ],
+      "explanation": "Hast du den Brief vom Vermieter schon gelesen?\n*Have you read the letter from the landlord yet?*\n\n**lesen → hat gelesen** = to read"
+    }
+  ]
+}

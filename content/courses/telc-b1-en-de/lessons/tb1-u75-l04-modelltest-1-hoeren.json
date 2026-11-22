@@ -1,0 +1,419 @@
+{
+  "id": "tb1-u75-l04-modelltest-1-hoeren",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u75",
+  "title": "Modelltest 1 · Hören (tasks 41–60)",
+  "tip": "Missed one? Let it go and look at the next statement.",
+  "exercises": [
+    {
+      "id": "tb1-u75-l04-modelltest-1-hoeren-ex01",
+      "type": "explain",
+      "title": "Hören · 30 minutes",
+      "body": "Tasks 41–60, **30 minutes**. Teil 1 runs only once, Teil 2 and 3 twice. Read the statements before each text.\n\n**Tipp:** Aufgabe verpasst? Loslassen und sofort auf die nächste schauen. Wer im Kopf übersetzt, verpasst zwei weitere. Nie ein Feld leer lassen."
+    },
+    {
+      "id": "tb1-u75-l04-modelltest-1-hoeren-ex02",
+      "type": "explain",
+      "title": "Hören Teil 1 · Aufgaben 41–45 · Nachrichten & Ansagen",
+      "body": "Richtig oder falsch? Each text runs **only once**: listen once, then answer. **5 points each.**"
+    },
+    {
+      "id": "tb1-u75-l04-modelltest-1-hoeren-ex03",
+      "type": "listening",
+      "title": "Hören Teil 1 · Text 1 von 5 · Nachrichten & Ansagen",
+      "transcript": "Hier ist die Zahnarztpraxis Wolf. Ihr Termin morgen um neun Uhr ist bestätigt. Bitte denken Sie an Ihre Versichertenkarte.",
+      "prompt": "41. Der Anrufer sagt den Termin ab. Richtig oder falsch?",
+      "options": [
+        {
+          "id": "a",
+          "text": "richtig"
+        },
+        {
+          "id": "b",
+          "text": "falsch"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Falsch.** „bestätigt“ = der Termin bleibt, keine Absage."
+    },
+    {
+      "id": "tb1-u75-l04-modelltest-1-hoeren-ex04",
+      "type": "listening",
+      "title": "Hören Teil 1 · Text 2 von 5 · Nachrichten & Ansagen",
+      "transcript": "Gleis drei, bitte beachten: Der Regionalzug nach Kassel fährt heute ausnahmsweise von Gleis fünf.",
+      "prompt": "42. Der Zug nach Kassel fährt von Gleis 5. Richtig oder falsch?",
+      "options": [
+        {
+          "id": "a",
+          "text": "richtig"
+        },
+        {
+          "id": "b",
+          "text": "falsch"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Richtig.** „von Gleis fünf“, direkt bestätigt."
+    },
+    {
+      "id": "tb1-u75-l04-modelltest-1-hoeren-ex05",
+      "type": "listening",
+      "title": "Hören Teil 1 · Text 3 von 5 · Nachrichten & Ansagen",
+      "transcript": "Nur an diesem Wochenende: Beim Kauf von zwei Büchern erhalten Sie das dritte gratis.",
+      "prompt": "43. Das Angebot gilt die ganze Woche. Richtig oder falsch?",
+      "options": [
+        {
+          "id": "a",
+          "text": "richtig"
+        },
+        {
+          "id": "b",
+          "text": "falsch"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Falsch.** „nur an diesem Wochenende“. Einschränkung."
+    },
+    {
+      "id": "tb1-u75-l04-modelltest-1-hoeren-ex06",
+      "type": "listening",
+      "title": "Hören Teil 1 · Text 4 von 5 · Nachrichten & Ansagen",
+      "transcript": "Hi, ich bin's. Wir wollten uns um sieben treffen, schaffst du auch eine halbe Stunde später?",
+      "prompt": "44. Der Anrufer möchte sich um halb acht treffen. Richtig oder falsch?",
+      "options": [
+        {
+          "id": "a",
+          "text": "richtig"
+        },
+        {
+          "id": "b",
+          "text": "falsch"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Richtig.** sieben + halbe Stunde = 7:30 = halb acht."
+    },
+    {
+      "id": "tb1-u75-l04-modelltest-1-hoeren-ex07",
+      "type": "listening",
+      "title": "Hören Teil 1 · Text 5 von 5 · Nachrichten & Ansagen",
+      "transcript": "Liebe Kunden, an Kasse vier ist jetzt auch ohne Wartezeit geöffnet.",
+      "prompt": "45. Es gibt eine zusätzliche offene Kasse. Richtig oder falsch?",
+      "options": [
+        {
+          "id": "a",
+          "text": "richtig"
+        },
+        {
+          "id": "b",
+          "text": "falsch"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Richtig.** Kasse 4 zusätzlich offen. Paraphrase."
+    },
+    {
+      "id": "tb1-u75-l04-modelltest-1-hoeren-ex08",
+      "type": "explain",
+      "title": "Hören Teil 2 · Aufgaben 46–55 · Umzug aufs Land",
+      "body": "You hear the conversation **twice**. Read all statements first. **2.5 points each.**"
+    },
+    {
+      "id": "tb1-u75-l04-modelltest-1-hoeren-ex09",
+      "type": "listening",
+      "title": "Hören Teil 2 · Interview: Umzug aufs Land",
+      "transcript": "Moderator: Frau Keller, Sie haben lange in Berlin gewohnt und sind vor zwei Jahren aufs Land gezogen. Warum?\nKeller: Ich habe fast fünfzehn Jahre in Berlin gelebt. Am Ende war mir die Stadt zu laut und zu teuer. Mein Mann und ich wollten mehr Ruhe und einen Garten.\nModerator: War die Umstellung schwierig?\nKeller: Am Anfang schon, ich habe meine Freunde vermisst. Aber inzwischen möchte ich nicht mehr zurück. Man kennt hier seine Nachbarn, das gefällt mir sehr.\nModerator: Und die Arbeit?\nKeller: Ich arbeite weiter für meine alte Firma in Berlin, aber fast nur noch von zu Hause. Nur einmal im Monat fahre ich hin.\nModerator: Vermissen Sie gar nichts an der Stadt?\nKeller: Doch, das Kulturangebot, Kino und Theater, fehlt mir manchmal schon. Dafür fahren wir am Wochenende ab und zu in die nächste größere Stadt.\nModerator: Würden Sie anderen raten, aufs Land zu ziehen?\nKeller: Das kommt darauf an. Wer viel los haben möchte, für den ist es nichts. Aber wer Ruhe sucht, sollte es versuchen.",
+      "prompt": "46. Frau Keller hat mehr als zehn Jahre in Berlin gewohnt. Richtig oder falsch?",
+      "options": [
+        {
+          "id": "a",
+          "text": "richtig"
+        },
+        {
+          "id": "b",
+          "text": "falsch"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Richtig.** fast 15 Jahre > 10."
+    },
+    {
+      "id": "tb1-u75-l04-modelltest-1-hoeren-ex10",
+      "type": "listening",
+      "title": "Hören Teil 2 · Interview: Umzug aufs Land",
+      "transcript": "Moderator: Frau Keller, Sie haben lange in Berlin gewohnt und sind vor zwei Jahren aufs Land gezogen. Warum?\nKeller: Ich habe fast fünfzehn Jahre in Berlin gelebt. Am Ende war mir die Stadt zu laut und zu teuer. Mein Mann und ich wollten mehr Ruhe und einen Garten.\nModerator: War die Umstellung schwierig?\nKeller: Am Anfang schon, ich habe meine Freunde vermisst. Aber inzwischen möchte ich nicht mehr zurück. Man kennt hier seine Nachbarn, das gefällt mir sehr.\nModerator: Und die Arbeit?\nKeller: Ich arbeite weiter für meine alte Firma in Berlin, aber fast nur noch von zu Hause. Nur einmal im Monat fahre ich hin.\nModerator: Vermissen Sie gar nichts an der Stadt?\nKeller: Doch, das Kulturangebot, Kino und Theater, fehlt mir manchmal schon. Dafür fahren wir am Wochenende ab und zu in die nächste größere Stadt.\nModerator: Würden Sie anderen raten, aufs Land zu ziehen?\nKeller: Das kommt darauf an. Wer viel los haben möchte, für den ist es nichts. Aber wer Ruhe sucht, sollte es versuchen.",
+      "prompt": "47. Sie ist wegen der günstigen Mieten aufs Land gezogen. Richtig oder falsch?",
+      "options": [
+        {
+          "id": "a",
+          "text": "richtig"
+        },
+        {
+          "id": "b",
+          "text": "falsch"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Falsch.** Die Stadt war zu teuer; sie zog wegen Ruhe und Garten."
+    },
+    {
+      "id": "tb1-u75-l04-modelltest-1-hoeren-ex11",
+      "type": "listening",
+      "title": "Hören Teil 2 · Interview: Umzug aufs Land",
+      "transcript": "Moderator: Frau Keller, Sie haben lange in Berlin gewohnt und sind vor zwei Jahren aufs Land gezogen. Warum?\nKeller: Ich habe fast fünfzehn Jahre in Berlin gelebt. Am Ende war mir die Stadt zu laut und zu teuer. Mein Mann und ich wollten mehr Ruhe und einen Garten.\nModerator: War die Umstellung schwierig?\nKeller: Am Anfang schon, ich habe meine Freunde vermisst. Aber inzwischen möchte ich nicht mehr zurück. Man kennt hier seine Nachbarn, das gefällt mir sehr.\nModerator: Und die Arbeit?\nKeller: Ich arbeite weiter für meine alte Firma in Berlin, aber fast nur noch von zu Hause. Nur einmal im Monat fahre ich hin.\nModerator: Vermissen Sie gar nichts an der Stadt?\nKeller: Doch, das Kulturangebot, Kino und Theater, fehlt mir manchmal schon. Dafür fahren wir am Wochenende ab und zu in die nächste größere Stadt.\nModerator: Würden Sie anderen raten, aufs Land zu ziehen?\nKeller: Das kommt darauf an. Wer viel los haben möchte, für den ist es nichts. Aber wer Ruhe sucht, sollte es versuchen.",
+      "prompt": "48. Am Anfang hat sie ihre Freunde vermisst. Richtig oder falsch?",
+      "options": [
+        {
+          "id": "a",
+          "text": "richtig"
+        },
+        {
+          "id": "b",
+          "text": "falsch"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Richtig.** „am Anfang … Freunde vermisst“."
+    },
+    {
+      "id": "tb1-u75-l04-modelltest-1-hoeren-ex12",
+      "type": "listening",
+      "title": "Hören Teil 2 · Interview: Umzug aufs Land",
+      "transcript": "Moderator: Frau Keller, Sie haben lange in Berlin gewohnt und sind vor zwei Jahren aufs Land gezogen. Warum?\nKeller: Ich habe fast fünfzehn Jahre in Berlin gelebt. Am Ende war mir die Stadt zu laut und zu teuer. Mein Mann und ich wollten mehr Ruhe und einen Garten.\nModerator: War die Umstellung schwierig?\nKeller: Am Anfang schon, ich habe meine Freunde vermisst. Aber inzwischen möchte ich nicht mehr zurück. Man kennt hier seine Nachbarn, das gefällt mir sehr.\nModerator: Und die Arbeit?\nKeller: Ich arbeite weiter für meine alte Firma in Berlin, aber fast nur noch von zu Hause. Nur einmal im Monat fahre ich hin.\nModerator: Vermissen Sie gar nichts an der Stadt?\nKeller: Doch, das Kulturangebot, Kino und Theater, fehlt mir manchmal schon. Dafür fahren wir am Wochenende ab und zu in die nächste größere Stadt.\nModerator: Würden Sie anderen raten, aufs Land zu ziehen?\nKeller: Das kommt darauf an. Wer viel los haben möchte, für den ist es nichts. Aber wer Ruhe sucht, sollte es versuchen.",
+      "prompt": "49. Heute möchte sie am liebsten wieder zurück in die Stadt. Richtig oder falsch?",
+      "options": [
+        {
+          "id": "a",
+          "text": "richtig"
+        },
+        {
+          "id": "b",
+          "text": "falsch"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Falsch.** „möchte nicht mehr zurück“."
+    },
+    {
+      "id": "tb1-u75-l04-modelltest-1-hoeren-ex13",
+      "type": "listening",
+      "title": "Hören Teil 2 · Interview: Umzug aufs Land",
+      "transcript": "Moderator: Frau Keller, Sie haben lange in Berlin gewohnt und sind vor zwei Jahren aufs Land gezogen. Warum?\nKeller: Ich habe fast fünfzehn Jahre in Berlin gelebt. Am Ende war mir die Stadt zu laut und zu teuer. Mein Mann und ich wollten mehr Ruhe und einen Garten.\nModerator: War die Umstellung schwierig?\nKeller: Am Anfang schon, ich habe meine Freunde vermisst. Aber inzwischen möchte ich nicht mehr zurück. Man kennt hier seine Nachbarn, das gefällt mir sehr.\nModerator: Und die Arbeit?\nKeller: Ich arbeite weiter für meine alte Firma in Berlin, aber fast nur noch von zu Hause. Nur einmal im Monat fahre ich hin.\nModerator: Vermissen Sie gar nichts an der Stadt?\nKeller: Doch, das Kulturangebot, Kino und Theater, fehlt mir manchmal schon. Dafür fahren wir am Wochenende ab und zu in die nächste größere Stadt.\nModerator: Würden Sie anderen raten, aufs Land zu ziehen?\nKeller: Das kommt darauf an. Wer viel los haben möchte, für den ist es nichts. Aber wer Ruhe sucht, sollte es versuchen.",
+      "prompt": "50. Sie schätzt den Kontakt zu den Nachbarn. Richtig oder falsch?",
+      "options": [
+        {
+          "id": "a",
+          "text": "richtig"
+        },
+        {
+          "id": "b",
+          "text": "falsch"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Richtig.** „kennt die Nachbarn, das gefällt mir“."
+    },
+    {
+      "id": "tb1-u75-l04-modelltest-1-hoeren-ex14",
+      "type": "listening",
+      "title": "Hören Teil 2 · Interview: Umzug aufs Land",
+      "transcript": "Moderator: Frau Keller, Sie haben lange in Berlin gewohnt und sind vor zwei Jahren aufs Land gezogen. Warum?\nKeller: Ich habe fast fünfzehn Jahre in Berlin gelebt. Am Ende war mir die Stadt zu laut und zu teuer. Mein Mann und ich wollten mehr Ruhe und einen Garten.\nModerator: War die Umstellung schwierig?\nKeller: Am Anfang schon, ich habe meine Freunde vermisst. Aber inzwischen möchte ich nicht mehr zurück. Man kennt hier seine Nachbarn, das gefällt mir sehr.\nModerator: Und die Arbeit?\nKeller: Ich arbeite weiter für meine alte Firma in Berlin, aber fast nur noch von zu Hause. Nur einmal im Monat fahre ich hin.\nModerator: Vermissen Sie gar nichts an der Stadt?\nKeller: Doch, das Kulturangebot, Kino und Theater, fehlt mir manchmal schon. Dafür fahren wir am Wochenende ab und zu in die nächste größere Stadt.\nModerator: Würden Sie anderen raten, aufs Land zu ziehen?\nKeller: Das kommt darauf an. Wer viel los haben möchte, für den ist es nichts. Aber wer Ruhe sucht, sollte es versuchen.",
+      "prompt": "51. Frau Keller hat ihre Stelle bei der alten Firma aufgegeben. Richtig oder falsch?",
+      "options": [
+        {
+          "id": "a",
+          "text": "richtig"
+        },
+        {
+          "id": "b",
+          "text": "falsch"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Falsch.** Sie arbeitet weiter, im Homeoffice."
+    },
+    {
+      "id": "tb1-u75-l04-modelltest-1-hoeren-ex15",
+      "type": "listening",
+      "title": "Hören Teil 2 · Interview: Umzug aufs Land",
+      "transcript": "Moderator: Frau Keller, Sie haben lange in Berlin gewohnt und sind vor zwei Jahren aufs Land gezogen. Warum?\nKeller: Ich habe fast fünfzehn Jahre in Berlin gelebt. Am Ende war mir die Stadt zu laut und zu teuer. Mein Mann und ich wollten mehr Ruhe und einen Garten.\nModerator: War die Umstellung schwierig?\nKeller: Am Anfang schon, ich habe meine Freunde vermisst. Aber inzwischen möchte ich nicht mehr zurück. Man kennt hier seine Nachbarn, das gefällt mir sehr.\nModerator: Und die Arbeit?\nKeller: Ich arbeite weiter für meine alte Firma in Berlin, aber fast nur noch von zu Hause. Nur einmal im Monat fahre ich hin.\nModerator: Vermissen Sie gar nichts an der Stadt?\nKeller: Doch, das Kulturangebot, Kino und Theater, fehlt mir manchmal schon. Dafür fahren wir am Wochenende ab und zu in die nächste größere Stadt.\nModerator: Würden Sie anderen raten, aufs Land zu ziehen?\nKeller: Das kommt darauf an. Wer viel los haben möchte, für den ist es nichts. Aber wer Ruhe sucht, sollte es versuchen.",
+      "prompt": "52. Sie fährt einmal im Monat nach Berlin. Richtig oder falsch?",
+      "options": [
+        {
+          "id": "a",
+          "text": "richtig"
+        },
+        {
+          "id": "b",
+          "text": "falsch"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Richtig.** „nur einmal im Monat“."
+    },
+    {
+      "id": "tb1-u75-l04-modelltest-1-hoeren-ex16",
+      "type": "listening",
+      "title": "Hören Teil 2 · Interview: Umzug aufs Land",
+      "transcript": "Moderator: Frau Keller, Sie haben lange in Berlin gewohnt und sind vor zwei Jahren aufs Land gezogen. Warum?\nKeller: Ich habe fast fünfzehn Jahre in Berlin gelebt. Am Ende war mir die Stadt zu laut und zu teuer. Mein Mann und ich wollten mehr Ruhe und einen Garten.\nModerator: War die Umstellung schwierig?\nKeller: Am Anfang schon, ich habe meine Freunde vermisst. Aber inzwischen möchte ich nicht mehr zurück. Man kennt hier seine Nachbarn, das gefällt mir sehr.\nModerator: Und die Arbeit?\nKeller: Ich arbeite weiter für meine alte Firma in Berlin, aber fast nur noch von zu Hause. Nur einmal im Monat fahre ich hin.\nModerator: Vermissen Sie gar nichts an der Stadt?\nKeller: Doch, das Kulturangebot, Kino und Theater, fehlt mir manchmal schon. Dafür fahren wir am Wochenende ab und zu in die nächste größere Stadt.\nModerator: Würden Sie anderen raten, aufs Land zu ziehen?\nKeller: Das kommt darauf an. Wer viel los haben möchte, für den ist es nichts. Aber wer Ruhe sucht, sollte es versuchen.",
+      "prompt": "53. Das Kulturangebot fehlt ihr manchmal. Richtig oder falsch?",
+      "options": [
+        {
+          "id": "a",
+          "text": "richtig"
+        },
+        {
+          "id": "b",
+          "text": "falsch"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Richtig.** „Kino und Theater fehlt mir manchmal“."
+    },
+    {
+      "id": "tb1-u75-l04-modelltest-1-hoeren-ex17",
+      "type": "listening",
+      "title": "Hören Teil 2 · Interview: Umzug aufs Land",
+      "transcript": "Moderator: Frau Keller, Sie haben lange in Berlin gewohnt und sind vor zwei Jahren aufs Land gezogen. Warum?\nKeller: Ich habe fast fünfzehn Jahre in Berlin gelebt. Am Ende war mir die Stadt zu laut und zu teuer. Mein Mann und ich wollten mehr Ruhe und einen Garten.\nModerator: War die Umstellung schwierig?\nKeller: Am Anfang schon, ich habe meine Freunde vermisst. Aber inzwischen möchte ich nicht mehr zurück. Man kennt hier seine Nachbarn, das gefällt mir sehr.\nModerator: Und die Arbeit?\nKeller: Ich arbeite weiter für meine alte Firma in Berlin, aber fast nur noch von zu Hause. Nur einmal im Monat fahre ich hin.\nModerator: Vermissen Sie gar nichts an der Stadt?\nKeller: Doch, das Kulturangebot, Kino und Theater, fehlt mir manchmal schon. Dafür fahren wir am Wochenende ab und zu in die nächste größere Stadt.\nModerator: Würden Sie anderen raten, aufs Land zu ziehen?\nKeller: Das kommt darauf an. Wer viel los haben möchte, für den ist es nichts. Aber wer Ruhe sucht, sollte es versuchen.",
+      "prompt": "54. Am Wochenende bleibt die Familie immer zu Hause. Richtig oder falsch?",
+      "options": [
+        {
+          "id": "a",
+          "text": "richtig"
+        },
+        {
+          "id": "b",
+          "text": "falsch"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Falsch.** Sie fahren ab und zu in die Stadt."
+    },
+    {
+      "id": "tb1-u75-l04-modelltest-1-hoeren-ex18",
+      "type": "listening",
+      "title": "Hören Teil 2 · Interview: Umzug aufs Land",
+      "transcript": "Moderator: Frau Keller, Sie haben lange in Berlin gewohnt und sind vor zwei Jahren aufs Land gezogen. Warum?\nKeller: Ich habe fast fünfzehn Jahre in Berlin gelebt. Am Ende war mir die Stadt zu laut und zu teuer. Mein Mann und ich wollten mehr Ruhe und einen Garten.\nModerator: War die Umstellung schwierig?\nKeller: Am Anfang schon, ich habe meine Freunde vermisst. Aber inzwischen möchte ich nicht mehr zurück. Man kennt hier seine Nachbarn, das gefällt mir sehr.\nModerator: Und die Arbeit?\nKeller: Ich arbeite weiter für meine alte Firma in Berlin, aber fast nur noch von zu Hause. Nur einmal im Monat fahre ich hin.\nModerator: Vermissen Sie gar nichts an der Stadt?\nKeller: Doch, das Kulturangebot, Kino und Theater, fehlt mir manchmal schon. Dafür fahren wir am Wochenende ab und zu in die nächste größere Stadt.\nModerator: Würden Sie anderen raten, aufs Land zu ziehen?\nKeller: Das kommt darauf an. Wer viel los haben möchte, für den ist es nichts. Aber wer Ruhe sucht, sollte es versuchen.",
+      "prompt": "55. Sie rät allen Menschen, aufs Land zu ziehen. Richtig oder falsch?",
+      "options": [
+        {
+          "id": "a",
+          "text": "richtig"
+        },
+        {
+          "id": "b",
+          "text": "falsch"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Falsch.** „das kommt darauf an“, nicht allen."
+    },
+    {
+      "id": "tb1-u75-l04-modelltest-1-hoeren-ex19",
+      "type": "explain",
+      "title": "Hören Teil 3 · Aufgaben 56–60 · Öffentliche Durchsagen",
+      "body": "Richtig oder falsch? Each announcement runs **twice**. **5 points each.**"
+    },
+    {
+      "id": "tb1-u75-l04-modelltest-1-hoeren-ex20",
+      "type": "listening",
+      "title": "Hören Teil 3 · Durchsage 1 von 5 · Öffentliche Durchsagen",
+      "transcript": "Willkommen im Stadtmuseum. Bitte beachten Sie: Das Fotografieren in den Ausstellungsräumen ist nicht erlaubt.",
+      "prompt": "56. Im Museum darf man nicht fotografieren. Richtig oder falsch?",
+      "options": [
+        {
+          "id": "a",
+          "text": "richtig"
+        },
+        {
+          "id": "b",
+          "text": "falsch"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Richtig.** „nicht erlaubt“ = darf man nicht."
+    },
+    {
+      "id": "tb1-u75-l04-modelltest-1-hoeren-ex21",
+      "type": "listening",
+      "title": "Hören Teil 3 · Durchsage 2 von 5 · Öffentliche Durchsagen",
+      "transcript": "Durchsage für alle Fahrgäste: Wegen Bauarbeiten fährt die Buslinie zwölf heute nur bis zum Marktplatz, nicht bis zum Hauptbahnhof.",
+      "prompt": "57. Der Bus 12 fährt heute bis zum Hauptbahnhof. Richtig oder falsch?",
+      "options": [
+        {
+          "id": "a",
+          "text": "richtig"
+        },
+        {
+          "id": "b",
+          "text": "falsch"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Falsch.** „nur bis zum Marktplatz“. Korrekturfalle."
+    },
+    {
+      "id": "tb1-u75-l04-modelltest-1-hoeren-ex22",
+      "type": "listening",
+      "title": "Hören Teil 3 · Durchsage 3 von 5 · Öffentliche Durchsagen",
+      "transcript": "Sehr geehrte Kunden, unsere Filiale bleibt am Montag wegen Inventur geschlossen. Ab Dienstag sind wir wieder für Sie da.",
+      "prompt": "58. Am Montag ist das Geschäft geöffnet. Richtig oder falsch?",
+      "options": [
+        {
+          "id": "a",
+          "text": "richtig"
+        },
+        {
+          "id": "b",
+          "text": "falsch"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Falsch.** „am Montag geschlossen“."
+    },
+    {
+      "id": "tb1-u75-l04-modelltest-1-hoeren-ex23",
+      "type": "listening",
+      "title": "Hören Teil 3 · Durchsage 4 von 5 · Öffentliche Durchsagen",
+      "transcript": "Liebe Fahrgäste, das Bordrestaurant in Wagen zwölf bietet warme und kalte Speisen.",
+      "prompt": "59. Im Zug kann man etwas zu essen bekommen. Richtig oder falsch?",
+      "options": [
+        {
+          "id": "a",
+          "text": "richtig"
+        },
+        {
+          "id": "b",
+          "text": "falsch"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Richtig.** Speisen = Essen. Paraphrase."
+    },
+    {
+      "id": "tb1-u75-l04-modelltest-1-hoeren-ex24",
+      "type": "listening",
+      "title": "Hören Teil 3 · Durchsage 5 von 5 · Öffentliche Durchsagen",
+      "transcript": "Achtung: Der Aufzug ist zurzeit außer Betrieb. Bitte benutzen Sie die Treppe.",
+      "prompt": "60. Der Aufzug funktioniert im Moment nicht. Richtig oder falsch?",
+      "options": [
+        {
+          "id": "a",
+          "text": "richtig"
+        },
+        {
+          "id": "b",
+          "text": "falsch"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Richtig.** „außer Betrieb“ = funktioniert nicht."
+    },
+    {
+      "id": "tb1-u75-l04-modelltest-1-hoeren-ex25",
+      "type": "explain",
+      "title": "Schreiben and Sprechen",
+      "body": "The written exam ends with **30 minutes of Schreiben**: one e-mail (about 80 words) that covers all four guiding points, with salutation and closing. Do one task from the **Writing (Schreiben)** unit now, with a 30-minute timer, and grade yourself strictly (when in doubt, one grade lower).\n\nThe oral exam is separate (75 points, pass from 45): practise Teil 1–3 in the **Speaking (Sprechen)** units.\n\nThen add up your points: Lesen + Sprachbausteine + Hören + Schreiben. **135 of 225** = passed."
+    }
+  ]
+}

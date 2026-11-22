@@ -1,0 +1,234 @@
+{
+  "id": "tb1-u03-l03-body-health-3",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u03",
+  "title": "Body & Health 3",
+  "tip": "Theme: Körper & Gesundheit (A1)",
+  "exercises": [
+    {
+      "id": "tb1-u03-l03-body-health-3-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "der Rücken",
+          "known": "back"
+        },
+        {
+          "id": "p2",
+          "learning": "das Herz",
+          "known": "heart"
+        },
+        {
+          "id": "p3",
+          "learning": "der Zahn",
+          "known": "tooth"
+        },
+        {
+          "id": "p4",
+          "learning": "krank",
+          "known": "ill / sick"
+        },
+        {
+          "id": "p5",
+          "learning": "der Kopf",
+          "known": "head"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u03-l03-body-health-3-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „back“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "der Zahn, die Zähne"
+        },
+        {
+          "id": "b",
+          "text": "der Kopf, die Köpfe"
+        },
+        {
+          "id": "c",
+          "text": "der Arzt, die Ärzte"
+        },
+        {
+          "id": "d",
+          "text": "der Rücken, die Rücken"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**der Rücken** = back\n*Plural: die Rücken*\n\n*Example:* Nach der Arbeit im Lager tut mir oft der Rücken weh.\nMy back often hurts after work in the warehouse."
+    },
+    {
+      "id": "tb1-u03-l03-body-health-3-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „heart“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "das Herz, die Herzen"
+        },
+        {
+          "id": "b",
+          "text": "der Mund, die Münder"
+        },
+        {
+          "id": "c",
+          "text": "der Bauch, die Bäuche"
+        },
+        {
+          "id": "d",
+          "text": "die Nase, die Nasen"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**das Herz** = heart\n*Plural: die Herzen*\n\n*Example:* Der Arzt hört mein Herz ab.\nThe doctor listens to my heart."
+    },
+    {
+      "id": "tb1-u03-l03-body-health-3-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "My back often hurts after work in the warehouse.",
+      "tiles": [
+        "der",
+        "Wir",
+        "Beine",
+        "der",
+        "Arbeit",
+        "oft",
+        "Nach",
+        "weh",
+        "im",
+        "musst",
+        "mir",
+        "Lager",
+        "tut",
+        "Rücken"
+      ],
+      "answers": [
+        "Nach der Arbeit im Lager tut mir oft der Rücken weh."
+      ],
+      "explanation": "**der Rücken** = back\n*Plural: die Rücken*"
+    },
+    {
+      "id": "tb1-u03-l03-body-health-3-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „tooth“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "das Ohr, die Ohren"
+        },
+        {
+          "id": "b",
+          "text": "der Zahn, die Zähne"
+        },
+        {
+          "id": "c",
+          "text": "das Herz, die Herzen"
+        },
+        {
+          "id": "d",
+          "text": "der Mund, die Münder"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**der Zahn** = tooth\n*Plural: die Zähne*\n\n*Example:* Kinder sollen sich zweimal am Tag die Zähne putzen.\nChildren should brush their teeth twice a day."
+    },
+    {
+      "id": "tb1-u03-l03-body-health-3-ex06",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u03-l03-body-health-3-2.mp3"
+      },
+      "tiles": [
+        "gefallen",
+        "krank",
+        "Der",
+        "ab",
+        "mein",
+        "am",
+        "Herz",
+        "Arzt",
+        "hört"
+      ],
+      "answers": [
+        "Der Arzt hört mein Herz ab."
+      ],
+      "explanation": "Der Arzt hört mein Herz ab.\n*The doctor listens to my heart.*\n\n**das Herz** = heart\n*Plural: die Herzen*"
+    },
+    {
+      "id": "tb1-u03-l03-body-health-3-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which one means „ill / sick“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "müde"
+        },
+        {
+          "id": "b",
+          "text": "gesund"
+        },
+        {
+          "id": "c",
+          "text": "krank"
+        },
+        {
+          "id": "d",
+          "text": "das Herz, die Herzen"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**krank** = ill / sick\n\n*Example:* Maria ist krank und bleibt heute zu Hause.\nMaria is ill and is staying at home today."
+    },
+    {
+      "id": "tb1-u03-l03-body-health-3-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Kinder sollen sich zweimal am Tag die Zähne putzen.",
+      "tiles": [
+        "a",
+        "teeth",
+        "brush",
+        "should",
+        "day",
+        "their",
+        "twice",
+        "eating",
+        "and",
+        "Children",
+        "mouth"
+      ],
+      "answers": [
+        "Children should brush their teeth twice a day."
+      ],
+      "explanation": "**der Zahn** = tooth\n*Plural: die Zähne*"
+    },
+    {
+      "id": "tb1-u03-l03-body-health-3-ex09",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Maria is ill and is staying at home today.",
+      "tiles": [
+        "noch",
+        "heute",
+        "ist",
+        "krank",
+        "Hause",
+        "Maria",
+        "achtzig",
+        "bleibt",
+        "zu",
+        "und",
+        "Schmerzen"
+      ],
+      "answers": [
+        "Maria ist krank und bleibt heute zu Hause."
+      ],
+      "explanation": "**krank** = ill / sick"
+    }
+  ]
+}

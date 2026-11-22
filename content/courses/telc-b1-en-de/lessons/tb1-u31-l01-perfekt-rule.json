@@ -1,0 +1,151 @@
+{
+  "id": "tb1-u31-l01-perfekt-rule",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u31",
+  "title": "Perfekt: haben or sein: the rule",
+  "tip": "“Ich habe nach Hause gegangen”, movement verbs always take sein! And “Ich habe besucht meine Tante”, participle to the END.",
+  "exercises": [
+    {
+      "id": "tb1-u31-l01-perfekt-rule-ex01",
+      "type": "explain",
+      "title": "Perfekt: haben or sein",
+      "body": "The default past tense in letters & speaking. **sein** for movement A→B (gehen, fahren, kommen, fliegen), change of state (aufstehen, einschlafen) + **bleiben, sein, werden, passieren**. Everything else: **haben**. Participle to the end.\n\n*Deutsch:* Standard-Vergangenheit in Brief & Gespräch. **sein** bei Bewegung A→B (gehen, fahren, kommen, fliegen), Zustandswechsel (aufstehen, einschlafen) + **bleiben, sein, werden, passieren**. Sonst **haben**. Partizip ans Ende.\n\n*German name:* Perfekt: haben oder sein",
+      "examples": [
+        {
+          "learning": "Ich bin gestern nach Berlin gefahren.",
+          "known": "I went to Berlin yesterday."
+        },
+        {
+          "learning": "Ich habe den Brief schon geschrieben.",
+          "known": "I have already written the letter."
+        },
+        {
+          "learning": "Wir haben uns sehr über deine Einladung gefreut.",
+          "known": "We were very happy about your invitation. (letter opener)"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u31-l01-perfekt-rule-ex02",
+      "type": "explain",
+      "title": "Perfekt: haben or sein: step by step",
+      "body": "Pattern: haben/sein (position 2) + participle II (end).\n**sein** only for: 1) change of place: gegangen, gefahren, gekommen, geflogen, gereist · 2) change of state: aufgestanden, eingeschlafen, gestorben · 3) memory list: geblieben, gewesen, geworden, passiert.\n**haben**: all verbs with an accusative object + reflexives (Ich habe mich gefreut).\nParticiple: ge…t (gemacht) · ge…en strong (geschrieben) · separable: an**ge**rufen · inseparable/-ieren WITHOUT ge: besucht, verstanden, studiert.\nIn the letter: first choice for past = Perfekt; only war/hatte/modals go in Präteritum.\n\n## Auf Deutsch\n\nBauplan: haben/sein (Position 2) + Partizip II (Ende).\n**sein** nur bei: 1) Ortswechsel: gegangen, gefahren, gekommen, geflogen, gereist · 2) Zustandswechsel: aufgestanden, eingeschlafen, gestorben · 3) Merkliste: geblieben, gewesen, geworden, passiert.\n**haben**: alle Verben mit Akkusativ-Objekt + Reflexive (Ich habe mich gefreut).\nPartizip: ge…t (gemacht) · ge…en stark (geschrieben) · trennbar: an**ge**rufen · untrennbar/-ieren OHNE ge: besucht, verstanden, studiert.\nIm Brief: erste Vergangenheits-Wahl = Perfekt; nur war/hatte/Modalverben im Präteritum.",
+      "examples": [
+        {
+          "learning": "Ich bin gestern nach Berlin gefahren.",
+          "known": "I went to Berlin yesterday."
+        },
+        {
+          "learning": "Ich habe den Brief schon geschrieben.",
+          "known": "I have already written the letter."
+        },
+        {
+          "learning": "Wir haben uns sehr über deine Einladung gefreut.",
+          "known": "We were very happy about your invitation. (letter opener)"
+        },
+        {
+          "learning": "Was ist am Wochenende passiert?",
+          "known": "What happened at the weekend? (passieren + sein)"
+        },
+        {
+          "learning": "Testlücke-Stil: „Ich ___ zwei Jahre in Bonn gewohnt.“ → habe",
+          "known": "wohnen = no movement → haben"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u31-l01-perfekt-rule-ex03",
+      "type": "explain",
+      "title": "Watch out & exam tip",
+      "body": "## Common trap\n\n“Ich habe nach Hause gegangen”, movement verbs always take sein! And “Ich habe besucht meine Tante”, participle to the END.\n\n*Deutsch:* „Ich habe nach Hause gegangen“. Bewegungsverben immer mit sein! Und: „Ich habe besucht meine Tante“. Partizip ans ENDE.\n\n## In the exam\n\n🎯 How telc tests it: your **letter** almost always reports past events (“Ich habe deine E-Mail gelesen…”), haben/sein errors are the first thing raters see. In **Sprachbausteine**: gap before a participle → decide haben or sein.\n\n*Deutsch:* 🎯 So testet telc das: Dein **Brief** erzählt fast immer Vergangenes („Ich habe deine E-Mail gelesen…“), haben/sein-Fehler sieht der Bewerter sofort. In **Sprachbausteine**: Lücke vor dem Partizip → entscheide haben oder sein.\n\n*Source:* Guide B2"
+    },
+    {
+      "id": "tb1-u31-l01-perfekt-rule-ex04",
+      "type": "choice",
+      "title": "Fill the gap",
+      "prompt": "Ich ___ gestern lange geschlafen.",
+      "options": [
+        {
+          "id": "a",
+          "text": "bin"
+        },
+        {
+          "id": "b",
+          "text": "habe"
+        },
+        {
+          "id": "c",
+          "text": "werde"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "schlafen = keine Bewegung/kein Zustandswechsel → haben: habe geschlafen."
+    },
+    {
+      "id": "tb1-u31-l01-perfekt-rule-ex05",
+      "type": "choice",
+      "title": "Fill the gap",
+      "prompt": "Wir ___ am Sonntag an den See gefahren.",
+      "options": [
+        {
+          "id": "a",
+          "text": "sind"
+        },
+        {
+          "id": "b",
+          "text": "haben"
+        },
+        {
+          "id": "c",
+          "text": "waren"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Bewegung von A nach B → sein: sind gefahren."
+    },
+    {
+      "id": "tb1-u31-l01-perfekt-rule-ex06",
+      "type": "choice",
+      "title": "Choose the right answer",
+      "prompt": "Was ist richtig?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ich bin nach Hause gegangen."
+        },
+        {
+          "id": "b",
+          "text": "Ich habe nach Hause gegangen."
+        },
+        {
+          "id": "c",
+          "text": "Ich bin nach Hause gegangen habe."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "gehen = Bewegung → sein + Partizip am Ende."
+    },
+    {
+      "id": "tb1-u31-l01-perfekt-rule-ex07",
+      "type": "choice",
+      "title": "Fill the gap",
+      "prompt": "Er ist heute früh ___.",
+      "options": [
+        {
+          "id": "a",
+          "text": "aufgestanden hat"
+        },
+        {
+          "id": "b",
+          "text": "aufgestanden"
+        },
+        {
+          "id": "c",
+          "text": "aufstehen"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "aufstehen = Zustandswechsel → ist aufgestanden; Partizip mit -ge- in der Mitte."
+    }
+  ]
+}

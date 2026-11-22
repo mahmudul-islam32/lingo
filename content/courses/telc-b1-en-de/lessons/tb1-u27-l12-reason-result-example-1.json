@@ -1,0 +1,248 @@
+{
+  "id": "tb1-u27-l12-reason-result-example-1",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u27",
+  "title": "Reason, Result & Example 1",
+  "tip": "Theme: Redemittel: Grund, Folge & Beispiel (B1)",
+  "exercises": [
+    {
+      "id": "tb1-u27-l12-reason-result-example-1-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "Der Grund dafür ist, dass …",
+          "known": "The reason for that is that …"
+        },
+        {
+          "id": "p2",
+          "learning": "Aus diesem Grund …",
+          "known": "For this reason …"
+        },
+        {
+          "id": "p3",
+          "learning": "Das führt dazu, dass …",
+          "known": "That leads to …"
+        },
+        {
+          "id": "p4",
+          "learning": "Das hat zur Folge, dass …",
+          "known": "That has the consequence that …"
+        },
+        {
+          "id": "p5",
+          "learning": "Zum Beispiel …",
+          "known": "For example …"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u27-l12-reason-result-example-1-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which phrase means „The reason for that is that …“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Aus diesem Grund …"
+        },
+        {
+          "id": "b",
+          "text": "Zum Beispiel …"
+        },
+        {
+          "id": "c",
+          "text": "Der Grund dafür ist, dass …"
+        },
+        {
+          "id": "d",
+          "text": "Das hat zur Folge, dass …"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**Der Grund dafür ist, dass …** = The reason for that is that …\n\n*Example:* Ich ziehe um. Der Grund dafür ist, dass meine Wohnung zu klein ist.\nI'm moving. The reason for that is that my flat is too small."
+    },
+    {
+      "id": "tb1-u27-l12-reason-result-example-1-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which phrase means „For this reason …“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Das bedeutet, dass …"
+        },
+        {
+          "id": "b",
+          "text": "Das führt dazu, dass …"
+        },
+        {
+          "id": "c",
+          "text": "Zum Beispiel …"
+        },
+        {
+          "id": "d",
+          "text": "Aus diesem Grund …"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**Aus diesem Grund …** = For this reason …\n\n*Example:* Der Zug fällt aus. Aus diesem Grund nehmen wir ein Taxi.\nThe train is cancelled. For this reason we're taking a taxi."
+    },
+    {
+      "id": "tb1-u27-l12-reason-result-example-1-ex04",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u27-l12-reason-result-example-1-1.mp3"
+      },
+      "tiles": [
+        "klein",
+        "ist",
+        "schon",
+        "um",
+        "dass",
+        "zu",
+        "Der",
+        "dafür",
+        "Wohnung",
+        "Maria",
+        "meine",
+        "ist",
+        "Grund",
+        "dazu",
+        "Ich",
+        "ziehe"
+      ],
+      "answers": [
+        "Ich ziehe um. Der Grund dafür ist, dass meine Wohnung zu klein ist."
+      ],
+      "explanation": "Ich ziehe um. Der Grund dafür ist, dass meine Wohnung zu klein ist.\n*I'm moving. The reason for that is that my flat is too small.*\n\n**Der Grund dafür ist, dass …** = The reason for that is that …"
+    },
+    {
+      "id": "tb1-u27-l12-reason-result-example-1-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which phrase means „That leads to …“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Das führt dazu, dass …"
+        },
+        {
+          "id": "b",
+          "text": "Aus diesem Grund …"
+        },
+        {
+          "id": "c",
+          "text": "Das hat zur Folge, dass …"
+        },
+        {
+          "id": "d",
+          "text": "nämlich"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Das führt dazu, dass …** = That leads to …\n\n*Example:* Zu viel Arbeit führt dazu, dass man schlecht schläft.\nToo much work leads to poor sleep."
+    },
+    {
+      "id": "tb1-u27-l12-reason-result-example-1-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Der Zug fällt aus. Aus diesem Grund nehmen wir ein Taxi.",
+      "tiles": [
+        "taking",
+        "we're",
+        "example",
+        "For",
+        "reason",
+        "you",
+        "cancelled",
+        "train",
+        "taxi",
+        "The",
+        "she's",
+        "is",
+        "this",
+        "a"
+      ],
+      "answers": [
+        "The train is cancelled. For this reason we're taking a taxi."
+      ],
+      "explanation": "**Aus diesem Grund …** = For this reason …"
+    },
+    {
+      "id": "tb1-u27-l12-reason-result-example-1-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which phrase means „That has the consequence that …“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Das bedeutet, dass …"
+        },
+        {
+          "id": "b",
+          "text": "Das hat zur Folge, dass …"
+        },
+        {
+          "id": "c",
+          "text": "Der Grund dafür ist, dass …"
+        },
+        {
+          "id": "d",
+          "text": "Aus diesem Grund …"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Das hat zur Folge, dass …** = That has the consequence that …\n\n*Example:* Die Mieten steigen. Das hat zur Folge, dass viele Familien aufs Land ziehen.\nRents are rising. As a consequence, many families are moving to the countryside."
+    },
+    {
+      "id": "tb1-u27-l12-reason-result-example-1-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Too much work leads to poor sleep.",
+      "tiles": [
+        "man",
+        "viel",
+        "gern",
+        "schläft",
+        "Zu",
+        "schlecht",
+        "führt",
+        "rot",
+        "Folge",
+        "dazu",
+        "dass",
+        "Arbeit"
+      ],
+      "answers": [
+        "Zu viel Arbeit führt dazu, dass man schlecht schläft."
+      ],
+      "explanation": "**Das führt dazu, dass …** = That leads to …"
+    },
+    {
+      "id": "tb1-u27-l12-reason-result-example-1-ex09",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u27-l12-reason-result-example-1-4.mp3"
+      },
+      "tiles": [
+        "Die",
+        "ziehen",
+        "zur",
+        "Das",
+        "dass",
+        "steigen",
+        "diesem",
+        "aufs",
+        "Familien",
+        "man",
+        "Folge",
+        "Mieten",
+        "Der",
+        "viele",
+        "Land",
+        "hat"
+      ],
+      "answers": [
+        "Die Mieten steigen. Das hat zur Folge, dass viele Familien aufs Land ziehen."
+      ],
+      "explanation": "Die Mieten steigen. Das hat zur Folge, dass viele Familien aufs Land ziehen.\n*Rents are rising. As a consequence, many families are moving to the countryside.*\n\n**Das hat zur Folge, dass …** = That has the consequence that …"
+    }
+  ]
+}

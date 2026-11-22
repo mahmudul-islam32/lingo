@@ -1,0 +1,284 @@
+{
+  "id": "tb1-u23-l01-exam-language-instructions-1",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u23",
+  "title": "Exam Language & Instructions 1",
+  "tip": "Theme: Prüfungssprache & Aufgaben (B1)",
+  "exercises": [
+    {
+      "id": "tb1-u23-l01-exam-language-instructions-1-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "ergänzen",
+          "known": "to complete / fill in"
+        },
+        {
+          "id": "p2",
+          "learning": "ankreuzen",
+          "known": "to tick / mark with a cross"
+        },
+        {
+          "id": "p3",
+          "learning": "markieren",
+          "known": "to mark / highlight"
+        },
+        {
+          "id": "p4",
+          "learning": "unterstreichen",
+          "known": "to underline"
+        },
+        {
+          "id": "p5",
+          "learning": "notieren",
+          "known": "to note down"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u23-l01-exam-language-instructions-1-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which one means „to complete / fill in“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "zuordnen"
+        },
+        {
+          "id": "b",
+          "text": "passend"
+        },
+        {
+          "id": "c",
+          "text": "übertragen (überträgt)"
+        },
+        {
+          "id": "d",
+          "text": "ergänzen"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**ergänzen** = to complete / fill in\n\n*Example:* Bitte ergänzen Sie Ihre Telefonnummer im Formular.\nPlease fill in your phone number on the form."
+    },
+    {
+      "id": "tb1-u23-l01-exam-language-instructions-1-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which one means „to tick / mark with a cross“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "unterstreichen"
+        },
+        {
+          "id": "b",
+          "text": "weiblich"
+        },
+        {
+          "id": "c",
+          "text": "ankreuzen"
+        },
+        {
+          "id": "d",
+          "text": "notieren"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**ankreuzen** = to tick / mark with a cross\n\n*Example:* Kreuzen Sie auf dem Formular bitte „verheiratet“ oder „ledig“ an.\nPlease tick \"married\" or \"single\" on the form."
+    },
+    {
+      "id": "tb1-u23-l01-exam-language-instructions-1-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Please fill in your phone number on the form.",
+      "tiles": [
+        "dem",
+        "des",
+        "Bitte",
+        "Ihre",
+        "Formular",
+        "im",
+        "ergänzen",
+        "Telefonnummer",
+        "Sie",
+        "für"
+      ],
+      "answers": [
+        "Bitte ergänzen Sie Ihre Telefonnummer im Formular."
+      ],
+      "explanation": "**ergänzen** = to complete / fill in"
+    },
+    {
+      "id": "tb1-u23-l01-exam-language-instructions-1-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which one means „to mark / highlight“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "markieren"
+        },
+        {
+          "id": "b",
+          "text": "ergänzen"
+        },
+        {
+          "id": "c",
+          "text": "zuordnen"
+        },
+        {
+          "id": "d",
+          "text": "übertragen (überträgt)"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**markieren** = to mark / highlight\n\n*Example:* Ich habe die wichtigen Termine im Kalender rot markiert.\nI've marked the important appointments in red in the calendar."
+    },
+    {
+      "id": "tb1-u23-l01-exam-language-instructions-1-ex06",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u23-l01-exam-language-instructions-1-2.mp3"
+      },
+      "tiles": [
+        "im",
+        "ledig",
+        "ist",
+        "Ich",
+        "Kreuzen",
+        "auf",
+        "verheiratet",
+        "bitte",
+        "Formular",
+        "dem",
+        "Sie",
+        "oder",
+        "an"
+      ],
+      "answers": [
+        "Kreuzen Sie auf dem Formular bitte „verheiratet“ oder „ledig“ an."
+      ],
+      "explanation": "Kreuzen Sie auf dem Formular bitte „verheiratet“ oder „ledig“ an.\n*Please tick \"married\" or \"single\" on the form.*\n\n**ankreuzen** = to tick / mark with a cross"
+    },
+    {
+      "id": "tb1-u23-l01-exam-language-instructions-1-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which one means „to underline“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "notieren"
+        },
+        {
+          "id": "b",
+          "text": "unterstreichen"
+        },
+        {
+          "id": "c",
+          "text": "ankreuzen"
+        },
+        {
+          "id": "d",
+          "text": "zuordnen"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**unterstreichen** = to underline\n\n*Example:* Tom unterstreicht die neuen Wörter im Text.\nTom underlines the new words in the text."
+    },
+    {
+      "id": "tb1-u23-l01-exam-language-instructions-1-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Ich habe die wichtigen Termine im Kalender rot markiert.",
+      "tiles": [
+        "I've",
+        "the",
+        "marked",
+        "important",
+        "calendar",
+        "in",
+        "number",
+        "appointments",
+        "our",
+        "in",
+        "takes",
+        "red",
+        "the"
+      ],
+      "answers": [
+        "I've marked the important appointments in red in the calendar."
+      ],
+      "explanation": "**markieren** = to mark / highlight"
+    },
+    {
+      "id": "tb1-u23-l01-exam-language-instructions-1-ex09",
+      "type": "multiple_choice",
+      "prompt": "Which one means „to note down“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "unterstreichen"
+        },
+        {
+          "id": "b",
+          "text": "notieren"
+        },
+        {
+          "id": "c",
+          "text": "ergänzen"
+        },
+        {
+          "id": "d",
+          "text": "markieren"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**notieren** = to note down\n\n*Example:* Die Sekretärin notiert meinen Namen und meine Adresse.\nThe secretary notes down my name and address."
+    },
+    {
+      "id": "tb1-u23-l01-exam-language-instructions-1-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Tom underlines the new words in the text.",
+      "tiles": [
+        "Telefonnummer",
+        "die",
+        "neuen",
+        "Tom",
+        "Wörter",
+        "Text",
+        "beendet",
+        "notiert",
+        "unterstreicht",
+        "im"
+      ],
+      "answers": [
+        "Tom unterstreicht die neuen Wörter im Text."
+      ],
+      "explanation": "**unterstreichen** = to underline"
+    },
+    {
+      "id": "tb1-u23-l01-exam-language-instructions-1-ex11",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u23-l01-exam-language-instructions-1-5.mp3"
+      },
+      "tiles": [
+        "notiert",
+        "Die",
+        "Mein",
+        "der",
+        "unter",
+        "meine",
+        "und",
+        "Adresse",
+        "Sekretärin",
+        "Namen",
+        "meinen"
+      ],
+      "answers": [
+        "Die Sekretärin notiert meinen Namen und meine Adresse."
+      ],
+      "explanation": "Die Sekretärin notiert meinen Namen und meine Adresse.\n*The secretary notes down my name and address.*\n\n**notieren** = to note down"
+    }
+  ]
+}

@@ -1,0 +1,119 @@
+{
+  "id": "tb1-u61-l01-think-like-b1",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u61",
+  "title": "Think like B1 (Denken wie B1)",
+  "tip": "Assemble chunks you know; don't translate word for word.",
+  "exercises": [
+    {
+      "id": "tb1-u61-l01-think-like-b1-ex01",
+      "type": "explain",
+      "title": "1. Denke in Bausteinen, nicht in Übersetzungen",
+      "body": "Don't translate word for word from your language. Take a **ready-made chunk** you already know and drop it in. B1 writing means **assembling**, not inventing.\n\n*Deutsch:* Übersetze nicht Wort für Wort aus deiner Sprache. Nimm einen **fertigen Baustein**, den du schon kennst, und setz ihn ein. B1-Schreiben heißt **zusammenbauen**, nicht neu erfinden."
+    },
+    {
+      "id": "tb1-u61-l01-think-like-b1-ex02",
+      "type": "explain",
+      "title": "2. Ein Gedanke = ein einfacher Satz, dann verbinden",
+      "body": "Don't build monster sentences. Write one **simple, correct** sentence first, then attach the next with a connector. Two short correct sentences beat one long wrong one.\n\n*Deutsch:* Bau keine Monster-Sätze. Schreib erst einen **einfachen, korrekten** Satz, dann häng mit einem Konnektor den nächsten an. Zwei kurze richtige Sätze sind besser als ein langer falscher."
+    },
+    {
+      "id": "tb1-u61-l01-think-like-b1-ex03",
+      "type": "explain",
+      "title": "3. Die zwei Anker der Wortstellung",
+      "body": "Remember just two rules: (1) In a main clause the verb is in **position 2**. (2) After **weil, dass, wenn, obwohl** the verb goes **to the end**. That wins half the grammar.\n\n*Deutsch:* Merke dir nur zwei Regeln: (1) Im Hauptsatz steht das Verb auf **Position 2**. (2) Nach **weil, dass, wenn, obwohl** geht das Verb **ans Ende**. Damit ist die halbe Grammatik gewonnen."
+    },
+    {
+      "id": "tb1-u61-l01-think-like-b1-ex04",
+      "type": "explain",
+      "title": "4. Die 5 Upgrade-Schritte (A2 → B1)",
+      "body": "Turn an A2 sentence into a B1 one: **1.** add a connector (weil/deshalb). **2.** make it a subordinate clause. **3.** add an opinion frame (Ich finde, dass …). **4.** insert a Redemittel chunk. **5.** vary the start (begin with time/place → inversion).\n\n*Deutsch:* So machst du aus einem A2-Satz einen B1-Satz: **1.** einen Konnektor dazu (weil/deshalb). **2.** einen Nebensatz draus machen. **3.** einen Meinungs-Rahmen davor (Ich finde, dass …). **4.** einen Redemittel-Chunk einbauen. **5.** den Satzanfang variieren (mit Zeit/Ort beginnen → Inversion)."
+    },
+    {
+      "id": "tb1-u61-l01-think-like-b1-ex05",
+      "type": "explain",
+      "title": "5. Vollständigkeit schlägt Brillanz",
+      "body": "In the telc letter what counts: cover **all 4 points**, link them with **connectors**, don't forget salutation + closing. B-B-B = pass. Write simple and complete rather than complex and half-done.\n\n*Deutsch:* Im telc-Brief zählt: **alle 4 Leitpunkte** behandeln, mit **Konnektoren** verbinden, Anrede + Gruß nicht vergessen. B-B-B = bestanden. Schreib lieber einfach und komplett als kompliziert und halb."
+    },
+    {
+      "id": "tb1-u61-l01-think-like-b1-ex06",
+      "type": "choice",
+      "prompt": "In a main clause (Hauptsatz), where does the verb go?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Position 1"
+        },
+        {
+          "id": "b",
+          "text": "Position 2"
+        },
+        {
+          "id": "c",
+          "text": "At the end"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Remember just two rules: (1) In a main clause the verb is in **position 2**. (2) After **weil, dass, wenn, obwohl** the verb goes **to the end**. That wins half the grammar."
+    },
+    {
+      "id": "tb1-u61-l01-think-like-b1-ex07",
+      "type": "choice",
+      "prompt": "After weil, dass, wenn, obwohl the verb goes …",
+      "options": [
+        {
+          "id": "a",
+          "text": "to the end"
+        },
+        {
+          "id": "b",
+          "text": "to position 2"
+        },
+        {
+          "id": "c",
+          "text": "to position 1"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Remember just two rules: (1) In a main clause the verb is in **position 2**. (2) After **weil, dass, wenn, obwohl** the verb goes **to the end**. That wins half the grammar."
+    },
+    {
+      "id": "tb1-u61-l01-think-like-b1-ex08",
+      "type": "choice",
+      "prompt": "What counts most in the telc letter?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Long, complicated sentences"
+        },
+        {
+          "id": "b",
+          "text": "All 4 points, linked with connectors, with salutation and closing"
+        },
+        {
+          "id": "c",
+          "text": "Rare, advanced words"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "In the telc letter what counts: cover **all 4 points**, link them with **connectors**, don't forget salutation + closing. B-B-B = pass. Write simple and complete rather than complex and half-done."
+    },
+    {
+      "id": "tb1-u61-l01-think-like-b1-ex09",
+      "type": "choice",
+      "prompt": "Which is better at B1?",
+      "options": [
+        {
+          "id": "a",
+          "text": "One long sentence, even with mistakes"
+        },
+        {
+          "id": "b",
+          "text": "Two short correct sentences joined with a connector"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Don't build monster sentences. Write one **simple, correct** sentence first, then attach the next with a connector. Two short correct sentences beat one long wrong one."
+    }
+  ]
+}

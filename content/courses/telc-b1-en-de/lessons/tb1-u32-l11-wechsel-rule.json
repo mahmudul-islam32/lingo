@@ -1,0 +1,151 @@
+{
+  "id": "tb1-u32-l11-wechsel-rule",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u32",
+  "title": "Two-Way Prepositions: the rule",
+  "tip": "“Ich gehe in dem Park”, if you mean the destination: in den Park. Meeting points in letters are dative: Wir treffen uns vor dem Kino / am Bahnhof.",
+  "exercises": [
+    {
+      "id": "tb1-u32-l11-wechsel-rule-ex01",
+      "type": "explain",
+      "title": "Two-Way Prepositions",
+      "body": "an, auf, hinter, in, neben, über, unter, vor, zwischen: **Wohin? → accusative** (movement towards a goal) · **Wo? → dative** (position). Pairs: stellen/stehen, legen/liegen, setzen/sitzen, hängen/hängen.\n\n*Deutsch:* an, auf, hinter, in, neben, über, unter, vor, zwischen: **Wohin? → Akkusativ** (Bewegung zum Ziel) · **Wo? → Dativ** (Position). Paare: stellen/stehen, legen/liegen, setzen/sitzen, hängen/hängen.\n\n*German name:* Wechselpräpositionen",
+      "examples": [
+        {
+          "learning": "Ich stelle die Tasche auf den Tisch.",
+          "known": "I put the bag onto the table. (wohin → acc.)"
+        },
+        {
+          "learning": "Die Tasche steht auf dem Tisch.",
+          "known": "The bag is on the table. (wo → dat.)"
+        },
+        {
+          "learning": "Wir gehen heute Abend ins Kino.",
+          "known": "We're going to the cinema tonight."
+        }
+      ]
+    },
+    {
+      "id": "tb1-u32-l11-wechsel-rule-ex02",
+      "type": "explain",
+      "title": "Two-Way Prepositions: step by step",
+      "body": "The one question that solves everything: **Wohin?** (goal, direction) → accusative · **Wo?** (location, no movement towards) → dative.\nVerb pairs as a signal:\n• stellen/legen/setzen/hängen (active, whereto) → accusative: Ich stelle die Flasche **in den** Kühlschrank.\n• stehen/liegen/sitzen/hängen (state, where) → dative: Die Flasche steht **im** Kühlschrank.\nCareful: “movement” means movement TOWARDS A GOAL. Walking IM Park = dative (you stay inside the park), gehen IN DEN Park = accusative (you're still outside).\nContractions: in das = **ins**, in dem = **im**, an das = **ans**, an dem = **am**.\n\n## Auf Deutsch\n\nDie eine Frage, die alles löst: **Wohin?** (Ziel, Richtung) → Akkusativ · **Wo?** (Ort, keine Bewegung zum Ziel) → Dativ.\nVerb-Paare als Signal:\n• stellen/legen/setzen/hängen (aktiv, wohin) → Akkusativ: Ich stelle die Flasche **in den** Kühlschrank.\n• stehen/liegen/sitzen/hängen (Zustand, wo) → Dativ: Die Flasche steht **im** Kühlschrank.\nAchtung: „Bewegung“ heißt Bewegung ZUM ZIEL. Spazieren gehen IM Park = Dativ (du bleibst im Park), gehen IN DEN Park = Akkusativ (du bist noch draußen).\nKurzformen: in das = **ins**, in dem = **im**, an das = **ans**, an dem = **am**.",
+      "examples": [
+        {
+          "learning": "Ich stelle die Tasche auf den Tisch.",
+          "known": "I put the bag onto the table. (wohin → acc.)"
+        },
+        {
+          "learning": "Die Tasche steht auf dem Tisch.",
+          "known": "The bag is on the table. (wo → dat.)"
+        },
+        {
+          "learning": "Wir gehen heute Abend ins Kino.",
+          "known": "We're going to the cinema tonight."
+        },
+        {
+          "learning": "Ich warte vor dem Eingang auf dich.",
+          "known": "I'll wait for you in front of the entrance. (meeting point!)"
+        },
+        {
+          "learning": "Testlücke-Stil: „Häng das Poster ___ Wand!“ → an die",
+          "known": "hängen (wohin?) → an die Wand"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u32-l11-wechsel-rule-ex03",
+      "type": "explain",
+      "title": "Watch out & exam tip",
+      "body": "## Common trap\n\n“Ich gehe in dem Park”, if you mean the destination: in den Park. Meeting points in letters are dative: Wir treffen uns vor dem Kino / am Bahnhof.\n\n*Deutsch:* „Ich gehe in dem Park“, wenn du das Ziel meinst: in den Park. Und Treffpunkte im Brief sind Dativ: Wir treffen uns vor dem Kino / am Bahnhof.\n\n## In the exam\n\n🎯 How telc tests it: **Sprachbausteine**: in den/im, an die/an der as options. In the **letter & speaking part 3** you need meeting points: “vor dem Kino”, “am Bahnhof”, “im Café”, wrong case is instantly visible.\n\n*Deutsch:* 🎯 So testet telc das: **Sprachbausteine**: in den/im, an die/an der als Optionen. Im **Brief & Sprechen Teil 3** brauchst du Treffpunkte: „vor dem Kino“, „am Bahnhof“, „im Café“, falscher Kasus fällt sofort auf.\n\n*Source:* Guide B9 · PDF „Lokale Präposition“"
+    },
+    {
+      "id": "tb1-u32-l11-wechsel-rule-ex04",
+      "type": "choice",
+      "title": "Fill the gap",
+      "prompt": "Ich hänge das Bild ___ Wand.",
+      "options": [
+        {
+          "id": "a",
+          "text": "an die"
+        },
+        {
+          "id": "b",
+          "text": "auf die"
+        },
+        {
+          "id": "c",
+          "text": "an der"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Wohin? → Akkusativ: an die Wand."
+    },
+    {
+      "id": "tb1-u32-l11-wechsel-rule-ex05",
+      "type": "choice",
+      "title": "Fill the gap",
+      "prompt": "Das Bild hängt jetzt ___ Wand.",
+      "options": [
+        {
+          "id": "a",
+          "text": "an die"
+        },
+        {
+          "id": "b",
+          "text": "auf der"
+        },
+        {
+          "id": "c",
+          "text": "an der"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Wo? → Dativ: an der Wand."
+    },
+    {
+      "id": "tb1-u32-l11-wechsel-rule-ex06",
+      "type": "choice",
+      "title": "Fill the gap",
+      "prompt": "Er legt das Buch ___ Tisch.",
+      "options": [
+        {
+          "id": "a",
+          "text": "auf dem"
+        },
+        {
+          "id": "b",
+          "text": "in den"
+        },
+        {
+          "id": "c",
+          "text": "auf den"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "legen = Bewegung → Akkusativ: auf den Tisch."
+    },
+    {
+      "id": "tb1-u32-l11-wechsel-rule-ex07",
+      "type": "choice",
+      "title": "Fill the gap",
+      "prompt": "Die Kinder spielen ___ Garten.",
+      "options": [
+        {
+          "id": "a",
+          "text": "ins"
+        },
+        {
+          "id": "b",
+          "text": "in den"
+        },
+        {
+          "id": "c",
+          "text": "im"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Wo spielen sie? → Dativ: im (= in dem) Garten."
+    }
+  ]
+}

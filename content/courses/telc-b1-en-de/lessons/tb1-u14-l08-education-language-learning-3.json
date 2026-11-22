@@ -1,0 +1,234 @@
+{
+  "id": "tb1-u14-l08-education-language-learning-3",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u14",
+  "title": "Education & Language Learning 3",
+  "tip": "Theme: Bildung / Sprachenlernen (B1)",
+  "exercises": [
+    {
+      "id": "tb1-u14-l08-education-language-learning-3-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "die Prüfung",
+          "known": "exam"
+        },
+        {
+          "id": "p2",
+          "learning": "bestehen",
+          "known": "to pass"
+        },
+        {
+          "id": "p3",
+          "learning": "die Note",
+          "known": "grade"
+        },
+        {
+          "id": "p4",
+          "learning": "die Schule",
+          "known": "school"
+        },
+        {
+          "id": "p5",
+          "learning": "die Ausbildung",
+          "known": "vocational training"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u14-l08-education-language-learning-3-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which verb means „to take part in: participant“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "übersetzen (hat übersetzt): das Wörterbuch, die Wörterbücher"
+        },
+        {
+          "id": "b",
+          "text": "üben · wiederholen (hat wiederholt)"
+        },
+        {
+          "id": "c",
+          "text": "teilnehmen an + Dat. (hat teilgenommen), der Teilnehmer, die Teilnehmer"
+        },
+        {
+          "id": "d",
+          "text": "bestehen (hat bestanden) ↔ durchfallen (ist durchgefallen)"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**teilnehmen an + Dat. (hat teilgenommen), der Teilnehmer, die Teilnehmer** = to take part in: participant\n\n*Example:* Zwölf Teilnehmer haben an dem Erste-Hilfe-Kurs teilgenommen.\nTwelve participants took part in the first-aid course."
+    },
+    {
+      "id": "tb1-u14-l08-education-language-learning-3-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „exam: to take an exam“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Ausbildung, die Ausbildungen: eine Ausbildung machen"
+        },
+        {
+          "id": "b",
+          "text": "der Student, die Studenten (n-Dekl.) / die Studentin, die Studentinnen"
+        },
+        {
+          "id": "c",
+          "text": "die Prüfung, die Prüfungen: eine Prüfung ablegen"
+        },
+        {
+          "id": "d",
+          "text": "die Volkshochschule (VHS), die Volkshochschulen"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**die Prüfung** = exam: to take an exam\n*Plural: die Prüfungen: eine Prüfung ablegen*\n\n*Example:* Mein Sohn hat morgen eine Prüfung in Englisch.\nMy son has an English exam tomorrow."
+    },
+    {
+      "id": "tb1-u14-l08-education-language-learning-3-ex04",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u14-l08-education-language-learning-3-1.mp3"
+      },
+      "tiles": [
+        "die",
+        "haben",
+        "mache",
+        "Zwölf",
+        "teilgenommen",
+        "Erste-Hilfe-Kurs",
+        "acht",
+        "an",
+        "Teilnehmer",
+        "dem"
+      ],
+      "answers": [
+        "Zwölf Teilnehmer haben an dem Erste-Hilfe-Kurs teilgenommen."
+      ],
+      "explanation": "Zwölf Teilnehmer haben an dem Erste-Hilfe-Kurs teilgenommen.\n*Twelve participants took part in the first-aid course.*\n\n**teilnehmen an + Dat. (hat teilgenommen), der Teilnehmer, die Teilnehmer** = to take part in: participant"
+    },
+    {
+      "id": "tb1-u14-l08-education-language-learning-3-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which verb means „to pass ↔ to fail“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "bestehen (hat bestanden) ↔ durchfallen (ist durchgefallen)"
+        },
+        {
+          "id": "b",
+          "text": "üben · wiederholen (hat wiederholt)"
+        },
+        {
+          "id": "c",
+          "text": "übersetzen (hat übersetzt): das Wörterbuch, die Wörterbücher"
+        },
+        {
+          "id": "d",
+          "text": "teilnehmen an + Dat. (hat teilgenommen), der Teilnehmer, die Teilnehmer"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**bestehen (hat bestanden) ↔ durchfallen (ist durchgefallen)** = to pass ↔ to fail\n\n*Example:* Tom hat die Führerscheinprüfung bestanden, aber sein Freund ist durchgefallen.\nTom passed his driving test, but his friend failed."
+    },
+    {
+      "id": "tb1-u14-l08-education-language-learning-3-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Mein Sohn hat morgen eine Prüfung in Englisch.",
+      "tiles": [
+        "My",
+        "apprenticeship",
+        "The",
+        "tomorrow",
+        "has",
+        "English",
+        "adult",
+        "an",
+        "son",
+        "exam"
+      ],
+      "answers": [
+        "My son has an English exam tomorrow."
+      ],
+      "explanation": "**die Prüfung** = exam: to take an exam\n*Plural: die Prüfungen: eine Prüfung ablegen*"
+    },
+    {
+      "id": "tb1-u14-l08-education-language-learning-3-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „grade, mark“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Schule, die Schulen · das Gymnasium, die Gymnasien"
+        },
+        {
+          "id": "b",
+          "text": "die Ausbildung, die Ausbildungen: eine Ausbildung machen"
+        },
+        {
+          "id": "c",
+          "text": "die Note, die Noten"
+        },
+        {
+          "id": "d",
+          "text": "die Prüfung, die Prüfungen: eine Prüfung ablegen"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**die Note** = grade, mark\n*Plural: die Noten*\n\n*Example:* In Deutschland ist eine Eins die beste Note.\nIn Germany a one is the best grade."
+    },
+    {
+      "id": "tb1-u14-l08-education-language-learning-3-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Tom passed his driving test, but his friend failed.",
+      "tiles": [
+        "nebenbei",
+        "die",
+        "sein",
+        "Seit",
+        "hat",
+        "Tom",
+        "bestanden",
+        "ist",
+        "eine",
+        "Freund",
+        "Führerscheinprüfung",
+        "durchgefallen",
+        "aber"
+      ],
+      "answers": [
+        "Tom hat die Führerscheinprüfung bestanden, aber sein Freund ist durchgefallen."
+      ],
+      "explanation": "**bestehen (hat bestanden) ↔ durchfallen (ist durchgefallen)** = to pass ↔ to fail"
+    },
+    {
+      "id": "tb1-u14-l08-education-language-learning-3-ex09",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u14-l08-education-language-learning-3-4.mp3"
+      },
+      "tiles": [
+        "ist",
+        "Bedeutung",
+        "eine",
+        "beste",
+        "die",
+        "Eins",
+        "Deutschland",
+        "In",
+        "Note",
+        "Cousine",
+        "aufs"
+      ],
+      "answers": [
+        "In Deutschland ist eine Eins die beste Note."
+      ],
+      "explanation": "In Deutschland ist eine Eins die beste Note.\n*In Germany a one is the best grade.*\n\n**die Note** = grade, mark\n*Plural: die Noten*"
+    }
+  ]
+}

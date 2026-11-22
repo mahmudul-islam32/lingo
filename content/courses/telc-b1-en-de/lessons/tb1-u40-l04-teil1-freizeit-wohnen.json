@@ -1,0 +1,270 @@
+{
+  "id": "tb1-u40-l04-teil1-freizeit-wohnen",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u40",
+  "title": "Headlines 4: Freizeit & Wohnen",
+  "tip": "Match each text with one headline. Five headlines stay unused.",
+  "exercises": [
+    {
+      "id": "tb1-u40-l04-teil1-freizeit-wohnen-ex01",
+      "type": "explain",
+      "title": "Teil 1 · Freizeit & Wohnen: how to match headlines",
+      "body": "**5 texts · 10 headlines · 5 stay unused.** Each headline fits only one text.\n\n- Read all 10 headlines first and look for pairs: one headline says what the text says, its twin turns a detail around (the opposite, a wrong cause, an invented fact).\n- A headline that only repeats a word from the text (\"Bücher\", \"Radwege\") is often the trap: it recycles the word but changes the message.\n- Decide by the main message of the text, not by single words.\n\nIn this lesson the headlines are always listed in the same order (A–J), like the answer sheet. Remember which ones you have already used."
+    },
+    {
+      "id": "tb1-u40-l04-teil1-freizeit-wohnen-ex02",
+      "type": "choice",
+      "title": "Text 1 · Freizeit & Wohnen",
+      "passage": "Der Sportverein sucht neue Mitglieder und bietet im ersten Monat ein kostenloses Probetraining an.",
+      "prompt": "Welche Überschrift passt zu Text 1?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Sportverein erhöht die Mitgliedsbeiträge"
+        },
+        {
+          "id": "b",
+          "text": "Warmes Wochenende sorgt für gute Laune"
+        },
+        {
+          "id": "c",
+          "text": "Stadtfest findet trotz schlechtem Wetter statt"
+        },
+        {
+          "id": "d",
+          "text": "Neue Wohnungen in der Stadt: für viele aber zu teuer"
+        },
+        {
+          "id": "e",
+          "text": "Kälteeinbruch am Wochenende erwartet"
+        },
+        {
+          "id": "f",
+          "text": "Günstige Mieten locken viele in die Innenstadt"
+        },
+        {
+          "id": "g",
+          "text": "Stadtfest wegen Regen abgesagt"
+        },
+        {
+          "id": "h",
+          "text": "Büros drucken immer mehr Dokumente aus"
+        },
+        {
+          "id": "i",
+          "text": "Büros wollen Papier sparen"
+        },
+        {
+          "id": "j",
+          "text": "Sportverein wirbt mit kostenlosem Probemonat"
+        }
+      ],
+      "correctOptionId": "j",
+      "explanation": "**Answer: J** „Sportverein wirbt mit kostenlosem Probemonat“\n\nText 1: gratis Probemonat. Falle A („erhöht Beiträge“) passt nicht."
+    },
+    {
+      "id": "tb1-u40-l04-teil1-freizeit-wohnen-ex03",
+      "type": "choice",
+      "title": "Text 2 · Freizeit & Wohnen",
+      "passage": "Das Stadtfest findet dieses Jahr trotz des schlechten Wetters wie geplant statt.",
+      "prompt": "Welche Überschrift passt zu Text 2?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Sportverein erhöht die Mitgliedsbeiträge"
+        },
+        {
+          "id": "b",
+          "text": "Warmes Wochenende sorgt für gute Laune"
+        },
+        {
+          "id": "c",
+          "text": "Stadtfest findet trotz schlechtem Wetter statt"
+        },
+        {
+          "id": "d",
+          "text": "Neue Wohnungen in der Stadt: für viele aber zu teuer"
+        },
+        {
+          "id": "e",
+          "text": "Kälteeinbruch am Wochenende erwartet"
+        },
+        {
+          "id": "f",
+          "text": "Günstige Mieten locken viele in die Innenstadt"
+        },
+        {
+          "id": "g",
+          "text": "Stadtfest wegen Regen abgesagt"
+        },
+        {
+          "id": "h",
+          "text": "Büros drucken immer mehr Dokumente aus"
+        },
+        {
+          "id": "i",
+          "text": "Büros wollen Papier sparen"
+        },
+        {
+          "id": "j",
+          "text": "Sportverein wirbt mit kostenlosem Probemonat"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**Answer: C** „Stadtfest findet trotz schlechtem Wetter statt“\n\nText 2: Fest trotz schlechtem Wetter; Falle G sagt „abgesagt“."
+    },
+    {
+      "id": "tb1-u40-l04-teil1-freizeit-wohnen-ex04",
+      "type": "choice",
+      "title": "Text 3 · Freizeit & Wohnen",
+      "passage": "Viele Büros wollen weniger Papier verbrauchen und arbeiten deshalb mehr am Computer.",
+      "prompt": "Welche Überschrift passt zu Text 3?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Sportverein erhöht die Mitgliedsbeiträge"
+        },
+        {
+          "id": "b",
+          "text": "Warmes Wochenende sorgt für gute Laune"
+        },
+        {
+          "id": "c",
+          "text": "Stadtfest findet trotz schlechtem Wetter statt"
+        },
+        {
+          "id": "d",
+          "text": "Neue Wohnungen in der Stadt: für viele aber zu teuer"
+        },
+        {
+          "id": "e",
+          "text": "Kälteeinbruch am Wochenende erwartet"
+        },
+        {
+          "id": "f",
+          "text": "Günstige Mieten locken viele in die Innenstadt"
+        },
+        {
+          "id": "g",
+          "text": "Stadtfest wegen Regen abgesagt"
+        },
+        {
+          "id": "h",
+          "text": "Büros drucken immer mehr Dokumente aus"
+        },
+        {
+          "id": "i",
+          "text": "Büros wollen Papier sparen"
+        },
+        {
+          "id": "j",
+          "text": "Sportverein wirbt mit kostenlosem Probemonat"
+        }
+      ],
+      "correctOptionId": "i",
+      "explanation": "**Answer: I** „Büros wollen Papier sparen“\n\nText 3: weniger Papier → mehr Computer. Falle H dreht es um."
+    },
+    {
+      "id": "tb1-u40-l04-teil1-freizeit-wohnen-ex05",
+      "type": "choice",
+      "title": "Text 4 · Freizeit & Wohnen",
+      "passage": "Ab morgen wird es deutlich kälter. Am Wochenende kann sogar Schnee fallen.",
+      "prompt": "Welche Überschrift passt zu Text 4?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Sportverein erhöht die Mitgliedsbeiträge"
+        },
+        {
+          "id": "b",
+          "text": "Warmes Wochenende sorgt für gute Laune"
+        },
+        {
+          "id": "c",
+          "text": "Stadtfest findet trotz schlechtem Wetter statt"
+        },
+        {
+          "id": "d",
+          "text": "Neue Wohnungen in der Stadt: für viele aber zu teuer"
+        },
+        {
+          "id": "e",
+          "text": "Kälteeinbruch am Wochenende erwartet"
+        },
+        {
+          "id": "f",
+          "text": "Günstige Mieten locken viele in die Innenstadt"
+        },
+        {
+          "id": "g",
+          "text": "Stadtfest wegen Regen abgesagt"
+        },
+        {
+          "id": "h",
+          "text": "Büros drucken immer mehr Dokumente aus"
+        },
+        {
+          "id": "i",
+          "text": "Büros wollen Papier sparen"
+        },
+        {
+          "id": "j",
+          "text": "Sportverein wirbt mit kostenlosem Probemonat"
+        }
+      ],
+      "correctOptionId": "e",
+      "explanation": "**Answer: E** „Kälteeinbruch am Wochenende erwartet“\n\nText 4: es wird kälter, evtl. Schnee (Falle B: „warmes Wochenende“)."
+    },
+    {
+      "id": "tb1-u40-l04-teil1-freizeit-wohnen-ex06",
+      "type": "choice",
+      "title": "Text 5 · Freizeit & Wohnen",
+      "passage": "In der Innenstadt entstehen neue Wohnungen. Viele Menschen finden die Mieten aber zu hoch.",
+      "prompt": "Welche Überschrift passt zu Text 5?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Sportverein erhöht die Mitgliedsbeiträge"
+        },
+        {
+          "id": "b",
+          "text": "Warmes Wochenende sorgt für gute Laune"
+        },
+        {
+          "id": "c",
+          "text": "Stadtfest findet trotz schlechtem Wetter statt"
+        },
+        {
+          "id": "d",
+          "text": "Neue Wohnungen in der Stadt: für viele aber zu teuer"
+        },
+        {
+          "id": "e",
+          "text": "Kälteeinbruch am Wochenende erwartet"
+        },
+        {
+          "id": "f",
+          "text": "Günstige Mieten locken viele in die Innenstadt"
+        },
+        {
+          "id": "g",
+          "text": "Stadtfest wegen Regen abgesagt"
+        },
+        {
+          "id": "h",
+          "text": "Büros drucken immer mehr Dokumente aus"
+        },
+        {
+          "id": "i",
+          "text": "Büros wollen Papier sparen"
+        },
+        {
+          "id": "j",
+          "text": "Sportverein wirbt mit kostenlosem Probemonat"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**Answer: D** „Neue Wohnungen in der Stadt: für viele aber zu teuer“\n\nText 5: neue, aber zu teure Wohnungen; Falle F sagt „günstige Mieten“."
+    }
+  ]
+}

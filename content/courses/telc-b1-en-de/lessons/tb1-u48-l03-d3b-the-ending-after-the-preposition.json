@@ -1,0 +1,141 @@
+{
+  "id": "tb1-u48-l03-d3b-the-ending-after-the-preposition",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u48",
+  "title": "The ending after the preposition (Endung nach der Präposition)",
+  "tip": "Gap type: Präpositionen (prepositions).",
+  "exercises": [
+    {
+      "id": "tb1-u48-l03-d3b-the-ending-after-the-preposition-ex01",
+      "type": "explain",
+      "title": "The ending after the preposition",
+      "body": "Two steps, always the same: **1.** What case does the preposition demand? **2.** What gender is the noun?\n\n**Dative:** masc./neut. einem / meinem · fem. einer / meiner · plural meinen + noun with **-n** (mit meinen Freunde**n**).\n**Accusative:** masc. einen / meinen · fem. eine / meine · neut. ein / mein · plural meine.\ntelc loves this exact gap, twice in Übungstest 1: *bei ___ Firma* → einer, *bei ___ Freunden* → meinen.\n\n## Auf Deutsch: Endung nach der Präposition\n\nZwei Schritte, immer dieselben: **1.** Welchen Kasus verlangt die Präposition? **2.** Welches Genus hat das Nomen?\n\n**Dativ:** mask./neutr. einem / meinem · fem. einer / meiner · Plural meinen + Nomen mit **-n** (mit meinen Freunde**n**).\n**Akkusativ:** mask. einen / meinen · fem. eine / meine · neutr. ein / mein · Plural meine.\ntelc liebt genau diese Lücke, im Übungstest 1 zweimal: *bei ___ Firma* → einer, *bei ___ Freunden* → meinen."
+    },
+    {
+      "id": "tb1-u48-l03-d3b-the-ending-after-the-preposition-ex02",
+      "type": "choice",
+      "prompt": "Ich habe ein Praktikum bei ___ internationalen Firma gemacht.",
+      "options": [
+        {
+          "id": "a",
+          "text": "einer"
+        },
+        {
+          "id": "b",
+          "text": "eine"
+        },
+        {
+          "id": "c",
+          "text": "einem"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Answer: einer** · Präpositionen (prepositions)\n\nbei → dative; die Firma is feminine → einer.\n\n*Auf Deutsch:* bei → Dativ; die Firma ist feminin → einer."
+    },
+    {
+      "id": "tb1-u48-l03-d3b-the-ending-after-the-preposition-ex03",
+      "type": "choice",
+      "prompt": "Nach dem Kurs fahre ich mit ___ Freunden nach Hause.",
+      "options": [
+        {
+          "id": "a",
+          "text": "meine"
+        },
+        {
+          "id": "b",
+          "text": "meinen"
+        },
+        {
+          "id": "c",
+          "text": "meiner"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Answer: meinen** · Präpositionen (prepositions)\n\nmit → dative; plural → meinen (and Freunden with the dative -n).\n\n*Auf Deutsch:* mit → Dativ; Plural → meinen (und Freunden mit Dativ-n)."
+    },
+    {
+      "id": "tb1-u48-l03-d3b-the-ending-after-the-preposition-ex04",
+      "type": "choice",
+      "prompt": "Er wohnt seit ___ Monat in Leipzig.",
+      "options": [
+        {
+          "id": "a",
+          "text": "einen"
+        },
+        {
+          "id": "b",
+          "text": "einem"
+        },
+        {
+          "id": "c",
+          "text": "eines"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Answer: einem** · Präpositionen (prepositions)\n\nseit → dative; der Monat is masculine → einem.\n\n*Auf Deutsch:* seit → Dativ; der Monat ist maskulin → einem."
+    },
+    {
+      "id": "tb1-u48-l03-d3b-the-ending-after-the-preposition-ex05",
+      "type": "choice",
+      "prompt": "Das Geschenk ist für ___ Schwester.",
+      "options": [
+        {
+          "id": "a",
+          "text": "meiner"
+        },
+        {
+          "id": "b",
+          "text": "meinen"
+        },
+        {
+          "id": "c",
+          "text": "meine"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**Answer: meine** · Präpositionen (prepositions)\n\nfür → accusative; die Schwester is feminine → meine.\n\n*Auf Deutsch:* für → Akkusativ; die Schwester ist feminin → meine."
+    },
+    {
+      "id": "tb1-u48-l03-d3b-the-ending-after-the-preposition-ex06",
+      "type": "choice",
+      "prompt": "Wir sprechen gerade über ___ neuen Film.",
+      "options": [
+        {
+          "id": "a",
+          "text": "den"
+        },
+        {
+          "id": "b",
+          "text": "dem"
+        },
+        {
+          "id": "c",
+          "text": "der"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Answer: den** · Präpositionen (prepositions)\n\nsprechen über takes accusative (fixed pair); der Film is masculine → den.\n\n*Auf Deutsch:* sprechen über verlangt Akkusativ (festes Paar); der Film ist maskulin → den."
+    },
+    {
+      "id": "tb1-u48-l03-d3b-the-ending-after-the-preposition-ex07",
+      "type": "choice",
+      "prompt": "Sie kommt gerade aus ___ Büro.",
+      "options": [
+        {
+          "id": "a",
+          "text": "das"
+        },
+        {
+          "id": "b",
+          "text": "dem"
+        },
+        {
+          "id": "c",
+          "text": "den"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Answer: dem** · Präpositionen (prepositions)\n\naus → dative; das Büro is neuter → dem.\n\n*Auf Deutsch:* aus → Dativ; das Büro ist neutral → dem."
+    }
+  ]
+}

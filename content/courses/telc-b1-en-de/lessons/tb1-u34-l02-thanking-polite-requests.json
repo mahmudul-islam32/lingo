@@ -1,0 +1,375 @@
+{
+  "id": "tb1-u34-l02-thanking-polite-requests",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u34",
+  "title": "Letter toolkit: Thanking & Polite requests",
+  "tip": "Brief-Baukasten: ready-made building blocks for the telc letter.",
+  "exercises": [
+    {
+      "id": "tb1-u34-l02-thanking-polite-requests-ex01",
+      "type": "explain",
+      "title": "Thanking (Danken)",
+      "body": "danken + dative (dir/Ihnen). „im Voraus“ is semi-formal gold.\n\n*Deutsch:* danken + Dativ (dir/Ihnen). „im Voraus“ ist halbformelles Gold.\n\n- **Ich danke dir/Ihnen herzlich für …** = Thank you warmly for …\n- **Vielen Dank im Voraus für Ihre Mühe.** = Many thanks in advance for your effort.\n- **Das ist wirklich nett von dir!** = That's really nice of you!",
+      "examples": [
+        {
+          "learning": "Ich danke dir/Ihnen herzlich für …",
+          "known": "Thank you warmly for …"
+        },
+        {
+          "learning": "Vielen Dank im Voraus für Ihre Mühe.",
+          "known": "Many thanks in advance for your effort."
+        },
+        {
+          "learning": "Das ist wirklich nett von dir!",
+          "known": "That's really nice of you!"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u34-l02-thanking-polite-requests-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which phrase means „Thank you warmly for …“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Sehr geehrte Frau Weber, / Sehr geehrter Herr Klein,"
+        },
+        {
+          "id": "b",
+          "text": "Das ist wirklich nett von dir!"
+        },
+        {
+          "id": "c",
+          "text": "Ich habe mich sehr über deine Nachricht gefreut."
+        },
+        {
+          "id": "d",
+          "text": "Ich danke dir/Ihnen herzlich für …"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**Ich danke dir/Ihnen herzlich für …** = Thank you warmly for …\n\n*Grammar:* Cases: Nominative, Accusative, Dative"
+    },
+    {
+      "id": "tb1-u34-l02-thanking-polite-requests-ex03",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Thank you warmly for …",
+      "tiles": [
+        "danke",
+        "dir/Ihnen",
+        "mich",
+        "Grüße",
+        "arbeiten",
+        "Ich",
+        "für",
+        "herzlich"
+      ],
+      "answers": [
+        "Ich danke dir/Ihnen herzlich für …"
+      ],
+      "explanation": "**Ich danke dir/Ihnen herzlich für …** = Thank you warmly for …\n\n*Grammar:* Cases: Nominative, Accusative, Dative"
+    },
+    {
+      "id": "tb1-u34-l02-thanking-polite-requests-ex04",
+      "type": "multiple_choice",
+      "prompt": "Which phrase means „Many thanks in advance for your effort.“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Entschuldige bitte, dass ich erst jetzt antworte."
+        },
+        {
+          "id": "b",
+          "text": "Ich danke dir/Ihnen herzlich für …"
+        },
+        {
+          "id": "c",
+          "text": "Vielen Dank für deine/Ihre E-Mail."
+        },
+        {
+          "id": "d",
+          "text": "Vielen Dank im Voraus für Ihre Mühe."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**Vielen Dank im Voraus für Ihre Mühe.** = Many thanks in advance for your effort."
+    },
+    {
+      "id": "tb1-u34-l02-thanking-polite-requests-ex05",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Many thanks in advance for your effort.",
+      "tiles": [
+        "koche",
+        "Ihre",
+        "Vielen",
+        "Dank",
+        "im",
+        "uns",
+        "Voraus",
+        "für",
+        "dass",
+        "Mühe"
+      ],
+      "answers": [
+        "Vielen Dank im Voraus für Ihre Mühe."
+      ],
+      "explanation": "**Vielen Dank im Voraus für Ihre Mühe.** = Many thanks in advance for your effort."
+    },
+    {
+      "id": "tb1-u34-l02-thanking-polite-requests-ex06",
+      "type": "multiple_choice",
+      "prompt": "Which phrase means „That's really nice of you!“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Das ist wirklich nett von dir!"
+        },
+        {
+          "id": "b",
+          "text": "Entschuldige bitte, dass ich erst jetzt antworte."
+        },
+        {
+          "id": "c",
+          "text": "Liebe Anna, / Lieber Omar,"
+        },
+        {
+          "id": "d",
+          "text": "Wäre es möglich, den Termin zu verschieben?"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Das ist wirklich nett von dir!** = That's really nice of you!"
+    },
+    {
+      "id": "tb1-u34-l02-thanking-polite-requests-ex07",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "That's really nice of you!",
+      "tiles": [
+        "ist",
+        "Liebe",
+        "verschieben",
+        "der",
+        "dir",
+        "Das",
+        "wirklich",
+        "von",
+        "nett"
+      ],
+      "answers": [
+        "Das ist wirklich nett von dir!"
+      ],
+      "explanation": "**Das ist wirklich nett von dir!** = That's really nice of you!"
+    },
+    {
+      "id": "tb1-u34-l02-thanking-polite-requests-ex08",
+      "type": "explain",
+      "title": "Polite requests (Höflich bitten (Konjunktiv II))",
+      "body": "ALWAYS make formal requests in Konjunktiv II; it is the safest way to criterion-II points.\n\n*Deutsch:* Formelle Bitten IMMER im Konjunktiv II, das ist der sicherste Weg zu Kriterium-II-Punkten.\n\n- **Könnten Sie mir bitte mitteilen, ob/wann …?** = Could you please let me know whether/when …?\n- **Wäre es möglich, den Termin zu verschieben?** = Would it be possible to move the appointment?\n- **Ich hätte noch eine Frage: …** = I have one more question: …\n- **Ich würde mich freuen, wenn Sie …** = I would be glad if you …",
+      "examples": [
+        {
+          "learning": "Könnten Sie mir bitte mitteilen, ob/wann …?",
+          "known": "Could you please let me know whether/when …?"
+        },
+        {
+          "learning": "Wäre es möglich, den Termin zu verschieben?",
+          "known": "Would it be possible to move the appointment?"
+        },
+        {
+          "learning": "Ich hätte noch eine Frage: …",
+          "known": "I have one more question: …"
+        },
+        {
+          "learning": "Ich würde mich freuen, wenn Sie …",
+          "known": "I would be glad if you …"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u34-l02-thanking-polite-requests-ex09",
+      "type": "multiple_choice",
+      "prompt": "Which phrase means „Could you please let me know whether/when …?“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Entschuldige bitte, dass ich erst jetzt antworte."
+        },
+        {
+          "id": "b",
+          "text": "Könnten Sie mir bitte mitteilen, ob/wann …?"
+        },
+        {
+          "id": "c",
+          "text": "Ich hätte noch eine Frage: …"
+        },
+        {
+          "id": "d",
+          "text": "Ich danke dir/Ihnen herzlich für …"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Könnten Sie mir bitte mitteilen, ob/wann …?** = Could you please let me know whether/when …?\n\n*Grammar:* Konjunktiv II: Polite & Unreal"
+    },
+    {
+      "id": "tb1-u34-l02-thanking-polite-requests-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Could you please let me know whether/when …?",
+      "tiles": [
+        "Frau",
+        "es",
+        "ob/wann",
+        "Könnten",
+        "mitteilen",
+        "bitte",
+        "Viele",
+        "mir",
+        "Sie"
+      ],
+      "answers": [
+        "Könnten Sie mir bitte mitteilen, ob/wann …?"
+      ],
+      "explanation": "**Könnten Sie mir bitte mitteilen, ob/wann …?** = Could you please let me know whether/when …?\n\n*Grammar:* Konjunktiv II: Polite & Unreal"
+    },
+    {
+      "id": "tb1-u34-l02-thanking-polite-requests-ex11",
+      "type": "multiple_choice",
+      "prompt": "Which phrase means „Would it be possible to move the appointment?“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ich danke dir/Ihnen herzlich für …"
+        },
+        {
+          "id": "b",
+          "text": "Ich schreibe Ihnen, weil …"
+        },
+        {
+          "id": "c",
+          "text": "Ich würde mich freuen, wenn Sie …"
+        },
+        {
+          "id": "d",
+          "text": "Wäre es möglich, den Termin zu verschieben?"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**Wäre es möglich, den Termin zu verschieben?** = Would it be possible to move the appointment?\n\n*Grammar:* Konjunktiv II: Polite & Unreal"
+    },
+    {
+      "id": "tb1-u34-l02-thanking-polite-requests-ex12",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Would it be possible to move the appointment?",
+      "tiles": [
+        "/",
+        "möglich",
+        "Wäre",
+        "es",
+        "Termin",
+        "den",
+        "zu",
+        "verschieben",
+        "Vielen",
+        "bin"
+      ],
+      "answers": [
+        "Wäre es möglich, den Termin zu verschieben?"
+      ],
+      "explanation": "**Wäre es möglich, den Termin zu verschieben?** = Would it be possible to move the appointment?\n\n*Grammar:* Konjunktiv II: Polite & Unreal"
+    },
+    {
+      "id": "tb1-u34-l02-thanking-polite-requests-ex13",
+      "type": "multiple_choice",
+      "prompt": "Which phrase means „I have one more question: …“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ich würde mich freuen, wenn Sie …"
+        },
+        {
+          "id": "b",
+          "text": "Ich hätte noch eine Frage: …"
+        },
+        {
+          "id": "c",
+          "text": "Sehr geehrte Damen und Herren,"
+        },
+        {
+          "id": "d",
+          "text": "Wäre es möglich, den Termin zu verschieben?"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Ich hätte noch eine Frage: …** = I have one more question: …\n\n*Grammar:* Konjunktiv II: Polite & Unreal"
+    },
+    {
+      "id": "tb1-u34-l02-thanking-polite-requests-ex14",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I have one more question: …",
+      "tiles": [
+        "noch",
+        "in",
+        "Einladung",
+        "eine",
+        "hätte",
+        "Frage",
+        "Omar",
+        "Ich"
+      ],
+      "answers": [
+        "Ich hätte noch eine Frage: …"
+      ],
+      "explanation": "**Ich hätte noch eine Frage: …** = I have one more question: …\n\n*Grammar:* Konjunktiv II: Polite & Unreal"
+    },
+    {
+      "id": "tb1-u34-l02-thanking-polite-requests-ex15",
+      "type": "multiple_choice",
+      "prompt": "Which phrase means „I would be glad if you …“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Hallo Sarah,"
+        },
+        {
+          "id": "b",
+          "text": "Ich würde mich freuen, wenn Sie …"
+        },
+        {
+          "id": "c",
+          "text": "Ich danke dir/Ihnen herzlich für …"
+        },
+        {
+          "id": "d",
+          "text": "Sehr geehrte Frau Weber, / Sehr geehrter Herr Klein,"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Ich würde mich freuen, wenn Sie …** = I would be glad if you …\n\n*Grammar:* Konjunktiv II: Polite & Unreal"
+    },
+    {
+      "id": "tb1-u34-l02-thanking-polite-requests-ex16",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I would be glad if you …",
+      "tiles": [
+        "dass",
+        "Ich",
+        "Weber",
+        "freuen",
+        "würde",
+        "es",
+        "Sie",
+        "mich",
+        "wenn"
+      ],
+      "answers": [
+        "Ich würde mich freuen, wenn Sie …"
+      ],
+      "explanation": "**Ich würde mich freuen, wenn Sie …** = I would be glad if you …\n\n*Grammar:* Konjunktiv II: Polite & Unreal"
+    }
+  ]
+}

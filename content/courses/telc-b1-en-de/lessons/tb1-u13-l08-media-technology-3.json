@@ -1,0 +1,281 @@
+{
+  "id": "tb1-u13-l08-media-technology-3",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u13",
+  "title": "Media & Technology 3",
+  "tip": "Theme: Medien / Technik (B1)",
+  "exercises": [
+    {
+      "id": "tb1-u13-l08-media-technology-3-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "die Verbindung",
+          "known": "connection"
+        },
+        {
+          "id": "p2",
+          "learning": "die Webseite",
+          "known": "website"
+        },
+        {
+          "id": "p3",
+          "learning": "die E-Mail",
+          "known": "e-mail"
+        },
+        {
+          "id": "p4",
+          "learning": "die Nachricht",
+          "known": "message (die Nachrichten = the news)"
+        },
+        {
+          "id": "p5",
+          "learning": "herunterladen",
+          "known": "to download"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u13-l08-media-technology-3-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „connection“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "der Bildschirm, die Bildschirme"
+        },
+        {
+          "id": "b",
+          "text": "die sozialen Medien (Pl.), teilen"
+        },
+        {
+          "id": "c",
+          "text": "die Webseite, die Webseiten · die App, die Apps"
+        },
+        {
+          "id": "d",
+          "text": "die Verbindung, die Verbindungen"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**die Verbindung** = connection\n*Plural: die Verbindungen*\n\n*Example:* Die Verbindung ist schlecht, ich höre dich kaum.\nThe connection is bad, I can hardly hear you."
+    },
+    {
+      "id": "tb1-u13-l08-media-technology-3-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „website · app“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "das Internet (nur Sg.) · das WLAN"
+        },
+        {
+          "id": "b",
+          "text": "die sozialen Medien (Pl.), teilen"
+        },
+        {
+          "id": "c",
+          "text": "das Gerät, die Geräte"
+        },
+        {
+          "id": "d",
+          "text": "die Webseite, die Webseiten · die App, die Apps"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**die Webseite** = website · app\n*Plural: die Webseiten · also: die App, die Apps*\n\n*Example:* Mit dieser App kann man Bahntickets kaufen.\nYou can buy train tickets with this app."
+    },
+    {
+      "id": "tb1-u13-l08-media-technology-3-ex04",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u13-l08-media-technology-3-1.mp3"
+      },
+      "tiles": [
+        "kaum",
+        "ich",
+        "Die",
+        "schlecht",
+        "höre",
+        "Drucker",
+        "sind",
+        "Brief",
+        "Verbindung",
+        "dich",
+        "ist"
+      ],
+      "answers": [
+        "Die Verbindung ist schlecht, ich höre dich kaum."
+      ],
+      "explanation": "Die Verbindung ist schlecht, ich höre dich kaum.\n*The connection is bad, I can hardly hear you.*\n\n**die Verbindung** = connection\n*Plural: die Verbindungen*"
+    },
+    {
+      "id": "tb1-u13-l08-media-technology-3-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „e-mail: to send / receive / reply to“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die E-Mail, die E-Mails: schicken / bekommen / beantworten"
+        },
+        {
+          "id": "b",
+          "text": "die sozialen Medien (Pl.), teilen"
+        },
+        {
+          "id": "c",
+          "text": "der Computer, die Computer · der Laptop, die Laptops"
+        },
+        {
+          "id": "d",
+          "text": "die Webseite, die Webseiten · die App, die Apps"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**die E-Mail** = e-mail: to send / receive / reply to\n*Plural: die E-Mails: schicken / bekommen / beantworten*\n\n*Example:* Ich habe deine E-Mail bekommen und beantworte sie heute Abend.\nI got your e-mail and I'll reply to it this evening."
+    },
+    {
+      "id": "tb1-u13-l08-media-technology-3-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Mit dieser App kann man Bahntickets kaufen.",
+      "tiles": [
+        "reads",
+        "tickets",
+        "with",
+        "app",
+        "buy",
+        "My",
+        "You",
+        "The",
+        "train",
+        "can",
+        "this"
+      ],
+      "answers": [
+        "You can buy train tickets with this app."
+      ],
+      "explanation": "**die Webseite** = website · app\n*Plural: die Webseiten · also: die App, die Apps*"
+    },
+    {
+      "id": "tb1-u13-l08-media-technology-3-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „message (die Nachrichten = the news)“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "das Handy, die Handys · das Smartphone, die Smartphones"
+        },
+        {
+          "id": "b",
+          "text": "der Bildschirm, die Bildschirme"
+        },
+        {
+          "id": "c",
+          "text": "die Nachricht, die Nachrichten"
+        },
+        {
+          "id": "d",
+          "text": "die E-Mail, die E-Mails: schicken / bekommen / beantworten"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**die Nachricht** = message (die Nachrichten = the news)\n*Plural: die Nachrichten*\n\n*Example:* Maria hat mir eine Nachricht geschrieben.\nMaria sent me a message."
+    },
+    {
+      "id": "tb1-u13-l08-media-technology-3-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I got your e-mail and I'll reply to it this evening.",
+      "tiles": [
+        "E-Mail",
+        "Ich",
+        "beantworte",
+        "heute",
+        "Abend",
+        "und",
+        "habe",
+        "bekommen",
+        "einen",
+        "mir",
+        "sie",
+        "mein",
+        "deine"
+      ],
+      "answers": [
+        "Ich habe deine E-Mail bekommen und beantworte sie heute Abend."
+      ],
+      "explanation": "**die E-Mail** = e-mail: to send / receive / reply to\n*Plural: die E-Mails: schicken / bekommen / beantworten*"
+    },
+    {
+      "id": "tb1-u13-l08-media-technology-3-ex09",
+      "type": "multiple_choice",
+      "prompt": "Which verb means „to download“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "anrufen + Akk. (hat angerufen). Ich rufe dich an."
+        },
+        {
+          "id": "b",
+          "text": "fernsehen (hat ferngesehen): die Sendung, die Sendungen"
+        },
+        {
+          "id": "c",
+          "text": "herunterladen (hat heruntergeladen)"
+        },
+        {
+          "id": "d",
+          "text": "kaputt: kaputtgehen (ist kaputtgegangen)"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**herunterladen (hat heruntergeladen)** = to download\n\n*Example:* Ich habe das Formular von der Webseite heruntergeladen.\nI downloaded the form from the website."
+    },
+    {
+      "id": "tb1-u13-l08-media-technology-3-ex10",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u13-l08-media-technology-3-4.mp3"
+      },
+      "tiles": [
+        "eine",
+        "Sie",
+        "Maria",
+        "mir",
+        "hat",
+        "gibt",
+        "Nachricht",
+        "leer",
+        "geschrieben"
+      ],
+      "answers": [
+        "Maria hat mir eine Nachricht geschrieben."
+      ],
+      "explanation": "Maria hat mir eine Nachricht geschrieben.\n*Maria sent me a message.*\n\n**die Nachricht** = message (die Nachrichten = the news)\n*Plural: die Nachrichten*"
+    },
+    {
+      "id": "tb1-u13-l08-media-technology-3-ex11",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Ich habe das Formular von der Webseite heruntergeladen.",
+      "tiles": [
+        "downloaded",
+        "website",
+        "the",
+        "I",
+        "washing",
+        "the",
+        "form",
+        "from",
+        "vocabulary",
+        "hear"
+      ],
+      "answers": [
+        "I downloaded the form from the website."
+      ],
+      "explanation": "**herunterladen (hat heruntergeladen)** = to download"
+    }
+  ]
+}

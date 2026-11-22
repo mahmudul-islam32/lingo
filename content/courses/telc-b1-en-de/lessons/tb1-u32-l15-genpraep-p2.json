@@ -1,0 +1,178 @@
+{
+  "id": "tb1-u32-l15-genpraep-p2",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u32",
+  "title": "wegen, trotz, während + Genitive: während",
+  "tip": "“wegen dem Wetter” is colloquial, in the test: wegen des Wetters. And trotz ≠ trotzdem (trotz + noun, trotzdem + clause).",
+  "exercises": [
+    {
+      "id": "tb1-u32-l15-genpraep-p2-ex01",
+      "type": "explain",
+      "title": "während · Zeitraum",
+      "body": "während + genitive = during.\n\n*Deutsch:* während + Genitiv = in dieser Zeit.\n\n## Pattern\n\n**während** + **des/der** + Nomen",
+      "examples": [
+        {
+          "learning": "Während des Unterrichts ist das Handy aus.",
+          "known": "During class the phone is off."
+        },
+        {
+          "learning": "Während der Ferien arbeite ich im Café.",
+          "known": "During the holidays I work in a café."
+        }
+      ]
+    },
+    {
+      "id": "tb1-u32-l15-genpraep-p2-ex02",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "During class the phone is off.",
+      "tiles": [
+        "des",
+        "Handy",
+        "der",
+        "Prüfung",
+        "Während",
+        "das",
+        "Unterrichts",
+        "ist",
+        "aus",
+        "geschlossen"
+      ],
+      "answers": [
+        "Während des Unterrichts ist das Handy aus."
+      ],
+      "explanation": "**Why:** der Unterricht → des Unterrichts.\n\n*Warum:* der Unterricht → des Unterrichts."
+    },
+    {
+      "id": "tb1-u32-l15-genpraep-p2-ex03",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "During the holidays I work in a café.",
+      "tiles": [
+        "Ferien",
+        "ist",
+        "Café",
+        "arbeite",
+        "Regens",
+        "der",
+        "Während",
+        "Hause",
+        "ich",
+        "im"
+      ],
+      "answers": [
+        "Während der Ferien arbeite ich im Café."
+      ],
+      "explanation": "**Why:** Plural → der Ferien.\n\n*Warum:* Plural → der Ferien."
+    },
+    {
+      "id": "tb1-u32-l15-genpraep-p2-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Please don't talk during the film.",
+      "tiles": [
+        "Bitte",
+        "des",
+        "sprechen",
+        "nicht",
+        "ich",
+        "während",
+        "Hause",
+        "Trotz",
+        "Films"
+      ],
+      "answers": [
+        "Bitte nicht sprechen während des Films."
+      ],
+      "explanation": "**Why:** der Film → des Films.\n\n*Warum:* der Film → des Films."
+    },
+    {
+      "id": "tb1-u32-l15-genpraep-p2-ex05",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "During the week I have little time.",
+      "tiles": [
+        "habe",
+        "gegangen",
+        "des",
+        "Während",
+        "der",
+        "wenig",
+        "er",
+        "Woche",
+        "ich",
+        "Zeit"
+      ],
+      "answers": [
+        "Während der Woche habe ich wenig Zeit."
+      ],
+      "explanation": "**Why:** die Woche → der Woche.\n\n*Warum:* die Woche → der Woche."
+    },
+    {
+      "id": "tb1-u32-l15-genpraep-p2-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "During my holiday I was in Spain.",
+      "tiles": [
+        "der",
+        "Urlaubs",
+        "in",
+        "Spanien",
+        "des",
+        "Während",
+        "war",
+        "Zug",
+        "ich",
+        "meines"
+      ],
+      "answers": [
+        "Während meines Urlaubs war ich in Spanien."
+      ],
+      "explanation": "**Why:** der Urlaub → meines Urlaubs.\n\n*Warum:* der Urlaub → meines Urlaubs."
+    },
+    {
+      "id": "tb1-u32-l15-genpraep-p2-ex07",
+      "type": "choice",
+      "title": "Fill the gap",
+      "prompt": "___ eines Geschenks hat er Blumen mitgebracht.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Trotz"
+        },
+        {
+          "id": "b",
+          "text": "Statt"
+        },
+        {
+          "id": "c",
+          "text": "Während"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Ersatz → (an)statt + Genitiv."
+    },
+    {
+      "id": "tb1-u32-l15-genpraep-p2-ex08",
+      "type": "choice",
+      "title": "Fill the gap",
+      "prompt": "___ des schlechten Wetters bleiben wir zu Hause.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Seit"
+        },
+        {
+          "id": "b",
+          "text": "Wegen"
+        },
+        {
+          "id": "c",
+          "text": "Trotz"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Grund + Genitiv → Wegen des Wetters."
+    }
+  ]
+}

@@ -1,0 +1,289 @@
+{
+  "id": "tb1-u23-l05-exam-language-instructions-5",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u23",
+  "title": "Exam Language & Instructions 5",
+  "tip": "Theme: Prüfungssprache & Aufgaben (B1)",
+  "exercises": [
+    {
+      "id": "tb1-u23-l05-exam-language-instructions-5-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "der Antwortbogen",
+          "known": "answer sheet"
+        },
+        {
+          "id": "p2",
+          "learning": "die Notiz",
+          "known": "note"
+        },
+        {
+          "id": "p3",
+          "learning": "der Zettel",
+          "known": "slip of paper / note"
+        },
+        {
+          "id": "p4",
+          "learning": "die Tabelle",
+          "known": "table (chart)"
+        },
+        {
+          "id": "p5",
+          "learning": "die Grafik",
+          "known": "graphic / chart"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u23-l05-exam-language-instructions-5-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „answer sheet“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Dauer"
+        },
+        {
+          "id": "b",
+          "text": "die Bewertung, die Bewertungen"
+        },
+        {
+          "id": "c",
+          "text": "der Antwortbogen, die Antwortbögen"
+        },
+        {
+          "id": "d",
+          "text": "die Grafik, die Grafiken"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**der Antwortbogen** = answer sheet\n*Plural: die Antwortbögen*\n\n*Example:* Schreiben Sie Ihren Namen oben auf den Antwortbogen.\nWrite your name at the top of the answer sheet."
+    },
+    {
+      "id": "tb1-u23-l05-exam-language-instructions-5-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „note“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Anzeige, die Anzeigen"
+        },
+        {
+          "id": "b",
+          "text": "die Reihenfolge, die Reihenfolgen"
+        },
+        {
+          "id": "c",
+          "text": "die Grafik, die Grafiken"
+        },
+        {
+          "id": "d",
+          "text": "die Notiz, die Notizen"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**die Notiz** = note\n*Plural: die Notizen*\n\n*Example:* Mein Kollege macht sich während der Besprechung viele Notizen.\nMy colleague takes a lot of notes during the meeting."
+    },
+    {
+      "id": "tb1-u23-l05-exam-language-instructions-5-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Schreiben Sie Ihren Namen oben auf den Antwortbogen.",
+      "tiles": [
+        "minutes",
+        "answer",
+        "Monday",
+        "Write",
+        "sheet",
+        "at",
+        "the",
+        "name",
+        "your",
+        "top",
+        "the",
+        "of",
+        "how"
+      ],
+      "answers": [
+        "Write your name at the top of the answer sheet."
+      ],
+      "explanation": "**der Antwortbogen** = answer sheet\n*Plural: die Antwortbögen*"
+    },
+    {
+      "id": "tb1-u23-l05-exam-language-instructions-5-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „slip of paper / note“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Lücke, die Lücken"
+        },
+        {
+          "id": "b",
+          "text": "die Bewertung, die Bewertungen"
+        },
+        {
+          "id": "c",
+          "text": "der Zettel, die Zettel"
+        },
+        {
+          "id": "d",
+          "text": "der Schlusssatz, die Schlusssätze"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**der Zettel** = slip of paper / note\n*Plural: die Zettel*\n\n*Example:* Ich habe die Telefonnummer auf einen Zettel geschrieben.\nI wrote the phone number on a slip of paper."
+    },
+    {
+      "id": "tb1-u23-l05-exam-language-instructions-5-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "My colleague takes a lot of notes during the meeting.",
+      "tiles": [
+        "Notizen",
+        "Polizei",
+        "anfängt",
+        "macht",
+        "sich",
+        "Kollege",
+        "Besprechung",
+        "im",
+        "viele",
+        "der",
+        "während",
+        "Mein"
+      ],
+      "answers": [
+        "Mein Kollege macht sich während der Besprechung viele Notizen."
+      ],
+      "explanation": "**die Notiz** = note\n*Plural: die Notizen*"
+    },
+    {
+      "id": "tb1-u23-l05-exam-language-instructions-5-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „table (chart)“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Aussage, die Aussagen"
+        },
+        {
+          "id": "b",
+          "text": "die Tabelle, die Tabellen"
+        },
+        {
+          "id": "c",
+          "text": "die Grafik, die Grafiken"
+        },
+        {
+          "id": "d",
+          "text": "der Gesprächspartner, die Gesprächspartner"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**die Tabelle** = table (chart)\n*Plural: die Tabellen*\n\n*Example:* In der Tabelle stehen alle Preise für die Busfahrkarten.\nAll the prices for the bus tickets are in the table."
+    },
+    {
+      "id": "tb1-u23-l05-exam-language-instructions-5-ex08",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u23-l05-exam-language-instructions-5-3.mp3"
+      },
+      "tiles": [
+        "Arzt",
+        "einen",
+        "Ich",
+        "Zettel",
+        "den",
+        "die",
+        "Telefonnummer",
+        "habe",
+        "geschrieben",
+        "Unsere",
+        "auf"
+      ],
+      "answers": [
+        "Ich habe die Telefonnummer auf einen Zettel geschrieben."
+      ],
+      "explanation": "Ich habe die Telefonnummer auf einen Zettel geschrieben.\n*I wrote the phone number on a slip of paper.*\n\n**der Zettel** = slip of paper / note\n*Plural: die Zettel*"
+    },
+    {
+      "id": "tb1-u23-l05-exam-language-instructions-5-ex09",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „graphic / chart“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Anzeige, die Anzeigen"
+        },
+        {
+          "id": "b",
+          "text": "die Grafik, die Grafiken"
+        },
+        {
+          "id": "c",
+          "text": "die Tabelle, die Tabellen"
+        },
+        {
+          "id": "d",
+          "text": "der Beginn"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**die Grafik** = graphic / chart\n*Plural: die Grafiken*\n\n*Example:* Die Grafik zeigt, wie viele Menschen mit dem Fahrrad fahren.\nThe chart shows how many people cycle."
+    },
+    {
+      "id": "tb1-u23-l05-exam-language-instructions-5-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "In der Tabelle stehen alle Preise für die Busfahrkarten.",
+      "tiles": [
+        "the",
+        "prices",
+        "in",
+        "meeting",
+        "tickets",
+        "All",
+        "bus",
+        "the",
+        "table",
+        "the",
+        "for",
+        "newspaper",
+        "phone",
+        "are"
+      ],
+      "answers": [
+        "All the prices for the bus tickets are in the table."
+      ],
+      "explanation": "**die Tabelle** = table (chart)\n*Plural: die Tabellen*"
+    },
+    {
+      "id": "tb1-u23-l05-exam-language-instructions-5-ex11",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "The chart shows how many people cycle.",
+      "tiles": [
+        "notiert",
+        "wie",
+        "der",
+        "Grafik",
+        "Menschen",
+        "zeigt",
+        "fahren",
+        "viele",
+        "Freund",
+        "Die",
+        "mit",
+        "dem",
+        "Fahrrad"
+      ],
+      "answers": [
+        "Die Grafik zeigt, wie viele Menschen mit dem Fahrrad fahren."
+      ],
+      "explanation": "**die Grafik** = graphic / chart\n*Plural: die Grafiken*"
+    }
+  ]
+}

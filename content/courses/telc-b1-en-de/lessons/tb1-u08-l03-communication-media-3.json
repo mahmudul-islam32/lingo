@@ -1,0 +1,239 @@
+{
+  "id": "tb1-u08-l03-communication-media-3",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u08",
+  "title": "Communication & Media 3",
+  "tip": "Theme: Kommunikation & Medien (A2)",
+  "exercises": [
+    {
+      "id": "tb1-u08-l03-communication-media-3-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "telefonieren",
+          "known": "to talk on the phone"
+        },
+        {
+          "id": "p2",
+          "learning": "schicken",
+          "known": "to send"
+        },
+        {
+          "id": "p3",
+          "learning": "herunterladen",
+          "known": "to download"
+        },
+        {
+          "id": "p4",
+          "learning": "die Zeitung",
+          "known": "newspaper"
+        },
+        {
+          "id": "p5",
+          "learning": "das Handy",
+          "known": "mobile phone"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u08-l03-communication-media-3-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which one means „to talk on the phone“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "anrufen (ruft an)"
+        },
+        {
+          "id": "b",
+          "text": "speichern"
+        },
+        {
+          "id": "c",
+          "text": "telefonieren"
+        },
+        {
+          "id": "d",
+          "text": "löschen"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**telefonieren** = to talk on the phone\n\n*Example:* Maria telefoniert jeden Sonntag mit ihrer Mutter.\nMaria talks to her mother on the phone every Sunday."
+    },
+    {
+      "id": "tb1-u08-l03-communication-media-3-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which one means „to send“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "herunterladen (lädt herunter)"
+        },
+        {
+          "id": "b",
+          "text": "anrufen (ruft an)"
+        },
+        {
+          "id": "c",
+          "text": "telefonieren"
+        },
+        {
+          "id": "d",
+          "text": "schicken"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**schicken** = to send\n\n*Example:* Kannst du mir die Adresse per SMS schicken?\nCan you send me the address by text?"
+    },
+    {
+      "id": "tb1-u08-l03-communication-media-3-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Maria telefoniert jeden Sonntag mit ihrer Mutter.",
+      "tiles": [
+        "text",
+        "I",
+        "her",
+        "on",
+        "every",
+        "mother",
+        "phone",
+        "talks",
+        "the",
+        "Sunday",
+        "to",
+        "Maria",
+        "opening"
+      ],
+      "answers": [
+        "Maria talks to her mother on the phone every Sunday."
+      ],
+      "explanation": "**telefonieren** = to talk on the phone"
+    },
+    {
+      "id": "tb1-u08-l03-communication-media-3-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which one means „to download“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "telefonieren"
+        },
+        {
+          "id": "b",
+          "text": "anrufen (ruft an)"
+        },
+        {
+          "id": "c",
+          "text": "herunterladen (lädt herunter)"
+        },
+        {
+          "id": "d",
+          "text": "löschen"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**herunterladen (lädt herunter)** = to download\n\n*Example:* Tom lädt die App der Deutschen Bahn auf sein Handy herunter.\nTom is downloading the Deutsche Bahn app onto his phone."
+    },
+    {
+      "id": "tb1-u08-l03-communication-media-3-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Can you send me the address by text?",
+      "tiles": [
+        "SMS",
+        "du",
+        "schicken",
+        "im",
+        "Kannst",
+        "per",
+        "die",
+        "App",
+        "mir",
+        "Versehen",
+        "Adresse"
+      ],
+      "answers": [
+        "Kannst du mir die Adresse per SMS schicken?"
+      ],
+      "explanation": "**schicken** = to send"
+    },
+    {
+      "id": "tb1-u08-l03-communication-media-3-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „newspaper“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Nachricht, die Nachrichten"
+        },
+        {
+          "id": "b",
+          "text": "die Zeitung, die Zeitungen"
+        },
+        {
+          "id": "c",
+          "text": "das Internet"
+        },
+        {
+          "id": "d",
+          "text": "das Telefon, die Telefone"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**die Zeitung** = newspaper\n*Plural: die Zeitungen*\n\n*Example:* Am Kiosk kaufe ich jeden Samstag eine Zeitung.\nI buy a newspaper at the kiosk every Saturday."
+    },
+    {
+      "id": "tb1-u08-l03-communication-media-3-ex08",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u08-l03-communication-media-3-3.mp3"
+      },
+      "tiles": [
+        "App",
+        "lädt",
+        "Handy",
+        "eine",
+        "sein",
+        "herunter",
+        "Deutschen",
+        "Wohnung",
+        "die",
+        "Tom",
+        "wir",
+        "auf",
+        "Bahn",
+        "der"
+      ],
+      "answers": [
+        "Tom lädt die App der Deutschen Bahn auf sein Handy herunter."
+      ],
+      "explanation": "Tom lädt die App der Deutschen Bahn auf sein Handy herunter.\n*Tom is downloading the Deutsche Bahn app onto his phone.*\n\n**herunterladen (lädt herunter)** = to download"
+    },
+    {
+      "id": "tb1-u08-l03-communication-media-3-ex09",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Am Kiosk kaufe ich jeden Samstag eine Zeitung.",
+      "tiles": [
+        "the",
+        "Tom",
+        "newspaper",
+        "every",
+        "Saturday",
+        "kiosk",
+        "I",
+        "computer",
+        "buy",
+        "a",
+        "at",
+        "an"
+      ],
+      "answers": [
+        "I buy a newspaper at the kiosk every Saturday."
+      ],
+      "explanation": "**die Zeitung** = newspaper\n*Plural: die Zeitungen*"
+    }
+  ]
+}

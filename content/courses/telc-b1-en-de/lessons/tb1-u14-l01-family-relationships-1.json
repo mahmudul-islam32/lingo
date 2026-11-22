@@ -1,0 +1,282 @@
+{
+  "id": "tb1-u14-l01-family-relationships-1",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u14",
+  "title": "Family & Relationships 1",
+  "tip": "Theme: Familie / Beziehungen (B1)",
+  "exercises": [
+    {
+      "id": "tb1-u14-l01-family-relationships-1-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "die Eltern",
+          "known": "parents"
+        },
+        {
+          "id": "p2",
+          "learning": "das Kind",
+          "known": "child"
+        },
+        {
+          "id": "p3",
+          "learning": "die Geschwister",
+          "known": "siblings"
+        },
+        {
+          "id": "p4",
+          "learning": "die Großeltern",
+          "known": "grandparents"
+        },
+        {
+          "id": "p5",
+          "learning": "der Onkel",
+          "known": "uncle"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u14-l01-family-relationships-1-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „parents · father · mother“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Beziehung, die Beziehungen"
+        },
+        {
+          "id": "b",
+          "text": "die Großeltern (Pl.) · der Enkel, die Enkel"
+        },
+        {
+          "id": "c",
+          "text": "die Eltern (Pl.) · der Vater, die Väter · die Mutter, die Mütter"
+        },
+        {
+          "id": "d",
+          "text": "die Geschwister (Pl.) · der Bruder, die Brüder · die Schwester, die Schwestern"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**die Eltern (Pl.) · der Vater, die Väter · die Mutter, die Mütter** = parents · father · mother\n\n*Example:* Meine Eltern wohnen noch in der Türkei.\nMy parents still live in Turkey."
+    },
+    {
+      "id": "tb1-u14-l01-family-relationships-1-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „child · son · daughter“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "der Onkel, die Onkel · die Tante, die Tanten"
+        },
+        {
+          "id": "b",
+          "text": "das Kind, die Kinder · der Sohn, die Söhne · die Tochter, die Töchter"
+        },
+        {
+          "id": "c",
+          "text": "die Beziehung, die Beziehungen"
+        },
+        {
+          "id": "d",
+          "text": "die Eltern (Pl.) · der Vater, die Väter · die Mutter, die Mütter"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**das Kind** = child · son · daughter\n*Plural: die Kinder · also: der Sohn, die Söhne · die Tochter, die Töchter*\n\n*Example:* Familie Becker hat zwei Kinder, einen Sohn und eine Tochter.\nThe Becker family has two children, a son and a daughter."
+    },
+    {
+      "id": "tb1-u14-l01-family-relationships-1-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Meine Eltern wohnen noch in der Türkei.",
+      "tiles": [
+        "still",
+        "in",
+        "after",
+        "parents",
+        "baby",
+        "Turkey",
+        "My",
+        "live",
+        "siblings"
+      ],
+      "answers": [
+        "My parents still live in Turkey."
+      ],
+      "explanation": "**die Eltern (Pl.) · der Vater, die Väter · die Mutter, die Mütter** = parents · father · mother"
+    },
+    {
+      "id": "tb1-u14-l01-family-relationships-1-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „siblings · brother · sister“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "das Kind, die Kinder · der Sohn, die Söhne · die Tochter, die Töchter"
+        },
+        {
+          "id": "b",
+          "text": "die Geschwister (Pl.) · der Bruder, die Brüder · die Schwester, die Schwestern"
+        },
+        {
+          "id": "c",
+          "text": "die Eltern (Pl.) · der Vater, die Väter · die Mutter, die Mütter"
+        },
+        {
+          "id": "d",
+          "text": "die Beziehung, die Beziehungen"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**die Geschwister (Pl.) · der Bruder, die Brüder · die Schwester, die Schwestern** = siblings · brother · sister\n\n*Example:* Hast du Geschwister? – Ja, einen Bruder und eine Schwester.\nDo you have any siblings? – Yes, a brother and a sister."
+    },
+    {
+      "id": "tb1-u14-l01-family-relationships-1-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "The Becker family has two children, a son and a daughter.",
+      "tiles": [
+        "meiner",
+        "hat",
+        "zwei",
+        "eine",
+        "und",
+        "Familie",
+        "aber",
+        "Tochter",
+        "haben",
+        "Sohn",
+        "einen",
+        "Becker",
+        "Kinder"
+      ],
+      "answers": [
+        "Familie Becker hat zwei Kinder, einen Sohn und eine Tochter."
+      ],
+      "explanation": "**das Kind** = child · son · daughter\n*Plural: die Kinder · also: der Sohn, die Söhne · die Tochter, die Töchter*"
+    },
+    {
+      "id": "tb1-u14-l01-family-relationships-1-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „grandparents · grandchild“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Eltern (Pl.) · der Vater, die Väter · die Mutter, die Mütter"
+        },
+        {
+          "id": "b",
+          "text": "die Geschwister (Pl.) · der Bruder, die Brüder · die Schwester, die Schwestern"
+        },
+        {
+          "id": "c",
+          "text": "die Großeltern (Pl.) · der Enkel, die Enkel"
+        },
+        {
+          "id": "d",
+          "text": "das Kind, die Kinder · der Sohn, die Söhne · die Tochter, die Töchter"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**die Großeltern (Pl.) · der Enkel, die Enkel** = grandparents · grandchild\n\n*Example:* Am Wochenende besuchen die Enkel ihre Großeltern.\nAt the weekend the grandchildren visit their grandparents."
+    },
+    {
+      "id": "tb1-u14-l01-family-relationships-1-ex08",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u14-l01-family-relationships-1-3.mp3"
+      },
+      "tiles": [
+        "Schwester",
+        "und",
+        "du",
+        "Ja",
+        "Hast",
+        "Geschwistern",
+        "Geschwister",
+        "eine",
+        "einen",
+        "kümmert",
+        "Familie",
+        "Bruder"
+      ],
+      "answers": [
+        "Hast du Geschwister? – Ja, einen Bruder und eine Schwester."
+      ],
+      "explanation": "Hast du Geschwister? – Ja, einen Bruder und eine Schwester.\n*Do you have any siblings? – Yes, a brother and a sister.*\n\n**die Geschwister (Pl.) · der Bruder, die Brüder · die Schwester, die Schwestern** = siblings · brother · sister"
+    },
+    {
+      "id": "tb1-u14-l01-family-relationships-1-ex09",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „uncle · aunt“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "der Cousin, die Cousins · die Cousine, die Cousinen"
+        },
+        {
+          "id": "b",
+          "text": "das Kind, die Kinder · der Sohn, die Söhne · die Tochter, die Töchter"
+        },
+        {
+          "id": "c",
+          "text": "die Großeltern (Pl.) · der Enkel, die Enkel"
+        },
+        {
+          "id": "d",
+          "text": "der Onkel, die Onkel · die Tante, die Tanten"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**der Onkel** = uncle · aunt\n*Plural: die Onkel · also: die Tante, die Tanten*\n\n*Example:* Mein Onkel und meine Tante wohnen in Dresden.\nMy uncle and aunt live in Dresden."
+    },
+    {
+      "id": "tb1-u14-l01-family-relationships-1-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Am Wochenende besuchen die Enkel ihre Großeltern.",
+      "tiles": [
+        "their",
+        "the",
+        "grandchildren",
+        "has",
+        "grandparents",
+        "her",
+        "visit",
+        "weekend",
+        "the",
+        "At",
+        "in"
+      ],
+      "answers": [
+        "At the weekend the grandchildren visit their grandparents."
+      ],
+      "explanation": "**die Großeltern (Pl.) · der Enkel, die Enkel** = grandparents · grandchild"
+    },
+    {
+      "id": "tb1-u14-l01-family-relationships-1-ex11",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "My uncle and aunt live in Dresden.",
+      "tiles": [
+        "Mein",
+        "in",
+        "wohnen",
+        "Kinder",
+        "und",
+        "Tante",
+        "Onkel",
+        "haben",
+        "sich",
+        "meine",
+        "Dresden"
+      ],
+      "answers": [
+        "Mein Onkel und meine Tante wohnen in Dresden."
+      ],
+      "explanation": "**der Onkel** = uncle · aunt\n*Plural: die Onkel · also: die Tante, die Tanten*"
+    }
+  ]
+}

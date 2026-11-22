@@ -1,0 +1,301 @@
+{
+  "id": "tb1-u30-l12-aduso-p3",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u30",
+  "title": "Connectors: aber/denn vs. deshalb/trotzdem: trotzdem & außerdem",
+  "tip": "“…deshalb ich bin geblieben” is wrong, after deshalb/trotzdem the verb comes first.",
+  "exercises": [
+    {
+      "id": "tb1-u30-l12-aduso-p3-ex01",
+      "type": "explain",
+      "title": "trotzdem · Gegengrund (Position 1)",
+      "body": "trotzdem = nevertheless, an adverb: position 1 → verb immediately.\n\n*Deutsch:* trotzdem = obwohl, aber als Adverb: Position 1 → Verb sofort.\n\n## Pattern\n\nHauptsatz. **Trotzdem** + **Verb** + Subjekt + …",
+      "examples": [
+        {
+          "learning": "Es regnet. Trotzdem gehe ich spazieren.",
+          "known": "It's raining. I'm going for a walk anyway."
+        },
+        {
+          "learning": "Er ist krank, trotzdem geht er zur Arbeit.",
+          "known": "He's ill, but he still goes to work."
+        }
+      ]
+    },
+    {
+      "id": "tb1-u30-l12-aduso-p3-ex02",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "It's raining. I'm going for a walk anyway.",
+      "tiles": [
+        "Brot",
+        "Es",
+        "ich",
+        "schön",
+        "einen",
+        "Trotzdem",
+        "spazieren",
+        "gehe",
+        "regnet"
+      ],
+      "answers": [
+        "Es regnet. Trotzdem gehe ich spazieren."
+      ],
+      "explanation": "**Why:** Compare: Obwohl es regnet, gehe ich spazieren.\n\n*Warum:* Vergleiche: Obwohl es regnet, gehe ich spazieren."
+    },
+    {
+      "id": "tb1-u30-l12-aduso-p3-ex03",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "He's ill, but he still goes to work.",
+      "tiles": [
+        "Er",
+        "er",
+        "bis",
+        "Arbeit",
+        "zur",
+        "den",
+        "ist",
+        "trotzdem",
+        "geht",
+        "krank",
+        "wenig"
+      ],
+      "answers": [
+        "Er ist krank, trotzdem geht er zur Arbeit."
+      ],
+      "explanation": "**Why:** trotzdem – geht – er.\n\n*Warum:* trotzdem – geht – er."
+    },
+    {
+      "id": "tb1-u30-l12-aduso-p3-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "The flat is expensive. We took it anyway.",
+      "tiles": [
+        "wir",
+        "Die",
+        "Trotzdem",
+        "haben",
+        "Taxi",
+        "genommen",
+        "ist",
+        "teuer",
+        "Wohnung",
+        "mit",
+        "Ausflug",
+        "sie"
+      ],
+      "answers": [
+        "Die Wohnung ist teuer. Trotzdem haben wir sie genommen."
+      ],
+      "explanation": "**Why:** Perfect: haben … genommen.\n\n*Warum:* Perfekt: haben … genommen."
+    },
+    {
+      "id": "tb1-u30-l12-aduso-p3-ex05",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I don't have much time, but I'll still gladly help you.",
+      "tiles": [
+        "Zeit",
+        "weitergelernt",
+        "auf",
+        "ich",
+        "trotzdem",
+        "Ich",
+        "dir",
+        "helfe",
+        "habe",
+        "Bus",
+        "gern",
+        "wenig"
+      ],
+      "answers": [
+        "Ich habe wenig Zeit, trotzdem helfe ich dir gern."
+      ],
+      "explanation": "**Why:** Concession: little time – still helping.\n\n*Warum:* Gegengrund: wenig Zeit – trotzdem helfen."
+    },
+    {
+      "id": "tb1-u30-l12-aduso-p3-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "The weather was bad. The trip was nice anyway.",
+      "tiles": [
+        "Verspätung",
+        "Wetter",
+        "war",
+        "Deutschland",
+        "Montag",
+        "schön",
+        "Das",
+        "der",
+        "schlecht",
+        "Ausflug",
+        "Trotzdem",
+        "war"
+      ],
+      "answers": [
+        "Das Wetter war schlecht. Trotzdem war der Ausflug schön."
+      ],
+      "explanation": "**Why:** Verb war right after trotzdem.\n\n*Warum:* Verb war direkt nach trotzdem."
+    },
+    {
+      "id": "tb1-u30-l12-aduso-p3-ex07",
+      "type": "explain",
+      "title": "außerdem · Zusatz (Position 1)",
+      "body": "außerdem adds another point – ideal in letters. Position 1 → verb immediately.\n\n*Deutsch:* außerdem fügt einen weiteren Punkt hinzu – ideal im Brief. Position 1 → Verb sofort.\n\n## Pattern\n\nSatz. **Außerdem** + **Verb** + Subjekt + …",
+      "examples": [
+        {
+          "learning": "Die Wohnung ist hell. Außerdem hat sie einen Balkon.",
+          "known": "The flat is bright. It also has a balcony."
+        },
+        {
+          "learning": "Ich habe keine Zeit. Außerdem bin ich müde.",
+          "known": "I don't have time. Besides, I'm tired."
+        }
+      ]
+    },
+    {
+      "id": "tb1-u30-l12-aduso-p3-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "The flat is bright. It also has a balcony.",
+      "tiles": [
+        "hat",
+        "Wohnung",
+        "bald",
+        "bin",
+        "hell",
+        "gefunden",
+        "Die",
+        "ist",
+        "sie",
+        "Außerdem",
+        "Balkon",
+        "einen"
+      ],
+      "answers": [
+        "Die Wohnung ist hell. Außerdem hat sie einen Balkon."
+      ],
+      "explanation": "**Why:** Außerdem – hat – sie.\n\n*Warum:* Außerdem – hat – sie."
+    },
+    {
+      "id": "tb1-u30-l12-aduso-p3-ex09",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I don't have time. Besides, I'm tired.",
+      "tiles": [
+        "Zeit",
+        "eine",
+        "Außerdem",
+        "komme",
+        "bin",
+        "Ich",
+        "müde",
+        "regnet",
+        "ich",
+        "keine",
+        "habe"
+      ],
+      "answers": [
+        "Ich habe keine Zeit. Außerdem bin ich müde."
+      ],
+      "explanation": "**Why:** A second reason with außerdem.\n\n*Warum:* Zweiter Grund mit außerdem."
+    },
+    {
+      "id": "tb1-u30-l12-aduso-p3-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Please bring bread. We also need milk.",
+      "tiles": [
+        "wir",
+        "neue",
+        "mit",
+        "Außerdem",
+        "Brot",
+        "Milch",
+        "Auto",
+        "bring",
+        "brauchen",
+        "Zeit",
+        "Bitte"
+      ],
+      "answers": [
+        "Bitte bring Brot mit. Außerdem brauchen wir Milch."
+      ],
+      "explanation": "**Why:** Verb brauchen right after.\n\n*Warum:* Verb brauchen direkt danach."
+    },
+    {
+      "id": "tb1-u30-l12-aduso-p3-ex11",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "The course is cheap. You can also do it online.",
+      "tiles": [
+        "ihn",
+        "Das",
+        "Der",
+        "man",
+        "machen",
+        "ich",
+        "kann",
+        "war",
+        "online",
+        "Außerdem",
+        "günstig",
+        "ist",
+        "Kurs"
+      ],
+      "answers": [
+        "Der Kurs ist günstig. Außerdem kann man ihn online machen."
+      ],
+      "explanation": "**Why:** Modal after außerdem, infinitive at the end.\n\n*Warum:* Modalverb nach außerdem, Infinitiv am Ende."
+    },
+    {
+      "id": "tb1-u30-l12-aduso-p3-ex12",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I'm inviting you to dinner. I'd also like to show you something.",
+      "tiles": [
+        "Ich",
+        "ein",
+        "ich",
+        "zeigen",
+        "Außerdem",
+        "dich",
+        "lade",
+        "Verspätung",
+        "Die",
+        "Essen",
+        "zum",
+        "Zeit",
+        "möchte",
+        "dir",
+        "etwas"
+      ],
+      "answers": [
+        "Ich lade dich zum Essen ein. Außerdem möchte ich dir etwas zeigen."
+      ],
+      "explanation": "**Why:** Good for guiding points in a letter.\n\n*Warum:* Gut für Leitpunkte im Brief."
+    },
+    {
+      "id": "tb1-u30-l12-aduso-p3-ex13",
+      "type": "choice",
+      "title": "Fill the gap",
+      "prompt": "Zuerst gehe ich einkaufen, ___ koche ich das Abendessen.",
+      "options": [
+        {
+          "id": "a",
+          "text": "denn"
+        },
+        {
+          "id": "b",
+          "text": "sondern"
+        },
+        {
+          "id": "c",
+          "text": "danach"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Zeitliche Abfolge + Inversion („koche ich“) → danach."
+    }
+  ]
+}

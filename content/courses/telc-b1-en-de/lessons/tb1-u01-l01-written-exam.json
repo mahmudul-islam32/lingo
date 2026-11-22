@@ -1,0 +1,215 @@
+{
+  "id": "tb1-u01-l01-written-exam",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u01",
+  "title": "The written exam",
+  "tip": "Written: 150 minutes, 225 points, 135 to pass.",
+  "exercises": [
+    {
+      "id": "tb1-u01-l01-written-exam-ex01",
+      "type": "explain",
+      "title": "The written exam: three blocks, 150 minutes",
+      "body": "The telc Deutsch B1 exam has a **written** part and a separate **oral** part. The written part runs like this:\n\n- **90 Min · Lesen + Sprachbausteine**: Aufgaben 1–40 · ein Block, du teilst die Zeit selbst ein\n- **30 Min · Hören**: Aufgaben 41–60 · Teil 1 läuft nur einmal, Teil 2 und 3 zweimal\n- **30 Min · Schreiben**: Eine E-Mail · alle vier Leitpunkte · Anrede und Gruß sind Pflicht\n\nIn English:\n\n- **90 minutes · Reading + Language elements (Lesen + Sprachbausteine)**: tasks 1–40, one block; you divide the time yourself.\n- **30 minutes · Listening (Hören)**: tasks 41–60; Part 1 is played only once, Parts 2 and 3 twice.\n- **30 minutes · Writing (Schreiben)**: one e-mail; cover all four guiding points (Leitpunkte); salutation (Anrede) and closing (Gruß) are compulsory.\n\n## In numbers\n\n- **150** minutes (Minuten)\n- **225** points (Punkte)\n- **135** points to pass (zum Bestehen)"
+    },
+    {
+      "id": "tb1-u01-l01-written-exam-ex02",
+      "type": "explain",
+      "title": "Points per part",
+      "body": "The 225 written points are split like this (Nach Teilen):\n\n- **Leseverstehen (Reading): 75 points**. Part 1: 5 headlines to match (5 points each). Part 2: 5 detail questions (5 points each). Part 3: 10 situations (2.5 points each).\n- **Sprachbausteine (Language elements): 30 points**. 20 gaps, 1.5 points each.\n- **Hörverstehen (Listening): 75 points**. Part 1: 5 items (5 points each). Part 2: 10 items (2.5 points each). Part 3: 5 announcements (Durchsagen, 5 points each).\n- **Schreiben (Writing): 45 points**. Three criteria, each graded A = 5, B = 3, C = 1, D = 0; the sum is multiplied by 3.\n\n## The three writing criteria\n\n- I · Aufgabenbewältigung (task completion)\n- II · Kommunikative Gestaltung (communicative design)\n- III · Formale Richtigkeit (formal accuracy)\n\n## Where points are lost\n\n- Hören Teil 1 läuft nur einmal: Aussagen vorher lesen. (Part 1 plays only once: read the statements first.)\n- Hören Teil 2: oft Korrektur-Fallen („nicht … sondern“). (Often correction traps.)\n- Schreiben: Alle vier Leitpunkte, Anrede und Gruß: das bringt die meisten Punkte. (All four points, salutation and closing bring the most points.)"
+    },
+    {
+      "id": "tb1-u01-l01-written-exam-ex03",
+      "type": "explain",
+      "title": "What surprises people on exam day",
+      "body": "*Was am Prüfungstag überrascht:* Die 90 Minuten für Lesen + Bausteine sind ein Block. Niemand sagt dir, wann du wechseln sollst. Übertrage nach jedem Teil auf den Antwortbogen, und lass nie ein Feld leer.\n\nIn English: the 90 minutes for reading and language elements are **one block**. Nobody tells you when to move on. **Transfer your answers to the answer sheet after each part**, and never leave a field empty.\n\nFor a full mock exam: *Plane 2,5 Stunden am Stück ein: Handy weg, Tür zu.* Plan 2.5 hours in one go: phone away, door shut."
+    },
+    {
+      "id": "tb1-u01-l01-written-exam-ex04",
+      "type": "choice",
+      "prompt": "How long is the written exam in total?",
+      "options": [
+        {
+          "id": "a",
+          "text": "90 minutes"
+        },
+        {
+          "id": "b",
+          "text": "120 minutes"
+        },
+        {
+          "id": "c",
+          "text": "150 minutes"
+        },
+        {
+          "id": "d",
+          "text": "225 minutes"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "90 min Lesen + Sprachbausteine, 30 min Hören, 30 min Schreiben = **150 minutes**."
+    },
+    {
+      "id": "tb1-u01-l01-written-exam-ex05",
+      "type": "choice",
+      "prompt": "How many points do you need to pass the written exam?",
+      "options": [
+        {
+          "id": "a",
+          "text": "75 of 225"
+        },
+        {
+          "id": "b",
+          "text": "45 of 225"
+        },
+        {
+          "id": "c",
+          "text": "135 of 225"
+        },
+        {
+          "id": "d",
+          "text": "150 of 225"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "The written exam has **225** points; you pass with **135**."
+    },
+    {
+      "id": "tb1-u01-l01-written-exam-ex06",
+      "type": "choice",
+      "prompt": "Which part covers tasks 41–60?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Schreiben (Writing)"
+        },
+        {
+          "id": "b",
+          "text": "Hören (Listening)"
+        },
+        {
+          "id": "c",
+          "text": "Lesen + Sprachbausteine (Reading + Language elements)"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Hören: Aufgaben 41–60, 30 minutes."
+    },
+    {
+      "id": "tb1-u01-l01-written-exam-ex07",
+      "type": "choice",
+      "prompt": "Which listening part is played only once?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Teil 1"
+        },
+        {
+          "id": "b",
+          "text": "Teil 3"
+        },
+        {
+          "id": "c",
+          "text": "Teil 2"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Teil 1 läuft nur einmal, Teil 2 und 3 zweimal. Read the statements before you listen."
+    },
+    {
+      "id": "tb1-u01-l01-written-exam-ex08",
+      "type": "choice",
+      "prompt": "How many points is the Sprachbausteine part worth?",
+      "options": [
+        {
+          "id": "a",
+          "text": "75"
+        },
+        {
+          "id": "b",
+          "text": "45"
+        },
+        {
+          "id": "c",
+          "text": "25"
+        },
+        {
+          "id": "d",
+          "text": "30"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "20 gaps × 1.5 points = **30 points**."
+    },
+    {
+      "id": "tb1-u01-l01-written-exam-ex09",
+      "type": "choice",
+      "prompt": "What is compulsory in the writing part besides the four Leitpunkte?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A title for the e-mail"
+        },
+        {
+          "id": "b",
+          "text": "Your full address"
+        },
+        {
+          "id": "c",
+          "text": "Salutation and closing (Anrede und Gruß)"
+        },
+        {
+          "id": "d",
+          "text": "At least 200 words"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Eine E-Mail · alle vier Leitpunkte · **Anrede und Gruß sind Pflicht**."
+    },
+    {
+      "id": "tb1-u01-l01-written-exam-ex10",
+      "type": "choice",
+      "prompt": "How is the writing score calculated?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Points for every word you write"
+        },
+        {
+          "id": "b",
+          "text": "Four criteria worth 15 points each"
+        },
+        {
+          "id": "c",
+          "text": "Three criteria graded A=5, B=3, C=1, D=0; the sum × 3 (max. 45)"
+        },
+        {
+          "id": "d",
+          "text": "One grade from 0 to 45"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Brief-Bewertung · Summe × 3: criteria I–III, each A/B/C/D = 5/3/1/0."
+    },
+    {
+      "id": "tb1-u01-l01-written-exam-ex11",
+      "type": "choice",
+      "prompt": "The 90 minutes for Lesen + Sprachbausteine …",
+      "options": [
+        {
+          "id": "a",
+          "text": "include a 10-minute break."
+        },
+        {
+          "id": "b",
+          "text": "are split by the examiner after 45 minutes."
+        },
+        {
+          "id": "c",
+          "text": "are one block: you decide when to switch."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Die 90 Minuten für Lesen + Bausteine sind ein Block. Niemand sagt dir, wann du wechseln sollst."
+    }
+  ]
+}

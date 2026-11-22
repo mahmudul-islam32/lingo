@@ -1,0 +1,867 @@
+{
+  "id": "eb-u14-l03-probetest-2",
+  "courseId": "einbuergerung-en-de",
+  "unitId": "eb-u14",
+  "title": "Mock test 2 (Probetest 2)",
+  "tip": "Real format: 30 general + 3 Nordrhein-Westfalen questions. Allow 60 minutes; 17 correct to pass, aim for 28+.",
+  "exercises": [
+    {
+      "id": "eb-u14-l03-probetest-2-ex01",
+      "type": "choice",
+      "title": "Frage 10 · Block 1",
+      "prompt": "Was ist mit dem deutschen Grundgesetz vereinbar?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Prügelstrafe"
+        },
+        {
+          "id": "b",
+          "text": "die Folter"
+        },
+        {
+          "id": "c",
+          "text": "die Todesstrafe"
+        },
+        {
+          "id": "d",
+          "text": "die Geldstrafe"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**Correct answer:** die Geldstrafe\n\nFines are the everyday, constitutional criminal sanction.\n\nThe death penalty is **explicitly abolished** by Art. 102 GG (\"Die Todesstrafe ist abgeschafft\"), another direct answer to Nazi-era justice. Torture (B) violates human dignity (Art. 1) absolutely, no exceptions, not even for terrorists. Corporal punishment (A) is banned in criminal law and even in parenting (→Q251: children have a legal right to a violence-free upbringing).\n\n## Auf Deutsch\n\nDie Geldstrafe ist erlaubt; Folter, Todesstrafe und Prügelstrafe verbietet das Grundgesetz."
+    },
+    {
+      "id": "eb-u14-l03-probetest-2-ex02",
+      "type": "choice",
+      "title": "Frage 18 · Block 1",
+      "prompt": "Welches Grundrecht ist in Artikel 1 des Grundgesetzes garantiert?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Unantastbarkeit der Menschenwürde"
+        },
+        {
+          "id": "b",
+          "text": "das Recht auf Leben"
+        },
+        {
+          "id": "c",
+          "text": "Religionsfreiheit"
+        },
+        {
+          "id": "d",
+          "text": "Meinungsfreiheit"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Correct answer:** die Unantastbarkeit der Menschenwürde\n\nArticle 1, sentence 1: *\"Die Würde des Menschen ist unantastbar.\"* Placed first deliberately, it is the answer to Auschwitz, the axiom from which all other rights derive, and it's protected by the eternity clause (→Q12).\n\nAll real rights, wrong addresses: life & bodily integrity = Art. 2, religion = Art. 4, expression = Art. 5. Learn the mini-map: **1 Würde, 2 Leben/Freiheit, 3 Gleichheit, 4 Glaube, 5 Meinung**, it decides several questions and impresses in the interview.\n\n## Auf Deutsch\n\nArtikel 1: „Die Würde des Menschen ist unantastbar“, die Basis von allem."
+    },
+    {
+      "id": "eb-u14-l03-probetest-2-ex03",
+      "type": "choice",
+      "title": "Frage 27 · Block 1",
+      "prompt": "Deutschland ist …",
+      "options": [
+        {
+          "id": "a",
+          "text": "ein sozialistischer Staat"
+        },
+        {
+          "id": "b",
+          "text": "ein Bundesstaat"
+        },
+        {
+          "id": "c",
+          "text": "eine Diktatur"
+        },
+        {
+          "id": "d",
+          "text": "eine Monarchie"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Correct answer:** ein Bundesstaat\n\n→Q26, reduced to the federal element. **Bundesstaat** = one federation, 16 constituent states with real powers (education, police, culture, →Q49, Q67). Contrast: *Staatenbund* (loose confederation of sovereign states, like the EU) and *Zentralstaat* (all power central, like France traditionally), that contrast is tested directly in Q38.\n\n## Auf Deutsch\n\nBundesstaat = der Bund und 16 Länder teilen sich die Macht."
+    },
+    {
+      "id": "eb-u14-l03-probetest-2-ex04",
+      "type": "choice",
+      "title": "Frage 29 · Block 1",
+      "prompt": "Welches Tier ist das Wappentier der Bundesrepublik Deutschland?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Löwe"
+        },
+        {
+          "id": "b",
+          "text": "Adler"
+        },
+        {
+          "id": "c",
+          "text": "Bär"
+        },
+        {
+          "id": "d",
+          "text": "Pferd"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Correct answer:** Adler\n\nThe eagle (**Bundesadler**), heraldic animal of German states for over 1,000 years, from the Holy Roman Empire to today (→Q21, Q216).\n\nLions appear on *Länder* arms (Bayern's is famous), the bear is **Berlin's** city symbol, the horse is **Niedersachsen's**, all plausible-sounding, all wrong at federal level.\n\n## Auf Deutsch\n\nDas Wappentier ist der Adler, seit über 1000 Jahren deutsches Symbol."
+    },
+    {
+      "id": "eb-u14-l03-probetest-2-ex05",
+      "type": "choice",
+      "title": "Frage 34 · Block 2",
+      "prompt": "Was ist Deutschland nicht?",
+      "options": [
+        {
+          "id": "a",
+          "text": "eine Demokratie"
+        },
+        {
+          "id": "b",
+          "text": "ein Rechtsstaat"
+        },
+        {
+          "id": "c",
+          "text": "eine Monarchie"
+        },
+        {
+          "id": "d",
+          "text": "ein Sozialstaat"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**Correct answer:** eine Monarchie\n\nNicht-question again. Germany is a democracy, a Rechtsstaat, and a Sozialstaat, but not a monarchy since 9 November 1918 (Kaiser's abdication; the same date recurs weirdly often in German history: 1918 republic, 1938 pogroms, 1989 wall, →Q164, Q191).\n\n## Auf Deutsch\n\nDeutschland ist keine Monarchie, es gibt keinen König."
+    },
+    {
+      "id": "eb-u14-l03-probetest-2-ex06",
+      "type": "choice",
+      "title": "Frage 37 · Block 2",
+      "prompt": "Wie werden die Regierungschefs/Regierungschefinnen der meisten Bundesländer genannt?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Erster Minister/Erste Ministerin"
+        },
+        {
+          "id": "b",
+          "text": "Premierminister/Premierministerin"
+        },
+        {
+          "id": "c",
+          "text": "Senator/Senatorin"
+        },
+        {
+          "id": "d",
+          "text": "Ministerpräsident/Ministerpräsidentin"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**Correct answer:** Ministerpräsident/Ministerpräsidentin\n\nThirteen of sixteen Länder call their head of government **Ministerpräsident(in)**. NRW's currently governs from Düsseldorf.\n\nThe three **Stadtstaaten** differ: Berlin has a *Regierender Bürgermeister*, Hamburg an *Erster Bürgermeister*, Bremen a *Bürgermeister*, and their ministers are called *Senatoren* (C, a partial truth that doesn't fit \"most\"). A and B are foreign/invented titles. →NRW-Q9 asks this for your state specifically.\n\n## Auf Deutsch\n\nDer Regierungschef eines Bundeslandes heißt Ministerpräsident/Ministerpräsidentin."
+    },
+    {
+      "id": "eb-u14-l03-probetest-2-ex07",
+      "type": "choice",
+      "title": "Frage 56 · Block 2",
+      "prompt": "Welches Amt gehört in Deutschland zur Gemeindeverwaltung?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Pfarramt"
+        },
+        {
+          "id": "b",
+          "text": "Ordnungsamt"
+        },
+        {
+          "id": "c",
+          "text": "Finanzamt"
+        },
+        {
+          "id": "d",
+          "text": "Auswärtiges Amt"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Correct answer:** Ordnungsamt\n\nThe **Ordnungsamt** (public-order office: noise complaints, parking, trade oversight, your Anmeldung's sibling office) is municipal.\n\nThe **Pfarramt** is a church parish office (not state at all, →Q33); the **Finanzamt** is Land administration; the **Auswärtige Amt** is the federal foreign ministry in Berlin. The question maps Germany's admin levels: Gemeinde → Land → Bund → (church separate).\n\n## Auf Deutsch\n\nDas Ordnungsamt gehört zur Gemeindeverwaltung (Kommune)."
+    },
+    {
+      "id": "eb-u14-l03-probetest-2-ex08",
+      "type": "choice",
+      "title": "Frage 68 · Block 3",
+      "prompt": "Warum kontrolliert der Staat in Deutschland das Schulwesen?",
+      "options": [
+        {
+          "id": "a",
+          "text": "weil es in Deutschland nur staatliche Schulen gibt"
+        },
+        {
+          "id": "b",
+          "text": "weil alle Schüler und Schülerinnen einen Schulabschluss haben müssen"
+        },
+        {
+          "id": "c",
+          "text": "weil es in den Bundesländern verschiedene Schulen gibt"
+        },
+        {
+          "id": "d",
+          "text": "weil es nach dem Grundgesetz seine Aufgabe ist"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**Correct answer:** weil es nach dem Grundgesetz seine Aufgabe ist\n\nArt. 7(1) GG: *\"Das gesamte Schulwesen steht unter der Aufsicht des Staates.\"* Constitutional mandate, full stop.\n\nA is false (private and church schools exist, under state supervision); B isn't literally a legal duty for all; C describes federal variety but explains nothing. When one option cites the Grundgesetz and it's true, it usually wins.\n\n## Auf Deutsch\n\nDie Schulaufsicht ist laut Grundgesetz (Art. 7) Aufgabe des Staates."
+    },
+    {
+      "id": "eb-u14-l03-probetest-2-ex09",
+      "type": "choice",
+      "title": "Frage 81 · Block 3",
+      "prompt": "Wer wählt den Bundeskanzler/die Bundeskanzlerin in Deutschland?",
+      "options": [
+        {
+          "id": "a",
+          "text": "der Bundesrat"
+        },
+        {
+          "id": "b",
+          "text": "die Bundesversammlung"
+        },
+        {
+          "id": "c",
+          "text": "das Volk"
+        },
+        {
+          "id": "d",
+          "text": "der Bundestag"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**Correct answer:** der Bundestag\n\n**The Bundestag elects the Chancellor** (Art. 63 GG), the definitive fact of Germany's *parliamentary* democracy. You never vote for a Chancellor directly (C); you vote for a Bundestag, which then does.\n\nThe Bundesversammlung elects the *president* (→Q86). THE classic swap; the Bundesrat elects nobody. Tested three times (Q81, Q83, Q124-adjacent): the catalog's favorite fact. Learn the pair: **Kanzler ← Bundestag; Präsident ← Bundesversammlung.**\n\n## Auf Deutsch\n\nDen Bundeskanzler wählt der Bundestag."
+    },
+    {
+      "id": "eb-u14-l03-probetest-2-ex10",
+      "type": "choice",
+      "title": "Frage 89 · Block 3",
+      "prompt": "Wie nennt man in Deutschland die Vereinigung von Abgeordneten einer Partei im Parlament?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Verband"
+        },
+        {
+          "id": "b",
+          "text": "Ältestenrat"
+        },
+        {
+          "id": "c",
+          "text": "Fraktion"
+        },
+        {
+          "id": "d",
+          "text": "Opposition"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**Correct answer:** Fraktion\n\nA **Fraktion** = one party's MPs organized as a working group (CDU/CSU-Fraktion, SPD-Fraktion …). Fraktionen structure everything: speaking time, committee seats, the \"stärkste Fraktion\" rule for the Bundestag presidency (→Q57).\n\nOpposition (D) is a *role* some Fraktionen play (→Q13); the Ältestenrat is the procedural council of elders; Verband is any association. Koalition vs. Fraktion →Q31.\n\n## Auf Deutsch\n\nDie Abgeordneten einer Partei bilden im Parlament eine Fraktion."
+    },
+    {
+      "id": "eb-u14-l03-probetest-2-ex11",
+      "type": "choice",
+      "title": "Frage 98 · Block 4",
+      "prompt": "Wenn Abgeordnete im Deutschen Bundestag ihre Fraktion wechseln, …",
+      "options": [
+        {
+          "id": "a",
+          "text": "dürfen sie nicht mehr an den Sitzungen des Parlaments teilnehmen"
+        },
+        {
+          "id": "b",
+          "text": "kann die Regierung ihre Mehrheit verlieren"
+        },
+        {
+          "id": "c",
+          "text": "muss der Bundespräsident/die Bundespräsidentin zustimmen"
+        },
+        {
+          "id": "d",
+          "text": "dürfen die Wähler/Wählerinnen dieser Abgeordneten noch einmal wählen"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Correct answer:** kann die Regierung ihre Mehrheit verlieren\n\nMPs hold a **freies Mandat** (Art. 38 GG): they answer to their conscience, not their party, they may defect, keep their seat, and thereby shrink the government's majority.\n\nA, no expulsion from parliament (the seat belongs to the person); C, the president has no role; D, no recall elections exist in Germany. Uncomfortable but principled: representatives are not delegates on a leash.\n\n## Auf Deutsch\n\nWechseln Abgeordnete die Fraktion, kann die Regierung ihre Mehrheit verlieren."
+    },
+    {
+      "id": "eb-u14-l03-probetest-2-ex12",
+      "type": "choice",
+      "title": "Frage 107 · Block 5",
+      "prompt": "Für wie viele Jahre wird der Bundestag in Deutschland gewählt?",
+      "options": [
+        {
+          "id": "a",
+          "text": "2 Jahre"
+        },
+        {
+          "id": "b",
+          "text": "4 Jahre"
+        },
+        {
+          "id": "c",
+          "text": "6 Jahre"
+        },
+        {
+          "id": "d",
+          "text": "8 Jahre"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Correct answer:** 4 Jahre\n\nOne **Wahlperiode** = **4 years** (Art. 39 GG). Early dissolution is possible only through constitutional emergency exits (failed confidence vote, happened 1972, 1982, 2005, 2024). Learn the term-length table once, it settles four questions: **Bundestag 4 · Bundespräsident 5 · EU-Parlament 5 · NRW-Landtag 5** (→Q109, Q110, Q230, NRW-Q3).\n\n## Auf Deutsch\n\nDer Bundestag wird für 4 Jahre gewählt."
+    },
+    {
+      "id": "eb-u14-l03-probetest-2-ex13",
+      "type": "choice",
+      "title": "Frage 131 · Block 5",
+      "prompt": "In Deutschland ist ein Bürgermeister/eine Bürgermeisterin …",
+      "options": [
+        {
+          "id": "a",
+          "text": "der Leiter/die Leiterin einer Schule"
+        },
+        {
+          "id": "b",
+          "text": "der Chef/die Chefin einer Bank"
+        },
+        {
+          "id": "c",
+          "text": "das Oberhaupt einer Gemeinde"
+        },
+        {
+          "id": "d",
+          "text": "der/die Vorsitzende einer Partei"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**Correct answer:** das Oberhaupt einer Gemeinde\n\nThe **Bürgermeister(in)** heads the Gemeinde (→Q69), in NRW directly elected by local residents. Fun fact with a wrinkle you'll enjoy: at *Kommunalwahlen*, EU citizens may already vote, but non-EU nationals like you may not; naturalization unlocks even your city hall.\n\n## Auf Deutsch\n\nDer Bürgermeister / die Bürgermeisterin ist das Oberhaupt einer Gemeinde."
+    },
+    {
+      "id": "eb-u14-l03-probetest-2-ex14",
+      "type": "choice",
+      "title": "Frage 140 · Block 6",
+      "prompt": "Was macht ein Schöffe/eine Schöffin in Deutschland? Er/Sie …",
+      "options": [
+        {
+          "id": "a",
+          "text": "entscheidet mit Richtern/Richterinnen zusammen über Schuld und Strafe"
+        },
+        {
+          "id": "b",
+          "text": "verteidigt den Angeklagten/die Angeklagte"
+        },
+        {
+          "id": "c",
+          "text": "vertritt die Anklage"
+        },
+        {
+          "id": "d",
+          "text": "schreibt das Protokoll der Verhandlung"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Correct answer:** entscheidet mit Richtern/Richterinnen zusammen über Schuld und Strafe\n\n**Schöffen** = lay judges: ordinary citizens who sit *on the bench* in criminal trials with equal voting weight on guilt and sentence. Democracy inside the judiciary.\n\nDefense = Rechtsanwalt (→Q141); prosecution = Staatsanwalt; protocol = court clerk. Four courtroom roles, cleanly separated, learn the cast once.\n\n## Auf Deutsch\n\nSchöffen sind ehrenamtliche Richter, sie entscheiden mit über Schuld und Strafe."
+    },
+    {
+      "id": "eb-u14-l03-probetest-2-ex15",
+      "type": "choice",
+      "title": "Frage 141 · Block 6",
+      "prompt": "Wer berät in Deutschland Personen bei Rechtsfragen und vertritt sie vor Gericht?",
+      "options": [
+        {
+          "id": "a",
+          "text": "ein Rechtsanwalt/eine Rechtsanwältin"
+        },
+        {
+          "id": "b",
+          "text": "ein Richter/eine Richterin"
+        },
+        {
+          "id": "c",
+          "text": "ein Schöffe/eine Schöffin"
+        },
+        {
+          "id": "d",
+          "text": "ein Polizist/eine Polizistin"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Correct answer:** ein Rechtsanwalt/eine Rechtsanwältin\n\nThe **Rechtsanwalt** is *your* person in the system: confidential advice (Schweigepflicht) and representation.\n\nThe judge must stay neutral, advising you would disqualify them; Schöffen judge (→Q140); police investigate for the state, and (a fact worth knowing in real life) are *not* your legal advisers.\n\n## Auf Deutsch\n\nRechtsberatung und Vertretung vor Gericht: der Rechtsanwalt / die Rechtsanwältin."
+    },
+    {
+      "id": "eb-u14-l03-probetest-2-ex16",
+      "type": "choice",
+      "title": "Frage 148 · Block 6",
+      "prompt": "Was ist eine Aufgabe der Polizei in Deutschland?",
+      "options": [
+        {
+          "id": "a",
+          "text": "das Land zu verteidigen"
+        },
+        {
+          "id": "b",
+          "text": "die Bürger und Bürgerinnen abzuhören"
+        },
+        {
+          "id": "c",
+          "text": "die Einhaltung von Gesetzen zu überwachen"
+        },
+        {
+          "id": "d",
+          "text": "die Gesetze zu beschließen"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**Correct answer:** die Einhaltung von Gesetzen zu überwachen\n\nPolice = executive: enforce law, keep public order, investigate crime.\n\nDefense (A) = Bundeswehr, the police/military separation is constitutionally serious in Germany (Nazi lesson: no domestic military deployment in normal times); mass surveillance (B) = Stasi's job description, not the Polizei's, wiretaps need a judge's warrant; making laws (D) = parliament. →Q199 for the Stasi contrast.\n\n## Auf Deutsch\n\nDie Polizei überwacht die Einhaltung der Gesetze. Urteile sprechen die Gerichte."
+    },
+    {
+      "id": "eb-u14-l03-probetest-2-ex17",
+      "type": "choice",
+      "title": "Frage 164 · Block 7",
+      "prompt": "Was passierte am 9. November 1938 in Deutschland?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Mit dem Angriff auf Polen begann der Zweite Weltkrieg"
+        },
+        {
+          "id": "b",
+          "text": "Die Nationalsozialisten verloren eine Reichstagswahl"
+        },
+        {
+          "id": "c",
+          "text": "Jüdische Geschäfte und Synagogen wurden durch Nationalsozialisten und ihre Anhänger zerstört"
+        },
+        {
+          "id": "d",
+          "text": "Hitler wurde Reichspräsident"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**Correct answer:** Jüdische Geschäfte und Synagogen wurden durch Nationalsozialisten und ihre Anhänger zerstört\n\n→Q163 by date. **9. November** is Germany's \"Schicksalstag\" (day of fate): 1918 republic proclaimed, **1938 pogroms**, 1989 Wall falls (→Q191), one date, the whole century. It's precisely *because* of 1938 that reunified Germany chose October 3, not November 9, as its national holiday (→Q194): you cannot celebrate on the anniversary of the pogroms. That connection is Erinnerungskultur in one sentence, use it.\n\n## Auf Deutsch\n\n9. November 1938: Pogromnacht. Synagogen und jüdische Geschäfte wurden zerstört."
+    },
+    {
+      "id": "eb-u14-l03-probetest-2-ex18",
+      "type": "choice",
+      "title": "Frage 176 · Block 7",
+      "prompt": "Aus welchen Besatzungszonen entstand die Bundesrepublik Deutschland? Aus der …",
+      "options": [
+        {
+          "id": "a",
+          "text": "amerikanischen, britischen und französischen Besatzungszone"
+        },
+        {
+          "id": "b",
+          "text": "sowjetischen Besatzungszone"
+        },
+        {
+          "id": "c",
+          "text": "amerikanischen und sowjetischen Besatzungszone"
+        },
+        {
+          "id": "d",
+          "text": "britischen und französischen Besatzungszone"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Correct answer:** amerikanischen, britischen und französischen Besatzungszone\n\nThe **three western zones** merged (economically first: Bizone → Trizone, plus the 1948 D-Mark currency reform that triggered the Berlin blockade →Q178) and became the BRD in 1949. The Soviet zone became the DDR (→Q172). Three + one = the two Germanys.\n\n## Auf Deutsch\n\nDie Bundesrepublik entstand aus der amerikanischen, britischen und französischen Zone."
+    },
+    {
+      "id": "eb-u14-l03-probetest-2-ex19",
+      "type": "choice",
+      "title": "Frage 187 · Block 8",
+      "prompt": "Welcher deutsche Staat hatte eine schwarz-rot-goldene Flagge mit Hammer, Zirkel und Ährenkranz?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Bundesrepublik Deutschland"
+        },
+        {
+          "id": "b",
+          "text": "die DDR"
+        },
+        {
+          "id": "c",
+          "text": "das Deutsche Reich"
+        },
+        {
+          "id": "d",
+          "text": "Preußen"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Correct answer:** die DDR\n\nSame tricolor as the West, plus the socialist emblem: **Hammer** (workers), **Zirkel** (compass, intellectuals/engineers), **Ährenkranz** (grain wreath, farmers). Added 1959 precisely to *differ* from the BRD flag. →Q209 (Teil 3) shows it as an image question.\n\nThe Kaiserreich flew black-white-red; Prussia black-white.\n\n## Auf Deutsch\n\nSchwarz-Rot-Gold mit Hammer, Zirkel und Ährenkranz = Flagge der DDR."
+    },
+    {
+      "id": "eb-u14-l03-probetest-2-ex20",
+      "type": "choice",
+      "title": "Frage 210 · Block 9",
+      "prompt": "Was ereignete sich am 17. Juni 1953 in der DDR?",
+      "options": [
+        {
+          "id": "a",
+          "text": "der landesweite Volksaufstand gegen die Regierung der DDR"
+        },
+        {
+          "id": "b",
+          "text": "der Bau der Berliner Mauer"
+        },
+        {
+          "id": "c",
+          "text": "die Gründung des Warschauer Pakts"
+        },
+        {
+          "id": "d",
+          "text": "die Öffnung der Grenze nach Ungarn"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Correct answer:** der landesweite Volksaufstand gegen die Regierung der DDR\n\n→Q186 retested by date. Workers' protest → nationwide uprising (a million people, 700 towns) → Soviet tanks, martial law, dozens dead, thousands jailed. West Germany made 17. Juni its national holiday until 1990; a grand Berlin boulevard still bears the date. First of the bloc's great risings, before Budapest '56 and Prague '68, and proof the DDR's power rested on Soviet armor, which is why 1989 succeeded only when Gorbachev kept the tanks home.\n\n## Auf Deutsch\n\n17. Juni 1953: landesweiter Volksaufstand gegen die DDR-Regierung."
+    },
+    {
+      "id": "eb-u14-l03-probetest-2-ex21",
+      "type": "choice",
+      "title": "Frage 223 · Block 10",
+      "prompt": "Welches Land ist ein Nachbarland von Deutschland?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Polen"
+        },
+        {
+          "id": "b",
+          "text": "Ungarn"
+        },
+        {
+          "id": "c",
+          "text": "Rumänien"
+        },
+        {
+          "id": "d",
+          "text": "Portugal"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Correct answer:** Polen\n\nRound 2: **Polen**, the eastern neighbor along the Oder-Neiße line (→Q219). Hungary and Romania lie beyond Austria/Czechia; Portugal is Atlantic. Distractors in this series are always real European states, just non-adjacent ones.\n\n## Auf Deutsch\n\nPolen ist ein Nachbarland (im Osten)."
+    },
+    {
+      "id": "eb-u14-l03-probetest-2-ex22",
+      "type": "choice",
+      "title": "Frage 236 · Block 10",
+      "prompt": "Wie viele Mitgliedstaaten hat die EU heute?",
+      "options": [
+        {
+          "id": "a",
+          "text": "21"
+        },
+        {
+          "id": "b",
+          "text": "24"
+        },
+        {
+          "id": "c",
+          "text": "27"
+        },
+        {
+          "id": "d",
+          "text": "30"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**Correct answer:** 27\n\n27 member states since Brexit (2020: 28 → 27). Future accessions could change this, verify near your test date.\n\n**Time-sensitive answer:** this answer depends on the current situation (who holds an office, seat shares, figures) and is correct as of the catalogue version *Stand Juli 2026*. Check it again shortly before your test date.\n\n## Auf Deutsch\n\nDie EU hat 27 Mitgliedstaaten (seit dem Brexit 2020). ⏰ Bei Beitritten neu prüfen!"
+    },
+    {
+      "id": "eb-u14-l03-probetest-2-ex23",
+      "type": "choice",
+      "title": "Frage 253 · Block 11",
+      "prompt": "Sie ziehen in Deutschland in eine andere Stadt um. Wo müssen Sie sich anmelden?",
+      "options": [
+        {
+          "id": "a",
+          "text": "beim Einwohnermeldeamt"
+        },
+        {
+          "id": "b",
+          "text": "beim Finanzamt"
+        },
+        {
+          "id": "c",
+          "text": "beim Standesamt"
+        },
+        {
+          "id": "d",
+          "text": "bei der Agentur für Arbeit"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Correct answer:** beim Einwohnermeldeamt\n\n**Anmeldung beim Einwohnermeldeamt** (in Dortmund: Bürgerdienste) within two weeks of moving, the **Meldepflicht** you've complied with since 2020; it feeds the voter register (→Q126), tax ID, everything. Standesamt = births/marriages/deaths (→Q265); Finanzamt learns automatically. You know this office well, your Meldebescheinigung is an application document.\n\n## Auf Deutsch\n\nNach dem Umzug meldet man sich beim Einwohnermeldeamt an."
+    },
+    {
+      "id": "eb-u14-l03-probetest-2-ex24",
+      "type": "choice",
+      "title": "Frage 257 · Block 11",
+      "prompt": "Eine erwachsene Frau möchte in Deutschland das Abitur nachholen. Wo kann sie das machen?",
+      "options": [
+        {
+          "id": "a",
+          "text": "an einem Abendgymnasium"
+        },
+        {
+          "id": "b",
+          "text": "an einer Grundschule"
+        },
+        {
+          "id": "c",
+          "text": "an einer Universität"
+        },
+        {
+          "id": "d",
+          "text": "in einem Fitnessstudio"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Correct answer:** an einem Abendgymnasium\n\n**Abendgymnasium** (or Kolleg): the second-chance route, adults earn the Abitur in evening classes while working (→Q261 retests). Grundschule is for 6-year-olds; university comes *after* the Abitur (→Q244), circularity again. The system's principle: no educational dead ends, *kein Abschluss ohne Anschluss.*\n\n## Auf Deutsch\n\nDas Abitur nachholen kann man am Abendgymnasium."
+    },
+    {
+      "id": "eb-u14-l03-probetest-2-ex25",
+      "type": "choice",
+      "title": "Frage 259 · Block 11",
+      "prompt": "Wobei hilft das Berufsinformationszentrum (BIZ) in Deutschland?",
+      "options": [
+        {
+          "id": "a",
+          "text": "bei der Suche nach einem Ausbildungsplatz"
+        },
+        {
+          "id": "b",
+          "text": "beim Ausfüllen der Steuererklärung"
+        },
+        {
+          "id": "c",
+          "text": "bei der Wohnungssuche"
+        },
+        {
+          "id": "d",
+          "text": "bei Probemen in der Ehe"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Correct answer:** bei der Suche nach einem Ausbildungsplatz\n\nThe **BIZ**, walk-in career library of the Agentur für Arbeit: vocational orientation, apprenticeship (**Lehrstelle/Ausbildungsplatz**) hunting, application help. Background concept worth knowing: Germany's **duale Ausbildung** (apprenticeship = paid company training + vocational school), the system behind the famous skilled-worker economy and a genuine German export hit.\n\n## Auf Deutsch\n\nDas BIZ hilft bei der Suche nach einem Ausbildungsplatz."
+    },
+    {
+      "id": "eb-u14-l03-probetest-2-ex26",
+      "type": "choice",
+      "title": "Frage 264 · Block 11",
+      "prompt": "Zu welchem Fest tragen die Menschen in Deutschland bunte Kostüme und Masken?",
+      "options": [
+        {
+          "id": "a",
+          "text": "am Rosenmontag"
+        },
+        {
+          "id": "b",
+          "text": "am Ostermontag"
+        },
+        {
+          "id": "c",
+          "text": "am Pfingstmontag"
+        },
+        {
+          "id": "d",
+          "text": "am Maifeiertag"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Correct answer:** am Rosenmontag\n\n**Rosenmontag**, carnival's climax (Feb/March): parades, costumes, satire floats mocking politicians (free speech in papier-mâché). The Rhineland. Köln, Düsseldorf, and yes, Dortmund area, is the heartland; expect Kita carnival for your child every year. The three Montage decoys: Oster- (eggs →Q293), Pfingst- (church →Q294), Mai- (labor day marches).\n\n## Auf Deutsch\n\nBunte Kostüme und Masken: Rosenmontag (Karneval)."
+    },
+    {
+      "id": "eb-u14-l03-probetest-2-ex27",
+      "type": "choice",
+      "title": "Frage 267 · Block 11",
+      "prompt": "Die 21-jährige Tochter einer Familie ist mit einem Partner zusammengezogen, den die Eltern ablehnen. Was können die Eltern tun?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Sie müssen die Entscheidung der volljährigen Tochter respektieren"
+        },
+        {
+          "id": "b",
+          "text": "Sie können die Polizei einschalten"
+        },
+        {
+          "id": "c",
+          "text": "Sie können die Tochter zwingen, nach Hause zu kommen"
+        },
+        {
+          "id": "d",
+          "text": "Sie können den Partner anzeigen"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Correct answer:** Sie müssen die Entscheidung der volljährigen Tochter respektieren\n\nAt 18+ (→Q246), parental authority ends completely: adults choose partners, homes, lives, free personality development (Art. 2 GG) plus Freizügigkeit (→Q19). Police and courts have no role because no law is broken; family disapproval is a family conversation, not a legal category. This is a **values question**: it quietly tests acceptance that adult children, daughters included, decide for themselves. Answer accordingly in the interview too, where variants of it (\"Ihre Tochter möchte…\") are classic probes.\n\n## Auf Deutsch\n\nDie Tochter ist volljährig (21), die Eltern müssen ihre Entscheidung respektieren."
+    },
+    {
+      "id": "eb-u14-l03-probetest-2-ex28",
+      "type": "choice",
+      "title": "Frage 276 · Block 12",
+      "prompt": "Sie werden von einem Mitarbeiter/einer Mitarbeiterin einer Behörde sehr unfreundlich und schlecht behandelt. Was können Sie tun?",
+      "options": [
+        {
+          "id": "a",
+          "text": "sich beim Leiter/bei der Leiterin der Behörde beschweren"
+        },
+        {
+          "id": "b",
+          "text": "nichts: gegen Behörden kann man nichts machen"
+        },
+        {
+          "id": "c",
+          "text": "nie wieder zu einer Behörde gehen"
+        },
+        {
+          "id": "d",
+          "text": "den Mitarbeiter ebenfalls beschimpfen"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Correct answer:** sich beim Leiter/bei der Leiterin der Behörde beschweren\n\nThe **Dienstaufsichtsbeschwerde**, complaint to the official's superior: formless, free, and your right. Escalation ladder beyond it: Widerspruch against decisions (→Q283), Verwaltungsgericht against the agency (→Q80), Petitionsrecht to parliament (→Q17).\n\nB is learned helplessness the Rechtsstaat specifically abolishes, citizens are not subjects; C is avoidance (Behörden are unavoidable, as your document checklist proves); D earns a Beleidigung complaint *against you* (→Q14).\n\n## Auf Deutsch\n\nBei unfreundlicher Behandlung: beim Leiter der Behörde beschweren."
+    },
+    {
+      "id": "eb-u14-l03-probetest-2-ex29",
+      "type": "choice",
+      "title": "Frage 287 · Block 12",
+      "prompt": "Was müssen Sie beachten, wenn Sie in Deutschland Ihr Arbeitsverhältnis beenden möchten?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Kündigungsfrist"
+        },
+        {
+          "id": "b",
+          "text": "die Wünsche der Kollegen"
+        },
+        {
+          "id": "c",
+          "text": "die Zustimmung der Familie"
+        },
+        {
+          "id": "d",
+          "text": "die Meinung des Betriebsrats"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Correct answer:** die Kündigungsfrist\n\nQuitting requires honoring the **Kündigungsfrist** (notice period, statutory 4 weeks to the 15th/month-end, contracts often extend it) and **Schriftform** (§623 BGB: paper with real signature, email/WhatsApp resignations are VOID, a detail that surprises everyone).\n\nColleagues, family, Betriebsrat have feelings, not vetoes (the Betriebsrat is consulted when the *employer* dismisses →Q286, not when you leave). File under \"useful before the AI-engineer offer negotiation.\"\n\n## Auf Deutsch\n\nBeim Kündigen muss man die Kündigungsfrist beachten."
+    },
+    {
+      "id": "eb-u14-l03-probetest-2-ex30",
+      "type": "choice",
+      "title": "Frage 289 · Block 12",
+      "prompt": "Was ist ein Beispiel für Diskriminierung?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ein Bewerber bekommt die Stelle nicht, weil er eine dunkle Hautfarbe hat, obwohl er bestens qualifiziert ist"
+        },
+        {
+          "id": "b",
+          "text": "Eine Bewerberin bekommt die Stelle nicht, weil sie keine Fremdsprachen spricht, die für die Stelle nötig sind"
+        },
+        {
+          "id": "c",
+          "text": "Ein Bewerber wird nicht Pilot, weil er sehr schlecht sieht"
+        },
+        {
+          "id": "d",
+          "text": "Eine Bewerberin wird abgelehnt, weil sie die geforderte Software nicht kennt"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Correct answer:** Ein Bewerber bekommt die Stelle nicht, weil er eine dunkle Hautfarbe hat, obwohl er bestens qualifiziert ist\n\nSkin color + best qualification + rejection = racial discrimination (AGG →Q262; the Q277-lens: WHO he is, not WHAT the job needs).\n\nRequired languages, eyesight for pilots, software skills, all genuinely job-relevant (C is even safety-mandatory). Third rep of the pattern; by now your reflex should fire before reading the options.\n\n## Auf Deutsch\n\nAblehnung wegen Hautfarbe = Diskriminierung."
+    },
+    {
+      "id": "eb-u14-l03-probetest-2-ex31",
+      "type": "choice",
+      "title": "NRW 6 · Landesfrage",
+      "prompt": "Wo können sich Bürgerinnen und Bürger in Nordrhein-Westfalen über politische Fragen informieren?",
+      "options": [
+        {
+          "id": "a",
+          "text": "bei der Landeszentrale für politische Bildung"
+        },
+        {
+          "id": "b",
+          "text": "beim Ordnungsamt"
+        },
+        {
+          "id": "c",
+          "text": "beim Finanzamt"
+        },
+        {
+          "id": "d",
+          "text": "im Reisebüro"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Correct answer:** bei der Landeszentrale für politische Bildung\n\nThe **Landeszentrale für politische Bildung NRW**, the Land's nonpartisan civic-education agency: free/cheap books, events, election guides (its federal sibling bpb runs the famous Wahl-O-Mat). Meta-moment: preparing for this very test with study materials *is* the activity this question describes, the Landeszentrale would approve of these three files.\n\n## Auf Deutsch\n\nPolitische Informationen: bei der Landeszentrale für politische Bildung NRW."
+    },
+    {
+      "id": "eb-u14-l03-probetest-2-ex32",
+      "type": "choice",
+      "title": "NRW 7 · Landesfrage",
+      "prompt": "Wie heißt die Landeshauptstadt von Nordrhein-Westfalen?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Köln"
+        },
+        {
+          "id": "b",
+          "text": "Bonn"
+        },
+        {
+          "id": "c",
+          "text": "Düsseldorf"
+        },
+        {
+          "id": "d",
+          "text": "Dortmund"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**Correct answer:** Düsseldorf\n\n**Düsseldorf**, seat of Landtag and Landesregierung.\n\n## Auf Deutsch\n\nDie Landeshauptstadt von NRW ist Düsseldorf, nicht Köln, nicht Dortmund!"
+    },
+    {
+      "id": "eb-u14-l03-probetest-2-ex33",
+      "type": "choice",
+      "title": "NRW 8 · Landesfrage",
+      "prompt": "Welches Bundesland ist Nordrhein-Westfalen?",
+      "options": [
+        {
+          "id": "a",
+          "text": "das Land ganz im Westen, an der Grenze zu den Niederlanden und Belgien"
+        },
+        {
+          "id": "b",
+          "text": "das Land ganz im Süden: an der Grenze zur Schweiz"
+        },
+        {
+          "id": "c",
+          "text": "das Land ganz im Norden: an der Grenze zu Dänemark"
+        },
+        {
+          "id": "d",
+          "text": "das Land ganz im Osten: an der Grenze zu Polen"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Correct answer:** das Land ganz im Westen, an der Grenze zu den Niederlanden und Belgien\n\n*Picture question (Bildfrage):* in the real test you see pictures here, and the answer options describe them.\n\nCorrect: the westernmost highlighted Land, on the Dutch/Belgian border, roughly level with the map's middle-west.\n\nFind it by anchors: **borders the Netherlands and Belgium** (→Q222ff neighbors), Rhine running through, sits *below* Niedersachsen and *above* Rheinland-Pfalz/Hessen. Shape memory: a compact blob with a \"nose\" poking west (the Aachen corner). You've lived six years inside this outline, one map glance in the Online-Testcenter and this is the easiest point of your 33.\n\n## Auf Deutsch\n\nNRW liegt ganz im Westen, an der Grenze zu den Niederlanden und Belgien."
+    }
+  ]
+}

@@ -1,0 +1,300 @@
+{
+  "id": "tb1-u27-l11-pros-cons-2",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u27",
+  "title": "Pros & Cons 2",
+  "tip": "Theme: Redemittel: Vor- & Nachteile (B1)",
+  "exercises": [
+    {
+      "id": "tb1-u27-l11-pros-cons-2-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "Man muss bedenken, dass …",
+          "known": "One has to consider that …"
+        },
+        {
+          "id": "p2",
+          "learning": "Es kommt darauf an, ob …",
+          "known": "It depends on whether …"
+        },
+        {
+          "id": "p3",
+          "learning": "Trotz der Nachteile …",
+          "known": "Despite the disadvantages …"
+        },
+        {
+          "id": "p4",
+          "learning": "Insgesamt überwiegen die Vorteile",
+          "known": "Overall the advantages outweigh."
+        },
+        {
+          "id": "p5",
+          "learning": "Ein Vorteil ist, dass …",
+          "known": "One advantage is that …"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u27-l11-pros-cons-2-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which phrase means „On the one hand … on the other hand …“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Das hat den Vorteil, dass …"
+        },
+        {
+          "id": "b",
+          "text": "Trotz der Nachteile …"
+        },
+        {
+          "id": "c",
+          "text": "Auf der einen Seite … auf der anderen Seite …"
+        },
+        {
+          "id": "d",
+          "text": "Ein Vorteil ist, dass …"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**Auf der einen Seite … auf der anderen Seite …** = On the one hand … on the other hand …\n\n*Example:* Auf der einen Seite ist das Dorf ruhig, auf der anderen Seite gibt es keine Geschäfte.\nOn the one hand the village is quiet, on the other hand there are no shops."
+    },
+    {
+      "id": "tb1-u27-l11-pros-cons-2-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which phrase means „One has to consider that …“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Trotz der Nachteile …"
+        },
+        {
+          "id": "b",
+          "text": "Insgesamt überwiegen die Vorteile."
+        },
+        {
+          "id": "c",
+          "text": "Es kommt darauf an, ob …"
+        },
+        {
+          "id": "d",
+          "text": "Man muss bedenken, dass …"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**Man muss bedenken, dass …** = One has to consider that …\n\n*Example:* Man muss bedenken, dass ein Auto auch Versicherung kostet.\nOne has to consider that a car also costs insurance."
+    },
+    {
+      "id": "tb1-u27-l11-pros-cons-2-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Auf der einen Seite ist das Dorf ruhig, auf der anderen Seite gibt es keine Geschäfte.",
+      "tiles": [
+        "the",
+        "hand",
+        "on",
+        "no",
+        "is",
+        "quiet",
+        "the",
+        "are",
+        "other",
+        "the",
+        "Saturday",
+        "village",
+        "On",
+        "it",
+        "jams",
+        "there",
+        "hand",
+        "shops",
+        "one"
+      ],
+      "answers": [
+        "On the one hand the village is quiet, on the other hand there are no shops."
+      ],
+      "explanation": "**Auf der einen Seite … auf der anderen Seite …** = On the one hand … on the other hand …"
+    },
+    {
+      "id": "tb1-u27-l11-pros-cons-2-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which phrase means „It depends on whether …“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Dagegen spricht, dass …"
+        },
+        {
+          "id": "b",
+          "text": "Dafür spricht, dass …"
+        },
+        {
+          "id": "c",
+          "text": "Es kommt darauf an, ob …"
+        },
+        {
+          "id": "d",
+          "text": "Ein Vorteil ist, dass …"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**Es kommt darauf an, ob …** = It depends on whether …\n\n*Example:* Wir grillen am Samstag. Es kommt darauf an, ob es regnet.\nWe're having a barbecue on Saturday. It depends on whether it rains."
+    },
+    {
+      "id": "tb1-u27-l11-pros-cons-2-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "One has to consider that a car also costs insurance.",
+      "tiles": [
+        "bedenken",
+        "Auto",
+        "Versicherung",
+        "kostet",
+        "ein",
+        "gibt",
+        "Vorteil",
+        "muss",
+        "dass",
+        "auch",
+        "Man",
+        "den"
+      ],
+      "answers": [
+        "Man muss bedenken, dass ein Auto auch Versicherung kostet."
+      ],
+      "explanation": "**Man muss bedenken, dass …** = One has to consider that …"
+    },
+    {
+      "id": "tb1-u27-l11-pros-cons-2-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which phrase means „Despite the disadvantages …“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Dafür spricht, dass …"
+        },
+        {
+          "id": "b",
+          "text": "Trotz der Nachteile …"
+        },
+        {
+          "id": "c",
+          "text": "Man muss bedenken, dass …"
+        },
+        {
+          "id": "d",
+          "text": "Auf der einen Seite … auf der anderen Seite …"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Trotz der Nachteile …** = Despite the disadvantages …\n\n*Example:* Trotz der Nachteile ist Tom mit seiner neuen Stelle zufrieden.\nDespite the disadvantages, Tom is happy with his new job."
+    },
+    {
+      "id": "tb1-u27-l11-pros-cons-2-ex08",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u27-l11-pros-cons-2-3.mp3"
+      },
+      "tiles": [
+        "die",
+        "darauf",
+        "es",
+        "ob",
+        "grillen",
+        "ein",
+        "kommt",
+        "am",
+        "an",
+        "Wir",
+        "Samstag",
+        "Es",
+        "arbeiten",
+        "regnet"
+      ],
+      "answers": [
+        "Wir grillen am Samstag. Es kommt darauf an, ob es regnet."
+      ],
+      "explanation": "Wir grillen am Samstag. Es kommt darauf an, ob es regnet.\n*We're having a barbecue on Saturday. It depends on whether it rains.*\n\n**Es kommt darauf an, ob …** = It depends on whether …"
+    },
+    {
+      "id": "tb1-u27-l11-pros-cons-2-ex09",
+      "type": "multiple_choice",
+      "prompt": "Which phrase means „Overall the advantages outweigh.“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Insgesamt überwiegen die Vorteile."
+        },
+        {
+          "id": "b",
+          "text": "Das hat den Vorteil, dass …"
+        },
+        {
+          "id": "c",
+          "text": "Auf der einen Seite … auf der anderen Seite …"
+        },
+        {
+          "id": "d",
+          "text": "Ein Nachteil ist, dass …"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Insgesamt überwiegen die Vorteile.** = Overall the advantages outweigh.\n\n*Example:* Die Stadt ist teuer, aber es gibt viele Jobs. Insgesamt überwiegen die Vorteile.\nThe city is expensive, but there are lots of jobs. Overall the advantages outweigh the disadvantages."
+    },
+    {
+      "id": "tb1-u27-l11-pros-cons-2-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Trotz der Nachteile ist Tom mit seiner neuen Stelle zufrieden.",
+      "tiles": [
+        "happy",
+        "job",
+        "disadvantages",
+        "the",
+        "A",
+        "flat",
+        "his",
+        "with",
+        "disadvantage",
+        "new",
+        "Despite",
+        "is",
+        "Tom"
+      ],
+      "answers": [
+        "Despite the disadvantages, Tom is happy with his new job."
+      ],
+      "explanation": "**Trotz der Nachteile …** = Despite the disadvantages …"
+    },
+    {
+      "id": "tb1-u27-l11-pros-cons-2-ex11",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "The city is expensive, but there are lots of jobs. Overall the advantages outweigh the disadvantages.",
+      "tiles": [
+        "Vorteile",
+        "gibt",
+        "die",
+        "ist",
+        "aber",
+        "überwiegen",
+        "Die",
+        "darauf",
+        "Jobs",
+        "anderen",
+        "viele",
+        "Insgesamt",
+        "Stadt",
+        "es",
+        "teuer",
+        "spart"
+      ],
+      "answers": [
+        "Die Stadt ist teuer, aber es gibt viele Jobs. Insgesamt überwiegen die Vorteile."
+      ],
+      "explanation": "**Insgesamt überwiegen die Vorteile.** = Overall the advantages outweigh."
+    }
+  ]
+}

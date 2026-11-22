@@ -1,0 +1,226 @@
+{
+  "id": "tb1-u32-l08-adjektiv-p2",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u32",
+  "title": "Adjective Endings: Ohne Artikel",
+  "tip": "Dative endings after ein-words: “mit meinem alten Freund” (not “altem”, the -em is already on meinem).",
+  "exercises": [
+    {
+      "id": "tb1-u32-l08-adjektiv-p2-ex01",
+      "type": "explain",
+      "title": "Ohne Artikel",
+      "body": "Without an article the adjective takes the article's ending: frischer Kaffee, mit frischem Brot.\n\n*Deutsch:* Ohne Artikel trägt das Adjektiv die Endung des Artikels: frischer Kaffee, mit frischem Brot.\n\n## Pattern\n\nAdjektiv + **Artikel-Endung** + Nomen",
+      "examples": [
+        {
+          "learning": "Ich trinke gern heißen Tee.",
+          "known": "I like drinking hot tea."
+        },
+        {
+          "learning": "Wir suchen nette Mitarbeiter.",
+          "known": "We're looking for friendly employees."
+        }
+      ]
+    },
+    {
+      "id": "tb1-u32-l08-adjektiv-p2-ex02",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I like drinking hot tea.",
+      "tiles": [
+        "trinke",
+        "gern",
+        "meinem",
+        "Tee",
+        "heißen",
+        "Ich",
+        "Der",
+        "gefunden"
+      ],
+      "answers": [
+        "Ich trinke gern heißen Tee."
+      ],
+      "explanation": "**Why:** den Tee → heißen Tee.\n\n*Warum:* den Tee → heißen Tee."
+    },
+    {
+      "id": "tb1-u32-l08-adjektiv-p2-ex03",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "We're looking for friendly employees.",
+      "tiles": [
+        "Handy",
+        "nette",
+        "großem",
+        "suchen",
+        "frischem",
+        "Mitarbeiter",
+        "Wir"
+      ],
+      "answers": [
+        "Wir suchen nette Mitarbeiter."
+      ],
+      "explanation": "**Why:** Plural accusative (die) → -e.\n\n*Warum:* Plural Akkusativ (die) → -e."
+    },
+    {
+      "id": "tb1-u32-l08-adjektiv-p2-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Everything tastes better with fresh bread.",
+      "tiles": [
+        "spielen",
+        "Grüße",
+        "alles",
+        "Brot",
+        "schmeckt",
+        "rote",
+        "Mit",
+        "besser",
+        "frischem"
+      ],
+      "answers": [
+        "Mit frischem Brot schmeckt alles besser."
+      ],
+      "explanation": "**Why:** mit dem Brot → frischem Brot.\n\n*Warum:* mit dem Brot → frischem Brot."
+    },
+    {
+      "id": "tb1-u32-l08-adjektiv-p2-ex05",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Nice weather today!",
+      "tiles": [
+        "heute",
+        "Wetter",
+        "eine",
+        "mit",
+        "Schönes",
+        "Sie"
+      ],
+      "answers": [
+        "Schönes Wetter heute!"
+      ],
+      "explanation": "**Why:** das Wetter → schönes Wetter.\n\n*Warum:* das Wetter → schönes Wetter."
+    },
+    {
+      "id": "tb1-u32-l08-adjektiv-p2-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Best wishes and happy holidays!",
+      "tiles": [
+        "schöne",
+        "Feiertage",
+        "Viele",
+        "Die",
+        "Wir",
+        "großem",
+        "und",
+        "Grüße"
+      ],
+      "answers": [
+        "Viele Grüße und schöne Feiertage!"
+      ],
+      "explanation": "**Why:** Plural → -e (typical letter closing).\n\n*Warum:* Plural → -e (typischer Briefschluss)."
+    },
+    {
+      "id": "tb1-u32-l08-adjektiv-p2-ex07",
+      "type": "choice",
+      "title": "Fill the gap",
+      "prompt": "Ich treffe mich mit meinen ___ Kollegen.",
+      "options": [
+        {
+          "id": "a",
+          "text": "alten"
+        },
+        {
+          "id": "b",
+          "text": "altem"
+        },
+        {
+          "id": "c",
+          "text": "alte"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "mit + Dativ Plural, nach mein- → -en: mit meinen alten Kollegen."
+    },
+    {
+      "id": "tb1-u32-l08-adjektiv-p2-ex08",
+      "type": "choice",
+      "title": "Find the mistake",
+      "prompt": "Which word is wrong? „Ich habe einen neues Auto gekauft.“",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ich"
+        },
+        {
+          "id": "b",
+          "text": "habe"
+        },
+        {
+          "id": "c",
+          "text": "einen"
+        },
+        {
+          "id": "d",
+          "text": "neues"
+        },
+        {
+          "id": "e",
+          "text": "Auto"
+        },
+        {
+          "id": "f",
+          "text": "gekauft"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "„einen“ → „ein“: **Ich habe ein neues Auto gekauft.**\n\n„das Auto“ ist neutral → im Akkusativ „ein neues Auto“ (nicht „einen“)."
+    },
+    {
+      "id": "tb1-u32-l08-adjektiv-p2-ex09",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Correct the sentence: „Ich habe einen neues Auto gekauft.“",
+      "tiles": [
+        "ein",
+        "Kühlschrank",
+        "einen",
+        "neues",
+        "Ich",
+        "Auto",
+        "gekauft",
+        "Wetter",
+        "habe"
+      ],
+      "answers": [
+        "Ich habe ein neues Auto gekauft."
+      ],
+      "explanation": "„das Auto“ ist neutral → im Akkusativ „ein neues Auto“ (nicht „einen“)."
+    },
+    {
+      "id": "tb1-u32-l08-adjektiv-p2-ex10",
+      "type": "choice",
+      "title": "Fill the gap",
+      "prompt": "Ich habe einen ___ Job gefunden. (neu)",
+      "options": [
+        {
+          "id": "a",
+          "text": "neuer"
+        },
+        {
+          "id": "b",
+          "text": "neue"
+        },
+        {
+          "id": "c",
+          "text": "neues"
+        },
+        {
+          "id": "d",
+          "text": "neuen"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "einen + Akkusativ maskulin → -en: einen neuen Job."
+    }
+  ]
+}

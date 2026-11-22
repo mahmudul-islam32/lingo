@@ -1,0 +1,269 @@
+{
+  "id": "eb-u01-l04-q21-30",
+  "courseId": "einbuergerung-en-de",
+  "unitId": "eb-u01",
+  "title": "Questions 21–30 (Fragen 21–30)",
+  "tip": "Some of these are picture questions: in the real test the options are images; here they are described in words.",
+  "exercises": [
+    {
+      "id": "eb-u01-l04-q21-30-ex01",
+      "type": "choice",
+      "title": "Frage 21 · Block 1",
+      "prompt": "Welches ist das Wappen der Bundesrepublik Deutschland?",
+      "options": [
+        {
+          "id": "a",
+          "text": "ein schwarzer, einköpfiger Adler auf goldgelbem Schild (Bundesadler)"
+        },
+        {
+          "id": "b",
+          "text": "ein doppelköpfiger Adler auf weißem Schild"
+        },
+        {
+          "id": "c",
+          "text": "ein stilisiertes Kreuz auf rotem Grund"
+        },
+        {
+          "id": "d",
+          "text": "Hammer und Zirkel im Ährenkranz"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Correct answer:** ein schwarzer, einköpfiger Adler auf goldgelbem Schild (Bundesadler)\n\n*Picture question (Bildfrage):* in the real test you see pictures here, and the answer options describe them.\n\nCorrect: the black, single-headed eagle facing right on a golden-yellow shield, the Bundesadler.\n\nRecognize it: one head (the old imperial eagle had two), red beak/talons, plain gold background. Distractors typically include Land coats of arms or the stylized \"Bundestag owl-eagle\" variant. The eagle has symbolized German statehood for over a millennium, see also Q29 (eagle as heraldic animal) and Q216 (the giant eagle in the Bundestag chamber). Practice this and every 🖼 question once in the BAMF Online-Testcenter so you've *seen* the actual images.\n\n## Auf Deutsch\n\nDer Bundesadler: EIN Kopf, schwarz, auf goldgelbem Schild."
+    },
+    {
+      "id": "eb-u01-l04-q21-30-ex02",
+      "type": "choice",
+      "title": "Frage 22 · Block 1",
+      "prompt": "Was für eine Staatsform hat Deutschland?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Monarchie"
+        },
+        {
+          "id": "b",
+          "text": "Diktatur"
+        },
+        {
+          "id": "c",
+          "text": "Republik"
+        },
+        {
+          "id": "d",
+          "text": "Fürstentum"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**Correct answer:** Republik\n\nA **Republik** = head of state is elected for a limited term (Bundespräsident), never inherited. Germany has been a republic since 1918, when the Kaiser abdicated.\n\nMonarchy/principality (A, D) mean hereditary rule, abolished in 1918 (the UK, by contrast, is a democratic *monarchy*). B: a dictatorship is what Germany was 1933–45 and the DDR was 1949–89; today's constitutional order is its negation. Full formula →Q26.\n\n## Auf Deutsch\n\nDeutschland ist eine Republik, das Staatsoberhaupt wird gewählt, nicht vererbt."
+    },
+    {
+      "id": "eb-u01-l04-q21-30-ex03",
+      "type": "choice",
+      "title": "Frage 23 · Block 1",
+      "prompt": "In Deutschland sind die meisten Erwerbstätigen …",
+      "options": [
+        {
+          "id": "a",
+          "text": "in kleinen Familienunternehmen beschäftigt"
+        },
+        {
+          "id": "b",
+          "text": "ehrenamtlich für ein Bundesland tätig"
+        },
+        {
+          "id": "c",
+          "text": "selbstständig mit einer eigenen Firma tätig"
+        },
+        {
+          "id": "d",
+          "text": "bei einer Firma oder Behörde beschäftigt"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**Correct answer:** bei einer Firma oder Behörde beschäftigt\n\n~90% of Germany's workforce are **Arbeitnehmer**, employees of companies or public authorities. This fact anchors the whole social-insurance system (→Q97–100): contributions are deducted from employee wages.\n\nSelf-employment (C) covers only ~8–9%; family micro-businesses (A) are a small subset; **Ehrenamt** (B) is unpaid volunteering, by definition not employment (→Q132).\n\n## Auf Deutsch\n\nDie meisten Erwerbstätigen sind Angestellte bei einer Firma oder Behörde."
+    },
+    {
+      "id": "eb-u01-l04-q21-30-ex04",
+      "type": "choice",
+      "title": "Frage 24 · Block 1",
+      "prompt": "Wie viele Bundesländer hat die Bundesrepublik Deutschland?",
+      "options": [
+        {
+          "id": "a",
+          "text": "14"
+        },
+        {
+          "id": "b",
+          "text": "15"
+        },
+        {
+          "id": "c",
+          "text": "16"
+        },
+        {
+          "id": "d",
+          "text": "17"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**Correct answer:** 16\n\n**16 Länder**, 10 \"old\" (west), 5 \"new\" (east, joined 1990 →Q218), plus Berlin. Three are city-states (**Stadtstaaten**): Berlin, Hamburg, Bremen. You live in the most populous one: NRW (~18 million). Memory hook: 10 + 5 + Berlin = 16. This number returns in Q218 and the NRW block.\n\n## Auf Deutsch\n\nDeutschland hat 16 Bundesländer."
+    },
+    {
+      "id": "eb-u01-l04-q21-30-ex05",
+      "type": "choice",
+      "title": "Frage 25 · Block 1",
+      "prompt": "Was ist kein Bundesland der Bundesrepublik Deutschland?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Nordrhein-Westfalen"
+        },
+        {
+          "id": "b",
+          "text": "Elsass-Lothringen"
+        },
+        {
+          "id": "c",
+          "text": "Mecklenburg-Vorpommern"
+        },
+        {
+          "id": "d",
+          "text": "Sachsen-Anhalt"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Correct answer:** Elsass-Lothringen\n\n**Elsass-Lothringen** (Alsace-Lorraine) is in **France**. German-ruled 1871–1918, which is exactly why it works as a trap.\n\nNRW (yours), Mecklenburg-Vorpommern, and Sachsen-Anhalt are all real Länder. If a name sounds historical-imperial (Elsass, Schlesien, Ostpreußen), it's a distractor, those regions are French or Polish/Russian today.\n\n## Auf Deutsch\n\nElsass-Lothringen liegt in Frankreich, kein deutsches Bundesland."
+    },
+    {
+      "id": "eb-u01-l04-q21-30-ex06",
+      "type": "choice",
+      "title": "Frage 26 · Block 1",
+      "prompt": "Deutschland ist …",
+      "options": [
+        {
+          "id": "a",
+          "text": "eine kommunistische Republik"
+        },
+        {
+          "id": "b",
+          "text": "ein demokratischer und sozialer Bundesstaat"
+        },
+        {
+          "id": "c",
+          "text": "eine kapitalistische und soziale Monarchie"
+        },
+        {
+          "id": "d",
+          "text": "ein sozialer und sozialistischer Bundesstaat"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Correct answer:** ein demokratischer und sozialer Bundesstaat\n\nQuoting Art. 20(1) GG verbatim: *\"Die Bundesrepublik Deutschland ist ein demokratischer und sozialer Bundesstaat.\"* Three loaded words: **demokratisch** (power from the people), **sozial** (welfare state duty), **Bundesstaat** (federal, power shared with the Länder). All three are eternity-clause protected.\n\n\"kommunistisch\"/\"sozialistisch\" describe the DDR's system, not the Federal Republic's; \"Monarchie\" died in 1918. Distinguish **sozial** (welfare safety net within a market economy) from **sozialistisch** (state-owned planned economy), the test loves this distinction (→Q50, Q171, Q203).\n\n## Auf Deutsch\n\nGrundgesetz Artikel 20: Deutschland ist ein „demokratischer und sozialer Bundesstaat“."
+    },
+    {
+      "id": "eb-u01-l04-q21-30-ex07",
+      "type": "choice",
+      "title": "Frage 27 · Block 1",
+      "prompt": "Deutschland ist …",
+      "options": [
+        {
+          "id": "a",
+          "text": "ein sozialistischer Staat"
+        },
+        {
+          "id": "b",
+          "text": "ein Bundesstaat"
+        },
+        {
+          "id": "c",
+          "text": "eine Diktatur"
+        },
+        {
+          "id": "d",
+          "text": "eine Monarchie"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Correct answer:** ein Bundesstaat\n\n→Q26, reduced to the federal element. **Bundesstaat** = one federation, 16 constituent states with real powers (education, police, culture, →Q49, Q67). Contrast: *Staatenbund* (loose confederation of sovereign states, like the EU) and *Zentralstaat* (all power central, like France traditionally), that contrast is tested directly in Q38.\n\n## Auf Deutsch\n\nBundesstaat = der Bund und 16 Länder teilen sich die Macht."
+    },
+    {
+      "id": "eb-u01-l04-q21-30-ex08",
+      "type": "choice",
+      "title": "Frage 28 · Block 1",
+      "prompt": "Wer wählt in Deutschland die Abgeordneten zum Bundestag?",
+      "options": [
+        {
+          "id": "a",
+          "text": "das Militär"
+        },
+        {
+          "id": "b",
+          "text": "die Wirtschaft"
+        },
+        {
+          "id": "c",
+          "text": "das wahlberechtigte Volk"
+        },
+        {
+          "id": "d",
+          "text": "die Verwaltung"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**Correct answer:** das wahlberechtigte Volk\n\nBundestag MPs are elected directly by eligible voters. German citizens 18+ (→Q94, Q108). This is the moment sovereignty flows from people to parliament: the elected Bundestag then elects the Chancellor (→Q81).\n\nMilitary, business, and bureaucracy having no vote as institutions is precisely what distinguishes a democracy from juntas, oligarchies, and apparatchik states.\n\n## Auf Deutsch\n\nDas wahlberechtigte Volk wählt die Bundestagsabgeordneten direkt."
+    },
+    {
+      "id": "eb-u01-l04-q21-30-ex09",
+      "type": "choice",
+      "title": "Frage 29 · Block 1",
+      "prompt": "Welches Tier ist das Wappentier der Bundesrepublik Deutschland?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Löwe"
+        },
+        {
+          "id": "b",
+          "text": "Adler"
+        },
+        {
+          "id": "c",
+          "text": "Bär"
+        },
+        {
+          "id": "d",
+          "text": "Pferd"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Correct answer:** Adler\n\nThe eagle (**Bundesadler**), heraldic animal of German states for over 1,000 years, from the Holy Roman Empire to today (→Q21, Q216).\n\nLions appear on *Länder* arms (Bayern's is famous), the bear is **Berlin's** city symbol, the horse is **Niedersachsen's**, all plausible-sounding, all wrong at federal level.\n\n## Auf Deutsch\n\nDas Wappentier ist der Adler, seit über 1000 Jahren deutsches Symbol."
+    },
+    {
+      "id": "eb-u01-l04-q21-30-ex10",
+      "type": "choice",
+      "title": "Frage 30 · Block 1",
+      "prompt": "Was ist kein Merkmal unserer Demokratie?",
+      "options": [
+        {
+          "id": "a",
+          "text": "regelmäßige Wahlen"
+        },
+        {
+          "id": "b",
+          "text": "Pressezensur"
+        },
+        {
+          "id": "c",
+          "text": "Meinungsfreiheit"
+        },
+        {
+          "id": "d",
+          "text": "verschiedene Parteien"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Correct answer:** Pressezensur\n\n**Pressezensur** (press censorship) is democracy's *opposite*; Art. 5 GG states flatly: *\"Eine Zensur findet nicht statt.\"*\n\nRegular elections, free expression, and party pluralism are the defining features of the system (→Q41). Censorship is what the Nazi and DDR regimes did, the question is really asking whether you can tell the systems apart.\n\n## Auf Deutsch\n\nPressezensur ist in einer Demokratie verboten (Art. 5 GG: „Eine Zensur findet nicht statt“)."
+    }
+  ]
+}

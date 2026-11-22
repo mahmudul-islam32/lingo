@@ -1,0 +1,226 @@
+{
+  "id": "tb1-u29-l04-planning-speaking-part-3-1",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u29",
+  "title": "Planning (Speaking Part 3) 1",
+  "tip": "Theme: Sätze: Planen (Sprechen Teil 3) (B1)",
+  "exercises": [
+    {
+      "id": "tb1-u29-l04-planning-speaking-part-3-1-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "Wollen wir uns am Samstag treffen?",
+          "known": "Shall we meet on Saturday?"
+        },
+        {
+          "id": "p2",
+          "learning": "Wer könnte die Getränke mitbringen?",
+          "known": "Who could bring the drinks?"
+        },
+        {
+          "id": "p3",
+          "learning": "Wie viel Geld wollen wir ausgeben?",
+          "known": "How much money do we want to spend?"
+        },
+        {
+          "id": "p4",
+          "learning": "Sollen wir die anderen auch einladen?",
+          "known": "Shall we invite the others too?"
+        },
+        {
+          "id": "p5",
+          "learning": "Dann sind wir uns einig",
+          "known": "Then we agree."
+        }
+      ]
+    },
+    {
+      "id": "tb1-u29-l04-planning-speaking-part-3-1-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means „Shall we meet on Saturday?“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ich schlage vor, dass wir zuerst einkaufen."
+        },
+        {
+          "id": "b",
+          "text": "Wollen wir uns am Samstag treffen?"
+        },
+        {
+          "id": "c",
+          "text": "Das ist eine gute Idee, aber vielleicht ist es zu teuer."
+        },
+        {
+          "id": "d",
+          "text": "Gut, machen wir es so."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Wollen wir uns am Samstag treffen?** = Shall we meet on Saturday?\n\n*Example:* Wollen wir uns am Samstag treffen?\nShall we meet on Saturday?"
+    },
+    {
+      "id": "tb1-u29-l04-planning-speaking-part-3-1-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means „I suggest that we go shopping first.“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Wollen wir uns am Samstag treffen?"
+        },
+        {
+          "id": "b",
+          "text": "Wer könnte die Getränke mitbringen?"
+        },
+        {
+          "id": "c",
+          "text": "Das ist eine gute Idee, aber vielleicht ist es zu teuer."
+        },
+        {
+          "id": "d",
+          "text": "Ich schlage vor, dass wir zuerst einkaufen."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**Ich schlage vor, dass wir zuerst einkaufen.** = I suggest that we go shopping first.\n\n*Example:* Ich schlage vor, dass wir zuerst einkaufen.\nI suggest that we go shopping first."
+    },
+    {
+      "id": "tb1-u29-l04-planning-speaking-part-3-1-ex04",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u29-l04-planning-speaking-part-3-1-1.mp3"
+      },
+      "tiles": [
+        "uns",
+        "dass",
+        "Samstag",
+        "aber",
+        "Wollen",
+        "am",
+        "wir",
+        "treffen",
+        "die"
+      ],
+      "answers": [
+        "Wollen wir uns am Samstag treffen?"
+      ],
+      "explanation": "Wollen wir uns am Samstag treffen?\n*Shall we meet on Saturday?*\n\n**Wollen wir uns am Samstag treffen?** = Shall we meet on Saturday?"
+    },
+    {
+      "id": "tb1-u29-l04-planning-speaking-part-3-1-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means „Who could bring the drinks?“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Sollen wir die anderen auch einladen?"
+        },
+        {
+          "id": "b",
+          "text": "Wer könnte die Getränke mitbringen?"
+        },
+        {
+          "id": "c",
+          "text": "Ich schlage vor, dass wir zuerst einkaufen."
+        },
+        {
+          "id": "d",
+          "text": "Wie viel Geld wollen wir ausgeben?"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Wer könnte die Getränke mitbringen?** = Who could bring the drinks?\n\n*Example:* Wer könnte die Getränke mitbringen?\nWho could bring the drinks?"
+    },
+    {
+      "id": "tb1-u29-l04-planning-speaking-part-3-1-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Ich schlage vor, dass wir zuerst einkaufen.",
+      "tiles": [
+        "that",
+        "first",
+        "to",
+        "the",
+        "Then",
+        "we",
+        "go",
+        "I",
+        "suggest",
+        "shopping"
+      ],
+      "answers": [
+        "I suggest that we go shopping first."
+      ],
+      "explanation": "**Ich schlage vor, dass wir zuerst einkaufen.** = I suggest that we go shopping first."
+    },
+    {
+      "id": "tb1-u29-l04-planning-speaking-part-3-1-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means „How much money do we want to spend?“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Wie viel Geld wollen wir ausgeben?"
+        },
+        {
+          "id": "b",
+          "text": "Sollen wir die anderen auch einladen?"
+        },
+        {
+          "id": "c",
+          "text": "Dann sind wir uns einig."
+        },
+        {
+          "id": "d",
+          "text": "Wollen wir uns am Samstag treffen?"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Wie viel Geld wollen wir ausgeben?** = How much money do we want to spend?\n\n*Example:* Wie viel Geld wollen wir ausgeben?\nHow much money do we want to spend?"
+    },
+    {
+      "id": "tb1-u29-l04-planning-speaking-part-3-1-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Who could bring the drinks?",
+      "tiles": [
+        "könnte",
+        "einig",
+        "Getränke",
+        "so",
+        "die",
+        "mitbringen",
+        "wir",
+        "Wer"
+      ],
+      "answers": [
+        "Wer könnte die Getränke mitbringen?"
+      ],
+      "explanation": "**Wer könnte die Getränke mitbringen?** = Who could bring the drinks?"
+    },
+    {
+      "id": "tb1-u29-l04-planning-speaking-part-3-1-ex09",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u29-l04-planning-speaking-part-3-1-4.mp3"
+      },
+      "tiles": [
+        "wollen",
+        "könnte",
+        "gute",
+        "ausgeben",
+        "Geld",
+        "einladen",
+        "viel",
+        "wir",
+        "Wie"
+      ],
+      "answers": [
+        "Wie viel Geld wollen wir ausgeben?"
+      ],
+      "explanation": "Wie viel Geld wollen wir ausgeben?\n*How much money do we want to spend?*\n\n**Wie viel Geld wollen wir ausgeben?** = How much money do we want to spend?"
+    }
+  ]
+}

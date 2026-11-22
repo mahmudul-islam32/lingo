@@ -1,0 +1,129 @@
+{
+  "id": "tb1-u33-l04-negation-rule",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u33",
+  "title": "Negation: nicht or kein: the rule",
+  "tip": "“Ich habe nicht Zeit” → keine Zeit. “Ich nicht komme” → Ich komme nicht. Nicht never jumps before the conjugated verb.",
+  "exercises": [
+    {
+      "id": "tb1-u33-l04-negation-rule-ex01",
+      "type": "explain",
+      "title": "Negation: nicht or kein",
+      "body": "**kein** negates nouns with an indefinite/no article (Ich habe keine Zeit). **nicht** negates verbs, adjectives and definite nouns (Das ist nicht mein Auto); it goes as late as possible, but before adjectives/prepositional phrases/second verb parts.\n\n*Deutsch:* **kein** negiert Nomen mit unbestimmtem/ohne Artikel (Ich habe keine Zeit). **nicht** negiert Verben, Adjektive und bestimmte Nomen (Das ist nicht mein Auto); es steht möglichst weit hinten, aber vor Adjektiv/Präposition/Verbteil 2.\n\n*German name:* Negation: nicht oder kein",
+      "examples": [
+        {
+          "learning": "Ich habe leider keine Zeit.",
+          "known": "Unfortunately I have no time."
+        },
+        {
+          "learning": "Der Bus kommt heute nicht pünktlich.",
+          "known": "The bus is not on time today."
+        },
+        {
+          "learning": "Leider kann ich am Samstag nicht kommen.",
+          "known": "Unfortunately I can't come on Saturday. (THE excuse sentence)"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u33-l04-negation-rule-ex02",
+      "type": "explain",
+      "title": "Negation: nicht or kein: step by step",
+      "body": "Decision rule:\n1) Noun with “ein” or no article? → **kein** (+ ein-endings): Ich habe kein Auto, keine Lust, keinen Hunger.\n2) Everything else → **nicht**.\nWhere does nicht go?\n• End of the sentence for simple negation: Er kommt heute **nicht**.\n• BEFORE: adjectives (nicht müde), prepositional phrases (nicht mit dem Auto), second verb parts (habe … nicht gesehen · kann … nicht kommen).\nUseful pairs: schon ↔ noch nicht · noch ↔ nicht mehr · etwas ↔ nichts · jemand ↔ niemand.\nLetter patterns: “Leider kann ich nicht kommen” · “Ich habe noch keine Antwort bekommen.”\n\n## Auf Deutsch\n\nEntscheidungsregel:\n1) Steht ein Nomen mit „ein“ oder ohne Artikel? → **kein** (+ ein-Endungen): Ich habe kein Auto, keine Lust, keinen Hunger.\n2) Alles andere → **nicht**.\nWo steht nicht?\n• Satzende bei einfacher Verneinung: Er kommt heute **nicht**.\n• VOR: Adjektiv (nicht müde), Präpositional-Gruppe (nicht mit dem Auto), Verbteil 2 (habe … nicht gesehen · kann … nicht kommen).\nNützliche Paare: schon ↔ noch nicht · noch ↔ nicht mehr · etwas ↔ nichts · jemand ↔ niemand.\nBrief-Muster: „Leider kann ich nicht kommen“ · „Ich habe noch keine Antwort bekommen.“",
+      "examples": [
+        {
+          "learning": "Ich habe leider keine Zeit.",
+          "known": "Unfortunately I have no time."
+        },
+        {
+          "learning": "Der Bus kommt heute nicht pünktlich.",
+          "known": "The bus is not on time today."
+        },
+        {
+          "learning": "Leider kann ich am Samstag nicht kommen.",
+          "known": "Unfortunately I can't come on Saturday. (THE excuse sentence)"
+        },
+        {
+          "learning": "Ich habe noch keine Antwort bekommen.",
+          "known": "I haven't received a reply yet. (complaint letter)"
+        },
+        {
+          "learning": "Testlücke-Stil: „Ich habe ___ Lust auf Kino.“ → keine",
+          "known": "Lust = noun without article → keine"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u33-l04-negation-rule-ex03",
+      "type": "explain",
+      "title": "Watch out & exam tip",
+      "body": "## Common trap\n\n“Ich habe nicht Zeit” → keine Zeit. “Ich nicht komme” → Ich komme nicht. Nicht never jumps before the conjugated verb.\n\n*Deutsch:* „Ich habe nicht Zeit“ → keine Zeit. „Ich nicht komme“ → Ich komme nicht. Nicht springt nie vor das konjugierte Verb.\n\n## In the exam\n\n🎯 How telc tests it: **listening**: true/false often hinges on ONE nicht/kein or on noch nicht/nicht mehr, listen closely! In the **letter**, declining an invitation (“kann leider nicht kommen”) is a standard guiding point.\n\n*Deutsch:* 🎯 So testet telc das: **Hören**: richtig/falsch hängt oft an EINEM nicht/kein oder an noch nicht/nicht mehr, genau hinhören! Im **Brief** ist die Absage („kann leider nicht kommen“) ein Standard-Leitpunkt.\n\n*Source:* Guide Teil B"
+    },
+    {
+      "id": "tb1-u33-l04-negation-rule-ex04",
+      "type": "choice",
+      "title": "Fill the gap",
+      "prompt": "Ich habe leider ___ Zeit.",
+      "options": [
+        {
+          "id": "a",
+          "text": "kein"
+        },
+        {
+          "id": "b",
+          "text": "keine"
+        },
+        {
+          "id": "c",
+          "text": "nicht"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Zeit = Nomen ohne Artikel → keine Zeit (feminin)."
+    },
+    {
+      "id": "tb1-u33-l04-negation-rule-ex05",
+      "type": "choice",
+      "title": "Fill the gap",
+      "prompt": "Das ist ___ mein Koffer.",
+      "options": [
+        {
+          "id": "a",
+          "text": "keinen"
+        },
+        {
+          "id": "b",
+          "text": "nicht"
+        },
+        {
+          "id": "c",
+          "text": "kein"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Vor Possessivartikel steht nicht: nicht mein Koffer."
+    },
+    {
+      "id": "tb1-u33-l04-negation-rule-ex06",
+      "type": "choice",
+      "title": "Fill the gap",
+      "prompt": "Er kommt heute ___ zur Arbeit.",
+      "options": [
+        {
+          "id": "a",
+          "text": "nicht"
+        },
+        {
+          "id": "b",
+          "text": "kein"
+        },
+        {
+          "id": "c",
+          "text": "nichts"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Verb wird negiert → nicht."
+    }
+  ]
+}

@@ -1,0 +1,278 @@
+{
+  "id": "tb1-u06-l10-shopping-money-2",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u06",
+  "title": "Shopping & Money 2",
+  "tip": "Theme: Einkaufen & Geld (A2)",
+  "exercises": [
+    {
+      "id": "tb1-u06-l10-shopping-money-2-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "das Angebot",
+          "known": "offer / deal"
+        },
+        {
+          "id": "p2",
+          "learning": "der Rabatt",
+          "known": "discount"
+        },
+        {
+          "id": "p3",
+          "learning": "die Rechnung",
+          "known": "bill / invoice"
+        },
+        {
+          "id": "p4",
+          "learning": "die Quittung",
+          "known": "receipt"
+        },
+        {
+          "id": "p5",
+          "learning": "bar bezahlen",
+          "known": "to pay cash"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u06-l10-shopping-money-2-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „offer / deal“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Rechnung, die Rechnungen"
+        },
+        {
+          "id": "b",
+          "text": "das Angebot, die Angebote"
+        },
+        {
+          "id": "c",
+          "text": "das Geschäft, die Geschäfte"
+        },
+        {
+          "id": "d",
+          "text": "der Supermarkt, die Supermärkte"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**das Angebot** = offer / deal\n*Plural: die Angebote*\n\n*Example:* Diese Woche ist der Kaffee im Angebot.\nCoffee is on offer this week."
+    },
+    {
+      "id": "tb1-u06-l10-shopping-money-2-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „discount“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "der Rabatt, die Rabatte"
+        },
+        {
+          "id": "b",
+          "text": "die Kreditkarte, die Kreditkarten"
+        },
+        {
+          "id": "c",
+          "text": "das Angebot, die Angebote"
+        },
+        {
+          "id": "d",
+          "text": "das Geschäft, die Geschäfte"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**der Rabatt** = discount\n*Plural: die Rabatte*\n\n*Example:* Mit der Kundenkarte bekommen Sie zehn Prozent Rabatt.\nWith the loyalty card you get a ten percent discount."
+    },
+    {
+      "id": "tb1-u06-l10-shopping-money-2-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Coffee is on offer this week.",
+      "tiles": [
+        "der",
+        "Woche",
+        "Diese",
+        "frisches",
+        "Uhr",
+        "im",
+        "oft",
+        "ist",
+        "Kaffee",
+        "Angebot"
+      ],
+      "answers": [
+        "Diese Woche ist der Kaffee im Angebot."
+      ],
+      "explanation": "**das Angebot** = offer / deal\n*Plural: die Angebote*"
+    },
+    {
+      "id": "tb1-u06-l10-shopping-money-2-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „bill / invoice“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "der Rabatt, die Rabatte"
+        },
+        {
+          "id": "b",
+          "text": "die Rechnung, die Rechnungen"
+        },
+        {
+          "id": "c",
+          "text": "der Supermarkt, die Supermärkte"
+        },
+        {
+          "id": "d",
+          "text": "der Markt, die Märkte"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**die Rechnung** = bill / invoice\n*Plural: die Rechnungen*\n\n*Example:* Die Rechnung für den Strom ist heute gekommen.\nThe electricity bill arrived today."
+    },
+    {
+      "id": "tb1-u06-l10-shopping-money-2-ex06",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u06-l10-shopping-money-2-2.mp3"
+      },
+      "tiles": [
+        "zehn",
+        "Prozent",
+        "etwas",
+        "Urlaub",
+        "der",
+        "geöffnet",
+        "Sie",
+        "bekommen",
+        "Rabatt",
+        "Kundenkarte",
+        "Mit"
+      ],
+      "answers": [
+        "Mit der Kundenkarte bekommen Sie zehn Prozent Rabatt."
+      ],
+      "explanation": "Mit der Kundenkarte bekommen Sie zehn Prozent Rabatt.\n*With the loyalty card you get a ten percent discount.*\n\n**der Rabatt** = discount\n*Plural: die Rabatte*"
+    },
+    {
+      "id": "tb1-u06-l10-shopping-money-2-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „receipt“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "das Kleingeld"
+        },
+        {
+          "id": "b",
+          "text": "das Angebot, die Angebote"
+        },
+        {
+          "id": "c",
+          "text": "der Supermarkt, die Supermärkte"
+        },
+        {
+          "id": "d",
+          "text": "die Quittung, die Quittungen"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**die Quittung** = receipt\n*Plural: die Quittungen*\n\n*Example:* Bitte heben Sie die Quittung auf, falls Sie etwas umtauschen möchten.\nPlease keep the receipt in case you want to exchange something."
+    },
+    {
+      "id": "tb1-u06-l10-shopping-money-2-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Die Rechnung für den Strom ist heute gekommen.",
+      "tiles": [
+        "electricity",
+        "bill",
+        "until",
+        "in",
+        "today",
+        "The",
+        "Flats",
+        "arrived"
+      ],
+      "answers": [
+        "The electricity bill arrived today."
+      ],
+      "explanation": "**die Rechnung** = bill / invoice\n*Plural: die Rechnungen*"
+    },
+    {
+      "id": "tb1-u06-l10-shopping-money-2-ex09",
+      "type": "multiple_choice",
+      "prompt": "Which one means „to pay cash“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "bar bezahlen"
+        },
+        {
+          "id": "b",
+          "text": "günstig"
+        },
+        {
+          "id": "c",
+          "text": "umtauschen"
+        },
+        {
+          "id": "d",
+          "text": "sparen"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**bar bezahlen** = to pay cash\n\n*Example:* Kann ich hier bar bezahlen?\nCan I pay in cash here?"
+    },
+    {
+      "id": "tb1-u06-l10-shopping-money-2-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Please keep the receipt in case you want to exchange something.",
+      "tiles": [
+        "möchten",
+        "Rabatt",
+        "diese",
+        "etwas",
+        "Sie",
+        "Sie",
+        "falls",
+        "Bitte",
+        "umtauschen",
+        "zu",
+        "die",
+        "Quittung",
+        "auf",
+        "heben"
+      ],
+      "answers": [
+        "Bitte heben Sie die Quittung auf, falls Sie etwas umtauschen möchten."
+      ],
+      "explanation": "**die Quittung** = receipt\n*Plural: die Quittungen*"
+    },
+    {
+      "id": "tb1-u06-l10-shopping-money-2-ex11",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u06-l10-shopping-money-2-5.mp3"
+      },
+      "tiles": [
+        "bar",
+        "22",
+        "bezahlen",
+        "diesen",
+        "ich",
+        "Kann",
+        "hier",
+        "Angebot"
+      ],
+      "answers": [
+        "Kann ich hier bar bezahlen?"
+      ],
+      "explanation": "Kann ich hier bar bezahlen?\n*Can I pay in cash here?*\n\n**bar bezahlen** = to pay cash"
+    }
+  ]
+}

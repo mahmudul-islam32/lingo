@@ -1,0 +1,177 @@
+{
+  "id": "tb1-u32-l18-tempus-p2",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u32",
+  "title": "Time Prepositions: am, um, im, seit, vor, ab: ab",
+  "tip": "seit vs. vor is THE trap: “Seit zwei Jahren bin ich nach Deutschland gekommen” is wrong → Vor zwei Jahren … gekommen / Seit zwei Jahren wohne ich hier.",
+  "exercises": [
+    {
+      "id": "tb1-u32-l18-tempus-p2-ex01",
+      "type": "explain",
+      "title": "ab · in · für · von … bis",
+      "body": "ab = start in the future · in = after that time (from now) · für = planned duration · von … bis = start and end.\n\n*Deutsch:* ab = Start in der Zukunft · in = nach dieser Zeit (ab jetzt) · für = geplante Dauer · von … bis = Anfang und Ende.\n\n## Pattern\n\n**ab** Montag · **in** einer Stunde · **für** zwei Wochen · **von** 9 **bis** 17 Uhr",
+      "examples": [
+        {
+          "learning": "Ab nächster Woche arbeite ich Vollzeit.",
+          "known": "From next week I'll work full-time."
+        },
+        {
+          "learning": "Der Zug kommt in zehn Minuten.",
+          "known": "The train is coming in ten minutes."
+        }
+      ]
+    },
+    {
+      "id": "tb1-u32-l18-tempus-p2-ex02",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "From next week I'll work full-time.",
+      "tiles": [
+        "ich",
+        "einen",
+        "Ab",
+        "Woche",
+        "arbeite",
+        "Wochenende",
+        "habe",
+        "Vollzeit",
+        "nächster"
+      ],
+      "answers": [
+        "Ab nächster Woche arbeite ich Vollzeit."
+      ],
+      "explanation": "**Why:** Start in the future → ab.\n\n*Warum:* Start in der Zukunft → ab."
+    },
+    {
+      "id": "tb1-u32-l18-tempus-p2-ex03",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "The train is coming in ten minutes.",
+      "tiles": [
+        "Der",
+        "Minuten",
+        "ans",
+        "kommt",
+        "zehn",
+        "nächster",
+        "wir",
+        "Zug",
+        "in"
+      ],
+      "answers": [
+        "Der Zug kommt in zehn Minuten."
+      ],
+      "explanation": "**Why:** in = after ten minutes (from now).\n\n*Warum:* in = nach zehn Minuten (ab jetzt)."
+    },
+    {
+      "id": "tb1-u32-l18-tempus-p2-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "We're going to Italy for two weeks.",
+      "tiles": [
+        "nach",
+        "für",
+        "Italien",
+        "Wochen",
+        "kommt",
+        "fahren",
+        "zwei",
+        "Monat",
+        "Wir",
+        "Uhr"
+      ],
+      "answers": [
+        "Wir fahren für zwei Wochen nach Italien."
+      ],
+      "explanation": "**Why:** Planned duration → für.\n\n*Warum:* Geplante Dauer → für."
+    },
+    {
+      "id": "tb1-u32-l18-tempus-p2-ex05",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "The practice is open from 8 to 12.",
+      "tiles": [
+        "8",
+        "bis",
+        "Bonn",
+        "Praxis",
+        "ist",
+        "Die",
+        "habe",
+        "von",
+        "Termin",
+        "Uhr",
+        "12",
+        "geöffnet"
+      ],
+      "answers": [
+        "Die Praxis ist von 8 bis 12 Uhr geöffnet."
+      ],
+      "explanation": "**Why:** Start and end.\n\n*Warum:* Anfang und Ende."
+    },
+    {
+      "id": "tb1-u32-l18-tempus-p2-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "The offer is valid immediately.",
+      "tiles": [
+        "gilt",
+        "drei",
+        "Meer",
+        "sofort",
+        "Angebot",
+        "habe",
+        "Das",
+        "ab"
+      ],
+      "answers": [
+        "Das Angebot gilt ab sofort."
+      ],
+      "explanation": "**Why:** ab sofort = from now on.\n\n*Warum:* ab sofort = ab jetzt."
+    },
+    {
+      "id": "tb1-u32-l18-tempus-p2-ex07",
+      "type": "choice",
+      "title": "Fill the gap",
+      "prompt": "___ nächster Woche habe ich einen neuen Job.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Seit"
+        },
+        {
+          "id": "b",
+          "text": "Ab"
+        },
+        {
+          "id": "c",
+          "text": "Vor"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Startpunkt in der Zukunft → ab."
+    },
+    {
+      "id": "tb1-u32-l18-tempus-p2-ex08",
+      "type": "choice",
+      "title": "Fill the gap",
+      "prompt": "Ich wohne ___ zwei Jahren hier.",
+      "options": [
+        {
+          "id": "a",
+          "text": "seit"
+        },
+        {
+          "id": "b",
+          "text": "ab"
+        },
+        {
+          "id": "c",
+          "text": "vor"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "läuft bis heute → seit + Dativ (seit zwei Jahren)."
+    }
+  ]
+}

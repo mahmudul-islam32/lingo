@@ -1,0 +1,337 @@
+{
+  "id": "tb1-u31-l14-kii-p1",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u31",
+  "title": "Konjunktiv II: Polite & Unreal: Höfliche Bitten & Ratschläge & Wünsche",
+  "tip": "A formal request without KII sounds like an order: “Schicken Sie mir die Unterlagen” → better: “Könnten Sie mir die Unterlagen schicken?”",
+  "exercises": [
+    {
+      "id": "tb1-u31-l14-kii-p1-ex01",
+      "type": "explain",
+      "title": "Höfliche Bitten",
+      "body": "Könnten Sie …? Würden Sie …? Hätten Sie …? – much more polite than the imperative.\n\n*Deutsch:* Könnten Sie …? Würden Sie …? Hätten Sie …? – viel höflicher als Imperativ.\n\n## Pattern\n\n**Könnten/Würden** Sie + … + **Infinitiv**?",
+      "examples": [
+        {
+          "learning": "Könnten Sie mir bitte helfen?",
+          "known": "Could you help me, please?"
+        },
+        {
+          "learning": "Würden Sie bitte das Fenster schließen?",
+          "known": "Would you close the window, please?"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u31-l14-kii-p1-ex02",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Could you help me, please?",
+      "tiles": [
+        "helfen",
+        "mir",
+        "Könnten",
+        "Kaffee",
+        "möglich",
+        "Sie",
+        "lesen",
+        "bitte"
+      ],
+      "answers": [
+        "Könnten Sie mir bitte helfen?"
+      ],
+      "explanation": "**Why:** könnte = polite form of kann.\n\n*Warum:* könnte = höfliche Form von kann."
+    },
+    {
+      "id": "tb1-u31-l14-kii-p1-ex03",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Would you close the window, please?",
+      "tiles": [
+        "Sie",
+        "Fenster",
+        "dir",
+        "bitte",
+        "das",
+        "schließen",
+        "Würden",
+        "gern",
+        "hätte"
+      ],
+      "answers": [
+        "Würden Sie bitte das Fenster schließen?"
+      ],
+      "explanation": "**Why:** würde + infinitive at the end.\n\n*Warum:* würde + Infinitiv am Ende."
+    },
+    {
+      "id": "tb1-u31-l14-kii-p1-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I'd like a coffee.",
+      "tiles": [
+        "annehmen",
+        "wenn",
+        "wäre",
+        "Kaffee",
+        "einen",
+        "hätte",
+        "Ich",
+        "gern"
+      ],
+      "answers": [
+        "Ich hätte gern einen Kaffee."
+      ],
+      "explanation": "**Why:** When ordering: Ich hätte gern …\n\n*Warum:* Beim Bestellen: Ich hätte gern …"
+    },
+    {
+      "id": "tb1-u31-l14-kii-p1-ex05",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Would it be possible to postpone the appointment?",
+      "tiles": [
+        "Termin",
+        "schließen",
+        "könnte",
+        "ein",
+        "verschieben",
+        "zu",
+        "den",
+        "möglich",
+        "Wäre",
+        "es"
+      ],
+      "answers": [
+        "Wäre es möglich, den Termin zu verschieben?"
+      ],
+      "explanation": "**Why:** Ideal for formal letters.\n\n*Warum:* Ideal für formelle Briefe."
+    },
+    {
+      "id": "tb1-u31-l14-kii-p1-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Would you have a moment tomorrow?",
+      "tiles": [
+        "Frage",
+        "Sie",
+        "morgen",
+        "Zeit",
+        "Hätten",
+        "ich",
+        "kurz",
+        "viel"
+      ],
+      "answers": [
+        "Hätten Sie morgen kurz Zeit?"
+      ],
+      "explanation": "**Why:** hätte = polite form of hat.\n\n*Warum:* hätte = höfliche Form von hat."
+    },
+    {
+      "id": "tb1-u31-l14-kii-p1-ex07",
+      "type": "explain",
+      "title": "Ratschläge & Wünsche",
+      "body": "Du solltest … (advice) · Ich würde … (tip) · Ich wäre gern … (wish).\n\n*Deutsch:* Du solltest … (Rat) · Ich würde … (Tipp) · Ich wäre gern … (Wunsch).\n\n## Pattern\n\nSubjekt + **sollte/würde** + … + **Infinitiv**",
+      "examples": [
+        {
+          "learning": "Du solltest mehr schlafen.",
+          "known": "You should sleep more."
+        },
+        {
+          "learning": "An deiner Stelle würde ich den Arzt anrufen.",
+          "known": "If I were you, I'd call the doctor."
+        }
+      ]
+    },
+    {
+      "id": "tb1-u31-l14-kii-p1-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "You should sleep more.",
+      "tiles": [
+        "solltest",
+        "Du",
+        "schlafen",
+        "helfen",
+        "mehr",
+        "Frage",
+        "mit"
+      ],
+      "answers": [
+        "Du solltest mehr schlafen."
+      ],
+      "explanation": "**Why:** Advice with sollte.\n\n*Warum:* Ratschlag mit sollte."
+    },
+    {
+      "id": "tb1-u31-l14-kii-p1-ex09",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "If I were you, I'd call the doctor.",
+      "tiles": [
+        "würde",
+        "wäre",
+        "anrufen",
+        "Arzt",
+        "den",
+        "Stelle",
+        "schlafen",
+        "Wetter",
+        "deiner",
+        "ich",
+        "An"
+      ],
+      "answers": [
+        "An deiner Stelle würde ich den Arzt anrufen."
+      ],
+      "explanation": "**Why:** An deiner Stelle + würde.\n\n*Warum:* An deiner Stelle + würde."
+    },
+    {
+      "id": "tb1-u31-l14-kii-p1-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I'd love to be at the sea right now.",
+      "tiles": [
+        "Termin",
+        "gern",
+        "Ich",
+        "jetzt",
+        "wäre",
+        "Meer",
+        "Arzt",
+        "es",
+        "am"
+      ],
+      "answers": [
+        "Ich wäre jetzt gern am Meer."
+      ],
+      "explanation": "**Why:** Wish: wäre gern.\n\n*Warum:* Wunsch: wäre gern."
+    },
+    {
+      "id": "tb1-u31-l14-kii-p1-ex11",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "We'd like to go on a trip.",
+      "tiles": [
+        "einen",
+        "gern",
+        "bitte",
+        "machen",
+        "würden",
+        "Arzt",
+        "Ausflug",
+        "ich",
+        "Wir"
+      ],
+      "answers": [
+        "Wir würden gern einen Ausflug machen."
+      ],
+      "explanation": "**Why:** Wish: würde gern + infinitive.\n\n*Warum:* Wunsch: würde gern + Infinitiv."
+    },
+    {
+      "id": "tb1-u31-l14-kii-p1-ex12",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "You (all) should leave earlier.",
+      "tiles": [
+        "solltet",
+        "gern",
+        "losfahren",
+        "reich",
+        "Ihr",
+        "früher",
+        "Kaffee"
+      ],
+      "answers": [
+        "Ihr solltet früher losfahren."
+      ],
+      "explanation": "**Why:** ihr → solltet.\n\n*Warum:* ihr → solltet."
+    },
+    {
+      "id": "tb1-u31-l14-kii-p1-ex13",
+      "type": "choice",
+      "title": "Fill the gap",
+      "prompt": "An deiner Stelle ___ ich früher schlafen gehen.",
+      "options": [
+        {
+          "id": "a",
+          "text": "werde"
+        },
+        {
+          "id": "b",
+          "text": "will"
+        },
+        {
+          "id": "c",
+          "text": "würde"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Ratschlag: An deiner Stelle würde ich … (irreal: ich BIN nicht du)"
+    },
+    {
+      "id": "tb1-u31-l14-kii-p1-ex14",
+      "type": "choice",
+      "title": "Fill the gap",
+      "prompt": "Wenn das Wetter besser ___, könnten wir grillen.",
+      "options": [
+        {
+          "id": "a",
+          "text": "ist"
+        },
+        {
+          "id": "b",
+          "text": "wäre"
+        },
+        {
+          "id": "c",
+          "text": "war"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Irreale Bedingung Gegenwart: wenn … wäre, könnten wir …"
+    },
+    {
+      "id": "tb1-u31-l14-kii-p1-ex15",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Make the request polite (Konjunktiv II): Schicken Sie mir die Unterlagen.",
+      "tiles": [
+        "mit",
+        "Sie",
+        "Unterlagen",
+        "Würden",
+        "Könnten",
+        "schicken",
+        "die",
+        "deiner",
+        "mir",
+        "bitte"
+      ],
+      "answers": [
+        "Könnten Sie mir bitte die Unterlagen schicken?",
+        "Würden Sie mir bitte die Unterlagen schicken?",
+        "Könnten Sie mir die Unterlagen schicken?"
+      ],
+      "explanation": "Höfliche Bitte = Könnten/Würden Sie … + Infinitiv am Ende.\n\nAlso correct: Würden Sie mir bitte die Unterlagen schicken? · Könnten Sie mir die Unterlagen schicken?\n\n*Deutsch:* Mach die Bitte höflich (Konjunktiv II):"
+    },
+    {
+      "id": "tb1-u31-l14-kii-p1-ex16",
+      "type": "choice",
+      "title": "Fill the gap",
+      "prompt": "___ Sie mir bitte helfen?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Wären"
+        },
+        {
+          "id": "b",
+          "text": "Könnten"
+        },
+        {
+          "id": "c",
+          "text": "Hätten"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Höfliche Bitte: Könnten/Würden Sie …?\n\nAlso correct: Würden"
+    }
+  ]
+}

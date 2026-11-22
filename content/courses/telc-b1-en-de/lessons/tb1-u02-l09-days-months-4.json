@@ -1,0 +1,233 @@
+{
+  "id": "tb1-u02-l09-days-months-4",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u02",
+  "title": "Days & Months 4",
+  "tip": "Theme: Wochentage & Monate (A1)",
+  "exercises": [
+    {
+      "id": "tb1-u02-l09-days-months-4-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "der Frühling",
+          "known": "spring"
+        },
+        {
+          "id": "p2",
+          "learning": "der Sommer",
+          "known": "summer"
+        },
+        {
+          "id": "p3",
+          "learning": "der Herbst",
+          "known": "autumn"
+        },
+        {
+          "id": "p4",
+          "learning": "der Winter",
+          "known": "winter"
+        },
+        {
+          "id": "p5",
+          "learning": "der Montag",
+          "known": "Monday"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u02-l09-days-months-4-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „spring“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "der Frühling"
+        },
+        {
+          "id": "b",
+          "text": "der März"
+        },
+        {
+          "id": "c",
+          "text": "der Sonntag"
+        },
+        {
+          "id": "d",
+          "text": "der Mai"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**der Frühling** = spring\n\n*Example:* Im Frühling blühen die Blumen im Park.\nIn spring the flowers bloom in the park."
+    },
+    {
+      "id": "tb1-u02-l09-days-months-4-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „summer“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "der Sonntag"
+        },
+        {
+          "id": "b",
+          "text": "der Sommer"
+        },
+        {
+          "id": "c",
+          "text": "der Juni"
+        },
+        {
+          "id": "d",
+          "text": "der Januar"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**der Sommer** = summer\n\n*Example:* Im Sommer grillen wir oft im Garten.\nIn summer we often have barbecues in the garden."
+    },
+    {
+      "id": "tb1-u02-l09-days-months-4-ex04",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u02-l09-days-months-4-1.mp3"
+      },
+      "tiles": [
+        "im",
+        "die",
+        "Im",
+        "Wochenende",
+        "Park",
+        "Am",
+        "blühen",
+        "Frühling",
+        "fängt",
+        "Blumen"
+      ],
+      "answers": [
+        "Im Frühling blühen die Blumen im Park."
+      ],
+      "explanation": "Im Frühling blühen die Blumen im Park.\n*In spring the flowers bloom in the park.*\n\n**der Frühling** = spring"
+    },
+    {
+      "id": "tb1-u02-l09-days-months-4-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „autumn“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "der Donnerstag"
+        },
+        {
+          "id": "b",
+          "text": "der Herbst"
+        },
+        {
+          "id": "c",
+          "text": "der Januar"
+        },
+        {
+          "id": "d",
+          "text": "der Sommer"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**der Herbst** = autumn\n\n*Example:* Im Herbst fallen die Blätter von den Bäumen.\nIn autumn the leaves fall from the trees."
+    },
+    {
+      "id": "tb1-u02-l09-days-months-4-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Im Sommer grillen wir oft im Garten.",
+      "tiles": [
+        "we're",
+        "the",
+        "garden",
+        "often",
+        "in",
+        "In",
+        "warm",
+        "summer",
+        "from",
+        "have",
+        "barbecues",
+        "we"
+      ],
+      "answers": [
+        "In summer we often have barbecues in the garden."
+      ],
+      "explanation": "**der Sommer** = summer"
+    },
+    {
+      "id": "tb1-u02-l09-days-months-4-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „winter“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "der Winter"
+        },
+        {
+          "id": "b",
+          "text": "der Montag"
+        },
+        {
+          "id": "c",
+          "text": "der Sonntag"
+        },
+        {
+          "id": "d",
+          "text": "der Dienstag"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**der Winter** = winter\n\n*Example:* Im Winter brauche ich eine warme Jacke.\nIn winter I need a warm jacket."
+    },
+    {
+      "id": "tb1-u02-l09-days-months-4-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "In autumn the leaves fall from the trees.",
+      "tiles": [
+        "Am",
+        "sehr",
+        "die",
+        "fallen",
+        "den",
+        "von",
+        "Herbst",
+        "Im",
+        "Blätter",
+        "mein",
+        "Bäumen"
+      ],
+      "answers": [
+        "Im Herbst fallen die Blätter von den Bäumen."
+      ],
+      "explanation": "**der Herbst** = autumn"
+    },
+    {
+      "id": "tb1-u02-l09-days-months-4-ex09",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u02-l09-days-months-4-4.mp3"
+      },
+      "tiles": [
+        "eine",
+        "warme",
+        "besuchen",
+        "ich",
+        "Am",
+        "Jacke",
+        "Im",
+        "brauche",
+        "Winter",
+        "Mai"
+      ],
+      "answers": [
+        "Im Winter brauche ich eine warme Jacke."
+      ],
+      "explanation": "Im Winter brauche ich eine warme Jacke.\n*In winter I need a warm jacket.*\n\n**der Winter** = winter"
+    }
+  ]
+}

@@ -1,0 +1,287 @@
+{
+  "id": "tb1-u11-l02-work-career-2",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u11",
+  "title": "Work & Career 2",
+  "tip": "Theme: Arbeit / Beruf (B1)",
+  "exercises": [
+    {
+      "id": "tb1-u11-l02-work-career-2-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "der Lebenslauf",
+          "known": "CV"
+        },
+        {
+          "id": "p2",
+          "learning": "das Vorstellungsgespräch",
+          "known": "job interview"
+        },
+        {
+          "id": "p3",
+          "learning": "einstellen",
+          "known": "to hire"
+        },
+        {
+          "id": "p4",
+          "learning": "arbeitslos",
+          "known": "unemployed"
+        },
+        {
+          "id": "p5",
+          "learning": "der Arbeitgeber",
+          "known": "employer"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u11-l02-work-career-2-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „CV“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "der Feierabend: Feierabend machen"
+        },
+        {
+          "id": "b",
+          "text": "die Bewerbung, die Bewerbungen"
+        },
+        {
+          "id": "c",
+          "text": "der Lebenslauf, die Lebensläufe"
+        },
+        {
+          "id": "d",
+          "text": "die Firma, die Firmen"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**der Lebenslauf** = CV\n*Plural: die Lebensläufe*\n\n*Example:* Bitte schicken Sie uns Ihren Lebenslauf mit Foto.\nPlease send us your CV with a photo."
+    },
+    {
+      "id": "tb1-u11-l02-work-career-2-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „job interview“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Firma, die Firmen"
+        },
+        {
+          "id": "b",
+          "text": "das Vorstellungsgespräch, die Vorstellungsgespräche"
+        },
+        {
+          "id": "c",
+          "text": "das Büro, die Büros"
+        },
+        {
+          "id": "d",
+          "text": "die Bewerbung, die Bewerbungen"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**das Vorstellungsgespräch** = job interview\n*Plural: die Vorstellungsgespräche*\n\n*Example:* Morgen hat Lena ein Vorstellungsgespräch bei einer Bank.\nTomorrow Lena has a job interview at a bank."
+    },
+    {
+      "id": "tb1-u11-l02-work-career-2-ex04",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u11-l02-work-career-2-1.mp3"
+      },
+      "tiles": [
+        "Lebenslauf",
+        "von",
+        "Foto",
+        "mit",
+        "Sie",
+        "schicken",
+        "Ihren",
+        "Bitte",
+        "sich",
+        "uns",
+        "zwei"
+      ],
+      "answers": [
+        "Bitte schicken Sie uns Ihren Lebenslauf mit Foto."
+      ],
+      "explanation": "Bitte schicken Sie uns Ihren Lebenslauf mit Foto.\n*Please send us your CV with a photo.*\n\n**der Lebenslauf** = CV\n*Plural: die Lebensläufe*"
+    },
+    {
+      "id": "tb1-u11-l02-work-career-2-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which verb means „to hire ↔ to fire“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "sich bewerben um + Akk. (hat sich beworben)"
+        },
+        {
+          "id": "b",
+          "text": "der Chef, die Chefs / die Chefin, die Chefinnen"
+        },
+        {
+          "id": "c",
+          "text": "einstellen ↔ entlassen (hat entlassen)"
+        },
+        {
+          "id": "d",
+          "text": "kündigen: die Kündigung, die Kündigungen"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**einstellen ↔ entlassen (hat entlassen)** = to hire ↔ to fire\n\n*Example:* Die Firma stellt zwei neue Mitarbeiter ein, aber niemand wird entlassen.\nThe company is hiring two new employees, but nobody is being fired."
+    },
+    {
+      "id": "tb1-u11-l02-work-career-2-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Morgen hat Lena ein Vorstellungsgespräch bei einer Bank.",
+      "tiles": [
+        "a",
+        "bank",
+        "today",
+        "job",
+        "a",
+        "time",
+        "this",
+        "at",
+        "has",
+        "Tomorrow",
+        "interview",
+        "Lena"
+      ],
+      "answers": [
+        "Tomorrow Lena has a job interview at a bank."
+      ],
+      "explanation": "**das Vorstellungsgespräch** = job interview\n*Plural: die Vorstellungsgespräche*"
+    },
+    {
+      "id": "tb1-u11-l02-work-career-2-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which one means „unemployed“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "in Teilzeit / in Vollzeit arbeiten"
+        },
+        {
+          "id": "b",
+          "text": "arbeitslos"
+        },
+        {
+          "id": "c",
+          "text": "kündigen: die Kündigung, die Kündigungen"
+        },
+        {
+          "id": "d",
+          "text": "verdienen"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**arbeitslos** = unemployed\n\n*Example:* Mein Onkel ist seit drei Monaten arbeitslos.\nMy uncle has been unemployed for three months."
+    },
+    {
+      "id": "tb1-u11-l02-work-career-2-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "The company is hiring two new employees, but nobody is being fired.",
+      "tiles": [
+        "niemand",
+        "Paul",
+        "entlassen",
+        "Mein",
+        "wird",
+        "ein",
+        "neue",
+        "Firma",
+        "Mitarbeiter",
+        "als",
+        "Die",
+        "zwei",
+        "stellt",
+        "aber"
+      ],
+      "answers": [
+        "Die Firma stellt zwei neue Mitarbeiter ein, aber niemand wird entlassen."
+      ],
+      "explanation": "**einstellen ↔ entlassen (hat entlassen)** = to hire ↔ to fire"
+    },
+    {
+      "id": "tb1-u11-l02-work-career-2-ex09",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „employer ↔ employee“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Besprechung, die Besprechungen"
+        },
+        {
+          "id": "b",
+          "text": "das Praktikum, die Praktika"
+        },
+        {
+          "id": "c",
+          "text": "das Büro, die Büros"
+        },
+        {
+          "id": "d",
+          "text": "der Arbeitgeber, die Arbeitgeber ↔ der Arbeitnehmer, die Arbeitnehmer"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**der Arbeitgeber, die Arbeitgeber ↔ der Arbeitnehmer, die Arbeitnehmer** = employer ↔ employee\n\n*Example:* Der Arbeitgeber muss dem Arbeitnehmer pünktlich das Gehalt zahlen.\nThe employer has to pay the employee's salary on time."
+    },
+    {
+      "id": "tb1-u11-l02-work-career-2-ex10",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u11-l02-work-career-2-4.mp3"
+      },
+      "tiles": [
+        "ist",
+        "ihres",
+        "Monaten",
+        "Diese",
+        "Onkel",
+        "Mein",
+        "seit",
+        "arbeitslos",
+        "drei",
+        "Kollegin"
+      ],
+      "answers": [
+        "Mein Onkel ist seit drei Monaten arbeitslos."
+      ],
+      "explanation": "Mein Onkel ist seit drei Monaten arbeitslos.\n*My uncle has been unemployed for three months.*\n\n**arbeitslos** = unemployed"
+    },
+    {
+      "id": "tb1-u11-l02-work-career-2-ex11",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Der Arbeitgeber muss dem Arbeitnehmer pünktlich das Gehalt zahlen.",
+      "tiles": [
+        "time",
+        "employer",
+        "salary",
+        "employee's",
+        "on",
+        "as",
+        "My",
+        "pay",
+        "the",
+        "The",
+        "Ali",
+        "to",
+        "has"
+      ],
+      "answers": [
+        "The employer has to pay the employee's salary on time."
+      ],
+      "explanation": "**der Arbeitgeber, die Arbeitgeber ↔ der Arbeitnehmer, die Arbeitnehmer** = employer ↔ employee"
+    }
+  ]
+}

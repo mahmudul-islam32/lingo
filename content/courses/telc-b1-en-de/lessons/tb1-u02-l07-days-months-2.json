@@ -1,0 +1,276 @@
+{
+  "id": "tb1-u02-l07-days-months-2",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u02",
+  "title": "Days & Months 2",
+  "tip": "Theme: Wochentage & Monate (A1)",
+  "exercises": [
+    {
+      "id": "tb1-u02-l07-days-months-2-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "der Samstag",
+          "known": "Saturday"
+        },
+        {
+          "id": "p2",
+          "learning": "der Sonntag",
+          "known": "Sunday"
+        },
+        {
+          "id": "p3",
+          "learning": "das Wochenende",
+          "known": "the weekend"
+        },
+        {
+          "id": "p4",
+          "learning": "der Januar",
+          "known": "January"
+        },
+        {
+          "id": "p5",
+          "learning": "der Februar",
+          "known": "February"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u02-l07-days-months-2-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „Saturday“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "der Juni"
+        },
+        {
+          "id": "b",
+          "text": "der Samstag / der Sonnabend"
+        },
+        {
+          "id": "c",
+          "text": "der April"
+        },
+        {
+          "id": "d",
+          "text": "der Juli"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**der Samstag / der Sonnabend** = Saturday\n\n*Example:* Am Samstag gehen wir auf den Markt.\nOn Saturday we're going to the market."
+    },
+    {
+      "id": "tb1-u02-l07-days-months-2-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „Sunday“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "der Sommer"
+        },
+        {
+          "id": "b",
+          "text": "der Sonntag"
+        },
+        {
+          "id": "c",
+          "text": "der Januar"
+        },
+        {
+          "id": "d",
+          "text": "der Freitag"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**der Sonntag** = Sunday\n\n*Example:* Am Sonntag sind die meisten Geschäfte geschlossen.\nMost shops are closed on Sunday."
+    },
+    {
+      "id": "tb1-u02-l07-days-months-2-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "On Saturday we're going to the market.",
+      "tiles": [
+        "Markt",
+        "auf",
+        "kalt",
+        "Am",
+        "Integrationskurs",
+        "gehen",
+        "grillen",
+        "den",
+        "Samstag",
+        "wir"
+      ],
+      "answers": [
+        "Am Samstag gehen wir auf den Markt."
+      ],
+      "explanation": "**der Samstag / der Sonnabend** = Saturday"
+    },
+    {
+      "id": "tb1-u02-l07-days-months-2-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „the weekend“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "das Wochenende"
+        },
+        {
+          "id": "b",
+          "text": "der Juli"
+        },
+        {
+          "id": "c",
+          "text": "der Frühling"
+        },
+        {
+          "id": "d",
+          "text": "der Februar"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**das Wochenende** = the weekend\n\n*Example:* Am Wochenende besuchen wir meine Eltern.\nAt the weekend we're visiting my parents."
+    },
+    {
+      "id": "tb1-u02-l07-days-months-2-ex06",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u02-l07-days-months-2-2.mp3"
+      },
+      "tiles": [
+        "sind",
+        "Uhr",
+        "Sonntag",
+        "Mai",
+        "Bäumen",
+        "Geschäfte",
+        "Am",
+        "die",
+        "meisten",
+        "geschlossen"
+      ],
+      "answers": [
+        "Am Sonntag sind die meisten Geschäfte geschlossen."
+      ],
+      "explanation": "Am Sonntag sind die meisten Geschäfte geschlossen.\n*Most shops are closed on Sunday.*\n\n**der Sonntag** = Sunday"
+    },
+    {
+      "id": "tb1-u02-l07-days-months-2-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „January“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "der Februar"
+        },
+        {
+          "id": "b",
+          "text": "der Sonntag"
+        },
+        {
+          "id": "c",
+          "text": "der Donnerstag"
+        },
+        {
+          "id": "d",
+          "text": "der Januar"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**der Januar** = January\n\n*Example:* Im Januar ist es oft sehr kalt.\nIt's often very cold in January."
+    },
+    {
+      "id": "tb1-u02-l07-days-months-2-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Am Wochenende besuchen wir meine Eltern.",
+      "tiles": [
+        "visiting",
+        "we're",
+        "in",
+        "the",
+        "weekend",
+        "my",
+        "I'm",
+        "parents",
+        "only",
+        "At"
+      ],
+      "answers": [
+        "At the weekend we're visiting my parents."
+      ],
+      "explanation": "**das Wochenende** = the weekend"
+    },
+    {
+      "id": "tb1-u02-l07-days-months-2-ex09",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „February“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "der März"
+        },
+        {
+          "id": "b",
+          "text": "der Februar"
+        },
+        {
+          "id": "c",
+          "text": "der Donnerstag"
+        },
+        {
+          "id": "d",
+          "text": "der Dienstag"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**der Februar** = February\n\n*Example:* Mein Sohn hat im Februar Geburtstag.\nMy son's birthday is in February."
+    },
+    {
+      "id": "tb1-u02-l07-days-months-2-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "It's often very cold in January.",
+      "tiles": [
+        "Im",
+        "kalt",
+        "Maria",
+        "sehr",
+        "neue",
+        "Januar",
+        "es",
+        "oft",
+        "ist",
+        "Geburtstag"
+      ],
+      "answers": [
+        "Im Januar ist es oft sehr kalt."
+      ],
+      "explanation": "**der Januar** = January"
+    },
+    {
+      "id": "tb1-u02-l07-days-months-2-ex11",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u02-l07-days-months-2-5.mp3"
+      },
+      "tiles": [
+        "den",
+        "gehe",
+        "Garten",
+        "im",
+        "hat",
+        "Sohn",
+        "Mein",
+        "Geburtstag",
+        "Februar"
+      ],
+      "answers": [
+        "Mein Sohn hat im Februar Geburtstag."
+      ],
+      "explanation": "Mein Sohn hat im Februar Geburtstag.\n*My son's birthday is in February.*\n\n**der Februar** = February"
+    }
+  ]
+}

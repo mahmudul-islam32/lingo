@@ -1,0 +1,129 @@
+{
+  "id": "tb1-u30-l09-aduso-rule",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u30",
+  "title": "Connectors: aber/denn vs. deshalb/trotzdem: the rule",
+  "tip": "“…deshalb ich bin geblieben” is wrong, after deshalb/trotzdem the verb comes first.",
+  "exercises": [
+    {
+      "id": "tb1-u30-l09-aduso-rule-ex01",
+      "type": "explain",
+      "title": "Connectors: aber/denn vs. deshalb/trotzdem",
+      "body": "**ADUSO** (aber, denn, und, sondern, oder) = position 0: normal word order follows. **Adverb connectors** (deshalb, deswegen, trotzdem, außerdem, danach, sonst, dann) occupy position 1 → the **verb comes immediately after**.\n\n*Deutsch:* **ADUSO** (aber, denn, und, sondern, oder) = Position 0: danach normale Wortstellung. **Adverb-Konnektoren** (deshalb, deswegen, trotzdem, außerdem, danach, sonst, dann) besetzen Position 1 → danach kommt **sofort das Verb**.\n\n*German name:* Konnektoren: aber/denn vs. deshalb/trotzdem",
+      "examples": [
+        {
+          "learning": "Ich war müde, aber ich habe weitergelernt.",
+          "known": "…but I kept studying. (aber = position 0)"
+        },
+        {
+          "learning": "Ich war krank, deshalb bin ich zu Hause geblieben.",
+          "known": "…that's why I stayed home. (deshalb + verb!)"
+        },
+        {
+          "learning": "Ich lerne viel, denn ich will bestehen.",
+          "known": "…because/for I want to pass. (denn: normal order)"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u30-l09-aduso-rule-ex02",
+      "type": "explain",
+      "title": "Connectors: aber/denn vs. deshalb/trotzdem: step by step",
+      "body": "Three families, three word orders:\n1) **ADUSO** (aber, denn, und, sondern, oder): doesn't count as a position → …, denn **ich bin** müde.\n2) **Subordinators** (weil, dass…): verb to the end → …, weil ich müde **bin**.\n3) **Adverb connectors** (deshalb, trotzdem, außerdem, sonst, danach, dann): take position 1 → …, deshalb **bin ich** früh ins Bett gegangen.\nMeaning pairs: weil = denn = deshalb (reason) · obwohl = trotzdem (contrast) · außerdem (addition) · sonst (= otherwise).\nTest trick: look AFTER the gap, “ich bin” (normal) → ADUSO · “bin ich” (inversion) → adverb connector · verb at the end → subordinator.\n\n## Auf Deutsch\n\nDrei Familien, drei Wortstellungen:\n1) **ADUSO** (aber, denn, und, sondern, oder): zählt nicht als Position → …, denn **ich bin** müde.\n2) **Subjunktoren** (weil, dass…): Verb ans Ende → …, weil ich müde **bin**.\n3) **Adverb-Konnektoren** (deshalb, trotzdem, außerdem, sonst, danach, dann): Position 1 → …, deshalb **bin ich** früh ins Bett gegangen.\nBedeutungspaare merken: weil = denn = deshalb (Grund) · obwohl = trotzdem (Gegengrund) · und außerdem (Zusatz) · sonst (= wenn nicht).\nTest-Trick: Schau NACH der Lücke, „ich bin“ (normal) → ADUSO · „bin ich“ (Inversion) → Adverb-Konnektor · Verb am Ende → Subjunktor.",
+      "examples": [
+        {
+          "learning": "Ich war müde, aber ich habe weitergelernt.",
+          "known": "…but I kept studying. (aber = position 0)"
+        },
+        {
+          "learning": "Ich war krank, deshalb bin ich zu Hause geblieben.",
+          "known": "…that's why I stayed home. (deshalb + verb!)"
+        },
+        {
+          "learning": "Ich lerne viel, denn ich will bestehen.",
+          "known": "…because/for I want to pass. (denn: normal order)"
+        },
+        {
+          "learning": "Es war teuer, trotzdem habe ich es gekauft.",
+          "known": "It was expensive; nevertheless I bought it."
+        },
+        {
+          "learning": "Testlücke-Stil: „…, ___ bin ich zu Hause geblieben.“ → deshalb",
+          "known": "Gap + inversion (“bin ich”) → deshalb, never weil"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u30-l09-aduso-rule-ex03",
+      "type": "explain",
+      "title": "Watch out & exam tip",
+      "body": "## Common trap\n\n“…deshalb ich bin geblieben” is wrong, after deshalb/trotzdem the verb comes first.\n\n*Deutsch:* „…deshalb ich bin geblieben“ ist falsch, nach deshalb/trotzdem kommt zuerst das Verb.\n\n## In the exam\n\n🎯 How telc tests it: THE Sprachbausteine favourite. Almost every test has 2–3 connector gaps (weil/denn/deshalb · obwohl/trotzdem). Word order after the gap reveals the answer. In the **letter**, deshalb/trotzdem lift criterion II.\n\n*Deutsch:* 🎯 So testet telc das: DER Sprachbausteine-Liebling. Fast jeder Test hat 2–3 Konnektor-Lücken (weil/denn/deshalb · obwohl/trotzdem). Die Wortstellung nach der Lücke verrät die Lösung. Im **Brief** heben deshalb/trotzdem deine Note bei Kriterium II.\n\n*Source:* Guide B6 Familien 1+3"
+    },
+    {
+      "id": "tb1-u30-l09-aduso-rule-ex04",
+      "type": "choice",
+      "title": "Fill the gap",
+      "prompt": "Ich war krank, ___ bin ich zu Hause geblieben.",
+      "options": [
+        {
+          "id": "a",
+          "text": "denn"
+        },
+        {
+          "id": "b",
+          "text": "deshalb"
+        },
+        {
+          "id": "c",
+          "text": "weil"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Nach dem Komma folgt Verb+Subjekt („bin ich“) → das passt zu deshalb (Position 1 + Inversion)."
+    },
+    {
+      "id": "tb1-u30-l09-aduso-rule-ex05",
+      "type": "choice",
+      "title": "Fill the gap",
+      "prompt": "Es hat geregnet, ___ sind wir spazieren gegangen.",
+      "options": [
+        {
+          "id": "a",
+          "text": "aber"
+        },
+        {
+          "id": "b",
+          "text": "obwohl"
+        },
+        {
+          "id": "c",
+          "text": "trotzdem"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "„sind wir“ = Inversion → trotzdem. (obwohl würde das Verb ans Ende schicken)"
+    },
+    {
+      "id": "tb1-u30-l09-aduso-rule-ex06",
+      "type": "choice",
+      "title": "Fill the gap",
+      "prompt": "Ich bleibe zu Hause, ___ ich bin sehr müde.",
+      "options": [
+        {
+          "id": "a",
+          "text": "denn"
+        },
+        {
+          "id": "b",
+          "text": "weil"
+        },
+        {
+          "id": "c",
+          "text": "deshalb"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Normale Wortstellung nach der Lücke („ich bin“) → denn (Position 0). weil bräuchte Verb am Ende."
+    }
+  ]
+}

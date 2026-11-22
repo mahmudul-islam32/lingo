@@ -1,0 +1,248 @@
+{
+  "id": "tb1-u12-l10-housing-moving-5",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u12",
+  "title": "Housing & Moving 5",
+  "tip": "Theme: Wohnen / Umzug (B1)",
+  "exercises": [
+    {
+      "id": "tb1-u12-l10-housing-moving-5-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "die Umgebung",
+          "known": "surroundings"
+        },
+        {
+          "id": "p2",
+          "learning": "zentral gelegen",
+          "known": "centrally located"
+        },
+        {
+          "id": "p3",
+          "learning": "die Wohnung",
+          "known": "flat"
+        },
+        {
+          "id": "p4",
+          "learning": "die Wohngemeinschaft",
+          "known": "flat share"
+        },
+        {
+          "id": "p5",
+          "learning": "der Mieter",
+          "known": "tenant"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u12-l10-housing-moving-5-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „surroundings, area“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Möbel (Pl.), möbliert"
+        },
+        {
+          "id": "b",
+          "text": "die Umgebung"
+        },
+        {
+          "id": "c",
+          "text": "der Balkon, die Balkone"
+        },
+        {
+          "id": "d",
+          "text": "die Kaution, die Kautionen"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**die Umgebung** = surroundings, area\n\n*Example:* In der Umgebung gibt es viele Geschäfte und einen Park.\nThere are lots of shops and a park in the area."
+    },
+    {
+      "id": "tb1-u12-l10-housing-moving-5-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which one means „centrally located ↔ on the outskirts“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "umziehen (ist umgezogen): der Umzug, die Umzüge"
+        },
+        {
+          "id": "b",
+          "text": "mieten ↔ vermieten"
+        },
+        {
+          "id": "c",
+          "text": "zentral gelegen ↔ am Stadtrand"
+        },
+        {
+          "id": "d",
+          "text": "einziehen ↔ ausziehen (ist ein-/ausgezogen)"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**zentral gelegen ↔ am Stadtrand** = centrally located ↔ on the outskirts\n\n*Example:* Die Wohnung ist zentral gelegen, aber sehr teuer.\nThe flat is centrally located but very expensive."
+    },
+    {
+      "id": "tb1-u12-l10-housing-moving-5-ex04",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u12-l10-housing-moving-5-1.mp3"
+      },
+      "tiles": [
+        "Umgebung",
+        "wir",
+        "und",
+        "Geschäfte",
+        "wenn",
+        "Park",
+        "viele",
+        "gibt",
+        "Für",
+        "es",
+        "der",
+        "einen",
+        "In"
+      ],
+      "answers": [
+        "In der Umgebung gibt es viele Geschäfte und einen Park."
+      ],
+      "explanation": "In der Umgebung gibt es viele Geschäfte und einen Park.\n*There are lots of shops and a park in the area.*\n\n**die Umgebung** = surroundings, area"
+    },
+    {
+      "id": "tb1-u12-l10-housing-moving-5-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means „We're looking for a three-room flat with a balcony because our old flat has become too small.“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Wir suchen eine Dreizimmerwohnung mit Balkon, weil unsere alte Wohnung zu klein geworden ist."
+        },
+        {
+          "id": "b",
+          "text": "Steigen Sie am Hauptbahnhof in die Linie 3 um, die Haltestelle ist direkt vor dem Museum."
+        },
+        {
+          "id": "c",
+          "text": "Wir haben die Fahrt online gebucht, aber der Zug hatte eine Stunde Verspätung, und wir sind erst am Abend angekommen."
+        },
+        {
+          "id": "d",
+          "text": "Die Miete beträgt 700 Euro plus Nebenkosten, und der Vermieter möchte zwei Monatsmieten Kaution."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Wir suchen eine Dreizimmerwohnung mit Balkon, weil unsere alte Wohnung zu klein geworden ist.** = We're looking for a three-room flat with a balcony because our old flat has become too small.\n\n*Example:* Wir suchen eine Dreizimmerwohnung mit Balkon, weil unsere alte Wohnung zu klein geworden ist.\nWe're looking for a three-room flat with a balcony because our old flat has become too small."
+    },
+    {
+      "id": "tb1-u12-l10-housing-moving-5-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Die Wohnung ist zentral gelegen, aber sehr teuer.",
+      "tiles": [
+        "centrally",
+        "is",
+        "located",
+        "The",
+        "Saturday",
+        "flat",
+        "any",
+        "expensive",
+        "comes",
+        "very",
+        "but"
+      ],
+      "answers": [
+        "The flat is centrally located but very expensive."
+      ],
+      "explanation": "**zentral gelegen ↔ am Stadtrand** = centrally located ↔ on the outskirts"
+    },
+    {
+      "id": "tb1-u12-l10-housing-moving-5-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means „The rent comes to 700 euros plus utilities, and the landlord wants two months' rent as a deposit.“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Die Miete beträgt 700 Euro plus Nebenkosten, und der Vermieter möchte zwei Monatsmieten Kaution."
+        },
+        {
+          "id": "b",
+          "text": "Wir suchen eine Dreizimmerwohnung mit Balkon, weil unsere alte Wohnung zu klein geworden ist."
+        },
+        {
+          "id": "c",
+          "text": "Steigen Sie am Hauptbahnhof in die Linie 3 um, die Haltestelle ist direkt vor dem Museum."
+        },
+        {
+          "id": "d",
+          "text": "Wir haben die Fahrt online gebucht, aber der Zug hatte eine Stunde Verspätung, und wir sind erst am Abend angekommen."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Die Miete beträgt 700 Euro plus Nebenkosten, und der Vermieter möchte zwei Monatsmieten Kaution.** = The rent comes to 700 euros plus utilities, and the landlord wants two months' rent as a deposit.\n\n*Example:* Die Miete beträgt 700 Euro plus Nebenkosten, und der Vermieter möchte zwei Monatsmieten Kaution.\nThe rent comes to 700 euros plus utilities, and the landlord wants two months' rent as a deposit."
+    },
+    {
+      "id": "tb1-u12-l10-housing-moving-5-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "We're looking for a three-room flat with a balcony because our old flat has become too small.",
+      "tiles": [
+        "Dreizimmerwohnung",
+        "ist",
+        "aber",
+        "alte",
+        "unsere",
+        "Wohnung",
+        "Geschäfte",
+        "weil",
+        "Wir",
+        "geworden",
+        "suchen",
+        "Balkon",
+        "eine",
+        "mit",
+        "klein",
+        "zu",
+        "ein"
+      ],
+      "answers": [
+        "Wir suchen eine Dreizimmerwohnung mit Balkon, weil unsere alte Wohnung zu klein geworden ist."
+      ],
+      "explanation": "**Wir suchen eine Dreizimmerwohnung mit Balkon, weil unsere alte Wohnung zu klein geworden ist.** = We're looking for a three-room flat with a balcony because our old flat has become too small."
+    },
+    {
+      "id": "tb1-u12-l10-housing-moving-5-ex09",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u12-l10-housing-moving-5-4.mp3"
+      },
+      "tiles": [
+        "Nebenkosten",
+        "möchte",
+        "zwei",
+        "Vermieter",
+        "700",
+        "Monatsmieten",
+        "Die",
+        "Nächsten",
+        "und",
+        "im",
+        "Kaution",
+        "Monat",
+        "beträgt",
+        "Miete",
+        "plus",
+        "der",
+        "Euro"
+      ],
+      "answers": [
+        "Die Miete beträgt 700 Euro plus Nebenkosten, und der Vermieter möchte zwei Monatsmieten Kaution."
+      ],
+      "explanation": "Die Miete beträgt 700 Euro plus Nebenkosten, und der Vermieter möchte zwei Monatsmieten Kaution.\n*The rent comes to 700 euros plus utilities, and the landlord wants two months' rent as a deposit.*\n\n**Die Miete beträgt 700 Euro plus Nebenkosten, und der Vermieter möchte zwei Monatsmieten Kaution.** = The rent comes to 700 euros plus utilities, and the landlord wants two months' rent as a deposit."
+    }
+  ]
+}

@@ -1,0 +1,283 @@
+{
+  "id": "tb1-u05-l04-key-verbs-a1-4",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u05",
+  "title": "Key Verbs (A1) 4",
+  "tip": "Theme: Wichtige Verben (A1) (A1)",
+  "exercises": [
+    {
+      "id": "tb1-u05-l04-key-verbs-a1-4-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "fahren",
+          "known": "to drive / go"
+        },
+        {
+          "id": "p2",
+          "learning": "sehen",
+          "known": "to see"
+        },
+        {
+          "id": "p3",
+          "learning": "hören",
+          "known": "to hear"
+        },
+        {
+          "id": "p4",
+          "learning": "spielen",
+          "known": "to play"
+        },
+        {
+          "id": "p5",
+          "learning": "lernen",
+          "known": "to learn"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u05-l04-key-verbs-a1-4-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which one means „to drive / go“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "sagen"
+        },
+        {
+          "id": "b",
+          "text": "mögen (mag)"
+        },
+        {
+          "id": "c",
+          "text": "fahren (fährt)"
+        },
+        {
+          "id": "d",
+          "text": "lernen"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**fahren (fährt)** = to drive / go\n\n*Example:* Mein Kollege fährt jeden Tag mit dem Auto zur Arbeit.\nMy colleague drives to work every day."
+    },
+    {
+      "id": "tb1-u05-l04-key-verbs-a1-4-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which one means „to see“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "sehen (sieht)"
+        },
+        {
+          "id": "b",
+          "text": "lernen"
+        },
+        {
+          "id": "c",
+          "text": "mögen (mag)"
+        },
+        {
+          "id": "d",
+          "text": "trinken"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**sehen (sieht)** = to see\n\n*Example:* Siehst du den Bus dort drüben?\nCan you see the bus over there?"
+    },
+    {
+      "id": "tb1-u05-l04-key-verbs-a1-4-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "My colleague drives to work every day.",
+      "tiles": [
+        "Sie",
+        "Tag",
+        "dem",
+        "Kollege",
+        "Auto",
+        "jeden",
+        "zur",
+        "mit",
+        "kaufen",
+        "Arbeit",
+        "Mein",
+        "eine",
+        "fährt"
+      ],
+      "answers": [
+        "Mein Kollege fährt jeden Tag mit dem Auto zur Arbeit."
+      ],
+      "explanation": "**fahren (fährt)** = to drive / go"
+    },
+    {
+      "id": "tb1-u05-l04-key-verbs-a1-4-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which one means „to hear“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "trinken"
+        },
+        {
+          "id": "b",
+          "text": "haben (hat)"
+        },
+        {
+          "id": "c",
+          "text": "hören"
+        },
+        {
+          "id": "d",
+          "text": "wohnen"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**hören** = to hear\n\n*Example:* Am Abend höre ich gern Musik im Radio.\nIn the evening I like listening to music on the radio."
+    },
+    {
+      "id": "tb1-u05-l04-key-verbs-a1-4-ex06",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u05-l04-key-verbs-a1-4-2.mp3"
+      },
+      "tiles": [
+        "dort",
+        "drüben",
+        "du",
+        "aus",
+        "krank",
+        "Ali",
+        "den",
+        "Siehst",
+        "Bus"
+      ],
+      "answers": [
+        "Siehst du den Bus dort drüben?"
+      ],
+      "explanation": "Siehst du den Bus dort drüben?\n*Can you see the bus over there?*\n\n**sehen (sieht)** = to see"
+    },
+    {
+      "id": "tb1-u05-l04-key-verbs-a1-4-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which one means „to play“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "essen (isst)"
+        },
+        {
+          "id": "b",
+          "text": "fahren (fährt)"
+        },
+        {
+          "id": "c",
+          "text": "schlafen (schläft)"
+        },
+        {
+          "id": "d",
+          "text": "spielen"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**spielen** = to play\n\n*Example:* Die Kinder spielen nach der Schule im Park.\nThe children play in the park after school."
+    },
+    {
+      "id": "tb1-u05-l04-key-verbs-a1-4-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Am Abend höre ich gern Musik im Radio.",
+      "tiles": [
+        "to",
+        "ill",
+        "the",
+        "music",
+        "radio",
+        "like",
+        "In",
+        "evening",
+        "the",
+        "on",
+        "listening",
+        "Ali",
+        "bus",
+        "I"
+      ],
+      "answers": [
+        "In the evening I like listening to music on the radio."
+      ],
+      "explanation": "**hören** = to hear"
+    },
+    {
+      "id": "tb1-u05-l04-key-verbs-a1-4-ex09",
+      "type": "multiple_choice",
+      "prompt": "Which one means „to learn“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "sagen"
+        },
+        {
+          "id": "b",
+          "text": "lesen (liest)"
+        },
+        {
+          "id": "c",
+          "text": "kommen"
+        },
+        {
+          "id": "d",
+          "text": "lernen"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**lernen** = to learn\n\n*Example:* Ali lernt jeden Abend neue Wörter.\nAli learns new words every evening."
+    },
+    {
+      "id": "tb1-u05-l04-key-verbs-a1-4-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "The children play in the park after school.",
+      "tiles": [
+        "Zeitung",
+        "Die",
+        "der",
+        "im",
+        "nach",
+        "Park",
+        "Schule",
+        "Nudeln",
+        "wann",
+        "spielen",
+        "Kinder"
+      ],
+      "answers": [
+        "Die Kinder spielen nach der Schule im Park."
+      ],
+      "explanation": "**spielen** = to play"
+    },
+    {
+      "id": "tb1-u05-l04-key-verbs-a1-4-ex11",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u05-l04-key-verbs-a1-4-5.mp3"
+      },
+      "tiles": [
+        "die",
+        "neue",
+        "Abend",
+        "Wasser",
+        "Wörter",
+        "lernt",
+        "jeden",
+        "Ali",
+        "Meine"
+      ],
+      "answers": [
+        "Ali lernt jeden Abend neue Wörter."
+      ],
+      "explanation": "Ali lernt jeden Abend neue Wörter.\n*Ali learns new words every evening.*\n\n**lernen** = to learn"
+    }
+  ]
+}

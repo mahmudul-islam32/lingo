@@ -1,0 +1,287 @@
+{
+  "id": "tb1-u29-l12-presentations-talks-1",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u29",
+  "title": "Presentations & Talks 1",
+  "tip": "Theme: Redemittel: Präsentation & Vortrag (B1)",
+  "exercises": [
+    {
+      "id": "tb1-u29-l12-presentations-talks-1-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "Zuerst spreche ich über …, danach über …",
+          "known": "First I'll talk about …, then about …"
+        },
+        {
+          "id": "p2",
+          "learning": "Ich beginne mit …",
+          "known": "I'll start with …"
+        },
+        {
+          "id": "p3",
+          "learning": "Danach komme ich zu …",
+          "known": "After that I'll come to …"
+        },
+        {
+          "id": "p4",
+          "learning": "Die Grafik zeigt, dass …",
+          "known": "The chart shows that …"
+        },
+        {
+          "id": "p5",
+          "learning": "Bei uns ist das ganz ähnlich",
+          "known": "Where I come from it is quite similar."
+        }
+      ]
+    },
+    {
+      "id": "tb1-u29-l12-presentations-talks-1-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which phrase means „I'd like to tell you briefly about …“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Zuerst spreche ich über …, danach über …"
+        },
+        {
+          "id": "b",
+          "text": "Bei uns ist das ganz ähnlich."
+        },
+        {
+          "id": "c",
+          "text": "Ich möchte euch kurz etwas über … erzählen."
+        },
+        {
+          "id": "d",
+          "text": "Zum Schluss möchte ich noch sagen, dass …"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**Ich möchte euch kurz etwas über … erzählen.** = I'd like to tell you briefly about …\n\n*Example:* Ich möchte euch kurz etwas über mein Heimatland erzählen.\nI'd like to tell you briefly about my home country."
+    },
+    {
+      "id": "tb1-u29-l12-presentations-talks-1-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which phrase means „First I'll talk about …, then about …“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Vielen Dank fürs Zuhören!"
+        },
+        {
+          "id": "b",
+          "text": "Zuerst spreche ich über …, danach über …"
+        },
+        {
+          "id": "c",
+          "text": "Damit bin ich am Ende meiner Präsentation."
+        },
+        {
+          "id": "d",
+          "text": "Danach komme ich zu …"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Zuerst spreche ich über …, danach über …** = First I'll talk about …, then about …\n\n*Example:* Zuerst spreche ich über die Schule, danach über die Arbeit.\nFirst I'll talk about school, then about work."
+    },
+    {
+      "id": "tb1-u29-l12-presentations-talks-1-ex04",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u29-l12-presentations-talks-1-1.mp3"
+      },
+      "tiles": [
+        "isst",
+        "erzählen",
+        "möchte",
+        "Ich",
+        "hier",
+        "man",
+        "Heimatland",
+        "über",
+        "kurz",
+        "euch",
+        "etwas",
+        "mein"
+      ],
+      "answers": [
+        "Ich möchte euch kurz etwas über mein Heimatland erzählen."
+      ],
+      "explanation": "Ich möchte euch kurz etwas über mein Heimatland erzählen.\n*I'd like to tell you briefly about my home country.*\n\n**Ich möchte euch kurz etwas über … erzählen.** = I'd like to tell you briefly about …"
+    },
+    {
+      "id": "tb1-u29-l12-presentations-talks-1-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which phrase means „I'll start with …“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Die Grafik zeigt, dass …"
+        },
+        {
+          "id": "b",
+          "text": "Damit bin ich am Ende meiner Präsentation."
+        },
+        {
+          "id": "c",
+          "text": "Ich möchte euch kurz etwas über … erzählen."
+        },
+        {
+          "id": "d",
+          "text": "Ich beginne mit …"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**Ich beginne mit …** = I'll start with …\n\n*Example:* Ich beginne mit einer kurzen Geschichte aus meiner Kindheit.\nI'll start with a short story from my childhood."
+    },
+    {
+      "id": "tb1-u29-l12-presentations-talks-1-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Zuerst spreche ich über die Schule, danach über die Arbeit.",
+      "tiles": [
+        "about",
+        "The",
+        "then",
+        "work",
+        "I'd",
+        "I'll",
+        "school",
+        "about",
+        "First",
+        "talk",
+        "was"
+      ],
+      "answers": [
+        "First I'll talk about school, then about work."
+      ],
+      "explanation": "**Zuerst spreche ich über …, danach über …** = First I'll talk about …, then about …"
+    },
+    {
+      "id": "tb1-u29-l12-presentations-talks-1-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which phrase means „After that I'll come to …“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Bei uns ist das ganz ähnlich."
+        },
+        {
+          "id": "b",
+          "text": "Das Wichtigste für mich ist, dass …"
+        },
+        {
+          "id": "c",
+          "text": "Danach komme ich zu …"
+        },
+        {
+          "id": "d",
+          "text": "Ein Beispiel dafür ist …"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**Danach komme ich zu …** = After that I'll come to …\n\n*Example:* Danach komme ich zu den Vor- und Nachteilen.\nAfter that I'll come to the advantages and disadvantages."
+    },
+    {
+      "id": "tb1-u29-l12-presentations-talks-1-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I'll start with a short story from my childhood.",
+      "tiles": [
+        "kurzen",
+        "zeigt",
+        "meiner",
+        "mit",
+        "Geschichte",
+        "spreche",
+        "einer",
+        "beginne",
+        "aus",
+        "Kindheit",
+        "Ich",
+        "Leben"
+      ],
+      "answers": [
+        "Ich beginne mit einer kurzen Geschichte aus meiner Kindheit."
+      ],
+      "explanation": "**Ich beginne mit …** = I'll start with …"
+    },
+    {
+      "id": "tb1-u29-l12-presentations-talks-1-ex09",
+      "type": "multiple_choice",
+      "prompt": "Which phrase means „Finally I'd like to say that …“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Damit bin ich am Ende meiner Präsentation."
+        },
+        {
+          "id": "b",
+          "text": "Zum Schluss möchte ich noch sagen, dass …"
+        },
+        {
+          "id": "c",
+          "text": "Ein Beispiel dafür ist …"
+        },
+        {
+          "id": "d",
+          "text": "Ich beginne mit …"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Zum Schluss möchte ich noch sagen, dass …** = Finally I'd like to say that …\n\n*Example:* Zum Schluss möchte ich noch sagen, dass mir das Leben hier gut gefällt.\nFinally I'd like to say that I really like life here."
+    },
+    {
+      "id": "tb1-u29-l12-presentations-talks-1-ex10",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u29-l12-presentations-talks-1-4.mp3"
+      },
+      "tiles": [
+        "das",
+        "den",
+        "und",
+        "In",
+        "Nachteilen",
+        "komme",
+        "zu",
+        "Vor",
+        "ich",
+        "erzählen",
+        "Danach"
+      ],
+      "answers": [
+        "Danach komme ich zu den Vor- und Nachteilen."
+      ],
+      "explanation": "Danach komme ich zu den Vor- und Nachteilen.\n*After that I'll come to the advantages and disadvantages.*\n\n**Danach komme ich zu …** = After that I'll come to …"
+    },
+    {
+      "id": "tb1-u29-l12-presentations-talks-1-ex11",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Zum Schluss möchte ich noch sagen, dass mir das Leben hier gut gefällt.",
+      "tiles": [
+        "really",
+        "come",
+        "life",
+        "like",
+        "from",
+        "here",
+        "I",
+        "to",
+        "that",
+        "I'd",
+        "Finally",
+        "like",
+        "say",
+        "country"
+      ],
+      "answers": [
+        "Finally I'd like to say that I really like life here."
+      ],
+      "explanation": "**Zum Schluss möchte ich noch sagen, dass …** = Finally I'd like to say that …"
+    }
+  ]
+}

@@ -1,0 +1,290 @@
+{
+  "id": "tb1-u17-l04-offices-bank-post-4",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u17",
+  "title": "Offices, Bank & Post 4",
+  "tip": "Theme: Ämter / Behörden / Bank / Post (B1)",
+  "exercises": [
+    {
+      "id": "tb1-u17-l04-offices-bank-post-4-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "abheben",
+          "known": "to withdraw"
+        },
+        {
+          "id": "p2",
+          "learning": "der Geldautomat",
+          "known": "cash machine"
+        },
+        {
+          "id": "p3",
+          "learning": "das Bargeld",
+          "known": "cash"
+        },
+        {
+          "id": "p4",
+          "learning": "der Brief",
+          "known": "letter"
+        },
+        {
+          "id": "p5",
+          "learning": "das Amt",
+          "known": "(public) office"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u17-l04-offices-bank-post-4-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which verb means „to transfer (money): bank transfer“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "verlängern (hat verlängert)"
+        },
+        {
+          "id": "b",
+          "text": "überweisen (hat überwiesen), die Überweisung, die Überweisungen"
+        },
+        {
+          "id": "c",
+          "text": "abheben (hat abgehoben) ↔ einzahlen"
+        },
+        {
+          "id": "d",
+          "text": "sich anmelden ↔ sich abmelden"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**überweisen (hat überwiesen), die Überweisung, die Überweisungen** = to transfer (money): bank transfer\n\n*Example:* Ich überweise die Miete jeden Monat am Ersten.\nI transfer the rent on the first of every month."
+    },
+    {
+      "id": "tb1-u17-l04-offices-bank-post-4-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which verb means „to withdraw ↔ to deposit“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "sich anmelden ↔ sich abmelden"
+        },
+        {
+          "id": "b",
+          "text": "abheben (hat abgehoben) ↔ einzahlen"
+        },
+        {
+          "id": "c",
+          "text": "verlängern (hat verlängert)"
+        },
+        {
+          "id": "d",
+          "text": "überweisen (hat überwiesen), die Überweisung, die Überweisungen"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**abheben (hat abgehoben) ↔ einzahlen** = to withdraw ↔ to deposit\n\n*Example:* Anna hebt 100 Euro ab, und ihr Mann zahlt Geld auf das Sparkonto ein.\nAnna withdraws 100 euros, and her husband deposits money into the savings account."
+    },
+    {
+      "id": "tb1-u17-l04-offices-bank-post-4-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I transfer the rent on the first of every month.",
+      "tiles": [
+        "den",
+        "die",
+        "Monat",
+        "überweise",
+        "jeden",
+        "Ich",
+        "am",
+        "mit",
+        "Miete",
+        "Ersten",
+        "auf"
+      ],
+      "answers": [
+        "Ich überweise die Miete jeden Monat am Ersten."
+      ],
+      "explanation": "**überweisen (hat überwiesen), die Überweisung, die Überweisungen** = to transfer (money): bank transfer"
+    },
+    {
+      "id": "tb1-u17-l04-offices-bank-post-4-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „cash machine“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Unterlagen (Pl.) · das Dokument, die Dokumente"
+        },
+        {
+          "id": "b",
+          "text": "der Antrag, die Anträge: einen Antrag stellen · beantragen"
+        },
+        {
+          "id": "c",
+          "text": "der Brief, die Briefe · das Paket, die Pakete · die Briefmarke, die Briefmarken"
+        },
+        {
+          "id": "d",
+          "text": "der Geldautomat, die Geldautomaten (n-Dekl.)"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**der Geldautomat** = cash machine\n*Plural: die Geldautomaten (n-Dekl.)*\n\n*Example:* Gibt es hier in der Nähe einen Geldautomaten?\nIs there a cash machine near here?"
+    },
+    {
+      "id": "tb1-u17-l04-offices-bank-post-4-ex06",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u17-l04-offices-bank-post-4-2.mp3"
+      },
+      "tiles": [
+        "das",
+        "Sparkonto",
+        "ab",
+        "ihr",
+        "100",
+        "an",
+        "Geld",
+        "auf",
+        "zahlt",
+        "anmelden",
+        "Anna",
+        "braucht",
+        "ein",
+        "und",
+        "Mann",
+        "Euro",
+        "hebt"
+      ],
+      "answers": [
+        "Anna hebt 100 Euro ab, und ihr Mann zahlt Geld auf das Sparkonto ein."
+      ],
+      "explanation": "Anna hebt 100 Euro ab, und ihr Mann zahlt Geld auf das Sparkonto ein.\n*Anna withdraws 100 euros, and her husband deposits money into the savings account.*\n\n**abheben (hat abgehoben) ↔ einzahlen** = to withdraw ↔ to deposit"
+    },
+    {
+      "id": "tb1-u17-l04-offices-bank-post-4-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „cash“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Öffnungszeiten (Pl.)"
+        },
+        {
+          "id": "b",
+          "text": "das Bargeld (nur Sg.)"
+        },
+        {
+          "id": "c",
+          "text": "der Brief, die Briefe · das Paket, die Pakete · die Briefmarke, die Briefmarken"
+        },
+        {
+          "id": "d",
+          "text": "das Formular, die Formulare: ein Formular ausfüllen"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**das Bargeld (nur Sg.)** = cash\n\n*Example:* Auf dem Flohmarkt braucht man Bargeld, Karten nimmt dort niemand.\nYou need cash at the flea market; nobody takes cards there."
+    },
+    {
+      "id": "tb1-u17-l04-offices-bank-post-4-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Gibt es hier in der Nähe einen Geldautomaten?",
+      "tiles": [
+        "a",
+        "I",
+        "machine",
+        "near",
+        "collect",
+        "there",
+        "cash",
+        "here",
+        "Is",
+        "my"
+      ],
+      "answers": [
+        "Is there a cash machine near here?"
+      ],
+      "explanation": "**der Geldautomat** = cash machine\n*Plural: die Geldautomaten (n-Dekl.)*"
+    },
+    {
+      "id": "tb1-u17-l04-offices-bank-post-4-ex09",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „letter · parcel · stamp“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "der Brief, die Briefe · das Paket, die Pakete · die Briefmarke, die Briefmarken"
+        },
+        {
+          "id": "b",
+          "text": "das Formular, die Formulare: ein Formular ausfüllen"
+        },
+        {
+          "id": "c",
+          "text": "die Unterlagen (Pl.) · das Dokument, die Dokumente"
+        },
+        {
+          "id": "d",
+          "text": "die Frist, die Fristen: eine Frist einhalten / verpassen"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**der Brief** = letter · parcel · stamp\n*Plural: die Briefe · also: das Paket, die Pakete · die Briefmarke, die Briefmarken*\n\n*Example:* Ich brauche eine Briefmarke für diesen Brief nach Spanien.\nI need a stamp for this letter to Spain."
+    },
+    {
+      "id": "tb1-u17-l04-offices-bank-post-4-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "You need cash at the flea market; nobody takes cards there.",
+      "tiles": [
+        "man",
+        "dort",
+        "Bargeld",
+        "Karten",
+        "nimmt",
+        "braucht",
+        "Flohmarkt",
+        "habe",
+        "Pass",
+        "dem",
+        "Auf",
+        "ich",
+        "niemand"
+      ],
+      "answers": [
+        "Auf dem Flohmarkt braucht man Bargeld, Karten nimmt dort niemand."
+      ],
+      "explanation": "**das Bargeld (nur Sg.)** = cash"
+    },
+    {
+      "id": "tb1-u17-l04-offices-bank-post-4-ex11",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u17-l04-offices-bank-post-4-5.mp3"
+      },
+      "tiles": [
+        "Spanien",
+        "dieses",
+        "Briefmarke",
+        "und",
+        "Ich",
+        "brauche",
+        "Geldautomaten",
+        "für",
+        "Brief",
+        "eine",
+        "diesen",
+        "nach"
+      ],
+      "answers": [
+        "Ich brauche eine Briefmarke für diesen Brief nach Spanien."
+      ],
+      "explanation": "Ich brauche eine Briefmarke für diesen Brief nach Spanien.\n*I need a stamp for this letter to Spain.*\n\n**der Brief** = letter · parcel · stamp\n*Plural: die Briefe · also: das Paket, die Pakete · die Briefmarke, die Briefmarken*"
+    }
+  ]
+}

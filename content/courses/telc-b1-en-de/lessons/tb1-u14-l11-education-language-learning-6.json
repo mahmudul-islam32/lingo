@@ -1,0 +1,261 @@
+{
+  "id": "tb1-u14-l11-education-language-learning-6",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u14",
+  "title": "Education & Language Learning 6",
+  "tip": "Theme: Bildung / Sprachenlernen (B1)",
+  "exercises": [
+    {
+      "id": "tb1-u14-l11-education-language-learning-6-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "die Bedeutung",
+          "known": "meaning"
+        },
+        {
+          "id": "p2",
+          "learning": "Fortschritte machen",
+          "known": "to make progress"
+        },
+        {
+          "id": "p3",
+          "learning": "die Schule",
+          "known": "school"
+        },
+        {
+          "id": "p4",
+          "learning": "die Ausbildung",
+          "known": "vocational training"
+        },
+        {
+          "id": "p5",
+          "learning": "studieren, das Studium",
+          "known": "to study (at university)"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u14-l11-education-language-learning-6-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „meaning: to mean“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Bedeutung, die Bedeutungen: bedeuten"
+        },
+        {
+          "id": "b",
+          "text": "die Ausbildung, die Ausbildungen: eine Ausbildung machen"
+        },
+        {
+          "id": "c",
+          "text": "das Fach, die Fächer"
+        },
+        {
+          "id": "d",
+          "text": "der Kurs, die Kurse: einen Kurs besuchen"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**die Bedeutung** = meaning: to mean\n*Plural: die Bedeutungen: bedeuten*\n\n*Example:* Ich kenne die Bedeutung von diesem Schild nicht. Was bedeutet es?\nI don't know the meaning of this sign. What does it mean?"
+    },
+    {
+      "id": "tb1-u14-l11-education-language-learning-6-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which one means „to make progress“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "fließend"
+        },
+        {
+          "id": "b",
+          "text": "Fortschritte machen"
+        },
+        {
+          "id": "c",
+          "text": "auswendig lernen"
+        },
+        {
+          "id": "d",
+          "text": "studieren, das Studium (meist Sg.)"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Fortschritte machen** = to make progress\n\n*Example:* Seit ich jeden Tag Deutsch spreche, mache ich schnell Fortschritte.\nSince I've been speaking German every day, I've been making quick progress."
+    },
+    {
+      "id": "tb1-u14-l11-education-language-learning-6-ex04",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u14-l11-education-language-learning-6-1.mp3"
+      },
+      "tiles": [
+        "kenne",
+        "von",
+        "Arabisch",
+        "Schild",
+        "Bedeutung",
+        "nicht",
+        "bedeutet",
+        "die",
+        "viele",
+        "Zwölf",
+        "diesem",
+        "es",
+        "Ich",
+        "Was"
+      ],
+      "answers": [
+        "Ich kenne die Bedeutung von diesem Schild nicht. Was bedeutet es?"
+      ],
+      "explanation": "Ich kenne die Bedeutung von diesem Schild nicht. Was bedeutet es?\n*I don't know the meaning of this sign. What does it mean?*\n\n**die Bedeutung** = meaning: to mean\n*Plural: die Bedeutungen: bedeuten*"
+    },
+    {
+      "id": "tb1-u14-l11-education-language-learning-6-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means „I registered for an evening course at the adult education centre because I want to take the B1 exam in September.“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ich habe mich für einen Abendkurs an der Volkshochschule angemeldet, weil ich im September die B1-Prüfung ablegen will."
+        },
+        {
+          "id": "b",
+          "text": "Ich bin in einer großen Familie aufgewachsen und verstehe mich bis heute sehr gut mit meinen Geschwistern."
+        },
+        {
+          "id": "c",
+          "text": "Meine Schwester hat vor zwei Jahren geheiratet und kümmert sich jetzt um ihre kleine Tochter."
+        },
+        {
+          "id": "d",
+          "text": "Am Anfang habe ich viele Fehler gemacht, aber jetzt spreche ich viel fließender und mache jede Woche Fortschritte."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Ich habe mich für einen Abendkurs an der Volkshochschule angemeldet, weil ich im September die B1-Prüfung ablegen will.** = I registered for an evening course at the adult education centre because I want to take the B1 exam in September.\n\n*Example:* Ich habe mich für einen Abendkurs an der Volkshochschule angemeldet, weil ich im September die B1-Prüfung ablegen will.\nI registered for an evening course at the adult education centre because I want to take the B1 exam in September."
+    },
+    {
+      "id": "tb1-u14-l11-education-language-learning-6-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Seit ich jeden Tag Deutsch spreche, mache ich schnell Fortschritte.",
+      "tiles": [
+        "progress",
+        "I've",
+        "speaking",
+        "from",
+        "I've",
+        "making",
+        "every",
+        "Since",
+        "been",
+        "day",
+        "of",
+        "quick",
+        "German",
+        "been",
+        "Anna"
+      ],
+      "answers": [
+        "Since I've been speaking German every day, I've been making quick progress."
+      ],
+      "explanation": "**Fortschritte machen** = to make progress"
+    },
+    {
+      "id": "tb1-u14-l11-education-language-learning-6-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means „At the beginning I made a lot of mistakes, but now I speak much more fluently and make progress every week.“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Am Anfang habe ich viele Fehler gemacht, aber jetzt spreche ich viel fließender und mache jede Woche Fortschritte."
+        },
+        {
+          "id": "b",
+          "text": "Ich bin in einer großen Familie aufgewachsen und verstehe mich bis heute sehr gut mit meinen Geschwistern."
+        },
+        {
+          "id": "c",
+          "text": "Meine Schwester hat vor zwei Jahren geheiratet und kümmert sich jetzt um ihre kleine Tochter."
+        },
+        {
+          "id": "d",
+          "text": "Ich habe mich für einen Abendkurs an der Volkshochschule angemeldet, weil ich im September die B1-Prüfung ablegen will."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Am Anfang habe ich viele Fehler gemacht, aber jetzt spreche ich viel fließender und mache jede Woche Fortschritte.** = At the beginning I made a lot of mistakes, but now I speak much more fluently and make progress every week.\n\n*Example:* Am Anfang habe ich viele Fehler gemacht, aber jetzt spreche ich viel fließender und mache jede Woche Fortschritte.\nAt the beginning I made a lot of mistakes, but now I speak much more fluently and make progress every week."
+    },
+    {
+      "id": "tb1-u14-l11-education-language-learning-6-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I registered for an evening course at the adult education centre because I want to take the B1 exam in September.",
+      "tiles": [
+        "will",
+        "Lieblingsfach",
+        "angemeldet",
+        "habe",
+        "Volkshochschule",
+        "die",
+        "ablegen",
+        "einen",
+        "schnell",
+        "den",
+        "im",
+        "weil",
+        "mich",
+        "Abendkurs",
+        "an",
+        "Ich",
+        "September",
+        "B1-Prüfung",
+        "der",
+        "für",
+        "ich"
+      ],
+      "answers": [
+        "Ich habe mich für einen Abendkurs an der Volkshochschule angemeldet, weil ich im September die B1-Prüfung ablegen will."
+      ],
+      "explanation": "**Ich habe mich für einen Abendkurs an der Volkshochschule angemeldet, weil ich im September die B1-Prüfung ablegen will.** = I registered for an evening course at the adult education centre because I want to take the B1 exam in September."
+    },
+    {
+      "id": "tb1-u14-l11-education-language-learning-6-ex09",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u14-l11-education-language-learning-6-4.mp3"
+      },
+      "tiles": [
+        "jede",
+        "Woche",
+        "spreche",
+        "mache",
+        "ich",
+        "gemacht",
+        "viele",
+        "aber",
+        "jetzt",
+        "ich",
+        "fließender",
+        "Anfang",
+        "Fortschritte",
+        "Der",
+        "Am",
+        "habe",
+        "und",
+        "Fehler",
+        "Universität",
+        "für",
+        "viel"
+      ],
+      "answers": [
+        "Am Anfang habe ich viele Fehler gemacht, aber jetzt spreche ich viel fließender und mache jede Woche Fortschritte."
+      ],
+      "explanation": "Am Anfang habe ich viele Fehler gemacht, aber jetzt spreche ich viel fließender und mache jede Woche Fortschritte.\n*At the beginning I made a lot of mistakes, but now I speak much more fluently and make progress every week.*\n\n**Am Anfang habe ich viele Fehler gemacht, aber jetzt spreche ich viel fließender und mache jede Woche Fortschritte.** = At the beginning I made a lot of mistakes, but now I speak much more fluently and make progress every week."
+    }
+  ]
+}

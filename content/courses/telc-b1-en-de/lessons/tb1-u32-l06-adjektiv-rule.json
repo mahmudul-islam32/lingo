@@ -1,0 +1,151 @@
+{
+  "id": "tb1-u32-l06-adjektiv-rule",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u32",
+  "title": "Adjective Endings: the rule",
+  "tip": "Dative endings after ein-words: “mit meinem alten Freund” (not “altem”, the -em is already on meinem).",
+  "exercises": [
+    {
+      "id": "tb1-u32-l06-adjektiv-rule-ex01",
+      "type": "explain",
+      "title": "Adjective Endings",
+      "body": "After **der/die/das**: -e or -en (der nett**e** Mann, den nett**en** Mann). After **ein/mein/kein**: ein nett**er** Mann, eine nett**e** Frau, ein nett**es** Kind; otherwise -en. No article: the adjective takes the article's ending (mit frisch**em** Brot).\n\n*Deutsch:* Nach **der/die/das**: -e oder -en (der nett**e** Mann, den nett**en** Mann). Nach **ein/mein/kein**: ein nett**er** Mann, eine nett**e** Frau, ein nett**es** Kind; sonst -en. Ohne Artikel: Adjektiv übernimmt die Artikel-Endung (mit frisch**em** Brot).\n\n*German name:* Adjektivendungen",
+      "examples": [
+        {
+          "learning": "Ich habe einen neuen Job gefunden.",
+          "known": "I found a new job. (top letter opener!)"
+        },
+        {
+          "learning": "Wir wohnen in einem kleinen Haus.",
+          "known": "We live in a small house."
+        },
+        {
+          "learning": "Bei schönem Wetter gehen wir spazieren.",
+          "known": "In nice weather we go for a walk."
+        }
+      ]
+    },
+    {
+      "id": "tb1-u32-l06-adjektiv-rule-ex02",
+      "type": "explain",
+      "title": "Adjective Endings: step by step",
+      "body": "The 90% shortcut instead of three tables:\n1) **-en dominates**: ALWAYS in plural with article, ALWAYS in dative, ALWAYS in accusative masculine. In doubt: -en.\n2) Nominative singular after der/die/das: **-e** (der alte Mann, die alte Frau, das alte Auto).\n3) After ein/kein/mein in nominative the ADJECTIVE shows the gender: ein alt**er** Mann (der!), ein alt**es** Auto (das!), eine alt**e** Frau.\n4) Without article (rarer): adjective = article ending: mit gut**em** Essen, bei schön**em** Wetter.\nMemorise exam patterns: “mit meinem alten Freund”, “in einer kleinen Wohnung”, “bei schönem Wetter”, “viele nette Leute”.\n\n## Auf Deutsch\n\n90%-Abkürzung statt drei Tabellen:\n1) **-en dominiert**: IMMER im Plural mit Artikel, IMMER im Dativ, IMMER im Akkusativ maskulin. Im Zweifel: -en.\n2) Nominativ Singular nach der/die/das: **-e** (der alte Mann, die alte Frau, das alte Auto).\n3) Nach ein/kein/mein im Nominativ zeigt das ADJEKTIV das Genus: ein alt**er** Mann (der!), ein alt**es** Auto (das!), eine alt**e** Frau.\n4) Ohne Artikel (seltener): Adjektiv = Artikel-Endung: mit gut**em** Essen, bei schön**em** Wetter.\nPrüfungs-Muster auswendig: „mit meinem alten Freund“, „in einer kleinen Wohnung“, „bei schönem Wetter“, „viele nette Leute“.",
+      "examples": [
+        {
+          "learning": "Ich habe einen neuen Job gefunden.",
+          "known": "I found a new job. (top letter opener!)"
+        },
+        {
+          "learning": "Wir wohnen in einem kleinen Haus.",
+          "known": "We live in a small house."
+        },
+        {
+          "learning": "Bei schönem Wetter gehen wir spazieren.",
+          "known": "In nice weather we go for a walk."
+        },
+        {
+          "learning": "Ich suche eine günstige Wohnung mit großem Balkon.",
+          "known": "I'm looking for a cheap flat with a big balcony. (ad language)"
+        },
+        {
+          "learning": "Testlücke-Stil: „mit meinem best___ Freund“ → -en",
+          "known": "Dativ after mein- → besten"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u32-l06-adjektiv-rule-ex03",
+      "type": "explain",
+      "title": "Watch out & exam tip",
+      "body": "## Common trap\n\nDative endings after ein-words: “mit meinem alten Freund” (not “altem”, the -em is already on meinem).\n\n*Deutsch:* Dativ-Endungen nach ein-Wörtern: „mit meinem alten Freund“ (nicht „altem“, das -em steckt schon in meinem).\n\n## In the exam\n\n🎯 How telc tests it: **Sprachbausteine part 1** almost always has 1–2 ending gaps (neuen/neuem/neuer?). **Reading part 3** hides endings in ads. In the **letter**: 2–3 correctly ended adjectives lift criterion III.\n\n*Deutsch:* 🎯 So testet telc das: **Sprachbausteine Teil 1** hat fast immer 1–2 Endungs-Lücken (neuen/neuem/neuer?). In **Lesen Teil 3** stecken die Endungen in Anzeigen. Im **Brief**: 2–3 Adjektive mit richtiger Endung heben Kriterium III.\n\n*Source:* Guide B1 (die 3 Tabellen)"
+    },
+    {
+      "id": "tb1-u32-l06-adjektiv-rule-ex04",
+      "type": "choice",
+      "title": "Fill the gap",
+      "prompt": "Ich habe einen ___ Job gefunden.",
+      "options": [
+        {
+          "id": "a",
+          "text": "neuer"
+        },
+        {
+          "id": "b",
+          "text": "neues"
+        },
+        {
+          "id": "c",
+          "text": "neuen"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "ein-Wort + Akkusativ maskulin → -en: einen neuen Job."
+    },
+    {
+      "id": "tb1-u32-l06-adjektiv-rule-ex05",
+      "type": "choice",
+      "title": "Fill the gap",
+      "prompt": "Das ist eine ___ Idee!",
+      "options": [
+        {
+          "id": "a",
+          "text": "gutes"
+        },
+        {
+          "id": "b",
+          "text": "gute"
+        },
+        {
+          "id": "c",
+          "text": "guten"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "eine + Nominativ feminin → -e: eine gute Idee."
+    },
+    {
+      "id": "tb1-u32-l06-adjektiv-rule-ex06",
+      "type": "choice",
+      "title": "Fill the gap",
+      "prompt": "Wir wohnen in einem ___ Haus am Stadtrand.",
+      "options": [
+        {
+          "id": "a",
+          "text": "kleines"
+        },
+        {
+          "id": "b",
+          "text": "kleinem"
+        },
+        {
+          "id": "c",
+          "text": "kleinen"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "in + Dativ, nach einem → -en: in einem kleinen Haus."
+    },
+    {
+      "id": "tb1-u32-l06-adjektiv-rule-ex07",
+      "type": "choice",
+      "title": "Fill the gap",
+      "prompt": "Der ___ Mantel dort gefällt mir.",
+      "options": [
+        {
+          "id": "a",
+          "text": "blauen"
+        },
+        {
+          "id": "b",
+          "text": "blaue"
+        },
+        {
+          "id": "c",
+          "text": "blauer"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Nach der (Nominativ) → -e: der blaue Mantel."
+    }
+  ]
+}

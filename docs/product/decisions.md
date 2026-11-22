@@ -1415,3 +1415,21 @@ together._
   measured); keep "free" undefined (marketing and future tickets need a clear line).
 - **Reversibility:** Rules 1, 3, 4 are high. Rule 2 is deliberately hard to reverse; changing
   it needs a new PD and the owner's approval.
+
+## PD-073: telc B1 Exam Prep and Einbürgerungstest courses
+
+- **Date:** 2026-11-21 (TELC-001, owner request)
+- **Reason:** the owner asked for all the content of their telc B1 web app (exam prep and
+  naturalization test) in Polyglow, with lesson structure left to the team.
+- **Decision:** two new available courses next to German:
+  - **telc B1 Exam Prep** (`telc-b1-en-de`): exam overview → vocabulary by theme → grammar
+    (theory, quiz, sentence building) → Reading, Sprachbausteine, Listening (each part
+    with strategy and practice) → Writing (29 letters, building blocks, writing coach) →
+    Speaking (Teil 1–3 with Redemittel and every topic/case as a task) → mock exam.
+  - **Einbürgerungstest** (`einbuergerung-en-de`): one unit per topic block (overview
+    card, then the questions with full English/German explanations), then 10 fixed mock
+    tests of 33 questions (30 general + 3 NRW) that use every question.
+  - Learners pick one at onboarding and can switch any time in Profile → Course.
+- **Rationale:** the exam courses have different goals and pacing from the general course.
+  Separate paths keep each one clear.
+- **Reversibility:** High (registry visibility can hide a course).

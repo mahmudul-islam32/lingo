@@ -1,0 +1,235 @@
+{
+  "id": "tb1-u19-l12-abstract-nouns-4",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u19",
+  "title": "Abstract Nouns 4",
+  "tip": "Theme: Abstrakte Nomen (B1)",
+  "exercises": [
+    {
+      "id": "tb1-u19-l12-abstract-nouns-4-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "die Bedeutung",
+          "known": "meaning / importance"
+        },
+        {
+          "id": "p2",
+          "learning": "der Vorschlag",
+          "known": "suggestion"
+        },
+        {
+          "id": "p3",
+          "learning": "die Aufgabe",
+          "known": "task"
+        },
+        {
+          "id": "p4",
+          "learning": "das Ziel",
+          "known": "goal"
+        },
+        {
+          "id": "p5",
+          "learning": "die Gelegenheit",
+          "known": "opportunity"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u19-l12-abstract-nouns-4-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „meaning / importance“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Wirkung, die Wirkungen"
+        },
+        {
+          "id": "b",
+          "text": "der Vorschlag, die Vorschläge"
+        },
+        {
+          "id": "c",
+          "text": "die Fähigkeit, die Fähigkeiten"
+        },
+        {
+          "id": "d",
+          "text": "die Bedeutung, die Bedeutungen"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**die Bedeutung** = meaning / importance\n*Plural: die Bedeutungen*\n\n*Example:* Weißt du, welche Bedeutung dieses Schild hat?\nDo you know what this sign means?"
+    },
+    {
+      "id": "tb1-u19-l12-abstract-nouns-4-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „suggestion“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "der Zweck, die Zwecke"
+        },
+        {
+          "id": "b",
+          "text": "die Absicht, die Absichten"
+        },
+        {
+          "id": "c",
+          "text": "die Verantwortung"
+        },
+        {
+          "id": "d",
+          "text": "der Vorschlag, die Vorschläge"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**der Vorschlag** = suggestion\n*Plural: die Vorschläge*\n\n*Example:* Dein Vorschlag gefällt mir, wir machen es so.\nI like your suggestion, let's do it that way."
+    },
+    {
+      "id": "tb1-u19-l12-abstract-nouns-4-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Weißt du, welche Bedeutung dieses Schild hat?",
+      "tiles": [
+        "you",
+        "the",
+        "know",
+        "this",
+        "Parents",
+        "means",
+        "had",
+        "sign",
+        "what",
+        "Do"
+      ],
+      "answers": [
+        "Do you know what this sign means?"
+      ],
+      "explanation": "**die Bedeutung** = meaning / importance\n*Plural: die Bedeutungen*"
+    },
+    {
+      "id": "tb1-u19-l12-abstract-nouns-4-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „task“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Absicht, die Absichten"
+        },
+        {
+          "id": "b",
+          "text": "der Zweck, die Zwecke"
+        },
+        {
+          "id": "c",
+          "text": "die Aufgabe, die Aufgaben"
+        },
+        {
+          "id": "d",
+          "text": "die Bedeutung, die Bedeutungen"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**die Aufgabe** = task\n*Plural: die Aufgaben*\n\n*Example:* Meine Aufgabe ist es, die Post im Büro zu verteilen.\nMy task is to distribute the post in the office."
+    },
+    {
+      "id": "tb1-u19-l12-abstract-nouns-4-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I like your suggestion, let's do it that way.",
+      "tiles": [
+        "so",
+        "Dein",
+        "mir",
+        "gefällt",
+        "verteilen",
+        "es",
+        "Vorschlag",
+        "machen",
+        "nächstes",
+        "wir",
+        "eine"
+      ],
+      "answers": [
+        "Dein Vorschlag gefällt mir, wir machen es so."
+      ],
+      "explanation": "**der Vorschlag** = suggestion\n*Plural: die Vorschläge*"
+    },
+    {
+      "id": "tb1-u19-l12-abstract-nouns-4-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „goal“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "der Vorschlag, die Vorschläge"
+        },
+        {
+          "id": "b",
+          "text": "das Ziel, die Ziele"
+        },
+        {
+          "id": "c",
+          "text": "der Eindruck, die Eindrücke"
+        },
+        {
+          "id": "d",
+          "text": "die Schwierigkeit, die Schwierigkeiten"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**das Ziel** = goal\n*Plural: die Ziele*\n\n*Example:* Mein Ziel ist es, nächstes Jahr eine Ausbildung zu beginnen.\nMy goal is to start an apprenticeship next year."
+    },
+    {
+      "id": "tb1-u19-l12-abstract-nouns-4-ex08",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u19-l12-abstract-nouns-4-3.mp3"
+      },
+      "tiles": [
+        "Meine",
+        "verteilen",
+        "Büro",
+        "Aufgabe",
+        "es",
+        "die",
+        "Vorstellungsgespräch",
+        "zu",
+        "Post",
+        "dieses",
+        "Kollegin",
+        "im",
+        "ist"
+      ],
+      "answers": [
+        "Meine Aufgabe ist es, die Post im Büro zu verteilen."
+      ],
+      "explanation": "Meine Aufgabe ist es, die Post im Büro zu verteilen.\n*My task is to distribute the post in the office.*\n\n**die Aufgabe** = task\n*Plural: die Aufgaben*"
+    },
+    {
+      "id": "tb1-u19-l12-abstract-nouns-4-ex09",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Mein Ziel ist es, nächstes Jahr eine Ausbildung zu beginnen.",
+      "tiles": [
+        "start",
+        "today",
+        "Ali",
+        "apprenticeship",
+        "next",
+        "With",
+        "My",
+        "is",
+        "year",
+        "to",
+        "an",
+        "goal"
+      ],
+      "answers": [
+        "My goal is to start an apprenticeship next year."
+      ],
+      "explanation": "**das Ziel** = goal\n*Plural: die Ziele*"
+    }
+  ]
+}

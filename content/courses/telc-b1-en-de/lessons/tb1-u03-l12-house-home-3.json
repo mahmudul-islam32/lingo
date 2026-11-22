@@ -1,0 +1,235 @@
+{
+  "id": "tb1-u03-l12-house-home-3",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u03",
+  "title": "House & Home 3",
+  "tip": "Theme: Haus & Wohnung (A1)",
+  "exercises": [
+    {
+      "id": "tb1-u03-l12-house-home-3-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "das Fenster",
+          "known": "window"
+        },
+        {
+          "id": "p2",
+          "learning": "der Tisch",
+          "known": "table"
+        },
+        {
+          "id": "p3",
+          "learning": "der Stuhl",
+          "known": "chair"
+        },
+        {
+          "id": "p4",
+          "learning": "das Bett",
+          "known": "bed"
+        },
+        {
+          "id": "p5",
+          "learning": "das Haus",
+          "known": "house"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u03-l12-house-home-3-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „window“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "das Bett, die Betten"
+        },
+        {
+          "id": "b",
+          "text": "das Fenster, die Fenster"
+        },
+        {
+          "id": "c",
+          "text": "der Garten, die Gärten"
+        },
+        {
+          "id": "d",
+          "text": "der Stuhl, die Stühle"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**das Fenster** = window\n*Plural: die Fenster*\n\n*Example:* Kannst du bitte das Fenster aufmachen? Es ist so warm hier.\nCan you open the window, please? It's so warm in here."
+    },
+    {
+      "id": "tb1-u03-l12-house-home-3-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „table“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "der Garten, die Gärten"
+        },
+        {
+          "id": "b",
+          "text": "die Küche, die Küchen"
+        },
+        {
+          "id": "c",
+          "text": "das Schlafzimmer"
+        },
+        {
+          "id": "d",
+          "text": "der Tisch, die Tische"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**der Tisch** = table\n*Plural: die Tische*\n\n*Example:* Das Essen steht schon auf dem Tisch.\nThe food is already on the table."
+    },
+    {
+      "id": "tb1-u03-l12-house-home-3-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Kannst du bitte das Fenster aufmachen? Es ist so warm hier.",
+      "tiles": [
+        "need",
+        "warm",
+        "so",
+        "the",
+        "please",
+        "here",
+        "you",
+        "child",
+        "Can",
+        "in",
+        "It's",
+        "garden",
+        "window",
+        "open"
+      ],
+      "answers": [
+        "Can you open the window, please? It's so warm in here."
+      ],
+      "explanation": "**das Fenster** = window\n*Plural: die Fenster*"
+    },
+    {
+      "id": "tb1-u03-l12-house-home-3-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „chair“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Wohnung, die Wohnungen"
+        },
+        {
+          "id": "b",
+          "text": "der Stuhl, die Stühle"
+        },
+        {
+          "id": "c",
+          "text": "die Küche, die Küchen"
+        },
+        {
+          "id": "d",
+          "text": "die Tür, die Türen"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**der Stuhl** = chair\n*Plural: die Stühle*\n\n*Example:* Für die Party brauchen wir noch sechs Stühle.\nWe still need six chairs for the party."
+    },
+    {
+      "id": "tb1-u03-l12-house-home-3-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "The food is already on the table.",
+      "tiles": [
+        "steht",
+        "dem",
+        "Das",
+        "ist",
+        "Tisch",
+        "auf",
+        "schon",
+        "Badewanne",
+        "Essen",
+        "Spüle"
+      ],
+      "answers": [
+        "Das Essen steht schon auf dem Tisch."
+      ],
+      "explanation": "**der Tisch** = table\n*Plural: die Tische*"
+    },
+    {
+      "id": "tb1-u03-l12-house-home-3-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „bed“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "das Bett, die Betten"
+        },
+        {
+          "id": "b",
+          "text": "der Tisch, die Tische"
+        },
+        {
+          "id": "c",
+          "text": "der Schlüssel, die Schlüssel"
+        },
+        {
+          "id": "d",
+          "text": "das Haus, die Häuser"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**das Bett** = bed\n*Plural: die Betten*\n\n*Example:* Das Kind geht um acht Uhr ins Bett.\nThe child goes to bed at eight o'clock."
+    },
+    {
+      "id": "tb1-u03-l12-house-home-3-ex08",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u03-l12-house-home-3-3.mp3"
+      },
+      "tiles": [
+        "Für",
+        "noch",
+        "wir",
+        "ist",
+        "Essen",
+        "brauchen",
+        "die",
+        "Zimmer",
+        "Stühle",
+        "sechs",
+        "Party"
+      ],
+      "answers": [
+        "Für die Party brauchen wir noch sechs Stühle."
+      ],
+      "explanation": "Für die Party brauchen wir noch sechs Stühle.\n*We still need six chairs for the party.*\n\n**der Stuhl** = chair\n*Plural: die Stühle*"
+    },
+    {
+      "id": "tb1-u03-l12-house-home-3-ex09",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Das Kind geht um acht Uhr ins Bett.",
+      "tiles": [
+        "child",
+        "o'clock",
+        "goes",
+        "please",
+        "to",
+        "The",
+        "evening",
+        "at",
+        "bed",
+        "room",
+        "eight"
+      ],
+      "answers": [
+        "The child goes to bed at eight o'clock."
+      ],
+      "explanation": "**das Bett** = bed\n*Plural: die Betten*"
+    }
+  ]
+}

@@ -1,0 +1,300 @@
+{
+  "id": "tb1-u30-l10-aduso-p1",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u30",
+  "title": "Connectors: aber/denn vs. deshalb/trotzdem: aber & denn",
+  "tip": "“…deshalb ich bin geblieben” is wrong, after deshalb/trotzdem the verb comes first.",
+  "exercises": [
+    {
+      "id": "tb1-u30-l10-aduso-p1-ex01",
+      "type": "explain",
+      "title": "aber · Gegensatz (Position 0)",
+      "body": "aber joins two main clauses. It doesn't count as a position – normal word order follows.\n\n*Deutsch:* aber verbindet zwei Hauptsätze. Es zählt nicht als Position – danach normale Wortstellung.\n\n## Pattern\n\nHauptsatz, **aber** + Subjekt + **Verb** + …",
+      "examples": [
+        {
+          "learning": "Ich möchte kommen, aber ich habe keine Zeit.",
+          "known": "I'd like to come, but I don't have time."
+        },
+        {
+          "learning": "Die Wohnung ist klein, aber sie ist sehr hell.",
+          "known": "The flat is small, but it's very bright."
+        }
+      ]
+    },
+    {
+      "id": "tb1-u30-l10-aduso-p1-ex02",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I'd like to come, but I don't have time.",
+      "tiles": [
+        "möchte",
+        "ich",
+        "wir",
+        "zur",
+        "kommen",
+        "immer",
+        "aber",
+        "keine",
+        "Ich",
+        "Zeit",
+        "habe"
+      ],
+      "answers": [
+        "Ich möchte kommen, aber ich habe keine Zeit."
+      ],
+      "explanation": "**Why:** After aber: subject ich, then verb habe.\n\n*Warum:* Nach aber: Subjekt ich, dann Verb habe."
+    },
+    {
+      "id": "tb1-u30-l10-aduso-p1-ex03",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "The flat is small, but it's very bright.",
+      "tiles": [
+        "aber",
+        "sie",
+        "Die",
+        "Das",
+        "Ich",
+        "angerufen",
+        "sehr",
+        "ist",
+        "hell",
+        "Wohnung",
+        "ist",
+        "klein"
+      ],
+      "answers": [
+        "Die Wohnung ist klein, aber sie ist sehr hell."
+      ],
+      "explanation": "**Why:** aber = position 0, sie = position 1.\n\n*Warum:* aber = Position 0, sie = Position 1."
+    },
+    {
+      "id": "tb1-u30-l10-aduso-p1-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I called, but nobody answered.",
+      "tiles": [
+        "abgenommen",
+        "machen",
+        "weitergelernt",
+        "Melden",
+        "niemand",
+        "angerufen",
+        "Ich",
+        "habe",
+        "hat",
+        "aber"
+      ],
+      "answers": [
+        "Ich habe angerufen, aber niemand hat abgenommen."
+      ],
+      "explanation": "**Why:** Bracket in the second clause: hat … abgenommen.\n\n*Warum:* Klammer im zweiten Satz: hat … abgenommen."
+    },
+    {
+      "id": "tb1-u30-l10-aduso-p1-ex05",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "The food was good, but unfortunately it was too expensive.",
+      "tiles": [
+        "es",
+        "Essen",
+        "sondern",
+        "zu",
+        "teuer",
+        "Das",
+        "weitergelernt",
+        "war",
+        "an",
+        "war",
+        "aber",
+        "gut",
+        "leider"
+      ],
+      "answers": [
+        "Das Essen war gut, aber leider war es zu teuer."
+      ],
+      "explanation": "**Why:** If leider is in position 1, the verb follows.\n\n*Warum:* Steht leider auf Position 1, kommt das Verb danach."
+    },
+    {
+      "id": "tb1-u30-l10-aduso-p1-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "He's nice, but he's always late.",
+      "tiles": [
+        "ist",
+        "zu",
+        "er",
+        "nett",
+        "immer",
+        "bin",
+        "spät",
+        "habe",
+        "→",
+        "aber",
+        "kommt",
+        "Er"
+      ],
+      "answers": [
+        "Er ist nett, aber er kommt immer zu spät."
+      ],
+      "explanation": "**Why:** Normal word order after aber.\n\n*Warum:* Normale Wortstellung nach aber."
+    },
+    {
+      "id": "tb1-u30-l10-aduso-p1-ex07",
+      "type": "explain",
+      "title": "denn · Grund (Position 0)",
+      "body": "denn = because, but with main-clause word order: verb in position 2.\n\n*Deutsch:* denn = weil, aber mit Hauptsatz-Wortstellung: Verb auf Position 2.\n\n## Pattern\n\nHauptsatz, **denn** + Subjekt + **Verb** + …",
+      "examples": [
+        {
+          "learning": "Ich bleibe zu Hause, denn ich bin krank.",
+          "known": "I'm staying at home, because I'm ill."
+        },
+        {
+          "learning": "Wir nehmen ein Taxi, denn der Bus fährt heute nicht.",
+          "known": "We're taking a taxi, because the bus isn't running today."
+        }
+      ]
+    },
+    {
+      "id": "tb1-u30-l10-aduso-p1-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I'm staying at home, because I'm ill.",
+      "tiles": [
+        "bestehen",
+        "bleibe",
+        "ich",
+        "Hause",
+        "Außerdem",
+        "zu",
+        "bin",
+        "krank",
+        "Ich",
+        "denn",
+        "trotzdem"
+      ],
+      "answers": [
+        "Ich bleibe zu Hause, denn ich bin krank."
+      ],
+      "explanation": "**Why:** Compare: …, weil ich krank bin. With denn, bin is in position 2.\n\n*Warum:* Vergleiche: …, weil ich krank bin. Bei denn steht bin auf Position 2."
+    },
+    {
+      "id": "tb1-u30-l10-aduso-p1-ex09",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "We're taking a taxi, because the bus isn't running today.",
+      "tiles": [
+        "Bus",
+        "nehmen",
+        "der",
+        "fährt",
+        "denn",
+        "Wir",
+        "Ich",
+        "ein",
+        "nicht",
+        "heute",
+        "aber",
+        "nett",
+        "Taxi"
+      ],
+      "answers": [
+        "Wir nehmen ein Taxi, denn der Bus fährt heute nicht."
+      ],
+      "explanation": "**Why:** denn + subject + verb.\n\n*Warum:* denn + Subjekt + Verb."
+    },
+    {
+      "id": "tb1-u30-l10-aduso-p1-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I can't come, because I have to work.",
+      "tiles": [
+        "ich",
+        "denn",
+        "muss",
+        "Der",
+        "trotzdem",
+        "kann",
+        "nicht",
+        "aus",
+        "Ich",
+        "arbeiten",
+        "kommen"
+      ],
+      "answers": [
+        "Ich kann nicht kommen, denn ich muss arbeiten."
+      ],
+      "explanation": "**Why:** Modal in position 2, infinitive at the end.\n\n*Warum:* Modalverb auf Position 2, Infinitiv am Ende."
+    },
+    {
+      "id": "tb1-u30-l10-aduso-p1-ex11",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "She's happy, because she's found a new job.",
+      "tiles": [
+        "hat",
+        "denn",
+        "neue",
+        "Sie",
+        "Stelle",
+        "ist",
+        "Essen",
+        "eine",
+        "gefunden",
+        "Schreib",
+        "sie",
+        "nicht",
+        "glücklich"
+      ],
+      "answers": [
+        "Sie ist glücklich, denn sie hat eine neue Stelle gefunden."
+      ],
+      "explanation": "**Why:** hat … gefunden = bracket.\n\n*Warum:* hat … gefunden = Klammer."
+    },
+    {
+      "id": "tb1-u30-l10-aduso-p1-ex12",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Take an umbrella, because it'll rain soon.",
+      "tiles": [
+        "Deutschland",
+        "es",
+        "mit",
+        "regnet",
+        "Schirm",
+        "Nimm",
+        "denn",
+        "an",
+        "ich",
+        "einen",
+        "bald"
+      ],
+      "answers": [
+        "Nimm einen Schirm mit, denn es regnet bald."
+      ],
+      "explanation": "**Why:** denn never starts a sentence.\n\n*Warum:* denn steht nie am Satzanfang."
+    },
+    {
+      "id": "tb1-u30-l10-aduso-p1-ex13",
+      "type": "choice",
+      "title": "Fill the gap",
+      "prompt": "Beeil dich, ___ verpassen wir den Zug!",
+      "options": [
+        {
+          "id": "a",
+          "text": "sonst"
+        },
+        {
+          "id": "b",
+          "text": "denn"
+        },
+        {
+          "id": "c",
+          "text": "aber"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "sonst = „wenn nicht“ und besetzt Position 1: sonst verpassen wir …"
+    }
+  ]
+}

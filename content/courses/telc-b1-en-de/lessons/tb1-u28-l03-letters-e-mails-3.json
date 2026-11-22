@@ -1,0 +1,245 @@
+{
+  "id": "tb1-u28-l03-letters-e-mails-3",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u28",
+  "title": "Letters & E-mails 3",
+  "tip": "Theme: Redemittel: Brief & E-Mail (B1)",
+  "exercises": [
+    {
+      "id": "tb1-u28-l03-letters-e-mails-3-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "ich bedanke mich im Voraus",
+          "known": "thank you in advance."
+        },
+        {
+          "id": "p2",
+          "learning": "Mit freundlichen Grüßen",
+          "known": "Kind regards (formal)"
+        },
+        {
+          "id": "p3",
+          "learning": "Viele Grüße",
+          "known": "Best wishes (informal)"
+        },
+        {
+          "id": "p4",
+          "learning": "Sehr geehrte Damen und Herren",
+          "known": "Dear Sir or Madam,"
+        },
+        {
+          "id": "p5",
+          "learning": "Liebe Anna, / Lieber Tom",
+          "known": "Dear Anna, / Dear Tom,"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u28-l03-letters-e-mails-3-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which phrase means „thank you in advance.“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "ich bedanke mich im Voraus."
+        },
+        {
+          "id": "b",
+          "text": "Sehr geehrte Damen und Herren,"
+        },
+        {
+          "id": "c",
+          "text": "ich schreibe Ihnen, weil …"
+        },
+        {
+          "id": "d",
+          "text": "könnten Sie mir bitte mitteilen, …"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**ich bedanke mich im Voraus.** = thank you in advance.\n\n*Example:* Bitte schicken Sie mir die Unterlagen per Post. Ich bedanke mich im Voraus.\nPlease send me the documents by post. Thank you in advance."
+    },
+    {
+      "id": "tb1-u28-l03-letters-e-mails-3-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which phrase means „I'd appreciate a prompt reply.“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Liebe Anna, / Lieber Tom,"
+        },
+        {
+          "id": "b",
+          "text": "leider muss ich Ihnen mitteilen, dass …"
+        },
+        {
+          "id": "c",
+          "text": "Mit freundlichen Grüßen"
+        },
+        {
+          "id": "d",
+          "text": "über eine baldige Antwort würde ich mich freuen."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**über eine baldige Antwort würde ich mich freuen.** = I'd appreciate a prompt reply.\n\n*Example:* Ich habe noch eine Frage zur Rechnung. Über eine baldige Antwort würde ich mich freuen.\nI still have a question about the invoice. I'd appreciate a prompt reply."
+    },
+    {
+      "id": "tb1-u28-l03-letters-e-mails-3-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Please send me the documents by post. Thank you in advance.",
+      "tiles": [
+        "mir",
+        "Ich",
+        "Voraus",
+        "bedanke",
+        "Über",
+        "Bitte",
+        "im",
+        "Unterlagen",
+        "Sie",
+        "Herren",
+        "würde",
+        "die",
+        "schicken",
+        "Post",
+        "mich",
+        "per"
+      ],
+      "answers": [
+        "Bitte schicken Sie mir die Unterlagen per Post. Ich bedanke mich im Voraus."
+      ],
+      "explanation": "**ich bedanke mich im Voraus.** = thank you in advance."
+    },
+    {
+      "id": "tb1-u28-l03-letters-e-mails-3-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which phrase means „Kind regards (formal)“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "vielen Dank für Ihre E-Mail."
+        },
+        {
+          "id": "b",
+          "text": "ich schreibe Ihnen, weil …"
+        },
+        {
+          "id": "c",
+          "text": "Mit freundlichen Grüßen"
+        },
+        {
+          "id": "d",
+          "text": "Viele Grüße"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**Mit freundlichen Grüßen** = Kind regards (formal)\n\n*Example:* Ich hoffe auf Ihr Verständnis. Mit freundlichen Grüßen, Maria Schulz\nI hope for your understanding. Kind regards, Maria Schulz"
+    },
+    {
+      "id": "tb1-u28-l03-letters-e-mails-3-ex06",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u28-l03-letters-e-mails-3-2.mp3"
+      },
+      "tiles": [
+        "Grüße",
+        "baldige",
+        "ich",
+        "habe",
+        "zur",
+        "bedanke",
+        "nächste",
+        "freuen",
+        "Ich",
+        "Über",
+        "eine",
+        "eine",
+        "Antwort",
+        "Frage",
+        "Rechnung",
+        "mich",
+        "noch",
+        "würde"
+      ],
+      "answers": [
+        "Ich habe noch eine Frage zur Rechnung. Über eine baldige Antwort würde ich mich freuen."
+      ],
+      "explanation": "Ich habe noch eine Frage zur Rechnung. Über eine baldige Antwort würde ich mich freuen.\n*I still have a question about the invoice. I'd appreciate a prompt reply.*\n\n**über eine baldige Antwort würde ich mich freuen.** = I'd appreciate a prompt reply."
+    },
+    {
+      "id": "tb1-u28-l03-letters-e-mails-3-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which phrase means „Best wishes (informal)“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Sehr geehrte Damen und Herren,"
+        },
+        {
+          "id": "b",
+          "text": "Viele Grüße"
+        },
+        {
+          "id": "c",
+          "text": "könnten Sie mir bitte mitteilen, …"
+        },
+        {
+          "id": "d",
+          "text": "leider muss ich Ihnen mitteilen, dass …"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Viele Grüße** = Best wishes (informal)\n\n*Example:* Bis nächste Woche! Viele Grüße, dein Tom\nSee you next week! Best wishes, Tom"
+    },
+    {
+      "id": "tb1-u28-l03-letters-e-mails-3-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Ich hoffe auf Ihr Verständnis. Mit freundlichen Grüßen, Maria Schulz",
+      "tiles": [
+        "Kind",
+        "Schulz",
+        "Maria",
+        "your",
+        "understanding",
+        "you",
+        "for",
+        "regards",
+        "course",
+        "I",
+        "hope",
+        "in"
+      ],
+      "answers": [
+        "I hope for your understanding. Kind regards, Maria Schulz"
+      ],
+      "explanation": "**Mit freundlichen Grüßen** = Kind regards (formal)"
+    },
+    {
+      "id": "tb1-u28-l03-letters-e-mails-3-ex09",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "See you next week! Best wishes, Tom",
+      "tiles": [
+        "Woche",
+        "Sehr",
+        "Grüße",
+        "Hochzeit",
+        "nächste",
+        "dein",
+        "Viele",
+        "über",
+        "Bis",
+        "Tom"
+      ],
+      "answers": [
+        "Bis nächste Woche! Viele Grüße, dein Tom"
+      ],
+      "explanation": "**Viele Grüße** = Best wishes (informal)"
+    }
+  ]
+}

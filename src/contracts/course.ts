@@ -37,6 +37,10 @@ export const EXERCISE_TYPES = [
   "listen",
   "speak",
   "cloze",
+  "choice",
+  "listening",
+  "task",
+  "explain",
 ] as const;
 export const ExerciseTypeSchema = z.enum(EXERCISE_TYPES);
 export type ExerciseType = z.infer<typeof ExerciseTypeSchema>;
@@ -96,8 +100,17 @@ function refineTileAnswers(
   });
 }
 
+/** Rich text in the light markup of `rich-text.ts` (TELC-001). */
+const richText = (max: number) => z.string().trim().min(1).max(max);
+
 const exerciseBase = {
   id: SlugSchema,
+  /**
+   * Optional explanation shown in the feedback panel after "Check", on correct and
+   * incorrect answers alike (TELC-001). Rich text, in the known language unless the
+   * author writes otherwise.
+   */
+  explanation: richText(CONTENT_RULES.explanationMaxLength).optional(),
 };
 
 /** Prompt plus 3–4 text options; exactly one is correct. */
@@ -348,6 +361,143 @@ export function clozeCorrectSentence(exercise: Pick<ClozeExercise, "sentence" | 
   );
 }
 
+/** Option of a `choice` / `listening` exercise: longer text than a multiple-choice option. */
+const LongOptionSchema = z.strictObject({
+  id: SlugSchema,
+  text: z.string().trim().min(1).max(CONTENT_RULES.longOptionMaxLength),
+});
+
+const longOptions = z
+  .array(LongOptionSchema)
+  .min(CONTENT_RULES.choiceMinOptions)
+  .max(CONTENT_RULES.choiceMaxOptions);
+
+function refineOptions(
+  value: { options: { id: string; text: string }[]; correctOptionId: string },
+  ctx: z.RefinementCtx,
+): void {
+  for (const id of findDuplicates(value.options.map((o) => o.id))) {
+    ctx.addIssue({ code: "custom", message: `duplicate option id "${id}"`, path: ["options"] });
+  }
+  for (const text of findDuplicates(value.options.map((o) => o.text.toLowerCase()))) {
+    ctx.addIssue({
+      code: "custom",
+      message: `duplicate option text "${text}"`,
+      path: ["options"],
+    });
+  }
+  if (!value.options.some((o) => o.id === value.correctOptionId)) {
+    ctx.addIssue({
+      code: "custom",
+      message: "correctOptionId must match one of the option ids",
+      path: ["correctOptionId"],
+    });
+  }
+}
+
+/**
+ * Exam-style question (TELC-001): an optional reading passage, a question and 2–12
+ * options, exactly one correct. Used for telc Lesen / Sprachbausteine items and the
+ * Einbürgerungstest. `passage`, `prompt` and options are in the learning language;
+ * `title` too (e.g. a text heading).
+ */
+export const ChoiceExerciseSchema = z
+  .strictObject({
+    ...exerciseBase,
+    type: z.literal("choice"),
+    title: z.string().trim().min(1).max(CONTENT_RULES.titleMaxLength).optional(),
+    /** Reading text shown above the question; rich text. */
+    passage: richText(CONTENT_RULES.passageMaxLength).optional(),
+    prompt: z.string().trim().min(1).max(CONTENT_RULES.longPromptMaxLength),
+    options: longOptions,
+    correctOptionId: SlugSchema,
+  })
+  .superRefine(refineOptions);
+export type ChoiceExercise = z.infer<typeof ChoiceExerciseSchema>;
+
+/**
+ * Listening comprehension (TELC-001): `transcript` is read aloud with speech synthesis in
+ * the learning language (no audio file needed) and revealed after "Check". Lines that
+ * start with `Name:` are read as one speaker turn each.
+ */
+export const ListeningExerciseSchema = z
+  .strictObject({
+    ...exerciseBase,
+    type: z.literal("listening"),
+    title: z.string().trim().min(1).max(CONTENT_RULES.titleMaxLength).optional(),
+    transcript: z.string().trim().min(1).max(CONTENT_RULES.transcriptMaxLength),
+    prompt: z.string().trim().min(1).max(CONTENT_RULES.longPromptMaxLength),
+    options: longOptions,
+    correctOptionId: SlugSchema,
+  })
+  .superRefine(refineOptions);
+export type ListeningExercise = z.infer<typeof ListeningExerciseSchema>;
+
+export const TaskSkillSchema = z.enum(["writing", "speaking"]);
+export type TaskSkill = z.infer<typeof TaskSkillSchema>;
+
+/**
+ * Open writing or speaking task (TELC-001), e.g. a telc letter or a Sprechen topic. The
+ * learner writes (writing) or prepares and speaks (speaking), then compares with the
+ * model answer. Never graded: it can't be wrong and never costs or earns hearts.
+ */
+export const TaskExerciseSchema = z.strictObject({
+  ...exerciseBase,
+  type: z.literal("task"),
+  skill: TaskSkillSchema,
+  title: z.string().trim().min(1).max(CONTENT_RULES.titleMaxLength),
+  /** Situation and instructions; rich text. */
+  task: richText(CONTENT_RULES.taskMaxLength),
+  /** Leitpunkte / points to cover. */
+  points: z
+    .array(z.string().trim().min(1).max(280))
+    .min(1)
+    .max(CONTENT_RULES.taskMaxPoints)
+    .optional(),
+  /** Useful phrases (Redemittel), shown with the task. */
+  phrases: z
+    .array(z.string().trim().min(1).max(280))
+    .min(1)
+    .max(CONTENT_RULES.taskMaxPhrases)
+    .optional(),
+  /** Model answer revealed after "Show model answer"; rich text. */
+  modelAnswer: richText(CONTENT_RULES.modelAnswerMaxLength),
+});
+export type TaskExercise = z.infer<typeof TaskExerciseSchema>;
+
+/**
+ * Teaching card (TELC-001): a grammar rule, exam strategy or topic overview. Read, then
+ * "Continue"; never graded. `body` is rich text in the known language (German examples
+ * inline); `examples` pair a learning-language sentence with its meaning.
+ */
+export const ExplainExerciseSchema = z.strictObject({
+  ...exerciseBase,
+  type: z.literal("explain"),
+  title: z.string().trim().min(1).max(CONTENT_RULES.titleMaxLength),
+  body: richText(CONTENT_RULES.passageMaxLength),
+  examples: z
+    .array(
+      z.strictObject({
+        learning: z.string().trim().min(1).max(400),
+        known: z.string().trim().min(1).max(400),
+      }),
+    )
+    .min(1)
+    .max(CONTENT_RULES.explainMaxExamples)
+    .optional(),
+});
+export type ExplainExercise = z.infer<typeof ExplainExerciseSchema>;
+
+/** Exercise types that are never graded: always "correct", never cost or earn hearts. */
+export const UNGRADED_EXERCISE_TYPES = [
+  "task",
+  "explain",
+] as const satisfies readonly ExerciseType[];
+
+export function isUngradedExerciseType(type: ExerciseType): boolean {
+  return (UNGRADED_EXERCISE_TYPES as readonly ExerciseType[]).includes(type);
+}
+
 export const ExerciseSchema = z.discriminatedUnion("type", [
   MultipleChoiceExerciseSchema,
   WordBankTranslateExerciseSchema,
@@ -355,6 +505,10 @@ export const ExerciseSchema = z.discriminatedUnion("type", [
   ListenExerciseSchema,
   SpeakExerciseSchema,
   ClozeExerciseSchema,
+  ChoiceExerciseSchema,
+  ListeningExerciseSchema,
+  TaskExerciseSchema,
+  ExplainExerciseSchema,
 ]);
 export type Exercise = z.infer<typeof ExerciseSchema>;
 

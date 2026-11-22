@@ -1,0 +1,166 @@
+{
+  "id": "tb1-u50-l01-fallen-1",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u50",
+  "title": "Listening traps 1: Korrektur, Plan/Wunsch ≠ Tatsache, Meinungswechsel über die Zeit",
+  "tip": "Listen, then decide: richtig or falsch?",
+  "exercises": [
+    {
+      "id": "tb1-u50-l01-fallen-1-ex01",
+      "type": "explain",
+      "title": "Listening (Hörverstehen): the exam part",
+      "body": "Listening is worth **75 points** and takes 30 minutes (tasks 41–60). Every item is *richtig* or *falsch*.\n\n- **Teil 1 · Globalverstehen** (41–45, 25 P): 5 short messages and announcements. **Each text is played only once.** 5 points each.\n- **Teil 2 · Interview** (46–55, 25 P): one conversation, 10 statements. Played **twice**. 2.5 points each.\n- **Teil 3 · Durchsagen** (56–60, 25 P): 5 public announcements, each played **twice**. 5 points each.\n\nRead the statements before you listen. In this app you can replay the audio, but try to answer after one listen (Teil 1) or two (Teil 2 and 3), as in the exam.\n\n**Tipp:** Aufgabe verpasst? Loslassen und sofort auf die nächste schauen. Wer im Kopf übersetzt, verpasst zwei weitere. Nie ein Feld leer lassen.\n\n*Missed an item? Let it go and look at the next one at once. If you translate in your head you miss two more. Never leave a box empty.*"
+    },
+    {
+      "id": "tb1-u50-l01-fallen-1-ex02",
+      "type": "explain",
+      "title": "Trap 1: Korrektur (nicht … sondern)",
+      "body": "The audio states a value, then **replaces** it. The old value is now false. Signal: nicht … sondern, doch nicht, statt.\n\n*Auf Deutsch:* Die Aufnahme nennt einen Wert und **ersetzt** ihn dann. Der alte Wert ist jetzt falsch. Signal: nicht … sondern, doch nicht, statt, nicht mehr … sondern."
+    },
+    {
+      "id": "tb1-u50-l01-fallen-1-ex03",
+      "type": "listening",
+      "title": "Falle 1 · Beispiel 1",
+      "transcript": "Die Sitzung findet nicht am Montag statt, sondern am Dienstag.",
+      "prompt": "Die Sitzung ist am Montag. Richtig oder falsch?",
+      "options": [
+        {
+          "id": "a",
+          "text": "richtig"
+        },
+        {
+          "id": "b",
+          "text": "falsch"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Falsch.** Ersetzt durch Dienstag → Montag ist falsch."
+    },
+    {
+      "id": "tb1-u50-l01-fallen-1-ex04",
+      "type": "listening",
+      "title": "Falle 1 · Beispiel 2",
+      "transcript": "Das Konzert beginnt nicht um acht, sondern schon um halb acht.",
+      "prompt": "Das Konzert beginnt um 19:30 Uhr. Richtig oder falsch?",
+      "options": [
+        {
+          "id": "a",
+          "text": "richtig"
+        },
+        {
+          "id": "b",
+          "text": "falsch"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Richtig.** halb acht = 7:30 = 19:30. Korrektur- und Zeitfalle in einem."
+    },
+    {
+      "id": "tb1-u50-l01-fallen-1-ex05",
+      "type": "listening",
+      "title": "Falle 1 · Beispiel 3",
+      "transcript": "Der Zug fährt heute nicht von Gleis 3, sondern von Gleis 5.",
+      "prompt": "Der Zug fährt von Gleis 5. Richtig oder falsch?",
+      "options": [
+        {
+          "id": "a",
+          "text": "richtig"
+        },
+        {
+          "id": "b",
+          "text": "falsch"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Richtig.** Der korrigierte Wert (Gleis 5) ist der richtige."
+    },
+    {
+      "id": "tb1-u50-l01-fallen-1-ex06",
+      "type": "explain",
+      "title": "Trap 2: Plan/Wunsch ≠ Tatsache",
+      "body": "Someone **wanted/planned/would have liked** something, but it did **not** happen. Signal: eigentlich, wollte, hätte gern.\n\n*Auf Deutsch:* Jemand **wollte, plante oder hätte gern** etwas, es ist aber **nicht** passiert. Signal: eigentlich, wollte, hätte gern, ursprünglich, geplant war."
+    },
+    {
+      "id": "tb1-u50-l01-fallen-1-ex07",
+      "type": "listening",
+      "title": "Falle 2 · Beispiel 1",
+      "transcript": "Eigentlich wollte ich Medizin studieren, aber ich habe dann doch Jura genommen.",
+      "prompt": "Die Sprecherin studiert Medizin. Richtig oder falsch?",
+      "options": [
+        {
+          "id": "a",
+          "text": "richtig"
+        },
+        {
+          "id": "b",
+          "text": "falsch"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Falsch.** Wunsch war Medizin, tatsächlich: Jura."
+    },
+    {
+      "id": "tb1-u50-l01-fallen-1-ex08",
+      "type": "listening",
+      "title": "Falle 2 · Beispiel 2",
+      "transcript": "Wir hätten gern im Garten gefeiert, aber wegen des Regens waren wir drinnen.",
+      "prompt": "Die Feier war im Freien. Richtig oder falsch?",
+      "options": [
+        {
+          "id": "a",
+          "text": "richtig"
+        },
+        {
+          "id": "b",
+          "text": "falsch"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Falsch.** „hätten gern“ = Wunsch; der Regen zwang sie nach drinnen."
+    },
+    {
+      "id": "tb1-u50-l01-fallen-1-ex09",
+      "type": "explain",
+      "title": "Trap 3: Meinungswechsel über die Zeit",
+      "body": "The feeling **changed**. What counts is **now**, not the start. Signal: früher … aber inzwischen/jetzt.\n\n*Auf Deutsch:* Das Gefühl hat sich **geändert**. Es zählt der Zustand **jetzt**, nicht am Anfang. Signal: zuerst/früher … aber inzwischen/jetzt."
+    },
+    {
+      "id": "tb1-u50-l01-fallen-1-ex10",
+      "type": "listening",
+      "title": "Falle 3 · Beispiel 1",
+      "transcript": "Am Anfang war mir die Arbeit zu stressig, aber inzwischen macht sie mir Spaß.",
+      "prompt": "Der Sprecher mag seine Arbeit jetzt. Richtig oder falsch?",
+      "options": [
+        {
+          "id": "a",
+          "text": "richtig"
+        },
+        {
+          "id": "b",
+          "text": "falsch"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Richtig.** Jetzt = Spaß."
+    },
+    {
+      "id": "tb1-u50-l01-fallen-1-ex11",
+      "type": "listening",
+      "title": "Falle 3 · Beispiel 2",
+      "transcript": "Früher bin ich gern gereist, heute bleibe ich lieber zu Hause.",
+      "prompt": "Die Sprecherin reist gern. Richtig oder falsch?",
+      "options": [
+        {
+          "id": "a",
+          "text": "richtig"
+        },
+        {
+          "id": "b",
+          "text": "falsch"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Falsch.** Früher ja, heute lieber zu Hause, das „Jetzt“ gewinnt."
+    }
+  ]
+}

@@ -1,0 +1,254 @@
+{
+  "id": "tb1-u17-l10-town-neighbourhood-5",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u17",
+  "title": "Town & Neighbourhood 5",
+  "tip": "Theme: Stadt / Nachbarschaft (B1)",
+  "exercises": [
+    {
+      "id": "tb1-u17-l10-town-neighbourhood-5-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "aufpassen auf auf die Katze aufpassen",
+          "known": "to look after"
+        },
+        {
+          "id": "p2",
+          "learning": "den Schlüssel abgeben",
+          "known": "to drop off the key"
+        },
+        {
+          "id": "p3",
+          "learning": "die Großstadt",
+          "known": "big city"
+        },
+        {
+          "id": "p4",
+          "learning": "die Innenstadt",
+          "known": "city centre"
+        },
+        {
+          "id": "p5",
+          "learning": "der Stadtteil",
+          "known": "district"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u17-l10-town-neighbourhood-5-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which one means „to look after: to look after the cat“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "den Schlüssel abgeben: der Schlüssel, die Schlüssel"
+        },
+        {
+          "id": "b",
+          "text": "am Stadtrand"
+        },
+        {
+          "id": "c",
+          "text": "in der Nähe von + Dat. ganz in der Nähe"
+        },
+        {
+          "id": "d",
+          "text": "aufpassen auf + Akk. auf die Katze aufpassen"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**aufpassen auf + Akk. auf die Katze aufpassen** = to look after: to look after the cat\n\n*Example:* Mein Nachbar passt am Wochenende auf unsere Katze auf.\nMy neighbour is looking after our cat at the weekend."
+    },
+    {
+      "id": "tb1-u17-l10-town-neighbourhood-5-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which one means „to drop off the key: key“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "den Briefkasten leeren: der Briefkasten, die Briefkästen"
+        },
+        {
+          "id": "b",
+          "text": "am Stadtrand"
+        },
+        {
+          "id": "c",
+          "text": "in der Nähe von + Dat. ganz in der Nähe"
+        },
+        {
+          "id": "d",
+          "text": "den Schlüssel abgeben: der Schlüssel, die Schlüssel"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**den Schlüssel abgeben: der Schlüssel, die Schlüssel** = to drop off the key: key\n\n*Example:* Ich gebe den Schlüssel morgen beim Hausmeister ab.\nI'll drop off the key with the caretaker tomorrow."
+    },
+    {
+      "id": "tb1-u17-l10-town-neighbourhood-5-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "My neighbour is looking after our cat at the weekend.",
+      "tiles": [
+        "Fuß",
+        "Wochenende",
+        "am",
+        "Nachbarschaft",
+        "unsere",
+        "passt",
+        "auf",
+        "immer",
+        "Mein",
+        "Nachbar",
+        "Katze",
+        "auf"
+      ],
+      "answers": [
+        "Mein Nachbar passt am Wochenende auf unsere Katze auf."
+      ],
+      "explanation": "**aufpassen auf + Akk. auf die Katze aufpassen** = to look after: to look after the cat"
+    },
+    {
+      "id": "tb1-u17-l10-town-neighbourhood-5-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means „Could you please water the flowers and empty the letterbox while I'm on holiday? note während + Genitiv, Part B“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Könntest du während meines Urlaubs bitte die Blumen gießen und den Briefkasten leeren?"
+        },
+        {
+          "id": "b",
+          "text": "Ich wohne am Stadtrand, mit der U-Bahn bin ich aber in einer Viertelstunde in der Innenstadt."
+        },
+        {
+          "id": "c",
+          "text": "Ich brauche einen Termin beim Bürgeramt, weil ich meine neue Adresse anmelden muss."
+        },
+        {
+          "id": "d",
+          "text": "Füllen Sie bitte dieses Formular aus und bringen Sie Ihren Pass sowie alle Unterlagen mit."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Könntest du während meines Urlaubs bitte die Blumen gießen und den Briefkasten leeren?** = Could you please water the flowers and empty the letterbox while I'm on holiday? note während + Genitiv, Part B\n\n*Example:* Könntest du während meines Urlaubs bitte die Blumen gießen und den Briefkasten leeren?\nCould you please water the flowers and empty the letterbox while I'm on holiday? note während + Genitiv, Part B"
+    },
+    {
+      "id": "tb1-u17-l10-town-neighbourhood-5-ex06",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u17-l10-town-neighbourhood-5-2.mp3"
+      },
+      "tiles": [
+        "Café",
+        "Ich",
+        "beim",
+        "morgen",
+        "Hausmeister",
+        "oder",
+        "Schlüssel",
+        "den",
+        "Hilfe",
+        "gebe",
+        "ab"
+      ],
+      "answers": [
+        "Ich gebe den Schlüssel morgen beim Hausmeister ab."
+      ],
+      "explanation": "Ich gebe den Schlüssel morgen beim Hausmeister ab.\n*I'll drop off the key with the caretaker tomorrow.*\n\n**den Schlüssel abgeben: der Schlüssel, die Schlüssel** = to drop off the key: key"
+    },
+    {
+      "id": "tb1-u17-l10-town-neighbourhood-5-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means „I live on the outskirts, but by underground I'm in the city centre in a quarter of an hour.“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Könntest du während meines Urlaubs bitte die Blumen gießen und den Briefkasten leeren?"
+        },
+        {
+          "id": "b",
+          "text": "Füllen Sie bitte dieses Formular aus und bringen Sie Ihren Pass sowie alle Unterlagen mit."
+        },
+        {
+          "id": "c",
+          "text": "Ich wohne am Stadtrand, mit der U-Bahn bin ich aber in einer Viertelstunde in der Innenstadt."
+        },
+        {
+          "id": "d",
+          "text": "Ich brauche einen Termin beim Bürgeramt, weil ich meine neue Adresse anmelden muss."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**Ich wohne am Stadtrand, mit der U-Bahn bin ich aber in einer Viertelstunde in der Innenstadt.** = I live on the outskirts, but by underground I'm in the city centre in a quarter of an hour.\n\n*Example:* Ich wohne am Stadtrand, mit der U-Bahn bin ich aber in einer Viertelstunde in der Innenstadt.\nI live on the outskirts, but by underground I'm in the city centre in a quarter of an hour."
+    },
+    {
+      "id": "tb1-u17-l10-town-neighbourhood-5-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Könntest du während meines Urlaubs bitte die Blumen gießen und den Briefkasten leeren?",
+      "tiles": [
+        "Could",
+        "Genitiv",
+        "während",
+        "the",
+        "weekend",
+        "water",
+        "the",
+        "please",
+        "holiday",
+        "and",
+        "in",
+        "+",
+        "while",
+        "B",
+        "Part",
+        "I'm",
+        "Can",
+        "on",
+        "note",
+        "empty",
+        "you",
+        "letterbox",
+        "flowers"
+      ],
+      "answers": [
+        "Could you please water the flowers and empty the letterbox while I'm on holiday? note während + Genitiv, Part B"
+      ],
+      "explanation": "**Könntest du während meines Urlaubs bitte die Blumen gießen und den Briefkasten leeren?** = Could you please water the flowers and empty the letterbox while I'm on holiday? note während + Genitiv, Part B"
+    },
+    {
+      "id": "tb1-u17-l10-town-neighbourhood-5-ex09",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I live on the outskirts, but by underground I'm in the city centre in a quarter of an hour.",
+      "tiles": [
+        "in",
+        "wir",
+        "am",
+        "ich",
+        "wohne",
+        "Viertelstunde",
+        "einer",
+        "der",
+        "Innenstadt",
+        "bis",
+        "aber",
+        "in",
+        "Ich",
+        "bin",
+        "Stadtrand",
+        "U-Bahn",
+        "der",
+        "günstiger",
+        "mit"
+      ],
+      "answers": [
+        "Ich wohne am Stadtrand, mit der U-Bahn bin ich aber in einer Viertelstunde in der Innenstadt."
+      ],
+      "explanation": "**Ich wohne am Stadtrand, mit der U-Bahn bin ich aber in einer Viertelstunde in der Innenstadt.** = I live on the outskirts, but by underground I'm in the city centre in a quarter of an hour."
+    }
+  ]
+}

@@ -1,0 +1,276 @@
+{
+  "id": "tb1-u20-l06-verbs-with-prepositions-ii-2",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u20",
+  "title": "Verbs with Prepositions II 2",
+  "tip": "Theme: Verben mit Präposition II (B1)",
+  "exercises": [
+    {
+      "id": "tb1-u20-l06-verbs-with-prepositions-ii-2-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "gehören zu",
+          "known": "to belong to / be part of"
+        },
+        {
+          "id": "p2",
+          "learning": "passen zu",
+          "known": "to suit / go with"
+        },
+        {
+          "id": "p3",
+          "learning": "es geht um",
+          "known": "it is about"
+        },
+        {
+          "id": "p4",
+          "learning": "sich handeln um",
+          "known": "to be about (es handelt sich um …)"
+        },
+        {
+          "id": "p5",
+          "learning": "leiden unter",
+          "known": "to suffer from"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u20-l06-verbs-with-prepositions-ii-2-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which one means „to belong to / be part of“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "träumen von + Dat."
+        },
+        {
+          "id": "b",
+          "text": "verzichten auf + Akk."
+        },
+        {
+          "id": "c",
+          "text": "passen zu + Dat."
+        },
+        {
+          "id": "d",
+          "text": "gehören zu + Dat."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**gehören zu + Dat.** = to belong to / be part of\n\n*Example:* Der Garten gehört zu der Wohnung.\nThe garden belongs to the flat."
+    },
+    {
+      "id": "tb1-u20-l06-verbs-with-prepositions-ii-2-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which one means „to suit / go with“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "berichten über + Akk."
+        },
+        {
+          "id": "b",
+          "text": "verzichten auf + Akk."
+        },
+        {
+          "id": "c",
+          "text": "passen zu + Dat."
+        },
+        {
+          "id": "d",
+          "text": "träumen von + Dat."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**passen zu + Dat.** = to suit / go with\n\n*Example:* Die blaue Jacke passt gut zu deiner Hose.\nThe blue jacket goes well with your trousers."
+    },
+    {
+      "id": "tb1-u20-l06-verbs-with-prepositions-ii-2-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Der Garten gehört zu der Wohnung.",
+      "tiles": [
+        "belongs",
+        "of",
+        "flat",
+        "day",
+        "garden",
+        "to",
+        "the",
+        "in",
+        "The"
+      ],
+      "answers": [
+        "The garden belongs to the flat."
+      ],
+      "explanation": "**gehören zu + Dat.** = to belong to / be part of"
+    },
+    {
+      "id": "tb1-u20-l06-verbs-with-prepositions-ii-2-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which one means „it is about“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "leiden unter + Dat."
+        },
+        {
+          "id": "b",
+          "text": "gratulieren zu + Dat."
+        },
+        {
+          "id": "c",
+          "text": "es geht um + Akk."
+        },
+        {
+          "id": "d",
+          "text": "gehören zu + Dat."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**es geht um + Akk.** = it is about\n\n*Example:* In der Besprechung geht es um den neuen Dienstplan.\nThe meeting is about the new duty roster."
+    },
+    {
+      "id": "tb1-u20-l06-verbs-with-prepositions-ii-2-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "The blue jacket goes well with your trousers.",
+      "tiles": [
+        "Hose",
+        "zu",
+        "deiner",
+        "passt",
+        "Garten",
+        "um",
+        "Die",
+        "gut",
+        "blaue",
+        "Jacke",
+        "Wir"
+      ],
+      "answers": [
+        "Die blaue Jacke passt gut zu deiner Hose."
+      ],
+      "explanation": "**passen zu + Dat.** = to suit / go with"
+    },
+    {
+      "id": "tb1-u20-l06-verbs-with-prepositions-ii-2-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which verb means „to be about (es handelt sich um …)“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "sich engagieren für + Akk."
+        },
+        {
+          "id": "b",
+          "text": "sich entschuldigen bei + Dat. / für + Akk."
+        },
+        {
+          "id": "c",
+          "text": "sich verabschieden von + Dat."
+        },
+        {
+          "id": "d",
+          "text": "sich handeln um + Akk."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**sich handeln um + Akk.** = to be about (es handelt sich um …)\n\n*Example:* Bei dem Paket handelt es sich um eine falsche Lieferung.\nThe parcel is a wrong delivery."
+    },
+    {
+      "id": "tb1-u20-l06-verbs-with-prepositions-ii-2-ex08",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u20-l06-verbs-with-prepositions-ii-2-3.mp3"
+      },
+      "tiles": [
+        "der",
+        "den",
+        "geht",
+        "Dienstplan",
+        "Besprechung",
+        "In",
+        "berichtet",
+        "starken",
+        "Menschen",
+        "um",
+        "neuen",
+        "es"
+      ],
+      "answers": [
+        "In der Besprechung geht es um den neuen Dienstplan."
+      ],
+      "explanation": "In der Besprechung geht es um den neuen Dienstplan.\n*The meeting is about the new duty roster.*\n\n**es geht um + Akk.** = it is about"
+    },
+    {
+      "id": "tb1-u20-l06-verbs-with-prepositions-ii-2-ex09",
+      "type": "multiple_choice",
+      "prompt": "Which one means „to suffer from“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "berichten über + Akk."
+        },
+        {
+          "id": "b",
+          "text": "es geht um + Akk."
+        },
+        {
+          "id": "c",
+          "text": "gratulieren zu + Dat."
+        },
+        {
+          "id": "d",
+          "text": "leiden unter + Dat."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**leiden unter + Dat.** = to suffer from\n\n*Example:* Mein Vater leidet unter starken Rückenschmerzen.\nMy father suffers from severe back pain."
+    },
+    {
+      "id": "tb1-u20-l06-verbs-with-prepositions-ii-2-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Bei dem Paket handelt es sich um eine falsche Lieferung.",
+      "tiles": [
+        "duty",
+        "is",
+        "The",
+        "wrong",
+        "garden",
+        "a",
+        "parcel",
+        "delivery",
+        "I"
+      ],
+      "answers": [
+        "The parcel is a wrong delivery."
+      ],
+      "explanation": "**sich handeln um + Akk.** = to be about (es handelt sich um …)"
+    },
+    {
+      "id": "tb1-u20-l06-verbs-with-prepositions-ii-2-ex11",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "My father suffers from severe back pain.",
+      "tiles": [
+        "Vater",
+        "für",
+        "gut",
+        "Rückenschmerzen",
+        "ihrem",
+        "unter",
+        "Mein",
+        "starken",
+        "leidet"
+      ],
+      "answers": [
+        "Mein Vater leidet unter starken Rückenschmerzen."
+      ],
+      "explanation": "**leiden unter + Dat.** = to suffer from"
+    }
+  ]
+}

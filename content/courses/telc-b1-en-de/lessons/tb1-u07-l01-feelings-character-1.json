@@ -1,0 +1,284 @@
+{
+  "id": "tb1-u07-l01-feelings-character-1",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u07",
+  "title": "Feelings & Character 1",
+  "tip": "Theme: Gefühle & Charakter (A2)",
+  "exercises": [
+    {
+      "id": "tb1-u07-l01-feelings-character-1-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "das Gefühl",
+          "known": "feeling"
+        },
+        {
+          "id": "p2",
+          "learning": "glücklich",
+          "known": "happy"
+        },
+        {
+          "id": "p3",
+          "learning": "traurig",
+          "known": "sad"
+        },
+        {
+          "id": "p4",
+          "learning": "froh",
+          "known": "glad"
+        },
+        {
+          "id": "p5",
+          "learning": "zufrieden",
+          "known": "satisfied / content"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u07-l01-feelings-character-1-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „feeling“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "ehrlich"
+        },
+        {
+          "id": "b",
+          "text": "zufrieden"
+        },
+        {
+          "id": "c",
+          "text": "das Gefühl, die Gefühle"
+        },
+        {
+          "id": "d",
+          "text": "faul"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**das Gefühl** = feeling\n*Plural: die Gefühle*\n\n*Example:* Ich habe ein gutes Gefühl bei dem Vorstellungsgespräch.\nI have a good feeling about the job interview."
+    },
+    {
+      "id": "tb1-u07-l01-feelings-character-1-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which one means „happy“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "nervös"
+        },
+        {
+          "id": "b",
+          "text": "glücklich"
+        },
+        {
+          "id": "c",
+          "text": "neugierig"
+        },
+        {
+          "id": "d",
+          "text": "faul"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**glücklich** = happy\n\n*Example:* Anna ist glücklich, weil sie eine neue Wohnung gefunden hat.\nAnna is happy because she has found a new flat."
+    },
+    {
+      "id": "tb1-u07-l01-feelings-character-1-ex04",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u07-l01-feelings-character-1-1.mp3"
+      },
+      "tiles": [
+        "ein",
+        "habe",
+        "dem",
+        "Ich",
+        "gutes",
+        "Maria",
+        "dass",
+        "Gefühl",
+        "Geburtstag",
+        "bei",
+        "Vorstellungsgespräch"
+      ],
+      "answers": [
+        "Ich habe ein gutes Gefühl bei dem Vorstellungsgespräch."
+      ],
+      "explanation": "Ich habe ein gutes Gefühl bei dem Vorstellungsgespräch.\n*I have a good feeling about the job interview.*\n\n**das Gefühl** = feeling\n*Plural: die Gefühle*"
+    },
+    {
+      "id": "tb1-u07-l01-feelings-character-1-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which one means „sad“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "traurig"
+        },
+        {
+          "id": "b",
+          "text": "fleißig"
+        },
+        {
+          "id": "c",
+          "text": "nett"
+        },
+        {
+          "id": "d",
+          "text": "froh"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**traurig** = sad\n\n*Example:* Mein Sohn ist traurig, weil sein Freund umzieht.\nMy son is sad because his friend is moving away."
+    },
+    {
+      "id": "tb1-u07-l01-feelings-character-1-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Anna ist glücklich, weil sie eine neue Wohnung gefunden hat.",
+      "tiles": [
+        "you",
+        "because",
+        "first",
+        "Anna",
+        "is",
+        "she",
+        "new",
+        "was",
+        "flat",
+        "happy",
+        "a",
+        "found",
+        "has"
+      ],
+      "answers": [
+        "Anna is happy because she has found a new flat."
+      ],
+      "explanation": "**glücklich** = happy"
+    },
+    {
+      "id": "tb1-u07-l01-feelings-character-1-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which one means „glad“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "froh"
+        },
+        {
+          "id": "b",
+          "text": "nett"
+        },
+        {
+          "id": "c",
+          "text": "faul"
+        },
+        {
+          "id": "d",
+          "text": "ehrlich"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**froh** = glad\n\n*Example:* Ich bin froh, dass du heute gekommen bist.\nI'm glad you came today."
+    },
+    {
+      "id": "tb1-u07-l01-feelings-character-1-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "My son is sad because his friend is moving away.",
+      "tiles": [
+        "Sohn",
+        "in",
+        "weil",
+        "neues",
+        "noch",
+        "Mein",
+        "Freund",
+        "traurig",
+        "umzieht",
+        "ist",
+        "sein"
+      ],
+      "answers": [
+        "Mein Sohn ist traurig, weil sein Freund umzieht."
+      ],
+      "explanation": "**traurig** = sad"
+    },
+    {
+      "id": "tb1-u07-l01-feelings-character-1-ex09",
+      "type": "multiple_choice",
+      "prompt": "Which one means „satisfied / content“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "aufgeregt"
+        },
+        {
+          "id": "b",
+          "text": "freundlich"
+        },
+        {
+          "id": "c",
+          "text": "schüchtern"
+        },
+        {
+          "id": "d",
+          "text": "zufrieden"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**zufrieden** = satisfied / content\n\n*Example:* Der Kunde ist mit der Reparatur sehr zufrieden.\nThe customer is very satisfied with the repair."
+    },
+    {
+      "id": "tb1-u07-l01-feelings-character-1-ex10",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u07-l01-feelings-character-1-4.mp3"
+      },
+      "tiles": [
+        "Ich",
+        "dass",
+        "du",
+        "Unsere",
+        "fleißig",
+        "bist",
+        "froh",
+        "heute",
+        "mit",
+        "bin",
+        "gekommen"
+      ],
+      "answers": [
+        "Ich bin froh, dass du heute gekommen bist."
+      ],
+      "explanation": "Ich bin froh, dass du heute gekommen bist.\n*I'm glad you came today.*\n\n**froh** = glad"
+    },
+    {
+      "id": "tb1-u07-l01-feelings-character-1-ex11",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Der Kunde ist mit der Reparatur sehr zufrieden.",
+      "tiles": [
+        "with",
+        "The",
+        "the",
+        "very",
+        "stay",
+        "repair",
+        "is",
+        "satisfied",
+        "she",
+        "interview",
+        "customer"
+      ],
+      "answers": [
+        "The customer is very satisfied with the repair."
+      ],
+      "explanation": "**zufrieden** = satisfied / content"
+    }
+  ]
+}

@@ -1,0 +1,286 @@
+{
+  "id": "tb1-u07-l02-feelings-character-2",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u07",
+  "title": "Feelings & Character 2",
+  "tip": "Theme: Gefühle & Charakter (A2)",
+  "exercises": [
+    {
+      "id": "tb1-u07-l02-feelings-character-2-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "wütend",
+          "known": "angry"
+        },
+        {
+          "id": "p2",
+          "learning": "nervös",
+          "known": "nervous"
+        },
+        {
+          "id": "p3",
+          "learning": "aufgeregt",
+          "known": "excited"
+        },
+        {
+          "id": "p4",
+          "learning": "ruhig",
+          "known": "calm"
+        },
+        {
+          "id": "p5",
+          "learning": "freundlich",
+          "known": "friendly"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u07-l02-feelings-character-2-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which one means „angry“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "aufgeregt"
+        },
+        {
+          "id": "b",
+          "text": "geduldig"
+        },
+        {
+          "id": "c",
+          "text": "wütend"
+        },
+        {
+          "id": "d",
+          "text": "freundlich"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**wütend** = angry\n\n*Example:* Mein Vater war wütend, weil der Zug ausgefallen ist.\nMy father was angry because the train was cancelled."
+    },
+    {
+      "id": "tb1-u07-l02-feelings-character-2-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which one means „nervous“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "glücklich"
+        },
+        {
+          "id": "b",
+          "text": "faul"
+        },
+        {
+          "id": "c",
+          "text": "nervös"
+        },
+        {
+          "id": "d",
+          "text": "traurig"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**nervös** = nervous\n\n*Example:* Vor dem Arzttermin ist Ali immer ein bisschen nervös.\nAli is always a bit nervous before a doctor's appointment."
+    },
+    {
+      "id": "tb1-u07-l02-feelings-character-2-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "My father was angry because the train was cancelled.",
+      "tiles": [
+        "der",
+        "habe",
+        "sind",
+        "wütend",
+        "Vater",
+        "Am",
+        "Mein",
+        "ausgefallen",
+        "Zug",
+        "war",
+        "weil",
+        "ist"
+      ],
+      "answers": [
+        "Mein Vater war wütend, weil der Zug ausgefallen ist."
+      ],
+      "explanation": "**wütend** = angry"
+    },
+    {
+      "id": "tb1-u07-l02-feelings-character-2-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which one means „excited“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "aufgeregt"
+        },
+        {
+          "id": "b",
+          "text": "geduldig"
+        },
+        {
+          "id": "c",
+          "text": "ehrlich"
+        },
+        {
+          "id": "d",
+          "text": "glücklich"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**aufgeregt** = excited\n\n*Example:* Die Kinder sind aufgeregt, weil morgen Geburtstag ist.\nThe children are excited because it's a birthday tomorrow."
+    },
+    {
+      "id": "tb1-u07-l02-feelings-character-2-ex06",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u07-l02-feelings-character-2-2.mp3"
+      },
+      "tiles": [
+        "immer",
+        "Vor",
+        "schüchtern",
+        "nervös",
+        "dem",
+        "Ali",
+        "ist",
+        "bisschen",
+        "Arzttermin",
+        "lange",
+        "ein",
+        "Kunde"
+      ],
+      "answers": [
+        "Vor dem Arzttermin ist Ali immer ein bisschen nervös."
+      ],
+      "explanation": "Vor dem Arzttermin ist Ali immer ein bisschen nervös.\n*Ali is always a bit nervous before a doctor's appointment.*\n\n**nervös** = nervous"
+    },
+    {
+      "id": "tb1-u07-l02-feelings-character-2-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which one means „calm“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "ruhig"
+        },
+        {
+          "id": "b",
+          "text": "fleißig"
+        },
+        {
+          "id": "c",
+          "text": "froh"
+        },
+        {
+          "id": "d",
+          "text": "aufgeregt"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**ruhig** = calm\n\n*Example:* Am Sonntag ist es in unserer Straße sehr ruhig.\nOn Sunday it's very quiet in our street."
+    },
+    {
+      "id": "tb1-u07-l02-feelings-character-2-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Die Kinder sind aufgeregt, weil morgen Geburtstag ist.",
+      "tiles": [
+        "excited",
+        "it's",
+        "The",
+        "because",
+        "are",
+        "my",
+        "birthday",
+        "first",
+        "a",
+        "good",
+        "children",
+        "tomorrow"
+      ],
+      "answers": [
+        "The children are excited because it's a birthday tomorrow."
+      ],
+      "explanation": "**aufgeregt** = excited"
+    },
+    {
+      "id": "tb1-u07-l02-feelings-character-2-ex09",
+      "type": "multiple_choice",
+      "prompt": "Which one means „friendly“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "freundlich"
+        },
+        {
+          "id": "b",
+          "text": "schüchtern"
+        },
+        {
+          "id": "c",
+          "text": "geduldig"
+        },
+        {
+          "id": "d",
+          "text": "stolz"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**freundlich** = friendly\n\n*Example:* Unsere neue Nachbarin ist sehr freundlich und hilfsbereit.\nOur new neighbour is very friendly and helpful."
+    },
+    {
+      "id": "tb1-u07-l02-feelings-character-2-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "On Sunday it's very quiet in our street.",
+      "tiles": [
+        "Am",
+        "sehr",
+        "ruhig",
+        "in",
+        "bei",
+        "ich",
+        "es",
+        "Sonntag",
+        "Straße",
+        "unserer",
+        "ist",
+        "Arzttermin"
+      ],
+      "answers": [
+        "Am Sonntag ist es in unserer Straße sehr ruhig."
+      ],
+      "explanation": "**ruhig** = calm"
+    },
+    {
+      "id": "tb1-u07-l02-feelings-character-2-ex11",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u07-l02-feelings-character-2-5.mp3"
+      },
+      "tiles": [
+        "Bei",
+        "bist",
+        "Nachbarin",
+        "freundlich",
+        "sehr",
+        "gekommen",
+        "neue",
+        "Unsere",
+        "hilfsbereit",
+        "ist",
+        "und"
+      ],
+      "answers": [
+        "Unsere neue Nachbarin ist sehr freundlich und hilfsbereit."
+      ],
+      "explanation": "Unsere neue Nachbarin ist sehr freundlich und hilfsbereit.\n*Our new neighbour is very friendly and helpful.*\n\n**freundlich** = friendly"
+    }
+  ]
+}

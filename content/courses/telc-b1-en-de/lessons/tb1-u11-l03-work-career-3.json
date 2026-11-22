@@ -1,0 +1,236 @@
+{
+  "id": "tb1-u11-l03-work-career-3",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u11",
+  "title": "Work & Career 3",
+  "tip": "Theme: Arbeit / Beruf (B1)",
+  "exercises": [
+    {
+      "id": "tb1-u11-l03-work-career-3-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "der Chef",
+          "known": "boss"
+        },
+        {
+          "id": "p2",
+          "learning": "der Kollege",
+          "known": "colleague"
+        },
+        {
+          "id": "p3",
+          "learning": "die Firma",
+          "known": "company"
+        },
+        {
+          "id": "p4",
+          "learning": "das Büro",
+          "known": "office"
+        },
+        {
+          "id": "p5",
+          "learning": "die Stelle",
+          "known": "job"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u11-l03-work-career-3-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „boss“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Bewerbung, die Bewerbungen"
+        },
+        {
+          "id": "b",
+          "text": "die Stelle, die Stellen · der Arbeitsplatz, die Arbeitsplätze"
+        },
+        {
+          "id": "c",
+          "text": "die Stellenanzeige, die Stellenanzeigen"
+        },
+        {
+          "id": "d",
+          "text": "der Chef, die Chefs / die Chefin, die Chefinnen"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**der Chef, die Chefs / die Chefin, die Chefinnen** = boss\n\n*Example:* Unser Chef ist heute leider krank.\nUnfortunately our boss is ill today."
+    },
+    {
+      "id": "tb1-u11-l03-work-career-3-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „colleague“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "der Kollege, die Kollegen (n-Dekl.) / die Kollegin, die Kolleginnen"
+        },
+        {
+          "id": "b",
+          "text": "das Büro, die Büros"
+        },
+        {
+          "id": "c",
+          "text": "das Vorstellungsgespräch, die Vorstellungsgespräche"
+        },
+        {
+          "id": "d",
+          "text": "die Überstunde, die Überstunden: Überstunden machen"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**der Kollege, die Kollegen (n-Dekl.) / die Kollegin, die Kolleginnen** = colleague\n\n*Example:* Ich gehe jeden Mittag mit meinem Kollegen in die Kantine.\nI go to the canteen with my colleague every lunchtime."
+    },
+    {
+      "id": "tb1-u11-l03-work-career-3-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Unfortunately our boss is ill today.",
+      "tiles": [
+        "Unser",
+        "ist",
+        "ich",
+        "Kollegin",
+        "leider",
+        "heute",
+        "krank",
+        "Chef",
+        "E-Mail"
+      ],
+      "answers": [
+        "Unser Chef ist heute leider krank."
+      ],
+      "explanation": "**der Chef, die Chefs / die Chefin, die Chefinnen** = boss"
+    },
+    {
+      "id": "tb1-u11-l03-work-career-3-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „company“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Firma, die Firmen"
+        },
+        {
+          "id": "b",
+          "text": "der Feierabend: Feierabend machen"
+        },
+        {
+          "id": "c",
+          "text": "die Stellenanzeige, die Stellenanzeigen"
+        },
+        {
+          "id": "d",
+          "text": "die Bewerbung, die Bewerbungen"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**die Firma** = company\n*Plural: die Firmen*\n\n*Example:* Sara arbeitet seit fünf Jahren bei einer kleinen Firma.\nSara has worked for a small company for five years."
+    },
+    {
+      "id": "tb1-u11-l03-work-career-3-ex06",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u11-l03-work-career-3-2.mp3"
+      },
+      "tiles": [
+        "Kollegen",
+        "Morgen",
+        "Mittag",
+        "Kollegin",
+        "Ich",
+        "mit",
+        "meinem",
+        "Arbeitgeber",
+        "in",
+        "jeden",
+        "gehe",
+        "die",
+        "Kantine"
+      ],
+      "answers": [
+        "Ich gehe jeden Mittag mit meinem Kollegen in die Kantine."
+      ],
+      "explanation": "Ich gehe jeden Mittag mit meinem Kollegen in die Kantine.\n*I go to the canteen with my colleague every lunchtime.*\n\n**der Kollege, die Kollegen (n-Dekl.) / die Kollegin, die Kolleginnen** = colleague"
+    },
+    {
+      "id": "tb1-u11-l03-work-career-3-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „office“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "das Büro, die Büros"
+        },
+        {
+          "id": "b",
+          "text": "der Kollege, die Kollegen (n-Dekl.) / die Kollegin, die Kolleginnen"
+        },
+        {
+          "id": "c",
+          "text": "das Praktikum, die Praktika"
+        },
+        {
+          "id": "d",
+          "text": "die Überstunde, die Überstunden: Überstunden machen"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**das Büro** = office\n*Plural: die Büros*\n\n*Example:* Das Büro von Herrn Weber ist im zweiten Stock.\nMr Weber's office is on the second floor."
+    },
+    {
+      "id": "tb1-u11-l03-work-career-3-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Sara arbeitet seit fünf Jahren bei einer kleinen Firma.",
+      "tiles": [
+        "five",
+        "Sara",
+        "small",
+        "worked",
+        "company",
+        "has",
+        "years",
+        "I",
+        "for",
+        "months",
+        "for",
+        "is",
+        "a"
+      ],
+      "answers": [
+        "Sara has worked for a small company for five years."
+      ],
+      "explanation": "**die Firma** = company\n*Plural: die Firmen*"
+    },
+    {
+      "id": "tb1-u11-l03-work-career-3-ex09",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Mr Weber's office is on the second floor.",
+      "tiles": [
+        "zweiten",
+        "von",
+        "Stock",
+        "Weber",
+        "Büro",
+        "Herrn",
+        "gekündigt",
+        "Uhr",
+        "im",
+        "Das",
+        "ist",
+        "dem"
+      ],
+      "answers": [
+        "Das Büro von Herrn Weber ist im zweiten Stock."
+      ],
+      "explanation": "**das Büro** = office\n*Plural: die Büros*"
+    }
+  ]
+}

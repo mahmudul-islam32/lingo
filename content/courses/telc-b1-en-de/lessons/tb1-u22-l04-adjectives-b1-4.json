@@ -1,0 +1,285 @@
+{
+  "id": "tb1-u22-l04-adjectives-b1-4",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u22",
+  "title": "Adjectives (B1) 4",
+  "tip": "Theme: Adjektive (B1) (B1)",
+  "exercises": [
+    {
+      "id": "tb1-u22-l04-adjectives-b1-4-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "nützlich",
+          "known": "useful"
+        },
+        {
+          "id": "p2",
+          "learning": "schädlich",
+          "known": "harmful"
+        },
+        {
+          "id": "p3",
+          "learning": "umweltfreundlich",
+          "known": "environmentally friendly"
+        },
+        {
+          "id": "p4",
+          "learning": "anstrengend",
+          "known": "exhausting"
+        },
+        {
+          "id": "p5",
+          "learning": "verständlich",
+          "known": "understandable"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u22-l04-adjectives-b1-4-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which one means „useful“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "wahrscheinlich"
+        },
+        {
+          "id": "b",
+          "text": "erfolgreich"
+        },
+        {
+          "id": "c",
+          "text": "nützlich"
+        },
+        {
+          "id": "d",
+          "text": "kompliziert"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**nützlich** = useful\n\n*Example:* Eine Wörterbuch-App ist im Alltag sehr nützlich.\nA dictionary app is very useful in everyday life."
+    },
+    {
+      "id": "tb1-u22-l04-adjectives-b1-4-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which one means „harmful“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "üblich"
+        },
+        {
+          "id": "b",
+          "text": "umweltfreundlich"
+        },
+        {
+          "id": "c",
+          "text": "schädlich"
+        },
+        {
+          "id": "d",
+          "text": "notwendig"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**schädlich** = harmful\n\n*Example:* Rauchen ist schädlich für die Gesundheit.\nSmoking is harmful to your health."
+    },
+    {
+      "id": "tb1-u22-l04-adjectives-b1-4-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Eine Wörterbuch-App ist im Alltag sehr nützlich.",
+      "tiles": [
+        "for",
+        "dictionary",
+        "very",
+        "restaurant",
+        "app",
+        "is",
+        "useful",
+        "A",
+        "everyday",
+        "in",
+        "life",
+        "My"
+      ],
+      "answers": [
+        "A dictionary app is very useful in everyday life."
+      ],
+      "explanation": "**nützlich** = useful"
+    },
+    {
+      "id": "tb1-u22-l04-adjectives-b1-4-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which one means „environmentally friendly“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "ausführlich"
+        },
+        {
+          "id": "b",
+          "text": "anstrengend"
+        },
+        {
+          "id": "c",
+          "text": "notwendig"
+        },
+        {
+          "id": "d",
+          "text": "umweltfreundlich"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**umweltfreundlich** = environmentally friendly\n\n*Example:* Mit dem Fahrrad zu fahren ist umweltfreundlich und gesund.\nCycling is environmentally friendly and healthy."
+    },
+    {
+      "id": "tb1-u22-l04-adjectives-b1-4-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Smoking is harmful to your health.",
+      "tiles": [
+        "ist",
+        "schädlich",
+        "Gesundheit",
+        "wahrscheinlich",
+        "von",
+        "dem",
+        "Rauchen",
+        "für",
+        "die"
+      ],
+      "answers": [
+        "Rauchen ist schädlich für die Gesundheit."
+      ],
+      "explanation": "**schädlich** = harmful"
+    },
+    {
+      "id": "tb1-u22-l04-adjectives-b1-4-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which one means „exhausting“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "erfolgreich"
+        },
+        {
+          "id": "b",
+          "text": "anstrengend"
+        },
+        {
+          "id": "c",
+          "text": "ausführlich"
+        },
+        {
+          "id": "d",
+          "text": "verständlich"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**anstrengend** = exhausting\n\n*Example:* Die Arbeit im Lager ist körperlich sehr anstrengend.\nThe work in the warehouse is physically very exhausting."
+    },
+    {
+      "id": "tb1-u22-l04-adjectives-b1-4-ex08",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u22-l04-adjectives-b1-4-3.mp3"
+      },
+      "tiles": [
+        "neuen",
+        "zu",
+        "fahren",
+        "und",
+        "Mit",
+        "dem",
+        "Fahrrad",
+        "pünktlich",
+        "umweltfreundlich",
+        "ist",
+        "gesund",
+        "im"
+      ],
+      "answers": [
+        "Mit dem Fahrrad zu fahren ist umweltfreundlich und gesund."
+      ],
+      "explanation": "Mit dem Fahrrad zu fahren ist umweltfreundlich und gesund.\n*Cycling is environmentally friendly and healthy.*\n\n**umweltfreundlich** = environmentally friendly"
+    },
+    {
+      "id": "tb1-u22-l04-adjectives-b1-4-ex09",
+      "type": "multiple_choice",
+      "prompt": "Which one means „understandable“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "angenehm ↔ unangenehm"
+        },
+        {
+          "id": "b",
+          "text": "deutlich"
+        },
+        {
+          "id": "c",
+          "text": "verständlich"
+        },
+        {
+          "id": "d",
+          "text": "umweltfreundlich"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**verständlich** = understandable\n\n*Example:* Es ist verständlich, dass du nach dem langen Tag müde bist.\nIt's understandable that you're tired after such a long day."
+    },
+    {
+      "id": "tb1-u22-l04-adjectives-b1-4-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Die Arbeit im Lager ist körperlich sehr anstrengend.",
+      "tiles": [
+        "warehouse",
+        "very",
+        "is",
+        "be",
+        "in",
+        "on",
+        "exhausting",
+        "The",
+        "work",
+        "the",
+        "mosquitoes",
+        "physically"
+      ],
+      "answers": [
+        "The work in the warehouse is physically very exhausting."
+      ],
+      "explanation": "**anstrengend** = exhausting"
+    },
+    {
+      "id": "tb1-u22-l04-adjectives-b1-4-ex11",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "It's understandable that you're tired after such a long day.",
+      "tiles": [
+        "sehr",
+        "müde",
+        "du",
+        "ist",
+        "dass",
+        "nach",
+        "Anmeldung",
+        "dem",
+        "Es",
+        "langen",
+        "bist",
+        "von",
+        "verständlich",
+        "Tag"
+      ],
+      "answers": [
+        "Es ist verständlich, dass du nach dem langen Tag müde bist."
+      ],
+      "explanation": "**verständlich** = understandable"
+    }
+  ]
+}

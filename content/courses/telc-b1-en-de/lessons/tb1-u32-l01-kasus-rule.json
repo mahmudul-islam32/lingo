@@ -1,0 +1,151 @@
+{
+  "id": "tb1-u32-l01-kasus-rule",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u32",
+  "title": "Cases: Nominative, Accusative, Dative: the rule",
+  "tip": "“Ich helfe dich” / “Ich danke Sie”, helfen & danken take dative: dir / Ihnen.",
+  "exercises": [
+    {
+      "id": "tb1-u32-l01-kasus-rule-ex01",
+      "type": "explain",
+      "title": "Cases: Nominative, Accusative, Dative",
+      "body": "Nominative = subject. Accusative = direct object (only masculine changes: der→den, ein→einen). Dative = receiver (dem/der/dem, plural +n). Dative verbs: **helfen, danken, gefallen, gehören, antworten, gratulieren, passen, schmecken**.\n\n*Deutsch:* Nominativ = Subjekt. Akkusativ = direktes Objekt (nur maskulin ändert sich: der→den, ein→einen). Dativ = Empfänger (dem/der/dem, Plural +n). Dativ-Verben: **helfen, danken, gefallen, gehören, antworten, gratulieren, passen, schmecken**.\n\n*German name:* Kasus: Nominativ, Akkusativ, Dativ",
+      "examples": [
+        {
+          "learning": "Ich sehe den Mann.",
+          "known": "I see the man. (accusative)"
+        },
+        {
+          "learning": "Ich helfe dir gern.",
+          "known": "I'll gladly help you. (helfen + dative!)"
+        },
+        {
+          "learning": "Das Geschenk gefällt meiner Schwester.",
+          "known": "My sister likes the present. (gefallen + dative)"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u32-l01-kasus-rule-ex02",
+      "type": "explain",
+      "title": "Cases: Nominative, Accusative, Dative: step by step",
+      "body": "How to decide in 2 seconds:\n1) **Who does it?** → nominative.\n2) **Whom/what?** (directly affected) → accusative. Visible only in masculine: den/einen/meinen.\n3) **To whom?** (receiver, usually a person) → dative: dem Mann, der Frau, dem Kind, den Kindern (+n!).\nLearn the pronoun rows: mich-dich-ihn-sie-es-uns-euch-sie · mir-dir-ihm-ihr-ihm-uns-euch-ihnen.\nThe dative-verb list (no accusative!): helfen, danken, gefallen, gehören, antworten, gratulieren, passen, schmecken, folgen, glauben (person).\nTwo objects: dative (person) before accusative (thing): Ich schenke **meiner Mutter** **Blumen**.\n\n## Auf Deutsch\n\nSo entscheidest du in 2 Sekunden:\n1) **Wer macht es?** → Nominativ.\n2) **Wen/was?** (direkt betroffen) → Akkusativ. Nur maskulin sichtbar: den/einen/meinen.\n3) **Wem?** (Empfänger, oft Person) → Dativ: dem Mann, der Frau, dem Kind, den Kindern (+n!).\nPronomen-Reihen auswendig: mich-dich-ihn-sie-es-uns-euch-sie · mir-dir-ihm-ihr-ihm-uns-euch-ihnen.\nDie Dativ-Verben-Liste (kein Akkusativ!): helfen, danken, gefallen, gehören, antworten, gratulieren, passen, schmecken, folgen, glauben (Person).\nZwei Objekte: erst Dativ (Person), dann Akkusativ (Sache): Ich schenke **meiner Mutter** **Blumen**.",
+      "examples": [
+        {
+          "learning": "Ich sehe den Mann.",
+          "known": "I see the man. (accusative)"
+        },
+        {
+          "learning": "Ich helfe dir gern.",
+          "known": "I'll gladly help you. (helfen + dative!)"
+        },
+        {
+          "learning": "Das Geschenk gefällt meiner Schwester.",
+          "known": "My sister likes the present. (gefallen + dative)"
+        },
+        {
+          "learning": "Ich danke Ihnen für Ihre Antwort.",
+          "known": "Thank you for your reply. (formal letter line)"
+        },
+        {
+          "learning": "Testlücke-Stil: „Gehört die Jacke ___ Bruder?“ → deinem",
+          "known": "gehören + dative masculine → deinem"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u32-l01-kasus-rule-ex03",
+      "type": "explain",
+      "title": "Watch out & exam tip",
+      "body": "## Common trap\n\n“Ich helfe dich” / “Ich danke Sie”, helfen & danken take dative: dir / Ihnen.\n\n*Deutsch:* „Ich helfe dich“ / „Ich danke Sie“, helfen & danken brauchen Dativ: dir / Ihnen.\n\n## In the exam\n\n🎯 How telc tests it: “Ich danke Ihnen”, “Das gefällt mir” are letter basics. **Sprachbausteine**: article gaps (den/dem/der), ask WEN or WEM. Nearly every second gap depends on case.\n\n*Deutsch:* 🎯 So testet telc das: „Ich danke Ihnen“, „Das gefällt mir“ sind Brief-Grundausstattung. **Sprachbausteine**: Artikel-Lücken (den/dem/der), frag WEN oder WEM. Fast jede zweite Lücke hängt am Kasus.\n\n*Source:* Guide B1"
+    },
+    {
+      "id": "tb1-u32-l01-kasus-rule-ex04",
+      "type": "choice",
+      "title": "Fill the gap",
+      "prompt": "Ich sehe ___ Mann dort an der Haltestelle.",
+      "options": [
+        {
+          "id": "a",
+          "text": "den"
+        },
+        {
+          "id": "b",
+          "text": "der"
+        },
+        {
+          "id": "c",
+          "text": "dem"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "sehen + Akkusativ; maskulin: der → den."
+    },
+    {
+      "id": "tb1-u32-l01-kasus-rule-ex05",
+      "type": "choice",
+      "title": "Fill the gap",
+      "prompt": "Kannst du ___ bitte helfen?",
+      "options": [
+        {
+          "id": "a",
+          "text": "ich"
+        },
+        {
+          "id": "b",
+          "text": "mir"
+        },
+        {
+          "id": "c",
+          "text": "mich"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "helfen + Dativ: mir."
+    },
+    {
+      "id": "tb1-u32-l01-kasus-rule-ex06",
+      "type": "choice",
+      "title": "Fill the gap",
+      "prompt": "Das Essen schmeckt ___ sehr gut.",
+      "options": [
+        {
+          "id": "a",
+          "text": "meiner"
+        },
+        {
+          "id": "b",
+          "text": "mich"
+        },
+        {
+          "id": "c",
+          "text": "mir"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "schmecken + Dativ: Das Essen schmeckt mir."
+    },
+    {
+      "id": "tb1-u32-l01-kasus-rule-ex07",
+      "type": "choice",
+      "title": "Fill the gap",
+      "prompt": "Ich danke ___ für die Einladung.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Sie"
+        },
+        {
+          "id": "b",
+          "text": "Ihnen"
+        },
+        {
+          "id": "c",
+          "text": "Ihr"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "danken + Dativ: Ich danke Ihnen."
+    }
+  ]
+}

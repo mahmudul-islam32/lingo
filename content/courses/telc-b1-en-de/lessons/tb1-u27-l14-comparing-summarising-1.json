@@ -1,0 +1,288 @@
+{
+  "id": "tb1-u27-l14-comparing-summarising-1",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u27",
+  "title": "Comparing & Summarising 1",
+  "tip": "Theme: Redemittel: Vergleichen & Zusammenfassen (B1)",
+  "exercises": [
+    {
+      "id": "tb1-u27-l14-comparing-summarising-1-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "Im Vergleich zu …",
+          "known": "Compared to …"
+        },
+        {
+          "id": "p2",
+          "learning": "Im Gegensatz zu …",
+          "known": "In contrast to …"
+        },
+        {
+          "id": "p3",
+          "learning": "genauso … wie …",
+          "known": "just as … as …"
+        },
+        {
+          "id": "p4",
+          "learning": "ähnlich wie …",
+          "known": "similar to …"
+        },
+        {
+          "id": "p5",
+          "learning": "Der Unterschied besteht darin, dass …",
+          "known": "The difference is that …"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u27-l14-comparing-summarising-1-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which phrase means „Compared to …“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Im Gegensatz zu …"
+        },
+        {
+          "id": "b",
+          "text": "genauso … wie …"
+        },
+        {
+          "id": "c",
+          "text": "Im Vergleich zu …"
+        },
+        {
+          "id": "d",
+          "text": "Alles in allem …"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**Im Vergleich zu …** = Compared to …\n\n*Example:* Im Vergleich zu Berlin ist unsere Stadt sehr klein.\nCompared to Berlin, our town is very small."
+    },
+    {
+      "id": "tb1-u27-l14-comparing-summarising-1-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which phrase means „In contrast to …“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "genauso … wie …"
+        },
+        {
+          "id": "b",
+          "text": "Alles in allem …"
+        },
+        {
+          "id": "c",
+          "text": "Kurz gesagt …"
+        },
+        {
+          "id": "d",
+          "text": "Im Gegensatz zu …"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**Im Gegensatz zu …** = In contrast to …\n\n*Example:* Im Gegensatz zu meinem Bruder stehe ich gern früh auf.\nIn contrast to my brother, I like getting up early."
+    },
+    {
+      "id": "tb1-u27-l14-comparing-summarising-1-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Compared to Berlin, our town is very small.",
+      "tiles": [
+        "in",
+        "sehr",
+        "Vergleich",
+        "Berlin",
+        "uns",
+        "ist",
+        "unsere",
+        "zu",
+        "Im",
+        "klein",
+        "Stadt",
+        "mit"
+      ],
+      "answers": [
+        "Im Vergleich zu Berlin ist unsere Stadt sehr klein."
+      ],
+      "explanation": "**Im Vergleich zu …** = Compared to …"
+    },
+    {
+      "id": "tb1-u27-l14-comparing-summarising-1-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which phrase means „just as … as …“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Der Unterschied besteht darin, dass …"
+        },
+        {
+          "id": "b",
+          "text": "Im Vergleich zu …"
+        },
+        {
+          "id": "c",
+          "text": "Alles in allem …"
+        },
+        {
+          "id": "d",
+          "text": "genauso … wie …"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**genauso … wie …** = just as … as …\n\n*Example:* Meine Tochter ist schon genauso groß wie ich.\nMy daughter is already just as tall as me."
+    },
+    {
+      "id": "tb1-u27-l14-comparing-summarising-1-ex06",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u27-l14-comparing-summarising-1-2.mp3"
+      },
+      "tiles": [
+        "ich",
+        "Österreich",
+        "für",
+        "zu",
+        "fährt",
+        "früh",
+        "Bruder",
+        "meinem",
+        "gern",
+        "auf",
+        "Im",
+        "stehe",
+        "Gegensatz"
+      ],
+      "answers": [
+        "Im Gegensatz zu meinem Bruder stehe ich gern früh auf."
+      ],
+      "explanation": "Im Gegensatz zu meinem Bruder stehe ich gern früh auf.\n*In contrast to my brother, I like getting up early.*\n\n**Im Gegensatz zu …** = In contrast to …"
+    },
+    {
+      "id": "tb1-u27-l14-comparing-summarising-1-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which phrase means „similar to …“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "ähnlich wie …"
+        },
+        {
+          "id": "b",
+          "text": "Abschließend möchte ich sagen, dass …"
+        },
+        {
+          "id": "c",
+          "text": "Der Unterschied besteht darin, dass …"
+        },
+        {
+          "id": "d",
+          "text": "Im Großen und Ganzen …"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**ähnlich wie …** = similar to …\n\n*Example:* Das Wetter hier ist ähnlich wie in meiner Heimat.\nThe weather here is similar to that in my home country."
+    },
+    {
+      "id": "tb1-u27-l14-comparing-summarising-1-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Meine Tochter ist schon genauso groß wie ich.",
+      "tiles": [
+        "just",
+        "already",
+        "My",
+        "new",
+        "as",
+        "as",
+        "is",
+        "me",
+        "town",
+        "daughter",
+        "The",
+        "tall"
+      ],
+      "answers": [
+        "My daughter is already just as tall as me."
+      ],
+      "explanation": "**genauso … wie …** = just as … as …"
+    },
+    {
+      "id": "tb1-u27-l14-comparing-summarising-1-ex09",
+      "type": "multiple_choice",
+      "prompt": "Which phrase means „The difference is that …“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Im Großen und Ganzen …"
+        },
+        {
+          "id": "b",
+          "text": "Der Unterschied besteht darin, dass …"
+        },
+        {
+          "id": "c",
+          "text": "Kurz gesagt …"
+        },
+        {
+          "id": "d",
+          "text": "Im Gegensatz zu …"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Der Unterschied besteht darin, dass …** = The difference is that …\n\n*Example:* Der Unterschied besteht darin, dass der ICE schneller fährt.\nThe difference is that the ICE is faster."
+    },
+    {
+      "id": "tb1-u27-l14-comparing-summarising-1-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "The weather here is similar to that in my home country.",
+      "tiles": [
+        "wie",
+        "darin",
+        "Das",
+        "Wetter",
+        "Heimat",
+        "hier",
+        "Tochter",
+        "meiner",
+        "in",
+        "ist",
+        "ähnlich",
+        "ich"
+      ],
+      "answers": [
+        "Das Wetter hier ist ähnlich wie in meiner Heimat."
+      ],
+      "explanation": "**ähnlich wie …** = similar to …"
+    },
+    {
+      "id": "tb1-u27-l14-comparing-summarising-1-ex11",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u27-l14-comparing-summarising-1-5.mp3"
+      },
+      "tiles": [
+        "fährt",
+        "dass",
+        "besteht",
+        "darin",
+        "schneller",
+        "der",
+        "Der",
+        "Unterschied",
+        "mit",
+        "für",
+        "in",
+        "ICE"
+      ],
+      "answers": [
+        "Der Unterschied besteht darin, dass der ICE schneller fährt."
+      ],
+      "explanation": "Der Unterschied besteht darin, dass der ICE schneller fährt.\n*The difference is that the ICE is faster.*\n\n**Der Unterschied besteht darin, dass …** = The difference is that …"
+    }
+  ]
+}

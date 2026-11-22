@@ -1,0 +1,297 @@
+{
+  "id": "tb1-u59-l04-brief-23-corinna",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u59",
+  "title": "Letter 23: Corinna · Reiseidee, Deutsch lernen & Neuigkeiten",
+  "tip": "Cover all four points; Anrede and Gruß are compulsory.",
+  "exercises": [
+    {
+      "id": "tb1-u59-l04-brief-23-corinna-ex01",
+      "type": "explain",
+      "title": "Letter from Corinna: Reiseidee, Deutsch lernen & Neuigkeiten",
+      "body": "Read the letter. You will answer it in about 80 words and write something about each of the four points.\n\n## Reiseidee, Deutsch lernen & Neuigkeiten\n\nLiebe(r)...\nich habe lange nichts von dir gehört. Nun habe ich von Sina erfahren, dass du bald eine Prüfung macist. Das ist ja ganz toll! Sina hat mir auch gesagt, dass du jeden Tag fleißig Deutsch lernst und wenig Zeit hast, andere Dinge zu machen. Daher schreibe ich dir lieber eine E-Mail, denn ich wollte dich fragen, ob wir nach deiner Prüfung etwas zusammen machen sollen? Wie wäre es mit einer Tour an die Nordsee, nach Prag oder Amsterdam, oder in den Schwarzwald? Was denkst du? Wenn du Zeit hast, schreibe mir bitte bald. Und für deine Prüfung wünsche ich dir viel Erfolg.\n\nBis bald\nCorinna\n\n## Task\n\n**Antworten Sie Corinna. Schreiben Sie etwas zu allen vier Punkten:**\n1. Wohin Sie mit Corinna fahren möchten.\n2. Wie Sie Deutsch lernen.\n3. Was es bei Ihnen Neues gibt.\n4. Was Sie von Corinna wissen wollen.\n\nSource video: https://www.youtube.com/watch?v=yCpuhD8rrR8\n\n## Notes on the source\n\n- Quelle: 'macist' (richtig: machst)."
+    },
+    {
+      "id": "tb1-u59-l04-brief-23-corinna-ex02",
+      "type": "explain",
+      "title": "Plan: one building block per point",
+      "body": "For each Leitpunkt pick a Baustein and fill it in:\n\n**1. Wohin Sie mit Corinna fahren möchten.**\nBaustein B4 · Vorschlag machen (make a suggestion): *Ich hätte einen Vorschlag: Wir könnten …, denn das wäre nicht nur …, sondern auch …. Was hältst du davon?*\n→ Ich hätte einen Vorschlag: Wir könnten in den Schwarzwald fahren, denn das wäre nicht nur ruhig, sondern auch nicht so teuer. Was hältst du davon?\n\n**2. Wie Sie Deutsch lernen.**\nBaustein B7 · über sich / Vorlieben (talk about yourself / preferences): *Am liebsten …, weil ich … kann.*\n→ Am liebsten lerne ich mit Freunden zusammen, weil ich so am meisten das Sprechen üben kann.\n\n**3. Was es bei Ihnen Neues gibt.**\nBaustein B2b · eigene Neuigkeiten (share your own news): *Bei mir gibt es auch Neuigkeiten: Vor … habe ich …. Darüber freue ich mich immer noch sehr.*\n→ Bei mir gibt es auch Neuigkeiten: Vor einer Woche habe ich eine neue Kamera gekauft. Darüber freue ich mich immer noch sehr.\n\n**4. Was Sie von Corinna wissen wollen.**\nBaustein B6 · Rückfrage stellen (ask a follow-up question): *Außerdem würde ich gern wissen, ob … und wie ….*\n→ Außerdem würde ich gern wissen, ob du im Sommer frei hast und wie lange wir bleiben können.",
+      "examples": [
+        {
+          "learning": "Ich hätte einen Vorschlag: Wir könnten in den Schwarzwald fahren, denn das wäre nicht nur ruhig, sondern auch nicht so teuer. Was hältst du davon?",
+          "known": "Point 1: make a suggestion (B4)"
+        },
+        {
+          "learning": "Am liebsten lerne ich mit Freunden zusammen, weil ich so am meisten das Sprechen üben kann.",
+          "known": "Point 2: talk about yourself / preferences (B7)"
+        },
+        {
+          "learning": "Bei mir gibt es auch Neuigkeiten: Vor einer Woche habe ich eine neue Kamera gekauft. Darüber freue ich mich immer noch sehr.",
+          "known": "Point 3: share your own news (B2b)"
+        },
+        {
+          "learning": "Außerdem würde ich gern wissen, ob du im Sommer frei hast und wie lange wir bleiben können.",
+          "known": "Point 4: ask a follow-up question (B6)"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u59-l04-brief-23-corinna-ex03",
+      "type": "choice",
+      "title": "Leitpunkt 1",
+      "prompt": "Welcher Satz passt zum Leitpunkt „Wohin Sie mit Corinna fahren möchten.“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ich hätte einen Vorschlag: Wir könnten in den Schwarzwald fahren, denn das wäre nicht nur ruhig, sondern auch nicht so teuer. Was hältst du davon?"
+        },
+        {
+          "id": "b",
+          "text": "Bei mir gibt es auch Neuigkeiten: Vor einer Woche habe ich eine neue Kamera gekauft. Darüber freue ich mich immer noch sehr."
+        },
+        {
+          "id": "c",
+          "text": "Außerdem würde ich gern wissen, ob du im Sommer frei hast und wie lange wir bleiben können."
+        },
+        {
+          "id": "d",
+          "text": "Am liebsten lerne ich mit Freunden zusammen, weil ich so am meisten das Sprechen üben kann."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Baustein **B4** · Vorschlag machen (make a suggestion): Ich hätte einen Vorschlag: Wir könnten …, denn das wäre nicht nur …, sondern auch …. Was hältst du davon?"
+    },
+    {
+      "id": "tb1-u59-l04-brief-23-corinna-ex04",
+      "type": "choice",
+      "title": "Leitpunkt 2",
+      "prompt": "Welcher Satz passt zum Leitpunkt „Wie Sie Deutsch lernen.“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Am liebsten lerne ich mit Freunden zusammen, weil ich so am meisten das Sprechen üben kann."
+        },
+        {
+          "id": "b",
+          "text": "Außerdem würde ich gern wissen, ob du im Sommer frei hast und wie lange wir bleiben können."
+        },
+        {
+          "id": "c",
+          "text": "Ich hätte einen Vorschlag: Wir könnten in den Schwarzwald fahren, denn das wäre nicht nur ruhig, sondern auch nicht so teuer. Was hältst du davon?"
+        },
+        {
+          "id": "d",
+          "text": "Bei mir gibt es auch Neuigkeiten: Vor einer Woche habe ich eine neue Kamera gekauft. Darüber freue ich mich immer noch sehr."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Baustein **B7** · über sich / Vorlieben (talk about yourself / preferences): Am liebsten …, weil ich … kann."
+    },
+    {
+      "id": "tb1-u59-l04-brief-23-corinna-ex05",
+      "type": "choice",
+      "title": "Leitpunkt 3",
+      "prompt": "Welcher Satz passt zum Leitpunkt „Was es bei Ihnen Neues gibt.“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Bei mir gibt es auch Neuigkeiten: Vor einer Woche habe ich eine neue Kamera gekauft. Darüber freue ich mich immer noch sehr."
+        },
+        {
+          "id": "b",
+          "text": "Ich hätte einen Vorschlag: Wir könnten in den Schwarzwald fahren, denn das wäre nicht nur ruhig, sondern auch nicht so teuer. Was hältst du davon?"
+        },
+        {
+          "id": "c",
+          "text": "Außerdem würde ich gern wissen, ob du im Sommer frei hast und wie lange wir bleiben können."
+        },
+        {
+          "id": "d",
+          "text": "Am liebsten lerne ich mit Freunden zusammen, weil ich so am meisten das Sprechen üben kann."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Baustein **B2b** · eigene Neuigkeiten (share your own news): Bei mir gibt es auch Neuigkeiten: Vor … habe ich …. Darüber freue ich mich immer noch sehr."
+    },
+    {
+      "id": "tb1-u59-l04-brief-23-corinna-ex06",
+      "type": "choice",
+      "title": "Leitpunkt 4",
+      "prompt": "Welcher Satz passt zum Leitpunkt „Was Sie von Corinna wissen wollen.“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Am liebsten lerne ich mit Freunden zusammen, weil ich so am meisten das Sprechen üben kann."
+        },
+        {
+          "id": "b",
+          "text": "Bei mir gibt es auch Neuigkeiten: Vor einer Woche habe ich eine neue Kamera gekauft. Darüber freue ich mich immer noch sehr."
+        },
+        {
+          "id": "c",
+          "text": "Ich hätte einen Vorschlag: Wir könnten in den Schwarzwald fahren, denn das wäre nicht nur ruhig, sondern auch nicht so teuer. Was hältst du davon?"
+        },
+        {
+          "id": "d",
+          "text": "Außerdem würde ich gern wissen, ob du im Sommer frei hast und wie lange wir bleiben können."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Baustein **B6** · Rückfrage stellen (ask a follow-up question): Außerdem würde ich gern wissen, ob … und wie …."
+    },
+    {
+      "id": "tb1-u59-l04-brief-23-corinna-ex07",
+      "type": "choice",
+      "title": "Leitpunkt 1 · Welches Wort passt in die Lücke?",
+      "prompt": "Ich hätte einen Vorschlag: Wir könnten in den Schwarzwald fahren, ___ das wäre nicht nur ruhig, sondern auch nicht so teuer. Was hältst du davon?",
+      "options": [
+        {
+          "id": "a",
+          "text": "denn"
+        },
+        {
+          "id": "b",
+          "text": "weil"
+        },
+        {
+          "id": "c",
+          "text": "deshalb"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Full sentence: *Ich hätte einen Vorschlag: Wir könnten in den Schwarzwald fahren, denn das wäre nicht nur ruhig, sondern auch nicht so teuer. Was hältst du davon?*\n\n**denn (Grund, Position 0)**: reason but normal word order (like und/aber).\n\n…, **denn** + Subjekt + Verb. (normale Wortstellung!)\nBsp: Ich bleibe zu Hause, denn **ich bin** müde."
+    },
+    {
+      "id": "tb1-u59-l04-brief-23-corinna-ex08",
+      "type": "choice",
+      "title": "Leitpunkt 2 · Welches Wort passt in die Lücke?",
+      "prompt": "Am liebsten lerne ich mit Freunden zusammen, ___ ich so am meisten das Sprechen üben kann.",
+      "options": [
+        {
+          "id": "a",
+          "text": "weil"
+        },
+        {
+          "id": "b",
+          "text": "denn"
+        },
+        {
+          "id": "c",
+          "text": "deshalb"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Full sentence: *Am liebsten lerne ich mit Freunden zusammen, weil ich so am meisten das Sprechen üben kann.*\n\n**weil (Grund)**: reason; the verb goes to the very end.\n\nHauptsatz, **weil** + Subjekt + … + **Verb ans Ende**.\nBsp: Ich bleibe zu Hause, weil ich müde **bin**."
+    },
+    {
+      "id": "tb1-u59-l04-brief-23-corinna-ex09",
+      "type": "choice",
+      "title": "Leitpunkt 4 · Welches Wort passt in die Lücke?",
+      "prompt": "___ würde ich gern wissen, ob du im Sommer frei hast und wie lange wir bleiben können.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Denn"
+        },
+        {
+          "id": "b",
+          "text": "Weil"
+        },
+        {
+          "id": "c",
+          "text": "Außerdem"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Full sentence: *Außerdem würde ich gern wissen, ob du im Sommer frei hast und wie lange wir bleiben können.*\n\n**außerdem (Zusatz)**: addition; position 1 → inversion.\n\n…, **außerdem** + **Verb** + Subjekt.\nBsp: Es ist günstig, außerdem **liegt es** zentral."
+    },
+    {
+      "id": "tb1-u59-l04-brief-23-corinna-ex10",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/w-brief-23-0.mp3"
+      },
+      "tiles": [
+        "du",
+        "Am",
+        "weil",
+        "mit",
+        "Freunden",
+        "ich",
+        "zusammen",
+        "Sprechen",
+        "lerne",
+        "Bei",
+        "kann",
+        "das",
+        "liebsten",
+        "können",
+        "am",
+        "üben",
+        "so",
+        "meisten",
+        "ich"
+      ],
+      "answers": [
+        "Am liebsten lerne ich mit Freunden zusammen, weil ich so am meisten das Sprechen üben kann."
+      ]
+    },
+    {
+      "id": "tb1-u59-l04-brief-23-corinna-ex11",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/w-brief-23-1.mp3"
+      },
+      "tiles": [
+        "wie",
+        "im",
+        "davon",
+        "wissen",
+        "Außerdem",
+        "ob",
+        "gern",
+        "du",
+        "frei",
+        "ich",
+        "Sommer",
+        "wir",
+        "hast",
+        "würde",
+        "und",
+        "bleiben",
+        "können",
+        "einer",
+        "lange",
+        "so"
+      ],
+      "answers": [
+        "Außerdem würde ich gern wissen, ob du im Sommer frei hast und wie lange wir bleiben können."
+      ]
+    },
+    {
+      "id": "tb1-u59-l04-brief-23-corinna-ex12",
+      "type": "task",
+      "skill": "writing",
+      "title": "E-Mail an Corinna: Reiseidee, Deutsch lernen & Neuigkeiten",
+      "task": "**Reiseidee, Deutsch lernen & Neuigkeiten**\n\nYou received this letter:\n\nLiebe(r)...\nich habe lange nichts von dir gehört. Nun habe ich von Sina erfahren, dass du bald eine Prüfung macist. Das ist ja ganz toll! Sina hat mir auch gesagt, dass du jeden Tag fleißig Deutsch lernst und wenig Zeit hast, andere Dinge zu machen. Daher schreibe ich dir lieber eine E-Mail, denn ich wollte dich fragen, ob wir nach deiner Prüfung etwas zusammen machen sollen? Wie wäre es mit einer Tour an die Nordsee, nach Prag oder Amsterdam, oder in den Schwarzwald? Was denkst du? Wenn du Zeit hast, schreibe mir bitte bald. Und für deine Prüfung wünsche ich dir viel Erfolg.\nBis bald\nCorinna\n\n**Antworten Sie Corinna. Schreiben Sie etwas zu allen vier Punkten:**\n\nWrite about 80 words (30 minutes). Anrede and Gruß are compulsory.",
+      "points": [
+        "Wohin Sie mit Corinna fahren möchten.",
+        "Wie Sie Deutsch lernen.",
+        "Was es bei Ihnen Neues gibt.",
+        "Was Sie von Corinna wissen wollen."
+      ],
+      "phrases": [
+        "Liebe Corinna,",
+        "vielen Dank für deinen Brief. Ich habe mich sehr gefreut, weil ich schon lange nichts von dir gehört habe.",
+        "Ich hätte einen Vorschlag: Wir könnten …, denn das wäre nicht nur …, sondern auch …. Was hältst du davon?",
+        "Am liebsten …, weil ich … kann.",
+        "Bei mir gibt es auch Neuigkeiten: Vor … habe ich …. Darüber freue ich mich immer noch sehr.",
+        "Außerdem würde ich gern wissen, ob … und wie ….",
+        "So, das war's für heute. Ich hoffe, dass es dir gut geht. Es wäre schön, wenn wir uns bald einmal wiedersehen könnten. Schreib mir bitte bald zurück!",
+        "Viele Grüße"
+      ],
+      "modelAnswer": "## Model answer (Musterlösung)\n\nHamburg, den 9. August 2026\n\nLiebe Corinna,\n\nvielen Dank für deinen Brief. Ich habe mich sehr gefreut, weil ich schon lange nichts von dir gehört habe.\n\nIch hätte einen Vorschlag: Wir könnten in den Schwarzwald fahren, denn das wäre nicht nur ruhig, sondern auch nicht so teuer. Was hältst du davon?\n\nAm liebsten lerne ich mit Freunden zusammen, weil ich so am meisten das Sprechen üben kann.\n\nBei mir gibt es auch Neuigkeiten: Vor einer Woche habe ich eine neue Kamera gekauft. Darüber freue ich mich immer noch sehr.\n\nAußerdem würde ich gern wissen, ob du im Sommer frei hast und wie lange wir bleiben können.\n\nSo, das war's für heute. Ich hoffe, dass es dir gut geht. Es wäre schön, wenn wir uns bald einmal wiedersehen könnten. Schreib mir bitte bald zurück!\n\nViele Grüße\ndein Arnob\n\n## Sample answer from the source video\n\n*This answer was written in the source video. It is not the model and may contain mistakes; check the notes on the source.*\n\nLiebe Corinna,\nzuerst vielen Dank für deine E-Mail. Endlich habe ich Zeit, dir zu schreiben. Wie du weißt, habe ich bald eine Prüfung, deshalb bin ich ein bisschen besorgt und teile meine Zeit auf die vier Fähigkeiten auf: Hören, Sprechen, Lesen und Schreiben. Außerdem lerne ich nicht nur zu Hause, sondern auch mit meinen Freunden, um die Sprechfertigkeit zu üben. Das finde ich sehr effektiv, um mein Deutsch zu verbessern. Übrigens habe ich auch vor, nach der Prüfung etwas zu unternehmen, und ich freue mich über deinen Vorschlag. Ich denke jedoch, dass wir eine Reise in den Schwarzwald machen sollten, weil ich dort noch nie war. Ich möchte gerne neue Orte erkunden und die frische Luft genießen. Was hältst du davon? Außerdem möchte ich dir erzählen, dass ich gestern eine neue Kamera gekauft habe. Sie ist zwar ziemlich teuer, aber sie macht sehr schöne Fotos. Stell dir vor, wie toll es wäre, die Erinnerungen mit dieser Kamera festzuhalten! Übrigens würde ich gerne wissen, wann wir die Reise beginnen können, was wir vorbereiten sollten und ob du jemanden mitbringen möchtest. Diese Fragen sind wichtig für mich, also bitte antworte mir bald!\nIch freue mich auf deine Antwort.\nViele Grüße\n[Dein Name]",
+      "explanation": "Notes on the source:\n\n- Quelle: 'macist' (richtig: machst)."
+    }
+  ]
+}

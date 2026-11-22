@@ -1,0 +1,301 @@
+{
+  "id": "tb1-u60-l05-brief-30-anne",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u60",
+  "title": "Letter 30: Anne · Laras Geburtstag, Geschenkidee & Reisetipps",
+  "tip": "Cover all four points; Anrede and Gruß are compulsory.",
+  "exercises": [
+    {
+      "id": "tb1-u60-l05-brief-30-anne-ex01",
+      "type": "explain",
+      "title": "Letter from Anne: Laras Geburtstag, Geschenkidee & Reisetipps",
+      "body": "Read the letter. You will answer it in about 80 words and write something about each of the four points.\n\n## Laras Geburtstag, Geschenkidee & Reisetipps\n\nLiebe(r) ...,\nich hoffe, es geht dir gutt Was hast du in letzter Zeit so erlebt? Erzäht doch mal.\nDu bist ja auch zu Laras 30. Geburtstag eingeladen. Wollen wir zusammen dort hinfahren? Würdest du lieber mit dem Zug oder dem Auto fahren? Lara lebt ja jetzt in Garmisch-Partenkirchen und das ist von uns aus ziemlich weit weg.\nIch denke auch darüber nach, nach der Feier noch ein paar Tage dort zu bleiben und Urlaub zu machen. Hättest du darauf auch Lust? Das wäre super! Und was könnten wir Lara schenken? Zum 30. sollte es schon etwas Besonderes sein\n\nLiebe Gruße\nAnne\n\n## Task\n\n**Antworten Sie Anne. Schreiben Sie etwas zu allen vier Punkten:**\n1. Geschenk für Lara?\n2. Gemeinsam länger bleiben?\n3. Zug oder Auto?\n4. Was Sie in letzter Zeit erlebt haben?\n\nSource video: https://www.youtube.com/watch?v=ZX5MJBmzWnE\n\n## Notes on the source\n\n- Quelle: 'gutt', 'Erzäht' (richtig: gut / Erzähl), 'Liebe Gruße' (richtig: Liebe Grüße), Schlusssatz ohne Punkt.\n- 'Garmisch-Partenkir- chen' im Video durch Zeilenumbruch getrennt."
+    },
+    {
+      "id": "tb1-u60-l05-brief-30-anne-ex02",
+      "type": "explain",
+      "title": "Plan: one building block per point",
+      "body": "For each Leitpunkt pick a Baustein and fill it in:\n\n**1. Geschenk für Lara?**\nBaustein B4 · Vorschlag machen (make a suggestion): *Ich hätte einen Vorschlag: Wir könnten …, denn das wäre nicht nur …, sondern auch …. Was hältst du davon?*\n→ Ich hätte einen Vorschlag: Wir könnten Lara eine Armbanduhr schenken, denn das wäre nicht nur praktisch, sondern auch persönlich. Was hältst du davon?\n\n**2. Gemeinsam länger bleiben?**\nBaustein B1a · Vorschlag annehmen (accept a suggestion): *Deine Idee mit … finde ich super, weil wir … können.*\n→ Deine Idee mit den zusätzlichen Urlaubstagen finde ich super, weil wir uns dann in Ruhe unterhalten können.\n\n**3. Zug oder Auto?**\nBaustein B4+ · Vorschlag machen (make a suggestion): *Übrigens hätte ich noch einen Vorschlag: Wir könnten …. Je früher wir …, desto … wird es.*\n→ Übrigens hätte ich noch einen Vorschlag: Wir könnten mit dem Auto fahren. Je früher wir losfahren, desto bequemer wird es.\n\n**4. Was Sie in letzter Zeit erlebt haben?**\nBaustein B2 · eigene Neuigkeiten (share your own news): *Bei mir gibt es auch Neuigkeiten: Vor … habe ich …. Am Anfang war es ziemlich anstrengend, aber inzwischen gefällt es mir sehr gut.*\n→ Bei mir gibt es auch Neuigkeiten: Vor zwei Wochen habe ich eine neue Stelle angefangen. Am Anfang war es ziemlich anstrengend, aber inzwischen gefällt es mir sehr gut.",
+      "examples": [
+        {
+          "learning": "Ich hätte einen Vorschlag: Wir könnten Lara eine Armbanduhr schenken, denn das wäre nicht nur praktisch, sondern auch persönlich. Was hältst du davon?",
+          "known": "Point 1: make a suggestion (B4)"
+        },
+        {
+          "learning": "Deine Idee mit den zusätzlichen Urlaubstagen finde ich super, weil wir uns dann in Ruhe unterhalten können.",
+          "known": "Point 2: accept a suggestion (B1a)"
+        },
+        {
+          "learning": "Übrigens hätte ich noch einen Vorschlag: Wir könnten mit dem Auto fahren. Je früher wir losfahren, desto bequemer wird es.",
+          "known": "Point 3: make a suggestion (B4+)"
+        },
+        {
+          "learning": "Bei mir gibt es auch Neuigkeiten: Vor zwei Wochen habe ich eine neue Stelle angefangen. Am Anfang war es ziemlich anstrengend, aber inzwischen gefällt es mir sehr gut.",
+          "known": "Point 4: share your own news (B2)"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u60-l05-brief-30-anne-ex03",
+      "type": "choice",
+      "title": "Leitpunkt 1",
+      "prompt": "Welcher Satz passt zum Leitpunkt „Geschenk für Lara?“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Bei mir gibt es auch Neuigkeiten: Vor zwei Wochen habe ich eine neue Stelle angefangen. Am Anfang war es ziemlich anstrengend, aber inzwischen gefällt es mir sehr gut."
+        },
+        {
+          "id": "b",
+          "text": "Ich hätte einen Vorschlag: Wir könnten Lara eine Armbanduhr schenken, denn das wäre nicht nur praktisch, sondern auch persönlich. Was hältst du davon?"
+        },
+        {
+          "id": "c",
+          "text": "Deine Idee mit den zusätzlichen Urlaubstagen finde ich super, weil wir uns dann in Ruhe unterhalten können."
+        },
+        {
+          "id": "d",
+          "text": "Übrigens hätte ich noch einen Vorschlag: Wir könnten mit dem Auto fahren. Je früher wir losfahren, desto bequemer wird es."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Baustein **B4** · Vorschlag machen (make a suggestion): Ich hätte einen Vorschlag: Wir könnten …, denn das wäre nicht nur …, sondern auch …. Was hältst du davon?"
+    },
+    {
+      "id": "tb1-u60-l05-brief-30-anne-ex04",
+      "type": "choice",
+      "title": "Leitpunkt 2",
+      "prompt": "Welcher Satz passt zum Leitpunkt „Gemeinsam länger bleiben?“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Deine Idee mit den zusätzlichen Urlaubstagen finde ich super, weil wir uns dann in Ruhe unterhalten können."
+        },
+        {
+          "id": "b",
+          "text": "Ich hätte einen Vorschlag: Wir könnten Lara eine Armbanduhr schenken, denn das wäre nicht nur praktisch, sondern auch persönlich. Was hältst du davon?"
+        },
+        {
+          "id": "c",
+          "text": "Übrigens hätte ich noch einen Vorschlag: Wir könnten mit dem Auto fahren. Je früher wir losfahren, desto bequemer wird es."
+        },
+        {
+          "id": "d",
+          "text": "Bei mir gibt es auch Neuigkeiten: Vor zwei Wochen habe ich eine neue Stelle angefangen. Am Anfang war es ziemlich anstrengend, aber inzwischen gefällt es mir sehr gut."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Baustein **B1a** · Vorschlag annehmen (accept a suggestion): Deine Idee mit … finde ich super, weil wir … können."
+    },
+    {
+      "id": "tb1-u60-l05-brief-30-anne-ex05",
+      "type": "choice",
+      "title": "Leitpunkt 3",
+      "prompt": "Welcher Satz passt zum Leitpunkt „Zug oder Auto?“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Bei mir gibt es auch Neuigkeiten: Vor zwei Wochen habe ich eine neue Stelle angefangen. Am Anfang war es ziemlich anstrengend, aber inzwischen gefällt es mir sehr gut."
+        },
+        {
+          "id": "b",
+          "text": "Ich hätte einen Vorschlag: Wir könnten Lara eine Armbanduhr schenken, denn das wäre nicht nur praktisch, sondern auch persönlich. Was hältst du davon?"
+        },
+        {
+          "id": "c",
+          "text": "Deine Idee mit den zusätzlichen Urlaubstagen finde ich super, weil wir uns dann in Ruhe unterhalten können."
+        },
+        {
+          "id": "d",
+          "text": "Übrigens hätte ich noch einen Vorschlag: Wir könnten mit dem Auto fahren. Je früher wir losfahren, desto bequemer wird es."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Baustein **B4+** · Vorschlag machen (make a suggestion): Übrigens hätte ich noch einen Vorschlag: Wir könnten …. Je früher wir …, desto … wird es."
+    },
+    {
+      "id": "tb1-u60-l05-brief-30-anne-ex06",
+      "type": "choice",
+      "title": "Leitpunkt 4",
+      "prompt": "Welcher Satz passt zum Leitpunkt „Was Sie in letzter Zeit erlebt haben?“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Deine Idee mit den zusätzlichen Urlaubstagen finde ich super, weil wir uns dann in Ruhe unterhalten können."
+        },
+        {
+          "id": "b",
+          "text": "Bei mir gibt es auch Neuigkeiten: Vor zwei Wochen habe ich eine neue Stelle angefangen. Am Anfang war es ziemlich anstrengend, aber inzwischen gefällt es mir sehr gut."
+        },
+        {
+          "id": "c",
+          "text": "Ich hätte einen Vorschlag: Wir könnten Lara eine Armbanduhr schenken, denn das wäre nicht nur praktisch, sondern auch persönlich. Was hältst du davon?"
+        },
+        {
+          "id": "d",
+          "text": "Übrigens hätte ich noch einen Vorschlag: Wir könnten mit dem Auto fahren. Je früher wir losfahren, desto bequemer wird es."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Baustein **B2** · eigene Neuigkeiten (share your own news): Bei mir gibt es auch Neuigkeiten: Vor … habe ich …. Am Anfang war es ziemlich anstrengend, aber inzwischen gefällt es mir sehr gut."
+    },
+    {
+      "id": "tb1-u60-l05-brief-30-anne-ex07",
+      "type": "choice",
+      "title": "Leitpunkt 1 · Welches Wort passt in die Lücke?",
+      "prompt": "Ich hätte einen Vorschlag: Wir könnten Lara eine Armbanduhr schenken, ___ das wäre nicht nur praktisch, sondern auch persönlich. Was hältst du davon?",
+      "options": [
+        {
+          "id": "a",
+          "text": "denn"
+        },
+        {
+          "id": "b",
+          "text": "deshalb"
+        },
+        {
+          "id": "c",
+          "text": "weil"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Full sentence: *Ich hätte einen Vorschlag: Wir könnten Lara eine Armbanduhr schenken, denn das wäre nicht nur praktisch, sondern auch persönlich. Was hältst du davon?*\n\n**denn (Grund, Position 0)**: reason but normal word order (like und/aber).\n\n…, **denn** + Subjekt + Verb. (normale Wortstellung!)\nBsp: Ich bleibe zu Hause, denn **ich bin** müde."
+    },
+    {
+      "id": "tb1-u60-l05-brief-30-anne-ex08",
+      "type": "choice",
+      "title": "Leitpunkt 2 · Welches Wort passt in die Lücke?",
+      "prompt": "Deine Idee mit den zusätzlichen Urlaubstagen finde ich super, ___ wir uns dann in Ruhe unterhalten können.",
+      "options": [
+        {
+          "id": "a",
+          "text": "weil"
+        },
+        {
+          "id": "b",
+          "text": "denn"
+        },
+        {
+          "id": "c",
+          "text": "deshalb"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Full sentence: *Deine Idee mit den zusätzlichen Urlaubstagen finde ich super, weil wir uns dann in Ruhe unterhalten können.*\n\n**weil (Grund)**: reason; the verb goes to the very end.\n\nHauptsatz, **weil** + Subjekt + … + **Verb ans Ende**.\nBsp: Ich bleibe zu Hause, weil ich müde **bin**."
+    },
+    {
+      "id": "tb1-u60-l05-brief-30-anne-ex09",
+      "type": "choice",
+      "title": "Leitpunkt 4 · Welches Wort passt in die Lücke?",
+      "prompt": "Bei mir gibt es auch Neuigkeiten: Vor zwei Wochen habe ich eine neue Stelle angefangen. Am Anfang war es ziemlich anstrengend, ___ inzwischen gefällt es mir sehr gut.",
+      "options": [
+        {
+          "id": "a",
+          "text": "weil"
+        },
+        {
+          "id": "b",
+          "text": "dass"
+        },
+        {
+          "id": "c",
+          "text": "aber"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Full sentence: *Bei mir gibt es auch Neuigkeiten: Vor zwei Wochen habe ich eine neue Stelle angefangen. Am Anfang war es ziemlich anstrengend, aber inzwischen gefällt es mir sehr gut.*\n\n**aber / allerdings (Gegensatz)**: aber = normal order; allerdings = position 1 → inversion.\n\n…, **aber** … (normale Wortstellung). **Allerdings** + **Verb** + Subjekt.\nBsp: Es ist praktisch, allerdings **ist es** teuer."
+    },
+    {
+      "id": "tb1-u60-l05-brief-30-anne-ex10",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/w-brief-30-0.mp3"
+      },
+      "tiles": [
+        "Ruhe",
+        "zusätzlichen",
+        "weil",
+        "mit",
+        "uns",
+        "dann",
+        "finde",
+        "einen",
+        "den",
+        "Urlaubstagen",
+        "unterhalten",
+        "ich",
+        "Deine",
+        "können",
+        "Bei",
+        "Idee",
+        "super",
+        "in",
+        "wir",
+        "Stelle"
+      ],
+      "answers": [
+        "Deine Idee mit den zusätzlichen Urlaubstagen finde ich super, weil wir uns dann in Ruhe unterhalten können."
+      ]
+    },
+    {
+      "id": "tb1-u60-l05-brief-30-anne-ex11",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/w-brief-30-1.mp3"
+      },
+      "tiles": [
+        "ich",
+        "hätte",
+        "Vorschlag",
+        "losfahren",
+        "desto",
+        "Wir",
+        "Anfang",
+        "einen",
+        "wird",
+        "fahren",
+        "wir",
+        "noch",
+        "Auto",
+        "gefällt",
+        "es",
+        "Übrigens",
+        "Was",
+        "früher",
+        "bequemer",
+        "könnten",
+        "dem",
+        "Je",
+        "mit"
+      ],
+      "answers": [
+        "Übrigens hätte ich noch einen Vorschlag: Wir könnten mit dem Auto fahren. Je früher wir losfahren, desto bequemer wird es."
+      ]
+    },
+    {
+      "id": "tb1-u60-l05-brief-30-anne-ex12",
+      "type": "task",
+      "skill": "writing",
+      "title": "E-Mail an Anne: Laras Geburtstag, Geschenkidee & Reisetipps",
+      "task": "**Laras Geburtstag, Geschenkidee & Reisetipps**\n\nYou received this letter:\n\nLiebe(r) ...,\nich hoffe, es geht dir gutt Was hast du in letzter Zeit so erlebt? Erzäht doch mal.\nDu bist ja auch zu Laras 30. Geburtstag eingeladen. Wollen wir zusammen dort hinfahren? Würdest du lieber mit dem Zug oder dem Auto fahren? Lara lebt ja jetzt in Garmisch-Partenkirchen und das ist von uns aus ziemlich weit weg.\nIch denke auch darüber nach, nach der Feier noch ein paar Tage dort zu bleiben und Urlaub zu machen. Hättest du darauf auch Lust? Das wäre super! Und was könnten wir Lara schenken? Zum 30. sollte es schon etwas Besonderes sein\nLiebe Gruße\nAnne\n\n**Antworten Sie Anne. Schreiben Sie etwas zu allen vier Punkten:**\n\nWrite about 80 words (30 minutes). Anrede and Gruß are compulsory.",
+      "points": [
+        "Geschenk für Lara?",
+        "Gemeinsam länger bleiben?",
+        "Zug oder Auto?",
+        "Was Sie in letzter Zeit erlebt haben?"
+      ],
+      "phrases": [
+        "Liebe Anne,",
+        "vielen Dank für deinen Brief. Ich habe mich sehr gefreut, weil ich schon lange nichts von dir gehört habe.",
+        "Ich hätte einen Vorschlag: Wir könnten …, denn das wäre nicht nur …, sondern auch …. Was hältst du davon?",
+        "Deine Idee mit … finde ich super, weil wir … können.",
+        "Übrigens hätte ich noch einen Vorschlag: Wir könnten …. Je früher wir …, desto … wird es.",
+        "Bei mir gibt es auch Neuigkeiten: Vor … habe ich …. Am Anfang war es ziemlich anstrengend, aber inzwischen gefällt es mir sehr gut.",
+        "So, das war's für heute. Ich hoffe, dass es dir gut geht. Es wäre schön, wenn wir uns bald einmal wiedersehen könnten. Schreib mir bitte bald zurück!",
+        "Viele Grüße"
+      ],
+      "modelAnswer": "## Model answer (Musterlösung)\n\nHamburg, den 9. August 2026\n\nLiebe Anne,\n\nvielen Dank für deinen Brief. Ich habe mich sehr gefreut, weil ich schon lange nichts von dir gehört habe.\n\nIch hätte einen Vorschlag: Wir könnten Lara eine Armbanduhr schenken, denn das wäre nicht nur praktisch, sondern auch persönlich. Was hältst du davon?\n\nDeine Idee mit den zusätzlichen Urlaubstagen finde ich super, weil wir uns dann in Ruhe unterhalten können.\n\nÜbrigens hätte ich noch einen Vorschlag: Wir könnten mit dem Auto fahren. Je früher wir losfahren, desto bequemer wird es.\n\nBei mir gibt es auch Neuigkeiten: Vor zwei Wochen habe ich eine neue Stelle angefangen. Am Anfang war es ziemlich anstrengend, aber inzwischen gefällt es mir sehr gut.\n\nSo, das war's für heute. Ich hoffe, dass es dir gut geht. Es wäre schön, wenn wir uns bald einmal wiedersehen könnten. Schreib mir bitte bald zurück!\n\nViele Grüße\ndein Arnob\n\n## Sample answer from the source video\n\n*This answer was written in the source video. It is not the model and may contain mistakes; check the notes on the source.*\n\nLiebe Anne,\nwie geht es dir und deiner Familie? Ich hoffe, es geht euch gut. Zuerst vielen Dank für deine E-Mail. Obwohl ich sie gestern erhalten habe, hatte ich wirklich keine Zeit, dir zu schreiben.\nWeißt du, ich habe eine neue Stelle in einem Restaurant gefunden. Jeden Tag muss ich zehn Stunden arbeiten. Wenn ich nach Hause komme, bin ich meistens sehr müde. Diese Arbeit ist zwar anstrengend, aber sie bringt mir ein gutes Einkommen.\nAußerdem freue ich mich sehr auf Laras 30. Geburtstag. Deshalb habe ich den Plan, ihr eine Armbanduhr zu schenken, weil ich gehört habe, dass sie eine neue möchte. Damit wir Geld sparen können, könnten wir das Geschenk gemeinsam kaufen. Was hältst du davon?\nDeine Idee finde ich auch gut. Es wäre schön, wenn wir sowohl an der Feier teilnehmen als auch zusammen Urlaub machen könnten. Aber ich denke, wir können nur drei Tage bleiben, weil ich dann wieder arbeiten muss.\nÜbrigens habe ich auch ein Auto, deshalb schlage ich vor, dass wir mit dem Auto dorthin fahren. Nach der Feier können wir noch etwas unternehmen. Das ist nicht nur praktisch, sondern auch angenehm. Und du, was denkst du darüber?\nBitte antworte mir bald!\nViele Grüße,\n[Dein Name]",
+      "explanation": "Notes on the source:\n\n- Quelle: 'gutt', 'Erzäht' (richtig: gut / Erzähl), 'Liebe Gruße' (richtig: Liebe Grüße), Schlusssatz ohne Punkt.\n- 'Garmisch-Partenkir- chen' im Video durch Zeilenumbruch getrennt."
+    }
+  ]
+}

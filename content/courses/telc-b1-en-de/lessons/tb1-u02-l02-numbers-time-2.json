@@ -1,0 +1,277 @@
+{
+  "id": "tb1-u02-l02-numbers-time-2",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u02",
+  "title": "Numbers & Time 2",
+  "tip": "Theme: Zahlen & Zeit (A1)",
+  "exercises": [
+    {
+      "id": "tb1-u02-l02-numbers-time-2-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "vier",
+          "known": "four"
+        },
+        {
+          "id": "p2",
+          "learning": "fünf",
+          "known": "five"
+        },
+        {
+          "id": "p3",
+          "learning": "zehn",
+          "known": "ten"
+        },
+        {
+          "id": "p4",
+          "learning": "hundert",
+          "known": "hundred"
+        },
+        {
+          "id": "p5",
+          "learning": "tausend",
+          "known": "thousand"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u02-l02-numbers-time-2-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which one means „four“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "heute"
+        },
+        {
+          "id": "b",
+          "text": "jetzt"
+        },
+        {
+          "id": "c",
+          "text": "fünf"
+        },
+        {
+          "id": "d",
+          "text": "vier"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**vier** = four\n\n*Example:* Unsere Familie hat vier Zimmer in der neuen Wohnung.\nOur family has four rooms in the new flat."
+    },
+    {
+      "id": "tb1-u02-l02-numbers-time-2-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which one means „five“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "hundert"
+        },
+        {
+          "id": "b",
+          "text": "tausend"
+        },
+        {
+          "id": "c",
+          "text": "fünf"
+        },
+        {
+          "id": "d",
+          "text": "eins"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**fünf** = five\n\n*Example:* Der Bus kommt in fünf Minuten.\nThe bus is coming in five minutes."
+    },
+    {
+      "id": "tb1-u02-l02-numbers-time-2-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Unsere Familie hat vier Zimmer in der neuen Wohnung.",
+      "tiles": [
+        "what",
+        "rooms",
+        "four",
+        "family",
+        "Our",
+        "in",
+        "flat",
+        "has",
+        "Tomorrow",
+        "the",
+        "a",
+        "new"
+      ],
+      "answers": [
+        "Our family has four rooms in the new flat."
+      ],
+      "explanation": "**vier** = four"
+    },
+    {
+      "id": "tb1-u02-l02-numbers-time-2-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which one means „ten“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "zehn"
+        },
+        {
+          "id": "b",
+          "text": "jetzt"
+        },
+        {
+          "id": "c",
+          "text": "hundert"
+        },
+        {
+          "id": "d",
+          "text": "null"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**zehn** = ten\n\n*Example:* Im Supermarkt habe ich zehn Euro bezahlt.\nI paid ten euros at the supermarket."
+    },
+    {
+      "id": "tb1-u02-l02-numbers-time-2-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "The bus is coming in five minutes.",
+      "tiles": [
+        "Unser",
+        "Der",
+        "lange",
+        "des",
+        "Bus",
+        "kommt",
+        "in",
+        "fünf",
+        "Minuten"
+      ],
+      "answers": [
+        "Der Bus kommt in fünf Minuten."
+      ],
+      "explanation": "**fünf** = five"
+    },
+    {
+      "id": "tb1-u02-l02-numbers-time-2-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which one means „hundred“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "heute"
+        },
+        {
+          "id": "b",
+          "text": "zehn"
+        },
+        {
+          "id": "c",
+          "text": "jetzt"
+        },
+        {
+          "id": "d",
+          "text": "hundert"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**hundert** = hundred\n\n*Example:* Zu der Hochzeit sind fast hundert Gäste gekommen.\nAlmost a hundred guests came to the wedding."
+    },
+    {
+      "id": "tb1-u02-l02-numbers-time-2-ex08",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u02-l02-numbers-time-2-3.mp3"
+      },
+      "tiles": [
+        "zehn",
+        "arbeitet",
+        "Im",
+        "Supermarkt",
+        "bezahlt",
+        "Euro",
+        "merken",
+        "habe",
+        "ich",
+        "Können"
+      ],
+      "answers": [
+        "Im Supermarkt habe ich zehn Euro bezahlt."
+      ],
+      "explanation": "Im Supermarkt habe ich zehn Euro bezahlt.\n*I paid ten euros at the supermarket.*\n\n**zehn** = ten"
+    },
+    {
+      "id": "tb1-u02-l02-numbers-time-2-ex09",
+      "type": "multiple_choice",
+      "prompt": "Which one means „thousand“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "gestern"
+        },
+        {
+          "id": "b",
+          "text": "zehn"
+        },
+        {
+          "id": "c",
+          "text": "jetzt"
+        },
+        {
+          "id": "d",
+          "text": "tausend"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**tausend** = thousand\n\n*Example:* Das gebrauchte Auto kostet dreitausend Euro.\nThe used car costs three thousand euros."
+    },
+    {
+      "id": "tb1-u02-l02-numbers-time-2-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Zu der Hochzeit sind fast hundert Gäste gekommen.",
+      "tiles": [
+        "wedding",
+        "Almost",
+        "is",
+        "car",
+        "came",
+        "hundred",
+        "the",
+        "with",
+        "a",
+        "to",
+        "guests"
+      ],
+      "answers": [
+        "Almost a hundred guests came to the wedding."
+      ],
+      "explanation": "**hundert** = hundred"
+    },
+    {
+      "id": "tb1-u02-l02-numbers-time-2-ex11",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "The used car costs three thousand euros.",
+      "tiles": [
+        "gebrauchte",
+        "Bus",
+        "Leider",
+        "Auto",
+        "kostet",
+        "dreitausend",
+        "Hotel",
+        "Das",
+        "Euro"
+      ],
+      "answers": [
+        "Das gebrauchte Auto kostet dreitausend Euro."
+      ],
+      "explanation": "**tausend** = thousand"
+    }
+  ]
+}

@@ -1,0 +1,284 @@
+{
+  "id": "tb1-u20-l08-noun-verb-combinations-1",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u20",
+  "title": "Noun-Verb Combinations 1",
+  "tip": "Theme: Nomen-Verb-Verbindungen (B1)",
+  "exercises": [
+    {
+      "id": "tb1-u20-l08-noun-verb-combinations-1-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "eine Entscheidung treffen",
+          "known": "to make a decision"
+        },
+        {
+          "id": "p2",
+          "learning": "eine Frage stellen",
+          "known": "to ask a question"
+        },
+        {
+          "id": "p3",
+          "learning": "einen Termin vereinbaren",
+          "known": "to arrange an appointment"
+        },
+        {
+          "id": "p4",
+          "learning": "eine Rolle spielen",
+          "known": "to play a role"
+        },
+        {
+          "id": "p5",
+          "learning": "in Kontakt bleiben",
+          "known": "to stay in touch"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u20-l08-noun-verb-combinations-1-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which one means „to make a decision“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "eine Entscheidung treffen"
+        },
+        {
+          "id": "b",
+          "text": "einen Vorschlag machen"
+        },
+        {
+          "id": "c",
+          "text": "eine Prüfung ablegen"
+        },
+        {
+          "id": "d",
+          "text": "Verantwortung übernehmen"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**eine Entscheidung treffen** = to make a decision\n\n*Example:* Ich muss bis Freitag eine Entscheidung treffen.\nI have to make a decision by Friday."
+    },
+    {
+      "id": "tb1-u20-l08-noun-verb-combinations-1-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which one means „to ask a question“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "einen Fehler machen"
+        },
+        {
+          "id": "b",
+          "text": "eine Frage stellen"
+        },
+        {
+          "id": "c",
+          "text": "eine Prüfung ablegen"
+        },
+        {
+          "id": "d",
+          "text": "Wert legen auf + Akk."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**eine Frage stellen** = to ask a question\n\n*Example:* Darf ich Ihnen noch eine Frage stellen?\nMay I ask you one more question?"
+    },
+    {
+      "id": "tb1-u20-l08-noun-verb-combinations-1-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Ich muss bis Freitag eine Entscheidung treffen.",
+      "tiles": [
+        "have",
+        "by",
+        "skills",
+        "decision",
+        "I",
+        "in",
+        "a",
+        "make",
+        "Friday",
+        "to",
+        "the"
+      ],
+      "answers": [
+        "I have to make a decision by Friday."
+      ],
+      "explanation": "**eine Entscheidung treffen** = to make a decision"
+    },
+    {
+      "id": "tb1-u20-l08-noun-verb-combinations-1-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which one means „to arrange an appointment“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "zur Verfügung stehen"
+        },
+        {
+          "id": "b",
+          "text": "eine Rolle spielen"
+        },
+        {
+          "id": "c",
+          "text": "Rücksicht nehmen auf + Akk."
+        },
+        {
+          "id": "d",
+          "text": "einen Termin vereinbaren"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**einen Termin vereinbaren** = to arrange an appointment\n\n*Example:* Ich möchte gern einen Termin beim Hausarzt vereinbaren.\nI'd like to make an appointment with my GP."
+    },
+    {
+      "id": "tb1-u20-l08-noun-verb-combinations-1-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "May I ask you one more question?",
+      "tiles": [
+        "Frage",
+        "stellen",
+        "eine",
+        "Rücksicht",
+        "ich",
+        "Ihnen",
+        "noch",
+        "Darf",
+        "treffen",
+        "abends"
+      ],
+      "answers": [
+        "Darf ich Ihnen noch eine Frage stellen?"
+      ],
+      "explanation": "**eine Frage stellen** = to ask a question"
+    },
+    {
+      "id": "tb1-u20-l08-noun-verb-combinations-1-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which one means „to play a role“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "eine Prüfung ablegen"
+        },
+        {
+          "id": "b",
+          "text": "Bescheid geben"
+        },
+        {
+          "id": "c",
+          "text": "in Kontakt bleiben"
+        },
+        {
+          "id": "d",
+          "text": "eine Rolle spielen"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**eine Rolle spielen** = to play a role\n\n*Example:* Bei der Jobsuche spielen Sprachkenntnisse eine wichtige Rolle.\nLanguage skills play an important role when looking for a job."
+    },
+    {
+      "id": "tb1-u20-l08-noun-verb-combinations-1-ex08",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u20-l08-noun-verb-combinations-1-3.mp3"
+      },
+      "tiles": [
+        "Ich",
+        "beim",
+        "möchte",
+        "Termin",
+        "vereinbaren",
+        "Gib",
+        "gern",
+        "treffen",
+        "Bei",
+        "einen",
+        "Hausarzt"
+      ],
+      "answers": [
+        "Ich möchte gern einen Termin beim Hausarzt vereinbaren."
+      ],
+      "explanation": "Ich möchte gern einen Termin beim Hausarzt vereinbaren.\n*I'd like to make an appointment with my GP.*\n\n**einen Termin vereinbaren** = to arrange an appointment"
+    },
+    {
+      "id": "tb1-u20-l08-noun-verb-combinations-1-ex09",
+      "type": "multiple_choice",
+      "prompt": "Which one means „to stay in touch“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "in Kontakt bleiben"
+        },
+        {
+          "id": "b",
+          "text": "eine Entscheidung fällen"
+        },
+        {
+          "id": "c",
+          "text": "einen Fehler machen"
+        },
+        {
+          "id": "d",
+          "text": "eine Prüfung ablegen"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**in Kontakt bleiben** = to stay in touch\n\n*Example:* Nach dem Umzug wollen wir unbedingt in Kontakt bleiben.\nAfter the move we really want to stay in touch."
+    },
+    {
+      "id": "tb1-u20-l08-noun-verb-combinations-1-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Bei der Jobsuche spielen Sprachkenntnisse eine wichtige Rolle.",
+      "tiles": [
+        "As",
+        "with",
+        "make",
+        "when",
+        "an",
+        "job",
+        "Language",
+        "a",
+        "skills",
+        "looking",
+        "play",
+        "for",
+        "important",
+        "role"
+      ],
+      "answers": [
+        "Language skills play an important role when looking for a job."
+      ],
+      "explanation": "**eine Rolle spielen** = to play a role"
+    },
+    {
+      "id": "tb1-u20-l08-noun-verb-combinations-1-ex11",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "After the move we really want to stay in touch.",
+      "tiles": [
+        "Umzug",
+        "Kontakt",
+        "wollen",
+        "bleiben",
+        "Mitarbeiter",
+        "zur",
+        "dem",
+        "einen",
+        "in",
+        "Nach",
+        "wir",
+        "unbedingt"
+      ],
+      "answers": [
+        "Nach dem Umzug wollen wir unbedingt in Kontakt bleiben."
+      ],
+      "explanation": "**in Kontakt bleiben** = to stay in touch"
+    }
+  ]
+}

@@ -1,0 +1,251 @@
+{
+  "id": "tb1-u18-l07-useful-phrases-2",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u18",
+  "title": "Useful Phrases 2",
+  "tip": "Theme: Redemittel (B1)",
+  "exercises": [
+    {
+      "id": "tb1-u18-l07-useful-phrases-2-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "Einerseits …, andererseits …",
+          "known": "On the one hand …"
+        },
+        {
+          "id": "p2",
+          "learning": "Im Gegensatz dazu …",
+          "known": "In contrast to that …"
+        },
+        {
+          "id": "p3",
+          "learning": "Das liegt daran, dass …",
+          "known": "That's because …"
+        },
+        {
+          "id": "p4",
+          "learning": "Aus meiner Sicht …",
+          "known": "From my point of view …"
+        },
+        {
+          "id": "p5",
+          "learning": "Ich halte das für eine gute Idee",
+          "known": "I consider that a good idea."
+        }
+      ]
+    },
+    {
+      "id": "tb1-u18-l07-useful-phrases-2-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which one means „On the one hand …, on the other …“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Es wäre besser, wenn …"
+        },
+        {
+          "id": "b",
+          "text": "Soweit ich weiß, … (+ verb next!)"
+        },
+        {
+          "id": "c",
+          "text": "Einerseits …, andererseits …"
+        },
+        {
+          "id": "d",
+          "text": "Für mich ist es wichtig, dass …"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**Einerseits …, andererseits …** = On the one hand …, on the other …\n\n*Example:* Einerseits ist die Stadt laut, andererseits gibt es viele Freizeitangebote.\nOn the one hand the city is noisy, on the other hand there are lots of leisure activities."
+    },
+    {
+      "id": "tb1-u18-l07-useful-phrases-2-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which one means „In contrast to that …“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Aus meiner Sicht …"
+        },
+        {
+          "id": "b",
+          "text": "Zusammenfassend kann man sagen, dass …"
+        },
+        {
+          "id": "c",
+          "text": "Im Gegensatz dazu …"
+        },
+        {
+          "id": "d",
+          "text": "Aus diesem Grund … (+ verb next!)"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**Im Gegensatz dazu …** = In contrast to that …\n\n*Example:* In Berlin sind die Mieten hoch. Im Gegensatz dazu wohnt man auf dem Land billig.\nRents are high in Berlin. In contrast to that, living in the countryside is cheap."
+    },
+    {
+      "id": "tb1-u18-l07-useful-phrases-2-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "On the one hand the city is noisy, on the other hand there are lots of leisure activities.",
+      "tiles": [
+        "andererseits",
+        "Tom",
+        "die",
+        "ist",
+        "laut",
+        "viele",
+        "wenn",
+        "Freizeitangebote",
+        "Stadt",
+        "zu",
+        "gibt",
+        "es",
+        "Einerseits"
+      ],
+      "answers": [
+        "Einerseits ist die Stadt laut, andererseits gibt es viele Freizeitangebote."
+      ],
+      "explanation": "**Einerseits …, andererseits …** = On the one hand …, on the other …"
+    },
+    {
+      "id": "tb1-u18-l07-useful-phrases-2-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which one means „That may be true, still, I think that …“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Das mag stimmen, trotzdem denke ich, dass …"
+        },
+        {
+          "id": "b",
+          "text": "Zuerst …, dann …, zum Schluss …"
+        },
+        {
+          "id": "c",
+          "text": "Soweit ich weiß, … (+ verb next!)"
+        },
+        {
+          "id": "d",
+          "text": "Ein Beispiel dafür ist …"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Das mag stimmen, trotzdem denke ich, dass …** = That may be true, still, I think that …\n\n*Example:* Das mag stimmen, trotzdem denke ich, dass Kinder draußen spielen sollten.\nThat may be true; still, I think children should play outside."
+    },
+    {
+      "id": "tb1-u18-l07-useful-phrases-2-ex06",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u18-l07-useful-phrases-2-2.mp3"
+      },
+      "tiles": [
+        "Mieten",
+        "dem",
+        "hoch",
+        "Im",
+        "wohnt",
+        "die",
+        "dazu",
+        "Gegensatz",
+        "man",
+        "Berlin",
+        "Aus",
+        "auf",
+        "ich",
+        "billig",
+        "sofort",
+        "sind",
+        "In",
+        "Land"
+      ],
+      "answers": [
+        "In Berlin sind die Mieten hoch. Im Gegensatz dazu wohnt man auf dem Land billig."
+      ],
+      "explanation": "In Berlin sind die Mieten hoch. Im Gegensatz dazu wohnt man auf dem Land billig.\n*Rents are high in Berlin. In contrast to that, living in the countryside is cheap.*\n\n**Im Gegensatz dazu …** = In contrast to that …"
+    },
+    {
+      "id": "tb1-u18-l07-useful-phrases-2-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which one means „That's because …“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Das hat den Vorteil / den Nachteil, dass …"
+        },
+        {
+          "id": "b",
+          "text": "Besonders gut gefällt mir, dass …"
+        },
+        {
+          "id": "c",
+          "text": "Das liegt daran, dass …"
+        },
+        {
+          "id": "d",
+          "text": "Zuerst …, dann …, zum Schluss …"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**Das liegt daran, dass …** = That's because …\n\n*Example:* Viele Leute kommen zu spät. Das liegt daran, dass der Bus oft Verspätung hat.\nMany people are late. That's because the bus is often delayed."
+    },
+    {
+      "id": "tb1-u18-l07-useful-phrases-2-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Das mag stimmen, trotzdem denke ich, dass Kinder draußen spielen sollten.",
+      "tiles": [
+        "children",
+        "still",
+        "traffic",
+        "be",
+        "That",
+        "two",
+        "think",
+        "true",
+        "holiday",
+        "may",
+        "should",
+        "outside",
+        "I",
+        "play"
+      ],
+      "answers": [
+        "That may be true; still, I think children should play outside."
+      ],
+      "explanation": "**Das mag stimmen, trotzdem denke ich, dass …** = That may be true, still, I think that …"
+    },
+    {
+      "id": "tb1-u18-l07-useful-phrases-2-ex09",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Many people are late. That's because the bus is often delayed.",
+      "tiles": [
+        "liegt",
+        "Leute",
+        "zu",
+        "hat",
+        "oft",
+        "daran",
+        "Verspätung",
+        "dass",
+        "Viele",
+        "kommen",
+        "spät",
+        "Bus",
+        "am",
+        "der",
+        "Das",
+        "fährt",
+        "Balkon"
+      ],
+      "answers": [
+        "Viele Leute kommen zu spät. Das liegt daran, dass der Bus oft Verspätung hat."
+      ],
+      "explanation": "**Das liegt daran, dass …** = That's because …"
+    }
+  ]
+}

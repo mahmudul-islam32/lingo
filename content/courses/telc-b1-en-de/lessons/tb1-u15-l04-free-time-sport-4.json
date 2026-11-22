@@ -1,0 +1,290 @@
+{
+  "id": "tb1-u15-l04-free-time-sport-4",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u15",
+  "title": "Free Time & Sport 4",
+  "tip": "Theme: Freizeit / Sport (B1)",
+  "exercises": [
+    {
+      "id": "tb1-u15-l04-free-time-sport-4-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "die Veranstaltung",
+          "known": "event"
+        },
+        {
+          "id": "p2",
+          "learning": "stattfinden",
+          "known": "to take place"
+        },
+        {
+          "id": "p3",
+          "learning": "das Konzert",
+          "known": "concert"
+        },
+        {
+          "id": "p4",
+          "learning": "die Eintrittskarte",
+          "known": "ticket"
+        },
+        {
+          "id": "p5",
+          "learning": "kostenlos",
+          "known": "free of charge"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u15-l04-free-time-sport-4-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „event“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "das Konzert, die Konzerte · die Ausstellung, die Ausstellungen"
+        },
+        {
+          "id": "b",
+          "text": "die Veranstaltung, die Veranstaltungen"
+        },
+        {
+          "id": "c",
+          "text": "der Verein, die Vereine: das Mitglied, die Mitglieder"
+        },
+        {
+          "id": "d",
+          "text": "die Mannschaft, die Mannschaften"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**die Veranstaltung** = event\n*Plural: die Veranstaltungen*\n\n*Example:* Die Stadt organisiert im Sommer viele Veranstaltungen für Familien.\nThe city organises lots of events for families in summer."
+    },
+    {
+      "id": "tb1-u15-l04-free-time-sport-4-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which verb means „to take place, listen for it in HV!“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "sich treffen mit + Dat. (hat sich getroffen)"
+        },
+        {
+          "id": "b",
+          "text": "wandern (ist gewandert) · spazieren gehen (ist spazieren gegangen)"
+        },
+        {
+          "id": "c",
+          "text": "stattfinden (hat stattgefunden)"
+        },
+        {
+          "id": "d",
+          "text": "schwimmen (ist geschwommen), das Schwimmbad, die Schwimmbäder"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**stattfinden (hat stattgefunden)** = to take place, listen for it in HV!\n\n*Example:* Das Sommerfest findet am Samstag im Park statt.\nThe summer festival takes place in the park on Saturday."
+    },
+    {
+      "id": "tb1-u15-l04-free-time-sport-4-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Die Stadt organisiert im Sommer viele Veranstaltungen für Familien.",
+      "tiles": [
+        "home",
+        "a",
+        "city",
+        "organises",
+        "for",
+        "events",
+        "in",
+        "of",
+        "hour",
+        "summer",
+        "The",
+        "lots",
+        "families"
+      ],
+      "answers": [
+        "The city organises lots of events for families in summer."
+      ],
+      "explanation": "**die Veranstaltung** = event\n*Plural: die Veranstaltungen*"
+    },
+    {
+      "id": "tb1-u15-l04-free-time-sport-4-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „concert · exhibition“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Freizeit (nur Sg.) · das Hobby, die Hobbys"
+        },
+        {
+          "id": "b",
+          "text": "die Eintrittskarte, die Eintrittskarten, der Eintritt. Der Eintritt ist frei."
+        },
+        {
+          "id": "c",
+          "text": "der Verein, die Vereine: das Mitglied, die Mitglieder"
+        },
+        {
+          "id": "d",
+          "text": "das Konzert, die Konzerte · die Ausstellung, die Ausstellungen"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**das Konzert** = concert · exhibition\n*Plural: die Konzerte · also: die Ausstellung, die Ausstellungen*\n\n*Example:* Gestern waren wir in einem Konzert, und morgen besuchen wir eine Ausstellung.\nYesterday we went to a concert, and tomorrow we're visiting an exhibition."
+    },
+    {
+      "id": "tb1-u15-l04-free-time-sport-4-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "The summer festival takes place in the park on Saturday.",
+      "tiles": [
+        "Sommerfest",
+        "Museum",
+        "etwas",
+        "Park",
+        "am",
+        "Samstag",
+        "statt",
+        "findet",
+        "Das",
+        "Freunden",
+        "im"
+      ],
+      "answers": [
+        "Das Sommerfest findet am Samstag im Park statt."
+      ],
+      "explanation": "**stattfinden (hat stattgefunden)** = to take place, listen for it in HV!"
+    },
+    {
+      "id": "tb1-u15-l04-free-time-sport-4-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „ticket, admission. Admission is free.“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Freizeit (nur Sg.) · das Hobby, die Hobbys"
+        },
+        {
+          "id": "b",
+          "text": "die Eintrittskarte, die Eintrittskarten, der Eintritt. Der Eintritt ist frei."
+        },
+        {
+          "id": "c",
+          "text": "das Konzert, die Konzerte · die Ausstellung, die Ausstellungen"
+        },
+        {
+          "id": "d",
+          "text": "der Verein, die Vereine: das Mitglied, die Mitglieder"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**die Eintrittskarte, die Eintrittskarten, der Eintritt. Der Eintritt ist frei.** = ticket, admission. Admission is free.\n\n*Example:* Für das Museum brauchst du keine Eintrittskarte, der Eintritt ist frei.\nYou don't need a ticket for the museum; admission is free."
+    },
+    {
+      "id": "tb1-u15-l04-free-time-sport-4-ex08",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u15-l04-free-time-sport-4-3.mp3"
+      },
+      "tiles": [
+        "eine",
+        "wir",
+        "einem",
+        "und",
+        "in",
+        "waren",
+        "besuchen",
+        "wir",
+        "Ausstellung",
+        "Stadtpark",
+        "Sonntag",
+        "Konzert",
+        "male",
+        "Gestern",
+        "morgen"
+      ],
+      "answers": [
+        "Gestern waren wir in einem Konzert, und morgen besuchen wir eine Ausstellung."
+      ],
+      "explanation": "Gestern waren wir in einem Konzert, und morgen besuchen wir eine Ausstellung.\n*Yesterday we went to a concert, and tomorrow we're visiting an exhibition.*\n\n**das Konzert** = concert · exhibition\n*Plural: die Konzerte · also: die Ausstellung, die Ausstellungen*"
+    },
+    {
+      "id": "tb1-u15-l04-free-time-sport-4-ex09",
+      "type": "multiple_choice",
+      "prompt": "Which one means „free of charge“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "sich freuen auf + Akk. (future) ↔ sich freuen über + Akk. (now)"
+        },
+        {
+          "id": "b",
+          "text": "kostenlos"
+        },
+        {
+          "id": "c",
+          "text": "trainieren, das Training (nur Sg.)"
+        },
+        {
+          "id": "d",
+          "text": "lesen: der Roman, die Romane"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**kostenlos** = free of charge\n\n*Example:* Die Stadtbibliothek bietet kostenlose Kurse für Kinder an.\nThe city library offers free courses for children."
+    },
+    {
+      "id": "tb1-u15-l04-free-time-sport-4-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Für das Museum brauchst du keine Eintrittskarte, der Eintritt ist frei.",
+      "tiles": [
+        "keeps",
+        "a",
+        "ticket",
+        "the",
+        "for",
+        "free",
+        "museum",
+        "You",
+        "admission",
+        "don't",
+        "is",
+        "need",
+        "about",
+        "At"
+      ],
+      "answers": [
+        "You don't need a ticket for the museum; admission is free."
+      ],
+      "explanation": "**die Eintrittskarte, die Eintrittskarten, der Eintritt. Der Eintritt ist frei.** = ticket, admission. Admission is free."
+    },
+    {
+      "id": "tb1-u15-l04-free-time-sport-4-ex11",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "The city library offers free courses for children.",
+      "tiles": [
+        "Stadtbibliothek",
+        "Kinder",
+        "Kurse",
+        "liebstes",
+        "spannenden",
+        "bietet",
+        "Die",
+        "kostenlose",
+        "für",
+        "Stadtpark",
+        "an"
+      ],
+      "answers": [
+        "Die Stadtbibliothek bietet kostenlose Kurse für Kinder an."
+      ],
+      "explanation": "**kostenlos** = free of charge"
+    }
+  ]
+}

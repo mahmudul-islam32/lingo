@@ -1,0 +1,322 @@
+{
+  "id": "tb1-u30-l15-zweiteilig-p1",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u30",
+  "title": "Two-Part Connectors: nicht nur … sondern auch & sowohl … als auch",
+  "tip": "Never add “nicht” to “weder … noch”: Ich habe weder Zeit noch Geld. And after “nicht nur” comes “sondern auch”, not “aber auch”.",
+  "exercises": [
+    {
+      "id": "tb1-u30-l15-zweiteilig-p1-ex01",
+      "type": "explain",
+      "title": "nicht nur … sondern auch",
+      "body": "Two things, the second one is additional (often surprising).\n\n*Deutsch:* Zwei Dinge, das zweite ist zusätzlich (oft überraschend).\n\n## Pattern\n\n… **nicht nur** A, **sondern auch** B.",
+      "examples": [
+        {
+          "learning": "Sie spricht nicht nur Englisch, sondern auch Arabisch.",
+          "known": "She speaks not only English but also Arabic."
+        },
+        {
+          "learning": "Die Wohnung ist nicht nur groß, sondern auch günstig.",
+          "known": "The flat is not only big but also cheap."
+        }
+      ]
+    },
+    {
+      "id": "tb1-u30-l15-zweiteilig-p1-ex02",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "She speaks not only English but also Arabic.",
+      "tiles": [
+        "sondern",
+        "Englisch",
+        "auch",
+        "Kurs",
+        "nicht",
+        "Sie",
+        "nur",
+        "spricht",
+        "in",
+        "Arabisch",
+        "Wohnung"
+      ],
+      "answers": [
+        "Sie spricht nicht nur Englisch, sondern auch Arabisch."
+      ],
+      "explanation": "**Why:** Two languages, the second is added.\n\n*Warum:* Zwei Sprachen, die zweite kommt dazu."
+    },
+    {
+      "id": "tb1-u30-l15-zweiteilig-p1-ex03",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "The flat is not only big but also cheap.",
+      "tiles": [
+        "sondern",
+        "ist",
+        "nur",
+        "groß",
+        "weder",
+        "wohnt",
+        "günstig",
+        "nicht",
+        "mir",
+        "auch",
+        "Wohnung",
+        "Die"
+      ],
+      "answers": [
+        "Die Wohnung ist nicht nur groß, sondern auch günstig."
+      ],
+      "explanation": "**Why:** Works with adjectives too.\n\n*Warum:* Funktioniert auch mit Adjektiven."
+    },
+    {
+      "id": "tb1-u30-l15-zweiteilig-p1-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I didn't just cook, I also tidied up.",
+      "tiles": [
+        "auch",
+        "sondern",
+        "noch",
+        "nicht",
+        "nur",
+        "Das",
+        "gekocht",
+        "Ich",
+        "habe",
+        "nachts",
+        "aufgeräumt"
+      ],
+      "answers": [
+        "Ich habe nicht nur gekocht, sondern auch aufgeräumt."
+      ],
+      "explanation": "**Why:** The shared habe appears only once.\n\n*Warum:* Gemeinsames habe steht nur einmal."
+    },
+    {
+      "id": "tb1-u30-l15-zweiteilig-p1-ex05",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Not only the children but also the parents had fun.",
+      "tiles": [
+        "Je",
+        "Sowohl",
+        "hatten",
+        "Nicht",
+        "sondern",
+        "auch",
+        "Eltern",
+        "ich",
+        "die",
+        "Spaß",
+        "nur",
+        "Kinder",
+        "die"
+      ],
+      "answers": [
+        "Nicht nur die Kinder, sondern auch die Eltern hatten Spaß."
+      ],
+      "explanation": "**Why:** Possible at the start as the subject.\n\n*Warum:* Am Satzanfang als Subjekt möglich."
+    },
+    {
+      "id": "tb1-u30-l15-zweiteilig-p1-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "He works not only at weekends but also at night.",
+      "tiles": [
+        "arbeitet",
+        "nachts",
+        "ruhig",
+        "Wochenende",
+        "nicht",
+        "Er",
+        "komme",
+        "sondern",
+        "nur",
+        "am",
+        "auch",
+        "zwar"
+      ],
+      "answers": [
+        "Er arbeitet nicht nur am Wochenende, sondern auch nachts."
+      ],
+      "explanation": "**Why:** Two time phrases joined.\n\n*Warum:* Zwei Zeitangaben verbunden."
+    },
+    {
+      "id": "tb1-u30-l15-zweiteilig-p1-ex07",
+      "type": "explain",
+      "title": "sowohl … als auch",
+      "body": "both A and B (neutral, a bit more formal than “und”).\n\n*Deutsch:* beides: A und B (neutral, etwas formeller als „und“).\n\n## Pattern\n\n… **sowohl** A **als auch** B.",
+      "examples": [
+        {
+          "learning": "Ich trinke sowohl Kaffee als auch Tee.",
+          "known": "I drink both coffee and tea."
+        },
+        {
+          "learning": "Sowohl mein Mann als auch ich arbeiten in Teilzeit.",
+          "known": "Both my husband and I work part-time."
+        }
+      ]
+    },
+    {
+      "id": "tb1-u30-l15-zweiteilig-p1-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I drink both coffee and tea.",
+      "tiles": [
+        "als",
+        "Kaffee",
+        "sowohl",
+        "nur",
+        "Tee",
+        "Ich",
+        "eine",
+        "in",
+        "auch",
+        "trinke"
+      ],
+      "answers": [
+        "Ich trinke sowohl Kaffee als auch Tee."
+      ],
+      "explanation": "**Why:** Both apply.\n\n*Warum:* Beides gilt."
+    },
+    {
+      "id": "tb1-u30-l15-zweiteilig-p1-ex09",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Both my husband and I work part-time.",
+      "tiles": [
+        "Sowohl",
+        "Teilzeit",
+        "noch",
+        "wir",
+        "als",
+        "in",
+        "arbeiten",
+        "auch",
+        "ich",
+        "Mann",
+        "komme",
+        "mein"
+      ],
+      "answers": [
+        "Sowohl mein Mann als auch ich arbeiten in Teilzeit."
+      ],
+      "explanation": "**Why:** Two subjects → plural verb (arbeiten).\n\n*Warum:* Zwei Subjekte → Verb im Plural (arbeiten)."
+    },
+    {
+      "id": "tb1-u30-l15-zweiteilig-p1-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "The course takes place both in the morning and in the evening.",
+      "tiles": [
+        "Kurs",
+        "morgens",
+        "sowohl",
+        "Der",
+        "findet",
+        "statt",
+        "als",
+        "ich",
+        "abends",
+        "auch",
+        "gekocht",
+        "meine"
+      ],
+      "answers": [
+        "Der Kurs findet sowohl morgens als auch abends statt."
+      ],
+      "explanation": "**Why:** Two time phrases.\n\n*Warum:* Zwei Zeitangaben."
+    },
+    {
+      "id": "tb1-u30-l15-zweiteilig-p1-ex11",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "You can pay both in cash and by card.",
+      "tiles": [
+        "Karte",
+        "bezahlen",
+        "kann",
+        "Kurs",
+        "Man",
+        "als",
+        "auch",
+        "mit",
+        "sowohl",
+        "bar",
+        "gekocht",
+        "sicherer"
+      ],
+      "answers": [
+        "Man kann sowohl bar als auch mit Karte bezahlen."
+      ],
+      "explanation": "**Why:** Typical in ads (Reading part 3).\n\n*Warum:* Typisch in Anzeigen (Lesen Teil 3)."
+    },
+    {
+      "id": "tb1-u30-l15-zweiteilig-p1-ex12",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "The hotel is suitable for both families and business people.",
+      "tiles": [
+        "sowohl",
+        "Das",
+        "Geschäftsleute",
+        "auch",
+        "wird",
+        "mir",
+        "Hotel",
+        "sondern",
+        "ist",
+        "für",
+        "geeignet",
+        "Familien",
+        "als",
+        "für"
+      ],
+      "answers": [
+        "Das Hotel ist sowohl für Familien als auch für Geschäftsleute geeignet."
+      ],
+      "explanation": "**Why:** Two prepositional phrases.\n\n*Warum:* Zwei Präpositionalgruppen."
+    },
+    {
+      "id": "tb1-u30-l15-zweiteilig-p1-ex13",
+      "type": "choice",
+      "title": "Fill the gap",
+      "prompt": "Wir fahren ___ ans Meer oder in die Berge.",
+      "options": [
+        {
+          "id": "a",
+          "text": "zwar"
+        },
+        {
+          "id": "b",
+          "text": "entweder"
+        },
+        {
+          "id": "c",
+          "text": "weder"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Wahl zwischen zwei Optionen: entweder … oder."
+    },
+    {
+      "id": "tb1-u30-l15-zweiteilig-p1-ex14",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Word order: put all the words in the correct order.",
+      "tiles": [
+        "spricht",
+        "Englisch",
+        "nicht",
+        "sondern",
+        "Er",
+        "nur",
+        "Deutsch",
+        "auch"
+      ],
+      "answers": [
+        "Er spricht nicht nur Deutsch sondern auch Englisch"
+      ],
+      "explanation": "nicht nur … sondern auch … verbindet zwei Teile."
+    }
+  ]
+}

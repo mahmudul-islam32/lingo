@@ -1,0 +1,289 @@
+{
+  "id": "tb1-u16-l01-food-restaurants-1",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u16",
+  "title": "Food & Restaurants 1",
+  "tip": "Theme: Essen / Trinken / Restaurant (B1)",
+  "exercises": [
+    {
+      "id": "tb1-u16-l01-food-restaurants-1-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "die Speisekarte",
+          "known": "menu"
+        },
+        {
+          "id": "p2",
+          "learning": "das Gericht",
+          "known": "dish"
+        },
+        {
+          "id": "p3",
+          "learning": "die Vorspeise",
+          "known": "starter"
+        },
+        {
+          "id": "p4",
+          "learning": "bestellen",
+          "known": "to order"
+        },
+        {
+          "id": "p5",
+          "learning": "probieren",
+          "known": "to try"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u16-l01-food-restaurants-1-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „menu“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "das Gericht, die Gerichte"
+        },
+        {
+          "id": "b",
+          "text": "die Speisekarte, die Speisekarten"
+        },
+        {
+          "id": "c",
+          "text": "das Trinkgeld, die Trinkgelder"
+        },
+        {
+          "id": "d",
+          "text": "das Fleisch (nur Sg.) · der Fisch, die Fische"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**die Speisekarte** = menu\n*Plural: die Speisekarten*\n\n*Example:* Könnten Sie uns bitte die Speisekarte bringen?\nCould you bring us the menu, please?"
+    },
+    {
+      "id": "tb1-u16-l01-food-restaurants-1-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „dish“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "das Gericht, die Gerichte"
+        },
+        {
+          "id": "b",
+          "text": "die Vorspeise, die Vorspeisen · das Hauptgericht, die Hauptgerichte · der Nachtisch, die Nachtische"
+        },
+        {
+          "id": "c",
+          "text": "das Gemüse (nur Sg.) · das Obst (nur Sg.)"
+        },
+        {
+          "id": "d",
+          "text": "das Getränk, die Getränke"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**das Gericht** = dish\n*Plural: die Gerichte*\n\n*Example:* Dieses Restaurant hat viele Gerichte aus der Türkei.\nThis restaurant has lots of dishes from Turkey."
+    },
+    {
+      "id": "tb1-u16-l01-food-restaurants-1-ex04",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u16-l01-food-restaurants-1-1.mp3"
+      },
+      "tiles": [
+        "die",
+        "bringen",
+        "Trinkgeld",
+        "Mein",
+        "Könnten",
+        "Sie",
+        "er",
+        "Speisekarte",
+        "uns",
+        "bitte"
+      ],
+      "answers": [
+        "Könnten Sie uns bitte die Speisekarte bringen?"
+      ],
+      "explanation": "Könnten Sie uns bitte die Speisekarte bringen?\n*Could you bring us the menu, please?*\n\n**die Speisekarte** = menu\n*Plural: die Speisekarten*"
+    },
+    {
+      "id": "tb1-u16-l01-food-restaurants-1-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „starter · main course · dessert“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "das Gericht, die Gerichte"
+        },
+        {
+          "id": "b",
+          "text": "die Vorspeise, die Vorspeisen · das Hauptgericht, die Hauptgerichte · der Nachtisch, die Nachtische"
+        },
+        {
+          "id": "c",
+          "text": "der Hunger: hungrig · der Durst: durstig"
+        },
+        {
+          "id": "d",
+          "text": "das Getränk, die Getränke"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**die Vorspeise** = starter · main course · dessert\n*Plural: die Vorspeisen · also: das Hauptgericht, die Hauptgerichte · der Nachtisch, die Nachtische*\n\n*Example:* Als Vorspeise nehme ich eine Suppe und als Nachtisch ein Eis.\nI'll have a soup as a starter and an ice cream for dessert."
+    },
+    {
+      "id": "tb1-u16-l01-food-restaurants-1-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Dieses Restaurant hat viele Gerichte aus der Türkei.",
+      "tiles": [
+        "has",
+        "from",
+        "of",
+        "dishes",
+        "so",
+        "for",
+        "lots",
+        "I'll",
+        "restaurant",
+        "Turkey",
+        "This"
+      ],
+      "answers": [
+        "This restaurant has lots of dishes from Turkey."
+      ],
+      "explanation": "**das Gericht** = dish\n*Plural: die Gerichte*"
+    },
+    {
+      "id": "tb1-u16-l01-food-restaurants-1-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which one means „to order“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "lecker · süß · salzig · scharf · sauer"
+        },
+        {
+          "id": "b",
+          "text": "einen Tisch reservieren: für vier Personen"
+        },
+        {
+          "id": "c",
+          "text": "satt. Ich bin satt."
+        },
+        {
+          "id": "d",
+          "text": "bestellen"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**bestellen** = to order\n\n*Example:* Mein Mann bestellt im Restaurant immer Schnitzel mit Pommes.\nMy husband always orders schnitzel and chips at the restaurant."
+    },
+    {
+      "id": "tb1-u16-l01-food-restaurants-1-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I'll have a soup as a starter and an ice cream for dessert.",
+      "tiles": [
+        "ich",
+        "Vorspeise",
+        "ihrer",
+        "Eis",
+        "Nachtisch",
+        "eine",
+        "bitte",
+        "vier",
+        "Als",
+        "und",
+        "nehme",
+        "ein",
+        "Suppe",
+        "als"
+      ],
+      "answers": [
+        "Als Vorspeise nehme ich eine Suppe und als Nachtisch ein Eis."
+      ],
+      "explanation": "**die Vorspeise** = starter · main course · dessert\n*Plural: die Vorspeisen · also: das Hauptgericht, die Hauptgerichte · der Nachtisch, die Nachtische*"
+    },
+    {
+      "id": "tb1-u16-l01-food-restaurants-1-ex09",
+      "type": "multiple_choice",
+      "prompt": "Which verb means „to recommend. What can you recommend?“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "sich gesund ernähren: die Ernährung"
+        },
+        {
+          "id": "b",
+          "text": "kochen · backen (hat gebacken) · zubereiten (hat zubereitet)"
+        },
+        {
+          "id": "c",
+          "text": "empfehlen + Dat. + Akk. (hat empfohlen). Was können Sie mir empfehlen?"
+        },
+        {
+          "id": "d",
+          "text": "einladen + Akk. zu + Dat. (hat eingeladen)"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**empfehlen + Dat. + Akk. (hat empfohlen). Was können Sie mir empfehlen?** = to recommend. What can you recommend?\n\n*Example:* Der Kellner hat uns den Fisch empfohlen, und er war wirklich gut.\nThe waiter recommended the fish to us, and it was really good."
+    },
+    {
+      "id": "tb1-u16-l01-food-restaurants-1-ex10",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u16-l01-food-restaurants-1-4.mp3"
+      },
+      "tiles": [
+        "Mein",
+        "Mann",
+        "mit",
+        "bestellt",
+        "immer",
+        "Schnitzel",
+        "Restaurant",
+        "im",
+        "hat",
+        "Pommes",
+        "wir",
+        "empfehlen"
+      ],
+      "answers": [
+        "Mein Mann bestellt im Restaurant immer Schnitzel mit Pommes."
+      ],
+      "explanation": "Mein Mann bestellt im Restaurant immer Schnitzel mit Pommes.\n*My husband always orders schnitzel and chips at the restaurant.*\n\n**bestellen** = to order"
+    },
+    {
+      "id": "tb1-u16-l01-food-restaurants-1-ex11",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Der Kellner hat uns den Fisch empfohlen, und er war wirklich gut.",
+      "tiles": [
+        "waiter",
+        "The",
+        "good",
+        "schnitzel",
+        "was",
+        "fish",
+        "us",
+        "it",
+        "recommended",
+        "and",
+        "really",
+        "like",
+        "on",
+        "to",
+        "the"
+      ],
+      "answers": [
+        "The waiter recommended the fish to us, and it was really good."
+      ],
+      "explanation": "**empfehlen + Dat. + Akk. (hat empfohlen). Was können Sie mir empfehlen?** = to recommend. What can you recommend?"
+    }
+  ]
+}
