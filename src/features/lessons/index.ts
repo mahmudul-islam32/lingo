@@ -7,6 +7,13 @@ export type {
 } from "./exercises/types";
 export { exerciseComponents } from "./exercises/registry";
 export {
+  createSoundEffects,
+  sharedSoundEffects,
+  silentSoundEffects,
+  type SoundEffect,
+  type SoundEffects,
+} from "./sound/sound-effects";
+export {
   buildLessonResult,
   LessonPlayer,
   LessonPlayerError,

@@ -189,6 +189,8 @@ export function LessonScreen({
       onFinish={handleFinish}
       onQuit={goToLearn}
       onRetry={retryLoad}
+      // LES-012: on by default (DEFAULT_SETTINGS); Profile → Sound effects turns it off.
+      soundEffectsEnabled={settings.data?.soundEffectsEnabled ?? true}
       {...(components ? { components } : {})}
     />
   );
