@@ -3,7 +3,7 @@
   "courseId": "einbuergerung-en-de",
   "unitId": "eb-u14",
   "title": "Mock test 9 (Probetest 9)",
-  "tip": "Real format: 30 general + 3 Nordrhein-Westfalen questions. Allow 60 minutes; 17 correct to pass, aim for 28+.",
+  "tip": "Real format: 30 general + 3 Niedersachsen questions. Allow 60 minutes; 17 correct to pass, aim for 28+.",
   "exercises": [
     {
       "id": "eb-u14-l10-probetest-9-ex01",
@@ -29,7 +29,7 @@
         }
       ],
       "correctOptionId": "b",
-      "explanation": "**Correct answer:** Elsass-Lothringen\n\n**Elsass-Lothringen** (Alsace-Lorraine) is in **France**. German-ruled 1871–1918, which is exactly why it works as a trap.\n\nNRW (yours), Mecklenburg-Vorpommern, and Sachsen-Anhalt are all real Länder. If a name sounds historical-imperial (Elsass, Schlesien, Ostpreußen), it's a distractor, those regions are French or Polish/Russian today.\n\n## Auf Deutsch\n\nElsass-Lothringen liegt in Frankreich, kein deutsches Bundesland."
+      "explanation": "**Correct answer:** Elsass-Lothringen\n\n**Elsass-Lothringen** (Alsace-Lorraine) is in **France**. German-ruled 1871–1918, which is exactly why it works as a trap.\n\nNRW, Mecklenburg-Vorpommern, and Sachsen-Anhalt are all real Länder. If a name sounds historical-imperial (Elsass, Schlesien, Ostpreußen), it's a distractor, those regions are French or Polish/Russian today.\n\n## Auf Deutsch\n\nElsass-Lothringen liegt in Frankreich, kein deutsches Bundesland."
     },
     {
       "id": "eb-u14-l10-probetest-9-ex02",
@@ -55,7 +55,7 @@
         }
       ],
       "correctOptionId": "d",
-      "explanation": "**Correct answer:** eine eigene Regierung\n\nEvery Land has its own government (Landesregierung), parliament (Landtag), and constitution.\n\nForeign affairs, currency, and the military are **exclusively federal**, the trio the Länder conspicuously lack. →NRW-Q10 tests exactly this: NRW has no foreign minister. Federalism = shared power, not 16 mini-countries.\n\n## Auf Deutsch\n\nJedes Bundesland hat eine eigene Regierung, aber keinen eigenen Außenminister."
+      "explanation": "**Correct answer:** eine eigene Regierung\n\nEvery Land has its own government (Landesregierung), parliament (Landtag), and constitution.\n\nForeign affairs, currency, and the military are **exclusively federal**, the trio the Länder conspicuously lack. →NDS-10 tests exactly this: Niedersachsen has no foreign minister. Federalism = shared power, not 16 mini-countries.\n\n## Auf Deutsch\n\nJedes Bundesland hat eine eigene Regierung, aber keinen eigenen Außenminister."
     },
     {
       "id": "eb-u14-l10-probetest-9-ex03",
@@ -211,7 +211,7 @@
         }
       ],
       "correctOptionId": "d",
-      "explanation": "**Correct answer:** Schulpolitik\n\n→Q49. Defense and foreign policy are exclusively federal; economic policy is shared; **schools belong to the Länder**. Triple-tested (Q49, Q67, Q68) plus NRW-Q10's mirror image (no Land foreign minister). BAMF is telling you what to remember about federalism.\n\n## Auf Deutsch\n\nSchulpolitik ist vor allem Aufgabe der Bundesländer."
+      "explanation": "**Correct answer:** Schulpolitik\n\n→Q49. Defense and foreign policy are exclusively federal; economic policy is shared; **schools belong to the Länder**. Triple-tested (Q49, Q67, Q68) plus NDS-10's mirror image (no Land foreign minister). BAMF is telling you what to remember about federalism.\n\n## Auf Deutsch\n\nSchulpolitik ist vor allem Aufgabe der Bundesländer."
     },
     {
       "id": "eb-u14-l10-probetest-9-ex09",
@@ -289,7 +289,7 @@
         }
       ],
       "correctOptionId": "b",
-      "explanation": "**Correct answer:** Schulpflicht\n\n**Schulpflicht**, compulsory school attendance (roughly ages 6–18 including vocational track; in NRW full-time to 16). It's enforced law, not parental choice: homeschooling is essentially illegal in Germany, unlike in many countries. Relevant to you from ~2030!\n\nNo compulsory voting (→Q114), no religious duty (→Q33); Schweigepflicht is professional confidentiality (doctors, lawyers), nothing to do with children.\n\n## Auf Deutsch\n\nFür Kinder in Deutschland gilt die Schulpflicht."
+      "explanation": "**Correct answer:** Schulpflicht\n\n**Schulpflicht**, compulsory school attendance (roughly ages 6–18 including vocational track; the exact years differ by Land). It's enforced law, not parental choice: homeschooling is essentially illegal in Germany, unlike in many countries. Relevant to you from ~2030!\n\nNo compulsory voting (→Q114), no religious duty (→Q33); Schweigepflicht is professional confidentiality (doctors, lawyers), nothing to do with children.\n\n## Auf Deutsch\n\nFür Kinder in Deutschland gilt die Schulpflicht."
     },
     {
       "id": "eb-u14-l10-probetest-9-ex12",
@@ -348,26 +348,35 @@
       "type": "choice",
       "title": "Frage 130 · Block 5",
       "prompt": "Welcher Stimmzettel wäre bei einer Bundestagswahl gültig?",
+      "figure": {
+        "images": [
+          {
+            "src": "/images/eb/q130.jpg",
+            "alt": "Four sample Bundestag ballots, numbered 1–4, each with a left column (Erststimme) and a right column (Zweitstimme). 1: one cross left, one right. 2: none left, two right. 3: two left, none right. 4: three left, none right."
+          }
+        ],
+        "credit": "Bilder: BAMF, Gesamtfragenkatalog „Leben in Deutschland“ (Stand 07.05.2025)"
+      },
       "options": [
         {
           "id": "a",
-          "text": "den Stimmzettel mit genau EINEM Kreuz in der linken und EINEM Kreuz in der rechten Spalte"
+          "text": "Stimmzettel 1"
         },
         {
           "id": "b",
-          "text": "den Stimmzettel mit zwei Kreuzen in einer Spalte"
+          "text": "Stimmzettel 2"
         },
         {
           "id": "c",
-          "text": "den Stimmzettel mit einem Kommentar am Rand"
+          "text": "Stimmzettel 3"
         },
         {
           "id": "d",
-          "text": "den Stimmzettel ohne Kreuze, aber mit Unterschrift"
+          "text": "Stimmzettel 4"
         }
       ],
       "correctOptionId": "a",
-      "explanation": "**Correct answer:** den Stimmzettel mit genau EINEM Kreuz in der linken und EINEM Kreuz in der rechten Spalte\n\n*Picture question (Bildfrage):* in the real test you see pictures here, and the answer options describe them.\n\nCorrect: the ballot with exactly ONE cross in the left column (Erststimme) and ONE cross in the right column (Zweitstimme).\n\nValidity rule: one clear mark per column, no extra writing, no ambiguity. Two crosses in one column spoils that vote; slogans or signatures can spoil the whole ballot. The columns: left = your Wahlkreis candidate, right = a party's Land list (→Q93). Practice this image in the Online-Testcenter, it's instantly obvious once seen.\n\n## Auf Deutsch\n\nGültig ist der Stimmzettel mit genau EINEM Kreuz pro Spalte (Erst- und Zweitstimme)."
+      "explanation": "**Correct answer:** Stimmzettel 1\n\n*Picture question (Bildfrage):* the pictures above are the ones from the official question catalogue.\n\nCorrect: the ballot with exactly ONE cross in the left column (Erststimme) and ONE cross in the right column (Zweitstimme).\n\n**The ballots:** 1 = one cross per column (valid) · 2 = two crosses in the Zweitstimme column · 3 = two crosses in the Erststimme column · 4 = three crosses in the Erststimme column.\n\nValidity rule: one clear mark per column, no extra writing, no ambiguity. Two crosses in one column spoils that vote; slogans or signatures can spoil the whole ballot. The columns: left = your Wahlkreis candidate, right = a party's Land list (→Q93). Practice this image in the Online-Testcenter, it's instantly obvious once seen.\n\n## Auf Deutsch\n\nGültig ist der Stimmzettel mit genau EINEM Kreuz pro Spalte (Erst- und Zweitstimme)."
     },
     {
       "id": "eb-u14-l10-probetest-9-ex15",
@@ -788,38 +797,38 @@
     {
       "id": "eb-u14-l10-probetest-9-ex31",
       "type": "choice",
-      "title": "NRW 4 · Landesfrage",
-      "prompt": "Ab welchem Alter dürfen Bürgerinnen und Bürger in Nordrhein-Westfalen bei Kommunalwahlen wählen?",
+      "title": "NDS 4 · Landesfrage",
+      "prompt": "Ab welchem Alter darf man in Niedersachsen bei Kommunalwahlen wählen?",
       "options": [
         {
           "id": "a",
-          "text": "ab 14 Jahren"
+          "text": "14"
         },
         {
           "id": "b",
-          "text": "ab 16 Jahren"
+          "text": "16"
         },
         {
           "id": "c",
-          "text": "ab 18 Jahren"
+          "text": "18"
         },
         {
           "id": "d",
-          "text": "ab 21 Jahren"
+          "text": "20"
         }
       ],
       "correctOptionId": "b",
-      "explanation": "**Correct answer:** ab 16 Jahren\n\nNRW Kommunalwahlen (city council, Bürgermeister, Landrat): voting from **16**. The age ladder one more time (→Q94, Q246): **16** NRW-Kommunal + Europa · **18** NRW-Landtag + Bundestag. September 2025's Kommunalwahl in Dortmund happened around you; the 2030 one could include two new voters at your address, three, eventually.\n\n## Auf Deutsch\n\nKommunalwahlen in NRW: wählen ab 16 Jahren."
+      "explanation": "**Correct answer:** 16\n\nFrom **16**: Niedersachsen's Kommunalwahlen (Gemeinderat, Stadtrat, Kreistag, Bürgermeister, Landrat) are open to 16-year-olds. The age ladder (→Q94, Q246): **16** Kommunalwahl in Niedersachsen + Europawahl · **18** Landtag + Bundestag.\n\n## Auf Deutsch\n\nBei Kommunalwahlen in Niedersachsen darf man ab 16 Jahren wählen."
     },
     {
       "id": "eb-u14-l10-probetest-9-ex32",
       "type": "choice",
-      "title": "NRW 5 · Landesfrage",
-      "prompt": "Welche Farben hat die Landesflagge von Nordrhein-Westfalen?",
+      "title": "NDS 5 · Landesfrage",
+      "prompt": "Welche Farben hat die Landesflagge von Niedersachsen?",
       "options": [
         {
           "id": "a",
-          "text": "grün-weiß-rot"
+          "text": "weiß-blau"
         },
         {
           "id": "b",
@@ -827,41 +836,50 @@
         },
         {
           "id": "c",
-          "text": "blau-weiß"
+          "text": "schwarz-gelb"
         },
         {
           "id": "d",
-          "text": "weiß-rot"
+          "text": "blau-weiß-rot"
         }
       ],
-      "correctOptionId": "a",
-      "explanation": "**Correct answer:** grün-weiß-rot\n\n**Grün-weiß-rot** (horizontal stripes), heraldically: Rhineland's green-white + Westphalia's white-red stitched together (→NRW-1's same merger story, told in stripes).\n\nSchwarz-rot-gold is the *Bund* (→Q214); blau-weiß = Bayern; weiß-rot = several city flags. Land ≠ Bund, the flag question is federalism's dress code.\n\n## Auf Deutsch\n\nDie NRW-Landesflagge ist grün-weiß-rot."
+      "correctOptionId": "b",
+      "explanation": "**Correct answer:** schwarz-rot-gold\n\n**Schwarz-rot-gold**, the same colours as the federal flag (→Q214), with the Land's coat of arms in the middle: the white horse on red (→NDS-1).\n\nThat is the trap: you might expect Land colours that differ from the Bund's. The decoys: weiß-blau = Bayern, schwarz-gelb = Baden-Württemberg, blau-weiß-rot = Schleswig-Holstein.\n\n## Auf Deutsch\n\nDie Landesflagge von Niedersachsen ist schwarz-rot-gold, mit dem Landeswappen (weißes Pferd auf Rot) in der Mitte."
     },
     {
       "id": "eb-u14-l10-probetest-9-ex33",
       "type": "choice",
-      "title": "NRW 8 · Landesfrage",
-      "prompt": "Welches Bundesland ist Nordrhein-Westfalen?",
+      "title": "NDS 8 · Landesfrage",
+      "prompt": "Welches Bundesland ist Niedersachsen?",
+      "figure": {
+        "images": [
+          {
+            "src": "/images/eb/nds-8.jpg",
+            "alt": "Map of Germany with four Länder highlighted and numbered: 1 is a large Land in the northwest on the North Sea; 2 is in the middle of Germany; 3 lies east of it on the Elbe; 4 is in the southeast, on the borders with Poland and the Czech Republic."
+          }
+        ],
+        "credit": "Bilder: BAMF, Gesamtfragenkatalog „Leben in Deutschland“ (Stand 07.05.2025)"
+      },
       "options": [
         {
           "id": "a",
-          "text": "das Land ganz im Westen, an der Grenze zu den Niederlanden und Belgien"
+          "text": "Fläche 1"
         },
         {
           "id": "b",
-          "text": "das Land ganz im Süden: an der Grenze zur Schweiz"
+          "text": "Fläche 2"
         },
         {
           "id": "c",
-          "text": "das Land ganz im Norden: an der Grenze zu Dänemark"
+          "text": "Fläche 3"
         },
         {
           "id": "d",
-          "text": "das Land ganz im Osten: an der Grenze zu Polen"
+          "text": "Fläche 4"
         }
       ],
       "correctOptionId": "a",
-      "explanation": "**Correct answer:** das Land ganz im Westen, an der Grenze zu den Niederlanden und Belgien\n\n*Picture question (Bildfrage):* in the real test you see pictures here, and the answer options describe them.\n\nCorrect: the westernmost highlighted Land, on the Dutch/Belgian border, roughly level with the map's middle-west.\n\nFind it by anchors: **borders the Netherlands and Belgium** (→Q222ff neighbors), Rhine running through, sits *below* Niedersachsen and *above* Rheinland-Pfalz/Hessen. Shape memory: a compact blob with a \"nose\" poking west (the Aachen corner). You've lived six years inside this outline, one map glance in the Online-Testcenter and this is the easiest point of your 33.\n\n## Auf Deutsch\n\nNRW liegt ganz im Westen, an der Grenze zu den Niederlanden und Belgien."
+      "explanation": "**Correct answer:** Fläche 1\n\n*Picture question (Bildfrage):* the pictures above are the ones from the official question catalogue.\n\nCorrect: **area 1**, the large Land in the northwest, between the North Sea coast and the Harz, bordering the Netherlands.\n\nThe other highlighted areas: 2 = Thüringen, 3 = Sachsen-Anhalt, 4 = Sachsen. Anchors for Niedersachsen: the North Sea coast with the East Frisian islands, the border with the Netherlands, and the small hole in its middle (that's the city-state Bremen). By area it is the second-largest Land after Bayern.\n\n## Auf Deutsch\n\nNiedersachsen ist das große Land im Nordwesten (Fläche 1), an der Nordsee und rund um Bremen."
     }
   ]
 }

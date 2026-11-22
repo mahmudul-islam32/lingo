@@ -632,7 +632,7 @@ export const EINBUERGERUNG_LESSON_LOADERS: Readonly<Record<string, JsonLoader>> 
   "eb-u12-l03-q281-290": json(() => import("../../../content/courses/einbuergerung-en-de/lessons/eb-u12-l03-q281-290.json")),
   "eb-u12-l04-q291-300": json(() => import("../../../content/courses/einbuergerung-en-de/lessons/eb-u12-l04-q291-300.json")),
   "eb-u13-l01-kompass": json(() => import("../../../content/courses/einbuergerung-en-de/lessons/eb-u13-l01-kompass.json")),
-  "eb-u13-l02-nrw-1-10": json(() => import("../../../content/courses/einbuergerung-en-de/lessons/eb-u13-l02-nrw-1-10.json")),
+  "eb-u13-l02-nds-1-10": json(() => import("../../../content/courses/einbuergerung-en-de/lessons/eb-u13-l02-nds-1-10.json")),
   "eb-u14-l01-rules": json(() => import("../../../content/courses/einbuergerung-en-de/lessons/eb-u14-l01-rules.json")),
   "eb-u14-l02-probetest-1": json(() => import("../../../content/courses/einbuergerung-en-de/lessons/eb-u14-l02-probetest-1.json")),
   "eb-u14-l03-probetest-2": json(() => import("../../../content/courses/einbuergerung-en-de/lessons/eb-u14-l03-probetest-2.json")),

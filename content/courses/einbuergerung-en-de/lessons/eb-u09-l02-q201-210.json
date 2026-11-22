@@ -3,7 +3,7 @@
   "courseId": "einbuergerung-en-de",
   "unitId": "eb-u09",
   "title": "Questions 201–210 (Fragen 201–210)",
-  "tip": "Some of these are picture questions: in the real test the options are images; here they are described in words.",
+  "tip": "Some of these are picture questions: look at the pictures, just like in the real test.",
   "exercises": [
     {
       "id": "eb-u09-l02-q201-210-ex01",
@@ -29,7 +29,7 @@
         }
       ],
       "correctOptionId": "c",
-      "explanation": "**Correct answer:** Nordrhein-Westfalen\n\nThe series' twist ending (→Q192–200): a **nicht** variant. Your own Land is the answer. NRW was British-zone West Germany (→Q167), industrial heart of the Wirtschaftswunder, never DDR. If you know the five eastern Länder cold, every version of this question, positive or negated, is a free point.\n\n## Auf Deutsch\n\nNordrhein-Westfalen war IMMER West, nie DDR-Gebiet."
+      "explanation": "**Correct answer:** Nordrhein-Westfalen\n\nThe series' twist ending (→Q192–200): a **nicht** variant. NRW is the answer: it was British-zone West Germany (→Q167), industrial heart of the Wirtschaftswunder, never DDR. If you know the five eastern Länder cold, every version of this question, positive or negated, is a free point.\n\n## Auf Deutsch\n\nNordrhein-Westfalen war IMMER West, nie DDR-Gebiet."
     },
     {
       "id": "eb-u09-l02-q201-210-ex02",
@@ -159,7 +159,7 @@
         }
       ],
       "correctOptionId": "a",
-      "explanation": "**Correct answer:** an die Opfer des Nationalsozialismus\n\n**Stolpersteine** (\"stumbling stones\"), small brass plaques set into pavements before victims' last freely-chosen homes: *Hier wohnte…* name, birth year, deportation, murder site. Over 100,000 across Europe, the world's largest decentralized memorial; Dortmund has hundreds, you've probably walked over them. Remembrance at eye-with-the-ground level: you bow to read a name. Interview connection: asked about Erinnerungskultur, describing a Stolperstein on your own street beats any abstract answer.\n\n## Auf Deutsch\n\nStolpersteine erinnern vor den Häusern an die Opfer des Nationalsozialismus."
+      "explanation": "**Correct answer:** an die Opfer des Nationalsozialismus\n\n**Stolpersteine** (\"stumbling stones\"), small brass plaques set into pavements before victims' last freely-chosen homes: *Hier wohnte…* name, birth year, deportation, murder site. Over 100,000 across Europe, the world's largest decentralized memorial; most German cities have them, you've probably walked over some. Remembrance at eye-with-the-ground level: you bow to read a name. Interview connection: asked about Erinnerungskultur, describing a Stolperstein on your own street beats any abstract answer.\n\n## Auf Deutsch\n\nStolpersteine erinnern vor den Häusern an die Opfer des Nationalsozialismus."
     },
     {
       "id": "eb-u09-l02-q201-210-ex07",
@@ -218,26 +218,51 @@
       "type": "choice",
       "title": "Frage 209 · Block 9",
       "prompt": "Welches war das Wappen der Deutschen Demokratischen Republik?",
+      "figure": {
+        "images": [
+          {
+            "src": "/images/eb/q21-bild-1.png",
+            "alt": "A black eagle with a red beak and red claws on a golden-yellow shield",
+            "label": "Bild 1"
+          },
+          {
+            "src": "/images/eb/q21-bild-2.png",
+            "alt": "A black symbol made of two crossed letters, X and P",
+            "label": "Bild 2"
+          },
+          {
+            "src": "/images/eb/q21-bild-3.png",
+            "alt": "A grey cross with flared arms, framed in dark blue and white",
+            "label": "Bild 3"
+          },
+          {
+            "src": "/images/eb/q21-bild-4.png",
+            "alt": "A golden hammer and compass on a red circle, framed by ears of wheat and a black-red-gold ribbon",
+            "label": "Bild 4"
+          }
+        ],
+        "credit": "Bilder: BAMF, Gesamtfragenkatalog „Leben in Deutschland“ (Stand 07.05.2025)"
+      },
       "options": [
         {
           "id": "a",
-          "text": "Hammer und Zirkel im Ährenkranz"
+          "text": "Bild 1"
         },
         {
           "id": "b",
-          "text": "der schwarze Bundesadler auf gelbem Schild"
+          "text": "Bild 2"
         },
         {
           "id": "c",
-          "text": "ein weißes Pferd auf rotem Schild"
+          "text": "Bild 3"
         },
         {
           "id": "d",
-          "text": "ein schwarzer Bär auf weißem Schild"
+          "text": "Bild 4"
         }
       ],
-      "correctOptionId": "a",
-      "explanation": "**Correct answer:** Hammer und Zirkel im Ährenkranz\n\n*Picture question (Bildfrage):* in the real test you see pictures here, and the answer options describe them.\n\nCorrect: Hammer und Zirkel im Ährenkranz (hammer and compass inside a wreath of grain).\n\nDecode it once and it sticks: **Hammer** = workers, **Zirkel** (drafting compass) = the \"intelligentsia,\" **Ährenkranz** = farmers, the SED's claimed class alliance (→Q187 for the flag version). Distractors: the Bundesadler (→Q21), Länder arms, or the plain tricolor. Another Online-Testcenter must-see image.\n\n## Auf Deutsch\n\nDas DDR-Wappen: Hammer und Zirkel im Ährenkranz."
+      "correctOptionId": "d",
+      "explanation": "**Correct answer:** Bild 4\n\n*Picture question (Bildfrage):* the pictures above are the ones from the official question catalogue.\n\nCorrect: Hammer und Zirkel im Ährenkranz (hammer and compass inside a wreath of grain).\n\n**The pictures:** Bild 1 = Bundesadler (→Q21) · Bild 2 = Christusmonogramm (Chi-Rho, a Christian symbol) · Bild 3 = Eisernes Kreuz of the Bundeswehr · Bild 4 = coat of arms of the DDR (correct).\n\nDecode it once and it sticks: **Hammer** = workers, **Zirkel** (drafting compass) = the \"intelligentsia,\" **Ährenkranz** = farmers, the SED's claimed class alliance (→Q187 for the flag version). Distractors: the Bundesadler (→Q21), Länder arms, or the plain tricolor. Another Online-Testcenter must-see image.\n\n## Auf Deutsch\n\nDas DDR-Wappen: Hammer und Zirkel im Ährenkranz."
     },
     {
       "id": "eb-u09-l02-q201-210-ex10",

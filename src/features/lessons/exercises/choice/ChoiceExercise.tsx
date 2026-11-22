@@ -4,10 +4,12 @@ import { useEffect } from "react";
 import { Card, RichText } from "@/components/ui";
 import type { ExerciseComponentProps } from "../types";
 import { OptionList } from "../option-list/OptionList";
+import { ExerciseFigure } from "./ExerciseFigure";
 
 /**
  * Exam-style question (TELC-001): optional title and reading passage, a question in the
- * learning language and 2–12 options. Reports the chosen option; never checks itself.
+ * learning language, optional pictures (TELC-005) and 2–12 options. Reports the chosen
+ * option; never checks itself.
  */
 export function ChoiceExercise({
   exercise,
@@ -54,6 +56,9 @@ export function ChoiceExercise({
       >
         {exercise.prompt}
       </h2>
+      {exercise.figure && (
+        <ExerciseFigure figure={exercise.figure} learningLanguage={learningLanguage} />
+      )}
       <OptionList
         options={exercise.options}
         correctOptionId={exercise.correctOptionId}

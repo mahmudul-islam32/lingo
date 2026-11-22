@@ -1450,3 +1450,50 @@ together._
 - **Alternatives considered:** recorded audio files (need licensing, offline caching and
   bigger downloads); sounds without a setting (no way to mute in a quiet place). Rejected.
 - **Reversibility:** High (default the setting off, or remove the row and the player calls).
+
+## PD-075: Einbürgerungstest state questions for Niedersachsen instead of NRW
+
+- **Date:** 2026-11-22 (TELC-004, owner request)
+- **Reason:** the owner asked to replace the Nordrhein-Westfalen state questions (from the telc
+  app) with the Lower Saxony ones.
+- **Decision:** unit 13 of `einbuergerung-en-de` now holds the 10 Landesfragen for
+  **Niedersachsen** ("NDS-1" … "NDS-10"), and each of the 10 mock tests has 30 general + 3
+  Niedersachsen questions. This replaces the "3 NRW" part of PD-073.
+  - Question and option texts are verbatim from the BAMF Gesamtfragenkatalog (Teil II,
+    Niedersachsen, Stand 07.05.2025). The catalogue marks no solutions; the answers are
+    unambiguous facts (Hannover, Ammerland, 5 years, 16, schwarz-rot-gold …).
+  - The two picture questions (coat of arms, map) describe each picture in words, in the
+    catalogue's order (Bild 1–4 left to right; map areas 1–4), without naming the Land in
+    the options, so the question still tests recognition.
+  - NRW- and Dortmund-specific notes in 30 general-question explanations are rewritten for
+    Niedersachsen or made neutral. Official answer options that name NRW stay unchanged.
+  - The telc app's source data is not edited: `scripts/import-telc/land-niedersachsen.mjs`
+    is applied on import, and the build fails if a replacement no longer matches the source.
+- **Rationale:** learners take the test in the Land where they live; NRW questions are wrong
+  for anyone in Niedersachsen.
+- **Alternatives considered:** a state picker for all 16 Länder (a bigger feature for later);
+  keeping NRW alongside (two state units, confusing mock tests). Rejected for now.
+- **Reversibility:** High (drop the module from the importer and rebuild).
+- **Note:** the lesson id changes from `eb-u13-l02-nrw-1-10` to `eb-u13-l02-nds-1-10`, so a
+  learner who finished the NRW lesson sees the new one as not done.
+
+## PD-076: Einbürgerungstest picture questions show the official pictures
+
+- **Date:** 2026-11-22 (TELC-005, owner request)
+- **Reason:** the owner asked for real pictures on the questions that are answered from
+  pictures. Describing the pictures in words gave the answer away.
+- **Decision:** 7 questions show the pictures of the BAMF Gesamtfragenkatalog
+  (Stand 07.05.2025): Q21 and Q209 (coats of arms, Bild 1–4), Q55 (photo of the Bundestag
+  building), Q130 (four sample ballots), Q226 (flags, Bild 1–4), NDS-1 (coats of arms) and
+  NDS-8 (map). Where the catalogue uses "Bild 1–4" or numbered pictures, the options are those
+  labels and the correct option follows the catalogue. The explanation then names every
+  picture. This replaces PD-075's "describe each picture in words" for these questions.
+  - Q70, Q176, Q181, Q187, Q216 and Q235 also have a picture in the catalogue, but the telc
+    app's versions are answerable without it; they stay text-only.
+  - Every figure carries a credit line. The Q55 photo is credited
+    "© Deutscher Bundestag/Achim Melde" as in the catalogue.
+- **Open question for the owner:** the catalogue's photos are third-party copyright (Q55:
+  Deutscher Bundestag). Before a public or paid launch, confirm the right to reuse them, or
+  swap in a freely licensed photo. The coats of arms, flags, ballots and map are official
+  symbols or BAMF drawings.
+- **Reversibility:** High (remove an entry from `scripts/import-telc/pictures.mjs` and rebuild).

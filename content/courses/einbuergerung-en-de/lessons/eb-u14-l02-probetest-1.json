@@ -3,7 +3,7 @@
   "courseId": "einbuergerung-en-de",
   "unitId": "eb-u14",
   "title": "Mock test 1 (Probetest 1)",
-  "tip": "Real format: 30 general + 3 Nordrhein-Westfalen questions. Allow 60 minutes; 17 correct to pass, aim for 28+.",
+  "tip": "Real format: 30 general + 3 Niedersachsen questions. Allow 60 minutes; 17 correct to pass, aim for 28+.",
   "exercises": [
     {
       "id": "eb-u14-l02-probetest-1-ex01",
@@ -237,7 +237,7 @@
         }
       ],
       "correctOptionId": "c",
-      "explanation": "**Correct answer:** die Regierungsvertreter und Regierungsvertreterinnen der Bundesländer\n\nThe Bundesrat = **members of the 16 Land governments** (Ministerpräsidenten and Land ministers), with 3–6 votes per Land by population, cast en bloc. Nobody is elected *to* the Bundesrat, you get in by winning a *Land* election. NRW, largest Land, holds the maximum 6 votes; its government speaks for you in Berlin.\n\nA describes the Bundestag; B the federal cabinet; D no organ at all.\n\n## Auf Deutsch\n\nIm Bundesrat sitzen Vertreter der Landesregierungen."
+      "explanation": "**Correct answer:** die Regierungsvertreter und Regierungsvertreterinnen der Bundesländer\n\nThe Bundesrat = **members of the 16 Land governments** (Ministerpräsidenten and Land ministers), with 3–6 votes per Land by population, cast en bloc. Nobody is elected *to* the Bundesrat, you get in by winning a *Land* election. Niedersachsen, with about 8 million people, holds the maximum 6 votes; its government speaks for its residents in Berlin.\n\nA describes the Bundestag; B the federal cabinet; D no organ at all.\n\n## Auf Deutsch\n\nIm Bundesrat sitzen Vertreter der Landesregierungen."
     },
     {
       "id": "eb-u14-l02-probetest-1-ex10",
@@ -788,8 +788,8 @@
     {
       "id": "eb-u14-l02-probetest-1-ex31",
       "type": "choice",
-      "title": "NRW 2 · Landesfrage",
-      "prompt": "Welcher Landkreis liegt in Nordrhein-Westfalen?",
+      "title": "NDS 2 · Landesfrage",
+      "prompt": "Welches ist ein Landkreis in Niedersachsen?",
       "options": [
         {
           "id": "a",
@@ -808,60 +808,60 @@
           "text": "Vogtlandkreis"
         }
       ],
-      "correctOptionId": "b",
-      "explanation": "**Correct answer:** Rhein-Sieg-Kreis\n\nThe **Rhein-Sieg-Kreis** (around Bonn. Rhein + Sieg rivers, both NRW waters).\n\nAmmerland = Niedersachsen, Nordfriesland = Schleswig-Holstein (the name says North Sea), Vogtlandkreis = Sachsen. Technique: river/region names locate districts, anything \"Rhein-\" or \"Ruhr-\" smells of NRW. (Dortmund itself is kreisfrei, a city outside any Kreis; so is most of the Ruhrgebiet.)\n\n## Auf Deutsch\n\nDer Rhein-Sieg-Kreis (bei Bonn) liegt in NRW."
+      "correctOptionId": "a",
+      "explanation": "**Correct answer:** Ammerland\n\n**Ammerland**, a rural district in the northwest near Oldenburg (Kreisstadt Westerstede), known for its rhododendron parks and the Zwischenahner Meer.\n\nRhein-Sieg-Kreis = NRW (around Bonn), Nordfriesland = Schleswig-Holstein (the North Frisian coast), Vogtlandkreis = Sachsen. Technique: river and region names place districts: \"Rhein-\" points west, \"Vogtland\" to the far southeast. Trap: Niedersachsen does have a Landkreis *Friesland* (around Jever), but *Nord*friesland is Schleswig-Holstein.\n\n## Auf Deutsch\n\nDer Landkreis Ammerland (bei Oldenburg, Kreisstadt Westerstede) liegt in Niedersachsen."
     },
     {
       "id": "eb-u14-l02-probetest-1-ex32",
       "type": "choice",
-      "title": "NRW 9 · Landesfrage",
-      "prompt": "Wie heißt der Regierungschef/die Regierungschefin von Nordrhein-Westfalen?",
+      "title": "NDS 9 · Landesfrage",
+      "prompt": "Wie nennt man die Regierungschefin/den Regierungschef in Niedersachsen?",
       "options": [
         {
           "id": "a",
-          "text": "Ministerpräsident/Ministerpräsidentin"
+          "text": "Erste Ministerin/Erster Minister"
         },
         {
           "id": "b",
-          "text": "Regierender Bürgermeister/Regierende Bürgermeisterin"
+          "text": "Premierministerin/Premierminister"
         },
         {
           "id": "c",
-          "text": "Senator/Senatorin"
+          "text": "Bürgermeisterin/Bürgermeister"
         },
         {
           "id": "d",
-          "text": "Landrat/Landrätin"
+          "text": "Ministerpräsidentin/Ministerpräsident"
         }
       ],
-      "correctOptionId": "a",
-      "explanation": "**Correct answer:** Ministerpräsident/Ministerpräsidentin\n\nNRW is a Flächenland → its head of government is the **Ministerpräsident(in)** (→Q37; currently Hendrik Wüst, CDU ⏰, the *title* is what's tested, but knowing the name impresses in interviews).\n\nRegierender Bürgermeister = Berlin; Senator = city-state ministers (Hamburg/Bremen/Berlin); Landrat = head of a *Kreis* (→NRW-2). Title follows Land type: Fläche → Ministerpräsident, Stadtstaat → Bürgermeister.\n\n## Auf Deutsch\n\nDer Regierungschef von NRW heißt Ministerpräsident/Ministerpräsidentin."
+      "correctOptionId": "d",
+      "explanation": "**Correct answer:** Ministerpräsidentin/Ministerpräsident\n\nNiedersachsen is a Flächenland, so its head of government is the **Ministerpräsident(in)** (→Q37). Only the *title* is tested; the officeholder (since May 2025 Olaf Lies, SPD ⏰) can change.\n\nErster Minister / Premierminister are titles from other countries (Scotland, Wales, the UK); a Bürgermeister heads a Gemeinde (→Q131) or a city-state like Hamburg. Title follows Land type: Flächenland → Ministerpräsident, Stadtstaat → Bürgermeister.\n\n## Auf Deutsch\n\nDie Regierungschefin/der Regierungschef von Niedersachsen heißt Ministerpräsidentin/Ministerpräsident."
     },
     {
       "id": "eb-u14-l02-probetest-1-ex33",
       "type": "choice",
-      "title": "NRW 10 · Landesfrage",
-      "prompt": "Welchen Minister/welche Ministerin hat Nordrhein-Westfalen nicht?",
+      "title": "NDS 10 · Landesfrage",
+      "prompt": "Welche Ministerin/ welchen Minister hat Niedersachsen nicht?",
       "options": [
         {
           "id": "a",
-          "text": "Justizminister/Justizministerin"
+          "text": "Justizministerin/Justizminister"
         },
         {
           "id": "b",
-          "text": "Außenminister/Außenministerin"
+          "text": "Außenministerin/Außenminister"
         },
         {
           "id": "c",
-          "text": "Finanzminister/Finanzministerin"
+          "text": "Finanzministerin/Finanzminister"
         },
         {
           "id": "d",
-          "text": "Innenminister/Innenministerin"
+          "text": "Innenministerin/Innenminister"
         }
       ],
       "correctOptionId": "b",
-      "explanation": "**Correct answer:** Außenminister/Außenministerin\n\nNo Land has an **Außenminister**, foreign policy is exclusively federal (Art. 32 GG; →Q39's trio: Außenpolitik, Währung, Armee). NRW does run Justiz, Finanzen, Inneres (Land police! →Q148), Schule (→Q49) and more, federalism gives Länder real power *inward*, none *outward*. The question is Q39 wearing NRW colors: one federal principle, two guaranteed test points.\n\n## Auf Deutsch\n\nEinen Außenminister hat kein Bundesland. Außenpolitik macht nur der Bund."
+      "explanation": "**Correct answer:** Außenministerin/Außenminister\n\nNo Land has an **Außenminister**: foreign policy is federal (Art. 32 GG; →Q39's trio: foreign policy, currency, army). Niedersachsen does have ministers for justice, finance and the interior (Land police, →Q148), schools (→Q49) and more. Federalism gives the Länder real power at home, none abroad.\n\n## Auf Deutsch\n\nEinen Außenminister hat kein Bundesland. Außenpolitik macht nur der Bund."
     }
   ]
 }
