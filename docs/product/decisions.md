@@ -1433,3 +1433,20 @@ together._
 - **Rationale:** the exam courses have different goals and pacing from the general course.
   Separate paths keep each one clear.
 - **Reversibility:** High (registry visibility can hide a course).
+
+## PD-074: Sound effects in lessons and a Profile "Sound effects" row
+
+- **Date:** 2026-11-22 (LES-012, owner request)
+- **Reason:** the owner asked for correct / wrong answer sounds so lessons feel like a game.
+  LES-012 was planned for v1.0.0; PD-067 §6 left out a Sounds row because nothing read
+  `Settings.soundEffectsEnabled`.
+- **Decision:** LES-012 is pulled forward. Lessons play a correct chime, a soft wrong tone and
+  a completion fanfare, synthesised with the Web Audio API (our own sounds, no files). The
+  existing setting (default on) controls them, and Profile → Settings gets a "Sound effects"
+  On / Off row. This replaces PD-067 §6 for sound; the Speaking row stays out until a
+  feature reads `speakingExercisesEnabled`.
+- **Rationale:** sound feedback is part of the game feel; the setting already exists and now
+  has a reader, so the row is no longer a dead control.
+- **Alternatives considered:** recorded audio files (need licensing, offline caching and
+  bigger downloads); sounds without a setting (no way to mute in a quiet place). Rejected.
+- **Reversibility:** High (default the setting off, or remove the row and the player calls).

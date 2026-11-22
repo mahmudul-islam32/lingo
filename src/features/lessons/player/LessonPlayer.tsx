@@ -23,6 +23,12 @@ import { VisuallyHidden } from "@/components/ui";
 import { checkAnswer } from "../checking";
 import { exerciseEyebrow } from "../exercises/eyebrows";
 import { exerciseComponents } from "../exercises/registry";
+import {
+  sharedSoundEffects,
+  silentSoundEffects,
+  type SoundEffect,
+  type SoundEffects,
+} from "../sound/sound-effects";
 import { TipCard, TipStartBar } from "../tip";
 import type {
   ExerciseComponentMap,
@@ -91,9 +97,30 @@ export interface LessonPlayerProps {
   createId?: () => Uuid;
   /** Randomness for the feedback heading, injectable for tests. */
   random?: () => number;
+  /**
+   * Play sound effects (LES-012): a chime on a correct Check, a soft low tone on a wrong
+   * one, a fanfare when the lesson is complete. Pass `Settings.soundEffectsEnabled`.
+   * Default `false` (silent).
+   */
+  soundEffectsEnabled?: boolean;
+  /** Sound player, injectable for tests. Default: the app-wide Web Audio player. */
+  sounds?: SoundEffects;
 }
 
 type AnyExerciseComponent = ComponentType<ExerciseComponentProps>;
+
+/**
+ * The sound for a Check (LES-012), or `null` for none. Explain cards and open tasks are
+ * ungraded, and a skip is not an answer, so they stay silent. Match pairs only reach a
+ * Check once every pair is matched, which the player always shows as correct.
+ */
+export function checkSound(type: ExerciseType, result: AnswerCheckResult): SoundEffect | null {
+  if (type === "explain" || type === "task") return null;
+  if (type === "match_pairs") return "correct";
+  if (result.outcome === "correct") return "correct";
+  if (result.outcome === "incorrect") return "incorrect";
+  return null;
+}
 
 const defaultNow = () => new Date();
 const defaultCreateId = () => crypto.randomUUID();
@@ -160,6 +187,8 @@ export function LessonPlayer({
   now = defaultNow,
   createId = defaultCreateId,
   random,
+  soundEffectsEnabled = false,
+  sounds,
 }: LessonPlayerProps) {
   const [store] = useState(() =>
     createSessionStore({
@@ -193,6 +222,9 @@ export function LessonPlayer({
   const quitOpenRef = useLatest(quitOpen);
   const nowRef = useLatest(now);
   const callbacks = useLatest({ onFinish, onQuit, hearts });
+  const soundRef = useLatest(
+    soundEffectsEnabled ? (sounds ?? sharedSoundEffects()) : silentSoundEffects,
+  );
   const endedRef = useRef(false);
 
   // -- Session end → callbacks (exactly once) ---------------------------------------
@@ -202,6 +234,7 @@ export function LessonPlayer({
     endedRef.current = true;
     const { session, completedAt, heartsLost, heartsGained } = store.getState().state;
     if (status === "completed" && completedAt) {
+      soundRef.current.play("complete");
       callbacks.current.onFinish(
         summarizeSession(session, completedAt, { heartsLost, heartsGained }),
       );
@@ -210,7 +243,7 @@ export function LessonPlayer({
     } else if (status === "out_of_hearts") {
       callbacks.current.hearts?.onOutOfHearts(session);
     }
-  }, [status, store, callbacks]);
+  }, [status, store, callbacks, soundRef]);
 
   // -- Actions -------------------------------------------------------------------------
   const runCheck = useCallback(
@@ -221,6 +254,8 @@ export function LessonPlayer({
       if (!exercise || exercise.type !== answer.type) return;
       const result = checkAnswer({ exercise, answer });
       dispatch({ type: "check", answer, result, now: nowRef.current() });
+      const sound = checkSound(exercise.type, result);
+      if (sound) soundRef.current.play(sound);
       // TELC-001: an explain card has nothing to review; "Continue" moves straight on.
       if (exercise.type === "explain") dispatch({ type: "continue", now: nowRef.current() });
       const heartsConfig = callbacks.current.hearts;
@@ -232,7 +267,7 @@ export function LessonPlayer({
       if (lost > 0) heartsConfig.onLose(lost);
       if (gained > 0) heartsConfig.onGain?.(gained);
     },
-    [store, dispatch, nowRef, callbacks],
+    [store, dispatch, nowRef, callbacks, soundRef],
   );
 
   const handleCheck = useCallback(() => {

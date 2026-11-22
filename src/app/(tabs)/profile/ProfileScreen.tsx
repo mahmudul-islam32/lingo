@@ -22,6 +22,7 @@ import { learnCourseId } from "../_learn/course-caption";
 import { CourseRow } from "./CourseRow";
 import { DailyGoalRow } from "./DailyGoalRow";
 import { GoalDateRow } from "./GoalDateRow";
+import { SoundEffectsRow } from "./SoundEffectsRow";
 import { StartLevelRow } from "./StartLevelRow";
 
 export const SETTINGS_ID = "settings";
@@ -95,6 +96,7 @@ export function ProfileScreen() {
         <DailyGoalRow />
         <GoalDateRow />
         <StartLevelRow />
+        <SoundEffectsRow />
       </section>
     </div>
   );
