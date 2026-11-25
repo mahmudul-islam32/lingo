@@ -1,0 +1,269 @@
+{
+  "id": "eb-u11-l02-q241-250",
+  "courseId": "einbuergerung-en-de",
+  "unitId": "eb-u11",
+  "title": "Questions 241–250 (Fragen 241–250)",
+  "tip": "After each Check you get an English explanation and a short German note (Auf Deutsch).",
+  "exercises": [
+    {
+      "id": "eb-u11-l02-q241-250-ex01",
+      "type": "choice",
+      "title": "Frage 241 · Block 11",
+      "prompt": "Was muss eine Frau in Deutschland tun, um Elterngeld zu erhalten? Sie muss …",
+      "options": [
+        {
+          "id": "a",
+          "text": "einen Antrag bei der Elterngeldstelle stellen"
+        },
+        {
+          "id": "b",
+          "text": "nichts tun, das Geld kommt automatisch nach der Geburt"
+        },
+        {
+          "id": "c",
+          "text": "sich beim Finanzamt melden"
+        },
+        {
+          "id": "d",
+          "text": "ihren Arbeitgeber fragen"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Correct answer:** einen Antrag bei der Elterngeldstelle stellen\n\nGerman benefits follow one iron rule: **kein Antrag, kein Geld**, no application, no money. Elterngeld (parental allowance, replacing income for 12–14 months) comes from the Elterngeldstelle upon application.\n\nNothing arrives automatically (B, your Kindergeld also required an application, as you know); Finanzamt collects rather than pays (C); the employer handles *Elternzeit* (leave), not Elterngeld (money), a paired-vocabulary trap.\n\n## Auf Deutsch\n\nElterngeld muss man bei der Elterngeldstelle beantragen."
+    },
+    {
+      "id": "eb-u11-l02-q241-250-ex02",
+      "type": "choice",
+      "title": "Frage 242 · Block 11",
+      "prompt": "Wer entscheidet in Deutschland, ob ein Kind in den Kindergarten geht?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Eltern bzw. die Erziehungsberechtigten"
+        },
+        {
+          "id": "b",
+          "text": "der Staat"
+        },
+        {
+          "id": "c",
+          "text": "das Jugendamt"
+        },
+        {
+          "id": "d",
+          "text": "die Grundschule"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Correct answer:** die Eltern bzw. die Erziehungsberechtigten\n\nKindergarten is **optional**, the parents' call (you made it: Kita from August). Contrast with **Schulpflicht** (→Q95): school is NOT optional. The state guarantees a *place* from age 3 (→Q269) but never forces attendance; the Jugendamt only steps in where children are endangered (→Q258).\n\n## Auf Deutsch\n\nOb ein Kind in den Kindergarten geht, entscheiden die Eltern."
+    },
+    {
+      "id": "eb-u11-l02-q241-250-ex03",
+      "type": "choice",
+      "title": "Frage 243 · Block 11",
+      "prompt": "Maik und Sybille wollen mit Freunden gegen ein neues Gesetz demonstrieren. Was müssen sie vorher tun?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Demonstration anmelden"
+        },
+        {
+          "id": "b",
+          "text": "eine Genehmigung beim Bundestag beantragen"
+        },
+        {
+          "id": "c",
+          "text": "nichts, Demonstrationen können nicht geregelt werden"
+        },
+        {
+          "id": "d",
+          "text": "die Demonstration von einem Gericht erlauben lassen"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Correct answer:** die Demonstration anmelden\n\n**Versammlungsfreiheit** (Art. 8 GG) requires only **Anmeldung** (notification, usually 48h ahead, to the Versammlungsbehörde/Polizei). NOT permission. The authority can impose conditions (route, distance) but may ban only as a last resort.\n\nB/D invent approval regimes, a demonstration *against the government* needing the government's *permission* would gut the right; C ignores that even freedoms have traffic rules. Anmeldung ≠ Erlaubnis: the distinction IS the answer, and a fine interview point.\n\n## Auf Deutsch\n\nDemonstrationen muss man vorher anmelden, dann sind sie erlaubt (Art. 8 GG)."
+    },
+    {
+      "id": "eb-u11-l02-q241-250-ex04",
+      "type": "choice",
+      "title": "Frage 244 · Block 11",
+      "prompt": "Welchen Schulabschluss braucht man normalerweise, um an einer Universität in Deutschland zu studieren?",
+      "options": [
+        {
+          "id": "a",
+          "text": "das Abitur"
+        },
+        {
+          "id": "b",
+          "text": "den Hauptschulabschluss"
+        },
+        {
+          "id": "c",
+          "text": "die mittlere Reife"
+        },
+        {
+          "id": "d",
+          "text": "ein Diplom"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Correct answer:** das Abitur\n\nThe **Abitur** (after ~12–13 years, \"allgemeine Hochschulreife\") unlocks university. The German ladder: Hauptschulabschluss → mittlerer Schulabschluss/mittlere Reife → (Fach-)Abitur. A Diplom (D) is what universities *award*, not require, circular decoy. Adult second chances →Q257/261.\n\n## Auf Deutsch\n\nFür die Universität braucht man normalerweise das Abitur."
+    },
+    {
+      "id": "eb-u11-l02-q241-250-ex05",
+      "type": "choice",
+      "title": "Frage 245 · Block 11",
+      "prompt": "Wer darf in Deutschland nicht als Paar zusammenleben?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Hans (20) und Marie (19)"
+        },
+        {
+          "id": "b",
+          "text": "Tom (20) und Klaus (45)"
+        },
+        {
+          "id": "c",
+          "text": "Sofie (35) und Lisa (33)"
+        },
+        {
+          "id": "d",
+          "text": "Anne (13) und Tim (25)"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**Correct answer:** Anne (13) und Tim (25)\n\nA 13-year-old is a **child**; the age of consent rules (§176 StGB. Schutzalter 14, with further protections to 16/18) make an adult \"relationship\" with her criminal child abuse, full stop.\n\nUnmarried couples (A), large age gaps between adults (B), same-sex couples (C, marriage equality since 2017) are all simply legal. The question's real test: do you know that liberal tolerance ends exactly where child protection begins.\n\n## Auf Deutsch\n\nAnne (13) ist minderjährig, mit 25-jährigem Partner verboten (Schutz von Kindern)."
+    },
+    {
+      "id": "eb-u11-l02-q241-250-ex06",
+      "type": "choice",
+      "title": "Frage 246 · Block 11",
+      "prompt": "Ab welchem Alter ist man in Deutschland volljährig?",
+      "options": [
+        {
+          "id": "a",
+          "text": "16"
+        },
+        {
+          "id": "b",
+          "text": "18"
+        },
+        {
+          "id": "c",
+          "text": "21"
+        },
+        {
+          "id": "d",
+          "text": "25"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Correct answer:** 18\n\n**Volljährigkeit = 18**: full contracts, marriage, voting (→Q94), driving alone, parents' authority ends (→Q267). The milestone table: **14** strafmündig + religionsmündig (→Q2, Q263) · **16** some local/EU votes (→NDS-4) · **18** everything.\n\n## Auf Deutsch\n\nVolljährig ist man in Deutschland mit 18."
+    },
+    {
+      "id": "eb-u11-l02-q241-250-ex07",
+      "type": "choice",
+      "title": "Frage 247 · Block 11",
+      "prompt": "Wie heißt der besondere gesetzliche Schutz, den eine Frau kurz vor und nach der Geburt ihres Kindes genießt?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Mutterschutz"
+        },
+        {
+          "id": "b",
+          "text": "Elternzeit"
+        },
+        {
+          "id": "c",
+          "text": "Kindergeld"
+        },
+        {
+          "id": "d",
+          "text": "Erziehungsgeld"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Correct answer:** Mutterschutz\n\n**Mutterschutz** (Mutterschutzgesetz): work ban 6 weeks before / 8 weeks after birth at full pay protection, plus the near-absolute dismissal shield (→Q104).\n\n## Auf Deutsch\n\nDer Schutz vor und nach der Geburt heißt Mutterschutz."
+    },
+    {
+      "id": "eb-u11-l02-q241-250-ex08",
+      "type": "choice",
+      "title": "Frage 248 · Block 11",
+      "prompt": "Wer ist in Deutschland hauptsächlich verantwortlich für die Erziehung der Kinder?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Eltern"
+        },
+        {
+          "id": "b",
+          "text": "der Staat"
+        },
+        {
+          "id": "c",
+          "text": "die Schulen"
+        },
+        {
+          "id": "d",
+          "text": "die Großeltern"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Correct answer:** die Eltern\n\nArt. 6(2) GG verbatim-ish: care and upbringing of children are *\"das natürliche Recht der Eltern und die zuvörderst ihnen obliegende Pflicht\"*, the parents' natural right AND duty; the state only watches over it (Wächteramt →Q258). This is a values question in disguise: family primacy with state backstop, neither DDR-style state upbringing nor absent-state indifference.\n\n## Auf Deutsch\n\nFür die Erziehung sind hauptsächlich die Eltern verantwortlich (Art. 6 GG)."
+    },
+    {
+      "id": "eb-u11-l02-q241-250-ex09",
+      "type": "choice",
+      "title": "Frage 249 · Block 11",
+      "prompt": "Die Erziehung der Kinder ist in Deutschland vor allem Aufgabe …",
+      "options": [
+        {
+          "id": "a",
+          "text": "der Eltern"
+        },
+        {
+          "id": "b",
+          "text": "des Staates"
+        },
+        {
+          "id": "c",
+          "text": "der Kirchen"
+        },
+        {
+          "id": "d",
+          "text": "der Schulen"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Correct answer:** der Eltern\n\n→Q248 retested word-shuffled. Churches educate only where parents choose them (→Q2, Q33); schools teach, parents raise. Two questions, one Grundgesetz article.\n\n## Auf Deutsch\n\nErziehung ist vor allem Aufgabe der Eltern."
+    },
+    {
+      "id": "eb-u11-l02-q241-250-ex10",
+      "type": "choice",
+      "title": "Frage 250 · Block 11",
+      "prompt": "Wann haben Menschen in Deutschland die besten Chancen auf einen gut bezahlten Arbeitsplatz? Wenn sie …",
+      "options": [
+        {
+          "id": "a",
+          "text": "gut ausgebildet sind"
+        },
+        {
+          "id": "b",
+          "text": "Mitglied einer Partei sind"
+        },
+        {
+          "id": "c",
+          "text": "die „richtige\" Religion haben"
+        },
+        {
+          "id": "d",
+          "text": "gute Beziehungen zu Behörden haben"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Correct answer:** gut ausgebildet sind\n\nThe merit principle: **Ausbildung/Qualifikation** decides (formally, the AGG outlaws the alternatives in B/C as discrimination →Q262, and party books stopped being career keys when the DDR ended). Your master's degree + AI specialization are this answer in action; the question could be your biography's caption.\n\n## Auf Deutsch\n\nGute Ausbildung = beste Chancen auf gut bezahlte Arbeit."
+    }
+  ]
+}

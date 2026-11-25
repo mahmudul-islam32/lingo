@@ -1,0 +1,347 @@
+{
+  "id": "tb1-u31-l25-trennbar-p1",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u31",
+  "title": "Separable Verbs: Im Hauptsatz & Nebensatz & Modalverb",
+  "tip": "“Ich anrufe dich” is wrong, split it in main clauses: Ich rufe dich an. Do NOT split in subordinate clauses: …, weil ich dich anrufe.",
+  "exercises": [
+    {
+      "id": "tb1-u31-l25-trennbar-p1-ex01",
+      "type": "explain",
+      "title": "Im Hauptsatz: Präfix ans Ende",
+      "body": "The prefix (an, auf, ein, mit …) goes to the end of the sentence.\n\n*Deutsch:* Das Präfix (an, auf, ein, mit …) geht ans Satzende.\n\n## Pattern\n\nSubjekt + **Verb** + … + **Präfix**",
+      "examples": [
+        {
+          "learning": "Ich stehe jeden Tag um sechs Uhr auf.",
+          "known": "I get up at six every day."
+        },
+        {
+          "learning": "Wir kaufen heute im Supermarkt ein.",
+          "known": "We're shopping at the supermarket today."
+        }
+      ]
+    },
+    {
+      "id": "tb1-u31-l25-trennbar-p1-ex02",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I get up at six every day.",
+      "tiles": [
+        "Sie",
+        "Uhr",
+        "sechs",
+        "der",
+        "Ich",
+        "auf",
+        "jeden",
+        "um",
+        "stehe",
+        "Handy",
+        "Tag"
+      ],
+      "answers": [
+        "Ich stehe jeden Tag um sechs Uhr auf."
+      ],
+      "explanation": "**Why:** aufstehen → stehe … auf.\n\n*Warum:* aufstehen → stehe … auf."
+    },
+    {
+      "id": "tb1-u31-l25-trennbar-p1-ex03",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "We're shopping at the supermarket today.",
+      "tiles": [
+        "Wir",
+        "ein",
+        "heute",
+        "im",
+        "einen",
+        "Hast",
+        "kaufen",
+        "Supermarkt",
+        "Ich"
+      ],
+      "answers": [
+        "Wir kaufen heute im Supermarkt ein."
+      ],
+      "explanation": "**Why:** einkaufen → kaufen … ein.\n\n*Warum:* einkaufen → kaufen … ein."
+    },
+    {
+      "id": "tb1-u31-l25-trennbar-p1-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "The film starts at eight.",
+      "tiles": [
+        "angerufen",
+        "acht",
+        "Uhr",
+        "an",
+        "8",
+        "um",
+        "fängt",
+        "Film",
+        "Der"
+      ],
+      "answers": [
+        "Der Film fängt um acht an."
+      ],
+      "explanation": "**Why:** anfangen → fängt … an.\n\n*Warum:* anfangen → fängt … an."
+    },
+    {
+      "id": "tb1-u31-l25-trennbar-p1-ex05",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Will you bring drinks, please?",
+      "tiles": [
+        "bestanden",
+        "habe",
+        "bitte",
+        "Getränke",
+        "möchten",
+        "Bringst",
+        "mit",
+        "du"
+      ],
+      "answers": [
+        "Bringst du bitte Getränke mit?"
+      ],
+      "explanation": "**Why:** Question: prefix still at the end.\n\n*Warum:* Frage: Präfix trotzdem am Ende."
+    },
+    {
+      "id": "tb1-u31-l25-trennbar-p1-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "My neighbours are moving out tomorrow.",
+      "tiles": [
+        "meine",
+        "ziehen",
+        "aus",
+        "steht",
+        "ab",
+        "Nachbarn",
+        "um",
+        "Morgen"
+      ],
+      "answers": [
+        "Morgen ziehen meine Nachbarn aus."
+      ],
+      "explanation": "**Why:** Inversion + separable verb.\n\n*Warum:* Inversion + trennbares Verb."
+    },
+    {
+      "id": "tb1-u31-l25-trennbar-p1-ex07",
+      "type": "explain",
+      "title": "Nebensatz & Modalverb: zusammen",
+      "body": "In subordinate clauses and after modals the verb stays together.\n\n*Deutsch:* Im Nebensatz und nach Modalverben bleibt das Verb zusammen.\n\n## Pattern\n\n…, weil + Subjekt + … + **anrufe** · Modal + … + **anrufen**",
+      "examples": [
+        {
+          "learning": "Ich bin müde, weil ich früh aufgestanden bin.",
+          "known": "I'm tired because I got up early."
+        },
+        {
+          "learning": "Ich muss dich später anrufen.",
+          "known": "I have to call you later."
+        }
+      ]
+    },
+    {
+      "id": "tb1-u31-l25-trennbar-p1-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I'm tired because I got up early.",
+      "tiles": [
+        "eingekauft",
+        "müde",
+        "Film",
+        "weil",
+        "ich",
+        "früh",
+        "bin",
+        "bin",
+        "fängt",
+        "aufgestanden",
+        "Ich"
+      ],
+      "answers": [
+        "Ich bin müde, weil ich früh aufgestanden bin."
+      ],
+      "explanation": "**Why:** Participle together: aufgestanden.\n\n*Warum:* Partizip zusammen: aufgestanden."
+    },
+    {
+      "id": "tb1-u31-l25-trennbar-p1-ex09",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I have to call you later.",
+      "tiles": [
+        "muss",
+        "Tag",
+        "im",
+        "Ich",
+        "dich",
+        "anrufen",
+        "später",
+        "du"
+      ],
+      "answers": [
+        "Ich muss dich später anrufen."
+      ],
+      "explanation": "**Why:** After a modal: infinitive together.\n\n*Warum:* Nach Modalverb: Infinitiv zusammen."
+    },
+    {
+      "id": "tb1-u31-l25-trennbar-p1-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Tell me when the train arrives.",
+      "tiles": [
+        "Sag",
+        "sechs",
+        "mir",
+        "bin",
+        "Zug",
+        "wann",
+        "habe",
+        "der",
+        "ankommt"
+      ],
+      "answers": [
+        "Sag mir, wann der Zug ankommt."
+      ],
+      "explanation": "**Why:** Subordinate clause: ankommt together at the end.\n\n*Warum:* Nebensatz: ankommt zusammen am Ende."
+    },
+    {
+      "id": "tb1-u31-l25-trennbar-p1-ex11",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "We'd like to invite you to our wedding.",
+      "tiles": [
+        "unserer",
+        "Der",
+        "euch",
+        "Ich",
+        "zu",
+        "möchten",
+        "einladen",
+        "Wir",
+        "im",
+        "Hochzeit"
+      ],
+      "answers": [
+        "Wir möchten euch zu unserer Hochzeit einladen."
+      ],
+      "explanation": "**Why:** möchten + einladen.\n\n*Warum:* möchten + einladen."
+    },
+    {
+      "id": "tb1-u31-l25-trennbar-p1-ex12",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I don't know whether he's coming along today.",
+      "tiles": [
+        "ob",
+        "er",
+        "mitkommt",
+        "heute",
+        "nicht",
+        "um",
+        "Ich",
+        "angekommen",
+        "Hochzeit",
+        "weiß"
+      ],
+      "answers": [
+        "Ich weiß nicht, ob er heute mitkommt."
+      ],
+      "explanation": "**Why:** ob → verb at the end, together.\n\n*Warum:* ob → Verb am Ende, zusammen."
+    },
+    {
+      "id": "tb1-u31-l25-trennbar-p1-ex13",
+      "type": "choice",
+      "title": "Choose the right answer",
+      "prompt": "Welches Verb ist NICHT trennbar?",
+      "options": [
+        {
+          "id": "a",
+          "text": "verstehen"
+        },
+        {
+          "id": "b",
+          "text": "einkaufen"
+        },
+        {
+          "id": "c",
+          "text": "mitbringen"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "ver- ist ein untrennbares Präfix (be-, ver-, er-, ent-, ge-, zer-)."
+    },
+    {
+      "id": "tb1-u31-l25-trennbar-p1-ex14",
+      "type": "choice",
+      "title": "Find the mistake",
+      "prompt": "Which word is wrong? „Ich anrufe dich heute Abend.“",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ich"
+        },
+        {
+          "id": "b",
+          "text": "anrufe"
+        },
+        {
+          "id": "c",
+          "text": "dich"
+        },
+        {
+          "id": "d",
+          "text": "heute"
+        },
+        {
+          "id": "e",
+          "text": "Abend"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "„anrufe“ → „rufe … an“: **Ich rufe dich heute Abend an.**\n\nTrennbares Verb im Hauptsatz trennen: Ich rufe dich … an."
+    },
+    {
+      "id": "tb1-u31-l25-trennbar-p1-ex15",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Correct the sentence: „Ich anrufe dich heute Abend.“",
+      "tiles": [
+        "rufe",
+        "dich",
+        "an",
+        "Kurs",
+        "Ich",
+        "du",
+        "heute",
+        "Abend",
+        "anrufe"
+      ],
+      "answers": [
+        "Ich rufe dich heute Abend an."
+      ],
+      "explanation": "Trennbares Verb im Hauptsatz trennen: Ich rufe dich … an."
+    },
+    {
+      "id": "tb1-u31-l25-trennbar-p1-ex16",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Put the verb in correctly (main clause): (anrufen) Ich ___ dich heute Abend.",
+      "tiles": [
+        "Salat",
+        "Abend",
+        "dich",
+        "heute",
+        "an",
+        "Bring",
+        "rufe",
+        "Ich"
+      ],
+      "answers": [
+        "Ich rufe dich heute Abend an."
+      ],
+      "explanation": "Im Hauptsatz Präfix ans Ende: Ich rufe dich … an.\n\n*Deutsch:* Setz das Verb richtig ein (Hauptsatz):"
+    }
+  ]
+}

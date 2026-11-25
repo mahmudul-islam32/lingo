@@ -1,0 +1,344 @@
+{
+  "id": "tb1-u32-l20-verbpraep-p1",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u32",
+  "title": "Verbs with Prepositions + darauf/worauf: Verb + feste Präposition & da(r) + Präposition",
+  "tip": "freuen AUF = future (auf deinen Besuch) · freuen ÜBER = already happened (über dein Geschenk). The letter closing needs AUF: Ich freue mich auf deine Antwort.",
+  "exercises": [
+    {
+      "id": "tb1-u32-l20-verbpraep-p1-ex01",
+      "type": "explain",
+      "title": "Verb + feste Präposition",
+      "body": "Many verbs have a fixed preposition – learn them together!\n\n*Deutsch:* Viele Verben haben eine feste Präposition – zusammen lernen!\n\n## Pattern\n\nSubjekt + **Verb** + … + **Präposition** + Nomen",
+      "examples": [
+        {
+          "learning": "Ich warte auf den Bus.",
+          "known": "I'm waiting for the bus."
+        },
+        {
+          "learning": "Wir freuen uns auf den Urlaub.",
+          "known": "We're looking forward to the holiday."
+        }
+      ]
+    },
+    {
+      "id": "tb1-u32-l20-verbpraep-p1-ex02",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I'm waiting for the bus.",
+      "tiles": [
+        "freue",
+        "warte",
+        "Bus",
+        "keine",
+        "auf",
+        "Ich",
+        "den",
+        "du"
+      ],
+      "answers": [
+        "Ich warte auf den Bus."
+      ],
+      "explanation": "**Why:** warten auf + accusative.\n\n*Warum:* warten auf + Akkusativ."
+    },
+    {
+      "id": "tb1-u32-l20-verbpraep-p1-ex03",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "We're looking forward to the holiday.",
+      "tiles": [
+        "abzuschließen",
+        "auf",
+        "Ich",
+        "uns",
+        "für",
+        "Wir",
+        "Urlaub",
+        "den",
+        "freuen"
+      ],
+      "answers": [
+        "Wir freuen uns auf den Urlaub."
+      ],
+      "explanation": "**Why:** sich freuen auf = future.\n\n*Warum:* sich freuen auf = Zukunft."
+    },
+    {
+      "id": "tb1-u32-l20-verbpraep-p1-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I'm pleased about your present.",
+      "tiles": [
+        "Worüber",
+        "freue",
+        "gesprochen",
+        "mich",
+        "warte",
+        "über",
+        "dein",
+        "Ich",
+        "Geschenk"
+      ],
+      "answers": [
+        "Ich freue mich über dein Geschenk."
+      ],
+      "explanation": "**Why:** sich freuen über = already happened.\n\n*Warum:* sich freuen über = schon passiert."
+    },
+    {
+      "id": "tb1-u32-l20-verbpraep-p1-ex05",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "She's interested in art.",
+      "tiles": [
+        "sprechen",
+        "für",
+        "Kunst",
+        "sich",
+        "Sie",
+        "interessiert",
+        "habe",
+        "Ich"
+      ],
+      "answers": [
+        "Sie interessiert sich für Kunst."
+      ],
+      "explanation": "**Why:** sich interessieren für + accusative.\n\n*Warum:* sich interessieren für + Akkusativ."
+    },
+    {
+      "id": "tb1-u32-l20-verbpraep-p1-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "He often thinks of his family.",
+      "tiles": [
+        "du",
+        "auf",
+        "den",
+        "seine",
+        "oft",
+        "Er",
+        "an",
+        "Familie",
+        "denkt"
+      ],
+      "answers": [
+        "Er denkt oft an seine Familie."
+      ],
+      "explanation": "**Why:** denken an + accusative.\n\n*Warum:* denken an + Akkusativ."
+    },
+    {
+      "id": "tb1-u32-l20-verbpraep-p1-ex07",
+      "type": "explain",
+      "title": "da(r) + Präposition · Sache",
+      "body": "For things, preposition + noun is replaced by da(r)- + preposition.\n\n*Deutsch:* Für Sachen ersetzt man Präposition + Nomen durch da(r)- + Präposition.\n\n## Pattern\n\n**da**/**dar** + Präposition (darauf, damit, darüber …)",
+      "examples": [
+        {
+          "learning": "Der Urlaub? Ich freue mich schon darauf.",
+          "known": "The holiday? I'm already looking forward to it."
+        },
+        {
+          "learning": "Das neue Handy? Ich bin sehr zufrieden damit.",
+          "known": "The new phone? I'm very happy with it."
+        }
+      ]
+    },
+    {
+      "id": "tb1-u32-l20-verbpraep-p1-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "The holiday? I'm already looking forward to it.",
+      "tiles": [
+        "habe",
+        "Kurs",
+        "mich",
+        "Ich",
+        "Urlaub",
+        "freue",
+        "Der",
+        "Bus",
+        "schon",
+        "darauf"
+      ],
+      "answers": [
+        "Der Urlaub? Ich freue mich schon darauf."
+      ],
+      "explanation": "**Why:** auf den Urlaub → darauf.\n\n*Warum:* auf den Urlaub → darauf."
+    },
+    {
+      "id": "tb1-u32-l20-verbpraep-p1-ex09",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "The new phone? I'm very happy with it.",
+      "tiles": [
+        "mich",
+        "neue",
+        "dafür",
+        "oft",
+        "sehr",
+        "Ich",
+        "Das",
+        "Handy",
+        "zufrieden",
+        "damit",
+        "bin"
+      ],
+      "answers": [
+        "Das neue Handy? Ich bin sehr zufrieden damit."
+      ],
+      "explanation": "**Why:** mit dem Handy → damit.\n\n*Warum:* mit dem Handy → damit."
+    },
+    {
+      "id": "tb1-u32-l20-verbpraep-p1-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "We talked about it for a long time.",
+      "tiles": [
+        "das",
+        "haben",
+        "Wir",
+        "lange",
+        "zur",
+        "darüber",
+        "Ich",
+        "gesprochen"
+      ],
+      "answers": [
+        "Wir haben lange darüber gesprochen."
+      ],
+      "explanation": "**Why:** über das Thema → darüber.\n\n*Warum:* über das Thema → darüber."
+    },
+    {
+      "id": "tb1-u32-l20-verbpraep-p1-ex11",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I don't feel like it.",
+      "tiles": [
+        "dazu",
+        "keine",
+        "Ich",
+        "mich",
+        "auf",
+        "habe",
+        "den",
+        "Lust"
+      ],
+      "answers": [
+        "Ich habe keine Lust dazu."
+      ],
+      "explanation": "**Why:** Lust zu → dazu.\n\n*Warum:* Lust zu → dazu."
+    },
+    {
+      "id": "tb1-u32-l20-verbpraep-p1-ex12",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Please remember to lock the door.",
+      "tiles": [
+        "bitte",
+        "Denk",
+        "daran",
+        "sehr",
+        "Ich",
+        "die",
+        "mich",
+        "Tür",
+        "abzuschließen"
+      ],
+      "answers": [
+        "Denk bitte daran, die Tür abzuschließen."
+      ],
+      "explanation": "**Why:** daran + zu infinitive.\n\n*Warum:* daran + zu-Infinitiv."
+    },
+    {
+      "id": "tb1-u32-l20-verbpraep-p1-ex13",
+      "type": "choice",
+      "title": "Fill the gap",
+      "prompt": "___ wartest du? Auf die Antwort vom Amt.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Worauf"
+        },
+        {
+          "id": "b",
+          "text": "Woran"
+        },
+        {
+          "id": "c",
+          "text": "Auf was"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Frage nach Sache: wo(r) + Präposition → Worauf wartest du?"
+    },
+    {
+      "id": "tb1-u32-l20-verbpraep-p1-ex14",
+      "type": "choice",
+      "title": "Fill the gap",
+      "prompt": "Er träumt ___ einem eigenen Restaurant.",
+      "options": [
+        {
+          "id": "a",
+          "text": "von"
+        },
+        {
+          "id": "b",
+          "text": "über"
+        },
+        {
+          "id": "c",
+          "text": "an"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "träumen von + Dativ."
+    },
+    {
+      "id": "tb1-u32-l20-verbpraep-p1-ex15",
+      "type": "choice",
+      "title": "Find the mistake",
+      "prompt": "Which word is wrong? „Ich warte für den Bus.“",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ich"
+        },
+        {
+          "id": "b",
+          "text": "warte"
+        },
+        {
+          "id": "c",
+          "text": "für"
+        },
+        {
+          "id": "d",
+          "text": "den"
+        },
+        {
+          "id": "e",
+          "text": "Bus"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "„für“ → „auf“: **Ich warte auf den Bus.**\n\nwarten auf + Akkusativ (nicht „für“, das ist ein Anglizismus)."
+    },
+    {
+      "id": "tb1-u32-l20-verbpraep-p1-ex16",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Correct the sentence: „Ich warte für den Bus.“",
+      "tiles": [
+        "freue",
+        "auf",
+        "zufrieden",
+        "für",
+        "warte",
+        "Bus",
+        "den",
+        "Ich"
+      ],
+      "answers": [
+        "Ich warte auf den Bus."
+      ],
+      "explanation": "warten auf + Akkusativ (nicht „für“, das ist ein Anglizismus)."
+    }
+  ]
+}

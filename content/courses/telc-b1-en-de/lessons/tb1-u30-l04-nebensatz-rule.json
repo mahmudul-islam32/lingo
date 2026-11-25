@@ -1,0 +1,151 @@
+{
+  "id": "tb1-u30-l04-nebensatz-rule",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u30",
+  "title": "Subordinate Clauses: weil, dass, wenn, obwohl …: the rule",
+  "tip": "“…weil ich bin krank” = instant deduction under criterion III. Verb to the end!",
+  "exercises": [
+    {
+      "id": "tb1-u30-l04-nebensatz-rule-ex01",
+      "type": "explain",
+      "title": "Subordinate Clauses: weil, dass, wenn, obwohl …",
+      "body": "After **weil, dass, wenn, obwohl, als, ob, damit, bevor, nachdem, während, seitdem, bis, falls** the conjugated verb moves **to the end** of the clause. Subordinate clause first? Then the main clause starts with the verb: “Wenn …, **gehe ich** …”.\n\n*Deutsch:* Nach **weil, dass, wenn, obwohl, als, ob, damit, bevor, nachdem, während, seitdem, bis, falls** wandert das konjugierte Verb **ans Ende**. Nebensatz zuerst? Dann beginnt der Hauptsatz mit dem Verb: „Wenn …, **gehe ich** …“.\n\n*German name:* Nebensätze: weil, dass, wenn, obwohl …",
+      "examples": [
+        {
+          "learning": "Ich bleibe zu Hause, weil ich krank bin.",
+          "known": "I'm staying home because I'm ill."
+        },
+        {
+          "learning": "Wenn es regnet, nehme ich den Bus.",
+          "known": "If it rains, I take the bus. (verb–comma–verb in the middle)"
+        },
+        {
+          "learning": "Ich hoffe, dass wir uns bald sehen.",
+          "known": "I hope that we'll see each other soon. (perfect letter-closing line)"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u30-l04-nebensatz-rule-ex02",
+      "type": "explain",
+      "title": "Subordinate Clauses: weil, dass, wenn, obwohl …: step by step",
+      "body": "Three steps:\n1) Connector from the list? → It's a **subordinate clause**.\n2) Conjugated verb goes **to the very end**: …, weil ich heute lange **arbeiten muss**. (modal verb last!)\n3) Subordinate clause first = position 1 of the whole sentence → main clause starts with the verb: Weil ich krank war, **bin** ich zu Hause geblieben. (pattern “…war, bin ich…” = verb-comma-verb)\nPerfekt inside: participle + auxiliary at the very end: …, dass du gekommen **bist**.\nThe 4 most useful for writing: **weil** (reason), **dass** (content), **wenn** (condition/time), **obwohl** (contrast).\n\n## Auf Deutsch\n\nDrei Schritte:\n1) Konnektor aus der Liste? → Das ist ein **Nebensatz**.\n2) Konjugiertes Verb **ganz ans Ende**: …, weil ich heute lange **arbeiten muss**. (Modalverb als letztes!)\n3) Nebensatz vorn = Position 1 für den ganzen Satz → Hauptsatz startet mit Verb: Weil ich krank war, **bin** ich zu Hause geblieben. (Muster „…war, bin ich…“ = Verb-Komma-Verb)\nPerfekt im Nebensatz: Partizip + Hilfsverb ganz am Ende: …, dass du gekommen **bist**.\nDie 4 wichtigsten fürs Schreiben: **weil** (Grund), **dass** (Inhalt), **wenn** (Bedingung/Zeit), **obwohl** (Gegengrund).",
+      "examples": [
+        {
+          "learning": "Ich bleibe zu Hause, weil ich krank bin.",
+          "known": "I'm staying home because I'm ill."
+        },
+        {
+          "learning": "Wenn es regnet, nehme ich den Bus.",
+          "known": "If it rains, I take the bus. (verb–comma–verb in the middle)"
+        },
+        {
+          "learning": "Ich hoffe, dass wir uns bald sehen.",
+          "known": "I hope that we'll see each other soon. (perfect letter-closing line)"
+        },
+        {
+          "learning": "Obwohl ich wenig Zeit hatte, habe ich dir ein Geschenk gekauft.",
+          "known": "Although I had little time, I bought you a present."
+        },
+        {
+          "learning": "Testlücke-Stil: „…, ___ ich die Prüfung bestehen will.“ → weil",
+          "known": "Test-gap style: reason + verb at the end → weil"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u30-l04-nebensatz-rule-ex03",
+      "type": "explain",
+      "title": "Watch out & exam tip",
+      "body": "## Common trap\n\n“…weil ich bin krank” = instant deduction under criterion III. Verb to the end!\n\n*Deutsch:* „…weil ich bin krank“ = sofort Punktabzug in Kriterium III. Verb ans Ende!\n\n## In the exam\n\n🎯 How telc tests it: **Sprachbausteine part 1** constantly asks weil/dass/wenn/ob, decide by the VERB POSITION after the gap. In the **letter**, every correct subordinate clause earns “sentence linking” credit (criteria II/III).\n\n*Deutsch:* 🎯 So testet telc das: **Sprachbausteine Teil 1** fragt ständig weil/dass/wenn/ob, entscheide über die VERBPOSITION nach der Lücke. Im **Brief** bringt jeder korrekte Nebensatz Punkte für „Satzverknüpfung“ (Kriterium II/III).\n\n*Source:* Guide B6 Familie 2 · Writing-Mastery Kap. 2"
+    },
+    {
+      "id": "tb1-u30-l04-nebensatz-rule-ex04",
+      "type": "choice",
+      "title": "Fill the gap",
+      "prompt": "Ich kann heute nicht kommen, weil ich ___.",
+      "options": [
+        {
+          "id": "a",
+          "text": "arbeite muss"
+        },
+        {
+          "id": "b",
+          "text": "arbeiten muss"
+        },
+        {
+          "id": "c",
+          "text": "muss arbeiten"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Im weil-Satz geht das konjugierte Verb ganz ans Ende: … weil ich arbeiten muss."
+    },
+    {
+      "id": "tb1-u30-l04-nebensatz-rule-ex05",
+      "type": "choice",
+      "title": "Fill the gap",
+      "prompt": "Er hofft, dass er die Prüfung ___.",
+      "options": [
+        {
+          "id": "a",
+          "text": "besteht"
+        },
+        {
+          "id": "b",
+          "text": "besteht er"
+        },
+        {
+          "id": "c",
+          "text": "bestehen"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "dass-Satz: Verb am Ende → … dass er die Prüfung besteht."
+    },
+    {
+      "id": "tb1-u30-l04-nebensatz-rule-ex06",
+      "type": "choice",
+      "title": "Fill the gap",
+      "prompt": "___ es regnet, nehme ich einen Regenschirm mit.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Dass"
+        },
+        {
+          "id": "b",
+          "text": "Wenn"
+        },
+        {
+          "id": "c",
+          "text": "Ob"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Bedingung = wenn. Ob = indirekte Ja/Nein-Frage, dass = Aussage."
+    },
+    {
+      "id": "tb1-u30-l04-nebensatz-rule-ex07",
+      "type": "choice",
+      "title": "Fill the gap",
+      "prompt": "Obwohl er müde ___, hat er weitergearbeitet.",
+      "options": [
+        {
+          "id": "a",
+          "text": "ist"
+        },
+        {
+          "id": "b",
+          "text": "hat"
+        },
+        {
+          "id": "c",
+          "text": "war"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Zustand in der Vergangenheit: obwohl er müde war. Verb am Ende des Nebensatzes."
+    }
+  ]
+}

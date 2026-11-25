@@ -1,0 +1,282 @@
+{
+  "id": "tb1-u09-l03-verbs-a2-3",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u09",
+  "title": "Verbs (A2) 3",
+  "tip": "Theme: Verben (A2) (A2)",
+  "exercises": [
+    {
+      "id": "tb1-u09-l03-verbs-a2-3-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "erklären",
+          "known": "to explain"
+        },
+        {
+          "id": "p2",
+          "learning": "fragen",
+          "known": "to ask"
+        },
+        {
+          "id": "p3",
+          "learning": "antworten",
+          "known": "to answer"
+        },
+        {
+          "id": "p4",
+          "learning": "vergessen",
+          "known": "to forget"
+        },
+        {
+          "id": "p5",
+          "learning": "sich erinnern an",
+          "known": "to remember"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u09-l03-verbs-a2-3-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which one means „to explain“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "erklären"
+        },
+        {
+          "id": "b",
+          "text": "fragen"
+        },
+        {
+          "id": "c",
+          "text": "vergessen (vergisst)"
+        },
+        {
+          "id": "d",
+          "text": "einladen (lädt ein)"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**erklären** = to explain\n\n*Example:* Der Arzt erklärt mir, wie ich die Tabletten nehmen muss.\nThe doctor explains to me how to take the tablets."
+    },
+    {
+      "id": "tb1-u09-l03-verbs-a2-3-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which one means „to ask“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "entscheiden"
+        },
+        {
+          "id": "b",
+          "text": "fragen"
+        },
+        {
+          "id": "c",
+          "text": "helfen (hilft)"
+        },
+        {
+          "id": "d",
+          "text": "erklären"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**fragen** = to ask\n\n*Example:* Ich frage die Verkäuferin nach dem Preis.\nI ask the shop assistant about the price."
+    },
+    {
+      "id": "tb1-u09-l03-verbs-a2-3-ex04",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u09-l03-verbs-a2-3-1.mp3"
+      },
+      "tiles": [
+        "besuchen",
+        "nehmen",
+        "muss",
+        "die",
+        "mir",
+        "ich",
+        "Arzt",
+        "Der",
+        "Tabletten",
+        "meine",
+        "wie",
+        "Büro",
+        "erklärt"
+      ],
+      "answers": [
+        "Der Arzt erklärt mir, wie ich die Tabletten nehmen muss."
+      ],
+      "explanation": "Der Arzt erklärt mir, wie ich die Tabletten nehmen muss.\n*The doctor explains to me how to take the tablets.*\n\n**erklären** = to explain"
+    },
+    {
+      "id": "tb1-u09-l03-verbs-a2-3-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which one means „to answer“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "einladen (lädt ein)"
+        },
+        {
+          "id": "b",
+          "text": "antworten"
+        },
+        {
+          "id": "c",
+          "text": "bezahlen"
+        },
+        {
+          "id": "d",
+          "text": "fragen"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**antworten** = to answer\n\n*Example:* Bitte antworten Sie bis Freitag auf unsere E-Mail.\nPlease reply to our email by Friday."
+    },
+    {
+      "id": "tb1-u09-l03-verbs-a2-3-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Ich frage die Verkäuferin nach dem Preis.",
+      "tiles": [
+        "the",
+        "I",
+        "assistant",
+        "beginning",
+        "ask",
+        "price",
+        "the",
+        "smaller",
+        "about",
+        "shop",
+        "to"
+      ],
+      "answers": [
+        "I ask the shop assistant about the price."
+      ],
+      "explanation": "**fragen** = to ask"
+    },
+    {
+      "id": "tb1-u09-l03-verbs-a2-3-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which one means „to forget“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "besuchen"
+        },
+        {
+          "id": "b",
+          "text": "vergessen (vergisst)"
+        },
+        {
+          "id": "c",
+          "text": "wiederholen"
+        },
+        {
+          "id": "d",
+          "text": "helfen (hilft)"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**vergessen (vergisst)** = to forget\n\n*Example:* Mein Mann vergisst oft seinen Regenschirm.\nMy husband often forgets his umbrella."
+    },
+    {
+      "id": "tb1-u09-l03-verbs-a2-3-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Please reply to our email by Friday.",
+      "tiles": [
+        "unsere",
+        "auf",
+        "E-Mail",
+        "die",
+        "Sie",
+        "Freitag",
+        "du",
+        "Bitte",
+        "antworten",
+        "Brief",
+        "bis"
+      ],
+      "answers": [
+        "Bitte antworten Sie bis Freitag auf unsere E-Mail."
+      ],
+      "explanation": "**antworten** = to answer"
+    },
+    {
+      "id": "tb1-u09-l03-verbs-a2-3-ex09",
+      "type": "multiple_choice",
+      "prompt": "Which verb means „to remember“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "besuchen"
+        },
+        {
+          "id": "b",
+          "text": "erklären"
+        },
+        {
+          "id": "c",
+          "text": "sich erinnern an + Akk."
+        },
+        {
+          "id": "d",
+          "text": "fragen"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**sich erinnern an + Akk.** = to remember\n\n*Example:* Ich erinnere mich gern an unseren Urlaub in Spanien.\nI like to remember our holiday in Spain."
+    },
+    {
+      "id": "tb1-u09-l03-verbs-a2-3-ex10",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u09-l03-verbs-a2-3-4.mp3"
+      },
+      "tiles": [
+        "meinen",
+        "Regenschirm",
+        "seinen",
+        "Mann",
+        "Mein",
+        "vergisst",
+        "Sie",
+        "frage",
+        "oft"
+      ],
+      "answers": [
+        "Mein Mann vergisst oft seinen Regenschirm."
+      ],
+      "explanation": "Mein Mann vergisst oft seinen Regenschirm.\n*My husband often forgets his umbrella.*\n\n**vergessen (vergisst)** = to forget"
+    },
+    {
+      "id": "tb1-u09-l03-verbs-a2-3-ex11",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Ich erinnere mich gern an unseren Urlaub in Spanien.",
+      "tiles": [
+        "café",
+        "assistant",
+        "to",
+        "I",
+        "our",
+        "remember",
+        "holiday",
+        "at",
+        "Spain",
+        "in",
+        "like"
+      ],
+      "answers": [
+        "I like to remember our holiday in Spain."
+      ],
+      "explanation": "**sich erinnern an + Akk.** = to remember"
+    }
+  ]
+}

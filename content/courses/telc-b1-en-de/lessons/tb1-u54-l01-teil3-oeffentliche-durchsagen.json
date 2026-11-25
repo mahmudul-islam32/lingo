@@ -1,0 +1,110 @@
+{
+  "id": "tb1-u54-l01-teil3-oeffentliche-durchsagen",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u54",
+  "title": "Part 3 · Öffentliche Durchsagen",
+  "tip": "Each announcement runs twice in the exam.",
+  "exercises": [
+    {
+      "id": "tb1-u54-l01-teil3-oeffentliche-durchsagen-ex01",
+      "type": "explain",
+      "title": "Teil 3 · Durchsagen",
+      "body": "**5 public announcements (station, shop, museum), each played twice.** Listen for restrictions (*nur bis zum Marktplatz*), closures (*am Montag geschlossen*) and paraphrases (*außer Betrieb* = *funktioniert nicht*)."
+    },
+    {
+      "id": "tb1-u54-l01-teil3-oeffentliche-durchsagen-ex02",
+      "type": "listening",
+      "title": "Hören Teil 3 · Durchsage 1 von 5 · Öffentliche Durchsagen",
+      "transcript": "Willkommen im Stadtmuseum. Bitte beachten Sie: Das Fotografieren in den Ausstellungsräumen ist nicht erlaubt.",
+      "prompt": "56. Im Museum darf man nicht fotografieren. Richtig oder falsch?",
+      "options": [
+        {
+          "id": "a",
+          "text": "richtig"
+        },
+        {
+          "id": "b",
+          "text": "falsch"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Richtig.** „nicht erlaubt“ = darf man nicht."
+    },
+    {
+      "id": "tb1-u54-l01-teil3-oeffentliche-durchsagen-ex03",
+      "type": "listening",
+      "title": "Hören Teil 3 · Durchsage 2 von 5 · Öffentliche Durchsagen",
+      "transcript": "Durchsage für alle Fahrgäste: Wegen Bauarbeiten fährt die Buslinie zwölf heute nur bis zum Marktplatz, nicht bis zum Hauptbahnhof.",
+      "prompt": "57. Der Bus 12 fährt heute bis zum Hauptbahnhof. Richtig oder falsch?",
+      "options": [
+        {
+          "id": "a",
+          "text": "richtig"
+        },
+        {
+          "id": "b",
+          "text": "falsch"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Falsch.** „nur bis zum Marktplatz“. Korrekturfalle."
+    },
+    {
+      "id": "tb1-u54-l01-teil3-oeffentliche-durchsagen-ex04",
+      "type": "listening",
+      "title": "Hören Teil 3 · Durchsage 3 von 5 · Öffentliche Durchsagen",
+      "transcript": "Sehr geehrte Kunden, unsere Filiale bleibt am Montag wegen Inventur geschlossen. Ab Dienstag sind wir wieder für Sie da.",
+      "prompt": "58. Am Montag ist das Geschäft geöffnet. Richtig oder falsch?",
+      "options": [
+        {
+          "id": "a",
+          "text": "richtig"
+        },
+        {
+          "id": "b",
+          "text": "falsch"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Falsch.** „am Montag geschlossen“."
+    },
+    {
+      "id": "tb1-u54-l01-teil3-oeffentliche-durchsagen-ex05",
+      "type": "listening",
+      "title": "Hören Teil 3 · Durchsage 4 von 5 · Öffentliche Durchsagen",
+      "transcript": "Liebe Fahrgäste, das Bordrestaurant in Wagen zwölf bietet warme und kalte Speisen.",
+      "prompt": "59. Im Zug kann man etwas zu essen bekommen. Richtig oder falsch?",
+      "options": [
+        {
+          "id": "a",
+          "text": "richtig"
+        },
+        {
+          "id": "b",
+          "text": "falsch"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Richtig.** Speisen = Essen. Paraphrase."
+    },
+    {
+      "id": "tb1-u54-l01-teil3-oeffentliche-durchsagen-ex06",
+      "type": "listening",
+      "title": "Hören Teil 3 · Durchsage 5 von 5 · Öffentliche Durchsagen",
+      "transcript": "Achtung: Der Aufzug ist zurzeit außer Betrieb. Bitte benutzen Sie die Treppe.",
+      "prompt": "60. Der Aufzug funktioniert im Moment nicht. Richtig oder falsch?",
+      "options": [
+        {
+          "id": "a",
+          "text": "richtig"
+        },
+        {
+          "id": "b",
+          "text": "falsch"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Richtig.** „außer Betrieb“ = funktioniert nicht."
+    }
+  ]
+}

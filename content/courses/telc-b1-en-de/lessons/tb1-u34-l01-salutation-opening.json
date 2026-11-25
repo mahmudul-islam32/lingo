@@ -1,0 +1,454 @@
+{
+  "id": "tb1-u34-l01-salutation-opening",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u34",
+  "title": "Letter toolkit: Salutation & Opening",
+  "tip": "Brief-Baukasten: ready-made building blocks for the telc letter.",
+  "exercises": [
+    {
+      "id": "tb1-u34-l01-salutation-opening-ex01",
+      "type": "explain",
+      "title": "Salutation (Anrede)",
+      "body": "Friend → du + „Liebe/r …“. Company/office → Sie + „Sehr geehrte/r …“. Decide once, never mix.\n\n*Deutsch:* Freund → du + „Liebe/r …“. Firma/Amt → Sie + „Sehr geehrte/r …“. Einmal entscheiden, nie mischen.\n\n- **Liebe Anna, / Lieber Omar,** = Dear Anna / Omar (informal)\n- **Hallo Sarah,** = Hi Sarah (informal, casual)\n- **Sehr geehrte Frau Weber, / Sehr geehrter Herr Klein,** = Dear Ms Weber / Mr Klein (formal)\n- **Sehr geehrte Damen und Herren,** = Dear Sir or Madam (name unknown)",
+      "examples": [
+        {
+          "learning": "Liebe Anna, / Lieber Omar,",
+          "known": "Dear Anna / Omar (informal)"
+        },
+        {
+          "learning": "Hallo Sarah,",
+          "known": "Hi Sarah (informal, casual)"
+        },
+        {
+          "learning": "Sehr geehrte Frau Weber, / Sehr geehrter Herr Klein,",
+          "known": "Dear Ms Weber / Mr Klein (formal)"
+        },
+        {
+          "learning": "Sehr geehrte Damen und Herren,",
+          "known": "Dear Sir or Madam (name unknown)"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u34-l01-salutation-opening-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which phrase means „Dear Anna / Omar (informal)“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Sehr geehrte Frau Weber, / Sehr geehrter Herr Klein,"
+        },
+        {
+          "id": "b",
+          "text": "Vielen Dank im Voraus für Ihre Mühe."
+        },
+        {
+          "id": "c",
+          "text": "Könnten Sie mir bitte mitteilen, ob/wann …?"
+        },
+        {
+          "id": "d",
+          "text": "Liebe Anna, / Lieber Omar,"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**Liebe Anna, / Lieber Omar,** = Dear Anna / Omar (informal)"
+    },
+    {
+      "id": "tb1-u34-l01-salutation-opening-ex03",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u34-l01-salutation-opening-1.mp3"
+      },
+      "tiles": [
+        "Liebe",
+        "Anna",
+        "geehrte",
+        "von",
+        "mich"
+      ],
+      "answers": [
+        "Liebe Anna,"
+      ],
+      "explanation": "**Liebe Anna, / Lieber Omar,** = Dear Anna / Omar (informal)"
+    },
+    {
+      "id": "tb1-u34-l01-salutation-opening-ex04",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u34-l01-salutation-opening-2.mp3"
+      },
+      "tiles": [
+        "dich",
+        "mir",
+        "Ich",
+        "Lieber",
+        "Omar"
+      ],
+      "answers": [
+        "Lieber Omar,"
+      ],
+      "explanation": "**Liebe Anna, / Lieber Omar,** = Dear Anna / Omar (informal)"
+    },
+    {
+      "id": "tb1-u34-l01-salutation-opening-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which phrase means „Hi Sarah (informal, casual)“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Entschuldige bitte, dass ich erst jetzt antworte."
+        },
+        {
+          "id": "b",
+          "text": "Hallo Sarah,"
+        },
+        {
+          "id": "c",
+          "text": "Sehr geehrte Damen und Herren,"
+        },
+        {
+          "id": "d",
+          "text": "Vielen Dank für deine/Ihre E-Mail."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Hallo Sarah,** = Hi Sarah (informal, casual)"
+    },
+    {
+      "id": "tb1-u34-l01-salutation-opening-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Hi Sarah (informal, casual)",
+      "tiles": [
+        "du",
+        "Sarah",
+        "mit",
+        "Hallo",
+        "weil"
+      ],
+      "answers": [
+        "Hallo Sarah,"
+      ],
+      "explanation": "**Hallo Sarah,** = Hi Sarah (informal, casual)"
+    },
+    {
+      "id": "tb1-u34-l01-salutation-opening-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which phrase means „Dear Ms Weber / Mr Klein (formal)“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ich danke dir/Ihnen herzlich für …"
+        },
+        {
+          "id": "b",
+          "text": "Hallo Sarah,"
+        },
+        {
+          "id": "c",
+          "text": "Sehr geehrte Frau Weber, / Sehr geehrter Herr Klein,"
+        },
+        {
+          "id": "d",
+          "text": "Sehr geehrte Damen und Herren,"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**Sehr geehrte Frau Weber, / Sehr geehrter Herr Klein,** = Dear Ms Weber / Mr Klein (formal)\n\n*Grammar:* The n-Declension"
+    },
+    {
+      "id": "tb1-u34-l01-salutation-opening-ex08",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u34-l01-salutation-opening-3.mp3"
+      },
+      "tiles": [
+        "Sehr",
+        "Frau",
+        "geehrte",
+        "Arbeit",
+        "erst",
+        "antworte",
+        "Weber"
+      ],
+      "answers": [
+        "Sehr geehrte Frau Weber,"
+      ],
+      "explanation": "**Sehr geehrte Frau Weber, / Sehr geehrter Herr Klein,** = Dear Ms Weber / Mr Klein (formal)"
+    },
+    {
+      "id": "tb1-u34-l01-salutation-opening-ex09",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u34-l01-salutation-opening-4.mp3"
+      },
+      "tiles": [
+        "Können",
+        "Klein",
+        "Herr",
+        "nehme",
+        "Sehr",
+        "geehrter",
+        "Erfahrung"
+      ],
+      "answers": [
+        "Sehr geehrter Herr Klein,"
+      ],
+      "explanation": "**Sehr geehrte Frau Weber, / Sehr geehrter Herr Klein,** = Dear Ms Weber / Mr Klein (formal)"
+    },
+    {
+      "id": "tb1-u34-l01-salutation-opening-ex10",
+      "type": "multiple_choice",
+      "prompt": "Which phrase means „Dear Sir or Madam (name unknown)“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Sehr geehrte Damen und Herren,"
+        },
+        {
+          "id": "b",
+          "text": "Hallo Sarah,"
+        },
+        {
+          "id": "c",
+          "text": "Ich schreibe Ihnen, weil …"
+        },
+        {
+          "id": "d",
+          "text": "Entschuldige bitte, dass ich erst jetzt antworte."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Sehr geehrte Damen und Herren,** = Dear Sir or Madam (name unknown)"
+    },
+    {
+      "id": "tb1-u34-l01-salutation-opening-ex11",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Dear Sir or Madam (name unknown)",
+      "tiles": [
+        "geehrte",
+        "und",
+        "Sehr",
+        "sehe",
+        "uns",
+        "Herren",
+        "Damen",
+        "ich"
+      ],
+      "answers": [
+        "Sehr geehrte Damen und Herren,"
+      ],
+      "explanation": "**Sehr geehrte Damen und Herren,** = Dear Sir or Madam (name unknown)"
+    },
+    {
+      "id": "tb1-u34-l01-salutation-opening-ex12",
+      "type": "explain",
+      "title": "Opening (Einleitung)",
+      "body": "First the reference/reason, then the topic. A „weil“ or „Ich schreibe Ihnen, weil …“ earns linking points right away (criterion II).\n\n*Deutsch:* Erst Bezug/Grund, dann zum Thema. Ein „weil“ oder „Ich schreibe Ihnen, weil …“ bringt sofort Verknüpfungspunkte (Kriterium II).\n\n- **Vielen Dank für deine/Ihre E-Mail.** = Thank you for your e-mail.\n- **Ich habe mich sehr über deine Nachricht gefreut.** = I was very happy about your message.\n- **Ich schreibe Ihnen, weil …** = I'm writing to you because …\n- **Entschuldige bitte, dass ich erst jetzt antworte.** = Sorry for replying only now.",
+      "examples": [
+        {
+          "learning": "Vielen Dank für deine/Ihre E-Mail.",
+          "known": "Thank you for your e-mail."
+        },
+        {
+          "learning": "Ich habe mich sehr über deine Nachricht gefreut.",
+          "known": "I was very happy about your message."
+        },
+        {
+          "learning": "Ich schreibe Ihnen, weil …",
+          "known": "I'm writing to you because …"
+        },
+        {
+          "learning": "Entschuldige bitte, dass ich erst jetzt antworte.",
+          "known": "Sorry for replying only now."
+        }
+      ]
+    },
+    {
+      "id": "tb1-u34-l01-salutation-opening-ex13",
+      "type": "multiple_choice",
+      "prompt": "Which phrase means „Thank you for your e-mail.“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Vielen Dank für deine/Ihre E-Mail."
+        },
+        {
+          "id": "b",
+          "text": "Sehr geehrte Damen und Herren,"
+        },
+        {
+          "id": "c",
+          "text": "Wäre es möglich, den Termin zu verschieben?"
+        },
+        {
+          "id": "d",
+          "text": "Das ist wirklich nett von dir!"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Vielen Dank für deine/Ihre E-Mail.** = Thank you for your e-mail."
+    },
+    {
+      "id": "tb1-u34-l01-salutation-opening-ex14",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Thank you for your e-mail.",
+      "tiles": [
+        "für",
+        "Vielen",
+        "kann",
+        "Dank",
+        "E-Mail",
+        "Ihnen",
+        "mitteilen",
+        "deine/Ihre"
+      ],
+      "answers": [
+        "Vielen Dank für deine/Ihre E-Mail."
+      ],
+      "explanation": "**Vielen Dank für deine/Ihre E-Mail.** = Thank you for your e-mail."
+    },
+    {
+      "id": "tb1-u34-l01-salutation-opening-ex15",
+      "type": "multiple_choice",
+      "prompt": "Which phrase means „I was very happy about your message.“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Das ist wirklich nett von dir!"
+        },
+        {
+          "id": "b",
+          "text": "Sehr geehrte Frau Weber, / Sehr geehrter Herr Klein,"
+        },
+        {
+          "id": "c",
+          "text": "Hallo Sarah,"
+        },
+        {
+          "id": "d",
+          "text": "Ich habe mich sehr über deine Nachricht gefreut."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**Ich habe mich sehr über deine Nachricht gefreut.** = I was very happy about your message.\n\n*Grammar:* Reflexive Verbs"
+    },
+    {
+      "id": "tb1-u34-l01-salutation-opening-ex16",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I was very happy about your message.",
+      "tiles": [
+        "wir",
+        "Ich",
+        "deine",
+        "habe",
+        "sehr",
+        "gefreut",
+        "Nachricht",
+        "mich",
+        "bitte",
+        "uns",
+        "über"
+      ],
+      "answers": [
+        "Ich habe mich sehr über deine Nachricht gefreut."
+      ],
+      "explanation": "**Ich habe mich sehr über deine Nachricht gefreut.** = I was very happy about your message.\n\n*Grammar:* Reflexive Verbs"
+    },
+    {
+      "id": "tb1-u34-l01-salutation-opening-ex17",
+      "type": "multiple_choice",
+      "prompt": "Which phrase means „I'm writing to you because …“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ich schreibe Ihnen, weil …"
+        },
+        {
+          "id": "b",
+          "text": "Könnten Sie mir bitte mitteilen, ob/wann …?"
+        },
+        {
+          "id": "c",
+          "text": "Liebe Anna, / Lieber Omar,"
+        },
+        {
+          "id": "d",
+          "text": "Sehr geehrte Frau Weber, / Sehr geehrter Herr Klein,"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Ich schreibe Ihnen, weil …** = I'm writing to you because …\n\n*Grammar:* Subordinate Clauses: weil, dass, wenn, obwohl …"
+    },
+    {
+      "id": "tb1-u34-l01-salutation-opening-ex18",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I'm writing to you because …",
+      "tiles": [
+        "weil",
+        "Das",
+        "schreibe",
+        "/",
+        "Ihnen",
+        "noch",
+        "Ich"
+      ],
+      "answers": [
+        "Ich schreibe Ihnen, weil …"
+      ],
+      "explanation": "**Ich schreibe Ihnen, weil …** = I'm writing to you because …\n\n*Grammar:* Subordinate Clauses: weil, dass, wenn, obwohl …"
+    },
+    {
+      "id": "tb1-u34-l01-salutation-opening-ex19",
+      "type": "multiple_choice",
+      "prompt": "Which phrase means „Sorry for replying only now.“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Vielen Dank für deine/Ihre E-Mail."
+        },
+        {
+          "id": "b",
+          "text": "Entschuldige bitte, dass ich erst jetzt antworte."
+        },
+        {
+          "id": "c",
+          "text": "Hallo Sarah,"
+        },
+        {
+          "id": "d",
+          "text": "Ich habe mich sehr über deine Nachricht gefreut."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Entschuldige bitte, dass ich erst jetzt antworte.** = Sorry for replying only now.\n\n*Grammar:* Subordinate Clauses: weil, dass, wenn, obwohl …"
+    },
+    {
+      "id": "tb1-u34-l01-salutation-opening-ex20",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Sorry for replying only now.",
+      "tiles": [
+        "antworte",
+        "dass",
+        "Ihnen",
+        "jetzt",
+        "Können",
+        "erst",
+        "bitte",
+        "ich",
+        "ob/wann",
+        "Entschuldige"
+      ],
+      "answers": [
+        "Entschuldige bitte, dass ich erst jetzt antworte."
+      ],
+      "explanation": "**Entschuldige bitte, dass ich erst jetzt antworte.** = Sorry for replying only now.\n\n*Grammar:* Subordinate Clauses: weil, dass, wenn, obwohl …"
+    }
+  ]
+}

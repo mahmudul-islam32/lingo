@@ -1,0 +1,287 @@
+{
+  "id": "tb1-u23-l06-exam-language-instructions-6",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u23",
+  "title": "Exam Language & Instructions 6",
+  "tip": "Theme: Prüfungssprache & Aufgaben (B1)",
+  "exercises": [
+    {
+      "id": "tb1-u23-l06-exam-language-instructions-6-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "die Abbildung",
+          "known": "illustration / figure"
+        },
+        {
+          "id": "p2",
+          "learning": "die Quelle",
+          "known": "source"
+        },
+        {
+          "id": "p3",
+          "learning": "der Vorname",
+          "known": "first name"
+        },
+        {
+          "id": "p4",
+          "learning": "der Familienname",
+          "known": "surname"
+        },
+        {
+          "id": "p5",
+          "learning": "das Geschlecht",
+          "known": "gender"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u23-l06-exam-language-instructions-6-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „illustration / figure“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Abbildung, die Abbildungen"
+        },
+        {
+          "id": "b",
+          "text": "der Zettel, die Zettel"
+        },
+        {
+          "id": "c",
+          "text": "die Tabelle, die Tabellen"
+        },
+        {
+          "id": "d",
+          "text": "die Überschrift, die Überschriften"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**die Abbildung** = illustration / figure\n*Plural: die Abbildungen*\n\n*Example:* Auf der Abbildung sieht man, wie man das Regal aufbaut.\nThe illustration shows how to assemble the shelf."
+    },
+    {
+      "id": "tb1-u23-l06-exam-language-instructions-6-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „source“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Quelle, die Quellen"
+        },
+        {
+          "id": "b",
+          "text": "die Grafik, die Grafiken"
+        },
+        {
+          "id": "c",
+          "text": "die Abbildung, die Abbildungen"
+        },
+        {
+          "id": "d",
+          "text": "der Beginn"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**die Quelle** = source\n*Plural: die Quellen*\n\n*Example:* Der Journalist nennt in seinem Artikel immer die Quelle.\nThe journalist always names the source in his article."
+    },
+    {
+      "id": "tb1-u23-l06-exam-language-instructions-6-ex04",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u23-l06-exam-language-instructions-6-1.mp3"
+      },
+      "tiles": [
+        "Regal",
+        "Kalender",
+        "der",
+        "man",
+        "man",
+        "Abbildung",
+        "Tom",
+        "Auf",
+        "sieht",
+        "das",
+        "aufbaut",
+        "wie",
+        "Die"
+      ],
+      "answers": [
+        "Auf der Abbildung sieht man, wie man das Regal aufbaut."
+      ],
+      "explanation": "Auf der Abbildung sieht man, wie man das Regal aufbaut.\n*The illustration shows how to assemble the shelf.*\n\n**die Abbildung** = illustration / figure\n*Plural: die Abbildungen*"
+    },
+    {
+      "id": "tb1-u23-l06-exam-language-instructions-6-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „first name“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Anrede, die Anreden"
+        },
+        {
+          "id": "b",
+          "text": "der Vorname, die Vornamen"
+        },
+        {
+          "id": "c",
+          "text": "die Grafik, die Grafiken"
+        },
+        {
+          "id": "d",
+          "text": "die Reihenfolge, die Reihenfolgen"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**der Vorname** = first name\n*Plural: die Vornamen*\n\n*Example:* Mein Vorname ist Maria, aber alle nennen mich Mia.\nMy first name is Maria, but everyone calls me Mia."
+    },
+    {
+      "id": "tb1-u23-l06-exam-language-instructions-6-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Der Journalist nennt in seinem Artikel immer die Quelle.",
+      "tiles": [
+        "The",
+        "shows",
+        "source",
+        "journalist",
+        "names",
+        "article",
+        "in",
+        "his",
+        "phone",
+        "into",
+        "the",
+        "always"
+      ],
+      "answers": [
+        "The journalist always names the source in his article."
+      ],
+      "explanation": "**die Quelle** = source\n*Plural: die Quellen*"
+    },
+    {
+      "id": "tb1-u23-l06-exam-language-instructions-6-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „surname“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "der Antwortbogen, die Antwortbögen"
+        },
+        {
+          "id": "b",
+          "text": "die Notiz, die Notizen"
+        },
+        {
+          "id": "c",
+          "text": "die Anrede, die Anreden"
+        },
+        {
+          "id": "d",
+          "text": "der Familienname, die Familiennamen"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**der Familienname** = surname\n*Plural: die Familiennamen*\n\n*Example:* Bitte schreiben Sie Ihren Familiennamen in Großbuchstaben.\nPlease write your surname in capital letters."
+    },
+    {
+      "id": "tb1-u23-l06-exam-language-instructions-6-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "My first name is Maria, but everyone calls me Mia.",
+      "tiles": [
+        "aber",
+        "nennen",
+        "gefunden",
+        "mich",
+        "Vorname",
+        "mir",
+        "Sie",
+        "Mia",
+        "ist",
+        "alle",
+        "Maria",
+        "Mein"
+      ],
+      "answers": [
+        "Mein Vorname ist Maria, aber alle nennen mich Mia."
+      ],
+      "explanation": "**der Vorname** = first name\n*Plural: die Vornamen*"
+    },
+    {
+      "id": "tb1-u23-l06-exam-language-instructions-6-ex09",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „gender“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "das Geschlecht, die Geschlechter"
+        },
+        {
+          "id": "b",
+          "text": "die Reihenfolge, die Reihenfolgen"
+        },
+        {
+          "id": "c",
+          "text": "der Gesprächspartner, die Gesprächspartner"
+        },
+        {
+          "id": "d",
+          "text": "der Familienname, die Familiennamen"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**das Geschlecht** = gender\n*Plural: die Geschlechter*\n\n*Example:* Im Formular muss man auch das Geschlecht ankreuzen.\nOn the form you also have to tick your gender."
+    },
+    {
+      "id": "tb1-u23-l06-exam-language-instructions-6-ex10",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u23-l06-exam-language-instructions-6-4.mp3"
+      },
+      "tiles": [
+        "verheiratet",
+        "Team",
+        "in",
+        "Ihren",
+        "Familiennamen",
+        "Tom",
+        "Sie",
+        "Großbuchstaben",
+        "Bitte",
+        "schreiben"
+      ],
+      "answers": [
+        "Bitte schreiben Sie Ihren Familiennamen in Großbuchstaben."
+      ],
+      "explanation": "Bitte schreiben Sie Ihren Familiennamen in Großbuchstaben.\n*Please write your surname in capital letters.*\n\n**der Familienname** = surname\n*Plural: die Familiennamen*"
+    },
+    {
+      "id": "tb1-u23-l06-exam-language-instructions-6-ex11",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Im Formular muss man auch das Geschlecht ankreuzen.",
+      "tiles": [
+        "Berlin",
+        "have",
+        "also",
+        "gender",
+        "tick",
+        "your",
+        "On",
+        "to",
+        "the",
+        "form",
+        "first",
+        "you",
+        "following"
+      ],
+      "answers": [
+        "On the form you also have to tick your gender."
+      ],
+      "explanation": "**das Geschlecht** = gender\n*Plural: die Geschlechter*"
+    }
+  ]
+}

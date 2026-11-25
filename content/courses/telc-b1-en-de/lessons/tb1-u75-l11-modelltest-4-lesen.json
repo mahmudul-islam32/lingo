@@ -1,0 +1,993 @@
+{
+  "id": "tb1-u75-l11-modelltest-4-lesen",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u75",
+  "title": "Modelltest 4 · Lesen (tasks 1–20)",
+  "tip": "90 minutes for Lesen + Sprachbausteine together.",
+  "exercises": [
+    {
+      "id": "tb1-u75-l11-modelltest-4-lesen-ex01",
+      "type": "explain",
+      "title": "Modelltest 4: start the 90-minute block",
+      "body": "Lesen + Sprachbausteine, tasks 1–40, one block of **90 minutes**. Start your timer now; the Sprachbausteine follow in the next lesson."
+    },
+    {
+      "id": "tb1-u75-l11-modelltest-4-lesen-ex02",
+      "type": "explain",
+      "title": "Lesen Teil 1 · Aufgaben 1–5",
+      "body": "5 texts, 10 headlines, 5 stay unused. Each headline fits only one text. **5 points per text.**"
+    },
+    {
+      "id": "tb1-u75-l11-modelltest-4-lesen-ex03",
+      "type": "choice",
+      "title": "Aufgabe 1 · Freizeit & Wohnen",
+      "passage": "Der Sportverein sucht neue Mitglieder und bietet im ersten Monat ein kostenloses Probetraining an.",
+      "prompt": "Welche Überschrift passt zu Text 1?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Sportverein wirbt mit kostenlosem Probemonat"
+        },
+        {
+          "id": "b",
+          "text": "Sportverein erhöht die Mitgliedsbeiträge"
+        },
+        {
+          "id": "c",
+          "text": "Neue Wohnungen in der Stadt: für viele aber zu teuer"
+        },
+        {
+          "id": "d",
+          "text": "Stadtfest wegen Regen abgesagt"
+        },
+        {
+          "id": "e",
+          "text": "Stadtfest findet trotz schlechtem Wetter statt"
+        },
+        {
+          "id": "f",
+          "text": "Büros drucken immer mehr Dokumente aus"
+        },
+        {
+          "id": "g",
+          "text": "Kälteeinbruch am Wochenende erwartet"
+        },
+        {
+          "id": "h",
+          "text": "Warmes Wochenende sorgt für gute Laune"
+        },
+        {
+          "id": "i",
+          "text": "Büros wollen Papier sparen"
+        },
+        {
+          "id": "j",
+          "text": "Günstige Mieten locken viele in die Innenstadt"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Answer: A** „Sportverein wirbt mit kostenlosem Probemonat“\n\nText 1: gratis Probemonat. Falle B („erhöht Beiträge“) passt nicht."
+    },
+    {
+      "id": "tb1-u75-l11-modelltest-4-lesen-ex04",
+      "type": "choice",
+      "title": "Aufgabe 2 · Freizeit & Wohnen",
+      "passage": "Das Stadtfest findet dieses Jahr trotz des schlechten Wetters wie geplant statt.",
+      "prompt": "Welche Überschrift passt zu Text 2?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Sportverein wirbt mit kostenlosem Probemonat"
+        },
+        {
+          "id": "b",
+          "text": "Sportverein erhöht die Mitgliedsbeiträge"
+        },
+        {
+          "id": "c",
+          "text": "Neue Wohnungen in der Stadt: für viele aber zu teuer"
+        },
+        {
+          "id": "d",
+          "text": "Stadtfest wegen Regen abgesagt"
+        },
+        {
+          "id": "e",
+          "text": "Stadtfest findet trotz schlechtem Wetter statt"
+        },
+        {
+          "id": "f",
+          "text": "Büros drucken immer mehr Dokumente aus"
+        },
+        {
+          "id": "g",
+          "text": "Kälteeinbruch am Wochenende erwartet"
+        },
+        {
+          "id": "h",
+          "text": "Warmes Wochenende sorgt für gute Laune"
+        },
+        {
+          "id": "i",
+          "text": "Büros wollen Papier sparen"
+        },
+        {
+          "id": "j",
+          "text": "Günstige Mieten locken viele in die Innenstadt"
+        }
+      ],
+      "correctOptionId": "e",
+      "explanation": "**Answer: E** „Stadtfest findet trotz schlechtem Wetter statt“\n\nText 2: Fest trotz schlechtem Wetter; Falle D sagt „abgesagt“."
+    },
+    {
+      "id": "tb1-u75-l11-modelltest-4-lesen-ex05",
+      "type": "choice",
+      "title": "Aufgabe 3 · Freizeit & Wohnen",
+      "passage": "Viele Büros wollen weniger Papier verbrauchen und arbeiten deshalb mehr am Computer.",
+      "prompt": "Welche Überschrift passt zu Text 3?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Sportverein wirbt mit kostenlosem Probemonat"
+        },
+        {
+          "id": "b",
+          "text": "Sportverein erhöht die Mitgliedsbeiträge"
+        },
+        {
+          "id": "c",
+          "text": "Neue Wohnungen in der Stadt: für viele aber zu teuer"
+        },
+        {
+          "id": "d",
+          "text": "Stadtfest wegen Regen abgesagt"
+        },
+        {
+          "id": "e",
+          "text": "Stadtfest findet trotz schlechtem Wetter statt"
+        },
+        {
+          "id": "f",
+          "text": "Büros drucken immer mehr Dokumente aus"
+        },
+        {
+          "id": "g",
+          "text": "Kälteeinbruch am Wochenende erwartet"
+        },
+        {
+          "id": "h",
+          "text": "Warmes Wochenende sorgt für gute Laune"
+        },
+        {
+          "id": "i",
+          "text": "Büros wollen Papier sparen"
+        },
+        {
+          "id": "j",
+          "text": "Günstige Mieten locken viele in die Innenstadt"
+        }
+      ],
+      "correctOptionId": "i",
+      "explanation": "**Answer: I** „Büros wollen Papier sparen“\n\nText 3: weniger Papier → mehr Computer. Falle F dreht es um."
+    },
+    {
+      "id": "tb1-u75-l11-modelltest-4-lesen-ex06",
+      "type": "choice",
+      "title": "Aufgabe 4 · Freizeit & Wohnen",
+      "passage": "Ab morgen wird es deutlich kälter. Am Wochenende kann sogar Schnee fallen.",
+      "prompt": "Welche Überschrift passt zu Text 4?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Sportverein wirbt mit kostenlosem Probemonat"
+        },
+        {
+          "id": "b",
+          "text": "Sportverein erhöht die Mitgliedsbeiträge"
+        },
+        {
+          "id": "c",
+          "text": "Neue Wohnungen in der Stadt: für viele aber zu teuer"
+        },
+        {
+          "id": "d",
+          "text": "Stadtfest wegen Regen abgesagt"
+        },
+        {
+          "id": "e",
+          "text": "Stadtfest findet trotz schlechtem Wetter statt"
+        },
+        {
+          "id": "f",
+          "text": "Büros drucken immer mehr Dokumente aus"
+        },
+        {
+          "id": "g",
+          "text": "Kälteeinbruch am Wochenende erwartet"
+        },
+        {
+          "id": "h",
+          "text": "Warmes Wochenende sorgt für gute Laune"
+        },
+        {
+          "id": "i",
+          "text": "Büros wollen Papier sparen"
+        },
+        {
+          "id": "j",
+          "text": "Günstige Mieten locken viele in die Innenstadt"
+        }
+      ],
+      "correctOptionId": "g",
+      "explanation": "**Answer: G** „Kälteeinbruch am Wochenende erwartet“\n\nText 4: es wird kälter, evtl. Schnee (Falle H: „warmes Wochenende“)."
+    },
+    {
+      "id": "tb1-u75-l11-modelltest-4-lesen-ex07",
+      "type": "choice",
+      "title": "Aufgabe 5 · Freizeit & Wohnen",
+      "passage": "In der Innenstadt entstehen neue Wohnungen. Viele Menschen finden die Mieten aber zu hoch.",
+      "prompt": "Welche Überschrift passt zu Text 5?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Sportverein wirbt mit kostenlosem Probemonat"
+        },
+        {
+          "id": "b",
+          "text": "Sportverein erhöht die Mitgliedsbeiträge"
+        },
+        {
+          "id": "c",
+          "text": "Neue Wohnungen in der Stadt: für viele aber zu teuer"
+        },
+        {
+          "id": "d",
+          "text": "Stadtfest wegen Regen abgesagt"
+        },
+        {
+          "id": "e",
+          "text": "Stadtfest findet trotz schlechtem Wetter statt"
+        },
+        {
+          "id": "f",
+          "text": "Büros drucken immer mehr Dokumente aus"
+        },
+        {
+          "id": "g",
+          "text": "Kälteeinbruch am Wochenende erwartet"
+        },
+        {
+          "id": "h",
+          "text": "Warmes Wochenende sorgt für gute Laune"
+        },
+        {
+          "id": "i",
+          "text": "Büros wollen Papier sparen"
+        },
+        {
+          "id": "j",
+          "text": "Günstige Mieten locken viele in die Innenstadt"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**Answer: C** „Neue Wohnungen in der Stadt: für viele aber zu teuer“\n\nText 5: neue, aber zu teure Wohnungen; Falle J sagt „günstige Mieten“."
+    },
+    {
+      "id": "tb1-u75-l11-modelltest-4-lesen-ex08",
+      "type": "explain",
+      "title": "Lesen Teil 2 · Aufgaben 6–10",
+      "body": "One article, 5 questions, a, b or c. **5 points per question.**"
+    },
+    {
+      "id": "tb1-u75-l11-modelltest-4-lesen-ex09",
+      "type": "choice",
+      "title": "Mit 63 noch einmal an die Uni · Aufgabe 6",
+      "passage": "Peter Sommer ist 63 und studiert an der Universität, zusammen mit jungen Leuten. Nach seiner Pensionierung wollte er nicht nur zu Hause sitzen. Also schrieb er sich für Geschichte ein, ein Fach, das ihn schon immer interessiert hatte.\n\nAm Anfang war er nervös. „Ich dachte, ich bin zu alt und komme mit den Computern nicht zurecht“, erzählt er. Doch die jungen Studenten halfen ihm, und er fand sich schnell zurecht. Heute lernen sie manchmal zusammen.\n\nSommer muss keine Prüfungen schreiben, weil er nur zum Vergnügen studiert. Trotzdem geht er in fast jede Vorlesung. Er rät allen älteren Menschen, etwas Neues zu lernen: „Das hält den Kopf jung.“",
+      "prompt": "Warum begann Peter Sommer zu studieren?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Er brauchte einen Abschluss für einen neuen Job."
+        },
+        {
+          "id": "b",
+          "text": "Er wollte nach der Pensionierung aktiv bleiben."
+        },
+        {
+          "id": "c",
+          "text": "Seine Familie hat ihn dazu überredet."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Answer: B** „Er wollte nach der Pensionierung aktiv bleiben.“\n\n„wollte nicht nur zu Hause sitzen“."
+    },
+    {
+      "id": "tb1-u75-l11-modelltest-4-lesen-ex10",
+      "type": "choice",
+      "title": "Mit 63 noch einmal an die Uni · Aufgabe 7",
+      "passage": "Peter Sommer ist 63 und studiert an der Universität, zusammen mit jungen Leuten. Nach seiner Pensionierung wollte er nicht nur zu Hause sitzen. Also schrieb er sich für Geschichte ein, ein Fach, das ihn schon immer interessiert hatte.\n\nAm Anfang war er nervös. „Ich dachte, ich bin zu alt und komme mit den Computern nicht zurecht“, erzählt er. Doch die jungen Studenten halfen ihm, und er fand sich schnell zurecht. Heute lernen sie manchmal zusammen.\n\nSommer muss keine Prüfungen schreiben, weil er nur zum Vergnügen studiert. Trotzdem geht er in fast jede Vorlesung. Er rät allen älteren Menschen, etwas Neues zu lernen: „Das hält den Kopf jung.“",
+      "prompt": "Was war für ihn am Anfang schwierig?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Er hatte kein Geld für das Studium."
+        },
+        {
+          "id": "b",
+          "text": "Er dachte, er sei zu alt und komme mit Computern nicht zurecht."
+        },
+        {
+          "id": "c",
+          "text": "Die Universität war zu weit entfernt."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Answer: B** „Er dachte, er sei zu alt und komme mit Computern nicht zurecht.“\n\ndirektes Zitat über Alter und Computer."
+    },
+    {
+      "id": "tb1-u75-l11-modelltest-4-lesen-ex11",
+      "type": "choice",
+      "title": "Mit 63 noch einmal an die Uni · Aufgabe 8",
+      "passage": "Peter Sommer ist 63 und studiert an der Universität, zusammen mit jungen Leuten. Nach seiner Pensionierung wollte er nicht nur zu Hause sitzen. Also schrieb er sich für Geschichte ein, ein Fach, das ihn schon immer interessiert hatte.\n\nAm Anfang war er nervös. „Ich dachte, ich bin zu alt und komme mit den Computern nicht zurecht“, erzählt er. Doch die jungen Studenten halfen ihm, und er fand sich schnell zurecht. Heute lernen sie manchmal zusammen.\n\nSommer muss keine Prüfungen schreiben, weil er nur zum Vergnügen studiert. Trotzdem geht er in fast jede Vorlesung. Er rät allen älteren Menschen, etwas Neues zu lernen: „Das hält den Kopf jung.“",
+      "prompt": "Wie ist sein Verhältnis zu den jungen Studenten?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Sie helfen ihm, und manchmal lernen sie zusammen."
+        },
+        {
+          "id": "b",
+          "text": "Er hat keinen Kontakt zu ihnen."
+        },
+        {
+          "id": "c",
+          "text": "Sie ärgern sich über ihn."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Answer: A** „Sie helfen ihm, und manchmal lernen sie zusammen.“\n\n„Die jungen Studenten halfen ihm … lernen zusammen“."
+    },
+    {
+      "id": "tb1-u75-l11-modelltest-4-lesen-ex12",
+      "type": "choice",
+      "title": "Mit 63 noch einmal an die Uni · Aufgabe 9",
+      "passage": "Peter Sommer ist 63 und studiert an der Universität, zusammen mit jungen Leuten. Nach seiner Pensionierung wollte er nicht nur zu Hause sitzen. Also schrieb er sich für Geschichte ein, ein Fach, das ihn schon immer interessiert hatte.\n\nAm Anfang war er nervös. „Ich dachte, ich bin zu alt und komme mit den Computern nicht zurecht“, erzählt er. Doch die jungen Studenten halfen ihm, und er fand sich schnell zurecht. Heute lernen sie manchmal zusammen.\n\nSommer muss keine Prüfungen schreiben, weil er nur zum Vergnügen studiert. Trotzdem geht er in fast jede Vorlesung. Er rät allen älteren Menschen, etwas Neues zu lernen: „Das hält den Kopf jung.“",
+      "prompt": "Warum schreibt Sommer keine Prüfungen?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Weil er zu alt dafür ist."
+        },
+        {
+          "id": "b",
+          "text": "Weil er nur zum Vergnügen studiert."
+        },
+        {
+          "id": "c",
+          "text": "Weil er die Prüfungen nicht besteht."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Answer: B** „Weil er nur zum Vergnügen studiert.“\n\n„weil er nur zum Vergnügen studiert“."
+    },
+    {
+      "id": "tb1-u75-l11-modelltest-4-lesen-ex13",
+      "type": "choice",
+      "title": "Mit 63 noch einmal an die Uni · Aufgabe 10",
+      "passage": "Peter Sommer ist 63 und studiert an der Universität, zusammen mit jungen Leuten. Nach seiner Pensionierung wollte er nicht nur zu Hause sitzen. Also schrieb er sich für Geschichte ein, ein Fach, das ihn schon immer interessiert hatte.\n\nAm Anfang war er nervös. „Ich dachte, ich bin zu alt und komme mit den Computern nicht zurecht“, erzählt er. Doch die jungen Studenten halfen ihm, und er fand sich schnell zurecht. Heute lernen sie manchmal zusammen.\n\nSommer muss keine Prüfungen schreiben, weil er nur zum Vergnügen studiert. Trotzdem geht er in fast jede Vorlesung. Er rät allen älteren Menschen, etwas Neues zu lernen: „Das hält den Kopf jung.“",
+      "prompt": "Was rät er älteren Menschen?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Etwas Neues zu lernen."
+        },
+        {
+          "id": "b",
+          "text": "Sich lieber zu Hause auszuruhen."
+        },
+        {
+          "id": "c",
+          "text": "Nicht mehr zu studieren."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Answer: A** „Etwas Neues zu lernen.“\n\n„etwas Neues zu lernen … hält den Kopf jung“."
+    },
+    {
+      "id": "tb1-u75-l11-modelltest-4-lesen-ex14",
+      "type": "explain",
+      "title": "Lesen Teil 3 · Aufgaben 11–20",
+      "body": "10 situations, 12 ads. Each ad fits at most once; x = no ad fits (one unrelated ad is left out of each list here). **2.5 points per situation.**"
+    },
+    {
+      "id": "tb1-u75-l11-modelltest-4-lesen-ex15",
+      "type": "choice",
+      "title": "Aufgabe 11 · Alltag",
+      "passage": "Sie möchten am Samstag mit Ihren Kindern etwas draußen unternehmen.",
+      "prompt": "Welche Anzeige passt? Wenn keine passt: x.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Restaurant Sonne sucht Aushilfe für das Wochenende (Sa/So)."
+        },
+        {
+          "id": "b",
+          "text": "Hundebetreuung Waldi: Wir passen auf Ihren Hund auf, auch über mehrere Wochen."
+        },
+        {
+          "id": "c",
+          "text": "Sprachschule Aktiv: Deutschkurse vormittags und nachmittags."
+        },
+        {
+          "id": "d",
+          "text": "Deutsch am Morgen. Intensivkurse von 9 bis 12 Uhr."
+        },
+        {
+          "id": "e",
+          "text": "Gitarrenunterricht für Anfänger, erste Stunde gratis."
+        },
+        {
+          "id": "f",
+          "text": "Familien-Erlebnistag im Waldpark! Jeden Samstag Spiele und Natur für Groß und Klein."
+        },
+        {
+          "id": "g",
+          "text": "Kfz-Werkstatt Meier: günstige Reparaturen, faire Preise."
+        },
+        {
+          "id": "h",
+          "text": "Wohnung zu vermieten: 2 Zimmer, Stadtrand, kein Balkon."
+        },
+        {
+          "id": "i",
+          "text": "Kochkurs am Samstag: gemeinsam italienisch kochen."
+        },
+        {
+          "id": "j",
+          "text": "Fahrradverleih am Bahnhof. Räder stundenweise mieten."
+        },
+        {
+          "id": "k",
+          "text": "Gebrauchte Kinderfahrräder in gutem Zustand zu verkaufen."
+        },
+        {
+          "id": "l",
+          "text": "Keine Anzeige passt (x)"
+        }
+      ],
+      "correctOptionId": "f",
+      "explanation": "**Answer: F** „Familien-Erlebnistag im Waldpark! Jeden Samstag Spiele und Natur für Groß und Klein.“\n\n*Bedingungen:* mit Kindern + draußen"
+    },
+    {
+      "id": "tb1-u75-l11-modelltest-4-lesen-ex16",
+      "type": "choice",
+      "title": "Aufgabe 12 · Alltag",
+      "passage": "Ihre Freundin sucht einen Nebenjob am Wochenende.",
+      "prompt": "Welche Anzeige passt? Wenn keine passt: x.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Restaurant Sonne sucht Aushilfe für das Wochenende (Sa/So)."
+        },
+        {
+          "id": "b",
+          "text": "Hundebetreuung Waldi: Wir passen auf Ihren Hund auf, auch über mehrere Wochen."
+        },
+        {
+          "id": "c",
+          "text": "Sprachschule Aktiv: Deutschkurse vormittags und nachmittags."
+        },
+        {
+          "id": "d",
+          "text": "Deutsch am Morgen. Intensivkurse von 9 bis 12 Uhr."
+        },
+        {
+          "id": "e",
+          "text": "Gitarrenunterricht für Anfänger, erste Stunde gratis."
+        },
+        {
+          "id": "f",
+          "text": "Familien-Erlebnistag im Waldpark! Jeden Samstag Spiele und Natur für Groß und Klein."
+        },
+        {
+          "id": "g",
+          "text": "Kfz-Werkstatt Meier: günstige Reparaturen, faire Preise."
+        },
+        {
+          "id": "h",
+          "text": "Wohnung zu vermieten: 2 Zimmer, Stadtrand, kein Balkon."
+        },
+        {
+          "id": "i",
+          "text": "Kochkurs am Samstag: gemeinsam italienisch kochen."
+        },
+        {
+          "id": "j",
+          "text": "Fahrradverleih am Bahnhof. Räder stundenweise mieten."
+        },
+        {
+          "id": "k",
+          "text": "Gebrauchte Kinderfahrräder in gutem Zustand zu verkaufen."
+        },
+        {
+          "id": "l",
+          "text": "Keine Anzeige passt (x)"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Answer: A** „Restaurant Sonne sucht Aushilfe für das Wochenende (Sa/So).“\n\n*Bedingungen:* Nebenjob + Wochenende"
+    },
+    {
+      "id": "tb1-u75-l11-modelltest-4-lesen-ex17",
+      "type": "choice",
+      "title": "Aufgabe 13 · Alltag",
+      "passage": "Sie wollen Ihr altes Sofa verkaufen.",
+      "prompt": "Welche Anzeige passt? Wenn keine passt: x.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Restaurant Sonne sucht Aushilfe für das Wochenende (Sa/So)."
+        },
+        {
+          "id": "b",
+          "text": "Hundebetreuung Waldi: Wir passen auf Ihren Hund auf, auch über mehrere Wochen."
+        },
+        {
+          "id": "c",
+          "text": "Sprachschule Aktiv: Deutschkurse vormittags und nachmittags."
+        },
+        {
+          "id": "d",
+          "text": "Deutsch am Morgen. Intensivkurse von 9 bis 12 Uhr."
+        },
+        {
+          "id": "e",
+          "text": "Gitarrenunterricht für Anfänger, erste Stunde gratis."
+        },
+        {
+          "id": "f",
+          "text": "Familien-Erlebnistag im Waldpark! Jeden Samstag Spiele und Natur für Groß und Klein."
+        },
+        {
+          "id": "g",
+          "text": "Kfz-Werkstatt Meier: günstige Reparaturen, faire Preise."
+        },
+        {
+          "id": "h",
+          "text": "Wohnung zu vermieten: 2 Zimmer, Stadtrand, kein Balkon."
+        },
+        {
+          "id": "i",
+          "text": "Kochkurs am Samstag: gemeinsam italienisch kochen."
+        },
+        {
+          "id": "j",
+          "text": "Gebrauchte Kinderfahrräder in gutem Zustand zu verkaufen."
+        },
+        {
+          "id": "k",
+          "text": "Verkaufe Sofa, 3 Sitze, guter Zustand, günstig abzugeben."
+        },
+        {
+          "id": "l",
+          "text": "Keine Anzeige passt (x)"
+        }
+      ],
+      "correctOptionId": "k",
+      "explanation": "**Answer: K** „Verkaufe Sofa, 3 Sitze, guter Zustand, günstig abzugeben.“\n\n*Bedingungen:* Sofa + verkaufen"
+    },
+    {
+      "id": "tb1-u75-l11-modelltest-4-lesen-ex18",
+      "type": "choice",
+      "title": "Aufgabe 14 · Alltag",
+      "passage": "Sie suchen einen Deutschkurs am Abend, weil Sie tagsüber arbeiten.",
+      "prompt": "Welche Anzeige passt? Wenn keine passt: x.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Restaurant Sonne sucht Aushilfe für das Wochenende (Sa/So)."
+        },
+        {
+          "id": "b",
+          "text": "Hundebetreuung Waldi: Wir passen auf Ihren Hund auf, auch über mehrere Wochen."
+        },
+        {
+          "id": "c",
+          "text": "Sprachschule Aktiv: Deutschkurse vormittags und nachmittags."
+        },
+        {
+          "id": "d",
+          "text": "Deutsch am Morgen. Intensivkurse von 9 bis 12 Uhr."
+        },
+        {
+          "id": "e",
+          "text": "Gitarrenunterricht für Anfänger, erste Stunde gratis."
+        },
+        {
+          "id": "f",
+          "text": "Familien-Erlebnistag im Waldpark! Jeden Samstag Spiele und Natur für Groß und Klein."
+        },
+        {
+          "id": "g",
+          "text": "Kfz-Werkstatt Meier: günstige Reparaturen, faire Preise."
+        },
+        {
+          "id": "h",
+          "text": "Wohnung zu vermieten: 2 Zimmer, Stadtrand, kein Balkon."
+        },
+        {
+          "id": "i",
+          "text": "Kochkurs am Samstag: gemeinsam italienisch kochen."
+        },
+        {
+          "id": "j",
+          "text": "Fahrradverleih am Bahnhof. Räder stundenweise mieten."
+        },
+        {
+          "id": "k",
+          "text": "Gebrauchte Kinderfahrräder in gutem Zustand zu verkaufen."
+        },
+        {
+          "id": "l",
+          "text": "Keine Anzeige passt (x)"
+        }
+      ],
+      "correctOptionId": "l",
+      "explanation": "**Answer: L** x · keine Anzeige passt\n\n*Bedingungen:* Deutschkurs + abends\n\nKurs „Deutsch am Morgen. Intensivkurse …“ (Morgen) und Kurs „Sprachschule Aktiv: Deutschkurse vormittags …“ (vormittags/nachmittags) sind keine Abendkurse → x."
+    },
+    {
+      "id": "tb1-u75-l11-modelltest-4-lesen-ex19",
+      "type": "choice",
+      "title": "Aufgabe 15 · Alltag",
+      "passage": "Sie brauchen jemanden, der Ihren Hund betreut, wenn Sie im Urlaub sind.",
+      "prompt": "Welche Anzeige passt? Wenn keine passt: x.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Restaurant Sonne sucht Aushilfe für das Wochenende (Sa/So)."
+        },
+        {
+          "id": "b",
+          "text": "Hundebetreuung Waldi: Wir passen auf Ihren Hund auf, auch über mehrere Wochen."
+        },
+        {
+          "id": "c",
+          "text": "Sprachschule Aktiv: Deutschkurse vormittags und nachmittags."
+        },
+        {
+          "id": "d",
+          "text": "Deutsch am Morgen. Intensivkurse von 9 bis 12 Uhr."
+        },
+        {
+          "id": "e",
+          "text": "Gitarrenunterricht für Anfänger, erste Stunde gratis."
+        },
+        {
+          "id": "f",
+          "text": "Familien-Erlebnistag im Waldpark! Jeden Samstag Spiele und Natur für Groß und Klein."
+        },
+        {
+          "id": "g",
+          "text": "Kfz-Werkstatt Meier: günstige Reparaturen, faire Preise."
+        },
+        {
+          "id": "h",
+          "text": "Wohnung zu vermieten: 2 Zimmer, Stadtrand, kein Balkon."
+        },
+        {
+          "id": "i",
+          "text": "Kochkurs am Samstag: gemeinsam italienisch kochen."
+        },
+        {
+          "id": "j",
+          "text": "Fahrradverleih am Bahnhof. Räder stundenweise mieten."
+        },
+        {
+          "id": "k",
+          "text": "Gebrauchte Kinderfahrräder in gutem Zustand zu verkaufen."
+        },
+        {
+          "id": "l",
+          "text": "Keine Anzeige passt (x)"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Answer: B** „Hundebetreuung Waldi: Wir passen auf Ihren Hund auf, auch über mehrere Wochen.“\n\n*Bedingungen:* Hund betreuen + während des Urlaubs"
+    },
+    {
+      "id": "tb1-u75-l11-modelltest-4-lesen-ex20",
+      "type": "choice",
+      "title": "Aufgabe 16 · Alltag",
+      "passage": "Sie möchten ein gebrauchtes Fahrrad für Ihren Sohn kaufen.",
+      "prompt": "Welche Anzeige passt? Wenn keine passt: x.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Restaurant Sonne sucht Aushilfe für das Wochenende (Sa/So)."
+        },
+        {
+          "id": "b",
+          "text": "Hundebetreuung Waldi: Wir passen auf Ihren Hund auf, auch über mehrere Wochen."
+        },
+        {
+          "id": "c",
+          "text": "Sprachschule Aktiv: Deutschkurse vormittags und nachmittags."
+        },
+        {
+          "id": "d",
+          "text": "Deutsch am Morgen. Intensivkurse von 9 bis 12 Uhr."
+        },
+        {
+          "id": "e",
+          "text": "Gitarrenunterricht für Anfänger, erste Stunde gratis."
+        },
+        {
+          "id": "f",
+          "text": "Familien-Erlebnistag im Waldpark! Jeden Samstag Spiele und Natur für Groß und Klein."
+        },
+        {
+          "id": "g",
+          "text": "Kfz-Werkstatt Meier: günstige Reparaturen, faire Preise."
+        },
+        {
+          "id": "h",
+          "text": "Wohnung zu vermieten: 2 Zimmer, Stadtrand, kein Balkon."
+        },
+        {
+          "id": "i",
+          "text": "Kochkurs am Samstag: gemeinsam italienisch kochen."
+        },
+        {
+          "id": "j",
+          "text": "Fahrradverleih am Bahnhof. Räder stundenweise mieten."
+        },
+        {
+          "id": "k",
+          "text": "Gebrauchte Kinderfahrräder in gutem Zustand zu verkaufen."
+        },
+        {
+          "id": "l",
+          "text": "Keine Anzeige passt (x)"
+        }
+      ],
+      "correctOptionId": "k",
+      "explanation": "**Answer: K** „Gebrauchte Kinderfahrräder in gutem Zustand zu verkaufen.“\n\n*Bedingungen:* Fahrrad + kaufen (nicht mieten)\n\nAnzeige „Fahrradverleih am Bahnhof. Räder …“ ist ein Verleih (mieten), kein Kauf."
+    },
+    {
+      "id": "tb1-u75-l11-modelltest-4-lesen-ex21",
+      "type": "choice",
+      "title": "Aufgabe 17 · Alltag",
+      "passage": "Sie suchen eine günstige Werkstatt für Ihr Auto.",
+      "prompt": "Welche Anzeige passt? Wenn keine passt: x.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Restaurant Sonne sucht Aushilfe für das Wochenende (Sa/So)."
+        },
+        {
+          "id": "b",
+          "text": "Hundebetreuung Waldi: Wir passen auf Ihren Hund auf, auch über mehrere Wochen."
+        },
+        {
+          "id": "c",
+          "text": "Sprachschule Aktiv: Deutschkurse vormittags und nachmittags."
+        },
+        {
+          "id": "d",
+          "text": "Deutsch am Morgen. Intensivkurse von 9 bis 12 Uhr."
+        },
+        {
+          "id": "e",
+          "text": "Gitarrenunterricht für Anfänger, erste Stunde gratis."
+        },
+        {
+          "id": "f",
+          "text": "Familien-Erlebnistag im Waldpark! Jeden Samstag Spiele und Natur für Groß und Klein."
+        },
+        {
+          "id": "g",
+          "text": "Kfz-Werkstatt Meier: günstige Reparaturen, faire Preise."
+        },
+        {
+          "id": "h",
+          "text": "Wohnung zu vermieten: 2 Zimmer, Stadtrand, kein Balkon."
+        },
+        {
+          "id": "i",
+          "text": "Kochkurs am Samstag: gemeinsam italienisch kochen."
+        },
+        {
+          "id": "j",
+          "text": "Fahrradverleih am Bahnhof. Räder stundenweise mieten."
+        },
+        {
+          "id": "k",
+          "text": "Verkaufe Sofa, 3 Sitze, guter Zustand, günstig abzugeben."
+        },
+        {
+          "id": "l",
+          "text": "Keine Anzeige passt (x)"
+        }
+      ],
+      "correctOptionId": "g",
+      "explanation": "**Answer: G** „Kfz-Werkstatt Meier: günstige Reparaturen, faire Preise.“\n\n*Bedingungen:* Autowerkstatt + günstig"
+    },
+    {
+      "id": "tb1-u75-l11-modelltest-4-lesen-ex22",
+      "type": "choice",
+      "title": "Aufgabe 18 · Alltag",
+      "passage": "Sie interessieren sich für einen Kochkurs am Wochenende.",
+      "prompt": "Welche Anzeige passt? Wenn keine passt: x.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Restaurant Sonne sucht Aushilfe für das Wochenende (Sa/So)."
+        },
+        {
+          "id": "b",
+          "text": "Hundebetreuung Waldi: Wir passen auf Ihren Hund auf, auch über mehrere Wochen."
+        },
+        {
+          "id": "c",
+          "text": "Sprachschule Aktiv: Deutschkurse vormittags und nachmittags."
+        },
+        {
+          "id": "d",
+          "text": "Deutsch am Morgen. Intensivkurse von 9 bis 12 Uhr."
+        },
+        {
+          "id": "e",
+          "text": "Gitarrenunterricht für Anfänger, erste Stunde gratis."
+        },
+        {
+          "id": "f",
+          "text": "Familien-Erlebnistag im Waldpark! Jeden Samstag Spiele und Natur für Groß und Klein."
+        },
+        {
+          "id": "g",
+          "text": "Kfz-Werkstatt Meier: günstige Reparaturen, faire Preise."
+        },
+        {
+          "id": "h",
+          "text": "Wohnung zu vermieten: 2 Zimmer, Stadtrand, kein Balkon."
+        },
+        {
+          "id": "i",
+          "text": "Kochkurs am Samstag: gemeinsam italienisch kochen."
+        },
+        {
+          "id": "j",
+          "text": "Fahrradverleih am Bahnhof. Räder stundenweise mieten."
+        },
+        {
+          "id": "k",
+          "text": "Gebrauchte Kinderfahrräder in gutem Zustand zu verkaufen."
+        },
+        {
+          "id": "l",
+          "text": "Keine Anzeige passt (x)"
+        }
+      ],
+      "correctOptionId": "i",
+      "explanation": "**Answer: I** „Kochkurs am Samstag: gemeinsam italienisch kochen.“\n\n*Bedingungen:* Kochkurs + Wochenende"
+    },
+    {
+      "id": "tb1-u75-l11-modelltest-4-lesen-ex23",
+      "type": "choice",
+      "title": "Aufgabe 19 · Alltag",
+      "passage": "Sie möchten Gitarre spielen lernen.",
+      "prompt": "Welche Anzeige passt? Wenn keine passt: x.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Restaurant Sonne sucht Aushilfe für das Wochenende (Sa/So)."
+        },
+        {
+          "id": "b",
+          "text": "Hundebetreuung Waldi: Wir passen auf Ihren Hund auf, auch über mehrere Wochen."
+        },
+        {
+          "id": "c",
+          "text": "Sprachschule Aktiv: Deutschkurse vormittags und nachmittags."
+        },
+        {
+          "id": "d",
+          "text": "Deutsch am Morgen. Intensivkurse von 9 bis 12 Uhr."
+        },
+        {
+          "id": "e",
+          "text": "Gitarrenunterricht für Anfänger, erste Stunde gratis."
+        },
+        {
+          "id": "f",
+          "text": "Familien-Erlebnistag im Waldpark! Jeden Samstag Spiele und Natur für Groß und Klein."
+        },
+        {
+          "id": "g",
+          "text": "Kfz-Werkstatt Meier: günstige Reparaturen, faire Preise."
+        },
+        {
+          "id": "h",
+          "text": "Wohnung zu vermieten: 2 Zimmer, Stadtrand, kein Balkon."
+        },
+        {
+          "id": "i",
+          "text": "Kochkurs am Samstag: gemeinsam italienisch kochen."
+        },
+        {
+          "id": "j",
+          "text": "Fahrradverleih am Bahnhof. Räder stundenweise mieten."
+        },
+        {
+          "id": "k",
+          "text": "Gebrauchte Kinderfahrräder in gutem Zustand zu verkaufen."
+        },
+        {
+          "id": "l",
+          "text": "Keine Anzeige passt (x)"
+        }
+      ],
+      "correctOptionId": "e",
+      "explanation": "**Answer: E** „Gitarrenunterricht für Anfänger, erste Stunde gratis.“\n\n*Bedingungen:* Gitarre + lernen"
+    },
+    {
+      "id": "tb1-u75-l11-modelltest-4-lesen-ex24",
+      "type": "choice",
+      "title": "Aufgabe 20 · Alltag",
+      "passage": "Sie suchen eine Wohnung mit Balkon in der Nähe des Zentrums.",
+      "prompt": "Welche Anzeige passt? Wenn keine passt: x.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Restaurant Sonne sucht Aushilfe für das Wochenende (Sa/So)."
+        },
+        {
+          "id": "b",
+          "text": "Hundebetreuung Waldi: Wir passen auf Ihren Hund auf, auch über mehrere Wochen."
+        },
+        {
+          "id": "c",
+          "text": "Sprachschule Aktiv: Deutschkurse vormittags und nachmittags."
+        },
+        {
+          "id": "d",
+          "text": "Deutsch am Morgen. Intensivkurse von 9 bis 12 Uhr."
+        },
+        {
+          "id": "e",
+          "text": "Gitarrenunterricht für Anfänger, erste Stunde gratis."
+        },
+        {
+          "id": "f",
+          "text": "Familien-Erlebnistag im Waldpark! Jeden Samstag Spiele und Natur für Groß und Klein."
+        },
+        {
+          "id": "g",
+          "text": "Kfz-Werkstatt Meier: günstige Reparaturen, faire Preise."
+        },
+        {
+          "id": "h",
+          "text": "Wohnung zu vermieten: 2 Zimmer, Stadtrand, kein Balkon."
+        },
+        {
+          "id": "i",
+          "text": "Kochkurs am Samstag: gemeinsam italienisch kochen."
+        },
+        {
+          "id": "j",
+          "text": "Fahrradverleih am Bahnhof. Räder stundenweise mieten."
+        },
+        {
+          "id": "k",
+          "text": "Gebrauchte Kinderfahrräder in gutem Zustand zu verkaufen."
+        },
+        {
+          "id": "l",
+          "text": "Keine Anzeige passt (x)"
+        }
+      ],
+      "correctOptionId": "l",
+      "explanation": "**Answer: L** x · keine Anzeige passt\n\n*Bedingungen:* Wohnung mit Balkon + nahe Zentrum\n\nAnzeige „Wohnung zu vermieten: 2 …“ ist am Stadtrand UND ohne Balkon → beide Bedingungen scheitern → x."
+    }
+  ]
+}

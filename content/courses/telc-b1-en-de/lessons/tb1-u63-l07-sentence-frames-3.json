@@ -1,0 +1,194 @@
+{
+  "id": "tb1-u63-l07-sentence-frames-3",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u63",
+  "title": "Sentence frames (Satzrahmen) 3",
+  "tip": "Take the frame, fill the gap with your content.",
+  "exercises": [
+    {
+      "id": "tb1-u63-l07-sentence-frames-3-ex01",
+      "type": "choice",
+      "title": "Satzrahmen · Erfahrung",
+      "prompt": "Welcher Satzrahmen passt zur Funktion „Erfahrung“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ein gutes Beispiel dafür ist ___."
+        },
+        {
+          "id": "b",
+          "text": "Der Grund dafür ist, dass ___."
+        },
+        {
+          "id": "c",
+          "text": "Ich habe die Erfahrung gemacht, dass ___."
+        },
+        {
+          "id": "d",
+          "text": "Wie wäre es, wenn wir ___?"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Starker Einstieg fürs Sprechen (Teil 2)."
+    },
+    {
+      "id": "tb1-u63-l07-sentence-frames-3-ex02",
+      "type": "task",
+      "skill": "writing",
+      "title": "Satzrahmen: Erfahrung",
+      "task": "Erzähl aus Erfahrung über das Lernen.\n\nUse this frame and fill the gap with your own content:\n**Ich habe die Erfahrung gemacht, dass ___.**",
+      "phrases": [
+        "Ich habe die Erfahrung gemacht, dass ___."
+      ],
+      "modelAnswer": "Ich habe die Erfahrung gemacht, dass man jeden Tag ein bisschen lernen sollte.\n\nStarker Einstieg fürs Sprechen (Teil 2)."
+    },
+    {
+      "id": "tb1-u63-l07-sentence-frames-3-ex03",
+      "type": "choice",
+      "title": "Satzrahmen · Beispiel",
+      "prompt": "Welcher Satzrahmen passt zur Funktion „Beispiel“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ich wäre Ihnen dankbar, wenn Sie ___ würden."
+        },
+        {
+          "id": "b",
+          "text": "Ein gutes Beispiel dafür ist ___."
+        },
+        {
+          "id": "c",
+          "text": "Wie wäre es, wenn wir ___?"
+        },
+        {
+          "id": "d",
+          "text": "Da stimme ich dir zu, weil ___."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Beispiele machen deine Aussage konkret."
+    },
+    {
+      "id": "tb1-u63-l07-sentence-frames-3-ex04",
+      "type": "task",
+      "skill": "writing",
+      "title": "Satzrahmen: Beispiel",
+      "task": "Gib ein Beispiel für Umweltschutz.\n\nUse this frame and fill the gap with your own content:\n**Ein gutes Beispiel dafür ist ___.**",
+      "phrases": [
+        "Ein gutes Beispiel dafür ist ___."
+      ],
+      "modelAnswer": "Ein gutes Beispiel dafür ist, dass man öfter mit dem Fahrrad fährt.\n\nBeispiele machen deine Aussage konkret."
+    },
+    {
+      "id": "tb1-u63-l07-sentence-frames-3-ex05",
+      "type": "choice",
+      "title": "Satzrahmen · Grund nennen (Brief)",
+      "prompt": "Welcher Satzrahmen passt zur Funktion „Grund nennen (Brief)“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ich habe die Erfahrung gemacht, dass ___."
+        },
+        {
+          "id": "b",
+          "text": "Könnten Sie mir bitte ___?"
+        },
+        {
+          "id": "c",
+          "text": "Ich schlage vor, dass ___."
+        },
+        {
+          "id": "d",
+          "text": "Ich schreibe Ihnen, weil ___."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Der Standard-Einstieg für den halbformellen Brief."
+    },
+    {
+      "id": "tb1-u63-l07-sentence-frames-3-ex06",
+      "type": "task",
+      "skill": "writing",
+      "title": "Satzrahmen: Grund nennen (Brief)",
+      "task": "Grund fürs Schreiben an einen Sprachkurs.\n\nUse this frame and fill the gap with your own content:\n**Ich schreibe Ihnen, weil ___.**",
+      "phrases": [
+        "Ich schreibe Ihnen, weil ___."
+      ],
+      "modelAnswer": "Ich schreibe Ihnen, weil ich mich für Ihren Deutschkurs interessiere.\n\nDer Standard-Einstieg für den halbformellen Brief."
+    },
+    {
+      "id": "tb1-u63-l07-sentence-frames-3-ex07",
+      "type": "choice",
+      "title": "Satzrahmen · Zusammenfassen",
+      "prompt": "Welcher Satzrahmen passt zur Funktion „Zusammenfassen“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Wie wäre es, wenn wir ___?"
+        },
+        {
+          "id": "b",
+          "text": "Ich schlage vor, dass ___."
+        },
+        {
+          "id": "c",
+          "text": "Ich schreibe Ihnen, weil ___."
+        },
+        {
+          "id": "d",
+          "text": "Zusammenfassend kann man sagen, dass ___."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Guter Schluss-Satz für Sprechen und Schreiben."
+    },
+    {
+      "id": "tb1-u63-l07-sentence-frames-3-ex08",
+      "type": "task",
+      "skill": "writing",
+      "title": "Satzrahmen: Zusammenfassen",
+      "task": "Fass deine Meinung zusammen.\n\nUse this frame and fill the gap with your own content:\n**Zusammenfassend kann man sagen, dass ___.**",
+      "phrases": [
+        "Zusammenfassend kann man sagen, dass ___."
+      ],
+      "modelAnswer": "Zusammenfassend kann man sagen, dass Bewegung sehr wichtig für die Gesundheit ist.\n\nGuter Schluss-Satz für Sprechen und Schreiben."
+    },
+    {
+      "id": "tb1-u63-l07-sentence-frames-3-ex09",
+      "type": "choice",
+      "title": "Satzrahmen · Vermutung",
+      "prompt": "Welcher Satzrahmen passt zur Funktion „Vermutung“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Wie wäre es, wenn wir ___?"
+        },
+        {
+          "id": "b",
+          "text": "Ich wäre Ihnen dankbar, wenn Sie ___ würden."
+        },
+        {
+          "id": "c",
+          "text": "Ich schreibe Ihnen, weil ___."
+        },
+        {
+          "id": "d",
+          "text": "Ich vermute, dass ___ / Vielleicht ___."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Nützlich beim Bildbeschreiben (Sprechen)."
+    },
+    {
+      "id": "tb1-u63-l07-sentence-frames-3-ex10",
+      "type": "task",
+      "skill": "writing",
+      "title": "Satzrahmen: Vermutung",
+      "task": "Vermute etwas über ein Bild.\n\nUse this frame and fill the gap with your own content:\n**Ich vermute, dass ___ / Vielleicht ___.**",
+      "phrases": [
+        "Ich vermute, dass ___ / Vielleicht ___."
+      ],
+      "modelAnswer": "Ich vermute, dass die Personen auf dem Bild Kollegen sind.\n\nNützlich beim Bildbeschreiben (Sprechen)."
+    }
+  ]
+}

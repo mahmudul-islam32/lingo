@@ -1,0 +1,253 @@
+{
+  "id": "tb1-u15-l10-shopping-complaints-5",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u15",
+  "title": "Shopping & Complaints 5",
+  "tip": "Theme: Einkaufen / Konsum / Reklamation (B1)",
+  "exercises": [
+    {
+      "id": "tb1-u15-l10-shopping-complaints-5-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "beschädigt",
+          "known": "damaged"
+        },
+        {
+          "id": "p2",
+          "learning": "fehlen Es fehlt ein Teil",
+          "known": "to be missing. A part is missing."
+        },
+        {
+          "id": "p3",
+          "learning": "das Geschäft",
+          "known": "shop"
+        },
+        {
+          "id": "p4",
+          "learning": "das Kaufhaus",
+          "known": "department store"
+        },
+        {
+          "id": "p5",
+          "learning": "der Kunde",
+          "known": "customer"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u15-l10-shopping-complaints-5-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which one means „damaged · broken“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "passen + Dat. Die Jacke passt mir nicht."
+        },
+        {
+          "id": "b",
+          "text": "bestellen: die Bestellung, die Bestellungen"
+        },
+        {
+          "id": "c",
+          "text": "beschädigt · kaputt"
+        },
+        {
+          "id": "d",
+          "text": "fehlen + Dat. Es fehlt ein Teil."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**beschädigt · kaputt** = damaged · broken\n\n*Example:* Das Paket ist beschädigt angekommen, und die Tasse darin ist kaputt.\nThe parcel arrived damaged, and the cup inside is broken."
+    },
+    {
+      "id": "tb1-u15-l10-shopping-complaints-5-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which one means „to be missing. A part is missing.“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "beschädigt · kaputt"
+        },
+        {
+          "id": "b",
+          "text": "fehlen + Dat. Es fehlt ein Teil."
+        },
+        {
+          "id": "c",
+          "text": "passen + Dat. Die Jacke passt mir nicht."
+        },
+        {
+          "id": "d",
+          "text": "liefern: die Lieferung, die Lieferungen"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**fehlen + Dat. Es fehlt ein Teil.** = to be missing. A part is missing.\n\n*Example:* Ich habe den Schrank aufgebaut, aber es fehlt eine Schraube.\nI assembled the wardrobe, but one screw is missing."
+    },
+    {
+      "id": "tb1-u15-l10-shopping-complaints-5-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "The parcel arrived damaged, and the cup inside is broken.",
+      "tiles": [
+        "Paket",
+        "Tasse",
+        "Das",
+        "die",
+        "Freitag",
+        "angekommen",
+        "beschädigt",
+        "darin",
+        "Mein",
+        "Sofa",
+        "ist",
+        "ist",
+        "kaputt",
+        "und"
+      ],
+      "answers": [
+        "Das Paket ist beschädigt angekommen, und die Tasse darin ist kaputt."
+      ],
+      "explanation": "**beschädigt · kaputt** = damaged · broken"
+    },
+    {
+      "id": "tb1-u15-l10-shopping-complaints-5-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means „I only bought the jacket yesterday, but at home I noticed that the zip is broken.“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ich spiele seit drei Jahren Fußball im Verein, und am Wochenende unternehme ich gern etwas mit meinen Freunden."
+        },
+        {
+          "id": "b",
+          "text": "Ich habe die Jacke erst gestern gekauft, aber zu Hause habe ich gemerkt, dass der Reißverschluss kaputt ist."
+        },
+        {
+          "id": "c",
+          "text": "Das Sommerfest findet am Samstag im Stadtpark statt, der Eintritt ist kostenlos."
+        },
+        {
+          "id": "d",
+          "text": "Mit Kassenbon können Sie das Gerät innerhalb von 14 Tagen umtauschen oder Ihr Geld zurückbekommen."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Ich habe die Jacke erst gestern gekauft, aber zu Hause habe ich gemerkt, dass der Reißverschluss kaputt ist.** = I only bought the jacket yesterday, but at home I noticed that the zip is broken.\n\n*Example:* Ich habe die Jacke erst gestern gekauft, aber zu Hause habe ich gemerkt, dass der Reißverschluss kaputt ist.\nI only bought the jacket yesterday, but at home I noticed that the zip is broken."
+    },
+    {
+      "id": "tb1-u15-l10-shopping-complaints-5-ex06",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u15-l10-shopping-complaints-5-2.mp3"
+      },
+      "tiles": [
+        "eine",
+        "aber",
+        "neue",
+        "habe",
+        "im",
+        "Schrank",
+        "den",
+        "Ich",
+        "fehlt",
+        "es",
+        "Schuhe",
+        "aufgebaut",
+        "Schraube"
+      ],
+      "answers": [
+        "Ich habe den Schrank aufgebaut, aber es fehlt eine Schraube."
+      ],
+      "explanation": "Ich habe den Schrank aufgebaut, aber es fehlt eine Schraube.\n*I assembled the wardrobe, but one screw is missing.*\n\n**fehlen + Dat. Es fehlt ein Teil.** = to be missing. A part is missing."
+    },
+    {
+      "id": "tb1-u15-l10-shopping-complaints-5-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means „With the receipt you can exchange the device within 14 days or get your money back.“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ich spiele seit drei Jahren Fußball im Verein, und am Wochenende unternehme ich gern etwas mit meinen Freunden."
+        },
+        {
+          "id": "b",
+          "text": "Das Sommerfest findet am Samstag im Stadtpark statt, der Eintritt ist kostenlos."
+        },
+        {
+          "id": "c",
+          "text": "Mit Kassenbon können Sie das Gerät innerhalb von 14 Tagen umtauschen oder Ihr Geld zurückbekommen."
+        },
+        {
+          "id": "d",
+          "text": "Ich habe die Jacke erst gestern gekauft, aber zu Hause habe ich gemerkt, dass der Reißverschluss kaputt ist."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**Mit Kassenbon können Sie das Gerät innerhalb von 14 Tagen umtauschen oder Ihr Geld zurückbekommen.** = With the receipt you can exchange the device within 14 days or get your money back.\n\n*Example:* Mit Kassenbon können Sie das Gerät innerhalb von 14 Tagen umtauschen oder Ihr Geld zurückbekommen.\nWith the receipt you can exchange the device within 14 days or get your money back."
+    },
+    {
+      "id": "tb1-u15-l10-shopping-complaints-5-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Ich habe die Jacke erst gestern gekauft, aber zu Hause habe ich gemerkt, dass der Reißverschluss kaputt ist.",
+      "tiles": [
+        "only",
+        "jacket",
+        "broken",
+        "home",
+        "cash",
+        "I",
+        "I",
+        "bought",
+        "that",
+        "the",
+        "but",
+        "yesterday",
+        "can",
+        "noticed",
+        "the",
+        "on",
+        "zip",
+        "is",
+        "at"
+      ],
+      "answers": [
+        "I only bought the jacket yesterday, but at home I noticed that the zip is broken."
+      ],
+      "explanation": "**Ich habe die Jacke erst gestern gekauft, aber zu Hause habe ich gemerkt, dass der Reißverschluss kaputt ist.** = I only bought the jacket yesterday, but at home I noticed that the zip is broken."
+    },
+    {
+      "id": "tb1-u15-l10-shopping-complaints-5-ex09",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "With the receipt you can exchange the device within 14 days or get your money back.",
+      "tiles": [
+        "Geld",
+        "Kassenbon",
+        "das",
+        "oder",
+        "14",
+        "von",
+        "können",
+        "Sie",
+        "Auf",
+        "umtauschen",
+        "zurückbekommen",
+        "Gerät",
+        "innerhalb",
+        "Tagen",
+        "zu",
+        "Mit",
+        "Ihr",
+        "Waschmaschine"
+      ],
+      "answers": [
+        "Mit Kassenbon können Sie das Gerät innerhalb von 14 Tagen umtauschen oder Ihr Geld zurückbekommen."
+      ],
+      "explanation": "**Mit Kassenbon können Sie das Gerät innerhalb von 14 Tagen umtauschen oder Ihr Geld zurückbekommen.** = With the receipt you can exchange the device within 14 days or get your money back."
+    }
+  ]
+}

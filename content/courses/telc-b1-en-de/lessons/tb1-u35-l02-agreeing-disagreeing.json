@@ -1,0 +1,238 @@
+{
+  "id": "tb1-u35-l02-agreeing-disagreeing",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u35",
+  "title": "Speaking phrases: Agreeing & disagreeing",
+  "tip": "Redemittel for the oral exam (Sprechen).",
+  "exercises": [
+    {
+      "id": "tb1-u35-l02-agreeing-disagreeing-ex01",
+      "type": "explain",
+      "title": "Part 2 · Agreeing & disagreeing (Teil 2 · Zustimmen & widersprechen)",
+      "body": "Disagreeing politely with „Das sehe ich anders, weil …“ shows B1 level and keeps the conversation going.\n\n*Deutsch:* Höflich widersprechen mit „Das sehe ich anders, weil …“ zeigt B1-Niveau und hält das Gespräch am Leben.\n\n- **Da hast du recht. / Das sehe ich genauso.** = You're right there. / I see it exactly the same way.\n- **Das stimmt, aber andererseits …** = That's true, but on the other hand …\n- **Da bin ich anderer Meinung, weil …** = I disagree there, because …\n- **Wie siehst du das? Hast du das auch schon erlebt?** = How do you see it? Have you experienced that too?",
+      "examples": [
+        {
+          "learning": "Da hast du recht. / Das sehe ich genauso.",
+          "known": "You're right there. / I see it exactly the same way."
+        },
+        {
+          "learning": "Das stimmt, aber andererseits …",
+          "known": "That's true, but on the other hand …"
+        },
+        {
+          "learning": "Da bin ich anderer Meinung, weil …",
+          "known": "I disagree there, because …"
+        },
+        {
+          "learning": "Wie siehst du das? Hast du das auch schon erlebt?",
+          "known": "How do you see it? Have you experienced that too?"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u35-l02-agreeing-disagreeing-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which phrase means „You're right there. / I see it exactly the same way.“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Hallo Sarah,"
+        },
+        {
+          "id": "b",
+          "text": "Da bin ich anderer Meinung, weil …"
+        },
+        {
+          "id": "c",
+          "text": "Da hast du recht. / Das sehe ich genauso."
+        },
+        {
+          "id": "d",
+          "text": "Wie siehst du das? Hast du das auch schon erlebt?"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**Da hast du recht. / Das sehe ich genauso.** = You're right there. / I see it exactly the same way."
+    },
+    {
+      "id": "tb1-u35-l02-agreeing-disagreeing-ex03",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u35-l02-agreeing-disagreeing-1.mp3"
+      },
+      "tiles": [
+        "möglich",
+        "Da",
+        "In",
+        "du",
+        "recht",
+        "hast",
+        "schlage"
+      ],
+      "answers": [
+        "Da hast du recht."
+      ],
+      "explanation": "**Da hast du recht. / Das sehe ich genauso.** = You're right there. / I see it exactly the same way."
+    },
+    {
+      "id": "tb1-u35-l02-agreeing-disagreeing-ex04",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u35-l02-agreeing-disagreeing-2.mp3"
+      },
+      "tiles": [
+        "sehe",
+        "Das",
+        "genauso",
+        "stattdessen",
+        "zusammen",
+        "lange",
+        "ich"
+      ],
+      "answers": [
+        "Das sehe ich genauso."
+      ],
+      "explanation": "**Da hast du recht. / Das sehe ich genauso.** = You're right there. / I see it exactly the same way."
+    },
+    {
+      "id": "tb1-u35-l02-agreeing-disagreeing-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which phrase means „That's true, but on the other hand …“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Liebe Anna, / Lieber Omar,"
+        },
+        {
+          "id": "b",
+          "text": "Das stimmt, aber andererseits …"
+        },
+        {
+          "id": "c",
+          "text": "Wie siehst du das? Hast du das auch schon erlebt?"
+        },
+        {
+          "id": "d",
+          "text": "Hallo Sarah,"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Das stimmt, aber andererseits …** = That's true, but on the other hand …\n\n*Grammar:* Connectors: aber/denn vs. deshalb/trotzdem"
+    },
+    {
+      "id": "tb1-u35-l02-agreeing-disagreeing-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "That's true, but on the other hand …",
+      "tiles": [
+        "andererseits",
+        "arbeiten",
+        "aber",
+        "Das",
+        "geehrte",
+        "Erfahrung",
+        "stimmt"
+      ],
+      "answers": [
+        "Das stimmt, aber andererseits …"
+      ],
+      "explanation": "**Das stimmt, aber andererseits …** = That's true, but on the other hand …\n\n*Grammar:* Connectors: aber/denn vs. deshalb/trotzdem"
+    },
+    {
+      "id": "tb1-u35-l02-agreeing-disagreeing-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which phrase means „I disagree there, because …“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ich schreibe Ihnen, weil …"
+        },
+        {
+          "id": "b",
+          "text": "Da bin ich anderer Meinung, weil …"
+        },
+        {
+          "id": "c",
+          "text": "Das stimmt, aber andererseits …"
+        },
+        {
+          "id": "d",
+          "text": "Ich habe mich sehr über deine Nachricht gefreut."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Da bin ich anderer Meinung, weil …** = I disagree there, because …\n\n*Grammar:* Subordinate Clauses: weil, dass, wenn, obwohl …"
+    },
+    {
+      "id": "tb1-u35-l02-agreeing-disagreeing-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I disagree there, because …",
+      "tiles": [
+        "weil",
+        "wir",
+        "ich",
+        "Da",
+        "komme",
+        "mich",
+        "Meinung",
+        "anderer",
+        "bin"
+      ],
+      "answers": [
+        "Da bin ich anderer Meinung, weil …"
+      ],
+      "explanation": "**Da bin ich anderer Meinung, weil …** = I disagree there, because …\n\n*Grammar:* Subordinate Clauses: weil, dass, wenn, obwohl …"
+    },
+    {
+      "id": "tb1-u35-l02-agreeing-disagreeing-ex09",
+      "type": "multiple_choice",
+      "prompt": "Which phrase means „How do you see it? Have you experienced that too?“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Vielen Dank für deine/Ihre E-Mail."
+        },
+        {
+          "id": "b",
+          "text": "Ich habe mich sehr über deine Nachricht gefreut."
+        },
+        {
+          "id": "c",
+          "text": "Wie siehst du das? Hast du das auch schon erlebt?"
+        },
+        {
+          "id": "d",
+          "text": "Da hast du recht. / Das sehe ich genauso."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**Wie siehst du das? Hast du das auch schon erlebt?** = How do you see it? Have you experienced that too?\n\n*Grammar:* Indirect Questions"
+    },
+    {
+      "id": "tb1-u35-l02-agreeing-disagreeing-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "How do you see it? Have you experienced that too?",
+      "tiles": [
+        "Wie",
+        "/",
+        "erlebt",
+        "uns",
+        "auch",
+        "du",
+        "das",
+        "von",
+        "siehst",
+        "du",
+        "schon",
+        "das",
+        "Hast"
+      ],
+      "answers": [
+        "Wie siehst du das? Hast du das auch schon erlebt?"
+      ],
+      "explanation": "**Wie siehst du das? Hast du das auch schon erlebt?** = How do you see it? Have you experienced that too?\n\n*Grammar:* Indirect Questions"
+    }
+  ]
+}

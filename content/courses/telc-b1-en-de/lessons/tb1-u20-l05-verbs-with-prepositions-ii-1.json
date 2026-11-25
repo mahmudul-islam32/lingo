@@ -1,0 +1,289 @@
+{
+  "id": "tb1-u20-l05-verbs-with-prepositions-ii-1",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u20",
+  "title": "Verbs with Prepositions II 1",
+  "tip": "Theme: Verben mit Präposition II (B1)",
+  "exercises": [
+    {
+      "id": "tb1-u20-l05-verbs-with-prepositions-ii-1-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "sich unterhalten mit / über",
+          "known": "to talk with sb about sth"
+        },
+        {
+          "id": "p2",
+          "learning": "berichten über",
+          "known": "to report about"
+        },
+        {
+          "id": "p3",
+          "learning": "sich konzentrieren auf",
+          "known": "to concentrate on"
+        },
+        {
+          "id": "p4",
+          "learning": "sich engagieren für",
+          "known": "to get involved in / committed to"
+        },
+        {
+          "id": "p5",
+          "learning": "verzichten auf",
+          "known": "to do without / give up"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u20-l05-verbs-with-prepositions-ii-1-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which verb means „to talk with sb about sth“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "sich handeln um + Akk."
+        },
+        {
+          "id": "b",
+          "text": "sich entschuldigen bei + Dat. / für + Akk."
+        },
+        {
+          "id": "c",
+          "text": "sich engagieren für + Akk."
+        },
+        {
+          "id": "d",
+          "text": "sich unterhalten mit + Dat. / über + Akk."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**sich unterhalten mit + Dat. / über + Akk.** = to talk with sb about sth\n\n*Example:* Ich habe mich lange mit meiner Nachbarin über den Garten unterhalten.\nI had a long talk with my neighbour about the garden."
+    },
+    {
+      "id": "tb1-u20-l05-verbs-with-prepositions-ii-1-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which one means „to report about“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "träumen von + Dat."
+        },
+        {
+          "id": "b",
+          "text": "gratulieren zu + Dat."
+        },
+        {
+          "id": "c",
+          "text": "verzichten auf + Akk."
+        },
+        {
+          "id": "d",
+          "text": "berichten über + Akk."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**berichten über + Akk.** = to report about\n\n*Example:* Die Zeitung berichtet über den Unfall auf der Autobahn.\nThe newspaper is reporting on the accident on the motorway."
+    },
+    {
+      "id": "tb1-u20-l05-verbs-with-prepositions-ii-1-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I had a long talk with my neighbour about the garden.",
+      "tiles": [
+        "lange",
+        "mich",
+        "mit",
+        "Vater",
+        "verzichte",
+        "Nachbarin",
+        "meiner",
+        "habe",
+        "unterhalten",
+        "über",
+        "deiner",
+        "Garten",
+        "den",
+        "Ich"
+      ],
+      "answers": [
+        "Ich habe mich lange mit meiner Nachbarin über den Garten unterhalten."
+      ],
+      "explanation": "**sich unterhalten mit + Dat. / über + Akk.** = to talk with sb about sth"
+    },
+    {
+      "id": "tb1-u20-l05-verbs-with-prepositions-ii-1-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which verb means „to concentrate on“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "sich entschuldigen bei + Dat. / für + Akk."
+        },
+        {
+          "id": "b",
+          "text": "sich engagieren für + Akk."
+        },
+        {
+          "id": "c",
+          "text": "sich handeln um + Akk."
+        },
+        {
+          "id": "d",
+          "text": "sich konzentrieren auf + Akk."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**sich konzentrieren auf + Akk.** = to concentrate on\n\n*Example:* Bei der Arbeit muss ich mich gut auf die Zahlen konzentrieren.\nAt work I have to concentrate carefully on the numbers."
+    },
+    {
+      "id": "tb1-u20-l05-verbs-with-prepositions-ii-1-ex06",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u20-l05-verbs-with-prepositions-ii-1-2.mp3"
+      },
+      "tiles": [
+        "Unfall",
+        "verzichte",
+        "Ali",
+        "berichtet",
+        "der",
+        "Die",
+        "den",
+        "Autobahn",
+        "über",
+        "auf",
+        "bei",
+        "Zeitung"
+      ],
+      "answers": [
+        "Die Zeitung berichtet über den Unfall auf der Autobahn."
+      ],
+      "explanation": "Die Zeitung berichtet über den Unfall auf der Autobahn.\n*The newspaper is reporting on the accident on the motorway.*\n\n**berichten über + Akk.** = to report about"
+    },
+    {
+      "id": "tb1-u20-l05-verbs-with-prepositions-ii-1-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which verb means „to get involved in / committed to“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "sich entschuldigen bei + Dat. / für + Akk."
+        },
+        {
+          "id": "b",
+          "text": "sich handeln um + Akk."
+        },
+        {
+          "id": "c",
+          "text": "sich konzentrieren auf + Akk."
+        },
+        {
+          "id": "d",
+          "text": "sich engagieren für + Akk."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**sich engagieren für + Akk.** = to get involved in / committed to\n\n*Example:* Maria engagiert sich für alte Menschen in ihrem Stadtteil.\nMaria is committed to helping elderly people in her neighbourhood."
+    },
+    {
+      "id": "tb1-u20-l05-verbs-with-prepositions-ii-1-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Bei der Arbeit muss ich mich gut auf die Zahlen konzentrieren.",
+      "tiles": [
+        "have",
+        "numbers",
+        "people",
+        "concentrate",
+        "work",
+        "the",
+        "carefully",
+        "to",
+        "I",
+        "my",
+        "At",
+        "on",
+        "own"
+      ],
+      "answers": [
+        "At work I have to concentrate carefully on the numbers."
+      ],
+      "explanation": "**sich konzentrieren auf + Akk.** = to concentrate on"
+    },
+    {
+      "id": "tb1-u20-l05-verbs-with-prepositions-ii-1-ex09",
+      "type": "multiple_choice",
+      "prompt": "Which one means „to do without / give up“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "träumen von + Dat."
+        },
+        {
+          "id": "b",
+          "text": "berichten über + Akk."
+        },
+        {
+          "id": "c",
+          "text": "verzichten auf + Akk."
+        },
+        {
+          "id": "d",
+          "text": "gratulieren zu + Dat."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**verzichten auf + Akk.** = to do without / give up\n\n*Example:* Im Urlaub verzichte ich gern auf mein Handy.\nOn holiday I happily do without my phone."
+    },
+    {
+      "id": "tb1-u20-l05-verbs-with-prepositions-ii-1-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Maria is committed to helping elderly people in her neighbourhood.",
+      "tiles": [
+        "Menschen",
+        "sich",
+        "in",
+        "engagiert",
+        "alte",
+        "ihrem",
+        "herzlich",
+        "Maria",
+        "den",
+        "Stadtteil",
+        "Autobahn",
+        "für"
+      ],
+      "answers": [
+        "Maria engagiert sich für alte Menschen in ihrem Stadtteil."
+      ],
+      "explanation": "**sich engagieren für + Akk.** = to get involved in / committed to"
+    },
+    {
+      "id": "tb1-u20-l05-verbs-with-prepositions-ii-1-ex11",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u20-l05-verbs-with-prepositions-ii-1-5.mp3"
+      },
+      "tiles": [
+        "gern",
+        "Urlaub",
+        "Im",
+        "verzichte",
+        "Handy",
+        "allen",
+        "mich",
+        "ich",
+        "den",
+        "auf",
+        "mein"
+      ],
+      "answers": [
+        "Im Urlaub verzichte ich gern auf mein Handy."
+      ],
+      "explanation": "Im Urlaub verzichte ich gern auf mein Handy.\n*On holiday I happily do without my phone.*\n\n**verzichten auf + Akk.** = to do without / give up"
+    }
+  ]
+}

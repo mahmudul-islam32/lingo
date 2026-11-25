@@ -1,0 +1,240 @@
+{
+  "id": "tb1-u27-l04-agreeing-disagreeing-1",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u27",
+  "title": "Agreeing & Disagreeing 1",
+  "tip": "Theme: Redemittel: Zustimmen & Widersprechen (B1)",
+  "exercises": [
+    {
+      "id": "tb1-u27-l04-agreeing-disagreeing-1-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "Da stimme ich Ihnen zu",
+          "known": "I agree with you."
+        },
+        {
+          "id": "p2",
+          "learning": "Das sehe ich auch so",
+          "known": "I see it that way too."
+        },
+        {
+          "id": "p3",
+          "learning": "Genau, das finde ich auch",
+          "known": "Exactly, I think so too."
+        },
+        {
+          "id": "p4",
+          "learning": "Da haben Sie recht",
+          "known": "You're right there."
+        },
+        {
+          "id": "p5",
+          "learning": "Das ist ein guter Punkt",
+          "known": "That's a good point."
+        }
+      ]
+    },
+    {
+      "id": "tb1-u27-l04-agreeing-disagreeing-1-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which phrase means „I agree with you.“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Da stimme ich Ihnen zu."
+        },
+        {
+          "id": "b",
+          "text": "Ich bin ganz Ihrer Meinung."
+        },
+        {
+          "id": "c",
+          "text": "Das kann man so nicht sagen."
+        },
+        {
+          "id": "d",
+          "text": "Ich bin nicht sicher, ob das stimmt."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Da stimme ich Ihnen zu.** = I agree with you.\n\n*Example:* „Wir brauchen mehr Spielplätze.“ – „Da stimme ich Ihnen zu.“\n\"We need more playgrounds.\" – \"I agree with you.\""
+    },
+    {
+      "id": "tb1-u27-l04-agreeing-disagreeing-1-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which phrase means „I see it that way too.“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Das kann man so nicht sagen."
+        },
+        {
+          "id": "b",
+          "text": "Ich bin nicht sicher, ob das stimmt."
+        },
+        {
+          "id": "c",
+          "text": "Das sehe ich auch so."
+        },
+        {
+          "id": "d",
+          "text": "Einerseits ja, andererseits …"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**Das sehe ich auch so.** = I see it that way too.\n\n*Example:* „Der Bus fährt zu selten.“ – „Das sehe ich auch so.“\n\"The bus runs too rarely.\" – \"I see it that way too.\""
+    },
+    {
+      "id": "tb1-u27-l04-agreeing-disagreeing-1-ex04",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u27-l04-agreeing-disagreeing-1-1.mp3"
+      },
+      "tiles": [
+        "mehr",
+        "Wir",
+        "stimme",
+        "ich",
+        "Spielplätze",
+        "braucht",
+        "Da",
+        "Sie",
+        "zu",
+        "finde",
+        "Ihnen",
+        "brauchen"
+      ],
+      "answers": [
+        "„Wir brauchen mehr Spielplätze.“ – „Da stimme ich Ihnen zu.“"
+      ],
+      "explanation": "„Wir brauchen mehr Spielplätze.“ – „Da stimme ich Ihnen zu.“\n*\"We need more playgrounds.\" – \"I agree with you.\"*\n\n**Da stimme ich Ihnen zu.** = I agree with you."
+    },
+    {
+      "id": "tb1-u27-l04-agreeing-disagreeing-1-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which phrase means „Exactly, I think so too.“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Einerseits ja, andererseits …"
+        },
+        {
+          "id": "b",
+          "text": "Ich bin nicht sicher, ob das stimmt."
+        },
+        {
+          "id": "c",
+          "text": "Das sehe ich auch so."
+        },
+        {
+          "id": "d",
+          "text": "Genau, das finde ich auch."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**Genau, das finde ich auch.** = Exactly, I think so too.\n\n*Example:* „Das Essen hier ist super.“ – „Genau, das finde ich auch.“\n\"The food here is great.\" – \"Exactly, I think so too.\""
+    },
+    {
+      "id": "tb1-u27-l04-agreeing-disagreeing-1-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "„Der Bus fährt zu selten.“ – „Das sehe ich auch so.“",
+      "tiles": [
+        "too",
+        "say",
+        "bus",
+        "see",
+        "too",
+        "way",
+        "true",
+        "runs",
+        "rarely",
+        "that",
+        "I",
+        "The",
+        "it",
+        "completely"
+      ],
+      "answers": [
+        "\"The bus runs too rarely.\" – \"I see it that way too.\""
+      ],
+      "explanation": "**Das sehe ich auch so.** = I see it that way too."
+    },
+    {
+      "id": "tb1-u27-l04-agreeing-disagreeing-1-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which phrase means „You're right there.“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Genau, das finde ich auch."
+        },
+        {
+          "id": "b",
+          "text": "Da haben Sie recht."
+        },
+        {
+          "id": "c",
+          "text": "Das kann man so nicht sagen."
+        },
+        {
+          "id": "d",
+          "text": "Das sehe ich auch so."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Da haben Sie recht.** = You're right there.\n\n*Example:* „Wir sollten früher losfahren.“ – „Da haben Sie recht.“\n\"We should leave earlier.\" – \"You're right there.\""
+    },
+    {
+      "id": "tb1-u27-l04-agreeing-disagreeing-1-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "\"The food here is great.\" – \"Exactly, I think so too.\"",
+      "tiles": [
+        "ich",
+        "Stadt",
+        "finde",
+        "Essen",
+        "Meinung",
+        "hier",
+        "dem",
+        "auch",
+        "Genau",
+        "super",
+        "ist",
+        "das",
+        "Das"
+      ],
+      "answers": [
+        "„Das Essen hier ist super.“ – „Genau, das finde ich auch.“"
+      ],
+      "explanation": "**Genau, das finde ich auch.** = Exactly, I think so too."
+    },
+    {
+      "id": "tb1-u27-l04-agreeing-disagreeing-1-ex09",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u27-l04-agreeing-disagreeing-1-4.mp3"
+      },
+      "tiles": [
+        "früher",
+        "dem",
+        "Sie",
+        "bin",
+        "ist",
+        "haben",
+        "Da",
+        "recht",
+        "losfahren",
+        "sollten",
+        "Wir"
+      ],
+      "answers": [
+        "„Wir sollten früher losfahren.“ – „Da haben Sie recht.“"
+      ],
+      "explanation": "„Wir sollten früher losfahren.“ – „Da haben Sie recht.“\n*\"We should leave earlier.\" – \"You're right there.\"*\n\n**Da haben Sie recht.** = You're right there."
+    }
+  ]
+}

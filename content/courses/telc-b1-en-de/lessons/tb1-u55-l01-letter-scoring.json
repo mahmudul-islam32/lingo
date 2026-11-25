@@ -1,0 +1,142 @@
+{
+  "id": "tb1-u55-l01-letter-scoring",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u55",
+  "title": "How the letter is scored",
+  "tip": "Four points, Anrede and Gruß: that is where most writing points come from.",
+  "exercises": [
+    {
+      "id": "tb1-u55-l01-letter-scoring-ex01",
+      "type": "explain",
+      "title": "The writing part (Schreiben)",
+      "body": "In the exam you have **30 minutes** to write **one e-mail** in reply to a personal letter. You must write something about **all four guiding points (Leitpunkte)**. A **salutation (Anrede)** and a **closing (Gruß)** are compulsory. The telc app's target length is **about 80 words**.\n\nYou are graded on three criteria. Each gets A, B, C or D: **A = 5, B = 3, C = 1, D = 0** points. The sum is multiplied by 3, so the maximum is **45 points**."
+    },
+    {
+      "id": "tb1-u55-l01-letter-scoring-ex02",
+      "type": "explain",
+      "title": "The three criteria (Kriterien)",
+      "body": "## Kriterium I · Aufgabenbewältigung\n\n- A = alle vier Leitpunkte klar bearbeitet\n- B = alle vier angefasst, einer dünn\n- C = nur zwei oder drei\n- D = einer oder keiner\n\n## Kriterium II · Kommunikative Gestaltung\n\n- A = Anrede + Gruß korrekt, Register durchgehalten, Punkte hängen zusammen\n- B = kleine Brüche\n- C = Register wechselt oder Anrede/Gruß fehlt\n- D = kein Briefcharakter\n\n## Kriterium III · Formale Richtigkeit\n\n- A = fast fehlerfrei\n- B = Fehler stören das Verstehen nicht\n- C = Verstehen stellenweise gestört\n- D = kaum verständlich\n\nIn English: **I** = did you handle all four points? **II** = salutation and closing correct, one register (du or Sie) throughout, points connected? **III** = how accurate is your German?"
+    },
+    {
+      "id": "tb1-u55-l01-letter-scoring-ex03",
+      "type": "choice",
+      "prompt": "Criterion I (Aufgabenbewältigung): you dealt with only two or three of the four points. Which grade?",
+      "options": [
+        {
+          "id": "a",
+          "text": "B"
+        },
+        {
+          "id": "b",
+          "text": "A"
+        },
+        {
+          "id": "c",
+          "text": "C"
+        },
+        {
+          "id": "d",
+          "text": "D"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "A = alle vier Leitpunkte klar bearbeitet · B = alle vier angefasst, einer dünn · C = nur zwei oder drei · D = einer oder keiner"
+    },
+    {
+      "id": "tb1-u55-l01-letter-scoring-ex04",
+      "type": "choice",
+      "prompt": "Criterion II (Kommunikative Gestaltung): the salutation or closing is missing. Which grade?",
+      "options": [
+        {
+          "id": "a",
+          "text": "B"
+        },
+        {
+          "id": "b",
+          "text": "A"
+        },
+        {
+          "id": "c",
+          "text": "D"
+        },
+        {
+          "id": "d",
+          "text": "C"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "A = Anrede + Gruß korrekt, Register durchgehalten, Punkte hängen zusammen · B = kleine Brüche · C = Register wechselt oder Anrede/Gruß fehlt · D = kein Briefcharakter"
+    },
+    {
+      "id": "tb1-u55-l01-letter-scoring-ex05",
+      "type": "choice",
+      "prompt": "Criterion III (Formale Richtigkeit): there are mistakes, but they don't disturb understanding. Which grade?",
+      "options": [
+        {
+          "id": "a",
+          "text": "D"
+        },
+        {
+          "id": "b",
+          "text": "C"
+        },
+        {
+          "id": "c",
+          "text": "B"
+        },
+        {
+          "id": "d",
+          "text": "A"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "A = fast fehlerfrei · B = Fehler stören das Verstehen nicht · C = Verstehen stellenweise gestört · D = kaum verständlich"
+    },
+    {
+      "id": "tb1-u55-l01-letter-scoring-ex06",
+      "type": "choice",
+      "prompt": "You get B in all three criteria. How many points is that?",
+      "options": [
+        {
+          "id": "a",
+          "text": "45"
+        },
+        {
+          "id": "b",
+          "text": "27"
+        },
+        {
+          "id": "c",
+          "text": "15"
+        },
+        {
+          "id": "d",
+          "text": "9"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "B = 3 points. (3 + 3 + 3) × 3 = **27** of 45."
+    },
+    {
+      "id": "tb1-u55-l01-letter-scoring-ex07",
+      "type": "choice",
+      "prompt": "Which grade for criterion I if all four points are clearly covered?",
+      "options": [
+        {
+          "id": "a",
+          "text": "C"
+        },
+        {
+          "id": "b",
+          "text": "A"
+        },
+        {
+          "id": "c",
+          "text": "B"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "A = alle vier Leitpunkte klar bearbeitet · B = alle vier angefasst, einer dünn · C = nur zwei oder drei · D = einer oder keiner"
+    }
+  ]
+}

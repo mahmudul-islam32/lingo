@@ -1,0 +1,243 @@
+{
+  "id": "tb1-u12-l09-housing-moving-4",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u12",
+  "title": "Housing & Moving 4",
+  "tip": "Theme: Wohnen / Umzug (B1)",
+  "exercises": [
+    {
+      "id": "tb1-u12-l09-housing-moving-4-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "einziehen",
+          "known": "to move in"
+        },
+        {
+          "id": "p2",
+          "learning": "renovieren",
+          "known": "to renovate"
+        },
+        {
+          "id": "p3",
+          "learning": "der Nachbar",
+          "known": "neighbour"
+        },
+        {
+          "id": "p4",
+          "learning": "der Lärm",
+          "known": "noise"
+        },
+        {
+          "id": "p5",
+          "learning": "die Wohnung",
+          "known": "flat"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u12-l09-housing-moving-4-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which verb means „to move in ↔ to move out“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "renovieren (hat renoviert)"
+        },
+        {
+          "id": "b",
+          "text": "umziehen (ist umgezogen): der Umzug, die Umzüge"
+        },
+        {
+          "id": "c",
+          "text": "einziehen ↔ ausziehen (ist ein-/ausgezogen)"
+        },
+        {
+          "id": "d",
+          "text": "die Heizung, die Heizungen"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**einziehen ↔ ausziehen (ist ein-/ausgezogen)** = to move in ↔ to move out\n\n*Example:* Die alten Mieter ziehen am Freitag aus, und wir ziehen am Samstag ein.\nThe old tenants are moving out on Friday, and we're moving in on Saturday."
+    },
+    {
+      "id": "tb1-u12-l09-housing-moving-4-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which verb means „to renovate“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "einziehen ↔ ausziehen (ist ein-/ausgezogen)"
+        },
+        {
+          "id": "b",
+          "text": "umziehen (ist umgezogen): der Umzug, die Umzüge"
+        },
+        {
+          "id": "c",
+          "text": "die Möbel (Pl.), möbliert"
+        },
+        {
+          "id": "d",
+          "text": "renovieren (hat renoviert)"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**renovieren (hat renoviert)** = to renovate\n\n*Example:* Der Vermieter hat das Bad im Frühling renoviert.\nThe landlord renovated the bathroom in the spring."
+    },
+    {
+      "id": "tb1-u12-l09-housing-moving-4-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "The old tenants are moving out on Friday, and we're moving in on Saturday.",
+      "tiles": [
+        "ziehen",
+        "am",
+        "und",
+        "alten",
+        "zahlen",
+        "ein",
+        "ziehen",
+        "Mieter",
+        "wir",
+        "Garage",
+        "Unsere",
+        "am",
+        "Die",
+        "Freitag",
+        "Samstag",
+        "aus"
+      ],
+      "answers": [
+        "Die alten Mieter ziehen am Freitag aus, und wir ziehen am Samstag ein."
+      ],
+      "explanation": "**einziehen ↔ ausziehen (ist ein-/ausgezogen)** = to move in ↔ to move out"
+    },
+    {
+      "id": "tb1-u12-l09-housing-moving-4-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „neighbour“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Heizung, die Heizungen"
+        },
+        {
+          "id": "b",
+          "text": "der Nachbar, die Nachbarn (n-Dekl.) / die Nachbarin, die Nachbarinnen"
+        },
+        {
+          "id": "c",
+          "text": "der Lärm (nur Sg.), laut ↔ ruhig"
+        },
+        {
+          "id": "d",
+          "text": "die Umgebung"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**der Nachbar, die Nachbarn (n-Dekl.) / die Nachbarin, die Nachbarinnen** = neighbour\n\n*Example:* Meine Nachbarin gießt meine Blumen, wenn ich im Urlaub bin.\nMy neighbour waters my flowers when I'm on holiday."
+    },
+    {
+      "id": "tb1-u12-l09-housing-moving-4-ex06",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u12-l09-housing-moving-4-2.mp3"
+      },
+      "tiles": [
+        "hinten",
+        "hat",
+        "Frühling",
+        "im",
+        "Bad",
+        "renoviert",
+        "Vermieter",
+        "Garage",
+        "Der",
+        "das",
+        "Urlaub"
+      ],
+      "answers": [
+        "Der Vermieter hat das Bad im Frühling renoviert."
+      ],
+      "explanation": "Der Vermieter hat das Bad im Frühling renoviert.\n*The landlord renovated the bathroom in the spring.*\n\n**renovieren (hat renoviert)** = to renovate"
+    },
+    {
+      "id": "tb1-u12-l09-housing-moving-4-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „noise: noisy ↔ quiet“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "der Lärm (nur Sg.), laut ↔ ruhig"
+        },
+        {
+          "id": "b",
+          "text": "die Heizung, die Heizungen"
+        },
+        {
+          "id": "c",
+          "text": "der Mieter, die Mieter ↔ der Vermieter, die Vermieter"
+        },
+        {
+          "id": "d",
+          "text": "der Mietvertrag, die Mietverträge"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**der Lärm (nur Sg.), laut ↔ ruhig** = noise: noisy ↔ quiet\n\n*Example:* Die Straße ist sehr laut, aber hinten im Hof ist es ruhig.\nThe street is very noisy, but it's quiet in the back courtyard."
+    },
+    {
+      "id": "tb1-u12-l09-housing-moving-4-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Meine Nachbarin gießt meine Blumen, wenn ich im Urlaub bin.",
+      "tiles": [
+        "old",
+        "flat",
+        "holiday",
+        "flowers",
+        "my",
+        "when",
+        "waters",
+        "three",
+        "on",
+        "My",
+        "neighbour",
+        "I'm"
+      ],
+      "answers": [
+        "My neighbour waters my flowers when I'm on holiday."
+      ],
+      "explanation": "**der Nachbar, die Nachbarn (n-Dekl.) / die Nachbarin, die Nachbarinnen** = neighbour"
+    },
+    {
+      "id": "tb1-u12-l09-housing-moving-4-ex09",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "The street is very noisy, but it's quiet in the back courtyard.",
+      "tiles": [
+        "hinten",
+        "Wir",
+        "sehr",
+        "ruhig",
+        "Hof",
+        "laut",
+        "aber",
+        "im",
+        "ist",
+        "ist",
+        "Die",
+        "es",
+        "Straße",
+        "dieser",
+        "um"
+      ],
+      "answers": [
+        "Die Straße ist sehr laut, aber hinten im Hof ist es ruhig."
+      ],
+      "explanation": "**der Lärm (nur Sg.), laut ↔ ruhig** = noise: noisy ↔ quiet"
+    }
+  ]
+}

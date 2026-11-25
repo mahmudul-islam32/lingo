@@ -1,0 +1,301 @@
+{
+  "id": "tb1-u30-l02-satzklammer-p1",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u30",
+  "title": "Verb Position & the Verb Bracket: Subjekt auf Position 1 & Zeit oder Ort zuerst",
+  "tip": "“Gestern ich habe…” is THE classic mistake. After a fronted time/place phrase the verb comes first!",
+  "exercises": [
+    {
+      "id": "tb1-u30-l02-satzklammer-p1-ex01",
+      "type": "explain",
+      "title": "Subjekt auf Position 1",
+      "body": "The default: subject – verb – rest. The second verb part goes to the very end.\n\n*Deutsch:* Der Normalfall: Subjekt – Verb – Rest. Der zweite Verbteil steht ganz am Ende.\n\n## Pattern\n\nSubjekt + **Verb (Pos. 2)** + … + **Verbteil 2 (Ende)**",
+      "examples": [
+        {
+          "learning": "Ich habe gestern einen Brief geschrieben.",
+          "known": "I wrote a letter yesterday."
+        },
+        {
+          "learning": "Wir müssen heute noch die Wohnung putzen.",
+          "known": "We still have to clean the flat today."
+        }
+      ]
+    },
+    {
+      "id": "tb1-u30-l02-satzklammer-p1-ex02",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I wrote a letter yesterday.",
+      "tiles": [
+        "eine",
+        "habe",
+        "geschrieben",
+        "Brief",
+        "Nächstes",
+        "Ich",
+        "gestern",
+        "Zug",
+        "einen"
+      ],
+      "answers": [
+        "Ich habe gestern einen Brief geschrieben."
+      ],
+      "explanation": "**Why:** habe (position 2) and geschrieben (end) form the bracket.\n\n*Warum:* habe (Pos. 2) und geschrieben (Ende) bilden die Klammer."
+    },
+    {
+      "id": "tb1-u30-l02-satzklammer-p1-ex03",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "We still have to clean the flat today.",
+      "tiles": [
+        "Wir",
+        "die",
+        "putzen",
+        "heute",
+        "geben",
+        "unserem",
+        "Ich",
+        "Wohnung",
+        "noch",
+        "müssen"
+      ],
+      "answers": [
+        "Wir müssen heute noch die Wohnung putzen."
+      ],
+      "explanation": "**Why:** Modal verb in position 2, infinitive at the end.\n\n*Warum:* Modalverb auf Position 2, Infinitiv ans Ende."
+    },
+    {
+      "id": "tb1-u30-l02-satzklammer-p1-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "My sister calls me every Sunday.",
+      "tiles": [
+        "Sonntag",
+        "Schwester",
+        "jeden",
+        "meiner",
+        "mit",
+        "Meine",
+        "mich",
+        "ich",
+        "an",
+        "ruft"
+      ],
+      "answers": [
+        "Meine Schwester ruft mich jeden Sonntag an."
+      ],
+      "explanation": "**Why:** Separable verb: anrufen → ruft … an.\n\n*Warum:* Trennbares Verb: anrufen → ruft … an."
+    },
+    {
+      "id": "tb1-u30-l02-satzklammer-p1-ex05",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "The train arrived in Cologne on time.",
+      "tiles": [
+        "Köln",
+        "Abend",
+        "angekommen",
+        "spät",
+        "Zug",
+        "ist",
+        "pünktlich",
+        "müde",
+        "Der",
+        "in"
+      ],
+      "answers": [
+        "Der Zug ist pünktlich in Köln angekommen."
+      ],
+      "explanation": "**Why:** Perfect with sein: ist … angekommen.\n\n*Warum:* Perfekt mit sein: ist … angekommen."
+    },
+    {
+      "id": "tb1-u30-l02-satzklammer-p1-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "My boss will give me an answer tomorrow.",
+      "tiles": [
+        "Fest",
+        "Antwort",
+        "Mein",
+        "eine",
+        "Köln",
+        "wird",
+        "mir",
+        "geben",
+        "morgen",
+        "Chef",
+        "___"
+      ],
+      "answers": [
+        "Mein Chef wird mir morgen eine Antwort geben."
+      ],
+      "explanation": "**Why:** Future: wird (position 2) … geben (end).\n\n*Warum:* Futur: wird (Pos. 2) … geben (Ende)."
+    },
+    {
+      "id": "tb1-u30-l02-satzklammer-p1-ex07",
+      "type": "explain",
+      "title": "Zeit oder Ort zuerst (Inversion)",
+      "body": "If a time or place phrase is in position 1, the verb comes immediately, then the subject.\n\n*Deutsch:* Steht eine Zeit- oder Ortsangabe auf Position 1, kommt sofort das Verb, dann das Subjekt.\n\n## Pattern\n\nZeit/Ort + **Verb (Pos. 2)** + Subjekt + … + **Verbteil 2**",
+      "examples": [
+        {
+          "learning": "Morgen gehe ich zum Arzt.",
+          "known": "Tomorrow I'm going to the doctor."
+        },
+        {
+          "learning": "Am Wochenende besuche ich meine Eltern.",
+          "known": "At the weekend I visit my parents."
+        }
+      ]
+    },
+    {
+      "id": "tb1-u30-l02-satzklammer-p1-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Tomorrow I'm going to the doctor.",
+      "tiles": [
+        "Testlücke-Stil",
+        "Morgen",
+        "gehe",
+        "ich",
+        "zum",
+        "Arzt",
+        "Nächstes",
+        "mir"
+      ],
+      "answers": [
+        "Morgen gehe ich zum Arzt."
+      ],
+      "explanation": "**Why:** Morgen = position 1 → verb gehe, then ich.\n\n*Warum:* Morgen = Position 1 → Verb gehe, dann ich."
+    },
+    {
+      "id": "tb1-u30-l02-satzklammer-p1-ex09",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "At the weekend I visit my parents.",
+      "tiles": [
+        "Wochenende",
+        "ich",
+        "→",
+        "Eltern",
+        "Am",
+        "ist",
+        "Heute",
+        "besuche",
+        "meine"
+      ],
+      "answers": [
+        "Am Wochenende besuche ich meine Eltern."
+      ],
+      "explanation": "**Why:** Not “Am Wochenende ich besuche” – the verb comes first.\n\n*Warum:* Nicht „Am Wochenende ich besuche“ – das Verb kommt zuerst."
+    },
+    {
+      "id": "tb1-u30-l02-satzklammer-p1-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Yesterday I was very tired.",
+      "tiles": [
+        "Gestern",
+        "Wohnung",
+        "müde",
+        "möchte",
+        "ich",
+        "einen",
+        "sehr",
+        "war"
+      ],
+      "answers": [
+        "Gestern war ich sehr müde."
+      ],
+      "explanation": "**Why:** Same with sein: Gestern – war – ich.\n\n*Warum:* Auch mit sein: Gestern – war – ich."
+    },
+    {
+      "id": "tb1-u30-l02-satzklammer-p1-ex11",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "My brother found a flat in Berlin.",
+      "tiles": [
+        "In",
+        "Der",
+        "letzte",
+        "ich",
+        "Bruder",
+        "hat",
+        "mein",
+        "gefunden",
+        "Wohnung",
+        "eine",
+        "Berlin"
+      ],
+      "answers": [
+        "In Berlin hat mein Bruder eine Wohnung gefunden."
+      ],
+      "explanation": "**Why:** Place in position 1, participle still at the end.\n\n*Warum:* Ort auf Position 1, Partizip trotzdem am Ende."
+    },
+    {
+      "id": "tb1-u30-l02-satzklammer-p1-ex12",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Unfortunately I can't come on Friday.",
+      "tiles": [
+        "Leider",
+        "am",
+        "Freitag",
+        "nicht",
+        "Berlin",
+        "Brief",
+        "Bett",
+        "kommen",
+        "ich",
+        "kann"
+      ],
+      "answers": [
+        "Leider kann ich am Freitag nicht kommen."
+      ],
+      "explanation": "**Why:** Words like leider/vielleicht also take position 1.\n\n*Warum:* Auch Wörter wie leider/vielleicht besetzen Position 1."
+    },
+    {
+      "id": "tb1-u30-l02-satzklammer-p1-ex13",
+      "type": "choice",
+      "title": "Fill the gap",
+      "prompt": "Nächste Woche will ich mit dem Kurs ___.",
+      "options": [
+        {
+          "id": "a",
+          "text": "angefangen"
+        },
+        {
+          "id": "b",
+          "text": "anfange"
+        },
+        {
+          "id": "c",
+          "text": "anfangen"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Modalverb-Klammer: will … + Infinitiv am Ende (anfangen)."
+    },
+    {
+      "id": "tb1-u30-l02-satzklammer-p1-ex14",
+      "type": "choice",
+      "title": "Fill the gap",
+      "prompt": "Am Wochenende ___ wir unsere Großeltern besucht.",
+      "options": [
+        {
+          "id": "a",
+          "text": "sind"
+        },
+        {
+          "id": "b",
+          "text": "werden"
+        },
+        {
+          "id": "c",
+          "text": "haben"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "besuchen bildet das Perfekt mit haben: haben … besucht."
+    }
+  ]
+}

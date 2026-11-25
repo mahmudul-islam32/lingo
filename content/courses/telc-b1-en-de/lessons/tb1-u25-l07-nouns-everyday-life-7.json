@@ -1,0 +1,237 @@
+{
+  "id": "tb1-u25-l07-nouns-everyday-life-7",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u25",
+  "title": "Nouns: Everyday Life 7",
+  "tip": "Theme: Nomen: Alltag & Leben (B1)",
+  "exercises": [
+    {
+      "id": "tb1-u25-l07-nouns-everyday-life-7-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "der Zeitungsartikel",
+          "known": "newspaper article"
+        },
+        {
+          "id": "p2",
+          "learning": "die Übersicht",
+          "known": "overview"
+        },
+        {
+          "id": "p3",
+          "learning": "der Wetterbericht",
+          "known": "weather report"
+        },
+        {
+          "id": "p4",
+          "learning": "die Polizei",
+          "known": "police"
+        },
+        {
+          "id": "p5",
+          "learning": "der Haushalt",
+          "known": "household"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u25-l07-nouns-everyday-life-7-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „newspaper article“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "der Spaß"
+        },
+        {
+          "id": "b",
+          "text": "der Trend, die Trends"
+        },
+        {
+          "id": "c",
+          "text": "das Forum, die Foren"
+        },
+        {
+          "id": "d",
+          "text": "der Zeitungsartikel, die Zeitungsartikel"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**der Zeitungsartikel** = newspaper article\n*Plural: die Zeitungsartikel*\n\n*Example:* Ich habe einen interessanten Zeitungsartikel über Mieten gelesen.\nI read an interesting newspaper article about rents."
+    },
+    {
+      "id": "tb1-u25-l07-nouns-everyday-life-7-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „overview“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Hälfte, die Hälften"
+        },
+        {
+          "id": "b",
+          "text": "der Tourist, die Touristen"
+        },
+        {
+          "id": "c",
+          "text": "die Wäsche"
+        },
+        {
+          "id": "d",
+          "text": "die Übersicht, die Übersichten"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**die Übersicht** = overview\n*Plural: die Übersichten*\n\n*Example:* Auf der Webseite gibt es eine Übersicht über alle Kurse.\nThere's an overview of all the courses on the website."
+    },
+    {
+      "id": "tb1-u25-l07-nouns-everyday-life-7-ex04",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u25-l07-nouns-everyday-life-7-1.mp3"
+      },
+      "tiles": [
+        "Mieten",
+        "interessanten",
+        "habe",
+        "über",
+        "müssen",
+        "Zeitungsartikel",
+        "einen",
+        "Die",
+        "Ich",
+        "gelesen",
+        "fünf"
+      ],
+      "answers": [
+        "Ich habe einen interessanten Zeitungsartikel über Mieten gelesen."
+      ],
+      "explanation": "Ich habe einen interessanten Zeitungsartikel über Mieten gelesen.\n*I read an interesting newspaper article about rents.*\n\n**der Zeitungsartikel** = newspaper article\n*Plural: die Zeitungsartikel*"
+    },
+    {
+      "id": "tb1-u25-l07-nouns-everyday-life-7-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „weather report“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Insel, die Inseln"
+        },
+        {
+          "id": "b",
+          "text": "die Welt, die Welten"
+        },
+        {
+          "id": "c",
+          "text": "das Land, die Länder"
+        },
+        {
+          "id": "d",
+          "text": "der Wetterbericht, die Wetterberichte"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**der Wetterbericht** = weather report\n*Plural: die Wetterberichte*\n\n*Example:* Laut Wetterbericht regnet es morgen den ganzen Tag.\nAccording to the weather report, it will rain all day tomorrow."
+    },
+    {
+      "id": "tb1-u25-l07-nouns-everyday-life-7-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Auf der Webseite gibt es eine Übersicht über alle Kurse.",
+      "tiles": [
+        "pair",
+        "the",
+        "about",
+        "There's",
+        "website",
+        "all",
+        "overview",
+        "courses",
+        "an",
+        "the",
+        "of",
+        "winter",
+        "on"
+      ],
+      "answers": [
+        "There's an overview of all the courses on the website."
+      ],
+      "explanation": "**die Übersicht** = overview\n*Plural: die Übersichten*"
+    },
+    {
+      "id": "tb1-u25-l07-nouns-everyday-life-7-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „police“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Lage, die Lagen"
+        },
+        {
+          "id": "b",
+          "text": "die Hälfte, die Hälften"
+        },
+        {
+          "id": "c",
+          "text": "die Polizei"
+        },
+        {
+          "id": "d",
+          "text": "der Tourist, die Touristen"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**die Polizei** = police\n\n*Example:* Nach dem Unfall hat Maria sofort die Polizei gerufen.\nAfter the accident, Maria called the police immediately."
+    },
+    {
+      "id": "tb1-u25-l07-nouns-everyday-life-7-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "According to the weather report, it will rain all day tomorrow.",
+      "tiles": [
+        "regnet",
+        "hilft",
+        "den",
+        "morgen",
+        "es",
+        "Wetterbericht",
+        "jungen",
+        "Laut",
+        "ganzen",
+        "Ich",
+        "Tag"
+      ],
+      "answers": [
+        "Laut Wetterbericht regnet es morgen den ganzen Tag."
+      ],
+      "explanation": "**der Wetterbericht** = weather report\n*Plural: die Wetterberichte*"
+    },
+    {
+      "id": "tb1-u25-l07-nouns-everyday-life-7-ex09",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u25-l07-nouns-everyday-life-7-4.mp3"
+      },
+      "tiles": [
+        "müssen",
+        "gerufen",
+        "hat",
+        "Unfall",
+        "Maria",
+        "sofort",
+        "dem",
+        "die",
+        "der",
+        "Polizei",
+        "wir",
+        "Nach"
+      ],
+      "answers": [
+        "Nach dem Unfall hat Maria sofort die Polizei gerufen."
+      ],
+      "explanation": "Nach dem Unfall hat Maria sofort die Polizei gerufen.\n*After the accident, Maria called the police immediately.*\n\n**die Polizei** = police"
+    }
+  ]
+}

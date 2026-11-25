@@ -1,0 +1,274 @@
+{
+  "id": "tb1-u29-l09-speaking-planning-agreeing-2",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u29",
+  "title": "Speaking: Planning & Agreeing 2",
+  "tip": "Theme: Sätze. Sprechen: Planen & Einigen (B1)",
+  "exercises": [
+    {
+      "id": "tb1-u29-l09-speaking-planning-agreeing-2-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "Können wir uns darauf einigen?",
+          "known": "Can we agree on that?"
+        },
+        {
+          "id": "p2",
+          "learning": "Ich kümmere mich um die Getränke",
+          "known": "I'll take care of the drinks."
+        },
+        {
+          "id": "p3",
+          "learning": "Dann fassen wir kurz zusammen",
+          "known": "Then let's briefly summarize."
+        },
+        {
+          "id": "p4",
+          "learning": "Was hältst du von diesem Vorschlag?",
+          "known": "What do you think of this suggestion?"
+        },
+        {
+          "id": "p5",
+          "learning": "Da bin ich anderer Meinung",
+          "known": "I have a different opinion there."
+        }
+      ]
+    },
+    {
+      "id": "tb1-u29-l09-speaking-planning-agreeing-2-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means „Can we agree on that?“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Sollen wir zuerst über den Termin sprechen?"
+        },
+        {
+          "id": "b",
+          "text": "Ich schlage vor, dass wir eine Liste machen."
+        },
+        {
+          "id": "c",
+          "text": "Wer übernimmt das Einkaufen, du oder ich?"
+        },
+        {
+          "id": "d",
+          "text": "Können wir uns darauf einigen?"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**Können wir uns darauf einigen?** = Can we agree on that?\n\n*Example:* Können wir uns darauf einigen?\nCan we agree on that?"
+    },
+    {
+      "id": "tb1-u29-l09-speaking-planning-agreeing-2-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means „Who takes over the shopping, you or me?“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ich schlage vor, dass wir eine Liste machen."
+        },
+        {
+          "id": "b",
+          "text": "Ich kümmere mich um die Getränke."
+        },
+        {
+          "id": "c",
+          "text": "Wer übernimmt das Einkaufen, du oder ich?"
+        },
+        {
+          "id": "d",
+          "text": "Dann fassen wir kurz zusammen."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**Wer übernimmt das Einkaufen, du oder ich?** = Who takes over the shopping, you or me?\n\n*Example:* Wer übernimmt das Einkaufen, du oder ich?\nWho takes over the shopping, you or me?"
+    },
+    {
+      "id": "tb1-u29-l09-speaking-planning-agreeing-2-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Can we agree on that?",
+      "tiles": [
+        "schlage",
+        "einigen",
+        "uns",
+        "darauf",
+        "Ich",
+        "wir",
+        "Können",
+        "Uhr"
+      ],
+      "answers": [
+        "Können wir uns darauf einigen?"
+      ],
+      "explanation": "**Können wir uns darauf einigen?** = Can we agree on that?"
+    },
+    {
+      "id": "tb1-u29-l09-speaking-planning-agreeing-2-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means „I'll take care of the drinks.“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Sollen wir zuerst über den Termin sprechen?"
+        },
+        {
+          "id": "b",
+          "text": "Können wir uns darauf einigen?"
+        },
+        {
+          "id": "c",
+          "text": "Dann fassen wir kurz zusammen."
+        },
+        {
+          "id": "d",
+          "text": "Ich kümmere mich um die Getränke."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**Ich kümmere mich um die Getränke.** = I'll take care of the drinks.\n\n*Example:* Ich kümmere mich um die Getränke.\nI'll take care of the drinks."
+    },
+    {
+      "id": "tb1-u29-l09-speaking-planning-agreeing-2-ex06",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u29-l09-speaking-planning-agreeing-2-2.mp3"
+      },
+      "tiles": [
+        "du",
+        "Können",
+        "das",
+        "ich",
+        "Wer",
+        "oder",
+        "eine",
+        "übernimmt",
+        "Einkaufen",
+        "die"
+      ],
+      "answers": [
+        "Wer übernimmt das Einkaufen, du oder ich?"
+      ],
+      "explanation": "Wer übernimmt das Einkaufen, du oder ich?\n*Who takes over the shopping, you or me?*\n\n**Wer übernimmt das Einkaufen, du oder ich?** = Who takes over the shopping, you or me?"
+    },
+    {
+      "id": "tb1-u29-l09-speaking-planning-agreeing-2-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means „Then let's briefly summarize.“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Das ist eine gute Idee, aber wir müssen auch an die Kosten denken."
+        },
+        {
+          "id": "b",
+          "text": "Sollen wir zuerst über den Termin sprechen?"
+        },
+        {
+          "id": "c",
+          "text": "Dann fassen wir kurz zusammen."
+        },
+        {
+          "id": "d",
+          "text": "Was hältst du von diesem Vorschlag?"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**Dann fassen wir kurz zusammen.** = Then let's briefly summarize.\n\n*Example:* Dann fassen wir kurz zusammen.\nThen let's briefly summarize."
+    },
+    {
+      "id": "tb1-u29-l09-speaking-planning-agreeing-2-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Ich kümmere mich um die Getränke.",
+      "tiles": [
+        "drinks",
+        "care",
+        "I",
+        "I'll",
+        "the",
+        "take",
+        "of",
+        "o'clock",
+        "meet"
+      ],
+      "answers": [
+        "I'll take care of the drinks."
+      ],
+      "explanation": "**Ich kümmere mich um die Getränke.** = I'll take care of the drinks."
+    },
+    {
+      "id": "tb1-u29-l09-speaking-planning-agreeing-2-ex09",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means „Shall we meet on Saturday at ten o'clock?“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ich kümmere mich um die Getränke."
+        },
+        {
+          "id": "b",
+          "text": "Wollen wir uns am Samstag um zehn Uhr treffen?"
+        },
+        {
+          "id": "c",
+          "text": "Ich schlage vor, dass wir eine Liste machen."
+        },
+        {
+          "id": "d",
+          "text": "Können wir uns darauf einigen?"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Wollen wir uns am Samstag um zehn Uhr treffen?** = Shall we meet on Saturday at ten o'clock?\n\n*Example:* Wollen wir uns am Samstag um zehn Uhr treffen?\nShall we meet on Saturday at ten o'clock?"
+    },
+    {
+      "id": "tb1-u29-l09-speaking-planning-agreeing-2-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Then let's briefly summarize.",
+      "tiles": [
+        "wir",
+        "fassen",
+        "uns",
+        "zusammen",
+        "zuerst",
+        "kurz",
+        "Dann",
+        "bin"
+      ],
+      "answers": [
+        "Dann fassen wir kurz zusammen."
+      ],
+      "explanation": "**Dann fassen wir kurz zusammen.** = Then let's briefly summarize."
+    },
+    {
+      "id": "tb1-u29-l09-speaking-planning-agreeing-2-ex11",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u29-l09-speaking-planning-agreeing-2-5.mp3"
+      },
+      "tiles": [
+        "Samstag",
+        "zehn",
+        "oder",
+        "wir",
+        "treffen",
+        "Wollen",
+        "Kosten",
+        "um",
+        "am",
+        "den",
+        "Uhr",
+        "uns"
+      ],
+      "answers": [
+        "Wollen wir uns am Samstag um zehn Uhr treffen?"
+      ],
+      "explanation": "Wollen wir uns am Samstag um zehn Uhr treffen?\n*Shall we meet on Saturday at ten o'clock?*\n\n**Wollen wir uns am Samstag um zehn Uhr treffen?** = Shall we meet on Saturday at ten o'clock?"
+    }
+  ]
+}

@@ -1,0 +1,286 @@
+{
+  "id": "tb1-u06-l05-travel-transport-a2-1",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u06",
+  "title": "Travel & Transport (A2) 1",
+  "tip": "Theme: Reisen & Verkehr (A2) (A2)",
+  "exercises": [
+    {
+      "id": "tb1-u06-l05-travel-transport-a2-1-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "die Reise",
+          "known": "trip / journey"
+        },
+        {
+          "id": "p2",
+          "learning": "der Urlaub",
+          "known": "holiday / vacation"
+        },
+        {
+          "id": "p3",
+          "learning": "der Zug",
+          "known": "train"
+        },
+        {
+          "id": "p4",
+          "learning": "der Bus",
+          "known": "bus"
+        },
+        {
+          "id": "p5",
+          "learning": "das Flugzeug",
+          "known": "plane"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u06-l05-travel-transport-a2-1-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „trip / journey“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "der Bus, die Busse"
+        },
+        {
+          "id": "b",
+          "text": "die Reise, die Reisen"
+        },
+        {
+          "id": "c",
+          "text": "der Bahnhof, die Bahnhöfe"
+        },
+        {
+          "id": "d",
+          "text": "die Fahrkarte, die Fahrkarten"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**die Reise** = trip / journey\n*Plural: die Reisen*\n\n*Example:* Die Reise nach Berlin hat vier Stunden gedauert.\nThe trip to Berlin took four hours."
+    },
+    {
+      "id": "tb1-u06-l05-travel-transport-a2-1-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „holiday / vacation“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "der Urlaub"
+        },
+        {
+          "id": "b",
+          "text": "das Gepäck"
+        },
+        {
+          "id": "c",
+          "text": "die Fahrkarte, die Fahrkarten"
+        },
+        {
+          "id": "d",
+          "text": "der Bahnhof, die Bahnhöfe"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**der Urlaub** = holiday / vacation\n\n*Example:* Im August machen wir zwei Wochen Urlaub in Italien.\nIn August we're going on holiday to Italy for two weeks."
+    },
+    {
+      "id": "tb1-u06-l05-travel-transport-a2-1-ex04",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u06-l05-travel-transport-a2-1-1.mp3"
+      },
+      "tiles": [
+        "ab",
+        "Stunden",
+        "der",
+        "geparkt",
+        "Berlin",
+        "Reise",
+        "vier",
+        "nach",
+        "hat",
+        "Die",
+        "gedauert"
+      ],
+      "answers": [
+        "Die Reise nach Berlin hat vier Stunden gedauert."
+      ],
+      "explanation": "Die Reise nach Berlin hat vier Stunden gedauert.\n*The trip to Berlin took four hours.*\n\n**die Reise** = trip / journey\n*Plural: die Reisen*"
+    },
+    {
+      "id": "tb1-u06-l05-travel-transport-a2-1-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „train“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "der Zug, die Züge"
+        },
+        {
+          "id": "b",
+          "text": "die Reise, die Reisen"
+        },
+        {
+          "id": "c",
+          "text": "der Bus, die Busse"
+        },
+        {
+          "id": "d",
+          "text": "die Grenze, die Grenzen"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**der Zug** = train\n*Plural: die Züge*\n\n*Example:* Der Zug nach München fährt von Gleis drei ab.\nThe train to Munich leaves from platform three."
+    },
+    {
+      "id": "tb1-u06-l05-travel-transport-a2-1-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Im August machen wir zwei Wochen Urlaub in Italien.",
+      "tiles": [
+        "on",
+        "we're",
+        "weeks",
+        "of",
+        "for",
+        "past",
+        "Italy",
+        "going",
+        "August",
+        "to",
+        "holiday",
+        "In",
+        "two",
+        "the"
+      ],
+      "answers": [
+        "In August we're going on holiday to Italy for two weeks."
+      ],
+      "explanation": "**der Urlaub** = holiday / vacation"
+    },
+    {
+      "id": "tb1-u06-l05-travel-transport-a2-1-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „bus“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "der Flughafen, die Flughäfen"
+        },
+        {
+          "id": "b",
+          "text": "das Flugzeug, die Flugzeuge"
+        },
+        {
+          "id": "c",
+          "text": "das Auto, die Autos"
+        },
+        {
+          "id": "d",
+          "text": "der Bus, die Busse"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**der Bus** = bus\n*Plural: die Busse*\n\n*Example:* Ich nehme jeden Morgen den Bus zur Schule.\nI take the bus to school every morning."
+    },
+    {
+      "id": "tb1-u06-l05-travel-transport-a2-1-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "The train to Munich leaves from platform three.",
+      "tiles": [
+        "am",
+        "Gleis",
+        "München",
+        "hat",
+        "Zug",
+        "fährt",
+        "von",
+        "Der",
+        "nach",
+        "drei",
+        "ab",
+        "Koffer"
+      ],
+      "answers": [
+        "Der Zug nach München fährt von Gleis drei ab."
+      ],
+      "explanation": "**der Zug** = train\n*Plural: die Züge*"
+    },
+    {
+      "id": "tb1-u06-l05-travel-transport-a2-1-ex09",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „plane“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "das Fahrrad, die Fahrräder"
+        },
+        {
+          "id": "b",
+          "text": "der Bahnhof, die Bahnhöfe"
+        },
+        {
+          "id": "c",
+          "text": "das Flugzeug, die Flugzeuge"
+        },
+        {
+          "id": "d",
+          "text": "der Bus, die Busse"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**das Flugzeug** = plane\n*Plural: die Flugzeuge*\n\n*Example:* Das Flugzeug landet um 14 Uhr in Frankfurt.\nThe plane lands in Frankfurt at 2 p.m."
+    },
+    {
+      "id": "tb1-u06-l05-travel-transport-a2-1-ex10",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u06-l05-travel-transport-a2-1-4.mp3"
+      },
+      "tiles": [
+        "Ich",
+        "nehme",
+        "Morgen",
+        "Schule",
+        "beeil",
+        "zwei",
+        "Bus",
+        "den",
+        "zur",
+        "am",
+        "jeden"
+      ],
+      "answers": [
+        "Ich nehme jeden Morgen den Bus zur Schule."
+      ],
+      "explanation": "Ich nehme jeden Morgen den Bus zur Schule.\n*I take the bus to school every morning.*\n\n**der Bus** = bus\n*Plural: die Busse*"
+    },
+    {
+      "id": "tb1-u06-l05-travel-transport-a2-1-ex11",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Das Flugzeug landet um 14 Uhr in Frankfurt.",
+      "tiles": [
+        "o'clock",
+        "plane",
+        "According",
+        "Frankfurt",
+        "have",
+        "in",
+        "at",
+        "lands",
+        "p.m",
+        "2",
+        "The"
+      ],
+      "answers": [
+        "The plane lands in Frankfurt at 2 p.m."
+      ],
+      "explanation": "**das Flugzeug** = plane\n*Plural: die Flugzeuge*"
+    }
+  ]
+}

@@ -1,0 +1,279 @@
+{
+  "id": "tb1-u22-l01-adjectives-b1-1",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u22",
+  "title": "Adjectives (B1) 1",
+  "tip": "Theme: Adjektive (B1) (B1)",
+  "exercises": [
+    {
+      "id": "tb1-u22-l01-adjectives-b1-1-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "zuverlässig",
+          "known": "reliable"
+        },
+        {
+          "id": "p2",
+          "learning": "selbstständig",
+          "known": "independent"
+        },
+        {
+          "id": "p3",
+          "learning": "verantwortlich",
+          "known": "responsible"
+        },
+        {
+          "id": "p4",
+          "learning": "erfolgreich",
+          "known": "successful"
+        },
+        {
+          "id": "p5",
+          "learning": "notwendig",
+          "known": "necessary"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u22-l01-adjectives-b1-1-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which one means „reliable“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "deutlich"
+        },
+        {
+          "id": "b",
+          "text": "aufmerksam"
+        },
+        {
+          "id": "c",
+          "text": "notwendig"
+        },
+        {
+          "id": "d",
+          "text": "zuverlässig"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**zuverlässig** = reliable\n\n*Example:* Mein Kollege ist sehr zuverlässig und kommt nie zu spät.\nMy colleague is very reliable and is never late."
+    },
+    {
+      "id": "tb1-u22-l01-adjectives-b1-1-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which one means „independent“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "geeignet"
+        },
+        {
+          "id": "b",
+          "text": "verantwortlich"
+        },
+        {
+          "id": "c",
+          "text": "selbstständig"
+        },
+        {
+          "id": "d",
+          "text": "kompliziert"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**selbstständig** = independent\n\n*Example:* In der neuen Firma arbeite ich ganz selbstständig.\nAt the new company I work completely independently."
+    },
+    {
+      "id": "tb1-u22-l01-adjectives-b1-1-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Mein Kollege ist sehr zuverlässig und kommt nie zu spät.",
+      "tiles": [
+        "is",
+        "reliable",
+        "My",
+        "very",
+        "is",
+        "late",
+        "restaurant",
+        "never",
+        "and",
+        "colleague",
+        "work",
+        "it's"
+      ],
+      "answers": [
+        "My colleague is very reliable and is never late."
+      ],
+      "explanation": "**zuverlässig** = reliable"
+    },
+    {
+      "id": "tb1-u22-l01-adjectives-b1-1-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which one means „responsible“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "aufmerksam"
+        },
+        {
+          "id": "b",
+          "text": "üblich"
+        },
+        {
+          "id": "c",
+          "text": "verantwortlich"
+        },
+        {
+          "id": "d",
+          "text": "selbstständig"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**verantwortlich** = responsible\n\n*Example:* Frau Klein ist für die Urlaubsplanung verantwortlich.\nMs Klein is responsible for planning the holidays."
+    },
+    {
+      "id": "tb1-u22-l01-adjectives-b1-1-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "At the new company I work completely independently.",
+      "tiles": [
+        "Urlaubsplanung",
+        "ganz",
+        "In",
+        "arbeite",
+        "Firma",
+        "selbstständig",
+        "neuen",
+        "der",
+        "zuverlässig",
+        "im",
+        "ich"
+      ],
+      "answers": [
+        "In der neuen Firma arbeite ich ganz selbstständig."
+      ],
+      "explanation": "**selbstständig** = independent"
+    },
+    {
+      "id": "tb1-u22-l01-adjectives-b1-1-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which one means „successful“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "umweltfreundlich"
+        },
+        {
+          "id": "b",
+          "text": "erfolgreich"
+        },
+        {
+          "id": "c",
+          "text": "verantwortlich"
+        },
+        {
+          "id": "d",
+          "text": "vorsichtig"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**erfolgreich** = successful\n\n*Example:* Das Restaurant von meinem Onkel ist sehr erfolgreich.\nMy uncle's restaurant is very successful."
+    },
+    {
+      "id": "tb1-u22-l01-adjectives-b1-1-ex08",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u22-l01-adjectives-b1-1-3.mp3"
+      },
+      "tiles": [
+        "Klein",
+        "die",
+        "ist",
+        "arbeite",
+        "schädlich",
+        "gute",
+        "Urlaubsplanung",
+        "verantwortlich",
+        "Frau",
+        "für"
+      ],
+      "answers": [
+        "Frau Klein ist für die Urlaubsplanung verantwortlich."
+      ],
+      "explanation": "Frau Klein ist für die Urlaubsplanung verantwortlich.\n*Ms Klein is responsible for planning the holidays.*\n\n**verantwortlich** = responsible"
+    },
+    {
+      "id": "tb1-u22-l01-adjectives-b1-1-ex09",
+      "type": "multiple_choice",
+      "prompt": "Which one means „necessary“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "kompliziert"
+        },
+        {
+          "id": "b",
+          "text": "vorsichtig"
+        },
+        {
+          "id": "c",
+          "text": "deutlich"
+        },
+        {
+          "id": "d",
+          "text": "notwendig"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**notwendig** = necessary\n\n*Example:* Für die Anmeldung ist ein gültiger Pass notwendig.\nA valid passport is necessary for registration."
+    },
+    {
+      "id": "tb1-u22-l01-adjectives-b1-1-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Das Restaurant von meinem Onkel ist sehr erfolgreich.",
+      "tiles": [
+        "is",
+        "completely",
+        "restaurant",
+        "very",
+        "My",
+        "never",
+        "uncle's",
+        "customary",
+        "successful"
+      ],
+      "answers": [
+        "My uncle's restaurant is very successful."
+      ],
+      "explanation": "**erfolgreich** = successful"
+    },
+    {
+      "id": "tb1-u22-l01-adjectives-b1-1-ex11",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "A valid passport is necessary for registration.",
+      "tiles": [
+        "Wohnung",
+        "Kindern",
+        "Pass",
+        "Für",
+        "Anmeldung",
+        "notwendig",
+        "gültiger",
+        "ist",
+        "sehr",
+        "ein",
+        "die"
+      ],
+      "answers": [
+        "Für die Anmeldung ist ein gültiger Pass notwendig."
+      ],
+      "explanation": "**notwendig** = necessary"
+    }
+  ]
+}

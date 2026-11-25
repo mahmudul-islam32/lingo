@@ -1,0 +1,318 @@
+{
+  "id": "tb1-u30-l16-zweiteilig-p2",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u30",
+  "title": "Two-Part Connectors: entweder … oder & weder … noch",
+  "tip": "Never add “nicht” to “weder … noch”: Ich habe weder Zeit noch Geld. And after “nicht nur” comes “sondern auch”, not “aber auch”.",
+  "exercises": [
+    {
+      "id": "tb1-u30-l16-zweiteilig-p2-ex01",
+      "type": "explain",
+      "title": "entweder … oder",
+      "body": "One of two options, not both.\n\n*Deutsch:* Eine von zwei Möglichkeiten, nicht beide.\n\n## Pattern\n\n… **entweder** A **oder** B.",
+      "examples": [
+        {
+          "learning": "Wir fahren entweder mit dem Zug oder mit dem Bus.",
+          "known": "We'll go either by train or by bus."
+        },
+        {
+          "learning": "Entweder du hilfst mir, oder ich mache es allein.",
+          "known": "Either you help me or I'll do it alone."
+        }
+      ]
+    },
+    {
+      "id": "tb1-u30-l16-zweiteilig-p2-ex02",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "We'll go either by train or by bus.",
+      "tiles": [
+        "Wir",
+        "mit",
+        "aber",
+        "helfe",
+        "dem",
+        "Bus",
+        "Zug",
+        "auch",
+        "entweder",
+        "dem",
+        "oder",
+        "fahren",
+        "mit"
+      ],
+      "answers": [
+        "Wir fahren entweder mit dem Zug oder mit dem Bus."
+      ],
+      "explanation": "**Why:** Only one option is chosen.\n\n*Warum:* Nur eine Möglichkeit wird gewählt."
+    },
+    {
+      "id": "tb1-u30-l16-zweiteilig-p2-ex03",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Either you help me or I'll do it alone.",
+      "tiles": [
+        "du",
+        "ich",
+        "fahren",
+        "es",
+        "mir",
+        "Entweder",
+        "mache",
+        "hilfst",
+        "raus",
+        "allein",
+        "oder",
+        "gehen"
+      ],
+      "answers": [
+        "Entweder du hilfst mir, oder ich mache es allein."
+      ],
+      "explanation": "**Why:** entweder in position 0: du hilfst (normal).\n\n*Warum:* entweder auf Position 0: du hilfst (normal)."
+    },
+    {
+      "id": "tb1-u30-l16-zweiteilig-p2-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I'll come either on Monday or on Tuesday.",
+      "tiles": [
+        "oder",
+        "zwar",
+        "in",
+        "Familien",
+        "komme",
+        "am",
+        "entweder",
+        "Dienstag",
+        "Montag",
+        "Ich",
+        "am"
+      ],
+      "answers": [
+        "Ich komme entweder am Montag oder am Dienstag."
+      ],
+      "explanation": "**Why:** Two dates to choose from.\n\n*Warum:* Zwei Termine zur Auswahl."
+    },
+    {
+      "id": "tb1-u30-l16-zweiteilig-p2-ex05",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "You can either call or write an email.",
+      "tiles": [
+        "noch",
+        "anrufen",
+        "können",
+        "Tee",
+        "entweder",
+        "oder",
+        "Sie",
+        "Die",
+        "eine",
+        "schreiben",
+        "E-Mail"
+      ],
+      "answers": [
+        "Sie können entweder anrufen oder eine E-Mail schreiben."
+      ],
+      "explanation": "**Why:** Two infinitives at the end.\n\n*Warum:* Zwei Infinitive am Ende."
+    },
+    {
+      "id": "tb1-u30-l16-zweiteilig-p2-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "In the evening I either read a book or watch TV.",
+      "tiles": [
+        "lese",
+        "Abend",
+        "entweder",
+        "oder",
+        "Das",
+        "Buch",
+        "weder",
+        "fern",
+        "ein",
+        "ich",
+        "Am",
+        "sehe",
+        "ich",
+        "in"
+      ],
+      "answers": [
+        "Am Abend lese ich entweder ein Buch oder ich sehe fern."
+      ],
+      "explanation": "**Why:** After oder: normal word order (ich sehe).\n\n*Warum:* Nach oder: normale Wortstellung (ich sehe)."
+    },
+    {
+      "id": "tb1-u30-l16-zweiteilig-p2-ex07",
+      "type": "explain",
+      "title": "weder … noch",
+      "body": "Neither … nor. Careful: no extra “nicht”!\n\n*Deutsch:* Keins von beiden. Achtung: kein zusätzliches „nicht“!\n\n## Pattern\n\n… **weder** A **noch** B.",
+      "examples": [
+        {
+          "learning": "Ich trinke weder Alkohol noch Kaffee.",
+          "known": "I drink neither alcohol nor coffee."
+        },
+        {
+          "learning": "Er hat weder angerufen noch geschrieben.",
+          "known": "He neither called nor wrote."
+        }
+      ]
+    },
+    {
+      "id": "tb1-u30-l16-zweiteilig-p2-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I drink neither alcohol nor coffee.",
+      "tiles": [
+        "weder",
+        "Ich",
+        "super",
+        "Kaffee",
+        "Alkohol",
+        "noch",
+        "entweder",
+        "trinke",
+        "Deutschland"
+      ],
+      "answers": [
+        "Ich trinke weder Alkohol noch Kaffee."
+      ],
+      "explanation": "**Why:** Neither – without “nicht” or “kein”.\n\n*Warum:* Beides nicht – ohne „nicht“ oder „kein“."
+    },
+    {
+      "id": "tb1-u30-l16-zweiteilig-p2-ex09",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "He neither called nor wrote.",
+      "tiles": [
+        "gern",
+        "noch",
+        "hat",
+        "Nicht",
+        "weder",
+        "trinke",
+        "geschrieben",
+        "angerufen",
+        "Er"
+      ],
+      "answers": [
+        "Er hat weder angerufen noch geschrieben."
+      ],
+      "explanation": "**Why:** Two participles.\n\n*Warum:* Zwei Partizipien."
+    },
+    {
+      "id": "tb1-u30-l16-zweiteilig-p2-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Neither my brother nor my sister lives in Berlin.",
+      "tiles": [
+        "nur",
+        "Berlin",
+        "mein",
+        "wohnt",
+        "in",
+        "Kinder",
+        "meine",
+        "noch",
+        "Weder",
+        "fahren",
+        "Schwester",
+        "Bruder"
+      ],
+      "answers": [
+        "Weder mein Bruder noch meine Schwester wohnt in Berlin."
+      ],
+      "explanation": "**Why:** Verb often singular (wohnt).\n\n*Warum:* Verb oft im Singular (wohnt)."
+    },
+    {
+      "id": "tb1-u30-l16-zweiteilig-p2-ex11",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "The flat is neither bright nor quiet.",
+      "tiles": [
+        "mehr",
+        "entweder",
+        "Die",
+        "hatten",
+        "ruhig",
+        "weder",
+        "noch",
+        "Wohnung",
+        "hell",
+        "ist"
+      ],
+      "answers": [
+        "Die Wohnung ist weder hell noch ruhig."
+      ],
+      "explanation": "**Why:** Two adjectives negated.\n\n*Warum:* Zwei Adjektive verneint."
+    },
+    {
+      "id": "tb1-u30-l16-zweiteilig-p2-ex12",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I have neither time nor money for a trip.",
+      "tiles": [
+        "für",
+        "Ich",
+        "geeignet",
+        "Geld",
+        "abends",
+        "nur",
+        "eine",
+        "habe",
+        "Zeit",
+        "Reise",
+        "noch",
+        "weder"
+      ],
+      "answers": [
+        "Ich habe weder Zeit noch Geld für eine Reise."
+      ],
+      "explanation": "**Why:** Replaces: keine Zeit und kein Geld.\n\n*Warum:* Ersetzt: keine Zeit und kein Geld."
+    },
+    {
+      "id": "tb1-u30-l16-zweiteilig-p2-ex13",
+      "type": "choice",
+      "title": "Fill the gap",
+      "prompt": "___ meine Mutter als auch mein Vater arbeiten.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Nicht nur"
+        },
+        {
+          "id": "b",
+          "text": "Weder"
+        },
+        {
+          "id": "c",
+          "text": "Sowohl"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "sowohl … als auch = beide. (nicht nur bräuchte „sondern auch“)"
+    },
+    {
+      "id": "tb1-u30-l16-zweiteilig-p2-ex14",
+      "type": "choice",
+      "title": "Fill the gap",
+      "prompt": "Je mehr ich übe, ___ besser werde ich.",
+      "options": [
+        {
+          "id": "a",
+          "text": "desto"
+        },
+        {
+          "id": "b",
+          "text": "als"
+        },
+        {
+          "id": "c",
+          "text": "dann"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "je + Komparativ …, desto + Komparativ."
+    }
+  ]
+}

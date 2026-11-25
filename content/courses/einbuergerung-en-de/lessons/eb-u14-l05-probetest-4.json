@@ -1,0 +1,917 @@
+{
+  "id": "eb-u14-l05-probetest-4",
+  "courseId": "einbuergerung-en-de",
+  "unitId": "eb-u14",
+  "title": "Mock test 4 (Probetest 4)",
+  "tip": "Real format: 30 general + 3 Niedersachsen questions. Allow 60 minutes; 17 correct to pass, aim for 28+.",
+  "exercises": [
+    {
+      "id": "eb-u14-l05-probetest-4-ex01",
+      "type": "choice",
+      "title": "Frage 8 · Block 1",
+      "prompt": "Was steht nicht im Grundgesetz von Deutschland?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Die Würde des Menschen ist unantastbar"
+        },
+        {
+          "id": "b",
+          "text": "Alle sollen gleich viel Geld haben"
+        },
+        {
+          "id": "c",
+          "text": "Jeder Mensch darf seine Meinung sagen"
+        },
+        {
+          "id": "d",
+          "text": "Alle sind vor dem Gesetz gleich"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Correct answer:** Alle sollen gleich viel Geld haben\n\nWatch the **nicht**, the question asks what is NOT in the constitution. Equal *income* is nowhere guaranteed: Germany's social market economy accepts wealth differences and cushions them through the welfare state.\n\nA is Art. 1 (dignity), C is Art. 5 (expression), D is Art. 3 (equality *before the law*, equal treatment, not equal outcomes). The distinction \"Gleichheit vor dem Gesetz ≠ gleiches Geld\" is a favorite exam trap.\n\n## Auf Deutsch\n\n„Alle sollen gleich viel Geld haben“ steht NICHT im Grundgesetz. Gleichheit vor dem Gesetz schon."
+    },
+    {
+      "id": "eb-u14-l05-probetest-4-ex02",
+      "type": "choice",
+      "title": "Frage 20 · Block 1",
+      "prompt": "Eine Partei in Deutschland verfolgt das Ziel, eine Diktatur zu errichten. Sie ist dann …",
+      "options": [
+        {
+          "id": "a",
+          "text": "tolerant"
+        },
+        {
+          "id": "b",
+          "text": "rechtsstaatlich orientiert"
+        },
+        {
+          "id": "c",
+          "text": "gesetzestreu"
+        },
+        {
+          "id": "d",
+          "text": "verfassungswidrig"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**Correct answer:** verfassungswidrig\n\nA party aiming at dictatorship is **verfassungswidrig** (unconstitutional). Under Art. 21(2) GG only the **Bundesverfassungsgericht** can ban it, not the government, precisely so that those in power can't eliminate inconvenient rivals by decree. Two historical bans: SRP (neo-Nazi, 1952) and KPD (communist, 1956).\n\nA–C describe law-abiding, rule-of-law behavior, the opposite of plotting dictatorship. Core concept again: **wehrhafte Demokratie**, democracy may defend itself against its enemies, but only through the constitutional court.\n\n## Auf Deutsch\n\nWer eine Diktatur errichten will, kämpft gegen die Verfassung → verfassungswidrig."
+    },
+    {
+      "id": "eb-u14-l05-probetest-4-ex03",
+      "type": "choice",
+      "title": "Frage 21 · Block 1",
+      "prompt": "Welches ist das Wappen der Bundesrepublik Deutschland?",
+      "figure": {
+        "images": [
+          {
+            "src": "/images/eb/q21-bild-1.png",
+            "alt": "A black eagle with a red beak and red claws on a golden-yellow shield",
+            "label": "Bild 1"
+          },
+          {
+            "src": "/images/eb/q21-bild-2.png",
+            "alt": "A black symbol made of two crossed letters, X and P",
+            "label": "Bild 2"
+          },
+          {
+            "src": "/images/eb/q21-bild-3.png",
+            "alt": "A grey cross with flared arms, framed in dark blue and white",
+            "label": "Bild 3"
+          },
+          {
+            "src": "/images/eb/q21-bild-4.png",
+            "alt": "A golden hammer and compass on a red circle, framed by ears of wheat and a black-red-gold ribbon",
+            "label": "Bild 4"
+          }
+        ],
+        "credit": "Bilder: BAMF, Gesamtfragenkatalog „Leben in Deutschland“ (Stand 07.05.2025)"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": "Bild 1"
+        },
+        {
+          "id": "b",
+          "text": "Bild 2"
+        },
+        {
+          "id": "c",
+          "text": "Bild 3"
+        },
+        {
+          "id": "d",
+          "text": "Bild 4"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Correct answer:** Bild 1\n\n*Picture question (Bildfrage):* the pictures above are the ones from the official question catalogue.\n\nCorrect: the black, single-headed eagle facing right on a golden-yellow shield, the Bundesadler.\n\n**The pictures:** Bild 1 = Bundesadler (correct) · Bild 2 = Christusmonogramm (Chi-Rho, a Christian symbol) · Bild 3 = Eisernes Kreuz of the Bundeswehr · Bild 4 = coat of arms of the DDR (→Q209).\n\nRecognize it: one head (the old imperial eagle had two), red beak/talons, plain gold background. Distractors typically include Land coats of arms or the stylized \"Bundestag owl-eagle\" variant. The eagle has symbolized German statehood for over a millennium, see also Q29 (eagle as heraldic animal) and Q216 (the giant eagle in the Bundestag chamber). Practice this and every 🖼 question once in the BAMF Online-Testcenter so you've *seen* the actual images.\n\n## Auf Deutsch\n\nDer Bundesadler: EIN Kopf, schwarz, auf goldgelbem Schild."
+    },
+    {
+      "id": "eb-u14-l05-probetest-4-ex04",
+      "type": "choice",
+      "title": "Frage 43 · Block 2",
+      "prompt": "Wann kann in Deutschland eine Partei verboten werden?",
+      "options": [
+        {
+          "id": "a",
+          "text": "wenn ihr Wahlkampf zu teuer ist"
+        },
+        {
+          "id": "b",
+          "text": "wenn sie gegen die Verfassung kämpft"
+        },
+        {
+          "id": "c",
+          "text": "wenn sie Kritik am Staatsoberhaupt äußert"
+        },
+        {
+          "id": "d",
+          "text": "wenn ihr Programm eine neue Richtung vorschlägt"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Correct answer:** wenn sie gegen die Verfassung kämpft\n\n→Q20's twin. A party can be banned only for *actively fighting the constitutional order* (Art. 21(2) GG), and only by the Bundesverfassungsgericht.\n\nExpensive campaigns are legal (funding is merely regulated); criticizing the president and proposing radical new directions are protected democratic activity. The bar is deliberately high, banning parties is democracy's emergency brake, not a tool against critics.\n\n## Auf Deutsch\n\nParteien, die gegen die Verfassung kämpfen, kann das Bundesverfassungsgericht verbieten."
+    },
+    {
+      "id": "eb-u14-l05-probetest-4-ex05",
+      "type": "choice",
+      "title": "Frage 51 · Block 2",
+      "prompt": "Zu einem demokratischen Rechtsstaat gehört es nicht, dass …",
+      "options": [
+        {
+          "id": "a",
+          "text": "Menschen sich kritisch über die Regierung äußern können"
+        },
+        {
+          "id": "b",
+          "text": "Bürger friedlich demonstrieren gehen dürfen"
+        },
+        {
+          "id": "c",
+          "text": "Menschen von einer Privatpolizei ohne Grund verhaftet werden"
+        },
+        {
+          "id": "d",
+          "text": "jemand ein Verbrechen begeht und deshalb verhaftet wird"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**Correct answer:** Menschen von einer Privatpolizei ohne Grund verhaftet werden\n\nArbitrary arrest by a *private* police force violates everything at once: the state's Gewaltmonopol (→Q4), due process, personal liberty (Art. 104 GG: only judges authorize continued detention).\n\nA and B are protected rights; D is the Rechtsstaat working exactly as designed, arrest *with* legal grounds. The contrast \"Verhaftung ohne Grund vs. wegen Verbrechen\" is the whole lesson: it's not arrest that's undemocratic, it's arbitrariness.\n\n## Auf Deutsch\n\nNur der Staat darf Menschen verhaften (Gewaltmonopol), eine Privatpolizei ohne Grund nie."
+    },
+    {
+      "id": "eb-u14-l05-probetest-4-ex06",
+      "type": "choice",
+      "title": "Frage 60 · Block 2",
+      "prompt": "In Deutschland gehören der Bundestag und der Bundesrat zur …",
+      "options": [
+        {
+          "id": "a",
+          "text": "Exekutive"
+        },
+        {
+          "id": "b",
+          "text": "Legislative"
+        },
+        {
+          "id": "c",
+          "text": "Direktive"
+        },
+        {
+          "id": "d",
+          "text": "Judikative"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Correct answer:** Legislative\n\nBoth chambers make federal law → **Legislative**. The Bundestag is the people's directly-elected chamber; the Bundesrat is the Länder-governments' chamber (→Q85, Q90), together they legislate.\n\n\"Direktive\" is Q54's fake branch again; executive and judiciary are the other two real ones. Subtle point for the interview: Bundesrat members are *executives at home* (Land ministers) acting as *legislators in Berlin*, federalism braided into separation of powers.\n\n## Auf Deutsch\n\nBundestag und Bundesrat machen Gesetze → Legislative."
+    },
+    {
+      "id": "eb-u14-l05-probetest-4-ex07",
+      "type": "choice",
+      "title": "Frage 111 · Block 5",
+      "prompt": "Welche Handlung mit Bezug auf den Staat Israel ist in Deutschland verboten?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Politik Israels öffentlich zu kritisieren"
+        },
+        {
+          "id": "b",
+          "text": "eine israelische Flagge an seinem Haus aufzuhängen"
+        },
+        {
+          "id": "c",
+          "text": "eine Diskussionsveranstaltung über die Politik Israels zu besuchen"
+        },
+        {
+          "id": "d",
+          "text": "öffentlich zur Vernichtung Israels aufzurufen"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**Correct answer:** öffentlich zur Vernichtung Israels aufzurufen\n\nCalling for Israel's destruction is criminal incitement (Volksverhetzung, §130 StGB) and, since 2024 legal tightening, explicitly prosecuted.\n\nA and C are protected speech, criticizing Israeli *policy* is as legal as criticizing German policy (→Q16's pattern: states and governments may always be criticized). B is simply free expression. The line: criticism of a state = legal; calling for the annihilation of a state and its people = crime. Part of the post-2024 question block; know it well for the interview too (→Q288).\n\n## Auf Deutsch\n\nÖffentlich zur Vernichtung Israels aufzurufen, ist in Deutschland verboten und strafbar."
+    },
+    {
+      "id": "eb-u14-l05-probetest-4-ex08",
+      "type": "choice",
+      "title": "Frage 121 · Block 5",
+      "prompt": "Was ist die „5%-Hürde\" bei Wahlen in Deutschland?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Höchstgrenze für Wahlkampfkosten"
+        },
+        {
+          "id": "b",
+          "text": "der Mindestanteil an Wählerstimmen, um ins Parlament zu kommen"
+        },
+        {
+          "id": "c",
+          "text": "der Anteil der ungültigen Stimmen bei einer Wahl"
+        },
+        {
+          "id": "d",
+          "text": "die Mindestbeteiligung, damit eine Wahl gültig ist"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Correct answer:** der Mindestanteil an Wählerstimmen, um ins Parlament zu kommen\n\nDefinition question for →Q117's number. Note D carefully: German elections have **no minimum turnout**, a valid election needs no quorum; the Hürde applies to *parties*, not to participation.\n\n## Auf Deutsch\n\nDie 5%-Hürde ist der Mindestanteil an Stimmen für den Einzug ins Parlament."
+    },
+    {
+      "id": "eb-u14-l05-probetest-4-ex09",
+      "type": "choice",
+      "title": "Frage 125 · Block 5",
+      "prompt": "In einer Demokratie ist eine Funktion von regelmäßigen Wahlen, …",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Bürger und Bürgerinnen zu politischem Gehorsam zu erziehen"
+        },
+        {
+          "id": "b",
+          "text": "nach dem Willen der Wählermehrheit den Wechsel der Regierung zu ermöglichen"
+        },
+        {
+          "id": "c",
+          "text": "dem Staat Geld über Wahlkampfspenden zu beschaffen"
+        },
+        {
+          "id": "d",
+          "text": "den Menschen im Land Angst zu machen"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Correct answer:** nach dem Willen der Wählermehrheit den Wechsel der Regierung zu ermöglichen\n\nThe deepest answer in the block: elections institutionalize the **peaceful transfer of power**. Governments can be voted OUT, that possibility, more than anything, separates democracy from autocracy (autocracies hold elections too; they just can't be lost).\n\nA describes indoctrination, C misunderstands party finance, D describes state terror. Interview-ready sentence: *\"Regelmäßige Wahlen ermöglichen den friedlichen Machtwechsel.\"*\n\n## Auf Deutsch\n\nRegelmäßige Wahlen ermöglichen den friedlichen Wechsel der Regierung."
+    },
+    {
+      "id": "eb-u14-l05-probetest-4-ex10",
+      "type": "choice",
+      "title": "Frage 134 · Block 5",
+      "prompt": "Man will die Buslinie abschaffen, mit der Sie immer zur Arbeit fahren. Was können Sie machen, um die Buslinie zu erhalten?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ich beteilige mich an einer Bürgerinitiative für die Erhaltung der Buslinie oder gründe selber eine"
+        },
+        {
+          "id": "b",
+          "text": "Ich suche mir einen neuen Arbeitsplatz"
+        },
+        {
+          "id": "c",
+          "text": "Ich beschwere mich beim Busfahrer"
+        },
+        {
+          "id": "d",
+          "text": "Ich fahre nie mehr mit dem Bus"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Correct answer:** Ich beteilige mich an einer Bürgerinitiative für die Erhaltung der Buslinie oder gründe selber eine\n\nThe **Bürgerinitiative**, citizens organizing around one concrete local issue: petitions, council sessions, local press. Democracy between elections, at the level where a normal person can actually win.\n\nB–D are resignation or misdirected complaint (the driver doesn't plan routes). The question teaches the *reflex*: affected → organize → influence the actual decision-maker (city council).\n\n## Auf Deutsch\n\nEine Bürgerinitiative ist der richtige Weg, sich lokal zu engagieren."
+    },
+    {
+      "id": "eb-u14-l05-probetest-4-ex11",
+      "type": "choice",
+      "title": "Frage 145 · Block 6",
+      "prompt": "Die Gerichte in Deutschland gehören zur …",
+      "options": [
+        {
+          "id": "a",
+          "text": "Judikative"
+        },
+        {
+          "id": "b",
+          "text": "Exekutive"
+        },
+        {
+          "id": "c",
+          "text": "Legislative"
+        },
+        {
+          "id": "d",
+          "text": "Verwaltung"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Correct answer:** Judikative\n\nInstitutional version of Q143. \"Verwaltung\" (D) = administration = executive by another name, a paraphrase trap.\n\n## Auf Deutsch\n\nDie Gerichte bilden die Judikative."
+    },
+    {
+      "id": "eb-u14-l05-probetest-4-ex12",
+      "type": "choice",
+      "title": "Frage 158 · Block 7",
+      "prompt": "Das „Dritte Reich\" war eine …",
+      "options": [
+        {
+          "id": "a",
+          "text": "Diktatur"
+        },
+        {
+          "id": "b",
+          "text": "Demokratie"
+        },
+        {
+          "id": "c",
+          "text": "Monarchie"
+        },
+        {
+          "id": "d",
+          "text": "Räterepublik"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Correct answer:** Diktatur\n\n→Q157. \"Drittes Reich\" was the Nazis' own propaganda term (after the Holy Roman and 1871 empires); historians use it in quotes. A **Räterepublik** (council republic, D) refers to the brief 1918/19 revolutionary experiments, obscure on purpose.\n\n## Auf Deutsch\n\nDas „Dritte Reich“ war eine Diktatur, keine Demokratie."
+    },
+    {
+      "id": "eb-u14-l05-probetest-4-ex13",
+      "type": "choice",
+      "title": "Frage 159 · Block 7",
+      "prompt": "Was gab es in Deutschland nicht während der Zeit des Nationalsozialismus?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Zensur der Zeitungen"
+        },
+        {
+          "id": "b",
+          "text": "freie Wahlen"
+        },
+        {
+          "id": "c",
+          "text": "willkürliche Verhaftungen"
+        },
+        {
+          "id": "d",
+          "text": "Verfolgung der Juden"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Correct answer:** freie Wahlen\n\nNicht-question: what did NOT exist = **free elections**. The regime held staged plebiscites with open ballots and 99% results, theater, not choice (compare the five Wahlgrundsätze, →Q122: every single one violated).\n\nCensorship, arbitrary arrest, persecution of Jews, all defining realities. This question and Q30 are mirror images: what democracy has, dictatorship lacks, and vice versa.\n\n## Auf Deutsch\n\nIn der NS-Zeit gab es keine freien Wahlen."
+    },
+    {
+      "id": "eb-u14-l05-probetest-4-ex14",
+      "type": "choice",
+      "title": "Frage 161 · Block 7",
+      "prompt": "Was kennzeichnete den nationalsozialistischen Staat? Eine Politik …",
+      "options": [
+        {
+          "id": "a",
+          "text": "des staatlichen Rassismus"
+        },
+        {
+          "id": "b",
+          "text": "der Meinungsfreiheit"
+        },
+        {
+          "id": "c",
+          "text": "der Religionsfreiheit"
+        },
+        {
+          "id": "d",
+          "text": "der Gewaltenteilung"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Correct answer:** des staatlichen Rassismus\n\n**Staatlicher Rassismus**, racism as official state program, not private prejudice: Nuremberg laws (1935) stripping Jews of citizenship, culminating in the industrialized murder of six million Jews (Shoah) plus Sinti/Roma, disabled people, Slavs, and others. State racism as *organizing principle* is what makes the NS state historically singular, and what Art. 1 and Art. 3 GG answer directly.\n\nB–D list exactly what was abolished.\n\n## Auf Deutsch\n\nDer NS-Staat betrieb staatlichen Rassismus. Menschen wurden verfolgt und ermordet."
+    },
+    {
+      "id": "eb-u14-l05-probetest-4-ex15",
+      "type": "choice",
+      "title": "Frage 163 · Block 7",
+      "prompt": "In welchem Jahr zerstörten die Nationalsozialisten in Deutschland Synagogen und jüdische Geschäfte?",
+      "options": [
+        {
+          "id": "a",
+          "text": "1925"
+        },
+        {
+          "id": "b",
+          "text": "1930"
+        },
+        {
+          "id": "c",
+          "text": "1938"
+        },
+        {
+          "id": "d",
+          "text": "1941"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**Correct answer:** 1938\n\nThe **Novemberpogrome** of 9/10 November **1938** (\"Reichspogromnacht\"), over 1,400 synagogues burned, shops smashed, ~30,000 Jewish men deported to camps, while police watched or helped. The escalation point from discrimination to open violence, on the road to the Shoah.\n\n## Auf Deutsch\n\n1938 zerstörten die Nationalsozialisten Synagogen und jüdische Geschäfte (Pogromnacht)."
+    },
+    {
+      "id": "eb-u14-l05-probetest-4-ex16",
+      "type": "choice",
+      "title": "Frage 183 · Block 8",
+      "prompt": "Wann war in der Bundesrepublik Deutschland das „Wirtschaftswunder\"?",
+      "options": [
+        {
+          "id": "a",
+          "text": "in den 20er Jahren"
+        },
+        {
+          "id": "b",
+          "text": "in den 50er Jahren"
+        },
+        {
+          "id": "c",
+          "text": "in den 70er Jahren"
+        },
+        {
+          "id": "d",
+          "text": "in den 90er Jahren"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Correct answer:** in den 50er Jahren\n\nThe **1950s** economic miracle: soziale Marktwirtschaft (→Q171) + Marshall Plan + rebuilding boom → full employment so complete that Germany began *recruiting* workers abroad, the Gastarbeiter story (→Q297ff in Teil 3) that reshaped who \"German\" includes, directly connecting to your own chapter of it.\n\nThe 20s roared then crashed; the 70s brought oil shocks; the 90s paid reunification's bills.\n\n## Auf Deutsch\n\nDas „Wirtschaftswunder“ war in den 1950er Jahren."
+    },
+    {
+      "id": "eb-u14-l05-probetest-4-ex17",
+      "type": "choice",
+      "title": "Frage 188 · Block 8",
+      "prompt": "In welchem Jahr wurde die Mauer in Berlin gebaut?",
+      "options": [
+        {
+          "id": "a",
+          "text": "1953"
+        },
+        {
+          "id": "b",
+          "text": "1956"
+        },
+        {
+          "id": "c",
+          "text": "1959"
+        },
+        {
+          "id": "d",
+          "text": "1961"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**Correct answer:** 1961\n\n**13 August 1961**, overnight, first barbed wire, then concrete, 28 years, at least 140 dead at the Berlin Wall alone. Built because the DDR was bleeding out through the last open door: ~3 million citizens gone west by 1961, disproportionately young and skilled (→Q151).\n\n## Auf Deutsch\n\nDie Mauer wurde 1961 gebaut."
+    },
+    {
+      "id": "eb-u14-l05-probetest-4-ex18",
+      "type": "choice",
+      "title": "Frage 191 · Block 8",
+      "prompt": "Wann wurde die Mauer in Berlin für alle geöffnet?",
+      "options": [
+        {
+          "id": "a",
+          "text": "1987"
+        },
+        {
+          "id": "b",
+          "text": "1989"
+        },
+        {
+          "id": "c",
+          "text": "1992"
+        },
+        {
+          "id": "d",
+          "text": "1995"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Correct answer:** 1989\n\n**9 November 1989**, a bungled press conference (\"...gilt das sofort? Unverzüglich.\") sent East Berliners streaming to the checkpoints; overwhelmed guards lifted the barriers. Not a shot fired. The most joyful entry on November 9's crowded ledger (→Q164), and still the reason Germany's national day is in October.\n\n## Auf Deutsch\n\nDie Mauer fiel am 9. November 1989."
+    },
+    {
+      "id": "eb-u14-l05-probetest-4-ex19",
+      "type": "choice",
+      "title": "Frage 195 · Block 8",
+      "prompt": "Welches heutige deutsche Bundesland gehörte früher zum Gebiet der DDR?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Sachsen"
+        },
+        {
+          "id": "b",
+          "text": "Baden-Württemberg"
+        },
+        {
+          "id": "c",
+          "text": "Rheinland-Pfalz"
+        },
+        {
+          "id": "d",
+          "text": "Schleswig-Holstein"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Correct answer:** Sachsen\n\n**Sachsen** (Dresden, Leipzig, the Montagsdemos' home →Q166). The three distractors are all old-West Länder. Series →Q192.\n\n## Auf Deutsch\n\nSachsen gehörte zur DDR."
+    },
+    {
+      "id": "eb-u14-l05-probetest-4-ex20",
+      "type": "choice",
+      "title": "Frage 204 · Block 9",
+      "prompt": "Wie wurden die Bundesrepublik Deutschland und die DDR zu einem Staat?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Die Bundesrepublik hat die DDR besetzt"
+        },
+        {
+          "id": "b",
+          "text": "Die heutigen fünf östlichen Bundesländer sind der Bundesrepublik Deutschland beigetreten"
+        },
+        {
+          "id": "c",
+          "text": "Die westlichen Bundesländer sind der DDR beigetreten"
+        },
+        {
+          "id": "d",
+          "text": "Die beiden Staaten gründeten einen völlig neuen Staat"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Correct answer:** Die heutigen fünf östlichen Bundesländer sind der Bundesrepublik Deutschland beigetreten\n\nLegally elegant: the DDR re-created its five Länder, which then **acceded** to the Federal Republic under Art. 23 GG (old version), the Grundgesetz, institutions, and EU membership simply *extended* eastward. Confirmed internationally by the **Zwei-plus-Vier-Vertrag** (the two Germanys + four Allies).\n\nNo occupation (A), no reverse accession (C), no new state (D, considered, rejected; the proven constitution won). That the freely-elected DDR Volkskammer *chose* accession matters: unification was voted, not imposed.\n\n## Auf Deutsch\n\n1990 traten die fünf östlichen Länder der Bundesrepublik bei."
+    },
+    {
+      "id": "eb-u14-l05-probetest-4-ex21",
+      "type": "choice",
+      "title": "Frage 227 · Block 10",
+      "prompt": "Welches Land ist ein Nachbarland von Deutschland?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Dänemark"
+        },
+        {
+          "id": "b",
+          "text": "Norwegen"
+        },
+        {
+          "id": "c",
+          "text": "Finnland"
+        },
+        {
+          "id": "d",
+          "text": "Irland"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Correct answer:** Dänemark\n\nRound 3: **Dänemark**, the sole northern land-neighbor (border in Schleswig-Holstein). Norway/Finland are Scandinavian but across water or Sweden; Ireland is an island. The Danish border region hosts a protected German minority, and vice versa: the Danish party SSW is exempt from the 5%-Hürde (→Q117 fine print, cute connection).\n\n## Auf Deutsch\n\nDänemark ist ein Nachbarland (im Norden)."
+    },
+    {
+      "id": "eb-u14-l05-probetest-4-ex22",
+      "type": "choice",
+      "title": "Frage 231 · Block 10",
+      "prompt": "Was bedeutet der Begriff „europäische Integration\"?",
+      "options": [
+        {
+          "id": "a",
+          "text": "den Zusammenschluss europäischer Staaten zur Europäischen Union"
+        },
+        {
+          "id": "b",
+          "text": "die Einwanderung nach Europa"
+        },
+        {
+          "id": "c",
+          "text": "den Austritt einzelner Staaten aus der EU"
+        },
+        {
+          "id": "d",
+          "text": "eine gemeinsame europäische Fußball-Liga"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Correct answer:** den Zusammenschluss europäischer Staaten zur Europäischen Union\n\n**Integration** here = states pooling sovereignty step by step: coal & steel (1951) → EWG (1957) → single market → Euro → Union. \"Immer engere Union der Völker Europas,\" as the treaties say.\n\nB confuses political integration with migration (different debate, same word, a translation trap for you specifically, since *Integrationskurs* etc. use the migration sense!); C is dis-integration (Brexit); D is UEFA's job.\n\n## Auf Deutsch\n\nEuropäische Integration = der Zusammenschluss europäischer Staaten zur EU."
+    },
+    {
+      "id": "eb-u14-l05-probetest-4-ex23",
+      "type": "choice",
+      "title": "Frage 237 · Block 10",
+      "prompt": "1957 wurden die Römischen Verträge unterzeichnet. Was war deren Inhalt?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Gründung der Europäischen Wirtschaftsgemeinschaft (EWG)"
+        },
+        {
+          "id": "b",
+          "text": "die Gründung der NATO"
+        },
+        {
+          "id": "c",
+          "text": "der Beitritt Deutschlands zu den Vereinten Nationen"
+        },
+        {
+          "id": "d",
+          "text": "das Ende der Besatzungszeit in Deutschland"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Correct answer:** die Gründung der Europäischen Wirtschaftsgemeinschaft (EWG)\n\nThe **Treaties of Rome** (25.03.1957): six founders, **Germany, France, Italy, Benelux**, create the EWG (customs union, common market) + Euratom. The EU's birth certificate (→Q173).\n\nNATO = 1949 Washington; UN accession = 1973; occupation formally ended 1955 (Pariser Verträge). Three treaties, three dates, three different acronyms. BAMF checks you don't blur them.\n\n## Auf Deutsch\n\nRömische Verträge 1957: Gründung der EWG, der Anfang der heutigen EU."
+    },
+    {
+      "id": "eb-u14-l05-probetest-4-ex24",
+      "type": "choice",
+      "title": "Frage 240 · Block 10",
+      "prompt": "Seit wann bezahlt man in Deutschland mit dem Euro in bar?",
+      "options": [
+        {
+          "id": "a",
+          "text": "1998"
+        },
+        {
+          "id": "b",
+          "text": "2000"
+        },
+        {
+          "id": "c",
+          "text": "2002"
+        },
+        {
+          "id": "d",
+          "text": "2005"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**Correct answer:** 2002\n\n**01.01.2002**: Euro notes and coins replace the D-Mark in wallets (the currency existed electronically from 1999, the \"in bar\"/cash wording is the point of the question). Giving up the D-Mark, the Wirtschaftswunder's beloved symbol (→Q183), was Kohl's European price for unification's European blessing (→Q215): everything in this block connects.\n\n## Auf Deutsch\n\nSeit 2002 bezahlt man in Deutschland bar mit dem Euro."
+    },
+    {
+      "id": "eb-u14-l05-probetest-4-ex25",
+      "type": "choice",
+      "title": "Frage 245 · Block 11",
+      "prompt": "Wer darf in Deutschland nicht als Paar zusammenleben?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Hans (20) und Marie (19)"
+        },
+        {
+          "id": "b",
+          "text": "Tom (20) und Klaus (45)"
+        },
+        {
+          "id": "c",
+          "text": "Sofie (35) und Lisa (33)"
+        },
+        {
+          "id": "d",
+          "text": "Anne (13) und Tim (25)"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**Correct answer:** Anne (13) und Tim (25)\n\nA 13-year-old is a **child**; the age of consent rules (§176 StGB. Schutzalter 14, with further protections to 16/18) make an adult \"relationship\" with her criminal child abuse, full stop.\n\nUnmarried couples (A), large age gaps between adults (B), same-sex couples (C, marriage equality since 2017) are all simply legal. The question's real test: do you know that liberal tolerance ends exactly where child protection begins.\n\n## Auf Deutsch\n\nAnne (13) ist minderjährig, mit 25-jährigem Partner verboten (Schutz von Kindern)."
+    },
+    {
+      "id": "eb-u14-l05-probetest-4-ex26",
+      "type": "choice",
+      "title": "Frage 258 · Block 11",
+      "prompt": "Was darf das Jugendamt in Deutschland?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Es kann ein Kind, das geschlagen wird oder hungern muss, aus der Familie nehmen"
+        },
+        {
+          "id": "b",
+          "text": "Es bestimmt, welchen Beruf ein Kind später ergreift"
+        },
+        {
+          "id": "c",
+          "text": "Es legt die Namen der Kinder fest"
+        },
+        {
+          "id": "d",
+          "text": "Es entscheidet über die Religion der Familie"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Correct answer:** Es kann ein Kind, das geschlagen wird oder hungern muss, aus der Familie nehmen\n\nThe state's **Wächteramt** (Art. 6(2) GG →Q248): when parents endanger a child's welfare, violence, neglect, hunger, the Jugendamt may intervene up to **Inobhutnahme** (taking the child into care), with family-court oversight.\n\nCareer, name, religion belong to the family (→Q2). The line runs exactly there: the state never *directs* upbringing, it *rescues* children from its failure.\n\n## Auf Deutsch\n\nDas Jugendamt darf Kinder in Gefahr aus der Familie nehmen."
+    },
+    {
+      "id": "eb-u14-l05-probetest-4-ex27",
+      "type": "choice",
+      "title": "Frage 273 · Block 12",
+      "prompt": "Eine junge Familie hat große Probleme bei der Erziehung ihres Sohnes. Wohin kann sie sich wenden, um Rat und Hilfe zu bekommen?",
+      "options": [
+        {
+          "id": "a",
+          "text": "an das Jugendamt"
+        },
+        {
+          "id": "b",
+          "text": "an das Ordnungsamt"
+        },
+        {
+          "id": "c",
+          "text": "an die Agentur für Arbeit"
+        },
+        {
+          "id": "d",
+          "text": "an das Finanzamt"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Correct answer:** an das Jugendamt\n\n→Q255 retested as a story. The Jugendamt (and its Erziehungsberatungsstellen) exists to be *asked*, free, confidential, no stigma intended. Amt-matching remains the skill: parenting → Jugend, noise → Ordnung, job → Arbeit, tax → Finanz.\n\n## Auf Deutsch\n\nBei großen Erziehungsproblemen: an das Jugendamt wenden."
+    },
+    {
+      "id": "eb-u14-l05-probetest-4-ex28",
+      "type": "choice",
+      "title": "Frage 279 · Block 12",
+      "prompt": "Was steht in der „Hausordnung\" eines Mietshauses?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Regeln, an die sich alle Bewohner und Bewohnerinnen halten müssen"
+        },
+        {
+          "id": "b",
+          "text": "die Namen aller Mieter und Mieterinnen"
+        },
+        {
+          "id": "c",
+          "text": "die Höhe der Mieten im Haus"
+        },
+        {
+          "id": "d",
+          "text": "die Öffnungszeiten des Ordnungsamtes"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Correct answer:** Regeln, an die sich alle Bewohner und Bewohnerinnen halten müssen\n\nThe **Hausordnung**, the shared-living rulebook attached to your rental contract: Nachtruhe (→Q266), stairwell cleaning (Kehrwoche culture), laundry rooms, bikes in the Hof. Legally binding as part of the Mietvertrag. B–C confuse it with registers and contracts; D puns on \"Ordnung.\" Deutschland in einem Dokument, honestly.\n\n## Auf Deutsch\n\nDie Hausordnung enthält Regeln für alle Bewohner des Hauses."
+    },
+    {
+      "id": "eb-u14-l05-probetest-4-ex29",
+      "type": "choice",
+      "title": "Frage 283 · Block 12",
+      "prompt": "Sie haben von einer deutschen Behörde einen Bescheid bekommen, mit dem Sie nicht einverstanden sind. Was können Sie machen?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Widerspruch einlegen"
+        },
+        {
+          "id": "b",
+          "text": "den Bescheid ignorieren"
+        },
+        {
+          "id": "c",
+          "text": "sich beim Bundespräsidenten beschweren"
+        },
+        {
+          "id": "d",
+          "text": "die Behörde verklagen, ohne den Bescheid zu lesen"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Correct answer:** Widerspruch einlegen\n\nGeneral-administration twin of Q280: against most Bescheide (Bafög, Sozialamt, Ausländerbehörde…) → **Widerspruch** within a month, then Verwaltungsgericht (→Q80). Vocabulary pair to keep straight: **Einspruch** (tax, criminal orders) / **Widerspruch** (general administration), same civic muscle: *paper fights paper, not shouting, not silence.*\n\nIgnoring = the decision becomes final (bestandskräftig); the Bundespräsident is not an appeals body; D skips every step.\n\n## Auf Deutsch\n\nGegen einen Behördenbescheid: Widerspruch einlegen."
+    },
+    {
+      "id": "eb-u14-l05-probetest-4-ex30",
+      "type": "choice",
+      "title": "Frage 296 · Block 12",
+      "prompt": "Die letzten vier Wochen vor Weihnachten nennt man in Deutschland …",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Adventszeit"
+        },
+        {
+          "id": "b",
+          "text": "die Fastenzeit"
+        },
+        {
+          "id": "c",
+          "text": "den Karneval"
+        },
+        {
+          "id": "d",
+          "text": "die Sommerzeit"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Correct answer:** die Adventszeit\n\n**Advent**, wreaths with four candles (one per Sunday), calendars with 24 doors (your child's annual chocolate delight starts December 2026), Weihnachtsmärkte (every town has one; Hannover's fills the old town). Fastenzeit (B) is Lent, *before Easter*; the seasons-of-the-calendar sort again.\n\n## Auf Deutsch\n\nDie vier Wochen vor Weihnachten heißen Adventszeit."
+    },
+    {
+      "id": "eb-u14-l05-probetest-4-ex31",
+      "type": "choice",
+      "title": "NDS 1 · Landesfrage",
+      "prompt": "Welches Wappen gehört zum Bundesland Niedersachsen?",
+      "figure": {
+        "images": [
+          {
+            "src": "/images/eb/nds-1-bild-1.png",
+            "alt": "Blue and white lozenges under a golden crown",
+            "label": "Bild 1"
+          },
+          {
+            "src": "/images/eb/nds-1-bild-2.png",
+            "alt": "Two blue lions on gold beside a white nettle leaf on red",
+            "label": "Bild 2"
+          },
+          {
+            "src": "/images/eb/nds-1-bild-3.png",
+            "alt": "A white leaping horse filling a red shield",
+            "label": "Bild 3"
+          },
+          {
+            "src": "/images/eb/nds-1-bild-4.png",
+            "alt": "Black and yellow stripes with a green crown of rue across them",
+            "label": "Bild 4"
+          }
+        ],
+        "credit": "Bilder: BAMF, Gesamtfragenkatalog „Leben in Deutschland“ (Stand 07.05.2025)"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": "Bild 1"
+        },
+        {
+          "id": "b",
+          "text": "Bild 2"
+        },
+        {
+          "id": "c",
+          "text": "Bild 3"
+        },
+        {
+          "id": "d",
+          "text": "Bild 4"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**Correct answer:** Bild 3\n\n*Picture question (Bildfrage):* the pictures above are the ones from the official question catalogue.\n\nCorrect: **Bild 3**, a white leaping horse (the *Sachsenross*) filling a red shield.\n\nThe other pictures: Bild 1 = Bayern (white-blue lozenges under a crown), Bild 2 = Schleswig-Holstein (two blue lions and a white nettle leaf), Bild 4 = Sachsen (black-gold stripes with a green crown of rue). Don't mix up the horses: NRW's arms also show a white horse, but only in one part of the shield; in Niedersachsen the horse fills the whole red shield. The same arms sit in the middle of the Landesflagge (→NDS-5).\n\n## Auf Deutsch\n\nDas Wappen von Niedersachsen: ein weißes, springendes Pferd (Sachsenross) auf rotem Grund."
+    },
+    {
+      "id": "eb-u14-l05-probetest-4-ex32",
+      "type": "choice",
+      "title": "NDS 5 · Landesfrage",
+      "prompt": "Welche Farben hat die Landesflagge von Niedersachsen?",
+      "options": [
+        {
+          "id": "a",
+          "text": "weiß-blau"
+        },
+        {
+          "id": "b",
+          "text": "schwarz-rot-gold"
+        },
+        {
+          "id": "c",
+          "text": "schwarz-gelb"
+        },
+        {
+          "id": "d",
+          "text": "blau-weiß-rot"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Correct answer:** schwarz-rot-gold\n\n**Schwarz-rot-gold**, the same colours as the federal flag (→Q214), with the Land's coat of arms in the middle: the white horse on red (→NDS-1).\n\nThat is the trap: you might expect Land colours that differ from the Bund's. The decoys: weiß-blau = Bayern, schwarz-gelb = Baden-Württemberg, blau-weiß-rot = Schleswig-Holstein.\n\n## Auf Deutsch\n\nDie Landesflagge von Niedersachsen ist schwarz-rot-gold, mit dem Landeswappen (weißes Pferd auf Rot) in der Mitte."
+    },
+    {
+      "id": "eb-u14-l05-probetest-4-ex33",
+      "type": "choice",
+      "title": "NDS 6 · Landesfrage",
+      "prompt": "Wo können Sie sich in Niedersachsen über politische Themen informieren?",
+      "options": [
+        {
+          "id": "a",
+          "text": "bei der Landeszentrale für politische Bildung"
+        },
+        {
+          "id": "b",
+          "text": "beim Ordnungsamt der Gemeinde"
+        },
+        {
+          "id": "c",
+          "text": "bei der Verbraucherzentrale"
+        },
+        {
+          "id": "d",
+          "text": "bei den Kirchen"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Correct answer:** bei der Landeszentrale für politische Bildung\n\nThe **Landeszentrale für politische Bildung Niedersachsen**, the Land's nonpartisan civic-education agency: free or cheap books, events and election guides. Its federal sibling, the bpb, runs the well-known Wahl-O-Mat.\n\nOrdnungsamt = local public order (permits, registrations, noise); Verbraucherzentrale = consumer advice (contracts, prices); the churches are religious communities, not a source of neutral political information.\n\n## Auf Deutsch\n\nÜber politische Themen informiert die Landeszentrale für politische Bildung Niedersachsen (in Hannover)."
+    }
+  ]
+}

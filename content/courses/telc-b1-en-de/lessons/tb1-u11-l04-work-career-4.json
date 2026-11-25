@@ -1,0 +1,233 @@
+{
+  "id": "tb1-u11-l04-work-career-4",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u11",
+  "title": "Work & Career 4",
+  "tip": "Theme: Arbeit / Beruf (B1)",
+  "exercises": [
+    {
+      "id": "tb1-u11-l04-work-career-4-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "verdienen",
+          "known": "to earn"
+        },
+        {
+          "id": "p2",
+          "learning": "das Gehalt",
+          "known": "salary"
+        },
+        {
+          "id": "p3",
+          "learning": "der Vertrag",
+          "known": "contract"
+        },
+        {
+          "id": "p4",
+          "learning": "in Teilzeit / in Vollzeit arbeiten",
+          "known": "to work part-time / full-time"
+        },
+        {
+          "id": "p5",
+          "learning": "die Stelle",
+          "known": "job"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u11-l04-work-career-4-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which one means „to earn“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "verdienen"
+        },
+        {
+          "id": "b",
+          "text": "in Teilzeit / in Vollzeit arbeiten"
+        },
+        {
+          "id": "c",
+          "text": "kündigen: die Kündigung, die Kündigungen"
+        },
+        {
+          "id": "d",
+          "text": "arbeitslos"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**verdienen** = to earn\n\n*Example:* Als Krankenpfleger verdient Paul ganz gut.\nPaul earns quite well as a nurse."
+    },
+    {
+      "id": "tb1-u11-l04-work-career-4-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „salary“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "der Urlaub (nur Sg.). Urlaub nehmen"
+        },
+        {
+          "id": "b",
+          "text": "das Gehalt, die Gehälter"
+        },
+        {
+          "id": "c",
+          "text": "der Kollege, die Kollegen (n-Dekl.) / die Kollegin, die Kolleginnen"
+        },
+        {
+          "id": "d",
+          "text": "der Beruf, die Berufe"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**das Gehalt** = salary\n*Plural: die Gehälter*\n\n*Example:* Am Ende des Monats bekomme ich mein Gehalt.\nI get my salary at the end of the month."
+    },
+    {
+      "id": "tb1-u11-l04-work-career-4-ex04",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u11-l04-work-career-4-1.mp3"
+      },
+      "tiles": [
+        "ganz",
+        "Krankenpfleger",
+        "verdient",
+        "gut",
+        "Heute",
+        "in",
+        "Paul",
+        "August",
+        "Als"
+      ],
+      "answers": [
+        "Als Krankenpfleger verdient Paul ganz gut."
+      ],
+      "explanation": "Als Krankenpfleger verdient Paul ganz gut.\n*Paul earns quite well as a nurse.*\n\n**verdienen** = to earn"
+    },
+    {
+      "id": "tb1-u11-l04-work-career-4-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „contract“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "das Gehalt, die Gehälter"
+        },
+        {
+          "id": "b",
+          "text": "das Büro, die Büros"
+        },
+        {
+          "id": "c",
+          "text": "der Vertrag, die Verträge"
+        },
+        {
+          "id": "d",
+          "text": "der Kollege, die Kollegen (n-Dekl.) / die Kollegin, die Kolleginnen"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**der Vertrag** = contract\n*Plural: die Verträge*\n\n*Example:* Ali hat heute seinen Vertrag unterschrieben.\nAli signed his contract today."
+    },
+    {
+      "id": "tb1-u11-l04-work-career-4-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Am Ende des Monats bekomme ich mein Gehalt.",
+      "tiles": [
+        "end",
+        "at",
+        "the",
+        "I",
+        "month",
+        "the",
+        "get",
+        "my",
+        "of",
+        "I'm",
+        "is",
+        "salary",
+        "overtime"
+      ],
+      "answers": [
+        "I get my salary at the end of the month."
+      ],
+      "explanation": "**das Gehalt** = salary\n*Plural: die Gehälter*"
+    },
+    {
+      "id": "tb1-u11-l04-work-career-4-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which one means „to work part-time / full-time“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "kündigen: die Kündigung, die Kündigungen"
+        },
+        {
+          "id": "b",
+          "text": "verdienen"
+        },
+        {
+          "id": "c",
+          "text": "arbeitslos"
+        },
+        {
+          "id": "d",
+          "text": "in Teilzeit / in Vollzeit arbeiten"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**in Teilzeit / in Vollzeit arbeiten** = to work part-time / full-time\n\n*Example:* Seit der Geburt ihres Sohnes arbeitet Julia in Teilzeit.\nJulia has been working part-time since her son was born."
+    },
+    {
+      "id": "tb1-u11-l04-work-career-4-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Ali signed his contract today.",
+      "tiles": [
+        "Vertrag",
+        "Kollege",
+        "heute",
+        "unterschrieben",
+        "seinen",
+        "Verkäufer",
+        "hat",
+        "Ali",
+        "als"
+      ],
+      "answers": [
+        "Ali hat heute seinen Vertrag unterschrieben."
+      ],
+      "explanation": "**der Vertrag** = contract\n*Plural: die Verträge*"
+    },
+    {
+      "id": "tb1-u11-l04-work-career-4-ex09",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u11-l04-work-career-4-4.mp3"
+      },
+      "tiles": [
+        "Seit",
+        "Geburt",
+        "ihres",
+        "Teilzeit",
+        "seine",
+        "Sohnes",
+        "arbeitet",
+        "Julia",
+        "eine",
+        "unterschrieben",
+        "in",
+        "der"
+      ],
+      "answers": [
+        "Seit der Geburt ihres Sohnes arbeitet Julia in Teilzeit."
+      ],
+      "explanation": "Seit der Geburt ihres Sohnes arbeitet Julia in Teilzeit.\n*Julia has been working part-time since her son was born.*\n\n**in Teilzeit / in Vollzeit arbeiten** = to work part-time / full-time"
+    }
+  ]
+}

@@ -1,0 +1,241 @@
+{
+  "id": "tb1-u08-l11-important-nouns-extra-3",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u08",
+  "title": "Important Nouns (Extra) 3",
+  "tip": "Theme: Nomen: Wichtige Wörter (Nachtrag) (A2)",
+  "exercises": [
+    {
+      "id": "tb1-u08-l11-important-nouns-extra-3-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "der Sessel",
+          "known": "armchair"
+        },
+        {
+          "id": "p2",
+          "learning": "die Tafel",
+          "known": "(black)board"
+        },
+        {
+          "id": "p3",
+          "learning": "der Lehrer",
+          "known": "teacher (m)"
+        },
+        {
+          "id": "p4",
+          "learning": "die Lehrerin",
+          "known": "teacher (f)"
+        },
+        {
+          "id": "p5",
+          "learning": "das Buch",
+          "known": "book"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u08-l11-important-nouns-extra-3-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „armchair“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Kartoffel, die Kartoffeln"
+        },
+        {
+          "id": "b",
+          "text": "das Hotel, die Hotels"
+        },
+        {
+          "id": "c",
+          "text": "der Sessel, die Sessel"
+        },
+        {
+          "id": "d",
+          "text": "der Sport"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**der Sessel** = armchair\n*Plural: die Sessel*\n\n*Example:* Mein Vater sitzt abends im Sessel und liest Zeitung.\nIn the evening my father sits in the armchair and reads the newspaper."
+    },
+    {
+      "id": "tb1-u08-l11-important-nouns-extra-3-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „(black)board“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "das Restaurant, die Restaurants"
+        },
+        {
+          "id": "b",
+          "text": "die Tafel, die Tafeln"
+        },
+        {
+          "id": "c",
+          "text": "das Radio, die Radios"
+        },
+        {
+          "id": "d",
+          "text": "der Film, die Filme"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**die Tafel** = (black)board\n*Plural: die Tafeln*\n\n*Example:* Die Lehrerin schreibt die neuen Wörter an die Tafel.\nThe teacher writes the new words on the board."
+    },
+    {
+      "id": "tb1-u08-l11-important-nouns-extra-3-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Mein Vater sitzt abends im Sessel und liest Zeitung.",
+      "tiles": [
+        "armchair",
+        "father",
+        "in",
+        "evening",
+        "going",
+        "sits",
+        "newspaper",
+        "my",
+        "and",
+        "the",
+        "weekend",
+        "In",
+        "reads",
+        "the",
+        "Klein",
+        "the"
+      ],
+      "answers": [
+        "In the evening my father sits in the armchair and reads the newspaper."
+      ],
+      "explanation": "**der Sessel** = armchair\n*Plural: die Sessel*"
+    },
+    {
+      "id": "tb1-u08-l11-important-nouns-extra-3-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „teacher (m)“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "das Hotel, die Hotels"
+        },
+        {
+          "id": "b",
+          "text": "der Lehrer, die Lehrer"
+        },
+        {
+          "id": "c",
+          "text": "das Buch, die Bücher"
+        },
+        {
+          "id": "d",
+          "text": "der Sport"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**der Lehrer** = teacher (m)\n*Plural: die Lehrer*\n\n*Example:* Der Lehrer von meinem Sohn ist sehr freundlich.\nMy son's teacher is very friendly."
+    },
+    {
+      "id": "tb1-u08-l11-important-nouns-extra-3-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "The teacher writes the new words on the board.",
+      "tiles": [
+        "Die",
+        "an",
+        "Wörter",
+        "Tafel",
+        "Lehrerin",
+        "die",
+        "Radio",
+        "die",
+        "schreibt",
+        "neuen",
+        "Meer",
+        "Vater"
+      ],
+      "answers": [
+        "Die Lehrerin schreibt die neuen Wörter an die Tafel."
+      ],
+      "explanation": "**die Tafel** = (black)board\n*Plural: die Tafeln*"
+    },
+    {
+      "id": "tb1-u08-l11-important-nouns-extra-3-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „teacher (f)“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "das Hotel, die Hotels"
+        },
+        {
+          "id": "b",
+          "text": "der Film, die Filme"
+        },
+        {
+          "id": "c",
+          "text": "der Lehrer, die Lehrer"
+        },
+        {
+          "id": "d",
+          "text": "die Lehrerin, die Lehrerinnen"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**die Lehrerin** = teacher (f)\n*Plural: die Lehrerinnen*\n\n*Example:* Frau Klein arbeitet als Lehrerin an einer Grundschule.\nMs Klein works as a teacher at a primary school."
+    },
+    {
+      "id": "tb1-u08-l11-important-nouns-extra-3-ex08",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u08-l11-important-nouns-extra-3-3.mp3"
+      },
+      "tiles": [
+        "meinem",
+        "Lehrer",
+        "ist",
+        "Sohn",
+        "von",
+        "Wörter",
+        "Geburtstag",
+        "freundlich",
+        "sehr",
+        "Der",
+        "Am"
+      ],
+      "answers": [
+        "Der Lehrer von meinem Sohn ist sehr freundlich."
+      ],
+      "explanation": "Der Lehrer von meinem Sohn ist sehr freundlich.\n*My son's teacher is very friendly.*\n\n**der Lehrer** = teacher (m)\n*Plural: die Lehrer*"
+    },
+    {
+      "id": "tb1-u08-l11-important-nouns-extra-3-ex09",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Frau Klein arbeitet als Lehrerin an einer Grundschule.",
+      "tiles": [
+        "always",
+        "the",
+        "primary",
+        "a",
+        "Ms",
+        "works",
+        "as",
+        "at",
+        "school",
+        "teacher",
+        "lunch",
+        "a",
+        "Klein"
+      ],
+      "answers": [
+        "Ms Klein works as a teacher at a primary school."
+      ],
+      "explanation": "**die Lehrerin** = teacher (f)\n*Plural: die Lehrerinnen*"
+    }
+  ]
+}

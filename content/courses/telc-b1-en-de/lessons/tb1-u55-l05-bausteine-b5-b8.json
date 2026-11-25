@@ -1,0 +1,421 @@
+{
+  "id": "tb1-u55-l05-bausteine-b5-b8",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u55",
+  "title": "Building blocks: advice, questions, preferences, plans (B5–B8)",
+  "exercises": [
+    {
+      "id": "tb1-u55-l05-bausteine-b5-b8-ex01",
+      "type": "explain",
+      "title": "Building blocks: advice, questions, preferences, plans (B5–B8)",
+      "body": "Each building block (Baustein) is a ready-made sentence with gaps (…). Fill in your own content. A **+** marks a more advanced variant.\n\n**B5 · Rat geben** (give advice)\n\n**B6 · Rückfrage stellen** (ask a follow-up question)\n\n**B7 · über sich / Vorlieben** (talk about yourself / preferences)\n\n**B7b · beschreiben** (describe)\n\n**B8 · Pläne / Zukunft** (plans / the future)\n\n- **B5**: An deiner Stelle würde ich …. Du solltest es einfach mal versuchen, damit du ….\n\n- **B5+**: An deiner Stelle würde ich entweder … oder ….\n\n- **B6**: Außerdem würde ich gern wissen, ob … und wie ….\n\n- **B6+**: Außerdem würde ich gern wissen, wann … und wer ….\n\n- **B7**: Am liebsten …, weil ich … kann.\n\n- **B7b**: …, weil ….\n\n- **B7+**: Am liebsten …, vor allem am Ende ….\n\n- **B8**: Im nächsten … habe ich vor, …. Wenn alles klappt, werde ich ….\n\n- **B8+**: Im nächsten … habe ich vor, …. Bevor ich losfahre, melde ich mich noch einmal bei dir.",
+      "examples": [
+        {
+          "learning": "An deiner Stelle würde ich in einen Sportverein gehen. Du solltest es einfach mal versuchen, damit du dort schnell neue Leute kennenlernst.",
+          "known": "B5 · give advice (letter 3 to Sophie)"
+        },
+        {
+          "learning": "An deiner Stelle würde ich Roberto zum Essen einladen. Du solltest es einfach mal versuchen, damit du ihn besser kennenlernst.",
+          "known": "B5 · give advice (letter 6 to Andreas)"
+        },
+        {
+          "learning": "An deiner Stelle würde ich entweder in einen Sportverein gehen oder einen Sprachkurs besuchen.",
+          "known": "B5+ · give advice (letter 26 to Nora)"
+        },
+        {
+          "learning": "Außerdem würde ich gern wissen, ob die Miete hoch ist und wie groß der Garten ist.",
+          "known": "B6 · ask a follow-up question (letter 4 to Nadja)"
+        },
+        {
+          "learning": "Außerdem würde ich gern wissen, ob die Arbeit anstrengend ist und wie lange du jeden Tag arbeitest.",
+          "known": "B6 · ask a follow-up question (letter 11 to Vera)"
+        },
+        {
+          "learning": "Am liebsten komme ich nach Deutschland, weil ich dort die Landschaft und die Städte richtig genießen kann.",
+          "known": "B7 · talk about yourself / preferences (letter 1 to Petra)"
+        },
+        {
+          "learning": "Am liebsten lerne ich jeden Tag ein bisschen Deutsch, weil ich mich so am besten auf die Prüfung vorbereiten kann.",
+          "known": "B7 · talk about yourself / preferences (letter 2 to Eva)"
+        },
+        {
+          "learning": "Bei uns feiert man eine Hochzeit groß mit der ganzen Familie, weil alle Verwandten dabei sein möchten.",
+          "known": "B7b · describe (letter 17 to Rita)"
+        },
+        {
+          "learning": "In meinem Heimatland gehe ich oft in den Zoo, weil man dort viele Tiere aus der ganzen Welt sehen kann.",
+          "known": "B7b · describe (letter 19 to Claudia)"
+        },
+        {
+          "learning": "Am liebsten sitze ich auf meinem Balkon, vor allem am Ende eines langen Arbeitstages.",
+          "known": "B7+ · talk about yourself / preferences (letter 12 to Andreas)"
+        },
+        {
+          "learning": "Am liebsten höre ich ruhige Musik, vor allem am Ende eines langen Arbeitstages.",
+          "known": "B7+ · talk about yourself / preferences (letter 15 to Jan)"
+        },
+        {
+          "learning": "Im nächsten Jahr habe ich vor, eine Ausbildung als Koch zu machen. Wenn alles klappt, werde ich dafür nach Deutschland gehen.",
+          "known": "B8 · plans / the future (letter 2 to Eva)"
+        },
+        {
+          "learning": "Im nächsten Sommer habe ich vor, nach Italien zu fahren. Wenn alles klappt, werde ich dort zwei Wochen bleiben.",
+          "known": "B8 · plans / the future (letter 7 to Annika)"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u55-l05-bausteine-b5-b8-ex02",
+      "type": "choice",
+      "title": "Baustein B5",
+      "passage": "An deiner Stelle würde ich …. Du solltest es einfach mal versuchen, damit du ….",
+      "prompt": "Wofür benutzt man diesen Baustein?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Rat geben (give advice)"
+        },
+        {
+          "id": "b",
+          "text": "entschuldigen / begründen (apologise / give a reason)"
+        },
+        {
+          "id": "c",
+          "text": "auf gute Nachricht reagieren (react to good news)"
+        },
+        {
+          "id": "d",
+          "text": "beschreiben (describe)"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**B5** = Rat geben (give advice).\n\nVorlage: An deiner Stelle würde ich {0}. Du solltest es einfach mal versuchen, damit du {1}."
+    },
+    {
+      "id": "tb1-u55-l05-bausteine-b5-b8-ex03",
+      "type": "choice",
+      "title": "Baustein B5+",
+      "passage": "An deiner Stelle würde ich entweder … oder ….",
+      "prompt": "Wofür benutzt man diesen Baustein?",
+      "options": [
+        {
+          "id": "a",
+          "text": "höflich ablehnen (politely decline)"
+        },
+        {
+          "id": "b",
+          "text": "Vorschlag machen (make a suggestion)"
+        },
+        {
+          "id": "c",
+          "text": "Pläne / Zukunft (plans / the future)"
+        },
+        {
+          "id": "d",
+          "text": "Rat geben (give advice)"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**B5+** = Rat geben (give advice).\n\nVorlage: An deiner Stelle würde ich entweder {0} oder {1}."
+    },
+    {
+      "id": "tb1-u55-l05-bausteine-b5-b8-ex04",
+      "type": "choice",
+      "title": "Baustein B6",
+      "passage": "Außerdem würde ich gern wissen, ob … und wie ….",
+      "prompt": "Wofür benutzt man diesen Baustein?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Vorschlag annehmen (accept a suggestion)"
+        },
+        {
+          "id": "b",
+          "text": "beschreiben (describe)"
+        },
+        {
+          "id": "c",
+          "text": "Rückfrage stellen (ask a follow-up question)"
+        },
+        {
+          "id": "d",
+          "text": "auf schlechte Nachricht reagieren (react to bad news)"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**B6** = Rückfrage stellen (ask a follow-up question).\n\nVorlage: Außerdem würde ich gern wissen, ob {0} und wie {1}."
+    },
+    {
+      "id": "tb1-u55-l05-bausteine-b5-b8-ex05",
+      "type": "choice",
+      "title": "Baustein B6 · Welches Wort passt in die Lücke?",
+      "prompt": "___ würde ich gern wissen, ob … und wie ….",
+      "options": [
+        {
+          "id": "a",
+          "text": "Denn"
+        },
+        {
+          "id": "b",
+          "text": "Weil"
+        },
+        {
+          "id": "c",
+          "text": "Außerdem"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Full sentence: *Außerdem würde ich gern wissen, ob … und wie ….*\n\n**außerdem (Zusatz)**: addition; position 1 → inversion.\n\n…, **außerdem** + **Verb** + Subjekt.\nBsp: Es ist günstig, außerdem **liegt es** zentral."
+    },
+    {
+      "id": "tb1-u55-l05-bausteine-b5-b8-ex06",
+      "type": "choice",
+      "title": "Baustein B6+",
+      "passage": "Außerdem würde ich gern wissen, wann … und wer ….",
+      "prompt": "Wofür benutzt man diesen Baustein?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Rückfrage stellen (ask a follow-up question)"
+        },
+        {
+          "id": "b",
+          "text": "eigene Neuigkeiten (share your own news)"
+        },
+        {
+          "id": "c",
+          "text": "Rat geben (give advice)"
+        },
+        {
+          "id": "d",
+          "text": "auf gute Nachricht reagieren (react to good news)"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**B6+** = Rückfrage stellen (ask a follow-up question).\n\nVorlage: Außerdem würde ich gern wissen, wann {0} und wer {1}."
+    },
+    {
+      "id": "tb1-u55-l05-bausteine-b5-b8-ex07",
+      "type": "choice",
+      "title": "Baustein B6+ · Welches Wort passt in die Lücke?",
+      "prompt": "___ würde ich gern wissen, wann … und wer ….",
+      "options": [
+        {
+          "id": "a",
+          "text": "Außerdem"
+        },
+        {
+          "id": "b",
+          "text": "Weil"
+        },
+        {
+          "id": "c",
+          "text": "Denn"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Full sentence: *Außerdem würde ich gern wissen, wann … und wer ….*\n\n**außerdem (Zusatz)**: addition; position 1 → inversion.\n\n…, **außerdem** + **Verb** + Subjekt.\nBsp: Es ist günstig, außerdem **liegt es** zentral."
+    },
+    {
+      "id": "tb1-u55-l05-bausteine-b5-b8-ex08",
+      "type": "choice",
+      "title": "Baustein B7",
+      "passage": "Am liebsten …, weil ich … kann.",
+      "prompt": "Wofür benutzt man diesen Baustein?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Vorschlag machen (make a suggestion)"
+        },
+        {
+          "id": "b",
+          "text": "auf gute Nachricht reagieren (react to good news)"
+        },
+        {
+          "id": "c",
+          "text": "eigene Neuigkeiten (share your own news)"
+        },
+        {
+          "id": "d",
+          "text": "über sich / Vorlieben (talk about yourself / preferences)"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**B7** = über sich / Vorlieben (talk about yourself / preferences).\n\nVorlage: Am liebsten {0}, weil ich {1} kann."
+    },
+    {
+      "id": "tb1-u55-l05-bausteine-b5-b8-ex09",
+      "type": "choice",
+      "title": "Baustein B7 · Welches Wort passt in die Lücke?",
+      "prompt": "Am liebsten …, ___ ich … kann.",
+      "options": [
+        {
+          "id": "a",
+          "text": "weil"
+        },
+        {
+          "id": "b",
+          "text": "deshalb"
+        },
+        {
+          "id": "c",
+          "text": "denn"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Full sentence: *Am liebsten …, weil ich … kann.*\n\n**weil (Grund)**: reason; the verb goes to the very end.\n\nHauptsatz, **weil** + Subjekt + … + **Verb ans Ende**.\nBsp: Ich bleibe zu Hause, weil ich müde **bin**."
+    },
+    {
+      "id": "tb1-u55-l05-bausteine-b5-b8-ex10",
+      "type": "choice",
+      "title": "Baustein B7b",
+      "passage": "…, weil ….",
+      "prompt": "Wofür benutzt man diesen Baustein?",
+      "options": [
+        {
+          "id": "a",
+          "text": "entschuldigen / begründen (apologise / give a reason)"
+        },
+        {
+          "id": "b",
+          "text": "beschreiben (describe)"
+        },
+        {
+          "id": "c",
+          "text": "auf schlechte Nachricht reagieren (react to bad news)"
+        },
+        {
+          "id": "d",
+          "text": "jemanden mitbringen (bring someone along)"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**B7b** = beschreiben (describe).\n\nVorlage: {0}, weil {1}."
+    },
+    {
+      "id": "tb1-u55-l05-bausteine-b5-b8-ex11",
+      "type": "choice",
+      "title": "Baustein B7+",
+      "passage": "Am liebsten …, vor allem am Ende ….",
+      "prompt": "Wofür benutzt man diesen Baustein?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Vorschlag annehmen (accept a suggestion)"
+        },
+        {
+          "id": "b",
+          "text": "entschuldigen / begründen (apologise / give a reason)"
+        },
+        {
+          "id": "c",
+          "text": "über sich / Vorlieben (talk about yourself / preferences)"
+        },
+        {
+          "id": "d",
+          "text": "eigene Neuigkeiten (share your own news)"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**B7+** = über sich / Vorlieben (talk about yourself / preferences).\n\nVorlage: Am liebsten {0}, vor allem am Ende {1}."
+    },
+    {
+      "id": "tb1-u55-l05-bausteine-b5-b8-ex12",
+      "type": "choice",
+      "title": "Baustein B8",
+      "passage": "Im nächsten … habe ich vor, …. Wenn alles klappt, werde ich ….",
+      "prompt": "Wofür benutzt man diesen Baustein?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Pläne / Zukunft (plans / the future)"
+        },
+        {
+          "id": "b",
+          "text": "Rat geben (give advice)"
+        },
+        {
+          "id": "c",
+          "text": "auf schlechte Nachricht reagieren (react to bad news)"
+        },
+        {
+          "id": "d",
+          "text": "höflich ablehnen (politely decline)"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**B8** = Pläne / Zukunft (plans / the future).\n\nVorlage: Im nächsten {0} habe ich vor, {1}. Wenn alles klappt, werde ich {2}."
+    },
+    {
+      "id": "tb1-u55-l05-bausteine-b5-b8-ex13",
+      "type": "choice",
+      "title": "Baustein B8 · Welches Wort passt in die Lücke?",
+      "prompt": "Im nächsten … habe ich vor, …. ___ alles klappt, werde ich ….",
+      "options": [
+        {
+          "id": "a",
+          "text": "Wenn"
+        },
+        {
+          "id": "b",
+          "text": "Denn"
+        },
+        {
+          "id": "c",
+          "text": "Deshalb"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Full sentence: *Im nächsten … habe ich vor, …. Wenn alles klappt, werde ich ….*\n\n**wenn (Bedingung/Zeit)**: condition/time; verb-final, then main clause inverts.\n\n**Wenn** + … + **Verb-Ende**, **Verb** + Subjekt.\nBsp: Wenn es **regnet**, **bleibe ich** zu Hause."
+    },
+    {
+      "id": "tb1-u55-l05-bausteine-b5-b8-ex14",
+      "type": "choice",
+      "title": "Baustein B8+",
+      "passage": "Im nächsten … habe ich vor, …. Bevor ich losfahre, melde ich mich noch einmal bei dir.",
+      "prompt": "Wofür benutzt man diesen Baustein?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Vorschlag machen (make a suggestion)"
+        },
+        {
+          "id": "b",
+          "text": "über sich / Vorlieben (talk about yourself / preferences)"
+        },
+        {
+          "id": "c",
+          "text": "Pläne / Zukunft (plans / the future)"
+        },
+        {
+          "id": "d",
+          "text": "entschuldigen / begründen (apologise / give a reason)"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**B8+** = Pläne / Zukunft (plans / the future).\n\nVorlage: Im nächsten {0} habe ich vor, {1}. Bevor ich losfahre, melde ich mich noch einmal bei dir."
+    },
+    {
+      "id": "tb1-u55-l05-bausteine-b5-b8-ex15",
+      "type": "choice",
+      "title": "Baustein B8+ · Welches Wort passt in die Lücke?",
+      "prompt": "Im nächsten … habe ich vor, …. ___ ich losfahre, melde ich mich noch einmal bei dir.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Deshalb"
+        },
+        {
+          "id": "b",
+          "text": "Bevor"
+        },
+        {
+          "id": "c",
+          "text": "Denn"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Full sentence: *Im nächsten … habe ich vor, …. Bevor ich losfahre, melde ich mich noch einmal bei dir.*\n\n**Die zwei Anker**: Main clause: verb 2nd. After weil/dass/wenn/obwohl: verb at the end.\n\nHauptsatz: **Verb auf Position 2**. Nach weil/dass/wenn/obwohl: **Verb ans Ende**."
+    }
+  ]
+}

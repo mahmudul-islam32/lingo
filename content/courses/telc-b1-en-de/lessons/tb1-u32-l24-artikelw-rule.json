@@ -1,0 +1,129 @@
+{
+  "id": "tb1-u32-l24-artikelw-rule",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u32",
+  "title": "Determiners: dieser, jeder, welcher, alle: the rule",
+  "tip": "Time phrases without a preposition take the accusative: jeden Tag, nächsten Montag, letzte Woche, never „in jeden Tag“.",
+  "exercises": [
+    {
+      "id": "tb1-u32-l24-artikelw-rule-ex01",
+      "type": "explain",
+      "title": "Determiners: dieser, jeder, welcher, alle",
+      "body": "**dieser, jeder, welcher, mancher** decline like der/die/das: diesen Mann (acc.), diesem Mann (dat.). **jeder** is singular only, the plural is **alle**. Question: **welcher?** (choice) vs. **was für ein?** (kind/type).\n\n*Deutsch:* **dieser, jeder, welcher, mancher** deklinieren wie der/die/das: diesen Mann (Akk.), diesem Mann (Dat.). **jeder** nur Singular. Plural ist **alle**. Frage: **welcher?** (Auswahl) vs. **was für ein?** (Art/Typ).\n\n*German name:* Artikelwörter: dieser, jeder, welcher, alle",
+      "examples": [
+        {
+          "learning": "Jeden Tag lerne ich eine Stunde Deutsch.",
+          "known": "Every day I study for an hour. (accusative time phrase!)"
+        },
+        {
+          "learning": "Welchen Film möchtest du sehen?",
+          "known": "Which film would you like to see? (acc. masc.)"
+        },
+        {
+          "learning": "Mit diesem Zug bist du in einer Stunde da.",
+          "known": "With this train you're there in an hour."
+        }
+      ]
+    },
+    {
+      "id": "tb1-u32-l24-artikelw-rule-ex02",
+      "type": "explain",
+      "title": "Determiners: dieser, jeder, welcher, alle: step by step",
+      "body": "The der-words family, same endings as der/die/das:\n• **dieser** (= this one here) · **jeder** (sg.; plural: alle) · **welcher** (question) · **mancher, alle, beide**.\nForms by example: dies**er** Kurs (nom.) → dies**en** Kurs (acc.) → dies**em** Kurs (dat.) → in dies**er** Woche (dat. fem.).\nSuper important for letters: **time phrases in the accusative without a preposition**: jeden Tag, jeden Montag, jede Woche, jedes Jahr, diesen Samstag, letzte Woche, nächsten Monat.\n**welcher vs. was für ein**: Welches Auto nimmst du, das rote oder das blaue? (choice among known ones) · Was für ein Auto hast du? Einen Kombi. (type).\n\n## Auf Deutsch\n\nDie der-Wörter-Familie, gleiche Endungen wie der/die/das:\n• **dieser** (= genau der hier) · **jeder** (Sg.; Plural: alle) · **welcher** (Frage) · **mancher, alle, beide**.\nFormen am Beispiel: dies**er** Kurs (Nom.) → dies**en** Kurs (Akk.) → dies**em** Kurs (Dat.) → in dies**er** Woche (Dat. fem.).\nSuperwichtig für Briefe: **Zeitangaben im Akkusativ ohne Präposition**: jeden Tag, jeden Montag, jede Woche, jedes Jahr, diesen Samstag, letzte Woche, nächsten Monat.\n**welcher vs. was für ein**: Welches Auto nimmst du, das rote oder das blaue? (Auswahl aus bekannten) · Was für ein Auto hast du? Einen Kombi. (Typ).",
+      "examples": [
+        {
+          "learning": "Jeden Tag lerne ich eine Stunde Deutsch.",
+          "known": "Every day I study for an hour. (accusative time phrase!)"
+        },
+        {
+          "learning": "Welchen Film möchtest du sehen?",
+          "known": "Which film would you like to see? (acc. masc.)"
+        },
+        {
+          "learning": "Mit diesem Zug bist du in einer Stunde da.",
+          "known": "With this train you're there in an hour."
+        },
+        {
+          "learning": "Was für ein Handy suchst du?",
+          "known": "What kind of phone are you looking for?"
+        },
+        {
+          "learning": "Testlücke-Stil: „In ___ Wohnung gibt es zwei Bäder.“ → dieser",
+          "known": "in + dative feminine → dieser"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u32-l24-artikelw-rule-ex03",
+      "type": "explain",
+      "title": "Watch out & exam tip",
+      "body": "## Common trap\n\nTime phrases without a preposition take the accusative: jeden Tag, nächsten Montag, letzte Woche, never „in jeden Tag“.\n\n*Deutsch:* Zeitangaben ohne Präposition stehen im Akkusativ: jeden Tag, nächsten Montag, letzte Woche, nie „in jeden Tag“.\n\n## In the exam\n\n🎯 How telc tests it: **Sprachbausteine** gaps with diesen/diesem/dieser. Every appointment in the **letter** needs „diesen Samstag / nächste Woche“. **Speaking part 3**: „Welchen Tag nehmen wir?“\n\n*Deutsch:* 🎯 So testet telc das: **Sprachbausteine**-Lücken mit diesen/diesem/dieser. Im **Brief** brauchst du in jedem Terminvorschlag „diesen Samstag / nächste Woche“. **Sprechen Teil 3**: „Welchen Tag nehmen wir?“\n\n*Source:* Guide B1 · Sprachbausteine-Mastery"
+    },
+    {
+      "id": "tb1-u32-l24-artikelw-rule-ex04",
+      "type": "choice",
+      "title": "Fill the gap",
+      "prompt": "___ Tag stehe ich um 7 Uhr auf.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Jedem"
+        },
+        {
+          "id": "b",
+          "text": "Jeden"
+        },
+        {
+          "id": "c",
+          "text": "Jeder"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Zeitangabe ohne Präposition → Akkusativ: jeden Tag."
+    },
+    {
+      "id": "tb1-u32-l24-artikelw-rule-ex05",
+      "type": "choice",
+      "title": "Fill the gap",
+      "prompt": "Mit ___ Bus kommst du direkt zum Bahnhof.",
+      "options": [
+        {
+          "id": "a",
+          "text": "diesen"
+        },
+        {
+          "id": "b",
+          "text": "diesem"
+        },
+        {
+          "id": "c",
+          "text": "dieser"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "mit + Dativ, maskulin → diesem Bus."
+    },
+    {
+      "id": "tb1-u32-l24-artikelw-rule-ex06",
+      "type": "choice",
+      "title": "Fill the gap",
+      "prompt": "___ Kurs hast du gewählt, den Abendkurs?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Welcher"
+        },
+        {
+          "id": "b",
+          "text": "Welchem"
+        },
+        {
+          "id": "c",
+          "text": "Welchen"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "wählen + Akkusativ; die Antwort „den“ verrät es → Welchen."
+    }
+  ]
+}

@@ -1,0 +1,226 @@
+{
+  "id": "tb1-u05-l05-key-verbs-a1-5",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u05",
+  "title": "Key Verbs (A1) 5",
+  "tip": "Theme: Wichtige Verben (A1) (A1)",
+  "exercises": [
+    {
+      "id": "tb1-u05-l05-key-verbs-a1-5-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "verstehen",
+          "known": "to understand"
+        },
+        {
+          "id": "p2",
+          "learning": "brauchen",
+          "known": "to need"
+        },
+        {
+          "id": "p3",
+          "learning": "mögen",
+          "known": "to like"
+        },
+        {
+          "id": "p4",
+          "learning": "wissen",
+          "known": "to know (a fact)"
+        },
+        {
+          "id": "p5",
+          "learning": "sein",
+          "known": "to be"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u05-l05-key-verbs-a1-5-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which one means „to understand“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "kommen"
+        },
+        {
+          "id": "b",
+          "text": "gehen"
+        },
+        {
+          "id": "c",
+          "text": "verstehen"
+        },
+        {
+          "id": "d",
+          "text": "machen"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**verstehen** = to understand\n\n*Example:* Entschuldigung, ich verstehe die Frage nicht.\nSorry, I don't understand the question."
+    },
+    {
+      "id": "tb1-u05-l05-key-verbs-a1-5-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which one means „to need“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "spielen"
+        },
+        {
+          "id": "b",
+          "text": "essen (isst)"
+        },
+        {
+          "id": "c",
+          "text": "sprechen (spricht)"
+        },
+        {
+          "id": "d",
+          "text": "brauchen"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**brauchen** = to need\n\n*Example:* Für die Anmeldung brauchen Sie Ihren Pass.\nYou need your passport for the registration."
+    },
+    {
+      "id": "tb1-u05-l05-key-verbs-a1-5-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Entschuldigung, ich verstehe die Frage nicht.",
+      "tiles": [
+        "need",
+        "the",
+        "I",
+        "park",
+        "Sorry",
+        "going",
+        "understand",
+        "don't",
+        "question"
+      ],
+      "answers": [
+        "Sorry, I don't understand the question."
+      ],
+      "explanation": "**verstehen** = to understand"
+    },
+    {
+      "id": "tb1-u05-l05-key-verbs-a1-5-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which one means „to like“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "mögen (mag)"
+        },
+        {
+          "id": "b",
+          "text": "schreiben"
+        },
+        {
+          "id": "c",
+          "text": "verstehen"
+        },
+        {
+          "id": "d",
+          "text": "lernen"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**mögen (mag)** = to like\n\n*Example:* Meine Tochter mag keine Tomaten.\nMy daughter doesn't like tomatoes."
+    },
+    {
+      "id": "tb1-u05-l05-key-verbs-a1-5-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "You need your passport for the registration.",
+      "tiles": [
+        "Ihren",
+        "Sie",
+        "die",
+        "Nudeln",
+        "Anmeldung",
+        "brauchen",
+        "Pass",
+        "Für",
+        "Zug",
+        "schläft"
+      ],
+      "answers": [
+        "Für die Anmeldung brauchen Sie Ihren Pass."
+      ],
+      "explanation": "**brauchen** = to need"
+    },
+    {
+      "id": "tb1-u05-l05-key-verbs-a1-5-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which one means „to know (a fact)“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "arbeiten"
+        },
+        {
+          "id": "b",
+          "text": "schreiben"
+        },
+        {
+          "id": "c",
+          "text": "wissen (weiß)"
+        },
+        {
+          "id": "d",
+          "text": "lesen (liest)"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**wissen (weiß)** = to know (a fact)\n\n*Example:* Weißt du, wann der Zug abfährt?\nDo you know when the train leaves?"
+    },
+    {
+      "id": "tb1-u05-l05-key-verbs-a1-5-ex08",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u05-l05-key-verbs-a1-5-3.mp3"
+      },
+      "tiles": [
+        "keine",
+        "Maria",
+        "Meine",
+        "Die",
+        "Tochter",
+        "Tomaten",
+        "mag",
+        "Für"
+      ],
+      "answers": [
+        "Meine Tochter mag keine Tomaten."
+      ],
+      "explanation": "Meine Tochter mag keine Tomaten.\n*My daughter doesn't like tomatoes.*\n\n**mögen (mag)** = to like"
+    },
+    {
+      "id": "tb1-u05-l05-key-verbs-a1-5-ex09",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Weißt du, wann der Zug abfährt?",
+      "tiles": [
+        "when",
+        "Do",
+        "isn't",
+        "train",
+        "leaves",
+        "over",
+        "My",
+        "you",
+        "know",
+        "the"
+      ],
+      "answers": [
+        "Do you know when the train leaves?"
+      ],
+      "explanation": "**wissen (weiß)** = to know (a fact)"
+    }
+  ]
+}

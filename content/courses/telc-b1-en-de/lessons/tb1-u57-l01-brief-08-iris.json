@@ -1,0 +1,278 @@
+{
+  "id": "tb1-u57-l01-brief-08-iris",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u57",
+  "title": "Letter 8: Iris · Prüfung, Abschlussfeier & Urlaubspläne",
+  "tip": "Cover all four points; Anrede and Gruß are compulsory.",
+  "exercises": [
+    {
+      "id": "tb1-u57-l01-brief-08-iris-ex01",
+      "type": "explain",
+      "title": "Letter from Iris: Prüfung, Abschlussfeier & Urlaubspläne",
+      "body": "Read the letter. You will answer it in about 80 words and write something about each of the four points.\n\n## Prüfung, Abschlussfeier & Urlaubspläne\n\nLiebe(r) ........\nendlich habe ich die Deutscheprüfung hinter mir. Ich glaube, es ist gut gelaufen. Jetzt soll für unseren Kurs eine Party organisieren. Du hast doch kürzlich erzählt, dass Du für Euren Kurs auch ein Abschlussfest organsiert hast. Sicher kannst du mir ein paar Tipps geben. Ich habe mir gedacht, wir könnten vielleicht in einem Restaurant feiern .Da kann jeder essen und trinken, was er will. Was meinst Du? Essen zu kochen ist doch ziemlich viel Arbeit. und natürlich brauchen wir Musik. Welche Musik ist am besten geeignet? Was schlägst du vor? Melde Dich bald.\nIch freue mich schon auf deine Antwort.\n\nLiebe Grüße\nIris\n\n## Task\n\n**Antworten Sie Ihrer Bekannten. Schreiben Sie etwas zu allen vier Punkten:**\n1. Reaktion auf die Prüfung\n2. Wo feiern? Restaurant- Ihre Meinung\n3. Welche Musik\n4. Urlaubpläne\n\nSource video: https://www.youtube.com/watch?v=gZexhnpUuvI\n\n## Notes on the source\n\n- Quelle: 'Deutscheprüfung', 'organsiert', 'Urlaubpläne'. Tippfehler.\n- Aufgabentext: 'Jetzt soll für unseren Kurs eine Party organisieren'. Subjekt fehlt (vermutlich 'soll ich').\n- Beispieltext bricht mitten im Satz ab: 'und das ist für mich .'"
+    },
+    {
+      "id": "tb1-u57-l01-brief-08-iris-ex02",
+      "type": "explain",
+      "title": "Plan: one building block per point",
+      "body": "For each Leitpunkt pick a Baustein and fill it in:\n\n**1. Reaktion auf die Prüfung**\nBaustein B1c · auf gute Nachricht reagieren (react to good news): *Über … habe ich mich sehr gefreut, das ist wirklich eine tolle Nachricht!*\n→ Über deine bestandene Deutschprüfung habe ich mich sehr gefreut, das ist wirklich eine tolle Nachricht!\n\n**2. Wo feiern? Restaurant- Ihre Meinung**\nBaustein B4 · Vorschlag machen (make a suggestion): *Ich hätte einen Vorschlag: Wir könnten …, denn das wäre nicht nur …, sondern auch …. Was hältst du davon?*\n→ Ich hätte einen Vorschlag: Wir könnten die Party in einem Restaurant feiern, denn das wäre nicht nur einfacher, sondern auch gemütlicher. Was hältst du davon?\n\n**3. Welche Musik**\nBaustein B4+ · Vorschlag machen (make a suggestion): *Übrigens hätte ich noch einen Vorschlag: Wir könnten …. Je früher wir …, desto … wird es.*\n→ Übrigens hätte ich noch einen Vorschlag: Wir könnten Rock- und Popmusik spielen. Je früher wir die Lieder aussuchen, desto besser wird es.\n\n**4. Urlaubpläne**\nBaustein B8 · Pläne / Zukunft (plans / the future): *Im nächsten … habe ich vor, …. Wenn alles klappt, werde ich ….*\n→ Im nächsten Sommer habe ich vor, eine Woche nach Österreich zu fahren. Wenn alles klappt, werde ich dort alte Freunde besuchen.",
+      "examples": [
+        {
+          "learning": "Über deine bestandene Deutschprüfung habe ich mich sehr gefreut, das ist wirklich eine tolle Nachricht!",
+          "known": "Point 1: react to good news (B1c)"
+        },
+        {
+          "learning": "Ich hätte einen Vorschlag: Wir könnten die Party in einem Restaurant feiern, denn das wäre nicht nur einfacher, sondern auch gemütlicher. Was hältst du davon?",
+          "known": "Point 2: make a suggestion (B4)"
+        },
+        {
+          "learning": "Übrigens hätte ich noch einen Vorschlag: Wir könnten Rock- und Popmusik spielen. Je früher wir die Lieder aussuchen, desto besser wird es.",
+          "known": "Point 3: make a suggestion (B4+)"
+        },
+        {
+          "learning": "Im nächsten Sommer habe ich vor, eine Woche nach Österreich zu fahren. Wenn alles klappt, werde ich dort alte Freunde besuchen.",
+          "known": "Point 4: plans / the future (B8)"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u57-l01-brief-08-iris-ex03",
+      "type": "choice",
+      "title": "Leitpunkt 1",
+      "prompt": "Welcher Satz passt zum Leitpunkt „Reaktion auf die Prüfung“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Im nächsten Sommer habe ich vor, eine Woche nach Österreich zu fahren. Wenn alles klappt, werde ich dort alte Freunde besuchen."
+        },
+        {
+          "id": "b",
+          "text": "Über deine bestandene Deutschprüfung habe ich mich sehr gefreut, das ist wirklich eine tolle Nachricht!"
+        },
+        {
+          "id": "c",
+          "text": "Übrigens hätte ich noch einen Vorschlag: Wir könnten Rock- und Popmusik spielen. Je früher wir die Lieder aussuchen, desto besser wird es."
+        },
+        {
+          "id": "d",
+          "text": "Ich hätte einen Vorschlag: Wir könnten die Party in einem Restaurant feiern, denn das wäre nicht nur einfacher, sondern auch gemütlicher. Was hältst du davon?"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Baustein **B1c** · auf gute Nachricht reagieren (react to good news): Über … habe ich mich sehr gefreut, das ist wirklich eine tolle Nachricht!"
+    },
+    {
+      "id": "tb1-u57-l01-brief-08-iris-ex04",
+      "type": "choice",
+      "title": "Leitpunkt 2",
+      "prompt": "Welcher Satz passt zum Leitpunkt „Wo feiern? Restaurant- Ihre Meinung“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Im nächsten Sommer habe ich vor, eine Woche nach Österreich zu fahren. Wenn alles klappt, werde ich dort alte Freunde besuchen."
+        },
+        {
+          "id": "b",
+          "text": "Ich hätte einen Vorschlag: Wir könnten die Party in einem Restaurant feiern, denn das wäre nicht nur einfacher, sondern auch gemütlicher. Was hältst du davon?"
+        },
+        {
+          "id": "c",
+          "text": "Übrigens hätte ich noch einen Vorschlag: Wir könnten Rock- und Popmusik spielen. Je früher wir die Lieder aussuchen, desto besser wird es."
+        },
+        {
+          "id": "d",
+          "text": "Über deine bestandene Deutschprüfung habe ich mich sehr gefreut, das ist wirklich eine tolle Nachricht!"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Baustein **B4** · Vorschlag machen (make a suggestion): Ich hätte einen Vorschlag: Wir könnten …, denn das wäre nicht nur …, sondern auch …. Was hältst du davon?"
+    },
+    {
+      "id": "tb1-u57-l01-brief-08-iris-ex05",
+      "type": "choice",
+      "title": "Leitpunkt 3",
+      "prompt": "Welcher Satz passt zum Leitpunkt „Welche Musik“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Übrigens hätte ich noch einen Vorschlag: Wir könnten Rock- und Popmusik spielen. Je früher wir die Lieder aussuchen, desto besser wird es."
+        },
+        {
+          "id": "b",
+          "text": "Im nächsten Sommer habe ich vor, eine Woche nach Österreich zu fahren. Wenn alles klappt, werde ich dort alte Freunde besuchen."
+        },
+        {
+          "id": "c",
+          "text": "Über deine bestandene Deutschprüfung habe ich mich sehr gefreut, das ist wirklich eine tolle Nachricht!"
+        },
+        {
+          "id": "d",
+          "text": "Ich hätte einen Vorschlag: Wir könnten die Party in einem Restaurant feiern, denn das wäre nicht nur einfacher, sondern auch gemütlicher. Was hältst du davon?"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Baustein **B4+** · Vorschlag machen (make a suggestion): Übrigens hätte ich noch einen Vorschlag: Wir könnten …. Je früher wir …, desto … wird es."
+    },
+    {
+      "id": "tb1-u57-l01-brief-08-iris-ex06",
+      "type": "choice",
+      "title": "Leitpunkt 4",
+      "prompt": "Welcher Satz passt zum Leitpunkt „Urlaubpläne“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Im nächsten Sommer habe ich vor, eine Woche nach Österreich zu fahren. Wenn alles klappt, werde ich dort alte Freunde besuchen."
+        },
+        {
+          "id": "b",
+          "text": "Ich hätte einen Vorschlag: Wir könnten die Party in einem Restaurant feiern, denn das wäre nicht nur einfacher, sondern auch gemütlicher. Was hältst du davon?"
+        },
+        {
+          "id": "c",
+          "text": "Übrigens hätte ich noch einen Vorschlag: Wir könnten Rock- und Popmusik spielen. Je früher wir die Lieder aussuchen, desto besser wird es."
+        },
+        {
+          "id": "d",
+          "text": "Über deine bestandene Deutschprüfung habe ich mich sehr gefreut, das ist wirklich eine tolle Nachricht!"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Baustein **B8** · Pläne / Zukunft (plans / the future): Im nächsten … habe ich vor, …. Wenn alles klappt, werde ich …."
+    },
+    {
+      "id": "tb1-u57-l01-brief-08-iris-ex07",
+      "type": "choice",
+      "title": "Leitpunkt 2 · Welches Wort passt in die Lücke?",
+      "prompt": "Ich hätte einen Vorschlag: Wir könnten die Party in einem Restaurant feiern, ___ das wäre nicht nur einfacher, sondern auch gemütlicher. Was hältst du davon?",
+      "options": [
+        {
+          "id": "a",
+          "text": "denn"
+        },
+        {
+          "id": "b",
+          "text": "weil"
+        },
+        {
+          "id": "c",
+          "text": "deshalb"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Full sentence: *Ich hätte einen Vorschlag: Wir könnten die Party in einem Restaurant feiern, denn das wäre nicht nur einfacher, sondern auch gemütlicher. Was hältst du davon?*\n\n**denn (Grund, Position 0)**: reason but normal word order (like und/aber).\n\n…, **denn** + Subjekt + Verb. (normale Wortstellung!)\nBsp: Ich bleibe zu Hause, denn **ich bin** müde."
+    },
+    {
+      "id": "tb1-u57-l01-brief-08-iris-ex08",
+      "type": "choice",
+      "title": "Leitpunkt 4 · Welches Wort passt in die Lücke?",
+      "prompt": "Im nächsten Sommer habe ich vor, eine Woche nach Österreich zu fahren. ___ alles klappt, werde ich dort alte Freunde besuchen.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Deshalb"
+        },
+        {
+          "id": "b",
+          "text": "Wenn"
+        },
+        {
+          "id": "c",
+          "text": "Denn"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Full sentence: *Im nächsten Sommer habe ich vor, eine Woche nach Österreich zu fahren. Wenn alles klappt, werde ich dort alte Freunde besuchen.*\n\n**wenn (Bedingung/Zeit)**: condition/time; verb-final, then main clause inverts.\n\n**Wenn** + … + **Verb-Ende**, **Verb** + Subjekt.\nBsp: Wenn es **regnet**, **bleibe ich** zu Hause."
+    },
+    {
+      "id": "tb1-u57-l01-brief-08-iris-ex09",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/w-brief-8-0.mp3"
+      },
+      "tiles": [
+        "gefreut",
+        "es",
+        "du",
+        "das",
+        "deine",
+        "habe",
+        "wirklich",
+        "bestandene",
+        "ist",
+        "sehr",
+        "Rock",
+        "ich",
+        "eine",
+        "mich",
+        "Deutschprüfung",
+        "Über",
+        "Nachricht",
+        "tolle"
+      ],
+      "answers": [
+        "Über deine bestandene Deutschprüfung habe ich mich sehr gefreut, das ist wirklich eine tolle Nachricht!"
+      ]
+    },
+    {
+      "id": "tb1-u57-l01-brief-08-iris-ex10",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/w-brief-8-1.mp3"
+      },
+      "tiles": [
+        "eine",
+        "wir",
+        "werde",
+        "habe",
+        "besser",
+        "ich",
+        "Wenn",
+        "Sommer",
+        "alles",
+        "ich",
+        "alte",
+        "vor",
+        "Österreich",
+        "Woche",
+        "dort",
+        "Im",
+        "nächsten",
+        "besuchen",
+        "klappt",
+        "fahren",
+        "Freunde",
+        "in",
+        "zu",
+        "nach"
+      ],
+      "answers": [
+        "Im nächsten Sommer habe ich vor, eine Woche nach Österreich zu fahren. Wenn alles klappt, werde ich dort alte Freunde besuchen."
+      ]
+    },
+    {
+      "id": "tb1-u57-l01-brief-08-iris-ex11",
+      "type": "task",
+      "skill": "writing",
+      "title": "E-Mail an Iris: Prüfung, Abschlussfeier & Urlaubspläne",
+      "task": "**Prüfung, Abschlussfeier & Urlaubspläne**\n\nYou received this letter:\n\nLiebe(r) ........\nendlich habe ich die Deutscheprüfung hinter mir. Ich glaube, es ist gut gelaufen. Jetzt soll für unseren Kurs eine Party organisieren. Du hast doch kürzlich erzählt, dass Du für Euren Kurs auch ein Abschlussfest organsiert hast. Sicher kannst du mir ein paar Tipps geben. Ich habe mir gedacht, wir könnten vielleicht in einem Restaurant feiern .Da kann jeder essen und trinken, was er will. Was meinst Du? Essen zu kochen ist doch ziemlich viel Arbeit. und natürlich brauchen wir Musik. Welche Musik ist am besten geeignet? Was schlägst du vor? Melde Dich bald.\nIch freue mich schon auf deine Antwort.\nLiebe Grüße\nIris\n\n**Antworten Sie Ihrer Bekannten. Schreiben Sie etwas zu allen vier Punkten:**\n\nWrite about 80 words (30 minutes). Anrede and Gruß are compulsory.",
+      "points": [
+        "Reaktion auf die Prüfung",
+        "Wo feiern? Restaurant- Ihre Meinung",
+        "Welche Musik",
+        "Urlaubpläne"
+      ],
+      "phrases": [
+        "Liebe Iris,",
+        "vielen Dank für deinen Brief. Ich habe mich sehr gefreut, weil ich schon lange nichts von dir gehört habe.",
+        "Über … habe ich mich sehr gefreut, das ist wirklich eine tolle Nachricht!",
+        "Ich hätte einen Vorschlag: Wir könnten …, denn das wäre nicht nur …, sondern auch …. Was hältst du davon?",
+        "Übrigens hätte ich noch einen Vorschlag: Wir könnten …. Je früher wir …, desto … wird es.",
+        "Im nächsten … habe ich vor, …. Wenn alles klappt, werde ich ….",
+        "So, das war's für heute. Ich hoffe, dass es dir gut geht. Es wäre schön, wenn wir uns bald einmal wiedersehen könnten. Schreib mir bitte bald zurück!",
+        "Viele Grüße"
+      ],
+      "modelAnswer": "## Model answer (Musterlösung)\n\nHamburg, den 9. August 2026\n\nLiebe Iris,\n\nvielen Dank für deinen Brief. Ich habe mich sehr gefreut, weil ich schon lange nichts von dir gehört habe.\n\nÜber deine bestandene Deutschprüfung habe ich mich sehr gefreut, das ist wirklich eine tolle Nachricht!\n\nIch hätte einen Vorschlag: Wir könnten die Party in einem Restaurant feiern, denn das wäre nicht nur einfacher, sondern auch gemütlicher. Was hältst du davon?\n\nÜbrigens hätte ich noch einen Vorschlag: Wir könnten Rock- und Popmusik spielen. Je früher wir die Lieder aussuchen, desto besser wird es.\n\nIm nächsten Sommer habe ich vor, eine Woche nach Österreich zu fahren. Wenn alles klappt, werde ich dort alte Freunde besuchen.\n\nSo, das war's für heute. Ich hoffe, dass es dir gut geht. Es wäre schön, wenn wir uns bald einmal wiedersehen könnten. Schreib mir bitte bald zurück!\n\nViele Grüße\ndein Arnob\n\n## Sample answer from the source video\n\n*This answer was written in the source video. It is not the model and may contain mistakes; check the notes on the source.*\n\nLiebe Iris,\nich habe deine E-Mail gelesen und mich sehr gefreut zu hören, dass du die Deutschprüfung abgeschlossen hast. Ich hoffe, alles ist bei dir in Ordnung. Nebenbei möchte ich auch wissen, wie du dich auf deine Deutschprüfung vorbereitet hast, da ich bald ebenfalls eine Deutschprüfung haben werde und das ist für mich . Außerdem finde ich deine Idee sehr gut und ich denke auch, dass du eine Party in einem Restaurant organisieren solltest, weil du nicht nur viel Zeit sparst, sondern auch einen angenehmen Raum hast. Damit die Stimmung auf der Party spannend wird, schlage ich dir vor, dass du Rock- oder Popmusik spielen könntest. Während der Party könnt ihr zusammen singen und tanzen. Weißt du, endlich habe ich meinen Urlaub geplant. Nach dem Abschluss werde ich eine Woche in Österreich verbringen, da ich dort viele Freunde habe. Ich kann sowohl sie besuchen als auch viele neue Dinge entdecken. Wie wäre es, wenn du mit mir in Urlaub kommst?\nSchreib mir bitte bald zurück, ich freue mich auf deine Antwort!\nViele Grüße.\n[ Name ]",
+      "explanation": "Notes on the source:\n\n- Quelle: 'Deutscheprüfung', 'organsiert', 'Urlaubpläne'. Tippfehler.\n- Aufgabentext: 'Jetzt soll für unseren Kurs eine Party organisieren'. Subjekt fehlt (vermutlich 'soll ich').\n- Beispieltext bricht mitten im Satz ab: 'und das ist für mich .'"
+    }
+  ]
+}

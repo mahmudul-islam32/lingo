@@ -1,0 +1,282 @@
+{
+  "id": "tb1-u22-l06-frequent-exam-adjectives-2",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u22",
+  "title": "Frequent Exam Adjectives 2",
+  "tip": "Theme: Adjektive: Prüfungshäufig (B1)",
+  "exercises": [
+    {
+      "id": "tb1-u22-l06-frequent-exam-adjectives-2-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "eigen",
+          "known": "own"
+        },
+        {
+          "id": "p2",
+          "learning": "wirklich",
+          "known": "real(ly)"
+        },
+        {
+          "id": "p3",
+          "learning": "endlich",
+          "known": "finally"
+        },
+        {
+          "id": "p4",
+          "learning": "bereits",
+          "known": "already (= schon)"
+        },
+        {
+          "id": "p5",
+          "learning": "inzwischen",
+          "known": "meanwhile / by now"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u22-l06-frequent-exam-adjectives-2-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which one means „own“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "sportlich"
+        },
+        {
+          "id": "b",
+          "text": "eigen"
+        },
+        {
+          "id": "c",
+          "text": "wenig"
+        },
+        {
+          "id": "d",
+          "text": "mehrere"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**eigen** = own\n\n*Example:* Endlich hat jedes Kind sein eigenes Zimmer.\nAt last each child has their own room."
+    },
+    {
+      "id": "tb1-u22-l06-frequent-exam-adjectives-2-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which one means „real(ly)“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "wirklich"
+        },
+        {
+          "id": "b",
+          "text": "weitere"
+        },
+        {
+          "id": "c",
+          "text": "bereits"
+        },
+        {
+          "id": "d",
+          "text": "privat"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**wirklich** = real(ly)\n\n*Example:* Das Essen in dem neuen Restaurant ist wirklich lecker.\nThe food in the new restaurant is really delicious."
+    },
+    {
+      "id": "tb1-u22-l06-frequent-exam-adjectives-2-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "At last each child has their own room.",
+      "tiles": [
+        "hat",
+        "eigenes",
+        "ich",
+        "Ali",
+        "Zimmer",
+        "jedes",
+        "Kind",
+        "Endlich",
+        "man",
+        "sein"
+      ],
+      "answers": [
+        "Endlich hat jedes Kind sein eigenes Zimmer."
+      ],
+      "explanation": "**eigen** = own"
+    },
+    {
+      "id": "tb1-u22-l06-frequent-exam-adjectives-2-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which one means „finally“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "telefonisch"
+        },
+        {
+          "id": "b",
+          "text": "wirklich"
+        },
+        {
+          "id": "c",
+          "text": "wenig"
+        },
+        {
+          "id": "d",
+          "text": "endlich"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**endlich** = finally\n\n*Example:* Nach drei Monaten habe ich endlich eine Wohnung gefunden.\nAfter three months I've finally found a flat."
+    },
+    {
+      "id": "tb1-u22-l06-frequent-exam-adjectives-2-ex06",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u22-l06-frequent-exam-adjectives-2-2.mp3"
+      },
+      "tiles": [
+        "auch",
+        "Endlich",
+        "Sohn",
+        "lecker",
+        "neuen",
+        "dem",
+        "Das",
+        "Restaurant",
+        "ist",
+        "wirklich",
+        "in",
+        "Essen"
+      ],
+      "answers": [
+        "Das Essen in dem neuen Restaurant ist wirklich lecker."
+      ],
+      "explanation": "Das Essen in dem neuen Restaurant ist wirklich lecker.\n*The food in the new restaurant is really delicious.*\n\n**wirklich** = real(ly)"
+    },
+    {
+      "id": "tb1-u22-l06-frequent-exam-adjectives-2-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which one means „already (= schon)“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "unsicher"
+        },
+        {
+          "id": "b",
+          "text": "aktiv"
+        },
+        {
+          "id": "c",
+          "text": "bereits"
+        },
+        {
+          "id": "d",
+          "text": "einzeln"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**bereits** = already (= schon)\n\n*Example:* Der Bus ist bereits abgefahren.\nThe bus has already left."
+    },
+    {
+      "id": "tb1-u22-l06-frequent-exam-adjectives-2-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Nach drei Monaten habe ich endlich eine Wohnung gefunden.",
+      "tiles": [
+        "mobile",
+        "flat",
+        "After",
+        "months",
+        "found",
+        "finally",
+        "a",
+        "three",
+        "I've",
+        "prices",
+        "time"
+      ],
+      "answers": [
+        "After three months I've finally found a flat."
+      ],
+      "explanation": "**endlich** = finally"
+    },
+    {
+      "id": "tb1-u22-l06-frequent-exam-adjectives-2-ex09",
+      "type": "multiple_choice",
+      "prompt": "Which one means „meanwhile / by now“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "bereits"
+        },
+        {
+          "id": "b",
+          "text": "einzeln"
+        },
+        {
+          "id": "c",
+          "text": "inzwischen"
+        },
+        {
+          "id": "d",
+          "text": "sportlich"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**inzwischen** = meanwhile / by now\n\n*Example:* Mein Sohn war lange krank, aber inzwischen geht es ihm besser.\nMy son was ill for a long time, but by now he's feeling better."
+    },
+    {
+      "id": "tb1-u22-l06-frequent-exam-adjectives-2-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "The bus has already left.",
+      "tiles": [
+        "Bus",
+        "abgefahren",
+        "unabhängig",
+        "Für",
+        "bereits",
+        "Der",
+        "Endlich",
+        "ist"
+      ],
+      "answers": [
+        "Der Bus ist bereits abgefahren."
+      ],
+      "explanation": "**bereits** = already (= schon)"
+    },
+    {
+      "id": "tb1-u22-l06-frequent-exam-adjectives-2-ex11",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u22-l06-frequent-exam-adjectives-2-5.mp3"
+      },
+      "tiles": [
+        "war",
+        "inzwischen",
+        "Sohn",
+        "ihm",
+        "von",
+        "Der",
+        "besser",
+        "lange",
+        "aber",
+        "es",
+        "gelacht",
+        "krank",
+        "geht",
+        "Mein"
+      ],
+      "answers": [
+        "Mein Sohn war lange krank, aber inzwischen geht es ihm besser."
+      ],
+      "explanation": "Mein Sohn war lange krank, aber inzwischen geht es ihm besser.\n*My son was ill for a long time, but by now he's feeling better.*\n\n**inzwischen** = meanwhile / by now"
+    }
+  ]
+}

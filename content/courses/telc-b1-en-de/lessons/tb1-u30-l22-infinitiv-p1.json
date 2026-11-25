@@ -1,0 +1,313 @@
+{
+  "id": "tb1-u30-l22-infinitiv-p1",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u30",
+  "title": "Infinitive with zu · um … zu · ohne … zu: Verb/Ausdruck + zu + Infinitiv & um … zu",
+  "tip": "“Ich muss zu arbeiten” is wrong, after modals the infinitive has NO zu. And “für zu lernen” doesn't exist: purpose = um … zu.",
+  "exercises": [
+    {
+      "id": "tb1-u30-l22-infinitiv-p1-ex01",
+      "type": "explain",
+      "title": "Verb/Ausdruck + zu + Infinitiv",
+      "body": "After versuchen, vergessen, anfangen, vorhaben, Lust/Zeit haben, es ist wichtig …: zu + infinitive at the end.\n\n*Deutsch:* Nach versuchen, vergessen, anfangen, vorhaben, Lust/Zeit haben, es ist wichtig … : zu + Infinitiv am Ende.\n\n## Pattern\n\nHauptsatz, (…) **zu** + **Infinitiv**.",
+      "examples": [
+        {
+          "learning": "Ich habe vergessen, dich anzurufen.",
+          "known": "I forgot to call you."
+        },
+        {
+          "learning": "Hast du Lust, ins Kino zu gehen?",
+          "known": "Do you feel like going to the cinema?"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u30-l22-infinitiv-p1-ex02",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I forgot to call you.",
+      "tiles": [
+        "dich",
+        "anzurufen",
+        "Ich",
+        "habe",
+        "Um",
+        "vergessen",
+        "Deutsch",
+        "Es"
+      ],
+      "answers": [
+        "Ich habe vergessen, dich anzurufen."
+      ],
+      "explanation": "**Why:** Separable verb: zu goes in the middle (an-zu-rufen).\n\n*Warum:* Trennbares Verb: zu steht in der Mitte (an-zu-rufen)."
+    },
+    {
+      "id": "tb1-u30-l22-infinitiv-p1-ex03",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Do you feel like going to the cinema?",
+      "tiles": [
+        "gehen",
+        "sich",
+        "zu",
+        "Lust",
+        "Kino",
+        "du",
+        "ins",
+        "hat",
+        "Hast",
+        "spart"
+      ],
+      "answers": [
+        "Hast du Lust, ins Kino zu gehen?"
+      ],
+      "explanation": "**Why:** Lust haben + zu + infinitive.\n\n*Warum:* Lust haben + zu + Infinitiv."
+    },
+    {
+      "id": "tb1-u30-l22-infinitiv-p1-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "It's important to practise regularly.",
+      "tiles": [
+        "wichtig",
+        "zu",
+        "üben",
+        "nach",
+        "Testlücke-Stil",
+        "regelmäßig",
+        "Es",
+        "mich",
+        "ist"
+      ],
+      "answers": [
+        "Es ist wichtig, regelmäßig zu üben."
+      ],
+      "explanation": "**Why:** Es ist wichtig + zu + infinitive.\n\n*Warum:* Es ist wichtig + zu + Infinitiv."
+    },
+    {
+      "id": "tb1-u30-l22-infinitiv-p1-ex05",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I try to speak German every day.",
+      "tiles": [
+        "Deutsch",
+        "sprechen",
+        "jeden",
+        "Ich",
+        "zu",
+        "ein",
+        "versuche",
+        "Wir",
+        "bezahlen",
+        "Tag"
+      ],
+      "answers": [
+        "Ich versuche, jeden Tag Deutsch zu sprechen."
+      ],
+      "explanation": "**Why:** zu sprechen goes at the very end.\n\n*Warum:* zu sprechen steht ganz am Ende."
+    },
+    {
+      "id": "tb1-u30-l22-infinitiv-p1-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "We're planning to go to Italy in the summer.",
+      "tiles": [
+        "Wir",
+        "Italien",
+        "Sommer",
+        "vor",
+        "nach",
+        "lerne",
+        "im",
+        "haben",
+        "fahren",
+        "versuche",
+        "zu",
+        "unterschrieben"
+      ],
+      "answers": [
+        "Wir haben vor, im Sommer nach Italien zu fahren."
+      ],
+      "explanation": "**Why:** vorhaben + zu + infinitive.\n\n*Warum:* vorhaben + zu + Infinitiv."
+    },
+    {
+      "id": "tb1-u30-l22-infinitiv-p1-ex07",
+      "type": "explain",
+      "title": "um … zu · Ziel",
+      "body": "um … zu = in order to (purpose), when the subject stays the same.\n\n*Deutsch:* um … zu = Ziel (Wozu?), wenn das Subjekt gleich bleibt.\n\n## Pattern\n\nHauptsatz, **um** + … + **zu** + **Infinitiv**.",
+      "examples": [
+        {
+          "learning": "Ich lerne Deutsch, um in Deutschland zu arbeiten.",
+          "known": "I'm learning German in order to work in Germany."
+        },
+        {
+          "learning": "Sie spart Geld, um ein Auto zu kaufen.",
+          "known": "She's saving money to buy a car."
+        }
+      ]
+    },
+    {
+      "id": "tb1-u30-l22-infinitiv-p1-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I'm learning German in order to work in Germany.",
+      "tiles": [
+        "ist",
+        "lerne",
+        "arbeiten",
+        "um",
+        "Deutschland",
+        "Er",
+        "schauen",
+        "zu",
+        "in",
+        "Deutsch",
+        "Ich"
+      ],
+      "answers": [
+        "Ich lerne Deutsch, um in Deutschland zu arbeiten."
+      ],
+      "explanation": "**Why:** Same subject (ich) → um … zu.\n\n*Warum:* Gleiches Subjekt (ich) → um … zu."
+    },
+    {
+      "id": "tb1-u30-l22-infinitiv-p1-ex09",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "She's saving money to buy a car.",
+      "tiles": [
+        "früh",
+        "Geld",
+        "zu",
+        "Sie",
+        "kaufen",
+        "um",
+        "den",
+        "Auto",
+        "spart",
+        "ein",
+        "bezahlen"
+      ],
+      "answers": [
+        "Sie spart Geld, um ein Auto zu kaufen."
+      ],
+      "explanation": "**Why:** Purpose: buying a car.\n\n*Warum:* Ziel: ein Auto kaufen."
+    },
+    {
+      "id": "tb1-u30-l22-infinitiv-p1-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I'm going to the bank to open an account.",
+      "tiles": [
+        "Blumen",
+        "Ich",
+        "um",
+        "bleiben",
+        "Er",
+        "Konto",
+        "eröffnen",
+        "zu",
+        "ein",
+        "Bank",
+        "zur",
+        "gehe"
+      ],
+      "answers": [
+        "Ich gehe zur Bank, um ein Konto zu eröffnen."
+      ],
+      "explanation": "**Why:** eröffnen isn't separable → zu eröffnen.\n\n*Warum:* eröffnen ist nicht trennbar → zu eröffnen."
+    },
+    {
+      "id": "tb1-u30-l22-infinitiv-p1-ex11",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "To stay fit, I go jogging every day.",
+      "tiles": [
+        "Tag",
+        "jeden",
+        "zu",
+        "joggen",
+        "bleiben",
+        "gehe",
+        "Um",
+        "fit",
+        "Italien",
+        "steht",
+        "den",
+        "ich"
+      ],
+      "answers": [
+        "Um fit zu bleiben, gehe ich jeden Tag joggen."
+      ],
+      "explanation": "**Why:** um-zu part first → main clause starts with the verb.\n\n*Warum:* um-zu-Teil zuerst → Hauptsatz mit Verb."
+    },
+    {
+      "id": "tb1-u30-l22-infinitiv-p1-ex12",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "He gets up early so as not to miss the bus.",
+      "tiles": [
+        "ist",
+        "zu",
+        "verpassen",
+        "auf",
+        "Er",
+        "steht",
+        "Bus",
+        "joggen",
+        "nicht",
+        "um",
+        "den",
+        "früh",
+        "jeden"
+      ],
+      "answers": [
+        "Er steht früh auf, um den Bus nicht zu verpassen."
+      ],
+      "explanation": "**Why:** nicht goes before zu verpassen.\n\n*Warum:* nicht steht vor zu verpassen."
+    },
+    {
+      "id": "tb1-u30-l22-infinitiv-p1-ex13",
+      "type": "choice",
+      "title": "Fill the gap",
+      "prompt": "Er ist gegangen, ohne sich ___.",
+      "options": [
+        {
+          "id": "a",
+          "text": "verabschiedet"
+        },
+        {
+          "id": "b",
+          "text": "verabschieden"
+        },
+        {
+          "id": "c",
+          "text": "zu verabschieden"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "ohne … zu + Infinitiv: ohne sich zu verabschieden."
+    },
+    {
+      "id": "tb1-u30-l22-infinitiv-p1-ex14",
+      "type": "choice",
+      "title": "Fill the gap",
+      "prompt": "Es ist wichtig, jeden Tag ein bisschen ___.",
+      "options": [
+        {
+          "id": "a",
+          "text": "üben"
+        },
+        {
+          "id": "b",
+          "text": "übt"
+        },
+        {
+          "id": "c",
+          "text": "zu üben"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Es ist wichtig/gut/schwer + zu-Infinitiv."
+    }
+  ]
+}

@@ -1,0 +1,288 @@
+{
+  "id": "tb1-u24-l12-frequent-exam-verbs-ii-5",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u24",
+  "title": "Frequent Exam Verbs II 5",
+  "tip": "Theme: Verben: Prüfungshäufig II (B1)",
+  "exercises": [
+    {
+      "id": "tb1-u24-l12-frequent-exam-verbs-ii-5-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "mitmachen",
+          "known": "to take part / join in"
+        },
+        {
+          "id": "p2",
+          "learning": "weitermachen",
+          "known": "to continue / carry on"
+        },
+        {
+          "id": "p3",
+          "learning": "sich lohnen",
+          "known": "to be worth it"
+        },
+        {
+          "id": "p4",
+          "learning": "reichen",
+          "known": "to be enough"
+        },
+        {
+          "id": "p5",
+          "learning": "wechseln",
+          "known": "to change / switch"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u24-l12-frequent-exam-verbs-ii-5-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which one means „to take part / join in“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "mitmachen"
+        },
+        {
+          "id": "b",
+          "text": "leiten"
+        },
+        {
+          "id": "c",
+          "text": "reichen"
+        },
+        {
+          "id": "d",
+          "text": "wechseln"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**mitmachen** = to take part / join in\n\n*Example:* Beim Fußballspiel im Park macht mein Sohn auch mit.\nMy son is joining in the football game in the park too."
+    },
+    {
+      "id": "tb1-u24-l12-frequent-exam-verbs-ii-5-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which one means „to continue / carry on“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "sitzen"
+        },
+        {
+          "id": "b",
+          "text": "behandeln"
+        },
+        {
+          "id": "c",
+          "text": "weitermachen"
+        },
+        {
+          "id": "d",
+          "text": "wechseln"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**weitermachen** = to continue / carry on\n\n*Example:* Nach der Pause machen wir mit der Arbeit weiter.\nAfter the break we'll carry on with the work."
+    },
+    {
+      "id": "tb1-u24-l12-frequent-exam-verbs-ii-5-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Beim Fußballspiel im Park macht mein Sohn auch mit.",
+      "tiles": [
+        "football",
+        "park",
+        "too",
+        "close",
+        "joining",
+        "son",
+        "in",
+        "game",
+        "in",
+        "are",
+        "a",
+        "the",
+        "My",
+        "is",
+        "the"
+      ],
+      "answers": [
+        "My son is joining in the football game in the park too."
+      ],
+      "explanation": "**mitmachen** = to take part / join in"
+    },
+    {
+      "id": "tb1-u24-l12-frequent-exam-verbs-ii-5-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which verb means „to be worth it“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "sich lohnen"
+        },
+        {
+          "id": "b",
+          "text": "dauern"
+        },
+        {
+          "id": "c",
+          "text": "sich befinden"
+        },
+        {
+          "id": "d",
+          "text": "sich verhalten (verhält sich)"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**sich lohnen** = to be worth it\n\n*Example:* Der Ausflug zum See lohnt sich wirklich.\nThe trip to the lake is really worth it."
+    },
+    {
+      "id": "tb1-u24-l12-frequent-exam-verbs-ii-5-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "After the break we'll carry on with the work.",
+      "tiles": [
+        "der",
+        "mit",
+        "machen",
+        "du",
+        "sie",
+        "Leute",
+        "Arbeit",
+        "Pause",
+        "weiter",
+        "Nach",
+        "der",
+        "wir"
+      ],
+      "answers": [
+        "Nach der Pause machen wir mit der Arbeit weiter."
+      ],
+      "explanation": "**weitermachen** = to continue / carry on"
+    },
+    {
+      "id": "tb1-u24-l12-frequent-exam-verbs-ii-5-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which one means „to be enough“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "abgeben (gibt ab)"
+        },
+        {
+          "id": "b",
+          "text": "nennen"
+        },
+        {
+          "id": "c",
+          "text": "reichen"
+        },
+        {
+          "id": "d",
+          "text": "sitzen"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**reichen** = to be enough\n\n*Example:* Zwei Liter Milch reichen für das Wochenende.\nTwo litres of milk are enough for the weekend."
+    },
+    {
+      "id": "tb1-u24-l12-frequent-exam-verbs-ii-5-ex08",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u24-l12-frequent-exam-verbs-ii-5-3.mp3"
+      },
+      "tiles": [
+        "sich",
+        "Die",
+        "zum",
+        "wirklich",
+        "Der",
+        "See",
+        "lohnt",
+        "Ausflug",
+        "das",
+        "Jahre"
+      ],
+      "answers": [
+        "Der Ausflug zum See lohnt sich wirklich."
+      ],
+      "explanation": "Der Ausflug zum See lohnt sich wirklich.\n*The trip to the lake is really worth it.*\n\n**sich lohnen** = to be worth it"
+    },
+    {
+      "id": "tb1-u24-l12-frequent-exam-verbs-ii-5-ex09",
+      "type": "multiple_choice",
+      "prompt": "Which one means „to change / switch“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "wechseln"
+        },
+        {
+          "id": "b",
+          "text": "hängen"
+        },
+        {
+          "id": "c",
+          "text": "verlieren"
+        },
+        {
+          "id": "d",
+          "text": "nennen"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**wechseln** = to change / switch\n\n*Example:* Maria möchte die Stelle wechseln, weil sie zu wenig verdient.\nMaria wants to change jobs because she earns too little."
+    },
+    {
+      "id": "tb1-u24-l12-frequent-exam-verbs-ii-5-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Zwei Liter Milch reichen für das Wochenende.",
+      "tiles": [
+        "years",
+        "of",
+        "litres",
+        "the",
+        "weekend",
+        "milk",
+        "are",
+        "o'clock",
+        "enough",
+        "Two",
+        "for",
+        "to"
+      ],
+      "answers": [
+        "Two litres of milk are enough for the weekend."
+      ],
+      "explanation": "**reichen** = to be enough"
+    },
+    {
+      "id": "tb1-u24-l12-frequent-exam-verbs-ii-5-ex11",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Maria wants to change jobs because she earns too little.",
+      "tiles": [
+        "sie",
+        "wenig",
+        "weil",
+        "zu",
+        "wechseln",
+        "Maria",
+        "möchte",
+        "Wir",
+        "Tisch",
+        "verdient",
+        "weiter",
+        "die",
+        "Stelle"
+      ],
+      "answers": [
+        "Maria möchte die Stelle wechseln, weil sie zu wenig verdient."
+      ],
+      "explanation": "**wechseln** = to change / switch"
+    }
+  ]
+}

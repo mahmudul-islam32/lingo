@@ -1,0 +1,240 @@
+{
+  "id": "tb1-u63-l02-simple-to-b1-2",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u63",
+  "title": "Simple → B1 words 2",
+  "tip": "Swap plain A2 words for B1 alternatives.",
+  "exercises": [
+    {
+      "id": "tb1-u63-l02-simple-to-b1-2-ex01",
+      "type": "explain",
+      "title": "Simple → B1 (Einfach → B1) 2",
+      "body": "Left the A2 word, right the B1 alternative:\n\n- und dann → **danach, anschließend**\n- auch → **außerdem, zusätzlich** (Satzanfang)\n- sehr wichtig → **besonders wichtig / von großer Bedeutung**\n- ich will → **ich möchte / ich würde gern** (höflicher)\n- ein bisschen → **etwas / ein wenig**\n- Ich mag … → **Ich interessiere mich für … / … gefällt mir**\n- Problem → **Schwierigkeit / Nachteil**\n- helfen bei → **unterstützen bei**\n- Ich glaube ja → **Das sehe ich auch so / Da stimme ich zu**"
+    },
+    {
+      "id": "tb1-u63-l02-simple-to-b1-2-ex02",
+      "type": "choice",
+      "prompt": "Was klingt besser als „und dann“? (B1-Variante)",
+      "options": [
+        {
+          "id": "a",
+          "text": "danach, anschließend"
+        },
+        {
+          "id": "b",
+          "text": "außerdem, zusätzlich"
+        },
+        {
+          "id": "c",
+          "text": "Schwierigkeit / Nachteil"
+        },
+        {
+          "id": "d",
+          "text": "Aufgaben erledigen"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "und dann → **danach, anschließend**"
+    },
+    {
+      "id": "tb1-u63-l02-simple-to-b1-2-ex03",
+      "type": "choice",
+      "prompt": "Was klingt besser als „auch“? (B1-Variante)",
+      "options": [
+        {
+          "id": "a",
+          "text": "mehrere Aspekte / Punkte"
+        },
+        {
+          "id": "b",
+          "text": "außerdem, zusätzlich"
+        },
+        {
+          "id": "c",
+          "text": "Menschen / Personen"
+        },
+        {
+          "id": "d",
+          "text": "sinnvoll, praktisch, angenehm, hilfreich"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "auch → **außerdem, zusätzlich** (Satzanfang)"
+    },
+    {
+      "id": "tb1-u63-l02-simple-to-b1-2-ex04",
+      "type": "choice",
+      "prompt": "Was klingt besser als „sehr wichtig“? (B1-Variante)",
+      "options": [
+        {
+          "id": "a",
+          "text": "besonders wichtig / von großer Bedeutung"
+        },
+        {
+          "id": "b",
+          "text": "erwähnen, betonen, hinzufügen"
+        },
+        {
+          "id": "c",
+          "text": "an einem Kurs teilnehmen / einen Kurs besuchen"
+        },
+        {
+          "id": "d",
+          "text": "außerdem, zusätzlich"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "sehr wichtig → **besonders wichtig / von großer Bedeutung**"
+    },
+    {
+      "id": "tb1-u63-l02-simple-to-b1-2-ex05",
+      "type": "choice",
+      "prompt": "Was klingt besser als „ich will“? (B1-Variante)",
+      "options": [
+        {
+          "id": "a",
+          "text": "ich möchte / ich würde gern"
+        },
+        {
+          "id": "b",
+          "text": "mehrere Aspekte / Punkte"
+        },
+        {
+          "id": "c",
+          "text": "besonders wichtig / von großer Bedeutung"
+        },
+        {
+          "id": "d",
+          "text": "außerdem, zusätzlich"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "ich will → **ich möchte / ich würde gern** (höflicher)"
+    },
+    {
+      "id": "tb1-u63-l02-simple-to-b1-2-ex06",
+      "type": "choice",
+      "prompt": "Was klingt besser als „ein bisschen“? (B1-Variante)",
+      "options": [
+        {
+          "id": "a",
+          "text": "mehrere Aspekte / Punkte"
+        },
+        {
+          "id": "b",
+          "text": "etwas / ein wenig"
+        },
+        {
+          "id": "c",
+          "text": "Schwierigkeit / Nachteil"
+        },
+        {
+          "id": "d",
+          "text": "außerdem, zusätzlich"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "ein bisschen → **etwas / ein wenig**"
+    },
+    {
+      "id": "tb1-u63-l02-simple-to-b1-2-ex07",
+      "type": "choice",
+      "prompt": "Was klingt besser als „Ich mag …“? (B1-Variante)",
+      "options": [
+        {
+          "id": "a",
+          "text": "danach, anschließend"
+        },
+        {
+          "id": "b",
+          "text": "Ich bin der Meinung, dass … / Meiner Meinung nach …"
+        },
+        {
+          "id": "c",
+          "text": "an einem Kurs teilnehmen / einen Kurs besuchen"
+        },
+        {
+          "id": "d",
+          "text": "Ich interessiere mich für … / … gefällt mir"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Ich mag … → **Ich interessiere mich für … / … gefällt mir**"
+    },
+    {
+      "id": "tb1-u63-l02-simple-to-b1-2-ex08",
+      "type": "choice",
+      "prompt": "Was klingt besser als „Problem“? (B1-Variante)",
+      "options": [
+        {
+          "id": "a",
+          "text": "Aufgaben erledigen"
+        },
+        {
+          "id": "b",
+          "text": "außerdem, zusätzlich"
+        },
+        {
+          "id": "c",
+          "text": "Schwierigkeit / Nachteil"
+        },
+        {
+          "id": "d",
+          "text": "Ich bin der Meinung, dass … / Meiner Meinung nach …"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Problem → **Schwierigkeit / Nachteil**"
+    },
+    {
+      "id": "tb1-u63-l02-simple-to-b1-2-ex09",
+      "type": "choice",
+      "prompt": "Was klingt besser als „helfen bei“? (B1-Variante)",
+      "options": [
+        {
+          "id": "a",
+          "text": "unterstützen bei"
+        },
+        {
+          "id": "b",
+          "text": "Aufgaben erledigen"
+        },
+        {
+          "id": "c",
+          "text": "jedoch, allerdings"
+        },
+        {
+          "id": "d",
+          "text": "Schwierigkeit / Nachteil"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "helfen bei → **unterstützen bei**"
+    },
+    {
+      "id": "tb1-u63-l02-simple-to-b1-2-ex10",
+      "type": "choice",
+      "prompt": "Was klingt besser als „Ich glaube ja“? (B1-Variante)",
+      "options": [
+        {
+          "id": "a",
+          "text": "Das sehe ich auch so / Da stimme ich zu"
+        },
+        {
+          "id": "b",
+          "text": "besonders wichtig / von großer Bedeutung"
+        },
+        {
+          "id": "c",
+          "text": "unterstützen bei"
+        },
+        {
+          "id": "d",
+          "text": "problematisch, ungünstig, nicht ideal"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Ich glaube ja → **Das sehe ich auch so / Da stimme ich zu**"
+    }
+  ]
+}

@@ -1,0 +1,249 @@
+{
+  "id": "tb1-u18-l05-future-plans-wishes-5",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u18",
+  "title": "Future Plans & Wishes 5",
+  "tip": "Theme: Zukunftspläne / Wünsche (B1)",
+  "exercises": [
+    {
+      "id": "tb1-u18-l05-future-plans-wishes-5-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "der Erfolg",
+          "known": "success"
+        },
+        {
+          "id": "p2",
+          "learning": "wahrscheinlich",
+          "known": "probably"
+        },
+        {
+          "id": "p3",
+          "learning": "die Zukunft",
+          "known": "future"
+        },
+        {
+          "id": "p4",
+          "learning": "der Plan",
+          "known": "plan"
+        },
+        {
+          "id": "p5",
+          "learning": "das Ziel",
+          "known": "goal"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u18-l05-future-plans-wishes-5-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „success: successful“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "der Erfolg, die Erfolge: erfolgreich"
+        },
+        {
+          "id": "b",
+          "text": "das Ziel, die Ziele: ein Ziel erreichen"
+        },
+        {
+          "id": "c",
+          "text": "der Wunsch, die Wünsche, sich (Dat.) wünschen"
+        },
+        {
+          "id": "d",
+          "text": "der Traum, die Träume, träumen von + Dat."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**der Erfolg** = success: successful\n*Plural: die Erfolge: erfolgreich*\n\n*Example:* Das kleine Café meiner Tante ist sehr erfolgreich.\nMy aunt's little café is very successful."
+    },
+    {
+      "id": "tb1-u18-l05-future-plans-wishes-5-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which one means „probably · certainly · maybe“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "wahrscheinlich · bestimmt · vielleicht"
+        },
+        {
+          "id": "b",
+          "text": "klappen. Ich hoffe, es klappt."
+        },
+        {
+          "id": "c",
+          "text": "hoffen auf + Akk. die Hoffnung, die Hoffnungen"
+        },
+        {
+          "id": "d",
+          "text": "aufhören mit + Dat. ↔ weitermachen"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**wahrscheinlich · bestimmt · vielleicht** = probably · certainly · maybe\n\n*Example:* Morgen regnet es wahrscheinlich, vielleicht bleiben wir zu Hause.\nIt will probably rain tomorrow, so maybe we'll stay at home."
+    },
+    {
+      "id": "tb1-u18-l05-future-plans-wishes-5-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "My aunt's little café is very successful.",
+      "tiles": [
+        "meiner",
+        "Café",
+        "Tante",
+        "Das",
+        "kleine",
+        "zu",
+        "ist",
+        "ich",
+        "Fahrrad",
+        "erfolgreich",
+        "sehr"
+      ],
+      "answers": [
+        "Das kleine Café meiner Tante ist sehr erfolgreich."
+      ],
+      "explanation": "**der Erfolg** = success: successful\n*Plural: die Erfolge: erfolgreich*"
+    },
+    {
+      "id": "tb1-u18-l05-future-plans-wishes-5-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means „After the exam I plan to do a B2 course, because I'd like to study in Germany later.“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Nach der Prüfung habe ich vor, einen B2-Kurs zu machen, weil ich später in Deutschland studieren möchte."
+        },
+        {
+          "id": "b",
+          "text": "Es tut mir leid, dass ich mich so spät melde."
+        },
+        {
+          "id": "c",
+          "text": "Das Gerät funktioniert leider nicht richtig."
+        },
+        {
+          "id": "d",
+          "text": "Wenn ich mehr Zeit hätte, würde ich jeden Tag zwei Stunden Deutsch lernen."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Nach der Prüfung habe ich vor, einen B2-Kurs zu machen, weil ich später in Deutschland studieren möchte.** = After the exam I plan to do a B2 course, because I'd like to study in Germany later.\n\n*Example:* Nach der Prüfung habe ich vor, einen B2-Kurs zu machen, weil ich später in Deutschland studieren möchte.\nAfter the exam I plan to do a B2 course, because I'd like to study in Germany later."
+    },
+    {
+      "id": "tb1-u18-l05-future-plans-wishes-5-ex06",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u18-l05-future-plans-wishes-5-2.mp3"
+      },
+      "tiles": [
+        "wahrscheinlich",
+        "ich",
+        "bleiben",
+        "Mein",
+        "regnet",
+        "es",
+        "Morgen",
+        "Eltern",
+        "vielleicht",
+        "Hause",
+        "wir",
+        "zu"
+      ],
+      "answers": [
+        "Morgen regnet es wahrscheinlich, vielleicht bleiben wir zu Hause."
+      ],
+      "explanation": "Morgen regnet es wahrscheinlich, vielleicht bleiben wir zu Hause.\n*It will probably rain tomorrow, so maybe we'll stay at home.*\n\n**wahrscheinlich · bestimmt · vielleicht** = probably · certainly · maybe"
+    },
+    {
+      "id": "tb1-u18-l05-future-plans-wishes-5-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means „If I had more time, I'd study German two hours a day. Konjunktiv II, Part B.“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Das Essen hat uns sehr gut geschmeckt, deshalb haben wir der Kellnerin ein gutes Trinkgeld gegeben."
+        },
+        {
+          "id": "b",
+          "text": "Nach der Prüfung habe ich vor, einen B2-Kurs zu machen, weil ich später in Deutschland studieren möchte."
+        },
+        {
+          "id": "c",
+          "text": "Wenn ich mehr Zeit hätte, würde ich jeden Tag zwei Stunden Deutsch lernen."
+        },
+        {
+          "id": "d",
+          "text": "Können Sie mir etwas empfehlen? Ich esse kein Fleisch, am liebsten esse ich Gemüsegerichte."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**Wenn ich mehr Zeit hätte, würde ich jeden Tag zwei Stunden Deutsch lernen.** = If I had more time, I'd study German two hours a day. Konjunktiv II, Part B.\n\n*Example:* Wenn ich mehr Zeit hätte, würde ich jeden Tag zwei Stunden Deutsch lernen.\nIf I had more time, I'd study German two hours a day. Konjunktiv II, Part B."
+    },
+    {
+      "id": "tb1-u18-l05-future-plans-wishes-5-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Nach der Prüfung habe ich vor, einen B2-Kurs zu machen, weil ich später in Deutschland studieren möchte.",
+      "tiles": [
+        "the",
+        "study",
+        "in",
+        "a",
+        "to",
+        "I'd",
+        "B2",
+        "exam",
+        "plan",
+        "course",
+        "later",
+        "summer",
+        "Germany",
+        "I",
+        "like",
+        "works",
+        "to",
+        "living",
+        "because",
+        "After",
+        "do"
+      ],
+      "answers": [
+        "After the exam I plan to do a B2 course, because I'd like to study in Germany later."
+      ],
+      "explanation": "**Nach der Prüfung habe ich vor, einen B2-Kurs zu machen, weil ich später in Deutschland studieren möchte.** = After the exam I plan to do a B2 course, because I'd like to study in Germany later."
+    },
+    {
+      "id": "tb1-u18-l05-future-plans-wishes-5-ex09",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "If I had more time, I'd study German two hours a day. Konjunktiv II, Part B.",
+      "tiles": [
+        "würde",
+        "ich",
+        "klappt",
+        "uns",
+        "Tag",
+        "jeden",
+        "lernen",
+        "Zeit",
+        "ich",
+        "zwei",
+        "Stunden",
+        "Familie",
+        "mehr",
+        "Wenn",
+        "hätte",
+        "Deutsch"
+      ],
+      "answers": [
+        "Wenn ich mehr Zeit hätte, würde ich jeden Tag zwei Stunden Deutsch lernen."
+      ],
+      "explanation": "**Wenn ich mehr Zeit hätte, würde ich jeden Tag zwei Stunden Deutsch lernen.** = If I had more time, I'd study German two hours a day. Konjunktiv II, Part B."
+    }
+  ]
+}

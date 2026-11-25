@@ -1,0 +1,232 @@
+{
+  "id": "tb1-u06-l03-work-jobs-a2-3",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u06",
+  "title": "Work & Jobs (A2) 3",
+  "tip": "Theme: Arbeit & Beruf (A2) (A2)",
+  "exercises": [
+    {
+      "id": "tb1-u06-l03-work-jobs-a2-3-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "die Besprechung",
+          "known": "meeting"
+        },
+        {
+          "id": "p2",
+          "learning": "der Kunde",
+          "known": "customer"
+        },
+        {
+          "id": "p3",
+          "learning": "anfangen",
+          "known": "to begin"
+        },
+        {
+          "id": "p4",
+          "learning": "aufhören",
+          "known": "to stop / finish"
+        },
+        {
+          "id": "p5",
+          "learning": "die Arbeit",
+          "known": "work"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u06-l03-work-jobs-a2-3-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „meeting“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Erfahrung, die Erfahrungen"
+        },
+        {
+          "id": "b",
+          "text": "die Besprechung, die Besprechungen"
+        },
+        {
+          "id": "c",
+          "text": "die Ausbildung"
+        },
+        {
+          "id": "d",
+          "text": "das Geld"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**die Besprechung** = meeting\n*Plural: die Besprechungen*\n\n*Example:* Die Besprechung mit dem Team dauert eine Stunde.\nThe meeting with the team lasts an hour."
+    },
+    {
+      "id": "tb1-u06-l03-work-jobs-a2-3-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „customer“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "der Kunde, die Kunden"
+        },
+        {
+          "id": "b",
+          "text": "die Besprechung, die Besprechungen"
+        },
+        {
+          "id": "c",
+          "text": "das Geld"
+        },
+        {
+          "id": "d",
+          "text": "die Arbeit"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**der Kunde** = customer\n*Plural: die Kunden*\n\n*Example:* Heute waren viele Kunden im Laden.\nThere were a lot of customers in the shop today."
+    },
+    {
+      "id": "tb1-u06-l03-work-jobs-a2-3-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Die Besprechung mit dem Team dauert eine Stunde.",
+      "tiles": [
+        "with",
+        "On",
+        "team",
+        "hour",
+        "appointment",
+        "an",
+        "lasts",
+        "meeting",
+        "o'clock",
+        "the",
+        "The"
+      ],
+      "answers": [
+        "The meeting with the team lasts an hour."
+      ],
+      "explanation": "**die Besprechung** = meeting\n*Plural: die Besprechungen*"
+    },
+    {
+      "id": "tb1-u06-l03-work-jobs-a2-3-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which one means „to begin“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "aufhören"
+        },
+        {
+          "id": "b",
+          "text": "das Geld"
+        },
+        {
+          "id": "c",
+          "text": "selbstständig"
+        },
+        {
+          "id": "d",
+          "text": "anfangen (fängt an)"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**anfangen (fängt an)** = to begin\n\n*Example:* Meine Arbeit fängt jeden Tag um acht Uhr an.\nMy work starts at eight o'clock every day."
+    },
+    {
+      "id": "tb1-u06-l03-work-jobs-a2-3-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "There were a lot of customers in the shop today.",
+      "tiles": [
+        "waren",
+        "im",
+        "Heute",
+        "viele",
+        "Bäckerei",
+        "macht",
+        "Kunden",
+        "gehe",
+        "Laden"
+      ],
+      "answers": [
+        "Heute waren viele Kunden im Laden."
+      ],
+      "explanation": "**der Kunde** = customer\n*Plural: die Kunden*"
+    },
+    {
+      "id": "tb1-u06-l03-work-jobs-a2-3-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which one means „to stop / finish“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "selbstständig"
+        },
+        {
+          "id": "b",
+          "text": "die Stelle, die Stellen"
+        },
+        {
+          "id": "c",
+          "text": "anfangen (fängt an)"
+        },
+        {
+          "id": "d",
+          "text": "aufhören"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**aufhören** = to stop / finish\n\n*Example:* Am Freitag höre ich schon um zwei Uhr auf.\nOn Friday I finish work at two o'clock."
+    },
+    {
+      "id": "tb1-u06-l03-work-jobs-a2-3-ex08",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u06-l03-work-jobs-a2-3-3.mp3"
+      },
+      "tiles": [
+        "fängt",
+        "acht",
+        "an",
+        "jeden",
+        "Meine",
+        "um",
+        "Job",
+        "Arbeit",
+        "Am",
+        "Uhr",
+        "neuen",
+        "Tag"
+      ],
+      "answers": [
+        "Meine Arbeit fängt jeden Tag um acht Uhr an."
+      ],
+      "explanation": "Meine Arbeit fängt jeden Tag um acht Uhr an.\n*My work starts at eight o'clock every day.*\n\n**anfangen (fängt an)** = to begin"
+    },
+    {
+      "id": "tb1-u06-l03-work-jobs-a2-3-ex09",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Am Freitag höre ich schon um zwei Uhr auf.",
+      "tiles": [
+        "of",
+        "My",
+        "On",
+        "Friday",
+        "at",
+        "I",
+        "o'clock",
+        "work",
+        "two",
+        "finish",
+        "wages"
+      ],
+      "answers": [
+        "On Friday I finish work at two o'clock."
+      ],
+      "explanation": "**aufhören** = to stop / finish"
+    }
+  ]
+}

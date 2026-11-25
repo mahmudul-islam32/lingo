@@ -1,0 +1,252 @@
+{
+  "id": "tb1-u21-l06-clause-patterns-connectors-2",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u21",
+  "title": "Clause Patterns & Connectors 2",
+  "tip": "Theme: Sätze. Muster: Nebensätze & Konnektoren (B1)",
+  "exercises": [
+    {
+      "id": "tb1-u21-l06-clause-patterns-connectors-2-ex01",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means „I learn German so that I find a better job. (damit)“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ich lerne Deutsch, damit ich eine bessere Arbeit finde."
+        },
+        {
+          "id": "b",
+          "text": "Wir können entweder ins Kino gehen oder zu Hause bleiben."
+        },
+        {
+          "id": "c",
+          "text": "Beeil dich, sonst verpassen wir den Bus!"
+        },
+        {
+          "id": "d",
+          "text": "Ich warte, bis du fertig bist."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Ich lerne Deutsch, damit ich eine bessere Arbeit finde.** = I learn German so that I find a better job. (damit)\n\n*Example:* Ich lerne Deutsch, damit ich eine bessere Arbeit finde.\nI learn German so that I find a better job. (damit)"
+    },
+    {
+      "id": "tb1-u21-l06-clause-patterns-connectors-2-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means „I try to read a little every day. (Infinitiv mit zu)“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Bevor ich schlafen gehe, wiederhole ich die Wörter."
+        },
+        {
+          "id": "b",
+          "text": "Wir können entweder ins Kino gehen oder zu Hause bleiben."
+        },
+        {
+          "id": "c",
+          "text": "Es hat geregnet, trotzdem sind wir spazieren gegangen."
+        },
+        {
+          "id": "d",
+          "text": "Ich versuche, jeden Tag ein bisschen zu lesen."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**Ich versuche, jeden Tag ein bisschen zu lesen.** = I try to read a little every day. (Infinitiv mit zu)\n\n*Example:* Ich versuche, jeden Tag ein bisschen zu lesen.\nI try to read a little every day. (Infinitiv mit zu)"
+    },
+    {
+      "id": "tb1-u21-l06-clause-patterns-connectors-2-ex03",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I learn German so that I find a better job. (damit)",
+      "tiles": [
+        "damit",
+        "bessere",
+        "finde",
+        "studieren",
+        "Ich",
+        "Sie",
+        "eine",
+        "Deutsch",
+        "Arbeit",
+        "kam",
+        "lerne",
+        "ich"
+      ],
+      "answers": [
+        "Ich lerne Deutsch, damit ich eine bessere Arbeit finde."
+      ],
+      "explanation": "**Ich lerne Deutsch, damit ich eine bessere Arbeit finde.** = I learn German so that I find a better job. (damit)"
+    },
+    {
+      "id": "tb1-u21-l06-clause-patterns-connectors-2-ex04",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means „I came to Germany in order to study here. (um … zu)“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Sowohl meine Frau als auch ich arbeiten im Moment."
+        },
+        {
+          "id": "b",
+          "text": "Die Frau, mit der ich arbeite, kommt aus Italien."
+        },
+        {
+          "id": "c",
+          "text": "Ich bin nach Deutschland gekommen, um hier zu studieren."
+        },
+        {
+          "id": "d",
+          "text": "Als ich nach Deutschland kam, konnte ich nur wenig Deutsch."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**Ich bin nach Deutschland gekommen, um hier zu studieren.** = I came to Germany in order to study here. (um … zu)\n\n*Example:* Ich bin nach Deutschland gekommen, um hier zu studieren.\nI came to Germany in order to study here. (um … zu)"
+    },
+    {
+      "id": "tb1-u21-l06-clause-patterns-connectors-2-ex05",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u21-l06-clause-patterns-connectors-2-2.mp3"
+      },
+      "tiles": [
+        "jeden",
+        "lesen",
+        "abfährt",
+        "versuche",
+        "empfohlen",
+        "bisschen",
+        "Zeit",
+        "Tag",
+        "Ich",
+        "ein",
+        "zu"
+      ],
+      "answers": [
+        "Ich versuche, jeden Tag ein bisschen zu lesen."
+      ],
+      "explanation": "Ich versuche, jeden Tag ein bisschen zu lesen.\n*I try to read a little every day. (Infinitiv mit zu)*\n\n**Ich versuche, jeden Tag ein bisschen zu lesen.** = I try to read a little every day. (Infinitiv mit zu)"
+    },
+    {
+      "id": "tb1-u21-l06-clause-patterns-connectors-2-ex06",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means „Do you know whether the course takes place tomorrow? (ob)“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ich warte, bis du fertig bist."
+        },
+        {
+          "id": "b",
+          "text": "Bevor ich schlafen gehe, wiederhole ich die Wörter."
+        },
+        {
+          "id": "c",
+          "text": "Weißt du, ob der Kurs morgen stattfindet?"
+        },
+        {
+          "id": "d",
+          "text": "Zwar ist die Wohnung klein, aber sie ist sehr gemütlich."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**Weißt du, ob der Kurs morgen stattfindet?** = Do you know whether the course takes place tomorrow? (ob)\n\n*Example:* Weißt du, ob der Kurs morgen stattfindet?\nDo you know whether the course takes place tomorrow? (ob)"
+    },
+    {
+      "id": "tb1-u21-l06-clause-patterns-connectors-2-ex07",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I came to Germany in order to study here. (um … zu)",
+      "tiles": [
+        "studieren",
+        "bin",
+        "Deutschland",
+        "um",
+        "zu",
+        "neben",
+        "der",
+        "gekommen",
+        "Ich",
+        "Seitdem",
+        "hier",
+        "nach"
+      ],
+      "answers": [
+        "Ich bin nach Deutschland gekommen, um hier zu studieren."
+      ],
+      "explanation": "**Ich bin nach Deutschland gekommen, um hier zu studieren.** = I came to Germany in order to study here. (um … zu)"
+    },
+    {
+      "id": "tb1-u21-l06-clause-patterns-connectors-2-ex08",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means „Can you tell me when the train leaves? (indirect question)“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Können Sie mir sagen, wann der Zug abfährt?"
+        },
+        {
+          "id": "b",
+          "text": "Wir können entweder ins Kino gehen oder zu Hause bleiben."
+        },
+        {
+          "id": "c",
+          "text": "Bevor ich schlafen gehe, wiederhole ich die Wörter."
+        },
+        {
+          "id": "d",
+          "text": "Ich hoffe, dass wir uns bald wiedersehen."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Können Sie mir sagen, wann der Zug abfährt?** = Can you tell me when the train leaves? (indirect question)\n\n*Example:* Können Sie mir sagen, wann der Zug abfährt?\nCan you tell me when the train leaves? (indirect question)"
+    },
+    {
+      "id": "tb1-u21-l06-clause-patterns-connectors-2-ex09",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Do you know whether the course takes place tomorrow? (ob)",
+      "tiles": [
+        "du",
+        "stattfindet",
+        "abfährt",
+        "ob",
+        "Deutsch",
+        "Weißt",
+        "nur",
+        "Kurs",
+        "der",
+        "morgen"
+      ],
+      "answers": [
+        "Weißt du, ob der Kurs morgen stattfindet?"
+      ],
+      "explanation": "**Weißt du, ob der Kurs morgen stattfindet?** = Do you know whether the course takes place tomorrow? (ob)"
+    },
+    {
+      "id": "tb1-u21-l06-clause-patterns-connectors-2-ex10",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u21-l06-clause-patterns-connectors-2-5.mp3"
+      },
+      "tiles": [
+        "sagen",
+        "höre",
+        "Urlaub",
+        "Zug",
+        "Können",
+        "Ich",
+        "wann",
+        "abfährt",
+        "Sie",
+        "mir",
+        "der"
+      ],
+      "answers": [
+        "Können Sie mir sagen, wann der Zug abfährt?"
+      ],
+      "explanation": "Können Sie mir sagen, wann der Zug abfährt?\n*Can you tell me when the train leaves? (indirect question)*\n\n**Können Sie mir sagen, wann der Zug abfährt?** = Can you tell me when the train leaves? (indirect question)"
+    }
+  ]
+}

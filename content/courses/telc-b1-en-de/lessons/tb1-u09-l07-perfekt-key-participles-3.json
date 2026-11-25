@@ -1,0 +1,280 @@
+{
+  "id": "tb1-u09-l07-perfekt-key-participles-3",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u09",
+  "title": "Perfekt: Key Participles 3",
+  "tip": "Theme: Perfekt: wichtige Partizipien (A2)",
+  "exercises": [
+    {
+      "id": "tb1-u09-l07-perfekt-key-participles-3-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "sehen",
+          "known": "to see"
+        },
+        {
+          "id": "p2",
+          "learning": "schreiben",
+          "known": "to write"
+        },
+        {
+          "id": "p3",
+          "learning": "denken",
+          "known": "to think"
+        },
+        {
+          "id": "p4",
+          "learning": "finden",
+          "known": "to find"
+        },
+        {
+          "id": "p5",
+          "learning": "fragen",
+          "known": "to ask"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u09-l07-perfekt-key-participles-3-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which one means „to see“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "gewinnen → hat gewonnen"
+        },
+        {
+          "id": "b",
+          "text": "verstehen → hat verstanden"
+        },
+        {
+          "id": "c",
+          "text": "sehen → hat gesehen"
+        },
+        {
+          "id": "d",
+          "text": "verlieren → hat verloren"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**sehen → hat gesehen** = to see\n\n*Example:* Ich habe deine Nachricht leider zu spät gesehen.\nUnfortunately I saw your message too late."
+    },
+    {
+      "id": "tb1-u09-l07-perfekt-key-participles-3-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which one means „to write“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "verstehen → hat verstanden"
+        },
+        {
+          "id": "b",
+          "text": "finden → hat gefunden"
+        },
+        {
+          "id": "c",
+          "text": "schreiben → hat geschrieben"
+        },
+        {
+          "id": "d",
+          "text": "nehmen → hat genommen"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**schreiben → hat geschrieben** = to write\n\n*Example:* Anna hat eine E-Mail an ihre Chefin geschrieben.\nAnna wrote an email to her boss."
+    },
+    {
+      "id": "tb1-u09-l07-perfekt-key-participles-3-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Ich habe deine Nachricht leider zu spät gesehen.",
+      "tiles": [
+        "I",
+        "your",
+        "saw",
+        "Unfortunately",
+        "an",
+        "message",
+        "late",
+        "the",
+        "sleep",
+        "too"
+      ],
+      "answers": [
+        "Unfortunately I saw your message too late."
+      ],
+      "explanation": "**sehen → hat gesehen** = to see"
+    },
+    {
+      "id": "tb1-u09-l07-perfekt-key-participles-3-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which one means „to think“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "denken → hat gedacht"
+        },
+        {
+          "id": "b",
+          "text": "schreiben → hat geschrieben"
+        },
+        {
+          "id": "c",
+          "text": "passieren → ist passiert"
+        },
+        {
+          "id": "d",
+          "text": "sehen → hat gesehen"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**denken → hat gedacht** = to think\n\n*Example:* Ich habe gedacht, dass der Laden heute geöffnet ist.\nI thought the shop was open today."
+    },
+    {
+      "id": "tb1-u09-l07-perfekt-key-participles-3-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Anna wrote an email to her boss.",
+      "tiles": [
+        "eine",
+        "du",
+        "gekommen",
+        "ihre",
+        "hat",
+        "Chefin",
+        "E-Mail",
+        "an",
+        "mir",
+        "geschrieben",
+        "Anna"
+      ],
+      "answers": [
+        "Anna hat eine E-Mail an ihre Chefin geschrieben."
+      ],
+      "explanation": "**schreiben → hat geschrieben** = to write"
+    },
+    {
+      "id": "tb1-u09-l07-perfekt-key-participles-3-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which one means „to find“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "bleiben → ist geblieben"
+        },
+        {
+          "id": "b",
+          "text": "finden → hat gefunden"
+        },
+        {
+          "id": "c",
+          "text": "denken → hat gedacht"
+        },
+        {
+          "id": "d",
+          "text": "schreiben → hat geschrieben"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**finden → hat gefunden** = to find\n\n*Example:* Tom hat endlich eine Wohnung in der Nähe gefunden.\nTom has finally found a flat nearby."
+    },
+    {
+      "id": "tb1-u09-l07-perfekt-key-participles-3-ex08",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u09-l07-perfekt-key-participles-3-3.mp3"
+      },
+      "tiles": [
+        "heute",
+        "dass",
+        "Ich",
+        "Laden",
+        "letztes",
+        "gedacht",
+        "habe",
+        "ein",
+        "Apothekerin",
+        "der",
+        "ist",
+        "geöffnet"
+      ],
+      "answers": [
+        "Ich habe gedacht, dass der Laden heute geöffnet ist."
+      ],
+      "explanation": "Ich habe gedacht, dass der Laden heute geöffnet ist.\n*I thought the shop was open today.*\n\n**denken → hat gedacht** = to think"
+    },
+    {
+      "id": "tb1-u09-l07-perfekt-key-participles-3-ex09",
+      "type": "multiple_choice",
+      "prompt": "Which one means „to ask“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "schreiben → hat geschrieben"
+        },
+        {
+          "id": "b",
+          "text": "trinken → hat getrunken"
+        },
+        {
+          "id": "c",
+          "text": "fragen → hat gefragt"
+        },
+        {
+          "id": "d",
+          "text": "nehmen → hat genommen"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**fragen → hat gefragt** = to ask\n\n*Example:* Ich habe die Verkäuferin nach dem Preis gefragt.\nI asked the shop assistant about the price."
+    },
+    {
+      "id": "tb1-u09-l07-perfekt-key-participles-3-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Tom hat endlich eine Wohnung in der Nähe gefunden.",
+      "tiles": [
+        "finally",
+        "Tom",
+        "flat",
+        "has",
+        "I",
+        "last",
+        "asked",
+        "nearby",
+        "found",
+        "a"
+      ],
+      "answers": [
+        "Tom has finally found a flat nearby."
+      ],
+      "explanation": "**finden → hat gefunden** = to find"
+    },
+    {
+      "id": "tb1-u09-l07-perfekt-key-participles-3-ex11",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I asked the shop assistant about the price.",
+      "tiles": [
+        "Preis",
+        "halbe",
+        "gefragt",
+        "dem",
+        "September",
+        "genommen",
+        "Ich",
+        "die",
+        "habe",
+        "Verkäuferin",
+        "nach"
+      ],
+      "answers": [
+        "Ich habe die Verkäuferin nach dem Preis gefragt."
+      ],
+      "explanation": "**fragen → hat gefragt** = to ask"
+    }
+  ]
+}

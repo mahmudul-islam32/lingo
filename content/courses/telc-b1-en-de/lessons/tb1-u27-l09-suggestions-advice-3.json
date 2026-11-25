@@ -1,0 +1,188 @@
+{
+  "id": "tb1-u27-l09-suggestions-advice-3",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u27",
+  "title": "Suggestions & Advice 3",
+  "tip": "Theme: Redemittel: Vorschläge & Ratschläge (B1)",
+  "exercises": [
+    {
+      "id": "tb1-u27-l09-suggestions-advice-3-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "Hast du Lust, … zu …?",
+          "known": "Do you feel like …?"
+        },
+        {
+          "id": "p2",
+          "learning": "Ich würde vorschlagen, … zu …",
+          "known": "I would suggest …"
+        },
+        {
+          "id": "p3",
+          "learning": "Vielleicht ist es sinnvoll, … zu …",
+          "known": "Maybe it makes sense to …"
+        },
+        {
+          "id": "p4",
+          "learning": "Wir könnten … machen",
+          "known": "We could …"
+        },
+        {
+          "id": "p5",
+          "learning": "Wie wäre es mit …?",
+          "known": "How about …?"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u27-l09-suggestions-advice-3-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which phrase means „Do you feel like …?“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Wir könnten … machen."
+        },
+        {
+          "id": "b",
+          "text": "Ich würde vorschlagen, … zu …"
+        },
+        {
+          "id": "c",
+          "text": "An deiner Stelle würde ich …"
+        },
+        {
+          "id": "d",
+          "text": "Hast du Lust, … zu …?"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**Hast du Lust, … zu …?** = Do you feel like …?\n\n*Example:* Hast du Lust, morgen mit mir schwimmen zu gehen?\nDo you feel like going swimming with me tomorrow?"
+    },
+    {
+      "id": "tb1-u27-l09-suggestions-advice-3-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which phrase means „I would suggest …“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Vielleicht ist es sinnvoll, … zu …"
+        },
+        {
+          "id": "b",
+          "text": "Sollen wir …?"
+        },
+        {
+          "id": "c",
+          "text": "Ich würde vorschlagen, … zu …"
+        },
+        {
+          "id": "d",
+          "text": "Was hältst du davon, wenn …?"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**Ich würde vorschlagen, … zu …** = I would suggest …\n\n*Example:* Ich würde vorschlagen, die Party im Garten zu feiern.\nI would suggest having the party in the garden."
+    },
+    {
+      "id": "tb1-u27-l09-suggestions-advice-3-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Do you feel like going swimming with me tomorrow?",
+      "tiles": [
+        "morgen",
+        "Hast",
+        "mit",
+        "gehen",
+        "zu",
+        "du",
+        "Lust",
+        "Park",
+        "würde",
+        "mir",
+        "schwimmen",
+        "aufräumen"
+      ],
+      "answers": [
+        "Hast du Lust, morgen mit mir schwimmen zu gehen?"
+      ],
+      "explanation": "**Hast du Lust, … zu …?** = Do you feel like …?"
+    },
+    {
+      "id": "tb1-u27-l09-suggestions-advice-3-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which phrase means „Maybe it makes sense to …“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Lass uns …"
+        },
+        {
+          "id": "b",
+          "text": "Wir könnten … machen."
+        },
+        {
+          "id": "c",
+          "text": "Ich schlage vor, dass …"
+        },
+        {
+          "id": "d",
+          "text": "Vielleicht ist es sinnvoll, … zu …"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**Vielleicht ist es sinnvoll, … zu …** = Maybe it makes sense to …\n\n*Example:* Vielleicht ist es sinnvoll, die Tickets schon heute zu kaufen.\nMaybe it makes sense to buy the tickets today."
+    },
+    {
+      "id": "tb1-u27-l09-suggestions-advice-3-ex06",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u27-l09-suggestions-advice-3-2.mp3"
+      },
+      "tiles": [
+        "zu",
+        "solltest",
+        "feiern",
+        "würde",
+        "die",
+        "Garten",
+        "vorschlagen",
+        "im",
+        "wäre",
+        "Ich",
+        "Party",
+        "besuchen"
+      ],
+      "answers": [
+        "Ich würde vorschlagen, die Party im Garten zu feiern."
+      ],
+      "explanation": "Ich würde vorschlagen, die Party im Garten zu feiern.\n*I would suggest having the party in the garden.*\n\n**Ich würde vorschlagen, … zu …** = I would suggest …"
+    },
+    {
+      "id": "tb1-u27-l09-suggestions-advice-3-ex07",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Vielleicht ist es sinnvoll, die Tickets schon heute zu kaufen.",
+      "tiles": [
+        "Maybe",
+        "having",
+        "it",
+        "sense",
+        "you",
+        "today",
+        "buy",
+        "tickets",
+        "the",
+        "makes",
+        "to",
+        "on"
+      ],
+      "answers": [
+        "Maybe it makes sense to buy the tickets today."
+      ],
+      "explanation": "**Vielleicht ist es sinnvoll, … zu …** = Maybe it makes sense to …"
+    }
+  ]
+}

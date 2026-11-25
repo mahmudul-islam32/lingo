@@ -1,0 +1,163 @@
+{
+  "id": "tb1-u30-l13-aduso-p4",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u30",
+  "title": "Connectors: aber/denn vs. deshalb/trotzdem: sonst",
+  "tip": "“…deshalb ich bin geblieben” is wrong, after deshalb/trotzdem the verb comes first.",
+  "exercises": [
+    {
+      "id": "tb1-u30-l13-aduso-p4-ex01",
+      "type": "explain",
+      "title": "sonst · Warnung (Position 1)",
+      "body": "sonst = otherwise (negative consequence). Position 1 → verb immediately.\n\n*Deutsch:* sonst = wenn nicht, dann … (negative Folge). Position 1 → Verb sofort.\n\n## Pattern\n\nAufforderung, **sonst** + **Verb** + Subjekt + …",
+      "examples": [
+        {
+          "learning": "Beeil dich, sonst verpassen wir den Bus.",
+          "known": "Hurry up, otherwise we'll miss the bus."
+        },
+        {
+          "learning": "Zieh eine Jacke an, sonst wirst du krank.",
+          "known": "Put on a jacket, otherwise you'll get ill."
+        }
+      ]
+    },
+    {
+      "id": "tb1-u30-l13-aduso-p4-ex02",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Hurry up, otherwise we'll miss the bus.",
+      "tiles": [
+        "er",
+        "Beeil",
+        "verpassen",
+        "niemand",
+        "nicht",
+        "dich",
+        "sonst",
+        "wir",
+        "Bus",
+        "den"
+      ],
+      "answers": [
+        "Beeil dich, sonst verpassen wir den Bus."
+      ],
+      "explanation": "**Why:** sonst – verpassen – wir.\n\n*Warum:* sonst – verpassen – wir."
+    },
+    {
+      "id": "tb1-u30-l13-aduso-p4-ex03",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Put on a jacket, otherwise you'll get ill.",
+      "tiles": [
+        "wirst",
+        "Zieh",
+        "Jacke",
+        "sonst",
+        "haben",
+        "Bitte",
+        "an",
+        "eine",
+        "kommt",
+        "du",
+        "krank"
+      ],
+      "answers": [
+        "Zieh eine Jacke an, sonst wirst du krank."
+      ],
+      "explanation": "**Why:** Negative consequence with sonst.\n\n*Warum:* Negative Folge mit sonst."
+    },
+    {
+      "id": "tb1-u30-l13-aduso-p4-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "We have to go now, otherwise we'll be late.",
+      "tiles": [
+        "sonst",
+        "müssen",
+        "geht",
+        "los",
+        "Wir",
+        "Zeit",
+        "kommen",
+        "wir",
+        "spät",
+        "zu",
+        "kein",
+        "jetzt"
+      ],
+      "answers": [
+        "Wir müssen jetzt los, sonst kommen wir zu spät."
+      ],
+      "explanation": "**Why:** Verb kommen right after sonst.\n\n*Warum:* Verb kommen direkt nach sonst."
+    },
+    {
+      "id": "tb1-u30-l13-aduso-p4-ex05",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Register by Friday, otherwise the course will be full.",
+      "tiles": [
+        "lade",
+        "bis",
+        "Melden",
+        "Sie",
+        "sonst",
+        "voll",
+        "spät",
+        "ist",
+        "sich",
+        "haben",
+        "Freitag",
+        "der",
+        "Kurs",
+        "an"
+      ],
+      "answers": [
+        "Melden Sie sich bis Freitag an, sonst ist der Kurs voll."
+      ],
+      "explanation": "**Why:** Typical in ads and announcements.\n\n*Warum:* Typisch in Anzeigen und Durchsagen."
+    },
+    {
+      "id": "tb1-u30-l13-aduso-p4-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Write it down, otherwise you'll forget it.",
+      "tiles": [
+        "es",
+        "du",
+        "es",
+        "ich",
+        "auf",
+        "vergisst",
+        "Schreib",
+        "sonst",
+        "zu",
+        "nicht"
+      ],
+      "answers": [
+        "Schreib es auf, sonst vergisst du es."
+      ],
+      "explanation": "**Why:** sonst + verb + subject.\n\n*Warum:* sonst + Verb + Subjekt."
+    },
+    {
+      "id": "tb1-u30-l13-aduso-p4-ex07",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Word order: put all the words in the correct order.",
+      "tiles": [
+        "bin",
+        "Ich",
+        "deshalb",
+        "geblieben",
+        "krank",
+        "zu",
+        "war",
+        "ich",
+        "Hause"
+      ],
+      "answers": [
+        "Ich war krank deshalb bin ich zu Hause geblieben"
+      ],
+      "explanation": "deshalb besetzt Position 1 → danach Inversion: deshalb bin ich …"
+    }
+  ]
+}

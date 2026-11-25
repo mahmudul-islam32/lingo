@@ -1,0 +1,248 @@
+{
+  "id": "tb1-u13-l10-media-technology-5",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u13",
+  "title": "Media & Technology 5",
+  "tip": "Theme: Medien / Technik (B1)",
+  "exercises": [
+    {
+      "id": "tb1-u13-l10-media-technology-5-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "fernsehen",
+          "known": "to watch TV"
+        },
+        {
+          "id": "p2",
+          "learning": "die Zeitung",
+          "known": "newspaper"
+        },
+        {
+          "id": "p3",
+          "learning": "das Handy",
+          "known": "mobile phone"
+        },
+        {
+          "id": "p4",
+          "learning": "der Computer",
+          "known": "computer"
+        },
+        {
+          "id": "p5",
+          "learning": "das Gerät",
+          "known": "device"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u13-l10-media-technology-5-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which verb means „to watch TV: programme“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "kaputt: kaputtgehen (ist kaputtgegangen)"
+        },
+        {
+          "id": "b",
+          "text": "anrufen + Akk. (hat angerufen). Ich rufe dich an."
+        },
+        {
+          "id": "c",
+          "text": "fernsehen (hat ferngesehen): die Sendung, die Sendungen"
+        },
+        {
+          "id": "d",
+          "text": "herunterladen (hat heruntergeladen)"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**fernsehen (hat ferngesehen): die Sendung, die Sendungen** = to watch TV: programme\n\n*Example:* Am Abend sehen wir oft fern, am liebsten eine Sendung über Tiere.\nWe often watch TV in the evening, preferably a programme about animals."
+    },
+    {
+      "id": "tb1-u13-l10-media-technology-5-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „newspaper · magazine“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Zeitung, die Zeitungen · die Zeitschrift, die Zeitschriften"
+        },
+        {
+          "id": "b",
+          "text": "die Nachricht, die Nachrichten"
+        },
+        {
+          "id": "c",
+          "text": "das Gerät, die Geräte"
+        },
+        {
+          "id": "d",
+          "text": "das Passwort, die Passwörter"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**die Zeitung** = newspaper · magazine\n*Plural: die Zeitungen · also: die Zeitschrift, die Zeitschriften*\n\n*Example:* Mein Opa liest jeden Morgen die Zeitung.\nMy grandad reads the newspaper every morning."
+    },
+    {
+      "id": "tb1-u13-l10-media-technology-5-ex04",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u13-l10-media-technology-5-1.mp3"
+      },
+      "tiles": [
+        "fern",
+        "liebsten",
+        "sehen",
+        "über",
+        "Ich",
+        "Am",
+        "oft",
+        "wir",
+        "Sendung",
+        "am",
+        "hat",
+        "eine",
+        "höre",
+        "Tiere",
+        "Abend"
+      ],
+      "answers": [
+        "Am Abend sehen wir oft fern, am liebsten eine Sendung über Tiere."
+      ],
+      "explanation": "Am Abend sehen wir oft fern, am liebsten eine Sendung über Tiere.\n*We often watch TV in the evening, preferably a programme about animals.*\n\n**fernsehen (hat ferngesehen): die Sendung, die Sendungen** = to watch TV: programme"
+    },
+    {
+      "id": "tb1-u13-l10-media-technology-5-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means „My laptop broke yesterday, so I have to get it repaired.“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Mein Laptop ist gestern kaputtgegangen, deshalb muss ich ihn reparieren lassen."
+        },
+        {
+          "id": "b",
+          "text": "In unserem Haus wird der Müll getrennt: Papier, Plastik und Restmüll kommen in verschiedene Tonnen."
+        },
+        {
+          "id": "c",
+          "text": "Ich habe mir eine App heruntergeladen, mit der man jeden Tag zehn Minuten Vokabeln üben kann."
+        },
+        {
+          "id": "d",
+          "text": "Laut Wettervorhersage soll es morgen zuerst neblig sein, aber am Nachmittag scheint wieder die Sonne."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Mein Laptop ist gestern kaputtgegangen, deshalb muss ich ihn reparieren lassen.** = My laptop broke yesterday, so I have to get it repaired.\n\n*Example:* Mein Laptop ist gestern kaputtgegangen, deshalb muss ich ihn reparieren lassen.\nMy laptop broke yesterday, so I have to get it repaired."
+    },
+    {
+      "id": "tb1-u13-l10-media-technology-5-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Mein Opa liest jeden Morgen die Zeitung.",
+      "tiles": [
+        "can",
+        "every",
+        "app",
+        "newspaper",
+        "grandad",
+        "the",
+        "reads",
+        "My",
+        "your",
+        "morning"
+      ],
+      "answers": [
+        "My grandad reads the newspaper every morning."
+      ],
+      "explanation": "**die Zeitung** = newspaper · magazine\n*Plural: die Zeitungen · also: die Zeitschrift, die Zeitschriften*"
+    },
+    {
+      "id": "tb1-u13-l10-media-technology-5-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means „I downloaded an app you can use to practise vocabulary ten minutes a day.“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "In unserem Haus wird der Müll getrennt: Papier, Plastik und Restmüll kommen in verschiedene Tonnen."
+        },
+        {
+          "id": "b",
+          "text": "Ich habe mir eine App heruntergeladen, mit der man jeden Tag zehn Minuten Vokabeln üben kann."
+        },
+        {
+          "id": "c",
+          "text": "Mein Laptop ist gestern kaputtgegangen, deshalb muss ich ihn reparieren lassen."
+        },
+        {
+          "id": "d",
+          "text": "Laut Wettervorhersage soll es morgen zuerst neblig sein, aber am Nachmittag scheint wieder die Sonne."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Ich habe mir eine App heruntergeladen, mit der man jeden Tag zehn Minuten Vokabeln üben kann.** = I downloaded an app you can use to practise vocabulary ten minutes a day.\n\n*Example:* Ich habe mir eine App heruntergeladen, mit der man jeden Tag zehn Minuten Vokabeln üben kann.\nI downloaded an app you can use to practise vocabulary ten minutes a day."
+    },
+    {
+      "id": "tb1-u13-l10-media-technology-5-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "My laptop broke yesterday, so I have to get it repaired.",
+      "tiles": [
+        "Laptop",
+        "leer",
+        "gestern",
+        "ich",
+        "ist",
+        "muss",
+        "lassen",
+        "kaputtgegangen",
+        "ihn",
+        "ihre",
+        "nach",
+        "Mein",
+        "deshalb",
+        "reparieren"
+      ],
+      "answers": [
+        "Mein Laptop ist gestern kaputtgegangen, deshalb muss ich ihn reparieren lassen."
+      ],
+      "explanation": "**Mein Laptop ist gestern kaputtgegangen, deshalb muss ich ihn reparieren lassen.** = My laptop broke yesterday, so I have to get it repaired."
+    },
+    {
+      "id": "tb1-u13-l10-media-technology-5-ex09",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u13-l10-media-technology-5-4.mp3"
+      },
+      "tiles": [
+        "heruntergeladen",
+        "Ich",
+        "kaputt",
+        "teilt",
+        "der",
+        "funktioniert",
+        "mit",
+        "üben",
+        "App",
+        "man",
+        "Tag",
+        "eine",
+        "mir",
+        "Vokabeln",
+        "habe",
+        "Minuten",
+        "kann",
+        "zehn",
+        "jeden"
+      ],
+      "answers": [
+        "Ich habe mir eine App heruntergeladen, mit der man jeden Tag zehn Minuten Vokabeln üben kann."
+      ],
+      "explanation": "Ich habe mir eine App heruntergeladen, mit der man jeden Tag zehn Minuten Vokabeln üben kann.\n*I downloaded an app you can use to practise vocabulary ten minutes a day.*\n\n**Ich habe mir eine App heruntergeladen, mit der man jeden Tag zehn Minuten Vokabeln üben kann.** = I downloaded an app you can use to practise vocabulary ten minutes a day."
+    }
+  ]
+}

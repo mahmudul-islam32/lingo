@@ -1,0 +1,155 @@
+{
+  "id": "tb1-u31-l29-lassen-p2",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u31",
+  "title": "lassen + brauchen … zu: brauchen nicht/nur … zu",
+  "tip": "„Ich repariere mein Handy“ = you do it YOURSELF. For a service: Ich lasse es reparieren. And brauchen needs zu: Du brauchst nicht ZU kommen.",
+  "exercises": [
+    {
+      "id": "tb1-u31-l29-lassen-p2-ex01",
+      "type": "explain",
+      "title": "brauchen nicht/nur … zu",
+      "body": "nicht brauchen zu = don't have to. nur brauchen zu = only have to.\n\n*Deutsch:* nicht brauchen zu = nicht müssen. nur brauchen zu = nur müssen.\n\n## Pattern\n\nSubjekt + **brauchst** + nicht/nur + … + **zu** + **Infinitiv**",
+      "examples": [
+        {
+          "learning": "Du brauchst nicht zu kommen.",
+          "known": "You don't need to come."
+        },
+        {
+          "learning": "Sie brauchen nur das Formular zu unterschreiben.",
+          "known": "You only need to sign the form."
+        }
+      ]
+    },
+    {
+      "id": "tb1-u31-l29-lassen-p2-ex02",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "You don't need to come.",
+      "tiles": [
+        "Sie",
+        "Du",
+        "Hause",
+        "die",
+        "kommen",
+        "nicht",
+        "zu",
+        "brauchst"
+      ],
+      "answers": [
+        "Du brauchst nicht zu kommen."
+      ],
+      "explanation": "**Why:** = Du musst nicht kommen.\n\n*Warum:* = Du musst nicht kommen."
+    },
+    {
+      "id": "tb1-u31-l29-lassen-p2-ex03",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "You only need to sign the form.",
+      "tiles": [
+        "ausreden",
+        "Formular",
+        "zu",
+        "Hund",
+        "brauchen",
+        "nur",
+        "das",
+        "Sie",
+        "Haare",
+        "unterschreiben"
+      ],
+      "answers": [
+        "Sie brauchen nur das Formular zu unterschreiben."
+      ],
+      "explanation": "**Why:** nur … zu = nothing more.\n\n*Warum:* nur … zu = mehr nicht."
+    },
+    {
+      "id": "tb1-u31-l29-lassen-p2-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "We don't need to make an appointment.",
+      "tiles": [
+        "brauchen",
+        "keinen",
+        "zu",
+        "auf",
+        "Wir",
+        "machen",
+        "Termin",
+        "ausgehen",
+        "lasse"
+      ],
+      "answers": [
+        "Wir brauchen keinen Termin zu machen."
+      ],
+      "explanation": "**Why:** kein + brauchen zu.\n\n*Warum:* kein + brauchen zu."
+    },
+    {
+      "id": "tb1-u31-l29-lassen-p2-ex05",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "You don't need to get up so early tomorrow.",
+      "tiles": [
+        "früh",
+        "Lehrer",
+        "aufzustehen",
+        "Du",
+        "lassen",
+        "brauchst",
+        "so",
+        "reparieren",
+        "nicht",
+        "morgen"
+      ],
+      "answers": [
+        "Du brauchst morgen nicht so früh aufzustehen."
+      ],
+      "explanation": "**Why:** Separable: auf-zu-stehen.\n\n*Warum:* Trennbar: auf-zu-stehen."
+    },
+    {
+      "id": "tb1-u31-l29-lassen-p2-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "You only need to press the button.",
+      "tiles": [
+        "zu",
+        "den",
+        "Werkstatt",
+        "nur",
+        "drücken",
+        "Ihr",
+        "braucht",
+        "reparieren",
+        "Der",
+        "Knopf",
+        "auf"
+      ],
+      "answers": [
+        "Ihr braucht nur auf den Knopf zu drücken."
+      ],
+      "explanation": "**Why:** zu drücken at the end.\n\n*Warum:* zu drücken am Ende."
+    },
+    {
+      "id": "tb1-u31-l29-lassen-p2-ex07",
+      "type": "choice",
+      "title": "Fill the gap",
+      "prompt": "Ich habe meine Jacke im Restaurant ___.",
+      "options": [
+        {
+          "id": "a",
+          "text": "gelegt"
+        },
+        {
+          "id": "b",
+          "text": "gelassen"
+        },
+        {
+          "id": "c",
+          "text": "lassen"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "zurücklassen/vergessen = Vollverb → Perfekt mit ge-: gelassen."
+    }
+  ]
+}

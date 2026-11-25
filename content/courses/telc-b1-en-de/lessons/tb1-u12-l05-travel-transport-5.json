@@ -1,0 +1,303 @@
+{
+  "id": "tb1-u12-l05-travel-transport-5",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u12",
+  "title": "Travel & Transport 5",
+  "tip": "Theme: Reisen / Verkehr (B1)",
+  "exercises": [
+    {
+      "id": "tb1-u12-l05-travel-transport-5-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "der Reisepass",
+          "known": "passport"
+        },
+        {
+          "id": "p2",
+          "learning": "die Sehenswürdigkeit",
+          "known": "sight"
+        },
+        {
+          "id": "p3",
+          "learning": "besichtigen",
+          "known": "to visit (a place)"
+        },
+        {
+          "id": "p4",
+          "learning": "die Reise",
+          "known": "trip"
+        },
+        {
+          "id": "p5",
+          "learning": "der Ausflug",
+          "known": "day trip"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u12-l05-travel-transport-5-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „passport · ID card“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "der Reisepass, die Reisepässe · der Ausweis, die Ausweise"
+        },
+        {
+          "id": "b",
+          "text": "die Jugendherberge, die Jugendherbergen"
+        },
+        {
+          "id": "c",
+          "text": "die Unterkunft, die Unterkünfte"
+        },
+        {
+          "id": "d",
+          "text": "der Flug, die Flüge · der Flughafen, die Flughäfen"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**der Reisepass** = passport · ID card\n*Plural: die Reisepässe · also: der Ausweis, die Ausweise*\n\n*Example:* Vergiss deinen Reisepass nicht, wenn du in die USA fliegst!\nDon't forget your passport when you fly to the USA!"
+    },
+    {
+      "id": "tb1-u12-l05-travel-transport-5-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „sight, attraction“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Sehenswürdigkeit, die Sehenswürdigkeiten"
+        },
+        {
+          "id": "b",
+          "text": "die Jugendherberge, die Jugendherbergen"
+        },
+        {
+          "id": "c",
+          "text": "der Flug, die Flüge · der Flughafen, die Flughäfen"
+        },
+        {
+          "id": "d",
+          "text": "die Haltestelle, die Haltestellen"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**die Sehenswürdigkeit** = sight, attraction\n*Plural: die Sehenswürdigkeiten*\n\n*Example:* Das Brandenburger Tor ist eine berühmte Sehenswürdigkeit.\nThe Brandenburg Gate is a famous sight."
+    },
+    {
+      "id": "tb1-u12-l05-travel-transport-5-ex04",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u12-l05-travel-transport-5-1.mp3"
+      },
+      "tiles": [
+        "Hotel",
+        "nicht",
+        "deinen",
+        "in",
+        "wenn",
+        "die",
+        "erst",
+        "nach",
+        "du",
+        "USA",
+        "Reisepass",
+        "Vergiss",
+        "fliegst"
+      ],
+      "answers": [
+        "Vergiss deinen Reisepass nicht, wenn du in die USA fliegst!"
+      ],
+      "explanation": "Vergiss deinen Reisepass nicht, wenn du in die USA fliegst!\n*Don't forget your passport when you fly to the USA!*\n\n**der Reisepass** = passport · ID card\n*Plural: die Reisepässe · also: der Ausweis, die Ausweise*"
+    },
+    {
+      "id": "tb1-u12-l05-travel-transport-5-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which verb means „to visit (a place): ⚠ besuchen = visit people“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "verpassen (hat verpasst)"
+        },
+        {
+          "id": "b",
+          "text": "besichtigen (hat besichtigt)"
+        },
+        {
+          "id": "c",
+          "text": "einsteigen / aussteigen / umsteigen (ist ein-/aus-/umgestiegen)"
+        },
+        {
+          "id": "d",
+          "text": "abfahren (ist abgefahren) ↔ ankommen (ist angekommen)"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**besichtigen (hat besichtigt)** = to visit (a place): ⚠ besuchen = visit people\n\n*Example:* Gestern haben wir den Kölner Dom besichtigt.\nYesterday we visited Cologne Cathedral."
+    },
+    {
+      "id": "tb1-u12-l05-travel-transport-5-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Das Brandenburger Tor ist eine berühmte Sehenswürdigkeit.",
+      "tiles": [
+        "The",
+        "get",
+        "your",
+        "is",
+        "Berlin",
+        "famous",
+        "Gate",
+        "Brandenburg",
+        "a",
+        "sight"
+      ],
+      "answers": [
+        "The Brandenburg Gate is a famous sight."
+      ],
+      "explanation": "**die Sehenswürdigkeit** = sight, attraction\n*Plural: die Sehenswürdigkeiten*"
+    },
+    {
+      "id": "tb1-u12-l05-travel-transport-5-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means „We booked the trip online, but the train was an hour late and we only arrived in the evening.“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Wir suchen eine Dreizimmerwohnung mit Balkon, weil unsere alte Wohnung zu klein geworden ist."
+        },
+        {
+          "id": "b",
+          "text": "Steigen Sie am Hauptbahnhof in die Linie 3 um, die Haltestelle ist direkt vor dem Museum."
+        },
+        {
+          "id": "c",
+          "text": "Wir haben die Fahrt online gebucht, aber der Zug hatte eine Stunde Verspätung, und wir sind erst am Abend angekommen."
+        },
+        {
+          "id": "d",
+          "text": "Die Miete beträgt 700 Euro plus Nebenkosten, und der Vermieter möchte zwei Monatsmieten Kaution."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**Wir haben die Fahrt online gebucht, aber der Zug hatte eine Stunde Verspätung, und wir sind erst am Abend angekommen.** = We booked the trip online, but the train was an hour late and we only arrived in the evening.\n\n*Example:* Wir haben die Fahrt online gebucht, aber der Zug hatte eine Stunde Verspätung, und wir sind erst am Abend angekommen.\nWe booked the trip online, but the train was an hour late and we only arrived in the evening."
+    },
+    {
+      "id": "tb1-u12-l05-travel-transport-5-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Yesterday we visited Cologne Cathedral.",
+      "tiles": [
+        "Dom",
+        "Haus",
+        "wir",
+        "den",
+        "Abend",
+        "Kölner",
+        "und",
+        "besichtigt",
+        "Gestern",
+        "haben"
+      ],
+      "answers": [
+        "Gestern haben wir den Kölner Dom besichtigt."
+      ],
+      "explanation": "**besichtigen (hat besichtigt)** = to visit (a place): ⚠ besuchen = visit people"
+    },
+    {
+      "id": "tb1-u12-l05-travel-transport-5-ex09",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means „Change to line 3 at the main station, the stop is right in front of the museum.“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Die Miete beträgt 700 Euro plus Nebenkosten, und der Vermieter möchte zwei Monatsmieten Kaution."
+        },
+        {
+          "id": "b",
+          "text": "Steigen Sie am Hauptbahnhof in die Linie 3 um, die Haltestelle ist direkt vor dem Museum."
+        },
+        {
+          "id": "c",
+          "text": "Wir suchen eine Dreizimmerwohnung mit Balkon, weil unsere alte Wohnung zu klein geworden ist."
+        },
+        {
+          "id": "d",
+          "text": "Wir haben die Fahrt online gebucht, aber der Zug hatte eine Stunde Verspätung, und wir sind erst am Abend angekommen."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Steigen Sie am Hauptbahnhof in die Linie 3 um, die Haltestelle ist direkt vor dem Museum.** = Change to line 3 at the main station, the stop is right in front of the museum.\n\n*Example:* Steigen Sie am Hauptbahnhof in die Linie 3 um, die Haltestelle ist direkt vor dem Museum.\nChange to line 3 at the main station, the stop is right in front of the museum."
+    },
+    {
+      "id": "tb1-u12-l05-travel-transport-5-ex10",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u12-l05-travel-transport-5-4.mp3"
+      },
+      "tiles": [
+        "wir",
+        "an",
+        "und",
+        "der",
+        "online",
+        "angekommen",
+        "erst",
+        "gebucht",
+        "Wir",
+        "haben",
+        "Fahrt",
+        "am",
+        "Verspätung",
+        "Zug",
+        "den",
+        "Stunde",
+        "die",
+        "eine",
+        "sind",
+        "Uhr",
+        "aber",
+        "hatte",
+        "Abend"
+      ],
+      "answers": [
+        "Wir haben die Fahrt online gebucht, aber der Zug hatte eine Stunde Verspätung, und wir sind erst am Abend angekommen."
+      ],
+      "explanation": "Wir haben die Fahrt online gebucht, aber der Zug hatte eine Stunde Verspätung, und wir sind erst am Abend angekommen.\n*We booked the trip online, but the train was an hour late and we only arrived in the evening.*\n\n**Wir haben die Fahrt online gebucht, aber der Zug hatte eine Stunde Verspätung, und wir sind erst am Abend angekommen.** = We booked the trip online, but the train was an hour late and we only arrived in the evening."
+    },
+    {
+      "id": "tb1-u12-l05-travel-transport-5-ex11",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Steigen Sie am Hauptbahnhof in die Linie 3 um, die Haltestelle ist direkt vor dem Museum.",
+      "tiles": [
+        "museum",
+        "got",
+        "the",
+        "of",
+        "station",
+        "3",
+        "Change",
+        "leaves",
+        "line",
+        "is",
+        "the",
+        "front",
+        "in",
+        "main",
+        "the",
+        "stop",
+        "train",
+        "to",
+        "at",
+        "right"
+      ],
+      "answers": [
+        "Change to line 3 at the main station, the stop is right in front of the museum."
+      ],
+      "explanation": "**Steigen Sie am Hauptbahnhof in die Linie 3 um, die Haltestelle ist direkt vor dem Museum.** = Change to line 3 at the main station, the stop is right in front of the museum."
+    }
+  ]
+}

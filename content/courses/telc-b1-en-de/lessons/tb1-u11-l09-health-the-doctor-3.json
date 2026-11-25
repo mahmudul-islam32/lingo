@@ -1,0 +1,281 @@
+{
+  "id": "tb1-u11-l09-health-the-doctor-3",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u11",
+  "title": "Health & the Doctor 3",
+  "tip": "Theme: Gesundheit / Arzt (B1)",
+  "exercises": [
+    {
+      "id": "tb1-u11-l09-health-the-doctor-3-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "die Praxis",
+          "known": "doctor's practice"
+        },
+        {
+          "id": "p2",
+          "learning": "die Sprechstunde",
+          "known": "consultation hours"
+        },
+        {
+          "id": "p3",
+          "learning": "das Wartezimmer",
+          "known": "waiting room"
+        },
+        {
+          "id": "p4",
+          "learning": "untersuchen",
+          "known": "to examine"
+        },
+        {
+          "id": "p5",
+          "learning": "gesund",
+          "known": "healthy"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u11-l09-health-the-doctor-3-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „doctor's practice“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "das Krankenhaus, die Krankenhäuser"
+        },
+        {
+          "id": "b",
+          "text": "die Sprechstunde, die Sprechstunden"
+        },
+        {
+          "id": "c",
+          "text": "die Praxis, die Praxen"
+        },
+        {
+          "id": "d",
+          "text": "die Gesundheit (nur Sg.) · die Krankheit, die Krankheiten"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**die Praxis** = doctor's practice\n*Plural: die Praxen*\n\n*Example:* Die Praxis ist am Mittwochnachmittag geschlossen.\nThe practice is closed on Wednesday afternoons."
+    },
+    {
+      "id": "tb1-u11-l09-health-the-doctor-3-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „consultation hours“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Sprechstunde, die Sprechstunden"
+        },
+        {
+          "id": "b",
+          "text": "die Grippe (nur Sg.) · das Fieber (nur Sg.)"
+        },
+        {
+          "id": "c",
+          "text": "die Erkältung, die Erkältungen: erkältet sein"
+        },
+        {
+          "id": "d",
+          "text": "die Apotheke, die Apotheken"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**die Sprechstunde** = consultation hours\n*Plural: die Sprechstunden*\n\n*Example:* Die Sprechstunde ist von acht bis zwölf Uhr.\nConsultation hours are from eight to twelve."
+    },
+    {
+      "id": "tb1-u11-l09-health-the-doctor-3-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Die Praxis ist am Mittwochnachmittag geschlossen.",
+      "tiles": [
+        "The",
+        "Consultation",
+        "practice",
+        "afternoons",
+        "on",
+        "go",
+        "Wednesday",
+        "is",
+        "working",
+        "closed"
+      ],
+      "answers": [
+        "The practice is closed on Wednesday afternoons."
+      ],
+      "explanation": "**die Praxis** = doctor's practice\n*Plural: die Praxen*"
+    },
+    {
+      "id": "tb1-u11-l09-health-the-doctor-3-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which one means „to make / cancel / move an appointment“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "krankgeschrieben sein: die Krankmeldung, die Krankmeldungen"
+        },
+        {
+          "id": "b",
+          "text": "gesund ↔ krank"
+        },
+        {
+          "id": "c",
+          "text": "die Kopfschmerzen / Halsschmerzen / Bauchschmerzen / Rückenschmerzen (Pl.)"
+        },
+        {
+          "id": "d",
+          "text": "einen Termin vereinbaren / absagen / verschieben"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**einen Termin vereinbaren / absagen / verschieben** = to make / cancel / move an appointment\n\n*Example:* Ich möchte einen Termin beim Zahnarzt vereinbaren.\nI'd like to make an appointment with the dentist."
+    },
+    {
+      "id": "tb1-u11-l09-health-the-doctor-3-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Consultation hours are from eight to twelve.",
+      "tiles": [
+        "von",
+        "aber",
+        "bleibe",
+        "zwölf",
+        "Uhr",
+        "bis",
+        "Tom",
+        "Sprechstunde",
+        "ist",
+        "Die",
+        "acht"
+      ],
+      "answers": [
+        "Die Sprechstunde ist von acht bis zwölf Uhr."
+      ],
+      "explanation": "**die Sprechstunde** = consultation hours\n*Plural: die Sprechstunden*"
+    },
+    {
+      "id": "tb1-u11-l09-health-the-doctor-3-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „waiting room“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "der Hausarzt, die Hausärzte / die Hausärztin, die Hausärztinnen"
+        },
+        {
+          "id": "b",
+          "text": "der Husten · der Schnupfen (beide nur Sg.)"
+        },
+        {
+          "id": "c",
+          "text": "das Wartezimmer, die Wartezimmer"
+        },
+        {
+          "id": "d",
+          "text": "die Sprechstunde, die Sprechstunden"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**das Wartezimmer** = waiting room\n*Plural: die Wartezimmer*\n\n*Example:* Bitte nehmen Sie noch kurz im Wartezimmer Platz.\nPlease take a seat in the waiting room for a moment."
+    },
+    {
+      "id": "tb1-u11-l09-health-the-doctor-3-ex08",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u11-l09-health-the-doctor-3-3.mp3"
+      },
+      "tiles": [
+        "Zahnarzt",
+        "schicke",
+        "einen",
+        "die",
+        "Ich",
+        "möchte",
+        "Fieber",
+        "Termin",
+        "beim",
+        "vereinbaren"
+      ],
+      "answers": [
+        "Ich möchte einen Termin beim Zahnarzt vereinbaren."
+      ],
+      "explanation": "Ich möchte einen Termin beim Zahnarzt vereinbaren.\n*I'd like to make an appointment with the dentist.*\n\n**einen Termin vereinbaren / absagen / verschieben** = to make / cancel / move an appointment"
+    },
+    {
+      "id": "tb1-u11-l09-health-the-doctor-3-ex09",
+      "type": "multiple_choice",
+      "prompt": "Which verb means „to examine“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "untersuchen (hat untersucht)"
+        },
+        {
+          "id": "b",
+          "text": "verschreiben (hat verschrieben)"
+        },
+        {
+          "id": "c",
+          "text": "wehtun + Dat. (hat wehgetan). Mir tut der Rücken weh."
+        },
+        {
+          "id": "d",
+          "text": "sich erholen von + Dat. (hat sich erholt)"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**untersuchen (hat untersucht)** = to examine\n\n*Example:* Die Ärztin hat meinen Hals genau untersucht.\nThe doctor examined my throat carefully."
+    },
+    {
+      "id": "tb1-u11-l09-health-the-doctor-3-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Bitte nehmen Sie noch kurz im Wartezimmer Platz.",
+      "tiles": [
+        "waiting",
+        "a",
+        "three",
+        "a",
+        "seat",
+        "Please",
+        "room",
+        "the",
+        "is",
+        "in",
+        "for",
+        "moment",
+        "prescription",
+        "take"
+      ],
+      "answers": [
+        "Please take a seat in the waiting room for a moment."
+      ],
+      "explanation": "**das Wartezimmer** = waiting room\n*Plural: die Wartezimmer*"
+    },
+    {
+      "id": "tb1-u11-l09-health-the-doctor-3-ex11",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "The doctor examined my throat carefully.",
+      "tiles": [
+        "hat",
+        "weh",
+        "Hals",
+        "Die",
+        "genau",
+        "ich",
+        "Ärztin",
+        "untersucht",
+        "meinen",
+        "Operation"
+      ],
+      "answers": [
+        "Die Ärztin hat meinen Hals genau untersucht."
+      ],
+      "explanation": "**untersuchen (hat untersucht)** = to examine"
+    }
+  ]
+}

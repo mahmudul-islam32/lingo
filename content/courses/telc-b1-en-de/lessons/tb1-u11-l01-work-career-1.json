@@ -1,0 +1,281 @@
+{
+  "id": "tb1-u11-l01-work-career-1",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u11",
+  "title": "Work & Career 1",
+  "tip": "Theme: Arbeit / Beruf (B1)",
+  "exercises": [
+    {
+      "id": "tb1-u11-l01-work-career-1-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "die Stelle",
+          "known": "job"
+        },
+        {
+          "id": "p2",
+          "learning": "der Beruf",
+          "known": "profession"
+        },
+        {
+          "id": "p3",
+          "learning": "die Stellenanzeige",
+          "known": "job advertisement"
+        },
+        {
+          "id": "p4",
+          "learning": "die Bewerbung",
+          "known": "application"
+        },
+        {
+          "id": "p5",
+          "learning": "sich bewerben um",
+          "known": "to apply for"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u11-l01-work-career-1-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „job, position · workplace“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Firma, die Firmen"
+        },
+        {
+          "id": "b",
+          "text": "die Bewerbung, die Bewerbungen"
+        },
+        {
+          "id": "c",
+          "text": "das Gehalt, die Gehälter"
+        },
+        {
+          "id": "d",
+          "text": "die Stelle, die Stellen · der Arbeitsplatz, die Arbeitsplätze"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**die Stelle** = job, position · workplace\n*Plural: die Stellen · also: der Arbeitsplatz, die Arbeitsplätze*\n\n*Example:* Anna sucht eine neue Stelle in einem Krankenhaus.\nAnna is looking for a new job at a hospital."
+    },
+    {
+      "id": "tb1-u11-l01-work-career-1-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „profession“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "der Beruf, die Berufe"
+        },
+        {
+          "id": "b",
+          "text": "der Urlaub (nur Sg.). Urlaub nehmen"
+        },
+        {
+          "id": "c",
+          "text": "die Firma, die Firmen"
+        },
+        {
+          "id": "d",
+          "text": "das Vorstellungsgespräch, die Vorstellungsgespräche"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**der Beruf** = profession\n*Plural: die Berufe*\n\n*Example:* Mein Bruder ist Koch von Beruf.\nMy brother is a cook by profession."
+    },
+    {
+      "id": "tb1-u11-l01-work-career-1-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Anna sucht eine neue Stelle in einem Krankenhaus.",
+      "tiles": [
+        "Sara",
+        "job",
+        "a",
+        "new",
+        "I",
+        "looking",
+        "hospital",
+        "Anna",
+        "a",
+        "at",
+        "is",
+        "for",
+        "This"
+      ],
+      "answers": [
+        "Anna is looking for a new job at a hospital."
+      ],
+      "explanation": "**die Stelle** = job, position · workplace\n*Plural: die Stellen · also: der Arbeitsplatz, die Arbeitsplätze*"
+    },
+    {
+      "id": "tb1-u11-l01-work-career-1-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „job advertisement“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Stellenanzeige, die Stellenanzeigen"
+        },
+        {
+          "id": "b",
+          "text": "das Gehalt, die Gehälter"
+        },
+        {
+          "id": "c",
+          "text": "das Büro, die Büros"
+        },
+        {
+          "id": "d",
+          "text": "der Urlaub (nur Sg.). Urlaub nehmen"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**die Stellenanzeige** = job advertisement\n*Plural: die Stellenanzeigen*\n\n*Example:* Tom hat eine interessante Stellenanzeige in der Zeitung gefunden.\nTom found an interesting job advert in the newspaper."
+    },
+    {
+      "id": "tb1-u11-l01-work-career-1-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "My brother is a cook by profession.",
+      "tiles": [
+        "ganz",
+        "ist",
+        "Firma",
+        "Beruf",
+        "von",
+        "des",
+        "Bruder",
+        "Mein",
+        "Koch"
+      ],
+      "answers": [
+        "Mein Bruder ist Koch von Beruf."
+      ],
+      "explanation": "**der Beruf** = profession\n*Plural: die Berufe*"
+    },
+    {
+      "id": "tb1-u11-l01-work-career-1-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „application“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "der Lebenslauf, die Lebensläufe"
+        },
+        {
+          "id": "b",
+          "text": "die Bewerbung, die Bewerbungen"
+        },
+        {
+          "id": "c",
+          "text": "die Besprechung, die Besprechungen"
+        },
+        {
+          "id": "d",
+          "text": "die Stellenanzeige, die Stellenanzeigen"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**die Bewerbung** = application\n*Plural: die Bewerbungen*\n\n*Example:* Ali hat seine Bewerbung gestern per E-Mail geschickt.\nAli sent his application by e-mail yesterday."
+    },
+    {
+      "id": "tb1-u11-l01-work-career-1-ex08",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u11-l01-work-career-1-3.mp3"
+      },
+      "tiles": [
+        "Stellenanzeige",
+        "gefunden",
+        "in",
+        "Uhr",
+        "eine",
+        "Herrn",
+        "Tom",
+        "Zeitung",
+        "gut",
+        "der",
+        "hat",
+        "interessante"
+      ],
+      "answers": [
+        "Tom hat eine interessante Stellenanzeige in der Zeitung gefunden."
+      ],
+      "explanation": "Tom hat eine interessante Stellenanzeige in der Zeitung gefunden.\n*Tom found an interesting job advert in the newspaper.*\n\n**die Stellenanzeige** = job advertisement\n*Plural: die Stellenanzeigen*"
+    },
+    {
+      "id": "tb1-u11-l01-work-career-1-ex09",
+      "type": "multiple_choice",
+      "prompt": "Which verb means „to apply for“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "sich bewerben um + Akk. (hat sich beworben)"
+        },
+        {
+          "id": "b",
+          "text": "einstellen ↔ entlassen (hat entlassen)"
+        },
+        {
+          "id": "c",
+          "text": "in Teilzeit / in Vollzeit arbeiten"
+        },
+        {
+          "id": "d",
+          "text": "der Vertrag, die Verträge"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**sich bewerben um + Akk. (hat sich beworben)** = to apply for\n\n*Example:* Maria bewirbt sich um eine Stelle als Verkäuferin.\nMaria is applying for a job as a sales assistant."
+    },
+    {
+      "id": "tb1-u11-l01-work-career-1-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Ali hat seine Bewerbung gestern per E-Mail geschickt.",
+      "tiles": [
+        "at",
+        "yesterday",
+        "well",
+        "Ali",
+        "e-mail",
+        "application",
+        "leave",
+        "by",
+        "his",
+        "sent"
+      ],
+      "answers": [
+        "Ali sent his application by e-mail yesterday."
+      ],
+      "explanation": "**die Bewerbung** = application\n*Plural: die Bewerbungen*"
+    },
+    {
+      "id": "tb1-u11-l01-work-career-1-ex11",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Maria is applying for a job as a sales assistant.",
+      "tiles": [
+        "um",
+        "ist",
+        "Stelle",
+        "Firma",
+        "Am",
+        "eine",
+        "als",
+        "bewirbt",
+        "Verkäuferin",
+        "Maria",
+        "sich"
+      ],
+      "answers": [
+        "Maria bewirbt sich um eine Stelle als Verkäuferin."
+      ],
+      "explanation": "**sich bewerben um + Akk. (hat sich beworben)** = to apply for"
+    }
+  ]
+}

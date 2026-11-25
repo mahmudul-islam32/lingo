@@ -1,0 +1,605 @@
+{
+  "id": "tb1-u42-l01-teil3-alltag",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u42",
+  "title": "Ads 1: Alltag",
+  "tip": "Each ad fits only once. Check both conditions. x = no ad fits.",
+  "exercises": [
+    {
+      "id": "tb1-u42-l01-teil3-alltag-ex01",
+      "type": "explain",
+      "title": "Teil 3 · Alltag: situations and ads",
+      "body": "**10 situations · 12 ads.** Each ad fits at most once; **x** = no ad fits.\n\n- Every situation has **two conditions** (*Bedingungen*), e.g. *Deutschkurs + abends*. An ad only fits if it meets **both**.\n- Typical traps: the right topic but the wrong time (morning instead of evening), renting instead of buying, the wrong target group (children instead of adults).\n- Usually one or two situations have no matching ad: dare to choose x.\n\nA multiple-choice card can show at most 12 options, so for each situation one clearly unrelated ad is left out of the list."
+    },
+    {
+      "id": "tb1-u42-l01-teil3-alltag-ex02",
+      "type": "choice",
+      "title": "Situation 1 · Alltag",
+      "passage": "Sie möchten am Samstag mit Ihren Kindern etwas draußen unternehmen.",
+      "prompt": "Welche Anzeige passt? Wenn keine passt: x.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Verkaufe Sofa, 3 Sitze, guter Zustand, günstig abzugeben."
+        },
+        {
+          "id": "b",
+          "text": "Fahrradverleih am Bahnhof. Räder stundenweise mieten."
+        },
+        {
+          "id": "c",
+          "text": "Familien-Erlebnistag im Waldpark! Jeden Samstag Spiele und Natur für Groß und Klein."
+        },
+        {
+          "id": "d",
+          "text": "Sprachschule Aktiv: Deutschkurse vormittags und nachmittags."
+        },
+        {
+          "id": "e",
+          "text": "Hundebetreuung Waldi: Wir passen auf Ihren Hund auf, auch über mehrere Wochen."
+        },
+        {
+          "id": "f",
+          "text": "Wohnung zu vermieten: 2 Zimmer, Stadtrand, kein Balkon."
+        },
+        {
+          "id": "g",
+          "text": "Deutsch am Morgen. Intensivkurse von 9 bis 12 Uhr."
+        },
+        {
+          "id": "h",
+          "text": "Gebrauchte Kinderfahrräder in gutem Zustand zu verkaufen."
+        },
+        {
+          "id": "i",
+          "text": "Gitarrenunterricht für Anfänger, erste Stunde gratis."
+        },
+        {
+          "id": "j",
+          "text": "Kfz-Werkstatt Meier: günstige Reparaturen, faire Preise."
+        },
+        {
+          "id": "k",
+          "text": "Kochkurs am Samstag: gemeinsam italienisch kochen."
+        },
+        {
+          "id": "l",
+          "text": "Keine Anzeige passt (x)"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**Answer: C** „Familien-Erlebnistag im Waldpark! Jeden Samstag Spiele und Natur für Groß und Klein.“\n\n*Bedingungen:* mit Kindern + draußen"
+    },
+    {
+      "id": "tb1-u42-l01-teil3-alltag-ex03",
+      "type": "choice",
+      "title": "Situation 2 · Alltag",
+      "passage": "Ihre Freundin sucht einen Nebenjob am Wochenende.",
+      "prompt": "Welche Anzeige passt? Wenn keine passt: x.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Verkaufe Sofa, 3 Sitze, guter Zustand, günstig abzugeben."
+        },
+        {
+          "id": "b",
+          "text": "Fahrradverleih am Bahnhof. Räder stundenweise mieten."
+        },
+        {
+          "id": "c",
+          "text": "Familien-Erlebnistag im Waldpark! Jeden Samstag Spiele und Natur für Groß und Klein."
+        },
+        {
+          "id": "d",
+          "text": "Sprachschule Aktiv: Deutschkurse vormittags und nachmittags."
+        },
+        {
+          "id": "e",
+          "text": "Hundebetreuung Waldi: Wir passen auf Ihren Hund auf, auch über mehrere Wochen."
+        },
+        {
+          "id": "f",
+          "text": "Wohnung zu vermieten: 2 Zimmer, Stadtrand, kein Balkon."
+        },
+        {
+          "id": "g",
+          "text": "Deutsch am Morgen. Intensivkurse von 9 bis 12 Uhr."
+        },
+        {
+          "id": "h",
+          "text": "Gebrauchte Kinderfahrräder in gutem Zustand zu verkaufen."
+        },
+        {
+          "id": "i",
+          "text": "Gitarrenunterricht für Anfänger, erste Stunde gratis."
+        },
+        {
+          "id": "j",
+          "text": "Kfz-Werkstatt Meier: günstige Reparaturen, faire Preise."
+        },
+        {
+          "id": "k",
+          "text": "Restaurant Sonne sucht Aushilfe für das Wochenende (Sa/So)."
+        },
+        {
+          "id": "l",
+          "text": "Keine Anzeige passt (x)"
+        }
+      ],
+      "correctOptionId": "k",
+      "explanation": "**Answer: K** „Restaurant Sonne sucht Aushilfe für das Wochenende (Sa/So).“\n\n*Bedingungen:* Nebenjob + Wochenende"
+    },
+    {
+      "id": "tb1-u42-l01-teil3-alltag-ex04",
+      "type": "choice",
+      "title": "Situation 3 · Alltag",
+      "passage": "Sie wollen Ihr altes Sofa verkaufen.",
+      "prompt": "Welche Anzeige passt? Wenn keine passt: x.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Verkaufe Sofa, 3 Sitze, guter Zustand, günstig abzugeben."
+        },
+        {
+          "id": "b",
+          "text": "Fahrradverleih am Bahnhof. Räder stundenweise mieten."
+        },
+        {
+          "id": "c",
+          "text": "Familien-Erlebnistag im Waldpark! Jeden Samstag Spiele und Natur für Groß und Klein."
+        },
+        {
+          "id": "d",
+          "text": "Sprachschule Aktiv: Deutschkurse vormittags und nachmittags."
+        },
+        {
+          "id": "e",
+          "text": "Hundebetreuung Waldi: Wir passen auf Ihren Hund auf, auch über mehrere Wochen."
+        },
+        {
+          "id": "f",
+          "text": "Wohnung zu vermieten: 2 Zimmer, Stadtrand, kein Balkon."
+        },
+        {
+          "id": "g",
+          "text": "Deutsch am Morgen. Intensivkurse von 9 bis 12 Uhr."
+        },
+        {
+          "id": "h",
+          "text": "Gebrauchte Kinderfahrräder in gutem Zustand zu verkaufen."
+        },
+        {
+          "id": "i",
+          "text": "Gitarrenunterricht für Anfänger, erste Stunde gratis."
+        },
+        {
+          "id": "j",
+          "text": "Kfz-Werkstatt Meier: günstige Reparaturen, faire Preise."
+        },
+        {
+          "id": "k",
+          "text": "Restaurant Sonne sucht Aushilfe für das Wochenende (Sa/So)."
+        },
+        {
+          "id": "l",
+          "text": "Keine Anzeige passt (x)"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Answer: A** „Verkaufe Sofa, 3 Sitze, guter Zustand, günstig abzugeben.“\n\n*Bedingungen:* Sofa + verkaufen"
+    },
+    {
+      "id": "tb1-u42-l01-teil3-alltag-ex05",
+      "type": "choice",
+      "title": "Situation 4 · Alltag",
+      "passage": "Sie suchen einen Deutschkurs am Abend, weil Sie tagsüber arbeiten.",
+      "prompt": "Welche Anzeige passt? Wenn keine passt: x.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Verkaufe Sofa, 3 Sitze, guter Zustand, günstig abzugeben."
+        },
+        {
+          "id": "b",
+          "text": "Fahrradverleih am Bahnhof. Räder stundenweise mieten."
+        },
+        {
+          "id": "c",
+          "text": "Familien-Erlebnistag im Waldpark! Jeden Samstag Spiele und Natur für Groß und Klein."
+        },
+        {
+          "id": "d",
+          "text": "Sprachschule Aktiv: Deutschkurse vormittags und nachmittags."
+        },
+        {
+          "id": "e",
+          "text": "Hundebetreuung Waldi: Wir passen auf Ihren Hund auf, auch über mehrere Wochen."
+        },
+        {
+          "id": "f",
+          "text": "Wohnung zu vermieten: 2 Zimmer, Stadtrand, kein Balkon."
+        },
+        {
+          "id": "g",
+          "text": "Deutsch am Morgen. Intensivkurse von 9 bis 12 Uhr."
+        },
+        {
+          "id": "h",
+          "text": "Gebrauchte Kinderfahrräder in gutem Zustand zu verkaufen."
+        },
+        {
+          "id": "i",
+          "text": "Gitarrenunterricht für Anfänger, erste Stunde gratis."
+        },
+        {
+          "id": "j",
+          "text": "Kfz-Werkstatt Meier: günstige Reparaturen, faire Preise."
+        },
+        {
+          "id": "k",
+          "text": "Restaurant Sonne sucht Aushilfe für das Wochenende (Sa/So)."
+        },
+        {
+          "id": "l",
+          "text": "Keine Anzeige passt (x)"
+        }
+      ],
+      "correctOptionId": "l",
+      "explanation": "**Answer: L** x · keine Anzeige passt\n\n*Bedingungen:* Deutschkurs + abends\n\nKurs „Deutsch am Morgen. Intensivkurse …“ (Morgen) und Kurs „Sprachschule Aktiv: Deutschkurse vormittags …“ (vormittags/nachmittags) sind keine Abendkurse → x."
+    },
+    {
+      "id": "tb1-u42-l01-teil3-alltag-ex06",
+      "type": "choice",
+      "title": "Situation 5 · Alltag",
+      "passage": "Sie brauchen jemanden, der Ihren Hund betreut, wenn Sie im Urlaub sind.",
+      "prompt": "Welche Anzeige passt? Wenn keine passt: x.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Verkaufe Sofa, 3 Sitze, guter Zustand, günstig abzugeben."
+        },
+        {
+          "id": "b",
+          "text": "Fahrradverleih am Bahnhof. Räder stundenweise mieten."
+        },
+        {
+          "id": "c",
+          "text": "Familien-Erlebnistag im Waldpark! Jeden Samstag Spiele und Natur für Groß und Klein."
+        },
+        {
+          "id": "d",
+          "text": "Sprachschule Aktiv: Deutschkurse vormittags und nachmittags."
+        },
+        {
+          "id": "e",
+          "text": "Hundebetreuung Waldi: Wir passen auf Ihren Hund auf, auch über mehrere Wochen."
+        },
+        {
+          "id": "f",
+          "text": "Wohnung zu vermieten: 2 Zimmer, Stadtrand, kein Balkon."
+        },
+        {
+          "id": "g",
+          "text": "Deutsch am Morgen. Intensivkurse von 9 bis 12 Uhr."
+        },
+        {
+          "id": "h",
+          "text": "Gebrauchte Kinderfahrräder in gutem Zustand zu verkaufen."
+        },
+        {
+          "id": "i",
+          "text": "Gitarrenunterricht für Anfänger, erste Stunde gratis."
+        },
+        {
+          "id": "j",
+          "text": "Kfz-Werkstatt Meier: günstige Reparaturen, faire Preise."
+        },
+        {
+          "id": "k",
+          "text": "Restaurant Sonne sucht Aushilfe für das Wochenende (Sa/So)."
+        },
+        {
+          "id": "l",
+          "text": "Keine Anzeige passt (x)"
+        }
+      ],
+      "correctOptionId": "e",
+      "explanation": "**Answer: E** „Hundebetreuung Waldi: Wir passen auf Ihren Hund auf, auch über mehrere Wochen.“\n\n*Bedingungen:* Hund betreuen + während des Urlaubs"
+    },
+    {
+      "id": "tb1-u42-l01-teil3-alltag-ex07",
+      "type": "choice",
+      "title": "Situation 6 · Alltag",
+      "passage": "Sie möchten ein gebrauchtes Fahrrad für Ihren Sohn kaufen.",
+      "prompt": "Welche Anzeige passt? Wenn keine passt: x.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Verkaufe Sofa, 3 Sitze, guter Zustand, günstig abzugeben."
+        },
+        {
+          "id": "b",
+          "text": "Fahrradverleih am Bahnhof. Räder stundenweise mieten."
+        },
+        {
+          "id": "c",
+          "text": "Familien-Erlebnistag im Waldpark! Jeden Samstag Spiele und Natur für Groß und Klein."
+        },
+        {
+          "id": "d",
+          "text": "Sprachschule Aktiv: Deutschkurse vormittags und nachmittags."
+        },
+        {
+          "id": "e",
+          "text": "Hundebetreuung Waldi: Wir passen auf Ihren Hund auf, auch über mehrere Wochen."
+        },
+        {
+          "id": "f",
+          "text": "Wohnung zu vermieten: 2 Zimmer, Stadtrand, kein Balkon."
+        },
+        {
+          "id": "g",
+          "text": "Deutsch am Morgen. Intensivkurse von 9 bis 12 Uhr."
+        },
+        {
+          "id": "h",
+          "text": "Gebrauchte Kinderfahrräder in gutem Zustand zu verkaufen."
+        },
+        {
+          "id": "i",
+          "text": "Gitarrenunterricht für Anfänger, erste Stunde gratis."
+        },
+        {
+          "id": "j",
+          "text": "Kfz-Werkstatt Meier: günstige Reparaturen, faire Preise."
+        },
+        {
+          "id": "k",
+          "text": "Restaurant Sonne sucht Aushilfe für das Wochenende (Sa/So)."
+        },
+        {
+          "id": "l",
+          "text": "Keine Anzeige passt (x)"
+        }
+      ],
+      "correctOptionId": "h",
+      "explanation": "**Answer: H** „Gebrauchte Kinderfahrräder in gutem Zustand zu verkaufen.“\n\n*Bedingungen:* Fahrrad + kaufen (nicht mieten)\n\nAnzeige „Fahrradverleih am Bahnhof. Räder …“ ist ein Verleih (mieten), kein Kauf."
+    },
+    {
+      "id": "tb1-u42-l01-teil3-alltag-ex08",
+      "type": "choice",
+      "title": "Situation 7 · Alltag",
+      "passage": "Sie suchen eine günstige Werkstatt für Ihr Auto.",
+      "prompt": "Welche Anzeige passt? Wenn keine passt: x.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Verkaufe Sofa, 3 Sitze, guter Zustand, günstig abzugeben."
+        },
+        {
+          "id": "b",
+          "text": "Fahrradverleih am Bahnhof. Räder stundenweise mieten."
+        },
+        {
+          "id": "c",
+          "text": "Familien-Erlebnistag im Waldpark! Jeden Samstag Spiele und Natur für Groß und Klein."
+        },
+        {
+          "id": "d",
+          "text": "Sprachschule Aktiv: Deutschkurse vormittags und nachmittags."
+        },
+        {
+          "id": "e",
+          "text": "Hundebetreuung Waldi: Wir passen auf Ihren Hund auf, auch über mehrere Wochen."
+        },
+        {
+          "id": "f",
+          "text": "Wohnung zu vermieten: 2 Zimmer, Stadtrand, kein Balkon."
+        },
+        {
+          "id": "g",
+          "text": "Deutsch am Morgen. Intensivkurse von 9 bis 12 Uhr."
+        },
+        {
+          "id": "h",
+          "text": "Gebrauchte Kinderfahrräder in gutem Zustand zu verkaufen."
+        },
+        {
+          "id": "i",
+          "text": "Gitarrenunterricht für Anfänger, erste Stunde gratis."
+        },
+        {
+          "id": "j",
+          "text": "Kfz-Werkstatt Meier: günstige Reparaturen, faire Preise."
+        },
+        {
+          "id": "k",
+          "text": "Restaurant Sonne sucht Aushilfe für das Wochenende (Sa/So)."
+        },
+        {
+          "id": "l",
+          "text": "Keine Anzeige passt (x)"
+        }
+      ],
+      "correctOptionId": "j",
+      "explanation": "**Answer: J** „Kfz-Werkstatt Meier: günstige Reparaturen, faire Preise.“\n\n*Bedingungen:* Autowerkstatt + günstig"
+    },
+    {
+      "id": "tb1-u42-l01-teil3-alltag-ex09",
+      "type": "choice",
+      "title": "Situation 8 · Alltag",
+      "passage": "Sie interessieren sich für einen Kochkurs am Wochenende.",
+      "prompt": "Welche Anzeige passt? Wenn keine passt: x.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Verkaufe Sofa, 3 Sitze, guter Zustand, günstig abzugeben."
+        },
+        {
+          "id": "b",
+          "text": "Fahrradverleih am Bahnhof. Räder stundenweise mieten."
+        },
+        {
+          "id": "c",
+          "text": "Familien-Erlebnistag im Waldpark! Jeden Samstag Spiele und Natur für Groß und Klein."
+        },
+        {
+          "id": "d",
+          "text": "Sprachschule Aktiv: Deutschkurse vormittags und nachmittags."
+        },
+        {
+          "id": "e",
+          "text": "Hundebetreuung Waldi: Wir passen auf Ihren Hund auf, auch über mehrere Wochen."
+        },
+        {
+          "id": "f",
+          "text": "Wohnung zu vermieten: 2 Zimmer, Stadtrand, kein Balkon."
+        },
+        {
+          "id": "g",
+          "text": "Deutsch am Morgen. Intensivkurse von 9 bis 12 Uhr."
+        },
+        {
+          "id": "h",
+          "text": "Gebrauchte Kinderfahrräder in gutem Zustand zu verkaufen."
+        },
+        {
+          "id": "i",
+          "text": "Gitarrenunterricht für Anfänger, erste Stunde gratis."
+        },
+        {
+          "id": "j",
+          "text": "Restaurant Sonne sucht Aushilfe für das Wochenende (Sa/So)."
+        },
+        {
+          "id": "k",
+          "text": "Kochkurs am Samstag: gemeinsam italienisch kochen."
+        },
+        {
+          "id": "l",
+          "text": "Keine Anzeige passt (x)"
+        }
+      ],
+      "correctOptionId": "k",
+      "explanation": "**Answer: K** „Kochkurs am Samstag: gemeinsam italienisch kochen.“\n\n*Bedingungen:* Kochkurs + Wochenende"
+    },
+    {
+      "id": "tb1-u42-l01-teil3-alltag-ex10",
+      "type": "choice",
+      "title": "Situation 9 · Alltag",
+      "passage": "Sie möchten Gitarre spielen lernen.",
+      "prompt": "Welche Anzeige passt? Wenn keine passt: x.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Verkaufe Sofa, 3 Sitze, guter Zustand, günstig abzugeben."
+        },
+        {
+          "id": "b",
+          "text": "Fahrradverleih am Bahnhof. Räder stundenweise mieten."
+        },
+        {
+          "id": "c",
+          "text": "Familien-Erlebnistag im Waldpark! Jeden Samstag Spiele und Natur für Groß und Klein."
+        },
+        {
+          "id": "d",
+          "text": "Sprachschule Aktiv: Deutschkurse vormittags und nachmittags."
+        },
+        {
+          "id": "e",
+          "text": "Hundebetreuung Waldi: Wir passen auf Ihren Hund auf, auch über mehrere Wochen."
+        },
+        {
+          "id": "f",
+          "text": "Wohnung zu vermieten: 2 Zimmer, Stadtrand, kein Balkon."
+        },
+        {
+          "id": "g",
+          "text": "Deutsch am Morgen. Intensivkurse von 9 bis 12 Uhr."
+        },
+        {
+          "id": "h",
+          "text": "Gebrauchte Kinderfahrräder in gutem Zustand zu verkaufen."
+        },
+        {
+          "id": "i",
+          "text": "Gitarrenunterricht für Anfänger, erste Stunde gratis."
+        },
+        {
+          "id": "j",
+          "text": "Kfz-Werkstatt Meier: günstige Reparaturen, faire Preise."
+        },
+        {
+          "id": "k",
+          "text": "Restaurant Sonne sucht Aushilfe für das Wochenende (Sa/So)."
+        },
+        {
+          "id": "l",
+          "text": "Keine Anzeige passt (x)"
+        }
+      ],
+      "correctOptionId": "i",
+      "explanation": "**Answer: I** „Gitarrenunterricht für Anfänger, erste Stunde gratis.“\n\n*Bedingungen:* Gitarre + lernen"
+    },
+    {
+      "id": "tb1-u42-l01-teil3-alltag-ex11",
+      "type": "choice",
+      "title": "Situation 10 · Alltag",
+      "passage": "Sie suchen eine Wohnung mit Balkon in der Nähe des Zentrums.",
+      "prompt": "Welche Anzeige passt? Wenn keine passt: x.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Verkaufe Sofa, 3 Sitze, guter Zustand, günstig abzugeben."
+        },
+        {
+          "id": "b",
+          "text": "Fahrradverleih am Bahnhof. Räder stundenweise mieten."
+        },
+        {
+          "id": "c",
+          "text": "Familien-Erlebnistag im Waldpark! Jeden Samstag Spiele und Natur für Groß und Klein."
+        },
+        {
+          "id": "d",
+          "text": "Sprachschule Aktiv: Deutschkurse vormittags und nachmittags."
+        },
+        {
+          "id": "e",
+          "text": "Hundebetreuung Waldi: Wir passen auf Ihren Hund auf, auch über mehrere Wochen."
+        },
+        {
+          "id": "f",
+          "text": "Wohnung zu vermieten: 2 Zimmer, Stadtrand, kein Balkon."
+        },
+        {
+          "id": "g",
+          "text": "Deutsch am Morgen. Intensivkurse von 9 bis 12 Uhr."
+        },
+        {
+          "id": "h",
+          "text": "Gebrauchte Kinderfahrräder in gutem Zustand zu verkaufen."
+        },
+        {
+          "id": "i",
+          "text": "Gitarrenunterricht für Anfänger, erste Stunde gratis."
+        },
+        {
+          "id": "j",
+          "text": "Kfz-Werkstatt Meier: günstige Reparaturen, faire Preise."
+        },
+        {
+          "id": "k",
+          "text": "Restaurant Sonne sucht Aushilfe für das Wochenende (Sa/So)."
+        },
+        {
+          "id": "l",
+          "text": "Keine Anzeige passt (x)"
+        }
+      ],
+      "correctOptionId": "l",
+      "explanation": "**Answer: L** x · keine Anzeige passt\n\n*Bedingungen:* Wohnung mit Balkon + nahe Zentrum\n\nAnzeige „Wohnung zu vermieten: 2 …“ ist am Stadtrand UND ohne Balkon → beide Bedingungen scheitern → x."
+    }
+  ]
+}

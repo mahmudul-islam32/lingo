@@ -6,8 +6,10 @@ import {
   type AnswerCheckResult,
   type Exercise,
   type LanguageCode,
+  isUngradedExerciseType,
+  richTextToPlain,
 } from "@/contracts";
-import { Button, CheckIcon, CrossIcon, cn } from "@/components/ui";
+import { Button, CheckIcon, CrossIcon, RichText, cn } from "@/components/ui";
 import { INCORRECT_HEADING, pickCorrectHeading } from "./headings";
 
 export interface FeedbackPanelProps {
@@ -70,10 +72,18 @@ export function FeedbackPanel({
       ? (result.correctAnswer ?? clozeCorrectSentence(exercise))
       : null;
 
-  const parts = [correct ? heading : sentence(heading)];
+  // TELC-001: transcript of a listening item, model answer of a task, explanation of any.
+  const transcript = exercise.type === "listening" ? exercise.transcript : null;
+  const modelAnswer = exercise.type === "task" ? exercise.modelAnswer : null;
+  const explanation = exercise.explanation ?? null;
+  const ungraded = isUngradedExerciseType(exercise.type);
+  const shownHeading = ungraded ? "Model answer" : heading;
+
+  const parts = [ungraded ? shownHeading : correct ? heading : sentence(heading)];
   if (completed) parts.push(sentence(completed));
   if (correctAnswer) parts.push(`Correct answer: ${sentence(correctAnswer)}`);
   if (heard) parts.push(`You heard: ${sentence(heard)}`);
+  if (explanation) parts.push(richTextToPlain(explanation));
   const message = parts.join(" ");
 
   useEffect(() => {
@@ -90,7 +100,8 @@ export function FeedbackPanel({
       data-testid="feedback-panel"
       data-outcome={correct ? "correct" : "incorrect"}
       className={cn(
-        "max-h-[50dvh] overflow-y-auto border-t-2 px-4 pt-5 pb-[calc(1.25rem+env(safe-area-inset-bottom))] sm:px-6",
+        modelAnswer || transcript || explanation ? "max-h-[70dvh]" : "max-h-[50dvh]",
+        "overflow-y-auto border-t-2 px-4 pt-5 pb-[calc(1.25rem+env(safe-area-inset-bottom))] sm:px-6",
         "motion-safe:animate-slide-up",
         correct
           ? "border-success-border bg-success-soft text-success-fg"
@@ -107,14 +118,16 @@ export function FeedbackPanel({
               correct ? "text-success" : "text-danger",
             )}
           >
-            {correct ? (
+            {ungraded ? (
+              <CheckIcon size={22} strokeWidth={3} />
+            ) : correct ? (
               <CheckIcon size={22} strokeWidth={3} />
             ) : (
               <CrossIcon size={22} strokeWidth={3} />
             )}
           </span>
           <h2 id={headingId} className="font-display text-[1.375rem] leading-tight font-extrabold">
-            {heading}
+            {shownHeading}
           </h2>
         </div>
 
@@ -147,6 +160,36 @@ export function FeedbackPanel({
               {heard}
             </span>
           </p>
+        )}
+
+        {modelAnswer && (
+          <RichText
+            text={modelAnswer}
+            lang={learningLanguage}
+            className="rounded-control bg-surface p-3 text-fg"
+          />
+        )}
+
+        {transcript && (
+          <div className="flex flex-col gap-1">
+            <span className={cn("eyebrow", correct ? "text-success" : "text-danger")}>
+              Transcript:
+            </span>
+            <RichText
+              text={transcript}
+              lang={learningLanguage}
+              className="rounded-control bg-surface p-3 text-fg"
+            />
+          </div>
+        )}
+
+        {explanation && (
+          <div className="flex flex-col gap-1" data-testid="feedback-explanation">
+            <span className={cn("eyebrow", correct ? "text-success" : "text-danger")}>
+              Explanation:
+            </span>
+            <RichText text={explanation} lang={knownLanguage} className="text-fg" />
+          </div>
         )}
 
         {/* Same as VisuallyHidden, which doesn't take a ref. */}

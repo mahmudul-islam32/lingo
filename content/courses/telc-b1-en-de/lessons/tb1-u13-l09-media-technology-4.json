@@ -1,0 +1,231 @@
+{
+  "id": "tb1-u13-l09-media-technology-4",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u13",
+  "title": "Media & Technology 4",
+  "tip": "Theme: Medien / Technik (B1)",
+  "exercises": [
+    {
+      "id": "tb1-u13-l09-media-technology-4-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "speichern",
+          "known": "to save"
+        },
+        {
+          "id": "p2",
+          "learning": "das Passwort",
+          "known": "password"
+        },
+        {
+          "id": "p3",
+          "learning": "die sozialen Medien",
+          "known": "social media"
+        },
+        {
+          "id": "p4",
+          "learning": "anrufen . Ich rufe dich an",
+          "known": "to call"
+        },
+        {
+          "id": "p5",
+          "learning": "das Handy",
+          "known": "mobile phone"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u13-l09-media-technology-4-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which one means „to save ↔ to delete“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "speichern ↔ löschen"
+        },
+        {
+          "id": "b",
+          "text": "einschalten ↔ ausschalten"
+        },
+        {
+          "id": "c",
+          "text": "funktionieren. Das Gerät funktioniert nicht mehr."
+        },
+        {
+          "id": "d",
+          "text": "reparieren: etwas reparieren lassen"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**speichern ↔ löschen** = to save ↔ to delete\n\n*Example:* Ich speichere die Fotos und lösche die alten Dateien.\nI'm saving the photos and deleting the old files."
+    },
+    {
+      "id": "tb1-u13-l09-media-technology-4-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „password“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "das Passwort, die Passwörter"
+        },
+        {
+          "id": "b",
+          "text": "das Internet (nur Sg.) · das WLAN"
+        },
+        {
+          "id": "c",
+          "text": "die Nachricht, die Nachrichten"
+        },
+        {
+          "id": "d",
+          "text": "die Zeitung, die Zeitungen · die Zeitschrift, die Zeitschriften"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**das Passwort** = password\n*Plural: die Passwörter*\n\n*Example:* Ich habe mein Passwort vergessen.\nI've forgotten my password."
+    },
+    {
+      "id": "tb1-u13-l09-media-technology-4-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I'm saving the photos and deleting the old files.",
+      "tiles": [
+        "die",
+        "Fotos",
+        "Dateien",
+        "Medien",
+        "Handy",
+        "alten",
+        "speichere",
+        "lösche",
+        "und",
+        "WLAN",
+        "die",
+        "Ich"
+      ],
+      "answers": [
+        "Ich speichere die Fotos und lösche die alten Dateien."
+      ],
+      "explanation": "**speichern ↔ löschen** = to save ↔ to delete"
+    },
+    {
+      "id": "tb1-u13-l09-media-technology-4-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „social media: to share“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die sozialen Medien (Pl.), teilen"
+        },
+        {
+          "id": "b",
+          "text": "die E-Mail, die E-Mails: schicken / bekommen / beantworten"
+        },
+        {
+          "id": "c",
+          "text": "das Internet (nur Sg.) · das WLAN"
+        },
+        {
+          "id": "d",
+          "text": "das Handy, die Handys · das Smartphone, die Smartphones"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**die sozialen Medien (Pl.), teilen** = social media: to share\n\n*Example:* Lena teilt ihre Urlaubsfotos in den sozialen Medien.\nLena shares her holiday photos on social media."
+    },
+    {
+      "id": "tb1-u13-l09-media-technology-4-ex06",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u13-l09-media-technology-4-2.mp3"
+      },
+      "tiles": [
+        "mein",
+        "heute",
+        "und",
+        "vergessen",
+        "Ich",
+        "habe",
+        "geschrieben",
+        "Passwort"
+      ],
+      "answers": [
+        "Ich habe mein Passwort vergessen."
+      ],
+      "explanation": "Ich habe mein Passwort vergessen.\n*I've forgotten my password.*\n\n**das Passwort** = password\n*Plural: die Passwörter*"
+    },
+    {
+      "id": "tb1-u13-l09-media-technology-4-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which verb means „to call: ⚠ Akkusativ, no preposition“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "herunterladen (hat heruntergeladen)"
+        },
+        {
+          "id": "b",
+          "text": "fernsehen (hat ferngesehen): die Sendung, die Sendungen"
+        },
+        {
+          "id": "c",
+          "text": "kaputt: kaputtgehen (ist kaputtgegangen)"
+        },
+        {
+          "id": "d",
+          "text": "anrufen + Akk. (hat angerufen). Ich rufe dich an."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**anrufen + Akk. (hat angerufen). Ich rufe dich an.** = to call: ⚠ Akkusativ, no preposition\n\n*Example:* Ich rufe dich morgen nach der Arbeit an.\nI'll call you tomorrow after work."
+    },
+    {
+      "id": "tb1-u13-l09-media-technology-4-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Lena teilt ihre Urlaubsfotos in den sozialen Medien.",
+      "tiles": [
+        "Lena",
+        "media",
+        "her",
+        "you",
+        "holiday",
+        "dead",
+        "photos",
+        "me",
+        "on",
+        "shares",
+        "social"
+      ],
+      "answers": [
+        "Lena shares her holiday photos on social media."
+      ],
+      "explanation": "**die sozialen Medien (Pl.), teilen** = social media: to share"
+    },
+    {
+      "id": "tb1-u13-l09-media-technology-4-ex09",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I'll call you tomorrow after work.",
+      "tiles": [
+        "an",
+        "Ich",
+        "rufe",
+        "jeden",
+        "morgen",
+        "Arbeit",
+        "mein",
+        "drucken",
+        "der",
+        "dich",
+        "nach"
+      ],
+      "answers": [
+        "Ich rufe dich morgen nach der Arbeit an."
+      ],
+      "explanation": "**anrufen + Akk. (hat angerufen). Ich rufe dich an.** = to call: ⚠ Akkusativ, no preposition"
+    }
+  ]
+}

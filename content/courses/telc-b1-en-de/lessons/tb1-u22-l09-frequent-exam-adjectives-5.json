@@ -1,0 +1,241 @@
+{
+  "id": "tb1-u22-l09-frequent-exam-adjectives-5",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u22",
+  "title": "Frequent Exam Adjectives 5",
+  "tip": "Theme: Adjektive: Prüfungshäufig (B1)",
+  "exercises": [
+    {
+      "id": "tb1-u22-l09-frequent-exam-adjectives-5-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "unabhängig",
+          "known": "independent"
+        },
+        {
+          "id": "p2",
+          "learning": "unterschiedlich",
+          "known": "different / varying"
+        },
+        {
+          "id": "p3",
+          "learning": "lustig",
+          "known": "funny"
+        },
+        {
+          "id": "p4",
+          "learning": "sportlich",
+          "known": "sporty / athletic"
+        },
+        {
+          "id": "p5",
+          "learning": "wenig",
+          "known": "little / few"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u22-l09-frequent-exam-adjectives-5-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which one means „independent“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "eigen"
+        },
+        {
+          "id": "b",
+          "text": "unabhängig"
+        },
+        {
+          "id": "c",
+          "text": "unterschiedlich"
+        },
+        {
+          "id": "d",
+          "text": "endlich"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**unabhängig** = independent\n\n*Example:* Ali verdient eigenes Geld und ist jetzt unabhängig von seinen Eltern.\nAli earns his own money and is now independent of his parents."
+    },
+    {
+      "id": "tb1-u22-l09-frequent-exam-adjectives-5-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which one means „different / varying“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "unterschiedlich"
+        },
+        {
+          "id": "b",
+          "text": "einzeln"
+        },
+        {
+          "id": "c",
+          "text": "eigen"
+        },
+        {
+          "id": "d",
+          "text": "regelmäßig"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**unterschiedlich** = different / varying\n\n*Example:* Die Preise für Wohnungen sind in jeder Stadt unterschiedlich.\nFlat prices vary from city to city."
+    },
+    {
+      "id": "tb1-u22-l09-frequent-exam-adjectives-5-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Ali verdient eigenes Geld und ist jetzt unabhängig von seinen Eltern.",
+      "tiles": [
+        "now",
+        "his",
+        "and",
+        "earns",
+        "independent",
+        "time",
+        "own",
+        "of",
+        "is",
+        "his",
+        "money",
+        "really",
+        "parents",
+        "Ali",
+        "very"
+      ],
+      "answers": [
+        "Ali earns his own money and is now independent of his parents."
+      ],
+      "explanation": "**unabhängig** = independent"
+    },
+    {
+      "id": "tb1-u22-l09-frequent-exam-adjectives-5-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which one means „funny“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "bereits"
+        },
+        {
+          "id": "b",
+          "text": "endlich"
+        },
+        {
+          "id": "c",
+          "text": "sportlich"
+        },
+        {
+          "id": "d",
+          "text": "lustig"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**lustig** = funny\n\n*Example:* Der Film war so lustig, dass wir viel gelacht haben.\nThe film was so funny that we laughed a lot."
+    },
+    {
+      "id": "tb1-u22-l09-frequent-exam-adjectives-5-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Flat prices vary from city to city.",
+      "tiles": [
+        "unterschiedlich",
+        "Stadt",
+        "für",
+        "in",
+        "jeder",
+        "besser",
+        "sind",
+        "Wohnungen",
+        "Preise",
+        "Tom",
+        "lange",
+        "Die"
+      ],
+      "answers": [
+        "Die Preise für Wohnungen sind in jeder Stadt unterschiedlich."
+      ],
+      "explanation": "**unterschiedlich** = different / varying"
+    },
+    {
+      "id": "tb1-u22-l09-frequent-exam-adjectives-5-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which one means „sporty / athletic“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "sportlich"
+        },
+        {
+          "id": "b",
+          "text": "unabhängig"
+        },
+        {
+          "id": "c",
+          "text": "aktiv"
+        },
+        {
+          "id": "d",
+          "text": "wirklich"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**sportlich** = sporty / athletic\n\n*Example:* Maria ist sehr sportlich und joggt jeden Morgen.\nMaria is very sporty and goes jogging every morning."
+    },
+    {
+      "id": "tb1-u22-l09-frequent-exam-adjectives-5-ex08",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u22-l09-frequent-exam-adjectives-5-3.mp3"
+      },
+      "tiles": [
+        "haben",
+        "viel",
+        "meine",
+        "gelacht",
+        "dass",
+        "Film",
+        "war",
+        "Der",
+        "von",
+        "wir",
+        "Äpfel",
+        "so",
+        "lustig"
+      ],
+      "answers": [
+        "Der Film war so lustig, dass wir viel gelacht haben."
+      ],
+      "explanation": "Der Film war so lustig, dass wir viel gelacht haben.\n*The film was so funny that we laughed a lot.*\n\n**lustig** = funny"
+    },
+    {
+      "id": "tb1-u22-l09-frequent-exam-adjectives-5-ex09",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Maria ist sehr sportlich und joggt jeden Morgen.",
+      "tiles": [
+        "reply",
+        "sporty",
+        "very",
+        "every",
+        "goes",
+        "is",
+        "jogging",
+        "sports",
+        "and",
+        "Maria",
+        "morning",
+        "new"
+      ],
+      "answers": [
+        "Maria is very sporty and goes jogging every morning."
+      ],
+      "explanation": "**sportlich** = sporty / athletic"
+    }
+  ]
+}

@@ -1,0 +1,303 @@
+{
+  "id": "tb1-u16-l05-food-restaurants-5",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u16",
+  "title": "Food & Restaurants 5",
+  "tip": "Theme: Essen / Trinken / Restaurant (B1)",
+  "exercises": [
+    {
+      "id": "tb1-u16-l05-food-restaurants-5-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "kochen",
+          "known": "to cook"
+        },
+        {
+          "id": "p2",
+          "learning": "das Rezept",
+          "known": "recipe"
+        },
+        {
+          "id": "p3",
+          "learning": "sich gesund ernähren",
+          "known": "to eat healthily"
+        },
+        {
+          "id": "p4",
+          "learning": "die Speisekarte",
+          "known": "menu"
+        },
+        {
+          "id": "p5",
+          "learning": "das Gericht",
+          "known": "dish"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u16-l05-food-restaurants-5-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which verb means „to cook · to bake · to prepare“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "sich gesund ernähren: die Ernährung"
+        },
+        {
+          "id": "b",
+          "text": "einladen + Akk. zu + Dat. (hat eingeladen)"
+        },
+        {
+          "id": "c",
+          "text": "kochen · backen (hat gebacken) · zubereiten (hat zubereitet)"
+        },
+        {
+          "id": "d",
+          "text": "empfehlen + Dat. + Akk. (hat empfohlen). Was können Sie mir empfehlen?"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**kochen · backen (hat gebacken) · zubereiten (hat zubereitet)** = to cook · to bake · to prepare\n\n*Example:* Am Wochenende kocht mein Vater, und meine Mutter backt einen Kuchen.\nAt the weekend my father cooks and my mother bakes a cake."
+    },
+    {
+      "id": "tb1-u16-l05-food-restaurants-5-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „recipe: ingredient (⚠ Rezept = prescription in D2)“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "der Kellner, die Kellner / die Kellnerin, die Kellnerinnen"
+        },
+        {
+          "id": "b",
+          "text": "das Rezept, die Rezepte: die Zutat, die Zutaten"
+        },
+        {
+          "id": "c",
+          "text": "das Trinkgeld, die Trinkgelder"
+        },
+        {
+          "id": "d",
+          "text": "das Fleisch (nur Sg.) · der Fisch, die Fische"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**das Rezept, die Rezepte: die Zutat, die Zutaten** = recipe: ingredient (⚠ Rezept = prescription in D2)\n\n*Example:* Für dieses Rezept brauchst du nur fünf Zutaten.\nYou only need five ingredients for this recipe."
+    },
+    {
+      "id": "tb1-u16-l05-food-restaurants-5-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "At the weekend my father cooks and my mother bakes a cake.",
+      "tiles": [
+        "und",
+        "esse",
+        "sehr",
+        "meine",
+        "backt",
+        "einen",
+        "kocht",
+        "Kuchen",
+        "Vorspeise",
+        "mein",
+        "Vater",
+        "Mutter",
+        "Wochenende",
+        "Am"
+      ],
+      "answers": [
+        "Am Wochenende kocht mein Vater, und meine Mutter backt einen Kuchen."
+      ],
+      "explanation": "**kochen · backen (hat gebacken) · zubereiten (hat zubereitet)** = to cook · to bake · to prepare"
+    },
+    {
+      "id": "tb1-u16-l05-food-restaurants-5-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which verb means „to eat healthily: diet, nutrition“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "einladen + Akk. zu + Dat. (hat eingeladen)"
+        },
+        {
+          "id": "b",
+          "text": "kochen · backen (hat gebacken) · zubereiten (hat zubereitet)"
+        },
+        {
+          "id": "c",
+          "text": "sich gesund ernähren: die Ernährung"
+        },
+        {
+          "id": "d",
+          "text": "empfehlen + Dat. + Akk. (hat empfohlen). Was können Sie mir empfehlen?"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**sich gesund ernähren: die Ernährung** = to eat healthily: diet, nutrition\n\n*Example:* Seit ihrer Krankheit ernährt sich Maria gesund und isst wenig Zucker.\nSince her illness, Maria has been eating healthily and eats little sugar."
+    },
+    {
+      "id": "tb1-u16-l05-food-restaurants-5-ex06",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u16-l05-food-restaurants-5-2.mp3"
+      },
+      "tiles": [
+        "Rezept",
+        "ich",
+        "brauchst",
+        "fünf",
+        "einen",
+        "Speisekarte",
+        "nur",
+        "dieses",
+        "Zutaten",
+        "Für",
+        "du"
+      ],
+      "answers": [
+        "Für dieses Rezept brauchst du nur fünf Zutaten."
+      ],
+      "explanation": "Für dieses Rezept brauchst du nur fünf Zutaten.\n*You only need five ingredients for this recipe.*\n\n**das Rezept, die Rezepte: die Zutat, die Zutaten** = recipe: ingredient (⚠ Rezept = prescription in D2)"
+    },
+    {
+      "id": "tb1-u16-l05-food-restaurants-5-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means „Can you recommend something? I don't eat meat. I like vegetable dishes best.“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Das Essen hat uns sehr gut geschmeckt, deshalb haben wir der Kellnerin ein gutes Trinkgeld gegeben."
+        },
+        {
+          "id": "b",
+          "text": "In Deutschland feiern viele Leute Silvester mit Freunden, und um Mitternacht gibt es ein großes Feuerwerk."
+        },
+        {
+          "id": "c",
+          "text": "Können Sie mir etwas empfehlen? Ich esse kein Fleisch, am liebsten esse ich Gemüsegerichte."
+        },
+        {
+          "id": "d",
+          "text": "Vielen Dank für die Einladung! Ich komme sehr gern zu deiner Feier und bringe einen Nachtisch mit."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**Können Sie mir etwas empfehlen? Ich esse kein Fleisch, am liebsten esse ich Gemüsegerichte.** = Can you recommend something? I don't eat meat. I like vegetable dishes best.\n\n*Example:* Können Sie mir etwas empfehlen? Ich esse kein Fleisch, am liebsten esse ich Gemüsegerichte.\nCan you recommend something? I don't eat meat. I like vegetable dishes best."
+    },
+    {
+      "id": "tb1-u16-l05-food-restaurants-5-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Seit ihrer Krankheit ernährt sich Maria gesund und isst wenig Zucker.",
+      "tiles": [
+        "healthily",
+        "been",
+        "for",
+        "eating",
+        "Since",
+        "her",
+        "illness",
+        "and",
+        "always",
+        "Maria",
+        "has",
+        "sugar",
+        "eats",
+        "little",
+        "fruit"
+      ],
+      "answers": [
+        "Since her illness, Maria has been eating healthily and eats little sugar."
+      ],
+      "explanation": "**sich gesund ernähren: die Ernährung** = to eat healthily: diet, nutrition"
+    },
+    {
+      "id": "tb1-u16-l05-food-restaurants-5-ex09",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means „We really enjoyed the food, so we gave the waitress a good tip.“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Können Sie mir etwas empfehlen? Ich esse kein Fleisch, am liebsten esse ich Gemüsegerichte."
+        },
+        {
+          "id": "b",
+          "text": "Das Essen hat uns sehr gut geschmeckt, deshalb haben wir der Kellnerin ein gutes Trinkgeld gegeben."
+        },
+        {
+          "id": "c",
+          "text": "Vielen Dank für die Einladung! Ich komme sehr gern zu deiner Feier und bringe einen Nachtisch mit."
+        },
+        {
+          "id": "d",
+          "text": "In Deutschland feiern viele Leute Silvester mit Freunden, und um Mitternacht gibt es ein großes Feuerwerk."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Das Essen hat uns sehr gut geschmeckt, deshalb haben wir der Kellnerin ein gutes Trinkgeld gegeben.** = We really enjoyed the food, so we gave the waitress a good tip.\n\n*Example:* Das Essen hat uns sehr gut geschmeckt, deshalb haben wir der Kellnerin ein gutes Trinkgeld gegeben.\nWe really enjoyed the food, so we gave the waitress a good tip."
+    },
+    {
+      "id": "tb1-u16-l05-food-restaurants-5-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Can you recommend something? I don't eat meat. I like vegetable dishes best.",
+      "tiles": [
+        "Ich",
+        "Können",
+        "Fleisch",
+        "etwas",
+        "Gemüse",
+        "Stück",
+        "empfehlen",
+        "ich",
+        "esse",
+        "liebsten",
+        "mir",
+        "kein",
+        "am",
+        "Gemüsegerichte",
+        "dieses",
+        "Sie",
+        "esse"
+      ],
+      "answers": [
+        "Können Sie mir etwas empfehlen? Ich esse kein Fleisch, am liebsten esse ich Gemüsegerichte."
+      ],
+      "explanation": "**Können Sie mir etwas empfehlen? Ich esse kein Fleisch, am liebsten esse ich Gemüsegerichte.** = Can you recommend something? I don't eat meat. I like vegetable dishes best."
+    },
+    {
+      "id": "tb1-u16-l05-food-restaurants-5-ex11",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u16-l05-food-restaurants-5-5.mp3"
+      },
+      "tiles": [
+        "haben",
+        "eine",
+        "gutes",
+        "deshalb",
+        "wir",
+        "sehr",
+        "Kellnerin",
+        "gegeben",
+        "ein",
+        "zwei",
+        "gut",
+        "Essen",
+        "Das",
+        "Woche",
+        "der",
+        "geschmeckt",
+        "hat",
+        "uns",
+        "Trinkgeld"
+      ],
+      "answers": [
+        "Das Essen hat uns sehr gut geschmeckt, deshalb haben wir der Kellnerin ein gutes Trinkgeld gegeben."
+      ],
+      "explanation": "Das Essen hat uns sehr gut geschmeckt, deshalb haben wir der Kellnerin ein gutes Trinkgeld gegeben.\n*We really enjoyed the food, so we gave the waitress a good tip.*\n\n**Das Essen hat uns sehr gut geschmeckt, deshalb haben wir der Kellnerin ein gutes Trinkgeld gegeben.** = We really enjoyed the food, so we gave the waitress a good tip."
+    }
+  ]
+}

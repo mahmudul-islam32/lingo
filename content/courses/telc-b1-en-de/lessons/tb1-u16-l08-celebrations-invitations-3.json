@@ -1,0 +1,238 @@
+{
+  "id": "tb1-u16-l08-celebrations-invitations-3",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u16",
+  "title": "Celebrations & Invitations 3",
+  "tip": "Theme: Feste / Kultur / Einladungen (B1)",
+  "exercises": [
+    {
+      "id": "tb1-u16-l08-celebrations-invitations-3-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "vorbereiten",
+          "known": "to prepare"
+        },
+        {
+          "id": "p2",
+          "learning": "mitbringen . Was soll ich mitbringen?",
+          "known": "to bring along. What should I bring?"
+        },
+        {
+          "id": "p3",
+          "learning": "schmücken",
+          "known": "to decorate"
+        },
+        {
+          "id": "p4",
+          "learning": "das Fest",
+          "known": "festival"
+        },
+        {
+          "id": "p5",
+          "learning": "die Party",
+          "known": "party"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u16-l08-celebrations-invitations-3-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which one means „to prepare: preparation“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "vorbereiten: die Vorbereitung, die Vorbereitungen"
+        },
+        {
+          "id": "b",
+          "text": "gratulieren + Dat. zu + Dat. Ich gratuliere dir zur bestandenen Prüfung!"
+        },
+        {
+          "id": "c",
+          "text": "zusagen ↔ absagen"
+        },
+        {
+          "id": "d",
+          "text": "Weihnachten · Ostern · Silvester"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**vorbereiten: die Vorbereitung, die Vorbereitungen** = to prepare: preparation\n\n*Example:* Meine Mutter bereitet das Essen für die Familienfeier vor.\nMy mother is preparing the food for the family celebration."
+    },
+    {
+      "id": "tb1-u16-l08-celebrations-invitations-3-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which verb means „to bring along. What should I bring?“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "verschieben (hat verschoben)"
+        },
+        {
+          "id": "b",
+          "text": "sich bedanken bei + Dat. für + Akk."
+        },
+        {
+          "id": "c",
+          "text": "der Feiertag, die Feiertage"
+        },
+        {
+          "id": "d",
+          "text": "mitbringen (hat mitgebracht). Was soll ich mitbringen?"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**mitbringen (hat mitgebracht). Was soll ich mitbringen?** = to bring along. What should I bring?\n\n*Example:* Ich komme gern zu deiner Party. Was soll ich mitbringen?\nI'd love to come to your party. What should I bring?"
+    },
+    {
+      "id": "tb1-u16-l08-celebrations-invitations-3-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "My mother is preparing the food for the family celebration.",
+      "tiles": [
+        "Silvester",
+        "die",
+        "Essen",
+        "vor",
+        "Mutter",
+        "Meine",
+        "Familienfeier",
+        "für",
+        "schenkt",
+        "das",
+        "absagen",
+        "bereitet"
+      ],
+      "answers": [
+        "Meine Mutter bereitet das Essen für die Familienfeier vor."
+      ],
+      "explanation": "**vorbereiten: die Vorbereitung, die Vorbereitungen** = to prepare: preparation"
+    },
+    {
+      "id": "tb1-u16-l08-celebrations-invitations-3-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which one means „to decorate“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Herzlichen Glückwunsch zum Geburtstag!"
+        },
+        {
+          "id": "b",
+          "text": "Weihnachten · Ostern · Silvester"
+        },
+        {
+          "id": "c",
+          "text": "schmücken"
+        },
+        {
+          "id": "d",
+          "text": "vorbereiten: die Vorbereitung, die Vorbereitungen"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**schmücken** = to decorate\n\n*Example:* Die Kinder schmücken den Weihnachtsbaum mit roten Kugeln.\nThe children are decorating the Christmas tree with red baubles."
+    },
+    {
+      "id": "tb1-u16-l08-celebrations-invitations-3-ex06",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u16-l08-celebrations-invitations-3-2.mp3"
+      },
+      "tiles": [
+        "mitbringen",
+        "deiner",
+        "ich",
+        "großes",
+        "soll",
+        "gern",
+        "Party",
+        "komme",
+        "der",
+        "Was",
+        "Ich",
+        "Essen",
+        "zu"
+      ],
+      "answers": [
+        "Ich komme gern zu deiner Party. Was soll ich mitbringen?"
+      ],
+      "explanation": "Ich komme gern zu deiner Party. Was soll ich mitbringen?\n*I'd love to come to your party. What should I bring?*\n\n**mitbringen (hat mitgebracht). Was soll ich mitbringen?** = to bring along. What should I bring?"
+    },
+    {
+      "id": "tb1-u16-l08-celebrations-invitations-3-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which one means „to congratulate on: note the double Dativ“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "zusagen ↔ absagen"
+        },
+        {
+          "id": "b",
+          "text": "gratulieren + Dat. zu + Dat. Ich gratuliere dir zur bestandenen Prüfung!"
+        },
+        {
+          "id": "c",
+          "text": "vorbereiten: die Vorbereitung, die Vorbereitungen"
+        },
+        {
+          "id": "d",
+          "text": "Weihnachten · Ostern · Silvester"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**gratulieren + Dat. zu + Dat. Ich gratuliere dir zur bestandenen Prüfung!** = to congratulate on: note the double Dativ\n\n*Example:* Wir gratulieren dir herzlich zur Geburt deiner Tochter!\nWarm congratulations on the birth of your daughter!"
+    },
+    {
+      "id": "tb1-u16-l08-celebrations-invitations-3-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Die Kinder schmücken den Weihnachtsbaum mit roten Kugeln.",
+      "tiles": [
+        "baubles",
+        "decorating",
+        "children",
+        "The",
+        "with",
+        "Christmas",
+        "are",
+        "the",
+        "tree",
+        "red",
+        "Germany",
+        "going",
+        "Anna"
+      ],
+      "answers": [
+        "The children are decorating the Christmas tree with red baubles."
+      ],
+      "explanation": "**schmücken** = to decorate"
+    },
+    {
+      "id": "tb1-u16-l08-celebrations-invitations-3-ex09",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Warm congratulations on the birth of your daughter!",
+      "tiles": [
+        "mit",
+        "gratulieren",
+        "Freunden",
+        "Geburt",
+        "zur",
+        "deiner",
+        "herzlich",
+        "Wir",
+        "uns",
+        "Tochter",
+        "dir"
+      ],
+      "answers": [
+        "Wir gratulieren dir herzlich zur Geburt deiner Tochter!"
+      ],
+      "explanation": "**gratulieren + Dat. zu + Dat. Ich gratuliere dir zur bestandenen Prüfung!** = to congratulate on: note the double Dativ"
+    }
+  ]
+}

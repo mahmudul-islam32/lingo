@@ -1,0 +1,319 @@
+{
+  "id": "tb1-u33-l02-komparativ-p1",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u33",
+  "title": "Comparative & Superlative: Komparativ + als & Superlativ",
+  "tip": "als vs. wie: größer als du · so groß wie du. “Größer wie” is always wrong. And never “mehr schnell”. German ALWAYS uses -er.",
+  "exercises": [
+    {
+      "id": "tb1-u33-l02-komparativ-p1-ex01",
+      "type": "explain",
+      "title": "Komparativ + als",
+      "body": "Adjective + -er + als. Short words often take an umlaut: alt → älter.\n\n*Deutsch:* Adjektiv + -er + als. Kurze Wörter oft mit Umlaut: alt → älter.\n\n## Pattern\n\nA + Verb + **Adjektiv-er** + **als** + B",
+      "examples": [
+        {
+          "learning": "Mein Bruder ist älter als ich.",
+          "known": "My brother is older than me."
+        },
+        {
+          "learning": "Der Zug ist schneller als der Bus.",
+          "known": "The train is faster than the bus."
+        }
+      ]
+    },
+    {
+      "id": "tb1-u33-l02-komparativ-p1-ex02",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "My brother is older than me.",
+      "tiles": [
+        "älter",
+        "Mein",
+        "Bruder",
+        "das",
+        "ich",
+        "am",
+        "als",
+        "ist",
+        "Tee"
+      ],
+      "answers": [
+        "Mein Bruder ist älter als ich."
+      ],
+      "explanation": "**Why:** alt → älter (umlaut) + als.\n\n*Warum:* alt → älter (Umlaut) + als."
+    },
+    {
+      "id": "tb1-u33-l02-komparativ-p1-ex03",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "The train is faster than the bus.",
+      "tiles": [
+        "wie",
+        "Bus",
+        "Sommer",
+        "schneller",
+        "Zug",
+        "der",
+        "ist",
+        "Der",
+        "nicht",
+        "als"
+      ],
+      "answers": [
+        "Der Zug ist schneller als der Bus."
+      ],
+      "explanation": "**Why:** schnell → schneller.\n\n*Warum:* schnell → schneller."
+    },
+    {
+      "id": "tb1-u33-l02-komparativ-p1-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I prefer tea to coffee.",
+      "tiles": [
+        "lieber",
+        "letztes",
+        "trinke",
+        "Mein",
+        "Kaffee",
+        "Tee",
+        "schwer",
+        "Ich",
+        "als"
+      ],
+      "answers": [
+        "Ich trinke lieber Tee als Kaffee."
+      ],
+      "explanation": "**Why:** gern → lieber (irregular).\n\n*Warum:* gern → lieber (unregelmäßig)."
+    },
+    {
+      "id": "tb1-u33-l02-komparativ-p1-ex05",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "The weather is better today than yesterday.",
+      "tiles": [
+        "wie",
+        "gestern",
+        "als",
+        "ist",
+        "gedacht",
+        "Heute",
+        "das",
+        "besser",
+        "Wetter",
+        "der"
+      ],
+      "answers": [
+        "Heute ist das Wetter besser als gestern."
+      ],
+      "explanation": "**Why:** gut → besser.\n\n*Warum:* gut → besser."
+    },
+    {
+      "id": "tb1-u33-l02-komparativ-p1-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Berlin is bigger than Munich.",
+      "tiles": [
+        "München",
+        "Berlin",
+        "die",
+        "ist",
+        "als",
+        "ich",
+        "größer",
+        "Testlücke-Stil"
+      ],
+      "answers": [
+        "Berlin ist größer als München."
+      ],
+      "explanation": "**Why:** groß → größer.\n\n*Warum:* groß → größer."
+    },
+    {
+      "id": "tb1-u33-l02-komparativ-p1-ex07",
+      "type": "explain",
+      "title": "Superlativ: am -sten / der -ste",
+      "body": "am + adjective-sten (after a verb) or der/die/das + adjective-ste (before a noun).\n\n*Deutsch:* am + Adjektiv-sten (nach Verb) oder der/die/das + Adjektiv-ste (vor Nomen).\n\n## Pattern\n\n**am** + Adj.-**sten** · **der/die/das** + Adj.-**ste** + Nomen",
+      "examples": [
+        {
+          "learning": "Im Sommer schwimme ich am liebsten.",
+          "known": "In summer I like swimming best."
+        },
+        {
+          "learning": "Dieser Weg ist am kürzesten.",
+          "known": "This route is the shortest."
+        }
+      ]
+    },
+    {
+      "id": "tb1-u33-l02-komparativ-p1-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "In summer I like swimming best.",
+      "tiles": [
+        "Sie",
+        "als",
+        "Sommer",
+        "Im",
+        "Kaffee",
+        "liebsten",
+        "ich",
+        "schwimme",
+        "am"
+      ],
+      "answers": [
+        "Im Sommer schwimme ich am liebsten."
+      ],
+      "explanation": "**Why:** gern → lieber → am liebsten.\n\n*Warum:* gern → lieber → am liebsten."
+    },
+    {
+      "id": "tb1-u33-l02-komparativ-p1-ex09",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "This route is the shortest.",
+      "tiles": [
+        "alte",
+        "so",
+        "ist",
+        "es",
+        "kürzesten",
+        "Weg",
+        "am",
+        "Dieser"
+      ],
+      "answers": [
+        "Dieser Weg ist am kürzesten."
+      ],
+      "explanation": "**Why:** kurz → am kürzesten (-esten after z).\n\n*Warum:* kurz → am kürzesten (-esten nach z)."
+    },
+    {
+      "id": "tb1-u33-l02-komparativ-p1-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "That's the best film of the year.",
+      "tiles": [
+        "beste",
+        "Wer",
+        "größer",
+        "Das",
+        "des",
+        "Film",
+        "ist",
+        "besser",
+        "Jahres",
+        "der"
+      ],
+      "answers": [
+        "Das ist der beste Film des Jahres."
+      ],
+      "explanation": "**Why:** gut → der beste (before a noun).\n\n*Warum:* gut → der beste (vor Nomen)."
+    },
+    {
+      "id": "tb1-u33-l02-komparativ-p1-ex11",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Who runs the fastest?",
+      "tiles": [
+        "ihr",
+        "am",
+        "läuft",
+        "Essen",
+        "schnellsten",
+        "Zugspitze",
+        "Wer"
+      ],
+      "answers": [
+        "Wer läuft am schnellsten?"
+      ],
+      "explanation": "**Why:** schnell → am schnellsten.\n\n*Warum:* schnell → am schnellsten."
+    },
+    {
+      "id": "tb1-u33-l02-komparativ-p1-ex12",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "The Zugspitze is Germany's highest mountain.",
+      "tiles": [
+        "Die",
+        "höchste",
+        "Deutschlands",
+        "ist",
+        "Berg",
+        "besser",
+        "der",
+        "am",
+        "Zugspitze",
+        "schnell"
+      ],
+      "answers": [
+        "Die Zugspitze ist der höchste Berg Deutschlands."
+      ],
+      "explanation": "**Why:** hoch → der höchste.\n\n*Warum:* hoch → der höchste."
+    },
+    {
+      "id": "tb1-u33-l02-komparativ-p1-ex13",
+      "type": "choice",
+      "title": "Fill the gap",
+      "prompt": "Ich trinke ___ Tee als Kaffee.",
+      "options": [
+        {
+          "id": "a",
+          "text": "mehr gern"
+        },
+        {
+          "id": "b",
+          "text": "gerner"
+        },
+        {
+          "id": "c",
+          "text": "lieber"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "gern → lieber → am liebsten."
+    },
+    {
+      "id": "tb1-u33-l02-komparativ-p1-ex14",
+      "type": "choice",
+      "title": "Fill the gap",
+      "prompt": "Das war der ___ Tag meines Lebens!",
+      "options": [
+        {
+          "id": "a",
+          "text": "schönere"
+        },
+        {
+          "id": "b",
+          "text": "am schönsten"
+        },
+        {
+          "id": "c",
+          "text": "schönste"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Vor dem Nomen: der schönste Tag (attributiver Superlativ)."
+    },
+    {
+      "id": "tb1-u33-l02-komparativ-p1-ex15",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Compare (comparative + als): Das neue Auto ist schnell. Vergleiche mit dem alten.",
+      "tiles": [
+        "Auto",
+        "gestern",
+        "Auto",
+        "älter",
+        "das",
+        "schneller",
+        "ist",
+        "neue",
+        "Das",
+        "als",
+        "alte"
+      ],
+      "answers": [
+        "Das neue Auto ist schneller als das alte.",
+        "Das neue Auto ist schneller als das alte Auto."
+      ],
+      "explanation": "Komparativ -er + als: schneller als das alte.\n\nAlso correct: Das neue Auto ist schneller als das alte Auto.\n\n*Deutsch:* Vergleiche (Komparativ + als):"
+    }
+  ]
+}

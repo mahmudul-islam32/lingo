@@ -1,0 +1,269 @@
+{
+  "id": "eb-u03-l02-q61-70",
+  "courseId": "einbuergerung-en-de",
+  "unitId": "eb-u03",
+  "title": "Questions 61–70 (Fragen 61–70)",
+  "tip": "After each Check you get an English explanation and a short German note (Auf Deutsch).",
+  "exercises": [
+    {
+      "id": "eb-u03-l02-q61-70-ex01",
+      "type": "choice",
+      "title": "Frage 61 · Block 3",
+      "prompt": "Was bedeutet „Volkssouveränität\"?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Der König/die Königin herrscht über das Volk"
+        },
+        {
+          "id": "b",
+          "text": "Das Bundesverfassungsgericht steht über der Verfassung"
+        },
+        {
+          "id": "c",
+          "text": "Interessenverbände üben gemeinsam mit der Regierung die Souveränität aus"
+        },
+        {
+          "id": "d",
+          "text": "Die Staatsgewalt geht vom Volke aus"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**Correct answer:** Die Staatsgewalt geht vom Volke aus\n\n→Q52, harder distractors. B is upside down: the court serves *under* the constitution, guarding it. C describes corporatism/lobbyism, influence, never sovereignty. A is monarchy.\n\n## Auf Deutsch\n\nVolkssouveränität: Die Staatsgewalt kommt vom Volk, durch Wahlen."
+    },
+    {
+      "id": "eb-u03-l02-q61-70-ex02",
+      "type": "choice",
+      "title": "Frage 62 · Block 3",
+      "prompt": "Wenn das Parlament eines deutschen Bundeslandes gewählt wird, nennt man das …",
+      "options": [
+        {
+          "id": "a",
+          "text": "Kommunalwahl"
+        },
+        {
+          "id": "b",
+          "text": "Landtagswahl"
+        },
+        {
+          "id": "c",
+          "text": "Europawahl"
+        },
+        {
+          "id": "d",
+          "text": "Bundestagswahl"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Correct answer:** Landtagswahl\n\nFour election levels, four names: **Kommunalwahl** (city/district council, in Niedersachsen from age 16! →NDS-4), **Landtagswahl** (Land parliament. Niedersachsen's is in Hannover, 5-year term →NDS-3), **Bundestagswahl** (federal, 4 years), **Europawahl** (EU Parliament, 5 years →Q230). Simply match the level to the name.\n\n## Auf Deutsch\n\nDie Wahl des Landesparlaments heißt Landtagswahl."
+    },
+    {
+      "id": "eb-u03-l02-q61-70-ex03",
+      "type": "choice",
+      "title": "Frage 63 · Block 3",
+      "prompt": "Was gehört in Deutschland nicht zur Exekutive?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Polizei"
+        },
+        {
+          "id": "b",
+          "text": "die Gerichte"
+        },
+        {
+          "id": "c",
+          "text": "das Finanzamt"
+        },
+        {
+          "id": "d",
+          "text": "die Ministerien"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Correct answer:** die Gerichte\n\nCourts = **Judikative**, strictly separate, that's the guarantee of independent judgment (judges answer to law alone, Art. 97 GG).\n\nPolice, tax offices, ministries all *execute* law = Exekutive. Pattern: if it enforces or administers, executive; if it judges disputes, judiciary; if it makes law, legislative (→Q32, Q54, Q60).\n\n## Auf Deutsch\n\nDie Gerichte gehören zur Judikative, nicht zur Exekutive."
+    },
+    {
+      "id": "eb-u03-l02-q61-70-ex04",
+      "type": "choice",
+      "title": "Frage 64 · Block 3",
+      "prompt": "Die Bundesrepublik Deutschland ist heute gegliedert in …",
+      "options": [
+        {
+          "id": "a",
+          "text": "vier Besatzungszonen"
+        },
+        {
+          "id": "b",
+          "text": "einen Oststaat und einen Weststaat"
+        },
+        {
+          "id": "c",
+          "text": "16 Kantone"
+        },
+        {
+          "id": "d",
+          "text": "Bund, Länder und Kommunen"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**Correct answer:** Bund, Länder und Kommunen\n\nThree administrative tiers: **Bund → 16 Länder → Kommunen** (cities/municipalities. Hannover is one).\n\nA is 1945–49 (→Q167); B is 1949–90 division; C borrows Switzerland's word. Germany has Länder, not Kantone. The wrong options are a compressed history quiz: each describes a Germany that no longer exists.\n\n## Auf Deutsch\n\nDeutschland ist gegliedert in Bund, Länder und Kommunen."
+    },
+    {
+      "id": "eb-u03-l02-q61-70-ex05",
+      "type": "choice",
+      "title": "Frage 65 · Block 3",
+      "prompt": "Es gehört nicht zu den Aufgaben des Deutschen Bundestages, …",
+      "options": [
+        {
+          "id": "a",
+          "text": "Gesetze zu entwerfen"
+        },
+        {
+          "id": "b",
+          "text": "die Bundesregierung zu kontrollieren"
+        },
+        {
+          "id": "c",
+          "text": "den Bundeskanzler/die Bundeskanzlerin zu wählen"
+        },
+        {
+          "id": "d",
+          "text": "das Bundeskabinett zu bilden"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**Correct answer:** das Bundeskabinett zu bilden\n\nThe Bundestag elects the *Chancellor*, but the **cabinet is formed by the Chancellor** (ministers proposed by them, appointed by the president →Q58). Parliament hires the head chef, not the kitchen staff.\n\nDrafting laws, controlling government (question time, committees of inquiry), electing the Chancellor, all core Bundestag functions.\n\n## Auf Deutsch\n\nDas Bundeskabinett bildet der Kanzler, nicht der Bundestag."
+    },
+    {
+      "id": "eb-u03-l02-q61-70-ex06",
+      "type": "choice",
+      "title": "Frage 66 · Block 3",
+      "prompt": "Welche Städte haben die größten jüdischen Gemeinden in Deutschland?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Berlin und München"
+        },
+        {
+          "id": "b",
+          "text": "Hamburg und Essen"
+        },
+        {
+          "id": "c",
+          "text": "Nürnberg und Stuttgart"
+        },
+        {
+          "id": "d",
+          "text": "Worms und Speyer"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Correct answer:** Berlin und München\n\nToday's largest Jewish communities: **Berlin and Munich**, rebuilt after 1945, grown massively through post-1990 immigration from the former Soviet Union.\n\nD is the historical trap: Worms and Speyer (with Mainz, the medieval \"SchUM\" cities) were *medieval* centers of Jewish learning. UNESCO-listed, but small today. The question distinguishes living present from remembered past, which is precisely the point of the whole Jewish-life question block (→Q59).\n\n## Auf Deutsch\n\nDie größten jüdischen Gemeinden sind in Berlin und München."
+    },
+    {
+      "id": "eb-u03-l02-q61-70-ex07",
+      "type": "choice",
+      "title": "Frage 67 · Block 3",
+      "prompt": "Was ist in Deutschland vor allem eine Aufgabe der Bundesländer?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Verteidigungspolitik"
+        },
+        {
+          "id": "b",
+          "text": "Außenpolitik"
+        },
+        {
+          "id": "c",
+          "text": "Wirtschaftspolitik"
+        },
+        {
+          "id": "d",
+          "text": "Schulpolitik"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**Correct answer:** Schulpolitik\n\n→Q49. Defense and foreign policy are exclusively federal; economic policy is shared; **schools belong to the Länder**. Triple-tested (Q49, Q67, Q68) plus NDS-10's mirror image (no Land foreign minister). BAMF is telling you what to remember about federalism.\n\n## Auf Deutsch\n\nSchulpolitik ist vor allem Aufgabe der Bundesländer."
+    },
+    {
+      "id": "eb-u03-l02-q61-70-ex08",
+      "type": "choice",
+      "title": "Frage 68 · Block 3",
+      "prompt": "Warum kontrolliert der Staat in Deutschland das Schulwesen?",
+      "options": [
+        {
+          "id": "a",
+          "text": "weil es in Deutschland nur staatliche Schulen gibt"
+        },
+        {
+          "id": "b",
+          "text": "weil alle Schüler und Schülerinnen einen Schulabschluss haben müssen"
+        },
+        {
+          "id": "c",
+          "text": "weil es in den Bundesländern verschiedene Schulen gibt"
+        },
+        {
+          "id": "d",
+          "text": "weil es nach dem Grundgesetz seine Aufgabe ist"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**Correct answer:** weil es nach dem Grundgesetz seine Aufgabe ist\n\nArt. 7(1) GG: *\"Das gesamte Schulwesen steht unter der Aufsicht des Staates.\"* Constitutional mandate, full stop.\n\nA is false (private and church schools exist, under state supervision); B isn't literally a legal duty for all; C describes federal variety but explains nothing. When one option cites the Grundgesetz and it's true, it usually wins.\n\n## Auf Deutsch\n\nDie Schulaufsicht ist laut Grundgesetz (Art. 7) Aufgabe des Staates."
+    },
+    {
+      "id": "eb-u03-l02-q61-70-ex09",
+      "type": "choice",
+      "title": "Frage 69 · Block 3",
+      "prompt": "Die Bundesrepublik Deutschland hat einen dreistufigen Verwaltungsaufbau. Wie heißt die unterste politische Stufe?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Stadträte"
+        },
+        {
+          "id": "b",
+          "text": "Landräte"
+        },
+        {
+          "id": "c",
+          "text": "Gemeinden"
+        },
+        {
+          "id": "d",
+          "text": "Bezirksämter"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**Correct answer:** Gemeinden\n\nBund → Länder → **Gemeinden** (municipalities). Kommunale Selbstverwaltung (Art. 28 GG): local self-government over local matters. Kitas, waste, local roads, your Bürgerdienste.\n\nStadträte are councils *within* a Gemeinde; a Landrat heads a *Kreis* (district, an intermediate bundle of Gemeinden); Bezirksämter are city sub-offices. The tier is the Gemeinde itself, not its organs.\n\n## Auf Deutsch\n\nDie unterste Stufe der Verwaltung sind die Gemeinden."
+    },
+    {
+      "id": "eb-u03-l02-q61-70-ex10",
+      "type": "choice",
+      "title": "Frage 70 · Block 3",
+      "prompt": "Was gehört zu den Aufgaben des deutschen Bundespräsidenten/der deutschen Bundespräsidentin?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Er/Sie führt die Regierungsgeschäfte"
+        },
+        {
+          "id": "b",
+          "text": "Er/Sie kontrolliert die Regierungspartei"
+        },
+        {
+          "id": "c",
+          "text": "Er/Sie wählt die Minister und Ministerinnen aus"
+        },
+        {
+          "id": "d",
+          "text": "Er/Sie schlägt den Kanzler/die Kanzlerin zur Wahl vor"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**Correct answer:** Er/Sie schlägt den Kanzler/die Kanzlerin zur Wahl vor\n\nAfter each Bundestag election, the president **proposes the Chancellor candidate** to parliament (Art. 63 GG), one of the office's few hard powers, normally a formality honoring the election result.\n\nRunning government (A) is the Chancellor's job; controlling parties (B) is nobody's state function; choosing ministers (C) is the Chancellor's (→Q58, Q65). President = notary and conscience of the state, not its manager.\n\n## Auf Deutsch\n\nDer Bundespräsident schlägt dem Bundestag den Kanzler zur Wahl vor."
+    }
+  ]
+}

@@ -1,0 +1,235 @@
+{
+  "id": "tb1-u25-l18-nouns-health-transport-environment-4",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u25",
+  "title": "Nouns: Health, Transport & Environment 4",
+  "tip": "Theme: Nomen: Gesundheit, Verkehr & Umwelt II (B1)",
+  "exercises": [
+    {
+      "id": "tb1-u25-l18-nouns-health-transport-environment-4-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "die Bewegung",
+          "known": "exercise / movement"
+        },
+        {
+          "id": "p2",
+          "learning": "die Krankmeldung",
+          "known": "sick note"
+        },
+        {
+          "id": "p3",
+          "learning": "die Notaufnahme",
+          "known": "A&E / emergency room"
+        },
+        {
+          "id": "p4",
+          "learning": "die Mülltonne",
+          "known": "rubbish bin"
+        },
+        {
+          "id": "p5",
+          "learning": "der Gehweg",
+          "known": "pavement / sidewalk"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u25-l18-nouns-health-transport-environment-4-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „exercise / movement“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Gruppenreise, die Gruppenreisen"
+        },
+        {
+          "id": "b",
+          "text": "die Notaufnahme"
+        },
+        {
+          "id": "c",
+          "text": "die Bewegung"
+        },
+        {
+          "id": "d",
+          "text": "die Fernreise, die Fernreisen"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**die Bewegung** = exercise / movement\n\n*Example:* Der Arzt sagt, ich brauche mehr Bewegung.\nThe doctor says I need more exercise."
+    },
+    {
+      "id": "tb1-u25-l18-nouns-health-transport-environment-4-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „sick note“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Krankmeldung, die Krankmeldungen"
+        },
+        {
+          "id": "b",
+          "text": "der Fahrgast, die Fahrgäste"
+        },
+        {
+          "id": "c",
+          "text": "die Gruppenreise, die Gruppenreisen"
+        },
+        {
+          "id": "d",
+          "text": "der Verband, die Verbände"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**die Krankmeldung** = sick note\n*Plural: die Krankmeldungen*\n\n*Example:* Ich muss die Krankmeldung bis Mittwoch an meinen Chef schicken.\nI have to send the sick note to my boss by Wednesday."
+    },
+    {
+      "id": "tb1-u25-l18-nouns-health-transport-environment-4-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "The doctor says I need more exercise.",
+      "tiles": [
+        "ich",
+        "Bitte",
+        "Arzt",
+        "teuer",
+        "sagt",
+        "brauche",
+        "mehr",
+        "Bewegung",
+        "Der",
+        "die"
+      ],
+      "answers": [
+        "Der Arzt sagt, ich brauche mehr Bewegung."
+      ],
+      "explanation": "**die Bewegung** = exercise / movement"
+    },
+    {
+      "id": "tb1-u25-l18-nouns-health-transport-environment-4-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „A&E / emergency room“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Fernreise, die Fernreisen"
+        },
+        {
+          "id": "b",
+          "text": "die Krankmeldung, die Krankmeldungen"
+        },
+        {
+          "id": "c",
+          "text": "die Notaufnahme"
+        },
+        {
+          "id": "d",
+          "text": "der Zeuge, die Zeugen"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**die Notaufnahme** = A&E / emergency room\n\n*Example:* Nach dem Unfall ist Tom sofort in die Notaufnahme gefahren.\nAfter the accident Tom went straight to A&E."
+    },
+    {
+      "id": "tb1-u25-l18-nouns-health-transport-environment-4-ex06",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u25-l18-nouns-health-transport-environment-4-2.mp3"
+      },
+      "tiles": [
+        "Chef",
+        "Ärztin",
+        "Ich",
+        "meinen",
+        "schicken",
+        "an",
+        "Mittwoch",
+        "am",
+        "Krankmeldung",
+        "muss",
+        "nach",
+        "die",
+        "bis"
+      ],
+      "answers": [
+        "Ich muss die Krankmeldung bis Mittwoch an meinen Chef schicken."
+      ],
+      "explanation": "Ich muss die Krankmeldung bis Mittwoch an meinen Chef schicken.\n*I have to send the sick note to my boss by Wednesday.*\n\n**die Krankmeldung** = sick note\n*Plural: die Krankmeldungen*"
+    },
+    {
+      "id": "tb1-u25-l18-nouns-health-transport-environment-4-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „rubbish bin“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "der Zeuge, die Zeugen"
+        },
+        {
+          "id": "b",
+          "text": "die Mülltonne, die Mülltonnen"
+        },
+        {
+          "id": "c",
+          "text": "die Panne, die Pannen"
+        },
+        {
+          "id": "d",
+          "text": "die Notaufnahme"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**die Mülltonne** = rubbish bin\n*Plural: die Mülltonnen*\n\n*Example:* Kannst du bitte den Müll in die Mülltonne bringen?\nCan you please take the rubbish out to the bin?"
+    },
+    {
+      "id": "tb1-u25-l18-nouns-health-transport-environment-4-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Nach dem Unfall ist Tom sofort in die Notaufnahme gefahren.",
+      "tiles": [
+        "the",
+        "After",
+        "A&E",
+        "Tom",
+        "accident",
+        "straight",
+        "to",
+        "stop",
+        "went",
+        "rash",
+        "healthy"
+      ],
+      "answers": [
+        "After the accident Tom went straight to A&E."
+      ],
+      "explanation": "**die Notaufnahme** = A&E / emergency room"
+    },
+    {
+      "id": "tb1-u25-l18-nouns-health-transport-environment-4-ex09",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Can you please take the rubbish out to the bin?",
+      "tiles": [
+        "Kannst",
+        "bitte",
+        "den",
+        "parken",
+        "Müll",
+        "du",
+        "bringen",
+        "in",
+        "mir",
+        "Mülltonne",
+        "sofort",
+        "die"
+      ],
+      "answers": [
+        "Kannst du bitte den Müll in die Mülltonne bringen?"
+      ],
+      "explanation": "**die Mülltonne** = rubbish bin\n*Plural: die Mülltonnen*"
+    }
+  ]
+}

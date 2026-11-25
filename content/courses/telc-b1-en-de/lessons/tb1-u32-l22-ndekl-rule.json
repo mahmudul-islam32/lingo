@@ -1,0 +1,107 @@
+{
+  "id": "tb1-u32-l22-ndekl-rule",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u32",
+  "title": "The n-Declension: the rule",
+  "tip": "“Ich frage den Kollege” → den Kollegen. And in letters: an Herr Müller → an Herrn Müller.",
+  "exercises": [
+    {
+      "id": "tb1-u32-l22-ndekl-rule-ex01",
+      "type": "explain",
+      "title": "The n-Declension",
+      "body": "Weak masculine nouns take **-(e)n** in every case except nominative: der Junge → den Jungen, der Kunde, der Kollege, der Mensch, der Student, der Patient, der Nachbar, der Herr (den Herrn).\n\n*Deutsch:* Schwache Maskulina bekommen außer im Nominativ überall **-(e)n**: der Junge → den Jungen, der Kunde, der Kollege, der Mensch, der Student, der Patient, der Nachbar, der Herr (den Herrn).\n\n*German name:* n-Deklination",
+      "examples": [
+        {
+          "learning": "Ich habe den Kollegen gefragt.",
+          "known": "I asked the colleague."
+        },
+        {
+          "learning": "Kennst du den Studenten dort?",
+          "known": "Do you know the student over there?"
+        },
+        {
+          "learning": "Die Ärztin spricht mit dem Patienten.",
+          "known": "The doctor is talking to the patient."
+        }
+      ]
+    },
+    {
+      "id": "tb1-u32-l22-ndekl-rule-ex02",
+      "type": "explain",
+      "title": "The n-Declension: step by step",
+      "body": "Which nouns? Almost always **male persons**:\n• ending in -e: der Junge, der Kunde, der Kollege, der Neffe, der Experte\n• Latin-based professions/persons: der Student, der Patient, der Präsident, der Polizist, der Journalist, der Praktikant\n• special cases: der Mensch, der Herr (den Herrn!), der Nachbar, der Bauer.\nRule: ONLY “der + noun” (nominative) stays without -n. Everything else: den Kollegen, dem Kollegen, des Kollegen.\nLetter context: “Sehr geehrter Herr Müller” (nominative address is fine), but “Ich habe mit Herrn Müller gesprochen”.\n\n## Auf Deutsch\n\nWelche Nomen? Fast immer **männliche Personen**:\n• auf -e: der Junge, der Kunde, der Kollege, der Neffe, der Experte\n• Berufe/Personen aus dem Lateinischen: der Student, der Patient, der Präsident, der Polizist, der Journalist, der Praktikant\n• Sonderfälle: der Mensch, der Herr (den Herrn!), der Nachbar, der Bauer.\nRegel: NUR „der + Nomen“ (Nominativ) bleibt ohne -n. Alles andere: den Kollegen, dem Kollegen, des Kollegen.\nBrief-Kontext: „Sehr geehrter Herr Müller“ (Nominativ-Anrede ok), aber „Ich habe mit Herrn Müller gesprochen“.",
+      "examples": [
+        {
+          "learning": "Ich habe den Kollegen gefragt.",
+          "known": "I asked the colleague."
+        },
+        {
+          "learning": "Kennst du den Studenten dort?",
+          "known": "Do you know the student over there?"
+        },
+        {
+          "learning": "Die Ärztin spricht mit dem Patienten.",
+          "known": "The doctor is talking to the patient."
+        },
+        {
+          "learning": "Ich möchte bitte Herrn Müller sprechen.",
+          "known": "I'd like to speak to Mr Müller, please. (phone/letter!)"
+        },
+        {
+          "learning": "Testlücke-Stil: „Fragen Sie doch Ihren Nachbar___!“ → Nachbarn",
+          "known": "accusative of der Nachbar → den/Ihren Nachbarn"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u32-l22-ndekl-rule-ex03",
+      "type": "explain",
+      "title": "Watch out & exam tip",
+      "body": "## Common trap\n\n“Ich frage den Kollege” → den Kolleg**en**. And in letters: an Herr Müller → an Herr**n** Müller.\n\n*Deutsch:* „Ich frage den Kollege“ → den Kolleg**en**. Und in Briefen: an Herr Müller → an Herr**n** Müller.\n\n## In the exam\n\n🎯 How telc tests it: a small, mean **Sprachbausteine** gap (Kollege/Kollegen?). In the **semi-formal letter** you write “Herrn”: “Sehr geehrter Herr X” but “mit Herrn X”, raters spot this immediately.\n\n*Deutsch:* 🎯 So testet telc das: Kleine, fiese **Sprachbausteine**-Lücke (Kollege/Kollegen?). Im **halbformellen Brief** schreibst du „Herrn“: „Sehr geehrter Herr X“ aber „mit Herrn X“. Bewerter sehen das sofort.\n\n*Source:* Guide B10"
+    },
+    {
+      "id": "tb1-u32-l22-ndekl-rule-ex04",
+      "type": "choice",
+      "title": "Fill the gap",
+      "prompt": "Ich habe ___ gestern im Büro gesehen.",
+      "options": [
+        {
+          "id": "a",
+          "text": "dem Kollegen"
+        },
+        {
+          "id": "b",
+          "text": "den Kollegen"
+        },
+        {
+          "id": "c",
+          "text": "den Kollege"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "n-Deklination: den Kollegen (Akkusativ + -n)."
+    },
+    {
+      "id": "tb1-u32-l22-ndekl-rule-ex05",
+      "type": "choice",
+      "title": "Fill the gap",
+      "prompt": "Kennst du ___ da drüben?",
+      "options": [
+        {
+          "id": "a",
+          "text": "den Jungen"
+        },
+        {
+          "id": "b",
+          "text": "dem Junge"
+        },
+        {
+          "id": "c",
+          "text": "den Junge"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "der Junge → den Jungen (n-Deklination)."
+    }
+  ]
+}

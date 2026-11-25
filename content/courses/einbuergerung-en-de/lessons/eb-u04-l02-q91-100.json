@@ -1,0 +1,269 @@
+{
+  "id": "eb-u04-l02-q91-100",
+  "courseId": "einbuergerung-en-de",
+  "unitId": "eb-u04",
+  "title": "Questions 91–100 (Fragen 91–100)",
+  "tip": "After each Check you get an English explanation and a short German note (Auf Deutsch).",
+  "exercises": [
+    {
+      "id": "eb-u04-l02-q91-100-ex01",
+      "type": "choice",
+      "title": "Frage 91 · Block 4",
+      "prompt": "In Deutschland kann ein Regierungswechsel in einem Bundesland Auswirkungen auf die Bundespolitik haben. Das Regieren wird …",
+      "options": [
+        {
+          "id": "a",
+          "text": "schwieriger, wenn sich dadurch die Mehrheit im Bundestag ändert"
+        },
+        {
+          "id": "b",
+          "text": "leichter, wenn dadurch neue Parteien in den Bundesrat kommen"
+        },
+        {
+          "id": "c",
+          "text": "schwieriger, wenn dadurch die Mehrheit im Bundesrat verändert wird"
+        },
+        {
+          "id": "d",
+          "text": "leichter, wenn es sich um ein reiches Bundesland handelt"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**Correct answer:** schwieriger, wenn dadurch die Mehrheit im Bundesrat verändert wird\n\nChain of logic: Land election → new Land government → new votes in the **Bundesrat** (→Q85) → federal consent-laws may now be blocked. This is why federal politicians campaign hard in Niedersachsen's Landtagswahl, the Land's 6 Bundesrat votes can flip federal lawmaking.\n\nA is impossible. Land elections never change *Bundestag* seats; B and D have no such mechanism. Federalism as checks-and-balances, in one question.\n\n## Auf Deutsch\n\nLandtagswahlen können die Mehrheit im Bundesrat verändern. Regieren wird dann schwieriger."
+    },
+    {
+      "id": "eb-u04-l02-q91-100-ex02",
+      "type": "choice",
+      "title": "Frage 92 · Block 4",
+      "prompt": "Was bedeutet die Abkürzung CSU in Deutschland?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Christlich Sichere Union"
+        },
+        {
+          "id": "b",
+          "text": "Christlich Süddeutsche Union"
+        },
+        {
+          "id": "c",
+          "text": "Christlich Sozialer Unternehmerverband"
+        },
+        {
+          "id": "d",
+          "text": "Christlich Soziale Union"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**Correct answer:** Christlich Soziale Union\n\n**C**hristlich-**S**oziale **U**nion, exists only in Bavaria; the CDU doesn't run there, and together they form one Bundestag Fraktion (\"die Union,\" →Q73). Letter-match trick again: B smuggles in \"Süddeutsche\", plausible geography, wrong name.\n\n## Auf Deutsch\n\nCSU = Christlich Soziale Union (nur in Bayern)."
+    },
+    {
+      "id": "eb-u04-l02-q91-100-ex03",
+      "type": "choice",
+      "title": "Frage 93 · Block 4",
+      "prompt": "Je mehr „Zweitstimmen\" eine Partei bei einer Bundestagswahl bekommt, desto …",
+      "options": [
+        {
+          "id": "a",
+          "text": "weniger Erststimmen kann sie erhalten"
+        },
+        {
+          "id": "b",
+          "text": "mehr Direktkandidaten der Partei ziehen in den Bundestag ein"
+        },
+        {
+          "id": "c",
+          "text": "größer ist das Risiko, eine Koalition bilden zu müssen"
+        },
+        {
+          "id": "d",
+          "text": "mehr Sitze erhält die Partei im Parlament"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**Correct answer:** mehr Sitze erhält die Partei im Parlament\n\nThe **Zweitstimme** determines each party's percentage of ALL Bundestag seats, it is *the* decisive vote (reinforced by the 2023 electoral reform, which made seat counts follow Zweitstimmen strictly).\n\nA invents a trade-off that doesn't exist (the two votes are independent, you may split them); B confuses the columns: Direktkandidaten enter via *Erststimmen*; C is backwards logic. **Merksatz: Erststimme wählt einen Menschen, Zweitstimme wählt die Machtverhältnisse.**\n\n## Auf Deutsch\n\nDie Zweitstimme ist die Parteistimme: mehr Zweitstimmen → mehr Sitze."
+    },
+    {
+      "id": "eb-u04-l02-q91-100-ex04",
+      "type": "choice",
+      "title": "Frage 94 · Block 4",
+      "prompt": "Ab welchem Alter darf man in Deutschland an der Wahl zum Deutschen Bundestag teilnehmen?",
+      "options": [
+        {
+          "id": "a",
+          "text": "16"
+        },
+        {
+          "id": "b",
+          "text": "18"
+        },
+        {
+          "id": "c",
+          "text": "21"
+        },
+        {
+          "id": "d",
+          "text": "23"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Correct answer:** 18\n\nBundestag voting age: **18**.\n\n## Auf Deutsch\n\nAn der Bundestagswahl darf man ab 18 Jahren teilnehmen."
+    },
+    {
+      "id": "eb-u04-l02-q91-100-ex05",
+      "type": "choice",
+      "title": "Frage 95 · Block 4",
+      "prompt": "Was gilt für die meisten Kinder in Deutschland?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Wahlpflicht"
+        },
+        {
+          "id": "b",
+          "text": "Schulpflicht"
+        },
+        {
+          "id": "c",
+          "text": "Schweigepflicht"
+        },
+        {
+          "id": "d",
+          "text": "Religionspflicht"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Correct answer:** Schulpflicht\n\n**Schulpflicht**, compulsory school attendance (roughly ages 6–18 including vocational track; the exact years differ by Land). It's enforced law, not parental choice: homeschooling is essentially illegal in Germany, unlike in many countries. Relevant to you from ~2030!\n\nNo compulsory voting (→Q114), no religious duty (→Q33); Schweigepflicht is professional confidentiality (doctors, lawyers), nothing to do with children.\n\n## Auf Deutsch\n\nFür Kinder in Deutschland gilt die Schulpflicht."
+    },
+    {
+      "id": "eb-u04-l02-q91-100-ex06",
+      "type": "choice",
+      "title": "Frage 96 · Block 4",
+      "prompt": "Wie kann jemand, der den Holocaust leugnet, bestraft werden?",
+      "options": [
+        {
+          "id": "a",
+          "text": "mit Kürzung sozialer Leistungen"
+        },
+        {
+          "id": "b",
+          "text": "mit bis zu 100 Sozialstunden"
+        },
+        {
+          "id": "c",
+          "text": "gar nicht, Holocaustleugnung ist erlaubt"
+        },
+        {
+          "id": "d",
+          "text": "mit Freiheitsstrafe bis zu fünf Jahren oder Geldstrafe"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**Correct answer:** mit Freiheitsstrafe bis zu fünf Jahren oder Geldstrafe\n\nHolocaust denial = **Volksverhetzung** (§130 StGB): up to five years' imprisonment. Germany treats this as the hard edge of its historical responsibility, free speech (→Q14, Q16) explicitly does not cover denying the murder of six million Jews.\n\nA and B are fantasy sanctions; C is the opposite of the law. Directly connected to your Loyalitätserklärung: acknowledging the NS past isn't optional decoration, it's load-bearing.\n\n## Auf Deutsch\n\nHolocaust-Leugnung ist strafbar: bis zu 5 Jahre Freiheitsstrafe oder Geldstrafe."
+    },
+    {
+      "id": "eb-u04-l02-q91-100-ex07",
+      "type": "choice",
+      "title": "Frage 97 · Block 4",
+      "prompt": "Was bezahlt man in Deutschland automatisch, wenn man fest angestellt ist?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Sozialversicherung"
+        },
+        {
+          "id": "b",
+          "text": "Sozialhilfe"
+        },
+        {
+          "id": "c",
+          "text": "Kindergeld"
+        },
+        {
+          "id": "d",
+          "text": "Wohngeld"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Correct answer:** Sozialversicherung\n\nEmployment triggers automatic **Sozialversicherung** contributions, deducted before your salary arrives (→Q35).\n\nB–D are benefits you *receive* (upon application), not payments you make: Sozialhilfe for those unable to work, Kindergeld for parents (you know this one), Wohngeld for low-income renters. Direction of money flow is the whole question.\n\n## Auf Deutsch\n\nWer fest angestellt ist, zahlt automatisch Sozialversicherungsbeiträge."
+    },
+    {
+      "id": "eb-u04-l02-q91-100-ex08",
+      "type": "choice",
+      "title": "Frage 98 · Block 4",
+      "prompt": "Wenn Abgeordnete im Deutschen Bundestag ihre Fraktion wechseln, …",
+      "options": [
+        {
+          "id": "a",
+          "text": "dürfen sie nicht mehr an den Sitzungen des Parlaments teilnehmen"
+        },
+        {
+          "id": "b",
+          "text": "kann die Regierung ihre Mehrheit verlieren"
+        },
+        {
+          "id": "c",
+          "text": "muss der Bundespräsident/die Bundespräsidentin zustimmen"
+        },
+        {
+          "id": "d",
+          "text": "dürfen die Wähler/Wählerinnen dieser Abgeordneten noch einmal wählen"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Correct answer:** kann die Regierung ihre Mehrheit verlieren\n\nMPs hold a **freies Mandat** (Art. 38 GG): they answer to their conscience, not their party, they may defect, keep their seat, and thereby shrink the government's majority.\n\nA, no expulsion from parliament (the seat belongs to the person); C, the president has no role; D, no recall elections exist in Germany. Uncomfortable but principled: representatives are not delegates on a leash.\n\n## Auf Deutsch\n\nWechseln Abgeordnete die Fraktion, kann die Regierung ihre Mehrheit verlieren."
+    },
+    {
+      "id": "eb-u04-l02-q91-100-ex09",
+      "type": "choice",
+      "title": "Frage 99 · Block 4",
+      "prompt": "Wer bezahlt in Deutschland die Sozialversicherungen?",
+      "options": [
+        {
+          "id": "a",
+          "text": "nur Arbeitnehmer und Arbeitnehmerinnen"
+        },
+        {
+          "id": "b",
+          "text": "Arbeitgeber und Arbeitnehmer gemeinsam"
+        },
+        {
+          "id": "c",
+          "text": "alle Staatsangehörigen"
+        },
+        {
+          "id": "d",
+          "text": "nur Arbeitgeber"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Correct answer:** Arbeitgeber und Arbeitnehmer gemeinsam\n\nContributions are split **roughly half-half between employer and employee**, the \"paritätische Finanzierung\" principle. Check any payslip: your share is deducted; the employer's share is invisible but real (it's why employing someone costs far more than the gross salary).\n\nA and D each take only one side; C confuses contributions with taxes, non-working citizens don't pay in.\n\n## Auf Deutsch\n\nDie Sozialversicherung zahlen Arbeitgeber und Arbeitnehmer gemeinsam, je zur Hälfte."
+    },
+    {
+      "id": "eb-u04-l02-q91-100-ex10",
+      "type": "choice",
+      "title": "Frage 100 · Block 4",
+      "prompt": "Was gehört nicht zur gesetzlichen Sozialversicherung?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die gesetzliche Rentenversicherung"
+        },
+        {
+          "id": "b",
+          "text": "die Lebensversicherung"
+        },
+        {
+          "id": "c",
+          "text": "die Arbeitslosenversicherung"
+        },
+        {
+          "id": "d",
+          "text": "die Pflegeversicherung"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Correct answer:** die Lebensversicherung\n\n**Lebensversicherung** (life insurance) is a private contract, you choose it, a company sells it.\n\nRenten-, Arbeitslosen-, Pflegeversicherung are three of the five statutory pillars (→Q36). Test technique: see \"gesetzlich\" (statutory) in the question → eliminate anything you'd buy from an insurance salesman. Fun fact you'll appreciate: your Rentenversicherungsverlauf, one of your application documents, is the paper trail of pillar #2.\n\n## Auf Deutsch\n\nDie Lebensversicherung ist privat, keine gesetzliche Sozialversicherung."
+    }
+  ]
+}

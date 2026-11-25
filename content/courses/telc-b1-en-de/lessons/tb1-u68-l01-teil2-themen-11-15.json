@@ -1,0 +1,333 @@
+{
+  "id": "tb1-u68-l01-teil2-themen-11-15",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u68",
+  "title": "Teil 2 · Topics 11–15: Sport im Verein, Selbst kochen oder Fertiggerichte, Fremdsprachen lernen, Ins Ausland ziehen, Soziale Netzwerke",
+  "exercises": [
+    {
+      "id": "tb1-u68-l01-teil2-themen-11-15-ex01",
+      "type": "choice",
+      "title": "Sport im Verein",
+      "passage": "„Für einen Verein habe ich keine Zeit.“",
+      "prompt": "Wer sagt das?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Daniel Roth (Karte A)"
+        },
+        {
+          "id": "b",
+          "text": "Anke Simon (Karte B)"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Daniel Roth** (A): Im Verein macht Sport einfach mehr Spaß. Man hat feste Termine, ein Team wartet auf einen, und man bleibt dran. Allein hätte ich schon längst aufgehört.\n\n**Anke Simon** (B): Für einen Verein habe ich keine Zeit. Ich laufe, wann es mir passt, morgens um sechs oder abends um zehn. Feste Trainingszeiten würden mich nur unter Druck setzen."
+    },
+    {
+      "id": "tb1-u68-l01-teil2-themen-11-15-ex02",
+      "type": "task",
+      "skill": "speaking",
+      "title": "Teil 2 · Sport im Verein",
+      "task": "**Teil 2: Über ein Thema sprechen**\nSie und Ihre Partnerin/Ihr Partner haben verschiedene Meinungskarten zum selben Thema. Zuerst berichten Sie einander, was auf Ihrer Karte steht. Danach sprechen Sie über das Thema, sagen Ihre eigene Meinung und erzählen von eigenen Erfahrungen.\n\n**Thema: Sport im Verein** (Freizeit)\n\n## Karte A\n\nDaniel Roth, 28, Elektriker:\n„Im Verein macht Sport einfach mehr Spaß. Man hat feste Termine, ein Team wartet auf einen, und man bleibt dran. Allein hätte ich schon längst aufgehört.“\n\n## Karte B\n\nAnke Simon, 34, Journalistin:\n„Für einen Verein habe ich keine Zeit. Ich laufe, wann es mir passt, morgens um sechs oder abends um zehn. Feste Trainingszeiten würden mich nur unter Druck setzen.“\n\nYou have card A, your partner has card B. (Practise both roles.)",
+      "points": [
+        "Report what is on your card (Daniel Roth)",
+        "Give your own opinion with a reason",
+        "Tell about your own experience",
+        "Ask your partner and react"
+      ],
+      "phrases": [
+        "Auf meiner Karte spricht … über das Thema …",
+        "Sie/Er ist der Meinung, dass …",
+        "Sie/Er findet, dass …",
+        "Nach ihrer/seiner Meinung sollte man …",
+        "Sie/Er sagt außerdem, dass …",
+        "Als Grund nennt sie/er, dass …",
+        "Meiner Meinung nach …",
+        "Ich sehe das (ganz) ähnlich, weil …",
+        "Da bin ich anderer Meinung. Ich finde nämlich, dass …",
+        "Ich finde es interessant, dass …",
+        "Mich überrascht, dass …",
+        "Einerseits …, andererseits …",
+        "Bei uns zu Hause ist das ganz anders: …",
+        "Ich habe damit selbst Erfahrung gemacht. Als ich …",
+        "Bei mir war es so: …",
+        "In meinem Heimatland ist es üblich, dass …",
+        "Und wie ist das bei dir?",
+        "Wie meinst du das genau?",
+        "Das habe ich nicht ganz verstanden. Kannst du das noch einmal sagen?",
+        "Da hast du recht, aber …"
+      ],
+      "modelAnswer": "*The source has no model answer for this task. This is a suggested structure built from the Redemittel of the source, not an official model answer.*\n\n## 1. Report your card (Die Meinung auf der Karte wiedergeben)\n\nAuf meiner Karte spricht Daniel Roth über das Thema „Sport im Verein“. Daniel Roth sagt: „Im Verein macht Sport einfach mehr Spaß. Man hat feste Termine, ein Team wartet auf einen, und man bleibt dran. Allein hätte ich schon längst aufgehört.“\n\nYour partner: Auf meiner Karte spricht Anke Simon über das Thema „Sport im Verein“. Anke Simon sagt: „Für einen Verein habe ich keine Zeit. Ich laufe, wann es mir passt, morgens um sechs oder abends um zehn. Feste Trainingszeiten würden mich nur unter Druck setzen.“\n\n## 2. Your opinion (Die eigene Meinung sagen)\n\n- Meiner Meinung nach …\n- Ich sehe das (ganz) ähnlich, weil …\n- Da bin ich anderer Meinung. Ich finde nämlich, dass …\n- Ich finde es interessant, dass …\n- Mich überrascht, dass …\n- Einerseits …, andererseits …\n\n## 3. Your experience (Von eigenen Erfahrungen erzählen)\n\n- Bei uns zu Hause ist das ganz anders: …\n- Ich habe damit selbst Erfahrung gemacht. Als ich …\n- Bei mir war es so: …\n- In meinem Heimatland ist es üblich, dass …\n\n## 4. Ask and react (Nachfragen und reagieren)\n\n- Und wie ist das bei dir?\n- Wie meinst du das genau?\n- Das habe ich nicht ganz verstanden. Kannst du das noch einmal sagen?\n- Da hast du recht, aber …"
+    },
+    {
+      "id": "tb1-u68-l01-teil2-themen-11-15-ex03",
+      "type": "choice",
+      "title": "Selbst kochen oder Fertiggerichte",
+      "passage": "„Nach zehn Stunden Uni und Nebenjob koche ich sicher nicht mehr.“",
+      "prompt": "Wer sagt das?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Elena Fischer (Karte A)"
+        },
+        {
+          "id": "b",
+          "text": "Sven Kruse (Karte B)"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Elena Fischer** (A): Selbst kochen ist gesünder und billiger. Man weiß genau, was im Essen ist, und eine einfache Mahlzeit dauert keine halbe Stunde. Fertiggerichte enthalten viel zu viel Salz und Zucker.\n\n**Sven Kruse** (B): Nach zehn Stunden Uni und Nebenjob koche ich sicher nicht mehr. Ein Fertiggericht ist in fünf Minuten fertig, und es gibt inzwischen gute Produkte. Zeit ist auch etwas wert."
+    },
+    {
+      "id": "tb1-u68-l01-teil2-themen-11-15-ex04",
+      "type": "task",
+      "skill": "speaking",
+      "title": "Teil 2 · Selbst kochen oder Fertiggerichte",
+      "task": "**Teil 2: Über ein Thema sprechen**\nSie und Ihre Partnerin/Ihr Partner haben verschiedene Meinungskarten zum selben Thema. Zuerst berichten Sie einander, was auf Ihrer Karte steht. Danach sprechen Sie über das Thema, sagen Ihre eigene Meinung und erzählen von eigenen Erfahrungen.\n\n**Thema: Selbst kochen oder Fertiggerichte** (Essen)\n\n## Karte A\n\nElena Fischer, 42, Köchin:\n„Selbst kochen ist gesünder und billiger. Man weiß genau, was im Essen ist, und eine einfache Mahlzeit dauert keine halbe Stunde. Fertiggerichte enthalten viel zu viel Salz und Zucker.“\n\n## Karte B\n\nSven Kruse, 27, Student:\n„Nach zehn Stunden Uni und Nebenjob koche ich sicher nicht mehr. Ein Fertiggericht ist in fünf Minuten fertig, und es gibt inzwischen gute Produkte. Zeit ist auch etwas wert.“\n\nYou have card A, your partner has card B. (Practise both roles.)",
+      "points": [
+        "Report what is on your card (Elena Fischer)",
+        "Give your own opinion with a reason",
+        "Tell about your own experience",
+        "Ask your partner and react"
+      ],
+      "phrases": [
+        "Auf meiner Karte spricht … über das Thema …",
+        "Sie/Er ist der Meinung, dass …",
+        "Sie/Er findet, dass …",
+        "Nach ihrer/seiner Meinung sollte man …",
+        "Sie/Er sagt außerdem, dass …",
+        "Als Grund nennt sie/er, dass …",
+        "Meiner Meinung nach …",
+        "Ich sehe das (ganz) ähnlich, weil …",
+        "Da bin ich anderer Meinung. Ich finde nämlich, dass …",
+        "Ich finde es interessant, dass …",
+        "Mich überrascht, dass …",
+        "Einerseits …, andererseits …",
+        "Bei uns zu Hause ist das ganz anders: …",
+        "Ich habe damit selbst Erfahrung gemacht. Als ich …",
+        "Bei mir war es so: …",
+        "In meinem Heimatland ist es üblich, dass …",
+        "Und wie ist das bei dir?",
+        "Wie meinst du das genau?",
+        "Das habe ich nicht ganz verstanden. Kannst du das noch einmal sagen?",
+        "Da hast du recht, aber …"
+      ],
+      "modelAnswer": "*The source has no model answer for this task. This is a suggested structure built from the Redemittel of the source, not an official model answer.*\n\n## 1. Report your card (Die Meinung auf der Karte wiedergeben)\n\nAuf meiner Karte spricht Elena Fischer über das Thema „Selbst kochen oder Fertiggerichte“. Elena Fischer sagt: „Selbst kochen ist gesünder und billiger. Man weiß genau, was im Essen ist, und eine einfache Mahlzeit dauert keine halbe Stunde. Fertiggerichte enthalten viel zu viel Salz und Zucker.“\n\nYour partner: Auf meiner Karte spricht Sven Kruse über das Thema „Selbst kochen oder Fertiggerichte“. Sven Kruse sagt: „Nach zehn Stunden Uni und Nebenjob koche ich sicher nicht mehr. Ein Fertiggericht ist in fünf Minuten fertig, und es gibt inzwischen gute Produkte. Zeit ist auch etwas wert.“\n\n## 2. Your opinion (Die eigene Meinung sagen)\n\n- Meiner Meinung nach …\n- Ich sehe das (ganz) ähnlich, weil …\n- Da bin ich anderer Meinung. Ich finde nämlich, dass …\n- Ich finde es interessant, dass …\n- Mich überrascht, dass …\n- Einerseits …, andererseits …\n\n## 3. Your experience (Von eigenen Erfahrungen erzählen)\n\n- Bei uns zu Hause ist das ganz anders: …\n- Ich habe damit selbst Erfahrung gemacht. Als ich …\n- Bei mir war es so: …\n- In meinem Heimatland ist es üblich, dass …\n\n## 4. Ask and react (Nachfragen und reagieren)\n\n- Und wie ist das bei dir?\n- Wie meinst du das genau?\n- Das habe ich nicht ganz verstanden. Kannst du das noch einmal sagen?\n- Da hast du recht, aber …"
+    },
+    {
+      "id": "tb1-u68-l01-teil2-themen-11-15-ex05",
+      "type": "choice",
+      "title": "Fremdsprachen lernen",
+      "passage": "„Mit Englisch kommt man heute fast überall durch, und Übersetzungsprogramme werden immer besser.“",
+      "prompt": "Wer sagt das?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Farhad Nazari (Karte A)"
+        },
+        {
+          "id": "b",
+          "text": "Britta Sommer (Karte B)"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Farhad Nazari** (A): Ohne die Landessprache kommt man nirgends richtig an. Erst als ich Deutsch konnte, habe ich Freunde gefunden und eine gute Stelle bekommen. Man sollte so früh wie möglich anfangen.\n\n**Britta Sommer** (B): Mit Englisch kommt man heute fast überall durch, und Übersetzungsprogramme werden immer besser. Nicht jeder hat Zeit und Geld für Kurse. Wichtiger ist, dass man sich überhaupt verständigt."
+    },
+    {
+      "id": "tb1-u68-l01-teil2-themen-11-15-ex06",
+      "type": "task",
+      "skill": "speaking",
+      "title": "Teil 2 · Fremdsprachen lernen",
+      "task": "**Teil 2: Über ein Thema sprechen**\nSie und Ihre Partnerin/Ihr Partner haben verschiedene Meinungskarten zum selben Thema. Zuerst berichten Sie einander, was auf Ihrer Karte steht. Danach sprechen Sie über das Thema, sagen Ihre eigene Meinung und erzählen von eigenen Erfahrungen.\n\n**Thema: Fremdsprachen lernen** (Lernen)\n\n## Karte A\n\nFarhad Nazari, 31, Ingenieur:\n„Ohne die Landessprache kommt man nirgends richtig an. Erst als ich Deutsch konnte, habe ich Freunde gefunden und eine gute Stelle bekommen. Man sollte so früh wie möglich anfangen.“\n\n## Karte B\n\nBritta Sommer, 48, Reiseleiterin:\n„Mit Englisch kommt man heute fast überall durch, und Übersetzungsprogramme werden immer besser. Nicht jeder hat Zeit und Geld für Kurse. Wichtiger ist, dass man sich überhaupt verständigt.“\n\nYou have card A, your partner has card B. (Practise both roles.)",
+      "points": [
+        "Report what is on your card (Farhad Nazari)",
+        "Give your own opinion with a reason",
+        "Tell about your own experience",
+        "Ask your partner and react"
+      ],
+      "phrases": [
+        "Auf meiner Karte spricht … über das Thema …",
+        "Sie/Er ist der Meinung, dass …",
+        "Sie/Er findet, dass …",
+        "Nach ihrer/seiner Meinung sollte man …",
+        "Sie/Er sagt außerdem, dass …",
+        "Als Grund nennt sie/er, dass …",
+        "Meiner Meinung nach …",
+        "Ich sehe das (ganz) ähnlich, weil …",
+        "Da bin ich anderer Meinung. Ich finde nämlich, dass …",
+        "Ich finde es interessant, dass …",
+        "Mich überrascht, dass …",
+        "Einerseits …, andererseits …",
+        "Bei uns zu Hause ist das ganz anders: …",
+        "Ich habe damit selbst Erfahrung gemacht. Als ich …",
+        "Bei mir war es so: …",
+        "In meinem Heimatland ist es üblich, dass …",
+        "Und wie ist das bei dir?",
+        "Wie meinst du das genau?",
+        "Das habe ich nicht ganz verstanden. Kannst du das noch einmal sagen?",
+        "Da hast du recht, aber …"
+      ],
+      "modelAnswer": "*The source has no model answer for this task. This is a suggested structure built from the Redemittel of the source, not an official model answer.*\n\n## 1. Report your card (Die Meinung auf der Karte wiedergeben)\n\nAuf meiner Karte spricht Farhad Nazari über das Thema „Fremdsprachen lernen“. Farhad Nazari sagt: „Ohne die Landessprache kommt man nirgends richtig an. Erst als ich Deutsch konnte, habe ich Freunde gefunden und eine gute Stelle bekommen. Man sollte so früh wie möglich anfangen.“\n\nYour partner: Auf meiner Karte spricht Britta Sommer über das Thema „Fremdsprachen lernen“. Britta Sommer sagt: „Mit Englisch kommt man heute fast überall durch, und Übersetzungsprogramme werden immer besser. Nicht jeder hat Zeit und Geld für Kurse. Wichtiger ist, dass man sich überhaupt verständigt.“\n\n## 2. Your opinion (Die eigene Meinung sagen)\n\n- Meiner Meinung nach …\n- Ich sehe das (ganz) ähnlich, weil …\n- Da bin ich anderer Meinung. Ich finde nämlich, dass …\n- Ich finde es interessant, dass …\n- Mich überrascht, dass …\n- Einerseits …, andererseits …\n\n## 3. Your experience (Von eigenen Erfahrungen erzählen)\n\n- Bei uns zu Hause ist das ganz anders: …\n- Ich habe damit selbst Erfahrung gemacht. Als ich …\n- Bei mir war es so: …\n- In meinem Heimatland ist es üblich, dass …\n\n## 4. Ask and react (Nachfragen und reagieren)\n\n- Und wie ist das bei dir?\n- Wie meinst du das genau?\n- Das habe ich nicht ganz verstanden. Kannst du das noch einmal sagen?\n- Da hast du recht, aber …"
+    },
+    {
+      "id": "tb1-u68-l01-teil2-themen-11-15-ex07",
+      "type": "choice",
+      "title": "Ins Ausland ziehen",
+      "passage": "„Auswandern klingt romantisch, ist aber hart.“",
+      "prompt": "Wer sagt das?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Marco Bianchi (Karte A)"
+        },
+        {
+          "id": "b",
+          "text": "Ursula Gerber (Karte B)"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Marco Bianchi** (A): Wer jung ist, sollte ins Ausland gehen. Man lernt eine Sprache, eine andere Kultur und vor allem sich selbst kennen. Zurückkommen kann man immer noch.\n\n**Ursula Gerber** (B): Auswandern klingt romantisch, ist aber hart. Familie und Freunde sind plötzlich weit weg, Behörden und Papiere kosten Nerven. Viele merken erst nach Jahren, was sie zurückgelassen haben."
+    },
+    {
+      "id": "tb1-u68-l01-teil2-themen-11-15-ex08",
+      "type": "task",
+      "skill": "speaking",
+      "title": "Teil 2 · Ins Ausland ziehen",
+      "task": "**Teil 2: Über ein Thema sprechen**\nSie und Ihre Partnerin/Ihr Partner haben verschiedene Meinungskarten zum selben Thema. Zuerst berichten Sie einander, was auf Ihrer Karte steht. Danach sprechen Sie über das Thema, sagen Ihre eigene Meinung und erzählen von eigenen Erfahrungen.\n\n**Thema: Ins Ausland ziehen** (Leben)\n\n## Karte A\n\nMarco Bianchi, 25, Kellner:\n„Wer jung ist, sollte ins Ausland gehen. Man lernt eine Sprache, eine andere Kultur und vor allem sich selbst kennen. Zurückkommen kann man immer noch.“\n\n## Karte B\n\nUrsula Gerber, 57, Apothekerin:\n„Auswandern klingt romantisch, ist aber hart. Familie und Freunde sind plötzlich weit weg, Behörden und Papiere kosten Nerven. Viele merken erst nach Jahren, was sie zurückgelassen haben.“\n\nYou have card A, your partner has card B. (Practise both roles.)",
+      "points": [
+        "Report what is on your card (Marco Bianchi)",
+        "Give your own opinion with a reason",
+        "Tell about your own experience",
+        "Ask your partner and react"
+      ],
+      "phrases": [
+        "Auf meiner Karte spricht … über das Thema …",
+        "Sie/Er ist der Meinung, dass …",
+        "Sie/Er findet, dass …",
+        "Nach ihrer/seiner Meinung sollte man …",
+        "Sie/Er sagt außerdem, dass …",
+        "Als Grund nennt sie/er, dass …",
+        "Meiner Meinung nach …",
+        "Ich sehe das (ganz) ähnlich, weil …",
+        "Da bin ich anderer Meinung. Ich finde nämlich, dass …",
+        "Ich finde es interessant, dass …",
+        "Mich überrascht, dass …",
+        "Einerseits …, andererseits …",
+        "Bei uns zu Hause ist das ganz anders: …",
+        "Ich habe damit selbst Erfahrung gemacht. Als ich …",
+        "Bei mir war es so: …",
+        "In meinem Heimatland ist es üblich, dass …",
+        "Und wie ist das bei dir?",
+        "Wie meinst du das genau?",
+        "Das habe ich nicht ganz verstanden. Kannst du das noch einmal sagen?",
+        "Da hast du recht, aber …"
+      ],
+      "modelAnswer": "*The source has no model answer for this task. This is a suggested structure built from the Redemittel of the source, not an official model answer.*\n\n## 1. Report your card (Die Meinung auf der Karte wiedergeben)\n\nAuf meiner Karte spricht Marco Bianchi über das Thema „Ins Ausland ziehen“. Marco Bianchi sagt: „Wer jung ist, sollte ins Ausland gehen. Man lernt eine Sprache, eine andere Kultur und vor allem sich selbst kennen. Zurückkommen kann man immer noch.“\n\nYour partner: Auf meiner Karte spricht Ursula Gerber über das Thema „Ins Ausland ziehen“. Ursula Gerber sagt: „Auswandern klingt romantisch, ist aber hart. Familie und Freunde sind plötzlich weit weg, Behörden und Papiere kosten Nerven. Viele merken erst nach Jahren, was sie zurückgelassen haben.“\n\n## 2. Your opinion (Die eigene Meinung sagen)\n\n- Meiner Meinung nach …\n- Ich sehe das (ganz) ähnlich, weil …\n- Da bin ich anderer Meinung. Ich finde nämlich, dass …\n- Ich finde es interessant, dass …\n- Mich überrascht, dass …\n- Einerseits …, andererseits …\n\n## 3. Your experience (Von eigenen Erfahrungen erzählen)\n\n- Bei uns zu Hause ist das ganz anders: …\n- Ich habe damit selbst Erfahrung gemacht. Als ich …\n- Bei mir war es so: …\n- In meinem Heimatland ist es üblich, dass …\n\n## 4. Ask and react (Nachfragen und reagieren)\n\n- Und wie ist das bei dir?\n- Wie meinst du das genau?\n- Das habe ich nicht ganz verstanden. Kannst du das noch einmal sagen?\n- Da hast du recht, aber …"
+    },
+    {
+      "id": "tb1-u68-l01-teil2-themen-11-15-ex09",
+      "type": "choice",
+      "title": "Soziale Netzwerke",
+      "passage": "„In sozialen Netzwerken zeigen alle nur ihr schönstes Leben.“",
+      "prompt": "Wer sagt das?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Pia Neumann (Karte A)"
+        },
+        {
+          "id": "b",
+          "text": "Georg Hartmann (Karte B)"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Pia Neumann** (A): Über soziale Netzwerke halte ich Kontakt zu Freunden in anderen Ländern. Ich finde dort Lerngruppen, Wohnungsangebote und Veranstaltungen. Man muss nur aufpassen, was man von sich preisgibt.\n\n**Georg Hartmann** (B): In sozialen Netzwerken zeigen alle nur ihr schönstes Leben. Besonders Jugendliche vergleichen sich ständig und werden unzufrieden. Ich sehe beruflich täglich, wie viel Schaden dort entsteht."
+    },
+    {
+      "id": "tb1-u68-l01-teil2-themen-11-15-ex10",
+      "type": "task",
+      "skill": "speaking",
+      "title": "Teil 2 · Soziale Netzwerke",
+      "task": "**Teil 2: Über ein Thema sprechen**\nSie und Ihre Partnerin/Ihr Partner haben verschiedene Meinungskarten zum selben Thema. Zuerst berichten Sie einander, was auf Ihrer Karte steht. Danach sprechen Sie über das Thema, sagen Ihre eigene Meinung und erzählen von eigenen Erfahrungen.\n\n**Thema: Soziale Netzwerke** (Medien)\n\n## Karte A\n\nPia Neumann, 21, Auszubildende:\n„Über soziale Netzwerke halte ich Kontakt zu Freunden in anderen Ländern. Ich finde dort Lerngruppen, Wohnungsangebote und Veranstaltungen. Man muss nur aufpassen, was man von sich preisgibt.“\n\n## Karte B\n\nGeorg Hartmann, 50, Polizist:\n„In sozialen Netzwerken zeigen alle nur ihr schönstes Leben. Besonders Jugendliche vergleichen sich ständig und werden unzufrieden. Ich sehe beruflich täglich, wie viel Schaden dort entsteht.“\n\nYou have card A, your partner has card B. (Practise both roles.)",
+      "points": [
+        "Report what is on your card (Pia Neumann)",
+        "Give your own opinion with a reason",
+        "Tell about your own experience",
+        "Ask your partner and react"
+      ],
+      "phrases": [
+        "Auf meiner Karte spricht … über das Thema …",
+        "Sie/Er ist der Meinung, dass …",
+        "Sie/Er findet, dass …",
+        "Nach ihrer/seiner Meinung sollte man …",
+        "Sie/Er sagt außerdem, dass …",
+        "Als Grund nennt sie/er, dass …",
+        "Meiner Meinung nach …",
+        "Ich sehe das (ganz) ähnlich, weil …",
+        "Da bin ich anderer Meinung. Ich finde nämlich, dass …",
+        "Ich finde es interessant, dass …",
+        "Mich überrascht, dass …",
+        "Einerseits …, andererseits …",
+        "Bei uns zu Hause ist das ganz anders: …",
+        "Ich habe damit selbst Erfahrung gemacht. Als ich …",
+        "Bei mir war es so: …",
+        "In meinem Heimatland ist es üblich, dass …",
+        "Und wie ist das bei dir?",
+        "Wie meinst du das genau?",
+        "Das habe ich nicht ganz verstanden. Kannst du das noch einmal sagen?",
+        "Da hast du recht, aber …"
+      ],
+      "modelAnswer": "*The source has no model answer for this task. This is a suggested structure built from the Redemittel of the source, not an official model answer.*\n\n## 1. Report your card (Die Meinung auf der Karte wiedergeben)\n\nAuf meiner Karte spricht Pia Neumann über das Thema „Soziale Netzwerke“. Pia Neumann sagt: „Über soziale Netzwerke halte ich Kontakt zu Freunden in anderen Ländern. Ich finde dort Lerngruppen, Wohnungsangebote und Veranstaltungen. Man muss nur aufpassen, was man von sich preisgibt.“\n\nYour partner: Auf meiner Karte spricht Georg Hartmann über das Thema „Soziale Netzwerke“. Georg Hartmann sagt: „In sozialen Netzwerken zeigen alle nur ihr schönstes Leben. Besonders Jugendliche vergleichen sich ständig und werden unzufrieden. Ich sehe beruflich täglich, wie viel Schaden dort entsteht.“\n\n## 2. Your opinion (Die eigene Meinung sagen)\n\n- Meiner Meinung nach …\n- Ich sehe das (ganz) ähnlich, weil …\n- Da bin ich anderer Meinung. Ich finde nämlich, dass …\n- Ich finde es interessant, dass …\n- Mich überrascht, dass …\n- Einerseits …, andererseits …\n\n## 3. Your experience (Von eigenen Erfahrungen erzählen)\n\n- Bei uns zu Hause ist das ganz anders: …\n- Ich habe damit selbst Erfahrung gemacht. Als ich …\n- Bei mir war es so: …\n- In meinem Heimatland ist es üblich, dass …\n\n## 4. Ask and react (Nachfragen und reagieren)\n\n- Und wie ist das bei dir?\n- Wie meinst du das genau?\n- Das habe ich nicht ganz verstanden. Kannst du das noch einmal sagen?\n- Da hast du recht, aber …"
+    },
+    {
+      "id": "tb1-u68-l01-teil2-themen-11-15-ex11",
+      "type": "choice",
+      "prompt": "Which phrase means: “At home it's completely different: …”?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Das ist ja interessant! Erzähl mal mehr davon."
+        },
+        {
+          "id": "b",
+          "text": "Bei uns zu Hause ist das ganz anders: …"
+        },
+        {
+          "id": "c",
+          "text": "Wie lange lernst du schon Deutsch?"
+        },
+        {
+          "id": "d",
+          "text": "Einerseits …, andererseits …"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Bei uns zu Hause ist das ganz anders: …**: At home it's completely different: … (Von eigenen Erfahrungen erzählen)"
+    },
+    {
+      "id": "tb1-u68-l01-teil2-themen-11-15-ex12",
+      "type": "choice",
+      "prompt": "Which phrase means: “I have personal experience of that. When I …”?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ich habe damit selbst Erfahrung gemacht. Als ich …"
+        },
+        {
+          "id": "b",
+          "text": "Ich weiß nicht so recht. Vielleicht sollten wir eher …"
+        },
+        {
+          "id": "c",
+          "text": "Ich sehe das (ganz) ähnlich, weil …"
+        },
+        {
+          "id": "d",
+          "text": "Als Kompromiss schlage ich vor, dass …"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Ich habe damit selbst Erfahrung gemacht. Als ich …**: I have personal experience of that. When I … (Von eigenen Erfahrungen erzählen)"
+    }
+  ]
+}

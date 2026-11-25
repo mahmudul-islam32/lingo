@@ -19,8 +19,10 @@ import {
 import { useCourse } from "@/lib/content";
 import { languageName } from "../../onboarding/course-labels";
 import { learnCourseId } from "../_learn/course-caption";
+import { CourseRow } from "./CourseRow";
 import { DailyGoalRow } from "./DailyGoalRow";
 import { GoalDateRow } from "./GoalDateRow";
+import { SoundEffectsRow } from "./SoundEffectsRow";
 import { StartLevelRow } from "./StartLevelRow";
 
 export const SETTINGS_ID = "settings";
@@ -90,9 +92,11 @@ export function ProfileScreen() {
         <h2 id={`${SETTINGS_ID}-heading`} className="font-display text-base font-extrabold">
           Settings
         </h2>
+        <CourseRow />
         <DailyGoalRow />
         <GoalDateRow />
         <StartLevelRow />
+        <SoundEffectsRow />
       </section>
     </div>
   );

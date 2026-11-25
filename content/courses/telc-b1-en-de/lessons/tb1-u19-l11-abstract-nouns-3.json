@@ -1,0 +1,234 @@
+{
+  "id": "tb1-u19-l11-abstract-nouns-3",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u19",
+  "title": "Abstract Nouns 3",
+  "tip": "Theme: Abstrakte Nomen (B1)",
+  "exercises": [
+    {
+      "id": "tb1-u19-l11-abstract-nouns-3-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "die Freiheit",
+          "known": "freedom"
+        },
+        {
+          "id": "p2",
+          "learning": "der Erfolg",
+          "known": "success"
+        },
+        {
+          "id": "p3",
+          "learning": "die Schwierigkeit",
+          "known": "difficulty"
+        },
+        {
+          "id": "p4",
+          "learning": "der Eindruck",
+          "known": "impression"
+        },
+        {
+          "id": "p5",
+          "learning": "die Gelegenheit",
+          "known": "opportunity"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u19-l11-abstract-nouns-3-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „freedom“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Freiheit"
+        },
+        {
+          "id": "b",
+          "text": "die Fähigkeit, die Fähigkeiten"
+        },
+        {
+          "id": "c",
+          "text": "der Eindruck, die Eindrücke"
+        },
+        {
+          "id": "d",
+          "text": "die Aufgabe, die Aufgaben"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**die Freiheit** = freedom\n\n*Example:* Mit dem eigenen Auto hat man mehr Freiheit.\nWith your own car you have more freedom."
+    },
+    {
+      "id": "tb1-u19-l11-abstract-nouns-3-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „success“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "der Erfolg, die Erfolge"
+        },
+        {
+          "id": "b",
+          "text": "die Voraussetzung, die Voraussetzungen"
+        },
+        {
+          "id": "c",
+          "text": "der Eindruck, die Eindrücke"
+        },
+        {
+          "id": "d",
+          "text": "die Bedingung, die Bedingungen"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**der Erfolg** = success\n*Plural: die Erfolge*\n\n*Example:* Viel Erfolg bei deinem Vorstellungsgespräch morgen!\nGood luck with your job interview tomorrow!"
+    },
+    {
+      "id": "tb1-u19-l11-abstract-nouns-3-ex04",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u19-l11-abstract-nouns-3-1.mp3"
+      },
+      "tiles": [
+        "hat",
+        "Freiheit",
+        "dieses",
+        "eigenen",
+        "Auto",
+        "Die",
+        "man",
+        "mehr",
+        "Deutschland",
+        "Mit",
+        "dem"
+      ],
+      "answers": [
+        "Mit dem eigenen Auto hat man mehr Freiheit."
+      ],
+      "explanation": "Mit dem eigenen Auto hat man mehr Freiheit.\n*With your own car you have more freedom.*\n\n**die Freiheit** = freedom"
+    },
+    {
+      "id": "tb1-u19-l11-abstract-nouns-3-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „difficulty“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Schwierigkeit, die Schwierigkeiten"
+        },
+        {
+          "id": "b",
+          "text": "der Erfolg, die Erfolge"
+        },
+        {
+          "id": "c",
+          "text": "die Wirkung, die Wirkungen"
+        },
+        {
+          "id": "d",
+          "text": "die Fähigkeit, die Fähigkeiten"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**die Schwierigkeit** = difficulty\n*Plural: die Schwierigkeiten*\n\n*Example:* Am Anfang hatte ich Schwierigkeiten mit der deutschen Aussprache.\nAt first I had difficulties with German pronunciation."
+    },
+    {
+      "id": "tb1-u19-l11-abstract-nouns-3-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Viel Erfolg bei deinem Vorstellungsgespräch morgen!",
+      "tiles": [
+        "job",
+        "The",
+        "I",
+        "Good",
+        "with",
+        "tomorrow",
+        "your",
+        "luck",
+        "more",
+        "interview"
+      ],
+      "answers": [
+        "Good luck with your job interview tomorrow!"
+      ],
+      "explanation": "**der Erfolg** = success\n*Plural: die Erfolge*"
+    },
+    {
+      "id": "tb1-u19-l11-abstract-nouns-3-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „impression“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "das Ziel, die Ziele"
+        },
+        {
+          "id": "b",
+          "text": "die Fähigkeit, die Fähigkeiten"
+        },
+        {
+          "id": "c",
+          "text": "der Eindruck, die Eindrücke"
+        },
+        {
+          "id": "d",
+          "text": "die Bedeutung, die Bedeutungen"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**der Eindruck** = impression\n*Plural: die Eindrücke*\n\n*Example:* Die neue Kollegin macht einen sehr netten Eindruck.\nThe new colleague makes a very nice impression."
+    },
+    {
+      "id": "tb1-u19-l11-abstract-nouns-3-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "At first I had difficulties with German pronunciation.",
+      "tiles": [
+        "Anfang",
+        "deutschen",
+        "mit",
+        "Aussprache",
+        "Gelegenheit",
+        "Schwierigkeiten",
+        "Am",
+        "ich",
+        "kochst",
+        "der",
+        "Bedeutung",
+        "hatte"
+      ],
+      "answers": [
+        "Am Anfang hatte ich Schwierigkeiten mit der deutschen Aussprache."
+      ],
+      "explanation": "**die Schwierigkeit** = difficulty\n*Plural: die Schwierigkeiten*"
+    },
+    {
+      "id": "tb1-u19-l11-abstract-nouns-3-ex09",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u19-l11-abstract-nouns-3-4.mp3"
+      },
+      "tiles": [
+        "Kollegin",
+        "neue",
+        "Vorstellungsgespräch",
+        "Schild",
+        "macht",
+        "Eindruck",
+        "sehr",
+        "Ali",
+        "Die",
+        "netten",
+        "einen"
+      ],
+      "answers": [
+        "Die neue Kollegin macht einen sehr netten Eindruck."
+      ],
+      "explanation": "Die neue Kollegin macht einen sehr netten Eindruck.\n*The new colleague makes a very nice impression.*\n\n**der Eindruck** = impression\n*Plural: die Eindrücke*"
+    }
+  ]
+}

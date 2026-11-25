@@ -1,0 +1,273 @@
+{
+  "id": "tb1-u13-l07-media-technology-2",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u13",
+  "title": "Media & Technology 2",
+  "tip": "Theme: Medien / Technik (B1)",
+  "exercises": [
+    {
+      "id": "tb1-u13-l07-media-technology-2-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "einschalten",
+          "known": "to switch on"
+        },
+        {
+          "id": "p2",
+          "learning": "kaputt",
+          "known": "broken"
+        },
+        {
+          "id": "p3",
+          "learning": "reparieren",
+          "known": "to repair"
+        },
+        {
+          "id": "p4",
+          "learning": "das Internet",
+          "known": "internet"
+        },
+        {
+          "id": "p5",
+          "learning": "das Handy",
+          "known": "mobile phone"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u13-l07-media-technology-2-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which one means „to switch on ↔ off“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "reparieren: etwas reparieren lassen"
+        },
+        {
+          "id": "b",
+          "text": "einschalten ↔ ausschalten"
+        },
+        {
+          "id": "c",
+          "text": "speichern ↔ löschen"
+        },
+        {
+          "id": "d",
+          "text": "funktionieren. Das Gerät funktioniert nicht mehr."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**einschalten ↔ ausschalten** = to switch on ↔ off\n\n*Example:* Bitte schalten Sie Ihr Handy im Kino aus.\nPlease switch off your phone in the cinema."
+    },
+    {
+      "id": "tb1-u13-l07-media-technology-2-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which one means „to work. The device doesn't work any more.“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "einschalten ↔ ausschalten"
+        },
+        {
+          "id": "b",
+          "text": "reparieren: etwas reparieren lassen"
+        },
+        {
+          "id": "c",
+          "text": "funktionieren. Das Gerät funktioniert nicht mehr."
+        },
+        {
+          "id": "d",
+          "text": "speichern ↔ löschen"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**funktionieren. Das Gerät funktioniert nicht mehr.** = to work. The device doesn't work any more.\n\n*Example:* Die Waschmaschine funktioniert nicht mehr.\nThe washing machine doesn't work any more."
+    },
+    {
+      "id": "tb1-u13-l07-media-technology-2-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Bitte schalten Sie Ihr Handy im Kino aus.",
+      "tiles": [
+        "switch",
+        "to",
+        "cinema",
+        "Please",
+        "your",
+        "you",
+        "often",
+        "the",
+        "in",
+        "phone",
+        "off"
+      ],
+      "answers": [
+        "Please switch off your phone in the cinema."
+      ],
+      "explanation": "**einschalten ↔ ausschalten** = to switch on ↔ off"
+    },
+    {
+      "id": "tb1-u13-l07-media-technology-2-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which verb means „broken: to break“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "kaputt: kaputtgehen (ist kaputtgegangen)"
+        },
+        {
+          "id": "b",
+          "text": "herunterladen (hat heruntergeladen)"
+        },
+        {
+          "id": "c",
+          "text": "fernsehen (hat ferngesehen): die Sendung, die Sendungen"
+        },
+        {
+          "id": "d",
+          "text": "anrufen + Akk. (hat angerufen). Ich rufe dich an."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**kaputt: kaputtgehen (ist kaputtgegangen)** = broken: to break\n\n*Example:* Gestern ist mein Fernseher kaputtgegangen.\nMy TV broke yesterday."
+    },
+    {
+      "id": "tb1-u13-l07-media-technology-2-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "The washing machine doesn't work any more.",
+      "tiles": [
+        "mehr",
+        "Die",
+        "Waschmaschine",
+        "Ihr",
+        "Mein",
+        "mir",
+        "funktioniert",
+        "nicht"
+      ],
+      "answers": [
+        "Die Waschmaschine funktioniert nicht mehr."
+      ],
+      "explanation": "**funktionieren. Das Gerät funktioniert nicht mehr.** = to work. The device doesn't work any more."
+    },
+    {
+      "id": "tb1-u13-l07-media-technology-2-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which one means „to repair, to have something repaired (lassen!)“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "speichern ↔ löschen"
+        },
+        {
+          "id": "b",
+          "text": "reparieren: etwas reparieren lassen"
+        },
+        {
+          "id": "c",
+          "text": "einschalten ↔ ausschalten"
+        },
+        {
+          "id": "d",
+          "text": "funktionieren. Das Gerät funktioniert nicht mehr."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**reparieren: etwas reparieren lassen** = to repair, to have something repaired (lassen!)\n\n*Example:* Ich lasse mein Fahrrad in der Werkstatt reparieren.\nI'm having my bike repaired at the workshop."
+    },
+    {
+      "id": "tb1-u13-l07-media-technology-2-ex08",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u13-l07-media-technology-2-3.mp3"
+      },
+      "tiles": [
+        "Fernseher",
+        "Gestern",
+        "aufladen",
+        "schalten",
+        "mein",
+        "App",
+        "ist",
+        "kaputtgegangen"
+      ],
+      "answers": [
+        "Gestern ist mein Fernseher kaputtgegangen."
+      ],
+      "explanation": "Gestern ist mein Fernseher kaputtgegangen.\n*My TV broke yesterday.*\n\n**kaputt: kaputtgehen (ist kaputtgegangen)** = broken: to break"
+    },
+    {
+      "id": "tb1-u13-l07-media-technology-2-ex09",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „internet · wifi“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "der Bildschirm, die Bildschirme"
+        },
+        {
+          "id": "b",
+          "text": "der Computer, die Computer · der Laptop, die Laptops"
+        },
+        {
+          "id": "c",
+          "text": "das Passwort, die Passwörter"
+        },
+        {
+          "id": "d",
+          "text": "das Internet (nur Sg.) · das WLAN"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**das Internet (nur Sg.) · das WLAN** = internet · wifi\n\n*Example:* Im Hotel gibt es kostenloses WLAN.\nThere's free wifi in the hotel."
+    },
+    {
+      "id": "tb1-u13-l07-media-technology-2-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Ich lasse mein Fahrrad in der Werkstatt reparieren.",
+      "tiles": [
+        "my",
+        "having",
+        "the",
+        "I'm",
+        "on",
+        "workshop",
+        "bike",
+        "computer",
+        "repaired",
+        "at",
+        "forgotten"
+      ],
+      "answers": [
+        "I'm having my bike repaired at the workshop."
+      ],
+      "explanation": "**reparieren: etwas reparieren lassen** = to repair, to have something repaired (lassen!)"
+    },
+    {
+      "id": "tb1-u13-l07-media-technology-2-ex11",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "There's free wifi in the hotel.",
+      "tiles": [
+        "ich",
+        "es",
+        "gibt",
+        "Der",
+        "Hotel",
+        "kostenloses",
+        "kaputtgegangen",
+        "WLAN",
+        "Im"
+      ],
+      "answers": [
+        "Im Hotel gibt es kostenloses WLAN."
+      ],
+      "explanation": "**das Internet (nur Sg.) · das WLAN** = internet · wifi"
+    }
+  ]
+}

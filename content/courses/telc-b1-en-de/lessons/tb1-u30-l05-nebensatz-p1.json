@@ -1,0 +1,318 @@
+{
+  "id": "tb1-u30-l05-nebensatz-p1",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u30",
+  "title": "Subordinate Clauses: weil, dass, wenn, obwohl …: weil & dass",
+  "tip": "“…weil ich bin krank” = instant deduction under criterion III. Verb to the end!",
+  "exercises": [
+    {
+      "id": "tb1-u30-l05-nebensatz-p1-ex01",
+      "type": "explain",
+      "title": "weil · Grund",
+      "body": "weil gives a reason (why?). The conjugated verb goes to the end.\n\n*Deutsch:* weil nennt einen Grund (Warum?). Das konjugierte Verb geht ans Ende.\n\n## Pattern\n\nHauptsatz, **weil** + Subjekt + … + **Verb**.",
+      "examples": [
+        {
+          "learning": "Ich bleibe heute zu Hause, weil ich krank bin.",
+          "known": "I'm staying at home today because I'm ill."
+        },
+        {
+          "learning": "Ich lerne Deutsch, weil ich in Deutschland arbeiten möchte.",
+          "known": "I'm learning German because I want to work in Germany."
+        }
+      ]
+    },
+    {
+      "id": "tb1-u30-l05-nebensatz-p1-ex02",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I'm staying at home today because I'm ill.",
+      "tiles": [
+        "zu",
+        "dir",
+        "Lesen",
+        "heute",
+        "weil",
+        "bleibe",
+        "Wohnung",
+        "Hause",
+        "Ich",
+        "bin",
+        "ich",
+        "krank"
+      ],
+      "answers": [
+        "Ich bleibe heute zu Hause, weil ich krank bin."
+      ],
+      "explanation": "**Why:** weil sends the verb bin to the end.\n\n*Warum:* weil schickt das Verb bin ans Satzende."
+    },
+    {
+      "id": "tb1-u30-l05-nebensatz-p1-ex03",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I'm learning German because I want to work in Germany.",
+      "tiles": [
+        "möchte",
+        "in",
+        "dir",
+        "bin",
+        "arbeiten",
+        "Deutsch",
+        "ich",
+        "weil",
+        "ist",
+        "Deutschland",
+        "Ich",
+        "lerne"
+      ],
+      "answers": [
+        "Ich lerne Deutsch, weil ich in Deutschland arbeiten möchte."
+      ],
+      "explanation": "**Why:** Modal in a subordinate clause: infinitive before the conjugated verb.\n\n*Warum:* Modalverb im Nebensatz: Infinitiv vor dem konjugierten Verb."
+    },
+    {
+      "id": "tb1-u30-l05-nebensatz-p1-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Because it's raining hard, we're taking the bus.",
+      "tiles": [
+        "Auto",
+        "dass",
+        "Bus",
+        "es",
+        "nehmen",
+        "zehn",
+        "stark",
+        "wir",
+        "den",
+        "regnet",
+        "Weil"
+      ],
+      "answers": [
+        "Weil es stark regnet, nehmen wir den Bus."
+      ],
+      "explanation": "**Why:** Subordinate clause first → main clause starts with the verb (verb, verb).\n\n*Warum:* Nebensatz zuerst → Hauptsatz beginnt mit dem Verb (Verb, Verb)."
+    },
+    {
+      "id": "tb1-u30-l05-nebensatz-p1-ex05",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "She's tired because she worked for a long time.",
+      "tiles": [
+        "lange",
+        "Sie",
+        "gearbeitet",
+        "hat",
+        "sie",
+        "putze",
+        "es",
+        "weil",
+        "müde",
+        "schlafen",
+        "ist"
+      ],
+      "answers": [
+        "Sie ist müde, weil sie lange gearbeitet hat."
+      ],
+      "explanation": "**Why:** Perfect: auxiliary hat at the very end.\n\n*Warum:* Perfekt: Hilfsverb hat ganz am Ende."
+    },
+    {
+      "id": "tb1-u30-l05-nebensatz-p1-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I'll come later because I still have to go shopping.",
+      "tiles": [
+        "einkaufen",
+        "wenn",
+        "noch",
+        "komme",
+        "weil",
+        "Ich",
+        "ich",
+        "muss",
+        "später",
+        "höre",
+        "lerne"
+      ],
+      "answers": [
+        "Ich komme später, weil ich noch einkaufen muss."
+      ],
+      "explanation": "**Why:** muss goes at the end, after the infinitive einkaufen.\n\n*Warum:* muss steht am Ende, nach dem Infinitiv einkaufen."
+    },
+    {
+      "id": "tb1-u30-l05-nebensatz-p1-ex07",
+      "type": "explain",
+      "title": "dass · Inhalt",
+      "body": "dass introduces content – after verbs like think, believe, hope, know, say.\n\n*Deutsch:* dass leitet einen Inhalt ein – nach Verben wie denken, glauben, hoffen, wissen, sagen.\n\n## Pattern\n\nIch denke/hoffe/weiß, **dass** + Subjekt + … + **Verb**.",
+      "examples": [
+        {
+          "learning": "Ich hoffe, dass du bald gesund wirst.",
+          "known": "I hope that you get well soon."
+        },
+        {
+          "learning": "Ich glaube, dass der Kurs um 9 Uhr beginnt.",
+          "known": "I think the course starts at 9."
+        }
+      ]
+    },
+    {
+      "id": "tb1-u30-l05-nebensatz-p1-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I hope that you get well soon.",
+      "tiles": [
+        "dass",
+        "gesund",
+        "nicht",
+        "du",
+        "die",
+        "wirst",
+        "bald",
+        "hoffe",
+        "Kurs",
+        "Ich"
+      ],
+      "answers": [
+        "Ich hoffe, dass du bald gesund wirst."
+      ],
+      "explanation": "**Why:** After hoffen comes dass + verb at the end.\n\n*Warum:* Nach hoffen folgt dass + Verb am Ende."
+    },
+    {
+      "id": "tb1-u30-l05-nebensatz-p1-ex09",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I think the course starts at 9.",
+      "tiles": [
+        "beginnt",
+        "Uhr",
+        "Kurs",
+        "9",
+        "dass",
+        "glaube",
+        "Ich",
+        "brauchst",
+        "um",
+        "kommen",
+        "der",
+        "ist"
+      ],
+      "answers": [
+        "Ich glaube, dass der Kurs um 9 Uhr beginnt."
+      ],
+      "explanation": "**Why:** beginnt is at the end of the dass clause.\n\n*Warum:* beginnt steht am Ende des dass-Satzes."
+    },
+    {
+      "id": "tb1-u30-l05-nebensatz-p1-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "It's important that you are on time.",
+      "tiles": [
+        "sind",
+        "die",
+        "dass",
+        "bestanden",
+        "pünktlich",
+        "Es",
+        "ist",
+        "Sie",
+        "ich",
+        "wichtig"
+      ],
+      "answers": [
+        "Es ist wichtig, dass Sie pünktlich sind."
+      ],
+      "explanation": "**Why:** Typical in letters: Es ist wichtig/schön, dass …\n\n*Warum:* Typisch für Briefe: Es ist wichtig/schön, dass …"
+    },
+    {
+      "id": "tb1-u30-l05-nebensatz-p1-ex11",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "He said that he can't come tomorrow.",
+      "tiles": [
+        "Er",
+        "ist",
+        "kann",
+        "gesagt",
+        "dass",
+        "kommen",
+        "hat",
+        "wirst",
+        "er",
+        "verpassen",
+        "nicht",
+        "morgen"
+      ],
+      "answers": [
+        "Er hat gesagt, dass er morgen nicht kommen kann."
+      ],
+      "explanation": "**Why:** Infinitive + modal at the end: kommen kann.\n\n*Warum:* Infinitiv + Modalverb am Ende: kommen kann."
+    },
+    {
+      "id": "tb1-u30-l05-nebensatz-p1-ex12",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I think it's a pity that you've moved.",
+      "tiles": [
+        "Ich",
+        "umgezogen",
+        "läuft",
+        "wirst",
+        "bist",
+        "schade",
+        "du",
+        "dass",
+        "nicht",
+        "es",
+        "finde"
+      ],
+      "answers": [
+        "Ich finde es schade, dass du umgezogen bist."
+      ],
+      "explanation": "**Why:** Perfect in the subordinate clause: umgezogen bist.\n\n*Warum:* Perfekt im Nebensatz: umgezogen bist."
+    },
+    {
+      "id": "tb1-u30-l05-nebensatz-p1-ex13",
+      "type": "choice",
+      "title": "Fill the gap",
+      "prompt": "Ich lerne jeden Tag, ___ ich die Prüfung schaffe.",
+      "options": [
+        {
+          "id": "a",
+          "text": "obwohl"
+        },
+        {
+          "id": "b",
+          "text": "damit"
+        },
+        {
+          "id": "c",
+          "text": "weil"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Ziel/Absicht mit eigenem Subjekt = damit. (weil = Grund, obwohl = Gegengrund)"
+    },
+    {
+      "id": "tb1-u30-l05-nebensatz-p1-ex14",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Join the two sentences with „weil“: Ich bleibe zu Hause. Ich bin krank.",
+      "tiles": [
+        "weil",
+        "Hause",
+        "Testlücke-Stil",
+        "nehmen",
+        "krank",
+        "ich",
+        "zu",
+        "Ich",
+        "bin",
+        "bleibe"
+      ],
+      "answers": [
+        "Ich bleibe zu Hause, weil ich krank bin.",
+        "Weil ich krank bin, bleibe ich zu Hause."
+      ],
+      "explanation": "weil schickt das Verb ans Ende: …, weil ich krank bin.\n\nAlso correct: Weil ich krank bin, bleibe ich zu Hause.\n\n*Deutsch:* Verbinde mit „weil“:"
+    }
+  ]
+}

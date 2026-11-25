@@ -1,0 +1,291 @@
+{
+  "id": "tb1-u16-l02-food-restaurants-2",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u16",
+  "title": "Food & Restaurants 2",
+  "tip": "Theme: Essen / Trinken / Restaurant (B1)",
+  "exercises": [
+    {
+      "id": "tb1-u16-l02-food-restaurants-2-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "probieren",
+          "known": "to try"
+        },
+        {
+          "id": "p2",
+          "learning": "der Kellner",
+          "known": "waiter / waitress"
+        },
+        {
+          "id": "p3",
+          "learning": "das Trinkgeld",
+          "known": "tip"
+        },
+        {
+          "id": "p4",
+          "learning": "einen Tisch reservieren",
+          "known": "to reserve a table"
+        },
+        {
+          "id": "p5",
+          "learning": "die Speisekarte",
+          "known": "menu"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u16-l02-food-restaurants-2-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which one means „to try, to taste“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "lecker · süß · salzig · scharf · sauer"
+        },
+        {
+          "id": "b",
+          "text": "Wir möchten bitte zahlen, zusammen oder getrennt?"
+        },
+        {
+          "id": "c",
+          "text": "einen Tisch reservieren: für vier Personen"
+        },
+        {
+          "id": "d",
+          "text": "probieren"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**probieren** = to try, to taste\n\n*Example:* Probier mal den Kuchen, ich habe ihn selbst gebacken!\nTry the cake, I baked it myself!"
+    },
+    {
+      "id": "tb1-u16-l02-food-restaurants-2-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „waiter / waitress“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Vorspeise, die Vorspeisen · das Hauptgericht, die Hauptgerichte · der Nachtisch, die Nachtische"
+        },
+        {
+          "id": "b",
+          "text": "das Gemüse (nur Sg.) · das Obst (nur Sg.)"
+        },
+        {
+          "id": "c",
+          "text": "der Kellner, die Kellner / die Kellnerin, die Kellnerinnen"
+        },
+        {
+          "id": "d",
+          "text": "das Rezept, die Rezepte: die Zutat, die Zutaten"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**der Kellner, die Kellner / die Kellnerin, die Kellnerinnen** = waiter / waitress\n\n*Example:* Die Kellnerin bringt uns sofort zwei Gläser Wasser.\nThe waitress brings us two glasses of water right away."
+    },
+    {
+      "id": "tb1-u16-l02-food-restaurants-2-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Try the cake, I baked it myself!",
+      "tiles": [
+        "ich",
+        "selbst",
+        "Probier",
+        "Vater",
+        "habe",
+        "den",
+        "mal",
+        "ihn",
+        "gegeben",
+        "dem",
+        "Kuchen",
+        "gebacken"
+      ],
+      "answers": [
+        "Probier mal den Kuchen, ich habe ihn selbst gebacken!"
+      ],
+      "explanation": "**probieren** = to try, to taste"
+    },
+    {
+      "id": "tb1-u16-l02-food-restaurants-2-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which one means „We'd like to pay, please, together or separately?“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "bestellen"
+        },
+        {
+          "id": "b",
+          "text": "einen Tisch reservieren: für vier Personen"
+        },
+        {
+          "id": "c",
+          "text": "probieren"
+        },
+        {
+          "id": "d",
+          "text": "Wir möchten bitte zahlen, zusammen oder getrennt?"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**Wir möchten bitte zahlen, zusammen oder getrennt?** = We'd like to pay, please, together or separately?\n\n*Example:* Entschuldigung, wir möchten bitte zahlen. – Gern, zusammen oder getrennt?\nExcuse me, we'd like to pay, please. – Of course, together or separately?"
+    },
+    {
+      "id": "tb1-u16-l02-food-restaurants-2-ex06",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u16-l02-food-restaurants-2-2.mp3"
+      },
+      "tiles": [
+        "zwei",
+        "Die",
+        "sofort",
+        "Kellnerin",
+        "Party",
+        "Wasser",
+        "Gläser",
+        "bringt",
+        "Gemüsegerichte",
+        "uns",
+        "für"
+      ],
+      "answers": [
+        "Die Kellnerin bringt uns sofort zwei Gläser Wasser."
+      ],
+      "explanation": "Die Kellnerin bringt uns sofort zwei Gläser Wasser.\n*The waitress brings us two glasses of water right away.*\n\n**der Kellner, die Kellner / die Kellnerin, die Kellnerinnen** = waiter / waitress"
+    },
+    {
+      "id": "tb1-u16-l02-food-restaurants-2-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „tip“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "das Trinkgeld, die Trinkgelder"
+        },
+        {
+          "id": "b",
+          "text": "der Kellner, die Kellner / die Kellnerin, die Kellnerinnen"
+        },
+        {
+          "id": "c",
+          "text": "die Speisekarte, die Speisekarten"
+        },
+        {
+          "id": "d",
+          "text": "das Getränk, die Getränke"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**das Trinkgeld** = tip\n*Plural: die Trinkgelder*\n\n*Example:* Das Essen war super, deshalb geben wir ein gutes Trinkgeld.\nThe food was great, so we're leaving a good tip."
+    },
+    {
+      "id": "tb1-u16-l02-food-restaurants-2-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Entschuldigung, wir möchten bitte zahlen. – Gern, zusammen oder getrennt?",
+      "tiles": [
+        "Excuse",
+        "Of",
+        "buy",
+        "please",
+        "course",
+        "pay",
+        "or",
+        "like",
+        "me",
+        "together",
+        "separately",
+        "thirsty",
+        "we'd",
+        "to",
+        "but"
+      ],
+      "answers": [
+        "Excuse me, we'd like to pay, please. – Of course, together or separately?"
+      ],
+      "explanation": "**Wir möchten bitte zahlen, zusammen oder getrennt?** = We'd like to pay, please, together or separately?"
+    },
+    {
+      "id": "tb1-u16-l02-food-restaurants-2-ex09",
+      "type": "multiple_choice",
+      "prompt": "Which one means „to reserve a table: for four people“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "satt. Ich bin satt."
+        },
+        {
+          "id": "b",
+          "text": "vegetarisch · vegan"
+        },
+        {
+          "id": "c",
+          "text": "bestellen"
+        },
+        {
+          "id": "d",
+          "text": "einen Tisch reservieren: für vier Personen"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**einen Tisch reservieren: für vier Personen** = to reserve a table: for four people\n\n*Example:* Ich möchte für Samstagabend einen Tisch für vier Personen reservieren.\nI'd like to reserve a table for four people for Saturday evening."
+    },
+    {
+      "id": "tb1-u16-l02-food-restaurants-2-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "The food was great, so we're leaving a good tip.",
+      "tiles": [
+        "Essen",
+        "wir",
+        "Gerichte",
+        "super",
+        "geben",
+        "Trinkgeld",
+        "Kellnerin",
+        "deshalb",
+        "gutes",
+        "Sport",
+        "war",
+        "Das",
+        "ein"
+      ],
+      "answers": [
+        "Das Essen war super, deshalb geben wir ein gutes Trinkgeld."
+      ],
+      "explanation": "**das Trinkgeld** = tip\n*Plural: die Trinkgelder*"
+    },
+    {
+      "id": "tb1-u16-l02-food-restaurants-2-ex11",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u16-l02-food-restaurants-2-5.mp3"
+      },
+      "tiles": [
+        "uns",
+        "Tisch",
+        "einen",
+        "reservieren",
+        "vier",
+        "Personen",
+        "Samstagabend",
+        "Gerichte",
+        "für",
+        "sofort",
+        "möchte",
+        "Ich",
+        "für"
+      ],
+      "answers": [
+        "Ich möchte für Samstagabend einen Tisch für vier Personen reservieren."
+      ],
+      "explanation": "Ich möchte für Samstagabend einen Tisch für vier Personen reservieren.\n*I'd like to reserve a table for four people for Saturday evening.*\n\n**einen Tisch reservieren: für vier Personen** = to reserve a table: for four people"
+    }
+  ]
+}

@@ -1,0 +1,283 @@
+{
+  "id": "tb1-u12-l07-housing-moving-2",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u12",
+  "title": "Housing & Moving 2",
+  "tip": "Theme: Wohnen / Umzug (B1)",
+  "exercises": [
+    {
+      "id": "tb1-u12-l07-housing-moving-2-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "die Nebenkosten",
+          "known": "service charges"
+        },
+        {
+          "id": "p2",
+          "learning": "die Kaution",
+          "known": "deposit"
+        },
+        {
+          "id": "p3",
+          "learning": "der Mietvertrag",
+          "known": "rental contract"
+        },
+        {
+          "id": "p4",
+          "learning": "das Zimmer",
+          "known": "room"
+        },
+        {
+          "id": "p5",
+          "learning": "der Balkon",
+          "known": "balcony"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u12-l07-housing-moving-2-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „service charges, utilities“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Nebenkosten (Pl.)"
+        },
+        {
+          "id": "b",
+          "text": "das Zimmer, die Zimmer · die Küche, die Küchen · das Bad, die Bäder"
+        },
+        {
+          "id": "c",
+          "text": "die Wohnung, die Wohnungen · das Haus, die Häuser"
+        },
+        {
+          "id": "d",
+          "text": "die Miete, die Mieten"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**die Nebenkosten (Pl.)** = service charges, utilities\n\n*Example:* Die Nebenkosten betragen 150 Euro im Monat.\nThe service charges come to 150 euros a month."
+    },
+    {
+      "id": "tb1-u12-l07-housing-moving-2-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „deposit“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Kaution, die Kautionen"
+        },
+        {
+          "id": "b",
+          "text": "der Lärm (nur Sg.), laut ↔ ruhig"
+        },
+        {
+          "id": "c",
+          "text": "der Stock, die Stockwerke, im dritten Stock · das Erdgeschoss"
+        },
+        {
+          "id": "d",
+          "text": "die Heizung, die Heizungen"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**die Kaution** = deposit\n*Plural: die Kautionen*\n\n*Example:* Für die Wohnung müssen wir zwei Monatsmieten Kaution zahlen.\nWe have to pay a deposit of two months' rent for the flat."
+    },
+    {
+      "id": "tb1-u12-l07-housing-moving-2-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Die Nebenkosten betragen 150 Euro im Monat.",
+      "tiles": [
+        "service",
+        "150",
+        "charges",
+        "euros",
+        "two",
+        "to",
+        "in",
+        "with",
+        "month",
+        "The",
+        "a",
+        "come"
+      ],
+      "answers": [
+        "The service charges come to 150 euros a month."
+      ],
+      "explanation": "**die Nebenkosten (Pl.)** = service charges, utilities"
+    },
+    {
+      "id": "tb1-u12-l07-housing-moving-2-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „rental contract“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Umgebung"
+        },
+        {
+          "id": "b",
+          "text": "der Mietvertrag, die Mietverträge"
+        },
+        {
+          "id": "c",
+          "text": "die Heizung, die Heizungen"
+        },
+        {
+          "id": "d",
+          "text": "der Aufzug, die Aufzüge"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**der Mietvertrag** = rental contract\n*Plural: die Mietverträge*\n\n*Example:* Lies den Mietvertrag genau, bevor du unterschreibst.\nRead the rental contract carefully before you sign."
+    },
+    {
+      "id": "tb1-u12-l07-housing-moving-2-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "We have to pay a deposit of two months' rent for the flat.",
+      "tiles": [
+        "aber",
+        "Für",
+        "zahlen",
+        "im",
+        "Kaution",
+        "wir",
+        "müssen",
+        "die",
+        "Wohnung",
+        "Unsere",
+        "Monatsmieten",
+        "zwei"
+      ],
+      "answers": [
+        "Für die Wohnung müssen wir zwei Monatsmieten Kaution zahlen."
+      ],
+      "explanation": "**die Kaution** = deposit\n*Plural: die Kautionen*"
+    },
+    {
+      "id": "tb1-u12-l07-housing-moving-2-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „room · kitchen · bathroom“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "der Stock, die Stockwerke, im dritten Stock · das Erdgeschoss"
+        },
+        {
+          "id": "b",
+          "text": "das Zimmer, die Zimmer · die Küche, die Küchen · das Bad, die Bäder"
+        },
+        {
+          "id": "c",
+          "text": "die Möbel (Pl.), möbliert"
+        },
+        {
+          "id": "d",
+          "text": "die Wohnung, die Wohnungen · das Haus, die Häuser"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**das Zimmer** = room · kitchen · bathroom\n*Plural: die Zimmer · also: die Küche, die Küchen · das Bad, die Bäder*\n\n*Example:* Die Küche ist klein, aber das Bad ist neu.\nThe kitchen is small, but the bathroom is new."
+    },
+    {
+      "id": "tb1-u12-l07-housing-moving-2-ex08",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u12-l07-housing-moving-2-3.mp3"
+      },
+      "tiles": [
+        "Lies",
+        "möchte",
+        "genau",
+        "du",
+        "Mietvertrag",
+        "den",
+        "bevor",
+        "nicht",
+        "unterschreibst",
+        "Vermieter"
+      ],
+      "answers": [
+        "Lies den Mietvertrag genau, bevor du unterschreibst."
+      ],
+      "explanation": "Lies den Mietvertrag genau, bevor du unterschreibst.\n*Read the rental contract carefully before you sign.*\n\n**der Mietvertrag** = rental contract\n*Plural: die Mietverträge*"
+    },
+    {
+      "id": "tb1-u12-l07-housing-moving-2-ex09",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „balcony“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "der Lärm (nur Sg.), laut ↔ ruhig"
+        },
+        {
+          "id": "b",
+          "text": "der Nachbar, die Nachbarn (n-Dekl.) / die Nachbarin, die Nachbarinnen"
+        },
+        {
+          "id": "c",
+          "text": "der Balkon, die Balkone"
+        },
+        {
+          "id": "d",
+          "text": "die Nebenkosten (Pl.)"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**der Balkon** = balcony\n*Plural: die Balkone*\n\n*Example:* Im Sommer frühstücken wir gern auf dem Balkon.\nIn the summer we like having breakfast on the balcony."
+    },
+    {
+      "id": "tb1-u12-l07-housing-moving-2-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Die Küche ist klein, aber das Bad ist neu.",
+      "tiles": [
+        "sign",
+        "small",
+        "the",
+        "very",
+        "The",
+        "area",
+        "bathroom",
+        "but",
+        "kitchen",
+        "is",
+        "is",
+        "new"
+      ],
+      "answers": [
+        "The kitchen is small, but the bathroom is new."
+      ],
+      "explanation": "**das Zimmer** = room · kitchen · bathroom\n*Plural: die Zimmer · also: die Küche, die Küchen · das Bad, die Bäder*"
+    },
+    {
+      "id": "tb1-u12-l07-housing-moving-2-ex11",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "In the summer we like having breakfast on the balcony.",
+      "tiles": [
+        "gern",
+        "Urlaub",
+        "wir",
+        "Balkon",
+        "Im",
+        "Sommer",
+        "frühstücken",
+        "möchte",
+        "dem",
+        "auf",
+        "kaputt"
+      ],
+      "answers": [
+        "Im Sommer frühstücken wir gern auf dem Balkon."
+      ],
+      "explanation": "**der Balkon** = balcony\n*Plural: die Balkone*"
+    }
+  ]
+}

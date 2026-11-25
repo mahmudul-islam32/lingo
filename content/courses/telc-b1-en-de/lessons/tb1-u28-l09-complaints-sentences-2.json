@@ -1,0 +1,248 @@
+{
+  "id": "tb1-u28-l09-complaints-sentences-2",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u28",
+  "title": "Complaints (Sentences) 2",
+  "tip": "Theme: Sätze: Beschwerde & Reklamation (B1)",
+  "exercises": [
+    {
+      "id": "tb1-u28-l09-complaints-sentences-2-ex01",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means „I have attached the invoice.“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Mit dem Service bin ich überhaupt nicht zufrieden."
+        },
+        {
+          "id": "b",
+          "text": "Ich möchte das Gerät umtauschen oder mein Geld zurückbekommen."
+        },
+        {
+          "id": "c",
+          "text": "Ich erwarte Ihre Antwort bis Ende der Woche."
+        },
+        {
+          "id": "d",
+          "text": "Die Rechnung habe ich als Anhang beigefügt."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**Die Rechnung habe ich als Anhang beigefügt.** = I have attached the invoice.\n\n*Example:* Die Rechnung habe ich als Anhang beigefügt.\nI have attached the invoice."
+    },
+    {
+      "id": "tb1-u28-l09-complaints-sentences-2-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means „Please reply to me as soon as possible.“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Bitte antworten Sie mir so schnell wie möglich."
+        },
+        {
+          "id": "b",
+          "text": "Schon nach zwei Tagen war es kaputt."
+        },
+        {
+          "id": "c",
+          "text": "Mit dem Service bin ich überhaupt nicht zufrieden."
+        },
+        {
+          "id": "d",
+          "text": "Die Rechnung habe ich als Anhang beigefügt."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Bitte antworten Sie mir so schnell wie möglich.** = Please reply to me as soon as possible.\n\n*Example:* Bitte antworten Sie mir so schnell wie möglich.\nPlease reply to me as soon as possible."
+    },
+    {
+      "id": "tb1-u28-l09-complaints-sentences-2-ex03",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Die Rechnung habe ich als Anhang beigefügt.",
+      "tiles": [
+        "not",
+        "attached",
+        "me",
+        "invoice",
+        "the",
+        "Please",
+        "I",
+        "have"
+      ],
+      "answers": [
+        "I have attached the invoice."
+      ],
+      "explanation": "**Die Rechnung habe ich als Anhang beigefügt.** = I have attached the invoice."
+    },
+    {
+      "id": "tb1-u28-l09-complaints-sentences-2-ex04",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means „I am not at all satisfied with the service.“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Die Rechnung habe ich als Anhang beigefügt."
+        },
+        {
+          "id": "b",
+          "text": "Mit dem Service bin ich überhaupt nicht zufrieden."
+        },
+        {
+          "id": "c",
+          "text": "Leider muss ich mich über Ihren Service beschweren."
+        },
+        {
+          "id": "d",
+          "text": "Ich bitte Sie, mir das Geld zurückzuerstatten."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Mit dem Service bin ich überhaupt nicht zufrieden.** = I am not at all satisfied with the service.\n\n*Example:* Mit dem Service bin ich überhaupt nicht zufrieden.\nI am not at all satisfied with the service."
+    },
+    {
+      "id": "tb1-u28-l09-complaints-sentences-2-ex05",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Please reply to me as soon as possible.",
+      "tiles": [
+        "so",
+        "möglich",
+        "Bitte",
+        "über",
+        "mir",
+        "nicht",
+        "antworten",
+        "das",
+        "schnell",
+        "wie",
+        "Sie"
+      ],
+      "answers": [
+        "Bitte antworten Sie mir so schnell wie möglich."
+      ],
+      "explanation": "**Bitte antworten Sie mir so schnell wie möglich.** = Please reply to me as soon as possible."
+    },
+    {
+      "id": "tb1-u28-l09-complaints-sentences-2-ex06",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means „I hope that we quickly find a good solution.“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Mit dem Service bin ich überhaupt nicht zufrieden."
+        },
+        {
+          "id": "b",
+          "text": "Ich erwarte Ihre Antwort bis Ende der Woche."
+        },
+        {
+          "id": "c",
+          "text": "Ich hoffe, dass wir schnell eine gute Lösung finden."
+        },
+        {
+          "id": "d",
+          "text": "Die Rechnung habe ich als Anhang beigefügt."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**Ich hoffe, dass wir schnell eine gute Lösung finden.** = I hope that we quickly find a good solution.\n\n*Example:* Ich hoffe, dass wir schnell eine gute Lösung finden.\nI hope that we quickly find a good solution."
+    },
+    {
+      "id": "tb1-u28-l09-complaints-sentences-2-ex07",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u28-l09-complaints-sentences-2-3.mp3"
+      },
+      "tiles": [
+        "Ihre",
+        "Mit",
+        "dass",
+        "Lösung",
+        "ich",
+        "nicht",
+        "Service",
+        "dem",
+        "überhaupt",
+        "zufrieden",
+        "bin"
+      ],
+      "answers": [
+        "Mit dem Service bin ich überhaupt nicht zufrieden."
+      ],
+      "explanation": "Mit dem Service bin ich überhaupt nicht zufrieden.\n*I am not at all satisfied with the service.*\n\n**Mit dem Service bin ich überhaupt nicht zufrieden.** = I am not at all satisfied with the service."
+    },
+    {
+      "id": "tb1-u28-l09-complaints-sentences-2-ex08",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means „I expect your reply by the end of the week.“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ich erwarte Ihre Antwort bis Ende der Woche."
+        },
+        {
+          "id": "b",
+          "text": "Die Rechnung habe ich als Anhang beigefügt."
+        },
+        {
+          "id": "c",
+          "text": "Mit dem Service bin ich überhaupt nicht zufrieden."
+        },
+        {
+          "id": "d",
+          "text": "Das Gerät funktioniert leider nicht richtig."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Ich erwarte Ihre Antwort bis Ende der Woche.** = I expect your reply by the end of the week.\n\n*Example:* Ich erwarte Ihre Antwort bis Ende der Woche.\nI expect your reply by the end of the week."
+    },
+    {
+      "id": "tb1-u28-l09-complaints-sentences-2-ex09",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Ich hoffe, dass wir schnell eine gute Lösung finden.",
+      "tiles": [
+        "we",
+        "possible",
+        "hope",
+        "solution",
+        "quickly",
+        "find",
+        "good",
+        "reply",
+        "that",
+        "your",
+        "I",
+        "a"
+      ],
+      "answers": [
+        "I hope that we quickly find a good solution."
+      ],
+      "explanation": "**Ich hoffe, dass wir schnell eine gute Lösung finden.** = I hope that we quickly find a good solution."
+    },
+    {
+      "id": "tb1-u28-l09-complaints-sentences-2-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I expect your reply by the end of the week.",
+      "tiles": [
+        "erwarte",
+        "bis",
+        "Die",
+        "Woche",
+        "funktioniert",
+        "Ich",
+        "dass",
+        "Antwort",
+        "der",
+        "Ihre",
+        "Ende"
+      ],
+      "answers": [
+        "Ich erwarte Ihre Antwort bis Ende der Woche."
+      ],
+      "explanation": "**Ich erwarte Ihre Antwort bis Ende der Woche.** = I expect your reply by the end of the week."
+    }
+  ]
+}

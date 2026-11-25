@@ -1,0 +1,299 @@
+{
+  "id": "tb1-u28-l05-complaints-phrases-2",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u28",
+  "title": "Complaints (Phrases) 2",
+  "tip": "Theme: Redemittel: Beschwerde & Reklamation (B1)",
+  "exercises": [
+    {
+      "id": "tb1-u28-l05-complaints-phrases-2-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "Könnten Sie das bitte reparieren?",
+          "known": "Could you please repair that?"
+        },
+        {
+          "id": "p2",
+          "learning": "Ich bitte um eine Rückerstattung",
+          "known": "I request a refund."
+        },
+        {
+          "id": "p3",
+          "learning": "Das entspricht nicht meinen Erwartungen",
+          "known": "That doesn't meet my expectations."
+        },
+        {
+          "id": "p4",
+          "learning": "Ich möchte den Artikel umtauschen",
+          "known": "I'd like to exchange the item."
+        },
+        {
+          "id": "p5",
+          "learning": "Ich habe ein Problem mit …",
+          "known": "I have a problem with …"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u28-l05-complaints-phrases-2-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which phrase means „Could you please repair that?“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ich habe ein Problem mit …"
+        },
+        {
+          "id": "b",
+          "text": "Ich bitte um eine Rückerstattung."
+        },
+        {
+          "id": "c",
+          "text": "Könnten Sie das bitte reparieren?"
+        },
+        {
+          "id": "d",
+          "text": "Bitte teilen Sie mir mit, wie wir das lösen können."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**Könnten Sie das bitte reparieren?** = Could you please repair that?\n\n*Example:* Das Fenster in meiner Wohnung schließt nicht. Könnten Sie das bitte reparieren?\nThe window in my flat won't close. Could you please repair that?"
+    },
+    {
+      "id": "tb1-u28-l05-complaints-phrases-2-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which phrase means „I request a refund.“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Das entspricht nicht meinen Erwartungen."
+        },
+        {
+          "id": "b",
+          "text": "Ich bitte um eine Rückerstattung."
+        },
+        {
+          "id": "c",
+          "text": "Bitte teilen Sie mir mit, wie wir das lösen können."
+        },
+        {
+          "id": "d",
+          "text": "Ich bin mit … nicht zufrieden."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Ich bitte um eine Rückerstattung.** = I request a refund.\n\n*Example:* Der Flug ist ausgefallen. Ich bitte um eine Rückerstattung.\nThe flight was cancelled. I request a refund."
+    },
+    {
+      "id": "tb1-u28-l05-complaints-phrases-2-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "The window in my flat won't close. Could you please repair that?",
+      "tiles": [
+        "Könnten",
+        "bitte",
+        "Das",
+        "das",
+        "Fenster",
+        "Sie",
+        "Wohnung",
+        "nicht",
+        "mit",
+        "in",
+        "schließt",
+        "meiner",
+        "Woche",
+        "reparieren",
+        "Artikel"
+      ],
+      "answers": [
+        "Das Fenster in meiner Wohnung schließt nicht. Könnten Sie das bitte reparieren?"
+      ],
+      "explanation": "**Könnten Sie das bitte reparieren?** = Could you please repair that?"
+    },
+    {
+      "id": "tb1-u28-l05-complaints-phrases-2-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which phrase means „That doesn't meet my expectations.“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ich habe ein Problem mit …"
+        },
+        {
+          "id": "b",
+          "text": "Ich erwarte eine schnelle Lösung."
+        },
+        {
+          "id": "c",
+          "text": "Das entspricht nicht meinen Erwartungen."
+        },
+        {
+          "id": "d",
+          "text": "Ich möchte mein Geld zurück."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**Das entspricht nicht meinen Erwartungen.** = That doesn't meet my expectations.\n\n*Example:* Das Zimmer ist klein und schmutzig. Das entspricht nicht meinen Erwartungen.\nThe room is small and dirty. That doesn't meet my expectations."
+    },
+    {
+      "id": "tb1-u28-l05-complaints-phrases-2-ex06",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u28-l05-complaints-phrases-2-2.mp3"
+      },
+      "tiles": [
+        "ausgefallen",
+        "ist",
+        "Rückerstattung",
+        "Internetverbindung",
+        "nicht",
+        "Der",
+        "Flug",
+        "bitte",
+        "Ich",
+        "eine",
+        "mein",
+        "um"
+      ],
+      "answers": [
+        "Der Flug ist ausgefallen. Ich bitte um eine Rückerstattung."
+      ],
+      "explanation": "Der Flug ist ausgefallen. Ich bitte um eine Rückerstattung.\n*The flight was cancelled. I request a refund.*\n\n**Ich bitte um eine Rückerstattung.** = I request a refund."
+    },
+    {
+      "id": "tb1-u28-l05-complaints-phrases-2-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which phrase means „I'd like to exchange the item.“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ich möchte den Artikel umtauschen."
+        },
+        {
+          "id": "b",
+          "text": "Ich habe ein Problem mit …"
+        },
+        {
+          "id": "c",
+          "text": "Ich möchte mein Geld zurück."
+        },
+        {
+          "id": "d",
+          "text": "Ich erwarte eine schnelle Lösung."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Ich möchte den Artikel umtauschen.** = I'd like to exchange the item.\n\n*Example:* Die Hose ist zu klein. Ich möchte den Artikel umtauschen.\nThe trousers are too small. I'd like to exchange the item."
+    },
+    {
+      "id": "tb1-u28-l05-complaints-phrases-2-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Das Zimmer ist klein und schmutzig. Das entspricht nicht meinen Erwartungen.",
+      "tiles": [
+        "expectations",
+        "doesn't",
+        "item",
+        "small",
+        "meet",
+        "room",
+        "The",
+        "That",
+        "a",
+        "dirty",
+        "and",
+        "is",
+        "solve",
+        "my"
+      ],
+      "answers": [
+        "The room is small and dirty. That doesn't meet my expectations."
+      ],
+      "explanation": "**Das entspricht nicht meinen Erwartungen.** = That doesn't meet my expectations."
+    },
+    {
+      "id": "tb1-u28-l05-complaints-phrases-2-ex09",
+      "type": "multiple_choice",
+      "prompt": "Which phrase means „Please tell me how we can solve this.“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ich bin mit … nicht zufrieden."
+        },
+        {
+          "id": "b",
+          "text": "Bitte teilen Sie mir mit, wie wir das lösen können."
+        },
+        {
+          "id": "c",
+          "text": "Könnten Sie das bitte reparieren?"
+        },
+        {
+          "id": "d",
+          "text": "Das entspricht nicht meinen Erwartungen."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Bitte teilen Sie mir mit, wie wir das lösen können.** = Please tell me how we can solve this.\n\n*Example:* Das Paket ist nie angekommen. Bitte teilen Sie mir mit, wie wir das lösen können.\nThe parcel never arrived. Please tell me how we can solve this."
+    },
+    {
+      "id": "tb1-u28-l05-complaints-phrases-2-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "The trousers are too small. I'd like to exchange the item.",
+      "tiles": [
+        "Gerät",
+        "Hose",
+        "Ich",
+        "erwarte",
+        "möchte",
+        "Die",
+        "zu",
+        "Artikel",
+        "den",
+        "ist",
+        "umtauschen",
+        "sind",
+        "klein"
+      ],
+      "answers": [
+        "Die Hose ist zu klein. Ich möchte den Artikel umtauschen."
+      ],
+      "explanation": "**Ich möchte den Artikel umtauschen.** = I'd like to exchange the item."
+    },
+    {
+      "id": "tb1-u28-l05-complaints-phrases-2-ex11",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u28-l05-complaints-phrases-2-5.mp3"
+      },
+      "tiles": [
+        "teilen",
+        "mir",
+        "können",
+        "das",
+        "aber",
+        "ist",
+        "wie",
+        "mit",
+        "lösen",
+        "zwei",
+        "nie",
+        "angekommen",
+        "Das",
+        "Paket",
+        "schnelle",
+        "Sie",
+        "wir",
+        "Bitte"
+      ],
+      "answers": [
+        "Das Paket ist nie angekommen. Bitte teilen Sie mir mit, wie wir das lösen können."
+      ],
+      "explanation": "Das Paket ist nie angekommen. Bitte teilen Sie mir mit, wie wir das lösen können.\n*The parcel never arrived. Please tell me how we can solve this.*\n\n**Bitte teilen Sie mir mit, wie wir das lösen können.** = Please tell me how we can solve this."
+    }
+  ]
+}

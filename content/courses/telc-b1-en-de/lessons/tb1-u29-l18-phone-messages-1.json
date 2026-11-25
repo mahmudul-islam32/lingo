@@ -1,0 +1,288 @@
+{
+  "id": "tb1-u29-l18-phone-messages-1",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u29",
+  "title": "Phone & Messages 1",
+  "tip": "Theme: Redemittel: Telefon & Nachricht (B1)",
+  "exercises": [
+    {
+      "id": "tb1-u29-l18-phone-messages-1-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "Guten Tag, hier spricht …",
+          "known": "Hello, this is … speaking."
+        },
+        {
+          "id": "p2",
+          "learning": "Kann ich bitte mit Frau Müller sprechen?",
+          "known": "May I speak to Ms Müller, please?"
+        },
+        {
+          "id": "p3",
+          "learning": "Am Apparat",
+          "known": "Speaking. (on the phone)"
+        },
+        {
+          "id": "p4",
+          "learning": "Worum geht es denn?",
+          "known": "What is it about?"
+        },
+        {
+          "id": "p5",
+          "learning": "Kann ich eine Nachricht hinterlassen?",
+          "known": "Can I leave a message?"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u29-l18-phone-messages-1-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which phrase means „Hello, this is … speaking.“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Guten Tag, hier spricht …"
+        },
+        {
+          "id": "b",
+          "text": "Könnten Sie mich bitte zurückrufen?"
+        },
+        {
+          "id": "c",
+          "text": "Kann ich eine Nachricht hinterlassen?"
+        },
+        {
+          "id": "d",
+          "text": "Am Apparat."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Guten Tag, hier spricht …** = Hello, this is … speaking.\n\n*Example:* Guten Tag, hier spricht Ali Yilmaz. Ich rufe wegen der Wohnung an.\nHello, this is Ali Yilmaz speaking. I'm calling about the flat."
+    },
+    {
+      "id": "tb1-u29-l18-phone-messages-1-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which phrase means „May I speak to Ms Müller, please?“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ich verbinde Sie."
+        },
+        {
+          "id": "b",
+          "text": "Kann ich eine Nachricht hinterlassen?"
+        },
+        {
+          "id": "c",
+          "text": "Ich rufe später noch einmal an."
+        },
+        {
+          "id": "d",
+          "text": "Kann ich bitte mit Frau Müller sprechen?"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**Kann ich bitte mit Frau Müller sprechen?** = May I speak to Ms Müller, please?\n\n*Example:* Guten Morgen, kann ich bitte mit Frau Müller sprechen?\nGood morning, may I speak to Ms Müller, please?"
+    },
+    {
+      "id": "tb1-u29-l18-phone-messages-1-ex04",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u29-l18-phone-messages-1-1.mp3"
+      },
+      "tiles": [
+        "Rechnung",
+        "Ali",
+        "an",
+        "Tag",
+        "hier",
+        "Wohnung",
+        "rufe",
+        "Moment",
+        "spricht",
+        "Yilmaz",
+        "der",
+        "Vielen",
+        "wegen",
+        "Guten",
+        "Ich"
+      ],
+      "answers": [
+        "Guten Tag, hier spricht Ali Yilmaz. Ich rufe wegen der Wohnung an."
+      ],
+      "explanation": "Guten Tag, hier spricht Ali Yilmaz. Ich rufe wegen der Wohnung an.\n*Hello, this is Ali Yilmaz speaking. I'm calling about the flat.*\n\n**Guten Tag, hier spricht …** = Hello, this is … speaking."
+    },
+    {
+      "id": "tb1-u29-l18-phone-messages-1-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which phrase means „Speaking. (on the phone)“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Am Apparat."
+        },
+        {
+          "id": "b",
+          "text": "Ich rufe später noch einmal an."
+        },
+        {
+          "id": "c",
+          "text": "Kann ich eine Nachricht hinterlassen?"
+        },
+        {
+          "id": "d",
+          "text": "Könnten Sie mich bitte zurückrufen?"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Am Apparat.** = Speaking. (on the phone)\n\n*Example:* „Ist Herr Becker da?“ – „Am Apparat.“\n\"Is Mr Becker there?\" – \"Speaking.\""
+    },
+    {
+      "id": "tb1-u29-l18-phone-messages-1-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Guten Morgen, kann ich bitte mit Frau Müller sprechen?",
+      "tiles": [
+        "to",
+        "I",
+        "Müller",
+        "may",
+        "I'll",
+        "flat",
+        "Good",
+        "please",
+        "at",
+        "morning",
+        "Ms",
+        "speak"
+      ],
+      "answers": [
+        "Good morning, may I speak to Ms Müller, please?"
+      ],
+      "explanation": "**Kann ich bitte mit Frau Müller sprechen?** = May I speak to Ms Müller, please?"
+    },
+    {
+      "id": "tb1-u29-l18-phone-messages-1-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which phrase means „What is it about?“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Kann ich bitte mit Frau Müller sprechen?"
+        },
+        {
+          "id": "b",
+          "text": "Kann ich eine Nachricht hinterlassen?"
+        },
+        {
+          "id": "c",
+          "text": "Worum geht es denn?"
+        },
+        {
+          "id": "d",
+          "text": "Ich verbinde Sie."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**Worum geht es denn?** = What is it about?\n\n*Example:* „Ich möchte mit dem Chef sprechen.“ – „Worum geht es denn?“\n\"I'd like to speak to the boss.\" – \"What is it about?\""
+    },
+    {
+      "id": "tb1-u29-l18-phone-messages-1-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "\"Is Mr Becker there?\" – \"Speaking.\"",
+      "tiles": [
+        "Am",
+        "Herr",
+        "Nachricht",
+        "Apparat",
+        "Becker",
+        "Ist",
+        "da",
+        "es",
+        "Guten"
+      ],
+      "answers": [
+        "„Ist Herr Becker da?“ – „Am Apparat.“"
+      ],
+      "explanation": "**Am Apparat.** = Speaking. (on the phone)"
+    },
+    {
+      "id": "tb1-u29-l18-phone-messages-1-ex09",
+      "type": "multiple_choice",
+      "prompt": "Which phrase means „Can I leave a message?“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Kann ich eine Nachricht hinterlassen?"
+        },
+        {
+          "id": "b",
+          "text": "Guten Tag, hier spricht …"
+        },
+        {
+          "id": "c",
+          "text": "Ich verbinde Sie."
+        },
+        {
+          "id": "d",
+          "text": "Auf Wiederhören!"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Kann ich eine Nachricht hinterlassen?** = Can I leave a message?\n\n*Example:* Frau Schmidt ist nicht da? Kann ich eine Nachricht hinterlassen?\nMs Schmidt isn't in? Can I leave a message?"
+    },
+    {
+      "id": "tb1-u29-l18-phone-messages-1-ex10",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u29-l18-phone-messages-1-4.mp3"
+      },
+      "tiles": [
+        "möchte",
+        "sprechen",
+        "Chef",
+        "es",
+        "Worum",
+        "geht",
+        "Dank",
+        "mit",
+        "dem",
+        "Ich",
+        "Sie",
+        "denn",
+        "zu"
+      ],
+      "answers": [
+        "„Ich möchte mit dem Chef sprechen.“ – „Worum geht es denn?“"
+      ],
+      "explanation": "„Ich möchte mit dem Chef sprechen.“ – „Worum geht es denn?“\n*\"I'd like to speak to the boss.\" – \"What is it about?\"*\n\n**Worum geht es denn?** = What is it about?"
+    },
+    {
+      "id": "tb1-u29-l18-phone-messages-1-ex11",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Frau Schmidt ist nicht da? Kann ich eine Nachricht hinterlassen?",
+      "tiles": [
+        "call",
+        "your",
+        "it",
+        "Can",
+        "a",
+        "in",
+        "I",
+        "isn't",
+        "Schmidt",
+        "leave",
+        "Ms",
+        "message"
+      ],
+      "answers": [
+        "Ms Schmidt isn't in? Can I leave a message?"
+      ],
+      "explanation": "**Kann ich eine Nachricht hinterlassen?** = Can I leave a message?"
+    }
+  ]
+}

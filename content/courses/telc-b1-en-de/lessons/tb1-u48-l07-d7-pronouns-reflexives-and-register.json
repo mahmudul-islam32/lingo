@@ -1,0 +1,225 @@
+{
+  "id": "tb1-u48-l07-d7-pronouns-reflexives-and-register",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u48",
+  "title": "Pronouns, reflexives and register (Pronomen, Reflexive und Register)",
+  "tip": "Gap type: Pronomen · Register.",
+  "exercises": [
+    {
+      "id": "tb1-u48-l07-d7-pronouns-reflexives-and-register-ex01",
+      "type": "explain",
+      "title": "Pronouns, reflexives and register",
+      "body": "**The case comes from the verb.** These verbs force the person into the **dative**: helfen, danken, gefallen, gehören, passen, schmecken, antworten, gratulieren, vertrauen, wehtun. The giving/telling verbs take **dative (person) + accusative (thing)**: geben, schenken, schicken, zeigen, erklären, empfehlen, mitteilen.\n\n**Reflexive: mich or mir?** Normally accusative (Ich wasche mich). **But if the sentence has another accusative object, the reflexive switches to dative**: Ich wasche **mir** die Hände. Only mich→mir and dich→dir change visibly.\n\n**Register, the most valuable detail in the whole subtest:** before you tick any pronoun, **look at the salutation**. „Liebe Karin“ → the whole letter runs on du/dir/dich. „Sehr geehrte Frau …“ → Sie/Ihnen/Ihr, always capitalised. In Übungstest 1 that was item 30, 1.5 free points if you check.\n\n## Auf Deutsch: Pronomen, Reflexive und Register\n\n**Der Kasus kommt vom Verb.** Diese Verben zwingen die Person in den **Dativ**: helfen, danken, gefallen, gehören, passen, schmecken, antworten, gratulieren, vertrauen, wehtun. Die Geb- und Sag-Verben nehmen **Dativ (Person) + Akkusativ (Sache)**: geben, schenken, schicken, zeigen, erklären, empfehlen, mitteilen.\n\n**Reflexiv: mich oder mir?** Normal steht der Akkusativ (Ich wasche mich). **Steht aber ein zweites Akkusativobjekt im Satz, wechselt das Reflexivpronomen in den Dativ**: Ich wasche **mir** die Hände. Hast du **dir** eine Wohnung gesucht? Sichtbar ändern sich nur mich→mir und dich→dir.\n\n**Register, das wertvollste Detail des ganzen Untertests:** Bevor du irgendein Pronomen ankreuzt, **schau auf die Anrede**. „Liebe Karin“ → der ganze Brief läuft auf du/dir/dich. „Sehr geehrte Frau …“ → Sie/Ihnen/Ihr, immer groß. Im Übungstest 1 war das Item 30, 1,5 geschenkte Punkte, wenn man hinschaut."
+    },
+    {
+      "id": "tb1-u48-l07-d7-pronouns-reflexives-and-register-ex02",
+      "type": "choice",
+      "prompt": "Gefällt ___ das neue Handy? Ja, sehr!",
+      "options": [
+        {
+          "id": "a",
+          "text": "dich"
+        },
+        {
+          "id": "b",
+          "text": "dir"
+        },
+        {
+          "id": "c",
+          "text": "du"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Answer: dir** · Pronomen · Register\n\n„gefallen“ is a dative verb.\n\n*Auf Deutsch:* „gefallen“ ist ein Dativverb."
+    },
+    {
+      "id": "tb1-u48-l07-d7-pronouns-reflexives-and-register-ex03",
+      "type": "choice",
+      "prompt": "Ich habe ___ gestern im Supermarkt gesehen.",
+      "options": [
+        {
+          "id": "a",
+          "text": "dich"
+        },
+        {
+          "id": "b",
+          "text": "dir"
+        },
+        {
+          "id": "c",
+          "text": "du"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Answer: dich** · Pronomen · Register\n\n„sehen“ + accusative.\n\n*Auf Deutsch:* „sehen“ + Akkusativ."
+    },
+    {
+      "id": "tb1-u48-l07-d7-pronouns-reflexives-and-register-ex04",
+      "type": "choice",
+      "prompt": "Wäschst du ___ vor dem Essen die Hände?",
+      "options": [
+        {
+          "id": "a",
+          "text": "dich"
+        },
+        {
+          "id": "b",
+          "text": "sich"
+        },
+        {
+          "id": "c",
+          "text": "dir"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**Answer: dir** · Pronomen · Register\n\n„die Hände“ is already the accusative object → the reflexive goes dative.\n\n*Auf Deutsch:* „die Hände“ ist schon das Akkusativobjekt → Reflexivpronomen in den Dativ."
+    },
+    {
+      "id": "tb1-u48-l07-d7-pronouns-reflexives-and-register-ex05",
+      "type": "choice",
+      "prompt": "Er hat ___ noch nicht entschieden.",
+      "options": [
+        {
+          "id": "a",
+          "text": "sich"
+        },
+        {
+          "id": "b",
+          "text": "ihm"
+        },
+        {
+          "id": "c",
+          "text": "ihn"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Answer: sich** · Pronomen · Register\n\nsich entscheiden, reflexive with er → sich.\n\n*Auf Deutsch:* sich entscheiden, reflexiv bei er → sich."
+    },
+    {
+      "id": "tb1-u48-l07-d7-pronouns-reflexives-and-register-ex06",
+      "type": "choice",
+      "prompt": "Wir treffen ___ um sieben vor dem Kino.",
+      "options": [
+        {
+          "id": "a",
+          "text": "sich"
+        },
+        {
+          "id": "b",
+          "text": "uns"
+        },
+        {
+          "id": "c",
+          "text": "euch"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Answer: uns** · Pronomen · Register\n\nSubject „wir“ → uns. „sich“ only for er/sie/es/Sie/plural sie.\n\n*Auf Deutsch:* Subjekt „wir“ → uns. „sich“ nur bei er/sie/es/Sie/sie-Plural."
+    },
+    {
+      "id": "tb1-u48-l07-d7-pronouns-reflexives-and-register-ex07",
+      "type": "choice",
+      "prompt": "Sehr geehrter Herr Braun, ich danke ___ für Ihre schnelle Antwort.",
+      "options": [
+        {
+          "id": "a",
+          "text": "dir"
+        },
+        {
+          "id": "b",
+          "text": "euch"
+        },
+        {
+          "id": "c",
+          "text": "Ihnen"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**Answer: Ihnen** · Pronomen · Register\n\nThe salutation is „Sehr geehrter“ → Sie register; „danken“ + dative → Ihnen.\n\n*Auf Deutsch:* Die Anrede ist „Sehr geehrter“ → Sie-Register; „danken“ + Dativ → Ihnen."
+    },
+    {
+      "id": "tb1-u48-l07-d7-pronouns-reflexives-and-register-ex08",
+      "type": "choice",
+      "prompt": "Hast du ___ schon eine Wohnung in Berlin gesucht?",
+      "options": [
+        {
+          "id": "a",
+          "text": "dir"
+        },
+        {
+          "id": "b",
+          "text": "dich"
+        },
+        {
+          "id": "c",
+          "text": "du"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Answer: dir** · Pronomen · Register\n\n„eine Wohnung“ is the accusative object → dative reflexive (sich etwas suchen).\n\n*Auf Deutsch:* „eine Wohnung“ ist das Akkusativobjekt → Dativ-Reflexiv (sich etwas suchen)."
+    },
+    {
+      "id": "tb1-u48-l07-d7-pronouns-reflexives-and-register-ex09",
+      "type": "choice",
+      "prompt": "Kennt ihr ___ schon? Das ist Meryem.",
+      "options": [
+        {
+          "id": "a",
+          "text": "ihr"
+        },
+        {
+          "id": "b",
+          "text": "sie"
+        },
+        {
+          "id": "c",
+          "text": "ihnen"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Answer: sie** · Pronomen · Register\n\n„kennen“ + accusative; introducing a person → sie.\n\n*Auf Deutsch:* „kennen“ + Akkusativ; eine Person vorstellen → sie."
+    },
+    {
+      "id": "tb1-u48-l07-d7-pronouns-reflexives-and-register-ex10",
+      "type": "choice",
+      "prompt": "Das ist nicht mein Schlüssel, es ist ___ .",
+      "options": [
+        {
+          "id": "a",
+          "text": "deinen"
+        },
+        {
+          "id": "b",
+          "text": "dein"
+        },
+        {
+          "id": "c",
+          "text": "deiner"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**Answer: deiner** · Pronomen · Register\n\nStandalone possessive pronoun, masculine nominative (der Schlüssel) → deiner.\n\n*Auf Deutsch:* Alleinstehendes Possessivpronomen, maskulin Nominativ (der Schlüssel) → deiner."
+    },
+    {
+      "id": "tb1-u48-l07-d7-pronouns-reflexives-and-register-ex11",
+      "type": "choice",
+      "prompt": "Der Lehrer hilft ___ bei den Hausaufgaben.",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Schüler"
+        },
+        {
+          "id": "b",
+          "text": "den Schülern"
+        },
+        {
+          "id": "c",
+          "text": "der Schüler"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Answer: den Schülern** · Pronomen · Register\n\n„helfen“ + dative; in the dative plural the noun adds -n.\n\n*Auf Deutsch:* „helfen“ + Dativ; im Dativ Plural bekommt das Nomen ein -n."
+    }
+  ]
+}

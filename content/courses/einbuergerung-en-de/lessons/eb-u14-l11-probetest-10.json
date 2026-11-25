@@ -1,0 +1,867 @@
+{
+  "id": "eb-u14-l11-probetest-10",
+  "courseId": "einbuergerung-en-de",
+  "unitId": "eb-u14",
+  "title": "Mock test 10 (Probetest 10)",
+  "tip": "Real format: 30 general + 3 Niedersachsen questions. Allow 60 minutes; 17 correct to pass, aim for 28+.",
+  "exercises": [
+    {
+      "id": "eb-u14-l11-probetest-10-ex01",
+      "type": "choice",
+      "title": "Frage 6 · Block 1",
+      "prompt": "Wie heißt die deutsche Verfassung?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Volksgesetz"
+        },
+        {
+          "id": "b",
+          "text": "Bundesgesetz"
+        },
+        {
+          "id": "c",
+          "text": "Deutsches Gesetz"
+        },
+        {
+          "id": "d",
+          "text": "Grundgesetz"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**Correct answer:** Grundgesetz\n\nAdopted in 1949, deliberately named **Grundgesetz** (\"Basic Law\") rather than *Verfassung* because West Germany saw itself as provisional until reunification, yet it proved so successful that reunified Germany kept it in 1990.\n\nA–C are invented terms; a *Bundesgesetz* is just any ordinary federal statute, which ranks *below* the Grundgesetz. →Q11 asks the same fact in reverse, guaranteed easy point, learn it cold.\n\n## Auf Deutsch\n\nDie deutsche Verfassung von 1949 heißt Grundgesetz."
+    },
+    {
+      "id": "eb-u14-l11-probetest-10-ex02",
+      "type": "choice",
+      "title": "Frage 13 · Block 1",
+      "prompt": "Im Parlament steht der Begriff „Opposition\" für …",
+      "options": [
+        {
+          "id": "a",
+          "text": "die regierenden Parteien"
+        },
+        {
+          "id": "b",
+          "text": "alle Abgeordneten, die nicht zu der Regierungspartei/den Regierungsparteien gehören"
+        },
+        {
+          "id": "c",
+          "text": "die Fraktion mit den meisten Abgeordneten"
+        },
+        {
+          "id": "d",
+          "text": "alle Parteien, die bei der letzten Wahl die 5%-Hürde erreichen konnten"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Correct answer:** alle Abgeordneten, die nicht zu der Regierungspartei/den Regierungsparteien gehören\n\nThe opposition = every MP outside the governing coalition. Its constitutional job: scrutinize, criticize, and offer the alternative government-in-waiting (→Q88).\n\nA is the definition's opposite. C fails because the largest Fraktion is usually *in* government, but needn't be (in 2021–25 the largest group, CDU/CSU, sat in opposition; since 2025 the second-largest does ⏰). D includes governing parties, so it can't define the opposition.\n\n## Auf Deutsch\n\nOpposition = alle Abgeordneten, die nicht zur Regierung gehören; sie kontrolliert die Regierung."
+    },
+    {
+      "id": "eb-u14-l11-probetest-10-ex03",
+      "type": "choice",
+      "title": "Frage 14 · Block 1",
+      "prompt": "Meinungsfreiheit in Deutschland heißt zum Beispiel, dass ich …",
+      "options": [
+        {
+          "id": "a",
+          "text": "auf der Straße Passanten beschimpfen darf"
+        },
+        {
+          "id": "b",
+          "text": "meine Meinung in Leserbriefen oder im Internet äußern kann"
+        },
+        {
+          "id": "c",
+          "text": "Nazi-, Hamas- oder IS-Symbole öffentlich tragen darf"
+        },
+        {
+          "id": "d",
+          "text": "meine Meinung nur äußern darf, solange ich der Regierung nicht widerspreche"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Correct answer:** meine Meinung in Leserbriefen oder im Internet äußern kann\n\nFree expression covers publishing your views, letters to the editor, social media, blogs.\n\nA: insulting people is **Beleidigung** (§185 StGB), a crime, rights end where they injure others. C: symbols of unconstitutional or banned terrorist organizations (swastika, and since the 2024 catalog update explicitly Hamas/IS emblems) are criminally prohibited (§86a StGB), *wehrhafte Demokratie* again. D inverts the whole point: contradicting the government is precisely what Art. 5 protects (→Q1). **Pattern worth learning:** opinions about *ideas, institutions, religions, governments* = protected; attacks on *individual people* or *banned-organization propaganda* = not.\n\n## Auf Deutsch\n\nMeinungsfreiheit: Meinung äußern ja. Beleidigungen und verbotene Symbole nein."
+    },
+    {
+      "id": "eb-u14-l11-probetest-10-ex04",
+      "type": "choice",
+      "title": "Frage 16 · Block 1",
+      "prompt": "Wann ist die Meinungsfreiheit in Deutschland eingeschränkt?",
+      "options": [
+        {
+          "id": "a",
+          "text": "bei der öffentlichen Verbreitung falscher Behauptungen über einzelne Personen"
+        },
+        {
+          "id": "b",
+          "text": "bei Meinungsäußerungen über die Bundesregierung"
+        },
+        {
+          "id": "c",
+          "text": "bei Diskussionen über Religionen"
+        },
+        {
+          "id": "d",
+          "text": "bei Kritik am Staat"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Correct answer:** bei der öffentlichen Verbreitung falscher Behauptungen über einzelne Personen\n\nThe classic limit: **üble Nachrede / Verleumdung** (defamation), spreading false factual claims about a person. Opinions are free; false *facts* that destroy reputations are not.\n\nB, C, D all describe protected speech, government, state, and religion may be criticized sharply. Same pattern as Q14: individuals are protected from you; institutions are not protected from your criticism.\n\n## Auf Deutsch\n\nGrenze der Meinungsfreiheit: falsche Behauptungen über Personen sind nicht geschützt."
+    },
+    {
+      "id": "eb-u14-l11-probetest-10-ex05",
+      "type": "choice",
+      "title": "Frage 26 · Block 1",
+      "prompt": "Deutschland ist …",
+      "options": [
+        {
+          "id": "a",
+          "text": "eine kommunistische Republik"
+        },
+        {
+          "id": "b",
+          "text": "ein demokratischer und sozialer Bundesstaat"
+        },
+        {
+          "id": "c",
+          "text": "eine kapitalistische und soziale Monarchie"
+        },
+        {
+          "id": "d",
+          "text": "ein sozialer und sozialistischer Bundesstaat"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Correct answer:** ein demokratischer und sozialer Bundesstaat\n\nQuoting Art. 20(1) GG verbatim: *\"Die Bundesrepublik Deutschland ist ein demokratischer und sozialer Bundesstaat.\"* Three loaded words: **demokratisch** (power from the people), **sozial** (welfare state duty), **Bundesstaat** (federal, power shared with the Länder). All three are eternity-clause protected.\n\n\"kommunistisch\"/\"sozialistisch\" describe the DDR's system, not the Federal Republic's; \"Monarchie\" died in 1918. Distinguish **sozial** (welfare safety net within a market economy) from **sozialistisch** (state-owned planned economy), the test loves this distinction (→Q50, Q171, Q203).\n\n## Auf Deutsch\n\nGrundgesetz Artikel 20: Deutschland ist ein „demokratischer und sozialer Bundesstaat“."
+    },
+    {
+      "id": "eb-u14-l11-probetest-10-ex06",
+      "type": "choice",
+      "title": "Frage 45 · Block 2",
+      "prompt": "Zu welcher Versicherung gehört die Pflegeversicherung?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Sozialversicherung"
+        },
+        {
+          "id": "b",
+          "text": "Unfallversicherung"
+        },
+        {
+          "id": "c",
+          "text": "Hausratversicherung"
+        },
+        {
+          "id": "d",
+          "text": "Haftpflicht- und Feuerversicherung"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Correct answer:** Sozialversicherung\n\n**Pflegeversicherung** (long-term care insurance, added 1995) is the youngest of the five social-insurance pillars (→Q36).\n\nB is itself another pillar, a sibling, not the parent category; C and D are private property insurances. Category question: Pflege ∈ Sozialversicherung.\n\n## Auf Deutsch\n\nDie Pflegeversicherung ist ein Zweig der gesetzlichen Sozialversicherung."
+    },
+    {
+      "id": "eb-u14-l11-probetest-10-ex07",
+      "type": "choice",
+      "title": "Frage 53 · Block 2",
+      "prompt": "Was bedeutet „Rechtsstaat\" in Deutschland?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Der Staat hat Recht"
+        },
+        {
+          "id": "b",
+          "text": "Es gibt nur rechte Parteien"
+        },
+        {
+          "id": "c",
+          "text": "Die Bürger und Bürgerinnen entscheiden über Gesetze"
+        },
+        {
+          "id": "d",
+          "text": "Der Staat muss die Gesetze einhalten"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**Correct answer:** Der Staat muss die Gesetze einhalten\n\n→Q3, retested with sneakier distractors.\n\nA is a pun, \"the state is always right\" is the *opposite* of Rechtsstaat (the state can be wrong and be sued). B puns on \"rechts\" (right-wing) vs \"Recht\" (law), pure wordplay. C describes direct democracy/plebiscites, a different concept (federal Germany legislates through representatives).\n\n## Auf Deutsch\n\nRechtsstaat: Der Staat muss seine eigenen Gesetze einhalten."
+    },
+    {
+      "id": "eb-u14-l11-probetest-10-ex08",
+      "type": "choice",
+      "title": "Frage 58 · Block 2",
+      "prompt": "Wer ernennt in Deutschland die Minister/Ministerinnen der Bundesregierung?",
+      "options": [
+        {
+          "id": "a",
+          "text": "der Präsident/die Präsidentin des Bundesverfassungsgerichtes"
+        },
+        {
+          "id": "b",
+          "text": "der Bundespräsident/die Bundespräsidentin"
+        },
+        {
+          "id": "c",
+          "text": "der Bundesratspräsident/die Bundesratspräsidentin"
+        },
+        {
+          "id": "d",
+          "text": "der Bundestagspräsident/die Bundestagspräsidentin"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Correct answer:** der Bundespräsident/die Bundespräsidentin\n\nFederal ministers are formally **appointed by the Bundespräsident**, but only *on the Chancellor's proposal* (Art. 64 GG). The president signs; the Chancellor chooses. That division, ceremonial dignity vs. political power, is THE recurring Bundespräsident theme (→Q70, Q84, Q87).\n\nThe court president judges, the Bundesrat president chairs the Länder chamber, the Bundestag president chairs parliament, none appoints ministers.\n\n## Auf Deutsch\n\nDie Bundesminister ernennt der Bundespräsident, auf Vorschlag des Kanzlers."
+    },
+    {
+      "id": "eb-u14-l11-probetest-10-ex09",
+      "type": "choice",
+      "title": "Frage 65 · Block 3",
+      "prompt": "Es gehört nicht zu den Aufgaben des Deutschen Bundestages, …",
+      "options": [
+        {
+          "id": "a",
+          "text": "Gesetze zu entwerfen"
+        },
+        {
+          "id": "b",
+          "text": "die Bundesregierung zu kontrollieren"
+        },
+        {
+          "id": "c",
+          "text": "den Bundeskanzler/die Bundeskanzlerin zu wählen"
+        },
+        {
+          "id": "d",
+          "text": "das Bundeskabinett zu bilden"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**Correct answer:** das Bundeskabinett zu bilden\n\nThe Bundestag elects the *Chancellor*, but the **cabinet is formed by the Chancellor** (ministers proposed by them, appointed by the president →Q58). Parliament hires the head chef, not the kitchen staff.\n\nDrafting laws, controlling government (question time, committees of inquiry), electing the Chancellor, all core Bundestag functions.\n\n## Auf Deutsch\n\nDas Bundeskabinett bildet der Kanzler, nicht der Bundestag."
+    },
+    {
+      "id": "eb-u14-l11-probetest-10-ex10",
+      "type": "choice",
+      "title": "Frage 69 · Block 3",
+      "prompt": "Die Bundesrepublik Deutschland hat einen dreistufigen Verwaltungsaufbau. Wie heißt die unterste politische Stufe?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Stadträte"
+        },
+        {
+          "id": "b",
+          "text": "Landräte"
+        },
+        {
+          "id": "c",
+          "text": "Gemeinden"
+        },
+        {
+          "id": "d",
+          "text": "Bezirksämter"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**Correct answer:** Gemeinden\n\nBund → Länder → **Gemeinden** (municipalities). Kommunale Selbstverwaltung (Art. 28 GG): local self-government over local matters. Kitas, waste, local roads, your Bürgerdienste.\n\nStadträte are councils *within* a Gemeinde; a Landrat heads a *Kreis* (district, an intermediate bundle of Gemeinden); Bezirksämter are city sub-offices. The tier is the Gemeinde itself, not its organs.\n\n## Auf Deutsch\n\nDie unterste Stufe der Verwaltung sind die Gemeinden."
+    },
+    {
+      "id": "eb-u14-l11-probetest-10-ex11",
+      "type": "choice",
+      "title": "Frage 78 · Block 3",
+      "prompt": "Was bedeutet die Abkürzung SPD?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Sozialistische Partei Deutschlands"
+        },
+        {
+          "id": "b",
+          "text": "Sozialpolitische Partei Deutschlands"
+        },
+        {
+          "id": "c",
+          "text": "Sozialdemokratische Partei Deutschlands"
+        },
+        {
+          "id": "d",
+          "text": "Sozialgerechte Partei Deutschlands"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**Correct answer:** Sozialdemokratische Partei Deutschlands\n\n**S**ozial**d**emokratische **P**artei **D**eutschlands. Germany's oldest party (roots 1863), the party the Nazis banned and whose MPs cast the only votes against Hitler's Enabling Act in 1933 (worth knowing for the history block).\n\n## Auf Deutsch\n\nSPD = Sozialdemokratische Partei Deutschlands."
+    },
+    {
+      "id": "eb-u14-l11-probetest-10-ex12",
+      "type": "choice",
+      "title": "Frage 103 · Block 5",
+      "prompt": "Was wird in Deutschland als „Ampelkoalition\" bezeichnet? Die Zusammenarbeit …",
+      "options": [
+        {
+          "id": "a",
+          "text": "von CDU und CSU"
+        },
+        {
+          "id": "b",
+          "text": "von SPD, FDP und Bündnis 90/Die Grünen in einer Regierung"
+        },
+        {
+          "id": "c",
+          "text": "von CSU, Die Linke und Bündnis 90/Die Grünen"
+        },
+        {
+          "id": "d",
+          "text": "von CDU und SPD"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Correct answer:** von SPD, FDP und Bündnis 90/Die Grünen in einer Regierung\n\nParty colors as traffic light (**Ampel**): SPD red, FDP yellow, Grüne green, the coalition that actually governed 2021–2025 under Scholz.\n\nA is \"die Union\" (not a coalition of different parties in the usual sense); D is a **Große Koalition**; C is fantasy. Coalition nicknames worth knowing: Ampel, GroKo, Jamaika (black-yellow-green), Kenia (black-red-green).\n\n## Auf Deutsch\n\nAmpelkoalition = SPD (Rot) + FDP (Gelb) + Grüne."
+    },
+    {
+      "id": "eb-u14-l11-probetest-10-ex13",
+      "type": "choice",
+      "title": "Frage 118 · Block 5",
+      "prompt": "Wer darf bei den etwa 40 jüdischen Makkabi-Sportvereinen in Deutschland Mitglied werden?",
+      "options": [
+        {
+          "id": "a",
+          "text": "nur Deutsche"
+        },
+        {
+          "id": "b",
+          "text": "nur Israelis"
+        },
+        {
+          "id": "c",
+          "text": "nur religiöse Menschen"
+        },
+        {
+          "id": "d",
+          "text": "alle Menschen"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**Correct answer:** alle Menschen\n\n**Makkabi** clubs. Jewish sports associations, refounded after the Shoah, are open to *everyone*; most members in some clubs aren't Jewish. The question's double message: Jewish life is part of everyday German civil society (→Q59), and Vereine, the classic German institution, are open communities, not closed ethnic boxes.\n\n## Auf Deutsch\n\nBei den jüdischen Makkabi-Sportvereinen dürfen alle Menschen Mitglied werden."
+    },
+    {
+      "id": "eb-u14-l11-probetest-10-ex14",
+      "type": "choice",
+      "title": "Frage 135 · Block 5",
+      "prompt": "Wen vertreten die Gewerkschaften in Deutschland?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Arbeitgeber und Arbeitgeberinnen"
+        },
+        {
+          "id": "b",
+          "text": "die Arbeitnehmer und Arbeitnehmerinnen"
+        },
+        {
+          "id": "c",
+          "text": "die Selbstständigen"
+        },
+        {
+          "id": "d",
+          "text": "die Rentner und Rentnerinnen"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Correct answer:** die Arbeitnehmer und Arbeitnehmerinnen\n\n→Q101, verbatim retest. When you sign your AI-engineer contract, joining IG Metall or ver.di becomes your call, and knowing unions negotiated the Tarifvertrag behind many German salaries explains a lot about the labor market you're entering.\n\n## Auf Deutsch\n\nDie Gewerkschaften vertreten die Arbeitnehmerinnen und Arbeitnehmer."
+    },
+    {
+      "id": "eb-u14-l11-probetest-10-ex15",
+      "type": "choice",
+      "title": "Frage 137 · Block 6",
+      "prompt": "Frau Frost hat von ihrem Arbeitgeber die Kündigung erhalten und hält sie für ungerechtfertigt. Wohin kann sie gehen?",
+      "options": [
+        {
+          "id": "a",
+          "text": "zum Amtsgericht"
+        },
+        {
+          "id": "b",
+          "text": "zum Arbeitsgericht"
+        },
+        {
+          "id": "c",
+          "text": "zum Familiengericht"
+        },
+        {
+          "id": "d",
+          "text": "zum Verwaltungsgericht"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Correct answer:** zum Arbeitsgericht\n\n→Q136 as a mini-story. Note the system's employee-friendliness: in first-instance labor court you need no lawyer and pay no court fee advance, designed so a fired worker can actually afford to fight. Deadline: **3 weeks** from receiving the Kündigung (→Q138).\n\n## Auf Deutsch\n\nGegen eine ungerechte Kündigung klagt man beim Arbeitsgericht."
+    },
+    {
+      "id": "eb-u14-l11-probetest-10-ex16",
+      "type": "choice",
+      "title": "Frage 147 · Block 6",
+      "prompt": "Wer spricht in Deutschland Recht, wer fällt die Urteile an den Gerichten?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Richter und Richterinnen"
+        },
+        {
+          "id": "b",
+          "text": "die Polizei"
+        },
+        {
+          "id": "c",
+          "text": "die Staatsanwaltschaft"
+        },
+        {
+          "id": "d",
+          "text": "die Regierung"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Correct answer:** die Richter und Richterinnen\n\nThird pass on the judge's monopoly (→Q142, Q144): only courts judge. The prosecution *requests* a sentence, police *deliver* suspects, government *watches*, and if government dislikes a verdict, it must live with it or change the law prospectively. That last sentence is interview gold.\n\n## Auf Deutsch\n\nDie Urteile fällen die Richterinnen und Richter."
+    },
+    {
+      "id": "eb-u14-l11-probetest-10-ex17",
+      "type": "choice",
+      "title": "Frage 150 · Block 6",
+      "prompt": "In Deutschland können Bürger und Bürgerinnen als ehrenamtliche Richter/Richterinnen an Strafprozessen teilnehmen. Wie heißen sie?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Schöffen/Schöffinnen"
+        },
+        {
+          "id": "b",
+          "text": "Staatsanwälte/Staatsanwältinnen"
+        },
+        {
+          "id": "c",
+          "text": "Notare/Notarinnen"
+        },
+        {
+          "id": "d",
+          "text": "Rechtspfleger/Rechtspflegerinnen"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Correct answer:** Schöffen/Schöffinnen\n\n→Q140's twin from the other direction (role→name). Schöffe = **ehrenamtlicher Richter**, the phrase links this to Q132's Ehrenamt concept. Notaries certify documents; Rechtspfleger are court officials; prosecutors charge. As a citizen, you could one day be summoned as a Schöffe, the state trusting naturalized citizens to judge is not the worst thought to carry into your interview.\n\n## Auf Deutsch\n\nEhrenamtliche Richter/innen heißen Schöffen/Schöffinnen."
+    },
+    {
+      "id": "eb-u14-l11-probetest-10-ex18",
+      "type": "choice",
+      "title": "Frage 153 · Block 7",
+      "prompt": "Was war am 8. Mai 1945?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ende des Zweiten Weltkriegs in Europa"
+        },
+        {
+          "id": "b",
+          "text": "Beginn des Baus der Berliner Mauer"
+        },
+        {
+          "id": "c",
+          "text": "Gründung der Bundesrepublik Deutschland"
+        },
+        {
+          "id": "d",
+          "text": "Beginn des Ersten Weltkriegs"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Correct answer:** Ende des Zweiten Weltkriegs in Europa\n\n**08.05.1945**, unconditional German surrender; war over in Europe. Modern Germany calls it **Tag der Befreiung** (day of liberation, from its own regime), following President von Weizsäcker's landmark 1985 speech. That reframing, defeat as liberation, is core Erinnerungskultur and superb interview material.\n\nWall 1961, BRD 1949, WWI 1914, the distractors test whether your dates float or sit fixed.\n\n## Auf Deutsch\n\nDer 8. Mai 1945 ist das Ende des Zweiten Weltkriegs in Europa."
+    },
+    {
+      "id": "eb-u14-l11-probetest-10-ex19",
+      "type": "choice",
+      "title": "Frage 175 · Block 7",
+      "prompt": "Wie viele Besatzungszonen gab es in Deutschland nach dem Zweiten Weltkrieg?",
+      "options": [
+        {
+          "id": "a",
+          "text": "3"
+        },
+        {
+          "id": "b",
+          "text": "4"
+        },
+        {
+          "id": "c",
+          "text": "5"
+        },
+        {
+          "id": "d",
+          "text": "6"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Correct answer:** 4\n\nFour zones for four Allies (→Q167). Rough map: **British northwest** (incl. Niedersachsen), **Soviet east**, **American south**, **French southwest**. Berlin, inside the Soviet zone, was itself quartered (→Q177), the anomaly that produced blockade, airlift, and Wall.\n\n## Auf Deutsch\n\nNach dem Krieg gab es 4 Besatzungszonen."
+    },
+    {
+      "id": "eb-u14-l11-probetest-10-ex20",
+      "type": "choice",
+      "title": "Frage 207 · Block 9",
+      "prompt": "In welchem Militärbündnis war die DDR Mitglied?",
+      "options": [
+        {
+          "id": "a",
+          "text": "in der NATO"
+        },
+        {
+          "id": "b",
+          "text": "im Warschauer Pakt"
+        },
+        {
+          "id": "c",
+          "text": "in der Europäischen Verteidigungsgemeinschaft"
+        },
+        {
+          "id": "d",
+          "text": "in den Vereinten Nationen"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Correct answer:** im Warschauer Pakt\n\n→Q202 retested, military-specific. D is a category error worth noticing: the UN is not a military alliance, and both German states joined it in 1973 (→Q173's nuance).\n\n## Auf Deutsch\n\nDie DDR war Mitglied im Warschauer Pakt."
+    },
+    {
+      "id": "eb-u14-l11-probetest-10-ex21",
+      "type": "choice",
+      "title": "Frage 214 · Block 10",
+      "prompt": "Welche Farben hat die deutsche Flagge?",
+      "options": [
+        {
+          "id": "a",
+          "text": "schwarz-rot-gold"
+        },
+        {
+          "id": "b",
+          "text": "schwarz-rot-grün"
+        },
+        {
+          "id": "c",
+          "text": "rot-weiß-schwarz"
+        },
+        {
+          "id": "d",
+          "text": "schwarz-gelb-rot"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Correct answer:** schwarz-rot-gold\n\n**Schwarz-Rot-Gold**, top to bottom, colors of the 1848 democratic movement, adopted by Weimar, rejected by the Nazis (who restored imperial black-white-red, option C's echo), reclaimed by both 1949 states. The flag itself is a democracy-vs-dictatorship timeline (→Q40's anthem parallel).\n\n## Auf Deutsch\n\nDie deutsche Flagge ist schwarz-rot-gold."
+    },
+    {
+      "id": "eb-u14-l11-probetest-10-ex22",
+      "type": "choice",
+      "title": "Frage 233 · Block 10",
+      "prompt": "Welches Land ist ein Nachbarland von Deutschland?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Tschechien"
+        },
+        {
+          "id": "b",
+          "text": "die Slowakei"
+        },
+        {
+          "id": "c",
+          "text": "Kroatien"
+        },
+        {
+          "id": "d",
+          "text": "Griechenland"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Correct answer:** Tschechien\n\nRound 5, final: **Tschechien** (Czechia), southeastern neighbor along Bavaria and Saxony. Slovakia is one country further (touching Austria, not Germany, the trickiest decoy of the series); Croatia and Greece are Balkan. Series complete, five questions, one memorized ring (→Q222).\n\n## Auf Deutsch\n\nTschechien ist ein Nachbarland (im Osten/Südosten)."
+    },
+    {
+      "id": "eb-u14-l11-probetest-10-ex23",
+      "type": "choice",
+      "title": "Frage 238 · Block 10",
+      "prompt": "An welchen Orten arbeitet das Europäische Parlament?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Straßburg, Luxemburg und Brüssel"
+        },
+        {
+          "id": "b",
+          "text": "Berlin, Paris und Rom"
+        },
+        {
+          "id": "c",
+          "text": "Genf, Den Haag und Wien"
+        },
+        {
+          "id": "d",
+          "text": "Frankfurt, Zürich und London"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Correct answer:** Straßburg, Luxemburg und Brüssel\n\nThe three-city arrangement: **Brüssel** (committees, most sessions), **Straßburg** (twelve plenary weeks/year, treaty-mandated), **Luxemburg** (secretariat). Expensive, much-criticized, politically untouchable (France holds a veto). C lists international-organization cities (UN/ICJ/OSCE); D lists financial centers, note Frankfurt hosts the **ECB**, a different EU institution.\n\n## Auf Deutsch\n\nDas Europäische Parlament arbeitet in Straßburg, Luxemburg und Brüssel."
+    },
+    {
+      "id": "eb-u14-l11-probetest-10-ex24",
+      "type": "choice",
+      "title": "Frage 244 · Block 11",
+      "prompt": "Welchen Schulabschluss braucht man normalerweise, um an einer Universität in Deutschland zu studieren?",
+      "options": [
+        {
+          "id": "a",
+          "text": "das Abitur"
+        },
+        {
+          "id": "b",
+          "text": "den Hauptschulabschluss"
+        },
+        {
+          "id": "c",
+          "text": "die mittlere Reife"
+        },
+        {
+          "id": "d",
+          "text": "ein Diplom"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Correct answer:** das Abitur\n\nThe **Abitur** (after ~12–13 years, \"allgemeine Hochschulreife\") unlocks university. The German ladder: Hauptschulabschluss → mittlerer Schulabschluss/mittlere Reife → (Fach-)Abitur. A Diplom (D) is what universities *award*, not require, circular decoy. Adult second chances →Q257/261.\n\n## Auf Deutsch\n\nFür die Universität braucht man normalerweise das Abitur."
+    },
+    {
+      "id": "eb-u14-l11-probetest-10-ex25",
+      "type": "choice",
+      "title": "Frage 250 · Block 11",
+      "prompt": "Wann haben Menschen in Deutschland die besten Chancen auf einen gut bezahlten Arbeitsplatz? Wenn sie …",
+      "options": [
+        {
+          "id": "a",
+          "text": "gut ausgebildet sind"
+        },
+        {
+          "id": "b",
+          "text": "Mitglied einer Partei sind"
+        },
+        {
+          "id": "c",
+          "text": "die „richtige\" Religion haben"
+        },
+        {
+          "id": "d",
+          "text": "gute Beziehungen zu Behörden haben"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Correct answer:** gut ausgebildet sind\n\nThe merit principle: **Ausbildung/Qualifikation** decides (formally, the AGG outlaws the alternatives in B/C as discrimination →Q262, and party books stopped being career keys when the DDR ended). Your master's degree + AI specialization are this answer in action; the question could be your biography's caption.\n\n## Auf Deutsch\n\nGute Ausbildung = beste Chancen auf gut bezahlte Arbeit."
+    },
+    {
+      "id": "eb-u14-l11-probetest-10-ex26",
+      "type": "choice",
+      "title": "Frage 252 · Block 11",
+      "prompt": "In Deutschland darf man zur gleichen Zeit nur mit einem Partner/einer Partnerin verheiratet sein. Wie viele Ehepartner darf man gleichzeitig haben?",
+      "options": [
+        {
+          "id": "a",
+          "text": "eine Person"
+        },
+        {
+          "id": "b",
+          "text": "zwei Personen"
+        },
+        {
+          "id": "c",
+          "text": "drei Personen"
+        },
+        {
+          "id": "d",
+          "text": "so viele, wie man möchte"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Correct answer:** eine Person\n\n**Monogamie**, one spouse at a time (§1306 BGB; bigamy is criminal, §172 StGB). Foreign polygamous marriages aren't recognized as multiple valid marriages in Germany. Sequential remarriage after divorce/death: unlimited and fine. →Q272 retests as \"which living arrangement is not allowed.\"\n\n## Auf Deutsch\n\nMan darf nur mit EINER Person gleichzeitig verheiratet sein."
+    },
+    {
+      "id": "eb-u14-l11-probetest-10-ex27",
+      "type": "choice",
+      "title": "Frage 274 · Block 12",
+      "prompt": "Sie öffnen absichtlich einen Brief, der an eine andere Person adressiert ist. Was haben Sie nicht beachtet?",
+      "options": [
+        {
+          "id": "a",
+          "text": "das Briefgeheimnis"
+        },
+        {
+          "id": "b",
+          "text": "die Schweigepflicht"
+        },
+        {
+          "id": "c",
+          "text": "die Meinungsfreiheit"
+        },
+        {
+          "id": "d",
+          "text": "das Petitionsrecht"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Correct answer:** das Briefgeheimnis\n\n**Briefgeheimnis** (Art. 10 GG): letters, post, and telecommunications are confidential, binding the state (wiretaps need warrants →Q148, the Stasi contrast →Q208) and punishable between private persons (§202 StGB). Yes: opening your *spouse's* mail is technically covered too.\n\nSchweigepflicht binds professionals (doctors/lawyers); Meinungsfreiheit and Petitionsrecht are your *own* rights, not duties toward others.\n\n## Auf Deutsch\n\nFremde Briefe öffnen verletzt das Briefgeheimnis (Art. 10 GG)."
+    },
+    {
+      "id": "eb-u14-l11-probetest-10-ex28",
+      "type": "choice",
+      "title": "Frage 286 · Block 12",
+      "prompt": "Welche Organisation innerhalb eines Betriebes hilft den Arbeitnehmern und Arbeitnehmerinnen bei Problemen mit dem Arbeitgeber?",
+      "options": [
+        {
+          "id": "a",
+          "text": "der Betriebsrat"
+        },
+        {
+          "id": "b",
+          "text": "das Ordnungsamt"
+        },
+        {
+          "id": "c",
+          "text": "der Staatsanwalt"
+        },
+        {
+          "id": "d",
+          "text": "das Arbeitsgericht"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Correct answer:** der Betriebsrat\n\nThe **Betriebsrat**, works council elected by a company's employees: co-determination (Mitbestimmung) on schedules, dismissals must be heard by it, protection in conflicts. INSIDE the firm, that's the question's keyword (\"innerhalb eines Betriebes\").\n\nArbeitsgericht (D) is the *external* court step (→Q136); prosecutors handle crimes; Ordnungsamt handles noise. Ladder: Betriebsrat → Gewerkschaft (→Q101) → Arbeitsgericht. Check whether your new employer has one, good question for day one.\n\n## Auf Deutsch\n\nDer Betriebsrat vertritt die Arbeitnehmer im Betrieb."
+    },
+    {
+      "id": "eb-u14-l11-probetest-10-ex29",
+      "type": "choice",
+      "title": "Frage 290 · Block 12",
+      "prompt": "Ihr gekauftes neues Fernsehgerät funktioniert nicht. Was können Sie machen?",
+      "options": [
+        {
+          "id": "a",
+          "text": "das Gerät reklamieren"
+        },
+        {
+          "id": "b",
+          "text": "nichts, gekauft ist gekauft"
+        },
+        {
+          "id": "c",
+          "text": "das Gerät wegwerfen und ein neues kaufen"
+        },
+        {
+          "id": "d",
+          "text": "sich beim Ordnungsamt beschweren"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Correct answer:** das Gerät reklamieren\n\n**Reklamieren**, invoke your **Gewährleistung** (statutory warranty, 2 years on new goods): repair or replacement, then price reduction or withdrawal. \"Gekauft ist gekauft\" (B) is folklore, not law; the Ordnungsamt (D) doesn't do consumer disputes (Verbraucherzentrale and Amtsgericht do).\n\n## Auf Deutsch\n\nKaputtes Neugerät: reklamieren (Gewährleistung).\n\n**Vocabulary (Wortschatz):** reklamieren = to lodge a defect claim (false friend: NOT \"to advertise\", that's *werben*)."
+    },
+    {
+      "id": "eb-u14-l11-probetest-10-ex30",
+      "type": "choice",
+      "title": "Frage 291 · Block 12",
+      "prompt": "Warum müssen Sie in Deutschland bei der Steuererklärung angeben, ob Sie zu einer Kirche gehören?",
+      "options": [
+        {
+          "id": "a",
+          "text": "weil es in Deutschland eine Kirchensteuer gibt, die über die Einkommen-/Lohnsteuer erhoben wird"
+        },
+        {
+          "id": "b",
+          "text": "weil alle Einwohner Kirchenmitglieder sein müssen"
+        },
+        {
+          "id": "c",
+          "text": "weil der Staat die Religionen kontrolliert"
+        },
+        {
+          "id": "d",
+          "text": "weil Kirchenmitglieder weniger Steuern zahlen"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Correct answer:** weil es in Deutschland eine Kirchensteuer gibt, die über die Einkommen-/Lohnsteuer erhoben wird\n\nThe **Kirchensteuer**: recognized religious communities may tax their members (8–9% of income tax), and the *state* collects it via payroll, the famous cooperation-within-separation (→Q33). Only members pay; leaving the church (Kirchenaustritt, at the Amtsgericht) ends it. As Muslims you simply enter \"keine Kirchensteuerpflicht\", mosque communities are Vereine funded by donations, not church tax.\n\nMembership is free (B. Religionsfreiheit), the state controls no faith (C), and membership costs rather than saves (D inverted).\n\n## Auf Deutsch\n\nDie Kirchensteuer wird über die Einkommensteuer eingezogen, darum die Angabe."
+    },
+    {
+      "id": "eb-u14-l11-probetest-10-ex31",
+      "type": "choice",
+      "title": "NDS 3 · Landesfrage",
+      "prompt": "Für wie viele Jahre wird der Landtag in Niedersachsen gewählt?",
+      "options": [
+        {
+          "id": "a",
+          "text": "3"
+        },
+        {
+          "id": "b",
+          "text": "4"
+        },
+        {
+          "id": "c",
+          "text": "5"
+        },
+        {
+          "id": "d",
+          "text": "6"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**Correct answer:** 5\n\n**5 years**, one year longer than the Bundestag's 4 (→Q107). That mismatch is the whole trap. The Landtag meets in the Leineschloss in Hannover; it was last elected in 2022, so the next regular Landtagswahl is due in 2027.\n\n## Auf Deutsch\n\nDer Landtag in Niedersachsen wird für 5 Jahre gewählt (Bundestag: nur 4!)."
+    },
+    {
+      "id": "eb-u14-l11-probetest-10-ex32",
+      "type": "choice",
+      "title": "NDS 6 · Landesfrage",
+      "prompt": "Wo können Sie sich in Niedersachsen über politische Themen informieren?",
+      "options": [
+        {
+          "id": "a",
+          "text": "bei der Landeszentrale für politische Bildung"
+        },
+        {
+          "id": "b",
+          "text": "beim Ordnungsamt der Gemeinde"
+        },
+        {
+          "id": "c",
+          "text": "bei der Verbraucherzentrale"
+        },
+        {
+          "id": "d",
+          "text": "bei den Kirchen"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Correct answer:** bei der Landeszentrale für politische Bildung\n\nThe **Landeszentrale für politische Bildung Niedersachsen**, the Land's nonpartisan civic-education agency: free or cheap books, events and election guides. Its federal sibling, the bpb, runs the well-known Wahl-O-Mat.\n\nOrdnungsamt = local public order (permits, registrations, noise); Verbraucherzentrale = consumer advice (contracts, prices); the churches are religious communities, not a source of neutral political information.\n\n## Auf Deutsch\n\nÜber politische Themen informiert die Landeszentrale für politische Bildung Niedersachsen (in Hannover)."
+    },
+    {
+      "id": "eb-u14-l11-probetest-10-ex33",
+      "type": "choice",
+      "title": "NDS 10 · Landesfrage",
+      "prompt": "Welche Ministerin/ welchen Minister hat Niedersachsen nicht?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Justizministerin/Justizminister"
+        },
+        {
+          "id": "b",
+          "text": "Außenministerin/Außenminister"
+        },
+        {
+          "id": "c",
+          "text": "Finanzministerin/Finanzminister"
+        },
+        {
+          "id": "d",
+          "text": "Innenministerin/Innenminister"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Correct answer:** Außenministerin/Außenminister\n\nNo Land has an **Außenminister**: foreign policy is federal (Art. 32 GG; →Q39's trio: foreign policy, currency, army). Niedersachsen does have ministers for justice, finance and the interior (Land police, →Q148), schools (→Q49) and more. Federalism gives the Länder real power at home, none abroad.\n\n## Auf Deutsch\n\nEinen Außenminister hat kein Bundesland. Außenpolitik macht nur der Bund."
+    }
+  ]
+}

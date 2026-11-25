@@ -1,0 +1,241 @@
+{
+  "id": "tb1-u27-l13-reason-result-example-2",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u27",
+  "title": "Reason, Result & Example 2",
+  "tip": "Theme: Redemittel: Grund, Folge & Beispiel (B1)",
+  "exercises": [
+    {
+      "id": "tb1-u27-l13-reason-result-example-2-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "Zum Beispiel …",
+          "known": "For example …"
+        },
+        {
+          "id": "p2",
+          "learning": "Das bedeutet, dass …",
+          "known": "That means that …"
+        },
+        {
+          "id": "p3",
+          "learning": "Daraus folgt, dass …",
+          "known": "It follows that …"
+        },
+        {
+          "id": "p4",
+          "learning": "nämlich",
+          "known": "namely / that is"
+        },
+        {
+          "id": "p5",
+          "learning": "Der Grund dafür ist, dass …",
+          "known": "The reason for that is that …"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u27-l13-reason-result-example-2-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which phrase means „For example …“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Aus diesem Grund …"
+        },
+        {
+          "id": "b",
+          "text": "Der Grund dafür ist, dass …"
+        },
+        {
+          "id": "c",
+          "text": "Zum Beispiel …"
+        },
+        {
+          "id": "d",
+          "text": "Daraus folgt, dass …"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**Zum Beispiel …** = For example …\n\n*Example:* Ich esse gern Obst, zum Beispiel Äpfel und Bananen.\nI like eating fruit, for example apples and bananas."
+    },
+    {
+      "id": "tb1-u27-l13-reason-result-example-2-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which phrase means „That means that …“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Aus diesem Grund …"
+        },
+        {
+          "id": "b",
+          "text": "Das führt dazu, dass …"
+        },
+        {
+          "id": "c",
+          "text": "Daraus folgt, dass …"
+        },
+        {
+          "id": "d",
+          "text": "Das bedeutet, dass …"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**Das bedeutet, dass …** = That means that …\n\n*Example:* Das Schild ist rot. Das bedeutet, dass man hier nicht parken darf.\nThe sign is red. That means you can't park here."
+    },
+    {
+      "id": "tb1-u27-l13-reason-result-example-2-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Ich esse gern Obst, zum Beispiel Äpfel und Bananen.",
+      "tiles": [
+        "example",
+        "for",
+        "I",
+        "like",
+        "flat",
+        "to",
+        "apples",
+        "bananas",
+        "and",
+        "countryside",
+        "fruit",
+        "eating"
+      ],
+      "answers": [
+        "I like eating fruit, for example apples and bananas."
+      ],
+      "explanation": "**Zum Beispiel …** = For example …"
+    },
+    {
+      "id": "tb1-u27-l13-reason-result-example-2-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which phrase means „It follows that …“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "nämlich"
+        },
+        {
+          "id": "b",
+          "text": "Das hat zur Folge, dass …"
+        },
+        {
+          "id": "c",
+          "text": "Daraus folgt, dass …"
+        },
+        {
+          "id": "d",
+          "text": "Zum Beispiel …"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**Daraus folgt, dass …** = It follows that …\n\n*Example:* Der Laden ist dunkel. Daraus folgt, dass er schon geschlossen hat.\nThe shop is dark. It follows that it has already closed."
+    },
+    {
+      "id": "tb1-u27-l13-reason-result-example-2-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "The sign is red. That means you can't park here.",
+      "tiles": [
+        "fällt",
+        "hat",
+        "ist",
+        "dass",
+        "Das",
+        "Das",
+        "hier",
+        "darf",
+        "nicht",
+        "klein",
+        "Schild",
+        "bedeutet",
+        "rot",
+        "parken",
+        "man"
+      ],
+      "answers": [
+        "Das Schild ist rot. Das bedeutet, dass man hier nicht parken darf."
+      ],
+      "explanation": "**Das bedeutet, dass …** = That means that …"
+    },
+    {
+      "id": "tb1-u27-l13-reason-result-example-2-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which phrase means „namely / that is“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "nämlich"
+        },
+        {
+          "id": "b",
+          "text": "Aus diesem Grund …"
+        },
+        {
+          "id": "c",
+          "text": "Das bedeutet, dass …"
+        },
+        {
+          "id": "d",
+          "text": "Der Grund dafür ist, dass …"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**nämlich** = namely / that is\n\n*Example:* Maria kommt heute nicht, sie ist nämlich krank.\nMaria isn't coming today; she's ill, you see."
+    },
+    {
+      "id": "tb1-u27-l13-reason-result-example-2-ex08",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u27-l13-reason-result-example-2-3.mp3"
+      },
+      "tiles": [
+        "Der",
+        "Daraus",
+        "dass",
+        "schon",
+        "dunkel",
+        "Obst",
+        "folgt",
+        "man",
+        "Laden",
+        "ist",
+        "steigen",
+        "hat",
+        "geschlossen",
+        "er"
+      ],
+      "answers": [
+        "Der Laden ist dunkel. Daraus folgt, dass er schon geschlossen hat."
+      ],
+      "explanation": "Der Laden ist dunkel. Daraus folgt, dass er schon geschlossen hat.\n*The shop is dark. It follows that it has already closed.*\n\n**Daraus folgt, dass …** = It follows that …"
+    },
+    {
+      "id": "tb1-u27-l13-reason-result-example-2-ex09",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Maria kommt heute nicht, sie ist nämlich krank.",
+      "tiles": [
+        "here",
+        "isn't",
+        "Maria",
+        "example",
+        "ill",
+        "follows",
+        "today",
+        "see",
+        "coming",
+        "you",
+        "she's"
+      ],
+      "answers": [
+        "Maria isn't coming today; she's ill, you see."
+      ],
+      "explanation": "**nämlich** = namely / that is"
+    }
+  ]
+}

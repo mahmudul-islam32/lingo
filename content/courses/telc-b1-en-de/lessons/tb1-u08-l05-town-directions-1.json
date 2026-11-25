@@ -1,0 +1,278 @@
+{
+  "id": "tb1-u08-l05-town-directions-1",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u08",
+  "title": "Town & Directions 1",
+  "tip": "Theme: Stadt & Wege (A2)",
+  "exercises": [
+    {
+      "id": "tb1-u08-l05-town-directions-1-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "die Stadt",
+          "known": "city / town"
+        },
+        {
+          "id": "p2",
+          "learning": "das Dorf",
+          "known": "village"
+        },
+        {
+          "id": "p3",
+          "learning": "die Straße",
+          "known": "street"
+        },
+        {
+          "id": "p4",
+          "learning": "der Platz",
+          "known": "square / place"
+        },
+        {
+          "id": "p5",
+          "learning": "die Ecke",
+          "known": "corner"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u08-l05-town-directions-1-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „city / town“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "das Dorf, die Dörfer"
+        },
+        {
+          "id": "b",
+          "text": "die Straße, die Straßen"
+        },
+        {
+          "id": "c",
+          "text": "die Brücke, die Brücken"
+        },
+        {
+          "id": "d",
+          "text": "die Stadt, die Städte"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**die Stadt** = city / town\n*Plural: die Städte*\n\n*Example:* Hamburg ist eine große Stadt im Norden.\nHamburg is a big city in the north."
+    },
+    {
+      "id": "tb1-u08-l05-town-directions-1-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „village“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Richtung, die Richtungen"
+        },
+        {
+          "id": "b",
+          "text": "das Dorf, die Dörfer"
+        },
+        {
+          "id": "c",
+          "text": "die Kreuzung, die Kreuzungen"
+        },
+        {
+          "id": "d",
+          "text": "die Bank, die Banken"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**das Dorf** = village\n*Plural: die Dörfer*\n\n*Example:* Meine Großeltern wohnen in einem kleinen Dorf.\nMy grandparents live in a small village."
+    },
+    {
+      "id": "tb1-u08-l05-town-directions-1-ex04",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u08-l05-town-directions-1-1.mp3"
+      },
+      "tiles": [
+        "Sie",
+        "eine",
+        "ist",
+        "rechts",
+        "große",
+        "im",
+        "Hamburg",
+        "Stadt",
+        "bis",
+        "Norden"
+      ],
+      "answers": [
+        "Hamburg ist eine große Stadt im Norden."
+      ],
+      "explanation": "Hamburg ist eine große Stadt im Norden.\n*Hamburg is a big city in the north.*\n\n**die Stadt** = city / town\n*Plural: die Städte*"
+    },
+    {
+      "id": "tb1-u08-l05-town-directions-1-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „street“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Brücke, die Brücken"
+        },
+        {
+          "id": "b",
+          "text": "das Dorf, die Dörfer"
+        },
+        {
+          "id": "c",
+          "text": "der Platz, die Plätze"
+        },
+        {
+          "id": "d",
+          "text": "die Straße, die Straßen"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**die Straße** = street\n*Plural: die Straßen*\n\n*Example:* In welcher Straße wohnst du?\nWhich street do you live on?"
+    },
+    {
+      "id": "tb1-u08-l05-town-directions-1-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Meine Großeltern wohnen in einem kleinen Dorf.",
+      "tiles": [
+        "we",
+        "small",
+        "go",
+        "in",
+        "grandparents",
+        "village",
+        "live",
+        "the",
+        "My",
+        "a"
+      ],
+      "answers": [
+        "My grandparents live in a small village."
+      ],
+      "explanation": "**das Dorf** = village\n*Plural: die Dörfer*"
+    },
+    {
+      "id": "tb1-u08-l05-town-directions-1-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „square / place“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Ecke, die Ecken"
+        },
+        {
+          "id": "b",
+          "text": "die Stadt, die Städte"
+        },
+        {
+          "id": "c",
+          "text": "der Platz, die Plätze"
+        },
+        {
+          "id": "d",
+          "text": "das Rathaus"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**der Platz** = square / place\n*Plural: die Plätze*\n\n*Example:* Am Samstag ist auf dem Platz vor der Kirche Markt.\nOn Saturday there's a market on the square in front of the church."
+    },
+    {
+      "id": "tb1-u08-l05-town-directions-1-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Which street do you live on?",
+      "tiles": [
+        "welcher",
+        "einem",
+        "In",
+        "Straße",
+        "wohnst",
+        "neuen",
+        "du",
+        "ist"
+      ],
+      "answers": [
+        "In welcher Straße wohnst du?"
+      ],
+      "explanation": "**die Straße** = street\n*Plural: die Straßen*"
+    },
+    {
+      "id": "tb1-u08-l05-town-directions-1-ex09",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „corner“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Straße, die Straßen"
+        },
+        {
+          "id": "b",
+          "text": "der Platz, die Plätze"
+        },
+        {
+          "id": "c",
+          "text": "die Ecke, die Ecken"
+        },
+        {
+          "id": "d",
+          "text": "das Dorf, die Dörfer"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**die Ecke** = corner\n*Plural: die Ecken*\n\n*Example:* Die Apotheke ist gleich hier um die Ecke.\nThe pharmacy is just around the corner."
+    },
+    {
+      "id": "tb1-u08-l05-town-directions-1-ex10",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u08-l05-town-directions-1-4.mp3"
+      },
+      "tiles": [
+        "auf",
+        "Platz",
+        "Am",
+        "der",
+        "Kirche",
+        "ist",
+        "vor",
+        "Toiletten",
+        "Markt",
+        "in",
+        "Samstag",
+        "kleinen",
+        "dem"
+      ],
+      "answers": [
+        "Am Samstag ist auf dem Platz vor der Kirche Markt."
+      ],
+      "explanation": "Am Samstag ist auf dem Platz vor der Kirche Markt.\n*On Saturday there's a market on the square in front of the church.*\n\n**der Platz** = square / place\n*Plural: die Plätze*"
+    },
+    {
+      "id": "tb1-u08-l05-town-directions-1-ex11",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Die Apotheke ist gleich hier um die Ecke.",
+      "tiles": [
+        "the",
+        "market",
+        "is",
+        "just",
+        "around",
+        "pharmacy",
+        "I",
+        "The",
+        "corner",
+        "address"
+      ],
+      "answers": [
+        "The pharmacy is just around the corner."
+      ],
+      "explanation": "**die Ecke** = corner\n*Plural: die Ecken*"
+    }
+  ]
+}

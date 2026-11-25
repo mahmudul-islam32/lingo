@@ -1,0 +1,243 @@
+{
+  "id": "tb1-u18-l10-useful-phrases-5",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u18",
+  "title": "Useful Phrases 5",
+  "tip": "Theme: Redemittel (B1)",
+  "exercises": [
+    {
+      "id": "tb1-u18-l10-useful-phrases-5-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "Zuerst …, dann …, zum Schluss …",
+          "known": "First …"
+        },
+        {
+          "id": "p2",
+          "learning": "Dazu kommt, dass …",
+          "known": "On top of that …"
+        },
+        {
+          "id": "p3",
+          "learning": "Kurz gesagt",
+          "known": "In short"
+        },
+        {
+          "id": "p4",
+          "learning": "Zusammenfassend kann man sagen, dass …",
+          "known": "In summary"
+        },
+        {
+          "id": "p5",
+          "learning": "Aus meiner Sicht …",
+          "known": "From my point of view …"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u18-l10-useful-phrases-5-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which one means „First …, then …, finally …“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Aus diesem Grund … (+ verb next!)"
+        },
+        {
+          "id": "b",
+          "text": "Kurz gesagt: …"
+        },
+        {
+          "id": "c",
+          "text": "Zuerst …, dann …, zum Schluss …"
+        },
+        {
+          "id": "d",
+          "text": "Zusammenfassend kann man sagen, dass …"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**Zuerst …, dann …, zum Schluss …** = First …, then …, finally …\n\n*Example:* Zuerst kaufen wir ein, dann kochen wir, zum Schluss räumen wir auf.\nFirst we go shopping, then we cook, and finally we tidy up."
+    },
+    {
+      "id": "tb1-u18-l10-useful-phrases-5-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which one means „On top of that …“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Das hat den Vorteil / den Nachteil, dass …"
+        },
+        {
+          "id": "b",
+          "text": "Ein Beispiel dafür ist …"
+        },
+        {
+          "id": "c",
+          "text": "Dazu kommt, dass …"
+        },
+        {
+          "id": "d",
+          "text": "Für mich ist es wichtig, dass …"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**Dazu kommt, dass …** = On top of that …\n\n*Example:* Die Wohnung ist sehr teuer. Dazu kommt, dass sie keinen Balkon hat.\nThe flat is very expensive. On top of that, it doesn't have a balcony."
+    },
+    {
+      "id": "tb1-u18-l10-useful-phrases-5-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "First we go shopping, then we cook, and finally we tidy up.",
+      "tiles": [
+        "wir",
+        "Bürgeramt",
+        "dann",
+        "ein",
+        "kochen",
+        "wir",
+        "auf",
+        "wir",
+        "kaufen",
+        "Zuerst",
+        "räumen",
+        "kommen",
+        "zum",
+        "Schluss",
+        "sehr"
+      ],
+      "answers": [
+        "Zuerst kaufen wir ein, dann kochen wir, zum Schluss räumen wir auf."
+      ],
+      "explanation": "**Zuerst …, dann …, zum Schluss …** = First …, then …, finally …"
+    },
+    {
+      "id": "tb1-u18-l10-useful-phrases-5-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which one means „In short: …“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Dazu kommt, dass …"
+        },
+        {
+          "id": "b",
+          "text": "Kurz gesagt: …"
+        },
+        {
+          "id": "c",
+          "text": "Das hat den Vorteil / den Nachteil, dass …"
+        },
+        {
+          "id": "d",
+          "text": "Du solltest unbedingt …"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Kurz gesagt: …** = In short: …\n\n*Example:* Kurz gesagt: Der Urlaub war wunderbar.\nIn short: the holiday was wonderful."
+    },
+    {
+      "id": "tb1-u18-l10-useful-phrases-5-ex06",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u18-l10-useful-phrases-5-2.mp3"
+      },
+      "tiles": [
+        "Die",
+        "keinen",
+        "sehr",
+        "hat",
+        "dass",
+        "Balkon",
+        "kommt",
+        "teuer",
+        "Wohnung",
+        "In",
+        "ist",
+        "Leute",
+        "Dazu",
+        "An",
+        "sie"
+      ],
+      "answers": [
+        "Die Wohnung ist sehr teuer. Dazu kommt, dass sie keinen Balkon hat."
+      ],
+      "explanation": "Die Wohnung ist sehr teuer. Dazu kommt, dass sie keinen Balkon hat.\n*The flat is very expensive. On top of that, it doesn't have a balcony.*\n\n**Dazu kommt, dass …** = On top of that …"
+    },
+    {
+      "id": "tb1-u18-l10-useful-phrases-5-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which one means „In summary, one can say that …“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ich halte das für eine gute Idee."
+        },
+        {
+          "id": "b",
+          "text": "Das liegt daran, dass …"
+        },
+        {
+          "id": "c",
+          "text": "Zusammenfassend kann man sagen, dass …"
+        },
+        {
+          "id": "d",
+          "text": "Am besten wäre es, wenn wir …"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**Zusammenfassend kann man sagen, dass …** = In summary, one can say that …\n\n*Example:* Zusammenfassend kann man sagen, dass das Leben in der Stadt praktisch ist.\nIn summary, one can say that life in the city is convenient."
+    },
+    {
+      "id": "tb1-u18-l10-useful-phrases-5-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Kurz gesagt: Der Urlaub war wunderbar.",
+      "tiles": [
+        "a",
+        "the",
+        "balcony",
+        "In",
+        "wonderful",
+        "short",
+        "holiday",
+        "was",
+        "healthier"
+      ],
+      "answers": [
+        "In short: the holiday was wonderful."
+      ],
+      "explanation": "**Kurz gesagt: …** = In short: …"
+    },
+    {
+      "id": "tb1-u18-l10-useful-phrases-5-ex09",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "In summary, one can say that life in the city is convenient.",
+      "tiles": [
+        "ist",
+        "Stadt",
+        "man",
+        "sagen",
+        "zwar",
+        "keine",
+        "Zusammenfassend",
+        "praktisch",
+        "Am",
+        "dass",
+        "kann",
+        "der",
+        "in",
+        "das",
+        "Leben"
+      ],
+      "answers": [
+        "Zusammenfassend kann man sagen, dass das Leben in der Stadt praktisch ist."
+      ],
+      "explanation": "**Zusammenfassend kann man sagen, dass …** = In summary, one can say that …"
+    }
+  ]
+}

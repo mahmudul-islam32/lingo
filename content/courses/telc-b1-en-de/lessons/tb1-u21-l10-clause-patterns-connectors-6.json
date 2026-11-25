@@ -1,0 +1,207 @@
+{
+  "id": "tb1-u21-l10-clause-patterns-connectors-6",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u21",
+  "title": "Clause Patterns & Connectors 6",
+  "tip": "Theme: Sätze. Muster: Nebensätze & Konnektoren (B1)",
+  "exercises": [
+    {
+      "id": "tb1-u21-l10-clause-patterns-connectors-6-ex01",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means „He speaks not only German but also English. (nicht nur … sondern auch)“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Können Sie mir sagen, wann der Zug abfährt?"
+        },
+        {
+          "id": "b",
+          "text": "Bevor ich schlafen gehe, wiederhole ich die Wörter."
+        },
+        {
+          "id": "c",
+          "text": "Zwar ist die Wohnung klein, aber sie ist sehr gemütlich."
+        },
+        {
+          "id": "d",
+          "text": "Er spricht nicht nur Deutsch, sondern auch Englisch."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**Er spricht nicht nur Deutsch, sondern auch Englisch.** = He speaks not only German but also English. (nicht nur … sondern auch)\n\n*Example:* Er spricht nicht nur Deutsch, sondern auch Englisch.\nHe speaks not only German but also English. (nicht nur … sondern auch)"
+    },
+    {
+      "id": "tb1-u21-l10-clause-patterns-connectors-6-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means „We can either go to the cinema or stay at home. (entweder … oder)“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ich bin nach Deutschland gekommen, um hier zu studieren."
+        },
+        {
+          "id": "b",
+          "text": "Wir können entweder ins Kino gehen oder zu Hause bleiben."
+        },
+        {
+          "id": "c",
+          "text": "Ich war krank, deshalb bin ich zu Hause geblieben."
+        },
+        {
+          "id": "d",
+          "text": "Zwar ist die Wohnung klein, aber sie ist sehr gemütlich."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Wir können entweder ins Kino gehen oder zu Hause bleiben.** = We can either go to the cinema or stay at home. (entweder … oder)\n\n*Example:* Wir können entweder ins Kino gehen oder zu Hause bleiben.\nWe can either go to the cinema or stay at home. (entweder … oder)"
+    },
+    {
+      "id": "tb1-u21-l10-clause-patterns-connectors-6-ex03",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u21-l10-clause-patterns-connectors-6-1.mp3"
+      },
+      "tiles": [
+        "gekommen",
+        "nicht",
+        "für",
+        "Englisch",
+        "spricht",
+        "übe",
+        "Er",
+        "auch",
+        "sondern",
+        "nur",
+        "Deutsch"
+      ],
+      "answers": [
+        "Er spricht nicht nur Deutsch, sondern auch Englisch."
+      ],
+      "explanation": "Er spricht nicht nur Deutsch, sondern auch Englisch.\n*He speaks not only German but also English. (nicht nur … sondern auch)*\n\n**Er spricht nicht nur Deutsch, sondern auch Englisch.** = He speaks not only German but also English. (nicht nur … sondern auch)"
+    },
+    {
+      "id": "tb1-u21-l10-clause-patterns-connectors-6-ex04",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means „I have neither time nor money for a holiday. (weder … noch)“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Zwar ist die Wohnung klein, aber sie ist sehr gemütlich."
+        },
+        {
+          "id": "b",
+          "text": "Weißt du, ob der Kurs morgen stattfindet?"
+        },
+        {
+          "id": "c",
+          "text": "Die Frau, mit der ich arbeite, kommt aus Italien."
+        },
+        {
+          "id": "d",
+          "text": "Ich habe weder Zeit noch Geld für einen Urlaub."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**Ich habe weder Zeit noch Geld für einen Urlaub.** = I have neither time nor money for a holiday. (weder … noch)\n\n*Example:* Ich habe weder Zeit noch Geld für einen Urlaub.\nI have neither time nor money for a holiday. (weder … noch)"
+    },
+    {
+      "id": "tb1-u21-l10-clause-patterns-connectors-6-ex05",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "We can either go to the cinema or stay at home. (entweder … oder)",
+      "tiles": [
+        "Hause",
+        "oder",
+        "können",
+        "Wir",
+        "Während",
+        "zu",
+        "den",
+        "ins",
+        "ein",
+        "entweder",
+        "bleiben",
+        "Kino",
+        "gehen"
+      ],
+      "answers": [
+        "Wir können entweder ins Kino gehen oder zu Hause bleiben."
+      ],
+      "explanation": "**Wir können entweder ins Kino gehen oder zu Hause bleiben.** = We can either go to the cinema or stay at home. (entweder … oder)"
+    },
+    {
+      "id": "tb1-u21-l10-clause-patterns-connectors-6-ex06",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means „Both my wife and I are working at the moment. (sowohl … als auch)“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Das ist der Mann, der neben uns wohnt."
+        },
+        {
+          "id": "b",
+          "text": "Beeil dich, sonst verpassen wir den Bus!"
+        },
+        {
+          "id": "c",
+          "text": "Sowohl meine Frau als auch ich arbeiten im Moment."
+        },
+        {
+          "id": "d",
+          "text": "Wenn ich Zeit habe, wiederhole ich die Vokabeln."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**Sowohl meine Frau als auch ich arbeiten im Moment.** = Both my wife and I are working at the moment. (sowohl … als auch)\n\n*Example:* Sowohl meine Frau als auch ich arbeiten im Moment.\nBoth my wife and I are working at the moment. (sowohl … als auch)"
+    },
+    {
+      "id": "tb1-u21-l10-clause-patterns-connectors-6-ex07",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I have neither time nor money for a holiday. (weder … noch)",
+      "tiles": [
+        "noch",
+        "sagen",
+        "Zeit",
+        "habe",
+        "weitergelernt",
+        "Urlaub",
+        "einen",
+        "Geld",
+        "Ich",
+        "für",
+        "weder",
+        "aus"
+      ],
+      "answers": [
+        "Ich habe weder Zeit noch Geld für einen Urlaub."
+      ],
+      "explanation": "**Ich habe weder Zeit noch Geld für einen Urlaub.** = I have neither time nor money for a holiday. (weder … noch)"
+    },
+    {
+      "id": "tb1-u21-l10-clause-patterns-connectors-6-ex08",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u21-l10-clause-patterns-connectors-6-4.mp3"
+      },
+      "tiles": [
+        "Moment",
+        "ich",
+        "meine",
+        "Frau",
+        "aus",
+        "als",
+        "im",
+        "Weißt",
+        "Sowohl",
+        "auch",
+        "arbeiten",
+        "du"
+      ],
+      "answers": [
+        "Sowohl meine Frau als auch ich arbeiten im Moment."
+      ],
+      "explanation": "Sowohl meine Frau als auch ich arbeiten im Moment.\n*Both my wife and I are working at the moment. (sowohl … als auch)*\n\n**Sowohl meine Frau als auch ich arbeiten im Moment.** = Both my wife and I are working at the moment. (sowohl … als auch)"
+    }
+  ]
+}

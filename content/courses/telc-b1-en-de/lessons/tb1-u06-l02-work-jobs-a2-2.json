@@ -1,0 +1,238 @@
+{
+  "id": "tb1-u06-l02-work-jobs-a2-2",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u06",
+  "title": "Work & Jobs (A2) 2",
+  "tip": "Theme: Arbeit & Beruf (A2) (A2)",
+  "exercises": [
+    {
+      "id": "tb1-u06-l02-work-jobs-a2-2-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "das Geld",
+          "known": "money"
+        },
+        {
+          "id": "p2",
+          "learning": "der Lohn",
+          "known": "wage"
+        },
+        {
+          "id": "p3",
+          "learning": "die Pause",
+          "known": "break"
+        },
+        {
+          "id": "p4",
+          "learning": "der Termin",
+          "known": "appointment"
+        },
+        {
+          "id": "p5",
+          "learning": "die Arbeit",
+          "known": "work"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u06-l02-work-jobs-a2-2-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „money“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "der Termin, die Termine"
+        },
+        {
+          "id": "b",
+          "text": "das Geld"
+        },
+        {
+          "id": "c",
+          "text": "die Ausbildung"
+        },
+        {
+          "id": "d",
+          "text": "der Kunde, die Kunden"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**das Geld** = money\n\n*Example:* Ich habe nicht genug Geld für ein neues Auto.\nI don't have enough money for a new car."
+    },
+    {
+      "id": "tb1-u06-l02-work-jobs-a2-2-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „wage“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Besprechung, die Besprechungen"
+        },
+        {
+          "id": "b",
+          "text": "der Lohn, die Löhne"
+        },
+        {
+          "id": "c",
+          "text": "die Kollegin, die Kolleginnen"
+        },
+        {
+          "id": "d",
+          "text": "der Chef, die Chefs"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**der Lohn** = wage\n*Plural: die Löhne*\n\n*Example:* Der Lohn kommt immer am Ende des Monats.\nThe wages always come at the end of the month."
+    },
+    {
+      "id": "tb1-u06-l02-work-jobs-a2-2-ex04",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u06-l02-work-jobs-a2-2-1.mp3"
+      },
+      "tiles": [
+        "neues",
+        "hat",
+        "ein",
+        "habe",
+        "Geld",
+        "genug",
+        "um",
+        "Auto",
+        "Ausbildung",
+        "Ich",
+        "nicht",
+        "für"
+      ],
+      "answers": [
+        "Ich habe nicht genug Geld für ein neues Auto."
+      ],
+      "explanation": "Ich habe nicht genug Geld für ein neues Auto.\n*I don't have enough money for a new car.*\n\n**das Geld** = money"
+    },
+    {
+      "id": "tb1-u06-l02-work-jobs-a2-2-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „break“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Erfahrung, die Erfahrungen"
+        },
+        {
+          "id": "b",
+          "text": "die Ausbildung"
+        },
+        {
+          "id": "c",
+          "text": "die Pause, die Pausen"
+        },
+        {
+          "id": "d",
+          "text": "die Kollegin, die Kolleginnen"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**die Pause** = break\n*Plural: die Pausen*\n\n*Example:* Um zwölf Uhr machen wir eine kurze Pause.\nAt twelve o'clock we take a short break."
+    },
+    {
+      "id": "tb1-u06-l02-work-jobs-a2-2-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Der Lohn kommt immer am Ende des Monats.",
+      "tiles": [
+        "end",
+        "the",
+        "of",
+        "sales",
+        "the",
+        "don't",
+        "at",
+        "always",
+        "often",
+        "come",
+        "wages",
+        "The",
+        "month"
+      ],
+      "answers": [
+        "The wages always come at the end of the month."
+      ],
+      "explanation": "**der Lohn** = wage\n*Plural: die Löhne*"
+    },
+    {
+      "id": "tb1-u06-l02-work-jobs-a2-2-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „appointment“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "der Termin, die Termine"
+        },
+        {
+          "id": "b",
+          "text": "die Arbeit"
+        },
+        {
+          "id": "c",
+          "text": "die Stelle, die Stellen"
+        },
+        {
+          "id": "d",
+          "text": "der Kunde, die Kunden"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**der Termin** = appointment\n*Plural: die Termine*\n\n*Example:* Ich habe morgen um neun einen Termin beim Zahnarzt.\nI have an appointment at the dentist tomorrow at nine."
+    },
+    {
+      "id": "tb1-u06-l02-work-jobs-a2-2-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "At twelve o'clock we take a short break.",
+      "tiles": [
+        "machen",
+        "zwölf",
+        "Pause",
+        "Uhr",
+        "eine",
+        "kurze",
+        "Maria",
+        "Um",
+        "wir",
+        "jeden",
+        "kleines"
+      ],
+      "answers": [
+        "Um zwölf Uhr machen wir eine kurze Pause."
+      ],
+      "explanation": "**die Pause** = break\n*Plural: die Pausen*"
+    },
+    {
+      "id": "tb1-u06-l02-work-jobs-a2-2-ex09",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u06-l02-work-jobs-a2-2-4.mp3"
+      },
+      "tiles": [
+        "Maria",
+        "beim",
+        "um",
+        "morgen",
+        "Termin",
+        "Zahnarzt",
+        "habe",
+        "neun",
+        "Ich",
+        "einen",
+        "Pause",
+        "waren"
+      ],
+      "answers": [
+        "Ich habe morgen um neun einen Termin beim Zahnarzt."
+      ],
+      "explanation": "Ich habe morgen um neun einen Termin beim Zahnarzt.\n*I have an appointment at the dentist tomorrow at nine.*\n\n**der Termin** = appointment\n*Plural: die Termine*"
+    }
+  ]
+}

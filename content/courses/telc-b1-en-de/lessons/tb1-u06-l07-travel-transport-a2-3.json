@@ -1,0 +1,235 @@
+{
+  "id": "tb1-u06-l07-travel-transport-a2-3",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u06",
+  "title": "Travel & Transport (A2) 3",
+  "tip": "Theme: Reisen & Verkehr (A2) (A2)",
+  "exercises": [
+    {
+      "id": "tb1-u06-l07-travel-transport-a2-3-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "der Fahrplan",
+          "known": "timetable"
+        },
+        {
+          "id": "p2",
+          "learning": "die Verspätung",
+          "known": "delay"
+        },
+        {
+          "id": "p3",
+          "learning": "umsteigen",
+          "known": "to change (trains)"
+        },
+        {
+          "id": "p4",
+          "learning": "ankommen",
+          "known": "to arrive"
+        },
+        {
+          "id": "p5",
+          "learning": "die Reise",
+          "known": "trip / journey"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u06-l07-travel-transport-a2-3-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „timetable“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Verspätung, die Verspätungen"
+        },
+        {
+          "id": "b",
+          "text": "der Fahrplan, die Fahrpläne"
+        },
+        {
+          "id": "c",
+          "text": "der Urlaub"
+        },
+        {
+          "id": "d",
+          "text": "der Koffer, die Koffer"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**der Fahrplan** = timetable\n*Plural: die Fahrpläne*\n\n*Example:* Laut Fahrplan kommt der nächste Bus in fünf Minuten.\nAccording to the timetable, the next bus comes in five minutes."
+    },
+    {
+      "id": "tb1-u06-l07-travel-transport-a2-3-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „delay“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "der Bus, die Busse"
+        },
+        {
+          "id": "b",
+          "text": "der Urlaub"
+        },
+        {
+          "id": "c",
+          "text": "die Verspätung, die Verspätungen"
+        },
+        {
+          "id": "d",
+          "text": "der Bahnhof, die Bahnhöfe"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**die Verspätung** = delay\n*Plural: die Verspätungen*\n\n*Example:* Der Zug hat heute zwanzig Minuten Verspätung.\nThe train is twenty minutes late today."
+    },
+    {
+      "id": "tb1-u06-l07-travel-transport-a2-3-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Laut Fahrplan kommt der nächste Bus in fünf Minuten.",
+      "tiles": [
+        "the",
+        "According",
+        "timetable",
+        "the",
+        "next",
+        "to",
+        "five",
+        "minutes",
+        "in",
+        "bus",
+        "platform",
+        "comes",
+        "holiday",
+        "counter"
+      ],
+      "answers": [
+        "According to the timetable, the next bus comes in five minutes."
+      ],
+      "explanation": "**der Fahrplan** = timetable\n*Plural: die Fahrpläne*"
+    },
+    {
+      "id": "tb1-u06-l07-travel-transport-a2-3-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which one means „to change (trains)“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "umsteigen (steigt um)"
+        },
+        {
+          "id": "b",
+          "text": "abfahren (fährt ab)"
+        },
+        {
+          "id": "c",
+          "text": "ankommen (kommt an)"
+        },
+        {
+          "id": "d",
+          "text": "der Fahrplan, die Fahrpläne"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**umsteigen (steigt um)** = to change (trains)\n\n*Example:* In Hannover müssen Sie in den ICE umsteigen.\nIn Hanover you have to change to the ICE."
+    },
+    {
+      "id": "tb1-u06-l07-travel-transport-a2-3-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "The train is twenty minutes late today.",
+      "tiles": [
+        "nehme",
+        "Verspätung",
+        "Bus",
+        "Mein",
+        "Zug",
+        "Der",
+        "hat",
+        "zwanzig",
+        "heute",
+        "Minuten"
+      ],
+      "answers": [
+        "Der Zug hat heute zwanzig Minuten Verspätung."
+      ],
+      "explanation": "**die Verspätung** = delay\n*Plural: die Verspätungen*"
+    },
+    {
+      "id": "tb1-u06-l07-travel-transport-a2-3-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which one means „to arrive“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "umsteigen (steigt um)"
+        },
+        {
+          "id": "b",
+          "text": "ankommen (kommt an)"
+        },
+        {
+          "id": "c",
+          "text": "abfahren (fährt ab)"
+        },
+        {
+          "id": "d",
+          "text": "die Grenze, die Grenzen"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**ankommen (kommt an)** = to arrive\n\n*Example:* Wir kommen um halb acht in Hamburg an.\nWe arrive in Hamburg at half past seven."
+    },
+    {
+      "id": "tb1-u06-l07-travel-transport-a2-3-ex08",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u06-l07-travel-transport-a2-3-3.mp3"
+      },
+      "tiles": [
+        "umsteigen",
+        "vor",
+        "in",
+        "Sie",
+        "beeil",
+        "In",
+        "An",
+        "müssen",
+        "Hannover",
+        "den",
+        "ICE"
+      ],
+      "answers": [
+        "In Hannover müssen Sie in den ICE umsteigen."
+      ],
+      "explanation": "In Hannover müssen Sie in den ICE umsteigen.\n*In Hanover you have to change to the ICE.*\n\n**umsteigen (steigt um)** = to change (trains)"
+    },
+    {
+      "id": "tb1-u06-l07-travel-transport-a2-3-ex09",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Wir kommen um halb acht in Hamburg an.",
+      "tiles": [
+        "minutes",
+        "Hamburg",
+        "at",
+        "seven",
+        "arrive",
+        "past",
+        "bus",
+        "Munich",
+        "We",
+        "half",
+        "in"
+      ],
+      "answers": [
+        "We arrive in Hamburg at half past seven."
+      ],
+      "explanation": "**ankommen (kommt an)** = to arrive"
+    }
+  ]
+}

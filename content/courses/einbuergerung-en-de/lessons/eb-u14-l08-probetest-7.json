@@ -1,0 +1,901 @@
+{
+  "id": "eb-u14-l08-probetest-7",
+  "courseId": "einbuergerung-en-de",
+  "unitId": "eb-u14",
+  "title": "Mock test 7 (Probetest 7)",
+  "tip": "Real format: 30 general + 3 Niedersachsen questions. Allow 60 minutes; 17 correct to pass, aim for 28+.",
+  "exercises": [
+    {
+      "id": "eb-u14-l08-probetest-7-ex01",
+      "type": "choice",
+      "title": "Frage 31 · Block 2",
+      "prompt": "Die Zusammenarbeit von Parteien zur Bildung einer Regierung nennt man in Deutschland …",
+      "options": [
+        {
+          "id": "a",
+          "text": "Einheit"
+        },
+        {
+          "id": "b",
+          "text": "Koalition"
+        },
+        {
+          "id": "c",
+          "text": "Ministerium"
+        },
+        {
+          "id": "d",
+          "text": "Fraktion"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Correct answer:** Koalition\n\nGermany's proportional system (→Q120) almost never gives one party a majority, so parties negotiate a **Koalition**: a joint program (Koalitionsvertrag) and shared cabinet.\n\nA **Fraktion** (D) is one party's group of MPs *inside* parliament (→Q89), the classic confusion pair. A Ministerium is a government department. \"Einheit\" means unity (as in Tag der Deutschen Einheit, →Q194).\n\n## Auf Deutsch\n\nKoalition = mehrere Parteien bilden zusammen eine Regierung."
+    },
+    {
+      "id": "eb-u14-l08-probetest-7-ex02",
+      "type": "choice",
+      "title": "Frage 35 · Block 2",
+      "prompt": "Womit finanziert der deutsche Staat die Sozialversicherung?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Kirchensteuern"
+        },
+        {
+          "id": "b",
+          "text": "Sozialabgaben"
+        },
+        {
+          "id": "c",
+          "text": "Spendengeldern"
+        },
+        {
+          "id": "d",
+          "text": "Vereinsbeiträgen"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Correct answer:** Sozialabgaben\n\n**Sozialabgaben**, mandatory contributions withheld from wages, matched by employers (→Q99). Look at any German payslip (yours from March 2027!): Renten-, Kranken-, Pflege-, Arbeitslosenversicherung line items.\n\nChurch tax funds churches; donations fund charities; club fees fund your Verein. None finances statutory social insurance, its contribution-based logic is also why benefits like pensions depend on what you paid in.\n\n## Auf Deutsch\n\nDie Sozialversicherung wird durch Sozialabgaben vom Lohn finanziert."
+    },
+    {
+      "id": "eb-u14-l08-probetest-7-ex03",
+      "type": "choice",
+      "title": "Frage 70 · Block 3",
+      "prompt": "Was gehört zu den Aufgaben des deutschen Bundespräsidenten/der deutschen Bundespräsidentin?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Er/Sie führt die Regierungsgeschäfte"
+        },
+        {
+          "id": "b",
+          "text": "Er/Sie kontrolliert die Regierungspartei"
+        },
+        {
+          "id": "c",
+          "text": "Er/Sie wählt die Minister und Ministerinnen aus"
+        },
+        {
+          "id": "d",
+          "text": "Er/Sie schlägt den Kanzler/die Kanzlerin zur Wahl vor"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**Correct answer:** Er/Sie schlägt den Kanzler/die Kanzlerin zur Wahl vor\n\nAfter each Bundestag election, the president **proposes the Chancellor candidate** to parliament (Art. 63 GG), one of the office's few hard powers, normally a formality honoring the election result.\n\nRunning government (A) is the Chancellor's job; controlling parties (B) is nobody's state function; choosing ministers (C) is the Chancellor's (→Q58, Q65). President = notary and conscience of the state, not its manager.\n\n## Auf Deutsch\n\nDer Bundespräsident schlägt dem Bundestag den Kanzler zur Wahl vor."
+    },
+    {
+      "id": "eb-u14-l08-probetest-7-ex04",
+      "type": "choice",
+      "title": "Frage 75 · Block 3",
+      "prompt": "Wie heißt Deutschlands heutiges Staatsoberhaupt?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Frank-Walter Steinmeier"
+        },
+        {
+          "id": "b",
+          "text": "Bärbel Bas"
+        },
+        {
+          "id": "c",
+          "text": "Bodo Ramelow"
+        },
+        {
+          "id": "d",
+          "text": "Joachim Gauck"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Correct answer:** Frank-Walter Steinmeier\n\nBundespräsident Frank-Walter Steinmeier, in office since 2017; second term ends 2027, re-check if your test is after a Feb 2027 presidential election.\n\nGauck is his predecessor; Bärbel Bas and Bodo Ramelow are prominent politicians but not head of state. Remember the office logic even if names change: Staatsoberhaupt = Bundespräsident ≠ Kanzler (→Q87).\n\n**Time-sensitive answer:** this answer depends on the current situation (who holds an office, seat shares, figures) and is correct as of the catalogue version *Stand Juli 2026*. Check it again shortly before your test date.\n\n## Auf Deutsch\n\nStaatsoberhaupt: Bundespräsident Frank-Walter Steinmeier (seit 2017). ⏰ Vor der Prüfung prüfen!"
+    },
+    {
+      "id": "eb-u14-l08-probetest-7-ex05",
+      "type": "choice",
+      "title": "Frage 83 · Block 3",
+      "prompt": "Wer wählt den deutschen Bundeskanzler/die deutsche Bundeskanzlerin?",
+      "options": [
+        {
+          "id": "a",
+          "text": "das Volk"
+        },
+        {
+          "id": "b",
+          "text": "die Bundesversammlung"
+        },
+        {
+          "id": "c",
+          "text": "der Bundestag"
+        },
+        {
+          "id": "d",
+          "text": "die Bundesregierung"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**Correct answer:** der Bundestag\n\n→Q81 verbatim-twin. If Q81 and Q83 both appear in your 33 (it happens!), that's two free points for one memorized fact.\n\n## Auf Deutsch\n\nDie Kanzlerwahl ist Sache des Bundestages."
+    },
+    {
+      "id": "eb-u14-l08-probetest-7-ex06",
+      "type": "choice",
+      "title": "Frage 91 · Block 4",
+      "prompt": "In Deutschland kann ein Regierungswechsel in einem Bundesland Auswirkungen auf die Bundespolitik haben. Das Regieren wird …",
+      "options": [
+        {
+          "id": "a",
+          "text": "schwieriger, wenn sich dadurch die Mehrheit im Bundestag ändert"
+        },
+        {
+          "id": "b",
+          "text": "leichter, wenn dadurch neue Parteien in den Bundesrat kommen"
+        },
+        {
+          "id": "c",
+          "text": "schwieriger, wenn dadurch die Mehrheit im Bundesrat verändert wird"
+        },
+        {
+          "id": "d",
+          "text": "leichter, wenn es sich um ein reiches Bundesland handelt"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**Correct answer:** schwieriger, wenn dadurch die Mehrheit im Bundesrat verändert wird\n\nChain of logic: Land election → new Land government → new votes in the **Bundesrat** (→Q85) → federal consent-laws may now be blocked. This is why federal politicians campaign hard in Niedersachsen's Landtagswahl, the Land's 6 Bundesrat votes can flip federal lawmaking.\n\nA is impossible. Land elections never change *Bundestag* seats; B and D have no such mechanism. Federalism as checks-and-balances, in one question.\n\n## Auf Deutsch\n\nLandtagswahlen können die Mehrheit im Bundesrat verändern. Regieren wird dann schwieriger."
+    },
+    {
+      "id": "eb-u14-l08-probetest-7-ex07",
+      "type": "choice",
+      "title": "Frage 100 · Block 4",
+      "prompt": "Was gehört nicht zur gesetzlichen Sozialversicherung?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die gesetzliche Rentenversicherung"
+        },
+        {
+          "id": "b",
+          "text": "die Lebensversicherung"
+        },
+        {
+          "id": "c",
+          "text": "die Arbeitslosenversicherung"
+        },
+        {
+          "id": "d",
+          "text": "die Pflegeversicherung"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Correct answer:** die Lebensversicherung\n\n**Lebensversicherung** (life insurance) is a private contract, you choose it, a company sells it.\n\nRenten-, Arbeitslosen-, Pflegeversicherung are three of the five statutory pillars (→Q36). Test technique: see \"gesetzlich\" (statutory) in the question → eliminate anything you'd buy from an insurance salesman. Fun fact you'll appreciate: your Rentenversicherungsverlauf, one of your application documents, is the paper trail of pillar #2.\n\n## Auf Deutsch\n\nDie Lebensversicherung ist privat, keine gesetzliche Sozialversicherung."
+    },
+    {
+      "id": "eb-u14-l08-probetest-7-ex08",
+      "type": "choice",
+      "title": "Frage 105 · Block 5",
+      "prompt": "Was ist eine Aufgabe von Wahlhelfern und Wahlhelferinnen in Deutschland?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Sie helfen Kindern und alten Menschen beim Ausfüllen des Stimmzettels"
+        },
+        {
+          "id": "b",
+          "text": "Sie schreiben die Wahlprogramme der Parteien"
+        },
+        {
+          "id": "c",
+          "text": "Sie zählen die Stimmen nach dem Ende der Wahl"
+        },
+        {
+          "id": "d",
+          "text": "Sie berichten für die Zeitungen über die Wahl"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**Correct answer:** Sie zählen die Stimmen nach dem Ende der Wahl\n\n**Wahlhelfer** = volunteer poll workers: they run the polling station and, once it closes, **count every ballot by hand**, publicly. Germany's elections use no voting machines, transparency through countable paper.\n\nNobody may \"help\" fill in your ballot (violates *geheim*, →Q112); programs are written by parties; reporting is journalism. →Q282: citizens can even be *required* to serve, one of very few compulsory civic duties.\n\n## Auf Deutsch\n\nWahlhelfer zählen nach dem Ende der Wahl die Stimmen."
+    },
+    {
+      "id": "eb-u14-l08-probetest-7-ex09",
+      "type": "choice",
+      "title": "Frage 106 · Block 5",
+      "prompt": "In Deutschland helfen ehrenamtliche Wahlhelfer und Wahlhelferinnen bei den Wahlen. Was ist eine ihrer Aufgaben?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Sie kontrollieren die Wahlwerbung der Parteien"
+        },
+        {
+          "id": "b",
+          "text": "Sie zählen die Stimmen aus"
+        },
+        {
+          "id": "c",
+          "text": "Sie entscheiden, welche Partei gewinnen soll"
+        },
+        {
+          "id": "d",
+          "text": "Sie schreiben die Wahlbenachrichtigungen"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Correct answer:** Sie zählen die Stimmen aus\n\n→Q105, twin phrasing. C is absurd on purpose (counters *decide* nothing, they count); the Gemeinde's administration, not the volunteers, mails the notifications (D, →Q126); campaign ads are checked by no poll worker (A).\n\n## Auf Deutsch\n\nEhrenamtliche Wahlhelfer zählen die Stimmen aus."
+    },
+    {
+      "id": "eb-u14-l08-probetest-7-ex10",
+      "type": "choice",
+      "title": "Frage 109 · Block 5",
+      "prompt": "Wie oft gibt es normalerweise Bundestagswahlen in Deutschland?",
+      "options": [
+        {
+          "id": "a",
+          "text": "alle drei Jahre"
+        },
+        {
+          "id": "b",
+          "text": "alle vier Jahre"
+        },
+        {
+          "id": "c",
+          "text": "alle fünf Jahre"
+        },
+        {
+          "id": "d",
+          "text": "alle sechs Jahre"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Correct answer:** alle vier Jahre\n\n→Q107 as frequency. \"Normalerweise\" hints at the exception (early elections, most recently February 2025) without changing the rule.\n\n## Auf Deutsch\n\nBundestagswahlen gibt es normalerweise alle vier Jahre."
+    },
+    {
+      "id": "eb-u14-l08-probetest-7-ex11",
+      "type": "choice",
+      "title": "Frage 128 · Block 5",
+      "prompt": "Parlamentsmitglieder, die von den Bürgern und Bürgerinnen gewählt werden, nennt man …",
+      "options": [
+        {
+          "id": "a",
+          "text": "Abgeordnete"
+        },
+        {
+          "id": "b",
+          "text": "Kanzler/Kanzlerinnen"
+        },
+        {
+          "id": "c",
+          "text": "Botschafter/Botschafterinnen"
+        },
+        {
+          "id": "d",
+          "text": "Ministerpräsidenten/Ministerpräsidentinnen"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Correct answer:** Abgeordnete\n\n**Abgeordnete** = MPs at any level (Bundestag, Landtag, EU). Botschafter are ambassadors (appointed diplomats); Kanzler and Ministerpräsidenten are elected by *parliaments*, not directly by citizens (→Q81, →Q37).\n\n## Auf Deutsch\n\nGewählte Parlamentsmitglieder heißen Abgeordnete."
+    },
+    {
+      "id": "eb-u14-l08-probetest-7-ex12",
+      "type": "choice",
+      "title": "Frage 132 · Block 5",
+      "prompt": "Viele Menschen in Deutschland arbeiten in ihrer Freizeit ehrenamtlich. Was bedeutet das?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Sie arbeiten als Soldaten und Soldatinnen"
+        },
+        {
+          "id": "b",
+          "text": "Sie arbeiten freiwillig und unbezahlt in Vereinen und Verbänden"
+        },
+        {
+          "id": "c",
+          "text": "Sie arbeiten in der Bundesregierung"
+        },
+        {
+          "id": "d",
+          "text": "Sie arbeiten schwarz und zahlen keine Steuern"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Correct answer:** Sie arbeiten freiwillig und unbezahlt in Vereinen und Verbänden\n\n**Ehrenamt** = voluntary, unpaid engagement, sports-club trainers, volunteer fire brigades (most German fire protection is volunteer!), food banks, refugee help. ~30 million Germans do it; it's the social glue the state openly depends on.\n\nD, \"schwarz arbeiten\" means illegal undeclared *paid* work, the opposite of Ehrenamt's transparency. **DE→EN:** das Ehrenamt = honorary/volunteer office. Kita parent councils count too, your entry point next year.\n\n## Auf Deutsch\n\nEhrenamt = freiwillige, unbezahlte Arbeit, z. B. im Verein.\n\n**Vocabulary (Wortschatz):** das Ehrenamt = honorary/volunteer office. Kita parent councils count too, your entry point next year."
+    },
+    {
+      "id": "eb-u14-l08-probetest-7-ex13",
+      "type": "choice",
+      "title": "Frage 133 · Block 5",
+      "prompt": "Was ist bei Bundestags- und Landtagswahlen in Deutschland erlaubt?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Der Ehemann wählt für seine Frau mit"
+        },
+        {
+          "id": "b",
+          "text": "Man kann durch Briefwahl seine Stimme abgeben"
+        },
+        {
+          "id": "c",
+          "text": "Man kann telefonisch seine Stimme abgeben"
+        },
+        {
+          "id": "d",
+          "text": "Kinder ab dem Alter von 14 Jahren dürfen wählen"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Correct answer:** Man kann durch Briefwahl seine Stimme abgeben\n\n**Briefwahl**, postal voting, requested via the Wahlbenachrichtigung, now used by roughly half of voters.\n\nA violates *geheim* and *unmittelbar*, nobody votes for another adult, spouses included (each person's vote is their own; worth saying aloud in a marriage 😉); C doesn't exist (no phone/online voting, paper only, →Q105); D. Bundestag voting age is 18 (→Q94).\n\n## Auf Deutsch\n\nBriefwahl ist erlaubt, man kann per Post wählen."
+    },
+    {
+      "id": "eb-u14-l08-probetest-7-ex14",
+      "type": "choice",
+      "title": "Frage 152 · Block 7",
+      "prompt": "Wann waren die Nationalsozialisten mit Adolf Hitler in Deutschland an der Macht?",
+      "options": [
+        {
+          "id": "a",
+          "text": "1918 bis 1923"
+        },
+        {
+          "id": "b",
+          "text": "1932 bis 1950"
+        },
+        {
+          "id": "c",
+          "text": "1933 bis 1945"
+        },
+        {
+          "id": "d",
+          "text": "1945 bis 1961"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**Correct answer:** 1933 bis 1945\n\n**1933–1945**, twelve years that define German memory politics.\n\nA is the early Weimar Republic; B stretches across the 1945 defeat (impossible); D is the *postwar* era. Anchor both ends: 30.01.1933 appointment (→Q156), 08.05.1945 capitulation (→Q153).\n\n## Auf Deutsch\n\nDie Nationalsozialisten waren 1933 bis 1945 an der Macht."
+    },
+    {
+      "id": "eb-u14-l08-probetest-7-ex15",
+      "type": "choice",
+      "title": "Frage 167 · Block 7",
+      "prompt": "Welche Länder wurden nach dem Zweiten Weltkrieg in Deutschland als „Alliierte Besatzungsmächte\" bezeichnet?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Sowjetunion, Großbritannien, Polen, Schweden"
+        },
+        {
+          "id": "b",
+          "text": "Frankreich, Sowjetunion, Italien, Japan"
+        },
+        {
+          "id": "c",
+          "text": "USA, Sowjetunion, Spanien, Portugal"
+        },
+        {
+          "id": "d",
+          "text": "USA, Sowjetunion, Großbritannien, Frankreich"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**Correct answer:** USA, Sowjetunion, Großbritannien, Frankreich\n\nThe Big Four: **USA, Soviet Union, Great Britain, France**, each ran a zone (→Q175) and a Berlin sector (→Q177). France was added at Yalta despite defeat in 1940; the neutral and Axis states in A–C are the tells (Sweden/Spain/Portugal neutral; Italy/Japan were Germany's *allies*). Local note: Niedersachsen was in the **British** zone; the British created it on 1 November 1946 by merging Hannover, Oldenburg, Braunschweig and Schaumburg-Lippe.\n\n## Auf Deutsch\n\nDie vier Alliierten: USA, Sowjetunion, Großbritannien, Frankreich."
+    },
+    {
+      "id": "eb-u14-l08-probetest-7-ex16",
+      "type": "choice",
+      "title": "Frage 174 · Block 7",
+      "prompt": "Wann wurde die DDR gegründet?",
+      "options": [
+        {
+          "id": "a",
+          "text": "1947"
+        },
+        {
+          "id": "b",
+          "text": "1949"
+        },
+        {
+          "id": "c",
+          "text": "1953"
+        },
+        {
+          "id": "d",
+          "text": "1961"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Correct answer:** 1949\n\n**7 October 1949**, five months after the BRD. Same year, two states, two systems: the question pair Q169/Q174 is really one fact: *1949 = double founding.*\n\n## Auf Deutsch\n\nDie DDR wurde 1949 gegründet."
+    },
+    {
+      "id": "eb-u14-l08-probetest-7-ex17",
+      "type": "choice",
+      "title": "Frage 178 · Block 7",
+      "prompt": "Vom Juni 1948 bis zum Mai 1949 wurden die West-Berliner von den Westalliierten mit einer Luftbrücke versorgt. Warum?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Die Sowjetunion unterbrach den gesamten Verkehr auf dem Landweg"
+        },
+        {
+          "id": "b",
+          "text": "Die Straßen nach West-Berlin waren nach dem Krieg noch zerstört"
+        },
+        {
+          "id": "c",
+          "text": "Die Westalliierten wollten ihre neuen Flugzeuge testen"
+        },
+        {
+          "id": "d",
+          "text": "Es war billiger, die Waren mit dem Flugzeug zu transportieren"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Correct answer:** Die Sowjetunion unterbrach den gesamten Verkehr auf dem Landweg\n\nStalin's **Berlin blockade**: all land and water routes to West Berlin cut (his answer to the western currency reform). The Allies flew in *everything*, coal, flour, medicine, for eleven months (\"Rosinenbomber\"), until the blockade collapsed. Strategic aftershock: yesterday's occupiers became protectors; West Germany's Westbindung (→Q165) had its founding legend.\n\n## Auf Deutsch\n\nBerliner Luftbrücke 1948/49: Die Sowjetunion blockierte alle Landwege nach West-Berlin."
+    },
+    {
+      "id": "eb-u14-l08-probetest-7-ex18",
+      "type": "choice",
+      "title": "Frage 186 · Block 8",
+      "prompt": "Im Jahr 1953 gab es einen Aufstand in der DDR. Wogegen richtete er sich?",
+      "options": [
+        {
+          "id": "a",
+          "text": "gegen die Politik der Regierung der DDR"
+        },
+        {
+          "id": "b",
+          "text": "gegen die Westalliierten"
+        },
+        {
+          "id": "c",
+          "text": "gegen den Bau der Mauer"
+        },
+        {
+          "id": "d",
+          "text": "gegen die Kirchen"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Correct answer:** gegen die Politik der Regierung der DDR\n\n**17. Juni 1953**: construction workers' protest against raised work quotas exploded into a nationwide uprising against the SED regime, free elections demanded, Soviet tanks answered; dozens killed. West Germany named its national holiday after the date until 1990.\n\nC is a time-trap, the Wall came *eight years later* (1961); the uprising is one reason it eventually did. Date retested →Q210 (Teil 3).\n\n## Auf Deutsch\n\nDer Aufstand vom 17. Juni 1953 richtete sich gegen die DDR-Regierung."
+    },
+    {
+      "id": "eb-u14-l08-probetest-7-ex19",
+      "type": "choice",
+      "title": "Frage 192 · Block 8",
+      "prompt": "Welches heutige deutsche Bundesland gehörte früher zum Gebiet der DDR?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Brandenburg"
+        },
+        {
+          "id": "b",
+          "text": "Bayern"
+        },
+        {
+          "id": "c",
+          "text": "Saarland"
+        },
+        {
+          "id": "d",
+          "text": "Hessen"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Correct answer:** Brandenburg\n\nFirst of the \"neue Länder\" series. Memorize the five once: **Brandenburg, Mecklenburg-Vorpommern, Sachsen, Sachsen-Anhalt, Thüringen** (Berlin is its own case, divided city, reunited capital). BAMF asks this repeatedly with rotating options (→Q195, 197, 198, 200, 201): five memorized names = up to six free points. Geography hook: all five lie east/northeast; Bayern, Hessen, Saarland are deep west/south.\n\n## Auf Deutsch\n\nBrandenburg gehörte zur DDR."
+    },
+    {
+      "id": "eb-u14-l08-probetest-7-ex20",
+      "type": "choice",
+      "title": "Frage 196 · Block 8",
+      "prompt": "Warum nennt man die Zeit im Herbst 1989 in der DDR „Die Wende\"? In dieser Zeit veränderte sich die DDR politisch …",
+      "options": [
+        {
+          "id": "a",
+          "text": "von einer Diktatur zur Demokratie"
+        },
+        {
+          "id": "b",
+          "text": "von einer Demokratie zur Diktatur"
+        },
+        {
+          "id": "c",
+          "text": "von einer Monarchie zur Republik"
+        },
+        {
+          "id": "d",
+          "text": "von einem Kaiserreich zur Räterepublik"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Correct answer:** von einer Diktatur zur Demokratie\n\n**Die Wende** = \"the turnaround\": SED rule collapsed under peaceful mass pressure; free Volkskammer elections followed (March 1990, the DDR's first and last), then unification. Direction matters: dictatorship → democracy (B reverses it; C/D describe 1918).\n\n## Auf Deutsch\n\n„Die Wende“ 1989: von der Diktatur zur Demokratie."
+    },
+    {
+      "id": "eb-u14-l08-probetest-7-ex21",
+      "type": "choice",
+      "title": "Frage 205 · Block 9",
+      "prompt": "Seit der Wiedervereinigung Deutschlands gehören die neuen Bundesländer auch zur …",
+      "options": [
+        {
+          "id": "a",
+          "text": "EFTA"
+        },
+        {
+          "id": "b",
+          "text": "Europäischen Union"
+        },
+        {
+          "id": "c",
+          "text": "OPEC"
+        },
+        {
+          "id": "d",
+          "text": "NATO-Osterweiterung"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Correct answer:** Europäischen Union\n\nBecause the *existing* Federal Republic simply grew (→Q204), the five new Länder entered the **EU** (then EC) automatically on 03.10.1990, the only territory ever to join without an accession process. Ossis woke up as EU citizens.\n\nEFTA is the non-EU trade club (Norway, Switzerland); OPEC is oil states; D is a process, not a membership, though the NVA's territory did join NATO too, the tested answer is the EU.\n\n## Auf Deutsch\n\nSeit der Wiedervereinigung gehören die neuen Länder auch zur EU."
+    },
+    {
+      "id": "eb-u14-l08-probetest-7-ex22",
+      "type": "choice",
+      "title": "Frage 209 · Block 9",
+      "prompt": "Welches war das Wappen der Deutschen Demokratischen Republik?",
+      "figure": {
+        "images": [
+          {
+            "src": "/images/eb/q21-bild-1.png",
+            "alt": "A black eagle with a red beak and red claws on a golden-yellow shield",
+            "label": "Bild 1"
+          },
+          {
+            "src": "/images/eb/q21-bild-2.png",
+            "alt": "A black symbol made of two crossed letters, X and P",
+            "label": "Bild 2"
+          },
+          {
+            "src": "/images/eb/q21-bild-3.png",
+            "alt": "A grey cross with flared arms, framed in dark blue and white",
+            "label": "Bild 3"
+          },
+          {
+            "src": "/images/eb/q21-bild-4.png",
+            "alt": "A golden hammer and compass on a red circle, framed by ears of wheat and a black-red-gold ribbon",
+            "label": "Bild 4"
+          }
+        ],
+        "credit": "Bilder: BAMF, Gesamtfragenkatalog „Leben in Deutschland“ (Stand 07.05.2025)"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": "Bild 1"
+        },
+        {
+          "id": "b",
+          "text": "Bild 2"
+        },
+        {
+          "id": "c",
+          "text": "Bild 3"
+        },
+        {
+          "id": "d",
+          "text": "Bild 4"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**Correct answer:** Bild 4\n\n*Picture question (Bildfrage):* the pictures above are the ones from the official question catalogue.\n\nCorrect: Hammer und Zirkel im Ährenkranz (hammer and compass inside a wreath of grain).\n\n**The pictures:** Bild 1 = Bundesadler (→Q21) · Bild 2 = Christusmonogramm (Chi-Rho, a Christian symbol) · Bild 3 = Eisernes Kreuz of the Bundeswehr · Bild 4 = coat of arms of the DDR (correct).\n\nDecode it once and it sticks: **Hammer** = workers, **Zirkel** (drafting compass) = the \"intelligentsia,\" **Ährenkranz** = farmers, the SED's claimed class alliance (→Q187 for the flag version). Distractors: the Bundesadler (→Q21), Länder arms, or the plain tricolor. Another Online-Testcenter must-see image.\n\n## Auf Deutsch\n\nDas DDR-Wappen: Hammer und Zirkel im Ährenkranz."
+    },
+    {
+      "id": "eb-u14-l08-probetest-7-ex23",
+      "type": "choice",
+      "title": "Frage 212 · Block 10",
+      "prompt": "Wie heißt Deutschland mit vollem Namen?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Bundesrepublik Deutschland"
+        },
+        {
+          "id": "b",
+          "text": "Vereinigte Staaten von Deutschland"
+        },
+        {
+          "id": "c",
+          "text": "Deutsche Nation"
+        },
+        {
+          "id": "d",
+          "text": "Bundesländer Deutschlands"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Correct answer:** Bundesrepublik Deutschland\n\nOfficial name since 1949, unchanged through unification, the DDR joined *the Bundesrepublik*; no new name, no new state (→Q204). B imports the US naming pattern; C and D aren't state names at all.\n\n## Auf Deutsch\n\nDer volle Name: Bundesrepublik Deutschland."
+    },
+    {
+      "id": "eb-u14-l08-probetest-7-ex24",
+      "type": "choice",
+      "title": "Frage 218 · Block 10",
+      "prompt": "Wie viele Bundesländer kamen bei der Wiedervereinigung 1990 zur Bundesrepublik Deutschland hinzu?",
+      "options": [
+        {
+          "id": "a",
+          "text": "4"
+        },
+        {
+          "id": "b",
+          "text": "5"
+        },
+        {
+          "id": "c",
+          "text": "6"
+        },
+        {
+          "id": "d",
+          "text": "7"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Correct answer:** 5\n\nThe **five neue Länder** (→Q192–200's list), 11 → 16 Länder (→Q24). Berlin doesn't count as \"added\". West Berlin was already (special-status) Federal Republic; the city *reunited* rather than acceded. 10 old + 5 new + Berlin = 16.\n\n## Auf Deutsch\n\n1990 kamen 5 neue Bundesländer dazu."
+    },
+    {
+      "id": "eb-u14-l08-probetest-7-ex25",
+      "type": "choice",
+      "title": "Frage 228 · Block 10",
+      "prompt": "Wie wird der Beitritt der DDR zur Bundesrepublik Deutschland im Jahr 1990 allgemein genannt?",
+      "options": [
+        {
+          "id": "a",
+          "text": "deutsche Wiedervereinigung"
+        },
+        {
+          "id": "b",
+          "text": "EU-Osterweiterung"
+        },
+        {
+          "id": "c",
+          "text": "Marshallplan"
+        },
+        {
+          "id": "d",
+          "text": "Westintegration"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Correct answer:** deutsche Wiedervereinigung\n\n**Wiedervereinigung** (reunification), \"wieder\" because Germany had been one state 1871–1945.\n\nEU-Osterweiterung = the 2004+ accession of Poland, Czechia etc.; Marshallplan = 1948 US reconstruction aid; Westintegration = Adenauer's 1950s alliance policy (→Q165). Each wrong option is a *different* chapter heading of postwar history, the question checks your table of contents.\n\n## Auf Deutsch\n\nDer Beitritt der DDR 1990 heißt deutsche Wiedervereinigung."
+    },
+    {
+      "id": "eb-u14-l08-probetest-7-ex26",
+      "type": "choice",
+      "title": "Frage 234 · Block 10",
+      "prompt": "Wo ist ein Sitz des Europäischen Parlaments?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Straßburg"
+        },
+        {
+          "id": "b",
+          "text": "London"
+        },
+        {
+          "id": "c",
+          "text": "Madrid"
+        },
+        {
+          "id": "d",
+          "text": "Zürich"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Correct answer:** Straßburg\n\n**Straßburg**, the plenary seat, deliberately in the French-German border city that changed hands four times in 75 years: parliament as peace symbol (→Q235). London left the EU; Madrid never hosted; Zürich isn't even EU (Switzerland). Full three-city answer →Q238.\n\n## Auf Deutsch\n\nEin Sitz des Europäischen Parlaments ist Straßburg."
+    },
+    {
+      "id": "eb-u14-l08-probetest-7-ex27",
+      "type": "choice",
+      "title": "Frage 235 · Block 10",
+      "prompt": "Die Bundeskanzler Helmut Kohl und der französische Staatspräsident François Mitterrand gedachten 1984 in Verdun gemeinsam der Toten beider Weltkriege. Welches Ziel der Europäischen Union wird bei diesem Treffen deutlich?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Frieden und Sicherheit in den Ländern der EU"
+        },
+        {
+          "id": "b",
+          "text": "einheitliche Steuern in allen EU-Ländern"
+        },
+        {
+          "id": "c",
+          "text": "eine gemeinsame Hauptstadt für alle Staaten"
+        },
+        {
+          "id": "d",
+          "text": "wirtschaftlicher Gewinn für Deutschland"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Correct answer:** Frieden und Sicherheit in den Ländern der EU\n\nThe photo. Kohl and Mitterrand spontaneously **holding hands** over Verdun's graves (300,000 dead in one 1916 battle), is the EU's purpose in one frame: **nie wieder Krieg** between European neighbors. Economics (D) was always the means; peace the end. France and Germany fought three wars in 70 years (1870, 1914, 1939), and none since integration began. Use this image in your interview when asked why the EU matters.\n\n## Auf Deutsch\n\nKohl und Mitterrand: gemeinsames Ziel Frieden und Sicherheit in der EU."
+    },
+    {
+      "id": "eb-u14-l08-probetest-7-ex28",
+      "type": "choice",
+      "title": "Frage 251 · Block 11",
+      "prompt": "Wenn man in Deutschland ein Kind schlägt, …",
+      "options": [
+        {
+          "id": "a",
+          "text": "kann man dafür bestraft werden"
+        },
+        {
+          "id": "b",
+          "text": "ist das erlaubt, wenn es die eigenen Eltern tun"
+        },
+        {
+          "id": "c",
+          "text": "geht das niemanden etwas an"
+        },
+        {
+          "id": "d",
+          "text": "ist das nur in der Schule verboten"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Correct answer:** kann man dafür bestraft werden\n\n§1631(2) BGB: children have a statutory right to a **gewaltfreie Erziehung**, violence-free upbringing. No corporal punishment, not by teachers (banned decades ago), not by parents (banned since 2000). \"Eine Ohrfeige hat noch niemandem geschadet\" is legally dead.\n\nB was the old law, explicitly repealed; C, child welfare is *everyone's* business (report to Jugendamt →Q258); D reverses history. Values question: children are rights-holders, not property.\n\n## Auf Deutsch\n\nKinder zu schlagen ist verboten. Kinder haben ein Recht auf gewaltfreie Erziehung."
+    },
+    {
+      "id": "eb-u14-l08-probetest-7-ex29",
+      "type": "choice",
+      "title": "Frage 266 · Block 11",
+      "prompt": "Wann beginnt in Deutschland die gesetzliche Nachtruhe?",
+      "options": [
+        {
+          "id": "a",
+          "text": "um 20 Uhr"
+        },
+        {
+          "id": "b",
+          "text": "um 22 Uhr"
+        },
+        {
+          "id": "c",
+          "text": "um 24 Uhr"
+        },
+        {
+          "id": "d",
+          "text": "wenn die Nachbarn schlafen gehen"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Correct answer:** um 22 Uhr\n\n**22:00–06:00**. Nachtruhe (quiet hours) per Land immission laws and every Hausordnung (→Q279): no drilling, no loud music, washing machines debated at every Mieterverein. Violations = Ordnungswidrigkeit (→Q139's category), Ordnungsamt's beat (→Q56). Deutschland-Alltagskunde at its purest, and genuinely useful to know before your neighbor knows it at you.\n\n## Auf Deutsch\n\nDie gesetzliche Nachtruhe beginnt um 22 Uhr."
+    },
+    {
+      "id": "eb-u14-l08-probetest-7-ex30",
+      "type": "choice",
+      "title": "Frage 293 · Block 12",
+      "prompt": "Was ist in Deutschland ein Brauch zu Ostern?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Eier bemalen"
+        },
+        {
+          "id": "b",
+          "text": "einen Tannenbaum schmücken"
+        },
+        {
+          "id": "c",
+          "text": "Feuerwerk zünden"
+        },
+        {
+          "id": "d",
+          "text": "Masken und Kostüme tragen"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Correct answer:** Eier bemalen\n\n**Ostereier** (+ egg hunts the Osterhase allegedly organizes). Q271's mirror, same four customs, festival rotated. Kita will handle your family's practical education in both within a year.\n\n## Auf Deutsch\n\nOsterbrauch: Eier bemalen."
+    },
+    {
+      "id": "eb-u14-l08-probetest-7-ex31",
+      "type": "choice",
+      "title": "NDS 2 · Landesfrage",
+      "prompt": "Welches ist ein Landkreis in Niedersachsen?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ammerland"
+        },
+        {
+          "id": "b",
+          "text": "Rhein-Sieg-Kreis"
+        },
+        {
+          "id": "c",
+          "text": "Nordfriesland"
+        },
+        {
+          "id": "d",
+          "text": "Vogtlandkreis"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Correct answer:** Ammerland\n\n**Ammerland**, a rural district in the northwest near Oldenburg (Kreisstadt Westerstede), known for its rhododendron parks and the Zwischenahner Meer.\n\nRhein-Sieg-Kreis = NRW (around Bonn), Nordfriesland = Schleswig-Holstein (the North Frisian coast), Vogtlandkreis = Sachsen. Technique: river and region names place districts: \"Rhein-\" points west, \"Vogtland\" to the far southeast. Trap: Niedersachsen does have a Landkreis *Friesland* (around Jever), but *Nord*friesland is Schleswig-Holstein.\n\n## Auf Deutsch\n\nDer Landkreis Ammerland (bei Oldenburg, Kreisstadt Westerstede) liegt in Niedersachsen."
+    },
+    {
+      "id": "eb-u14-l08-probetest-7-ex32",
+      "type": "choice",
+      "title": "NDS 4 · Landesfrage",
+      "prompt": "Ab welchem Alter darf man in Niedersachsen bei Kommunalwahlen wählen?",
+      "options": [
+        {
+          "id": "a",
+          "text": "14"
+        },
+        {
+          "id": "b",
+          "text": "16"
+        },
+        {
+          "id": "c",
+          "text": "18"
+        },
+        {
+          "id": "d",
+          "text": "20"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Correct answer:** 16\n\nFrom **16**: Niedersachsen's Kommunalwahlen (Gemeinderat, Stadtrat, Kreistag, Bürgermeister, Landrat) are open to 16-year-olds. The age ladder (→Q94, Q246): **16** Kommunalwahl in Niedersachsen + Europawahl · **18** Landtag + Bundestag.\n\n## Auf Deutsch\n\nBei Kommunalwahlen in Niedersachsen darf man ab 16 Jahren wählen."
+    },
+    {
+      "id": "eb-u14-l08-probetest-7-ex33",
+      "type": "choice",
+      "title": "NDS 8 · Landesfrage",
+      "prompt": "Welches Bundesland ist Niedersachsen?",
+      "figure": {
+        "images": [
+          {
+            "src": "/images/eb/nds-8.jpg",
+            "alt": "Map of Germany with four Länder highlighted and numbered: 1 is a large Land in the northwest on the North Sea; 2 is in the middle of Germany; 3 lies east of it on the Elbe; 4 is in the southeast, on the borders with Poland and the Czech Republic."
+          }
+        ],
+        "credit": "Bilder: BAMF, Gesamtfragenkatalog „Leben in Deutschland“ (Stand 07.05.2025)"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": "Fläche 1"
+        },
+        {
+          "id": "b",
+          "text": "Fläche 2"
+        },
+        {
+          "id": "c",
+          "text": "Fläche 3"
+        },
+        {
+          "id": "d",
+          "text": "Fläche 4"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Correct answer:** Fläche 1\n\n*Picture question (Bildfrage):* the pictures above are the ones from the official question catalogue.\n\nCorrect: **area 1**, the large Land in the northwest, between the North Sea coast and the Harz, bordering the Netherlands.\n\nThe other highlighted areas: 2 = Thüringen, 3 = Sachsen-Anhalt, 4 = Sachsen. Anchors for Niedersachsen: the North Sea coast with the East Frisian islands, the border with the Netherlands, and the small hole in its middle (that's the city-state Bremen). By area it is the second-largest Land after Bayern.\n\n## Auf Deutsch\n\nNiedersachsen ist das große Land im Nordwesten (Fläche 1), an der Nordsee und rund um Bremen."
+    }
+  ]
+}

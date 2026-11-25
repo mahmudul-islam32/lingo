@@ -1,0 +1,281 @@
+{
+  "id": "tb1-u31-l17-passiv-p1",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u31",
+  "title": "The Passive: Passiv Präsens & Passiv Vergangenheit",
+  "tip": "“Das Haus ist 1990 gebaut” is incomplete, either “wurde 1990 gebaut” or “ist 1990 gebaut worden”.",
+  "exercises": [
+    {
+      "id": "tb1-u31-l17-passiv-p1-ex01",
+      "type": "explain",
+      "title": "Passiv Präsens",
+      "body": "werden + participle II: the action matters, not who does it.\n\n*Deutsch:* werden + Partizip II: Wichtig ist die Handlung, nicht wer sie macht.\n\n## Pattern\n\nSubjekt + **wird/werden** + … + **Partizip II**",
+      "examples": [
+        {
+          "learning": "Das Haus wird renoviert.",
+          "known": "The house is being renovated."
+        },
+        {
+          "learning": "Hier wird Deutsch gesprochen.",
+          "known": "German is spoken here."
+        }
+      ]
+    },
+    {
+      "id": "tb1-u31-l17-passiv-p1-ex02",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "The house is being renovated.",
+      "tiles": [
+        "Haus",
+        "wird",
+        "Termin",
+        "sehr",
+        "renoviert",
+        "diskutiert",
+        "Das"
+      ],
+      "answers": [
+        "Das Haus wird renoviert."
+      ],
+      "explanation": "**Why:** Who renovates? Unimportant.\n\n*Warum:* Wer renoviert? Unwichtig."
+    },
+    {
+      "id": "tb1-u31-l17-passiv-p1-ex03",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "German is spoken here.",
+      "tiles": [
+        "Hier",
+        "wird",
+        "gesprochen",
+        "beantwortet",
+        "Deutsch",
+        "gestohlen",
+        "Die"
+      ],
+      "answers": [
+        "Hier wird Deutsch gesprochen."
+      ],
+      "explanation": "**Why:** sprechen → gesprochen.\n\n*Warum:* sprechen → gesprochen."
+    },
+    {
+      "id": "tb1-u31-l17-passiv-p1-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "The letters are delivered every morning.",
+      "tiles": [
+        "repariert",
+        "___",
+        "werden",
+        "jeden",
+        "Die",
+        "Briefe",
+        "gebracht",
+        "Morgen",
+        "gestohlen"
+      ],
+      "answers": [
+        "Die Briefe werden jeden Morgen gebracht."
+      ],
+      "explanation": "**Why:** Plural → werden.\n\n*Warum:* Plural → werden."
+    },
+    {
+      "id": "tb1-u31-l17-passiv-p1-ex05",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "There's a lot of discussion in the course.",
+      "tiles": [
+        "werden",
+        "Im",
+        "wird",
+        "muss",
+        "viel",
+        "diskutiert",
+        "Hier",
+        "Kurs"
+      ],
+      "answers": [
+        "Im Kurs wird viel diskutiert."
+      ],
+      "explanation": "**Why:** Passive without a subject is possible.\n\n*Warum:* Passiv ohne Subjekt ist möglich."
+    },
+    {
+      "id": "tb1-u31-l17-passiv-p1-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "The rubbish is collected on Tuesday.",
+      "tiles": [
+        "werden",
+        "Dienstag",
+        "am",
+        "wurde",
+        "wird",
+        "abgeholt",
+        "Der",
+        "ist",
+        "Müll"
+      ],
+      "answers": [
+        "Der Müll wird am Dienstag abgeholt."
+      ],
+      "explanation": "**Why:** Typical in house rules.\n\n*Warum:* Typisch in Hausregeln."
+    },
+    {
+      "id": "tb1-u31-l17-passiv-p1-ex07",
+      "type": "explain",
+      "title": "Passiv Vergangenheit",
+      "body": "Simple past: wurde + participle. Perfect: ist + participle + worden.\n\n*Deutsch:* Präteritum: wurde + Partizip. Perfekt: ist + Partizip + worden.\n\n## Pattern\n\nSubjekt + **wurde** + … + **Partizip II** · **ist** … **Partizip II + worden**",
+      "examples": [
+        {
+          "learning": "Das Auto wurde gestern repariert.",
+          "known": "The car was repaired yesterday."
+        },
+        {
+          "learning": "Die Brücke wurde 1990 gebaut.",
+          "known": "The bridge was built in 1990."
+        }
+      ]
+    },
+    {
+      "id": "tb1-u31-l17-passiv-p1-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "The car was repaired yesterday.",
+      "tiles": [
+        "Das",
+        "gestern",
+        "repariert",
+        "Auto",
+        "wurde",
+        "Formular",
+        "Müll",
+        "Die"
+      ],
+      "answers": [
+        "Das Auto wurde gestern repariert."
+      ],
+      "explanation": "**Why:** Simple past passive: wurde … repariert.\n\n*Warum:* Präteritum Passiv: wurde … repariert."
+    },
+    {
+      "id": "tb1-u31-l17-passiv-p1-ex09",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "The bridge was built in 1990.",
+      "tiles": [
+        "muss",
+        "wird",
+        "Die",
+        "1990",
+        "nicht",
+        "gebaut",
+        "Brücke",
+        "wurde"
+      ],
+      "answers": [
+        "Die Brücke wurde 1990 gebaut."
+      ],
+      "explanation": "**Why:** Typical for history and news.\n\n*Warum:* Typisch für Geschichte und Nachrichten."
+    },
+    {
+      "id": "tb1-u31-l17-passiv-p1-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "My bike has been stolen.",
+      "tiles": [
+        "Mein",
+        "geliefert",
+        "zurzeit",
+        "gestohlen",
+        "Fahrrad",
+        "ist",
+        "repariert",
+        "worden"
+      ],
+      "answers": [
+        "Mein Fahrrad ist gestohlen worden."
+      ],
+      "explanation": "**Why:** Perfect passive: worden (not geworden!).\n\n*Warum:* Perfekt Passiv: worden (nicht geworden!)."
+    },
+    {
+      "id": "tb1-u31-l17-passiv-p1-ex11",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "We were welcomed very warmly.",
+      "tiles": [
+        "Wir",
+        "geputzt",
+        "sehr",
+        "werden",
+        "freundlich",
+        "wurden",
+        "empfangen",
+        "nicht"
+      ],
+      "answers": [
+        "Wir wurden sehr freundlich empfangen."
+      ],
+      "explanation": "**Why:** we → wurden.\n\n*Warum:* wir → wurden."
+    },
+    {
+      "id": "tb1-u31-l17-passiv-p1-ex12",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "The appointment has unfortunately been cancelled.",
+      "tiles": [
+        "Termin",
+        "abgesagt",
+        "repariert",
+        "darf",
+        "leider",
+        "Der",
+        "Die",
+        "worden",
+        "ist"
+      ],
+      "answers": [
+        "Der Termin ist leider abgesagt worden."
+      ],
+      "explanation": "**Why:** ist … abgesagt worden.\n\n*Warum:* ist … abgesagt worden."
+    },
+    {
+      "id": "tb1-u31-l17-passiv-p1-ex13",
+      "type": "choice",
+      "title": "Fill the gap",
+      "prompt": "In Deutschland ___ viel Brot gegessen.",
+      "options": [
+        {
+          "id": "a",
+          "text": "werden"
+        },
+        {
+          "id": "b",
+          "text": "wird"
+        },
+        {
+          "id": "c",
+          "text": "isst"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Singular (viel Brot) → wird gegessen. Typisches „man“-Ersatz-Passiv."
+    },
+    {
+      "id": "tb1-u31-l17-passiv-p1-ex14",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Word order: put all the words in the correct order.",
+      "tiles": [
+        "repariert",
+        "Das",
+        "muss",
+        "werden",
+        "Fenster"
+      ],
+      "answers": [
+        "Das Fenster muss repariert werden"
+      ],
+      "explanation": "Passiv mit Modalverb: … muss repariert werden (Infinitiv am Ende)."
+    }
+  ]
+}

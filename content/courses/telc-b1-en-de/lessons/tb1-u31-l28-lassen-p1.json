@@ -1,0 +1,298 @@
+{
+  "id": "tb1-u31-l28-lassen-p1",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u31",
+  "title": "lassen + brauchen … zu: lassen & lassen",
+  "tip": "„Ich repariere mein Handy“ = you do it YOURSELF. For a service: Ich lasse es reparieren. And brauchen needs zu: Du brauchst nicht ZU kommen.",
+  "exercises": [
+    {
+      "id": "tb1-u31-l28-lassen-p1-ex01",
+      "type": "explain",
+      "title": "lassen · machen lassen (Service)",
+      "body": "Someone else does it for me. lassen + infinitive, without zu.\n\n*Deutsch:* Jemand anders macht es für mich. lassen + Infinitiv, ohne zu.\n\n## Pattern\n\nSubjekt + **lasse** + Objekt + **Infinitiv**",
+      "examples": [
+        {
+          "learning": "Ich lasse mein Handy reparieren.",
+          "known": "I'm having my phone repaired."
+        },
+        {
+          "learning": "Sie lässt sich die Haare schneiden.",
+          "known": "She's having her hair cut."
+        }
+      ]
+    },
+    {
+      "id": "tb1-u31-l28-lassen-p1-ex02",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I'm having my phone repaired.",
+      "tiles": [
+        "reparieren",
+        "Handy",
+        "der",
+        "lasse",
+        "mein",
+        "schlafen",
+        "kommen",
+        "Ich"
+      ],
+      "answers": [
+        "Ich lasse mein Handy reparieren."
+      ],
+      "explanation": "**Why:** I don't repair it myself – a professional does.\n\n*Warum:* Ich repariere nicht selbst – ein Profi macht es."
+    },
+    {
+      "id": "tb1-u31-l28-lassen-p1-ex03",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "She's having her hair cut.",
+      "tiles": [
+        "Haare",
+        "die",
+        "zu",
+        "lassen",
+        "schneiden",
+        "Sie",
+        "lässt",
+        "keinen",
+        "sich"
+      ],
+      "answers": [
+        "Sie lässt sich die Haare schneiden."
+      ],
+      "explanation": "**Why:** he/she → lässt (umlaut).\n\n*Warum:* er/sie → lässt (Umlaut)."
+    },
+    {
+      "id": "tb1-u31-l28-lassen-p1-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "We're having the flat painted.",
+      "tiles": [
+        "streichen",
+        "lasse",
+        "lassen",
+        "die",
+        "Werkstatt",
+        "Wohnung",
+        "Wir",
+        "der"
+      ],
+      "answers": [
+        "Wir lassen die Wohnung streichen."
+      ],
+      "explanation": "**Why:** Service from the painter.\n\n*Warum:* Service vom Maler."
+    },
+    {
+      "id": "tb1-u31-l28-lassen-p1-ex05",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I had the car repaired at the garage.",
+      "tiles": [
+        "unterschreiben",
+        "der",
+        "Ich",
+        "Werkstatt",
+        "mein",
+        "Auto",
+        "das",
+        "die",
+        "habe",
+        "lassen",
+        "reparieren",
+        "in"
+      ],
+      "answers": [
+        "Ich habe das Auto in der Werkstatt reparieren lassen."
+      ],
+      "explanation": "**Why:** Perfect: two infinitives (reparieren lassen).\n\n*Warum:* Perfekt: zwei Infinitive (reparieren lassen)."
+    },
+    {
+      "id": "tb1-u31-l28-lassen-p1-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Where do you get your bike repaired?",
+      "tiles": [
+        "Wo",
+        "Ihr",
+        "du",
+        "reparieren",
+        "kommen",
+        "nichts",
+        "Fahrrad",
+        "dein",
+        "lässt"
+      ],
+      "answers": [
+        "Wo lässt du dein Fahrrad reparieren?"
+      ],
+      "explanation": "**Why:** Asking about the service: lässt … reparieren.\n\n*Warum:* Frage nach dem Service: lässt … reparieren."
+    },
+    {
+      "id": "tb1-u31-l28-lassen-p1-ex07",
+      "type": "explain",
+      "title": "lassen · erlauben",
+      "body": "lassen = allow, not prevent.\n\n*Deutsch:* lassen = erlauben, nicht verhindern.\n\n## Pattern\n\nSubjekt + **lässt** + Person + **Infinitiv**",
+      "examples": [
+        {
+          "learning": "Meine Eltern lassen mich am Wochenende lange ausgehen.",
+          "known": "My parents let me go out late at weekends."
+        },
+        {
+          "learning": "Lass mich bitte ausreden!",
+          "known": "Please let me finish!"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u31-l28-lassen-p1-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "My parents let me go out late at weekends.",
+      "tiles": [
+        "Eltern",
+        "Fahrrad",
+        "Er",
+        "Wochenende",
+        "mich",
+        "am",
+        "lange",
+        "lassen",
+        "Hause",
+        "Meine",
+        "ausgehen"
+      ],
+      "answers": [
+        "Meine Eltern lassen mich am Wochenende lange ausgehen."
+      ],
+      "explanation": "**Why:** lassen = allow.\n\n*Warum:* lassen = erlauben."
+    },
+    {
+      "id": "tb1-u31-l28-lassen-p1-ex09",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Please let me finish!",
+      "tiles": [
+        "zu",
+        "reparieren",
+        "ausreden",
+        "Lass",
+        "bitte",
+        "schlafen",
+        "mich"
+      ],
+      "answers": [
+        "Lass mich bitte ausreden!"
+      ],
+      "explanation": "**Why:** Imperative with lassen.\n\n*Warum:* Imperativ mit lassen."
+    },
+    {
+      "id": "tb1-u31-l28-lassen-p1-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "The teacher lets us go home earlier.",
+      "tiles": [
+        "Sie",
+        "nach",
+        "Der",
+        "Du",
+        "früher",
+        "lässt",
+        "zu",
+        "uns",
+        "Lehrer",
+        "gehen",
+        "Hause"
+      ],
+      "answers": [
+        "Der Lehrer lässt uns früher nach Hause gehen."
+      ],
+      "explanation": "**Why:** uns = the person who is allowed.\n\n*Warum:* uns = die Person, die es darf."
+    },
+    {
+      "id": "tb1-u31-l28-lassen-p1-ex11",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Let me help you.",
+      "tiles": [
+        "Meine",
+        "am",
+        "Ihnen",
+        "mich",
+        "helfen",
+        "Sie",
+        "Lassen",
+        "Wochenende"
+      ],
+      "answers": [
+        "Lassen Sie mich Ihnen helfen."
+      ],
+      "explanation": "**Why:** Polite offer.\n\n*Warum:* Höfliches Angebot."
+    },
+    {
+      "id": "tb1-u31-l28-lassen-p1-ex12",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "He lets his dog sleep in the bed.",
+      "tiles": [
+        "Bett",
+        "Hund",
+        "im",
+        "lässt",
+        "Er",
+        "schneiden",
+        "Ich",
+        "→",
+        "schlafen",
+        "seinen"
+      ],
+      "answers": [
+        "Er lässt seinen Hund im Bett schlafen."
+      ],
+      "explanation": "**Why:** Permission for the dog.\n\n*Warum:* Erlaubnis für den Hund."
+    },
+    {
+      "id": "tb1-u31-l28-lassen-p1-ex13",
+      "type": "choice",
+      "title": "Fill the gap",
+      "prompt": "Du brauchst am Samstag nicht ___ arbeiten.",
+      "options": [
+        {
+          "id": "a",
+          "text": "(nichts)"
+        },
+        {
+          "id": "b",
+          "text": "zu"
+        },
+        {
+          "id": "c",
+          "text": "für"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "brauchen + nicht + ZU-Infinitiv: nicht zu arbeiten (= musst nicht)."
+    },
+    {
+      "id": "tb1-u31-l28-lassen-p1-ex14",
+      "type": "choice",
+      "title": "Fill the gap",
+      "prompt": "Der Lehrer lässt uns heute früher nach Hause ___.",
+      "options": [
+        {
+          "id": "a",
+          "text": "gehen"
+        },
+        {
+          "id": "b",
+          "text": "gegangen"
+        },
+        {
+          "id": "c",
+          "text": "zu gehen"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "lassen + Infinitiv OHNE zu: … nach Hause gehen."
+    }
+  ]
+}

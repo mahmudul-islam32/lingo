@@ -1,0 +1,290 @@
+{
+  "id": "tb1-u33-l14-erstnur-p1",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u33",
+  "title": "erst, nur, schon, noch, nicht mehr: erst vs. nur & schon ↔ noch nicht",
+  "tip": "erst ≠ nur: „erst 3 Kapitel“ = I keep reading · „nur 3 Kapitel“ = the book is short. In listening tasks exactly this difference decides true/false.",
+  "exercises": [
+    {
+      "id": "tb1-u33-l14-erstnur-p1-ex01",
+      "type": "explain",
+      "title": "erst vs. nur",
+      "body": "erst = later/less than expected, it continues. nur = no more than that, the end.\n\n*Deutsch:* erst = später/weniger als erwartet, es geht weiter. nur = nicht mehr, Ende.\n\n## Pattern\n\n**erst** (noch nicht mehr, aber bald) · **nur** (genau so viel)",
+      "examples": [
+        {
+          "learning": "Es ist erst acht Uhr.",
+          "known": "It's only eight o'clock."
+        },
+        {
+          "learning": "Ich lerne erst seit einem Monat Deutsch.",
+          "known": "I've only been learning German for a month."
+        }
+      ]
+    },
+    {
+      "id": "tb1-u33-l14-erstnur-p1-ex02",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "It's only eight o'clock.",
+      "tiles": [
+        "zehn",
+        "ist",
+        "acht",
+        "erst",
+        "Ich",
+        "Uhr",
+        "noch",
+        "Es"
+      ],
+      "answers": [
+        "Es ist erst acht Uhr."
+      ],
+      "explanation": "**Why:** Earlier than thought – the day goes on.\n\n*Warum:* Früher als gedacht – der Tag geht weiter."
+    },
+    {
+      "id": "tb1-u33-l14-erstnur-p1-ex03",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I've only been learning German for a month.",
+      "tiles": [
+        "zehn",
+        "lerne",
+        "Deutsch",
+        "Monat",
+        "Herr",
+        "seit",
+        "erst",
+        "einem",
+        "du",
+        "Ich"
+      ],
+      "answers": [
+        "Ich lerne erst seit einem Monat Deutsch."
+      ],
+      "explanation": "**Why:** Short time, but it continues.\n\n*Warum:* Kurze Zeit, aber es geht weiter."
+    },
+    {
+      "id": "tb1-u33-l14-erstnur-p1-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "That only costs ten euros.",
+      "tiles": [
+        "Euro",
+        "ist",
+        "Das",
+        "nur",
+        "einen",
+        "kostet",
+        "Deutsch",
+        "zehn"
+      ],
+      "answers": [
+        "Das kostet nur zehn Euro."
+      ],
+      "explanation": "**Why:** No more than ten euros.\n\n*Warum:* Nicht mehr als zehn Euro."
+    },
+    {
+      "id": "tb1-u33-l14-erstnur-p1-ex05",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "The doctor isn't coming until eleven.",
+      "tiles": [
+        "mehr",
+        "erst",
+        "um",
+        "Arzt",
+        "Der",
+        "Monaten",
+        "Sohn",
+        "kommt",
+        "elf"
+      ],
+      "answers": [
+        "Der Arzt kommt erst um elf."
+      ],
+      "explanation": "**Why:** Later than expected → erst.\n\n*Warum:* Später als erwartet → erst."
+    },
+    {
+      "id": "tb1-u33-l14-erstnur-p1-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I only have one brother.",
+      "tiles": [
+        "habe",
+        "Nein",
+        "Ich",
+        "einen",
+        "nur",
+        "Bist",
+        "Bruder",
+        "acht"
+      ],
+      "answers": [
+        "Ich habe nur einen Bruder."
+      ],
+      "explanation": "**Why:** Exactly one, no more.\n\n*Warum:* Genau einer, nicht mehr."
+    },
+    {
+      "id": "tb1-u33-l14-erstnur-p1-ex07",
+      "type": "explain",
+      "title": "schon ↔ noch nicht",
+      "body": "schon = already / earlier than expected. Opposite: noch nicht (not yet).\n\n*Deutsch:* schon = früher als erwartet / bereits. Gegenteil: noch nicht.\n\n## Pattern\n\n… **schon** … ↔ … **noch nicht** …",
+      "examples": [
+        {
+          "learning": "Hast du schon gegessen?",
+          "known": "Have you eaten yet?"
+        },
+        {
+          "learning": "Nein, ich habe noch nicht gegessen.",
+          "known": "No, I haven't eaten yet."
+        }
+      ]
+    },
+    {
+      "id": "tb1-u33-l14-erstnur-p1-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Have you eaten yet?",
+      "tiles": [
+        "schon",
+        "gegessen",
+        "Monat",
+        "Hast",
+        "lerne",
+        "nur",
+        "du"
+      ],
+      "answers": [
+        "Hast du schon gegessen?"
+      ],
+      "explanation": "**Why:** Asking about already.\n\n*Warum:* Frage nach bereits."
+    },
+    {
+      "id": "tb1-u33-l14-erstnur-p1-ex09",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "No, I haven't eaten yet.",
+      "tiles": [
+        "dabei",
+        "ich",
+        "habe",
+        "noch",
+        "nicht",
+        "wohne",
+        "gegessen",
+        "Nein",
+        "Bruder"
+      ],
+      "answers": [
+        "Nein, ich habe noch nicht gegessen."
+      ],
+      "explanation": "**Why:** Opposite of schon.\n\n*Warum:* Gegenteil von schon."
+    },
+    {
+      "id": "tb1-u33-l14-erstnur-p1-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "The bus has already gone.",
+      "tiles": [
+        "Weber",
+        "schon",
+        "weg",
+        "Der",
+        "Ich",
+        "Bus",
+        "ist",
+        "hier"
+      ],
+      "answers": [
+        "Der Bus ist schon weg."
+      ],
+      "explanation": "**Why:** Earlier than expected.\n\n*Warum:* Früher als erwartet."
+    },
+    {
+      "id": "tb1-u33-l14-erstnur-p1-ex11",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "My son can't read yet.",
+      "tiles": [
+        "Sohn",
+        "___",
+        "lesen",
+        "nicht",
+        "du",
+        "kann",
+        "nur",
+        "Mein",
+        "noch"
+      ],
+      "answers": [
+        "Mein Sohn kann noch nicht lesen."
+      ],
+      "explanation": "**Why:** Will come later.\n\n*Warum:* Kommt später."
+    },
+    {
+      "id": "tb1-u33-l14-erstnur-p1-ex12",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "We've been living here for ten years already.",
+      "tiles": [
+        "Euro",
+        "wohnen",
+        "dabei",
+        "Jahre",
+        "schon",
+        "hier",
+        "Wir",
+        "zehn",
+        "Sohn"
+      ],
+      "answers": [
+        "Wir wohnen schon zehn Jahre hier."
+      ],
+      "explanation": "**Why:** Long time → schon.\n\n*Warum:* Lange Zeit → schon."
+    },
+    {
+      "id": "tb1-u33-l14-erstnur-p1-ex13",
+      "type": "choice",
+      "title": "Fill the gap",
+      "prompt": "Bist du mit dem Text fertig? Nein, ___ nicht.",
+      "options": [
+        {
+          "id": "a",
+          "text": "noch"
+        },
+        {
+          "id": "b",
+          "text": "mehr"
+        },
+        {
+          "id": "c",
+          "text": "schon"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Es kommt später → noch nicht."
+    },
+    {
+      "id": "tb1-u33-l14-erstnur-p1-ex14",
+      "type": "choice",
+      "title": "Fill the gap",
+      "prompt": "Beeil dich! Der Zug ist ___ abgefahren, wenn wir zu spät kommen.",
+      "options": [
+        {
+          "id": "a",
+          "text": "schon"
+        },
+        {
+          "id": "b",
+          "text": "erst"
+        },
+        {
+          "id": "c",
+          "text": "noch"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Früher als gewünscht passiert → schon abgefahren."
+    }
+  ]
+}

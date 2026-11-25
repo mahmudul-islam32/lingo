@@ -1,0 +1,281 @@
+{
+  "id": "tb1-u19-l06-environment-society-2",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u19",
+  "title": "Environment & Society 2",
+  "tip": "Theme: Umwelt & Gesellschaft (B1)",
+  "exercises": [
+    {
+      "id": "tb1-u19-l06-environment-society-2-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "die Gesellschaft",
+          "known": "society"
+        },
+        {
+          "id": "p2",
+          "learning": "die Regierung",
+          "known": "government"
+        },
+        {
+          "id": "p3",
+          "learning": "die Wirtschaft",
+          "known": "economy"
+        },
+        {
+          "id": "p4",
+          "learning": "die Bildung",
+          "known": "education"
+        },
+        {
+          "id": "p5",
+          "learning": "die Sicherheit",
+          "known": "safety / security"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u19-l06-environment-society-2-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „society“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Energie"
+        },
+        {
+          "id": "b",
+          "text": "die Forschung"
+        },
+        {
+          "id": "c",
+          "text": "die Umwelt"
+        },
+        {
+          "id": "d",
+          "text": "die Gesellschaft, die Gesellschaften"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**die Gesellschaft** = society\n*Plural: die Gesellschaften*\n\n*Example:* Alte Menschen sind ein wichtiger Teil unserer Gesellschaft.\nOld people are an important part of our society."
+    },
+    {
+      "id": "tb1-u19-l06-environment-society-2-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „government“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Zukunft"
+        },
+        {
+          "id": "b",
+          "text": "die Regierung, die Regierungen"
+        },
+        {
+          "id": "c",
+          "text": "die Bildung"
+        },
+        {
+          "id": "d",
+          "text": "die Gesellschaft, die Gesellschaften"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**die Regierung** = government\n*Plural: die Regierungen*\n\n*Example:* Die Regierung will mehr Geld für Schulen ausgeben.\nThe government wants to spend more money on schools."
+    },
+    {
+      "id": "tb1-u19-l06-environment-society-2-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Alte Menschen sind ein wichtiger Teil unserer Gesellschaft.",
+      "tiles": [
+        "of",
+        "are",
+        "to",
+        "an",
+        "Old",
+        "important",
+        "our",
+        "the",
+        "part",
+        "society",
+        "people",
+        "her"
+      ],
+      "answers": [
+        "Old people are an important part of our society."
+      ],
+      "explanation": "**die Gesellschaft** = society\n*Plural: die Gesellschaften*"
+    },
+    {
+      "id": "tb1-u19-l06-environment-society-2-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „economy“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Wirtschaft"
+        },
+        {
+          "id": "b",
+          "text": "die Technik"
+        },
+        {
+          "id": "c",
+          "text": "die Entwicklung, die Entwicklungen"
+        },
+        {
+          "id": "d",
+          "text": "die Umwelt"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**die Wirtschaft** = economy\n\n*Example:* Die Wirtschaft in Deutschland braucht mehr Fachkräfte.\nThe German economy needs more skilled workers."
+    },
+    {
+      "id": "tb1-u19-l06-environment-society-2-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "The government wants to spend more money on schools.",
+      "tiles": [
+        "Abend",
+        "will",
+        "für",
+        "Geld",
+        "Die",
+        "mehr",
+        "Entwicklung",
+        "Universität",
+        "Regierung",
+        "Schulen",
+        "ausgeben"
+      ],
+      "answers": [
+        "Die Regierung will mehr Geld für Schulen ausgeben."
+      ],
+      "explanation": "**die Regierung** = government\n*Plural: die Regierungen*"
+    },
+    {
+      "id": "tb1-u19-l06-environment-society-2-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „education“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "der Müll"
+        },
+        {
+          "id": "b",
+          "text": "die Sicherheit"
+        },
+        {
+          "id": "c",
+          "text": "die Technik"
+        },
+        {
+          "id": "d",
+          "text": "die Bildung"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**die Bildung** = education\n\n*Example:* Gute Bildung ist für Kinder sehr wichtig.\nA good education is very important for children."
+    },
+    {
+      "id": "tb1-u19-l06-environment-society-2-ex08",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u19-l06-environment-society-2-3.mp3"
+      },
+      "tiles": [
+        "Deutschland",
+        "mehr",
+        "Die",
+        "Fachkräfte",
+        "ein",
+        "als",
+        "Sommer",
+        "in",
+        "braucht",
+        "Wirtschaft"
+      ],
+      "answers": [
+        "Die Wirtschaft in Deutschland braucht mehr Fachkräfte."
+      ],
+      "explanation": "Die Wirtschaft in Deutschland braucht mehr Fachkräfte.\n*The German economy needs more skilled workers.*\n\n**die Wirtschaft** = economy"
+    },
+    {
+      "id": "tb1-u19-l06-environment-society-2-ex09",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „safety / security“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Bildung"
+        },
+        {
+          "id": "b",
+          "text": "die Sicherheit"
+        },
+        {
+          "id": "c",
+          "text": "der Klimawandel"
+        },
+        {
+          "id": "d",
+          "text": "die Entwicklung, die Entwicklungen"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**die Sicherheit** = safety / security\n\n*Example:* Zu Ihrer Sicherheit tragen Sie bitte einen Helm.\nPlease wear a helmet for your safety."
+    },
+    {
+      "id": "tb1-u19-l06-environment-society-2-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Gute Bildung ist für Kinder sehr wichtig.",
+      "tiles": [
+        "good",
+        "children",
+        "very",
+        "to",
+        "is",
+        "climate",
+        "education",
+        "important",
+        "an",
+        "for",
+        "A"
+      ],
+      "answers": [
+        "A good education is very important for children."
+      ],
+      "explanation": "**die Bildung** = education"
+    },
+    {
+      "id": "tb1-u19-l06-environment-society-2-ex11",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Please wear a helmet for your safety.",
+      "tiles": [
+        "Helm",
+        "tragen",
+        "Bus",
+        "Ihrer",
+        "Regierung",
+        "Sie",
+        "Wir",
+        "einen",
+        "Zu",
+        "Sicherheit",
+        "bitte"
+      ],
+      "answers": [
+        "Zu Ihrer Sicherheit tragen Sie bitte einen Helm."
+      ],
+      "explanation": "**die Sicherheit** = safety / security"
+    }
+  ]
+}

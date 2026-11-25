@@ -1,0 +1,290 @@
+{
+  "id": "tb1-u04-l09-adjectives-opposites-1",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u04",
+  "title": "Adjectives: Opposites 1",
+  "tip": "Theme: Adjektive: Gegensätze (A1)",
+  "exercises": [
+    {
+      "id": "tb1-u04-l09-adjectives-opposites-1-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "groß",
+          "known": "big"
+        },
+        {
+          "id": "p2",
+          "learning": "gut",
+          "known": "good"
+        },
+        {
+          "id": "p3",
+          "learning": "alt",
+          "known": "old"
+        },
+        {
+          "id": "p4",
+          "learning": "teuer",
+          "known": "expensive"
+        },
+        {
+          "id": "p5",
+          "learning": "schnell",
+          "known": "fast"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u04-l09-adjectives-opposites-1-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which one means „big ↔ small“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "teuer ↔ billig"
+        },
+        {
+          "id": "b",
+          "text": "leicht ↔ schwer"
+        },
+        {
+          "id": "c",
+          "text": "früh ↔ spät"
+        },
+        {
+          "id": "d",
+          "text": "groß ↔ klein"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**groß ↔ klein** = big ↔ small\n\n*Example:* Unsere Küche ist groß, aber das Bad ist klein.\nOur kitchen is big, but the bathroom is small."
+    },
+    {
+      "id": "tb1-u04-l09-adjectives-opposites-1-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which one means „good ↔ bad“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "sauber ↔ schmutzig"
+        },
+        {
+          "id": "b",
+          "text": "neu ↔ gebraucht"
+        },
+        {
+          "id": "c",
+          "text": "gut ↔ schlecht"
+        },
+        {
+          "id": "d",
+          "text": "teuer ↔ billig"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**gut ↔ schlecht** = good ↔ bad\n\n*Example:* Das Essen war gut, aber der Service war schlecht.\nThe food was good, but the service was bad."
+    },
+    {
+      "id": "tb1-u04-l09-adjectives-opposites-1-ex04",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u04-l09-adjectives-opposites-1-1.mp3"
+      },
+      "tiles": [
+        "klein",
+        "ist",
+        "ist",
+        "aber",
+        "Unsere",
+        "groß",
+        "gebrauchtes",
+        "Bad",
+        "müssen",
+        "das",
+        "ein",
+        "Küche"
+      ],
+      "answers": [
+        "Unsere Küche ist groß, aber das Bad ist klein."
+      ],
+      "explanation": "Unsere Küche ist groß, aber das Bad ist klein.\n*Our kitchen is big, but the bathroom is small.*\n\n**groß ↔ klein** = big ↔ small"
+    },
+    {
+      "id": "tb1-u04-l09-adjectives-opposites-1-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which one means „old ↔ new“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "alt ↔ neu"
+        },
+        {
+          "id": "b",
+          "text": "gut ↔ schlecht"
+        },
+        {
+          "id": "c",
+          "text": "schön ↔ hässlich"
+        },
+        {
+          "id": "d",
+          "text": "schnell ↔ langsam"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**alt ↔ neu** = old ↔ new\n\n*Example:* Mein Handy ist alt, deshalb kaufe ich ein neues.\nMy phone is old, so I'm buying a new one."
+    },
+    {
+      "id": "tb1-u04-l09-adjectives-opposites-1-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Das Essen war gut, aber der Service war schlecht.",
+      "tiles": [
+        "food",
+        "the",
+        "but",
+        "bad",
+        "good",
+        "was",
+        "kiosk",
+        "service",
+        "The",
+        "in",
+        "My",
+        "was"
+      ],
+      "answers": [
+        "The food was good, but the service was bad."
+      ],
+      "explanation": "**gut ↔ schlecht** = good ↔ bad"
+    },
+    {
+      "id": "tb1-u04-l09-adjectives-opposites-1-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which one means „old ↔ young“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "groß ↔ klein"
+        },
+        {
+          "id": "b",
+          "text": "schön ↔ hässlich"
+        },
+        {
+          "id": "c",
+          "text": "alt ↔ jung"
+        },
+        {
+          "id": "d",
+          "text": "lang ↔ kurz"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**alt ↔ jung** = old ↔ young\n\n*Example:* Mein Opa ist alt, aber er fühlt sich noch jung.\nMy grandpa is old, but he still feels young."
+    },
+    {
+      "id": "tb1-u04-l09-adjectives-opposites-1-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "My phone is old, so I'm buying a new one.",
+      "tiles": [
+        "ein",
+        "deshalb",
+        "ist",
+        "zu",
+        "Handy",
+        "neues",
+        "alt",
+        "Hose",
+        "gut",
+        "ich",
+        "Mein",
+        "kaufe"
+      ],
+      "answers": [
+        "Mein Handy ist alt, deshalb kaufe ich ein neues."
+      ],
+      "explanation": "**alt ↔ neu** = old ↔ new"
+    },
+    {
+      "id": "tb1-u04-l09-adjectives-opposites-1-ex09",
+      "type": "multiple_choice",
+      "prompt": "Which one means „expensive ↔ cheap“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "gut ↔ schlecht"
+        },
+        {
+          "id": "b",
+          "text": "schön ↔ hässlich"
+        },
+        {
+          "id": "c",
+          "text": "voll ↔ leer"
+        },
+        {
+          "id": "d",
+          "text": "teuer ↔ billig"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**teuer ↔ billig** = expensive ↔ cheap\n\n*Example:* Im Kiosk ist das Wasser teuer, im Supermarkt ist es billig.\nWater is expensive at the kiosk, but cheap at the supermarket."
+    },
+    {
+      "id": "tb1-u04-l09-adjectives-opposites-1-ex10",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u04-l09-adjectives-opposites-1-4.mp3"
+      },
+      "tiles": [
+        "Opa",
+        "sich",
+        "fühlt",
+        "jung",
+        "alt",
+        "ist",
+        "er",
+        "Mein",
+        "hell",
+        "noch",
+        "aber",
+        "Koffer",
+        "die"
+      ],
+      "answers": [
+        "Mein Opa ist alt, aber er fühlt sich noch jung."
+      ],
+      "explanation": "Mein Opa ist alt, aber er fühlt sich noch jung.\n*My grandpa is old, but he still feels young.*\n\n**alt ↔ jung** = old ↔ young"
+    },
+    {
+      "id": "tb1-u04-l09-adjectives-opposites-1-ex11",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Im Kiosk ist das Wasser teuer, im Supermarkt ist es billig.",
+      "tiles": [
+        "supermarket",
+        "at",
+        "bag",
+        "Water",
+        "but",
+        "cheap",
+        "used",
+        "is",
+        "expensive",
+        "the",
+        "at",
+        "kiosk",
+        "the",
+        "heavy"
+      ],
+      "answers": [
+        "Water is expensive at the kiosk, but cheap at the supermarket."
+      ],
+      "explanation": "**teuer ↔ billig** = expensive ↔ cheap"
+    }
+  ]
+}

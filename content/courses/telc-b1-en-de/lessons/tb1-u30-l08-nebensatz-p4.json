@@ -1,0 +1,157 @@
+{
+  "id": "tb1-u30-l08-nebensatz-p4",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u30",
+  "title": "Subordinate Clauses: weil, dass, wenn, obwohl …: während",
+  "tip": "“…weil ich bin krank” = instant deduction under criterion III. Verb to the end!",
+  "exercises": [
+    {
+      "id": "tb1-u30-l08-nebensatz-p4-ex01",
+      "type": "explain",
+      "title": "während · gleichzeitig",
+      "body": "während (conjunction) = two things happen at the same time. Verb to the end.\n\n*Deutsch:* während (Konjunktion) = zwei Dinge passieren zur gleichen Zeit. Verb ans Ende.\n\n## Pattern\n\nHauptsatz, **während** + Subjekt + … + **Verb**.",
+      "examples": [
+        {
+          "learning": "Ich höre Musik, während ich koche.",
+          "known": "I listen to music while I cook."
+        },
+        {
+          "learning": "Während die Kinder schlafen, lese ich ein Buch.",
+          "known": "While the children sleep, I read a book."
+        }
+      ]
+    },
+    {
+      "id": "tb1-u30-l08-nebensatz-p4-ex02",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I listen to music while I cook.",
+      "tiles": [
+        "ich",
+        "höre",
+        "Musik",
+        "unterschreiben",
+        "koche",
+        "während",
+        "das",
+        "Bevor",
+        "Ich"
+      ],
+      "answers": [
+        "Ich höre Musik, während ich koche."
+      ],
+      "explanation": "**Why:** At the same time: listening + cooking.\n\n*Warum:* Gleichzeitig: Musik hören + kochen."
+    },
+    {
+      "id": "tb1-u30-l08-nebensatz-p4-ex03",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "While the children sleep, I read a book.",
+      "tiles": [
+        "ich",
+        "Buch",
+        "die",
+        "schlafen",
+        "ein",
+        "kommen",
+        "zu",
+        "los",
+        "Kinder",
+        "Während",
+        "lese"
+      ],
+      "answers": [
+        "Während die Kinder schlafen, lese ich ein Buch."
+      ],
+      "explanation": "**Why:** Subordinate clause first → verb lese right after.\n\n*Warum:* Nebensatz zuerst → Verb lese direkt danach."
+    },
+    {
+      "id": "tb1-u30-l08-nebensatz-p4-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "He was on the phone while he was driving.",
+      "tiles": [
+        "Auto",
+        "Es",
+        "ist",
+        "Wenn",
+        "er",
+        "Er",
+        "nicht",
+        "gefahren",
+        "telefoniert",
+        "hat",
+        "während"
+      ],
+      "answers": [
+        "Er hat telefoniert, während er Auto gefahren ist."
+      ],
+      "explanation": "**Why:** Perfect with sein: gefahren ist.\n\n*Warum:* Perfekt mit sein: gefahren ist."
+    },
+    {
+      "id": "tb1-u30-l08-nebensatz-p4-ex05",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "While I was on holiday, my neighbour watered the flowers.",
+      "tiles": [
+        "die",
+        "um",
+        "im",
+        "ich",
+        "Urlaub",
+        "Nachbarin",
+        "gegossen",
+        "war",
+        "Blumen",
+        "hat",
+        "Während",
+        "geschlafen",
+        "du",
+        "meine"
+      ],
+      "answers": [
+        "Während ich im Urlaub war, hat meine Nachbarin die Blumen gegossen."
+      ],
+      "explanation": "**Why:** war at the end, then hat + participle in the main clause.\n\n*Warum:* war am Ende, dann hat + Partizip im Hauptsatz."
+    },
+    {
+      "id": "tb1-u30-l08-nebensatz-p4-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Please don't talk while the film is on.",
+      "tiles": [
+        "Bitte",
+        "Film",
+        "der",
+        "Uhr",
+        "geschlafen",
+        "sprechen",
+        "müde",
+        "läuft",
+        "während",
+        "nicht"
+      ],
+      "answers": [
+        "Bitte nicht sprechen, während der Film läuft."
+      ],
+      "explanation": "**Why:** läuft goes at the end.\n\n*Warum:* läuft steht am Ende."
+    },
+    {
+      "id": "tb1-u30-l08-nebensatz-p4-ex07",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Word order: put all the words in the correct order.",
+      "tiles": [
+        "heute",
+        "weil",
+        "muss",
+        "arbeiten",
+        "ich"
+      ],
+      "answers": [
+        "weil ich heute arbeiten muss"
+      ],
+      "explanation": "Im Nebensatz steht das konjugierte Verb ganz am Ende: … weil ich heute arbeiten muss."
+    }
+  ]
+}

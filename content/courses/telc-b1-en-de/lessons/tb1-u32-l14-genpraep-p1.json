@@ -1,0 +1,344 @@
+{
+  "id": "tb1-u32-l14-genpraep-p1",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u32",
+  "title": "wegen, trotz, während + Genitive: wegen & trotz",
+  "tip": "“wegen dem Wetter” is colloquial, in the test: wegen des Wetters. And trotz ≠ trotzdem (trotz + noun, trotzdem + clause).",
+  "exercises": [
+    {
+      "id": "tb1-u32-l14-genpraep-p1-ex01",
+      "type": "explain",
+      "title": "wegen · Grund",
+      "body": "wegen + genitive = because of.\n\n*Deutsch:* wegen + Genitiv = aus diesem Grund.\n\n## Pattern\n\n**wegen** + **des/der** + Nomen",
+      "examples": [
+        {
+          "learning": "Wegen des Regens bleiben wir zu Hause.",
+          "known": "Because of the rain we're staying at home."
+        },
+        {
+          "learning": "Der Zug hat wegen eines Unfalls Verspätung.",
+          "known": "The train is delayed because of an accident."
+        }
+      ]
+    },
+    {
+      "id": "tb1-u32-l14-genpraep-p1-ex02",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Because of the rain we're staying at home.",
+      "tiles": [
+        "Sie",
+        "Hause",
+        "meines",
+        "Wegen",
+        "bleiben",
+        "war",
+        "zu",
+        "des",
+        "wir",
+        "Regens"
+      ],
+      "answers": [
+        "Wegen des Regens bleiben wir zu Hause."
+      ],
+      "explanation": "**Why:** der Regen → des Regens.\n\n*Warum:* der Regen → des Regens."
+    },
+    {
+      "id": "tb1-u32-l14-genpraep-p1-ex03",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "The train is delayed because of an accident.",
+      "tiles": [
+        "Der",
+        "pünktlich",
+        "eines",
+        "hat",
+        "wegen",
+        "trotz",
+        "Verspätung",
+        "Anschluss",
+        "Zug",
+        "Unfalls"
+      ],
+      "answers": [
+        "Der Zug hat wegen eines Unfalls Verspätung."
+      ],
+      "explanation": "**Why:** Typical in announcements (Listening part 3).\n\n*Warum:* Typisch in Durchsagen (Hören Teil 3)."
+    },
+    {
+      "id": "tb1-u32-l14-genpraep-p1-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "The street is closed because of the building site.",
+      "tiles": [
+        "die",
+        "der",
+        "Baustelle",
+        "trägt",
+        "habe",
+        "Straße",
+        "Wegen",
+        "ich",
+        "ist",
+        "gesperrt"
+      ],
+      "answers": [
+        "Wegen der Baustelle ist die Straße gesperrt."
+      ],
+      "explanation": "**Why:** die Baustelle → der Baustelle.\n\n*Warum:* die Baustelle → der Baustelle."
+    },
+    {
+      "id": "tb1-u32-l14-genpraep-p1-ex05",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I'm calling about the flat.",
+      "tiles": [
+        "der",
+        "wegen",
+        "Ich",
+        "Wohnung",
+        "das",
+        "an",
+        "rufe",
+        "wir",
+        "Baustelle"
+      ],
+      "answers": [
+        "Ich rufe wegen der Wohnung an."
+      ],
+      "explanation": "**Why:** On the phone: Ich rufe wegen … an.\n\n*Warum:* Am Telefon: Ich rufe wegen … an."
+    },
+    {
+      "id": "tb1-u32-l14-genpraep-p1-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Because of my work I have little time.",
+      "tiles": [
+        "ich",
+        "meiner",
+        "Arbeit",
+        "das",
+        "Zeit",
+        "wenig",
+        "schlechten",
+        "gegangen",
+        "Wegen",
+        "habe"
+      ],
+      "answers": [
+        "Wegen meiner Arbeit habe ich wenig Zeit."
+      ],
+      "explanation": "**Why:** die Arbeit → meiner Arbeit.\n\n*Warum:* die Arbeit → meiner Arbeit."
+    },
+    {
+      "id": "tb1-u32-l14-genpraep-p1-ex07",
+      "type": "explain",
+      "title": "trotz · Gegengrund",
+      "body": "trotz + genitive = despite.\n\n*Deutsch:* trotz + Genitiv = obwohl es so ist.\n\n## Pattern\n\n**trotz** + **des/der** + Nomen",
+      "examples": [
+        {
+          "learning": "Trotz des schlechten Wetters gehen wir spazieren.",
+          "known": "Despite the bad weather we're going for a walk."
+        },
+        {
+          "learning": "Trotz der Kälte trägt er nur ein T-Shirt.",
+          "known": "Despite the cold he's only wearing a T-shirt."
+        }
+      ]
+    },
+    {
+      "id": "tb1-u32-l14-genpraep-p1-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Despite the bad weather we're going for a walk.",
+      "tiles": [
+        "wenig",
+        "Sie",
+        "Wetters",
+        "der",
+        "spazieren",
+        "wir",
+        "schlechten",
+        "des",
+        "Trotz",
+        "gehen"
+      ],
+      "answers": [
+        "Trotz des schlechten Wetters gehen wir spazieren."
+      ],
+      "explanation": "**Why:** = Obwohl das Wetter schlecht ist, …\n\n*Warum:* = Obwohl das Wetter schlecht ist, …"
+    },
+    {
+      "id": "tb1-u32-l14-genpraep-p1-ex09",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Despite the cold he's only wearing a T-shirt.",
+      "tiles": [
+        "Kälte",
+        "ein",
+        "der",
+        "T-Shirt",
+        "Trotz",
+        "Wegen",
+        "Während",
+        "ich",
+        "er",
+        "trägt",
+        "nur"
+      ],
+      "answers": [
+        "Trotz der Kälte trägt er nur ein T-Shirt."
+      ],
+      "explanation": "**Why:** die Kälte → der Kälte.\n\n*Warum:* die Kälte → der Kälte."
+    },
+    {
+      "id": "tb1-u32-l14-genpraep-p1-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "She went to work despite her illness.",
+      "tiles": [
+        "Arbeit",
+        "zur",
+        "gegangen",
+        "nicht",
+        "trotz",
+        "des",
+        "Sie",
+        "Feiertags",
+        "ist",
+        "ihrer",
+        "Krankheit"
+      ],
+      "answers": [
+        "Sie ist trotz ihrer Krankheit zur Arbeit gegangen."
+      ],
+      "explanation": "**Why:** die Krankheit → ihrer Krankheit.\n\n*Warum:* die Krankheit → ihrer Krankheit."
+    },
+    {
+      "id": "tb1-u32-l14-genpraep-p1-ex11",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Despite the traffic jam we arrived on time.",
+      "tiles": [
+        "meines",
+        "des",
+        "pünktlich",
+        "Trotz",
+        "meiner",
+        "Staus",
+        "angekommen",
+        "sind",
+        "wir",
+        "er"
+      ],
+      "answers": [
+        "Trotz des Staus sind wir pünktlich angekommen."
+      ],
+      "explanation": "**Why:** der Stau → des Staus.\n\n*Warum:* der Stau → des Staus."
+    },
+    {
+      "id": "tb1-u32-l14-genpraep-p1-ex12",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Despite many problems he didn't give up.",
+      "tiles": [
+        "aufgegeben",
+        "das",
+        "Wegen",
+        "Probleme",
+        "nicht",
+        "Films",
+        "hat",
+        "er",
+        "Trotz",
+        "vieler"
+      ],
+      "answers": [
+        "Trotz vieler Probleme hat er nicht aufgegeben."
+      ],
+      "explanation": "**Why:** Plural without article: vieler Probleme.\n\n*Warum:* Plural ohne Artikel: vieler Probleme."
+    },
+    {
+      "id": "tb1-u32-l14-genpraep-p1-ex13",
+      "type": "choice",
+      "title": "Fill the gap",
+      "prompt": "Wegen ___ Umzugs brauche ich drei Tage Urlaub.",
+      "options": [
+        {
+          "id": "a",
+          "text": "mein"
+        },
+        {
+          "id": "b",
+          "text": "meines"
+        },
+        {
+          "id": "c",
+          "text": "meinem"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "wegen + Genitiv: meines Umzugs."
+    },
+    {
+      "id": "tb1-u32-l14-genpraep-p1-ex14",
+      "type": "choice",
+      "title": "Find the mistake",
+      "prompt": "Which word is wrong? „Wegen dem Regen bleibe ich zu Hause.“",
+      "options": [
+        {
+          "id": "a",
+          "text": "Wegen"
+        },
+        {
+          "id": "b",
+          "text": "dem"
+        },
+        {
+          "id": "c",
+          "text": "Regen"
+        },
+        {
+          "id": "d",
+          "text": "bleibe"
+        },
+        {
+          "id": "e",
+          "text": "ich"
+        },
+        {
+          "id": "f",
+          "text": "zu"
+        },
+        {
+          "id": "g",
+          "text": "Hause"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "„dem“ → „des Regens“: **Wegen des Regens bleibe ich zu Hause.**\n\nwegen + Genitiv: wegen des Regens (nicht „dem Regen“, das ist umgangssprachlich)."
+    },
+    {
+      "id": "tb1-u32-l14-genpraep-p1-ex15",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Correct the sentence: „Wegen dem Regen bleibe ich zu Hause.“",
+      "tiles": [
+        "dem",
+        "ich",
+        "zu",
+        "Wegen",
+        "des",
+        "Regens",
+        "war",
+        "gesperrt",
+        "Hause",
+        "bleibe"
+      ],
+      "answers": [
+        "Wegen des Regens bleibe ich zu Hause."
+      ],
+      "explanation": "wegen + Genitiv: wegen des Regens (nicht „dem Regen“, das ist umgangssprachlich)."
+    }
+  ]
+}

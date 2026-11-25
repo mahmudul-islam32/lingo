@@ -1,0 +1,605 @@
+{
+  "id": "tb1-u47-l01-teil2-wortbank",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u47",
+  "title": "Part 2: word bank",
+  "tip": "Each word fits only once. Five words stay unused.",
+  "exercises": [
+    {
+      "id": "tb1-u47-l01-teil2-wortbank-ex01",
+      "type": "explain",
+      "title": "Teil 2 · the ad and the word bank",
+      "body": "*Lesen Sie den Text und schließen Sie die Lücken 31–40. Benutzen Sie die Wörter a–o. Jedes Wort passt nur einmal. Fünf Wörter bleiben übrig.*\n\nThe letter answers this ad (*Anzeige*):\n\nSprachschule LinguaPlus. Deutsch am Abend!\nIntensivkurse A2–B2 · kleine Gruppen (max. 8 Personen) · erfahrene Lehrkräfte · Prüfungsvorbereitung telc · Probestunde gratis · Sonderpreis für Studierende · Anmeldung bis 31. August\nInfo: Frau Sommer, Tel. 0511/33 44 55\n\n**Word bank (a–o):** a) besonders · b) da · c) damals · d) damit · e) dankbar · f) deshalb · g) gern · h) könnte · i) müsste · j) ob · k) obwohl · l) seit · m) trotzdem · n) vor · o) wann\n\nIn this app each gap shows 12 of the 15 words: words that belong in other gaps are partly left out (in the exam every word fits only once and five stay unused)."
+    },
+    {
+      "id": "tb1-u47-l01-teil2-wortbank-ex02",
+      "type": "choice",
+      "title": "Sprachbausteine Teil 2 · Lücke 31",
+      "passage": "Sehr geehrte Frau Sommer,\n\nich habe Ihre Anzeige gelesen und interessiere mich sehr für Ihre Abendkurse. **(31) ______** zwei Jahren lerne ich Deutsch, im Moment besuche ich aber keinen Kurs.\n\n(32) … ich vormittags arbeite, suche ich einen Kurs am Abend. In Ihrer Anzeige steht, dass die Gruppen klein sind. Das finde ich (33) … wichtig, weil ich im Unterricht viel sprechen möchte. Ich will im September die B1-Prüfung machen, (34) … brauche ich noch Training für den Prüfungsteil Sprachbausteine. Könnten Sie mir bitte mitteilen, (35) … Ihr Kurs auch auf die telc-Prüfung vorbereitet?\n\nIch habe außerdem gelesen, dass es einen Sonderpreis für Studierende gibt. Ich bin aber berufstätig, wie viel (36) … ich dann für den Kurs bezahlen? Die Probestunde ist ja gratis; ich würde (37) … zu einer Probestunde kommen, am liebsten schon nächste Woche.\n\nBitte schicken Sie mir das Anmeldeformular per E-Mail, (38) … ich mich noch vor dem 31. August anmelden kann. Mein Deutsch ist noch nicht perfekt, (39) … möchte ich den Kurs unbedingt komplett auf Deutsch machen.\n\nIch wäre Ihnen sehr (40) …, wenn Sie mir bald antworten würden.\n\nMit freundlichen Grüßen\nAmir Karimi",
+      "prompt": "Lücke 31: Welches Wort passt?",
+      "options": [
+        {
+          "id": "a",
+          "text": "besonders"
+        },
+        {
+          "id": "b",
+          "text": "da"
+        },
+        {
+          "id": "c",
+          "text": "damals"
+        },
+        {
+          "id": "d",
+          "text": "damit"
+        },
+        {
+          "id": "e",
+          "text": "könnte"
+        },
+        {
+          "id": "f",
+          "text": "müsste"
+        },
+        {
+          "id": "g",
+          "text": "ob"
+        },
+        {
+          "id": "h",
+          "text": "obwohl"
+        },
+        {
+          "id": "i",
+          "text": "seit"
+        },
+        {
+          "id": "j",
+          "text": "trotzdem"
+        },
+        {
+          "id": "k",
+          "text": "vor"
+        },
+        {
+          "id": "l",
+          "text": "wann"
+        }
+      ],
+      "correctOptionId": "i",
+      "explanation": "**Answer: seit** · Präpositionen (prepositions)\n\nPresent „lerne“ and still true → SEIT. The twin VOR would need the past.\n\n*Auf Deutsch:* Präsens „lerne“ und es gilt noch → SEIT. Der Zwilling VOR bräuchte Vergangenheit."
+    },
+    {
+      "id": "tb1-u47-l01-teil2-wortbank-ex03",
+      "type": "choice",
+      "title": "Sprachbausteine Teil 2 · Lücke 32",
+      "passage": "Sehr geehrte Frau Sommer,\n\nich habe Ihre Anzeige gelesen und interessiere mich sehr für Ihre Abendkurse. (31) … zwei Jahren lerne ich Deutsch, im Moment besuche ich aber keinen Kurs.\n\n**(32) ______** ich vormittags arbeite, suche ich einen Kurs am Abend. In Ihrer Anzeige steht, dass die Gruppen klein sind. Das finde ich (33) … wichtig, weil ich im Unterricht viel sprechen möchte. Ich will im September die B1-Prüfung machen, (34) … brauche ich noch Training für den Prüfungsteil Sprachbausteine. Könnten Sie mir bitte mitteilen, (35) … Ihr Kurs auch auf die telc-Prüfung vorbereitet?\n\nIch habe außerdem gelesen, dass es einen Sonderpreis für Studierende gibt. Ich bin aber berufstätig, wie viel (36) … ich dann für den Kurs bezahlen? Die Probestunde ist ja gratis; ich würde (37) … zu einer Probestunde kommen, am liebsten schon nächste Woche.\n\nBitte schicken Sie mir das Anmeldeformular per E-Mail, (38) … ich mich noch vor dem 31. August anmelden kann. Mein Deutsch ist noch nicht perfekt, (39) … möchte ich den Kurs unbedingt komplett auf Deutsch machen.\n\nIch wäre Ihnen sehr (40) …, wenn Sie mir bald antworten würden.\n\nMit freundlichen Grüßen\nAmir Karimi",
+      "prompt": "Lücke 32: Welches Wort passt?",
+      "options": [
+        {
+          "id": "a",
+          "text": "besonders"
+        },
+        {
+          "id": "b",
+          "text": "da"
+        },
+        {
+          "id": "c",
+          "text": "damals"
+        },
+        {
+          "id": "d",
+          "text": "damit"
+        },
+        {
+          "id": "e",
+          "text": "dankbar"
+        },
+        {
+          "id": "f",
+          "text": "deshalb"
+        },
+        {
+          "id": "g",
+          "text": "gern"
+        },
+        {
+          "id": "h",
+          "text": "könnte"
+        },
+        {
+          "id": "i",
+          "text": "obwohl"
+        },
+        {
+          "id": "j",
+          "text": "trotzdem"
+        },
+        {
+          "id": "k",
+          "text": "vor"
+        },
+        {
+          "id": "l",
+          "text": "wann"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Answer: da** · Konnektoren (connectors)\n\nVerb-final (arbeite), causal → DA. The twin DAMALS is an adverb and does not change word order.\n\n*Auf Deutsch:* Verb-Ende (arbeite), kausal → DA. Der Zwilling DAMALS ist ein Adverb und ändert die Wortstellung nicht."
+    },
+    {
+      "id": "tb1-u47-l01-teil2-wortbank-ex04",
+      "type": "choice",
+      "title": "Sprachbausteine Teil 2 · Lücke 33",
+      "passage": "Sehr geehrte Frau Sommer,\n\nich habe Ihre Anzeige gelesen und interessiere mich sehr für Ihre Abendkurse. (31) … zwei Jahren lerne ich Deutsch, im Moment besuche ich aber keinen Kurs.\n\n(32) … ich vormittags arbeite, suche ich einen Kurs am Abend. In Ihrer Anzeige steht, dass die Gruppen klein sind. Das finde ich **(33) ______** wichtig, weil ich im Unterricht viel sprechen möchte. Ich will im September die B1-Prüfung machen, (34) … brauche ich noch Training für den Prüfungsteil Sprachbausteine. Könnten Sie mir bitte mitteilen, (35) … Ihr Kurs auch auf die telc-Prüfung vorbereitet?\n\nIch habe außerdem gelesen, dass es einen Sonderpreis für Studierende gibt. Ich bin aber berufstätig, wie viel (36) … ich dann für den Kurs bezahlen? Die Probestunde ist ja gratis; ich würde (37) … zu einer Probestunde kommen, am liebsten schon nächste Woche.\n\nBitte schicken Sie mir das Anmeldeformular per E-Mail, (38) … ich mich noch vor dem 31. August anmelden kann. Mein Deutsch ist noch nicht perfekt, (39) … möchte ich den Kurs unbedingt komplett auf Deutsch machen.\n\nIch wäre Ihnen sehr (40) …, wenn Sie mir bald antworten würden.\n\nMit freundlichen Grüßen\nAmir Karimi",
+      "prompt": "Lücke 33: Welches Wort passt?",
+      "options": [
+        {
+          "id": "a",
+          "text": "besonders"
+        },
+        {
+          "id": "b",
+          "text": "damals"
+        },
+        {
+          "id": "c",
+          "text": "damit"
+        },
+        {
+          "id": "d",
+          "text": "dankbar"
+        },
+        {
+          "id": "e",
+          "text": "deshalb"
+        },
+        {
+          "id": "f",
+          "text": "gern"
+        },
+        {
+          "id": "g",
+          "text": "könnte"
+        },
+        {
+          "id": "h",
+          "text": "müsste"
+        },
+        {
+          "id": "i",
+          "text": "ob"
+        },
+        {
+          "id": "j",
+          "text": "obwohl"
+        },
+        {
+          "id": "k",
+          "text": "vor"
+        },
+        {
+          "id": "l",
+          "text": "wann"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Answer: besonders** · Wortschatz · Briefbausteine (vocabulary & letter chunks)\n\nSingles out the small groups from the ad → BESONDERS. GERN does not combine with „finde … wichtig“.\n\n*Auf Deutsch:* Hebt die kleinen Gruppen aus der Anzeige heraus → BESONDERS. GERN passt nicht zu „finde … wichtig“."
+    },
+    {
+      "id": "tb1-u47-l01-teil2-wortbank-ex05",
+      "type": "choice",
+      "title": "Sprachbausteine Teil 2 · Lücke 34",
+      "passage": "Sehr geehrte Frau Sommer,\n\nich habe Ihre Anzeige gelesen und interessiere mich sehr für Ihre Abendkurse. (31) … zwei Jahren lerne ich Deutsch, im Moment besuche ich aber keinen Kurs.\n\n(32) … ich vormittags arbeite, suche ich einen Kurs am Abend. In Ihrer Anzeige steht, dass die Gruppen klein sind. Das finde ich (33) … wichtig, weil ich im Unterricht viel sprechen möchte. Ich will im September die B1-Prüfung machen, **(34) ______** brauche ich noch Training für den Prüfungsteil Sprachbausteine. Könnten Sie mir bitte mitteilen, (35) … Ihr Kurs auch auf die telc-Prüfung vorbereitet?\n\nIch habe außerdem gelesen, dass es einen Sonderpreis für Studierende gibt. Ich bin aber berufstätig, wie viel (36) … ich dann für den Kurs bezahlen? Die Probestunde ist ja gratis; ich würde (37) … zu einer Probestunde kommen, am liebsten schon nächste Woche.\n\nBitte schicken Sie mir das Anmeldeformular per E-Mail, (38) … ich mich noch vor dem 31. August anmelden kann. Mein Deutsch ist noch nicht perfekt, (39) … möchte ich den Kurs unbedingt komplett auf Deutsch machen.\n\nIch wäre Ihnen sehr (40) …, wenn Sie mir bald antworten würden.\n\nMit freundlichen Grüßen\nAmir Karimi",
+      "prompt": "Lücke 34: Welches Wort passt?",
+      "options": [
+        {
+          "id": "a",
+          "text": "damals"
+        },
+        {
+          "id": "b",
+          "text": "damit"
+        },
+        {
+          "id": "c",
+          "text": "dankbar"
+        },
+        {
+          "id": "d",
+          "text": "deshalb"
+        },
+        {
+          "id": "e",
+          "text": "gern"
+        },
+        {
+          "id": "f",
+          "text": "könnte"
+        },
+        {
+          "id": "g",
+          "text": "müsste"
+        },
+        {
+          "id": "h",
+          "text": "ob"
+        },
+        {
+          "id": "i",
+          "text": "obwohl"
+        },
+        {
+          "id": "j",
+          "text": "trotzdem"
+        },
+        {
+          "id": "k",
+          "text": "vor"
+        },
+        {
+          "id": "l",
+          "text": "wann"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**Answer: deshalb** · Konnektoren (connectors)\n\nInversion „brauche ich“ → adverb connector, consequence → DESHALB. DAMIT would need verb-final.\n\n*Auf Deutsch:* Inversion „brauche ich“ → Adverbkonnektor, Folge → DESHALB. DAMIT bräuchte Verb-Ende."
+    },
+    {
+      "id": "tb1-u47-l01-teil2-wortbank-ex06",
+      "type": "choice",
+      "title": "Sprachbausteine Teil 2 · Lücke 35",
+      "passage": "Sehr geehrte Frau Sommer,\n\nich habe Ihre Anzeige gelesen und interessiere mich sehr für Ihre Abendkurse. (31) … zwei Jahren lerne ich Deutsch, im Moment besuche ich aber keinen Kurs.\n\n(32) … ich vormittags arbeite, suche ich einen Kurs am Abend. In Ihrer Anzeige steht, dass die Gruppen klein sind. Das finde ich (33) … wichtig, weil ich im Unterricht viel sprechen möchte. Ich will im September die B1-Prüfung machen, (34) … brauche ich noch Training für den Prüfungsteil Sprachbausteine. Könnten Sie mir bitte mitteilen, **(35) ______** Ihr Kurs auch auf die telc-Prüfung vorbereitet?\n\nIch habe außerdem gelesen, dass es einen Sonderpreis für Studierende gibt. Ich bin aber berufstätig, wie viel (36) … ich dann für den Kurs bezahlen? Die Probestunde ist ja gratis; ich würde (37) … zu einer Probestunde kommen, am liebsten schon nächste Woche.\n\nBitte schicken Sie mir das Anmeldeformular per E-Mail, (38) … ich mich noch vor dem 31. August anmelden kann. Mein Deutsch ist noch nicht perfekt, (39) … möchte ich den Kurs unbedingt komplett auf Deutsch machen.\n\nIch wäre Ihnen sehr (40) …, wenn Sie mir bald antworten würden.\n\nMit freundlichen Grüßen\nAmir Karimi",
+      "prompt": "Lücke 35: Welches Wort passt?",
+      "options": [
+        {
+          "id": "a",
+          "text": "damals"
+        },
+        {
+          "id": "b",
+          "text": "damit"
+        },
+        {
+          "id": "c",
+          "text": "dankbar"
+        },
+        {
+          "id": "d",
+          "text": "gern"
+        },
+        {
+          "id": "e",
+          "text": "könnte"
+        },
+        {
+          "id": "f",
+          "text": "müsste"
+        },
+        {
+          "id": "g",
+          "text": "ob"
+        },
+        {
+          "id": "h",
+          "text": "obwohl"
+        },
+        {
+          "id": "i",
+          "text": "seit"
+        },
+        {
+          "id": "j",
+          "text": "trotzdem"
+        },
+        {
+          "id": "k",
+          "text": "vor"
+        },
+        {
+          "id": "l",
+          "text": "wann"
+        }
+      ],
+      "correctOptionId": "g",
+      "explanation": "**Answer: ob** · Konnektoren (connectors)\n\nIndirect yes/no question → OB. The twin WANN asks about time.\n\n*Auf Deutsch:* Indirekte Ja/Nein-Frage → OB. Der Zwilling WANN fragt nach der Zeit."
+    },
+    {
+      "id": "tb1-u47-l01-teil2-wortbank-ex07",
+      "type": "choice",
+      "title": "Sprachbausteine Teil 2 · Lücke 36",
+      "passage": "Sehr geehrte Frau Sommer,\n\nich habe Ihre Anzeige gelesen und interessiere mich sehr für Ihre Abendkurse. (31) … zwei Jahren lerne ich Deutsch, im Moment besuche ich aber keinen Kurs.\n\n(32) … ich vormittags arbeite, suche ich einen Kurs am Abend. In Ihrer Anzeige steht, dass die Gruppen klein sind. Das finde ich (33) … wichtig, weil ich im Unterricht viel sprechen möchte. Ich will im September die B1-Prüfung machen, (34) … brauche ich noch Training für den Prüfungsteil Sprachbausteine. Könnten Sie mir bitte mitteilen, (35) … Ihr Kurs auch auf die telc-Prüfung vorbereitet?\n\nIch habe außerdem gelesen, dass es einen Sonderpreis für Studierende gibt. Ich bin aber berufstätig, wie viel **(36) ______** ich dann für den Kurs bezahlen? Die Probestunde ist ja gratis; ich würde (37) … zu einer Probestunde kommen, am liebsten schon nächste Woche.\n\nBitte schicken Sie mir das Anmeldeformular per E-Mail, (38) … ich mich noch vor dem 31. August anmelden kann. Mein Deutsch ist noch nicht perfekt, (39) … möchte ich den Kurs unbedingt komplett auf Deutsch machen.\n\nIch wäre Ihnen sehr (40) …, wenn Sie mir bald antworten würden.\n\nMit freundlichen Grüßen\nAmir Karimi",
+      "prompt": "Lücke 36: Welches Wort passt?",
+      "options": [
+        {
+          "id": "a",
+          "text": "da"
+        },
+        {
+          "id": "b",
+          "text": "damals"
+        },
+        {
+          "id": "c",
+          "text": "damit"
+        },
+        {
+          "id": "d",
+          "text": "dankbar"
+        },
+        {
+          "id": "e",
+          "text": "gern"
+        },
+        {
+          "id": "f",
+          "text": "könnte"
+        },
+        {
+          "id": "g",
+          "text": "müsste"
+        },
+        {
+          "id": "h",
+          "text": "obwohl"
+        },
+        {
+          "id": "i",
+          "text": "seit"
+        },
+        {
+          "id": "j",
+          "text": "trotzdem"
+        },
+        {
+          "id": "k",
+          "text": "vor"
+        },
+        {
+          "id": "l",
+          "text": "wann"
+        }
+      ],
+      "correctOptionId": "g",
+      "explanation": "**Answer: müsste** · Verbformen (verb forms)\n\nKonjunktiv II: what would I have to pay. KÖNNTE would ask about ability, not obligation.\n\n*Auf Deutsch:* Konjunktiv II: was müsste ich zahlen. KÖNNTE fragte nach Möglichkeit, nicht nach Pflicht."
+    },
+    {
+      "id": "tb1-u47-l01-teil2-wortbank-ex08",
+      "type": "choice",
+      "title": "Sprachbausteine Teil 2 · Lücke 37",
+      "passage": "Sehr geehrte Frau Sommer,\n\nich habe Ihre Anzeige gelesen und interessiere mich sehr für Ihre Abendkurse. (31) … zwei Jahren lerne ich Deutsch, im Moment besuche ich aber keinen Kurs.\n\n(32) … ich vormittags arbeite, suche ich einen Kurs am Abend. In Ihrer Anzeige steht, dass die Gruppen klein sind. Das finde ich (33) … wichtig, weil ich im Unterricht viel sprechen möchte. Ich will im September die B1-Prüfung machen, (34) … brauche ich noch Training für den Prüfungsteil Sprachbausteine. Könnten Sie mir bitte mitteilen, (35) … Ihr Kurs auch auf die telc-Prüfung vorbereitet?\n\nIch habe außerdem gelesen, dass es einen Sonderpreis für Studierende gibt. Ich bin aber berufstätig, wie viel (36) … ich dann für den Kurs bezahlen? Die Probestunde ist ja gratis; ich würde **(37) ______** zu einer Probestunde kommen, am liebsten schon nächste Woche.\n\nBitte schicken Sie mir das Anmeldeformular per E-Mail, (38) … ich mich noch vor dem 31. August anmelden kann. Mein Deutsch ist noch nicht perfekt, (39) … möchte ich den Kurs unbedingt komplett auf Deutsch machen.\n\nIch wäre Ihnen sehr (40) …, wenn Sie mir bald antworten würden.\n\nMit freundlichen Grüßen\nAmir Karimi",
+      "prompt": "Lücke 37: Welches Wort passt?",
+      "options": [
+        {
+          "id": "a",
+          "text": "besonders"
+        },
+        {
+          "id": "b",
+          "text": "da"
+        },
+        {
+          "id": "c",
+          "text": "damals"
+        },
+        {
+          "id": "d",
+          "text": "damit"
+        },
+        {
+          "id": "e",
+          "text": "dankbar"
+        },
+        {
+          "id": "f",
+          "text": "gern"
+        },
+        {
+          "id": "g",
+          "text": "könnte"
+        },
+        {
+          "id": "h",
+          "text": "obwohl"
+        },
+        {
+          "id": "i",
+          "text": "seit"
+        },
+        {
+          "id": "j",
+          "text": "trotzdem"
+        },
+        {
+          "id": "k",
+          "text": "vor"
+        },
+        {
+          "id": "l",
+          "text": "wann"
+        }
+      ],
+      "correctOptionId": "f",
+      "explanation": "**Answer: gern** · Kleine Klassiker (small classics)\n\nwürde gern kommen. No alternative is named, so not „lieber“.\n\n*Auf Deutsch:* würde gern kommen. Es wird keine Alternative genannt, also nicht „lieber“."
+    },
+    {
+      "id": "tb1-u47-l01-teil2-wortbank-ex09",
+      "type": "choice",
+      "title": "Sprachbausteine Teil 2 · Lücke 38",
+      "passage": "Sehr geehrte Frau Sommer,\n\nich habe Ihre Anzeige gelesen und interessiere mich sehr für Ihre Abendkurse. (31) … zwei Jahren lerne ich Deutsch, im Moment besuche ich aber keinen Kurs.\n\n(32) … ich vormittags arbeite, suche ich einen Kurs am Abend. In Ihrer Anzeige steht, dass die Gruppen klein sind. Das finde ich (33) … wichtig, weil ich im Unterricht viel sprechen möchte. Ich will im September die B1-Prüfung machen, (34) … brauche ich noch Training für den Prüfungsteil Sprachbausteine. Könnten Sie mir bitte mitteilen, (35) … Ihr Kurs auch auf die telc-Prüfung vorbereitet?\n\nIch habe außerdem gelesen, dass es einen Sonderpreis für Studierende gibt. Ich bin aber berufstätig, wie viel (36) … ich dann für den Kurs bezahlen? Die Probestunde ist ja gratis; ich würde (37) … zu einer Probestunde kommen, am liebsten schon nächste Woche.\n\nBitte schicken Sie mir das Anmeldeformular per E-Mail, **(38) ______** ich mich noch vor dem 31. August anmelden kann. Mein Deutsch ist noch nicht perfekt, (39) … möchte ich den Kurs unbedingt komplett auf Deutsch machen.\n\nIch wäre Ihnen sehr (40) …, wenn Sie mir bald antworten würden.\n\nMit freundlichen Grüßen\nAmir Karimi",
+      "prompt": "Lücke 38: Welches Wort passt?",
+      "options": [
+        {
+          "id": "a",
+          "text": "besonders"
+        },
+        {
+          "id": "b",
+          "text": "da"
+        },
+        {
+          "id": "c",
+          "text": "damals"
+        },
+        {
+          "id": "d",
+          "text": "damit"
+        },
+        {
+          "id": "e",
+          "text": "dankbar"
+        },
+        {
+          "id": "f",
+          "text": "deshalb"
+        },
+        {
+          "id": "g",
+          "text": "könnte"
+        },
+        {
+          "id": "h",
+          "text": "obwohl"
+        },
+        {
+          "id": "i",
+          "text": "seit"
+        },
+        {
+          "id": "j",
+          "text": "trotzdem"
+        },
+        {
+          "id": "k",
+          "text": "vor"
+        },
+        {
+          "id": "l",
+          "text": "wann"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**Answer: damit** · Konnektoren (connectors)\n\nPurpose + verb-final (kann) → DAMIT.\n\n*Auf Deutsch:* Absicht + Verb-Ende (kann) → DAMIT."
+    },
+    {
+      "id": "tb1-u47-l01-teil2-wortbank-ex10",
+      "type": "choice",
+      "title": "Sprachbausteine Teil 2 · Lücke 39",
+      "passage": "Sehr geehrte Frau Sommer,\n\nich habe Ihre Anzeige gelesen und interessiere mich sehr für Ihre Abendkurse. (31) … zwei Jahren lerne ich Deutsch, im Moment besuche ich aber keinen Kurs.\n\n(32) … ich vormittags arbeite, suche ich einen Kurs am Abend. In Ihrer Anzeige steht, dass die Gruppen klein sind. Das finde ich (33) … wichtig, weil ich im Unterricht viel sprechen möchte. Ich will im September die B1-Prüfung machen, (34) … brauche ich noch Training für den Prüfungsteil Sprachbausteine. Könnten Sie mir bitte mitteilen, (35) … Ihr Kurs auch auf die telc-Prüfung vorbereitet?\n\nIch habe außerdem gelesen, dass es einen Sonderpreis für Studierende gibt. Ich bin aber berufstätig, wie viel (36) … ich dann für den Kurs bezahlen? Die Probestunde ist ja gratis; ich würde (37) … zu einer Probestunde kommen, am liebsten schon nächste Woche.\n\nBitte schicken Sie mir das Anmeldeformular per E-Mail, (38) … ich mich noch vor dem 31. August anmelden kann. Mein Deutsch ist noch nicht perfekt, **(39) ______** möchte ich den Kurs unbedingt komplett auf Deutsch machen.\n\nIch wäre Ihnen sehr (40) …, wenn Sie mir bald antworten würden.\n\nMit freundlichen Grüßen\nAmir Karimi",
+      "prompt": "Lücke 39: Welches Wort passt?",
+      "options": [
+        {
+          "id": "a",
+          "text": "besonders"
+        },
+        {
+          "id": "b",
+          "text": "da"
+        },
+        {
+          "id": "c",
+          "text": "damals"
+        },
+        {
+          "id": "d",
+          "text": "dankbar"
+        },
+        {
+          "id": "e",
+          "text": "deshalb"
+        },
+        {
+          "id": "f",
+          "text": "könnte"
+        },
+        {
+          "id": "g",
+          "text": "ob"
+        },
+        {
+          "id": "h",
+          "text": "obwohl"
+        },
+        {
+          "id": "i",
+          "text": "seit"
+        },
+        {
+          "id": "j",
+          "text": "trotzdem"
+        },
+        {
+          "id": "k",
+          "text": "vor"
+        },
+        {
+          "id": "l",
+          "text": "wann"
+        }
+      ],
+      "correctOptionId": "j",
+      "explanation": "**Answer: trotzdem** · Konnektoren (connectors)\n\nInversion „möchte ich“ + concession → TROTZDEM. The twin OBWOHL would need verb-final.\n\n*Auf Deutsch:* Inversion „möchte ich“ + Einräumung → TROTZDEM. Der Zwilling OBWOHL bräuchte Verb-Ende."
+    },
+    {
+      "id": "tb1-u47-l01-teil2-wortbank-ex11",
+      "type": "choice",
+      "title": "Sprachbausteine Teil 2 · Lücke 40",
+      "passage": "Sehr geehrte Frau Sommer,\n\nich habe Ihre Anzeige gelesen und interessiere mich sehr für Ihre Abendkurse. (31) … zwei Jahren lerne ich Deutsch, im Moment besuche ich aber keinen Kurs.\n\n(32) … ich vormittags arbeite, suche ich einen Kurs am Abend. In Ihrer Anzeige steht, dass die Gruppen klein sind. Das finde ich (33) … wichtig, weil ich im Unterricht viel sprechen möchte. Ich will im September die B1-Prüfung machen, (34) … brauche ich noch Training für den Prüfungsteil Sprachbausteine. Könnten Sie mir bitte mitteilen, (35) … Ihr Kurs auch auf die telc-Prüfung vorbereitet?\n\nIch habe außerdem gelesen, dass es einen Sonderpreis für Studierende gibt. Ich bin aber berufstätig, wie viel (36) … ich dann für den Kurs bezahlen? Die Probestunde ist ja gratis; ich würde (37) … zu einer Probestunde kommen, am liebsten schon nächste Woche.\n\nBitte schicken Sie mir das Anmeldeformular per E-Mail, (38) … ich mich noch vor dem 31. August anmelden kann. Mein Deutsch ist noch nicht perfekt, (39) … möchte ich den Kurs unbedingt komplett auf Deutsch machen.\n\nIch wäre Ihnen sehr **(40) ______**, wenn Sie mir bald antworten würden.\n\nMit freundlichen Grüßen\nAmir Karimi",
+      "prompt": "Lücke 40: Welches Wort passt?",
+      "options": [
+        {
+          "id": "a",
+          "text": "besonders"
+        },
+        {
+          "id": "b",
+          "text": "da"
+        },
+        {
+          "id": "c",
+          "text": "damals"
+        },
+        {
+          "id": "d",
+          "text": "dankbar"
+        },
+        {
+          "id": "e",
+          "text": "deshalb"
+        },
+        {
+          "id": "f",
+          "text": "könnte"
+        },
+        {
+          "id": "g",
+          "text": "müsste"
+        },
+        {
+          "id": "h",
+          "text": "ob"
+        },
+        {
+          "id": "i",
+          "text": "obwohl"
+        },
+        {
+          "id": "j",
+          "text": "seit"
+        },
+        {
+          "id": "k",
+          "text": "vor"
+        },
+        {
+          "id": "l",
+          "text": "wann"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**Answer: dankbar** · Wortschatz · Briefbausteine (vocabulary & letter chunks)\n\nThe fixed letter chunk: Ich wäre Ihnen sehr dankbar, wenn …\n\n*Auf Deutsch:* Der feste Briefbaustein: Ich wäre Ihnen sehr dankbar, wenn …"
+    }
+  ]
+}

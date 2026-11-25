@@ -1,0 +1,296 @@
+{
+  "id": "tb1-u18-l01-future-plans-wishes-1",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u18",
+  "title": "Future Plans & Wishes 1",
+  "tip": "Theme: Zukunftspläne / Wünsche (B1)",
+  "exercises": [
+    {
+      "id": "tb1-u18-l01-future-plans-wishes-1-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "die Zukunft",
+          "known": "future"
+        },
+        {
+          "id": "p2",
+          "learning": "der Plan",
+          "known": "plan"
+        },
+        {
+          "id": "p3",
+          "learning": "das Ziel",
+          "known": "goal"
+        },
+        {
+          "id": "p4",
+          "learning": "die Entscheidung",
+          "known": "decision"
+        },
+        {
+          "id": "p5",
+          "learning": "sich entscheiden für",
+          "known": "to decide on"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u18-l01-future-plans-wishes-1-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „future: in future“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Zukunft (nur Sg.), in Zukunft"
+        },
+        {
+          "id": "b",
+          "text": "der Erfolg, die Erfolge: erfolgreich"
+        },
+        {
+          "id": "c",
+          "text": "der Wunsch, die Wünsche, sich (Dat.) wünschen"
+        },
+        {
+          "id": "d",
+          "text": "die Entscheidung, die Entscheidungen, eine Entscheidung treffen"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**die Zukunft (nur Sg.), in Zukunft** = future: in future\n\n*Example:* In Zukunft möchte ich mehr Zeit mit meiner Familie verbringen.\nIn future I want to spend more time with my family."
+    },
+    {
+      "id": "tb1-u18-l01-future-plans-wishes-1-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „plan: to plan“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "der Wunsch, die Wünsche, sich (Dat.) wünschen"
+        },
+        {
+          "id": "b",
+          "text": "die Entscheidung, die Entscheidungen, eine Entscheidung treffen"
+        },
+        {
+          "id": "c",
+          "text": "der Plan, die Pläne: planen"
+        },
+        {
+          "id": "d",
+          "text": "der Erfolg, die Erfolge: erfolgreich"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**der Plan** = plan: to plan\n*Plural: die Pläne: planen*\n\n*Example:* Wir planen eine Reise nach Italien, aber der Plan ist noch nicht fertig.\nWe're planning a trip to Italy, but the plan isn't finished yet."
+    },
+    {
+      "id": "tb1-u18-l01-future-plans-wishes-1-ex04",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u18-l01-future-plans-wishes-1-1.mp3"
+      },
+      "tiles": [
+        "In",
+        "habe",
+        "verbringen",
+        "Plan",
+        "vorstellen",
+        "mehr",
+        "möchte",
+        "ich",
+        "Familie",
+        "meiner",
+        "mit",
+        "Zukunft",
+        "Zeit"
+      ],
+      "answers": [
+        "In Zukunft möchte ich mehr Zeit mit meiner Familie verbringen."
+      ],
+      "explanation": "In Zukunft möchte ich mehr Zeit mit meiner Familie verbringen.\n*In future I want to spend more time with my family.*\n\n**die Zukunft (nur Sg.), in Zukunft** = future: in future"
+    },
+    {
+      "id": "tb1-u18-l01-future-plans-wishes-1-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which verb means „to intend, have planned. What are your plans for the weekend?“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "sich (Dat.) vorstellen. Ich kann mir gut vorstellen, dass …"
+        },
+        {
+          "id": "b",
+          "text": "sich entscheiden für + Akk. (hat sich entschieden)"
+        },
+        {
+          "id": "c",
+          "text": "schaffen (hat geschafft). Ich schaffe das."
+        },
+        {
+          "id": "d",
+          "text": "vorhaben (hat vorgehabt). Was hast du am Wochenende vor?"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**vorhaben (hat vorgehabt). Was hast du am Wochenende vor?** = to intend, have planned. What are your plans for the weekend?\n\n*Example:* Was hast du am Wochenende vor? – Ich habe vor, meine Eltern zu besuchen.\nWhat are your plans for the weekend? – I'm planning to visit my parents."
+    },
+    {
+      "id": "tb1-u18-l01-future-plans-wishes-1-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Wir planen eine Reise nach Italien, aber der Plan ist noch nicht fertig.",
+      "tiles": [
+        "isn't",
+        "Italy",
+        "plan",
+        "was",
+        "a",
+        "the",
+        "planning",
+        "trip",
+        "better",
+        "to",
+        "finished",
+        "preparing",
+        "but",
+        "yet",
+        "We're"
+      ],
+      "answers": [
+        "We're planning a trip to Italy, but the plan isn't finished yet."
+      ],
+      "explanation": "**der Plan** = plan: to plan\n*Plural: die Pläne: planen*"
+    },
+    {
+      "id": "tb1-u18-l01-future-plans-wishes-1-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „goal: to reach a goal“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Möglichkeit, die Möglichkeiten · die Chance, die Chancen"
+        },
+        {
+          "id": "b",
+          "text": "der Traum, die Träume, träumen von + Dat."
+        },
+        {
+          "id": "c",
+          "text": "das Ziel, die Ziele: ein Ziel erreichen"
+        },
+        {
+          "id": "d",
+          "text": "der Wunsch, die Wünsche, sich (Dat.) wünschen"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**das Ziel** = goal: to reach a goal\n*Plural: die Ziele: ein Ziel erreichen*\n\n*Example:* Ali hat sein Ziel erreicht und arbeitet jetzt als Krankenpfleger.\nAli has reached his goal and now works as a nurse."
+    },
+    {
+      "id": "tb1-u18-l01-future-plans-wishes-1-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "What are your plans for the weekend? – I'm planning to visit my parents.",
+      "tiles": [
+        "Wochenende",
+        "Ich",
+        "du",
+        "meine",
+        "Eltern",
+        "habe",
+        "Was",
+        "verbringen",
+        "vor",
+        "am",
+        "zu",
+        "vor",
+        "einen",
+        "hast",
+        "besuchen",
+        "Mein"
+      ],
+      "answers": [
+        "Was hast du am Wochenende vor? – Ich habe vor, meine Eltern zu besuchen."
+      ],
+      "explanation": "**vorhaben (hat vorgehabt). Was hast du am Wochenende vor?** = to intend, have planned. What are your plans for the weekend?"
+    },
+    {
+      "id": "tb1-u18-l01-future-plans-wishes-1-ex09",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „decision: to make a decision“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Zukunft (nur Sg.), in Zukunft"
+        },
+        {
+          "id": "b",
+          "text": "der Plan, die Pläne: planen"
+        },
+        {
+          "id": "c",
+          "text": "die Entscheidung, die Entscheidungen, eine Entscheidung treffen"
+        },
+        {
+          "id": "d",
+          "text": "die Möglichkeit, die Möglichkeiten · die Chance, die Chancen"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**die Entscheidung, die Entscheidungen, eine Entscheidung treffen** = decision: to make a decision\n\n*Example:* Der Umzug nach München war eine schwierige Entscheidung für uns.\nMoving to Munich was a difficult decision for us."
+    },
+    {
+      "id": "tb1-u18-l01-future-plans-wishes-1-ex10",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u18-l01-future-plans-wishes-1-4.mp3"
+      },
+      "tiles": [
+        "als",
+        "du",
+        "und",
+        "Kollege",
+        "erreicht",
+        "sein",
+        "Krankenpfleger",
+        "arbeitet",
+        "Ali",
+        "hat",
+        "Ziel",
+        "Ausbildung",
+        "jetzt"
+      ],
+      "answers": [
+        "Ali hat sein Ziel erreicht und arbeitet jetzt als Krankenpfleger."
+      ],
+      "explanation": "Ali hat sein Ziel erreicht und arbeitet jetzt als Krankenpfleger.\n*Ali has reached his goal and now works as a nurse.*\n\n**das Ziel** = goal: to reach a goal\n*Plural: die Ziele: ein Ziel erreichen*"
+    },
+    {
+      "id": "tb1-u18-l01-future-plans-wishes-1-ex11",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Der Umzug nach München war eine schwierige Entscheidung für uns.",
+      "tiles": [
+        "is",
+        "for",
+        "difficult",
+        "decision",
+        "Munich",
+        "Moving",
+        "a",
+        "colleague",
+        "to",
+        "was",
+        "us",
+        "will"
+      ],
+      "answers": [
+        "Moving to Munich was a difficult decision for us."
+      ],
+      "explanation": "**die Entscheidung, die Entscheidungen, eine Entscheidung treffen** = decision: to make a decision"
+    }
+  ]
+}

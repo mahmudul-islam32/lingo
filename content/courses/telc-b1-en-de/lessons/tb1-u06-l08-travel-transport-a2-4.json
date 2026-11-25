@@ -1,0 +1,240 @@
+{
+  "id": "tb1-u06-l08-travel-transport-a2-4",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u06",
+  "title": "Travel & Transport (A2) 4",
+  "tip": "Theme: Reisen & Verkehr (A2) (A2)",
+  "exercises": [
+    {
+      "id": "tb1-u06-l08-travel-transport-a2-4-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "abfahren",
+          "known": "to depart"
+        },
+        {
+          "id": "p2",
+          "learning": "das Gepäck",
+          "known": "luggage"
+        },
+        {
+          "id": "p3",
+          "learning": "der Koffer",
+          "known": "suitcase"
+        },
+        {
+          "id": "p4",
+          "learning": "die Grenze",
+          "known": "border"
+        },
+        {
+          "id": "p5",
+          "learning": "die Reise",
+          "known": "trip / journey"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u06-l08-travel-transport-a2-4-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which one means „to depart“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "ankommen (kommt an)"
+        },
+        {
+          "id": "b",
+          "text": "abfahren (fährt ab)"
+        },
+        {
+          "id": "c",
+          "text": "umsteigen (steigt um)"
+        },
+        {
+          "id": "d",
+          "text": "der Zug, die Züge"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**abfahren (fährt ab)** = to depart\n\n*Example:* Der Bus fährt in zehn Minuten ab, beeil dich!\nThe bus leaves in ten minutes, hurry up!"
+    },
+    {
+      "id": "tb1-u06-l08-travel-transport-a2-4-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „luggage“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "der Bus, die Busse"
+        },
+        {
+          "id": "b",
+          "text": "das Fahrrad, die Fahrräder"
+        },
+        {
+          "id": "c",
+          "text": "der Flughafen, die Flughäfen"
+        },
+        {
+          "id": "d",
+          "text": "das Gepäck"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**das Gepäck** = luggage\n\n*Example:* Ihr Gepäck können Sie hier am Schalter abgeben.\nYou can check in your luggage here at the counter."
+    },
+    {
+      "id": "tb1-u06-l08-travel-transport-a2-4-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "The bus leaves in ten minutes, hurry up!",
+      "tiles": [
+        "ab",
+        "Bus",
+        "Gleis",
+        "zehn",
+        "beeil",
+        "Ihr",
+        "fährt",
+        "Koffer",
+        "in",
+        "dich",
+        "Minuten",
+        "Der"
+      ],
+      "answers": [
+        "Der Bus fährt in zehn Minuten ab, beeil dich!"
+      ],
+      "explanation": "**abfahren (fährt ab)** = to depart"
+    },
+    {
+      "id": "tb1-u06-l08-travel-transport-a2-4-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „suitcase“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "der Koffer, die Koffer"
+        },
+        {
+          "id": "b",
+          "text": "der Zug, die Züge"
+        },
+        {
+          "id": "c",
+          "text": "der Bus, die Busse"
+        },
+        {
+          "id": "d",
+          "text": "das Gepäck"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**der Koffer** = suitcase\n*Plural: die Koffer*\n\n*Example:* Mein Koffer ist zu schwer, ich muss etwas herausnehmen.\nMy suitcase is too heavy, I have to take something out."
+    },
+    {
+      "id": "tb1-u06-l08-travel-transport-a2-4-ex06",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u06-l08-travel-transport-a2-4-2.mp3"
+      },
+      "tiles": [
+        "Ihr",
+        "können",
+        "Sie",
+        "hier",
+        "am",
+        "Gepäck",
+        "abgeben",
+        "Schalter",
+        "zwei",
+        "auch",
+        "herausnehmen"
+      ],
+      "answers": [
+        "Ihr Gepäck können Sie hier am Schalter abgeben."
+      ],
+      "explanation": "Ihr Gepäck können Sie hier am Schalter abgeben.\n*You can check in your luggage here at the counter.*\n\n**das Gepäck** = luggage"
+    },
+    {
+      "id": "tb1-u06-l08-travel-transport-a2-4-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „border“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "der Urlaub"
+        },
+        {
+          "id": "b",
+          "text": "die Reise, die Reisen"
+        },
+        {
+          "id": "c",
+          "text": "die Grenze, die Grenzen"
+        },
+        {
+          "id": "d",
+          "text": "das Gepäck"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**die Grenze** = border\n*Plural: die Grenzen*\n\n*Example:* An der Grenze zur Schweiz hat die Polizei unsere Pässe kontrolliert.\nAt the Swiss border the police checked our passports."
+    },
+    {
+      "id": "tb1-u06-l08-travel-transport-a2-4-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Mein Koffer ist zu schwer, ich muss etwas herausnehmen.",
+      "tiles": [
+        "My",
+        "too",
+        "the",
+        "we're",
+        "out",
+        "heavy",
+        "arrive",
+        "is",
+        "suitcase",
+        "take",
+        "something",
+        "to",
+        "I",
+        "have"
+      ],
+      "answers": [
+        "My suitcase is too heavy, I have to take something out."
+      ],
+      "explanation": "**der Koffer** = suitcase\n*Plural: die Koffer*"
+    },
+    {
+      "id": "tb1-u06-l08-travel-transport-a2-4-ex09",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "At the Swiss border the police checked our passports.",
+      "tiles": [
+        "hat",
+        "unsere",
+        "zur",
+        "dich",
+        "die",
+        "kontrolliert",
+        "Pässe",
+        "Schweiz",
+        "dem",
+        "Polizei",
+        "der",
+        "Minuten",
+        "An",
+        "Grenze"
+      ],
+      "answers": [
+        "An der Grenze zur Schweiz hat die Polizei unsere Pässe kontrolliert."
+      ],
+      "explanation": "**die Grenze** = border\n*Plural: die Grenzen*"
+    }
+  ]
+}

@@ -1,0 +1,237 @@
+{
+  "id": "tb1-u21-l03-connectors-b1-3",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u21",
+  "title": "Connectors (B1) 3",
+  "tip": "Theme: Konnektoren (B1) (B1)",
+  "exercises": [
+    {
+      "id": "tb1-u21-l03-connectors-b1-3-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "indem",
+          "known": "by (doing)"
+        },
+        {
+          "id": "p2",
+          "learning": "sodass",
+          "known": "so that"
+        },
+        {
+          "id": "p3",
+          "learning": "anstatt … zu",
+          "known": "instead of (doing)"
+        },
+        {
+          "id": "p4",
+          "learning": "ohne … zu",
+          "known": "without (doing)"
+        },
+        {
+          "id": "p5",
+          "learning": "dennoch",
+          "known": "yet / still"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u21-l03-connectors-b1-3-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which one means „by (doing)“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "indem"
+        },
+        {
+          "id": "b",
+          "text": "ohne … zu"
+        },
+        {
+          "id": "c",
+          "text": "allerdings"
+        },
+        {
+          "id": "d",
+          "text": "dennoch"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**indem** = by (doing)\n\n*Example:* Maria spart Geld, indem sie jeden Tag selbst kocht.\nMaria saves money by cooking for herself every day."
+    },
+    {
+      "id": "tb1-u21-l03-connectors-b1-3-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which one means „so that“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "sodass"
+        },
+        {
+          "id": "b",
+          "text": "um … zu"
+        },
+        {
+          "id": "c",
+          "text": "dennoch"
+        },
+        {
+          "id": "d",
+          "text": "außerdem"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**sodass** = so that\n\n*Example:* Es hat stark geregnet, sodass das Fußballspiel ausgefallen ist.\nIt rained heavily, so the football match was cancelled."
+    },
+    {
+      "id": "tb1-u21-l03-connectors-b1-3-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Maria spart Geld, indem sie jeden Tag selbst kocht.",
+      "tiles": [
+        "money",
+        "you",
+        "cooking",
+        "by",
+        "for",
+        "day",
+        "saves",
+        "should",
+        "while",
+        "every",
+        "herself",
+        "Maria"
+      ],
+      "answers": [
+        "Maria saves money by cooking for herself every day."
+      ],
+      "explanation": "**indem** = by (doing)"
+    },
+    {
+      "id": "tb1-u21-l03-connectors-b1-3-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which one means „instead of (doing)“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "außerdem"
+        },
+        {
+          "id": "b",
+          "text": "zwar … aber"
+        },
+        {
+          "id": "c",
+          "text": "daher"
+        },
+        {
+          "id": "d",
+          "text": "anstatt … zu"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**anstatt … zu** = instead of (doing)\n\n*Example:* Anstatt mit dem Auto zu fahren, geht Tom zu Fuß zur Arbeit.\nInstead of driving, Tom walks to work."
+    },
+    {
+      "id": "tb1-u21-l03-connectors-b1-3-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "It rained heavily, so the football match was cancelled.",
+      "tiles": [
+        "hat",
+        "ist",
+        "geregnet",
+        "sodass",
+        "Es",
+        "fahren",
+        "ausgefallen",
+        "das",
+        "stark",
+        "indem",
+        "daher",
+        "Fußballspiel"
+      ],
+      "answers": [
+        "Es hat stark geregnet, sodass das Fußballspiel ausgefallen ist."
+      ],
+      "explanation": "**sodass** = so that"
+    },
+    {
+      "id": "tb1-u21-l03-connectors-b1-3-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which one means „without (doing)“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "je nachdem"
+        },
+        {
+          "id": "b",
+          "text": "ohne … zu"
+        },
+        {
+          "id": "c",
+          "text": "um … zu"
+        },
+        {
+          "id": "d",
+          "text": "anstatt … zu"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**ohne … zu** = without (doing)\n\n*Example:* Mein Nachbar ist gegangen, ohne Tschüss zu sagen.\nMy neighbour left without saying goodbye."
+    },
+    {
+      "id": "tb1-u21-l03-connectors-b1-3-ex08",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u21-l03-connectors-b1-3-3.mp3"
+      },
+      "tiles": [
+        "Tom",
+        "dem",
+        "hast",
+        "Auto",
+        "Fuß",
+        "zur",
+        "geht",
+        "mit",
+        "Arbeit",
+        "fahren",
+        "zu",
+        "Mein",
+        "zu",
+        "Anstatt",
+        "um"
+      ],
+      "answers": [
+        "Anstatt mit dem Auto zu fahren, geht Tom zu Fuß zur Arbeit."
+      ],
+      "explanation": "Anstatt mit dem Auto zu fahren, geht Tom zu Fuß zur Arbeit.\n*Instead of driving, Tom walks to work.*\n\n**anstatt … zu** = instead of (doing)"
+    },
+    {
+      "id": "tb1-u21-l03-connectors-b1-3-ex09",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Mein Nachbar ist gegangen, ohne Tschüss zu sagen.",
+      "tiles": [
+        "left",
+        "My",
+        "goodbye",
+        "neighbour",
+        "without",
+        "saying",
+        "living",
+        "The",
+        "coming"
+      ],
+      "answers": [
+        "My neighbour left without saying goodbye."
+      ],
+      "explanation": "**ohne … zu** = without (doing)"
+    }
+  ]
+}

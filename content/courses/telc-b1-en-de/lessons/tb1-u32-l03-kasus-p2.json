@@ -1,0 +1,202 @@
+{
+  "id": "tb1-u32-l03-kasus-p2",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u32",
+  "title": "Cases: Nominative, Accusative, Dative: Verben mit Dativ",
+  "tip": "“Ich helfe dich” / “Ich danke Sie”, helfen & danken take dative: dir / Ihnen.",
+  "exercises": [
+    {
+      "id": "tb1-u32-l03-kasus-p2-ex01",
+      "type": "explain",
+      "title": "Verben mit Dativ",
+      "body": "helfen, danken, gefallen, gehören, antworten, gratulieren, passen, schmecken: always dative.\n\n*Deutsch:* helfen, danken, gefallen, gehören, antworten, gratulieren, passen, schmecken: immer Dativ.\n\n## Pattern\n\nSubjekt + **Dativ-Verb** + **mir/dir/dem …**",
+      "examples": [
+        {
+          "learning": "Ich helfe dir gern.",
+          "known": "I'm happy to help you."
+        },
+        {
+          "learning": "Die Wohnung gefällt mir sehr.",
+          "known": "I like the flat a lot."
+        }
+      ]
+    },
+    {
+      "id": "tb1-u32-l03-kasus-p2-ex02",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I'm happy to help you.",
+      "tiles": [
+        "→",
+        "zeige",
+        "gern",
+        "Ich",
+        "helfe",
+        "dir",
+        "einen"
+      ],
+      "answers": [
+        "Ich helfe dir gern."
+      ],
+      "explanation": "**Why:** helfen + dative → dir (not dich).\n\n*Warum:* helfen + Dativ → dir (nicht dich)."
+    },
+    {
+      "id": "tb1-u32-l03-kasus-p2-ex03",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I like the flat a lot.",
+      "tiles": [
+        "einen",
+        "Wohnung",
+        "mir",
+        "Die",
+        "gefällt",
+        "sehr",
+        "Kannst",
+        "Kollegen"
+      ],
+      "answers": [
+        "Die Wohnung gefällt mir sehr."
+      ],
+      "explanation": "**Why:** The flat is the subject, I'm the dative (mir).\n\n*Warum:* Die Wohnung ist Subjekt, ich bin Dativ (mir)."
+    },
+    {
+      "id": "tb1-u32-l03-kasus-p2-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Who does this bag belong to?",
+      "tiles": [
+        "Tasche",
+        "geben",
+        "gehört",
+        "Katze",
+        "Wem",
+        "Ihnen",
+        "diese"
+      ],
+      "answers": [
+        "Wem gehört diese Tasche?"
+      ],
+      "explanation": "**Why:** Question with Wem? → dative.\n\n*Warum:* Frage mit Wem? → Dativ."
+    },
+    {
+      "id": "tb1-u32-l03-kasus-p2-ex05",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Thank you for your help.",
+      "tiles": [
+        "für",
+        "Ich",
+        "Wem",
+        "Hilfe",
+        "ihrer",
+        "Ihre",
+        "Ihnen",
+        "Bruder",
+        "danke"
+      ],
+      "answers": [
+        "Ich danke Ihnen für Ihre Hilfe."
+      ],
+      "explanation": "**Why:** danken + dative → Ihnen.\n\n*Warum:* danken + Dativ → Ihnen."
+    },
+    {
+      "id": "tb1-u32-l03-kasus-p2-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Does Friday's appointment suit you?",
+      "tiles": [
+        "Vermieter",
+        "ihrer",
+        "Freitag",
+        "der",
+        "dir",
+        "Apfel",
+        "Termin",
+        "am",
+        "Passt"
+      ],
+      "answers": [
+        "Passt dir der Termin am Freitag?"
+      ],
+      "explanation": "**Why:** passen + dative → dir.\n\n*Warum:* passen + Dativ → dir."
+    },
+    {
+      "id": "tb1-u32-l03-kasus-p2-ex07",
+      "type": "choice",
+      "title": "Fill the gap",
+      "prompt": "Gehört die Tasche ___?",
+      "options": [
+        {
+          "id": "a",
+          "text": "du"
+        },
+        {
+          "id": "b",
+          "text": "dir"
+        },
+        {
+          "id": "c",
+          "text": "dich"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "gehören + Dativ: Gehört sie dir?"
+    },
+    {
+      "id": "tb1-u32-l03-kasus-p2-ex08",
+      "type": "choice",
+      "title": "Find the mistake",
+      "prompt": "Which word is wrong? „Ich helfe dich bei der Arbeit.“",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ich"
+        },
+        {
+          "id": "b",
+          "text": "helfe"
+        },
+        {
+          "id": "c",
+          "text": "dich"
+        },
+        {
+          "id": "d",
+          "text": "bei"
+        },
+        {
+          "id": "e",
+          "text": "der"
+        },
+        {
+          "id": "f",
+          "text": "Arbeit"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "„dich“ → „dir“: **Ich helfe dir bei der Arbeit.**\n\nhelfen + Dativ: Ich helfe dir. (nicht „dich“)"
+    },
+    {
+      "id": "tb1-u32-l03-kasus-p2-ex09",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Correct the sentence: „Ich helfe dich bei der Arbeit.“",
+      "tiles": [
+        "Arbeit",
+        "Passt",
+        "bei",
+        "dich",
+        "helfe",
+        "sehe",
+        "der",
+        "dir",
+        "Ich"
+      ],
+      "answers": [
+        "Ich helfe dir bei der Arbeit."
+      ],
+      "explanation": "helfen + Dativ: Ich helfe dir. (nicht „dich“)"
+    }
+  ]
+}

@@ -1,0 +1,253 @@
+{
+  "id": "tb1-u21-l08-clause-patterns-connectors-4",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u21",
+  "title": "Clause Patterns & Connectors 4",
+  "tip": "Theme: Sätze. Muster: Nebensätze & Konnektoren (B1)",
+  "exercises": [
+    {
+      "id": "tb1-u21-l08-clause-patterns-connectors-4-ex01",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means „In case it rains tomorrow, we'll stay at home. (falls)“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Können Sie mir sagen, wann der Zug abfährt?"
+        },
+        {
+          "id": "b",
+          "text": "Zwar ist die Wohnung klein, aber sie ist sehr gemütlich."
+        },
+        {
+          "id": "c",
+          "text": "Falls es morgen regnet, bleiben wir zu Hause."
+        },
+        {
+          "id": "d",
+          "text": "Seitdem ich in Deutschland wohne, spreche ich jeden Tag Deutsch."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**Falls es morgen regnet, bleiben wir zu Hause.** = In case it rains tomorrow, we'll stay at home. (falls)\n\n*Example:* Falls es morgen regnet, bleiben wir zu Hause.\nIn case it rains tomorrow, we'll stay at home. (falls)"
+    },
+    {
+      "id": "tb1-u21-l08-clause-patterns-connectors-4-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means „That is the man who lives next to us. (Relativsatz, Nominativ)“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Können Sie mir sagen, wann der Zug abfährt?"
+        },
+        {
+          "id": "b",
+          "text": "Wenn ich Zeit habe, wiederhole ich die Vokabeln."
+        },
+        {
+          "id": "c",
+          "text": "Bevor ich schlafen gehe, wiederhole ich die Wörter."
+        },
+        {
+          "id": "d",
+          "text": "Das ist der Mann, der neben uns wohnt."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**Das ist der Mann, der neben uns wohnt.** = That is the man who lives next to us. (Relativsatz, Nominativ)\n\n*Example:* Das ist der Mann, der neben uns wohnt.\nThat is the man who lives next to us. (Relativsatz, Nominativ)"
+    },
+    {
+      "id": "tb1-u21-l08-clause-patterns-connectors-4-ex03",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u21-l08-clause-patterns-connectors-4-1.mp3"
+      },
+      "tiles": [
+        "es",
+        "desto",
+        "wir",
+        "regnet",
+        "war",
+        "Hause",
+        "Falls",
+        "bleiben",
+        "zu",
+        "morgen",
+        "der"
+      ],
+      "answers": [
+        "Falls es morgen regnet, bleiben wir zu Hause."
+      ],
+      "explanation": "Falls es morgen regnet, bleiben wir zu Hause.\n*In case it rains tomorrow, we'll stay at home. (falls)*\n\n**Falls es morgen regnet, bleiben wir zu Hause.** = In case it rains tomorrow, we'll stay at home. (falls)"
+    },
+    {
+      "id": "tb1-u21-l08-clause-patterns-connectors-4-ex04",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means „That is the book that I recommended to you. (Relativsatz, Akkusativ)“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ich lerne jeden Tag Deutsch, weil ich die Prüfung bestehen will."
+        },
+        {
+          "id": "b",
+          "text": "Je mehr ich übe, desto besser werde ich."
+        },
+        {
+          "id": "c",
+          "text": "Das ist das Buch, das ich dir empfohlen habe."
+        },
+        {
+          "id": "d",
+          "text": "Sowohl meine Frau als auch ich arbeiten im Moment."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**Das ist das Buch, das ich dir empfohlen habe.** = That is the book that I recommended to you. (Relativsatz, Akkusativ)\n\n*Example:* Das ist das Buch, das ich dir empfohlen habe.\nThat is the book that I recommended to you. (Relativsatz, Akkusativ)"
+    },
+    {
+      "id": "tb1-u21-l08-clause-patterns-connectors-4-ex05",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "That is the man who lives next to us. (Relativsatz, Nominativ)",
+      "tiles": [
+        "der",
+        "der",
+        "ist",
+        "neben",
+        "uns",
+        "Mann",
+        "oder",
+        "spreche",
+        "ich",
+        "Das",
+        "wohnt"
+      ],
+      "answers": [
+        "Das ist der Mann, der neben uns wohnt."
+      ],
+      "explanation": "**Das ist der Mann, der neben uns wohnt.** = That is the man who lives next to us. (Relativsatz, Nominativ)"
+    },
+    {
+      "id": "tb1-u21-l08-clause-patterns-connectors-4-ex06",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means „The woman I work with is from Italy. (Relativsatz mit Präposition)“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Die Frau, mit der ich arbeite, kommt aus Italien."
+        },
+        {
+          "id": "b",
+          "text": "Ich habe weder Zeit noch Geld für einen Urlaub."
+        },
+        {
+          "id": "c",
+          "text": "Ich bin nach Deutschland gekommen, um hier zu studieren."
+        },
+        {
+          "id": "d",
+          "text": "Wenn ich Zeit habe, wiederhole ich die Vokabeln."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Die Frau, mit der ich arbeite, kommt aus Italien.** = The woman I work with is from Italy. (Relativsatz mit Präposition)\n\n*Example:* Die Frau, mit der ich arbeite, kommt aus Italien.\nThe woman I work with is from Italy. (Relativsatz mit Präposition)"
+    },
+    {
+      "id": "tb1-u21-l08-clause-patterns-connectors-4-ex07",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "That is the book that I recommended to you. (Relativsatz, Akkusativ)",
+      "tiles": [
+        "habe",
+        "Zwar",
+        "ich",
+        "Das",
+        "Obwohl",
+        "das",
+        "dir",
+        "ist",
+        "Deutsch",
+        "Buch",
+        "empfohlen",
+        "das"
+      ],
+      "answers": [
+        "Das ist das Buch, das ich dir empfohlen habe."
+      ],
+      "explanation": "**Das ist das Buch, das ich dir empfohlen habe.** = That is the book that I recommended to you. (Relativsatz, Akkusativ)"
+    },
+    {
+      "id": "tb1-u21-l08-clause-patterns-connectors-4-ex08",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means „The more I practise, the better I get. (je … desto)“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Seitdem ich in Deutschland wohne, spreche ich jeden Tag Deutsch."
+        },
+        {
+          "id": "b",
+          "text": "Sowohl meine Frau als auch ich arbeiten im Moment."
+        },
+        {
+          "id": "c",
+          "text": "Je mehr ich übe, desto besser werde ich."
+        },
+        {
+          "id": "d",
+          "text": "Weißt du, ob der Kurs morgen stattfindet?"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**Je mehr ich übe, desto besser werde ich.** = The more I practise, the better I get. (je … desto)\n\n*Example:* Je mehr ich übe, desto besser werde ich.\nThe more I practise, the better I get. (je … desto)"
+    },
+    {
+      "id": "tb1-u21-l08-clause-patterns-connectors-4-ex09",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u21-l08-clause-patterns-connectors-4-4.mp3"
+      },
+      "tiles": [
+        "ich",
+        "der",
+        "Italien",
+        "spazieren",
+        "kommt",
+        "aus",
+        "Frau",
+        "mit",
+        "Die",
+        "es",
+        "Hause",
+        "arbeite"
+      ],
+      "answers": [
+        "Die Frau, mit der ich arbeite, kommt aus Italien."
+      ],
+      "explanation": "Die Frau, mit der ich arbeite, kommt aus Italien.\n*The woman I work with is from Italy. (Relativsatz mit Präposition)*\n\n**Die Frau, mit der ich arbeite, kommt aus Italien.** = The woman I work with is from Italy. (Relativsatz mit Präposition)"
+    },
+    {
+      "id": "tb1-u21-l08-clause-patterns-connectors-4-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "The more I practise, the better I get. (je … desto)",
+      "tiles": [
+        "besser",
+        "desto",
+        "ich",
+        "übe",
+        "Podcasts",
+        "ich",
+        "werde",
+        "Je",
+        "aber",
+        "lerne",
+        "mehr"
+      ],
+      "answers": [
+        "Je mehr ich übe, desto besser werde ich."
+      ],
+      "explanation": "**Je mehr ich übe, desto besser werde ich.** = The more I practise, the better I get. (je … desto)"
+    }
+  ]
+}

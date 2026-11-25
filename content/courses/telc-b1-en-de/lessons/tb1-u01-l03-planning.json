@@ -1,0 +1,60 @@
+{
+  "id": "tb1-u01-l03-planning",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u01",
+  "title": "Planning your preparation",
+  "exercises": [
+    {
+      "id": "tb1-u01-l03-planning-ex01",
+      "type": "explain",
+      "title": "Planning your preparation",
+      "body": "The telc app plans your daily study time from the **days left until the exam** and the **content still to do**, instead of fixed minutes.\n\nIts rough estimates for working through each skill once:\n\n- Lesen (Reading): about 150 minutes\n- Hören (Listening): about 150 minutes\n- Sprachbausteine: about 75 minutes\n- Schreiben (Writing): about 90 minutes\n\nDaily minutes are kept within limits: vocabulary 5–50, grammar 5–40, exam skills 8–45 minutes a day. What you already master counts less, so the plan adapts to your pace.\n\nFor writing, the app's target is **about 80 words** per e-mail in **30 minutes**."
+    },
+    {
+      "id": "tb1-u01-l03-planning-ex02",
+      "type": "choice",
+      "prompt": "How long should your e-mail in the writing part be (target in the telc app)?",
+      "options": [
+        {
+          "id": "a",
+          "text": "about 30 words"
+        },
+        {
+          "id": "b",
+          "text": "about 250 words"
+        },
+        {
+          "id": "c",
+          "text": "about 80 words"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Wörter · Ziel ca. 80 (30-minute timer)."
+    },
+    {
+      "id": "tb1-u01-l03-planning-ex03",
+      "type": "choice",
+      "prompt": "Which skill does the app estimate takes the least time to work through once?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Hören (about 150 minutes)"
+        },
+        {
+          "id": "b",
+          "text": "Schreiben (about 90 minutes)"
+        },
+        {
+          "id": "c",
+          "text": "Lesen (about 150 minutes)"
+        },
+        {
+          "id": "d",
+          "text": "Sprachbausteine (about 75 minutes)"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Estimates: Lesen 150, Hören 150, Sprachbausteine 75, Schreiben 90 minutes."
+    }
+  ]
+}

@@ -1,0 +1,267 @@
+{
+  "id": "tb1-u48-l01-d2-connectors-the-word-order-weapon",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u48",
+  "title": "Connectors: the word-order weapon (Konnektoren: die Wortstellungs-Waffe)",
+  "tip": "Gap type: Konnektoren (connectors).",
+  "exercises": [
+    {
+      "id": "tb1-u48-l01-d2-connectors-the-word-order-weapon-ex01",
+      "type": "explain",
+      "title": "Connectors: the word-order weapon",
+      "body": "**Three families, three word orders.**\n· **Position 0** (aber, denn, sondern, und, oder): the verb stays second.\n· **Subordinators** (weil, dass, ob, wenn, als, obwohl, damit, bevor, nachdem, während, bis, seit, falls, sodass): verb goes to the **end**.\n· **Adverb connectors** (deshalb, trotzdem, danach, dann, außerdem, sonst, schließlich): they take position 1 → **inversion**.\n\n**The routine:** first look at where the verb is, that usually kills two options on its own. Only then check meaning. Special cases: „sondern“ only after a negation · „als“ = one single past event, „wenn“ = present/future/repeated, „wann“ only in questions · „ob“ = yes/no uncertainty, „dass“ = reported fact · if a subject follows the gap it must be „damit“, not „um … zu“.\n\n## Auf Deutsch: Konnektoren: die Wortstellungs-Waffe\n\n**Drei Familien, drei Wortstellungen.**\n· **Position 0** (aber, denn, sondern, und, oder): das Verb bleibt an zweiter Stelle.\n· **Subjunktionen** (weil, dass, ob, wenn, als, obwohl, damit, bevor, nachdem, während, bis, seit, falls, sodass): Verb ans **Ende**.\n· **Adverbkonnektoren** (deshalb, trotzdem, danach, dann, außerdem, sonst, schließlich): stehen auf Position 1 → **Inversion**.\n\n**Die Routine:** zuerst schauen, wo das Verb steht, das erschlägt meist schon zwei Optionen. Erst dann die Bedeutung prüfen. Sonderfälle: „sondern“ nur nach einer Verneinung · „als“ = ein einzelnes Ereignis in der Vergangenheit, „wenn“ = Gegenwart/Zukunft/Wiederholung, „wann“ nur in Fragen · „ob“ = ja/nein-Unsicherheit, „dass“ = berichtete Tatsache · folgt nach der Lücke ein Subjekt, muss es „damit“ sein, nicht „um … zu“."
+    },
+    {
+      "id": "tb1-u48-l01-d2-connectors-the-word-order-weapon-ex02",
+      "type": "choice",
+      "prompt": "Wir können heute nicht grillen, ___ es regnet den ganzen Tag.",
+      "options": [
+        {
+          "id": "a",
+          "text": "deshalb"
+        },
+        {
+          "id": "b",
+          "text": "denn"
+        },
+        {
+          "id": "c",
+          "text": "obwohl"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Answer: denn** · Konnektoren (connectors)\n\nVerb in position 2 (es regnet) → a position-0 word; meaning = reason. „deshalb“ needs inversion, „obwohl“ verb-final.\n\n*Auf Deutsch:* Verb auf Position 2 (es regnet) → Position-0-Wort; Bedeutung = Grund. „deshalb“ verlangt Inversion, „obwohl“ Verb-Ende."
+    },
+    {
+      "id": "tb1-u48-l01-d2-connectors-the-word-order-weapon-ex03",
+      "type": "choice",
+      "prompt": "___ ich in Deutschland lebe, spreche ich jeden Tag Deutsch.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Seitdem"
+        },
+        {
+          "id": "b",
+          "text": "Bis"
+        },
+        {
+          "id": "c",
+          "text": "Bevor"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Answer: Seitdem** · Konnektoren (connectors)\n\n„since I have been living here“ + verb-final. Bis/Bevor make no sense for an ongoing state.\n\n*Auf Deutsch:* „seit ich hier lebe“ + Verb-Ende. Bis/Bevor passen nicht zu einem Zustand, der andauert."
+    },
+    {
+      "id": "tb1-u48-l01-d2-connectors-the-word-order-weapon-ex04",
+      "type": "choice",
+      "prompt": "Ich lerne jeden Abend Vokabeln, ___ ich die Prüfung bestehen will.",
+      "options": [
+        {
+          "id": "a",
+          "text": "deshalb"
+        },
+        {
+          "id": "b",
+          "text": "trotzdem"
+        },
+        {
+          "id": "c",
+          "text": "weil"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**Answer: weil** · Konnektoren (connectors)\n\nVerb at the end (bestehen will) → subordinator; meaning = reason.\n\n*Auf Deutsch:* Verb am Ende (bestehen will) → Subjunktion; Bedeutung = Grund."
+    },
+    {
+      "id": "tb1-u48-l01-d2-connectors-the-word-order-weapon-ex05",
+      "type": "choice",
+      "prompt": "Es hat stark geregnet. ___ sind wir spazieren gegangen.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Trotzdem"
+        },
+        {
+          "id": "b",
+          "text": "Obwohl"
+        },
+        {
+          "id": "c",
+          "text": "Denn"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Answer: Trotzdem** · Konnektoren (connectors)\n\nPosition 1 + inversion (sind wir). „Obwohl“ would need verb-final; „Denn“ cannot invert.\n\n*Auf Deutsch:* Position 1 + Inversion (sind wir). „Obwohl“ bräuchte Verb-Ende, „Denn“ kann nicht invertieren."
+    },
+    {
+      "id": "tb1-u48-l01-d2-connectors-the-word-order-weapon-ex06",
+      "type": "choice",
+      "prompt": "Ich weiß nicht, ___ der Zug pünktlich ankommt.",
+      "options": [
+        {
+          "id": "a",
+          "text": "dass"
+        },
+        {
+          "id": "b",
+          "text": "ob"
+        },
+        {
+          "id": "c",
+          "text": "wenn"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Answer: ob** · Konnektoren (connectors)\n\nIndirect yes/no question. „dass“ would state it as fact; „wenn“ means if.\n\n*Auf Deutsch:* Indirekte Ja/Nein-Frage. „dass“ würde es als Tatsache behaupten, „wenn“ heißt falls."
+    },
+    {
+      "id": "tb1-u48-l01-d2-connectors-the-word-order-weapon-ex07",
+      "type": "choice",
+      "prompt": "___ wir in München wohnten, sind wir oft in die Berge gefahren.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Wenn"
+        },
+        {
+          "id": "b",
+          "text": "Wann"
+        },
+        {
+          "id": "c",
+          "text": "Als"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**Answer: Als** · Konnektoren (connectors)\n\nONE continuous period in the past → als. „wenn“ + past only for repeated events.\n\n*Auf Deutsch:* EIN zusammenhängender Zeitraum in der Vergangenheit → als. „wenn“ + Vergangenheit nur bei Wiederholung."
+    },
+    {
+      "id": "tb1-u48-l01-d2-connectors-the-word-order-weapon-ex08",
+      "type": "choice",
+      "prompt": "Er nimmt Deutschstunden, ___ er besser mit den Kollegen sprechen kann.",
+      "options": [
+        {
+          "id": "a",
+          "text": "damit"
+        },
+        {
+          "id": "b",
+          "text": "um"
+        },
+        {
+          "id": "c",
+          "text": "denn"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Answer: damit** · Konnektoren (connectors)\n\nPurpose with its own subject (er) → damit. „um“ would need „um … zu sprechen“ with no subject.\n\n*Auf Deutsch:* Absicht mit eigenem Subjekt (er) → damit. „um“ bräuchte „um … zu sprechen“ ohne Subjekt."
+    },
+    {
+      "id": "tb1-u48-l01-d2-connectors-the-word-order-weapon-ex09",
+      "type": "choice",
+      "prompt": "Zuerst machen wir die Hausaufgaben, ___ sehen wir fern.",
+      "options": [
+        {
+          "id": "a",
+          "text": "nachdem"
+        },
+        {
+          "id": "b",
+          "text": "danach"
+        },
+        {
+          "id": "c",
+          "text": "bevor"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Answer: danach** · Konnektoren (connectors)\n\nPosition 1 + inversion (sehen wir). Nachdem/bevor are subordinators → verb-final.\n\n*Auf Deutsch:* Position 1 + Inversion (sehen wir). Nachdem/bevor sind Subjunktionen → Verb-Ende."
+    },
+    {
+      "id": "tb1-u48-l01-d2-connectors-the-word-order-weapon-ex10",
+      "type": "choice",
+      "prompt": "___ er müde war, hat er das Projekt fertig gemacht.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Obwohl"
+        },
+        {
+          "id": "b",
+          "text": "Trotzdem"
+        },
+        {
+          "id": "c",
+          "text": "Weil"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Answer: Obwohl** · Konnektoren (connectors)\n\nVerb at the end (war) → subordinator; meaning = concession. „Trotzdem“ cannot send the verb to the end.\n\n*Auf Deutsch:* Verb am Ende (war) → Subjunktion; Bedeutung = Einräumung. „Trotzdem“ kann das Verb nicht ans Ende schicken."
+    },
+    {
+      "id": "tb1-u48-l01-d2-connectors-the-word-order-weapon-ex11",
+      "type": "choice",
+      "prompt": "Sie spricht nicht nur Deutsch, ___ auch Spanisch.",
+      "options": [
+        {
+          "id": "a",
+          "text": "aber"
+        },
+        {
+          "id": "b",
+          "text": "und"
+        },
+        {
+          "id": "c",
+          "text": "sondern"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**Answer: sondern** · Konnektoren (connectors)\n\nNegation before it (nicht nur) + correction → sondern (auch).\n\n*Auf Deutsch:* Verneinung davor (nicht nur) + Korrektur → sondern (auch)."
+    },
+    {
+      "id": "tb1-u48-l01-d2-connectors-the-word-order-weapon-ex12",
+      "type": "choice",
+      "prompt": "Ruf mich bitte an, ___ du am Bahnhof ankommst.",
+      "options": [
+        {
+          "id": "a",
+          "text": "als"
+        },
+        {
+          "id": "b",
+          "text": "wenn"
+        },
+        {
+          "id": "c",
+          "text": "ob"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Answer: wenn** · Konnektoren (connectors)\n\nFuture, repeatable event → wenn. „als“ is past-only.\n\n*Auf Deutsch:* Zukünftiges, wiederholbares Ereignis → wenn. „als“ ist nur Vergangenheit."
+    },
+    {
+      "id": "tb1-u48-l01-d2-connectors-the-word-order-weapon-ex13",
+      "type": "choice",
+      "prompt": "Ich hatte den Brief schon geschrieben, ___ ich den Fehler bemerkte.",
+      "options": [
+        {
+          "id": "a",
+          "text": "bevor"
+        },
+        {
+          "id": "b",
+          "text": "während"
+        },
+        {
+          "id": "c",
+          "text": "nachdem"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Answer: bevor** · Konnektoren (connectors)\n\n„I had already written it BEFORE I noticed the mistake.“ Nachdem reverses the logic.\n\n*Auf Deutsch:* „Ich hatte ihn schon geschrieben, BEVOR ich den Fehler bemerkte.“ Nachdem dreht die Logik um."
+    }
+  ]
+}

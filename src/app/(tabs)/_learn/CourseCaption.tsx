@@ -1,7 +1,9 @@
 "use client";
 
+import { useQuery } from "@tanstack/react-query";
 import type { Slug } from "@/contracts";
-import { useUserProgress } from "@/features/gamification";
+import { settingsQuery, useUserProgress } from "@/features/gamification";
+import { effectiveStartLevel } from "@/features/profile";
 import { useCourse } from "@/lib/content";
 import { cn } from "@/components/ui";
 import { courseCaption, currentLevel } from "./course-caption";
@@ -23,11 +25,16 @@ export interface CourseCaptionProps {
 export function CourseCaption({ courseId, className }: CourseCaptionProps) {
   const course = useCourse(courseId);
   const progress = useUserProgress(courseId);
+  const settings = useQuery(settingsQuery());
   const ready = course.status === "success" && progress.status !== "loading";
   const text = ready
     ? courseCaption(
         course.data,
-        currentLevel(course.data, progress.progress?.completedLessonIds ?? NO_COMPLETED),
+        currentLevel(
+          course.data,
+          progress.progress?.completedLessonIds ?? NO_COMPLETED,
+          effectiveStartLevel(course.data, settings.data?.startLevel),
+        ),
       )
     : null;
 

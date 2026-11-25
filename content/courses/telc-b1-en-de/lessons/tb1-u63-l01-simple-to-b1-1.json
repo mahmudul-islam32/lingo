@@ -1,0 +1,240 @@
+{
+  "id": "tb1-u63-l01-simple-to-b1-1",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u63",
+  "title": "Simple → B1 words 1",
+  "tip": "Swap plain A2 words for B1 alternatives.",
+  "exercises": [
+    {
+      "id": "tb1-u63-l01-simple-to-b1-1-ex01",
+      "type": "explain",
+      "title": "Simple → B1 (Einfach → B1) 1",
+      "body": "Left the A2 word, right the B1 alternative:\n\n- Ich denke, … → **Ich bin der Meinung, dass … / Meiner Meinung nach …** (Meinung einleiten)\n- gut / schön → **sinnvoll, praktisch, angenehm, hilfreich** (je nach Kontext)\n- schlecht → **problematisch, ungünstig, nicht ideal**\n- machen (einen Kurs) → **an einem Kurs teilnehmen / einen Kurs besuchen**\n- machen (Aufgaben) → **Aufgaben erledigen**\n- sagen → **erwähnen, betonen, hinzufügen**\n- viele Sachen / Dinge → **mehrere Aspekte / Punkte**\n- Leute → **Menschen / Personen**\n- aber → **jedoch, allerdings** (sparsam einsetzen)"
+    },
+    {
+      "id": "tb1-u63-l01-simple-to-b1-1-ex02",
+      "type": "choice",
+      "prompt": "Was klingt besser als „Ich denke, …“? (B1-Variante)",
+      "options": [
+        {
+          "id": "a",
+          "text": "sinnvoll, praktisch, angenehm, hilfreich"
+        },
+        {
+          "id": "b",
+          "text": "Ich bin der Meinung, dass … / Meiner Meinung nach …"
+        },
+        {
+          "id": "c",
+          "text": "Aufgaben erledigen"
+        },
+        {
+          "id": "d",
+          "text": "erwähnen, betonen, hinzufügen"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Ich denke, … → **Ich bin der Meinung, dass … / Meiner Meinung nach …** (Meinung einleiten)"
+    },
+    {
+      "id": "tb1-u63-l01-simple-to-b1-1-ex03",
+      "type": "choice",
+      "prompt": "Was klingt besser als „gut / schön“? (B1-Variante)",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ich interessiere mich für … / … gefällt mir"
+        },
+        {
+          "id": "b",
+          "text": "danach, anschließend"
+        },
+        {
+          "id": "c",
+          "text": "Schwierigkeit / Nachteil"
+        },
+        {
+          "id": "d",
+          "text": "sinnvoll, praktisch, angenehm, hilfreich"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "gut / schön → **sinnvoll, praktisch, angenehm, hilfreich** (je nach Kontext)"
+    },
+    {
+      "id": "tb1-u63-l01-simple-to-b1-1-ex04",
+      "type": "choice",
+      "prompt": "Was klingt besser als „schlecht“? (B1-Variante)",
+      "options": [
+        {
+          "id": "a",
+          "text": "jedoch, allerdings"
+        },
+        {
+          "id": "b",
+          "text": "problematisch, ungünstig, nicht ideal"
+        },
+        {
+          "id": "c",
+          "text": "Aufgaben erledigen"
+        },
+        {
+          "id": "d",
+          "text": "danach, anschließend"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "schlecht → **problematisch, ungünstig, nicht ideal**"
+    },
+    {
+      "id": "tb1-u63-l01-simple-to-b1-1-ex05",
+      "type": "choice",
+      "prompt": "Was klingt besser als „machen (einen Kurs)“? (B1-Variante)",
+      "options": [
+        {
+          "id": "a",
+          "text": "erwähnen, betonen, hinzufügen"
+        },
+        {
+          "id": "b",
+          "text": "an einem Kurs teilnehmen / einen Kurs besuchen"
+        },
+        {
+          "id": "c",
+          "text": "Menschen / Personen"
+        },
+        {
+          "id": "d",
+          "text": "Ich interessiere mich für … / … gefällt mir"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "machen (einen Kurs) → **an einem Kurs teilnehmen / einen Kurs besuchen**"
+    },
+    {
+      "id": "tb1-u63-l01-simple-to-b1-1-ex06",
+      "type": "choice",
+      "prompt": "Was klingt besser als „machen (Aufgaben)“? (B1-Variante)",
+      "options": [
+        {
+          "id": "a",
+          "text": "unterstützen bei"
+        },
+        {
+          "id": "b",
+          "text": "Ich interessiere mich für … / … gefällt mir"
+        },
+        {
+          "id": "c",
+          "text": "Aufgaben erledigen"
+        },
+        {
+          "id": "d",
+          "text": "ich möchte / ich würde gern"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "machen (Aufgaben) → **Aufgaben erledigen**"
+    },
+    {
+      "id": "tb1-u63-l01-simple-to-b1-1-ex07",
+      "type": "choice",
+      "prompt": "Was klingt besser als „sagen“? (B1-Variante)",
+      "options": [
+        {
+          "id": "a",
+          "text": "erwähnen, betonen, hinzufügen"
+        },
+        {
+          "id": "b",
+          "text": "außerdem, zusätzlich"
+        },
+        {
+          "id": "c",
+          "text": "besonders wichtig / von großer Bedeutung"
+        },
+        {
+          "id": "d",
+          "text": "Menschen / Personen"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "sagen → **erwähnen, betonen, hinzufügen**"
+    },
+    {
+      "id": "tb1-u63-l01-simple-to-b1-1-ex08",
+      "type": "choice",
+      "prompt": "Was klingt besser als „viele Sachen / Dinge“? (B1-Variante)",
+      "options": [
+        {
+          "id": "a",
+          "text": "mehrere Aspekte / Punkte"
+        },
+        {
+          "id": "b",
+          "text": "etwas / ein wenig"
+        },
+        {
+          "id": "c",
+          "text": "sinnvoll, praktisch, angenehm, hilfreich"
+        },
+        {
+          "id": "d",
+          "text": "unterstützen bei"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "viele Sachen / Dinge → **mehrere Aspekte / Punkte**"
+    },
+    {
+      "id": "tb1-u63-l01-simple-to-b1-1-ex09",
+      "type": "choice",
+      "prompt": "Was klingt besser als „Leute“? (B1-Variante)",
+      "options": [
+        {
+          "id": "a",
+          "text": "Menschen / Personen"
+        },
+        {
+          "id": "b",
+          "text": "ich möchte / ich würde gern"
+        },
+        {
+          "id": "c",
+          "text": "Aufgaben erledigen"
+        },
+        {
+          "id": "d",
+          "text": "danach, anschließend"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Leute → **Menschen / Personen**"
+    },
+    {
+      "id": "tb1-u63-l01-simple-to-b1-1-ex10",
+      "type": "choice",
+      "prompt": "Was klingt besser als „aber“? (B1-Variante)",
+      "options": [
+        {
+          "id": "a",
+          "text": "Das sehe ich auch so / Da stimme ich zu"
+        },
+        {
+          "id": "b",
+          "text": "danach, anschließend"
+        },
+        {
+          "id": "c",
+          "text": "jedoch, allerdings"
+        },
+        {
+          "id": "d",
+          "text": "Aufgaben erledigen"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "aber → **jedoch, allerdings** (sparsam einsetzen)"
+    }
+  ]
+}

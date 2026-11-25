@@ -4,6 +4,6 @@
 body {
   background: var(--color-canvas);
   color: var(--color-fg);
-  /* Design system v2: DM Sans via next/font (CTO-016). */
+  /* System font stack, as in the telc B1 app (TELC-002). */
   font-family: var(--font-body);
 }

@@ -1,0 +1,235 @@
+{
+  "id": "tb1-u06-l01-work-jobs-a2-1",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u06",
+  "title": "Work & Jobs (A2) 1",
+  "tip": "Theme: Arbeit & Beruf (A2) (A2)",
+  "exercises": [
+    {
+      "id": "tb1-u06-l01-work-jobs-a2-1-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "die Arbeit",
+          "known": "work"
+        },
+        {
+          "id": "p2",
+          "learning": "der Job",
+          "known": "job"
+        },
+        {
+          "id": "p3",
+          "learning": "die Kollegin",
+          "known": "colleague (f)"
+        },
+        {
+          "id": "p4",
+          "learning": "der Chef",
+          "known": "boss"
+        },
+        {
+          "id": "p5",
+          "learning": "das Geld",
+          "known": "money"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u06-l01-work-jobs-a2-1-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „work“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Ausbildung"
+        },
+        {
+          "id": "b",
+          "text": "die Stelle, die Stellen"
+        },
+        {
+          "id": "c",
+          "text": "die Erfahrung, die Erfahrungen"
+        },
+        {
+          "id": "d",
+          "text": "die Arbeit"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**die Arbeit** = work\n\n*Example:* Nach der Arbeit gehe ich oft ins Fitnessstudio.\nAfter work I often go to the gym."
+    },
+    {
+      "id": "tb1-u06-l01-work-jobs-a2-1-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „job“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Pause, die Pausen"
+        },
+        {
+          "id": "b",
+          "text": "der Job, die Jobs"
+        },
+        {
+          "id": "c",
+          "text": "die Erfahrung, die Erfahrungen"
+        },
+        {
+          "id": "d",
+          "text": "die Besprechung, die Besprechungen"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**der Job** = job\n*Plural: die Jobs*\n\n*Example:* Ali hat einen neuen Job in einer Bäckerei gefunden.\nAli has found a new job in a bakery."
+    },
+    {
+      "id": "tb1-u06-l01-work-jobs-a2-1-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "After work I often go to the gym.",
+      "tiles": [
+        "der",
+        "bitten",
+        "gehe",
+        "oft",
+        "ins",
+        "Arbeit",
+        "ich",
+        "Nach",
+        "acht",
+        "Tag",
+        "Fitnessstudio"
+      ],
+      "answers": [
+        "Nach der Arbeit gehe ich oft ins Fitnessstudio."
+      ],
+      "explanation": "**die Arbeit** = work"
+    },
+    {
+      "id": "tb1-u06-l01-work-jobs-a2-1-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „colleague (f)“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "der Job, die Jobs"
+        },
+        {
+          "id": "b",
+          "text": "das Geld"
+        },
+        {
+          "id": "c",
+          "text": "der Lohn, die Löhne"
+        },
+        {
+          "id": "d",
+          "text": "die Kollegin, die Kolleginnen"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**die Kollegin** = colleague (f)\n*Plural: die Kolleginnen*\n\n*Example:* Meine Kollegin hilft mir oft am Computer.\nMy colleague often helps me with the computer."
+    },
+    {
+      "id": "tb1-u06-l01-work-jobs-a2-1-ex06",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u06-l01-work-jobs-a2-1-2.mp3"
+      },
+      "tiles": [
+        "neuen",
+        "hat",
+        "einer",
+        "Ali",
+        "Heute",
+        "Arbeit",
+        "Kunden",
+        "in",
+        "gefunden",
+        "Job",
+        "einen",
+        "Bäckerei"
+      ],
+      "answers": [
+        "Ali hat einen neuen Job in einer Bäckerei gefunden."
+      ],
+      "explanation": "Ali hat einen neuen Job in einer Bäckerei gefunden.\n*Ali has found a new job in a bakery.*\n\n**der Job** = job\n*Plural: die Jobs*"
+    },
+    {
+      "id": "tb1-u06-l01-work-jobs-a2-1-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „boss“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Besprechung, die Besprechungen"
+        },
+        {
+          "id": "b",
+          "text": "der Chef, die Chefs"
+        },
+        {
+          "id": "c",
+          "text": "der Job, die Jobs"
+        },
+        {
+          "id": "d",
+          "text": "die Arbeit"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**der Chef** = boss\n*Plural: die Chefs*\n\n*Example:* Ich muss den Chef um einen freien Tag bitten.\nI have to ask the boss for a day off."
+    },
+    {
+      "id": "tb1-u06-l01-work-jobs-a2-1-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Meine Kollegin hilft mir oft am Computer.",
+      "tiles": [
+        "always",
+        "at",
+        "o'clock",
+        "colleague",
+        "the",
+        "helps",
+        "me",
+        "often",
+        "computer",
+        "with",
+        "My"
+      ],
+      "answers": [
+        "My colleague often helps me with the computer."
+      ],
+      "explanation": "**die Kollegin** = colleague (f)\n*Plural: die Kolleginnen*"
+    },
+    {
+      "id": "tb1-u06-l01-work-jobs-a2-1-ex09",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I have to ask the boss for a day off.",
+      "tiles": [
+        "gefunden",
+        "einen",
+        "Ich",
+        "bitten",
+        "Onkel",
+        "freien",
+        "muss",
+        "um",
+        "den",
+        "Chef",
+        "machen",
+        "Tag"
+      ],
+      "answers": [
+        "Ich muss den Chef um einen freien Tag bitten."
+      ],
+      "explanation": "**der Chef** = boss\n*Plural: die Chefs*"
+    }
+  ]
+}

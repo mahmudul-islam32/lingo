@@ -1,0 +1,178 @@
+{
+  "id": "tb1-u01-l02-oral-exam",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u01",
+  "title": "The oral exam",
+  "tip": "Oral: 75 points, scored separately, 45 to pass.",
+  "exercises": [
+    {
+      "id": "tb1-u01-l02-oral-exam-ex01",
+      "type": "explain",
+      "title": "The oral exam: 75 points, scored separately",
+      "body": "*Die mündliche Prüfung wird getrennt gewertet: ab 45 von 75 Punkten.* The oral exam is scored **separately**: you pass with **45 of 75** points.\n\nTo pass the whole exam you need both: **135 of 225** in the written part and **45 of 75** in the oral part.\n\n## Structure\n\n- **Vorbereitung** (20 Minuten)\n- **Teil 1: Einander kennenlernen** (ca. 3 Minuten)\n- **Teil 2: Über ein Thema sprechen** (ca. 6 Minuten)\n- **Teil 3: Gemeinsam etwas planen** (ca. 6 Minuten)\n\nIn English: 20 minutes preparation; Part 1 *getting to know each other* (about 3 minutes); Part 2 *talking about a topic* (about 6 minutes); Part 3 *planning something together* (about 6 minutes).\n\nIn the telc app's oral forecast, Part 1 counts up to **15** points and Parts 2 and 3 up to **30** each (15 + 30 + 30 = 75).\n\n## Hinweise\n\n- Die Prüfung ist eine Paarprüfung und dauert insgesamt ca. 15 Minuten.\n- Zwei Prüfende sind im Raum: eine Person leitet das Gespräch (Interlokutor), die andere bewertet nur (Assessor).\n- Bewertet wird nach drei Kriterien: Ausdrucksfähigkeit, Aufgabenbewältigung und Formale Richtigkeit, dazu Aussprache und Intonation.\n- Nachfragen und dem Partner helfen wird positiv bewertet. Ein lebendiges Gespräch zählt mehr als ein perfekter Monolog.\n- Lesen Sie Ihre Notizen nicht ab, nur kurz hinschauen.\n- Sehen Sie beim Sprechen Ihre Partnerin/Ihren Partner an, nicht die Prüfenden."
+    },
+    {
+      "id": "tb1-u01-l02-oral-exam-ex02",
+      "type": "choice",
+      "prompt": "How many points can you get in the oral exam?",
+      "options": [
+        {
+          "id": "a",
+          "text": "45"
+        },
+        {
+          "id": "b",
+          "text": "225"
+        },
+        {
+          "id": "c",
+          "text": "30"
+        },
+        {
+          "id": "d",
+          "text": "75"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Mündliche Prüfung · 75 Punkte."
+    },
+    {
+      "id": "tb1-u01-l02-oral-exam-ex03",
+      "type": "choice",
+      "prompt": "From how many points is the oral exam passed?",
+      "options": [
+        {
+          "id": "a",
+          "text": "135"
+        },
+        {
+          "id": "b",
+          "text": "45"
+        },
+        {
+          "id": "c",
+          "text": "60"
+        },
+        {
+          "id": "d",
+          "text": "35"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Getrennt gewertet: ab 45 von 75 Punkten."
+    },
+    {
+      "id": "tb1-u01-l02-oral-exam-ex04",
+      "type": "choice",
+      "prompt": "How long is the preparation time before the oral exam?",
+      "options": [
+        {
+          "id": "a",
+          "text": "15 minutes"
+        },
+        {
+          "id": "b",
+          "text": "20 minutes"
+        },
+        {
+          "id": "c",
+          "text": "3 minutes"
+        },
+        {
+          "id": "d",
+          "text": "6 minutes"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Vorbereitung: 20 Minuten."
+    },
+    {
+      "id": "tb1-u01-l02-oral-exam-ex05",
+      "type": "choice",
+      "prompt": "What do you do in Teil 3?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Plan something together (Gemeinsam etwas planen)"
+        },
+        {
+          "id": "b",
+          "text": "Introduce yourselves (Einander kennenlernen)"
+        },
+        {
+          "id": "c",
+          "text": "Talk about a topic (Über ein Thema sprechen)"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Vorbereitung (20 Minuten) · Teil 1: Einander kennenlernen (ca. 3 Minuten) · Teil 2: Über ein Thema sprechen (ca. 6 Minuten) · Teil 3: Gemeinsam etwas planen (ca. 6 Minuten)"
+    },
+    {
+      "id": "tb1-u01-l02-oral-exam-ex06",
+      "type": "choice",
+      "prompt": "How long does Teil 1 last?",
+      "options": [
+        {
+          "id": "a",
+          "text": "about 6 minutes"
+        },
+        {
+          "id": "b",
+          "text": "about 15 minutes"
+        },
+        {
+          "id": "c",
+          "text": "about 20 minutes"
+        },
+        {
+          "id": "d",
+          "text": "about 3 minutes"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Teil 1: Einander kennenlernen: ca. 3 Minuten."
+    },
+    {
+      "id": "tb1-u01-l02-oral-exam-ex07",
+      "type": "choice",
+      "prompt": "Who do you look at while speaking?",
+      "options": [
+        {
+          "id": "a",
+          "text": "The examiners"
+        },
+        {
+          "id": "b",
+          "text": "Your partner"
+        },
+        {
+          "id": "c",
+          "text": "Your notes"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Sehen Sie beim Sprechen Ihre Partnerin/Ihren Partner an, nicht die Prüfenden. Lesen Sie Ihre Notizen nicht ab, nur kurz hinschauen."
+    },
+    {
+      "id": "tb1-u01-l02-oral-exam-ex08",
+      "type": "choice",
+      "prompt": "Which behaviour is rated positively?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Reading out your notes"
+        },
+        {
+          "id": "b",
+          "text": "Giving a long perfect monologue"
+        },
+        {
+          "id": "c",
+          "text": "Asking follow-up questions and helping your partner"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Nachfragen und dem Partner helfen wird positiv bewertet. Ein lebendiges Gespräch zählt mehr als ein perfekter Monolog."
+    }
+  ]
+}

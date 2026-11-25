@@ -1,0 +1,237 @@
+{
+  "id": "tb1-u26-l06-little-words-adverbs-6",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u26",
+  "title": "Little Words & Adverbs 6",
+  "tip": "Theme: Kleine Wörter & Adverbien (B1)",
+  "exercises": [
+    {
+      "id": "tb1-u26-l06-little-words-adverbs-6-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "statt",
+          "known": "instead of"
+        },
+        {
+          "id": "p2",
+          "learning": "womit",
+          "known": "with what"
+        },
+        {
+          "id": "p3",
+          "learning": "worum",
+          "known": "about what (Worum geht es?)"
+        },
+        {
+          "id": "p4",
+          "learning": "worauf",
+          "known": "for / on what"
+        },
+        {
+          "id": "p5",
+          "learning": "sogar",
+          "known": "even"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u26-l06-little-words-adverbs-6-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which one means „instead of“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "statt + Gen."
+        },
+        {
+          "id": "b",
+          "text": "womit"
+        },
+        {
+          "id": "c",
+          "text": "oben"
+        },
+        {
+          "id": "d",
+          "text": "genug"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**statt + Gen.** = instead of\n\n*Example:* Ich trinke heute Tee statt des Kaffees.\nToday I'm drinking tea instead of coffee."
+    },
+    {
+      "id": "tb1-u26-l06-little-words-adverbs-6-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which one means „with what“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "womit"
+        },
+        {
+          "id": "b",
+          "text": "drinnen"
+        },
+        {
+          "id": "c",
+          "text": "voneinander"
+        },
+        {
+          "id": "d",
+          "text": "mindestens"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**womit** = with what\n\n*Example:* Womit fährst du zur Arbeit, mit dem Bus oder mit dem Fahrrad?\nHow do you get to work, by bus or by bike?"
+    },
+    {
+      "id": "tb1-u26-l06-little-words-adverbs-6-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Today I'm drinking tea instead of coffee.",
+      "tiles": [
+        "kleinen",
+        "Kaffees",
+        "Ich",
+        "des",
+        "regnet",
+        "Tee",
+        "statt",
+        "heute",
+        "Weber",
+        "trinke"
+      ],
+      "answers": [
+        "Ich trinke heute Tee statt des Kaffees."
+      ],
+      "explanation": "**statt + Gen.** = instead of"
+    },
+    {
+      "id": "tb1-u26-l06-little-words-adverbs-6-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which one means „about what (Worum geht es?)“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "außerhalb + Gen."
+        },
+        {
+          "id": "b",
+          "text": "darauf"
+        },
+        {
+          "id": "c",
+          "text": "worum"
+        },
+        {
+          "id": "d",
+          "text": "allein"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**worum** = about what (Worum geht es?)\n\n*Example:* Worum geht es in dem Brief vom Jobcenter?\nWhat is the letter from the job centre about?"
+    },
+    {
+      "id": "tb1-u26-l06-little-words-adverbs-6-ex06",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u26-l06-little-words-adverbs-6-2.mp3"
+      },
+      "tiles": [
+        "oder",
+        "dem",
+        "fährst",
+        "Bus",
+        "Die",
+        "Verspätung",
+        "dem",
+        "mit",
+        "mit",
+        "Fahrrad",
+        "Womit",
+        "zur",
+        "oben",
+        "Arbeit",
+        "du"
+      ],
+      "answers": [
+        "Womit fährst du zur Arbeit, mit dem Bus oder mit dem Fahrrad?"
+      ],
+      "explanation": "Womit fährst du zur Arbeit, mit dem Bus oder mit dem Fahrrad?\n*How do you get to work, by bus or by bike?*\n\n**womit** = with what"
+    },
+    {
+      "id": "tb1-u26-l06-little-words-adverbs-6-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which one means „for / on what“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "allein"
+        },
+        {
+          "id": "b",
+          "text": "worauf"
+        },
+        {
+          "id": "c",
+          "text": "worüber"
+        },
+        {
+          "id": "d",
+          "text": "mindestens"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**worauf** = for / on what\n\n*Example:* Worauf wartest du? Der Bus ist schon da!\nWhat are you waiting for? The bus is already here!"
+    },
+    {
+      "id": "tb1-u26-l06-little-words-adverbs-6-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Worum geht es in dem Brief vom Jobcenter?",
+      "tiles": [
+        "the",
+        "is",
+        "job",
+        "about",
+        "are",
+        "with",
+        "What",
+        "from",
+        "the",
+        "letter",
+        "centre",
+        "ground"
+      ],
+      "answers": [
+        "What is the letter from the job centre about?"
+      ],
+      "explanation": "**worum** = about what (Worum geht es?)"
+    },
+    {
+      "id": "tb1-u26-l06-little-words-adverbs-6-ex09",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "What are you waiting for? The bus is already here!",
+      "tiles": [
+        "schon",
+        "da",
+        "ist",
+        "Sommer",
+        "Bus",
+        "zwei",
+        "Der",
+        "des",
+        "du",
+        "Worauf",
+        "wartest"
+      ],
+      "answers": [
+        "Worauf wartest du? Der Bus ist schon da!"
+      ],
+      "explanation": "**worauf** = for / on what"
+    }
+  ]
+}

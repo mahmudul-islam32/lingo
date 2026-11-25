@@ -1,0 +1,280 @@
+{
+  "id": "tb1-u24-l06-frequent-exam-verbs-i-6",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u24",
+  "title": "Frequent Exam Verbs I 6",
+  "tip": "Theme: Verben: Prüfungshäufig I (B1)",
+  "exercises": [
+    {
+      "id": "tb1-u24-l06-frequent-exam-verbs-i-6-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "singen",
+          "known": "to sing"
+        },
+        {
+          "id": "p2",
+          "learning": "tanzen",
+          "known": "to dance"
+        },
+        {
+          "id": "p3",
+          "learning": "rauchen",
+          "known": "to smoke"
+        },
+        {
+          "id": "p4",
+          "learning": "passieren",
+          "known": "to happen"
+        },
+        {
+          "id": "p5",
+          "learning": "aussehen",
+          "known": "to look / appear"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u24-l06-frequent-exam-verbs-i-6-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which one means „to sing“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "tanzen"
+        },
+        {
+          "id": "b",
+          "text": "singen"
+        },
+        {
+          "id": "c",
+          "text": "anbieten (bietet an)"
+        },
+        {
+          "id": "d",
+          "text": "verkaufen"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**singen** = to sing\n\n*Example:* Auf dem Geburtstag haben alle zusammen ein Lied gesungen.\nAt the birthday party everyone sang a song together."
+    },
+    {
+      "id": "tb1-u24-l06-frequent-exam-verbs-i-6-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which one means „to dance“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "tanzen"
+        },
+        {
+          "id": "b",
+          "text": "singen"
+        },
+        {
+          "id": "c",
+          "text": "überlegen"
+        },
+        {
+          "id": "d",
+          "text": "rauchen"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**tanzen** = to dance\n\n*Example:* Auf der Hochzeit tanzt Maria mit ihrem Vater.\nAt the wedding Maria dances with her father."
+    },
+    {
+      "id": "tb1-u24-l06-frequent-exam-verbs-i-6-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Auf dem Geburtstag haben alle zusammen ein Lied gesungen.",
+      "tiles": [
+        "birthday",
+        "everyone",
+        "song",
+        "founded",
+        "the",
+        "At",
+        "printer",
+        "call",
+        "party",
+        "sang",
+        "a",
+        "together"
+      ],
+      "answers": [
+        "At the birthday party everyone sang a song together."
+      ],
+      "explanation": "**singen** = to sing"
+    },
+    {
+      "id": "tb1-u24-l06-frequent-exam-verbs-i-6-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which one means „to smoke“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "klären"
+        },
+        {
+          "id": "b",
+          "text": "zuschicken"
+        },
+        {
+          "id": "c",
+          "text": "überprüfen"
+        },
+        {
+          "id": "d",
+          "text": "rauchen"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**rauchen** = to smoke\n\n*Example:* Im Restaurant darf man nicht rauchen.\nYou're not allowed to smoke in the restaurant."
+    },
+    {
+      "id": "tb1-u24-l06-frequent-exam-verbs-i-6-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "At the wedding Maria dances with her father.",
+      "tiles": [
+        "Maria",
+        "der",
+        "beschreiben",
+        "Vater",
+        "tanzt",
+        "weil",
+        "mit",
+        "Auf",
+        "ihrem",
+        "Hochzeit",
+        "Abend"
+      ],
+      "answers": [
+        "Auf der Hochzeit tanzt Maria mit ihrem Vater."
+      ],
+      "explanation": "**tanzen** = to dance"
+    },
+    {
+      "id": "tb1-u24-l06-frequent-exam-verbs-i-6-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which one means „to happen“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "passieren"
+        },
+        {
+          "id": "b",
+          "text": "aufräumen"
+        },
+        {
+          "id": "c",
+          "text": "beschreiben"
+        },
+        {
+          "id": "d",
+          "text": "überlegen"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**passieren** = to happen\n\n*Example:* Was ist passiert? Du siehst so traurig aus.\nWhat happened? You look so sad."
+    },
+    {
+      "id": "tb1-u24-l06-frequent-exam-verbs-i-6-ex08",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u24-l06-frequent-exam-verbs-i-6-3.mp3"
+      },
+      "tiles": [
+        "Meine",
+        "man",
+        "nicht",
+        "Restaurant",
+        "Die",
+        "Im",
+        "einen",
+        "darf",
+        "rauchen"
+      ],
+      "answers": [
+        "Im Restaurant darf man nicht rauchen."
+      ],
+      "explanation": "Im Restaurant darf man nicht rauchen.\n*You're not allowed to smoke in the restaurant.*\n\n**rauchen** = to smoke"
+    },
+    {
+      "id": "tb1-u24-l06-frequent-exam-verbs-i-6-ex09",
+      "type": "multiple_choice",
+      "prompt": "Which one means „to look / appear“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "aussehen (sieht aus)"
+        },
+        {
+          "id": "b",
+          "text": "versuchen"
+        },
+        {
+          "id": "c",
+          "text": "gründen"
+        },
+        {
+          "id": "d",
+          "text": "organisieren"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**aussehen (sieht aus)** = to look / appear\n\n*Example:* Die neue Wohnung sieht auf den Fotos sehr hell aus.\nThe new flat looks very bright in the photos."
+    },
+    {
+      "id": "tb1-u24-l06-frequent-exam-verbs-i-6-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Was ist passiert? Du siehst so traurig aus.",
+      "tiles": [
+        "so",
+        "happened",
+        "summer",
+        "the",
+        "small",
+        "look",
+        "What",
+        "You",
+        "sad"
+      ],
+      "answers": [
+        "What happened? You look so sad."
+      ],
+      "explanation": "**passieren** = to happen"
+    },
+    {
+      "id": "tb1-u24-l06-frequent-exam-verbs-i-6-ex11",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "The new flat looks very bright in the photos.",
+      "tiles": [
+        "aus",
+        "Oma",
+        "hell",
+        "noch",
+        "neue",
+        "Die",
+        "Wohnung",
+        "auf",
+        "Fotos",
+        "sieht",
+        "hat",
+        "den",
+        "sehr"
+      ],
+      "answers": [
+        "Die neue Wohnung sieht auf den Fotos sehr hell aus."
+      ],
+      "explanation": "**aussehen (sieht aus)** = to look / appear"
+    }
+  ]
+}

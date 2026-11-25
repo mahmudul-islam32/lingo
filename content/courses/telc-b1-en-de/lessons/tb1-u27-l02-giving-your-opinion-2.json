@@ -1,0 +1,238 @@
+{
+  "id": "tb1-u27-l02-giving-your-opinion-2",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u27",
+  "title": "Giving Your Opinion 2",
+  "tip": "Theme: Redemittel: Meinung äußern (B1)",
+  "exercises": [
+    {
+      "id": "tb1-u27-l02-giving-your-opinion-2-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "Ich bin davon überzeugt, dass …",
+          "known": "I'm convinced that …"
+        },
+        {
+          "id": "p2",
+          "learning": "Soweit ich weiß, …",
+          "known": "As far as I know, …"
+        },
+        {
+          "id": "p3",
+          "learning": "Es scheint mir, dass …",
+          "known": "It seems to me that …"
+        },
+        {
+          "id": "p4",
+          "learning": "Ehrlich gesagt, …",
+          "known": "Honestly, …"
+        },
+        {
+          "id": "p5",
+          "learning": "Meiner Meinung nach …",
+          "known": "In my opinion …"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u27-l02-giving-your-opinion-2-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which phrase means „I'm convinced that …“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Wenn Sie mich fragen, …"
+        },
+        {
+          "id": "b",
+          "text": "Ich bin der Meinung, dass …"
+        },
+        {
+          "id": "c",
+          "text": "Ich bin davon überzeugt, dass …"
+        },
+        {
+          "id": "d",
+          "text": "Soweit ich weiß, …"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**Ich bin davon überzeugt, dass …** = I'm convinced that …\n\n*Example:* Ich bin davon überzeugt, dass Sport gut gegen Stress hilft.\nI'm convinced that sport helps a lot against stress."
+    },
+    {
+      "id": "tb1-u27-l02-giving-your-opinion-2-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which phrase means „As far as I know, …“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ich glaube, dass …"
+        },
+        {
+          "id": "b",
+          "text": "Soweit ich weiß, …"
+        },
+        {
+          "id": "c",
+          "text": "Meiner Meinung nach …"
+        },
+        {
+          "id": "d",
+          "text": "Ich finde, dass …"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Soweit ich weiß, …** = As far as I know, …\n\n*Example:* Soweit ich weiß, ist das Bürgeramt montags geschlossen.\nAs far as I know, the citizens' office is closed on Mondays."
+    },
+    {
+      "id": "tb1-u27-l02-giving-your-opinion-2-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I'm convinced that sport helps a lot against stress.",
+      "tiles": [
+        "Ich",
+        "Sport",
+        "bin",
+        "gut",
+        "davon",
+        "der",
+        "überzeugt",
+        "Uhr",
+        "gegen",
+        "Es",
+        "hilft",
+        "Stress",
+        "dass"
+      ],
+      "answers": [
+        "Ich bin davon überzeugt, dass Sport gut gegen Stress hilft."
+      ],
+      "explanation": "**Ich bin davon überzeugt, dass …** = I'm convinced that …"
+    },
+    {
+      "id": "tb1-u27-l02-giving-your-opinion-2-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which phrase means „It seems to me that …“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ich habe den Eindruck, dass …"
+        },
+        {
+          "id": "b",
+          "text": "Ehrlich gesagt, …"
+        },
+        {
+          "id": "c",
+          "text": "Ich würde sagen, dass …"
+        },
+        {
+          "id": "d",
+          "text": "Es scheint mir, dass …"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**Es scheint mir, dass …** = It seems to me that …\n\n*Example:* Es scheint mir, dass unser neuer Chef sehr nett ist.\nIt seems to me that our new boss is very nice."
+    },
+    {
+      "id": "tb1-u27-l02-giving-your-opinion-2-ex06",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u27-l02-giving-your-opinion-2-2.mp3"
+      },
+      "tiles": [
+        "ich",
+        "Ehrlich",
+        "geschlossen",
+        "verbringen",
+        "weiß",
+        "Soweit",
+        "das",
+        "Bürgeramt",
+        "ist",
+        "montags",
+        "Supermarkt"
+      ],
+      "answers": [
+        "Soweit ich weiß, ist das Bürgeramt montags geschlossen."
+      ],
+      "explanation": "Soweit ich weiß, ist das Bürgeramt montags geschlossen.\n*As far as I know, the citizens' office is closed on Mondays.*\n\n**Soweit ich weiß, …** = As far as I know, …"
+    },
+    {
+      "id": "tb1-u27-l02-giving-your-opinion-2-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which phrase means „Honestly, …“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ich habe den Eindruck, dass …"
+        },
+        {
+          "id": "b",
+          "text": "Ich glaube, dass …"
+        },
+        {
+          "id": "c",
+          "text": "Ehrlich gesagt, …"
+        },
+        {
+          "id": "d",
+          "text": "Soweit ich weiß, …"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**Ehrlich gesagt, …** = Honestly, …\n\n*Example:* Ehrlich gesagt, hat mir der Film nicht gefallen.\nHonestly, I didn't like the film."
+    },
+    {
+      "id": "tb1-u27-l02-giving-your-opinion-2-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Es scheint mir, dass unser neuer Chef sehr nett ist.",
+      "tiles": [
+        "very",
+        "ask",
+        "new",
+        "neighbour",
+        "that",
+        "is",
+        "flat",
+        "to",
+        "seems",
+        "boss",
+        "nice",
+        "It",
+        "me",
+        "our"
+      ],
+      "answers": [
+        "It seems to me that our new boss is very nice."
+      ],
+      "explanation": "**Es scheint mir, dass …** = It seems to me that …"
+    },
+    {
+      "id": "tb1-u27-l02-giving-your-opinion-2-ex09",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Honestly, I didn't like the film.",
+      "tiles": [
+        "gesagt",
+        "Ehrlich",
+        "der",
+        "fragen",
+        "gefallen",
+        "nicht",
+        "mir",
+        "hat",
+        "finde",
+        "Film",
+        "zu"
+      ],
+      "answers": [
+        "Ehrlich gesagt, hat mir der Film nicht gefallen."
+      ],
+      "explanation": "**Ehrlich gesagt, …** = Honestly, …"
+    }
+  ]
+}

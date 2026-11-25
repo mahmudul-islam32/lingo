@@ -1,0 +1,281 @@
+{
+  "id": "tb1-u17-l02-offices-bank-post-2",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u17",
+  "title": "Offices, Bank & Post 2",
+  "tip": "Theme: Ämter / Behörden / Bank / Post (B1)",
+  "exercises": [
+    {
+      "id": "tb1-u17-l02-offices-bank-post-2-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "der Antrag",
+          "known": "application"
+        },
+        {
+          "id": "p2",
+          "learning": "die Aufenthaltserlaubnis",
+          "known": "residence permit"
+        },
+        {
+          "id": "p3",
+          "learning": "verlängern",
+          "known": "to extend"
+        },
+        {
+          "id": "p4",
+          "learning": "die Unterlagen",
+          "known": "documents"
+        },
+        {
+          "id": "p5",
+          "learning": "die Bescheinigung",
+          "known": "(official) certificate"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u17-l02-offices-bank-post-2-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „application: to submit an application · to apply for“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "das Bargeld (nur Sg.)"
+        },
+        {
+          "id": "b",
+          "text": "das Konto, die Konten: ein Konto eröffnen"
+        },
+        {
+          "id": "c",
+          "text": "der Antrag, die Anträge: einen Antrag stellen · beantragen"
+        },
+        {
+          "id": "d",
+          "text": "der Geldautomat, die Geldautomaten (n-Dekl.)"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**der Antrag** = application: to submit an application · to apply for\n*Plural: die Anträge: einen Antrag stellen · also: beantragen*\n\n*Example:* Ali hat beim Jobcenter einen Antrag auf Unterstützung gestellt.\nAli submitted an application for support at the job centre."
+    },
+    {
+      "id": "tb1-u17-l02-offices-bank-post-2-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „residence permit“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Bescheinigung, die Bescheinigungen"
+        },
+        {
+          "id": "b",
+          "text": "die Aufenthaltserlaubnis, die Aufenthaltserlaubnisse"
+        },
+        {
+          "id": "c",
+          "text": "das Bargeld (nur Sg.)"
+        },
+        {
+          "id": "d",
+          "text": "der Absender, die Absender ↔ der Empfänger, die Empfänger"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**die Aufenthaltserlaubnis** = residence permit\n*Plural: die Aufenthaltserlaubnisse*\n\n*Example:* Meine Aufenthaltserlaubnis ist noch bis Dezember gültig.\nMy residence permit is still valid until December."
+    },
+    {
+      "id": "tb1-u17-l02-offices-bank-post-2-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Ali hat beim Jobcenter einen Antrag auf Unterstützung gestellt.",
+      "tiles": [
+        "it",
+        "left",
+        "support",
+        "an",
+        "for",
+        "application",
+        "the",
+        "at",
+        "Ali",
+        "centre",
+        "submitted",
+        "job",
+        "all"
+      ],
+      "answers": [
+        "Ali submitted an application for support at the job centre."
+      ],
+      "explanation": "**der Antrag** = application: to submit an application · to apply for\n*Plural: die Anträge: einen Antrag stellen · also: beantragen*"
+    },
+    {
+      "id": "tb1-u17-l02-offices-bank-post-2-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which verb means „to extend, renew“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "abheben (hat abgehoben) ↔ einzahlen"
+        },
+        {
+          "id": "b",
+          "text": "verlängern (hat verlängert)"
+        },
+        {
+          "id": "c",
+          "text": "sich anmelden ↔ sich abmelden"
+        },
+        {
+          "id": "d",
+          "text": "unterschreiben (hat unterschrieben), die Unterschrift, die Unterschriften"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**verlängern (hat verlängert)** = to extend, renew\n\n*Example:* Ich muss meinen Reisepass bald verlängern lassen.\nI need to get my passport renewed soon."
+    },
+    {
+      "id": "tb1-u17-l02-offices-bank-post-2-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "My residence permit is still valid until December.",
+      "tiles": [
+        "bis",
+        "ist",
+        "Wohnung",
+        "Unterstützung",
+        "Mein",
+        "Dezember",
+        "noch",
+        "gültig",
+        "Meine",
+        "Aufenthaltserlaubnis"
+      ],
+      "answers": [
+        "Meine Aufenthaltserlaubnis ist noch bis Dezember gültig."
+      ],
+      "explanation": "**die Aufenthaltserlaubnis** = residence permit\n*Plural: die Aufenthaltserlaubnisse*"
+    },
+    {
+      "id": "tb1-u17-l02-offices-bank-post-2-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „documents, papers“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Unterlagen (Pl.) · das Dokument, die Dokumente"
+        },
+        {
+          "id": "b",
+          "text": "das Amt, die Ämter · die Behörde, die Behörden"
+        },
+        {
+          "id": "c",
+          "text": "der Brief, die Briefe · das Paket, die Pakete · die Briefmarke, die Briefmarken"
+        },
+        {
+          "id": "d",
+          "text": "der Antrag, die Anträge: einen Antrag stellen · beantragen"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**die Unterlagen (Pl.) · das Dokument, die Dokumente** = documents, papers\n\n*Example:* Bringen Sie bitte alle Unterlagen zum Termin mit.\nPlease bring all your documents to the appointment."
+    },
+    {
+      "id": "tb1-u17-l02-offices-bank-post-2-ex08",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u17-l02-offices-bank-post-2-3.mp3"
+      },
+      "tiles": [
+        "Ich",
+        "meinen",
+        "muss",
+        "Strafe",
+        "lassen",
+        "100",
+        "Reisepass",
+        "verlängern",
+        "links",
+        "bald"
+      ],
+      "answers": [
+        "Ich muss meinen Reisepass bald verlängern lassen."
+      ],
+      "explanation": "Ich muss meinen Reisepass bald verlängern lassen.\n*I need to get my passport renewed soon.*\n\n**verlängern (hat verlängert)** = to extend, renew"
+    },
+    {
+      "id": "tb1-u17-l02-offices-bank-post-2-ex09",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „(official) certificate, confirmation“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Bescheinigung, die Bescheinigungen"
+        },
+        {
+          "id": "b",
+          "text": "das Rathaus, die Rathäuser · das Bürgeramt, die Bürgerämter"
+        },
+        {
+          "id": "c",
+          "text": "die Öffnungszeiten (Pl.)"
+        },
+        {
+          "id": "d",
+          "text": "das Amt, die Ämter · die Behörde, die Behörden"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**die Bescheinigung** = (official) certificate, confirmation\n*Plural: die Bescheinigungen*\n\n*Example:* Mein Arbeitgeber braucht eine Bescheinigung von der Krankenkasse.\nMy employer needs a certificate from the health insurance company."
+    },
+    {
+      "id": "tb1-u17-l02-offices-bank-post-2-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Bringen Sie bitte alle Unterlagen zum Termin mit.",
+      "tiles": [
+        "Spain",
+        "centre",
+        "Please",
+        "all",
+        "your",
+        "bring",
+        "appointment",
+        "documents",
+        "new",
+        "to",
+        "the"
+      ],
+      "answers": [
+        "Please bring all your documents to the appointment."
+      ],
+      "explanation": "**die Unterlagen (Pl.) · das Dokument, die Dokumente** = documents, papers"
+    },
+    {
+      "id": "tb1-u17-l02-offices-bank-post-2-ex11",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "My employer needs a certificate from the health insurance company.",
+      "tiles": [
+        "eine",
+        "die",
+        "braucht",
+        "Arbeitgeber",
+        "Mein",
+        "von",
+        "der",
+        "Bescheinigung",
+        "Krankenkasse",
+        "Für",
+        "Umzug"
+      ],
+      "answers": [
+        "Mein Arbeitgeber braucht eine Bescheinigung von der Krankenkasse."
+      ],
+      "explanation": "**die Bescheinigung** = (official) certificate, confirmation\n*Plural: die Bescheinigungen*"
+    }
+  ]
+}

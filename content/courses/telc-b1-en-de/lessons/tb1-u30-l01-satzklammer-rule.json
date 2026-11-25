@@ -1,0 +1,129 @@
+{
+  "id": "tb1-u30-l01-satzklammer-rule",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u30",
+  "title": "Verb Position & the Verb Bracket: the rule",
+  "tip": "“Gestern ich habe…” is THE classic mistake. After a fronted time/place phrase the verb comes first!",
+  "exercises": [
+    {
+      "id": "tb1-u30-l01-satzklammer-rule-ex01",
+      "type": "explain",
+      "title": "Verb Position & the Verb Bracket",
+      "body": "In a main clause the conjugated verb is **always in position 2**; the second verb part (participle, infinitive, prefix) goes **to the very end**, the “verb bracket”. If the sentence starts with time or place, the verb comes **immediately after it**, then the subject (inversion).\n\n*Deutsch:* Im Hauptsatz steht das konjugierte Verb **immer auf Position 2**, der zweite Verbteil (Partizip, Infinitiv, Präfix) **am Satzende**. Beginnt der Satz mit Zeit oder Ort, kommt danach **sofort das Verb**, dann das Subjekt.\n\n*German name:* Satzklammer & Verbposition",
+      "examples": [
+        {
+          "learning": "Ich habe gestern einen Brief geschrieben.",
+          "known": "I wrote a letter yesterday. (habe … geschrieben = bracket)"
+        },
+        {
+          "learning": "Morgen muss ich früh aufstehen.",
+          "known": "Tomorrow I have to get up early. (inversion: Morgen–muss–ich)"
+        },
+        {
+          "learning": "Am Wochenende besuche ich meine Tante.",
+          "known": "At the weekend I visit my aunt. (time first → verb second)"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u30-l01-satzklammer-rule-ex02",
+      "type": "explain",
+      "title": "Verb Position & the Verb Bracket: step by step",
+      "body": "How to build EVERY German main clause:\n1) **Position 1** = one element: subject (Ich…) OR time (Morgen…) OR place (In Berlin…).\n2) **Position 2** = the conjugated verb, no exceptions.\n3) **End of sentence** = the rest of the verb: participle (…gemacht), infinitive (…machen), prefix (…an).\n4) If position 1 is NOT the subject, the subject moves right after the verb: **Morgen – gehe – ich**…\nRemember: verb in position 2 + second verb part at the end = the “bracket” that holds the sentence together.\n\n## Auf Deutsch\n\nSo baust du JEDEN deutschen Hauptsatz:\n1) **Position 1** = ein Element: Subjekt (Ich…) ODER Zeit (Morgen…) ODER Ort (In Berlin…).\n2) **Position 2** = das konjugierte Verb, ohne Ausnahme.\n3) **Satzende** = der Rest vom Verb: Partizip (…gemacht), Infinitiv (…machen), Präfix (…an).\n4) Steht auf Position 1 NICHT das Subjekt, kommt das Subjekt direkt nach dem Verb: **Morgen – gehe – ich** …\nMerke: Verb Position 2 + zweiter Verbteil am Ende = die „Klammer“, die alles zusammenhält.",
+      "examples": [
+        {
+          "learning": "Ich habe gestern einen Brief geschrieben.",
+          "known": "I wrote a letter yesterday. (habe … geschrieben = bracket)"
+        },
+        {
+          "learning": "Morgen muss ich früh aufstehen.",
+          "known": "Tomorrow I have to get up early. (inversion: Morgen–muss–ich)"
+        },
+        {
+          "learning": "Am Wochenende besuche ich meine Tante.",
+          "known": "At the weekend I visit my aunt. (time first → verb second)"
+        },
+        {
+          "learning": "Ich rufe dich heute Abend an.",
+          "known": "I'll call you tonight. (prefix an at the end)"
+        },
+        {
+          "learning": "Testlücke-Stil: „Gestern ___ ich im Kino.“ → war",
+          "known": "Test-gap style: after a time phrase the verb comes first → war"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u30-l01-satzklammer-rule-ex03",
+      "type": "explain",
+      "title": "Watch out & exam tip",
+      "body": "## Common trap\n\n“Gestern ich habe…” is THE classic mistake. After a fronted time/place phrase the verb comes first!\n\n*Deutsch:* „Gestern ich habe…“ ist DER Klassiker-Fehler. Nach einer Angabe am Satzanfang kommt zuerst das Verb!\n\n## In the exam\n\n🎯 How telc tests it: In the **letter**, criterion III checks exactly this word order, “Gestern ich habe” costs points immediately. In **Sprachbausteine**, verb position often tells you which word fits the gap.\n\n*Deutsch:* 🎯 So testet telc das: Im **Brief** prüft Kriterium III genau diese Wortstellung, ein „Gestern ich habe“ kostet sofort. In **Sprachbausteine** zeigt dir die Verbposition oft, welches Wort in die Lücke passt.\n\n*Source:* Guide B6 · Writing-Mastery Kap. 1"
+    },
+    {
+      "id": "tb1-u30-l01-satzklammer-rule-ex04",
+      "type": "choice",
+      "title": "Fill the gap",
+      "prompt": "Gestern ___ ich einen interessanten Film gesehen.",
+      "options": [
+        {
+          "id": "a",
+          "text": "ich habe"
+        },
+        {
+          "id": "b",
+          "text": "habe"
+        },
+        {
+          "id": "c",
+          "text": "gesehen"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Nach einer Zeitangabe am Anfang kommt sofort das Verb (Position 2): Gestern habe ich …"
+    },
+    {
+      "id": "tb1-u30-l01-satzklammer-rule-ex05",
+      "type": "choice",
+      "title": "Fill the gap",
+      "prompt": "Morgen ___ meine Schwester nach München.",
+      "options": [
+        {
+          "id": "a",
+          "text": "fährt"
+        },
+        {
+          "id": "b",
+          "text": "fahren"
+        },
+        {
+          "id": "c",
+          "text": "meine Schwester fährt"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Inversion: Angabe – Verb – Subjekt. Morgen fährt meine Schwester …"
+    },
+    {
+      "id": "tb1-u30-l01-satzklammer-rule-ex06",
+      "type": "choice",
+      "title": "Fill the gap",
+      "prompt": "Ich habe den Brief noch nicht ___.",
+      "options": [
+        {
+          "id": "a",
+          "text": "schreiben"
+        },
+        {
+          "id": "b",
+          "text": "schreibe"
+        },
+        {
+          "id": "c",
+          "text": "geschrieben"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Perfekt-Klammer: habe … geschrieben, das Partizip steht am Ende."
+    }
+  ]
+}

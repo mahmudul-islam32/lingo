@@ -131,12 +131,14 @@ describe("onboarding flow (PLT-004)", () => {
     expect(german.className).toContain("shadow-ring-selected");
   });
 
-  it("PLT-024 1, 2: Course step lists only German, preselected, Continue enabled; Spanish isn't named", async () => {
+  it("PLT-024 1, 2 / TELC-001: Course step lists German (preselected) and the exam courses; Spanish isn't named", async () => {
     const { user } = await renderFlow({ load: () => loadCourses() });
     const group = await toCourseStep(user);
     expect(screen.getByText("Step 2 of 4")).toBeInTheDocument();
     const radios = within(group).getAllByRole("radio");
-    expect(radios).toHaveLength(1);
+    expect(radios).toHaveLength(3);
+    expect(radios[1]).toHaveAccessibleName("telc B1 Exam Prep");
+    expect(radios[2]).toHaveAccessibleName("Einbürgerungstest");
     expect(radios[0]).toHaveAccessibleName("German");
     expect(radios[0]).toHaveAccessibleDescription("for English speakers");
     expect(radios[0]).toHaveAttribute("aria-checked", "true");
@@ -152,13 +154,14 @@ describe("onboarding flow (PLT-004)", () => {
     expect(screen.getByRole("button", { name: "Continue" })).toBeEnabled();
   });
 
-  it("PLT-024 2 (PLT-004 3): with two or more courses nothing is preselected", async () => {
+  it("PLT-024 2 / TELC-001: with two or more courses the default (German) is preselected", async () => {
     const { user } = await renderFlow({ load: () => listBundledCourses() });
     const group = await toCourseStep(user);
     const radios = within(group).getAllByRole("radio");
-    expect(radios).toHaveLength(2);
-    expect(radios.map((r) => r.getAttribute("aria-checked"))).toEqual(["false", "false"]);
-    expect(screen.getByRole("button", { name: "Continue" })).toBeDisabled();
+    expect(radios.length).toBeGreaterThanOrEqual(2);
+    const checked = radios.filter((r) => r.getAttribute("aria-checked") === "true");
+    expect(checked.map((r) => r.textContent)).toEqual([expect.stringContaining("German")]);
+    expect(screen.getByRole("button", { name: "Continue" })).toBeEnabled();
     await user.click(screen.getByRole("radio", { name: "Spanish" }));
     expect(screen.getByRole("radio", { name: "Spanish" })).toHaveAttribute("aria-checked", "true");
     expect(screen.getByRole("button", { name: "Continue" })).toBeEnabled();
@@ -171,9 +174,11 @@ describe("onboarding flow (PLT-004)", () => {
     expect(effectiveCourseId(null, { status: "ready", courses: [] })).toBeNull();
     expect(effectiveCourseId(null, { status: "ready", courses: [german!] })).toBe("en-de");
     expect(effectiveCourseId("en-es", { status: "ready", courses: [german!] })).toBe("en-es");
-    expect(
-      effectiveCourseId(null, { status: "ready", courses: [german!, { ...german!, id: "x" }] }),
-    ).toBeNull();
+    // TELC-001: with several courses, the default (German) is preselected when offered.
+    const several = { status: "ready" as const, courses: [{ ...german!, id: "x" }, german!] };
+    expect(effectiveCourseId(null, several)).toBe("en-de");
+    expect(effectiveCourseId(null, several, "y")).toBeNull();
+    expect(effectiveCourseId("x", several)).toBe("x");
   });
 
   it("PLT-024 3: the Welcome heading names the default course's language (en-es → Spanish)", async () => {
@@ -359,7 +364,7 @@ describe("onboarding flow (PLT-004)", () => {
   });
 
   it("PLT-024 4: the first lesson path is en-de's first A1 lesson", () => {
-    expect(courses.map((c) => c.id)).toEqual(["en-de"]);
+    expect(courses.map((c) => c.id)).toEqual(["en-de", "telc-b1-en-de", "einbuergerung-en-de"]);
     expect(firstGermanLesson()).toMatch(/^\/lesson\/de-a1-u01-l1-[a-z0-9-]+$/);
   });
 

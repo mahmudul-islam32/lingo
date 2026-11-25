@@ -1,0 +1,249 @@
+{
+  "id": "tb1-u14-l05-family-relationships-5",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u14",
+  "title": "Family & Relationships 5",
+  "tip": "Theme: Familie / Beziehungen (B1)",
+  "exercises": [
+    {
+      "id": "tb1-u14-l05-family-relationships-5-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "sich verlieben in",
+          "known": "to fall in love with"
+        },
+        {
+          "id": "p2",
+          "learning": "vertrauen",
+          "known": "to trust"
+        },
+        {
+          "id": "p3",
+          "learning": "die Eltern",
+          "known": "parents"
+        },
+        {
+          "id": "p4",
+          "learning": "das Kind",
+          "known": "child"
+        },
+        {
+          "id": "p5",
+          "learning": "die Geschwister",
+          "known": "siblings"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u14-l05-family-relationships-5-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which verb means „to fall in love with ↔ to split up with“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "sich verstehen mit + Dat. (hat sich verstanden)"
+        },
+        {
+          "id": "b",
+          "text": "aufwachsen (ist aufgewachsen)"
+        },
+        {
+          "id": "c",
+          "text": "sich kümmern um + Akk."
+        },
+        {
+          "id": "d",
+          "text": "sich verlieben in + Akk. ↔ sich trennen von + Dat."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**sich verlieben in + Akk. ↔ sich trennen von + Dat.** = to fall in love with ↔ to split up with\n\n*Example:* Lena hat sich in Paul verliebt und sich von ihrem Freund getrennt.\nLena fell in love with Paul and split up with her boyfriend."
+    },
+    {
+      "id": "tb1-u14-l05-family-relationships-5-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which one means „to trust“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "schwanger. Sie bekommt ein Kind."
+        },
+        {
+          "id": "b",
+          "text": "vertrauen + Dat."
+        },
+        {
+          "id": "c",
+          "text": "geboren. Ich bin 1998 geboren."
+        },
+        {
+          "id": "d",
+          "text": "verheiratet · ledig · getrennt · geschieden"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**vertrauen + Dat.** = to trust\n\n*Example:* Ich vertraue meiner besten Freundin.\nI trust my best friend."
+    },
+    {
+      "id": "tb1-u14-l05-family-relationships-5-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Lena hat sich in Paul verliebt und sich von ihrem Freund getrennt.",
+      "tiles": [
+        "this",
+        "Paul",
+        "and",
+        "with",
+        "husband",
+        "argues",
+        "love",
+        "split",
+        "boyfriend",
+        "fell",
+        "with",
+        "her",
+        "in",
+        "up",
+        "Lena"
+      ],
+      "answers": [
+        "Lena fell in love with Paul and split up with her boyfriend."
+      ],
+      "explanation": "**sich verlieben in + Akk. ↔ sich trennen von + Dat.** = to fall in love with ↔ to split up with"
+    },
+    {
+      "id": "tb1-u14-l05-family-relationships-5-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means „I grew up in a big family and to this day get along very well with my siblings.“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ich bin in einer großen Familie aufgewachsen und verstehe mich bis heute sehr gut mit meinen Geschwistern."
+        },
+        {
+          "id": "b",
+          "text": "Meine Schwester hat vor zwei Jahren geheiratet und kümmert sich jetzt um ihre kleine Tochter."
+        },
+        {
+          "id": "c",
+          "text": "Am Anfang habe ich viele Fehler gemacht, aber jetzt spreche ich viel fließender und mache jede Woche Fortschritte."
+        },
+        {
+          "id": "d",
+          "text": "Ich habe mich für einen Abendkurs an der Volkshochschule angemeldet, weil ich im September die B1-Prüfung ablegen will."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Ich bin in einer großen Familie aufgewachsen und verstehe mich bis heute sehr gut mit meinen Geschwistern.** = I grew up in a big family and to this day get along very well with my siblings.\n\n*Example:* Ich bin in einer großen Familie aufgewachsen und verstehe mich bis heute sehr gut mit meinen Geschwistern.\nI grew up in a big family and to this day get along very well with my siblings."
+    },
+    {
+      "id": "tb1-u14-l05-family-relationships-5-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I trust my best friend.",
+      "tiles": [
+        "Freundin",
+        "Schwester",
+        "sehr",
+        "mit",
+        "vertraue",
+        "Ich",
+        "meiner",
+        "besten"
+      ],
+      "answers": [
+        "Ich vertraue meiner besten Freundin."
+      ],
+      "explanation": "**vertrauen + Dat.** = to trust"
+    },
+    {
+      "id": "tb1-u14-l05-family-relationships-5-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means „My sister got married two years ago and now looks after her little daughter.“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ich habe mich für einen Abendkurs an der Volkshochschule angemeldet, weil ich im September die B1-Prüfung ablegen will."
+        },
+        {
+          "id": "b",
+          "text": "Am Anfang habe ich viele Fehler gemacht, aber jetzt spreche ich viel fließender und mache jede Woche Fortschritte."
+        },
+        {
+          "id": "c",
+          "text": "Ich bin in einer großen Familie aufgewachsen und verstehe mich bis heute sehr gut mit meinen Geschwistern."
+        },
+        {
+          "id": "d",
+          "text": "Meine Schwester hat vor zwei Jahren geheiratet und kümmert sich jetzt um ihre kleine Tochter."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**Meine Schwester hat vor zwei Jahren geheiratet und kümmert sich jetzt um ihre kleine Tochter.** = My sister got married two years ago and now looks after her little daughter.\n\n*Example:* Meine Schwester hat vor zwei Jahren geheiratet und kümmert sich jetzt um ihre kleine Tochter.\nMy sister got married two years ago and now looks after her little daughter."
+    },
+    {
+      "id": "tb1-u14-l05-family-relationships-5-ex08",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u14-l05-family-relationships-5-3.mp3"
+      },
+      "tiles": [
+        "Eltern",
+        "einer",
+        "oft",
+        "meinen",
+        "und",
+        "gut",
+        "Ich",
+        "bis",
+        "verstehe",
+        "mich",
+        "heute",
+        "sehr",
+        "getrennt",
+        "aufgewachsen",
+        "in",
+        "bin",
+        "Geschwistern",
+        "großen",
+        "Familie",
+        "mit"
+      ],
+      "answers": [
+        "Ich bin in einer großen Familie aufgewachsen und verstehe mich bis heute sehr gut mit meinen Geschwistern."
+      ],
+      "explanation": "Ich bin in einer großen Familie aufgewachsen und verstehe mich bis heute sehr gut mit meinen Geschwistern.\n*I grew up in a big family and to this day get along very well with my siblings.*\n\n**Ich bin in einer großen Familie aufgewachsen und verstehe mich bis heute sehr gut mit meinen Geschwistern.** = I grew up in a big family and to this day get along very well with my siblings."
+    },
+    {
+      "id": "tb1-u14-l05-family-relationships-5-ex09",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Meine Schwester hat vor zwei Jahren geheiratet und kümmert sich jetzt um ihre kleine Tochter.",
+      "tiles": [
+        "pregnant",
+        "got",
+        "My",
+        "now",
+        "after",
+        "a",
+        "married",
+        "little",
+        "years",
+        "I",
+        "her",
+        "looks",
+        "two",
+        "sister",
+        "ago",
+        "daughter",
+        "and"
+      ],
+      "answers": [
+        "My sister got married two years ago and now looks after her little daughter."
+      ],
+      "explanation": "**Meine Schwester hat vor zwei Jahren geheiratet und kümmert sich jetzt um ihre kleine Tochter.** = My sister got married two years ago and now looks after her little daughter."
+    }
+  ]
+}

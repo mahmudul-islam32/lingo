@@ -1,0 +1,237 @@
+{
+  "id": "tb1-u25-l06-nouns-everyday-life-6",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u25",
+  "title": "Nouns: Everyday Life 6",
+  "tip": "Theme: Nomen: Alltag & Leben (B1)",
+  "exercises": [
+    {
+      "id": "tb1-u25-l06-nouns-everyday-life-6-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "die Umfrage",
+          "known": "survey"
+        },
+        {
+          "id": "p2",
+          "learning": "der Trend",
+          "known": "trend"
+        },
+        {
+          "id": "p3",
+          "learning": "das Projekt",
+          "known": "project"
+        },
+        {
+          "id": "p4",
+          "learning": "das Forum",
+          "known": "forum (online)"
+        },
+        {
+          "id": "p5",
+          "learning": "der Haushalt",
+          "known": "household"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u25-l06-nouns-everyday-life-6-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „survey“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "der Spaß"
+        },
+        {
+          "id": "b",
+          "text": "die Umfrage, die Umfragen"
+        },
+        {
+          "id": "c",
+          "text": "die Lage, die Lagen"
+        },
+        {
+          "id": "d",
+          "text": "das Ausland"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**die Umfrage** = survey\n*Plural: die Umfragen*\n\n*Example:* Laut einer Umfrage kaufen viele Leute online ein.\nAccording to a survey, many people shop online."
+    },
+    {
+      "id": "tb1-u25-l06-nouns-everyday-life-6-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „trend“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "das Café, die Cafés"
+        },
+        {
+          "id": "b",
+          "text": "der Zeitungsartikel, die Zeitungsartikel"
+        },
+        {
+          "id": "c",
+          "text": "der Trend, die Trends"
+        },
+        {
+          "id": "d",
+          "text": "der Raum, die Räume"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**der Trend** = trend\n*Plural: die Trends*\n\n*Example:* Vegetarisch zu essen ist bei jungen Leuten ein großer Trend.\nEating vegetarian is a big trend among young people."
+    },
+    {
+      "id": "tb1-u25-l06-nouns-everyday-life-6-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "According to a survey, many people shop online.",
+      "tiles": [
+        "die",
+        "Laut",
+        "Umfrage",
+        "ein",
+        "Miete",
+        "Leute",
+        "Café",
+        "online",
+        "viele",
+        "kaufen",
+        "einer"
+      ],
+      "answers": [
+        "Laut einer Umfrage kaufen viele Leute online ein."
+      ],
+      "explanation": "**die Umfrage** = survey\n*Plural: die Umfragen*"
+    },
+    {
+      "id": "tb1-u25-l06-nouns-everyday-life-6-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „project“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Polizei"
+        },
+        {
+          "id": "b",
+          "text": "das Projekt, die Projekte"
+        },
+        {
+          "id": "c",
+          "text": "die Hälfte, die Hälften"
+        },
+        {
+          "id": "d",
+          "text": "das Drittel, die Drittel"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**das Projekt** = project\n*Plural: die Projekte*\n\n*Example:* Unser Team arbeitet gerade an einem neuen Projekt.\nOur team is currently working on a new project."
+    },
+    {
+      "id": "tb1-u25-l06-nouns-everyday-life-6-ex06",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u25-l06-nouns-everyday-life-6-2.mp3"
+      },
+      "tiles": [
+        "zu",
+        "bei",
+        "Trend",
+        "Leuten",
+        "jungen",
+        "ein",
+        "Monats",
+        "der",
+        "großer",
+        "Vegetarisch",
+        "ihre",
+        "essen",
+        "ist"
+      ],
+      "answers": [
+        "Vegetarisch zu essen ist bei jungen Leuten ein großer Trend."
+      ],
+      "explanation": "Vegetarisch zu essen ist bei jungen Leuten ein großer Trend.\n*Eating vegetarian is a big trend among young people.*\n\n**der Trend** = trend\n*Plural: die Trends*"
+    },
+    {
+      "id": "tb1-u25-l06-nouns-everyday-life-6-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „forum (online)“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Sache, die Sachen"
+        },
+        {
+          "id": "b",
+          "text": "der Strand, die Strände"
+        },
+        {
+          "id": "c",
+          "text": "der Zeitungsartikel, die Zeitungsartikel"
+        },
+        {
+          "id": "d",
+          "text": "das Forum, die Foren"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**das Forum** = forum (online)\n*Plural: die Foren*\n\n*Example:* In einem Forum hat Ali Tipps zur Wohnungssuche gefunden.\nAli found tips on flat-hunting in an online forum."
+    },
+    {
+      "id": "tb1-u25-l06-nouns-everyday-life-6-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Unser Team arbeitet gerade an einem neuen Projekt.",
+      "tiles": [
+        "The",
+        "pay",
+        "on",
+        "and",
+        "Our",
+        "a",
+        "is",
+        "currently",
+        "new",
+        "team",
+        "project",
+        "working"
+      ],
+      "answers": [
+        "Our team is currently working on a new project."
+      ],
+      "explanation": "**das Projekt** = project\n*Plural: die Projekte*"
+    },
+    {
+      "id": "tb1-u25-l06-nouns-everyday-life-6-ex09",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Ali found tips on flat-hunting in an online forum.",
+      "tiles": [
+        "zur",
+        "Ali",
+        "hat",
+        "einem",
+        "gemacht",
+        "Tipps",
+        "In",
+        "fünf",
+        "Forum",
+        "Am",
+        "gefunden",
+        "Wohnungssuche"
+      ],
+      "answers": [
+        "In einem Forum hat Ali Tipps zur Wohnungssuche gefunden."
+      ],
+      "explanation": "**das Forum** = forum (online)\n*Plural: die Foren*"
+    }
+  ]
+}

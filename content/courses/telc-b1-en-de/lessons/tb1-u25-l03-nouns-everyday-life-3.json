@@ -1,0 +1,283 @@
+{
+  "id": "tb1-u25-l03-nouns-everyday-life-3",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u25",
+  "title": "Nouns: Everyday Life 3",
+  "tip": "Theme: Nomen: Alltag & Leben (B1)",
+  "exercises": [
+    {
+      "id": "tb1-u25-l03-nouns-everyday-life-3-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "die Hälfte",
+          "known": "half"
+        },
+        {
+          "id": "p2",
+          "learning": "das Drittel",
+          "known": "third (fraction)"
+        },
+        {
+          "id": "p3",
+          "learning": "der Raum",
+          "known": "room / space"
+        },
+        {
+          "id": "p4",
+          "learning": "die Lage",
+          "known": "situation / location"
+        },
+        {
+          "id": "p5",
+          "learning": "das Ausland",
+          "known": "foreign countries (im Ausland = abroad)"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u25-l03-nouns-everyday-life-3-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „half“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Hälfte, die Hälften"
+        },
+        {
+          "id": "b",
+          "text": "der Haushalt, die Haushalte"
+        },
+        {
+          "id": "c",
+          "text": "der Tourismus"
+        },
+        {
+          "id": "d",
+          "text": "die Welt, die Welten"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**die Hälfte** = half\n*Plural: die Hälften*\n\n*Example:* Die Hälfte der Miete bezahlt mein Mitbewohner.\nMy flatmate pays half of the rent."
+    },
+    {
+      "id": "tb1-u25-l03-nouns-everyday-life-3-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „third (fraction)“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Sache, die Sachen"
+        },
+        {
+          "id": "b",
+          "text": "das Drittel, die Drittel"
+        },
+        {
+          "id": "c",
+          "text": "der Wetterbericht, die Wetterberichte"
+        },
+        {
+          "id": "d",
+          "text": "der Zeitungsartikel, die Zeitungsartikel"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**das Drittel** = third (fraction)\n*Plural: die Drittel*\n\n*Example:* Ein Drittel meines Gehalts geht für die Miete weg.\nA third of my salary goes on rent."
+    },
+    {
+      "id": "tb1-u25-l03-nouns-everyday-life-3-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "My flatmate pays half of the rent.",
+      "tiles": [
+        "Wohnung",
+        "Die",
+        "gehen",
+        "Hälfte",
+        "Mitbewohner",
+        "Ferienhaus",
+        "Miete",
+        "der",
+        "mein",
+        "bezahlt"
+      ],
+      "answers": [
+        "Die Hälfte der Miete bezahlt mein Mitbewohner."
+      ],
+      "explanation": "**die Hälfte** = half\n*Plural: die Hälften*"
+    },
+    {
+      "id": "tb1-u25-l03-nouns-everyday-life-3-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „room / space“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Sache, die Sachen"
+        },
+        {
+          "id": "b",
+          "text": "der Raum, die Räume"
+        },
+        {
+          "id": "c",
+          "text": "die Welt, die Welten"
+        },
+        {
+          "id": "d",
+          "text": "die Übersicht, die Übersichten"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**der Raum** = room / space\n*Plural: die Räume*\n\n*Example:* Die Wohnung hat drei Räume und einen Balkon.\nThe flat has three rooms and a balcony."
+    },
+    {
+      "id": "tb1-u25-l03-nouns-everyday-life-3-ex06",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u25-l03-nouns-everyday-life-3-2.mp3"
+      },
+      "tiles": [
+        "gefunden",
+        "auf",
+        "für",
+        "geht",
+        "der",
+        "Drittel",
+        "meines",
+        "weg",
+        "Gehalts",
+        "die",
+        "Ein",
+        "Miete"
+      ],
+      "answers": [
+        "Ein Drittel meines Gehalts geht für die Miete weg."
+      ],
+      "explanation": "Ein Drittel meines Gehalts geht für die Miete weg.\n*A third of my salary goes on rent.*\n\n**das Drittel** = third (fraction)\n*Plural: die Drittel*"
+    },
+    {
+      "id": "tb1-u25-l03-nouns-everyday-life-3-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „situation / location“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "der Strand, die Strände"
+        },
+        {
+          "id": "b",
+          "text": "die Hälfte, die Hälften"
+        },
+        {
+          "id": "c",
+          "text": "das Geschirr"
+        },
+        {
+          "id": "d",
+          "text": "die Lage, die Lagen"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**die Lage** = situation / location\n*Plural: die Lagen*\n\n*Example:* Die Lage der Wohnung ist super, direkt am Park.\nThe flat's location is great, right by the park."
+    },
+    {
+      "id": "tb1-u25-l03-nouns-everyday-life-3-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Die Wohnung hat drei Räume und einen Balkon.",
+      "tiles": [
+        "and",
+        "flat",
+        "We",
+        "has",
+        "balcony",
+        "lot",
+        "three",
+        "rooms",
+        "a",
+        "park",
+        "The"
+      ],
+      "answers": [
+        "The flat has three rooms and a balcony."
+      ],
+      "explanation": "**der Raum** = room / space\n*Plural: die Räume*"
+    },
+    {
+      "id": "tb1-u25-l03-nouns-everyday-life-3-ex09",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „foreign countries (im Ausland = abroad)“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "das Ausland"
+        },
+        {
+          "id": "b",
+          "text": "die Wäsche"
+        },
+        {
+          "id": "c",
+          "text": "die Umfrage, die Umfragen"
+        },
+        {
+          "id": "d",
+          "text": "die Gruppe, die Gruppen"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**das Ausland** = foreign countries (im Ausland = abroad)\n\n*Example:* Mein Cousin arbeitet seit einem Jahr im Ausland.\nMy cousin has been working abroad for a year."
+    },
+    {
+      "id": "tb1-u25-l03-nouns-everyday-life-3-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "The flat's location is great, right by the park.",
+      "tiles": [
+        "ist",
+        "Park",
+        "Lage",
+        "super",
+        "Wohnung",
+        "am",
+        "der",
+        "Schiff",
+        "direkt",
+        "im",
+        "Die",
+        "auf"
+      ],
+      "answers": [
+        "Die Lage der Wohnung ist super, direkt am Park."
+      ],
+      "explanation": "**die Lage** = situation / location\n*Plural: die Lagen*"
+    },
+    {
+      "id": "tb1-u25-l03-nouns-everyday-life-3-ex11",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u25-l03-nouns-everyday-life-3-5.mp3"
+      },
+      "tiles": [
+        "Jahr",
+        "arbeitet",
+        "Leute",
+        "Altstadt",
+        "Ausland",
+        "einem",
+        "bei",
+        "im",
+        "seit",
+        "Mein",
+        "Cousin"
+      ],
+      "answers": [
+        "Mein Cousin arbeitet seit einem Jahr im Ausland."
+      ],
+      "explanation": "Mein Cousin arbeitet seit einem Jahr im Ausland.\n*My cousin has been working abroad for a year.*\n\n**das Ausland** = foreign countries (im Ausland = abroad)"
+    }
+  ]
+}

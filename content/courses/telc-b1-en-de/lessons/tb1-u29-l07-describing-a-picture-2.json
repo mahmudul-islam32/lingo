@@ -1,0 +1,287 @@
+{
+  "id": "tb1-u29-l07-describing-a-picture-2",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u29",
+  "title": "Describing a Picture 2",
+  "tip": "Theme: Redemittel: Bild beschreiben (Sprechen) (B1)",
+  "exercises": [
+    {
+      "id": "tb1-u29-l07-describing-a-picture-2-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "Links / rechts …",
+          "known": "On the left / right …"
+        },
+        {
+          "id": "p2",
+          "learning": "Es geht um …",
+          "known": "It's about …"
+        },
+        {
+          "id": "p3",
+          "learning": "Die Person scheint … zu sein",
+          "known": "The person seems to be …"
+        },
+        {
+          "id": "p4",
+          "learning": "Ich glaube, dass das Bild … zeigt",
+          "known": "I think the picture shows …"
+        },
+        {
+          "id": "p5",
+          "learning": "Das erinnert mich an …",
+          "known": "That reminds me of …"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u29-l07-describing-a-picture-2-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which phrase means „On the left / right …“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Auf dem Foto ist … zu sehen."
+        },
+        {
+          "id": "b",
+          "text": "Auf dem Bild sieht man …"
+        },
+        {
+          "id": "c",
+          "text": "Links / rechts …"
+        },
+        {
+          "id": "d",
+          "text": "Im Hintergrund …"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**Links / rechts …** = On the left / right …\n\n*Example:* Links sitzt eine alte Frau auf einer Bank.\nOn the left an old woman is sitting on a bench."
+    },
+    {
+      "id": "tb1-u29-l07-describing-a-picture-2-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which phrase means „It's about …“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "In der Mitte …"
+        },
+        {
+          "id": "b",
+          "text": "Es geht um …"
+        },
+        {
+          "id": "c",
+          "text": "Links / rechts …"
+        },
+        {
+          "id": "d",
+          "text": "Das erinnert mich an …"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Es geht um …** = It's about …\n\n*Example:* In dem Artikel geht es um Wohnungen für Studenten.\nThe article is about housing for students."
+    },
+    {
+      "id": "tb1-u29-l07-describing-a-picture-2-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Links sitzt eine alte Frau auf einer Bank.",
+      "tiles": [
+        "man",
+        "a",
+        "woman",
+        "bench",
+        "On",
+        "on",
+        "is",
+        "shows",
+        "party",
+        "old",
+        "the",
+        "an",
+        "left",
+        "sitting"
+      ],
+      "answers": [
+        "On the left an old woman is sitting on a bench."
+      ],
+      "explanation": "**Links / rechts …** = On the left / right …"
+    },
+    {
+      "id": "tb1-u29-l07-describing-a-picture-2-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which phrase means „The person seems to be …“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Im Hintergrund …"
+        },
+        {
+          "id": "b",
+          "text": "Auf dem Foto ist … zu sehen."
+        },
+        {
+          "id": "c",
+          "text": "Die Person scheint … zu sein."
+        },
+        {
+          "id": "d",
+          "text": "Links / rechts …"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**Die Person scheint … zu sein.** = The person seems to be …\n\n*Example:* Die Person scheint sehr glücklich zu sein.\nThe person seems to be very happy."
+    },
+    {
+      "id": "tb1-u29-l07-describing-a-picture-2-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "The article is about housing for students.",
+      "tiles": [
+        "es",
+        "geht",
+        "Wohnungen",
+        "Links",
+        "Artikel",
+        "In",
+        "Vordergrund",
+        "um",
+        "für",
+        "das",
+        "Studenten",
+        "dem"
+      ],
+      "answers": [
+        "In dem Artikel geht es um Wohnungen für Studenten."
+      ],
+      "explanation": "**Es geht um …** = It's about …"
+    },
+    {
+      "id": "tb1-u29-l07-describing-a-picture-2-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which phrase means „I think the picture shows …“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Links / rechts …"
+        },
+        {
+          "id": "b",
+          "text": "Im Vordergrund …"
+        },
+        {
+          "id": "c",
+          "text": "Ich glaube, dass das Bild … zeigt."
+        },
+        {
+          "id": "d",
+          "text": "In der Mitte …"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**Ich glaube, dass das Bild … zeigt.** = I think the picture shows …\n\n*Example:* Ich glaube, dass das Bild eine Feier im Büro zeigt.\nI think the picture shows a party in the office."
+    },
+    {
+      "id": "tb1-u29-l07-describing-a-picture-2-ex08",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u29-l07-describing-a-picture-2-3.mp3"
+      },
+      "tiles": [
+        "Person",
+        "glücklich",
+        "mit",
+        "Foto",
+        "zu",
+        "scheint",
+        "Auf",
+        "sein",
+        "sehr",
+        "Die"
+      ],
+      "answers": [
+        "Die Person scheint sehr glücklich zu sein."
+      ],
+      "explanation": "Die Person scheint sehr glücklich zu sein.\n*The person seems to be very happy.*\n\n**Die Person scheint … zu sein.** = The person seems to be …"
+    },
+    {
+      "id": "tb1-u29-l07-describing-a-picture-2-ex09",
+      "type": "multiple_choice",
+      "prompt": "Which phrase means „That reminds me of …“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Das erinnert mich an …"
+        },
+        {
+          "id": "b",
+          "text": "Die Person scheint … zu sein."
+        },
+        {
+          "id": "c",
+          "text": "Im Hintergrund …"
+        },
+        {
+          "id": "d",
+          "text": "Im Vordergrund …"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Das erinnert mich an …** = That reminds me of …\n\n*Example:* Das Foto erinnert mich an meinen Urlaub in Spanien.\nThe photo reminds me of my holiday in Spain."
+    },
+    {
+      "id": "tb1-u29-l07-describing-a-picture-2-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Ich glaube, dass das Bild eine Feier im Büro zeigt.",
+      "tiles": [
+        "the",
+        "party",
+        "be",
+        "office",
+        "there's",
+        "the",
+        "think",
+        "I",
+        "high",
+        "in",
+        "shows",
+        "picture",
+        "a"
+      ],
+      "answers": [
+        "I think the picture shows a party in the office."
+      ],
+      "explanation": "**Ich glaube, dass das Bild … zeigt.** = I think the picture shows …"
+    },
+    {
+      "id": "tb1-u29-l07-describing-a-picture-2-ex11",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "The photo reminds me of my holiday in Spain.",
+      "tiles": [
+        "mich",
+        "Auf",
+        "glücklich",
+        "Das",
+        "meinen",
+        "erinnert",
+        "Foto",
+        "an",
+        "in",
+        "Familie",
+        "Urlaub",
+        "Spanien"
+      ],
+      "answers": [
+        "Das Foto erinnert mich an meinen Urlaub in Spanien."
+      ],
+      "explanation": "**Das erinnert mich an …** = That reminds me of …"
+    }
+  ]
+}

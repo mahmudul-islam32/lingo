@@ -1,0 +1,232 @@
+{
+  "id": "tb1-u04-l03-clothes-colours-3",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u04",
+  "title": "Clothes & Colours 3",
+  "tip": "Theme: Kleidung & Farben (A1)",
+  "exercises": [
+    {
+      "id": "tb1-u04-l03-clothes-colours-3-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "schwarz",
+          "known": "black"
+        },
+        {
+          "id": "p2",
+          "learning": "rot",
+          "known": "red"
+        },
+        {
+          "id": "p3",
+          "learning": "blau",
+          "known": "blue"
+        },
+        {
+          "id": "p4",
+          "learning": "grün",
+          "known": "green"
+        },
+        {
+          "id": "p5",
+          "learning": "die Kleidung",
+          "known": "clothing"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u04-l03-clothes-colours-3-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which one means „black“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "grau"
+        },
+        {
+          "id": "b",
+          "text": "bunt"
+        },
+        {
+          "id": "c",
+          "text": "schwarz"
+        },
+        {
+          "id": "d",
+          "text": "weiß"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**schwarz** = black\n\n*Example:* Ich trinke meinen Kaffee schwarz, ohne Milch und Zucker.\nI drink my coffee black, without milk or sugar."
+    },
+    {
+      "id": "tb1-u04-l03-clothes-colours-3-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which one means „red“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "grün"
+        },
+        {
+          "id": "b",
+          "text": "schwarz"
+        },
+        {
+          "id": "c",
+          "text": "gelb"
+        },
+        {
+          "id": "d",
+          "text": "rot"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**rot** = red\n\n*Example:* Halt! Die Ampel ist rot.\nStop! The traffic light is red."
+    },
+    {
+      "id": "tb1-u04-l03-clothes-colours-3-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Ich trinke meinen Kaffee schwarz, ohne Milch und Zucker.",
+      "tiles": [
+        "my",
+        "drink",
+        "black",
+        "jacket",
+        "sugar",
+        "is",
+        "The",
+        "milk",
+        "without",
+        "or",
+        "I",
+        "coffee"
+      ],
+      "answers": [
+        "I drink my coffee black, without milk or sugar."
+      ],
+      "explanation": "**schwarz** = black"
+    },
+    {
+      "id": "tb1-u04-l03-clothes-colours-3-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which one means „blue“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "grün"
+        },
+        {
+          "id": "b",
+          "text": "grau"
+        },
+        {
+          "id": "c",
+          "text": "weiß"
+        },
+        {
+          "id": "d",
+          "text": "blau"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**blau** = blue\n\n*Example:* Tom hat eine blaue Jeans und ein graues T-Shirt an.\nTom is wearing blue jeans and a grey T-shirt."
+    },
+    {
+      "id": "tb1-u04-l03-clothes-colours-3-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Stop! The traffic light is red.",
+      "tiles": [
+        "rot",
+        "Halt",
+        "bald",
+        "ist",
+        "und",
+        "Ampel",
+        "zieht",
+        "Die"
+      ],
+      "answers": [
+        "Halt! Die Ampel ist rot."
+      ],
+      "explanation": "**rot** = red"
+    },
+    {
+      "id": "tb1-u04-l03-clothes-colours-3-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which one means „green“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "grau"
+        },
+        {
+          "id": "b",
+          "text": "grün"
+        },
+        {
+          "id": "c",
+          "text": "blau"
+        },
+        {
+          "id": "d",
+          "text": "braun"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**grün** = green\n\n*Example:* Im Frühling sind die Bäume wieder grün.\nIn spring the trees are green again."
+    },
+    {
+      "id": "tb1-u04-l03-clothes-colours-3-ex08",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u04-l03-clothes-colours-3-3.mp3"
+      },
+      "tiles": [
+        "Tom",
+        "Jeans",
+        "sind",
+        "eine",
+        "ein",
+        "Jacke",
+        "und",
+        "graues",
+        "an",
+        "hat",
+        "Nimm",
+        "blaue",
+        "T-Shirt"
+      ],
+      "answers": [
+        "Tom hat eine blaue Jeans und ein graues T-Shirt an."
+      ],
+      "explanation": "Tom hat eine blaue Jeans und ein graues T-Shirt an.\n*Tom is wearing blue jeans and a grey T-shirt.*\n\n**blau** = blue"
+    },
+    {
+      "id": "tb1-u04-l03-clothes-colours-3-ex09",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Im Frühling sind die Bäume wieder grün.",
+      "tiles": [
+        "green",
+        "spring",
+        "thick",
+        "are",
+        "coat",
+        "trees",
+        "In",
+        "the",
+        "to",
+        "again"
+      ],
+      "answers": [
+        "In spring the trees are green again."
+      ],
+      "explanation": "**grün** = green"
+    }
+  ]
+}

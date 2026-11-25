@@ -1,0 +1,290 @@
+{
+  "id": "tb1-u16-l03-food-restaurants-3",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u16",
+  "title": "Food & Restaurants 3",
+  "tip": "Theme: Essen / Trinken / Restaurant (B1)",
+  "exercises": [
+    {
+      "id": "tb1-u16-l03-food-restaurants-3-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "einladen zu",
+          "known": "to invite"
+        },
+        {
+          "id": "p2",
+          "learning": "schmecken Es schmeckt mir",
+          "known": "to taste (good). I (don't) like it."
+        },
+        {
+          "id": "p3",
+          "learning": "lecker",
+          "known": "tasty"
+        },
+        {
+          "id": "p4",
+          "learning": "der Hunger",
+          "known": "hunger"
+        },
+        {
+          "id": "p5",
+          "learning": "satt. Ich bin satt",
+          "known": "full"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u16-l03-food-restaurants-3-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which verb means „to invite: Ich lade dich ein also means \"my treat\"“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "kochen · backen (hat gebacken) · zubereiten (hat zubereitet)"
+        },
+        {
+          "id": "b",
+          "text": "sich gesund ernähren: die Ernährung"
+        },
+        {
+          "id": "c",
+          "text": "empfehlen + Dat. + Akk. (hat empfohlen). Was können Sie mir empfehlen?"
+        },
+        {
+          "id": "d",
+          "text": "einladen + Akk. zu + Dat. (hat eingeladen)"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**einladen + Akk. zu + Dat. (hat eingeladen)** = to invite: Ich lade dich ein also means \"my treat\"\n\n*Example:* Ali lädt seine Kollegen zum Mittagessen ein.\nAli is inviting his colleagues to lunch."
+    },
+    {
+      "id": "tb1-u16-l03-food-restaurants-3-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which one means „to taste (good). I (don't) like it.“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "satt. Ich bin satt."
+        },
+        {
+          "id": "b",
+          "text": "schmecken + Dat. Es schmeckt mir (nicht)."
+        },
+        {
+          "id": "c",
+          "text": "bestellen"
+        },
+        {
+          "id": "d",
+          "text": "einen Tisch reservieren: für vier Personen"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**schmecken + Dat. Es schmeckt mir (nicht).** = to taste (good). I (don't) like it.\n\n*Example:* Die Suppe schmeckt mir sehr gut, aber das Fleisch schmeckt mir nicht.\nI really like the soup, but I don't like the meat."
+    },
+    {
+      "id": "tb1-u16-l03-food-restaurants-3-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Ali lädt seine Kollegen zum Mittagessen ein.",
+      "tiles": [
+        "This",
+        "inviting",
+        "lunch",
+        "is",
+        "his",
+        "colleagues",
+        "ice",
+        "Ali",
+        "the",
+        "to"
+      ],
+      "answers": [
+        "Ali is inviting his colleagues to lunch."
+      ],
+      "explanation": "**einladen + Akk. zu + Dat. (hat eingeladen)** = to invite: Ich lade dich ein also means \"my treat\""
+    },
+    {
+      "id": "tb1-u16-l03-food-restaurants-3-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which one means „tasty · sweet · salty · spicy · sour“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "lecker · süß · salzig · scharf · sauer"
+        },
+        {
+          "id": "b",
+          "text": "Wir möchten bitte zahlen, zusammen oder getrennt?"
+        },
+        {
+          "id": "c",
+          "text": "vegetarisch · vegan"
+        },
+        {
+          "id": "d",
+          "text": "bestellen"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**lecker · süß · salzig · scharf · sauer** = tasty · sweet · salty · spicy · sour\n\n*Example:* Das Curry ist lecker, aber ein bisschen zu scharf für mich.\nThe curry is tasty, but a bit too spicy for me."
+    },
+    {
+      "id": "tb1-u16-l03-food-restaurants-3-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I really like the soup, but I don't like the meat.",
+      "tiles": [
+        "sehr",
+        "aber",
+        "gut",
+        "mir",
+        "das",
+        "nicht",
+        "Die",
+        "Maria",
+        "Speisekarte",
+        "deshalb",
+        "schmeckt",
+        "schmeckt",
+        "mir",
+        "Suppe",
+        "Fleisch"
+      ],
+      "answers": [
+        "Die Suppe schmeckt mir sehr gut, aber das Fleisch schmeckt mir nicht."
+      ],
+      "explanation": "**schmecken + Dat. Es schmeckt mir (nicht).** = to taste (good). I (don't) like it."
+    },
+    {
+      "id": "tb1-u16-l03-food-restaurants-3-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „hunger: hungry · thirst: thirsty“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "der Hunger: hungrig · der Durst: durstig"
+        },
+        {
+          "id": "b",
+          "text": "das Rezept, die Rezepte: die Zutat, die Zutaten"
+        },
+        {
+          "id": "c",
+          "text": "die Lebensmittel (Pl.)"
+        },
+        {
+          "id": "d",
+          "text": "das Trinkgeld, die Trinkgelder"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**der Hunger: hungrig · der Durst: durstig** = hunger: hungry · thirst: thirsty\n\n*Example:* Nach dem Sport bin ich immer hungrig und sehr durstig.\nAfter sport I'm always hungry and very thirsty."
+    },
+    {
+      "id": "tb1-u16-l03-food-restaurants-3-ex08",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u16-l03-food-restaurants-3-3.mp3"
+      },
+      "tiles": [
+        "Vater",
+        "aber",
+        "zu",
+        "für",
+        "Das",
+        "mich",
+        "danke",
+        "bisschen",
+        "ein",
+        "scharf",
+        "Personen",
+        "Curry",
+        "lecker",
+        "ist"
+      ],
+      "answers": [
+        "Das Curry ist lecker, aber ein bisschen zu scharf für mich."
+      ],
+      "explanation": "Das Curry ist lecker, aber ein bisschen zu scharf für mich.\n*The curry is tasty, but a bit too spicy for me.*\n\n**lecker · süß · salzig · scharf · sauer** = tasty · sweet · salty · spicy · sour"
+    },
+    {
+      "id": "tb1-u16-l03-food-restaurants-3-ex09",
+      "type": "multiple_choice",
+      "prompt": "Which one means „full: ⚠ never \"ich bin voll\" (= drunk)“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "einen Tisch reservieren: für vier Personen"
+        },
+        {
+          "id": "b",
+          "text": "satt. Ich bin satt."
+        },
+        {
+          "id": "c",
+          "text": "lecker · süß · salzig · scharf · sauer"
+        },
+        {
+          "id": "d",
+          "text": "Wir möchten bitte zahlen, zusammen oder getrennt?"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**satt. Ich bin satt.** = full: ⚠ never \"ich bin voll\" (= drunk)\n\n*Example:* Möchtest du noch ein Stück Pizza? – Nein danke, ich bin satt.\nWould you like another slice of pizza? – No thanks, I'm full."
+    },
+    {
+      "id": "tb1-u16-l03-food-restaurants-3-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Nach dem Sport bin ich immer hungrig und sehr durstig.",
+      "tiles": [
+        "hungry",
+        "My",
+        "always",
+        "very",
+        "schnitzel",
+        "After",
+        "sport",
+        "I'm",
+        "thirsty",
+        "waiter",
+        "and"
+      ],
+      "answers": [
+        "After sport I'm always hungry and very thirsty."
+      ],
+      "explanation": "**der Hunger: hungrig · der Durst: durstig** = hunger: hungry · thirst: thirsty"
+    },
+    {
+      "id": "tb1-u16-l03-food-restaurants-3-ex11",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Would you like another slice of pizza? – No thanks, I'm full.",
+      "tiles": [
+        "Möchtest",
+        "Nein",
+        "bringen",
+        "du",
+        "ein",
+        "satt",
+        "ich",
+        "aus",
+        "bin",
+        "Pizza",
+        "Mutter",
+        "danke",
+        "Stück",
+        "noch"
+      ],
+      "answers": [
+        "Möchtest du noch ein Stück Pizza? – Nein danke, ich bin satt."
+      ],
+      "explanation": "**satt. Ich bin satt.** = full: ⚠ never \"ich bin voll\" (= drunk)"
+    }
+  ]
+}

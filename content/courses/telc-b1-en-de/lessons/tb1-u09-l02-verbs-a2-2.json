@@ -1,0 +1,282 @@
+{
+  "id": "tb1-u09-l02-verbs-a2-2",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u09",
+  "title": "Verbs (A2) 2",
+  "tip": "Theme: Verben (A2) (A2)",
+  "exercises": [
+    {
+      "id": "tb1-u09-l02-verbs-a2-2-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "holen",
+          "known": "to fetch / get"
+        },
+        {
+          "id": "p2",
+          "learning": "suchen",
+          "known": "to look for"
+        },
+        {
+          "id": "p3",
+          "learning": "finden",
+          "known": "to find"
+        },
+        {
+          "id": "p4",
+          "learning": "bekommen",
+          "known": "to get / receive"
+        },
+        {
+          "id": "p5",
+          "learning": "bezahlen",
+          "known": "to pay"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u09-l02-verbs-a2-2-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which one means „to fetch / get“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "entscheiden"
+        },
+        {
+          "id": "b",
+          "text": "treffen (trifft)"
+        },
+        {
+          "id": "c",
+          "text": "holen"
+        },
+        {
+          "id": "d",
+          "text": "fragen"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**holen** = to fetch / get\n\n*Example:* Kannst du bitte die Kinder vom Kindergarten holen?\nCan you please pick up the children from kindergarten?"
+    },
+    {
+      "id": "tb1-u09-l02-verbs-a2-2-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which one means „to look for“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "entscheiden"
+        },
+        {
+          "id": "b",
+          "text": "fragen"
+        },
+        {
+          "id": "c",
+          "text": "einladen (lädt ein)"
+        },
+        {
+          "id": "d",
+          "text": "suchen"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**suchen** = to look for\n\n*Example:* Ich suche meinen Schlüssel schon seit zehn Minuten.\nI've been looking for my key for ten minutes."
+    },
+    {
+      "id": "tb1-u09-l02-verbs-a2-2-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Kannst du bitte die Kinder vom Kindergarten holen?",
+      "tiles": [
+        "children",
+        "up",
+        "from",
+        "kindergarten",
+        "you",
+        "ask",
+        "Can",
+        "often",
+        "the",
+        "assistant",
+        "please",
+        "pick"
+      ],
+      "answers": [
+        "Can you please pick up the children from kindergarten?"
+      ],
+      "explanation": "**holen** = to fetch / get"
+    },
+    {
+      "id": "tb1-u09-l02-verbs-a2-2-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which one means „to find“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "fragen"
+        },
+        {
+          "id": "b",
+          "text": "besuchen"
+        },
+        {
+          "id": "c",
+          "text": "treffen (trifft)"
+        },
+        {
+          "id": "d",
+          "text": "finden"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**finden** = to find\n\n*Example:* Ich kann meinen Schlüssel nicht finden.\nI can't find my key."
+    },
+    {
+      "id": "tb1-u09-l02-verbs-a2-2-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I've been looking for my key for ten minutes.",
+      "tiles": [
+        "seinen",
+        "Ich",
+        "entschieden",
+        "suche",
+        "Minuten",
+        "ein",
+        "Schlüssel",
+        "zehn",
+        "meinen",
+        "schon",
+        "seit"
+      ],
+      "answers": [
+        "Ich suche meinen Schlüssel schon seit zehn Minuten."
+      ],
+      "explanation": "**suchen** = to look for"
+    },
+    {
+      "id": "tb1-u09-l02-verbs-a2-2-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which one means „to get / receive“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "mitbringen (bringt mit)"
+        },
+        {
+          "id": "b",
+          "text": "erklären"
+        },
+        {
+          "id": "c",
+          "text": "bekommen"
+        },
+        {
+          "id": "d",
+          "text": "wiederholen"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**bekommen** = to get / receive\n\n*Example:* Gestern habe ich einen Brief vom Jobcenter bekommen.\nYesterday I got a letter from the job centre."
+    },
+    {
+      "id": "tb1-u09-l02-verbs-a2-2-ex08",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u09-l02-verbs-a2-2-3.mp3"
+      },
+      "tiles": [
+        "meinen",
+        "Ich",
+        "Der",
+        "wie",
+        "Schlüssel",
+        "finden",
+        "nicht",
+        "kann",
+        "vom"
+      ],
+      "answers": [
+        "Ich kann meinen Schlüssel nicht finden."
+      ],
+      "explanation": "Ich kann meinen Schlüssel nicht finden.\n*I can't find my key.*\n\n**finden** = to find"
+    },
+    {
+      "id": "tb1-u09-l02-verbs-a2-2-ex09",
+      "type": "multiple_choice",
+      "prompt": "Which one means „to pay“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "bezahlen"
+        },
+        {
+          "id": "b",
+          "text": "bringen"
+        },
+        {
+          "id": "c",
+          "text": "holen"
+        },
+        {
+          "id": "d",
+          "text": "helfen (hilft)"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**bezahlen** = to pay\n\n*Example:* Ich bezahle die Miete immer am Anfang des Monats.\nI always pay the rent at the beginning of the month."
+    },
+    {
+      "id": "tb1-u09-l02-verbs-a2-2-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Gestern habe ich einen Brief vom Jobcenter bekommen.",
+      "tiles": [
+        "from",
+        "centre",
+        "I",
+        "the",
+        "We've",
+        "Yesterday",
+        "birthday",
+        "got",
+        "job",
+        "at",
+        "letter",
+        "a"
+      ],
+      "answers": [
+        "Yesterday I got a letter from the job centre."
+      ],
+      "explanation": "**bekommen** = to get / receive"
+    },
+    {
+      "id": "tb1-u09-l02-verbs-a2-2-ex11",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I always pay the rent at the beginning of the month.",
+      "tiles": [
+        "am",
+        "Regenschirm",
+        "Ich",
+        "bezahle",
+        "Monats",
+        "Anfang",
+        "Tabletten",
+        "immer",
+        "unseren",
+        "des",
+        "die",
+        "Miete"
+      ],
+      "answers": [
+        "Ich bezahle die Miete immer am Anfang des Monats."
+      ],
+      "explanation": "**bezahlen** = to pay"
+    }
+  ]
+}

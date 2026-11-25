@@ -1,0 +1,901 @@
+{
+  "id": "eb-u14-l06-probetest-5",
+  "courseId": "einbuergerung-en-de",
+  "unitId": "eb-u14",
+  "title": "Mock test 5 (Probetest 5)",
+  "tip": "Real format: 30 general + 3 Niedersachsen questions. Allow 60 minutes; 17 correct to pass, aim for 28+.",
+  "exercises": [
+    {
+      "id": "eb-u14-l06-probetest-5-ex01",
+      "type": "choice",
+      "title": "Frage 9 · Block 1",
+      "prompt": "Welches Grundrecht gilt in Deutschland nur für Ausländer/Ausländerinnen? Das Grundrecht auf …",
+      "options": [
+        {
+          "id": "a",
+          "text": "Schutz der Familie"
+        },
+        {
+          "id": "b",
+          "text": "Menschenwürde"
+        },
+        {
+          "id": "c",
+          "text": "Asyl"
+        },
+        {
+          "id": "d",
+          "text": "Meinungsfreiheit"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**Correct answer:** Asyl\n\nAsylum (Art. 16a GG) logically can't apply to Germans, you can't seek refuge in your own country from your own country. It exists precisely for *politisch Verfolgte* (politically persecuted) foreigners, a direct constitutional lesson from the Nazi era, when Germans themselves depended on other countries' asylum.\n\nDignity, family protection, and free expression are **Menschenrechte**, they belong to every human on German soil, German or not. (Some other rights, like assembly and occupational freedom, are technically \"Deutschenrechte\", the reverse case, but that's beyond test scope.)\n\n## Auf Deutsch\n\nAsyl (Art. 16a GG) ist das einzige Grundrecht nur für Ausländer."
+    },
+    {
+      "id": "eb-u14-l06-probetest-5-ex02",
+      "type": "choice",
+      "title": "Frage 11 · Block 1",
+      "prompt": "Wie wird die Verfassung der Bundesrepublik Deutschland genannt?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Grundgesetz"
+        },
+        {
+          "id": "b",
+          "text": "Bundesverfassung"
+        },
+        {
+          "id": "c",
+          "text": "Gesetzbuch"
+        },
+        {
+          "id": "d",
+          "text": "Verfassungsvertrag"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Correct answer:** Grundgesetz\n\n→Q6, same fact, different angle. BAMF double-tests the constitution's name. \"Bundesverfassung\" sounds plausible (Switzerland and Austria use similar terms) but is wrong for Germany; a *Gesetzbuch* is a legal code like the BGB; a *Verfassungsvertrag* echoes the failed 2004 EU constitutional treaty. Free point if you've learned Q6.\n\n## Auf Deutsch\n\nDie Verfassung der Bundesrepublik heißt Grundgesetz."
+    },
+    {
+      "id": "eb-u14-l06-probetest-5-ex03",
+      "type": "choice",
+      "title": "Frage 15 · Block 1",
+      "prompt": "Was verbietet das deutsche Grundgesetz?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Militärdienst"
+        },
+        {
+          "id": "b",
+          "text": "Zwangsarbeit"
+        },
+        {
+          "id": "c",
+          "text": "freie Berufswahl"
+        },
+        {
+          "id": "d",
+          "text": "Arbeit im Ausland"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Correct answer:** Zwangsarbeit\n\nArt. 12 GG protects free choice of occupation and expressly bans **Zwangsarbeit** (forced labor), with narrow exceptions like community service imposed by a court sentence. The ban answers both Nazi forced labor and socialist work obligations.\n\nMilitary service (A) is constitutionally allowed (currently suspended conscription, voluntary service continues); free career choice (C) is a *protected right*, not a ban; working abroad (D) is simply your freedom.\n\n## Auf Deutsch\n\nZwangsarbeit ist durch das Grundgesetz (Art. 12) verboten."
+    },
+    {
+      "id": "eb-u14-l06-probetest-5-ex04",
+      "type": "choice",
+      "title": "Frage 22 · Block 1",
+      "prompt": "Was für eine Staatsform hat Deutschland?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Monarchie"
+        },
+        {
+          "id": "b",
+          "text": "Diktatur"
+        },
+        {
+          "id": "c",
+          "text": "Republik"
+        },
+        {
+          "id": "d",
+          "text": "Fürstentum"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**Correct answer:** Republik\n\nA **Republik** = head of state is elected for a limited term (Bundespräsident), never inherited. Germany has been a republic since 1918, when the Kaiser abdicated.\n\nMonarchy/principality (A, D) mean hereditary rule, abolished in 1918 (the UK, by contrast, is a democratic *monarchy*). B: a dictatorship is what Germany was 1933–45 and the DDR was 1949–89; today's constitutional order is its negation. Full formula →Q26.\n\n## Auf Deutsch\n\nDeutschland ist eine Republik, das Staatsoberhaupt wird gewählt, nicht vererbt."
+    },
+    {
+      "id": "eb-u14-l06-probetest-5-ex05",
+      "type": "choice",
+      "title": "Frage 28 · Block 1",
+      "prompt": "Wer wählt in Deutschland die Abgeordneten zum Bundestag?",
+      "options": [
+        {
+          "id": "a",
+          "text": "das Militär"
+        },
+        {
+          "id": "b",
+          "text": "die Wirtschaft"
+        },
+        {
+          "id": "c",
+          "text": "das wahlberechtigte Volk"
+        },
+        {
+          "id": "d",
+          "text": "die Verwaltung"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**Correct answer:** das wahlberechtigte Volk\n\nBundestag MPs are elected directly by eligible voters. German citizens 18+ (→Q94, Q108). This is the moment sovereignty flows from people to parliament: the elected Bundestag then elects the Chancellor (→Q81).\n\nMilitary, business, and bureaucracy having no vote as institutions is precisely what distinguishes a democracy from juntas, oligarchies, and apparatchik states.\n\n## Auf Deutsch\n\nDas wahlberechtigte Volk wählt die Bundestagsabgeordneten direkt."
+    },
+    {
+      "id": "eb-u14-l06-probetest-5-ex06",
+      "type": "choice",
+      "title": "Frage 49 · Block 2",
+      "prompt": "Wer bestimmt in Deutschland die Schulpolitik?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Lehrer und Lehrerinnen"
+        },
+        {
+          "id": "b",
+          "text": "die Bundesländer"
+        },
+        {
+          "id": "c",
+          "text": "das Familienministerium"
+        },
+        {
+          "id": "d",
+          "text": "die Universitäten"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Correct answer:** die Bundesländer\n\n**Kulturhoheit der Länder**: education is the Länder's flagship power, school systems, curricula, teacher hiring, holiday calendars all differ across the 16. It's why your child's school will follow Niedersachsen rules, not federal ones, and why moving Länder mid-school-year is notoriously annoying.\n\nTeachers implement policy; the federal family ministry has no school authority; universities govern themselves within Land law. →Q67 and Q68 retest this, triple-tested fact, learn it cold.\n\n## Auf Deutsch\n\nSchulpolitik ist Sache der Bundesländer (Föderalismus)."
+    },
+    {
+      "id": "eb-u14-l06-probetest-5-ex07",
+      "type": "choice",
+      "title": "Frage 50 · Block 2",
+      "prompt": "Die Wirtschaftsform in Deutschland nennt man …",
+      "options": [
+        {
+          "id": "a",
+          "text": "freie Zentralwirtschaft"
+        },
+        {
+          "id": "b",
+          "text": "soziale Marktwirtschaft"
+        },
+        {
+          "id": "c",
+          "text": "gelenkte Zentralwirtschaft"
+        },
+        {
+          "id": "d",
+          "text": "Planwirtschaft"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Correct answer:** soziale Marktwirtschaft\n\n**Soziale Marktwirtschaft** (Ludwig Erhard's postwar model): market competition generates wealth; the state referees and redistributes enough to keep it humane (social insurance, worker protections). It powered the Wirtschaftswunder (→Q183).\n\n**Planwirtschaft** (D) is the DDR/socialist model, state sets production (→Q203); A and C are nonsense hybrids (\"free central economy\" is a contradiction). Definition retested in Q171.\n\n## Auf Deutsch\n\nSoziale Marktwirtschaft = freier Markt + sozialer Ausgleich durch den Staat."
+    },
+    {
+      "id": "eb-u14-l06-probetest-5-ex08",
+      "type": "choice",
+      "title": "Frage 54 · Block 2",
+      "prompt": "Was ist keine staatliche Gewalt in Deutschland?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Legislative"
+        },
+        {
+          "id": "b",
+          "text": "Judikative"
+        },
+        {
+          "id": "c",
+          "text": "Exekutive"
+        },
+        {
+          "id": "d",
+          "text": "Direktive"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**Correct answer:** Direktive\n\n→Q32 in Latin. **Direktive** just means \"a directive/instruction\", it's not a branch of power, only a plausible-sounding rhyme. Learn both vocabularies as pairs: Gesetzgebung=Legislative, Regierung/Verwaltung=Exekutive, Rechtsprechung=Judikative. One of these two questions is near-guaranteed among your 33.\n\n## Auf Deutsch\n\n„Direktive“ ist keine Staatsgewalt, es gibt nur Legislative, Exekutive, Judikative."
+    },
+    {
+      "id": "eb-u14-l06-probetest-5-ex09",
+      "type": "choice",
+      "title": "Frage 55 · Block 2",
+      "prompt": "Was zeigt dieses Bild?",
+      "figure": {
+        "images": [
+          {
+            "src": "/images/eb/q55.jpg",
+            "alt": "Photo of a large stone building with columns and a glass dome, German flags on the roof and a wide square in front"
+          }
+        ],
+        "credit": "Foto: © Deutscher Bundestag/Achim Melde (BAMF, Gesamtfragenkatalog, Stand 07.05.2025)"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": "den Reichstag: Sitz des Deutschen Bundestages in Berlin"
+        },
+        {
+          "id": "b",
+          "text": "das Schloss Bellevue: Sitz des Bundespräsidenten"
+        },
+        {
+          "id": "c",
+          "text": "das Bundesratsgebäude"
+        },
+        {
+          "id": "d",
+          "text": "das Brandenburger Tor"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Correct answer:** den Reichstag: Sitz des Deutschen Bundestages in Berlin\n\n*Picture question (Bildfrage):* the pictures above are the ones from the official question catalogue.\n\nCorrect: den Reichstag / Sitz des Deutschen Bundestages in Berlin.\n\nThe **Reichstagsgebäude** with Norman Foster's 1999 glass dome, the dome deliberately lets citizens climb *above* their parliament and look down into the plenary chamber: transparency as architecture. Distractors: Schloss Bellevue (president's seat →Q75), Bundesrat, Brandenburger Tor. If you visit Berlin before the test, go, it makes three test questions unforgettable.\n\n## Auf Deutsch\n\nDas Bild zeigt den Reichstag in Berlin mit der Glaskuppel. Sitz des Bundestages."
+    },
+    {
+      "id": "eb-u14-l06-probetest-5-ex10",
+      "type": "choice",
+      "title": "Frage 94 · Block 4",
+      "prompt": "Ab welchem Alter darf man in Deutschland an der Wahl zum Deutschen Bundestag teilnehmen?",
+      "options": [
+        {
+          "id": "a",
+          "text": "16"
+        },
+        {
+          "id": "b",
+          "text": "18"
+        },
+        {
+          "id": "c",
+          "text": "21"
+        },
+        {
+          "id": "d",
+          "text": "23"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Correct answer:** 18\n\nBundestag voting age: **18**.\n\n## Auf Deutsch\n\nAn der Bundestagswahl darf man ab 18 Jahren teilnehmen."
+    },
+    {
+      "id": "eb-u14-l06-probetest-5-ex11",
+      "type": "choice",
+      "title": "Frage 108 · Block 5",
+      "prompt": "Bei einer Bundestagswahl in Deutschland darf jeder wählen, der …",
+      "options": [
+        {
+          "id": "a",
+          "text": "in Deutschland wohnt und wählen möchte"
+        },
+        {
+          "id": "b",
+          "text": "Bürger/Bürgerin der Bundesrepublik Deutschland ist und mindestens 18 Jahre alt ist"
+        },
+        {
+          "id": "c",
+          "text": "seit mindestens 3 Jahren in der Bundesrepublik Deutschland lebt"
+        },
+        {
+          "id": "d",
+          "text": "Bürger/Bürgerin der Bundesrepublik Deutschland ist und mindestens 21 Jahre alt ist"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Correct answer:** Bürger/Bürgerin der Bundesrepublik Deutschland ist und mindestens 18 Jahre alt ist\n\nTwo conditions, both required: **German citizenship + age 18** (\"allgemein\" applies to citizens).\n\nA and C describe residents, you've lived here six years and still can't vote in the Bundestagswahl; *this exact fact is why your Einbürgerung matters*. The first federal election you'll likely vote in: 2029. D's age 21 is pre-1970 history.\n\n## Auf Deutsch\n\nWählen darf, wer deutsche/r Staatsbürger/in und mindestens 18 ist."
+    },
+    {
+      "id": "eb-u14-l06-probetest-5-ex12",
+      "type": "choice",
+      "title": "Frage 120 · Block 5",
+      "prompt": "Das Wahlsystem in Deutschland ist ein …",
+      "options": [
+        {
+          "id": "a",
+          "text": "Zensuswahlrecht"
+        },
+        {
+          "id": "b",
+          "text": "Dreiklassenwahlrecht"
+        },
+        {
+          "id": "c",
+          "text": "Mehrheits- und Verhältniswahlrecht"
+        },
+        {
+          "id": "d",
+          "text": "allgemeines Männerwahlrecht"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**Correct answer:** Mehrheits- und Verhältniswahlrecht\n\nGermany mixes **Mehrheitswahl** (Erststimme: whoever wins the Wahlkreis) with **Verhältniswahl** (Zweitstimme: proportional seats), \"personalisierte Verhältniswahl.\"\n\nAll three are abolished historical franchises: **Zensuswahlrecht** = voting rights by wealth/tax; **Dreiklassenwahlrecht** = Prussia's three wealth classes (until 1918); **Männerwahlrecht** = pre-1918/19, before women's suffrage. The wrong answers are a museum of unequal voting.\n\n## Auf Deutsch\n\nDeutschland kombiniert Mehrheitswahl (Erststimme) und Verhältniswahl (Zweitstimme)."
+    },
+    {
+      "id": "eb-u14-l06-probetest-5-ex13",
+      "type": "choice",
+      "title": "Frage 142 · Block 6",
+      "prompt": "Was ist die Arbeit eines Richters/einer Richterin in Deutschland?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Recht sprechen"
+        },
+        {
+          "id": "b",
+          "text": "Gesetze erlassen"
+        },
+        {
+          "id": "c",
+          "text": "Deutschland regieren"
+        },
+        {
+          "id": "d",
+          "text": "Straftäter verhaften"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Correct answer:** Recht sprechen\n\n**Recht sprechen**, literally \"to speak law\": decide cases by independent judgment, bound only by law (Art. 97 GG, no minister can order a verdict).\n\nMaking laws = parliament (→Q42); governing = Chanclery; arrests = police/prosecution. Gewaltenteilung, person by person.\n\n## Auf Deutsch\n\nDie Arbeit der Richter: Recht sprechen, unabhängig und nur dem Gesetz verpflichtet."
+    },
+    {
+      "id": "eb-u14-l06-probetest-5-ex14",
+      "type": "choice",
+      "title": "Frage 144 · Block 6",
+      "prompt": "Ein Richter/eine Richterin in Deutschland …",
+      "options": [
+        {
+          "id": "a",
+          "text": "arbeitet an einem Gericht und spricht Urteile"
+        },
+        {
+          "id": "b",
+          "text": "arbeitet in einem Ministerium und entwirft Gesetze"
+        },
+        {
+          "id": "c",
+          "text": "arbeitet bei der Polizei und ermittelt gegen Verdächtige"
+        },
+        {
+          "id": "d",
+          "text": "arbeitet im Bundestag und hält Reden"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Correct answer:** arbeitet an einem Gericht und spricht Urteile\n\n→Q142 restated as a job description. Each wrong option is a *different* branch's job with the right verb, drafting (executive ministries), investigating (police), debating (legislature). The test keeps asking because the separation of these roles IS the Rechtsstaat.\n\n## Auf Deutsch\n\nRichter arbeiten an Gerichten und sprechen Urteile."
+    },
+    {
+      "id": "eb-u14-l06-probetest-5-ex15",
+      "type": "choice",
+      "title": "Frage 149 · Block 6",
+      "prompt": "Was ist ein Beispiel für antisemitisches Verhalten?",
+      "options": [
+        {
+          "id": "a",
+          "text": "ein jüdisches Fest zu besuchen"
+        },
+        {
+          "id": "b",
+          "text": "den Holocaust zu leugnen"
+        },
+        {
+          "id": "c",
+          "text": "die israelische Regierung zu kritisieren"
+        },
+        {
+          "id": "d",
+          "text": "ein Fußballspiel gegen eine jüdische Mannschaft zu verlieren"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Correct answer:** den Holocaust zu leugnen\n\nHolocaust denial is antisemitism in its most codified form, and a crime (→Q96).\n\nC repeats the crucial distinction from Q111: policy criticism ≠ antisemitism (though it can *become* antisemitic when it denies Israel's right to exist or applies double standards); A is participation, D is sport. Expect the antisemitism/Jewish-life cluster (Q59, 66, 96, 111, 118, 149, 288) to supply 1–2 of your 33.\n\n## Auf Deutsch\n\nDen Holocaust zu leugnen ist antisemitisch, und in Deutschland strafbar."
+    },
+    {
+      "id": "eb-u14-l06-probetest-5-ex16",
+      "type": "choice",
+      "title": "Frage 162 · Block 7",
+      "prompt": "Claus Schenk Graf von Stauffenberg wurde bekannt durch …",
+      "options": [
+        {
+          "id": "a",
+          "text": "den Bau der Berliner Mauer"
+        },
+        {
+          "id": "b",
+          "text": "das Attentat auf Hitler am 20. Juli 1944"
+        },
+        {
+          "id": "c",
+          "text": "die Kapitulation Deutschlands 1945"
+        },
+        {
+          "id": "d",
+          "text": "den Aufstand des 17. Juni 1953"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Correct answer:** das Attentat auf Hitler am 20. Juli 1944\n\nColonel **Stauffenberg** planted the bomb in Hitler's headquarters on **20.07.1944**; the coup failed, ~200 conspirators executed. Today: the Bundeswehr's annual recruits' oath is sworn on July 20, and the memorial site (Bendlerblock) sits inside the defense ministry, resistance as founding value. Also know the other resistance names that float through German public life: the **Weiße Rose** (Scholl siblings, Munich students), **Georg Elser** (lone 1939 bomber). Interview question you should expect: *\"Warum ist der 20. Juli wichtig?\"*\n\n## Auf Deutsch\n\nStauffenberg: das Attentat auf Hitler am 20. Juli 1944."
+    },
+    {
+      "id": "eb-u14-l06-probetest-5-ex17",
+      "type": "choice",
+      "title": "Frage 170 · Block 7",
+      "prompt": "Was gab es während der Zeit des Nationalsozialismus in Deutschland?",
+      "options": [
+        {
+          "id": "a",
+          "text": "das Verbot von Parteien"
+        },
+        {
+          "id": "b",
+          "text": "Pressefreiheit"
+        },
+        {
+          "id": "c",
+          "text": "das Recht auf freie Entfaltung der Persönlichkeit"
+        },
+        {
+          "id": "d",
+          "text": "unabhängige Gerichte"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Correct answer:** das Verbot von Parteien\n\nBy July 1933 the NSDAP was the only legal party, pluralism (→Q41) executed first, because parties are how societies disagree in an organized way.\n\nPress was Goebbels' ministry; personality rights and independent courts (the *Volksgerichtshof* delivered death sentences for jokes) were gone. Compare option-for-option with what the Grundgesetz now guarantees, this question IS the before/after picture.\n\n## Auf Deutsch\n\nIn der NS-Zeit waren andere Parteien verboten (Einparteienstaat)."
+    },
+    {
+      "id": "eb-u14-l06-probetest-5-ex18",
+      "type": "choice",
+      "title": "Frage 182 · Block 8",
+      "prompt": "Wie heißt das jüdische Gebetshaus?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Moschee"
+        },
+        {
+          "id": "b",
+          "text": "Synagoge"
+        },
+        {
+          "id": "c",
+          "text": "Basilika"
+        },
+        {
+          "id": "d",
+          "text": "Kathedrale"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Correct answer:** Synagoge\n\nSynagoge (Jewish) · Moschee (Muslim, yours) · Kirche/Basilika/Kathedrale (Christian). Basic religious literacy; pairs with Q163's history, the buildings burned in 1938 were Synagogen, and their rebuilt successors (in Niedersachsen too) stand under police protection today, which is itself a fact worth reflecting on for the interview.\n\n## Auf Deutsch\n\nDas jüdische Gebetshaus heißt Synagoge."
+    },
+    {
+      "id": "eb-u14-l06-probetest-5-ex19",
+      "type": "choice",
+      "title": "Frage 190 · Block 8",
+      "prompt": "Was bedeutet die Abkürzung DDR?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Deutsche Demokratische Republik"
+        },
+        {
+          "id": "b",
+          "text": "Deutscher Demokratischer Rat"
+        },
+        {
+          "id": "c",
+          "text": "Dritte Deutsche Republik"
+        },
+        {
+          "id": "d",
+          "text": "Deutschland Den Russen"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Correct answer:** Deutsche Demokratische Republik\n\n**D**eutsche **D**emokratische **R**epublik, the name promised democracy; the state delivered its opposite (one party, no free elections →Q159's DDR echo, a wall against its own people). The gap between name and reality is itself a lesson: check what states *do*, not what they call themselves.\n\n## Auf Deutsch\n\nDDR = Deutsche Demokratische Republik."
+    },
+    {
+      "id": "eb-u14-l06-probetest-5-ex20",
+      "type": "choice",
+      "title": "Frage 198 · Block 8",
+      "prompt": "Welches heutige deutsche Bundesland gehörte früher zum Gebiet der DDR?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Mecklenburg-Vorpommern"
+        },
+        {
+          "id": "b",
+          "text": "Nordrhein-Westfalen"
+        },
+        {
+          "id": "c",
+          "text": "Saarland"
+        },
+        {
+          "id": "d",
+          "text": "Bremen"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Correct answer:** Mecklenburg-Vorpommern\n\n**Mecklenburg-Vorpommern**. Baltic coast, northeast. Note the NRW distractor: NRW was British-zone West (→Q167), like Niedersachsen; if NRW appears in this series, it is always wrong *unless* the question flips to \"nicht\" (→Q201, Teil 3).\n\n## Auf Deutsch\n\nMecklenburg-Vorpommern gehörte zur DDR."
+    },
+    {
+      "id": "eb-u14-l06-probetest-5-ex21",
+      "type": "choice",
+      "title": "Frage 201 · Block 9",
+      "prompt": "Welches heutige deutsche Bundesland gehörte früher nicht zum Gebiet der DDR?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Brandenburg"
+        },
+        {
+          "id": "b",
+          "text": "Thüringen"
+        },
+        {
+          "id": "c",
+          "text": "Nordrhein-Westfalen"
+        },
+        {
+          "id": "d",
+          "text": "Sachsen"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**Correct answer:** Nordrhein-Westfalen\n\nThe series' twist ending (→Q192–200): a **nicht** variant. NRW is the answer: it was British-zone West Germany (→Q167), industrial heart of the Wirtschaftswunder, never DDR. If you know the five eastern Länder cold, every version of this question, positive or negated, is a free point.\n\n## Auf Deutsch\n\nNordrhein-Westfalen war IMMER West, nie DDR-Gebiet."
+    },
+    {
+      "id": "eb-u14-l06-probetest-5-ex22",
+      "type": "choice",
+      "title": "Frage 206 · Block 9",
+      "prompt": "Woran erinnern die sogenannten „Stolpersteine\" in Deutschland?",
+      "options": [
+        {
+          "id": "a",
+          "text": "an die Opfer des Nationalsozialismus"
+        },
+        {
+          "id": "b",
+          "text": "an die Verkehrstoten"
+        },
+        {
+          "id": "c",
+          "text": "an die Opfer der Berliner Mauer"
+        },
+        {
+          "id": "d",
+          "text": "an berühmte deutsche Politiker"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Correct answer:** an die Opfer des Nationalsozialismus\n\n**Stolpersteine** (\"stumbling stones\"), small brass plaques set into pavements before victims' last freely-chosen homes: *Hier wohnte…* name, birth year, deportation, murder site. Over 100,000 across Europe, the world's largest decentralized memorial; most German cities have them, you've probably walked over some. Remembrance at eye-with-the-ground level: you bow to read a name. Interview connection: asked about Erinnerungskultur, describing a Stolperstein on your own street beats any abstract answer.\n\n## Auf Deutsch\n\nStolpersteine erinnern vor den Häusern an die Opfer des Nationalsozialismus."
+    },
+    {
+      "id": "eb-u14-l06-probetest-5-ex23",
+      "type": "choice",
+      "title": "Frage 213 · Block 10",
+      "prompt": "Wie viele Einwohner hat Deutschland?",
+      "options": [
+        {
+          "id": "a",
+          "text": "70 Millionen"
+        },
+        {
+          "id": "b",
+          "text": "78 Millionen"
+        },
+        {
+          "id": "c",
+          "text": "84 Millionen"
+        },
+        {
+          "id": "d",
+          "text": "90 Millionen"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**Correct answer:** 84 Millionen\n\n~**84 million** (early-2020s level; the catalog updated this answer upward from the old \"80 Millionen\", if you once memorized 80, un-learn it). Most populous EU state, ~a quarter with a migration background, a statistic that includes your family and, soon, three of its newest citizens. ⏰ sanity-check in the Online-Testcenter near exam day.\n\n**Time-sensitive answer:** this answer depends on the current situation (who holds an office, seat shares, figures) and is correct as of the catalogue version *Stand Juli 2026*. Check it again shortly before your test date.\n\n## Auf Deutsch\n\nDeutschland hat rund 84 Millionen Einwohner. ⏰ Zahl kann sich langsam ändern."
+    },
+    {
+      "id": "eb-u14-l06-probetest-5-ex24",
+      "type": "choice",
+      "title": "Frage 225 · Block 10",
+      "prompt": "In welchem anderen Land gibt es eine große deutschsprachige Bevölkerung?",
+      "options": [
+        {
+          "id": "a",
+          "text": "in Österreich"
+        },
+        {
+          "id": "b",
+          "text": "in Spanien"
+        },
+        {
+          "id": "c",
+          "text": "in England"
+        },
+        {
+          "id": "d",
+          "text": "in Portugal"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Correct answer:** in Österreich\n\n**Österreich**. German is its official language (Swiss German-speaking cantons and Liechtenstein would also qualify, but Austria is the tested answer). The D-A-CH cultural space: Deutschland, Austria, Confoederatio Helvetica (Switzerland).\n\n## Auf Deutsch\n\nIn Österreich spricht die große Mehrheit Deutsch."
+    },
+    {
+      "id": "eb-u14-l06-probetest-5-ex25",
+      "type": "choice",
+      "title": "Frage 260 · Block 11",
+      "prompt": "Was gilt für ein Kind in Deutschland, das eine Schule besucht?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Anwesenheitspflicht"
+        },
+        {
+          "id": "b",
+          "text": "freie Wahl, ob es zum Unterricht kommt"
+        },
+        {
+          "id": "c",
+          "text": "Unterricht nur, wenn die Eltern zustimmen"
+        },
+        {
+          "id": "d",
+          "text": "Anspruch auf Unterricht zu Hause"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Correct answer:** Anwesenheitspflicht\n\nEnrolled = **Anwesenheitspflicht** (attendance duty), the operative arm of Schulpflicht (→Q95): skipping school brings escalating consequences (talks → fines → in extreme cases police escort). Homeschooling (D) is, unusually among Western countries, essentially not permitted; the constitutional idea: school is also where society meets itself across all backgrounds.\n\n## Auf Deutsch\n\nIn der Schule gilt Anwesenheitspflicht."
+    },
+    {
+      "id": "eb-u14-l06-probetest-5-ex26",
+      "type": "choice",
+      "title": "Frage 265 · Block 11",
+      "prompt": "Wohin muss man in Deutschland zuerst gehen, wenn man heiraten möchte?",
+      "options": [
+        {
+          "id": "a",
+          "text": "zum Standesamt"
+        },
+        {
+          "id": "b",
+          "text": "zur Kirche"
+        },
+        {
+          "id": "c",
+          "text": "zum Einwohnermeldeamt"
+        },
+        {
+          "id": "d",
+          "text": "zu einem Notar"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Correct answer:** zum Standesamt\n\nOnly the **Standesamt** creates a legal marriage (obligatorische Zivilehe, since Bismarck, 1876). A religious ceremony is optional decoration with zero legal effect on its own, the exact reverse of many countries, and the reason YOUR 2018 Bangladesh marriage needed Standesamt-recognized registration here (Oct 2023) to count. You've lived this answer.\n\nEinwohnermeldeamt registers addresses (→Q253); notaries certify contracts (e.g., Eheverträge), neither marries you.\n\n## Auf Deutsch\n\nHeiraten: zuerst zum Standesamt."
+    },
+    {
+      "id": "eb-u14-l06-probetest-5-ex27",
+      "type": "choice",
+      "title": "Frage 268 · Block 11",
+      "prompt": "Eine junge Frau will den Führerschein machen. Ihre Muttersprache ist nicht Deutsch. Was gilt für die theoretische Prüfung?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Sie kann die Prüfung eventuell in ihrer Muttersprache ablegen, sie wird in über zehn Sprachen angeboten"
+        },
+        {
+          "id": "b",
+          "text": "Sie darf die Prüfung nicht machen, solange ihr Deutsch nicht perfekt ist"
+        },
+        {
+          "id": "c",
+          "text": "Sie braucht keine theoretische Prüfung"
+        },
+        {
+          "id": "d",
+          "text": "Sie muss zuerst die deutsche Staatsangehörigkeit erwerben"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Correct answer:** Sie kann die Prüfung eventuell in ihrer Muttersprache ablegen, sie wird in über zehn Sprachen angeboten\n\nThe driving-theory test is offered in **12 foreign languages** (English, Turkish, Arabic, Russian… pragmatic integration policy: road safety beats language gatekeeping.\n\nB invents a perfection bar (note the pattern: German bureaucracy sets *defined* requirements. B1 for citizenship, not \"perfect\"); C, theory is mandatory for all; D, driving needs residence, never citizenship. A question that doubles as reassurance for your wife: systems here mostly accommodate.\n\n## Auf Deutsch\n\nDie Führerscheinprüfung kann man eventuell in der Muttersprache ablegen."
+    },
+    {
+      "id": "eb-u14-l06-probetest-5-ex28",
+      "type": "choice",
+      "title": "Frage 270 · Block 11",
+      "prompt": "Die Volkshochschule (VHS) in Deutschland ist eine Einrichtung …",
+      "options": [
+        {
+          "id": "a",
+          "text": "zur Weiterbildung"
+        },
+        {
+          "id": "b",
+          "text": "nur für Jugendliche"
+        },
+        {
+          "id": "c",
+          "text": "zur Ausbildung von Beamten"
+        },
+        {
+          "id": "d",
+          "text": "nur für Rentner und Rentnerinnen"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Correct answer:** zur Weiterbildung\n\nThe **VHS**, municipal adult-education center: languages, computing, health, culture, and crucially your world: **Integrationskurse, B1-Prüfungen, and Einbürgerungstests**. Your local VHS is very likely where you'll sit the actual 33-question exam. Open to every adult (B/D wrong), no civil-service academy (C). You'll answer this question *inside the building it describes*, enjoy that moment.\n\n## Auf Deutsch\n\nDie Volkshochschule (VHS) ist eine Einrichtung zur Weiterbildung für Erwachsene."
+    },
+    {
+      "id": "eb-u14-l06-probetest-5-ex29",
+      "type": "choice",
+      "title": "Frage 284 · Block 12",
+      "prompt": "Die Wirtschaft in Deutschland verändert sich schnell, Arbeitsanforderungen ändern sich. Was kann man tun?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Erwachsene müssen auch nach der Ausbildung immer weiter lernen, lebenslanges Lernen"
+        },
+        {
+          "id": "b",
+          "text": "Nach der Ausbildung muss man nie wieder lernen"
+        },
+        {
+          "id": "c",
+          "text": "Nur junge Menschen müssen lernen"
+        },
+        {
+          "id": "d",
+          "text": "Der Staat verbietet Berufswechsel"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Correct answer:** Erwachsene müssen auch nach der Ausbildung immer weiter lernen, lebenslanges Lernen\n\n**Lebenslanges Lernen**, the labor-market answer to structural change (an AI engineer needs no persuading). Institutions built for it: VHS (→Q270), Abendgymnasium (→Q257), Weiterbildung rights in many Land laws (Bildungsurlaub. Niedersachsen gives 5 paid days/year; remember that at your new job!). B–D invert the principle or invent bans (Berufsfreiheit →Q15 guarantees career *change*).\n\n## Auf Deutsch\n\nLebenslanges Lernen: Auch nach der Ausbildung muss man weiterlernen."
+    },
+    {
+      "id": "eb-u14-l06-probetest-5-ex30",
+      "type": "choice",
+      "title": "Frage 299 · Block 12",
+      "prompt": "Wie nannte man die ausländischen Arbeitnehmer und Arbeitnehmerinnen, die in den 1950er- und 1960er-Jahren von der Bundesrepublik Deutschland angeworben wurden?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Gastarbeiter/Gastarbeiterinnen"
+        },
+        {
+          "id": "b",
+          "text": "Schwarzarbeiter/Schwarzarbeiterinnen"
+        },
+        {
+          "id": "c",
+          "text": "Zeitarbeiter/Zeitarbeiterinnen"
+        },
+        {
+          "id": "d",
+          "text": "Saisonarbeiter/Saisonarbeiterinnen"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Correct answer:** Gastarbeiter/Gastarbeiterinnen\n\n**Gastarbeiter**, \"guest workers\" recruited for the Wirtschaftswunder's labor hunger (→Q183). The name embodied the error: guests were expected to leave; people stayed, families followed, Germany became, in fact long before it admitted it in law, an Einwanderungsland. The 2000/2024 citizenship reforms you're using are the late legal recognition of that reality; your family is this question's newest chapter.\n\nSchwarzarbeit = illegal work (→Q132), Zeit-/Saisonarbeit = temp/seasonal categories, all real words, wrong history.\n\n## Auf Deutsch\n\nDie angeworbenen Arbeitskräfte der 50er/60er nannte man Gastarbeiter."
+    },
+    {
+      "id": "eb-u14-l06-probetest-5-ex31",
+      "type": "choice",
+      "title": "NDS 1 · Landesfrage",
+      "prompt": "Welches Wappen gehört zum Bundesland Niedersachsen?",
+      "figure": {
+        "images": [
+          {
+            "src": "/images/eb/nds-1-bild-1.png",
+            "alt": "Blue and white lozenges under a golden crown",
+            "label": "Bild 1"
+          },
+          {
+            "src": "/images/eb/nds-1-bild-2.png",
+            "alt": "Two blue lions on gold beside a white nettle leaf on red",
+            "label": "Bild 2"
+          },
+          {
+            "src": "/images/eb/nds-1-bild-3.png",
+            "alt": "A white leaping horse filling a red shield",
+            "label": "Bild 3"
+          },
+          {
+            "src": "/images/eb/nds-1-bild-4.png",
+            "alt": "Black and yellow stripes with a green crown of rue across them",
+            "label": "Bild 4"
+          }
+        ],
+        "credit": "Bilder: BAMF, Gesamtfragenkatalog „Leben in Deutschland“ (Stand 07.05.2025)"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": "Bild 1"
+        },
+        {
+          "id": "b",
+          "text": "Bild 2"
+        },
+        {
+          "id": "c",
+          "text": "Bild 3"
+        },
+        {
+          "id": "d",
+          "text": "Bild 4"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**Correct answer:** Bild 3\n\n*Picture question (Bildfrage):* the pictures above are the ones from the official question catalogue.\n\nCorrect: **Bild 3**, a white leaping horse (the *Sachsenross*) filling a red shield.\n\nThe other pictures: Bild 1 = Bayern (white-blue lozenges under a crown), Bild 2 = Schleswig-Holstein (two blue lions and a white nettle leaf), Bild 4 = Sachsen (black-gold stripes with a green crown of rue). Don't mix up the horses: NRW's arms also show a white horse, but only in one part of the shield; in Niedersachsen the horse fills the whole red shield. The same arms sit in the middle of the Landesflagge (→NDS-5).\n\n## Auf Deutsch\n\nDas Wappen von Niedersachsen: ein weißes, springendes Pferd (Sachsenross) auf rotem Grund."
+    },
+    {
+      "id": "eb-u14-l06-probetest-5-ex32",
+      "type": "choice",
+      "title": "NDS 3 · Landesfrage",
+      "prompt": "Für wie viele Jahre wird der Landtag in Niedersachsen gewählt?",
+      "options": [
+        {
+          "id": "a",
+          "text": "3"
+        },
+        {
+          "id": "b",
+          "text": "4"
+        },
+        {
+          "id": "c",
+          "text": "5"
+        },
+        {
+          "id": "d",
+          "text": "6"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**Correct answer:** 5\n\n**5 years**, one year longer than the Bundestag's 4 (→Q107). That mismatch is the whole trap. The Landtag meets in the Leineschloss in Hannover; it was last elected in 2022, so the next regular Landtagswahl is due in 2027.\n\n## Auf Deutsch\n\nDer Landtag in Niedersachsen wird für 5 Jahre gewählt (Bundestag: nur 4!)."
+    },
+    {
+      "id": "eb-u14-l06-probetest-5-ex33",
+      "type": "choice",
+      "title": "NDS 9 · Landesfrage",
+      "prompt": "Wie nennt man die Regierungschefin/den Regierungschef in Niedersachsen?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Erste Ministerin/Erster Minister"
+        },
+        {
+          "id": "b",
+          "text": "Premierministerin/Premierminister"
+        },
+        {
+          "id": "c",
+          "text": "Bürgermeisterin/Bürgermeister"
+        },
+        {
+          "id": "d",
+          "text": "Ministerpräsidentin/Ministerpräsident"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**Correct answer:** Ministerpräsidentin/Ministerpräsident\n\nNiedersachsen is a Flächenland, so its head of government is the **Ministerpräsident(in)** (→Q37). Only the *title* is tested; the officeholder (since May 2025 Olaf Lies, SPD ⏰) can change.\n\nErster Minister / Premierminister are titles from other countries (Scotland, Wales, the UK); a Bürgermeister heads a Gemeinde (→Q131) or a city-state like Hamburg. Title follows Land type: Flächenland → Ministerpräsident, Stadtstaat → Bürgermeister.\n\n## Auf Deutsch\n\nDie Regierungschefin/der Regierungschef von Niedersachsen heißt Ministerpräsidentin/Ministerpräsident."
+    }
+  ]
+}

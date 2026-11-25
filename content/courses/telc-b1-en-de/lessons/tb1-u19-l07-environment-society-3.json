@@ -1,0 +1,281 @@
+{
+  "id": "tb1-u19-l07-environment-society-3",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u19",
+  "title": "Environment & Society 3",
+  "tip": "Theme: Umwelt & Gesellschaft (B1)",
+  "exercises": [
+    {
+      "id": "tb1-u19-l07-environment-society-3-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "die Zukunft",
+          "known": "future"
+        },
+        {
+          "id": "p2",
+          "learning": "die Entwicklung",
+          "known": "development"
+        },
+        {
+          "id": "p3",
+          "learning": "die Technik",
+          "known": "technology"
+        },
+        {
+          "id": "p4",
+          "learning": "die Forschung",
+          "known": "research"
+        },
+        {
+          "id": "p5",
+          "learning": "verbrauchen",
+          "known": "to consume / use up"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u19-l07-environment-society-3-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „future“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Zukunft"
+        },
+        {
+          "id": "b",
+          "text": "der Umweltschutz"
+        },
+        {
+          "id": "c",
+          "text": "die Umwelt"
+        },
+        {
+          "id": "d",
+          "text": "die Regierung, die Regierungen"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**die Zukunft** = future\n\n*Example:* In Zukunft möchte Ali als Krankenpfleger arbeiten.\nIn the future Ali would like to work as a nurse."
+    },
+    {
+      "id": "tb1-u19-l07-environment-society-3-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „development“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Entwicklung, die Entwicklungen"
+        },
+        {
+          "id": "b",
+          "text": "die Technik"
+        },
+        {
+          "id": "c",
+          "text": "der Klimawandel"
+        },
+        {
+          "id": "d",
+          "text": "die Sicherheit"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**die Entwicklung** = development\n*Plural: die Entwicklungen*\n\n*Example:* Der Arzt ist mit der Entwicklung des Babys zufrieden.\nThe doctor is happy with the baby's development."
+    },
+    {
+      "id": "tb1-u19-l07-environment-society-3-ex04",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u19-l07-environment-society-3-1.mp3"
+      },
+      "tiles": [
+        "Krankenpfleger",
+        "möchte",
+        "Ali",
+        "als",
+        "arbeiten",
+        "In",
+        "Alte",
+        "verursacht",
+        "Zukunft",
+        "Stau"
+      ],
+      "answers": [
+        "In Zukunft möchte Ali als Krankenpfleger arbeiten."
+      ],
+      "explanation": "In Zukunft möchte Ali als Krankenpfleger arbeiten.\n*In the future Ali would like to work as a nurse.*\n\n**die Zukunft** = future"
+    },
+    {
+      "id": "tb1-u19-l07-environment-society-3-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „technology“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "der Klimawandel"
+        },
+        {
+          "id": "b",
+          "text": "die Technik"
+        },
+        {
+          "id": "c",
+          "text": "die Forschung"
+        },
+        {
+          "id": "d",
+          "text": "die Regierung, die Regierungen"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**die Technik** = technology\n\n*Example:* Mein Bruder interessiert sich sehr für Technik.\nMy brother is very interested in technology."
+    },
+    {
+      "id": "tb1-u19-l07-environment-society-3-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Der Arzt ist mit der Entwicklung des Babys zufrieden.",
+      "tiles": [
+        "happy",
+        "flat",
+        "summers",
+        "with",
+        "the",
+        "is",
+        "doctor",
+        "development",
+        "baby's",
+        "The",
+        "of"
+      ],
+      "answers": [
+        "The doctor is happy with the baby's development."
+      ],
+      "explanation": "**die Entwicklung** = development\n*Plural: die Entwicklungen*"
+    },
+    {
+      "id": "tb1-u19-l07-environment-society-3-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „research“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Wirtschaft"
+        },
+        {
+          "id": "b",
+          "text": "die Sicherheit"
+        },
+        {
+          "id": "c",
+          "text": "die Forschung"
+        },
+        {
+          "id": "d",
+          "text": "der Umweltschutz"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**die Forschung** = research\n\n*Example:* Meine Cousine arbeitet in der Forschung an einer Universität.\nMy cousin works in research at a university."
+    },
+    {
+      "id": "tb1-u19-l07-environment-society-3-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "My brother is very interested in technology.",
+      "tiles": [
+        "interessiert",
+        "für",
+        "sich",
+        "möchte",
+        "Mein",
+        "Eltern",
+        "Bruder",
+        "sehr",
+        "bei",
+        "Technik"
+      ],
+      "answers": [
+        "Mein Bruder interessiert sich sehr für Technik."
+      ],
+      "explanation": "**die Technik** = technology"
+    },
+    {
+      "id": "tb1-u19-l07-environment-society-3-ex09",
+      "type": "multiple_choice",
+      "prompt": "Which one means „to consume / use up“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "unterstützen"
+        },
+        {
+          "id": "b",
+          "text": "vermeiden"
+        },
+        {
+          "id": "c",
+          "text": "verbrauchen"
+        },
+        {
+          "id": "d",
+          "text": "verbessern"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**verbrauchen** = to consume / use up\n\n*Example:* Unsere alte Waschmaschine verbraucht zu viel Strom.\nOur old washing machine uses too much electricity."
+    },
+    {
+      "id": "tb1-u19-l07-environment-society-3-ex10",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u19-l07-environment-society-3-4.mp3"
+      },
+      "tiles": [
+        "der",
+        "Bildung",
+        "Meine",
+        "Universität",
+        "arbeitet",
+        "Cousine",
+        "dem",
+        "einer",
+        "in",
+        "des",
+        "an",
+        "Forschung"
+      ],
+      "answers": [
+        "Meine Cousine arbeitet in der Forschung an einer Universität."
+      ],
+      "explanation": "Meine Cousine arbeitet in der Forschung an einer Universität.\n*My cousin works in research at a university.*\n\n**die Forschung** = research"
+    },
+    {
+      "id": "tb1-u19-l07-environment-society-3-ex11",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Unsere alte Waschmaschine verbraucht zu viel Strom.",
+      "tiles": [
+        "with",
+        "washing",
+        "much",
+        "Our",
+        "old",
+        "cream",
+        "electricity",
+        "education",
+        "uses",
+        "too",
+        "machine"
+      ],
+      "answers": [
+        "Our old washing machine uses too much electricity."
+      ],
+      "explanation": "**verbrauchen** = to consume / use up"
+    }
+  ]
+}

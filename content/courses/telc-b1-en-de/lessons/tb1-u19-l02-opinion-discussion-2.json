@@ -1,0 +1,286 @@
+{
+  "id": "tb1-u19-l02-opinion-discussion-2",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u19",
+  "title": "Opinion & Discussion 2",
+  "tip": "Theme: Meinung & Diskussion (B1)",
+  "exercises": [
+    {
+      "id": "tb1-u19-l02-opinion-discussion-2-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "der Nachteil",
+          "known": "disadvantage"
+        },
+        {
+          "id": "p2",
+          "learning": "der Grund",
+          "known": "reason"
+        },
+        {
+          "id": "p3",
+          "learning": "die Ursache",
+          "known": "cause"
+        },
+        {
+          "id": "p4",
+          "learning": "die Folge",
+          "known": "consequence"
+        },
+        {
+          "id": "p5",
+          "learning": "die Lösung",
+          "known": "solution"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u19-l02-opinion-discussion-2-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „disadvantage“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "der Nachteil, die Nachteile"
+        },
+        {
+          "id": "b",
+          "text": "die Lösung, die Lösungen"
+        },
+        {
+          "id": "c",
+          "text": "die Meinung, die Meinungen"
+        },
+        {
+          "id": "d",
+          "text": "das Argument, die Argumente"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**der Nachteil** = disadvantage\n*Plural: die Nachteile*\n\n*Example:* Der Nachteil ist, dass die Arbeit erst um acht Uhr abends endet.\nThe disadvantage is that work doesn't end until eight in the evening."
+    },
+    {
+      "id": "tb1-u19-l02-opinion-discussion-2-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „reason“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "der Standpunkt, die Standpunkte"
+        },
+        {
+          "id": "b",
+          "text": "die Ursache, die Ursachen"
+        },
+        {
+          "id": "c",
+          "text": "der Grund, die Gründe"
+        },
+        {
+          "id": "d",
+          "text": "die Möglichkeit, die Möglichkeiten"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**der Grund** = reason\n*Plural: die Gründe*\n\n*Example:* Aus welchem Grund haben Sie gekündigt?\nFor what reason did you hand in your notice?"
+    },
+    {
+      "id": "tb1-u19-l02-opinion-discussion-2-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "The disadvantage is that work doesn't end until eight in the evening.",
+      "tiles": [
+        "Vorteil",
+        "acht",
+        "Nachteil",
+        "ist",
+        "Uhr",
+        "Der",
+        "endet",
+        "Arbeit",
+        "um",
+        "Das",
+        "erst",
+        "die",
+        "abends",
+        "früher",
+        "dass"
+      ],
+      "answers": [
+        "Der Nachteil ist, dass die Arbeit erst um acht Uhr abends endet."
+      ],
+      "explanation": "**der Nachteil** = disadvantage\n*Plural: die Nachteile*"
+    },
+    {
+      "id": "tb1-u19-l02-opinion-discussion-2-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „cause“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "der Grund, die Gründe"
+        },
+        {
+          "id": "b",
+          "text": "die Ursache, die Ursachen"
+        },
+        {
+          "id": "c",
+          "text": "der Unterschied, die Unterschiede"
+        },
+        {
+          "id": "d",
+          "text": "der Vorteil, die Vorteile"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**die Ursache** = cause\n*Plural: die Ursachen*\n\n*Example:* Der Mechaniker sucht die Ursache für das Problem.\nThe mechanic is looking for the cause of the problem."
+    },
+    {
+      "id": "tb1-u19-l02-opinion-discussion-2-ex06",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u19-l02-opinion-discussion-2-2.mp3"
+      },
+      "tiles": [
+        "haben",
+        "gekündigt",
+        "Grund",
+        "Aus",
+        "Sie",
+        "ist",
+        "wir",
+        "welchem",
+        "immer"
+      ],
+      "answers": [
+        "Aus welchem Grund haben Sie gekündigt?"
+      ],
+      "explanation": "Aus welchem Grund haben Sie gekündigt?\n*For what reason did you hand in your notice?*\n\n**der Grund** = reason\n*Plural: die Gründe*"
+    },
+    {
+      "id": "tb1-u19-l02-opinion-discussion-2-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „consequence“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Folge, die Folgen"
+        },
+        {
+          "id": "b",
+          "text": "der Nachteil, die Nachteile"
+        },
+        {
+          "id": "c",
+          "text": "die Meinung, die Meinungen"
+        },
+        {
+          "id": "d",
+          "text": "der Unterschied, die Unterschiede"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**die Folge** = consequence\n*Plural: die Folgen*\n\n*Example:* Zu wenig Schlaf kann schlimme Folgen haben.\nToo little sleep can have serious consequences."
+    },
+    {
+      "id": "tb1-u19-l02-opinion-discussion-2-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Der Mechaniker sucht die Ursache für das Problem.",
+      "tiles": [
+        "different",
+        "with",
+        "cause",
+        "the",
+        "looking",
+        "problem",
+        "is",
+        "of",
+        "for",
+        "the",
+        "mechanic",
+        "loud",
+        "The"
+      ],
+      "answers": [
+        "The mechanic is looking for the cause of the problem."
+      ],
+      "explanation": "**die Ursache** = cause\n*Plural: die Ursachen*"
+    },
+    {
+      "id": "tb1-u19-l02-opinion-discussion-2-ex09",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „solution“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Lösung, die Lösungen"
+        },
+        {
+          "id": "b",
+          "text": "die Meinung, die Meinungen"
+        },
+        {
+          "id": "c",
+          "text": "die Ursache, die Ursachen"
+        },
+        {
+          "id": "d",
+          "text": "die Möglichkeit, die Möglichkeiten"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**die Lösung** = solution\n*Plural: die Lösungen*\n\n*Example:* Wir haben endlich eine Lösung für das Problem gefunden.\nWe've finally found a solution to the problem."
+    },
+    {
+      "id": "tb1-u19-l02-opinion-discussion-2-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Too little sleep can have serious consequences.",
+      "tiles": [
+        "Schlaf",
+        "haben",
+        "den",
+        "wenig",
+        "Zu",
+        "die",
+        "Folgen",
+        "kann",
+        "Nachteil",
+        "schlimme"
+      ],
+      "answers": [
+        "Zu wenig Schlaf kann schlimme Folgen haben."
+      ],
+      "explanation": "**die Folge** = consequence\n*Plural: die Folgen*"
+    },
+    {
+      "id": "tb1-u19-l02-opinion-discussion-2-ex11",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u19-l02-opinion-discussion-2-5.mp3"
+      },
+      "tiles": [
+        "zu",
+        "gefunden",
+        "die",
+        "haben",
+        "Problem",
+        "endlich",
+        "Lösung",
+        "Wir",
+        "hat",
+        "eine",
+        "für",
+        "das"
+      ],
+      "answers": [
+        "Wir haben endlich eine Lösung für das Problem gefunden."
+      ],
+      "explanation": "Wir haben endlich eine Lösung für das Problem gefunden.\n*We've finally found a solution to the problem.*\n\n**die Lösung** = solution\n*Plural: die Lösungen*"
+    }
+  ]
+}

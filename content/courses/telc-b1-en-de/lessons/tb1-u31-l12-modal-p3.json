@@ -1,0 +1,149 @@
+{
+  "id": "tb1-u31-l12-modal-p3",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u31",
+  "title": "Modal Verbs: wollen & möchten",
+  "tip": "nicht dürfen ≠ nicht müssen: “Sie müssen nicht zahlen” = it's free · “Sie dürfen nicht zahlen” would be absurd. This distinction is a listening-test trap.",
+  "exercises": [
+    {
+      "id": "tb1-u31-l12-modal-p3-ex01",
+      "type": "explain",
+      "title": "wollen & möchten · Wunsch",
+      "body": "wollen = strong will/plan. möchten = polite wish.\n\n*Deutsch:* wollen = starker Wille/Plan. möchten = höflicher Wunsch.\n\n## Pattern\n\nSubjekt + **will/möchte** + … + **Infinitiv**",
+      "examples": [
+        {
+          "learning": "Ich möchte einen Termin vereinbaren.",
+          "known": "I'd like to make an appointment."
+        },
+        {
+          "learning": "Wir wollen nächstes Jahr heiraten.",
+          "known": "We want to get married next year."
+        }
+      ]
+    },
+    {
+      "id": "tb1-u31-l12-modal-p3-ex02",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I'd like to make an appointment.",
+      "tiles": [
+        "kann",
+        "vereinbaren",
+        "parken",
+        "Ich",
+        "Termin",
+        "möchte",
+        "einen",
+        "deine"
+      ],
+      "answers": [
+        "Ich möchte einen Termin vereinbaren."
+      ],
+      "explanation": "**Why:** Polite – ideal on the phone.\n\n*Warum:* Höflich – ideal am Telefon."
+    },
+    {
+      "id": "tb1-u31-l12-modal-p3-ex03",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "We want to get married next year.",
+      "tiles": [
+        "nächstes",
+        "sein",
+        "Termin",
+        "heiraten",
+        "acht",
+        "Wir",
+        "Jahr",
+        "wollen"
+      ],
+      "answers": [
+        "Wir wollen nächstes Jahr heiraten."
+      ],
+      "explanation": "**Why:** Firm plan → wollen.\n\n*Warum:* Fester Plan → wollen."
+    },
+    {
+      "id": "tb1-u31-l12-modal-p3-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Would you like something to drink?",
+      "tiles": [
+        "trinken",
+        "Möchten",
+        "deine",
+        "etwas",
+        "Sonntag",
+        "Sie",
+        "Sohn"
+      ],
+      "answers": [
+        "Möchten Sie etwas trinken?"
+      ],
+      "explanation": "**Why:** Polite offer.\n\n*Warum:* Höfliches Angebot."
+    },
+    {
+      "id": "tb1-u31-l12-modal-p3-ex05",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "My son always wants to play football.",
+      "tiles": [
+        "will",
+        "Ich",
+        "kann",
+        "Sohn",
+        "Fußball",
+        "länger",
+        "spielen",
+        "immer",
+        "Mein"
+      ],
+      "answers": [
+        "Mein Sohn will immer Fußball spielen."
+      ],
+      "explanation": "**Why:** he → will (irregular).\n\n*Warum:* er → will (unregelmäßig)."
+    },
+    {
+      "id": "tb1-u31-l12-modal-p3-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I'd like to register for the course.",
+      "tiles": [
+        "den",
+        "Kurs",
+        "anmelden",
+        "mich",
+        "bitte",
+        "für",
+        "möchte",
+        "Uhr",
+        "Ich",
+        "du"
+      ],
+      "answers": [
+        "Ich möchte mich für den Kurs anmelden."
+      ],
+      "explanation": "**Why:** Typical letter sentence.\n\n*Warum:* Typischer Briefsatz."
+    },
+    {
+      "id": "tb1-u31-l12-modal-p3-ex07",
+      "type": "choice",
+      "title": "Fill the gap",
+      "prompt": "Kinder unter 6 Jahren ___ hier kostenlos essen.",
+      "options": [
+        {
+          "id": "a",
+          "text": "sollen"
+        },
+        {
+          "id": "b",
+          "text": "müssen"
+        },
+        {
+          "id": "c",
+          "text": "dürfen"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Erlaubnis/Möglichkeit → dürfen."
+    }
+  ]
+}

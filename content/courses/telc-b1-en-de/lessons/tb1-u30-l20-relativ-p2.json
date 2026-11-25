@@ -1,0 +1,321 @@
+{
+  "id": "tb1-u30-l20-relativ-p2",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u30",
+  "title": "Relative Clauses: Dativ & Mit Präposition",
+  "tip": "“das Buch, was ich lese”, after a concrete noun never “was”, always der/die/das/den/dem.",
+  "exercises": [
+    {
+      "id": "tb1-u30-l20-relativ-p2-ex01",
+      "type": "explain",
+      "title": "Dativ: dem, der, dem, denen",
+      "body": "Dative in the relative clause (helfen, danken, gehören …). Plural: denen!\n\n*Deutsch:* Dativ im Relativsatz (helfen, danken, gehören …). Plural: denen!\n\n## Pattern\n\nNomen, **dem/der/denen** + Subjekt + … + **Verb**",
+      "examples": [
+        {
+          "learning": "Das ist der Nachbar, dem ich oft helfe.",
+          "known": "That's the neighbour I often help."
+        },
+        {
+          "learning": "Die Frau, der das Auto gehört, ist nicht da.",
+          "known": "The woman who owns the car isn't here."
+        }
+      ]
+    },
+    {
+      "id": "tb1-u30-l20-relativ-p2-ex02",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "That's the neighbour I often help.",
+      "tiles": [
+        "oft",
+        "der",
+        "helfe",
+        "Nachbar",
+        "ist",
+        "Kollegen",
+        "ich",
+        "habe",
+        "dem",
+        "Das",
+        "Hotel"
+      ],
+      "answers": [
+        "Das ist der Nachbar, dem ich oft helfe."
+      ],
+      "explanation": "**Why:** helfen + dative → dem.\n\n*Warum:* helfen + Dativ → dem."
+    },
+    {
+      "id": "tb1-u30-l20-relativ-p2-ex03",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "The woman who owns the car isn't here.",
+      "tiles": [
+        "Strand",
+        "nicht",
+        "suche",
+        "den",
+        "Die",
+        "Frau",
+        "das",
+        "da",
+        "Auto",
+        "der",
+        "gehört",
+        "ist"
+      ],
+      "answers": [
+        "Die Frau, der das Auto gehört, ist nicht da."
+      ],
+      "explanation": "**Why:** gehören + dative, feminine → der.\n\n*Warum:* gehören + Dativ, feminin → der."
+    },
+    {
+      "id": "tb1-u30-l20-relativ-p2-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "The children I teach German to learn quickly.",
+      "tiles": [
+        "lernen",
+        "schnell",
+        "wohnt",
+        "beibringe",
+        "angemeldet",
+        "Deutsch",
+        "denen",
+        "Kinder",
+        "Die",
+        "den",
+        "ich"
+      ],
+      "answers": [
+        "Die Kinder, denen ich Deutsch beibringe, lernen schnell."
+      ],
+      "explanation": "**Why:** Dative plural = denen (not “den”).\n\n*Warum:* Dativ Plural = denen (nicht „den“)."
+    },
+    {
+      "id": "tb1-u30-l20-relativ-p2-ex05",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "The child we're giving a present to has a birthday.",
+      "tiles": [
+        "ein",
+        "Geschenk",
+        "hat",
+        "geben",
+        "dem",
+        "Geburtstag",
+        "ist",
+        "der",
+        "Kind",
+        "wir",
+        "Das",
+        "die"
+      ],
+      "answers": [
+        "Das Kind, dem wir ein Geschenk geben, hat Geburtstag."
+      ],
+      "explanation": "**Why:** Neuter dative → dem.\n\n*Warum:* Neutrum Dativ → dem."
+    },
+    {
+      "id": "tb1-u30-l20-relativ-p2-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "These are the friends I owe a lot to.",
+      "tiles": [
+        "die",
+        "Das",
+        "verdanke",
+        "viel",
+        "ich",
+        "war",
+        "denen",
+        "sind",
+        "Freunde",
+        "den",
+        "oft"
+      ],
+      "answers": [
+        "Das sind die Freunde, denen ich viel verdanke."
+      ],
+      "explanation": "**Why:** Plural + dative verb → denen.\n\n*Warum:* Plural + Dativ-Verb → denen."
+    },
+    {
+      "id": "tb1-u30-l20-relativ-p2-ex07",
+      "type": "explain",
+      "title": "Mit Präposition: mit dem, in der, für den …",
+      "body": "The preposition goes before the relative pronoun. It decides the case.\n\n*Deutsch:* Die Präposition steht vor dem Relativpronomen. Sie bestimmt den Kasus.\n\n## Pattern\n\nNomen, **Präp. + Relativpronomen** + … + **Verb**",
+      "examples": [
+        {
+          "learning": "Das ist die Kollegin, mit der ich arbeite.",
+          "known": "That's the colleague I work with."
+        },
+        {
+          "learning": "Die Stadt, in der ich wohne, ist klein.",
+          "known": "The town I live in is small."
+        }
+      ]
+    },
+    {
+      "id": "tb1-u30-l20-relativ-p2-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "That's the colleague I work with.",
+      "tiles": [
+        "ich",
+        "die",
+        "der",
+        "Kollegin",
+        "ist",
+        "Freunde",
+        "arbeite",
+        "Das",
+        "mit",
+        "→",
+        "nicht"
+      ],
+      "answers": [
+        "Das ist die Kollegin, mit der ich arbeite."
+      ],
+      "explanation": "**Why:** mit + dative → mit der.\n\n*Warum:* mit + Dativ → mit der."
+    },
+    {
+      "id": "tb1-u30-l20-relativ-p2-ex09",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "The town I live in is small.",
+      "tiles": [
+        "klein",
+        "Stadt",
+        "der",
+        "Auto",
+        "wohne",
+        "in",
+        "acht",
+        "Die",
+        "ist",
+        "ich",
+        "geben"
+      ],
+      "answers": [
+        "Die Stadt, in der ich wohne, ist klein."
+      ],
+      "explanation": "**Why:** Where? in + dative → in der.\n\n*Warum:* Wo? in + Dativ → in der."
+    },
+    {
+      "id": "tb1-u30-l20-relativ-p2-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "The course I registered for starts in May.",
+      "tiles": [
+        "mich",
+        "im",
+        "habe",
+        "Die",
+        "den",
+        "für",
+        "Der",
+        "ich",
+        "hat",
+        "Mai",
+        "beginnt",
+        "angemeldet",
+        "Kurs",
+        "um"
+      ],
+      "answers": [
+        "Der Kurs, für den ich mich angemeldet habe, beginnt im Mai."
+      ],
+      "explanation": "**Why:** für + accusative → für den.\n\n*Warum:* für + Akkusativ → für den."
+    },
+    {
+      "id": "tb1-u30-l20-relativ-p2-ex11",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "That's the friend I told you about.",
+      "tiles": [
+        "erzählt",
+        "wohne",
+        "dir",
+        "ich",
+        "Freund",
+        "von",
+        "Kollege",
+        "___",
+        "habe",
+        "ist",
+        "dem",
+        "der",
+        "Das"
+      ],
+      "answers": [
+        "Das ist der Freund, von dem ich dir erzählt habe."
+      ],
+      "explanation": "**Why:** von + dative → von dem.\n\n*Warum:* von + Dativ → von dem."
+    },
+    {
+      "id": "tb1-u30-l20-relativ-p2-ex12",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "The people I live with are very friendly.",
+      "tiles": [
+        "denen",
+        "so",
+        "das",
+        "ich",
+        "freundlich",
+        "sind",
+        "wohnt",
+        "sehr",
+        "Die",
+        "Leute",
+        "bei",
+        "wohne"
+      ],
+      "answers": [
+        "Die Leute, bei denen ich wohne, sind sehr freundlich."
+      ],
+      "explanation": "**Why:** bei + dative plural → bei denen.\n\n*Warum:* bei + Dativ Plural → bei denen."
+    },
+    {
+      "id": "tb1-u30-l20-relativ-p2-ex13",
+      "type": "choice",
+      "title": "Fill the gap",
+      "prompt": "Der Film, ___ wir gestern gesehen haben, war langweilig.",
+      "options": [
+        {
+          "id": "a",
+          "text": "dem"
+        },
+        {
+          "id": "b",
+          "text": "der"
+        },
+        {
+          "id": "c",
+          "text": "den"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "der Film ist Akkusativ-Objekt (wir haben ihn gesehen) → den."
+    },
+    {
+      "id": "tb1-u30-l20-relativ-p2-ex14",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Word order: put all the words in the correct order.",
+      "tiles": [
+        "ist",
+        "der",
+        "Das",
+        "der",
+        "wohnt",
+        "uns",
+        "Mann",
+        "neben"
+      ],
+      "answers": [
+        "Das ist der Mann der neben uns wohnt"
+      ],
+      "explanation": "Relativsatz mit Verb am Ende: …, der neben uns wohnt."
+    }
+  ]
+}

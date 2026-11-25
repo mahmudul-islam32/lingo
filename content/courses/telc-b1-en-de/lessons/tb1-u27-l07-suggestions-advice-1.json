@@ -1,0 +1,235 @@
+{
+  "id": "tb1-u27-l07-suggestions-advice-1",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u27",
+  "title": "Suggestions & Advice 1",
+  "tip": "Theme: Redemittel: Vorschläge & Ratschläge (B1)",
+  "exercises": [
+    {
+      "id": "tb1-u27-l07-suggestions-advice-1-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "Wir könnten … machen",
+          "known": "We could …"
+        },
+        {
+          "id": "p2",
+          "learning": "Wie wäre es mit …?",
+          "known": "How about …?"
+        },
+        {
+          "id": "p3",
+          "learning": "Ich schlage vor, dass …",
+          "known": "I suggest that …"
+        },
+        {
+          "id": "p4",
+          "learning": "Sollen wir …?",
+          "known": "Shall we …?"
+        },
+        {
+          "id": "p5",
+          "learning": "Was hältst du davon, wenn …?",
+          "known": "What do you think if …?"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u27-l07-suggestions-advice-1-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which phrase means „We could …“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Wir könnten … machen."
+        },
+        {
+          "id": "b",
+          "text": "Vielleicht ist es sinnvoll, … zu …"
+        },
+        {
+          "id": "c",
+          "text": "An deiner Stelle würde ich …"
+        },
+        {
+          "id": "d",
+          "text": "Lass uns …"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Wir könnten … machen.** = We could …\n\n*Example:* Wir könnten am Samstag ein Picknick im Park machen.\nWe could have a picnic in the park on Saturday."
+    },
+    {
+      "id": "tb1-u27-l07-suggestions-advice-1-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which phrase means „How about …?“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Sollen wir …?"
+        },
+        {
+          "id": "b",
+          "text": "Wie wäre es mit …?"
+        },
+        {
+          "id": "c",
+          "text": "Ich schlage vor, dass …"
+        },
+        {
+          "id": "d",
+          "text": "Lass uns …"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Wie wäre es mit …?** = How about …?\n\n*Example:* Wie wäre es mit einem Kaffee nach der Arbeit?\nHow about a coffee after work?"
+    },
+    {
+      "id": "tb1-u27-l07-suggestions-advice-1-ex04",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u27-l07-suggestions-advice-1-1.mp3"
+      },
+      "tiles": [
+        "könnten",
+        "schlage",
+        "ein",
+        "am",
+        "im",
+        "Wir",
+        "Kaffee",
+        "nach",
+        "Park",
+        "machen",
+        "Picknick",
+        "Samstag"
+      ],
+      "answers": [
+        "Wir könnten am Samstag ein Picknick im Park machen."
+      ],
+      "explanation": "Wir könnten am Samstag ein Picknick im Park machen.\n*We could have a picnic in the park on Saturday.*\n\n**Wir könnten … machen.** = We could …"
+    },
+    {
+      "id": "tb1-u27-l07-suggestions-advice-1-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which phrase means „I suggest that …“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "An deiner Stelle würde ich …"
+        },
+        {
+          "id": "b",
+          "text": "Lass uns …"
+        },
+        {
+          "id": "c",
+          "text": "Ich würde vorschlagen, … zu …"
+        },
+        {
+          "id": "d",
+          "text": "Ich schlage vor, dass …"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**Ich schlage vor, dass …** = I suggest that …\n\n*Example:* Ich schlage vor, dass wir uns um acht Uhr am Bahnhof treffen.\nI suggest that we meet at the station at eight o'clock."
+    },
+    {
+      "id": "tb1-u27-l07-suggestions-advice-1-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Wie wäre es mit einem Kaffee nach der Arbeit?",
+      "tiles": [
+        "Do",
+        "after",
+        "about",
+        "coffee",
+        "a",
+        "How",
+        "with",
+        "should",
+        "work"
+      ],
+      "answers": [
+        "How about a coffee after work?"
+      ],
+      "explanation": "**Wie wäre es mit …?** = How about …?"
+    },
+    {
+      "id": "tb1-u27-l07-suggestions-advice-1-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which phrase means „Shall we …?“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Sollen wir …?"
+        },
+        {
+          "id": "b",
+          "text": "Was hältst du davon, wenn …?"
+        },
+        {
+          "id": "c",
+          "text": "Du solltest …"
+        },
+        {
+          "id": "d",
+          "text": "Wir könnten … machen."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Sollen wir …?** = Shall we …?\n\n*Example:* Sollen wir heute Abend zusammen kochen?\nShall we cook together this evening?"
+    },
+    {
+      "id": "tb1-u27-l07-suggestions-advice-1-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I suggest that we meet at the station at eight o'clock.",
+      "tiles": [
+        "morgen",
+        "dass",
+        "Küche",
+        "Bahnhof",
+        "wir",
+        "Was",
+        "uns",
+        "vor",
+        "um",
+        "Uhr",
+        "acht",
+        "am",
+        "treffen",
+        "Ich",
+        "schlage"
+      ],
+      "answers": [
+        "Ich schlage vor, dass wir uns um acht Uhr am Bahnhof treffen."
+      ],
+      "explanation": "**Ich schlage vor, dass …** = I suggest that …"
+    },
+    {
+      "id": "tb1-u27-l07-suggestions-advice-1-ex09",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u27-l07-suggestions-advice-1-4.mp3"
+      },
+      "tiles": [
+        "Abend",
+        "zusammen",
+        "müde",
+        "wir",
+        "wenn",
+        "heute",
+        "kochen",
+        "Sollen",
+        "früh"
+      ],
+      "answers": [
+        "Sollen wir heute Abend zusammen kochen?"
+      ],
+      "explanation": "Sollen wir heute Abend zusammen kochen?\n*Shall we cook together this evening?*\n\n**Sollen wir …?** = Shall we …?"
+    }
+  ]
+}

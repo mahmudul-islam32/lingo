@@ -1,0 +1,242 @@
+{
+  "id": "tb1-u28-l02-letters-e-mails-2",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u28",
+  "title": "Letters & E-mails 2",
+  "tip": "Theme: Redemittel: Brief & E-Mail (B1)",
+  "exercises": [
+    {
+      "id": "tb1-u28-l02-letters-e-mails-2-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "ich würde mich freuen, wenn …",
+          "known": "I would be glad if …"
+        },
+        {
+          "id": "p2",
+          "learning": "könnten Sie mir bitte mitteilen, …",
+          "known": "could you please let me know …"
+        },
+        {
+          "id": "p3",
+          "learning": "ich möchte mich über … beschweren",
+          "known": "I would like to complain about …"
+        },
+        {
+          "id": "p4",
+          "learning": "leider muss ich Ihnen mitteilen, dass …",
+          "known": "unfortunately I must inform you that …"
+        },
+        {
+          "id": "p5",
+          "learning": "Sehr geehrte Damen und Herren",
+          "known": "Dear Sir or Madam,"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u28-l02-letters-e-mails-2-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which phrase means „I would be glad if …“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "ich würde mich freuen, wenn …"
+        },
+        {
+          "id": "b",
+          "text": "könnten Sie mir bitte mitteilen, …"
+        },
+        {
+          "id": "c",
+          "text": "leider muss ich Ihnen mitteilen, dass …"
+        },
+        {
+          "id": "d",
+          "text": "Viele Grüße"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**ich würde mich freuen, wenn …** = I would be glad if …\n\n*Example:* Ich würde mich freuen, wenn Sie mich zu einem Gespräch einladen.\nI would be glad if you invited me to an interview."
+    },
+    {
+      "id": "tb1-u28-l02-letters-e-mails-2-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which phrase means „could you please let me know …“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "könnten Sie mir bitte mitteilen, …"
+        },
+        {
+          "id": "b",
+          "text": "Viele Grüße"
+        },
+        {
+          "id": "c",
+          "text": "ich möchte mich über … beschweren."
+        },
+        {
+          "id": "d",
+          "text": "Liebe Anna, / Lieber Tom,"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**könnten Sie mir bitte mitteilen, …** = could you please let me know …\n\n*Example:* Könnten Sie mir bitte mitteilen, wann der Kurs beginnt?\nCould you please let me know when the course starts?"
+    },
+    {
+      "id": "tb1-u28-l02-letters-e-mails-2-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Ich würde mich freuen, wenn Sie mich zu einem Gespräch einladen.",
+      "tiles": [
+        "Maria",
+        "glad",
+        "wishes",
+        "to",
+        "would",
+        "invited",
+        "you",
+        "post",
+        "I",
+        "interview",
+        "if",
+        "be",
+        "me",
+        "an"
+      ],
+      "answers": [
+        "I would be glad if you invited me to an interview."
+      ],
+      "explanation": "**ich würde mich freuen, wenn …** = I would be glad if …"
+    },
+    {
+      "id": "tb1-u28-l02-letters-e-mails-2-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which phrase means „I would like to complain about …“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "ich bedanke mich im Voraus."
+        },
+        {
+          "id": "b",
+          "text": "vielen Dank für Ihre E-Mail."
+        },
+        {
+          "id": "c",
+          "text": "ich möchte mich über … beschweren."
+        },
+        {
+          "id": "d",
+          "text": "ich würde mich freuen, wenn …"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**ich möchte mich über … beschweren.** = I would like to complain about …\n\n*Example:* Ich möchte mich über den Lärm in Ihrem Hotel beschweren.\nI would like to complain about the noise in your hotel."
+    },
+    {
+      "id": "tb1-u28-l02-letters-e-mails-2-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Could you please let me know when the course starts?",
+      "tiles": [
+        "bitte",
+        "wann",
+        "mir",
+        "Sie",
+        "der",
+        "Kurs",
+        "mitteilen",
+        "beginnt",
+        "Könnten",
+        "Tom",
+        "Gespräch",
+        "gestern"
+      ],
+      "answers": [
+        "Könnten Sie mir bitte mitteilen, wann der Kurs beginnt?"
+      ],
+      "explanation": "**könnten Sie mir bitte mitteilen, …** = could you please let me know …"
+    },
+    {
+      "id": "tb1-u28-l02-letters-e-mails-2-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which phrase means „unfortunately I must inform you that …“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "vielen Dank für Ihre E-Mail."
+        },
+        {
+          "id": "b",
+          "text": "leider muss ich Ihnen mitteilen, dass …"
+        },
+        {
+          "id": "c",
+          "text": "ich bedanke mich im Voraus."
+        },
+        {
+          "id": "d",
+          "text": "Mit freundlichen Grüßen"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**leider muss ich Ihnen mitteilen, dass …** = unfortunately I must inform you that …\n\n*Example:* Leider muss ich Ihnen mitteilen, dass ich den Termin nicht wahrnehmen kann.\nUnfortunately I must inform you that I can't attend the appointment."
+    },
+    {
+      "id": "tb1-u28-l02-letters-e-mails-2-ex08",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u28-l02-letters-e-mails-2-3.mp3"
+      },
+      "tiles": [
+        "Antwort",
+        "Lärm",
+        "möchte",
+        "Hotel",
+        "Hochzeit",
+        "den",
+        "Tom",
+        "Ihrem",
+        "in",
+        "Ich",
+        "über",
+        "beschweren",
+        "mich"
+      ],
+      "answers": [
+        "Ich möchte mich über den Lärm in Ihrem Hotel beschweren."
+      ],
+      "explanation": "Ich möchte mich über den Lärm in Ihrem Hotel beschweren.\n*I would like to complain about the noise in your hotel.*\n\n**ich möchte mich über … beschweren.** = I would like to complain about …"
+    },
+    {
+      "id": "tb1-u28-l02-letters-e-mails-2-ex09",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Leider muss ich Ihnen mitteilen, dass ich den Termin nicht wahrnehmen kann.",
+      "tiles": [
+        "I",
+        "you",
+        "to",
+        "be",
+        "attend",
+        "that",
+        "inform",
+        "can't",
+        "the",
+        "appointment",
+        "must",
+        "Sir",
+        "I",
+        "Unfortunately"
+      ],
+      "answers": [
+        "Unfortunately I must inform you that I can't attend the appointment."
+      ],
+      "explanation": "**leider muss ich Ihnen mitteilen, dass …** = unfortunately I must inform you that …"
+    }
+  ]
+}

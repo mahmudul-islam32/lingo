@@ -1,0 +1,222 @@
+{
+  "id": "tb1-u10-l10-appointments-arrangements-2",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u10",
+  "title": "Appointments & Arrangements 2",
+  "tip": "Theme: Sätze: Termin & Verabredung (A2)",
+  "exercises": [
+    {
+      "id": "tb1-u10-l10-appointments-arrangements-2-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "Können wir den Termin verschieben?",
+          "known": "Can we postpone the appointment?"
+        },
+        {
+          "id": "p2",
+          "learning": "Ich hätte am Montag Zeit",
+          "known": "I'd have time on Monday."
+        },
+        {
+          "id": "p3",
+          "learning": "Wann würde es dir am besten passen?",
+          "known": "When would suit you best?"
+        },
+        {
+          "id": "p4",
+          "learning": "Treffen wir uns um sieben Uhr",
+          "known": "Let's meet at seven."
+        },
+        {
+          "id": "p5",
+          "learning": "Hast du am Wochenende Zeit?",
+          "known": "Do you have time at the weekend?"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u10-l10-appointments-arrangements-2-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means „Can we postpone the appointment?“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Passt es dir am Samstag um drei?"
+        },
+        {
+          "id": "b",
+          "text": "Treffen wir uns um sieben Uhr."
+        },
+        {
+          "id": "c",
+          "text": "Hast du am Wochenende Zeit?"
+        },
+        {
+          "id": "d",
+          "text": "Können wir den Termin verschieben?"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**Können wir den Termin verschieben?** = Can we postpone the appointment?\n\n*Example:* Können wir den Termin verschieben?\nCan we postpone the appointment?"
+    },
+    {
+      "id": "tb1-u10-l10-appointments-arrangements-2-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means „I'd have time on Monday.“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Sollen wir uns vor dem Kino treffen?"
+        },
+        {
+          "id": "b",
+          "text": "Wann würde es dir am besten passen?"
+        },
+        {
+          "id": "c",
+          "text": "Hast du am Wochenende Zeit?"
+        },
+        {
+          "id": "d",
+          "text": "Ich hätte am Montag Zeit."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**Ich hätte am Montag Zeit.** = I'd have time on Monday.\n\n*Example:* Ich hätte am Montag Zeit.\nI'd have time on Monday."
+    },
+    {
+      "id": "tb1-u10-l10-appointments-arrangements-2-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Can we postpone the appointment?",
+      "tiles": [
+        "verschieben",
+        "den",
+        "um",
+        "wir",
+        "Können",
+        "besten",
+        "Termin",
+        "am"
+      ],
+      "answers": [
+        "Können wir den Termin verschieben?"
+      ],
+      "explanation": "**Können wir den Termin verschieben?** = Can we postpone the appointment?"
+    },
+    {
+      "id": "tb1-u10-l10-appointments-arrangements-2-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means „When would suit you best?“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ich hätte am Montag Zeit."
+        },
+        {
+          "id": "b",
+          "text": "Leider muss ich unseren Termin absagen."
+        },
+        {
+          "id": "c",
+          "text": "Wann würde es dir am besten passen?"
+        },
+        {
+          "id": "d",
+          "text": "Passt es dir am Samstag um drei?"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**Wann würde es dir am besten passen?** = When would suit you best?\n\n*Example:* Wann würde es dir am besten passen?\nWhen would suit you best?"
+    },
+    {
+      "id": "tb1-u10-l10-appointments-arrangements-2-ex06",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u10-l10-appointments-arrangements-2-2.mp3"
+      },
+      "tiles": [
+        "Termin",
+        "Zeit",
+        "hätte",
+        "am",
+        "Montag",
+        "Wochenende",
+        "wir",
+        "Ich"
+      ],
+      "answers": [
+        "Ich hätte am Montag Zeit."
+      ],
+      "explanation": "Ich hätte am Montag Zeit.\n*I'd have time on Monday.*\n\n**Ich hätte am Montag Zeit.** = I'd have time on Monday."
+    },
+    {
+      "id": "tb1-u10-l10-appointments-arrangements-2-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means „Let's meet at seven.“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Passt es dir am Samstag um drei?"
+        },
+        {
+          "id": "b",
+          "text": "Treffen wir uns um sieben Uhr."
+        },
+        {
+          "id": "c",
+          "text": "Leider muss ich unseren Termin absagen."
+        },
+        {
+          "id": "d",
+          "text": "Können wir den Termin verschieben?"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Treffen wir uns um sieben Uhr.** = Let's meet at seven.\n\n*Example:* Treffen wir uns um sieben Uhr.\nLet's meet at seven."
+    },
+    {
+      "id": "tb1-u10-l10-appointments-arrangements-2-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Wann würde es dir am besten passen?",
+      "tiles": [
+        "best",
+        "at",
+        "meet",
+        "would",
+        "When",
+        "on",
+        "suit",
+        "you"
+      ],
+      "answers": [
+        "When would suit you best?"
+      ],
+      "explanation": "**Wann würde es dir am besten passen?** = When would suit you best?"
+    },
+    {
+      "id": "tb1-u10-l10-appointments-arrangements-2-ex09",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Let's meet at seven.",
+      "tiles": [
+        "wir",
+        "sieben",
+        "uns",
+        "Treffen",
+        "dem",
+        "Uhr",
+        "passen",
+        "um",
+        "Wochenende"
+      ],
+      "answers": [
+        "Treffen wir uns um sieben Uhr."
+      ],
+      "explanation": "**Treffen wir uns um sieben Uhr.** = Let's meet at seven."
+    }
+  ]
+}

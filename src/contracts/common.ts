@@ -51,6 +51,15 @@ export const AudioPathSchema = z
   );
 export type AudioPath = z.infer<typeof AudioPathSchema>;
 
+/** Path of a static image served from `/public/images/**` (TELC-005). */
+export const ImagePathSchema = z
+  .string()
+  .regex(
+    /^\/images\/[a-z0-9][a-z0-9/_-]*\.(?:png|jpg|jpeg|webp|svg)$/,
+    "must be a path like `/images/eb/q21-bild-1.png`",
+  );
+export type ImagePath = z.infer<typeof ImagePathSchema>;
+
 /** Returns the values that occur more than once, in first-seen order. Pure helper for refinements. */
 export function findDuplicates(values: readonly string[]): string[] {
   const seen = new Set<string>();

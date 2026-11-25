@@ -1,0 +1,251 @@
+{
+  "id": "tb1-u15-l05-free-time-sport-5",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u15",
+  "title": "Free Time & Sport 5",
+  "tip": "Theme: Freizeit / Sport (B1)",
+  "exercises": [
+    {
+      "id": "tb1-u15-l05-free-time-sport-5-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "sich interessieren für das Interesse an",
+          "known": "to be interested in"
+        },
+        {
+          "id": "p2",
+          "learning": "sich freuen auf",
+          "known": "to look forward to"
+        },
+        {
+          "id": "p3",
+          "learning": "die Freizeit",
+          "known": "free time"
+        },
+        {
+          "id": "p4",
+          "learning": "der Verein",
+          "known": "club"
+        },
+        {
+          "id": "p5",
+          "learning": "trainieren, das Training",
+          "known": "to train"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u15-l05-free-time-sport-5-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which verb means „to be interested in: interest in“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Rad fahren (ist Rad gefahren)"
+        },
+        {
+          "id": "b",
+          "text": "sich interessieren für + Akk. das Interesse an + Dat."
+        },
+        {
+          "id": "c",
+          "text": "stattfinden (hat stattgefunden)"
+        },
+        {
+          "id": "d",
+          "text": "sich treffen mit + Dat. (hat sich getroffen)"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**sich interessieren für + Akk. das Interesse an + Dat.** = to be interested in: interest in\n\n*Example:* Tom interessiert sich sehr für Fußball.\nTom is very interested in football."
+    },
+    {
+      "id": "tb1-u15-l05-free-time-sport-5-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which verb means „to look forward to ↔ to be pleased about, ⚠ classic Sprachbausteine trap“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "sich treffen mit + Dat. (hat sich getroffen)"
+        },
+        {
+          "id": "b",
+          "text": "wandern (ist gewandert) · spazieren gehen (ist spazieren gegangen)"
+        },
+        {
+          "id": "c",
+          "text": "sich freuen auf + Akk. (future) ↔ sich freuen über + Akk. (now)"
+        },
+        {
+          "id": "d",
+          "text": "sich fit halten"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**sich freuen auf + Akk. (future) ↔ sich freuen über + Akk. (now)** = to look forward to ↔ to be pleased about, ⚠ classic Sprachbausteine trap\n\n*Example:* Ich freue mich auf den Urlaub und habe mich über dein Geschenk gefreut.\nI'm looking forward to the holiday, and I was pleased about your present."
+    },
+    {
+      "id": "tb1-u15-l05-free-time-sport-5-ex04",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u15-l05-free-time-sport-5-1.mp3"
+      },
+      "tiles": [
+        "interessiert",
+        "sehr",
+        "Mannschaft",
+        "Fußball",
+        "sich",
+        "Freunden",
+        "bietet",
+        "Tom",
+        "für"
+      ],
+      "answers": [
+        "Tom interessiert sich sehr für Fußball."
+      ],
+      "explanation": "Tom interessiert sich sehr für Fußball.\n*Tom is very interested in football.*\n\n**sich interessieren für + Akk. das Interesse an + Dat.** = to be interested in: interest in"
+    },
+    {
+      "id": "tb1-u15-l05-free-time-sport-5-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means „I've been playing football in a club for three years, and at the weekend I like doing things with my friends.“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Mit Kassenbon können Sie das Gerät innerhalb von 14 Tagen umtauschen oder Ihr Geld zurückbekommen."
+        },
+        {
+          "id": "b",
+          "text": "Ich habe die Jacke erst gestern gekauft, aber zu Hause habe ich gemerkt, dass der Reißverschluss kaputt ist."
+        },
+        {
+          "id": "c",
+          "text": "Ich spiele seit drei Jahren Fußball im Verein, und am Wochenende unternehme ich gern etwas mit meinen Freunden."
+        },
+        {
+          "id": "d",
+          "text": "Das Sommerfest findet am Samstag im Stadtpark statt, der Eintritt ist kostenlos."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**Ich spiele seit drei Jahren Fußball im Verein, und am Wochenende unternehme ich gern etwas mit meinen Freunden.** = I've been playing football in a club for three years, and at the weekend I like doing things with my friends.\n\n*Example:* Ich spiele seit drei Jahren Fußball im Verein, und am Wochenende unternehme ich gern etwas mit meinen Freunden.\nI've been playing football in a club for three years, and at the weekend I like doing things with my friends."
+    },
+    {
+      "id": "tb1-u15-l05-free-time-sport-5-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Ich freue mich auf den Urlaub und habe mich über dein Geschenk gefreut.",
+      "tiles": [
+        "I",
+        "the",
+        "doing",
+        "looking",
+        "holiday",
+        "about",
+        "was",
+        "your",
+        "pleased",
+        "present",
+        "rest",
+        "for",
+        "I'm",
+        "to",
+        "forward",
+        "and"
+      ],
+      "answers": [
+        "I'm looking forward to the holiday, and I was pleased about your present."
+      ],
+      "explanation": "**sich freuen auf + Akk. (future) ↔ sich freuen über + Akk. (now)** = to look forward to ↔ to be pleased about, ⚠ classic Sprachbausteine trap"
+    },
+    {
+      "id": "tb1-u15-l05-free-time-sport-5-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means „The summer festival takes place on Saturday in the city park, admission is free.“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ich spiele seit drei Jahren Fußball im Verein, und am Wochenende unternehme ich gern etwas mit meinen Freunden."
+        },
+        {
+          "id": "b",
+          "text": "Ich habe die Jacke erst gestern gekauft, aber zu Hause habe ich gemerkt, dass der Reißverschluss kaputt ist."
+        },
+        {
+          "id": "c",
+          "text": "Das Sommerfest findet am Samstag im Stadtpark statt, der Eintritt ist kostenlos."
+        },
+        {
+          "id": "d",
+          "text": "Mit Kassenbon können Sie das Gerät innerhalb von 14 Tagen umtauschen oder Ihr Geld zurückbekommen."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**Das Sommerfest findet am Samstag im Stadtpark statt, der Eintritt ist kostenlos.** = The summer festival takes place on Saturday in the city park, admission is free.\n\n*Example:* Das Sommerfest findet am Samstag im Stadtpark statt, der Eintritt ist kostenlos.\nThe summer festival takes place on Saturday in the city park, admission is free."
+    },
+    {
+      "id": "tb1-u15-l05-free-time-sport-5-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I've been playing football in a club for three years, and at the weekend I like doing things with my friends.",
+      "tiles": [
+        "etwas",
+        "Yoga",
+        "seit",
+        "am",
+        "Freunden",
+        "ich",
+        "Verein",
+        "drei",
+        "In",
+        "Ich",
+        "Wochenende",
+        "im",
+        "spiele",
+        "Jahren",
+        "gern",
+        "einen",
+        "meinen",
+        "Fußball",
+        "mit",
+        "unternehme",
+        "und"
+      ],
+      "answers": [
+        "Ich spiele seit drei Jahren Fußball im Verein, und am Wochenende unternehme ich gern etwas mit meinen Freunden."
+      ],
+      "explanation": "**Ich spiele seit drei Jahren Fußball im Verein, und am Wochenende unternehme ich gern etwas mit meinen Freunden.** = I've been playing football in a club for three years, and at the weekend I like doing things with my friends."
+    },
+    {
+      "id": "tb1-u15-l05-free-time-sport-5-ex09",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u15-l05-free-time-sport-5-4.mp3"
+      },
+      "tiles": [
+        "Samstag",
+        "Das",
+        "ist",
+        "findet",
+        "am",
+        "Sommerfest",
+        "kostenlos",
+        "im",
+        "Stadtpark",
+        "statt",
+        "der",
+        "Morgen",
+        "joggt",
+        "Wir",
+        "Eintritt"
+      ],
+      "answers": [
+        "Das Sommerfest findet am Samstag im Stadtpark statt, der Eintritt ist kostenlos."
+      ],
+      "explanation": "Das Sommerfest findet am Samstag im Stadtpark statt, der Eintritt ist kostenlos.\n*The summer festival takes place on Saturday in the city park, admission is free.*\n\n**Das Sommerfest findet am Samstag im Stadtpark statt, der Eintritt ist kostenlos.** = The summer festival takes place on Saturday in the city park, admission is free."
+    }
+  ]
+}

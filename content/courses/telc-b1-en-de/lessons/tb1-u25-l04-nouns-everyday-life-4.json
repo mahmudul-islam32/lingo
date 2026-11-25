@@ -1,0 +1,282 @@
+{
+  "id": "tb1-u25-l04-nouns-everyday-life-4",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u25",
+  "title": "Nouns: Everyday Life 4",
+  "tip": "Theme: Nomen: Alltag & Leben (B1)",
+  "exercises": [
+    {
+      "id": "tb1-u25-l04-nouns-everyday-life-4-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "die Ferien",
+          "known": "(school) holidays"
+        },
+        {
+          "id": "p2",
+          "learning": "das Ferienhaus",
+          "known": "holiday house"
+        },
+        {
+          "id": "p3",
+          "learning": "der Strand",
+          "known": "beach"
+        },
+        {
+          "id": "p4",
+          "learning": "die Insel",
+          "known": "island"
+        },
+        {
+          "id": "p5",
+          "learning": "der Tourist",
+          "known": "tourist"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u25-l04-nouns-everyday-life-4-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „(school) holidays“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Ferien (Pl.)"
+        },
+        {
+          "id": "b",
+          "text": "die Sache, die Sachen"
+        },
+        {
+          "id": "c",
+          "text": "das Gesetz, die Gesetze"
+        },
+        {
+          "id": "d",
+          "text": "die Polizei"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**die Ferien (Pl.)** = (school) holidays\n\n*Example:* In den Ferien besuchen die Kinder ihre Oma.\nDuring the school holidays the children visit their grandma."
+    },
+    {
+      "id": "tb1-u25-l04-nouns-everyday-life-4-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „holiday house“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "das Drittel, die Drittel"
+        },
+        {
+          "id": "b",
+          "text": "das Ferienhaus, die Ferienhäuser"
+        },
+        {
+          "id": "c",
+          "text": "der Haushalt, die Haushalte"
+        },
+        {
+          "id": "d",
+          "text": "die Polizei"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**das Ferienhaus** = holiday house\n*Plural: die Ferienhäuser*\n\n*Example:* Wir haben ein Ferienhaus an der Ostsee gemietet.\nWe've rented a holiday house on the Baltic coast."
+    },
+    {
+      "id": "tb1-u25-l04-nouns-everyday-life-4-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "In den Ferien besuchen die Kinder ihre Oma.",
+      "tiles": [
+        "grandma",
+        "During",
+        "forum",
+        "holidays",
+        "visit",
+        "children",
+        "the",
+        "the",
+        "school",
+        "their",
+        "rain",
+        "at"
+      ],
+      "answers": [
+        "During the school holidays the children visit their grandma."
+      ],
+      "explanation": "**die Ferien (Pl.)** = (school) holidays"
+    },
+    {
+      "id": "tb1-u25-l04-nouns-everyday-life-4-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „beach“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Insel, die Inseln"
+        },
+        {
+          "id": "b",
+          "text": "der Strand, die Strände"
+        },
+        {
+          "id": "c",
+          "text": "das Ausland"
+        },
+        {
+          "id": "d",
+          "text": "der Haushalt, die Haushalte"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**der Strand** = beach\n*Plural: die Strände*\n\n*Example:* Am Nachmittag gehen wir an den Strand.\nIn the afternoon we're going to the beach."
+    },
+    {
+      "id": "tb1-u25-l04-nouns-everyday-life-4-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "We've rented a holiday house on the Baltic coast.",
+      "tiles": [
+        "Ausland",
+        "ein",
+        "brauche",
+        "der",
+        "Wir",
+        "gemietet",
+        "haben",
+        "Strand",
+        "Ostsee",
+        "Ferienhaus",
+        "an"
+      ],
+      "answers": [
+        "Wir haben ein Ferienhaus an der Ostsee gemietet."
+      ],
+      "explanation": "**das Ferienhaus** = holiday house\n*Plural: die Ferienhäuser*"
+    },
+    {
+      "id": "tb1-u25-l04-nouns-everyday-life-4-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „island“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "der Spaß"
+        },
+        {
+          "id": "b",
+          "text": "die Welt, die Welten"
+        },
+        {
+          "id": "c",
+          "text": "die Insel, die Inseln"
+        },
+        {
+          "id": "d",
+          "text": "die Lage, die Lagen"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**die Insel** = island\n*Plural: die Inseln*\n\n*Example:* Im Urlaub fahren wir mit dem Schiff auf eine Insel.\nOn holiday we're taking a boat to an island."
+    },
+    {
+      "id": "tb1-u25-l04-nouns-everyday-life-4-ex08",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u25-l04-nouns-everyday-life-4-3.mp3"
+      },
+      "tiles": [
+        "wir",
+        "Die",
+        "an",
+        "dem",
+        "Am",
+        "gehen",
+        "den",
+        "Strand",
+        "Nachmittag",
+        "Minuten"
+      ],
+      "answers": [
+        "Am Nachmittag gehen wir an den Strand."
+      ],
+      "explanation": "Am Nachmittag gehen wir an den Strand.\n*In the afternoon we're going to the beach.*\n\n**der Strand** = beach\n*Plural: die Strände*"
+    },
+    {
+      "id": "tb1-u25-l04-nouns-everyday-life-4-ex09",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „tourist“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "der Tourist, die Touristen"
+        },
+        {
+          "id": "b",
+          "text": "der Tourismus"
+        },
+        {
+          "id": "c",
+          "text": "das Land, die Länder"
+        },
+        {
+          "id": "d",
+          "text": "die Wäsche"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**der Tourist** = tourist\n*Plural: die Touristen*\n\n*Example:* Im Sommer sind viele Touristen in der Altstadt.\nIn summer there are lots of tourists in the old town."
+    },
+    {
+      "id": "tb1-u25-l04-nouns-everyday-life-4-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Im Urlaub fahren wir mit dem Schiff auf eine Insel.",
+      "tiles": [
+        "boat",
+        "On",
+        "is",
+        "called",
+        "island",
+        "arrived",
+        "taking",
+        "a",
+        "holiday",
+        "an",
+        "to",
+        "we're"
+      ],
+      "answers": [
+        "On holiday we're taking a boat to an island."
+      ],
+      "explanation": "**die Insel** = island\n*Plural: die Inseln*"
+    },
+    {
+      "id": "tb1-u25-l04-nouns-everyday-life-4-ex11",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "In summer there are lots of tourists in the old town.",
+      "tiles": [
+        "kaufen",
+        "in",
+        "viele",
+        "sind",
+        "Kindersitz",
+        "Sommer",
+        "Altstadt",
+        "viel",
+        "Im",
+        "Touristen",
+        "der"
+      ],
+      "answers": [
+        "Im Sommer sind viele Touristen in der Altstadt."
+      ],
+      "explanation": "**der Tourist** = tourist\n*Plural: die Touristen*"
+    }
+  ]
+}

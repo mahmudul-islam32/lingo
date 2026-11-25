@@ -4,8 +4,8 @@ import { seedSettingsCourse } from "./helpers/seed";
 
 /**
  * Completes onboarding (PLT-004) with the default choices, so specs that test the tabs
- * start as a returning learner. Since PLT-024 the only offered course is German (en-de),
- * preselected, and A1 is the preselected start level (PLT-025); "Start learning" opens
+ * start as a returning learner. German (en-de) is preselected
+ * (PLT-024, TELC-001), and A1 is the preselected start level (PLT-025); "Start learning" opens
  * its first A1 lesson (PLT-007). This helper then
  * goes back to Learn and ends on `/` with the Learn heading visible.
  */

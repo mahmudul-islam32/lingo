@@ -1,0 +1,166 @@
+{
+  "id": "tb1-u31-l26-trennbar-p2",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u31",
+  "title": "Separable Verbs: Perfekt",
+  "tip": "“Ich anrufe dich” is wrong, split it in main clauses: Ich rufe dich an. Do NOT split in subordinate clauses: …, weil ich dich anrufe.",
+  "exercises": [
+    {
+      "id": "tb1-u31-l26-trennbar-p2-ex01",
+      "type": "explain",
+      "title": "Perfekt: ge zwischen Präfix und Verb",
+      "body": "Participle: prefix + ge + stem (angerufen). Inseparable (be-, ver-, er-): no ge-.\n\n*Deutsch:* Partizip: Präfix + ge + Stamm (angerufen). Untrennbar (be-, ver-, er-): kein ge-.\n\n## Pattern\n\nSubjekt + **haben/sein** + … + **Präfix-ge-Stamm**",
+      "examples": [
+        {
+          "learning": "Ich habe dich gestern angerufen.",
+          "known": "I called you yesterday."
+        },
+        {
+          "learning": "Wir sind um zehn Uhr angekommen.",
+          "known": "We arrived at ten o'clock."
+        }
+      ]
+    },
+    {
+      "id": "tb1-u31-l26-trennbar-p2-ex02",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I called you yesterday.",
+      "tiles": [
+        "gestern",
+        "dich",
+        "habe",
+        "Ich",
+        "angerufen",
+        "sind",
+        "Wir",
+        "auf"
+      ],
+      "answers": [
+        "Ich habe dich gestern angerufen."
+      ],
+      "explanation": "**Why:** an-ge-rufen.\n\n*Warum:* an-ge-rufen."
+    },
+    {
+      "id": "tb1-u31-l26-trennbar-p2-ex03",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "We arrived at ten o'clock.",
+      "tiles": [
+        "dich",
+        "sind",
+        "Wir",
+        "Uhr",
+        "zehn",
+        "8",
+        "angekommen",
+        "vom",
+        "um"
+      ],
+      "answers": [
+        "Wir sind um zehn Uhr angekommen."
+      ],
+      "explanation": "**Why:** an-ge-kommen, with sein.\n\n*Warum:* an-ge-kommen, mit sein."
+    },
+    {
+      "id": "tb1-u31-l26-trennbar-p2-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Have you done the shopping yet?",
+      "tiles": [
+        "schon",
+        "meiner",
+        "müde",
+        "Uhr",
+        "Hast",
+        "eingekauft",
+        "du"
+      ],
+      "answers": [
+        "Hast du schon eingekauft?"
+      ],
+      "explanation": "**Why:** ein-ge-kauft.\n\n*Warum:* ein-ge-kauft."
+    },
+    {
+      "id": "tb1-u31-l26-trennbar-p2-ex05",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I've lost my phone.",
+      "tiles": [
+        "Ich",
+        "die",
+        "Handy",
+        "bitte",
+        "habe",
+        "mein",
+        "jeden",
+        "verloren"
+      ],
+      "answers": [
+        "Ich habe mein Handy verloren."
+      ],
+      "explanation": "**Why:** ver- is inseparable → no ge-.\n\n*Warum:* ver- ist untrennbar → kein ge-."
+    },
+    {
+      "id": "tb1-u31-l26-trennbar-p2-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "She passed the exam.",
+      "tiles": [
+        "Wir",
+        "Ich",
+        "bestanden",
+        "Sie",
+        "die",
+        "verloren",
+        "hat",
+        "Prüfung"
+      ],
+      "answers": [
+        "Sie hat die Prüfung bestanden."
+      ],
+      "explanation": "**Why:** be- is inseparable → bestanden.\n\n*Warum:* be- ist untrennbar → bestanden."
+    },
+    {
+      "id": "tb1-u31-l26-trennbar-p2-ex07",
+      "type": "choice",
+      "title": "Fill the gap",
+      "prompt": "Kannst du bitte die Milch ___? (mitbringen)",
+      "options": [
+        {
+          "id": "a",
+          "text": "mitgebracht"
+        },
+        {
+          "id": "b",
+          "text": "bringen mit"
+        },
+        {
+          "id": "c",
+          "text": "mitbringen"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Nach Modalverb: Infinitiv zusammen am Ende → mitbringen."
+    },
+    {
+      "id": "tb1-u31-l26-trennbar-p2-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Word order: put all the words in the correct order.",
+      "tiles": [
+        "acht",
+        "um",
+        "Ich",
+        "hole",
+        "dich",
+        "ab",
+        "Uhr"
+      ],
+      "answers": [
+        "Ich hole dich um acht Uhr ab"
+      ],
+      "explanation": "Trennbares Verb: Präfix ans Ende: Ich hole dich … ab."
+    }
+  ]
+}

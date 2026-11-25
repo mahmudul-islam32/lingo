@@ -1,0 +1,341 @@
+{
+  "id": "tb1-u31-l20-reflexiv-p1",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u31",
+  "title": "Reflexive Verbs: Reflexiv mit Akkusativ & Reflexiv mit Dativ",
+  "tip": "“Ich freue auf deine Antwort”, the mich is missing! The most important closing line is: Ich freue mich auf deine Antwort.",
+  "exercises": [
+    {
+      "id": "tb1-u31-l20-reflexiv-p1-ex01",
+      "type": "explain",
+      "title": "Reflexiv mit Akkusativ",
+      "body": "sich freuen, sich interessieren, sich beeilen …: mich, dich, sich, uns, euch, sich.\n\n*Deutsch:* sich freuen, sich interessieren, sich beeilen … : mich, dich, sich, uns, euch, sich.\n\n## Pattern\n\nSubjekt + **Verb** + **mich/dich/sich** + …",
+      "examples": [
+        {
+          "learning": "Ich freue mich auf das Wochenende.",
+          "known": "I'm looking forward to the weekend."
+        },
+        {
+          "learning": "Interessierst du dich für Sport?",
+          "known": "Are you interested in sport?"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u31-l20-reflexiv-p1-ex02",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I'm looking forward to the weekend.",
+      "tiles": [
+        "für",
+        "freue",
+        "auf",
+        "Beeil",
+        "Ich",
+        "Wochenende",
+        "das",
+        "mich",
+        "diese"
+      ],
+      "answers": [
+        "Ich freue mich auf das Wochenende."
+      ],
+      "explanation": "**Why:** ich → mich.\n\n*Warum:* ich → mich."
+    },
+    {
+      "id": "tb1-u31-l20-reflexiv-p1-ex03",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Are you interested in sport?",
+      "tiles": [
+        "Regel",
+        "Sport",
+        "für",
+        "Musik",
+        "Interessierst",
+        "dich",
+        "hat",
+        "du"
+      ],
+      "answers": [
+        "Interessierst du dich für Sport?"
+      ],
+      "explanation": "**Why:** du → dich.\n\n*Warum:* du → dich."
+    },
+    {
+      "id": "tb1-u31-l20-reflexiv-p1-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "We have to hurry.",
+      "tiles": [
+        "neues",
+        "beeilen",
+        "Deutschkurs",
+        "angemeldet",
+        "uns",
+        "müssen",
+        "Wir"
+      ],
+      "answers": [
+        "Wir müssen uns beeilen."
+      ],
+      "explanation": "**Why:** With a modal: uns before the infinitive.\n\n*Warum:* Mit Modalverb: uns vor dem Infinitiv."
+    },
+    {
+      "id": "tb1-u31-l20-reflexiv-p1-ex05",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "He registered for the course.",
+      "tiles": [
+        "hat",
+        "den",
+        "ein",
+        "Kurs",
+        "angemeldet",
+        "Er",
+        "uns",
+        "du",
+        "sich",
+        "für"
+      ],
+      "answers": [
+        "Er hat sich für den Kurs angemeldet."
+      ],
+      "explanation": "**Why:** Perfect: sich right after hat.\n\n*Warum:* Perfekt: sich direkt nach hat."
+    },
+    {
+      "id": "tb1-u31-l20-reflexiv-p1-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Please sit down!",
+      "tiles": [
+        "mich",
+        "bitte",
+        "müssen",
+        "Setzen",
+        "sich",
+        "die",
+        "Sie"
+      ],
+      "answers": [
+        "Setzen Sie sich bitte!"
+      ],
+      "explanation": "**Why:** Sie form → sich.\n\n*Warum:* Sie-Form → sich."
+    },
+    {
+      "id": "tb1-u31-l20-reflexiv-p1-ex07",
+      "type": "explain",
+      "title": "Reflexiv mit Dativ",
+      "body": "If there's also an accusative object, the reflexive pronoun becomes dative: mir, dir.\n\n*Deutsch:* Gibt es noch ein Akkusativ-Objekt, wird das Reflexivpronomen Dativ: mir, dir.\n\n## Pattern\n\nSubjekt + **Verb** + **mir/dir/sich** + Akk.-Objekt",
+      "examples": [
+        {
+          "learning": "Ich wasche mir die Hände.",
+          "known": "I wash my hands."
+        },
+        {
+          "learning": "Kannst du dir das vorstellen?",
+          "known": "Can you imagine that?"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u31-l20-reflexiv-p1-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I wash my hands.",
+      "tiles": [
+        "Interessierst",
+        "Er",
+        "putzt",
+        "die",
+        "Ich",
+        "Hände",
+        "mir",
+        "wasche"
+      ],
+      "answers": [
+        "Ich wasche mir die Hände."
+      ],
+      "explanation": "**Why:** die Hände = accusative → mir (dative).\n\n*Warum:* die Hände = Akkusativ → mir (Dativ)."
+    },
+    {
+      "id": "tb1-u31-l20-reflexiv-p1-ex09",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Can you imagine that?",
+      "tiles": [
+        "vorstellen",
+        "Er",
+        "angemeldet",
+        "dir",
+        "du",
+        "zu",
+        "das",
+        "Kannst"
+      ],
+      "answers": [
+        "Kannst du dir das vorstellen?"
+      ],
+      "explanation": "**Why:** sich etwas vorstellen → dir.\n\n*Warum:* sich etwas vorstellen → dir."
+    },
+    {
+      "id": "tb1-u31-l20-reflexiv-p1-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I'm buying myself a new phone.",
+      "tiles": [
+        "ein",
+        "mir",
+        "den",
+        "Merk",
+        "du",
+        "neues",
+        "Handy",
+        "kaufe",
+        "Ich"
+      ],
+      "answers": [
+        "Ich kaufe mir ein neues Handy."
+      ],
+      "explanation": "**Why:** for myself → mir.\n\n*Warum:* für mich selbst → mir."
+    },
+    {
+      "id": "tb1-u31-l20-reflexiv-p1-ex11",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "He brushes his teeth.",
+      "tiles": [
+        "Zähne",
+        "sich",
+        "putzt",
+        "Beeil",
+        "die",
+        "interessiere",
+        "über",
+        "Er"
+      ],
+      "answers": [
+        "Er putzt sich die Zähne."
+      ],
+      "explanation": "**Why:** 3rd person: always sich.\n\n*Warum:* 3. Person: immer sich."
+    },
+    {
+      "id": "tb1-u31-l20-reflexiv-p1-ex12",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Remember this rule!",
+      "tiles": [
+        "Setzen",
+        "Regel",
+        "die",
+        "zu",
+        "diese",
+        "dir",
+        "Merk"
+      ],
+      "answers": [
+        "Merk dir diese Regel!"
+      ],
+      "explanation": "**Why:** sich etwas merken → dir.\n\n*Warum:* sich etwas merken → dir."
+    },
+    {
+      "id": "tb1-u31-l20-reflexiv-p1-ex13",
+      "type": "choice",
+      "title": "Fill the gap",
+      "prompt": "Wir müssen ___ beeilen, der Zug fährt gleich!",
+      "options": [
+        {
+          "id": "a",
+          "text": "euch"
+        },
+        {
+          "id": "b",
+          "text": "uns"
+        },
+        {
+          "id": "c",
+          "text": "sich"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "wir → uns: Wir beeilen uns."
+    },
+    {
+      "id": "tb1-u31-l20-reflexiv-p1-ex14",
+      "type": "choice",
+      "title": "Fill the gap",
+      "prompt": "Habt ihr ___ schon für den Kurs angemeldet?",
+      "options": [
+        {
+          "id": "a",
+          "text": "sich"
+        },
+        {
+          "id": "b",
+          "text": "euch"
+        },
+        {
+          "id": "c",
+          "text": "ihr"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "ihr → euch: Habt ihr euch angemeldet?"
+    },
+    {
+      "id": "tb1-u31-l20-reflexiv-p1-ex15",
+      "type": "choice",
+      "title": "Find the mistake",
+      "prompt": "Which word is wrong? „Ich freue mir auf deine Antwort.“",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ich"
+        },
+        {
+          "id": "b",
+          "text": "freue"
+        },
+        {
+          "id": "c",
+          "text": "mir"
+        },
+        {
+          "id": "d",
+          "text": "auf"
+        },
+        {
+          "id": "e",
+          "text": "deine"
+        },
+        {
+          "id": "f",
+          "text": "Antwort"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "„mir“ → „mich“: **Ich freue mich auf deine Antwort.**\n\nsich freuen + Akkusativ: Ich freue mich auf …"
+    },
+    {
+      "id": "tb1-u31-l20-reflexiv-p1-ex16",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Correct the sentence: „Ich freue mir auf deine Antwort.“",
+      "tiles": [
+        "Antwort",
+        "bitte",
+        "das",
+        "auf",
+        "freue",
+        "mir",
+        "Ich",
+        "deine",
+        "mich"
+      ],
+      "answers": [
+        "Ich freue mich auf deine Antwort."
+      ],
+      "explanation": "sich freuen + Akkusativ: Ich freue mich auf …"
+    }
+  ]
+}

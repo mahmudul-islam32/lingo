@@ -1,0 +1,244 @@
+{
+  "id": "tb1-u29-l14-presentations-talks-3",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u29",
+  "title": "Presentations & Talks 3",
+  "tip": "Theme: Redemittel: Präsentation & Vortrag (B1)",
+  "exercises": [
+    {
+      "id": "tb1-u29-l14-presentations-talks-3-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "Habt ihr noch Fragen?",
+          "known": "Do you have any questions?"
+        },
+        {
+          "id": "p2",
+          "learning": "Vielen Dank fürs Zuhören!",
+          "known": "Thank you for listening!"
+        },
+        {
+          "id": "p3",
+          "learning": "Zuerst spreche ich über …, danach über …",
+          "known": "First I'll talk about …, then about …"
+        },
+        {
+          "id": "p4",
+          "learning": "Ich beginne mit …",
+          "known": "I'll start with …"
+        },
+        {
+          "id": "p5",
+          "learning": "Danach komme ich zu …",
+          "known": "After that I'll come to …"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u29-l14-presentations-talks-3-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which phrase means „The most important thing for me is that …“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Das Wichtigste für mich ist, dass …"
+        },
+        {
+          "id": "b",
+          "text": "Bei uns ist das ganz ähnlich."
+        },
+        {
+          "id": "c",
+          "text": "Zuerst spreche ich über …, danach über …"
+        },
+        {
+          "id": "d",
+          "text": "Ich möchte euch kurz etwas über … erzählen."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Das Wichtigste für mich ist, dass …** = The most important thing for me is that …\n\n*Example:* Das Wichtigste für mich ist, dass meine Kinder gesund sind.\nThe most important thing for me is that my children are healthy."
+    },
+    {
+      "id": "tb1-u29-l14-presentations-talks-3-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which phrase means „That brings me to the end of my presentation.“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Das Wichtigste für mich ist, dass …"
+        },
+        {
+          "id": "b",
+          "text": "Vielen Dank fürs Zuhören!"
+        },
+        {
+          "id": "c",
+          "text": "Ich beginne mit …"
+        },
+        {
+          "id": "d",
+          "text": "Damit bin ich am Ende meiner Präsentation."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**Damit bin ich am Ende meiner Präsentation.** = That brings me to the end of my presentation.\n\n*Example:* Das war mein letzter Punkt. Damit bin ich am Ende meiner Präsentation.\nThat was my last point. That brings me to the end of my presentation."
+    },
+    {
+      "id": "tb1-u29-l14-presentations-talks-3-ex04",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u29-l14-presentations-talks-3-1.mp3"
+      },
+      "tiles": [
+        "Das",
+        "Wichtigste",
+        "dass",
+        "Damit",
+        "meine",
+        "Kinder",
+        "möchte",
+        "für",
+        "mich",
+        "über",
+        "gesund",
+        "ist",
+        "sind"
+      ],
+      "answers": [
+        "Das Wichtigste für mich ist, dass meine Kinder gesund sind."
+      ],
+      "explanation": "Das Wichtigste für mich ist, dass meine Kinder gesund sind.\n*The most important thing for me is that my children are healthy.*\n\n**Das Wichtigste für mich ist, dass …** = The most important thing for me is that …"
+    },
+    {
+      "id": "tb1-u29-l14-presentations-talks-3-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which phrase means „Do you have any questions?“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "In meinem Heimatland ist es üblich, dass …"
+        },
+        {
+          "id": "b",
+          "text": "Ich möchte euch kurz etwas über … erzählen."
+        },
+        {
+          "id": "c",
+          "text": "Vielen Dank fürs Zuhören!"
+        },
+        {
+          "id": "d",
+          "text": "Habt ihr noch Fragen?"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**Habt ihr noch Fragen?** = Do you have any questions?\n\n*Example:* Das war alles zum Thema Umwelt. Habt ihr noch Fragen?\nThat's everything on the topic of the environment. Do you have any questions?"
+    },
+    {
+      "id": "tb1-u29-l14-presentations-talks-3-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Das war mein letzter Punkt. Damit bin ich am Ende meiner Präsentation.",
+      "tiles": [
+        "come",
+        "brings",
+        "last",
+        "was",
+        "to",
+        "are",
+        "That",
+        "point",
+        "That",
+        "me",
+        "end",
+        "the",
+        "my",
+        "and",
+        "my",
+        "of",
+        "presentation"
+      ],
+      "answers": [
+        "That was my last point. That brings me to the end of my presentation."
+      ],
+      "explanation": "**Damit bin ich am Ende meiner Präsentation.** = That brings me to the end of my presentation."
+    },
+    {
+      "id": "tb1-u29-l14-presentations-talks-3-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which phrase means „Thank you for listening!“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Zuerst spreche ich über …, danach über …"
+        },
+        {
+          "id": "b",
+          "text": "Ein Beispiel dafür ist …"
+        },
+        {
+          "id": "c",
+          "text": "Vielen Dank fürs Zuhören!"
+        },
+        {
+          "id": "d",
+          "text": "Habt ihr noch Fragen?"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**Vielen Dank fürs Zuhören!** = Thank you for listening!\n\n*Example:* Das war meine Präsentation. Vielen Dank fürs Zuhören!\nThat was my presentation. Thank you for listening!"
+    },
+    {
+      "id": "tb1-u29-l14-presentations-talks-3-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "That's everything on the topic of the environment. Do you have any questions?",
+      "tiles": [
+        "Umwelt",
+        "alles",
+        "Habt",
+        "noch",
+        "war",
+        "Das",
+        "Schluss",
+        "ihr",
+        "ist",
+        "möchte",
+        "Thema",
+        "Fragen",
+        "zum"
+      ],
+      "answers": [
+        "Das war alles zum Thema Umwelt. Habt ihr noch Fragen?"
+      ],
+      "explanation": "**Habt ihr noch Fragen?** = Do you have any questions?"
+    },
+    {
+      "id": "tb1-u29-l14-presentations-talks-3-ex09",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u29-l14-presentations-talks-3-4.mp3"
+      },
+      "tiles": [
+        "Zuhören",
+        "Dank",
+        "mein",
+        "Vielen",
+        "Präsentation",
+        "Das",
+        "meine",
+        "meiner",
+        "fürs",
+        "war",
+        "ich"
+      ],
+      "answers": [
+        "Das war meine Präsentation. Vielen Dank fürs Zuhören!"
+      ],
+      "explanation": "Das war meine Präsentation. Vielen Dank fürs Zuhören!\n*That was my presentation. Thank you for listening!*\n\n**Vielen Dank fürs Zuhören!** = Thank you for listening!"
+    }
+  ]
+}

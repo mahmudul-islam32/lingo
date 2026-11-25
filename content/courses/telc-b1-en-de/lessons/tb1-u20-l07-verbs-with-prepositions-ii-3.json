@@ -1,0 +1,238 @@
+{
+  "id": "tb1-u20-l07-verbs-with-prepositions-ii-3",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u20",
+  "title": "Verbs with Prepositions II 3",
+  "tip": "Theme: Verben mit Präposition II (B1)",
+  "exercises": [
+    {
+      "id": "tb1-u20-l07-verbs-with-prepositions-ii-3-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "gratulieren zu",
+          "known": "to congratulate on"
+        },
+        {
+          "id": "p2",
+          "learning": "sich verabschieden von",
+          "known": "to say goodbye to"
+        },
+        {
+          "id": "p3",
+          "learning": "sich entschuldigen bei / für",
+          "known": "to apologize to sb for sth"
+        },
+        {
+          "id": "p4",
+          "learning": "träumen von",
+          "known": "to dream of"
+        },
+        {
+          "id": "p5",
+          "learning": "sich unterhalten mit / über",
+          "known": "to talk with sb about sth"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u20-l07-verbs-with-prepositions-ii-3-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which one means „to congratulate on“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "gratulieren zu + Dat."
+        },
+        {
+          "id": "b",
+          "text": "passen zu + Dat."
+        },
+        {
+          "id": "c",
+          "text": "träumen von + Dat."
+        },
+        {
+          "id": "d",
+          "text": "berichten über + Akk."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**gratulieren zu + Dat.** = to congratulate on\n\n*Example:* Wir gratulieren dir herzlich zum Geburtstag!\nWe wish you a very happy birthday!"
+    },
+    {
+      "id": "tb1-u20-l07-verbs-with-prepositions-ii-3-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which verb means „to say goodbye to“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "sich engagieren für + Akk."
+        },
+        {
+          "id": "b",
+          "text": "sich konzentrieren auf + Akk."
+        },
+        {
+          "id": "c",
+          "text": "sich verabschieden von + Dat."
+        },
+        {
+          "id": "d",
+          "text": "sich unterhalten mit + Dat. / über + Akk."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**sich verabschieden von + Dat.** = to say goodbye to\n\n*Example:* Am letzten Arbeitstag hat sich Tom von allen Kollegen verabschiedet.\nOn his last working day Tom said goodbye to all his colleagues."
+    },
+    {
+      "id": "tb1-u20-l07-verbs-with-prepositions-ii-3-ex04",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u20-l07-verbs-with-prepositions-ii-3-1.mp3"
+      },
+      "tiles": [
+        "herzlich",
+        "dir",
+        "Wir",
+        "zum",
+        "gratulieren",
+        "der",
+        "Vater",
+        "Geburtstag",
+        "um"
+      ],
+      "answers": [
+        "Wir gratulieren dir herzlich zum Geburtstag!"
+      ],
+      "explanation": "Wir gratulieren dir herzlich zum Geburtstag!\n*We wish you a very happy birthday!*\n\n**gratulieren zu + Dat.** = to congratulate on"
+    },
+    {
+      "id": "tb1-u20-l07-verbs-with-prepositions-ii-3-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which verb means „to apologize to sb for sth“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "sich konzentrieren auf + Akk."
+        },
+        {
+          "id": "b",
+          "text": "sich unterhalten mit + Dat. / über + Akk."
+        },
+        {
+          "id": "c",
+          "text": "sich entschuldigen bei + Dat. / für + Akk."
+        },
+        {
+          "id": "d",
+          "text": "sich handeln um + Akk."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**sich entschuldigen bei + Dat. / für + Akk.** = to apologize to sb for sth\n\n*Example:* Ali hat sich bei seiner Lehrerin für die Verspätung entschuldigt.\nAli apologized to his teacher for being late."
+    },
+    {
+      "id": "tb1-u20-l07-verbs-with-prepositions-ii-3-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Am letzten Arbeitstag hat sich Tom von allen Kollegen verabschiedet.",
+      "tiles": [
+        "meeting",
+        "garden",
+        "all",
+        "colleagues",
+        "his",
+        "phone",
+        "said",
+        "to",
+        "Tom",
+        "working",
+        "On",
+        "his",
+        "goodbye",
+        "day",
+        "last"
+      ],
+      "answers": [
+        "On his last working day Tom said goodbye to all his colleagues."
+      ],
+      "explanation": "**sich verabschieden von + Dat.** = to say goodbye to"
+    },
+    {
+      "id": "tb1-u20-l07-verbs-with-prepositions-ii-3-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which one means „to dream of“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "leiden unter + Dat."
+        },
+        {
+          "id": "b",
+          "text": "träumen von + Dat."
+        },
+        {
+          "id": "c",
+          "text": "berichten über + Akk."
+        },
+        {
+          "id": "d",
+          "text": "es geht um + Akk."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**träumen von + Dat.** = to dream of\n\n*Example:* Anna träumt von einem eigenen Haus mit Garten.\nAnna dreams of having her own house with a garden."
+    },
+    {
+      "id": "tb1-u20-l07-verbs-with-prepositions-ii-3-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Ali apologized to his teacher for being late.",
+      "tiles": [
+        "Lehrerin",
+        "Stadtteil",
+        "zu",
+        "seiner",
+        "lange",
+        "sich",
+        "für",
+        "entschuldigt",
+        "Ali",
+        "hat",
+        "bei",
+        "die",
+        "Verspätung"
+      ],
+      "answers": [
+        "Ali hat sich bei seiner Lehrerin für die Verspätung entschuldigt."
+      ],
+      "explanation": "**sich entschuldigen bei + Dat. / für + Akk.** = to apologize to sb for sth"
+    },
+    {
+      "id": "tb1-u20-l07-verbs-with-prepositions-ii-3-ex09",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u20-l07-verbs-with-prepositions-ii-3-4.mp3"
+      },
+      "tiles": [
+        "einem",
+        "passt",
+        "Haus",
+        "träumt",
+        "falsche",
+        "Garten",
+        "eigenen",
+        "mit",
+        "von",
+        "Anna",
+        "Hose"
+      ],
+      "answers": [
+        "Anna träumt von einem eigenen Haus mit Garten."
+      ],
+      "explanation": "Anna träumt von einem eigenen Haus mit Garten.\n*Anna dreams of having her own house with a garden.*\n\n**träumen von + Dat.** = to dream of"
+    }
+  ]
+}

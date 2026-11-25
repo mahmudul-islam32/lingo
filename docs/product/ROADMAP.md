@@ -567,7 +567,7 @@ written after v0.6.0 starts.
 | ID | Title | Owner |
 |---|---|---|
 | LES-011 | Speak exercise (optional, skippable, never costs a heart; P2) | dev-lessons |
-| LES-012 | Sound effects (correct, incorrect, lesson complete; respects setting) | dev-lessons |
+| ~~LES-012~~ | Sound effects: **pulled forward at the owner's request** (PD-074) | dev-lessons |
 | ~~LES-013~~ | Lesson tip card: **moved to v0.5.0 as P1** (PD-050) | dev-lessons |
 | LES-016 (planned) | Play prompt audio on multiple choice and `to_known` word banks (PD-055, with the TTS pipeline) | dev-lessons |
 | FIX-005 | Lumi ember on the lesson error and audio-unavailable states (P2; any time) | dev-lessons |

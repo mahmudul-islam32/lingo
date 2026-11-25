@@ -1,0 +1,306 @@
+{
+  "id": "tb1-u31-l22-imperativ-p1",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u31",
+  "title": "The Imperative: du-Form & ihr-Form",
+  "tip": "du-imperative without -st: “Kommst du!” is wrong → Komm! And: nehmen → Nimm (not “Nehm”).",
+  "exercises": [
+    {
+      "id": "tb1-u31-l22-imperativ-p1-ex01",
+      "type": "explain",
+      "title": "du-Form",
+      "body": "Verb stem without -st and without du. e → i stays (nimm, lies).\n\n*Deutsch:* Verbstamm ohne -st und ohne du. e → i bleibt (nimm, lies).\n\n## Pattern\n\n**Verbstamm** + … (+ bitte)!",
+      "examples": [
+        {
+          "learning": "Komm bitte schnell!",
+          "known": "Please come quickly!"
+        },
+        {
+          "learning": "Nimm doch noch ein Stück Kuchen!",
+          "known": "Do have another piece of cake!"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u31-l22-imperativ-p1-ex02",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Please come quickly!",
+      "tiles": [
+        "bitte",
+        "an",
+        "Komm",
+        "→",
+        "Sie",
+        "schnell"
+      ],
+      "answers": [
+        "Komm bitte schnell!"
+      ],
+      "explanation": "**Why:** du kommst → Komm!\n\n*Warum:* du kommst → Komm!"
+    },
+    {
+      "id": "tb1-u31-l22-imperativ-p1-ex03",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Do have another piece of cake!",
+      "tiles": [
+        "Kuchen",
+        "Stück",
+        "Sie",
+        "bitte",
+        "ein",
+        "doch",
+        "Nimm",
+        "pünktlich",
+        "noch"
+      ],
+      "answers": [
+        "Nimm doch noch ein Stück Kuchen!"
+      ],
+      "explanation": "**Why:** du nimmst → Nimm! (e→i stays)\n\n*Warum:* du nimmst → Nimm! (e→i bleibt)"
+    },
+    {
+      "id": "tb1-u31-l22-imperativ-p1-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Call me tomorrow!",
+      "tiles": [
+        "Platz",
+        "vorsichtig",
+        "mich",
+        "morgen",
+        "Zimmer",
+        "an",
+        "Ruf"
+      ],
+      "answers": [
+        "Ruf mich morgen an!"
+      ],
+      "explanation": "**Why:** Separable: prefix at the end.\n\n*Warum:* Trennbar: Präfix am Ende."
+    },
+    {
+      "id": "tb1-u31-l22-imperativ-p1-ex05",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Please be quiet!",
+      "tiles": [
+        "Sei",
+        "Sie",
+        "leise",
+        "Abend",
+        "Platz",
+        "bitte"
+      ],
+      "answers": [
+        "Sei bitte leise!"
+      ],
+      "explanation": "**Why:** sein → Sei! (irregular)\n\n*Warum:* sein → Sei! (unregelmäßig)"
+    },
+    {
+      "id": "tb1-u31-l22-imperativ-p1-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Drive carefully!",
+      "tiles": [
+        "Fahr",
+        "vorsichtig",
+        "nicht",
+        "Nehmen",
+        "vorbei"
+      ],
+      "answers": [
+        "Fahr vorsichtig!"
+      ],
+      "explanation": "**Why:** du fährst → Fahr! (no umlaut)\n\n*Warum:* du fährst → Fahr! (kein Umlaut)"
+    },
+    {
+      "id": "tb1-u31-l22-imperativ-p1-ex07",
+      "type": "explain",
+      "title": "ihr-Form",
+      "body": "Normal ihr form, just without ihr.\n\n*Deutsch:* Normale ihr-Form, nur ohne ihr.\n\n## Pattern\n\n**ihr-Form** + …!",
+      "examples": [
+        {
+          "learning": "Kommt doch am Samstag vorbei!",
+          "known": "Come round on Saturday!"
+        },
+        {
+          "learning": "Seid bitte pünktlich!",
+          "known": "Please be on time!"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u31-l22-imperativ-p1-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Come round on Saturday!",
+      "tiles": [
+        "Samstag",
+        "mir",
+        "am",
+        "Kommt",
+        "doch",
+        "bitte",
+        "Räumt",
+        "vorbei"
+      ],
+      "answers": [
+        "Kommt doch am Samstag vorbei!"
+      ],
+      "explanation": "**Why:** ihr kommt → Kommt!\n\n*Warum:* ihr kommt → Kommt!"
+    },
+    {
+      "id": "tb1-u31-l22-imperativ-p1-ex09",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Please be on time!",
+      "tiles": [
+        "bitte",
+        "morgen",
+        "Seid",
+        "Sei",
+        "pünktlich",
+        "Sie"
+      ],
+      "answers": [
+        "Seid bitte pünktlich!"
+      ],
+      "explanation": "**Why:** ihr seid → Seid!\n\n*Warum:* ihr seid → Seid!"
+    },
+    {
+      "id": "tb1-u31-l22-imperativ-p1-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Do your homework!",
+      "tiles": [
+        "Hausaufgaben",
+        "am",
+        "mich",
+        "Abend",
+        "Macht",
+        "eure"
+      ],
+      "answers": [
+        "Macht eure Hausaufgaben!"
+      ],
+      "explanation": "**Why:** ihr macht → Macht!\n\n*Warum:* ihr macht → Macht!"
+    },
+    {
+      "id": "tb1-u31-l22-imperativ-p1-ex11",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Please tidy the room!",
+      "tiles": [
+        "bitte",
+        "Rufen",
+        "auf",
+        "Zimmer",
+        "herein",
+        "Räumt",
+        "das",
+        "mir"
+      ],
+      "answers": [
+        "Räumt bitte das Zimmer auf!"
+      ],
+      "explanation": "**Why:** Prefix auf at the end.\n\n*Warum:* Präfix auf am Ende."
+    },
+    {
+      "id": "tb1-u31-l22-imperativ-p1-ex12",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Don't eat so fast!",
+      "tiles": [
+        "so",
+        "schnell",
+        "Sie",
+        "Sei",
+        "vorsichtig",
+        "Esst",
+        "nicht"
+      ],
+      "answers": [
+        "Esst nicht so schnell!"
+      ],
+      "explanation": "**Why:** ihr esst → Esst!\n\n*Warum:* ihr esst → Esst!"
+    },
+    {
+      "id": "tb1-u31-l22-imperativ-p1-ex13",
+      "type": "choice",
+      "title": "Fill the gap",
+      "prompt": "ihr-Form von „kommen“: „___ bitte pünktlich!“",
+      "options": [
+        {
+          "id": "a",
+          "text": "Kommt"
+        },
+        {
+          "id": "b",
+          "text": "Kommen"
+        },
+        {
+          "id": "c",
+          "text": "Komm ihr"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "ihr-Imperativ = ihr-Form ohne Pronomen: Kommt!"
+    },
+    {
+      "id": "tb1-u31-l22-imperativ-p1-ex14",
+      "type": "choice",
+      "title": "Find the mistake",
+      "prompt": "Which word is wrong? „Nehm bitte noch ein Stück Kuchen!“",
+      "options": [
+        {
+          "id": "a",
+          "text": "Nehm"
+        },
+        {
+          "id": "b",
+          "text": "bitte"
+        },
+        {
+          "id": "c",
+          "text": "noch"
+        },
+        {
+          "id": "d",
+          "text": "ein"
+        },
+        {
+          "id": "e",
+          "text": "Stück"
+        },
+        {
+          "id": "f",
+          "text": "Kuchen"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "„Nehm“ → „Nimm“: **Nimm bitte noch ein Stück Kuchen!**\n\nnehmen ist unregelmäßig: du-Imperativ = Nimm!"
+    },
+    {
+      "id": "tb1-u31-l22-imperativ-p1-ex15",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Correct the sentence: „Nehm bitte noch ein Stück Kuchen!“",
+      "tiles": [
+        "Nimm",
+        "ein",
+        "bitte",
+        "Sie",
+        "Kuchen",
+        "noch",
+        "Stück",
+        "das",
+        "Nehm"
+      ],
+      "answers": [
+        "Nimm bitte noch ein Stück Kuchen!"
+      ],
+      "explanation": "nehmen ist unregelmäßig: du-Imperativ = Nimm!"
+    }
+  ]
+}

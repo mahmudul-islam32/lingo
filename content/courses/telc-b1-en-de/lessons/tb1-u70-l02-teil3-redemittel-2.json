@@ -1,0 +1,275 @@
+{
+  "id": "tb1-u70-l02-teil3-redemittel-2",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u70",
+  "title": "Teil 3 · Redemittel 2: Ablehnen und Alternative anbieten, Aufgaben verteilen, Zum Ergebnis kommen",
+  "exercises": [
+    {
+      "id": "tb1-u70-l02-teil3-redemittel-2-ex01",
+      "type": "explain",
+      "title": "Redemittel Teil 3: Ablehnen und Alternative anbieten",
+      "body": "- **Es tut mir leid, aber da kann ich dir nicht zustimmen. Besser wäre es, wenn …**: Sorry, but I can't agree with you there. It would be better if …\n- **Das finde ich nicht so gut. Ich habe eine andere Idee: …**: I don't think that's so good. I have another idea: …\n- **Als Kompromiss schlage ich vor, dass …**: As a compromise I suggest that …",
+      "examples": [
+        {
+          "learning": "Es tut mir leid, aber da kann ich dir nicht zustimmen. Besser wäre es, wenn …",
+          "known": "Sorry, but I can't agree with you there. It would be better if …"
+        },
+        {
+          "learning": "Das finde ich nicht so gut. Ich habe eine andere Idee: …",
+          "known": "I don't think that's so good. I have another idea: …"
+        },
+        {
+          "learning": "Als Kompromiss schlage ich vor, dass …",
+          "known": "As a compromise I suggest that …"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u70-l02-teil3-redemittel-2-ex02",
+      "type": "explain",
+      "title": "Redemittel Teil 3: Aufgaben verteilen",
+      "body": "- **Ich kümmere mich um … Kümmerst du dich um …?**: I'll take care of … Will you take care of …?\n- **Übernimmst du …? Dann mache ich …**: Will you take on …? Then I'll do …\n- **Wer macht was? Ich könnte …**: Who does what? I could …",
+      "examples": [
+        {
+          "learning": "Ich kümmere mich um … Kümmerst du dich um …?",
+          "known": "I'll take care of … Will you take care of …?"
+        },
+        {
+          "learning": "Übernimmst du …? Dann mache ich …",
+          "known": "Will you take on …? Then I'll do …"
+        },
+        {
+          "learning": "Wer macht was? Ich könnte …",
+          "known": "Who does what? I could …"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u70-l02-teil3-redemittel-2-ex03",
+      "type": "explain",
+      "title": "Redemittel Teil 3: Zum Ergebnis kommen",
+      "body": "- **Dann halten wir also fest: …**: So let's summarise: …\n- **Sind wir uns einig?**: Are we agreed?\n- **Gut, dann machen wir es so.**: Good, then let's do it that way.\n- **Wir haben also beschlossen, dass …**: So we've decided that …",
+      "examples": [
+        {
+          "learning": "Dann halten wir also fest: …",
+          "known": "So let's summarise: …"
+        },
+        {
+          "learning": "Sind wir uns einig?",
+          "known": "Are we agreed?"
+        },
+        {
+          "learning": "Gut, dann machen wir es so.",
+          "known": "Good, then let's do it that way."
+        },
+        {
+          "learning": "Wir haben also beschlossen, dass …",
+          "known": "So we've decided that …"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u70-l02-teil3-redemittel-2-ex04",
+      "type": "choice",
+      "title": "Ablehnen und Alternative anbieten",
+      "prompt": "Welcher Satz passt zur Funktion „Ablehnen und Alternative anbieten“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Es tut mir leid, aber da kann ich dir nicht zustimmen. Besser wäre es, wenn …"
+        },
+        {
+          "id": "b",
+          "text": "Nach ihrer/seiner Meinung sollte man …"
+        },
+        {
+          "id": "c",
+          "text": "Bei uns zu Hause ist das ganz anders: …"
+        },
+        {
+          "id": "d",
+          "text": "Von Beruf bin ich … / Ich arbeite als …"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Phrases for **Ablehnen und Alternative anbieten**:\n\n- Es tut mir leid, aber da kann ich dir nicht zustimmen. Besser wäre es, wenn … (Sorry, but I can't agree with you there. It would be better if …)\n- Das finde ich nicht so gut. Ich habe eine andere Idee: … (I don't think that's so good. I have another idea: …)\n- Als Kompromiss schlage ich vor, dass … (As a compromise I suggest that …)"
+    },
+    {
+      "id": "tb1-u70-l02-teil3-redemittel-2-ex05",
+      "type": "choice",
+      "title": "Aufgaben verteilen",
+      "prompt": "Welcher Satz passt zur Funktion „Aufgaben verteilen“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "In meiner Freizeit … ich gern."
+        },
+        {
+          "id": "b",
+          "text": "Übernimmst du …? Dann mache ich …"
+        },
+        {
+          "id": "c",
+          "text": "Nach ihrer/seiner Meinung sollte man …"
+        },
+        {
+          "id": "d",
+          "text": "Von Beruf bin ich … / Ich arbeite als …"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Phrases for **Aufgaben verteilen**:\n\n- Ich kümmere mich um … Kümmerst du dich um …? (I'll take care of … Will you take care of …?)\n- Übernimmst du …? Dann mache ich … (Will you take on …? Then I'll do …)\n- Wer macht was? Ich könnte … (Who does what? I could …)"
+    },
+    {
+      "id": "tb1-u70-l02-teil3-redemittel-2-ex06",
+      "type": "choice",
+      "title": "Zum Ergebnis kommen",
+      "prompt": "Welcher Satz passt zur Funktion „Zum Ergebnis kommen“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ich heiße … / Mein Name ist …"
+        },
+        {
+          "id": "b",
+          "text": "Bei mir war es so: …"
+        },
+        {
+          "id": "c",
+          "text": "Sie/Er ist der Meinung, dass …"
+        },
+        {
+          "id": "d",
+          "text": "Sind wir uns einig?"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Phrases for **Zum Ergebnis kommen**:\n\n- Dann halten wir also fest: … (So let's summarise: …)\n- Sind wir uns einig? (Are we agreed?)\n- Gut, dann machen wir es so. (Good, then let's do it that way.)\n- Wir haben also beschlossen, dass … (So we've decided that …)"
+    },
+    {
+      "id": "tb1-u70-l02-teil3-redemittel-2-ex07",
+      "type": "choice",
+      "prompt": "Which phrase means: “Yes, that's a good idea.”?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ich komme aus … und wohne jetzt in …"
+        },
+        {
+          "id": "b",
+          "text": "Bei mir war es so: …"
+        },
+        {
+          "id": "c",
+          "text": "Von Beruf bin ich … / Ich arbeite als …"
+        },
+        {
+          "id": "d",
+          "text": "Ja, das ist eine gute Idee."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**Ja, das ist eine gute Idee.**: Yes, that's a good idea. (Zustimmen)"
+    },
+    {
+      "id": "tb1-u70-l02-teil3-redemittel-2-ex08",
+      "type": "choice",
+      "prompt": "Which phrase means: “I like that. But we mustn't forget that …”?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Sie/Er ist der Meinung, dass …"
+        },
+        {
+          "id": "b",
+          "text": "Das gefällt mir. Wir dürfen aber nicht vergessen, dass …"
+        },
+        {
+          "id": "c",
+          "text": "Ich komme aus … und wohne jetzt in …"
+        },
+        {
+          "id": "d",
+          "text": "Sie/Er sagt außerdem, dass …"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Das gefällt mir. Wir dürfen aber nicht vergessen, dass …**: I like that. But we mustn't forget that … (Zustimmen)"
+    },
+    {
+      "id": "tb1-u70-l02-teil3-redemittel-2-ex09",
+      "type": "choice",
+      "prompt": "Which phrase means: “I agree with that. Could we also …?”?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Bei uns zu Hause ist das ganz anders: …"
+        },
+        {
+          "id": "b",
+          "text": "Ich heiße … / Mein Name ist …"
+        },
+        {
+          "id": "c",
+          "text": "Damit bin ich einverstanden. Könnten wir dazu auch noch …?"
+        },
+        {
+          "id": "d",
+          "text": "Ich habe damit selbst Erfahrung gemacht. Als ich …"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**Damit bin ich einverstanden. Könnten wir dazu auch noch …?**: I agree with that. Could we also …? (Zustimmen)"
+    },
+    {
+      "id": "tb1-u70-l02-teil3-redemittel-2-ex10",
+      "type": "choice",
+      "prompt": "Which phrase means: “You're right, let's do it that way.”?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Sie/Er findet, dass …"
+        },
+        {
+          "id": "b",
+          "text": "Du hast recht, so machen wir es."
+        },
+        {
+          "id": "c",
+          "text": "Nach ihrer/seiner Meinung sollte man …"
+        },
+        {
+          "id": "d",
+          "text": "Auf meiner Karte spricht … über das Thema …"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Du hast recht, so machen wir es.**: You're right, let's do it that way. (Zustimmen)"
+    },
+    {
+      "id": "tb1-u70-l02-teil3-redemittel-2-ex11",
+      "type": "choice",
+      "prompt": "Which phrase means: “I'm not so sure. Maybe we should rather …”?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Als Grund nennt sie/er, dass …"
+        },
+        {
+          "id": "b",
+          "text": "Ich heiße … / Mein Name ist …"
+        },
+        {
+          "id": "c",
+          "text": "Ich weiß nicht so recht. Vielleicht sollten wir eher …"
+        },
+        {
+          "id": "d",
+          "text": "In meinem Heimatland ist es üblich, dass …"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**Ich weiß nicht so recht. Vielleicht sollten wir eher …**: I'm not so sure. Maybe we should rather … (Zweifeln / einschränken)"
+    }
+  ]
+}

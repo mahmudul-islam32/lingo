@@ -1,0 +1,285 @@
+{
+  "id": "tb1-u24-l03-frequent-exam-verbs-i-3",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u24",
+  "title": "Frequent Exam Verbs I 3",
+  "tip": "Theme: Verben: Prüfungshäufig I (B1)",
+  "exercises": [
+    {
+      "id": "tb1-u24-l03-frequent-exam-verbs-i-3-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "erhalten",
+          "known": "to receive"
+        },
+        {
+          "id": "p2",
+          "learning": "erfahren",
+          "known": "to find out / learn"
+        },
+        {
+          "id": "p3",
+          "learning": "kennenlernen",
+          "known": "to get to know"
+        },
+        {
+          "id": "p4",
+          "learning": "mitnehmen",
+          "known": "to take along"
+        },
+        {
+          "id": "p5",
+          "learning": "organisieren",
+          "known": "to organize"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u24-l03-frequent-exam-verbs-i-3-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which one means „to receive“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "erhalten (erhält)"
+        },
+        {
+          "id": "b",
+          "text": "zuschicken"
+        },
+        {
+          "id": "c",
+          "text": "passieren"
+        },
+        {
+          "id": "d",
+          "text": "entwickeln"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**erhalten (erhält)** = to receive\n\n*Example:* Maria hat gestern einen Brief vom Jobcenter erhalten.\nMaria received a letter from the job centre yesterday."
+    },
+    {
+      "id": "tb1-u24-l03-frequent-exam-verbs-i-3-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which one means „to find out / learn“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "überprüfen"
+        },
+        {
+          "id": "b",
+          "text": "versuchen"
+        },
+        {
+          "id": "c",
+          "text": "organisieren"
+        },
+        {
+          "id": "d",
+          "text": "erfahren (erfährt)"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**erfahren (erfährt)** = to find out / learn\n\n*Example:* Wann erfahre ich, ob ich die Stelle bekomme?\nWhen will I find out whether I get the job?"
+    },
+    {
+      "id": "tb1-u24-l03-frequent-exam-verbs-i-3-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Maria hat gestern einen Brief vom Jobcenter erhalten.",
+      "tiles": [
+        "the",
+        "Maria",
+        "job",
+        "from",
+        "a",
+        "You",
+        "centre",
+        "landlord",
+        "received",
+        "yesterday",
+        "is",
+        "letter"
+      ],
+      "answers": [
+        "Maria received a letter from the job centre yesterday."
+      ],
+      "explanation": "**erhalten (erhält)** = to receive"
+    },
+    {
+      "id": "tb1-u24-l03-frequent-exam-verbs-i-3-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which one means „to get to know“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "zusammenfassen"
+        },
+        {
+          "id": "b",
+          "text": "vorbeikommen"
+        },
+        {
+          "id": "c",
+          "text": "kennenlernen"
+        },
+        {
+          "id": "d",
+          "text": "erzählen"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**kennenlernen** = to get to know\n\n*Example:* Im Deutschkurs habe ich viele nette Leute kennengelernt.\nI got to know a lot of nice people in the German course."
+    },
+    {
+      "id": "tb1-u24-l03-frequent-exam-verbs-i-3-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "When will I find out whether I get the job?",
+      "tiles": [
+        "Yılmaz",
+        "bekomme",
+        "erfahre",
+        "ich",
+        "sieht",
+        "Stelle",
+        "ob",
+        "Arbeit",
+        "Wann",
+        "die",
+        "ich"
+      ],
+      "answers": [
+        "Wann erfahre ich, ob ich die Stelle bekomme?"
+      ],
+      "explanation": "**erfahren (erfährt)** = to find out / learn"
+    },
+    {
+      "id": "tb1-u24-l03-frequent-exam-verbs-i-3-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which one means „to take along“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "erhalten (erhält)"
+        },
+        {
+          "id": "b",
+          "text": "mitnehmen (nimmt mit)"
+        },
+        {
+          "id": "c",
+          "text": "waschen (wäscht)"
+        },
+        {
+          "id": "d",
+          "text": "erläutern"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**mitnehmen (nimmt mit)** = to take along\n\n*Example:* Nimm bitte einen Regenschirm mit, es regnet gleich.\nPlease take an umbrella with you, it's about to rain."
+    },
+    {
+      "id": "tb1-u24-l03-frequent-exam-verbs-i-3-ex08",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u24-l03-frequent-exam-verbs-i-3-3.mp3"
+      },
+      "tiles": [
+        "viele",
+        "habe",
+        "Im",
+        "ich",
+        "nette",
+        "Leute",
+        "ein",
+        "ist",
+        "kennengelernt",
+        "den",
+        "Deutschkurs"
+      ],
+      "answers": [
+        "Im Deutschkurs habe ich viele nette Leute kennengelernt."
+      ],
+      "explanation": "Im Deutschkurs habe ich viele nette Leute kennengelernt.\n*I got to know a lot of nice people in the German course.*\n\n**kennenlernen** = to get to know"
+    },
+    {
+      "id": "tb1-u24-l03-frequent-exam-verbs-i-3-ex09",
+      "type": "multiple_choice",
+      "prompt": "Which one means „to organize“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "tauschen"
+        },
+        {
+          "id": "b",
+          "text": "versuchen"
+        },
+        {
+          "id": "c",
+          "text": "erfahren (erfährt)"
+        },
+        {
+          "id": "d",
+          "text": "organisieren"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**organisieren** = to organize\n\n*Example:* Meine Nachbarin organisiert ein Sommerfest für das ganze Haus.\nMy neighbour is organizing a summer party for the whole building."
+    },
+    {
+      "id": "tb1-u24-l03-frequent-exam-verbs-i-3-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Nimm bitte einen Regenschirm mit, es regnet gleich.",
+      "tiles": [
+        "summer",
+        "Please",
+        "you",
+        "always",
+        "it's",
+        "to",
+        "about",
+        "rain",
+        "with",
+        "take",
+        "describe",
+        "an",
+        "umbrella"
+      ],
+      "answers": [
+        "Please take an umbrella with you, it's about to rain."
+      ],
+      "explanation": "**mitnehmen (nimmt mit)** = to take along"
+    },
+    {
+      "id": "tb1-u24-l03-frequent-exam-verbs-i-3-ex11",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "My neighbour is organizing a summer party for the whole building.",
+      "tiles": [
+        "Sommerfest",
+        "ganze",
+        "für",
+        "ein",
+        "mir",
+        "nächste",
+        "Haus",
+        "das",
+        "Meine",
+        "Nachbarin",
+        "organisiert",
+        "Olivenöl"
+      ],
+      "answers": [
+        "Meine Nachbarin organisiert ein Sommerfest für das ganze Haus."
+      ],
+      "explanation": "**organisieren** = to organize"
+    }
+  ]
+}

@@ -1,0 +1,225 @@
+{
+  "id": "tb1-u48-l08-d8-adjective-endings-the-four-questions",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u48",
+  "title": "Adjective endings: the four questions (Adjektivendungen: vier Fragen)",
+  "tip": "Gap type: Adjektivendungen (adjective endings).",
+  "exercises": [
+    {
+      "id": "tb1-u48-l08-d8-adjective-endings-the-four-questions-ex01",
+      "type": "explain",
+      "title": "Adjective endings: the four questions",
+      "body": "**Ask question 1 first, it is the cheapest:** is the adjective after *sein, werden, bleiben*, or used as an adverb? → **no ending at all**. (Übungstest 1, item 24: „Die Arbeit war sehr ___“ → **anstrengend**.)\n**Question 2:** is there a der-word before it? → weak: **-e** in nominative singular (and accusative fem./neut.), **-en** everywhere else.\n**Question 3:** is there an ein-word before it? → like the der-word pattern, **but** where „ein“ does not show the gender, the adjective does: ein rot**es** Kleid, ein groß**er** Mann, einen heiß**en** Tee.\n**Question 4:** no article at all? → the adjective takes the der-word ending: bei gut**em** Wetter, klein**e** Kinder, mit frisch**er** Milch.\n\n**Bonus trap, weak masculine nouns:** der Kollege, der Kunde, der Student, der Herr, der Junge, der Nachbar, der Name, der Praktikant take **-(e)n in every case except nominative singular**.\n\n## Auf Deutsch: Adjektivendungen: vier Fragen\n\n**Frage 1 zuerst, sie ist die billigste:** Steht das Adjektiv nach *sein, werden, bleiben* oder wird es als Adverb benutzt? → **gar keine Endung**. (Übungstest 1, Item 24: „Die Arbeit war sehr ___“ → **anstrengend**.)\n**Frage 2:** Steht ein der-Wort davor (der, die, das, diese, jede, welche)? → schwach: **-e** im Nominativ Singular (und Akkusativ fem./neutr.), sonst überall **-en**.\n**Frage 3:** Steht ein ein-Wort davor (ein, kein, mein …)? → wie beim der-Wort, **aber** wo „ein“ das Genus nicht zeigt, zeigt es das Adjektiv: ein rot**es** Kleid, ein groß**er** Mann, einen heiß**en** Tee.\n**Frage 4:** Gar kein Artikel? → das Adjektiv übernimmt die Endung des der-Worts: bei gut**em** Wetter, klein**e** Kinder, mit frisch**er** Milch.\n\n**Zusatzfalle n-Deklination:** der Kollege, der Kunde, der Student, der Herr, der Junge, der Nachbar, der Name, der Praktikant bekommen **-(e)n in jedem Kasus außer Nominativ Singular**: mit dem Kolleg**en**, für den Student**en**."
+    },
+    {
+      "id": "tb1-u48-l08-d8-adjective-endings-the-four-questions-ex02",
+      "type": "choice",
+      "prompt": "Wir haben eine ___ Wohnung gefunden.",
+      "options": [
+        {
+          "id": "a",
+          "text": "schönes"
+        },
+        {
+          "id": "b",
+          "text": "schöne"
+        },
+        {
+          "id": "c",
+          "text": "schönen"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Answer: schöne** · Adjektivendungen (adjective endings)\n\nein-word, accusative feminine → -e.\n\n*Auf Deutsch:* ein-Wort, Akkusativ feminin → -e."
+    },
+    {
+      "id": "tb1-u48-l08-d8-adjective-endings-the-four-questions-ex03",
+      "type": "choice",
+      "prompt": "Der ___ Mantel gehört meinem Bruder.",
+      "options": [
+        {
+          "id": "a",
+          "text": "schwarze"
+        },
+        {
+          "id": "b",
+          "text": "schwarzen"
+        },
+        {
+          "id": "c",
+          "text": "schwarzer"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Answer: schwarze** · Adjektivendungen (adjective endings)\n\nder-word, nominative singular → -e.\n\n*Auf Deutsch:* der-Wort, Nominativ Singular → -e."
+    },
+    {
+      "id": "tb1-u48-l08-d8-adjective-endings-the-four-questions-ex04",
+      "type": "choice",
+      "prompt": "Ich hätte gern einen ___ Tee.",
+      "options": [
+        {
+          "id": "a",
+          "text": "heißer"
+        },
+        {
+          "id": "b",
+          "text": "heißes"
+        },
+        {
+          "id": "c",
+          "text": "heißen"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**Answer: heißen** · Adjektivendungen (adjective endings)\n\nein-word, accusative masculine → -en.\n\n*Auf Deutsch:* ein-Wort, Akkusativ maskulin → -en."
+    },
+    {
+      "id": "tb1-u48-l08-d8-adjective-endings-the-four-questions-ex05",
+      "type": "choice",
+      "prompt": "Bei ___ Wetter fahren wir an den See.",
+      "options": [
+        {
+          "id": "a",
+          "text": "gutem"
+        },
+        {
+          "id": "b",
+          "text": "guten"
+        },
+        {
+          "id": "c",
+          "text": "gutes"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Answer: gutem** · Adjektivendungen (adjective endings)\n\nNo article + dative neuter (bei) → the adjective takes the article's ending: -em.\n\n*Auf Deutsch:* Kein Artikel + Dativ neutrum (bei) → das Adjektiv übernimmt die Artikelendung: -em."
+    },
+    {
+      "id": "tb1-u48-l08-d8-adjective-endings-the-four-questions-ex06",
+      "type": "choice",
+      "prompt": "Das ist das Auto meiner ___ Eltern.",
+      "options": [
+        {
+          "id": "a",
+          "text": "alte"
+        },
+        {
+          "id": "b",
+          "text": "alten"
+        },
+        {
+          "id": "c",
+          "text": "alter"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Answer: alten** · Adjektivendungen (adjective endings)\n\nGenitive plural after „meiner“ → -en.\n\n*Auf Deutsch:* Genitiv Plural nach „meiner“ → -en."
+    },
+    {
+      "id": "tb1-u48-l08-d8-adjective-endings-the-four-questions-ex07",
+      "type": "choice",
+      "prompt": "Sie trägt heute ein ___ Kleid.",
+      "options": [
+        {
+          "id": "a",
+          "text": "rote"
+        },
+        {
+          "id": "b",
+          "text": "roten"
+        },
+        {
+          "id": "c",
+          "text": "rotes"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**Answer: rotes** · Adjektivendungen (adjective endings)\n\n„ein“ shows no gender for „das Kleid“ → the adjective shows it: -es.\n\n*Auf Deutsch:* „ein“ zeigt bei „das Kleid“ kein Genus → das Adjektiv zeigt es: -es."
+    },
+    {
+      "id": "tb1-u48-l08-d8-adjective-endings-the-four-questions-ex08",
+      "type": "choice",
+      "prompt": "Die Suppe schmeckt wirklich ___ .",
+      "options": [
+        {
+          "id": "a",
+          "text": "gut"
+        },
+        {
+          "id": "b",
+          "text": "gute"
+        },
+        {
+          "id": "c",
+          "text": "guten"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Answer: gut** · Adjektivendungen (adjective endings)\n\nAdverbial/predicative use → NO ending at all. Exactly the item-24 rule.\n\n*Auf Deutsch:* Adverbial bzw. prädikativ → GAR keine Endung. Genau die Regel aus Item 24."
+    },
+    {
+      "id": "tb1-u48-l08-d8-adjective-endings-the-four-questions-ex09",
+      "type": "choice",
+      "prompt": "Am ___ Samstag besuchen wir Oma.",
+      "options": [
+        {
+          "id": "a",
+          "text": "nächste"
+        },
+        {
+          "id": "b",
+          "text": "nächsten"
+        },
+        {
+          "id": "c",
+          "text": "nächstem"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Answer: nächsten** · Adjektivendungen (adjective endings)\n\n„am“ = an dem (der-word), dative → -en.\n\n*Auf Deutsch:* „am“ = an dem (der-Wort), Dativ → -en."
+    },
+    {
+      "id": "tb1-u48-l08-d8-adjective-endings-the-four-questions-ex10",
+      "type": "choice",
+      "prompt": "Er ist mit dem ___ Zug gefahren.",
+      "options": [
+        {
+          "id": "a",
+          "text": "ersten"
+        },
+        {
+          "id": "b",
+          "text": "erste"
+        },
+        {
+          "id": "c",
+          "text": "erster"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Answer: ersten** · Adjektivendungen (adjective endings)\n\nder-word, dative masculine → -en.\n\n*Auf Deutsch:* der-Wort, Dativ maskulin → -en."
+    },
+    {
+      "id": "tb1-u48-l08-d8-adjective-endings-the-four-questions-ex11",
+      "type": "choice",
+      "prompt": "___ Kinder bekommen eine Ermäßigung.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Kleinen"
+        },
+        {
+          "id": "b",
+          "text": "Kleines"
+        },
+        {
+          "id": "c",
+          "text": "Kleine"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**Answer: Kleine** · Adjektivendungen (adjective endings)\n\nNo article, nominative plural (die) → -e.\n\n*Auf Deutsch:* Kein Artikel, Nominativ Plural (die) → -e."
+    }
+  ]
+}

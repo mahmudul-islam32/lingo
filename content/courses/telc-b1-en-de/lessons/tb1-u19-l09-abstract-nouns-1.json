@@ -1,0 +1,235 @@
+{
+  "id": "tb1-u19-l09-abstract-nouns-1",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u19",
+  "title": "Abstract Nouns 1",
+  "tip": "Theme: Abstrakte Nomen (B1)",
+  "exercises": [
+    {
+      "id": "tb1-u19-l09-abstract-nouns-1-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "die Gelegenheit",
+          "known": "opportunity"
+        },
+        {
+          "id": "p2",
+          "learning": "die Voraussetzung",
+          "known": "prerequisite"
+        },
+        {
+          "id": "p3",
+          "learning": "die Bedingung",
+          "known": "condition"
+        },
+        {
+          "id": "p4",
+          "learning": "die Wirkung",
+          "known": "effect"
+        },
+        {
+          "id": "p5",
+          "learning": "der Zweck",
+          "known": "purpose"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u19-l09-abstract-nouns-1-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „opportunity“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "das Ziel, die Ziele"
+        },
+        {
+          "id": "b",
+          "text": "die Gelegenheit, die Gelegenheiten"
+        },
+        {
+          "id": "c",
+          "text": "die Aufgabe, die Aufgaben"
+        },
+        {
+          "id": "d",
+          "text": "die Fähigkeit, die Fähigkeiten"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**die Gelegenheit** = opportunity\n*Plural: die Gelegenheiten*\n\n*Example:* Im Urlaub hatte ich die Gelegenheit, viel Deutsch zu sprechen.\nOn holiday I had the opportunity to speak a lot of German."
+    },
+    {
+      "id": "tb1-u19-l09-abstract-nouns-1-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „prerequisite“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Voraussetzung, die Voraussetzungen"
+        },
+        {
+          "id": "b",
+          "text": "die Bedingung, die Bedingungen"
+        },
+        {
+          "id": "c",
+          "text": "der Eindruck, die Eindrücke"
+        },
+        {
+          "id": "d",
+          "text": "der Erfolg, die Erfolge"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**die Voraussetzung** = prerequisite\n*Plural: die Voraussetzungen*\n\n*Example:* Eine Voraussetzung für die Stelle ist ein Führerschein.\nA driving licence is a prerequisite for the job."
+    },
+    {
+      "id": "tb1-u19-l09-abstract-nouns-1-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Im Urlaub hatte ich die Gelegenheit, viel Deutsch zu sprechen.",
+      "tiles": [
+        "German",
+        "speak",
+        "means",
+        "a",
+        "the",
+        "opportunity",
+        "impression",
+        "job",
+        "I",
+        "had",
+        "of",
+        "holiday",
+        "to",
+        "lot",
+        "On"
+      ],
+      "answers": [
+        "On holiday I had the opportunity to speak a lot of German."
+      ],
+      "explanation": "**die Gelegenheit** = opportunity\n*Plural: die Gelegenheiten*"
+    },
+    {
+      "id": "tb1-u19-l09-abstract-nouns-1-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „condition“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Bedeutung, die Bedeutungen"
+        },
+        {
+          "id": "b",
+          "text": "die Wirkung, die Wirkungen"
+        },
+        {
+          "id": "c",
+          "text": "das Ziel, die Ziele"
+        },
+        {
+          "id": "d",
+          "text": "die Bedingung, die Bedingungen"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**die Bedingung** = condition\n*Plural: die Bedingungen*\n\n*Example:* Unter einer Bedingung helfe ich dir: Du kochst heute.\nI'll help you on one condition: you cook today."
+    },
+    {
+      "id": "tb1-u19-l09-abstract-nouns-1-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "A driving licence is a prerequisite for the job.",
+      "tiles": [
+        "hatte",
+        "Eine",
+        "ein",
+        "Stelle",
+        "Bedeutung",
+        "Meine",
+        "für",
+        "Voraussetzung",
+        "ist",
+        "die",
+        "Führerschein"
+      ],
+      "answers": [
+        "Eine Voraussetzung für die Stelle ist ein Führerschein."
+      ],
+      "explanation": "**die Voraussetzung** = prerequisite\n*Plural: die Voraussetzungen*"
+    },
+    {
+      "id": "tb1-u19-l09-abstract-nouns-1-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „effect“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "der Zweck, die Zwecke"
+        },
+        {
+          "id": "b",
+          "text": "die Freiheit"
+        },
+        {
+          "id": "c",
+          "text": "der Erfolg, die Erfolge"
+        },
+        {
+          "id": "d",
+          "text": "die Wirkung, die Wirkungen"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**die Wirkung** = effect\n*Plural: die Wirkungen*\n\n*Example:* Die Tablette hat schnell Wirkung gezeigt.\nThe tablet took effect quickly."
+    },
+    {
+      "id": "tb1-u19-l09-abstract-nouns-1-ex08",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u19-l09-abstract-nouns-1-3.mp3"
+      },
+      "tiles": [
+        "kochst",
+        "Eine",
+        "Büro",
+        "ich",
+        "Aussprache",
+        "heute",
+        "Du",
+        "Unter",
+        "Bedingung",
+        "dir",
+        "helfe",
+        "einer"
+      ],
+      "answers": [
+        "Unter einer Bedingung helfe ich dir: Du kochst heute."
+      ],
+      "explanation": "Unter einer Bedingung helfe ich dir: Du kochst heute.\n*I'll help you on one condition: you cook today.*\n\n**die Bedingung** = condition\n*Plural: die Bedingungen*"
+    },
+    {
+      "id": "tb1-u19-l09-abstract-nouns-1-ex09",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Die Tablette hat schnell Wirkung gezeigt.",
+      "tiles": [
+        "effect",
+        "trip",
+        "his",
+        "took",
+        "tablet",
+        "The",
+        "a",
+        "quickly"
+      ],
+      "answers": [
+        "The tablet took effect quickly."
+      ],
+      "explanation": "**die Wirkung** = effect\n*Plural: die Wirkungen*"
+    }
+  ]
+}

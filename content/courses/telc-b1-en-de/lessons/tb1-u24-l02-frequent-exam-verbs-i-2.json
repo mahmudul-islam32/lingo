@@ -1,0 +1,285 @@
+{
+  "id": "tb1-u24-l02-frequent-exam-verbs-i-2",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u24",
+  "title": "Frequent Exam Verbs I 2",
+  "tip": "Theme: Verben: Prüfungshäufig I (B1)",
+  "exercises": [
+    {
+      "id": "tb1-u24-l02-frequent-exam-verbs-i-2-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "versuchen",
+          "known": "to try"
+        },
+        {
+          "id": "p2",
+          "learning": "verwenden",
+          "known": "to use"
+        },
+        {
+          "id": "p3",
+          "learning": "verbinden",
+          "known": "to connect / combine"
+        },
+        {
+          "id": "p4",
+          "learning": "übernehmen",
+          "known": "to take over / take on"
+        },
+        {
+          "id": "p5",
+          "learning": "überprüfen",
+          "known": "to check"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u24-l02-frequent-exam-verbs-i-2-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which one means „to try“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "versuchen"
+        },
+        {
+          "id": "b",
+          "text": "fliegen"
+        },
+        {
+          "id": "c",
+          "text": "verbinden"
+        },
+        {
+          "id": "d",
+          "text": "entwickeln"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**versuchen** = to try\n\n*Example:* Ali hat versucht, den Vermieter anzurufen, aber niemand war da.\nAli tried to call the landlord, but nobody was there."
+    },
+    {
+      "id": "tb1-u24-l02-frequent-exam-verbs-i-2-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which one means „to use“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "übernehmen (übernimmt)"
+        },
+        {
+          "id": "b",
+          "text": "aufräumen"
+        },
+        {
+          "id": "c",
+          "text": "anbieten (bietet an)"
+        },
+        {
+          "id": "d",
+          "text": "verwenden"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**verwenden** = to use\n\n*Example:* Ich verwende zum Kochen meistens Olivenöl.\nI mostly use olive oil for cooking."
+    },
+    {
+      "id": "tb1-u24-l02-frequent-exam-verbs-i-2-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Ali tried to call the landlord, but nobody was there.",
+      "tiles": [
+        "Sie",
+        "hat",
+        "Ali",
+        "Vermieter",
+        "den",
+        "versucht",
+        "niemand",
+        "war",
+        "da",
+        "aber",
+        "bitte",
+        "anzurufen",
+        "weil"
+      ],
+      "answers": [
+        "Ali hat versucht, den Vermieter anzurufen, aber niemand war da."
+      ],
+      "explanation": "**versuchen** = to try"
+    },
+    {
+      "id": "tb1-u24-l02-frequent-exam-verbs-i-2-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which one means „to connect / combine“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "überlegen"
+        },
+        {
+          "id": "b",
+          "text": "verbinden"
+        },
+        {
+          "id": "c",
+          "text": "tauschen"
+        },
+        {
+          "id": "d",
+          "text": "verwenden"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**verbinden** = to connect / combine\n\n*Example:* Hast du den Drucker schon mit dem Laptop verbunden?\nHave you already connected the printer to the laptop?"
+    },
+    {
+      "id": "tb1-u24-l02-frequent-exam-verbs-i-2-ex06",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u24-l02-frequent-exam-verbs-i-2-2.mp3"
+      },
+      "tiles": [
+        "meistens",
+        "Olivenöl",
+        "Text",
+        "Kochen",
+        "Problem",
+        "verwende",
+        "zum",
+        "Ich",
+        "Am"
+      ],
+      "answers": [
+        "Ich verwende zum Kochen meistens Olivenöl."
+      ],
+      "explanation": "Ich verwende zum Kochen meistens Olivenöl.\n*I mostly use olive oil for cooking.*\n\n**verwenden** = to use"
+    },
+    {
+      "id": "tb1-u24-l02-frequent-exam-verbs-i-2-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which one means „to take over / take on“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "schneiden"
+        },
+        {
+          "id": "b",
+          "text": "versuchen"
+        },
+        {
+          "id": "c",
+          "text": "erfahren (erfährt)"
+        },
+        {
+          "id": "d",
+          "text": "übernehmen (übernimmt)"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**übernehmen (übernimmt)** = to take over / take on\n\n*Example:* Meine Kollegin übernimmt nächste Woche meine Arbeit, weil ich Urlaub habe.\nMy colleague is taking over my work next week because I'm on holiday."
+    },
+    {
+      "id": "tb1-u24-l02-frequent-exam-verbs-i-2-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Hast du den Drucker schon mit dem Laptop verbunden?",
+      "tiles": [
+        "Have",
+        "the",
+        "up",
+        "to",
+        "printer",
+        "connected",
+        "boss",
+        "you",
+        "with",
+        "the",
+        "already",
+        "laptop"
+      ],
+      "answers": [
+        "Have you already connected the printer to the laptop?"
+      ],
+      "explanation": "**verbinden** = to connect / combine"
+    },
+    {
+      "id": "tb1-u24-l02-frequent-exam-verbs-i-2-ex09",
+      "type": "multiple_choice",
+      "prompt": "Which one means „to check“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "anbieten (bietet an)"
+        },
+        {
+          "id": "b",
+          "text": "tragen (trägt)"
+        },
+        {
+          "id": "c",
+          "text": "überprüfen"
+        },
+        {
+          "id": "d",
+          "text": "zusammenfassen"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**überprüfen** = to check\n\n*Example:* Bitte überprüfen Sie Ihre Adresse noch einmal.\nPlease check your address again."
+    },
+    {
+      "id": "tb1-u24-l02-frequent-exam-verbs-i-2-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "My colleague is taking over my work next week because I'm on holiday.",
+      "tiles": [
+        "App",
+        "nächste",
+        "übernimmt",
+        "den",
+        "Urlaub",
+        "ich",
+        "Meine",
+        "Kollegin",
+        "habe",
+        "Arbeit",
+        "Woche",
+        "Kannst",
+        "weil",
+        "meine"
+      ],
+      "answers": [
+        "Meine Kollegin übernimmt nächste Woche meine Arbeit, weil ich Urlaub habe."
+      ],
+      "explanation": "**übernehmen (übernimmt)** = to take over / take on"
+    },
+    {
+      "id": "tb1-u24-l02-frequent-exam-verbs-i-2-ex11",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u24-l02-frequent-exam-verbs-i-2-5.mp3"
+      },
+      "tiles": [
+        "überprüfen",
+        "noch",
+        "einmal",
+        "Ihre",
+        "Sie",
+        "Bitte",
+        "rauchen",
+        "wäscht",
+        "hell",
+        "Adresse"
+      ],
+      "answers": [
+        "Bitte überprüfen Sie Ihre Adresse noch einmal."
+      ],
+      "explanation": "Bitte überprüfen Sie Ihre Adresse noch einmal.\n*Please check your address again.*\n\n**überprüfen** = to check"
+    }
+  ]
+}

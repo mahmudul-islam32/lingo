@@ -1,0 +1,310 @@
+{
+  "id": "tb1-u31-l08-futur-p1",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u31",
+  "title": "Futur I: werden + Infinitive: Futur für Pläne & Versprechen & Futur als Vermutung",
+  "tip": "“Ich werde gehen morgen”, the infinitive goes last: Ich werde morgen gehen.",
+  "exercises": [
+    {
+      "id": "tb1-u31-l08-futur-p1-ex01",
+      "type": "explain",
+      "title": "Futur für Pläne & Versprechen",
+      "body": "werden + infinitive at the end – sounds firm and committed.\n\n*Deutsch:* werden + Infinitiv am Ende – klingt fest und verbindlich.\n\n## Pattern\n\nSubjekt + **werden** (Pos. 2) + … + **Infinitiv**",
+      "examples": [
+        {
+          "learning": "Ich werde dich morgen anrufen.",
+          "known": "I will call you tomorrow."
+        },
+        {
+          "learning": "Nächstes Jahr werden wir nach Kanada fliegen.",
+          "known": "Next year we'll fly to Canada."
+        }
+      ]
+    },
+    {
+      "id": "tb1-u31-l08-futur-p1-ex02",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I will call you tomorrow.",
+      "tiles": [
+        "werde",
+        "sein",
+        "dich",
+        "Ich",
+        "anrufen",
+        "morgen",
+        "Jahr",
+        "nächste"
+      ],
+      "answers": [
+        "Ich werde dich morgen anrufen."
+      ],
+      "explanation": "**Why:** Promise: werde … anrufen.\n\n*Warum:* Versprechen: werde … anrufen."
+    },
+    {
+      "id": "tb1-u31-l08-futur-p1-ex03",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Next year we'll fly to Canada.",
+      "tiles": [
+        "werden",
+        "Nächstes",
+        "Jahr",
+        "Sport",
+        "dich",
+        "fliegen",
+        "wir",
+        "Kanada",
+        "nach",
+        "sein"
+      ],
+      "answers": [
+        "Nächstes Jahr werden wir nach Kanada fliegen."
+      ],
+      "explanation": "**Why:** Inversion: Nächstes Jahr – werden – wir.\n\n*Warum:* Inversion: Nächstes Jahr – werden – wir."
+    },
+    {
+      "id": "tb1-u31-l08-futur-p1-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Don't worry, I'll be on time.",
+      "tiles": [
+        "Sorge",
+        "wohl",
+        "pünktlich",
+        "abholen",
+        "Keine",
+        "Wirst",
+        "werde",
+        "ich",
+        "sein"
+      ],
+      "answers": [
+        "Keine Sorge, ich werde pünktlich sein."
+      ],
+      "explanation": "**Why:** Firm intention.\n\n*Warum:* Fester Vorsatz."
+    },
+    {
+      "id": "tb1-u31-l08-futur-p1-ex05",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Will you come to my party?",
+      "tiles": [
+        "Sorge",
+        "Wirst",
+        "zu",
+        "du",
+        "Party",
+        "wohl",
+        "kommen",
+        "meiner",
+        "studieren"
+      ],
+      "answers": [
+        "Wirst du zu meiner Party kommen?"
+      ],
+      "explanation": "**Why:** du → wirst.\n\n*Warum:* du → wirst."
+    },
+    {
+      "id": "tb1-u31-l08-futur-p1-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I'm going to do more sport.",
+      "tiles": [
+        "mehr",
+        "Nächstes",
+        "machen",
+        "Wirst",
+        "werde",
+        "Party",
+        "Sport",
+        "Ich"
+      ],
+      "answers": [
+        "Ich werde mehr Sport machen."
+      ],
+      "explanation": "**Why:** Typical resolution.\n\n*Warum:* Typischer Vorsatz."
+    },
+    {
+      "id": "tb1-u31-l08-futur-p1-ex07",
+      "type": "explain",
+      "title": "Futur als Vermutung",
+      "body": "werden (+ wohl/sicher) = I assume so, I'm not sure.\n\n*Deutsch:* werden (+ wohl/sicher) = ich vermute es, ich bin nicht sicher.\n\n## Pattern\n\nSubjekt + **wird** + wohl + … + **Infinitiv**",
+      "examples": [
+        {
+          "learning": "Er wird wohl krank sein.",
+          "known": "He's probably ill."
+        },
+        {
+          "learning": "Das wird sicher teuer sein.",
+          "known": "That will surely be expensive."
+        }
+      ]
+    },
+    {
+      "id": "tb1-u31-l08-futur-p1-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "He's probably ill.",
+      "tiles": [
+        "zu",
+        "Sorge",
+        "wohl",
+        "sein",
+        "werde",
+        "Er",
+        "krank",
+        "wird"
+      ],
+      "answers": [
+        "Er wird wohl krank sein."
+      ],
+      "explanation": "**Why:** Assumption, not future.\n\n*Warum:* Vermutung, keine Zukunft."
+    },
+    {
+      "id": "tb1-u31-l08-futur-p1-ex09",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "That will surely be expensive.",
+      "tiles": [
+        "wird",
+        "sein",
+        "machen",
+        "sicher",
+        "Kanada",
+        "wohl",
+        "teuer",
+        "Das"
+      ],
+      "answers": [
+        "Das wird sicher teuer sein."
+      ],
+      "explanation": "**Why:** sicher = fairly convinced.\n\n*Warum:* sicher = ziemlich überzeugt."
+    },
+    {
+      "id": "tb1-u31-l08-futur-p1-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "She'll be at home by now.",
+      "tiles": [
+        "Hause",
+        "schon",
+        "zu",
+        "sein",
+        "wird",
+        "jetzt",
+        "Woche",
+        "teuer",
+        "Sie",
+        "Das"
+      ],
+      "answers": [
+        "Sie wird jetzt schon zu Hause sein."
+      ],
+      "explanation": "**Why:** Assumption about the present.\n\n*Warum:* Vermutung über die Gegenwart."
+    },
+    {
+      "id": "tb1-u31-l08-futur-p1-ex11",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "The bus will come any minute.",
+      "tiles": [
+        "Hause",
+        "werde",
+        "Der",
+        "wird",
+        "Bus",
+        "kommen",
+        "meiner",
+        "gleich"
+      ],
+      "answers": [
+        "Der Bus wird gleich kommen."
+      ],
+      "explanation": "**Why:** Expectation.\n\n*Warum:* Erwartung."
+    },
+    {
+      "id": "tb1-u31-l08-futur-p1-ex12",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "It will probably rain tomorrow.",
+      "tiles": [
+        "regnen",
+        "Morgen",
+        "Jahr",
+        "wahrscheinlich",
+        "es",
+        "wird",
+        "Kanada",
+        "Er"
+      ],
+      "answers": [
+        "Morgen wird es wahrscheinlich regnen."
+      ],
+      "explanation": "**Why:** Prediction with wahrscheinlich.\n\n*Warum:* Vorhersage mit wahrscheinlich."
+    },
+    {
+      "id": "tb1-u31-l08-futur-p1-ex13",
+      "type": "choice",
+      "title": "Fill the gap",
+      "prompt": "„Er ist nicht da.“. Vermutung: „Er ___ wohl im Stau stehen.“",
+      "options": [
+        {
+          "id": "a",
+          "text": "soll"
+        },
+        {
+          "id": "b",
+          "text": "wird"
+        },
+        {
+          "id": "c",
+          "text": "möchte"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "werden + wohl = Vermutung: Er wird wohl … stehen."
+    },
+    {
+      "id": "tb1-u31-l08-futur-p1-ex14",
+      "type": "choice",
+      "title": "Choose the right answer",
+      "prompt": "Was ist richtig?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ich werde dich anrufen morgen."
+        },
+        {
+          "id": "b",
+          "text": "Ich werde morgen dich anrufen."
+        },
+        {
+          "id": "c",
+          "text": "Ich werde dich morgen anrufen."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Infinitiv ganz am Ende; Pronomen früh: Ich werde dich morgen anrufen."
+    },
+    {
+      "id": "tb1-u31-l08-futur-p1-ex15",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Word order: put all the words in the correct order.",
+      "tiles": [
+        "Nächstes",
+        "werde",
+        "ich",
+        "besuchen",
+        "einen",
+        "Kurs",
+        "Jahr"
+      ],
+      "answers": [
+        "Nächstes Jahr werde ich einen Kurs besuchen"
+      ],
+      "explanation": "Futur: werden Position 2, Infinitiv am Ende: … werde ich … besuchen."
+    }
+  ]
+}

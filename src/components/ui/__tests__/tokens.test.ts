@@ -229,11 +229,12 @@ describe("feedback colours are not brand colours", () => {
 });
 
 describe("fonts", () => {
-  it("exposes display and body families backed by next/font variables", () => {
+  it("uses the telc app's system font stacks (TELC-002)", () => {
     const fonts = vars(block("@theme inline"), "font");
-    expect(fonts.display).toContain("var(--font-bricolage)");
-    expect(fonts.body).toContain("var(--font-dm-sans)");
-    expect(fonts.sans).toContain("var(--font-dm-sans)");
+    expect(fonts.display).toContain("-apple-system");
+    expect(fonts.body).toContain('"SF Pro Text"');
+    expect(fonts.sans).toContain('"SF Pro Text"');
+    expect(fonts.num).toContain('"SF Pro Rounded"');
   });
 });
 

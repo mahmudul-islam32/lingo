@@ -1,0 +1,867 @@
+{
+  "id": "eb-u14-l02-probetest-1",
+  "courseId": "einbuergerung-en-de",
+  "unitId": "eb-u14",
+  "title": "Mock test 1 (Probetest 1)",
+  "tip": "Real format: 30 general + 3 Niedersachsen questions. Allow 60 minutes; 17 correct to pass, aim for 28+.",
+  "exercises": [
+    {
+      "id": "eb-u14-l02-probetest-1-ex01",
+      "type": "choice",
+      "title": "Frage 12 · Block 1",
+      "prompt": "Eine Partei im Deutschen Bundestag will die Pressefreiheit abschaffen. Ist das möglich?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ja, wenn mehr als die Hälfte der Abgeordneten dafür stimmen"
+        },
+        {
+          "id": "b",
+          "text": "Ja, aber dazu müssen zwei Drittel der Abgeordneten dafür stimmen"
+        },
+        {
+          "id": "c",
+          "text": "Nein, denn die Pressefreiheit ist ein Grundrecht, das nicht abgeschafft werden kann"
+        },
+        {
+          "id": "d",
+          "text": "Nein, denn nur der Bundesrat kann die Pressefreiheit abschaffen"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**Correct answer:** Nein, denn die Pressefreiheit ist ein Grundrecht, das nicht abgeschafft werden kann\n\nThis tests the **Ewigkeitsklausel** (eternity clause, Art. 79(3) GG): the core of Art. 1 and Art. 20, dignity, democracy, Rechtsstaat, federalism, and the essence of fundamental rights like press freedom, can never be abolished, *not even by unanimous vote*. The Weimar Republic died partly because its constitution could be hollowed out legally; the Grundgesetz was built to make that impossible.\n\nA is how ordinary laws pass; B is how normal constitutional amendments pass (2/3 in Bundestag AND Bundesrat), but the eternity clause is beyond even that; D misunderstands the Bundesrat, which amends nothing alone. **This concept, wehrhafte Demokratie, a democracy that defends itself, is central to your Loyalitätserklärung interview.**\n\n## Auf Deutsch\n\nGrundrechte wie die Pressefreiheit kann kein Parlament abschaffen (Ewigkeitsklausel)."
+    },
+    {
+      "id": "eb-u14-l02-probetest-1-ex02",
+      "type": "choice",
+      "title": "Frage 23 · Block 1",
+      "prompt": "In Deutschland sind die meisten Erwerbstätigen …",
+      "options": [
+        {
+          "id": "a",
+          "text": "in kleinen Familienunternehmen beschäftigt"
+        },
+        {
+          "id": "b",
+          "text": "ehrenamtlich für ein Bundesland tätig"
+        },
+        {
+          "id": "c",
+          "text": "selbstständig mit einer eigenen Firma tätig"
+        },
+        {
+          "id": "d",
+          "text": "bei einer Firma oder Behörde beschäftigt"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**Correct answer:** bei einer Firma oder Behörde beschäftigt\n\n~90% of Germany's workforce are **Arbeitnehmer**, employees of companies or public authorities. This fact anchors the whole social-insurance system (→Q97–100): contributions are deducted from employee wages.\n\nSelf-employment (C) covers only ~8–9%; family micro-businesses (A) are a small subset; **Ehrenamt** (B) is unpaid volunteering, by definition not employment (→Q132).\n\n## Auf Deutsch\n\nDie meisten Erwerbstätigen sind Angestellte bei einer Firma oder Behörde."
+    },
+    {
+      "id": "eb-u14-l02-probetest-1-ex03",
+      "type": "choice",
+      "title": "Frage 32 · Block 2",
+      "prompt": "Was ist keine staatliche Gewalt in Deutschland?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Gesetzgebung"
+        },
+        {
+          "id": "b",
+          "text": "Regierung"
+        },
+        {
+          "id": "c",
+          "text": "Presse"
+        },
+        {
+          "id": "d",
+          "text": "Rechtsprechung"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**Correct answer:** Presse\n\nThe three **Staatsgewalten** are Gesetzgebung (legislative), vollziehende Gewalt/Regierung (executive), Rechtsprechung (judiciary). The **press is deliberately not state power**, it must stay independent *of* the state to control it. Calling it the \"fourth estate\" is a metaphor, not law.\n\nA, B, D are the textbook three. →Q54 asks the same with Latin labels; free double point.\n\n## Auf Deutsch\n\nDie drei Staatsgewalten sind Legislative, Exekutive, Judikative, die Presse gehört nicht dazu."
+    },
+    {
+      "id": "eb-u14-l02-probetest-1-ex04",
+      "type": "choice",
+      "title": "Frage 40 · Block 2",
+      "prompt": "Mit welchen Worten beginnt die deutsche Nationalhymne?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Völker, hört die Signale …"
+        },
+        {
+          "id": "b",
+          "text": "Einigkeit und Recht und Freiheit …"
+        },
+        {
+          "id": "c",
+          "text": "Freude schöner Götterfunken …"
+        },
+        {
+          "id": "d",
+          "text": "Deutschland einig Vaterland …"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Correct answer:** Einigkeit und Recht und Freiheit …\n\nOnly the **third stanza** of Hoffmann von Fallersleben's Deutschlandlied is the anthem: *\"Einigkeit und Recht und Freiheit für das deutsche Vaterland\"*, unity, justice/law, freedom: constitutional values as anthem.\n\nA is the socialist *Internationale*; C is Schiller/Beethoven's *Ode an die Freude* (the EU anthem!); D quotes the DDR anthem (*Auferstanden aus Ruinen*). Four anthems, four systems, a stealth history question.\n\n## Auf Deutsch\n\nDie Nationalhymne beginnt: „Einigkeit und Recht und Freiheit“."
+    },
+    {
+      "id": "eb-u14-l02-probetest-1-ex05",
+      "type": "choice",
+      "title": "Frage 44 · Block 2",
+      "prompt": "Wen kann man als Bürger/Bürgerin in Deutschland nicht direkt wählen?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Abgeordnete des EU-Parlaments"
+        },
+        {
+          "id": "b",
+          "text": "den Bundespräsidenten/die Bundespräsidentin"
+        },
+        {
+          "id": "c",
+          "text": "Landtagsabgeordnete"
+        },
+        {
+          "id": "d",
+          "text": "Bundestagsabgeordnete"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Correct answer:** den Bundespräsidenten/die Bundespräsidentin\n\nCitizens directly elect parliaments at every level. EU, Bund, Land, Kommune. They do **not** directly elect the head of state: the **Bundespräsident** is chosen by the **Bundesversammlung** (→Q86). Nor, note, the Chancellor, elected by the Bundestag (→Q81). Germany's lesson from Weimar: no directly-elected strongman offices.\n\n## Auf Deutsch\n\nDen Bundespräsidenten wählt die Bundesversammlung, nicht das Volk direkt."
+    },
+    {
+      "id": "eb-u14-l02-probetest-1-ex06",
+      "type": "choice",
+      "title": "Frage 46 · Block 2",
+      "prompt": "Welche Aufgabe gehört zu den Aufgaben des deutschen Staates?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Er baut Straßen und Schulen"
+        },
+        {
+          "id": "b",
+          "text": "Er verkauft Lebensmittel und Kleidung"
+        },
+        {
+          "id": "c",
+          "text": "Er versorgt alle Einwohner und Einwohnerinnen kostenlos mit Zeitungen"
+        },
+        {
+          "id": "d",
+          "text": "Er produziert Autos und Busse"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Correct answer:** Er baut Straßen und Schulen\n\nInfrastructure and education are core public tasks (**Daseinsvorsorge**).\n\nSelling food/clothes and building cars belong to the market, the state sets rules but doesn't run shops or factories (that was the DDR's Planwirtschaft →Q203). Free state newspapers would collide with press independence (→Q32): the state doesn't make the news it's checked by.\n\n## Auf Deutsch\n\nStraßen und Schulen bauen ist eine klassische Aufgabe des Staates."
+    },
+    {
+      "id": "eb-u14-l02-probetest-1-ex07",
+      "type": "choice",
+      "title": "Frage 48 · Block 2",
+      "prompt": "Welches Organ gehört nicht zu den Verfassungsorganen Deutschlands?",
+      "options": [
+        {
+          "id": "a",
+          "text": "der Bundesrat"
+        },
+        {
+          "id": "b",
+          "text": "der Bundespräsident/die Bundespräsidentin"
+        },
+        {
+          "id": "c",
+          "text": "die Bürgerversammlung"
+        },
+        {
+          "id": "d",
+          "text": "die Regierung"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**Correct answer:** die Bürgerversammlung\n\n\"Bürgerversammlung\" (citizens' assembly) sounds democratic but is no federal constitutional organ, at most a local information meeting.\n\n## Auf Deutsch\n\nEine „Bürgerversammlung“ ist kein Verfassungsorgan; Bundestag, Bundesrat, Bundespräsident und Regierung schon."
+    },
+    {
+      "id": "eb-u14-l02-probetest-1-ex08",
+      "type": "choice",
+      "title": "Frage 66 · Block 3",
+      "prompt": "Welche Städte haben die größten jüdischen Gemeinden in Deutschland?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Berlin und München"
+        },
+        {
+          "id": "b",
+          "text": "Hamburg und Essen"
+        },
+        {
+          "id": "c",
+          "text": "Nürnberg und Stuttgart"
+        },
+        {
+          "id": "d",
+          "text": "Worms und Speyer"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Correct answer:** Berlin und München\n\nToday's largest Jewish communities: **Berlin and Munich**, rebuilt after 1945, grown massively through post-1990 immigration from the former Soviet Union.\n\nD is the historical trap: Worms and Speyer (with Mainz, the medieval \"SchUM\" cities) were *medieval* centers of Jewish learning. UNESCO-listed, but small today. The question distinguishes living present from remembered past, which is precisely the point of the whole Jewish-life question block (→Q59).\n\n## Auf Deutsch\n\nDie größten jüdischen Gemeinden sind in Berlin und München."
+    },
+    {
+      "id": "eb-u14-l02-probetest-1-ex09",
+      "type": "choice",
+      "title": "Frage 85 · Block 3",
+      "prompt": "Wer bildet den deutschen Bundesrat?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Abgeordneten des Bundestages"
+        },
+        {
+          "id": "b",
+          "text": "die Minister und Ministerinnen der Bundesregierung"
+        },
+        {
+          "id": "c",
+          "text": "die Regierungsvertreter und Regierungsvertreterinnen der Bundesländer"
+        },
+        {
+          "id": "d",
+          "text": "die Parteimitglieder"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**Correct answer:** die Regierungsvertreter und Regierungsvertreterinnen der Bundesländer\n\nThe Bundesrat = **members of the 16 Land governments** (Ministerpräsidenten and Land ministers), with 3–6 votes per Land by population, cast en bloc. Nobody is elected *to* the Bundesrat, you get in by winning a *Land* election. Niedersachsen, with about 8 million people, holds the maximum 6 votes; its government speaks for its residents in Berlin.\n\nA describes the Bundestag; B the federal cabinet; D no organ at all.\n\n## Auf Deutsch\n\nIm Bundesrat sitzen Vertreter der Landesregierungen."
+    },
+    {
+      "id": "eb-u14-l02-probetest-1-ex10",
+      "type": "choice",
+      "title": "Frage 99 · Block 4",
+      "prompt": "Wer bezahlt in Deutschland die Sozialversicherungen?",
+      "options": [
+        {
+          "id": "a",
+          "text": "nur Arbeitnehmer und Arbeitnehmerinnen"
+        },
+        {
+          "id": "b",
+          "text": "Arbeitgeber und Arbeitnehmer gemeinsam"
+        },
+        {
+          "id": "c",
+          "text": "alle Staatsangehörigen"
+        },
+        {
+          "id": "d",
+          "text": "nur Arbeitgeber"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Correct answer:** Arbeitgeber und Arbeitnehmer gemeinsam\n\nContributions are split **roughly half-half between employer and employee**, the \"paritätische Finanzierung\" principle. Check any payslip: your share is deducted; the employer's share is invisible but real (it's why employing someone costs far more than the gross salary).\n\nA and D each take only one side; C confuses contributions with taxes, non-working citizens don't pay in.\n\n## Auf Deutsch\n\nDie Sozialversicherung zahlen Arbeitgeber und Arbeitnehmer gemeinsam, je zur Hälfte."
+    },
+    {
+      "id": "eb-u14-l02-probetest-1-ex11",
+      "type": "choice",
+      "title": "Frage 102 · Block 5",
+      "prompt": "Womit kann man in Deutschland für besondere Leistungen für das Gemeinwohl geehrt werden?",
+      "options": [
+        {
+          "id": "a",
+          "text": "mit dem Bundesadler"
+        },
+        {
+          "id": "b",
+          "text": "mit dem Bundesverdienstkreuz"
+        },
+        {
+          "id": "c",
+          "text": "mit dem Vaterländischen Verdienstorden"
+        },
+        {
+          "id": "d",
+          "text": "mit dem Ehrentitel „Held der Deutschen Demokratischen Republik\""
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Correct answer:** mit dem Bundesverdienstkreuz\n\nThe **Bundesverdienstkreuz** (Order of Merit). Germany's standard civilian honor, awarded by the Bundespräsident for service to the common good, from lifetime volunteering to science.\n\nThe Bundesadler is the eagle emblem (→Q21), not a medal; C and D were **DDR decorations**. East German honors abolished with the state that gave them. A quiet history lesson inside a civics question.\n\n## Auf Deutsch\n\nFür besondere Leistungen für das Gemeinwohl gibt es das Bundesverdienstkreuz."
+    },
+    {
+      "id": "eb-u14-l02-probetest-1-ex12",
+      "type": "choice",
+      "title": "Frage 123 · Block 5",
+      "prompt": "Eine Partei möchte in den Deutschen Bundestag. Sie muss aber einen Mindestanteil an Wählerstimmen bekommen. Wie nennt man das?",
+      "options": [
+        {
+          "id": "a",
+          "text": "5%-Hürde"
+        },
+        {
+          "id": "b",
+          "text": "Zweitstimme"
+        },
+        {
+          "id": "c",
+          "text": "Wahlversprechen"
+        },
+        {
+          "id": "d",
+          "text": "Koalitionsvertrag"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Correct answer:** 5%-Hürde\n\nThird pass at the threshold (→Q117 number, →Q121 definition, →Q123 name). B–D are real election vocabulary attached to the wrong definitions, the Zweitstimme is *counted against* the Hürde, a campaign promise wins votes, a coalition contract comes after.\n\n## Auf Deutsch\n\nDieser Mindestanteil heißt 5%-Hürde."
+    },
+    {
+      "id": "eb-u14-l02-probetest-1-ex13",
+      "type": "choice",
+      "title": "Frage 127 · Block 5",
+      "prompt": "Warum gibt es die 5%-Hürde im Wahlgesetz der Bundesrepublik Deutschland? Sie besteht, weil …",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Programme von vielen kleinen Parteien viele Gemeinsamkeiten haben"
+        },
+        {
+          "id": "b",
+          "text": "das Wahlergebnis dann übersichtlicher ist"
+        },
+        {
+          "id": "c",
+          "text": "viele kleine Parteien die Regierungsbildung erschweren"
+        },
+        {
+          "id": "d",
+          "text": "die kleinen Parteien nicht genug Geld für den Wahlkampf haben"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**Correct answer:** viele kleine Parteien die Regierungsbildung erschweren\n\nThe Weimar lesson: parliaments splintered into a dozen mini-parties couldn't form stable governments, instability that helped the Nazis. The Hürde trades a little representation for a lot of governability.\n\nA, B, D are irrelevant or cosmetic reasons. Pairs with →Q12 and Q20 as \"Weimar-proofing\" built into the system, a strong interview theme: *the Grundgesetz learned from Weimar's death.*\n\n## Auf Deutsch\n\nDie 5%-Hürde verhindert, dass viele Kleinstparteien das Regieren unmöglich machen."
+    },
+    {
+      "id": "eb-u14-l02-probetest-1-ex14",
+      "type": "choice",
+      "title": "Frage 136 · Block 6",
+      "prompt": "Sie gehen in Deutschland zum Arbeitsgericht bei …",
+      "options": [
+        {
+          "id": "a",
+          "text": "falscher Nebenkostenabrechnung"
+        },
+        {
+          "id": "b",
+          "text": "Problemen mit den Nachbarn"
+        },
+        {
+          "id": "c",
+          "text": "ungerechtfertigter Kündigung durch den Arbeitgeber"
+        },
+        {
+          "id": "d",
+          "text": "Streit über ein Testament"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**Correct answer:** ungerechtfertigter Kündigung durch den Arbeitgeber\n\nEmployment disputes → **Arbeitsgericht**, always: dismissals, unpaid wages, references, workplace conflicts with the boss.\n\nRent/service-charge disputes (A) and neighbor quarrels (B) → Amtsgericht (civil); inheritance (D) → Nachlassgericht. Match the *subject* to the *specialized court*, that's the whole block in one skill.\n\n## Auf Deutsch\n\nBei ungerechtfertigter Kündigung geht man zum Arbeitsgericht."
+    },
+    {
+      "id": "eb-u14-l02-probetest-1-ex15",
+      "type": "choice",
+      "title": "Frage 146 · Block 6",
+      "prompt": "Wie nennt man in Deutschland ein Verfahren vor einem Gericht?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Prozess"
+        },
+        {
+          "id": "b",
+          "text": "Diskussion"
+        },
+        {
+          "id": "c",
+          "text": "Debatte"
+        },
+        {
+          "id": "d",
+          "text": "Konferenz"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Correct answer:** Prozess\n\nVocabulary point: court proceedings = **der Prozess** (also *das Verfahren*). B–D are talk without verdicts. **DE→EN:** der Prozess = trial/lawsuit; die Verhandlung = hearing.\n\n## Auf Deutsch\n\nEin Verfahren vor Gericht nennt man Prozess.\n\n**Vocabulary (Wortschatz):** der Prozess = trial/lawsuit; die Verhandlung = hearing."
+    },
+    {
+      "id": "eb-u14-l02-probetest-1-ex16",
+      "type": "choice",
+      "title": "Frage 165 · Block 7",
+      "prompt": "Wie hieß der erste Bundeskanzler der Bundesrepublik Deutschland?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Konrad Adenauer"
+        },
+        {
+          "id": "b",
+          "text": "Kurt Georg Kiesinger"
+        },
+        {
+          "id": "c",
+          "text": "Helmut Schmidt"
+        },
+        {
+          "id": "d",
+          "text": "Willy Brandt"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Correct answer:** Konrad Adenauer\n\n**Konrad Adenauer** (CDU), Chancellor 1949–1963, elected by one vote, his own. Rhinelander, Cologne's ex-mayor (fired by the Nazis), architect of **Westbindung**: firmly anchoring the young republic in the West (NATO 1955, EEC 1957, reconciliation with France and, via the 1952 Luxembourg Agreement, reparations to Israel).\n\nAll later Chancellors. Sequence worth knowing loosely: Adenauer → Erhard → Kiesinger → Brandt → Schmidt → Kohl → Schröder → Merkel → Scholz → Merz ⏰.\n\n## Auf Deutsch\n\nDer erste Bundeskanzler war Konrad Adenauer (ab 1949)."
+    },
+    {
+      "id": "eb-u14-l02-probetest-1-ex17",
+      "type": "choice",
+      "title": "Frage 168 · Block 7",
+      "prompt": "Welches Land war keine „Alliierte Besatzungsmacht\" in Deutschland?",
+      "options": [
+        {
+          "id": "a",
+          "text": "USA"
+        },
+        {
+          "id": "b",
+          "text": "Sowjetunion"
+        },
+        {
+          "id": "c",
+          "text": "Frankreich"
+        },
+        {
+          "id": "d",
+          "text": "Japan"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**Correct answer:** Japan\n\n→Q167 inverted. **Japan** was an Axis power, occupied *itself* (by the US) after 1945. If a nicht-question lists three Allies and one Axis/neutral state, the odd one out is the answer.\n\n## Auf Deutsch\n\nJapan war KEINE Besatzungsmacht in Deutschland."
+    },
+    {
+      "id": "eb-u14-l02-probetest-1-ex18",
+      "type": "choice",
+      "title": "Frage 172 · Block 7",
+      "prompt": "In welcher Besatzungszone wurde die DDR gegründet? In der …",
+      "options": [
+        {
+          "id": "a",
+          "text": "amerikanischen Besatzungszone"
+        },
+        {
+          "id": "b",
+          "text": "französischen Besatzungszone"
+        },
+        {
+          "id": "c",
+          "text": "britischen Besatzungszone"
+        },
+        {
+          "id": "d",
+          "text": "sowjetischen Besatzungszone"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**Correct answer:** sowjetischen Besatzungszone\n\nDDR = the **Soviet zone** turned state (October 1949): east of the Elbe, capital East Berlin, one-party SED rule. West zones → BRD (→Q176). The Cold War's front line, drawn straight through Germany.\n\n## Auf Deutsch\n\nDie DDR entstand in der sowjetischen Besatzungszone."
+    },
+    {
+      "id": "eb-u14-l02-probetest-1-ex19",
+      "type": "choice",
+      "title": "Frage 181 · Block 8",
+      "prompt": "Was wollte Willy Brandt mit seinem Kniefall 1970 im ehemaligen jüdischen Ghetto in Warschau ausdrücken?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Er bat Polen und die polnischen Juden um Vergebung"
+        },
+        {
+          "id": "b",
+          "text": "Er begrüßte die polnische Regierung als neuer Verbündeter"
+        },
+        {
+          "id": "c",
+          "text": "Er zeigte seine Verbundenheit mit dem Warschauer Pakt"
+        },
+        {
+          "id": "d",
+          "text": "Er eröffnete eine Gedenkstätte"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Correct answer:** Er bat Polen und die polnischen Juden um Vergebung\n\nChancellor **Brandt knelt**, unplanned, silent, at the Warsaw Ghetto Uprising memorial: a plea for forgiveness for German crimes, from a man who had personally resisted the Nazis. It became THE image of German atonement and of **Ostpolitik** (\"Wandel durch Annäherung\", change through rapprochement; Nobel Peace Prize 1971). For your interview: the Kniefall shows that taking responsibility isn't weakness but the foundation of Germany's postwar credibility, a perfect example when asked what \"historische Verantwortung\" means to you (→Q288).\n\n## Auf Deutsch\n\nMit dem Kniefall 1970 bat Willy Brandt um Vergebung für die deutschen Verbrechen."
+    },
+    {
+      "id": "eb-u14-l02-probetest-1-ex20",
+      "type": "choice",
+      "title": "Frage 189 · Block 8",
+      "prompt": "Wann baute die DDR die Mauer in Berlin?",
+      "options": [
+        {
+          "id": "a",
+          "text": "1949"
+        },
+        {
+          "id": "b",
+          "text": "1961"
+        },
+        {
+          "id": "c",
+          "text": "1971"
+        },
+        {
+          "id": "d",
+          "text": "1989"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Correct answer:** 1961\n\n→Q188 retested with the two \"bookend\" distractors: 1949 (founding) and 1989 (fall). The Wall's arithmetic: built '61, fell '89, exactly 28 years.\n\n## Auf Deutsch\n\n1961 baute die DDR die Berliner Mauer."
+    },
+    {
+      "id": "eb-u14-l02-probetest-1-ex21",
+      "type": "choice",
+      "title": "Frage 215 · Block 10",
+      "prompt": "Wer wird als „Kanzler der Deutschen Einheit\" bezeichnet?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Helmut Kohl"
+        },
+        {
+          "id": "b",
+          "text": "Gerhard Schröder"
+        },
+        {
+          "id": "c",
+          "text": "Willy Brandt"
+        },
+        {
+          "id": "d",
+          "text": "Helmut Schmidt"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Correct answer:** Helmut Kohl\n\n**Kohl** (CDU, Chancellor 1982–1998, the longevity record) seized the 1989 moment: ten-point plan, currency union, Two-plus-Four diplomacy, unification inside a year. Also Mr. Euro: he traded the beloved D-Mark for deeper European integration (→Q240).\n\n## Auf Deutsch\n\nHelmut Kohl = „Kanzler der Deutschen Einheit“ (1990)."
+    },
+    {
+      "id": "eb-u14-l02-probetest-1-ex22",
+      "type": "choice",
+      "title": "Frage 216 · Block 10",
+      "prompt": "Welches Symbol ist im Plenarsaal des Deutschen Bundestages zu sehen?",
+      "options": [
+        {
+          "id": "a",
+          "text": "der Bundesadler"
+        },
+        {
+          "id": "b",
+          "text": "das Brandenburger Tor"
+        },
+        {
+          "id": "c",
+          "text": "die Quadriga"
+        },
+        {
+          "id": "d",
+          "text": "eine Weltkugel"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Correct answer:** der Bundesadler\n\nThe giant **Bundesadler** (\"fette Henne,\" the fat hen, as Berliners call it) hangs over the plenary chamber, the state emblem watching over the state's debates (→Q21, Q29 complete the eagle trilogy). The Brandenburger Tor and its Quadriga stand a kilometer away, real landmarks, wrong room.\n\n## Auf Deutsch\n\nIm Plenarsaal des Bundestages hängt der Bundesadler."
+    },
+    {
+      "id": "eb-u14-l02-probetest-1-ex23",
+      "type": "choice",
+      "title": "Frage 243 · Block 11",
+      "prompt": "Maik und Sybille wollen mit Freunden gegen ein neues Gesetz demonstrieren. Was müssen sie vorher tun?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Demonstration anmelden"
+        },
+        {
+          "id": "b",
+          "text": "eine Genehmigung beim Bundestag beantragen"
+        },
+        {
+          "id": "c",
+          "text": "nichts, Demonstrationen können nicht geregelt werden"
+        },
+        {
+          "id": "d",
+          "text": "die Demonstration von einem Gericht erlauben lassen"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Correct answer:** die Demonstration anmelden\n\n**Versammlungsfreiheit** (Art. 8 GG) requires only **Anmeldung** (notification, usually 48h ahead, to the Versammlungsbehörde/Polizei). NOT permission. The authority can impose conditions (route, distance) but may ban only as a last resort.\n\nB/D invent approval regimes, a demonstration *against the government* needing the government's *permission* would gut the right; C ignores that even freedoms have traffic rules. Anmeldung ≠ Erlaubnis: the distinction IS the answer, and a fine interview point.\n\n## Auf Deutsch\n\nDemonstrationen muss man vorher anmelden, dann sind sie erlaubt (Art. 8 GG)."
+    },
+    {
+      "id": "eb-u14-l02-probetest-1-ex24",
+      "type": "choice",
+      "title": "Frage 254 · Block 11",
+      "prompt": "Was bedeutet in Deutschland das „Trennungsjahr\" bei einer Ehescheidung?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Die Ehepartner müssen mindestens ein Jahr getrennt leben, bevor die Scheidung möglich ist"
+        },
+        {
+          "id": "b",
+          "text": "Ein Jahr nach der Hochzeit ist eine Scheidung möglich"
+        },
+        {
+          "id": "c",
+          "text": "Die Scheidung dauert immer genau ein Jahr"
+        },
+        {
+          "id": "d",
+          "text": "Nach jedem Ehestreit muss ein Jahr gewartet werden"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Correct answer:** Die Ehepartner müssen mindestens ein Jahr getrennt leben, bevor die Scheidung möglich ist\n\nGerman divorce is no-fault but not instant: the **Trennungsjahr** (year of living separately, separate \"Tisch und Bett,\" even possible within one flat) must precede the divorce decree, as proof the marriage has truly failed (Zerrüttungsprinzip). Then: family court + at least one lawyer (→Q275).\n\n## Auf Deutsch\n\nTrennungsjahr: mindestens ein Jahr getrennt leben, bevor die Scheidung möglich ist."
+    },
+    {
+      "id": "eb-u14-l02-probetest-1-ex25",
+      "type": "choice",
+      "title": "Frage 256 · Block 11",
+      "prompt": "Ein Ehepaar möchte in Deutschland ein Restaurant eröffnen. Was braucht es dafür unbedingt?",
+      "options": [
+        {
+          "id": "a",
+          "text": "eine Gaststättenerlaubnis"
+        },
+        {
+          "id": "b",
+          "text": "einen Meisterbrief im Kochen"
+        },
+        {
+          "id": "c",
+          "text": "die Mitgliedschaft in einer Partei"
+        },
+        {
+          "id": "d",
+          "text": "gar nichts, jeder darf sofort ein Restaurant eröffnen"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Correct answer:** eine Gaststättenerlaubnis\n\nServing food & alcohol needs the **Gaststättenerlaubnis/Gaststättenkonzession** (plus Gewerbeanmeldung, health certificates…). **Gewerbefreiheit** is the German principle, anyone may start a business, but regulated trades need their specific license.\n\nNo Meisterbrief for restaurants (that's for craft trades like electricians); party membership as business condition = DDR/NS thinking, deliberately absurd here; D ignores public-health regulation.\n\n## Auf Deutsch\n\nFür ein Restaurant braucht man eine Gaststättenerlaubnis."
+    },
+    {
+      "id": "eb-u14-l02-probetest-1-ex26",
+      "type": "choice",
+      "title": "Frage 261 · Block 11",
+      "prompt": "Herr Yilmaz (35) möchte das Abitur nachholen und danach studieren. Wo kann er das Abitur nachholen?",
+      "options": [
+        {
+          "id": "a",
+          "text": "an einem Abendgymnasium"
+        },
+        {
+          "id": "b",
+          "text": "an einer Realschule"
+        },
+        {
+          "id": "c",
+          "text": "an einer Hauptschule"
+        },
+        {
+          "id": "d",
+          "text": "an einer Grundschule"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Correct answer:** an einem Abendgymnasium\n\n→Q257 as a named-person story (BAMF loves giving its example citizens migrant names, the message: these paths are for everyone). Real/Haupt/Grundschule are stages of *first* education for children; adult catch-up = Abendgymnasium, Kolleg, or externals exam. Also real-life relevant: the VHS (→Q270) is where many start the journey.\n\n## Auf Deutsch\n\nAbitur nachholen als Erwachsener: am Abendgymnasium."
+    },
+    {
+      "id": "eb-u14-l02-probetest-1-ex27",
+      "type": "choice",
+      "title": "Frage 263 · Block 11",
+      "prompt": "Jugendliche ab 14 Jahren sind in Deutschland strafmündig. Das bedeutet: Sie …",
+      "options": [
+        {
+          "id": "a",
+          "text": "können für Straftaten vor Gericht bestraft werden"
+        },
+        {
+          "id": "b",
+          "text": "dürfen den Bundestag wählen"
+        },
+        {
+          "id": "c",
+          "text": "gelten als erwachsen"
+        },
+        {
+          "id": "d",
+          "text": "müssen die Schule verlassen"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Correct answer:** können für Straftaten vor Gericht bestraft werden\n\n**Strafmündig ab 14**: criminally responsible, but under **Jugendstrafrecht** (juvenile law: education before punishment; Jugendgericht, special sanctions). Under 14 = schuldunfähig (no criminal liability; Jugendamt handles). 18–20 = case-by-case juvenile or adult law.\n\nVoting stays 18 (→Q94), adulthood 18 (→Q246), Schulpflicht continues. 14 ≠ mini-adult; it's the age responsibility *begins*.\n\n## Auf Deutsch\n\nAb 14 ist man strafmündig, man kann vor Gericht bestraft werden."
+    },
+    {
+      "id": "eb-u14-l02-probetest-1-ex28",
+      "type": "choice",
+      "title": "Frage 275 · Block 12",
+      "prompt": "Was braucht man in Deutschland für eine Ehescheidung?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Unterstützung durch einen Rechtsanwalt/eine Rechtsanwältin"
+        },
+        {
+          "id": "b",
+          "text": "die Zustimmung der Eltern"
+        },
+        {
+          "id": "c",
+          "text": "die Erlaubnis einer Kirche"
+        },
+        {
+          "id": "d",
+          "text": "einen neuen Ehepartner/eine neue Ehepartnerin"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Correct answer:** die Unterstützung durch einen Rechtsanwalt/eine Rechtsanwältin\n\nDivorce = family-court proceeding with **Anwaltszwang** (at least the filing spouse must have a lawyer), after the Trennungsjahr (→Q254).\n\nAdults need no parental consent (→Q267); churches lost legal power over marriage in 1876 (→Q265, religious law governs no civil divorce); D is cynical comedy. State marriage, state divorce: the civil-law bracket around family life.\n\n## Auf Deutsch\n\nFür eine Scheidung braucht man einen Rechtsanwalt / eine Rechtsanwältin."
+    },
+    {
+      "id": "eb-u14-l02-probetest-1-ex29",
+      "type": "choice",
+      "title": "Frage 281 · Block 12",
+      "prompt": "Zwei Freunde mit dunkler Hautfarbe wollen in eine Diskothek/ein Schwimmbad und werden wegen ihrer Hautfarbe nicht hineingelassen. Gegen welches Recht verstößt das?",
+      "options": [
+        {
+          "id": "a",
+          "text": "gegen das Recht auf Gleichbehandlung"
+        },
+        {
+          "id": "b",
+          "text": "gegen die Versammlungsfreiheit"
+        },
+        {
+          "id": "c",
+          "text": "gegen die Freizügigkeit"
+        },
+        {
+          "id": "d",
+          "text": "gegen das Briefgeheimnis"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Correct answer:** gegen das Recht auf Gleichbehandlung\n\nRacial exclusion from publicly-offered services = **Gleichbehandlung** violated (Art. 3 GG's spirit, AGG's letter, with damages claims; courts have fined discriminating clubs).\n\nAssembly (B) covers gatherings/demos (→Q243), Freizügigkeit (C) covers choosing your residence (→Q19), Briefgeheimnis (D) covers mail (→Q274), right diagnosis, right article: the skill this block drills.\n\n## Auf Deutsch\n\nAbweisung wegen Hautfarbe verstößt gegen das Recht auf Gleichbehandlung."
+    },
+    {
+      "id": "eb-u14-l02-probetest-1-ex30",
+      "type": "choice",
+      "title": "Frage 292 · Block 12",
+      "prompt": "Die Menschen in Deutschland leben nach dem Grundsatz der religiösen Toleranz. Was bedeutet das?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Jeder kann glauben, was er möchte"
+        },
+        {
+          "id": "b",
+          "text": "Alle müssen einer Religion angehören"
+        },
+        {
+          "id": "c",
+          "text": "Man darf über Religionen nicht diskutieren"
+        },
+        {
+          "id": "d",
+          "text": "Nur die christliche Religion darf öffentlich gezeigt werden"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Correct answer:** Jeder kann glauben, was er möchte\n\n**Religiöse Toleranz** = Art. 4 GG lived out: believe, convert, or not believe, plus practice publicly: mosques, synagogues, churches, none privileged, none banned.\n\nB forces faith (violates the negative Religionsfreiheit); C, religions may absolutely be discussed *and* criticized (→Q16); D contradicts equal treatment. For your interview: you are, as a practicing or non-practicing Muslim, a *beneficiary* of Art. 4, saying so with a concrete example (prayer room, halal food, Eid at the Kita) makes the abstract personal.\n\n## Auf Deutsch\n\nReligiöse Toleranz: Jeder kann glauben, was er möchte."
+    },
+    {
+      "id": "eb-u14-l02-probetest-1-ex31",
+      "type": "choice",
+      "title": "NDS 2 · Landesfrage",
+      "prompt": "Welches ist ein Landkreis in Niedersachsen?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ammerland"
+        },
+        {
+          "id": "b",
+          "text": "Rhein-Sieg-Kreis"
+        },
+        {
+          "id": "c",
+          "text": "Nordfriesland"
+        },
+        {
+          "id": "d",
+          "text": "Vogtlandkreis"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Correct answer:** Ammerland\n\n**Ammerland**, a rural district in the northwest near Oldenburg (Kreisstadt Westerstede), known for its rhododendron parks and the Zwischenahner Meer.\n\nRhein-Sieg-Kreis = NRW (around Bonn), Nordfriesland = Schleswig-Holstein (the North Frisian coast), Vogtlandkreis = Sachsen. Technique: river and region names place districts: \"Rhein-\" points west, \"Vogtland\" to the far southeast. Trap: Niedersachsen does have a Landkreis *Friesland* (around Jever), but *Nord*friesland is Schleswig-Holstein.\n\n## Auf Deutsch\n\nDer Landkreis Ammerland (bei Oldenburg, Kreisstadt Westerstede) liegt in Niedersachsen."
+    },
+    {
+      "id": "eb-u14-l02-probetest-1-ex32",
+      "type": "choice",
+      "title": "NDS 9 · Landesfrage",
+      "prompt": "Wie nennt man die Regierungschefin/den Regierungschef in Niedersachsen?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Erste Ministerin/Erster Minister"
+        },
+        {
+          "id": "b",
+          "text": "Premierministerin/Premierminister"
+        },
+        {
+          "id": "c",
+          "text": "Bürgermeisterin/Bürgermeister"
+        },
+        {
+          "id": "d",
+          "text": "Ministerpräsidentin/Ministerpräsident"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**Correct answer:** Ministerpräsidentin/Ministerpräsident\n\nNiedersachsen is a Flächenland, so its head of government is the **Ministerpräsident(in)** (→Q37). Only the *title* is tested; the officeholder (since May 2025 Olaf Lies, SPD ⏰) can change.\n\nErster Minister / Premierminister are titles from other countries (Scotland, Wales, the UK); a Bürgermeister heads a Gemeinde (→Q131) or a city-state like Hamburg. Title follows Land type: Flächenland → Ministerpräsident, Stadtstaat → Bürgermeister.\n\n## Auf Deutsch\n\nDie Regierungschefin/der Regierungschef von Niedersachsen heißt Ministerpräsidentin/Ministerpräsident."
+    },
+    {
+      "id": "eb-u14-l02-probetest-1-ex33",
+      "type": "choice",
+      "title": "NDS 10 · Landesfrage",
+      "prompt": "Welche Ministerin/ welchen Minister hat Niedersachsen nicht?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Justizministerin/Justizminister"
+        },
+        {
+          "id": "b",
+          "text": "Außenministerin/Außenminister"
+        },
+        {
+          "id": "c",
+          "text": "Finanzministerin/Finanzminister"
+        },
+        {
+          "id": "d",
+          "text": "Innenministerin/Innenminister"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Correct answer:** Außenministerin/Außenminister\n\nNo Land has an **Außenminister**: foreign policy is federal (Art. 32 GG; →Q39's trio: foreign policy, currency, army). Niedersachsen does have ministers for justice, finance and the interior (Land police, →Q148), schools (→Q49) and more. Federalism gives the Länder real power at home, none abroad.\n\n## Auf Deutsch\n\nEinen Außenminister hat kein Bundesland. Außenpolitik macht nur der Bund."
+    }
+  ]
+}

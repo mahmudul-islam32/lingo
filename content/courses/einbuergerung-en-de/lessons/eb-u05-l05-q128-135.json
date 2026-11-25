@@ -1,0 +1,226 @@
+{
+  "id": "eb-u05-l05-q128-135",
+  "courseId": "einbuergerung-en-de",
+  "unitId": "eb-u05",
+  "title": "Questions 128–135 (Fragen 128–135)",
+  "tip": "Some of these are picture questions: look at the pictures, just like in the real test.",
+  "exercises": [
+    {
+      "id": "eb-u05-l05-q128-135-ex01",
+      "type": "choice",
+      "title": "Frage 128 · Block 5",
+      "prompt": "Parlamentsmitglieder, die von den Bürgern und Bürgerinnen gewählt werden, nennt man …",
+      "options": [
+        {
+          "id": "a",
+          "text": "Abgeordnete"
+        },
+        {
+          "id": "b",
+          "text": "Kanzler/Kanzlerinnen"
+        },
+        {
+          "id": "c",
+          "text": "Botschafter/Botschafterinnen"
+        },
+        {
+          "id": "d",
+          "text": "Ministerpräsidenten/Ministerpräsidentinnen"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Correct answer:** Abgeordnete\n\n**Abgeordnete** = MPs at any level (Bundestag, Landtag, EU). Botschafter are ambassadors (appointed diplomats); Kanzler and Ministerpräsidenten are elected by *parliaments*, not directly by citizens (→Q81, →Q37).\n\n## Auf Deutsch\n\nGewählte Parlamentsmitglieder heißen Abgeordnete."
+    },
+    {
+      "id": "eb-u05-l05-q128-135-ex02",
+      "type": "choice",
+      "title": "Frage 129 · Block 5",
+      "prompt": "Vom Volk gewählt wird in Deutschland …",
+      "options": [
+        {
+          "id": "a",
+          "text": "der Bundeskanzler/die Bundeskanzlerin"
+        },
+        {
+          "id": "b",
+          "text": "der Ministerpräsident/die Ministerpräsidentin eines Bundeslandes"
+        },
+        {
+          "id": "c",
+          "text": "der Bundestag"
+        },
+        {
+          "id": "d",
+          "text": "der Bundespräsident/die Bundespräsidentin"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**Correct answer:** der Bundestag\n\nThe cleanest summary of the whole representative system: **the people elect parliaments; parliaments elect leaders.** Chancellor ← Bundestag; Ministerpräsident ← Landtag; President ← Bundesversammlung; only the parliament itself ← you.\n\n## Auf Deutsch\n\nDirekt vom Volk gewählt wird auf Bundesebene nur der Bundestag."
+    },
+    {
+      "id": "eb-u05-l05-q128-135-ex03",
+      "type": "choice",
+      "title": "Frage 130 · Block 5",
+      "prompt": "Welcher Stimmzettel wäre bei einer Bundestagswahl gültig?",
+      "figure": {
+        "images": [
+          {
+            "src": "/images/eb/q130.jpg",
+            "alt": "Four sample Bundestag ballots, numbered 1–4, each with a left column (Erststimme) and a right column (Zweitstimme). 1: one cross left, one right. 2: none left, two right. 3: two left, none right. 4: three left, none right."
+          }
+        ],
+        "credit": "Bilder: BAMF, Gesamtfragenkatalog „Leben in Deutschland“ (Stand 07.05.2025)"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": "Stimmzettel 1"
+        },
+        {
+          "id": "b",
+          "text": "Stimmzettel 2"
+        },
+        {
+          "id": "c",
+          "text": "Stimmzettel 3"
+        },
+        {
+          "id": "d",
+          "text": "Stimmzettel 4"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Correct answer:** Stimmzettel 1\n\n*Picture question (Bildfrage):* the pictures above are the ones from the official question catalogue.\n\nCorrect: the ballot with exactly ONE cross in the left column (Erststimme) and ONE cross in the right column (Zweitstimme).\n\n**The ballots:** 1 = one cross per column (valid) · 2 = two crosses in the Zweitstimme column · 3 = two crosses in the Erststimme column · 4 = three crosses in the Erststimme column.\n\nValidity rule: one clear mark per column, no extra writing, no ambiguity. Two crosses in one column spoils that vote; slogans or signatures can spoil the whole ballot. The columns: left = your Wahlkreis candidate, right = a party's Land list (→Q93). Practice this image in the Online-Testcenter, it's instantly obvious once seen.\n\n## Auf Deutsch\n\nGültig ist der Stimmzettel mit genau EINEM Kreuz pro Spalte (Erst- und Zweitstimme)."
+    },
+    {
+      "id": "eb-u05-l05-q128-135-ex04",
+      "type": "choice",
+      "title": "Frage 131 · Block 5",
+      "prompt": "In Deutschland ist ein Bürgermeister/eine Bürgermeisterin …",
+      "options": [
+        {
+          "id": "a",
+          "text": "der Leiter/die Leiterin einer Schule"
+        },
+        {
+          "id": "b",
+          "text": "der Chef/die Chefin einer Bank"
+        },
+        {
+          "id": "c",
+          "text": "das Oberhaupt einer Gemeinde"
+        },
+        {
+          "id": "d",
+          "text": "der/die Vorsitzende einer Partei"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**Correct answer:** das Oberhaupt einer Gemeinde\n\nThe **Bürgermeister(in)** heads the Gemeinde (→Q69), in Niedersachsen directly elected by local residents. Fun fact with a wrinkle you'll enjoy: at *Kommunalwahlen*, EU citizens may already vote, but non-EU nationals like you may not; naturalization unlocks even your city hall.\n\n## Auf Deutsch\n\nDer Bürgermeister / die Bürgermeisterin ist das Oberhaupt einer Gemeinde."
+    },
+    {
+      "id": "eb-u05-l05-q128-135-ex05",
+      "type": "choice",
+      "title": "Frage 132 · Block 5",
+      "prompt": "Viele Menschen in Deutschland arbeiten in ihrer Freizeit ehrenamtlich. Was bedeutet das?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Sie arbeiten als Soldaten und Soldatinnen"
+        },
+        {
+          "id": "b",
+          "text": "Sie arbeiten freiwillig und unbezahlt in Vereinen und Verbänden"
+        },
+        {
+          "id": "c",
+          "text": "Sie arbeiten in der Bundesregierung"
+        },
+        {
+          "id": "d",
+          "text": "Sie arbeiten schwarz und zahlen keine Steuern"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Correct answer:** Sie arbeiten freiwillig und unbezahlt in Vereinen und Verbänden\n\n**Ehrenamt** = voluntary, unpaid engagement, sports-club trainers, volunteer fire brigades (most German fire protection is volunteer!), food banks, refugee help. ~30 million Germans do it; it's the social glue the state openly depends on.\n\nD, \"schwarz arbeiten\" means illegal undeclared *paid* work, the opposite of Ehrenamt's transparency. **DE→EN:** das Ehrenamt = honorary/volunteer office. Kita parent councils count too, your entry point next year.\n\n## Auf Deutsch\n\nEhrenamt = freiwillige, unbezahlte Arbeit, z. B. im Verein.\n\n**Vocabulary (Wortschatz):** das Ehrenamt = honorary/volunteer office. Kita parent councils count too, your entry point next year."
+    },
+    {
+      "id": "eb-u05-l05-q128-135-ex06",
+      "type": "choice",
+      "title": "Frage 133 · Block 5",
+      "prompt": "Was ist bei Bundestags- und Landtagswahlen in Deutschland erlaubt?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Der Ehemann wählt für seine Frau mit"
+        },
+        {
+          "id": "b",
+          "text": "Man kann durch Briefwahl seine Stimme abgeben"
+        },
+        {
+          "id": "c",
+          "text": "Man kann telefonisch seine Stimme abgeben"
+        },
+        {
+          "id": "d",
+          "text": "Kinder ab dem Alter von 14 Jahren dürfen wählen"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Correct answer:** Man kann durch Briefwahl seine Stimme abgeben\n\n**Briefwahl**, postal voting, requested via the Wahlbenachrichtigung, now used by roughly half of voters.\n\nA violates *geheim* and *unmittelbar*, nobody votes for another adult, spouses included (each person's vote is their own; worth saying aloud in a marriage 😉); C doesn't exist (no phone/online voting, paper only, →Q105); D. Bundestag voting age is 18 (→Q94).\n\n## Auf Deutsch\n\nBriefwahl ist erlaubt, man kann per Post wählen."
+    },
+    {
+      "id": "eb-u05-l05-q128-135-ex07",
+      "type": "choice",
+      "title": "Frage 134 · Block 5",
+      "prompt": "Man will die Buslinie abschaffen, mit der Sie immer zur Arbeit fahren. Was können Sie machen, um die Buslinie zu erhalten?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ich beteilige mich an einer Bürgerinitiative für die Erhaltung der Buslinie oder gründe selber eine"
+        },
+        {
+          "id": "b",
+          "text": "Ich suche mir einen neuen Arbeitsplatz"
+        },
+        {
+          "id": "c",
+          "text": "Ich beschwere mich beim Busfahrer"
+        },
+        {
+          "id": "d",
+          "text": "Ich fahre nie mehr mit dem Bus"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Correct answer:** Ich beteilige mich an einer Bürgerinitiative für die Erhaltung der Buslinie oder gründe selber eine\n\nThe **Bürgerinitiative**, citizens organizing around one concrete local issue: petitions, council sessions, local press. Democracy between elections, at the level where a normal person can actually win.\n\nB–D are resignation or misdirected complaint (the driver doesn't plan routes). The question teaches the *reflex*: affected → organize → influence the actual decision-maker (city council).\n\n## Auf Deutsch\n\nEine Bürgerinitiative ist der richtige Weg, sich lokal zu engagieren."
+    },
+    {
+      "id": "eb-u05-l05-q128-135-ex08",
+      "type": "choice",
+      "title": "Frage 135 · Block 5",
+      "prompt": "Wen vertreten die Gewerkschaften in Deutschland?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Arbeitgeber und Arbeitgeberinnen"
+        },
+        {
+          "id": "b",
+          "text": "die Arbeitnehmer und Arbeitnehmerinnen"
+        },
+        {
+          "id": "c",
+          "text": "die Selbstständigen"
+        },
+        {
+          "id": "d",
+          "text": "die Rentner und Rentnerinnen"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Correct answer:** die Arbeitnehmer und Arbeitnehmerinnen\n\n→Q101, verbatim retest. When you sign your AI-engineer contract, joining IG Metall or ver.di becomes your call, and knowing unions negotiated the Tarifvertrag behind many German salaries explains a lot about the labor market you're entering.\n\n## Auf Deutsch\n\nDie Gewerkschaften vertreten die Arbeitnehmerinnen und Arbeitnehmer."
+    }
+  ]
+}

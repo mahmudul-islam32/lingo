@@ -1,0 +1,286 @@
+{
+  "id": "tb1-u03-l02-body-health-2",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u03",
+  "title": "Body & Health 2",
+  "tip": "Theme: Körper & Gesundheit (A1)",
+  "exercises": [
+    {
+      "id": "tb1-u03-l02-body-health-2-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "die Hand",
+          "known": "hand"
+        },
+        {
+          "id": "p2",
+          "learning": "der Arm",
+          "known": "arm"
+        },
+        {
+          "id": "p3",
+          "learning": "das Bein",
+          "known": "leg"
+        },
+        {
+          "id": "p4",
+          "learning": "der Fuß",
+          "known": "foot"
+        },
+        {
+          "id": "p5",
+          "learning": "der Bauch",
+          "known": "belly / stomach"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u03-l02-body-health-2-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „hand“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Hand, die Hände"
+        },
+        {
+          "id": "b",
+          "text": "der Zahn, die Zähne"
+        },
+        {
+          "id": "c",
+          "text": "der Rücken, die Rücken"
+        },
+        {
+          "id": "d",
+          "text": "der Kopf, die Köpfe"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**die Hand** = hand\n*Plural: die Hände*\n\n*Example:* Vor dem Essen waschen wir uns die Hände.\nWe wash our hands before eating."
+    },
+    {
+      "id": "tb1-u03-l02-body-health-2-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „arm“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "das Auge, die Augen"
+        },
+        {
+          "id": "b",
+          "text": "der Arm, die Arme"
+        },
+        {
+          "id": "c",
+          "text": "das Herz, die Herzen"
+        },
+        {
+          "id": "d",
+          "text": "der Fuß, die Füße"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**der Arm** = arm\n*Plural: die Arme*\n\n*Example:* Tom ist vom Fahrrad gefallen und hat sich den Arm gebrochen.\nTom fell off his bike and broke his arm."
+    },
+    {
+      "id": "tb1-u03-l02-body-health-2-ex04",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u03-l02-body-health-2-1.mp3"
+      },
+      "tiles": [
+        "Essen",
+        "uns",
+        "die",
+        "Hände",
+        "Hause",
+        "waschen",
+        "dem",
+        "wir",
+        "heute",
+        "Vor",
+        "weit"
+      ],
+      "answers": [
+        "Vor dem Essen waschen wir uns die Hände."
+      ],
+      "explanation": "Vor dem Essen waschen wir uns die Hände.\n*We wash our hands before eating.*\n\n**die Hand** = hand\n*Plural: die Hände*"
+    },
+    {
+      "id": "tb1-u03-l02-body-health-2-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „leg“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Schmerzen (Pl.)"
+        },
+        {
+          "id": "b",
+          "text": "der Bauch, die Bäuche"
+        },
+        {
+          "id": "c",
+          "text": "das Bein, die Beine"
+        },
+        {
+          "id": "d",
+          "text": "das Auge, die Augen"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**das Bein** = leg\n*Plural: die Beine*\n\n*Example:* Nach dem langen Spaziergang tun mir die Beine weh.\nMy legs hurt after the long walk."
+    },
+    {
+      "id": "tb1-u03-l02-body-health-2-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Tom ist vom Fahrrad gefallen und hat sich den Arm gebrochen.",
+      "tiles": [
+        "his",
+        "Tom",
+        "arm",
+        "work",
+        "off",
+        "and",
+        "fell",
+        "broke",
+        "his",
+        "bike",
+        "my",
+        "a"
+      ],
+      "answers": [
+        "Tom fell off his bike and broke his arm."
+      ],
+      "explanation": "**der Arm** = arm\n*Plural: die Arme*"
+    },
+    {
+      "id": "tb1-u03-l02-body-health-2-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „foot“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Schmerzen (Pl.)"
+        },
+        {
+          "id": "b",
+          "text": "das Bein, die Beine"
+        },
+        {
+          "id": "c",
+          "text": "der Fuß, die Füße"
+        },
+        {
+          "id": "d",
+          "text": "das Herz, die Herzen"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**der Fuß** = foot\n*Plural: die Füße*\n\n*Example:* Wir gehen zu Fuß zum Bahnhof, es ist nicht weit.\nWe're walking to the station, it isn't far."
+    },
+    {
+      "id": "tb1-u03-l02-body-health-2-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "My legs hurt after the long walk.",
+      "tiles": [
+        "Bauch",
+        "dem",
+        "weh",
+        "die",
+        "gefallen",
+        "Spaziergang",
+        "Nachtschicht",
+        "tun",
+        "Beine",
+        "Nach",
+        "mir",
+        "langen"
+      ],
+      "answers": [
+        "Nach dem langen Spaziergang tun mir die Beine weh."
+      ],
+      "explanation": "**das Bein** = leg\n*Plural: die Beine*"
+    },
+    {
+      "id": "tb1-u03-l02-body-health-2-ex09",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „belly / stomach“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "der Bauch, die Bäuche"
+        },
+        {
+          "id": "b",
+          "text": "der Fuß, die Füße"
+        },
+        {
+          "id": "c",
+          "text": "der Rücken, die Rücken"
+        },
+        {
+          "id": "d",
+          "text": "die Nase, die Nasen"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**der Bauch** = belly / stomach\n*Plural: die Bäuche*\n\n*Example:* Mein Bauch tut weh, weil ich zu viel gegessen habe.\nMy stomach hurts because I ate too much."
+    },
+    {
+      "id": "tb1-u03-l02-body-health-2-ex10",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u03-l02-body-health-2-4.mp3"
+      },
+      "tiles": [
+        "nicht",
+        "weit",
+        "Fuß",
+        "Bahnhof",
+        "Ali",
+        "ist",
+        "zu",
+        "Ich",
+        "Wir",
+        "es",
+        "zum",
+        "im",
+        "gehen"
+      ],
+      "answers": [
+        "Wir gehen zu Fuß zum Bahnhof, es ist nicht weit."
+      ],
+      "explanation": "Wir gehen zu Fuß zum Bahnhof, es ist nicht weit.\n*We're walking to the station, it isn't far.*\n\n**der Fuß** = foot\n*Plural: die Füße*"
+    },
+    {
+      "id": "tb1-u03-l02-body-health-2-ex11",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Mein Bauch tut weh, weil ich zu viel gegessen habe.",
+      "tiles": [
+        "Ali",
+        "stomach",
+        "have",
+        "because",
+        "too",
+        "My",
+        "hurts",
+        "fever",
+        "much",
+        "I",
+        "ate"
+      ],
+      "answers": [
+        "My stomach hurts because I ate too much."
+      ],
+      "explanation": "**der Bauch** = belly / stomach\n*Plural: die Bäuche*"
+    }
+  ]
+}

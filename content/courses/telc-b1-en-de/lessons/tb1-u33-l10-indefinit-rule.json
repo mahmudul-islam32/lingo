@@ -1,0 +1,129 @@
+{
+  "id": "tb1-u33-l10-indefinit-rule",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u33",
+  "title": "man, jemand, etwas & Co.: the rule",
+  "tip": "After etwas/nichts the adjective is capitalised and takes -es: etwas Neues, nichts Interessantes.",
+  "exercises": [
+    {
+      "id": "tb1-u33-l10-indefinit-rule-ex01",
+      "type": "explain",
+      "title": "man, jemand, etwas & Co.",
+      "body": "**man** = people in general, always with a 3rd-person-singular verb: Hier darf man nicht rauchen. People: **jemand ↔ niemand** · things: **etwas ↔ nichts**. Short answers: Hast du einen Stift? Ja, ich habe **einen**. / Plural: Ja, ich habe **welche**.\n\n*Deutsch:* **man** = die Leute allgemein, immer mit Verb in der 3. Person Singular: Hier darf man nicht rauchen. Personen: **jemand ↔ niemand** · Sachen: **etwas ↔ nichts**. Antwort-Kurzformen: Hast du einen Stift? Ja, ich habe **einen**. / Plural: Ja, ich habe **welche**.\n\n*German name:* man, jemand, etwas & Co.",
+      "examples": [
+        {
+          "learning": "In Deutschland trennt man den Müll.",
+          "known": "In Germany people separate the rubbish."
+        },
+        {
+          "learning": "Hat jemand meine Brille gesehen? Nein, niemand.",
+          "known": "Has anyone seen my glasses? No, nobody."
+        },
+        {
+          "learning": "Am Wochenende habe ich nichts Besonderes gemacht.",
+          "known": "At the weekend I did nothing special. (capital B!)"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u33-l10-indefinit-rule-ex02",
+      "type": "explain",
+      "title": "man, jemand, etwas & Co.: step by step",
+      "body": "The little all-rounders:\n• **man**: generalises (“people”). Verb like er/sie/es: In Deutschland trennt man den Müll. (a substitute for the passive!)\n• **jemand / niemand** (people): Hat jemand angerufen? Nein, niemand.\n• **etwas / nichts** (things): Möchtest du etwas trinken? Danke, nichts.\n• Adjective after them is CAPITALISED + -es: etwas Neu**es**, nichts Besonder**es**.\n• Short answers: einen/eine/eins (sg.) · keinen/keine/keins (negated) · **welche** (plural & quantities): Brauchst du Eier? Nein, ich habe noch welche.\n• viel/wenig (uncountable: viel Zeit) vs. viele/wenige (countable: viele Freunde).\n\n## Auf Deutsch\n\nDie kleinen Alleskönner:\n• **man**: verallgemeinert („die Leute“). Verb wie bei er/sie/es: In Deutschland trennt man den Müll. (Ersatz fürs Passiv!)\n• **jemand / niemand** (Personen): Hat jemand angerufen? Nein, niemand.\n• **etwas / nichts** (Sachen): Möchtest du etwas trinken? Danke, nichts.\n• Adjektiv danach GROSS + -es: etwas Neu**es**, nichts Besonder**es**.\n• Kurzantworten: einen/eine/eins (Sg.) · keinen/keine/keins (verneint) · **welche** (Plural & Mengen): Brauchst du Eier? Nein, ich habe noch welche.\n• viel/wenig (nicht zählbar: viel Zeit) vs. viele/wenige (zählbar: viele Freunde).",
+      "examples": [
+        {
+          "learning": "In Deutschland trennt man den Müll.",
+          "known": "In Germany people separate the rubbish."
+        },
+        {
+          "learning": "Hat jemand meine Brille gesehen? Nein, niemand.",
+          "known": "Has anyone seen my glasses? No, nobody."
+        },
+        {
+          "learning": "Am Wochenende habe ich nichts Besonderes gemacht.",
+          "known": "At the weekend I did nothing special. (capital B!)"
+        },
+        {
+          "learning": "Hast du einen Kuli? Ja, ich habe einen.",
+          "known": "Do you have a pen? Yes, I have one."
+        },
+        {
+          "learning": "Testlücke-Stil: „Kann ___ mir bitte helfen?“ → jemand",
+          "known": "a person, unknown who → jemand"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u33-l10-indefinit-rule-ex03",
+      "type": "explain",
+      "title": "Watch out & exam tip",
+      "body": "## Common trap\n\nAfter etwas/nichts the adjective is capitalised and takes -es: etwas Neues, nichts Interessantes.\n\n*Deutsch:* Nach etwas/nichts wird das Adjektiv großgeschrieben und bekommt -es: etwas Neues, nichts Interessantes.\n\n## In the exam\n\n🎯 How telc tests it: **Sprachbausteine part 2** likes putting man/jemand/etwas/nichts in the word bank. In the **letter**: „Ich habe etwas Wichtiges vor.“ In **listening**, niemand/nichts often decides true/false.\n\n*Deutsch:* 🎯 So testet telc das: **Sprachbausteine Teil 2** legt man/jemand/etwas/nichts gern in die Wortbank. Im **Brief**: „Ich habe etwas Wichtiges vor.“ In **Hören** entscheidet niemand/nichts oft über richtig/falsch.\n\n*Source:* Guide B1"
+    },
+    {
+      "id": "tb1-u33-l10-indefinit-rule-ex04",
+      "type": "choice",
+      "title": "Fill the gap",
+      "prompt": "Hier ___ man nicht parken.",
+      "options": [
+        {
+          "id": "a",
+          "text": "dürfen"
+        },
+        {
+          "id": "b",
+          "text": "darf"
+        },
+        {
+          "id": "c",
+          "text": "darfst"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "man + 3. Person Singular: man darf."
+    },
+    {
+      "id": "tb1-u33-l10-indefinit-rule-ex05",
+      "type": "choice",
+      "title": "Fill the gap",
+      "prompt": "Möchtest du noch ___ essen?",
+      "options": [
+        {
+          "id": "a",
+          "text": "nichts"
+        },
+        {
+          "id": "b",
+          "text": "etwas"
+        },
+        {
+          "id": "c",
+          "text": "jemand"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Sache + Angebot → etwas. (jemand = Person; nichts würde das Angebot verneinen)"
+    },
+    {
+      "id": "tb1-u33-l10-indefinit-rule-ex06",
+      "type": "choice",
+      "title": "Fill the gap",
+      "prompt": "___ hat angerufen, aber ich weiß nicht, wer.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Man"
+        },
+        {
+          "id": "b",
+          "text": "Niemand"
+        },
+        {
+          "id": "c",
+          "text": "Jemand"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Eine unbekannte Person → jemand. (niemand würde bedeuten: es gab gar keinen Anruf, aber jemand HAT ja angerufen)"
+    }
+  ]
+}

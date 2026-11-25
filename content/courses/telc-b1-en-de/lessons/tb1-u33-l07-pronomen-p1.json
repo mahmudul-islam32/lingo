@@ -1,0 +1,363 @@
+{
+  "id": "tb1-u33-l07-pronomen-p1",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u33",
+  "title": "Pronouns & Possessives: Personalpronomen & Possessivartikel",
+  "tip": "sein vs. ihr: Peter und sein Auto, Maria und ihr Auto. In formal letters: Sie/Ihnen/Ihr ALWAYS capitalised.",
+  "exercises": [
+    {
+      "id": "tb1-u33-l07-pronomen-p1-ex01",
+      "type": "explain",
+      "title": "Personalpronomen: mich/mir, dich/dir …",
+      "body": "Accusative: mich, dich, ihn, sie, es, uns, euch, sie/Sie. Dative: mir, dir, ihm, ihr, ihm, uns, euch, ihnen/Ihnen.\n\n*Deutsch:* Akkusativ: mich, dich, ihn, sie, es, uns, euch, sie/Sie. Dativ: mir, dir, ihm, ihr, ihm, uns, euch, ihnen/Ihnen.\n\n## Pattern\n\nVerb + **Akkusativ-** oder **Dativ-Pronomen**",
+      "examples": [
+        {
+          "learning": "Ich rufe dich morgen an.",
+          "known": "I'll call you tomorrow."
+        },
+        {
+          "learning": "Kannst du mir helfen?",
+          "known": "Can you help me?"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u33-l07-pronomen-p1-ex02",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I'll call you tomorrow.",
+      "tiles": [
+        "dich",
+        "morgen",
+        "es",
+        "Ich",
+        "an",
+        "Schwester",
+        "rufe",
+        "ihn"
+      ],
+      "answers": [
+        "Ich rufe dich morgen an."
+      ],
+      "explanation": "**Why:** anrufen + accusative → dich.\n\n*Warum:* anrufen + Akkusativ → dich."
+    },
+    {
+      "id": "tb1-u33-l07-pronomen-p1-ex03",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Can you help me?",
+      "tiles": [
+        "Wie",
+        "unseren",
+        "mir",
+        "zurück",
+        "du",
+        "Kannst",
+        "helfen"
+      ],
+      "answers": [
+        "Kannst du mir helfen?"
+      ],
+      "explanation": "**Why:** helfen + dative → mir.\n\n*Warum:* helfen + Dativ → mir."
+    },
+    {
+      "id": "tb1-u33-l07-pronomen-p1-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Do you know Mr Weber? – Yes, I know him.",
+      "tiles": [
+        "besucht",
+        "kenne",
+        "Kennst",
+        "ich",
+        "ihm",
+        "Herrn",
+        "Ja",
+        "Weber",
+        "du",
+        "geschickt",
+        "ihn"
+      ],
+      "answers": [
+        "Kennst du Herrn Weber? – Ja, ich kenne ihn."
+      ],
+      "explanation": "**Why:** der Herr → ihn (accusative).\n\n*Warum:* der Herr → ihn (Akkusativ)."
+    },
+    {
+      "id": "tb1-u33-l07-pronomen-p1-ex05",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I sent her a message.",
+      "tiles": [
+        "ihren",
+        "geschickt",
+        "Schlüssel",
+        "ihr",
+        "eine",
+        "Antwort",
+        "Nachricht",
+        "Ich",
+        "habe"
+      ],
+      "answers": [
+        "Ich habe ihr eine Nachricht geschickt."
+      ],
+      "explanation": "**Why:** To whom? ihr (dative feminine).\n\n*Warum:* Wem? ihr (Dativ feminin)."
+    },
+    {
+      "id": "tb1-u33-l07-pronomen-p1-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "The book? I'll give it to him tomorrow.",
+      "tiles": [
+        "morgen",
+        "es",
+        "Ich",
+        "Peter",
+        "ihm",
+        "gebe",
+        "Auto",
+        "Das",
+        "Buch",
+        "seiner"
+      ],
+      "answers": [
+        "Das Buch? Ich gebe es ihm morgen."
+      ],
+      "explanation": "**Why:** Two pronouns: accusative (es) before dative (ihm).\n\n*Warum:* Zwei Pronomen: Akkusativ (es) vor Dativ (ihm)."
+    },
+    {
+      "id": "tb1-u33-l07-pronomen-p1-ex07",
+      "type": "explain",
+      "title": "Possessivartikel: mein, dein, sein, ihr …",
+      "body": "sein = belonging to he/it, ihr = belonging to she/they. Endings like ein/kein.\n\n*Deutsch:* sein = von er/es, ihr = von sie. Endungen wie ein/kein.\n\n## Pattern\n\n**mein/dein/sein/ihr/unser/euer/Ihr** + Endung + Nomen",
+      "examples": [
+        {
+          "learning": "Peter besucht seine Mutter.",
+          "known": "Peter is visiting his mother."
+        },
+        {
+          "learning": "Anna sucht ihren Schlüssel.",
+          "known": "Anna is looking for her key."
+        }
+      ]
+    },
+    {
+      "id": "tb1-u33-l07-pronomen-p1-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Peter is visiting his mother.",
+      "tiles": [
+        "seine",
+        "gebe",
+        "besucht",
+        "Peter",
+        "mit",
+        "→",
+        "Mutter"
+      ],
+      "answers": [
+        "Peter besucht seine Mutter."
+      ],
+      "explanation": "**Why:** Peter (he) → sein; die Mutter → seine.\n\n*Warum:* Peter (er) → sein; die Mutter → seine."
+    },
+    {
+      "id": "tb1-u33-l07-pronomen-p1-ex09",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Anna is looking for her key.",
+      "tiles": [
+        "ihren",
+        "ihr",
+        "sucht",
+        "Anna",
+        "ihm",
+        "Schlüssel",
+        "mit"
+      ],
+      "answers": [
+        "Anna sucht ihren Schlüssel."
+      ],
+      "explanation": "**Why:** Anna (she) → ihr; den Schlüssel → ihren.\n\n*Warum:* Anna (sie) → ihr; den Schlüssel → ihren."
+    },
+    {
+      "id": "tb1-u33-l07-pronomen-p1-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "What is your address?",
+      "tiles": [
+        "Adresse",
+        "Wie",
+        "Ihre",
+        "Buch",
+        "Kannst",
+        "mit",
+        "ist"
+      ],
+      "answers": [
+        "Wie ist Ihre Adresse?"
+      ],
+      "explanation": "**Why:** Polite → Ihr capitalised.\n\n*Warum:* Höflich → Ihr groß geschrieben."
+    },
+    {
+      "id": "tb1-u33-l07-pronomen-p1-ex11",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "We're celebrating at our friends' place.",
+      "tiles": [
+        "Wir",
+        "Freunden",
+        "Kennst",
+        "besuchen",
+        "Weber",
+        "unseren",
+        "feiern",
+        "bei"
+      ],
+      "answers": [
+        "Wir feiern bei unseren Freunden."
+      ],
+      "explanation": "**Why:** bei + dative plural → unseren.\n\n*Warum:* bei + Dativ Plural → unseren."
+    },
+    {
+      "id": "tb1-u33-l07-pronomen-p1-ex12",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Is that your car?",
+      "tiles": [
+        "Ich",
+        "Dank",
+        "Ist",
+        "schnelle",
+        "das",
+        "euer",
+        "Auto"
+      ],
+      "answers": [
+        "Ist das euer Auto?"
+      ],
+      "explanation": "**Why:** you all → euer.\n\n*Warum:* ihr (Plural) → euer."
+    },
+    {
+      "id": "tb1-u33-l07-pronomen-p1-ex13",
+      "type": "choice",
+      "title": "Fill the gap",
+      "prompt": "Gib ___ bitte den Schlüssel! (= der Nachbarin)",
+      "options": [
+        {
+          "id": "a",
+          "text": "sie"
+        },
+        {
+          "id": "b",
+          "text": "ihm"
+        },
+        {
+          "id": "c",
+          "text": "ihr"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "geben + Dativ, feminin → ihr."
+    },
+    {
+      "id": "tb1-u33-l07-pronomen-p1-ex14",
+      "type": "choice",
+      "title": "Fill the gap",
+      "prompt": "„Ich gebe dem Mann das Buch.“ Mit zwei Pronomen: „Ich gebe ___.“",
+      "options": [
+        {
+          "id": "a",
+          "text": "ihm es"
+        },
+        {
+          "id": "b",
+          "text": "ihn ihm"
+        },
+        {
+          "id": "c",
+          "text": "es ihm"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Akkusativ-Pronomen vor Dativ-Pronomen: Ich gebe es ihm."
+    },
+    {
+      "id": "tb1-u33-l07-pronomen-p1-ex15",
+      "type": "choice",
+      "title": "Fill the gap",
+      "prompt": "Peter und Lisa, ist das ___ Haus?",
+      "options": [
+        {
+          "id": "a",
+          "text": "ihr"
+        },
+        {
+          "id": "b",
+          "text": "eures"
+        },
+        {
+          "id": "c",
+          "text": "euer"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Angesprochen: ihr (2. Pl.) → euer Haus."
+    },
+    {
+      "id": "tb1-u33-l07-pronomen-p1-ex16",
+      "type": "choice",
+      "title": "Find the mistake",
+      "prompt": "Which word is wrong? „Das ist Maria und ihre Mann.“",
+      "options": [
+        {
+          "id": "a",
+          "text": "Das"
+        },
+        {
+          "id": "b",
+          "text": "ist"
+        },
+        {
+          "id": "c",
+          "text": "Maria"
+        },
+        {
+          "id": "d",
+          "text": "und"
+        },
+        {
+          "id": "e",
+          "text": "ihre"
+        },
+        {
+          "id": "f",
+          "text": "Mann"
+        }
+      ],
+      "correctOptionId": "e",
+      "explanation": "„ihre“ → „ihr“: **Das ist Maria und ihr Mann.**\n\n„der Mann“ ist maskulin Nominativ → ihr Mann (ohne Endung)."
+    },
+    {
+      "id": "tb1-u33-l07-pronomen-p1-ex17",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Correct the sentence: „Das ist Maria und ihre Mann.“",
+      "tiles": [
+        "Das",
+        "Mann",
+        "ihr",
+        "ist",
+        "Peter",
+        "Maria",
+        "und",
+        "ihren",
+        "ihre"
+      ],
+      "answers": [
+        "Das ist Maria und ihr Mann."
+      ],
+      "explanation": "„der Mann“ ist maskulin Nominativ → ihr Mann (ohne Endung)."
+    }
+  ]
+}

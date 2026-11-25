@@ -1,0 +1,225 @@
+{
+  "id": "tb1-u48-l04-d4-verb-preposition-and-da-r-wo-r",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u48",
+  "title": "Verb + preposition and da(r)-/wo(r)- (Verb + Präposition und da(r)-/wo(r)-)",
+  "tip": "Gap type: Verb + Präposition.",
+  "exercises": [
+    {
+      "id": "tb1-u48-l04-d4-verb-preposition-and-da-r-wo-r-ex01",
+      "type": "explain",
+      "title": "Verb + preposition and da(r)-/wo(r)-",
+      "body": "Here the preposition is **not chosen by meaning, it is glued to the verb.** „warten“ takes „auf“, full stop. Logic will betray you.\n\n**+ accusative:** warten auf · sich freuen auf/über · sich interessieren für · sich bedanken für · sich entschuldigen für · sich bewerben um · sich kümmern um · bitten um · denken an · sich erinnern an · sich gewöhnen an · glauben an · nachdenken über · sich ärgern über · sich beschweren über · sprechen über · sich informieren über\n**+ dative:** anfangen mit · aufhören mit · zufrieden sein mit · einverstanden sein mit · träumen von · erzählen von · sich verabschieden von · Angst haben vor · sich treffen mit · fragen nach · suchen nach · teilnehmen an · gehören zu · gratulieren zu · einladen zu\n\n**The auf/über split on „sich freuen“:** future → *auf*, present/past → *über*.\n**da(r)- / wo(r)-:** thing already mentioned → *darauf, dafür, davon* · question → *worauf, wofür* · **person → never a compound**, use preposition + pronoun (Ich warte auf ihn).\n\n## Auf Deutsch: Verb + Präposition und da(r)-/wo(r)-\n\nHier wird die Präposition **nicht durch Bedeutung gewählt, sie klebt am Verb.** „warten“ nimmt „auf“, Punkt. Logik führt dich hier in die Irre.\n\n**+ Akkusativ:** warten auf · sich freuen auf/über · sich interessieren für · sich bedanken für · sich entschuldigen für · sich bewerben um · sich kümmern um · bitten um · denken an · sich erinnern an · sich gewöhnen an · glauben an · nachdenken über · sich ärgern über · sich beschweren über · sprechen über · sich informieren über\n**+ Dativ:** anfangen mit · aufhören mit · zufrieden sein mit · einverstanden sein mit · träumen von · erzählen von · sich verabschieden von · Angst haben vor · sich treffen mit · fragen nach · suchen nach · teilnehmen an · gehören zu · gratulieren zu · einladen zu\n\n**Der auf/über-Trick bei „sich freuen“:** Zukunft → *auf* (Ich freue mich auf deinen Besuch), Gegenwart/Vergangenheit → *über* (Ich freue mich über dein Geschenk).\n**da(r)- / wo(r)-:** Sache schon genannt → *darauf, dafür, davon* · Frage → *worauf, wofür* · **Person → niemals Kompositum**, sondern Präposition + Pronomen (Ich warte auf ihn)."
+    },
+    {
+      "id": "tb1-u48-l04-d4-verb-preposition-and-da-r-wo-r-ex02",
+      "type": "choice",
+      "prompt": "Wir warten schon eine halbe Stunde ___ den Bus.",
+      "options": [
+        {
+          "id": "a",
+          "text": "für"
+        },
+        {
+          "id": "b",
+          "text": "auf"
+        },
+        {
+          "id": "c",
+          "text": "an"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Answer: auf** · Verb + Präposition\n\nwarten auf + accusative, fixed pair.\n\n*Auf Deutsch:* warten auf + Akkusativ, festes Paar."
+    },
+    {
+      "id": "tb1-u48-l04-d4-verb-preposition-and-da-r-wo-r-ex03",
+      "type": "choice",
+      "prompt": "Ich freue mich sehr ___ deinen Besuch nächste Woche.",
+      "options": [
+        {
+          "id": "a",
+          "text": "über"
+        },
+        {
+          "id": "b",
+          "text": "für"
+        },
+        {
+          "id": "c",
+          "text": "auf"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**Answer: auf** · Verb + Präposition\n\nThe visit is in the future → sich freuen auf.\n\n*Auf Deutsch:* Der Besuch liegt in der Zukunft → sich freuen auf."
+    },
+    {
+      "id": "tb1-u48-l04-d4-verb-preposition-and-da-r-wo-r-ex04",
+      "type": "choice",
+      "prompt": "Sie hat sich herzlich ___ das Geschenk bedankt.",
+      "options": [
+        {
+          "id": "a",
+          "text": "für"
+        },
+        {
+          "id": "b",
+          "text": "über"
+        },
+        {
+          "id": "c",
+          "text": "auf"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Answer: für** · Verb + Präposition\n\nsich bedanken für (thank FOR something).\n\n*Auf Deutsch:* sich bedanken für."
+    },
+    {
+      "id": "tb1-u48-l04-d4-verb-preposition-and-da-r-wo-r-ex05",
+      "type": "choice",
+      "prompt": "Denkst du noch oft ___ deine Schulzeit?",
+      "options": [
+        {
+          "id": "a",
+          "text": "über"
+        },
+        {
+          "id": "b",
+          "text": "an"
+        },
+        {
+          "id": "c",
+          "text": "von"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Answer: an** · Verb + Präposition\n\ndenken an + accusative.\n\n*Auf Deutsch:* denken an + Akkusativ."
+    },
+    {
+      "id": "tb1-u48-l04-d4-verb-preposition-and-da-r-wo-r-ex06",
+      "type": "choice",
+      "prompt": "Er träumt ___ einem eigenen Restaurant.",
+      "options": [
+        {
+          "id": "a",
+          "text": "von"
+        },
+        {
+          "id": "b",
+          "text": "über"
+        },
+        {
+          "id": "c",
+          "text": "für"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Answer: von** · Verb + Präposition\n\nträumen von + dative.\n\n*Auf Deutsch:* träumen von + Dativ."
+    },
+    {
+      "id": "tb1-u48-l04-d4-verb-preposition-and-da-r-wo-r-ex07",
+      "type": "choice",
+      "prompt": "Ich habe keine Angst ___ Hunden.",
+      "options": [
+        {
+          "id": "a",
+          "text": "von"
+        },
+        {
+          "id": "b",
+          "text": "für"
+        },
+        {
+          "id": "c",
+          "text": "vor"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**Answer: vor** · Verb + Präposition\n\nAngst haben vor + dative.\n\n*Auf Deutsch:* Angst haben vor + Dativ."
+    },
+    {
+      "id": "tb1-u48-l04-d4-verb-preposition-and-da-r-wo-r-ex08",
+      "type": "choice",
+      "prompt": "Sind Sie ___ Ihrer neuen Wohnung zufrieden?",
+      "options": [
+        {
+          "id": "a",
+          "text": "mit"
+        },
+        {
+          "id": "b",
+          "text": "über"
+        },
+        {
+          "id": "c",
+          "text": "in"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Answer: mit** · Verb + Präposition\n\nzufrieden sein mit + dative.\n\n*Auf Deutsch:* zufrieden sein mit + Dativ."
+    },
+    {
+      "id": "tb1-u48-l04-d4-verb-preposition-and-da-r-wo-r-ex09",
+      "type": "choice",
+      "prompt": "___ interessierst du dich am meisten?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Woran"
+        },
+        {
+          "id": "b",
+          "text": "Wofür"
+        },
+        {
+          "id": "c",
+          "text": "Womit"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Answer: Wofür** · Verb + Präposition\n\nsich interessieren FÜR → the compound must contain „für“.\n\n*Auf Deutsch:* sich interessieren FÜR → das Kompositum muss „für“ enthalten."
+    },
+    {
+      "id": "tb1-u48-l04-d4-verb-preposition-and-da-r-wo-r-ex10",
+      "type": "choice",
+      "prompt": "Ich erinnere mich gern ___ unseren Urlaub.",
+      "options": [
+        {
+          "id": "a",
+          "text": "an"
+        },
+        {
+          "id": "b",
+          "text": "auf"
+        },
+        {
+          "id": "c",
+          "text": "über"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Answer: an** · Verb + Präposition\n\nsich erinnern an + accusative.\n\n*Auf Deutsch:* sich erinnern an + Akkusativ."
+    },
+    {
+      "id": "tb1-u48-l04-d4-verb-preposition-and-da-r-wo-r-ex11",
+      "type": "choice",
+      "prompt": "Ich freue mich schon ___, der Urlaub beginnt nächste Woche!",
+      "options": [
+        {
+          "id": "a",
+          "text": "darüber"
+        },
+        {
+          "id": "b",
+          "text": "darauf"
+        },
+        {
+          "id": "c",
+          "text": "dafür"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Answer: darauf** · Verb + Präposition\n\nPoints forward to the holiday (future → auf) and to a thing, not a person → da(r)-compound.\n\n*Auf Deutsch:* Verweist nach vorn auf den Urlaub (Zukunft → auf) und auf eine Sache, keine Person → da(r)-Kompositum."
+    }
+  ]
+}

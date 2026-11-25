@@ -1,0 +1,227 @@
+{
+  "id": "tb1-u29-l11-polite-requests-2",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u29",
+  "title": "Polite Requests 2",
+  "tip": "Theme: Sätze: Höfliche Bitten (B1)",
+  "exercises": [
+    {
+      "id": "tb1-u29-l11-polite-requests-2-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "Würde es Ihnen etwas ausmachen, wenn …?",
+          "known": "Would you mind if …?"
+        },
+        {
+          "id": "p2",
+          "learning": "Könnten Sie mir bitte Bescheid geben?",
+          "known": "Could you please let me know?"
+        },
+        {
+          "id": "p3",
+          "learning": "Ich hätte eine Bitte an Sie",
+          "known": "I have a request for you."
+        },
+        {
+          "id": "p4",
+          "learning": "Entschuldigen Sie die Störung",
+          "known": "Sorry to bother you."
+        },
+        {
+          "id": "p5",
+          "learning": "Könnten Sie mir bitte helfen?",
+          "known": "Could you please help me?"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u29-l11-polite-requests-2-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means „Would you mind if …?“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Könnten Sie mir bitte helfen?"
+        },
+        {
+          "id": "b",
+          "text": "Könnten Sie mir bitte Bescheid geben?"
+        },
+        {
+          "id": "c",
+          "text": "Würde es Ihnen etwas ausmachen, wenn …?"
+        },
+        {
+          "id": "d",
+          "text": "Wäre es möglich, einen Termin zu bekommen?"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**Würde es Ihnen etwas ausmachen, wenn …?** = Would you mind if …?\n\n*Example:* Würde es Ihnen etwas ausmachen, wenn ich das Fenster öffne?\nWould you mind if I opened the window?"
+    },
+    {
+      "id": "tb1-u29-l11-polite-requests-2-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means „Could you please let me know?“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Könnten Sie mir bitte Bescheid geben?"
+        },
+        {
+          "id": "b",
+          "text": "Ich wäre Ihnen dankbar, wenn Sie … könnten."
+        },
+        {
+          "id": "c",
+          "text": "Entschuldigen Sie die Störung."
+        },
+        {
+          "id": "d",
+          "text": "Wäre es möglich, einen Termin zu bekommen?"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Könnten Sie mir bitte Bescheid geben?** = Could you please let me know?\n\n*Example:* Könnten Sie mir bitte Bescheid geben?\nCould you please let me know?"
+    },
+    {
+      "id": "tb1-u29-l11-polite-requests-2-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Would you mind if I opened the window?",
+      "tiles": [
+        "ausmachen",
+        "ich",
+        "das",
+        "Würde",
+        "etwas",
+        "Fenster",
+        "Ihnen",
+        "wenn",
+        "es",
+        "öffne",
+        "Gefallen",
+        "Bitte",
+        "mir"
+      ],
+      "answers": [
+        "Würde es Ihnen etwas ausmachen, wenn ich das Fenster öffne?"
+      ],
+      "explanation": "**Würde es Ihnen etwas ausmachen, wenn …?** = Would you mind if …?"
+    },
+    {
+      "id": "tb1-u29-l11-polite-requests-2-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means „I have a request for you.“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Würde es Ihnen etwas ausmachen, wenn …?"
+        },
+        {
+          "id": "b",
+          "text": "Wäre es möglich, einen Termin zu bekommen?"
+        },
+        {
+          "id": "c",
+          "text": "Ich hätte eine Bitte an Sie."
+        },
+        {
+          "id": "d",
+          "text": "Entschuldigen Sie die Störung."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**Ich hätte eine Bitte an Sie.** = I have a request for you.\n\n*Example:* Ich hätte eine Bitte an Sie.\nI have a request for you."
+    },
+    {
+      "id": "tb1-u29-l11-polite-requests-2-ex06",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u29-l11-polite-requests-2-2.mp3"
+      },
+      "tiles": [
+        "Ihnen",
+        "einen",
+        "bitte",
+        "geben",
+        "Wäre",
+        "Könnten",
+        "Bescheid",
+        "mir",
+        "Sie"
+      ],
+      "answers": [
+        "Könnten Sie mir bitte Bescheid geben?"
+      ],
+      "explanation": "Könnten Sie mir bitte Bescheid geben?\n*Could you please let me know?*\n\n**Könnten Sie mir bitte Bescheid geben?** = Could you please let me know?"
+    },
+    {
+      "id": "tb1-u29-l11-polite-requests-2-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means „Sorry to bother you.“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Wäre es möglich, einen Termin zu bekommen?"
+        },
+        {
+          "id": "b",
+          "text": "Ich wäre Ihnen dankbar, wenn Sie … könnten."
+        },
+        {
+          "id": "c",
+          "text": "Entschuldigen Sie die Störung."
+        },
+        {
+          "id": "d",
+          "text": "Könnten Sie mir bitte helfen?"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**Entschuldigen Sie die Störung.** = Sorry to bother you.\n\n*Example:* Entschuldigen Sie die Störung.\nSorry to bother you."
+    },
+    {
+      "id": "tb1-u29-l11-polite-requests-2-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Ich hätte eine Bitte an Sie.",
+      "tiles": [
+        "request",
+        "please",
+        "have",
+        "you",
+        "a",
+        "for",
+        "me",
+        "I",
+        "grateful"
+      ],
+      "answers": [
+        "I have a request for you."
+      ],
+      "explanation": "**Ich hätte eine Bitte an Sie.** = I have a request for you."
+    },
+    {
+      "id": "tb1-u29-l11-polite-requests-2-ex09",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Sorry to bother you.",
+      "tiles": [
+        "Ich",
+        "die",
+        "helfen",
+        "Sie",
+        "Störung",
+        "Entschuldigen",
+        "geben"
+      ],
+      "answers": [
+        "Entschuldigen Sie die Störung."
+      ],
+      "explanation": "**Entschuldigen Sie die Störung.** = Sorry to bother you."
+    }
+  ]
+}

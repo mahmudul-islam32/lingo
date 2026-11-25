@@ -1,0 +1,363 @@
+{
+  "id": "tb1-u30-l25-indirekt-p1",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u30",
+  "title": "Indirect Questions: Indirekte W-Frage & ob",
+  "tip": "“Wissen Sie, wann beginnt der Kurs?” = wrong. After the question word it's a subordinate clause: verb at the end.",
+  "exercises": [
+    {
+      "id": "tb1-u30-l25-indirekt-p1-ex01",
+      "type": "explain",
+      "title": "Indirekte W-Frage",
+      "body": "Polite opener + question word (wann, wo, wie, warum …) + verb at the end.\n\n*Deutsch:* Höfliche Einleitung + Fragewort (wann, wo, wie, warum …) + Verb am Ende.\n\n## Pattern\n\nKönnen Sie mir sagen, **W-Wort** + Subjekt + … + **Verb**?",
+      "examples": [
+        {
+          "learning": "Können Sie mir sagen, wann der Zug abfährt?",
+          "known": "Can you tell me when the train leaves?"
+        },
+        {
+          "learning": "Wissen Sie, wo die nächste Apotheke ist?",
+          "known": "Do you know where the nearest pharmacy is?"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u30-l25-indirekt-p1-ex02",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Can you tell me when the train leaves?",
+      "tiles": [
+        "Können",
+        "morgen",
+        "Ich",
+        "der",
+        "Sie",
+        "Zug",
+        "sagen",
+        "wann",
+        "abfährt",
+        "Arzt",
+        "mir"
+      ],
+      "answers": [
+        "Können Sie mir sagen, wann der Zug abfährt?"
+      ],
+      "explanation": "**Why:** Direct: Wann fährt der Zug ab? Indirect: verb at the end, written together.\n\n*Warum:* Direkt: Wann fährt der Zug ab? Indirekt: Verb am Ende, zusammen geschrieben."
+    },
+    {
+      "id": "tb1-u30-l25-indirekt-p1-ex03",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Do you know where the nearest pharmacy is?",
+      "tiles": [
+        "nächste",
+        "die",
+        "ob",
+        "Wissen",
+        "anziehen",
+        "Apotheke",
+        "warum",
+        "wo",
+        "Sie",
+        "ist"
+      ],
+      "answers": [
+        "Wissen Sie, wo die nächste Apotheke ist?"
+      ],
+      "explanation": "**Why:** ist moves to the end.\n\n*Warum:* ist wandert ans Ende."
+    },
+    {
+      "id": "tb1-u30-l25-indirekt-p1-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I'd like to know how much the course costs.",
+      "tiles": [
+        "Ich",
+        "der",
+        "Kurs",
+        "wie",
+        "wissen",
+        "bestanden",
+        "kostet",
+        "hast",
+        "Sie",
+        "möchte",
+        "viel"
+      ],
+      "answers": [
+        "Ich möchte wissen, wie viel der Kurs kostet."
+      ],
+      "explanation": "**Why:** Typical in letters: Ich möchte wissen, …\n\n*Warum:* Typisch im Brief: Ich möchte wissen, …"
+    },
+    {
+      "id": "tb1-u30-l25-indirekt-p1-ex05",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Can you explain to me why you came so late?",
+      "tiles": [
+        "bist",
+        "Kannst",
+        "mir",
+        "du",
+        "Können",
+        "ich",
+        "so",
+        "fragen",
+        "gekommen",
+        "erklären",
+        "spät",
+        "warum",
+        "du"
+      ],
+      "answers": [
+        "Kannst du mir erklären, warum du so spät gekommen bist?"
+      ],
+      "explanation": "**Why:** Perfect: gekommen bist at the end.\n\n*Warum:* Perfekt: gekommen bist am Ende."
+    },
+    {
+      "id": "tb1-u30-l25-indirekt-p1-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I don't know what I should wear.",
+      "tiles": [
+        "was",
+        "anziehen",
+        "weiß",
+        "mir",
+        "soll",
+        "nicht",
+        "ich",
+        "ob",
+        "Ich",
+        "möchte"
+      ],
+      "answers": [
+        "Ich weiß nicht, was ich anziehen soll."
+      ],
+      "explanation": "**Why:** Infinitive + modal at the end.\n\n*Warum:* Infinitiv + Modalverb am Ende."
+    },
+    {
+      "id": "tb1-u30-l25-indirekt-p1-ex07",
+      "type": "explain",
+      "title": "ob · indirekte Ja/Nein-Frage",
+      "body": "Yes/no questions become indirect with ob (not wenn!).\n\n*Deutsch:* Ja/Nein-Fragen werden indirekt mit ob eingeleitet (nicht mit wenn!).\n\n## Pattern\n\nWissen Sie, **ob** + Subjekt + … + **Verb**?",
+      "examples": [
+        {
+          "learning": "Wissen Sie, ob der Arzt heute kommt?",
+          "known": "Do you know whether the doctor is coming today?"
+        },
+        {
+          "learning": "Ich möchte fragen, ob noch ein Platz frei ist.",
+          "known": "I'd like to ask whether there's still a place free."
+        }
+      ]
+    },
+    {
+      "id": "tb1-u30-l25-indirekt-p1-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Do you know whether the doctor is coming today?",
+      "tiles": [
+        "nächste",
+        "ob",
+        "Sie",
+        "Arzt",
+        "Samstag",
+        "noch",
+        "heute",
+        "Wissen",
+        "kommt",
+        "der"
+      ],
+      "answers": [
+        "Wissen Sie, ob der Arzt heute kommt?"
+      ],
+      "explanation": "**Why:** Direct: Kommt der Arzt heute? → ob … kommt.\n\n*Warum:* Direkt: Kommt der Arzt heute? → ob … kommt."
+    },
+    {
+      "id": "tb1-u30-l25-indirekt-p1-ex09",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I'd like to ask whether there's still a place free.",
+      "tiles": [
+        "frei",
+        "nicht",
+        "Ich",
+        "möchte",
+        "fragen",
+        "abfährt",
+        "Platz",
+        "ob",
+        "ein",
+        "ist",
+        "Wissen",
+        "noch"
+      ],
+      "answers": [
+        "Ich möchte fragen, ob noch ein Platz frei ist."
+      ],
+      "explanation": "**Why:** Polite request in a letter.\n\n*Warum:* Höfliche Anfrage im Brief."
+    },
+    {
+      "id": "tb1-u30-l25-indirekt-p1-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Can you tell me whether you have time on Saturday?",
+      "tiles": [
+        "möchte",
+        "du",
+        "hast",
+        "fragt",
+        "Kannst",
+        "du",
+        "mir",
+        "bist",
+        "am",
+        "Zeit",
+        "sagen",
+        "Samstag",
+        "ob"
+      ],
+      "answers": [
+        "Kannst du mir sagen, ob du am Samstag Zeit hast?"
+      ],
+      "explanation": "**Why:** hast goes at the end.\n\n*Warum:* hast steht am Ende."
+    },
+    {
+      "id": "tb1-u30-l25-indirekt-p1-ex11",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I don't know whether I passed the exam.",
+      "tiles": [
+        "Prüfung",
+        "habe",
+        "ich",
+        "Ich",
+        "bestanden",
+        "nicht",
+        "Zeit",
+        "weiß",
+        "die",
+        "Sie",
+        "beim",
+        "ob"
+      ],
+      "answers": [
+        "Ich weiß nicht, ob ich die Prüfung bestanden habe."
+      ],
+      "explanation": "**Why:** Perfect: bestanden habe.\n\n*Warum:* Perfekt: bestanden habe."
+    },
+    {
+      "id": "tb1-u30-l25-indirekt-p1-ex12",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "He's asking whether we can help him move.",
+      "tiles": [
+        "beim",
+        "helfen",
+        "Umzug",
+        "frei",
+        "sagen",
+        "Er",
+        "ihm",
+        "fragt",
+        "wir",
+        "können",
+        "bestanden",
+        "ob"
+      ],
+      "answers": [
+        "Er fragt, ob wir ihm beim Umzug helfen können."
+      ],
+      "explanation": "**Why:** helfen können at the end.\n\n*Warum:* helfen können am Ende."
+    },
+    {
+      "id": "tb1-u30-l25-indirekt-p1-ex13",
+      "type": "choice",
+      "title": "Fill the gap",
+      "prompt": "Er fragt, warum du gestern nicht ___.",
+      "options": [
+        {
+          "id": "a",
+          "text": "kommst gestern"
+        },
+        {
+          "id": "b",
+          "text": "gekommen bist"
+        },
+        {
+          "id": "c",
+          "text": "bist gekommen"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Perfekt im Nebensatz: Partizip + konjugiertes Verb ganz am Ende (gekommen bist)."
+    },
+    {
+      "id": "tb1-u30-l25-indirekt-p1-ex14",
+      "type": "choice",
+      "title": "Fill the gap",
+      "prompt": "Höflicher als „Wo ist der Bahnhof?“ ist: „___“",
+      "options": [
+        {
+          "id": "a",
+          "text": "Könnten Sie mir sagen, wo der Bahnhof ist?"
+        },
+        {
+          "id": "b",
+          "text": "Sagen Sie, wo ist der Bahnhof?"
+        },
+        {
+          "id": "c",
+          "text": "Wo der Bahnhof ist?"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Einleitung + indirekte Frage mit Verb am Ende = die höfliche B1-Form."
+    },
+    {
+      "id": "tb1-u30-l25-indirekt-p1-ex15",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Word order: put all the words in the correct order.",
+      "tiles": [
+        "Kurs",
+        "wann",
+        "beginnt",
+        "der",
+        "Wissen",
+        "Sie"
+      ],
+      "answers": [
+        "Wissen Sie wann der Kurs beginnt"
+      ],
+      "explanation": "Indirekte Frage = Verb am Ende: Wissen Sie, wann der Kurs beginnt?"
+    },
+    {
+      "id": "tb1-u30-l25-indirekt-p1-ex16",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Turn it into a polite indirect question: Wann beginnt der Kurs?",
+      "tiles": [
+        "Wissen",
+        "beginnt",
+        "Kurs",
+        "Könnten",
+        "Können",
+        "viel",
+        "der",
+        "wann",
+        "Ich",
+        "mir",
+        "sagen",
+        "Sie"
+      ],
+      "answers": [
+        "Können Sie mir sagen, wann der Kurs beginnt?",
+        "Wissen Sie, wann der Kurs beginnt?",
+        "Könnten Sie mir sagen, wann der Kurs beginnt?"
+      ],
+      "explanation": "Einleitung + Fragewort + Verb am Ende: …, wann der Kurs beginnt.\n\nAlso correct: Wissen Sie, wann der Kurs beginnt? · Könnten Sie mir sagen, wann der Kurs beginnt?\n\n*Deutsch:* Mach eine höfliche indirekte Frage:"
+    }
+  ]
+}

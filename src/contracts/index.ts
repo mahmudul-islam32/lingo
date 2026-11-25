@@ -7,6 +7,7 @@ export * from "./config";
 export * from "./text";
 export * from "./language";
 export * from "./cloze";
+export * from "./rich-text";
 export * from "./course";
 export * from "./answer";
 export * from "./lesson-session";

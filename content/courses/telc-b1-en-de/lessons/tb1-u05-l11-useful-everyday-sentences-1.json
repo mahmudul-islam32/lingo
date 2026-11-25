@@ -1,0 +1,267 @@
+{
+  "id": "tb1-u05-l11-useful-everyday-sentences-1",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u05",
+  "title": "Useful Everyday Sentences 1",
+  "tip": "Theme: Sätze: Nützliche Alltagssätze (A1)",
+  "exercises": [
+    {
+      "id": "tb1-u05-l11-useful-everyday-sentences-1-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "Können Sie mir bitte helfen?",
+          "known": "Can you please help me?"
+        },
+        {
+          "id": "p2",
+          "learning": "Wo finde ich …?",
+          "known": "Where can I find …?"
+        },
+        {
+          "id": "p3",
+          "learning": "Wie komme ich zum Bahnhof?",
+          "known": "How do I get to the station?"
+        },
+        {
+          "id": "p4",
+          "learning": "Was kostet das?",
+          "known": "How much is that?"
+        },
+        {
+          "id": "p5",
+          "learning": "Ich hätte gern einen Kaffee, bitte",
+          "known": "I'd like a coffee, please."
+        }
+      ]
+    },
+    {
+      "id": "tb1-u05-l11-useful-everyday-sentences-1-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means „Can you please help me?“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Könnten Sie das bitte langsamer sagen?"
+        },
+        {
+          "id": "b",
+          "text": "Was kostet das?"
+        },
+        {
+          "id": "c",
+          "text": "Können Sie mir bitte helfen?"
+        },
+        {
+          "id": "d",
+          "text": "Kein Problem, gern geschehen."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**Können Sie mir bitte helfen?** = Can you please help me?\n\n*Example:* Können Sie mir bitte helfen?\nCan you please help me?"
+    },
+    {
+      "id": "tb1-u05-l11-useful-everyday-sentences-1-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means „Where can I find …?“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ich hätte gern einen Kaffee, bitte."
+        },
+        {
+          "id": "b",
+          "text": "Wo finde ich …?"
+        },
+        {
+          "id": "c",
+          "text": "Wie komme ich zum Bahnhof?"
+        },
+        {
+          "id": "d",
+          "text": "Was kostet das?"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Wo finde ich …?** = Where can I find …?\n\n*Example:* Entschuldigung, wo finde ich die Milch?\nExcuse me, where can I find the milk?"
+    },
+    {
+      "id": "tb1-u05-l11-useful-everyday-sentences-1-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Können Sie mir bitte helfen?",
+      "tiles": [
+        "you",
+        "I",
+        "please",
+        "Could",
+        "get",
+        "help",
+        "Can",
+        "me"
+      ],
+      "answers": [
+        "Can you please help me?"
+      ],
+      "explanation": "**Können Sie mir bitte helfen?** = Can you please help me?"
+    },
+    {
+      "id": "tb1-u05-l11-useful-everyday-sentences-1-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means „How do I get to the station?“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Wie komme ich zum Bahnhof?"
+        },
+        {
+          "id": "b",
+          "text": "Wo finde ich …?"
+        },
+        {
+          "id": "c",
+          "text": "Könnten Sie das bitte langsamer sagen?"
+        },
+        {
+          "id": "d",
+          "text": "Kein Problem, gern geschehen."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Wie komme ich zum Bahnhof?** = How do I get to the station?\n\n*Example:* Wie komme ich zum Bahnhof?\nHow do I get to the station?"
+    },
+    {
+      "id": "tb1-u05-l11-useful-everyday-sentences-1-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Excuse me, where can I find the milk?",
+      "tiles": [
+        "die",
+        "finde",
+        "Milch",
+        "wo",
+        "Entschuldigung",
+        "langsamer",
+        "einen",
+        "ich",
+        "bitte"
+      ],
+      "answers": [
+        "Entschuldigung, wo finde ich die Milch?"
+      ],
+      "explanation": "**Wo finde ich …?** = Where can I find …?"
+    },
+    {
+      "id": "tb1-u05-l11-useful-everyday-sentences-1-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means „How much is that?“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Alles klar, danke schön!"
+        },
+        {
+          "id": "b",
+          "text": "Was kostet das?"
+        },
+        {
+          "id": "c",
+          "text": "Entschuldigung, ich habe eine Frage."
+        },
+        {
+          "id": "d",
+          "text": "Ich verstehe nur ein bisschen Deutsch."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Was kostet das?** = How much is that?\n\n*Example:* Was kostet das?\nHow much is that?"
+    },
+    {
+      "id": "tb1-u05-l11-useful-everyday-sentences-1-ex08",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u05-l11-useful-everyday-sentences-1-3.mp3"
+      },
+      "tiles": [
+        "bisschen",
+        "zum",
+        "Entschuldigung",
+        "komme",
+        "Sie",
+        "Bahnhof",
+        "Wie",
+        "ich"
+      ],
+      "answers": [
+        "Wie komme ich zum Bahnhof?"
+      ],
+      "explanation": "Wie komme ich zum Bahnhof?\n*How do I get to the station?*\n\n**Wie komme ich zum Bahnhof?** = How do I get to the station?"
+    },
+    {
+      "id": "tb1-u05-l11-useful-everyday-sentences-1-ex09",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means „I'd like a coffee, please.“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ich hätte gern einen Kaffee, bitte."
+        },
+        {
+          "id": "b",
+          "text": "Können Sie mir bitte helfen?"
+        },
+        {
+          "id": "c",
+          "text": "Ich verstehe nur ein bisschen Deutsch."
+        },
+        {
+          "id": "d",
+          "text": "Wo finde ich …?"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Ich hätte gern einen Kaffee, bitte.** = I'd like a coffee, please.\n\n*Example:* Ich hätte gern einen Kaffee, bitte.\nI'd like a coffee, please."
+    },
+    {
+      "id": "tb1-u05-l11-useful-everyday-sentences-1-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Was kostet das?",
+      "tiles": [
+        "Could",
+        "is",
+        "to",
+        "understand",
+        "How",
+        "much",
+        "that"
+      ],
+      "answers": [
+        "How much is that?"
+      ],
+      "explanation": "**Was kostet das?** = How much is that?"
+    },
+    {
+      "id": "tb1-u05-l11-useful-everyday-sentences-1-ex11",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I'd like a coffee, please.",
+      "tiles": [
+        "Frage",
+        "hätte",
+        "einen",
+        "Ich",
+        "das",
+        "bitte",
+        "gern",
+        "die",
+        "Kaffee"
+      ],
+      "answers": [
+        "Ich hätte gern einen Kaffee, bitte."
+      ],
+      "explanation": "**Ich hätte gern einen Kaffee, bitte.** = I'd like a coffee, please."
+    }
+  ]
+}

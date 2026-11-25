@@ -1,0 +1,232 @@
+{
+  "id": "tb1-u06-l04-work-jobs-a2-4",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u06",
+  "title": "Work & Jobs (A2) 4",
+  "tip": "Theme: Arbeit & Beruf (A2) (A2)",
+  "exercises": [
+    {
+      "id": "tb1-u06-l04-work-jobs-a2-4-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "die Ausbildung",
+          "known": "training / apprenticeship"
+        },
+        {
+          "id": "p2",
+          "learning": "die Erfahrung",
+          "known": "experience"
+        },
+        {
+          "id": "p3",
+          "learning": "selbstständig",
+          "known": "self-employed"
+        },
+        {
+          "id": "p4",
+          "learning": "die Stelle",
+          "known": "position / job"
+        },
+        {
+          "id": "p5",
+          "learning": "die Arbeit",
+          "known": "work"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u06-l04-work-jobs-a2-4-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „training / apprenticeship“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "der Chef, die Chefs"
+        },
+        {
+          "id": "b",
+          "text": "die Ausbildung"
+        },
+        {
+          "id": "c",
+          "text": "die Pause, die Pausen"
+        },
+        {
+          "id": "d",
+          "text": "der Job, die Jobs"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**die Ausbildung** = training / apprenticeship\n\n*Example:* Maria macht eine Ausbildung als Krankenpflegerin.\nMaria is training to be a nurse."
+    },
+    {
+      "id": "tb1-u06-l04-work-jobs-a2-4-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „experience“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Besprechung, die Besprechungen"
+        },
+        {
+          "id": "b",
+          "text": "die Erfahrung, die Erfahrungen"
+        },
+        {
+          "id": "c",
+          "text": "die Pause, die Pausen"
+        },
+        {
+          "id": "d",
+          "text": "die Ausbildung"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**die Erfahrung** = experience\n*Plural: die Erfahrungen*\n\n*Example:* Mein Kollege hat viel Erfahrung im Verkauf.\nMy colleague has a lot of experience in sales."
+    },
+    {
+      "id": "tb1-u06-l04-work-jobs-a2-4-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Maria is training to be a nurse.",
+      "tiles": [
+        "Fitnessstudio",
+        "eine",
+        "Maria",
+        "macht",
+        "nicht",
+        "Krankenpflegerin",
+        "Ausbildung",
+        "Lohn",
+        "als"
+      ],
+      "answers": [
+        "Maria macht eine Ausbildung als Krankenpflegerin."
+      ],
+      "explanation": "**die Ausbildung** = training / apprenticeship"
+    },
+    {
+      "id": "tb1-u06-l04-work-jobs-a2-4-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which one means „self-employed“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "anfangen (fängt an)"
+        },
+        {
+          "id": "b",
+          "text": "selbstständig"
+        },
+        {
+          "id": "c",
+          "text": "der Kunde, die Kunden"
+        },
+        {
+          "id": "d",
+          "text": "aufhören"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**selbstständig** = self-employed\n\n*Example:* Mein Onkel ist selbstständig und hat ein kleines Restaurant.\nMy uncle is self-employed and has a small restaurant."
+    },
+    {
+      "id": "tb1-u06-l04-work-jobs-a2-4-ex06",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u06-l04-work-jobs-a2-4-2.mp3"
+      },
+      "tiles": [
+        "im",
+        "Kollege",
+        "viel",
+        "Mein",
+        "Erfahrung",
+        "Onkel",
+        "zwölf",
+        "Verkauf",
+        "Geld",
+        "hat"
+      ],
+      "answers": [
+        "Mein Kollege hat viel Erfahrung im Verkauf."
+      ],
+      "explanation": "Mein Kollege hat viel Erfahrung im Verkauf.\n*My colleague has a lot of experience in sales.*\n\n**die Erfahrung** = experience\n*Plural: die Erfahrungen*"
+    },
+    {
+      "id": "tb1-u06-l04-work-jobs-a2-4-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „position / job“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Ausbildung"
+        },
+        {
+          "id": "b",
+          "text": "die Stelle, die Stellen"
+        },
+        {
+          "id": "c",
+          "text": "der Job, die Jobs"
+        },
+        {
+          "id": "d",
+          "text": "die Pause, die Pausen"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**die Stelle** = position / job\n*Plural: die Stellen*\n\n*Example:* Ich habe mich auf eine Stelle als Kellner beworben.\nI've applied for a job as a waiter."
+    },
+    {
+      "id": "tb1-u06-l04-work-jobs-a2-4-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Mein Onkel ist selbstständig und hat ein kleines Restaurant.",
+      "tiles": [
+        "I",
+        "dentist",
+        "self-employed",
+        "restaurant",
+        "hour",
+        "small",
+        "and",
+        "is",
+        "has",
+        "uncle",
+        "a",
+        "My"
+      ],
+      "answers": [
+        "My uncle is self-employed and has a small restaurant."
+      ],
+      "explanation": "**selbstständig** = self-employed"
+    },
+    {
+      "id": "tb1-u06-l04-work-jobs-a2-4-ex09",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I've applied for a job as a waiter.",
+      "tiles": [
+        "mich",
+        "Ich",
+        "Kellner",
+        "Stelle",
+        "als",
+        "Freitag",
+        "auf",
+        "eine",
+        "habe",
+        "Computer",
+        "beworben",
+        "einen"
+      ],
+      "answers": [
+        "Ich habe mich auf eine Stelle als Kellner beworben."
+      ],
+      "explanation": "**die Stelle** = position / job\n*Plural: die Stellen*"
+    }
+  ]
+}

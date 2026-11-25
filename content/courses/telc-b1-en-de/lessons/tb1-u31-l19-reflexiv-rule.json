@@ -1,0 +1,129 @@
+{
+  "id": "tb1-u31-l19-reflexiv-rule",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u31",
+  "title": "Reflexive Verbs: the rule",
+  "tip": "“Ich freue auf deine Antwort”, the mich is missing! The most important closing line is: Ich freue mich auf deine Antwort.",
+  "exercises": [
+    {
+      "id": "tb1-u31-l19-reflexiv-rule-ex01",
+      "type": "explain",
+      "title": "Reflexive Verbs",
+      "body": "**sich freuen, sich interessieren, sich ärgern, sich beeilen, sich anmelden**… Pronouns: mich, dich, **sich**, uns, euch, **sich**. Usually accusative; dative when another object follows: Ich wasche **mir** die Hände.\n\n*Deutsch:* **sich freuen, sich interessieren, sich ärgern, sich beeilen, sich anmelden**… Pronomen: mich, dich, **sich**, uns, euch, **sich**. Meist Akkusativ; Dativ, wenn noch ein Objekt folgt: Ich wasche **mir** die Hände.\n\n*German name:* Reflexive Verben",
+      "examples": [
+        {
+          "learning": "Ich interessiere mich für Musik.",
+          "known": "I'm interested in music."
+        },
+        {
+          "learning": "Beeil dich, sonst kommen wir zu spät!",
+          "known": "Hurry up, otherwise we'll be late!"
+        },
+        {
+          "learning": "Ich habe mich für den Deutschkurs angemeldet.",
+          "known": "I registered for the German course. (top letter sentence)"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u31-l19-reflexiv-rule-ex02",
+      "type": "explain",
+      "title": "Reflexive Verbs: step by step",
+      "body": "The reflexive pronoun points back to the subject:\nich → mich/mir · du → dich/dir · er/sie/es → **sich** · wir → uns · ihr → euch · sie/Sie → **sich**.\nAccusative (default): Ich freue **mich**. Er meldet **sich** an.\nDative only with a second object: Ich wasche **mir die Hände** · Ich kaufe **mir ein Buch**.\nKey exam verbs: sich anmelden (für), sich bewerben (um), sich beschweren (über), sich kümmern (um), sich treffen (mit), sich erholen, sich verspäten.\nPosition: after the conjugated verb; in subordinate clauses after the subject (…, weil ich mich freue).\n\n## Auf Deutsch\n\nDas Reflexivpronomen zeigt zurück auf das Subjekt:\nich → mich/mir · du → dich/dir · er/sie/es → **sich** · wir → uns · ihr → euch · sie/Sie → **sich**.\nAkkusativ (Normalfall): Ich freue **mich**. Er meldet **sich** an.\nDativ nur, wenn es ein zweites Objekt gibt: Ich wasche **mir die Hände** · Ich kaufe **mir ein Buch**.\nWichtige Prüfungs-Verben: sich anmelden (für), sich bewerben (um), sich beschweren (über), sich kümmern (um), sich treffen (mit), sich erholen, sich verspäten.\nPosition: nach dem konjugierten Verb, im Nebensatz nach dem Subjekt (…, weil ich mich freue).",
+      "examples": [
+        {
+          "learning": "Ich interessiere mich für Musik.",
+          "known": "I'm interested in music."
+        },
+        {
+          "learning": "Beeil dich, sonst kommen wir zu spät!",
+          "known": "Hurry up, otherwise we'll be late!"
+        },
+        {
+          "learning": "Ich habe mich für den Deutschkurs angemeldet.",
+          "known": "I registered for the German course. (top letter sentence)"
+        },
+        {
+          "learning": "Wir treffen uns am Samstag vor dem Kino.",
+          "known": "We're meeting on Saturday in front of the cinema."
+        },
+        {
+          "learning": "Testlücke-Stil: „Er ärgert ___ über den Lärm.“ → sich",
+          "known": "3rd person reflexive → sich"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u31-l19-reflexiv-rule-ex03",
+      "type": "explain",
+      "title": "Watch out & exam tip",
+      "body": "## Common trap\n\n“Ich freue auf deine Antwort”, the mich is missing! The most important closing line is: Ich freue **mich** auf deine Antwort.\n\n*Deutsch:* „Ich freue auf deine Antwort“, das mich fehlt! Der wichtigste Brief-Schlusssatz heißt: Ich freue **mich** auf deine Antwort.\n\n## In the exam\n\n🎯 How telc tests it: **Sprachbausteine part 2** hides “sich/mich/uns” in the word bank. Your letter almost always ends with “Ich freue mich auf …”, a missing mich costs. Registering/complaining are recurring letter topics.\n\n*Deutsch:* 🎯 So testet telc das: **Sprachbausteine Teil 2** versteckt „sich/mich/uns“ in der Wortbank. Dein Brief endet fast immer mit „Ich freue mich auf …“, ohne mich kostet es. Sich anmelden/beschweren sind Dauer-Briefthemen.\n\n*Source:* Sprachbausteine-Mastery"
+    },
+    {
+      "id": "tb1-u31-l19-reflexiv-rule-ex04",
+      "type": "choice",
+      "title": "Fill the gap",
+      "prompt": "Ich freue ___ sehr auf deinen Besuch.",
+      "options": [
+        {
+          "id": "a",
+          "text": "mich"
+        },
+        {
+          "id": "b",
+          "text": "mir"
+        },
+        {
+          "id": "c",
+          "text": "sich"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "sich freuen + Akkusativ-Reflexiv: ich freue mich."
+    },
+    {
+      "id": "tb1-u31-l19-reflexiv-rule-ex05",
+      "type": "choice",
+      "title": "Fill the gap",
+      "prompt": "Wäschst du ___ vor dem Essen die Hände?",
+      "options": [
+        {
+          "id": "a",
+          "text": "dich"
+        },
+        {
+          "id": "b",
+          "text": "dir"
+        },
+        {
+          "id": "c",
+          "text": "sich"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Mit zweitem Objekt (die Hände) wird das Reflexiv Dativ: du wäschst dir die Hände."
+    },
+    {
+      "id": "tb1-u31-l19-reflexiv-rule-ex06",
+      "type": "choice",
+      "title": "Fill the gap",
+      "prompt": "Er interessiert ___ für alte Autos.",
+      "options": [
+        {
+          "id": "a",
+          "text": "ihn"
+        },
+        {
+          "id": "b",
+          "text": "ihm"
+        },
+        {
+          "id": "c",
+          "text": "sich"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "3. Person Reflexiv = sich (nie „ihn/ihm“)."
+    }
+  ]
+}

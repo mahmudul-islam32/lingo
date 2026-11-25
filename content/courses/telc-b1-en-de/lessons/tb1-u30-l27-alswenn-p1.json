@@ -1,0 +1,323 @@
+{
+  "id": "tb1-u30-l27-alswenn-p1",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u30",
+  "title": "als vs. wenn (Past): als & wenn",
+  "tip": "“Wenn ich nach Deutschland kam …” is wrong for the single arrival → Als ich nach Deutschland kam.",
+  "exercises": [
+    {
+      "id": "tb1-u30-l27-alswenn-p1-ex01",
+      "type": "explain",
+      "title": "als · einmal in der Vergangenheit",
+      "body": "als = one single event or period in the past.\n\n*Deutsch:* als = ein einziges Ereignis oder eine Zeitspanne in der Vergangenheit.\n\n## Pattern\n\n**Als** + … + **Verb (Vergangenheit)**, **Verb** + Subjekt …",
+      "examples": [
+        {
+          "learning": "Als ich ein Kind war, habe ich in Syrien gewohnt.",
+          "known": "When I was a child, I lived in Syria."
+        },
+        {
+          "learning": "Als ich nach Deutschland kam, konnte ich kein Deutsch.",
+          "known": "When I came to Germany, I couldn't speak any German."
+        }
+      ]
+    },
+    {
+      "id": "tb1-u30-l27-alswenn-p1-ex02",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "When I was a child, I lived in Syria.",
+      "tiles": [
+        "gewohnt",
+        "war",
+        "Wenn",
+        "ein",
+        "Als",
+        "Kind",
+        "Zeit",
+        "habe",
+        "Syrien",
+        "ich",
+        "blieben",
+        "ich",
+        "in"
+      ],
+      "answers": [
+        "Als ich ein Kind war, habe ich in Syrien gewohnt."
+      ],
+      "explanation": "**Why:** Childhood = one period → als.\n\n*Warum:* Kindheit = eine Zeitspanne → als."
+    },
+    {
+      "id": "tb1-u30-l27-alswenn-p1-ex03",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "When I came to Germany, I couldn't speak any German.",
+      "tiles": [
+        "geregnet",
+        "gehe",
+        "Deutsch",
+        "Deutschland",
+        "ich",
+        "Syrien",
+        "konnte",
+        "ich",
+        "kein",
+        "Als",
+        "kam",
+        "nach"
+      ],
+      "answers": [
+        "Als ich nach Deutschland kam, konnte ich kein Deutsch."
+      ],
+      "explanation": "**Why:** Arrived once → als.\n\n*Warum:* Einmal angekommen → als."
+    },
+    {
+      "id": "tb1-u30-l27-alswenn-p1-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I was very happy when I got the letter.",
+      "tiles": [
+        "mich",
+        "gefreut",
+        "Rente",
+        "den",
+        "sehr",
+        "als",
+        "Ich",
+        "habe",
+        "bekam",
+        "ich",
+        "Urlaub",
+        "Kind",
+        "Brief"
+      ],
+      "answers": [
+        "Ich habe mich sehr gefreut, als ich den Brief bekam."
+      ],
+      "explanation": "**Why:** One specific moment → als.\n\n*Warum:* Ein bestimmter Moment → als."
+    },
+    {
+      "id": "tb1-u30-l27-alswenn-p1-ex05",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "When we were on holiday, it rained every day.",
+      "tiles": [
+        "Urlaub",
+        "hat",
+        "jeden",
+        "es",
+        "geregnet",
+        "Tag",
+        "ein",
+        "im",
+        "Brief",
+        "Als",
+        "Kuchen",
+        "wir",
+        "waren"
+      ],
+      "answers": [
+        "Als wir im Urlaub waren, hat es jeden Tag geregnet."
+      ],
+      "explanation": "**Why:** One particular holiday → als.\n\n*Warum:* Ein bestimmter Urlaub → als."
+    },
+    {
+      "id": "tb1-u30-l27-alswenn-p1-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "When the phone rang, I was in the shower.",
+      "tiles": [
+        "stand",
+        "Telefon",
+        "klingelte",
+        "Als",
+        "Dusche",
+        "unter",
+        "ich",
+        "reise",
+        "gewohnt",
+        "der",
+        "kam",
+        "das"
+      ],
+      "answers": [
+        "Als das Telefon klingelte, stand ich unter der Dusche."
+      ],
+      "explanation": "**Why:** One-off event, verb at the end.\n\n*Warum:* Einmaliges Ereignis, Verb am Ende."
+    },
+    {
+      "id": "tb1-u30-l27-alswenn-p1-ex07",
+      "type": "explain",
+      "title": "wenn · immer wenn / Gegenwart",
+      "body": "wenn = repeated (whenever, every time) or present/future.\n\n*Deutsch:* wenn = wiederholt (immer wenn, jedes Mal) oder Gegenwart/Zukunft.\n\n## Pattern\n\n(**Immer**) **wenn** + … + **Verb**, **Verb** + Subjekt …",
+      "examples": [
+        {
+          "learning": "Immer wenn ich Oma besuchte, backte sie Kuchen.",
+          "known": "Whenever I visited Grandma, she baked a cake."
+        },
+        {
+          "learning": "Wenn ich Zeit habe, lese ich gern.",
+          "known": "When I have time, I like to read."
+        }
+      ]
+    },
+    {
+      "id": "tb1-u30-l27-alswenn-p1-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Whenever I visited Grandma, she baked a cake.",
+      "tiles": [
+        "Immer",
+        "wenn",
+        "wohnten",
+        "backte",
+        "war",
+        "Oma",
+        "besuchte",
+        "sie",
+        "Kuchen",
+        "lese",
+        "ich"
+      ],
+      "answers": [
+        "Immer wenn ich Oma besuchte, backte sie Kuchen."
+      ],
+      "explanation": "**Why:** Past, but repeated → wenn.\n\n*Warum:* Vergangenheit, aber wiederholt → wenn."
+    },
+    {
+      "id": "tb1-u30-l27-alswenn-p1-ex09",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "When I have time, I like to read.",
+      "tiles": [
+        "ich",
+        "mich",
+        "lese",
+        "Zeit",
+        "sehr",
+        "ein",
+        "gern",
+        "ich",
+        "habe",
+        "Wenn"
+      ],
+      "answers": [
+        "Wenn ich Zeit habe, lese ich gern."
+      ],
+      "explanation": "**Why:** Present → always wenn.\n\n*Warum:* Gegenwart → immer wenn."
+    },
+    {
+      "id": "tb1-u30-l27-alswenn-p1-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "When I retire next year, I'll travel a lot.",
+      "tiles": [
+        "geregnet",
+        "Jahr",
+        "in",
+        "nächstes",
+        "im",
+        "Rente",
+        "ich",
+        "viel",
+        "Wenn",
+        "ich",
+        "reise",
+        "gehe",
+        "es"
+      ],
+      "answers": [
+        "Wenn ich nächstes Jahr in Rente gehe, reise ich viel."
+      ],
+      "explanation": "**Why:** Future → wenn (never als).\n\n*Warum:* Zukunft → wenn (nie als)."
+    },
+    {
+      "id": "tb1-u30-l27-alswenn-p1-ex11",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Every time it rained, we stayed at home.",
+      "tiles": [
+        "backte",
+        "Mal",
+        "wir",
+        "Jedes",
+        "trinke",
+        "Hause",
+        "es",
+        "blieben",
+        "regnete",
+        "zu",
+        "sehr",
+        "wenn"
+      ],
+      "answers": [
+        "Jedes Mal, wenn es regnete, blieben wir zu Hause."
+      ],
+      "explanation": "**Why:** jedes Mal = repetition → wenn.\n\n*Warum:* jedes Mal = Wiederholung → wenn."
+    },
+    {
+      "id": "tb1-u30-l27-alswenn-p1-ex12",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Let me know when you arrive.",
+      "tiles": [
+        "du",
+        "hat",
+        "wenn",
+        "wir",
+        "es",
+        "ankommst",
+        "Sag",
+        "Bescheid",
+        "mir"
+      ],
+      "answers": [
+        "Sag mir Bescheid, wenn du ankommst."
+      ],
+      "explanation": "**Why:** Future → wenn; ankommst stays together.\n\n*Warum:* Zukunft → wenn; ankommst bleibt zusammen."
+    },
+    {
+      "id": "tb1-u30-l27-alswenn-p1-ex13",
+      "type": "choice",
+      "title": "Fill the gap",
+      "prompt": "___ du morgen Zeit hast, können wir uns treffen.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Nachdem"
+        },
+        {
+          "id": "b",
+          "text": "Als"
+        },
+        {
+          "id": "c",
+          "text": "Wenn"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Zukunft/Bedingung → wenn. „als“ nur für einmalige Vergangenheit."
+    },
+    {
+      "id": "tb1-u30-l27-alswenn-p1-ex14",
+      "type": "choice",
+      "title": "Fill the gap",
+      "prompt": "Jedes Mal, ___ wir uns sehen, lachen wir viel.",
+      "options": [
+        {
+          "id": "a",
+          "text": "als"
+        },
+        {
+          "id": "b",
+          "text": "wenn"
+        },
+        {
+          "id": "c",
+          "text": "dass"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "„Jedes Mal“ signalisiert Wiederholung → wenn."
+    }
+  ]
+}

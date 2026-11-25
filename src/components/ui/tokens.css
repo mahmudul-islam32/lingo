@@ -201,15 +201,20 @@
 }
 
 /*
- * Fonts (CTO-016). `--font-bricolage` and `--font-dm-sans` are set on <html> by
- * `next/font` in src/app/layout.tsx. `font-display` = headings and display numbers
- * (Bricolage Grotesque 700/800), `font-body` / `font-sans` = body and UI (DM Sans 400/500/700).
+ * Fonts (TELC-002, owner request): the same system stacks as the telc B1 app — SF Pro on
+ * Apple devices, Segoe UI on Windows, Roboto on Android — so nothing is downloaded and
+ * text renders natively. `font-display` = headings, `font-body` / `font-sans` = body and
+ * UI, `font-num` = numbers (SF Pro Rounded, tabular), like the telc app's `.num`.
  */
 @theme inline {
   --font-display:
-    var(--font-bricolage), "Bricolage Grotesque", ui-sans-serif, system-ui, sans-serif;
-  --font-body: var(--font-dm-sans), "DM Sans", ui-sans-serif, system-ui, sans-serif;
-  --font-sans: var(--font-dm-sans), "DM Sans", ui-sans-serif, system-ui, sans-serif;
+    -apple-system, BlinkMacSystemFont, "SF Pro Display", "Segoe UI", system-ui, Roboto, sans-serif;
+  --font-body:
+    -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", system-ui, Roboto, sans-serif;
+  --font-sans:
+    -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", system-ui, Roboto, sans-serif;
+  --font-num:
+    ui-rounded, "SF Pro Rounded", -apple-system, BlinkMacSystemFont, system-ui, sans-serif;
 }
 
 :root {
@@ -222,6 +227,13 @@
   h3 {
     font-family: var(--font-display);
     letter-spacing: -0.01em;
+  }
+}
+
+/* Numbers in rounded figures, as in the telc app (`.num`): counters, tiles, stats. */
+@layer base {
+  .tabular-nums {
+    font-family: var(--font-num);
   }
 }
 

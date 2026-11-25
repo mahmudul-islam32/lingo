@@ -1,0 +1,292 @@
+{
+  "id": "tb1-u27-l10-pros-cons-1",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u27",
+  "title": "Pros & Cons 1",
+  "tip": "Theme: Redemittel: Vor- & Nachteile (B1)",
+  "exercises": [
+    {
+      "id": "tb1-u27-l10-pros-cons-1-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "Ein Vorteil ist, dass …",
+          "known": "One advantage is that …"
+        },
+        {
+          "id": "p2",
+          "learning": "Ein Nachteil ist, dass …",
+          "known": "One disadvantage is that …"
+        },
+        {
+          "id": "p3",
+          "learning": "Dafür spricht, dass …",
+          "known": "A point in favour is that …"
+        },
+        {
+          "id": "p4",
+          "learning": "Dagegen spricht, dass …",
+          "known": "A point against is that …"
+        },
+        {
+          "id": "p5",
+          "learning": "Das hat den Vorteil, dass …",
+          "known": "That has the advantage that …"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u27-l10-pros-cons-1-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which phrase means „One advantage is that …“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Man muss bedenken, dass …"
+        },
+        {
+          "id": "b",
+          "text": "Dagegen spricht, dass …"
+        },
+        {
+          "id": "c",
+          "text": "Ein Nachteil ist, dass …"
+        },
+        {
+          "id": "d",
+          "text": "Ein Vorteil ist, dass …"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**Ein Vorteil ist, dass …** = One advantage is that …\n\n*Example:* Ein Vorteil ist, dass die Wohnung direkt neben dem Bahnhof liegt.\nOne advantage is that the flat is right next to the station."
+    },
+    {
+      "id": "tb1-u27-l10-pros-cons-1-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which phrase means „One disadvantage is that …“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Das hat den Vorteil, dass …"
+        },
+        {
+          "id": "b",
+          "text": "Es kommt darauf an, ob …"
+        },
+        {
+          "id": "c",
+          "text": "Man muss bedenken, dass …"
+        },
+        {
+          "id": "d",
+          "text": "Ein Nachteil ist, dass …"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**Ein Nachteil ist, dass …** = One disadvantage is that …\n\n*Example:* Ein Nachteil ist, dass ich jeden Samstag arbeiten muss.\nOne disadvantage is that I have to work every Saturday."
+    },
+    {
+      "id": "tb1-u27-l10-pros-cons-1-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "One advantage is that the flat is right next to the station.",
+      "tiles": [
+        "dass",
+        "liegt",
+        "Wohnung",
+        "neben",
+        "die",
+        "Jobs",
+        "Ein",
+        "keine",
+        "direkt",
+        "ist",
+        "Bahnhof",
+        "teuer",
+        "Vorteil",
+        "dem"
+      ],
+      "answers": [
+        "Ein Vorteil ist, dass die Wohnung direkt neben dem Bahnhof liegt."
+      ],
+      "explanation": "**Ein Vorteil ist, dass …** = One advantage is that …"
+    },
+    {
+      "id": "tb1-u27-l10-pros-cons-1-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which phrase means „A point in favour is that …“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Auf der einen Seite … auf der anderen Seite …"
+        },
+        {
+          "id": "b",
+          "text": "Trotz der Nachteile …"
+        },
+        {
+          "id": "c",
+          "text": "Dafür spricht, dass …"
+        },
+        {
+          "id": "d",
+          "text": "Ein Nachteil ist, dass …"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**Dafür spricht, dass …** = A point in favour is that …\n\n*Example:* Dafür spricht, dass man mit dem Fahrrad Geld spart.\nA point in favour is that you save money by cycling."
+    },
+    {
+      "id": "tb1-u27-l10-pros-cons-1-ex06",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u27-l10-pros-cons-1-2.mp3"
+      },
+      "tiles": [
+        "ob",
+        "Ein",
+        "ich",
+        "jeden",
+        "Vorteil",
+        "muss",
+        "Samstag",
+        "ist",
+        "Nachteil",
+        "arbeiten",
+        "Hund",
+        "dass"
+      ],
+      "answers": [
+        "Ein Nachteil ist, dass ich jeden Samstag arbeiten muss."
+      ],
+      "explanation": "Ein Nachteil ist, dass ich jeden Samstag arbeiten muss.\n*One disadvantage is that I have to work every Saturday.*\n\n**Ein Nachteil ist, dass …** = One disadvantage is that …"
+    },
+    {
+      "id": "tb1-u27-l10-pros-cons-1-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which phrase means „A point against is that …“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Auf der einen Seite … auf der anderen Seite …"
+        },
+        {
+          "id": "b",
+          "text": "Das hat den Vorteil, dass …"
+        },
+        {
+          "id": "c",
+          "text": "Dagegen spricht, dass …"
+        },
+        {
+          "id": "d",
+          "text": "Man muss bedenken, dass …"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**Dagegen spricht, dass …** = A point against is that …\n\n*Example:* Dagegen spricht, dass ein Hund viel Zeit braucht.\nA point against is that a dog needs a lot of time."
+    },
+    {
+      "id": "tb1-u27-l10-pros-cons-1-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Dafür spricht, dass man mit dem Fahrrad Geld spart.",
+      "tiles": [
+        "point",
+        "in",
+        "favour",
+        "that",
+        "work",
+        "hand",
+        "money",
+        "cycling",
+        "you",
+        "by",
+        "is",
+        "but",
+        "A",
+        "save"
+      ],
+      "answers": [
+        "A point in favour is that you save money by cycling."
+      ],
+      "explanation": "**Dafür spricht, dass …** = A point in favour is that …"
+    },
+    {
+      "id": "tb1-u27-l10-pros-cons-1-ex09",
+      "type": "multiple_choice",
+      "prompt": "Which phrase means „That has the advantage that …“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ein Vorteil ist, dass …"
+        },
+        {
+          "id": "b",
+          "text": "Das hat den Vorteil, dass …"
+        },
+        {
+          "id": "c",
+          "text": "Insgesamt überwiegen die Vorteile."
+        },
+        {
+          "id": "d",
+          "text": "Ein Nachteil ist, dass …"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Das hat den Vorteil, dass …** = That has the advantage that …\n\n*Example:* Homeoffice hat den Vorteil, dass ich keine Zeit im Stau verliere.\nWorking from home has the advantage that I don't waste time in traffic jams."
+    },
+    {
+      "id": "tb1-u27-l10-pros-cons-1-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "A point against is that a dog needs a lot of time.",
+      "tiles": [
+        "verliere",
+        "dass",
+        "braucht",
+        "Vorteile",
+        "ein",
+        "Hund",
+        "Dafür",
+        "viel",
+        "Zeit",
+        "spricht",
+        "Dagegen"
+      ],
+      "answers": [
+        "Dagegen spricht, dass ein Hund viel Zeit braucht."
+      ],
+      "explanation": "**Dagegen spricht, dass …** = A point against is that …"
+    },
+    {
+      "id": "tb1-u27-l10-pros-cons-1-ex11",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u27-l10-pros-cons-1-5.mp3"
+      },
+      "tiles": [
+        "ich",
+        "dass",
+        "verliere",
+        "keine",
+        "Vorteil",
+        "hat",
+        "spricht",
+        "man",
+        "auf",
+        "Homeoffice",
+        "Zeit",
+        "Stau",
+        "im",
+        "den"
+      ],
+      "answers": [
+        "Homeoffice hat den Vorteil, dass ich keine Zeit im Stau verliere."
+      ],
+      "explanation": "Homeoffice hat den Vorteil, dass ich keine Zeit im Stau verliere.\n*Working from home has the advantage that I don't waste time in traffic jams.*\n\n**Das hat den Vorteil, dass …** = That has the advantage that …"
+    }
+  ]
+}

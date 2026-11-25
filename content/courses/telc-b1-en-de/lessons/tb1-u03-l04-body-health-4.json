@@ -1,0 +1,235 @@
+{
+  "id": "tb1-u03-l04-body-health-4",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u03",
+  "title": "Body & Health 4",
+  "tip": "Theme: Körper & Gesundheit (A1)",
+  "exercises": [
+    {
+      "id": "tb1-u03-l04-body-health-4-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "gesund",
+          "known": "healthy"
+        },
+        {
+          "id": "p2",
+          "learning": "müde",
+          "known": "tired"
+        },
+        {
+          "id": "p3",
+          "learning": "der Arzt",
+          "known": "doctor"
+        },
+        {
+          "id": "p4",
+          "learning": "die Schmerzen",
+          "known": "pain"
+        },
+        {
+          "id": "p5",
+          "learning": "der Kopf",
+          "known": "head"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u03-l04-body-health-4-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which one means „healthy“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "krank"
+        },
+        {
+          "id": "b",
+          "text": "der Arzt, die Ärzte"
+        },
+        {
+          "id": "c",
+          "text": "gesund"
+        },
+        {
+          "id": "d",
+          "text": "müde"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**gesund** = healthy\n\n*Example:* Mein Opa ist achtzig, aber noch sehr gesund.\nMy grandpa is eighty but still very healthy."
+    },
+    {
+      "id": "tb1-u03-l04-body-health-4-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which one means „tired“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "krank"
+        },
+        {
+          "id": "b",
+          "text": "gesund"
+        },
+        {
+          "id": "c",
+          "text": "müde"
+        },
+        {
+          "id": "d",
+          "text": "der Arm, die Arme"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**müde** = tired\n\n*Example:* Nach der Nachtschicht ist Ali immer sehr müde.\nAli is always very tired after the night shift."
+    },
+    {
+      "id": "tb1-u03-l04-body-health-4-ex04",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u03-l04-body-health-4-1.mp3"
+      },
+      "tiles": [
+        "gesund",
+        "Nach",
+        "ist",
+        "aber",
+        "Mein",
+        "sehr",
+        "noch",
+        "am",
+        "achtzig",
+        "Opa",
+        "im"
+      ],
+      "answers": [
+        "Mein Opa ist achtzig, aber noch sehr gesund."
+      ],
+      "explanation": "Mein Opa ist achtzig, aber noch sehr gesund.\n*My grandpa is eighty but still very healthy.*\n\n**gesund** = healthy"
+    },
+    {
+      "id": "tb1-u03-l04-body-health-4-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „doctor“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "der Arzt, die Ärzte"
+        },
+        {
+          "id": "b",
+          "text": "der Mund, die Münder"
+        },
+        {
+          "id": "c",
+          "text": "der Zahn, die Zähne"
+        },
+        {
+          "id": "d",
+          "text": "das Auge, die Augen"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**der Arzt** = doctor\n*Plural: die Ärzte*\n\n*Example:* Wenn das Fieber nicht weggeht, musst du zum Arzt gehen.\nIf the fever doesn't go away, you have to see a doctor."
+    },
+    {
+      "id": "tb1-u03-l04-body-health-4-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Nach der Nachtschicht ist Ali immer sehr müde.",
+      "tiles": [
+        "shift",
+        "the",
+        "tired",
+        "very",
+        "because",
+        "Ali",
+        "after",
+        "is",
+        "always",
+        "grandpa",
+        "night",
+        "bike"
+      ],
+      "answers": [
+        "Ali is always very tired after the night shift."
+      ],
+      "explanation": "**müde** = tired"
+    },
+    {
+      "id": "tb1-u03-l04-body-health-4-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „pain“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Nase, die Nasen"
+        },
+        {
+          "id": "b",
+          "text": "das Auge, die Augen"
+        },
+        {
+          "id": "c",
+          "text": "die Hand, die Hände"
+        },
+        {
+          "id": "d",
+          "text": "die Schmerzen (Pl.)"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**die Schmerzen (Pl.)** = pain\n\n*Example:* Ich habe starke Schmerzen im Knie.\nI have bad pain in my knee."
+    },
+    {
+      "id": "tb1-u03-l04-body-health-4-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "If the fever doesn't go away, you have to see a doctor.",
+      "tiles": [
+        "zum",
+        "nicht",
+        "das",
+        "du",
+        "lange",
+        "Arzt",
+        "musst",
+        "müde",
+        "Fieber",
+        "ist",
+        "gehen",
+        "Wenn",
+        "weggeht"
+      ],
+      "answers": [
+        "Wenn das Fieber nicht weggeht, musst du zum Arzt gehen."
+      ],
+      "explanation": "**der Arzt** = doctor\n*Plural: die Ärzte*"
+    },
+    {
+      "id": "tb1-u03-l04-body-health-4-ex09",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u03-l04-body-health-4-4.mp3"
+      },
+      "tiles": [
+        "Knie",
+        "starke",
+        "Meine",
+        "habe",
+        "Ich",
+        "sagt",
+        "Schmerzen",
+        "im",
+        "Hände"
+      ],
+      "answers": [
+        "Ich habe starke Schmerzen im Knie."
+      ],
+      "explanation": "Ich habe starke Schmerzen im Knie.\n*I have bad pain in my knee.*\n\n**die Schmerzen (Pl.)** = pain"
+    }
+  ]
+}

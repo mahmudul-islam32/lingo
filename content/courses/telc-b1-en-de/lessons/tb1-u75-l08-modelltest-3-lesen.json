@@ -1,0 +1,993 @@
+{
+  "id": "tb1-u75-l08-modelltest-3-lesen",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u75",
+  "title": "Modelltest 3 · Lesen (tasks 1–20)",
+  "tip": "90 minutes for Lesen + Sprachbausteine together.",
+  "exercises": [
+    {
+      "id": "tb1-u75-l08-modelltest-3-lesen-ex01",
+      "type": "explain",
+      "title": "Modelltest 3: start the 90-minute block",
+      "body": "Lesen + Sprachbausteine, tasks 1–40, one block of **90 minutes**. Start your timer now; the Sprachbausteine follow in the next lesson."
+    },
+    {
+      "id": "tb1-u75-l08-modelltest-3-lesen-ex02",
+      "type": "explain",
+      "title": "Lesen Teil 1 · Aufgaben 1–5",
+      "body": "5 texts, 10 headlines, 5 stay unused. Each headline fits only one text. **5 points per text.**"
+    },
+    {
+      "id": "tb1-u75-l08-modelltest-3-lesen-ex03",
+      "type": "choice",
+      "title": "Aufgabe 1 · Umwelt & Bildung",
+      "passage": "Wegen der hohen Benzinpreise nutzen mehr Menschen Bus und Bahn für den Weg zur Arbeit.",
+      "prompt": "Welche Überschrift passt zu Text 1?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Großeltern helfen oft bei der Kinderbetreuung"
+        },
+        {
+          "id": "b",
+          "text": "Schule sammelt alte Handys für den Umweltschutz"
+        },
+        {
+          "id": "c",
+          "text": "Supermarkt verkauft Gemüse mit kleinen Fehlern günstiger"
+        },
+        {
+          "id": "d",
+          "text": "Supermarkt wirft Gemüse mit Fehlern einfach weg"
+        },
+        {
+          "id": "e",
+          "text": "Eltern lehnen die Hilfe der Großeltern ab"
+        },
+        {
+          "id": "f",
+          "text": "Kostenlose Deutschkurse an der Volkshochschule"
+        },
+        {
+          "id": "g",
+          "text": "Volkshochschule schließt wegen zu weniger Anmeldungen"
+        },
+        {
+          "id": "h",
+          "text": "Hohe Benzinpreise: mehr Menschen fahren mit Bus und Bahn"
+        },
+        {
+          "id": "i",
+          "text": "Schule verkauft neue Handys mit Gewinn"
+        },
+        {
+          "id": "j",
+          "text": "Niedrige Benzinpreise: alle fahren wieder Auto"
+        }
+      ],
+      "correctOptionId": "h",
+      "explanation": "**Answer: H** „Hohe Benzinpreise: mehr Menschen fahren mit Bus und Bahn“\n\nText 1: teures Benzin → mehr Bus/Bahn (Falle J dreht es um)."
+    },
+    {
+      "id": "tb1-u75-l08-modelltest-3-lesen-ex04",
+      "type": "choice",
+      "title": "Aufgabe 2 · Umwelt & Bildung",
+      "passage": "Eine Schule in Köln sammelt alte Handys, um sie zu recyceln und so die Umwelt zu schützen.",
+      "prompt": "Welche Überschrift passt zu Text 2?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Großeltern helfen oft bei der Kinderbetreuung"
+        },
+        {
+          "id": "b",
+          "text": "Schule sammelt alte Handys für den Umweltschutz"
+        },
+        {
+          "id": "c",
+          "text": "Supermarkt verkauft Gemüse mit kleinen Fehlern günstiger"
+        },
+        {
+          "id": "d",
+          "text": "Supermarkt wirft Gemüse mit Fehlern einfach weg"
+        },
+        {
+          "id": "e",
+          "text": "Eltern lehnen die Hilfe der Großeltern ab"
+        },
+        {
+          "id": "f",
+          "text": "Kostenlose Deutschkurse an der Volkshochschule"
+        },
+        {
+          "id": "g",
+          "text": "Volkshochschule schließt wegen zu weniger Anmeldungen"
+        },
+        {
+          "id": "h",
+          "text": "Hohe Benzinpreise: mehr Menschen fahren mit Bus und Bahn"
+        },
+        {
+          "id": "i",
+          "text": "Schule verkauft neue Handys mit Gewinn"
+        },
+        {
+          "id": "j",
+          "text": "Niedrige Benzinpreise: alle fahren wieder Auto"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Answer: B** „Schule sammelt alte Handys für den Umweltschutz“\n\nText 2: Handys sammeln zum Recyceln; Falle I sagt „verkauft neue Handys“."
+    },
+    {
+      "id": "tb1-u75-l08-modelltest-3-lesen-ex05",
+      "type": "choice",
+      "title": "Aufgabe 3 · Umwelt & Bildung",
+      "passage": "Immer mehr Großeltern betreuen ihre Enkelkinder, weil die Eltern berufstätig sind.",
+      "prompt": "Welche Überschrift passt zu Text 3?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Großeltern helfen oft bei der Kinderbetreuung"
+        },
+        {
+          "id": "b",
+          "text": "Schule sammelt alte Handys für den Umweltschutz"
+        },
+        {
+          "id": "c",
+          "text": "Supermarkt verkauft Gemüse mit kleinen Fehlern günstiger"
+        },
+        {
+          "id": "d",
+          "text": "Supermarkt wirft Gemüse mit Fehlern einfach weg"
+        },
+        {
+          "id": "e",
+          "text": "Eltern lehnen die Hilfe der Großeltern ab"
+        },
+        {
+          "id": "f",
+          "text": "Kostenlose Deutschkurse an der Volkshochschule"
+        },
+        {
+          "id": "g",
+          "text": "Volkshochschule schließt wegen zu weniger Anmeldungen"
+        },
+        {
+          "id": "h",
+          "text": "Hohe Benzinpreise: mehr Menschen fahren mit Bus und Bahn"
+        },
+        {
+          "id": "i",
+          "text": "Schule verkauft neue Handys mit Gewinn"
+        },
+        {
+          "id": "j",
+          "text": "Niedrige Benzinpreise: alle fahren wieder Auto"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Answer: A** „Großeltern helfen oft bei der Kinderbetreuung“\n\nText 3: Großeltern betreuen die Enkel. Falle E sagt „lehnen ab“."
+    },
+    {
+      "id": "tb1-u75-l08-modelltest-3-lesen-ex06",
+      "type": "choice",
+      "title": "Aufgabe 4 · Umwelt & Bildung",
+      "passage": "Die Volkshochschule bietet ab Herbst kostenlose Deutschkurse für Anfänger an.",
+      "prompt": "Welche Überschrift passt zu Text 4?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Großeltern helfen oft bei der Kinderbetreuung"
+        },
+        {
+          "id": "b",
+          "text": "Schule sammelt alte Handys für den Umweltschutz"
+        },
+        {
+          "id": "c",
+          "text": "Supermarkt verkauft Gemüse mit kleinen Fehlern günstiger"
+        },
+        {
+          "id": "d",
+          "text": "Supermarkt wirft Gemüse mit Fehlern einfach weg"
+        },
+        {
+          "id": "e",
+          "text": "Eltern lehnen die Hilfe der Großeltern ab"
+        },
+        {
+          "id": "f",
+          "text": "Kostenlose Deutschkurse an der Volkshochschule"
+        },
+        {
+          "id": "g",
+          "text": "Volkshochschule schließt wegen zu weniger Anmeldungen"
+        },
+        {
+          "id": "h",
+          "text": "Hohe Benzinpreise: mehr Menschen fahren mit Bus und Bahn"
+        },
+        {
+          "id": "i",
+          "text": "Schule verkauft neue Handys mit Gewinn"
+        },
+        {
+          "id": "j",
+          "text": "Niedrige Benzinpreise: alle fahren wieder Auto"
+        }
+      ],
+      "correctOptionId": "f",
+      "explanation": "**Answer: F** „Kostenlose Deutschkurse an der Volkshochschule“\n\nText 4: kostenlose Kurse; Falle G spricht von Schließung."
+    },
+    {
+      "id": "tb1-u75-l08-modelltest-3-lesen-ex07",
+      "type": "choice",
+      "title": "Aufgabe 5 · Umwelt & Bildung",
+      "passage": "Ein Supermarkt verkauft Obst und Gemüse mit kleinen Fehlern billiger, um weniger wegwerfen zu müssen.",
+      "prompt": "Welche Überschrift passt zu Text 5?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Großeltern helfen oft bei der Kinderbetreuung"
+        },
+        {
+          "id": "b",
+          "text": "Schule sammelt alte Handys für den Umweltschutz"
+        },
+        {
+          "id": "c",
+          "text": "Supermarkt verkauft Gemüse mit kleinen Fehlern günstiger"
+        },
+        {
+          "id": "d",
+          "text": "Supermarkt wirft Gemüse mit Fehlern einfach weg"
+        },
+        {
+          "id": "e",
+          "text": "Eltern lehnen die Hilfe der Großeltern ab"
+        },
+        {
+          "id": "f",
+          "text": "Kostenlose Deutschkurse an der Volkshochschule"
+        },
+        {
+          "id": "g",
+          "text": "Volkshochschule schließt wegen zu weniger Anmeldungen"
+        },
+        {
+          "id": "h",
+          "text": "Hohe Benzinpreise: mehr Menschen fahren mit Bus und Bahn"
+        },
+        {
+          "id": "i",
+          "text": "Schule verkauft neue Handys mit Gewinn"
+        },
+        {
+          "id": "j",
+          "text": "Niedrige Benzinpreise: alle fahren wieder Auto"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**Answer: C** „Supermarkt verkauft Gemüse mit kleinen Fehlern günstiger“\n\nText 5: „krummes“ Gemüse günstiger, gegen Verschwendung (Falle D: „wirft weg“)."
+    },
+    {
+      "id": "tb1-u75-l08-modelltest-3-lesen-ex08",
+      "type": "explain",
+      "title": "Lesen Teil 2 · Aufgaben 6–10",
+      "body": "One article, 5 questions, a, b or c. **5 points per question.**"
+    },
+    {
+      "id": "tb1-u75-l08-modelltest-3-lesen-ex09",
+      "type": "choice",
+      "title": "Ein Garten für die ganze Nachbarschaft · Aufgabe 6",
+      "passage": "In einem Stadtteil von Hamburg gibt es seit drei Jahren einen Gemeinschaftsgarten. Die Idee hatte Ahmed Yılmaz, ein Rentner, der viel Zeit hatte und neue Leute kennenlernen wollte. Zusammen mit Nachbarn verwandelte er einen leeren Platz in einen grünen Garten.\n\nJeder darf mitmachen und Gemüse anbauen. „Am wichtigsten ist mir, dass sich hier Menschen aus verschiedenen Ländern treffen“, sagt Yılmaz. Am Anfang war die Stadt skeptisch, doch heute unterstützt sie das Projekt sogar mit Geld.\n\nDie Ernte teilen alle miteinander. Was übrig bleibt, spenden sie an eine soziale Einrichtung. Yılmaz möchte bald auch Kurse für Kinder anbieten, damit diese lernen, wie Gemüse wächst.",
+      "prompt": "Warum gründete Ahmed Yılmaz den Garten?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Er wollte damit Geld verdienen."
+        },
+        {
+          "id": "b",
+          "text": "Er hatte Zeit und wollte neue Leute kennenlernen."
+        },
+        {
+          "id": "c",
+          "text": "Er brauchte Gemüse für seine Familie."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Answer: B** „Er hatte Zeit und wollte neue Leute kennenlernen.“\n\n„viel Zeit … neue Leute kennenlernen“."
+    },
+    {
+      "id": "tb1-u75-l08-modelltest-3-lesen-ex10",
+      "type": "choice",
+      "title": "Ein Garten für die ganze Nachbarschaft · Aufgabe 7",
+      "passage": "In einem Stadtteil von Hamburg gibt es seit drei Jahren einen Gemeinschaftsgarten. Die Idee hatte Ahmed Yılmaz, ein Rentner, der viel Zeit hatte und neue Leute kennenlernen wollte. Zusammen mit Nachbarn verwandelte er einen leeren Platz in einen grünen Garten.\n\nJeder darf mitmachen und Gemüse anbauen. „Am wichtigsten ist mir, dass sich hier Menschen aus verschiedenen Ländern treffen“, sagt Yılmaz. Am Anfang war die Stadt skeptisch, doch heute unterstützt sie das Projekt sogar mit Geld.\n\nDie Ernte teilen alle miteinander. Was übrig bleibt, spenden sie an eine soziale Einrichtung. Yılmaz möchte bald auch Kurse für Kinder anbieten, damit diese lernen, wie Gemüse wächst.",
+      "prompt": "Wer darf im Garten mitmachen?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Nur Rentner."
+        },
+        {
+          "id": "b",
+          "text": "Nur Menschen aus Hamburg."
+        },
+        {
+          "id": "c",
+          "text": "Alle, die möchten."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**Answer: C** „Alle, die möchten.“\n\n„Jeder darf mitmachen“."
+    },
+    {
+      "id": "tb1-u75-l08-modelltest-3-lesen-ex11",
+      "type": "choice",
+      "title": "Ein Garten für die ganze Nachbarschaft · Aufgabe 8",
+      "passage": "In einem Stadtteil von Hamburg gibt es seit drei Jahren einen Gemeinschaftsgarten. Die Idee hatte Ahmed Yılmaz, ein Rentner, der viel Zeit hatte und neue Leute kennenlernen wollte. Zusammen mit Nachbarn verwandelte er einen leeren Platz in einen grünen Garten.\n\nJeder darf mitmachen und Gemüse anbauen. „Am wichtigsten ist mir, dass sich hier Menschen aus verschiedenen Ländern treffen“, sagt Yılmaz. Am Anfang war die Stadt skeptisch, doch heute unterstützt sie das Projekt sogar mit Geld.\n\nDie Ernte teilen alle miteinander. Was übrig bleibt, spenden sie an eine soziale Einrichtung. Yılmaz möchte bald auch Kurse für Kinder anbieten, damit diese lernen, wie Gemüse wächst.",
+      "prompt": "Wie reagierte die Stadt auf das Projekt?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Zuerst skeptisch, heute unterstützt sie es."
+        },
+        {
+          "id": "b",
+          "text": "Sie war von Anfang an begeistert."
+        },
+        {
+          "id": "c",
+          "text": "Sie hat es verboten."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Answer: A** „Zuerst skeptisch, heute unterstützt sie es.“\n\nMeinungswechsel: „am Anfang skeptisch, doch heute unterstützt sie es“."
+    },
+    {
+      "id": "tb1-u75-l08-modelltest-3-lesen-ex12",
+      "type": "choice",
+      "title": "Ein Garten für die ganze Nachbarschaft · Aufgabe 9",
+      "passage": "In einem Stadtteil von Hamburg gibt es seit drei Jahren einen Gemeinschaftsgarten. Die Idee hatte Ahmed Yılmaz, ein Rentner, der viel Zeit hatte und neue Leute kennenlernen wollte. Zusammen mit Nachbarn verwandelte er einen leeren Platz in einen grünen Garten.\n\nJeder darf mitmachen und Gemüse anbauen. „Am wichtigsten ist mir, dass sich hier Menschen aus verschiedenen Ländern treffen“, sagt Yılmaz. Am Anfang war die Stadt skeptisch, doch heute unterstützt sie das Projekt sogar mit Geld.\n\nDie Ernte teilen alle miteinander. Was übrig bleibt, spenden sie an eine soziale Einrichtung. Yılmaz möchte bald auch Kurse für Kinder anbieten, damit diese lernen, wie Gemüse wächst.",
+      "prompt": "Was passiert mit dem übrigen Gemüse?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Es wird verkauft."
+        },
+        {
+          "id": "b",
+          "text": "Es wird weggeworfen."
+        },
+        {
+          "id": "c",
+          "text": "Es wird gespendet."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**Answer: C** „Es wird gespendet.“\n\n„spenden sie an eine soziale Einrichtung“."
+    },
+    {
+      "id": "tb1-u75-l08-modelltest-3-lesen-ex13",
+      "type": "choice",
+      "title": "Ein Garten für die ganze Nachbarschaft · Aufgabe 10",
+      "passage": "In einem Stadtteil von Hamburg gibt es seit drei Jahren einen Gemeinschaftsgarten. Die Idee hatte Ahmed Yılmaz, ein Rentner, der viel Zeit hatte und neue Leute kennenlernen wollte. Zusammen mit Nachbarn verwandelte er einen leeren Platz in einen grünen Garten.\n\nJeder darf mitmachen und Gemüse anbauen. „Am wichtigsten ist mir, dass sich hier Menschen aus verschiedenen Ländern treffen“, sagt Yılmaz. Am Anfang war die Stadt skeptisch, doch heute unterstützt sie das Projekt sogar mit Geld.\n\nDie Ernte teilen alle miteinander. Was übrig bleibt, spenden sie an eine soziale Einrichtung. Yılmaz möchte bald auch Kurse für Kinder anbieten, damit diese lernen, wie Gemüse wächst.",
+      "prompt": "Was möchte Yılmaz in Zukunft tun?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Kurse für Kinder anbieten."
+        },
+        {
+          "id": "b",
+          "text": "Den Garten wieder schließen."
+        },
+        {
+          "id": "c",
+          "text": "Das Gemüse teurer verkaufen."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Answer: A** „Kurse für Kinder anbieten.“\n\n„Kurse für Kinder anbieten“."
+    },
+    {
+      "id": "tb1-u75-l08-modelltest-3-lesen-ex14",
+      "type": "explain",
+      "title": "Lesen Teil 3 · Aufgaben 11–20",
+      "body": "10 situations, 12 ads. Each ad fits at most once; x = no ad fits (one unrelated ad is left out of each list here). **2.5 points per situation.**"
+    },
+    {
+      "id": "tb1-u75-l08-modelltest-3-lesen-ex15",
+      "type": "choice",
+      "title": "Aufgabe 11 · Job & Reisen",
+      "passage": "Sie suchen einen Ferienjob für den Sommer.",
+      "prompt": "Welche Anzeige passt? Wenn keine passt: x.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Spanischkurs für Anfänger, ideal vor dem Urlaub."
+        },
+        {
+          "id": "b",
+          "text": "Verkaufe gut erhaltenes Auto, wenig Kilometer, TÜV neu."
+        },
+        {
+          "id": "c",
+          "text": "Familienhotel Seeblick: mit Hallenbad und großem Spielplatz."
+        },
+        {
+          "id": "d",
+          "text": "Autowäsche und Politur zum kleinen Preis."
+        },
+        {
+          "id": "e",
+          "text": "Günstige Flüge nach München, jetzt online buchen!"
+        },
+        {
+          "id": "f",
+          "text": "Wandergruppe Bergfreunde: gemeinsame Touren am Wochenende."
+        },
+        {
+          "id": "g",
+          "text": "Kindergarten Sonnenschein: noch freie Plätze ab September."
+        },
+        {
+          "id": "h",
+          "text": "Reinigungsfirma Sauber: Büro- und Praxisreinigung."
+        },
+        {
+          "id": "i",
+          "text": "Mit dem Sparpreis-Ticket günstig mit der Bahn durch ganz Deutschland."
+        },
+        {
+          "id": "j",
+          "text": "Erdbeerhof sucht Erntehelfer für die Sommermonate."
+        },
+        {
+          "id": "k",
+          "text": "Tanzschule Rhythmus: Kurse für Paare, jeden Freitag."
+        },
+        {
+          "id": "l",
+          "text": "Keine Anzeige passt (x)"
+        }
+      ],
+      "correctOptionId": "j",
+      "explanation": "**Answer: J** „Erdbeerhof sucht Erntehelfer für die Sommermonate.“\n\n*Bedingungen:* Ferienjob + Sommer"
+    },
+    {
+      "id": "tb1-u75-l08-modelltest-3-lesen-ex16",
+      "type": "choice",
+      "title": "Aufgabe 12 · Job & Reisen",
+      "passage": "Sie möchten mit dem Zug günstig nach München fahren.",
+      "prompt": "Welche Anzeige passt? Wenn keine passt: x.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Spanischkurs für Anfänger, ideal vor dem Urlaub."
+        },
+        {
+          "id": "b",
+          "text": "Verkaufe gut erhaltenes Auto, wenig Kilometer, TÜV neu."
+        },
+        {
+          "id": "c",
+          "text": "Familienhotel Seeblick: mit Hallenbad und großem Spielplatz."
+        },
+        {
+          "id": "d",
+          "text": "Autowäsche und Politur zum kleinen Preis."
+        },
+        {
+          "id": "e",
+          "text": "Günstige Flüge nach München, jetzt online buchen!"
+        },
+        {
+          "id": "f",
+          "text": "Wandergruppe Bergfreunde: gemeinsame Touren am Wochenende."
+        },
+        {
+          "id": "g",
+          "text": "Kindergarten Sonnenschein: noch freie Plätze ab September."
+        },
+        {
+          "id": "h",
+          "text": "Reinigungsfirma Sauber: Büro- und Praxisreinigung."
+        },
+        {
+          "id": "i",
+          "text": "Mit dem Sparpreis-Ticket günstig mit der Bahn durch ganz Deutschland."
+        },
+        {
+          "id": "j",
+          "text": "Erdbeerhof sucht Erntehelfer für die Sommermonate."
+        },
+        {
+          "id": "k",
+          "text": "Tanzschule Rhythmus: Kurse für Paare, jeden Freitag."
+        },
+        {
+          "id": "l",
+          "text": "Keine Anzeige passt (x)"
+        }
+      ],
+      "correctOptionId": "i",
+      "explanation": "**Answer: I** „Mit dem Sparpreis-Ticket günstig mit der Bahn durch ganz Deutschland.“\n\n*Bedingungen:* Zug nach München + günstig\n\nAnzeige „Günstige Flüge nach München, …“ fährt zwar nach München, aber mit dem Flugzeug, nicht mit dem Zug."
+    },
+    {
+      "id": "tb1-u75-l08-modelltest-3-lesen-ex17",
+      "type": "choice",
+      "title": "Aufgabe 13 · Job & Reisen",
+      "passage": "Ihre Familie sucht ein Hotel mit Schwimmbad für den Urlaub.",
+      "prompt": "Welche Anzeige passt? Wenn keine passt: x.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Spanischkurs für Anfänger, ideal vor dem Urlaub."
+        },
+        {
+          "id": "b",
+          "text": "Verkaufe gut erhaltenes Auto, wenig Kilometer, TÜV neu."
+        },
+        {
+          "id": "c",
+          "text": "Familienhotel Seeblick: mit Hallenbad und großem Spielplatz."
+        },
+        {
+          "id": "d",
+          "text": "Autowäsche und Politur zum kleinen Preis."
+        },
+        {
+          "id": "e",
+          "text": "Günstige Flüge nach München, jetzt online buchen!"
+        },
+        {
+          "id": "f",
+          "text": "Wandergruppe Bergfreunde: gemeinsame Touren am Wochenende."
+        },
+        {
+          "id": "g",
+          "text": "Kindergarten Sonnenschein: noch freie Plätze ab September."
+        },
+        {
+          "id": "h",
+          "text": "Reinigungsfirma Sauber: Büro- und Praxisreinigung."
+        },
+        {
+          "id": "i",
+          "text": "Mit dem Sparpreis-Ticket günstig mit der Bahn durch ganz Deutschland."
+        },
+        {
+          "id": "j",
+          "text": "Erdbeerhof sucht Erntehelfer für die Sommermonate."
+        },
+        {
+          "id": "k",
+          "text": "Tanzschule Rhythmus: Kurse für Paare, jeden Freitag."
+        },
+        {
+          "id": "l",
+          "text": "Keine Anzeige passt (x)"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**Answer: C** „Familienhotel Seeblick: mit Hallenbad und großem Spielplatz.“\n\n*Bedingungen:* Hotel mit Schwimmbad + Familie/Urlaub"
+    },
+    {
+      "id": "tb1-u75-l08-modelltest-3-lesen-ex18",
+      "type": "choice",
+      "title": "Aufgabe 14 · Job & Reisen",
+      "passage": "Sie wollen vor einer Reise Spanisch lernen.",
+      "prompt": "Welche Anzeige passt? Wenn keine passt: x.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Spanischkurs für Anfänger, ideal vor dem Urlaub."
+        },
+        {
+          "id": "b",
+          "text": "Verkaufe gut erhaltenes Auto, wenig Kilometer, TÜV neu."
+        },
+        {
+          "id": "c",
+          "text": "Familienhotel Seeblick: mit Hallenbad und großem Spielplatz."
+        },
+        {
+          "id": "d",
+          "text": "Autowäsche und Politur zum kleinen Preis."
+        },
+        {
+          "id": "e",
+          "text": "Günstige Flüge nach München, jetzt online buchen!"
+        },
+        {
+          "id": "f",
+          "text": "Wandergruppe Bergfreunde: gemeinsame Touren am Wochenende."
+        },
+        {
+          "id": "g",
+          "text": "Kindergarten Sonnenschein: noch freie Plätze ab September."
+        },
+        {
+          "id": "h",
+          "text": "Reinigungsfirma Sauber: Büro- und Praxisreinigung."
+        },
+        {
+          "id": "i",
+          "text": "Mit dem Sparpreis-Ticket günstig mit der Bahn durch ganz Deutschland."
+        },
+        {
+          "id": "j",
+          "text": "Erdbeerhof sucht Erntehelfer für die Sommermonate."
+        },
+        {
+          "id": "k",
+          "text": "Tanzschule Rhythmus: Kurse für Paare, jeden Freitag."
+        },
+        {
+          "id": "l",
+          "text": "Keine Anzeige passt (x)"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Answer: A** „Spanischkurs für Anfänger, ideal vor dem Urlaub.“\n\n*Bedingungen:* Spanischkurs + für Anfänger"
+    },
+    {
+      "id": "tb1-u75-l08-modelltest-3-lesen-ex19",
+      "type": "choice",
+      "title": "Aufgabe 15 · Job & Reisen",
+      "passage": "Sie suchen einen Tanzkurs für Paare.",
+      "prompt": "Welche Anzeige passt? Wenn keine passt: x.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Spanischkurs für Anfänger, ideal vor dem Urlaub."
+        },
+        {
+          "id": "b",
+          "text": "Verkaufe gut erhaltenes Auto, wenig Kilometer, TÜV neu."
+        },
+        {
+          "id": "c",
+          "text": "Familienhotel Seeblick: mit Hallenbad und großem Spielplatz."
+        },
+        {
+          "id": "d",
+          "text": "Autowäsche und Politur zum kleinen Preis."
+        },
+        {
+          "id": "e",
+          "text": "Günstige Flüge nach München, jetzt online buchen!"
+        },
+        {
+          "id": "f",
+          "text": "Wandergruppe Bergfreunde: gemeinsame Touren am Wochenende."
+        },
+        {
+          "id": "g",
+          "text": "Kindergarten Sonnenschein: noch freie Plätze ab September."
+        },
+        {
+          "id": "h",
+          "text": "Reinigungsfirma Sauber: Büro- und Praxisreinigung."
+        },
+        {
+          "id": "i",
+          "text": "Mit dem Sparpreis-Ticket günstig mit der Bahn durch ganz Deutschland."
+        },
+        {
+          "id": "j",
+          "text": "Erdbeerhof sucht Erntehelfer für die Sommermonate."
+        },
+        {
+          "id": "k",
+          "text": "Tanzschule Rhythmus: Kurse für Paare, jeden Freitag."
+        },
+        {
+          "id": "l",
+          "text": "Keine Anzeige passt (x)"
+        }
+      ],
+      "correctOptionId": "k",
+      "explanation": "**Answer: K** „Tanzschule Rhythmus: Kurse für Paare, jeden Freitag.“\n\n*Bedingungen:* Tanzkurs + für Paare"
+    },
+    {
+      "id": "tb1-u75-l08-modelltest-3-lesen-ex20",
+      "type": "choice",
+      "title": "Aufgabe 16 · Job & Reisen",
+      "passage": "Sie möchten Ihr Auto verkaufen.",
+      "prompt": "Welche Anzeige passt? Wenn keine passt: x.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Spanischkurs für Anfänger, ideal vor dem Urlaub."
+        },
+        {
+          "id": "b",
+          "text": "Verkaufe gut erhaltenes Auto, wenig Kilometer, TÜV neu."
+        },
+        {
+          "id": "c",
+          "text": "Familienhotel Seeblick: mit Hallenbad und großem Spielplatz."
+        },
+        {
+          "id": "d",
+          "text": "Autowäsche und Politur zum kleinen Preis."
+        },
+        {
+          "id": "e",
+          "text": "Günstige Flüge nach München, jetzt online buchen!"
+        },
+        {
+          "id": "f",
+          "text": "Wandergruppe Bergfreunde: gemeinsame Touren am Wochenende."
+        },
+        {
+          "id": "g",
+          "text": "Kindergarten Sonnenschein: noch freie Plätze ab September."
+        },
+        {
+          "id": "h",
+          "text": "Reinigungsfirma Sauber: Büro- und Praxisreinigung."
+        },
+        {
+          "id": "i",
+          "text": "Mit dem Sparpreis-Ticket günstig mit der Bahn durch ganz Deutschland."
+        },
+        {
+          "id": "j",
+          "text": "Erdbeerhof sucht Erntehelfer für die Sommermonate."
+        },
+        {
+          "id": "k",
+          "text": "Tanzschule Rhythmus: Kurse für Paare, jeden Freitag."
+        },
+        {
+          "id": "l",
+          "text": "Keine Anzeige passt (x)"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Answer: B** „Verkaufe gut erhaltenes Auto, wenig Kilometer, TÜV neu.“\n\n*Bedingungen:* Auto + verkaufen\n\nAnzeige „Autowäsche und Politur zum …“ (Autowäsche) ist der Ablenker, kein Verkauf."
+    },
+    {
+      "id": "tb1-u75-l08-modelltest-3-lesen-ex21",
+      "type": "choice",
+      "title": "Aufgabe 17 · Job & Reisen",
+      "passage": "Sie brauchen eine Reinigungskraft für Ihr Büro.",
+      "prompt": "Welche Anzeige passt? Wenn keine passt: x.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Spanischkurs für Anfänger, ideal vor dem Urlaub."
+        },
+        {
+          "id": "b",
+          "text": "Verkaufe gut erhaltenes Auto, wenig Kilometer, TÜV neu."
+        },
+        {
+          "id": "c",
+          "text": "Familienhotel Seeblick: mit Hallenbad und großem Spielplatz."
+        },
+        {
+          "id": "d",
+          "text": "Autowäsche und Politur zum kleinen Preis."
+        },
+        {
+          "id": "e",
+          "text": "Günstige Flüge nach München, jetzt online buchen!"
+        },
+        {
+          "id": "f",
+          "text": "Wandergruppe Bergfreunde: gemeinsame Touren am Wochenende."
+        },
+        {
+          "id": "g",
+          "text": "Kindergarten Sonnenschein: noch freie Plätze ab September."
+        },
+        {
+          "id": "h",
+          "text": "Reinigungsfirma Sauber: Büro- und Praxisreinigung."
+        },
+        {
+          "id": "i",
+          "text": "Mit dem Sparpreis-Ticket günstig mit der Bahn durch ganz Deutschland."
+        },
+        {
+          "id": "j",
+          "text": "Erdbeerhof sucht Erntehelfer für die Sommermonate."
+        },
+        {
+          "id": "k",
+          "text": "Tanzschule Rhythmus: Kurse für Paare, jeden Freitag."
+        },
+        {
+          "id": "l",
+          "text": "Keine Anzeige passt (x)"
+        }
+      ],
+      "correctOptionId": "h",
+      "explanation": "**Answer: H** „Reinigungsfirma Sauber: Büro- und Praxisreinigung.“\n\n*Bedingungen:* Reinigung + Büro"
+    },
+    {
+      "id": "tb1-u75-l08-modelltest-3-lesen-ex22",
+      "type": "choice",
+      "title": "Aufgabe 18 · Job & Reisen",
+      "passage": "Sie suchen einen Arzt, der auch am Abend Sprechstunde hat.",
+      "prompt": "Welche Anzeige passt? Wenn keine passt: x.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Spanischkurs für Anfänger, ideal vor dem Urlaub."
+        },
+        {
+          "id": "b",
+          "text": "Verkaufe gut erhaltenes Auto, wenig Kilometer, TÜV neu."
+        },
+        {
+          "id": "c",
+          "text": "Familienhotel Seeblick: mit Hallenbad und großem Spielplatz."
+        },
+        {
+          "id": "d",
+          "text": "Autowäsche und Politur zum kleinen Preis."
+        },
+        {
+          "id": "e",
+          "text": "Günstige Flüge nach München, jetzt online buchen!"
+        },
+        {
+          "id": "f",
+          "text": "Wandergruppe Bergfreunde: gemeinsame Touren am Wochenende."
+        },
+        {
+          "id": "g",
+          "text": "Kindergarten Sonnenschein: noch freie Plätze ab September."
+        },
+        {
+          "id": "h",
+          "text": "Reinigungsfirma Sauber: Büro- und Praxisreinigung."
+        },
+        {
+          "id": "i",
+          "text": "Mit dem Sparpreis-Ticket günstig mit der Bahn durch ganz Deutschland."
+        },
+        {
+          "id": "j",
+          "text": "Erdbeerhof sucht Erntehelfer für die Sommermonate."
+        },
+        {
+          "id": "k",
+          "text": "Hausarztpraxis Dr. Klein: Sprechstunde nur Mo–Fr von 8 bis 12 Uhr."
+        },
+        {
+          "id": "l",
+          "text": "Keine Anzeige passt (x)"
+        }
+      ],
+      "correctOptionId": "l",
+      "explanation": "**Answer: L** x · keine Anzeige passt\n\n*Bedingungen:* Arzt + Abendsprechstunde\n\nAnzeige „Hausarztpraxis Dr. Klein: Sprechstunde …“ hat nur vormittags Sprechstunde (Mo–Fr 8–12), keine Abendsprechstunde → x."
+    },
+    {
+      "id": "tb1-u75-l08-modelltest-3-lesen-ex23",
+      "type": "choice",
+      "title": "Aufgabe 19 · Job & Reisen",
+      "passage": "Sie möchten am Wochenende mit einer Gruppe wandern gehen.",
+      "prompt": "Welche Anzeige passt? Wenn keine passt: x.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Spanischkurs für Anfänger, ideal vor dem Urlaub."
+        },
+        {
+          "id": "b",
+          "text": "Verkaufe gut erhaltenes Auto, wenig Kilometer, TÜV neu."
+        },
+        {
+          "id": "c",
+          "text": "Familienhotel Seeblick: mit Hallenbad und großem Spielplatz."
+        },
+        {
+          "id": "d",
+          "text": "Autowäsche und Politur zum kleinen Preis."
+        },
+        {
+          "id": "e",
+          "text": "Günstige Flüge nach München, jetzt online buchen!"
+        },
+        {
+          "id": "f",
+          "text": "Wandergruppe Bergfreunde: gemeinsame Touren am Wochenende."
+        },
+        {
+          "id": "g",
+          "text": "Kindergarten Sonnenschein: noch freie Plätze ab September."
+        },
+        {
+          "id": "h",
+          "text": "Reinigungsfirma Sauber: Büro- und Praxisreinigung."
+        },
+        {
+          "id": "i",
+          "text": "Mit dem Sparpreis-Ticket günstig mit der Bahn durch ganz Deutschland."
+        },
+        {
+          "id": "j",
+          "text": "Erdbeerhof sucht Erntehelfer für die Sommermonate."
+        },
+        {
+          "id": "k",
+          "text": "Tanzschule Rhythmus: Kurse für Paare, jeden Freitag."
+        },
+        {
+          "id": "l",
+          "text": "Keine Anzeige passt (x)"
+        }
+      ],
+      "correctOptionId": "f",
+      "explanation": "**Answer: F** „Wandergruppe Bergfreunde: gemeinsame Touren am Wochenende.“\n\n*Bedingungen:* Wandern in der Gruppe + Wochenende"
+    },
+    {
+      "id": "tb1-u75-l08-modelltest-3-lesen-ex24",
+      "type": "choice",
+      "title": "Aufgabe 20 · Job & Reisen",
+      "passage": "Sie suchen einen Kindergartenplatz für Ihren Sohn.",
+      "prompt": "Welche Anzeige passt? Wenn keine passt: x.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Spanischkurs für Anfänger, ideal vor dem Urlaub."
+        },
+        {
+          "id": "b",
+          "text": "Verkaufe gut erhaltenes Auto, wenig Kilometer, TÜV neu."
+        },
+        {
+          "id": "c",
+          "text": "Familienhotel Seeblick: mit Hallenbad und großem Spielplatz."
+        },
+        {
+          "id": "d",
+          "text": "Autowäsche und Politur zum kleinen Preis."
+        },
+        {
+          "id": "e",
+          "text": "Günstige Flüge nach München, jetzt online buchen!"
+        },
+        {
+          "id": "f",
+          "text": "Wandergruppe Bergfreunde: gemeinsame Touren am Wochenende."
+        },
+        {
+          "id": "g",
+          "text": "Kindergarten Sonnenschein: noch freie Plätze ab September."
+        },
+        {
+          "id": "h",
+          "text": "Reinigungsfirma Sauber: Büro- und Praxisreinigung."
+        },
+        {
+          "id": "i",
+          "text": "Mit dem Sparpreis-Ticket günstig mit der Bahn durch ganz Deutschland."
+        },
+        {
+          "id": "j",
+          "text": "Erdbeerhof sucht Erntehelfer für die Sommermonate."
+        },
+        {
+          "id": "k",
+          "text": "Tanzschule Rhythmus: Kurse für Paare, jeden Freitag."
+        },
+        {
+          "id": "l",
+          "text": "Keine Anzeige passt (x)"
+        }
+      ],
+      "correctOptionId": "g",
+      "explanation": "**Answer: G** „Kindergarten Sonnenschein: noch freie Plätze ab September.“\n\n*Bedingungen:* Kindergarten + freier Platz"
+    }
+  ]
+}

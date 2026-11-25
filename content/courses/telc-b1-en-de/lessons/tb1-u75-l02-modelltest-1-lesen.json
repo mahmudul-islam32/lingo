@@ -1,0 +1,993 @@
+{
+  "id": "tb1-u75-l02-modelltest-1-lesen",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u75",
+  "title": "Modelltest 1 · Lesen (tasks 1–20)",
+  "tip": "90 minutes for Lesen + Sprachbausteine together.",
+  "exercises": [
+    {
+      "id": "tb1-u75-l02-modelltest-1-lesen-ex01",
+      "type": "explain",
+      "title": "Modelltest 1: start the 90-minute block",
+      "body": "Lesen + Sprachbausteine, tasks 1–40, one block of **90 minutes**. Start your timer now; the Sprachbausteine follow in the next lesson."
+    },
+    {
+      "id": "tb1-u75-l02-modelltest-1-lesen-ex02",
+      "type": "explain",
+      "title": "Lesen Teil 1 · Aufgaben 1–5",
+      "body": "5 texts, 10 headlines, 5 stay unused. Each headline fits only one text. **5 points per text.**"
+    },
+    {
+      "id": "tb1-u75-l02-modelltest-1-lesen-ex03",
+      "type": "choice",
+      "title": "Aufgabe 1 · Alltag & Umwelt",
+      "passage": "Immer mehr Menschen in Deutschland fahren mit dem Fahrrad zur Arbeit. Eine Studie zeigt: Radfahrer sind seltener krank und kommen oft entspannter im Büro an.",
+      "prompt": "Welche Überschrift passt zu Text 1?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Universität baut neue günstige Wohnungen"
+        },
+        {
+          "id": "b",
+          "text": "Kaltes Wetter verzögert die Freibad-Saison"
+        },
+        {
+          "id": "c",
+          "text": "Radfahrer werden häufiger krank"
+        },
+        {
+          "id": "d",
+          "text": "Studenten klagen über hohe Mieten"
+        },
+        {
+          "id": "e",
+          "text": "Radfahren hält gesund und entspannt"
+        },
+        {
+          "id": "f",
+          "text": "Neue Radwege sorgen für Staus in Freiburg"
+        },
+        {
+          "id": "g",
+          "text": "Bücher tauschen im Café: beliebt bei jungen Leuten"
+        },
+        {
+          "id": "h",
+          "text": "Autofahrer profitieren von neuen Radwegen"
+        },
+        {
+          "id": "i",
+          "text": "Freibäder öffnen dieses Jahr früher"
+        },
+        {
+          "id": "j",
+          "text": "Café verkauft seltene Bücher teuer"
+        }
+      ],
+      "correctOptionId": "e",
+      "explanation": "**Answer: E** „Radfahren hält gesund und entspannt“\n\nText 1 = Radfahren macht gesund/entspannt. Falle C sagt das Gegenteil („häufiger krank“)."
+    },
+    {
+      "id": "tb1-u75-l02-modelltest-1-lesen-ex04",
+      "type": "choice",
+      "title": "Aufgabe 2 · Alltag & Umwelt",
+      "passage": "Die Stadt Freiburg baut ab Mai neue Radwege. Autofahrer müssen deshalb in der Innenstadt mit Staus rechnen.",
+      "prompt": "Welche Überschrift passt zu Text 2?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Universität baut neue günstige Wohnungen"
+        },
+        {
+          "id": "b",
+          "text": "Kaltes Wetter verzögert die Freibad-Saison"
+        },
+        {
+          "id": "c",
+          "text": "Radfahrer werden häufiger krank"
+        },
+        {
+          "id": "d",
+          "text": "Studenten klagen über hohe Mieten"
+        },
+        {
+          "id": "e",
+          "text": "Radfahren hält gesund und entspannt"
+        },
+        {
+          "id": "f",
+          "text": "Neue Radwege sorgen für Staus in Freiburg"
+        },
+        {
+          "id": "g",
+          "text": "Bücher tauschen im Café: beliebt bei jungen Leuten"
+        },
+        {
+          "id": "h",
+          "text": "Autofahrer profitieren von neuen Radwegen"
+        },
+        {
+          "id": "i",
+          "text": "Freibäder öffnen dieses Jahr früher"
+        },
+        {
+          "id": "j",
+          "text": "Café verkauft seltene Bücher teuer"
+        }
+      ],
+      "correctOptionId": "f",
+      "explanation": "**Answer: F** „Neue Radwege sorgen für Staus in Freiburg“\n\nText 2: neue Radwege → Staus für Autofahrer. Falle H dreht es um („profitieren“)."
+    },
+    {
+      "id": "tb1-u75-l02-modelltest-1-lesen-ex05",
+      "type": "choice",
+      "title": "Aufgabe 3 · Alltag & Umwelt",
+      "passage": "Ein neues Café in der Bahnhofstraße bietet nicht nur Kaffee, sondern auch Bücher zum Tauschen an. Die Idee kommt bei jungen Leuten gut an.",
+      "prompt": "Welche Überschrift passt zu Text 3?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Universität baut neue günstige Wohnungen"
+        },
+        {
+          "id": "b",
+          "text": "Kaltes Wetter verzögert die Freibad-Saison"
+        },
+        {
+          "id": "c",
+          "text": "Radfahrer werden häufiger krank"
+        },
+        {
+          "id": "d",
+          "text": "Studenten klagen über hohe Mieten"
+        },
+        {
+          "id": "e",
+          "text": "Radfahren hält gesund und entspannt"
+        },
+        {
+          "id": "f",
+          "text": "Neue Radwege sorgen für Staus in Freiburg"
+        },
+        {
+          "id": "g",
+          "text": "Bücher tauschen im Café: beliebt bei jungen Leuten"
+        },
+        {
+          "id": "h",
+          "text": "Autofahrer profitieren von neuen Radwegen"
+        },
+        {
+          "id": "i",
+          "text": "Freibäder öffnen dieses Jahr früher"
+        },
+        {
+          "id": "j",
+          "text": "Café verkauft seltene Bücher teuer"
+        }
+      ],
+      "correctOptionId": "g",
+      "explanation": "**Answer: G** „Bücher tauschen im Café: beliebt bei jungen Leuten“\n\nText 3: Bücher werden getauscht, nicht teuer verkauft (Falle J recycelt „Bücher“)."
+    },
+    {
+      "id": "tb1-u75-l02-modelltest-1-lesen-ex06",
+      "type": "choice",
+      "title": "Aufgabe 4 · Alltag & Umwelt",
+      "passage": "Wegen des warmen Wetters öffnen viele Freibäder in diesem Jahr schon im April. Normalerweise beginnt die Saison erst im Mai.",
+      "prompt": "Welche Überschrift passt zu Text 4?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Universität baut neue günstige Wohnungen"
+        },
+        {
+          "id": "b",
+          "text": "Kaltes Wetter verzögert die Freibad-Saison"
+        },
+        {
+          "id": "c",
+          "text": "Radfahrer werden häufiger krank"
+        },
+        {
+          "id": "d",
+          "text": "Studenten klagen über hohe Mieten"
+        },
+        {
+          "id": "e",
+          "text": "Radfahren hält gesund und entspannt"
+        },
+        {
+          "id": "f",
+          "text": "Neue Radwege sorgen für Staus in Freiburg"
+        },
+        {
+          "id": "g",
+          "text": "Bücher tauschen im Café: beliebt bei jungen Leuten"
+        },
+        {
+          "id": "h",
+          "text": "Autofahrer profitieren von neuen Radwegen"
+        },
+        {
+          "id": "i",
+          "text": "Freibäder öffnen dieses Jahr früher"
+        },
+        {
+          "id": "j",
+          "text": "Café verkauft seltene Bücher teuer"
+        }
+      ],
+      "correctOptionId": "i",
+      "explanation": "**Answer: I** „Freibäder öffnen dieses Jahr früher“\n\nText 4: warmes Wetter → früher offen. Falle B sagt „kaltes Wetter … verzögert“."
+    },
+    {
+      "id": "tb1-u75-l02-modelltest-1-lesen-ex07",
+      "type": "choice",
+      "title": "Aufgabe 5 · Alltag & Umwelt",
+      "passage": "Eine Umfrage unter Studenten zeigt: Viele wünschen sich günstigere Wohnungen in der Nähe der Universität. Die hohen Mieten sind ihr größtes Problem.",
+      "prompt": "Welche Überschrift passt zu Text 5?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Universität baut neue günstige Wohnungen"
+        },
+        {
+          "id": "b",
+          "text": "Kaltes Wetter verzögert die Freibad-Saison"
+        },
+        {
+          "id": "c",
+          "text": "Radfahrer werden häufiger krank"
+        },
+        {
+          "id": "d",
+          "text": "Studenten klagen über hohe Mieten"
+        },
+        {
+          "id": "e",
+          "text": "Radfahren hält gesund und entspannt"
+        },
+        {
+          "id": "f",
+          "text": "Neue Radwege sorgen für Staus in Freiburg"
+        },
+        {
+          "id": "g",
+          "text": "Bücher tauschen im Café: beliebt bei jungen Leuten"
+        },
+        {
+          "id": "h",
+          "text": "Autofahrer profitieren von neuen Radwegen"
+        },
+        {
+          "id": "i",
+          "text": "Freibäder öffnen dieses Jahr früher"
+        },
+        {
+          "id": "j",
+          "text": "Café verkauft seltene Bücher teuer"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**Answer: D** „Studenten klagen über hohe Mieten“\n\nText 5: Studenten klagen über Mieten. Falle A erfindet einen Neubau."
+    },
+    {
+      "id": "tb1-u75-l02-modelltest-1-lesen-ex08",
+      "type": "explain",
+      "title": "Lesen Teil 2 · Aufgaben 6–10",
+      "body": "One article, 5 questions, a, b or c. **5 points per question.**"
+    },
+    {
+      "id": "tb1-u75-l02-modelltest-1-lesen-ex09",
+      "type": "choice",
+      "title": "Lebensmittel retten statt wegwerfen · Aufgabe 6",
+      "passage": "In Deutschland landen jedes Jahr viele Tonnen Lebensmittel im Müll, obwohl sie noch gut sind. Die 34-jährige Lena Berger aus Leipzig wollte das nicht länger akzeptieren. Vor drei Jahren gründete sie eine kleine Gruppe, die Lebensmittel von Supermärkten und Bäckereien abholt, bevor diese sie wegwerfen. „Am Anfang waren wir nur zu dritt“, erzählt Berger, „heute sind wir über fünfzig Freiwillige.“\n\nDie Gruppe verteilt die geretteten Lebensmittel kostenlos an alle, die sie brauchen können. Wichtig ist Berger dabei, dass niemand sich schämen muss: „Es geht nicht nur um arme Menschen. Jeder darf kommen.“ Anfangs war es schwer, Geschäfte zu überzeugen, viele hatten Angst vor rechtlichen Problemen. Inzwischen arbeiten aber mehr als zwanzig Läden mit der Gruppe zusammen.\n\nBerger macht die Arbeit ehrenamtlich, neben ihrem Beruf als Krankenschwester. Manchmal sei es anstrengend, sagt sie, aber die Dankbarkeit der Menschen gebe ihr viel zurück. In Zukunft möchte sie auch Schulen besuchen und Kindern erklären, warum man Lebensmittel nicht wegwerfen sollte.",
+      "prompt": "Warum gründete Lena Berger ihre Gruppe?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Weil sie ihren Job verloren hatte."
+        },
+        {
+          "id": "b",
+          "text": "Weil sie es schlecht fand, dass gute Lebensmittel weggeworfen werden."
+        },
+        {
+          "id": "c",
+          "text": "Weil sie ein eigenes Geschäft eröffnen wollte."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Answer: B** „Weil sie es schlecht fand, dass gute Lebensmittel weggeworfen werden.“\n\n„wollte das nicht länger akzeptieren“ = sie fand es schlecht. A/C stehen nicht im Text."
+    },
+    {
+      "id": "tb1-u75-l02-modelltest-1-lesen-ex10",
+      "type": "choice",
+      "title": "Lebensmittel retten statt wegwerfen · Aufgabe 7",
+      "passage": "In Deutschland landen jedes Jahr viele Tonnen Lebensmittel im Müll, obwohl sie noch gut sind. Die 34-jährige Lena Berger aus Leipzig wollte das nicht länger akzeptieren. Vor drei Jahren gründete sie eine kleine Gruppe, die Lebensmittel von Supermärkten und Bäckereien abholt, bevor diese sie wegwerfen. „Am Anfang waren wir nur zu dritt“, erzählt Berger, „heute sind wir über fünfzig Freiwillige.“\n\nDie Gruppe verteilt die geretteten Lebensmittel kostenlos an alle, die sie brauchen können. Wichtig ist Berger dabei, dass niemand sich schämen muss: „Es geht nicht nur um arme Menschen. Jeder darf kommen.“ Anfangs war es schwer, Geschäfte zu überzeugen, viele hatten Angst vor rechtlichen Problemen. Inzwischen arbeiten aber mehr als zwanzig Läden mit der Gruppe zusammen.\n\nBerger macht die Arbeit ehrenamtlich, neben ihrem Beruf als Krankenschwester. Manchmal sei es anstrengend, sagt sie, aber die Dankbarkeit der Menschen gebe ihr viel zurück. In Zukunft möchte sie auch Schulen besuchen und Kindern erklären, warum man Lebensmittel nicht wegwerfen sollte.",
+      "prompt": "Wie hat sich die Gruppe entwickelt?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Sie ist deutlich größer geworden."
+        },
+        {
+          "id": "b",
+          "text": "Sie hat immer weniger Mitglieder."
+        },
+        {
+          "id": "c",
+          "text": "Sie hat sich wieder aufgelöst."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Answer: A** „Sie ist deutlich größer geworden.“\n\nvon 3 auf über 50 Freiwillige → deutlich größer."
+    },
+    {
+      "id": "tb1-u75-l02-modelltest-1-lesen-ex11",
+      "type": "choice",
+      "title": "Lebensmittel retten statt wegwerfen · Aufgabe 8",
+      "passage": "In Deutschland landen jedes Jahr viele Tonnen Lebensmittel im Müll, obwohl sie noch gut sind. Die 34-jährige Lena Berger aus Leipzig wollte das nicht länger akzeptieren. Vor drei Jahren gründete sie eine kleine Gruppe, die Lebensmittel von Supermärkten und Bäckereien abholt, bevor diese sie wegwerfen. „Am Anfang waren wir nur zu dritt“, erzählt Berger, „heute sind wir über fünfzig Freiwillige.“\n\nDie Gruppe verteilt die geretteten Lebensmittel kostenlos an alle, die sie brauchen können. Wichtig ist Berger dabei, dass niemand sich schämen muss: „Es geht nicht nur um arme Menschen. Jeder darf kommen.“ Anfangs war es schwer, Geschäfte zu überzeugen, viele hatten Angst vor rechtlichen Problemen. Inzwischen arbeiten aber mehr als zwanzig Läden mit der Gruppe zusammen.\n\nBerger macht die Arbeit ehrenamtlich, neben ihrem Beruf als Krankenschwester. Manchmal sei es anstrengend, sagt sie, aber die Dankbarkeit der Menschen gebe ihr viel zurück. In Zukunft möchte sie auch Schulen besuchen und Kindern erklären, warum man Lebensmittel nicht wegwerfen sollte.",
+      "prompt": "Wer bekommt die Lebensmittel?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Nur arme Familien."
+        },
+        {
+          "id": "b",
+          "text": "Alle, die sie brauchen können."
+        },
+        {
+          "id": "c",
+          "text": "Nur die Freiwilligen selbst."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Answer: B** „Alle, die sie brauchen können.“\n\n„Jeder darf kommen.“ Antwort A ist die Weltwissen-Falle (klingt logisch, steht aber so nicht da)."
+    },
+    {
+      "id": "tb1-u75-l02-modelltest-1-lesen-ex12",
+      "type": "choice",
+      "title": "Lebensmittel retten statt wegwerfen · Aufgabe 9",
+      "passage": "In Deutschland landen jedes Jahr viele Tonnen Lebensmittel im Müll, obwohl sie noch gut sind. Die 34-jährige Lena Berger aus Leipzig wollte das nicht länger akzeptieren. Vor drei Jahren gründete sie eine kleine Gruppe, die Lebensmittel von Supermärkten und Bäckereien abholt, bevor diese sie wegwerfen. „Am Anfang waren wir nur zu dritt“, erzählt Berger, „heute sind wir über fünfzig Freiwillige.“\n\nDie Gruppe verteilt die geretteten Lebensmittel kostenlos an alle, die sie brauchen können. Wichtig ist Berger dabei, dass niemand sich schämen muss: „Es geht nicht nur um arme Menschen. Jeder darf kommen.“ Anfangs war es schwer, Geschäfte zu überzeugen, viele hatten Angst vor rechtlichen Problemen. Inzwischen arbeiten aber mehr als zwanzig Läden mit der Gruppe zusammen.\n\nBerger macht die Arbeit ehrenamtlich, neben ihrem Beruf als Krankenschwester. Manchmal sei es anstrengend, sagt sie, aber die Dankbarkeit der Menschen gebe ihr viel zurück. In Zukunft möchte sie auch Schulen besuchen und Kindern erklären, warum man Lebensmittel nicht wegwerfen sollte.",
+      "prompt": "Was war am Anfang ein Problem?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Die Geschäfte hatten Angst vor rechtlichen Problemen."
+        },
+        {
+          "id": "b",
+          "text": "Es gab zu viele Freiwillige."
+        },
+        {
+          "id": "c",
+          "text": "Die Lebensmittel waren oft schlecht."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Answer: A** „Die Geschäfte hatten Angst vor rechtlichen Problemen.“\n\n„Angst vor rechtlichen Problemen“, direkt im Text."
+    },
+    {
+      "id": "tb1-u75-l02-modelltest-1-lesen-ex13",
+      "type": "choice",
+      "title": "Lebensmittel retten statt wegwerfen · Aufgabe 10",
+      "passage": "In Deutschland landen jedes Jahr viele Tonnen Lebensmittel im Müll, obwohl sie noch gut sind. Die 34-jährige Lena Berger aus Leipzig wollte das nicht länger akzeptieren. Vor drei Jahren gründete sie eine kleine Gruppe, die Lebensmittel von Supermärkten und Bäckereien abholt, bevor diese sie wegwerfen. „Am Anfang waren wir nur zu dritt“, erzählt Berger, „heute sind wir über fünfzig Freiwillige.“\n\nDie Gruppe verteilt die geretteten Lebensmittel kostenlos an alle, die sie brauchen können. Wichtig ist Berger dabei, dass niemand sich schämen muss: „Es geht nicht nur um arme Menschen. Jeder darf kommen.“ Anfangs war es schwer, Geschäfte zu überzeugen, viele hatten Angst vor rechtlichen Problemen. Inzwischen arbeiten aber mehr als zwanzig Läden mit der Gruppe zusammen.\n\nBerger macht die Arbeit ehrenamtlich, neben ihrem Beruf als Krankenschwester. Manchmal sei es anstrengend, sagt sie, aber die Dankbarkeit der Menschen gebe ihr viel zurück. In Zukunft möchte sie auch Schulen besuchen und Kindern erklären, warum man Lebensmittel nicht wegwerfen sollte.",
+      "prompt": "Was plant Berger für die Zukunft?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Sie will ihren Beruf aufgeben."
+        },
+        {
+          "id": "b",
+          "text": "Sie möchte in Schulen über das Thema sprechen."
+        },
+        {
+          "id": "c",
+          "text": "Sie will die Lebensmittel verkaufen."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Answer: B** „Sie möchte in Schulen über das Thema sprechen.“\n\n„Schulen besuchen und Kindern erklären“."
+    },
+    {
+      "id": "tb1-u75-l02-modelltest-1-lesen-ex14",
+      "type": "explain",
+      "title": "Lesen Teil 3 · Aufgaben 11–20",
+      "body": "10 situations, 12 ads. Each ad fits at most once; x = no ad fits (one unrelated ad is left out of each list here). **2.5 points per situation.**"
+    },
+    {
+      "id": "tb1-u75-l02-modelltest-1-lesen-ex15",
+      "type": "choice",
+      "title": "Aufgabe 11 · Alltag",
+      "passage": "Sie möchten am Samstag mit Ihren Kindern etwas draußen unternehmen.",
+      "prompt": "Welche Anzeige passt? Wenn keine passt: x.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Restaurant Sonne sucht Aushilfe für das Wochenende (Sa/So)."
+        },
+        {
+          "id": "b",
+          "text": "Hundebetreuung Waldi: Wir passen auf Ihren Hund auf, auch über mehrere Wochen."
+        },
+        {
+          "id": "c",
+          "text": "Sprachschule Aktiv: Deutschkurse vormittags und nachmittags."
+        },
+        {
+          "id": "d",
+          "text": "Deutsch am Morgen. Intensivkurse von 9 bis 12 Uhr."
+        },
+        {
+          "id": "e",
+          "text": "Gitarrenunterricht für Anfänger, erste Stunde gratis."
+        },
+        {
+          "id": "f",
+          "text": "Familien-Erlebnistag im Waldpark! Jeden Samstag Spiele und Natur für Groß und Klein."
+        },
+        {
+          "id": "g",
+          "text": "Kfz-Werkstatt Meier: günstige Reparaturen, faire Preise."
+        },
+        {
+          "id": "h",
+          "text": "Wohnung zu vermieten: 2 Zimmer, Stadtrand, kein Balkon."
+        },
+        {
+          "id": "i",
+          "text": "Kochkurs am Samstag: gemeinsam italienisch kochen."
+        },
+        {
+          "id": "j",
+          "text": "Fahrradverleih am Bahnhof. Räder stundenweise mieten."
+        },
+        {
+          "id": "k",
+          "text": "Gebrauchte Kinderfahrräder in gutem Zustand zu verkaufen."
+        },
+        {
+          "id": "l",
+          "text": "Keine Anzeige passt (x)"
+        }
+      ],
+      "correctOptionId": "f",
+      "explanation": "**Answer: F** „Familien-Erlebnistag im Waldpark! Jeden Samstag Spiele und Natur für Groß und Klein.“\n\n*Bedingungen:* mit Kindern + draußen"
+    },
+    {
+      "id": "tb1-u75-l02-modelltest-1-lesen-ex16",
+      "type": "choice",
+      "title": "Aufgabe 12 · Alltag",
+      "passage": "Ihre Freundin sucht einen Nebenjob am Wochenende.",
+      "prompt": "Welche Anzeige passt? Wenn keine passt: x.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Restaurant Sonne sucht Aushilfe für das Wochenende (Sa/So)."
+        },
+        {
+          "id": "b",
+          "text": "Hundebetreuung Waldi: Wir passen auf Ihren Hund auf, auch über mehrere Wochen."
+        },
+        {
+          "id": "c",
+          "text": "Sprachschule Aktiv: Deutschkurse vormittags und nachmittags."
+        },
+        {
+          "id": "d",
+          "text": "Deutsch am Morgen. Intensivkurse von 9 bis 12 Uhr."
+        },
+        {
+          "id": "e",
+          "text": "Gitarrenunterricht für Anfänger, erste Stunde gratis."
+        },
+        {
+          "id": "f",
+          "text": "Familien-Erlebnistag im Waldpark! Jeden Samstag Spiele und Natur für Groß und Klein."
+        },
+        {
+          "id": "g",
+          "text": "Kfz-Werkstatt Meier: günstige Reparaturen, faire Preise."
+        },
+        {
+          "id": "h",
+          "text": "Wohnung zu vermieten: 2 Zimmer, Stadtrand, kein Balkon."
+        },
+        {
+          "id": "i",
+          "text": "Kochkurs am Samstag: gemeinsam italienisch kochen."
+        },
+        {
+          "id": "j",
+          "text": "Fahrradverleih am Bahnhof. Räder stundenweise mieten."
+        },
+        {
+          "id": "k",
+          "text": "Gebrauchte Kinderfahrräder in gutem Zustand zu verkaufen."
+        },
+        {
+          "id": "l",
+          "text": "Keine Anzeige passt (x)"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Answer: A** „Restaurant Sonne sucht Aushilfe für das Wochenende (Sa/So).“\n\n*Bedingungen:* Nebenjob + Wochenende"
+    },
+    {
+      "id": "tb1-u75-l02-modelltest-1-lesen-ex17",
+      "type": "choice",
+      "title": "Aufgabe 13 · Alltag",
+      "passage": "Sie wollen Ihr altes Sofa verkaufen.",
+      "prompt": "Welche Anzeige passt? Wenn keine passt: x.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Restaurant Sonne sucht Aushilfe für das Wochenende (Sa/So)."
+        },
+        {
+          "id": "b",
+          "text": "Hundebetreuung Waldi: Wir passen auf Ihren Hund auf, auch über mehrere Wochen."
+        },
+        {
+          "id": "c",
+          "text": "Sprachschule Aktiv: Deutschkurse vormittags und nachmittags."
+        },
+        {
+          "id": "d",
+          "text": "Deutsch am Morgen. Intensivkurse von 9 bis 12 Uhr."
+        },
+        {
+          "id": "e",
+          "text": "Gitarrenunterricht für Anfänger, erste Stunde gratis."
+        },
+        {
+          "id": "f",
+          "text": "Familien-Erlebnistag im Waldpark! Jeden Samstag Spiele und Natur für Groß und Klein."
+        },
+        {
+          "id": "g",
+          "text": "Kfz-Werkstatt Meier: günstige Reparaturen, faire Preise."
+        },
+        {
+          "id": "h",
+          "text": "Wohnung zu vermieten: 2 Zimmer, Stadtrand, kein Balkon."
+        },
+        {
+          "id": "i",
+          "text": "Kochkurs am Samstag: gemeinsam italienisch kochen."
+        },
+        {
+          "id": "j",
+          "text": "Gebrauchte Kinderfahrräder in gutem Zustand zu verkaufen."
+        },
+        {
+          "id": "k",
+          "text": "Verkaufe Sofa, 3 Sitze, guter Zustand, günstig abzugeben."
+        },
+        {
+          "id": "l",
+          "text": "Keine Anzeige passt (x)"
+        }
+      ],
+      "correctOptionId": "k",
+      "explanation": "**Answer: K** „Verkaufe Sofa, 3 Sitze, guter Zustand, günstig abzugeben.“\n\n*Bedingungen:* Sofa + verkaufen"
+    },
+    {
+      "id": "tb1-u75-l02-modelltest-1-lesen-ex18",
+      "type": "choice",
+      "title": "Aufgabe 14 · Alltag",
+      "passage": "Sie suchen einen Deutschkurs am Abend, weil Sie tagsüber arbeiten.",
+      "prompt": "Welche Anzeige passt? Wenn keine passt: x.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Restaurant Sonne sucht Aushilfe für das Wochenende (Sa/So)."
+        },
+        {
+          "id": "b",
+          "text": "Hundebetreuung Waldi: Wir passen auf Ihren Hund auf, auch über mehrere Wochen."
+        },
+        {
+          "id": "c",
+          "text": "Sprachschule Aktiv: Deutschkurse vormittags und nachmittags."
+        },
+        {
+          "id": "d",
+          "text": "Deutsch am Morgen. Intensivkurse von 9 bis 12 Uhr."
+        },
+        {
+          "id": "e",
+          "text": "Gitarrenunterricht für Anfänger, erste Stunde gratis."
+        },
+        {
+          "id": "f",
+          "text": "Familien-Erlebnistag im Waldpark! Jeden Samstag Spiele und Natur für Groß und Klein."
+        },
+        {
+          "id": "g",
+          "text": "Kfz-Werkstatt Meier: günstige Reparaturen, faire Preise."
+        },
+        {
+          "id": "h",
+          "text": "Wohnung zu vermieten: 2 Zimmer, Stadtrand, kein Balkon."
+        },
+        {
+          "id": "i",
+          "text": "Kochkurs am Samstag: gemeinsam italienisch kochen."
+        },
+        {
+          "id": "j",
+          "text": "Fahrradverleih am Bahnhof. Räder stundenweise mieten."
+        },
+        {
+          "id": "k",
+          "text": "Gebrauchte Kinderfahrräder in gutem Zustand zu verkaufen."
+        },
+        {
+          "id": "l",
+          "text": "Keine Anzeige passt (x)"
+        }
+      ],
+      "correctOptionId": "l",
+      "explanation": "**Answer: L** x · keine Anzeige passt\n\n*Bedingungen:* Deutschkurs + abends\n\nKurs „Deutsch am Morgen. Intensivkurse …“ (Morgen) und Kurs „Sprachschule Aktiv: Deutschkurse vormittags …“ (vormittags/nachmittags) sind keine Abendkurse → x."
+    },
+    {
+      "id": "tb1-u75-l02-modelltest-1-lesen-ex19",
+      "type": "choice",
+      "title": "Aufgabe 15 · Alltag",
+      "passage": "Sie brauchen jemanden, der Ihren Hund betreut, wenn Sie im Urlaub sind.",
+      "prompt": "Welche Anzeige passt? Wenn keine passt: x.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Restaurant Sonne sucht Aushilfe für das Wochenende (Sa/So)."
+        },
+        {
+          "id": "b",
+          "text": "Hundebetreuung Waldi: Wir passen auf Ihren Hund auf, auch über mehrere Wochen."
+        },
+        {
+          "id": "c",
+          "text": "Sprachschule Aktiv: Deutschkurse vormittags und nachmittags."
+        },
+        {
+          "id": "d",
+          "text": "Deutsch am Morgen. Intensivkurse von 9 bis 12 Uhr."
+        },
+        {
+          "id": "e",
+          "text": "Gitarrenunterricht für Anfänger, erste Stunde gratis."
+        },
+        {
+          "id": "f",
+          "text": "Familien-Erlebnistag im Waldpark! Jeden Samstag Spiele und Natur für Groß und Klein."
+        },
+        {
+          "id": "g",
+          "text": "Kfz-Werkstatt Meier: günstige Reparaturen, faire Preise."
+        },
+        {
+          "id": "h",
+          "text": "Wohnung zu vermieten: 2 Zimmer, Stadtrand, kein Balkon."
+        },
+        {
+          "id": "i",
+          "text": "Kochkurs am Samstag: gemeinsam italienisch kochen."
+        },
+        {
+          "id": "j",
+          "text": "Fahrradverleih am Bahnhof. Räder stundenweise mieten."
+        },
+        {
+          "id": "k",
+          "text": "Gebrauchte Kinderfahrräder in gutem Zustand zu verkaufen."
+        },
+        {
+          "id": "l",
+          "text": "Keine Anzeige passt (x)"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Answer: B** „Hundebetreuung Waldi: Wir passen auf Ihren Hund auf, auch über mehrere Wochen.“\n\n*Bedingungen:* Hund betreuen + während des Urlaubs"
+    },
+    {
+      "id": "tb1-u75-l02-modelltest-1-lesen-ex20",
+      "type": "choice",
+      "title": "Aufgabe 16 · Alltag",
+      "passage": "Sie möchten ein gebrauchtes Fahrrad für Ihren Sohn kaufen.",
+      "prompt": "Welche Anzeige passt? Wenn keine passt: x.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Restaurant Sonne sucht Aushilfe für das Wochenende (Sa/So)."
+        },
+        {
+          "id": "b",
+          "text": "Hundebetreuung Waldi: Wir passen auf Ihren Hund auf, auch über mehrere Wochen."
+        },
+        {
+          "id": "c",
+          "text": "Sprachschule Aktiv: Deutschkurse vormittags und nachmittags."
+        },
+        {
+          "id": "d",
+          "text": "Deutsch am Morgen. Intensivkurse von 9 bis 12 Uhr."
+        },
+        {
+          "id": "e",
+          "text": "Gitarrenunterricht für Anfänger, erste Stunde gratis."
+        },
+        {
+          "id": "f",
+          "text": "Familien-Erlebnistag im Waldpark! Jeden Samstag Spiele und Natur für Groß und Klein."
+        },
+        {
+          "id": "g",
+          "text": "Kfz-Werkstatt Meier: günstige Reparaturen, faire Preise."
+        },
+        {
+          "id": "h",
+          "text": "Wohnung zu vermieten: 2 Zimmer, Stadtrand, kein Balkon."
+        },
+        {
+          "id": "i",
+          "text": "Kochkurs am Samstag: gemeinsam italienisch kochen."
+        },
+        {
+          "id": "j",
+          "text": "Fahrradverleih am Bahnhof. Räder stundenweise mieten."
+        },
+        {
+          "id": "k",
+          "text": "Gebrauchte Kinderfahrräder in gutem Zustand zu verkaufen."
+        },
+        {
+          "id": "l",
+          "text": "Keine Anzeige passt (x)"
+        }
+      ],
+      "correctOptionId": "k",
+      "explanation": "**Answer: K** „Gebrauchte Kinderfahrräder in gutem Zustand zu verkaufen.“\n\n*Bedingungen:* Fahrrad + kaufen (nicht mieten)\n\nAnzeige „Fahrradverleih am Bahnhof. Räder …“ ist ein Verleih (mieten), kein Kauf."
+    },
+    {
+      "id": "tb1-u75-l02-modelltest-1-lesen-ex21",
+      "type": "choice",
+      "title": "Aufgabe 17 · Alltag",
+      "passage": "Sie suchen eine günstige Werkstatt für Ihr Auto.",
+      "prompt": "Welche Anzeige passt? Wenn keine passt: x.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Restaurant Sonne sucht Aushilfe für das Wochenende (Sa/So)."
+        },
+        {
+          "id": "b",
+          "text": "Hundebetreuung Waldi: Wir passen auf Ihren Hund auf, auch über mehrere Wochen."
+        },
+        {
+          "id": "c",
+          "text": "Sprachschule Aktiv: Deutschkurse vormittags und nachmittags."
+        },
+        {
+          "id": "d",
+          "text": "Deutsch am Morgen. Intensivkurse von 9 bis 12 Uhr."
+        },
+        {
+          "id": "e",
+          "text": "Gitarrenunterricht für Anfänger, erste Stunde gratis."
+        },
+        {
+          "id": "f",
+          "text": "Familien-Erlebnistag im Waldpark! Jeden Samstag Spiele und Natur für Groß und Klein."
+        },
+        {
+          "id": "g",
+          "text": "Kfz-Werkstatt Meier: günstige Reparaturen, faire Preise."
+        },
+        {
+          "id": "h",
+          "text": "Wohnung zu vermieten: 2 Zimmer, Stadtrand, kein Balkon."
+        },
+        {
+          "id": "i",
+          "text": "Kochkurs am Samstag: gemeinsam italienisch kochen."
+        },
+        {
+          "id": "j",
+          "text": "Fahrradverleih am Bahnhof. Räder stundenweise mieten."
+        },
+        {
+          "id": "k",
+          "text": "Verkaufe Sofa, 3 Sitze, guter Zustand, günstig abzugeben."
+        },
+        {
+          "id": "l",
+          "text": "Keine Anzeige passt (x)"
+        }
+      ],
+      "correctOptionId": "g",
+      "explanation": "**Answer: G** „Kfz-Werkstatt Meier: günstige Reparaturen, faire Preise.“\n\n*Bedingungen:* Autowerkstatt + günstig"
+    },
+    {
+      "id": "tb1-u75-l02-modelltest-1-lesen-ex22",
+      "type": "choice",
+      "title": "Aufgabe 18 · Alltag",
+      "passage": "Sie interessieren sich für einen Kochkurs am Wochenende.",
+      "prompt": "Welche Anzeige passt? Wenn keine passt: x.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Restaurant Sonne sucht Aushilfe für das Wochenende (Sa/So)."
+        },
+        {
+          "id": "b",
+          "text": "Hundebetreuung Waldi: Wir passen auf Ihren Hund auf, auch über mehrere Wochen."
+        },
+        {
+          "id": "c",
+          "text": "Sprachschule Aktiv: Deutschkurse vormittags und nachmittags."
+        },
+        {
+          "id": "d",
+          "text": "Deutsch am Morgen. Intensivkurse von 9 bis 12 Uhr."
+        },
+        {
+          "id": "e",
+          "text": "Gitarrenunterricht für Anfänger, erste Stunde gratis."
+        },
+        {
+          "id": "f",
+          "text": "Familien-Erlebnistag im Waldpark! Jeden Samstag Spiele und Natur für Groß und Klein."
+        },
+        {
+          "id": "g",
+          "text": "Kfz-Werkstatt Meier: günstige Reparaturen, faire Preise."
+        },
+        {
+          "id": "h",
+          "text": "Wohnung zu vermieten: 2 Zimmer, Stadtrand, kein Balkon."
+        },
+        {
+          "id": "i",
+          "text": "Kochkurs am Samstag: gemeinsam italienisch kochen."
+        },
+        {
+          "id": "j",
+          "text": "Fahrradverleih am Bahnhof. Räder stundenweise mieten."
+        },
+        {
+          "id": "k",
+          "text": "Gebrauchte Kinderfahrräder in gutem Zustand zu verkaufen."
+        },
+        {
+          "id": "l",
+          "text": "Keine Anzeige passt (x)"
+        }
+      ],
+      "correctOptionId": "i",
+      "explanation": "**Answer: I** „Kochkurs am Samstag: gemeinsam italienisch kochen.“\n\n*Bedingungen:* Kochkurs + Wochenende"
+    },
+    {
+      "id": "tb1-u75-l02-modelltest-1-lesen-ex23",
+      "type": "choice",
+      "title": "Aufgabe 19 · Alltag",
+      "passage": "Sie möchten Gitarre spielen lernen.",
+      "prompt": "Welche Anzeige passt? Wenn keine passt: x.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Restaurant Sonne sucht Aushilfe für das Wochenende (Sa/So)."
+        },
+        {
+          "id": "b",
+          "text": "Hundebetreuung Waldi: Wir passen auf Ihren Hund auf, auch über mehrere Wochen."
+        },
+        {
+          "id": "c",
+          "text": "Sprachschule Aktiv: Deutschkurse vormittags und nachmittags."
+        },
+        {
+          "id": "d",
+          "text": "Deutsch am Morgen. Intensivkurse von 9 bis 12 Uhr."
+        },
+        {
+          "id": "e",
+          "text": "Gitarrenunterricht für Anfänger, erste Stunde gratis."
+        },
+        {
+          "id": "f",
+          "text": "Familien-Erlebnistag im Waldpark! Jeden Samstag Spiele und Natur für Groß und Klein."
+        },
+        {
+          "id": "g",
+          "text": "Kfz-Werkstatt Meier: günstige Reparaturen, faire Preise."
+        },
+        {
+          "id": "h",
+          "text": "Wohnung zu vermieten: 2 Zimmer, Stadtrand, kein Balkon."
+        },
+        {
+          "id": "i",
+          "text": "Kochkurs am Samstag: gemeinsam italienisch kochen."
+        },
+        {
+          "id": "j",
+          "text": "Fahrradverleih am Bahnhof. Räder stundenweise mieten."
+        },
+        {
+          "id": "k",
+          "text": "Gebrauchte Kinderfahrräder in gutem Zustand zu verkaufen."
+        },
+        {
+          "id": "l",
+          "text": "Keine Anzeige passt (x)"
+        }
+      ],
+      "correctOptionId": "e",
+      "explanation": "**Answer: E** „Gitarrenunterricht für Anfänger, erste Stunde gratis.“\n\n*Bedingungen:* Gitarre + lernen"
+    },
+    {
+      "id": "tb1-u75-l02-modelltest-1-lesen-ex24",
+      "type": "choice",
+      "title": "Aufgabe 20 · Alltag",
+      "passage": "Sie suchen eine Wohnung mit Balkon in der Nähe des Zentrums.",
+      "prompt": "Welche Anzeige passt? Wenn keine passt: x.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Restaurant Sonne sucht Aushilfe für das Wochenende (Sa/So)."
+        },
+        {
+          "id": "b",
+          "text": "Hundebetreuung Waldi: Wir passen auf Ihren Hund auf, auch über mehrere Wochen."
+        },
+        {
+          "id": "c",
+          "text": "Sprachschule Aktiv: Deutschkurse vormittags und nachmittags."
+        },
+        {
+          "id": "d",
+          "text": "Deutsch am Morgen. Intensivkurse von 9 bis 12 Uhr."
+        },
+        {
+          "id": "e",
+          "text": "Gitarrenunterricht für Anfänger, erste Stunde gratis."
+        },
+        {
+          "id": "f",
+          "text": "Familien-Erlebnistag im Waldpark! Jeden Samstag Spiele und Natur für Groß und Klein."
+        },
+        {
+          "id": "g",
+          "text": "Kfz-Werkstatt Meier: günstige Reparaturen, faire Preise."
+        },
+        {
+          "id": "h",
+          "text": "Wohnung zu vermieten: 2 Zimmer, Stadtrand, kein Balkon."
+        },
+        {
+          "id": "i",
+          "text": "Kochkurs am Samstag: gemeinsam italienisch kochen."
+        },
+        {
+          "id": "j",
+          "text": "Fahrradverleih am Bahnhof. Räder stundenweise mieten."
+        },
+        {
+          "id": "k",
+          "text": "Gebrauchte Kinderfahrräder in gutem Zustand zu verkaufen."
+        },
+        {
+          "id": "l",
+          "text": "Keine Anzeige passt (x)"
+        }
+      ],
+      "correctOptionId": "l",
+      "explanation": "**Answer: L** x · keine Anzeige passt\n\n*Bedingungen:* Wohnung mit Balkon + nahe Zentrum\n\nAnzeige „Wohnung zu vermieten: 2 …“ ist am Stadtrand UND ohne Balkon → beide Bedingungen scheitern → x."
+    }
+  ]
+}

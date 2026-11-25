@@ -1,0 +1,162 @@
+{
+  "id": "tb1-u61-l02-verb-end-1",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u61",
+  "title": "Connectors that send the verb to the end (1)",
+  "exercises": [
+    {
+      "id": "tb1-u61-l02-verb-end-1-ex01",
+      "type": "explain",
+      "title": "Die zwei Anker",
+      "body": "Main clause: verb 2nd. After weil/dass/wenn/obwohl: verb at the end.\n\nHauptsatz: **Verb auf Position 2**. Nach weil/dass/wenn/obwohl: **Verb ans Ende**."
+    },
+    {
+      "id": "tb1-u61-l02-verb-end-1-ex02",
+      "type": "explain",
+      "title": "weil (Grund)",
+      "body": "reason; the verb goes to the very end.\n\nHauptsatz, **weil** + Subjekt + … + **Verb ans Ende**.\nBsp: Ich bleibe zu Hause, weil ich müde **bin**."
+    },
+    {
+      "id": "tb1-u61-l02-verb-end-1-ex03",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/w-rule-weil.mp3"
+      },
+      "tiles": [
+        "zu",
+        "dass",
+        "bleibe",
+        "Hause",
+        "denn",
+        "Ich",
+        "weil",
+        "bin",
+        "obwohl",
+        "ich",
+        "müde"
+      ],
+      "answers": [
+        "Ich bleibe zu Hause, weil ich müde bin."
+      ],
+      "explanation": "**weil (Grund)**: reason; the verb goes to the very end."
+    },
+    {
+      "id": "tb1-u61-l02-verb-end-1-ex04",
+      "type": "explain",
+      "title": "da (Grund, oft vorne)",
+      "body": "like weil, often fronted → main clause inverts.\n\n**Da** + Subjekt + … + **Verb-Ende**, dann **Verb** + Subjekt …\nBsp: Da ich müde **bin**, **gehe ich** früh ins Bett."
+    },
+    {
+      "id": "tb1-u61-l02-verb-end-1-ex05",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/w-rule-da.mp3"
+      },
+      "tiles": [
+        "weil",
+        "Bett",
+        "müde",
+        "bin",
+        "ins",
+        "ich",
+        "damit",
+        "Da",
+        "gehe",
+        "früh",
+        "wenn",
+        "ich"
+      ],
+      "answers": [
+        "Da ich müde bin, gehe ich früh ins Bett."
+      ],
+      "explanation": "**da (Grund, oft vorne)**: like weil, often fronted → main clause inverts."
+    },
+    {
+      "id": "tb1-u61-l02-verb-end-1-ex06",
+      "type": "explain",
+      "title": "dass (Inhalt)",
+      "body": "content clause; verb at the end.\n\nHauptsatz, **dass** + Subjekt + … + **Verb-Ende**.\nBsp: Ich hoffe, dass du bald **kommst**."
+    },
+    {
+      "id": "tb1-u61-l02-verb-end-1-ex07",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/w-rule-dass.mp3"
+      },
+      "tiles": [
+        "denn",
+        "obwohl",
+        "dass",
+        "bald",
+        "trotzdem",
+        "kommst",
+        "hoffe",
+        "Ich",
+        "du"
+      ],
+      "answers": [
+        "Ich hoffe, dass du bald kommst."
+      ],
+      "explanation": "**dass (Inhalt)**: content clause; verb at the end."
+    },
+    {
+      "id": "tb1-u61-l02-verb-end-1-ex08",
+      "type": "explain",
+      "title": "wenn (Bedingung/Zeit)",
+      "body": "condition/time; verb-final, then main clause inverts.\n\n**Wenn** + … + **Verb-Ende**, **Verb** + Subjekt.\nBsp: Wenn es **regnet**, **bleibe ich** zu Hause."
+    },
+    {
+      "id": "tb1-u61-l02-verb-end-1-ex09",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/w-rule-wenn.mp3"
+      },
+      "tiles": [
+        "ich",
+        "weil",
+        "Hause",
+        "Wenn",
+        "regnet",
+        "dass",
+        "zu",
+        "es",
+        "damit",
+        "bleibe"
+      ],
+      "answers": [
+        "Wenn es regnet, bleibe ich zu Hause."
+      ],
+      "explanation": "**wenn (Bedingung/Zeit)**: condition/time; verb-final, then main clause inverts."
+    },
+    {
+      "id": "tb1-u61-l02-verb-end-1-ex10",
+      "type": "explain",
+      "title": "obwohl (Gegengrund)",
+      "body": "concession; verb-final.\n\n**Obwohl** + … + **Verb-Ende**, **Verb** + Subjekt.\nBsp: Obwohl es teuer **war**, **habe ich** es gekauft."
+    },
+    {
+      "id": "tb1-u61-l02-verb-end-1-ex11",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/w-rule-obwohl.mp3"
+      },
+      "tiles": [
+        "denn",
+        "es",
+        "deshalb",
+        "war",
+        "dass",
+        "es",
+        "gekauft",
+        "teuer",
+        "ich",
+        "habe",
+        "Obwohl"
+      ],
+      "answers": [
+        "Obwohl es teuer war, habe ich es gekauft."
+      ],
+      "explanation": "**obwohl (Gegengrund)**: concession; verb-final."
+    }
+  ]
+}

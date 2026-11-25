@@ -1,0 +1,305 @@
+{
+  "id": "tb1-u33-l09-wortbildung-p1",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u33",
+  "title": "Word Order: TeKaMoLo & Details: TeKaMoLo & Dativ vor Akkusativ",
+  "tip": "“Ich gehe ins Kino heute Abend” is English word order. German: Ich gehe heute Abend ins Kino, time before place.",
+  "exercises": [
+    {
+      "id": "tb1-u33-l09-wortbildung-p1-ex01",
+      "type": "explain",
+      "title": "TeKaMoLo: Zeit – Grund – Art – Ort",
+      "body": "In the middle field: temporal (when?) – causal (why?) – modal (how?) – local (where?).\n\n*Deutsch:* Im Mittelfeld: temporal (wann?) – kausal (warum?) – modal (wie?) – lokal (wo/wohin?).\n\n## Pattern\n\nVerb + **Te** (wann) + **Ka** (warum) + **Mo** (wie) + **Lo** (wo) …",
+      "examples": [
+        {
+          "learning": "Ich fahre morgen mit dem Zug nach Berlin.",
+          "known": "I'm going to Berlin by train tomorrow."
+        },
+        {
+          "learning": "Wir sind gestern wegen des Regens zu Hause geblieben.",
+          "known": "We stayed at home yesterday because of the rain."
+        }
+      ]
+    },
+    {
+      "id": "tb1-u33-l09-wortbildung-p1-ex02",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I'm going to Berlin by train tomorrow.",
+      "tiles": [
+        "dir",
+        "mit",
+        "morgen",
+        "nach",
+        "vor",
+        "den",
+        "dem",
+        "Ich",
+        "Zug",
+        "Berlin",
+        "fahre"
+      ],
+      "answers": [
+        "Ich fahre morgen mit dem Zug nach Berlin."
+      ],
+      "explanation": "**Why:** Te (tomorrow) – Mo (by train) – Lo (to Berlin).\n\n*Warum:* Te (morgen) – Mo (mit dem Zug) – Lo (nach Berlin)."
+    },
+    {
+      "id": "tb1-u33-l09-wortbildung-p1-ex03",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "We stayed at home yesterday because of the rain.",
+      "tiles": [
+        "wegen",
+        "geblieben",
+        "zu",
+        "gestern",
+        "des",
+        "treffen",
+        "Testlücke-Stil",
+        "Regens",
+        "Wir",
+        "sind",
+        "Hause",
+        "___"
+      ],
+      "answers": [
+        "Wir sind gestern wegen des Regens zu Hause geblieben."
+      ],
+      "explanation": "**Why:** Te – Ka – Lo.\n\n*Warum:* Te – Ka – Lo."
+    },
+    {
+      "id": "tb1-u33-l09-wortbildung-p1-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "He quickly goes to the baker's every morning.",
+      "tiles": [
+        "mit",
+        "arbeite",
+        "schnell",
+        "Er",
+        "zu",
+        "geht",
+        "zum",
+        "Bäcker",
+        "Morgen",
+        "jeden"
+      ],
+      "answers": [
+        "Er geht jeden Morgen schnell zum Bäcker."
+      ],
+      "explanation": "**Why:** Te – Mo – Lo.\n\n*Warum:* Te – Mo – Lo."
+    },
+    {
+      "id": "tb1-u33-l09-wortbildung-p1-ex05",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I've been enjoying working at this company since May.",
+      "tiles": [
+        "gern",
+        "in",
+        "seiner",
+        "einen",
+        "seit",
+        "Firma",
+        "Mai",
+        "arbeite",
+        "Ich",
+        "dieser",
+        "Schwester"
+      ],
+      "answers": [
+        "Ich arbeite seit Mai gern in dieser Firma."
+      ],
+      "explanation": "**Why:** Rule of thumb: time before place.\n\n*Warum:* Faustregel: Zeit vor Ort."
+    },
+    {
+      "id": "tb1-u33-l09-wortbildung-p1-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Last week she flew to Vienna alone for work reasons.",
+      "tiles": [
+        "beruflichen",
+        "geflogen",
+        "letzte",
+        "Gründen",
+        "Woche",
+        "Wir",
+        "Wien",
+        "aus",
+        "Sie",
+        "allein",
+        "ist",
+        "Firma",
+        "meiner",
+        "nach"
+      ],
+      "answers": [
+        "Sie ist letzte Woche aus beruflichen Gründen allein nach Wien geflogen."
+      ],
+      "explanation": "**Why:** All four: Te – Ka – Mo – Lo.\n\n*Warum:* Alle vier: Te – Ka – Mo – Lo."
+    },
+    {
+      "id": "tb1-u33-l09-wortbildung-p1-ex07",
+      "type": "explain",
+      "title": "Dativ vor Akkusativ (außer Pronomen)",
+      "body": "Two nouns: dative before accusative. But an accusative pronoun comes first.\n\n*Deutsch:* Zwei Nomen: Dativ vor Akkusativ. Akkusativ-Pronomen kommt aber zuerst.\n\n## Pattern\n\nVerb + **Dativ** + **Akkusativ** · Verb + **es/ihn** + Dativ",
+      "examples": [
+        {
+          "learning": "Ich gebe meiner Schwester das Buch.",
+          "known": "I give my sister the book."
+        },
+        {
+          "learning": "Ich gebe es meiner Schwester.",
+          "known": "I give it to my sister."
+        }
+      ]
+    },
+    {
+      "id": "tb1-u33-l09-wortbildung-p1-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I give my sister the book.",
+      "tiles": [
+        "___",
+        "das",
+        "gebe",
+        "Schwester",
+        "in",
+        "im",
+        "Ich",
+        "Buch",
+        "meiner"
+      ],
+      "answers": [
+        "Ich gebe meiner Schwester das Buch."
+      ],
+      "explanation": "**Why:** Dative (my sister) before accusative (the book).\n\n*Warum:* Dativ (meiner Schwester) vor Akkusativ (das Buch)."
+    },
+    {
+      "id": "tb1-u33-l09-wortbildung-p1-ex09",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I give it to my sister.",
+      "tiles": [
+        "in",
+        "es",
+        "seiner",
+        "Ich",
+        "Park",
+        "Schwester",
+        "meiner",
+        "gebe"
+      ],
+      "answers": [
+        "Ich gebe es meiner Schwester."
+      ],
+      "explanation": "**Why:** Accusative pronoun es comes first.\n\n*Warum:* Akkusativ-Pronomen es kommt zuerst."
+    },
+    {
+      "id": "tb1-u33-l09-wortbildung-p1-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "He gives his wife a ring.",
+      "tiles": [
+        "Ring",
+        "Buch",
+        "schenkt",
+        "Kannst",
+        "seiner",
+        "einen",
+        "Frau",
+        "Er",
+        "Ich"
+      ],
+      "answers": [
+        "Er schenkt seiner Frau einen Ring."
+      ],
+      "explanation": "**Why:** Dative before accusative.\n\n*Warum:* Dativ vor Akkusativ."
+    },
+    {
+      "id": "tb1-u33-l09-wortbildung-p1-ex11",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "He gives it to her for her birthday.",
+      "tiles": [
+        "schenkt",
+        "Er",
+        "ihr",
+        "waren",
+        "ihn",
+        "sind",
+        "zum",
+        "nach",
+        "Geburtstag"
+      ],
+      "answers": [
+        "Er schenkt ihn ihr zum Geburtstag."
+      ],
+      "explanation": "**Why:** Two pronouns: accusative before dative.\n\n*Warum:* Zwei Pronomen: Akkusativ vor Dativ."
+    },
+    {
+      "id": "tb1-u33-l09-wortbildung-p1-ex12",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Can you explain the way to me?",
+      "tiles": [
+        "Kannst",
+        "den",
+        "du",
+        "Am",
+        "Woche",
+        "mir",
+        "Bäcker",
+        "erklären",
+        "Weg"
+      ],
+      "answers": [
+        "Kannst du mir den Weg erklären?"
+      ],
+      "explanation": "**Why:** Dative pronoun before accusative noun.\n\n*Warum:* Dativ-Pronomen vor Akkusativ-Nomen."
+    },
+    {
+      "id": "tb1-u33-l09-wortbildung-p1-ex13",
+      "type": "choice",
+      "title": "Fill the gap",
+      "prompt": "Zeit vor Ort: „Wir treffen uns ___.“",
+      "options": [
+        {
+          "id": "a",
+          "text": "vor dem Kino heute Abend"
+        },
+        {
+          "id": "b",
+          "text": "heute vor dem Kino Abend"
+        },
+        {
+          "id": "c",
+          "text": "heute Abend vor dem Kino"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Im Mittelfeld: Temporal (heute Abend) vor Lokal (vor dem Kino)."
+    },
+    {
+      "id": "tb1-u33-l09-wortbildung-p1-ex14",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Word order: put all the words in the correct order.",
+      "tiles": [
+        "mit",
+        "fahre",
+        "Ich",
+        "Zug",
+        "dem",
+        "Berlin",
+        "morgen",
+        "nach"
+      ],
+      "answers": [
+        "Ich fahre morgen mit dem Zug nach Berlin"
+      ],
+      "explanation": "TeKaMoLo: Zeit (morgen) vor Art (mit dem Zug) vor Ort (nach Berlin)."
+    }
+  ]
+}

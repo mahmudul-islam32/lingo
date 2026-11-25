@@ -1,0 +1,269 @@
+{
+  "id": "eb-u03-l04-q81-90",
+  "courseId": "einbuergerung-en-de",
+  "unitId": "eb-u03",
+  "title": "Questions 81–90 (Fragen 81–90)",
+  "tip": "After each Check you get an English explanation and a short German note (Auf Deutsch).",
+  "exercises": [
+    {
+      "id": "eb-u03-l04-q81-90-ex01",
+      "type": "choice",
+      "title": "Frage 81 · Block 3",
+      "prompt": "Wer wählt den Bundeskanzler/die Bundeskanzlerin in Deutschland?",
+      "options": [
+        {
+          "id": "a",
+          "text": "der Bundesrat"
+        },
+        {
+          "id": "b",
+          "text": "die Bundesversammlung"
+        },
+        {
+          "id": "c",
+          "text": "das Volk"
+        },
+        {
+          "id": "d",
+          "text": "der Bundestag"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**Correct answer:** der Bundestag\n\n**The Bundestag elects the Chancellor** (Art. 63 GG), the definitive fact of Germany's *parliamentary* democracy. You never vote for a Chancellor directly (C); you vote for a Bundestag, which then does.\n\nThe Bundesversammlung elects the *president* (→Q86). THE classic swap; the Bundesrat elects nobody. Tested three times (Q81, Q83, Q124-adjacent): the catalog's favorite fact. Learn the pair: **Kanzler ← Bundestag; Präsident ← Bundesversammlung.**\n\n## Auf Deutsch\n\nDen Bundeskanzler wählt der Bundestag."
+    },
+    {
+      "id": "eb-u03-l04-q81-90-ex02",
+      "type": "choice",
+      "title": "Frage 82 · Block 3",
+      "prompt": "Wer leitet das deutsche Bundeskabinett?",
+      "options": [
+        {
+          "id": "a",
+          "text": "der Bundestagspräsident/die Bundestagspräsidentin"
+        },
+        {
+          "id": "b",
+          "text": "der Bundespräsident/die Bundespräsidentin"
+        },
+        {
+          "id": "c",
+          "text": "der Bundeskanzler/die Bundeskanzlerin"
+        },
+        {
+          "id": "d",
+          "text": "der Bundesratspräsident/die Bundesratspräsidentin"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**Correct answer:** der Bundeskanzler/die Bundeskanzlerin\n\nThe cabinet (= Chancellor + federal ministers = Bundesregierung) is chaired by the **Chancellor**, who also holds **Richtlinienkompetenz**, the power to set the guidelines of policy (Art. 65 GG).\n\nThe three \"presidents\" chair their own institutions (parliament, state ceremonies, Länder chamber), none sits at the cabinet table. Four similar titles, four different chairs: the question tests whether you keep them apart.\n\n## Auf Deutsch\n\nDas Bundeskabinett leitet der Bundeskanzler / die Bundeskanzlerin."
+    },
+    {
+      "id": "eb-u03-l04-q81-90-ex03",
+      "type": "choice",
+      "title": "Frage 83 · Block 3",
+      "prompt": "Wer wählt den deutschen Bundeskanzler/die deutsche Bundeskanzlerin?",
+      "options": [
+        {
+          "id": "a",
+          "text": "das Volk"
+        },
+        {
+          "id": "b",
+          "text": "die Bundesversammlung"
+        },
+        {
+          "id": "c",
+          "text": "der Bundestag"
+        },
+        {
+          "id": "d",
+          "text": "die Bundesregierung"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**Correct answer:** der Bundestag\n\n→Q81 verbatim-twin. If Q81 and Q83 both appear in your 33 (it happens!), that's two free points for one memorized fact.\n\n## Auf Deutsch\n\nDie Kanzlerwahl ist Sache des Bundestages."
+    },
+    {
+      "id": "eb-u03-l04-q81-90-ex04",
+      "type": "choice",
+      "title": "Frage 84 · Block 3",
+      "prompt": "Welche Hauptaufgabe hat der deutsche Bundespräsident/die deutsche Bundespräsidentin? Er/Sie …",
+      "options": [
+        {
+          "id": "a",
+          "text": "regiert das Land"
+        },
+        {
+          "id": "b",
+          "text": "entwirft die Gesetze"
+        },
+        {
+          "id": "c",
+          "text": "repräsentiert das Land"
+        },
+        {
+          "id": "d",
+          "text": "überwacht die Einhaltung der Gesetze"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**Correct answer:** repräsentiert das Land\n\nOne word: **repräsentieren**. State visits, speeches to the nation's conscience, signing laws into force (with a narrow right to refuse unconstitutional ones).\n\nGoverning = Chancellor (A); drafting laws = government/parliament (B); policing compliance = executive agencies and courts (D). →Q70, Q87, the president triangle again.\n\n## Auf Deutsch\n\nDer Bundespräsident repräsentiert das Land, er regiert nicht."
+    },
+    {
+      "id": "eb-u03-l04-q81-90-ex05",
+      "type": "choice",
+      "title": "Frage 85 · Block 3",
+      "prompt": "Wer bildet den deutschen Bundesrat?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Abgeordneten des Bundestages"
+        },
+        {
+          "id": "b",
+          "text": "die Minister und Ministerinnen der Bundesregierung"
+        },
+        {
+          "id": "c",
+          "text": "die Regierungsvertreter und Regierungsvertreterinnen der Bundesländer"
+        },
+        {
+          "id": "d",
+          "text": "die Parteimitglieder"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**Correct answer:** die Regierungsvertreter und Regierungsvertreterinnen der Bundesländer\n\nThe Bundesrat = **members of the 16 Land governments** (Ministerpräsidenten and Land ministers), with 3–6 votes per Land by population, cast en bloc. Nobody is elected *to* the Bundesrat, you get in by winning a *Land* election. Niedersachsen, with about 8 million people, holds the maximum 6 votes; its government speaks for its residents in Berlin.\n\nA describes the Bundestag; B the federal cabinet; D no organ at all.\n\n## Auf Deutsch\n\nIm Bundesrat sitzen Vertreter der Landesregierungen."
+    },
+    {
+      "id": "eb-u03-l04-q81-90-ex06",
+      "type": "choice",
+      "title": "Frage 86 · Block 3",
+      "prompt": "Wer wählt in Deutschland den Bundespräsidenten/die Bundespräsidentin?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Bundesversammlung"
+        },
+        {
+          "id": "b",
+          "text": "der Bundesrat"
+        },
+        {
+          "id": "c",
+          "text": "das Bundesparlament"
+        },
+        {
+          "id": "d",
+          "text": "das Bundesverfassungsgericht"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Correct answer:** die Bundesversammlung\n\nThe **Bundesversammlung**, a body that exists for one afternoon every five years: all Bundestag MPs + an equal number of delegates from the Land parliaments (often including celebrities as symbolic electors). It elects the president, applauds, and dissolves.\n\nBundestag alone (C) elects the *Chancellor*, the eternal swap (→Q81); Bundesrat and court elect nobody. Next scheduled: February 2027, likely weeks before you file your application; you'll watch it with new eyes.\n\n## Auf Deutsch\n\nDen Bundespräsidenten wählt die Bundesversammlung."
+    },
+    {
+      "id": "eb-u03-l04-q81-90-ex07",
+      "type": "choice",
+      "title": "Frage 87 · Block 3",
+      "prompt": "Wer ist das Staatsoberhaupt der Bundesrepublik Deutschland?",
+      "options": [
+        {
+          "id": "a",
+          "text": "der Bundeskanzler/die Bundeskanzlerin"
+        },
+        {
+          "id": "b",
+          "text": "der Bundespräsident/die Bundespräsidentin"
+        },
+        {
+          "id": "c",
+          "text": "der Bundesratspräsident/die Bundesratspräsidentin"
+        },
+        {
+          "id": "d",
+          "text": "der Bundestagspräsident/die Bundestagspräsidentin"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Correct answer:** der Bundespräsident/die Bundespräsidentin\n\n**Head of state = Bundespräsident** (represents); head of *government* = Kanzler (governs). Germany splits the two roles on purpose. Weimar's over-mighty president taught the lesson.\n\nA is the power side, not the state's face; C and D chair chambers. If you master one distinction from this whole file, make it this one, it anchors ~8 questions.\n\n## Auf Deutsch\n\nDas Staatsoberhaupt ist der Bundespräsident, nicht der Kanzler."
+    },
+    {
+      "id": "eb-u03-l04-q81-90-ex08",
+      "type": "choice",
+      "title": "Frage 88 · Block 3",
+      "prompt": "Die parlamentarische Opposition im Deutschen Bundestag …",
+      "options": [
+        {
+          "id": "a",
+          "text": "kontrolliert die Regierung"
+        },
+        {
+          "id": "b",
+          "text": "entscheidet, wer Bundesminister/Bundesministerin wird"
+        },
+        {
+          "id": "c",
+          "text": "bestimmt, wer im Bundesrat sitzt"
+        },
+        {
+          "id": "d",
+          "text": "schlägt die Regierungschefs/Regierungschefinnen der Länder vor"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Correct answer:** kontrolliert die Regierung\n\nThe opposition's job: **control the government**, parliamentary questions, debate, committees of inquiry, and constitutional-court challenges. A democracy is measured by how it treats its opposition (quote that in the interview).\n\nMinisters are picked by the Chancellor (→Q58, Q65); Bundesrat seats follow Land elections (→Q85); Land premiers are chosen by Landtage. Opposition = counter-power, not appointment power (→Q13).\n\n## Auf Deutsch\n\nDie wichtigste Aufgabe der Opposition: die Regierung kontrollieren."
+    },
+    {
+      "id": "eb-u03-l04-q81-90-ex09",
+      "type": "choice",
+      "title": "Frage 89 · Block 3",
+      "prompt": "Wie nennt man in Deutschland die Vereinigung von Abgeordneten einer Partei im Parlament?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Verband"
+        },
+        {
+          "id": "b",
+          "text": "Ältestenrat"
+        },
+        {
+          "id": "c",
+          "text": "Fraktion"
+        },
+        {
+          "id": "d",
+          "text": "Opposition"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**Correct answer:** Fraktion\n\nA **Fraktion** = one party's MPs organized as a working group (CDU/CSU-Fraktion, SPD-Fraktion …). Fraktionen structure everything: speaking time, committee seats, the \"stärkste Fraktion\" rule for the Bundestag presidency (→Q57).\n\nOpposition (D) is a *role* some Fraktionen play (→Q13); the Ältestenrat is the procedural council of elders; Verband is any association. Koalition vs. Fraktion →Q31.\n\n## Auf Deutsch\n\nDie Abgeordneten einer Partei bilden im Parlament eine Fraktion."
+    },
+    {
+      "id": "eb-u03-l04-q81-90-ex10",
+      "type": "choice",
+      "title": "Frage 90 · Block 3",
+      "prompt": "Die deutschen Bundesländer wirken an der Gesetzgebung des Bundes mit durch …",
+      "options": [
+        {
+          "id": "a",
+          "text": "den Bundesrat"
+        },
+        {
+          "id": "b",
+          "text": "die Bundesversammlung"
+        },
+        {
+          "id": "c",
+          "text": "den Bundestag"
+        },
+        {
+          "id": "d",
+          "text": "die Bundesregierung"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Correct answer:** den Bundesrat\n\nThe **Bundesrat** IS the Länder's lever in federal lawmaking, consent laws (Zustimmungsgesetze, anything touching Land finances/administration) can't pass against it.\n\nBundesversammlung = president-electing body only; Bundestag = the people's chamber, not the Länder's; Bundesregierung = executive. Completes the Bundesrat trio: who sits in it (Q85), what it does (Q90), which branch it belongs to (Q60).\n\n## Auf Deutsch\n\nÜber den Bundesrat wirken die Länder an der Gesetzgebung des Bundes mit."
+    }
+  ]
+}

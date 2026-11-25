@@ -1,0 +1,239 @@
+{
+  "id": "tb1-u27-l15-comparing-summarising-2",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u27",
+  "title": "Comparing & Summarising 2",
+  "tip": "Theme: Redemittel: Vergleichen & Zusammenfassen (B1)",
+  "exercises": [
+    {
+      "id": "tb1-u27-l15-comparing-summarising-2-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "Alles in allem …",
+          "known": "All in all …"
+        },
+        {
+          "id": "p2",
+          "learning": "Kurz gesagt …",
+          "known": "In short …"
+        },
+        {
+          "id": "p3",
+          "learning": "Abschließend möchte ich sagen, dass …",
+          "known": "In conclusion I'd like to say that …"
+        },
+        {
+          "id": "p4",
+          "learning": "Im Großen und Ganzen …",
+          "known": "By and large …"
+        },
+        {
+          "id": "p5",
+          "learning": "Im Vergleich zu …",
+          "known": "Compared to …"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u27-l15-comparing-summarising-2-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which phrase means „All in all …“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Im Vergleich zu …"
+        },
+        {
+          "id": "b",
+          "text": "Alles in allem …"
+        },
+        {
+          "id": "c",
+          "text": "Im Großen und Ganzen …"
+        },
+        {
+          "id": "d",
+          "text": "ähnlich wie …"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Alles in allem …** = All in all …\n\n*Example:* Alles in allem war unser Urlaub in Österreich sehr schön.\nAll in all, our holiday in Austria was really lovely."
+    },
+    {
+      "id": "tb1-u27-l15-comparing-summarising-2-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which phrase means „In short …“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "ähnlich wie …"
+        },
+        {
+          "id": "b",
+          "text": "Der Unterschied besteht darin, dass …"
+        },
+        {
+          "id": "c",
+          "text": "genauso … wie …"
+        },
+        {
+          "id": "d",
+          "text": "Kurz gesagt …"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**Kurz gesagt …** = In short …\n\n*Example:* Kurz gesagt: Die neue Wohnung ist zu teuer für uns.\nIn short: the new flat is too expensive for us."
+    },
+    {
+      "id": "tb1-u27-l15-comparing-summarising-2-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Alles in allem war unser Urlaub in Österreich sehr schön.",
+      "tiles": [
+        "all",
+        "is",
+        "in",
+        "really",
+        "lovely",
+        "All",
+        "was",
+        "home",
+        "holiday",
+        "in",
+        "Austria",
+        "our",
+        "us"
+      ],
+      "answers": [
+        "All in all, our holiday in Austria was really lovely."
+      ],
+      "explanation": "**Alles in allem …** = All in all …"
+    },
+    {
+      "id": "tb1-u27-l15-comparing-summarising-2-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which phrase means „In conclusion I'd like to say that …“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Alles in allem …"
+        },
+        {
+          "id": "b",
+          "text": "Abschließend möchte ich sagen, dass …"
+        },
+        {
+          "id": "c",
+          "text": "Kurz gesagt …"
+        },
+        {
+          "id": "d",
+          "text": "ähnlich wie …"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Abschließend möchte ich sagen, dass …** = In conclusion I'd like to say that …\n\n*Example:* Abschließend möchte ich sagen, dass ich mich hier sehr wohlfühle.\nIn conclusion I'd like to say that I feel very much at home here."
+    },
+    {
+      "id": "tb1-u27-l15-comparing-summarising-2-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "In short: the new flat is too expensive for us.",
+      "tiles": [
+        "Kurz",
+        "gesagt",
+        "Die",
+        "teuer",
+        "zu",
+        "ist",
+        "Großen",
+        "uns",
+        "neue",
+        "für",
+        "Alles",
+        "Wohnung",
+        "Stadt"
+      ],
+      "answers": [
+        "Kurz gesagt: Die neue Wohnung ist zu teuer für uns."
+      ],
+      "explanation": "**Kurz gesagt …** = In short …"
+    },
+    {
+      "id": "tb1-u27-l15-comparing-summarising-2-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which phrase means „By and large …“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Im Großen und Ganzen …"
+        },
+        {
+          "id": "b",
+          "text": "Im Gegensatz zu …"
+        },
+        {
+          "id": "c",
+          "text": "Im Vergleich zu …"
+        },
+        {
+          "id": "d",
+          "text": "Abschließend möchte ich sagen, dass …"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Im Großen und Ganzen …** = By and large …\n\n*Example:* Im Großen und Ganzen bin ich mit meiner Arbeit zufrieden.\nBy and large, I'm satisfied with my job."
+    },
+    {
+      "id": "tb1-u27-l15-comparing-summarising-2-ex08",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u27-l15-comparing-summarising-2-3.mp3"
+      },
+      "tiles": [
+        "wohlfühle",
+        "möchte",
+        "dass",
+        "meiner",
+        "hier",
+        "ich",
+        "sehr",
+        "mich",
+        "Abschließend",
+        "ich",
+        "wie",
+        "meinem",
+        "sagen"
+      ],
+      "answers": [
+        "Abschließend möchte ich sagen, dass ich mich hier sehr wohlfühle."
+      ],
+      "explanation": "Abschließend möchte ich sagen, dass ich mich hier sehr wohlfühle.\n*In conclusion I'd like to say that I feel very much at home here.*\n\n**Abschließend möchte ich sagen, dass …** = In conclusion I'd like to say that …"
+    },
+    {
+      "id": "tb1-u27-l15-comparing-summarising-2-ex09",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Im Großen und Ganzen bin ich mit meiner Arbeit zufrieden.",
+      "tiles": [
+        "large",
+        "job",
+        "and",
+        "satisfied",
+        "with",
+        "my",
+        "By",
+        "Compared",
+        "as",
+        "I'm",
+        "just"
+      ],
+      "answers": [
+        "By and large, I'm satisfied with my job."
+      ],
+      "explanation": "**Im Großen und Ganzen …** = By and large …"
+    }
+  ]
+}

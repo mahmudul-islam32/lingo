@@ -1,0 +1,285 @@
+{
+  "id": "tb1-u33-l11-indefinit-p1",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u33",
+  "title": "man, jemand, etwas & Co.: man & jemand ↔ niemand",
+  "tip": "After etwas/nichts the adjective is capitalised and takes -es: etwas Neues, nichts Interessantes.",
+  "exercises": [
+    {
+      "id": "tb1-u33-l11-indefinit-p1-ex01",
+      "type": "explain",
+      "title": "man · Menschen allgemein",
+      "body": "man = people in general. Verb always 3rd person singular.\n\n*Deutsch:* man = alle/Leute allgemein. Verb immer 3. Person Singular.\n\n## Pattern\n\n**man** + Verb (er-Form) + …",
+      "examples": [
+        {
+          "learning": "Hier darf man nicht parken.",
+          "known": "You're not allowed to park here."
+        },
+        {
+          "learning": "Wie sagt man das auf Deutsch?",
+          "known": "How do you say that in German?"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u33-l11-indefinit-p1-ex02",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "You're not allowed to park here.",
+      "tiles": [
+        "nicht",
+        "Hier",
+        "ich",
+        "darf",
+        "welche",
+        "parken",
+        "Hat",
+        "man"
+      ],
+      "answers": [
+        "Hier darf man nicht parken."
+      ],
+      "explanation": "**Why:** man + darf (like er darf).\n\n*Warum:* man + darf (wie er darf)."
+    },
+    {
+      "id": "tb1-u33-l11-indefinit-p1-ex03",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "How do you say that in German?",
+      "tiles": [
+        "Stift",
+        "das",
+        "meinen",
+        "man",
+        "Wie",
+        "ich",
+        "Deutsch",
+        "sagt",
+        "auf"
+      ],
+      "answers": [
+        "Wie sagt man das auf Deutsch?"
+      ],
+      "explanation": "**Why:** General question → man.\n\n*Warum:* Allgemeine Frage → man."
+    },
+    {
+      "id": "tb1-u33-l11-indefinit-p1-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "In Germany people separate their rubbish.",
+      "tiles": [
+        "trennt",
+        "In",
+        "Müll",
+        "hier",
+        "nicht",
+        "man",
+        "hat",
+        "Deutschland",
+        "den"
+      ],
+      "answers": [
+        "In Deutschland trennt man den Müll."
+      ],
+      "explanation": "**Why:** man trennt (3rd person).\n\n*Warum:* man trennt (3. Person)."
+    },
+    {
+      "id": "tb1-u33-l11-indefinit-p1-ex05",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "You have to register in advance.",
+      "tiles": [
+        "jemand",
+        "muss",
+        "anmelden",
+        "sich",
+        "Man",
+        "vorher",
+        "___",
+        "Deutschland"
+      ],
+      "answers": [
+        "Man muss sich vorher anmelden."
+      ],
+      "explanation": "**Why:** Rule with man.\n\n*Warum:* Regel mit man."
+    },
+    {
+      "id": "tb1-u33-l11-indefinit-p1-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "You can buy that online.",
+      "tiles": [
+        "Das",
+        "kann",
+        "man",
+        "habe",
+        "einen",
+        "kaufen",
+        "online",
+        "Hast"
+      ],
+      "answers": [
+        "Das kann man online kaufen."
+      ],
+      "explanation": "**Why:** Possibility with man.\n\n*Warum:* Möglichkeit mit man."
+    },
+    {
+      "id": "tb1-u33-l11-indefinit-p1-ex07",
+      "type": "explain",
+      "title": "jemand ↔ niemand",
+      "body": "jemand = someone (unknown). niemand = nobody.\n\n*Deutsch:* jemand = eine (unbekannte) Person. niemand = keine Person.\n\n## Pattern\n\n**jemand** / **niemand** + Verb (3. Pers. Sg.)",
+      "examples": [
+        {
+          "learning": "Hat jemand meinen Schlüssel gesehen?",
+          "known": "Has anyone seen my key?"
+        },
+        {
+          "learning": "Niemand war zu Hause.",
+          "known": "Nobody was at home."
+        }
+      ]
+    },
+    {
+      "id": "tb1-u33-l11-indefinit-p1-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Has anyone seen my key?",
+      "tiles": [
+        "kenne",
+        "meinen",
+        "Niemand",
+        "jemand",
+        "gesehen",
+        "ich",
+        "Schlüssel",
+        "Hat"
+      ],
+      "answers": [
+        "Hat jemand meinen Schlüssel gesehen?"
+      ],
+      "explanation": "**Why:** Unknown person → jemand.\n\n*Warum:* Unbekannte Person → jemand."
+    },
+    {
+      "id": "tb1-u33-l11-indefinit-p1-ex09",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Nobody was at home.",
+      "tiles": [
+        "gegessen",
+        "Hause",
+        "Hast",
+        "Niemand",
+        "zu",
+        "einen",
+        "war"
+      ],
+      "answers": [
+        "Niemand war zu Hause."
+      ],
+      "explanation": "**Why:** No person → niemand.\n\n*Warum:* Keine Person → niemand."
+    },
+    {
+      "id": "tb1-u33-l11-indefinit-p1-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Someone called for you.",
+      "tiles": [
+        "Da",
+        "sich",
+        "Möchtest",
+        "jemand",
+        "angerufen",
+        "Ich",
+        "hat",
+        "dich",
+        "für"
+      ],
+      "answers": [
+        "Da hat jemand für dich angerufen."
+      ],
+      "explanation": "**Why:** jemand + hat (singular).\n\n*Warum:* jemand + hat (Singular)."
+    },
+    {
+      "id": "tb1-u33-l11-indefinit-p1-ex11",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I don't know anyone here.",
+      "tiles": [
+        "jemand",
+        "kenne",
+        "einen",
+        "niemand(en",
+        "Ich",
+        "hier",
+        "du"
+      ],
+      "answers": [
+        "Ich kenne hier niemand(en)."
+      ],
+      "explanation": "**Why:** No extra “nicht”!\n\n*Warum:* Kein zusätzliches „nicht“!"
+    },
+    {
+      "id": "tb1-u33-l11-indefinit-p1-ex12",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Can someone help me?",
+      "tiles": [
+        "etwas",
+        "nicht",
+        "Hat",
+        "Kann",
+        "helfen",
+        "mir",
+        "jemand"
+      ],
+      "answers": [
+        "Kann mir jemand helfen?"
+      ],
+      "explanation": "**Why:** Request to everyone.\n\n*Warum:* Bitte an alle."
+    },
+    {
+      "id": "tb1-u33-l11-indefinit-p1-ex13",
+      "type": "choice",
+      "title": "Fill the gap",
+      "prompt": "Im Kühlschrank ist leider ___ mehr.",
+      "options": [
+        {
+          "id": "a",
+          "text": "etwas"
+        },
+        {
+          "id": "b",
+          "text": "nichts"
+        },
+        {
+          "id": "c",
+          "text": "niemand"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Sachen + verneint → nichts mehr."
+    },
+    {
+      "id": "tb1-u33-l11-indefinit-p1-ex14",
+      "type": "choice",
+      "title": "Fill the gap",
+      "prompt": "Wir brauchen Eier. Hast du noch ___?",
+      "options": [
+        {
+          "id": "a",
+          "text": "welche"
+        },
+        {
+          "id": "b",
+          "text": "eine"
+        },
+        {
+          "id": "c",
+          "text": "etwas"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Plural-Kurzantwort → welche. (etwas nur bei nicht zählbaren Mengen wie Milch)"
+    }
+  ]
+}

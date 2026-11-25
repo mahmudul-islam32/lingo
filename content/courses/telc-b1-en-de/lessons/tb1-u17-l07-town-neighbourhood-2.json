@@ -1,0 +1,294 @@
+{
+  "id": "tb1-u17-l07-town-neighbourhood-2",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u17",
+  "title": "Town & Neighbourhood 2",
+  "tip": "Theme: Stadt / Nachbarschaft (B1)",
+  "exercises": [
+    {
+      "id": "tb1-u17-l07-town-neighbourhood-2-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "der Platz",
+          "known": "square"
+        },
+        {
+          "id": "p2",
+          "learning": "das Gebäude",
+          "known": "building"
+        },
+        {
+          "id": "p3",
+          "learning": "die öffentlichen Verkehrsmittel",
+          "known": "public transport"
+        },
+        {
+          "id": "p4",
+          "learning": "die Bibliothek",
+          "known": "library"
+        },
+        {
+          "id": "p5",
+          "learning": "das Kino",
+          "known": "cinema"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u17-l07-town-neighbourhood-2-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „square · bridge“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "der Stadtteil, die Stadtteile · das Viertel, die Viertel"
+        },
+        {
+          "id": "b",
+          "text": "die Blumen gießen (hat gegossen)"
+        },
+        {
+          "id": "c",
+          "text": "der Platz, die Plätze · die Brücke, die Brücken"
+        },
+        {
+          "id": "d",
+          "text": "die Nachbarschaft (nur Sg.), der Nachbar (n-Dekl., → D4)"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**der Platz** = square · bridge\n*Plural: die Plätze · also: die Brücke, die Brücken*\n\n*Example:* Das Café liegt am Marktplatz, direkt neben der alten Brücke.\nThe café is on the market square, right next to the old bridge."
+    },
+    {
+      "id": "tb1-u17-l07-town-neighbourhood-2-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „building“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Straße, die Straßen · die Kreuzung, die Kreuzungen · die Ampel, die Ampeln"
+        },
+        {
+          "id": "b",
+          "text": "die öffentlichen Verkehrsmittel (Pl.)"
+        },
+        {
+          "id": "c",
+          "text": "das Gebäude, die Gebäude"
+        },
+        {
+          "id": "d",
+          "text": "der Platz, die Plätze · die Brücke, die Brücken"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**das Gebäude** = building\n*Plural: die Gebäude*\n\n*Example:* Das Rathaus ist das älteste Gebäude in unserer Stadt.\nThe town hall is the oldest building in our town."
+    },
+    {
+      "id": "tb1-u17-l07-town-neighbourhood-2-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Das Café liegt am Marktplatz, direkt neben der alten Brücke.",
+      "tiles": [
+        "to",
+        "next",
+        "on",
+        "market",
+        "old",
+        "square",
+        "bridge",
+        "empty",
+        "The",
+        "the",
+        "I'm",
+        "café",
+        "the",
+        "is",
+        "holiday",
+        "right"
+      ],
+      "answers": [
+        "The café is on the market square, right next to the old bridge."
+      ],
+      "explanation": "**der Platz** = square · bridge\n*Plural: die Plätze · also: die Brücke, die Brücken*"
+    },
+    {
+      "id": "tb1-u17-l07-town-neighbourhood-2-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „public transport“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die öffentlichen Verkehrsmittel (Pl.)"
+        },
+        {
+          "id": "b",
+          "text": "das Kino, die Kinos · das Theater, die Theater"
+        },
+        {
+          "id": "c",
+          "text": "die Großstadt, die Großstädte ↔ das Dorf, die Dörfer"
+        },
+        {
+          "id": "d",
+          "text": "der Platz, die Plätze · die Brücke, die Brücken"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**die öffentlichen Verkehrsmittel (Pl.)** = public transport\n\n*Example:* Ich habe kein Auto, deshalb nutze ich die öffentlichen Verkehrsmittel.\nI don't have a car, so I use public transport."
+    },
+    {
+      "id": "tb1-u17-l07-town-neighbourhood-2-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "The town hall is the oldest building in our town.",
+      "tiles": [
+        "ist",
+        "Gebäude",
+        "es",
+        "unserer",
+        "das",
+        "in",
+        "Das",
+        "Stadt",
+        "du",
+        "älteste",
+        "ich",
+        "Rathaus"
+      ],
+      "answers": [
+        "Das Rathaus ist das älteste Gebäude in unserer Stadt."
+      ],
+      "explanation": "**das Gebäude** = building\n*Plural: die Gebäude*"
+    },
+    {
+      "id": "tb1-u17-l07-town-neighbourhood-2-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „library · museum“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Innenstadt, die Innenstädte · das Zentrum, die Zentren"
+        },
+        {
+          "id": "b",
+          "text": "das Kino, die Kinos · das Theater, die Theater"
+        },
+        {
+          "id": "c",
+          "text": "die Bibliothek, die Bibliotheken · das Museum, die Museen"
+        },
+        {
+          "id": "d",
+          "text": "das Gebäude, die Gebäude"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**die Bibliothek** = library · museum\n*Plural: die Bibliotheken · also: das Museum, die Museen*\n\n*Example:* In der Bibliothek kann man Bücher und Filme kostenlos ausleihen.\nAt the library you can borrow books and films for free."
+    },
+    {
+      "id": "tb1-u17-l07-town-neighbourhood-2-ex08",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u17-l07-town-neighbourhood-2-3.mp3"
+      },
+      "tiles": [
+        "Auto",
+        "habe",
+        "kein",
+        "viele",
+        "Verkehrsmittel",
+        "deshalb",
+        "Nachbarn",
+        "Ich",
+        "ich",
+        "öffentlichen",
+        "spielen",
+        "nutze",
+        "die"
+      ],
+      "answers": [
+        "Ich habe kein Auto, deshalb nutze ich die öffentlichen Verkehrsmittel."
+      ],
+      "explanation": "Ich habe kein Auto, deshalb nutze ich die öffentlichen Verkehrsmittel.\n*I don't have a car, so I use public transport.*\n\n**die öffentlichen Verkehrsmittel (Pl.)** = public transport"
+    },
+    {
+      "id": "tb1-u17-l07-town-neighbourhood-2-ex09",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „cinema · theatre“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "der Platz, die Plätze · die Brücke, die Brücken"
+        },
+        {
+          "id": "b",
+          "text": "das Gebäude, die Gebäude"
+        },
+        {
+          "id": "c",
+          "text": "das Kino, die Kinos · das Theater, die Theater"
+        },
+        {
+          "id": "d",
+          "text": "die Nachbarschaft (nur Sg.), der Nachbar (n-Dekl., → D4)"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**das Kino** = cinema · theatre\n*Plural: die Kinos · also: das Theater, die Theater*\n\n*Example:* Gehen wir heute Abend ins Kino oder lieber ins Theater?\nShall we go to the cinema tonight, or would you rather go to the theatre?"
+    },
+    {
+      "id": "tb1-u17-l07-town-neighbourhood-2-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "In der Bibliothek kann man Bücher und Filme kostenlos ausleihen.",
+      "tiles": [
+        "At",
+        "village",
+        "on",
+        "books",
+        "can",
+        "library",
+        "free",
+        "for",
+        "and",
+        "go",
+        "you",
+        "borrow",
+        "the",
+        "films"
+      ],
+      "answers": [
+        "At the library you can borrow books and films for free."
+      ],
+      "explanation": "**die Bibliothek** = library · museum\n*Plural: die Bibliotheken · also: das Museum, die Museen*"
+    },
+    {
+      "id": "tb1-u17-l07-town-neighbourhood-2-ex11",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Shall we go to the cinema tonight, or would you rather go to the theatre?",
+      "tiles": [
+        "Gehen",
+        "Theater",
+        "Abend",
+        "oder",
+        "lieber",
+        "ins",
+        "hinter",
+        "Brücke",
+        "heute",
+        "Kino",
+        "wir",
+        "das",
+        "ins"
+      ],
+      "answers": [
+        "Gehen wir heute Abend ins Kino oder lieber ins Theater?"
+      ],
+      "explanation": "**das Kino** = cinema · theatre\n*Plural: die Kinos · also: das Theater, die Theater*"
+    }
+  ]
+}

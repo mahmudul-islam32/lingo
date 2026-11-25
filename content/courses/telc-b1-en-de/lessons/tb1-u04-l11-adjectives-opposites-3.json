@@ -1,0 +1,245 @@
+{
+  "id": "tb1-u04-l11-adjectives-opposites-3",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u04",
+  "title": "Adjectives: Opposites 3",
+  "tip": "Theme: Adjektive: Gegensätze (A1)",
+  "exercises": [
+    {
+      "id": "tb1-u04-l11-adjectives-opposites-3-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "schön",
+          "known": "beautiful"
+        },
+        {
+          "id": "p2",
+          "learning": "leicht",
+          "known": "easy/light"
+        },
+        {
+          "id": "p3",
+          "learning": "lang",
+          "known": "long"
+        },
+        {
+          "id": "p4",
+          "learning": "hell",
+          "known": "bright"
+        },
+        {
+          "id": "p5",
+          "learning": "groß",
+          "known": "big"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u04-l11-adjectives-opposites-3-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which one means „beautiful ↔ ugly“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "leicht ↔ schwer"
+        },
+        {
+          "id": "b",
+          "text": "warm ↔ kalt"
+        },
+        {
+          "id": "c",
+          "text": "schön ↔ hässlich"
+        },
+        {
+          "id": "d",
+          "text": "teuer ↔ billig"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**schön ↔ hässlich** = beautiful ↔ ugly\n\n*Example:* Die Wohnung ist schön, aber das Haus ist leider hässlich.\nThe flat is beautiful, but unfortunately the building is ugly."
+    },
+    {
+      "id": "tb1-u04-l11-adjectives-opposites-3-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which one means „easy/light ↔ hard/heavy“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "leicht ↔ schwer"
+        },
+        {
+          "id": "b",
+          "text": "teuer ↔ billig"
+        },
+        {
+          "id": "c",
+          "text": "lang ↔ kurz"
+        },
+        {
+          "id": "d",
+          "text": "früh ↔ spät"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**leicht ↔ schwer** = easy/light ↔ hard/heavy\n\n*Example:* Die Tasche ist leicht, aber der Koffer ist sehr schwer.\nThe bag is light, but the suitcase is very heavy."
+    },
+    {
+      "id": "tb1-u04-l11-adjectives-opposites-3-ex04",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u04-l11-adjectives-opposites-3-1.mp3"
+      },
+      "tiles": [
+        "schön",
+        "das",
+        "aber",
+        "Die",
+        "Wohnung",
+        "ist",
+        "Haus",
+        "ist",
+        "leider",
+        "Ich",
+        "hässlich",
+        "im",
+        "Küche"
+      ],
+      "answers": [
+        "Die Wohnung ist schön, aber das Haus ist leider hässlich."
+      ],
+      "explanation": "Die Wohnung ist schön, aber das Haus ist leider hässlich.\n*The flat is beautiful, but unfortunately the building is ugly.*\n\n**schön ↔ hässlich** = beautiful ↔ ugly"
+    },
+    {
+      "id": "tb1-u04-l11-adjectives-opposites-3-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which one means „long ↔ short“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "schnell ↔ langsam"
+        },
+        {
+          "id": "b",
+          "text": "groß ↔ klein"
+        },
+        {
+          "id": "c",
+          "text": "laut ↔ leise"
+        },
+        {
+          "id": "d",
+          "text": "lang ↔ kurz"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**lang ↔ kurz** = long ↔ short\n\n*Example:* Die Hose ist zu lang, und die Ärmel sind zu kurz.\nThe trousers are too long and the sleeves are too short."
+    },
+    {
+      "id": "tb1-u04-l11-adjectives-opposites-3-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Die Tasche ist leicht, aber der Koffer ist sehr schwer.",
+      "tiles": [
+        "the",
+        "bag",
+        "The",
+        "but",
+        "is",
+        "expensive",
+        "heavy",
+        "very",
+        "still",
+        "Our",
+        "light",
+        "is",
+        "suitcase"
+      ],
+      "answers": [
+        "The bag is light, but the suitcase is very heavy."
+      ],
+      "explanation": "**leicht ↔ schwer** = easy/light ↔ hard/heavy"
+    },
+    {
+      "id": "tb1-u04-l11-adjectives-opposites-3-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which one means „bright ↔ dark“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "gut ↔ schlecht"
+        },
+        {
+          "id": "b",
+          "text": "schön ↔ hässlich"
+        },
+        {
+          "id": "c",
+          "text": "lang ↔ kurz"
+        },
+        {
+          "id": "d",
+          "text": "hell ↔ dunkel"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**hell ↔ dunkel** = bright ↔ dark\n\n*Example:* Im Sommer ist es lange hell, im Winter wird es früh dunkel.\nIn summer it stays light for a long time, in winter it gets dark early."
+    },
+    {
+      "id": "tb1-u04-l11-adjectives-opposites-3-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "The trousers are too long and the sleeves are too short.",
+      "tiles": [
+        "zu",
+        "Bad",
+        "sind",
+        "lang",
+        "Hose",
+        "die",
+        "Tasche",
+        "und",
+        "Ärmel",
+        "kurz",
+        "ist",
+        "aber",
+        "Die",
+        "zu"
+      ],
+      "answers": [
+        "Die Hose ist zu lang, und die Ärmel sind zu kurz."
+      ],
+      "explanation": "**lang ↔ kurz** = long ↔ short"
+    },
+    {
+      "id": "tb1-u04-l11-adjectives-opposites-3-ex09",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u04-l11-adjectives-opposites-3-4.mp3"
+      },
+      "tiles": [
+        "Winter",
+        "Im",
+        "es",
+        "lange",
+        "es",
+        "Die",
+        "hell",
+        "im",
+        "aber",
+        "ist",
+        "früh",
+        "zu",
+        "dunkel",
+        "Sommer",
+        "wird"
+      ],
+      "answers": [
+        "Im Sommer ist es lange hell, im Winter wird es früh dunkel."
+      ],
+      "explanation": "Im Sommer ist es lange hell, im Winter wird es früh dunkel.\n*In summer it stays light for a long time, in winter it gets dark early.*\n\n**hell ↔ dunkel** = bright ↔ dark"
+    }
+  ]
+}

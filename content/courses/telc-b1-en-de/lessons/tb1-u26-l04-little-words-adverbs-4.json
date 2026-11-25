@@ -1,0 +1,231 @@
+{
+  "id": "tb1-u26-l04-little-words-adverbs-4",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u26",
+  "title": "Little Words & Adverbs 4",
+  "tip": "Theme: Kleine Wörter & Adverbien (B1)",
+  "exercises": [
+    {
+      "id": "tb1-u26-l04-little-words-adverbs-4-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "oben",
+          "known": "above / at the top"
+        },
+        {
+          "id": "p2",
+          "learning": "unten",
+          "known": "below / at the bottom"
+        },
+        {
+          "id": "p3",
+          "learning": "draußen",
+          "known": "outside"
+        },
+        {
+          "id": "p4",
+          "learning": "drinnen",
+          "known": "inside"
+        },
+        {
+          "id": "p5",
+          "learning": "sogar",
+          "known": "even"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u26-l04-little-words-adverbs-4-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which one means „above / at the top“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "wegen + Gen."
+        },
+        {
+          "id": "b",
+          "text": "dabei"
+        },
+        {
+          "id": "c",
+          "text": "oben"
+        },
+        {
+          "id": "d",
+          "text": "womit"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**oben** = above / at the top\n\n*Example:* Die Gläser stehen oben im Schrank.\nThe glasses are at the top of the cupboard."
+    },
+    {
+      "id": "tb1-u26-l04-little-words-adverbs-4-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which one means „below / at the bottom“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "allein"
+        },
+        {
+          "id": "b",
+          "text": "vorbei"
+        },
+        {
+          "id": "c",
+          "text": "innerhalb + Gen."
+        },
+        {
+          "id": "d",
+          "text": "unten"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**unten** = below / at the bottom\n\n*Example:* Die Familie Weber wohnt unten im Erdgeschoss.\nThe Weber family lives downstairs on the ground floor."
+    },
+    {
+      "id": "tb1-u26-l04-little-words-adverbs-4-ex04",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u26-l04-little-words-adverbs-4-1.mp3"
+      },
+      "tiles": [
+        "wohnen",
+        "Die",
+        "im",
+        "deshalb",
+        "Gläser",
+        "oben",
+        "Ich",
+        "Schrank",
+        "stehen"
+      ],
+      "answers": [
+        "Die Gläser stehen oben im Schrank."
+      ],
+      "explanation": "Die Gläser stehen oben im Schrank.\n*The glasses are at the top of the cupboard.*\n\n**oben** = above / at the top"
+    },
+    {
+      "id": "tb1-u26-l04-little-words-adverbs-4-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which one means „outside“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "jeweils"
+        },
+        {
+          "id": "b",
+          "text": "miteinander"
+        },
+        {
+          "id": "c",
+          "text": "voneinander"
+        },
+        {
+          "id": "d",
+          "text": "draußen"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**draußen** = outside\n\n*Example:* Die Kinder spielen draußen im Hof.\nThe children are playing outside in the yard."
+    },
+    {
+      "id": "tb1-u26-l04-little-words-adverbs-4-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Die Familie Weber wohnt unten im Erdgeschoss.",
+      "tiles": [
+        "lives",
+        "the",
+        "The",
+        "downstairs",
+        "I",
+        "each",
+        "ground",
+        "family",
+        "Weber",
+        "floor",
+        "on",
+        "you"
+      ],
+      "answers": [
+        "The Weber family lives downstairs on the ground floor."
+      ],
+      "explanation": "**unten** = below / at the bottom"
+    },
+    {
+      "id": "tb1-u26-l04-little-words-adverbs-4-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which one means „inside“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "draußen"
+        },
+        {
+          "id": "b",
+          "text": "drinnen"
+        },
+        {
+          "id": "c",
+          "text": "überhaupt"
+        },
+        {
+          "id": "d",
+          "text": "voneinander"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**drinnen** = inside\n\n*Example:* Es ist kalt, deshalb essen wir heute drinnen.\nIt's cold, so we're eating inside today."
+    },
+    {
+      "id": "tb1-u26-l04-little-words-adverbs-4-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "The children are playing outside in the yard.",
+      "tiles": [
+        "Hof",
+        "spielen",
+        "und",
+        "draußen",
+        "Tag",
+        "beiden",
+        "im",
+        "Kinder",
+        "Die"
+      ],
+      "answers": [
+        "Die Kinder spielen draußen im Hof."
+      ],
+      "explanation": "**draußen** = outside"
+    },
+    {
+      "id": "tb1-u26-l04-little-words-adverbs-4-ex09",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u26-l04-little-words-adverbs-4-4.mp3"
+      },
+      "tiles": [
+        "einander",
+        "statt",
+        "Es",
+        "deshalb",
+        "drinnen",
+        "darum",
+        "essen",
+        "heute",
+        "ist",
+        "kalt",
+        "wir"
+      ],
+      "answers": [
+        "Es ist kalt, deshalb essen wir heute drinnen."
+      ],
+      "explanation": "Es ist kalt, deshalb essen wir heute drinnen.\n*It's cold, so we're eating inside today.*\n\n**drinnen** = inside"
+    }
+  ]
+}

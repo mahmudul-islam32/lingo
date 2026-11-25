@@ -1,0 +1,231 @@
+{
+  "id": "tb1-u19-l10-abstract-nouns-2",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u19",
+  "title": "Abstract Nouns 2",
+  "tip": "Theme: Abstrakte Nomen (B1)",
+  "exercises": [
+    {
+      "id": "tb1-u19-l10-abstract-nouns-2-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "der Zweck",
+          "known": "purpose"
+        },
+        {
+          "id": "p2",
+          "learning": "die Absicht",
+          "known": "intention"
+        },
+        {
+          "id": "p3",
+          "learning": "die Fähigkeit",
+          "known": "ability"
+        },
+        {
+          "id": "p4",
+          "learning": "die Verantwortung",
+          "known": "responsibility"
+        },
+        {
+          "id": "p5",
+          "learning": "die Gelegenheit",
+          "known": "opportunity"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u19-l10-abstract-nouns-2-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „purpose“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "der Zweck, die Zwecke"
+        },
+        {
+          "id": "b",
+          "text": "die Gelegenheit, die Gelegenheiten"
+        },
+        {
+          "id": "c",
+          "text": "die Bedeutung, die Bedeutungen"
+        },
+        {
+          "id": "d",
+          "text": "das Ziel, die Ziele"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**der Zweck** = purpose\n*Plural: die Zwecke*\n\n*Example:* Was ist der Zweck Ihrer Reise nach Deutschland?\nWhat is the purpose of your trip to Germany?"
+    },
+    {
+      "id": "tb1-u19-l10-abstract-nouns-2-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „intention“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Gelegenheit, die Gelegenheiten"
+        },
+        {
+          "id": "b",
+          "text": "die Absicht, die Absichten"
+        },
+        {
+          "id": "c",
+          "text": "der Eindruck, die Eindrücke"
+        },
+        {
+          "id": "d",
+          "text": "die Schwierigkeit, die Schwierigkeiten"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**die Absicht** = intention\n*Plural: die Absichten*\n\n*Example:* Es war nicht meine Absicht, dich zu ärgern.\nIt wasn't my intention to upset you."
+    },
+    {
+      "id": "tb1-u19-l10-abstract-nouns-2-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "What is the purpose of your trip to Germany?",
+      "tiles": [
+        "gefällt",
+        "Schild",
+        "ist",
+        "Zweck",
+        "Was",
+        "Ihrer",
+        "Deutschland",
+        "deinem",
+        "Reise",
+        "der",
+        "nach"
+      ],
+      "answers": [
+        "Was ist der Zweck Ihrer Reise nach Deutschland?"
+      ],
+      "explanation": "**der Zweck** = purpose\n*Plural: die Zwecke*"
+    },
+    {
+      "id": "tb1-u19-l10-abstract-nouns-2-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „ability“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Absicht, die Absichten"
+        },
+        {
+          "id": "b",
+          "text": "die Verantwortung"
+        },
+        {
+          "id": "c",
+          "text": "der Zweck, die Zwecke"
+        },
+        {
+          "id": "d",
+          "text": "die Fähigkeit, die Fähigkeiten"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**die Fähigkeit** = ability\n*Plural: die Fähigkeiten*\n\n*Example:* Im Lebenslauf beschreibt Ali seine Fähigkeiten.\nAli describes his abilities in his CV."
+    },
+    {
+      "id": "tb1-u19-l10-abstract-nouns-2-ex06",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u19-l10-abstract-nouns-2-2.mp3"
+      },
+      "tiles": [
+        "dich",
+        "dir",
+        "seine",
+        "ärgern",
+        "war",
+        "zu",
+        "Absicht",
+        "meine",
+        "ein",
+        "nicht",
+        "Es"
+      ],
+      "answers": [
+        "Es war nicht meine Absicht, dich zu ärgern."
+      ],
+      "explanation": "Es war nicht meine Absicht, dich zu ärgern.\n*It wasn't my intention to upset you.*\n\n**die Absicht** = intention\n*Plural: die Absichten*"
+    },
+    {
+      "id": "tb1-u19-l10-abstract-nouns-2-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „responsibility“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Gelegenheit, die Gelegenheiten"
+        },
+        {
+          "id": "b",
+          "text": "das Ziel, die Ziele"
+        },
+        {
+          "id": "c",
+          "text": "die Verantwortung"
+        },
+        {
+          "id": "d",
+          "text": "die Aufgabe, die Aufgaben"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**die Verantwortung** = responsibility\n\n*Example:* Eltern tragen die Verantwortung für ihre Kinder.\nParents are responsible for their children."
+    },
+    {
+      "id": "tb1-u19-l10-abstract-nouns-2-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Im Lebenslauf beschreibt Ali seine Fähigkeiten.",
+      "tiles": [
+        "abilities",
+        "goal",
+        "next",
+        "Ali",
+        "his",
+        "in",
+        "describes",
+        "his",
+        "CV",
+        "I"
+      ],
+      "answers": [
+        "Ali describes his abilities in his CV."
+      ],
+      "explanation": "**die Fähigkeit** = ability\n*Plural: die Fähigkeiten*"
+    },
+    {
+      "id": "tb1-u19-l10-abstract-nouns-2-ex09",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Parents are responsible for their children.",
+      "tiles": [
+        "ihre",
+        "Wirkung",
+        "Eltern",
+        "Kinder",
+        "für",
+        "Anfang",
+        "Verantwortung",
+        "Eine",
+        "tragen",
+        "die"
+      ],
+      "answers": [
+        "Eltern tragen die Verantwortung für ihre Kinder."
+      ],
+      "explanation": "**die Verantwortung** = responsibility"
+    }
+  ]
+}

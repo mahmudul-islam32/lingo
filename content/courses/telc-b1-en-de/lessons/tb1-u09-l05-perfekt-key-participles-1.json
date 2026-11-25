@@ -1,0 +1,281 @@
+{
+  "id": "tb1-u09-l05-perfekt-key-participles-1",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u09",
+  "title": "Perfekt: Key Participles 1",
+  "tip": "Theme: Perfekt: wichtige Partizipien (A2)",
+  "exercises": [
+    {
+      "id": "tb1-u09-l05-perfekt-key-participles-1-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "essen",
+          "known": "to eat (irregular Perfekt)"
+        },
+        {
+          "id": "p2",
+          "learning": "gehen",
+          "known": "to go (Perfekt with sein)"
+        },
+        {
+          "id": "p3",
+          "learning": "fahren",
+          "known": "to drive / go (Perfekt with sein)"
+        },
+        {
+          "id": "p4",
+          "learning": "kommen",
+          "known": "to come (Perfekt with sein)"
+        },
+        {
+          "id": "p5",
+          "learning": "fliegen",
+          "known": "to fly (Perfekt with sein)"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u09-l05-perfekt-key-participles-1-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which one means „to eat (irregular Perfekt)“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "bringen → hat gebracht"
+        },
+        {
+          "id": "b",
+          "text": "schreiben → hat geschrieben"
+        },
+        {
+          "id": "c",
+          "text": "essen → hat gegessen"
+        },
+        {
+          "id": "d",
+          "text": "stehen → hat gestanden"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**essen → hat gegessen** = to eat (irregular Perfekt)\n\n*Example:* Zum Frühstück habe ich nur ein Brötchen gegessen.\nI only ate a bread roll for breakfast."
+    },
+    {
+      "id": "tb1-u09-l05-perfekt-key-participles-1-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which one means „to go (Perfekt with sein)“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "gehen → ist gegangen"
+        },
+        {
+          "id": "b",
+          "text": "schlafen → hat geschlafen"
+        },
+        {
+          "id": "c",
+          "text": "fragen → hat gefragt"
+        },
+        {
+          "id": "d",
+          "text": "lesen → hat gelesen"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**gehen → ist gegangen** = to go (Perfekt with sein)\n\n*Example:* Nach der Arbeit ist Maria noch einkaufen gegangen.\nAfter work Maria went shopping."
+    },
+    {
+      "id": "tb1-u09-l05-perfekt-key-participles-1-ex04",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u09-l05-perfekt-key-participles-1-1.mp3"
+      },
+      "tiles": [
+        "Frühstück",
+        "Brötchen",
+        "und",
+        "gegessen",
+        "Zum",
+        "nur",
+        "Tag",
+        "nach",
+        "ich",
+        "habe",
+        "ein"
+      ],
+      "answers": [
+        "Zum Frühstück habe ich nur ein Brötchen gegessen."
+      ],
+      "explanation": "Zum Frühstück habe ich nur ein Brötchen gegessen.\n*I only ate a bread roll for breakfast.*\n\n**essen → hat gegessen** = to eat (irregular Perfekt)"
+    },
+    {
+      "id": "tb1-u09-l05-perfekt-key-participles-1-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which one means „to drive / go (Perfekt with sein)“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "stehen → hat gestanden"
+        },
+        {
+          "id": "b",
+          "text": "treffen → hat getroffen"
+        },
+        {
+          "id": "c",
+          "text": "sterben → ist gestorben"
+        },
+        {
+          "id": "d",
+          "text": "fahren → ist gefahren"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**fahren → ist gefahren** = to drive / go (Perfekt with sein)\n\n*Example:* Am Wochenende sind wir mit dem Zug nach Hamburg gefahren.\nAt the weekend we went to Hamburg by train."
+    },
+    {
+      "id": "tb1-u09-l05-perfekt-key-participles-1-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Nach der Arbeit ist Maria noch einkaufen gegangen.",
+      "tiles": [
+        "lots",
+        "work",
+        "After",
+        "went",
+        "saw",
+        "shopping",
+        "half",
+        "Maria"
+      ],
+      "answers": [
+        "After work Maria went shopping."
+      ],
+      "explanation": "**gehen → ist gegangen** = to go (Perfekt with sein)"
+    },
+    {
+      "id": "tb1-u09-l05-perfekt-key-participles-1-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which one means „to come (Perfekt with sein)“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "gewinnen → hat gewonnen"
+        },
+        {
+          "id": "b",
+          "text": "trinken → hat getrunken"
+        },
+        {
+          "id": "c",
+          "text": "kommen → ist gekommen"
+        },
+        {
+          "id": "d",
+          "text": "denken → hat gedacht"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**kommen → ist gekommen** = to come (Perfekt with sein)\n\n*Example:* Mein Kollege ist heute zu spät zur Arbeit gekommen.\nMy colleague came to work late today."
+    },
+    {
+      "id": "tb1-u09-l05-perfekt-key-participles-1-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "At the weekend we went to Hamburg by train.",
+      "tiles": [
+        "mit",
+        "Hamburg",
+        "gefahren",
+        "Freundin",
+        "sind",
+        "dem",
+        "Wochenende",
+        "nach",
+        "Am",
+        "Ich",
+        "wir",
+        "gestorben",
+        "Zug"
+      ],
+      "answers": [
+        "Am Wochenende sind wir mit dem Zug nach Hamburg gefahren."
+      ],
+      "explanation": "**fahren → ist gefahren** = to drive / go (Perfekt with sein)"
+    },
+    {
+      "id": "tb1-u09-l05-perfekt-key-participles-1-ex09",
+      "type": "multiple_choice",
+      "prompt": "Which one means „to fly (Perfekt with sein)“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "fliegen → ist geflogen"
+        },
+        {
+          "id": "b",
+          "text": "geben → hat gegeben"
+        },
+        {
+          "id": "c",
+          "text": "stehen → hat gestanden"
+        },
+        {
+          "id": "d",
+          "text": "trinken → hat getrunken"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**fliegen → ist geflogen** = to fly (Perfekt with sein)\n\n*Example:* Im Sommer ist Ali in die Türkei geflogen.\nIn the summer Ali flew to Turkey."
+    },
+    {
+      "id": "tb1-u09-l05-perfekt-key-participles-1-ex10",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u09-l05-perfekt-key-participles-1-4.mp3"
+      },
+      "tiles": [
+        "Ich",
+        "zu",
+        "gewonnen",
+        "zur",
+        "Arbeit",
+        "gekommen",
+        "hat",
+        "spät",
+        "ist",
+        "heute",
+        "Mein",
+        "Kollege"
+      ],
+      "answers": [
+        "Mein Kollege ist heute zu spät zur Arbeit gekommen."
+      ],
+      "explanation": "Mein Kollege ist heute zu spät zur Arbeit gekommen.\n*My colleague came to work late today.*\n\n**kommen → ist gekommen** = to come (Perfekt with sein)"
+    },
+    {
+      "id": "tb1-u09-l05-perfekt-key-participles-1-ex11",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Im Sommer ist Ali in die Türkei geflogen.",
+      "tiles": [
+        "at",
+        "In",
+        "Ali",
+        "flew",
+        "letter",
+        "summer",
+        "landlord",
+        "to",
+        "the",
+        "Turkey"
+      ],
+      "answers": [
+        "In the summer Ali flew to Turkey."
+      ],
+      "explanation": "**fliegen → ist geflogen** = to fly (Perfekt with sein)"
+    }
+  ]
+}

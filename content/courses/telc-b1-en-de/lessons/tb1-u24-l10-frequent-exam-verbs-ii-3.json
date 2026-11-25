@@ -1,0 +1,288 @@
+{
+  "id": "tb1-u24-l10-frequent-exam-verbs-ii-3",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u24",
+  "title": "Frequent Exam Verbs II 3",
+  "tip": "Theme: Verben: Prüfungshäufig II (B1)",
+  "exercises": [
+    {
+      "id": "tb1-u24-l10-frequent-exam-verbs-ii-3-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "hängen",
+          "known": "to hang"
+        },
+        {
+          "id": "p2",
+          "learning": "leiten",
+          "known": "to lead / manage"
+        },
+        {
+          "id": "p3",
+          "learning": "nennen",
+          "known": "to name / mention"
+        },
+        {
+          "id": "p4",
+          "learning": "erkennen",
+          "known": "to recognize"
+        },
+        {
+          "id": "p5",
+          "learning": "behandeln",
+          "known": "to treat / deal with"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u24-l10-frequent-exam-verbs-ii-3-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which one means „to hang“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "erreichen"
+        },
+        {
+          "id": "b",
+          "text": "reichen"
+        },
+        {
+          "id": "c",
+          "text": "erkennen"
+        },
+        {
+          "id": "d",
+          "text": "hängen"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**hängen** = to hang\n\n*Example:* Tom hat das Bild über das Sofa gehängt.\nTom hung the picture above the sofa."
+    },
+    {
+      "id": "tb1-u24-l10-frequent-exam-verbs-ii-3-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which one means „to lead / manage“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "stören"
+        },
+        {
+          "id": "b",
+          "text": "öffnen"
+        },
+        {
+          "id": "c",
+          "text": "sitzen"
+        },
+        {
+          "id": "d",
+          "text": "leiten"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**leiten** = to lead / manage\n\n*Example:* Frau Becker leitet seit Januar unsere Abteilung.\nMs Becker has been managing our department since January."
+    },
+    {
+      "id": "tb1-u24-l10-frequent-exam-verbs-ii-3-ex04",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u24-l10-frequent-exam-verbs-ii-3-1.mp3"
+      },
+      "tiles": [
+        "hat",
+        "erkannt",
+        "ich",
+        "das",
+        "Bild",
+        "gehängt",
+        "über",
+        "Sofa",
+        "Tom",
+        "Es",
+        "das"
+      ],
+      "answers": [
+        "Tom hat das Bild über das Sofa gehängt."
+      ],
+      "explanation": "Tom hat das Bild über das Sofa gehängt.\n*Tom hung the picture above the sofa.*\n\n**hängen** = to hang"
+    },
+    {
+      "id": "tb1-u24-l10-frequent-exam-verbs-ii-3-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which one means „to name / mention“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "erreichen"
+        },
+        {
+          "id": "b",
+          "text": "verlieren"
+        },
+        {
+          "id": "c",
+          "text": "nennen"
+        },
+        {
+          "id": "d",
+          "text": "erkennen"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**nennen** = to name / mention\n\n*Example:* Können Sie mir einen guten Zahnarzt in der Nähe nennen?\nCan you name a good dentist nearby for me?"
+    },
+    {
+      "id": "tb1-u24-l10-frequent-exam-verbs-ii-3-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Frau Becker leitet seit Januar unsere Abteilung.",
+      "tiles": [
+        "our",
+        "January",
+        "since",
+        "the",
+        "has",
+        "Ms",
+        "car",
+        "managing",
+        "department",
+        "School",
+        "Becker",
+        "been"
+      ],
+      "answers": [
+        "Ms Becker has been managing our department since January."
+      ],
+      "explanation": "**leiten** = to lead / manage"
+    },
+    {
+      "id": "tb1-u24-l10-frequent-exam-verbs-ii-3-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which one means „to recognize“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "erkennen"
+        },
+        {
+          "id": "b",
+          "text": "stören"
+        },
+        {
+          "id": "c",
+          "text": "reichen"
+        },
+        {
+          "id": "d",
+          "text": "bieten"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**erkennen** = to recognize\n\n*Example:* Nach zehn Jahren habe ich meine alte Schulfreundin sofort erkannt.\nAfter ten years I recognized my old school friend immediately."
+    },
+    {
+      "id": "tb1-u24-l10-frequent-exam-verbs-ii-3-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Can you name a good dentist nearby for me?",
+      "tiles": [
+        "in",
+        "guten",
+        "Nähe",
+        "Können",
+        "Sie",
+        "mir",
+        "Zahnarzt",
+        "einen",
+        "Stelle",
+        "der",
+        "geben",
+        "nennen",
+        "mein"
+      ],
+      "answers": [
+        "Können Sie mir einen guten Zahnarzt in der Nähe nennen?"
+      ],
+      "explanation": "**nennen** = to name / mention"
+    },
+    {
+      "id": "tb1-u24-l10-frequent-exam-verbs-ii-3-ex09",
+      "type": "multiple_choice",
+      "prompt": "Which one means „to treat / deal with“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "bieten"
+        },
+        {
+          "id": "b",
+          "text": "behandeln"
+        },
+        {
+          "id": "c",
+          "text": "abgeben (gibt ab)"
+        },
+        {
+          "id": "d",
+          "text": "stehen"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**behandeln** = to treat / deal with\n\n*Example:* Die Ärztin behandelt heute viele Patienten mit Grippe.\nThe doctor is treating many patients with flu today."
+    },
+    {
+      "id": "tb1-u24-l10-frequent-exam-verbs-ii-3-ex10",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u24-l10-frequent-exam-verbs-ii-3-4.mp3"
+      },
+      "tiles": [
+        "sich",
+        "alte",
+        "Der",
+        "Nach",
+        "meine",
+        "sehr",
+        "habe",
+        "erkannt",
+        "sofort",
+        "zehn",
+        "ich",
+        "Jahren",
+        "Schulfreundin"
+      ],
+      "answers": [
+        "Nach zehn Jahren habe ich meine alte Schulfreundin sofort erkannt."
+      ],
+      "explanation": "Nach zehn Jahren habe ich meine alte Schulfreundin sofort erkannt.\n*After ten years I recognized my old school friend immediately.*\n\n**erkennen** = to recognize"
+    },
+    {
+      "id": "tb1-u24-l10-frequent-exam-verbs-ii-3-ex11",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Die Ärztin behandelt heute viele Patienten mit Grippe.",
+      "tiles": [
+        "with",
+        "today",
+        "won",
+        "The",
+        "keys",
+        "treating",
+        "flu",
+        "until",
+        "is",
+        "doctor",
+        "many",
+        "patients"
+      ],
+      "answers": [
+        "The doctor is treating many patients with flu today."
+      ],
+      "explanation": "**behandeln** = to treat / deal with"
+    }
+  ]
+}

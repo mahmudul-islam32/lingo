@@ -1,0 +1,867 @@
+{
+  "id": "eb-u14-l07-probetest-6",
+  "courseId": "einbuergerung-en-de",
+  "unitId": "eb-u14",
+  "title": "Mock test 6 (Probetest 6)",
+  "tip": "Real format: 30 general + 3 Niedersachsen questions. Allow 60 minutes; 17 correct to pass, aim for 28+.",
+  "exercises": [
+    {
+      "id": "eb-u14-l07-probetest-6-ex01",
+      "type": "choice",
+      "title": "Frage 5 · Block 1",
+      "prompt": "Wahlen in Deutschland sind frei. Was bedeutet das?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Man darf Geld annehmen, wenn man dafür einen bestimmten Kandidaten wählt"
+        },
+        {
+          "id": "b",
+          "text": "Der Wähler darf bei der Wahl weder beeinflusst noch zu einer bestimmten Stimmabgabe gezwungen werden und keine Nachteile durch die Wahl haben"
+        },
+        {
+          "id": "c",
+          "text": "Nur wer noch nie im Gefängnis war, darf wählen"
+        },
+        {
+          "id": "d",
+          "text": "Alle wahlberechtigten Personen müssen wählen"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Correct answer:** Der Wähler darf bei der Wahl weder beeinflusst noch zu einer bestimmten Stimmabgabe gezwungen werden und keine Nachteile durch die Wahl haben\n\n\"Frei\" is one of the five constitutional election principles (→Q112, Q122): no coercion, no bribery, no pressure from employer/family/state, no disadvantage for how (or whether) you vote.\n\nA describes vote-buying, a crime that *violates* free elections. C invents a restriction that doesn't exist (even most prisoners can vote). D describes compulsory voting (Wahlpflicht). Germany deliberately has none; a *free* election includes the freedom to stay home (→Q114).\n\n## Auf Deutsch\n\n„Frei“ = ohne Druck, ohne Zwang, ohne Nachteile wählen. Stimmenkauf ist verboten."
+    },
+    {
+      "id": "eb-u14-l07-probetest-6-ex02",
+      "type": "choice",
+      "title": "Frage 17 · Block 1",
+      "prompt": "Die deutschen Gesetze verbieten …",
+      "options": [
+        {
+          "id": "a",
+          "text": "Meinungsfreiheit der Einwohner und Einwohnerinnen"
+        },
+        {
+          "id": "b",
+          "text": "Petitionen der Bürger und Bürgerinnen"
+        },
+        {
+          "id": "c",
+          "text": "Versammlungsfreiheit der Einwohner und Einwohnerinnen"
+        },
+        {
+          "id": "d",
+          "text": "Ungleichbehandlung der Bürger und Bürgerinnen durch den Staat"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**Correct answer:** Ungleichbehandlung der Bürger und Bürgerinnen durch den Staat\n\nArt. 3 GG obliges the *state* to treat people equally, arbitrary unequal treatment by authorities is unlawful, and you can sue over it.\n\nA–C are all *guaranteed rights*, not prohibitions: Meinungsfreiheit (Art. 5), Petitionsrecht (Art. 17, the right to petition any authority and parliament), Versammlungsfreiheit (Art. 8, peaceful assembly). The question inverts polarity, read carefully: it asks what is *forbidden*.\n\n## Auf Deutsch\n\nDer Staat darf Bürger nicht ungleich behandeln (Art. 3 GG: Gleichheit)."
+    },
+    {
+      "id": "eb-u14-l07-probetest-6-ex03",
+      "type": "choice",
+      "title": "Frage 24 · Block 1",
+      "prompt": "Wie viele Bundesländer hat die Bundesrepublik Deutschland?",
+      "options": [
+        {
+          "id": "a",
+          "text": "14"
+        },
+        {
+          "id": "b",
+          "text": "15"
+        },
+        {
+          "id": "c",
+          "text": "16"
+        },
+        {
+          "id": "d",
+          "text": "17"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**Correct answer:** 16\n\n**16 Länder**, 10 \"old\" (west), 5 \"new\" (east, joined 1990 →Q218), plus Berlin. Three are city-states (**Stadtstaaten**): Berlin, Hamburg, Bremen. Niedersachsen (~8 million people) is the second-largest by area, after Bayern, and wraps around the city-state Bremen. Memory hook: 10 + 5 + Berlin = 16. This number returns in Q218 and the Niedersachsen block.\n\n## Auf Deutsch\n\nDeutschland hat 16 Bundesländer."
+    },
+    {
+      "id": "eb-u14-l07-probetest-6-ex04",
+      "type": "choice",
+      "title": "Frage 33 · Block 2",
+      "prompt": "Welche Aussage ist richtig? In Deutschland …",
+      "options": [
+        {
+          "id": "a",
+          "text": "sind Staat und Religionsgemeinschaften voneinander getrennt"
+        },
+        {
+          "id": "b",
+          "text": "bilden die Religionsgemeinschaften den Staat"
+        },
+        {
+          "id": "c",
+          "text": "ist der Staat abhängig von den Religionsgemeinschaften"
+        },
+        {
+          "id": "d",
+          "text": "bilden Staat und Religionsgemeinschaften eine Einheit"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Correct answer:** sind Staat und Religionsgemeinschaften voneinander getrennt\n\nNo state church exists (Art. 140 GG). Germany's model is *cooperative separation*: the state is religiously neutral but cooperates where useful (church tax collection →Q291, religion classes →Q2, chaplaincy).\n\nB–D describe theocracies or state churches. Note for the interview: separation is *why* religious freedom works, the state protects all faiths precisely because it belongs to none.\n\n## Auf Deutsch\n\nStaat und Religionsgemeinschaften sind in Deutschland getrennt, es gibt keine Staatsreligion."
+    },
+    {
+      "id": "eb-u14-l07-probetest-6-ex05",
+      "type": "choice",
+      "title": "Frage 38 · Block 2",
+      "prompt": "Die Bundesrepublik Deutschland ist ein demokratischer und sozialer …",
+      "options": [
+        {
+          "id": "a",
+          "text": "Staatenverbund"
+        },
+        {
+          "id": "b",
+          "text": "Bundesstaat"
+        },
+        {
+          "id": "c",
+          "text": "Staatenbund"
+        },
+        {
+          "id": "d",
+          "text": "Zentralstaat"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Correct answer:** Bundesstaat\n\nArt. 20(1) again (→Q26), now testing the federal term against lookalikes.\n\n**Staatenbund** = loose confederation of sovereign states (e.g., the 1815 Deutscher Bund); **Staatenverbund** = the Constitutional Court's term for the *EU*; **Zentralstaat** = unitary state without federal units. Germany is the strong-federation middle: one sovereign state, 16 non-sovereign but powerful Länder.\n\n## Auf Deutsch\n\nArtikel 20 GG: demokratischer und sozialer BUNDESSTAAT."
+    },
+    {
+      "id": "eb-u14-l07-probetest-6-ex06",
+      "type": "choice",
+      "title": "Frage 52 · Block 2",
+      "prompt": "Was bedeutet „Volkssouveränität\"? Alle Staatsgewalt geht vom …",
+      "options": [
+        {
+          "id": "a",
+          "text": "Volke aus"
+        },
+        {
+          "id": "b",
+          "text": "Bundestag aus"
+        },
+        {
+          "id": "c",
+          "text": "preußischen König aus"
+        },
+        {
+          "id": "d",
+          "text": "Bundesverfassungsgericht aus"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Correct answer:** Volke aus\n\nArt. 20(2) GG, sentence one, verbatim: *\"Alle Staatsgewalt geht vom Volke aus.\"* The people are the source; elections and votes are the channel; all organs merely *exercise* borrowed power.\n\nBundestag and Verfassungsgericht *receive* authority from the people, they don't originate it; the Prussian king is 1918-dead history. →Q61 retests this. Interview gold: quote the sentence, in German, from memory.\n\n## Auf Deutsch\n\nVolkssouveränität (Art. 20 GG): „Alle Staatsgewalt geht vom Volke aus.“"
+    },
+    {
+      "id": "eb-u14-l07-probetest-6-ex07",
+      "type": "choice",
+      "title": "Frage 64 · Block 3",
+      "prompt": "Die Bundesrepublik Deutschland ist heute gegliedert in …",
+      "options": [
+        {
+          "id": "a",
+          "text": "vier Besatzungszonen"
+        },
+        {
+          "id": "b",
+          "text": "einen Oststaat und einen Weststaat"
+        },
+        {
+          "id": "c",
+          "text": "16 Kantone"
+        },
+        {
+          "id": "d",
+          "text": "Bund, Länder und Kommunen"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**Correct answer:** Bund, Länder und Kommunen\n\nThree administrative tiers: **Bund → 16 Länder → Kommunen** (cities/municipalities. Hannover is one).\n\nA is 1945–49 (→Q167); B is 1949–90 division; C borrows Switzerland's word. Germany has Länder, not Kantone. The wrong options are a compressed history quiz: each describes a Germany that no longer exists.\n\n## Auf Deutsch\n\nDeutschland ist gegliedert in Bund, Länder und Kommunen."
+    },
+    {
+      "id": "eb-u14-l07-probetest-6-ex08",
+      "type": "choice",
+      "title": "Frage 71 · Block 3",
+      "prompt": "Wo hält sich der deutsche Bundeskanzler/die deutsche Bundeskanzlerin am häufigsten auf?",
+      "options": [
+        {
+          "id": "a",
+          "text": "in Bonn, weil sich dort das Bundeskanzleramt und der Bundestag befinden"
+        },
+        {
+          "id": "b",
+          "text": "in Berlin, weil sich dort das Bundeskanzleramt und der Bundestag befinden"
+        },
+        {
+          "id": "c",
+          "text": "auf Schloss Meseberg, dem Gästehaus der Bundesregierung"
+        },
+        {
+          "id": "d",
+          "text": "auf Schloss Bellevue, dem Amtssitz des Bundespräsidenten"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Correct answer:** in Berlin, weil sich dort das Bundeskanzleramt und der Bundestag befinden\n\nSince the 1999 government move, **Berlin** hosts Chancellery and Bundestag. Bonn (A) was the *old* West German capital, the option's reasoning is correct but 25 years stale. Meseberg is the government's rural guesthouse; **Bellevue is the president's palace**, knowing whose building is whose settles two other questions too (→Q55, Q75).\n\n## Auf Deutsch\n\nBundeskanzleramt und Bundestag sind in Berlin, dem Regierungssitz."
+    },
+    {
+      "id": "eb-u14-l07-probetest-6-ex09",
+      "type": "choice",
+      "title": "Frage 72 · Block 3",
+      "prompt": "Wie heißt der jetzige Bundeskanzler/die jetzige Bundeskanzlerin von Deutschland?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Gerhard Schröder"
+        },
+        {
+          "id": "b",
+          "text": "Angela Merkel"
+        },
+        {
+          "id": "c",
+          "text": "Ursula von der Leyen"
+        },
+        {
+          "id": "d",
+          "text": "Friedrich Merz"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**Correct answer:** Friedrich Merz\n\nFriedrich Merz (CDU), Chancellor since May 2025.\n\nSchröder (1998–2005) and Merkel (2005–2021) are predecessors; von der Leyen is EU Commission President, a deliberate confusion of Berlin with Brussels. ⏰ **Re-verify before your test date**, if the government changes, BAMF updates the official answer. Same for Q73, Q75, Q213, Q236.\n\n**Time-sensitive answer:** this answer depends on the current situation (who holds an office, seat shares, figures) and is correct as of the catalogue version *Stand Juli 2026*. Check it again shortly before your test date.\n\n## Auf Deutsch\n\nSeit Mai 2025: Friedrich Merz (CDU). ⏰ Kurz vor der Prüfung noch einmal prüfen!"
+    },
+    {
+      "id": "eb-u14-l07-probetest-6-ex10",
+      "type": "choice",
+      "title": "Frage 73 · Block 3",
+      "prompt": "Die beiden größten Fraktionen im Deutschen Bundestag heißen zurzeit …",
+      "options": [
+        {
+          "id": "a",
+          "text": "CDU/CSU und AfD"
+        },
+        {
+          "id": "b",
+          "text": "Die Linke und Bündnis 90/Die Grünen"
+        },
+        {
+          "id": "c",
+          "text": "Bündnis 90/Die Grünen und SPD"
+        },
+        {
+          "id": "d",
+          "text": "Die Linke und CDU/CSU"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Correct answer:** CDU/CSU und AfD\n\nAfter the February 2025 election: CDU/CSU largest, AfD second-largest Fraktion. Rule at test time: the two parties with the most seats in the current Bundestag.\n\n**Time-sensitive answer:** this answer depends on the current situation (who holds an office, seat shares, figures) and is correct as of the catalogue version *Stand Juli 2026*. Check it again shortly before your test date.\n\n## Auf Deutsch\n\nNach der Wahl 2025: CDU/CSU und AfD. ⏰ Diese Antwort ändert sich mit jeder Wahl!"
+    },
+    {
+      "id": "eb-u14-l07-probetest-6-ex11",
+      "type": "choice",
+      "title": "Frage 76 · Block 3",
+      "prompt": "Was bedeutet die Abkürzung CDU in Deutschland?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Christliche Deutsche Union"
+        },
+        {
+          "id": "b",
+          "text": "Club Deutscher Unternehmer"
+        },
+        {
+          "id": "c",
+          "text": "Christlicher Deutscher Umweltschutz"
+        },
+        {
+          "id": "d",
+          "text": "Christlich Demokratische Union"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**Correct answer:** Christlich Demokratische Union\n\n**C**hristlich **D**emokratische **U**nion, founded post-1945, center-right Volkspartei.\n\n## Auf Deutsch\n\nCDU = Christlich Demokratische Union Deutschlands."
+    },
+    {
+      "id": "eb-u14-l07-probetest-6-ex12",
+      "type": "choice",
+      "title": "Frage 84 · Block 3",
+      "prompt": "Welche Hauptaufgabe hat der deutsche Bundespräsident/die deutsche Bundespräsidentin? Er/Sie …",
+      "options": [
+        {
+          "id": "a",
+          "text": "regiert das Land"
+        },
+        {
+          "id": "b",
+          "text": "entwirft die Gesetze"
+        },
+        {
+          "id": "c",
+          "text": "repräsentiert das Land"
+        },
+        {
+          "id": "d",
+          "text": "überwacht die Einhaltung der Gesetze"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**Correct answer:** repräsentiert das Land\n\nOne word: **repräsentieren**. State visits, speeches to the nation's conscience, signing laws into force (with a narrow right to refuse unconstitutional ones).\n\nGoverning = Chancellor (A); drafting laws = government/parliament (B); policing compliance = executive agencies and courts (D). →Q70, Q87, the president triangle again.\n\n## Auf Deutsch\n\nDer Bundespräsident repräsentiert das Land, er regiert nicht."
+    },
+    {
+      "id": "eb-u14-l07-probetest-6-ex13",
+      "type": "choice",
+      "title": "Frage 87 · Block 3",
+      "prompt": "Wer ist das Staatsoberhaupt der Bundesrepublik Deutschland?",
+      "options": [
+        {
+          "id": "a",
+          "text": "der Bundeskanzler/die Bundeskanzlerin"
+        },
+        {
+          "id": "b",
+          "text": "der Bundespräsident/die Bundespräsidentin"
+        },
+        {
+          "id": "c",
+          "text": "der Bundesratspräsident/die Bundesratspräsidentin"
+        },
+        {
+          "id": "d",
+          "text": "der Bundestagspräsident/die Bundestagspräsidentin"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Correct answer:** der Bundespräsident/die Bundespräsidentin\n\n**Head of state = Bundespräsident** (represents); head of *government* = Kanzler (governs). Germany splits the two roles on purpose. Weimar's over-mighty president taught the lesson.\n\nA is the power side, not the state's face; C and D chair chambers. If you master one distinction from this whole file, make it this one, it anchors ~8 questions.\n\n## Auf Deutsch\n\nDas Staatsoberhaupt ist der Bundespräsident, nicht der Kanzler."
+    },
+    {
+      "id": "eb-u14-l07-probetest-6-ex14",
+      "type": "choice",
+      "title": "Frage 96 · Block 4",
+      "prompt": "Wie kann jemand, der den Holocaust leugnet, bestraft werden?",
+      "options": [
+        {
+          "id": "a",
+          "text": "mit Kürzung sozialer Leistungen"
+        },
+        {
+          "id": "b",
+          "text": "mit bis zu 100 Sozialstunden"
+        },
+        {
+          "id": "c",
+          "text": "gar nicht, Holocaustleugnung ist erlaubt"
+        },
+        {
+          "id": "d",
+          "text": "mit Freiheitsstrafe bis zu fünf Jahren oder Geldstrafe"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**Correct answer:** mit Freiheitsstrafe bis zu fünf Jahren oder Geldstrafe\n\nHolocaust denial = **Volksverhetzung** (§130 StGB): up to five years' imprisonment. Germany treats this as the hard edge of its historical responsibility, free speech (→Q14, Q16) explicitly does not cover denying the murder of six million Jews.\n\nA and B are fantasy sanctions; C is the opposite of the law. Directly connected to your Loyalitätserklärung: acknowledging the NS past isn't optional decoration, it's load-bearing.\n\n## Auf Deutsch\n\nHolocaust-Leugnung ist strafbar: bis zu 5 Jahre Freiheitsstrafe oder Geldstrafe."
+    },
+    {
+      "id": "eb-u14-l07-probetest-6-ex15",
+      "type": "choice",
+      "title": "Frage 110 · Block 5",
+      "prompt": "Der Deutsche Bundestag wird gewählt für …",
+      "options": [
+        {
+          "id": "a",
+          "text": "drei Jahre"
+        },
+        {
+          "id": "b",
+          "text": "vier Jahre"
+        },
+        {
+          "id": "c",
+          "text": "fünf Jahre"
+        },
+        {
+          "id": "d",
+          "text": "sechs Jahre"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Correct answer:** vier Jahre\n\nThird phrasing of the same fact. BAMF's way of saying: know this cold. Four. Years.\n\n## Auf Deutsch\n\nDie Wahlperiode des Bundestages dauert vier Jahre."
+    },
+    {
+      "id": "eb-u14-l07-probetest-6-ex16",
+      "type": "choice",
+      "title": "Frage 112 · Block 5",
+      "prompt": "Die Wahlen in Deutschland sind …",
+      "options": [
+        {
+          "id": "a",
+          "text": "speziell"
+        },
+        {
+          "id": "b",
+          "text": "geheim"
+        },
+        {
+          "id": "c",
+          "text": "berufsbezogen"
+        },
+        {
+          "id": "d",
+          "text": "geschlechtsabhängig"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Correct answer:** geheim\n\n**Geheim**, the voting booth and sealed envelope guarantee nobody (state, employer, spouse) can learn your vote. This protects the *frei* principle: secrecy is what makes pressure pointless (→Q5).\n\nA, C, D are non-principles; D (\"depending on sex\") describes pre-1918 Germany, when women couldn't vote, abolished with the Republic.\n\n## Auf Deutsch\n\nWahlen sind GEHEIM, niemand darf kontrollieren, was du wählst."
+    },
+    {
+      "id": "eb-u14-l07-probetest-6-ex17",
+      "type": "choice",
+      "title": "Frage 113 · Block 5",
+      "prompt": "Wahlen in Deutschland gewinnt die Partei, die …",
+      "options": [
+        {
+          "id": "a",
+          "text": "die meisten Stimmen bekommt"
+        },
+        {
+          "id": "b",
+          "text": "die meisten Männer hinter sich hat"
+        },
+        {
+          "id": "c",
+          "text": "die meisten Stimmen bei den Arbeitern und Arbeiterinnen bekommt"
+        },
+        {
+          "id": "d",
+          "text": "die meisten Erststimmen für ihren Kanzlerkandidaten erhält"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Correct answer:** die meisten Stimmen bekommt\n\nSimple: most (Zweit-)Stimmen = strongest party. No class or gender weighting exists (B, C, the old Prussian three-class franchise died 1918).\n\n## Auf Deutsch\n\nDie Partei mit den meisten Stimmen gewinnt die Wahl."
+    },
+    {
+      "id": "eb-u14-l07-probetest-6-ex18",
+      "type": "choice",
+      "title": "Frage 116 · Block 5",
+      "prompt": "Wenn Sie in Deutschland das aktive Wahlrecht besitzen, dann dürfen Sie …",
+      "options": [
+        {
+          "id": "a",
+          "text": "bei einer Wahl als Kandidat/Kandidatin antreten"
+        },
+        {
+          "id": "b",
+          "text": "wählen"
+        },
+        {
+          "id": "c",
+          "text": "im Wahllokal die Stimmzettel ausgeben"
+        },
+        {
+          "id": "d",
+          "text": "den Termin der Wahl bestimmen"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Correct answer:** wählen\n\n→Q115 applied. A is again the passive right; C is the Wahlhelfer's job (→Q105); D belongs to no citizen (election dates follow law). After naturalization you gain both rights at once, at 18+ you may vote *and* run for the Bundestag.\n\n## Auf Deutsch\n\nAktiv = wählen dürfen; passiv = gewählt werden können."
+    },
+    {
+      "id": "eb-u14-l07-probetest-6-ex19",
+      "type": "choice",
+      "title": "Frage 117 · Block 5",
+      "prompt": "Wie viel Prozent der Zweitstimmen müssen Parteien mindestens bekommen, um in den Deutschen Bundestag gewählt zu werden?",
+      "options": [
+        {
+          "id": "a",
+          "text": "3 Prozent"
+        },
+        {
+          "id": "b",
+          "text": "4 Prozent"
+        },
+        {
+          "id": "c",
+          "text": "5 Prozent"
+        },
+        {
+          "id": "d",
+          "text": "6 Prozent"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**Correct answer:** 5 Prozent\n\nThe **Fünf-Prozent-Hürde**, below 5% of Zweitstimmen, a party gets no proportional seats. (Fine print, not tested: ≥3 direct constituency wins bypass it, and national-minority parties like the SSW are exempt.) Why it exists →Q127; definition retested →Q121, Q123. One number, three questions.\n\n## Auf Deutsch\n\nParteien brauchen mindestens 5 Prozent der Zweitstimmen für den Bundestag."
+    },
+    {
+      "id": "eb-u14-l07-probetest-6-ex20",
+      "type": "choice",
+      "title": "Frage 124 · Block 5",
+      "prompt": "Die Bundestagswahl in Deutschland ist die Wahl …",
+      "options": [
+        {
+          "id": "a",
+          "text": "des Bundeskanzlers/der Bundeskanzlerin"
+        },
+        {
+          "id": "b",
+          "text": "der Parlamente der Länder"
+        },
+        {
+          "id": "c",
+          "text": "des Parlaments für Deutschland"
+        },
+        {
+          "id": "d",
+          "text": "des Bundespräsidenten/der Bundespräsidentin"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**Correct answer:** des Parlaments für Deutschland\n\nYou elect **the federal parliament**, nothing else. The parliament then elects the Chancellor (→Q81); the Bundesversammlung elects the President (→Q86); Landtagswahlen elect Land parliaments (→Q62). One ballot, one institution.\n\n## Auf Deutsch\n\nDie Bundestagswahl ist die Wahl des Parlaments für ganz Deutschland."
+    },
+    {
+      "id": "eb-u14-l07-probetest-6-ex21",
+      "type": "choice",
+      "title": "Frage 126 · Block 5",
+      "prompt": "Was bekommen wahlberechtigte Bürger und Bürgerinnen in Deutschland vor einer Wahl?",
+      "options": [
+        {
+          "id": "a",
+          "text": "eine Wahlbenachrichtigung von der Gemeinde"
+        },
+        {
+          "id": "b",
+          "text": "eine Wahlerlaubnis vom Ordnungsamt"
+        },
+        {
+          "id": "c",
+          "text": "eine Benachrichtigung von der Bundesversammlung"
+        },
+        {
+          "id": "d",
+          "text": "eine Einladung des Bundespräsidenten"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Correct answer:** eine Wahlbenachrichtigung von der Gemeinde\n\nThe **Wahlbenachrichtigung**, a card from your Gemeinde telling you where and when to vote, based on the voter register (fed by your Anmeldung! →Q253). It arrives automatically; no application needed.\n\nNo \"permission\" exists, eligibility is automatic (B); the Bundesversammlung only elects the president (C); the president invites nobody to vote (D). After naturalization, this card in your mailbox will be the moment citizenship becomes tangible.\n\n## Auf Deutsch\n\nVor der Wahl schickt die Gemeinde eine Wahlbenachrichtigung."
+    },
+    {
+      "id": "eb-u14-l07-probetest-6-ex22",
+      "type": "choice",
+      "title": "Frage 151 · Block 7",
+      "prompt": "Wer baute die Mauer in Berlin?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Bundesrepublik Deutschland"
+        },
+        {
+          "id": "b",
+          "text": "die DDR"
+        },
+        {
+          "id": "c",
+          "text": "die vier Alliierten"
+        },
+        {
+          "id": "d",
+          "text": "die Sowjetunion allein"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Correct answer:** die DDR\n\nThe **DDR government** built the Wall (13 August 1961), with Soviet blessing, but it was East Berlin's decision and East German soldiers who built it, to stop the hemorrhage of its own citizens westward (~3 million had fled).\n\nThe West didn't wall itself in; the Allies were surprised by the overnight operation. Note the direction: the Wall's guns pointed *inward*, a state imprisoning its own people. →Q188/189 for the year.\n\n## Auf Deutsch\n\nDie Mauer in Berlin baute 1961 die DDR, gegen die eigene Bevölkerung."
+    },
+    {
+      "id": "eb-u14-l07-probetest-6-ex23",
+      "type": "choice",
+      "title": "Frage 211 · Block 10",
+      "prompt": "Welcher deutsche Politiker steht für die „Ostverträge\"?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Willy Brandt"
+        },
+        {
+          "id": "b",
+          "text": "Helmut Kohl"
+        },
+        {
+          "id": "c",
+          "text": "Konrad Adenauer"
+        },
+        {
+          "id": "d",
+          "text": "Ludwig Erhard"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Correct answer:** Willy Brandt\n\n**Brandt** again (→Q181): the Ostverträge (Moscow & Warsaw treaties 1970, Prague 1973) accepted postwar realities, including the Oder-Neiße border with Poland, trading revanchist claims for détente. Bitter domestic fights, ultimately the groundwork for 1989/90: Kohl could harvest unification (→Q215) partly because Brandt had planted trust.\n\nAdenauer = Westbindung (the 1950s counterpart policy); Erhard = Wirtschaftswunder economics; Kohl = Einheit.\n\n## Auf Deutsch\n\nWilly Brandt steht für die „Ostverträge“ (Entspannungspolitik)."
+    },
+    {
+      "id": "eb-u14-l07-probetest-6-ex24",
+      "type": "choice",
+      "title": "Frage 224 · Block 10",
+      "prompt": "Was bedeutet die Abkürzung EU?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Europäische Union"
+        },
+        {
+          "id": "b",
+          "text": "Europäische Unternehmen"
+        },
+        {
+          "id": "c",
+          "text": "Einheitliche Union"
+        },
+        {
+          "id": "d",
+          "text": "Europäisches Ultimatum"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Correct answer:** Europäische Union\n\n**E**uropäische **U**nion, since the 1992 Maastricht Treaty the umbrella over the old EWG/EG (→Q237). Same acronym-expansion technique as the party questions (→Q76).\n\n## Auf Deutsch\n\nEU = Europäische Union."
+    },
+    {
+      "id": "eb-u14-l07-probetest-6-ex25",
+      "type": "choice",
+      "title": "Frage 241 · Block 11",
+      "prompt": "Was muss eine Frau in Deutschland tun, um Elterngeld zu erhalten? Sie muss …",
+      "options": [
+        {
+          "id": "a",
+          "text": "einen Antrag bei der Elterngeldstelle stellen"
+        },
+        {
+          "id": "b",
+          "text": "nichts tun, das Geld kommt automatisch nach der Geburt"
+        },
+        {
+          "id": "c",
+          "text": "sich beim Finanzamt melden"
+        },
+        {
+          "id": "d",
+          "text": "ihren Arbeitgeber fragen"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Correct answer:** einen Antrag bei der Elterngeldstelle stellen\n\nGerman benefits follow one iron rule: **kein Antrag, kein Geld**, no application, no money. Elterngeld (parental allowance, replacing income for 12–14 months) comes from the Elterngeldstelle upon application.\n\nNothing arrives automatically (B, your Kindergeld also required an application, as you know); Finanzamt collects rather than pays (C); the employer handles *Elternzeit* (leave), not Elterngeld (money), a paired-vocabulary trap.\n\n## Auf Deutsch\n\nElterngeld muss man bei der Elterngeldstelle beantragen."
+    },
+    {
+      "id": "eb-u14-l07-probetest-6-ex26",
+      "type": "choice",
+      "title": "Frage 249 · Block 11",
+      "prompt": "Die Erziehung der Kinder ist in Deutschland vor allem Aufgabe …",
+      "options": [
+        {
+          "id": "a",
+          "text": "der Eltern"
+        },
+        {
+          "id": "b",
+          "text": "des Staates"
+        },
+        {
+          "id": "c",
+          "text": "der Kirchen"
+        },
+        {
+          "id": "d",
+          "text": "der Schulen"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Correct answer:** der Eltern\n\n→Q248 retested word-shuffled. Churches educate only where parents choose them (→Q2, Q33); schools teach, parents raise. Two questions, one Grundgesetz article.\n\n## Auf Deutsch\n\nErziehung ist vor allem Aufgabe der Eltern."
+    },
+    {
+      "id": "eb-u14-l07-probetest-6-ex27",
+      "type": "choice",
+      "title": "Frage 255 · Block 11",
+      "prompt": "Bei Erziehungsproblemen können sich Eltern in Deutschland Hilfe holen …",
+      "options": [
+        {
+          "id": "a",
+          "text": "beim Jugendamt"
+        },
+        {
+          "id": "b",
+          "text": "beim Ordnungsamt"
+        },
+        {
+          "id": "c",
+          "text": "beim Finanzamt"
+        },
+        {
+          "id": "d",
+          "text": "beim Einwohnermeldeamt"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Correct answer:** beim Jugendamt\n\nThe **Jugendamt**'s friendly face: parenting advice, family support, Erziehungsberatung, free, on request (→Q273 retests). Its stern face (child removal in danger cases) is →Q258; the test asks about both because both matter: helper first, guardian when necessary. The Ämter sort: Ordnung = public order, Finanz = taxes, Einwohnermelde = registration.\n\n## Auf Deutsch\n\nBei Erziehungsproblemen hilft das Jugendamt."
+    },
+    {
+      "id": "eb-u14-l07-probetest-6-ex28",
+      "type": "choice",
+      "title": "Frage 271 · Block 12",
+      "prompt": "Was ist in Deutschland ein Brauch zu Weihnachten?",
+      "options": [
+        {
+          "id": "a",
+          "text": "einen Tannenbaum schmücken"
+        },
+        {
+          "id": "b",
+          "text": "Eier bemalen"
+        },
+        {
+          "id": "c",
+          "text": "Kostüme tragen"
+        },
+        {
+          "id": "d",
+          "text": "Feuerwerk zünden"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Correct answer:** einen Tannenbaum schmücken\n\nThe **Weihnachtsbaum**, a German invention the world adopted. Others belong elsewhere on the calendar: eggs → Ostern (→Q293), costumes → Karneval (→Q264), fireworks → Silvester. Four customs, four festivals, two test questions between them, free points both.\n\n## Auf Deutsch\n\nWeihnachtsbrauch: einen Tannenbaum schmücken."
+    },
+    {
+      "id": "eb-u14-l07-probetest-6-ex29",
+      "type": "choice",
+      "title": "Frage 295 · Block 12",
+      "prompt": "Welche Religion hat die europäische und deutsche Kultur geprägt?",
+      "options": [
+        {
+          "id": "a",
+          "text": "das Christentum"
+        },
+        {
+          "id": "b",
+          "text": "der Hinduismus"
+        },
+        {
+          "id": "c",
+          "text": "der Buddhismus"
+        },
+        {
+          "id": "d",
+          "text": "der Schintoismus"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Correct answer:** das Christentum\n\nHistorical-descriptive, not normative: **Christianity** shaped the calendar, holidays, art, law traditions (with deep Jewish roots and Enlightenment corrections). The question says *geprägt hat* (has shaped), past influence. NOT \"must shape\" or \"is the state religion\" (there is none →Q33). You can affirm the historical fact and your own faith without contradiction, and might be asked to, in exactly those terms.\n\n## Auf Deutsch\n\nDas Christentum hat die europäische und deutsche Kultur geprägt."
+    },
+    {
+      "id": "eb-u14-l07-probetest-6-ex30",
+      "type": "choice",
+      "title": "Frage 300 · Block 12",
+      "prompt": "Aus welchem Land kamen die ersten Gastarbeiter und Gastarbeiterinnen in die Bundesrepublik Deutschland?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Italien"
+        },
+        {
+          "id": "b",
+          "text": "Türkei"
+        },
+        {
+          "id": "c",
+          "text": "Spanien"
+        },
+        {
+          "id": "d",
+          "text": "Portugal"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Correct answer:** Italien\n\nFirst recruitment treaty: **Italien, 1955**, then Spain/Greece (1960), **Türkei (1961**, the biggest in effect, →Q297), Morocco (1963), Portugal (1964), Tunisia (1965), Yugoslavia (1968). Chronology trap: Turkey is the *largest* community but Italy was *first*. Q297 and Q300 test the pair in opposite directions; keep 1955-Italien / largest-Türkei on separate mental shelves.\n\n## Auf Deutsch\n\nDie ersten Gastarbeiter kamen 1955 aus Italien."
+    },
+    {
+      "id": "eb-u14-l07-probetest-6-ex31",
+      "type": "choice",
+      "title": "NDS 2 · Landesfrage",
+      "prompt": "Welches ist ein Landkreis in Niedersachsen?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ammerland"
+        },
+        {
+          "id": "b",
+          "text": "Rhein-Sieg-Kreis"
+        },
+        {
+          "id": "c",
+          "text": "Nordfriesland"
+        },
+        {
+          "id": "d",
+          "text": "Vogtlandkreis"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Correct answer:** Ammerland\n\n**Ammerland**, a rural district in the northwest near Oldenburg (Kreisstadt Westerstede), known for its rhododendron parks and the Zwischenahner Meer.\n\nRhein-Sieg-Kreis = NRW (around Bonn), Nordfriesland = Schleswig-Holstein (the North Frisian coast), Vogtlandkreis = Sachsen. Technique: river and region names place districts: \"Rhein-\" points west, \"Vogtland\" to the far southeast. Trap: Niedersachsen does have a Landkreis *Friesland* (around Jever), but *Nord*friesland is Schleswig-Holstein.\n\n## Auf Deutsch\n\nDer Landkreis Ammerland (bei Oldenburg, Kreisstadt Westerstede) liegt in Niedersachsen."
+    },
+    {
+      "id": "eb-u14-l07-probetest-6-ex32",
+      "type": "choice",
+      "title": "NDS 7 · Landesfrage",
+      "prompt": "Die Landeshauptstadt von Niedersachsen heißt …",
+      "options": [
+        {
+          "id": "a",
+          "text": "Hannover."
+        },
+        {
+          "id": "b",
+          "text": "Braunschweig."
+        },
+        {
+          "id": "c",
+          "text": "Wolfsburg."
+        },
+        {
+          "id": "d",
+          "text": "Osnabrück."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Correct answer:** Hannover.\n\n**Hannover**, seat of the Landtag (Leineschloss) and the Landesregierung.\n\nThe decoys are all big Niedersachsen cities: Braunschweig (the second-largest), Wolfsburg (home of Volkswagen) and Osnabrück (Peace of Westphalia, 1648). Big or famous is not the same as capital.\n\n## Auf Deutsch\n\nDie Landeshauptstadt von Niedersachsen ist Hannover."
+    },
+    {
+      "id": "eb-u14-l07-probetest-6-ex33",
+      "type": "choice",
+      "title": "NDS 10 · Landesfrage",
+      "prompt": "Welche Ministerin/ welchen Minister hat Niedersachsen nicht?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Justizministerin/Justizminister"
+        },
+        {
+          "id": "b",
+          "text": "Außenministerin/Außenminister"
+        },
+        {
+          "id": "c",
+          "text": "Finanzministerin/Finanzminister"
+        },
+        {
+          "id": "d",
+          "text": "Innenministerin/Innenminister"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Correct answer:** Außenministerin/Außenminister\n\nNo Land has an **Außenminister**: foreign policy is federal (Art. 32 GG; →Q39's trio: foreign policy, currency, army). Niedersachsen does have ministers for justice, finance and the interior (Land police, →Q148), schools (→Q49) and more. Federalism gives the Länder real power at home, none abroad.\n\n## Auf Deutsch\n\nEinen Außenminister hat kein Bundesland. Außenpolitik macht nur der Bund."
+    }
+  ]
+}

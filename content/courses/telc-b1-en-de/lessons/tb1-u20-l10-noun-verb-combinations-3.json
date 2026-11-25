@@ -1,0 +1,237 @@
+{
+  "id": "tb1-u20-l10-noun-verb-combinations-3",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u20",
+  "title": "Noun-Verb Combinations 3",
+  "tip": "Theme: Nomen-Verb-Verbindungen (B1)",
+  "exercises": [
+    {
+      "id": "tb1-u20-l10-noun-verb-combinations-3-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "zur Verfügung stehen",
+          "known": "to be available"
+        },
+        {
+          "id": "p2",
+          "learning": "eine Rede halten",
+          "known": "to give a speech"
+        },
+        {
+          "id": "p3",
+          "learning": "Verantwortung übernehmen",
+          "known": "to take responsibility"
+        },
+        {
+          "id": "p4",
+          "learning": "einen Vorschlag machen",
+          "known": "to make a suggestion"
+        },
+        {
+          "id": "p5",
+          "learning": "eine Entscheidung treffen",
+          "known": "to make a decision"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u20-l10-noun-verb-combinations-3-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which one means „to be available“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Rücksicht nehmen"
+        },
+        {
+          "id": "b",
+          "text": "eine Rolle spielen"
+        },
+        {
+          "id": "c",
+          "text": "Wert legen auf + Akk."
+        },
+        {
+          "id": "d",
+          "text": "zur Verfügung stehen"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**zur Verfügung stehen** = to be available\n\n*Example:* Für Fragen stehe ich Ihnen gern zur Verfügung.\nI'm happy to answer any questions you may have."
+    },
+    {
+      "id": "tb1-u20-l10-noun-verb-combinations-3-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which one means „to give a speech“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "eine Rolle spielen"
+        },
+        {
+          "id": "b",
+          "text": "in Kontakt bleiben"
+        },
+        {
+          "id": "c",
+          "text": "eine Rede halten"
+        },
+        {
+          "id": "d",
+          "text": "eine Entscheidung treffen"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**eine Rede halten** = to give a speech\n\n*Example:* Auf der Hochzeit hat mein Bruder eine Rede gehalten.\nMy brother gave a speech at the wedding."
+    },
+    {
+      "id": "tb1-u20-l10-noun-verb-combinations-3-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I'm happy to answer any questions you may have.",
+      "tiles": [
+        "gern",
+        "Fragen",
+        "Gericht",
+        "zur",
+        "Verfügung",
+        "ich",
+        "Ihnen",
+        "Jobsuche",
+        "Für",
+        "Maria",
+        "stehe"
+      ],
+      "answers": [
+        "Für Fragen stehe ich Ihnen gern zur Verfügung."
+      ],
+      "explanation": "**zur Verfügung stehen** = to be available"
+    },
+    {
+      "id": "tb1-u20-l10-noun-verb-combinations-3-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which one means „to take responsibility“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "einen Termin vereinbaren"
+        },
+        {
+          "id": "b",
+          "text": "Verantwortung übernehmen"
+        },
+        {
+          "id": "c",
+          "text": "eine Entscheidung fällen"
+        },
+        {
+          "id": "d",
+          "text": "eine Entscheidung treffen"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Verantwortung übernehmen** = to take responsibility\n\n*Example:* Als Teamleiterin übernimmt Maria Verantwortung für fünf Mitarbeiter.\nAs team leader Maria takes responsibility for five employees."
+    },
+    {
+      "id": "tb1-u20-l10-noun-verb-combinations-3-ex06",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u20-l10-noun-verb-combinations-3-2.mp3"
+      },
+      "tiles": [
+        "Rücksicht",
+        "hat",
+        "gehalten",
+        "der",
+        "Entscheidung",
+        "Sie",
+        "mein",
+        "Auf",
+        "Hochzeit",
+        "eine",
+        "Rede",
+        "Bruder"
+      ],
+      "answers": [
+        "Auf der Hochzeit hat mein Bruder eine Rede gehalten."
+      ],
+      "explanation": "Auf der Hochzeit hat mein Bruder eine Rede gehalten.\n*My brother gave a speech at the wedding.*\n\n**eine Rede halten** = to give a speech"
+    },
+    {
+      "id": "tb1-u20-l10-noun-verb-combinations-3-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which one means „to make a suggestion“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Wert legen auf + Akk."
+        },
+        {
+          "id": "b",
+          "text": "einen Vorschlag machen"
+        },
+        {
+          "id": "c",
+          "text": "in Frage kommen"
+        },
+        {
+          "id": "d",
+          "text": "eine Rede halten"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**einen Vorschlag machen** = to make a suggestion\n\n*Example:* Darf ich einen Vorschlag machen? Wir treffen uns am Montag.\nMay I make a suggestion? Let's meet on Monday."
+    },
+    {
+      "id": "tb1-u20-l10-noun-verb-combinations-3-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Als Teamleiterin übernimmt Maria Verantwortung für fünf Mitarbeiter.",
+      "tiles": [
+        "employees",
+        "five",
+        "Maria",
+        "takes",
+        "team",
+        "Please",
+        "for",
+        "leader",
+        "responsibility",
+        "As",
+        "the",
+        "on"
+      ],
+      "answers": [
+        "As team leader Maria takes responsibility for five employees."
+      ],
+      "explanation": "**Verantwortung übernehmen** = to take responsibility"
+    },
+    {
+      "id": "tb1-u20-l10-noun-verb-combinations-3-ex09",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "May I make a suggestion? Let's meet on Monday.",
+      "tiles": [
+        "treffen",
+        "anderen",
+        "gern",
+        "ich",
+        "Montag",
+        "machen",
+        "Wir",
+        "einen",
+        "Angst",
+        "uns",
+        "am",
+        "Vorschlag",
+        "Darf"
+      ],
+      "answers": [
+        "Darf ich einen Vorschlag machen? Wir treffen uns am Montag."
+      ],
+      "explanation": "**einen Vorschlag machen** = to make a suggestion"
+    }
+  ]
+}

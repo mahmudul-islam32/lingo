@@ -1,0 +1,251 @@
+{
+  "id": "tb1-u13-l05-environment-weather-5",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u13",
+  "title": "Environment & Weather 5",
+  "tip": "Theme: Umwelt / Wetter (B1)",
+  "exercises": [
+    {
+      "id": "tb1-u13-l05-environment-weather-5-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "die Temperatur",
+          "known": "temperature. It's 25 degrees."
+        },
+        {
+          "id": "p2",
+          "learning": "die Jahreszeit",
+          "known": "season"
+        },
+        {
+          "id": "p3",
+          "learning": "die Umwelt",
+          "known": "environment"
+        },
+        {
+          "id": "p4",
+          "learning": "der Umweltschutz",
+          "known": "environmental protection"
+        },
+        {
+          "id": "p5",
+          "learning": "das Klima",
+          "known": "climate"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u13-l05-environment-weather-5-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „temperature. It's 25 degrees.“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Temperatur, die Temperaturen. Es sind 25 Grad."
+        },
+        {
+          "id": "b",
+          "text": "das Klima · der Klimawandel (nur Sg.)"
+        },
+        {
+          "id": "c",
+          "text": "der Nebel (nur Sg.), neblig"
+        },
+        {
+          "id": "d",
+          "text": "die Verpackung, die Verpackungen · die Plastiktüte, die Plastiktüten"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**die Temperatur** = temperature. It's 25 degrees.\n*Plural: die Temperaturen. Es sind 25 Grad.*\n\n*Example:* Heute sind es 25 Grad, die Temperatur ist perfekt zum Baden.\nIt's 25 degrees today, the temperature is perfect for swimming."
+    },
+    {
+      "id": "tb1-u13-l05-environment-weather-5-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „season“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Temperatur, die Temperaturen. Es sind 25 Grad."
+        },
+        {
+          "id": "b",
+          "text": "die Jahreszeit, die Jahreszeiten"
+        },
+        {
+          "id": "c",
+          "text": "der Strom (nur Sg.) · die Energie, die Energien"
+        },
+        {
+          "id": "d",
+          "text": "das Klima · der Klimawandel (nur Sg.)"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**die Jahreszeit** = season\n*Plural: die Jahreszeiten*\n\n*Example:* Meine Lieblingsjahreszeit ist der Herbst.\nMy favourite season is autumn."
+    },
+    {
+      "id": "tb1-u13-l05-environment-weather-5-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Heute sind es 25 Grad, die Temperatur ist perfekt zum Baden.",
+      "tiles": [
+        "the",
+        "morning",
+        "today",
+        "for",
+        "25",
+        "perfect",
+        "tomorrow",
+        "temperature",
+        "swimming",
+        "It's",
+        "My",
+        "is",
+        "degrees"
+      ],
+      "answers": [
+        "It's 25 degrees today, the temperature is perfect for swimming."
+      ],
+      "explanation": "**die Temperatur** = temperature. It's 25 degrees.\n*Plural: die Temperaturen. Es sind 25 Grad.*"
+    },
+    {
+      "id": "tb1-u13-l05-environment-weather-5-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means „In our building the rubbish is separated: paper, plastic and general waste go into different bins.“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ich habe mir eine App heruntergeladen, mit der man jeden Tag zehn Minuten Vokabeln üben kann."
+        },
+        {
+          "id": "b",
+          "text": "Mein Laptop ist gestern kaputtgegangen, deshalb muss ich ihn reparieren lassen."
+        },
+        {
+          "id": "c",
+          "text": "Laut Wettervorhersage soll es morgen zuerst neblig sein, aber am Nachmittag scheint wieder die Sonne."
+        },
+        {
+          "id": "d",
+          "text": "In unserem Haus wird der Müll getrennt: Papier, Plastik und Restmüll kommen in verschiedene Tonnen."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**In unserem Haus wird der Müll getrennt: Papier, Plastik und Restmüll kommen in verschiedene Tonnen.** = In our building the rubbish is separated: paper, plastic and general waste go into different bins.\n\n*Example:* In unserem Haus wird der Müll getrennt: Papier, Plastik und Restmüll kommen in verschiedene Tonnen.\nIn our building the rubbish is separated: paper, plastic and general waste go into different bins."
+    },
+    {
+      "id": "tb1-u13-l05-environment-weather-5-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "My favourite season is autumn.",
+      "tiles": [
+        "Meine",
+        "Herbst",
+        "die",
+        "heißer",
+        "wir",
+        "ist",
+        "Lieblingsjahreszeit",
+        "der"
+      ],
+      "answers": [
+        "Meine Lieblingsjahreszeit ist der Herbst."
+      ],
+      "explanation": "**die Jahreszeit** = season\n*Plural: die Jahreszeiten*"
+    },
+    {
+      "id": "tb1-u13-l05-environment-weather-5-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means „According to the forecast it's supposed to be foggy tomorrow morning, but in the afternoon the sun will shine again.“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ich habe mir eine App heruntergeladen, mit der man jeden Tag zehn Minuten Vokabeln üben kann."
+        },
+        {
+          "id": "b",
+          "text": "Laut Wettervorhersage soll es morgen zuerst neblig sein, aber am Nachmittag scheint wieder die Sonne."
+        },
+        {
+          "id": "c",
+          "text": "Mein Laptop ist gestern kaputtgegangen, deshalb muss ich ihn reparieren lassen."
+        },
+        {
+          "id": "d",
+          "text": "In unserem Haus wird der Müll getrennt: Papier, Plastik und Restmüll kommen in verschiedene Tonnen."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Laut Wettervorhersage soll es morgen zuerst neblig sein, aber am Nachmittag scheint wieder die Sonne.** = According to the forecast it's supposed to be foggy tomorrow morning, but in the afternoon the sun will shine again.\n\n*Example:* Laut Wettervorhersage soll es morgen zuerst neblig sein, aber am Nachmittag scheint wieder die Sonne.\nAccording to the forecast it's supposed to be foggy tomorrow morning, but in the afternoon the sun will shine again."
+    },
+    {
+      "id": "tb1-u13-l05-environment-weather-5-ex08",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u13-l05-environment-weather-5-3.mp3"
+      },
+      "tiles": [
+        "Mülltonne",
+        "in",
+        "getrennt",
+        "Am",
+        "Haus",
+        "und",
+        "Müll",
+        "verschiedene",
+        "Restmüll",
+        "Tonnen",
+        "nehme",
+        "wird",
+        "Papier",
+        "kommen",
+        "unserem",
+        "In",
+        "Plastik",
+        "der"
+      ],
+      "answers": [
+        "In unserem Haus wird der Müll getrennt: Papier, Plastik und Restmüll kommen in verschiedene Tonnen."
+      ],
+      "explanation": "In unserem Haus wird der Müll getrennt: Papier, Plastik und Restmüll kommen in verschiedene Tonnen.\n*In our building the rubbish is separated: paper, plastic and general waste go into different bins.*\n\n**In unserem Haus wird der Müll getrennt: Papier, Plastik und Restmüll kommen in verschiedene Tonnen.** = In our building the rubbish is separated: paper, plastic and general waste go into different bins."
+    },
+    {
+      "id": "tb1-u13-l05-environment-weather-5-ex09",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Laut Wettervorhersage soll es morgen zuerst neblig sein, aber am Nachmittag scheint wieder die Sonne.",
+      "tiles": [
+        "foggy",
+        "afternoon",
+        "but",
+        "to",
+        "to",
+        "be",
+        "is",
+        "forecast",
+        "again",
+        "shine",
+        "morning",
+        "rubbish",
+        "tomorrow",
+        "the",
+        "According",
+        "it's",
+        "sun",
+        "in",
+        "supposed",
+        "will",
+        "the",
+        "and",
+        "the"
+      ],
+      "answers": [
+        "According to the forecast it's supposed to be foggy tomorrow morning, but in the afternoon the sun will shine again."
+      ],
+      "explanation": "**Laut Wettervorhersage soll es morgen zuerst neblig sein, aber am Nachmittag scheint wieder die Sonne.** = According to the forecast it's supposed to be foggy tomorrow morning, but in the afternoon the sun will shine again."
+    }
+  ]
+}

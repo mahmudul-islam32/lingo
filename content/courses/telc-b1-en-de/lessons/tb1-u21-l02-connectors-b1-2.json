@@ -1,0 +1,249 @@
+{
+  "id": "tb1-u21-l02-connectors-b1-2",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u21",
+  "title": "Connectors (B1) 2",
+  "tip": "Theme: Konnektoren (B1) (B1)",
+  "exercises": [
+    {
+      "id": "tb1-u21-l02-connectors-b1-2-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "jedoch",
+          "known": "however"
+        },
+        {
+          "id": "p2",
+          "learning": "zwar … aber",
+          "known": "admittedly … but"
+        },
+        {
+          "id": "p3",
+          "learning": "einerseits … andererseits",
+          "known": "on the one hand … on the other"
+        },
+        {
+          "id": "p4",
+          "learning": "je nachdem",
+          "known": "depending"
+        },
+        {
+          "id": "p5",
+          "learning": "dennoch",
+          "known": "yet / still"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u21-l02-connectors-b1-2-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which one means „however“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "jedoch"
+        },
+        {
+          "id": "b",
+          "text": "indem"
+        },
+        {
+          "id": "c",
+          "text": "außerdem"
+        },
+        {
+          "id": "d",
+          "text": "daher"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**jedoch** = however\n\n*Example:* Das Hotel war schön, das Essen war jedoch nicht gut.\nThe hotel was nice; the food, however, wasn't good."
+    },
+    {
+      "id": "tb1-u21-l02-connectors-b1-2-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which one means „admittedly … but“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "deswegen"
+        },
+        {
+          "id": "b",
+          "text": "sodass"
+        },
+        {
+          "id": "c",
+          "text": "wobei"
+        },
+        {
+          "id": "d",
+          "text": "zwar … aber"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**zwar … aber** = admittedly … but\n\n*Example:* Die Jacke ist zwar teuer, aber sie ist sehr warm.\nThe jacket is expensive, admittedly, but it's very warm."
+    },
+    {
+      "id": "tb1-u21-l02-connectors-b1-2-ex04",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u21-l02-connectors-b1-2-1.mp3"
+      },
+      "tiles": [
+        "jedoch",
+        "schön",
+        "gut",
+        "Ich",
+        "heute",
+        "war",
+        "war",
+        "Das",
+        "das",
+        "Hotel",
+        "Essen",
+        "haben",
+        "nicht"
+      ],
+      "answers": [
+        "Das Hotel war schön, das Essen war jedoch nicht gut."
+      ],
+      "explanation": "Das Hotel war schön, das Essen war jedoch nicht gut.\n*The hotel was nice; the food, however, wasn't good.*\n\n**jedoch** = however"
+    },
+    {
+      "id": "tb1-u21-l02-connectors-b1-2-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which one means „on the one hand … on the other“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "einerseits … andererseits"
+        },
+        {
+          "id": "b",
+          "text": "je nachdem"
+        },
+        {
+          "id": "c",
+          "text": "anstatt … zu"
+        },
+        {
+          "id": "d",
+          "text": "ohne … zu"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**einerseits … andererseits** = on the one hand … on the other\n\n*Example:* Einerseits wohne ich gern in der Stadt, andererseits ist es dort sehr laut.\nOn the one hand I like living in the city, on the other hand it's very noisy there."
+    },
+    {
+      "id": "tb1-u21-l02-connectors-b1-2-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Die Jacke ist zwar teuer, aber sie ist sehr warm.",
+      "tiles": [
+        "admittedly",
+        "but",
+        "wasn't",
+        "heavily",
+        "The",
+        "I'll",
+        "is",
+        "jacket",
+        "warm",
+        "very",
+        "it's",
+        "expensive"
+      ],
+      "answers": [
+        "The jacket is expensive, admittedly, but it's very warm."
+      ],
+      "explanation": "**zwar … aber** = admittedly … but"
+    },
+    {
+      "id": "tb1-u21-l02-connectors-b1-2-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which one means „depending“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "indem"
+        },
+        {
+          "id": "b",
+          "text": "sodass"
+        },
+        {
+          "id": "c",
+          "text": "je nachdem"
+        },
+        {
+          "id": "d",
+          "text": "außerdem"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**je nachdem** = depending\n\n*Example:* Je nachdem, wie das Wetter ist, fahren wir mit dem Rad oder mit dem Bus.\nDepending on the weather, we'll go by bike or by bus."
+    },
+    {
+      "id": "tb1-u21-l02-connectors-b1-2-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "On the one hand I like living in the city, on the other hand it's very noisy there.",
+      "tiles": [
+        "außerdem",
+        "dort",
+        "Stadt",
+        "es",
+        "andererseits",
+        "gern",
+        "laut",
+        "Einerseits",
+        "der",
+        "in",
+        "fahren",
+        "sehr",
+        "ist",
+        "wohne",
+        "dem",
+        "ich"
+      ],
+      "answers": [
+        "Einerseits wohne ich gern in der Stadt, andererseits ist es dort sehr laut."
+      ],
+      "explanation": "**einerseits … andererseits** = on the one hand … on the other"
+    },
+    {
+      "id": "tb1-u21-l02-connectors-b1-2-ex09",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u21-l02-connectors-b1-2-4.mp3"
+      },
+      "tiles": [
+        "sobald",
+        "mit",
+        "dem",
+        "wir",
+        "das",
+        "ist",
+        "Bus",
+        "zwar",
+        "sie",
+        "wie",
+        "fahren",
+        "nachdem",
+        "Je",
+        "Wetter",
+        "Rad",
+        "mit",
+        "dem",
+        "oder"
+      ],
+      "answers": [
+        "Je nachdem, wie das Wetter ist, fahren wir mit dem Rad oder mit dem Bus."
+      ],
+      "explanation": "Je nachdem, wie das Wetter ist, fahren wir mit dem Rad oder mit dem Bus.\n*Depending on the weather, we'll go by bike or by bus.*\n\n**je nachdem** = depending"
+    }
+  ]
+}

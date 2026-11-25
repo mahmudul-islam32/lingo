@@ -1,0 +1,129 @@
+{
+  "id": "tb1-u31-l09-modal-rule",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u31",
+  "title": "Modal Verbs: the rule",
+  "tip": "nicht dürfen ≠ nicht müssen: “Sie müssen nicht zahlen” = it's free · “Sie dürfen nicht zahlen” would be absurd. This distinction is a listening-test trap.",
+  "exercises": [
+    {
+      "id": "tb1-u31-l09-modal-rule-ex01",
+      "type": "explain",
+      "title": "Modal Verbs",
+      "body": "**können** (ability), **müssen** (obligation), **dürfen** (permission), **sollen** (instruction/advice from outside), **wollen** (strong want), **möchten** (polite want). Position 2 + infinitive at the end. **nicht müssen** = not necessary · **nicht dürfen** = forbidden!\n\n*Deutsch:* **können** (Fähigkeit), **müssen** (Pflicht), **dürfen** (Erlaubnis), **sollen** (Auftrag/Rat von außen), **wollen** (starker Wunsch), **möchten** (höflich). Position 2 + Infinitiv am Ende. **nicht müssen** = nicht nötig · **nicht dürfen** = verboten!\n\n*German name:* Modalverben",
+      "examples": [
+        {
+          "learning": "Hier darf man nicht rauchen.",
+          "known": "Smoking is not allowed here."
+        },
+        {
+          "learning": "Du musst das Formular nicht ausfüllen.",
+          "known": "You don't have to fill in the form. (≠ forbidden)"
+        },
+        {
+          "learning": "Der Arzt sagt, ich soll mehr schlafen.",
+          "known": "The doctor says I should sleep more."
+        }
+      ]
+    },
+    {
+      "id": "tb1-u31-l09-modal-rule-ex02",
+      "type": "explain",
+      "title": "Modal Verbs: step by step",
+      "body": "Meanings with everyday anchors:\n• **können** = ability/possibility (Ich kann schwimmen).\n• **müssen** = obligation (Ich muss arbeiten). Negated = not necessary!\n• **dürfen** = permission (Darf ich…?). Negated = prohibition (Hier darf man nicht parken).\n• **sollen** = someone ELSE wants it (Der Arzt sagt, ich soll…).\n• **wollen** = my strong plan · **möchten** = its polite version.\nPresent-tense trick: ich/er identical, often with vowel change: ich kann, du kannst, er kann.\nSign logic (listening/reading!): “Rauchen verboten” = man darf nicht rauchen · “Eintritt frei” = man muss nichts bezahlen.\n\n## Auf Deutsch\n\nBedeutungen mit Alltags-Anker:\n• **können** = Fähigkeit/Möglichkeit (Ich kann schwimmen).\n• **müssen** = Pflicht (Ich muss arbeiten). Verneint = nicht nötig!\n• **dürfen** = Erlaubnis (Darf ich…?). Verneint = Verbot (Hier darf man nicht parken).\n• **sollen** = jemand ANDERES will es (Der Arzt sagt, ich soll…).\n• **wollen** = mein starker Plan · **möchten** = die höfliche Version.\nPräsens-Trick: ich/er gleich, oft mit Vokalwechsel: ich kann, du kannst, er kann.\nSchilder-Logik (Hören/Lesen!): „Rauchen verboten“ = man darf nicht rauchen · „Eintritt frei“ = man muss nichts bezahlen.",
+      "examples": [
+        {
+          "learning": "Hier darf man nicht rauchen.",
+          "known": "Smoking is not allowed here."
+        },
+        {
+          "learning": "Du musst das Formular nicht ausfüllen.",
+          "known": "You don't have to fill in the form. (≠ forbidden)"
+        },
+        {
+          "learning": "Der Arzt sagt, ich soll mehr schlafen.",
+          "known": "The doctor says I should sleep more."
+        },
+        {
+          "learning": "Ich möchte einen Termin vereinbaren.",
+          "known": "I would like to make an appointment."
+        },
+        {
+          "learning": "Testlücke-Stil: „Kinder ___ hier kostenlos schwimmen.“ → dürfen",
+          "known": "permission → dürfen"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u31-l09-modal-rule-ex03",
+      "type": "explain",
+      "title": "Watch out & exam tip",
+      "body": "## Common trap\n\nnicht dürfen ≠ nicht müssen: “Sie müssen nicht zahlen” = it's free · “Sie dürfen nicht zahlen” would be absurd. This distinction is a listening-test trap.\n\n*Deutsch:* nicht dürfen ≠ nicht müssen: „Sie müssen nicht zahlen“ = es ist frei · „Sie dürfen nicht zahlen“ wäre absurd. Diese Unterscheidung ist eine Hörverstehen-Falle.\n\n## In the exam\n\n🎯 How telc tests it: **listening/reading**: true/false statements often hinge on allowed/forbidden/not necessary. **Sprachbausteine**: gap before an infinitive → which modal fits logically? **Speaking part 3**: “Wir könnten … / Sollen wir …?”\n\n*Deutsch:* 🎯 So testet telc das: **Hören/Lesen**: richtig/falsch-Aussagen drehen sich oft um erlaubt/verboten/nicht nötig. **Sprachbausteine**: Lücke vor dem Infinitiv → welches Modalverb passt logisch? **Sprechen Teil 3**: „Wir könnten … / Sollen wir …?“\n\n*Source:* Guide B3"
+    },
+    {
+      "id": "tb1-u31-l09-modal-rule-ex04",
+      "type": "choice",
+      "title": "Fill the gap",
+      "prompt": "In der Bibliothek ___ man nicht laut sprechen.",
+      "options": [
+        {
+          "id": "a",
+          "text": "möchte"
+        },
+        {
+          "id": "b",
+          "text": "darf"
+        },
+        {
+          "id": "c",
+          "text": "muss"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Verbot = nicht dürfen."
+    },
+    {
+      "id": "tb1-u31-l09-modal-rule-ex05",
+      "type": "choice",
+      "title": "Fill the gap",
+      "prompt": "Du ___ das Formular nicht ausfüllen, es ist freiwillig.",
+      "options": [
+        {
+          "id": "a",
+          "text": "musst"
+        },
+        {
+          "id": "b",
+          "text": "darfst"
+        },
+        {
+          "id": "c",
+          "text": "sollst"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "nicht müssen = nicht nötig. (nicht dürfen wäre ein Verbot)"
+    },
+    {
+      "id": "tb1-u31-l09-modal-rule-ex06",
+      "type": "choice",
+      "title": "Fill the gap",
+      "prompt": "Der Arzt sagt, ich ___ mehr Sport machen.",
+      "options": [
+        {
+          "id": "a",
+          "text": "soll"
+        },
+        {
+          "id": "b",
+          "text": "darf"
+        },
+        {
+          "id": "c",
+          "text": "will"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Rat/Auftrag von einer anderen Person → sollen."
+    }
+  ]
+}

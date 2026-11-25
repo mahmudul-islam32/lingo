@@ -1,0 +1,303 @@
+{
+  "id": "eb-u13-l02-nds-1-10",
+  "courseId": "einbuergerung-en-de",
+  "unitId": "eb-u13",
+  "title": "Questions NDS 1–10",
+  "tip": "Some of these are picture questions: look at the pictures, just like in the real test.",
+  "exercises": [
+    {
+      "id": "eb-u13-l02-nds-1-10-ex01",
+      "type": "choice",
+      "title": "NDS 1 · Landesfrage",
+      "prompt": "Welches Wappen gehört zum Bundesland Niedersachsen?",
+      "figure": {
+        "images": [
+          {
+            "src": "/images/eb/nds-1-bild-1.png",
+            "alt": "Blue and white lozenges under a golden crown",
+            "label": "Bild 1"
+          },
+          {
+            "src": "/images/eb/nds-1-bild-2.png",
+            "alt": "Two blue lions on gold beside a white nettle leaf on red",
+            "label": "Bild 2"
+          },
+          {
+            "src": "/images/eb/nds-1-bild-3.png",
+            "alt": "A white leaping horse filling a red shield",
+            "label": "Bild 3"
+          },
+          {
+            "src": "/images/eb/nds-1-bild-4.png",
+            "alt": "Black and yellow stripes with a green crown of rue across them",
+            "label": "Bild 4"
+          }
+        ],
+        "credit": "Bilder: BAMF, Gesamtfragenkatalog „Leben in Deutschland“ (Stand 07.05.2025)"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": "Bild 1"
+        },
+        {
+          "id": "b",
+          "text": "Bild 2"
+        },
+        {
+          "id": "c",
+          "text": "Bild 3"
+        },
+        {
+          "id": "d",
+          "text": "Bild 4"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**Correct answer:** Bild 3\n\n*Picture question (Bildfrage):* the pictures above are the ones from the official question catalogue.\n\nCorrect: **Bild 3**, a white leaping horse (the *Sachsenross*) filling a red shield.\n\nThe other pictures: Bild 1 = Bayern (white-blue lozenges under a crown), Bild 2 = Schleswig-Holstein (two blue lions and a white nettle leaf), Bild 4 = Sachsen (black-gold stripes with a green crown of rue). Don't mix up the horses: NRW's arms also show a white horse, but only in one part of the shield; in Niedersachsen the horse fills the whole red shield. The same arms sit in the middle of the Landesflagge (→NDS-5).\n\n## Auf Deutsch\n\nDas Wappen von Niedersachsen: ein weißes, springendes Pferd (Sachsenross) auf rotem Grund."
+    },
+    {
+      "id": "eb-u13-l02-nds-1-10-ex02",
+      "type": "choice",
+      "title": "NDS 2 · Landesfrage",
+      "prompt": "Welches ist ein Landkreis in Niedersachsen?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ammerland"
+        },
+        {
+          "id": "b",
+          "text": "Rhein-Sieg-Kreis"
+        },
+        {
+          "id": "c",
+          "text": "Nordfriesland"
+        },
+        {
+          "id": "d",
+          "text": "Vogtlandkreis"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Correct answer:** Ammerland\n\n**Ammerland**, a rural district in the northwest near Oldenburg (Kreisstadt Westerstede), known for its rhododendron parks and the Zwischenahner Meer.\n\nRhein-Sieg-Kreis = NRW (around Bonn), Nordfriesland = Schleswig-Holstein (the North Frisian coast), Vogtlandkreis = Sachsen. Technique: river and region names place districts: \"Rhein-\" points west, \"Vogtland\" to the far southeast. Trap: Niedersachsen does have a Landkreis *Friesland* (around Jever), but *Nord*friesland is Schleswig-Holstein.\n\n## Auf Deutsch\n\nDer Landkreis Ammerland (bei Oldenburg, Kreisstadt Westerstede) liegt in Niedersachsen."
+    },
+    {
+      "id": "eb-u13-l02-nds-1-10-ex03",
+      "type": "choice",
+      "title": "NDS 3 · Landesfrage",
+      "prompt": "Für wie viele Jahre wird der Landtag in Niedersachsen gewählt?",
+      "options": [
+        {
+          "id": "a",
+          "text": "3"
+        },
+        {
+          "id": "b",
+          "text": "4"
+        },
+        {
+          "id": "c",
+          "text": "5"
+        },
+        {
+          "id": "d",
+          "text": "6"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**Correct answer:** 5\n\n**5 years**, one year longer than the Bundestag's 4 (→Q107). That mismatch is the whole trap. The Landtag meets in the Leineschloss in Hannover; it was last elected in 2022, so the next regular Landtagswahl is due in 2027.\n\n## Auf Deutsch\n\nDer Landtag in Niedersachsen wird für 5 Jahre gewählt (Bundestag: nur 4!)."
+    },
+    {
+      "id": "eb-u13-l02-nds-1-10-ex04",
+      "type": "choice",
+      "title": "NDS 4 · Landesfrage",
+      "prompt": "Ab welchem Alter darf man in Niedersachsen bei Kommunalwahlen wählen?",
+      "options": [
+        {
+          "id": "a",
+          "text": "14"
+        },
+        {
+          "id": "b",
+          "text": "16"
+        },
+        {
+          "id": "c",
+          "text": "18"
+        },
+        {
+          "id": "d",
+          "text": "20"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Correct answer:** 16\n\nFrom **16**: Niedersachsen's Kommunalwahlen (Gemeinderat, Stadtrat, Kreistag, Bürgermeister, Landrat) are open to 16-year-olds. The age ladder (→Q94, Q246): **16** Kommunalwahl in Niedersachsen + Europawahl · **18** Landtag + Bundestag.\n\n## Auf Deutsch\n\nBei Kommunalwahlen in Niedersachsen darf man ab 16 Jahren wählen."
+    },
+    {
+      "id": "eb-u13-l02-nds-1-10-ex05",
+      "type": "choice",
+      "title": "NDS 5 · Landesfrage",
+      "prompt": "Welche Farben hat die Landesflagge von Niedersachsen?",
+      "options": [
+        {
+          "id": "a",
+          "text": "weiß-blau"
+        },
+        {
+          "id": "b",
+          "text": "schwarz-rot-gold"
+        },
+        {
+          "id": "c",
+          "text": "schwarz-gelb"
+        },
+        {
+          "id": "d",
+          "text": "blau-weiß-rot"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Correct answer:** schwarz-rot-gold\n\n**Schwarz-rot-gold**, the same colours as the federal flag (→Q214), with the Land's coat of arms in the middle: the white horse on red (→NDS-1).\n\nThat is the trap: you might expect Land colours that differ from the Bund's. The decoys: weiß-blau = Bayern, schwarz-gelb = Baden-Württemberg, blau-weiß-rot = Schleswig-Holstein.\n\n## Auf Deutsch\n\nDie Landesflagge von Niedersachsen ist schwarz-rot-gold, mit dem Landeswappen (weißes Pferd auf Rot) in der Mitte."
+    },
+    {
+      "id": "eb-u13-l02-nds-1-10-ex06",
+      "type": "choice",
+      "title": "NDS 6 · Landesfrage",
+      "prompt": "Wo können Sie sich in Niedersachsen über politische Themen informieren?",
+      "options": [
+        {
+          "id": "a",
+          "text": "bei der Landeszentrale für politische Bildung"
+        },
+        {
+          "id": "b",
+          "text": "beim Ordnungsamt der Gemeinde"
+        },
+        {
+          "id": "c",
+          "text": "bei der Verbraucherzentrale"
+        },
+        {
+          "id": "d",
+          "text": "bei den Kirchen"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Correct answer:** bei der Landeszentrale für politische Bildung\n\nThe **Landeszentrale für politische Bildung Niedersachsen**, the Land's nonpartisan civic-education agency: free or cheap books, events and election guides. Its federal sibling, the bpb, runs the well-known Wahl-O-Mat.\n\nOrdnungsamt = local public order (permits, registrations, noise); Verbraucherzentrale = consumer advice (contracts, prices); the churches are religious communities, not a source of neutral political information.\n\n## Auf Deutsch\n\nÜber politische Themen informiert die Landeszentrale für politische Bildung Niedersachsen (in Hannover)."
+    },
+    {
+      "id": "eb-u13-l02-nds-1-10-ex07",
+      "type": "choice",
+      "title": "NDS 7 · Landesfrage",
+      "prompt": "Die Landeshauptstadt von Niedersachsen heißt …",
+      "options": [
+        {
+          "id": "a",
+          "text": "Hannover."
+        },
+        {
+          "id": "b",
+          "text": "Braunschweig."
+        },
+        {
+          "id": "c",
+          "text": "Wolfsburg."
+        },
+        {
+          "id": "d",
+          "text": "Osnabrück."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Correct answer:** Hannover.\n\n**Hannover**, seat of the Landtag (Leineschloss) and the Landesregierung.\n\nThe decoys are all big Niedersachsen cities: Braunschweig (the second-largest), Wolfsburg (home of Volkswagen) and Osnabrück (Peace of Westphalia, 1648). Big or famous is not the same as capital.\n\n## Auf Deutsch\n\nDie Landeshauptstadt von Niedersachsen ist Hannover."
+    },
+    {
+      "id": "eb-u13-l02-nds-1-10-ex08",
+      "type": "choice",
+      "title": "NDS 8 · Landesfrage",
+      "prompt": "Welches Bundesland ist Niedersachsen?",
+      "figure": {
+        "images": [
+          {
+            "src": "/images/eb/nds-8.jpg",
+            "alt": "Map of Germany with four Länder highlighted and numbered: 1 is a large Land in the northwest on the North Sea; 2 is in the middle of Germany; 3 lies east of it on the Elbe; 4 is in the southeast, on the borders with Poland and the Czech Republic."
+          }
+        ],
+        "credit": "Bilder: BAMF, Gesamtfragenkatalog „Leben in Deutschland“ (Stand 07.05.2025)"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": "Fläche 1"
+        },
+        {
+          "id": "b",
+          "text": "Fläche 2"
+        },
+        {
+          "id": "c",
+          "text": "Fläche 3"
+        },
+        {
+          "id": "d",
+          "text": "Fläche 4"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Correct answer:** Fläche 1\n\n*Picture question (Bildfrage):* the pictures above are the ones from the official question catalogue.\n\nCorrect: **area 1**, the large Land in the northwest, between the North Sea coast and the Harz, bordering the Netherlands.\n\nThe other highlighted areas: 2 = Thüringen, 3 = Sachsen-Anhalt, 4 = Sachsen. Anchors for Niedersachsen: the North Sea coast with the East Frisian islands, the border with the Netherlands, and the small hole in its middle (that's the city-state Bremen). By area it is the second-largest Land after Bayern.\n\n## Auf Deutsch\n\nNiedersachsen ist das große Land im Nordwesten (Fläche 1), an der Nordsee und rund um Bremen."
+    },
+    {
+      "id": "eb-u13-l02-nds-1-10-ex09",
+      "type": "choice",
+      "title": "NDS 9 · Landesfrage",
+      "prompt": "Wie nennt man die Regierungschefin/den Regierungschef in Niedersachsen?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Erste Ministerin/Erster Minister"
+        },
+        {
+          "id": "b",
+          "text": "Premierministerin/Premierminister"
+        },
+        {
+          "id": "c",
+          "text": "Bürgermeisterin/Bürgermeister"
+        },
+        {
+          "id": "d",
+          "text": "Ministerpräsidentin/Ministerpräsident"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**Correct answer:** Ministerpräsidentin/Ministerpräsident\n\nNiedersachsen is a Flächenland, so its head of government is the **Ministerpräsident(in)** (→Q37). Only the *title* is tested; the officeholder (since May 2025 Olaf Lies, SPD ⏰) can change.\n\nErster Minister / Premierminister are titles from other countries (Scotland, Wales, the UK); a Bürgermeister heads a Gemeinde (→Q131) or a city-state like Hamburg. Title follows Land type: Flächenland → Ministerpräsident, Stadtstaat → Bürgermeister.\n\n## Auf Deutsch\n\nDie Regierungschefin/der Regierungschef von Niedersachsen heißt Ministerpräsidentin/Ministerpräsident."
+    },
+    {
+      "id": "eb-u13-l02-nds-1-10-ex10",
+      "type": "choice",
+      "title": "NDS 10 · Landesfrage",
+      "prompt": "Welche Ministerin/ welchen Minister hat Niedersachsen nicht?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Justizministerin/Justizminister"
+        },
+        {
+          "id": "b",
+          "text": "Außenministerin/Außenminister"
+        },
+        {
+          "id": "c",
+          "text": "Finanzministerin/Finanzminister"
+        },
+        {
+          "id": "d",
+          "text": "Innenministerin/Innenminister"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Correct answer:** Außenministerin/Außenminister\n\nNo Land has an **Außenminister**: foreign policy is federal (Art. 32 GG; →Q39's trio: foreign policy, currency, army). Niedersachsen does have ministers for justice, finance and the interior (Land police, →Q148), schools (→Q49) and more. Federalism gives the Länder real power at home, none abroad.\n\n## Auf Deutsch\n\nEinen Außenminister hat kein Bundesland. Außenpolitik macht nur der Bund."
+    }
+  ]
+}

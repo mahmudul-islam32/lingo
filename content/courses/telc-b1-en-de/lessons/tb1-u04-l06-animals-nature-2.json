@@ -1,0 +1,281 @@
+{
+  "id": "tb1-u04-l06-animals-nature-2",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u04",
+  "title": "Animals & Nature 2",
+  "tip": "Theme: Tiere & Natur (A1)",
+  "exercises": [
+    {
+      "id": "tb1-u04-l06-animals-nature-2-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "die Kuh",
+          "known": "cow"
+        },
+        {
+          "id": "p2",
+          "learning": "der Baum",
+          "known": "tree"
+        },
+        {
+          "id": "p3",
+          "learning": "die Blume",
+          "known": "flower"
+        },
+        {
+          "id": "p4",
+          "learning": "der Wald",
+          "known": "forest"
+        },
+        {
+          "id": "p5",
+          "learning": "die Sonne",
+          "known": "sun"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u04-l06-animals-nature-2-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „cow“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Kuh, die Kühe"
+        },
+        {
+          "id": "b",
+          "text": "der Vogel, die Vögel"
+        },
+        {
+          "id": "c",
+          "text": "das Tier, die Tiere"
+        },
+        {
+          "id": "d",
+          "text": "das Meer, die Meere"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**die Kuh** = cow\n*Plural: die Kühe*\n\n*Example:* Auf dem Bauernhof haben die Kinder Kühe gesehen.\nThe children saw cows on the farm."
+    },
+    {
+      "id": "tb1-u04-l06-animals-nature-2-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „tree“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "das Tier, die Tiere"
+        },
+        {
+          "id": "b",
+          "text": "der Baum, die Bäume"
+        },
+        {
+          "id": "c",
+          "text": "der See, die Seen"
+        },
+        {
+          "id": "d",
+          "text": "die Sonne"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**der Baum** = tree\n*Plural: die Bäume*\n\n*Example:* Vor unserem Haus steht ein großer Baum.\nThere's a big tree in front of our house."
+    },
+    {
+      "id": "tb1-u04-l06-animals-nature-2-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "The children saw cows on the farm.",
+      "tiles": [
+        "Kinder",
+        "Bauernhof",
+        "die",
+        "gesehen",
+        "einem",
+        "haben",
+        "Haus",
+        "Kühe",
+        "dem",
+        "Auf",
+        "ein"
+      ],
+      "answers": [
+        "Auf dem Bauernhof haben die Kinder Kühe gesehen."
+      ],
+      "explanation": "**die Kuh** = cow\n*Plural: die Kühe*"
+    },
+    {
+      "id": "tb1-u04-l06-animals-nature-2-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „flower“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Luft"
+        },
+        {
+          "id": "b",
+          "text": "die Blume, die Blumen"
+        },
+        {
+          "id": "c",
+          "text": "der Himmel"
+        },
+        {
+          "id": "d",
+          "text": "das Meer, die Meere"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**die Blume** = flower\n*Plural: die Blumen*\n\n*Example:* Zum Geburtstag habe ich meiner Mutter Blumen geschenkt.\nI gave my mother flowers for her birthday."
+    },
+    {
+      "id": "tb1-u04-l06-animals-nature-2-ex06",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u04-l06-animals-nature-2-2.mp3"
+      },
+      "tiles": [
+        "Baum",
+        "dem",
+        "Vor",
+        "ein",
+        "steht",
+        "großer",
+        "Haus",
+        "Geburtstag",
+        "unserem",
+        "ihrem"
+      ],
+      "answers": [
+        "Vor unserem Haus steht ein großer Baum."
+      ],
+      "explanation": "Vor unserem Haus steht ein großer Baum.\n*There's a big tree in front of our house.*\n\n**der Baum** = tree\n*Plural: die Bäume*"
+    },
+    {
+      "id": "tb1-u04-l06-animals-nature-2-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „forest“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Luft"
+        },
+        {
+          "id": "b",
+          "text": "die Blume, die Blumen"
+        },
+        {
+          "id": "c",
+          "text": "die Kuh, die Kühe"
+        },
+        {
+          "id": "d",
+          "text": "der Wald, die Wälder"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**der Wald** = forest\n*Plural: die Wälder*\n\n*Example:* Am Sonntag machen wir einen Spaziergang im Wald.\nOn Sunday we're going for a walk in the forest."
+    },
+    {
+      "id": "tb1-u04-l06-animals-nature-2-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Zum Geburtstag habe ich meiner Mutter Blumen geschenkt.",
+      "tiles": [
+        "I",
+        "her",
+        "flowers",
+        "gave",
+        "my",
+        "mother",
+        "Saturday",
+        "birthday",
+        "go",
+        "friend",
+        "for"
+      ],
+      "answers": [
+        "I gave my mother flowers for her birthday."
+      ],
+      "explanation": "**die Blume** = flower\n*Plural: die Blumen*"
+    },
+    {
+      "id": "tb1-u04-l06-animals-nature-2-ex09",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „sun“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "der Baum, die Bäume"
+        },
+        {
+          "id": "b",
+          "text": "der Himmel"
+        },
+        {
+          "id": "c",
+          "text": "die Sonne"
+        },
+        {
+          "id": "d",
+          "text": "der Wald, die Wälder"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**die Sonne** = sun\n\n*Example:* Heute scheint die Sonne, wir können draußen essen.\nThe sun is shining today, we can eat outside."
+    },
+    {
+      "id": "tb1-u04-l06-animals-nature-2-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "On Sunday we're going for a walk in the forest.",
+      "tiles": [
+        "im",
+        "einen",
+        "wir",
+        "frühen",
+        "machen",
+        "Am",
+        "Wald",
+        "steht",
+        "gern",
+        "Spaziergang",
+        "Sonntag"
+      ],
+      "answers": [
+        "Am Sonntag machen wir einen Spaziergang im Wald."
+      ],
+      "explanation": "**der Wald** = forest\n*Plural: die Wälder*"
+    },
+    {
+      "id": "tb1-u04-l06-animals-nature-2-ex11",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u04-l06-animals-nature-2-5.mp3"
+      },
+      "tiles": [
+        "Heute",
+        "essen",
+        "wir",
+        "draußen",
+        "scheint",
+        "die",
+        "Nacht",
+        "Sonne",
+        "können",
+        "ihrem",
+        "Mutter"
+      ],
+      "answers": [
+        "Heute scheint die Sonne, wir können draußen essen."
+      ],
+      "explanation": "Heute scheint die Sonne, wir können draußen essen.\n*The sun is shining today, we can eat outside.*\n\n**die Sonne** = sun"
+    }
+  ]
+}

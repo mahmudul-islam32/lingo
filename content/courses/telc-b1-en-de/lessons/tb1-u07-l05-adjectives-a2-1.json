@@ -1,0 +1,285 @@
+{
+  "id": "tb1-u07-l05-adjectives-a2-1",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u07",
+  "title": "Adjectives (A2) 1",
+  "tip": "Theme: Adjektive (A2) (A2)",
+  "exercises": [
+    {
+      "id": "tb1-u07-l05-adjectives-a2-1-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "wichtig",
+          "known": "important"
+        },
+        {
+          "id": "p2",
+          "learning": "möglich",
+          "known": "possible"
+        },
+        {
+          "id": "p3",
+          "learning": "bekannt",
+          "known": "well-known"
+        },
+        {
+          "id": "p4",
+          "learning": "berühmt",
+          "known": "famous"
+        },
+        {
+          "id": "p5",
+          "learning": "modern",
+          "known": "modern"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u07-l05-adjectives-a2-1-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which one means „important“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "modern"
+        },
+        {
+          "id": "b",
+          "text": "gefährlich"
+        },
+        {
+          "id": "c",
+          "text": "ganz"
+        },
+        {
+          "id": "d",
+          "text": "wichtig"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**wichtig** = important\n\n*Example:* Es ist wichtig, dass du pünktlich zum Termin kommst.\nIt's important that you arrive on time for the appointment."
+    },
+    {
+      "id": "tb1-u07-l05-adjectives-a2-1-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which one means „possible ↔ impossible“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "gefährlich"
+        },
+        {
+          "id": "b",
+          "text": "pünktlich"
+        },
+        {
+          "id": "c",
+          "text": "möglich ↔ unmöglich"
+        },
+        {
+          "id": "d",
+          "text": "praktisch"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**möglich ↔ unmöglich** = possible ↔ impossible\n\n*Example:* Ein Termin am Montag ist möglich, am Dienstag ist es leider unmöglich.\nAn appointment on Monday is possible, but on Tuesday it's unfortunately impossible."
+    },
+    {
+      "id": "tb1-u07-l05-adjectives-a2-1-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Es ist wichtig, dass du pünktlich zum Termin kommst.",
+      "tiles": [
+        "that",
+        "on",
+        "important",
+        "It's",
+        "appointment",
+        "the",
+        "for",
+        "and",
+        "city",
+        "you",
+        "time",
+        "I",
+        "arrive"
+      ],
+      "answers": [
+        "It's important that you arrive on time for the appointment."
+      ],
+      "explanation": "**wichtig** = important"
+    },
+    {
+      "id": "tb1-u07-l05-adjectives-a2-1-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which one means „well-known“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "bekannt"
+        },
+        {
+          "id": "b",
+          "text": "freiwillig"
+        },
+        {
+          "id": "c",
+          "text": "praktisch"
+        },
+        {
+          "id": "d",
+          "text": "verschieden"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**bekannt** = well-known\n\n*Example:* Das Restaurant ist in der ganzen Stadt bekannt.\nThe restaurant is well-known throughout the city."
+    },
+    {
+      "id": "tb1-u07-l05-adjectives-a2-1-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "An appointment on Monday is possible, but on Tuesday it's unfortunately impossible.",
+      "tiles": [
+        "am",
+        "Termin",
+        "Montag",
+        "leider",
+        "möglich",
+        "unmöglich",
+        "Ein",
+        "ist",
+        "arbeitet",
+        "es",
+        "am",
+        "Züge",
+        "das",
+        "Dienstag",
+        "ist"
+      ],
+      "answers": [
+        "Ein Termin am Montag ist möglich, am Dienstag ist es leider unmöglich."
+      ],
+      "explanation": "**möglich ↔ unmöglich** = possible ↔ impossible"
+    },
+    {
+      "id": "tb1-u07-l05-adjectives-a2-1-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which one means „famous“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "modern"
+        },
+        {
+          "id": "b",
+          "text": "verschieden"
+        },
+        {
+          "id": "c",
+          "text": "nötig"
+        },
+        {
+          "id": "d",
+          "text": "berühmt"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**berühmt** = famous\n\n*Example:* Heidelberg ist für sein altes Schloss berühmt.\nHeidelberg is famous for its old castle."
+    },
+    {
+      "id": "tb1-u07-l05-adjectives-a2-1-ex08",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u07-l05-adjectives-a2-1-3.mp3"
+      },
+      "tiles": [
+        "modern",
+        "zu",
+        "in",
+        "der",
+        "Restaurant",
+        "dass",
+        "ganzen",
+        "Stadt",
+        "Das",
+        "bekannt",
+        "ist"
+      ],
+      "answers": [
+        "Das Restaurant ist in der ganzen Stadt bekannt."
+      ],
+      "explanation": "Das Restaurant ist in der ganzen Stadt bekannt.\n*The restaurant is well-known throughout the city.*\n\n**bekannt** = well-known"
+    },
+    {
+      "id": "tb1-u07-l05-adjectives-a2-1-ex09",
+      "type": "multiple_choice",
+      "prompt": "Which one means „modern“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "gefährlich"
+        },
+        {
+          "id": "b",
+          "text": "besondere / besonders"
+        },
+        {
+          "id": "c",
+          "text": "modern"
+        },
+        {
+          "id": "d",
+          "text": "pünktlich"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**modern** = modern\n\n*Example:* Die neue Küche ist hell und modern.\nThe new kitchen is bright and modern."
+    },
+    {
+      "id": "tb1-u07-l05-adjectives-a2-1-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Heidelberg ist für sein altes Schloss berühmt.",
+      "tiles": [
+        "is",
+        "our",
+        "castle",
+        "famous",
+        "its",
+        "for",
+        "Heidelberg",
+        "old",
+        "comfortable",
+        "healthy"
+      ],
+      "answers": [
+        "Heidelberg is famous for its old castle."
+      ],
+      "explanation": "**berühmt** = famous"
+    },
+    {
+      "id": "tb1-u07-l05-adjectives-a2-1-ex11",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "The new kitchen is bright and modern.",
+      "tiles": [
+        "modern",
+        "ist",
+        "Heidelberg",
+        "Küche",
+        "und",
+        "Stadt",
+        "Die",
+        "hell",
+        "dass",
+        "neue"
+      ],
+      "answers": [
+        "Die neue Küche ist hell und modern."
+      ],
+      "explanation": "**modern** = modern"
+    }
+  ]
+}

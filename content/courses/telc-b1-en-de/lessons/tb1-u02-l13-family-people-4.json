@@ -1,0 +1,232 @@
+{
+  "id": "tb1-u02-l13-family-people-4",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u02",
+  "title": "Family & People 4",
+  "tip": "Theme: Familie & Menschen (A1)",
+  "exercises": [
+    {
+      "id": "tb1-u02-l13-family-people-4-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "der Junge",
+          "known": "boy"
+        },
+        {
+          "id": "p2",
+          "learning": "das Mädchen",
+          "known": "girl"
+        },
+        {
+          "id": "p3",
+          "learning": "der Name",
+          "known": "name"
+        },
+        {
+          "id": "p4",
+          "learning": "das Baby",
+          "known": "baby"
+        },
+        {
+          "id": "p5",
+          "learning": "die Familie",
+          "known": "family"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u02-l13-family-people-4-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „boy“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "das Mädchen, die Mädchen"
+        },
+        {
+          "id": "b",
+          "text": "der Bruder, die Brüder"
+        },
+        {
+          "id": "c",
+          "text": "der Junge, die Jungen"
+        },
+        {
+          "id": "d",
+          "text": "die Familie, die Familien"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**der Junge** = boy\n*Plural: die Jungen*\n\n*Example:* Der kleine Junge spielt gern Fußball.\nThe little boy likes playing football."
+    },
+    {
+      "id": "tb1-u02-l13-family-people-4-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „girl“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Familie, die Familien"
+        },
+        {
+          "id": "b",
+          "text": "der Mann, die Männer"
+        },
+        {
+          "id": "c",
+          "text": "die Eltern (Pl.)"
+        },
+        {
+          "id": "d",
+          "text": "das Mädchen, die Mädchen"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**das Mädchen** = girl\n*Plural: die Mädchen*\n\n*Example:* Das Mädchen mit den langen Haaren ist meine Nichte.\nThe girl with the long hair is my niece."
+    },
+    {
+      "id": "tb1-u02-l13-family-people-4-ex04",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u02-l13-family-people-4-1.mp3"
+      },
+      "tiles": [
+        "kleine",
+        "Klasse",
+        "Der",
+        "Schalter",
+        "Junge",
+        "gern",
+        "spielt",
+        "mich",
+        "Fußball"
+      ],
+      "answers": [
+        "Der kleine Junge spielt gern Fußball."
+      ],
+      "explanation": "Der kleine Junge spielt gern Fußball.\n*The little boy likes playing football.*\n\n**der Junge** = boy\n*Plural: die Jungen*"
+    },
+    {
+      "id": "tb1-u02-l13-family-people-4-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „name“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "der Name, die Namen"
+        },
+        {
+          "id": "b",
+          "text": "die Tochter, die Töchter"
+        },
+        {
+          "id": "c",
+          "text": "der Bruder, die Brüder"
+        },
+        {
+          "id": "d",
+          "text": "das Baby, die Babys"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**der Name** = name\n*Plural: die Namen*\n\n*Example:* Bitte schreiben Sie Ihren Namen auf das Formular.\nPlease write your name on the form."
+    },
+    {
+      "id": "tb1-u02-l13-family-people-4-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Das Mädchen mit den langen Haaren ist meine Nichte.",
+      "tiles": [
+        "The",
+        "niece",
+        "be",
+        "my",
+        "is",
+        "play",
+        "long",
+        "with",
+        "the",
+        "girl",
+        "brother",
+        "hair"
+      ],
+      "answers": [
+        "The girl with the long hair is my niece."
+      ],
+      "explanation": "**das Mädchen** = girl\n*Plural: die Mädchen*"
+    },
+    {
+      "id": "tb1-u02-l13-family-people-4-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „baby“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "das Mädchen, die Mädchen"
+        },
+        {
+          "id": "b",
+          "text": "das Kind, die Kinder"
+        },
+        {
+          "id": "c",
+          "text": "die Eltern (Pl.)"
+        },
+        {
+          "id": "d",
+          "text": "das Baby, die Babys"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**das Baby** = baby\n*Plural: die Babys*\n\n*Example:* Das Baby schläft gerade, bitte seid leise.\nThe baby is sleeping right now, please be quiet."
+    },
+    {
+      "id": "tb1-u02-l13-family-people-4-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Please write your name on the form.",
+      "tiles": [
+        "das",
+        "Sie",
+        "Formular",
+        "Land",
+        "Ihren",
+        "auf",
+        "Bitte",
+        "studiert",
+        "Namen",
+        "schreiben",
+        "Deutschland"
+      ],
+      "answers": [
+        "Bitte schreiben Sie Ihren Namen auf das Formular."
+      ],
+      "explanation": "**der Name** = name\n*Plural: die Namen*"
+    },
+    {
+      "id": "tb1-u02-l13-family-people-4-ex09",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u02-l13-family-people-4-4.mp3"
+      },
+      "tiles": [
+        "schläft",
+        "Kinder",
+        "Das",
+        "leise",
+        "Ferien",
+        "bitte",
+        "Baby",
+        "gerade",
+        "zum",
+        "seid"
+      ],
+      "answers": [
+        "Das Baby schläft gerade, bitte seid leise."
+      ],
+      "explanation": "Das Baby schläft gerade, bitte seid leise.\n*The baby is sleeping right now, please be quiet.*\n\n**das Baby** = baby\n*Plural: die Babys*"
+    }
+  ]
+}

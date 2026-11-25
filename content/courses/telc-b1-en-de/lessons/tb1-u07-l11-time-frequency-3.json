@@ -1,0 +1,289 @@
+{
+  "id": "tb1-u07-l11-time-frequency-3",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u07",
+  "title": "Time & Frequency 3",
+  "tip": "Theme: Zeit & Häufigkeit (A2)",
+  "exercises": [
+    {
+      "id": "tb1-u07-l11-time-frequency-3-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "nachher",
+          "known": "afterwards"
+        },
+        {
+          "id": "p2",
+          "learning": "zuerst",
+          "known": "first"
+        },
+        {
+          "id": "p3",
+          "learning": "dann",
+          "known": "then"
+        },
+        {
+          "id": "p4",
+          "learning": "danach",
+          "known": "after that"
+        },
+        {
+          "id": "p5",
+          "learning": "schließlich",
+          "known": "finally"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u07-l11-time-frequency-3-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which one means „afterwards“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "bis"
+        },
+        {
+          "id": "b",
+          "text": "gerade"
+        },
+        {
+          "id": "c",
+          "text": "nachher"
+        },
+        {
+          "id": "d",
+          "text": "später"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**nachher** = afterwards\n\n*Example:* Wir gehen erst einkaufen und nachher ins Café.\nWe're going shopping first and to the café afterwards."
+    },
+    {
+      "id": "tb1-u07-l11-time-frequency-3-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which one means „first“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "bald"
+        },
+        {
+          "id": "b",
+          "text": "zuerst"
+        },
+        {
+          "id": "c",
+          "text": "später"
+        },
+        {
+          "id": "d",
+          "text": "gleich"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**zuerst** = first\n\n*Example:* Zuerst müssen Sie das Formular ausfüllen.\nFirst you have to fill in the form."
+    },
+    {
+      "id": "tb1-u07-l11-time-frequency-3-ex04",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u07-l11-time-frequency-3-1.mp3"
+      },
+      "tiles": [
+        "Fahrrad",
+        "Café",
+        "gehen",
+        "und",
+        "einkaufen",
+        "nachher",
+        "waschen",
+        "Telefon",
+        "Wir",
+        "ins",
+        "erst"
+      ],
+      "answers": [
+        "Wir gehen erst einkaufen und nachher ins Café."
+      ],
+      "explanation": "Wir gehen erst einkaufen und nachher ins Café.\n*We're going shopping first and to the café afterwards.*\n\n**nachher** = afterwards"
+    },
+    {
+      "id": "tb1-u07-l11-time-frequency-3-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which one means „then“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "dann"
+        },
+        {
+          "id": "b",
+          "text": "nachher"
+        },
+        {
+          "id": "c",
+          "text": "normalerweise"
+        },
+        {
+          "id": "d",
+          "text": "bis"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**dann** = then\n\n*Example:* Maria frühstückt und dann bringt sie die Kinder zur Schule.\nMaria has breakfast and then takes the children to school."
+    },
+    {
+      "id": "tb1-u07-l11-time-frequency-3-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Zuerst müssen Sie das Formular ausfüllen.",
+      "tiles": [
+        "fill",
+        "come",
+        "ride",
+        "the",
+        "form",
+        "in",
+        "doctor",
+        "you",
+        "have",
+        "to",
+        "First"
+      ],
+      "answers": [
+        "First you have to fill in the form."
+      ],
+      "explanation": "**zuerst** = first"
+    },
+    {
+      "id": "tb1-u07-l11-time-frequency-3-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which one means „after that“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "plötzlich"
+        },
+        {
+          "id": "b",
+          "text": "vorher"
+        },
+        {
+          "id": "c",
+          "text": "danach"
+        },
+        {
+          "id": "d",
+          "text": "seit"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**danach** = after that\n\n*Example:* Ich arbeite bis vier Uhr, danach gehe ich ins Fitnessstudio.\nI work until four, after that I go to the gym."
+    },
+    {
+      "id": "tb1-u07-l11-time-frequency-3-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Maria has breakfast and then takes the children to school.",
+      "tiles": [
+        "Uhr",
+        "sie",
+        "bringt",
+        "die",
+        "Maria",
+        "und",
+        "zur",
+        "Fahrrad",
+        "Schule",
+        "frühstückt",
+        "dann",
+        "Kinder",
+        "gesucht"
+      ],
+      "answers": [
+        "Maria frühstückt und dann bringt sie die Kinder zur Schule."
+      ],
+      "explanation": "**dann** = then"
+    },
+    {
+      "id": "tb1-u07-l11-time-frequency-3-ex09",
+      "type": "multiple_choice",
+      "prompt": "Which one means „finally“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "bald"
+        },
+        {
+          "id": "b",
+          "text": "dann"
+        },
+        {
+          "id": "c",
+          "text": "später"
+        },
+        {
+          "id": "d",
+          "text": "schließlich"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**schließlich** = finally\n\n*Example:* Wir haben lange gesucht und schließlich eine Wohnung gefunden.\nWe searched for a long time and finally found a flat."
+    },
+    {
+      "id": "tb1-u07-l11-time-frequency-3-ex10",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u07-l11-time-frequency-3-4.mp3"
+      },
+      "tiles": [
+        "bis",
+        "Bald",
+        "danach",
+        "Maria",
+        "arbeite",
+        "Fitnessstudio",
+        "Ich",
+        "vier",
+        "ich",
+        "Uhr",
+        "Sie",
+        "ins",
+        "gehe"
+      ],
+      "answers": [
+        "Ich arbeite bis vier Uhr, danach gehe ich ins Fitnessstudio."
+      ],
+      "explanation": "Ich arbeite bis vier Uhr, danach gehe ich ins Fitnessstudio.\n*I work until four, after that I go to the gym.*\n\n**danach** = after that"
+    },
+    {
+      "id": "tb1-u07-l11-time-frequency-3-ex11",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Wir haben lange gesucht und schließlich eine Wohnung gefunden.",
+      "tiles": [
+        "We",
+        "time",
+        "flat",
+        "to",
+        "and",
+        "At",
+        "found",
+        "a",
+        "for",
+        "finally",
+        "searched",
+        "a",
+        "p.m",
+        "long"
+      ],
+      "answers": [
+        "We searched for a long time and finally found a flat."
+      ],
+      "explanation": "**schließlich** = finally"
+    }
+  ]
+}

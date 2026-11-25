@@ -1,0 +1,256 @@
+{
+  "id": "tb1-u28-l10-informal-e-mails-1",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u28",
+  "title": "Informal E-mails 1",
+  "tip": "Theme: Sätze: Informelle E-Mail (B1)",
+  "exercises": [
+    {
+      "id": "tb1-u28-l10-informal-e-mails-1-ex01",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means „I'm sorry that I haven't been in touch for so long.“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Melde dich, wenn du Zeit hast!"
+        },
+        {
+          "id": "b",
+          "text": "Danke für deine E-Mail, ich habe mich sehr gefreut."
+        },
+        {
+          "id": "c",
+          "text": "Es tut mir leid, dass ich mich so lange nicht gemeldet habe."
+        },
+        {
+          "id": "d",
+          "text": "Ich habe eine gute Nachricht: Ich habe die Prüfung bestanden!"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**Es tut mir leid, dass ich mich so lange nicht gemeldet habe.** = I'm sorry that I haven't been in touch for so long.\n\n*Example:* Es tut mir leid, dass ich mich so lange nicht gemeldet habe.\nI'm sorry that I haven't been in touch for so long."
+    },
+    {
+      "id": "tb1-u28-l10-informal-e-mails-1-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means „How are you? A lot has happened here.“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Danke für deine E-Mail, ich habe mich sehr gefreut."
+        },
+        {
+          "id": "b",
+          "text": "Wie geht es dir? Bei mir ist viel passiert."
+        },
+        {
+          "id": "c",
+          "text": "Vielleicht können wir das nächste Woche nachholen."
+        },
+        {
+          "id": "d",
+          "text": "Es tut mir leid, dass ich mich so lange nicht gemeldet habe."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Wie geht es dir? Bei mir ist viel passiert.** = How are you? A lot has happened here.\n\n*Example:* Wie geht es dir? Bei mir ist viel passiert.\nHow are you? A lot has happened here."
+    },
+    {
+      "id": "tb1-u28-l10-informal-e-mails-1-ex03",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u28-l10-informal-e-mails-1-1.mp3"
+      },
+      "tiles": [
+        "mich",
+        "leid",
+        "ich",
+        "so",
+        "Es",
+        "Bei",
+        "nicht",
+        "lange",
+        "gemeldet",
+        "habe",
+        "dass",
+        "tut",
+        "mir",
+        "E-Mail",
+        "nächste"
+      ],
+      "answers": [
+        "Es tut mir leid, dass ich mich so lange nicht gemeldet habe."
+      ],
+      "explanation": "Es tut mir leid, dass ich mich so lange nicht gemeldet habe.\n*I'm sorry that I haven't been in touch for so long.*\n\n**Es tut mir leid, dass ich mich so lange nicht gemeldet habe.** = I'm sorry that I haven't been in touch for so long."
+    },
+    {
+      "id": "tb1-u28-l10-informal-e-mails-1-ex04",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means „I have good news: I passed the exam!“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Melde dich, wenn du Zeit hast!"
+        },
+        {
+          "id": "b",
+          "text": "Ich habe eine gute Nachricht: Ich habe die Prüfung bestanden!"
+        },
+        {
+          "id": "c",
+          "text": "Ich freue mich schon sehr auf deine Antwort."
+        },
+        {
+          "id": "d",
+          "text": "Wie geht es dir? Bei mir ist viel passiert."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Ich habe eine gute Nachricht: Ich habe die Prüfung bestanden!** = I have good news: I passed the exam!\n\n*Example:* Ich habe eine gute Nachricht: Ich habe die Prüfung bestanden!\nI have good news: I passed the exam!"
+    },
+    {
+      "id": "tb1-u28-l10-informal-e-mails-1-ex05",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Wie geht es dir? Bei mir ist viel passiert.",
+      "tiles": [
+        "A",
+        "been",
+        "week",
+        "are",
+        "How",
+        "happened",
+        "lot",
+        "up",
+        "you",
+        "here",
+        "has"
+      ],
+      "answers": [
+        "How are you? A lot has happened here."
+      ],
+      "explanation": "**Wie geht es dir? Bei mir ist viel passiert.** = How are you? A lot has happened here."
+    },
+    {
+      "id": "tb1-u28-l10-informal-e-mails-1-ex06",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means „I would like to visit you soon.“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Es tut mir leid, dass ich mich so lange nicht gemeldet habe."
+        },
+        {
+          "id": "b",
+          "text": "Vielleicht können wir das nächste Woche nachholen."
+        },
+        {
+          "id": "c",
+          "text": "Wie geht es dir? Bei mir ist viel passiert."
+        },
+        {
+          "id": "d",
+          "text": "Ich würde dich gern bald besuchen."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**Ich würde dich gern bald besuchen.** = I would like to visit you soon.\n\n*Example:* Ich würde dich gern bald besuchen.\nI would like to visit you soon."
+    },
+    {
+      "id": "tb1-u28-l10-informal-e-mails-1-ex07",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I have good news: I passed the exam!",
+      "tiles": [
+        "wenn",
+        "eine",
+        "bestanden",
+        "Nachricht",
+        "Ich",
+        "mir",
+        "gute",
+        "Ich",
+        "habe",
+        "die",
+        "habe",
+        "klappt",
+        "Prüfung"
+      ],
+      "answers": [
+        "Ich habe eine gute Nachricht: Ich habe die Prüfung bestanden!"
+      ],
+      "explanation": "**Ich habe eine gute Nachricht: Ich habe die Prüfung bestanden!** = I have good news: I passed the exam!"
+    },
+    {
+      "id": "tb1-u28-l10-informal-e-mails-1-ex08",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means „Can you let me know briefly whether that works?“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Kannst du mir kurz Bescheid geben, ob das klappt?"
+        },
+        {
+          "id": "b",
+          "text": "Melde dich, wenn du Zeit hast!"
+        },
+        {
+          "id": "c",
+          "text": "Vielleicht können wir das nächste Woche nachholen."
+        },
+        {
+          "id": "d",
+          "text": "Ich würde dich gern bald besuchen."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Kannst du mir kurz Bescheid geben, ob das klappt?** = Can you let me know briefly whether that works?\n\n*Example:* Kannst du mir kurz Bescheid geben, ob das klappt?\nCan you let me know briefly whether that works?"
+    },
+    {
+      "id": "tb1-u28-l10-informal-e-mails-1-ex09",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u28-l10-informal-e-mails-1-4.mp3"
+      },
+      "tiles": [
+        "Bei",
+        "bald",
+        "dich",
+        "würde",
+        "Ich",
+        "besuchen",
+        "gern",
+        "habe",
+        "nächste"
+      ],
+      "answers": [
+        "Ich würde dich gern bald besuchen."
+      ],
+      "explanation": "Ich würde dich gern bald besuchen.\n*I would like to visit you soon.*\n\n**Ich würde dich gern bald besuchen.** = I would like to visit you soon."
+    },
+    {
+      "id": "tb1-u28-l10-informal-e-mails-1-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Kannst du mir kurz Bescheid geben, ob das klappt?",
+      "tiles": [
+        "works",
+        "know",
+        "me",
+        "let",
+        "whether",
+        "that",
+        "I'm",
+        "passed",
+        "briefly",
+        "touch",
+        "Can",
+        "you"
+      ],
+      "answers": [
+        "Can you let me know briefly whether that works?"
+      ],
+      "explanation": "**Kannst du mir kurz Bescheid geben, ob das klappt?** = Can you let me know briefly whether that works?"
+    }
+  ]
+}

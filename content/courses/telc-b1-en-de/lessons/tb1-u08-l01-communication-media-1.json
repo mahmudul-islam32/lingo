@@ -1,0 +1,280 @@
+{
+  "id": "tb1-u08-l01-communication-media-1",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u08",
+  "title": "Communication & Media 1",
+  "tip": "Theme: Kommunikation & Medien (A2)",
+  "exercises": [
+    {
+      "id": "tb1-u08-l01-communication-media-1-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "das Handy",
+          "known": "mobile phone"
+        },
+        {
+          "id": "p2",
+          "learning": "das Telefon",
+          "known": "telephone"
+        },
+        {
+          "id": "p3",
+          "learning": "die Nachricht",
+          "known": "message / news"
+        },
+        {
+          "id": "p4",
+          "learning": "die E-Mail",
+          "known": "email"
+        },
+        {
+          "id": "p5",
+          "learning": "der Computer",
+          "known": "computer"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u08-l01-communication-media-1-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „mobile phone“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "das Programm, die Programme"
+        },
+        {
+          "id": "b",
+          "text": "die Zeitung, die Zeitungen"
+        },
+        {
+          "id": "c",
+          "text": "das Telefon, die Telefone"
+        },
+        {
+          "id": "d",
+          "text": "das Handy, die Handys"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**das Handy** = mobile phone\n*Plural: die Handys*\n\n*Example:* Ich habe mein Handy im Bus vergessen.\nI left my mobile phone on the bus."
+    },
+    {
+      "id": "tb1-u08-l01-communication-media-1-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „telephone“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "das Handy, die Handys"
+        },
+        {
+          "id": "b",
+          "text": "die Sendung, die Sendungen"
+        },
+        {
+          "id": "c",
+          "text": "das Telefon, die Telefone"
+        },
+        {
+          "id": "d",
+          "text": "die Zeitung, die Zeitungen"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**das Telefon** = telephone\n*Plural: die Telefone*\n\n*Example:* Das Telefon klingelt, kannst du bitte rangehen?\nThe phone is ringing, can you answer it, please?"
+    },
+    {
+      "id": "tb1-u08-l01-communication-media-1-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Ich habe mein Handy im Bus vergessen.",
+      "tiles": [
+        "my",
+        "mobile",
+        "lots",
+        "left",
+        "you",
+        "phone",
+        "on",
+        "I",
+        "bus",
+        "the",
+        "We"
+      ],
+      "answers": [
+        "I left my mobile phone on the bus."
+      ],
+      "explanation": "**das Handy** = mobile phone\n*Plural: die Handys*"
+    },
+    {
+      "id": "tb1-u08-l01-communication-media-1-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „message / news“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "das Telefon, die Telefone"
+        },
+        {
+          "id": "b",
+          "text": "das Handy, die Handys"
+        },
+        {
+          "id": "c",
+          "text": "die Sendung, die Sendungen"
+        },
+        {
+          "id": "d",
+          "text": "die Nachricht, die Nachrichten"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**die Nachricht** = message / news\n*Plural: die Nachrichten*\n\n*Example:* Ich habe dir gestern eine Nachricht geschrieben.\nI sent you a message yesterday."
+    },
+    {
+      "id": "tb1-u08-l01-communication-media-1-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "The phone is ringing, can you answer it, please?",
+      "tiles": [
+        "kannst",
+        "bitte",
+        "rangehen",
+        "du",
+        "Tag",
+        "Computer",
+        "Telefon",
+        "Wohnung",
+        "Das",
+        "klingelt"
+      ],
+      "answers": [
+        "Das Telefon klingelt, kannst du bitte rangehen?"
+      ],
+      "explanation": "**das Telefon** = telephone\n*Plural: die Telefone*"
+    },
+    {
+      "id": "tb1-u08-l01-communication-media-1-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „email“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "das Telefon, die Telefone"
+        },
+        {
+          "id": "b",
+          "text": "das Internet"
+        },
+        {
+          "id": "c",
+          "text": "die E-Mail, die E-Mails"
+        },
+        {
+          "id": "d",
+          "text": "die Sendung, die Sendungen"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**die E-Mail** = email\n*Plural: die E-Mails*\n\n*Example:* Mein Chef schreibt mir jeden Morgen viele E-Mails.\nMy boss sends me lots of emails every morning."
+    },
+    {
+      "id": "tb1-u08-l01-communication-media-1-ex08",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u08-l01-communication-media-1-3.mp3"
+      },
+      "tiles": [
+        "dir",
+        "habe",
+        "Nachricht",
+        "viele",
+        "geschrieben",
+        "Ich",
+        "mache",
+        "Sonntag",
+        "eine",
+        "gestern"
+      ],
+      "answers": [
+        "Ich habe dir gestern eine Nachricht geschrieben."
+      ],
+      "explanation": "Ich habe dir gestern eine Nachricht geschrieben.\n*I sent you a message yesterday.*\n\n**die Nachricht** = message / news\n*Plural: die Nachrichten*"
+    },
+    {
+      "id": "tb1-u08-l01-communication-media-1-ex09",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „computer“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Werbung"
+        },
+        {
+          "id": "b",
+          "text": "die Webseite, die Webseiten"
+        },
+        {
+          "id": "c",
+          "text": "der Computer, die Computer"
+        },
+        {
+          "id": "d",
+          "text": "die Nachricht, die Nachrichten"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**der Computer** = computer\n*Plural: die Computer*\n\n*Example:* Mein Computer ist kaputt, ich brauche einen neuen.\nMy computer is broken, I need a new one."
+    },
+    {
+      "id": "tb1-u08-l01-communication-media-1-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Mein Chef schreibt mir jeden Morgen viele E-Mails.",
+      "tiles": [
+        "emails",
+        "and",
+        "this",
+        "boss",
+        "sends",
+        "morning",
+        "My",
+        "lots",
+        "every",
+        "of",
+        "me",
+        "new"
+      ],
+      "answers": [
+        "My boss sends me lots of emails every morning."
+      ],
+      "explanation": "**die E-Mail** = email\n*Plural: die E-Mails*"
+    },
+    {
+      "id": "tb1-u08-l01-communication-media-1-ex11",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "My computer is broken, I need a new one.",
+      "tiles": [
+        "brauche",
+        "Mein",
+        "Sie",
+        "Chef",
+        "auf",
+        "Computer",
+        "einen",
+        "neuen",
+        "ich",
+        "ist",
+        "kaputt"
+      ],
+      "answers": [
+        "Mein Computer ist kaputt, ich brauche einen neuen."
+      ],
+      "explanation": "**der Computer** = computer\n*Plural: die Computer*"
+    }
+  ]
+}

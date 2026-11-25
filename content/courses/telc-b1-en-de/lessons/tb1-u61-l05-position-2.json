@@ -1,0 +1,124 @@
+{
+  "id": "tb1-u61-l05-position-2",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u61",
+  "title": "Connectors with inversion or normal order (2)",
+  "exercises": [
+    {
+      "id": "tb1-u61-l05-position-2-ex01",
+      "type": "explain",
+      "title": "nicht … sondern (Korrektur)",
+      "body": "correction after a negation.\n\n**nicht** A, **sondern** B.\nBsp: nicht heute, sondern morgen."
+    },
+    {
+      "id": "tb1-u61-l05-position-2-ex02",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/w-rule-sondern.mp3"
+      },
+      "tiles": [
+        "wenn",
+        "sondern",
+        "deshalb",
+        "nicht",
+        "heute",
+        "obwohl",
+        "morgen"
+      ],
+      "answers": [
+        "nicht heute, sondern morgen."
+      ],
+      "explanation": "**nicht … sondern (Korrektur)**: correction after a negation."
+    },
+    {
+      "id": "tb1-u61-l05-position-2-ex03",
+      "type": "explain",
+      "title": "nicht nur … sondern auch",
+      "body": "two positive points.\n\n**nicht nur** A, **sondern auch** B.\nBsp: nicht nur Deutsch, sondern auch Englisch."
+    },
+    {
+      "id": "tb1-u61-l05-position-2-ex04",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/w-rule-sondernauch.mp3"
+      },
+      "tiles": [
+        "Deutsch",
+        "deshalb",
+        "auch",
+        "nicht",
+        "sondern",
+        "weil",
+        "nur",
+        "Englisch",
+        "damit"
+      ],
+      "answers": [
+        "nicht nur Deutsch, sondern auch Englisch."
+      ],
+      "explanation": "**nicht nur … sondern auch**: two positive points."
+    },
+    {
+      "id": "tb1-u61-l05-position-2-ex05",
+      "type": "explain",
+      "title": "zwar … aber (Zugeständnis)",
+      "body": "admittedly A, but B (B matters more).\n\n**zwar** A, **aber** B. (B ist der wichtigere Punkt)\nBsp: zwar teuer, aber sehr schön."
+    },
+    {
+      "id": "tb1-u61-l05-position-2-ex06",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/w-rule-zwaraber.mp3"
+      },
+      "tiles": [
+        "sehr",
+        "deshalb",
+        "teuer",
+        "zwar",
+        "denn",
+        "obwohl",
+        "aber",
+        "schön"
+      ],
+      "answers": [
+        "zwar teuer, aber sehr schön."
+      ],
+      "explanation": "**zwar … aber (Zugeständnis)**: admittedly A, but B (B matters more)."
+    },
+    {
+      "id": "tb1-u61-l05-position-2-ex07",
+      "type": "explain",
+      "title": "sonst (Warnung)",
+      "body": "otherwise; position 1 → inversion.\n\n…, **sonst** + **Verb** + Subjekt. (= wenn nicht)\nBsp: Beeil dich, sonst **verpassen wir** den Bus."
+    },
+    {
+      "id": "tb1-u61-l05-position-2-ex08",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/w-rule-sonst.mp3"
+      },
+      "tiles": [
+        "obwohl",
+        "verpassen",
+        "wir",
+        "wenn",
+        "sonst",
+        "Bus",
+        "trotzdem",
+        "dich",
+        "den",
+        "Beeil"
+      ],
+      "answers": [
+        "Beeil dich, sonst verpassen wir den Bus."
+      ],
+      "explanation": "**sonst (Warnung)**: otherwise; position 1 → inversion."
+    },
+    {
+      "id": "tb1-u61-l05-position-2-ex09",
+      "type": "explain",
+      "title": "Konnektor nach Bedeutung wählen",
+      "body": "pick the connector by its meaning.\n\n**Grund** → weil, denn · **Folge** → deshalb · **Gegengrund** → obwohl · **Ziel** → damit · **Bedingung** → wenn · **Korrektur** → sondern"
+    }
+  ]
+}

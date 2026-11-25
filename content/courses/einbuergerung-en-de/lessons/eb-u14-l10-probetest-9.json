@@ -1,0 +1,885 @@
+{
+  "id": "eb-u14-l10-probetest-9",
+  "courseId": "einbuergerung-en-de",
+  "unitId": "eb-u14",
+  "title": "Mock test 9 (Probetest 9)",
+  "tip": "Real format: 30 general + 3 Niedersachsen questions. Allow 60 minutes; 17 correct to pass, aim for 28+.",
+  "exercises": [
+    {
+      "id": "eb-u14-l10-probetest-9-ex01",
+      "type": "choice",
+      "title": "Frage 25 · Block 1",
+      "prompt": "Was ist kein Bundesland der Bundesrepublik Deutschland?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Nordrhein-Westfalen"
+        },
+        {
+          "id": "b",
+          "text": "Elsass-Lothringen"
+        },
+        {
+          "id": "c",
+          "text": "Mecklenburg-Vorpommern"
+        },
+        {
+          "id": "d",
+          "text": "Sachsen-Anhalt"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Correct answer:** Elsass-Lothringen\n\n**Elsass-Lothringen** (Alsace-Lorraine) is in **France**. German-ruled 1871–1918, which is exactly why it works as a trap.\n\nNRW, Mecklenburg-Vorpommern, and Sachsen-Anhalt are all real Länder. If a name sounds historical-imperial (Elsass, Schlesien, Ostpreußen), it's a distractor, those regions are French or Polish/Russian today.\n\n## Auf Deutsch\n\nElsass-Lothringen liegt in Frankreich, kein deutsches Bundesland."
+    },
+    {
+      "id": "eb-u14-l10-probetest-9-ex02",
+      "type": "choice",
+      "title": "Frage 39 · Block 2",
+      "prompt": "Was hat jedes deutsche Bundesland?",
+      "options": [
+        {
+          "id": "a",
+          "text": "einen eigenen Außenminister/eine eigene Außenministerin"
+        },
+        {
+          "id": "b",
+          "text": "eine eigene Währung"
+        },
+        {
+          "id": "c",
+          "text": "eine eigene Armee"
+        },
+        {
+          "id": "d",
+          "text": "eine eigene Regierung"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**Correct answer:** eine eigene Regierung\n\nEvery Land has its own government (Landesregierung), parliament (Landtag), and constitution.\n\nForeign affairs, currency, and the military are **exclusively federal**, the trio the Länder conspicuously lack. →NDS-10 tests exactly this: Niedersachsen has no foreign minister. Federalism = shared power, not 16 mini-countries.\n\n## Auf Deutsch\n\nJedes Bundesland hat eine eigene Regierung, aber keinen eigenen Außenminister."
+    },
+    {
+      "id": "eb-u14-l10-probetest-9-ex03",
+      "type": "choice",
+      "title": "Frage 41 · Block 2",
+      "prompt": "Warum gibt es in einer Demokratie mehr als eine Partei?",
+      "options": [
+        {
+          "id": "a",
+          "text": "weil dadurch die unterschiedlichen Meinungen der Bürger und Bürgerinnen vertreten werden"
+        },
+        {
+          "id": "b",
+          "text": "damit Bestechung in der Politik begrenzt wird"
+        },
+        {
+          "id": "c",
+          "text": "um politische Demonstrationen zu verhindern"
+        },
+        {
+          "id": "d",
+          "text": "um wirtschaftlichen Wettbewerb anzuregen"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Correct answer:** weil dadurch die unterschiedlichen Meinungen der Bürger und Bürgerinnen vertreten werden\n\n**Pluralismus**: society disagrees, so parliament must too, multiple parties translate diverse opinions into representation and real choice at elections. One-party rule (NSDAP, SED) is the negative proof: without alternatives, elections are theater (→Q159).\n\nB, C, D attach parties to the wrong goals (corruption control is done by law and courts; demonstrations are a *right*; economic competition is the market's job).\n\n## Auf Deutsch\n\nMehrere Parteien vertreten die unterschiedlichen Meinungen der Bürger."
+    },
+    {
+      "id": "eb-u14-l10-probetest-9-ex04",
+      "type": "choice",
+      "title": "Frage 42 · Block 2",
+      "prompt": "Wer beschließt in Deutschland ein neues Gesetz?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Regierung"
+        },
+        {
+          "id": "b",
+          "text": "das Parlament"
+        },
+        {
+          "id": "c",
+          "text": "die Gerichte"
+        },
+        {
+          "id": "d",
+          "text": "die Polizei"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Correct answer:** das Parlament\n\nLaws are passed by **parliament** (Bundestag, with Bundesrat participation), the legislative monopoly.\n\nThe government *proposes* most bills and later *executes* them, but doesn't enact them. Courts apply and review laws (→Q3); police enforce them (→Q148). This clean assignment IS Gewaltenteilung, say it that crisply in your interview.\n\n## Auf Deutsch\n\nGesetze beschließt das Parlament, nicht die Gerichte und nicht die Regierung allein."
+    },
+    {
+      "id": "eb-u14-l10-probetest-9-ex05",
+      "type": "choice",
+      "title": "Frage 57 · Block 2",
+      "prompt": "Wer wird meistens zum Präsidenten/zur Präsidentin des Deutschen Bundestages gewählt?",
+      "options": [
+        {
+          "id": "a",
+          "text": "der/die älteste Abgeordnete im Parlament"
+        },
+        {
+          "id": "b",
+          "text": "der Ministerpräsident/die Ministerpräsidentin des größten Bundeslandes"
+        },
+        {
+          "id": "c",
+          "text": "ein Abgeordneter/eine Abgeordnete der stärksten Fraktion"
+        },
+        {
+          "id": "d",
+          "text": "ein ehemaliger Bundeskanzler/eine ehemalige Bundeskanzlerin"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**Correct answer:** ein Abgeordneter/eine Abgeordnete der stärksten Fraktion\n\nBy firm convention, the Bundestagspräsident, formally the second-highest office in the state, after the Bundespräsident! comes from the **largest parliamentary group**, regardless of who governs.\n\nThe *oldest* MP merely opens the first session ceremonially (Alterspräsident); B and D confuse separate careers. ⏰-adjacent: the *person* changes; the *rule* (\"stärkste Fraktion\") is what's tested.\n\n## Auf Deutsch\n\nDer Bundestagspräsident kommt traditionell aus der stärksten Fraktion."
+    },
+    {
+      "id": "eb-u14-l10-probetest-9-ex06",
+      "type": "choice",
+      "title": "Frage 59 · Block 2",
+      "prompt": "Vor wie vielen Jahren gab es erstmals eine jüdische Gemeinde auf dem Gebiet des heutigen Deutschlands?",
+      "options": [
+        {
+          "id": "a",
+          "text": "vor etwa 300 Jahren"
+        },
+        {
+          "id": "b",
+          "text": "vor etwa 700 Jahren"
+        },
+        {
+          "id": "c",
+          "text": "vor etwa 1150 Jahren"
+        },
+        {
+          "id": "d",
+          "text": "vor etwa 1700 Jahren"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**Correct answer:** vor etwa 1700 Jahren\n\nA Roman decree of **321 CE** mentioning Cologne's Jewish community is the first record, ~1,700 years of Jewish life in Germany (the 2021 anniversary year prompted this question's addition). The point BAMF wants made: Jewish history in Germany is not a footnote that begins and ends with the Holocaust, it's older than Germany itself.\n\n## Auf Deutsch\n\nJüdisches Leben in Deutschland gibt es seit etwa 1700 Jahren (seit ca. 321, Köln)."
+    },
+    {
+      "id": "eb-u14-l10-probetest-9-ex07",
+      "type": "choice",
+      "title": "Frage 63 · Block 3",
+      "prompt": "Was gehört in Deutschland nicht zur Exekutive?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Polizei"
+        },
+        {
+          "id": "b",
+          "text": "die Gerichte"
+        },
+        {
+          "id": "c",
+          "text": "das Finanzamt"
+        },
+        {
+          "id": "d",
+          "text": "die Ministerien"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Correct answer:** die Gerichte\n\nCourts = **Judikative**, strictly separate, that's the guarantee of independent judgment (judges answer to law alone, Art. 97 GG).\n\nPolice, tax offices, ministries all *execute* law = Exekutive. Pattern: if it enforces or administers, executive; if it judges disputes, judiciary; if it makes law, legislative (→Q32, Q54, Q60).\n\n## Auf Deutsch\n\nDie Gerichte gehören zur Judikative, nicht zur Exekutive."
+    },
+    {
+      "id": "eb-u14-l10-probetest-9-ex08",
+      "type": "choice",
+      "title": "Frage 67 · Block 3",
+      "prompt": "Was ist in Deutschland vor allem eine Aufgabe der Bundesländer?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Verteidigungspolitik"
+        },
+        {
+          "id": "b",
+          "text": "Außenpolitik"
+        },
+        {
+          "id": "c",
+          "text": "Wirtschaftspolitik"
+        },
+        {
+          "id": "d",
+          "text": "Schulpolitik"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**Correct answer:** Schulpolitik\n\n→Q49. Defense and foreign policy are exclusively federal; economic policy is shared; **schools belong to the Länder**. Triple-tested (Q49, Q67, Q68) plus NDS-10's mirror image (no Land foreign minister). BAMF is telling you what to remember about federalism.\n\n## Auf Deutsch\n\nSchulpolitik ist vor allem Aufgabe der Bundesländer."
+    },
+    {
+      "id": "eb-u14-l10-probetest-9-ex09",
+      "type": "choice",
+      "title": "Frage 74 · Block 3",
+      "prompt": "Wie heißt das Parlament für ganz Deutschland?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Bundesversammlung"
+        },
+        {
+          "id": "b",
+          "text": "Volkskammer"
+        },
+        {
+          "id": "c",
+          "text": "Bundestag"
+        },
+        {
+          "id": "d",
+          "text": "Bundesgerichtshof"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**Correct answer:** Bundestag\n\nThe **Bundestag** is Germany's parliament.\n\nThe **Bundesversammlung** exists only to elect the president (→Q86); the **Volkskammer** was the DDR's (pseudo-)parliament, a history trap; the **Bundesgerichtshof** is the supreme civil/criminal court in Karlsruhe. Four institutions, one parliament.\n\n## Auf Deutsch\n\nDas Parlament für ganz Deutschland heißt Bundestag."
+    },
+    {
+      "id": "eb-u14-l10-probetest-9-ex10",
+      "type": "choice",
+      "title": "Frage 80 · Block 3",
+      "prompt": "Welches Gericht in Deutschland ist zuständig für die Auslegung des Grundgesetzes?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Oberlandesgericht"
+        },
+        {
+          "id": "b",
+          "text": "Amtsgericht"
+        },
+        {
+          "id": "c",
+          "text": "Bundesverfassungsgericht"
+        },
+        {
+          "id": "d",
+          "text": "Verwaltungsgericht"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**Correct answer:** Bundesverfassungsgericht\n\nThe **Bundesverfassungsgericht** in Karlsruhe, final word on what the constitution means. It can void laws, ban parties (→Q20, Q43), and hear anyone's **Verfassungsbeschwerde** (constitutional complaint), yes, any resident whose fundamental rights are violated can take the state to Karlsruhe.\n\nAmtsgericht = local trial court; Oberlandesgericht = regional appeals; Verwaltungsgericht = disputes with authorities (your visa appeals live there). Specialized court system →Q136.\n\n## Auf Deutsch\n\nÜber die Auslegung des Grundgesetzes wacht das Bundesverfassungsgericht in Karlsruhe."
+    },
+    {
+      "id": "eb-u14-l10-probetest-9-ex11",
+      "type": "choice",
+      "title": "Frage 95 · Block 4",
+      "prompt": "Was gilt für die meisten Kinder in Deutschland?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Wahlpflicht"
+        },
+        {
+          "id": "b",
+          "text": "Schulpflicht"
+        },
+        {
+          "id": "c",
+          "text": "Schweigepflicht"
+        },
+        {
+          "id": "d",
+          "text": "Religionspflicht"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Correct answer:** Schulpflicht\n\n**Schulpflicht**, compulsory school attendance (roughly ages 6–18 including vocational track; the exact years differ by Land). It's enforced law, not parental choice: homeschooling is essentially illegal in Germany, unlike in many countries. Relevant to you from ~2030!\n\nNo compulsory voting (→Q114), no religious duty (→Q33); Schweigepflicht is professional confidentiality (doctors, lawyers), nothing to do with children.\n\n## Auf Deutsch\n\nFür Kinder in Deutschland gilt die Schulpflicht."
+    },
+    {
+      "id": "eb-u14-l10-probetest-9-ex12",
+      "type": "choice",
+      "title": "Frage 101 · Block 5",
+      "prompt": "Gewerkschaften sind Interessenverbände der …",
+      "options": [
+        {
+          "id": "a",
+          "text": "Jugendlichen"
+        },
+        {
+          "id": "b",
+          "text": "Arbeitnehmer und Arbeitnehmerinnen"
+        },
+        {
+          "id": "c",
+          "text": "Rentner und Rentnerinnen"
+        },
+        {
+          "id": "d",
+          "text": "Arbeitgeber und Arbeitgeberinnen"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Correct answer:** Arbeitnehmer und Arbeitnehmerinnen\n\n**Gewerkschaften** (unions. IG Metall, ver.di …) organize **employees**: collective bargaining (Tarifverträge), strikes (a constitutional right, Art. 9(3) GG), workplace protection.\n\nEmployers (D) have their own associations (Arbeitgeberverbände), the union's negotiating *counterpart*, the classic **Sozialpartner** pair. Retested at Q135; the Betriebsrat (works council) is the related in-company body →Q286.\n\n## Auf Deutsch\n\nGewerkschaften vertreten die Interessen der Arbeitnehmer."
+    },
+    {
+      "id": "eb-u14-l10-probetest-9-ex13",
+      "type": "choice",
+      "title": "Frage 122 · Block 5",
+      "prompt": "Welchem Grundsatz unterliegen Wahlen in Deutschland? Wahlen in Deutschland sind …",
+      "options": [
+        {
+          "id": "a",
+          "text": "frei, gleich, geheim"
+        },
+        {
+          "id": "b",
+          "text": "offen, sicher, frei"
+        },
+        {
+          "id": "c",
+          "text": "geschlossen, gleich, sicher"
+        },
+        {
+          "id": "d",
+          "text": "sicher, offen, freiwillig"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Correct answer:** frei, gleich, geheim\n\nThe option compresses the five principles to the three most cited: **frei, gleich, geheim** (full set: + allgemein, unmittelbar).\n\n\"offen\" (open) is the giveaway wrong word, open voting (raising hands, public lists) is precisely what *geheim* forbids; the DDR's pseudo-elections were \"open\" in the worst sense: voting booths existed but using them marked you as suspect.\n\n## Auf Deutsch\n\nDie Wahlgrundsätze: allgemein, unmittelbar, frei, gleich, geheim."
+    },
+    {
+      "id": "eb-u14-l10-probetest-9-ex14",
+      "type": "choice",
+      "title": "Frage 130 · Block 5",
+      "prompt": "Welcher Stimmzettel wäre bei einer Bundestagswahl gültig?",
+      "figure": {
+        "images": [
+          {
+            "src": "/images/eb/q130.jpg",
+            "alt": "Four sample Bundestag ballots, numbered 1–4, each with a left column (Erststimme) and a right column (Zweitstimme). 1: one cross left, one right. 2: none left, two right. 3: two left, none right. 4: three left, none right."
+          }
+        ],
+        "credit": "Bilder: BAMF, Gesamtfragenkatalog „Leben in Deutschland“ (Stand 07.05.2025)"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": "Stimmzettel 1"
+        },
+        {
+          "id": "b",
+          "text": "Stimmzettel 2"
+        },
+        {
+          "id": "c",
+          "text": "Stimmzettel 3"
+        },
+        {
+          "id": "d",
+          "text": "Stimmzettel 4"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Correct answer:** Stimmzettel 1\n\n*Picture question (Bildfrage):* the pictures above are the ones from the official question catalogue.\n\nCorrect: the ballot with exactly ONE cross in the left column (Erststimme) and ONE cross in the right column (Zweitstimme).\n\n**The ballots:** 1 = one cross per column (valid) · 2 = two crosses in the Zweitstimme column · 3 = two crosses in the Erststimme column · 4 = three crosses in the Erststimme column.\n\nValidity rule: one clear mark per column, no extra writing, no ambiguity. Two crosses in one column spoils that vote; slogans or signatures can spoil the whole ballot. The columns: left = your Wahlkreis candidate, right = a party's Land list (→Q93). Practice this image in the Online-Testcenter, it's instantly obvious once seen.\n\n## Auf Deutsch\n\nGültig ist der Stimmzettel mit genau EINEM Kreuz pro Spalte (Erst- und Zweitstimme)."
+    },
+    {
+      "id": "eb-u14-l10-probetest-9-ex15",
+      "type": "choice",
+      "title": "Frage 155 · Block 7",
+      "prompt": "In welchem Zeitraum herrschte in Deutschland der Nationalsozialismus?",
+      "options": [
+        {
+          "id": "a",
+          "text": "1918–1933"
+        },
+        {
+          "id": "b",
+          "text": "1933–1945"
+        },
+        {
+          "id": "c",
+          "text": "1945–1949"
+        },
+        {
+          "id": "d",
+          "text": "1949–1961"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Correct answer:** 1933–1945\n\n→Q152 retested. The neighboring periods have names too: 1918–33 **Weimarer Republik** (first democracy), 1945–49 **Besatzungszeit** (occupation), 1949– **Bundesrepublik**. Knowing the sequence Weimar → NS → occupation → two Germanys → unity is the skeleton of the entire history section.\n\n## Auf Deutsch\n\nDer Nationalsozialismus herrschte 1933–1945."
+    },
+    {
+      "id": "eb-u14-l10-probetest-9-ex16",
+      "type": "choice",
+      "title": "Frage 156 · Block 7",
+      "prompt": "In welchem Jahr wurde Hitler Reichskanzler?",
+      "options": [
+        {
+          "id": "a",
+          "text": "1923"
+        },
+        {
+          "id": "b",
+          "text": "1927"
+        },
+        {
+          "id": "c",
+          "text": "1933"
+        },
+        {
+          "id": "d",
+          "text": "1936"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**Correct answer:** 1933\n\n**30 January 1933**, appointed (not elected!) Reichskanzler by President Hindenburg, legally, within Weimar's rules; the dictatorship was then built *from inside* the system in months (Reichstag fire decree, Ermächtigungsgesetz).\n\n1923 was his failed Munich putsch (jail, wrote *Mein Kampf*). The lesson the Grundgesetz drew: democracies can be murdered legally, hence eternity clause, constructive no-confidence, party bans (→Q12, Q20, Q127).\n\n## Auf Deutsch\n\nHitler wurde 1933 Reichskanzler."
+    },
+    {
+      "id": "eb-u14-l10-probetest-9-ex17",
+      "type": "choice",
+      "title": "Frage 157 · Block 7",
+      "prompt": "Die Nationalsozialisten mit Adolf Hitler errichteten 1933 in Deutschland …",
+      "options": [
+        {
+          "id": "a",
+          "text": "eine Diktatur"
+        },
+        {
+          "id": "b",
+          "text": "einen demokratischen Staat"
+        },
+        {
+          "id": "c",
+          "text": "eine Monarchie"
+        },
+        {
+          "id": "d",
+          "text": "einen Rechtsstaat"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Correct answer:** eine Diktatur\n\nWithin months: all other parties banned (→Q170), unions crushed, press centralized, political enemies in the first camps (Dachau opened March 1933). Everything a Rechtsstaat is (→Q3), inverted.\n\n## Auf Deutsch\n\n1933 errichteten die Nationalsozialisten eine Diktatur."
+    },
+    {
+      "id": "eb-u14-l10-probetest-9-ex18",
+      "type": "choice",
+      "title": "Frage 169 · Block 7",
+      "prompt": "Wann wurde die Bundesrepublik Deutschland gegründet?",
+      "options": [
+        {
+          "id": "a",
+          "text": "1939"
+        },
+        {
+          "id": "b",
+          "text": "1945"
+        },
+        {
+          "id": "c",
+          "text": "1949"
+        },
+        {
+          "id": "d",
+          "text": "1951"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**Correct answer:** 1949\n\n**23 May 1949**, the Grundgesetz enters into force; the BRD exists. Not 1945: between defeat and founding lie four years of occupation with no German state at all (→Q64's option A). The DDR followed in October 1949 (→Q174), the double founding sealing the division.\n\n## Auf Deutsch\n\nDie Bundesrepublik wurde 1949 gegründet."
+    },
+    {
+      "id": "eb-u14-l10-probetest-9-ex19",
+      "type": "choice",
+      "title": "Frage 177 · Block 7",
+      "prompt": "Welche deutsche Stadt wurde nach dem Zweiten Weltkrieg in vier Sektoren aufgeteilt?",
+      "options": [
+        {
+          "id": "a",
+          "text": "München"
+        },
+        {
+          "id": "b",
+          "text": "Berlin"
+        },
+        {
+          "id": "c",
+          "text": "Frankfurt am Main"
+        },
+        {
+          "id": "d",
+          "text": "Bonn"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Correct answer:** Berlin\n\n**Berlin**, four sectors mirroring the four zones, though the city lay deep inside Soviet territory. That geographic absurdity made West Berlin the Cold War's most exposed outpost: blockaded 1948 (→Q178), walled in 1961 (→Q188), and the stage where the Cold War visibly ended in 1989.\n\n## Auf Deutsch\n\nBerlin wurde in vier Sektoren aufgeteilt."
+    },
+    {
+      "id": "eb-u14-l10-probetest-9-ex20",
+      "type": "choice",
+      "title": "Frage 185 · Block 8",
+      "prompt": "Wofür stand der Ausdruck „Eiserner Vorhang\"? Für die Abschottung …",
+      "options": [
+        {
+          "id": "a",
+          "text": "des Warschauer Pakts gegen den Westen"
+        },
+        {
+          "id": "b",
+          "text": "Norddeutschlands gegen Süddeutschland"
+        },
+        {
+          "id": "c",
+          "text": "Deutschlands gegen seine Nachbarländer"
+        },
+        {
+          "id": "d",
+          "text": "der EU gegen Osteuropa"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Correct answer:** des Warschauer Pakts gegen den Westen\n\nChurchill's 1946 image: an **Iron Curtain** \"from Stettin to Trieste\", the militarized seal between the Soviet bloc and the West. Germany's inner border was its deadliest stretch: minefields, spring-guns, shoot-to-kill orders, aimed, like the Wall, at the bloc's *own* citizens trying to leave.\n\n## Auf Deutsch\n\n„Eiserner Vorhang“ = die Abschottung des Ostblocks (Warschauer Pakt) gegen den Westen.\n\n**Vocabulary (Wortschatz):** die Abschottung = sealing-off."
+    },
+    {
+      "id": "eb-u14-l10-probetest-9-ex21",
+      "type": "choice",
+      "title": "Frage 197 · Block 8",
+      "prompt": "Welches heutige deutsche Bundesland gehörte früher zum Gebiet der DDR?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Thüringen"
+        },
+        {
+          "id": "b",
+          "text": "Hessen"
+        },
+        {
+          "id": "c",
+          "text": "Niedersachsen"
+        },
+        {
+          "id": "d",
+          "text": "Bayern"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Correct answer:** Thüringen\n\n**Thüringen** (Erfurt, Weimar, yes, *that* Weimar: the 1919 constitution was written in a DDR-to-be town; history layers). Series →Q192.\n\n## Auf Deutsch\n\nThüringen gehörte zur DDR."
+    },
+    {
+      "id": "eb-u14-l10-probetest-9-ex22",
+      "type": "choice",
+      "title": "Frage 199 · Block 8",
+      "prompt": "Was bedeutete die Abkürzung „Stasi\" in der DDR?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ministerium für Staatssicherheit"
+        },
+        {
+          "id": "b",
+          "text": "Staatliche Statistik"
+        },
+        {
+          "id": "c",
+          "text": "Staatsanwaltschaft"
+        },
+        {
+          "id": "d",
+          "text": "Städtische Sicherheit"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Correct answer:** Ministerium für Staatssicherheit\n\nThe **Stasi**, the DDR's secret police and intelligence service: ~91,000 staff plus ~180,000 informal informants (**IM**) spying on colleagues, friends, spouses. Its files, opened after 1990, let citizens read who betrayed them, a world-unique act of transparency. Contrast with Q148: police bound by law and judges vs. political police above it. THE Rechtsstaat lesson of this block (retested →Q208, Teil 3).\n\n## Auf Deutsch\n\nStasi = Ministerium für Staatssicherheit (Geheimpolizei der DDR)."
+    },
+    {
+      "id": "eb-u14-l10-probetest-9-ex23",
+      "type": "choice",
+      "title": "Frage 202 · Block 9",
+      "prompt": "Zu wem gehörte die DDR im „Kalten Krieg\"?",
+      "options": [
+        {
+          "id": "a",
+          "text": "zu den Westmächten"
+        },
+        {
+          "id": "b",
+          "text": "zum Warschauer Pakt"
+        },
+        {
+          "id": "c",
+          "text": "zur NATO"
+        },
+        {
+          "id": "d",
+          "text": "zu den blockfreien Staaten"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Correct answer:** zum Warschauer Pakt\n\nThe DDR sat in the Soviet camp: **Warschauer Pakt** (military alliance, founded 1955 as NATO's mirror) plus COMECON economically.\n\nNATO/Westmächte was the BRD's side; \"blockfrei\" (non-aligned. India, Yugoslavia) was the third way Germany's two halves never had. One Germany, two alliances, one front line between them, that WAS the Cold War (→Q185).\n\n## Auf Deutsch\n\nDie DDR gehörte im Kalten Krieg zum Warschauer Pakt."
+    },
+    {
+      "id": "eb-u14-l10-probetest-9-ex24",
+      "type": "choice",
+      "title": "Frage 203 · Block 9",
+      "prompt": "Wie hieß das Wirtschaftssystem der DDR?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Marktwirtschaft"
+        },
+        {
+          "id": "b",
+          "text": "Planwirtschaft"
+        },
+        {
+          "id": "c",
+          "text": "soziale Marktwirtschaft"
+        },
+        {
+          "id": "d",
+          "text": "freie Wirtschaft"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Correct answer:** Planwirtschaft\n\n**Planwirtschaft**: the state owned factories (VEB. Volkseigene Betriebe), set five-year plans, fixed prices and production. Result: no competition, chronic shortages (the legendary 10+-year wait for a Trabant), technological lag, a system that finally bankrupted itself.\n\nA/D describe the West generally; C is precisely the BRD's model (→Q50, Q171), the exam's most important economic contrast pair.\n\n## Auf Deutsch\n\nDas Wirtschaftssystem der DDR war die Planwirtschaft, der Staat plante alles."
+    },
+    {
+      "id": "eb-u14-l10-probetest-9-ex25",
+      "type": "choice",
+      "title": "Frage 217 · Block 10",
+      "prompt": "In welchem Zeitraum gab es die Deutsche Demokratische Republik?",
+      "options": [
+        {
+          "id": "a",
+          "text": "1945–1961"
+        },
+        {
+          "id": "b",
+          "text": "1949–1990"
+        },
+        {
+          "id": "c",
+          "text": "1933–1945"
+        },
+        {
+          "id": "d",
+          "text": "1961–1989"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Correct answer:** 1949–1990\n\n**1949–1990**: founded October '49 (→Q174), dissolved into the Federal Republic 03.10.1990 (→Q204). D is the *Wall's* lifespan (1961–89), a tempting off-by-one; the state outlived its wall by eleven months. C is the NS-Zeit; A is occupation-to-Wall.\n\n## Auf Deutsch\n\nDie DDR existierte von 1949 bis 1990."
+    },
+    {
+      "id": "eb-u14-l10-probetest-9-ex26",
+      "type": "choice",
+      "title": "Frage 229 · Block 10",
+      "prompt": "Welches Land ist ein Nachbarland von Deutschland?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Luxemburg"
+        },
+        {
+          "id": "b",
+          "text": "Slowenien"
+        },
+        {
+          "id": "c",
+          "text": "Ungarn"
+        },
+        {
+          "id": "d",
+          "text": "Bulgarien"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Correct answer:** Luxemburg\n\nRound 4: **Luxemburg**, tiny, rich, EU-founding neighbor wedged between Germany, France, Belgium; one of the EU Parliament's three work sites (→Q238). The others sit southeast beyond Austria.\n\n## Auf Deutsch\n\nLuxemburg ist ein Nachbarland (im Westen)."
+    },
+    {
+      "id": "eb-u14-l10-probetest-9-ex27",
+      "type": "choice",
+      "title": "Frage 239 · Block 10",
+      "prompt": "Deutschland war im Jahr 1957 Gründungsmitglied welcher Organisation?",
+      "options": [
+        {
+          "id": "a",
+          "text": "der Europäischen Wirtschaftsgemeinschaft (EWG)"
+        },
+        {
+          "id": "b",
+          "text": "der NATO"
+        },
+        {
+          "id": "c",
+          "text": "der Vereinten Nationen"
+        },
+        {
+          "id": "d",
+          "text": "des Europarats"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Correct answer:** der Europäischen Wirtschaftsgemeinschaft (EWG)\n\n→Q237's fact from the membership angle: **1957 + founding member = EWG.** The tempting wrongs, once more with dates: NATO. Germany *joined* 1955 (founded '49 without it); UN, joined 1973; Europarat, joined 1950/51 (founded '49). Only the EWG has Germany as a 1957 *founder*.\n\n## Auf Deutsch\n\n1957 war Deutschland Gründungsmitglied der EWG."
+    },
+    {
+      "id": "eb-u14-l10-probetest-9-ex28",
+      "type": "choice",
+      "title": "Frage 262 · Block 11",
+      "prompt": "Was bedeutet in Deutschland der Grundsatz der Gleichbehandlung?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Niemand darf z. B. wegen einer Behinderung benachteiligt werden"
+        },
+        {
+          "id": "b",
+          "text": "Alle Menschen bekommen das gleiche Gehalt"
+        },
+        {
+          "id": "c",
+          "text": "Alle müssen dieselbe Meinung haben"
+        },
+        {
+          "id": "d",
+          "text": "Jeder muss den gleichen Beruf ausüben"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Correct answer:** Niemand darf z. B. wegen einer Behinderung benachteiligt werden\n\n**Gleichbehandlung** = no disadvantage for who you *are*: Art. 3(3) GG + the **AGG** (Allgemeines Gleichbehandlungsgesetz, 2006) covering disability, ethnic origin, sex, religion, age, sexual identity, in hiring, housing, services.\n\nB repeats Q8's trap (equal treatment ≠ equal outcomes); C/D describe forced uniformity, equality's totalitarian parody, not its meaning. The AGG anchors Q277/278/281/289, one law, five questions.\n\n## Auf Deutsch\n\nGleichbehandlung: Niemand darf z. B. wegen einer Behinderung benachteiligt werden."
+    },
+    {
+      "id": "eb-u14-l10-probetest-9-ex29",
+      "type": "choice",
+      "title": "Frage 277 · Block 12",
+      "prompt": "Was ist ein Beispiel für Diskriminierung im Berufsleben?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Eine Frau bekommt eine Stelle nicht, weil sie Mutter von kleinen Kindern ist"
+        },
+        {
+          "id": "b",
+          "text": "Ein Bewerber bekommt die Stelle nicht, weil ihm die nötige Ausbildung fehlt"
+        },
+        {
+          "id": "c",
+          "text": "Eine Bewerberin bekommt die Stelle nicht, weil sie zu wenig Berufserfahrung hat"
+        },
+        {
+          "id": "d",
+          "text": "Ein Bewerber bekommt die Stelle nicht, weil er die Arbeitszeiten nicht akzeptiert"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Correct answer:** Eine Frau bekommt eine Stelle nicht, weil sie Mutter von kleinen Kindern ist\n\nRejecting someone for **being a mother** = discrimination by family status/sex (AGG →Q262, Mutterschutz-logic →Q104).\n\nMissing qualifications, experience, or refusing the job's actual terms are *sachliche Gründe*, legitimate, merit-based reasons (→Q250). The discrimination test: was the reason WHO SHE IS (illegal) or WHAT THE JOB NEEDS (legal)? Apply that lens to Q278/281/289.\n\n## Auf Deutsch\n\nEine Stelle wegen kleiner Kinder zu verweigern ist Diskriminierung."
+    },
+    {
+      "id": "eb-u14-l10-probetest-9-ex30",
+      "type": "choice",
+      "title": "Frage 298 · Block 12",
+      "prompt": "In der DDR lebten vor allem Migranten und Migrantinnen aus …",
+      "options": [
+        {
+          "id": "a",
+          "text": "Vietnam, Polen und Mosambik"
+        },
+        {
+          "id": "b",
+          "text": "der Türkei, Italien und Spanien"
+        },
+        {
+          "id": "c",
+          "text": "Frankreich, Großbritannien und den USA"
+        },
+        {
+          "id": "d",
+          "text": "Portugal, Griechenland und Marokko"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Correct answer:** Vietnam, Polen und Mosambik\n\nThe DDR's **Vertragsarbeiter** came from socialist brother states, **Vietnam, Polen, Mosambik** (also Kuba, Angola): segregated hostels, rotation-based contracts, little intended integration. Option B is the *West's* Gastarbeiter list, the two Germanys even migrated differently. Legacy visible today: Vietnamese communities in eastern cities.\n\n## Auf Deutsch\n\nIn der DDR: Vertragsarbeiter vor allem aus Vietnam, Polen und Mosambik."
+    },
+    {
+      "id": "eb-u14-l10-probetest-9-ex31",
+      "type": "choice",
+      "title": "NDS 4 · Landesfrage",
+      "prompt": "Ab welchem Alter darf man in Niedersachsen bei Kommunalwahlen wählen?",
+      "options": [
+        {
+          "id": "a",
+          "text": "14"
+        },
+        {
+          "id": "b",
+          "text": "16"
+        },
+        {
+          "id": "c",
+          "text": "18"
+        },
+        {
+          "id": "d",
+          "text": "20"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Correct answer:** 16\n\nFrom **16**: Niedersachsen's Kommunalwahlen (Gemeinderat, Stadtrat, Kreistag, Bürgermeister, Landrat) are open to 16-year-olds. The age ladder (→Q94, Q246): **16** Kommunalwahl in Niedersachsen + Europawahl · **18** Landtag + Bundestag.\n\n## Auf Deutsch\n\nBei Kommunalwahlen in Niedersachsen darf man ab 16 Jahren wählen."
+    },
+    {
+      "id": "eb-u14-l10-probetest-9-ex32",
+      "type": "choice",
+      "title": "NDS 5 · Landesfrage",
+      "prompt": "Welche Farben hat die Landesflagge von Niedersachsen?",
+      "options": [
+        {
+          "id": "a",
+          "text": "weiß-blau"
+        },
+        {
+          "id": "b",
+          "text": "schwarz-rot-gold"
+        },
+        {
+          "id": "c",
+          "text": "schwarz-gelb"
+        },
+        {
+          "id": "d",
+          "text": "blau-weiß-rot"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Correct answer:** schwarz-rot-gold\n\n**Schwarz-rot-gold**, the same colours as the federal flag (→Q214), with the Land's coat of arms in the middle: the white horse on red (→NDS-1).\n\nThat is the trap: you might expect Land colours that differ from the Bund's. The decoys: weiß-blau = Bayern, schwarz-gelb = Baden-Württemberg, blau-weiß-rot = Schleswig-Holstein.\n\n## Auf Deutsch\n\nDie Landesflagge von Niedersachsen ist schwarz-rot-gold, mit dem Landeswappen (weißes Pferd auf Rot) in der Mitte."
+    },
+    {
+      "id": "eb-u14-l10-probetest-9-ex33",
+      "type": "choice",
+      "title": "NDS 8 · Landesfrage",
+      "prompt": "Welches Bundesland ist Niedersachsen?",
+      "figure": {
+        "images": [
+          {
+            "src": "/images/eb/nds-8.jpg",
+            "alt": "Map of Germany with four Länder highlighted and numbered: 1 is a large Land in the northwest on the North Sea; 2 is in the middle of Germany; 3 lies east of it on the Elbe; 4 is in the southeast, on the borders with Poland and the Czech Republic."
+          }
+        ],
+        "credit": "Bilder: BAMF, Gesamtfragenkatalog „Leben in Deutschland“ (Stand 07.05.2025)"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": "Fläche 1"
+        },
+        {
+          "id": "b",
+          "text": "Fläche 2"
+        },
+        {
+          "id": "c",
+          "text": "Fläche 3"
+        },
+        {
+          "id": "d",
+          "text": "Fläche 4"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Correct answer:** Fläche 1\n\n*Picture question (Bildfrage):* the pictures above are the ones from the official question catalogue.\n\nCorrect: **area 1**, the large Land in the northwest, between the North Sea coast and the Harz, bordering the Netherlands.\n\nThe other highlighted areas: 2 = Thüringen, 3 = Sachsen-Anhalt, 4 = Sachsen. Anchors for Niedersachsen: the North Sea coast with the East Frisian islands, the border with the Netherlands, and the small hole in its middle (that's the city-state Bremen). By area it is the second-largest Land after Bayern.\n\n## Auf Deutsch\n\nNiedersachsen ist das große Land im Nordwesten (Fläche 1), an der Nordsee und rund um Bremen."
+    }
+  ]
+}

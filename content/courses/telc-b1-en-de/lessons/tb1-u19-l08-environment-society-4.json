@@ -1,0 +1,282 @@
+{
+  "id": "tb1-u19-l08-environment-society-4",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u19",
+  "title": "Environment & Society 4",
+  "tip": "Theme: Umwelt & Gesellschaft (B1)",
+  "exercises": [
+    {
+      "id": "tb1-u19-l08-environment-society-4-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "schützen",
+          "known": "to protect"
+        },
+        {
+          "id": "p2",
+          "learning": "verbessern",
+          "known": "to improve"
+        },
+        {
+          "id": "p3",
+          "learning": "verursachen",
+          "known": "to cause"
+        },
+        {
+          "id": "p4",
+          "learning": "vermeiden",
+          "known": "to avoid"
+        },
+        {
+          "id": "p5",
+          "learning": "unterstützen",
+          "known": "to support"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u19-l08-environment-society-4-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which one means „to protect“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "schützen"
+        },
+        {
+          "id": "b",
+          "text": "verursachen"
+        },
+        {
+          "id": "c",
+          "text": "verbessern"
+        },
+        {
+          "id": "d",
+          "text": "verbrauchen"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**schützen** = to protect\n\n*Example:* Im Sommer schützt die Sonnencreme die Haut.\nIn summer sun cream protects the skin."
+    },
+    {
+      "id": "tb1-u19-l08-environment-society-4-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which one means „to improve“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "verbrauchen"
+        },
+        {
+          "id": "b",
+          "text": "verbessern"
+        },
+        {
+          "id": "c",
+          "text": "schützen"
+        },
+        {
+          "id": "d",
+          "text": "unterstützen"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**verbessern** = to improve\n\n*Example:* Anna möchte ihr Deutsch verbessern und besucht einen Kurs.\nAnna wants to improve her German and is attending a course."
+    },
+    {
+      "id": "tb1-u19-l08-environment-society-4-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "In summer sun cream protects the skin.",
+      "tiles": [
+        "Sonnencreme",
+        "Sommer",
+        "die",
+        "Im",
+        "Technik",
+        "einen",
+        "verursacht",
+        "die",
+        "Haut",
+        "schützt"
+      ],
+      "answers": [
+        "Im Sommer schützt die Sonnencreme die Haut."
+      ],
+      "explanation": "**schützen** = to protect"
+    },
+    {
+      "id": "tb1-u19-l08-environment-society-4-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which one means „to cause“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "verursachen"
+        },
+        {
+          "id": "b",
+          "text": "schützen"
+        },
+        {
+          "id": "c",
+          "text": "verbessern"
+        },
+        {
+          "id": "d",
+          "text": "vermeiden"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**verursachen** = to cause\n\n*Example:* Der Sturm hat große Schäden verursacht.\nThe storm caused a lot of damage."
+    },
+    {
+      "id": "tb1-u19-l08-environment-society-4-ex06",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u19-l08-environment-society-4-2.mp3"
+      },
+      "tiles": [
+        "Anna",
+        "besucht",
+        "Wohnungssuche",
+        "Deutsch",
+        "mich",
+        "verbessern",
+        "und",
+        "einen",
+        "lieber",
+        "möchte",
+        "Kurs",
+        "ihr"
+      ],
+      "answers": [
+        "Anna möchte ihr Deutsch verbessern und besucht einen Kurs."
+      ],
+      "explanation": "Anna möchte ihr Deutsch verbessern und besucht einen Kurs.\n*Anna wants to improve her German and is attending a course.*\n\n**verbessern** = to improve"
+    },
+    {
+      "id": "tb1-u19-l08-environment-society-4-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which one means „to avoid“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "vermeiden"
+        },
+        {
+          "id": "b",
+          "text": "schützen"
+        },
+        {
+          "id": "c",
+          "text": "verursachen"
+        },
+        {
+          "id": "d",
+          "text": "unterstützen"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**vermeiden** = to avoid\n\n*Example:* Wir fahren früh los, weil wir den Stau vermeiden wollen.\nWe're leaving early because we want to avoid the traffic jam."
+    },
+    {
+      "id": "tb1-u19-l08-environment-society-4-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Der Sturm hat große Schäden verursacht.",
+      "tiles": [
+        "of",
+        "damage",
+        "her",
+        "are",
+        "The",
+        "storm",
+        "caused",
+        "a",
+        "lot",
+        "environment"
+      ],
+      "answers": [
+        "The storm caused a lot of damage."
+      ],
+      "explanation": "**verursachen** = to cause"
+    },
+    {
+      "id": "tb1-u19-l08-environment-society-4-ex09",
+      "type": "multiple_choice",
+      "prompt": "Which one means „to support“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "vermeiden"
+        },
+        {
+          "id": "b",
+          "text": "verbrauchen"
+        },
+        {
+          "id": "c",
+          "text": "verursachen"
+        },
+        {
+          "id": "d",
+          "text": "unterstützen"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**unterstützen** = to support\n\n*Example:* Meine Eltern unterstützen mich bei der Wohnungssuche.\nMy parents are helping me with my flat hunt."
+    },
+    {
+      "id": "tb1-u19-l08-environment-society-4-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "We're leaving early because we want to avoid the traffic jam.",
+      "tiles": [
+        "Stau",
+        "weil",
+        "für",
+        "wir",
+        "früh",
+        "Anna",
+        "vermeiden",
+        "Wir",
+        "Teil",
+        "wollen",
+        "den",
+        "los",
+        "fahren"
+      ],
+      "answers": [
+        "Wir fahren früh los, weil wir den Stau vermeiden wollen."
+      ],
+      "explanation": "**vermeiden** = to avoid"
+    },
+    {
+      "id": "tb1-u19-l08-environment-society-4-ex11",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u19-l08-environment-society-4-5.mp3"
+      },
+      "tiles": [
+        "schützt",
+        "mich",
+        "Meine",
+        "Wohnungssuche",
+        "Eltern",
+        "die",
+        "unterstützen",
+        "wir",
+        "bei",
+        "der"
+      ],
+      "answers": [
+        "Meine Eltern unterstützen mich bei der Wohnungssuche."
+      ],
+      "explanation": "Meine Eltern unterstützen mich bei der Wohnungssuche.\n*My parents are helping me with my flat hunt.*\n\n**unterstützen** = to support"
+    }
+  ]
+}

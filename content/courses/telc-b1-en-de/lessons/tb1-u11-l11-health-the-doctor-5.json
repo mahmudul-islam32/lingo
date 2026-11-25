@@ -1,0 +1,296 @@
+{
+  "id": "tb1-u11-l11-health-the-doctor-5",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u11",
+  "title": "Health & the Doctor 5",
+  "tip": "Theme: Gesundheit / Arzt (B1)",
+  "exercises": [
+    {
+      "id": "tb1-u11-l11-health-the-doctor-5-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "die Krankenkasse",
+          "known": "health insurance (fund)"
+        },
+        {
+          "id": "p2",
+          "learning": "krankgeschrieben sein",
+          "known": "to be on sick leave"
+        },
+        {
+          "id": "p3",
+          "learning": "sich erholen von",
+          "known": "to recover from"
+        },
+        {
+          "id": "p4",
+          "learning": "gesund",
+          "known": "healthy"
+        },
+        {
+          "id": "p5",
+          "learning": "die Gesundheit",
+          "known": "health"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u11-l11-health-the-doctor-5-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „health insurance (fund)“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "der Hausarzt, die Hausärzte / die Hausärztin, die Hausärztinnen"
+        },
+        {
+          "id": "b",
+          "text": "die Gesundheit (nur Sg.) · die Krankheit, die Krankheiten"
+        },
+        {
+          "id": "c",
+          "text": "die Praxis, die Praxen"
+        },
+        {
+          "id": "d",
+          "text": "die Krankenkasse, die Krankenkassen"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**die Krankenkasse** = health insurance (fund)\n*Plural: die Krankenkassen*\n\n*Example:* Die Krankenkasse bezahlt die Untersuchung.\nThe health insurance pays for the examination."
+    },
+    {
+      "id": "tb1-u11-l11-health-the-doctor-5-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which one means „to be on sick leave: sick note“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Apotheke, die Apotheken"
+        },
+        {
+          "id": "b",
+          "text": "einen Termin vereinbaren / absagen / verschieben"
+        },
+        {
+          "id": "c",
+          "text": "krankgeschrieben sein: die Krankmeldung, die Krankmeldungen"
+        },
+        {
+          "id": "d",
+          "text": "gesund ↔ krank"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**krankgeschrieben sein: die Krankmeldung, die Krankmeldungen** = to be on sick leave: sick note\n\n*Example:* Ich bin diese Woche krankgeschrieben und schicke die Krankmeldung an meinen Chef.\nI'm on sick leave this week and I'm sending the sick note to my boss."
+    },
+    {
+      "id": "tb1-u11-l11-health-the-doctor-5-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "The health insurance pays for the examination.",
+      "tiles": [
+        "fühle",
+        "Die",
+        "sonntags",
+        "Untersuchung",
+        "Nach",
+        "bezahlt",
+        "die",
+        "Krankenkasse"
+      ],
+      "answers": [
+        "Die Krankenkasse bezahlt die Untersuchung."
+      ],
+      "explanation": "**die Krankenkasse** = health insurance (fund)\n*Plural: die Krankenkassen*"
+    },
+    {
+      "id": "tb1-u11-l11-health-the-doctor-5-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which verb means „to recover from“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "sich erholen von + Dat. (hat sich erholt)"
+        },
+        {
+          "id": "b",
+          "text": "verschreiben (hat verschrieben)"
+        },
+        {
+          "id": "c",
+          "text": "wehtun + Dat. (hat wehgetan). Mir tut der Rücken weh."
+        },
+        {
+          "id": "d",
+          "text": "untersuchen (hat untersucht)"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**sich erholen von + Dat. (hat sich erholt)** = to recover from\n\n*Example:* Meine Oma hat sich gut von der Operation erholt.\nMy grandma has recovered well from the operation."
+    },
+    {
+      "id": "tb1-u11-l11-health-the-doctor-5-ex06",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u11-l11-health-the-doctor-5-2.mp3"
+      },
+      "tiles": [
+        "aber",
+        "und",
+        "diese",
+        "die",
+        "schicke",
+        "Ich",
+        "meinen",
+        "krankgeschrieben",
+        "Schnupfen",
+        "Sie",
+        "Krankmeldung",
+        "Chef",
+        "an",
+        "bin",
+        "Woche"
+      ],
+      "answers": [
+        "Ich bin diese Woche krankgeschrieben und schicke die Krankmeldung an meinen Chef."
+      ],
+      "explanation": "Ich bin diese Woche krankgeschrieben und schicke die Krankmeldung an meinen Chef.\n*I'm on sick leave this week and I'm sending the sick note to my boss.*\n\n**krankgeschrieben sein: die Krankmeldung, die Krankmeldungen** = to be on sick leave: sick note"
+    },
+    {
+      "id": "tb1-u11-l11-health-the-doctor-5-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means „I haven't felt well since yesterday: I have a fever, a cough and a bad headache.“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Die Ärztin hat mich untersucht und mir Tabletten verschrieben, die ich dreimal täglich nehmen soll."
+        },
+        {
+          "id": "b",
+          "text": "Diese Woche mache ich viele Überstunden, weil eine Kollegin im Urlaub ist."
+        },
+        {
+          "id": "c",
+          "text": "Ich habe mich um eine Stelle als Verkäufer beworben, und nächste Woche habe ich ein Vorstellungsgespräch."
+        },
+        {
+          "id": "d",
+          "text": "Ich fühle mich seit gestern nicht gut: Ich habe Fieber, Husten und starke Kopfschmerzen."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**Ich fühle mich seit gestern nicht gut: Ich habe Fieber, Husten und starke Kopfschmerzen.** = I haven't felt well since yesterday: I have a fever, a cough and a bad headache.\n\n*Example:* Ich fühle mich seit gestern nicht gut: Ich habe Fieber, Husten und starke Kopfschmerzen.\nI haven't felt well since yesterday: I have a fever, a cough and a bad headache."
+    },
+    {
+      "id": "tb1-u11-l11-health-the-doctor-5-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Meine Oma hat sich gut von der Operation erholt.",
+      "tiles": [
+        "operation",
+        "from",
+        "injured",
+        "week",
+        "has",
+        "My",
+        "recovered",
+        "grandma",
+        "well",
+        "already",
+        "the"
+      ],
+      "answers": [
+        "My grandma has recovered well from the operation."
+      ],
+      "explanation": "**sich erholen von + Dat. (hat sich erholt)** = to recover from"
+    },
+    {
+      "id": "tb1-u11-l11-health-the-doctor-5-ex09",
+      "type": "multiple_choice",
+      "prompt": "Which sentence means „The doctor examined me and prescribed tablets that I'm supposed to take three times a day.“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Diese Woche mache ich viele Überstunden, weil eine Kollegin im Urlaub ist."
+        },
+        {
+          "id": "b",
+          "text": "Ich habe mich um eine Stelle als Verkäufer beworben, und nächste Woche habe ich ein Vorstellungsgespräch."
+        },
+        {
+          "id": "c",
+          "text": "Ich fühle mich seit gestern nicht gut: Ich habe Fieber, Husten und starke Kopfschmerzen."
+        },
+        {
+          "id": "d",
+          "text": "Die Ärztin hat mich untersucht und mir Tabletten verschrieben, die ich dreimal täglich nehmen soll."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**Die Ärztin hat mich untersucht und mir Tabletten verschrieben, die ich dreimal täglich nehmen soll.** = The doctor examined me and prescribed tablets that I'm supposed to take three times a day.\n\n*Example:* Die Ärztin hat mich untersucht und mir Tabletten verschrieben, die ich dreimal täglich nehmen soll.\nThe doctor examined me and prescribed tablets that I'm supposed to take three times a day."
+    },
+    {
+      "id": "tb1-u11-l11-health-the-doctor-5-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I haven't felt well since yesterday: I have a fever, a cough and a bad headache.",
+      "tiles": [
+        "heute",
+        "mich",
+        "Ich",
+        "gut",
+        "Kopfschmerzen",
+        "Fieber",
+        "starke",
+        "nicht",
+        "bin",
+        "ist",
+        "fühle",
+        "habe",
+        "seit",
+        "Husten",
+        "gestern",
+        "Ich",
+        "und"
+      ],
+      "answers": [
+        "Ich fühle mich seit gestern nicht gut: Ich habe Fieber, Husten und starke Kopfschmerzen."
+      ],
+      "explanation": "**Ich fühle mich seit gestern nicht gut: Ich habe Fieber, Husten und starke Kopfschmerzen.** = I haven't felt well since yesterday: I have a fever, a cough and a bad headache."
+    },
+    {
+      "id": "tb1-u11-l11-health-the-doctor-5-ex11",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u11-l11-health-the-doctor-5-5.mp3"
+      },
+      "tiles": [
+        "Ärztin",
+        "untersucht",
+        "mich",
+        "ich",
+        "soll",
+        "hat",
+        "Die",
+        "nehmen",
+        "dreimal",
+        "Tabletten",
+        "mir",
+        "täglich",
+        "die",
+        "starke",
+        "Oma",
+        "verschrieben",
+        "und",
+        "der"
+      ],
+      "answers": [
+        "Die Ärztin hat mich untersucht und mir Tabletten verschrieben, die ich dreimal täglich nehmen soll."
+      ],
+      "explanation": "Die Ärztin hat mich untersucht und mir Tabletten verschrieben, die ich dreimal täglich nehmen soll.\n*The doctor examined me and prescribed tablets that I'm supposed to take three times a day.*\n\n**Die Ärztin hat mich untersucht und mir Tabletten verschrieben, die ich dreimal täglich nehmen soll.** = The doctor examined me and prescribed tablets that I'm supposed to take three times a day."
+    }
+  ]
+}

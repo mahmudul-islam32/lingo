@@ -1,0 +1,283 @@
+{
+  "id": "tb1-u25-l13-nouns-work-education-society-5",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u25",
+  "title": "Nouns: Work, Education & Society 5",
+  "tip": "Theme: Nomen: Arbeit, Bildung & Gesellschaft (B1)",
+  "exercises": [
+    {
+      "id": "tb1-u25-l13-nouns-work-education-society-5-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "die Prüfungsangst",
+          "known": "exam nerves"
+        },
+        {
+          "id": "p2",
+          "learning": "das Lernziel",
+          "known": "learning goal"
+        },
+        {
+          "id": "p3",
+          "learning": "die Stellungnahme",
+          "known": "statement of opinion"
+        },
+        {
+          "id": "p4",
+          "learning": "der Inhalt",
+          "known": "content"
+        },
+        {
+          "id": "p5",
+          "learning": "der Bereich",
+          "known": "area / field"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u25-l13-nouns-work-education-society-5-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „exam nerves“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Werkstatt, die Werkstätten"
+        },
+        {
+          "id": "b",
+          "text": "der Service"
+        },
+        {
+          "id": "c",
+          "text": "das Zertifikat, die Zertifikate"
+        },
+        {
+          "id": "d",
+          "text": "die Prüfungsangst"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**die Prüfungsangst** = exam nerves\n\n*Example:* Meine Freundin hat Prüfungsangst und kann vorher nicht schlafen.\nMy friend has exam nerves and can't sleep beforehand."
+    },
+    {
+      "id": "tb1-u25-l13-nouns-work-education-society-5-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „learning goal“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Medizin"
+        },
+        {
+          "id": "b",
+          "text": "die Prüfungsangst"
+        },
+        {
+          "id": "c",
+          "text": "das Lernziel, die Lernziele"
+        },
+        {
+          "id": "d",
+          "text": "die Buchhaltung"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**das Lernziel** = learning goal\n*Plural: die Lernziele*\n\n*Example:* Mein Lernziel für diesen Monat ist, besser Englisch zu sprechen.\nMy learning goal for this month is to speak English better."
+    },
+    {
+      "id": "tb1-u25-l13-nouns-work-education-society-5-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Meine Freundin hat Prüfungsangst und kann vorher nicht schlafen.",
+      "tiles": [
+        "exam",
+        "and",
+        "has",
+        "beforehand",
+        "sleep",
+        "you",
+        "can't",
+        "her",
+        "talking",
+        "My",
+        "friend",
+        "nerves"
+      ],
+      "answers": [
+        "My friend has exam nerves and can't sleep beforehand."
+      ],
+      "explanation": "**die Prüfungsangst** = exam nerves"
+    },
+    {
+      "id": "tb1-u25-l13-nouns-work-education-society-5-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „statement of opinion“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Stellungnahme, die Stellungnahmen"
+        },
+        {
+          "id": "b",
+          "text": "das Institut, die Institute"
+        },
+        {
+          "id": "c",
+          "text": "das Lernziel, die Lernziele"
+        },
+        {
+          "id": "d",
+          "text": "die Geschäftsidee, die Geschäftsideen"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**die Stellungnahme** = statement of opinion\n*Plural: die Stellungnahmen*\n\n*Example:* Der Bürgermeister hat eine Stellungnahme zum neuen Park geschrieben.\nThe mayor wrote a statement on the new park."
+    },
+    {
+      "id": "tb1-u25-l13-nouns-work-education-society-5-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "My learning goal for this month is to speak English better.",
+      "tiles": [
+        "Englisch",
+        "Monat",
+        "Vater",
+        "zu",
+        "Lernziel",
+        "ist",
+        "für",
+        "sprechen",
+        "Der",
+        "besser",
+        "Die",
+        "diesen",
+        "Mein"
+      ],
+      "answers": [
+        "Mein Lernziel für diesen Monat ist, besser Englisch zu sprechen."
+      ],
+      "explanation": "**das Lernziel** = learning goal\n*Plural: die Lernziele*"
+    },
+    {
+      "id": "tb1-u25-l13-nouns-work-education-society-5-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „content“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Geschäftsidee, die Geschäftsideen"
+        },
+        {
+          "id": "b",
+          "text": "die Aussprache"
+        },
+        {
+          "id": "c",
+          "text": "die Nachhilfe"
+        },
+        {
+          "id": "d",
+          "text": "der Inhalt, die Inhalte"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**der Inhalt** = content\n*Plural: die Inhalte*\n\n*Example:* Der Inhalt des Pakets war leider kaputt.\nUnfortunately, the contents of the parcel were broken."
+    },
+    {
+      "id": "tb1-u25-l13-nouns-work-education-society-5-ex08",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u25-l13-nouns-work-education-society-5-3.mp3"
+      },
+      "tiles": [
+        "zum",
+        "sitzen",
+        "Stellungnahme",
+        "eine",
+        "Park",
+        "Der",
+        "des",
+        "Ali",
+        "hat",
+        "neuen",
+        "Bürgermeister",
+        "geschrieben"
+      ],
+      "answers": [
+        "Der Bürgermeister hat eine Stellungnahme zum neuen Park geschrieben."
+      ],
+      "explanation": "Der Bürgermeister hat eine Stellungnahme zum neuen Park geschrieben.\n*The mayor wrote a statement on the new park.*\n\n**die Stellungnahme** = statement of opinion\n*Plural: die Stellungnahmen*"
+    },
+    {
+      "id": "tb1-u25-l13-nouns-work-education-society-5-ex09",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „area / field“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "der Mitarbeiter, die Mitarbeiter"
+        },
+        {
+          "id": "b",
+          "text": "die Medizin"
+        },
+        {
+          "id": "c",
+          "text": "der Kursleiter, die Kursleiter"
+        },
+        {
+          "id": "d",
+          "text": "der Bereich, die Bereiche"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**der Bereich** = area / field\n*Plural: die Bereiche*\n\n*Example:* Mein Bruder arbeitet im Bereich Pflege.\nMy brother works in the field of care."
+    },
+    {
+      "id": "tb1-u25-l13-nouns-work-education-society-5-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Der Inhalt des Pakets war leider kaputt.",
+      "tiles": [
+        "the",
+        "broken",
+        "the",
+        "contents",
+        "of",
+        "Unfortunately",
+        "since",
+        "were",
+        "better",
+        "parcel",
+        "seminar"
+      ],
+      "answers": [
+        "Unfortunately, the contents of the parcel were broken."
+      ],
+      "explanation": "**der Inhalt** = content\n*Plural: die Inhalte*"
+    },
+    {
+      "id": "tb1-u25-l13-nouns-work-education-society-5-ex11",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "My brother works in the field of care.",
+      "tiles": [
+        "Bruder",
+        "arbeitet",
+        "beim",
+        "Bereich",
+        "Pflege",
+        "Stellungnahme",
+        "Mein",
+        "Bürgermeister",
+        "im"
+      ],
+      "answers": [
+        "Mein Bruder arbeitet im Bereich Pflege."
+      ],
+      "explanation": "**der Bereich** = area / field\n*Plural: die Bereiche*"
+    }
+  ]
+}

@@ -1,0 +1,235 @@
+{
+  "id": "tb1-u02-l04-numbers-time-4",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u02",
+  "title": "Numbers & Time 4",
+  "tip": "Theme: Zahlen & Zeit (A1)",
+  "exercises": [
+    {
+      "id": "tb1-u02-l04-numbers-time-4-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "die Stunde",
+          "known": "hour"
+        },
+        {
+          "id": "p2",
+          "learning": "die Minute",
+          "known": "minute"
+        },
+        {
+          "id": "p3",
+          "learning": "die Uhr",
+          "known": "clock / watch"
+        },
+        {
+          "id": "p4",
+          "learning": "die Zeit",
+          "known": "time"
+        },
+        {
+          "id": "p5",
+          "learning": "die Zahl",
+          "known": "number"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u02-l04-numbers-time-4-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „hour“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Zahl, die Zahlen"
+        },
+        {
+          "id": "b",
+          "text": "die Uhr, die Uhren"
+        },
+        {
+          "id": "c",
+          "text": "die Stunde, die Stunden"
+        },
+        {
+          "id": "d",
+          "text": "die Zeit"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**die Stunde** = hour\n*Plural: die Stunden*\n\n*Example:* Die Fahrt nach Hamburg dauert ungefähr zwei Stunden.\nThe trip to Hamburg takes about two hours."
+    },
+    {
+      "id": "tb1-u02-l04-numbers-time-4-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „minute“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Woche, die Wochen"
+        },
+        {
+          "id": "b",
+          "text": "die Minute, die Minuten"
+        },
+        {
+          "id": "c",
+          "text": "die Uhr, die Uhren"
+        },
+        {
+          "id": "d",
+          "text": "die Zeit"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**die Minute** = minute\n*Plural: die Minuten*\n\n*Example:* Können Sie bitte ein paar Minuten warten?\nCould you please wait a few minutes?"
+    },
+    {
+      "id": "tb1-u02-l04-numbers-time-4-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Die Fahrt nach Hamburg dauert ungefähr zwei Stunden.",
+      "tiles": [
+        "always",
+        "The",
+        "trip",
+        "takes",
+        "about",
+        "two",
+        "are",
+        "to",
+        "Hamburg",
+        "thousand",
+        "hours"
+      ],
+      "answers": [
+        "The trip to Hamburg takes about two hours."
+      ],
+      "explanation": "**die Stunde** = hour\n*Plural: die Stunden*"
+    },
+    {
+      "id": "tb1-u02-l04-numbers-time-4-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „clock / watch“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Minute, die Minuten"
+        },
+        {
+          "id": "b",
+          "text": "die Uhr, die Uhren"
+        },
+        {
+          "id": "c",
+          "text": "die Woche, die Wochen"
+        },
+        {
+          "id": "d",
+          "text": "die Zahl, die Zahlen"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**die Uhr** = clock / watch\n*Plural: die Uhren*\n\n*Example:* Entschuldigung, wie viel Uhr ist es? – Es ist halb drei.\nExcuse me, what time is it? – It's half past two."
+    },
+    {
+      "id": "tb1-u02-l04-numbers-time-4-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Could you please wait a few minutes?",
+      "tiles": [
+        "bitte",
+        "ein",
+        "Meine",
+        "nach",
+        "paar",
+        "Können",
+        "warten",
+        "Sie",
+        "Minuten",
+        "Unser"
+      ],
+      "answers": [
+        "Können Sie bitte ein paar Minuten warten?"
+      ],
+      "explanation": "**die Minute** = minute\n*Plural: die Minuten*"
+    },
+    {
+      "id": "tb1-u02-l04-numbers-time-4-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „time“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Zeit"
+        },
+        {
+          "id": "b",
+          "text": "die Zahl, die Zahlen"
+        },
+        {
+          "id": "c",
+          "text": "die Minute, die Minuten"
+        },
+        {
+          "id": "d",
+          "text": "der Tag, die Tage"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**die Zeit** = time\n\n*Example:* Leider habe ich heute keine Zeit für einen Kaffee.\nUnfortunately I don't have time for a coffee today."
+    },
+    {
+      "id": "tb1-u02-l04-numbers-time-4-ex08",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u02-l04-numbers-time-4-3.mp3"
+      },
+      "tiles": [
+        "es",
+        "drei",
+        "halb",
+        "Entschuldigung",
+        "viel",
+        "neuen",
+        "wie",
+        "Uhr",
+        "Gestern",
+        "ist",
+        "Es",
+        "ist",
+        "lange"
+      ],
+      "answers": [
+        "Entschuldigung, wie viel Uhr ist es? – Es ist halb drei."
+      ],
+      "explanation": "Entschuldigung, wie viel Uhr ist es? – Es ist halb drei.\n*Excuse me, what time is it? – It's half past two.*\n\n**die Uhr** = clock / watch\n*Plural: die Uhren*"
+    },
+    {
+      "id": "tb1-u02-l04-numbers-time-4-ex09",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Leider habe ich heute keine Zeit für einen Kaffee.",
+      "tiles": [
+        "a",
+        "coffee",
+        "time",
+        "gym",
+        "rent",
+        "don't",
+        "at",
+        "today",
+        "have",
+        "for",
+        "Unfortunately",
+        "I"
+      ],
+      "answers": [
+        "Unfortunately I don't have time for a coffee today."
+      ],
+      "explanation": "**die Zeit** = time"
+    }
+  ]
+}

@@ -1,0 +1,308 @@
+{
+  "id": "tb1-u30-l17-zweiteilig-p3",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u30",
+  "title": "Two-Part Connectors: zwar … aber & je … desto",
+  "tip": "Never add “nicht” to “weder … noch”: Ich habe weder Zeit noch Geld. And after “nicht nur” comes “sondern auch”, not “aber auch”.",
+  "exercises": [
+    {
+      "id": "tb1-u30-l17-zweiteilig-p3-ex01",
+      "type": "explain",
+      "title": "zwar … aber",
+      "body": "First admit something, then a restriction.\n\n*Deutsch:* Erst etwas zugeben, dann eine Einschränkung.\n\n## Pattern\n\nPos. 1 + Verb + **zwar** …, **aber** …",
+      "examples": [
+        {
+          "learning": "Die Wohnung ist zwar klein, aber sie ist sehr gemütlich.",
+          "known": "The flat is small, admittedly, but it's very cosy."
+        },
+        {
+          "learning": "Ich habe zwar wenig Zeit, aber ich helfe dir.",
+          "known": "I don't have much time, but I'll help you."
+        }
+      ]
+    },
+    {
+      "id": "tb1-u30-l17-zweiteilig-p3-ex02",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "The flat is small, admittedly, but it's very cosy.",
+      "tiles": [
+        "ist",
+        "Die",
+        "klein",
+        "sehr",
+        "eine",
+        "das",
+        "zwar",
+        "ist",
+        "sie",
+        "aber",
+        "gemütlich",
+        "ich",
+        "Wohnung"
+      ],
+      "answers": [
+        "Die Wohnung ist zwar klein, aber sie ist sehr gemütlich."
+      ],
+      "explanation": "**Why:** zwar sits in the middle, aber introduces the contrast.\n\n*Warum:* zwar steht im Mittelfeld, aber leitet den Gegensatz ein."
+    },
+    {
+      "id": "tb1-u30-l17-zweiteilig-p3-ex03",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I don't have much time, but I'll help you.",
+      "tiles": [
+        "aber",
+        "habe",
+        "zwar",
+        "ist",
+        "dir",
+        "helfe",
+        "arbeiten",
+        "am",
+        "Zeit",
+        "ich",
+        "Ich",
+        "wenig"
+      ],
+      "answers": [
+        "Ich habe zwar wenig Zeit, aber ich helfe dir."
+      ],
+      "explanation": "**Why:** Concession + restriction.\n\n*Warum:* Zugeständnis + Einschränkung."
+    },
+    {
+      "id": "tb1-u30-l17-zweiteilig-p3-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "The hotel was expensive, but the food was great.",
+      "tiles": [
+        "war",
+        "gehen",
+        "super",
+        "das",
+        "Hotel",
+        "teuer",
+        "entweder",
+        "Essen",
+        "war",
+        "Das",
+        "zwar",
+        "aber",
+        "spricht"
+      ],
+      "answers": [
+        "Das Hotel war zwar teuer, aber das Essen war super."
+      ],
+      "explanation": "**Why:** Good for opinions in letters.\n\n*Warum:* Gut für Meinungen im Brief."
+    },
+    {
+      "id": "tb1-u30-l17-zweiteilig-p3-ex05",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "He does speak German well, but he doesn't like writing much.",
+      "tiles": [
+        "er",
+        "desto",
+        "gern",
+        "Er",
+        "oder",
+        "aber",
+        "zwar",
+        "gut",
+        "spricht",
+        "schreibt",
+        "nicht",
+        "Deutsch",
+        "Familien",
+        "so"
+      ],
+      "answers": [
+        "Er spricht zwar gut Deutsch, aber er schreibt nicht so gern."
+      ],
+      "explanation": "**Why:** zwar after the verb spricht.\n\n*Warum:* zwar nach dem Verb spricht."
+    },
+    {
+      "id": "tb1-u30-l17-zweiteilig-p3-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "It's raining, but we're going out anyway.",
+      "tiles": [
+        "regnet",
+        "nicht",
+        "gehen",
+        "es",
+        "in",
+        "wir",
+        "Zwar",
+        "trotzdem",
+        "auch",
+        "aber",
+        "raus"
+      ],
+      "answers": [
+        "Zwar regnet es, aber wir gehen trotzdem raus."
+      ],
+      "explanation": "**Why:** Zwar in position 1 → verb regnet right after.\n\n*Warum:* Zwar auf Position 1 → Verb regnet direkt danach."
+    },
+    {
+      "id": "tb1-u30-l17-zweiteilig-p3-ex07",
+      "type": "explain",
+      "title": "je … desto",
+      "body": "The more A, the more B. je part = subordinate clause (verb at end), desto + verb + subject.\n\n*Deutsch:* Je mehr A, desto mehr B. Je-Teil = Nebensatz (Verb am Ende), desto + Verb + Subjekt.\n\n## Pattern\n\n**Je** + Komparativ … **Verb**, **desto** + Komparativ + **Verb** + Subjekt.",
+      "examples": [
+        {
+          "learning": "Je mehr ich übe, desto besser spreche ich.",
+          "known": "The more I practise, the better I speak."
+        },
+        {
+          "learning": "Je früher wir losfahren, desto weniger Stau haben wir.",
+          "known": "The earlier we leave, the less traffic we'll have."
+        }
+      ]
+    },
+    {
+      "id": "tb1-u30-l17-zweiteilig-p3-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "The more I practise, the better I speak.",
+      "tiles": [
+        "ich",
+        "besser",
+        "Je",
+        "arbeitet",
+        "ich",
+        "desto",
+        "noch",
+        "mehr",
+        "übe",
+        "spreche",
+        "Arabisch"
+      ],
+      "answers": [
+        "Je mehr ich übe, desto besser spreche ich."
+      ],
+      "explanation": "**Why:** übe at the end; after desto besser comes spreche.\n\n*Warum:* übe am Ende, nach desto besser kommt spreche."
+    },
+    {
+      "id": "tb1-u30-l17-zweiteilig-p3-ex09",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "The earlier we leave, the less traffic we'll have.",
+      "tiles": [
+        "wir",
+        "weniger",
+        "nur",
+        "haben",
+        "desto",
+        "die",
+        "losfahren",
+        "Je",
+        "wir",
+        "aber",
+        "Stau",
+        "früher"
+      ],
+      "answers": [
+        "Je früher wir losfahren, desto weniger Stau haben wir."
+      ],
+      "explanation": "**Why:** Comparative after je and desto.\n\n*Warum:* Komparativ nach je und desto."
+    },
+    {
+      "id": "tb1-u30-l17-zweiteilig-p3-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "The longer I live in Germany, the more at home I feel.",
+      "tiles": [
+        "mich",
+        "Je",
+        "wohler",
+        "in",
+        "fühle",
+        "lebe",
+        "Die",
+        "ich",
+        "länger",
+        "trinke",
+        "ich",
+        "Deutschland",
+        "Sowohl",
+        "desto"
+      ],
+      "answers": [
+        "Je länger ich in Deutschland lebe, desto wohler fühle ich mich."
+      ],
+      "explanation": "**Why:** länger / wohler = comparative.\n\n*Warum:* länger / wohler = Komparativ."
+    },
+    {
+      "id": "tb1-u30-l17-zweiteilig-p3-ex11",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "The bigger the flat, the higher the rent.",
+      "tiles": [
+        "Wohnung",
+        "ist",
+        "größer",
+        "Miete",
+        "die",
+        "ist",
+        "nur",
+        "entweder",
+        "höher",
+        "die",
+        "desto",
+        "Geschäftsleute",
+        "Je"
+      ],
+      "answers": [
+        "Je größer die Wohnung ist, desto höher ist die Miete."
+      ],
+      "explanation": "**Why:** groß → größer, hoch → höher.\n\n*Warum:* groß → größer, hoch → höher."
+    },
+    {
+      "id": "tb1-u30-l17-zweiteilig-p3-ex12",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "The more people come, the more fun the party will be.",
+      "tiles": [
+        "mehr",
+        "die",
+        "lustiger",
+        "desto",
+        "Sie",
+        "kommen",
+        "wird",
+        "→",
+        "Je",
+        "der",
+        "Party",
+        "Leute"
+      ],
+      "answers": [
+        "Je mehr Leute kommen, desto lustiger wird die Party."
+      ],
+      "explanation": "**Why:** desto + comparative + verb + subject.\n\n*Warum:* desto + Komparativ + Verb + Subjekt."
+    },
+    {
+      "id": "tb1-u30-l17-zweiteilig-p3-ex13",
+      "type": "choice",
+      "title": "Fill the gap",
+      "prompt": "___ ist die Miete hoch, aber die Lage ist perfekt.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Weder"
+        },
+        {
+          "id": "b",
+          "text": "Zwar"
+        },
+        {
+          "id": "c",
+          "text": "Entweder"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "zwar … aber = Zugeständnis + Einwand."
+    }
+  ]
+}

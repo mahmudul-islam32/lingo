@@ -11,6 +11,8 @@ export interface ActionBarProps {
   canCheck: boolean;
   /** Self-completing exercises (match pairs) have no "Check" button. */
   showCheck: boolean;
+  /** Label of the check button (TELC-001: "Continue" on explain cards). Default "Check". */
+  checkLabel?: string;
   learningLanguage: LanguageCode;
   knownLanguage: LanguageCode;
   onCheck: () => void;
@@ -28,6 +30,7 @@ export function ActionBar({
   feedback,
   canCheck,
   showCheck,
+  checkLabel = "Check",
   learningLanguage,
   knownLanguage,
   onCheck,
@@ -51,7 +54,7 @@ export function ActionBar({
           <div className="mx-auto w-full max-w-2xl">
             {showCheck ? (
               <Button variant="primary" size="lg" fullWidth disabled={!canCheck} onClick={onCheck}>
-                Check
+                {checkLabel}
               </Button>
             ) : (
               // Keeps the bar height stable while a match-pairs board is played.

@@ -1,0 +1,129 @@
+{
+  "id": "tb1-u30-l21-infinitiv-rule",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u30",
+  "title": "Infinitive with zu · um … zu · ohne … zu: the rule",
+  "tip": "“Ich muss zu arbeiten” is wrong, after modals the infinitive has NO zu. And “für zu lernen” doesn't exist: purpose = um … zu.",
+  "exercises": [
+    {
+      "id": "tb1-u30-l21-infinitiv-rule-ex01",
+      "type": "explain",
+      "title": "Infinitive with zu · um … zu · ohne … zu",
+      "body": "After **versuchen, vergessen, anfangen, vorhaben, empfehlen, bitten** + after **Lust/Zeit/Angst haben, es ist wichtig/schwer**: infinitive with **zu**. Purpose = **um … zu**. Separable verbs: **aufzuräumen**. After modal verbs: NO zu.\n\n*Deutsch:* Nach **versuchen, vergessen, anfangen, vorhaben, empfehlen, bitten** + nach **Lust/Zeit/Angst haben, es ist wichtig/schwer**: Infinitiv mit **zu**. Ziel = **um … zu**. Trennbare Verben: **aufzuräumen**. Nach Modalverben: KEIN zu.\n\n*German name:* Infinitiv mit zu · um…zu · ohne…zu",
+      "examples": [
+        {
+          "learning": "Ich versuche, jeden Tag zu lernen.",
+          "known": "I try to study every day."
+        },
+        {
+          "learning": "Ich lerne Deutsch, um in Deutschland zu arbeiten.",
+          "known": "…in order to work in Germany."
+        },
+        {
+          "learning": "Vergiss nicht, die Blumen zu gießen!",
+          "known": "Don't forget to water the flowers! (classic letter task)"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u30-l21-infinitiv-rule-ex02",
+      "type": "explain",
+      "title": "Infinitive with zu · um … zu · ohne … zu: step by step",
+      "body": "When “zu + infinitive”? Three triggers:\n1) **Verbs**: versuchen, vergessen, anfangen, aufhören, vorhaben, hoffen, empfehlen, bitten, sich freuen … → Ich habe vergessen, die Tür **abzuschließen**.\n2) **Noun expressions**: Lust/Zeit/Angst/keine Möglichkeit haben → Hast du Lust, **mitzukommen**?\n3) **es ist + adjective**: Es ist wichtig/schwer/schön, … **zu lernen**.\nSpecial forms: purpose = **um … zu** (Ich lerne, um zu bestehen) · **ohne … zu** (he left ohne zu grüßen) · **anstatt … zu**.\nSeparable verbs: zu goes inside → auf**zu**räumen, ein**zu**kaufen.\nNO zu after: modal verbs, werden (future), gehen (einkaufen gehen), sehen/hören, lassen.\n\n## Auf Deutsch\n\nWann „zu + Infinitiv“? Drei Auslöser:\n1) **Verben**: versuchen, vergessen, anfangen, aufhören, vorhaben, hoffen, empfehlen, bitten, sich freuen … → Ich habe vergessen, die Tür **abzuschließen**.\n2) **Nomen-Ausdrücke**: Lust/Zeit/Angst/keine Möglichkeit haben → Hast du Lust, **mitzukommen**?\n3) **es ist + Adjektiv**: Es ist wichtig/schwer/schön, … **zu lernen**.\nSpezialformen: Ziel = **um … zu** (Ich lerne, um zu bestehen) · **ohne … zu** (er ging, ohne zu grüßen) · **anstatt … zu**.\nTrennbare Verben: zu in die Mitte → auf**zu**räumen, ein**zu**kaufen.\nKEIN zu nach: Modalverben, werden (Futur), gehen (einkaufen gehen), sehen/hören, lassen.",
+      "examples": [
+        {
+          "learning": "Ich versuche, jeden Tag zu lernen.",
+          "known": "I try to study every day."
+        },
+        {
+          "learning": "Ich lerne Deutsch, um in Deutschland zu arbeiten.",
+          "known": "…in order to work in Germany."
+        },
+        {
+          "learning": "Vergiss nicht, die Blumen zu gießen!",
+          "known": "Don't forget to water the flowers! (classic letter task)"
+        },
+        {
+          "learning": "Er ist gegangen, ohne sich zu verabschieden.",
+          "known": "He left without saying goodbye."
+        },
+        {
+          "learning": "Testlücke-Stil: „Ich habe vor, einen Kurs ___.“ → zu besuchen",
+          "known": "vorhaben + zu-infinitive"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u30-l21-infinitiv-rule-ex03",
+      "type": "explain",
+      "title": "Watch out & exam tip",
+      "body": "## Common trap\n\n“Ich muss zu arbeiten” is wrong, after modals the infinitive has NO zu. And “für zu lernen” doesn't exist: purpose = um … zu.\n\n*Deutsch:* „Ich muss zu arbeiten“ ist falsch, nach Modalverben Infinitiv OHNE zu. Und „für zu lernen“ gibt es nicht: Ziel = um … zu.\n\n## In the exam\n\n🎯 How telc tests it: **Sprachbausteine part 2** loves hiding “zu” in the word bank. In the **letter** you constantly need “Ich schlage vor, … zu …” / “Ich bitte Sie, mir … zu schicken” (semi-formal).\n\n*Deutsch:* 🎯 So testet telc das: **Sprachbausteine Teil 2** versteckt „zu“ gern in der Wortbank. Im **Brief** brauchst du die Muster „Ich schlage vor, … zu …“ / „Ich bitte Sie, mir … zu schicken“ (halbformell) ständig.\n\n*Source:* Guide B8 · PDF „Infinitivsatz“"
+    },
+    {
+      "id": "tb1-u30-l21-infinitiv-rule-ex04",
+      "type": "choice",
+      "title": "Fill the gap",
+      "prompt": "Ich habe vergessen, die Tür ___.",
+      "options": [
+        {
+          "id": "a",
+          "text": "zu abschließen"
+        },
+        {
+          "id": "b",
+          "text": "abzuschließen"
+        },
+        {
+          "id": "c",
+          "text": "abschließen"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Trennbares Verb: zu geht in die Mitte → ab-zu-schließen."
+    },
+    {
+      "id": "tb1-u30-l21-infinitiv-rule-ex05",
+      "type": "choice",
+      "title": "Fill the gap",
+      "prompt": "Ich lerne Deutsch, ___ in Deutschland zu studieren.",
+      "options": [
+        {
+          "id": "a",
+          "text": "damit"
+        },
+        {
+          "id": "b",
+          "text": "für"
+        },
+        {
+          "id": "c",
+          "text": "um"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Gleiches Subjekt + Ziel = um … zu + Infinitiv."
+    },
+    {
+      "id": "tb1-u30-l21-infinitiv-rule-ex06",
+      "type": "choice",
+      "title": "Fill the gap",
+      "prompt": "Hast du Lust, am Samstag ins Kino ___?",
+      "options": [
+        {
+          "id": "a",
+          "text": "gegangen"
+        },
+        {
+          "id": "b",
+          "text": "zu gehen"
+        },
+        {
+          "id": "c",
+          "text": "gehen"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Lust haben + zu-Infinitiv: Lust, … zu gehen."
+    }
+  ]
+}

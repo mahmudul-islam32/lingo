@@ -1,0 +1,290 @@
+{
+  "id": "tb1-u16-l07-celebrations-invitations-2",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u16",
+  "title": "Celebrations & Invitations 2",
+  "tip": "Theme: Feste / Kultur / Einladungen (B1)",
+  "exercises": [
+    {
+      "id": "tb1-u16-l07-celebrations-invitations-2-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "der Gast",
+          "known": "guest"
+        },
+        {
+          "id": "p2",
+          "learning": "die Stimmung",
+          "known": "atmosphere"
+        },
+        {
+          "id": "p3",
+          "learning": "die Einladung",
+          "known": "invitation"
+        },
+        {
+          "id": "p4",
+          "learning": "zusagen",
+          "known": "to accept"
+        },
+        {
+          "id": "p5",
+          "learning": "verschieben",
+          "known": "to postpone"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u16-l07-celebrations-invitations-2-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „guest ↔ host“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "die Stimmung (nur Sg.), gute Stimmung"
+        },
+        {
+          "id": "b",
+          "text": "der Gast, die Gäste ↔ der Gastgeber, die Gastgeber"
+        },
+        {
+          "id": "c",
+          "text": "die Tradition, die Traditionen: traditionell"
+        },
+        {
+          "id": "d",
+          "text": "das Feuerwerk, die Feuerwerke"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**der Gast, die Gäste ↔ der Gastgeber, die Gastgeber** = guest ↔ host\n\n*Example:* Die Gastgeberin begrüßt alle Gäste an der Tür.\nThe host greets all the guests at the door."
+    },
+    {
+      "id": "tb1-u16-l07-celebrations-invitations-2-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „atmosphere, mood“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "der Feiertag, die Feiertage"
+        },
+        {
+          "id": "b",
+          "text": "die Party, die Partys: eine Party geben"
+        },
+        {
+          "id": "c",
+          "text": "der Geburtstag, die Geburtstage"
+        },
+        {
+          "id": "d",
+          "text": "die Stimmung (nur Sg.), gute Stimmung"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**die Stimmung (nur Sg.), gute Stimmung** = atmosphere, mood\n\n*Example:* Auf der Hochzeit war die Stimmung super, alle haben getanzt.\nThe atmosphere at the wedding was great; everyone danced."
+    },
+    {
+      "id": "tb1-u16-l07-celebrations-invitations-2-ex04",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u16-l07-celebrations-invitations-2-1.mp3"
+      },
+      "tiles": [
+        "mit",
+        "haben",
+        "Gastgeberin",
+        "begrüßt",
+        "großes",
+        "Tür",
+        "an",
+        "alle",
+        "der",
+        "Die",
+        "Gäste"
+      ],
+      "answers": [
+        "Die Gastgeberin begrüßt alle Gäste an der Tür."
+      ],
+      "explanation": "Die Gastgeberin begrüßt alle Gäste an der Tür.\n*The host greets all the guests at the door.*\n\n**der Gast, die Gäste ↔ der Gastgeber, die Gastgeber** = guest ↔ host"
+    },
+    {
+      "id": "tb1-u16-l07-celebrations-invitations-2-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which noun means „invitation: to invite“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "der Gast, die Gäste ↔ der Gastgeber, die Gastgeber"
+        },
+        {
+          "id": "b",
+          "text": "die Einladung, die Einladungen: einladen (hat eingeladen)"
+        },
+        {
+          "id": "c",
+          "text": "die Kultur, die Kulturen"
+        },
+        {
+          "id": "d",
+          "text": "die Stimmung (nur Sg.), gute Stimmung"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**die Einladung** = invitation: to invite\n*Plural: die Einladungen: einladen (hat eingeladen)*\n\n*Example:* Vielen Dank für die Einladung, ich komme gern!\nThanks a lot for the invitation, I'd love to come!"
+    },
+    {
+      "id": "tb1-u16-l07-celebrations-invitations-2-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Auf der Hochzeit war die Stimmung super, alle haben getanzt.",
+      "tiles": [
+        "midnight",
+        "The",
+        "everyone",
+        "atmosphere",
+        "danced",
+        "the",
+        "at",
+        "was",
+        "great",
+        "in",
+        "wedding",
+        "tomorrow"
+      ],
+      "answers": [
+        "The atmosphere at the wedding was great; everyone danced."
+      ],
+      "explanation": "**die Stimmung (nur Sg.), gute Stimmung** = atmosphere, mood"
+    },
+    {
+      "id": "tb1-u16-l07-celebrations-invitations-2-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which one means „to accept ↔ to cancel/decline“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Herzlichen Glückwunsch zum Geburtstag!"
+        },
+        {
+          "id": "b",
+          "text": "vorbereiten: die Vorbereitung, die Vorbereitungen"
+        },
+        {
+          "id": "c",
+          "text": "zusagen ↔ absagen"
+        },
+        {
+          "id": "d",
+          "text": "gratulieren + Dat. zu + Dat. Ich gratuliere dir zur bestandenen Prüfung!"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**zusagen ↔ absagen** = to accept ↔ to cancel/decline\n\n*Example:* Anna hat sofort zugesagt, aber Tom musste die Feier leider absagen.\nAnna accepted right away, but Tom unfortunately had to cancel on the celebration."
+    },
+    {
+      "id": "tb1-u16-l07-celebrations-invitations-2-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Thanks a lot for the invitation, I'd love to come!",
+      "tiles": [
+        "ich",
+        "bedankt",
+        "komme",
+        "für",
+        "gern",
+        "Dank",
+        "Vielen",
+        "wir",
+        "Einladung",
+        "die",
+        "Weihnachtsbaum"
+      ],
+      "answers": [
+        "Vielen Dank für die Einladung, ich komme gern!"
+      ],
+      "explanation": "**die Einladung** = invitation: to invite\n*Plural: die Einladungen: einladen (hat eingeladen)*"
+    },
+    {
+      "id": "tb1-u16-l07-celebrations-invitations-2-ex09",
+      "type": "multiple_choice",
+      "prompt": "Which verb means „to postpone“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "der Geburtstag, die Geburtstage"
+        },
+        {
+          "id": "b",
+          "text": "sich bedanken bei + Dat. für + Akk."
+        },
+        {
+          "id": "c",
+          "text": "mitbringen (hat mitgebracht). Was soll ich mitbringen?"
+        },
+        {
+          "id": "d",
+          "text": "verschieben (hat verschoben)"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**verschieben (hat verschoben)** = to postpone\n\n*Example:* Wir müssen das Grillfest verschieben, weil es morgen regnet.\nWe have to postpone the barbecue because it's going to rain tomorrow."
+    },
+    {
+      "id": "tb1-u16-l07-celebrations-invitations-2-ex10",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u16-l07-celebrations-invitations-2-4.mp3"
+      },
+      "tiles": [
+        "leider",
+        "hat",
+        "absagen",
+        "Feier",
+        "aber",
+        "die",
+        "zugesagt",
+        "sofort",
+        "musste",
+        "Tom",
+        "seiner",
+        "Meine",
+        "Anna",
+        "interessiert"
+      ],
+      "answers": [
+        "Anna hat sofort zugesagt, aber Tom musste die Feier leider absagen."
+      ],
+      "explanation": "Anna hat sofort zugesagt, aber Tom musste die Feier leider absagen.\n*Anna accepted right away, but Tom unfortunately had to cancel on the celebration.*\n\n**zusagen ↔ absagen** = to accept ↔ to cancel/decline"
+    },
+    {
+      "id": "tb1-u16-l07-celebrations-invitations-2-ex11",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Wir müssen das Grillfest verschieben, weil es morgen regnet.",
+      "tiles": [
+        "barbecue",
+        "rain",
+        "I'd",
+        "postpone",
+        "to",
+        "tomorrow",
+        "throwing",
+        "have",
+        "the",
+        "it's",
+        "invitation",
+        "because",
+        "to",
+        "We",
+        "going"
+      ],
+      "answers": [
+        "We have to postpone the barbecue because it's going to rain tomorrow."
+      ],
+      "explanation": "**verschieben (hat verschoben)** = to postpone"
+    }
+  ]
+}

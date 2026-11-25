@@ -1,0 +1,295 @@
+{
+  "id": "tb1-u15-l03-free-time-sport-3",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u15",
+  "title": "Free Time & Sport 3",
+  "tip": "Theme: Freizeit / Sport (B1)",
+  "exercises": [
+    {
+      "id": "tb1-u15-l03-free-time-sport-3-ex01",
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "id": "p1",
+          "learning": "sich ausruhen",
+          "known": "to rest"
+        },
+        {
+          "id": "p2",
+          "learning": "sich langweilen",
+          "known": "to be bored"
+        },
+        {
+          "id": "p3",
+          "learning": "lesen",
+          "known": "to read"
+        },
+        {
+          "id": "p4",
+          "learning": "sich treffen mit",
+          "known": "to meet up with"
+        },
+        {
+          "id": "p5",
+          "learning": "etwas unternehmen",
+          "known": "to do something (go out)"
+        }
+      ]
+    },
+    {
+      "id": "tb1-u15-l03-free-time-sport-3-ex02",
+      "type": "multiple_choice",
+      "prompt": "Which verb means „to rest · to relax“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "sich ausruhen · sich entspannen"
+        },
+        {
+          "id": "b",
+          "text": "joggen (ist gejoggt)"
+        },
+        {
+          "id": "c",
+          "text": "sich freuen auf + Akk. (future) ↔ sich freuen über + Akk. (now)"
+        },
+        {
+          "id": "d",
+          "text": "sich treffen mit + Dat. (hat sich getroffen)"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**sich ausruhen · sich entspannen** = to rest · to relax\n\n*Example:* Nach der Arbeit ruhe ich mich auf dem Sofa aus und entspanne mich.\nAfter work I rest on the sofa and relax."
+    },
+    {
+      "id": "tb1-u15-l03-free-time-sport-3-ex03",
+      "type": "multiple_choice",
+      "prompt": "Which verb means „to be bored: boredom“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Rad fahren (ist Rad gefahren)"
+        },
+        {
+          "id": "b",
+          "text": "sich fit halten"
+        },
+        {
+          "id": "c",
+          "text": "sich langweilen: die Langeweile"
+        },
+        {
+          "id": "d",
+          "text": "joggen (ist gejoggt)"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "**sich langweilen: die Langeweile** = to be bored: boredom\n\n*Example:* Am Sonntag regnet es, und die Kinder langweilen sich zu Hause.\nIt's raining on Sunday and the children are bored at home."
+    },
+    {
+      "id": "tb1-u15-l03-free-time-sport-3-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "After work I rest on the sofa and relax.",
+      "tiles": [
+        "für",
+        "entspanne",
+        "auf",
+        "dem",
+        "Nach",
+        "mich",
+        "am",
+        "Sofa",
+        "mich",
+        "der",
+        "ich",
+        "ruhe",
+        "Arbeit",
+        "aus",
+        "Urlaub",
+        "und"
+      ],
+      "answers": [
+        "Nach der Arbeit ruhe ich mich auf dem Sofa aus und entspanne mich."
+      ],
+      "explanation": "**sich ausruhen · sich entspannen** = to rest · to relax"
+    },
+    {
+      "id": "tb1-u15-l03-free-time-sport-3-ex05",
+      "type": "multiple_choice",
+      "prompt": "Which one means „to read: novel“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "lesen: der Roman, die Romane"
+        },
+        {
+          "id": "b",
+          "text": "trainieren, das Training (nur Sg.)"
+        },
+        {
+          "id": "c",
+          "text": "kostenlos"
+        },
+        {
+          "id": "d",
+          "text": "die Eintrittskarte, die Eintrittskarten, der Eintritt. Der Eintritt ist frei."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**lesen: der Roman, die Romane** = to read: novel\n\n*Example:* Im Urlaub liest Maria gern einen spannenden Roman am Strand.\nOn holiday Maria likes to read an exciting novel on the beach."
+    },
+    {
+      "id": "tb1-u15-l03-free-time-sport-3-ex06",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u15-l03-free-time-sport-3-2.mp3"
+      },
+      "tiles": [
+        "in",
+        "und",
+        "Veranstaltungen",
+        "um",
+        "Hause",
+        "die",
+        "es",
+        "zu",
+        "Am",
+        "langweilen",
+        "Sonntag",
+        "regnet",
+        "sich",
+        "Kinder"
+      ],
+      "answers": [
+        "Am Sonntag regnet es, und die Kinder langweilen sich zu Hause."
+      ],
+      "explanation": "Am Sonntag regnet es, und die Kinder langweilen sich zu Hause.\n*It's raining on Sunday and the children are bored at home.*\n\n**sich langweilen: die Langeweile** = to be bored: boredom"
+    },
+    {
+      "id": "tb1-u15-l03-free-time-sport-3-ex07",
+      "type": "multiple_choice",
+      "prompt": "Which verb means „to meet up with“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "sich freuen auf + Akk. (future) ↔ sich freuen über + Akk. (now)"
+        },
+        {
+          "id": "b",
+          "text": "sich treffen mit + Dat. (hat sich getroffen)"
+        },
+        {
+          "id": "c",
+          "text": "sich interessieren für + Akk. das Interesse an + Dat."
+        },
+        {
+          "id": "d",
+          "text": "schwimmen (ist geschwommen), das Schwimmbad, die Schwimmbäder"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**sich treffen mit + Dat. (hat sich getroffen)** = to meet up with\n\n*Example:* Heute Abend treffe ich mich mit meinen Freunden im Café.\nThis evening I'm meeting up with my friends at the café."
+    },
+    {
+      "id": "tb1-u15-l03-free-time-sport-3-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_known",
+      "prompt": "Im Urlaub liest Maria gern einen spannenden Roman am Strand.",
+      "tiles": [
+        "for",
+        "read",
+        "likes",
+        "novel",
+        "on",
+        "to",
+        "the",
+        "exciting",
+        "I",
+        "beach",
+        "On",
+        "an",
+        "Maria",
+        "holiday",
+        "at"
+      ],
+      "answers": [
+        "On holiday Maria likes to read an exciting novel on the beach."
+      ],
+      "explanation": "**lesen: der Roman, die Romane** = to read: novel"
+    },
+    {
+      "id": "tb1-u15-l03-free-time-sport-3-ex09",
+      "type": "multiple_choice",
+      "prompt": "Which verb means „to do something (go out): exam favourite“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "sich interessieren für + Akk. das Interesse an + Dat."
+        },
+        {
+          "id": "b",
+          "text": "sich fit halten"
+        },
+        {
+          "id": "c",
+          "text": "joggen (ist gejoggt)"
+        },
+        {
+          "id": "d",
+          "text": "etwas unternehmen (hat unternommen)"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "**etwas unternehmen (hat unternommen)** = to do something (go out): exam favourite\n\n*Example:* Wollen wir am Wochenende etwas zusammen unternehmen?\nShall we do something together at the weekend?"
+    },
+    {
+      "id": "tb1-u15-l03-free-time-sport-3-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "This evening I'm meeting up with my friends at the café.",
+      "tiles": [
+        "Heute",
+        "wir",
+        "Freunden",
+        "Café",
+        "im",
+        "Abend",
+        "mich",
+        "Stadtbibliothek",
+        "ich",
+        "meinen",
+        "treffe",
+        "mit",
+        "75"
+      ],
+      "answers": [
+        "Heute Abend treffe ich mich mit meinen Freunden im Café."
+      ],
+      "explanation": "**sich treffen mit + Dat. (hat sich getroffen)** = to meet up with"
+    },
+    {
+      "id": "tb1-u15-l03-free-time-sport-3-ex11",
+      "type": "listen",
+      "audio": {
+        "src": "/audio/de/telc/tb1-u15-l03-free-time-sport-3-5.mp3"
+      },
+      "tiles": [
+        "wir",
+        "am",
+        "etwas",
+        "schwimmen",
+        "unternehmen",
+        "zusammen",
+        "Wochenende",
+        "oft",
+        "Wollen",
+        "im"
+      ],
+      "answers": [
+        "Wollen wir am Wochenende etwas zusammen unternehmen?"
+      ],
+      "explanation": "Wollen wir am Wochenende etwas zusammen unternehmen?\n*Shall we do something together at the weekend?*\n\n**etwas unternehmen (hat unternommen)** = to do something (go out): exam favourite"
+    }
+  ]
+}

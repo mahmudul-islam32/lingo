@@ -1,0 +1,169 @@
+{
+  "id": "tb1-u31-l18-passiv-p2",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u31",
+  "title": "The Passive: Passiv mit Modalverb",
+  "tip": "“Das Haus ist 1990 gebaut” is incomplete, either “wurde 1990 gebaut” or “ist 1990 gebaut worden”.",
+  "exercises": [
+    {
+      "id": "tb1-u31-l18-passiv-p2-ex01",
+      "type": "explain",
+      "title": "Passiv mit Modalverb",
+      "body": "Modal verb + participle II + werden at the end.\n\n*Deutsch:* Modalverb + Partizip II + werden am Ende.\n\n## Pattern\n\nSubjekt + **muss/kann** + … + **Partizip II + werden**",
+      "examples": [
+        {
+          "learning": "Die Heizung muss repariert werden.",
+          "known": "The heating needs to be repaired."
+        },
+        {
+          "learning": "Das Formular kann online ausgefüllt werden.",
+          "known": "The form can be filled in online."
+        }
+      ]
+    },
+    {
+      "id": "tb1-u31-l18-passiv-p2-ex02",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "The heating needs to be repaired.",
+      "tiles": [
+        "werden",
+        "geputzt",
+        "sehr",
+        "Heizung",
+        "Die",
+        "muss",
+        "ist",
+        "repariert"
+      ],
+      "answers": [
+        "Die Heizung muss repariert werden."
+      ],
+      "explanation": "**Why:** Typical for complaints to the landlord.\n\n*Warum:* Typisch für Beschwerden an den Vermieter."
+    },
+    {
+      "id": "tb1-u31-l18-passiv-p2-ex03",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "The form can be filled in online.",
+      "tiles": [
+        "kann",
+        "ausgefüllt",
+        "Der",
+        "Morgen",
+        "wurde",
+        "Formular",
+        "online",
+        "werden",
+        "Das"
+      ],
+      "answers": [
+        "Das Formular kann online ausgefüllt werden."
+      ],
+      "explanation": "**Why:** kann … ausgefüllt werden.\n\n*Warum:* kann … ausgefüllt werden."
+    },
+    {
+      "id": "tb1-u31-l18-passiv-p2-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "The bill must be paid by Monday.",
+      "tiles": [
+        "muss",
+        "werden",
+        "Rechnung",
+        "Montag",
+        "wurden",
+        "bis",
+        "bezahlt",
+        "Paket",
+        "Fenster",
+        "Die"
+      ],
+      "answers": [
+        "Die Rechnung muss bis Montag bezahlt werden."
+      ],
+      "explanation": "**Why:** Deadline in the passive.\n\n*Warum:* Frist im Passiv."
+    },
+    {
+      "id": "tb1-u31-l18-passiv-p2-ex05",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Parking is not allowed here.",
+      "tiles": [
+        "nicht",
+        "werden",
+        "bis",
+        "geparkt",
+        "Das",
+        "geliefert",
+        "Hier",
+        "darf"
+      ],
+      "answers": [
+        "Hier darf nicht geparkt werden."
+      ],
+      "explanation": "**Why:** Prohibition in the passive.\n\n*Warum:* Verbot im Passiv."
+    },
+    {
+      "id": "tb1-u31-l18-passiv-p2-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "The windows are to be cleaned tomorrow.",
+      "tiles": [
+        "werden",
+        "Auto",
+        "morgen",
+        "geputzt",
+        "sollen",
+        "Deutsch",
+        "gebaut",
+        "Fenster",
+        "Die"
+      ],
+      "answers": [
+        "Die Fenster sollen morgen geputzt werden."
+      ],
+      "explanation": "**Why:** Plural: sollen.\n\n*Warum:* Plural: sollen."
+    },
+    {
+      "id": "tb1-u31-l18-passiv-p2-ex07",
+      "type": "choice",
+      "title": "Fill the gap",
+      "prompt": "Die Rechnung ist gestern ___ worden.",
+      "options": [
+        {
+          "id": "a",
+          "text": "bezahlen"
+        },
+        {
+          "id": "b",
+          "text": "bezahlte"
+        },
+        {
+          "id": "c",
+          "text": "bezahlt"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Passiv Perfekt: ist + Partizip II + worden."
+    },
+    {
+      "id": "tb1-u31-l18-passiv-p2-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Rewrite the sentence in the passive: Man renoviert das Haus.",
+      "tiles": [
+        "Haus",
+        "gestohlen",
+        "wird",
+        "Das",
+        "renoviert",
+        "Museum"
+      ],
+      "answers": [
+        "Das Haus wird renoviert."
+      ],
+      "explanation": "Passiv Präsens: werden + Partizip II.\n\n*Deutsch:* Schreib den Satz im Passiv:"
+    }
+  ]
+}

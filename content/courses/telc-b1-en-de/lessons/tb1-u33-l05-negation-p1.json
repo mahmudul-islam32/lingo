@@ -1,0 +1,330 @@
+{
+  "id": "tb1-u33-l05-negation-p1",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u33",
+  "title": "Negation: nicht or kein: kein & nicht",
+  "tip": "“Ich habe nicht Zeit” → keine Zeit. “Ich nicht komme” → Ich komme nicht. Nicht never jumps before the conjugated verb.",
+  "exercises": [
+    {
+      "id": "tb1-u33-l05-negation-p1-ex01",
+      "type": "explain",
+      "title": "kein · Nomen ohne/mit unbestimmtem Artikel",
+      "body": "kein negates nouns with ein or no article. Endings like ein.\n\n*Deutsch:* kein verneint Nomen mit ein oder ohne Artikel. Endungen wie ein.\n\n## Pattern\n\nSubjekt + Verb + **kein/keine/keinen** + Nomen",
+      "examples": [
+        {
+          "learning": "Ich habe keine Zeit.",
+          "known": "I don't have any time."
+        },
+        {
+          "learning": "Wir haben keinen Fernseher.",
+          "known": "We don't have a TV."
+        }
+      ]
+    },
+    {
+      "id": "tb1-u33-l05-negation-p1-ex02",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I don't have any time.",
+      "tiles": [
+        "keine",
+        "ist",
+        "Das",
+        "Ich",
+        "Zeit",
+        "habe",
+        "nicht"
+      ],
+      "answers": [
+        "Ich habe keine Zeit."
+      ],
+      "explanation": "**Why:** Zeit without article → keine.\n\n*Warum:* Zeit ohne Artikel → keine."
+    },
+    {
+      "id": "tb1-u33-l05-negation-p1-ex03",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "We don't have a TV.",
+      "tiles": [
+        "Bus",
+        "keinen",
+        "haben",
+        "Wir",
+        "auf",
+        "nicht",
+        "Fernseher"
+      ],
+      "answers": [
+        "Wir haben keinen Fernseher."
+      ],
+      "explanation": "**Why:** einen Fernseher → keinen.\n\n*Warum:* einen Fernseher → keinen."
+    },
+    {
+      "id": "tb1-u33-l05-negation-p1-ex04",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "That's no problem.",
+      "tiles": [
+        "kommt",
+        "ist",
+        "Fernseher",
+        "Leider",
+        "Das",
+        "kein",
+        "Problem"
+      ],
+      "answers": [
+        "Das ist kein Problem."
+      ],
+      "explanation": "**Why:** ein Problem → kein.\n\n*Warum:* ein Problem → kein."
+    },
+    {
+      "id": "tb1-u33-l05-negation-p1-ex05",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "He doesn't drink alcohol.",
+      "tiles": [
+        "ich",
+        "keinen",
+        "trinkt",
+        "Er",
+        "keine",
+        "→",
+        "Alkohol"
+      ],
+      "answers": [
+        "Er trinkt keinen Alkohol."
+      ],
+      "explanation": "**Why:** Alkohol (masc.) → keinen.\n\n*Warum:* Alkohol (mask.) → keinen."
+    },
+    {
+      "id": "tb1-u33-l05-negation-p1-ex06",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Unfortunately I don't have children.",
+      "tiles": [
+        "Ich",
+        "leider",
+        "kein",
+        "mein",
+        "keine",
+        "habe",
+        "keinen",
+        "Kinder"
+      ],
+      "answers": [
+        "Ich habe leider keine Kinder."
+      ],
+      "explanation": "**Why:** Plural → keine.\n\n*Warum:* Plural → keine."
+    },
+    {
+      "id": "tb1-u33-l05-negation-p1-ex07",
+      "type": "explain",
+      "title": "nicht · Verben, Adjektive, bestimmte Nomen",
+      "body": "nicht goes as late as possible, but before adjectives, prepositional phrases and the second verb part.\n\n*Deutsch:* nicht steht möglichst spät, aber vor Adjektiv, Präpositionalgruppe und zweitem Verbteil.\n\n## Pattern\n\n… + **nicht** + Adjektiv/Präp./Verbteil 2",
+      "examples": [
+        {
+          "learning": "Ich komme heute nicht.",
+          "known": "I'm not coming today."
+        },
+        {
+          "learning": "Das Essen ist nicht warm.",
+          "known": "The food isn't warm."
+        }
+      ]
+    },
+    {
+      "id": "tb1-u33-l05-negation-p1-ex08",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I'm not coming today.",
+      "tiles": [
+        "haben",
+        "keinen",
+        "heute",
+        "komme",
+        "Essen",
+        "Ich",
+        "nicht"
+      ],
+      "answers": [
+        "Ich komme heute nicht."
+      ],
+      "explanation": "**Why:** Verb negated → nicht at the end.\n\n*Warum:* Verb verneint → nicht am Ende."
+    },
+    {
+      "id": "tb1-u33-l05-negation-p1-ex09",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "The food isn't warm.",
+      "tiles": [
+        "nicht",
+        "habe",
+        "ist",
+        "warm",
+        "Das",
+        "heute",
+        "Essen",
+        "Ich"
+      ],
+      "answers": [
+        "Das Essen ist nicht warm."
+      ],
+      "explanation": "**Why:** nicht before the adjective.\n\n*Warum:* nicht vor dem Adjektiv."
+    },
+    {
+      "id": "tb1-u33-l05-negation-p1-ex10",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "I can't come today.",
+      "tiles": [
+        "Zeit",
+        "Ich",
+        "kommen",
+        "heute",
+        "keinen",
+        "Kino",
+        "kann",
+        "nicht"
+      ],
+      "answers": [
+        "Ich kann heute nicht kommen."
+      ],
+      "explanation": "**Why:** nicht before the infinitive.\n\n*Warum:* nicht vor dem Infinitiv."
+    },
+    {
+      "id": "tb1-u33-l05-negation-p1-ex11",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "That's not my phone.",
+      "tiles": [
+        "kann",
+        "ist",
+        "Er",
+        "mein",
+        "keine",
+        "Handy",
+        "Das",
+        "nicht"
+      ],
+      "answers": [
+        "Das ist nicht mein Handy."
+      ],
+      "explanation": "**Why:** With a possessive (mein) → nicht.\n\n*Warum:* Mit Possessiv (mein) → nicht."
+    },
+    {
+      "id": "tb1-u33-l05-negation-p1-ex12",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "We're not going to Berlin.",
+      "tiles": [
+        "Wir",
+        "fahren",
+        "kommen",
+        "Ich",
+        "Berlin",
+        "nach",
+        "nicht",
+        "kommt"
+      ],
+      "answers": [
+        "Wir fahren nicht nach Berlin."
+      ],
+      "explanation": "**Why:** nicht before the prepositional phrase.\n\n*Warum:* nicht vor der Präpositionalgruppe."
+    },
+    {
+      "id": "tb1-u33-l05-negation-p1-ex13",
+      "type": "choice",
+      "title": "Fill the gap",
+      "prompt": "Wir haben ___ Auto, wir fahren mit dem Rad.",
+      "options": [
+        {
+          "id": "a",
+          "text": "kein"
+        },
+        {
+          "id": "b",
+          "text": "nichts"
+        },
+        {
+          "id": "c",
+          "text": "nicht"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Nomen mit (weggelassenem) unbestimmtem Artikel → kein Auto."
+    },
+    {
+      "id": "tb1-u33-l05-negation-p1-ex14",
+      "type": "choice",
+      "title": "Fill the gap",
+      "prompt": "Ich verstehe dich ___ gut bei dem Lärm.",
+      "options": [
+        {
+          "id": "a",
+          "text": "keine"
+        },
+        {
+          "id": "b",
+          "text": "kein"
+        },
+        {
+          "id": "c",
+          "text": "nicht"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Adjektiv/Adverb negieren → nicht gut."
+    },
+    {
+      "id": "tb1-u33-l05-negation-p1-ex15",
+      "type": "choice",
+      "title": "Find the mistake",
+      "prompt": "Which word is wrong? „Ich habe heute nicht Zeit.“",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ich"
+        },
+        {
+          "id": "b",
+          "text": "habe"
+        },
+        {
+          "id": "c",
+          "text": "heute"
+        },
+        {
+          "id": "d",
+          "text": "nicht"
+        },
+        {
+          "id": "e",
+          "text": "Zeit"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "„nicht“ → „keine“: **Ich habe heute keine Zeit.**\n\nNomen ohne Artikel wird mit kein- verneint: keine Zeit."
+    },
+    {
+      "id": "tb1-u33-l05-negation-p1-ex16",
+      "type": "word_bank_translate",
+      "direction": "to_learning",
+      "prompt": "Correct the sentence: „Ich habe heute nicht Zeit.“",
+      "tiles": [
+        "→",
+        "heute",
+        "Zeit",
+        "Ich",
+        "keine",
+        "nicht",
+        "habe",
+        "Das"
+      ],
+      "answers": [
+        "Ich habe heute keine Zeit."
+      ],
+      "explanation": "Nomen ohne Artikel wird mit kein- verneint: keine Zeit."
+    }
+  ]
+}

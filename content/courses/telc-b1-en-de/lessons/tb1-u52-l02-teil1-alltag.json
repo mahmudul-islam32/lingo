@@ -1,0 +1,110 @@
+{
+  "id": "tb1-u52-l02-teil1-alltag",
+  "courseId": "telc-b1-en-de",
+  "unitId": "tb1-u52",
+  "title": "Part 1 · Alltag",
+  "tip": "Each text runs only once in the exam.",
+  "exercises": [
+    {
+      "id": "tb1-u52-l02-teil1-alltag-ex01",
+      "type": "explain",
+      "title": "Teil 1 · Globalverstehen",
+      "body": "**5 short texts (messages, announcements), each played only once.** Read the statement first, then listen for the one detail it checks: confirmed or cancelled, which platform, which day, what time.\n\nThe right answer is often a paraphrase (*zusätzliche Kasse* = *an Kasse vier ist jetzt auch geöffnet*)."
+    },
+    {
+      "id": "tb1-u52-l02-teil1-alltag-ex02",
+      "type": "listening",
+      "title": "Hören Teil 1 · Text 1 von 5 · Alltag",
+      "transcript": "Guten Tag, hier die Autowerkstatt Berg. Ihr Wagen ist fertig, Sie können ihn ab vierzehn Uhr abholen.",
+      "prompt": "41. Das Auto ist noch nicht fertig. Richtig oder falsch?",
+      "options": [
+        {
+          "id": "a",
+          "text": "richtig"
+        },
+        {
+          "id": "b",
+          "text": "falsch"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Falsch.** „ist fertig“, bereit zum Abholen."
+    },
+    {
+      "id": "tb1-u52-l02-teil1-alltag-ex03",
+      "type": "listening",
+      "title": "Hören Teil 1 · Text 2 von 5 · Alltag",
+      "transcript": "Achtung am Bahnsteig: Der ICE nach Hamburg hat heute etwa fünfzehn Minuten Verspätung.",
+      "prompt": "42. Der Zug nach Hamburg kommt pünktlich. Richtig oder falsch?",
+      "options": [
+        {
+          "id": "a",
+          "text": "richtig"
+        },
+        {
+          "id": "b",
+          "text": "falsch"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Falsch.** 15 Minuten Verspätung, nicht pünktlich."
+    },
+    {
+      "id": "tb1-u52-l02-teil1-alltag-ex04",
+      "type": "listening",
+      "title": "Hören Teil 1 · Text 3 von 5 · Alltag",
+      "transcript": "Und jetzt das Wetter: Am Vormittag noch Wolken, am Nachmittag wird es sonnig und trocken.",
+      "prompt": "43. Am Nachmittag bleibt es trocken. Richtig oder falsch?",
+      "options": [
+        {
+          "id": "a",
+          "text": "richtig"
+        },
+        {
+          "id": "b",
+          "text": "falsch"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Richtig.** „sonnig und trocken“ am Nachmittag. Paraphrase."
+    },
+    {
+      "id": "tb1-u52-l02-teil1-alltag-ex05",
+      "type": "listening",
+      "title": "Hören Teil 1 · Text 4 von 5 · Alltag",
+      "transcript": "Hallo Frau Meier, Ihre Bestellung ist angekommen. Sie können sie leider erst ab Montag abholen.",
+      "prompt": "44. Die Bestellung kann man schon heute abholen. Richtig oder falsch?",
+      "options": [
+        {
+          "id": "a",
+          "text": "richtig"
+        },
+        {
+          "id": "b",
+          "text": "falsch"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "**Falsch.** „erst ab Montag“, nicht früher."
+    },
+    {
+      "id": "tb1-u52-l02-teil1-alltag-ex06",
+      "type": "listening",
+      "title": "Hören Teil 1 · Text 5 von 5 · Alltag",
+      "transcript": "Der Supermarkt schließt heute wegen einer Betriebsversammlung bereits um sechzehn Uhr.",
+      "prompt": "45. Der Supermarkt schließt heute früher als sonst. Richtig oder falsch?",
+      "options": [
+        {
+          "id": "a",
+          "text": "richtig"
+        },
+        {
+          "id": "b",
+          "text": "falsch"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "**Richtig.** schon um 16 Uhr = früher. Paraphrase."
+    }
+  ]
+}
