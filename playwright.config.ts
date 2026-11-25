@@ -30,6 +30,9 @@ export default defineConfig({
     {
       name: "pwa-prod",
       testMatch: PWA_SPECS,
+      // FIX-013: the service-worker install precaches ~1,600 entries since the telc courses
+      // (TELC-001), which can take longer than the default 30 s test timeout under load.
+      timeout: 90_000,
       use: { ...devices["Pixel 7"], baseURL: pwaBaseURL, serviceWorkers: "allow" },
     },
   ],
