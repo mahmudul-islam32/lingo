@@ -10,8 +10,9 @@ import { SettingsRow, useUpdateSettings } from "@/features/profile";
 export const SOUND_EFFECTS_LABEL = "Sound effects";
 export const SOUND_EFFECTS_ON = "On";
 export const SOUND_EFFECTS_OFF = "Off";
-export const TURN_SOUND_EFFECTS_ON = "Turn sound effects on";
-export const TURN_SOUND_EFFECTS_OFF = "Turn sound effects off";
+// The accessible name contains the visible "Turn on" / "Turn off" (WCAG 2.5.3, FIX-012).
+export const TURN_SOUND_EFFECTS_ON = "Turn on sound effects";
+export const TURN_SOUND_EFFECTS_OFF = "Turn off sound effects";
 export const SOUND_EFFECTS_SAVE_ERROR = "We couldn't save your sound setting. Try again.";
 
 /**
