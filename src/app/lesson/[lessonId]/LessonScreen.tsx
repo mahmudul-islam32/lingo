@@ -5,7 +5,12 @@ import { useRouter } from "next/navigation";
 import { useCallback, useEffect, useRef, useState } from "react";
 import type { CefrLevel, Course, LessonResult, Slug, Uuid } from "@/contracts";
 import { useToast } from "@/components/ui";
-import { settingsQuery, useUserProgress } from "@/features/gamification";
+import {
+  settingsQuery,
+  useActiveCourseId,
+  useGoalPlan,
+  useUserProgress,
+} from "@/features/gamification";
 import {
   HeartsLessonPlayer,
   LessonPlayerError,
@@ -91,6 +96,14 @@ export function LessonScreen({
   const loadProgress = useProgressRepositoryLoader();
   const invalidateProgress = useInvalidateProgress();
   const progress = useUserProgress(courseId);
+  // PLT-027 AC 13 / LES-022: the goal-date status for the results screen. It re-derives
+  // from ["progress", courseId] once `handleSaved` invalidates it, so it includes this lesson.
+  // Only for the active course (the one Learn and Profile plan for, TELC-001 course switch);
+  // courses without levels (exam courses, en-es) get `null` from `computeGoalPlan`: no row.
+  const activeCourse = useActiveCourseId();
+  const lessonGoalPlan = useGoalPlan({ courseId });
+  const goalPlan =
+    activeCourse.pending || activeCourse.courseId === courseId ? lessonGoalPlan : null;
   const settings = useQuery(settingsQuery());
   const toast = useToast();
   const [finished, setFinished] = useState<LessonResult | null>(null);
@@ -162,10 +175,6 @@ export function LessonScreen({
   }
 
   if (finished) {
-    // TODO(cto): PLT-027 AC 13 waits for LES-022 (the `ResultsScreen` goal-plan prop, not
-    // pushed when PLT-027 was built). Then: `const goalPlan = useGoalPlan({ courseId })` at
-    // the top of this component (it re-derives from ["progress"] once the result is saved)
-    // and pass `goalPlan` here only when it isn't `null`/`undefined`.
     return (
       <ResultsScreen
         result={finished}
@@ -173,6 +182,7 @@ export function LessonScreen({
         onSaved={handleSaved}
         onContinue={goToLearn}
         onRetryLesson={practiceAgain}
+        goalPlan={goalPlan}
       />
     );
   }

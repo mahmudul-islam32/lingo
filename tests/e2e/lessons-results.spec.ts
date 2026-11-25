@@ -7,6 +7,7 @@ import {
   lessonUrl,
   nodeNamePattern,
 } from "./helpers/course";
+import { expectNoSeriousA11yViolations } from "./axe";
 import { completeOnboarding } from "./onboarding-helpers";
 
 /**
@@ -24,8 +25,47 @@ import { completeOnboarding } from "./onboarding-helpers";
 const LESSON = germanLesson1();
 const KEYBOARD = { keyboard: true };
 
-async function startLesson1(page: Page) {
+/** LES-022: stores `settings.goalPlan` on the device (test setup) and reloads. */
+async function seedGoalPlan(page: Page, goalPlan: { targetLevel: string; targetDate: string }) {
+  await page.evaluate(
+    (goalPlan) =>
+      new Promise<void>((resolve, reject) => {
+        const open = indexedDB.open("polyglow");
+        open.onerror = () => reject(open.error);
+        open.onsuccess = () => {
+          const db = open.result;
+          const tx = db.transaction("settings", "readwrite");
+          const store = tx.objectStore("settings");
+          const read = store.get("current");
+          read.onsuccess = () => {
+            if (!read.result) return reject(new Error("finish onboarding first"));
+            store.put({ ...read.result, goalPlan }, "current");
+          };
+          tx.oncomplete = () => {
+            db.close();
+            resolve();
+          };
+          tx.onerror = () => reject(tx.error);
+        };
+      }),
+    goalPlan,
+  );
+  await page.reload();
+}
+
+/** `YYYY-MM-DD`, `days` after today in the browser's zone. */
+async function localDatePlus(page: Page, days: number): Promise<string> {
+  return page.evaluate((days) => {
+    const d = new Date();
+    d.setDate(d.getDate() + days);
+    const pad = (n: number) => String(n).padStart(2, "0");
+    return `${d.getFullYear()}-${pad(d.getMonth() + 1)}-${pad(d.getDate())}`;
+  }, days);
+}
+
+async function startLesson1(page: Page, beforeStart?: () => Promise<void>) {
   await completeOnboarding(page);
+  if (beforeStart) await beforeStart();
   const card = page.getByRole("link", { name: nodeNamePattern(GERMAN_LESSON_1, "up next") });
   await card.focus();
   await card.press("Enter");
@@ -95,5 +135,32 @@ test.describe("LES-008 lesson results", () => {
     const stats = page.getByRole("list", { name: "Lesson stats" });
     await expect(stats.getByRole("listitem").nth(0)).toContainText("10");
     await expect(page.getByText(/Perfect lesson!/)).toHaveCount(0);
+  });
+
+  test("LES-022 AC 8: with a goal date, all rows and Continue fit without scrolling", async ({
+    page,
+  }) => {
+    await startLesson1(page, async () =>
+      seedGoalPlan(page, { targetLevel: "A2", targetDate: await localDatePlus(page, 120) }),
+    );
+    for (const exercise of LESSON.exercises) await answerCorrectly(page, exercise, KEYBOARD);
+    await expect(page.getByRole("heading", { level: 1, name: "Lesson complete!" })).toBeFocused();
+    const stats = page.getByRole("list", { name: "Lesson stats" });
+    await expect(stats.getByRole("listitem").nth(4)).toContainText("Daily goal");
+    const row = page.getByTestId("goal-date-row");
+    // The lesson route passes the goal-date status to the results screen (PLT-027 AC 13).
+    await expect(row).toBeVisible();
+    await expect(stats.getByRole("listitem")).toHaveCount(6);
+    await expect(stats.getByRole("listitem").nth(5)).toContainText(
+      /^Goal: A2 by .+ lessons? left$/,
+    );
+    await expect(row).toBeInViewport({ ratio: 1 });
+    await expect(page.getByRole("button", { name: "Continue" })).toBeInViewport({ ratio: 1 });
+    await expect(page.getByRole("button", { name: "Practice again" })).toBeInViewport();
+    const scrolls = await page.evaluate(
+      () => document.documentElement.scrollHeight > window.innerHeight,
+    );
+    expect(scrolls).toBe(false);
+    await expectNoSeriousA11yViolations(page);
   });
 });
