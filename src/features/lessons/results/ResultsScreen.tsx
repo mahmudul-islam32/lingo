@@ -47,12 +47,12 @@ const CONFETTI = [
   { className: "right-[1.375rem] bottom-1.5 size-3.5 -rotate-[15deg] rounded-[4px] bg-pink-400" },
 ] as const;
 
-function CelebrationArt() {
+function CelebrationArt({ compact = false }: { compact?: boolean }) {
   return (
     <div
       aria-hidden="true"
       data-testid="results-art"
-      className="relative flex size-28 shrink-0 items-center justify-center [@media(min-height:740px)]:size-40"
+      className={`relative flex ${compact ? "size-[6.5rem]" : "size-28"} shrink-0 items-center justify-center [@media(min-height:740px)]:size-40`}
     >
       <span className="absolute inset-0 rounded-full bg-primary-tint" />
       {CONFETTI.map((dot) => (
@@ -145,12 +145,19 @@ export function ResultsScreen({
   return (
     <section
       aria-labelledby={headingId}
-      className="mx-auto flex min-h-dvh w-full max-w-md flex-col bg-surface px-6 pt-[max(1.5rem,env(safe-area-inset-top))] pb-[max(1rem,env(safe-area-inset-bottom))] text-fg"
+      className={`mx-auto flex min-h-dvh w-full max-w-md flex-col bg-surface px-6 ${
+        // LES-022 AC 8: with the goal-date row, short screens (< 740 px) get 12 px less top
+        // padding and a slightly smaller hero, so six rows and Continue fit with wider
+        // fallback fonts too (TELC-002 system font stacks, e.g. DejaVu Sans on Linux).
+        compact
+          ? "pt-[max(0.75rem,env(safe-area-inset-top))] [@media(min-height:740px)]:pt-[max(1.5rem,env(safe-area-inset-top))]"
+          : "pt-[max(1.5rem,env(safe-area-inset-top))]"
+      } pb-[max(1rem,env(safe-area-inset-bottom))] text-fg`}
     >
       <div
         className={`flex flex-1 flex-col items-center ${compact ? "gap-2" : "gap-2.5"} text-center [@media(min-height:740px)]:gap-4`}
       >
-        <CelebrationArt />
+        <CelebrationArt compact={compact} />
 
         <div className="flex flex-col items-center gap-1">
           <h1
