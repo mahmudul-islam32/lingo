@@ -1,6 +1,9 @@
 # Polyglow Roadmap
 
-**Owner:** pm · **Last updated:** 2026-11-21 (marketing proposals review: v0.5.4 "Goal date"
+**Owner:** pm · **Last updated:** 2026-11-25 (release acceptance PM-ACC5: in v0.5.4 "Goal
+date" CTO-017, GAM-013 and LES-022 are accepted, PLT-027 is rejected and FIX-014 blocks the
+release; per-course goal plan CTO-018 added to v0.5.5; PD-077, PD-078). Before that
+2026-11-21 (marketing proposals review: v0.5.4 "Goal date"
 added with CTO-017, GAM-013, PLT-027, LES-022; v0.5.5 "Smart review", v0.5.6 "Life in Germany
 topics" and v0.7.0 "Habit protection" planned; v1.0.0 and Phase 2/3 updated; PD-071, PD-072).
 Before that 2026-11-20 (release acceptance PM-ACC4: v0.5.3 "Redesign"
@@ -402,7 +405,12 @@ doesn't block v1.0.0. **Ready for release** when the four tickets are accepted.
 
 ### v0.5.4 — Goal date (planned 2026-11-21, PD-071)
 
-**Milestone status: open.** Marketing proposal #1, accepted in PD-071. Needs no backend.
+**Milestone status: merged, not ready for release** (2026-11-25, PM-ACC5,
+`tickets/PM-ACC5-v0.5.4-acceptance.md`). On `main` `daffaa8`, CTO-017, GAM-013 and LES-022
+are **accepted**. PLT-027 is **rejected** on AC 10: Learn shows "Set a goal date" on courses
+without levels, where it opens nothing. **FIX-014** blocks the release (PD-077). The single
+global plan ships as built; per-course plans follow in v0.5.5 (CTO-018, PD-078). Marketing
+proposal #1, accepted in PD-071. Needs no backend.
 
 **Goal:** a learner can set a target level and date in Profile; Learn shows lessons left,
 days to go and whether the daily goal gets them there, with a one-tap suggested goal; the
@@ -410,16 +418,17 @@ results screen shows lessons left. Free (PD-072). Kind copy, no exam names (PD-0
 
 | ID | Title | Owner | Priority | Depends on |
 |---|---|---|---|---|
-| CTO-017 | Contract: `settings.goalPlan`, `GoalPlanStatus`, `computeGoalPlan` signature, `goalPlanMaxDays` | cto | P1 | CTO-015 |
-| GAM-013 | `computeGoalPlan` rule, `useGoalPlan` hook, `GoalPlanCard` (5 statuses + no-plan link) | dev-gamification | P1 | CTO-017, GAM-003, GAM-006, GAM-011 |
-| PLT-027 | Profile "Goal date" row and dialog, Learn card mount, suggested-goal wiring, results wiring, e2e | dev-platform | P1 | CTO-017, GAM-013, LES-022 (AC 13), PLT-025, PLT-026 |
-| LES-022 | Results screen goal-date row | dev-lessons | P2 | CTO-017, LES-021 |
+| CTO-017 | Contract: `settings.goalPlan`, `GoalPlanStatus`, `computeGoalPlan` signature, `goalPlanMaxDays` (accepted) | cto | P1 | CTO-015 |
+| GAM-013 | `computeGoalPlan` rule, `useGoalPlan` hook, `GoalPlanCard` (5 statuses + no-plan link) (accepted) | dev-gamification | P1 | CTO-017, GAM-003, GAM-006, GAM-011 |
+| PLT-027 | Profile "Goal date" row and dialog, Learn card mount, suggested-goal wiring, results wiring, e2e (merged, **rejected** on AC 10 → FIX-014) | dev-platform | P1 | CTO-017, GAM-013, LES-022 (AC 13), PLT-025, PLT-026 |
+| LES-022 | Results screen goal-date row (accepted) | dev-lessons | P2 | CTO-017, LES-021 |
+| FIX-014 | No goal-date card or link on Learn for courses without levels (open, **blocks the release**, PD-077) | dev-platform | P1 | PLT-027, GAM-013 |
 
 **Parallel build plan:** CTO-017 first. Then GAM-013 and LES-022 in parallel (different
 folders). PLT-027 can build the Profile row and dialog against the contract at once and
 mounts the card and the results prop when GAM-013 and LES-022 are merged. Runs in parallel
 with v0.6.0 (blocked on the owner's hosted Supabase); doesn't block v1.0.0. **Ready for
-release** when the four tickets are accepted.
+release** when FIX-014 is accepted (PLT-027 then counts as accepted).
 
 ### v0.5.5 — Smart review (planned, PD-071)
 
@@ -429,6 +438,16 @@ Practice (PD-065). Local only. Tickets are written when v0.5.4 is close to done:
 contract ticket (per-exercise results stored on the device and in sync), a GAM ticket
 (selection rule, Practice entry), a LES ticket (review session in the player) and a PLT
 ticket (route, storage). IDs are assigned then.
+
+**Per-course goal plan (PD-078), same milestone, contract first:**
+
+| ID | Title | Owner | Priority | Depends on |
+|---|---|---|---|---|
+| CTO-018 | A goal plan per course: contract, stored-data migration, Supabase column (open) | cto | P1 | CTO-017, FIX-014 |
+| GAM-014 | `useGoalPlan({ courseId })` reads that course's plan (planned) | dev-gamification | P1 | CTO-018 |
+| PLT-028 | Profile row and dialog read / write the active course's plan; switch-course e2e (planned) | dev-platform | P1 | CTO-018, GAM-014 |
+
+CTO-018 must merge **before** v0.6.0's settings sync (PLT-010 / PLT-014).
 
 ### v0.5.6 — Life in Germany topics (planned, PD-071)
 
@@ -544,6 +563,7 @@ The pm writes the ticket files for PLT-010 … PLT-018 before the devs start the
 | PLT-018 | Onboarding "I already have an account" path | dev-platform |
 
 The goal plan (v0.5.4) travels with settings; CTO-017 AC 7 says where its column is added.
+From v0.5.5 it is one plan per course (CTO-018, PD-078), merged before PLT-010 / PLT-014.
 Marketing proposal #2 (PD-071): v0.6.0 stays the top engineering priority the day the owner
 provides hosted Supabase; the public URL is an owner item.
 
