@@ -5,7 +5,12 @@ import { useRouter } from "next/navigation";
 import { useCallback, useEffect, useRef, useState } from "react";
 import type { CefrLevel, Course, LessonResult, Slug, Uuid } from "@/contracts";
 import { useToast } from "@/components/ui";
-import { settingsQuery, useGoalPlan, useUserProgress } from "@/features/gamification";
+import {
+  settingsQuery,
+  useActiveCourseId,
+  useGoalPlan,
+  useUserProgress,
+} from "@/features/gamification";
 import {
   HeartsLessonPlayer,
   LessonPlayerError,
@@ -93,7 +98,12 @@ export function LessonScreen({
   const progress = useUserProgress(courseId);
   // PLT-027 AC 13 / LES-022: the goal-date status for the results screen. It re-derives
   // from ["progress", courseId] once `handleSaved` invalidates it, so it includes this lesson.
-  const goalPlan = useGoalPlan({ courseId });
+  // Only for the active course (the one Learn and Profile plan for, TELC-001 course switch);
+  // courses without levels (exam courses, en-es) get `null` from `computeGoalPlan`: no row.
+  const activeCourse = useActiveCourseId();
+  const lessonGoalPlan = useGoalPlan({ courseId });
+  const goalPlan =
+    activeCourse.pending || activeCourse.courseId === courseId ? lessonGoalPlan : null;
   const settings = useQuery(settingsQuery());
   const toast = useToast();
   const [finished, setFinished] = useState<LessonResult | null>(null);
