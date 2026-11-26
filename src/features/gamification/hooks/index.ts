@@ -19,3 +19,9 @@ export { useGainHearts, type GainHeartsFn } from "./use-gain-hearts";
 export { useMinuteClock } from "./use-minute-clock";
 export { useActiveCourseId } from "./use-active-course-id";
 export { GOAL_PLAN_READ_WARNING, useGoalPlan, type UseGoalPlanOptions } from "./use-goal-plan";
+export {
+  REVIEW_QUEUE_READ_WARNING,
+  useReviewQueue,
+  type ReviewQueue,
+  type UseReviewQueueOptions,
+} from "./use-review-queue";

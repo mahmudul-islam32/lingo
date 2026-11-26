@@ -2,7 +2,7 @@
 
 import { useEffect, useMemo } from "react";
 import { useQuery } from "@tanstack/react-query";
-import { GAME_CONFIG, type GoalPlanStatus, type Slug } from "@/contracts";
+import { GAME_CONFIG, isReviewResult, type GoalPlanStatus, type Slug } from "@/contracts";
 import { useCourse } from "@/lib/content";
 import { progressQuery, settingsQuery } from "../data/queries";
 import { computeGoalPlan } from "../rules/goal-plan";
@@ -46,7 +46,15 @@ export function useGoalPlan(options: UseGoalPlanOptions = {}): GoalPlanStatus | 
   const startLevel = settings.data?.startLevel;
   const dailyGoalXp = settings.data?.dailyGoalXp ?? GAME_CONFIG.defaultDailyGoalXp;
   const completedLessonIds = useMemo(
-    () => (results.data ? [...new Set(results.data.map((result) => result.lessonId))] : null),
+    // GAM-015 AC7, ADR-019 §3: review results never count as completed lessons.
+    () =>
+      results.data
+        ? [
+            ...new Set(
+              results.data.filter((r) => !isReviewResult(r)).map((result) => result.lessonId),
+            ),
+          ]
+        : null,
     [results.data],
   );
 

@@ -5,7 +5,7 @@ import { toLocalDate, useGoalPlan } from "@/features/gamification";
 import { queryKeys } from "@/lib/query";
 import { createQueryWrapper, createTestQueryClient } from "@/lib/query/testing";
 import enDeCourse from "../../../../../content/courses/en-de/course.json";
-import { makeResult } from "../../rules/__tests__/fixtures";
+import { makeOutcomeResult, makeResult } from "../../rules/__tests__/fixtures";
 import { GOAL_PLAN_READ_WARNING } from "../use-goal-plan";
 import { createStubSession, pending, type StubSession } from "./session-stub";
 
@@ -144,5 +144,21 @@ describe("useGoalPlan (GAM-013 AC8)", () => {
     const { result } = renderGoalPlan(client);
     await waitFor(() => expect(warn).toHaveBeenCalledWith(GOAL_PLAN_READ_WARNING, failure));
     expect(result.current).toBeNull();
+  });
+});
+
+describe("useGoalPlan with review results (GAM-015 AC7)", () => {
+  it("a review result is not a completed lesson", () => {
+    const review = makeOutcomeResult({
+      courseId: COURSE,
+      lessonId: A1[0]!,
+      kind: "review",
+      date: today(),
+      outcomes: [["ex-1", "correct"]],
+    });
+    const { result } = renderGoalPlan(seeded(settings(), [review]));
+    expect(result.current).toMatchObject({ lessonsLeft: 60 });
+    const both = renderGoalPlan(seeded(settings(), [review, done(A1[0]!)]));
+    expect(both.result.current).toMatchObject({ lessonsLeft: 59 });
   });
 });
