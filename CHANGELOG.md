@@ -16,7 +16,7 @@ the release where it becomes user-facing.
 
 ## [Unreleased]
 
-## [0.5.4] - 2026-11-25
+## [0.5.4] - 2026-11-26
 
 Goal date: a learner can pick a level and a date ("A2 by 25 March"), and Polyglow shows
 how many lessons are left, whether the daily goal covers them, and a one-tap way to raise
@@ -43,10 +43,10 @@ fonts.
 - Product decisions on the marketing proposals (PD-071) and the pricing position: free
   with no ads through v1.0.0, charging is the owner's decision (PD-072); v0.5.4 tickets
   [PM-010] (#100)
-- Release acceptance for v0.5.4: CTO-017, GAM-013 and LES-022 accepted; PLT-027 rejected
-  on AC 10 and fixed by FIX-014, which the release waits for (PD-077). The goal plan
-  becomes per course in v0.5.5, before the v0.6.0 settings sync (PD-078, CTO-018)
-  [PM-011] (#111)
+- Release acceptance for v0.5.4: every ticket accepted. CTO-017, GAM-013 and LES-022 on
+  first review; PLT-027 through FIX-014, after it was rejected on AC 10 (PD-077). The goal
+  plan becomes per course in v0.5.5, before the v0.6.0 settings sync (PD-078, CTO-018)
+  [PM-011] (#111) [PM-012] (#113)
 
 ### Changed
 
