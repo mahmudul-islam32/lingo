@@ -10,7 +10,8 @@
   [ADR-013 start level and earning hearts](adr/ADR-013-start-level-and-earning-hearts.md),
   [ADR-014 design system v2](adr/ADR-014-design-system-v2.md),
   [ADR-015 goal date](adr/ADR-015-goal-date.md),
-  [ADR-018 goal plan per course](adr/ADR-018-goal-plan-per-course.md)
+  [ADR-018 goal plan per course](adr/ADR-018-goal-plan-per-course.md),
+  [ADR-019 smart review outcomes](adr/ADR-019-smart-review-outcomes.md)
 - Proposed (B1 tech plan CTO-010): [ADR-010 typed answers](adr/ADR-010-typed-answers.md),
   [ADR-011 reading passages](adr/ADR-011-reading-passages.md),
   [ADR-012 grammar note card](adr/ADR-012-grammar-note-card.md)
@@ -415,3 +416,8 @@ CTO-017 (ADR-015): optional, nullable `Settings.goalPlan` (`null` clears),
 CTO-018 (ADR-018): `Settings.goalPlans` (one plan per course; `goalPlan` is legacy,
 read-only), the selector `goalPlanFor`, the migration `normalizeGoalPlans`, `withGoalPlan`
 and `SettingsPatch.goalPlanUpdate`.
+
+CTO-019 (ADR-019): `LessonResult.exerciseOutcomes` (one `ExerciseOutcome` per presented
+exercise) and `LessonResult.kind` (`"review"` uses `REVIEW_SESSION_ID`; review results
+never complete a lesson), `ReviewItem`, `ReviewSelection`, `SelectReviewItems`,
+`REVIEW_EXERCISE_TYPES`, `GAME_CONFIG.reviewSessionSize` and `reviewIntervalsDays`.

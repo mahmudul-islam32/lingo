@@ -12,7 +12,7 @@ import {
   UuidSchema,
 } from "./common";
 import { AnswerInputSchema, AnswerOutcomeSchema } from "./answer";
-import { ExerciseTypeSchema } from "./course";
+import { ExerciseTypeSchema, REVIEW_SESSION_ID } from "./course";
 
 /**
  * One submitted answer ("Check" press) within a session, or one skipped exercise.
@@ -88,6 +88,44 @@ export const XpBreakdownSchema = z.object({
 export type XpBreakdown = z.infer<typeof XpBreakdownSchema>;
 
 /**
+ * How one presented exercise went in a finished session (CTO-019 criterion 1, ADR-019
+ * §1), from all its attempts in that session, first match wins:
+ * - `skipped`: it has a `skipped` attempt (listen without audio, "Can't speak now");
+ * - `correct`: its first attempt was `correct` with no mistake (match pairs: no mismatch);
+ * - `incorrect`: otherwise, i.e. at least one attempt had `mistake: true` (an incorrect
+ *   answer is always a mistake, `AnswerCheckResultSchema`); a correct retry later in the
+ *   session doesn't change it.
+ * So `correct` count = `firstTryCorrectCount` and `skipped` count = `skippedCount`.
+ */
+export const EXERCISE_OUTCOMES = ["correct", "incorrect", "skipped"] as const;
+export const ExerciseOutcomeKindSchema = z.enum(EXERCISE_OUTCOMES);
+export type ExerciseOutcomeKind = z.infer<typeof ExerciseOutcomeKindSchema>;
+
+/**
+ * One presented (not hidden) exercise of a finished session, stored in
+ * `LessonResult.exerciseOutcomes` in presentation order (first presentation). Its date for
+ * review scheduling is the result's `localDate`; there is no per-outcome timestamp.
+ */
+export const ExerciseOutcomeSchema = z.strictObject({
+  /** The source lesson of the exercise; in a review result, not `REVIEW_SESSION_ID`. */
+  lessonId: SlugSchema,
+  exerciseId: SlugSchema,
+  exerciseType: ExerciseTypeSchema,
+  outcome: ExerciseOutcomeKindSchema,
+});
+export type ExerciseOutcome = z.infer<typeof ExerciseOutcomeSchema>;
+
+/**
+ * What a result records (CTO-019 criteria 7–8, ADR-019 §3). Missing = `"lesson"`.
+ * A `review` result has `unitId = lessonId = REVIEW_SESSION_ID`. It counts for total
+ * XP, today's XP, the daily goal and the streak, and **never** adds a lesson to
+ * `completedLessonIds`, the path, the Practice list or the goal-plan count.
+ */
+export const LESSON_RESULT_KINDS = ["lesson", "review"] as const;
+export const LessonResultKindSchema = z.enum(LESSON_RESULT_KINDS);
+export type LessonResultKind = z.infer<typeof LessonResultKindSchema>;
+
+/**
  * Persisted outcome of a completed lesson. Append-only and immutable; `id` is the
  * idempotency key for sync. All aggregate progress (total XP, streak, daily goal,
  * completed lessons) is derived from the set of results (ADR-002).
@@ -124,6 +162,17 @@ export const LessonResultSchema = z
     localDate: LocalDateSchema,
     /** Device timezone at completion, kept for audit/debugging. */
     timeZone: TimeZoneSchema,
+    /**
+     * `"lesson"` (also when missing: every result stored before CTO-019) or `"review"`.
+     * Read it with `lessonResultKind(result)`.
+     */
+    kind: LessonResultKindSchema.optional(),
+    /**
+     * One outcome per presented exercise (CTO-019, ADR-019 §1–2). Missing on results
+     * stored before CTO-019 (PD-080: review history starts empty); required on a review
+     * result. Saved in the same record, transaction and sync record as the result.
+     */
+    exerciseOutcomes: z.array(ExerciseOutcomeSchema).optional(),
   })
   .superRefine((v, ctx) => {
     if (Date.parse(v.completedAt) < Date.parse(v.startedAt)) {
@@ -168,5 +217,80 @@ export const LessonResultSchema = z
         path: ["heartsLost"],
       });
     }
+    refineReviewKind(v, ctx);
+    refineExerciseOutcomes(v, ctx);
   });
 export type LessonResult = z.infer<typeof LessonResultSchema>;
+
+/** `result.kind`, with missing read as `"lesson"` (CTO-019 criterion 7). */
+export function lessonResultKind(result: Pick<LessonResult, "kind">): LessonResultKind {
+  return result.kind ?? "lesson";
+}
+
+/** True for a review result: it never completes a lesson (CTO-019 criterion 8). */
+export function isReviewResult(result: Pick<LessonResult, "kind">): boolean {
+  return lessonResultKind(result) === "review";
+}
+
+type ResultRefineInput = Pick<
+  LessonResult,
+  | "kind"
+  | "unitId"
+  | "lessonId"
+  | "exerciseCount"
+  | "firstTryCorrectCount"
+  | "skippedCount"
+  | "exerciseOutcomes"
+>;
+
+/** ADR-019 §3: the reserved ids belong to review results and only to them. */
+function refineReviewKind(v: ResultRefineInput, ctx: z.RefinementCtx): void {
+  const review = lessonResultKind(v) === "review";
+  for (const key of ["unitId", "lessonId"] as const) {
+    if (review !== (v[key] === REVIEW_SESSION_ID)) {
+      ctx.addIssue({
+        code: "custom",
+        message: review
+          ? `a review result has ${key} "${REVIEW_SESSION_ID}"`
+          : `"${REVIEW_SESSION_ID}" is reserved for review results`,
+        path: [key],
+      });
+    }
+  }
+  if (review && (v.exerciseOutcomes === undefined || v.exerciseOutcomes.length === 0)) {
+    ctx.addIssue({
+      code: "custom",
+      message: "a review result has at least one exercise outcome",
+      path: ["exerciseOutcomes"],
+    });
+  }
+}
+
+/** CTO-019 criteria 2 and 5 (ADR-019 §2). */
+function refineExerciseOutcomes(v: ResultRefineInput, ctx: z.RefinementCtx): void {
+  const outcomes = v.exerciseOutcomes;
+  if (outcomes === undefined) return;
+  const path = ["exerciseOutcomes"];
+  const issue = (message: string) => ctx.addIssue({ code: "custom", message, path });
+  if (outcomes.length > v.exerciseCount) issue("more exercise outcomes than exerciseCount");
+  const keys = outcomes.map((o) => `${o.lessonId}/${o.exerciseId}`);
+  if (new Set(keys).size !== keys.length) {
+    issue("at most one outcome per (lessonId, exerciseId)");
+  }
+  const count = (kind: ExerciseOutcomeKind) => outcomes.filter((o) => o.outcome === kind).length;
+  if (count("correct") !== v.firstTryCorrectCount) {
+    issue("correct outcomes must equal firstTryCorrectCount");
+  }
+  if (count("skipped") !== v.skippedCount) issue("skipped outcomes must equal skippedCount");
+  const review = lessonResultKind(v) === "review";
+  for (const o of outcomes) {
+    if (review ? o.lessonId === REVIEW_SESSION_ID : o.lessonId !== v.lessonId) {
+      issue(
+        review
+          ? "a review outcome points to its source lesson"
+          : "a lesson result's outcomes belong to its lesson",
+      );
+      break;
+    }
+  }
+}

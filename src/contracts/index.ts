@@ -13,5 +13,6 @@ export * from "./answer";
 export * from "./lesson-session";
 export * from "./user";
 export * from "./gamification";
+export * from "./review";
 export * from "./sync";
 export type * from "./api";
