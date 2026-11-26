@@ -25,10 +25,16 @@ PD-078 · **Release branch:** `chore/release-v0.5.4` (not merged)
 |---|---|---|
 | CTO-017 Goal-plan contract | **Accepted** (9 of 9 PASS) | `goalPlan` nullable + optional; clearing uses `null` (ADR-015) |
 | GAM-013 Rule, hook, Learn card | **Accepted** (17 of 17 PASS) | Edit links use `href` instead of an `onEditGoalDate` callback (equivalent, accepted) |
-| PLT-027 Profile row and dialog, Learn and results wiring | **Rejected** (17 of 18 PASS) | AC 10 FAIL: on Einbürgerungstest and en-es, Learn shows "Set a goal date", which opens nothing → **FIX-014** (dev-platform, P1, **blocks the release**, PD-077) |
+| PLT-027 Profile row and dialog, Learn and results wiring | **Accepted 2026-11-26 through FIX-014** (was rejected 2026-11-25, 17 of 18 PASS) | AC 10 failed on 2026-11-25: on Einbürgerungstest and en-es, Learn showed "Set a goal date", which opened nothing → **FIX-014**. Now met by FIX-014 (#112, `main` 96a1948) |
 | LES-022 Results goal-date row | **Accepted** (9 of 9 PASS) | — |
+| FIX-014 No goal-date UI on courses without levels | **Accepted 2026-11-26** (7 of 7 PASS) | Re-check on `main` 96a1948 (#112); cto e2e 156/156. Evidence in `FIX-014.md` |
 
-**Release recommendation for the cto: do not release v0.5.4 yet.** Ship it once FIX-014 is
+**Update 2026-11-26: v0.5.4 is ready for release.** FIX-014 is accepted, so every ticket in
+the milestone is accepted. The cto can run the release checklist (`chore/release-v0.5.4`).
+The CHANGELOG line "courses without levels show no goal" is now true.
+
+**Release recommendation for the cto (2026-11-25, superseded by the update above): do not
+release v0.5.4 yet.** Ship it once FIX-014 is
 merged and accepted. The fix is small: don't mount the card on courses without levels, plus
 tests. The draft v0.5.4 CHANGELOG already says "courses without levels show no goal", and
 today that isn't true on Learn.
@@ -88,7 +94,7 @@ settings sync. It doesn't block v0.5.4.
 | 7 | PASS | Cancel, Escape and the close button discard the values; focus returns to the row's button (`returnFocusRef`). RTL `it.each` (line 219). |
 | 8 | PASS | A failed write keeps the dialog and its values and shows "We couldn't save your goal date. Try again." (`role="alert"`). RTL "8". |
 | 9 | PASS | Deep link: the row scrolls into view, the dialog opens once, and closing calls `history.replaceState`. RTL "9", e2e. |
-| 10 | **FAIL** | On `en-de` and `telc-b1-en-de`: PASS. `LearnScreen.tsx` mounts `GoalPlanCard` under the ring and above the caption and path, and the links go to `/profile?edit=goal-date`. **On `einbuergerung-en-de` (available) and `en-es` (hidden):** `useGoalPlan` returns `null` (no levels), so Learn shows "Have a date in mind? **Set a goal date**". That link opens Profile, where `GoalDateRow` renders nothing (`options.length === 0`) and the deep-link effect never opens a dialog. Every Einbürgerungstest learner gets a dead link on Learn. No test covers Learn on a course without levels (`page.test.tsx` mocks `useGoalPlan` to `null`; `exam-courses.spec.ts` doesn't look at the goal date). The draft v0.5.4 CHANGELOG says "courses without levels show no goal". → **FIX-014**. |
+| 10 | **FAIL** (2026-11-25) → **PASS through FIX-014** (2026-11-26, #112) | On `en-de` and `telc-b1-en-de`: PASS. `LearnScreen.tsx` mounts `GoalPlanCard` under the ring and above the caption and path, and the links go to `/profile?edit=goal-date`. **On `einbuergerung-en-de` (available) and `en-es` (hidden):** `useGoalPlan` returns `null` (no levels), so Learn shows "Have a date in mind? **Set a goal date**". That link opens Profile, where `GoalDateRow` renders nothing (`options.length === 0`) and the deep-link effect never opens a dialog. Every Einbürgerungstest learner gets a dead link on Learn. No test covers Learn on a course without levels (`page.test.tsx` mocks `useGoalPlan` to `null`; `exam-courses.spec.ts` doesn't look at the goal date). The draft v0.5.4 CHANGELOG says "courses without levels show no goal". → **FIX-014**. |
 | 11 | PASS | `use-goal-plan-actions.ts`: `useUpdateSettings({ dailyGoalXp })`, toast "Daily goal set to <xp> XP.", error toast on failure. RTL "11"; the e2e asserts the toast, "On track." and the Profile row "Regular · 20 XP". |
 | 12 | PASS | Without a plan, Learn only adds GAM-013's link; existing Learn / Profile tests are green (152/152). The wording of this criterion is met. The defect on courses without levels is recorded under AC 10. |
 | 13 | PASS | `LessonScreen.tsx` passes `useGoalPlan({ courseId })`, which re-derives after `handleSaved` invalidates progress. Only for the active course, `null` otherwise. `lessons-results.spec.ts` "LES-022 AC 8" asserts that `goal-date-row` is visible with "Goal: A2 by … lessons left". |
@@ -120,7 +126,7 @@ settings sync. It doesn't block v0.5.4.
 | Suggest, never auto-change (PD-071 §1.2) | PASS: saving a plan keeps the daily goal (e2e); only "Use <n> XP a day" changes it. |
 | Not in onboarding (PD-071 §1.5) | PASS. |
 | Free (PD-072) | PASS: no gating. |
-| Courses without levels | **FAIL on Learn** (PLT-027 AC 10 → FIX-014). Profile and results PASS (no row). |
+| Courses without levels | **PASS** since FIX-014 (2026-11-26). It failed on Learn on 2026-11-25 (PLT-027 AC 10); Profile and results already passed (no row). |
 | Global plan with the course switch (TELC-001) | Works as specified (CTO-017 defines one plan), but it can mislead: an "A2" plan made on German counts telc B1's A1 / A2 lessons after a switch, and a telc "B1" plan shows "Finish B1 by …" in Profile while German's Learn shows "Set a goal date". Not a FAIL against v0.5.4's criteria. Decided in **PD-078**: per-course plans in v0.5.5 (CTO-018). |
 
 ## FAIL tickets raised
@@ -129,9 +135,8 @@ settings sync. It doesn't block v0.5.4.
 
 ## Follow-up tickets raised
 - **CTO-018** (cto, P1, v0.5.5, before v0.6.0 sync): a goal plan per course (PD-078).
-  GAM-014 and PLT-028 are reserved for the hook and the UI changes and are written once
-  CTO-018 is merged.
+  GAM-014 and PLT-028 are written (PM-012, 2026-11-26).
 
 ## Review
-_(PM acceptance complete. v0.5.4 is ready for release once FIX-014 is accepted; the pm
-re-checks only FIX-014.)_
+PM acceptance complete. **2026-11-26: FIX-014 accepted (7 of 7 PASS), PLT-027 accepted
+through it; v0.5.4 is ready for release.**
