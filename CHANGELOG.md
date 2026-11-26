@@ -28,8 +28,9 @@ fonts.
 
 - Goal date: a "Goal date" setting in Profile (level and date), a goal card on Learn with
   "Use X XP a day", and a goal row on the results screen. The plan is computed on the
-  device from saved results; courses without levels show no goal [CTO-017] (#101)
-  [GAM-013] (#102) [PLT-027] (#103) [LES-022] (#108)
+  device from saved results. Courses without levels (Einbürgerungstest) show no goal on
+  Learn, in Profile or on results [CTO-017] (#101) [GAM-013] (#102) [PLT-027] (#103)
+  [LES-022] (#108) [FIX-014] (#112)
 - telc B1 Exam Prep and Einbürgerungstest courses, exam-prep exercise types (exam
   questions, teaching cards) and a course switch in Profile [TELC-001] (#104)
 - telc course levels A1, A2 and B1 with start-level switching [TELC-003] (#104)
@@ -42,6 +43,10 @@ fonts.
 - Product decisions on the marketing proposals (PD-071) and the pricing position: free
   with no ads through v1.0.0, charging is the owner's decision (PD-072); v0.5.4 tickets
   [PM-010] (#100)
+- Release acceptance for v0.5.4: CTO-017, GAM-013 and LES-022 accepted; PLT-027 rejected
+  on AC 10 and fixed by FIX-014, which the release waits for (PD-077). The goal plan
+  becomes per course in v0.5.5, before the v0.6.0 settings sync (PD-078, CTO-018)
+  [PM-011] (#111)
 
 ### Changed
 
@@ -57,6 +62,8 @@ fonts.
 - PWA e2e specs get a longer timeout for the larger service-worker precache [FIX-013]
   (#109)
 - Results fit 375 × 667 with the goal row on wider system fonts [LES-022] (#108)
+- Learn no longer shows a "Set a goal date" link that opens nothing on courses without
+  levels, and Profile drops a stale `?edit=goal-date` [FIX-014] (#112)
 
 ## [0.5.3] - 2026-11-20
 
