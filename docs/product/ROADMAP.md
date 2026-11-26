@@ -1,6 +1,9 @@
 # Polyglow Roadmap
 
-**Owner:** pm · **Last updated:** 2026-11-25 (release acceptance PM-ACC5: in v0.5.4 "Goal
+**Owner:** pm · **Last updated:** 2026-11-26 (FIX-014 accepted, so PLT-027 is accepted and
+v0.5.4 "Goal date" is ready for release; and PM-012: v0.5.5 "Smart review" tickets written,
+CTO-019, GAM-015, LES-023, PLT-029; CTO-018 completed; GAM-014 and PLT-028 written; parallel
+build plan; PD-079 … PD-082). Before that 2026-11-25 (release acceptance PM-ACC5: in v0.5.4 "Goal
 date" CTO-017, GAM-013 and LES-022 are accepted, PLT-027 is rejected and FIX-014 blocks the
 release; per-course goal plan CTO-018 added to v0.5.5; PD-077, PD-078). Before that
 2026-11-21 (marketing proposals review: v0.5.4 "Goal date"
@@ -405,10 +408,12 @@ doesn't block v1.0.0. **Ready for release** when the four tickets are accepted.
 
 ### v0.5.4 — Goal date (planned 2026-11-21, PD-071)
 
-**Milestone status: merged, not ready for release** (2026-11-25, PM-ACC5,
-`tickets/PM-ACC5-v0.5.4-acceptance.md`). On `main` `daffaa8`, CTO-017, GAM-013 and LES-022
-are **accepted**. PLT-027 is **rejected** on AC 10: Learn shows "Set a goal date" on courses
-without levels, where it opens nothing. **FIX-014** blocks the release (PD-077). The single
+**Milestone status: ready for release** (2026-11-26, FIX-014 re-check; PM-ACC5,
+`tickets/PM-ACC5-v0.5.4-acceptance.md`). FIX-014 (#112, `main` 96a1948) is **accepted**
+(7 of 7 PASS; cto e2e 156/156), so PLT-027 now counts as **accepted** and every ticket is
+accepted. Only the cto release checklist remains (`chore/release-v0.5.4`). History: on
+2026-11-25 PLT-027 was rejected on AC 10 (a dead "Set a goal date" link on courses without
+levels) and FIX-014 blocked the release (PD-077). The single
 global plan ships as built; per-course plans follow in v0.5.5 (CTO-018, PD-078). Marketing
 proposal #1, accepted in PD-071. Needs no backend.
 
@@ -420,34 +425,63 @@ results screen shows lessons left. Free (PD-072). Kind copy, no exam names (PD-0
 |---|---|---|---|---|
 | CTO-017 | Contract: `settings.goalPlan`, `GoalPlanStatus`, `computeGoalPlan` signature, `goalPlanMaxDays` (accepted) | cto | P1 | CTO-015 |
 | GAM-013 | `computeGoalPlan` rule, `useGoalPlan` hook, `GoalPlanCard` (5 statuses + no-plan link) (accepted) | dev-gamification | P1 | CTO-017, GAM-003, GAM-006, GAM-011 |
-| PLT-027 | Profile "Goal date" row and dialog, Learn card mount, suggested-goal wiring, results wiring, e2e (merged, **rejected** on AC 10 → FIX-014) | dev-platform | P1 | CTO-017, GAM-013, LES-022 (AC 13), PLT-025, PLT-026 |
+| PLT-027 | Profile "Goal date" row and dialog, Learn card mount, suggested-goal wiring, results wiring, e2e (accepted 2026-11-26 through FIX-014; rejected on AC 10 on 2026-11-25) | dev-platform | P1 | CTO-017, GAM-013, LES-022 (AC 13), PLT-025, PLT-026 |
 | LES-022 | Results screen goal-date row (accepted) | dev-lessons | P2 | CTO-017, LES-021 |
-| FIX-014 | No goal-date card or link on Learn for courses without levels (open, **blocks the release**, PD-077) | dev-platform | P1 | PLT-027, GAM-013 |
+| FIX-014 | No goal-date card or link on Learn for courses without levels (accepted 2026-11-26, #112, PD-077) | dev-platform | P1 | PLT-027, GAM-013 |
 
 **Parallel build plan:** CTO-017 first. Then GAM-013 and LES-022 in parallel (different
 folders). PLT-027 can build the Profile row and dialog against the contract at once and
 mounts the card and the results prop when GAM-013 and LES-022 are merged. Runs in parallel
 with v0.6.0 (blocked on the owner's hosted Supabase); doesn't block v1.0.0. **Ready for
-release** when FIX-014 is accepted (PLT-027 then counts as accepted).
+release** since 2026-11-26: FIX-014 is accepted, so PLT-027 counts as accepted.
 
-### v0.5.5 — Smart review (planned, PD-071)
+### v0.5.5 — Smart review (tickets written 2026-11-26, PM-012; PD-071, PD-078 … PD-082)
 
-**Goal:** Practice gets a "Review" session built from the exercises the learner got wrong or
-hasn't seen for a while (spaced repetition), free with no daily cap, earning hearts like
-Practice (PD-065). Local only. Tickets are written when v0.5.4 is close to done: a CTO
-contract ticket (per-exercise results stored on the device and in sync), a GAM ticket
-(selection rule, Practice entry), a LES ticket (review session in the player) and a PLT
-ticket (route, storage). IDs are assigned then.
+**Milestone status: open** (all seven tickets written, none started). Local only; needs no
+backend.
 
-**Per-course goal plan (PD-078), same milestone, contract first:**
+**Goal:** Practice gets a "Review" session built from the exercises the learner already
+answered and got wrong or hasn't seen for a while (spaced repetition: 1, 3, 7, 14, 30 days),
+up to 10 exercises, free with no daily cap, at 0 hearts too, earning hearts like practice
+(PD-065) and XP like a lesson (PD-079). No new content. In the same milestone, each course
+gets its own goal plan (PD-078) before v0.6.0's settings sync.
+
+**Smart review (PD-079 … PD-081):**
 
 | ID | Title | Owner | Priority | Depends on |
 |---|---|---|---|---|
-| CTO-018 | A goal plan per course: contract, stored-data migration, Supabase column (open) | cto | P1 | CTO-017, FIX-014 |
-| GAM-014 | `useGoalPlan({ courseId })` reads that course's plan (planned) | dev-gamification | P1 | CTO-018 |
-| PLT-028 | Profile row and dialog read / write the active course's plan; switch-course e2e (planned) | dev-platform | P1 | CTO-018, GAM-014 |
+| CTO-019 | Per-exercise outcomes on `LessonResult` (or ADR's table), review-result kind, `ReviewItem`, `SelectReviewItems`, `reviewSessionSize`, `reviewIntervalsDays`, `REVIEW_EXERCISE_TYPES`, Supabase column (open) | cto | P1 | CTO-015, CTO-018 |
+| GAM-015 | `selectReviewItems` rule, review results count XP but never complete a lesson, `useReviewQueue`, Practice "Review" card (open) | dev-gamification | P1 | CTO-019, GAM-012 |
+| LES-023 | Outcomes in every finished result, review mode in the player (practice rules, "Review" label), review results screen ("Review more") (open) | dev-lessons | P1 | CTO-019, LES-020, LES-021, LES-022 |
+| PLT-029 | `/review` route (load items, empty / error / offline), save outcomes with the result, guest-migration payload, e2e (open) | dev-platform | P1 | CTO-019, GAM-015, LES-023, PLT-025 |
+
+**Per-course goal plan (PD-078, PD-082), contract first:**
+
+| ID | Title | Owner | Priority | Depends on |
+|---|---|---|---|---|
+| CTO-018 | A goal plan per course: contract, stored-data migration, `goalPlanFor` selector, Supabase column, LWW note (open) | cto | P1 | CTO-017, FIX-014 |
+| GAM-014 | `useGoalPlan({ courseId })` reads that course's plan (open) | dev-gamification | P1 | CTO-018, GAM-013 |
+| PLT-028 | Profile row and dialog read / write the active course's plan; results row uses the lesson's course; switch-course e2e (open) | dev-platform | P1 | CTO-018, GAM-014, FIX-014 |
 
 CTO-018 must merge **before** v0.6.0's settings sync (PLT-010 / PLT-014).
+
+**Parallel build plan**
+- **Wave 0 (cto, one session, in order):** **CTO-018**, then **CTO-019** (both edit
+  `user.ts` / `config.ts` / `api.ts` and the Supabase schema; two PRs, merged in that order).
+  FIX-014 must be merged first (v0.5.4).
+- **Wave 1 (after CTO-018):** **GAM-014** (dev-gamification, small) and **PLT-028**
+  (dev-platform; can build against the selector and stub the hook until GAM-014 merges).
+- **Wave 2 (after CTO-019):** **GAM-015** (dev-gamification, after GAM-014) and **LES-023**
+  (dev-lessons) in parallel: different folders, both only need the contract. dev-platform
+  starts **PLT-029**'s storage part (criteria 1–4) at the same time.
+- **Wave 3:** **PLT-029**'s route and e2e once GAM-015 and LES-023 are merged (it may build
+  the route against stubs of `useReviewQueue` and the review player props from the ADR).
+- **Across agents:** dev-platform carries the critical path (PLT-028 → PLT-029); dev-lessons
+  has one ticket; dev-gamification has GAM-014 → GAM-015. Nothing in v0.5.5 waits on the
+  owner.
+- **Ready for release** when the seven tickets are accepted. v0.5.5 doesn't block v1.0.0;
+  CTO-018 (and in practice CTO-019, whose outcomes ride on synced results) must be on `main`
+  before PLT-010 / PLT-014 start.
 
 ### v0.5.6 — Life in Germany topics (planned, PD-071)
 
@@ -564,6 +598,8 @@ The pm writes the ticket files for PLT-010 … PLT-018 before the devs start the
 
 The goal plan (v0.5.4) travels with settings; CTO-017 AC 7 says where its column is added.
 From v0.5.5 it is one plan per course (CTO-018, PD-078), merged before PLT-010 / PLT-014.
+Lesson results carry per-exercise outcomes and a review kind from v0.5.5 (CTO-019); PLT-014
+uploads them with the result, unchanged.
 Marketing proposal #2 (PD-071): v0.6.0 stays the top engineering priority the day the owner
 provides hosted Supabase; the public URL is an owner item.
 
