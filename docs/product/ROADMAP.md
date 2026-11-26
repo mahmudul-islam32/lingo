@@ -1,6 +1,7 @@
 # Polyglow Roadmap
 
-**Owner:** pm · **Last updated:** 2026-11-26 (PM-012: v0.5.5 "Smart review" tickets written,
+**Owner:** pm · **Last updated:** 2026-11-26 (FIX-014 accepted, so PLT-027 is accepted and
+v0.5.4 "Goal date" is ready for release; and PM-012: v0.5.5 "Smart review" tickets written,
 CTO-019, GAM-015, LES-023, PLT-029; CTO-018 completed; GAM-014 and PLT-028 written; parallel
 build plan; PD-079 … PD-082). Before that 2026-11-25 (release acceptance PM-ACC5: in v0.5.4 "Goal
 date" CTO-017, GAM-013 and LES-022 are accepted, PLT-027 is rejected and FIX-014 blocks the
@@ -407,10 +408,12 @@ doesn't block v1.0.0. **Ready for release** when the four tickets are accepted.
 
 ### v0.5.4 — Goal date (planned 2026-11-21, PD-071)
 
-**Milestone status: merged, not ready for release** (2026-11-25, PM-ACC5,
-`tickets/PM-ACC5-v0.5.4-acceptance.md`). On `main` `daffaa8`, CTO-017, GAM-013 and LES-022
-are **accepted**. PLT-027 is **rejected** on AC 10: Learn shows "Set a goal date" on courses
-without levels, where it opens nothing. **FIX-014** blocks the release (PD-077). The single
+**Milestone status: ready for release** (2026-11-26, FIX-014 re-check; PM-ACC5,
+`tickets/PM-ACC5-v0.5.4-acceptance.md`). FIX-014 (#112, `main` 96a1948) is **accepted**
+(7 of 7 PASS; cto e2e 156/156), so PLT-027 now counts as **accepted** and every ticket is
+accepted. Only the cto release checklist remains (`chore/release-v0.5.4`). History: on
+2026-11-25 PLT-027 was rejected on AC 10 (a dead "Set a goal date" link on courses without
+levels) and FIX-014 blocked the release (PD-077). The single
 global plan ships as built; per-course plans follow in v0.5.5 (CTO-018, PD-078). Marketing
 proposal #1, accepted in PD-071. Needs no backend.
 
@@ -422,15 +425,15 @@ results screen shows lessons left. Free (PD-072). Kind copy, no exam names (PD-0
 |---|---|---|---|---|
 | CTO-017 | Contract: `settings.goalPlan`, `GoalPlanStatus`, `computeGoalPlan` signature, `goalPlanMaxDays` (accepted) | cto | P1 | CTO-015 |
 | GAM-013 | `computeGoalPlan` rule, `useGoalPlan` hook, `GoalPlanCard` (5 statuses + no-plan link) (accepted) | dev-gamification | P1 | CTO-017, GAM-003, GAM-006, GAM-011 |
-| PLT-027 | Profile "Goal date" row and dialog, Learn card mount, suggested-goal wiring, results wiring, e2e (merged, **rejected** on AC 10 → FIX-014) | dev-platform | P1 | CTO-017, GAM-013, LES-022 (AC 13), PLT-025, PLT-026 |
+| PLT-027 | Profile "Goal date" row and dialog, Learn card mount, suggested-goal wiring, results wiring, e2e (accepted 2026-11-26 through FIX-014; rejected on AC 10 on 2026-11-25) | dev-platform | P1 | CTO-017, GAM-013, LES-022 (AC 13), PLT-025, PLT-026 |
 | LES-022 | Results screen goal-date row (accepted) | dev-lessons | P2 | CTO-017, LES-021 |
-| FIX-014 | No goal-date card or link on Learn for courses without levels (open, **blocks the release**, PD-077) | dev-platform | P1 | PLT-027, GAM-013 |
+| FIX-014 | No goal-date card or link on Learn for courses without levels (accepted 2026-11-26, #112, PD-077) | dev-platform | P1 | PLT-027, GAM-013 |
 
 **Parallel build plan:** CTO-017 first. Then GAM-013 and LES-022 in parallel (different
 folders). PLT-027 can build the Profile row and dialog against the contract at once and
 mounts the card and the results prop when GAM-013 and LES-022 are merged. Runs in parallel
 with v0.6.0 (blocked on the owner's hosted Supabase); doesn't block v1.0.0. **Ready for
-release** when FIX-014 is accepted (PLT-027 then counts as accepted).
+release** since 2026-11-26: FIX-014 is accepted, so PLT-027 counts as accepted.
 
 ### v0.5.5 — Smart review (tickets written 2026-11-26, PM-012; PD-071, PD-078 … PD-082)
 
