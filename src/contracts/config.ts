@@ -42,6 +42,16 @@ export const GAME_CONFIG = {
    * The earliest is tomorrow ("after today"), which needs no constant.
    */
   goalPlanMaxDays: 730,
+  /**
+   * Exercises in one review session at most (CTO-019, ADR-019, PD-079). The route takes
+   * the first this many ranked candidates that load (PLT-029).
+   */
+  reviewSessionSize: 10,
+  /**
+   * Days until an exercise is due again after 1, 2, 3, … correct reviews in a row
+   * (`correctRun`); the last value repeats. Strictly increasing positive integers.
+   */
+  reviewIntervalsDays: [1, 3, 7, 14, 30],
 } as const;
 
 /**
@@ -145,6 +155,8 @@ export const GameConfigSchema = z
     dailyGoalOptions: z.array(z.number().int().positive()).min(1),
     defaultDailyGoalXp: z.number().int().positive(),
     goalPlanMaxDays: z.number().int().positive(),
+    reviewSessionSize: z.number().int().positive(),
+    reviewIntervalsDays: z.array(z.number().int().positive()).min(1),
   })
   .refine((c) => c.dailyGoalOptions.includes(c.defaultDailyGoalXp), {
     message: "defaultDailyGoalXp must be one of dailyGoalOptions",
@@ -153,5 +165,9 @@ export const GameConfigSchema = z
   .refine((c) => c.heartsGainedPerCorrectAnswer <= c.maxHearts, {
     message: "heartsGainedPerCorrectAnswer must not exceed maxHearts",
     path: ["heartsGainedPerCorrectAnswer"],
+  })
+  .refine((c) => c.reviewIntervalsDays.every((d, i, all) => i === 0 || d > (all[i - 1] ?? 0)), {
+    message: "reviewIntervalsDays must be strictly increasing",
+    path: ["reviewIntervalsDays"],
   });
 export type GameConfig = z.infer<typeof GameConfigSchema>;

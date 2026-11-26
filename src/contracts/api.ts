@@ -17,6 +17,7 @@ import type {
   XpEvent,
 } from "./gamification";
 import type { LessonResult, XpBreakdown } from "./lesson-session";
+import type { ReviewSelection } from "./review";
 import type { GuestMigrationPayload, SyncPushResult, SyncQueueRecord, SyncStatus } from "./sync";
 import type {
   DailyGoalXp,
@@ -68,7 +69,14 @@ export type ComputeDailyGoalProgress = (
   today: LocalDate,
 ) => DailyGoalProgress;
 
-/** features/gamification/rules/progress — full aggregate from the result set. */
+/**
+ * features/gamification/rules/progress — full aggregate from the result set.
+ *
+ * Review results (CTO-019 criterion 8, ADR-019 §3; `isReviewResult`) count for `totalXp`,
+ * today's XP, the daily goal and the streak like any result, and are **never** in
+ * `completedLessonIds` / `lessonsCompletedCount`. The same holds for `ComputePathNodes`,
+ * the Practice list and `ComputeGoalPlan` (callers pass `completedLessonIds` from here).
+ */
 export type ComputeUserProgress = (input: {
   courseId: Slug;
   results: readonly LessonResult[];
@@ -136,6 +144,43 @@ export type ComputeGoalPlan = (input: {
   today: LocalDate;
   dailyGoalXp: DailyGoalXp;
 }) => GoalPlanStatus | null;
+
+/**
+ * features/gamification/rules — smart review selection (CTO-019 criterion 9, ADR-019 §5;
+ * implemented by GAM-015, which owns the worked examples). Pure. "Outcome" = one
+ * `ExerciseOutcome`; its date is the `localDate` of the result that holds it.
+ *
+ * 1. **Eligible:** every `(lessonId, exerciseId)` of `course` with at least one `correct`
+ *    or `incorrect` outcome, whose `exerciseType` is in `REVIEW_EXERCISE_TYPES`, and whose
+ *    lesson is still in the course manifest. `skipped` outcomes are ignored. Exercises
+ *    never answered are never selected.
+ * 2. **Per exercise:** `lastSeen` = date of the latest counted outcome; `correctRun` =
+ *    number of `correct` outcomes in a row at the end of its history (ordered by result
+ *    `completedAt`). `interval` = 0 days when `correctRun = 0`, else
+ *    `GAME_CONFIG.reviewIntervalsDays[min(correctRun, length) − 1]`.
+ *    `dueDate = lastSeen + interval`; **due** when `dueDate ≤ today`.
+ * 3. **Order:** due first, then not due. Within each group: `correctRun` ascending, then
+ *    `dueDate` ascending, then course order of the lesson, then the exercise's position in
+ *    its latest result's outcomes, then `exerciseId`. Only the first candidate per
+ *    `exerciseId` is kept (no two items with the same id in one session).
+ * 4. Returns `{ candidates, dueCount, eligibleCount }` (`ReviewSelectionSchema`):
+ *    `candidates` is the full ranked list (the route takes the first
+ *    `GAME_CONFIG.reviewSessionSize` that load); `dueCount` counts due eligible exercises.
+ * 5. Worked examples (today 2026-12-10, intervals [1, 3, 7, 14, 30]): A wrong 12-09 → due;
+ *    B right 12-09 → run 1, due 12-10, due; C right 12-08, 12-09 → run 2, due 12-12, not
+ *    due; D wrong 12-01, right 12-02, 12-05 → run 2, due 12-08, due; E right ×5, last
+ *    11-01 → due 12-01, due; F right ×6, last 11-20 → interval 30, due 12-20, not due;
+ *    G only skipped, H `speak`, I lesson not in the manifest → not eligible. Order
+ *    A, B, D, E, C, F; `dueCount` 4; `eligibleCount` 6.
+ * 6. Results of other courses are ignored; review results' outcomes count like any other
+ *    (they point to source lessons).
+ */
+export type SelectReviewItems = (input: {
+  course: Course;
+  /** The course's results (any kind); results without outcomes contribute nothing. */
+  results: readonly LessonResult[];
+  today: LocalDate;
+}) => ReviewSelection;
 
 /** Device-local calendar date of an instant (`YYYY-MM-DD` in the device timezone). */
 export type ToLocalDate = (instant: Date, timeZone: string) => LocalDate;

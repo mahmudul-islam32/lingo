@@ -527,6 +527,33 @@ export function isUngradedExerciseType(type: ExerciseType): boolean {
   return (UNGRADED_EXERCISE_TYPES as readonly ExerciseType[]).includes(type);
 }
 
+/**
+ * Exercise types a review session can bring back (CTO-019, ADR-019, PD-081). Not `speak`
+ * (needs a microphone and is often hidden), `task` or `explain` (ungraded, nothing to
+ * remember right or wrong).
+ */
+export const REVIEW_EXERCISE_TYPES = [
+  "multiple_choice",
+  "word_bank_translate",
+  "match_pairs",
+  "listen",
+  "cloze",
+  "choice",
+  "listening",
+] as const satisfies readonly ExerciseType[];
+export type ReviewExerciseType = (typeof REVIEW_EXERCISE_TYPES)[number];
+
+export function isReviewExerciseType(type: ExerciseType): type is ReviewExerciseType {
+  return (REVIEW_EXERCISE_TYPES as readonly ExerciseType[]).includes(type);
+}
+
+/**
+ * Reserved slug for the `unitId` and `lessonId` of a review session and its result
+ * (CTO-019 criterion 7, ADR-019 §3). No course may use it as a unit or lesson id
+ * (`CourseSchema`), so a review result can never be mistaken for a course lesson.
+ */
+export const REVIEW_SESSION_ID = "review" as const;
+
 export const ExerciseSchema = z.discriminatedUnion("type", [
   MultipleChoiceExerciseSchema,
   WordBankTranslateExerciseSchema,
@@ -706,6 +733,15 @@ export const CourseSchema = z
     const lessonIds = value.units.flatMap((u) => u.lessons.map((l) => l.id));
     for (const id of findDuplicates(lessonIds)) {
       ctx.addIssue({ code: "custom", message: `duplicate lesson id "${id}"`, path: ["units"] });
+    }
+    for (const id of [...value.units.map((u) => u.id), ...lessonIds]) {
+      if (id === REVIEW_SESSION_ID) {
+        ctx.addIssue({
+          code: "custom",
+          message: `"${REVIEW_SESSION_ID}" is reserved for review sessions (ADR-019)`,
+          path: ["units"],
+        });
+      }
     }
     if (lessonIds.length > CONTENT_RULES.courseMaxLessons) {
       ctx.addIssue({
