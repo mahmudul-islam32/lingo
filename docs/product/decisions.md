@@ -1554,3 +1554,88 @@ together._
   Rejected.
 - **Reversibility:** Medium until v0.6.0 (local data migration only), low after accounts
   exist (server data).
+
+## PD-079: Smart review product rules and ticket IDs (v0.5.5)
+
+- **Date:** 2026-11-26 (PM-012)
+- **Reason:** PD-071 #4 accepted smart review for v0.5.5 and left the IDs and rules to be
+  set when the tickets are written. Today a result stores counts only, so review needs
+  per-exercise data first.
+- **Decision:**
+  1. **IDs:** CTO-019 (per-exercise outcomes, review contracts, config), GAM-015 (selection
+     rule, progress rules for review results, Practice "Review" card), LES-023 (review in the
+     player, outcomes in every result, review results screen), PLT-029 (`/review` route,
+     storage, e2e). GAM-014 and PLT-028 stay with the per-course goal plan (PD-078).
+  2. **Only what you answered:** review uses exercises the learner already answered
+     (`correct` or `incorrect` at least once) in lessons still in the course. No new content,
+     no unseen exercises, no generated sentences.
+  3. **Unit = one exercise** (course, lesson, exercise id), not a word: exercises are what we
+     store and can replay as authored.
+  4. **Schedule (simple Leitner):** a mistake makes an exercise due at once; each first-try
+     correct answer in a row pushes it out by 1, 3, 7, 14, then 30 days
+     (`GAME_CONFIG.reviewIntervalsDays`, tunable). Due first, fewest correct-in-a-row first,
+     most overdue first.
+  5. **Session:** up to 10 exercises (`reviewSessionSize`). When fewer are due, the session is
+     topped up with the next ones to become due, so "Review anyway" always works once one
+     exercise was answered. No daily cap (PD-071 §2).
+  6. **Works like practice (PD-065):** free, costs no hearts, allowed at 0 hearts, correct
+     answers earn hearts. **XP as for a lesson** (`xpPerLesson` + perfect bonus, PD-003: XP
+     for any completed session, replays included), so review counts for the daily goal and
+     the streak. A review is never a lesson completion: it doesn't move the path, the
+     Practice list or the goal-plan count.
+  7. **Storage preference:** per-exercise outcomes ride on the existing `LessonResult`
+     (append-only, idempotent, already in the sync queue and guest migration) unless the
+     cto's ADR finds a reason for a separate table. The schedule is derived on the device,
+     never stored.
+  8. **Practice entry:** a "Review" card at the top of Practice with the number of exercises
+     ready; kind copy ("ready for review", never "weak" or "mistakes").
+- **Rationale:** the smallest version that delivers spaced repetition with data we can
+  collect now, ships in one run (one contract, three feature tickets), and keeps the
+  "practice is never locked" pillar. XP for review keeps the daily goal reachable for
+  learners who mostly review, which supports the daily-goal hit rate and D7 metrics.
+- **Alternatives considered:** per-word scheduling (needs a word index per exercise, i.e.
+  content work; rejected for now); SM-2 with ease factors (more tuning, no data to tune it
+  yet); review without XP (would make review feel like it "doesn't count" for streaks);
+  a daily cap or Plus-only unlimited review (rejected in PD-071 §2); only due exercises,
+  with an empty "come back tomorrow" state (blocks practice on day 1).
+- **Reversibility:** High for the rule and constants (pure function, config). Medium for the
+  stored shape once v0.6.0 syncs it.
+
+## PD-080: Review history starts with this release; only finished sessions count
+
+- **Date:** 2026-11-26 (PM-012)
+- **Decision:** results saved before CTO-019 have no per-exercise data and are **not**
+  backfilled (the attempts were never stored). Every learner's review starts empty and fills
+  as they finish lessons; the Practice card says so ("Answer exercises in any lesson and they
+  come back here for review."). Only **finished** sessions (lesson, practice, review) store
+  outcomes; quit and out-of-hearts sessions store nothing, as today.
+- **Rationale:** a backfill would have to guess which exercises were wrong. Storing quit
+  sessions would need a new record type outside the append-only result and could double
+  count on a later finish; the gain (a few extra items) is small.
+- **Alternatives considered:** treat every exercise of a completed lesson as "seen, correct"
+  (invents data and floods review with items the learner may never have answered correctly);
+  save attempts of quit sessions (more storage and sync rules). Rejected.
+- **Reversibility:** High (a later ticket can store quit-session outcomes).
+
+## PD-081: Which exercise types can be reviewed
+
+- **Date:** 2026-11-26 (PM-012)
+- **Decision:** reviewable: `multiple_choice`, `word_bank_translate`, `match_pairs`,
+  `listen`, `cloze`, `choice`, `listening` (`REVIEW_EXERCISE_TYPES`). Not reviewable:
+  `speak` (optional and often hidden, never costs hearts), `task` (open writing / speaking,
+  never graded), `explain` (a card, no answer). Exam-course `choice` / `listening` items
+  (telc, Einbürgerungstest) are reviewable like any other.
+- **Rationale:** review needs a right / wrong outcome to schedule; ungraded items have none.
+- **Reversibility:** High (one constant).
+
+## PD-082: Start level and daily goal stay global when goal plans become per course
+
+- **Date:** 2026-11-26 (PM-012, completing CTO-018)
+- **Decision:** only the goal plan becomes per course (PD-078). `startLevel` and
+  `dailyGoalXp` stay one value for the app. A plan for a course that is unknown, hidden or
+  has no levels is kept and not shown, never deleted.
+- **Rationale:** the daily goal is the learner's habit setting, not a course plan, and no
+  learner has asked for per-course start levels; widening CTO-018 would delay the v0.6.0
+  settings shape for no known need.
+- **Trigger to revisit:** course switchers report a wrong start level or path after a switch.
+- **Reversibility:** High until v0.6.0, medium after (server column).
