@@ -1497,3 +1497,60 @@ together._
   swap in a freely licensed photo. The coats of arms, flags, ballots and map are official
   symbols or BAMF drawings.
 - **Reversibility:** High (remove an entry from `scripts/import-telc/pictures.mjs` and rebuild).
+
+## PD-077: v0.5.4 waits for FIX-014 (goal-date link on courses without levels)
+
+- **Date:** 2026-11-25 (PM-ACC5)
+- **Reason:** CTO-017, GAM-013 and LES-022 are accepted on `main` `daffaa8`. PLT-027 is
+  rejected on AC 10. On Einbürgerungstest (an available course) and en-es, Learn shows "Set a
+  goal date", but Profile has no goal-date row for a course without levels, so the link opens
+  nothing. The two exam courses arrived in the same milestone (TELC-001), after the tickets
+  were written.
+- **Decision:** v0.5.4 is **not ready for release** until **FIX-014** (dev-platform, P1) is
+  merged and accepted: Learn shows no goal-date UI on courses without levels, with RTL and
+  e2e tests. The pm re-checks only FIX-014; the other verdicts stand.
+- **Rationale:** unlike PD-070 (a team README), this is a dead link on the first screen
+  for every Einbürgerungstest learner. The draft release notes already promise "courses
+  without levels show no goal". The fix is a small guard plus tests, so holding the release
+  costs little.
+- **Alternatives considered:** release now with FIX-014 in v0.5.5 (ships a known dead link
+  and an untrue release note); hide the goal date on every course until per-course plans
+  exist (removes a working feature from German and telc learners). Rejected.
+- **Reversibility:** n/a (process decision).
+
+## PD-078: The goal plan becomes per course (v0.5.5, before v0.6.0 sync)
+
+- **Date:** 2026-11-25 (PM-ACC5, cto follow-up)
+- **Reason:** CTO-017 stores one `Settings.goalPlan` for the app. With the course switch
+  (TELC-001) it applies to whichever course is active, including telc B1. A German "A2 by
+  12 Mar" plan then counts telc's A1 / A2 lessons, and a telc "B1 by …" plan shows as set in
+  Profile on German while German's Learn says "Set a goal date". telc B1 learners are the
+  clearest deadline learners (an exam date), so the goal date matters most to them.
+- **Decision:**
+  1. **Yes, a per-course goal is needed.** Rule for learners: the goal date always belongs
+     to the course you are on. Each course has at most one plan. Changing or removing one
+     course's plan never touches another's.
+  2. **When:** milestone **v0.5.5**, contract first: **CTO-018** (shape, stored-data
+     migration, Supabase column), then GAM-014 (hook) and PLT-028 (Profile, Learn, e2e),
+     reserved now. It runs next to Smart review in the same milestone. It **must merge before
+     v0.6.0's settings sync** (PLT-010 / PLT-014), so the server column has its final shape
+     before any real account data exists.
+  3. **Migration:** an existing single plan becomes the plan of the course that was active
+     in that settings record (else the default course). No plan is lost.
+  4. **v0.5.4 ships with the single plan** (after FIX-014). For a learner on one course,
+     which is most learners, it is correct. The mismatch only affects course switchers and
+     shows wrong numbers, not lost data.
+  5. **Not now:** a date-only goal ("finish this course by …") for courses without levels
+     such as Einbürgerungstest. It needs its own rule (no levels to count by) and copy that
+     respects PD-035 next to an official test. Trigger: per-course plans are shipped **and**
+     learners ask for it, or PLT-019 analytics show Einbürgerungstest retention needs it.
+- **Rationale:** per-course plans are the honest model now that the app has several
+  courses. Doing it before sync avoids a server-side data migration later. Keeping v0.5.4
+  as built avoids reopening four accepted tickets for an edge case.
+- **Alternatives considered:** keep one plan forever and clear it on course switch (silently
+  deletes a learner's plan); store `courseId` inside the single plan and ignore it on other
+  courses (a switcher can only ever have one plan, so a German + telc learner must choose);
+  rebuild per-course plans inside v0.5.4 (reopens accepted tickets and delays the release).
+  Rejected.
+- **Reversibility:** Medium until v0.6.0 (local data migration only), low after accounts
+  exist (server data).
