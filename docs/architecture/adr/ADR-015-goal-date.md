@@ -1,6 +1,6 @@
 # ADR-015: Goal date (`Settings.goalPlan`, `GoalPlanStatus`, `computeGoalPlan`)
 
-- **Status:** Accepted
+- **Status:** Accepted; amended by [ADR-018](ADR-018-goal-plan-per-course.md) (one plan per course)
 - **Date:** 2026-11-21
 - **Ticket:** CTO-017; consumers GAM-013, PLT-027, LES-022 (milestone v0.5.4 "Goal date")
 - **Decider:** cto (product rules: PD-071 §1, PD-064)
