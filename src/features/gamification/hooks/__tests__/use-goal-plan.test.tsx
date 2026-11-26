@@ -1,10 +1,17 @@
 import { act, renderHook, waitFor } from "@testing-library/react";
 import { afterEach, beforeEach, describe, expect, it, vi } from "vitest";
-import { CourseSchema, type Course, type LessonResult, type Settings } from "@/contracts";
+import {
+  CourseSchema,
+  type Course,
+  type GoalPlan,
+  type LessonResult,
+  type Settings,
+} from "@/contracts";
 import { toLocalDate, useGoalPlan } from "@/features/gamification";
 import { queryKeys } from "@/lib/query";
 import { createQueryWrapper, createTestQueryClient } from "@/lib/query/testing";
 import enDeCourse from "../../../../../content/courses/en-de/course.json";
+import telcCourse from "../../../../../content/courses/telc-b1-en-de/course.json";
 import { makeResult } from "../../rules/__tests__/fixtures";
 import { GOAL_PLAN_READ_WARNING } from "../use-goal-plan";
 import { createStubSession, pending, type StubSession } from "./session-stub";
@@ -29,15 +36,24 @@ const today = () => toLocalDate(new Date(), TZ);
 const inDays = (n: number) =>
   new Date(Date.parse(`${today()}T00:00:00Z`) + n * 86_400_000).toISOString().slice(0, 10);
 
-const settings = (overrides: Partial<Settings> = {}): Settings => ({
-  courseId: COURSE,
-  dailyGoalXp: 20,
-  soundEffectsEnabled: true,
-  speakingExercisesEnabled: true,
-  updatedAt: "2026-11-21T08:00:00.000Z",
-  goalPlan: { targetLevel: "A1", targetDate: inDays(100) },
-  ...overrides,
-});
+type SettingsOverrides = Partial<Omit<Settings, "goalPlan">> & {
+  /** The `en-de` plan, stored in the CTO-018 shape (`goalPlans`); `null` / `undefined` = none. */
+  goalPlan?: GoalPlan | null;
+};
+const DEFAULT_PLAN = (): GoalPlan => ({ targetLevel: "A1", targetDate: inDays(100) });
+const settings = (overrides: SettingsOverrides = {}): Settings => {
+  const { goalPlan, ...rest } = overrides;
+  const plan = "goalPlan" in overrides ? goalPlan : DEFAULT_PLAN();
+  return {
+    courseId: COURSE,
+    dailyGoalXp: 20,
+    soundEffectsEnabled: true,
+    speakingExercisesEnabled: true,
+    updatedAt: "2026-11-21T08:00:00.000Z",
+    ...(plan ? { goalPlans: { [COURSE]: plan } } : {}),
+    ...rest,
+  };
+};
 const done = (lessonId: string): LessonResult => makeResult({ courseId: COURSE, lessonId });
 
 function seeded(s: Settings | null, results: LessonResult[] = []) {
@@ -144,5 +160,139 @@ describe("useGoalPlan (GAM-013 AC8)", () => {
     const { result } = renderGoalPlan(client);
     await waitFor(() => expect(warn).toHaveBeenCalledWith(GOAL_PLAN_READ_WARNING, failure));
     expect(result.current).toBeNull();
+  });
+});
+
+describe("useGoalPlan per course (GAM-014, ADR-018)", () => {
+  const TELC = "telc-b1-en-de";
+  const TB1: Course = CourseSchema.parse(telcCourse);
+  const telcA1 = TB1.units
+    .filter((u) => u.level === "A1")
+    .flatMap((u) => u.lessons.map((l) => l.id));
+  const A2_PLAN: GoalPlan = { targetLevel: "A2", targetDate: "2027-03-12" };
+  const telcDone = (lessonId: string): LessonResult => makeResult({ courseId: TELC, lessonId });
+
+  function twoCourses(
+    s: Settings,
+    deResults: LessonResult[] = [],
+    telcResults: LessonResult[] = [],
+  ) {
+    const client = seeded(s, deResults);
+    client.setQueryData(queryKeys.progress(TELC), telcResults);
+    client.setQueryData(queryKeys.content(TELC), TB1);
+    return client;
+  }
+
+  function renderBoth(client: ReturnType<typeof createTestQueryClient>) {
+    const wrapper = createQueryWrapper(client);
+    const de = renderHook(() => useGoalPlan({ courseId: COURSE, timeZone: TZ }), { wrapper });
+    const telc = renderHook(() => useGoalPlan({ courseId: TELC, timeZone: TZ }), { wrapper });
+    return { de, telc };
+  }
+
+  it("AC2: a plan on en-de only gives en-de its status and telc null (worked example)", () => {
+    const { de, telc } = renderBoth(twoCourses(settings({ goalPlan: A2_PLAN })));
+    expect(de.result.current).toMatchObject({
+      targetLevel: "A2",
+      targetDate: "2027-03-12",
+      lessonsLeft: 130,
+    });
+    expect(telc.result.current).toBeNull();
+  });
+
+  it("AC2: with plans on both courses each hook returns its own target and counts", () => {
+    const s = settings({
+      goalPlans: {
+        [COURSE]: A2_PLAN,
+        [TELC]: { targetLevel: "A1", targetDate: inDays(50) },
+      },
+    });
+    const { de, telc } = renderBoth(twoCourses(s, [done(A1[0]!)], [telcDone(telcA1[0]!)]));
+    expect(de.result.current).toMatchObject({
+      targetLevel: "A2",
+      targetDate: "2027-03-12",
+      lessonsLeft: 129,
+    });
+    expect(telc.result.current).toMatchObject({
+      targetLevel: "A1",
+      targetDate: inDays(50),
+      lessonsLeft: 49,
+      daysLeft: 50,
+      lessonsPerDay: 1,
+    });
+  });
+
+  it("AC1: without courseId it uses the active course", () => {
+    const s = settings({
+      courseId: TELC,
+      goalPlans: { [TELC]: { targetLevel: "A1", targetDate: inDays(50) } },
+    });
+    const client = twoCourses(s);
+    const { result } = renderHook(() => useGoalPlan({ timeZone: TZ }), {
+      wrapper: createQueryWrapper(client),
+    });
+    expect(result.current).toMatchObject({ targetLevel: "A1", lessonsLeft: 50 });
+  });
+
+  it("AC3: a migrated v0.5.4 record gives its single plan to the active course only", () => {
+    const legacy: Settings = {
+      courseId: COURSE,
+      dailyGoalXp: 20,
+      soundEffectsEnabled: true,
+      speakingExercisesEnabled: true,
+      updatedAt: "2026-11-21T08:00:00.000Z",
+      goalPlan: A2_PLAN,
+    };
+    const { de, telc } = renderBoth(twoCourses(legacy));
+    expect(de.result.current).toMatchObject({ targetLevel: "A2", lessonsLeft: 130 });
+    expect(telc.result.current).toBeNull();
+
+    const legacyOnTelc = renderBoth(twoCourses({ ...legacy, courseId: TELC }));
+    expect(legacyOnTelc.de.result.current).toBeNull();
+    expect(legacyOnTelc.telc.result.current).toMatchObject({ targetLevel: "A2", lessonsLeft: 107 });
+  });
+
+  it("AC3: a goalPlans entry wins over a legacy plan for the same course", () => {
+    const s = settings({ goalPlan: A2_PLAN });
+    const mixed: Settings = { ...s, goalPlan: { targetLevel: "A1", targetDate: inDays(5) } };
+    const { de } = renderBoth(twoCourses(mixed));
+    expect(de.result.current).toMatchObject({ targetLevel: "A2", targetDate: "2027-03-12" });
+  });
+
+  it("AC4: set, change, clear and a result of one course update only that course", async () => {
+    const client = twoCourses(settings({ goalPlan: null }));
+    const { de, telc } = renderBoth(client);
+    expect(de.result.current).toBeNull();
+    expect(telc.result.current).toBeNull();
+
+    const telcPlan: GoalPlan = { targetLevel: "A1", targetDate: inDays(50) };
+    act(() =>
+      client.setQueryData(queryKeys.settings(), settings({ goalPlans: { [TELC]: telcPlan } })),
+    );
+    await waitFor(() => expect(telc.result.current).toMatchObject({ lessonsLeft: 50 }));
+    expect(de.result.current).toBeNull();
+    const telcBefore = telc.result.current;
+
+    act(() =>
+      client.setQueryData(
+        queryKeys.settings(),
+        settings({ goalPlans: { [TELC]: telcPlan, [COURSE]: A2_PLAN } }),
+      ),
+    );
+    await waitFor(() => expect(de.result.current).toMatchObject({ lessonsLeft: 130 }));
+    expect(telc.result.current).toEqual(telcBefore);
+
+    act(() => client.setQueryData(queryKeys.progress(TELC), [telcDone(telcA1[0]!)]));
+    await waitFor(() => expect(telc.result.current).toMatchObject({ lessonsLeft: 49 }));
+    expect(de.result.current).toMatchObject({ lessonsLeft: 130 });
+
+    act(() =>
+      client.setQueryData(queryKeys.settings(), settings({ goalPlans: { [COURSE]: A2_PLAN } })),
+    );
+    await waitFor(() => expect(telc.result.current).toBeNull());
+    expect(de.result.current).toMatchObject({ lessonsLeft: 130 });
+
+    await act(() => client.invalidateQueries({ queryKey: queryKeys.progress(COURSE) }));
+    expect(telc.result.current).toBeNull();
   });
 });
