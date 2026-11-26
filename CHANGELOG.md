@@ -16,6 +16,55 @@ the release where it becomes user-facing.
 
 ## [Unreleased]
 
+## [0.5.4] - 2026-11-26
+
+Goal date: a learner can pick a level and a date ("A2 by 25 March"), and Polyglow shows
+how many lessons are left, whether the daily goal covers them, and a one-tap way to raise
+it. This release also carries the owner's exam-prep work: the telc B1 Exam Prep and
+Einbürgerungstest courses with a course switch in Profile, sound effects, and system
+fonts.
+
+### Added
+
+- Goal date: a "Goal date" setting in Profile (level and date), a goal card on Learn with
+  "Use X XP a day", and a goal row on the results screen. The plan is computed on the
+  device from saved results. Courses without levels (Einbürgerungstest) show no goal on
+  Learn, in Profile or on results [CTO-017] (#101) [GAM-013] (#102) [PLT-027] (#103)
+  [LES-022] (#108) [FIX-014] (#112)
+- telc B1 Exam Prep and Einbürgerungstest courses, exam-prep exercise types (exam
+  questions, teaching cards) and a course switch in Profile [TELC-001] (#104)
+- telc course levels A1, A2 and B1 with start-level switching [TELC-003] (#104)
+- Niedersachsen state questions and pictures for picture questions [TELC-004] [TELC-005]
+  (#106)
+- Sound effects for correct, wrong and lesson complete, with an on/off setting in Profile
+  [LES-012] (#105)
+- Marketing: market research, personas, positioning, pricing proposal, launch plan and a
+  draft launch kit (nothing published) [MKT-001] (#99)
+- Product decisions on the marketing proposals (PD-071) and the pricing position: free
+  with no ads through v1.0.0, charging is the owner's decision (PD-072); v0.5.4 tickets
+  [PM-010] (#100)
+- Release acceptance for v0.5.4: every ticket accepted. CTO-017, GAM-013 and LES-022 on
+  first review; PLT-027 through FIX-014, after it was rejected on AC 10 (PD-077). The goal
+  plan becomes per course in v0.5.5, before the v0.6.0 settings sync (PD-078, CTO-018)
+  [PM-011] (#111) [PM-012] (#113)
+
+### Changed
+
+- System font stacks (SF Pro, Segoe UI, Roboto) instead of downloaded fonts [TELC-002]
+  (#104)
+- Team process: a revert guard before every squash-merge [CHORE-005] (#35) and a
+  marketing and growth agent [CHORE-006] (#98)
+
+### Fixed
+
+- The Profile sound toggle's accessible name contains its visible text (axe
+  label-content-name-mismatch) [FIX-012] (#107)
+- PWA e2e specs get a longer timeout for the larger service-worker precache [FIX-013]
+  (#109)
+- Results fit 375 × 667 with the goal row on wider system fonts [LES-022] (#108)
+- Learn no longer shows a "Set a goal date" link that opens nothing on courses without
+  levels, and Profile drops a stale `?edit=goal-date` [FIX-014] (#112)
+
 ## [0.5.3] - 2026-11-20
 
 Redesign: every screen follows the owner's new visual design (PD-066). Polyglow and Lumi

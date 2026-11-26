@@ -114,3 +114,13 @@ Personas: **learner** (any user), **guest** (no account), **signed-in learner**,
 | US-GD-02 | As a learner with a goal date, I want to see how many lessons are left and how many days I have so that I know what it takes. | P1 |
 | US-GD-03 | As a learner with a goal date, I want a suggested daily goal that I can apply with one tap, and to see lessons left after each lesson, so that I stay on track without doing the maths. | P1 |
 | US-GD-04 | As a learner whose plans change, I want to change or remove my goal date at any time so that the plan never pressures me. | P1 |
+| US-GD-05 | As a learner who switches between courses, I want each course to keep its own goal date so that a plan for one course never changes the other (added 2026-11-26, PD-078). | P1 |
+
+## Smart review (added 2026-11-26, PD-079 … PD-081)
+
+| ID | Story | Priority |
+|---|---|---|
+| US-SR-01 | As a learner, I want Polyglow to remember which exercises I got right or wrong so that review can bring back the ones I need. | P1 |
+| US-SR-02 | As a learner, I want a short review of exercises I already answered, mixing lessons, so that I keep what I learned without replaying whole lessons. | P1 |
+| US-SR-03 | As a learner, I want the Practice tab to tell me how many exercises are ready for review so that I know when reviewing is worth it. | P1 |
+| US-SR-04 | As a learner, I want review to be free, possible at 0 hearts, earn hearts back and count for my daily goal so that reviewing never feels like a cost. | P1 |
