@@ -11,7 +11,8 @@ import {
   useGoalPlan,
 } from "@/features/gamification";
 import { SkillPath } from "@/features/path";
-import { useContentRepository } from "@/lib/content";
+import { startLevelOptions } from "@/features/profile";
+import { useContentRepository, useCourse } from "@/lib/content";
 import { useFlashToast } from "../../_shell/flash-toast";
 import { InstallCard } from "../../_shell/InstallCard";
 import { CourseCaption } from "./CourseCaption";
@@ -34,7 +35,9 @@ import { usePreloadCourseLessons } from "./use-preload-course-lessons";
  * content, so Learn renders progress offline (AC 7); the course's lessons are preloaded
  * so they open offline too (PLT-007 criterion 7). Under the ring, GAM-013's `GoalPlanCard`
  * shows the goal date (or one "Set a goal date" link); "Use <n> XP a day" saves the daily
- * goal through the same settings update as Profile (PLT-027 AC 10–12).
+ * goal through the same settings update as Profile (PLT-027 AC 10–12). On a course without
+ * a level with lessons (Einbürgerungstest, en-es) Learn shows no goal-date UI at all, since
+ * Profile has no goal-date row there (FIX-014); the saved plan is left untouched.
  */
 export function LearnScreen() {
   const settings = useQuery(settingsQuery());
@@ -45,6 +48,10 @@ export function LearnScreen() {
   useFlashToast();
   // PLT-027: the goal-date card (GAM-013); "Use <n> XP a day" saves the daily goal.
   const goalPlan = useGoalPlan({ courseId });
+  // FIX-014: nothing until the course is known (no link flashing in and out), then the
+  // card only on a course with at least one level with lessons.
+  const course = useCourse(courseId);
+  const courseHasLevels = course.data ? startLevelOptions(course.data).length > 0 : false;
   const { onUseSuggestedGoal } = useGoalPlanActions();
 
   return (
@@ -57,7 +64,10 @@ export function LearnScreen() {
         <DailyGoalRing courseId={courseId} className="shrink-0" />
       </div>
       {/* PLT-027 AC 10: under the ring, above the path; the edit links go to Profile. */}
-      <GoalPlanCard status={goalPlan} onUseSuggestedGoal={onUseSuggestedGoal} />
+      <GoalPlanCard
+        status={courseHasLevels ? goalPlan : undefined}
+        onUseSuggestedGoal={onUseSuggestedGoal}
+      />
       <CourseCaption courseId={courseId} />
       <SkillPath courseId={courseId} loadCourse={getCourse} className="px-0" />
     </div>

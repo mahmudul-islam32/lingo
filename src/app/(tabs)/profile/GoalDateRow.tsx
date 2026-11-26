@@ -119,9 +119,12 @@ export function GoalDateRow({ computePlan }: GoalDateRowProps) {
   // URL is read after commit (a client navigation updates it in the commit), and the
   // dialog opens on the next frame, once the row is laid out.
   useEffect(() => {
-    if (deepLinkHandled.current || !ready || options.length === 0) return;
-    if (!hasEditParam()) {
+    if (deepLinkHandled.current || !ready) return;
+    // FIX-014 AC 3: on a course without levels there is no row and no dialog; the stale
+    // `?edit=goal-date` is dropped with history `replace` (no extra back step).
+    if (!hasEditParam() || options.length === 0) {
       deepLinkHandled.current = true;
+      clearEditParam();
       return;
     }
     const frame = requestAnimationFrame(() => {

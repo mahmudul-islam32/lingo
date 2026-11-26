@@ -84,7 +84,7 @@ const renderLearn = () =>
   );
 
 describe("LearnPage (PLT-009)", () => {
-  it("shows top bar, streak Lumi + goal ring row, then the skill path, with one h1", () => {
+  it("shows top bar, streak Lumi + goal ring row, then the skill path, with one h1", async () => {
     renderLearn();
     expect(metadata.title).toBe("Learn");
 
@@ -112,9 +112,12 @@ describe("LearnPage (PLT-009)", () => {
       card.compareDocumentPosition(screen.getByTestId("skill-path")) &
         Node.DOCUMENT_POSITION_FOLLOWING,
     ).toBeTruthy();
-    const cardProps = mocks.calls.find((c) => c.name === "goal-plan-card")!.props;
-    expect(cardProps.status).toBeNull();
-    expect(typeof cardProps.onUseSuggestedGoal).toBe("function");
+    // FIX-014: `undefined` (nothing) until the course is known, then the hook's status
+    // (en-de has levels).
+    const cardProps = () => mocks.calls.filter((c) => c.name === "goal-plan-card").at(-1)!.props;
+    expect(cardProps().status).toBeUndefined();
+    await waitFor(() => expect(cardProps().status).toBeNull());
+    expect(typeof cardProps().onUseSuggestedGoal).toBe("function");
     // The top bar sticks while the path scrolls (AC 9).
     expect(screen.getByTestId("top-bar")).toHaveClass("sticky", "top-0", "z-10");
   });
