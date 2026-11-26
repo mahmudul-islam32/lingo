@@ -6,6 +6,7 @@ import { GAME_CONFIG, type GoalPlanStatus, type Slug } from "@/contracts";
 import { useCourse } from "@/lib/content";
 import { progressQuery, settingsQuery } from "../data/queries";
 import { computeGoalPlan } from "../rules/goal-plan";
+import { completedLessonIdsOf } from "../rules/progress";
 import { useActiveCourseId } from "./use-active-course-id";
 import { useLocalToday, type UseLocalTodayOptions } from "./use-local-today";
 
@@ -46,7 +47,7 @@ export function useGoalPlan(options: UseGoalPlanOptions = {}): GoalPlanStatus | 
   const startLevel = settings.data?.startLevel;
   const dailyGoalXp = settings.data?.dailyGoalXp ?? GAME_CONFIG.defaultDailyGoalXp;
   const completedLessonIds = useMemo(
-    () => (results.data ? [...new Set(results.data.map((result) => result.lessonId))] : null),
+    () => (results.data ? completedLessonIdsOf(results.data) : null), // GAM-015 AC7
     [results.data],
   );
 

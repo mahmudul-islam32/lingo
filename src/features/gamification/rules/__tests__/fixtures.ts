@@ -1,4 +1,9 @@
-import { LessonResultSchema, type LessonResult } from "@/contracts";
+import {
+  LessonResultSchema,
+  REVIEW_SESSION_ID,
+  type ExerciseType,
+  type LessonResult,
+} from "@/contracts";
 
 let counter = 0;
 
@@ -35,4 +40,55 @@ export function makeResult(overrides: Partial<LessonResult> = {}): LessonResult 
     ...overrides,
   };
   return LessonResultSchema.parse(result);
+}
+
+type OutcomeKind = "correct" | "incorrect" | "skipped";
+
+/**
+ * A schema-valid result carrying `exerciseOutcomes` (CTO-019): counts follow the outcomes
+ * (ADR-019 §1). `outcomes` are `[exerciseId, outcome, exerciseType?, lessonId?]`; the
+ * lesson defaults to the result's lesson. `kind: "review"` uses the reserved ids.
+ */
+export function makeOutcomeResult(options: {
+  courseId: string;
+  lessonId: string;
+  date: string;
+  /** `HH:MM` of `completedAt` (UTC), default `10:00`. */
+  time?: string;
+  kind?: "lesson" | "review";
+  outcomes: readonly (readonly [string, OutcomeKind, ExerciseType?, string?])[];
+}): LessonResult {
+  const review = options.kind === "review";
+  const resultLessonId = review ? REVIEW_SESSION_ID : options.lessonId;
+  const exerciseOutcomes = options.outcomes.map(([exerciseId, outcome, type, lessonId]) => ({
+    lessonId: lessonId ?? options.lessonId,
+    exerciseId,
+    exerciseType: type ?? ("multiple_choice" as ExerciseType),
+    outcome,
+  }));
+  const count = (kind: OutcomeKind) => exerciseOutcomes.filter((o) => o.outcome === kind).length;
+  const exerciseCount = Math.max(exerciseOutcomes.length, 1);
+  const skippedCount = count("skipped");
+  const mistakeCount = count("incorrect");
+  const perfect = mistakeCount === 0 && exerciseCount - skippedCount >= 1;
+  const counted = exerciseCount - skippedCount;
+  const at = `${options.date}T${options.time ?? "10:00"}:00.000Z`;
+  return makeResult({
+    courseId: options.courseId,
+    unitId: review ? REVIEW_SESSION_ID : "unit-1",
+    lessonId: resultLessonId,
+    ...(options.kind ? { kind: options.kind } : {}),
+    startedAt: at,
+    completedAt: at,
+    durationMs: 0,
+    exerciseCount,
+    firstTryCorrectCount: count("correct"),
+    mistakeCount,
+    skippedCount,
+    accuracy: counted === 0 ? 1 : count("correct") / counted,
+    perfect,
+    heartsLost: 0,
+    localDate: options.date,
+    exerciseOutcomes,
+  });
 }
