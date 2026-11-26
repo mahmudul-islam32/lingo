@@ -41,7 +41,7 @@ import { PlayerHeader } from "./PlayerHeader";
 import { QuitDialog } from "./QuitDialog";
 import { sessionStats } from "./session-reducer";
 import { createSessionStore, usePlayerState } from "./session-store";
-import { summarizeSession, type LessonSessionSummary } from "./summary";
+import { summarizeSession, type LessonSessionSummary, type ReviewSource } from "./summary";
 
 /**
  * Hearts wiring for v0.3.0 (LES-009). The player only counts down the session's
@@ -105,6 +105,12 @@ export interface LessonPlayerProps {
   soundEffectsEnabled?: boolean;
   /** Sound player, injectable for tests. Default: the app-wide Web Audio player. */
   sounds?: SoundEffects;
+  /**
+   * Review session (LES-023): `lesson` is the review "lesson" from `buildReviewLesson`
+   * and this maps each exercise to its source lesson, so the summary becomes a review
+   * result with per-source outcomes. Use `ReviewPlayer` rather than setting it by hand.
+   */
+  review?: ReviewSource;
 }
 
 type AnyExerciseComponent = ComponentType<ExerciseComponentProps>;
@@ -189,6 +195,7 @@ export function LessonPlayer({
   random,
   soundEffectsEnabled = false,
   sounds,
+  review: reviewSource,
 }: LessonPlayerProps) {
   const [store] = useState(() =>
     createSessionStore({
@@ -221,7 +228,7 @@ export function LessonPlayer({
   const [quitOpen, setQuitOpen] = useState(false);
   const quitOpenRef = useLatest(quitOpen);
   const nowRef = useLatest(now);
-  const callbacks = useLatest({ onFinish, onQuit, hearts });
+  const callbacks = useLatest({ onFinish, onQuit, hearts, reviewSource });
   const soundRef = useLatest(
     soundEffectsEnabled ? (sounds ?? sharedSoundEffects()) : silentSoundEffects,
   );
@@ -236,7 +243,12 @@ export function LessonPlayer({
     if (status === "completed" && completedAt) {
       soundRef.current.play("complete");
       callbacks.current.onFinish(
-        summarizeSession(session, completedAt, { heartsLost, heartsGained }),
+        summarizeSession(
+          session,
+          completedAt,
+          { heartsLost, heartsGained },
+          callbacks.current.reviewSource,
+        ),
       );
     } else if (status === "quit") {
       callbacks.current.onQuit();
@@ -348,6 +360,7 @@ export function LessonPlayer({
     return <LessonPlayerError onRetry={onRetry} onBack={onQuit} />;
   }
 
+  const noun = reviewSource ? "review" : "lesson";
   const total = stats.progressMax;
   const position = Math.min(stats.correctCount + 1, Math.max(total, 1));
   const valueText = `Exercise ${position} of ${total}`;
@@ -380,6 +393,7 @@ export function LessonPlayer({
         onQuitRequest={openQuit}
         closeButtonRef={closeButtonRef}
         heartsSlot={heartsSlot}
+        noun={noun}
       />
 
       <VisuallyHidden role="status" aria-live="polite" aria-atomic="true">
@@ -453,6 +467,7 @@ export function LessonPlayer({
         onKeepLearning={keepLearning}
         onQuit={confirmQuit}
         returnFocusRef={closeButtonRef}
+        noun={noun}
       />
     </div>
   );
