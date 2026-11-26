@@ -15,6 +15,15 @@ import { refillHearts } from "./hearts";
 import { computeStreak } from "./streak";
 
 /**
+ * Lessons completed by `results` (GAM-015 AC7, ADR-019 §3): each `lessonId` once, in the
+ * order of its first result; review results never complete a lesson. Callers filter by
+ * course first.
+ */
+export function completedLessonIdsOf(results: readonly LessonResult[]): Slug[] {
+  return [...new Set(results.filter((result) => !isReviewResult(result)).map((r) => r.lessonId))];
+}
+
+/**
  * Contract rule `ComputeUserProgress`.
  *
  * - Only results with `courseId === input.courseId` count (others are ignored).

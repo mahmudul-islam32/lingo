@@ -14,7 +14,7 @@ export {
 } from "./hearts";
 export { computeDailyGoalProgress, dailyGoalFraction } from "./daily-goal";
 export { addDays, dayNumberToLocalDate, localDateToDayNumber, toLocalDate } from "./local-date";
-export { computeUserProgress } from "./progress";
+export { completedLessonIdsOf, computeUserProgress } from "./progress";
 export {
   reviewIntervalDays,
   reviewSchedule,
