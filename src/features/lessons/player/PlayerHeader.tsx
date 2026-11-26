@@ -14,6 +14,8 @@ export interface PlayerHeaderProps {
   closeButtonRef: Ref<HTMLButtonElement>;
   /** Hearts display, filled by LES-009 (v0.3.0). Empty slot until then. */
   heartsSlot?: ReactNode;
+  /** "lesson" (default) or "review" (LES-023): names of the close button and the bar. */
+  noun?: "lesson" | "review";
 }
 
 /**
@@ -27,19 +29,21 @@ export function PlayerHeader({
   onQuitRequest,
   closeButtonRef,
   heartsSlot,
+  noun = "lesson",
 }: PlayerHeaderProps) {
+  const Noun = noun === "review" ? "Review" : "Lesson";
   return (
     <header className="mx-auto flex w-full max-w-2xl items-center gap-3 px-4 pt-[max(1rem,env(safe-area-inset-top))] pb-2 sm:gap-3.5 sm:px-5">
       <IconButton
         ref={closeButtonRef}
-        label="Quit lesson"
+        label={`Quit ${noun}`}
         icon={<CloseIcon size={24} />}
         onClick={onQuitRequest}
       />
       <ProgressBar
         value={value}
         max={max}
-        label="Lesson progress"
+        label={`${Noun} progress`}
         valueText={valueText}
         size="lg"
         className="min-w-0 flex-1"

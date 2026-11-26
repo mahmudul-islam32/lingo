@@ -15,6 +15,7 @@ export {
 } from "./sound/sound-effects";
 export {
   buildLessonResult,
+  exerciseOutcomesOf,
   LessonPlayer,
   LessonPlayerError,
   LessonPlayerSkeleton,
@@ -25,7 +26,15 @@ export {
   type LessonPlayerHearts,
   type LessonPlayerProps,
   type LessonSessionSummary,
+  type ReviewSource,
 } from "./player";
+export {
+  REVIEW_TITLE,
+  ReviewPlayer,
+  buildReviewLesson,
+  type ReviewLesson,
+  type ReviewPlayerProps,
+} from "./review";
 export {
   FeedbackPanel,
   correctAnswerLanguage,
@@ -47,6 +56,9 @@ export {
 export { ListenExercise, type ListenExerciseProps } from "./exercises/listen/ListenExercise";
 export {
   ResultsScreen,
+  RESULTS_HEADING,
+  REVIEW_MORE_LABEL,
+  REVIEW_RESULTS_HEADING,
   formatAccuracy,
   formatDuration,
   toLessonResult,

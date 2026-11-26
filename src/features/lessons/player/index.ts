@@ -17,9 +17,11 @@ export {
 export { createSessionStore, usePlayerState, type SessionStore } from "./session-store";
 export {
   buildLessonResult,
+  exerciseOutcomesOf,
   lessonAccuracy,
   summarizeSession,
   type BuildLessonResultInput,
   type LessonSessionSummary,
+  type ReviewSource,
   type SessionHeartsTotals,
 } from "./summary";
