@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useId, useRef, useState } from "react";
-import type { GoalPlanStatus, LessonResult } from "@/contracts";
+import { isReviewResult, type GoalPlanStatus, type LessonResult } from "@/contracts";
 import { BoltIcon, Button, Lumi, StatTile, VisuallyHidden } from "@/components/ui";
 import { useProgressInputs } from "@/features/gamification";
 import { CelebrationBanner } from "./CelebrationBanner";
@@ -19,23 +19,62 @@ export interface ResultsScreenProps {
   result: LessonResult;
   /** `ProgressRepository.saveLessonResult` (PLT-008). Runs in the background. */
   save: SaveLessonResult;
-  /** Primary "Continue": back to Learn (`/`). Works whatever the save status. */
+  /**
+   * Primary "Continue": back to Learn (`/`), or to Practice (`/practice`) after a review.
+   * Works whatever the save status.
+   */
   onContinue: () => void;
   /** Called once the result is stored (e.g. invalidate `["progress", courseId]`). */
   onSaved?: (result: LessonResult) => void;
-  /** Optional secondary "Practice again" (replay the same lesson, PD-008). */
+  /**
+   * Optional secondary "Practice again" (replay the same lesson, PD-008); after a review
+   * it reads "Review more" (LES-023 AC 11) and should start a new review.
+   */
   onRetryLesson?: () => void;
   /**
    * LES-022: the goal-date status (`useGoalPlan()`, GAM-013) computed after this lesson's
    * result is saved (PLT-027 passes it). Shows one row under the daily-goal row for
    * `on-track`, `raise-goal`, `tight` and `reached`; nothing for `date-passed`, `null`
    * (no plan) or `undefined` (absent / still loading), so the screen is as before.
+   * Ignored for a review result (LES-023 AC 10: a review never changes lessons left).
    */
   goalPlan?: GoalPlanStatus | null | undefined;
 }
 
 export const RESULTS_HEADING = "Lesson complete!";
 export const SAVE_ERROR_MESSAGE = "We couldn't save this lesson on your device.";
+/** Review mode (LES-023 AC 10–11). */
+export const REVIEW_RESULTS_HEADING = "Review complete!";
+export const REVIEW_SAVE_ERROR_MESSAGE = "We couldn't save this review on your device.";
+export const REVIEW_MORE_LABEL = "Review more";
+
+/** Copy that differs between a lesson and a review result (LES-023). */
+interface ResultsCopy {
+  heading: string;
+  statsLabel: string;
+  saveError: string;
+  saved: string;
+  retry: string;
+  perfect: (bonus: number) => string;
+}
+
+const LESSON_COPY: ResultsCopy = {
+  heading: RESULTS_HEADING,
+  statsLabel: "Lesson stats",
+  saveError: SAVE_ERROR_MESSAGE,
+  saved: "Lesson saved.",
+  retry: "Practice again",
+  perfect: (bonus) => perfectLessonText(bonus),
+};
+
+const REVIEW_COPY: ResultsCopy = {
+  heading: REVIEW_RESULTS_HEADING,
+  statsLabel: "Review stats",
+  saveError: REVIEW_SAVE_ERROR_MESSAGE,
+  saved: "Review saved.",
+  retry: REVIEW_MORE_LABEL,
+  perfect: (bonus) => perfectReviewText(bonus),
+};
 /** How long the celebration stays in the live region before it is emptied (FIX-010). */
 export const ANNOUNCEMENT_CLEAR_MS = 1000;
 
@@ -68,6 +107,11 @@ export function perfectLessonText(bonus: number): string {
   return `Perfect lesson! +${bonus} bonus XP`;
 }
 
+/** "Perfect review! +5 bonus XP" (LES-023: same bonus as a lesson, PD-079). */
+export function perfectReviewText(bonus: number): string {
+  return `Perfect review! +${bonus} bonus XP`;
+}
+
 /**
  * Line for the gold celebration pill under the heading, or `null` for no pill (FIX-010).
  * Streak and daily-goal events are not repeated here: the coral streak banner already
@@ -86,6 +130,10 @@ export function celebrationPillText(perfectBonus: number): string | null {
  * banner and the daily-goal row, then Continue and the optional "Practice again".
  * Each line is shown once (FIX-010): the gold pill only for the perfect-lesson bonus;
  * the streak and goal events live in their rows (and the polite announcement, AC 7).
+ *
+ * Review mode (LES-023), chosen by the result's kind (`isReviewResult`): heading
+ * "Review complete!", the same XP / time / accuracy tiles, streak and daily-goal rows,
+ * no goal-date row, and "Review more" instead of "Practice again".
  */
 export function ResultsScreen({
   result,
@@ -93,8 +141,11 @@ export function ResultsScreen({
   onContinue,
   onSaved,
   onRetryLesson,
-  goalPlan,
+  goalPlan: goalPlanProp,
 }: ResultsScreenProps) {
+  const review = isReviewResult(result);
+  const copy = review ? REVIEW_COPY : LESSON_COPY;
+  const goalPlan = review ? undefined : goalPlanProp;
   const headingRef = useRef<HTMLHeadingElement>(null);
   const headingId = useId();
   const { status, retry } = useSaveResult(result, save, onSaved);
@@ -106,7 +157,7 @@ export function ResultsScreen({
   // Pure and a single pass over the results, so it simply runs on every render.
   const impact = computeLessonImpact(result, useProgressInputs(result.courseId));
   const celebration = impact?.celebration ?? null;
-  const pillText = celebrationPillText(perfectBonus);
+  const pillText = perfectBonus > 0 ? copy.perfect(perfectBonus) : null;
   // LES-022 AC 8: the goal-date row is the sixth row; on short screens the gaps tighten
   // by 2px so everything, Continue included, still fits 375 × 667. Without the row the
   // classes are exactly as before (AC 1).
@@ -166,14 +217,14 @@ export function ResultsScreen({
             tabIndex={-1}
             className="font-display text-[2rem] leading-tight font-extrabold tracking-[-0.02em] focus:outline-none"
           >
-            {RESULTS_HEADING}
+            {copy.heading}
           </h1>
         </div>
 
         {pillText && <CelebrationBanner text={pillText} />}
 
         <ul
-          aria-label="Lesson stats"
+          aria-label={copy.statsLabel}
           className={`grid w-full grid-cols-1 ${compact ? "gap-2" : "gap-2.5"} min-[340px]:grid-cols-3`}
         >
           <StatTile
@@ -213,13 +264,13 @@ export function ResultsScreen({
             role="alert"
             className="flex w-full flex-col items-center gap-2 rounded-card border-2 border-danger-border bg-danger-tint p-3 text-danger-fg"
           >
-            <p className="font-bold">{SAVE_ERROR_MESSAGE}</p>
+            <p className="font-bold">{copy.saveError}</p>
             <Button variant="secondary" size="md" onClick={retry}>
               Try again
             </Button>
           </div>
         )}
-        <VisuallyHidden role="status">{status === "saved" ? "Lesson saved." : ""}</VisuallyHidden>
+        <VisuallyHidden role="status">{status === "saved" ? copy.saved : ""}</VisuallyHidden>
         <VisuallyHidden aria-live="polite" data-testid="celebration-announcement">
           {announcement}
         </VisuallyHidden>
@@ -231,7 +282,7 @@ export function ResultsScreen({
         </Button>
         {onRetryLesson && (
           <Button variant="ghost" size="md" fullWidth onClick={onRetryLesson}>
-            Practice again
+            {copy.retry}
           </Button>
         )}
       </div>
