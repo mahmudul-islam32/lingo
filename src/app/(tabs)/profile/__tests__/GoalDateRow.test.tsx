@@ -287,6 +287,46 @@ describe("Profile goal date row and dialog (PLT-027)", () => {
     expect(screen.queryByRole("dialog")).not.toBeInTheDocument();
   });
 
+  it.each(["en-es", "einbuergerung-en-de"])(
+    "FIX-014: no goal-date row on %s (a course without levels)",
+    async (courseId) => {
+      await renderProfile({ courseId });
+      await screen.findByRole("heading", { level: 3, name: "Daily goal" });
+      await waitFor(() =>
+        expect(
+          screen.queryByRole("heading", { level: 3, name: "Goal date" }),
+        ).not.toBeInTheDocument(),
+      );
+      expect(screen.queryByRole("button", { name: SET_GOAL_DATE })).not.toBeInTheDocument();
+      expect(screen.queryByRole("button", { name: CHANGE_GOAL_DATE })).not.toBeInTheDocument();
+    },
+  );
+
+  it.each(["en-es", "einbuergerung-en-de"])(
+    "FIX-014 AC 3: /profile?edit=goal-date on %s opens no dialog and drops the param with replace",
+    async (courseId) => {
+      window.history.replaceState(null, "", "/profile?edit=goal-date");
+      const length = window.history.length;
+      const replace = vi.spyOn(window.history, "replaceState");
+      const plan = { targetLevel: "A2" as const, targetDate: addDays(today(), 50) };
+      await renderProfile({ courseId, goalPlan: plan });
+      await screen.findByRole("heading", { level: 3, name: "Daily goal" });
+      await waitFor(() => expect(window.location.search).toBe(""));
+      expect(window.location.pathname).toBe("/profile");
+      expect(replace).toHaveBeenCalled();
+      expect(window.history.length).toBe(length);
+      await act(async () => {});
+      expect(screen.queryByRole("dialog")).not.toBeInTheDocument();
+      // No error toast or inline error (the toast region itself stays empty).
+      for (const alert of screen.queryAllByRole("alert")) expect(alert).toHaveTextContent("");
+      expect(
+        screen.queryByRole("heading", { level: 3, name: "Goal date" }),
+      ).not.toBeInTheDocument();
+      // AC 4: the saved plan is untouched.
+      expect((await session.profile.getSettings())?.goalPlan).toEqual(plan);
+    },
+  );
+
   it("16: no serious or critical axe violations with the dialog open", async () => {
     const { user } = await renderProfile();
     await user.click(await rowButton(SET_GOAL_DATE));
