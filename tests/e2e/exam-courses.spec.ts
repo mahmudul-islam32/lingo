@@ -1,7 +1,7 @@
 import { readFileSync } from "node:fs";
 import path from "node:path";
 import { expect, test, type Page } from "@playwright/test";
-import { completeOnboarding } from "./onboarding-helpers";
+import { completeOnboarding, completeOnboardingAsSpanishGuest } from "./onboarding-helpers";
 
 /**
  * TELC-001 (PD-073): the telc B1 and Einbürgerungstest courses are offered at onboarding,
@@ -86,4 +86,60 @@ test("telc B1: a confident learner sets the start level to B1 in Profile", async
 
   await page.goto("/");
   await expect(page.getByTestId("course-caption")).toHaveText("telc B1 Exam Prep · B1");
+});
+
+/**
+ * FIX-014 (PD-077): a course without levels has no goal date, so Learn shows no
+ * "Set a goal date" link, the results screen no goal-date row, and a stale
+ * `/profile?edit=goal-date` opens Profile normally and drops the parameter.
+ */
+test.describe("FIX-014: no goal-date UI on courses without levels (375 px)", () => {
+  test.use({ viewport: { width: 375, height: 812 } });
+
+  async function expectProfileWithoutGoalDate(page: Page) {
+    await page.goto("/profile?edit=goal-date");
+    await expect(page.getByRole("heading", { level: 3, name: "Daily goal" })).toBeVisible();
+    await expect(page).toHaveURL(/\/profile$/);
+    await expect(page.getByRole("dialog")).toHaveCount(0);
+    await expect(page.getByRole("heading", { level: 3, name: "Goal date" })).toHaveCount(0);
+  }
+
+  test("Einbürgerungstest: no link on Learn, no results row, no Profile dialog", async ({
+    page,
+  }) => {
+    await page.goto("/onboarding");
+    await page.getByRole("button", { name: "Get started" }).click();
+    await page.getByRole("radio", { name: "Einbürgerungstest" }).click();
+    await page.getByRole("button", { name: "Continue" }).click();
+    await page.getByRole("radio", { name: "Regular 20 XP" }).click();
+    await page.getByRole("button", { name: "Start learning" }).click();
+    await expect(page).toHaveURL(new RegExp(`/lesson/${ebKompass}$`));
+
+    // The first lesson's results show no goal-date row (criterion 5).
+    const kompass = read(`einbuergerung-en-de/lessons/${ebKompass}.json`);
+    await startLesson(page, kompass);
+    for (let i = 0; i < kompass.exercises.length; i += 1) {
+      await page.getByRole("button", { name: "Continue" }).click();
+    }
+    await expect(page.getByText(/Lesson complete|XP/).first()).toBeVisible();
+    await expect(page.getByTestId("goal-date-row")).toHaveCount(0);
+
+    await page.goto("/");
+    await expect(page.getByRole("heading", { level: 1, name: "Learn" })).toBeVisible();
+    await expect(page.getByTestId("course-caption")).toHaveText("Einbürgerungstest");
+    await expect(page.getByRole("link", { name: /^Lesson 2: .*, up next/ })).toBeVisible();
+    await expect(page.getByRole("link", { name: "Set a goal date" })).toHaveCount(0);
+    await expect(page.getByTestId("goal-plan-empty")).toHaveCount(0);
+    await expect(page.getByTestId("goal-plan-card")).toHaveCount(0);
+
+    await expectProfileWithoutGoalDate(page);
+  });
+
+  test("en-es (hidden course): no link on Learn, no Profile dialog", async ({ page }) => {
+    await completeOnboardingAsSpanishGuest(page);
+    await expect(page.getByRole("link", { name: /^Lesson 1: .*, up next/ })).toBeVisible();
+    await expect(page.getByRole("link", { name: "Set a goal date" })).toHaveCount(0);
+    await expect(page.getByTestId("goal-plan-empty")).toHaveCount(0);
+    await expectProfileWithoutGoalDate(page);
+  });
 });
