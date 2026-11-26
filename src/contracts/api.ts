@@ -18,7 +18,15 @@ import type {
 } from "./gamification";
 import type { LessonResult, XpBreakdown } from "./lesson-session";
 import type { GuestMigrationPayload, SyncPushResult, SyncQueueRecord, SyncStatus } from "./sync";
-import type { DailyGoalXp, GoalPlan, Identity, Profile, ProfileUpdate, Settings } from "./user";
+import type {
+  DailyGoalXp,
+  GoalPlan,
+  GoalPlanUpdate,
+  Identity,
+  Profile,
+  ProfileUpdate,
+  Settings,
+} from "./user";
 
 // ---------------------------------------------------------------------------
 // Pure rules (no IO, no Date.now(): time is always passed in). Unit-tested.
@@ -120,7 +128,10 @@ export type ComputeGoalPlan = (input: {
   completedLessonIds: readonly Slug[];
   /** `Settings.startLevel`; missing = first level of the course. */
   startLevel?: CefrLevel | undefined;
-  /** `Settings.goalPlan`; missing or `null` = no goal date → returns `null`. */
+  /**
+   * This course's plan: `goalPlanFor(settings, course.id)` (CTO-018, ADR-018); missing or
+   * `null` = no goal date → returns `null`.
+   */
   goalPlan?: GoalPlan | null | undefined;
   today: LocalDate;
   dailyGoalXp: DailyGoalXp;
@@ -164,7 +175,18 @@ export type SettingsPatch = Partial<
     Settings,
     "courseId" | "soundEffectsEnabled" | "speakingExercisesEnabled" | "startLevel" | "goalPlan"
   >
-> & { dailyGoalXp?: number };
+> & {
+  dailyGoalXp?: number;
+  /**
+   * Sets or clears one course's goal plan (CTO-018, ADR-018 §4). `updateSettings` reads
+   * the stored record, applies `normalizeGoalPlans`, spreads the other patch fields, then
+   * `withGoalPlan(next, goalPlanUpdate)`; this key itself is never stored.
+   *
+   * `goalPlan` above is deprecated for writes: kept only until PLT-028 switches Profile to
+   * `goalPlanUpdate`, then removed from this patch (ADR-018 §5).
+   */
+  goalPlanUpdate?: GoalPlanUpdate;
+};
 
 export interface ProfileRepository {
   getProfile(): Promise<Profile>;

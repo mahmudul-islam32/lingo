@@ -9,7 +9,8 @@
   [ADR-009 cloze exercise](adr/ADR-009-cloze-exercise.md),
   [ADR-013 start level and earning hearts](adr/ADR-013-start-level-and-earning-hearts.md),
   [ADR-014 design system v2](adr/ADR-014-design-system-v2.md),
-  [ADR-015 goal date](adr/ADR-015-goal-date.md)
+  [ADR-015 goal date](adr/ADR-015-goal-date.md),
+  [ADR-018 goal plan per course](adr/ADR-018-goal-plan-per-course.md)
 - Proposed (B1 tech plan CTO-010): [ADR-010 typed answers](adr/ADR-010-typed-answers.md),
   [ADR-011 reading passages](adr/ADR-011-reading-passages.md),
   [ADR-012 grammar note card](adr/ADR-012-grammar-note-card.md)
@@ -173,7 +174,7 @@ lesson results, after which every aggregate is recomputed.
 | Fact           | Rule                                                                                |
 | -------------- | ----------------------------------------------------------------------------------- |
 | `LessonResult` | Grow-only set keyed by client UUID. Server insert is `ON CONFLICT (id) DO NOTHING`. |
-| `Settings`     | Last-write-wins on `updatedAt` (whole record).                                      |
+| `Settings`     | Last-write-wins on `updatedAt` (whole record, `goalPlans` included; ADR-018 §6).    |
 | `Profile`      | Last-write-wins on `updatedAt` (editable fields only; `joinedAt` = earliest).       |
 | `HeartsState`  | Last-write-wins on `updatedAt`, then lazily refilled at read time.                  |
 
@@ -258,7 +259,7 @@ are in `src/contracts/api.ts`; implementations are owned by dev-gamification in
 | Daily goal     | `computeDailyGoalProgress` | Sum `xpEarned` of results with `localDate === today`; `reached = earned ≥ goalXp` (10/20/30/50).                                                                                                                                                                                                                                                         |
 | Streak         | `computeStreak`            | From distinct result `localDate`s: `current` = run of consecutive days ending today, or ending yesterday if nothing today yet; 0 otherwise. `longest` = longest run ever. `extendedToday` = today is in the set.                                                                                                                                         |
 | Path unlock    | `computePathNodes`         | Course order across units. Completed if a result exists; the first not-completed lesson is available (or `in_progress` if it is the active one); the rest are locked. Completed lessons stay replayable. With `Settings.startLevel` (ADR-013) lessons of earlier levels are available and the frontier starts at that level.                             |
-| Goal date      | `computeGoalPlan`          | Not-completed lessons from the effective start level through `Settings.goalPlan.targetLevel`; `daysLeft = targetDate − today`; `ceil` lessons a day; suggested goal = smallest option ≥ lessons a day × 10 XP, else the largest. Status `reached` > `date-passed` > `on-track` > `raise-goal` > `tight`. Computed on the device, never stored (ADR-015). |
+| Goal date      | `computeGoalPlan`          | Not-completed lessons from the effective start level through `goalPlanFor(s, c).targetLevel`; `daysLeft = targetDate − today`; `ceil` lessons a day; suggested goal = smallest option ≥ lessons a day × 10 XP, else the largest. Status `reached` > `date-passed` > `on-track` > `raise-goal` > `tight`. Computed on the device, never stored (ADR-015). |
 | Answer → heart | `checkAnswer`              | `heartCost = 1` for `incorrect` non-speak outcomes and for match pairs with `mismatchCount > 0` (at most 1 per exercise); else 0.                                                                                                                                                                                                                        |
 
 ### Streak day boundary: device local timezone
@@ -410,3 +411,7 @@ and `practiceCostsHearts`, `GainHearts`, and the optional `startLevel` argument 
 
 CTO-017 (ADR-015): optional, nullable `Settings.goalPlan` (`null` clears),
 `GAME_CONFIG.goalPlanMaxDays` (730), `GoalPlanStatus` and `ComputeGoalPlan`.
+
+CTO-018 (ADR-018): `Settings.goalPlans` (one plan per course; `goalPlan` is legacy,
+read-only), the selector `goalPlanFor`, the migration `normalizeGoalPlans`, `withGoalPlan`
+and `SettingsPatch.goalPlanUpdate`.
