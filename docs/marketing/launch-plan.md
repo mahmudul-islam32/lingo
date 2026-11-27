@@ -1,6 +1,7 @@
 # Launch and growth plan
 
-**Owner:** marketing · **Ticket:** MKT-001 · **Last updated:** 2026-11-20
+**Owner:** marketing · **Ticket:** MKT-002 (first version MKT-001) · **Last updated:** 2026-11-27 ·
+**Valid for:** v0.5.4 on `main`
 **Status:** plan. Marketing prepares every post, email and ad as a draft in `docs/marketing/kit/`.
 **Only the owner publishes, posts, signs up or spends money.**
 
@@ -10,17 +11,27 @@ Sources `[Sn]` refer to `market-research.md` §7 (accessed 2026-11-20).
 
 ## 1. Launch gate (must be true before Day 0)
 
-| # | Gate | Owner | Status 2026-11-20 |
+| # | Gate | Owner | Status 2026-11-27 |
 |---|---|---|---|
-| G1 | The app is on a public URL (`APP_URL` in the kit) | **owner** (hosting), cto | Not done |
-| G2 | Domain and trademark check for "Polyglow" | **owner** | Open (STATUS, PD-001) |
-| G3 | Impressum and privacy policy on the site (German law for a public website) | **owner** | Not done |
-| G4 | A way to hear from users (feedback email or form) | **owner** sets up the inbox; dev-platform links it | Not done |
-| G5 | Privacy-friendly, consent-based measurement of the metrics in §5 | cto technical note, then dev-platform | Not done |
-| G6 | Kit copy re-checked against `main` on launch day | marketing | Ready for v0.5.3 |
+| G1 | The app is on a public URL (`APP_URL` in the kit) | **owner** (hosting), cto | Not done (unchanged since 2026-11-20) |
+| G2 | Domain and trademark check for "Polyglow" | **owner** | Open (STATUS, PD-001; unchanged) |
+| G3 | Impressum and privacy policy on the site (German law for a public website) | **owner** | Not done (unchanged) |
+| G4 | A way to hear from users (feedback email or form) | **owner** sets up the inbox; dev-platform links it | Not done (unchanged) |
+| G5 | Privacy-friendly, consent-based measurement of the metrics in §5 | cto technical note, then dev-platform | Not done (cto note planned before PLT-019, PD-071) |
+| G6 | Kit copy re-checked against `main` on launch day | marketing | Ready for v0.5.4 (2026-11-27). v0.5.5 Smart review copy is drafted and marked DRAFT |
+
+The gate itself (G1–G4 for the free launch, G5 for paid ads) is unchanged.
+
+**Flag, not a new gate item (settle before G1 goes live):** v0.5.4 put two exam-prep courses on
+`main` (TELC-001). A public URL publishes them, and PD-076 says the photo rights must be
+confirmed "before a public or paid launch". The owner clears the licences and exam names
+(`waiting-on-owner.md` A7, A8) or asks the pm to hide those courses at launch
+(`feature-proposals.md` §11). Marketing copy never mentions them either way
+(`positioning.md` §5b).
 
 **Strongly recommended before paid ads (not before the free launch):** the native-speaker
-review of A1 (owner, STATUS) and recorded audio (proposal #3). Paid traffic judges quality fast.
+review of A1 (owner, STATUS) and recorded audio (old proposal #3, rank 2 since 2026-11-27).
+Paid traffic judges quality fast.
 
 ## 2. Channels
 
@@ -74,7 +85,12 @@ Day 0 = the day G1–G5 are done.
 - dev-platform ships the first 5 "life in Germany" topic landing pages from our copy (if the pm
   accepts proposal #5).
 - Owner posts 2 short videos a week from the shot list (`kit/screenshot-shot-list.md`).
-- Run the free interest test for Plus (`pricing.md` §7) if the pm and cto agree.
+- Post the goal-date drafts (`kit/social-posts.md` #11/#12) in the groups used in week 1, about
+  a week later, as a "new this week" follow-up.
+- ~~Run the free interest test for Plus~~: deferred by the pm (PD-071) until analytics are live
+  and the owner puts charging on the table (PD-072).
+- If v0.5.5 has shipped by then: re-check and post the Smart review drafts (#13) as the
+  "come back" message for learners who already tried Polyglow.
 - If D1 ≥ 25 % and D7 ≥ 10 %: start budget Option A for 2 weeks with the 5 ad variants.
 
 ### Days 61–90: scale what works
@@ -100,8 +116,11 @@ measurement in G5. No personal data; aggregate counts with consent.
 | Retention | D30 | Same on day 30 | ≥ 5 % (est.) |
 | Engagement | Daily goal hit rate | % of active learner-days with the goal reached | ≥ 50 % (PRD) |
 | Engagement | A1 checkpoint reached | % of A1 starters reaching the checkpoint within 60 days | ≥ 5 % (est.) |
+| Engagement | Goal-date adoption (new, v0.5.4) | % of active German learners with a goal date set | ≥ 15 % (est.); if lower, test the goal-date prompt after the first lesson (`feature-proposals.md` §12) |
+| Engagement | Suggested goal accepted (new, v0.5.4) | % of "Use <n> XP a day" taps among learners shown one | Baseline first (est.) |
+| Retention | Review use (after v0.5.5) | % of weekly active learners who finish ≥ 1 review session | ≥ 20 % (est.) |
 | Referral | Share rate | Shares per 100 active learners per week (after proposal #6) | ≥ 2 (est.) |
-| Revenue (later) | Interest-test click rate | % of A1 finishers tapping "Tell me" | ≥ 5 % |
+| Revenue (later) | Interest-test click rate | % of A1 finishers tapping "Tell me" (test deferred, PD-071) | ≥ 5 % |
 | Revenue (later) | Paid conversion | % of monthly active learners paying | 2–3 % in year 1 (est.; leader ~9 % [S11]) |
 | Channel | Cost per activated learner | Ad spend ÷ new learners who finish lesson 1 | < €1 India, < €3 DE (est.) |
 
@@ -113,6 +132,8 @@ measurement in G5. No personal data; aggregate counts with consent.
 4. Approve any spend and run the ad accounts (Options A–C).
 5. Native-speaker review of A1 before paid ads (recommended).
 6. Decide whether to tell the "built by AI agents" story in public (`kit/press-note.md`).
+7. Clear the exam-prep courses' content licences and exam names, or have them hidden at launch
+   (`waiting-on-owner.md` A7, A8; new in v0.5.4).
 
 The orchestrator should list these under "Waiting on owner (non-blocking)" in `docs/STATUS.md`
 (marketing does not edit STATUS).

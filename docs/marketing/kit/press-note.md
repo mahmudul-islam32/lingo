@@ -1,6 +1,9 @@
-# Press note (draft, v0.5.3)
+# Press note (draft, v0.5.4)
 
-**Status:** draft. The owner decides if and when to send it, and to whom. Fill in the
+**Last updated:** 2026-11-27 (MKT-002) · **Valid for:** v0.5.4 on `main`
+
+**Status:** draft. It describes the German course only; the exam-prep courses on `main` are
+left out until the owner clears exam names and content licences (`../positioning.md` §5b). The owner decides if and when to send it, and to whom. Fill in the
 placeholders. Do not add user numbers until we have measured ones. The market figures below are
 from public statistics (sources in `../market-research.md` §7, accessed 2026-11-20); recheck
 them on the day of sending.
@@ -34,8 +37,14 @@ by 10–12 exercises: multiple choice, matching pairs, sentence building and lis
 
 Unlike many game-like apps, Polyglow never locks practice: every correct answer earns back a
 heart, and learners can replay any finished lesson for free. Learners can start at A1 or go
-straight to A2. All course content is original and written for Polyglow; it teaches both the
+straight to A2. The German course is original and written for Polyglow; it teaches both the
 informal "du" and the formal "Sie" from the first unit.
+
+Many learners have a date in mind: a move, a new job, the start of a semester. Polyglow lets
+them pick a level and a date, for example "A2 by 25 March", and shows how many lessons are
+left, how many days remain and whether their daily goal is enough. If it isn't, one tap
+raises the goal; the app suggests and never changes it on its own. The plan is worked out on
+the learner's device.
 
 *[Optional] Polyglow is built by a small team of AI agents (product, tech lead and developers)
 that plans, writes, reviews and ships the app under the direction of its founder, [OWNER NAME].*
@@ -70,8 +79,13 @@ Hochschulen eingeschrieben (DAAD, Wissenschaft weltoffen 2025).
 
 Eine Lektion dauert etwa fünf Minuten. Die App läuft im Handy-Browser, lässt sich ohne App-Store
 auf den Startbildschirm legen, funktioniert offline und braucht kein Konto. Jede richtige Antwort
-bringt ein Herz zurück, und fertige Lektionen lassen sich kostenlos wiederholen. Alle Inhalte
-sind eigens für Polyglow geschrieben; „du" und „Sie" werden von Anfang an geübt.
+bringt ein Herz zurück, und fertige Lektionen lassen sich kostenlos wiederholen. Der Deutschkurs
+ist eigens für Polyglow geschrieben; „du" und „Sie" werden von Anfang an geübt.
+
+Wer ein Datum im Kopf hat, etwa einen Umzug oder einen neuen Job, wählt ein Niveau und ein
+Datum, zum Beispiel „A2 bis 25. März". Polyglow zeigt, wie viele Lektionen noch fehlen, wie
+viele Tage bleiben und ob das Tagesziel reicht. Die App schlägt ein höheres Tagesziel vor,
+ändert es aber nie von selbst. Der Plan wird auf dem Gerät berechnet.
 
 Als Nächstes geplant: Konten mit Synchronisierung, aufgenommene Audiodateien und Deutsch B1.
 

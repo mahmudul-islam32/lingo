@@ -1,4 +1,6 @@
-# SEO keyword list (draft, v0.5.3)
+# SEO keyword list (draft, v0.5.4)
+
+**Last updated:** 2026-11-27 (MKT-002) · **Valid for:** v0.5.4 on `main`
 
 **Status:** working list for landing pages (proposal #5) and store fields. No keyword tool was
 available for this pass, so there are **no search-volume numbers here**. Priority is a marketing
@@ -50,6 +52,9 @@ competitor brand names.
 | german word order verb second | Tip cards |
 | german umlauts how to type ä ö ü ß | Help page |
 | what is cefr a1 german / a1 vs a2 german | Level explainer (no exam brands) |
+| how long does it take to learn german a1 / a2 | **New (v0.5.4):** explainer that says "it depends on your daily time" and points to the goal date. Use no hour figures unless sourced |
+| german study plan / german learning schedule | **New (v0.5.4):** goal-date page ("pick a level and a date") |
+| learn german in 3 months / before moving | **New (v0.5.4):** goal-date page; never promise a level by a date |
 
 ## Segment terms (blog or partner pages, later)
 
@@ -64,9 +69,21 @@ competitor brand names.
 ## Observed demand, NOT targeted in copy (PD-035)
 
 goethe a1 practice, start deutsch 1 practice, telc a2 practice, german a1 exam preparation,
-german for visa, german for citizenship b1. Learners search these; our pages answer with "CEFR
-A1/A2 practice" and a link to official sources, without naming the exams.
+german for visa, german for citizenship b1, telc b1 practice, einbürgerungstest app, leben in
+deutschland test, citizenship test germany practice. Learners search these; our pages answer
+with "CEFR A1/A2 practice" and a link to official sources, without naming the exams.
+
+The app on `main` (v0.5.4) has two exam-prep courses that match the last four searches. They
+stay **not targeted** until the owner clears exam names and content licences
+(`../positioning.md` §5b, `../waiting-on-owner.md` A7, A8). The citizenship-test search results
+are already crowded with dedicated apps (`../market-research.md` §8), so the value is low.
+
+## After v0.5.5 ships (DRAFT, not targeted yet)
+german vocabulary review, spaced repetition german, how to remember german words. Page idea: a
+short "why review" explainer that links to Practice → Review, with no unsourced memory
+statistics.
 
 ## Store / directory tags
 learn german · german a1 · german a2 · deutsch lernen · german for beginners · life in germany
-· offline language app · german vocabulary · german course · german for expats
+· offline language app · german vocabulary · german course · german for expats · german study
+plan

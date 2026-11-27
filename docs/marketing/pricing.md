@@ -1,8 +1,15 @@
 # Pricing and monetisation proposal
 
-**Owner:** marketing · **Ticket:** MKT-001 · **Last updated:** 2026-11-20
+**Owner:** marketing · **Ticket:** MKT-002 (first version MKT-001) · **Last updated:** 2026-11-27 ·
+**Valid for:** v0.5.4 on `main`
 **Status:** proposal for the pm and the owner. Today Polyglow is free with no ads and no
 payments (PRD §7), and that stays true until the prerequisites in §5 exist.
+
+> **PM decision (PD-072, 2026-11-21):** free with no ads and no payments through v1.0.0;
+> whether to charge is the owner's decision; **nothing that is free becomes paid** (covers goal
+> date, smart review, the topic index and one streak freeze a week); the prices below are a
+> **hypothesis, not approved**; no Plus copy appears in the app or in public. Smart review is
+> free with **no daily cap** (PD-071 §2), which replaces our "1 session a day free" idea in §3.
 
 Sources `[Sn]` refer to `market-research.md` §7 (accessed 2026-11-20). Prices of other
 products are list prices found that day; they vary by country, store and promotion.
@@ -55,11 +62,12 @@ The rule: **nothing that is free today becomes paid.** Plus adds new things.
 | Practice (replay finished lessons) | ✓ | ✓ | On `main` |
 | Offline, installable app, no ads | ✓ | ✓ | On `main` |
 | Account and sync | ✓ | ✓ | v0.6.0 (planned) |
-| Goal date planner (proposal #1) | ✓ basic | ✓ with weekly plan | Proposal |
-| Smart review of weak words (proposal #4) | 1 session a day | Unlimited | Proposal |
-| Mock level checkpoint with can-do report (proposal #8) | — | ✓ | Proposal |
-| **B1 and later levels** | First unit free | ✓ | B1 written, merges after v1.0.0 (PD-063) |
-| Streak freeze (proposal #7) | 1 a week | 2 a week | Proposal |
+| Goal date (level + date, lessons left, suggested daily goal) | ✓ | ✓ | **On `main` since v0.5.4, free (PD-072 §2)**. A paid "weekly plan" add-on would have to be new, never a limit on what is free |
+| Smart review (exercises you answered, spaced 1–30 days) | ✓ **unlimited** | ✓ | v0.5.5, in progress. Free with no daily cap (PD-071 §2); our cap idea is withdrawn |
+| Mock level checkpoint with can-do report (proposal #8) | — | ✓ | Deferred (PD-071); trigger B1 merged and a go on paid plans |
+| **B1 and later levels** | Open (PD-072 §3) | Open | B1 written, merges after v1.0.0 (PD-063). The owner decides free or paid **before B1 merges** |
+| Streak freeze | 1 a week | 2 a week (hypothesis) | v0.7.0 (planned), 1 free a week (PD-071) |
+| Exam-prep courses on `main` (v0.5.4, TELC-001) | ✓ today | — | Not in this model. They can't be sold, or promoted, until the owner clears content licences and exam names (`waiting-on-owner.md` A7, A8) |
 
 **Goal Pass** = Plus for 6 months, paid once, no renewal (€14.99; India ₹499). It answers the
 subscription-trap complaints in reviews [S23] and fits learners with a date (Amara, Priya).
@@ -118,8 +126,10 @@ store fees and a second price list; decide that only after web payments work.
 
 ## 7. Test before charging (no money changes hands)
 
-- **Interest test after the A1 checkpoint:** a "Polyglow Plus is coming: B1, mock checkpoints,
-  unlimited review" card with a "Tell me when it's ready" button that stores the click on the
+- **Deferred by the pm (PD-071)** until PLT-019 analytics are live and the owner puts charging
+  on the table. If it comes back, the card must not list review (free, PD-071 §2).
+- **Interest test after the A1 checkpoint:** a "Polyglow Plus is coming: B1, mock checkpoints"
+  card with a "Tell me when it's ready" button that stores the click on the
   device only (or, after accounts and consent, on the account). Measure the click rate. No
   email collection without consent and a privacy note. Needs a pm ticket and a cto note on
   analytics.
