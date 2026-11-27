@@ -2,10 +2,26 @@
  * Aggregate progress rule (GAM-003, ARCHITECTURE §7). Pure: `today` and `now` are passed
  * in. Composes the GAM-002 rules; it holds no XP, heart or goal numbers of its own.
  */
-import type { ComputeUserProgress, LessonResult, LocalDate, Slug, UserProgress } from "@/contracts";
+import {
+  isReviewResult,
+  type ComputeUserProgress,
+  type LessonResult,
+  type LocalDate,
+  type Slug,
+  type UserProgress,
+} from "@/contracts";
 import { computeDailyGoalProgress } from "./daily-goal";
 import { refillHearts } from "./hearts";
 import { computeStreak } from "./streak";
+
+/**
+ * Lessons completed by `results` (GAM-015 AC7, ADR-019 §3): each `lessonId` once, in the
+ * order of its first result; review results never complete a lesson. Callers filter by
+ * course first.
+ */
+export function completedLessonIdsOf(results: readonly LessonResult[]): Slug[] {
+  return [...new Set(results.filter((result) => !isReviewResult(result)).map((r) => r.lessonId))];
+}
 
 /**
  * Contract rule `ComputeUserProgress`.
@@ -13,7 +29,9 @@ import { computeStreak } from "./streak";
  * - Only results with `courseId === input.courseId` count (others are ignored).
  * - `totalXp`: sum of `xpEarned`, replays included (PD-008).
  * - `completedLessonIds`: each lesson with at least one result, once, in the order of its
- *   first result in `results`; `lessonsCompletedCount` is its length.
+ *   first result in `results`; `lessonsCompletedCount` is its length. Review results
+ *   (`isReviewResult`, GAM-015 AC7, ADR-019 §3) never add to it, but their XP and date
+ *   count for `totalXp`, today's XP, the daily goal and the streak.
  * - `streak`: `computeStreak` over the distinct `localDate`s of the course results.
  * - `hearts`: the stored state after `refillHearts(state, now)` (lazy refill).
  * - `dailyGoal`: `computeDailyGoalProgress` with the learner's goal and `today`;
@@ -38,7 +56,7 @@ export const computeUserProgress: ComputeUserProgress = ({
     if (result.courseId !== courseId) continue;
     courseResults.push(result);
     totalXp += result.xpEarned;
-    lessonIds.add(result.lessonId);
+    if (!isReviewResult(result)) lessonIds.add(result.lessonId);
     activeDates.add(result.localDate);
   }
 

@@ -17,6 +17,8 @@ import { useContentRepository } from "@/lib/content";
 import { courseQuery } from "../data/course-query";
 import { buildPracticeList, lessonHref, type PracticeUnitGroup } from "../rules";
 import { LEVEL_EYEBROW_PREFIX } from "../components/copy";
+import { PRIMARY_LINK, SOFT_LINK } from "./link-styles";
+import { ReviewCard } from "./ReviewCard";
 import {
   GO_TO_LEARN_TEXT,
   PRACTICE_EMPTY_TEXT,
@@ -31,20 +33,6 @@ import {
 } from "./copy";
 
 const NO_COMPLETED: readonly Slug[] = [];
-
-/** Link styled as the v2 primary / soft Button (Button itself renders a `<button>`). */
-const LINK_BASE =
-  "inline-flex shrink-0 items-center justify-center rounded-control font-bold select-none " +
-  "focus-visible:focus-ring motion-safe:transition-[background-color,box-shadow,transform] " +
-  "motion-safe:duration-100 active:translate-y-0.5";
-const PRIMARY_LINK = cn(
-  LINK_BASE,
-  "min-h-14 px-6 bg-primary text-on-primary shadow-3d-primary hover:bg-primary-hover active:shadow-3d-primary-pressed",
-);
-const SOFT_LINK = cn(
-  LINK_BASE,
-  "min-h-12 px-4 text-sm bg-primary-soft text-primary-fg shadow-3d-soft hover:bg-primary-ring active:shadow-3d-soft-pressed",
-);
 
 export type PracticeScreenProps = UseProgressOptions;
 
@@ -145,6 +133,7 @@ function UnitGroup({ group }: { group: PracticeUnitGroup }) {
  * active course, grouped by unit, most recent first, each with a "Practise" link to
  * `/lesson/<id>`. The lesson route starts a completed lesson as practice (free, allowed
  * at 0 hearts, correct answers earn hearts), so the link is the same as on the path.
+ * The smart review card (`ReviewCard`, GAM-015) sits between the intro and the list.
  * Self-contained: reads the active course, its manifest, results and hearts through the
  * feature hooks; `/practice` (PLT-026) renders it with no props.
  */
@@ -196,6 +185,8 @@ export function PracticeScreen(options: PracticeScreenProps) {
   return (
     <div className="mx-auto flex w-full max-w-md flex-col gap-6 pb-6" data-testid="practice">
       <Header hearts={free && view ? { current: view.current, max: view.max } : null} />
+      {/* GAM-015 AC9: under the intro, above the lesson list, for every course. */}
+      {!pending && <ReviewCard courseId={courseId} timeZone={options.timeZone} />}
       {body}
     </div>
   );

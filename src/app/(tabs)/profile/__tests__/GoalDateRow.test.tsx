@@ -2,7 +2,14 @@ import { act, fireEvent, screen, waitFor, within } from "@testing-library/react"
 import userEvent from "@testing-library/user-event";
 import axe from "axe-core";
 import { afterEach, beforeEach, describe, expect, it, vi } from "vitest";
-import type { HeartsState, Profile, Settings } from "@/contracts";
+import {
+  goalPlanFor,
+  type GoalPlan,
+  type GoalPlans,
+  type HeartsState,
+  type Profile,
+  type Settings,
+} from "@/contracts";
 import { ToastProvider } from "@/components/ui";
 import { addDays, deviceTimeZone, formatGoalDate, toLocalDate } from "@/features/gamification";
 import {
@@ -32,21 +39,41 @@ const profile: Profile = {
 };
 const hearts: HeartsState = { current: 5, refillStartedAt: null, updatedAt: NOW };
 
+const TELC = "telc-b1-en-de";
+/** The stored plan of one course (PLT-028: plans are per course). */
+async function storedPlan(courseId = "en-de"): Promise<GoalPlan | null> {
+  const stored = await session.profile.getSettings();
+  return stored ? goalPlanFor(stored, courseId) : null;
+}
+
 const today = () => toLocalDate(new Date(), deviceTimeZone());
 
 let session: LocalSession;
 
+type InitialSettings = Omit<Partial<Settings>, "goalPlan" | "goalPlans"> & {
+  /** The plan of the initial course (`courseId`, default en-de). */
+  goalPlan?: GoalPlan;
+  /** Plans of other courses (PLT-028), written one by one with `goalPlanUpdate`. */
+  plans?: GoalPlans;
+};
+
 /** Profile on a memory session with real settings writes (like ProfileScreen test 14). */
-async function renderProfile(initial: Partial<Settings> = {}) {
+async function renderProfile({ goalPlan, plans = {}, ...initial }: InitialSettings = {}) {
   const opened = openLocalSession({ forceMemory: true });
   const store = createGuestProfileStore({ loadSession: () => opened });
   await store.getState().init();
   session = await opened;
-  const settings = await session.profile.updateSettings({
+  let settings = await session.profile.updateSettings({
     courseId: "en-de",
     dailyGoalXp: 10,
     ...initial,
   });
+  const allPlans: GoalPlans = goalPlan ? { ...plans, [settings.courseId]: goalPlan } : plans;
+  for (const [courseId, plan] of Object.entries(allPlans)) {
+    settings = await session.profile.updateSettings({
+      goalPlanUpdate: { courseId, goalPlan: plan },
+    });
+  }
   guestProfileStore.setState({
     status: "ready",
     profile,
@@ -57,6 +84,7 @@ async function renderProfile(initial: Partial<Settings> = {}) {
   client.setQueryData(queryKeys.settings(), settings);
   client.setQueryData(queryKeys.hearts(), hearts);
   client.setQueryData(queryKeys.progress("en-de"), []);
+  client.setQueryData(queryKeys.progress(TELC), []);
   renderWithQueryClient(
     <ToastProvider>
       <ProfileScreen />
@@ -169,7 +197,7 @@ describe("Profile goal date row and dialog (PLT-027)", () => {
       expect(input).toHaveAccessibleDescription(message);
       expect(input).toHaveFocus();
     }
-    expect((await session.profile.getSettings())?.goalPlan).toBeUndefined();
+    expect(await storedPlan()).toBeNull();
   });
 
   it("5: Save stores the plan, closes, toasts, returns focus and keeps the daily goal", async () => {
@@ -185,15 +213,18 @@ describe("Profile goal date row and dialog (PLT-027)", () => {
       `Finish A2 by ${formatGoalDate(target)}`,
     );
     const stored = await session.profile.getSettings();
-    expect(stored?.goalPlan).toEqual({ targetLevel: "A2", targetDate: target });
+    expect(stored?.goalPlans).toEqual({ "en-de": { targetLevel: "A2", targetDate: target } });
     expect(stored?.dailyGoalXp).toBe(10);
-    expect(client.getQueryData<Settings>(queryKeys.settings())?.goalPlan?.targetDate).toBe(target);
+    expect(client.getQueryData<Settings>(queryKeys.settings())?.goalPlans?.["en-de"]).toEqual({
+      targetLevel: "A2",
+      targetDate: target,
+    });
     const change = screen.getByRole("button", { name: CHANGE_GOAL_DATE });
     expect(change).toBe(set);
     expect(change).toHaveFocus();
   });
 
-  it("6: Remove clears the plan with goalPlan: null and the row shows 'Not set'", async () => {
+  it("6: Remove clears the plan (the course's key is removed) and the row shows 'Not set'", async () => {
     const { user } = await renderProfile({
       goalPlan: { targetLevel: "A2", targetDate: addDays(today(), 50) },
     });
@@ -204,7 +235,8 @@ describe("Profile goal date row and dialog (PLT-027)", () => {
     expect(await screen.findByText(GOAL_DATE_REMOVED)).toBeInTheDocument();
     expect(screen.getByTestId("goal-date-value")).toHaveTextContent("Not set");
     const stored = await session.profile.getSettings();
-    expect(stored).toHaveProperty("goalPlan", null);
+    expect(stored?.goalPlans).toEqual({});
+    expect(stored).not.toHaveProperty("goalPlan");
     expect(screen.getByRole("button", { name: SET_GOAL_DATE })).toHaveFocus();
   });
 
@@ -267,7 +299,7 @@ describe("Profile goal date row and dialog (PLT-027)", () => {
     await user.click(within(dialog()).getByRole("button", { name: "Remove goal date" }));
     expect(await within(dialog()).findByRole("alert")).toHaveTextContent(GOAL_DATE_SAVE_ERROR);
     expect(screen.getByRole("dialog")).toBeInTheDocument();
-    expect((await session.profile.getSettings())?.goalPlan?.targetLevel).toBe("A2");
+    expect((await storedPlan())?.targetLevel).toBe("A2");
   });
 
   it("9: /profile?edit=goal-date opens the dialog once; closing replaces the URL", async () => {
@@ -323,7 +355,7 @@ describe("Profile goal date row and dialog (PLT-027)", () => {
         screen.queryByRole("heading", { level: 3, name: "Goal date" }),
       ).not.toBeInTheDocument();
       // AC 4: the saved plan is untouched.
-      expect((await session.profile.getSettings())?.goalPlan).toEqual(plan);
+      expect(await storedPlan(courseId)).toEqual(plan);
     },
   );
 
@@ -333,4 +365,83 @@ describe("Profile goal date row and dialog (PLT-027)", () => {
     typeDate(addDays(today(), 111));
     expect(await seriousViolations(document.body)).toEqual([]);
   });
+});
+
+describe("Profile goal date per course (PLT-028, ADR-018)", () => {
+  const germanPlan: GoalPlan = { targetLevel: "A2", targetDate: "2027-03-12" };
+  const telcPlan: GoalPlan = { targetLevel: "B1", targetDate: "2027-06-30" };
+
+  beforeEach(() => {
+    window.history.replaceState(null, "", "/profile");
+  });
+  afterEach(() => {
+    vi.restoreAllMocks();
+  });
+
+  it("1: the row shows the active course's plan only", async () => {
+    await renderProfile({ courseId: TELC, plans: { "en-de": germanPlan } });
+    expect(await rowButton(SET_GOAL_DATE)).toBeInTheDocument();
+    expect(screen.getByTestId("goal-date-value")).toHaveTextContent("Not set");
+  });
+
+  it("1: each course shows its own plan", async () => {
+    await renderProfile({ courseId: TELC, plans: { "en-de": germanPlan, [TELC]: telcPlan } });
+    expect(await rowButton(CHANGE_GOAL_DATE)).toBeInTheDocument();
+    expect(screen.getByTestId("goal-date-value")).toHaveTextContent("Finish B1 by 30 Jun 2027");
+  });
+
+  it("2: the dialog preselects and previews with the active course's plan and levels", async () => {
+    const target = addDays(today(), 200);
+    const { user } = await renderProfile({
+      courseId: TELC,
+      plans: { "en-de": germanPlan, [TELC]: { targetLevel: "B1", targetDate: target } },
+    });
+    await user.click(await rowButton(CHANGE_GOAL_DATE));
+    expect(within(dialog()).getByRole("radio", { name: /B1/ })).toHaveAttribute(
+      "aria-checked",
+      "true",
+    );
+    expect(dateInput()).toHaveValue(target);
+    expect(screen.getByTestId("goal-date-preview")).not.toBeEmptyDOMElement();
+  });
+
+  it("3, 5: Save sets only the active course's plan; other plans and the daily goal stay", async () => {
+    const { user } = await renderProfile({ courseId: TELC, plans: { "en-de": germanPlan } });
+    await user.click(await rowButton(SET_GOAL_DATE));
+    const target = addDays(today(), 120);
+    typeDate(target);
+    await user.click(within(dialog()).getByRole("button", { name: "Save" }));
+    expect(await screen.findByText(GOAL_DATE_SAVED)).toBeInTheDocument();
+    const stored = await session.profile.getSettings();
+    expect(stored?.goalPlans).toEqual({
+      "en-de": germanPlan,
+      [TELC]: { targetLevel: "B1", targetDate: target },
+    });
+    expect(stored?.dailyGoalXp).toBe(10);
+    expect(stored?.courseId).toBe(TELC);
+  });
+
+  it("4, 5: Remove clears only the active course's plan", async () => {
+    const { user } = await renderProfile({
+      courseId: TELC,
+      plans: { "en-de": germanPlan, [TELC]: telcPlan },
+    });
+    await user.click(await rowButton(CHANGE_GOAL_DATE));
+    await user.click(within(dialog()).getByRole("button", { name: "Remove goal date" }));
+    expect(await screen.findByText(GOAL_DATE_REMOVED)).toBeInTheDocument();
+    expect(screen.getByTestId("goal-date-value")).toHaveTextContent("Not set");
+    const stored = await session.profile.getSettings();
+    expect(stored?.goalPlans).toEqual({ "en-de": germanPlan });
+    expect(stored?.dailyGoalXp).toBe(10);
+  });
+
+  it.each(["en-de", TELC])(
+    "11: no serious or critical axe violations with the dialog open on %s",
+    async (courseId) => {
+      const { user } = await renderProfile({ courseId });
+      await user.click(await rowButton(SET_GOAL_DATE));
+      typeDate(addDays(today(), 111));
+      expect(await seriousViolations(document.body)).toEqual([]);
+    },
+  );
 });

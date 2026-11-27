@@ -1,4 +1,4 @@
-import { expect, test, type Page } from "@playwright/test";
+import { expect, test, type Locator, type Page } from "@playwright/test";
 import { expectNoSeriousA11yViolations } from "./axe";
 import { completeOnboarding } from "./onboarding-helpers";
 
@@ -21,6 +21,19 @@ async function expectNoHorizontalScroll(page: Page) {
 async function press(page: Page, locator: ReturnType<Page["getByRole"]>, key = "Enter") {
   await locator.focus();
   await page.keyboard.press(key);
+}
+
+/**
+ * Waits until the dialog's open animation (`motion-safe:animate-slide-up`, opacity 0 → 1
+ * over 200 ms) has finished. axe computes contrast with the panel's current opacity, so a
+ * check during the fade reports the option descriptions as low contrast on slow runners
+ * (PLT-028 CI: #666975 on #c6c7ca at half opacity). The static colours pass AA.
+ */
+async function dialogSettled(dialog: Locator) {
+  await dialog.evaluate((el) =>
+    Promise.all(el.getAnimations({ subtree: true }).map((animation) => animation.finished)),
+  );
+  await expect(dialog).toHaveCSS("opacity", "1");
 }
 
 test("set, use and remove a goal date (Profile → Learn)", async ({ page }) => {
@@ -47,6 +60,7 @@ test("set, use and remove a goal date (Profile → Learn)", async ({ page }) => 
     "130 lessons left · about 2 lessons a day. Suggested daily goal: 20 XP.",
   );
   await expectNoHorizontalScroll(page);
+  await dialogSettled(dialog);
   await expectNoSeriousA11yViolations(page);
   await press(page, save);
   await expect(dialog).toBeHidden();
