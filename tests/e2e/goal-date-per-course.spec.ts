@@ -38,6 +38,19 @@ async function switchCourse(page: Page, name: RegExp, value: string) {
   await expect(page.getByTestId("course-value")).toHaveText(value);
 }
 
+/**
+ * Waits until the dialog's open animation (`motion-safe:animate-slide-up`, opacity 0 → 1
+ * over 200 ms) has finished. axe computes contrast with the panel's current opacity, so a
+ * check during the fade reports the option descriptions as low contrast on slow runners
+ * (PLT-028 CI: #666975 on #c6c7ca at half opacity). The static colours pass AA.
+ */
+async function dialogSettled(dialog: Locator) {
+  await dialog.evaluate((el) =>
+    Promise.all(el.getAnimations({ subtree: true }).map((animation) => animation.finished)),
+  );
+  await expect(dialog).toHaveCSS("opacity", "1");
+}
+
 async function setGoalDate(page: Page, level: "A2" | "B1", date: string) {
   await press(page, page.getByRole("button", { name: "Set goal date" }));
   const dialog = page.getByRole("dialog", { name: "Your goal date" });
@@ -50,6 +63,7 @@ async function setGoalDate(page: Page, level: "A2" | "B1", date: string) {
   await dialog.getByLabel("By when?").fill(date);
   await expect(dialog.getByTestId("goal-date-preview")).not.toBeEmpty();
   await expectNoHorizontalScroll(page);
+  await dialogSettled(dialog);
   await expectNoSeriousA11yViolations(page);
   await press(page, dialog.getByRole("button", { name: "Save" }));
   await expect(dialog).toBeHidden();
