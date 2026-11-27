@@ -1,6 +1,9 @@
-# Launch emails (drafts, v0.5.3)
+# Launch emails (drafts, v0.5.4)
 
-**Status:** drafts. The owner sends them, only to people who know the owner or who opted in.
+**Last updated:** 2026-11-27 (MKT-002) · **Valid for:** v0.5.4 on `main`
+
+**Status:** drafts. They describe the German course only (the exam-prep courses are not
+mentioned, `../positioning.md` §5b). The owner sends them, only to people who know the owner or who opted in.
 No bought lists, no cold mass mailing. Replace `APP_URL` and `[Name]`.
 
 ---
@@ -22,6 +25,8 @@ people who are moving to Germany or have just arrived.
 - 130 lessons from CEFR A1 to A2, about real life: appointments, shopping, the doctor,
   registering your address, offices and letters, work, the train
 - A short grammar tip before every lesson
+- A goal date: pick a level and a date ("A2 by 25 March") and see the lessons left and
+  whether your daily goal gets you there
 - Every correct answer gives you a heart back, and replaying lessons is free
 - Works offline and needs no account; add it to your home screen from your browser
 
@@ -44,7 +49,8 @@ Dear [Name],
 
 I'm the maker of Polyglow, a free web app with short German lessons for English speakers. It
 covers CEFR A1 and A2 (130 lessons) and focuses on everyday situations in Germany: appointments,
-the doctor, registering an address, offices and letters, work and travel.
+the doctor, registering an address, offices and letters, work and travel. Learners can set a
+goal date for a level and see how many lessons are left and how much to do each day.
 
 It needs no account, has no ads and works offline, so it is easy to recommend alongside a
 course. Would you be open to sharing it with your [students / members], or to giving us
@@ -66,7 +72,9 @@ Sehr geehrte/r [Name],
 ich entwickle Polyglow, eine kostenlose Web-App mit kurzen Deutsch-Lektionen für
 englischsprachige Lernende. Sie deckt die GER-Stufen A1 und A2 ab (130 Lektionen) und
 konzentriert sich auf Alltagssituationen in Deutschland: Termine, Arztpraxis, Anmeldung,
-Ämter und Briefe, Arbeit und Reisen. Die Erklärungen in der App sind auf Englisch.
+Ämter und Briefe, Arbeit und Reisen. Mit einem Zieldatum sehen Lernende, wie viele Lektionen
+bis zu ihrem Niveau noch fehlen und wie viel sie pro Tag üben sollten. Die Erklärungen in der
+App sind auf Englisch.
 
 Die App braucht kein Konto, zeigt keine Werbung und funktioniert offline, eignet sich also gut
 als Ergänzung zu einem Kurs. Würden Sie sie an Ihre [Studierenden / Mitglieder] weitergeben
