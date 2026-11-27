@@ -16,6 +16,34 @@ the release where it becomes user-facing.
 
 ## [Unreleased]
 
+## [0.5.5] - 2026-11-27
+
+Smart review: the exercises you got wrong, or haven't seen for a while, come back in short
+review sessions from the Practice tab. Review is free, works at 0 hearts and earns XP like a
+lesson. Goal dates now belong to each course, so a plan for German no longer changes the
+numbers of telc B1.
+
+### Added
+
+- Smart review: every finished session stores how each exercise went; a "Review" card on
+  Practice offers the exercises that are due, and `/review` plays up to 10 of them with the
+  practice hearts rules. Review results count for XP, streak and daily goal but never
+  complete a lesson [CTO-019] (#115) [LES-023] (#116) [GAM-015] (#119) [PLT-029] (#120)
+- A goal date per course: Profile, Learn and the results row show the plan of the course
+  you are on; switching courses keeps each course's plan; plans saved by v0.5.4 move to
+  the course they were made for [CTO-018] (#114) [GAM-014] (#117) [PLT-028] (#118)
+- Marketing: positioning and launch kit refreshed for v0.5.4, with Smart review drafts
+  marked as not yet released (nothing published) [MKT-002] (#122)
+- Release acceptance for v0.5.5: every ticket accepted; the review error label follows as
+  FIX-015 and the removal of the old goal-plan patch field as CTO-021 (PD-083, PD-084)
+  [PM-012] (#113) [PM-013] (#124)
+
+### Changed
+
+- Exercise ids are documented and tested as unique across all courses, which smart review
+  relies on [CTO-020] (#123)
+- Team status for the 2026-11-26 run (#121)
+
 ## [0.5.4] - 2026-11-26
 
 Goal date: a learner can pick a level and a date ("A2 by 25 March"), and Polyglow shows
