@@ -166,6 +166,9 @@ export type ComputeGoalPlan = (input: {
  * 4. Returns `{ candidates, dueCount, eligibleCount }` (`ReviewSelectionSchema`):
  *    `candidates` is the full ranked list (the route takes the first
  *    `GAME_CONFIG.reviewSessionSize` that load); `dueCount` counts due eligible exercises.
+ *    Exercise ids are unique across all courses (content test, CTO-008, CTO-020), so
+ *    counting `(lessonId, exerciseId)` pairs or ids gives the same numbers, and the
+ *    dedupe in 3 never drops an eligible exercise for valid content.
  * 5. Worked examples (today 2026-12-10, intervals [1, 3, 7, 14, 30]): A wrong 12-09 → due;
  *    B right 12-09 → run 1, due 12-10, due; C right 12-08, 12-09 → run 2, due 12-12, not
  *    due; D wrong 12-01, right 12-02, 12-05 → run 2, due 12-08, due; E right ×5, last

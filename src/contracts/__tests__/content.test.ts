@@ -48,12 +48,20 @@ describe("content/courses", () => {
     expect(duplicates(lessonPaths.map((p) => p.split(/[\\/]/).at(-1)!))).toEqual([]);
   });
 
+  // Relied on by smart review (ADR-019 §5, CTO-020): one exercise per id, so review
+  // counts by (lessonId, exerciseId) equal counts by id and sessions may key by id.
   it("exercise ids are unique across all lessons of all courses (CTO-008)", () => {
-    const ids = lessonPaths.flatMap((path) => {
+    const owners = new Map<string, string[]>();
+    for (const path of lessonPaths) {
       const lesson = LessonSchema.safeParse(readJson(path));
-      return (lesson.data?.exercises ?? []).map((e) => e.id);
-    });
-    expect(duplicates(ids)).toEqual([]);
+      for (const e of lesson.data?.exercises ?? []) {
+        owners.set(e.id, [...(owners.get(e.id) ?? []), lesson.data!.id]);
+      }
+    }
+    // Every lesson file is read; an invalid one fails its own per-course LessonSchema test.
+    expect(lessonPaths.length).toBeGreaterThan(0);
+    const repeated = [...owners].filter(([, lessons]) => lessons.length > 1);
+    expect(repeated.map(([id, lessons]) => `${id} in ${lessons.join(", ")}`)).toEqual([]);
   });
 
   it("en-de is German for English speakers with CEFR levels on every unit (ADR-008)", () => {

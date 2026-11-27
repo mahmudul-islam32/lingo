@@ -110,6 +110,11 @@ function refineTileAnswers(
 const richText = (max: number) => z.string().trim().min(1).max(max);
 
 const exerciseBase = {
+  /**
+   * Unique across **every lesson of every course** (content test, CTO-008; relied on by
+   * ADR-019 §5, CTO-020): an exercise id alone identifies one exercise, so a review
+   * session can key by it and review counts by `(lessonId, exerciseId)` equal counts by id.
+   */
   id: SlugSchema,
   /**
    * Optional explanation shown in the feedback panel after "Check", on correct and
