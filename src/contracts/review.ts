@@ -35,7 +35,11 @@ export type ReviewCandidate = z.infer<typeof ReviewCandidateSchema>;
 /** Output of `SelectReviewItems` (GAM-015 criterion 4). */
 export const ReviewSelectionSchema = z
   .strictObject({
-    /** Every eligible exercise, ranked, at most one per `exerciseId`. */
+    /**
+     * Every eligible exercise, ranked, at most one per `exerciseId`. Exercise ids are
+     * unique across courses (CTO-008, CTO-020), so for valid content this is every
+     * eligible exercise and `candidates.length === eligibleCount`.
+     */
     candidates: z.array(ReviewCandidateSchema),
     /** Eligible exercises that are due today. */
     dueCount: NonNegativeIntSchema,

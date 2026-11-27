@@ -113,6 +113,13 @@ There is no new XP constant (PD-079).
 { lessonId, exerciseId }[], dueCount, eligibleCount }`.
 - The schema checks `dueCount ≤ eligibleCount`, that there are no more candidates than
   eligible exercises, and that there is one candidate per `exerciseId`.
+- **Exercise ids are unique across all courses** (CTO-020). The content test
+  `exercise ids are unique across all lessons of all courses` (CTO-008) enforces it on
+  every `npm run test`. So `(lessonId, exerciseId)` pairs and exercise ids are 1:1: a
+  review session may key by exercise id (LES-023), the dedupe per `exerciseId` never drops
+  an eligible exercise, and `dueCount` / `eligibleCount` (counted by pair, GAM-015) match the
+  playable candidates. `ReviewSelectionSchema` keeps `≤` rather than `=` so the rule stays
+  total on invalid content.
 - The full rule (eligibility, `correctRun`, intervals, due dates, order, the worked
   example) is written in the doc comment exactly as in GAM-015 criteria 1–6. The schedule
   is never stored: it is derived from results on the device, so there is no server
