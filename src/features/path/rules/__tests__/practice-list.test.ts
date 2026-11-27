@@ -109,3 +109,16 @@ describe("buildPracticeList (GAM-012 AC6, AC8)", () => {
     expect(groups[0]!.lessons[0]!.lessonNumber).toBe(2);
   });
 });
+
+describe("buildPracticeList with review results (GAM-015 AC7)", () => {
+  it("a review result adds no lesson and never changes the order", () => {
+    const review = { ...at("review", "2026-11-20T10:00:00Z"), kind: "review" as const };
+    expect(buildPracticeList(unitOneCourse, [], [review])).toEqual([]);
+    const groups = buildPracticeList(
+      unitOneCourse,
+      [L[0]],
+      [at(L[0], "2026-11-18T10:00:00Z"), { ...at(L[0], "2026-11-21T10:00:00Z"), kind: "review" }],
+    );
+    expect(groups[0]!.lessons[0]!.lastPlayedAt).toBe("2026-11-18T10:00:00Z");
+  });
+});

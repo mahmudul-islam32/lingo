@@ -3,7 +3,15 @@
  * lessons of one course, grouped by unit, most recent first. A lesson that isn't in
  * `completedLessonIds` never appears.
  */
-import type { CefrLevel, Course, LessonResult, LessonSummary, Slug, Unit } from "@/contracts";
+import {
+  isReviewResult,
+  type CefrLevel,
+  type Course,
+  type LessonResult,
+  type LessonSummary,
+  type Slug,
+  type Unit,
+} from "@/contracts";
 
 export interface PracticeLesson {
   lesson: LessonSummary;
@@ -28,19 +36,20 @@ export interface PracticeUnitGroup {
  * lesson (newest first), lessons within a unit likewise; ties (same instant, or no
  * result) fall back to the later position in the course first, so a learner who plays
  * in order sees the newest lesson on top. `results` only supplies the order; other
- * courses' results are ignored.
+ * courses' results and review results (GAM-015 AC7) are ignored.
  */
 export function buildPracticeList(
   course: Course,
   completedLessonIds: readonly Slug[],
-  results: readonly Pick<LessonResult, "courseId" | "lessonId" | "completedAt">[] = [],
+  results: readonly Pick<LessonResult, "courseId" | "lessonId" | "completedAt" | "kind">[] = [],
 ): PracticeUnitGroup[] {
   const completed = new Set(completedLessonIds);
   if (completed.size === 0) return [];
 
   const lastPlayed = new Map<Slug, string>();
   for (const result of results) {
-    if (result.courseId !== course.id) continue;
+    // GAM-015 AC7: a review result is never a lesson of the list (it points at no lesson).
+    if (result.courseId !== course.id || isReviewResult(result)) continue;
     const previous = lastPlayed.get(result.lessonId);
     if (previous === undefined || Date.parse(result.completedAt) > Date.parse(previous)) {
       lastPlayed.set(result.lessonId, result.completedAt);

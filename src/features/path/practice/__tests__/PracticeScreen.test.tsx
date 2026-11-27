@@ -83,6 +83,7 @@ describe("PracticeScreen (GAM-012 AC6–AC9)", () => {
 
     const headings = await screen.findAllByRole("heading", { level: 2 });
     expect(headings.map((h) => h.textContent)).toEqual([
+      "Review", // GAM-015: the Review card sits above the list.
       "Unit 2: Next Steps",
       "Unit 1: First Steps",
     ]);

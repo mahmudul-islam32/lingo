@@ -12,7 +12,7 @@ import { computeUserProgress } from "@/features/gamification";
 import { computeDailyGoalProgress } from "../daily-goal";
 import { createFullHearts, refillHearts } from "../hearts";
 import { computeStreak } from "../streak";
-import { makeResult } from "./fixtures";
+import { makeOutcomeResult, makeResult } from "./fixtures";
 
 const COURSE = "es-en";
 const TODAY = "2026-11-07";
@@ -289,5 +289,34 @@ describe("computeUserProgress (GAM-003)", () => {
       .replace(/\/\/.*$/gm, "");
     // Only the sum seed `0` is allowed; every game value comes from inputs or GAME_CONFIG.
     expect(code).not.toMatch(/\b(?:[1-9]\d*|0\d+|\d+\.\d+)\b/);
+  });
+});
+
+describe("computeUserProgress with review results (GAM-015 AC7, ADR-019 §3)", () => {
+  const review = (localDate = TODAY) =>
+    makeOutcomeResult({
+      courseId: COURSE,
+      lessonId: "lesson-1",
+      kind: "review",
+      date: localDate,
+      outcomes: [["ex-1", "correct"]],
+    });
+
+  it("0 completed lessons and 1 review result: no completed lesson, its XP in today's total", () => {
+    const result = review();
+    const progress = run([result]);
+    expect(progress.completedLessonIds).toEqual([]);
+    expect(progress.lessonsCompletedCount).toBe(0);
+    expect(progress.totalXp).toBe(result.xpEarned);
+    expect(progress.dailyGoal.earnedXp).toBe(result.xpEarned);
+    expect(progress.streak.current).toBe(1);
+  });
+
+  it("a review keeps a streak alive and adds to a lesson's XP, never to the lessons", () => {
+    const lesson = perfect("lesson-2", YESTERDAY);
+    const progress = run([lesson, review()]);
+    expect(progress.completedLessonIds).toEqual(["lesson-2"]);
+    expect(progress.totalXp).toBe(lesson.xpEarned + review().xpEarned);
+    expect(progress.streak.current).toBe(2);
   });
 });
