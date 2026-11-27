@@ -1639,3 +1639,80 @@ together._
   settings shape for no known need.
 - **Trigger to revisit:** course switchers report a wrong start level or path after a switch.
 - **Reversibility:** High until v0.6.0, medium after (server column).
+
+## PD-083: v0.5.5 is released with two non-blocking follow-ups (FIX-015, CTO-021)
+
+- **Date:** 2026-11-27 (PM-ACC6)
+- **Reason:** on `main` `6bb29a4` all eight v0.5.5 tickets pass every criterion except
+  PLT-029 AC 10. On `/review` the error state's second button says "Back to Learn" but goes
+  to `/practice`; the ticket asks for "Back". Separately, ADR-018 §5 says the deprecated
+  `SettingsPatch.goalPlan` is removed right after PLT-028 merges, and it is still in the type.
+- **Decision:**
+  1. **v0.5.5 is ready for release.** PLT-029 is accepted with AC 10 moved to **FIX-015**
+     (dev-lessons + one line by dev-platform, P2), scheduled for the next milestone.
+  2. **CTO-021** (cto, P1, planned): remove `SettingsPatch.goalPlan` and its doc comment. It
+     doesn't block v0.5.5 but **must merge before PLT-010 / PLT-014 start**, so the v0.6.0
+     sync never carries a legacy write. The schema field `Settings.goalPlan` stays until
+     the release after sync is live, as ADR-018 §5 says.
+- **Rationale:** the label is wrong only in a rare error state (the queue or every lesson
+  failed to load), the button leads to a sensible screen, and nothing is lost. That is like
+  PD-070 (a README) and unlike PD-077 (a dead link on the first screen for every
+  Einbürgerungstest learner). No feature writes `SettingsPatch.goalPlan` any more, so
+  learners can't notice it; the risk is only for future sync code, which CTO-021 removes in
+  time.
+- **Alternatives considered:** hold the release for FIX-015 (delays a working retention
+  feature for one word); fix the label inside the release PR (crosses dev lanes in a cto
+  PR); leave `SettingsPatch.goalPlan` until v0.6.0 (a sync author could use the wrong write
+  path). Rejected.
+- **Reversibility:** n/a (process decision).
+
+## PD-084: The exam-prep courses before a public launch (MKT-002)
+
+- **Date:** 2026-11-27 (PM-013, on `docs/marketing/feature-proposals.md` §11 and
+  `waiting-on-owner.md` A7 / A8)
+- **Reason:** "telc B1 Exam Prep" (`telc-b1-en-de`) and "Einbürgerungstest"
+  (`einbuergerung-en-de`) are available on `main` since v0.5.4 (PD-073, owner request).
+  - **Names:** their course titles, the level title "B1 · telc exam" and the description
+    "every part of the telc Deutsch B1 exam" name exams in in-app copy, which PD-035 forbids.
+    PD-073 was an owner-requested exception for the courses' existence, not a decision on
+    public copy.
+  - **Licences:** the telc material was imported from the owner's own web app, and nobody has
+    confirmed that it contains no exam-provider material. Einbürgerungstest uses the BAMF
+    Gesamtfragenkatalog text and pictures, including the third-party Bundestag photo on Q55
+    (PD-076 open question). Both licences are **owner items** (A7); the name check is the
+    PD-035 owner item (A8).
+  - A public URL publishes every available course, whether or not marketing mentions it.
+- **Decision:**
+  1. **Default: hide both courses at public launch.** Before the public URL goes live (v1.0.0
+     launch gate, or earlier if the owner publishes a URL sooner), both courses are set to
+     `hidden` in the course registry, the same mechanism as `en-es` (PD-030): not offered in
+     onboarding or Profile → Course. A device that already uses one of them keeps it, as for
+     Spanish guests. Planned ticket **PLT-030** (dev-platform with the cto, v1.0.0 gate).
+  2. **They come back only when both owner items are done for that course:**
+     - **A7 (licence) cleared:** the owner confirms in `OWNER-NOTES.md` that the content may be
+       published (for Einbürgerungstest including the pictures; or the Q55 photo is replaced by
+       a freely licensed one or dropped, PD-076). Without this a course stays hidden whatever
+       its name; a rename doesn't fix a licence.
+     - **A8 (names) answered:** if the owner's legal check allows the exam names, the titles
+       stay and each course gets one line on its first lesson and in Profile → Course: "Not
+       affiliated with the exam provider or any authority. Check official sources for the
+       current rules." If the check doesn't allow them, or there is no answer, the pm renames
+       them in `/content` (CON ticket at that time): working titles **"German B1 Intensive"**
+       (with level title "B1 · Intensive" and a description without exam names) and
+       **"Life in Germany: Citizenship Questions"**, with the same "not affiliated" line.
+  3. **Until launch nothing changes:** both courses stay available on today's private build
+     (the owner uses them), and v0.5.5 isn't affected. Marketing keeps them out of all public
+     copy and screenshots (`positioning.md` §5b) until point 2 is done.
+  4. PD-035 stays the rule for public copy. Any future exam-named course needs the same two
+     checks before it is public.
+- **Rationale:** both risks (trademark names, copyright in imported or official material) are
+  legal, can't be fixed by the team, and the owner may need time. Hiding is one registry flag,
+  fully reversible, keeps the owner's own use, and leaves the launch on the courses we wrote
+  ourselves (A1 + A2, PD-036). Marketing also found the citizenship-test field crowded with
+  apps using the same catalogue (`feature-proposals.md` §11), so the courses are a weak
+  acquisition hook compared with the risk.
+- **Alternatives considered:** keep them public with a disclaimer only (doesn't solve
+  licences or PD-035); rename now (rewrites the owner's course before the legal answer, and
+  still leaves the licence question); delete them (loses owner-requested content that may
+  well be cleared). Rejected.
+- **Reversibility:** High (registry flag and course titles).
