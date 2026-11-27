@@ -36,11 +36,13 @@ const reloadPage = () => window.location.reload();
  * (`kind: "review"`, `REVIEW_SESSION_ID` ids, one outcome per exercise with its source
  * `lessonId`); show it with `ResultsScreen`, which switches to its review mode.
  * Quit calls `onQuit` and nothing is produced (PD-080).
+ * With no playable item it shows `LessonPlayerError` with a "Back" button calling `onQuit`.
  */
 export function ReviewPlayer({ items, onRetry, onQuit, ...playerProps }: ReviewPlayerProps) {
   const [built] = useState(() => buildReviewLesson(items));
   if (!built) {
-    return <LessonPlayerError onBack={onQuit} onRetry={onRetry ?? reloadPage} />;
+    // `onQuit` goes to Practice, not Learn, so the button just says "Back" (FIX-015).
+    return <LessonPlayerError onBack={onQuit} onRetry={onRetry ?? reloadPage} backLabel="Back" />;
   }
   return (
     <HeartsLessonPlayer

@@ -1,5 +1,6 @@
 import { act, render, screen, within } from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
+import axe from "axe-core";
 import { afterEach, describe, expect, it, vi } from "vitest";
 import { LessonResultSchema, LessonSessionSchema, type Lesson } from "@/contracts";
 import { LessonPlayer, type LessonPlayerProps } from "./LessonPlayer";
@@ -312,6 +313,41 @@ describe("LessonPlayerError", () => {
     expect(onRetry).toHaveBeenCalledTimes(1);
     expect(onBack).toHaveBeenCalledTimes(1);
   });
+
+  it('defaults the back button to exactly "Back to Learn" (FIX-015)', () => {
+    render(<LessonPlayerError onRetry={vi.fn()} onBack={vi.fn()} />);
+    const back = screen.getByRole("button", { name: "Back to Learn" });
+    expect(back).toHaveTextContent(/^Back to Learn$/);
+    expect(screen.queryByRole("button", { name: "Back" })).not.toBeInTheDocument();
+  });
+
+  it("uses backLabel as the back button's visible text and name (FIX-015)", async () => {
+    const user = userEvent.setup();
+    const onBack = vi.fn();
+    render(<LessonPlayerError onRetry={vi.fn()} onBack={onBack} backLabel="Back" />);
+    const back = screen.getByRole("button", { name: "Back" });
+    expect(back).toHaveTextContent(/^Back$/);
+    expect(screen.queryByRole("button", { name: "Back to Learn" })).not.toBeInTheDocument();
+    await user.click(back);
+    expect(onBack).toHaveBeenCalledTimes(1);
+  });
+
+  it.each([undefined, "Back"])(
+    "has no serious or critical axe violations (backLabel %s, FIX-015)",
+    async (backLabel) => {
+      const { container } = render(
+        <LessonPlayerError
+          onRetry={vi.fn()}
+          onBack={vi.fn()}
+          {...(backLabel ? { backLabel } : {})}
+        />,
+      );
+      const serious = (await axe.run(container)).violations.filter(
+        (v) => v.impact === "serious" || v.impact === "critical",
+      );
+      expect(serious).toEqual([]);
+    },
+  );
 
   it("shows a decorative Lumi ember (md) instead of the placeholder (FIX-005)", () => {
     const { container } = render(<LessonPlayerError onRetry={vi.fn()} onBack={vi.fn()} />);
