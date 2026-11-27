@@ -36,7 +36,7 @@ numbers of telc B1.
   marked as not yet released (nothing published) [MKT-002] (#122)
 - Release acceptance for v0.5.5: every ticket accepted; the review error label follows as
   FIX-015 and the removal of the old goal-plan patch field as CTO-021 (PD-083, PD-084)
-  [PM-012] (#113) [PM-013] (#124)
+  [PM-013] (#124)
 
 ### Changed
 
