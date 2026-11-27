@@ -2,7 +2,13 @@
 
 import { useQuery } from "@tanstack/react-query";
 import { useEffect, useId, useRef, useState } from "react";
-import { GAME_CONFIG, type CefrLevel, type ComputeGoalPlan, type GoalPlan } from "@/contracts";
+import {
+  GAME_CONFIG,
+  goalPlanFor,
+  type CefrLevel,
+  type ComputeGoalPlan,
+  type GoalPlan,
+} from "@/contracts";
 import { Button, CloseIcon, Dialog, IconButton, Skeleton } from "@/components/ui";
 import {
   computeGoalPlan,
@@ -67,7 +73,8 @@ function clearEditParam(): void {
 
 /**
  * Profile row "Goal date" (PLT-027 AC 1–9, ADR-015, PD-071 §1) under "Daily goal": the
- * saved plan ("Finish A2 by 12 Mar 2027") or "Not set", and "Set" / "Change", which opens
+ * active course's saved plan (PLT-028, ADR-018: read with `goalPlanFor`, written with a
+ * one-course `goalPlanUpdate`, so other courses' plans never change) ("Finish A2 by 12 Mar 2027") or "Not set", and "Set" / "Change", which opens
  * the dialog with the level, the date, a live preview from the goal-plan rule, "Remove goal
  * date" and inline save errors. "After today" and "within 730 days" are enforced here on
  * Save (ADR-015 §1). Saving never touches `dailyGoalXp` (PD-071: suggest only). Hidden for
@@ -100,7 +107,8 @@ export function GoalDateRow({ computePlan }: GoalDateRowProps) {
   const ready = !settings.isPending && !course.isPending;
   const options =
     ready && course.data ? goalLevelOptions(course.data, settings.data?.startLevel) : [];
-  const saved: GoalPlan | null = settings.data?.goalPlan ?? null;
+  // PLT-028 / PD-078: the goal date always belongs to the course you are on.
+  const saved: GoalPlan | null = settings.data ? goalPlanFor(settings.data, courseId) : null;
 
   function openDialog() {
     setLevel(
@@ -173,7 +181,7 @@ export function GoalDateRow({ computePlan }: GoalDateRowProps) {
     setPending(kind);
     setSaveFailed(false);
     try {
-      await update.mutateAsync({ goalPlan });
+      await update.mutateAsync({ goalPlanUpdate: { courseId, goalPlan } });
     } catch {
       setPending(null);
       setSaveFailed(true);
