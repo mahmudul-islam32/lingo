@@ -83,8 +83,9 @@ carry an un-migrated legacy plan to the new course. The `goalPlanUpdate` key is 
   removed from the schema (with the `goal_plan` column) in the first release after v0.6.0
   in which settings sync has been live. By then every device has rewritten its record
   through §4.
-- `SettingsPatch.goalPlan` (the v0.5.4 write path) stays until PLT-028 switches Profile to
-  `goalPlanUpdate`, so `main` keeps building. The cto removes it right after PLT-028 merges.
+- `SettingsPatch.goalPlan` (the v0.5.4 write path) stayed until PLT-028 switched Profile to
+  `goalPlanUpdate`, so `main` kept building. **Removed in CTO-021** (after PLT-028, #118):
+  the only way to write a goal date is now `goalPlanUpdate`.
 - `CONTRACTS_VERSION` stays `1`. Every change is additive and optional, so queued records
   with `schemaVersion: 1` parse unchanged (tested).
 
