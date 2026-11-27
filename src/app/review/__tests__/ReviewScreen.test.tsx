@@ -161,7 +161,8 @@ describe("/review (PLT-029)", () => {
     expect(await seriousViolations()).toEqual([]);
     await userEvent.click(screen.getByRole("button", { name: "Try again" }));
     expect(queue.refetch).toHaveBeenCalled();
-    await userEvent.click(screen.getByRole("button", { name: /^Back/ }));
+    expect(screen.queryByRole("button", { name: "Back to Learn" })).not.toBeInTheDocument();
+    await userEvent.click(screen.getByRole("button", { name: "Back" }));
     expect(router.push).toHaveBeenCalledWith(PRACTICE_PATH);
   });
 
