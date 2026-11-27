@@ -52,19 +52,19 @@ describe("SettingsSchema.goalPlan (CTO-017)", () => {
     expect(SettingsSchema.safeParse({ ...settings, goalPlan }).success).toBe(false);
   });
 
-  it("set → clear through the settings patch leaves goalPlan null", () => {
-    const withPlan = applyPatch(settings, { goalPlan: plan });
-    expect(withPlan.goalPlan).toEqual(plan);
-    const cleared = applyPatch(withPlan, { goalPlan: null });
-    expect(cleared.goalPlan).toBeNull();
-    expect(cleared.goalPlan ?? null).toBeNull();
-    // The rest of the settings is untouched.
-    expect({ ...cleared, goalPlan: undefined }).toEqual({ ...settings, goalPlan: undefined });
+  it("the settings patch can no longer write the legacy goalPlan (CTO-021, ADR-018 §5)", () => {
+    // @ts-expect-error -- goal dates are written per course with `goalPlanUpdate` only.
+    const legacy: SettingsPatch = { goalPlan: plan };
+    const perCourse: SettingsPatch = {
+      goalPlanUpdate: { courseId: settings.courseId, goalPlan: plan },
+    };
+    expect(legacy).toBeDefined();
+    expect(perCourse.goalPlanUpdate?.goalPlan).toEqual(plan);
   });
 
-  it("a patch without goalPlan keeps the stored plan", () => {
-    const withPlan = applyPatch(settings, { goalPlan: plan });
-    expect(applyPatch(withPlan, { dailyGoalXp: 30 }).goalPlan).toEqual(plan);
+  it("a patch without goal fields keeps a stored legacy plan", () => {
+    const stored = SettingsSchema.parse({ ...settings, goalPlan: plan });
+    expect(applyPatch(stored, { dailyGoalXp: 30 }).goalPlan).toEqual(plan);
   });
 });
 

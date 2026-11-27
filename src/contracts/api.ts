@@ -213,25 +213,17 @@ export interface ProgressRepository {
 /**
  * Settings fields the learner can change (CR-002). `dailyGoalXp` is a plain number so
  * UI input is validated at runtime: an option outside `DAILY_GOAL_OPTIONS` is rejected
- * with a typed error and nothing is stored. `goalPlan: null` clears the goal date
- * (CTO-017, ADR-015): the repository spreads the patch, so the stored settings then hold
- * `goalPlan: null`, which `SettingsSchema` accepts and readers treat as "no goal date".
- * Never send `goalPlan: undefined` (it is dropped, ADR-013 Compatibility).
+ * with a typed error and nothing is stored. Goal dates are set and cleared per course with
+ * `goalPlanUpdate` only; the legacy single `goalPlan` can't be written (CTO-021, ADR-018 §5).
  */
 export type SettingsPatch = Partial<
-  Pick<
-    Settings,
-    "courseId" | "soundEffectsEnabled" | "speakingExercisesEnabled" | "startLevel" | "goalPlan"
-  >
+  Pick<Settings, "courseId" | "soundEffectsEnabled" | "speakingExercisesEnabled" | "startLevel">
 > & {
   dailyGoalXp?: number;
   /**
    * Sets or clears one course's goal plan (CTO-018, ADR-018 §4). `updateSettings` reads
    * the stored record, applies `normalizeGoalPlans`, spreads the other patch fields, then
    * `withGoalPlan(next, goalPlanUpdate)`; this key itself is never stored.
-   *
-   * `goalPlan` above is deprecated for writes: kept only until PLT-028 switches Profile to
-   * `goalPlanUpdate`, then removed from this patch (ADR-018 §5).
    */
   goalPlanUpdate?: GoalPlanUpdate;
 };
