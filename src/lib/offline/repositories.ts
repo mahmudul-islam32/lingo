@@ -13,6 +13,8 @@ import {
   ProfileSchema,
   ProfileUpdateSchema,
   SettingsSchema,
+  normalizeGoalPlans,
+  withGoalPlan,
   type HeartsState,
   type Identity,
   type LessonResult,
@@ -256,12 +258,19 @@ export function createLocalProfileRepository(
           );
           if (missing.length > 0) throw new SettingsIncompleteError(missing);
         }
-        const next = validateSettings({
+        // ADR-018 §4: normalize the stored record first (a v0.5.4 `goalPlan` belongs to
+        // the stored `courseId`, so a `courseId` change in this patch can't carry it), then
+        // spread the other patch fields, then apply the one-course `goalPlanUpdate`.
+        const { goalPlanUpdate, ...fields } = patch;
+        const merged = {
           ...DEFAULT_SETTINGS_TOGGLES,
-          ...current,
-          ...patch,
+          ...(current ? normalizeGoalPlans(current) : undefined),
+          ...fields,
           updatedAt: deps.now().toISOString(),
-        });
+        } as Settings;
+        const next = validateSettings(
+          goalPlanUpdate ? withGoalPlan(merged, goalPlanUpdate) : merged,
+        );
         await writeSettings(tx, deps, next);
         return next;
       });
