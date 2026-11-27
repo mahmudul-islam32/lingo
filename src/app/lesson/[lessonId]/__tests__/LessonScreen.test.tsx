@@ -2,7 +2,12 @@ import { screen, waitFor } from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
 import type { ReactNode } from "react";
 import { beforeEach, describe, expect, it, vi } from "vitest";
-import type { ProgressRepository } from "@/contracts";
+import {
+  GoalPlanStatusSchema,
+  type GoalPlanStatus,
+  type ProgressRepository,
+  type Slug,
+} from "@/contracts";
 import { ToastProvider } from "@/components/ui";
 import type { ExerciseComponentMap, ExerciseComponentProps } from "@/features/lessons";
 import { ContentRepositoryProvider, type BundledContentRepository } from "@/lib/content";
@@ -29,6 +34,26 @@ import { LEARN_PATH, LOCKED_LESSON_TOAST, LessonScreen } from "../LessonScreen";
 
 const router = vi.hoisted(() => ({ push: vi.fn(), replace: vi.fn(), prefetch: vi.fn() }));
 vi.mock("next/navigation", () => ({ useRouter: () => router, usePathname: () => "/lesson/x" }));
+
+/**
+ * PLT-028 AC 7: a test may replace `useGoalPlan` (GAM-014 owns its body) to check which
+ * course the lesson route asks for and that the status reaches the results screen.
+ * `null` = the real hook.
+ */
+const goalPlanHook = vi.hoisted(() => ({
+  override: null as null | ((options: { courseId?: Slug }) => GoalPlanStatus | null | undefined),
+  calls: [] as Array<Slug | undefined>,
+}));
+vi.mock("@/features/gamification", async (importOriginal) => {
+  const actual = await importOriginal<typeof import("@/features/gamification")>();
+  return {
+    ...actual,
+    useGoalPlan: (options: { courseId?: Slug } = {}) => {
+      goalPlanHook.calls.push(options.courseId);
+      return goalPlanHook.override ? goalPlanHook.override(options) : actual.useGoalPlan(options);
+    },
+  };
+});
 
 /** LES-008 copy (not exported from the lessons barrel). */
 const RESULTS_HEADING = "Lesson complete!";
@@ -140,6 +165,8 @@ async function playToTheEnd() {
 }
 
 beforeEach(() => {
+  goalPlanHook.override = null;
+  goalPlanHook.calls = [];
   router.push.mockReset();
   router.replace.mockReset();
   // jsdom has no IndexedDB: hearts and path progress use a fresh in-memory session.
@@ -326,5 +353,48 @@ describe("LessonScreen with the German course (PLT-024 AC 5, 10)", () => {
     ).toBeInTheDocument();
     expect(screen.getByText("Hola").closest("[lang]")).toHaveAttribute("lang", "es");
     expect(document.querySelector('[lang="de"]')).toBeNull();
+  });
+});
+
+describe("LessonScreen goal-plan row (PLT-028 AC 7, ADR-018)", () => {
+  const GERMAN_LESSON = "de-a1-u01-l1-hallo";
+  const germanPlan: GoalPlanStatus = GoalPlanStatusSchema.parse({
+    targetLevel: "A2",
+    targetDate: "2027-03-12",
+    lessonsLeft: 130,
+    daysLeft: 111,
+    lessonsPerDay: 1,
+    suggestedDailyGoalXp: 20,
+    status: "on-track",
+  });
+
+  it("shows the plan of the lesson's course even when another course is active", async () => {
+    const session = await openLocalSession({ forceMemory: true });
+    // The active course is the fixture course; the lesson belongs to en-de.
+    await session.profile.updateSettings({ courseId: FIXTURE_COURSE_ID, dailyGoalXp: 20 });
+    goalPlanHook.override = ({ courseId }) =>
+      courseId === GERMAN_FIXTURE_COURSE_ID ? germanPlan : null;
+    renderScreen({
+      repository: createGermanFixtureRepository(),
+      progress: session.progress,
+      courseId: GERMAN_FIXTURE_COURSE_ID,
+      lessonId: GERMAN_LESSON,
+    });
+    await playToTheEnd();
+    expect(await screen.findByRole("heading", { level: 1, name: RESULTS_HEADING })).toBeVisible();
+    expect(await screen.findByText("Goal: A2 by 12 Mar 2027")).toBeVisible();
+    expect(goalPlanHook.calls.length).toBeGreaterThan(0);
+    expect(new Set(goalPlanHook.calls)).toEqual(new Set([GERMAN_FIXTURE_COURSE_ID]));
+  });
+
+  it("a course without a plan (or without levels) gets no goal row", async () => {
+    const session = await openLocalSession({ forceMemory: true });
+    await session.profile.updateSettings({ courseId: GERMAN_FIXTURE_COURSE_ID, dailyGoalXp: 20 });
+    goalPlanHook.override = () => null;
+    renderScreen({ progress: session.progress });
+    await playToTheEnd();
+    expect(await screen.findByRole("heading", { level: 1, name: RESULTS_HEADING })).toBeVisible();
+    expect(screen.queryByText(/^Goal: /)).not.toBeInTheDocument();
+    expect(new Set(goalPlanHook.calls)).toEqual(new Set([FIXTURE_COURSE_ID]));
   });
 });

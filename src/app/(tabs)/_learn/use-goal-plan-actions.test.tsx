@@ -1,7 +1,7 @@
 import { act, renderHook, screen } from "@testing-library/react";
 import type { ReactNode } from "react";
 import { afterEach, describe, expect, it, vi } from "vitest";
-import type { Settings } from "@/contracts";
+import { goalPlanFor, type Settings } from "@/contracts";
 import { ToastProvider } from "@/components/ui";
 import { createGuestProfileStore, guestProfileStore } from "@/features/profile";
 import { openLocalSession } from "@/lib/offline";
@@ -21,7 +21,10 @@ async function setup() {
   const settings = await session.profile.updateSettings({
     courseId: "en-de",
     dailyGoalXp: 10,
-    goalPlan: { targetLevel: "A2", targetDate: "2027-03-12" },
+    goalPlanUpdate: {
+      courseId: "en-de",
+      goalPlan: { targetLevel: "A2", targetDate: "2027-03-12" },
+    },
   });
   guestProfileStore.setState({ updateSettings: store.getState().updateSettings });
   const client = createTestQueryClient();
@@ -46,7 +49,10 @@ describe("Learn goal-plan actions (PLT-027 AC 11)", () => {
     const cached = client.getQueryData<Settings>(queryKeys.settings());
     expect(cached?.dailyGoalXp).toBe(20);
     // The plan is untouched.
-    expect(cached?.goalPlan).toEqual({ targetLevel: "A2", targetDate: "2027-03-12" });
+    expect(cached && goalPlanFor(cached, "en-de")).toEqual({
+      targetLevel: "A2",
+      targetDate: "2027-03-12",
+    });
     expect(await screen.findByText(dailyGoalSetToast(20))).toHaveTextContent(
       "Daily goal set to 20 XP.",
     );

@@ -1,6 +1,8 @@
 import { describe, expect, it } from "vitest";
 import { PathNodeSchema, type PathNodeState } from "@/contracts";
+import { computeUserProgress, createFullHearts } from "@/features/gamification";
 import { computePathNodes } from "@/features/path";
+import { makeOutcomeResult } from "../../../gamification/rules/__tests__/fixtures";
 import { L, twoUnitCourse, unitOneCourse } from "./fixtures";
 
 type S = PathNodeState;
@@ -151,5 +153,29 @@ describe("computePathNodes (GAM-008 AC1-AC3)", () => {
     const before = JSON.stringify(unitOneCourse);
     computePathNodes(unitOneCourse, completed, L[1]);
     expect(JSON.stringify(unitOneCourse)).toBe(before);
+  });
+});
+
+describe("computePathNodes with review results (GAM-015 AC7)", () => {
+  it("a learner with only a review result still has the first lesson available", () => {
+    const review = makeOutcomeResult({
+      courseId: unitOneCourse.id,
+      lessonId: L[0],
+      kind: "review",
+      date: "2026-11-20",
+      outcomes: [["ex-1", "correct"]],
+    });
+    const progress = computeUserProgress({
+      courseId: unitOneCourse.id,
+      results: [review],
+      hearts: createFullHearts(new Date("2026-11-20T00:00:00Z")),
+      goalXp: 20,
+      today: "2026-11-20",
+      now: new Date("2026-11-20T12:00:00Z"),
+    });
+    expect(progress.completedLessonIds).toEqual([]);
+    const nodes = computePathNodes(unitOneCourse, progress.completedLessonIds, null);
+    expect(nodes.map((n) => n.state)).toEqual(states([]));
+    expect(nodes.some((n) => n.state === "completed")).toBe(false);
   });
 });
