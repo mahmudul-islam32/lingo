@@ -254,8 +254,12 @@ describe("ReviewPlayer (LES-023)", () => {
       { client: createTestQueryClient() },
     );
     expect(screen.getByRole("heading", { level: 1 })).toBeInTheDocument();
-    await user.click(screen.getByRole("button", { name: /back/i }));
-    expect(onQuit).toHaveBeenCalled();
+    // Exact name (FIX-015): a /back/i match would also accept "Back to Learn".
+    const back = screen.getByRole("button", { name: "Back" });
+    expect(back).toHaveTextContent(/^Back$/);
+    expect(screen.queryByRole("button", { name: "Back to Learn" })).not.toBeInTheDocument();
+    await user.click(back);
+    expect(onQuit).toHaveBeenCalledTimes(1);
   });
 });
 

@@ -110,7 +110,7 @@ export function ReviewScreen({
   }, [reread]);
 
   if (queue.error || course.status === "error" || items.status === "error") {
-    return <LessonPlayerError onRetry={retry} onBack={goToPractice} />;
+    return <LessonPlayerError onRetry={retry} onBack={goToPractice} backLabel="Back" />;
   }
   if (finished) {
     return (

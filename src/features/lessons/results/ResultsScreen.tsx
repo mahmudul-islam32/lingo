@@ -113,16 +113,6 @@ export function perfectReviewText(bonus: number): string {
 }
 
 /**
- * Line for the gold celebration pill under the heading, or `null` for no pill (FIX-010).
- * Streak and daily-goal events are not repeated here: the coral streak banner already
- * shows "Streak started!" / "Streak extended!" and the goal row "Daily goal reached!", so
- * the pill only carries what is said nowhere else, the perfect-lesson bonus.
- */
-export function celebrationPillText(perfectBonus: number): string | null {
-  return perfectBonus > 0 ? perfectLessonText(perfectBonus) : null;
-}
-
-/**
  * LES-008 results screen. Presentational: the route (PLT-007) builds the result and
  * passes the repository's save function. Fits 375 × 667 without scrolling.
  * Design v2 (LES-021, screen 6): Lumi in a light indigo circle with confetti, three
