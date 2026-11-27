@@ -1,14 +1,17 @@
 # Personas
 
-**Owner:** marketing · **Ticket:** MKT-001 · **Last updated:** 2026-11-20
+**Owner:** marketing · **Ticket:** MKT-002 (first version MKT-001) · **Last updated:** 2026-11-27 ·
+**Valid for:** v0.5.4 on `main`
 
 Four marketing personas built on the pm's segments (`docs/product/market-analysis-german.md`
 §2.1) and the numbers in `market-research.md`. They are composites, not real people. The PRD's
 product personas (casual beginner, returning learner, try-before-commit visitor) still apply
 inside each one.
 
-Each persona lists what Polyglow can honestly offer **today (v0.5.3)** and what they will
-miss, so copy and proposals stay truthful.
+Each persona lists what Polyglow can honestly offer **today (v0.5.4)** and what they will
+miss, so copy and proposals stay truthful. All of it refers to the German course; the
+exam-prep courses on `main` are not part of any persona's public message yet
+(`positioning.md` §5b).
 
 ---
 
@@ -23,8 +26,8 @@ miss, so copy and proposals stay truthful.
 | **Today she uses** | Free videos, a gamified app's free tier, a weekend batch class she may drop |
 | **Pains** | Data and storage, ads, free tiers that stop her after a few lessons, not knowing if she is "really A1" |
 | **Willingness to pay** | Low now (est. INR 100–200 a month); higher once she has a deadline |
-| **What Polyglow gives today** | Free, no account, installs from the browser, works offline after loading; A1 and A2 on a CEFR path with checkpoints; correct answers earn hearts; Practice is free |
-| **What she'll miss** | Recorded audio on every device, speaking, a target date, B1 |
+| **What Polyglow gives today** | Free, no account, installs from the browser, works offline after loading; A1 and A2 on a CEFR path with checkpoints; correct answers earn hearts; Practice is free; **a goal date** ("A2 by my moving date") with lessons left and a suggested daily goal (v0.5.4) |
+| **What she'll miss** | Recorded audio on every device, speaking, B1, keeping her plan when she changes phones (needs accounts) |
 | **Channels** | Instagram and YouTube Shorts, Reddit, LinkedIn, WhatsApp and Telegram groups for Germany jobs, student-visa forums |
 | **Message that lands** | "German for your move to Germany. Five minutes a day, free, works offline." |
 
@@ -55,8 +58,8 @@ miss, so copy and proposals stay truthful.
 | **Today she uses** | An institute course in the evening, a prep book, YouTube |
 | **Pains** | Cost of a retake, no one to practise with, unclear what "A1" means in practice |
 | **Willingness to pay** | Medium for a short, clear period (est. a one-off €10–20 "until my exam") |
-| **What Polyglow gives today** | All of A1 (60 lessons, ~700 exercises) free; an A1 checkpoint; daily goal and streak |
-| **What she'll miss** | A goal date, mock checkpoint with timing, speaking and writing (exams test four skills) |
+| **What Polyglow gives today** | All of A1 (60 lessons, ~700 exercises) free; an A1 checkpoint; daily goal and streak; **a goal date for A1** that shows the lessons left and whether her daily goal is enough (v0.5.4). Public copy calls it "your goal date", never "your exam date" |
+| **What she'll miss** | Mock checkpoint with timing, speaking and writing (exams test four skills), review of what she got wrong (v0.5.5, in progress) |
 | **Channels** | Facebook groups for spouse visas and family reunification, WhatsApp, YouTube, course teachers' recommendations |
 | **Message that lands** | "Practise A1 every day, between your classes. Free, on your phone." Never promise a pass (PD-035) |
 
@@ -84,7 +87,7 @@ miss, so copy and proposals stay truthful.
 |---|---|---|
 | 1 | Priya (pre-arrival, India-first) | Largest growing English-speaking group; Android and offline fit; A1–A2 matches her next 6–12 months |
 | 2 | Sam (expat in DACH) | Content fits his life today; reachable through free community channels; higher willingness to pay |
-| 3 | Amara (A1 deadline) | Very clear need; A1 complete; best fit for a later "goal date" and paid "pass" |
+| 3 | Amara (A1 deadline) | Very clear need; A1 complete; the goal date (v0.5.4) is built for her. A paid "pass" stays a hypothesis (PD-072) |
 | 4 | Tom (hobby/heritage) | Large audience, cheaper to reach in English-language communities, but lower urgency and higher churn |
 
 Out of scope for marketing now: learners whose main language is Ukrainian, Arabic, Turkish or

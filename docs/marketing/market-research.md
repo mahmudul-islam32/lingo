@@ -1,6 +1,8 @@
 # Market research: English-speaking learners of German
 
-**Owner:** marketing · **Ticket:** MKT-001 · **Last updated:** 2026-11-20 · **Next refresh:** by 2026-12-20
+**Owner:** marketing · **Ticket:** MKT-002 (first version MKT-001) · **Last updated:** 2026-11-27
+(small refresh, §8; §1–§7 are from 2026-11-20) · **Valid for:** v0.5.4 on `main` ·
+**Next full refresh:** by 2026-12-20
 **Builds on:** `docs/product/market-analysis-german.md` (pm). That document covers segments S1–S8,
 legal drivers, the exam landscape and source languages. This one adds **current, cited numbers**,
 willingness to pay, a named competitor landscape and the gaps marketing can use. It does not
@@ -11,8 +13,8 @@ repeat the pm's tables.
 
 ## How to read the sources
 
-- Every figure has a source ID `[Sn]`. The full list with URLs is in §7. **All sources were
-  accessed on 2026-11-20.**
+- Every figure has a source ID `[Sn]`. The full list with URLs is in §7. **S1–S31 were
+  accessed on 2026-11-20; S32–S34 on 2026-11-27.**
 - **[P]** = primary source (government, statistics office, company filing).
   **[S]** = secondary (press, review site, aggregator).
   **(est.)** = our own estimate or a figure that sources disagree on. Never use an (est.) figure
@@ -73,7 +75,7 @@ content, no account.
 | **Citizenship / settlement** (S4, S6) | 333,343 naturalisations in 2025, a record and the fifth rise in a row | [S7][P] | Medium: needs B1, which is not on `main` yet | Medium now, **High after B1** |
 | **Hobby, heritage, students worldwide** (S7, S8) | ~15.4 million learners of German worldwide (survey cycle unclear, verify against the 2025 edition) | [S5][S] | **High** | Medium: large but low urgency and high churn |
 
-**Rough serviceable market for v0.5.3 (est.).** English-speaking adults who need or want A1–A2
+**Rough serviceable market for v0.5.4 (est., unchanged from v0.5.3).** English-speaking adults who need or want A1–A2
 German in the next 12 months: a few hundred thousand per year across S1, S3, S5 and S6
 (estimate built from the rows above, overlapping and not additive), plus a large but
 unquantified hobby audience. Treat this as an order of magnitude, not a forecast.
@@ -130,8 +132,9 @@ sources disagree, the range is shown and marked (est.).
 
 ### Review themes we can act on
 
-| Theme | Evidence | Polyglow today (v0.5.3) | Opportunity |
+| Theme | Evidence | Polyglow today (v0.5.4) | Opportunity |
 |---|---|---|---|
+| Learners have a date (move, job, semester, test) | Deadline segments S1, S3, S5 [S8][S9][S4] | **Goal date** (v0.5.4): level + date, lessons left, suggested daily goal, kind wording | Lead deadline messaging with it ("A2 by 25 March"), never with an exam date |
 | Free play is being squeezed | Energy backlash [S21] | Correct answers earn hearts; Practice is free and never costs hearts | Message it; protect it in pricing |
 | Grammar is under-explained | r/German, reviews [S22] | Every lesson opens with a grammar tip card | Message "a tip before every lesson"; grammar notes later |
 | Apps don't prepare you for life in Germany | [S22], expat surveys: 50 % found life hard without German (2023) [S24] | A1 covers registering an address, doctor, appointments, shopping; A2 covers offices, letters, work, train, hotel | Lead with "German for life in Germany" |
@@ -175,7 +178,7 @@ accounts/sync, leagues. These are product gaps (see `feature-proposals.md`), not
 
 ---
 
-## 7. Sources (all accessed 2026-11-20)
+## 7. Sources (S1–S31 accessed 2026-11-20; S32–S34 accessed 2026-11-27)
 
 | ID | Source | URL | Used for |
 |---|---|---|---|
@@ -210,3 +213,30 @@ accounts/sync, leagues. These are product gaps (see `feature-proposals.md`), not
 | S29 | European Commission, VAT One Stop Shop | https://vat-one-stop-shop.ec.europa.eu/index_en | €10,000 EU-wide B2C threshold |
 | S30 | Bizz Buzz; cybernews (Duolingo regional prices, third-party) | https://www.bizzbuzz.news/international/how-super-duolingo-prices-vary-globally-1377749 · https://cybernews.com/vpn-guides/buy-duolingo-plans-cheaper/ | India ~INR 4,000–5,000/yr (est.) |
 | S31 | Sensor Tower, "State of Language Apps Europe 2022" | https://sensortower.com/blog/state-of-language-apps-europe-2022 | >40 % category spend concentration |
+| S32 | App Store listings of citizenship-test practice apps (examples); migrando.de app page. **Accessed 2026-11-27** via search results | https://apps.apple.com/us/app/id6751337485 · https://apps.apple.com/us/app/-/id6630392662 · https://apps.apple.com/us/app/id6743324736 · https://migrando.de/einbuergerungstest-app/ | Crowded field of apps built on the official BAMF catalogue; several say they are not a government agency (§8) |
+| S33 | myengineeringbuddy.com, "Duolingo reviews, pricing, alternatives 2026" (third-party blog). **Accessed 2026-11-27** via search summary, verify | https://www.myengineeringbuddy.com/blog/duolingo-reviews-pricing-alternatives-2026/ | "Explain My Answer" reportedly free for all users since January 2026 (secondary, verify) |
+| S34 | Duolingo blog "Energy" (re-checked); change.org petitions "Hearts, not energy". **Accessed 2026-11-27** via search results | https://blog.duolingo.com/duolingo-energy/ · https://www.change.org/p/duolingo-hearts-not-energy | No official 2026 change to the free energy system found; petitions still online |
+
+---
+
+## 8. Refresh 2026-11-27 (v0.5.4)
+
+Small, targeted refresh for MKT-002. Three searches only; the full monthly refresh is due by
+2026-12-20.
+
+1. **Free play: our differentiator still holds (est.).** We found no official 2026 change to the
+   market leader's energy system for free users; the 2025 blog post and petitions are still
+   online [S34]. "Practice is never locked" stays a valid message. Smart review (v0.5.5) is free
+   with no cap (PD-071 §2), which extends it.
+2. **Explanations are less unique.** A third-party blog reports that the leader's answer
+   explanations became free for all users in January 2026 [S33, secondary, verify before use].
+   "A tip before every lesson" is still true for us, but we should not imply that others don't
+   explain answers. Logged under "Considered" in `feature-proposals.md`.
+3. **Citizenship-test practice is crowded.** Many App Store apps offer practice on the official
+   BAMF question catalogue, several with "not a government agency" disclaimers [S32]. Our search
+   found **no clear statement of the catalogue's reuse terms** (whether it counts as an official
+   work free of copyright was not confirmed). The Einbürgerungstest course on `main` uses the
+   catalogue verbatim and one third-party photo (PD-075, PD-076). Implications: weak
+   acquisition hook, real licence question; owner item A7 (`waiting-on-owner.md`).
+4. **No new numbers for public copy.** All public figures in the kit still come from §7 S1–S31
+   (accessed 2026-11-20); re-check them on the day of sending.
