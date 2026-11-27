@@ -1,6 +1,9 @@
 # Polyglow Roadmap
 
-**Owner:** pm · **Last updated:** 2026-11-26 (FIX-014 accepted, so PLT-027 is accepted and
+**Owner:** pm · **Last updated:** 2026-11-27 (release acceptance PM-ACC6: v0.5.5 "Smart
+review" ready for release, all eight tickets accepted incl. CTO-020; FIX-015 and CTO-021 are
+non-blocking follow-ups, PD-083; exam-prep courses hidden at public launch unless cleared,
+PLT-030 planned, PD-084). Before that 2026-11-26 (FIX-014 accepted, so PLT-027 is accepted and
 v0.5.4 "Goal date" is ready for release; and PM-012: v0.5.5 "Smart review" tickets written,
 CTO-019, GAM-015, LES-023, PLT-029; CTO-018 completed; GAM-014 and PLT-028 written; parallel
 build plan; PD-079 … PD-082). Before that 2026-11-25 (release acceptance PM-ACC5: in v0.5.4 "Goal
@@ -437,8 +440,13 @@ release** since 2026-11-26: FIX-014 is accepted, so PLT-027 counts as accepted.
 
 ### v0.5.5 — Smart review (tickets written 2026-11-26, PM-012; PD-071, PD-078 … PD-082)
 
-**Milestone status: open** (all seven tickets written, none started). Local only; needs no
-backend.
+**Milestone status: ready for release** (2026-11-27, PM-ACC6,
+`tickets/PM-ACC6-v0.5.5-acceptance.md`). All eight tickets are **accepted** on `main`
+`6bb29a4` (cto e2e 164/164 on a production build, mobile-chrome / desktop-chrome / pwa-prod).
+PLT-029 AC 10 ("Back" label on the review error state) moved to **FIX-015** (P2, not
+blocking, PD-083). The deprecated `SettingsPatch.goalPlan` is removed by **CTO-021** before
+v0.6.0 sync (not blocking). Only the cto release checklist remains (`chore/release-v0.5.5`).
+Local only; needs no backend.
 
 **Goal:** Practice gets a "Review" session built from the exercises the learner already
 answered and got wrong or hasn't seen for a while (spaced repetition: 1, 3, 7, 14, 30 days),
@@ -450,20 +458,23 @@ gets its own goal plan (PD-078) before v0.6.0's settings sync.
 
 | ID | Title | Owner | Priority | Depends on |
 |---|---|---|---|---|
-| CTO-019 | Per-exercise outcomes on `LessonResult` (or ADR's table), review-result kind, `ReviewItem`, `SelectReviewItems`, `reviewSessionSize`, `reviewIntervalsDays`, `REVIEW_EXERCISE_TYPES`, Supabase column (open) | cto | P1 | CTO-015, CTO-018 |
-| GAM-015 | `selectReviewItems` rule, review results count XP but never complete a lesson, `useReviewQueue`, Practice "Review" card (open) | dev-gamification | P1 | CTO-019, GAM-012 |
-| LES-023 | Outcomes in every finished result, review mode in the player (practice rules, "Review" label), review results screen ("Review more") (open) | dev-lessons | P1 | CTO-019, LES-020, LES-021, LES-022 |
-| PLT-029 | `/review` route (load items, empty / error / offline), save outcomes with the result, guest-migration payload, e2e (open) | dev-platform | P1 | CTO-019, GAM-015, LES-023, PLT-025 |
+| CTO-019 | Per-exercise outcomes on `LessonResult`, review-result kind, `ReviewItem`, `SelectReviewItems`, `reviewSessionSize`, `reviewIntervalsDays`, `REVIEW_EXERCISE_TYPES`, Supabase column (accepted 2026-11-27, #115) | cto | P1 | CTO-015, CTO-018 |
+| GAM-015 | `selectReviewItems` rule, review results count XP but never complete a lesson, `useReviewQueue`, Practice "Review" card (accepted 2026-11-27, #119) | dev-gamification | P1 | CTO-019, GAM-012 |
+| LES-023 | Outcomes in every finished result, review mode in the player (practice rules, "Review" label), review results screen ("Review more") (accepted 2026-11-27, #116) | dev-lessons | P1 | CTO-019, LES-020, LES-021, LES-022 |
+| PLT-029 | `/review` route (load items, empty / error / offline), save outcomes with the result, guest-migration payload, e2e (accepted 2026-11-27, #120; AC 10 → FIX-015) | dev-platform | P1 | CTO-019, GAM-015, LES-023, PLT-025 |
+| CTO-020 | Exercise-id uniqueness documented as a review guarantee (content test, contracts, ADR-019 §5) (accepted 2026-11-27, #123; ticket file written after the merge) | cto | P1 | CTO-008, CTO-019 |
+| FIX-015 | The review error state says "Back", not "Back to Learn" (open, **not blocking**, PD-083; next milestone) | dev-lessons (+ one line dev-platform) | P2 | LES-023, PLT-029 |
 
 **Per-course goal plan (PD-078, PD-082), contract first:**
 
 | ID | Title | Owner | Priority | Depends on |
 |---|---|---|---|---|
-| CTO-018 | A goal plan per course: contract, stored-data migration, `goalPlanFor` selector, Supabase column, LWW note (open) | cto | P1 | CTO-017, FIX-014 |
-| GAM-014 | `useGoalPlan({ courseId })` reads that course's plan (open) | dev-gamification | P1 | CTO-018, GAM-013 |
-| PLT-028 | Profile row and dialog read / write the active course's plan; results row uses the lesson's course; switch-course e2e (open) | dev-platform | P1 | CTO-018, GAM-014, FIX-014 |
+| CTO-018 | A goal plan per course: contract, stored-data migration, `goalPlanFor` selector, Supabase column, LWW note (accepted 2026-11-27, #114) | cto | P1 | CTO-017, FIX-014 |
+| GAM-014 | `useGoalPlan({ courseId })` reads that course's plan (accepted 2026-11-27, #117) | dev-gamification | P1 | CTO-018, GAM-013 |
+| PLT-028 | Profile row and dialog read / write the active course's plan; results row uses the lesson's course; switch-course e2e (accepted 2026-11-27, #118) | dev-platform | P1 | CTO-018, GAM-014, FIX-014 |
+| CTO-021 (planned) | Remove the deprecated `SettingsPatch.goalPlan` write path (ADR-018 §5). Not blocking v0.5.5; **must merge before PLT-010 / PLT-014** (PD-083) | cto | P1 | PLT-028 |
 
-CTO-018 must merge **before** v0.6.0's settings sync (PLT-010 / PLT-014).
+CTO-018 must merge **before** v0.6.0's settings sync (PLT-010 / PLT-014). Done (#114).
 
 **Parallel build plan**
 - **Wave 0 (cto, one session, in order):** **CTO-018**, then **CTO-019** (both edit
@@ -481,9 +492,17 @@ CTO-018 must merge **before** v0.6.0's settings sync (PLT-010 / PLT-014).
   owner.
 - **Ready for release** when the seven tickets are accepted. v0.5.5 doesn't block v1.0.0;
   CTO-018 (and in practice CTO-019, whose outcomes ride on synced results) must be on `main`
-  before PLT-010 / PLT-014 start.
+  before PLT-010 / PLT-014 start. **Met on 2026-11-27** (PM-ACC6), with CTO-020 as an eighth
+  accepted ticket.
+
+**Release checklist (cto):** CI green on the release commit (e2e incl. `pwa-prod`);
+`CHANGELOG.md` 0.5.5 (Smart review, per-course goal plans; note that review history starts
+empty and fills as learners finish lessons, PD-080; FIX-015 listed as known); `package.json`
+`0.5.4 → 0.5.5`; tag `v0.5.5`. Supabase migrations stay un-run on hosted Supabase.
 
 ### v0.5.6 — Life in Germany topics (planned, PD-071)
+
+Carries **FIX-015** (review error label, P2, PD-083) from v0.5.5.
 
 **Goal:** a "Topics" list (registering an address, the doctor, the supermarket, the train,
 the flat, work, letters) that shows the matching A1 / A2 lessons with their path state;
@@ -599,7 +618,8 @@ The pm writes the ticket files for PLT-010 … PLT-018 before the devs start the
 The goal plan (v0.5.4) travels with settings; CTO-017 AC 7 says where its column is added.
 From v0.5.5 it is one plan per course (CTO-018, PD-078), merged before PLT-010 / PLT-014.
 Lesson results carry per-exercise outcomes and a review kind from v0.5.5 (CTO-019); PLT-014
-uploads them with the result, unchanged.
+uploads them with the result, unchanged. **CTO-021** (remove `SettingsPatch.goalPlan`,
+PD-083) is merged before PLT-010 / PLT-014 start.
 Marketing proposal #2 (PD-071): v0.6.0 stays the top engineering priority the day the owner
 provides hosted Supabase; the public URL is an owner item.
 
@@ -631,7 +651,9 @@ written after v0.6.0 starts.
 | PLT-020 | Draft terms and privacy pages, 13+ notice | dev-platform |
 | PLT-021 | Accessibility audit (findings become `fix/` tickets per owner). Inputs from the v0.2.0 review: is "Exercise 1 of N" announced on the first exercise (LES-002 AC13 note)? The storage notice uses non-token colours and a text "Dismiss" button (PLT-003 note) | dev-platform |
 | PLT-022 | Performance budget and Lighthouse mobile ≥ 90 | dev-platform |
-| PLT-023 | E2E suite: guest first lesson, offline → sync, sign-up migration, out of hearts | dev-platform |
+| PLT-023 | E2E suite: guest first lesson, offline → sync, sign-up migration, out of hearts. Input from PM-ACC6: assert the first Practice lesson card starts above the fold with the Review card "due" (GAM-015 AC 14) | dev-platform |
+| PLT-030 (planned) | **Launch gate:** set `telc-b1-en-de` and `einbuergerung-en-de` to `hidden` in the course registry before the public URL goes live, unless the owner has cleared licence (A7) and names (A8) for that course; devices already on them keep them (as en-es, PD-030). Trigger: public URL scheduled (PD-084) | dev-platform (registry with the cto) |
+| CON-(tbd) (planned, conditional) | Rename the exam-prep courses ("German B1 Intensive", "Life in Germany: Citizenship Questions") and add the "not affiliated" line, only if A7 is cleared and A8 doesn't allow the exam names (PD-084) | pm |
 | CON-004 | Spanish Unit 1 QA, speak exercises, final audio references. **Deferred** while Spanish is hidden (PD-030); only the `u1-l2-ex07` wording fix stays, as a small content fix | pm |
 | CON-DE-SPK | German A1–A2 speak exercises and final `de-DE` audio references (with LES-011) | pm |
 | CON-DE-NR | Native-speaker review of A1 + A2 fixed (blocking for launch, PD-038). Prep: the A2 QA's scripted follow-ups (lexical token scan, word-bank permutation check) run before the reviewer starts (PM-ACC3) | pm |
