@@ -20,7 +20,7 @@ mocks or placeholders and swap in the final answer when it arrives.
 | PRD Q7: TTS licence for pre-generated audio | Placeholder/mock audio files (or locally generated dev-only audio) not shipped to production | PRD §9 |
 | Native-speaker review of German content (A1 and A2) | pm self-review against CDS-1…13 (A2: CDS-1…19); "needs native review" lists kept in CON-DE-A1-QA and CON-DE-A2-QA | PD-038, PD-047 |
 | Legal check of mentioning exam names in marketing | No exam brand names in the app or store copy | PD-035 |
-| Hosted Supabase project and a public URL / domain | Guest mode only; v0.6.0 and everything that needs a server or a public link waits | PD-054, PD-071 |
+| Hosted Supabase project and a public URL / domain. Concretely (PD-087): **O1** create a project at supabase.com and give the Project URL and the anon (public) key, never the service-role key or the database password; **O2** add the migration secrets to GitHub yourself or run the runbook; **O3** Google OAuth client entered in the Supabase dashboard yourself; **O4** the app's URL; **O5** a custom email sender before the public launch | Guest mode only in production. v0.6.0 part A (accounts and sync) is built and accepted against a **local** Supabase and stays dark (accounts flag off) until O1, O2 and O4 are done; then CTO-024 | PD-054, PD-071, PD-085, PD-087 |
 | Whether to charge at all; payment provider, legal set-up (Impressum, privacy, terms, withdrawal, cancel button), VAT, price approval | Free, no ads, no payments; no paywall, entitlement or price in the app | PD-072 |
 
 ---
@@ -1639,3 +1639,196 @@ together._
   settings shape for no known need.
 - **Trigger to revisit:** course switchers report a wrong start level or path after a switch.
 - **Reversibility:** High until v0.6.0, medium after (server column).
+
+## PD-083: v0.5.5 is released with two non-blocking follow-ups (FIX-015, CTO-021)
+
+- **Date:** 2026-11-27 (PM-ACC6)
+- **Reason:** on `main` `6bb29a4` all eight v0.5.5 tickets pass every criterion except
+  PLT-029 AC 10. On `/review` the error state's second button says "Back to Learn" but goes
+  to `/practice`; the ticket asks for "Back". Separately, ADR-018 §5 says the deprecated
+  `SettingsPatch.goalPlan` is removed right after PLT-028 merges, and it is still in the type.
+- **Decision:**
+  1. **v0.5.5 is ready for release.** PLT-029 is accepted with AC 10 moved to **FIX-015**
+     (dev-lessons + one line by dev-platform, P2), scheduled for the next milestone.
+  2. **CTO-021** (cto, P1, planned): remove `SettingsPatch.goalPlan` and its doc comment. It
+     doesn't block v0.5.5 but **must merge before PLT-010 / PLT-014 start**, so the v0.6.0
+     sync never carries a legacy write. The schema field `Settings.goalPlan` stays until
+     the release after sync is live, as ADR-018 §5 says.
+- **Rationale:** the label is wrong only in a rare error state (the queue or every lesson
+  failed to load), the button leads to a sensible screen, and nothing is lost. That is like
+  PD-070 (a README) and unlike PD-077 (a dead link on the first screen for every
+  Einbürgerungstest learner). No feature writes `SettingsPatch.goalPlan` any more, so
+  learners can't notice it; the risk is only for future sync code, which CTO-021 removes in
+  time.
+- **Alternatives considered:** hold the release for FIX-015 (delays a working retention
+  feature for one word); fix the label inside the release PR (crosses dev lanes in a cto
+  PR); leave `SettingsPatch.goalPlan` until v0.6.0 (a sync author could use the wrong write
+  path). Rejected.
+- **Reversibility:** n/a (process decision).
+
+## PD-084: The exam-prep courses before a public launch (MKT-002)
+
+- **Date:** 2026-11-27 (PM-013, on `docs/marketing/feature-proposals.md` §11 and
+  `waiting-on-owner.md` A7 / A8)
+- **Reason:** "telc B1 Exam Prep" (`telc-b1-en-de`) and "Einbürgerungstest"
+  (`einbuergerung-en-de`) are available on `main` since v0.5.4 (PD-073, owner request).
+  - **Names:** their course titles, the level title "B1 · telc exam" and the description
+    "every part of the telc Deutsch B1 exam" name exams in in-app copy, which PD-035 forbids.
+    PD-073 was an owner-requested exception for the courses' existence, not a decision on
+    public copy.
+  - **Licences:** the telc material was imported from the owner's own web app, and nobody has
+    confirmed that it contains no exam-provider material. Einbürgerungstest uses the BAMF
+    Gesamtfragenkatalog text and pictures, including the third-party Bundestag photo on Q55
+    (PD-076 open question). Both licences are **owner items** (A7); the name check is the
+    PD-035 owner item (A8).
+  - A public URL publishes every available course, whether or not marketing mentions it.
+- **Decision:**
+  1. **Default: hide both courses at public launch.** Before the public URL goes live (v1.0.0
+     launch gate, or earlier if the owner publishes a URL sooner), both courses are set to
+     `hidden` in the course registry, the same mechanism as `en-es` (PD-030): not offered in
+     onboarding or Profile → Course. A device that already uses one of them keeps it, as for
+     Spanish guests. Planned ticket **PLT-030** (dev-platform with the cto, v1.0.0 gate).
+  2. **They come back only when both owner items are done for that course:**
+     - **A7 (licence) cleared:** the owner confirms in `OWNER-NOTES.md` that the content may be
+       published (for Einbürgerungstest including the pictures; or the Q55 photo is replaced by
+       a freely licensed one or dropped, PD-076). Without this a course stays hidden whatever
+       its name; a rename doesn't fix a licence.
+     - **A8 (names) answered:** if the owner's legal check allows the exam names, the titles
+       stay and each course gets one line on its first lesson and in Profile → Course: "Not
+       affiliated with the exam provider or any authority. Check official sources for the
+       current rules." If the check doesn't allow them, or there is no answer, the pm renames
+       them in `/content` (CON ticket at that time): working titles **"German B1 Intensive"**
+       (with level title "B1 · Intensive" and a description without exam names) and
+       **"Life in Germany: Citizenship Questions"**, with the same "not affiliated" line.
+  3. **Until launch nothing changes:** both courses stay available on today's private build
+     (the owner uses them), and v0.5.5 isn't affected. Marketing keeps them out of all public
+     copy and screenshots (`positioning.md` §5b) until point 2 is done.
+  4. PD-035 stays the rule for public copy. Any future exam-named course needs the same two
+     checks before it is public.
+- **Rationale:** both risks (trademark names, copyright in imported or official material) are
+  legal, can't be fixed by the team, and the owner may need time. Hiding is one registry flag,
+  fully reversible, keeps the owner's own use, and leaves the launch on the courses we wrote
+  ourselves (A1 + A2, PD-036). Marketing also found the citizenship-test field crowded with
+  apps using the same catalogue (`feature-proposals.md` §11), so the courses are a weak
+  acquisition hook compared with the risk.
+- **Alternatives considered:** keep them public with a disclaimer only (doesn't solve
+  licences or PD-035); rename now (rewrites the owner's course before the legal answer, and
+  still leaves the licence question); delete them (loses owner-requested content that may
+  well be cleared). Rejected.
+- **Reversibility:** High (registry flag and course titles).
+
+## PD-085: Build order: v0.6.0 part A (local Supabase) first, v0.5.6 in parallel where lanes allow
+
+- **Date:** 2026-11-28 (PM-014)
+- **Reason:** v0.5.5 is released (`main` d349f82). The owner asked whether progress carries over
+  between devices. It doesn't: progress is guest-only and stored on the device. v0.6.0 was
+  treated as blocked on the owner's hosted Supabase (PD-071), but the schema, RLS and the
+  guest-migration RPC exist and run on a **local** Supabase (`supabase/config.toml`), so most
+  of v0.6.0 can be built and tested without the owner. v0.5.6 "Life in Germany topics" is small
+  and local.
+- **Decision:**
+  1. **Priority:** v0.6.0 **part A** (CTO-025, PLT-010 … PLT-018, built and accepted against a
+     local Supabase) is the top engineering priority. **Part B** (CTO-024 on the owner's hosted
+     project) starts the day the owner items O1, O2 and O4 are done (PD-087).
+  2. **v0.5.6 runs in parallel** in the lanes v0.6.0 doesn't use: pm (CON-005), dev-gamification
+     (GAM-016). It shares two lanes, so: the **cto** does CTO-025 first and CTO-023 right after,
+     in the same run (CTO-023 is small and is the only thing dev-gamification waits for);
+     **dev-platform** adds GAM-016's one route file between two PLT tickets and never lets it
+     delay PLT-013 / PLT-014.
+  3. **Releases follow readiness, not build order.** v0.5.6 is released when CON-005, CTO-023 and
+     GAM-016 are accepted (FIX-015 is already merged, #127), most likely before v0.6.0, because
+     v0.6.0 is only released after CTO-024's hosted smoke test. v0.6.0 part A merges into
+     `main` dark (accounts flag off without the keys), so nothing changes for learners in the
+     meantime.
+  4. v0.7.0 "Habit protection" still starts after v0.6.0 (PD-071).
+- **Rationale:** accounts answer the owner's question and are the launch blocker with the
+  highest score in `feature-proposals.md` (rank 1, A3 R4 Rev5). Building part A now means the
+  owner's keys unlock a tested feature within one cto session instead of starting a long build.
+  Topics (rank 3, effort S) need no server and use other lanes, so running them in parallel
+  costs v0.6.0 nothing but a short cto ticket and one route file.
+- **Alternatives considered:** v0.5.6 first, then v0.6.0 (leaves dev-platform idle and answers
+  the owner later); v0.6.0 only, topics after (dev-gamification and the pm idle for the whole
+  milestone); wait for the owner's keys before any v0.6.0 work (the state before today, which
+  is what made the owner ask). Rejected.
+- **Reversibility:** High (scheduling only).
+
+## PD-086: Life in Germany topics: where the list goes and its product rules (v0.5.6)
+
+- **Date:** 2026-11-28 (PM-014, on PD-071 #5)
+- **Decision:**
+  1. **Place:** a **"Life in Germany" card on the Practice tab** (below the Review card) opens a
+     new screen **`/topics`**. Not a section in Learn: the path auto-scrolls to the frontier
+     (FIX-009), so a section above it is rarely seen, and a list inside the path would compete
+     with the level headers. Not a fifth tab: the 4-tab nav is the owner's design (PD-066).
+     Practice is already the tab where learners choose what to play.
+  2. **7 topics** for `en-de`: registering your address, at the doctor's, at the supermarket,
+     bus and train, your flat, work, letters and forms. Existing A1 / A2 lessons only (CON-005);
+     no new content. Other courses have no topics and show no card.
+  3. **Path state, one rule:** each lesson shows Done / Up next / Open / Locked from the same
+     `computePathNodes` result as Learn, incl. the start level. **Locked lessons stay locked**
+     (PD-064): no link, no "Start here" on this screen. A playable lesson opens the same
+     `/lesson/<id>` URL as from the path.
+  4. Topics are course data owned by the pm if the cto agrees (CTO-023, pm preference: a
+     separate file per course); limits: 3–12 lessons a topic, a lesson in at most 2 topics, no
+     checkpoints.
+  5. Not now: returning to `/topics` after a lesson, search, icons, B1 lessons (after v1.0.0),
+     public landing pages (v1.0.0, public URL).
+- **Rationale:** the smallest version that serves the "German for real life" pillar and the
+  newcomer personas (Sam, Priya) with content that already exists, in one long run: one small
+  contract, one data file, one screen.
+- **Alternatives considered:** a topic section at the top of Learn (rarely visible after
+  auto-scroll); topic filters on the path itself (changes the path, the most-used screen);
+  unlocking lessons from a topic (breaks PD-064 and the guided path). Rejected.
+- **Reversibility:** High (a card and a route; the data file can grow or shrink).
+
+## PD-087: v0.6.0 scope: local part A and hosted part B, accounts flag, merge rules, owner items
+
+- **Date:** 2026-11-28 (PM-014)
+- **Decision:**
+  1. **Split.** Part A (CTO-025, PLT-010 … PLT-018) is built, tested and accepted against a
+     local Supabase with no owner keys. Part B (CTO-024) connects the owner's hosted project,
+     applies the migrations and smoke-tests on it. **v0.6.0 is released only after part B**, so
+     the release really answers "does my progress carry over".
+  2. **Accounts flag.** Accounts are on only when the Supabase URL and anon key are set at build
+     time; otherwise the app is guest-only, shows no auth UI and sends no request to Supabase.
+     Google has its own flag. Part A can therefore merge into `main` without changing anything
+     for learners.
+  3. **Re-scoped tickets (IDs kept from the ROADMAP):**
+     - PLT-010 no longer contains log-out; log-out moves to PLT-017, which needs the sync engine
+       for its final sync and unsynced warning.
+     - PLT-014 is the push half of the sync engine; **PLT-015 becomes the pull half and the
+       second-device flow**. Its old scope, caching all German lessons and audio offline, moves
+       to **PLT-031** (planned, v1.0.0 with the TTS pipeline: lesson chunks are already
+       precached and German audio files don't exist yet).
+     - PLT-016 is an account card on the existing Profile (PLT-026), not a new Profile screen.
+     - PLT-017 drops the dark / light appearance row (light-only since PD-066).
+     - New: **CTO-025** (ADR-020, flags, local harness, merge rule), **CTO-024** (hosted project).
+  4. **Merge rules on log-in (product rules for ADR-020 and PLT-013):** lesson results are always
+     unioned, so no result is lost. On log-in a guest with no lesson results is not migrated
+     (the account's data is adopted), and a guest that never onboarded is never migrated. **No
+     goal plan or start level may be silently lost:** the cto decides the settings rule in
+     ADR-020 (pm preference: goal plans merge per course key, newer wins per key).
+  5. **Email confirmation is on** for the hosted project (prevents accounts on mistyped
+     addresses, which would also break password reset). The local stack keeps it off for fast
+     tests; the "check your inbox" state is tested as well (CTO-025 criterion 8).
+  6. **Save-your-progress prompt** after the 1st and the 5th finished lesson, then only in
+     Profile. Not in onboarding: sign-up there would slow the first lesson (PRD G1).
+  7. **Owner items** (also in "Waiting on owner"): **O1** create a Supabase project at
+     supabase.com (an EU region is suggested) and give the team only the **Project URL** and the
+     **anon (public) key**; never share the service-role key or the database password in chat.
+     **O2** add the migration secrets (access token, project ref, database password) as GitHub
+     Actions secrets yourself, or run the cto's runbook commands yourself. **O3** for Google:
+     create an OAuth client in Google Cloud and enter its ID and secret in the Supabase dashboard
+     yourself. **O4** the URL the app is served from. **O5** before the public launch only: a
+     custom email sender for auth emails.
+  8. **Account deletion** is not in v0.6.0 (the hosted project is used by the owner before
+     launch). It is planned as **PLT-032** in the v1.0.0 launch gate with the privacy page
+     (PLT-020), because learners must be able to delete their account before the public URL.
+- **Rationale:** everything that can be proven locally is proven before the owner's keys arrive;
+  the flag keeps `main` releasable; the merge rules protect the data the owner asked about.
+- **Alternatives considered:** release part A as v0.6.0 with the flag off (a release with no
+  visible change); build against mocks only (the RPC and RLS would be untested until hosted);
+  keep the ROADMAP's PLT-015 caching scope (no second-device ticket, and German audio doesn't
+  exist yet). Rejected.
+- **Reversibility:** High for scope and the flag; medium for merge rules once real accounts hold
+  data.

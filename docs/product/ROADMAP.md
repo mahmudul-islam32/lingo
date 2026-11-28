@@ -1,6 +1,13 @@
 # Polyglow Roadmap
 
-**Owner:** pm · **Last updated:** 2026-11-26 (FIX-014 accepted, so PLT-027 is accepted and
+**Owner:** pm · **Last updated:** 2026-11-28 (PM-014: v0.5.6 "Life in Germany topics" tickets
+CON-005, CTO-023, GAM-016 written, topics go on Practice → `/topics`; FIX-015 shipped (#127);
+v0.6.0 "Accounts and sync" tickets PLT-010 … PLT-018 written with CTO-025 (part A, local
+Supabase) and CTO-024 (part B, owner's hosted project), owner items O1 … O5; build order
+v0.6.0 part A first with v0.5.6 in parallel; PD-085 … PD-087). Before that 2026-11-27 (release acceptance PM-ACC6: v0.5.5 "Smart
+review" ready for release, all eight tickets accepted incl. CTO-020; FIX-015 and CTO-021 are
+non-blocking follow-ups, PD-083; exam-prep courses hidden at public launch unless cleared,
+PLT-030 planned, PD-084). Before that 2026-11-26 (FIX-014 accepted, so PLT-027 is accepted and
 v0.5.4 "Goal date" is ready for release; and PM-012: v0.5.5 "Smart review" tickets written,
 CTO-019, GAM-015, LES-023, PLT-029; CTO-018 completed; GAM-014 and PLT-028 written; parallel
 build plan; PD-079 … PD-082). Before that 2026-11-25 (release acceptance PM-ACC5: in v0.5.4 "Goal
@@ -437,8 +444,13 @@ release** since 2026-11-26: FIX-014 is accepted, so PLT-027 counts as accepted.
 
 ### v0.5.5 — Smart review (tickets written 2026-11-26, PM-012; PD-071, PD-078 … PD-082)
 
-**Milestone status: open** (all seven tickets written, none started). Local only; needs no
-backend.
+**Milestone status: ready for release** (2026-11-27, PM-ACC6,
+`tickets/PM-ACC6-v0.5.5-acceptance.md`). All eight tickets are **accepted** on `main`
+`6bb29a4` (cto e2e 164/164 on a production build, mobile-chrome / desktop-chrome / pwa-prod).
+PLT-029 AC 10 ("Back" label on the review error state) moved to **FIX-015** (P2, not
+blocking, PD-083). The deprecated `SettingsPatch.goalPlan` is removed by **CTO-021** before
+v0.6.0 sync (not blocking). Only the cto release checklist remains (`chore/release-v0.5.5`).
+Local only; needs no backend.
 
 **Goal:** Practice gets a "Review" session built from the exercises the learner already
 answered and got wrong or hasn't seen for a while (spaced repetition: 1, 3, 7, 14, 30 days),
@@ -450,20 +462,23 @@ gets its own goal plan (PD-078) before v0.6.0's settings sync.
 
 | ID | Title | Owner | Priority | Depends on |
 |---|---|---|---|---|
-| CTO-019 | Per-exercise outcomes on `LessonResult` (or ADR's table), review-result kind, `ReviewItem`, `SelectReviewItems`, `reviewSessionSize`, `reviewIntervalsDays`, `REVIEW_EXERCISE_TYPES`, Supabase column (open) | cto | P1 | CTO-015, CTO-018 |
-| GAM-015 | `selectReviewItems` rule, review results count XP but never complete a lesson, `useReviewQueue`, Practice "Review" card (open) | dev-gamification | P1 | CTO-019, GAM-012 |
-| LES-023 | Outcomes in every finished result, review mode in the player (practice rules, "Review" label), review results screen ("Review more") (open) | dev-lessons | P1 | CTO-019, LES-020, LES-021, LES-022 |
-| PLT-029 | `/review` route (load items, empty / error / offline), save outcomes with the result, guest-migration payload, e2e (open) | dev-platform | P1 | CTO-019, GAM-015, LES-023, PLT-025 |
+| CTO-019 | Per-exercise outcomes on `LessonResult`, review-result kind, `ReviewItem`, `SelectReviewItems`, `reviewSessionSize`, `reviewIntervalsDays`, `REVIEW_EXERCISE_TYPES`, Supabase column (accepted 2026-11-27, #115) | cto | P1 | CTO-015, CTO-018 |
+| GAM-015 | `selectReviewItems` rule, review results count XP but never complete a lesson, `useReviewQueue`, Practice "Review" card (accepted 2026-11-27, #119) | dev-gamification | P1 | CTO-019, GAM-012 |
+| LES-023 | Outcomes in every finished result, review mode in the player (practice rules, "Review" label), review results screen ("Review more") (accepted 2026-11-27, #116) | dev-lessons | P1 | CTO-019, LES-020, LES-021, LES-022 |
+| PLT-029 | `/review` route (load items, empty / error / offline), save outcomes with the result, guest-migration payload, e2e (accepted 2026-11-27, #120; AC 10 → FIX-015) | dev-platform | P1 | CTO-019, GAM-015, LES-023, PLT-025 |
+| CTO-020 | Exercise-id uniqueness documented as a review guarantee (content test, contracts, ADR-019 §5) (accepted 2026-11-27, #123; ticket file written after the merge) | cto | P1 | CTO-008, CTO-019 |
+| FIX-015 | The review error state says "Back", not "Back to Learn" (**shipped**, merged #127; carried into v0.5.6, PD-083) | dev-lessons (+ one line dev-platform) | P2 | LES-023, PLT-029 |
 
 **Per-course goal plan (PD-078, PD-082), contract first:**
 
 | ID | Title | Owner | Priority | Depends on |
 |---|---|---|---|---|
-| CTO-018 | A goal plan per course: contract, stored-data migration, `goalPlanFor` selector, Supabase column, LWW note (open) | cto | P1 | CTO-017, FIX-014 |
-| GAM-014 | `useGoalPlan({ courseId })` reads that course's plan (open) | dev-gamification | P1 | CTO-018, GAM-013 |
-| PLT-028 | Profile row and dialog read / write the active course's plan; results row uses the lesson's course; switch-course e2e (open) | dev-platform | P1 | CTO-018, GAM-014, FIX-014 |
+| CTO-018 | A goal plan per course: contract, stored-data migration, `goalPlanFor` selector, Supabase column, LWW note (accepted 2026-11-27, #114) | cto | P1 | CTO-017, FIX-014 |
+| GAM-014 | `useGoalPlan({ courseId })` reads that course's plan (accepted 2026-11-27, #117) | dev-gamification | P1 | CTO-018, GAM-013 |
+| PLT-028 | Profile row and dialog read / write the active course's plan; results row uses the lesson's course; switch-course e2e (accepted 2026-11-27, #118) | dev-platform | P1 | CTO-018, GAM-014, FIX-014 |
+| CTO-021 | Remove the deprecated `SettingsPatch.goalPlan` write path (ADR-018 §5). Not blocking v0.5.5; **must merge before PLT-010 / PLT-014** (PD-083). **Done** (on `main` before v0.6.0 starts, recorded in PM-014) | cto | P1 | PLT-028 |
 
-CTO-018 must merge **before** v0.6.0's settings sync (PLT-010 / PLT-014).
+CTO-018 must merge **before** v0.6.0's settings sync (PLT-010 / PLT-014). Done (#114).
 
 **Parallel build plan**
 - **Wave 0 (cto, one session, in order):** **CTO-018**, then **CTO-019** (both edit
@@ -481,15 +496,40 @@ CTO-018 must merge **before** v0.6.0's settings sync (PLT-010 / PLT-014).
   owner.
 - **Ready for release** when the seven tickets are accepted. v0.5.5 doesn't block v1.0.0;
   CTO-018 (and in practice CTO-019, whose outcomes ride on synced results) must be on `main`
-  before PLT-010 / PLT-014 start.
+  before PLT-010 / PLT-014 start. **Met on 2026-11-27** (PM-ACC6), with CTO-020 as an eighth
+  accepted ticket.
 
-### v0.5.6 — Life in Germany topics (planned, PD-071)
+**Release checklist (cto):** CI green on the release commit (e2e incl. `pwa-prod`);
+`CHANGELOG.md` 0.5.5 (Smart review, per-course goal plans; note that review history starts
+empty and fills as learners finish lessons, PD-080; FIX-015 listed as known); `package.json`
+`0.5.4 → 0.5.5`; tag `v0.5.5`. Supabase migrations stay un-run on hosted Supabase.
 
-**Goal:** a "Topics" list (registering an address, the doctor, the supermarket, the train,
-the flat, work, letters) that shows the matching A1 / A2 lessons with their path state;
-locked lessons stay locked (PD-064). The pm maps topics to lessons (CON ticket); a CTO
-ticket decides whether topics are course data; a GAM ticket builds the list. Public topic
-landing pages wait for the public URL (v1.0.0).
+### v0.5.6 — Life in Germany topics (tickets written 2026-11-28, PM-014; PD-071, PD-085, PD-086)
+
+**Milestone status: open.** Tickets written; builds in parallel with v0.6.0 part A (PD-085).
+Local only; needs no backend.
+
+**Goal:** a "Life in Germany" screen (`/topics`, opened from a card on the **Practice** tab,
+PD-086) with 7 topics (registering your address, at the doctor's, at the supermarket, bus and
+train, your flat, work, letters and forms). Each topic lists its existing A1 / A2 lessons with
+the same path state as Learn (Done / Up next / Open / Locked); **locked lessons stay locked**
+(PD-064). No new content. Public topic landing pages wait for the public URL (v1.0.0).
+
+| ID | Title | Owner | Priority | Depends on |
+|---|---|---|---|---|
+| FIX-015 | Review error state says "Back" (**shipped**, merged #127; PM acceptance with this release) | dev-lessons (+ one line dev-platform) | P2 | LES-023, PLT-029 |
+| CTO-023 | Topics as course data? ADR-021, strict topic schema, content test (lesson ids exist, ≤ 2 topics a lesson), loader + query key, fixture | cto | P1 | CTO-008 |
+| CON-005 | Map 7 topics to existing `en-de` A1 / A2 lessons (draft mapping in the ticket; verify, then write the data file) | pm | P1 | CTO-023 (data file only) |
+| GAM-016 | Practice "Life in Germany" card, `/topics` screen with disclosure rows and each lesson's path state; dev-platform adds the route file (criterion 16) | dev-gamification (+ one file dev-platform) | P1 | CTO-023, GAM-011, GAM-012; CON-005 for real data |
+
+**Parallel build plan** (see also the combined plan under v0.6.0):
+- **Now:** the pm verifies the CON-005 mapping (criteria 1–5) against the lesson files.
+- **cto:** CTO-023 right after CTO-025, in the same run (PD-085).
+- **After CTO-023:** GAM-016 (dev-gamification) builds against the CTO-023 fixture; the pm
+  writes the CON-005 data file. dev-platform adds the `/topics` route file between two PLT
+  tickets.
+- **Ready for release** when CTO-023, CON-005 and GAM-016 are accepted and FIX-015 passes its
+  acceptance. Doesn't wait for v0.6.0 and doesn't block v1.0.0.
 
 ### Later German levels (planned)
 
@@ -569,39 +609,80 @@ Tech needs list and which units benefit from each type: `curriculum-german.md` �
 
 ---
 
-## v0.6.0 — Accounts and sync (formerly v0.4.0; **resumes now**, PD-054)
+## v0.6.0 — Accounts and sync (formerly v0.4.0; tickets written 2026-11-28, PM-014; PD-054, PD-085, PD-087)
 
-**Goal:** a guest can create an account (email or Google) without losing progress, and
-lessons finished offline sync reliably when the device reconnects.
+**Milestone status: open; top engineering priority (PD-085).** Part A is built and accepted
+against a **local Supabase**; part B waits on the owner's hosted project. Released only after
+part B's hosted smoke test (PD-087).
 
-It was paused on 2026-11-12 by the German pivot (PD-036). It resumed on 2026-11-15, when every
-German milestone through v0.5.0 was merged. Because A2 ships first as v0.5.0, this milestone
-is renumbered **v0.6.0**. The `v0.4.0` number is not used (PD-054). Ticket IDs don't change.
-- dev-platform starts with **PLT-010** and **PLT-015**. PLT-015 now covers caching all **130
-  German lessons** (A1 + A2) and their audio, not only Unit 1.
-- dev-lessons takes FIX-005 (P2) after #55.
-- dev-gamification takes FIX-003 first.
+**Goal:** a guest can create an account (email or Google) without losing progress, lessons
+finished offline sync when the device reconnects, and a learner can sign in on a second device
+and continue where they left off. Today progress is guest-only and stays on the device.
 
-The pm writes the ticket files for PLT-010 … PLT-018 before the devs start them.
+History: paused on 2026-11-12 by the German pivot (PD-036), renumbered from v0.4.0 (PD-054).
+Ticket IDs are kept; PLT-010, PLT-015, PLT-016 and PLT-017 are re-scoped (PD-087). CTO-018,
+CTO-019 and CTO-021 are done, so settings and results already have their final shape for sync.
+Already in place: schema, RLS and `migrate_guest_to_account` (`/supabase`, ADR-003), the Dexie
+sync queue that every write fills (`src/lib/offline`).
 
-| ID | Title | Owner |
-|---|---|---|
-| PLT-010 | Supabase client, email sign-up, log-in, log-out, session handling | dev-platform |
-| PLT-011 | Google sign-in | dev-platform |
-| PLT-012 | Password reset by email | dev-platform |
-| PLT-013 | "Save your progress" prompt and guest → account migration | dev-platform |
-| PLT-014 | Sync queue: idempotent upload of lesson results (no double XP) | dev-platform |
-| PLT-015 | Offline caching of Unit 1 lessons and audio, sync on reconnect | dev-platform |
-| PLT-016 | Profile screen (name, avatar, total XP, streaks, lessons, join date) | dev-platform |
-| PLT-017 | Settings screen (daily goal, sound, speaking exercises, appearance dark/light (PD-015), log out) | dev-platform |
-| PLT-018 | Onboarding "I already have an account" path | dev-platform |
+**Accounts flag (PD-087):** without the Supabase URL and anon key at build time the app stays
+guest-only with no auth UI and no request to Supabase. Part A merges into `main` dark.
 
-The goal plan (v0.5.4) travels with settings; CTO-017 AC 7 says where its column is added.
-From v0.5.5 it is one plan per course (CTO-018, PD-078), merged before PLT-010 / PLT-014.
-Lesson results carry per-exercise outcomes and a review kind from v0.5.5 (CTO-019); PLT-014
-uploads them with the result, unchanged.
-Marketing proposal #2 (PD-071): v0.6.0 stays the top engineering priority the day the owner
-provides hosted Supabase; the public URL is an owner item.
+**Part A — local Supabase, no owner keys**
+
+| ID | Title | Owner | Priority | Depends on |
+|---|---|---|---|---|
+| CTO-025 | ADR-020 (auth, push / pull, account switch, log-out), accounts and Google flags, `.env.example`, local harness + `accounts` e2e project, RLS / RPC tests, settings merge rule on log-in | cto | P0 | CTO-003, CTO-018, CTO-019, CTO-021 (done) |
+| PLT-010 | Supabase client, email sign-up and log-in screens, "check your inbox", offline state, session (`useSession`) | dev-platform | P0 | CTO-025 (e2e only) |
+| PLT-013 | "Save your progress" prompt (after lesson 1 and 5), guest → account migration, identity switch, nothing-lost e2e | dev-platform | P0 | PLT-010, CTO-025 |
+| PLT-014 | Sync engine push: triggers, idempotent upload, backoff, rejected vs. retried, 401 pause, one sync per device, `useSyncStatus` | dev-platform | P0 | CTO-025, PLT-010; PLT-013 (e2e) |
+| PLT-015 | Sync engine pull and second device: paged pull, merge (union / LWW), query refresh, two-device e2e (re-scoped; caching → PLT-031) | dev-platform | P0 | PLT-014, PLT-013 |
+| PLT-017 | Log out with final sync and unsynced warning, fresh guest; Account rows in Profile settings (no appearance row) | dev-platform | P0 | PLT-010, PLT-014, PLT-015 |
+| PLT-012 | Password reset by email (no account enumeration; local mail UI e2e) | dev-platform | P1 | PLT-010, CTO-025 |
+| PLT-011 | Google sign-in: button behind its flag, `/auth/callback`, cancel / error copy, open-redirect guard (mocked provider; live check in CTO-024) | dev-platform | P1 | PLT-010, CTO-025 |
+| PLT-016 | Profile account card: guest "Save your progress", "Signed in as …", sync line (saved / saving / offline n / paused / log in again) | dev-platform | P1 | PLT-010, PLT-013, PLT-014 |
+| PLT-018 | Onboarding "I already have an account" → log in → skip onboarding, load the account's progress | dev-platform | P1 | PLT-010, PLT-013, PLT-015 |
+
+**Part B — the owner's hosted project**
+
+| ID | Title | Owner | Priority | Depends on |
+|---|---|---|---|---|
+| CTO-024 | Runbook, migrations on hosted, auth settings (email confirmation on), env in hosting, hosted smoke test incl. second device and Google | cto | P0 | O1, O2, O4 (O3 for Google); part A accepted |
+
+**Owner items (PD-087; nothing in part A waits for them):**
+- **O1** Create a project at supabase.com (an EU region is suggested). Give the team the
+  **Project URL** and the **anon (public) key** only. **Never share the service-role key or the
+  database password in chat.**
+- **O2** Let the cto apply migrations without sharing secrets: add the Supabase access token,
+  project ref and database password as GitHub Actions secrets yourself, or run the runbook
+  commands from CTO-024 yourself.
+- **O3** (for Google sign-in) Create an OAuth client in Google Cloud and enter its client ID and
+  secret in the Supabase dashboard yourself (Authentication → Providers → Google).
+- **O4** The URL the app is served from (preview or public), for sign-in redirects and email
+  links.
+- **O5** (before the public launch, not blocking v0.6.0) A custom email sender for auth emails.
+
+**Combined parallel build plan: v0.6.0 part A + v0.5.6 (PD-085)**
+- **Wave 0:** cto **CTO-025**, then **CTO-023** (v0.5.6) in the same run. dev-platform starts
+  **PLT-010** at once (screens, client, RTL; its e2e after CTO-025). pm verifies the CON-005
+  mapping.
+- **Wave 1 (after CTO-025):** dev-platform **PLT-013** → **PLT-014**. dev-gamification
+  **GAM-016** after CTO-023; pm writes the CON-005 data file. dev-platform adds the `/topics`
+  route file (GAM-016 criterion 16) between PLT-013 and PLT-014.
+- **Wave 2:** dev-platform **PLT-015** → **PLT-017**, then **PLT-012** and **PLT-011**.
+- **Wave 3:** dev-platform **PLT-016**, **PLT-018**. pm acceptance of part A on local Supabase.
+- **Part B (any time O1, O2, O4 are done):** cto **CTO-024**; pm re-checks the `accounts` e2e on
+  the hosted preview.
+- **Lanes:** dev-platform carries the critical path (PLT-010 → 013 → 014 → 015 → 017).
+  dev-gamification has GAM-016 only; dev-lessons has nothing in either milestone (FIX-005 or
+  v1.0.0 groundwork if capacity allows).
+- **Ready for release:** v0.5.6 when its three tickets are accepted (likely first). v0.6.0 when
+  every part A ticket is accepted on local Supabase **and** CTO-024 is accepted on the hosted
+  project. v0.7.0 starts after v0.6.0 (PD-071).
+
+The goal plan travels with settings as one plan per course (CTO-018); lesson results carry
+per-exercise outcomes and a review kind (CTO-019); PLT-014 uploads both unchanged. Marketing
+proposal #2 (PD-071): the public URL stays an owner item (O4).
 
 ---
 
@@ -631,7 +712,11 @@ written after v0.6.0 starts.
 | PLT-020 | Draft terms and privacy pages, 13+ notice | dev-platform |
 | PLT-021 | Accessibility audit (findings become `fix/` tickets per owner). Inputs from the v0.2.0 review: is "Exercise 1 of N" announced on the first exercise (LES-002 AC13 note)? The storage notice uses non-token colours and a text "Dismiss" button (PLT-003 note) | dev-platform |
 | PLT-022 | Performance budget and Lighthouse mobile ≥ 90 | dev-platform |
-| PLT-023 | E2E suite: guest first lesson, offline → sync, sign-up migration, out of hearts | dev-platform |
+| PLT-023 | E2E suite: guest first lesson, offline → sync, sign-up migration, out of hearts. Input from PM-ACC6: assert the first Practice lesson card starts above the fold with the Review card "due" (GAM-015 AC 14) | dev-platform |
+| PLT-031 (planned) | Offline caching of all A1 + A2 German lessons and their audio (moved from PLT-015, PD-087); with the TTS pipeline, since German audio files don't exist yet | dev-platform |
+| PLT-032 (planned) | **Launch gate:** delete my account (Profile → Account, confirms, removes server data and the device data), with the privacy page PLT-020 (PD-087) | dev-platform (RPC / policy with the cto) |
+| PLT-030 (planned) | **Launch gate:** set `telc-b1-en-de` and `einbuergerung-en-de` to `hidden` in the course registry before the public URL goes live, unless the owner has cleared licence (A7) and names (A8) for that course; devices already on them keep them (as en-es, PD-030). Trigger: public URL scheduled (PD-084) | dev-platform (registry with the cto) |
+| CON-(tbd) (planned, conditional) | Rename the exam-prep courses ("German B1 Intensive", "Life in Germany: Citizenship Questions") and add the "not affiliated" line, only if A7 is cleared and A8 doesn't allow the exam names (PD-084) | pm |
 | CON-004 | Spanish Unit 1 QA, speak exercises, final audio references. **Deferred** while Spanish is hidden (PD-030); only the `u1-l2-ex07` wording fix stays, as a small content fix | pm |
 | CON-DE-SPK | German A1–A2 speak exercises and final `de-DE` audio references (with LES-011) | pm |
 | CON-DE-NR | Native-speaker review of A1 + A2 fixed (blocking for launch, PD-038). Prep: the A2 QA's scripted follow-ups (lexical token scan, word-bank permutation check) run before the reviewer starts (PM-ACC3) | pm |

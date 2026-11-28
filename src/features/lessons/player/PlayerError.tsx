@@ -5,12 +5,22 @@ import { Button, Card, Lumi } from "@/components/ui";
 
 export interface LessonPlayerErrorProps {
   onRetry: () => void;
-  /** Back to Learn (`/`). */
+  /** Called by the secondary button (the lesson route goes to Learn, `/`). */
   onBack: () => void;
+  /**
+   * Visible text, and so the accessible name (WCAG 2.5.3), of the secondary button.
+   * Default "Back to Learn". Pass "Back" when `onBack` does not go to Learn, e.g. on
+   * `/review`, where it goes to Practice (FIX-015).
+   */
+  backLabel?: string;
 }
 
 /** Error state (criterion 15): lesson couldn't load or has no counted exercises. */
-export function LessonPlayerError({ onRetry, onBack }: LessonPlayerErrorProps) {
+export function LessonPlayerError({
+  onRetry,
+  onBack,
+  backLabel = "Back to Learn",
+}: LessonPlayerErrorProps) {
   const headingRef = useRef<HTMLHeadingElement>(null);
   useEffect(() => {
     headingRef.current?.focus();
@@ -38,7 +48,7 @@ export function LessonPlayerError({ onRetry, onBack }: LessonPlayerErrorProps) {
             Try again
           </Button>
           <Button variant="secondary" size="lg" fullWidth onClick={onBack}>
-            Back to Learn
+            {backLabel}
           </Button>
         </div>
       </Card>
