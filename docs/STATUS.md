@@ -56,6 +56,9 @@
   - O1 done (2026-11-28): project URL `https://puitzylpkxqnvbkkubyf.supabase.co`, publishable key
     `sb_publishable_BsyWb044n3gZP-p-WhhFXQ_vUq6JaJC`. Both are public values. Don't set them in a
     production build until v0.6.0 part A has passed acceptance (PD-087).
+  - Smoke test (2026-11-28): the project is reachable and the key works (auth health 200). Only
+    email login is on, with email confirmation required. No app tables yet, because no migrations
+    are applied (waits on O2).
   - Never share the service-role key or the database password.
   - O2: add `SUPABASE_ACCESS_TOKEN`, `SUPABASE_PROJECT_REF` and `SUPABASE_DB_PASSWORD` as GitHub
     Actions secrets yourself.
