@@ -15,4 +15,5 @@ export * from "./user";
 export * from "./gamification";
 export * from "./review";
 export * from "./sync";
+export * from "./auth";
 export type * from "./api";
