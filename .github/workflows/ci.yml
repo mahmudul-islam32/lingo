@@ -54,3 +54,50 @@ jobs:
             playwright-report/
             test-results/
           retention-days: 7
+
+  # CTO-025 (ADR-020 §9): database and auth tests against a LOCAL Supabase stack in Docker.
+  # Never touches a hosted project; the keys are the local stack's demo keys (masked).
+  accounts:
+    name: Accounts (local Supabase)
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - uses: supabase/setup-cli@v1
+        with:
+          version: latest
+      - name: Start the local Supabase stack
+        run: supabase start -x studio,imgproxy,edge-runtime,logflare,vector,realtime,storage-api,postgres-meta
+      - name: Export the local stack's URL and keys
+        run: |
+          supabase status -o json > /tmp/supabase-status.json
+          url=$(jq -r '.API_URL' /tmp/supabase-status.json)
+          anon=$(jq -r '.ANON_KEY // .PUBLISHABLE_KEY' /tmp/supabase-status.json)
+          service=$(jq -r '.SERVICE_ROLE_KEY // .SECRET_KEY' /tmp/supabase-status.json)
+          db=$(jq -r '.DB_URL' /tmp/supabase-status.json)
+          echo "::add-mask::$anon"
+          echo "::add-mask::$service"
+          {
+            echo "SUPABASE_URL=$url"
+            echo "SUPABASE_ANON_KEY=$anon"
+            echo "SUPABASE_SERVICE_ROLE_KEY=$service"
+            echo "SUPABASE_DB_URL=$db"
+          } >> "$GITHUB_ENV"
+          rm /tmp/supabase-status.json
+      - name: Database tests (RLS, guest migration, settings merge)
+        run: npm run test:db
+      - name: Install Playwright
+        run: npx playwright install chromium
+      - name: Accounts tests (auth and REST API)
+        run: npm run test:e2e:accounts
+        env:
+          CI: "true"
+          ACCOUNTS_REQUIRED: "1"
+      - name: Stop the local Supabase stack
+        if: always()
+        run: supabase stop --no-backup
