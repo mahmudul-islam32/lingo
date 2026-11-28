@@ -1,46 +1,62 @@
 # Project status
 
-**Last update:** 2026-11-27 ~04:05 Europe/Berlin (scheduled 01:00 run)
-**Version on `main`:** **0.5.5** (#125: smart review) · **Course:** German A1 + A2 on `main`;
-B1 Units 1–13 written (unmerged by plan, PD-063)
+**Last update:** 2026-11-28 ~03:35 Europe/Berlin (scheduled 01:00 run)
+**Version on `main`:** **0.5.5** (#125: smart review) + unreleased groundwork for v0.5.6 and v0.6.0 ·
+**Course:** German A1 + A2 on `main`; B1 Units 1–13 written (unmerged by plan, PD-063)
 
 ## Where things stand
-- **v0.5.5 "Smart review" released (#125, `c23df26`).** A Review card in Practice and a `/review`
-  session replay the exercises you answered, spaced at 1/3/7/14/30 days. Each session has up to 10
-  exercises, is free and works at 0 hearts. It counts for XP and streak but never completes a
-  lesson. The goal date is now per course. #116–#120 and #123, pm acceptance PM-ACC6 (#124). Full
-  e2e 164/164 on a production build.
-- After the release: CTO-021 (#126) removed the deprecated `SettingsPatch.goalPlan`, and FIX-015
-  (#127) changed the review error button to "Back".
-- **Marketing:** MKT-002 (#122) refreshed the positioning and kit for v0.5.4, and added Smart
-  review drafts that can be posted now that v0.5.5 is out.
-- **Exam courses (PD-084):** telc B1 and Einbürgerungstest will be hidden before the public URL
-  goes live (PLT-030, a v1.0.0 gate) until the owner clears their licences and exam names.
+- **Tickets for v0.5.6 "Life in Germany topics" and v0.6.0 "Accounts and sync"** merged (PM-014,
+  #130): CON-005, CTO-023/024/025, GAM-016, PLT-010–018; PD-085 to PD-087 (accounts part A first,
+  on a local Supabase, while the hosted project waits on the owner).
+- **CTO-025 accounts groundwork (#131, ADR-020):**
+  - Accounts are off unless both Supabase variables are set. The app then makes zero Supabase
+    requests.
+  - CI gained an `accounts` job: a local Supabase, `npm run test:db` (RLS, migration, merge cases)
+    and `npm run test:e2e:accounts`.
+  - The guest-to-account migration now merges settings instead of replacing them. Goal plans
+    merge per course, the newer plan wins, and the start level is kept.
+- **CTO-023 topics as course data (#132, ADR-021):** a `topics.json` per course,
+  `ContentRepository.getTopics`, precached, with a fixture for GAM-016.
+- **Formatting:** CTO-022 (#128) added `npm run format:check` to CI.
+- **FIX-016 (#133):** the e2e accessibility check now waits for entrance animations to finish.
+- No app feature shipped this run. The cto's usage limit hit mid-run, so the dev tickets start next run.
 
 ## Handoff
-- **#128 CTO-022** (open): adds `docs/marketing` to `.prettierignore`. Update it on main, run CI and
-  merge. Then the pm formats 2 A1 lesson files, and the cto adds `format:check` to CI.
-- **v0.5.6 "Life in Germany topics"** (PD-071): the pm writes the tickets, then the build follows
-  the usual flow.
-- **Marketing:** check the Smart review drafts against the v0.5.5 CHANGELOG (checklist in social
-  post #13). Capture new screenshots for the shot list: the goal card, the goal dialog, the
-  results goal row and the Review card. Refresh the README for v0.5.4 and v0.5.5 (orchestrator).
-- **dev-platform:** precache lesson files per course instead of all 1,614 at install.
-- **B1 Wave 4:** Units 14–16 (with the B1 checkpoint) go on `docs/con-de-b1-units-13-16`, then
-  CON-DE-B1-QA. Merge after v1.0.0 (PD-063).
-- **v0.6.0 accounts and sync** waits for the owner's hosted Supabase. Its prerequisites CTO-018,
-  CTO-019 and CTO-021 are merged.
-- **v1.0.0:** PLT-030 (hide the exam courses), recorded audio (TTS licence), speaking, native review.
+- **dev-platform, v0.6.0 part A** (local Supabase, flags off): PLT-010 email auth, then PLT-013
+  guest→account migration, PLT-014 sync push, PLT-015 pull and second device, PLT-017 log out,
+  then PLT-012, PLT-011, PLT-016, PLT-018. Follow the ROADMAP waves and ADR-020. Also review the
+  ~40 lines the cto added in `src/lib/content` and `src/lib/query/keys.ts` (#132), and the
+  `/topics` route file for GAM-016.
+- **dev-gamification:** GAM-016, a Topics card on Practice and the `/topics` screen.
+- **pm:** CON-005, which maps topics to lessons in `content/courses/en-de/topics.json`. It also
+  needs one registration line in `BUNDLED_CONTENT.topics`, done by dev-platform or the cto; the
+  content test fails until it is added. Then pm acceptance and the v0.5.6 release.
+- **Flake:** `review.spec.ts:123` (offline review) failed 1 in 10 local runs. Assign it to dev-platform.
+- **cto:** switch the Supabase config from `auth.email.enable_signup` to `auth.email.enabled`
+  (CLI 3.4.0 deprecation). Part B (CTO-024) waits until the owner provides hosted Supabase.
+- **Carried over:**
+  - Marketing screenshots for v0.5.4 and v0.5.5, and the README refresh (orchestrator).
+  - Precaching lessons per course.
+  - B1 Wave 4: Units 14–16, then QA. These merge after v1.0.0.
+  - v1.0.0: PLT-030 (hide the exam courses), TTS licence, speaking, native-speaker review.
 
 ## Blockers
 - Usage limits end most runs early; agents are resumed after each reset.
 - Disk is tight (~3 GB free): delete `.next` and `test-results` in worktrees after use.
+- This container has no Docker. The real local Supabase stack runs only in the CI `accounts` job.
 
 ## Waiting on owner (non-blocking)
 - Tags and GitHub releases: `9d885c9` as `v0.5.0`, `3627efc` as `v0.5.2`, `11b5d2d` as
   `v0.5.3`, `6a84047` as `v0.5.4`, `c23df26` as `v0.5.5` (and `v0.1.0` / `v0.2.0`). Agents don't
   create tags or releases.
 - Go-ahead to delete merged branches (agents are blocked from deleting branches).
+- **Hosted Supabase for v0.6.0 part B (O1–O5):**
+  - Create the project in an EU region.
+  - Give the team only the project URL and the anon key. Never share the service-role key or the
+    database password.
+  - Add the migration secrets to GitHub Actions yourself.
+  - Set up a Google OAuth client and give the team the app URL.
+  - Later: a custom email sender.
 - **Exam courses (marketing A7/A8, PD-084):** confirm the source and licence of the telc B1
   content and the Einbürgerungstest catalogue, including the Q55 Bundestag photo. Also decide
   whether the exam names may be used publicly. Until then these courses are hidden at public launch.
@@ -49,7 +65,6 @@ B1 Units 1–13 written (unmerged by plan, PD-063)
   `docs/marketing/waiting-on-owner.md`.
 - Native-speaker review of German content: the lists are in each ticket's
   "Uncertainties / needs native review".
-- Hosted Supabase project and keys (v0.4.0, paused).
 - TTS provider licence (PRD Q7): German audio falls back to "Audio isn't available" + Skip.
 
 ## Run log
@@ -70,3 +85,4 @@ B1 Units 1–13 written (unmerged by plan, PD-063)
 - 2026-11-25 (owner "resume run"): v0.5.4 integrated, FIX-012/013 fixed owner-merge breakages, PM-011 rejected PLT-027 → FIX-014.
 - 2026-11-26 01:00 run: #111–#117 merged; **v0.5.4 released**; v0.5.5 contracts, LES-023 and GAM-014 merged; PLT-028/GAM-015/PLT-029 open (#118–#120).
 - 2026-11-27 01:00 run: PLT-028 CI fixed, #118–#127 merged; **v0.5.5 released**; MKT-002 kit refresh; PD-083/084; CTO-022 open (#128).
+- 2026-11-28 01:00 run: #128–#133 merged (PM-014 tickets, CTO-025 accounts groundwork + `accounts` CI job, CTO-023 topics data, `format:check` in CI, FIX-016). Cto hit the usage limit mid-run; dev tickets start next run.
