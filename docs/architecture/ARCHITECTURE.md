@@ -12,7 +12,8 @@
   [ADR-015 goal date](adr/ADR-015-goal-date.md),
   [ADR-018 goal plan per course](adr/ADR-018-goal-plan-per-course.md),
   [ADR-019 smart review outcomes](adr/ADR-019-smart-review-outcomes.md),
-  [ADR-020 accounts and sync engine](adr/ADR-020-accounts-and-sync-engine.md)
+  [ADR-020 accounts and sync engine](adr/ADR-020-accounts-and-sync-engine.md),
+  [ADR-021 topics](adr/ADR-021-topics.md)
 - Local Supabase harness: [local-supabase.md](local-supabase.md)
 - Proposed (B1 tech plan CTO-010): [ADR-010 typed answers](adr/ADR-010-typed-answers.md),
   [ADR-011 reading passages](adr/ADR-011-reading-passages.md),
@@ -319,6 +320,8 @@ split words; speech (`foldDiacritics`) folds umlauts and ß → ss. Speech local
   validates every file in CI and checks cross-file rules: one lesson file per manifest
   entry, matching `courseId`/`unitId`, and (when `CONTENT_REQUIRE_AUDIO=1`, enabled
   once audio exists) that every audio path exists under `public/`.
+- Topics (ADR-021): optional `content/courses/<courseId>/topics.json` (`CourseTopicsSchema`),
+  lessons of that course only, at most 2 topics per lesson; `ContentRepository.getTopics`.
 - `src/lib/content` loads lessons with dynamic `import()` per lesson so each lesson is a
   separate chunk, precached by the service worker. Bump `course.version` on every
   content change.

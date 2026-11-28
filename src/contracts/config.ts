@@ -89,6 +89,17 @@ export const CONTENT_RULES = {
   courseMaxUnits: 150,
   /** Lessons per course manifest, across all units. */
   courseMaxLessons: 2000,
+  /**
+   * Topics (CTO-023, ADR-021): `content/courses/<courseId>/topics.json`. Lengths keep a
+   * title on one line and a description on at most two at 375 px (CON-005 UX notes).
+   */
+  courseMaxTopics: 12,
+  topicTitleMaxLength: 30,
+  topicDescriptionMaxLength: 90,
+  topicMinLessons: 3,
+  topicMaxLessons: 12,
+  /** A lesson may be listed in at most this many topics of its course. */
+  lessonMaxTopics: 2,
   /** Cloze (ADR-009, CTO-009): 1–2 gaps marked with `CLOZE_GAP_MARKER`, 2–4 options each. */
   clozeMinGaps: 1,
   clozeMaxGaps: 2,

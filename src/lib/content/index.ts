@@ -35,6 +35,7 @@ export {
 export {
   ContentRepositoryProvider,
   courseQueryOptions,
+  topicsQueryOptions,
   lessonQueryOptions,
   useContentRepository,
   useCourse,

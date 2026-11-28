@@ -25,6 +25,8 @@ export const queryKeys = {
   contentAll: () => ["content"] as const,
   content: (courseId: string) => ["content", courseId] as const,
   lesson: (courseId: string, lessonId: string) => ["lesson", courseId, lessonId] as const,
+  /** CTO-023: `Topic[]` of a course (`ContentRepository.getTopics`). */
+  topics: (courseId: string) => ["topics", courseId] as const,
   profile: () => ["profile"] as const,
   syncStatus: () => ["sync-status"] as const,
 } as const;
