@@ -31,7 +31,7 @@ enabled = true
 port = 54323
 api_url = "http://127.0.0.1"
 
-[inbucket]
+[local_smtp]
 # Local email testing UI (sign-up confirmation, password reset).
 enabled = true
 port = 54324
@@ -54,8 +54,9 @@ minimum_password_length = 8
 [auth.email]
 enable_signup = true
 double_confirm_changes = true
-# Local only: skip email confirmation so dev sign-up is instant.
-enable_confirmations = false
+# CTO-025 / PD-087: confirmation on, as on hosted. Local mails land in the mail UI
+# (http://127.0.0.1:54324), see docs/architecture/local-supabase.md.
+enable_confirmations = true
 max_frequency = "1s"
 
 [auth.external.google]
