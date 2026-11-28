@@ -2,14 +2,8 @@ import { expect, test } from "@playwright/test";
 import { expectNoSeriousA11yViolations } from "../e2e/axe";
 import { GERMAN_LESSONS, playLesson, readLesson } from "../e2e/helpers/course";
 import { completeOnboarding } from "../e2e/onboarding-helpers";
-import {
-  PASSWORD,
-  SERVICE_ROLE_KEY,
-  createConfirmedUser,
-  signIn,
-  uniqueEmail,
-} from "./local-supabase";
-import { waitForAuthLink } from "./helpers/mail";
+import { PASSWORD, signIn, uniqueEmail } from "./local-supabase";
+import { createUserByMail, waitForAuthLink } from "./helpers/mail";
 import {
   accessToken,
   germanResult,
@@ -118,14 +112,9 @@ test("sign-up migrates the guest: nothing is lost (criterion 7)", async ({ page 
 });
 
 test.describe("into an existing account (criterion 11)", () => {
-  test.skip(
-    !SERVICE_ROLE_KEY && process.env.ACCOUNTS_REQUIRED !== "1",
-    "SUPABASE_SERVICE_ROLE_KEY (local stack only) is not set",
-  );
-
   test("results are unioned and total XP is the sum of all four", async ({ page }) => {
     const email = uniqueEmail("plt013-union");
-    await createConfirmedUser(email);
+    await createUserByMail(email, PASSWORD);
     const token = await signIn(email);
     const a = germanResult(0, "2026-11-20T10:00:00Z");
     const b = germanResult(1, "2026-11-20T10:10:00Z", { base: 10, bonus: 5 });

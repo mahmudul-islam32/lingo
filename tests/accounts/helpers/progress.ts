@@ -214,3 +214,78 @@ export async function logIn(page: Page, email: string, password: string): Promis
   await page.getByLabel("Password", { exact: true }).fill(password);
   await page.getByRole("button", { name: "Log in" }).click();
 }
+
+/** The device's sync queue records (IndexedDB `syncQueue`). */
+export async function deviceQueue(
+  page: Page,
+): Promise<{ id: string; kind: string; status: string }[]> {
+  return page.evaluate(
+    () =>
+      new Promise((resolve, reject) => {
+        const open = indexedDB.open("polyglow");
+        open.onerror = () => reject(open.error);
+        open.onsuccess = () => {
+          const db = open.result;
+          const all = db.transaction("syncQueue").objectStore("syncQueue").getAll();
+          all.onsuccess = () => {
+            db.close();
+            resolve(all.result as { id: string; kind: string; status: string }[]);
+          };
+          all.onerror = () => reject(all.error);
+        };
+      }),
+  );
+}
+
+/** Puts a queue record back (e.g. a result whose response was lost) and reloads. */
+export async function requeueResults(page: Page): Promise<number> {
+  return page.evaluate(
+    () =>
+      new Promise<number>((resolve, reject) => {
+        const open = indexedDB.open("polyglow");
+        open.onerror = () => reject(open.error);
+        open.onsuccess = () => {
+          const db = open.result;
+          const tx = db.transaction(["lessonResults", "syncQueue"], "readwrite");
+          const read = tx.objectStore("lessonResults").getAll();
+          let n = 0;
+          read.onsuccess = () => {
+            const now = new Date().toISOString();
+            for (const payload of read.result as { id: string }[]) {
+              n += 1;
+              tx.objectStore("syncQueue").put({
+                id: payload.id,
+                schemaVersion: 1,
+                status: "pending",
+                createdAt: now,
+                attemptCount: 0,
+                nextAttemptAt: now,
+                lastError: null,
+                kind: "lesson_result",
+                payload,
+              });
+            }
+          };
+          tx.oncomplete = () => {
+            db.close();
+            resolve(n);
+          };
+          tx.onerror = () => reject(tx.error);
+        };
+      }),
+  );
+}
+
+/** A fresh device logs in (nothing to migrate), then onboards as the account. */
+export async function freshAccountDevice(page: Page, email: string, password: string) {
+  await logIn(page, email, password);
+  await expect(page).toHaveURL(/\/onboarding$/, { timeout: 15_000 });
+}
+
+/** Total XP on Learn's header. */
+export async function learnTotalXp(page: Page): Promise<number> {
+  await page.goto("/");
+  const img = page.getByRole("img", { name: /^Total XP: \d+/ });
+  await expect(img).toBeVisible();
+  return Number((await img.getAttribute("aria-label"))!.match(/\d+/)![0]);
+}

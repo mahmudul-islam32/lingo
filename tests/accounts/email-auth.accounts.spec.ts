@@ -1,7 +1,7 @@
 import { expect, test, type Page } from "@playwright/test";
 import { expectNoSeriousA11yViolations } from "../e2e/axe";
-import { PASSWORD, SERVICE_ROLE_KEY, createConfirmedUser, uniqueEmail } from "./local-supabase";
-import { waitForAuthLink } from "./helpers/mail";
+import { PASSWORD, uniqueEmail } from "./local-supabase";
+import { createUserByMail, waitForAuthLink } from "./helpers/mail";
 import { AUTH_STORAGE_KEY, requireLocalStack } from "./helpers/stack";
 
 /**
@@ -57,14 +57,9 @@ test("sign up, confirm by mail, reload: still signed in", async ({ page }) => {
 });
 
 test.describe("existing user", () => {
-  test.skip(
-    !SERVICE_ROLE_KEY && process.env.ACCOUNTS_REQUIRED !== "1",
-    "SUPABASE_SERVICE_ROLE_KEY (local stack only) is not set",
-  );
-
   test("log in, then a reload keeps the session", async ({ page }) => {
     const email = uniqueEmail("plt010-login");
-    await createConfirmedUser(email);
+    await createUserByMail(email, PASSWORD);
     await page.goto("/log-in");
     await expect(page.getByRole("heading", { level: 1, name: "Welcome back" })).toBeVisible();
     await expectFitsSmallPhone(page);
@@ -80,7 +75,7 @@ test.describe("existing user", () => {
 
   test("a wrong password says the pair doesn't match", async ({ page }) => {
     const email = uniqueEmail("plt010-wrong");
-    await createConfirmedUser(email);
+    await createUserByMail(email, PASSWORD);
     await page.goto("/log-in");
     await page.getByLabel("Email").fill(email);
     await page.getByLabel("Password", { exact: true }).fill("not-the-password");

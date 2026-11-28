@@ -8,6 +8,7 @@ import { createLocalAccountStore, type LocalAccountStore } from "./account";
 import { openDexieStore, type OpenDexieOptions } from "./db";
 import { newUuid, systemClock } from "./ids";
 import { MemoryLocalStore } from "./memory-store";
+import { withQueueEvents } from "./queue-events";
 import {
   createLocalProfileRepository,
   createLocalProgressRepository,
@@ -32,6 +33,8 @@ export interface LocalSession {
   profile: LocalProfileRepository;
   progress: LocalProgressRepository;
   syncQueue: SyncQueueStore;
+  /** The raw store, for the sync engine's own transactions (PLT-014, PLT-015). */
+  store: LocalStore;
   /** Guest → account switch (PLT-013). */
   account: LocalAccountStore;
   close(): void;
@@ -46,15 +49,17 @@ export interface OpenLocalSessionOptions extends OpenDexieOptions {
 }
 
 function wire(
-  store: LocalStore,
+  rawStore: LocalStore,
   deps: RepositoryDeps,
   fallbackReason: string | null,
 ): LocalSession {
+  const store = withQueueEvents(rawStore);
   return {
     storage: { kind: store.kind, persistent: store.persistent, fallbackReason },
     profile: createLocalProfileRepository(store, deps),
     progress: createLocalProgressRepository(store, deps),
     syncQueue: createSyncQueueStore(store, deps.report),
+    store,
     account: createLocalAccountStore(store, deps),
     close: () => store.close(),
   };

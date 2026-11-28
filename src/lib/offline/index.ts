@@ -26,6 +26,9 @@ export {
   type StorageInfo,
 } from "./session";
 export type { SyncQueueStore } from "./sync-queue";
+export { onSyncQueueChanged } from "./queue-events";
+export { newUuid as newUuidForSync } from "./ids";
+export { CURRENT_KEY, SYNC_META_KEY, type LocalStore, type StoreTx } from "./store";
 export {
   buildGuestMigrationPayload,
   type AccountSwitchMode,

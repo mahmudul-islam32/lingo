@@ -71,3 +71,19 @@ export async function waitForAuthLink(
   await expect.poll(async () => (await ofType()).length, { timeout: 20_000 }).toBeGreaterThan(0);
   return (await ofType())[0]!;
 }
+
+/**
+ * A confirmed user without any admin key: sign up through the Auth API, then open the
+ * confirmation link from the mail UI (local stack only).
+ */
+export async function createUserByMail(email: string, password: string): Promise<void> {
+  const { authFetch } = await import("../local-supabase");
+  const res = await authFetch("/auth/v1/signup", {
+    method: "POST",
+    body: JSON.stringify({ email, password }),
+  });
+  expect(res.ok, await res.clone().text()).toBe(true);
+  const link = await waitForAuthLink(email, "signup");
+  const verify = await fetch(link, { redirect: "manual" });
+  expect(verify.status, "confirmation link").toBeLessThan(400);
+}

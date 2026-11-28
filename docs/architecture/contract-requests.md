@@ -26,6 +26,28 @@ features, follow-up PR
 
 ## Requests
 
+### CR-004: Sync trigger timings in `SYNC_CONFIG`
+
+- **Requested by:** dev-platform · **Date:** 2026-11-28 · **Ticket:** PLT-014 (also PLT-017)
+- **Status:** open
+- **Contract(s):** `src/contracts/config.ts` → `SYNC_CONFIG`
+- **Problem:** PLT-014 criterion 2 says the triggers use "the values from `SYNC_CONFIG`": a push
+  2 s after the last enqueue (debounced) and every 60 s while the page is visible. ADR-020 §7
+  adds a 30 s lease for browsers without Web Locks, and §8 / PLT-017 a 10 s limit for the
+  final sync before log-out. `SYNC_CONFIG` only has the retry backoff and `maxAttempts`.
+- **Proposed change:** add to `SYNC_CONFIG` (and a guard in a schema if wanted):
+  `pushDebounceMs: 2_000`, `pollIntervalMs: 60_000`, `lockLeaseMs: 30_000`,
+  `logOutSyncTimeoutMs: 10_000`, `requestTimeoutMs: 15_000`, `lessonResultBatchSize: 100`.
+- **Breaking?:** no (constants only; nothing persisted or synced changes).
+- **Workaround in place:** the same values live in `src/lib/sync/config.ts` (`SYNC_TIMINGS`)
+  with a note pointing here; the engine reads only that object, so switching to the contract
+  is a one-line change.
+- **Related question (no change requested):** ADR-020 §5 marks a record `rejected` when
+  `attemptCount >= SYNC_CONFIG.maxAttempts`, while PLT-014 criterion 4 says network errors,
+  timeouts and 5xx keep the record and only a 4xx validation / RLS error rejects it. The
+  engine follows the ticket (a server outage never turns a lesson result into a record that
+  is never sent again); `attemptCount` only drives the backoff. Please confirm or decide.
+
 ### CTO-017: Goal date (cto-initiated change notice)
 
 - **Requested by:** pm (PD-071 §1) · **Date:** 2026-11-21 · **Ticket:** CTO-017

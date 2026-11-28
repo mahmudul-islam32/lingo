@@ -10,6 +10,7 @@ import { ServiceWorkerRegistration } from "./_shell/ServiceWorkerRegistration";
 import { UpdateToast } from "./_shell/UpdateToast";
 import { APP_DESCRIPTION, APP_NAME, TITLE_TEMPLATE } from "./_shell/app-name";
 import { SkipLink } from "./_shell/SkipLink";
+import { SyncBootstrap } from "./_shell/SyncBootstrap";
 import { DEFAULT_THEME } from "./_shell/theme";
 import { Providers } from "./providers";
 import "./globals.css";
@@ -59,6 +60,7 @@ export default function RootLayout({ children }: Readonly<{ children: ReactNode 
           <SessionBootstrap />
           <AccountSwitchRetry />
           <DeviceDataBridge />
+          <SyncBootstrap />
           <AccountSwitchOverlay />
           {children}
         </Providers>
