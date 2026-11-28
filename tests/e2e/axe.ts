@@ -12,11 +12,35 @@ export interface A11yCheckOptions {
   knownIssues?: readonly string[];
 }
 
+/**
+ * FIX-016: waits until every finite CSS / Web animation on the page has finished (at most
+ * `ANIMATION_SETTLE_MS`), so axe never measures colours mid-fade. A slower CI runner
+ * caught entrance animations (e.g. `animate-slide-up`, 200 ms opacity) at 0.4–0.9 opacity
+ * and reported color-contrast on text that passes once shown (PLT-028, review.spec).
+ * Infinite animations (skeleton pulse, spinners) are ignored; on timeout axe runs anyway.
+ */
+const ANIMATION_SETTLE_MS = 3_000;
+
+async function animationsSettled(page: Page): Promise<void> {
+  await page
+    .waitForFunction(
+      () =>
+        document.getAnimations().every((animation) => {
+          const end = animation.effect?.getComputedTiming().endTime;
+          return animation.playState !== "running" || end === Infinity;
+        }),
+      null,
+      { timeout: ANIMATION_SETTLE_MS },
+    )
+    .catch(() => undefined);
+}
+
 /** Runs axe on the current page and fails on any serious or critical violation. */
 export async function expectNoSeriousA11yViolations(
   page: Page,
   { knownIssues = [] }: A11yCheckOptions = {},
 ): Promise<void> {
+  await animationsSettled(page);
   let builder = new AxeBuilder({ page }).withTags([
     "wcag2a",
     "wcag2aa",
