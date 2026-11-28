@@ -7,7 +7,9 @@ import { safeNextPath, type AuthErrorCode } from "@/contracts";
 import { Lumi } from "@/components/ui";
 import { exchangeCode, type ClientLoader } from "../email-auth";
 import { finishSignIn } from "../finish-sign-in";
+import { runAccountSwitch, type AccountSwitchOutcome } from "../account-switch";
 import { AUTH_COPY, AUTH_ERROR_MESSAGES } from "../messages";
+import { AccountSwitchResult } from "./AccountSwitchResult";
 import { LINK_CLASSES } from "./EmailAuthForm";
 
 export interface AuthCallbackScreenProps {
@@ -40,6 +42,12 @@ export function AuthCallbackScreen({ load }: AuthCallbackScreenProps) {
   const router = useRouter();
   const started = useRef(false);
   const [failure, setFailure] = useState<AuthErrorCode | null>(null);
+  const [result, setResult] = useState<{
+    outcome: Extract<AccountSwitchOutcome, { kind: "saved" | "failed" | "other-account" }>;
+    userId: string;
+    next: string;
+  } | null>(null);
+  const [retrying, setRetrying] = useState(false);
 
   useEffect(() => {
     if (started.current) return;
@@ -55,10 +63,35 @@ export function AuthCallbackScreen({ load }: AuthCallbackScreenProps) {
         setFailure(outcome.code === "network" ? "network" : "link_expired");
         return;
       }
-      await finishSignIn(outcome.session, { method: "sign-up" });
-      router.replace(next);
+      // A confirmation link finishes a sign-up (PLT-013: the guest's progress is saved).
+      const switched = await finishSignIn(outcome.session, { method: "sign-up" });
+      if (switched.kind === "adopted" || switched.kind === "already-account") {
+        router.replace(next);
+        return;
+      }
+      setResult({ outcome: switched, userId: outcome.session.user.id, next });
     })();
   }, [load, router]);
+
+  if (result) {
+    return (
+      <AccountSwitchResult
+        outcome={result.outcome}
+        next={result.next}
+        retrying={retrying}
+        onRetry={() => {
+          if (retrying) return;
+          setRetrying(true);
+          void runAccountSwitch(result.userId, "sign-up").then((switched) => {
+            setRetrying(false);
+            if (switched.kind === "adopted" || switched.kind === "already-account") {
+              router.replace(result.next);
+            } else setResult({ ...result, outcome: switched });
+          });
+        }}
+      />
+    );
+  }
 
   if (failure) {
     return (

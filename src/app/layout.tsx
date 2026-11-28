@@ -1,9 +1,10 @@
 import type { Metadata, Viewport } from "next";
 import type { ReactNode } from "react";
 import { BRAND_HEX } from "@/components/ui";
-import { SessionBootstrap } from "@/features/auth";
+import { AccountSwitchOverlay, AccountSwitchRetry, SessionBootstrap } from "@/features/auth";
 import { GuestProfileBootstrap } from "@/features/profile";
 import { ICONS } from "./_pwa/pwa-config";
+import { DeviceDataBridge } from "./_shell/DeviceDataBridge";
 import { InstallPromptCapture } from "./_shell/InstallCard";
 import { ServiceWorkerRegistration } from "./_shell/ServiceWorkerRegistration";
 import { UpdateToast } from "./_shell/UpdateToast";
@@ -56,6 +57,9 @@ export default function RootLayout({ children }: Readonly<{ children: ReactNode 
           <ServiceWorkerRegistration />
           <GuestProfileBootstrap />
           <SessionBootstrap />
+          <AccountSwitchRetry />
+          <DeviceDataBridge />
+          <AccountSwitchOverlay />
           {children}
         </Providers>
       </body>

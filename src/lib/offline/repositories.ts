@@ -88,7 +88,7 @@ function validateSettings(settings: unknown): Settings {
  * Reads identity, profile and hearts, creating or repairing them as needed.
  * Corrupt records are replaced, keeping the guest id whenever it can be recovered.
  */
-async function ensureIdentity(
+export async function ensureIdentity(
   tx: StoreTx,
   deps: RepositoryDeps,
 ): Promise<{ identity: Identity; profile: Profile }> {
@@ -154,7 +154,7 @@ async function ensureIdentity(
   return { identity, profile };
 }
 
-async function readHearts(tx: StoreTx, deps: RepositoryDeps): Promise<HeartsState> {
+export async function readHearts(tx: StoreTx, deps: RepositoryDeps): Promise<HeartsState> {
   const read = readRecord(HeartsStateSchema, await tx.get("hearts", CURRENT_KEY));
   if (read.status === "ok") return read.value;
   if (read.status === "corrupt") {
@@ -165,7 +165,7 @@ async function readHearts(tx: StoreTx, deps: RepositoryDeps): Promise<HeartsStat
   return hearts;
 }
 
-async function readSettings(tx: StoreTx, deps: RepositoryDeps): Promise<Settings | null> {
+export async function readSettings(tx: StoreTx, deps: RepositoryDeps): Promise<Settings | null> {
   const read = readRecord(SettingsSchema, await tx.get("settings", CURRENT_KEY));
   if (read.status === "ok") return read.value;
   if (read.status === "corrupt") {

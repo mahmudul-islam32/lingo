@@ -1,18 +1,17 @@
 "use client";
 
 import Link from "next/link";
-import { useRouter } from "next/navigation";
 import { useEffect, useRef, useState } from "react";
-import type { Session } from "@supabase/supabase-js";
 import { safeNextPath } from "@/contracts";
 import { Lumi } from "@/components/ui";
 import type { ClientLoader } from "../email-auth";
-import { finishSignIn } from "../finish-sign-in";
 import { AUTH_COPY, checkInboxText } from "../messages";
 import { useNextParam } from "../use-next-param";
 import { AuthLayout } from "./AuthLayout";
 import { EmailAuthForm, LINK_CLASSES, logInHref } from "./EmailAuthForm";
+import { AccountSwitchResult } from "./AccountSwitchResult";
 import { useSignedInRedirect } from "./SignedInRedirect";
+import { useFinishSignIn } from "./use-finish-sign-in";
 
 export interface SignUpScreenProps {
   load?: ClientLoader;
@@ -20,18 +19,21 @@ export interface SignUpScreenProps {
 
 /** `/sign-up` (PLT-010 AC 2–5, 7–9, 11). */
 export function SignUpScreen({ load }: SignUpScreenProps) {
-  const router = useRouter();
   const next = useNextParam();
   const [pendingEmail, setPendingEmail] = useState<string | null>(null);
-  const [signingIn, setSigningIn] = useState(false);
-  useSignedInRedirect(!signingIn);
+  const signIn = useFinishSignIn("sign-up", safeNextPath(next));
+  useSignedInRedirect();
 
-  async function handleSignedIn(session: Session) {
-    setSigningIn(true);
-    await finishSignIn(session, { method: "sign-up" });
-    router.replace(safeNextPath(next));
+  if (signIn.result) {
+    return (
+      <AccountSwitchResult
+        outcome={signIn.result}
+        next={safeNextPath(next)}
+        onRetry={() => void signIn.retry()}
+        retrying={signIn.retrying}
+      />
+    );
   }
-
   if (pendingEmail !== null) return <CheckInbox email={pendingEmail} />;
 
   return (
@@ -39,7 +41,7 @@ export function SignUpScreen({ load }: SignUpScreenProps) {
       <EmailAuthForm
         mode="sign-up"
         next={next}
-        onSignedIn={handleSignedIn}
+        onSignedIn={signIn.finish}
         onConfirmEmail={setPendingEmail}
         {...(load ? { load } : {})}
       />

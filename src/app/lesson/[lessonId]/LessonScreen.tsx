@@ -5,6 +5,7 @@ import { useRouter } from "next/navigation";
 import { useCallback, useEffect, useRef, useState } from "react";
 import type { CefrLevel, Course, LessonResult, Slug, Uuid } from "@/contracts";
 import { useToast } from "@/components/ui";
+import { offerSaveProgress } from "@/features/auth";
 import { settingsQuery, useGoalPlan, useUserProgress } from "@/features/gamification";
 import {
   HeartsLessonPlayer,
@@ -130,6 +131,10 @@ export function LessonScreen({
   const [attempt, setAttempt] = useState(0);
 
   const goToLearn = useCallback(() => router.push(LEARN_PATH), [router]);
+  // PLT-013: after the results screen's "Continue", Learn may open "Save your progress".
+  const continueToLearn = useCallback(() => {
+    void offerSaveProgress().finally(() => router.push(LEARN_PATH));
+  }, [router]);
   const retryLoad = useCallback(() => {
     void course.refetch();
     void lesson.refetch();
@@ -173,7 +178,7 @@ export function LessonScreen({
         result={finished}
         save={save}
         onSaved={handleSaved}
-        onContinue={goToLearn}
+        onContinue={continueToLearn}
         onRetryLesson={practiceAgain}
         goalPlan={goalPlan}
       />

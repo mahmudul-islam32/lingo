@@ -1,17 +1,15 @@
 "use client";
 
 import Link from "next/link";
-import { useRouter } from "next/navigation";
-import { useState } from "react";
-import type { Session } from "@supabase/supabase-js";
 import { safeNextPath } from "@/contracts";
 import type { ClientLoader } from "../email-auth";
-import { finishSignIn } from "../finish-sign-in";
 import { AUTH_COPY } from "../messages";
 import { useNextParam } from "../use-next-param";
 import { AuthLayout } from "./AuthLayout";
 import { EmailAuthForm, LINK_CLASSES, signUpHref } from "./EmailAuthForm";
+import { AccountSwitchResult } from "./AccountSwitchResult";
 import { useSignedInRedirect } from "./SignedInRedirect";
+import { useFinishSignIn } from "./use-finish-sign-in";
 
 export interface LogInScreenProps {
   load?: ClientLoader;
@@ -19,15 +17,19 @@ export interface LogInScreenProps {
 
 /** `/log-in` (PLT-010 AC 6, 8–9, 11). "Forgot password?" arrives with PLT-012 (PD-077). */
 export function LogInScreen({ load }: LogInScreenProps) {
-  const router = useRouter();
   const next = useNextParam();
-  const [signingIn, setSigningIn] = useState(false);
-  useSignedInRedirect(!signingIn);
+  const signIn = useFinishSignIn("log-in", safeNextPath(next));
+  useSignedInRedirect();
 
-  async function handleSignedIn(session: Session) {
-    setSigningIn(true);
-    await finishSignIn(session, { method: "log-in" });
-    router.replace(safeNextPath(next));
+  if (signIn.result) {
+    return (
+      <AccountSwitchResult
+        outcome={signIn.result}
+        next={safeNextPath(next)}
+        onRetry={() => void signIn.retry()}
+        retrying={signIn.retrying}
+      />
+    );
   }
 
   return (
@@ -35,7 +37,7 @@ export function LogInScreen({ load }: LogInScreenProps) {
       <EmailAuthForm
         mode="log-in"
         next={next}
-        onSignedIn={handleSignedIn}
+        onSignedIn={signIn.finish}
         {...(load ? { load } : {})}
       />
       <p className="text-center">

@@ -4,6 +4,7 @@
  * (some private browsing modes); `storage.persistent` tells the UI to show the
  * "can't save" notice.
  */
+import { createLocalAccountStore, type LocalAccountStore } from "./account";
 import { openDexieStore, type OpenDexieOptions } from "./db";
 import { newUuid, systemClock } from "./ids";
 import { MemoryLocalStore } from "./memory-store";
@@ -31,6 +32,8 @@ export interface LocalSession {
   profile: LocalProfileRepository;
   progress: LocalProgressRepository;
   syncQueue: SyncQueueStore;
+  /** Guest → account switch (PLT-013). */
+  account: LocalAccountStore;
   close(): void;
 }
 
@@ -52,6 +55,7 @@ function wire(
     profile: createLocalProfileRepository(store, deps),
     progress: createLocalProgressRepository(store, deps),
     syncQueue: createSyncQueueStore(store, deps.report),
+    account: createLocalAccountStore(store, deps),
     close: () => store.close(),
   };
 }

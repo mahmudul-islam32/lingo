@@ -23,6 +23,17 @@ export const AUTH_COPY = {
   checkInboxTitle: "Check your inbox",
   backToLearn: "Back to Learn",
   signingIn: "Signing you in…",
+  savingProgress: "Saving your progress…",
+  progressSaved: "Your progress is saved.",
+  saveFailed: "We couldn't save your progress yet. It's safe on this device.",
+  tryAgain: "Try again",
+  continue: "Continue",
+  otherAccount:
+    "This device is signed in to another account. Log out in Profile first, then log in again.",
+  savePromptTitle: "Save your progress",
+  savePromptText: "Create an account to keep your XP, streak and goal date on every device.",
+  notNow: "Not now",
+  close: "Close",
 } as const;
 
 /** "Open the link we sent to <email> to finish creating your account." (criterion 7). */

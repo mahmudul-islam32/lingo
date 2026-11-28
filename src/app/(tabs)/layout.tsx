@@ -1,4 +1,5 @@
 import type { ReactNode } from "react";
+import { SaveProgressDialog } from "@/features/auth";
 import { BottomNav } from "../_shell/BottomNav";
 import { Main } from "../_shell/Main";
 import { OfflineBanner } from "../_shell/OfflineBanner";
@@ -10,7 +11,8 @@ import { BOTTOM_NAV_CLEARANCE_CLASS } from "../_shell/main-landmark";
  * bottom navigation. Content gets bottom padding equal to the nav + safe area, so the
  * last element is never covered. Until onboarding is complete, the gate redirects to
  * `/onboarding` (PLT-004). The offline banner (PLT-006) sits in the flow above
- * `<main>`, so it never overlaps the nav or page content.
+ * `<main>`, so it never overlaps the nav or page content. The "Save your progress"
+ * dialog (PLT-013) opens here after a lesson's "Continue", never during a lesson.
  */
 export default function TabsLayout({ children }: Readonly<{ children: ReactNode }>) {
   return (
@@ -20,6 +22,7 @@ export default function TabsLayout({ children }: Readonly<{ children: ReactNode 
         <OnboardingGate require="onboarded">{children}</OnboardingGate>
       </Main>
       <BottomNav />
+      <SaveProgressDialog />
     </>
   );
 }

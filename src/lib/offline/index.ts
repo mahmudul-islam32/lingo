@@ -26,6 +26,12 @@ export {
   type StorageInfo,
 } from "./session";
 export type { SyncQueueStore } from "./sync-queue";
+export {
+  buildGuestMigrationPayload,
+  type AccountSwitchMode,
+  type DeviceSnapshot,
+  type LocalAccountStore,
+} from "./account";
 export type { CorruptRecordEvent, CorruptRecordReporter } from "./validation";
 export {
   loadLocalProgress,

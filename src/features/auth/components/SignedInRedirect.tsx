@@ -5,17 +5,18 @@ import { useEffect, useRef } from "react";
 import { useSession } from "../session-store";
 
 /**
- * The auth screens are hidden while signed in (ADR-020 §8): a signed-in learner who opens
- * `/sign-up` or `/log-in` goes to Learn. `active` is false while this screen itself is
- * signing in (it navigates on its own). An expired session may log in again.
+ * The auth screens are hidden while signed in (ADR-020 §8): a learner who is already
+ * signed in when the screen opens goes to Learn. Decided once, when the stored session
+ * has been read, so a sign-in on this screen (which navigates on its own) never triggers
+ * it. An expired session may log in again.
  */
-export function useSignedInRedirect(active: boolean): void {
+export function useSignedInRedirect(): void {
   const router = useRouter();
   const { ready, status } = useSession();
-  const done = useRef(false);
+  const decided = useRef(false);
   useEffect(() => {
-    if (!active || done.current || !ready || status !== "signed-in") return;
-    done.current = true;
-    router.replace("/");
-  }, [active, ready, status, router]);
+    if (decided.current || !ready) return;
+    decided.current = true;
+    if (status === "signed-in") router.replace("/");
+  }, [ready, status, router]);
 }

@@ -28,6 +28,12 @@ export interface GuestProfileState {
 
   /** Opens storage and creates the guest on first launch. Safe to call more than once. */
   init(): Promise<void>;
+  /**
+   * Re-reads identity, profile and settings from the device, e.g. after the guest became
+   * an account or a sync pull changed them (PLT-013, PLT-015). Keeps the current values on
+   * a read error.
+   */
+  reload(): Promise<void>;
   /** Validates and saves; rejects with a typed `LocalDataError` (nothing is stored). */
   updateSettings(patch: SettingsPatch): Promise<Settings>;
   completeOnboarding(): Promise<Profile>;
@@ -80,6 +86,25 @@ export function createGuestProfileStore(
         }
       })();
       return initPromise;
+    },
+
+    reload: async () => {
+      if (get().status !== "ready") {
+        await get().init();
+        return;
+      }
+      try {
+        const session = await deps.loadSession();
+        const { identity, profile, settings } = await session.profile.bootstrap();
+        set({
+          identity,
+          profile,
+          settings,
+          onboardingComplete: profile.onboardedAt !== null,
+        });
+      } catch {
+        // Keep what is shown; the next write or start reads again.
+      }
     },
 
     updateSettings: async (patch) => {
