@@ -124,3 +124,20 @@ Personas: **learner** (any user), **guest** (no account), **signed-in learner**,
 | US-SR-02 | As a learner, I want a short review of exercises I already answered, mixing lessons, so that I keep what I learned without replaying whole lessons. | P1 |
 | US-SR-03 | As a learner, I want the Practice tab to tell me how many exercises are ready for review so that I know when reviewing is worth it. | P1 |
 | US-SR-04 | As a learner, I want review to be free, possible at 0 hearts, earn hearts back and count for my daily goal so that reviewing never feels like a cost. | P1 |
+
+## Life in Germany topics (added 2026-11-28, PD-086)
+
+| ID | Story | Priority |
+|---|---|---|
+| US-TP-01 | As a newcomer to Germany, I want to browse lessons by everyday situation (registering my address, the doctor, the train …) so that I can practise what I need this week. | P1 |
+| US-TP-02 | As a learner browsing a topic, I want to see which of its lessons I've done, which I can play now and which are locked so that I know where I stand. | P1 |
+| US-TP-03 | As a learner, I want topics to respect my path so that browsing never skips me past lessons I haven't unlocked. | P1 |
+
+## Accounts and sync (added 2026-11-28, PD-087; with US-PLT-04 … 09, 15, 16)
+
+| ID | Story | Priority |
+|---|---|---|
+| US-AC-01 | As a learner with an account, I want to sign in on another device and continue exactly where I left off so that my progress isn't tied to one phone. | P0 |
+| US-AC-02 | As a signed-in learner, I want to see whether my progress is saved and synced so that I know it's safe. | P1 |
+| US-AC-03 | As a returning learner on a new device, I want to log in from the first screen and skip onboarding so that I'm back on my path in seconds. | P1 |
+| US-AC-04 | As a learner logging out with results that haven't synced, I want a clear warning so that I don't lose them by accident. | P0 |

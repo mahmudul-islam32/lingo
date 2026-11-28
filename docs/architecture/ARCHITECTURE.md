@@ -12,7 +12,9 @@
   [ADR-015 goal date](adr/ADR-015-goal-date.md),
   [ADR-018 goal plan per course](adr/ADR-018-goal-plan-per-course.md),
   [ADR-019 smart review outcomes](adr/ADR-019-smart-review-outcomes.md),
+  [ADR-020 accounts and sync engine](adr/ADR-020-accounts-and-sync-engine.md),
   [ADR-021 topics](adr/ADR-021-topics.md)
+- Local Supabase harness: [local-supabase.md](local-supabase.md)
 - Proposed (B1 tech plan CTO-010): [ADR-010 typed answers](adr/ADR-010-typed-answers.md),
   [ADR-011 reading passages](adr/ADR-011-reading-passages.md),
   [ADR-012 grammar note card](adr/ADR-012-grammar-note-card.md)
@@ -223,6 +225,10 @@ devices within seconds, which is acceptable for MVP.
   `updateSettings` creates it with `DEFAULT_SETTINGS` for the toggles and
   `completeOnboarding` sets `onboardedAt` (CR-002). No network call is needed, so G1 (first lesson within 2 minutes) works even
   offline. Guests play with the same rules, hearts included (PD-003 Q3).
+- **Accounts flag (ADR-020 §1).** Accounts exist only when `NEXT_PUBLIC_SUPABASE_URL` and
+  `NEXT_PUBLIC_SUPABASE_ANON_KEY` are set at build time; otherwise the build is guest-only
+  with no auth UI and zero Supabase requests. Push, pull, the callback route, account
+  switching and log-out: ADR-020.
 - **Accounts.** Supabase Auth with email + password, Google OAuth and password reset,
   using the browser client (`@supabase/supabase-js`, session persisted in
   localStorage). No SSR auth. Auth screens need a connection and say so when offline.
@@ -233,7 +239,8 @@ devices within seconds, which is acceptable for MVP.
   - lesson results: inserted with `ON CONFLICT DO NOTHING` (union);
   - new account (no remote rows): guest profile, settings and hearts become the
     account's, `joinedAt` kept from the guest;
-  - existing account: newer `updatedAt` wins per record;
+  - existing account: newer `updatedAt` wins per record, except settings, which merge
+    (`goalPlans` united by course, `startLevel` never dropped; ADR-020 §8);
   - on success the client rewrites `identity` to `account`, clears the guest queue
     and pulls. On failure nothing changes locally and the prompt can retry.
 - **Log out** clears the Dexie database after a final sync attempt (warns if unsynced

@@ -16,7 +16,9 @@
     "test": "vitest run",
     "test:watch": "vitest",
     "test:coverage": "vitest run --coverage",
-    "test:e2e": "playwright test"
+    "test:e2e": "playwright test",
+    "test:e2e:accounts": "playwright test -c playwright.accounts.config.ts",
+    "test:db": "psql \"${SUPABASE_DB_URL:-postgresql://postgres:postgres@127.0.0.1:54322/postgres}\" -v ON_ERROR_STOP=1 -q -f supabase/tests/accounts.test.sql"
   },
   "dependencies": {
     "@serwist/next": "9.5.13",

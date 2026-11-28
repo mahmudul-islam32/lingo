@@ -44,12 +44,54 @@ export type SyncRecordKind = SyncQueueRecord["kind"];
 export const SyncStatusSchema = z.enum(["idle", "syncing", "offline", "error"]);
 export type SyncStatus = z.infer<typeof SyncStatusSchema>;
 
+/**
+ * Lesson-result pull cursor: the last `(created_at, id)` seen. Composite because one guest
+ * migration inserts up to 10,000 results with the same `created_at`, more than one page
+ * (`max_rows` 1000), so a timestamp alone would loop or skip rows (ADR-020 §6).
+ */
+export const LessonResultCursorSchema = z.object({
+  createdAt: IsoDateTimeSchema,
+  id: UuidSchema,
+});
+export type LessonResultCursor = z.infer<typeof LessonResultCursorSchema>;
+
+/**
+ * Pull cursors (CTO-025, ADR-020 §6): the last **server** value seen per table, never a
+ * client clock. `lessonResults` pages by `(created_at, id)` (append-only); the one-row
+ * tables by `server_updated_at`. `null` = pull everything.
+ */
+export const SyncPullCursorsSchema = z.object({
+  lessonResults: LessonResultCursorSchema.nullable(),
+  profile: IsoDateTimeSchema.nullable(),
+  settings: IsoDateTimeSchema.nullable(),
+  hearts: IsoDateTimeSchema.nullable(),
+});
+export type SyncPullCursors = z.infer<typeof SyncPullCursorsSchema>;
+
 /** Per-device sync bookkeeping (Dexie `meta` table). */
 export const SyncMetaSchema = z.object({
   lastPushAt: IsoDateTimeSchema.nullable(),
   lastPullAt: IsoDateTimeSchema.nullable(),
+  /** Missing until the first pull (records stored before CTO-025 stay valid). */
+  pullCursors: SyncPullCursorsSchema.optional(),
 });
 export type SyncMeta = z.infer<typeof SyncMetaSchema>;
+
+/**
+ * One pull round (CTO-025, ADR-020 §6). `lessonResults` holds at most one page (the server
+ * caps rows at `max_rows`, 1000); `hasMore` says to pull again with the returned cursors.
+ * The one-row facts are `null` when unchanged since the cursor. Every row is parsed with
+ * the contract schema before it is merged; a row that fails is skipped and logged.
+ */
+export const SyncPullResultSchema = z.object({
+  lessonResults: z.array(LessonResultSchema),
+  profile: ProfileSchema.nullable(),
+  settings: SettingsSchema.nullable(),
+  hearts: HeartsStateSchema.nullable(),
+  cursors: SyncPullCursorsSchema,
+  hasMore: z.boolean(),
+});
+export type SyncPullResult = z.infer<typeof SyncPullResultSchema>;
 
 /** Outcome of one push of the queue. */
 export const SyncPushResultSchema = z.object({
@@ -64,7 +106,10 @@ export type SyncPushResult = z.infer<typeof SyncPushResultSchema>;
  * Everything a guest has on the device, uploaded once when they create an account
  * or log in (US-PLT-05). Server merge rules: lesson results are unioned by id;
  * for a brand-new account guest profile/settings/hearts become the account's;
- * for an existing account the newer `updatedAt` wins per record.
+ * for an existing account the newer `updatedAt` wins per record, except that settings
+ * are merged (CTO-025, ADR-020 §8): `goalPlans` are united by course id (the newer record
+ * wins a shared course) and `startLevel` is never dropped; a legacy `goalPlan` counts for
+ * its record's `courseId`.
  */
 export const GuestMigrationPayloadSchema = z.object({
   schemaVersion: z.literal(CONTRACTS_VERSION),
