@@ -1,6 +1,7 @@
 import type { Metadata, Viewport } from "next";
 import type { ReactNode } from "react";
 import { BRAND_HEX } from "@/components/ui";
+import { SessionBootstrap } from "@/features/auth";
 import { GuestProfileBootstrap } from "@/features/profile";
 import { ICONS } from "./_pwa/pwa-config";
 import { InstallPromptCapture } from "./_shell/InstallCard";
@@ -39,7 +40,8 @@ export const viewport: Viewport = {
  * Root layout: `<html lang="en">`, the skip link (first focusable element), app
  * providers, the install-prompt capture and update toast (PLT-005), the service worker
  * registration (PLT-002, production only) and the
- * guest-profile bootstrap (PLT-003), whose storage notice renders
+ * guest-profile bootstrap (PLT-003) and the auth session bootstrap (PLT-010, a no-op
+ * without the accounts flag), whose storage notice renders
  * directly above `<main>`. It has no `<main>` or `<h1>` itself: each route renders
  * exactly one of each (the `(tabs)` layout owns `<main>` for Learn and Profile).
  */
@@ -53,6 +55,7 @@ export default function RootLayout({ children }: Readonly<{ children: ReactNode 
           <UpdateToast />
           <ServiceWorkerRegistration />
           <GuestProfileBootstrap />
+          <SessionBootstrap />
           {children}
         </Providers>
       </body>

@@ -1,0 +1,81 @@
+"use client";
+
+import Link from "next/link";
+import { useRouter } from "next/navigation";
+import { useEffect, useRef, useState } from "react";
+import type { Session } from "@supabase/supabase-js";
+import { safeNextPath } from "@/contracts";
+import { Lumi } from "@/components/ui";
+import type { ClientLoader } from "../email-auth";
+import { finishSignIn } from "../finish-sign-in";
+import { AUTH_COPY, checkInboxText } from "../messages";
+import { useNextParam } from "../use-next-param";
+import { AuthLayout } from "./AuthLayout";
+import { EmailAuthForm, LINK_CLASSES, logInHref } from "./EmailAuthForm";
+import { useSignedInRedirect } from "./SignedInRedirect";
+
+export interface SignUpScreenProps {
+  load?: ClientLoader;
+}
+
+/** `/sign-up` (PLT-010 AC 2–5, 7–9, 11). */
+export function SignUpScreen({ load }: SignUpScreenProps) {
+  const router = useRouter();
+  const next = useNextParam();
+  const [pendingEmail, setPendingEmail] = useState<string | null>(null);
+  const [signingIn, setSigningIn] = useState(false);
+  useSignedInRedirect(!signingIn);
+
+  async function handleSignedIn(session: Session) {
+    setSigningIn(true);
+    await finishSignIn(session, { method: "sign-up" });
+    router.replace(safeNextPath(next));
+  }
+
+  if (pendingEmail !== null) return <CheckInbox email={pendingEmail} />;
+
+  return (
+    <AuthLayout title={AUTH_COPY.signUpTitle}>
+      <EmailAuthForm
+        mode="sign-up"
+        next={next}
+        onSignedIn={handleSignedIn}
+        onConfirmEmail={setPendingEmail}
+        {...(load ? { load } : {})}
+      />
+      <p className="text-center">
+        {AUTH_COPY.haveAccount}{" "}
+        <Link href={logInHref(next)} className={LINK_CLASSES}>
+          {AUTH_COPY.logIn}
+        </Link>
+      </p>
+    </AuthLayout>
+  );
+}
+
+/**
+ * Email confirmation pending (PLT-010 AC 7, PD-087): the learner stays a guest and loses
+ * nothing; the link in the mail finishes the sign-up on `/auth/callback`.
+ */
+export function CheckInbox({ email }: { email: string }) {
+  const headingRef = useRef<HTMLHeadingElement>(null);
+  useEffect(() => headingRef.current?.focus(), []);
+  return (
+    <div className="flex flex-col items-center gap-4 pb-10 text-center">
+      <Lumi pose="happy" size="md" />
+      <h1
+        ref={headingRef}
+        tabIndex={-1}
+        className="font-display text-3xl font-extrabold tracking-[-0.02em] outline-none"
+      >
+        {AUTH_COPY.checkInboxTitle}
+      </h1>
+      <p role="status" className="break-words text-fg-muted [overflow-wrap:anywhere]">
+        {checkInboxText(email)}
+      </p>
+      <Link href="/" className={LINK_CLASSES}>
+        {AUTH_COPY.backToLearn}
+      </Link>
+    </div>
+  );
+}

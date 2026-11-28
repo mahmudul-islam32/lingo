@@ -4,7 +4,13 @@ import { describe, expect, it } from "vitest";
 import { BRAND_HEX } from "@/components/ui";
 import manifest from "../../manifest";
 import { allBundledLessonPaths } from "@/lib/content/static-params";
-import { ICONS, LESSON_ROUTES, PRECACHED_ROUTES, isSupabaseRequest } from "../pwa-config";
+import {
+  ACCOUNT_ROUTES,
+  ICONS,
+  LESSON_ROUTES,
+  PRECACHED_ROUTES,
+  isSupabaseRequest,
+} from "../pwa-config";
 
 const PUBLIC_DIR = path.resolve(__dirname, "../../../../public");
 
@@ -66,6 +72,11 @@ describe("service worker config (PLT-002)", () => {
     expect(PRECACHED_ROUTES).toEqual(
       expect.arrayContaining(["/", "/practice", "/leagues", "/profile", "/onboarding", "/offline"]),
     );
+  });
+
+  it("never precaches the account screens in a guest-only build (PLT-010, ADR-020 §1)", () => {
+    // The test environment has no Supabase variables: these routes are redirects to Learn.
+    for (const route of ACCOUNT_ROUTES) expect(PRECACHED_ROUTES).not.toContain(route);
   });
 
   it("precaches every prerendered lesson page (PLT-007 criterion 7)", () => {
