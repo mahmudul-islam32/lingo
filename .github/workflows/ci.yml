@@ -25,6 +25,8 @@ jobs:
       - run: npm ci
       - run: npm run typecheck
       - run: npm run lint
+      # CTO-022: formatting is gated (agents' own docs are listed in .prettierignore).
+      - run: npm run format:check
       - run: npm run test
       - run: npm run build
 
