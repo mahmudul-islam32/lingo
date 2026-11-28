@@ -78,7 +78,11 @@
       "direction": "to_learning",
       "prompt": "Now I'm learning German.",
       "tiles": ["jetzt", "lerne", "ich", "Deutsch", "lernst", "du", "spreche"],
-      "answers": ["Jetzt lerne ich Deutsch.", "Ich lerne jetzt Deutsch.", "Deutsch lerne ich jetzt."]
+      "answers": [
+        "Jetzt lerne ich Deutsch.",
+        "Ich lerne jetzt Deutsch.",
+        "Deutsch lerne ich jetzt."
+      ]
     },
     {
       "id": "de-a1-u02-l3-ex08",
