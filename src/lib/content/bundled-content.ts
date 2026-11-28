@@ -49,6 +49,12 @@ export interface ContentLoaders {
   courses: Readonly<Record<string, JsonLoader>>;
   /** Lesson files by course id, then lesson id. */
   lessons: Readonly<Record<string, Readonly<Record<string, JsonLoader>>>>;
+  /**
+   * `content/courses/<courseId>/topics.json` by course id (CTO-023, ADR-021); a course
+   * without topics has no entry. A dynamic `import()` like lessons, so it is its own
+   * precached chunk. Adding a topics file needs one line here (CON-005 adds `en-de`).
+   */
+  topics?: Readonly<Record<string, JsonLoader>>;
 }
 
 const json =

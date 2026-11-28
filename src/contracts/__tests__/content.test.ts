@@ -4,11 +4,13 @@
  * rules the single-file schemas cannot see. Layout (ARCHITECTURE.md §Content):
  *   content/courses/<courseId>/course.json
  *   content/courses/<courseId>/lessons/<lessonId>.json
+ *   content/courses/<courseId>/topics.json   (optional, CTO-023, ADR-021)
  */
 import { existsSync, readdirSync, readFileSync } from "node:fs";
 import { join } from "node:path";
 import { describe, expect, it } from "vitest";
-import { CourseSchema, LessonSchema } from "../index";
+import { CourseSchema, CourseTopicsSchema, LessonSchema, courseTopicsIssues } from "../index";
+import { BUNDLED_CONTENT } from "../../lib/content/bundled-content";
 
 const COURSES_DIR = join(process.cwd(), "content", "courses");
 const PUBLIC_DIR = join(process.cwd(), "public");
@@ -84,6 +86,21 @@ describe("content/courses", () => {
     const lessonFiles = existsSync(lessonsDir)
       ? readdirSync(lessonsDir).filter((f) => f.endsWith(".json"))
       : [];
+
+    // CTO-023 (ADR-021): an optional topics file, valid against the schema and this course.
+    const topicsPath = join(dir, "topics.json");
+    it("topics.json (if any) matches CourseTopicsSchema, this course and the loaders", () => {
+      const registered = Object.hasOwn(BUNDLED_CONTENT.topics ?? {}, courseDir);
+      if (!existsSync(topicsPath)) {
+        expect(registered, `BUNDLED_CONTENT.topics has "${courseDir}" but no file`).toBe(false);
+        return;
+      }
+      const topics = CourseTopicsSchema.safeParse(readJson(topicsPath));
+      expect(topics.error?.issues ?? []).toEqual([]);
+      if (topics.data && course.data)
+        expect(courseTopicsIssues(course.data, topics.data)).toEqual([]);
+      expect(registered, `add "${courseDir}" to BUNDLED_CONTENT.topics`).toBe(true);
+    });
 
     it("has exactly one lesson file per lesson in the manifest", () => {
       const manifestIds = (course.data?.units ?? []).flatMap((u) => u.lessons.map((l) => l.id));

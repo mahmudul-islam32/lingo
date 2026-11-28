@@ -6,12 +6,15 @@
  */
 import {
   CourseSchema,
+  CourseTopicsSchema,
   LessonSchema,
+  courseTopicsIssues,
   type ContentRepository,
   type Course,
   type Lesson,
   type LessonSummary,
   type Slug,
+  type Topic,
   type Unit,
 } from "@/contracts";
 import type { z } from "zod";
@@ -47,6 +50,7 @@ export function formatContentIssues(error: z.ZodError): string[] {
 export const courseFile = (courseId: Slug) => `content/courses/${courseId}/course.json`;
 export const lessonFile = (courseId: Slug, lessonId: Slug) =>
   `content/courses/${courseId}/lessons/${lessonId}.json`;
+export const topicsFile = (courseId: Slug) => `content/courses/${courseId}/topics.json`;
 
 /** Parses a raw course manifest; throws `ContentValidationError` naming the file. */
 export function parseCourse(raw: unknown, courseId: Slug): Course {
@@ -91,6 +95,7 @@ export function createContentRepository(
 ): BundledContentRepository {
   const courses = new Map<Slug, Promise<Course>>();
   const lessons = new Map<string, Promise<Lesson>>();
+  const topics = new Map<Slug, Promise<Topic[]>>();
 
   function memo<T>(cache: Map<string, Promise<T>>, key: string, load: () => Promise<T>) {
     const cached = cache.get(key);
@@ -132,9 +137,26 @@ export function createContentRepository(
       return lesson;
     });
 
+  // CTO-023 (ADR-021): `[]` for a course without a topics file; the file is validated
+  // against the schema and the course manifest, like a lesson.
+  const getTopics = (courseId: Slug): Promise<Topic[]> =>
+    memo(topics, courseId, async () => {
+      const course = await getCourse(courseId);
+      const load = own(loaders.topics ?? {}, courseId);
+      if (!load) return [];
+      const file = topicsFile(courseId);
+      const parsed = CourseTopicsSchema.safeParse(await load());
+      if (!parsed.success)
+        throw new ContentValidationError(file, formatContentIssues(parsed.error));
+      const issues = courseTopicsIssues(course, parsed.data);
+      if (issues.length > 0) throw new ContentValidationError(file, issues);
+      return parsed.data.topics;
+    });
+
   return {
     getCourse,
     getLesson,
+    getTopics,
     preloadLessons: async (courseId, lessonIds) => {
       await Promise.allSettled(lessonIds.map((id) => getLesson(courseId, id)));
     },

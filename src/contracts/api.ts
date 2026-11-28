@@ -18,6 +18,7 @@ import type {
 } from "./gamification";
 import type { LessonResult, XpBreakdown } from "./lesson-session";
 import type { ReviewSelection } from "./review";
+import type { Topic } from "./topics";
 import type { GuestMigrationPayload, SyncPushResult, SyncQueueRecord, SyncStatus } from "./sync";
 import type {
   DailyGoalXp,
@@ -197,6 +198,12 @@ export type ToLocalDate = (instant: Date, timeZone: string) => LocalDate;
 export interface ContentRepository {
   getCourse(courseId: Slug): Promise<Course>;
   getLesson(courseId: Slug, lessonId: Slug): Promise<Lesson>;
+  /**
+   * The topics of a course in file order (CTO-023, ADR-021), validated with
+   * `CourseTopicsSchema` and `courseTopicsIssues`; `[]` for a course without topics.
+   * Bundled and offline like lessons. Query key: `queryKeys.topics(courseId)`.
+   */
+  getTopics(courseId: Slug): Promise<Topic[]>;
 }
 
 /** src/lib/offline — local Dexie store for the current identity. */

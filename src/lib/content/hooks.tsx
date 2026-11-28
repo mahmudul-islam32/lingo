@@ -39,6 +39,14 @@ export function lessonQueryOptions(repository: ContentRepository, courseId: Slug
   });
 }
 
+/** `["topics", courseId]` → `Topic[]` (CTO-023, ADR-021); `[]` without topics. */
+export function topicsQueryOptions(repository: ContentRepository, courseId: Slug) {
+  return queryOptions({
+    queryKey: queryKeys.topics(courseId),
+    queryFn: () => repository.getTopics(courseId),
+  });
+}
+
 /** The course manifest, validated against `CourseSchema`. */
 export function useCourse(courseId: Slug) {
   return useQuery(courseQueryOptions(useContentRepository(), courseId));
