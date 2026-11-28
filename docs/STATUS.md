@@ -33,7 +33,9 @@
   content test fails until it is added. Then pm acceptance and the v0.5.6 release.
 - **Flake:** `review.spec.ts:123` (offline review) failed 1 in 10 local runs. Assign it to dev-platform.
 - **cto:** switch the Supabase config from `auth.email.enable_signup` to `auth.email.enabled`
-  (CLI 3.4.0 deprecation). Part B (CTO-024) waits until the owner provides hosted Supabase.
+  (CLI 3.4.0 deprecation). Part B (CTO-024) can start its runbook (`docs/architecture/hosted-supabase.md`) now that the
+  owner gave the project URL and publishable key (see "Waiting on owner"). Migrations wait on O2
+  and redirects on O4. This container's network blocks `*.supabase.co`, so reach it from CI.
 - **Carried over:**
   - Marketing screenshots for v0.5.4 and v0.5.5, and the README refresh (orchestrator).
   - Precaching lessons per course.
@@ -51,10 +53,12 @@
   create tags or releases.
 - Go-ahead to delete merged branches (agents are blocked from deleting branches).
 - **Hosted Supabase for v0.6.0 part B (O1–O5):**
-  - Create the project in an EU region.
-  - Give the team only the project URL and the anon key. Never share the service-role key or the
-    database password.
-  - Add the migration secrets to GitHub Actions yourself.
+  - O1 done (2026-11-28): project URL `https://puitzylpkxqnvbkkubyf.supabase.co`, publishable key
+    `sb_publishable_BsyWb044n3gZP-p-WhhFXQ_vUq6JaJC`. Both are public values. Don't set them in a
+    production build until v0.6.0 part A has passed acceptance (PD-087).
+  - Never share the service-role key or the database password.
+  - O2: add `SUPABASE_ACCESS_TOKEN`, `SUPABASE_PROJECT_REF` and `SUPABASE_DB_PASSWORD` as GitHub
+    Actions secrets yourself.
   - Set up a Google OAuth client and give the team the app URL.
   - Later: a custom email sender.
 - **Exam courses (marketing A7/A8, PD-084):** confirm the source and licence of the telc B1
