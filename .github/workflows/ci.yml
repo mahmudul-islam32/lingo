@@ -70,7 +70,7 @@ jobs:
       - run: npm ci
       - uses: supabase/setup-cli@v1
         with:
-          version: latest
+          version: 3.4.0
       - name: Start the local Supabase stack
         run: supabase start -x studio,imgproxy,edge-runtime,logflare,vector,realtime,storage-api,postgres-meta
       - name: Export the local stack's URL and keys
